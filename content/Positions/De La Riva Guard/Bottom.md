@@ -21,13 +21,13 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva to X-Guard Transition",
-      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {

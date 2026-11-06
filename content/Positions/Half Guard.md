@@ -295,11 +295,11 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (9% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (8% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (14% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (13% of attempts)
 
 - **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (7% of attempts)
 
@@ -331,13 +331,15 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/Half Guard Whizzer Counter/Attacker|Half Guard Whizzer Counter]]** (4% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (11% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (10% of attempts)
 
 - **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (3% of attempts)
 
 - **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (5% of attempts)
 
 - **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (3% of attempts)
+
+- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (4% of attempts)
 
 
 ### Common Mistakes

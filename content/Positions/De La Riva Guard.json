@@ -95,15 +95,15 @@
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 10
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
@@ -111,13 +111,44 @@
         "attempt_probability": {
           "gi": 6,
           "nogi": 5
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 41,
+          "nogi": 42
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 42,
+              "nogi": 42
+            },
+            "result": "success"
+          },
+          {
+            "to": "De La Riva Guard/Top",
+            "probability": {
+              "gi": 42,
+              "nogi": 42
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
@@ -125,27 +156,97 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 6
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 42,
+          "nogi": 42
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 42,
+              "nogi": 42
+            },
+            "result": "success"
+          },
+          {
+            "to": "De La Riva Guard/Top",
+            "probability": {
+              "gi": 36,
+              "nogi": 36
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 22,
+              "nogi": 22
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
           "gi": 5,
           "nogi": 4
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 49,
+          "nogi": 49
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 49,
+              "nogi": 49
+            },
+            "result": "success"
+          },
+          {
+            "to": "De La Riva Guard/Top",
+            "probability": {
+              "gi": 21,
+              "nogi": 21
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 19,
+              "nogi": 19
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Back Step Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Body Lock Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 13
+          "gi": 8,
+          "nogi": 12
         },
         "deal_here": true,
         "success_rate": {
@@ -197,8 +298,8 @@
       {
         "transition": "Toreando Pass from De La Riva",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
@@ -221,6 +322,52 @@
           "gi": 6,
           "nogi": 6
         }
+      },
+      {
+        "transition": "Over-Under Pass",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 44,
+          "nogi": 49
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 49,
+              "nogi": 49
+            },
+            "result": "success"
+          },
+          {
+            "to": "De La Riva Guard/Top",
+            "probability": {
+              "gi": 21,
+              "nogi": 21
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 10,
+              "nogi": 10
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "counter"
+          }
+        ]
       }
     ],
     "decision_tree": [
@@ -435,21 +582,21 @@
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 25
+          "gi": 16,
+          "nogi": 23
         }
       },
       {
         "transition": "De La Riva to X-Guard Transition",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 18
+          "gi": 12,
+          "nogi": 17
         }
       },
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 9,
           "nogi": 6
         }
       },
@@ -458,7 +605,38 @@
         "attempt_probability": {
           "gi": 11,
           "nogi": 22
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 44,
+          "nogi": 44
+        },
+        "outcomes": [
+          {
+            "to": "Single Leg X-Guard/Bottom",
+            "probability": {
+              "gi": 44,
+              "nogi": 44
+            },
+            "result": "success"
+          },
+          {
+            "to": "De La Riva Guard/Bottom",
+            "probability": {
+              "gi": 35,
+              "nogi": 35
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 21,
+              "nogi": 21
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Waiter Sweep",
@@ -472,19 +650,50 @@
         "attempt_probability": {
           "gi": 2,
           "nogi": 2
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 48,
+          "nogi": 39
+        },
+        "outcomes": [
+          {
+            "to": "Mount/Top",
+            "probability": {
+              "gi": 39,
+              "nogi": 39
+            },
+            "result": "success"
+          },
+          {
+            "to": "De La Riva Guard/Bottom",
+            "probability": {
+              "gi": 37,
+              "nogi": 37
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 24,
+              "nogi": 24
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Sickle Sweep",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 6
+          "nogi": 5
         }
       },
       {
         "transition": "Tripod Sweep",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 7,
           "nogi": null
         },
         "deal_here": true,
@@ -573,7 +782,7 @@
       {
         "transition": "De La Riva to Lapel Guard",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 7,
           "nogi": null
         }
       },
@@ -583,6 +792,60 @@
           "gi": 4,
           "nogi": 2
         }
+      },
+      {
+        "transition": "Technical Stand Up to Single Leg",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 4
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 53,
+          "nogi": 54
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 32,
+              "nogi": 32
+            },
+            "result": "success"
+          },
+          {
+            "to": "Single Leg X-Guard/Bottom",
+            "probability": {
+              "gi": 22,
+              "nogi": 22
+            },
+            "result": "success"
+          },
+          {
+            "to": "De La Riva Guard/Bottom",
+            "probability": {
+              "gi": 29,
+              "nogi": 29
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Front Headlock/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Turtle/Bottom",
+            "probability": {
+              "gi": 6,
+              "nogi": 6
+            },
+            "result": "counter"
+          }
+        ]
       }
     ],
     "decision_tree": [

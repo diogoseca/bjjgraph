@@ -1,0 +1,7929 @@
+{
+ "version": "1.250.2",
+ "base_commit": "579a6a23b",
+ "status": "H1 to H52 approved as proposed by the owner, 2026-11-06. H53 was not ruled and H54 comes with the new positions; neither is here.",
+ "reason": "K2 batch 2: 52 moves that were listed or missing at a seat are dealt there with their own outcome table, and each seat's other shares shrink to make room. This file is a LATER OWNER APPROVAL over the historical calibration: scripts/_restructure_supersession.py reads `hands` so that a historical apply path skips these hands instead of restoring them, and refuses any drift from `after`.",
+ "method": "NOT panel output, so not calibration/listing_tables.json. Every number is the drafting seat's proposal under fixed rules, and the owner approved the result. Share: a listed move keeps its listed share; a new move takes the seat's median dealt cell, or its upper quartile if rated very common, per ruleset. A seat gains at most 15 points per ruleset. Other shares shrink proportionally: no cell rises, none drops below 1, null stays null. Success rate: the median of the move's own tables elsewhere when it has 2 or more, otherwise its published rate less 4, the median gap across 80 shipped listing tables. One table for both rulesets; success rows sum to the no-gi rate. The 15-point cap and the 2:1 split inside a miss branch are judgment calls, not measurements. Agreement is one model three times, and 23 of the 52 have a narrated video from that seat.",
+ "rows": [
+  {
+   "id": "H1",
+   "technique": "Back Step Pass",
+   "seat": "Half Guard/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": [
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H2",
+   "technique": "Long Step Pass",
+   "seat": "Half Guard/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": []
+  },
+  {
+   "id": "H3",
+   "technique": "Darce Setup",
+   "seat": "Half Guard/Top",
+   "mechanism": "new",
+   "number_reason": "Share: seat median. Rate: published less 4.",
+   "flags": [
+    "share_unground",
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H4",
+   "technique": "Kouchi Gari",
+   "seat": "Standing Position/Top",
+   "mechanism": "new",
+   "number_reason": "Share: seat median. Rate: published less 4.",
+   "flags": [
+    "share_unground",
+    "seat_undecided"
+   ]
+  },
+  {
+   "id": "H5",
+   "technique": "Uchi Mata",
+   "seat": "Standing Position/Top",
+   "mechanism": "new",
+   "number_reason": "Share: seat median. Rate: published less 4.",
+   "flags": [
+    "seed_rate",
+    "seat_undecided",
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H6",
+   "technique": "Dogfight Position",
+   "seat": "Half Guard/Bottom",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": []
+  },
+  {
+   "id": "H7",
+   "technique": "Kimura Sweep",
+   "seat": "Half Guard/Bottom",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": [
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H8",
+   "technique": "Knee Slice Pass",
+   "seat": "Open Guard/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": [
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H9",
+   "technique": "Over-Under Pass",
+   "seat": "Open Guard/Top",
+   "mechanism": "new",
+   "number_reason": "Share: seat median, capped. Rate: published less 4.",
+   "flags": [
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H10",
+   "technique": "Body Lock Pass",
+   "seat": "Open Guard/Top",
+   "mechanism": "new",
+   "number_reason": "Share: seat median, capped. Rate: median of its 6 other tables. Counter uses the move's own landing; no judge named the draft's Closed Guard/Bottom.",
+   "flags": [
+    "table_changed",
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H11",
+   "technique": "S-Mount Transition",
+   "seat": "Mount/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4. Half Guard/Top relabelled failure: you stay on top, so nothing was reversed.",
+   "flags": [
+    "table_changed",
+    "seed_rate"
+   ]
+  },
+  {
+   "id": "H12",
+   "technique": "Mounted Triangle",
+   "seat": "Mount/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4. Closed Guard/Top relabelled failure: you stay on top, so nothing was reversed.",
+   "flags": [
+    "table_changed",
+    "seed_rate"
+   ]
+  },
+  {
+   "id": "H13",
+   "technique": "Reguard to Butterfly Guard",
+   "seat": "Open Guard/Bottom",
+   "mechanism": "new",
+   "number_reason": "Share: seat upper quartile, capped. Rate: published less 4.",
+   "flags": [
+    "share_unground",
+    "seed_rate",
+    "flow_row"
+   ]
+  },
+  {
+   "id": "H14",
+   "technique": "Pull Guard from Ground",
+   "seat": "Open Guard/Bottom",
+   "mechanism": "new",
+   "number_reason": "Share: seat upper quartile, capped. Rate: published less 4.",
+   "flags": [
+    "share_unground",
+    "seed_rate",
+    "flow_row"
+   ]
+  },
+  {
+   "id": "H15",
+   "technique": "Arm Drag to Back",
+   "seat": "Open Guard/Bottom",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4. Follows F34: a countered arm drag lands you under side control. The draft had half guard.",
+   "flags": [
+    "rebased",
+    "flow_row"
+   ]
+  },
+  {
+   "id": "H16",
+   "technique": "Sickle Sweep",
+   "seat": "Open Guard/Bottom",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": [
+    "text_names_origin",
+    "flow_row"
+   ]
+  },
+  {
+   "id": "H17",
+   "technique": "Body Triangle Lock",
+   "seat": "Back Control/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4. Dropped the drafted Gift Wrap miss: nobody is in a gift wrap here. A miss stays on the back.",
+   "flags": [
+    "table_changed",
+    "seed_rate",
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H18",
+   "technique": "Single Leg X Entry",
+   "seat": "Butterfly Guard/Bottom",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": []
+  },
+  {
+   "id": "H19",
+   "technique": "Technical Stand Up to Single Leg",
+   "seat": "Butterfly Guard/Bottom",
+   "mechanism": "new",
+   "number_reason": "Share: seat median. Rate: median of its 3 other tables.",
+   "flags": [
+    "seed_rate"
+   ]
+  },
+  {
+   "id": "H20",
+   "technique": "Single Leg X Entry",
+   "seat": "De La Riva Guard/Bottom",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": []
+  },
+  {
+   "id": "H21",
+   "technique": "Technical Stand Up to Single Leg",
+   "seat": "De La Riva Guard/Bottom",
+   "mechanism": "new",
+   "number_reason": "Share: seat median. Rate: median of its 3 other tables. Single Leg X row kept as success, as on the move's own table; the draft had failure.",
+   "flags": [
+    "table_changed",
+    "seed_rate"
+   ]
+  },
+  {
+   "id": "H22",
+   "technique": "Balloon Sweep",
+   "seat": "De La Riva Guard/Bottom",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": [
+    "gi_only"
+   ]
+  },
+  {
+   "id": "H23",
+   "technique": "Long Step Pass",
+   "seat": "De La Riva Guard/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": []
+  },
+  {
+   "id": "H24",
+   "technique": "Over-Under Pass",
+   "seat": "De La Riva Guard/Top",
+   "mechanism": "new",
+   "number_reason": "Share: seat median. Rate: published less 4.",
+   "flags": [
+    "share_unground",
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H25",
+   "technique": "X Pass",
+   "seat": "De La Riva Guard/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: median of its 4 other tables.",
+   "flags": []
+  },
+  {
+   "id": "H26",
+   "technique": "Smash Pass",
+   "seat": "De La Riva Guard/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": [
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H27",
+   "technique": "Arm Drag to Back",
+   "seat": "Seated Guard/Bottom",
+   "mechanism": "new",
+   "number_reason": "Share: seat upper quartile, capped. Rate: published less 4.",
+   "flags": [
+    "share_unground"
+   ]
+  },
+  {
+   "id": "H28",
+   "technique": "Open Guard to Feet on Hips Guard",
+   "seat": "Seated Guard/Bottom",
+   "mechanism": "new",
+   "number_reason": "Share: seat upper quartile, capped. Rate: published less 4.",
+   "flags": [
+    "share_unground",
+    "seed_rate",
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H29",
+   "technique": "Technical Stand Up to Single Leg",
+   "seat": "Seated Guard/Bottom",
+   "mechanism": "new",
+   "number_reason": "Share: seat upper quartile, capped. Rate: median of its 3 other tables.",
+   "flags": [
+    "seed_rate"
+   ]
+  },
+  {
+   "id": "H30",
+   "technique": "Collar Drag from Open Guard",
+   "seat": "Seated Guard/Bottom",
+   "mechanism": "new",
+   "number_reason": "Share: seat median, capped. Rate: published less 4. A miss now stays in seated guard; the draft kept the origin.",
+   "flags": [
+    "table_changed",
+    "share_unground",
+    "seed_rate",
+    "gi_only"
+   ]
+  },
+  {
+   "id": "H31",
+   "technique": "Toreando Pass",
+   "seat": "Combat Base/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4. A miss now stays in combat base; the draft kept the origin.",
+   "flags": [
+    "table_changed"
+   ]
+  },
+  {
+   "id": "H32",
+   "technique": "Leg Drag Pass",
+   "seat": "Combat Base/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4. Follows F24: if they recover guard you stay on top of knee shield half guard. The draft kept the landing F24 removed.",
+   "flags": [
+    "rebased"
+   ]
+  },
+  {
+   "id": "H33",
+   "technique": "Double Under Pass",
+   "seat": "Combat Base/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4. Follows F13: if they recover closed guard you stay on top inside it. The draft ended under side control.",
+   "flags": [
+    "rebased"
+   ]
+  },
+  {
+   "id": "H34",
+   "technique": "Long Step Pass",
+   "seat": "Combat Base/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4. A miss now stays in combat base; the draft kept the origin.",
+   "flags": [
+    "table_changed"
+   ]
+  },
+  {
+   "id": "H35",
+   "technique": "Over-Under Pass",
+   "seat": "Combat Base/Top",
+   "mechanism": "new",
+   "number_reason": "Share: seat median. Rate: published less 4. Counter lands as this seat's other passes do; the draft had Combat Base/Bottom.",
+   "flags": [
+    "table_changed",
+    "share_unground",
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H36",
+   "technique": "Ouchi Gari",
+   "seat": "Clinch/Top",
+   "mechanism": "new",
+   "number_reason": "Share: seat median, capped. Rate: published less 4.",
+   "flags": [
+    "seed_rate"
+   ]
+  },
+  {
+   "id": "H37",
+   "technique": "Knee Tap",
+   "seat": "Clinch/Top",
+   "mechanism": "new",
+   "number_reason": "Share: seat median, capped. Rate: published less 4.",
+   "flags": [
+    "seed_rate"
+   ]
+  },
+  {
+   "id": "H38",
+   "technique": "Ankle Pick",
+   "seat": "Clinch/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": [
+    "seed_rate"
+   ]
+  },
+  {
+   "id": "H39",
+   "technique": "Crucifix from Turtle",
+   "seat": "Crab Ride/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": [
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H40",
+   "technique": "Granby Roll to Guard",
+   "seat": "Leg Drag Control/Bottom",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": [
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H41",
+   "technique": "Granby Roll to Guard",
+   "seat": "Inverted Guard/Bottom",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": [
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H42",
+   "technique": "Inside Ashi Entry",
+   "seat": "Inverted Guard/Bottom",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: median of its 3 other tables.",
+   "flags": []
+  },
+  {
+   "id": "H43",
+   "technique": "Back Step Pass",
+   "seat": "Headquarters Position/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": [
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H44",
+   "technique": "Long Step Pass",
+   "seat": "Headquarters Position/Top",
+   "mechanism": "new",
+   "number_reason": "Share: seat median, capped. Rate: published less 4.",
+   "flags": [
+    "share_unground"
+   ]
+  },
+  {
+   "id": "H45",
+   "technique": "Over-Under Pass",
+   "seat": "Headquarters Position/Top",
+   "mechanism": "new",
+   "number_reason": "Share: seat median, capped. Rate: published less 4.",
+   "flags": [
+    "share_unground",
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H46",
+   "technique": "X Pass",
+   "seat": "Headquarters Position/Top",
+   "mechanism": "new",
+   "number_reason": "Share: seat median, capped. Rate: median of its 4 other tables.",
+   "flags": [
+    "share_unground"
+   ]
+  },
+  {
+   "id": "H47",
+   "technique": "Leg Drag Pass",
+   "seat": "Inverted Guard/Top",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4. Follows F24: if they recover guard you stay on top of knee shield half guard. The draft kept the landing F24 removed.",
+   "flags": [
+    "rebased"
+   ]
+  },
+  {
+   "id": "H48",
+   "technique": "Half Guard to Back Take",
+   "seat": "Knee Shield Half Guard/Bottom",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4. Follows F11: a countered back take pins you under side control. The draft had flattened half guard.",
+   "flags": [
+    "rebased",
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H49",
+   "technique": "John Wayne Sweep",
+   "seat": "Knee Shield Half Guard/Bottom",
+   "mechanism": "new",
+   "number_reason": "Share: seat median. Rate: published less 4.",
+   "flags": [
+    "share_unground"
+   ]
+  },
+  {
+   "id": "H50",
+   "technique": "Deep Half Entry",
+   "seat": "Knee Shield Half Guard/Bottom",
+   "mechanism": "listed",
+   "number_reason": "Share: as listed. Rate: published less 4.",
+   "flags": [
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H51",
+   "technique": "Tripod Sweep",
+   "seat": "Lapel Guard/Bottom",
+   "mechanism": "new",
+   "number_reason": "Share: seat median, capped. Rate: median of its 4 other tables.",
+   "flags": [
+    "share_unground",
+    "gi_only",
+    "text_names_origin"
+   ]
+  },
+  {
+   "id": "H52",
+   "technique": "Technical Stand Up to Single Leg",
+   "seat": "Lapel Guard/Bottom",
+   "mechanism": "new",
+   "number_reason": "Share: seat median, capped. Rate: median of its 3 other tables. Single Leg X row kept as success, as on the move's own table; the draft had failure.",
+   "flags": [
+    "table_changed",
+    "share_unground",
+    "seed_rate",
+    "gi_only"
+   ]
+  }
+ ],
+ "hands": {
+  "Back Control/Top": {
+   "path": "content/Positions/Back Control.json",
+   "before": [
+    {
+     "transition": "Rear Naked Choke from Back Control",
+     "attempt_probability": {
+      "gi": 20,
+      "nogi": 26
+     }
+    },
+    {
+     "transition": "Back Control Maintenance",
+     "attempt_probability": {
+      "gi": 15,
+      "nogi": 15
+     }
+    },
+    {
+     "transition": "Bow and Arrow Choke from Back Control",
+     "attempt_probability": {
+      "gi": 12,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Gift Wrap from Back",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Armbar from Back Transition",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Body Triangle Lock",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Back Control to Crucifix",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Short Choke Attack",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Armbar on Free Arm",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Rear Naked Choke Setup",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Kimura from Back",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Triangle from Back",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Standing Back Control Entry",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Mat Return to Back Mount",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Back Control to Seat Belt Control Back",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Gift Wrap Control",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Back Control to Cross Body Ride",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Back Control to Reverse Half Guard",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Restore Back Control",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Armbar from Back",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Armbar from Back with Legs",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Rear Triangle Choke from Back Control",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Short Choke from Back Control",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Suloev Stretch from Half Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Rear Naked Choke from Back Control",
+     "attempt_probability": {
+      "gi": 20,
+      "nogi": 26
+     }
+    },
+    {
+     "transition": "Back Control Maintenance",
+     "attempt_probability": {
+      "gi": 15,
+      "nogi": 15
+     }
+    },
+    {
+     "transition": "Bow and Arrow Choke from Back Control",
+     "attempt_probability": {
+      "gi": 12,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Gift Wrap from Back",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Armbar from Back Transition",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Body Triangle Lock",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 7
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 54,
+      "nogi": 54
+     },
+     "outcomes": [
+      {
+       "to": "Body Triangle/Top",
+       "probability": {
+        "gi": 54,
+        "nogi": 54
+       },
+       "result": "success"
+      },
+      {
+       "to": "Back Control/Top",
+       "probability": {
+        "gi": 33,
+        "nogi": 33
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 13,
+        "nogi": 13
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Back Control to Crucifix",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Short Choke Attack",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Armbar on Free Arm",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Rear Naked Choke Setup",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Kimura from Back",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Triangle from Back",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Standing Back Control Entry",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Mat Return to Back Mount",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Back Control to Seat Belt Control Back",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Gift Wrap Control",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Back Control to Cross Body Ride",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Back Control to Reverse Half Guard",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Restore Back Control",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Armbar from Back",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Armbar from Back with Legs",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Rear Triangle Choke from Back Control",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Short Choke from Back Control",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Suloev Stretch from Half Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H17"
+  },
+  "Butterfly Guard/Bottom": {
+   "path": "content/Positions/Butterfly Guard.json",
+   "before": [
+    {
+     "transition": "Butterfly Sweep",
+     "attempt_probability": {
+      "gi": 21,
+      "nogi": 20
+     }
+    },
+    {
+     "transition": "Elevator Sweep",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 11
+     }
+    },
+    {
+     "transition": "Arm Drag to Back",
+     "attempt_probability": {
+      "gi": 12,
+      "nogi": 13
+     }
+    },
+    {
+     "transition": "Butterfly Guard to X-Guard",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 11
+     }
+    },
+    {
+     "transition": "Guillotine Choke from Butterfly Guard",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Single Leg X Entry",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Butterfly Guard to Butterfly Hook Control",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Deep Half Entry",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Underhook Sweep",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Kimura from Butterfly Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Omoplata from Butterfly Guard",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Hook Sweep",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Butterfly Guard to Williams Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Waiter Sweep",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Butterfly Sweep",
+     "attempt_probability": {
+      "gi": 20,
+      "nogi": 19
+     }
+    },
+    {
+     "transition": "Elevator Sweep",
+     "attempt_probability": {
+      "gi": 12,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Arm Drag to Back",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 12
+     }
+    },
+    {
+     "transition": "Butterfly Guard to X-Guard",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Guillotine Choke from Butterfly Guard",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Single Leg X Entry",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 10
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 44,
+      "nogi": 44
+     },
+     "outcomes": [
+      {
+       "to": "Single Leg X-Guard/Bottom",
+       "probability": {
+        "gi": 44,
+        "nogi": 44
+       },
+       "result": "success"
+      },
+      {
+       "to": "Butterfly Guard/Bottom",
+       "probability": {
+        "gi": 35,
+        "nogi": 35
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 21,
+        "nogi": 21
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Butterfly Guard to Butterfly Hook Control",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Deep Half Entry",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Underhook Sweep",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Kimura from Butterfly Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Omoplata from Butterfly Guard",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Hook Sweep",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Butterfly Guard to Williams Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Waiter Sweep",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Technical Stand Up to Single Leg",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 53,
+      "nogi": 54
+     },
+     "outcomes": [
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 32,
+        "nogi": 32
+       },
+       "result": "success"
+      },
+      {
+       "to": "Butterfly Guard/Bottom",
+       "probability": {
+        "gi": 29,
+        "nogi": 29
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Front Headlock/Bottom",
+       "probability": {
+        "gi": 11,
+        "nogi": 11
+       },
+       "result": "counter"
+      },
+      {
+       "to": "Turtle/Bottom",
+       "probability": {
+        "gi": 6,
+        "nogi": 6
+       },
+       "result": "counter"
+      },
+      {
+       "to": "Single Leg X-Guard/Bottom",
+       "probability": {
+        "gi": 22,
+        "nogi": 22
+       },
+       "result": "success"
+      }
+     ]
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H18, H19"
+  },
+  "Clinch/Top": {
+   "path": "content/Positions/Clinch.json",
+   "before": [
+    {
+     "transition": "Double Leg Entry",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Single Leg Takedown",
+     "attempt_probability": {
+      "gi": 16,
+      "nogi": 16
+     }
+    },
+    {
+     "transition": "Snap Down to Front Headlock",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 14
+     }
+    },
+    {
+     "transition": "Fireman's Carry",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Kouchi Gari",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Uchi Mata",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Body Lock Pass",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "High Crotch",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Ankle Pick",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Body Lock Takedown from Clinch",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Two-on-One to Back Take",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Guillotine Choke from Clinch",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Double Leg Finish",
+     "attempt_probability": {
+      "gi": 14,
+      "nogi": 16
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Double Leg Entry",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Single Leg Takedown",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 13
+     }
+    },
+    {
+     "transition": "Snap Down to Front Headlock",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 12
+     }
+    },
+    {
+     "transition": "Fireman's Carry",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Kouchi Gari",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Uchi Mata",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Body Lock Pass",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "High Crotch",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Ankle Pick",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 5
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 51,
+      "nogi": 51
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 51,
+        "nogi": 51
+       },
+       "result": "success"
+      },
+      {
+       "to": "Standing Position/Top",
+       "probability": {
+        "gi": 25,
+        "nogi": 25
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Closed Guard/Top",
+       "probability": {
+        "gi": 13,
+        "nogi": 13
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Front Headlock/Bottom",
+       "probability": {
+        "gi": 11,
+        "nogi": 11
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Body Lock Takedown from Clinch",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Two-on-One to Back Take",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Guillotine Choke from Clinch",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Double Leg Finish",
+     "attempt_probability": {
+      "gi": 12,
+      "nogi": 13
+     }
+    },
+    {
+     "transition": "Knee Tap",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 7
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 54,
+      "nogi": 54
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 54,
+        "nogi": 54
+       },
+       "result": "success"
+      },
+      {
+       "to": "Clinch/Top",
+       "probability": {
+        "gi": 22,
+        "nogi": 22
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Front Headlock/Bottom",
+       "probability": {
+        "gi": 13,
+        "nogi": 13
+       },
+       "result": "counter"
+      },
+      {
+       "to": "Standing Position/Top",
+       "probability": {
+        "gi": 11,
+        "nogi": 11
+       },
+       "result": "failure"
+      }
+     ]
+    },
+    {
+     "transition": "Ouchi Gari",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 8
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 56,
+      "nogi": 56
+     },
+     "outcomes": [
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 56,
+        "nogi": 56
+       },
+       "result": "success"
+      },
+      {
+       "to": "Clinch/Top",
+       "probability": {
+        "gi": 29,
+        "nogi": 29
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 15,
+        "nogi": 15
+       },
+       "result": "counter"
+      }
+     ]
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H36, H37, H38"
+  },
+  "Combat Base/Top": {
+   "path": "content/Positions/Combat Base.json",
+   "before": [
+    {
+     "transition": "Knee Slide from Combat Base",
+     "attempt_probability": {
+      "gi": 22,
+      "nogi": 21
+     }
+    },
+    {
+     "transition": "Toreando Pass",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 14
+     }
+    },
+    {
+     "transition": "Leg Drag Pass",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 13
+     }
+    },
+    {
+     "transition": "Combat Base to Headquarters",
+     "attempt_probability": {
+      "gi": 15,
+      "nogi": 14
+     }
+    },
+    {
+     "transition": "Long Step Pass",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Standing Up from Combat Base",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Stand Up from Combat Base",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Smash Pass",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Double Under Pass",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Pressure Pass",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 9
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Knee Slide from Combat Base",
+     "attempt_probability": {
+      "gi": 18,
+      "nogi": 18
+     }
+    },
+    {
+     "transition": "Toreando Pass",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 14
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 23,
+      "nogi": 38
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 38,
+        "nogi": 38
+       },
+       "result": "success"
+      },
+      {
+       "to": "Combat Base/Top",
+       "probability": {
+        "gi": 44,
+        "nogi": 44
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Open Guard/Bottom",
+       "probability": {
+        "gi": 18,
+        "nogi": 18
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Leg Drag Pass",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 13
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 47,
+      "nogi": 47
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 41,
+        "nogi": 41
+       },
+       "result": "success"
+      },
+      {
+       "to": "Back Control/Top",
+       "probability": {
+        "gi": 6,
+        "nogi": 6
+       },
+       "result": "success"
+      },
+      {
+       "to": "Combat Base/Top",
+       "probability": {
+        "gi": 35,
+        "nogi": 35
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Knee Shield Half Guard/Top",
+       "probability": {
+        "gi": 18,
+        "nogi": 18
+       },
+       "result": "failure"
+      }
+     ]
+    },
+    {
+     "transition": "Combat Base to Headquarters",
+     "attempt_probability": {
+      "gi": 12,
+      "nogi": 12
+     }
+    },
+    {
+     "transition": "Long Step Pass",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 9
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 42,
+      "nogi": 42
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 42,
+        "nogi": 42
+       },
+       "result": "success"
+      },
+      {
+       "to": "Combat Base/Top",
+       "probability": {
+        "gi": 36,
+        "nogi": 36
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Open Guard/Bottom",
+       "probability": {
+        "gi": 22,
+        "nogi": 22
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Standing Up from Combat Base",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Stand Up from Combat Base",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Smash Pass",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Double Under Pass",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 10
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 48,
+      "nogi": 48
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 48,
+        "nogi": 48
+       },
+       "result": "success"
+      },
+      {
+       "to": "Combat Base/Top",
+       "probability": {
+        "gi": 35,
+        "nogi": 35
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Closed Guard/Top",
+       "probability": {
+        "gi": 17,
+        "nogi": 17
+       },
+       "result": "failure"
+      }
+     ]
+    },
+    {
+     "transition": "Pressure Pass",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Over-Under Pass",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 9
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 44,
+      "nogi": 49
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 49,
+        "nogi": 49
+       },
+       "result": "success"
+      },
+      {
+       "to": "Combat Base/Top",
+       "probability": {
+        "gi": 31,
+        "nogi": 31
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Open Guard/Bottom",
+       "probability": {
+        "gi": 20,
+        "nogi": 20
+       },
+       "result": "counter"
+      }
+     ]
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H31, H32, H33, H34, H35"
+  },
+  "Crab Ride/Top": {
+   "path": "content/Positions/Crab Ride.json",
+   "before": [
+    {
+     "transition": "Crab Ride to Back",
+     "attempt_probability": {
+      "gi": 30,
+      "nogi": 27
+     }
+    },
+    {
+     "transition": "Darce from Turtle",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Anaconda from Turtle",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Guillotine from Turtle",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Truck Entry",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 16
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 49,
+      "nogi": 54
+     },
+     "outcomes": [
+      {
+       "to": "Truck/Top",
+       "probability": {
+        "gi": 54,
+        "nogi": 54
+       },
+       "result": "success"
+      },
+      {
+       "to": "Crab Ride/Top",
+       "probability": {
+        "gi": 39,
+        "nogi": 39
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Turtle/Bottom",
+       "probability": {
+        "gi": 7,
+        "nogi": 7
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Crucifix from Turtle",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Back Control to Cross Body Ride",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 11
+     }
+    },
+    {
+     "transition": "Turtle to Rodeo Ride",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Rolling Back Take",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Kimura from Crab Ride",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Crab Ride to Back",
+     "attempt_probability": {
+      "gi": 30,
+      "nogi": 27
+     }
+    },
+    {
+     "transition": "Darce from Turtle",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Anaconda from Turtle",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Guillotine from Turtle",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Truck Entry",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 16
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 49,
+      "nogi": 54
+     },
+     "outcomes": [
+      {
+       "to": "Truck/Top",
+       "probability": {
+        "gi": 54,
+        "nogi": 54
+       },
+       "result": "success"
+      },
+      {
+       "to": "Crab Ride/Top",
+       "probability": {
+        "gi": 39,
+        "nogi": 39
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Turtle/Bottom",
+       "probability": {
+        "gi": 7,
+        "nogi": 7
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Crucifix from Turtle",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 9
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 36,
+      "nogi": 33
+     },
+     "outcomes": [
+      {
+       "to": "Crucifix/Top",
+       "probability": {
+        "gi": 33,
+        "nogi": 33
+       },
+       "result": "success"
+      },
+      {
+       "to": "Crab Ride/Top",
+       "probability": {
+        "gi": 52,
+        "nogi": 52
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Crab Ride/Bottom",
+       "probability": {
+        "gi": 15,
+        "nogi": 15
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Back Control to Cross Body Ride",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 11
+     }
+    },
+    {
+     "transition": "Turtle to Rodeo Ride",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Rolling Back Take",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Kimura from Crab Ride",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     }
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H39"
+  },
+  "De La Riva Guard/Bottom": {
+   "path": "content/Positions/De La Riva Guard.json",
+   "before": [
+    {
+     "transition": "De La Riva Sweep",
+     "attempt_probability": {
+      "gi": 17,
+      "nogi": 25
+     }
+    },
+    {
+     "transition": "De La Riva to X-Guard Transition",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 18
+     }
+    },
+    {
+     "transition": "Berimbolo Entry",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Single Leg X Entry",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 22
+     }
+    },
+    {
+     "transition": "Waiter Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Balloon Sweep",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Sickle Sweep",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Tripod Sweep",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": null
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 42,
+      "nogi": null
+     },
+     "outcomes": [
+      {
+       "to": "Standing Position/Top",
+       "probability": {
+        "gi": 17,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Open Guard/Top",
+       "probability": {
+        "gi": 16,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 9,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "De La Riva Guard/Bottom",
+       "probability": {
+        "gi": 44,
+        "nogi": null
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 14,
+        "nogi": null
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Omoplata from De La Riva Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Triangle Setup from De La Riva",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Triangle Choke from De La Riva",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "De La Riva to Inverted Guard",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "De La Riva Inversion Entry",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "De La Riva to Lapel Guard",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Bolo Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 2
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "De La Riva Sweep",
+     "attempt_probability": {
+      "gi": 16,
+      "nogi": 23
+     }
+    },
+    {
+     "transition": "De La Riva to X-Guard Transition",
+     "attempt_probability": {
+      "gi": 12,
+      "nogi": 17
+     }
+    },
+    {
+     "transition": "Berimbolo Entry",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Single Leg X Entry",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 22
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 44,
+      "nogi": 44
+     },
+     "outcomes": [
+      {
+       "to": "Single Leg X-Guard/Bottom",
+       "probability": {
+        "gi": 44,
+        "nogi": 44
+       },
+       "result": "success"
+      },
+      {
+       "to": "De La Riva Guard/Bottom",
+       "probability": {
+        "gi": 35,
+        "nogi": 35
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 21,
+        "nogi": 21
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Waiter Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Balloon Sweep",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 48,
+      "nogi": 39
+     },
+     "outcomes": [
+      {
+       "to": "Mount/Top",
+       "probability": {
+        "gi": 39,
+        "nogi": 39
+       },
+       "result": "success"
+      },
+      {
+       "to": "De La Riva Guard/Bottom",
+       "probability": {
+        "gi": 37,
+        "nogi": 37
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 24,
+        "nogi": 24
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Sickle Sweep",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Tripod Sweep",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": null
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 42,
+      "nogi": null
+     },
+     "outcomes": [
+      {
+       "to": "Standing Position/Top",
+       "probability": {
+        "gi": 17,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Open Guard/Top",
+       "probability": {
+        "gi": 16,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 9,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "De La Riva Guard/Bottom",
+       "probability": {
+        "gi": 44,
+        "nogi": null
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 14,
+        "nogi": null
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Omoplata from De La Riva Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Triangle Setup from De La Riva",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Triangle Choke from De La Riva",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "De La Riva to Inverted Guard",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "De La Riva Inversion Entry",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "De La Riva to Lapel Guard",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Bolo Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Technical Stand Up to Single Leg",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 4
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 53,
+      "nogi": 54
+     },
+     "outcomes": [
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 32,
+        "nogi": 32
+       },
+       "result": "success"
+      },
+      {
+       "to": "Single Leg X-Guard/Bottom",
+       "probability": {
+        "gi": 22,
+        "nogi": 22
+       },
+       "result": "success"
+      },
+      {
+       "to": "De La Riva Guard/Bottom",
+       "probability": {
+        "gi": 29,
+        "nogi": 29
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Front Headlock/Bottom",
+       "probability": {
+        "gi": 11,
+        "nogi": 11
+       },
+       "result": "counter"
+      },
+      {
+       "to": "Turtle/Bottom",
+       "probability": {
+        "gi": 6,
+        "nogi": 6
+       },
+       "result": "counter"
+      }
+     ]
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H20, H21, H22"
+  },
+  "De La Riva Guard/Top": {
+   "path": "content/Positions/De La Riva Guard.json",
+   "before": [
+    {
+     "transition": "Toreando Pass",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Knee Slice Pass",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 12
+     }
+    },
+    {
+     "transition": "X Pass",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Leg Drag Pass",
+     "attempt_probability": {
+      "gi": 14,
+      "nogi": 13
+     }
+    },
+    {
+     "transition": "Long Step Pass",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Smash Pass",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Back Step Pass",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Body Lock Pass",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 13
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 34,
+      "nogi": 39
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 39,
+        "nogi": 39
+       },
+       "result": "success"
+      },
+      {
+       "to": "De La Riva Guard/Top",
+       "probability": {
+        "gi": 31,
+        "nogi": 31
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 17,
+        "nogi": 17
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 13,
+        "nogi": 13
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Stack Pass",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Toreando Pass from De La Riva",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Backstep from De La Riva",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Knee Slice from DLR",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Leg Drag from DLR",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 6
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Toreando Pass",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Knee Slice Pass",
+     "attempt_probability": {
+      "gi": 12,
+      "nogi": 11
+     }
+    },
+    {
+     "transition": "X Pass",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 5
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 41,
+      "nogi": 42
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 42,
+        "nogi": 42
+       },
+       "result": "success"
+      },
+      {
+       "to": "De La Riva Guard/Top",
+       "probability": {
+        "gi": 42,
+        "nogi": 42
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 16,
+        "nogi": 16
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Leg Drag Pass",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 12
+     }
+    },
+    {
+     "transition": "Long Step Pass",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 42,
+      "nogi": 42
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 42,
+        "nogi": 42
+       },
+       "result": "success"
+      },
+      {
+       "to": "De La Riva Guard/Top",
+       "probability": {
+        "gi": 36,
+        "nogi": 36
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 22,
+        "nogi": 22
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Smash Pass",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 4
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 49,
+      "nogi": 49
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 49,
+        "nogi": 49
+       },
+       "result": "success"
+      },
+      {
+       "to": "De La Riva Guard/Top",
+       "probability": {
+        "gi": 21,
+        "nogi": 21
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 11,
+        "nogi": 11
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 19,
+        "nogi": 19
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Back Step Pass",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Body Lock Pass",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 12
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 34,
+      "nogi": 39
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 39,
+        "nogi": 39
+       },
+       "result": "success"
+      },
+      {
+       "to": "De La Riva Guard/Top",
+       "probability": {
+        "gi": 31,
+        "nogi": 31
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 17,
+        "nogi": 17
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 13,
+        "nogi": 13
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Stack Pass",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Toreando Pass from De La Riva",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Backstep from De La Riva",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Knee Slice from DLR",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Leg Drag from DLR",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Over-Under Pass",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 6
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 44,
+      "nogi": 49
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 49,
+        "nogi": 49
+       },
+       "result": "success"
+      },
+      {
+       "to": "De La Riva Guard/Top",
+       "probability": {
+        "gi": 21,
+        "nogi": 21
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 10,
+        "nogi": 10
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 20,
+        "nogi": 20
+       },
+       "result": "counter"
+      }
+     ]
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H23, H24, H25, H26"
+  },
+  "Half Guard/Bottom": {
+   "path": "content/Positions/Half Guard.json",
+   "before": [
+    {
+     "transition": "Underhook Sweep from Half",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 11
+     }
+    },
+    {
+     "transition": "Half Guard to Back Take",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Old School Sweep",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Knee Shield Retention",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 11
+     },
+     "deal_here": true
+    },
+    {
+     "transition": "Lockdown Recovery",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Kimura Sweep",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Deep Half Entry",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Knee Torque Sweep",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Half Guard to X-Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Dogfight Position",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Half Guard Recovery",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Electric Chair Transition",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Half Guard to K-Guard",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Back Door Escape from Half Guard",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Half Guard to Old School",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Buggy Choke from Half Guard",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Kneebar from Half Guard",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Half Guard to Jailbreak",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Kimura from Half Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Half Guard to Kimura Trap",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "John Wayne Sweep",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Half Guard to Demi Guard",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": null
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Underhook Sweep from Half",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 11
+     }
+    },
+    {
+     "transition": "Half Guard to Back Take",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Old School Sweep",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Knee Shield Retention",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 11
+     },
+     "deal_here": true
+    },
+    {
+     "transition": "Lockdown Recovery",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Kimura Sweep",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 35,
+      "nogi": 35
+     },
+     "outcomes": [
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 35,
+        "nogi": 35
+       },
+       "result": "success"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 46,
+        "nogi": 46
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 19,
+        "nogi": 19
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Deep Half Entry",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Knee Torque Sweep",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Half Guard to X-Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Dogfight Position",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 31,
+      "nogi": 31
+     },
+     "outcomes": [
+      {
+       "to": "Dogfight Position/Bottom",
+       "probability": {
+        "gi": 31,
+        "nogi": 31
+       },
+       "result": "success"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 48,
+        "nogi": 48
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 21,
+        "nogi": 21
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Half Guard Recovery",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Electric Chair Transition",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Half Guard to K-Guard",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Back Door Escape from Half Guard",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Half Guard to Old School",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Buggy Choke from Half Guard",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Kneebar from Half Guard",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Half Guard to Jailbreak",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Kimura from Half Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Half Guard to Kimura Trap",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "John Wayne Sweep",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Half Guard to Demi Guard",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": null
+     }
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H6, H7"
+  },
+  "Half Guard/Top": {
+   "path": "content/Positions/Half Guard.json",
+   "before": [
+    {
+     "transition": "Knee Slice Pass",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Smash Pass",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Underhook Pass",
+     "attempt_probability": {
+      "gi": 14,
+      "nogi": 14
+     }
+    },
+    {
+     "transition": "Long Step Pass",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Crossface Pass",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Back Step Pass",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Over-Under Pass",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Half Guard to Double Jump",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Half Guard to Flattened Half Guard",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Crossface to Combat Base",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Headquarters Pass",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Half Guard to Leg Hook",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Half Guard to Pocket Half Guard",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Half Guard to Quarter Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Half Guard to Triangle Escape Position",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Loop Choke from Half Guard",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Half Guard to Leg Weave",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Half Guard Whizzer Counter",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Body Lock Pass",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 11
+     }
+    },
+    {
+     "transition": "Half Guard Pass",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Knee Slice from Half",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Leg Weave Pass",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Knee Slice Pass",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Smash Pass",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Underhook Pass",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 13
+     }
+    },
+    {
+     "transition": "Long Step Pass",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 7
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 42,
+      "nogi": 42
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 42,
+        "nogi": 42
+       },
+       "result": "success"
+      },
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 36,
+        "nogi": 36
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 22,
+        "nogi": 22
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Crossface Pass",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Back Step Pass",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 30,
+      "nogi": 30
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 30,
+        "nogi": 30
+       },
+       "result": "success"
+      },
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 50,
+        "nogi": 50
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 20,
+        "nogi": 20
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Over-Under Pass",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Half Guard to Double Jump",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Half Guard to Flattened Half Guard",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Crossface to Combat Base",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Headquarters Pass",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Half Guard to Leg Hook",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Half Guard to Pocket Half Guard",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Half Guard to Quarter Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Half Guard to Triangle Escape Position",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Loop Choke from Half Guard",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Half Guard to Leg Weave",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Half Guard Whizzer Counter",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Body Lock Pass",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Half Guard Pass",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Knee Slice from Half",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Leg Weave Pass",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Darce Setup",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 31,
+      "nogi": 35
+     },
+     "outcomes": [
+      {
+       "to": "Darce Control/Top",
+       "probability": {
+        "gi": 35,
+        "nogi": 35
+       },
+       "result": "success"
+      },
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 49,
+        "nogi": 49
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 16,
+        "nogi": 16
+       },
+       "result": "counter"
+      }
+     ]
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H1, H2, H3"
+  },
+  "Headquarters Position/Top": {
+   "path": "content/Positions/Headquarters Position.json",
+   "before": [
+    {
+     "transition": "Knee Cut from Headquarters",
+     "attempt_probability": {
+      "gi": 28,
+      "nogi": 22
+     }
+    },
+    {
+     "transition": "Toreando from Headquarters",
+     "attempt_probability": {
+      "gi": 16,
+      "nogi": 14
+     }
+    },
+    {
+     "transition": "Leg Drag from Headquarters",
+     "attempt_probability": {
+      "gi": 17,
+      "nogi": 18
+     }
+    },
+    {
+     "transition": "Back Step Pass",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Body Lock Pass",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 12
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 43,
+      "nogi": 46
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 46,
+        "nogi": 46
+       },
+       "result": "success"
+      },
+      {
+       "to": "Headquarters Position/Top",
+       "probability": {
+        "gi": 23,
+        "nogi": 23
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 17,
+        "nogi": 17
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 14,
+        "nogi": 14
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Headquarters Pass",
+     "attempt_probability": {
+      "gi": 12,
+      "nogi": 12
+     }
+    },
+    {
+     "transition": "Saddle Entry from Top",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 13
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Knee Cut from Headquarters",
+     "attempt_probability": {
+      "gi": 24,
+      "nogi": 18
+     }
+    },
+    {
+     "transition": "Toreando from Headquarters",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 12
+     }
+    },
+    {
+     "transition": "Leg Drag from Headquarters",
+     "attempt_probability": {
+      "gi": 14,
+      "nogi": 15
+     }
+    },
+    {
+     "transition": "Back Step Pass",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 9
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 30,
+      "nogi": 30
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 30,
+        "nogi": 30
+       },
+       "result": "success"
+      },
+      {
+       "to": "Headquarters Position/Top",
+       "probability": {
+        "gi": 50,
+        "nogi": 50
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 20,
+        "nogi": 20
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Body Lock Pass",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 10
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 43,
+      "nogi": 46
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 46,
+        "nogi": 46
+       },
+       "result": "success"
+      },
+      {
+       "to": "Headquarters Position/Top",
+       "probability": {
+        "gi": 23,
+        "nogi": 23
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 17,
+        "nogi": 17
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 14,
+        "nogi": 14
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Headquarters Pass",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Saddle Entry from Top",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 11
+     }
+    },
+    {
+     "transition": "Long Step Pass",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 42,
+      "nogi": 42
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 42,
+        "nogi": 42
+       },
+       "result": "success"
+      },
+      {
+       "to": "Headquarters Position/Top",
+       "probability": {
+        "gi": 36,
+        "nogi": 36
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 22,
+        "nogi": 22
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Over-Under Pass",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 44,
+      "nogi": 49
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 49,
+        "nogi": 49
+       },
+       "result": "success"
+      },
+      {
+       "to": "Headquarters Position/Top",
+       "probability": {
+        "gi": 31,
+        "nogi": 31
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 20,
+        "nogi": 20
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "X Pass",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 41,
+      "nogi": 42
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 42,
+        "nogi": 42
+       },
+       "result": "success"
+      },
+      {
+       "to": "Headquarters Position/Top",
+       "probability": {
+        "gi": 42,
+        "nogi": 42
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 16,
+        "nogi": 16
+       },
+       "result": "counter"
+      }
+     ]
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H43, H44, H45, H46"
+  },
+  "Inverted Guard/Bottom": {
+   "path": "content/Positions/Inverted Guard.json",
+   "before": [
+    {
+     "transition": "Berimbolo Entry",
+     "attempt_probability": {
+      "gi": 14,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Single Leg X Entry",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "X-Guard Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Granby Roll to Guard",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 12
+     }
+    },
+    {
+     "transition": "Omoplata from Inverted Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Reverse X-Guard Entry",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Technical Stand-up",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 5
+     },
+     "success_rate": {
+      "gi": 58,
+      "nogi": 58
+     },
+     "outcomes": [
+      {
+       "to": "Standing Position/Top",
+       "probability": {
+        "gi": 55,
+        "nogi": 55
+       },
+       "result": "success"
+      },
+      {
+       "to": "Inverted Guard/Bottom",
+       "probability": {
+        "gi": 30,
+        "nogi": 30
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Headquarters Position/Bottom",
+       "probability": {
+        "gi": 15,
+        "nogi": 15
+       },
+       "result": "counter"
+      }
+     ],
+     "deal_here": true
+    },
+    {
+     "transition": "Bolo Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 3
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 49,
+      "nogi": 43
+     },
+     "outcomes": [
+      {
+       "to": "Back Control/Top",
+       "probability": {
+        "gi": 43,
+        "nogi": 43
+       },
+       "result": "success"
+      },
+      {
+       "to": "Inverted Guard/Bottom",
+       "probability": {
+        "gi": 34,
+        "nogi": 34
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 23,
+        "nogi": 23
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Reverse De La Riva Recovery",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 7
+     },
+     "deal_here": true
+    },
+    {
+     "transition": "Sweep from Inverted Guard",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "50-50 Entry",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Kneebar Entry from Inverted Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Straight Ankle Lock Entry",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Single Leg X Transition",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Inside Ashi Entry",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Rolling Kneebar",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Inverted Guard Elevation Sweep",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "X-Guard Elevation Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Heel Hook from Inverted Guard",
+     "attempt_probability": {
+      "gi": 0,
+      "nogi": 4
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Berimbolo Entry",
+     "attempt_probability": {
+      "gi": 14,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Single Leg X Entry",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "X-Guard Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Granby Roll to Guard",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 12
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 34,
+      "nogi": 34
+     },
+     "outcomes": [
+      {
+       "to": "Open Guard/Bottom",
+       "probability": {
+        "gi": 27,
+        "nogi": 27
+       },
+       "result": "success"
+      },
+      {
+       "to": "Closed Guard/Bottom",
+       "probability": {
+        "gi": 7,
+        "nogi": 7
+       },
+       "result": "success"
+      },
+      {
+       "to": "Inverted Guard/Bottom",
+       "probability": {
+        "gi": 46,
+        "nogi": 46
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Turtle/Bottom",
+       "probability": {
+        "gi": 13,
+        "nogi": 13
+       },
+       "result": "counter"
+      },
+      {
+       "to": "Back Control/Bottom",
+       "probability": {
+        "gi": 7,
+        "nogi": 7
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Omoplata from Inverted Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Reverse X-Guard Entry",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Technical Stand-up",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 5
+     },
+     "success_rate": {
+      "gi": 58,
+      "nogi": 58
+     },
+     "outcomes": [
+      {
+       "to": "Standing Position/Top",
+       "probability": {
+        "gi": 55,
+        "nogi": 55
+       },
+       "result": "success"
+      },
+      {
+       "to": "Inverted Guard/Bottom",
+       "probability": {
+        "gi": 30,
+        "nogi": 30
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Headquarters Position/Bottom",
+       "probability": {
+        "gi": 15,
+        "nogi": 15
+       },
+       "result": "counter"
+      }
+     ],
+     "deal_here": true
+    },
+    {
+     "transition": "Bolo Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 3
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 49,
+      "nogi": 43
+     },
+     "outcomes": [
+      {
+       "to": "Back Control/Top",
+       "probability": {
+        "gi": 43,
+        "nogi": 43
+       },
+       "result": "success"
+      },
+      {
+       "to": "Inverted Guard/Bottom",
+       "probability": {
+        "gi": 34,
+        "nogi": 34
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 23,
+        "nogi": 23
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Reverse De La Riva Recovery",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 7
+     },
+     "deal_here": true
+    },
+    {
+     "transition": "Sweep from Inverted Guard",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "50-50 Entry",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Kneebar Entry from Inverted Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Straight Ankle Lock Entry",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Single Leg X Transition",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Inside Ashi Entry",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 7
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 51,
+      "nogi": 57
+     },
+     "outcomes": [
+      {
+       "to": "Inside Ashi-Garami/Top",
+       "probability": {
+        "gi": 57,
+        "nogi": 57
+       },
+       "result": "success"
+      },
+      {
+       "to": "Inverted Guard/Bottom",
+       "probability": {
+        "gi": 31,
+        "nogi": 31
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 12,
+        "nogi": 12
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Rolling Kneebar",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Inverted Guard Elevation Sweep",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "X-Guard Elevation Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Heel Hook from Inverted Guard",
+     "attempt_probability": {
+      "gi": 0,
+      "nogi": 4
+     }
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H41, H42"
+  },
+  "Inverted Guard/Top": {
+   "path": "content/Positions/Inverted Guard.json",
+   "before": [
+    {
+     "transition": "Stack Pass",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Headquarters Pass",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Smash Pass",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Toreando Pass",
+     "attempt_probability": {
+      "gi": 14,
+      "nogi": 15
+     },
+     "success_rate": {
+      "gi": 55,
+      "nogi": 55
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 55,
+        "nogi": 55
+       },
+       "result": "success"
+      },
+      {
+       "to": "Inverted Guard/Top",
+       "probability": {
+        "gi": 30,
+        "nogi": 30
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 15,
+        "nogi": 15
+       },
+       "result": "counter"
+      }
+     ],
+     "deal_here": true
+    },
+    {
+     "transition": "Leg Drag Pass",
+     "attempt_probability": {
+      "gi": 15,
+      "nogi": 17
+     }
+    },
+    {
+     "transition": "Pressure Pass",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Back Step Pass",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Stack Pass from Inversion",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Knee Slice Pass",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 11
+     }
+    },
+    {
+     "transition": "Leg Weave Pass",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Stack from Inverted",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Step Over to Mount",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Sprawl and Disengage",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Cartwheel Pass",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Counter Ashi Entry",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Double Under Pass",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Stack Pass",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Headquarters Pass",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Smash Pass",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Toreando Pass",
+     "attempt_probability": {
+      "gi": 14,
+      "nogi": 15
+     },
+     "success_rate": {
+      "gi": 55,
+      "nogi": 55
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 55,
+        "nogi": 55
+       },
+       "result": "success"
+      },
+      {
+       "to": "Inverted Guard/Top",
+       "probability": {
+        "gi": 30,
+        "nogi": 30
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 15,
+        "nogi": 15
+       },
+       "result": "counter"
+      }
+     ],
+     "deal_here": true
+    },
+    {
+     "transition": "Leg Drag Pass",
+     "attempt_probability": {
+      "gi": 15,
+      "nogi": 17
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 47,
+      "nogi": 47
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 41,
+        "nogi": 41
+       },
+       "result": "success"
+      },
+      {
+       "to": "Back Control/Top",
+       "probability": {
+        "gi": 6,
+        "nogi": 6
+       },
+       "result": "success"
+      },
+      {
+       "to": "Inverted Guard/Top",
+       "probability": {
+        "gi": 30,
+        "nogi": 30
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Open Guard/Top",
+       "probability": {
+        "gi": 15,
+        "nogi": 15
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Knee Shield Half Guard/Top",
+       "probability": {
+        "gi": 8,
+        "nogi": 8
+       },
+       "result": "failure"
+      }
+     ]
+    },
+    {
+     "transition": "Pressure Pass",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Back Step Pass",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Stack Pass from Inversion",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Knee Slice Pass",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 11
+     }
+    },
+    {
+     "transition": "Leg Weave Pass",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Stack from Inverted",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Step Over to Mount",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Sprawl and Disengage",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Cartwheel Pass",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Counter Ashi Entry",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Double Under Pass",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H47"
+  },
+  "Knee Shield Half Guard/Bottom": {
+   "path": "content/Positions/Half Guard/Knee Shield Half Guard.json",
+   "before": [
+    {
+     "transition": "Old School Sweep",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Underhook Sweep from Half",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Deep Half Entry",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Half Guard to Back Take",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Single Leg X Entry",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Lumberjack Sweep",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Kimura from Knee Shield Half Guard",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Knee Shield Retention",
+     "attempt_probability": {
+      "gi": 18,
+      "nogi": 17
+     }
+    },
+    {
+     "transition": "Elevator Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Knee Shield Half Guard to Z-Guard",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Knee Shield to Closed Guard",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Underhook from Knee Shield",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 14
+     }
+    },
+    {
+     "transition": "Sweep from Knee Shield",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Old School Sweep",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Underhook Sweep from Half",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Deep Half Entry",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 5
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 36,
+      "nogi": 36
+     },
+     "outcomes": [
+      {
+       "to": "Deep Half Guard/Bottom",
+       "probability": {
+        "gi": 36,
+        "nogi": 36
+       },
+       "result": "success"
+      },
+      {
+       "to": "Knee Shield Half Guard/Bottom",
+       "probability": {
+        "gi": 40,
+        "nogi": 40
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Flattened Half Guard/Bottom",
+       "probability": {
+        "gi": 24,
+        "nogi": 24
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Half Guard to Back Take",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 9
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 38,
+      "nogi": 39
+     },
+     "outcomes": [
+      {
+       "to": "Back Control/Top",
+       "probability": {
+        "gi": 39,
+        "nogi": 39
+       },
+       "result": "success"
+      },
+      {
+       "to": "Knee Shield Half Guard/Bottom",
+       "probability": {
+        "gi": 37,
+        "nogi": 37
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 24,
+        "nogi": 24
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Single Leg X Entry",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Lumberjack Sweep",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Kimura from Knee Shield Half Guard",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Knee Shield Retention",
+     "attempt_probability": {
+      "gi": 16,
+      "nogi": 15
+     }
+    },
+    {
+     "transition": "Elevator Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Knee Shield Half Guard to Z-Guard",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Knee Shield to Closed Guard",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Underhook from Knee Shield",
+     "attempt_probability": {
+      "gi": 12,
+      "nogi": 13
+     }
+    },
+    {
+     "transition": "Sweep from Knee Shield",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "John Wayne Sweep",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 8
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 36,
+      "nogi": 36
+     },
+     "outcomes": [
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 36,
+        "nogi": 36
+       },
+       "result": "success"
+      },
+      {
+       "to": "Knee Shield Half Guard/Bottom",
+       "probability": {
+        "gi": 32,
+        "nogi": 32
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 16,
+        "nogi": 16
+       },
+       "result": "counter"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 16,
+        "nogi": 16
+       },
+       "result": "failure"
+      }
+     ]
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H48, H49, H50"
+  },
+  "Lapel Guard/Bottom": {
+   "path": "content/Positions/Lapel Guard.json",
+   "before": [
+    {
+     "transition": "Worm Guard Entry",
+     "attempt_probability": {
+      "gi": 18,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Squid Guard Entry",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Ringworm Guard Entry",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel Sweep to Back",
+     "attempt_probability": {
+      "gi": 12,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel Omoplata Entry",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel Triangle Setup",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel to Lasso Guard",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel to Spider Guard",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel to De La Riva",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel Elevator Sweep",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel Guard to Piranha Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": null
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Worm Guard Entry",
+     "attempt_probability": {
+      "gi": 15,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Squid Guard Entry",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Ringworm Guard Entry",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel Sweep to Back",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel Omoplata Entry",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel Triangle Setup",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel to Lasso Guard",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel to Spider Guard",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel to De La Riva",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel Elevator Sweep",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Lapel Guard to Piranha Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Technical Stand Up to Single Leg",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": null
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 53,
+      "nogi": null
+     },
+     "outcomes": [
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 31,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Single Leg X-Guard/Bottom",
+       "probability": {
+        "gi": 22,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Lapel Guard/Bottom",
+       "probability": {
+        "gi": 29,
+        "nogi": null
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Front Headlock/Bottom",
+       "probability": {
+        "gi": 12,
+        "nogi": null
+       },
+       "result": "counter"
+      },
+      {
+       "to": "Turtle/Bottom",
+       "probability": {
+        "gi": 6,
+        "nogi": null
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Tripod Sweep",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": null
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 41,
+      "nogi": null
+     },
+     "outcomes": [
+      {
+       "to": "Open Guard/Top",
+       "probability": {
+        "gi": 41,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Lapel Guard/Bottom",
+       "probability": {
+        "gi": 42,
+        "nogi": null
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 17,
+        "nogi": null
+       },
+       "result": "counter"
+      }
+     ]
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H51, H52"
+  },
+  "Leg Drag Control/Bottom": {
+   "path": "content/Positions/Leg Drag Control.json",
+   "before": [
+    {
+     "transition": "Leg Drag Escape to Closed Guard",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Technical Stand-up",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Leg Drag Counter to Half Guard",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 13
+     }
+    },
+    {
+     "transition": "Roll to Turtle",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 12
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 34,
+      "nogi": 36
+     },
+     "outcomes": [
+      {
+       "to": "Turtle/Bottom",
+       "probability": {
+        "gi": 36,
+        "nogi": 36
+       },
+       "result": "success"
+      },
+      {
+       "to": "Leg Drag Control/Bottom",
+       "probability": {
+        "gi": 33,
+        "nogi": 33
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Back Control/Bottom",
+       "probability": {
+        "gi": 31,
+        "nogi": 31
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Inside Position Recovery",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 14
+     }
+    },
+    {
+     "transition": "Granby Roll to Guard",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Leg Recovery to De La Riva",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Frame and Shrimp to Guard",
+     "attempt_probability": {
+      "gi": 15,
+      "nogi": 15
+     }
+    },
+    {
+     "transition": "Half Guard Recovery",
+     "attempt_probability": {
+      "gi": 17,
+      "nogi": 16
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Leg Drag Escape to Closed Guard",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Technical Stand-up",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Leg Drag Counter to Half Guard",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 13
+     }
+    },
+    {
+     "transition": "Roll to Turtle",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 12
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 34,
+      "nogi": 36
+     },
+     "outcomes": [
+      {
+       "to": "Turtle/Bottom",
+       "probability": {
+        "gi": 36,
+        "nogi": 36
+       },
+       "result": "success"
+      },
+      {
+       "to": "Leg Drag Control/Bottom",
+       "probability": {
+        "gi": 33,
+        "nogi": 33
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Back Control/Bottom",
+       "probability": {
+        "gi": 31,
+        "nogi": 31
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Inside Position Recovery",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 14
+     }
+    },
+    {
+     "transition": "Granby Roll to Guard",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 7
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 34,
+      "nogi": 34
+     },
+     "outcomes": [
+      {
+       "to": "Open Guard/Bottom",
+       "probability": {
+        "gi": 34,
+        "nogi": 34
+       },
+       "result": "success"
+      },
+      {
+       "to": "Leg Drag Control/Bottom",
+       "probability": {
+        "gi": 31,
+        "nogi": 31
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Back Control/Bottom",
+       "probability": {
+        "gi": 20,
+        "nogi": 20
+       },
+       "result": "counter"
+      },
+      {
+       "to": "Turtle/Bottom",
+       "probability": {
+        "gi": 15,
+        "nogi": 15
+       },
+       "result": "failure"
+      }
+     ]
+    },
+    {
+     "transition": "Leg Recovery to De La Riva",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Frame and Shrimp to Guard",
+     "attempt_probability": {
+      "gi": 15,
+      "nogi": 15
+     }
+    },
+    {
+     "transition": "Half Guard Recovery",
+     "attempt_probability": {
+      "gi": 17,
+      "nogi": 16
+     }
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H40"
+  },
+  "Mount/Top": {
+   "path": "content/Positions/Mount.json",
+   "before": [
+    {
+     "transition": "Mount to Armbar",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Cross Collar Choke from Mount",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Gift Wrap to Technical Mount",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "S-Mount Transition",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Mounted Triangle",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Consolidate Mount",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 11
+     }
+    },
+    {
+     "transition": "Mount Control",
+     "attempt_probability": {
+      "gi": 19,
+      "nogi": 21
+     }
+    },
+    {
+     "transition": "Mount to 3-4 Mount",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Mount to Knee on Belly",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Mount to Technical Mount",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Americana from Mount",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Ezekiel Choke from Mount",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Kimura from Mount",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Loop Choke from Mount",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Monoplata from Mount",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Reverse Armbar from Mount",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Armbar from Mount",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Mount to Modified Mount",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Gift Wrap",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 8
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Mount to Armbar",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Cross Collar Choke from Mount",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Gift Wrap to Technical Mount",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "S-Mount Transition",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 54,
+      "nogi": 54
+     },
+     "outcomes": [
+      {
+       "to": "S Mount/Top",
+       "probability": {
+        "gi": 54,
+        "nogi": 54
+       },
+       "result": "success"
+      },
+      {
+       "to": "Mount/Top",
+       "probability": {
+        "gi": 31,
+        "nogi": 31
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 15,
+        "nogi": 15
+       },
+       "result": "failure"
+      }
+     ]
+    },
+    {
+     "transition": "Mounted Triangle",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 51,
+      "nogi": 51
+     },
+     "outcomes": [
+      {
+       "to": "Mounted Triangle/Top",
+       "probability": {
+        "gi": 41,
+        "nogi": 41
+       },
+       "result": "success"
+      },
+      {
+       "to": "Armbar Control/Top",
+       "probability": {
+        "gi": 10,
+        "nogi": 10
+       },
+       "result": "success"
+      },
+      {
+       "to": "Mount/Top",
+       "probability": {
+        "gi": 33,
+        "nogi": 33
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Closed Guard/Top",
+       "probability": {
+        "gi": 16,
+        "nogi": 16
+       },
+       "result": "failure"
+      }
+     ]
+    },
+    {
+     "transition": "Consolidate Mount",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 11
+     }
+    },
+    {
+     "transition": "Mount Control",
+     "attempt_probability": {
+      "gi": 19,
+      "nogi": 21
+     }
+    },
+    {
+     "transition": "Mount to 3-4 Mount",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Mount to Knee on Belly",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Mount to Technical Mount",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Americana from Mount",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Ezekiel Choke from Mount",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Kimura from Mount",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Loop Choke from Mount",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Monoplata from Mount",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Reverse Armbar from Mount",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Armbar from Mount",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Mount to Modified Mount",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Gift Wrap",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 8
+     }
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H11, H12"
+  },
+  "Open Guard/Bottom": {
+   "path": "content/Positions/Open Guard.json",
+   "before": [
+    {
+     "transition": "Butterfly Sweep",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 15
+     }
+    },
+    {
+     "transition": "De La Riva Sweep",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Sickle Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Tripod Sweep",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": null
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 41,
+      "nogi": null
+     },
+     "outcomes": [
+      {
+       "to": "Open Guard/Top",
+       "probability": {
+        "gi": 21,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Standing Position/Top",
+       "probability": {
+        "gi": 20,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Open Guard/Bottom",
+       "probability": {
+        "gi": 48,
+        "nogi": null
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 11,
+        "nogi": null
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Elevator Sweep",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Omoplata Sweep",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Kimura Sweep",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Arm Drag to Back",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 12
+     }
+    },
+    {
+     "transition": "Scissor Sweep from Open Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Open Guard to Deep Half",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Open Guard to Collar Sleeve Guard",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Open Guard to De La Riva",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Open Guard to Double Sleeve Guard",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Open Guard to Feet on Hips Guard",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Collar Drag from Open Guard",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Recovery from Failed Sweep",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Technical Stand Up from Open Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 13
+     }
+    },
+    {
+     "transition": "Transition to Clamp Guard",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Belly Down Armbar from Open Guard",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Triangle Choke from Open Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Grip Break",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Inside Ashi Entry",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Open Guard to Demi Guard",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": null
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Butterfly Sweep",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 12
+     }
+    },
+    {
+     "transition": "De La Riva Sweep",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Sickle Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 34,
+      "nogi": 24
+     },
+     "outcomes": [
+      {
+       "to": "Open Guard/Top",
+       "probability": {
+        "gi": 24,
+        "nogi": 24
+       },
+       "result": "success"
+      },
+      {
+       "to": "Open Guard/Bottom",
+       "probability": {
+        "gi": 54,
+        "nogi": 54
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 22,
+        "nogi": 22
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Tripod Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": null
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 41,
+      "nogi": null
+     },
+     "outcomes": [
+      {
+       "to": "Open Guard/Top",
+       "probability": {
+        "gi": 21,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Standing Position/Top",
+       "probability": {
+        "gi": 20,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Open Guard/Bottom",
+       "probability": {
+        "gi": 48,
+        "nogi": null
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 11,
+        "nogi": null
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Elevator Sweep",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Omoplata Sweep",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Kimura Sweep",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Arm Drag to Back",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 12
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 33,
+      "nogi": 29
+     },
+     "outcomes": [
+      {
+       "to": "Back Control/Top",
+       "probability": {
+        "gi": 29,
+        "nogi": 29
+       },
+       "result": "success"
+      },
+      {
+       "to": "Open Guard/Bottom",
+       "probability": {
+        "gi": 51,
+        "nogi": 51
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 20,
+        "nogi": 20
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Scissor Sweep from Open Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Open Guard to Deep Half",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Open Guard to Collar Sleeve Guard",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Open Guard to De La Riva",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Open Guard to Double Sleeve Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Open Guard to Feet on Hips Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Collar Drag from Open Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Recovery from Failed Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Technical Stand Up from Open Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 11
+     }
+    },
+    {
+     "transition": "Transition to Clamp Guard",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Belly Down Armbar from Open Guard",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Triangle Choke from Open Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Grip Break",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Inside Ashi Entry",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Open Guard to Demi Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": null
+     }
+    },
+    {
+     "transition": "Pull Guard from Ground",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 7
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 51,
+      "nogi": 51
+     },
+     "outcomes": [
+      {
+       "to": "Closed Guard/Bottom",
+       "probability": {
+        "gi": 51,
+        "nogi": 51
+       },
+       "result": "success"
+      },
+      {
+       "to": "Open Guard/Bottom",
+       "probability": {
+        "gi": 33,
+        "nogi": 33
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 16,
+        "nogi": 16
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Reguard to Butterfly Guard",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 8
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 51,
+      "nogi": 51
+     },
+     "outcomes": [
+      {
+       "to": "Butterfly Guard/Bottom",
+       "probability": {
+        "gi": 51,
+        "nogi": 51
+       },
+       "result": "success"
+      },
+      {
+       "to": "Open Guard/Bottom",
+       "probability": {
+        "gi": 22,
+        "nogi": 22
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 11,
+        "nogi": 11
+       },
+       "result": "counter"
+      },
+      {
+       "to": "Feet on Hips Guard/Bottom",
+       "probability": {
+        "gi": 11,
+        "nogi": 11
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 5,
+        "nogi": 5
+       },
+       "result": "counter"
+      }
+     ]
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H13, H14, H15, H16"
+  },
+  "Open Guard/Top": {
+   "path": "content/Positions/Open Guard.json",
+   "before": [
+    {
+     "transition": "Toreando Pass",
+     "attempt_probability": {
+      "gi": 19,
+      "nogi": 15
+     }
+    },
+    {
+     "transition": "Knee Slice Pass",
+     "attempt_probability": {
+      "gi": 15,
+      "nogi": 16
+     }
+    },
+    {
+     "transition": "Counter Sweep",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Leg Drag Pass",
+     "attempt_probability": {
+      "gi": 12,
+      "nogi": 12
+     }
+    },
+    {
+     "transition": "Stack Pass",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Long Step Pass",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "X Pass",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Smash Pass",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Double Under Pass",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Pressure Pass",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 9
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 41,
+      "nogi": 39
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 39,
+        "nogi": 39
+       },
+       "result": "success"
+      },
+      {
+       "to": "Open Guard/Top",
+       "probability": {
+        "gi": 32,
+        "nogi": 32
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 14,
+        "nogi": 14
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Open Guard/Bottom",
+       "probability": {
+        "gi": 15,
+        "nogi": 15
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Float Passing",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Open Guard to Double Unders",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 2
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Toreando Pass",
+     "attempt_probability": {
+      "gi": 16,
+      "nogi": 12
+     }
+    },
+    {
+     "transition": "Knee Slice Pass",
+     "attempt_probability": {
+      "gi": 15,
+      "nogi": 16
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 53,
+      "nogi": 50
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 50,
+        "nogi": 50
+       },
+       "result": "success"
+      },
+      {
+       "to": "Open Guard/Top",
+       "probability": {
+        "gi": 21,
+        "nogi": 21
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 10,
+        "nogi": 10
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 19,
+        "nogi": 19
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Counter Sweep",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Leg Drag Pass",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": 10
+     }
+    },
+    {
+     "transition": "Stack Pass",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Long Step Pass",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "X Pass",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Smash Pass",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Double Under Pass",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Pressure Pass",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 7
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 41,
+      "nogi": 39
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 39,
+        "nogi": 39
+       },
+       "result": "success"
+      },
+      {
+       "to": "Open Guard/Top",
+       "probability": {
+        "gi": 32,
+        "nogi": 32
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 14,
+        "nogi": 14
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Open Guard/Bottom",
+       "probability": {
+        "gi": 15,
+        "nogi": 15
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Float Passing",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Open Guard to Double Unders",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Body Lock Pass",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 7
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 40,
+      "nogi": 44
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 44,
+        "nogi": 44
+       },
+       "result": "success"
+      },
+      {
+       "to": "Open Guard/Top",
+       "probability": {
+        "gi": 30,
+        "nogi": 30
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 26,
+        "nogi": 26
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Over-Under Pass",
+     "attempt_probability": {
+      "gi": 7,
+      "nogi": 8
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 44,
+      "nogi": 49
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 49,
+        "nogi": 49
+       },
+       "result": "success"
+      },
+      {
+       "to": "Open Guard/Top",
+       "probability": {
+        "gi": 21,
+        "nogi": 21
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Open Guard/Bottom",
+       "probability": {
+        "gi": 20,
+        "nogi": 20
+       },
+       "result": "counter"
+      },
+      {
+       "to": "Closed Guard/Top",
+       "probability": {
+        "gi": 10,
+        "nogi": 10
+       },
+       "result": "failure"
+      }
+     ]
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H8, H9, H10"
+  },
+  "Seated Guard/Bottom": {
+   "path": "content/Positions/Seated Guard.json",
+   "before": [
+    {
+     "transition": "Technical Stand-up",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 13
+     }
+    },
+    {
+     "transition": "Technical Stand Up from Ground",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Butterfly Sweep",
+     "attempt_probability": {
+      "gi": 19,
+      "nogi": 20
+     }
+    },
+    {
+     "transition": "Scissor Sweep",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Single Leg X Entry",
+     "attempt_probability": {
+      "gi": 13,
+      "nogi": 18
+     }
+    },
+    {
+     "transition": "Ankle Pick Sweep",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Tripod Sweep",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": null
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 41,
+      "nogi": null
+     },
+     "outcomes": [
+      {
+       "to": "Standing Position/Top",
+       "probability": {
+        "gi": 25,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Open Guard/Top",
+       "probability": {
+        "gi": 16,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Seated Guard/Bottom",
+       "probability": {
+        "gi": 59,
+        "nogi": null
+       },
+       "result": "failure"
+      }
+     ]
+    },
+    {
+     "transition": "X-Guard Sweep",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 9
+     }
+    },
+    {
+     "transition": "Lumberjack Sweep",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Foot Grab Sweep",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 16
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Technical Stand-up",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 11
+     }
+    },
+    {
+     "transition": "Technical Stand Up from Ground",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Butterfly Sweep",
+     "attempt_probability": {
+      "gi": 16,
+      "nogi": 17
+     }
+    },
+    {
+     "transition": "Scissor Sweep",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Single Leg X Entry",
+     "attempt_probability": {
+      "gi": 11,
+      "nogi": 15
+     }
+    },
+    {
+     "transition": "Ankle Pick Sweep",
+     "attempt_probability": {
+      "gi": 8,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Tripod Sweep",
+     "attempt_probability": {
+      "gi": 10,
+      "nogi": null
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 41,
+      "nogi": null
+     },
+     "outcomes": [
+      {
+       "to": "Standing Position/Top",
+       "probability": {
+        "gi": 25,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Open Guard/Top",
+       "probability": {
+        "gi": 16,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Seated Guard/Bottom",
+       "probability": {
+        "gi": 59,
+        "nogi": null
+       },
+       "result": "failure"
+      }
+     ]
+    },
+    {
+     "transition": "X-Guard Sweep",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Lumberjack Sweep",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Foot Grab Sweep",
+     "attempt_probability": {
+      "gi": 9,
+      "nogi": 13
+     }
+    },
+    {
+     "transition": "Arm Drag to Back",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 33,
+      "nogi": 29
+     },
+     "outcomes": [
+      {
+       "to": "Back Control/Top",
+       "probability": {
+        "gi": 29,
+        "nogi": 29
+       },
+       "result": "success"
+      },
+      {
+       "to": "Seated Guard/Bottom",
+       "probability": {
+        "gi": 51,
+        "nogi": 51
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 20,
+        "nogi": 20
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Collar Drag from Open Guard",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": null
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 51,
+      "nogi": null
+     },
+     "outcomes": [
+      {
+       "to": "Front Headlock/Top",
+       "probability": {
+        "gi": 51,
+        "nogi": null
+       },
+       "result": "success"
+      },
+      {
+       "to": "Seated Guard/Bottom",
+       "probability": {
+        "gi": 33,
+        "nogi": null
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 16,
+        "nogi": null
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Open Guard to Feet on Hips Guard",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 56,
+      "nogi": 56
+     },
+     "outcomes": [
+      {
+       "to": "Feet on Hips Guard/Bottom",
+       "probability": {
+        "gi": 56,
+        "nogi": 56
+       },
+       "result": "success"
+      },
+      {
+       "to": "Seated Guard/Bottom",
+       "probability": {
+        "gi": 19,
+        "nogi": 19
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Open Guard/Bottom",
+       "probability": {
+        "gi": 9,
+        "nogi": 9
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Half Guard/Bottom",
+       "probability": {
+        "gi": 16,
+        "nogi": 16
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Technical Stand Up to Single Leg",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 53,
+      "nogi": 54
+     },
+     "outcomes": [
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 32,
+        "nogi": 32
+       },
+       "result": "success"
+      },
+      {
+       "to": "Single Leg X-Guard/Bottom",
+       "probability": {
+        "gi": 22,
+        "nogi": 22
+       },
+       "result": "success"
+      },
+      {
+       "to": "Seated Guard/Bottom",
+       "probability": {
+        "gi": 29,
+        "nogi": 29
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Turtle/Bottom",
+       "probability": {
+        "gi": 11,
+        "nogi": 11
+       },
+       "result": "counter"
+      },
+      {
+       "to": "Front Headlock/Bottom",
+       "probability": {
+        "gi": 6,
+        "nogi": 6
+       },
+       "result": "counter"
+      }
+     ]
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H27, H28, H29, H30"
+  },
+  "Standing Position/Top": {
+   "path": "content/Positions/Standing Position.json",
+   "before": [
+    {
+     "transition": "Guard Pull",
+     "attempt_probability": {
+      "gi": 15,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Sprawl Defense",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Single Leg Entry",
+     "attempt_probability": {
+      "gi": 6,
+      "nogi": 8
+     }
+    },
+    {
+     "transition": "Double Leg Setup",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Sprawl",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Knee Tap",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Double Leg Entry",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Snap Down to Front Headlock",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Arm Drag",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Ankle Pick",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Body Lock Takedown",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Jumping Guard",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Osoto Gari",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Ouchi Gari",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Tomoe Nage",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Deashi Harai",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Harai Goshi",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Ippon Seoi Nage",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Russian Tie to Back Take",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Sumi Gaeshi",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Tani Otoshi",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "50-50 Entry from Standing",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Body Lock Pass",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Kosoto Gake",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Kosoto Gari",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Morote Seoi Nage",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Sasae Tsurikomi Ashi",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Tai Otoshi",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Single Leg to Back Take",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Flying Kneebar from Standing Position",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Kimura from Standing",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Reverse Kimura from Standing Position",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Collar Drag",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 0
+     }
+    },
+    {
+     "transition": "Shin to Shin Pull",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Standing to Single Leg X",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Sitting Guard Pull",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Outside Ashi Entry",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    }
+   ],
+   "after": [
+    {
+     "transition": "Guard Pull",
+     "attempt_probability": {
+      "gi": 14,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Sprawl Defense",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Single Leg Entry",
+     "attempt_probability": {
+      "gi": 5,
+      "nogi": 7
+     }
+    },
+    {
+     "transition": "Double Leg Setup",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 6
+     }
+    },
+    {
+     "transition": "Sprawl",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Knee Tap",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Double Leg Entry",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Snap Down to Front Headlock",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Arm Drag",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Ankle Pick",
+     "attempt_probability": {
+      "gi": 4,
+      "nogi": 4
+     }
+    },
+    {
+     "transition": "Body Lock Takedown",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 5
+     }
+    },
+    {
+     "transition": "Jumping Guard",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Osoto Gari",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Ouchi Gari",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Tomoe Nage",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Deashi Harai",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Harai Goshi",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Ippon Seoi Nage",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Russian Tie to Back Take",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Sumi Gaeshi",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Tani Otoshi",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "50-50 Entry from Standing",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Body Lock Pass",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Kosoto Gake",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Kosoto Gari",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Morote Seoi Nage",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Sasae Tsurikomi Ashi",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Tai Otoshi",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Single Leg to Back Take",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Flying Kneebar from Standing Position",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Kimura from Standing",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Reverse Kimura from Standing Position",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 1
+     }
+    },
+    {
+     "transition": "Collar Drag",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 0
+     }
+    },
+    {
+     "transition": "Shin to Shin Pull",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Standing to Single Leg X",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Sitting Guard Pull",
+     "attempt_probability": {
+      "gi": 3,
+      "nogi": 3
+     }
+    },
+    {
+     "transition": "Outside Ashi Entry",
+     "attempt_probability": {
+      "gi": 1,
+      "nogi": 2
+     }
+    },
+    {
+     "transition": "Kouchi Gari",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 28,
+      "nogi": 28
+     },
+     "outcomes": [
+      {
+       "to": "Half Guard/Top",
+       "probability": {
+        "gi": 28,
+        "nogi": 28
+       },
+       "result": "success"
+      },
+      {
+       "to": "Standing Position/Top",
+       "probability": {
+        "gi": 51,
+        "nogi": 51
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 21,
+        "nogi": 21
+       },
+       "result": "counter"
+      }
+     ]
+    },
+    {
+     "transition": "Uchi Mata",
+     "attempt_probability": {
+      "gi": 2,
+      "nogi": 2
+     },
+     "deal_here": true,
+     "success_rate": {
+      "gi": 56,
+      "nogi": 56
+     },
+     "outcomes": [
+      {
+       "to": "Side Control/Top",
+       "probability": {
+        "gi": 56,
+        "nogi": 56
+       },
+       "result": "success"
+      },
+      {
+       "to": "Standing Position/Top",
+       "probability": {
+        "gi": 29,
+        "nogi": 29
+       },
+       "result": "failure"
+      },
+      {
+       "to": "Side Control/Bottom",
+       "probability": {
+        "gi": 15,
+        "nogi": 15
+       },
+       "result": "counter"
+      }
+     ]
+    }
+   ],
+   "source": "K2 batch 2 exact hand, H4, H5"
+  }
+ }
+}

@@ -43,7 +43,7 @@ description: "Master the Back Step Pass in BJJ. Escape leg entanglements from In
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Back Step Pass",
-  "description": "The Back Step Pass is a guard-passing technique where the top player steps the endangered leg backward at an angle to extract it from an inverted guard's leg entanglement, then drives forward into Side Control.",
+  "description": "The Back Step Pass is a guard-passing technique where the top player steps the endangered leg backward at an angle to extract it from an inverted guard's leg entanglement, or to switch when the pass stalls from half guard or headquarters, then drives forward into Side Control.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -61,9 +61,9 @@ description: "Master the Back Step Pass in BJJ. Escape leg entanglements from In
 
 <section id="overview" class="content-section">
 
-**The Back Step Pass is a guard-passing technique where the top player steps the endangered leg backward at an angle to extract it from an inverted guard's leg entanglement, then drives forward into Side Control.**
+**The Back Step Pass is a guard-passing technique where the top player steps the endangered leg backward at an angle to extract it from an inverted guard's leg entanglement, or to switch when the pass stalls from half guard or headquarters, then drives forward into Side Control.**
 
-The Back Step Pass is a critical guard passing technique used to escape leg entanglement danger when facing inverted guards like Inverted Guard. Unlike forward-pressure passes that feed into the bottom player's sweeping and leg attack mechanics, the back step uses retrograde movement to extract your leg from entanglement while simultaneously creating a passing angle toward side control.
+The Back Step Pass is a critical guard passing technique used to escape leg entanglement danger when facing inverted guards like Inverted Guard. Unlike forward-pressure passes that feed into the bottom player's sweeping and leg attack mechanics, the back step uses retrograde movement to extract your leg from entanglement while simultaneously creating a passing angle toward side control. The same back step is also the standard switch from Half Guard top when forward passing stalls or they win the underhook, and the rotating pass from Headquarters Position when they block the knee cut.
 
 This technique operates on a fundamental principle: when your leg becomes endangered by hooks, threads, or rotational attacks, stepping backward removes the lever the opponent needs to complete their technique. The back step is not merely a defensive retreat—it's a positional repositioning that converts defensive necessity into passing opportunity. As your stepping leg clears the entanglement zone, your weight shifts forward over the opponent's torso, flattening their inverted posture and establishing the perpendicular alignment characteristic of side control.
 
@@ -231,7 +231,7 @@ The back step is particularly valuable against modern leg lock systems where pra
 
 ## Position Integration
 
-The Back Step Pass is a cornerstone technique in the guard passing toolkit against inverted and leg-entanglement guards. It represents the systematic approach to leg safety that allows aggressive passers to engage with modern guard systems without constant submission risk. The technique chains directly from any standing or combat base engagement with inverted, K-guard, or similar inverted positions. After successful completion, you arrive in side control with all the offensive options that position provides—Americana, kimura, arm triangle, mount transitions, and north-south attacks. The back step also integrates with leg drag and knee slice passing systems, allowing you to flow between techniques based on opponent reactions. Mastery of this pass is essential for anyone training against practitioners who utilize leg lock systems and inverted guard recoveries.
+The Back Step Pass is a cornerstone technique in the guard passing toolkit against inverted and leg-entanglement guards. It represents the systematic approach to leg safety that allows aggressive passers to engage with modern guard systems without constant submission risk. The technique chains directly from any standing or combat base engagement with inverted, K-guard, or similar inverted positions, and from Half Guard top and Headquarters Position when forward passing stalls. After successful completion, you arrive in side control with all the offensive options that position provides—Americana, kimura, arm triangle, mount transitions, and north-south attacks. The back step also integrates with leg drag and knee slice passing systems, allowing you to flow between techniques based on opponent reactions. Mastery of this pass is essential for anyone training against practitioners who utilize leg lock systems and inverted guard recoveries.
 
 </section>
 

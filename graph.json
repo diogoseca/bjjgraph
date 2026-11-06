@@ -15179,10 +15179,10 @@
           "target": "toreando-pass",
           "targetPath": "Toreando-Pass",
           "isSubmission": false,
-          "attemptProbability": 15,
+          "attemptProbability": 12,
           "attemptProbabilityByRuleset": {
-            "gi": 19,
-            "nogi": 15
+            "gi": 16,
+            "nogi": 12
           },
           "successRate": 42.0
         },
@@ -15196,17 +15196,45 @@
             "gi": 15,
             "nogi": 16
           },
-          "successRate": 53.6
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 50,
+          "successRateByRuleset": {
+            "gi": 53,
+            "nogi": 50
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 50,
+              "result": "success"
+            },
+            {
+              "to": "open-guard/top",
+              "probability": 21,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/top",
+              "probability": 10,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 19,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Counter Sweep",
           "target": "counter-sweep",
           "targetPath": "Counter-Sweep",
           "isSubmission": false,
-          "attemptProbability": 4,
+          "attemptProbability": 3,
           "attemptProbabilityByRuleset": {
-            "gi": 3,
-            "nogi": 4
+            "gi": 2,
+            "nogi": 3
           },
           "successRate": 60.0
         },
@@ -15215,10 +15243,10 @@
           "target": "leg-drag-pass",
           "targetPath": "Leg-Drag-Pass",
           "isSubmission": false,
-          "attemptProbability": 12,
+          "attemptProbability": 10,
           "attemptProbabilityByRuleset": {
-            "gi": 12,
-            "nogi": 12
+            "gi": 10,
+            "nogi": 10
           },
           "successRate": 51.0
         },
@@ -15227,10 +15255,10 @@
           "target": "stack-pass",
           "targetPath": "Stack-Pass",
           "isSubmission": false,
-          "attemptProbability": 6,
+          "attemptProbability": 5,
           "attemptProbabilityByRuleset": {
-            "gi": 7,
-            "nogi": 6
+            "gi": 6,
+            "nogi": 5
           },
           "successRate": 51.3
         },
@@ -15239,10 +15267,10 @@
           "target": "long-step-pass",
           "targetPath": "Long-Step-Pass",
           "isSubmission": false,
-          "attemptProbability": 9,
+          "attemptProbability": 8,
           "attemptProbabilityByRuleset": {
-            "gi": 7,
-            "nogi": 9
+            "gi": 6,
+            "nogi": 8
           },
           "successRate": 46.0
         },
@@ -15251,10 +15279,10 @@
           "target": "x-pass",
           "targetPath": "X-Pass",
           "isSubmission": false,
-          "attemptProbability": 7,
+          "attemptProbability": 6,
           "attemptProbabilityByRuleset": {
-            "gi": 7,
-            "nogi": 7
+            "gi": 6,
+            "nogi": 6
           },
           "successRate": 41.0
         },
@@ -15263,10 +15291,10 @@
           "target": "smash-pass",
           "targetPath": "Smash-Pass",
           "isSubmission": false,
-          "attemptProbability": 7,
+          "attemptProbability": 6,
           "attemptProbabilityByRuleset": {
-            "gi": 7,
-            "nogi": 7
+            "gi": 6,
+            "nogi": 6
           },
           "successRate": 53.0
         },
@@ -15275,10 +15303,10 @@
           "target": "double-under-pass",
           "targetPath": "Double-Under-Pass",
           "isSubmission": false,
-          "attemptProbability": 4,
+          "attemptProbability": 3,
           "attemptProbabilityByRuleset": {
-            "gi": 7,
-            "nogi": 4
+            "gi": 6,
+            "nogi": 3
           },
           "successRate": 52.0
         },
@@ -15287,10 +15315,10 @@
           "target": "pressure-pass",
           "targetPath": "Pressure-Pass",
           "isSubmission": false,
-          "attemptProbability": 9,
+          "attemptProbability": 7,
           "attemptProbabilityByRuleset": {
-            "gi": 8,
-            "nogi": 9
+            "gi": 7,
+            "nogi": 7
           },
           "dealHere": true,
           "ownTable": true,
@@ -15327,10 +15355,10 @@
           "target": "float-passing",
           "targetPath": "Float-Passing",
           "isSubmission": false,
-          "attemptProbability": 9,
+          "attemptProbability": 7,
           "attemptProbabilityByRuleset": {
-            "gi": 5,
-            "nogi": 9
+            "gi": 4,
+            "nogi": 7
           },
           "successRate": 58.0
         },
@@ -15341,10 +15369,85 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "attemptProbabilityByRuleset": {
-            "gi": 3,
+            "gi": 2,
             "nogi": 2
           },
           "successRate": 60.0
+        },
+        {
+          "technique": "Body Lock Pass",
+          "target": "body-lock-pass",
+          "targetPath": "Body-Lock-Pass",
+          "isSubmission": false,
+          "attemptProbability": 7,
+          "attemptProbabilityByRuleset": {
+            "gi": 7,
+            "nogi": 7
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 44,
+          "successRateByRuleset": {
+            "gi": 40,
+            "nogi": 44
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 44,
+              "result": "success"
+            },
+            {
+              "to": "open-guard/top",
+              "probability": 30,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 26,
+              "result": "counter"
+            }
+          ]
+        },
+        {
+          "technique": "Over-Under Pass",
+          "target": "over-under-pass",
+          "targetPath": "Over-Under-Pass",
+          "isSubmission": false,
+          "attemptProbability": 8,
+          "attemptProbabilityByRuleset": {
+            "gi": 7,
+            "nogi": 8
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 49,
+          "successRateByRuleset": {
+            "gi": 44,
+            "nogi": 49
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 49,
+              "result": "success"
+            },
+            {
+              "to": "open-guard/top",
+              "probability": 21,
+              "result": "failure"
+            },
+            {
+              "to": "open-guard/bottom",
+              "probability": 20,
+              "result": "counter"
+            },
+            {
+              "to": "closed-guard/top",
+              "probability": 10,
+              "result": "failure"
+            }
+          ]
         }
       ],
       "flashcards": [
@@ -15710,10 +15813,10 @@
           "target": "butterfly-sweep",
           "targetPath": "Butterfly-Sweep",
           "isSubmission": false,
-          "attemptProbability": 15,
+          "attemptProbability": 12,
           "attemptProbabilityByRuleset": {
             "gi": 5,
-            "nogi": 15
+            "nogi": 12
           },
           "successRate": 35.8
         },
@@ -15722,10 +15825,10 @@
           "target": "de-la-riva-sweep",
           "targetPath": "De-La-Riva-Sweep",
           "isSubmission": false,
-          "attemptProbability": 4,
+          "attemptProbability": 3,
           "attemptProbabilityByRuleset": {
-            "gi": 7,
-            "nogi": 4
+            "gi": 6,
+            "nogi": 3
           },
           "successRate": 29.4
         },
@@ -15739,7 +15842,30 @@
             "gi": 4,
             "nogi": 4
           },
-          "successRate": 27.8
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 24,
+          "successRateByRuleset": {
+            "gi": 34,
+            "nogi": 24
+          },
+          "outcomes": [
+            {
+              "to": "open-guard/top",
+              "probability": 24,
+              "result": "success"
+            },
+            {
+              "to": "open-guard/bottom",
+              "probability": 54,
+              "result": "failure"
+            },
+            {
+              "to": "side-control/bottom",
+              "probability": 22,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Tripod Sweep",
@@ -15748,7 +15874,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 5,
+            "gi": 4,
             "nogi": null
           },
           "dealHere": true,
@@ -15827,7 +15953,30 @@
             "gi": 5,
             "nogi": 12
           },
-          "successRate": 33.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 29,
+          "successRateByRuleset": {
+            "gi": 33,
+            "nogi": 29
+          },
+          "outcomes": [
+            {
+              "to": "back-control/top",
+              "probability": 29,
+              "result": "success"
+            },
+            {
+              "to": "open-guard/bottom",
+              "probability": 51,
+              "result": "failure"
+            },
+            {
+              "to": "side-control/bottom",
+              "probability": 20,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Scissor Sweep from Open Guard",
@@ -15846,10 +15995,10 @@
           "target": "open-guard-to-deep-half",
           "targetPath": "Open-Guard-to-Deep-Half",
           "isSubmission": false,
-          "attemptProbability": 3,
+          "attemptProbability": 2,
           "attemptProbabilityByRuleset": {
             "gi": 3,
-            "nogi": 3
+            "nogi": 2
           },
           "successRate": 55.0
         },
@@ -15860,7 +16009,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 10,
+            "gi": 9,
             "nogi": null
           },
           "successRate": 65.0
@@ -15870,10 +16019,10 @@
           "target": "open-guard-to-de-la-riva",
           "targetPath": "Open-Guard-to-De-La-Riva",
           "isSubmission": false,
-          "attemptProbability": 5,
+          "attemptProbability": 4,
           "attemptProbabilityByRuleset": {
-            "gi": 8,
-            "nogi": 5
+            "gi": 7,
+            "nogi": 4
           },
           "successRate": 55.0
         },
@@ -15884,7 +16033,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 5,
+            "gi": 4,
             "nogi": null
           },
           "successRate": 65.0
@@ -15894,10 +16043,10 @@
           "target": "open-guard-to-feet-on-hips-guard",
           "targetPath": "Open-Guard-to-Feet-on-Hips-Guard",
           "isSubmission": false,
-          "attemptProbability": 9,
+          "attemptProbability": 7,
           "attemptProbabilityByRuleset": {
-            "gi": 5,
-            "nogi": 9
+            "gi": 4,
+            "nogi": 7
           },
           "successRate": 60.0
         },
@@ -15908,7 +16057,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 5,
+            "gi": 4,
             "nogi": null
           },
           "successRate": 55.0
@@ -15918,10 +16067,10 @@
           "target": "recovery-from-failed-sweep",
           "targetPath": "Recovery-from-Failed-Sweep",
           "isSubmission": false,
-          "attemptProbability": 6,
+          "attemptProbability": 5,
           "attemptProbabilityByRuleset": {
-            "gi": 5,
-            "nogi": 6
+            "gi": 4,
+            "nogi": 5
           },
           "successRate": 50.0
         },
@@ -15930,10 +16079,10 @@
           "target": "technical-stand-up-from-open-guard",
           "targetPath": "Technical-Stand-Up-from-Open-Guard",
           "isSubmission": false,
-          "attemptProbability": 13,
+          "attemptProbability": 11,
           "attemptProbabilityByRuleset": {
             "gi": 4,
-            "nogi": 13
+            "nogi": 11
           },
           "successRate": 55.0
         },
@@ -15966,10 +16115,10 @@
           "target": "triangle-choke-from-open-guard",
           "targetPath": "Triangle-Choke-from-Open-Guard",
           "isSubmission": true,
-          "attemptProbability": 5,
+          "attemptProbability": 4,
           "attemptProbabilityByRuleset": {
             "gi": 4,
-            "nogi": 5
+            "nogi": 4
           },
           "successRate": 40.0
         },
@@ -15978,10 +16127,10 @@
           "target": "grip-break",
           "targetPath": "Grip-Break",
           "isSubmission": false,
-          "attemptProbability": 3,
+          "attemptProbability": 2,
           "attemptProbabilityByRuleset": {
-            "gi": 5,
-            "nogi": 3
+            "gi": 4,
+            "nogi": 2
           },
           "successRate": 56.0
         },
@@ -15990,10 +16139,10 @@
           "target": "inside-ashi-entry",
           "targetPath": "Inside-Ashi-Entry",
           "isSubmission": false,
-          "attemptProbability": 9,
+          "attemptProbability": 7,
           "attemptProbabilityByRuleset": {
             "gi": 3,
-            "nogi": 9
+            "nogi": 7
           },
           "successRate": 52.7
         },
@@ -16004,10 +16153,90 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 5,
+            "gi": 4,
             "nogi": null
           },
           "successRate": null
+        },
+        {
+          "technique": "Pull Guard from Ground",
+          "target": "pull-guard-from-ground",
+          "targetPath": "Pull-Guard-from-Ground",
+          "isSubmission": false,
+          "attemptProbability": 7,
+          "attemptProbabilityByRuleset": {
+            "gi": 5,
+            "nogi": 7
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 51,
+          "successRateByRuleset": {
+            "gi": 51,
+            "nogi": 51
+          },
+          "outcomes": [
+            {
+              "to": "closed-guard/bottom",
+              "probability": 51,
+              "result": "success"
+            },
+            {
+              "to": "open-guard/bottom",
+              "probability": 33,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 16,
+              "result": "counter"
+            }
+          ]
+        },
+        {
+          "technique": "Reguard to Butterfly Guard",
+          "target": "reguard-to-butterfly-guard",
+          "targetPath": "Reguard-to-Butterfly-Guard",
+          "isSubmission": false,
+          "attemptProbability": 8,
+          "attemptProbabilityByRuleset": {
+            "gi": 5,
+            "nogi": 8
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 51,
+          "successRateByRuleset": {
+            "gi": 51,
+            "nogi": 51
+          },
+          "outcomes": [
+            {
+              "to": "butterfly-guard/bottom",
+              "probability": 51,
+              "result": "success"
+            },
+            {
+              "to": "open-guard/bottom",
+              "probability": 22,
+              "result": "failure"
+            },
+            {
+              "to": "side-control/bottom",
+              "probability": 11,
+              "result": "counter"
+            },
+            {
+              "to": "feet-on-hips-guard/bottom",
+              "probability": 11,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 5,
+              "result": "counter"
+            }
+          ]
         }
       ],
       "flashcards": [
@@ -16614,10 +16843,10 @@
           "target": "guard-pull",
           "targetPath": "Guard-Pull",
           "isSubmission": false,
-          "attemptProbability": 7,
+          "attemptProbability": 6,
           "attemptProbabilityByRuleset": {
-            "gi": 15,
-            "nogi": 7
+            "gi": 14,
+            "nogi": 6
           },
           "successRate": 75.0
         },
@@ -16638,10 +16867,10 @@
           "target": "single-leg-entry",
           "targetPath": "Single-Leg-Entry",
           "isSubmission": false,
-          "attemptProbability": 8,
+          "attemptProbability": 7,
           "attemptProbabilityByRuleset": {
-            "gi": 6,
-            "nogi": 8
+            "gi": 5,
+            "nogi": 7
           },
           "successRate": 55.0
         },
@@ -16686,10 +16915,10 @@
           "target": "double-leg-entry",
           "targetPath": "Double-Leg-Entry",
           "isSubmission": false,
-          "attemptProbability": 6,
+          "attemptProbability": 5,
           "attemptProbabilityByRuleset": {
             "gi": 4,
-            "nogi": 6
+            "nogi": 5
           },
           "successRate": 46.0
         },
@@ -16698,10 +16927,10 @@
           "target": "snap-down-to-front-headlock",
           "targetPath": "Snap-Down-to-Front-Headlock",
           "isSubmission": false,
-          "attemptProbability": 6,
+          "attemptProbability": 5,
           "attemptProbabilityByRuleset": {
             "gi": 3,
-            "nogi": 6
+            "nogi": 5
           },
           "successRate": 51.0
         },
@@ -16760,7 +16989,7 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "attemptProbabilityByRuleset": {
-            "gi": 4,
+            "gi": 3,
             "nogi": 2
           },
           "successRate": 65.0
@@ -17000,7 +17229,7 @@
           "isSubmission": false,
           "attemptProbability": 0,
           "attemptProbabilityByRuleset": {
-            "gi": 4,
+            "gi": 3,
             "nogi": 0
           },
           "successRate": 55.0
@@ -17052,6 +17281,76 @@
             "nogi": 2
           },
           "successRate": 54.4
+        },
+        {
+          "technique": "Kouchi Gari",
+          "target": "kouchi-gari",
+          "targetPath": "Kouchi-Gari",
+          "isSubmission": false,
+          "attemptProbability": 2,
+          "attemptProbabilityByRuleset": {
+            "gi": 2,
+            "nogi": 2
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 28,
+          "successRateByRuleset": {
+            "gi": 28,
+            "nogi": 28
+          },
+          "outcomes": [
+            {
+              "to": "half-guard/top",
+              "probability": 28,
+              "result": "success"
+            },
+            {
+              "to": "standing-position/top",
+              "probability": 51,
+              "result": "failure"
+            },
+            {
+              "to": "side-control/bottom",
+              "probability": 21,
+              "result": "counter"
+            }
+          ]
+        },
+        {
+          "technique": "Uchi Mata",
+          "target": "uchi-mata",
+          "targetPath": "Uchi-Mata",
+          "isSubmission": false,
+          "attemptProbability": 2,
+          "attemptProbabilityByRuleset": {
+            "gi": 2,
+            "nogi": 2
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 56,
+          "successRateByRuleset": {
+            "gi": 56,
+            "nogi": 56
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 56,
+              "result": "success"
+            },
+            {
+              "to": "standing-position/top",
+              "probability": 29,
+              "result": "failure"
+            },
+            {
+              "to": "side-control/bottom",
+              "probability": 15,
+              "result": "counter"
+            }
+          ]
         }
       ],
       "flashcards": [
@@ -20355,10 +20654,10 @@
           "target": "knee-cut-from-headquarters",
           "targetPath": "Knee-Cut-from-Headquarters",
           "isSubmission": false,
-          "attemptProbability": 22,
+          "attemptProbability": 18,
           "attemptProbabilityByRuleset": {
-            "gi": 28,
-            "nogi": 22
+            "gi": 24,
+            "nogi": 18
           },
           "successRate": 54.0
         },
@@ -20367,10 +20666,10 @@
           "target": "toreando-from-headquarters",
           "targetPath": "Toreando-from-Headquarters",
           "isSubmission": false,
-          "attemptProbability": 14,
+          "attemptProbability": 12,
           "attemptProbabilityByRuleset": {
-            "gi": 16,
-            "nogi": 14
+            "gi": 13,
+            "nogi": 12
           },
           "successRate": 42.0
         },
@@ -20379,10 +20678,10 @@
           "target": "leg-drag-from-headquarters",
           "targetPath": "Leg-Drag-from-Headquarters",
           "isSubmission": false,
-          "attemptProbability": 18,
+          "attemptProbability": 15,
           "attemptProbabilityByRuleset": {
-            "gi": 17,
-            "nogi": 18
+            "gi": 14,
+            "nogi": 15
           },
           "successRate": 48.0
         },
@@ -20396,17 +20695,40 @@
             "gi": 9,
             "nogi": 9
           },
-          "successRate": 34.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 30,
+          "successRateByRuleset": {
+            "gi": 30,
+            "nogi": 30
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 30,
+              "result": "success"
+            },
+            {
+              "to": "headquarters-position/top",
+              "probability": 50,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 20,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Body Lock Pass",
           "target": "body-lock-pass",
           "targetPath": "Body-Lock-Pass",
           "isSubmission": false,
-          "attemptProbability": 12,
+          "attemptProbability": 10,
           "attemptProbabilityByRuleset": {
-            "gi": 11,
-            "nogi": 12
+            "gi": 9,
+            "nogi": 10
           },
           "dealHere": true,
           "ownTable": true,
@@ -20443,10 +20765,10 @@
           "target": "headquarters-pass",
           "targetPath": "Headquarters-Pass",
           "isSubmission": false,
-          "attemptProbability": 12,
+          "attemptProbability": 10,
           "attemptProbabilityByRuleset": {
-            "gi": 12,
-            "nogi": 12
+            "gi": 10,
+            "nogi": 10
           },
           "successRate": 40.0
         },
@@ -20455,12 +20777,117 @@
           "target": "saddle-entry-from-top",
           "targetPath": "Saddle-Entry-from-Top",
           "isSubmission": false,
-          "attemptProbability": 13,
+          "attemptProbability": 11,
           "attemptProbabilityByRuleset": {
-            "gi": 7,
-            "nogi": 13
+            "gi": 6,
+            "nogi": 11
           },
           "successRate": 55.0
+        },
+        {
+          "technique": "Long Step Pass",
+          "target": "long-step-pass",
+          "targetPath": "Long-Step-Pass",
+          "isSubmission": false,
+          "attemptProbability": 5,
+          "attemptProbabilityByRuleset": {
+            "gi": 5,
+            "nogi": 5
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 42,
+          "successRateByRuleset": {
+            "gi": 42,
+            "nogi": 42
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 42,
+              "result": "success"
+            },
+            {
+              "to": "headquarters-position/top",
+              "probability": 36,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 22,
+              "result": "counter"
+            }
+          ]
+        },
+        {
+          "technique": "Over-Under Pass",
+          "target": "over-under-pass",
+          "targetPath": "Over-Under-Pass",
+          "isSubmission": false,
+          "attemptProbability": 5,
+          "attemptProbabilityByRuleset": {
+            "gi": 5,
+            "nogi": 5
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 49,
+          "successRateByRuleset": {
+            "gi": 44,
+            "nogi": 49
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 49,
+              "result": "success"
+            },
+            {
+              "to": "headquarters-position/top",
+              "probability": 31,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 20,
+              "result": "counter"
+            }
+          ]
+        },
+        {
+          "technique": "X Pass",
+          "target": "x-pass",
+          "targetPath": "X-Pass",
+          "isSubmission": false,
+          "attemptProbability": 5,
+          "attemptProbabilityByRuleset": {
+            "gi": 5,
+            "nogi": 5
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 42,
+          "successRateByRuleset": {
+            "gi": 41,
+            "nogi": 42
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 42,
+              "result": "success"
+            },
+            {
+              "to": "headquarters-position/top",
+              "probability": 42,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 16,
+              "result": "counter"
+            }
+          ]
         }
       ],
       "flashcards": [
@@ -29048,10 +29475,10 @@
           "target": "technical-stand-up",
           "targetPath": "Technical-Stand-up",
           "isSubmission": false,
-          "attemptProbability": 13,
+          "attemptProbability": 11,
           "attemptProbabilityByRuleset": {
-            "gi": 9,
-            "nogi": 13
+            "gi": 8,
+            "nogi": 11
           },
           "successRate": 40.6
         },
@@ -29060,10 +29487,10 @@
           "target": "technical-stand-up-from-ground",
           "targetPath": "Technical-Stand-Up-from-Ground",
           "isSubmission": false,
-          "attemptProbability": 9,
+          "attemptProbability": 8,
           "attemptProbabilityByRuleset": {
-            "gi": 6,
-            "nogi": 9
+            "gi": 5,
+            "nogi": 8
           },
           "successRate": 55.0
         },
@@ -29072,10 +29499,10 @@
           "target": "butterfly-sweep",
           "targetPath": "Butterfly-Sweep",
           "isSubmission": false,
-          "attemptProbability": 20,
+          "attemptProbability": 17,
           "attemptProbabilityByRuleset": {
-            "gi": 19,
-            "nogi": 20
+            "gi": 16,
+            "nogi": 17
           },
           "successRate": 35.8
         },
@@ -29086,7 +29513,7 @@
           "isSubmission": false,
           "attemptProbability": 2,
           "attemptProbabilityByRuleset": {
-            "gi": 6,
+            "gi": 5,
             "nogi": 2
           },
           "successRate": 23.0
@@ -29096,10 +29523,10 @@
           "target": "single-leg-x-entry",
           "targetPath": "Single-Leg-X-Entry",
           "isSubmission": false,
-          "attemptProbability": 18,
+          "attemptProbability": 15,
           "attemptProbabilityByRuleset": {
-            "gi": 13,
-            "nogi": 18
+            "gi": 11,
+            "nogi": 15
           },
           "successRate": 47.6
         },
@@ -29108,10 +29535,10 @@
           "target": "ankle-pick-sweep",
           "targetPath": "Ankle-Pick-Sweep",
           "isSubmission": false,
-          "attemptProbability": 9,
+          "attemptProbability": 8,
           "attemptProbabilityByRuleset": {
-            "gi": 9,
-            "nogi": 9
+            "gi": 8,
+            "nogi": 8
           },
           "successRate": 55.0
         },
@@ -29122,7 +29549,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 11,
+            "gi": 10,
             "nogi": null
           },
           "dealHere": true,
@@ -29155,10 +29582,10 @@
           "target": "x-guard-sweep",
           "targetPath": "X-Guard-Sweep",
           "isSubmission": false,
-          "attemptProbability": 9,
+          "attemptProbability": 8,
           "attemptProbabilityByRuleset": {
-            "gi": 11,
-            "nogi": 9
+            "gi": 9,
+            "nogi": 8
           },
           "successRate": 43.6
         },
@@ -29167,10 +29594,10 @@
           "target": "lumberjack-sweep",
           "targetPath": "Lumberjack-Sweep",
           "isSubmission": false,
-          "attemptProbability": 4,
+          "attemptProbability": 3,
           "attemptProbabilityByRuleset": {
-            "gi": 5,
-            "nogi": 4
+            "gi": 4,
+            "nogi": 3
           },
           "successRate": 36.0
         },
@@ -29179,12 +29606,167 @@
           "target": "foot-grab-sweep",
           "targetPath": "Foot-Grab-Sweep",
           "isSubmission": false,
-          "attemptProbability": 16,
+          "attemptProbability": 13,
           "attemptProbabilityByRuleset": {
-            "gi": 11,
-            "nogi": 16
+            "gi": 9,
+            "nogi": 13
           },
           "successRate": 60.0
+        },
+        {
+          "technique": "Arm Drag to Back",
+          "target": "arm-drag-to-back",
+          "targetPath": "Arm-Drag-to-Back",
+          "isSubmission": false,
+          "attemptProbability": 5,
+          "attemptProbabilityByRuleset": {
+            "gi": 4,
+            "nogi": 5
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 29,
+          "successRateByRuleset": {
+            "gi": 33,
+            "nogi": 29
+          },
+          "outcomes": [
+            {
+              "to": "back-control/top",
+              "probability": 29,
+              "result": "success"
+            },
+            {
+              "to": "seated-guard/bottom",
+              "probability": 51,
+              "result": "failure"
+            },
+            {
+              "to": "side-control/bottom",
+              "probability": 20,
+              "result": "counter"
+            }
+          ]
+        },
+        {
+          "technique": "Collar Drag from Open Guard",
+          "target": "collar-drag-from-open-guard",
+          "targetPath": "Collar-Drag-from-Open-Guard",
+          "isSubmission": false,
+          "attemptProbability": null,
+          "attemptProbabilityByRuleset": {
+            "gi": 3,
+            "nogi": null
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": null,
+          "successRateByRuleset": {
+            "gi": 51,
+            "nogi": null
+          },
+          "outcomes": [
+            {
+              "to": "front-headlock/top",
+              "probability": 51,
+              "result": "success"
+            },
+            {
+              "to": "seated-guard/bottom",
+              "probability": 33,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 16,
+              "result": "counter"
+            }
+          ]
+        },
+        {
+          "technique": "Open Guard to Feet on Hips Guard",
+          "target": "open-guard-to-feet-on-hips-guard",
+          "targetPath": "Open-Guard-to-Feet-on-Hips-Guard",
+          "isSubmission": false,
+          "attemptProbability": 5,
+          "attemptProbabilityByRuleset": {
+            "gi": 4,
+            "nogi": 5
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 56,
+          "successRateByRuleset": {
+            "gi": 56,
+            "nogi": 56
+          },
+          "outcomes": [
+            {
+              "to": "feet-on-hips-guard/bottom",
+              "probability": 56,
+              "result": "success"
+            },
+            {
+              "to": "seated-guard/bottom",
+              "probability": 19,
+              "result": "failure"
+            },
+            {
+              "to": "open-guard/bottom",
+              "probability": 9,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 16,
+              "result": "counter"
+            }
+          ]
+        },
+        {
+          "technique": "Technical Stand Up to Single Leg",
+          "target": "technical-stand-up-to-single-leg",
+          "targetPath": "Technical-Stand-Up-to-Single-Leg",
+          "isSubmission": false,
+          "attemptProbability": 5,
+          "attemptProbabilityByRuleset": {
+            "gi": 4,
+            "nogi": 5
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 54,
+          "successRateByRuleset": {
+            "gi": 53,
+            "nogi": 54
+          },
+          "outcomes": [
+            {
+              "to": "half-guard/top",
+              "probability": 32,
+              "result": "success"
+            },
+            {
+              "to": "single-leg-x-guard/bottom",
+              "probability": 22,
+              "result": "success"
+            },
+            {
+              "to": "seated-guard/bottom",
+              "probability": 29,
+              "result": "failure"
+            },
+            {
+              "to": "turtle/bottom",
+              "probability": 11,
+              "result": "counter"
+            },
+            {
+              "to": "front-headlock/bottom",
+              "probability": 6,
+              "result": "counter"
+            }
+          ]
         }
       ],
       "flashcards": [
@@ -36955,10 +37537,10 @@
           "target": "single-leg-takedown",
           "targetPath": "Single-Leg-Takedown",
           "isSubmission": false,
-          "attemptProbability": 16,
+          "attemptProbability": 13,
           "attemptProbabilityByRuleset": {
-            "gi": 16,
-            "nogi": 16
+            "gi": 13,
+            "nogi": 13
           },
           "successRate": 44.0
         },
@@ -36967,10 +37549,10 @@
           "target": "snap-down-to-front-headlock",
           "targetPath": "Snap-Down-to-Front-Headlock",
           "isSubmission": false,
-          "attemptProbability": 14,
+          "attemptProbability": 12,
           "attemptProbabilityByRuleset": {
-            "gi": 13,
-            "nogi": 14
+            "gi": 11,
+            "nogi": 12
           },
           "successRate": 51.0
         },
@@ -36979,10 +37561,10 @@
           "target": "firemans-carry",
           "targetPath": "Fireman's-Carry",
           "isSubmission": false,
-          "attemptProbability": 7,
+          "attemptProbability": 6,
           "attemptProbabilityByRuleset": {
-            "gi": 6,
-            "nogi": 7
+            "gi": 5,
+            "nogi": 6
           },
           "successRate": 32.0
         },
@@ -36991,10 +37573,10 @@
           "target": "kouchi-gari",
           "targetPath": "Kouchi-Gari",
           "isSubmission": false,
-          "attemptProbability": 4,
+          "attemptProbability": 3,
           "attemptProbabilityByRuleset": {
-            "gi": 9,
-            "nogi": 4
+            "gi": 8,
+            "nogi": 3
           },
           "successRate": 32.0
         },
@@ -37005,7 +37587,7 @@
           "isSubmission": false,
           "attemptProbability": 3,
           "attemptProbabilityByRuleset": {
-            "gi": 10,
+            "gi": 8,
             "nogi": 3
           },
           "successRate": 60.0
@@ -37027,10 +37609,10 @@
           "target": "high-crotch",
           "targetPath": "High-Crotch",
           "isSubmission": false,
-          "attemptProbability": 8,
+          "attemptProbability": 7,
           "attemptProbabilityByRuleset": {
-            "gi": 5,
-            "nogi": 8
+            "gi": 4,
+            "nogi": 7
           },
           "successRate": 60.0
         },
@@ -37044,17 +37626,45 @@
             "gi": 7,
             "nogi": 5
           },
-          "successRate": 55.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 51,
+          "successRateByRuleset": {
+            "gi": 51,
+            "nogi": 51
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 51,
+              "result": "success"
+            },
+            {
+              "to": "standing-position/top",
+              "probability": 25,
+              "result": "failure"
+            },
+            {
+              "to": "closed-guard/top",
+              "probability": 13,
+              "result": "failure"
+            },
+            {
+              "to": "front-headlock/bottom",
+              "probability": 11,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Body Lock Takedown from Clinch",
           "target": "body-lock-takedown-from-clinch",
           "targetPath": "Body-Lock-Takedown-from-Clinch",
           "isSubmission": false,
-          "attemptProbability": 10,
+          "attemptProbability": 8,
           "attemptProbabilityByRuleset": {
-            "gi": 7,
-            "nogi": 10
+            "gi": 6,
+            "nogi": 8
           },
           "successRate": 55.0
         },
@@ -37063,10 +37673,10 @@
           "target": "two-on-one-to-back-take",
           "targetPath": "Two-on-One-to-Back-Take",
           "isSubmission": false,
-          "attemptProbability": 5,
+          "attemptProbability": 4,
           "attemptProbabilityByRuleset": {
-            "gi": 5,
-            "nogi": 5
+            "gi": 4,
+            "nogi": 4
           },
           "successRate": 55.0
         },
@@ -37075,10 +37685,10 @@
           "target": "guillotine-choke-from-clinch",
           "targetPath": "Guillotine-Choke-from-Clinch",
           "isSubmission": true,
-          "attemptProbability": 8,
+          "attemptProbability": 7,
           "attemptProbabilityByRuleset": {
-            "gi": 4,
-            "nogi": 8
+            "gi": 3,
+            "nogi": 7
           },
           "successRate": 40.0
         },
@@ -37087,12 +37697,87 @@
           "target": "double-leg-finish",
           "targetPath": "Double-Leg-Finish",
           "isSubmission": false,
-          "attemptProbability": 16,
+          "attemptProbability": 13,
           "attemptProbabilityByRuleset": {
-            "gi": 14,
-            "nogi": 16
+            "gi": 12,
+            "nogi": 13
           },
           "successRate": 82.0
+        },
+        {
+          "technique": "Knee Tap",
+          "target": "knee-tap",
+          "targetPath": "Knee-Tap",
+          "isSubmission": false,
+          "attemptProbability": 7,
+          "attemptProbabilityByRuleset": {
+            "gi": 7,
+            "nogi": 7
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 54,
+          "successRateByRuleset": {
+            "gi": 54,
+            "nogi": 54
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 54,
+              "result": "success"
+            },
+            {
+              "to": "clinch/top",
+              "probability": 22,
+              "result": "failure"
+            },
+            {
+              "to": "front-headlock/bottom",
+              "probability": 13,
+              "result": "counter"
+            },
+            {
+              "to": "standing-position/top",
+              "probability": 11,
+              "result": "failure"
+            }
+          ]
+        },
+        {
+          "technique": "Ouchi Gari",
+          "target": "ouchi-gari",
+          "targetPath": "Ouchi-Gari",
+          "isSubmission": false,
+          "attemptProbability": 8,
+          "attemptProbabilityByRuleset": {
+            "gi": 8,
+            "nogi": 8
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 56,
+          "successRateByRuleset": {
+            "gi": 56,
+            "nogi": 56
+          },
+          "outcomes": [
+            {
+              "to": "half-guard/top",
+              "probability": 56,
+              "result": "success"
+            },
+            {
+              "to": "clinch/top",
+              "probability": 29,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 15,
+              "result": "counter"
+            }
+          ]
         }
       ],
       "flashcards": [
@@ -40566,10 +41251,10 @@
           "target": "butterfly-sweep",
           "targetPath": "Butterfly-Sweep",
           "isSubmission": false,
-          "attemptProbability": 20,
+          "attemptProbability": 19,
           "attemptProbabilityByRuleset": {
-            "gi": 21,
-            "nogi": 20
+            "gi": 20,
+            "nogi": 19
           },
           "successRate": 35.8
         },
@@ -40578,10 +41263,10 @@
           "target": "elevator-sweep",
           "targetPath": "Elevator-Sweep",
           "isSubmission": false,
-          "attemptProbability": 11,
+          "attemptProbability": 10,
           "attemptProbabilityByRuleset": {
-            "gi": 13,
-            "nogi": 11
+            "gi": 12,
+            "nogi": 10
           },
           "successRate": 32.0
         },
@@ -40590,10 +41275,10 @@
           "target": "arm-drag-to-back",
           "targetPath": "Arm-Drag-to-Back",
           "isSubmission": false,
-          "attemptProbability": 13,
+          "attemptProbability": 12,
           "attemptProbabilityByRuleset": {
-            "gi": 12,
-            "nogi": 13
+            "gi": 11,
+            "nogi": 12
           },
           "successRate": 33.0
         },
@@ -40602,10 +41287,10 @@
           "target": "butterfly-guard-to-x-guard",
           "targetPath": "Butterfly-Guard-to-X-Guard",
           "isSubmission": false,
-          "attemptProbability": 11,
+          "attemptProbability": 10,
           "attemptProbabilityByRuleset": {
-            "gi": 11,
-            "nogi": 11
+            "gi": 10,
+            "nogi": 10
           },
           "successRate": 47.0
         },
@@ -40614,10 +41299,10 @@
           "target": "guillotine-choke-from-butterfly-guard",
           "targetPath": "Guillotine-Choke-from-Butterfly-Guard",
           "isSubmission": true,
-          "attemptProbability": 7,
+          "attemptProbability": 6,
           "attemptProbabilityByRuleset": {
             "gi": 5,
-            "nogi": 7
+            "nogi": 6
           },
           "successRate": 23.0
         },
@@ -40631,17 +41316,40 @@
             "gi": 8,
             "nogi": 10
           },
-          "successRate": 47.6
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 44,
+          "successRateByRuleset": {
+            "gi": 44,
+            "nogi": 44
+          },
+          "outcomes": [
+            {
+              "to": "single-leg-x-guard/bottom",
+              "probability": 44,
+              "result": "success"
+            },
+            {
+              "to": "butterfly-guard/bottom",
+              "probability": 35,
+              "result": "failure"
+            },
+            {
+              "to": "side-control/bottom",
+              "probability": 21,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Butterfly Guard to Butterfly Hook Control",
           "target": "butterfly-guard-to-butterfly-hook-control",
           "targetPath": "Butterfly-Guard-to-Butterfly-Hook-Control",
           "isSubmission": false,
-          "attemptProbability": 6,
+          "attemptProbability": 5,
           "attemptProbabilityByRuleset": {
-            "gi": 6,
-            "nogi": 6
+            "gi": 5,
+            "nogi": 5
           },
           "successRate": 65.0
         },
@@ -40728,6 +41436,51 @@
             "nogi": 2
           },
           "successRate": 38.0
+        },
+        {
+          "technique": "Technical Stand Up to Single Leg",
+          "target": "technical-stand-up-to-single-leg",
+          "targetPath": "Technical-Stand-Up-to-Single-Leg",
+          "isSubmission": false,
+          "attemptProbability": 6,
+          "attemptProbabilityByRuleset": {
+            "gi": 5,
+            "nogi": 6
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 54,
+          "successRateByRuleset": {
+            "gi": 53,
+            "nogi": 54
+          },
+          "outcomes": [
+            {
+              "to": "half-guard/top",
+              "probability": 32,
+              "result": "success"
+            },
+            {
+              "to": "butterfly-guard/bottom",
+              "probability": 29,
+              "result": "failure"
+            },
+            {
+              "to": "front-headlock/bottom",
+              "probability": 11,
+              "result": "counter"
+            },
+            {
+              "to": "turtle/bottom",
+              "probability": 6,
+              "result": "counter"
+            },
+            {
+              "to": "single-leg-x-guard/bottom",
+              "probability": 22,
+              "result": "success"
+            }
+          ]
         }
       ],
       "flashcards": [],
@@ -41180,10 +41933,10 @@
           "target": "knee-slice-pass",
           "targetPath": "Knee-Slice-Pass",
           "isSubmission": false,
-          "attemptProbability": 9,
+          "attemptProbability": 8,
           "attemptProbabilityByRuleset": {
-            "gi": 10,
-            "nogi": 9
+            "gi": 9,
+            "nogi": 8
           },
           "successRate": 53.6
         },
@@ -41192,10 +41945,10 @@
           "target": "smash-pass",
           "targetPath": "Smash-Pass",
           "isSubmission": false,
-          "attemptProbability": 10,
+          "attemptProbability": 9,
           "attemptProbabilityByRuleset": {
-            "gi": 11,
-            "nogi": 10
+            "gi": 10,
+            "nogi": 9
           },
           "successRate": 53.0
         },
@@ -41204,10 +41957,10 @@
           "target": "underhook-pass",
           "targetPath": "Underhook-Pass",
           "isSubmission": false,
-          "attemptProbability": 14,
+          "attemptProbability": 13,
           "attemptProbabilityByRuleset": {
-            "gi": 14,
-            "nogi": 14
+            "gi": 13,
+            "nogi": 13
           },
           "successRate": 40.0
         },
@@ -41221,7 +41974,30 @@
             "gi": 7,
             "nogi": 7
           },
-          "successRate": 46.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 42,
+          "successRateByRuleset": {
+            "gi": 42,
+            "nogi": 42
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 42,
+              "result": "success"
+            },
+            {
+              "to": "half-guard/top",
+              "probability": 36,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 22,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Crossface Pass",
@@ -41245,7 +42021,30 @@
             "gi": 5,
             "nogi": 6
           },
-          "successRate": 34.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 30,
+          "successRateByRuleset": {
+            "gi": 30,
+            "nogi": 30
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 30,
+              "result": "success"
+            },
+            {
+              "to": "half-guard/top",
+              "probability": 50,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 20,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Over-Under Pass",
@@ -41396,10 +42195,10 @@
           "target": "body-lock-pass",
           "targetPath": "Body-Lock-Pass",
           "isSubmission": false,
-          "attemptProbability": 11,
+          "attemptProbability": 10,
           "attemptProbabilityByRuleset": {
             "gi": 6,
-            "nogi": 11
+            "nogi": 10
           },
           "successRate": 44.0
         },
@@ -41438,6 +42237,41 @@
             "nogi": 3
           },
           "successRate": 60.0
+        },
+        {
+          "technique": "Darce Setup",
+          "target": "darce-setup",
+          "targetPath": "Darce-Setup",
+          "isSubmission": false,
+          "attemptProbability": 4,
+          "attemptProbabilityByRuleset": {
+            "gi": 3,
+            "nogi": 4
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 35,
+          "successRateByRuleset": {
+            "gi": 31,
+            "nogi": 35
+          },
+          "outcomes": [
+            {
+              "to": "darce-control/top",
+              "probability": 35,
+              "result": "success"
+            },
+            {
+              "to": "half-guard/top",
+              "probability": 49,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 16,
+              "result": "counter"
+            }
+          ]
         }
       ],
       "flashcards": [],
@@ -41756,7 +42590,30 @@
             "gi": 3,
             "nogi": 4
           },
-          "successRate": 39.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 35,
+          "successRateByRuleset": {
+            "gi": 35,
+            "nogi": 35
+          },
+          "outcomes": [
+            {
+              "to": "half-guard/top",
+              "probability": 35,
+              "result": "success"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 46,
+              "result": "failure"
+            },
+            {
+              "to": "side-control/bottom",
+              "probability": 19,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Deep Half Entry",
@@ -41804,7 +42661,30 @@
             "gi": 5,
             "nogi": 6
           },
-          "successRate": 35.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 31,
+          "successRateByRuleset": {
+            "gi": 31,
+            "nogi": 31
+          },
+          "outcomes": [
+            {
+              "to": "dogfight-position/bottom",
+              "probability": 31,
+              "result": "success"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 48,
+              "result": "failure"
+            },
+            {
+              "to": "side-control/bottom",
+              "probability": 21,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Half Guard Recovery",
@@ -43658,10 +44538,10 @@
           "target": "knee-slide-from-combat-base",
           "targetPath": "Knee-Slide-from-Combat-Base",
           "isSubmission": false,
-          "attemptProbability": 21,
+          "attemptProbability": 18,
           "attemptProbabilityByRuleset": {
-            "gi": 22,
-            "nogi": 21
+            "gi": 18,
+            "nogi": 18
           },
           "successRate": 52.6
         },
@@ -43675,7 +44555,30 @@
             "gi": 13,
             "nogi": 14
           },
-          "successRate": 42.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 38,
+          "successRateByRuleset": {
+            "gi": 23,
+            "nogi": 38
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 38,
+              "result": "success"
+            },
+            {
+              "to": "combat-base/top",
+              "probability": 44,
+              "result": "failure"
+            },
+            {
+              "to": "open-guard/bottom",
+              "probability": 18,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Leg Drag Pass",
@@ -43687,17 +44590,45 @@
             "gi": 13,
             "nogi": 13
           },
-          "successRate": 51.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 47,
+          "successRateByRuleset": {
+            "gi": 47,
+            "nogi": 47
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 41,
+              "result": "success"
+            },
+            {
+              "to": "back-control/top",
+              "probability": 6,
+              "result": "success"
+            },
+            {
+              "to": "combat-base/top",
+              "probability": 35,
+              "result": "failure"
+            },
+            {
+              "to": "knee-shield-half-guard/top",
+              "probability": 18,
+              "result": "failure"
+            }
+          ]
         },
         {
           "technique": "Combat Base to Headquarters",
           "target": "combat-base-to-headquarters",
           "targetPath": "Combat-Base-to-Headquarters",
           "isSubmission": false,
-          "attemptProbability": 14,
+          "attemptProbability": 12,
           "attemptProbabilityByRuleset": {
-            "gi": 15,
-            "nogi": 14
+            "gi": 12,
+            "nogi": 12
           },
           "successRate": 54.0
         },
@@ -43711,17 +44642,40 @@
             "gi": 10,
             "nogi": 9
           },
-          "successRate": 46.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 42,
+          "successRateByRuleset": {
+            "gi": 42,
+            "nogi": 42
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 42,
+              "result": "success"
+            },
+            {
+              "to": "combat-base/top",
+              "probability": 36,
+              "result": "failure"
+            },
+            {
+              "to": "open-guard/bottom",
+              "probability": 22,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Standing Up from Combat Base",
           "target": "standing-up-from-combat-base",
           "targetPath": "Standing-Up-from-Combat-Base",
           "isSubmission": false,
-          "attemptProbability": 5,
+          "attemptProbability": 4,
           "attemptProbabilityByRuleset": {
-            "gi": 4,
-            "nogi": 5
+            "gi": 3,
+            "nogi": 4
           },
           "successRate": 55.0
         },
@@ -43730,10 +44684,10 @@
           "target": "stand-up-from-combat-base",
           "targetPath": "Stand-Up-from-Combat-Base",
           "isSubmission": false,
-          "attemptProbability": 4,
+          "attemptProbability": 3,
           "attemptProbabilityByRuleset": {
             "gi": 3,
-            "nogi": 4
+            "nogi": 3
           },
           "successRate": 55.0
         },
@@ -43759,19 +44713,77 @@
             "gi": 9,
             "nogi": 10
           },
-          "successRate": 52.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 48,
+          "successRateByRuleset": {
+            "gi": 48,
+            "nogi": 48
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 48,
+              "result": "success"
+            },
+            {
+              "to": "combat-base/top",
+              "probability": 35,
+              "result": "failure"
+            },
+            {
+              "to": "closed-guard/top",
+              "probability": 17,
+              "result": "failure"
+            }
+          ]
         },
         {
           "technique": "Pressure Pass",
           "target": "pressure-pass",
           "targetPath": "Pressure-Pass",
           "isSubmission": false,
+          "attemptProbability": 7,
+          "attemptProbabilityByRuleset": {
+            "gi": 8,
+            "nogi": 7
+          },
+          "successRate": 42.0
+        },
+        {
+          "technique": "Over-Under Pass",
+          "target": "over-under-pass",
+          "targetPath": "Over-Under-Pass",
+          "isSubmission": false,
           "attemptProbability": 9,
           "attemptProbabilityByRuleset": {
             "gi": 10,
             "nogi": 9
           },
-          "successRate": 42.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 49,
+          "successRateByRuleset": {
+            "gi": 44,
+            "nogi": 49
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 49,
+              "result": "success"
+            },
+            {
+              "to": "combat-base/top",
+              "probability": 31,
+              "result": "failure"
+            },
+            {
+              "to": "open-guard/bottom",
+              "probability": 20,
+              "result": "counter"
+            }
+          ]
         }
       ],
       "flashcards": [
@@ -45275,7 +46287,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 18,
+            "gi": 15,
             "nogi": null
           },
           "successRate": 10.0
@@ -45287,7 +46299,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 9,
+            "gi": 8,
             "nogi": null
           },
           "successRate": 10.0
@@ -45299,7 +46311,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 6,
+            "gi": 5,
             "nogi": null
           },
           "successRate": 58.0
@@ -45311,7 +46323,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 12,
+            "gi": 10,
             "nogi": null
           },
           "successRate": 10.0
@@ -45323,7 +46335,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 8,
+            "gi": 7,
             "nogi": null
           },
           "successRate": 11.0
@@ -45335,7 +46347,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 5,
+            "gi": 4,
             "nogi": null
           },
           "successRate": 55.0
@@ -45347,7 +46359,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 9,
+            "gi": 8,
             "nogi": null
           },
           "successRate": 10.0
@@ -45359,7 +46371,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 8,
+            "gi": 7,
             "nogi": null
           },
           "successRate": 55.0
@@ -45371,7 +46383,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 10,
+            "gi": 9,
             "nogi": null
           },
           "successRate": 58.0
@@ -45383,7 +46395,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 11,
+            "gi": 9,
             "nogi": null
           },
           "successRate": 12.0
@@ -45395,10 +46407,90 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 4,
+            "gi": 3,
             "nogi": null
           },
           "successRate": 55.0
+        },
+        {
+          "technique": "Technical Stand Up to Single Leg",
+          "target": "technical-stand-up-to-single-leg",
+          "targetPath": "Technical-Stand-Up-to-Single-Leg",
+          "isSubmission": false,
+          "attemptProbability": null,
+          "attemptProbabilityByRuleset": {
+            "gi": 7,
+            "nogi": null
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": null,
+          "successRateByRuleset": {
+            "gi": 53,
+            "nogi": null
+          },
+          "outcomes": [
+            {
+              "to": "half-guard/top",
+              "probability": 31,
+              "result": "success"
+            },
+            {
+              "to": "single-leg-x-guard/bottom",
+              "probability": 22,
+              "result": "success"
+            },
+            {
+              "to": "lapel-guard/bottom",
+              "probability": 29,
+              "result": "failure"
+            },
+            {
+              "to": "front-headlock/bottom",
+              "probability": 12,
+              "result": "counter"
+            },
+            {
+              "to": "turtle/bottom",
+              "probability": 6,
+              "result": "counter"
+            }
+          ]
+        },
+        {
+          "technique": "Tripod Sweep",
+          "target": "tripod-sweep",
+          "targetPath": "Tripod-Sweep",
+          "isSubmission": false,
+          "attemptProbability": null,
+          "attemptProbabilityByRuleset": {
+            "gi": 8,
+            "nogi": null
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": null,
+          "successRateByRuleset": {
+            "gi": 41,
+            "nogi": null
+          },
+          "outcomes": [
+            {
+              "to": "open-guard/top",
+              "probability": 41,
+              "result": "success"
+            },
+            {
+              "to": "lapel-guard/bottom",
+              "probability": 42,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 17,
+              "result": "counter"
+            }
+          ]
         }
       ],
       "flashcards": [
@@ -48348,7 +49440,30 @@
             "gi": 5,
             "nogi": 6
           },
-          "successRate": 58.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 54,
+          "successRateByRuleset": {
+            "gi": 54,
+            "nogi": 54
+          },
+          "outcomes": [
+            {
+              "to": "s-mount/top",
+              "probability": 54,
+              "result": "success"
+            },
+            {
+              "to": "mount/top",
+              "probability": 31,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/top",
+              "probability": 15,
+              "result": "failure"
+            }
+          ]
         },
         {
           "technique": "Mounted Triangle",
@@ -48360,7 +49475,35 @@
             "gi": 3,
             "nogi": 4
           },
-          "successRate": 55.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 51,
+          "successRateByRuleset": {
+            "gi": 51,
+            "nogi": 51
+          },
+          "outcomes": [
+            {
+              "to": "mounted-triangle/top",
+              "probability": 41,
+              "result": "success"
+            },
+            {
+              "to": "armbar-control/top",
+              "probability": 10,
+              "result": "success"
+            },
+            {
+              "to": "mount/top",
+              "probability": 33,
+              "result": "failure"
+            },
+            {
+              "to": "closed-guard/top",
+              "probability": 16,
+              "result": "failure"
+            }
+          ]
         },
         {
           "technique": "Consolidate Mount",
@@ -62345,7 +63488,40 @@
             "gi": 15,
             "nogi": 17
           },
-          "successRate": 51.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 47,
+          "successRateByRuleset": {
+            "gi": 47,
+            "nogi": 47
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 41,
+              "result": "success"
+            },
+            {
+              "to": "back-control/top",
+              "probability": 6,
+              "result": "success"
+            },
+            {
+              "to": "inverted-guard/top",
+              "probability": 30,
+              "result": "failure"
+            },
+            {
+              "to": "open-guard/top",
+              "probability": 15,
+              "result": "failure"
+            },
+            {
+              "to": "knee-shield-half-guard/top",
+              "probability": 8,
+              "result": "failure"
+            }
+          ]
         },
         {
           "technique": "Pressure Pass",
@@ -62870,7 +64046,40 @@
             "gi": 11,
             "nogi": 12
           },
-          "successRate": 37.6
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 34,
+          "successRateByRuleset": {
+            "gi": 34,
+            "nogi": 34
+          },
+          "outcomes": [
+            {
+              "to": "open-guard/bottom",
+              "probability": 27,
+              "result": "success"
+            },
+            {
+              "to": "closed-guard/bottom",
+              "probability": 7,
+              "result": "success"
+            },
+            {
+              "to": "inverted-guard/bottom",
+              "probability": 46,
+              "result": "failure"
+            },
+            {
+              "to": "turtle/bottom",
+              "probability": 13,
+              "result": "counter"
+            },
+            {
+              "to": "back-control/bottom",
+              "probability": 7,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Omoplata from Inverted Guard",
@@ -63049,7 +64258,30 @@
             "gi": 5,
             "nogi": 7
           },
-          "successRate": 52.7
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 57,
+          "successRateByRuleset": {
+            "gi": 51,
+            "nogi": 57
+          },
+          "outcomes": [
+            {
+              "to": "inside-ashi-garami/top",
+              "probability": 57,
+              "result": "success"
+            },
+            {
+              "to": "inverted-guard/bottom",
+              "probability": 31,
+              "result": "failure"
+            },
+            {
+              "to": "side-control/bottom",
+              "probability": 12,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Rolling Kneebar",
@@ -69180,10 +70412,10 @@
           "target": "toreando-pass",
           "targetPath": "Toreando-Pass",
           "isSubmission": false,
-          "attemptProbability": 10,
+          "attemptProbability": 9,
           "attemptProbabilityByRuleset": {
-            "gi": 11,
-            "nogi": 10
+            "gi": 10,
+            "nogi": 9
           },
           "successRate": 42.0
         },
@@ -69192,10 +70424,10 @@
           "target": "knee-slice-pass",
           "targetPath": "Knee-Slice-Pass",
           "isSubmission": false,
-          "attemptProbability": 12,
+          "attemptProbability": 11,
           "attemptProbabilityByRuleset": {
-            "gi": 13,
-            "nogi": 12
+            "gi": 12,
+            "nogi": 11
           },
           "successRate": 53.6
         },
@@ -69209,17 +70441,40 @@
             "gi": 6,
             "nogi": 5
           },
-          "successRate": 41.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 42,
+          "successRateByRuleset": {
+            "gi": 41,
+            "nogi": 42
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 42,
+              "result": "success"
+            },
+            {
+              "to": "de-la-riva-guard/top",
+              "probability": 42,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 16,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Leg Drag Pass",
           "target": "leg-drag-pass",
           "targetPath": "Leg-Drag-Pass",
           "isSubmission": false,
-          "attemptProbability": 13,
+          "attemptProbability": 12,
           "attemptProbabilityByRuleset": {
-            "gi": 14,
-            "nogi": 13
+            "gi": 13,
+            "nogi": 12
           },
           "successRate": 51.0
         },
@@ -69233,7 +70488,30 @@
             "gi": 5,
             "nogi": 6
           },
-          "successRate": 46.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 42,
+          "successRateByRuleset": {
+            "gi": 42,
+            "nogi": 42
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 42,
+              "result": "success"
+            },
+            {
+              "to": "de-la-riva-guard/top",
+              "probability": 36,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 22,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Smash Pass",
@@ -69245,17 +70523,45 @@
             "gi": 5,
             "nogi": 4
           },
-          "successRate": 53.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 49,
+          "successRateByRuleset": {
+            "gi": 49,
+            "nogi": 49
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 49,
+              "result": "success"
+            },
+            {
+              "to": "de-la-riva-guard/top",
+              "probability": 21,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/top",
+              "probability": 11,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 19,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Back Step Pass",
           "target": "back-step-pass",
           "targetPath": "Back-Step-Pass",
           "isSubmission": false,
-          "attemptProbability": 8,
+          "attemptProbability": 7,
           "attemptProbabilityByRuleset": {
-            "gi": 8,
-            "nogi": 8
+            "gi": 7,
+            "nogi": 7
           },
           "successRate": 34.0
         },
@@ -69264,10 +70570,10 @@
           "target": "body-lock-pass",
           "targetPath": "Body-Lock-Pass",
           "isSubmission": false,
-          "attemptProbability": 13,
+          "attemptProbability": 12,
           "attemptProbabilityByRuleset": {
-            "gi": 9,
-            "nogi": 13
+            "gi": 8,
+            "nogi": 12
           },
           "dealHere": true,
           "ownTable": true,
@@ -69316,10 +70622,10 @@
           "target": "toreando-pass-from-de-la-riva",
           "targetPath": "Toreando-Pass-from-De-La-Riva",
           "isSubmission": false,
-          "attemptProbability": 9,
+          "attemptProbability": 8,
           "attemptProbabilityByRuleset": {
-            "gi": 8,
-            "nogi": 9
+            "gi": 7,
+            "nogi": 8
           },
           "successRate": 39.0
         },
@@ -69358,6 +70664,46 @@
             "nogi": 6
           },
           "successRate": 55.0
+        },
+        {
+          "technique": "Over-Under Pass",
+          "target": "over-under-pass",
+          "targetPath": "Over-Under-Pass",
+          "isSubmission": false,
+          "attemptProbability": 6,
+          "attemptProbabilityByRuleset": {
+            "gi": 6,
+            "nogi": 6
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 49,
+          "successRateByRuleset": {
+            "gi": 44,
+            "nogi": 49
+          },
+          "outcomes": [
+            {
+              "to": "side-control/top",
+              "probability": 49,
+              "result": "success"
+            },
+            {
+              "to": "de-la-riva-guard/top",
+              "probability": 21,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/top",
+              "probability": 10,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 20,
+              "result": "counter"
+            }
+          ]
         }
       ],
       "flashcards": [],
@@ -69596,10 +70942,10 @@
           "target": "de-la-riva-sweep",
           "targetPath": "De-La-Riva-Sweep",
           "isSubmission": false,
-          "attemptProbability": 25,
+          "attemptProbability": 23,
           "attemptProbabilityByRuleset": {
-            "gi": 17,
-            "nogi": 25
+            "gi": 16,
+            "nogi": 23
           },
           "successRate": 29.4
         },
@@ -69608,10 +70954,10 @@
           "target": "de-la-riva-to-x-guard-transition",
           "targetPath": "De-La-Riva-to-X-Guard-Transition",
           "isSubmission": false,
-          "attemptProbability": 18,
+          "attemptProbability": 17,
           "attemptProbabilityByRuleset": {
-            "gi": 13,
-            "nogi": 18
+            "gi": 12,
+            "nogi": 17
           },
           "successRate": 49.0
         },
@@ -69622,7 +70968,7 @@
           "isSubmission": false,
           "attemptProbability": 6,
           "attemptProbabilityByRuleset": {
-            "gi": 10,
+            "gi": 9,
             "nogi": 6
           },
           "successRate": 18.6
@@ -69637,7 +70983,30 @@
             "gi": 11,
             "nogi": 22
           },
-          "successRate": 47.6
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 44,
+          "successRateByRuleset": {
+            "gi": 44,
+            "nogi": 44
+          },
+          "outcomes": [
+            {
+              "to": "single-leg-x-guard/bottom",
+              "probability": 44,
+              "result": "success"
+            },
+            {
+              "to": "de-la-riva-guard/bottom",
+              "probability": 35,
+              "result": "failure"
+            },
+            {
+              "to": "side-control/bottom",
+              "probability": 21,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Waiter Sweep",
@@ -69661,17 +71030,40 @@
             "gi": 2,
             "nogi": 2
           },
-          "successRate": 43.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 39,
+          "successRateByRuleset": {
+            "gi": 48,
+            "nogi": 39
+          },
+          "outcomes": [
+            {
+              "to": "mount/top",
+              "probability": 39,
+              "result": "success"
+            },
+            {
+              "to": "de-la-riva-guard/bottom",
+              "probability": 37,
+              "result": "failure"
+            },
+            {
+              "to": "side-control/bottom",
+              "probability": 24,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Sickle Sweep",
           "target": "sickle-sweep",
           "targetPath": "Sickle-Sweep",
           "isSubmission": false,
-          "attemptProbability": 6,
+          "attemptProbability": 5,
           "attemptProbabilityByRuleset": {
             "gi": 5,
-            "nogi": 6
+            "nogi": 5
           },
           "successRate": 27.8
         },
@@ -69682,7 +71074,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 8,
+            "gi": 7,
             "nogi": null
           },
           "dealHere": true,
@@ -69787,7 +71179,7 @@
           "isSubmission": false,
           "attemptProbability": null,
           "attemptProbabilityByRuleset": {
-            "gi": 8,
+            "gi": 7,
             "nogi": null
           },
           "successRate": 58.0
@@ -69803,6 +71195,51 @@
             "nogi": 2
           },
           "successRate": 55.0
+        },
+        {
+          "technique": "Technical Stand Up to Single Leg",
+          "target": "technical-stand-up-to-single-leg",
+          "targetPath": "Technical-Stand-Up-to-Single-Leg",
+          "isSubmission": false,
+          "attemptProbability": 4,
+          "attemptProbabilityByRuleset": {
+            "gi": 5,
+            "nogi": 4
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 54,
+          "successRateByRuleset": {
+            "gi": 53,
+            "nogi": 54
+          },
+          "outcomes": [
+            {
+              "to": "half-guard/top",
+              "probability": 32,
+              "result": "success"
+            },
+            {
+              "to": "single-leg-x-guard/bottom",
+              "probability": 22,
+              "result": "success"
+            },
+            {
+              "to": "de-la-riva-guard/bottom",
+              "probability": 29,
+              "result": "failure"
+            },
+            {
+              "to": "front-headlock/bottom",
+              "probability": 11,
+              "result": "counter"
+            },
+            {
+              "to": "turtle/bottom",
+              "probability": 6,
+              "result": "counter"
+            }
+          ]
         }
       ],
       "flashcards": [],
@@ -71495,7 +72932,30 @@
             "gi": 5,
             "nogi": 7
           },
-          "successRate": 58.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 54,
+          "successRateByRuleset": {
+            "gi": 54,
+            "nogi": 54
+          },
+          "outcomes": [
+            {
+              "to": "body-triangle/top",
+              "probability": 54,
+              "result": "success"
+            },
+            {
+              "to": "back-control/top",
+              "probability": 33,
+              "result": "failure"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 13,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Back Control to Crucifix",
@@ -83781,7 +85241,30 @@
             "gi": 9,
             "nogi": 9
           },
-          "successRate": 37.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 33,
+          "successRateByRuleset": {
+            "gi": 36,
+            "nogi": 33
+          },
+          "outcomes": [
+            {
+              "to": "crucifix/top",
+              "probability": 33,
+              "result": "success"
+            },
+            {
+              "to": "crab-ride/top",
+              "probability": 52,
+              "result": "failure"
+            },
+            {
+              "to": "crab-ride/bottom",
+              "probability": 15,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Back Control to Cross Body Ride",
@@ -92032,7 +93515,35 @@
             "gi": 6,
             "nogi": 7
           },
-          "successRate": 37.6
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 34,
+          "successRateByRuleset": {
+            "gi": 34,
+            "nogi": 34
+          },
+          "outcomes": [
+            {
+              "to": "open-guard/bottom",
+              "probability": 34,
+              "result": "success"
+            },
+            {
+              "to": "leg-drag-control/bottom",
+              "probability": 31,
+              "result": "failure"
+            },
+            {
+              "to": "back-control/bottom",
+              "probability": 20,
+              "result": "counter"
+            },
+            {
+              "to": "turtle/bottom",
+              "probability": 15,
+              "result": "failure"
+            }
+          ]
         },
         {
           "technique": "Leg Recovery to De La Riva",
@@ -112698,10 +114209,10 @@
           "target": "underhook-sweep-from-half",
           "targetPath": "Underhook-Sweep-from-Half",
           "isSubmission": false,
-          "attemptProbability": 9,
+          "attemptProbability": 8,
           "attemptProbabilityByRuleset": {
-            "gi": 9,
-            "nogi": 9
+            "gi": 8,
+            "nogi": 8
           },
           "successRate": 34.0
         },
@@ -112715,7 +114226,30 @@
             "gi": 7,
             "nogi": 5
           },
-          "successRate": 39.9
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 36,
+          "successRateByRuleset": {
+            "gi": 36,
+            "nogi": 36
+          },
+          "outcomes": [
+            {
+              "to": "deep-half-guard/bottom",
+              "probability": 36,
+              "result": "success"
+            },
+            {
+              "to": "knee-shield-half-guard/bottom",
+              "probability": 40,
+              "result": "failure"
+            },
+            {
+              "to": "flattened-half-guard/bottom",
+              "probability": 24,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Half Guard to Back Take",
@@ -112727,17 +114261,40 @@
             "gi": 8,
             "nogi": 9
           },
-          "successRate": 43.0
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 39,
+          "successRateByRuleset": {
+            "gi": 38,
+            "nogi": 39
+          },
+          "outcomes": [
+            {
+              "to": "back-control/top",
+              "probability": 39,
+              "result": "success"
+            },
+            {
+              "to": "knee-shield-half-guard/bottom",
+              "probability": 37,
+              "result": "failure"
+            },
+            {
+              "to": "side-control/bottom",
+              "probability": 24,
+              "result": "counter"
+            }
+          ]
         },
         {
           "technique": "Single Leg X Entry",
           "target": "single-leg-x-entry",
           "targetPath": "Single-Leg-X-Entry",
           "isSubmission": false,
-          "attemptProbability": 10,
+          "attemptProbability": 9,
           "attemptProbabilityByRuleset": {
-            "gi": 6,
-            "nogi": 10
+            "gi": 5,
+            "nogi": 9
           },
           "successRate": 47.6
         },
@@ -112758,10 +114315,10 @@
           "target": "kimura-from-knee-shield-half-guard",
           "targetPath": "Kimura-from-Knee-Shield-Half-Guard",
           "isSubmission": true,
-          "attemptProbability": 7,
+          "attemptProbability": 6,
           "attemptProbabilityByRuleset": {
-            "gi": 6,
-            "nogi": 7
+            "gi": 5,
+            "nogi": 6
           },
           "successRate": 50.0
         },
@@ -112770,10 +114327,10 @@
           "target": "knee-shield-retention",
           "targetPath": "Knee-Shield-Retention",
           "isSubmission": false,
-          "attemptProbability": 17,
+          "attemptProbability": 15,
           "attemptProbabilityByRuleset": {
-            "gi": 18,
-            "nogi": 17
+            "gi": 16,
+            "nogi": 15
           },
           "successRate": 42.0
         },
@@ -112794,10 +114351,10 @@
           "target": "knee-shield-half-guard-to-z-guard",
           "targetPath": "Knee-Shield-Half-Guard-to-Z-Guard",
           "isSubmission": false,
-          "attemptProbability": 8,
+          "attemptProbability": 7,
           "attemptProbabilityByRuleset": {
-            "gi": 9,
-            "nogi": 8
+            "gi": 8,
+            "nogi": 7
           },
           "successRate": 65.0
         },
@@ -112806,10 +114363,10 @@
           "target": "knee-shield-to-closed-guard",
           "targetPath": "Knee-Shield-to-Closed-Guard",
           "isSubmission": false,
-          "attemptProbability": 6,
+          "attemptProbability": 5,
           "attemptProbabilityByRuleset": {
-            "gi": 8,
-            "nogi": 6
+            "gi": 7,
+            "nogi": 5
           },
           "successRate": 55.0
         },
@@ -112818,10 +114375,10 @@
           "target": "underhook-from-knee-shield",
           "targetPath": "Underhook-from-Knee-Shield",
           "isSubmission": false,
-          "attemptProbability": 14,
+          "attemptProbability": 13,
           "attemptProbabilityByRuleset": {
-            "gi": 13,
-            "nogi": 14
+            "gi": 12,
+            "nogi": 13
           },
           "successRate": 55.0
         },
@@ -112836,6 +114393,46 @@
             "nogi": 4
           },
           "successRate": 45.0
+        },
+        {
+          "technique": "John Wayne Sweep",
+          "target": "john-wayne-sweep",
+          "targetPath": "John-Wayne-Sweep",
+          "isSubmission": false,
+          "attemptProbability": 8,
+          "attemptProbabilityByRuleset": {
+            "gi": 8,
+            "nogi": 8
+          },
+          "dealHere": true,
+          "ownTable": true,
+          "successRate": 36,
+          "successRateByRuleset": {
+            "gi": 36,
+            "nogi": 36
+          },
+          "outcomes": [
+            {
+              "to": "half-guard/top",
+              "probability": 36,
+              "result": "success"
+            },
+            {
+              "to": "knee-shield-half-guard/bottom",
+              "probability": 32,
+              "result": "failure"
+            },
+            {
+              "to": "side-control/bottom",
+              "probability": 16,
+              "result": "counter"
+            },
+            {
+              "to": "half-guard/bottom",
+              "probability": 16,
+              "result": "failure"
+            }
+          ]
         }
       ],
       "flashcards": [
@@ -175387,11 +176984,11 @@
         },
         {
           "question": "What position do you start Body Triangle Lock from?",
-          "answer": "Body Triangle Lock starts from Gift Wrap/Top, where you have back control with the opponent's arm trapped across their body. That arm is secured by your arm threading under their armpit, giving you wrist or forearm control on the far side.",
+          "answer": "Body Triangle Lock starts from Gift Wrap/Top, where you have back control with the opponent's arm trapped across their body. That arm is secured by your arm threading under their armpit, giving you wrist or forearm control on the far side. It can also start from Back Control/Top.",
           "answer_line": "Gift Wrap back control",
           "distractors": {
             "plausible": [
-              "Back Control with both hooks",
+              "Turtle top, one hook in",
               "Mount with Gift Wrap arm"
             ],
             "trap": [
@@ -175621,11 +177218,11 @@
         },
         {
           "question": "What position do you start Body Triangle Lock from?",
-          "answer": "Body Triangle Lock starts from Gift Wrap/Top, where you have back control with the opponent's arm trapped across their body. That arm is secured by your arm threading under their armpit, giving you wrist or forearm control on the far side.",
+          "answer": "Body Triangle Lock starts from Gift Wrap/Top, where you have back control with the opponent's arm trapped across their body. That arm is secured by your arm threading under their armpit, giving you wrist or forearm control on the far side. It can also start from Back Control/Top.",
           "answer_line": "Gift Wrap back control",
           "distractors": {
             "plausible": [
-              "Back Control with both hooks",
+              "Turtle top, one hook in",
               "Mount with Gift Wrap arm"
             ],
             "trap": [
@@ -275865,7 +277462,7 @@
           "result": "failure"
         },
         {
-          "to": "open-guard/top",
+          "to": "guillotine-control/bottom",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -275972,7 +277569,7 @@
           "result": "success"
         },
         {
-          "to": "open-guard/bottom",
+          "to": "guillotine-control/top",
           "probability": 15,
           "probabilityByRuleset": {
             "gi": 15,
@@ -403874,11 +405471,11 @@
         },
         {
           "question": "What position do you start S-Mount Transition from and why is it ideal?",
-          "answer": "This technique starts from Modified Mount Top, where you have one leg posted to the side for stability and your other knee crosses the opponent's torso. The posted leg configuration naturally facilitates the S-Mount entry by already having one leg partially positioned for the transition, and the across-body knee provides the rotational axis for the hip perpendicularity shift.",
+          "answer": "This technique starts from Modified Mount Top, where you have one leg posted to the side for stability and your other knee crosses the opponent's torso. The posted leg configuration naturally facilitates the S-Mount entry by already having one leg partially positioned for the transition, and the across-body knee provides the rotational axis for the hip perpendicularity shift. It can also start from Mount/Top.",
           "answer_line": "Modified Mount Top, leg posted",
           "distractors": {
             "plausible": [
-              "Full Mount, both knees pinned",
+              "North-South, chest on chest",
               "Side Control, cross-face grip"
             ],
             "trap": [
@@ -404150,11 +405747,11 @@
         },
         {
           "question": "What position do you start S-Mount Transition from and why is it ideal?",
-          "answer": "This technique starts from Modified Mount Top, where you have one leg posted to the side for stability and your other knee crosses the opponent's torso. The posted leg configuration naturally facilitates the S-Mount entry by already having one leg partially positioned for the transition, and the across-body knee provides the rotational axis for the hip perpendicularity shift.",
+          "answer": "This technique starts from Modified Mount Top, where you have one leg posted to the side for stability and your other knee crosses the opponent's torso. The posted leg configuration naturally facilitates the S-Mount entry by already having one leg partially positioned for the transition, and the across-body knee provides the rotational axis for the hip perpendicularity shift. It can also start from Mount/Top.",
           "answer_line": "Modified Mount Top, leg posted",
           "distractors": {
             "plausible": [
-              "Full Mount, both knees pinned",
+              "North-South, chest on chest",
               "Side Control, cross-face grip"
             ],
             "trap": [
@@ -551960,11 +553557,11 @@
         },
         {
           "question": "What position do you start Back Step Pass from?",
-          "answer": "The Back Step Pass starts from Inverted Guard/Top, when the bottom player's inverted legwork threatens your lower limbs. Specifically, it is triggered when their inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your legs.",
+          "answer": "The Back Step Pass starts from Inverted Guard/Top, when the bottom player's inverted legwork threatens your lower limbs. Specifically, it is triggered when their inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your legs. It can also start from Half Guard/Top or Headquarters Position/Top when forward passing stalls.",
           "answer_line": "Top of Inverted Guard",
           "distractors": {
             "plausible": [
-              "Top of Half Guard",
+              "Top of Closed Guard",
               "Top of Ashi Garami"
             ],
             "trap": [
@@ -552236,11 +553833,11 @@
         },
         {
           "question": "What position do you start Back Step Pass from?",
-          "answer": "The Back Step Pass starts from Inverted Guard/Top, when the bottom player's inverted legwork threatens your lower limbs. Specifically, it is triggered when their inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your legs.",
+          "answer": "The Back Step Pass starts from Inverted Guard/Top, when the bottom player's inverted legwork threatens your lower limbs. Specifically, it is triggered when their inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your legs. It can also start from Half Guard/Top or Headquarters Position/Top when forward passing stalls.",
           "answer_line": "Top of Inverted Guard",
           "distractors": {
             "plausible": [
-              "Top of Half Guard",
+              "Top of Closed Guard",
               "Top of Ashi Garami"
             ],
             "trap": [
@@ -805949,7 +807546,7 @@
     }
   },
   "meta": {
-    "generated": "2026-11-05T16:19:37.867911Z",
+    "generated": "2026-11-06T07:52:45.811638Z",
     "positionCount": 400,
     "transitionCount": 3033,
     "submissionCount": 923,

@@ -21,7 +21,7 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     {
       "@type": "HowToStep",
       "name": "Execute Guard Pull",
-      "text": "From this position, attempt Guard Pull. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Guard Pull. This technique is attempted in 6% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,7 +33,7 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg Entry",
-      "text": "From this position, attempt Single Leg Entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {

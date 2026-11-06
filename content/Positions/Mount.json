@@ -152,14 +152,84 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 6
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 54,
+          "nogi": 54
+        },
+        "outcomes": [
+          {
+            "to": "S Mount/Top",
+            "probability": {
+              "gi": 54,
+              "nogi": 54
+            },
+            "result": "success"
+          },
+          {
+            "to": "Mount/Top",
+            "probability": {
+              "gi": 31,
+              "nogi": 31
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "failure"
+          }
+        ]
       },
       {
         "transition": "Mounted Triangle",
         "attempt_probability": {
           "gi": 3,
           "nogi": 4
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 51,
+          "nogi": 51
+        },
+        "outcomes": [
+          {
+            "to": "Mounted Triangle/Top",
+            "probability": {
+              "gi": 41,
+              "nogi": 41
+            },
+            "result": "success"
+          },
+          {
+            "to": "Armbar Control/Top",
+            "probability": {
+              "gi": 10,
+              "nogi": 10
+            },
+            "result": "success"
+          },
+          {
+            "to": "Mount/Top",
+            "probability": {
+              "gi": 33,
+              "nogi": 33
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Closed Guard/Top",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "failure"
+          }
+        ]
       },
       {
         "transition": "Consolidate Mount",

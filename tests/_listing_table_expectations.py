@@ -31,6 +31,17 @@ ADDED = (
 )
 
 
+def table(key, move, listing, e):
+    """One listing's authored cell, in the panel table's shape."""
+    return {
+        "key": key, "move": move, "listing": listing, "share_here": e["attempt_probability"],
+        "result": {"success_rate": e["success_rate"], "outcomes": [
+            {"to": "/".join(slugify(s) for s in o["to"].split("/")),
+             "gi": o["probability"]["gi"], "nogi": o["probability"]["nogi"], "result": o["result"]}
+            for o in e["outcomes"]]},
+    }
+
+
 def expectations(root=ROOT):
     prov = json.loads((root / "calibration/listing_tables.json").read_text())
     dropped = {r["key"] for r in prov.get("dropped", [])}
@@ -62,19 +73,22 @@ def expectations(root=ROOT):
             assert key not in historical, f"the approved addition already existed: {key}"
             matches = [e for e in row["after"] if e["transition"] == move]
             assert len(matches) == 1 and matches[0].get("deal_here"), key
-            e = matches[0]
-            current[key] = {
-                "key": key, "move": move, "listing": listing, "share_here": e["attempt_probability"],
-                "result": {"success_rate": e["success_rate"], "outcomes": [
-                    {"to": "/".join(slugify(s) for s in o["to"].split("/")),
-                     "gi": o["probability"]["gi"], "nogi": o["probability"]["nogi"], "result": o["result"]}
-                    for o in e["outcomes"]]},
-            }
+            current[key] = table(key, move, listing, matches[0])
     surviving = len(historical) - len(retired)
     assert surviving == 88 and surviving > 0, "every surviving historical table is exercised"
     assert len(retired) == 7 and len(current) == 90, "only the nine approved listing changes"
+    # K2 batch 2 (v1.250.2): the owner's H1 to H52, read from their own approval, never a panel.
+    later = json.loads((root / "calibration/graph_fixes_b2.json").read_text())
+    for row in later["rows"]:
+        hand, move = row["seat"], row["technique"]
+        listing = "/".join(slugify(s) for s in hand.split("/"))
+        key = f"{move}@{listing}"
+        matches = [e for e in later["hands"][hand]["after"] if e["transition"] == move]
+        assert key not in current and len(matches) == 1 and matches[0].get("deal_here"), key
+        current[key] = table(key, move, listing, matches[0])
+    assert len(later["rows"]) == 52 and len(current) == 142, "only batch 2's approved rows"
     return {"tables": list(current.values()), "retired": retired,
-            "surviving": surviving, "added": len(ADDED)}
+            "surviving": surviving, "added": len(ADDED) + len(later["rows"])}
 
 
 if __name__ == "__main__":

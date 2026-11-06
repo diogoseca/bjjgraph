@@ -121,7 +121,7 @@ In competition, the level change takedown creates a direct path from neutral sta
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 55% |
 | Failure | [[Positions/Standing Position]] | 30% |
-| Counter | [[Positions/Open Guard]] | 15% |
+| Counter | [[Positions/Guillotine Control]] | 15% |
 
 
 </section>
@@ -285,7 +285,7 @@ The level change takedown sits at the heart of the BJJ standing game, connecting
 
 - [[Positions/Side Control]] - Primary target position after successful takedown completion
 
-- [[Positions/Open Guard]] - Counter outcome when opponent pulls guard or establishes leg frames during shot entry
+- [[Positions/Guillotine Control]] - Counter outcome when a guillotine catches the shot: the shooter lands in Guillotine Control, bottom, and it costs them
 
 - [[Positions/Clinch]] - Alternative standing engagement that can set up level changes through collar ties and snapdowns
 

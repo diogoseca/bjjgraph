@@ -214,11 +214,11 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ### Available Transitions
 
 
-- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (7% of attempts)
+- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (6% of attempts)
 
 - **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** (5% of attempts)
 
-- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (8% of attempts)
+- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (7% of attempts)
 
 - **[[Transitions/Double Leg Setup/Attacker|Double Leg Setup]]** (6% of attempts)
 
@@ -226,9 +226,9 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 - **[[Transitions/Knee Tap/Attacker|Knee Tap]]** (3% of attempts)
 
-- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (6% of attempts)
+- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (5% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (6% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (5% of attempts)
 
 - **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (5% of attempts)
 
@@ -287,6 +287,10 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 - **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (3% of attempts)
 
 - **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (2% of attempts)
+
+- **[[Transitions/Kouchi Gari/Attacker|Kouchi Gari]]** (2% of attempts)
+
+- **[[Transitions/Uchi Mata/Attacker|Uchi Mata]]** (2% of attempts)
 
 
 ### Common Mistakes

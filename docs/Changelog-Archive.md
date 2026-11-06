@@ -14195,7 +14195,51 @@ which is 574 seat links, plus 2×287 for the hubs' second line, less 2×62 for f
 check, at deploy. The accepted U89 tree had been pruned for disk, so the contract proved its 75 files from p2b against the retained golden.
 
 **Gates.** `ci:validate` 25 of 25, `@curated` 752 of 752 on the own build before the capture, an independent review with no blocker: 15 records
-changed, all 1,201 numeric leaves identical.
+changed. Every numeric leaf of the 15 JSON records the PR changed (`git diff --name-only 579a6a23b 43af21b47 -- 'content/*.json'`, walked on
+both sides, booleans excluded): 300 leaves, all identical.
 
 **Left behind on purpose:** the 3 md-only pages under `Cross Collar Choke/Finish` keep their old notice, because no JSON feeds them. 59 of the 62
 family pages hold finishing prose in a closed block with no line above it, the owner's S3 a, and `docs/Content.md` names that exception.
+
+## v1.250.2 - The owner's 52 missing moves and the guillotine landing (K2 batch 2, F17)
+
+**H1 to H52, approved as proposed on 6 Nov.** 155 cell operations on 20 seats in 16 position files: 29 listed moves now deal their own
+table, 23 new moves join a hand, and 103 other listings shrink to make room (170 share cells). No listed move's own share moved, no page,
+node or ordinal was added, and the map kept every coordinate: 5,103 links to 5,124. H53 was not ruled, and H54 comes with the new positions.
+
+**F17, his F17b c.** A shot caught by a guillotine lands in Guillotine Control, bottom, as first approved, in full view of the −0.44 cost
+and of the 17 Aug review calling that seat the choker's. The page says that and no more. The cost on the final tree: −0.473 no-gi, −0.468
+gi, and Standing Position/Bottom goes +0.091 to +0.043 no-gi, +0.027 to −0.001 gi. The seat's text is untouched on purpose: its premise
+was wrong and straightening it belongs to the new positions. Dropped: the defender's "pull guard with the guillotine" wording, because a
+defender on their back with the shooter on top cannot sit beside "the shooter lands in Guillotine Control, bottom" on one page. The draft's
+follow-up asked for the opposite; the guard pull stays only as a Related row, and no row of this table lands it any more.
+
+**A wrong answer the row made true.** Three "where do you start" cards offered the new seat as a distractor: Back Step Pass "Top of Half
+Guard", Body Triangle Lock "Back Control with both hooks", S-Mount Transition "Full Mount, both knees pinned". Each now offers a seat the
+move is not listed at, and each answer names the new start. No question changed, so no card's schedule reset. Found by scanning every
+flashcard on the 52 rows' techniques for the seat's name; the batch's own flags could not have seen it.
+
+**The provenance home is `calibration/graph_fixes_b2.json`.** The drift gate (`_restructure_supersession.py`) refused 5 of the 20 hands,
+because the restructure receipt recorded them and these are later. The receipt stays history; the new ledger overlays it, and covers the
+other 15 so a historical apply path skips them instead of restoring them. Mutant: overlay off, red in `restructure_supersession_test.py`
+and in `_listing_table_expectations.py`.
+
+**FLOW.** 15 rows to 16, threshold unchanged. `kimura-trap/bottom|Rolling Kimura Escape` -0.296: above the line on dev, F17 alone -0.250,
+batch 2 alone -0.292, and -0.252 on the final tree without Open Guard/Bottom's four rows. Kimura Defense -0.305 to -0.325, all of it Half
+Guard/Bottom's two rows. Lockdown to Vaporizer -0.252 to -0.264, almost all of it Open Guard/Bottom's four. Each note is in the baseline.
+
+**One named sign flip in `flow.test.mjs`.** In gi, `Overhook Extraction|Attacker` is py -8.43e-7, js +1.94e-6, and +1.91e-6 from the Python
+kernel with only its shares rounded. It sits above the 1e-7 zero band, and widening the band to 2e-6 would hold 102 decks of gi/standing, so
+the one deck is named and must stay a flip that small in both kernels.
+
+**Text.** Level Change Takedown 8 fields, Back Step Pass 6 plus its card, Body Triangle Lock and S-Mount Transition one card each, and the
+#338 review's N1 to N4. `Cross Collar Choke/Finish.md` and `Finish/Attacker.md` lose "or go unconscious" by hand: they are md-only pages
+with no JSON, the same class as the owner's S4 a, and S4's JSON search could not see them. The other 20 `text_names_origin` rows name their
+main origin and are not false, the same limit as the 96 listings before them.
+
+**Bytes, on a real build.** Eager gzip 348,651 B, +4,863 B of the 5,000 B cap since its baseline: 137 B of room. Deferred 506,808 of
+506,817 B: 9 B of room. First hand core 367,949 B, +2,653 B of its 6,000 B cap. No ceiling moved and no baseline was accepted.
+
+**Two reds that only a local `@curated` could find.** On a content PR the E2E shards skip until the reseed, so both would have surfaced after
+the capture: H4 and H5 take Standing Position/Top from 34 cards to 36, and `option-hand` and `option-overflow` held the old size. The spec's
+own independent pool check passed first, so the app was right and the literal was stale. 752 passed, and the 2 pass on the new literal.

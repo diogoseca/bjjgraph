@@ -27,7 +27,7 @@ description: "Master defending the level change takedown in BJJ. Recognition cue
     {
       "@type": "HowToStep",
       "name": "Guillotine counter by wrapping attacker's neck as they shoot with head exposed on the outside",
-      "text": "When attacker's head drops below your chest level with exposed neck and poor head position during the shot entry If successful: Establish guillotine control that forces attacker to defend the choke rather than complete the takedown",
+      "text": "When attacker's head drops below your chest level with exposed neck and poor head position during the shot entry If successful: Establish guillotine control that forces attacker to defend the choke rather than complete the takedown: the shooter lands in Guillotine Control, bottom, and it costs them",
       "position": 2
     },
     {
@@ -38,8 +38,8 @@ description: "Master defending the level change takedown in BJJ. Recognition cue
     },
     {
       "@type": "HowToStep",
-      "name": "Tactical guard pull to closed or butterfly guard when the shot is unavoidable and sprawl timing is missed",
-      "text": "When takedown is imminent because the attacker has secured leg contact and forward drive is overwhelming If successful: Establish a controlled guard position rather than being taken down to side control where opponent scores and has dominant position",
+      "name": "Late guillotine as the attacker drives in, when the shot is unavoidable and sprawl timing is missed",
+      "text": "When takedown is imminent because the attacker has secured leg contact and forward drive is overwhelming, but their neck is still exposed If successful: The guillotine catches the shot rather than you being taken down to side control where opponent scores and has dominant position: the shooter lands in Guillotine Control, bottom, and it costs them",
       "position": 4
     }
   ],
@@ -242,8 +242,8 @@ Defending the level change takedown requires early recognition of the attack fol
 ### 2. Guillotine counter by wrapping attacker's neck as they shoot with head exposed on the outside
 
 - **When to use**: When attacker's head drops below your chest level with exposed neck and poor head position during the shot entry
-- **Targets**: [[Positions/Open Guard]]
-- **If successful**: Establish guillotine control that forces attacker to defend the choke rather than complete the takedown
+- **Targets**: [[Positions/Guillotine Control]]
+- **If successful**: Establish guillotine control that forces attacker to defend the choke rather than complete the takedown: the shooter lands in Guillotine Control, bottom, and it costs them
 - **Risk**: If grip is shallow or attacker drives through to side control, the guillotine becomes ineffective and you concede position
 
 ### 3. Crossface and hip check to redirect the shot angle and prevent clean leg contact
@@ -253,12 +253,12 @@ Defending the level change takedown requires early recognition of the attack fol
 - **If successful**: Redirect attacker's momentum past you, preventing the takedown and creating counter-offense opportunity from superior angle
 - **Risk**: If crossface is applied too high, attacker can duck under and finish the shot with inside head position
 
-### 4. Tactical guard pull to closed or butterfly guard when the shot is unavoidable and sprawl timing is missed
+### 4. Late guillotine as the attacker drives in, when the shot is unavoidable and sprawl timing is missed
 
-- **When to use**: When takedown is imminent because the attacker has secured leg contact and forward drive is overwhelming
-- **Targets**: [[Positions/Open Guard]]
-- **If successful**: Establish a controlled guard position rather than being taken down to side control where opponent scores and has dominant position
-- **Risk**: Concedes takedown points if scored before guard is established, and places you on bottom where you must work to escape
+- **When to use**: When takedown is imminent because the attacker has secured leg contact and forward drive is overwhelming, but their neck is still exposed
+- **Targets**: [[Positions/Guillotine Control]]
+- **If successful**: The guillotine catches the shot rather than you being taken down to side control where opponent scores and has dominant position: the shooter lands in Guillotine Control, bottom, and it costs them
+- **Risk**: Concedes takedown points if the attacker finishes before the guillotine is secured, and leaves you under them in side control where you must work to escape
 
 
 
@@ -274,9 +274,9 @@ Defending the level change takedown requires early recognition of the attack fol
 
 Sprawl immediately upon recognizing the level change, driving your hips back and down while posting on the attacker's head. Once their shot is stuffed, circle toward their head to establish front headlock or spin behind for a back take rather than simply returning to neutral standing where they can shoot again.
 
-### → [[Positions/Open Guard]]
+### → [[Positions/Guillotine Control]]
 
-If the shot connects but you can wrap a guillotine around the attacker's neck as they shoot with exposed head position, pull guard with the guillotine established. This converts their offensive shot into a defensive crisis where they must address the choke before attempting to pass, giving you immediate offensive initiative from bottom position.
+If the shot connects but you can wrap a guillotine around the attacker's neck as they shoot with exposed head position, secure it before they finish. This converts their offensive shot into a defensive crisis where they must address the choke: the shooter lands in Guillotine Control, bottom, and it costs them.
 
 
 

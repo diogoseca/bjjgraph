@@ -33,7 +33,7 @@ description: "How to defend against Muscle Sweep in BJJ. Recognition cues, defen
     {
       "@type": "HowToStep",
       "name": "Drive forward aggressively and stack the opponent's hips while widening your knees to neutralize their angle and reverse the pressure dynamic",
-      "text": "When you recognize the hip angle being created but before the explosive phase - your forward pressure eliminates the space they need for the sweep If successful: You flatten the opponent's angle, compress their guard, and may create guard opening opportunities from the stacking pressure",
+      "text": "When you recognize the hip angle being created but before the explosive phase - your forward pressure eliminates the space they need for the sweep If successful: You flatten the opponent's angle, compress their guard, and use the stacking pressure to open it and complete the pass to side control",
       "position": 3
     }
   ],
@@ -241,7 +241,7 @@ Defending the Muscle Sweep requires the top player inside closed guard to recogn
 
 - **When to use**: When you recognize the hip angle being created but before the explosive phase - your forward pressure eliminates the space they need for the sweep
 - **Targets**: [[Positions/Side Control]]
-- **If successful**: You flatten the opponent's angle, compress their guard, and may create guard opening opportunities from the stacking pressure
+- **If successful**: You flatten the opponent's angle, compress their guard, and use the stacking pressure to open it and complete the pass to side control
 - **Risk**: If timed poorly and the opponent has already loaded the sweep, your forward drive adds momentum to their sweep and accelerates the rollover
 
 
@@ -260,7 +260,7 @@ Strip the opponent's collar grip early using two-on-one grip breaks, recover str
 
 ### → [[Positions/Side Control]]
 
-Drive forward aggressively when you feel the hip angle being created, stacking the opponent's hips and flattening their angle. Use the forward pressure to begin guard opening sequences while the opponent is compressed and unable to maintain their attacking position.
+Drive forward aggressively when you feel the hip angle being created, stacking the opponent's hips and flattening their angle. Use the forward pressure to open the guard and complete the pass to side control while the opponent is compressed and unable to maintain their attacking position.
 
 
 

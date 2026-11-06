@@ -79,7 +79,7 @@ description: "How to execute Body Triangle Lock in BJJ. Attacking perspective wi
       "name": "What position do you start Body Triangle Lock from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Body Triangle Lock starts from Gift Wrap/Top, where you have back control with the opponent's arm trapped across their body. That arm is secured by your arm threading under their armpit, giving you wrist or forearm control on the far side."
+        "text": "Body Triangle Lock starts from Gift Wrap/Top, where you have back control with the opponent's arm trapped across their body. That arm is secured by your arm threading under their armpit, giving you wrist or forearm control on the far side. It can also start from Back Control/Top."
       }
     },
     {
