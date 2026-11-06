@@ -217,3 +217,25 @@ for (const path of [ATTACKER, DEFENDER]) {
     expect(proof).toEqual({ count: 1, path: HUB, hash: '#safety-considerations', guide: true, own: false })
   })
 }
+
+// CONTROLS (own built tree, 2026-11-06, v1.250.0, the owner's S2 b): 17 of 17 killed at an assertion, 0 test timeouts,
+// and a clean run of all 20 tests before and after. Each named the test below; other reds in the same run do not count.
+//   order-removed                 the guide is the last teaching section
+//   order-all-pages               a transition shares the section id
+//   anchor-own-fragment-only      the line's real click reaches the guide
+//   hub-link-not-recognised       the line's real click reaches the guide
+//   hyphens-back                  a wrapped line never hyphenates
+//   hyphens-on-the-link-only      a wrapped line never hyphenates (the p, which holds the rule)
+//   padding-narrower              in the real font the lines take the shape the owner chose (Defender at 390)
+//   label-glue-removed            a wrapped line keeps its link whole
+//   rule-inside-the-link          the seat's line sits on its steps (only the label is a link)
+//   seat-notice-back              neither top notice survives
+//   line-below-the-heading        the seat's line sits on its steps
+//   defender-given-attacker-rule  the seat's line sits on its steps
+//   two-taps-back                 neither top notice survives
+//   seat-link-in-page-only        without the app the seat's link still reaches the hub's guide
+//   family-notice-back            the hub carries each seat's line, and a family carries none
+//   hub-attacker-line-removed     the hub carries each seat's line
+//   hub-defender-line-removed     the hub carries each seat's line
+// Not a control here: article_sections_mutants.mjs defender-hub-leak covers the selector the reader keeps.
+// Partially pinned: one DUAL page and one family page. The corpus-wide counts are a grep of the Markdown, not a gate.
