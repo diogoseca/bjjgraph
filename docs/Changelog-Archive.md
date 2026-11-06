@@ -14296,4 +14296,4 @@ accepted. The MDP data grew by one content-addressed shard, so the build gains o
 **Two reds that only a local `@curated` could find.** On a content PR the E2E shards skip until the reseed, so both would have surfaced after
 the capture: H4 and H5 take Standing Position/Top from 34 cards to 36, and `option-hand` and `option-overflow` held the old size. The spec's
 own independent pool check passed first, so the app was right and the literal was stale. 752 passed, and the 2 pass on the new literal.
-After #344 merged, the final build passed a focused 31: those two spec files, #344's, and the first-hand payload gate.
+The final tree, with #344 and round 2 in, passed `@curated` 754 of 754 on its own build.
