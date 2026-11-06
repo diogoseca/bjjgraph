@@ -1,5 +1,5 @@
 {# BJJ Submission Hub Page Template #}
-{# Generates hub pages with safety banner, outcomes, and role summaries #}
+{# Generates hub pages with outcomes, role summaries and the safety guide last #}
 {# Input: Root fields (name, description, overview, etc.) + attacker, defender, outcomes, safety_considerations #}
 
 ---
@@ -107,9 +107,6 @@ description: "{{ description }}"
 <span class="meta-chip">{{ success_rate | pct(' success') }}</span>
 </div>
 
-> [!danger] Safety
-> {{ name }} targets the {{ target_area }}. Primary risk: {{ safety_considerations.injury_risks[0].injury }}. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 {% if (aliases is defined and aliases) or (family is defined and family) or (disambiguations is defined and disambiguations) -%}
 <aside class="entity-relations">
 {%- if aliases is defined and aliases %}
@@ -200,6 +197,8 @@ description: "{{ description }}"
 {% for principle in attacker.key_principles %}
 - {{ principle }}
 {% endfor %}
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

@@ -123,9 +123,6 @@ description: "{{ description }}"
 <span class="meta-chip">{{ success_rate | pct(' avg', '~') }}</span>
 </div>
 
-> [!danger] Safety
-> {{ name }} targets the {{ target_area }}. Primary risk: {{ safety_considerations.injury_risks[0].injury }}. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 {% if (aliases is defined and aliases) or (family is defined and family) or (disambiguations is defined and disambiguations) -%}
 <aside class="entity-relations">
 {%- if aliases is defined and aliases %}

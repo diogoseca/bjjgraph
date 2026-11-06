@@ -1,6 +1,6 @@
 {# BJJ Submission Attacker Page Template #}
 {# Generates attacker perspective pages from attacker section #}
-{# Input: attacker (full attacker section), name (hub name), from_position, outcomes, safety_considerations, target_area #}
+{# Input: attacker (full attacker section), name (hub name), from_position, outcomes, safety_considerations, target_area, content_path (the hub's page, which holds the safety guide) #}
 
 ---
 title: "{{ name }} Attacker | BJJ Submission Guide | BJJ Graph"
@@ -9,8 +9,6 @@ description: "{{ attacker.description }}"
 
 {# PostHog A/B Testing Metadata #}
 <body data-content-type="submissions">
-
-> **SAFETY**: {{ name }} targets the {{ target_area }}. Risk: {{ safety_considerations.injury_risks[0].injury }}. Release immediately upon tap.
 
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
@@ -231,6 +229,8 @@ description: "{{ attacker.description }}"
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[{{ content_path }}#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

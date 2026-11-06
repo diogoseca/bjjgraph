@@ -52,8 +52,8 @@
     "application_speed": "SLOW and progressive - 3-5 seconds minimum from initial pressure to maximum safe training pressure. NEVER apply sudden force.",
     "tap_signals": [
       "Verbal tap (saying 'tap' or any verbal indication)",
-      "Physical hand tap on opponent or mat (minimum 2 taps)",
-      "Physical foot tap on mat (minimum 2 taps)",
+      "Physical hand tap on opponent or mat",
+      "Physical foot tap on mat",
       "Any distress signal including unusual sounds or movements",
       "Screaming or yelling",
       "Rapid head shaking"
