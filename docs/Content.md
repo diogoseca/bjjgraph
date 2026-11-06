@@ -465,10 +465,12 @@ The fields' presence and counts are machine-checkable; medical accuracy and safe
 not. Do not invent recovery guarantees to fill `recovery_time`. Explain uncertainty and avoid
 presenting the field as individualized medical advice.
 
-Keep warnings prominent and before execution instructions. Current submission templates place an
-early safety callout after the summary and metadata, with full safety guidance later; “first visible
-content” is not an accurate description of their output. Inspect the rendered page when changing
-safety copy or templates.
+Keep warnings prominent and before execution instructions. Submission templates carry one line
+directly above the steps: `Release immediately upon tap ↓` above Execution Steps on the attacker and
+hub pages, `Tap early and often ↓` above Defensive Options on the defender page. Each line links to
+the full Safety Guide, which is the last teaching section in the app, before Related. Family pages
+list no steps, so they carry the guide and no line. “First visible content” is not an accurate
+description of their output. Inspect the rendered page when changing safety copy or templates.
 
 Teach early tapping, recognition of verbal and physical stop signals, and immediate release when
 a partner taps or calls stop. Stop on suspected injury or impaired responsiveness rather than
