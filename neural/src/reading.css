@@ -29,8 +29,7 @@
 .ng-reader-article button,.ng-reader-tools button { pointer-events:auto;min-height:44px;font:inherit;color:#d6def0;background:#29334d;border:1px solid #596782;border-radius:8px;cursor:pointer;padding:8px 10px; }
 .ng-reader-tools button { font:12px "Plus Jakarta Sans",sans-serif; }
 .ng-reader-game>.ng-reader-tools { pointer-events:auto; }
-/* U55 b (owner): where the index shows, layoutNow runs the grid from its 12px clearance to a 24px right
-   margin with an inline margin-left. Without the index (phones, below 1152px) it stays centred here. */
+/* Owner (2026-11-01): the grid stays centred on the free area at every width, sharing both edges with the choices row. */
 .ng-reader :is([data-reader-body],.ng-reader-hidden) { width:var(--article-width,100%);margin-left:calc((100% - var(--article-width,100%))/2); }
 .ng-reader [data-reader-body] { box-sizing:border-box;container-type:inline-size;min-width:0;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:calc(var(--section-gap)*4) min(calc(var(--section-gap)*4),3%);align-items:start; }
 .ng-section-card { box-sizing:border-box;grid-column:span var(--span,6);background:#141b2b;border:0;border-radius:20px;min-width:0;overflow:clip;box-shadow:var(--section-shadow); }
@@ -55,7 +54,7 @@
 .ng-section-card>h2>[aria-expanded=true] { position:absolute;right:6px;top:50%;transform:translateY(-50%); }
 .ng-reader :is([data-section-toggle],[data-game-open],[data-reader-close]) { flex:none;display:grid;place-items:center;width:44px;height:44px;min-height:44px;margin:0;padding:0;border:0;border-radius:7px;background:none;box-shadow:none;color:#8b97b0;font:12px/1 "Plus Jakarta Sans",sans-serif;text-align:center;cursor:pointer; }
 .ng-section-x { display:grid;place-items:center;width:24px;height:24px;border-radius:7px;transition:color .15s,background .15s; }
-.ng-reader [data-section-toggle]:hover .ng-section-x { color:#dbe2f0;background:#ffffff14; }
+.ng-reader :is([data-section-toggle],[data-reader-close]):hover .ng-section-x { color:#dbe2f0;background:#ffffff14; }
 .ng-section-closed { display:none; }
 .ng-reader [data-collapsed=true] .ng-section-x { display:none; }
 .ng-reader [data-collapsed=true] .ng-section-closed { display:flex;align-items:center;gap:6px; }
@@ -79,7 +78,6 @@
 .ng-reader-hidden .ng-section-closed::after { content:"Show"; }
 /* U12 a (owner): the article's own ✕ on its top row puts the article away. */
 .ng-reader [data-reader-close] { margin:0 0 0 auto; }
-.ng-reader [data-reader-close]:hover .ng-section-x { color:#dbe2f0;background:#ffffff14; }
 .ng-section-body { padding:0 var(--reader-unit) var(--reader-unit); }
 /* U59 c (owner): a readable measure in every tile, centred inside the token padding like the tile's title:
    46ch of the body font is a 66-68 character median line on real pages (prose glyphs are narrower than
@@ -91,21 +89,26 @@
 .ng-section-body article+article { margin-top:var(--reader-unit); }
 .ng-section-body :is(.content-section,.learning-section,.system-section) { margin:0; }
 .ng-section-body .ng-section-source-title { display:none; }
-.ng-section-body :is(h2,h3) { color:#e7edf8;font:600 18px/1.4 "Space Grotesk",sans-serif;margin:var(--reader-unit) 0 calc(var(--reader-unit)/2); }
+/* Owner (2026-11-01): "What is Side Control Bottom?" leads; "Position definition" stays, almost unnoticeable. */
+.ng-section-body :is(h2,h3,[data-source-id=state-invariants] .section-subtitle) { color:#e7edf8;font:600 18px/1.4 "Space Grotesk",sans-serif;margin:var(--reader-unit) 0 calc(var(--reader-unit)/2); }
 .ng-section-body h4 { color:#dbe2f0;font-size:17px; }
 .ng-section-body p { margin:0 0 var(--reader-unit);color:#d6def0; }
 .ng-section-body p:last-child { margin-bottom:0; }
 .ng-section-body :is(li,td,th) { color:#d6def0; }
 .ng-section-body :is(ul,ol) { display:grid;gap:calc(var(--reader-unit)/2);padding-left:24px;margin:0; }
 .ng-section-body li { margin:0; }
-.ng-section-body a,.ng-section-body .system-card__cta { color:#adc9ff; }
-.ng-section-body a { text-decoration:underline;text-underline-offset:3px; }
+.ng-section-body a { color:#adc9ff;text-decoration:underline;text-underline-offset:3px; }
 /* The section supplies spacing; Quartz's table margin otherwise clips a three-column table at 768px. */
 .ng-section-body table { display:block;overflow-x:auto;font-size:14px;margin:0; }
 .ng-section-body :is(td,th) { padding:8px;border-bottom:1px solid #414c68; }
 .ng-section-body img { max-width:100%; }
 /* D-489/HATGO489b: hatnotes and Related badges share muted prose; CTA text keeps the reader link color above. */
-.ng-section-body :is(.section-subtitle,.entity-relations,.entity-relations *,.system-card__chip) { opacity:1;color:#b6c5df; }
+.ng-section-body :is(.section-subtitle,.entity-relations,.entity-relations *) { opacity:1;color:#b6c5df; }
+[data-section-type=definition] .ng-section-title { opacity:.45;font-size:10px; }
+/* The card's title says it already. */
+:is(.also-known-as,.often-confused-with)>em { display:none; }
+/* Owner: both sections carry a coming-feature mark. */
+.ng-section-card:has([data-source-id$=tree],[data-source-id$=metrics])>h2::after { content:"Beta";margin-left:8px;padding:0 7px;border:1px solid #596782;border-radius:9px;font-size:10px;line-height:16px; }
 .ng-section-body blockquote { margin:0 0 var(--reader-unit);padding:12px;border-left:2px solid #ffb45a;background:#ffb45a08;color:#d6def0; }
 .ng-reader-toc-row[data-collapsed=true] { color:#a8b0c2; }
 /* Video names no header either: its ✕ sits in the corner, over the clip's own frame. */

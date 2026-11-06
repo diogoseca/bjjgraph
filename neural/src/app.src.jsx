@@ -12707,8 +12707,11 @@ class Component extends DCLogic {
     // the edge (measured 0px at 1440). The trailing inset is the leading one without the pane's
     // reserve; the phone stylesheet's `!important` 12px wins over both, symmetric too.
     if (op) {
-      op.style.paddingLeft = (NG_TRAY_INSET + this._paneLayout().left).toFixed(1) + "px";
-      op.style.paddingRight = NG_TRAY_INSET + "px";
+      // Owner (2026-11-01): beside the article the row and the grid share both edges, so the first card sits on the
+      // grid's left edge and the reader lifts the inset (`trayFlush`, reader.src.js).
+      const inset = this._reader?.trayFlush ? 0 : NG_TRAY_INSET;
+      op.style.paddingLeft = (inset + this._paneLayout().left).toFixed(1) + "px";
+      op.style.paddingRight = inset + "px";
       this._syncEdgeFade(op);
     }
     this._layoutLandHorizontal();

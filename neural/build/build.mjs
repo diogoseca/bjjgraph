@@ -464,9 +464,14 @@ await build({
 });
 
 // Independent article renderer: requested on reading intent or after the real first hand.
+// READER_ONLY_PROPS: minifying shortens locals but keeps a property name whole, and the deferred cap is exact. These names
+// live only inside reader.src.js, so they can shrink; the source stays readable. A name the app or a spec reads must
+// never be listed, because it would come back undefined rather than throw. Check before adding one:
+// grep -rw <name> neural/src e2e tests --include='*' | grep -v reader.src.js
+const READER_ONLY_PROPS = /^(?:closedRow|referenceClips|lightReference|bookClose|highlightReference|syncSections|mediaOrigin|hiddenSections|gamePage|bookScroll|splitSections|syncIndex|mediaNext|readingOrder|chromeActive|shelfState|partEl|roleLinks|ownsMedia|indexBest|held|heldAt)$/;
 await build({
   entryPoints: [R("src/reader.src.js")], bundle: true, format: "esm", target: "es2019",
-  minify: true, legalComments: "none", outfile: R("dist/reader.js"), logLevel: "info",
+  minify: true, mangleProps: READER_ONLY_PROPS, legalComments: "none", outfile: R("dist/reader.js"), logLevel: "info",
 });
 
 await build({
