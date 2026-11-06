@@ -315,6 +315,9 @@ const mutants = [
   ['columns-one-lane', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => s, css => replace(css, 'width:calc(50% - var(--gap)/2)', 'width:100%')],
   ['columns-three-lanes', 'article-dashboard.spec.ts', 'at 1920x1080 the article is two columns', s => s, css => replace(css, 'width:calc(50% - var(--gap)/2)', 'width:calc(33.3% - var(--gap)*.7)')],
   ['columns-gap-lost', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => s, css => replace(css, 'margin:0 0 var(--gap)', 'margin:0')],
+  // The two gap specs that measured between rows now measure down a column, so each must still see a lost gap.
+  ['columns-gap-lost-sections', sections, '1366px choices precede', s => s, css => replace(css, 'margin:0 0 var(--gap)', 'margin:0')],
+  ['columns-gap-lost-rhythm', contract, '1366px reader rhythm', s => s, css => replace(css, 'margin:0 0 var(--gap)', 'margin:0')],
   // A character count for the height: the schemas' field limits, the owner's first thought, and the brief's reason to measure.
   ['columns-tall-tile', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => replace(s, 'height = rect(s.card).height + 24', 'height = s.body.textContent.length / 3')],
   ['columns-stale-height', 'article-dashboard.spec.ts', 'a tile that grows reorders', s => replace(s, '      this.tiles.observe(card);\n', '')],
