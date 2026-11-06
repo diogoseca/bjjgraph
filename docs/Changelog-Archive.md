@@ -14173,7 +14173,7 @@ The label changed everywhere it reaches a reader (From the top, From the bottom,
 no capture, because the built site carries no such heading: 0 in the HTML, the Markdown export and `llms.txt`. `#overview` anchors stay.
 Saved section settings survive, because they are stored by type. One trap caught before it shipped: Learning, Systems and Submission family
 pages publish their own `<details>`, so an `article`-wide rule hid a question once opened; hence the class. Being one-way is what makes it fit.
-Bytes on the merged tree: deferred 506,815 of 506,817, eager +4,900 of 5,000, no ceiling moved, so `mangleProps` stays (590 B over without it).
+Bytes on the merged tree: deferred 506,815 of 506,817, eager +4,900 of 5,000, no ceiling moved, so `mangleProps` stays (it saves 620 B, so 618 B over without it).
 Controls: `read-more-no-reflow` survived, because a later layout sorts the tiles anyway, and `line-dom-first-slide` survived because the
 slide's page puts both candidates on one block. Both are recorded in the spec's header, and each claim has a control that does bite.
 
