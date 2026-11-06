@@ -19,13 +19,13 @@ const pathRole = path => (path.split("/").pop() || "Guide") + " perspective";
 // translated heading or ordinal. Additions do not delete old settings (§6.6).
 export const SECTION_TYPES = [
   ["videos", "Videos"], ["aka", "Also known as"], ["confused", "Often confused with"], ["definition", "Position definition"],
-  ["overview", "Overview"], ["principles", "Essential principles"],
+  ["overview", "How it works"], ["principles", "Essential principles"],
   ["recognition", "Recognition"], ["setup", "Setup"], ["prerequisites", "Prerequisites"],
   ["options", "Options and applications"], ["safety", "Safety guides"], ["mistakes", "Common mistakes"],
   ["escapes", "Escape paths"], ["favorable-outcomes", "Favorable outcomes"], ["outcomes", "Outcomes"],
   ["training", "Training"], ["statistics", "Statistics"], ["variations", "Variations"],
-  ["role-comparison", "Role comparison"], ["top-summary", "Top overview"], ["bottom-summary", "Bottom overview"],
-  ["attacker-summary", "Attacker overview"], ["defender-summary", "Defender overview"],
+  ["role-comparison", "Role comparison"], ["top-summary", "From the top"], ["bottom-summary", "From the bottom"],
+  ["attacker-summary", "As the attacker"], ["defender-summary", "As the defender"],
   ["assessment", "Self-assessment"], ["progress", "Progress markers"], ["integration", "Position integration"],
   ["sources", "Sources"], ["course", "Course"], ["related", "Related"], ["additional", "Additional reading"],
 ];
@@ -386,7 +386,7 @@ class Reader {
     article.innerHTML = record.html;
     article.querySelectorAll("script,style").forEach((node) => node.remove());
     const overview = article.querySelector("section#overview");
-    if (overview && !overview.querySelector("h2")) overview.prepend(element("h2", { id: "overview" }, "Overview"));
+    if (overview && !overview.querySelector("h2")) overview.prepend(element("h2", { id: "overview" }, "How it works"));
     const base = new URL(path, location.origin);
     // Source pages sometimes repeat a section's id on its heading. Each clone id
     // is unique, and heading links resolve within this article, never the hidden DOM.
@@ -488,7 +488,6 @@ class Reader {
     // D-338: the index navigates and shows what is closed; it no longer opens or closes a
     // section (the section's own ✕ and label do), and "Section settings" is gone from it.
     for (const section of this.readingOrder(!!node)) {
-      if (section.more) continue;
       const row = element("div", { class: "ng-reader-toc-row", "data-toc-section": section.id, "data-toc-type": section.type });
       const link = element("a", { href: "#" + section.id, "data-section-link": section.id, "aria-label": "Go to " + section.title }, section.title);
       link.style.pointerEvents = "auto";
@@ -556,24 +555,21 @@ class Reader {
       buckets.get(key).parts.push(part);
     }
     if (this.referenceClips.length && !buckets.has("videos")) buckets.set("videos", { type: "videos", title: "Videos", parts: [] });
-    // Owner (2026-11-01): the overview "should be split ... There's too much content in one single container". A
-    // position's Overview becomes tiles of a few sentences, cut at sentence ends and kept at the author's paragraph
-    // breaks. Only the first tile has an index row; a tile's close closes them all, because they share one type.
-    const overview = buckets.get(position && "overview"), wall = overview?.parts[0].node, tiles = [];
-    let run = "";
-    const cut = () => { if (run) tiles.push(run); run = ""; };
-    for (const p of wall?.querySelectorAll?.(":scope>p") || []) {
-      for (const line of p.innerHTML.split(/(?<=[.!?])\s+(?=[A-Z])/)) { run += " " + line; if (run.length > 480) cut(); }
-      if (run.length > 240) cut();
-      p.remove();
+    // U101 b, U102 a (owner, 2026-11-06, replacing the split into tiles): "there should only be one overview, and it shouldn't be
+    // called 'overview.'" A position's section opens with its first sentences and "Read more" opens the rest in place, one way, so
+    // the label goes with the opening. Every word stays in the DOM. The class, because Learning, Systems and Submission family
+    // pages publish their own <details>, and a rule that hid their summaries would hide a question once it opened.
+    const wall = buckets.get(position && "overview")?.parts[0].node, paragraphs = [...(wall?.querySelectorAll?.(":scope>p") || [])];
+    if (paragraphs[0]) {
+      const sentences = paragraphs[0].innerHTML.split(/(?<=[.!?])\s+(?=[A-Z])/), more = element("details", { class: "ng-rm" });
+      let lead = sentences.shift();
+      while (sentences[0] && lead.length < 240) lead += " " + sentences.shift();
+      paragraphs[0].innerHTML = lead;
+      more.append(element("summary", {}, "Read more"));
+      if (sentences[0]) { const rest = element("p"); rest.innerHTML = sentences.join(" "); more.append(rest); }
+      more.append(...paragraphs.slice(1));
+      if (more.children[1]) wall.append(more);
     }
-    cut();
-    tiles.forEach((html, i) => {
-      const p = element("p");
-      p.innerHTML = html;
-      if (i) buckets.set("overview-" + i, { type: "overview", title: "Overview " + (i + 1), more: 1, parts: [{ node: p, source: overview.parts[0].source }] });
-      else wall.append(p);
-    });
     const order = position ? POSITION_ORDER : SECTION_ORDER;
     const ordered = [...buckets.values()].sort((a, b) => {
       // S1 a (owner, 2026-11-06): on a submission the full guide is the last teaching section, before Related,
@@ -606,7 +602,7 @@ class Reader {
       for (const part of control ? [] : group.parts) {
         const fragment = element("article", { "data-reader-article": part.source.dataset.readerArticle, "data-source-path": part.source.dataset.sourcePath });
         if (!ROLES.test(path) && group.parts.some(p => p.source.dataset.readerArticle !== part.source.dataset.readerArticle)) {
-          fragment.append(element("p", { class: "ng-section-provenance" }, part.source.dataset.readerArticle === "hub" ? "Shared overview" : pathRole(part.source.dataset.sourcePath)));
+          fragment.append(element("p", { class: "ng-section-provenance" }, part.source.dataset.readerArticle === "hub" ? "For both sides" : pathRole(part.source.dataset.sourcePath)));
         }
         // Keep authored headings, anchors and complete safety text in the source
         // fragment. The new heading supplies the visible semantic group title.

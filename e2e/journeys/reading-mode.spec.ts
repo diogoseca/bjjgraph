@@ -84,7 +84,7 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     await expect(page.locator("[data-land-more]")).toHaveCount(0)
     await expect(page.locator("[data-reader-body]")).toContainText("Training Progressions")
     expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, deals: 0 })
-    // U65 note (owner, 2026-10-29): the game film lives above; the article begins with Overview.
+    // U65 note (owner, 2026-10-29): the game film lives above; the article begins with How it works.
     await expect(page.locator('[data-reader-body]>.ng-section-card:visible').first()).toHaveAttribute('data-section-type', 'overview')
     await expect(page.locator('[data-section-type=overview]')).toContainText('Knee Slice')
     // RETIRED (D-338, owner: no View menu; Focus on reading and Browse removed). The Focus preset,

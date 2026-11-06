@@ -8,7 +8,7 @@ import { journey } from '../dsl'
 // to be the same size".
 //
 // REAL CONTENT. The harness serves `{}` for dossier chunks (e2e/dsl.ts); this journey routes them through
-// to the built tree, so Mount/Top reads with its film, a long prose Overview and
+// to the built tree, so Mount/Top reads with its film, a long prose How it works and
 // short lists (Essential principles, Prerequisites, Statistics). The page HTML is the served build's own.
 // What the harness still does NOT serve: Google Fonts (an empty stylesheet) and YouTube thumbnails
 // (aborted). Heights here are fallback-font heights, so every claim is RELATIVE: a tile against its own
@@ -41,6 +41,8 @@ import { journey } from '../dsl'
 //   columns-tall-tile      a tile's real height decides (a character count stands in for it)
 //   columns-stale-height   a tile that grows later reorders what follows it (no observer on the tiles)
 //   columns-close-waits-a-frame a close sorts the columns in its own task (it waits for the coalesced frame)
+//   read-more-stays        Read more is one way (its label stays once opened)
+//   read-more-no-reflow    what follows Read more reflows (no observer on the tiles)
 //   u59-tab-rtl            Tab walks the tiles in the order the eye does (the columns mirrored)
 //   u59-measure-unset      prose lines keep a readable measure (the 46ch column removed)
 //   line-dom-first         opening Explore keeps the topmost line of EITHER column (the first block in source order)
@@ -252,7 +254,7 @@ test('U59 c: at 1440x900 Tab walks the tiles in the order the eye reads them', a
   await boot(page, 1440, 900)
   // U65 removes the visible Videos tile, retaining its hidden preference control. Start at an actual
   // visible tile and traverse the rendered focus targets, rather than a fixed number of stops.
-  const targets = '[data-reader-body] :is(a[href],button):visible'
+  const targets = '[data-reader-body] :is(a[href],button,summary):visible'
   const stops = await page.locator(targets).count()
   await page.locator(targets).first().focus()
   const seen: number[] = []
@@ -533,6 +535,52 @@ test('closing a tile moves nothing before it, reflows what follows, and reopenin
   const back = await dashboard(page)
   expect(back.tiles.map(t => t.box.left), 'every tile is back in its column').toEqual(before.tiles.map(t => t.box.left))
   columns(back)
+})
+
+// U101 b: "Read more" opens the rest in place, one way, by real input. A tile's place depends only on the tiles before it, so nothing
+// before it moves, what follows reflows, and the line at the reader's top holds. read-more-stays, read-more-no-reflow.
+for (const path of ['/Positions/Mount/Top', '/Positions/Rubber-Guard/New-York/Bottom']) {
+  test(`Read more on ${path} opens in place by the mouse, and what follows reflows`, async ({ page }) => {
+    const j = await boot(page, 1440, 900, path)
+    await expect(page.locator('[data-reward-close]')).toBeHidden({ timeout: 15000 })
+    await page.locator(READY).evaluate(e => { const t = e.querySelector('[data-reader-body]>[data-section-type=overview]')!; e.scrollTop += t.getBoundingClientRect().top - e.getBoundingClientRect().top - 90 })
+    await j.readerLayoutSettled()
+    await page.locator(READY).evaluate(e => {
+      const top = e.getBoundingClientRect().top, line = ([...e.querySelectorAll('[data-reader-body] p,[data-reader-body] li')] as Element[]).filter(x => x.getBoundingClientRect().top >= top).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]
+      line.setAttribute('data-test-place', '')
+    })
+    const place = () => page.locator('[data-test-place]').evaluate(e => e.getBoundingClientRect().top)
+    const before = await dashboard(page), at = before.dom.indexOf('overview'), line = await place()
+    expect(at, 'premise: tiles sit before it').toBeGreaterThan(2)
+    expect(at, 'premise: tiles sit after it').toBeLessThan(before.dom.length - 1)
+    await j.clickByMouse('[data-section-type=overview] summary', 'Read more')
+    await j.readerLayoutSettled()
+    const after = await dashboard(page)
+    expect(await page.locator('[data-section-type=overview] details').getAttribute('open'), 'it opened').not.toBeNull()
+    await expect(page.locator('[data-section-type=overview] summary'), 'one way: the label goes').toBeHidden()
+    expect(after.scrollTop, 'the reader stays where it was').toBe(before.scrollTop)
+    expect(Math.abs(await place() - line), 'the line holds').toBeLessThanOrEqual(1)
+    for (const [i, t] of before.tiles.slice(0, at).entries()) expect(after.tiles[i].box, `${t.type}, before it, did not move`).toEqual(t.box)
+    expect(after.tiles[at].box.height, 'the tile grew').toBeGreaterThan(before.tiles[at].box.height + 100)
+    expect(after.tiles.slice(at + 1).some((t, i) => Math.abs(t.box.top - before.tiles[at + 1 + i].box.top) > 1), 'what follows reflowed').toBe(true)
+    columns(after)
+  })
+}
+
+// The same by keyboard, and Tab goes on from there. A summary that hides itself must not send focus back to the page's start.
+test('Read more opens by the keyboard, and Tab carries on past it', async ({ page }) => {
+  const j = await boot(page, 1440, 900)
+  await page.locator('[data-section-type=overview] summary').focus()
+  await j.readerLayoutSettled()
+  await page.keyboard.press('Enter')
+  await j.readerLayoutSettled()
+  expect(await page.locator('[data-section-type=overview] details').getAttribute('open'), 'Enter opened it').not.toBeNull()
+  await page.keyboard.press('Tab')
+  const next = await page.evaluate(() => {
+    const r = (window as any).__neural._reader, tiles = ([...r.body.children] as HTMLElement[]).filter(c => c.getClientRects().length)
+    return { tile: tiles.findIndex(c => c.contains(document.activeElement)), from: tiles.findIndex(c => c.dataset.sectionType === 'overview'), tag: document.activeElement?.tagName }
+  })
+  expect(next.tile, `Tab goes on from the tile, not back to the start (${next.tag})`).toBeGreaterThanOrEqual(next.from)
 })
 
 // The close sorts the columns in its own task, as every open does. On a coalesced frame the tiles after it kept their old sides

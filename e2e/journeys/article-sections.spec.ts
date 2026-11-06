@@ -69,7 +69,7 @@ for (const path of [
         const selected = guide || !/\/(Top|Bottom|Attacker|Defender)$/.test(root.getAttribute('data-reader-path')!) ? [source] : [...source.querySelectorAll('#safety-considerations')]
         for (const container of selected) for (const leaf of container.querySelectorAll('p,li,th,td')) {
           if (!/^\/(Principles|Learning|Systems)\//.test(root.getAttribute('data-reader-path')!) && leaf.closest('#film-study,#official-preview')) continue
-          // A position's Overview is cut into tiles at sentence ends (owner, 2026-11-01), and the template's wikilink
+          // A position's How it works is cut once at a sentence end, behind Read more (U101 b), and the template's wikilink
           // inside raw HTML prints as its name, so a paragraph is whole when every sentence of it shows.
           const text = norm(leaf.textContent)
           for (const line of position ? text.replace(/\[\[.*?\|(.*?)]]/, '$1').split(/(?<=[.!?])\s+(?=[A-Z])/) : [text]) if (line && !shown.includes(line)) missing.push(line)
@@ -486,7 +486,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
     await expect(page.locator('[aria-label="Reading perspectives"]')).toHaveCount(0)
     await expect(page.locator('.ng-reader-toc h2')).toHaveText('Escaping Loop Choke from Half Guard')
     expect(await page.locator('.ng-reader-toc h2 small').evaluate(e => getComputedStyle(e).display), 'the qualifier stays in the phrase').toBe('inline')
-    expect((await page.locator('.ng-reader-toc-row a').allTextContents()).slice(0, 4)).toEqual(['Videos', 'Moves', 'Questions', 'Overview'])
+    expect((await page.locator('.ng-reader-toc-row a').allTextContents()).slice(0, 4)).toEqual(['Videos', 'Moves', 'Questions', 'How it works'])
     const hasToc = viewport.width >= 1350 // U97 b
     for (const [part, close] of [['card', '[data-land-close]'], ['hand', '[data-hand-close]']]) {
       const label = page.locator(`[data-game-open="${part}"]`)

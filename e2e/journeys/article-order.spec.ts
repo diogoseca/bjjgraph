@@ -6,6 +6,8 @@ import { journey } from '../dsl'
 //   "what should show up first ... should be the 'Also known as' section, and then 'What is side control bottom?'"
 //   "the essential principles ... after the position definition"; decisions and mistakes "very nice"
 //   "the statistics, I would push that upwards"; the overview "should be split ... too much content in one single container"
+//   U96, U101 b, U102 a (2026-11-06, replacing the numbered tiles): "there should only be one overview, and it shouldn't be called
+//   'overview.'" So one tile, "How it works", a short opening, and "Read more" opening the rest in place, one way.
 //   "training is not very nice ... push that downwards"; statistics and decisions carry a "beta"-style mark.
 //
 // REAL CONTENT: dossier chunks route through to the built tree, as in article-dashboard.spec.ts.
@@ -13,12 +15,17 @@ import { journey } from '../dsl'
 // Claims and the control that breaks each, in tests/artifacts/article_sections_mutants.mjs:
 //   order-position-list      a position reads in the owner's order (the old list on every page)
 //   order-reaches-others     every other page keeps today's order, safety included (the new list everywhere)
-//   relations-not-split      the relations are tiles of their own (the aside stays one block in Overview)
-//   definition-in-overview   the definition is its own tile (state-invariants back in Overview)
+//   relations-not-split      the relations are tiles of their own (the aside stays one block in How it works)
+//   definition-in-overview   the definition is its own tile (state-invariants back in How it works)
 //   wikilink-printed         no tile prints a wikilink's brackets (the name not resolved)
-//   overview-one-wall        a position's Overview is several short tiles (the split removed)
-//   overview-index-rows      the index keeps one Overview row (every tile gets a row)
-//   overview-loses-text      the split keeps every sentence (a tile dropped)
+//   overview-one-wall        a position opens short (no Read more: the whole text shown)
+//   read-more-open           a position opens short (the disclosure starts open)
+//   overview-loses-text      Read more keeps every word (the later paragraphs dropped)
+//   read-more-sentence-lost  Read more keeps every word (the rest of the first paragraph dropped)
+//   label-reverted           one tile and one index row named How it works (the old label)
+//   label-hub-reverted       a hub's seats and its shared line take the new names (the old labels)
+//   read-more-everywhere     Read more is a position's alone (on a transition too)
+//   read-more-global-css     a page's own disclosures keep their summaries (the rule not scoped to the class)
 //   width-right-edge         the grid keeps the index's 12px clearance (the grid back to the old, wider width)
 //   row-keeps-inset          the first card sits on the grid's left edge (the row's 24px inset back)
 //   row-full-width           below the index the row shares the grid too (the row back to the window's width)
@@ -74,22 +81,73 @@ test('@curated a position reads in the owner\'s order, with a tile for each rela
   expect(faint.size, 'the eyebrow is smaller than the question').toBeLessThan(faint.question)
 })
 
-test('@curated a position\'s Overview is several short tiles that keep every sentence, with one index row', async ({ page }) => {
-  await boot(page, 1440, 900)
-  const d = await tiles(page), overview = d.open.filter(t => t.type === 'overview')
-  expect(overview.length, 'the one long paragraph is split').toBeGreaterThanOrEqual(2)
-  for (const t of overview) expect(t.text.length, `${t.title} is a short tile`).toBeLessThan(900)
-  expect(d.toc.filter(t => t === 'overview'), 'the index has one Overview row').toHaveLength(1)
-  const source = await page.evaluate(async path => new DOMParser().parseFromString(await (await fetch(path)).text(), 'text/html').querySelector('#overview')!.textContent!.replace(/\s+/g, ' ').trim(), SCB)
-  const norm = (s: string) => s.replace(/\s+/g, ' ').trim()
-  expect(norm(overview.map(t => t.text).join(' ')), 'every sentence survives, in order').toBe(source)
+// Rewritten from "several short tiles that keep every sentence" by U101 b and U102 a: one section, one name, and the same words.
+// Every position role page was swept once at v1.251.0: 266 of 266 equal to the source, 0 with a block that is not a paragraph.
+for (const path of [SCB, '/Positions/Rubber-Guard/New-York/Bottom']) {
+  test(`@curated ${path}: one tile named How it works, a short opening, one index row, and every word of the source`, async ({ page }) => {
+    await boot(page, 1440, 900, path)
+    const d = await tiles(page), section = d.open.filter(t => t.type === 'overview')
+    expect(section.map(t => t.title), 'one section, one name').toEqual(['How it works'])
+    const seen = await page.evaluate(async path => {
+      const r = (window as any).__neural._reader, t = r.body.querySelector('[data-section-type=overview]'), body = t.querySelector('.ng-section-body'), squeeze = (s: string) => s.replace(/\s+/g, '')
+      const source = new DOMParser().parseFromString(await (await fetch(path)).text(), 'text/html').querySelector('#overview')!
+      for (const x of source.querySelectorAll('.also-known-as,.often-confused-with,[data-source-id],aside')) x.remove()
+      return { rows: [...r.contents.querySelectorAll('[data-toc-type=overview] a')].map((a: any) => a.textContent), read: t.querySelector('summary')?.textContent, open: !!t.querySelector('details[open]'),
+        shown: body.innerText.replace(/\s+/g, ' ').trim().length, dom: squeeze(body.querySelector('.ng-rm').parentElement.textContent).replace('Readmore', '').replace('Howitworks', ''), source: squeeze(source.textContent) }
+    }, path)
+    expect(seen.rows, 'the index has one row for the section').toEqual(['How it works'])
+    expect(seen.read, 'the rest waits behind Read more').toBe('Read more')
+    expect(seen.open, 'closed on arrival').toBe(false)
+    expect(seen.shown, 'the opening is short').toBeLessThan(700)
+    expect(seen.dom.length, 'premise: real text').toBeGreaterThan(600)
+    expect(seen.dom, 'every word of the source stays in the DOM, in order').toBe(seen.source)
+  })
+}
+
+// The names a reader sees on a hub. The prose may use the word; a label may not.
+for (const [path, seats] of [['/Positions/Mount', ['From the top', 'From the bottom']], ['/Transitions/Knee-Slice-Pass', ['As the attacker', 'As the defender']]] as const) {
+  test(`@curated ${path}: the seats take their new names, and no label says overview`, async ({ page }) => {
+    await boot(page, 1440, 900, path)
+    const d = await page.evaluate(() => { const r = (window as any).__neural._reader; return {
+      titles: [...r.body.querySelectorAll('.ng-section-title')].map((e: any) => e.textContent),
+      rows: [...r.contents.querySelectorAll('.ng-reader-toc-row a')].map((e: any) => e.textContent),
+      shared: [...r.body.querySelectorAll('.ng-section-provenance')].map((e: any) => e.textContent) } })
+    for (const seat of seats) expect(d.titles, 'the tile').toContain(seat)
+    for (const seat of seats) expect(d.rows, 'the index').toContain(seat)
+    expect(d.shared, 'the line over the shared text').toContain('For both sides')
+    expect([...d.titles, ...d.rows, ...d.shared].filter(t => /overview/i.test(t)), 'no label keeps the word').toEqual([])
+  })
+}
+
+// The names follow through every place that lists sections, and a saved choice survives them: settings are stored by type.
+test('@curated a saved closed section survives the new name, in the index, Settings and Hidden sections', async ({ page }) => {
+  await page.setViewportSize({ width: 1024, height: 900 })
+  await page.emulateMedia({ colorScheme: 'dark', reducedMotion: 'reduce' })
+  const j = journey(page)
+  await j.boot(SCB, { initialState: { v: 2, settings: { 'readerSection.overview': false }, settingsAt: {} }, beforeNavigate: async () => { await page.route('**/static/neural/content/*.json', r => r.continue()) } })
+  await expect(page.locator(READY)).toBeVisible(); await j.readerLayoutSettled()
+  expect(await page.locator('[data-section-toggle=overview]').getAttribute('aria-expanded'), 'the saved choice still closes it').toBe('false')
+  await expect(page.locator('.ng-reader-hidden>summary'), 'it is listed as hidden').toContainText('Hidden sections (1)')
+  await expect(page.locator('.ng-reader-hidden [data-section-toggle=overview] .ng-section-closed'), 'under its new name').toContainText('How it works')
+  expect(await page.evaluate(async () => (await import((window as any).__neural._appAsset('reader.js'))).SECTION_TYPES.filter(([type]: string[]) => /overview|summary/.test(type))), 'the list Settings renders').toEqual(
+    [['overview', 'How it works'], ['top-summary', 'From the top'], ['bottom-summary', 'From the bottom'], ['attacker-summary', 'As the attacker'], ['defender-summary', 'As the defender']])
+})
+
+// Learning, Systems and Submission family pages publish their own <details>. Opening one must leave its question in place.
+test('@curated a page\'s own disclosures keep their summaries when opened', async ({ page }) => {
+  await boot(page, 1440, 900, '/Learning/Asymmetric-Warfare')
+  const d = await page.evaluate(() => { const own = [...document.querySelectorAll('[data-reader-body] article details')] as HTMLDetailsElement[]; own.forEach(x => { x.open = true }); return { own: own.length, shown: own.filter(x => x.querySelector('summary')?.getClientRects().length).length } })
+  expect(d.own, 'premise: the page publishes its own').toBeGreaterThan(0)
+  expect(d.shown, 'every summary stays').toBe(d.own)
 })
 
 test('@curated every other page keeps today\'s order, and safety stays where it sorts', async ({ page }) => {
   await boot(page, 1440, 900, '/Transitions/Knee-Slice-Pass/Attacker')
   const d = await tiles(page), kinds = [...new Set(d.open.map(t => t.type))]
   expect(kinds.slice(0, 7), 'a transition reads as it did').toEqual(['overview', 'principles', 'setup', 'options', 'safety', 'mistakes', 'outcomes'])
-  expect(d.open.filter(t => t.type === 'overview'), 'its Overview stays whole').toHaveLength(1)
+  const section = d.open.filter(t => t.type === 'overview')
+  expect(section.map(t => t.title), 'its section takes the new name too').toEqual(['How it works'])
+  expect(await page.locator('[data-section-type=overview] summary').count(), 'and stays whole: Read more is a position\'s').toBe(0)
   expect(d.open.some(t => t.beta), 'its options tile carries no Beta').toBe(false)
 })
 

@@ -312,7 +312,7 @@ test('@curated a late response cannot repaint the opposite seat in the same read
   const expected = [
     ['videos', 'Videos'], ['hand', 'Moves'], ['card', 'Questions'], ['aka', 'Also known as'], ['confused', 'Often confused with'], ['definition', 'Position definition'],
     ['principles', 'Essential principles'], ['options', 'Decisions from top'], ['mistakes', 'Common mistakes'],
-    ['statistics', 'Statistics'], ['overview', 'Overview'], ['prerequisites', 'Prerequisites'], ['training', 'Training'], ['related', 'Related'],
+    ['statistics', 'Statistics'], ['overview', 'How it works'], ['prerequisites', 'Prerequisites'], ['training', 'Training'], ['related', 'Related'],
   ]
   expect(toc, 'every current Top label points to its own nonempty semantic section').toEqual(
     expected.map(([type, label]) => ({ type, label, heading: label, current: true })))

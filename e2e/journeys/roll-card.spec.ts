@@ -212,7 +212,7 @@ test("the complete article renders automatically and survives the question lifet
   await expect(page.locator("[data-land-more]")).toHaveCount(0)
   await expect(page.locator("[data-reader-body]")).toContainText("Training")
   expect(await page.evaluate(() => !!(window as Any).__neural.paused), "rendering an article does not pause a live roll").toBe(false)
-  // Compare the complete DOM text: expanded reading also reveals the Overview heading.
+  // Compare the complete DOM text: expanded reading also reveals the How it works heading.
   const article = await page.locator("[data-reader-body]").textContent()
   // D-338: Questions has no header; the card closes with its own ✕.
   await page.locator('[data-land-close]').scrollIntoViewIfNeeded()
@@ -227,12 +227,12 @@ test("the complete article renders automatically and survives the question lifet
   // stage, below the fold here, and the whole game flow (its head included) is game input (gameInput). So the text is
   // brought into view first, by a programmatic scroll, which is not a reading input; the second wheel must still
   // continue the gesture in the native scrollport.
-  // U65 note (owner, 2026-10-29): the duplicate credits tile is retired; wheel over Overview instead.
+  // U65 note (owner, 2026-10-29): the duplicate credits tile is retired; wheel over How it works instead.
   const subtitle = page.locator('[data-reader-body] [data-section-type=overview] p').first()
   await subtitle.evaluate(e => e.scrollIntoView({ block: "center" }))
   await j.readerLayoutSettled()
   const r = await subtitle.boundingBox()
-  expect(r && r.y + r.height / 2 < (page.viewportSize()?.height ?? 900), "premise: Overview text is on screen").toBe(true)
+  expect(r && r.y + r.height / 2 < (page.viewportSize()?.height ?? 900), "premise: How it works text is on screen").toBe(true)
   await page.mouse.move(r!.x + r!.width / 2, r!.y + r!.height / 2)
   await page.mouse.wheel(0, 300)
   await expect(page.locator("[data-reader]")).toHaveAttribute("data-reading-expanded", "")

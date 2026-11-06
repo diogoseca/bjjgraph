@@ -108,6 +108,9 @@
 .ng-section-body table { display:block;overflow-x:auto;font-size:14px;margin:0; }
 .ng-section-body :is(td,th) { padding:8px;border-bottom:1px solid #414c68; }
 .ng-section-body img { max-width:100%; }
+/* U101 b: "Read more" on a position's How it works. One way: it goes once the text has opened. */
+.ng-rm>summary { color:#adc9ff; }
+.ng-rm[open]>summary { display:none; }
 /* D-489/HATGO489b: hatnotes and Related badges share muted prose; CTA text keeps the reader link color above. */
 .ng-section-body :is(.section-subtitle,.entity-relations,.entity-relations *) { opacity:1;color:#b6c5df; }
 [data-section-type=definition] .ng-section-title { opacity:.45;font-size:10px; }

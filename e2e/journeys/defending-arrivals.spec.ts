@@ -10,7 +10,7 @@ import { journey } from '../dsl'
 // MUTANT M14 freezes clearEngagement's journey identity: sidebar search fails
 // its same-app journey-change assertion after the actual opponent catch.
 // STALE TIMING (PR 307 CI): the caught card can publish before its article/TOC.
-// Await that article and its layout before the native Overview click.
+// Await that article and its layout before the native How it works click.
 // D-307 curated defender reel: the exact escape qualifies across origins.
 // Whittier's second clip is withheld for explicit course/coupon pitches.
 const CLIPS = ['pZmJpXSwRTk']
