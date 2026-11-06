@@ -214,10 +214,12 @@ const mutants = [
   ['label-reverted', 'article-order.spec.ts', 'Side-Control/Bottom: one tile named How it works', s => replace(s, '["overview", "How it works"]', '["overview", "Overview"]')],
   ['label-hub-reverted', 'article-order.spec.ts', 'Positions/Mount: the seats take', s => replace(s, '"From the top"', '"Top overview"')],
   ['label-shared-reverted', 'article-order.spec.ts', 'Transitions/Knee-Slice-Pass: the seats take', s => replace(s, '"For both sides"', '"Shared overview"')],
-  ['read-more-everywhere', 'article-order.spec.ts', 'every other page keeps', s => replace(s, 'buckets.get(position && "overview")', 'buckets.get("overview")')],
+  // parts.at(-1): a transition's first part is the leading note, so `position` alone removed changes nothing there (it survived).
+  ['read-more-everywhere', 'article-order.spec.ts', 'every other page keeps', s => replace(s, 'buckets.get(position && "overview")?.parts[0].node', 'buckets.get("overview")?.parts.at(-1).node')],
   ['read-more-global-css', 'article-order.spec.ts', 'own disclosures keep their summaries', s => s, css => replace(css, '.ng-rm[open]>summary{display:none}', 'article [open]>summary{display:none}')],
   ['read-more-stays', 'article-dashboard.spec.ts', 'Read more on /Positions/Mount/Top opens in place', s => s, css => replace(css, '.ng-rm[open]>summary{display:none}', '')],
-  ['read-more-no-reflow', 'article-dashboard.spec.ts', 'Read more on /Positions/Mount/Top opens in place', s => replace(s, '      this.tiles.observe(card);\n', '')],
+  ['read-more-no-grow', 'article-dashboard.spec.ts', 'Read more on /Positions/Mount/Top opens in place', s => s, css => css + '\n.ng-rm>:not(summary){display:none!important}\n'],
+  ['read-more-scrolls', 'article-dashboard.spec.ts', 'Read more on /Positions/Mount/Top opens in place', s => replace(s, 'if (more.children[1]) wall.append(more);', 'if (more.children[1]) { wall.append(more); more.addEventListener("toggle", () => { this.root.scrollTop += 40; }); }')],
   ['settings-key-renamed', 'article-order.spec.ts', 'a saved closed section survives', s => replace(s, 'this.app.set("readerSection." + type, shown);', 'this.app.set("readerSection." + type, shown);').replace('return app.get("readerSection." + type, true) !== false;', 'return app.get("readerSection." + (type === "overview" ? "how-it-works" : type), true) !== false;')],
   ['width-right-edge', 'article-order.spec.ts', 'share both edges', s => replace(s, 'free.width + 2 * (free.left - indexEdge)', 'W - 24 - indexEdge')],
   ['row-keeps-inset', 'article-order.spec.ts', 'share both edges', s => replace(s, 'const flush = this.trayFlush = available && W > 640;', 'const flush = available && W > 640;')],
@@ -339,7 +341,6 @@ const mutants = [
   ['columns-close-reorders', 'article-dashboard.spec.ts', 'closing a tile moves nothing', s => replace(s, '    for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {', '    if (closed.length) open.reverse();\n    for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {')],
   // The block first in the source, not the one nearest the reader's top: the source order no longer runs down the page.
   ['line-dom-first', 'article-dashboard.spec.ts', 'opening Explore keeps the line', s => replace(s, 'return y >= top && y < was ? (was = this.heldY = y, e) : line;', 'return y >= top && !line ? (was = this.heldY = y, e) : line;')],
-  ['line-dom-first-slide', 'article-dashboard.spec.ts', 'on every step of a pane slide', s => replace(s, 'return y >= top && y < was ? (was = this.heldY = y, e) : line;', 'return y >= top && !line ? (was = this.heldY = y, e) : line;')],
   // The anchor on the grid's width again: the grid stands still through most of a slide while the stage grows.
   ['line-keyed-on-grid', 'article-dashboard.spec.ts', 'at 1152x900 opening Explore keeps the line', s => replace(s, '(this.gridW = available ? free.width : NaN)', '(this.gridW = available ? grid : NaN)')],
   // U97 b: the index back at 1,152, and never.

@@ -42,7 +42,12 @@ import { journey } from '../dsl'
 //   columns-stale-height   a tile that grows later reorders what follows it (no observer on the tiles)
 //   columns-close-waits-a-frame a close sorts the columns in its own task (it waits for the coalesced frame)
 //   read-more-stays        Read more is one way (its label stays once opened)
-//   read-more-no-reflow    what follows Read more reflows (no observer on the tiles)
+//   read-more-no-grow      Read more opens the rest (the rest stays hidden, so the tile does not grow)
+//   read-more-scrolls      nothing moves above it (the reader scrolls as it opens)
+// RECORDED NON-KILLS (v1.251.0), so neither reads as coverage. line-dom-first-slide: on Mount/Bottom the block first in the source and
+// the block nearest the top are the same at both depths; line-dom-first kills that mutant on "opening Explore keeps the line".
+// read-more-no-reflow: with no observer on the tiles a later layout still sorts them, so the observer alone is not what this pins;
+// columns-stale-height is its gate, on a tile that grows with no other layout to carry it.
 //   u59-tab-rtl            Tab walks the tiles in the order the eye does (the columns mirrored)
 //   u59-measure-unset      prose lines keep a readable measure (the 46ch column removed)
 //   line-dom-first         opening Explore keeps the topmost line of EITHER column (the first block in source order)
@@ -336,11 +341,12 @@ for (const [width, height] of [[1440, 900], [1152, 900]] as const) for (const de
 }
 
 // The brief's moment: a pane slide narrows the tiles, a tile changes column partway through, and the reader's line holds on
-// every step of it, not only at the end. Mount/Top flips a tile as the pane opens at 1440. The premise says so, so a page
-// that stops flipping fails loudly here instead of passing without the moment it exists for. Fallback fonts, so relative.
+// every step of it, not only at the end. Mount/Bottom flips a tile as the pane opens at 1440 (1 of 20 real pages in these
+// fallback fonts, measured at v1.251.0). The premise says so, so a page that stops flipping fails loudly here instead of
+// passing without the moment it exists for.
 for (const depth of [0.3, 0.6]) {
   test(`at 1440x900 the line holds on every step of a pane slide that moves a tile to the other column (${depth * 100}% down)`, async ({ page }) => {
-    const j = await boot(page, 1440, 900)
+    const j = await boot(page, 1440, 900, '/Positions/Mount/Bottom')
     await page.emulateMedia({ reducedMotion: 'no-preference' })
     await expect(page.locator('[data-reward-close]')).toBeHidden({ timeout: 15000 })
     const sides = () => page.evaluate(() => ([...(window as any).__neural._reader.body.children] as HTMLElement[]).filter(c => c.getClientRects().length).map(c => c.hasAttribute('data-right') ? 'R' : 'L').join(''))
@@ -380,7 +386,10 @@ for (const [label, offset] of [['just under', 2], ['clipped by', -10]] as const)
       if (!block?.nextElementSibling) throw Error('Mount/Top no longer carries the wrapping prerequisite this journey lands on')
       e.scrollTop += block.getBoundingClientRect().top - e.getBoundingClientRect().top - offset
       return new Promise<{ top: number, height: number, landed: number }>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
-        const line = offset < 0 ? block.nextElementSibling! : block
+        // Clipped: the next block, which in two columns is the nearest in either of them, never the block that grows.
+        const top = e.getBoundingClientRect().top
+        const nearest = ([...e.querySelectorAll('[data-reader-body] p,[data-reader-body] li')] as Element[]).filter(x => x.getBoundingClientRect().top >= top).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]
+        const line = offset < 0 ? nearest : block
         line.setAttribute('data-test-place', ''); block.setAttribute('data-test-wraps', '')
         done({ top: line.getBoundingClientRect().top, height: block.getBoundingClientRect().height, landed: block.getBoundingClientRect().top - e.getBoundingClientRect().top })
       })))

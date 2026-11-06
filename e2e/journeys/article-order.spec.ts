@@ -93,7 +93,7 @@ for (const path of [SCB, '/Positions/Rubber-Guard/New-York/Bottom']) {
       const source = new DOMParser().parseFromString(await (await fetch(path)).text(), 'text/html').querySelector('#overview')!
       for (const x of source.querySelectorAll('.also-known-as,.often-confused-with,[data-source-id],aside')) x.remove()
       return { rows: [...r.contents.querySelectorAll('[data-toc-type=overview] a')].map((a: any) => a.textContent), read: t.querySelector('summary')?.textContent, open: !!t.querySelector('details[open]'),
-        shown: body.innerText.replace(/\s+/g, ' ').trim().length, dom: squeeze(body.querySelector('.ng-rm').parentElement.textContent).replace('Readmore', '').replace('Howitworks', ''), source: squeeze(source.textContent) }
+        shown: body.innerText.replace(/\s+/g, ' ').trim().length, dom: squeeze(body.textContent).replace('Readmore', '').replace('Howitworks', ''), source: squeeze(source.textContent) }
     }, path)
     expect(seen.rows, 'the index has one row for the section').toEqual(['How it works'])
     expect(seen.read, 'the rest waits behind Read more').toBe('Read more')
