@@ -169,7 +169,7 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 - Apply progressive, steady pressure through the rotation rather than jerking—controlled application prevents injury and allows proper tap recognition
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,6 +242,8 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 
 - You feel your arm being flattened to the mat beside your head with your wrist being driven down and controlled
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

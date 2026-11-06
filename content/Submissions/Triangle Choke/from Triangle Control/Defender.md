@@ -269,7 +269,7 @@ Systematic defense requires addressing multiple threats simultaneously rather th
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Triangle Choke/from Triangle Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Triangle Choke/from Triangle Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

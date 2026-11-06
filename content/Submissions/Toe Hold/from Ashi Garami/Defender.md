@@ -236,7 +236,7 @@ Defending the toe hold from Ashi Garami requires immediate recognition of the fi
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Toe Hold/from Ashi Garami#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Toe Hold/from Ashi Garami#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

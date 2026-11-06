@@ -259,7 +259,7 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Buggy Choke/from Half Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Buggy Choke/from Half Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

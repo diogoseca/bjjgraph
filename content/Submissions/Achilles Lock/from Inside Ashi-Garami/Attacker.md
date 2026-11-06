@@ -282,7 +282,7 @@ Your finish is decided by the order you do things in, not by how hard you extend
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Achilles Lock/from Inside Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Achilles Lock/from Inside Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

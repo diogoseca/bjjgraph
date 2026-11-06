@@ -168,7 +168,7 @@ The position integrates naturally into the Twister Side Control attack chain alo
 - Keep your head low and glued to the mat on the far side of opponent's head to seal the choke and prevent frame escapes
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ The position integrates naturally into the Twister Side Control attack chain alo
 
 - The attacker's head drops low to the mat on the far side of your head as they settle into the finishing position
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

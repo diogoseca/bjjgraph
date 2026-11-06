@@ -131,7 +131,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Unload wrist and shoulder before legs: Release at any tap or verbal signal. Remove wrist leverage and shoulder pressure before unwinding the leg connection.
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -196,6 +196,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 - Secure the wrist while keeping the shoulder and elbow within a comfortable, controlled range.
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

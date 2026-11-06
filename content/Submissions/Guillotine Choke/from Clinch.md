@@ -205,7 +205,7 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 - Attack during transitions, not static positions—the guillotine is most effective when the opponent's head drops during movement, grip fighting, or takedown attempts
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -278,6 +278,8 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 
 - Your own posture being broken downward with your head forced below the opponent's chest level during clinch grip fighting
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

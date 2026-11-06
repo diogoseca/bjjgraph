@@ -258,7 +258,7 @@ Attacking with the belly down armbar from mounted triangle requires mastering th
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Belly Down Armbar/from Mounted Triangle#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Belly Down Armbar/from Mounted Triangle#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

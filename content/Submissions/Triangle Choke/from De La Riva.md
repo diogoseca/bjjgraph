@@ -184,7 +184,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 - Use active pulling with legs rather than passive squeezing to finish
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -257,6 +257,8 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 - Your arm gets trapped between opponent's legs as their shin crosses behind your neck and they begin closing the triangle figure-four
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -258,7 +258,7 @@ Successful defense depends on early recognition and proactive response. Once the
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kneebar/from 50-50#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kneebar/from 50-50#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

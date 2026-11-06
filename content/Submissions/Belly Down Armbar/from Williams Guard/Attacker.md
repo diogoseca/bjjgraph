@@ -263,7 +263,7 @@ Attacking with the belly down armbar from Williams Guard capitalizes on the arm 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Belly Down Armbar/from Williams Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Belly Down Armbar/from Williams Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

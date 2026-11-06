@@ -263,7 +263,7 @@ Executing the kneebar from inside ashi-garami requires transitioning from standa
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kneebar/from Inside Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Kneebar/from Inside Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

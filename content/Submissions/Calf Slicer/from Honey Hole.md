@@ -204,7 +204,7 @@ Strategically, the calf slicer adds a compression dimension to the rotational at
 - Keep perpendicular body alignment to prevent the opponent from rotating out of the compression angle
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -275,6 +275,8 @@ Strategically, the calf slicer adds a compression dimension to the rotational at
 
 - Attacker threads their arm under your ankle from the outside, cupping the ball of your foot
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -280,7 +280,7 @@ Executing the toe hold from ushiro ashi-garami requires precise grip placement o
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Toe Hold/from Ushiro Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Toe Hold/from Ushiro Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

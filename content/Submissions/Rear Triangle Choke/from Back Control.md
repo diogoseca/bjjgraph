@@ -206,7 +206,7 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 - Finish by cutting the angle with your hips and squeezing knees together rather than relying solely on leg pressure
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -277,6 +277,8 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 
 - You feel the attacker's leg rising over your shoulder with their shin beginning to press across the back of your neck
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -258,7 +258,7 @@ Defending the Kimura from Knee Shield Half Guard requires early recognition and 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Knee Shield Half Guard#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kimura/from Knee Shield Half Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

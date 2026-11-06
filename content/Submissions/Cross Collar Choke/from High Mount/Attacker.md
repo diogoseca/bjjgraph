@@ -263,7 +263,7 @@ Attacking the Cross Collar Choke from High Mount demands patience in grip establ
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Cross Collar Choke/from High Mount#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Cross Collar Choke/from High Mount#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

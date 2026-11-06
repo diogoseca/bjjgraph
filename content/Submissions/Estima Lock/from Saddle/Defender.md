@@ -199,7 +199,7 @@ The Estima Lock is particularly dangerous because the Lisfranc joint and ankle l
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Estima Lock/from Saddle#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Estima Lock/from Saddle#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

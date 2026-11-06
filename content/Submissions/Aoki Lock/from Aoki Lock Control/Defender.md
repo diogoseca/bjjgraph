@@ -271,7 +271,7 @@ Begin an escape while the hand enclosure and hip connection are still loose. Rel
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Aoki Lock/from Aoki Lock Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Aoki Lock/from Aoki Lock Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -224,7 +224,7 @@ The submission's danger profile demands extreme caution in training. The spinal 
 - Commit fully to the finish only after the figure-four leg lock is completely secured and upper body control is established
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -297,6 +297,8 @@ The submission's danger profile demands extreme caution in training. The spinal 
 
 - Sensation of your upper body being pulled in one direction while your hips remain anchored and immobile from the figure-four leg lock
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

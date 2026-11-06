@@ -299,7 +299,7 @@ The Cross Collar Choke from Mount leverages the dominant top position to establi
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Cross Collar Choke/from Mount#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Cross Collar Choke/from Mount#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

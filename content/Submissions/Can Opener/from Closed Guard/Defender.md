@@ -256,7 +256,7 @@ Defending the Can Opener is among the most safety-critical defensive skills in B
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Can Opener/from Closed Guard#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Can Opener/from Closed Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

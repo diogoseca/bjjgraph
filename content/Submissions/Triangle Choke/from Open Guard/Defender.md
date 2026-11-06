@@ -271,7 +271,7 @@ Defending the Triangle from Open Guard requires early recognition of the setup c
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Triangle Choke/from Open Guard#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Triangle Choke/from Open Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

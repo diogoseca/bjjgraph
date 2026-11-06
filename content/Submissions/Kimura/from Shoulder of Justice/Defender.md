@@ -248,7 +248,7 @@ Defending the Kimura from Shoulder of Justice requires early recognition and dis
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Shoulder of Justice#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kimura/from Shoulder of Justice#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

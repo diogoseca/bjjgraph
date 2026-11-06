@@ -186,7 +186,7 @@ What makes this combination particularly effective is the dilemma it creates for
 - The attacking hand cups over the top of the toes and forefoot, not underneath - cupping over prevents the opponent from extending their foot to strip the grip
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -257,6 +257,8 @@ What makes this combination particularly effective is the dilemma it creates for
 
 - Pressure shifts from linear knee hyperextension to a rotational twisting force against your ankle joint
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

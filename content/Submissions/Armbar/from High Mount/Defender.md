@@ -255,7 +255,7 @@ Defending the Armbar from High Mount requires a layered approach that begins wit
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Armbar/from High Mount#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Armbar/from High Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

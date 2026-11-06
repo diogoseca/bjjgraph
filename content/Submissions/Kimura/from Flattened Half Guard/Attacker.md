@@ -299,7 +299,7 @@ Attacking with the Kimura from flattened half guard top capitalizes on the signi
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Flattened Half Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Kimura/from Flattened Half Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

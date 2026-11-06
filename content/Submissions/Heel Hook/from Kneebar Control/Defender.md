@@ -191,7 +191,7 @@ Defending the heel hook from kneebar control requires awareness that your kneeba
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Heel Hook/from Kneebar Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Heel Hook/from Kneebar Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -202,7 +202,7 @@ The finishing mechanics differ from other positions because the top player can c
 - Control the wrist at the point of capture — losing wrist control means losing the submission
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -271,6 +271,8 @@ The finishing mechanics differ from other positions because the top player can c
 
 - You feel increased knee pressure immediately before the grip attempt — the attacker drives harder to provoke a push reaction
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

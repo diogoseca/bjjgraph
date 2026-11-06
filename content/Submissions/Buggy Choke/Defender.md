@@ -248,7 +248,7 @@ As the defender you are the top player passing half guard, and the Buggy Choke p
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Buggy Choke#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Buggy Choke#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

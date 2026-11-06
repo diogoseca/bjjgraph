@@ -242,7 +242,7 @@ The Anaconda's bilateral compression mechanism means that both your opponent's a
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Anaconda Choke/from Anaconda Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Anaconda Choke/from Anaconda Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

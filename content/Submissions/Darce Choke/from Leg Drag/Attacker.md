@@ -317,7 +317,7 @@ Attacking the Darce choke from leg drag control requires precise timing and unde
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Darce Choke/from Leg Drag#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Darce Choke/from Leg Drag#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

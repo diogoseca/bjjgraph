@@ -186,7 +186,7 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 - Time the toe hold attempt when the opponent commits both hands to their own offensive attack, creating a window where their feet are unprotected and their attention is directed away from defense
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -261,6 +261,8 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 
 - Opponent pulls your foot toward their chest, reducing your ability to retract it and establishing the finishing fulcrum point
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -189,7 +189,7 @@ The critical distinction from other leg lock positions is the degree of rotation
 - Treat the heel hook as the final step of a systematic positional sequence and never sacrifice control for a premature finish attempt
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -264,6 +264,8 @@ The critical distinction from other leg lock positions is the degree of rotation
 
 - Opponent transitions from positional control to gripping behavior with their wrist blade seeking contact against your Achilles tendon
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

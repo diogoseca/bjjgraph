@@ -186,7 +186,7 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 - Stay prepared to transition to armbar or Kimura if the opponent's defensive reaction creates a better opportunity
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -259,6 +259,8 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 
 - You feel a figure-four grip configuration forming around your wrist and forearm with two-on-one arm control
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

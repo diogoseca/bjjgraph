@@ -131,7 +131,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Remove pressure at the first tap: Release immediately at a hand tap, foot tap, verbal signal or distress, then free the head and arm without forcing the knee.
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -196,6 +196,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 - Keep the raised leg supported by a comfortable hip angle rather than pulling the foot against a fixed knee.
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

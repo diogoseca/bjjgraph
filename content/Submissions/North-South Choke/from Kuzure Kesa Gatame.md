@@ -168,7 +168,7 @@ Finishing the choke requires precise shoulder placement deep into the pocket bet
 - Control the far arm before applying finishing pressure to eliminate the primary roll escape pathway
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ Finishing the choke requires precise shoulder placement deep into the pocket bet
 
 - You feel the opponent's body rotating from beside you toward a north-south alignment while maintaining contact
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

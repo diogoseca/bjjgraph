@@ -186,7 +186,7 @@ The kneebar from Inside Sankaku represents an essential component of a complete 
 - Use the kneebar threat to force heel exposure, creating a submission dilemma that increases overall finishing rate
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -255,6 +255,8 @@ The kneebar from Inside Sankaku represents an essential component of a complete 
 
 - Increasing squeeze pressure around your thigh above the knee joint from the attacker's knees closing together
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

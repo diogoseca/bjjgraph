@@ -253,7 +253,7 @@ Energy management is paramount because the crucifix is inherently exhausting for
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Choke from Crucifix#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Choke from Crucifix#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

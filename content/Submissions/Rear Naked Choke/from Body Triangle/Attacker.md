@@ -263,7 +263,7 @@ Attacking with the Rear Naked Choke from Body Triangle represents the convergenc
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Rear Naked Choke/from Body Triangle#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Rear Naked Choke/from Body Triangle#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

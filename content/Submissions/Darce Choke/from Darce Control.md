@@ -168,7 +168,7 @@ From a strategic standpoint, the Darce finish from established control carries a
 - Continuous micro-adjustments: small positional changes in response to defensive movement keep tightening the choke rather than maintaining static pressure
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ From a strategic standpoint, the Darce finish from established control carries a
 
 - Opponent's hip begins dropping toward the mat on the choking side, signaling commitment to the finishing sequence
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -188,7 +188,7 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 - **Competition vs Training Distinction**: Training kneebarring emphasizes technical precision, control maintenance, and partner safety through slow application; competition application involves faster entries, tighter control, and finish-oriented mechanics—conflating these contexts creates injury risk
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -257,6 +257,8 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 
 - Sudden decrease in upper body pressure combined with increased grip pressure on your lower leg or ankle—the weight shift from your torso to your leg precedes the step-over entry by 1-2 seconds
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

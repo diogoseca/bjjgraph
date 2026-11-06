@@ -223,7 +223,7 @@ This submission represents a high-percentage finishing option within the leg dra
 - Angle your body perpendicular to the opponent's spine for maximum bilateral carotid compression
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -296,6 +296,8 @@ This submission represents a high-percentage finishing option within the leg dra
 
 - Opponent's free hand reaches toward their own bicep area, indicating they are about to lock the figure-four grip
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

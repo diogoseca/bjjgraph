@@ -131,7 +131,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Remove extension and free the arm: Stop immediately for a hand tap, foot tap, verbal stop, or other distress. Remove the extension before opening the high legs.
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -196,6 +196,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 - Maintain the elbow's relationship to the leg frame before attempting any extension.
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

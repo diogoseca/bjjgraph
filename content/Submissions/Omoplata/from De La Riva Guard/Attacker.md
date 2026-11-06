@@ -323,7 +323,7 @@ Attacking the omoplata from De La Riva Guard requires reading the opponent's wei
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Omoplata/from De La Riva Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Omoplata/from De La Riva Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

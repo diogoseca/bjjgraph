@@ -281,7 +281,7 @@ Executing the Mounted Crucifix Armbar requires understanding how the crucifix's 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

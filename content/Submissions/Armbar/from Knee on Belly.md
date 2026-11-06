@@ -186,7 +186,7 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 - Finish by elevating hips into the arm rather than pulling the arm down with your hands
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -257,6 +257,8 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 
 - Opponent's posture changes from forward pressure to a sideways or backward lean with arm control
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

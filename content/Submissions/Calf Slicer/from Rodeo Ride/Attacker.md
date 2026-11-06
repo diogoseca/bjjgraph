@@ -281,7 +281,7 @@ Executing the Calf Slicer from Rodeo Ride requires precise leg threading from th
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Calf Slicer/from Rodeo Ride#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Calf Slicer/from Rodeo Ride#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -272,7 +272,7 @@ Defending the Kimura from flattened half guard bottom is among the most difficul
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Flattened Half Guard#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kimura/from Flattened Half Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

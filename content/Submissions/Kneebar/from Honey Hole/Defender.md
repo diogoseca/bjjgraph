@@ -255,7 +255,7 @@ Defending the kneebar from Honey Hole requires recognizing the transition from h
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kneebar/from Honey Hole#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kneebar/from Honey Hole#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

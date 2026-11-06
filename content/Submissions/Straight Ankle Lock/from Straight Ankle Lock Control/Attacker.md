@@ -263,7 +263,7 @@ Finishing the straight ankle lock from established control requires mastering th
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

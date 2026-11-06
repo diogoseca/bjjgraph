@@ -129,7 +129,7 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 - Apply pressure gradually and progressively, building the crush over several seconds rather than jerking or spiking for safety and control
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -200,6 +200,8 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 
 - You feel your arm being straightened progressively as the attacker eliminates the bend at your elbow
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

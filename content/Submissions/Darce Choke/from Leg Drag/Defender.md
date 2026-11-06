@@ -229,7 +229,7 @@ Defending the Darce choke from leg drag requires understanding that your defensi
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Darce Choke/from Leg Drag#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Darce Choke/from Leg Drag#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

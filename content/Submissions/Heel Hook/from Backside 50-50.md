@@ -168,7 +168,7 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 - Counter-attack mentality - treat this as a reactive weapon that punishes opponent overcommitment rather than a proactive strategy from this disadvantaged position
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -241,6 +241,8 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 
 - You feel fingers or palm contact on your Achilles tendon or heel area during a moment when you shifted weight or initiated your own attack
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

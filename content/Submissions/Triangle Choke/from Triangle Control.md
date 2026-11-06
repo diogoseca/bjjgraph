@@ -168,7 +168,7 @@ The finish timeline is surprisingly short once mechanics are correct. A properly
 - Keep the choking leg's knee pointed toward the trapped shoulder to ensure the thigh and calf compress both carotid arteries symmetrically
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -241,6 +241,8 @@ The finish timeline is surprisingly short once mechanics are correct. A properly
 
 - Increasing bilateral pressure on both sides of your neck indicating the attacker is beginning the sustained finishing squeeze
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

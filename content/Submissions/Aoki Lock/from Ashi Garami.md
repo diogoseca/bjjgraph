@@ -209,7 +209,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 - Release before movement: Open the arms and leg connection on a tap, sudden turn, or loss of communication.
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -276,6 +276,8 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 - Use the legs and hip connection to limit free movement without twisting a planted knee.
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

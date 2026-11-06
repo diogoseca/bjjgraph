@@ -266,7 +266,7 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Chin Strap Guillotine/from Front Headlock#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Chin Strap Guillotine/from Front Headlock#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

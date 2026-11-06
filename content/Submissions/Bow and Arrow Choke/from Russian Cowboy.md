@@ -168,7 +168,7 @@ Strategically, this choke fits naturally into the Russian Cowboy attack chain al
 - Time the collar grip entry when opponent defends the truck or leg entanglement threat, exploiting the momentary opening near their neck
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ Strategically, this choke fits naturally into the Russian Cowboy attack chain al
 
 - Increased stretch or pulling sensation on your collar combined with the hook driving your hips in the opposite direction
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

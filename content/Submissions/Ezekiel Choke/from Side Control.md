@@ -168,7 +168,7 @@ At the advanced level, the side control Ezekiel becomes a powerful chain-attack 
 - Integrate the Ezekiel threat into your side control submission chain so that americana and kimura defenses create the openings for the choke and vice versa
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -243,6 +243,8 @@ At the advanced level, the side control Ezekiel becomes a powerful chain-attack 
 
 - The attacker's head dropping beside your head without any apparent position advancement, indicating commitment to a close-range finishing structure
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

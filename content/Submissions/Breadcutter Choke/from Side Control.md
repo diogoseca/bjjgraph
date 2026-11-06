@@ -222,7 +222,7 @@ This choke is particularly effective because opponents under side control typica
 - Treat the collar setup as part of normal side control maintenance to disguise the attack until both grips are secured
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -295,6 +295,8 @@ This choke is particularly effective because opponents under side control typica
 
 - Cross-collar forearm pressure settling across your throat or jawline with the attacker's wrist rotating inward
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

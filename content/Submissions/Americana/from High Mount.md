@@ -186,7 +186,7 @@ Strategically, the Americana from high mount functions as both a primary finishe
 - Chain to armbar immediately when the opponent straightens the arm to defend—the Americana threat creates the armbar opening
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -259,6 +259,8 @@ Strategically, the Americana from high mount functions as both a primary finishe
 
 - Both of the attacker's hands are occupied on one side of your body, indicating committed arm attack rather than position maintenance
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

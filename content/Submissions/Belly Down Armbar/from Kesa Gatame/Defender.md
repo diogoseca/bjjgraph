@@ -197,7 +197,7 @@ Defending the belly down armbar from Kesa Gatame demands early recognition and i
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Belly Down Armbar/from Kesa Gatame#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Belly Down Armbar/from Kesa Gatame#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

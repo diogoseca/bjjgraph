@@ -236,7 +236,7 @@ Defending the Americana from Kesa Gatame requires recognizing the submission thr
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Americana/from Kesa Gatame#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Americana/from Kesa Gatame#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

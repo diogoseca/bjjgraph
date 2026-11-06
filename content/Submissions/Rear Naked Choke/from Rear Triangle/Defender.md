@@ -189,7 +189,7 @@ Defending the RNC from rear triangle is among the most challenging defensive sce
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Rear Naked Choke/from Rear Triangle#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Rear Naked Choke/from Rear Triangle#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

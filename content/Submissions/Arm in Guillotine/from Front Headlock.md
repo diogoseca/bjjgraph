@@ -168,7 +168,7 @@ Strategically, the arm-in guillotine from front headlock serves as a powerful de
 - Apply progressive and controlled pressure using body mechanics rather than explosive arm squeezing to maintain position and allow safe training
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -241,6 +241,8 @@ Strategically, the arm-in guillotine from front headlock serves as a powerful de
 
 - You notice your vision darkening or hearing changing, indicating carotid compression has begun and immediate defensive action or tap is required
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

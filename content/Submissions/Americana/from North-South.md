@@ -204,7 +204,7 @@ Strategically, this submission functions as a natural chain attack from North-So
 - Monitor the defender's far arm throughout the attack to prevent them from establishing counter-grips or defensive frames
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -275,6 +275,8 @@ Strategically, this submission functions as a natural chain attack from North-So
 
 - Your arm feels increasingly trapped with limited ability to retract toward your body as the attacker's ribcage weight settles over your elbow joint
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -236,7 +236,7 @@ Defending the inside heel hook from ushiro ashi-garami requires immediate recogn
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -281,7 +281,7 @@ Attacking with the Kimura from Armbar Control requires recognizing the precise m
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Armbar Control#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Kimura/from Armbar Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -222,7 +222,7 @@ Elite practitioners chain this omoplata threat with triangle and sweep entries f
 - Chain omoplata threat with triangle and sweep entries to create an offensive dilemma from the lasso configuration
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -293,6 +293,8 @@ Elite practitioners chain this omoplata threat with triangle and sweep entries f
 
 - You feel the sleeve grip on your trapped arm tighten significantly as the opponent prepares to transition, preventing you from pulling the arm free during the position change
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -257,7 +257,7 @@ The defensive hierarchy follows three priorities in strict order: first, protect
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Guillotine Choke/from Clinch#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Guillotine Choke/from Clinch#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

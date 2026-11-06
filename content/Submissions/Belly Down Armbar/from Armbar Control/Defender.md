@@ -248,7 +248,7 @@ Defending the belly down armbar from armbar control demands early recognition of
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Belly Down Armbar/from Armbar Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Belly Down Armbar/from Armbar Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -238,7 +238,7 @@ Defending the outside heel hook from outside ashi-garami requires immediate reco
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Outside Heel Hook/from Outside Ashi-Garami#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Outside Heel Hook/from Outside Ashi-Garami#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

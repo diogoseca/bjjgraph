@@ -247,7 +247,7 @@ The critical defensive window exists between the attacker's initial heel capture
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Heel Hook/from Inside Ashi-Garami#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Heel Hook/from Inside Ashi-Garami#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

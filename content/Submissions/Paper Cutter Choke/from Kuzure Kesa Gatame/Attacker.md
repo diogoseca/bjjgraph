@@ -318,7 +318,7 @@ Attacking with the paper cutter choke from kuzure kesa-gatame requires precise s
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Paper Cutter Choke/from Kuzure Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Paper Cutter Choke/from Kuzure Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

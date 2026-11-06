@@ -254,7 +254,7 @@ Defending the Americana from North-South requires early recognition and immediat
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Americana/from North-South#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Americana/from North-South#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -222,7 +222,7 @@ Defending the kneebar from inside ashi-garami requires early recognition of the 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kneebar/from Inside Ashi-Garami#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kneebar/from Inside Ashi-Garami#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

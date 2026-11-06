@@ -198,7 +198,7 @@ Defending the Reverse Kimura requires understanding its unique grip mechanics an
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Reverse Kimura/from Standing Position#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Reverse Kimura/from Standing Position#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

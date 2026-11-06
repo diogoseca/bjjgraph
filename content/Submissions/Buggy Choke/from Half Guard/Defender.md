@@ -263,7 +263,7 @@ Defending the Buggy Choke requires early recognition and immediate action, becau
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Buggy Choke/from Half Guard#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Buggy Choke/from Half Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

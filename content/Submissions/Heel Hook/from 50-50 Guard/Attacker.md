@@ -263,7 +263,7 @@ Attacking the heel hook from 50-50 Guard requires winning the inside position ba
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Heel Hook/from 50-50 Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Heel Hook/from 50-50 Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -168,7 +168,7 @@ In competition, this technique forces opponents to choose between defending the 
 - Control the transition speed—rushing the grip change telegraphs the attack and opens escape windows
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -241,6 +241,8 @@ In competition, this technique forces opponents to choose between defending the 
 
 - Opponent's upper body shifts slightly as they reposition their arms from heel hook to toe hold alignment
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

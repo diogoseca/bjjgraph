@@ -228,7 +228,7 @@ Defending the Cross Collar Choke from Modified Mount requires early recognition 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Cross Collar Choke/from Modified Mount#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Cross Collar Choke/from Modified Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

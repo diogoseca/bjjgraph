@@ -170,7 +170,7 @@ Practitioners who develop this technique gain a powerful addition to their side 
 - Chain the loop choke threat with arm attacks to create unsolvable defensive dilemmas
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -243,6 +243,8 @@ Practitioners who develop this technique gain a powerful addition to their side 
 
 - Your breathing becomes more difficult as collar pressure wraps around the circumference of your neck rather than pressing across one direction
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

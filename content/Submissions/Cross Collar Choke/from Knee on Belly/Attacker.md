@@ -299,7 +299,7 @@ Attacking with the cross collar choke from knee on belly requires precise coordi
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Cross Collar Choke/from Knee on Belly#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Cross Collar Choke/from Knee on Belly#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

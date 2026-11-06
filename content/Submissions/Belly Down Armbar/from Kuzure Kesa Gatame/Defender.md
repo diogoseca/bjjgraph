@@ -197,7 +197,7 @@ Defending the belly down armbar from Kuzure Kesa Gatame requires recognizing the
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Belly Down Armbar/from Kuzure Kesa Gatame#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Belly Down Armbar/from Kuzure Kesa Gatame#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

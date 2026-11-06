@@ -168,7 +168,7 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 - Apply the finish with slow progressive pressure in a smooth arc motion, never jerking or spiking the arm behind the opponent's back
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 - Opponent's hips lower and create downward rotational pressure on your shoulder that was not present during the control phase
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

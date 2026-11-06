@@ -201,7 +201,7 @@ Successful defense combines proactive arm management with reactive escape mechan
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Triangle Choke Side/from Side Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Triangle Choke Side/from Side Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

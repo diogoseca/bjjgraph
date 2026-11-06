@@ -263,7 +263,7 @@ The Arm Triangle from Kesa Gatame capitalizes on the scarf hold's inherent head 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Arm Triangle/from Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Arm Triangle/from Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

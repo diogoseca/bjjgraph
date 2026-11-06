@@ -184,7 +184,7 @@ Emerging from the rubber guard and omoplata systems of modern no-gi grappling, t
 - Transition smoothly from omoplata or other guard attacks to maintain surprise
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -255,6 +255,8 @@ Emerging from the rubber guard and omoplata systems of modern no-gi grappling, t
 
 - You feel increasing rotational pressure on your shoulder with your elbow pointing upward and your arm trapped between the opponent's legs
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -246,7 +246,7 @@ Defending the armbar from crucifix is one of the most technically demanding defe
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Armbar/from Crucifix#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Armbar/from Crucifix#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

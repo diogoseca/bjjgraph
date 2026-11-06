@@ -204,7 +204,7 @@ This submission demands meticulous attention to safety in training. The mechanis
 - Control the toes and foot angle with your chest and forearms to prevent the defender from spinning their heel free during the finish
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -277,6 +277,8 @@ This submission demands meticulous attention to safety in training. The mechanis
 
 - Attacker's elbows clamp tight to their ribs as they consolidate a figure-four or S-grip configuration on your heel
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

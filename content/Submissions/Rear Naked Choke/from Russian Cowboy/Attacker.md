@@ -263,7 +263,7 @@ The Rear Naked Choke from Russian Cowboy demands precise grip management during 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Rear Naked Choke/from Russian Cowboy#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Rear Naked Choke/from Russian Cowboy#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

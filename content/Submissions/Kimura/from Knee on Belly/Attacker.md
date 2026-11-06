@@ -293,7 +293,7 @@ Attacking the Kimura from Knee on Belly requires understanding how to weaponize 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Knee on Belly#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Kimura/from Knee on Belly#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

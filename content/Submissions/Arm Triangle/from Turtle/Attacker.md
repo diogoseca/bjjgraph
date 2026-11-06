@@ -281,7 +281,7 @@ Attacking the arm triangle from turtle requires a methodical approach that combi
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Arm Triangle/from Turtle#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Arm Triangle/from Turtle#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

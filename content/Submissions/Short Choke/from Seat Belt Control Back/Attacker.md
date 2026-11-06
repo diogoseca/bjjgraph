@@ -263,7 +263,7 @@ The Short Choke from Seat Belt Control Back attacks the carotid arteries using t
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Short Choke/from Seat Belt Control Back#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Short Choke/from Seat Belt Control Back#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

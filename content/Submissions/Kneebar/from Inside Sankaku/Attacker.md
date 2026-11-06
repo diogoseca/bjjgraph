@@ -275,7 +275,7 @@ Attacking the kneebar from Inside Sankaku requires transitioning from heel hook 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kneebar/from Inside Sankaku#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Kneebar/from Inside Sankaku#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

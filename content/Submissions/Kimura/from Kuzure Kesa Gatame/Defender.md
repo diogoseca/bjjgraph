@@ -183,7 +183,7 @@ Defending the Kimura from Kuzure Kesa Gatame requires early recognition and imme
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Kuzure Kesa Gatame#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kimura/from Kuzure Kesa Gatame#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

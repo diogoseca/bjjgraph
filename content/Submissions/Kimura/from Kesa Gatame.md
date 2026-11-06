@@ -186,7 +186,7 @@ From a strategic standpoint, the Kimura from Kesa Gatame creates a powerful subm
 - Create a submission chain by threatening Americana and armbar when the Kimura is defended, keeping constant offensive pressure
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -257,6 +257,8 @@ From a strategic standpoint, the Kimura from Kesa Gatame creates a powerful subm
 
 - Increased pressure on your face and chest as opponent compensates for releasing head control with redistributed body weight
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -258,7 +258,7 @@ Attacking the Rear Naked Choke from Gift Wrap requires understanding a critical 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Rear Naked Choke/from Gift Wrap#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Rear Naked Choke/from Gift Wrap#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -230,7 +230,7 @@ Defending the calf slicer from twister side control requires early recognition a
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Calf Slicer/from Twister Side Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Calf Slicer/from Twister Side Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

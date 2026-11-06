@@ -186,7 +186,7 @@ This technique carries extreme injury risk because knee ligaments provide minima
 - Clamp your knees together around the trapped leg to isolate the knee joint and prevent the opponent from spinning or rotating their leg to relieve torsional pressure
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -259,6 +259,8 @@ This technique carries extreme injury risk because knee ligaments provide minima
 
 - Opponent releasing control of your free leg or upper body to commit both hands to the heel cup and figure-four reinforcement
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

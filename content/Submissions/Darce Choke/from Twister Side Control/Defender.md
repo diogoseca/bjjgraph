@@ -273,7 +273,7 @@ Defending the Darce Choke from Twister Side Control requires early recognition o
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Darce Choke/from Twister Side Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Darce Choke/from Twister Side Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

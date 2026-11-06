@@ -184,7 +184,7 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 - Finish with hip extension, not by pulling on the arm - let your largest muscle groups do the work
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -257,6 +257,8 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 - Your opponent's grip changes from controlling your upper body to specifically targeting your wrist with a two-handed grip, indicating commitment to the arm attack rather than choke
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -186,7 +186,7 @@ Once the initial armbar position is secured, the attacker rotates to belly-down 
 - Apply finishing pressure through progressive hip extension driving into the back of the elbow rather than jerking the wrist
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -255,6 +255,8 @@ Once the initial armbar position is secured, the attacker rotates to belly-down 
 
 - Increased pulling tension on one sleeve combined with pushing pressure on the other arm creating clear arm isolation
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

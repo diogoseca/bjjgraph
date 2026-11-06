@@ -287,7 +287,7 @@ Attacking the North-South Choke from Ushiro Kesa Gatame Hold requires understand
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/North-South Choke/from Ushiro Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/North-South Choke/from Ushiro Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

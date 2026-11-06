@@ -197,7 +197,7 @@ Defending the Kimura from Crucifix presents a uniquely difficult challenge becau
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Crucifix#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kimura/from Crucifix#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

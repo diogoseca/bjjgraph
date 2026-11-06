@@ -275,7 +275,7 @@ Attacking with the Short Choke from Harness requires precise grip threading and 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Short Choke/from Harness#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Short Choke/from Harness#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -204,7 +204,7 @@ From a strategic perspective, the neck crank serves as a high-percentage finishi
 - Read the opponent's defensive reactions to choose between chin strap, crossface, and behind-the-head variations
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -275,6 +275,8 @@ From a strategic perspective, the neck crank serves as a high-percentage finishi
 
 - The attacker begins stripping your defensive hand grips or pinning your near arm, clearing a path to your head
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

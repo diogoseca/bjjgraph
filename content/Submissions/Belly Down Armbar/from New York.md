@@ -188,7 +188,7 @@ Biomechanically, the belly down finish multiplies the attacker's leverage by con
 - Apply finishing pressure through hip elevation against the mat, not by pulling the arm - let gravity assist the hyperextension
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -261,6 +261,8 @@ Biomechanically, the belly down finish multiplies the attacker's leverage by con
 
 - You feel rotational pulling on your trapped arm as the attacker begins turning face-down toward the mat
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

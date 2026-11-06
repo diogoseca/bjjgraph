@@ -248,7 +248,7 @@ Defending against the kneebar from kneebar control demands immediate recognition
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kneebar/from Kneebar Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kneebar/from Kneebar Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -263,7 +263,7 @@ Attacking the arm triangle from Kuzure Kesa Gatame leverages the position's buil
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Arm Triangle/from Kuzure Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Arm Triangle/from Kuzure Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

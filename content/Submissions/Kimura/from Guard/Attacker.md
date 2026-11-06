@@ -260,7 +260,7 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Kimura/from Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

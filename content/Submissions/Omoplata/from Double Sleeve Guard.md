@@ -166,7 +166,7 @@ Strategically, this submission sits at the intersection of the triangle and armb
 - Apply finishing pressure through your hips driving forward, not by leaning back with your upper body
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ Strategically, this submission sits at the intersection of the triangle and armb
 
 - Bottom player's hips elevate and rotate aggressively rather than staying flat — this indicates commitment to the omoplata versus other attacks
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

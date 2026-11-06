@@ -257,7 +257,7 @@ Successful defense prioritizes early grip prevention over late-stage escape. The
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Loop Choke/from Side Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Loop Choke/from Side Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

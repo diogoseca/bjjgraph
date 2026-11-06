@@ -169,7 +169,7 @@ Strategically, the omoplata from spider guard creates a powerful dilemma: oppone
 - Use progressive hip extension to apply the finishing pressure rather than jerking or cranking the shoulder
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,6 +242,8 @@ Strategically, the omoplata from spider guard creates a powerful dilemma: oppone
 
 - Opponent begins sitting up aggressively while their leg is draped across the back of your neck and shoulder
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

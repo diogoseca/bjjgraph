@@ -168,7 +168,7 @@ The twister carries extreme injury risk to the spine and neck, demanding excepti
 - Maintain base with the outside leg posted wide to prevent bridge-and-roll reversals during the finishing sequence
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ The twister carries extreme injury risk to the spine and neck, demanding excepti
 
 - Feeling of your shoulder being pinned to the mat with perpendicular pressure while your hips are elevated by the leg hook
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -168,7 +168,7 @@ The strategic value lies in converting escape attempts into finishing opportunit
 - Keep elbows tight to your chest during the finish to maximize rotational leverage on the heel
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -241,6 +241,8 @@ The strategic value lies in converting escape attempts into finishing opportunit
 
 - Your foot starts being pried from dorsiflexion by the attacker's forearm wedge against your sole
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

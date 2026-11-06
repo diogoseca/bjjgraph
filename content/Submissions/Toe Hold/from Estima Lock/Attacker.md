@@ -256,7 +256,7 @@ Attacking with the toe hold from Estima Lock requires precise timing of the grip
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Toe Hold/from Estima Lock#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Toe Hold/from Estima Lock#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

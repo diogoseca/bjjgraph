@@ -260,7 +260,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Reverse Kimura/from Standing Position#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Reverse Kimura/from Standing Position#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

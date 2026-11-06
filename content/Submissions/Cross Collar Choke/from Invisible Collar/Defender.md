@@ -263,7 +263,7 @@ Protect the neck by addressing the first deep grip and keeping an inside frame b
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Cross Collar Choke/from Invisible Collar#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Cross Collar Choke/from Invisible Collar#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

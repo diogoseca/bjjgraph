@@ -204,7 +204,7 @@ The trade-off is significant positional risk. Setting up the Ezekiel requires de
 - Time the attack when the opponent's hands are occupied with their own offensive grips rather than protecting their neck
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -277,6 +277,8 @@ The trade-off is significant positional risk. Setting up the Ezekiel requires de
 
 - The attacker's head dropping beside your head before any choking pressure begins, which is the final commitment signal before the finish
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

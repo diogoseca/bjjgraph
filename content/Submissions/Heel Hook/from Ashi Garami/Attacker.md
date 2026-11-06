@@ -307,7 +307,7 @@ Attacking the heel hook from outside Ashi Garami requires understanding that thi
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Heel Hook/from Ashi Garami#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Heel Hook/from Ashi Garami#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -303,7 +303,7 @@ A failed Aoki entry does not justify changing targets while the foot remains twi
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Aoki Lock/from Ashi Garami#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Aoki Lock/from Ashi Garami#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -250,7 +250,7 @@ If the attacker does initiate the jump, your response depends on timing. During 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Flying Armbar/from Closed Guard#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Flying Armbar/from Closed Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

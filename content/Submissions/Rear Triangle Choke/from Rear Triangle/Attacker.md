@@ -299,7 +299,7 @@ Attacking with the rear triangle choke from the rear triangle position centers o
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Rear Triangle Choke/from Rear Triangle#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Rear Triangle Choke/from Rear Triangle#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

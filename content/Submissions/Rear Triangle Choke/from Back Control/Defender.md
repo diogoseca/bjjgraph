@@ -202,7 +202,7 @@ Defense against this submission requires understanding both the prevention phase
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Rear Triangle Choke/from Back Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Rear Triangle Choke/from Back Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

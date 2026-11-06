@@ -284,7 +284,7 @@ The critical defensive principle is that a bent arm cannot be armbarred. As long
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Armbar/from S Mount#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Armbar/from S Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

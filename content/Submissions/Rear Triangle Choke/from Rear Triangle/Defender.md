@@ -207,7 +207,7 @@ Defending the rear triangle choke from the rear triangle position demands immedi
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Rear Triangle Choke/from Rear Triangle#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Rear Triangle Choke/from Rear Triangle#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

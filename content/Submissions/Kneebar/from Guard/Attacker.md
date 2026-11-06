@@ -295,7 +295,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kneebar/from Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Kneebar/from Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

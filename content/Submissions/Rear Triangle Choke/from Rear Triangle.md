@@ -204,7 +204,7 @@ Strategically, this finish sits at the apex of a submission chain from rear tria
 - Maintain chest-to-back connection to prevent opponent rotation during the finishing sequence
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -279,6 +279,8 @@ Strategically, this finish sits at the apex of a submission chain from rear tria
 
 - Feeling the attacker's hips angle toward your trapped arm side, creating a progressive tightening sensation around your neck
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

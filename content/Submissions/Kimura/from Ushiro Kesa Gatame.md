@@ -168,7 +168,7 @@ Strategically, this Kimura variant functions as both a direct finishing tool and
 - Threaten the Americana simultaneously to create a two-directional dilemma on the shoulder joint
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -237,6 +237,8 @@ Strategically, this Kimura variant functions as both a direct finishing tool and
 
 - Your elbow is being driven downward toward the attacker's hip, establishing the fulcrum point for rotation
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

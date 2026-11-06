@@ -168,7 +168,7 @@ This variant is particularly effective in competition because it chains naturall
 - Use the Clock Choke threat as a setup—opponents defending the near-side collar expose the far-side collar needed for the Bow and Arrow
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -237,6 +237,8 @@ This variant is particularly effective in competition because it chains naturall
 
 - Attacker's near-arm control releases or shifts as they redirect that hand to grab your far leg—this grip transition signals commitment to the bow and arrow
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

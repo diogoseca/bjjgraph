@@ -299,7 +299,7 @@ From the Shoulder of Justice, the Kimura becomes available when your intense jaw
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Shoulder of Justice#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Kimura/from Shoulder of Justice#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

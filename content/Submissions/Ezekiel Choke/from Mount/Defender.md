@@ -249,7 +249,7 @@ Defending the Ezekiel Choke from mount bottom compounds the challenge of an alre
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Ezekiel Choke/from Mount#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Ezekiel Choke/from Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

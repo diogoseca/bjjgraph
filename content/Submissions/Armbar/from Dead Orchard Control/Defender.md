@@ -181,7 +181,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Armbar/from Dead Orchard Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Armbar/from Dead Orchard Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

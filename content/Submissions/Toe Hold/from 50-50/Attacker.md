@@ -287,7 +287,7 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Toe Hold/from 50-50#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Toe Hold/from 50-50#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

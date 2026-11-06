@@ -166,7 +166,7 @@ Modern no-gi competition transformed bottom half guard from a survival position 
 - Squeeze with your entire core and back muscles, not just arm strength
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -237,6 +237,8 @@ Modern no-gi competition transformed bottom half guard from a survival position 
 
 - Opponent secures a grip on their own leg or establishes a gable grip around your head and shoulder area
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

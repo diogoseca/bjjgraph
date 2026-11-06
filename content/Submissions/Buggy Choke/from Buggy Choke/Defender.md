@@ -181,7 +181,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Buggy Choke/from Buggy Choke#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Buggy Choke/from Buggy Choke#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

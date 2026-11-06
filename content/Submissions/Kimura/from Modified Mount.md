@@ -186,7 +186,7 @@ Strategically, this submission chains effectively with armbars and americanas fr
 - Chain the Kimura with the armbar and americana to create a three-way dilemma where each defense opens another attack
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -259,6 +259,8 @@ Strategically, this submission chains effectively with armbars and americanas fr
 
 - Attacker drives your wrist toward the mat beside your head while increasing chest pressure to prevent you from turning
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

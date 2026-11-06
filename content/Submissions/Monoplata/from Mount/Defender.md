@@ -232,7 +232,7 @@ Successful defense requires understanding that the monoplata becomes exponential
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Monoplata/from Mount#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Monoplata/from Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -168,7 +168,7 @@ Strategically, this submission functions as a trap within the broader Twister sy
 - Be prepared to abandon the guillotine and return to Twister Control if the grip is not secured cleanly
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ Strategically, this submission functions as a trap within the broader Twister sy
 
 - Your turn-in escape feels unexpectedly easy, suggesting the attacker is allowing or encouraging the turn to access your neck
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

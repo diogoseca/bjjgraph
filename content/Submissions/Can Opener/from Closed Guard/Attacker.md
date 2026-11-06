@@ -296,7 +296,7 @@ The Can Opener attack is documented here strictly for educational and defensive 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Can Opener/from Closed Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Can Opener/from Closed Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -278,7 +278,7 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Monoplata/from Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Monoplata/from Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

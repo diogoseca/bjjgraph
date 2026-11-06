@@ -168,7 +168,7 @@ At the competition level, standing back control finishes appear frequently in bo
 - Be prepared to finish during the transition to ground — the descent often creates the best finishing window
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -237,6 +237,8 @@ At the competition level, standing back control finishes appear frequently in bo
 
 - Opponent adjusts their head position to the choking side and their breathing pattern changes, indicating commitment to the finish
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

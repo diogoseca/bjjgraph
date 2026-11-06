@@ -288,7 +288,7 @@ Executing the ankle lock from X-Guard requires transitioning from sweep-based gu
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Ankle Lock/from X-Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Ankle Lock/from X-Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

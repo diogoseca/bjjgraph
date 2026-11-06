@@ -168,7 +168,7 @@ This position-specific finish demands particular attention to safety due to the 
 - Keep your own base stable by distributing weight through your hips rather than leaning forward over the trapped foot
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ This position-specific finish demands particular attention to safety due to the 
 
 - Opponent begins controlling or pinning your free leg, indicating they are preparing to initiate the finishing sequence without defensive interference
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

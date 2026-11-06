@@ -261,7 +261,7 @@ Defending the heel hook from ushiro ashi-garami requires immediate recognition o
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Heel Hook/from Ushiro Ashi#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Heel Hook/from Ushiro Ashi#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

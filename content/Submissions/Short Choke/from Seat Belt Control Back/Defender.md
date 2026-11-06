@@ -254,7 +254,7 @@ Defending the Short Choke from Seat Belt Control Back requires recognizing the c
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Short Choke/from Seat Belt Control Back#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Short Choke/from Seat Belt Control Back#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

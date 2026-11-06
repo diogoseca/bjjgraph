@@ -254,7 +254,7 @@ Defending the kneebar from toe hold control demands recognition of the transitio
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kneebar/from Toe Hold Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kneebar/from Toe Hold Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

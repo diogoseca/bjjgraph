@@ -188,7 +188,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 - Gradual pressure application allows for safe training and partner awareness of danger
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -263,6 +263,8 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 - The attacker's non-choking leg hooks deeper over your back or shoulder than typical rubber guard control, creating an anchor that prevents you from creating distance
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

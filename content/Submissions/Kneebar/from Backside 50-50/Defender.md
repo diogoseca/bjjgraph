@@ -233,7 +233,7 @@ Safety awareness is paramount when defending kneebars. The knee joint has minima
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kneebar/from Backside 50-50#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kneebar/from Backside 50-50#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

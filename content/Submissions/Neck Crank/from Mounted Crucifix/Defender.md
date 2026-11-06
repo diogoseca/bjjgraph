@@ -183,7 +183,7 @@ Defending the neck crank from mounted crucifix is among the most challenging def
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Neck Crank/from Mounted Crucifix#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Neck Crank/from Mounted Crucifix#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -273,7 +273,7 @@ Defending the Cross Collar Choke from High Mount requires early recognition, dis
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Cross Collar Choke/from High Mount#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Cross Collar Choke/from High Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

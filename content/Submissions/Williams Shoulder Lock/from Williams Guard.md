@@ -170,7 +170,7 @@ At the competition level, the Williams Shoulder Lock from Williams Guard functio
 - Combine shoulder torque with lateral hip movement to systematically close escape angles
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -245,6 +245,8 @@ At the competition level, the Williams Shoulder Lock from Williams Guard functio
 
 - Opponent's legs become active distance-controlling frames preventing you from closing space or changing angle
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -285,7 +285,7 @@ The key to high-percentage finishing from S Mount lies in maintaining continuous
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Armbar/from S Mount#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Armbar/from S Mount#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

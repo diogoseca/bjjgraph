@@ -281,7 +281,7 @@ Attacking with the outside heel hook from leg entanglement requires establishing
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Outside Heel Hook/from Leg Entanglement#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Outside Heel Hook/from Leg Entanglement#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

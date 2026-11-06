@@ -206,7 +206,7 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 - Time the entry when the bottom player extends hooks aggressively for a sweep — their commitment creates the opening
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -273,6 +273,8 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 
 - You feel the top player's weight shifting backward and downward as they sit into kneebar position, combined with tightening control on your heel and a perpendicular rotation of their body relative to your trapped leg
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

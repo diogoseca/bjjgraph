@@ -293,7 +293,7 @@ Attacking with the calf slicer from Honey Hole requires recognizing when heel ho
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Calf Slicer/from Honey Hole#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Calf Slicer/from Honey Hole#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -204,7 +204,7 @@ The finishing mechanics differ from standard Kimura applications because the fla
 - Treat the Kimura grip as a positional control tool first and submission second — the threat alone can create passing opportunities
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -275,6 +275,8 @@ The finishing mechanics differ from standard Kimura applications because the fla
 
 - Your arm is isolated with your elbow away from your ribcage — any arm position where your elbow is more than six inches from your body is vulnerable to Kimura capture from this position
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

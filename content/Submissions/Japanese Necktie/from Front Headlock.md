@@ -184,7 +184,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 - Finish with legs extended and hips driving forward for maximum pressure
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -253,6 +253,8 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 - You feel your own shoulder being driven into the side of your neck as the attacker's body weight shifts across your upper back at an angle
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

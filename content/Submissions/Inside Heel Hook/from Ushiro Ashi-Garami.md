@@ -168,7 +168,7 @@ Strategically, this submission serves as a high-percentage finishing option that
 - Recognize the transition window between the opponent's inversion attempt and their escape completion as the optimal attack timing
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ Strategically, this submission serves as a high-percentage finishing option that
 
 - Your hip mobility is restricted by the opponent's leg entanglement despite having inverted, and you cannot straighten your trapped leg freely
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

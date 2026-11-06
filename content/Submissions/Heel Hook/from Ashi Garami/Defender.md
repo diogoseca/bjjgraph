@@ -262,7 +262,7 @@ Defending the heel hook from Ashi Garami demands early recognition and immediate
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Heel Hook/from Ashi Garami#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Heel Hook/from Ashi Garami#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

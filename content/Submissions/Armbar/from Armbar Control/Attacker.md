@@ -287,7 +287,7 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Armbar/from Armbar Control#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Armbar/from Armbar Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

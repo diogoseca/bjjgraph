@@ -186,7 +186,7 @@ Strategically, this submission functions as the centerpiece of the Shoulder of J
 - Recognize when to abandon the americana and chain to kimura or arm triangle based on defensive reactions
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -259,6 +259,8 @@ Strategically, this submission functions as the centerpiece of the Shoulder of J
 
 - You feel a wrist-to-wrist grip structure forming around your bent arm creating the distinctive figure-four lock
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

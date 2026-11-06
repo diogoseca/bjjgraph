@@ -204,7 +204,7 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 - Recognize when to switch between traditional and belly-down finishing positions based on the direction and strength of the opponent's resistance
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -275,6 +275,8 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 
 - Attacker's weight shifts laterally as they transition from pure pressure control to submission setup positioning
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

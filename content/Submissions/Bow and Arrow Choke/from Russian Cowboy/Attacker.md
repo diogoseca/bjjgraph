@@ -257,7 +257,7 @@ Attacking with the Bow and Arrow Choke from Russian Cowboy leverages the pre-exi
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Bow and Arrow Choke/from Russian Cowboy#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Bow and Arrow Choke/from Russian Cowboy#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

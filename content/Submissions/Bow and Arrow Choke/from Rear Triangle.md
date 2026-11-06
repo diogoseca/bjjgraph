@@ -186,7 +186,7 @@ Strategically, this submission sits at the intersection of two high-control syst
 - Keep your choking-side elbow tight against the opponent's neck throughout the extension to prevent the collar from sliding to a less effective position
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -259,6 +259,8 @@ Strategically, this submission sits at the intersection of two high-control syst
 
 - Both of the attacker's hands release previous grips simultaneously, indicating they are confident in the triangle control and transitioning to the bow and arrow setup
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

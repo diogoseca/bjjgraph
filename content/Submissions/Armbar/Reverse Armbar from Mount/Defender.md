@@ -192,7 +192,7 @@ Defending the Reverse Armbar requires a fundamentally different approach than de
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Armbar/Reverse Armbar from Mount#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Armbar/Reverse Armbar from Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -307,7 +307,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Flying Armbar/from Closed Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Flying Armbar/from Closed Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

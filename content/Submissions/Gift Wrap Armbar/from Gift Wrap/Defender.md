@@ -206,7 +206,7 @@ Defending the Gift Wrap Armbar requires recognizing the attack early and address
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Gift Wrap Armbar/from Gift Wrap#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Gift Wrap Armbar/from Gift Wrap#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

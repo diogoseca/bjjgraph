@@ -186,7 +186,7 @@ From the Harness position specifically, the seatbelt grip provides the ideal sta
 - Apply the choke by driving the forearm blade across the neck while pulling the sleeve connection tight, creating bilateral carotid compression
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -255,6 +255,8 @@ From the Harness position specifically, the seatbelt grip provides the ideal sta
 
 - Opponent increases forward chest pressure and tightens hooks simultaneously, indicating they are stabilizing before an offensive attack sequence
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

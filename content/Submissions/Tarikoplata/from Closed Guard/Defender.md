@@ -223,7 +223,7 @@ Defending the tarikoplata requires recognizing the threat early and acting decis
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Tarikoplata/from Closed Guard#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Tarikoplata/from Closed Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

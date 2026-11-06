@@ -271,7 +271,7 @@ Defending the inverted triangle from triangle control requires recognizing the t
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Inverted Triangle/from Triangle Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Inverted Triangle/from Triangle Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

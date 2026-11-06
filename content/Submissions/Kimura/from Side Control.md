@@ -184,7 +184,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 - Keep your base wide and stable throughout the submission sequence
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -257,6 +257,8 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 - You feel your near elbow being pried away from your ribs while chest pressure increases on your shoulder to pin it to the mat
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

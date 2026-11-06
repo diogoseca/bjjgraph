@@ -278,7 +278,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Half Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Kimura/from Half Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

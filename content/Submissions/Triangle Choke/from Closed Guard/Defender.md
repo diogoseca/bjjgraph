@@ -278,7 +278,7 @@ Successful triangle defense requires understanding the attacker's mechanics in r
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Triangle Choke/from Closed Guard#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Triangle Choke/from Closed Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

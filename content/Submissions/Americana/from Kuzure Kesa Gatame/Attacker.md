@@ -280,7 +280,7 @@ Attacking with the Americana from Kuzure Kesa Gatame leverages the position's in
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Americana/from Kuzure Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Americana/from Kuzure Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

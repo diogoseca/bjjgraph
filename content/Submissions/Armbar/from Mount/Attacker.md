@@ -277,7 +277,7 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Armbar/from Mount#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Armbar/from Mount#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

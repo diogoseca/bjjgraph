@@ -295,7 +295,7 @@ The Armbar from Back Control represents one of the most devastating finishing se
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Armbar/from Back#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Armbar/from Back#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

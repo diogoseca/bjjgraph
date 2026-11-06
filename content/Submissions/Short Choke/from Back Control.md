@@ -186,7 +186,7 @@ Strategically, the Short Choke serves as a high-percentage complement to the Rea
 - Create attacking dilemmas by threatening both RNC and collar choke, forcing the defender to choose which to defend
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -257,6 +257,8 @@ Strategically, the Short Choke serves as a high-percentage complement to the Rea
 
 - Attacker's second hand releasing from underhook seatbelt position, indicating they are committing to dual collar grips for the choke
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

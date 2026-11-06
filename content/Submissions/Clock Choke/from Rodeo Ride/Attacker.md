@@ -293,7 +293,7 @@ Attacking with the Clock Choke from Rodeo Ride requires integrating the dynamic 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Clock Choke/from Rodeo Ride#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Clock Choke/from Rodeo Ride#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

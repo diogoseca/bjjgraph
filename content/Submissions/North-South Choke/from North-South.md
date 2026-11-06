@@ -170,7 +170,7 @@ Strategically, the North-South Choke creates a powerful dilemma when combined wi
 - Time the choke entry during opponent's exhalation when their defensive tension is lowest
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -245,6 +245,8 @@ Strategically, the North-South Choke creates a powerful dilemma when combined wi
 
 - Weight distribution shifts as opponent begins walking their base to the choking side
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

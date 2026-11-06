@@ -301,7 +301,7 @@ Attacking the Kimura from Butterfly Guard requires coordinating upper body grip 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Butterfly Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Kimura/from Butterfly Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

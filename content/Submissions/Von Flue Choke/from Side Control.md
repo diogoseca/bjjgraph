@@ -202,7 +202,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 - The choke is a positional control problem first, submission second
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -275,6 +275,8 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 - You notice your opponent is not fighting your guillotine grip but instead seems comfortable or even encouraging of it—this indicates they recognize the Von Flue opportunity
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

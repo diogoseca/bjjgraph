@@ -294,7 +294,7 @@ Attacking the omoplata from established omoplata control is fundamentally differ
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Omoplata/from Omoplata Control#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Omoplata/from Omoplata Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

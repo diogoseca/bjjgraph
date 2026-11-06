@@ -168,7 +168,7 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 - Exit awareness - always have a plan to transition if the submission fails
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 - Your arm is extended and opponent's hips are approaching perpendicular alignment to your spine after a rolling motion
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -263,7 +263,7 @@ Attacking the Kimura from Lockdown requires coordinating lower body lockdown con
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Lockdown#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Kimura/from Lockdown#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -260,7 +260,7 @@ The Armbar from Side Control represents a high-percentage submission from one of
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Armbar/from Side Control#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Armbar/from Side Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

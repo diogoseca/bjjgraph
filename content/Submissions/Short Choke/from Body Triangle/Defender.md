@@ -197,7 +197,7 @@ Defending the short choke from body triangle presents a layered challenge that c
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Short Choke/from Body Triangle#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Short Choke/from Body Triangle#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

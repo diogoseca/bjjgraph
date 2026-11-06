@@ -186,7 +186,7 @@ Strategically, the neck crank serves dual purpose from this position. As a prima
 - Keep hips heavy and forward throughout the finish to prevent bridging escapes during application
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -255,6 +255,8 @@ Strategically, the neck crank serves dual purpose from this position. As a prima
 
 - Attacker re-squeezes knees tighter on your trapped arms, indicating they are about to commit hands to the head
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

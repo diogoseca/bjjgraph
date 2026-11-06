@@ -206,7 +206,7 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 - The finish requires squeezing elbows together while expanding chest and driving hips forward - three simultaneous pressure vectors
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -281,6 +281,8 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 - You feel constricting pressure around both your neck and trapped arm simultaneously, distinct from a standard guillotine which only targets the neck
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

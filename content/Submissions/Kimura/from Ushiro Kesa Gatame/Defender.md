@@ -197,7 +197,7 @@ Defending the Kimura from Ushiro Kesa Gatame requires recognizing the grip trans
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Ushiro Kesa Gatame#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kimura/from Ushiro Kesa Gatame#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

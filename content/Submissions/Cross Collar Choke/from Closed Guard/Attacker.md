@@ -298,7 +298,7 @@ Executing the cross collar choke from closed guard requires establishing a deep 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Cross Collar Choke/from Closed Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Cross Collar Choke/from Closed Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

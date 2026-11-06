@@ -301,7 +301,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Von Flue Choke/from Side Control#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Von Flue Choke/from Side Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

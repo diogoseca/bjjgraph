@@ -263,7 +263,7 @@ Attacking the Omoplata from Spider Guard requires converting your bilateral slee
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Omoplata/from Spider Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Omoplata/from Spider Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

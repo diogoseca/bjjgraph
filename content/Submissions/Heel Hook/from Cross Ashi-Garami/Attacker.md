@@ -299,7 +299,7 @@ Attacking the heel hook from Cross Ashi-Garami requires precise control of the o
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Heel Hook/from Cross Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Heel Hook/from Cross Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

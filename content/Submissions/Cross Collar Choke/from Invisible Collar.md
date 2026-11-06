@@ -211,7 +211,7 @@ _3 of these outcomes do not exist in no-gi and carry no probability here. The ou
 - Release both grips: Open the hands at the first tap or change in normal responsiveness.
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -278,6 +278,8 @@ _3 of these outcomes do not exist in no-gi and carry no probability here. The ou
 
 - The attacker places the forearms beside your neck without dragging across the jaw or bending the wrists painfully.
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

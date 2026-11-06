@@ -197,7 +197,7 @@ Defending the Mounted Crucifix Armbar presents unique challenges because your no
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

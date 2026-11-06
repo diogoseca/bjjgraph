@@ -164,7 +164,7 @@ The belly down armbar from turtle exploits arm exposure that naturally occurs wh
 - Finish with controlled back arching and wrist pull rather than explosive jerking — body weight provides the primary force vector
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -235,6 +235,8 @@ The belly down armbar from turtle exploits arm exposure that naturally occurs wh
 
 - Your arm is being pulled away from your body despite your retraction efforts, and you can feel both of the attacker's hands controlling your wrist
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

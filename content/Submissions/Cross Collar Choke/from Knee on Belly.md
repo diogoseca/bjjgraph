@@ -204,7 +204,7 @@ The key strategic consideration is grip sequencing. The first grip must be deep 
 - Use collar grip tension to control the opponent's head position and prevent them from turning or sitting up during the finish
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -277,6 +277,8 @@ The key strategic consideration is grip sequencing. The first grip must be deep 
 
 - Opponent's weight shifts forward and their head drops lower, signaling preparation to drop into the finishing position
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

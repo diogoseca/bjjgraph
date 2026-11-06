@@ -168,7 +168,7 @@ Competition data shows the kneebar from inside ashi-garami succeeds at approxima
 - Time the kneebar entry when the opponent extends their leg for escape, converting their defensive movement into your offensive opportunity
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ Competition data shows the kneebar from inside ashi-garami succeeds at approxima
 
 - Attacker releases heel hook grip configuration and transitions to a clamp-style foot hold, indicating the target has changed from ankle or heel to knee
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

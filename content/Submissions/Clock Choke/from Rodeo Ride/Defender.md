@@ -285,7 +285,7 @@ The defender's primary strategic objective is to prevent the collar grip from be
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Clock Choke/from Rodeo Ride#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Clock Choke/from Rodeo Ride#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

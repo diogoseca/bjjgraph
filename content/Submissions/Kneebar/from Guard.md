@@ -202,7 +202,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 - Angle your body away from opponent's free leg to prevent them from establishing defensive hooks
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -269,6 +269,8 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 - Opponent's free leg pushes against your shoulder, chest, or hip to create distance and prevent you from closing the gap, combined with a tightening squeeze around your trapped thigh
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

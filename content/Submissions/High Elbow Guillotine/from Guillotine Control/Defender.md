@@ -236,7 +236,7 @@ Defending the High Elbow Guillotine from Guillotine Control requires recognizing
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/High Elbow Guillotine/from Guillotine Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/High Elbow Guillotine/from Guillotine Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

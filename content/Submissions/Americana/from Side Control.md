@@ -188,7 +188,7 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 - Keep the opponent's elbow close to their body and in front of their shoulder line for maximum control
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -257,6 +257,8 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 - Opponent begins walking their grip toward your head, repositioning your elbow in line with your shoulder to create the 90-degree angle
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

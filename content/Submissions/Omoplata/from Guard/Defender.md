@@ -246,7 +246,7 @@ Defending the Omoplata from Guard requires early recognition, immediate posture 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Omoplata/from Guard#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Omoplata/from Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

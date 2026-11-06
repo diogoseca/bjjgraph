@@ -281,7 +281,7 @@ Attacking the toe hold from Backside 50-50 leverages your dominant knee-line and
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Toe Hold/from Backside 50-50#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Toe Hold/from Backside 50-50#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

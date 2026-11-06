@@ -237,7 +237,7 @@ Defending the Kimura from front headlock requires recognizing the moment your op
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Front Headlock#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kimura/from Front Headlock#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

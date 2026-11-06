@@ -204,7 +204,7 @@ Strategically, the cross collar choke threat from closed guard functions as an o
 - Thread the second grip decisively once posture is broken; hesitation allows the opponent to recognize the threat and begin defensive grip fighting
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -275,6 +275,8 @@ Strategically, the cross collar choke threat from closed guard functions as an o
 
 - Free hand reaches over your arm toward the far side of your collar with palm facing upward, signaling the second grip entry that completes the choke structure
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

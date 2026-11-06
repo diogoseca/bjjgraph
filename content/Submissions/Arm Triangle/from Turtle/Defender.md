@@ -245,7 +245,7 @@ Defending the arm triangle from turtle requires early recognition and immediate 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Arm Triangle/from Turtle#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Arm Triangle/from Turtle#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

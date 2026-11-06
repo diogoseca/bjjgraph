@@ -232,7 +232,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Omoplata/from Crackhead Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Omoplata/from Crackhead Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

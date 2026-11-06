@@ -267,7 +267,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Flying Kneebar/from Standing Position#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Flying Kneebar/from Standing Position#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

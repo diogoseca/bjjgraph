@@ -168,7 +168,7 @@ This submission carries extreme injury risk due to the knee's limited rotational
 - Keep chest connected to the trapped leg to prevent space creation - any gap between your torso and their leg allows defensive movement and grip stripping
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ This submission carries extreme injury risk due to the knee's limited rotational
 
 - Hip elevation and bridge movement from the attacker combined with rotational pressure on your heel, indicating active finishing torque is being applied to your knee joint
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

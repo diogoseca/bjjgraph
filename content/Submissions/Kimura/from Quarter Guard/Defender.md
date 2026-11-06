@@ -236,7 +236,7 @@ Defending the Kimura from Quarter Guard demands early recognition and immediate 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Quarter Guard#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kimura/from Quarter Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

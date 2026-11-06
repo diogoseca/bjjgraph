@@ -204,7 +204,7 @@ This submission serves as a critical secondary threat within the backside 50-50 
 - Apply compression gradually in training, allowing time for your partner to tap before tissue damage occurs
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -275,6 +275,8 @@ This submission serves as a critical secondary threat within the backside 50-50 
 
 - Increased forward knee-line control combined with the opponent pulling your foot toward them
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -170,7 +170,7 @@ The attacker must balance commitment to the choke against maintaining top positi
 - The opponent's own defensive movement is the primary tightening mechanism of the choke
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -243,6 +243,8 @@ The attacker must balance commitment to the choke against maintaining top positi
 
 - Attacker begins sprawling their hips backward while maintaining collar grip and head control, creating progressive tightening around your neck
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

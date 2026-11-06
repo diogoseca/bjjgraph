@@ -204,7 +204,7 @@ The technique carries particular strategic value in competition because opponent
 - Apply pressure gradually in training — the calf slicer produces pain faster than most opponents expect
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -273,6 +273,8 @@ The technique carries particular strategic value in competition because opponent
 
 - Your knee begins to feel trapped between the attacker's hip pressure driving forward and their shin behind the joint creating a closing vise
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -168,7 +168,7 @@ This submission is particularly effective as a complement to the rear naked chok
 - Maintain the body triangle squeeze throughout the choking sequence to compound breathing restriction with blood choke pressure
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ This submission is particularly effective as a complement to the rear naked chok
 
 - Second hand begins working toward the opposite collar, creating a crossed-grip configuration across your throat
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

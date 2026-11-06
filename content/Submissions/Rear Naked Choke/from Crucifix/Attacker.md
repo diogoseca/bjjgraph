@@ -275,7 +275,7 @@ Executing the Rear Naked Choke from Crucifix capitalizes on the most advantageou
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Rear Naked Choke/from Crucifix#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Rear Naked Choke/from Crucifix#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

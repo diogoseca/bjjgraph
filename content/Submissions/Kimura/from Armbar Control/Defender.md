@@ -230,7 +230,7 @@ Defending the Kimura from Armbar Control requires rapid recognition of the grip 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Armbar Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kimura/from Armbar Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

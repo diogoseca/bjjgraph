@@ -202,7 +202,7 @@ Capitalizing on the natural arm exposure of the defensive turtle, the Kimura fro
 - Use your hips and legs to control the opponent's base and prevent them from rolling through the submission
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -277,6 +277,8 @@ Capitalizing on the natural arm exposure of the defensive turtle, the Kimura fro
 
 - You feel a figure-four grip locking around your arm with your elbow being pulled away from your body and toward the attacker's torso
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

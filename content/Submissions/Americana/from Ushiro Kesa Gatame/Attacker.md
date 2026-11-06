@@ -263,7 +263,7 @@ Attacking with the Americana from Ushiro Kesa Gatame leverages the natural arm i
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Americana/from Ushiro Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Americana/from Ushiro Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

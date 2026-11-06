@@ -197,7 +197,7 @@ Defending against the Kimura from S Mount is one of the most challenging defensi
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from S Mount#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kimura/from S Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

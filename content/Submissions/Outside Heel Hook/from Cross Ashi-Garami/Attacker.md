@@ -257,7 +257,7 @@ Attacking the outside heel hook from cross ashi-garami requires precise coordina
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Outside Heel Hook/from Cross Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Outside Heel Hook/from Cross Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

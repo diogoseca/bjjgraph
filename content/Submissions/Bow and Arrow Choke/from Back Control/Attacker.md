@@ -263,7 +263,7 @@ Attacking with the Bow and Arrow Choke from back control requires methodical gri
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Bow and Arrow Choke/from Back Control#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Bow and Arrow Choke/from Back Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

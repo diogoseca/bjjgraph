@@ -255,7 +255,7 @@ Defending the triangle from spider guard requires understanding both the spider 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Triangle Choke/from Spider Guard#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Triangle Choke/from Spider Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

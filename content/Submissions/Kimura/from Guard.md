@@ -170,7 +170,7 @@ The position operates on the principle that the figure-four grip isolates the sh
 - **Transition Awareness**: Recognize when opponent defends effectively and transition to sweeps, back takes, or alternative submissions rather than forcing a low-percentage finish
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -243,6 +243,8 @@ The position operates on the principle that the figure-four grip isolates the sh
 
 - Opponent opens their guard while maintaining strong grip on your arm and shifting their hips laterally - guard opening with maintained arm control means they are transitioning from control phase to finishing phase
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -282,7 +282,7 @@ Attacking with the Bow and Arrow Choke from Harness requires a seamless transiti
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Bow and Arrow Choke/from Harness#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Bow and Arrow Choke/from Harness#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

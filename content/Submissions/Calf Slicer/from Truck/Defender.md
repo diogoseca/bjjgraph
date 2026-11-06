@@ -197,7 +197,7 @@ Defending the calf slicer from truck requires addressing two simultaneous proble
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Calf Slicer/from Truck#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Calf Slicer/from Truck#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

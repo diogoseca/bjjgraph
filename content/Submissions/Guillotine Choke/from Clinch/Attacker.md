@@ -299,7 +299,7 @@ Attacking with the standing guillotine from clinch requires understanding the pr
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Guillotine Choke/from Clinch#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Guillotine Choke/from Clinch#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -238,7 +238,7 @@ Defending against the Twister from Twister Control demands early recognition and
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Twister/from Twister Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Twister/from Twister Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -265,7 +265,7 @@ The Loop Choke from Side Control leverages the perpendicular body alignment to c
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Loop Choke/from Side Control#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Loop Choke/from Side Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

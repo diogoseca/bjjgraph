@@ -260,7 +260,7 @@ The Spinning Armbar from Closed Guard is a dynamic and versatile submission tech
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Spinning Armbar/from Closed Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Spinning Armbar/from Closed Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

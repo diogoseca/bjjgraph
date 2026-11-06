@@ -249,7 +249,7 @@ Defending the Ezekiel Choke from closed guard bottom requires early recognition 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Ezekiel Choke/from Closed Guard#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Ezekiel Choke/from Closed Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

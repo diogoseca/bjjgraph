@@ -281,7 +281,7 @@ Attacking with the belly down armbar from mounted crucifix combines the already 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Belly Down Armbar/from Mounted Crucifix#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Belly Down Armbar/from Mounted Crucifix#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

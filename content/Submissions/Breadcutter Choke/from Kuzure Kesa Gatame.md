@@ -186,7 +186,7 @@ Strategically, this choke functions as the apex of a multi-threat attack chain f
 - Keep chest low during the entire sequence to deny framing space to the free arm
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -257,6 +257,8 @@ Strategically, this choke functions as the apex of a multi-threat attack chain f
 
 - You feel fabric tightening against the back of your neck as the collar grip is being set and slack removed
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

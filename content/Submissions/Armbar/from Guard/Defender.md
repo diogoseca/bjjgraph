@@ -255,7 +255,7 @@ Defending the armbar from guard requires understanding the attacker's sequential
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Armbar/from Guard#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Armbar/from Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

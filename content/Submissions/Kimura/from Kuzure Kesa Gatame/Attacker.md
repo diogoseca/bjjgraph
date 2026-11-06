@@ -275,7 +275,7 @@ Attacking with the Kimura from Kuzure Kesa Gatame leverages the position's built
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Kimura/from Kuzure Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Kimura/from Kuzure Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

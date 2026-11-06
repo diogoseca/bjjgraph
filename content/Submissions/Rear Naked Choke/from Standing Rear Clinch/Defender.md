@@ -264,7 +264,7 @@ Defending the Standing RNC from Rear Clinch demands immediate recognition of the
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Rear Naked Choke/from Standing Rear Clinch#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Rear Naked Choke/from Standing Rear Clinch#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -171,7 +171,7 @@ This submission represents a high-level integration of positional control and fi
 - Maintain hip pressure and leg positioning throughout the finish to prevent the opponent from rolling, standing, or creating defensive space
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,6 +242,8 @@ This submission represents a high-level integration of positional control and fi
 
 - Sudden increase in hip pressure pinning your lower body as the opponent stabilizes their base for the finishing squeeze
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

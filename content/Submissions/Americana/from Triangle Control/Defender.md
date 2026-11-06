@@ -173,7 +173,7 @@ The triangle entanglement remains in place while the attacker changes the active
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Americana/from Triangle Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Americana/from Triangle Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

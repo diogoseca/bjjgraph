@@ -242,7 +242,7 @@ A critical defensive principle is recognizing that the Kimura grip creates a con
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Kimura/from Guard#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Kimura/from Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

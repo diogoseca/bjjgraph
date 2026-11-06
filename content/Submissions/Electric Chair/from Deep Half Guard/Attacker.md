@@ -271,7 +271,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Electric Chair/from Deep Half Guard#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Electric Chair/from Deep Half Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

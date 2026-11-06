@@ -168,7 +168,7 @@ What makes this chain particularly dangerous in competition is the binary dilemm
 - Apply finishing pressure gradually and progressively, using body weight and forward lean rather than jerking or spiking the shoulder rotation
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ What makes this chain particularly dangerous in competition is the binary dilemm
 
 - Extension pressure on your elbow decreases and is replaced by a rotational loading sensation on your shoulder as the leg crosses over
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -204,7 +204,7 @@ Strategically, the inverted triangle adds a critical dimension to the triangle s
 - Pull the trapped arm across the opponent's throat to amplify inverted compression using their own limb as a lever
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -273,6 +273,8 @@ Strategically, the inverted triangle adds a critical dimension to the triangle s
 
 - Attacker's grip adjustments on your trapped arm or head, often tightening head control just before initiating the hip rotation
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

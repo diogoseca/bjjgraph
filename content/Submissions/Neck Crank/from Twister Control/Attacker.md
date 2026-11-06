@@ -299,7 +299,7 @@ Attacking with the neck crank from Twister Control requires understanding that t
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Neck Crank/from Twister Control#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Neck Crank/from Twister Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -204,7 +204,7 @@ This submission is the primary reason Honey Hole is considered one of the most d
 - Progress pressure gradually in training — the knee has no pain warning before structural failure, making controlled application essential for partner safety
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -279,6 +279,8 @@ This submission is the primary reason Honey Hole is considered one of the most d
 
 - Opponent controlling your upper body with one hand (far leg, shorts, or wrist) while their other hand works to strip your foot free
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -168,7 +168,7 @@ Strategically, this submission sits at the intersection of front headlock contro
 - Transition smoothly between ten finger grip and alternative guillotine variations when opponent's defense creates openings
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ Strategically, this submission sits at the intersection of front headlock contro
 
 - Attacker breaks your posture by pulling your head firmly against their chest while simultaneously closing space with hips or guard
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -168,7 +168,7 @@ At the highest levels of competition, the arm triangle from side control remains
 - Maintain constant chest-to-chest contact throughout the finishing sequence with zero space between your bodies
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -239,6 +239,8 @@ At the highest levels of competition, the arm triangle from side control remains
 
 - The attacker's hips disengage from standard side control positioning and begin walking toward your trapped-arm side to change their angle
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

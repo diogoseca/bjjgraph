@@ -206,7 +206,7 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 - Apply breaking pressure through hip elevation rather than pulling with arms for maximum mechanical advantage
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -281,6 +281,8 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 
 - Attacker's inside leg begins lifting to swing over your face — this is the final pre-submission transition cue
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

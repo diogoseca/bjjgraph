@@ -284,7 +284,7 @@ If the exchange remains seated after the rotated foot is released, keep an elbow
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Aoki Lock/from Ashi Garami#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Aoki Lock/from Ashi Garami#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

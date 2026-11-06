@@ -162,7 +162,7 @@ Armbar from Triangle Control is a distinct submission state: the bottom player r
 - Release immediately at a tap; the arm attack and choke must both be released.
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -227,6 +227,8 @@ Armbar from Triangle Control is a distinct submission state: the bottom player r
 
 - The leg entanglement remains in place during the arm attack.
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

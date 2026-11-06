@@ -236,7 +236,7 @@ Defending the arm triangle from Kuzure Kesa Gatame requires recognizing the crit
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Arm Triangle/from Kuzure Kesa Gatame#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Arm Triangle/from Kuzure Kesa Gatame#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -263,7 +263,7 @@ Finishing the Estima Lock from an already-established control position provides 
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Estima Lock/from Estima Lock Control#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Estima Lock/from Estima Lock Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

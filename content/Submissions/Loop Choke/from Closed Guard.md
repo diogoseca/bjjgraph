@@ -204,7 +204,7 @@ From a strategic standpoint, the Loop Choke pairs naturally with other closed gu
 - Use the self-tightening nature of the loop to your advantage - opponent resistance increases choking pressure
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -277,6 +277,8 @@ From a strategic standpoint, the Loop Choke pairs naturally with other closed gu
 
 - You feel the collar material tightening around your neck with progressive circumferential pressure as the opponent begins rotating underneath you
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -296,7 +296,7 @@ The Banana Split from Truck requires establishing opposing forces on the opponen
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Banana Split/from Truck#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Banana Split/from Truck#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

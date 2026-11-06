@@ -207,7 +207,7 @@ Advanced practitioners chain the Kimura attempt directly off failed or feinted b
 - Chain the Kimura attempt with sweep threats so the opponent must choose between defending the lock and maintaining base
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -276,6 +276,8 @@ Advanced practitioners chain the Kimura attempt directly off failed or feinted b
 
 - Sudden increase in hook pressure combined with upper body pulling indicates the opponent is attempting to trap your arm and compromise your base simultaneously
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

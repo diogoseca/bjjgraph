@@ -299,7 +299,7 @@ The heel hook from Honey Hole is the premier finishing technique in modern leg l
 
 <section id="execution-steps" class="content-section">
 
-> [[Submissions/Heel Hook/from Honey Hole#safety-considerations|Release immediately upon tap ↓]]
+> [[Submissions/Heel Hook/from Honey Hole#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

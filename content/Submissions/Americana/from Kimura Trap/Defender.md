@@ -249,7 +249,7 @@ Defending the Americana from Kimura Trap requires recognizing the moment your op
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Americana/from Kimura Trap#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Americana/from Kimura Trap#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -129,7 +129,7 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 - Time the slicer entry when the opponent is focused on defending upper body attacks rather than monitoring the leg hook position
 
 
-> [Release immediately upon tap ↓](#safety-considerations)
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -200,6 +200,8 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 
 - The attacker's chest pressure shifts downward toward your hips as they reposition to capture your foot
 
+
+> [Tap early and often ↓](#safety-considerations)
 
 ### Escape Paths
 

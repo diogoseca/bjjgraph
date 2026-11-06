@@ -175,7 +175,7 @@ Respond as the arm threads under your armpit toward the neck. Keep room around t
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Darce Choke/from Side Control#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Darce Choke/from Side Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

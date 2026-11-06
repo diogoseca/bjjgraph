@@ -259,7 +259,7 @@ Critically, the Twister is a submission where tapping early is not optional but 
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Twister/from Russian Cowboy#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Twister/from Russian Cowboy#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

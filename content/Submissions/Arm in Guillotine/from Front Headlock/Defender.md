@@ -249,7 +249,7 @@ Defending the arm-in guillotine from front headlock is one of the most urgent de
 
 <section id="defensive-options" class="content-section">
 
-> [[Submissions/Arm in Guillotine/from Front Headlock#safety-considerations|Tap early and often ↓]]
+> [[Submissions/Arm in Guillotine/from Front Headlock#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 
