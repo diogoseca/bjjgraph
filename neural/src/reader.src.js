@@ -247,12 +247,18 @@ class Reader {
     // pane opening moves the bottom reservation) the shorter maximum clamps scrollTop to the new end;
     // that scroll is not the reader's, so the place is kept and layoutNow restores it once the
     // document allows. Any other scroll, the reader's own or a deliberate write, is the new place.
+    // A clamp is the END moving under the place, so the place must lie past the end. v1.251.0: this asked only "at the
+    // end and below the place", which is also the first tick of a smooth Ctrl+Home from the end, when that tick moves
+    // 1px. layoutNow then wrote the place back, the running animation kept the +1 as an offset, and it stopped at 1
+    // for good (reading-navigation.spec.ts on CI run 42152251420; 1 in about 50 under load, 0 in 40 without).
     listen(this.root, "scroll", () => {
       const r = this.root, end = r.scrollHeight - r.clientHeight;
-      if (!(r.scrollTop >= end - 1 && r.scrollTop < this.placeTop)) this.placeTop = r.scrollTop;
+      if (!(r.scrollTop >= end - 1 && this.placeTop > end + 1)) this.placeTop = r.scrollTop;
       this.layout();
     }, { passive: true });
     this.resize = new ResizeObserver(() => this.layout());
+    // A tile's height decides where the next one goes: a font swap or a late player changes it with no other layout.
+    this.tiles = new ResizeObserver(() => this.layout());
     this.resize.observe(this.root);
     this.resize.observe(this.head);
   }
@@ -573,6 +579,7 @@ class Reader {
       return rank(a) - rank(b);
     });
     this.sections = []; this.mediaSlot = null;
+    this.tiles.disconnect();
     body.replaceChildren();
     ordered.forEach((group, index) => {
       // U65 note (owner, 2026-10-29): game pages already show the film in the stage. Retire their
@@ -603,12 +610,8 @@ class Reader {
         fragment.append(part.node); content.append(fragment);
       }
       card.setAttribute("aria-labelledby", heading.id); card.append(heading, content); body.append(card);
-      // U59 c: a section's text length decides its share of a desktop row (layoutNow). DASH-R4: a reference
-      // page's Videos holds its player, and a table with a fourth column (the hubs' Top/Bottom comparison,
-      // 523-534px; a family's variations) overflows a third: both count as long, so they take two thirds
-      // and never a third (a 2-3 column table fits a third: statistics, outcomes, safety).
-      this.sections.push({ ...group, id, card, body: content, toggle, control,
-        len: group.type == "videos" && REFERENCE.test(path) || content.querySelector("tr>:nth-child(4)") ? 1e9 : content.textContent.length });
+      this.sections.push({ ...group, id, card, body: content, toggle, control });
+      this.tiles.observe(card);
     });
   }
   // D-338 (owner): Video, Moves, Questions, then the article in its own order.
@@ -668,8 +671,6 @@ class Reader {
       });
     }
     focus?.focus({ preventScroll: true });
-    // U59 c: the open cards' spans are layoutNow's (they follow the grid's width); every sync()
-    // ends in a layout through shelf() -> publishCard().
   }
 
   link(event) {
@@ -1116,9 +1117,7 @@ class Reader {
       // size as the grid", and "I kind of like it that it's centered". So on a desktop the grid and the row share one
       // box, centred on the free area: it starts at the index's 12px clearance and mirrors that margin on the right.
       // Only the phone keeps a full-width row.
-      // Three lanes from a 1,150px grid (a window of 1,622 and wider), else two. DASH-R4: at 1,100 a third
-      // was 353px, ~36 characters a line, and a 3-column table overflowed it by 7px.
-      const grid = indexEdge ? free.width + 2 * (free.left - indexEdge) : Math.max(240, Math.min(902, free.width - 64)), wide = grid >= 1150;
+      const grid = indexEdge ? free.width + 2 * (free.left - indexEdge) : Math.max(240, Math.min(902, free.width - 64));
       // U59 c: when the grid's width changes (the pane opening, a resize), the first text block starting
       // within the reader keeps its place on screen; the finally puts it back after every other write.
       // DASH-R4: only once the article itself has scrolled above the reader's top. At the arrival the
@@ -1130,24 +1129,26 @@ class Reader {
       // re-picked line: it reorders which line comes first, and it can shorten the document so scrollTop clamps. A pass
       // then took the clamped height as the new place and the close landed elsewhere: 179-333px at the end of Transitions
       // and Submissions at 768, 971px at a landed Mount Top.
+      // v1.251.0: the columns reflow on the same width change, so the source order no longer runs down the page. The
+      // line is the block nearest the reader's top in either column, and a tie stays with the earlier block.
       keep = this.gridW - (this.gridW = available ? grid : NaN) && rect(art).top < top && (this.placeTop === this.heldAt && this.held?.isConnected
-        ? (was = this.heldY, this.held) : [...art.querySelectorAll("p,li")].find(e => (was = this.heldY = rect(e).top) >= top));
+        ? (was = this.heldY, this.held) : (was = 1 / 0, [...art.querySelectorAll("p,li")].reduce((line, e) => { const y = rect(e).top; return y >= top && y < was ? (was = this.heldY = y, e) : line; }, null)));
       style(art, "--article-width", grid);
-      // U59 c (owner): every desktop row holds two open sections side by side, in source order, so
-      // Tab and the eye agree and nothing is lifted: of three lanes the longer text takes two and the
-      // shorter one; of two lanes (a grid of 661-1,149px: 641-1151 without the index), a half each.
-      // DASH-R4: thirds only on three lanes and only where the sizes justify them: an odd count makes
-      // ONE row of three thirds, the run of three (starting on a row) whose longest section is shortest
-      // and under 1,500 characters (a third holds ~40 characters a line at 1440). Otherwise, and on two
-      // lanes, the odd section ends the article beside an empty lane: two thirds, or a half. U65 b:
-      // tiles end at their content; rows still follow the taller card plus the token gap. A grid of 660px or less is
-      // one column (reading.css's container query), as before.
-      const open = this.sections.filter(s => !s.body.hidden && !s.control), n = open.length;
-      let t, best = 1500;
-      if (wide && n % 2) for (let i = 0; i < n - 2; i += 2) { const m = Math.max(...open.slice(i, i + 3).map(s => s.len)); if (m < best) best = m, t = i; }
-      for (let i = 0, k; i < n; i += k) {
-        const row = open.slice(i, i + (k = i == t ? 3 : 2)), [x, y] = row;
-        for (const s of row) style(s.card, "--span", "" + (k > 2 ? 4 : !wide ? 6 : (s == x) == (x.len < (y || x).len) ? 4 : 8));
+      // Owner (2026-11-06, replacing U59 c's rows and U65 b's pairing): two columns, "never a big gap following the
+      // previous section". In reading order each open tile goes to the column that is shorter now, and a tie goes left.
+      // A tile starts where that column ends, and that height only grows, so a head never starts above the one before
+      // it: head tops down the page are the DOM's and the index's order, and the left wins a draw. Real heights: overview
+      // has only a 400-character minimum, so a character count cannot size a tile. 24 is reading.css's --gap on two
+      // columns; on one, a side changes nothing. Both columns are one width, so a side cannot change a height. The sides
+      // stay as they are while the article is put away (its tiles measure 0), so sync() restores bookScroll into the same layout.
+      if (available) {
+        let l = 0, r = 0;
+        for (const s of this.sections) if (!s.body.hidden && !s.control) {
+          // Within a pixel is a draw: a reader sees one line, and the left wins it.
+          const right = l > r + 1, height = rect(s.card).height + 24;
+          s.card.toggleAttribute("data-right", right);
+          if (right) r += height; else l += height;
+        }
       }
       if (toc) {
         toc.hidden = !available || root.dataset.readerReady !== "true" || !fits;
@@ -1165,7 +1166,7 @@ class Reader {
       // U52 b: an asking question is a quiet line with no outside arrows to clear, so it takes the column's width.
       // Its step stays the deck's: taking it up must move nothing above its answers (D-351, the answer appears
       // once at its final rect; a smaller asking step moved Moves and the answers 8px at 1440).
-      const arrows = deck && !card.hasAttribute("data-land-ask");
+      const asking = card?.hasAttribute("data-land-ask"), arrows = deck && !asking;
       // D-351: _readerHold keeps a landing's card and hand unpublished until the article it asked
       // for renders (800ms at most). Parts the ceiling publishes are pinned (_readerPin), and the
       // Videos lift and the film's move wait until they settle: a late article used to move live
@@ -1290,6 +1291,11 @@ class Reader {
         if (pin) y = pin.cardY || (pin.cardY = y);
         cardY = y;
         if (beside) { const groupLeft = free.center - (mediaWidth + 60 + cardWidth + 52) / 2; position(home, groupLeft, cardY, mediaWidth); cardX = groupLeft + mediaWidth + 60; }
+        // Owner (2026-11-06, U90): "the question below the choices should be left aligned, aligned with the left start of
+        // Your choices/moves label". The label is its group's first line, 3px inside it, and the line's text sits 4px inside
+        // the card. offsetLeft, because a scrolled tray or Inspect's slide moves the label and must not take the line along.
+        const moves = showHand && asking && row.firstElementChild;
+        if (moves) cardX = rowLeft + moves.offsetLeft - 1;
         if (card) position(card, cardX, cardY);
         // The deck's backs peek 3px per remaining card below the face; the article clears them.
         if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight) + 3 * (a._landStackEl?.childElementCount || 0);
@@ -1351,7 +1357,7 @@ class Reader {
   destroy() {
     cancelAnimationFrame(this.layoutFrame);
     this.place(this.mediaOrigin); this.restoreGame();
-    this.abort?.abort(); this.resize.disconnect(); this.root.remove(); this.dock?.remove(); this.contents?.remove();
+    this.abort?.abort(); this.resize.disconnect(); this.tiles.disconnect(); this.root.remove(); this.dock?.remove(); this.contents?.remove();
     this.app._readerTocEl = null;
     document.removeEventListener("pointerup", this.selectionEnd);
     this.app.wrapRef.current?.classList.remove("ng-reader-dormant", "ng-reader-no-map", "ng-reader-no-feedback");

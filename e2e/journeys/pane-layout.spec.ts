@@ -156,7 +156,7 @@ for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 
     const before = await page.locator("[data-reader]").evaluate(e => e.scrollTop)
     const line = () => page.locator("[data-reader]").evaluate(e => {
       const r = (window as any).__neural._reader, top = e.getBoundingClientRect().top
-      const held = r.articleEl.querySelector("[data-test-line]") || [...r.articleEl.querySelectorAll("p,li")].find((x: Element) => x.getBoundingClientRect().top >= top)
+      const held = r.articleEl.querySelector("[data-test-line]") || ([...r.articleEl.querySelectorAll("p,li")] as Element[]).filter(x => x.getBoundingClientRect().top >= top).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]
       held.setAttribute("data-test-line", "")
       return held.getBoundingClientRect().top - top
     })
@@ -174,11 +174,7 @@ for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 
       expect(overlap.height).toBeGreaterThan(8)
       expect(overlap.pane).toBe(true)
     } else expect(overlap.width, "the tablet article fits beside the pane").toBeLessThanOrEqual(0)
-    // v1.250.0's order can leave one lane nothing below this line, so the reader rests on the document's end: 51.5px short
-    // at Mount Top, scrollTop 10,155 of 10,155. The journey below pins the hold where nothing stops it.
-    const opened = await page.locator("[data-reader]").evaluate(e => ({ top: e.scrollTop, max: e.scrollHeight - e.clientHeight }))
-    const moved = Math.abs(await line() - lineBefore)
-    expect(moved <= 8 || opened.top >= opened.max - 1, `the line holds while the pane is open, unless the document's end stops it (${moved}px, ${JSON.stringify(opened)})`).toBe(true)
+    expect(Math.abs(await line() - lineBefore), "the line holds while the pane is open").toBeLessThanOrEqual(8)
     await closePane(page, j)
     expect(await page.locator("[data-reader]").evaluate(e => e.scrollTop), "the close lands on the place the open left").toBe(before)
     // Reading here is the prose interaction (D-338 retired Focus, which set reading intent).
@@ -228,7 +224,7 @@ test("768px the line holds while the pane is open, mid-article", async ({ page }
     e.scrollTop = Math.round(e.scrollTop * .35)
     return new Promise<number>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
       const r = (window as any).__neural._reader, top = e.getBoundingClientRect().top
-      const line = [...r.articleEl.querySelectorAll("p,li")].find((x: Element) => x.getBoundingClientRect().top >= top)!
+      const line = ([...r.articleEl.querySelectorAll("p,li")] as Element[]).filter(x => x.getBoundingClientRect().top >= top).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]
       line.setAttribute("data-test-line", "")
       done(line.getBoundingClientRect().top)
     })))
@@ -238,6 +234,21 @@ test("768px the line holds while the pane is open, mid-article", async ({ page }
   expect(open.top, "premise: the document's end is not what stops the line").toBeLessThan(open.max - 1)
   expect(Math.abs(open.line - held), `the line holds on screen (${held} -> ${open.line})`).toBeLessThanOrEqual(8)
 })
+// v1.251.0: a clamp is the document's end moving under the place, and only that. #340 asked "at the end and below the place",
+// which a smooth Ctrl+Home's first tick also is when it moves 1px: layoutNow wrote the place back, the running animation kept
+// the +1 as an offset and stopped at 1 (reading-navigation.spec.ts, CI run 42152251420: 1 in about 36 under load on a 2-core
+// runner, 0 in 40 idle). A 1px write stands in for that tick, which makes it deterministic: red 3 of 3 on this branch and on
+// dev before the fix. place-end-tick.
+test("a one-pixel scroll up from the article's end is the reader's own", async ({ page }) => {
+  const j = await articleEnd(page, "/Transitions/50-50-Entry/Attacker")
+  const landed = await page.locator("[data-reader]").evaluate(e => {
+    const end = e.scrollHeight - e.clientHeight
+    e.scrollTop = end - 1
+    return new Promise<{ end: number, top: number }>(done => { let n = 4; const tick = () => --n ? requestAnimationFrame(tick) : done({ end, top: e.scrollTop }); requestAnimationFrame(tick) })
+  })
+  await j.readerLayoutSettled()
+  expect(landed.top, "the tick stays where it landed").toBe(landed.end - 1)
+})
 test("768px a scroll while the pane is open is the reader's new place, and the close holds that one", async ({ page }) => {
   const j = await articleEnd(page, "/Transitions/50-50-Entry/Attacker")
   await openPane(page, j)
@@ -245,7 +256,7 @@ test("768px a scroll while the pane is open is the reader's new place, and the c
     e.scrollTop = Math.round(e.scrollTop * .4)
     return new Promise<number>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
       const r = (window as any).__neural._reader, top = e.getBoundingClientRect().top
-      const line = [...r.articleEl.querySelectorAll("p,li")].find((x: Element) => x.getBoundingClientRect().top >= top)!
+      const line = ([...r.articleEl.querySelectorAll("p,li")] as Element[]).filter(x => x.getBoundingClientRect().top >= top).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]
       line.setAttribute("data-test-line", "")
       done(line.getBoundingClientRect().top - top)
     })))

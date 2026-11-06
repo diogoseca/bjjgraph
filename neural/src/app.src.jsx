@@ -36,6 +36,12 @@ const NG_LAND_ANSWER_STEPS = Object.freeze([
 // The option tray's own horizontal inset, both ends (`updateUiShift` writes it; the pane's reserve is
 // added on the left only). The template's inline 24px is the same value for the first paint.
 const NG_TRAY_INSET = 24;
+// U90 a: the room a live question needs under the map, from the map's bottom to the window's. Measured at 1440x900 on 136
+// real cards from 16 pages (Positions, Transitions, Submissions), real fonts: the bottom answer lands 486px below the map at
+// the median, 570 at p90 and 589 at worst (`Americana from Side Control`, Attacker). The reader ends 20px above the window and
+// D-368 keeps an answer 8px above that: 589 + 28 = 617, rounded up. A card taller than every sampled one needs a scroll, as
+// any card did before. Lowering this shows more map and costs the longest cards their last answer: U90's own trade-off.
+const NG_LIVE_ANSWER_ROOM = 620;
 // v1.230.0: equal choice score columns are styled in choice-value.css.
 // feedback_owner_rules_reverse_shipped_contracts: v1.220.0's 0.6 ratio retired.
 // The chosen card's lift (`_placeOnTable`): a twelfth of its own height (12px on the 144px card),
@@ -18895,7 +18901,11 @@ class Component extends DCLogic {
     // with no arrival or Answer for Points scroll (U47 d). At 390x631 the reader has 463px: 80 band + 16 gap
     // + the measured 352.25px open card leaves 14.75px. The usual phone keeps 144;
     // no account, type, target or Moves compaction. Both bands hold through the pick.
-    const height = this.H > 500 ? this.W <= 640 ? this._phoneCatch() ? this.H < 700 ? 80 : 144 : 186 : 144 : 64;
+    // U90 a (owner, 2026-11-06): "half the window, never hiding a live question's answers". On a desktop the map ends at
+    // half the window's height, or NG_LIVE_ANSWER_ROOM above the window's bottom if that is higher, and never below the
+    // old 144. It reads the window alone, never a card, so nothing moves when a question opens. D-368 and D-433 stand.
+    const height = this.H > 500 ? this.W <= 640 ? this._phoneCatch() ? this.H < 700 ? 80 : 144 : 186
+      : Math.max(144, Math.min(Math.round(this.H / 2), this.H - NG_LIVE_ANSWER_ROOM) - top) : 64;
     return { top, bottom: top + height, height };
   }
   // U16 b, extended by D-433: only a LIVE phone catch uses the smaller band. A calm defender

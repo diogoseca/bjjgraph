@@ -211,7 +211,7 @@ const mutants = [
   ['width-right-edge', 'article-order.spec.ts', 'share both edges', s => replace(s, 'free.width + 2 * (free.left - indexEdge)', 'W - 24 - indexEdge')],
   ['row-keeps-inset', 'article-order.spec.ts', 'share both edges', s => replace(s, 'const flush = this.trayFlush = available && W > 640;', 'const flush = available && W > 640;')],
   ['row-full-width', 'article-order.spec.ts', 'share both edges', s => replace(s, 'const flush = this.trayFlush = available && W > 640;', 'const flush = this.trayFlush = available && !!indexEdge;')],
-  ['grid-spans-all', 'article-order.spec.ts', 'no section spans the whole grid at 1440x900', s => s, css => css + '\n[data-section-type=definition]{grid-column:1/-1}'],
+  ['grid-spans-all', 'article-order.spec.ts', 'no section spans the whole grid at 1440x900', s => s, css => css + '\n[data-reader-body]>[data-section-type=definition]{width:100%}'],
   ['beta-everywhere', 'article-order.spec.ts', 'every other page keeps', s => s, css => replace(css, ':has([data-source-id$=tree],[data-source-id$=metrics])', '[data-section-type=options]')],
   // v1.249.2: the reader holds one line at one height through a pane's slide, until its place moves.
   ['pane-hold-rechosen', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'false')],
@@ -290,30 +290,51 @@ const mutants = [
   ['d354-reopen-keeps-pin', 'defending-landing.spec.ts', 'D-354 N2: reopening Videos while pinned', s => replace(s, '    if (shown && type === "videos") this.app._readerGraded();\n', '')],
   // U55 b (owner, 2026-10-28) and U59 c (owner, 2026-10-28): the desktop dashboard. Each control breaks one claim of
   // article-dashboard.spec.ts, which serves real content. "No tile is capped": the owner-rejected mock's cap and fade.
-  ['u55-tile-capped', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s,
+  ['u55-tile-capped', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => s,
     css => css + '\n[data-reader-body]>*{max-height:520px;overflow:hidden;mask-image:linear-gradient(#000 82%,transparent)}\n'],
   // DASH-R2 (the independent review of #323): mutants of "every tile shows its whole content" that survived its
   // first spec. The rows mutants of U55 b's 8px rows retired with them (U59 c rows are the grid's own auto rows);
   // their claim, a row no taller than its tallest content, is u59-rows-padded's.
-  ['u59-rows-padded', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s, css => css + '\n[data-reader-body]>*{padding-bottom:100px}\n'],
-  ['u55r-body-capped', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s, css => css + '\n.ng-section-body{max-height:240px;overflow:hidden}\n'],
-  ['u55r-para-clamp', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s,
+  ['u59-rows-padded', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => s, css => css + '\n[data-reader-body]>*{padding-bottom:100px}\n'],
+  ['u55r-body-capped', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => s, css => css + '\n.ng-section-body{max-height:240px;overflow:hidden}\n'],
+  ['u55r-para-clamp', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => s,
     css => css + '\n.ng-section-body p{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}\n'],
-  // U59 c, "two sections side by side always ... never only show one section full width": a long section alone.
-  ['u59-row-alone', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => replace(s, '"" + (k > 2 ? 4 :', '"" + (s.len > 3e3 ? 12 : k > 2 ? 4 :')],
-  // "Some sections can take two columns while the other one takes one": the shorter text takes the two.
-  ['u59-pair-flipped', 'article-dashboard.spec.ts', 'at 1920x1080 the dashboard pairs', s => replace(s, '(s == x) == (x.len < (y || x).len) ? 4 : 8', '(s == x) == (x.len < (y || x).len) ? 8 : 4')],
-  // An odd count's row of three is the shortest run, not wherever the count runs out (Mount's last three hold Related).
-  ['u59-trio-last', 'article-dashboard.spec.ts', 'an odd article at 1920', s => replace(s, '(k = i == t ? 3 : 2)', '(k = n % 2 && i == n - 3 ? 3 : 2)')],
-  // Rows in source order: a late section moved first by the grid (what dense packing did).
-  ['u59-order-moved', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s, css => css + '\n[data-reader-body]>[data-section-type=related]{order:-1}\n'],
-  // "Tab and visual order agree": the rows laid right to left, so focus (source order) runs against the eye.
-  ['u59-tab-rtl', 'article-dashboard.spec.ts', 'Tab walks the tiles', s => s, css => css + '\n.ng-reader [data-reader-body]{direction:rtl}\n'],
+  // Owner (2026-11-06): two columns replace U59 c's rows and U65 b's pairing, so 9 controls retired with the rule each pinned:
+  // u59-row-alone, u59-pair-flipped, u59-trio-last, u59r4-table-third, u59r4-player-third, u59r4-trio-unsized, u59r4-thirds-below,
+  // u59r4-lanes-1366 (spans and thirds no longer exist) and u65-tiles-stretched (a float does not stretch). u59-order-moved
+  // retired too: `order` does nothing to a float, and columns-tie-right and columns-close-reorders move a tile instead.
+  // Each new claim of the columns has its own control:
+  // Every second tile clears both columns: the rows back, with the holes the owner saw.
+  ['columns-rows-back', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => s, css => css + '\n[data-reader-body]>:nth-child(odd){clear:both}\n'],
+  // Sides by parity, whatever the heights: a tile lands on the taller column and leaves a hole beside it.
+  ['columns-alternate', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => replace(s, 'const right = l > r + 1, height', 'const right = (this.flip = !this.flip), height')],
+  ['columns-tie-right', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => replace(s, 'const right = l > r + 1, height', 'const right = l >= r, height')],
+  // A left tile not held in its lane: within a pixel of a draw it slides into the right one (found at 1366, Mount/Top).
+  ['columns-left-slides', 'article-dashboard.spec.ts', 'at 1366x768 the article is two columns', s => s, css => replace(css, '[data-right]~:not([data-right]){clear:left}', '')],
+  ['columns-draw-strict', 'article-dashboard.spec.ts', 'at 1366x768 the article is two columns', s => replace(s, 'const right = l > r + 1, height', 'const right = l > r, height')],
+  ['columns-one-lane', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => s, css => replace(css, 'width:calc(50% - var(--gap)/2)', 'width:100%')],
+  ['columns-three-lanes', 'article-dashboard.spec.ts', 'at 1920x1080 the article is two columns', s => s, css => replace(css, 'width:calc(50% - var(--gap)/2)', 'width:calc(33.3% - var(--gap)*.7)')],
+  ['columns-gap-lost', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => s, css => replace(css, 'margin:0 0 var(--gap)', 'margin:0')],
+  // A character count for the height: the schemas' field limits, the owner's first thought, and the brief's reason to measure.
+  ['columns-tall-tile', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => replace(s, 'height = rect(s.card).height + 24', 'height = s.body.textContent.length / 3')],
+  ['columns-stale-height', 'article-dashboard.spec.ts', 'a tile that grows reorders', s => replace(s, '      this.tiles.observe(card);\n', '')],
+  // Closing a tile re-sorts the tiles before it, which is the one thing a close must not do.
+  ['columns-close-reorders', 'article-dashboard.spec.ts', 'closing a tile moves nothing', s => replace(s, '    for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {', '    if (closed.length) open.reverse();\n    for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {')],
+  // The block first in the source, not the one nearest the reader's top: the source order no longer runs down the page.
+  ['line-dom-first', 'article-dashboard.spec.ts', 'opening Explore keeps the line', s => replace(s, 'return y >= top && y < was ? (was = this.heldY = y, e) : line;', 'return y >= top && !line ? (was = this.heldY = y, e) : line;')],
+  ['line-dom-first-slide', 'article-dashboard.spec.ts', 'on every step of a pane slide', s => replace(s, 'return y >= top && y < was ? (was = this.heldY = y, e) : line;', 'return y >= top && !line ? (was = this.heldY = y, e) : line;')],
+  // The clamp guard back as #340 wrote it: a 1px tick from the end reads as the browser's clamp.
+  ['place-end-tick', 'pane-layout.spec.ts', 'one-pixel scroll up', s => replace(s, 'r.scrollTop >= end - 1 && this.placeTop > end + 1', 'r.scrollTop >= end - 1 && r.scrollTop < this.placeTop')],
+  // U90 note: the line centred, as it was.
+  ['ask-line-centred', 'article-order.spec.ts', 'U90 at 1440x900 the question line', s => replace(s, 'if (moves) cardX = rowLeft + moves.offsetLeft - 1;', '')],
+  ['ask-line-label-offset', 'article-order.spec.ts', 'U90 at 390x844 the question line', s => replace(s, 'if (moves) cardX = rowLeft + moves.offsetLeft - 1;', 'if (moves) cardX = rowLeft + 3;')],
+  // "Tab and visual order agree": the columns mirrored, so focus (source order) runs against the eye.
+  ['u59-tab-rtl', 'article-dashboard.spec.ts', 'Tab walks the tiles', s => s, css => css + '\n[data-reader-body]>*{float:right!important}[data-reader-body]>[data-right]{float:left!important}\n'],
   // "Prose at a readable ~65-70ch": the column's measure removed, so a two-thirds tile runs ~86 characters.
-  ['u59-measure-unset', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s, css => replace(css, 'overflow-wrap:break-word;max-width:46ch;margin:auto}', 'overflow-wrap:break-word}')],
+  ['u59-measure-unset', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => s, css => replace(css, 'overflow-wrap:break-word;max-width:46ch;margin:auto}', 'overflow-wrap:break-word}')],
   // U46 b moved the Guest badge into the drawer. The conditional share cue now occupies the corner;
   // retain the obstruction control (historical name) with its reserve measured over the old 680px column only.
-  ['u59-pill-covers', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => replace(s, 'a._readerShelfBottom({ left: free.center - width / 2, right: W })', 'a._readerShelfBottom({ left: free.center - width / 2, right: free.center + width / 2 })')],
+  ['u59-pill-covers', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => replace(s, 'a._readerShelfBottom({ left: free.center - width / 2, right: W })', 'a._readerShelfBottom({ left: free.center - width / 2, right: free.center + width / 2 })')],
   // "Keep the reader's place when the lane count changes": the anchor found but never put back.
   ['u59-place-lost', 'article-dashboard.spec.ts', 'opening Explore keeps', s => replace(s, '      if (keep) this.placeTop = root.scrollTop += Math.round(keep.getBoundingClientRect().top - was);\n', '')],
   // "A link inside a tile still opens its page": the tile swallows its links' clicks.
@@ -323,7 +344,7 @@ const mutants = [
   ['u55-tile-click-toggles', 'article-dashboard.spec.ts', 'a click on a section tile does nothing', s => replace(s, 'card.append(heading, content); body.append(card);',
     'card.append(heading, content); body.append(card); card.addEventListener("click", e => e.target.closest("button,a") || toggle.click());')],
   // "The node band stays clear": the article pulled up over the game stage to use the space above it.
-  ['u55-band-covered', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => replace(s, 'style(art, "margin-top", 6);', 'style(art, "margin-top", 6 - gameHeight);')],
+  ['u55-band-covered', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => replace(s, 'style(art, "margin-top", 6);', 'style(art, "margin-top", 6 - gameHeight);')],
   // "Uses the width": the grid keeps today's centred column instead of starting at the index's clearance.
   // u55-width-unused retired with U55 b's run to the right edge: width-right-edge is the owner's rule that replaced it.
   // DASH-R4 (the independent review of R3): one control per claim added for its findings.
@@ -334,20 +355,12 @@ const mutants = [
   // Finding 2, "putting the article away and back returns the same line": restore R3's ungated anchor and
   // remembered hidden width together. The reset alone is redundant with the gate in this journey.
   ['u59r4-reopen-ungated', 'article-dashboard.spec.ts', 'putting the article away and back', s => replace(replace(s, ' && rect(art).top < top', ''), '(this.gridW = available ? grid : NaN)', '(this.gridW = grid)')],
-  // Finding 3, "a wide table takes two thirds and shows every column": counted as short text; kept in the 46ch column.
-  ['u59r4-table-third', 'article-dashboard.spec.ts', 'wide Top/Bottom table', s => replace(s, ' || content.querySelector("tr>:nth-child(4)")', '')],
+  // Finding 3, "a wide table shows every column": kept in the 46ch column.
   ['u59r4-table-measured', 'article-dashboard.spec.ts', 'wide Top/Bottom table', s => s, css => replace(css, '.ng-section-body article:has(tr>:nth-child(4)){max-width:none}', '')],
   ['u59r4-table-margin', 'article-dashboard.spec.ts', 'at 768x1024', s => s, css => replace(css, 'table{display:block;overflow-x:auto;font-size:14px;margin:0}', 'table{display:block;overflow-x:auto;font-size:14px}')],
-  // Finding 4, "a reference page's player takes two thirds and the tile's width": counted as its caption text.
-  ['u59r4-player-third', 'article-dashboard.spec.ts', 'Principles page', s => replace(s, 'group.type == "videos" && REFERENCE.test(path) || ', '')],
-  // Finding 5, thirds "only when the sizes justify them": no size threshold, and thirds by parity below three lanes.
-  ['u59r4-trio-unsized', 'article-dashboard.spec.ts', 'Principles page', s => replace(s, 'let t, best = 1500;', 'let t, best = 1e9;')],
-  ['u59r4-thirds-below', 'article-dashboard.spec.ts', 'at 768x1024', s => replace(s, 'if (wide && n % 2)', 'if (n % 2)')],
-  ['u59r4-lanes-1366', 'article-dashboard.spec.ts', 'at 1600x900 the dashboard pairs', s => replace(s, 'wide = grid >= 1150', 'wide = grid >= 1100')],
-  // Finding 6, "an article arriving under a held press still pairs": the default span back to the full width.
-  ['u59r4-press-full', 'article-dashboard.spec.ts', 'arrives under a held press', s => s, css => replace(css, 'span var(--span,6)', 'span var(--span,12)')],
+  // Finding 6, "an article arriving under a held press still shows two lanes": the default width back to the whole grid.
+  ['u59r4-press-full', 'article-dashboard.spec.ts', 'arrives under a held press', s => s, css => replace(css, 'width:calc(50% - var(--gap)/2)', 'width:100%')],
   // U65 b and note (owner, 2026-10-29): each tile ends at its own content; game pages have no credits tile.
-  ['u65-tiles-stretched', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s, css => replace(css, 'align-items:start', 'align-items:stretch')],
   ['u65-watch-tile-restored', 'article-dashboard.spec.ts', 'game pages have one film', s => replace(s, 'const control = group.type === "videos" && !REFERENCE.test(path);', 'const control = false;')],
   // Restore the old null film target AND its unsafe dereference; the corrected target itself is focusable.
   ['u65-film-index-throws', 'article-dashboard.spec.ts', 'game pages have one film', s => replace(replace(s,
@@ -362,10 +375,8 @@ const mutants = [
   ['u65-gap-passes-map', 'article-dashboard.spec.ts', 'space below a short tile', s => s, css => css + '\n.ng-reader-article,[data-reader-body]{pointer-events:none!important}\n'],
   ['u59r4-phone-measure', 'article-dashboard.spec.ts', 'at 390x844 the phone keeps', s => s, css => css + '\n@media(max-width:640px){.ng-section-body article{max-width:120px}}\n'],
   ['u59r4-drag-on-reader', 'opening-camera.spec.ts', 'a drag mid-rise', s => s, css => css + '\nbody:after{content:"";position:fixed;left:1290px;top:150px;width:40px;height:40px;z-index:99}\n'],
-  // "The phone keeps its stacked flow": its one-column rules removed, so the desktop spans pair the cards at 390px.
-  ['u59-phone-pairs', 'article-dashboard.spec.ts', 'at 390x844 the phone keeps', s => s, css => replace(replace(css,
-    '@container (max-width:660px){.ng-section-card{grid-column:1/-1}}', ''),
-    '{grid-template-columns:minmax(0,1fr);gap:calc(var(--section-gap)*3)}.ng-section-card{grid-column:1/-1;border-radius:16px}', '{gap:calc(var(--section-gap)*3)}.ng-section-card{border-radius:16px}')],
+  // "The phone keeps its stacked flow": its one-column rule removed, so the desktop's half width applies at 390px.
+  ['u59-phone-pairs', 'article-dashboard.spec.ts', 'at 390x844 the phone keeps', s => s, css => replace(css, '@container (max-width:660px){[data-reader-body]>*{width:100%}}', '')],
 ]
 // D7-N1: controls whose claim IS the landSettled stall (land_publish_stalled). None today.
 const STALL_CLAIMS = new Set([])

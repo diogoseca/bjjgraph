@@ -24,8 +24,12 @@ import { journey } from '../dsl'
 //   row-full-width           below the index the row shares the grid too (the row back to the window's width)
 //   grid-spans-all           no section spans the grid (a tile across all 12 columns)
 //   beta-everywhere          only a position's two sections carry Beta (the mark on every options tile)
-// pane-layout.spec.ts carries the 768 close (pane-hold-*).
-// The map's height is not claimed here: the 50% band is the owner's open choice, and D-368 and D-433 pin what it would cost.
+//   band-uncapped            the map stops above a live question's answers (half the window, no cap)
+//   band-old-144             the map is half the window (the old 144px band)
+//   band-follows-card        nothing moves when a question opens (a band read off the open card)
+//   ask-line-centred         the question line starts at the label's left edge (the line centred, as it was)
+// pane-layout.spec.ts carries the 768 close (pane-hold-*). The band mutants edit neural.js, so they sit outside that file's
+// reader-only runner: the commands and the receipt are in docs/Changelog-Archive.md's v1.251.0 entry.
 
 const READY = '[data-reader][data-reader-ready="true"]'
 const SCB = '/Positions/Side-Control/Bottom'
@@ -122,5 +126,46 @@ for (const [width, height] of [[1152, 864], [1440, 900], [1920, 1080]] as const)
     const d = await tiles(page)
     expect(d.open.length, 'premise: the article shows').toBeGreaterThan(8)
     for (const t of d.open) expect(t.width, `${t.type} is narrower than the grid`).toBeLessThan(d.grid.width - 24)
+  })
+}
+
+// U90 a (owner, 2026-11-06): "half the window, never hiding a live question's answers". The map ends at half the window, or
+// NG_LIVE_ANSWER_ROOM above the window's bottom if that is higher. D-368 and D-433 pin the catch; these pin the calm card.
+for (const [width, height, bottom, note] of [[1440, 900, 280, 'capped'], [1152, 864, 244, 'capped'], [1920, 1400, 700, 'exactly half']] as const) {
+  test(`@curated U90 at ${width}x${height} the map ends at ${bottom}px (${note}), and nothing moves when a question opens`, async ({ page }) => {
+    const j = await boot(page, width, height)
+    const stage = () => page.evaluate(() => {
+      const a = (window as any).__neural, r = a._reader
+      return { band: r.nodeBand.bottom, row: a.optionsRef.current.getBoundingClientRect().top, label: a.optionsRef.current.firstElementChild.getBoundingClientRect().left, scrollTop: r.root.scrollTop }
+    })
+    const before = await stage()
+    expect(before.band, 'the map\'s bottom').toBe(bottom)
+    await j.openQuestion()
+    await j.readerLayoutSettled()
+    expect(await stage(), 'the map, the Moves row and the reader hold still').toEqual(before)
+    const open = await page.evaluate(() => {
+      const a = (window as any).__neural, end = a._reader.root.getBoundingClientRect().bottom
+      return { end, answers: [...a._landEl.querySelectorAll('[data-land-q] button')].filter((e: any) => e.getClientRects().length && e.getBoundingClientRect().width > 150).map((e: any) => {
+        const b = e.getBoundingClientRect(), hit = document.elementFromPoint(b.left + b.width / 2, b.top + b.height / 2)
+        return { bottom: b.bottom, hit: !!hit && e.contains(hit) } }) }
+    })
+    expect(open.answers.length, 'premise: the question shows its answers').toBeGreaterThan(1)
+    expect(open.answers.filter(x => !x.hit || x.bottom > Math.min(height, open.end) - 8), 'every answer is on screen, 8px clear of the reader\'s end').toEqual([])
+  })
+}
+
+// U90 note: "the question below the choices should be left aligned, aligned with the left start of Your choices/moves label".
+// Text against text, because the label and the line each sit inside their own box.
+for (const [width, height] of [[1440, 900], [1152, 864], [900, 900], [390, 844]] as const) {
+  test(`@curated U90 at ${width}x${height} the question line starts at the left edge of the label above the choices`, async ({ page }) => {
+    await boot(page, width, height)
+    const e = await page.evaluate(() => {
+      const a = (window as any).__neural, left = (n: Node) => { const r = document.createRange(); r.selectNodeContents(n); return r.getBoundingClientRect().left }
+      const label = a.optionsRef.current.querySelector('[data-choice-group]').firstChild, ask = a._landEl.querySelector('[data-land-ask-text]')
+      return { name: label.firstChild.textContent, label: left(label.firstChild), ask: left(ask.firstChild), below: ask.getBoundingClientRect().top - a.optionsRef.current.querySelector('[data-tech]').getBoundingClientRect().bottom }
+    })
+    expect(e.name, 'premise: the label above the choices').toBe('Your move')
+    expect(e.below, 'premise: the question sits below the choices').toBeGreaterThan(0)
+    expect(Math.abs(e.ask - e.label), `the line starts at the label (${e.ask} vs ${e.label})`).toBeLessThanOrEqual(.5)
   })
 }
