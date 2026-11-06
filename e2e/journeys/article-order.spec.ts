@@ -35,6 +35,16 @@ import { journey } from '../dsl'
 //   relations-label-unscoped a transition keeps its words (the rule not scoped to a position's own tile)
 //   relations-label-shown    a position drops them (the rule removed)
 //   u99-wheel-declines       the wheel declines nothing (a wheel over the card counts as reading)
+//   training-one-tile        each phase of Training is its own tile (the split removed)
+//   training-numbered        no head is invented (each phase's tile keeps a head, the "Training 2" he rejected on the Overview)
+//   training-text-lost       every word of the source stays (a phase's tile loses its text)
+//   training-index-rows      one section, one index row (a row per phase)
+//   training-flush           a phase's tile has the same padding on every side (its text flush with the top)
+//   training-head-padded     a tile with a head starts as it did (the head's tile doubly padded)
+//   training-on-positions    a position keeps one Training tile (the split on every page)
+//   training-on-principles   a Principle stays whole (the split on anything not a position)
+//   hub-first-section-only   a hub opens short on both text sections (the shared one alone, the +70 B version)
+//   hub-parts-first          a hub opens short at all (back to the bucket's first part, its role links, which folds nothing)
 //   index-from-1152          the index waits for a readable line (back at 1,152)
 //   index-never              the index shows at 1,350 (never)
 //   band-uncapped            the map stops at the median card's room (half the window, no cap)
@@ -60,8 +70,8 @@ async function boot(page: Page, width: number, height: number, path = SCB) {
 const tiles = (page: Page) => page.evaluate(() => {
   const r = (window as any).__neural._reader, g = r.body.getBoundingClientRect()
   return { grid: { left: g.left, right: g.right, width: g.width }, toc: [...r.contents.querySelectorAll('[data-toc-type]')].map((e: any) => e.dataset.tocType),
-    open: ([...r.body.children] as HTMLElement[]).filter(c => c.getClientRects().length).map(c => { const b = c.getBoundingClientRect(), s = getComputedStyle(c.querySelector('h2')!, '::after')
-      return { type: c.dataset.sectionType!, title: c.querySelector('.ng-section-title')!.textContent, text: (c.querySelector('.ng-section-body') as HTMLElement).innerText.replace(/\s+/g, ' ').trim(), width: b.width, beta: s.content === '"Beta"' } }) }
+    open: ([...r.body.children] as HTMLElement[]).filter(c => c.getClientRects().length).map(c => { const b = c.getBoundingClientRect(), head = c.querySelector(':scope>h2'), s = head && getComputedStyle(head, '::after')
+      return { type: c.dataset.sectionType!, title: c.querySelector('.ng-section-title')?.textContent, text: (c.querySelector('.ng-section-body') as HTMLElement).innerText.replace(/\s+/g, ' ').trim(), width: b.width, beta: s?.content === '"Beta"' } }) }
 })
 
 test('@curated a position reads in the owner\'s order, with a tile for each relation and for the definition', async ({ page }) => {
@@ -106,6 +116,71 @@ for (const path of [SCB, '/Positions/Rubber-Guard/New-York/Bottom']) {
     expect(seen.shown, 'the opening is short').toBeLessThan(700)
     expect(seen.dom.length, 'premise: real text').toBeGreaterThan(600)
     expect(seen.dom, 'every word of the source stays in the DOM, in order').toBe(seen.source)
+  })
+}
+
+// U103 a (owner, 2026-11-06): a bare hub too, on both text sections, and its role links stay above them. Every position page was swept
+// once at v1.251.1 through the app's own reader: 266 role pages with 1 Read more, 133 hubs with 2, and the 8 lowercase hubs with 1.
+for (const path of ['/Positions/Mount', '/Positions/Side-Control']) {
+  test(`@curated U103 a ${path}: a hub opens short on both text sections, and every word of both sources stays`, async ({ page }) => {
+    await boot(page, 1440, 900, path)
+    const d = await page.evaluate(async path => {
+      const t = (window as any).__neural._reader.body.querySelector('[data-section-type=overview]'), squeeze = (s: string) => s.replace(/\s+/g, '')
+      const source = async (url: string) => {
+        const s = new DOMParser().parseFromString(await (await fetch(url)).text(), 'text/html').querySelector('#overview')!
+        for (const x of s.querySelectorAll('.also-known-as,.often-confused-with,[data-source-id],aside,.role-links')) x.remove()
+        return squeeze(s.textContent!)
+      }
+      const walls = [...t.querySelectorAll('section[data-source-id=overview]')] as HTMLElement[]
+      return { links: t.querySelectorAll('.role-links a').length, shown: t.innerText.length, walls: await Promise.all(walls.map(async (w, i) => {
+        const more = w.querySelector(':scope>details.ng-rm') as HTMLDetailsElement
+        return { read: more?.querySelector('summary')?.textContent, open: more?.open, dom: squeeze(w.textContent!).replace('Readmore', '').replace('Howitworks', ''), source: await source(i ? path + '/Top' : path) }
+      })) }
+    }, path)
+    expect(d.links, 'the role links stay').toBeGreaterThan(1)
+    expect(d.walls.map(w => w.read), 'the shared section and the seat\'s each wait behind Read more').toEqual(['Read more', 'Read more'])
+    expect(d.walls.map(w => w.open), 'both closed on arrival').toEqual([false, false])
+    expect(d.shown, 'the tile opens short: Mount\'s was 3,294px of text').toBeLessThan(1100)
+    for (const w of d.walls) {
+      expect(w.dom.length, 'premise: real text').toBeGreaterThan(600)
+      expect(w.dom, 'every word of the source stays in the DOM, in order').toBe(w.source)
+    }
+  })
+}
+
+// U100 a (owner, 2026-11-06): on Transitions and Submissions each bold-led phase of Training is its own tile. Not a word changes, and no
+// head is invented: "Training 2" is the "1, 2, or 3 overviews" of his U96 note. Every seat page with the section was swept once at
+// v1.251.1 through the app's own reader: 2,598 of 2,598 with one tile a phase, one head, one index row and the source's text, in order.
+for (const [path, phases] of [['/Transitions/Knee-Slice-Pass/Attacker', 6], ['/Submissions/Armbar/from-Mount/Attacker', 4]] as const) {
+  test(`@curated U100 a ${path}: each phase of Training is its own tile, with every word of the source and no invented head`, async ({ page }) => {
+    await boot(page, 1440, 900, path)
+    const d = await page.evaluate(async path => {
+      const r = (window as any).__neural._reader, squeeze = (s: string) => s.replace(/\s+/g, ''), all = [...r.body.children] as HTMLElement[]
+      const cards = all.filter(c => c.dataset.sectionType === 'training'), bodies = cards.map(c => c.querySelector('.ng-section-body') as HTMLElement)
+      const source = new DOMParser().parseFromString(await (await fetch(path)).text(), 'text/html').querySelector('section#training-progressions')!
+      return { heads: cards.map(c => c.querySelectorAll(':scope>h2').length), titles: cards.flatMap(c => [...c.querySelectorAll('.ng-section-title')].map(x => x.textContent)),
+        rows: [...r.contents.querySelectorAll('[data-toc-type=training] a')].map((a: any) => a.textContent), at: cards.map(c => all.indexOf(c)),
+        leads: bodies.map(b => b.querySelector('p:not([class])>strong')!.textContent), sourceLeads: [...source.querySelectorAll(':scope>p>strong:first-child')].map(x => x.textContent),
+        dom: bodies.map(b => squeeze(b.textContent!)).join(''), source: squeeze(source.textContent!), top: bodies.map(b => parseFloat(getComputedStyle(b).paddingTop)), bottom: parseFloat(getComputedStyle(bodies[0]).paddingBottom) }
+    }, path)
+    expect(d.heads, 'one head, on the first tile').toEqual([1, ...Array(phases - 1).fill(0)])
+    expect(d.titles, 'one name, and no number').toEqual(['Training'])
+    expect(d.rows, 'the index has one row for the section').toEqual(['Training'])
+    expect(d.leads, 'each tile opens on its own phase, in order').toEqual(d.sourceLeads)
+    expect(d.at, 'the phases stand together').toEqual(d.at.map((_, i) => d.at[0] + i))
+    expect(d.source.length, 'premise: real text').toBeGreaterThan(800)
+    expect(d.dom, 'every word of the source, in order').toBe(d.source)
+    expect(d.top[0], 'a tile with a head starts as it did').toBe(0)
+    for (const t of d.top.slice(1)) expect(t, 'a phase\'s tile has its padding on top too').toBe(d.bottom)
+  })
+}
+
+// "Transitions and Submissions only": it measured worse on a position, and a Principle's practice is not phases. Microing has three
+// paragraphs there, so the broad split reaches it. No Learning page can show this: 0 of 26 hold a paragraph the split would take.
+for (const [path, claim] of [['/Positions/Mount/Top', 'a position'], ['/Principles/Microing', 'a Principle']] as const) {
+  test(`@curated U100 a ${claim} keeps its Training whole`, async ({ page }) => {
+    await boot(page, 1440, 900, path)
+    expect((await tiles(page)).open.filter(t => t.type === 'training').length, 'one tile').toBe(1)
   })
 }
 

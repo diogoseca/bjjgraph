@@ -14445,3 +14445,106 @@ PR run after the reseed: S-Mount Transition's card printed 56 and the spec expec
 rate 58, and the card, `tensionSweep` and `resolve` all play the listing through `_actOf`. The helper was wrong: `displayedOdds` always read the
 canonical node, which stayed hidden while no listing at a spec's landing differed. It now reads the node a dealt card plays. Harness only, so the
 capture stands; all 12 spec files that call it pass on the build, and the unfixed helper is the control, red on `a2f0100d7`.
+
+## v1.251.1 — Training as a tile per phase, Read more on the hubs, and a limit CI kept hitting (U100 a, U103 a, 2026-11-06)
+
+**CI.** Shards hit `e2e-full.yml`'s 25-minute limit three times; on the last green run (42266283562) one reached 22m58s, with the others at 11m47s to
+18m29s. The shard job goes to 35. Build (6m05s) and gen (5m47s) keep 25: neither is near it. actionlint passes.
+
+**U100 a.** Training stood alone at the end of Transitions and Submissions. Each bold-led phase is now its own tile, and a page's tiles stand together
+where Training stood. The round-2 scratch build titled them "Training 2" to "Training N" and left them at the end of their rank. Neither shipped: the first
+is the "1, 2, or 3 overviews" of his U96 note, the second breaks them up across other sections. So the first tile keeps the head, and a phase opens on
+its own bold name. It is one section: one index row, one ✕, one saved setting by type, one closed label, and it counts once in Hidden sections.
+`syncIndex` reads all of a section's tiles, or the row would dim while the reader stands on phase 3.
+
+| Swept once, through the app's own reader, every seat page with the section | Pages |
+|---|---:|
+| one tile a phase | 2,598 of 2,598 |
+| one head | 2,598 |
+| one index row | 2,598 |
+| text equal to the source, in order | 2,598 |
+| the phases contiguous | 2,598 |
+| every later tile opens on bold | 2,598 |
+
+**It fixed Transitions, and the Submissions have a new end gap.** Same pages as round 2, 1440x900:
+
+| Page | End gap, round 2 | Now | Last tile |
+|---|---:|---:|---|
+| Knee Slice Pass, Attacker | 1,191 px | 22 px | Training |
+| Knee Slice Pass, Defender | 956 px | 115 px | Training |
+| Back Step Pass, Attacker | 777 px | 151 px | Training |
+| 50 50 Entry, Attacker | 700 px | 64 px | Training |
+| Armbar from Mount, Attacker | 844 px | 1,178 px | Safety |
+| Americana from Side Control, Defender | 639 px | 1,584 px | Safety |
+
+Round 2 measured before S1 a moved a submission's safety guide last. It now stands alone at the end, and that is the gap on Submissions, with or without
+this split. Its four bold heads could split the same way; that is not approved, so it is not here.
+
+**U103 a.** Both text sections of a bare hub, named by source id, because a hub's role links come first in the bucket and hold a `<p>` of their own.
+Swept on all 407 position pages: 266 role pages with 1 Read more, 133 hubs with 2, and the 8 lowercase hubs with 1, as they had.
+
+**The `rest` carry.** Deleted, with its comment. It was the code of the recorded non-kill `reader-rounding-remainder-dropped`: the line drifted the same
+with and without it, because #340's held line does that job now. The wrapping and pane journeys pass without it.
+
+**Bytes.** Deferred 506,811 to 507,108 B, measured by `validate:payload`. The ceiling moves by exactly 291 B, of the 300 he approved.
+
+| | Bytes |
+|---|---:|
+| `rest` carry removed | -37 |
+| U103 a, the hubs | +26 |
+| U100 a, reader | +295 |
+| U100 a, CSS | +13 |
+| Net | +297 |
+| Free before | 6 |
+| Raise | 291 |
+
+Eager did not move: 348,688 B, +4,900 of the 5,000 B cap. The CSS is the base rule padded on all sides with `h2+` taking the top back off, 13 B against
+the 58 B of a rule for the phases. The selector `:scope>p:not([class])~p` replaced a `.slice(1)` and saved 16 B more.
+
+**One spec changed its claim, and why.** `article-sections` at 1366 went red 8 of 8 on the poke that doubles `--section-gap`: 87.5 against 48 on one gap.
+The app is right. Nothing changes that token at runtime, and the sides stay sorted on the real 24 px gap, so a side stale for 48 px can hold a tile under
+an earlier float (CSS 2.1 9.5.1 rule 5). The old check saw no stale side on this page only because fewer tiles sat at the end. The gap is each tile's
+margin, so the poke now reads the margins exactly, and every gap as a floor. `gap-hard-coded` kills the new check at the margins; it would have
+passed the two checks before the poke.
+
+**Controls.** 23 run, 22 killed at their assertions, each read, and 1 retired.
+
+| Control | Dies on |
+|---|---|
+| `training-one-tile`, `training-numbered` | one head, on the first tile |
+| `training-text-lost` | every word of the source, in order |
+| `training-index-rows` | the index has one row for the section |
+| `training-flush` | a phase's tile has its padding on top too |
+| `training-head-padded` | a tile with a head starts as it did |
+| `training-on-positions`, `training-on-principles` | one tile |
+| `training-closed-rows` | one section |
+| `training-closed-stays` | no phase stays, open or empty |
+| `training-index-first` | the row is lit |
+| `hub-first-section-only`, `hub-parts-first` | the shared section and the seat's each wait behind Read more |
+| `hub-one-opens-both` | the shared section alone opened |
+| `gap-hard-coded` | every tile's margin follows the token |
+| `wrapping-anchor-lost`, `reader-clipped-block-anchored`, `u59-place-lost` | the line keeps its place (retargeted past the `rest` code) |
+| `u55r-link-swallowed`, `u55-tile-click-toggles` | retargeted anchors; their claims unchanged |
+| `missing-gap`, `columns-gap-lost-sections` | rerun against the changed test |
+
+Two needed a second look. `training-text-lost` first died on a premise, not on the words, so the premise now reads the source and it dies at the claim.
+`training-on-learning` is the one retired: it survived, because no Learning page can show the claim, with 0 of 26 holding a paragraph the split would take.
+The journey now runs on `/Principles/Microing`, which has three paragraphs there, as `training-on-principles`.
+
+**UNGUARDED.** The closed path without `moveBefore` runs in Chromium with the method deleted, not in Safari or Firefox. A phone has no measured claim
+about the split: each phase is a tile there too, and the page is longer by their padding and gaps.
+
+**Housekeeping.** `video_theater_mutants.json`: row 5 names the 720 journey, and row 6 is dropped, because the code it mutated is gone. A full run of that table
+ends clean, 39 of 39. That is the video table only: `article_sections_mutants.mjs` has 209 rows and no CI job, and three of its rows had moved, so a full run of it
+aborted at row 10.
+
+**The review.** Three fixes, one regression among them.
+
+- **`syncIndex`, a regression from this PR.** Filtering by type lit all 8 `additional` rows on /Systems together, 0.84 each with the reader on one of them, and the active row
+  stuck to the first. "Back to Systems" reaches that page from all 83 System pages. The row now reads by title, which a section's phases inherit. `index-row-by-type`.
+- **The hold kept a closed line, older than this PR, which widened it.** `isConnected` is true of a closed tile, so the line had no box, its top read 0, and each pass of the
+  slide threw the reader up. Reproduced with real input on Knee Slice Pass at 1440: Training's ✕ with the pane open, then the pane closed, scrollTop 4,345 to 745. It is
+  `offsetWidth` now, 0 detached or unrendered. `hold-closed-line`.
+- **The table.** 3 rows retargeted, plus the 5 these two fixes moved. Every row's mutate() replayed in node: 209 rows, 0 moved.
+
+The index fix costs 2 B, so the ceiling is 507,110 B, +293 of the 300 B approved.

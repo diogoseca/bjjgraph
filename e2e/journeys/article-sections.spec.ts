@@ -136,6 +136,7 @@ for (const width of [1366, 390]) {
           const lane = cards.map(c => c.getBoundingClientRect()).filter(r => Math.round(r.left) === left).sort((x, y) => x.top - y.top)
           return lane.slice(1).map((r, i) => r.top - lane[i].bottom)
         }),
+        margins: cards.map(c => parseFloat(getComputedStyle(c).marginBottom)),
         overflow: a._readerEl.scrollWidth - a._readerEl.clientWidth }
     })
     const normal = await measure()
@@ -175,8 +176,13 @@ for (const width of [1366, 390]) {
       const w = window as any, cards = [...w.__neural.optionsRef.current.querySelectorAll('.ngchoice-title')]
       return { titles: cards.map((e: any) => e.textContent), same: cards.every((e, i) => e === w.__sectionsCards[i]) && cards.length === w.__sectionsCards.length }
     })).toEqual({ titles: snapshot.titles, same: true })
+    // v1.251.1: nothing changes this token at runtime, and the sides stay layoutNow's, sorted on the real 24px gap. A side stale for 48px can
+    // hold a tile under an earlier float (CSS 2.1 9.5.1 rule 5), so a gap down a column can read more than the token: 87.5 here since Training
+    // split, with the page correct. The gap IS each tile's margin, so that is what follows the token. gap-hard-coded proves this can fail.
     await page.locator(READY).evaluate(e => (e as HTMLElement).style.setProperty('--section-gap', '12px'))
-    expect((await measure()).gaps.every(g => Math.abs(g - 12 * gapScale) < 1)).toBe(true)
+    const poked = await measure()
+    expect(poked.margins.every(m => m === 12 * gapScale), `every tile's margin follows the token (${poked.margins})`).toBe(true)
+    expect(poked.gaps.every(g => g >= 12 * gapScale - 1), `no gap is under it (${poked.gaps})`).toBe(true)
     expect(await state(page)).toMatchObject({ paused: true, played: false, misses: 0 })
   })
 }
