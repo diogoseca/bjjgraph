@@ -14056,6 +14056,17 @@ tile or on the gap under a shorter one. It now walks each lane's own text column
 so these were found and fixed before the capture: 213 of 213 across 14 journey files on the own build, and 88 more in the first
 batch.
 
+**Three SEO floors moved.** `Positions/Mount.html`, `Mount/Bottom.html` and `Mount/Top.html` each lost exactly their 30 cards, 3,318
+characters and 25 links, which put them 1,122, 1,209 and 1,394 characters under their floors. The contract moved those three to 85% of
+the new text, the updater's own ratio, with the orchestrator's approval as the direct effect of U89. The other 17 stayed exact.
+
+**PR CI found two more premises the focused batch had not run.** The study-guide cards hold no `p` or `li`, so at an article's end U59
+c's place anchor used to find nothing and `pane-layout.spec.ts` only ever saw an untouched `scrollTop`. Now the end is the Related list
+and the anchor runs. At 1024 the anchor holds its line, so that journey now reads a wheel over the pane against the position the pane
+settled on. At 768 the line holds while the pane is open, pinned, but the close anchors on whichever line one lane put first, and at
+the article's end that lands a tile away: 971px at Mount Top. Mid-article the same journey held within 26px at 35%, 50% and 70% down.
+That gap is the reader's, stays UNGUARDED in the spec's own header, and goes to the article-order PR, which can pay for the bytes.
+
 **Left behind on purpose:** the `.related-systems` and `.system-card` rules in `source/quartz/styles/custom.scss`, which nothing
 emits now (0 built pages). This capture cannot carry a `source/` change. The reader's `related-systems` alias and its two
 `.system-card__*` selectors are PR-2's.
