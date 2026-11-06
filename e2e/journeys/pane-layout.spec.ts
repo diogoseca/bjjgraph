@@ -210,6 +210,23 @@ for (const path of ["/Positions/Mount/Top", "/Transitions/50-50-Entry/Attacker"]
     expect(await readerTop(page), "the close lands on the place the open left").toBe(before)
   })
 }
+// v1.250.1: a clamp is the document's end moving under the place, and only that. #340 asked "at the end and below the place",
+// which a smooth Ctrl+Home's first tick also is when it moves 1px: layoutNow wrote the place back, the running animation kept
+// the +1 as an offset and stopped at 1 (reading-navigation.spec.ts, CI run 42152251420: 2 of 72 under load on two cores, 0 of
+// 40 without; deploy-dev run 42185772781 on 6 Nov). A 1px write stands in for that tick, which makes it deterministic: red 3
+// of 3 on dev's reader, green 3 of 3 with the fix. place-end-tick.
+// UNGUARDED: the place past the end. While the open pane clamps a held place, a 1px tick up still reads as the clamp and is
+// undone: this page at 768, end 7709, place 7779, the write gone four frames later. #340's guard read that case the same way.
+test("a one-pixel scroll up from the article's end is the reader's own", async ({ page }) => {
+  const j = await articleEnd(page, "/Transitions/50-50-Entry/Attacker")
+  const landed = await page.locator("[data-reader]").evaluate(e => {
+    const end = e.scrollHeight - e.clientHeight
+    e.scrollTop = end - 1
+    return new Promise<{ end: number, top: number }>(done => { let n = 4; const tick = () => --n ? requestAnimationFrame(tick) : done({ end, top: e.scrollTop }); requestAnimationFrame(tick) })
+  })
+  await j.readerLayoutSettled()
+  expect(landed.top, "the tick stays where it landed").toBe(landed.end - 1)
+})
 test("768px a scroll while the pane is open is the reader's new place, and the close holds that one", async ({ page }) => {
   const j = await articleEnd(page, "/Transitions/50-50-Entry/Attacker")
   await openPane(page, j)
