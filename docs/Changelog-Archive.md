@@ -14165,6 +14165,18 @@ broke something a width change had been hiding: the grid now stands at 902px thr
 grid's width, and the film flipping under the question grew the stage 143-168px with nothing holding the line. The anchor now keys on the
 free width. The Overview's numbered tiles (2 to 9 on 266 pages, 135 with four or more) go to the owner as three options; they must not ship.
 
+**Round 4, the owner's picks (2026-11-06): U101 b, U102 a.** His note on U96: "there should only be one overview, and it shouldn't be called
+'overview.' It's a poor header and a poor description of what happens." One tile, "How it works", a short opening, and "Read more" opening the
+rest in place, one way. The numbered tiles never shipped: they gave 2 to 9 tiles on 266 role pages, 135 with four or more. Swept through
+the app's own reader on all 266: one tile, Read more on each, text equal to the source on 266 of 266, no block that is not a paragraph.
+The label changed everywhere it reaches a reader (From the top, From the bottom, As the attacker, As the defender, For both sides), with
+no capture, because the built site carries no such heading: 0 in the HTML, the Markdown export and `llms.txt`. `#overview` anchors stay.
+Saved section settings survive, because they are stored by type. One trap caught before it shipped: Learning, Systems and Submission family
+pages publish their own `<details>`, so an `article`-wide rule hid a question once opened; hence the class. Being one-way is what makes it fit.
+Bytes on the merged tree: deferred 506,815 of 506,817, eager +4,900 of 5,000, no ceiling moved, so `mangleProps` stays (590 B over without it).
+Controls: `read-more-no-reflow` survived, because a later layout sorts the tiles anyway, and `line-dom-first-slide` survived because the
+slide's page puts both candidates on one block. Both are recorded in the spec's header, and each claim has a control that does bite.
+
 ## v1.250.0 — The article on a position page, in the order a person needs it (owner, 2026-11-01)
 
 The owner, on Side Control Bottom: the Overview is "such a long text, and I don't know where to start"; "the choices row should

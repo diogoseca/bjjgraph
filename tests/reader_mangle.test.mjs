@@ -1,6 +1,6 @@
 // `mangleProps` on reader.js renames READER_ONLY_PROPS, and a listed name read from outside the reader comes back undefined
 // rather than throwing, so a typo'd journey or a new caller fails as a wrong value, far from here. It stays only because the
-// deferred cap has no room for it: 620 B of savings against 32 B free at v1.251.0 (neural/build/build.mjs names the list).
+// deferred cap has no room for it: 620 B of savings against 2 B free at v1.251.0 (neural/build/build.mjs names the list).
 // This is the guard the comment there used to ask a person to run by hand.
 //
 // The pattern reads a listed name off the reader, by its three spellings in this repo: `_reader.x`, `reader.x`, and `r.x`, which
