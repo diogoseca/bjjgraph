@@ -84,7 +84,9 @@
 .ng-reader-hidden .ng-section-closed::after { content:"Show"; }
 /* U12 a (owner): the article's own ✕ on its top row puts the article away. */
 .ng-reader [data-reader-close] { margin:0 0 0 auto; }
-.ng-section-body { padding:0 var(--reader-unit) var(--reader-unit); }
+/* U100 a: a phase of Training has no head above it, so only a body under one starts flush. */
+.ng-section-body { padding:var(--reader-unit); }
+h2+.ng-section-body { padding-top:0; }
 /* U59 c (owner): a readable measure in every tile, centred inside the token padding like the tile's title:
    46ch of the body font is a 66-68 character median line on real pages (prose glyphs are narrower than
    the 0 the ch unit measures). The media slot is outside the article, so a video keeps the tile's width. */

@@ -170,9 +170,14 @@ jobs:
     # unverified projection would risk reddening the gate on every PR into main and dev.
     # 25 still reclaims 20 minutes per stuck shard and cannot break a working run.
     #
-    # TIGHTEN THIS to 15 once one post-fix sharded run is green — check the real per-shard
-    # durations first and set the ceiling from them, not from this comment.
-    timeout-minutes: 25
+    # v1.251.1: raised 25 -> 35. The suite outgrew 25: shards hit it three times, a cancelled
+    # job with nothing failed, and the last green run had one at 22m58s against 11m47s to
+    # 18m29s for the others (run 42266283562). Job totals carry the apt variance described at
+    # the gen job, so 25 left about 2 minutes of margin.
+    # The argument above still holds for the shape of this number: a timeout bounds a hang, so
+    # it sits above the slowest run actually observed. This limit is the shard job's alone:
+    # build took 6m05s and gen 5m47s on that run, so their 25 stays.
+    timeout-minutes: 35
     strategy:
       fail-fast: false
       matrix:
