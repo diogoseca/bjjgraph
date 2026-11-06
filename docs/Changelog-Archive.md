@@ -14177,6 +14177,18 @@ Bytes on the merged tree: deferred 506,815 of 506,817, eager +4,900 of 5,000, no
 Controls: `read-more-no-reflow` survived, because a later layout sorts the tiles anyway, and `line-dom-first-slide` survived because the
 slide's page puts both candidates on one block. Both are recorded in the spec's header, and each claim has a control that does bite.
 
+**Round 5, the independent review (2026-11-06).** Eight read-only reviewers, no blocker, `mangleProps` clean. Three leaks readers would have seen,
+all from this PR: the Beta pill's suffix selector lit How it works on all 83 Systems and Training on two positions; an unscoped rule dropped the
+words "Also known as" on 122 Transition and Submission pages; and `reader.src.js` held the first regex lookbehind in any neural bundle, in a
+literal, which would fail the whole module on Safari below 16.4 (the floor is from memory). The cut is now one forward regex, identical on all 266
+pages and smaller, which paid for the exact-id selectors with the redundant `.ng-section-card` prefix. `tests/neural_bundle_regex.test.mjs`
+pins it, and `tests/reader_mangle.test.mjs` now reads 22 names anywhere and `held` by receiver. Three of my own specs could not fail for the
+reason they claimed: the press test booted by URL, whose reading intent cannot decline, so `u99-wheel-declines` survived until it moved to a played
+landing at 640 tall; the wrapping-block journey hid the wrap behind the other column, so it runs at 720 too; and `reader-rounding-remainder-dropped`
+stays a recorded NON-KILL, because the line drifts -0.266px at 720 and -0.234px at 1440 with the remainder and without it: #340's held line now
+does that job. Measured and left alone: a wheel with the pointer over the article declines a live question, stopping the clock and pausing the game,
+while the answers stay pressable and still score. That is a free pause, not a loss, and U99 makes it easier to reach.
+
 ## v1.250.0 — The article on a position page, in the order a person needs it (owner, 2026-11-01)
 
 The owner, on Side Control Bottom: the Overview is "such a long text, and I don't know where to start"; "the choices row should
