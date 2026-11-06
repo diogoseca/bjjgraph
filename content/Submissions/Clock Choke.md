@@ -131,9 +131,6 @@ description: "Master the Clock Choke in BJJ. Gi-based blood choke from turtle us
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Clock Choke targets the Carotid arteries and jugular veins. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Clock Choke is a highly effective gi-based blood choke primarily executed from turtle position, though it can also be applied from back control variations. The technique derives its name from the circular walking motion the attacker makes around the opponent's head, resembling the movement of clock hands. This submission targets the carotid arteries using a combination of the opponent's own gi lapel and precise body positioning. The Clock Choke represents an excellent example of using the gi as a force multiplier, creating a mechanical advantage that doesn't require significant upper body strength. The technique is particularly valuable because it can be executed when traditional back takes are defended, offering an alternative finishing option from turtle and transition positions. Many practitioners overlook the Clock Choke in favor of taking the back, but experienced grapplers recognize it as a high-percentage finish that capitalizes on the opponent's defensive posture in turtle.

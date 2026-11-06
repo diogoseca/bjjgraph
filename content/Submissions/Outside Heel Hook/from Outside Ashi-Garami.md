@@ -92,9 +92,6 @@ description: "Master the outside heel hook from outside ashi-garami with complet
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Outside Heel Hook from Outside Ashi-Garami targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Outside Heel Hook/from Outside Ashi-Garami/Attacker|Play as Attacker]]
@@ -190,6 +187,8 @@ Unlike finishing from saddle or inside ashi where both legs are controlled, outs
 
 - Time the finish when opponent is defending positionally rather than actively scrambling to extract their leg
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

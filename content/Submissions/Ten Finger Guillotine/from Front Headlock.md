@@ -82,9 +82,6 @@ description: "Master the Ten Finger Guillotine from Front Headlock position. Com
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Ten Finger Guillotine from Front Headlock targets the Carotid arteries and trachea. Primary risk: Trachea damage from excessive crushing pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Ten Finger Guillotine/from Front Headlock/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ Strategically, this submission sits at the intersection of front headlock contro
 
 - Transition smoothly between ten finger grip and alternative guillotine variations when opponent's defense creates openings
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

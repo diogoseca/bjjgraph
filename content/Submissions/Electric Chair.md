@@ -131,9 +131,6 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
 <span class="meta-chip">~62% avg</span>
 </div>
 
-> [!danger] Safety
-> Electric Chair targets the Hip joint, adductors (groin), and inner thigh. Primary risk: Hip labral tear or hip joint capsule damage from forced hyperabduction. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Electric Chair is a signature submission technique from 10th Planet Jiu-Jitsu, primarily executed from the lockdown position in half guard. This compression-based submission works by forcing the opponent's trapped leg outward and away from their centerline, hyperabducting the hip and stretching the adductor (groin) muscles past their range. Unlike traditional joint locks that isolate a single articulation, the Electric Chair drives the hip joint and inner-thigh structures to their limit while loading the trapped knee with secondary rotational torque, making the hip and groin the primary danger zone.

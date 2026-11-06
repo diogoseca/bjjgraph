@@ -10,8 +10,6 @@ description: "Aoki Lock from Ashi Garami (defender): Treat an outward-turned foo
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Aoki Lock from Ashi Garami targets the Foot and ankle, with rotational stress transmitted to the knee. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -285,6 +283,8 @@ If the exchange remains seated after the rotated foot is released, keep an elbow
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Aoki Lock/from Ashi Garami#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

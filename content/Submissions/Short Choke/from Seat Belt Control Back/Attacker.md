@@ -10,8 +10,6 @@ description: "Learn to attack with the Short Choke from Seat Belt Control Back. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Short Choke from Seat Belt Control Back targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ The Short Choke from Seat Belt Control Back attacks the carotid arteries using t
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Short Choke/from Seat Belt Control Back#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

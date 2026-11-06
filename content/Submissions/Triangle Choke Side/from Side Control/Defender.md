@@ -10,8 +10,6 @@ description: "How to defend against Triangle Choke Side in BJJ. Recognition, esc
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke Side from Side Control targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -202,6 +200,8 @@ Successful defense combines proactive arm management with reactive escape mechan
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Triangle Choke Side/from Side Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "How to execute Kneebar from Half Guard in BJJ. Attacking perspecti
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Half Guard targets the Knee joint and posterior cruciate ligament. Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -295,6 +293,8 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kneebar/from Half Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

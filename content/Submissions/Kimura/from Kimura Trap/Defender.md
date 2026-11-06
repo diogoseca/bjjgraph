@@ -10,8 +10,6 @@ description: "Learn to defend and escape the Kimura from Kimura Trap. Recognitio
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Kimura Trap targets the Shoulder joint (glenohumeral) and elbow. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -239,6 +237,8 @@ Defending the Kimura from Kimura Trap requires early recognition that the attack
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kimura/from Kimura Trap#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

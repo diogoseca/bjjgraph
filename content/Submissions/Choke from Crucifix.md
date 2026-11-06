@@ -102,9 +102,6 @@ description: "Master the Choke from Crucifix in BJJ. Complete guide covering blo
 <span class="meta-chip">63% success</span>
 </div>
 
-> [!danger] Safety
-> Choke from Crucifix targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Choke from Crucifix/Attacker|Play as Attacker]]
@@ -208,6 +205,8 @@ This technique is commonly seen in high-level competition and represents excelle
 
 - Hide your choking arm by approaching from unexpected angles to prevent defensive turtling
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

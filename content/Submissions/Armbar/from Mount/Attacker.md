@@ -10,8 +10,6 @@ description: "How to execute Armbar from Mount in BJJ. Attacking perspective wit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Mount targets the Elbow joint. Risk: Elbow hyperextension. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -278,6 +276,8 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Armbar/from Mount#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

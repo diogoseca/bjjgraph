@@ -121,9 +121,6 @@ description: "Master the Kimura shoulder lock in BJJ. Complete guide covering gr
 <span class="meta-chip">~62% avg</span>
 </div>
 
-> [!danger] Safety
-> Kimura targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Gyaku Ude Garami</strong>, <strong>Double Wristlock</strong></p>
 <p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Americana|Americana]]</strong> — the Americana rotates the shoulder forward (opposite figure-four direction)</p>

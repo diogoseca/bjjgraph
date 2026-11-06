@@ -10,8 +10,6 @@ description: "How to defend against Loop Choke from Mount in BJJ. Recognition, e
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Loop Choke from Mount targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -239,6 +237,8 @@ Defending the Loop Choke from Mount requires immediate recognition and proactive
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Loop Choke/from Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "Defend and escape the belly down armbar from mounted crucifix. Rec
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from Mounted Crucifix targets the Elbow joint hyperextension and ulnar collateral ligament. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -190,6 +188,8 @@ Defending the belly down armbar from mounted crucifix requires recognizing the a
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Belly Down Armbar/from Mounted Crucifix#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

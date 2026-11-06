@@ -10,8 +10,6 @@ description: "Learn to attack with the Kimura from Modified Mount. Step-by-step 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Modified Mount targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking the Kimura from Modified Mount gives you a structural advantage that s
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kimura/from Modified Mount#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

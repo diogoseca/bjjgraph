@@ -92,9 +92,6 @@ description: "Master the Americana shoulder lock from High Mount. Finishing guid
 <span class="meta-chip">68% success</span>
 </div>
 
-> [!danger] Safety
-> Americana from High Mount targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Americana/from High Mount/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ Strategically, the Americana from high mount functions as both a primary finishe
 
 - Chain to armbar immediately when the opponent straightens the arm to defend—the Americana threat creates the armbar opening
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

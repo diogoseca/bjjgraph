@@ -10,8 +10,6 @@ description: "How to execute Far Side Armbar in BJJ. Attacking perspective with 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Far Side Armbar from Side Control targets the Elbow joint (hyperextension). Risk: Elbow hyperextension (ligament damage). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -270,6 +268,8 @@ This submission appears frequently in both gi and no-gi competition at all level
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Far Side Armbar/from Side Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

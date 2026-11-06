@@ -10,8 +10,6 @@ description: "Learn to execute the Mounted Crucifix Armbar as the attacker. Step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Mounted Crucifix Armbar from Mounted Crucifix targets the Shoulder and elbow joint. Risk: Elbow hyperextension with ligament tear (UCL/LCL damage). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Executing the Mounted Crucifix Armbar requires understanding how the crucifix's 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

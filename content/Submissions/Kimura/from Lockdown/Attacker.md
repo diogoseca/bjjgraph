@@ -10,8 +10,6 @@ description: "Learn to attack the Kimura from Lockdown half guard. Step-by-step 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Lockdown targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking the Kimura from Lockdown requires coordinating lower body lockdown con
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kimura/from Lockdown#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

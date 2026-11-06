@@ -82,9 +82,6 @@ description: "Master the Bicep Slicer in BJJ. Complete guide with safety protoco
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Bicep Slicer from Crucifix targets the Bicep muscle and elbow joint. Primary risk: Bicep muscle tear or severe contusion. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Bicep Slicer/from Crucifix/Attacker|Play as Attacker]]
@@ -168,6 +165,8 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 - Secure dominant position control before attempting the submission to prevent counters
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

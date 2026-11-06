@@ -82,9 +82,6 @@ description: "Master the arm-in guillotine from front headlock with expert grip 
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Arm in Guillotine from Front Headlock targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm in Guillotine/from Front Headlock/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ Strategically, the arm-in guillotine from front headlock serves as a powerful de
 
 - Apply progressive and controlled pressure using body mechanics rather than explosive arm squeezing to maintain position and allow safe training
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

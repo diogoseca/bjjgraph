@@ -10,8 +10,6 @@ description: "Learn to finish the outside heel hook from cross ashi-garami. Step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Outside Heel Hook from Cross Ashi-Garami targets the Knee joint, ankle joint, and surrounding ligaments. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -258,6 +256,8 @@ Attacking the outside heel hook from cross ashi-garami requires precise coordina
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Outside Heel Hook/from Cross Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

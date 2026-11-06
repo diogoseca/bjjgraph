@@ -10,8 +10,6 @@ description: "Defend the Kimura from Modified Mount effectively. Recognize grip 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Modified Mount targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Defending the Kimura from Modified Mount requires understanding that the opponen
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kimura/from Modified Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

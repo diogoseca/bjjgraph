@@ -10,8 +10,6 @@ description: "How to defend against Triangle from Spider Guard in BJJ. Recogniti
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke from Spider Guard targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -256,6 +254,8 @@ Defending the triangle from spider guard requires understanding both the spider 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Triangle Choke/from Spider Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "Learn to attack with the Williams Shoulder Lock from Williams Guar
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Williams Shoulder Lock from Williams Guard targets the Shoulder joint (glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -265,6 +263,8 @@ The Williams Shoulder Lock from Williams Guard attacks the glenohumeral joint th
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Williams Shoulder Lock/from Williams Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

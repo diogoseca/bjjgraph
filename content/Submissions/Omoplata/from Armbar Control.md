@@ -82,9 +82,6 @@ description: "Master the omoplata from armbar control in BJJ. Complete guide cov
 <span class="meta-chip">25% success</span>
 </div>
 
-> [!danger] Safety
-> Omoplata from Armbar Control targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/from Armbar Control/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ What makes this chain particularly dangerous in competition is the binary dilemm
 
 - Apply finishing pressure gradually and progressively, using body weight and forward lean rather than jerking or spiking the shoulder rotation
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

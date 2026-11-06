@@ -10,8 +10,6 @@ description: "Learn to execute the calf slicer from backside 50-50 with precise 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Backside 50-50 targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ Attacking the calf slicer from backside 50-50 requires threading your shin behin
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Calf Slicer/from Backside 50-50#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

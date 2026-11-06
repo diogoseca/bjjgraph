@@ -10,8 +10,6 @@ description: "Learn to attack with the neck crank from Twister Control. Step-by-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Neck Crank from Twister Control targets the Cervical spine and neck muscles. Risk: Cervical disc herniation or vertebral fracture from excessive rotational force. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ Attacking with the neck crank from Twister Control requires understanding that t
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Neck Crank/from Twister Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

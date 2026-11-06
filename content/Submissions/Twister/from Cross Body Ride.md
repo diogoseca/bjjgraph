@@ -82,9 +82,6 @@ description: "Master the Twister spinal lock from Cross Body Ride. Complete guid
 <span class="meta-chip">17% success</span>
 </div>
 
-> [!danger] Safety
-> Twister from Cross Body Ride targets the Cervical and thoracic spine, shoulder girdle. Primary risk: Cervical spine damage including herniated discs and ligament tears. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Twister/from Cross Body Ride/Attacker|Play as Attacker]]
@@ -172,6 +169,8 @@ This submission demands extreme caution due to the direct spinal torque it gener
 
 - Treat the Twister as one option within a broader attack system - take what the opponent's defense gives you
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

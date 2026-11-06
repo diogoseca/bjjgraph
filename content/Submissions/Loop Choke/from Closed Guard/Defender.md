@@ -10,8 +10,6 @@ description: "How to defend the Loop Choke from Closed Guard in BJJ. Recognition
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Loop Choke from Closed Guard targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -258,6 +256,8 @@ The key to survival lies in prevention during the grip-setting phase rather than
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Loop Choke/from Closed Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

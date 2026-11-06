@@ -82,9 +82,6 @@ description: "Master the Kimura from Crucifix in BJJ. Learn how bilateral arm is
 <span class="meta-chip">39% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Crucifix targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Crucifix/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ Strategically, the Kimura from Crucifix rewards patient practitioners who establ
 
 - Transition between choke threats and Kimura seamlessly—when the opponent defends the neck, the arm becomes exposed, creating a forced-choice dilemma
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

@@ -120,9 +120,6 @@ description: "Master the Belly Down Armbar in BJJ. Complete guide with safety pr
 <span class="meta-chip">~60% avg</span>
 </div>
 
-> [!danger] Safety
-> Belly Down Armbar targets the Elbow joint and shoulder girdle. Primary risk: Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 Across its position-specific entries, the belly down armbar is fundamentally opportunistic: it surfaces when the opponent is in turtle position or during scrambles as they expose an arm while defending other attacks. Unlike traditional armbars executed from guard or mount where you control the opponent's torso with your legs, the belly down variant requires you to secure the isolated arm while the opponent remains face-down on the mat. This submission is particularly effective when your opponent turtles to defend against back takes or other attacks, as their defensive posture often leaves their arms extended and vulnerable.

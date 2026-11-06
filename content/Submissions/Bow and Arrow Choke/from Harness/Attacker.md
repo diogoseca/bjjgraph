@@ -10,8 +10,6 @@ description: "Complete guide to executing the Bow and Arrow Choke from Harness. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Bow and Arrow Choke from Harness targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -283,6 +281,8 @@ Attacking with the Bow and Arrow Choke from Harness requires a seamless transiti
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Bow and Arrow Choke/from Harness#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

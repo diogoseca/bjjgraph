@@ -10,8 +10,6 @@ description: "Defend the North-South Choke from North-South position. Recognitio
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from North-South targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -257,6 +255,8 @@ Defending against the North-South Choke requires early recognition and immediate
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/North-South Choke/from North-South#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

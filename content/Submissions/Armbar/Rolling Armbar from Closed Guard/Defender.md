@@ -10,8 +10,6 @@ description: "How to defend against Rolling Armbar in BJJ. Recognition, escape p
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rolling Armbar from Closed Guard targets the Elbow joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -256,6 +254,8 @@ The defender must understand that the rolling armbar attack typically emerges fr
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Armbar/Rolling Armbar from Closed Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

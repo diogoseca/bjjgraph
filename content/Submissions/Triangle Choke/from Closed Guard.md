@@ -82,9 +82,6 @@ description: "Master triangle choke from closed guard in BJJ. Complete guide cov
 <span class="meta-chip">65% success</span>
 </div>
 
-> [!danger] Safety
-> Triangle Choke from Closed Guard targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Triangle Choke/from Closed Guard/Attacker|Play as Attacker]]
@@ -172,6 +169,8 @@ The technical execution of the triangle from closed guard requires precise angle
 
 - Continuous Control - Maintain constant control of opponent's head and posture throughout setup and finish; any moment where they can posture up is an opportunity for escape or counter
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

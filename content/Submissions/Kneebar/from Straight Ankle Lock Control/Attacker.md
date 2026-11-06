@@ -10,8 +10,6 @@ description: "Learn to execute the kneebar from straight ankle lock control. Ste
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Straight Ankle Lock Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking with the kneebar from straight ankle lock control requires reading def
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kneebar/from Straight Ankle Lock Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

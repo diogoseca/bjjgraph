@@ -102,9 +102,6 @@ description: "Master the calf slicer from backside 50-50 with expert finishing m
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer from Backside 50-50 targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Calf Slicer/from Backside 50-50/Attacker|Play as Attacker]]
@@ -206,6 +203,8 @@ This submission serves as a critical secondary threat within the backside 50-50 
 
 - Apply compression gradually in training, allowing time for your partner to tap before tissue damage occurs
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

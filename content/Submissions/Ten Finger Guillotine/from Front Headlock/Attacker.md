@@ -10,8 +10,6 @@ description: "How to finish the Ten Finger Guillotine from Front Headlock. Grip 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Ten Finger Guillotine from Front Headlock targets the Carotid arteries and trachea. Risk: Trachea damage from excessive crushing pressure. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking with the Ten Finger Guillotine from Front Headlock requires converting
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Ten Finger Guillotine/from Front Headlock#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

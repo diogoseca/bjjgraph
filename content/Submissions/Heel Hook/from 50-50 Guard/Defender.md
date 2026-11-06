@@ -10,8 +10,6 @@ description: "Defend against the heel hook from 50-50 Guard. Recognition cues, h
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from 50-50 Guard targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -256,6 +254,8 @@ Defending the heel hook from 50-50 Guard requires immediate recognition and prio
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Heel Hook/from 50-50 Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

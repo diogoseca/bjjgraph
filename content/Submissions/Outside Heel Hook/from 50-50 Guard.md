@@ -61,9 +61,6 @@ description: "Master the outside heel hook from 50-50 guard. Learn grip mechanic
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Outside Heel Hook from 50-50 Guard targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Outside Heel Hook/from 50-50 Guard/Attacker|Play as Attacker]]
@@ -131,6 +128,8 @@ This submission carries extreme injury risk due to the nature of rotational heel
 
 - Maintain positional base throughout the attack: keep your upper body connected and hips heavy to prevent the opponent from sitting up or creating distance during the finishing sequence
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

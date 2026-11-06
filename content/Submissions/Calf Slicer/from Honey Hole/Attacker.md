@@ -10,8 +10,6 @@ description: "Learn to attack with the calf slicer from Honey Hole. Step-by-step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Honey Hole targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -294,6 +292,8 @@ Attacking with the calf slicer from Honey Hole requires recognizing when heel ho
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Calf Slicer/from Honey Hole#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

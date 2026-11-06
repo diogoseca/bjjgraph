@@ -10,8 +10,6 @@ description: "Learn to attack the omoplata from Rubber Guard positions. Step-by-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Rubber Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking the omoplata from Rubber Guard demands systematic progression through 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Omoplata/from Rubber Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

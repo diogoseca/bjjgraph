@@ -10,8 +10,6 @@ description: "How to defend against the kneebar from Backside 50-50 in BJJ. Reco
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Backside 50-50 targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -234,6 +232,8 @@ Safety awareness is paramount when defending kneebars. The knee joint has minima
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kneebar/from Backside 50-50#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

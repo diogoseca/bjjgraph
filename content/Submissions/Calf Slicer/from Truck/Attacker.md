@@ -10,8 +10,6 @@ description: "How to execute Calf Slicer from Truck in BJJ. Attacking perspectiv
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Truck targets the Calf muscle and knee joint. Risk: Calf muscle tear or rupture (gastrocnemius/soleus). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -267,6 +265,8 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Calf Slicer/from Truck#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

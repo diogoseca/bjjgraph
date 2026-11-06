@@ -92,9 +92,6 @@ description: "Master the Gogoplata shin choke in BJJ. Complete guide with safety
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Gogoplata from Gogoplata Control targets the Trachea and carotid arteries. Primary risk: Tracheal damage or crushing. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Gogoplata/from Gogoplata Control/Attacker|Play as Attacker]]
@@ -190,6 +187,8 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 - Gradual pressure application allows for safe training and partner awareness of danger
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

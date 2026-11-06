@@ -10,8 +10,6 @@ description: "Execute the Armbar from Technical Mount with precision. Step-by-st
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Technical Mount targets the Elbow joint (hyperextension) and shoulder girdle. Risk: Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and radial collateral ligament. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -301,6 +299,8 @@ Attacking the Armbar from Technical Mount is among the most mechanically efficie
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Armbar/from Technical Mount#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

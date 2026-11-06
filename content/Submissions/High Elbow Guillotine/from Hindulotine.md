@@ -105,9 +105,6 @@ description: "The high-elbow guillotine raises the supporting elbow over the sho
 <span class="meta-chip">30% success</span>
 </div>
 
-> [!danger] Safety
-> High Elbow Guillotine from Hindulotine targets the Neck. Primary risk: Neck injury from forced extension or twisting. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/High Elbow Guillotine/from Hindulotine/Attacker|Play as Attacker]]
@@ -211,6 +208,8 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 
 - Release the grip: Open the hands and remove all neck pressure on the first stop signal.
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

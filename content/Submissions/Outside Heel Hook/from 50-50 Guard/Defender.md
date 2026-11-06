@@ -10,8 +10,6 @@ description: "Defend the outside heel hook from 50-50 guard. Recognition cues, h
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Outside Heel Hook from 50-50 Guard targets the Knee joint, ankle joint, and surrounding ligaments. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -199,6 +197,8 @@ Defending the outside heel hook from 50-50 guard demands immediate heel protecti
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Outside Heel Hook/from 50-50 Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

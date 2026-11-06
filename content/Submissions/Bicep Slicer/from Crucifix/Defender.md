@@ -10,8 +10,6 @@ description: "How to defend against Bicep Slicer in BJJ. Recognition, escape pat
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Bicep Slicer from Crucifix targets the Bicep muscle and elbow joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -199,6 +197,8 @@ Defending the Bicep Slicer requires early recognition and decisive action, as th
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Bicep Slicer/from Crucifix#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

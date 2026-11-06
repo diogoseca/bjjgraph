@@ -131,9 +131,6 @@ description: "The Aoki Lock is a rotational foot lock that captures a turned-out
 <span class="meta-chip">~40% avg</span>
 </div>
 
-> [!danger] Safety
-> Aoki Lock targets the Foot and ankle, with rotational stress transmitted to the knee. Primary risk: Ankle ligament or joint injury from rotational loading. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The attacker is seated or on a hip facing the opponent's leg, with the opposing foot turned outward beside the armpit and the hip connection controlled. The foot enclosure creates rotation rather than a bent-knee calf compression. A foot offered on the hip during an ashi exchange can supply the capture, but the position name alone does not establish it.

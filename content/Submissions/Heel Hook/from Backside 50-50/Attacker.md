@@ -10,8 +10,6 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from Backside 50-50 targets the Knee (MCL, LCL, ACL, meniscus). Risk: MCL tear from medial rotational force transmitted through the heel to the knee joint. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking the heel hook from Backside 50-50 bottom demands a fundamentally diffe
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Heel Hook/from Backside 50-50#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

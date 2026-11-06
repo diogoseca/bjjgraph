@@ -10,8 +10,6 @@ description: "Learn to attack the Kimura from Knee on Belly. Step-by-step guide 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Knee on Belly targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -294,6 +292,8 @@ Attacking the Kimura from Knee on Belly requires understanding how to weaponize 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kimura/from Knee on Belly#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -10,8 +10,6 @@ description: "Defend and escape the Kesa Gatame Arm Crush. Recognition cues, def
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kesa Gatame Arm Crush from Kesa Gatame targets the Elbow/Forearm. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -198,6 +196,8 @@ Defending the Kesa Gatame Arm Crush requires early recognition and immediate act
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

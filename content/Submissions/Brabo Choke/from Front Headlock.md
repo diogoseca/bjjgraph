@@ -112,9 +112,6 @@ description: "Master the Brabo Choke in BJJ. Complete guide with safety protocol
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Brabo Choke from Front Headlock targets the Carotid arteries and trachea. Primary risk: Carotid artery compression causing loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Brabo Choke/from Front Headlock/Attacker|Play as Attacker]]
@@ -222,6 +219,8 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 - Proper angle adjustment ensures blood choke rather than painful air choke
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

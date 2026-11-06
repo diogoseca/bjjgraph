@@ -82,9 +82,6 @@ description: "Master the Arm Triangle from Kesa Gatame with step-by-step grip tr
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Arm Triangle from Kesa Gatame targets the Carotid arteries (compressed by opponent's own shoulder and your forearm). Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm Triangle/from Kesa Gatame/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ What makes the Kesa Gatame entry particularly dangerous is the head and arm cont
 
 - Keep your head low and glued to the mat on the far side of opponent's head to seal the choke and prevent frame escapes
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

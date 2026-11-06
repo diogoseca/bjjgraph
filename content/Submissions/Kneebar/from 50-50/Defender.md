@@ -10,8 +10,6 @@ description: "How to defend against Kneebar from 50-50 in BJJ. Recognition, esca
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from 50-50 targets the Knee joint (hyperextension of knee ligaments). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -259,6 +257,8 @@ Successful defense depends on early recognition and proactive response. Once the
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kneebar/from 50-50#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "Complete attacking guide for the North-South Choke from Side Contr
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from Side Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -263,6 +261,8 @@ Attacking with the North-South Choke from Side Control requires mastering a seam
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/North-South Choke/from Side Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

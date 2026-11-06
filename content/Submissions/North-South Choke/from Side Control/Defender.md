@@ -10,8 +10,6 @@ description: "Complete defensive guide against the North-South Choke from Side C
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from Side Control targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -230,6 +228,8 @@ Defending against the North-South Choke from Side Control requires early recogni
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/North-South Choke/from Side Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

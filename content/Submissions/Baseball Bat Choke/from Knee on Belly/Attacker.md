@@ -10,8 +10,6 @@ description: "Complete attacking guide for the Baseball Bat Choke from Knee on B
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Baseball Bat Choke from Knee on Belly targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -265,6 +263,8 @@ Attacking with the Baseball Bat Choke from Knee on Belly exploits the unique pre
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Baseball Bat Choke/from Knee on Belly#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

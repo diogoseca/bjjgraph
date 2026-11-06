@@ -82,9 +82,6 @@ description: "Master the cross collar choke from body triangle in BJJ. Learn gri
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Cross Collar Choke from Body Triangle targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Cross Collar Choke/from Body Triangle/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ This submission is particularly effective as a complement to the rear naked chok
 
 - Maintain the body triangle squeeze throughout the choking sequence to compound breathing restriction with blood choke pressure
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

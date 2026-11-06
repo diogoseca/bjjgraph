@@ -82,9 +82,6 @@ description: "Master the outside heel hook from saddle position with proper grip
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Outside Heel Hook from Saddle targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Outside Heel Hook/from Saddle/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ The combination of inside and outside heel hook threats from the Saddle creates 
 
 - Apply rotational force progressively and slowly in training, allowing your partner time to tap before ligament damage occurs
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

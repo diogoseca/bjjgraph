@@ -82,9 +82,6 @@ description: "Master the Calf Slicer from Truck in BJJ. Complete guide with safe
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer from Truck targets the Calf muscle and knee joint. Primary risk: Calf muscle tear or rupture (gastrocnemius/soleus). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Calf Slicer/from Truck/Attacker|Play as Attacker]]
@@ -168,6 +165,8 @@ Emerging from the 10th Planet system's leg-attack arsenal, the Calf Slicer from 
 
 - **Center of Gravity** - Keep your body weight distributed to maintain truck control while applying the calf compression
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

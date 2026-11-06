@@ -10,8 +10,6 @@ description: "Aoki Lock from Aoki Lock Control (defender): Treat an outward-turn
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Aoki Lock from Aoki Lock Control targets the Foot and ankle, with rotational stress transmitted to the knee. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -272,6 +270,8 @@ Begin an escape while the hand enclosure and hip connection are still loose. Rel
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Aoki Lock/from Aoki Lock Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "Learn to finish the Calf Slicer from Rodeo Ride. Step-by-step exec
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Rodeo Ride targets the Calf muscle and knee joint. Risk: Knee ligament damage (MCL/LCL tears) from hyperextension force applied through the compression lock. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Executing the Calf Slicer from Rodeo Ride requires precise leg threading from th
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Calf Slicer/from Rodeo Ride#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

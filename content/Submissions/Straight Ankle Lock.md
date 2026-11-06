@@ -120,9 +120,6 @@ description: "Master the Straight Ankle Lock in BJJ. Complete guide with safety 
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Straight Ankle Lock targets the Ankle joint, Achilles tendon, and foot ligaments. Primary risk: Ankle sprain or ligament damage. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Achilles Lock|Achilles Lock]]</strong> — the Achilles Lock compresses the Achilles tendon rather than hyperextending the ankle joint</p>
 </aside>

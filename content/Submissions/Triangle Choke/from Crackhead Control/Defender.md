@@ -10,8 +10,6 @@ description: "Recognize Triangle Choke from Crackhead Control and interrupt its 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke from Crackhead Control targets the Neck. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -215,6 +213,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Triangle Choke/from Crackhead Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

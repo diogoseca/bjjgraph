@@ -10,8 +10,6 @@ description: "How to execute Reverse Kimura in BJJ. Attacking perspective with s
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Reverse Kimura from Standing Position targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -261,6 +259,8 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Reverse Kimura/from Standing Position#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

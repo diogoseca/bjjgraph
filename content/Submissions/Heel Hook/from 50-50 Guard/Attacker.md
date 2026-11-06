@@ -10,8 +10,6 @@ description: "Learn to attack the heel hook from 50-50 Guard. Step-by-step execu
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from 50-50 Guard targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking the heel hook from 50-50 Guard requires winning the inside position ba
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Heel Hook/from 50-50 Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

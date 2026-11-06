@@ -105,9 +105,6 @@ description: "Aoki Lock from Ashi Garami captures a foot turned outward beside t
 <span class="meta-chip">30% success</span>
 </div>
 
-> [!danger] Safety
-> Aoki Lock from Ashi Garami targets the Foot and ankle, with rotational stress transmitted to the knee. Primary risk: Ankle ligament or joint injury from rotational loading. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Aoki Lock/from Ashi Garami/Attacker|Play as Attacker]]
@@ -211,6 +208,8 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 - Release before movement: Open the arms and leg connection on a tap, sudden turn, or loss of communication.
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

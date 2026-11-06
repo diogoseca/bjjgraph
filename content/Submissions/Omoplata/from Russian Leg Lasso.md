@@ -112,9 +112,6 @@ description: "Master the omoplata from Russian Leg Lasso. Complete guide coverin
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Omoplata from Russian Leg Lasso targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/from Russian Leg Lasso/Attacker|Play as Attacker]]
@@ -224,6 +221,8 @@ Elite practitioners chain this omoplata threat with triangle and sweep entries f
 
 - Chain omoplata threat with triangle and sweep entries to create an offensive dilemma from the lasso configuration
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

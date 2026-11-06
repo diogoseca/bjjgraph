@@ -92,9 +92,6 @@ description: "Master the Neck Crank from Mounted Crucifix in BJJ. Learn the cerv
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Neck Crank from Mounted Crucifix targets the Cervical spine and neck muscles. Primary risk: Cervical disc herniation or vertebral fracture from excessive rotational force. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Neck Crank/from Mounted Crucifix/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ Strategically, the neck crank serves dual purpose from this position. As a prima
 
 - Keep hips heavy and forward throughout the finish to prevent bridging escapes during application
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

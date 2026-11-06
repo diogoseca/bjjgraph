@@ -10,8 +10,6 @@ description: "Master the Darce choke attack from leg drag control. Step-by-step 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Darce Choke from Leg Drag targets the Neck (Carotid Arteries). Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -318,6 +316,8 @@ Attacking the Darce choke from leg drag control requires precise timing and unde
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Darce Choke/from Leg Drag#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

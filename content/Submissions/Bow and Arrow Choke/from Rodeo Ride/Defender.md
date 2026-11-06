@@ -10,8 +10,6 @@ description: "Defend against the Bow and Arrow Choke from Rodeo Ride. Recognitio
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Bow and Arrow Choke from Rodeo Ride targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -255,6 +253,8 @@ Defending the Bow and Arrow Choke from Rodeo Ride demands early recognition of t
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Bow and Arrow Choke/from Rodeo Ride#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

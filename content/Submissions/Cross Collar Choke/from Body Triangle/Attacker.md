@@ -10,8 +10,6 @@ description: "Learn to execute the cross collar choke from body triangle. Step-b
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Cross Collar Choke from Body Triangle targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -258,6 +256,8 @@ Attacking the cross collar choke from body triangle gives you an exceptionally s
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Cross Collar Choke/from Body Triangle#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -10,8 +10,6 @@ description: "Defend and escape the belly down armbar finish from Spider Guard. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from Spider Guard targets the Elbow joint hyperextension and ulnar collateral ligament. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -241,6 +239,8 @@ Defending the belly down armbar finish from Spider Guard requires recognizing th
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Belly Down Armbar/from Spider Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

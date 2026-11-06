@@ -102,9 +102,6 @@ description: "Master the Loop Choke from Closed Guard in BJJ. Step-by-step guide
 <span class="meta-chip">55% success</span>
 </div>
 
-> [!danger] Safety
-> Loop Choke from Closed Guard targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Loop Choke/from Closed Guard/Attacker|Play as Attacker]]
@@ -206,6 +203,8 @@ From a strategic standpoint, the Loop Choke pairs naturally with other closed gu
 
 - Use the self-tightening nature of the loop to your advantage - opponent resistance increases choking pressure
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

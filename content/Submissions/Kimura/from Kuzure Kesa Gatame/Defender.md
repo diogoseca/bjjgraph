@@ -10,8 +10,6 @@ description: "Defend and escape the Kimura from Kuzure Kesa Gatame. Recognition 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Kuzure Kesa Gatame targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -184,6 +182,8 @@ Defending the Kimura from Kuzure Kesa Gatame requires early recognition and imme
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kimura/from Kuzure Kesa Gatame#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

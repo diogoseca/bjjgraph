@@ -10,8 +10,6 @@ description: "How to execute the Loop Choke from Turtle in BJJ. Attacking perspe
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Loop Choke from Turtle targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from bilateral carotid artery compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -284,6 +282,8 @@ The loop choke from turtle leverages the attacker's positional advantage over a 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Loop Choke/from Turtle#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

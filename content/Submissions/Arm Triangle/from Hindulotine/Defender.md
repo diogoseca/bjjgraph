@@ -10,8 +10,6 @@ description: "Arm Triangle from Hindulotine (defender): Recover the arm before i
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Triangle from Hindulotine targets the Sides of the neck. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -283,6 +281,8 @@ Protect the neck by keeping an early frame between the trapped shoulder and the 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Arm Triangle/from Hindulotine#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -92,9 +92,6 @@ description: "Master the Arm Crush submission in BJJ. Learn shoulder lock mechan
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Arm Crush from Side Control targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm Crush/from Side Control/Attacker|Play as Attacker]]
@@ -186,6 +183,8 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 - Proper shoulder alignment maximizes pressure while minimizing injury risk
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

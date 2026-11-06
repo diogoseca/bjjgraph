@@ -10,8 +10,6 @@ description: "How to execute the kneebar from Backside 50-50 in BJJ. Setup, exec
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Backside 50-50 targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear or rupture. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -227,6 +225,8 @@ The kneebar from Backside 50-50 represents a high-percentage secondary attack fr
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kneebar/from Backside 50-50#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

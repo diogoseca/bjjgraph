@@ -10,8 +10,6 @@ description: "Master the offensive Standing RNC from Rear Clinch. Learn seatbelt
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Standing Rear Clinch targets the Neck (Carotid Arteries). Risk: Carotid artery dissection from excessive or jerking pressure on the neck vasculature. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Executing the Standing RNC from Rear Clinch requires seamless transition from se
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Rear Naked Choke/from Standing Rear Clinch#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

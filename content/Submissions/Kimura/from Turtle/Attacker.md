@@ -10,8 +10,6 @@ description: "How to execute Kimura from Turtle in BJJ. Attacking perspective wi
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Turtle targets the Shoulder joint, rotator cuff, and associated ligaments. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -303,6 +301,8 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kimura/from Turtle#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

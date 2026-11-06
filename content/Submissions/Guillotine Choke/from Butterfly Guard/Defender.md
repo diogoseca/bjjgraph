@@ -10,8 +10,6 @@ description: "Defend the Guillotine Choke from Butterfly Guard. Recognition cues
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Guillotine Choke from Butterfly Guard targets the Carotid arteries and windpipe. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -273,6 +271,8 @@ Defending the Guillotine Choke from Butterfly Guard requires early recognition o
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Guillotine Choke/from Butterfly Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

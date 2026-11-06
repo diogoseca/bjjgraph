@@ -10,8 +10,6 @@ description: "How to execute Kimura from Mount in BJJ. Attacking perspective wit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Mount targets the Shoulder joint (glenohumeral joint, rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -279,6 +277,8 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kimura/from Mount#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

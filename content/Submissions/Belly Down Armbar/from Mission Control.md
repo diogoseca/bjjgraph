@@ -82,9 +82,6 @@ description: "Learn the belly down armbar finish from Mission Control in BJJ. Ma
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Belly Down Armbar from Mission Control targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Belly Down Armbar/from Mission Control/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ From a strategic standpoint, this submission creates a powerful dilemma within t
 
 - The belly down finish uses bodyweight and hip extension, not arm pulling - let gravity and structure do the work rather than muscular effort
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

@@ -120,9 +120,6 @@ description: "Master the Williams Shoulder Lock in BJJ. Complete guide covering 
 <span class="meta-chip">~52% avg</span>
 </div>
 
-> [!danger] Safety
-> Williams Shoulder Lock targets the Shoulder joint (glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Williams Shoulder Lock is an advanced shoulder submission primarily executed from the Williams Guard position, utilizing an overhook control to isolate and attack the shoulder joint. This technique targets the glenohumeral joint and rotator cuff through a combination of lateral pressure and rotation, creating significant torque on the shoulder capsule. Named after its innovator, the Williams Shoulder Lock represents a sophisticated application of leverage principles where the attacker uses their entire body to control the opponent's arm while applying controlled rotational force. The submission is particularly effective against opponents who defend traditional armlocks by keeping their elbows tight, as it attacks a different plane of movement. The technique requires precise positioning and exceptional body awareness, making it a favorite among advanced practitioners who appreciate technical submissions over brute force applications. Due to the complexity of shoulder anatomy and the potential for serious injury, this submission demands careful study and controlled practice progression.

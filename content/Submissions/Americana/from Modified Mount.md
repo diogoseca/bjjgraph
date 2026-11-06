@@ -92,9 +92,6 @@ description: "Master the Americana shoulder lock from Modified Mount. Learn grip
 <span class="meta-chip">55% success</span>
 </div>
 
-> [!danger] Safety
-> Americana from Modified Mount targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Americana/from Modified Mount/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ Competition data consistently shows the Americana from Modified Mount as a high-
 
 - Progressive pressure application over 3-5 seconds prevents injury and allows controlled finishing
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

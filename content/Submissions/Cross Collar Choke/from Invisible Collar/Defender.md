@@ -10,8 +10,6 @@ description: "Cross Collar Choke from Invisible Collar (defender): Fight collar 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Cross Collar Choke from Invisible Collar targets the Sides of the neck via crossed forearms and collar tension. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Protect the neck by addressing the first deep grip and keeping an inside frame b
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Cross Collar Choke/from Invisible Collar#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

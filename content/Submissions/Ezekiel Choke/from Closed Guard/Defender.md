@@ -10,8 +10,6 @@ description: "Defend the Ezekiel Choke from closed guard bottom. Recognize sleev
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Ezekiel Choke from Closed Guard targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -250,6 +248,8 @@ Defending the Ezekiel Choke from closed guard bottom requires early recognition 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Ezekiel Choke/from Closed Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

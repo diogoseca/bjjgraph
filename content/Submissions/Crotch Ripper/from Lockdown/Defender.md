@@ -10,8 +10,6 @@ description: "How to defend against Crotch Ripper in BJJ. Recognition, escape pa
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Crotch Ripper from Lockdown targets the Hip flexors, groin muscles, and inner thigh adductors. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -197,6 +195,8 @@ Defending the Crotch Ripper requires understanding that this compression submiss
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Crotch Ripper/from Lockdown#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

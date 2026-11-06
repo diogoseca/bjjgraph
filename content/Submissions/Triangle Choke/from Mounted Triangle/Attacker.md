@@ -10,8 +10,6 @@ description: "Learn to finish the triangle choke from mounted triangle. Step-by-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke from Mounted Triangle targets the Carotid arteries and brachial plexus. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Finishing the triangle choke from mounted triangle demands precise angle control
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Triangle Choke/from Mounted Triangle#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

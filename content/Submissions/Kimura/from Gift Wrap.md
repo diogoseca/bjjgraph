@@ -82,9 +82,6 @@ description: "Master the Kimura from Gift Wrap in BJJ. Complete guide to transit
 <span class="meta-chip">37% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Gift Wrap targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Gift Wrap/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ Strategically, this submission fits within a larger Gift Wrap attack system wher
 
 - Use the Kimura threat to chain into other attacks when the opponent defends
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

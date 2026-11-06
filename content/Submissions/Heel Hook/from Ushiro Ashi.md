@@ -82,9 +82,6 @@ description: "Master the Heel Hook from Ushiro Ashi-Garami. Complete guide cover
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Heel Hook from Ushiro Ashi targets the Knee ligaments (MCL, LCL, meniscus) via rotational force through heel. Primary risk: MCL/LCL tear from rotational force exceeding ligament tolerance. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Heel Hook/from Ushiro Ashi/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 
 - Prioritize position retention over premature finishing attempts when the opponent's defensive grips are strong and established
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

@@ -10,8 +10,6 @@ description: "A triangle from Crackhead Control requires changing the two-leg hi
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke from Crackhead Control targets the Neck. Risk: Neck injury from excessive pressure. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -263,6 +261,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Triangle Choke/from Crackhead Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

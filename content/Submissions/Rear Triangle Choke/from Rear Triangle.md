@@ -102,9 +102,6 @@ description: "Master the rear triangle choke finish from rear triangle position.
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Triangle Choke from Rear Triangle targets the Neck. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Triangle Choke/from Rear Triangle/Attacker|Play as Attacker]]
@@ -206,6 +203,8 @@ Strategically, this finish sits at the apex of a submission chain from rear tria
 
 - Maintain chest-to-back connection to prevent opponent rotation during the finishing sequence
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

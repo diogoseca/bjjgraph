@@ -92,9 +92,6 @@ description: "Master the toe hold finish from Toe Hold Control. Complete guide t
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Toe Hold Control targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Toe Hold Control/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ Within the modern leg lock hierarchy, the toe hold from Toe Hold Control functio
 
 - Monitor the opponent's free leg constantly to defend against frames, counter-entanglement attempts, and pushes that create escape space
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

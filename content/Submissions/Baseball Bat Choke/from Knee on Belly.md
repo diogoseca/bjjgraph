@@ -82,9 +82,6 @@ description: "Master the Baseball Bat Choke from Knee on Belly in BJJ. Learn gi 
 <span class="meta-chip">10% success</span>
 </div>
 
-> [!danger] Safety
-> Baseball Bat Choke from Knee on Belly targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Baseball Bat Choke/from Knee on Belly/Attacker|Play as Attacker]]
@@ -172,6 +169,8 @@ The finishing mechanic involves a controlled spin away from the opponent after s
 
 - Drop chest to mat on the far side after spinning to create maximum torsional pressure on the collar
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

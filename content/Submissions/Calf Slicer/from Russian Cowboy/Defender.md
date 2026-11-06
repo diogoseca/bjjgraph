@@ -10,8 +10,6 @@ description: "Defend against the calf slicer from Russian Cowboy in BJJ. Recogni
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Russian Cowboy targets the Calf muscle and Achilles tendon. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -193,6 +191,8 @@ The critical defensive window is narrow — once the attacker has their shin ful
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Calf Slicer/from Russian Cowboy#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

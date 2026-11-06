@@ -102,9 +102,6 @@ description: "Master the toe hold from Ashi Garami leg entanglement. Complete gu
 <span class="meta-chip">25% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Ashi Garami targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Ashi Garami/Attacker|Play as Attacker]]
@@ -206,6 +203,8 @@ Competition-level application demands patience and precise timing. The toe hold 
 
 - Combine knee line pinching pressure with foot rotation to create the maximum mechanical advantage on the ankle joint
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

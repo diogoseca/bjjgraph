@@ -10,8 +10,6 @@ description: "Learn to execute the Triangle Choke from Open Guard. Step-by-step 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke from Open Guard targets the Neck. Risk: Carotid artery compression causing loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -281,6 +279,8 @@ The Triangle from Open Guard Attacker position focuses on systematically isolati
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Triangle Choke/from Open Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

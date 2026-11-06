@@ -92,9 +92,6 @@ description: "Master the Kimura shoulder lock from Kesa Gatame. Complete guide c
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Kesa Gatame targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Kesa Gatame/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ From a strategic standpoint, the Kimura from Kesa Gatame creates a powerful subm
 
 - Create a submission chain by threatening Americana and armbar when the Kimura is defended, keeping constant offensive pressure
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

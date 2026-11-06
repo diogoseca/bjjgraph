@@ -82,9 +82,6 @@ description: "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from fai
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Rolling Omoplata from Omoplata Control targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 - Exit awareness - always have a plan to transition if the submission fails
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

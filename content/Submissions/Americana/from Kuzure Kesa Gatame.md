@@ -92,9 +92,6 @@ description: "Master the Americana shoulder lock from Kuzure Kesa Gatame. Comple
 <span class="meta-chip">68% success</span>
 </div>
 
-> [!danger] Safety
-> Americana from Kuzure Kesa Gatame targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Americana/from Kuzure Kesa Gatame/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ Strategically, the Americana from Kuzure Kesa Gatame anchors a submission chain 
 
 - Monitor for the kimura and armbar transitions when the americana is defended - the three submissions form a closed chain
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

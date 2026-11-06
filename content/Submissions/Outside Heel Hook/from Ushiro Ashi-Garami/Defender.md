@@ -10,8 +10,6 @@ description: "Defend the outside heel hook from ushiro ashi-garami. Recognition 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Outside Heel Hook from Ushiro Ashi-Garami targets the Knee joint, ankle joint, and surrounding ligaments. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -232,6 +230,8 @@ Defending the outside heel hook from ushiro ashi-garami requires early recogniti
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Outside Heel Hook/from Ushiro Ashi-Garami#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

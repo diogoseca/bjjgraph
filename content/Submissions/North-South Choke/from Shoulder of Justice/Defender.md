@@ -10,8 +10,6 @@ description: "Defend against the North-South Choke from Shoulder of Justice. Rec
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from Shoulder of Justice targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -238,6 +236,8 @@ Defending the North-South Choke from Shoulder of Justice requires recognizing th
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/North-South Choke/from Shoulder of Justice#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

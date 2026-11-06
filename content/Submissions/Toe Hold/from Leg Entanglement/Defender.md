@@ -10,8 +10,6 @@ description: "Defend against the toe hold from leg entanglement in BJJ. Recognit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Leg Entanglement targets the Ankle, toes, and foot ligaments. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -232,6 +230,8 @@ Defending the toe hold from leg entanglement begins with early recognition of th
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Toe Hold/from Leg Entanglement#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "Defend against the Kimura from Gift Wrap in BJJ. Learn recognition
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Gift Wrap targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -237,6 +235,8 @@ Defending the Kimura from Gift Wrap requires recognizing the submission threat w
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kimura/from Gift Wrap#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

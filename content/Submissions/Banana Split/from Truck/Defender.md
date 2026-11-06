@@ -10,8 +10,6 @@ description: "How to defend against the Banana Split from the truck in BJJ. Reco
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Banana Split from Truck targets the Hip adductors, groin, and lower back. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -251,6 +249,8 @@ Defending the Banana Split from the truck requires early recognition and immedia
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Banana Split/from Truck#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

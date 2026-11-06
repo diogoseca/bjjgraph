@@ -10,8 +10,6 @@ description: "Attack with the Kimura from flattened half guard top. Step-by-step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Flattened Half Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ Attacking with the Kimura from flattened half guard top capitalizes on the signi
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kimura/from Flattened Half Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

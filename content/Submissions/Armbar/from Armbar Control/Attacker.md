@@ -10,8 +10,6 @@ description: "How to execute the Armbar Finish in BJJ. Attacking perspective wit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Armbar Control targets the Elbow. Risk: Elbow hyperextension with collateral ligament sprain or tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -288,6 +286,8 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Armbar/from Armbar Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

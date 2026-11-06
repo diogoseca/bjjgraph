@@ -82,9 +82,6 @@ description: "Master the guillotine choke finish from guillotine control. Comple
 <span class="meta-chip">35% success</span>
 </div>
 
-> [!danger] Safety
-> Guillotine Choke from Guillotine Control targets the Carotid arteries and windpipe. Primary risk: Trachea damage or crush injury. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Guillotine Choke/from Guillotine Control/Attacker|Play as Attacker]]
@@ -172,6 +169,8 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 
 - Maintain readiness to convert failed finish attempts into positional advancement when choke defense opens other opportunities
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

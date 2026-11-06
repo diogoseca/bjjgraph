@@ -10,8 +10,6 @@ description: "Defend the Darce Choke from Overhook Control with recognition cues
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Darce Choke from Overhook Control targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -256,6 +254,8 @@ Defending the Darce Choke from Overhook Control demands early recognition of the
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Darce Choke/from Overhook Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

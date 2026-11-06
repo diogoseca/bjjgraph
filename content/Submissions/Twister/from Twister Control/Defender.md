@@ -10,8 +10,6 @@ description: "Defend against the Twister from Twister Control with recognition c
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Twister from Twister Control targets the Cervical and thoracic spine, shoulder girdle. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -239,6 +237,8 @@ Defending against the Twister from Twister Control demands early recognition and
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Twister/from Twister Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

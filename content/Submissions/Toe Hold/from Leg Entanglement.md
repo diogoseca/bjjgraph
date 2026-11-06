@@ -102,9 +102,6 @@ description: "Master the toe hold from leg entanglement positions in BJJ. Expert
 <span class="meta-chip">29% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Leg Entanglement targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Leg Entanglement/Attacker|Play as Attacker]]
@@ -204,6 +201,8 @@ What makes the toe hold particularly effective from leg entanglement is the inhe
 
 - Maintain the leg entanglement structure throughout the entire finishing sequence to prevent escape during grip transitions
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

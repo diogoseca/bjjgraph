@@ -10,8 +10,6 @@ description: "Defend and escape the bow and arrow choke from body triangle. Reco
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Bow and Arrow Choke from Body Triangle targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -257,6 +255,8 @@ Defending the Bow and Arrow Choke from Body Triangle is among the most challengi
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Bow and Arrow Choke/from Body Triangle#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

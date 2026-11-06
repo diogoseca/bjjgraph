@@ -10,8 +10,6 @@ description: "Defend and escape the Triangle Choke from Open Guard. Recognition 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke from Open Guard targets the Neck. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -272,6 +270,8 @@ Defending the Triangle from Open Guard requires early recognition of the setup c
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Triangle Choke/from Open Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

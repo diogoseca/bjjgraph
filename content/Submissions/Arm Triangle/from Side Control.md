@@ -82,9 +82,6 @@ description: "Master the Arm Triangle from Side Control in BJJ. Complete finishi
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Arm Triangle from Side Control targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm Triangle/from Side Control/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ At the highest levels of competition, the arm triangle from side control remains
 
 - Maintain constant chest-to-chest contact throughout the finishing sequence with zero space between your bodies
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

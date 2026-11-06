@@ -10,8 +10,6 @@ description: "How to defend against Kneebar from Top in BJJ. Recognition, escape
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Top targets the Knee joint (tibial plateau, popliteal ligaments, meniscus). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -267,6 +265,8 @@ Defending the kneebar from top position requires a fundamentally different minds
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kneebar/from Top#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -82,9 +82,6 @@ description: "Master the Chin Strap Guillotine in BJJ. High-control choke target
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Chin Strap Guillotine from Front Headlock targets the Carotid arteries and windpipe. Primary risk: Neck strain or cervical spine stress from excessive cranking. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Chin Strap Guillotine/from Front Headlock/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ The submission works exceptionally well in no-gi situations where collar grips a
 
 - Apply pressure progressively by tightening the arm configuration and expanding your chest for the final finish
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

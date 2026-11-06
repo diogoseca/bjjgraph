@@ -82,9 +82,6 @@ description: "Master the heel hook from Backside 50-50 in BJJ. Complete guide to
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Heel Hook from Backside 50-50 targets the Knee (MCL, LCL, ACL, meniscus). Primary risk: MCL tear from medial rotational force transmitted through the heel to the knee joint. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Heel Hook/from Backside 50-50/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 
 - Counter-attack mentality - treat this as a reactive weapon that punishes opponent overcommitment rather than a proactive strategy from this disadvantaged position
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

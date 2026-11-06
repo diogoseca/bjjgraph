@@ -10,8 +10,6 @@ description: "How to execute Triangle Choke Side in BJJ. Attacking perspective w
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke Side from Side Control targets the Carotid arteries and jugular veins. Risk: Carotid artery compression causing unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -270,6 +268,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Triangle Choke Side/from Side Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

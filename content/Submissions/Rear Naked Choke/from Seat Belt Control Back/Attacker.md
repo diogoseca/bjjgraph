@@ -10,8 +10,6 @@ description: "Learn to finish the Rear Naked Choke from Seat Belt Control Back. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Seat Belt Control Back targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -283,6 +281,8 @@ The Rear Naked Choke from Seat Belt Control Back represents the single highest-p
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Rear Naked Choke/from Seat Belt Control Back#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

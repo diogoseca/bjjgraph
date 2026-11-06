@@ -10,8 +10,6 @@ description: "How to defend against Kimura from Side Control in BJJ. Recognition
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Side Control targets the Shoulder joint (rotation and elevation). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -256,6 +254,8 @@ Defending the Kimura from Side Control requires immediate recognition and proact
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kimura/from Side Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

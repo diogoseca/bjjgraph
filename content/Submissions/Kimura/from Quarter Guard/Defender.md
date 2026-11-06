@@ -10,8 +10,6 @@ description: "Defend against the Kimura from Quarter Guard. Learn recognition cu
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Quarter Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -237,6 +235,8 @@ Defending the Kimura from Quarter Guard demands early recognition and immediate 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kimura/from Quarter Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

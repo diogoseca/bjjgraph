@@ -92,9 +92,6 @@ description: "Master the belly down armbar finish from New York rubber guard. Le
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Belly Down Armbar from New York targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Belly Down Armbar/from New York/Attacker|Play as Attacker]]
@@ -190,6 +187,8 @@ Biomechanically, the belly down finish multiplies the attacker's leverage by con
 
 - Apply finishing pressure through hip elevation against the mat, not by pulling the arm - let gravity assist the hyperextension
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

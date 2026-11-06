@@ -92,9 +92,6 @@ description: "Master the toe hold from Outside Ashi-Garami in BJJ. Complete guid
 <span class="meta-chip">26% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Outside Ashi targets the Foot and ankle joint complex. Primary risk: Lateral ankle ligament tears (anterior talofibular, calcaneofibular ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Outside Ashi/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 
 - Time the toe hold attempt when the opponent commits both hands to their own offensive attack, creating a window where their feet are unprotected and their attention is directed away from defense
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

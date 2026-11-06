@@ -82,9 +82,6 @@ description: "Master the arm triangle from Kuzure Kesa Gatame with setup mechani
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Arm Triangle from Kuzure Kesa Gatame targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm Triangle/from Kuzure Kesa Gatame/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 
 - Keep your head low and glued to the mat on the far side of opponent's head to seal the choke and prevent defensive turns
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

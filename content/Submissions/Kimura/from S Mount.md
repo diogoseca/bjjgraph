@@ -92,9 +92,6 @@ description: "Master the Kimura shoulder lock from S Mount in BJJ. Complete fini
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from S Mount targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from S Mount/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ This submission chains naturally with the armbar from S Mount, creating a powerf
 
 - Control the pace of rotation progressively in training, never jerking or spiking the shoulder joint
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

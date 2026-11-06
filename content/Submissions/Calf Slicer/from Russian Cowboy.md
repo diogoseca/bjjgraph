@@ -61,9 +61,6 @@ description: "Master the calf slicer from Russian Cowboy in BJJ. Complete guide 
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer from Russian Cowboy targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture from excessive compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Calf Slicer/from Russian Cowboy/Attacker|Play as Attacker]]
@@ -131,6 +128,8 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 
 - Time the slicer entry when the opponent is focused on defending upper body attacks rather than monitoring the leg hook position
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

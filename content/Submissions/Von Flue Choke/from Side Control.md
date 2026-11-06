@@ -102,9 +102,6 @@ description: "Master the Von Flue Choke counter in BJJ. Complete safety guide wi
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Von Flue Choke from Side Control targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Von Flue Choke/from Side Control/Attacker|Play as Attacker]]
@@ -204,6 +201,8 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 - The choke is a positional control problem first, submission second
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

@@ -92,9 +92,6 @@ description: "Master the Ten Finger Guillotine from Guillotine Control in BJJ. S
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Ten Finger Guillotine from Guillotine Control targets the Carotid arteries and trachea. Primary risk: Trachea damage from excessive crushing pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Ten Finger Guillotine/from Guillotine Control/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ Strategically, this submission chains naturally with the broader guillotine cont
 
 - Transition smoothly between ten finger grip and alternative guillotine variations when opponent's defense creates openings
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

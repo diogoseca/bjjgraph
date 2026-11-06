@@ -10,8 +10,6 @@ description: "Learn to attack the Kimura from Twister Side Control with expert f
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Twister Side Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking the Kimura from Twister Side Control requires recognizing the moment t
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kimura/from Twister Side Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

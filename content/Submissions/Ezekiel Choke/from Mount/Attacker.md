@@ -10,8 +10,6 @@ description: "Learn to attack with the Ezekiel Choke from mount. Step-by-step sl
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Ezekiel Choke from Mount targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking with the Ezekiel Choke from mount combines the dominant position's cru
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Ezekiel Choke/from Mount#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -112,9 +112,6 @@ description: "Master the heel hook from saddle position in BJJ. Complete guide t
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Heel Hook from Saddle targets the Knee and ankle joint. Primary risk: ACL (anterior cruciate ligament) tear from rotational force. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Heel Hook/from Saddle/Attacker|Play as Attacker]]
@@ -226,6 +223,8 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 
 - Develop sensitivity to recognize when the opponent has accepted the position and when they are about to explode into an escape
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

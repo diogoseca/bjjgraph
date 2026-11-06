@@ -10,8 +10,6 @@ description: "Execute the North-South Choke from Ushiro Kesa Gatame Hold. Comple
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from Ushiro Kesa Gatame targets the Neck (Carotid Arteries). Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -288,6 +286,8 @@ Attacking the North-South Choke from Ushiro Kesa Gatame Hold requires understand
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/North-South Choke/from Ushiro Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

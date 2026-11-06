@@ -92,9 +92,6 @@ description: "Master the Bow and Arrow Choke from Harness position in BJJ. Learn
 <span class="meta-chip">10% success</span>
 </div>
 
-> [!danger] Safety
-> Bow and Arrow Choke from Harness targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Bow and Arrow Choke/from Harness/Attacker|Play as Attacker]]
@@ -190,6 +187,8 @@ Strategically, this submission capitalizes on common defensive reactions to back
 
 - Keep your top hook active throughout the finish to prevent the defender from rotating their hips toward you
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

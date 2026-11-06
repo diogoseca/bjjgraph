@@ -92,9 +92,6 @@ description: "Master the omoplata from inverted guard in BJJ. Complete guide to 
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Omoplata from Inverted Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/from Inverted Guard/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ Strategically, this technique adds a submission threat to the inverted guard pos
 
 - Angle your body slightly past perpendicular toward the opponent's head to maximize shoulder torque
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

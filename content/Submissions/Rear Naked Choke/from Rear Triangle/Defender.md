@@ -10,8 +10,6 @@ description: "Complete defense guide against Rear Naked Choke from Rear Triangle
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Rear Triangle targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -190,6 +188,8 @@ Defending the RNC from rear triangle is among the most challenging defensive sce
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Rear Naked Choke/from Rear Triangle#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

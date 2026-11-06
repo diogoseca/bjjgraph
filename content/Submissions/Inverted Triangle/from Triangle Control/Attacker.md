@@ -10,8 +10,6 @@ description: "Learn to execute the Inverted Triangle from Triangle Control. Step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Inverted Triangle from Triangle Control targets the Carotid arteries and trachea. Risk: Cervical spine compression from improper rotation during setup. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ Executing the inverted triangle from triangle control requires precise hip rotat
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Inverted Triangle/from Triangle Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

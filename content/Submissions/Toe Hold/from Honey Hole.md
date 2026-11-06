@@ -82,9 +82,6 @@ description: "Master the toe hold from Honey Hole in BJJ. Complete finishing gui
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Honey Hole targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Honey Hole/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ In competition, this technique forces opponents to choose between defending the 
 
 - Control the transition speed—rushing the grip change telegraphs the attack and opens escape windows
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

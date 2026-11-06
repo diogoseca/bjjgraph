@@ -10,8 +10,6 @@ description: "How to finish the straight ankle lock from ankle lock control. Ste
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Straight Ankle Lock from Straight Ankle Lock Control targets the Ankle joint, Achilles tendon, and foot ligaments. Risk: Ankle sprain or ligament damage. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Finishing the straight ankle lock from established control requires mastering th
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

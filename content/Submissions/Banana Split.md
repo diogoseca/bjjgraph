@@ -120,9 +120,6 @@ description: "Master the Banana Split compression submission in BJJ. Complete gu
 <span class="meta-chip">~48% avg</span>
 </div>
 
-> [!danger] Safety
-> Banana Split targets the Hip adductors, groin, and lower back. Primary risk: Groin muscle tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Banana Split is a unique compression submission that targets the opponent's hip adductors, groin muscles, and lower back through forced over-extension of the legs. Primarily executed from the truck position, deep half guard, or lockdown configurations, this technique creates extreme discomfort by splitting the opponent's legs apart while controlling their upper body. The submission gained prominence through the 10th Planet system, where it serves as both a finishing technique and a powerful position to force reactions.

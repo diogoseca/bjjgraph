@@ -10,8 +10,6 @@ description: "How to defend against Monoplata from Mount in BJJ. Recognition, es
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Monoplata from Mount targets the Shoulder joint and rotator cuff. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -233,6 +231,8 @@ Successful defense requires understanding that the monoplata becomes exponential
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Monoplata/from Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

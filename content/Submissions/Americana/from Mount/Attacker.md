@@ -10,8 +10,6 @@ description: "How to execute Americana from Mount in BJJ. Attacking perspective 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Mount targets the Shoulder joint (rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Americana/from Mount#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

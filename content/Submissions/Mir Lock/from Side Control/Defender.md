@@ -10,8 +10,6 @@ description: "How to defend against Mir Lock in BJJ. Recognition, escape paths, 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Mir Lock from Side Control targets the Shoulder joint (glenohumeral joint). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -200,6 +198,8 @@ Defending the Mir Lock requires early recognition and immediate preventive actio
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Mir Lock/from Side Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

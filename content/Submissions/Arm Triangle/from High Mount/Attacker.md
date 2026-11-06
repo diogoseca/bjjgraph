@@ -10,8 +10,6 @@ description: "Step-by-step guide to finishing the arm triangle from high mount. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Triangle from High Mount targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from blood choke. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -299,6 +297,8 @@ The arm triangle from high mount leverages your dominant elevated position to is
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Arm Triangle/from High Mount#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

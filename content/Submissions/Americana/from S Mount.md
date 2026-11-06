@@ -92,9 +92,6 @@ description: "Master the Americana shoulder lock from S Mount. Step-by-step guid
 <span class="meta-chip">68% success</span>
 </div>
 
-> [!danger] Safety
-> Americana from S Mount targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Americana/from S Mount/Attacker|Play as Attacker]]
@@ -190,6 +187,8 @@ Strategically, the Americana from S Mount serves as a powerful secondary attack 
 
 - If the keylock grip is broken, return to armbar threat immediately rather than re-fighting for the Americana grip
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

@@ -10,8 +10,6 @@ description: "How to defend and escape the Ten Finger Guillotine from Front Head
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Ten Finger Guillotine from Front Headlock targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -237,6 +235,8 @@ Defending the Ten Finger Guillotine from Front Headlock requires intervention at
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Ten Finger Guillotine/from Front Headlock#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

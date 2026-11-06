@@ -92,9 +92,6 @@ description: "Master the belly down armbar finish from open guard in BJJ. Learn 
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Belly Down Armbar from Open Guard targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Belly Down Armbar/from Open Guard/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ This submission demands precise timing during the transition from guard retentio
 
 - Use your chest and both hands to pin the wrist against your sternum during the prone finish for maximum control
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

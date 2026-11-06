@@ -102,9 +102,6 @@ description: "Master the Banana Split compression submission from the truck in B
 <span class="meta-chip">48% success</span>
 </div>
 
-> [!danger] Safety
-> Banana Split from Truck targets the Hip adductors, groin, and lower back. Primary risk: Groin muscle tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Banana Split/from Truck/Attacker|Play as Attacker]]
@@ -208,6 +205,8 @@ The Banana Split integrates naturally into the truck attacking system alongside 
 
 - Assess individual flexibility variations before committing to the finish
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

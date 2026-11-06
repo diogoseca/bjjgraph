@@ -109,9 +109,6 @@ description: "Master Far Side Armbar from top positions. Complete guide with saf
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Far Side Armbar targets the Elbow joint (hyperextension). Primary risk: Elbow hyperextension (ligament damage). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Far Side Armbar is a high-percentage finishing technique targeting the opponent's far arm (the arm furthest from you) when controlling from top positions like side control, mount, or north-south. This submission exploits the opponent's defensive frames by isolating the extended arm and applying hyperextension pressure to the elbow joint. The far side armbar is particularly effective because it attacks the arm that opponents naturally use to create distance and prevent transitions, making it a fundamental component of submission chains from dominant positions.

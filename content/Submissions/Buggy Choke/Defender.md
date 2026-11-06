@@ -10,8 +10,6 @@ description: "Defend the Buggy Choke while passing half guard: keep your head up
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Buggy Choke targets the Carotid arteries and neck compression. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -249,6 +247,8 @@ As the defender you are the top player passing half guard, and the Buggy Choke p
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Buggy Choke#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "Learn to attack with the Breadcutter Choke from Kuzure Kesa Gatame
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Breadcutter Choke from Kuzure Kesa Gatame targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking with the Breadcutter Choke from Kuzure Kesa Gatame leverages the exist
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Breadcutter Choke/from Kuzure Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

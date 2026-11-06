@@ -10,8 +10,6 @@ description: "Learn to execute the Estima Lock finish from Estima Lock control. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Estima Lock from Estima Lock Control targets the Foot and ankle joints (dorsiflexion of foot). Risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Finishing the Estima Lock from an already-established control position provides 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Estima Lock/from Estima Lock Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

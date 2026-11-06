@@ -10,8 +10,6 @@ description: "Defend against the Breadcutter Choke from Kuzure Kesa Gatame with 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Breadcutter Choke from Kuzure Kesa Gatame targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -192,6 +190,8 @@ Defending the Breadcutter Choke from Kuzure Kesa Gatame demands early recognitio
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Breadcutter Choke/from Kuzure Kesa Gatame#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

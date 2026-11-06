@@ -10,8 +10,6 @@ description: "Learn to attack the omoplata from Russian Leg Lasso. Expert guide 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Russian Leg Lasso targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -318,6 +316,8 @@ Attacking the omoplata from Russian Leg Lasso leverages the existing lasso confi
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Omoplata/from Russian Leg Lasso#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

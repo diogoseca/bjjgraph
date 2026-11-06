@@ -10,8 +10,6 @@ description: "Complete defense guide against the short choke from body triangle.
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Short Choke from Body Triangle targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -198,6 +196,8 @@ Defending the short choke from body triangle presents a layered challenge that c
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Short Choke/from Body Triangle#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

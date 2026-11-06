@@ -102,9 +102,6 @@ description: "Master the omoplata finish from omoplata control position. Complet
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Omoplata from Omoplata Control targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/from Omoplata Control/Attacker|Play as Attacker]]
@@ -208,6 +205,8 @@ In competition, the omoplata from established control carries a significantly hi
 
 - Use the free leg as a dynamic base and secondary control point, posting or hooking the far hip as needed
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

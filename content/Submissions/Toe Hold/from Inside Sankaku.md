@@ -92,9 +92,6 @@ description: "Master the toe hold from Inside Sankaku. Learn grip mechanics, rot
 <span class="meta-chip">30% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Inside Sankaku targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Inside Sankaku/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ Strategically, the toe hold from Inside Sankaku functions as part of a dilemma s
 
 - Chain between heel hook and toe hold threats to create an unsolvable dilemma where every defense opens another attack
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

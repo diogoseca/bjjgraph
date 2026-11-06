@@ -102,9 +102,6 @@ description: "Master the Guillotine Choke from Clinch in BJJ. Complete guide to 
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Guillotine Choke from Clinch targets the Neck. Primary risk: Tracheal damage from direct pressure on the windpipe when grip slides to front of throat. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Guillotine Choke/from Clinch/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 
 - Attack during transitions, not static positions—the guillotine is most effective when the opponent's head drops during movement, grip fighting, or takedown attempts
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

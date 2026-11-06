@@ -10,8 +10,6 @@ description: "How to defend against Triangle from De La Riva in BJJ. Recognition
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke from De La Riva targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -239,6 +237,8 @@ Defending the Triangle from De La Riva requires understanding the attack's progr
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Triangle Choke/from De La Riva#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

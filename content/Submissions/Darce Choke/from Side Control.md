@@ -116,9 +116,6 @@ description: "Learn the D'Arce head-and-arm choke from Side Control, including t
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Darce Choke from Side Control targets the Sides of the neck, with the trapped shoulder completing the head-and-arm choke. Primary risk: Loss of consciousness from neck compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Darce Choke/from Side Control/Attacker|Play as Attacker]]
@@ -228,6 +225,8 @@ The same family is taught from front headlock and half-guard exchanges. This ent
 
 - Release pressure immediately when the partner taps or shows distress
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

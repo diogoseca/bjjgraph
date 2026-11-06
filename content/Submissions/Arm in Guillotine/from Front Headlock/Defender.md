@@ -10,8 +10,6 @@ description: "Learn to defend and escape the arm-in guillotine from front headlo
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm in Guillotine from Front Headlock targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -250,6 +248,8 @@ Defending the arm-in guillotine from front headlock is one of the most urgent de
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Arm in Guillotine/from Front Headlock#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

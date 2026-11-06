@@ -10,8 +10,6 @@ description: "Aoki Lock from Aoki Lock Control (attacker): Identify the turned-o
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Aoki Lock from Aoki Lock Control targets the Foot and ankle, with rotational stress transmitted to the knee. Risk: Ankle ligament or joint injury from rotational loading. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -304,6 +302,8 @@ Treat a switch to another leg lock as a new submission entry: release the Aoki r
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Aoki Lock/from Aoki Lock Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

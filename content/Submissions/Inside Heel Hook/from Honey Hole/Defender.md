@@ -10,8 +10,6 @@ description: "Defend the Inside Heel Hook from Honey Hole in BJJ. Recognition cu
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Inside Heel Hook from Honey Hole targets the Knee and ankle joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -238,6 +236,8 @@ Defending the Inside Heel Hook from Honey Hole is one of the most critical survi
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Inside Heel Hook/from Honey Hole#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

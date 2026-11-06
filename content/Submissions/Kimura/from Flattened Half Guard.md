@@ -102,9 +102,6 @@ description: "Master the Kimura shoulder lock from flattened half guard top. Exp
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Flattened Half Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Flattened Half Guard/Attacker|Play as Attacker]]
@@ -206,6 +203,8 @@ The finishing mechanics differ from standard Kimura applications because the fla
 
 - Treat the Kimura grip as a positional control tool first and submission second — the threat alone can create passing opportunities
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

@@ -10,8 +10,6 @@ description: "Defend against the Peruvian Necktie from front headlock. Recogniti
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Peruvian Necktie from Front Headlock targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -257,6 +255,8 @@ Defending the Peruvian Necktie from front headlock demands early recognition and
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Peruvian Necktie/from Front Headlock#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

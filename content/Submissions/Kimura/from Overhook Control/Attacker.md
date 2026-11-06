@@ -10,8 +10,6 @@ description: "Learn to attack with the Kimura from overhook control. Step-by-ste
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Overhook Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking with the Kimura from Overhook Control requires converting your existin
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kimura/from Overhook Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

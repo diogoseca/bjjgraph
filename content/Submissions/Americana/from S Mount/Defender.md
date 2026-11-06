@@ -10,8 +10,6 @@ description: "Defend against the Americana from S Mount. Recognition cues, escap
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from S Mount targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -237,6 +235,8 @@ Defending the Americana from S Mount demands immediate recognition of the figure
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Americana/from S Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

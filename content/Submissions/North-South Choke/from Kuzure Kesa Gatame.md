@@ -82,9 +82,6 @@ description: "Master the North-South Choke from Kuzure Kesa Gatame with step-by-
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> North-South Choke from Kuzure Kesa Gatame targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/North-South Choke/from Kuzure Kesa Gatame/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ Finishing the choke requires precise shoulder placement deep into the pocket bet
 
 - Control the far arm before applying finishing pressure to eliminate the primary roll escape pathway
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

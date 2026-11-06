@@ -82,9 +82,6 @@ description: "Master the Kimura from Lockdown in BJJ. Learn how the lockdown hal
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Lockdown targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Lockdown/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ This technique fits naturally into the lockdown attacking system as a complement
 
 - Attack the Kimura when sweep defenses expose the arm - treat it as a chain from sweep threats rather than an isolated attack
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

@@ -10,8 +10,6 @@ description: "How to defend against Japanese Necktie in BJJ. Recognition, escape
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Japanese Necktie from Front Headlock targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -238,6 +236,8 @@ The Japanese Necktie defense centers on three critical priorities: preventing th
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Japanese Necktie/from Front Headlock#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

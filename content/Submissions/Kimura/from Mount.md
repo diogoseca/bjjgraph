@@ -92,9 +92,6 @@ description: "Master the Kimura from Mount in BJJ. Complete guide with safety pr
 <span class="meta-chip">72% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Mount targets the Shoulder joint (glenohumeral joint, rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Mount/Attacker|Play as Attacker]]
@@ -186,6 +183,8 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 - Use progressive pressure application - build torque gradually to allow safe tapping
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

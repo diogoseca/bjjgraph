@@ -82,9 +82,6 @@ description: "Master the belly down armbar from Williams Guard. Learn prone rota
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Belly Down Armbar from Williams Guard targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Belly Down Armbar/from Williams Guard/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ From a strategic perspective, this submission addresses the primary weakness of 
 
 - Align your hips directly over the back of the opponent's elbow joint before applying any finishing extension
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

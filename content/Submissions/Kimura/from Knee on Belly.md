@@ -102,9 +102,6 @@ description: "Master the Kimura from Knee on Belly in BJJ. Learn how KOB pressur
 <span class="meta-chip">23% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Knee on Belly targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Knee on Belly/Attacker|Play as Attacker]]
@@ -204,6 +201,8 @@ The finishing mechanics differ from other positions because the top player can c
 
 - Control the wrist at the point of capture — losing wrist control means losing the submission
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

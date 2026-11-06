@@ -61,9 +61,6 @@ description: "Master the Short Choke from Cross Body Ride in BJJ. Complete guide
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Short Choke from Cross Body targets the Neck. Primary risk: Loss of consciousness from bilateral carotid artery compression causing cerebral hypoxia. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Short Choke/from Cross Body/Attacker|Play as Attacker]]
@@ -133,6 +130,8 @@ The choke operates on blood restriction principles, compressing the carotid arte
 
 - Position the forearm blade across both carotid arteries simultaneously for a bilateral blood choke rather than a tracheal compression
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

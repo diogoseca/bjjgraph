@@ -10,8 +10,6 @@ description: "Defend the cross collar choke from 3-4 mount with proven grip-stri
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Cross Collar Choke from 3-4 Mount targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -265,6 +263,8 @@ Defending the cross collar choke from 3-4 mount requires immediate recognition o
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Cross Collar Choke/from 3-4 Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

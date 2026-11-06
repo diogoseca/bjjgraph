@@ -10,8 +10,6 @@ description: "How to defend against Boston Crab in BJJ. Recognition, escape path
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Boston Crab from Turtle targets the Lumbar spine and hip flexors. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -201,6 +199,8 @@ From a tactical standpoint, defense against the Boston Crab operates on a timeli
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Boston Crab/from Turtle#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

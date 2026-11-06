@@ -112,9 +112,6 @@ description: "Master the Kimura from Knee Shield Half Guard. Complete guide to s
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Knee Shield Half Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Knee Shield Half Guard/Attacker|Play as Attacker]]
@@ -224,6 +221,8 @@ This submission integrates naturally into the Kimura Trap system used extensivel
 
 - Maintain the bottom leg hook throughout the attack to prevent the opponent from stepping over and extracting
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

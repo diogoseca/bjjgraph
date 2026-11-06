@@ -92,9 +92,6 @@ description: "Master the Armbar from S Mount in BJJ. Step-by-step guide covering
 <span class="meta-chip">55% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from S Mount targets the Elbow joint (hyperextension) and shoulder joint. Primary risk: Hyperextension of the elbow joint causing ligament damage to ulnar and radial collateral ligaments. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from S Mount/Attacker|Play as Attacker]]
@@ -191,6 +188,8 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 
 - Use the thumb-up grip position on the wrist to ensure proper arm rotation for clean hyperextension
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

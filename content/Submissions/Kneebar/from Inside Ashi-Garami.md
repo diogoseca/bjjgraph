@@ -82,9 +82,6 @@ description: "Master the kneebar from inside ashi-garami. Learn hip positioning,
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Inside Ashi-Garami targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Inside Ashi-Garami/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ Competition data shows the kneebar from inside ashi-garami succeeds at approxima
 
 - Time the kneebar entry when the opponent extends their leg for escape, converting their defensive movement into your offensive opportunity
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

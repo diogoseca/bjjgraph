@@ -10,8 +10,6 @@ description: "Defend against the outside heel hook from saddle with recognition 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Outside Heel Hook from Saddle targets the Knee joint, ankle joint, and surrounding ligaments. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -255,6 +253,8 @@ Defending against the outside heel hook from the Saddle is one of the most deman
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Outside Heel Hook/from Saddle#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

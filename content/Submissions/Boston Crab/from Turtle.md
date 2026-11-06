@@ -61,9 +61,6 @@ description: "Master Boston Crab submission in BJJ. Complete guide covering setu
 <span class="meta-chip">42% success</span>
 </div>
 
-> [!danger] Safety
-> Boston Crab from Turtle targets the Lumbar spine and hip flexors. Primary risk: Lumbar spine strain or disc herniation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Boston Crab/from Turtle/Attacker|Play as Attacker]]
@@ -129,6 +126,8 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 - Training partner communication is essential due to spinal involvement
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

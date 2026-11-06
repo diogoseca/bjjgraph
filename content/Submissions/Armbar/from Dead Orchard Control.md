@@ -61,9 +61,6 @@ description: "The short armbar from Dead Orchard uses the high triangle around b
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from Dead Orchard Control targets the Elbow joint. Primary risk: Elbow joint injury from excessive pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from Dead Orchard Control/Attacker|Play as Attacker]]
@@ -133,6 +130,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 - Remove extension and free the arm: Stop immediately for a hand tap, foot tap, verbal stop, or other distress. Remove the extension before opening the high legs.
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

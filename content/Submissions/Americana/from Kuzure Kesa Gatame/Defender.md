@@ -10,8 +10,6 @@ description: "Defend the Americana from Kuzure Kesa Gatame with recognition cues
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Kuzure Kesa Gatame targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -247,6 +245,8 @@ Defending the Americana from Kuzure Kesa Gatame requires immediate recognition a
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Americana/from Kuzure Kesa Gatame#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -92,9 +92,6 @@ description: "Master the armbar from knee on belly in BJJ. Complete guide to set
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from Knee on Belly targets the Shoulder and elbow joint. Primary risk: Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and medial structures. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from Knee on Belly/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 
 - Finish by elevating hips into the arm rather than pulling the arm down with your hands
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

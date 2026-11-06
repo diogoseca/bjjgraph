@@ -10,8 +10,6 @@ description: "Learn to execute the Bow and Arrow Choke from Rodeo Ride. Complete
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Bow and Arrow Choke from Rodeo Ride targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -257,6 +255,8 @@ Executing the Bow and Arrow Choke from Rodeo Ride requires converting your perpe
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Bow and Arrow Choke/from Rodeo Ride#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

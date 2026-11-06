@@ -10,8 +10,6 @@ description: "Defend and escape the Inside Sankaku heel hook finish with early r
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Inside Heel Hook from Inside Sankaku targets the Knee ligaments (MCL, ACL, meniscus) via rotational heel manipulation. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -199,6 +197,8 @@ Defending the heel hook from Inside Sankaku is one of the most urgent defensive 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Inside Heel Hook/from Inside Sankaku#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

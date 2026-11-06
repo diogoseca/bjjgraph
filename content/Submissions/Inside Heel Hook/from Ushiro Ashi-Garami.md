@@ -82,9 +82,6 @@ description: "Master the inside heel hook from ushiro ashi-garami with detailed 
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Inside Heel Hook from Ushiro Ashi-Garami targets the Ankle, knee ligaments, and surrounding connective tissue. Primary risk: ACL, MCL, or LCL tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ Strategically, this submission serves as a high-percentage finishing option that
 
 - Recognize the transition window between the opponent's inversion attempt and their escape completion as the optimal attack timing
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

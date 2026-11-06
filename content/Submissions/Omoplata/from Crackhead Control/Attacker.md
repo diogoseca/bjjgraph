@@ -10,8 +10,6 @@ description: "An omoplata from Crackhead Control requires releasing the reinforc
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Crackhead Control targets the Shoulder joint. Risk: Shoulder joint injury from excessive pressure. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -263,6 +261,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Omoplata/from Crackhead Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

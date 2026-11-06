@@ -102,9 +102,6 @@ description: "Master the calf slicer from Honey Hole position in BJJ. Complete g
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer from Honey Hole targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Calf Slicer/from Honey Hole/Attacker|Play as Attacker]]
@@ -206,6 +203,8 @@ Strategically, the calf slicer adds a compression dimension to the rotational at
 
 - Keep perpendicular body alignment to prevent the opponent from rotating out of the compression angle
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

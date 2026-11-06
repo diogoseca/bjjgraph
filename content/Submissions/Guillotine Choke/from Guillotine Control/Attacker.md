@@ -10,8 +10,6 @@ description: "Complete attacking guide for finishing the guillotine choke from e
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Guillotine Choke from Guillotine Control targets the Carotid arteries and windpipe. Risk: Trachea damage or crush injury. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -265,6 +263,8 @@ Executing the guillotine choke from established guillotine control shifts the ch
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Guillotine Choke/from Guillotine Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

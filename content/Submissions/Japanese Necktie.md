@@ -109,9 +109,6 @@ description: "Master Japanese Necktie in BJJ. Complete guide with safety protoco
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Japanese Necktie targets the Carotid arteries and trachea. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Japanese Necktie is a sophisticated blood choke that attacks from front headlock or turtle positions, creating a powerful stranglehold using the opponent's own shoulder and arm as part of the choking mechanism. Unlike traditional guillotines that rely purely on your arms, the Japanese Necktie leverages bodyweight, rotational pressure, and the opponent's trapped arm to create an inescapable compression of the carotid arteries. This submission is particularly effective in scramble situations where opponents attempt to escape turtle or when transitioning from failed takedown attempts. The technique gained prominence in modern no-gi competition but works equally well in the gi, offering multiple entry points from common positions. The Japanese Necktie creates a unique predicament where the opponent's defensive frames actually tighten the choke, making it a high-percentage finish once proper positioning is established. The submission requires precise understanding of angle creation, shoulder pressure mechanics, and the critical importance of hip positioning relative to the opponent's head. When executed correctly, the Japanese Necktie produces rapid unconsciousness due to bilateral carotid compression, making tap awareness and controlled application essential safety considerations during training.

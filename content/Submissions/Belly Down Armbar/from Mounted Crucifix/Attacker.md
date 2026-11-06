@@ -10,8 +10,6 @@ description: "Learn to execute the belly down armbar finish from mounted crucifi
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from Mounted Crucifix targets the Elbow joint hyperextension and ulnar collateral ligament. Risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking with the belly down armbar from mounted crucifix combines the already 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Belly Down Armbar/from Mounted Crucifix#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

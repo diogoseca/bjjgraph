@@ -10,8 +10,6 @@ description: "Learn to attack the Darce Choke from Twister Side Control with det
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Darce Choke from Twister Side Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -258,6 +256,8 @@ Attacking the Darce Choke from Twister Side Control leverages existing positiona
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Darce Choke/from Twister Side Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

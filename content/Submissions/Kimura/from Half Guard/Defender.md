@@ -10,8 +10,6 @@ description: "How to defend against Kimura from Half Guard in BJJ. Recognition, 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Half Guard targets the Shoulder joint and rotator cuff. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Defending the **Kimura from Half Guard** requires early recognition, disciplined
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kimura/from Half Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

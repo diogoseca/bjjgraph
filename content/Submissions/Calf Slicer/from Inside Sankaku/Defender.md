@@ -10,8 +10,6 @@ description: "Defend the calf slicer from inside sankaku. Recognition cues, esca
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Inside Sankaku targets the Calf muscle and posterior knee structures. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -237,6 +235,8 @@ Defending the calf slicer from inside sankaku requires early recognition and imm
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Calf Slicer/from Inside Sankaku#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "Learn to execute the Twister from Cross Body Ride with step-by-ste
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Twister from Cross Body Ride targets the Cervical and thoracic spine, shoulder girdle. Risk: Cervical spine damage including herniated discs and ligament tears. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -265,6 +263,8 @@ Attacking with the Twister from Cross Body Ride requires mastery of the sequenti
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Twister/from Cross Body Ride#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

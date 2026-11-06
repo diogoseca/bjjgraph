@@ -132,9 +132,6 @@ description: "Master the Kneebar in BJJ. Complete guide covering safety protocol
 <span class="meta-chip">~60% avg</span>
 </div>
 
-> [!danger] Safety
-> Kneebar targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Knee Bar</strong>, <strong>Hiza Juji Gatame</strong>, <strong>Leg Bar</strong></p>
 </aside>

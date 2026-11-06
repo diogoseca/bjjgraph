@@ -92,9 +92,6 @@ description: "Master the toe hold from saddle with expert grip mechanics, finish
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Saddle targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Saddle/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ Technically, the saddle amplifies the toe hold's effectiveness compared to other
 
 - Apply pressure gradually over 5-7 seconds minimum, as the toe hold can cause injury before significant pain registers
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

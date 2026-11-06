@@ -82,9 +82,6 @@ description: "Master the Bow and Arrow Choke from back control. Learn collar gri
 <span class="meta-chip">10% success</span>
 </div>
 
-> [!danger] Safety
-> Bow and Arrow Choke from Back Control targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Bow and Arrow Choke/from Back Control/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ Strategically, the bow and arrow choke serves as the premier gi-specific attack 
 
 - Maintain constant forward pressure with your chest during setup to prevent the opponent from creating defensive space or turning
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

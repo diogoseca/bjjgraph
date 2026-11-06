@@ -102,9 +102,6 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Tarikoplata from Closed Guard targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Tarikoplata/from Closed Guard/Attacker|Play as Attacker]]
@@ -204,6 +201,8 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 - Coordinate hip drive with wrist rotation for maximum mechanical advantage
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

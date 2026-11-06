@@ -102,9 +102,6 @@ description: "Master the arm triangle choke from high mount in BJJ. Step-by-step
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Arm Triangle from High Mount targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm Triangle/from High Mount/Attacker|Play as Attacker]]
@@ -206,6 +203,8 @@ Strategically, the arm triangle from high mount integrates seamlessly into syste
 
 - Chain the arm triangle with other high mount attacks—armbar threats force arm retraction into arm triangle range creating cyclical pressure
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

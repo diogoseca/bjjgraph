@@ -92,9 +92,6 @@ description: "Master the loop choke from turtle in BJJ. Learn cross-collar grip 
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Loop Choke from Turtle targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Loop Choke/from Turtle/Attacker|Play as Attacker]]
@@ -190,6 +187,8 @@ This submission chains naturally with other turtle attacks like the clock choke,
 
 - Chain the loop choke with clock choke and back take threats to create defensive overload on the turtled opponent
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

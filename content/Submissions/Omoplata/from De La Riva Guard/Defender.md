@@ -10,8 +10,6 @@ description: "Defend and escape the omoplata from De La Riva Guard. Recognition 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from De La Riva Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -273,6 +271,8 @@ Defending the omoplata from De La Riva Guard starts with recognizing the leg swi
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Omoplata/from De La Riva Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

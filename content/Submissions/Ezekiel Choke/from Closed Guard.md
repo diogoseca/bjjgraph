@@ -102,9 +102,6 @@ description: "Master the Ezekiel Choke from inside closed guard top. Gi sleeve g
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Ezekiel Choke from Closed Guard targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Ezekiel Choke/from Closed Guard/Attacker|Play as Attacker]]
@@ -206,6 +203,8 @@ The trade-off is significant positional risk. Setting up the Ezekiel requires de
 
 - Time the attack when the opponent's hands are occupied with their own offensive grips rather than protecting their neck
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

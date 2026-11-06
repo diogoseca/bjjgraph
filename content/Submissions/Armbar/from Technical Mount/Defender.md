@@ -10,8 +10,6 @@ description: "Defend and escape the Armbar from Technical Mount in BJJ. Recognit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Technical Mount targets the Elbow joint (hyperextension) and shoulder girdle. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -277,6 +275,8 @@ The critical defensive principle is that a bent arm cannot be armbarred. As long
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Armbar/from Technical Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

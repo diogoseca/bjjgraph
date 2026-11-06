@@ -82,9 +82,6 @@ description: "Master the Rear Naked Choke from Gift Wrap in BJJ. Learn how the a
 <span class="meta-chip">69% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Gift Wrap targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Gift Wrap/Attacker|Play as Attacker]]
@@ -172,6 +169,8 @@ From a systems perspective, the Gift Wrap RNC sits at the apex of the back attac
 
 - Control the defender's posture by driving your forehead into the back of their head
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

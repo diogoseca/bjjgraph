@@ -10,8 +10,6 @@ description: "How to defend against Buggy Choke in BJJ. Recognition, escape path
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Buggy Choke from Half Guard targets the Carotid arteries and neck compression. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Defending the Buggy Choke requires early recognition and immediate action, becau
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Buggy Choke/from Half Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

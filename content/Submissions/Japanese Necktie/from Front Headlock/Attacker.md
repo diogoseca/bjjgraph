@@ -10,8 +10,6 @@ description: "How to execute Japanese Necktie in BJJ. Attacking perspective with
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Japanese Necktie from Front Headlock targets the Carotid arteries and trachea. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -285,6 +283,8 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Japanese Necktie/from Front Headlock#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

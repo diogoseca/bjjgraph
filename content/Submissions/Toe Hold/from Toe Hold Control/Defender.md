@@ -10,8 +10,6 @@ description: "Defend the toe hold from Toe Hold Control. Complete guide to recog
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Toe Hold Control targets the Ankle, toes, and foot ligaments. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -237,6 +235,8 @@ Defending the toe hold from an established Toe Hold Control position is one of t
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Toe Hold/from Toe Hold Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

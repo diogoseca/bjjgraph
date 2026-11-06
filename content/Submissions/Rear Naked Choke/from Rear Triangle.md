@@ -92,9 +92,6 @@ description: "Master the Rear Naked Choke from Rear Triangle position. Learn how
 <span class="meta-chip">65% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Rear Triangle targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Rear Triangle/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ Strategically, this submission creates a cascading dilemma: defending the triang
 
 - Apply the choke by expanding your chest and pulling elbows together rather than cranking with arm strength
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

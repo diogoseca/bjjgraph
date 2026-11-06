@@ -82,9 +82,6 @@ description: "Master the kneebar from Backside 50-50 in BJJ. Complete guide to l
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Backside 50-50 targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Primary risk: Posterior cruciate ligament (PCL) tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Backside 50-50/Attacker|Play as Attacker]]
@@ -172,6 +169,8 @@ This technique functions as a critical secondary attack within the Backside 50-5
 
 - Maintain upper body control with your free leg to prevent the opponent from sitting up and facing you
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

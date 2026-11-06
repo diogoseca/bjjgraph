@@ -110,9 +110,6 @@ description: "Master the Spine Lock submission in BJJ. Learn advanced spinal com
 <span class="meta-chip">~40% avg</span>
 </div>
 
-> [!danger] Safety
-> Spine Lock targets the Lumbar spine, thoracic vertebrae, spinal column. Primary risk: Lumbar spine strain or disc herniation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Spinal Lock</strong></p>
 </aside>

@@ -102,9 +102,6 @@ description: "Master Armbar from Back with Legs in BJJ. Complete guide with safe
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from Back with Legs targets the Elbow joint. Primary risk: Elbow hyperextension or dislocation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from Back with Legs/Attacker|Play as Attacker]]
@@ -204,6 +201,8 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 - Use your top leg across their face as both control and directional pressure to flatten them
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

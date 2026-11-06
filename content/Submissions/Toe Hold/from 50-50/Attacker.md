@@ -10,8 +10,6 @@ description: "How to execute Toe Hold from 50-50 in BJJ. Attacking perspective w
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from 50-50 targets the Ankle, talocrural joint, and lateral ankle ligaments. Risk: Lateral ankle ligament tears (anterior talofibular, calcaneofibular). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -288,6 +286,8 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Toe Hold/from 50-50#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

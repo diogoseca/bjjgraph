@@ -102,9 +102,6 @@ description: "Learn the heel hook from kneebar control in BJJ. Complete guide co
 <span class="meta-chip">41% success</span>
 </div>
 
-> [!danger] Safety
-> Heel Hook from Kneebar Control targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Heel Hook/from Kneebar Control/Attacker|Play as Attacker]]
@@ -206,6 +203,8 @@ The danger level escalates significantly with this transition. Kneebars provide 
 
 - Use the constant kneebar threat to dictate the opponent's defensive posture and keep them reactive
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

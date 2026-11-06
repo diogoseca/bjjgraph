@@ -10,8 +10,6 @@ description: "How to finish the Americana from Kimura Trap position. Step-by-ste
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Kimura Trap targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Executing the Americana from Kimura Trap requires reading your opponent's defens
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Americana/from Kimura Trap#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

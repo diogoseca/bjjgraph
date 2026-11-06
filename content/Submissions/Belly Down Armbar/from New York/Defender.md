@@ -10,8 +10,6 @@ description: "Defend the belly down armbar from New York rubber guard. Recognize
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from New York targets the Elbow joint hyperextension and ulnar collateral ligament. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -256,6 +254,8 @@ Defending the belly down armbar from New York requires early recognition of the 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Belly Down Armbar/from New York#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

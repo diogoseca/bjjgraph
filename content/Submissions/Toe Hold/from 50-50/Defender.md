@@ -10,8 +10,6 @@ description: "How to defend against Toe Hold from 50-50 in BJJ. Recognition, esc
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from 50-50 targets the Ankle, talocrural joint, and lateral ankle ligaments. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -247,6 +245,8 @@ The bilateral nature of 50-50 creates a unique defensive dynamic: your best defe
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Toe Hold/from 50-50#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

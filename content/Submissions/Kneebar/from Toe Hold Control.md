@@ -92,9 +92,6 @@ description: "Master the kneebar from toe hold control in BJJ. Complete guide to
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Toe Hold Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Toe Hold Control/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ The positional advantage is substantial because the leg is already isolated with
 
 - Use the toe hold threat as a setup tool — the submission itself forces reactions that feed the kneebar, making the combination greater than either attack alone
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

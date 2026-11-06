@@ -61,9 +61,6 @@ description: "Master the belly down armbar finish from Kuzure Kesa Gatame. Exper
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Belly Down Armbar from Kuzure Kesa Gatame targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Belly Down Armbar/from Kuzure Kesa Gatame/Attacker|Play as Attacker]]
@@ -131,6 +128,8 @@ From a strategic perspective, this finish serves as a high-percentage completion
 
 - Keep the opponent's thumb pointing toward the ceiling to ensure the elbow joint is aligned for hyperextension
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

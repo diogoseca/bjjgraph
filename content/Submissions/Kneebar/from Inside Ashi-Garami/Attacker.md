@@ -10,8 +10,6 @@ description: "Execute the kneebar from inside ashi-garami with systematic hip po
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Inside Ashi-Garami targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Executing the kneebar from inside ashi-garami requires transitioning from standa
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kneebar/from Inside Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

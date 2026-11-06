@@ -10,8 +10,6 @@ description: "Learn to finish the toe hold from saddle with precise grip mechani
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Saddle targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking with the toe hold from saddle requires understanding its role as a sec
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Toe Hold/from Saddle#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

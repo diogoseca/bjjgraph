@@ -105,9 +105,6 @@ description: "Guillotine Choke from Hindulotine changes the neck enclosure. Clea
 <span class="meta-chip">30% success</span>
 </div>
 
-> [!danger] Safety
-> Guillotine Choke from Hindulotine targets the Neck. Primary risk: Neck injury from twisting or extension. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Guillotine Choke/from Hindulotine/Attacker|Play as Attacker]]
@@ -211,6 +208,8 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 
 - Release the neck: Open both hands and remove body pressure immediately on a tap.
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

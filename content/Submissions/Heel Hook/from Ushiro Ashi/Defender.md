@@ -10,8 +10,6 @@ description: "Defend the Heel Hook from Ushiro Ashi-Garami. Recognition cues, es
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from Ushiro Ashi targets the Knee ligaments (MCL, LCL, meniscus) via rotational force through heel. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -262,6 +260,8 @@ Defending the heel hook from ushiro ashi-garami requires immediate recognition o
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Heel Hook/from Ushiro Ashi#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

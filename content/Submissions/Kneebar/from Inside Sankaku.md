@@ -92,9 +92,6 @@ description: "Master the kneebar from Inside Sankaku in BJJ. Complete finishing 
 <span class="meta-chip">26% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Inside Sankaku targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Inside Sankaku/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ The kneebar from Inside Sankaku represents an essential component of a complete 
 
 - Use the kneebar threat to force heel exposure, creating a submission dilemma that increases overall finishing rate
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

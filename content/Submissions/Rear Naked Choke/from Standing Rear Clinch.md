@@ -92,9 +92,6 @@ description: "Master the Standing RNC from Rear Clinch in BJJ. Expert guide to f
 <span class="meta-chip">35% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Standing Rear Clinch targets the Neck (Carotid Arteries). Primary risk: Carotid artery dissection from excessive or jerking pressure on the neck vasculature. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Standing Rear Clinch/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 
 - Time the choking arm transition when opponent is focused on other defensive priorities such as grip fighting, base recovery, or takedown defense
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

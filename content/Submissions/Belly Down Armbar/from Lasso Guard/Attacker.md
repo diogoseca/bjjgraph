@@ -10,8 +10,6 @@ description: "Learn to attack the belly down armbar from lasso guard. Step-by-st
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from Lasso Guard targets the Elbow joint hyperextension and ulnar collateral ligament. Risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -270,6 +268,8 @@ Attacking the belly down armbar from lasso guard leverages the pre-existing arm 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Belly Down Armbar/from Lasso Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

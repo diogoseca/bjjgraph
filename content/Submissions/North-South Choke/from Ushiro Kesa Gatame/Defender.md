@@ -10,8 +10,6 @@ description: "Defend and escape the North-South Choke from Ushiro Kesa Gatame Ho
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from Ushiro Kesa Gatame targets the Neck (Carotid Arteries). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -246,6 +244,8 @@ Defending the North-South Choke from Ushiro Kesa Gatame Hold requires early reco
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/North-South Choke/from Ushiro Kesa Gatame#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

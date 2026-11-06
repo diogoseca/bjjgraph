@@ -92,9 +92,6 @@ description: "Learn the Short Choke from Harness in BJJ. Master gi lapel choke m
 <span class="meta-chip">54% success</span>
 </div>
 
-> [!danger] Safety
-> Short Choke from Harness targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Short Choke/from Harness/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ From the Harness position specifically, the seatbelt grip provides the ideal sta
 
 - Apply the choke by driving the forearm blade across the neck while pulling the sleeve connection tight, creating bilateral carotid compression
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

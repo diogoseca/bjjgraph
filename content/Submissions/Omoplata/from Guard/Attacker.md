@@ -10,8 +10,6 @@ description: "How to execute Omoplata from Guard in BJJ. Attacking perspective w
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -285,6 +283,8 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Omoplata/from Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

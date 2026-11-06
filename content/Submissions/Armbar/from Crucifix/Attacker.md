@@ -10,8 +10,6 @@ description: "How to execute Armbar from Crucifix in BJJ. Attacking perspective 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Crucifix targets the Elbow joint. Risk: Elbow hyperextension. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -279,6 +277,8 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Armbar/from Crucifix#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -10,8 +10,6 @@ description: "Learn to attack with the High Elbow Guillotine from Guillotine Con
 
 <body data-content-type="submissions">
 
-> **SAFETY**: High Elbow Guillotine from Guillotine Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking with the High Elbow Guillotine from Guillotine Control means you alrea
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/High Elbow Guillotine/from Guillotine Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -10,8 +10,6 @@ description: "Defend and escape the rear naked choke from back control. Recognit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Back Control targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -276,6 +274,8 @@ The most critical window for successful defense is before the choking arm crosse
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Rear Naked Choke/from Back Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

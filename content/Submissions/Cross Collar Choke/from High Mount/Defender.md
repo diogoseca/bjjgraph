@@ -10,8 +10,6 @@ description: "Defend the Cross Collar Choke from High Mount in BJJ. Recognition 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Cross Collar Choke from High Mount targets the Neck. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -274,6 +272,8 @@ Defending the Cross Collar Choke from High Mount requires early recognition, dis
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Cross Collar Choke/from High Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

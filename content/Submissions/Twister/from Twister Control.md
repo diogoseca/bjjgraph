@@ -82,9 +82,6 @@ description: "Master the Twister submission from Twister Control. Complete guide
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Twister from Twister Control targets the Cervical and thoracic spine, shoulder girdle. Primary risk: Cervical spine damage including herniated discs and ligament tears. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Twister/from Twister Control/Attacker|Play as Attacker]]
@@ -172,6 +169,8 @@ Strategically, the Twister requires patience and precise sequencing rather than 
 
 - Treat the Twister as one option within a broader attack system - take what the opponent's defense gives you
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

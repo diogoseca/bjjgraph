@@ -10,8 +10,6 @@ description: "How to execute Kimura from Standing in BJJ. Attacking perspective 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Standing targets the Shoulder joint, rotator cuff, and posterior shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -285,6 +283,8 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kimura/from Standing#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

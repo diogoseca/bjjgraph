@@ -10,8 +10,6 @@ description: "Master outside heel hook attacking technique from Honey Hole. Grip
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Outside Heel Hook from Honey Hole targets the Knee joint, ankle joint, and surrounding ligaments. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking with the outside heel hook from Honey Hole requires mastery of grip tr
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Outside Heel Hook/from Honey Hole#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -10,8 +10,6 @@ description: "How to execute the Banana Split from the truck in BJJ. Attacking p
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Banana Split from Truck targets the Hip adductors, groin, and lower back. Risk: Groin muscle tear or strain. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -297,6 +295,8 @@ The Banana Split from Truck requires establishing opposing forces on the opponen
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Banana Split/from Truck#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

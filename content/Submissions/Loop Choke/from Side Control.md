@@ -82,9 +82,6 @@ description: "Master the Loop Choke from Side Control in BJJ. Complete guide to 
 <span class="meta-chip">55% success</span>
 </div>
 
-> [!danger] Safety
-> Loop Choke from Side Control targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Loop Choke/from Side Control/Attacker|Play as Attacker]]
@@ -172,6 +169,8 @@ Practitioners who develop this technique gain a powerful addition to their side 
 
 - Chain the loop choke threat with arm attacks to create unsolvable defensive dilemmas
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

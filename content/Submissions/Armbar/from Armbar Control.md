@@ -92,9 +92,6 @@ description: "Learn the Armbar Finish from Armbar Control in BJJ. Step-by-step e
 <span class="meta-chip">54% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from Armbar Control targets the Elbow. Primary risk: Elbow hyperextension with collateral ligament sprain or tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from Armbar Control/Attacker|Play as Attacker]]
@@ -190,6 +187,8 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 - Control the opponent's thumb-up orientation to ensure the elbow hyperextension plane aligns with your hip elevation vector
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

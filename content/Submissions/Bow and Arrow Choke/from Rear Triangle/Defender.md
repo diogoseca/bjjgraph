@@ -10,8 +10,6 @@ description: "Defend against the Bow and Arrow Choke from Rear Triangle. Recogni
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Bow and Arrow Choke from Rear Triangle targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -250,6 +248,8 @@ Defending the Bow and Arrow Choke from Rear Triangle requires addressing two sim
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Bow and Arrow Choke/from Rear Triangle#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

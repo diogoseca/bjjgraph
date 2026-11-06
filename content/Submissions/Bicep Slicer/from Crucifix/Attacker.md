@@ -10,8 +10,6 @@ description: "How to execute Bicep Slicer in BJJ. Attacking perspective with set
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Bicep Slicer from Crucifix targets the Bicep muscle and elbow joint. Risk: Bicep muscle tear or severe contusion. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -267,6 +265,8 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Bicep Slicer/from Crucifix#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

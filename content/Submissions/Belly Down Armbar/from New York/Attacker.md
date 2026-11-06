@@ -10,8 +10,6 @@ description: "Execute the belly down armbar from New York rubber guard. Step-by-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from New York targets the Elbow joint hyperextension and ulnar collateral ligament. Risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -283,6 +281,8 @@ Attacking the belly down armbar from New York requires converting your existing 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Belly Down Armbar/from New York#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

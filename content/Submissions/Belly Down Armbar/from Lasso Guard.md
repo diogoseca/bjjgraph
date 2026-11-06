@@ -82,9 +82,6 @@ description: "Master the belly down armbar finish from lasso guard. Learn grip t
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Belly Down Armbar from Lasso Guard targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Belly Down Armbar/from Lasso Guard/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ From a strategic perspective, this submission works best when the opponent is fo
 
 - Time the lasso release precisely: only after both legs are secured around the arm in the armbar configuration, never before
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

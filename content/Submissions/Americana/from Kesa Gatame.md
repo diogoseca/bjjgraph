@@ -92,9 +92,6 @@ description: "Master the Americana shoulder lock from Kesa Gatame in BJJ. Comple
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Americana from Kesa Gatame targets the Shoulder joint (glenohumeral). Primary risk: Rotator cuff tear from forced lateral rotation beyond shoulder's natural range of motion. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Americana/from Kesa Gatame/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 
 - Stay prepared to transition to armbar or Kimura if the opponent's defensive reaction creates a better opportunity
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

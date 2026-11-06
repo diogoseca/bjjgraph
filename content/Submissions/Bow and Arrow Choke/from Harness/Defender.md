@@ -10,8 +10,6 @@ description: "Essential defense guide against the Bow and Arrow Choke from Harne
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Bow and Arrow Choke from Harness targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -248,6 +246,8 @@ Defending the Bow and Arrow Choke from Harness requires early recognition and im
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Bow and Arrow Choke/from Harness#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

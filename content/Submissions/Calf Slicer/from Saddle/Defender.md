@@ -10,8 +10,6 @@ description: "Complete defensive guide against the calf slicer from saddle inclu
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Saddle targets the Calf muscle and Achilles tendon. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -190,6 +188,8 @@ Defending the calf slicer from saddle requires recognizing that you are already 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Calf Slicer/from Saddle#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

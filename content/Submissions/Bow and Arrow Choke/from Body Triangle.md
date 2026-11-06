@@ -82,9 +82,6 @@ description: "Master the bow and arrow choke from body triangle in BJJ. Learn de
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Bow and Arrow Choke from Body Triangle targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Bow and Arrow Choke/from Body Triangle/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ At the competition level, this combination represents one of the most dominant f
 
 - Time the collar feed during grip transitions—when your opponent breaks your seatbelt or adjusts their hand position, their collar is momentarily undefended
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

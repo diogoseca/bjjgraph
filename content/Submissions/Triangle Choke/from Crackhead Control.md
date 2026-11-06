@@ -82,9 +82,6 @@ description: "A triangle from Crackhead Control requires changing the two-leg hi
 <span class="meta-chip">30% success</span>
 </div>
 
-> [!danger] Safety
-> Triangle Choke from Crackhead Control targets the Neck. Primary risk: Neck injury from excessive pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Triangle Choke/from Crackhead Control/Attacker|Play as Attacker]]
@@ -172,6 +169,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 - Open legs and remove neck pressure: Release fully on any tap or verbal signal. Any loss of responsiveness ends the drill immediately.
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

@@ -102,9 +102,6 @@ description: "Master the neck crank from Twister Control in BJJ. Learn cervical 
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Neck Crank from Twister Control targets the Cervical spine and neck muscles. Primary risk: Cervical disc herniation or vertebral fracture from excessive rotational force. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Neck Crank/from Twister Control/Attacker|Play as Attacker]]
@@ -206,6 +203,8 @@ From a strategic perspective, the neck crank serves as a high-percentage finishi
 
 - Read the opponent's defensive reactions to choose between chin strap, crossface, and behind-the-head variations
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

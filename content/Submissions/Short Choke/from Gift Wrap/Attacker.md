@@ -10,8 +10,6 @@ description: "Learn to finish the Short Choke from Gift Wrap. Step-by-step forea
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Short Choke from Gift Wrap targets the Carotid arteries. Risk: Loss of consciousness from bilateral carotid artery compression causing cerebral hypoxia. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking with the Short Choke from Gift Wrap leverages the position's fundament
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Short Choke/from Gift Wrap#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

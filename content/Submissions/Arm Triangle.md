@@ -132,9 +132,6 @@ description: "Master the Arm Triangle choke in BJJ. Setup from side control, exe
 <span class="meta-chip">~62% avg</span>
 </div>
 
-> [!danger] Safety
-> Arm Triangle targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Kata Gatame</strong>, <strong>Head and Arm Choke</strong>, <strong>Arm Triangle Choke</strong>, <strong>Side Choke</strong></p>
 </aside>

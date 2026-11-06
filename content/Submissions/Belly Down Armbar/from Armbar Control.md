@@ -92,9 +92,6 @@ description: "Master the belly down armbar finish from armbar control in BJJ. Le
 <span class="meta-chip">56% success</span>
 </div>
 
-> [!danger] Safety
-> Belly Down Armbar from Armbar Control targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Belly Down Armbar/from Armbar Control/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ From armbar control specifically, this finish is particularly accessible because
 
 - Apply extension progressively and slowly - the mechanical advantage in belly-down is enormous and can cause injury faster than expected
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

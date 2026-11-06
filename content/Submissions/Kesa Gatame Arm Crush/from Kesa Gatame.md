@@ -61,9 +61,6 @@ description: "Master the Kesa Gatame Arm Crush in BJJ. Complete guide covering e
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Kesa Gatame Arm Crush from Kesa Gatame targets the Elbow/Forearm. Primary risk: Elbow hyperextension or dislocation from excessive pressure against the fulcrum point. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Attacker|Play as Attacker]]
@@ -131,6 +128,8 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 
 - Apply pressure gradually and progressively, building the crush over several seconds rather than jerking or spiking for safety and control
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

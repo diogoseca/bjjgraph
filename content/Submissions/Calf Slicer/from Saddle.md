@@ -102,9 +102,6 @@ description: "Learn the calf slicer from saddle position with step-by-step finis
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer from Saddle targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Calf Slicer/from Saddle/Attacker|Play as Attacker]]
@@ -206,6 +203,8 @@ At competition level, this submission serves as a critical complement to heel ho
 
 - Use the calf slicer threat to reopen the heel for heel hook attacks, creating a continuous submission cycle
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

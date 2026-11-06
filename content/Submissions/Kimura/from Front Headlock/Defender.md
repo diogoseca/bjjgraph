@@ -10,8 +10,6 @@ description: "Defend against the Kimura from front headlock in BJJ. Recognize gr
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Front Headlock targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -238,6 +236,8 @@ Defending the Kimura from front headlock requires recognizing the moment your op
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kimura/from Front Headlock#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

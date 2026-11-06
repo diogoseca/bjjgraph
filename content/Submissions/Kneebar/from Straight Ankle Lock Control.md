@@ -92,9 +92,6 @@ description: "Master the kneebar from straight ankle lock control in BJJ. Comple
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Straight Ankle Lock Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Straight Ankle Lock Control/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ From a strategic perspective, the kneebar from straight ankle lock control trans
 
 - Control the foot to prevent the opponent from rotating their knee out of the hyperextension line
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

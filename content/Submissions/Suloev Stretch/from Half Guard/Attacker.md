@@ -10,8 +10,6 @@ description: "Suloev Stretch from Rear Tripod (attacker): Control the torso from
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Suloev Stretch from Half Guard targets the Hamstring and posterior hip; knee at risk if the leg is twisted. Risk: Hamstring or tendon injury from forced extension. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -287,6 +285,8 @@ Use a cooperative entry and stop at the aligned capture. Never drop onto the str
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Suloev Stretch/from Half Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

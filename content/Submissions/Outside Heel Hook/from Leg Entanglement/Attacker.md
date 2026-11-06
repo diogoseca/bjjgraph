@@ -10,8 +10,6 @@ description: "Learn to attack with the outside heel hook from leg entanglement. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Outside Heel Hook from Leg Entanglement targets the Knee joint, ankle joint, and surrounding ligaments. Risk: LCL tear (lateral collateral ligament rupture). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking with the outside heel hook from leg entanglement requires establishing
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Outside Heel Hook/from Leg Entanglement#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

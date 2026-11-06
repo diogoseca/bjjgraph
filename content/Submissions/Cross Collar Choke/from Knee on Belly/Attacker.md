@@ -10,8 +10,6 @@ description: "Learn how to attack with the cross collar choke from knee on belly
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Cross Collar Choke from Knee on Belly targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ Attacking with the cross collar choke from knee on belly requires precise coordi
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Cross Collar Choke/from Knee on Belly#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

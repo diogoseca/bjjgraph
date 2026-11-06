@@ -10,8 +10,6 @@ description: "Defend against the guillotine choke from Twister Control. Recognit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Guillotine Choke from Twister Control targets the Carotid arteries and windpipe. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -249,6 +247,8 @@ Defending the guillotine from Twister Control requires recognizing that your esc
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Guillotine Choke/from Twister Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

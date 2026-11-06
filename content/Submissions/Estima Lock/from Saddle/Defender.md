@@ -10,8 +10,6 @@ description: "Defend against the Estima Lock from Saddle with early recognition 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Estima Lock from Saddle targets the Foot and ankle joints (forced dorsiflexion targeting tarsometatarsal and ankle ligaments). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -200,6 +198,8 @@ The Estima Lock is particularly dangerous because the Lisfranc joint and ankle l
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Estima Lock/from Saddle#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

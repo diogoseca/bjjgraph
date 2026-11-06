@@ -10,8 +10,6 @@ description: "How to defend against the Twister Finish in BJJ. Recognition cues,
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Twister from Russian Cowboy targets the Thoracic and Cervical Spine. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -260,6 +258,8 @@ Critically, the Twister is a submission where tapping early is not optional but 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Twister/from Russian Cowboy#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "Learn to attack the toe hold from ushiro ashi-garami with proper g
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Ushiro Ashi-Garami targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -281,6 +279,8 @@ Executing the toe hold from ushiro ashi-garami requires precise grip placement o
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Toe Hold/from Ushiro Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

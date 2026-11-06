@@ -10,8 +10,6 @@ description: "Complete guide to finishing the omoplata from established control.
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Omoplata Control targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -295,6 +293,8 @@ Attacking the omoplata from established omoplata control is fundamentally differ
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Omoplata/from Omoplata Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

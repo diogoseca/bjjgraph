@@ -10,8 +10,6 @@ description: "Defend the kneebar from straight ankle lock control. Recognition c
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Straight Ankle Lock Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -247,6 +245,8 @@ Defending the kneebar from straight ankle lock control requires recognizing the 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kneebar/from Straight Ankle Lock Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

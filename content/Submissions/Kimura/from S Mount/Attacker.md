@@ -10,8 +10,6 @@ description: "Attack with the Kimura from S Mount in BJJ. Step-by-step execution
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from S Mount targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking with the Kimura from S Mount leverages the perpendicular body angle an
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kimura/from S Mount#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

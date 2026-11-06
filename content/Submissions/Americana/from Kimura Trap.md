@@ -82,9 +82,6 @@ description: "Master the Americana from Kimura Trap in BJJ. Convert your Kimura 
 <span class="meta-chip">68% success</span>
 </div>
 
-> [!danger] Safety
-> Americana from Kimura Trap targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Americana/from Kimura Trap/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ At the purple and brown belt level, this technique punishes opponents who have d
 
 - Keep your own elbows tight to your body throughout the finish to maximize leverage and prevent the opponent from creating space
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

@@ -82,9 +82,6 @@ description: "Master the belly down armbar finish from mounted triangle. Learn r
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Belly Down Armbar from Mounted Triangle targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Belly Down Armbar/from Mounted Triangle/Attacker|Play as Attacker]]
@@ -172,6 +169,8 @@ Strategically, this finish represents a high-percentage option when the defender
 
 - Time the rotation when the defender commits to defending the triangle choke rather than protecting the arm
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

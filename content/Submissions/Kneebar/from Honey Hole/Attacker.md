@@ -10,8 +10,6 @@ description: "Learn to attack the kneebar from Honey Hole position. Step-by-step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Honey Hole targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking the kneebar from Honey Hole leverages the inside leg triangle control 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kneebar/from Honey Hole#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

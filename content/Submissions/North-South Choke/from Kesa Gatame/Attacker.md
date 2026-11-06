@@ -10,8 +10,6 @@ description: "How to execute the North-South Choke from Kesa Gatame. Step-by-ste
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from Kesa Gatame targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -225,6 +223,8 @@ Attacking the North-South Choke from Kesa Gatame requires mastering a smooth rot
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/North-South Choke/from Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

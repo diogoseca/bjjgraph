@@ -10,8 +10,6 @@ description: "Complete defensive guide against the Kimura from Ushiro Kesa Gatam
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Ushiro Kesa Gatame targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -198,6 +196,8 @@ Defending the Kimura from Ushiro Kesa Gatame requires recognizing the grip trans
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kimura/from Ushiro Kesa Gatame#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

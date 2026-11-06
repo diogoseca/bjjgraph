@@ -10,8 +10,6 @@ description: "Learn to attack with the North-South Choke from North-South. Step-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from North-South targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -265,6 +263,8 @@ Attacking with the North-South Choke from the standard North-South position leve
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/North-South Choke/from North-South#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

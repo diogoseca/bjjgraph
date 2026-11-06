@@ -10,8 +10,6 @@ description: "How to defend and escape the Armbar from Side Control in BJJ. Reco
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Side Control targets the Elbow joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -275,6 +273,8 @@ Defending the Armbar from Side Control requires understanding the attack's seque
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Armbar/from Side Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

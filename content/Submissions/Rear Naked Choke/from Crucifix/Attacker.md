@@ -10,8 +10,6 @@ description: "Complete guide to finishing the Rear Naked Choke from Crucifix. St
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Crucifix targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -276,6 +274,8 @@ Executing the Rear Naked Choke from Crucifix capitalizes on the most advantageou
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Rear Naked Choke/from Crucifix#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

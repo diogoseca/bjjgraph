@@ -82,9 +82,6 @@ description: "Master the Loop Choke from Half Guard Top in BJJ. Learn deep colla
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Loop Choke from Half Guard targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Loop Choke/from Half Guard/Attacker|Play as Attacker]]
@@ -172,6 +169,8 @@ The attacker must balance commitment to the choke against maintaining top positi
 
 - The opponent's own defensive movement is the primary tightening mechanism of the choke
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

@@ -92,9 +92,6 @@ description: "Master the kneebar from Honey Hole in BJJ. Complete guide to hip e
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Honey Hole targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Honey Hole/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ In competition, this attack chain is a hallmark of systematic leg lock play. Eli
 
 - Apply pressure gradually in training - the knee joint can be damaged before pain signals register
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

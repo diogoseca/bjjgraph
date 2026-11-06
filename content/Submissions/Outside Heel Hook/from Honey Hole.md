@@ -82,9 +82,6 @@ description: "Master the outside heel hook from Honey Hole position. Learn grip 
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Outside Heel Hook from Honey Hole targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Outside Heel Hook/from Honey Hole/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ The strategic value of this technique lies in its complementary relationship wit
 
 - Apply progressive pressure over 5-7 seconds minimum in training, monitoring continuously for tap signals
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

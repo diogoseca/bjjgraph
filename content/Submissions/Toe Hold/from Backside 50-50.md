@@ -92,9 +92,6 @@ description: "Master the toe hold from Backside 50-50 in BJJ. Complete guide cov
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Backside 50-50 targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Backside 50-50/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ In competition, the toe hold from Backside 50-50 serves as both a primary finish
 
 - Keep legs active in the entanglement throughout the submission attempt to prevent opponent from extracting and recovering guard
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

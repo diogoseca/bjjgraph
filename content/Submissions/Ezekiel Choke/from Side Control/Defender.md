@@ -10,8 +10,6 @@ description: "Defend the Ezekiel Choke from side control bottom. Recognize cross
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Ezekiel Choke from Side Control targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -232,6 +230,8 @@ Defending the Ezekiel Choke from side control bottom requires recognizing that t
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Ezekiel Choke/from Side Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

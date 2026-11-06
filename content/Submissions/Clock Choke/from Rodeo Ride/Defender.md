@@ -10,8 +10,6 @@ description: "Defend the Clock Choke from Rodeo Ride in BJJ. Recognition cues, g
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Clock Choke from Rodeo Ride targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -286,6 +284,8 @@ The defender's primary strategic objective is to prevent the collar grip from be
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Clock Choke/from Rodeo Ride#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

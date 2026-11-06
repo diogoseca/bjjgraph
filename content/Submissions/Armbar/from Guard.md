@@ -92,9 +92,6 @@ description: "Master the armbar from guard with systematic technique breakdown, 
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from Guard targets the Elbow joint. Primary risk: Elbow hyperextension. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from Guard/Attacker|Play as Attacker]]
@@ -186,6 +183,8 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 - Thumb points up during extension to target the elbow joint correctly
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

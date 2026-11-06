@@ -10,8 +10,6 @@ description: "Learn to attack the omoplata from inverted guard. Step-by-step exe
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Inverted Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking the omoplata from inverted guard requires threading your leg over the 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Omoplata/from Inverted Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

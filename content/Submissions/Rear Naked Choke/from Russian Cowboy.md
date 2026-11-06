@@ -82,9 +82,6 @@ description: "Master the Rear Naked Choke from Russian Cowboy. Learn setup mecha
 <span class="meta-chip">65% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Russian Cowboy targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Russian Cowboy/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ Strategically, the RNC threat serves as the primary fork in the Russian Cowboy a
 
 - Use your head as a control point by pressing your temple into the back of the opponent's skull to prevent defensive head turns
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

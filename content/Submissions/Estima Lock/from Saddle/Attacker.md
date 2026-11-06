@@ -10,8 +10,6 @@ description: "Master the Estima Lock attack from Saddle with step-by-step execut
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Estima Lock from Saddle targets the Foot and ankle joints (forced dorsiflexion targeting tarsometatarsal and ankle ligaments). Risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -283,6 +281,8 @@ Attacking with the Estima Lock from Saddle requires precise transition from heel
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Estima Lock/from Saddle#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

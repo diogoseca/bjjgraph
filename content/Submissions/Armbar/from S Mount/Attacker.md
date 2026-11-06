@@ -10,8 +10,6 @@ description: "Execute the Armbar from S Mount with precision. Step-by-step finis
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from S Mount targets the Elbow joint (hyperextension) and shoulder joint. Risk: Hyperextension of the elbow joint causing ligament damage to ulnar and radial collateral ligaments. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -286,6 +284,8 @@ The key to high-percentage finishing from S Mount lies in maintaining continuous
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Armbar/from S Mount#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

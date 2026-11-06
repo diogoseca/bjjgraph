@@ -82,9 +82,6 @@ description: "Master the Cross Collar Choke from High Mount in BJJ. Complete gui
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Cross Collar Choke from High Mount targets the Neck. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Cross Collar Choke/from High Mount/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 
 - Patient grip fighting from high mount is sustainable; the position favors you in any attrition exchange
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

@@ -10,8 +10,6 @@ description: "Defend the Cross Collar Choke from Mount with grip stripping, post
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Cross Collar Choke from Mount targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -249,6 +247,8 @@ Defending the Cross Collar Choke from Mount requires early recognition of grip e
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Cross Collar Choke/from Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "Learn to defend and escape the belly down armbar finish from open 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from Open Guard targets the Elbow joint hyperextension and ulnar collateral ligament. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -241,6 +239,8 @@ Defending the belly down armbar finish from open guard requires recognizing the 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Belly Down Armbar/from Open Guard#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

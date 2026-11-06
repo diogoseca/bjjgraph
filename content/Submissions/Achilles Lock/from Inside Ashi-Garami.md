@@ -92,9 +92,6 @@ description: "Master the Achilles Lock from Inside Ashi-Garami in BJJ. Blade pla
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Achilles Lock from Inside Ashi-Garami targets the Achilles tendon and ankle joint. Primary risk: Achilles tendon rupture or partial tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="part-of-family"><em>Part of the</em> <strong>Achilles Lock</strong> <em>family</em></p>
 </aside>
@@ -191,6 +188,8 @@ The Achilles Lock is legal at every IBJJF belt level in both gi and no-gi, which
 
 - Ramp slowly on every repetition; the tendon fails faster than a partner can tap
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

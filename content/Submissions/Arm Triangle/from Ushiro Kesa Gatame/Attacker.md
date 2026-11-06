@@ -10,8 +10,6 @@ description: "Step-by-step guide to finishing the Arm Triangle from Ushiro Kesa 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Triangle from Ushiro Kesa Gatame targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from blood choke. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ The Arm Triangle from Ushiro Kesa Gatame exploits the natural arm isolation of t
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Arm Triangle/from Ushiro Kesa Gatame#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

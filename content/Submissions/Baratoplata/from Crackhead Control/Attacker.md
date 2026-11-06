@@ -10,8 +10,6 @@ description: "A Baratoplata attempt from Crackhead Control requires a separate D
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Baratoplata from Crackhead Control targets the Shoulder joint. Risk: Shoulder joint injury from excessive pressure. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -263,6 +261,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Baratoplata/from Crackhead Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

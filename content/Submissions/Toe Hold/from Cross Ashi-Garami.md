@@ -82,9 +82,6 @@ description: "Master the toe hold from cross ashi-garami with grip mechanics, ro
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Cross Ashi-Garami targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Cross Ashi-Garami/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 
 - Stay prepared to transition immediately to heel hook or ankle lock if the opponent straightens their leg to defend the toe hold grip
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

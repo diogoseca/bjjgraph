@@ -92,9 +92,6 @@ description: "Master Armbar from Crucifix in BJJ. Complete guide with safety pro
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from Crucifix targets the Elbow joint. Primary risk: Elbow hyperextension. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from Crucifix/Attacker|Play as Attacker]]
@@ -186,6 +183,8 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 - Finish with hip extension, not by pulling on the arm - let your largest muscle groups do the work
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

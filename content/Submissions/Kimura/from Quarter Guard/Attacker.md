@@ -10,8 +10,6 @@ description: "Learn to attack with the Kimura from Quarter Guard top position. S
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Quarter Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking the Kimura from Quarter Guard requires integrating submission mechanic
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kimura/from Quarter Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

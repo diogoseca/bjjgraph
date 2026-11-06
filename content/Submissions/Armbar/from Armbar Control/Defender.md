@@ -10,8 +10,6 @@ description: "How to defend against the Armbar Finish in BJJ. Recognition cues, 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Armbar Control targets the Elbow. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -269,6 +267,8 @@ Strategically, the defender must recognize the difference between early-phase de
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Armbar/from Armbar Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

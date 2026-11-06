@@ -10,8 +10,6 @@ description: "Defend the Mounted Crucifix Armbar in BJJ. Recognition cues, hand 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Mounted Crucifix Armbar from Mounted Crucifix targets the Shoulder and elbow joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -198,6 +196,8 @@ Defending the Mounted Crucifix Armbar presents unique challenges because your no
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

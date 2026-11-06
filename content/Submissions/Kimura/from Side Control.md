@@ -92,9 +92,6 @@ description: "Master the Kimura from Side Control in BJJ. Comprehensive guide co
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Side Control targets the Shoulder joint (rotation and elevation). Primary risk: Shoulder dislocation (anterior or posterior). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Side Control/Attacker|Play as Attacker]]
@@ -186,6 +183,8 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 - Keep your base wide and stable throughout the submission sequence
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

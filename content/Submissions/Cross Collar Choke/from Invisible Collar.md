@@ -105,9 +105,6 @@ description: "Cross Collar Choke from Invisible Collar requires jacket grips. Es
 <span class="meta-chip">gi only</span>
 </div>
 
-> [!danger] Safety
-> Cross Collar Choke from Invisible Collar targets the Sides of the neck via crossed forearms and collar tension. Primary risk: Neck or jaw injury from misaligned pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Cross Collar Choke/from Invisible Collar/Attacker|Play as Attacker]]
@@ -213,6 +210,8 @@ _3 of these outcomes do not exist in no-gi and carry no probability here. The ou
 
 - Release both grips: Open the hands at the first tap or change in normal responsiveness.
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

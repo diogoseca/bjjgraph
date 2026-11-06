@@ -10,8 +10,6 @@ description: "How to defend against Spine Lock in BJJ. Recognition, escape paths
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Spine Lock from Truck targets the Lumbar spine, thoracic vertebrae, spinal column. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -201,6 +199,8 @@ The defensive framework centers on three sequential priorities: first, prevent f
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Spine Lock/from Truck#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

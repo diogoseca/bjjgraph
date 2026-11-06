@@ -92,9 +92,6 @@ description: "Master the North-South Choke from Ushiro Kesa Gatame Hold. Complet
 <span class="meta-chip">42% success</span>
 </div>
 
-> [!danger] Safety
-> North-South Choke from Ushiro Kesa Gatame targets the Neck (Carotid Arteries). Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/North-South Choke/from Ushiro Kesa Gatame/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 
 - Sprawl your legs backward and drive hips forward to increase pressure through the choking structure without lifting your chest off the opponent
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

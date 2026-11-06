@@ -82,9 +82,6 @@ description: "Learn Armbar from Triangle Control: retain the triangle entangleme
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from Triangle Control targets the Elbow. Primary risk: Elbow hyperextension with collateral ligament sprain or tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from Triangle Control/Attacker|Play as Attacker]]
@@ -164,6 +161,8 @@ Armbar from Triangle Control is a distinct submission state: the bottom player r
 
 - Release immediately at a tap; the arm attack and choke must both be released.
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

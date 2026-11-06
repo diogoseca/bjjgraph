@@ -10,8 +10,6 @@ description: "Learn to execute the cross collar choke from closed guard with dee
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Cross Collar Choke from Closed Guard targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -299,6 +297,8 @@ Executing the cross collar choke from closed guard requires establishing a deep 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Cross Collar Choke/from Closed Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

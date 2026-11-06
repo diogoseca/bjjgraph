@@ -10,8 +10,6 @@ description: "Learn to finish the heel hook from Honey Hole with precise grip me
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from Honey Hole targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ The heel hook from Honey Hole is the premier finishing technique in modern leg l
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Heel Hook/from Honey Hole#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

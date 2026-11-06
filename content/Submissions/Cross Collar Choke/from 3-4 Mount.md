@@ -82,9 +82,6 @@ description: "Master the cross collar choke from 3-4 mount in BJJ. Complete guid
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Cross Collar Choke from 3-4 Mount targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Cross Collar Choke/from 3-4 Mount/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ The 3-4 mount also allows the attacker to use their posted leg to drive forward 
 
 - Elbow retraction toward the mat during the finish amplifies choking pressure through leverage rather than muscular strength
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

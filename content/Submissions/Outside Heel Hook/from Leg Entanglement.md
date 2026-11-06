@@ -92,9 +92,6 @@ description: "Master the outside heel hook from leg entanglement positions. Expe
 <span class="meta-chip">41% success</span>
 </div>
 
-> [!danger] Safety
-> Outside Heel Hook from Leg Entanglement targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: LCL tear (lateral collateral ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Outside Heel Hook/from Leg Entanglement/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ This technique carries extreme injury risk because knee ligaments provide minima
 
 - Clamp your knees together around the trapped leg to isolate the knee joint and prevent the opponent from spinning or rotating their leg to relieve torsional pressure
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

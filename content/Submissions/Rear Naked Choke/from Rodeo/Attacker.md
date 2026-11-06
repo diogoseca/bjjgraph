@@ -10,8 +10,6 @@ description: "Learn to finish the Rear Naked Choke from Rodeo Ride. Step-by-step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Rodeo targets the Neck. Risk: Loss of consciousness from sustained compression of carotid arteries cutting blood supply to the brain. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -265,6 +263,8 @@ Executing the Rear Naked Choke from Rodeo Ride requires integrating positional c
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Rear Naked Choke/from Rodeo#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

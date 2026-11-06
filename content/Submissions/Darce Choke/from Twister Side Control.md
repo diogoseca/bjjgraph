@@ -82,9 +82,6 @@ description: "Master the Darce Choke from Twister Side Control with detailed fin
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Darce Choke from Twister Side Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Darce Choke/from Twister Side Control/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ In competition, this variant carries a higher finishing rate than standard Darce
 
 - Recognize the turn-in response as the primary entry window and attack immediately when it appears
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

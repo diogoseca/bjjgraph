@@ -10,8 +10,6 @@ description: "How to execute Kimura from Half Guard in BJJ. Attacking perspectiv
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Half Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -279,6 +277,8 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kimura/from Half Guard#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

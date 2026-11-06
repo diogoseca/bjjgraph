@@ -102,9 +102,6 @@ description: "Master the Bow and Arrow Choke from Seat Belt back control. Learn 
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Bow and Arrow Choke from Seat Belt Control Back targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back/Attacker|Play as Attacker]]
@@ -208,6 +205,8 @@ Strategically, the bow and arrow creates a devastating dilemma when combined wit
 
 - Angle your pulling direction toward your own hip rather than straight back to optimize the choking vector across the neck
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

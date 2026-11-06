@@ -10,8 +10,6 @@ description: "Learn to attack with the toe hold from cross ashi-garami. Step-by-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Cross Ashi-Garami targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -257,6 +255,8 @@ Attacking with the toe hold from cross ashi-garami requires integrating your leg
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Toe Hold/from Cross Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -102,9 +102,6 @@ description: "Master the cross collar choke from closed guard with detailed grip
 <span class="meta-chip">10% success</span>
 </div>
 
-> [!danger] Safety
-> Cross Collar Choke from Closed Guard targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Cross Collar Choke/from Closed Guard/Attacker|Play as Attacker]]
@@ -206,6 +203,8 @@ Strategically, the cross collar choke threat from closed guard functions as an o
 
 - Thread the second grip decisively once posture is broken; hesitation allows the opponent to recognize the threat and begin defensive grip fighting
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

@@ -10,8 +10,6 @@ description: "How to defend against Americana from Mount in BJJ. Recognition, es
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Mount targets the Shoulder joint (rotator cuff). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -243,6 +241,8 @@ From a strategic perspective, the most effective americana defense creates offen
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Americana/from Mount#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

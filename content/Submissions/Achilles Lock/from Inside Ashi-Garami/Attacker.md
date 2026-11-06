@@ -10,8 +10,6 @@ description: "Capturing the foot, placing the blade on the tendon, and extending
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Achilles Lock from Inside Ashi-Garami targets the Achilles tendon and ankle joint. Risk: Achilles tendon rupture or partial tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -283,6 +281,8 @@ Your finish is decided by the order you do things in, not by how hard you extend
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Achilles Lock/from Inside Ashi-Garami#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

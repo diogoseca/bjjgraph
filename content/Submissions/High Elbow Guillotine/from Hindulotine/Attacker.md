@@ -10,8 +10,6 @@ description: "High Elbow Guillotine from Hindulotine (attacker): Control the low
 
 <body data-content-type="submissions">
 
-> **SAFETY**: High Elbow Guillotine from Hindulotine targets the Neck. Risk: Neck injury from forced extension or twisting. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -302,6 +300,8 @@ Raise the elbow through available space, never by wrenching the shoulder or neck
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/High Elbow Guillotine/from Hindulotine#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

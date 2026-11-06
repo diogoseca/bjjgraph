@@ -10,8 +10,6 @@ description: "Hindulotine from Hindulotine (defender): An elbow passing over the
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Hindulotine from Hindulotine targets the Neck, enclosed by the arm and raised rubber-guard leg. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -285,6 +283,8 @@ Protect the neck while denying the finishing hand: keep the head aligned and an 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Hindulotine/from Hindulotine#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -92,9 +92,6 @@ description: "Master the Inside Heel Hook from Honey Hole in BJJ. Complete guide
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Inside Heel Hook from Honey Hole targets the Knee and ankle joint. Primary risk: ACL (anterior cruciate ligament) tear from rotational force exceeding joint tolerance. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Inside Heel Hook/from Honey Hole/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ This submission demands absolute safety awareness. The rotational force attacks 
 
 - Treat every training application as if your partner's knee depends on your control—because it does
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

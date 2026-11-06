@@ -10,8 +10,6 @@ description: "Attack the Kimura from High Mount with precise figure-four grip me
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from High Mount targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -265,6 +263,8 @@ Attacking the Kimura from High Mount requires securing the figure-four grip on t
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kimura/from High Mount#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

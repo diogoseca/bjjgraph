@@ -10,8 +10,6 @@ description: "Learn to defend and escape the Short Choke from Back Control in BJ
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Short Choke from Back Control targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -249,6 +247,8 @@ Defending the Short Choke from Back Control demands early recognition and immedi
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Short Choke/from Back Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

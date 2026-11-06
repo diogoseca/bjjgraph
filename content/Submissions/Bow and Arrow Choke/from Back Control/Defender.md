@@ -10,8 +10,6 @@ description: "Learn to defend and escape the Bow and Arrow Choke from back contr
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Bow and Arrow Choke from Back Control targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -248,6 +246,8 @@ Defending the Bow and Arrow Choke from back control requires recognizing the att
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Bow and Arrow Choke/from Back Control#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

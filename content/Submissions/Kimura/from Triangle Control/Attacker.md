@@ -10,8 +10,6 @@ description: "Kimura from an established triangle entanglement, with attack and 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Triangle Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -209,6 +207,8 @@ Kimura from Triangle Control is a distinct submission state: the bottom player r
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Kimura/from Triangle Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

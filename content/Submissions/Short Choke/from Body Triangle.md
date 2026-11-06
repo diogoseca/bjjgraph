@@ -61,9 +61,6 @@ description: "Master the short choke from body triangle in BJJ. Learn lapel feed
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Short Choke from Body Triangle targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Short Choke/from Body Triangle/Attacker|Play as Attacker]]
@@ -131,6 +128,8 @@ What distinguishes this variant from other short choke entries is the stability 
 
 - Be patient with the lapel feed rather than forcing it—rushed attempts telegraph your intention and give the defender time to tuck their chin
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

@@ -92,9 +92,6 @@ description: "Master the arm triangle choke from turtle position in BJJ. Learn s
 <span class="meta-chip">55% success</span>
 </div>
 
-> [!danger] Safety
-> Arm Triangle from Turtle targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm Triangle/from Turtle/Attacker|Play as Attacker]]
@@ -188,6 +185,8 @@ At the competition level, this submission serves as a powerful secondary attack 
 
 - Walk hips toward the opponent during the finish to generate squeeze pressure through structural alignment rather than muscular effort
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

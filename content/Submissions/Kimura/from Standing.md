@@ -92,9 +92,6 @@ description: "Master the Kimura from Standing in BJJ. Complete safety guide with
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Standing targets the Shoulder joint, rotator cuff, and posterior shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Standing/Attacker|Play as Attacker]]
@@ -186,6 +183,8 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 - **Grip security over speed** - Prioritize unbreakable grip establishment and control maintenance rather than rushing to finishing position
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

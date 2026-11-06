@@ -10,8 +10,6 @@ description: "Thread and finish the D'Arce from Side Control, with a controlled 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Darce Choke from Side Control targets the Sides of the neck, with the trapped shoulder completing the head-and-arm choke. Risk: Loss of consciousness from neck compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -307,6 +305,8 @@ Contain the opponent's head and arm before committing to the finish. The choking
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Darce Choke/from Side Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

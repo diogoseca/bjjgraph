@@ -10,8 +10,6 @@ description: "How to execute Rolling Omoplata in BJJ. Attacking perspective with
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rolling Omoplata from Omoplata Control targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -261,6 +259,8 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

@@ -10,8 +10,6 @@ description: "Learn to attack with the Peruvian Necktie from front headlock. Ste
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Peruvian Necktie from Front Headlock targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking with the Peruvian Necktie from front headlock requires precise grip po
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Peruvian Necktie/from Front Headlock#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

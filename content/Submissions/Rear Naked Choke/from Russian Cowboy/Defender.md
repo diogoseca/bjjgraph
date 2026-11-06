@@ -10,8 +10,6 @@ description: "Defend the Rear Naked Choke from Russian Cowboy. Recognition cues,
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Russian Cowboy targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -231,6 +229,8 @@ Defending the Rear Naked Choke from Russian Cowboy requires addressing the immed
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Rear Naked Choke/from Russian Cowboy#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

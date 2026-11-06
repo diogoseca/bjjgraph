@@ -10,8 +10,6 @@ description: "Learn to defend the Arm Triangle from Kesa Gatame. Recognize the g
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Triangle from Kesa Gatame targets the Carotid arteries (compressed by opponent's own shoulder and your forearm). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -273,6 +271,8 @@ Defending the Arm Triangle from Kesa Gatame requires recognizing the critical tr
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Arm Triangle/from Kesa Gatame#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

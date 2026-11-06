@@ -10,8 +10,6 @@ description: "Defend against the Kimura from Lockdown half guard in BJJ. Recogni
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Lockdown targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -230,6 +228,8 @@ Defending the Kimura from Lockdown requires addressing both the shoulder lock th
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kimura/from Lockdown#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

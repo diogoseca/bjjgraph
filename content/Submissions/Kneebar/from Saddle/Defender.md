@@ -10,8 +10,6 @@ description: "How to defend against the kneebar from Saddle in BJJ. Recognition 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Saddle targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -252,6 +250,8 @@ Critical safety awareness is non-negotiable when defending kneebars from the Sad
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Kneebar/from Saddle#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

@@ -82,9 +82,6 @@ description: "Master the Twister spinal lock from Twister Side Control with step
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Twister from Twister Side Control targets the Cervical and thoracic spine, shoulder girdle. Primary risk: Cervical spine damage (neck injury). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Twister/from Twister Side Control/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ The twister carries extreme injury risk to the spine and neck, demanding excepti
 
 - Maintain base with the outside leg posted wide to prevent bridge-and-roll reversals during the finishing sequence
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

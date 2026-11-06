@@ -82,9 +82,6 @@ description: "Master the Kimura from Ushiro Kesa Gatame with expert finishing me
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Ushiro Kesa Gatame targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Ushiro Kesa Gatame/Attacker|Play as Attacker]]
@@ -170,6 +167,8 @@ Strategically, this Kimura variant functions as both a direct finishing tool and
 
 - Threaten the Americana simultaneously to create a two-directional dilemma on the shoulder joint
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

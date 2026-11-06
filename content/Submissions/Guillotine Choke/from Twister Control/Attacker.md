@@ -10,8 +10,6 @@ description: "Learn to attack with the guillotine choke from Twister Control. St
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Guillotine Choke from Twister Control targets the Carotid arteries and windpipe. Risk: Trachea damage or crush injury from misaligned choking pressure. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking with the guillotine from Twister Control requires reading the opponent
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> [[Submissions/Guillotine Choke/from Twister Control#safety-considerations|Release immediately upon tap ↓]]
 
 ## Execution Steps
 

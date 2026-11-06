@@ -102,9 +102,6 @@ description: "Master the Kimura shoulder lock from New York Control rubber guard
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from New York Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from New York Control/Attacker|Play as Attacker]]
@@ -206,6 +203,8 @@ The finishing mechanics require precise hip escape movement to create the rotati
 
 - Patience during the finish prevents defensive scrambles and allows progressive pressure that forces the tap
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

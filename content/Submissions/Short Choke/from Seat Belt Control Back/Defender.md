@@ -10,8 +10,6 @@ description: "Defend against the Short Choke from Seat Belt Control Back. Recogn
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Short Choke from Seat Belt Control Back targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -255,6 +253,8 @@ Defending the Short Choke from Seat Belt Control Back requires recognizing the c
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> [[Submissions/Short Choke/from Seat Belt Control Back#safety-considerations|Tap early and often ↓]]
 
 ## Defensive Options
 

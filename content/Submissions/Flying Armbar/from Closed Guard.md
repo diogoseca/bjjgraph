@@ -102,9 +102,6 @@ description: "Master the Flying Armbar technique in BJJ. High-risk aerial submis
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Flying Armbar from Closed Guard targets the Elbow joint and shoulder. Primary risk: Elbow hyperextension or ligament tears (opponent). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Flying Armbar/from Closed Guard/Attacker|Play as Attacker]]
@@ -208,6 +205,8 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 - Immediate arm extension: Once airborne, pull the arm across your centerline and extend hips to create finishing pressure
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 

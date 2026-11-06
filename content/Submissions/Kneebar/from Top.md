@@ -92,9 +92,6 @@ description: "Master the Kneebar from Top positions in BJJ. Complete safety guid
 <span class="meta-chip">55% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Top targets the Knee joint (tibial plateau, popliteal ligaments, meniscus). Primary risk: Knee hyperextension and ligament damage (ACL, PCL, MCL tears). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Top/Attacker|Play as Attacker]]
@@ -190,6 +187,8 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 
 - **Competition vs Training Distinction**: Training kneebarring emphasizes technical precision, control maintenance, and partner safety through slow application; competition application involves faster entries, tighter control, and finish-oriented mechanics—conflating these contexts creates injury risk
 
+
+> [Release immediately upon tap ↓](#safety-considerations)
 
 ### Execution Steps
 
