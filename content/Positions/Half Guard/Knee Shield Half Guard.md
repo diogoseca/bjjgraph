@@ -187,29 +187,31 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 - **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (5% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (9% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (8% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
 
 - **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (9% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (10% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (9% of attempts)
 
 - **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (2% of attempts)
 
-- **[[Submissions/Kimura/from Knee Shield Half Guard/Attacker|Kimura from Knee Shield Half Guard]]** (7% of attempts)
+- **[[Submissions/Kimura/from Knee Shield Half Guard/Attacker|Kimura from Knee Shield Half Guard]]** (6% of attempts)
 
-- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (17% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (15% of attempts)
 
 - **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (4% of attempts)
 
-- **[[Transitions/Knee Shield Half Guard to Z-Guard/Attacker|Knee Shield Half Guard to Z-Guard]]** (8% of attempts)
+- **[[Transitions/Knee Shield Half Guard to Z-Guard/Attacker|Knee Shield Half Guard to Z-Guard]]** (7% of attempts)
 
-- **[[Transitions/Knee Shield to Closed Guard/Attacker|Knee Shield to Closed Guard]]** (6% of attempts)
+- **[[Transitions/Knee Shield to Closed Guard/Attacker|Knee Shield to Closed Guard]]** (5% of attempts)
 
-- **[[Transitions/Underhook from Knee Shield/Attacker|Underhook from Knee Shield]]** (14% of attempts)
+- **[[Transitions/Underhook from Knee Shield/Attacker|Underhook from Knee Shield]]** (13% of attempts)
 
 - **[[Transitions/Sweep from Knee Shield/Attacker|Sweep from Knee Shield]]** (4% of attempts)
+
+- **[[Transitions/John Wayne Sweep/Attacker|John Wayne Sweep]]** (8% of attempts)
 
 
 ### Common Mistakes

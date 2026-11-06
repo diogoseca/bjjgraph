@@ -85,7 +85,7 @@ description: "How to execute Back Step Pass in BJJ. Attacking perspective with s
       "name": "What position do you start Back Step Pass from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Back Step Pass starts from Inverted Guard/Top, when the bottom player's inverted legwork threatens your lower limbs. Specifically, it is triggered when their inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your legs."
+        "text": "The Back Step Pass starts from Inverted Guard/Top, when the bottom player's inverted legwork threatens your lower limbs. Specifically, it is triggered when their inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your legs. It can also start from Half Guard/Top or Headquarters Position/Top when forward passing stalls."
       }
     },
     {
@@ -182,7 +182,7 @@ description: "How to execute Back Step Pass in BJJ. Attacking perspective with s
 
 <section id="overview" class="content-section">
 
-The Back Step Pass is a critical guard passing technique used to escape leg entanglement danger when facing inverted guards like Inverted Guard. Unlike forward-pressure passes that feed into the bottom player's sweeping and leg attack mechanics, the back step uses retrograde movement to extract your leg from entanglement while simultaneously creating a passing angle toward side control.
+The Back Step Pass is a critical guard passing technique used to escape leg entanglement danger when facing inverted guards like Inverted Guard. Unlike forward-pressure passes that feed into the bottom player's sweeping and leg attack mechanics, the back step uses retrograde movement to extract your leg from entanglement while simultaneously creating a passing angle toward side control. The same back step is also the standard switch from Half Guard top when forward passing stalls or they win the underhook, and the rotating pass from Headquarters Position when they block the knee cut.
 
 This technique operates on a fundamental principle: when your leg becomes endangered by hooks, threads, or rotational attacks, stepping backward removes the lever the opponent needs to complete their technique. The back step is not merely a defensive retreat—it's a positional repositioning that converts defensive necessity into passing opportunity. As your stepping leg clears the entanglement zone, your weight shifts forward over the opponent's torso, flattening their inverted posture and establishing the perpendicular alignment characteristic of side control.
 
@@ -217,7 +217,7 @@ The back step is particularly valuable against modern leg lock systems where pra
 
 <p class="section-subtitle">What do you need before attempting Back Step Pass?</p>
 
-- Standing or low combat base position facing opponent's inverted guard
+- Standing or low combat base position facing opponent's inverted guard, or on top in Half Guard or Headquarters Position when the forward pass stalls
 - Recognition that one leg is becoming endangered by hook or threading attempt
 - Sufficient space behind the endangered leg to step backward without obstruction
 - Weight distributed to allow quick transfer between legs during movement

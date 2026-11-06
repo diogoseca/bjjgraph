@@ -171,6 +171,10 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 
 - **[[Transitions/Lapel Guard to Piranha Guard/Attacker|Lapel Guard to Piranha Guard]]** (gi only)
 
+- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (gi only)
+
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (gi only)
+
 
 ### Common Mistakes
 

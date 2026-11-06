@@ -21,13 +21,13 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,7 +39,7 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {

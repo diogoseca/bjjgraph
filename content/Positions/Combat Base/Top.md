@@ -21,7 +21,7 @@ description: "Master Combat Base in BJJ. Essential guard passing platform with 7
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slide from Combat Base",
-      "text": "From this position, attempt Knee Slide from Combat Base. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slide from Combat Base. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,7 +39,7 @@ description: "Master Combat Base in BJJ. Essential guard passing platform with 7
     {
       "@type": "HowToStep",
       "name": "Execute Combat Base to Headquarters",
-      "text": "From this position, attempt Combat Base to Headquarters. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Combat Base to Headquarters. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master Combat Base in BJJ. Essential guard passing platform with 7
     {
       "@type": "HowToStep",
       "name": "Execute Standing Up from Combat Base",
-      "text": "From this position, attempt Standing Up from Combat Base. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Standing Up from Combat Base. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -215,25 +215,33 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 ### Available Transitions
 
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (13% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (11% of attempts)
 
-- **[[Transitions/Technical Stand Up from Ground/Attacker|Technical Stand Up from Ground]]** (9% of attempts)
+- **[[Transitions/Technical Stand Up from Ground/Attacker|Technical Stand Up from Ground]]** (8% of attempts)
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (20% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (17% of attempts)
 
 - **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (2% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (18% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (15% of attempts)
 
-- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (9% of attempts)
+- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (8% of attempts)
 
 - **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (gi only)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (9% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (8% of attempts)
 
-- **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (4% of attempts)
+- **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (3% of attempts)
 
-- **[[Transitions/Foot Grab Sweep/Attacker|Foot Grab Sweep]]** (16% of attempts)
+- **[[Transitions/Foot Grab Sweep/Attacker|Foot Grab Sweep]]** (13% of attempts)
+
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (5% of attempts)
+
+- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (gi only)
+
+- **[[Transitions/Open Guard to Feet on Hips Guard/Attacker|Open Guard to Feet on Hips Guard]]** (5% of attempts)
+
+- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (5% of attempts)
 
 
 ### Common Mistakes

@@ -109,7 +109,7 @@ description: "Master executing the level change takedown. Step-by-step guide cov
       "name": "They start a guillotine during your shot: what decides whether you drive through or abort?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The critical factor is your head position relative to their hip. If your head is on the inside of their hip with strong forward pressure, continue driving through to side control where the guillotine loses most of its effectiveness due to the angle change and your body weight pressuring their grip. If your head is on the outside with their hips squared and a deep grip locked around your neck, abort by posturing up immediately, stripping the grip with both hands, and disengaging before they close their guard."
+        "text": "The critical factor is your head position relative to their hip. If your head is on the inside of their hip with strong forward pressure, continue driving through to side control where the guillotine loses most of its effectiveness due to the angle change and your body weight pressuring their grip. If your head is on the outside with their hips squared and a deep grip locked around your neck, abort by posturing up immediately, stripping the grip with both hands, and disengaging before it tightens."
       }
     },
     {
@@ -285,7 +285,7 @@ Executing the level change takedown requires coordinating multiple technical ele
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 55% |
 | Failure | [[Positions/Standing Position]] | 30% |
-| Counter | [[Positions/Open Guard]] | 15% |
+| Counter | [[Positions/Guillotine Control]] | 15% |
 
 
 </section>
@@ -297,7 +297,7 @@ Executing the level change takedown requires coordinating multiple technical ele
 <p class="section-subtitle">How might your opponent counter Level Change Takedown?</p>
 
 - **Sprawl defense where opponent drives hips back and drops weight onto your upper back** (Effectiveness: High) - Your Response: If opponent sprawls early, redirect to a single leg by capturing the near leg and circling to the side. Use your head position to prevent them from establishing front headlock control and keep driving forward to prevent them from settling their sprawl weight. → Leads to [[Positions/Standing Position]]
-- **Guillotine attempt wrapping your neck as you shoot with head exposed** (Effectiveness: Medium) - Your Response: Keep your head on the inside of their hip and maintain aggressive forward pressure. If they lock a guillotine, drive through to side control where the choke loses effectiveness due to the angle change. Never stop moving forward once a guillotine is being applied during a shot. → Leads to [[Positions/Open Guard]]
+- **Guillotine attempt wrapping your neck as you shoot with head exposed** (Effectiveness: Medium) - Your Response: Keep your head on the inside of their hip and maintain aggressive forward pressure. If they lock a guillotine, drive through to side control where the choke loses effectiveness due to the angle change. Never stop moving forward once a guillotine is being applied during a shot. If it catches the shot, you land in Guillotine Control, bottom, and it costs you. → Leads to [[Positions/Guillotine Control]]
 - **Crossface and hip check redirecting your shot angle before you secure legs** (Effectiveness: Medium) - Your Response: Change shooting angle by sliding your penetration step to the other side. Use the contact to transition from double leg to single leg on the far leg, or drop to an ankle pick. The crossface creates a pivot point you can work around rather than fighting through directly. → Leads to [[Positions/Standing Position]]
 - **Knee block or downward pressure stuffing the penetration step entry** (Effectiveness: Low) - Your Response: Drive through the block with superior forward pressure and hip drive. If the knee blocks your penetration step, angle off to the open side and finish as a single leg. Alternatively, use the stalled position to switch to an inside trip or body lock finish that bypasses the leg defense entirely. → Leads to [[Positions/Standing Position]]
 

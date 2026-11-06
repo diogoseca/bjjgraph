@@ -1619,14 +1619,14 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "a99992434de2ef2d41641b2125a79ec15c5f5734",
-   "capture_id": "af12071c744643ea8564a0619b4e5703",
+   "capture_git_head": "d8622a8563219478da69a163b9a590c509f25f0f",
+   "capture_id": "01678a50dbc4409a85b47f5bd7513530",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6331,
    "content_md": 4549,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "84560ee2ef57c76d302d453a6f117502c1d6011c",
+   "content_tree": "626e07162a5d5c703ee00ba9f441d91c9b17d985",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -1650,12 +1650,12 @@
     }
    },
    "output_identity": {
-    "files": 15827,
-    "sha256": "adef659bcf2dc5b47201147cce9f7d047cc6cb8af5373fcf2fdf0474f70752d8"
+    "files": 15828,
+    "sha256": "45354e071f13a4c788e68475c42ffa9dcd1e06426c45212cf761632c19c85c7f"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/safety-last/capture/caps1-a99992434/pr-safety-last-a99992434"
+    "/home/user/bjj-orchestrator/scratch/fixes-b3/capture/capf3-d8622a856/pr-graph-fixes-b3-d8622a856"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"

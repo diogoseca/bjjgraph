@@ -859,8 +859,8 @@
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
@@ -868,20 +868,82 @@
         "attempt_probability": {
           "gi": 7,
           "nogi": 5
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 36,
+          "nogi": 36
+        },
+        "outcomes": [
+          {
+            "to": "Deep Half Guard/Bottom",
+            "probability": {
+              "gi": 36,
+              "nogi": 36
+            },
+            "result": "success"
+          },
+          {
+            "to": "Knee Shield Half Guard/Bottom",
+            "probability": {
+              "gi": 40,
+              "nogi": 40
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Flattened Half Guard/Bottom",
+            "probability": {
+              "gi": 24,
+              "nogi": 24
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
           "gi": 8,
           "nogi": 9
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 38,
+          "nogi": 39
+        },
+        "outcomes": [
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 39,
+              "nogi": 39
+            },
+            "result": "success"
+          },
+          {
+            "to": "Knee Shield Half Guard/Bottom",
+            "probability": {
+              "gi": 37,
+              "nogi": 37
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 24,
+              "nogi": 24
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 10
+          "gi": 5,
+          "nogi": 9
         }
       },
       {
@@ -894,15 +956,15 @@
       {
         "transition": "Kimura from Knee Shield Half Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
+          "gi": 5,
+          "nogi": 6
         }
       },
       {
         "transition": "Knee Shield Retention",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 17
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
@@ -915,22 +977,22 @@
       {
         "transition": "Knee Shield Half Guard to Z-Guard",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 8
+          "gi": 8,
+          "nogi": 7
         }
       },
       {
         "transition": "Knee Shield to Closed Guard",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 5
         }
       },
       {
         "transition": "Underhook from Knee Shield",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 14
+          "gi": 12,
+          "nogi": 13
         }
       },
       {
@@ -939,6 +1001,52 @@
           "gi": 4,
           "nogi": 4
         }
+      },
+      {
+        "transition": "John Wayne Sweep",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 36,
+          "nogi": 36
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 36,
+              "nogi": 36
+            },
+            "result": "success"
+          },
+          {
+            "to": "Knee Shield Half Guard/Bottom",
+            "probability": {
+              "gi": 32,
+              "nogi": 32
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "failure"
+          }
+        ]
       }
     ],
     "clips": [

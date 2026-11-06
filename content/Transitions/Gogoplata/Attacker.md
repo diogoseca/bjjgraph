@@ -51,7 +51,7 @@ description: "How to execute Gogoplata in BJJ. Attacking perspective with setup,
     {
       "@type": "HowToStep",
       "name": "Apply finishing pressure",
-      "text": "Pull opponent's head forcefully down into your shin using your grip behind their head while simultaneously extending your hip to drive your shin into their throat. The finish combines pulling and pressing - your arms pull the head while your hip extension drives the shin. Maintain constant pressure until tap or unconsciousness.",
+      "text": "Pull opponent's head forcefully down into your shin using your grip behind their head while simultaneously extending your hip to drive your shin into their throat. The finish combines pulling and pressing - your arms pull the head while your hip extension drives the shin. Maintain constant pressure until tap.",
       "position": 6
     }
   ],
@@ -290,7 +290,7 @@ Competition footage shows the Gogoplata succeeding primarily when opponents are 
 3. **Thread the attacking foot**: Circle your attacking foot up and over their shoulder, threading it behind their head. Your shin bone should be positioned to cross their throat at the trachea level. The foot travels in an arc motion, coming from outside their shoulder and curling behind their head. Keep your hip elevated to create the necessary range of motion.
 4. **Secure head control**: Both hands now reach behind opponent's head, interlocking your fingers or grabbing wrist-to-wrist at the back of their skull. Your grip should be directly on the occipital bone area, not on the neck. This creates the pulling mechanism that drives their throat into your shin.
 5. **Create finishing angle**: Hip out slightly to the side opposite your attacking leg, creating an angle that prevents opponent from stacking directly over you. Your non-attacking leg can hook their hip or post on the mat for additional control. Keep your hips elevated off the mat - flat hips equal failed submission.
-6. **Apply finishing pressure**: Pull opponent's head forcefully down into your shin using your grip behind their head while simultaneously extending your hip to drive your shin into their throat. The finish combines pulling and pressing - your arms pull the head while your hip extension drives the shin. Maintain constant pressure until tap or unconsciousness.
+6. **Apply finishing pressure**: Pull opponent's head forcefully down into your shin using your grip behind their head while simultaneously extending your hip to drive your shin into their throat. The finish combines pulling and pressing - your arms pull the head while your hip extension drives the shin. Maintain constant pressure until tap.
 
 
 </section>

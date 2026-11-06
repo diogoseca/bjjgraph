@@ -88,7 +88,8 @@ function hands(a) {
 const TODAY = WIRE.nodes.filter((n) => n.absentAt).flatMap((n) => Object.entries(n.absentAt).flatMap(([fr, ps]) => ps.map((p) => [n, p, fr])));
 
 test("today the only absences are at states no-gi masks", () => {
-  assert.equal(TODAY.length, 4, "B2's 4 gi-only deal_here tables at states no-gi never reaches");
+  // 4 until v1.250.2: H52 added Technical Stand Up to Single Leg at Lapel Guard, which no-gi masks.
+  assert.equal(TODAY.length, 5, "the 5 gi-only deal_here tables at states no-gi never reaches");
   const a = app(WIRE, "nogi");
   for (const [n, posId, fr] of TODAY) {
     assert.equal(fr, "nogi", n.t);
@@ -135,8 +136,8 @@ test("the app capture and _mdp_mechanics skip the same listings, in both ruleset
 
 // the flip case's states come from graph.json, NOT from the wire's absentAt, so a wire that dropped them
 // cannot make it vacuous: every deal_here listing whose no-gi attempt is null, at a state no-gi masks.
-// 7 today: 4 kept out of the no-gi hand by absentAt, and 3 whose MOVE the no-gi mask removes outright
-// (Tripod Sweep, Leg Extraction from Lapel Wrap, Collar Drag from Open Guard)
+// 9 today: 5 kept out of the no-gi hand by absentAt, and 4 whose MOVE the no-gi mask removes outright
+// (Tripod Sweep twice, Leg Extraction from Lapel Wrap, Collar Drag from Open Guard)
 const MASKED_NULL = (() => {
   const a = app(WIRE, "nogi"), out = [];
   for (const p of Object.values(GRAPH.positions)) for (const t of p.transitions || []) {
@@ -148,7 +149,8 @@ const MASKED_NULL = (() => {
 })();
 
 test("a flip to no-gi at a masked state never deals the gi-only table there (setGiMode does not re-seat)", () => {
-  assert.equal(MASKED_NULL.length, 7, "B2's gi-only deal_here tables at states no-gi masks");
+  // 7 until v1.250.2: H51 and H52 deal Tripod Sweep and Technical Stand Up to Single Leg at Lapel Guard.
+  assert.equal(MASKED_NULL.length, 9, "the gi-only deal_here tables at states no-gi masks");
   for (const [n, posId] of MASKED_NULL) {
     const a = app(WIRE, "gi");
     a._syncBelt = a._gameValueChanged = () => {};   // the belt and the value worker, not the hand
@@ -161,5 +163,5 @@ test("a flip to no-gi at a masked state never deals the gi-only table there (set
     assert.equal(a.currentPos, st.idx, "the flip does not re-seat");
     assert.equal(table().length, 0, `${n.t} at ${posId}: no-gi deals the gi-only table`);
   }
-  assert.equal(MASKED_NULL.filter(([n]) => n.absentAt).length, 4, "4 of them carried by absentAt");
+  assert.equal(MASKED_NULL.filter(([n]) => n.absentAt).length, 5, "5 of them carried by absentAt");
 });

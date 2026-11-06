@@ -139,22 +139,22 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 10
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Underhook Pass",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
@@ -162,7 +162,38 @@
         "attempt_probability": {
           "gi": 7,
           "nogi": 7
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 42,
+          "nogi": 42
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 42,
+              "nogi": 42
+            },
+            "result": "success"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 36,
+              "nogi": 36
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 22,
+              "nogi": 22
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Crossface Pass",
@@ -176,7 +207,38 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 6
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 30,
+          "nogi": 30
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 30,
+              "nogi": 30
+            },
+            "result": "success"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 50,
+              "nogi": 50
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Over-Under Pass",
@@ -266,7 +328,7 @@
         "transition": "Body Lock Pass",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 11
+          "nogi": 10
         }
       },
       {
@@ -289,6 +351,44 @@
           "gi": 3,
           "nogi": 3
         }
+      },
+      {
+        "transition": "Darce Setup",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 4
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 31,
+          "nogi": 35
+        },
+        "outcomes": [
+          {
+            "to": "Darce Control/Top",
+            "probability": {
+              "gi": 35,
+              "nogi": 35
+            },
+            "result": "success"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 49,
+              "nogi": 49
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "counter"
+          }
+        ]
       }
     ],
     "decision_tree": [
@@ -585,7 +685,38 @@
         "attempt_probability": {
           "gi": 3,
           "nogi": 4
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 35,
+          "nogi": 35
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 35,
+              "nogi": 35
+            },
+            "result": "success"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 46,
+              "nogi": 46
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 19,
+              "nogi": 19
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Deep Half Entry",
@@ -613,7 +744,38 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 6
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 31,
+          "nogi": 31
+        },
+        "outcomes": [
+          {
+            "to": "Dogfight Position/Bottom",
+            "probability": {
+              "gi": 31,
+              "nogi": 31
+            },
+            "result": "success"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 48,
+              "nogi": 48
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 21,
+              "nogi": 21
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Half Guard Recovery",

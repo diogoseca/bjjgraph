@@ -867,7 +867,46 @@
         "attempt_probability": {
           "gi": 6,
           "nogi": 7
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 34,
+          "nogi": 34
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 34,
+              "nogi": 34
+            },
+            "result": "success"
+          },
+          {
+            "to": "Leg Drag Control/Bottom",
+            "probability": {
+              "gi": 31,
+              "nogi": 31
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Turtle/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "failure"
+          }
+        ]
       },
       {
         "transition": "Leg Recovery to De La Riva",

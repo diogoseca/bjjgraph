@@ -252,12 +252,12 @@ The Arm Drag to Back from the attacker's perspective is about converting grip co
 
 <p class="section-subtitle">What do you need before attempting Arm Drag to Back?</p>
 
-- Establish butterfly guard position with both hooks active and opponent engaged within dragging range
+- Establish butterfly guard position with both hooks active and opponent engaged within dragging range; from Open Guard or Seated Guard, a close opponent's exposed or reaching arm allows this without butterfly hooks
 - Control opponent's wrist with same-side grip (right hand to their right wrist) with thumb-down C-grip
 - Secure grip on opponent's triceps or lat with opposite hand to create the two-point control frame
 - Opponent must have forward pressure or weight commitment that prevents them from simply pulling away
 - Your hips must be mobile and positioned to execute explosive hip escape away from drag side
-- Feet positioned with active butterfly hooks to provide elevation leverage during the drag
+- Feet positioned with active butterfly hooks to provide elevation leverage during the drag, when you start from butterfly guard
 - Upright seated posture maintained to generate pulling power and facilitate rotation
 
 

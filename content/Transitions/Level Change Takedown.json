@@ -30,7 +30,7 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Guillotine Control/Bottom",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -82,8 +82,8 @@
       "relationship": "Primary target position after successful takedown completion"
     },
     {
-      "name": "Open Guard",
-      "relationship": "Counter outcome when opponent pulls guard or establishes leg frames during shot entry"
+      "name": "Guillotine Control",
+      "relationship": "Counter outcome when a guillotine catches the shot: the shooter lands in Guillotine Control, bottom, and it costs them"
     },
     {
       "name": "Clinch",
@@ -184,8 +184,8 @@
       {
         "counter": "Guillotine attempt wrapping your neck as you shoot with head exposed",
         "effectiveness": "Medium",
-        "your_response": "Keep your head on the inside of their hip and maintain aggressive forward pressure. If they lock a guillotine, drive through to side control where the choke loses effectiveness due to the angle change. Never stop moving forward once a guillotine is being applied during a shot.",
-        "targets_outcome": "Open Guard/Top"
+        "your_response": "Keep your head on the inside of their hip and maintain aggressive forward pressure. If they lock a guillotine, drive through to side control where the choke loses effectiveness due to the angle change. Never stop moving forward once a guillotine is being applied during a shot. If it catches the shot, you land in Guillotine Control, bottom, and it costs you.",
+        "targets_outcome": "Guillotine Control/Bottom"
       },
       {
         "counter": "Crossface and hip check redirecting your shot angle before you secure legs",
@@ -313,7 +313,7 @@
       },
       {
         "question": "They start a guillotine during your shot: what decides whether you drive through or abort?",
-        "answer": "The critical factor is your head position relative to their hip. If your head is on the inside of their hip with strong forward pressure, continue driving through to side control where the guillotine loses most of its effectiveness due to the angle change and your body weight pressuring their grip. If your head is on the outside with their hips squared and a deep grip locked around your neck, abort by posturing up immediately, stripping the grip with both hands, and disengaging before they close their guard.",
+        "answer": "The critical factor is your head position relative to their hip. If your head is on the inside of their hip with strong forward pressure, continue driving through to side control where the guillotine loses most of its effectiveness due to the angle change and your body weight pressuring their grip. If your head is on the outside with their hips squared and a deep grip locked around your neck, abort by posturing up immediately, stripping the grip with both hands, and disengaging before it tightens.",
         "answer_line": "Head inside hip: drive through",
         "distractors": {
           "plausible": [
@@ -412,8 +412,8 @@
       {
         "action": "Guillotine counter by wrapping attacker's neck as they shoot with head exposed on the outside",
         "when_to_use": "When attacker's head drops below your chest level with exposed neck and poor head position during the shot entry",
-        "targets_outcome": "Open Guard/Top",
-        "if_successful": "Establish guillotine control that forces attacker to defend the choke rather than complete the takedown",
+        "targets_outcome": "Guillotine Control/Bottom",
+        "if_successful": "Establish guillotine control that forces attacker to defend the choke rather than complete the takedown: the shooter lands in Guillotine Control, bottom, and it costs them",
         "risk": "If grip is shallow or attacker drives through to side control, the guillotine becomes ineffective and you concede position"
       },
       {
@@ -424,11 +424,11 @@
         "risk": "If crossface is applied too high, attacker can duck under and finish the shot with inside head position"
       },
       {
-        "action": "Tactical guard pull to closed or butterfly guard when the shot is unavoidable and sprawl timing is missed",
-        "when_to_use": "When takedown is imminent because the attacker has secured leg contact and forward drive is overwhelming",
-        "targets_outcome": "Open Guard/Top",
-        "if_successful": "Establish a controlled guard position rather than being taken down to side control where opponent scores and has dominant position",
-        "risk": "Concedes takedown points if scored before guard is established, and places you on bottom where you must work to escape"
+        "action": "Late guillotine as the attacker closes the distance, when sprawl timing is missed",
+        "when_to_use": "When the attacker's head is clearly exposed on the outside and you can secure the grip before their chest connects with your thigh or hip",
+        "targets_outcome": "Guillotine Control/Bottom",
+        "if_successful": "The guillotine catches the shot rather than you being taken down to side control where opponent scores and has dominant position: the shooter lands in Guillotine Control, bottom, and it costs them",
+        "risk": "Concedes takedown points if the attacker finishes before the guillotine is secured, and leaves you under them in side control where you must work to escape"
       }
     ],
     "favorable_outcomes": [
@@ -437,8 +437,8 @@
         "how": "Sprawl immediately upon recognizing the level change, driving your hips back and down while posting on the attacker's head. Once their shot is stuffed, circle toward their head to establish front headlock or spin behind for a back take rather than simply returning to neutral standing where they can shoot again."
       },
       {
-        "outcome": "Open Guard/Top",
-        "how": "If the shot connects but you can wrap a guillotine around the attacker's neck as they shoot with exposed head position, pull guard with the guillotine established. This converts their offensive shot into a defensive crisis where they must address the choke before attempting to pass, giving you immediate offensive initiative from bottom position."
+        "outcome": "Guillotine Control/Bottom",
+        "how": "If you can wrap a guillotine around the attacker's neck as they shoot with exposed head position, secure it before their chest connects. This converts their offensive shot into a defensive crisis where they must address the choke: the shooter lands in Guillotine Control, bottom, and it costs them."
       }
     ],
     "common_errors": [
