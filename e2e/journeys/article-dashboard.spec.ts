@@ -46,6 +46,10 @@ import { journey } from '../dsl'
 //   read-more-scrolls      nothing moves above it (the reader scrolls as it opens)
 //   read-more-no-keyboard  Enter opens it (the key is swallowed)
 //   read-more-focus-to-top Tab carries on past it (focus thrown back to the first tile)
+//   training-closed-rows   one section closes as one (each phase listed in Hidden sections)
+//   training-closed-stays  a closed phase leaves no tile (an empty box per phase stays in the columns)
+//   training-index-first   the index follows Training through its last phase (the row reads the first tile alone)
+//   hub-one-opens-both     a hub's two Read mores open one at a time (the first opens the second)
 // RECORDED NON-KILLS (v1.251.0), so neither reads as coverage. line-dom-first-slide: on Mount/Bottom the block first in the source and
 // the block nearest the top are the same at both depths; line-dom-first kills that mutant on "opening Explore keeps the line".
 // read-more-no-reflow: with no observer on the tiles a later layout still sorts them, so the observer alone is not what this pins;
@@ -378,8 +382,8 @@ for (const depth of [0.3, 0.6]) {
 // landings are set by geometry, on a list item that wraps as the pane opens, so they hold at any page height.
 //   just under: the line holds on a block that barely starts inside the reader (wrapping-anchor-lost)
 //   clipped by: the anchor must be the next block, not the one that grows (reader-clipped-block-anchored)
-// RECORDED NON-KILL (v1.251.0): reader-rounding-remainder-dropped survives. The line drifts -0.266px at 720 and -0.234px at 1440 with
-// the remainder and without it, 3 runs each: #340's held line now does what the remainder did, so this journey cannot see it.
+// reader-rounding-remainder-dropped was a recorded non-kill (v1.251.0): the line drifted -0.266px at 720 and -0.234px at 1440 with the
+// remainder and without it, 3 runs each, because #340's held line now does that job. v1.251.1 deleted the code (U103 a's payment) and the control.
 // 720 is one column, so the block after the wrapping one is the line by any reading, and these are the journeys both controls kill.
 // At 1440 a block in the other column can be the nearest line, and it hides the wrap: both controls SURVIVE there (recorded).
 for (const [width, label, offset] of [[720, 'just under', 2], [720, 'clipped by', -10], [1440, 'just under', 2], [1440, 'clipped by', -10]] as const) {
@@ -552,6 +556,70 @@ test('closing a tile moves nothing before it, reflows what follows, and reopenin
   columns(back)
 })
 
+// U100 a: what the split is for, on the page that left the most behind. Training alone at the end left 1,191px under the other column here.
+const KNEE = '/Transitions/Knee-Slice-Pass/Attacker'
+test('U100 a at 1440x900 the phases fill both columns and the columns end together', async ({ page }) => {
+  await boot(page, 1440, 900, KNEE)
+  const d = await dashboard(page), left = (t: Dash['tiles'][number]) => Math.round(t.box.left)
+  columns(d)
+  const lanes = [...new Set(d.tiles.map(left))]
+  expect(new Set(d.tiles.filter(t => t.type === 'training').map(left)).size, 'the phases stand in both columns').toBe(2)
+  const ends = lanes.map(x => Math.max(...d.tiles.filter(t => left(t) === x).map(t => t.box.bottom)))
+  expect(Math.abs(ends[0] - ends[1]), `the columns end together (${ends})`).toBeLessThan(200)
+})
+
+// One section: its ✕ closes every phase, it counts once, and it comes back whole. Both of syncSections' branches: Chromium's atomic
+// moveBefore, and the path Safari and Firefox take without it, which moves the head into an empty closed row.
+for (const atomic of [true, false]) {
+  test(`U100 a closing Training closes every phase, leaves one label, and reopening brings them back (moveBefore ${atomic ? 'present' : 'absent'})`, async ({ page }) => {
+    const errors: string[] = []
+    page.on('pageerror', e => errors.push(e.message))
+    if (!atomic) await page.addInitScript(() => { delete (Element.prototype as any).moveBefore })
+    const j = await boot(page, 1024, 900, KNEE)
+    await expect(page.locator(READY)).not.toHaveAttribute('data-indexed', '')
+    expect(await page.evaluate(() => typeof (Element.prototype as any).moveBefore === 'function'), 'premise: the branch under test').toBe(atomic)
+    const close = page.locator('[data-section-toggle=training]'), summary = page.locator('.ng-reader-hidden>summary')
+    const before = await dashboard(page)
+    expect(before.dom.filter(t => t === 'training').length, 'premise: six phases').toBe(6)
+    await close.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+    await j.clickByMouse('[data-section-toggle=training]', 'the ✕ on the first tile')
+    await j.readerLayoutSettled()
+    const after = await dashboard(page)
+    expect(after.dom.filter(t => t === 'training'), 'no phase stays, open or empty').toEqual([])
+    await expect(summary, 'one section').toHaveText('Hidden sections (1)›')
+    expect(await page.evaluate(() => (window as any).__neural.get('readerSection.training', true)), 'one saved setting, by type').toBe(false)
+    columns(after)
+    await summary.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+    await j.clickByMouse('.ng-reader-hidden>summary', 'reveal the closed label')
+    await expect(close, 'one label').toHaveCount(1)
+    await close.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+    await j.clickByMouse('[data-section-toggle=training]', 'reopen from the label')
+    await j.readerLayoutSettled()
+    const back = await dashboard(page)
+    expect(back.dom, 'every phase is back, in order').toEqual(before.dom)
+    expect(back.tiles.map(t => [t.box.left, t.box.height]), 'each in its column, at its height').toEqual(before.tiles.map(t => [t.box.left, t.box.height]))
+    columns(back)
+    expect(errors, 'nothing throws').toEqual([])
+  })
+}
+
+// U9 b's row follows how much of its part is in view, and the part is all of Training. Short enough that the last phase can stand alone.
+test('U100 a the index row follows Training through its last phase', async ({ page }) => {
+  const j = await boot(page, 1440, 501, KNEE)
+  await expect(page.locator(READY)).toHaveAttribute('data-indexed', '')
+  const seen = await page.locator(READY).evaluate(e => new Promise<{ first: boolean, last: boolean }>(done => {
+    const cards = e.querySelectorAll('[data-reader-body]>[data-section-type=training]'), first = cards[0], last = cards[cards.length - 1], view = e.getBoundingClientRect()
+    e.scrollTop += last.getBoundingClientRect().bottom - view.bottom + 8
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      const a = first.getBoundingClientRect(), b = last.getBoundingClientRect()
+      done({ first: a.bottom < view.top || a.top > view.bottom, last: b.top >= view.top && b.bottom <= view.bottom })
+    }))
+  }))
+  expect(seen, 'premise: the first phase is off the reader and the last whole on it').toEqual({ first: true, last: true })
+  await j.readerLayoutSettled()
+  expect(await page.locator('[data-toc-type=training]').evaluate(e => +(e as HTMLElement).style.opacity), 'the row is lit').toBeGreaterThan(.8)
+})
+
 // U101 b: "Read more" opens the rest in place, one way, by real input. A tile's place depends only on the tiles before it, so nothing
 // before it moves, what follows reflows, and the line at the reader's top holds. read-more-stays, read-more-no-reflow.
 for (const path of ['/Positions/Mount/Top', '/Positions/Rubber-Guard/New-York/Bottom']) {
@@ -581,6 +649,30 @@ for (const path of ['/Positions/Mount/Top', '/Positions/Rubber-Guard/New-York/Bo
     columns(after)
   })
 }
+
+// U103 a: a hub has two, the shared section's and its seat's, and each opens on its own, in place. hub-one-opens-both.
+test('U103 a on a hub each Read more opens on its own, in place, by the mouse', async ({ page }) => {
+  const j = await boot(page, 1440, 900, '/Positions/Mount')
+  await expect(page.locator('[data-reward-close]')).toBeHidden({ timeout: 15000 })
+  await page.locator(READY).evaluate(e => { const t = e.querySelector('[data-reader-body]>[data-section-type=overview]')!; e.scrollTop += t.getBoundingClientRect().top - e.getBoundingClientRect().top - 90 })
+  await j.readerLayoutSettled()
+  const more = page.locator('[data-section-type=overview] details.ng-rm'), open = () => more.evaluateAll(all => all.map(x => (x as HTMLDetailsElement).open))
+  const before = await dashboard(page), at = before.dom.indexOf('overview')
+  expect(await open(), 'premise: two, both closed').toEqual([false, false])
+  await j.clickByMouse('[data-section-type=overview] [data-reader-article=hub] summary', 'the shared section\'s Read more')
+  await j.readerLayoutSettled()
+  const after = await dashboard(page)
+  expect(await open(), 'the shared section alone opened').toEqual([true, false])
+  expect(after.scrollTop, 'the reader stays where it was').toBe(before.scrollTop)
+  for (const [i, t] of before.tiles.slice(0, at).entries()) expect(after.tiles[i].box, `${t.type}, before it, did not move`).toEqual(t.box)
+  expect(after.tiles[at].box.height, 'the tile grew').toBeGreaterThan(before.tiles[at].box.height + 100)
+  columns(after)
+  await page.locator('[data-section-type=overview] [data-reader-article=guide] summary').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+  await j.clickByMouse('[data-section-type=overview] [data-reader-article=guide] summary', 'the seat\'s Read more')
+  await j.readerLayoutSettled()
+  expect(await open(), 'then the seat\'s').toEqual([true, true])
+  columns(await dashboard(page))
+})
 
 // The same by keyboard, and Tab goes on from there. A summary that hides itself must not send focus back to the page's start.
 test('Read more opens by the keyboard, and Tab carries on past it', async ({ page }) => {

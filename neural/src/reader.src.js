@@ -488,6 +488,7 @@ class Reader {
     // D-338: the index navigates and shows what is closed; it no longer opens or closes a
     // section (the section's own ✕ and label do), and "Section settings" is gone from it.
     for (const section of this.readingOrder(!!node)) {
+      if (section.more) continue;
       const row = element("div", { class: "ng-reader-toc-row", "data-toc-section": section.id, "data-toc-type": section.type });
       const link = element("a", { href: "#" + section.id, "data-section-link": section.id, "aria-label": "Go to " + section.title }, section.title);
       link.style.pointerEvents = "auto";
@@ -559,16 +560,20 @@ class Reader {
     // called 'overview.'" A position's section opens with its first sentences and "Read more" opens the rest in place, one way, so
     // the label goes with the opening. Every word stays in the DOM. The class, because Learning, Systems and Submission family
     // pages publish their own <details>, and a rule that hid their summaries would hide a question once it opened.
-    const wall = buckets.get(position && "overview")?.parts[0].node, paragraphs = [...(wall?.querySelectorAll?.(":scope>p") || [])];
-    if (paragraphs[0]) {
-      // The first sentence end at 240 characters or past it. No lookbehind: Safari below 16.4 cannot parse one, and a literal fails
-      // the whole module, on every article. tests/neural_bundle_regex.test.mjs pins that.
-      const html = paragraphs[0].innerHTML, lead = /^[^]{239,}?[.!?](?=\s+[A-Z])/.exec(html)?.[0] || html, more = element("details", { class: "ng-rm" });
-      paragraphs[0].innerHTML = lead;
-      more.append(element("summary", {}, "Read more"));
-      if (lead != html) { const rest = element("p"); rest.innerHTML = html.slice(lead.length); more.append(rest); }
-      more.append(...paragraphs.slice(1));
-      if (more.children[1]) wall.append(more);
+    // U103 a (owner, 2026-11-06): a bare hub too, on both of its text sections, the shared one and its seat's. Named by source id,
+    // because a hub's role links come first in the bucket and hold a <p> of their own.
+    for (const { node: wall } of position && buckets.get("overview")?.parts || []) if (wall.dataset?.sourceId == "overview") {
+      const paragraphs = [...wall.querySelectorAll(":scope>p")];
+      if (paragraphs[0]) {
+        // The first sentence end at 240 characters or past it. No lookbehind: Safari below 16.4 cannot parse one, and a literal fails
+        // the whole module, on every article. tests/neural_bundle_regex.test.mjs pins that.
+        const html = paragraphs[0].innerHTML, lead = /^[^]{239,}?[.!?](?=\s+[A-Z])/.exec(html)?.[0] || html, more = element("details", { class: "ng-rm" });
+        paragraphs[0].innerHTML = lead;
+        more.append(element("summary", {}, "Read more"));
+        if (lead != html) { const rest = element("p"); rest.innerHTML = html.slice(lead.length); more.append(rest); }
+        more.append(...paragraphs.slice(1));
+        if (more.children[1]) wall.append(more);
+      }
     }
     const order = position ? POSITION_ORDER : SECTION_ORDER;
     const ordered = [...buckets.values()].sort((a, b) => {
@@ -576,7 +581,13 @@ class Reader {
       // and one line above the steps carries the rule. Transitions share the section id and keep their place.
       const rank = x => submission && x.type === "safety" ? 99 : order.includes(x.type) ? order.indexOf(x.type) : x.type === "related" ? 100 : x.type === "sources" && reference ? 101 : 50;
       return rank(a) - rank(b);
-    });
+    }).flatMap(group => (transition || submission) && group.type == "training"
+      // U100 a (owner, 2026-11-06): each bold-led phase of Training is its own tile, so the section stops standing alone at the
+      // article's end (1,191px past the other column on Knee Slice Pass). Not a word changes, and no heading is invented: "Training 2"
+      // is the "1, 2, or 3 overviews" he rejected, and a phase opens with its own bold name. It is still one section: one index row,
+      // one ✕ on the first tile, one saved setting by type, one closed label. A position measured worse under this split, so it stays whole.
+      ? [group, ...[...group.parts[0].node.querySelectorAll(":scope>p:not([class])~p")].map(node => ({ ...group, more: 1, parts: [{ ...group.parts[0], node }] }))]
+      : group);
     this.sections = []; this.mediaSlot = null;
     this.tiles.disconnect();
     body.replaceChildren();
@@ -610,7 +621,8 @@ class Reader {
         if (sourceHeading && group.parts.length === 1) sourceHeading.classList.add("ng-section-source-title");
         fragment.append(part.node); content.append(fragment);
       }
-      card.setAttribute("aria-labelledby", heading.id); card.append(heading, content); body.append(card);
+      if (!group.more) { card.setAttribute("aria-labelledby", heading.id); card.append(heading); }
+      card.append(content); body.append(card);
       this.sections.push({ ...group, id, card, body: content, toggle, control });
       this.tiles.observe(card);
     });
@@ -640,7 +652,8 @@ class Reader {
       s.card.dataset.collapsed = String(!shown);
       // An open game part shows itself and its own ✕; only a closed one leaves its label.
       if (s.part) s.card.hidden = shown || !labels;
-      else { body.hidden = !shown; body.inert = !shown; (shown ? open : closed).push(s); }
+      // A phase's tile goes with Training's and leaves no label or Hidden sections row of its own.
+      else { body.hidden = !shown; body.inert = !shown; if (s.more) s.card.hidden = !shown; (shown ? open : s.more ? [] : closed).push(s); }
       s.row?.setAttribute("data-collapsed", String(!shown));
       if (s.toggle.getAttribute("aria-expanded") !== String(shown)) {
         s.toggle.setAttribute("aria-expanded", String(shown)); s.toggle.setAttribute("aria-label", (shown ? "Hide " : "Show ") + s.title);
@@ -934,7 +947,7 @@ class Reader {
     let best = null, most = 0;
     for (const s of [...this.gameSections, ...this.sections]) {
       if (!s.row) continue;
-      const parts = s.part ? [this.partEl(s.part), s.card] : [s.card, s.type === "videos" && this.media?.parentElement === this.mediaHome ? this.mediaHome : null];
+      const parts = s.part ? [this.partEl(s.part), s.card] : [...this.sections.filter(x => x.type == s.type).map(x => x.card), s.type === "videos" && this.media?.parentElement === this.mediaHome ? this.mediaHome : null];
       let seen = 0;
       for (const el of parts) {
         const r = el?.isConnected && !el.hidden && rect(el);
@@ -1349,15 +1362,7 @@ class Reader {
       // way each time, so the line crept 5px up and then lost the anchor to the block below it (26px).
       // SIDECX5: a partially clipped block above the top can wrap and move the first visible line;
       // anchor a block starting within the reader instead, retaining the rounded correction.
-      // U59 c: the rounding's remainder goes to the next pass. Each pass re-measures from where the last one left
-      // the line, so dropping it let the error add up over one slide (78.9 -> 73.95 at 1152px). A line starting that
-      // close to the reader's top then fell above it, lost the anchor, wrapped and jumped 31px. `was` is reused because
-      // the bundle shortens locals and this budget is nearly spent. The remainder cannot go stale: it is under a pixel.
-      if (keep) {
-        was = rect(keep).top - was + (this.rest || 0);
-        this.rest = was - (was = Math.round(was));
-        this.held = keep; this.heldAt = this.placeTop = root.scrollTop += was;
-      }
+      if (keep) { this.held = keep; this.heldAt = this.placeTop = root.scrollTop += Math.round(rect(keep).top - was); }
       this.laying = false;
     }
   }

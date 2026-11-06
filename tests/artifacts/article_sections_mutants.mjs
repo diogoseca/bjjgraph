@@ -362,9 +362,25 @@ const mutants = [
   // After the take-up, not before: a strip up from arrival died in j.openQuestion(), a preflight red that proved nothing.
   ['u99-fixed-over-answer', 'article-order.spec.ts', 'U99 at 1440x900 every answer', s => s, css => css + '\nbody:has(.ng-landcard:not([data-land-ask])):after{content:"";position:fixed;left:0;right:0;top:40%;height:60%;z-index:99;pointer-events:auto}\n'],
   ['u99-wheel-declines', 'article-order.spec.ts', 'U99 at 1440x640 the last answer', s => replace(s, '        if (this.gameInput(event)) return;\n        // Toolbar activation', '        if (this.gameInput(event) && type !== "wheel") return;\n        // Toolbar activation')],
+  // U100 a: each phase of Training its own tile, on Transitions and Submissions alone.
+  ['training-one-tile', 'article-order.spec.ts', 'U100 a /Transitions/Knee-Slice-Pass/Attacker', s => replace(s, '(transition || submission) && group.type == "training"', 'false')],
+  ['training-numbered', 'article-order.spec.ts', 'U100 a /Transitions/Knee-Slice-Pass/Attacker', s => replace(s, 'if (!group.more) { card.setAttribute("aria-labelledby", heading.id); card.append(heading); }', 'card.setAttribute("aria-labelledby", heading.id); card.append(heading);')],
+  ['training-text-lost', 'article-order.spec.ts', 'U100 a /Submissions/Armbar/from-Mount/Attacker', s => replace(s, 'more: 1, parts: [{ ...group.parts[0], node }]', 'more: 1, parts: [{ ...group.parts[0], node: (node.lastChild.remove(), node) }]')],
+  ['training-index-rows', 'article-order.spec.ts', 'U100 a /Transitions/Knee-Slice-Pass/Attacker', s => replace(s, '      if (section.more) continue;\n', '')],
+  ['training-flush', 'article-order.spec.ts', 'U100 a /Transitions/Knee-Slice-Pass/Attacker', s => s, css => replace(css, '.ng-section-body{padding:var(--reader-unit)}', '.ng-section-body{padding:0 var(--reader-unit) var(--reader-unit)}')],
+  ['training-head-padded', 'article-order.spec.ts', 'U100 a /Transitions/Knee-Slice-Pass/Attacker', s => s, css => replace(css, 'h2+.ng-section-body{padding-top:0}', '')],
+  ['training-on-positions', 'article-order.spec.ts', 'U100 a a position keeps', s => replace(s, '(transition || submission) && group.type == "training"', 'group.type == "training"')],
+  ['training-on-learning', 'article-order.spec.ts', 'U100 a a Learning page keeps', s => replace(s, '(transition || submission) && group.type == "training"', '!position && group.type == "training"')],
+  ['training-closed-rows', 'article-dashboard.spec.ts', 'U100 a closing Training', s => replace(s, '(shown ? open : s.more ? [] : closed)', '(shown ? open : closed)')],
+  ['training-closed-stays', 'article-dashboard.spec.ts', 'U100 a closing Training', s => replace(s, 'if (s.more) s.card.hidden = !shown; ', '')],
+  ['training-index-first', 'article-dashboard.spec.ts', 'U100 a the index row follows', s => replace(s, '[...this.sections.filter(x => x.type == s.type).map(x => x.card), s.type === "videos"', '[s.card, s.type === "videos"')],
+  // U103 a: Read more on a hub, both text sections.
+  ['hub-first-section-only', 'article-order.spec.ts', 'U103 a /Positions/Mount:', s => replace(s, 'if (wall.dataset?.sourceId == "overview") {', 'if (wall.dataset?.sourceId == "overview" && !buckets.done && (buckets.done = 1)) {')],
+  ['hub-parts-first', 'article-order.spec.ts', 'U103 a /Positions/Mount:', s => replace(s, 'of position && buckets.get("overview")?.parts || []) if (wall.dataset?.sourceId == "overview") {', 'of position && buckets.get("overview")?.parts.slice(0, 1) || []) {')],
+  ['hub-one-opens-both', 'article-dashboard.spec.ts', 'U103 a on a hub', s => replace(s, 'if (more.children[1]) wall.append(more);', 'if (more.children[1]) { wall.append(more); more.addEventListener("toggle", () => this.body.querySelectorAll(".ng-rm").forEach(x => { x.open = more.open })); }')],
   // The wrapping-block journeys, retargeted: their rows in video_theater_mutants.json named strings this PR replaced.
-  // reader-rounding-remainder-dropped is a recorded NON-KILL, in article-dashboard.spec.ts's header: identical drift with and without it.
-  ['wrapping-anchor-lost', 'article-dashboard.spec.ts', 'at 720x900 opening Explore holds the place around a wrapping block just under', s => replace(s, '      if (keep) {\n        was = rect(keep).top - was', '      if (false) {\n        was = rect(keep).top - was')],
+  // reader-rounding-remainder-dropped was a recorded NON-KILL and its code is gone (v1.251.1): article-dashboard.spec.ts's header says why.
+  ['wrapping-anchor-lost', 'article-dashboard.spec.ts', 'at 720x900 opening Explore holds the place around a wrapping block just under', s => replace(s, 'if (keep) { this.held = keep;', 'if (false) { this.held = keep;')],
   ['reader-clipped-block-anchored', 'article-dashboard.spec.ts', 'at 720x900 opening Explore holds the place around a wrapping block clipped by', s => replace(s, 'return y >= top && y < was ?', 'return y >= top - 20 && y < was ?')],
 
   ['ask-line-centred', 'article-order.spec.ts', 'U90 at 1440x900 the question line', s => replace(s, 'if (moves) cardX = rowLeft + moves.offsetLeft - 1;', '')],
@@ -378,13 +394,13 @@ const mutants = [
   // retain the obstruction control (historical name) with its reserve measured over the old 680px column only.
   ['u59-pill-covers', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => replace(s, 'a._readerShelfBottom({ left: free.center - width / 2, right: W })', 'a._readerShelfBottom({ left: free.center - width / 2, right: free.center + width / 2 })')],
   // "Keep the reader's place when the lane count changes": the anchor found but never put back.
-  ['u59-place-lost', 'article-dashboard.spec.ts', 'opening Explore keeps', s => replace(s, 'this.held = keep; this.heldAt = this.placeTop = root.scrollTop += was;', 'this.held = keep; this.heldAt = this.placeTop = root.scrollTop;')],
+  ['u59-place-lost', 'article-dashboard.spec.ts', 'opening Explore keeps', s => replace(s, 'root.scrollTop += Math.round(rect(keep).top - was);', 'root.scrollTop;')],
   // "A link inside a tile still opens its page": the tile swallows its links' clicks.
-  ['u55r-link-swallowed', 'article-dashboard.spec.ts', 'a click on a section tile does nothing', s => replace(s, 'card.append(heading, content); body.append(card);',
-    'card.append(heading, content); body.append(card); card.addEventListener("click", e => { if (e.target.closest("a")) { e.preventDefault(); e.stopPropagation(); } });')],
+  ['u55r-link-swallowed', 'article-dashboard.spec.ts', 'a click on a section tile does nothing', s => replace(s, 'card.append(content); body.append(card);',
+    'card.append(content); body.append(card); card.addEventListener("click", e => { if (e.target.closest("a")) { e.preventDefault(); e.stopPropagation(); } });')],
   // "A section tile click does nothing": a click on the tile (not on its links or controls) toggles it.
-  ['u55-tile-click-toggles', 'article-dashboard.spec.ts', 'a click on a section tile does nothing', s => replace(s, 'card.append(heading, content); body.append(card);',
-    'card.append(heading, content); body.append(card); card.addEventListener("click", e => e.target.closest("button,a") || toggle.click());')],
+  ['u55-tile-click-toggles', 'article-dashboard.spec.ts', 'a click on a section tile does nothing', s => replace(s, 'card.append(content); body.append(card);',
+    'card.append(content); body.append(card); card.addEventListener("click", e => e.target.closest("button,a") || toggle.click());')],
   // "The node band stays clear": the article pulled up over the game stage to use the space above it.
   ['u55-band-covered', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => replace(s, 'style(art, "margin-top", 6);', 'style(art, "margin-top", 6 - gameHeight);')],
   // "Uses the width": the grid keeps today's centred column instead of starting at the index's clearance.
