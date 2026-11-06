@@ -83,7 +83,7 @@ last; missing groups are omitted. Hubs include the full Top/Attacker guide; role
 shared hub safety. Failed loads offer Retry.
 
 **The desktop dashboard (U55 b, U59 c).** Above 640px the sections sit in rows of two open sections, in source
-order. With the index shown (from 1152px) the grid starts at its 12px clearance and mirrors that margin on the right, centred, and the choices row shares both its edges at every width above 640px (owner, 2026-11-01); narrower
+order. With the index shown (from 1152px) the grid is centred 12px clear of it, sharing both edges with the choices row; narrower
 it is centred, at most 902px. On three lanes (a grid of 1,150px or more: a window of 1,622px and wider with the index) the longer
 section takes two thirds and the other one third, either way; a table with a fourth column and a reference page's
 Videos (its player) count as long. A grid of 661-1,149px uses two lanes, each taking a half (including 768px tablets,
