@@ -79,7 +79,7 @@ function faces(type, title) {
   return [close, label];
 }
 
-// Thirty call sites; the bundle shortens locals but keeps a property name whole.
+// Thirty and eleven call sites; the bundle shortens locals but keeps a property name whole, and the deferred cap is exact.
 const rect = el => el?.getBoundingClientRect();
 const listen = (el, ...args) => el.addEventListener(...args);
 function element(tag, attrs = {}, text = "") {
@@ -1125,11 +1125,14 @@ class Reader {
       // stage (node band, Moves, question) owns the top and holds still, as on dev, when the pane opens,
       // the window narrows or a phone turns. A hidden article resets the width to NaN, so reopening
       // restores bookScroll without anchoring against a layout that was never shown.
-      // A pane's slide is many passes, and a lane change reorders which line comes first. Once a pass holds a line it stays
-      // the line until the reader scrolls, or a close at the article's end lands a tile away (971px at Mount Top, v1.249.1).
+      // v1.249.2: one line, at one height, for a whole pane slide, until the reader's place moves (placeTop survives the
+      // browser's clamp and any real scroll overwrites it). A slide is many passes, and a lane change does two things to a
+      // re-picked line: it reorders which line comes first, and it can shorten the document so scrollTop clamps. A pass
+      // then took the clamped height as the new place and the close landed elsewhere: 179-333px at the end of Transitions
+      // and Submissions at 768, 971px at a landed Mount Top.
       // The slide also counts on its own: a capped grid holds still while the stage above it reflows (32px at 1152).
-      keep = (this.gridW - (this.gridW = available ? grid : NaN) || a.uiShift % 1) && rect(art).top < top && (root.scrollTop === this.heldAt && this.held?.isConnected
-        ? (was = rect(this.held).top, this.held) : [...art.querySelectorAll("p,li")].find(e => (was = rect(e).top) >= top));
+      keep = (this.gridW - (this.gridW = available ? grid : NaN) || a.uiShift % 1) && rect(art).top < top && (this.placeTop === this.heldAt && this.held?.isConnected
+        ? (was = this.heldY, this.held) : [...art.querySelectorAll("p,li")].find(e => (was = this.heldY = rect(e).top) >= top));
       style(art, "--article-width", grid);
       // U59 c (owner): every desktop row holds two open sections side by side, in source order, so
       // Tab and the eye agree and nothing is lifted: of three lanes the longer text takes two and the
@@ -1341,8 +1344,7 @@ class Reader {
       if (keep) {
         was = rect(keep).top - was + (this.rest || 0);
         this.rest = was - (was = Math.round(was));
-        this.placeTop = root.scrollTop += was;
-        this.held = keep; this.heldAt = root.scrollTop;
+        this.held = keep; this.heldAt = this.placeTop = root.scrollTop += was;
       }
       this.laying = false;
     }

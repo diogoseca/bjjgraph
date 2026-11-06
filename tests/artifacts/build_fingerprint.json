@@ -1,5 +1,16 @@
 {
  "_meta": {
+  "app_provenance": {
+   "command": "npm run regenerate:neural",
+   "esbuild": "0.27.0",
+   "git_head": "6784325f6155b39443a6adb8d984691261519fc4",
+   "inputs": {
+    "tree": "0994f69e2cd66ba5563116bd6c936ec65251e6e4"
+   },
+   "package_version": "1.249.2",
+   "rows_from": "neural/dist",
+   "schema": "app-assets-rebuild-v2"
+  },
   "capture_tree": "/home/user/bjj-orchestrator/scratch/article-order/capture/capu89-48417c315/pr-cut-study-guides-48417c315",
   "content_provenance": {
    "capture_git_head": "48417c3158194cf02e6a19103a778f3b4e0f14d9",
@@ -94,12 +105,12 @@
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
-    "bytes": 42518,
-    "sha256": "6d185a94fff1fc1004f191778db6c8a266f28cf7fac07c23ab070a02995adfcd"
+    "bytes": 42527,
+    "sha256": "87a744c3f0e7d22e6ee16d1e699f093242b84e2b007cd0f089c57f8edbaf1b65"
    },
    "static/neural/app/reading.css": {
-    "bytes": 10889,
-    "sha256": "dff0a59ebcf21c1dd6ec4d7c68bba22fc067accc6c84b4d645b2241e345c36c8"
+    "bytes": 10816,
+    "sha256": "569d7f39e8e916c9ef797b8531c26e1493fc1699221c3e34d4fa399607a488cd"
    },
    "static/neural/app/reference.css": {
     "bytes": 15146,
