@@ -82,24 +82,21 @@ principles, setup/recognition, options, safety, mistakes, the rest, Related; 6px
 last; missing groups are omitted. Hubs include the full Top/Attacker guide; role pages add only
 shared hub safety. Failed loads offer Retry.
 
-**The desktop dashboard (U55 b, U59 c).** Above 640px the sections sit in rows of two open sections, in source
-order. With the index shown (from 1152px) the grid is centred 12px clear of it, sharing both edges with the choices row; narrower
-it is centred, at most 902px. On three lanes (a grid of 1,150px or more: a window of 1,622px and wider with the index) the longer
-section takes two thirds and the other one third, either way; a table with a fourth column and a reference page's
-Videos (its player) count as long. A grid of 661-1,149px uses two lanes, each taking a half (including 768px tablets,
-844px phones held sideways and 1152-1621px with the index). Between 641 and 1151px, the grid stays centred and
-becomes two lanes only once its own width exceeds 660px. An odd count makes one row of three thirds only on three lanes and only from the
-run of three (starting on a row) whose longest section is under 1,500 characters; otherwise the last section ends
-the article beside an empty lane (two thirds, or a half). A grid of 660px or less is one column. **U65 b (owner,
-2026-10-29): tiles end at their own content.** Rows take their taller card's height and the token gap; the map can
-show in the space below a shorter tile, where the reader grid owns input and the node is not clickable. Nothing
-is capped, faded or reordered, so Tab follows the eye. Each tile's
+**The desktop article: two columns (owner, 2026-11-06, replacing U59 c's rows and U65 b's pairing).** Above 660px of grid, on
+every article, each open section in reading order goes to the column that is shorter now, and a draw (within a pixel) goes left.
+`layoutNow` reads real heights and names the side (`data-right`); floats place it, so the DOM never moves: head tops down the page,
+Tab and the index are one order. With the index shown (from 1152px) the grid is centred 12px clear of it, sharing both edges with
+the choices row; narrower it is centred, at most 902px. A grid of 660px or less is one column. **U65 b: tiles end at their own
+content.** The only gap is below the shorter column at the article's end, where the map can show, the reader grid owns input and
+the node is not clickable. Nothing is capped, faded or reordered. Closing a tile reflows only what follows it. **U90 a:** on a
+desktop the map ends at half the window, or `NG_LIVE_ANSWER_ROOM` above its bottom if that is higher, never under the old 144px
+band; it reads the window alone, so nothing moves when a question opens. **U90 note:** the asking line's text starts on the "Your move" label's left edge. Each tile's
 text is a centred 46ch column (a 65-68 character median line at 1440-1920), except an article holding a wide table;
 tables use the section's spacing instead of an additional outer margin.
 The media slot is outside the prose measure. The reader ends above the conditional share cue in the corner;
 the account badge lives in the drawer. When the grid's width changes (Explore
-opening, a resize) and the article has scrolled above the reader's top, `layoutNow` keeps the first text block starting
-within the reader in place; at the arrival the stage holds still. A tile click does nothing; the node band, Moves and question
+opening, a resize) and the article has scrolled above the reader's top, `layoutNow` keeps the text block nearest the
+reader's top, in either column, in place; at the arrival the stage holds still. A tile click does nothing; the node band, Moves and question
 keep their places; ≤640px keeps its stacked geometry. **U65 note:** game pages omit the duplicate Videos credits
 tile; the film remains in the stage above, with its own close button. Videos keeps its index entry and closed
 disclosure control; either brings the film into view and focuses its close button when reopened.

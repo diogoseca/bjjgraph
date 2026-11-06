@@ -236,8 +236,8 @@ test("768px the line holds while the pane is open, mid-article", async ({ page }
 })
 // v1.251.0: a clamp is the document's end moving under the place, and only that. #340 asked "at the end and below the place",
 // which a smooth Ctrl+Home's first tick also is when it moves 1px: layoutNow wrote the place back, the running animation kept
-// the +1 as an offset and stopped at 1 (reading-navigation.spec.ts, CI run 42152251420: 1 in about 36 under load on a 2-core
-// runner, 0 in 40 idle). A 1px write stands in for that tick, which makes it deterministic: red 3 of 3 on this branch and on
+// the +1 as an offset and stopped at 1 (reading-navigation.spec.ts, CI run 42152251420: 2 of 72 under load on two cores, 0 of
+// 40 without). A 1px write stands in for that tick, which makes it deterministic: red 3 of 3 on this branch and on
 // dev before the fix. place-end-tick.
 test("a one-pixel scroll up from the article's end is the reader's own", async ({ page }) => {
   const j = await articleEnd(page, "/Transitions/50-50-Entry/Attacker")

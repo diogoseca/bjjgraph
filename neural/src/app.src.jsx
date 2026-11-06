@@ -18892,7 +18892,9 @@ class Component extends DCLogic {
   }
   // Reading reserves its node before the deferred reader or a deck has arrived.
   // Layout and the camera share this datum; article scroll never changes it.
-  _readerBand(top = Math.max(68, (this.wrapRef?.current?.querySelector(".ng-logo")?.getBoundingClientRect().bottom || 0) + 12)) {
+  _readerBand(top) {
+    const own = Math.max(68, (this.wrapRef?.current?.querySelector(".ng-logo")?.getBoundingClientRect().bottom || 0) + 12);
+    top ??= own;
     // D-349: a phone's band is 186, not 136: it gives back the 44px Questions header and the 6px gap
     // it sat under, the room a move's execution had before D-338 removed them. At 136 a no-Videos
     // exchange's arc carried the pair, on screen, 3px into the Moves row; at 186 every frame with the
@@ -18904,8 +18906,9 @@ class Component extends DCLogic {
     // U90 a (owner, 2026-11-06): "half the window, never hiding a live question's answers". On a desktop the map ends at
     // half the window's height, or NG_LIVE_ANSWER_ROOM above the window's bottom if that is higher, and never below the
     // old 144. It reads the window alone, never a card, so nothing moves when a question opens. D-368 and D-433 stand.
+    // From the app's own top, not a chrome frame's: D-318 keeps the reservation's height when chrome moves the head.
     const height = this.H > 500 ? this.W <= 640 ? this._phoneCatch() ? this.H < 700 ? 80 : 144 : 186
-      : Math.max(144, Math.min(Math.round(this.H / 2), this.H - NG_LIVE_ANSWER_ROOM) - top) : 64;
+      : Math.max(144, Math.min(Math.round(this.H / 2), this.H - NG_LIVE_ANSWER_ROOM) - own) : 64;
     return { top, bottom: top + height, height };
   }
   // U16 b, extended by D-433: only a LIVE phone catch uses the smaller band. A calm defender

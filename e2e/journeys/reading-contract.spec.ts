@@ -247,9 +247,9 @@ for (const width of [1366, 390]) {
       // D-338: the heading's words are its title (the toggle beside it is now the one ✕).
       const list = section.querySelector('ul')!, card = section.closest('.ng-section-card')!, head = card.querySelector('.ng-section-title')!, prose = list.querySelector('li')!
       const sub = document.querySelector('[data-reader-article="guide"] [data-source-id="defensive-options"] h3')!
-      const peers = [...card.parentElement!.children].map(e => e.getBoundingClientRect())
-      const nextTop = Math.min(...peers.filter(r => r.top > card.getBoundingClientRect().top + 1).map(r => r.top))
-      return { gap: nextTop - Math.max(...peers.filter(r => r.top < nextTop).map(r => r.bottom)),
+      // Owner (2026-11-06): two columns have no rows, so the gap is between neighbours down this tile's own column.
+      const box = card.getBoundingClientRect(), lane = [...card.parentElement!.children].map(e => e.getBoundingClientRect()).filter(r => r.height && Math.abs(r.left - box.left) < 2).sort((x, y) => x.top - y.top)
+      return { gap: lane[1].top - lane[0].bottom,
         item: px(list, 'rowGap'), unit: parseFloat(getComputedStyle(section.closest('[data-reader]')!).getPropertyValue('--reader-unit')),
         head: px(head, 'fontSize'), sub: px(sub, 'fontSize'), prose: px(prose, 'fontSize'),
         uppercase: getComputedStyle(head).textTransform, headLum: lum(head),

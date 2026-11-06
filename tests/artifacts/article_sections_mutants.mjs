@@ -330,8 +330,9 @@ const mutants = [
   ['ask-line-label-offset', 'article-order.spec.ts', 'U90 at 390x844 the question line', s => replace(s, 'if (moves) cardX = rowLeft + moves.offsetLeft - 1;', 'if (moves) cardX = rowLeft + 3;')],
   // "Tab and visual order agree": the columns mirrored, so focus (source order) runs against the eye.
   ['u59-tab-rtl', 'article-dashboard.spec.ts', 'Tab walks the tiles', s => s, css => css + '\n[data-reader-body]>*{float:right!important}[data-reader-body]>[data-right]{float:left!important}\n'],
-  // "Prose at a readable ~65-70ch": the column's measure removed, so a two-thirds tile runs ~86 characters.
-  ['u59-measure-unset', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => s, css => replace(css, 'overflow-wrap:break-word;max-width:46ch;margin:auto}', 'overflow-wrap:break-word}')],
+  // "Prose at a readable ~65-70ch": the column's measure removed. Only 1920 can show it: a tile's text is 432px at 1440, under
+  // the 552px of 46ch, so this control survives there with nothing wrong (measured, v1.251.0).
+  ['u59-measure-unset', 'article-dashboard.spec.ts', 'at 1920x1080 the article is two columns', s => s, css => replace(css, 'overflow-wrap:break-word;max-width:46ch;margin:auto}', 'overflow-wrap:break-word}')],
   // U46 b moved the Guest badge into the drawer. The conditional share cue now occupies the corner;
   // retain the obstruction control (historical name) with its reserve measured over the old 680px column only.
   ['u59-pill-covers', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => replace(s, 'a._readerShelfBottom({ left: free.center - width / 2, right: W })', 'a._readerShelfBottom({ left: free.center - width / 2, right: free.center + width / 2 })')],
