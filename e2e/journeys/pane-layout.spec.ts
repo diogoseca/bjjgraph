@@ -234,11 +234,13 @@ test("768px the line holds while the pane is open, mid-article", async ({ page }
   expect(open.top, "premise: the document's end is not what stops the line").toBeLessThan(open.max - 1)
   expect(Math.abs(open.line - held), `the line holds on screen (${held} -> ${open.line})`).toBeLessThanOrEqual(8)
 })
-// v1.251.0: a clamp is the document's end moving under the place, and only that. #340 asked "at the end and below the place",
+// v1.250.1: a clamp is the document's end moving under the place, and only that. #340 asked "at the end and below the place",
 // which a smooth Ctrl+Home's first tick also is when it moves 1px: layoutNow wrote the place back, the running animation kept
 // the +1 as an offset and stopped at 1 (reading-navigation.spec.ts, CI run 42152251420: 2 of 72 under load on two cores, 0 of
-// 40 without). A 1px write stands in for that tick, which makes it deterministic: red 3 of 3 on this branch and on
-// dev before the fix. place-end-tick.
+// 40 without; deploy-dev run 42185772781 on 6 Nov). A 1px write stands in for that tick, which makes it deterministic: red 3
+// of 3 on dev's reader, green 3 of 3 with the fix. place-end-tick.
+// UNGUARDED: the place past the end. While the open pane clamps a held place, a 1px tick up still reads as the clamp and is
+// undone: this page at 768, end 7709, place 7779, the write gone four frames later. #340's guard read that case the same way.
 test("a one-pixel scroll up from the article's end is the reader's own", async ({ page }) => {
   const j = await articleEnd(page, "/Transitions/50-50-Entry/Attacker")
   const landed = await page.locator("[data-reader]").evaluate(e => {

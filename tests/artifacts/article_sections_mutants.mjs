@@ -221,6 +221,8 @@ const mutants = [
   ['pane-hold-keyed-on-scroll', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'root.scrollTop === this.heldAt && this.held?.isConnected')],
   ['pane-hold-survives-scroll', 'pane-layout.spec.ts', 'a scroll while the pane is open', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'this.held?.isConnected')],
   ['d338-clamped-place-lost', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '      if (this.placeTop > root.scrollTop) root.scrollTop = this.placeTop;\n', '')],
+  // The clamp guard back as #340 wrote it: a 1px tick from the end reads as the browser's clamp.
+  ['place-end-tick', 'pane-layout.spec.ts', 'one-pixel scroll up', s => replace(s, 'r.scrollTop >= end - 1 && this.placeTop > end + 1', 'r.scrollTop >= end - 1 && r.scrollTop < this.placeTop')],
   ['d338-running-reader-not-paused', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '    if (this.interacting && this.app.paused) { if', '    if (this.interacting) { if')],
   // D5-N1: the deck backs' clearance and the tray's symmetry, each with its own claim.
   // D-368: at 1440 the current card's film beside the question is taller and absorbs the backs' reserve; the
@@ -327,8 +329,6 @@ const mutants = [
   // The block first in the source, not the one nearest the reader's top: the source order no longer runs down the page.
   ['line-dom-first', 'article-dashboard.spec.ts', 'opening Explore keeps the line', s => replace(s, 'return y >= top && y < was ? (was = this.heldY = y, e) : line;', 'return y >= top && !line ? (was = this.heldY = y, e) : line;')],
   ['line-dom-first-slide', 'article-dashboard.spec.ts', 'on every step of a pane slide', s => replace(s, 'return y >= top && y < was ? (was = this.heldY = y, e) : line;', 'return y >= top && !line ? (was = this.heldY = y, e) : line;')],
-  // The clamp guard back as #340 wrote it: a 1px tick from the end reads as the browser's clamp.
-  ['place-end-tick', 'pane-layout.spec.ts', 'one-pixel scroll up', s => replace(s, 'r.scrollTop >= end - 1 && this.placeTop > end + 1', 'r.scrollTop >= end - 1 && r.scrollTop < this.placeTop')],
   // The anchor on the grid's width again: the grid stands still through most of a slide while the stage grows.
   ['line-keyed-on-grid', 'article-dashboard.spec.ts', 'at 1152x900 opening Explore keeps the line', s => replace(s, '(this.gridW = available ? free.width : NaN)', '(this.gridW = available ? grid : NaN)')],
   // U97 b: the index back at 1,152, and never.

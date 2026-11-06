@@ -21,13 +21,13 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 3% of exchanges from this position.",
       "position": 2
     },
     {

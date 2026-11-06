@@ -220,14 +220,16 @@ class Absence(unittest.TestCase):
                            "techniques": {v["hub"] for sec in ("transitions", "submissions")
                                           for v in GRAPH[sec].values() if v.get("hub")}}) for fr in ("gi", "nogi")}
 
-    # v1.216.0 (B2): the only absences are the 4 gi-only deal_here tables at states no-gi never reaches
+    # v1.216.0 (B2): the only absences are the gi-only deal_here tables at states no-gi never reaches.
+    # 4 until v1.250.2, when H52 dealt Technical Stand Up to Single Leg at Lapel Guard, a seat no-gi masks.
     TODAY = {"bolo-sweep": {"nogi": ["worm-guard"]}, "leg-weave-pass": {"nogi": ["lasso-guard", "spider-guard"]},
+             "technical-stand-up-to-single-leg": {"nogi": ["lapel-guard"]},
              "x-pass": {"nogi": ["double-sleeve-guard"]}}
 
     def test_today_only_masked_states_are_named(self):
         st = {}
         self.assertEqual(self.rnd.listing_absences(GRAPH, self.reach, st), self.TODAY)
-        self.assertEqual(st["masked_state"], {"gi": 0, "nogi": 4}, "every absence today is at a state no-gi masks")
+        self.assertEqual(st["masked_state"], {"gi": 0, "nogi": 5}, "every absence today is at a state no-gi masks")
 
     def test_a_dealt_listing_nulled_in_a_frame_is_named(self):
         g = copy.deepcopy(GRAPH)
@@ -257,12 +259,14 @@ class Absence(unittest.TestCase):
     def test_a_state_the_frame_masks_is_exempt_from_the_hand_check(self):
         """v1.216.0 (B2, full-game review OCPRB8-FG): an absence at a state its frame masks is NAMED,
         because setGiMode does not re-seat, but check_absence_hands exempts it: no walk deals there.
-        Without the exemption the worm guard one empties its main pass."""
+        Without the exemption the worm guard one empties its main pass, and since v1.250.2 so does
+        H52's at Lapel Guard/Bottom, a seat no-gi masks too."""
         ab = self.rnd.listing_absences(GRAPH, self.reach)
-        self.assertEqual(self.rnd.check_absence_hands(GRAPH, ab, self.reach), (0, 4, []))
+        self.assertEqual(self.rnd.check_absence_hands(GRAPH, ab, self.reach), (0, 5, []))
         checked, exempt, bad = self.rnd.check_absence_hands(GRAPH, ab)
-        self.assertEqual((checked, exempt), (4, 0))
-        self.assertEqual(bad, ["worm-guard/bottom [nogi]: absent bolo-sweep leaves no main-pass card"])
+        self.assertEqual((checked, exempt), (5, 0))
+        self.assertEqual(sorted(bad), ["lapel-guard/bottom [nogi]: absent technical-stand-up-to-single-leg leaves no main-pass card",
+                                       "worm-guard/bottom [nogi]: absent bolo-sweep leaves no main-pass card"])
 
 
     def test_an_absence_may_not_empty_its_main_pass(self):

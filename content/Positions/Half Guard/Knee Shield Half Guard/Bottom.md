@@ -27,7 +27,7 @@ description: "Master Knee Shield Half Guard Bottom in BJJ. Essential defensive h
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
@@ -45,7 +45,7 @@ description: "Master Knee Shield Half Guard Bottom in BJJ. Essential defensive h
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {

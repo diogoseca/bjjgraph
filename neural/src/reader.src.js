@@ -247,7 +247,7 @@ class Reader {
     // pane opening moves the bottom reservation) the shorter maximum clamps scrollTop to the new end;
     // that scroll is not the reader's, so the place is kept and layoutNow restores it once the
     // document allows. Any other scroll, the reader's own or a deliberate write, is the new place.
-    // A clamp is the END moving under the place, so the place must lie past the end. v1.251.0: this asked only "at the
+    // A clamp is the END moving under the place, so the place must lie past the end. v1.250.1: this asked only "at the
     // end and below the place", which is also the first tick of a smooth Ctrl+Home from the end, when that tick moves
     // 1px. layoutNow then wrote the place back, the running animation kept the +1 as an offset, and it stopped at 1
     // for good (reading-navigation.spec.ts on CI run 42152251420; 2 of 72 under load on two cores, 0 of 40 without).

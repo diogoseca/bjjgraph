@@ -41,7 +41,7 @@ for (const width of [320, 390]) {
     await page.keyboard.press('Control+End')
     await expect.poll(() => page.locator(READY).evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop)).toBeLessThan(2)
     await page.keyboard.press('Control+Home')
-    // A real race, fixed at v1.251.0: this stopped at 1 when the smooth scroll's first tick moved 1px (CI run 42152251420).
+    // A real race, fixed at v1.250.1: this stopped at 1 when the smooth scroll's first tick moved 1px (CI run 42152251420).
     // It only shows under load here; pane-layout.spec.ts pins it deterministically (place-end-tick).
     await expect.poll(() => page.locator(READY).evaluate(e => e.scrollTop)).toBe(0)
     const bodyTop = await page.locator('[data-reader-body]').evaluate(e => e.getBoundingClientRect().top)

@@ -704,49 +704,49 @@
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 13
+          "gi": 8,
+          "nogi": 11
         }
       },
       {
         "transition": "Technical Stand Up from Ground",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 9
+          "gi": 5,
+          "nogi": 8
         }
       },
       {
         "transition": "Butterfly Sweep",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 20
+          "gi": 16,
+          "nogi": 17
         }
       },
       {
         "transition": "Scissor Sweep",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 5,
           "nogi": 2
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 18
+          "gi": 11,
+          "nogi": 15
         }
       },
       {
         "transition": "Ankle Pick Sweep",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Tripod Sweep",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 10,
           "nogi": null
         },
         "deal_here": true,
@@ -784,23 +784,199 @@
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 9
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Lumberjack Sweep",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 4
+          "gi": 4,
+          "nogi": 3
         }
       },
       {
         "transition": "Foot Grab Sweep",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 16
+          "gi": 9,
+          "nogi": 13
         }
+      },
+      {
+        "transition": "Arm Drag to Back",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 33,
+          "nogi": 29
+        },
+        "outcomes": [
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 29,
+              "nogi": 29
+            },
+            "result": "success"
+          },
+          {
+            "to": "Seated Guard/Bottom",
+            "probability": {
+              "gi": 51,
+              "nogi": 51
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "counter"
+          }
+        ]
+      },
+      {
+        "transition": "Collar Drag from Open Guard",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": null
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 51,
+          "nogi": null
+        },
+        "outcomes": [
+          {
+            "to": "Front Headlock/Top",
+            "probability": {
+              "gi": 51,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Seated Guard/Bottom",
+            "probability": {
+              "gi": 33,
+              "nogi": null
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": null
+            },
+            "result": "counter"
+          }
+        ]
+      },
+      {
+        "transition": "Open Guard to Feet on Hips Guard",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 56,
+          "nogi": 56
+        },
+        "outcomes": [
+          {
+            "to": "Feet on Hips Guard/Bottom",
+            "probability": {
+              "gi": 56,
+              "nogi": 56
+            },
+            "result": "success"
+          },
+          {
+            "to": "Seated Guard/Bottom",
+            "probability": {
+              "gi": 19,
+              "nogi": 19
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 9,
+              "nogi": 9
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "counter"
+          }
+        ]
+      },
+      {
+        "transition": "Technical Stand Up to Single Leg",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 53,
+          "nogi": 54
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 32,
+              "nogi": 32
+            },
+            "result": "success"
+          },
+          {
+            "to": "Single Leg X-Guard/Bottom",
+            "probability": {
+              "gi": 22,
+              "nogi": 22
+            },
+            "result": "success"
+          },
+          {
+            "to": "Seated Guard/Bottom",
+            "probability": {
+              "gi": 29,
+              "nogi": 29
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Turtle/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Front Headlock/Bottom",
+            "probability": {
+              "gi": 6,
+              "nogi": 6
+            },
+            "result": "counter"
+          }
+        ]
       }
     ],
     "flashcards": [

@@ -107,8 +107,8 @@
       {
         "transition": "Guard Pull",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 7
+          "gi": 14,
+          "nogi": 6
         }
       },
       {
@@ -121,8 +121,8 @@
       {
         "transition": "Single Leg Entry",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 8
+          "gi": 5,
+          "nogi": 7
         }
       },
       {
@@ -150,14 +150,14 @@
         "transition": "Double Leg Entry",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 6
+          "nogi": 5
         }
       },
       {
         "transition": "Snap Down to Front Headlock",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 6
+          "nogi": 5
         }
       },
       {
@@ -191,7 +191,7 @@
       {
         "transition": "Osoto Gari",
         "attempt_probability": {
-          "gi": 4,
+          "gi": 3,
           "nogi": 2
         }
       },
@@ -331,7 +331,7 @@
       {
         "transition": "Collar Drag",
         "attempt_probability": {
-          "gi": 4,
+          "gi": 3,
           "nogi": 0
         }
       },
@@ -362,6 +362,82 @@
           "gi": 1,
           "nogi": 2
         }
+      },
+      {
+        "transition": "Kouchi Gari",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 28,
+          "nogi": 28
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 28,
+              "nogi": 28
+            },
+            "result": "success"
+          },
+          {
+            "to": "Standing Position/Top",
+            "probability": {
+              "gi": 51,
+              "nogi": 51
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 21,
+              "nogi": 21
+            },
+            "result": "counter"
+          }
+        ]
+      },
+      {
+        "transition": "Uchi Mata",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 56,
+          "nogi": 56
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 56,
+              "nogi": 56
+            },
+            "result": "success"
+          },
+          {
+            "to": "Standing Position/Top",
+            "probability": {
+              "gi": 29,
+              "nogi": 29
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ]
       }
     ],
     "decision_tree": [

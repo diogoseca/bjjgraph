@@ -470,7 +470,54 @@
         "attempt_probability": {
           "gi": 15,
           "nogi": 17
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 47,
+          "nogi": 47
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 41,
+              "nogi": 41
+            },
+            "result": "success"
+          },
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 6,
+              "nogi": 6
+            },
+            "result": "success"
+          },
+          {
+            "to": "Inverted Guard/Top",
+            "probability": {
+              "gi": 30,
+              "nogi": 30
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Knee Shield Half Guard/Top",
+            "probability": {
+              "gi": 8,
+              "nogi": 8
+            },
+            "result": "failure"
+          }
+        ]
       },
       {
         "transition": "Pressure Pass",
@@ -955,7 +1002,54 @@
         "attempt_probability": {
           "gi": 11,
           "nogi": 12
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 34,
+          "nogi": 34
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 27,
+              "nogi": 27
+            },
+            "result": "success"
+          },
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 7,
+              "nogi": 7
+            },
+            "result": "success"
+          },
+          {
+            "to": "Inverted Guard/Bottom",
+            "probability": {
+              "gi": 46,
+              "nogi": 46
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Turtle/Bottom",
+            "probability": {
+              "gi": 13,
+              "nogi": 13
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 7,
+              "nogi": 7
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Omoplata from Inverted Guard",
@@ -1095,7 +1189,38 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 7
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 51,
+          "nogi": 57
+        },
+        "outcomes": [
+          {
+            "to": "Inside Ashi-Garami/Top",
+            "probability": {
+              "gi": 57,
+              "nogi": 57
+            },
+            "result": "success"
+          },
+          {
+            "to": "Inverted Guard/Bottom",
+            "probability": {
+              "gi": 31,
+              "nogi": 31
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 12,
+              "nogi": 12
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Rolling Kneebar",

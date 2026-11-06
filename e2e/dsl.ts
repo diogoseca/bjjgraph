@@ -1057,10 +1057,17 @@ export class Journey {
 
   /** Read the currently displayed success % for a technique's option card. */
   async displayedOdds(technique: string): Promise<number> {
+    // A dealt card plays its listing's own table: the card prints moveChance(opt.node), and tensionSweep
+    // and resolve play `_actOf(opt)`, the same node. The canonical node can carry a different rate, so a
+    // dealt move reads the node its exchange is played with, and only a move not in the tray reads the
+    // canonical one. Until v1.250.2 this always read canonical, which stayed hidden while no listing at a
+    // spec's landing differed: H11's S-Mount Transition at Mount/Top is 54 on its table and 58 canonically,
+    // so veteran-odds-clamp printed 56 against a helper's 60. The helper was wrong, not the card.
     return this.page.evaluate((t) => {
       const a = (window as W).__neural;
+      const dealt = (a._optionCards || []).find((oc: any) => !oc.opt.threat && oc.opt.node?.t === t);
       const idx = a.nodes.findIndex((n: any) => n.t === t);
-      return Math.round(a.moveChance(a.nodes[idx]) * 100);
+      return Math.round(a.moveChance(dealt ? a._actOf(dealt.opt) : a.nodes[idx]) * 100);
     }, technique);
   }
 

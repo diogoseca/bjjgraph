@@ -139,9 +139,9 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 ### Available Transitions
 
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (25% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (23% of attempts)
 
-- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (18% of attempts)
+- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (17% of attempts)
 
 - **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (6% of attempts)
 
@@ -151,7 +151,7 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 
 - **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (2% of attempts)
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (6% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (5% of attempts)
 
 - **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (gi only)
 
@@ -168,6 +168,8 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 - **[[Transitions/De La Riva to Lapel Guard/Attacker|De La Riva to Lapel Guard]]** (gi only)
 
 - **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (2% of attempts)
+
+- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -226,31 +228,33 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (10% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (9% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
 
 - **[[Transitions/X Pass/Attacker|X Pass]]** (5% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (12% of attempts)
 
 - **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (6% of attempts)
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (4% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (8% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (7% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (13% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (12% of attempts)
 
 - **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (3% of attempts)
 
-- **[[Transitions/Toreando Pass from De La Riva/Attacker|Toreando Pass from De La Riva]]** (9% of attempts)
+- **[[Transitions/Toreando Pass from De La Riva/Attacker|Toreando Pass from De La Riva]]** (8% of attempts)
 
 - **[[Transitions/Backstep from De La Riva/Attacker|Backstep from De La Riva]]** (6% of attempts)
 
 - **[[Transitions/Knee Slice from DLR/Attacker|Knee Slice from DLR]]** (5% of attempts)
 
 - **[[Transitions/Leg Drag from DLR/Attacker|Leg Drag from DLR]]** (6% of attempts)
+
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (6% of attempts)
 
 
 ### Common Mistakes

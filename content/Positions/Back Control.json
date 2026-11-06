@@ -135,7 +135,38 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 7
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 54,
+          "nogi": 54
+        },
+        "outcomes": [
+          {
+            "to": "Body Triangle/Top",
+            "probability": {
+              "gi": 54,
+              "nogi": 54
+            },
+            "result": "success"
+          },
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 33,
+              "nogi": 33
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 13,
+              "nogi": 13
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Back Control to Crucifix",

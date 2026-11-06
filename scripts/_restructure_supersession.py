@@ -17,6 +17,17 @@ class RestructureSupersession:
             (row["path"], hand.rsplit("/", 1)[1].lower()): row
             for hand, row in self.ledger.get("hands", {}).items()
         }
+        # A LATER OWNER APPROVAL (K2 batch 2, v1.250.2) supersedes the same way and wins over an
+        # older row for the same hand, whose `after` is history. `self.ledger` stays the restructure
+        # receipt alone. 5 of its 20 hands were also restructure hands, which is why the overlay
+        # exists; the other 15 are here so a historical apply path skips them rather than rewrites them.
+        # tests/_listing_table_expectations.py compares all 20 in CI, which runs no apply path.
+        later = root / "calibration/graph_fixes_b2.json"
+        if later.exists():
+            self.hands.update({
+                (row["path"], hand.rsplit("/", 1)[1].lower()): row
+                for hand, row in json.loads(later.read_text()).get("hands", {}).items()
+            })
         self.techniques = {
             row["name"]: (path, row)
             for path, row in self.ledger.get("techniques", {}).items()

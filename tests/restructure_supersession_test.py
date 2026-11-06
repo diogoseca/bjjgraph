@@ -73,6 +73,24 @@ class Supersession(unittest.TestCase):
         with self.assertRaisesRegex(SystemExit, "retirement drift"):
             guard.hand(old, "bottom")
 
+    def test_a_later_owner_approval_supersedes_the_same_hand(self):
+        """v1.250.2, K2 batch 2. MUTANT: without the overlay in _restructure_supersession.py the first
+        assertion raises "approved hand drift". The older `after` must no longer pass, and any other
+        hand must still drift: a later approval moves the receipt, it does not switch the gate off."""
+        later = [{"transition": "Move", "attempt_probability": {"gi": 60, "nogi": None}},
+                 {"transition": "Later", "attempt_probability": {"gi": 40, "nogi": None}}]
+        self.write(self.path, {"bottom": {"transitions": later}})
+        self.write("calibration/graph_fixes_b2.json",
+                   {"hands": {"Guard/Bottom": {"path": self.path, "after": later}}})
+        guard = RestructureSupersession(self.root)
+        self.assertTrue(guard.hand(self.path, "bottom"))
+        self.assertEqual(guard.ledger["hands"]["Guard/Bottom"]["after"], self.hand, "the receipt stays history")
+        for hand in [self.hand, later[:1]]:
+            with self.subTest(hand=hand):
+                self.write(self.path, {"bottom": {"transitions": hand}})
+                with self.assertRaisesRegex(SystemExit, "approved hand drift"):
+                    guard.hand(self.path, "bottom")
+
     def test_attempt_or_topology_drift_is_red(self):
         for hand in [[], [{"transition": "Old", "attempt_probability": {"gi": 100, "nogi": None}}],
                      [{"transition": "Move", "attempt_probability": {"gi": 100, "nogi": 0}}]]:

@@ -3,10 +3,10 @@
     "transition_files": 1011,
     "submission_files": 349,
     "position_files": 133,
-    "total_issues": 471,
+    "total_issues": 479,
     "errors": 0,
     "warnings": 59,
-    "info": 412,
+    "info": 420,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
     "missing_transitions": 0,
@@ -16,7 +16,7 @@
     "invalid_from_positions": 0,
     "outcome_errors": 0,
     "outcome_warnings": 25,
-    "attempt_outliers": 351,
+    "attempt_outliers": 359,
     "coherence_violations": 0,
     "successrate_incoherent": 0,
     "defender_not_complement": 0,
@@ -2909,6 +2909,26 @@
     {
       "file": "content/Positions/Open Guard.json",
       "position": "Open Guard",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Counter Sweep' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Counter Sweep",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Open Guard.json",
+      "position": "Open Guard",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Open Guard to Double Unders' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Open Guard to Double Unders",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Open Guard.json",
+      "position": "Open Guard",
       "role": "top[nogi]",
       "type": "attempt_negligible",
       "message": "top[nogi]: 'Open Guard to Double Unders' has only 2% attempt probability",
@@ -2959,6 +2979,16 @@
     {
       "file": "content/Positions/Open Guard.json",
       "position": "Open Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Open Guard to Deep Half' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Open Guard to Deep Half",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Open Guard.json",
+      "position": "Open Guard",
       "role": "bottom[gi]",
       "type": "attempt_negligible",
       "message": "bottom[gi]: 'Transition to Clamp Guard' has only 1% attempt probability",
@@ -2995,6 +3025,16 @@
       "severity": "info",
       "transition": "Belly Down Armbar from Open Guard",
       "current": 1
+    },
+    {
+      "file": "content/Positions/Open Guard.json",
+      "position": "Open Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Grip Break' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Grip Break",
+      "current": 2
     },
     {
       "file": "content/Positions/Overhook Guard.json",
@@ -3894,6 +3934,46 @@
       "message": "top[nogi]: 'Outside Ashi Entry' has only 2% attempt probability",
       "severity": "info",
       "transition": "Outside Ashi Entry",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Kouchi Gari' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Kouchi Gari",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Kouchi Gari' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Kouchi Gari",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Uchi Mata' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Uchi Mata",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Uchi Mata' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Uchi Mata",
       "current": 2
     },
     {

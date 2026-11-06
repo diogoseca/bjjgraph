@@ -38,7 +38,7 @@ description: "How to defend against the Arm Drag Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "HowToStep",
-      "name": "Accept partial back exposure and immediately counter-rotate by sitting your hips through to the opposite side, driving into the opponent to prevent them from establishing hooks and recovering into their open guard",
+      "name": "Accept partial back exposure and immediately counter-rotate by sitting your hips through to the opposite side, then drive into the opponent and recover into their open guard, preventing them from establishing hooks",
       "text": "Late in the sequence when the sweep is nearly complete and your primary concern shifts to preventing back control rather than preventing the positional change If successful: You deny the back take by keeping your hips connected to the opponent and turning into them, ending up in their open guard in a defensible position",
       "position": 4
     }
@@ -216,7 +216,7 @@ The most critical defensive concept is that your response to the arm drag direct
 - **If successful**: Standing nullifies the sweep threat entirely since the opponent cannot sweep you from guard when you are standing with proper base, and completing the break strips their grips and leaves them in open guard
 - **Risk**: If your base is already compromised, standing can accelerate the sweep by raising your center of gravity while one arm is controlled
 
-### 4. Accept partial back exposure and immediately counter-rotate by sitting your hips through to the opposite side, driving into the opponent to prevent them from establishing hooks and recovering into their open guard
+### 4. Accept partial back exposure and immediately counter-rotate by sitting your hips through to the opposite side, then drive into the opponent and recover into their open guard, preventing them from establishing hooks
 
 - **When to use**: Late in the sequence when the sweep is nearly complete and your primary concern shifts to preventing back control rather than preventing the positional change
 - **Targets**: [[Positions/Open Guard]]

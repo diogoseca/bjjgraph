@@ -39,7 +39,7 @@ description: "Learn to defend the backstep to reverse half guard from back contr
     {
       "@type": "HowToStep",
       "name": "Catch opponent's backstep leg in deep half guard",
-      "text": "When the opponent's backstep leg threads between yours and you can trap it underneath your body If successful: You convert their backstep attempt into deep half guard bottom, a position with strong sweep options and favorable mechanics",
+      "text": "When the opponent's backstep leg threads between yours and you can trap it underneath your body If successful: You convert their backstep attempt into half guard bottom, a position with strong sweep options and favorable mechanics",
       "position": 4
     }
   ],
@@ -226,7 +226,7 @@ As the defender, you are in the process of escaping back control when your oppon
 
 - **When to use**: When the opponent's backstep leg threads between yours and you can trap it underneath your body
 - **Targets**: [[Positions/Half Guard]]
-- **If successful**: You convert their backstep attempt into deep half guard bottom, a position with strong sweep options and favorable mechanics
+- **If successful**: You convert their backstep attempt into half guard bottom, a position with strong sweep options and favorable mechanics
 - **Risk**: Requires precise timing and body positioning; if the opponent reads the deep half entry, they can adjust their backstep to avoid the trap
 
 

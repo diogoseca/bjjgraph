@@ -140,19 +140,19 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (20% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (19% of attempts)
 
-- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (11% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (10% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (13% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (12% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (11% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (10% of attempts)
 
-- **[[Submissions/Guillotine Choke/from Butterfly Guard/Attacker|Guillotine Choke from Butterfly Guard]]** (7% of attempts)
+- **[[Submissions/Guillotine Choke/from Butterfly Guard/Attacker|Guillotine Choke from Butterfly Guard]]** (6% of attempts)
 
 - **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (10% of attempts)
 
-- **[[Transitions/Butterfly Guard to Butterfly Hook Control/Attacker|Butterfly Guard to Butterfly Hook Control]]** (6% of attempts)
+- **[[Transitions/Butterfly Guard to Butterfly Hook Control/Attacker|Butterfly Guard to Butterfly Hook Control]]** (5% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (3% of attempts)
 
@@ -167,6 +167,8 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 - **[[Transitions/Butterfly Guard to Williams Guard/Attacker|Butterfly Guard to Williams Guard]]** (3% of attempts)
 
 - **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (2% of attempts)
+
+- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (6% of attempts)
 
 
 ### Common Mistakes

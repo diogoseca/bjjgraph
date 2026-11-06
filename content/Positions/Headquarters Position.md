@@ -214,19 +214,25 @@ This position represents a fundamental evolution in guard passing theory, moving
 ### Available Transitions
 
 
-- **[[Transitions/Knee Cut from Headquarters/Attacker|Knee Cut from Headquarters]]** (22% of attempts)
+- **[[Transitions/Knee Cut from Headquarters/Attacker|Knee Cut from Headquarters]]** (18% of attempts)
 
-- **[[Transitions/Toreando from Headquarters/Attacker|Toreando from Headquarters]]** (14% of attempts)
+- **[[Transitions/Toreando from Headquarters/Attacker|Toreando from Headquarters]]** (12% of attempts)
 
-- **[[Transitions/Leg Drag from Headquarters/Attacker|Leg Drag from Headquarters]]** (18% of attempts)
+- **[[Transitions/Leg Drag from Headquarters/Attacker|Leg Drag from Headquarters]]** (15% of attempts)
 
 - **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (9% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (12% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (10% of attempts)
 
-- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (12% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (10% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (13% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (11% of attempts)
+
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (5% of attempts)
+
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (5% of attempts)
+
+- **[[Transitions/X Pass/Attacker|X Pass]]** (5% of attempts)
 
 
 ### Common Mistakes
