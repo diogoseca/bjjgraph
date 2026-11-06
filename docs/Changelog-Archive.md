@@ -14070,3 +14070,30 @@ That gap is the reader's, stays UNGUARDED in the spec's own header, and goes to 
 **Left behind on purpose:** the `.related-systems` and `.system-card` rules in `source/quartz/styles/custom.scss`, which nothing
 emits now (0 built pages). This capture cannot carry a `source/` change. The reader's `related-systems` alias and its two
 `.system-card__*` selectors are PR-2's.
+
+## v1.249.2 — A pane opened and closed at an article's end comes back to the same place
+
+**The loss was older than #339.** `pane-layout.spec.ts` closed the pane at Mount Top's end and asserted an untouched `scrollTop`. That
+held only because the study-guide cards there hold no `p` or `li`, so the place anchor found nothing. On v1.249.1, with the same journey at 768x1024, the nine pages that never had the cards already lost
+their place: 316, 307 and 231px on three Transitions, 179, 333 and 281px on three Submissions, and 0, 0 and 63px on three positions.
+Mount Top lands 13px away from a direct boot and 971px through the landed start with an open question.
+
+**Two causes, found by tracing the slide pass by pass.** A slide is many layout passes, and each one picked a line afresh. A lane
+change reorders which line comes first, so the pick changed partway. It can also shorten the document so the browser clamps
+`scrollTop`, and the next pass then took the clamped height as the new place, so the line never came back.
+
+**The fix holds one line at one height for the whole slide, until the reader's place moves.** The first attempt keyed that on `scrollTop`
+and fixed the positions but not Transitions or Submissions, because a clamp or its restore moves `scrollTop` between passes. `placeTop`
+already was the reader's place: it survives a clamp and any real scroll overwrites it. Keying on it took all ten pages to 0.
+
+**Pinned on a page #339 changed and on one it never touched,** with a premise that the slide moved the reader, because the old
+assertion passed for a whole release on an anchor that never ran. A real scroll while the pane is open is the new place, and that is
+pinned too, or a stale hold would snap the reader back.
+
+**The open hold stays pinned at 768.** The first commit also dropped v1.249.1's "the line holds while the pane is open" assertion
+without running it, on a guess that a clamp would break it. Orchestrator review caught that: it was the only pin on U59 c's open hold at
+768, since `article-dashboard.spec.ts` pins 1440 and 1152. Measured on the fix, in the landed journey, 3 runs of 3: 388.75 to 388.77px at
+768, against 6px of movement on v1.249.1, and exact at 390. It went back, with `pane-open-hold-lost` as its own control.
+
+**Bytes.** The hold alone took the deferred set to 22 B over. A `listen()` helper across eleven call sites, and the dead `related-systems`
+alias and `.system-card__*` selectors #339 left, brought it to 506,740 of 506,817 B: 64 B under where it started, and no ceiling moved.

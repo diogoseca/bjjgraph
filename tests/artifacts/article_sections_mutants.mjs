@@ -199,6 +199,13 @@ const mutants = [
   // NOT KILLED SINCE U59 c (DASH-R4 measured; dev's reader kills it): the reader's bottom reserve now spans the full
   // width (the account pill), so opening the pane at 1024 no longer moves it, the scrollport never grows and the
   // browser never clamps in this journey. The restore is still code; this control no longer exercises it.
+  // v1.249.2: the reader holds one line at one height through a pane's slide, until its place moves.
+  ['pane-hold-rechosen', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'false')],
+  ['pane-open-hold-lost', 'pane-layout.spec.ts', '768px the pane overlays the article', s => replace(s, 'keep = this.gridW - (this.gridW = available ? grid : NaN) && ', 'keep = this.gridW - (this.gridW = available ? grid : NaN) && false && ')],
+  ['pane-hold-rechosen-mount', 'pane-layout.spec.ts', '768px the pane overlays the article', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'false')],
+  ['pane-hold-height-lost', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, '(was = this.heldY, this.held)', '(was = this.held.getBoundingClientRect().top, this.held)')],
+  ['pane-hold-keyed-on-scroll', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'root.scrollTop === this.heldAt && this.held?.isConnected')],
+  ['pane-hold-survives-scroll', 'pane-layout.spec.ts', 'a scroll while the pane is open', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'this.held?.isConnected')],
   ['d338-clamped-place-lost', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '      if (this.placeTop > root.scrollTop) root.scrollTop = this.placeTop;\n', '')],
   ['d338-running-reader-not-paused', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '    if (this.interacting && this.app.paused) { if', '    if (this.interacting) { if')],
   // D5-N1: the deck backs' clearance and the tray's symmetry, each with its own claim.
