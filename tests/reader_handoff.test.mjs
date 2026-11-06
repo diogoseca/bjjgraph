@@ -133,7 +133,7 @@ function choose(f) {
   const stand = node(); stand._ngDock = { w: 390, h: 844, bottom: NaN };
   a._optionCards = [{ opt, card: { getBoundingClientRect: () => ({ top: 492.75 }) } }];
   a.executionCard = () => stand;
-  new Function("app", "reader", wrapper)(a, r);
+  new Function("app", "reader", "const rect = el => el.getBoundingClientRect();\n" + wrapper)(a, r);
   assert.equal(a.executionCard(opt), stand);
   a._execution = { card: stand, result: false };
   return stand;

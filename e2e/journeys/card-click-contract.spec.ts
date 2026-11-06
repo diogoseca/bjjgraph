@@ -173,22 +173,21 @@ test("@curated with the pane open the stand-in is where the clicked card was, no
   }
 })
 
-test("@curated a card scrolled into the row's left inset keeps its place when chosen", async ({ page }) => {
+test("@curated a card scrolled into the row's left fade keeps its place when chosen", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = await seat(page, "transition")
   const title = await mark(page, "transition")
   await atRest(page)
-  // swipe the row so the marked card's left edge sits halfway into the left inset (the tray's own
-  // NG_TRAY_INSET, the fade side), where a player can still see and click it
+  // swipe the row so the marked card's left edge sits halfway into the left fade (36px, helmet.html), where a player
+  // can still see and click it. Beside the article the row has no inset of its own (owner, 2026-11-01).
   const into = await page.evaluate(() => {
     const a = (window as any).__neural, row = a.optionsRef.current, t = document.querySelector("[data-cc-target]") as HTMLElement
-    const pad = parseFloat(getComputedStyle(row).paddingLeft)
-    row.scrollLeft += t.getBoundingClientRect().left - (row.getBoundingClientRect().left + pad / 2)
+    row.scrollLeft += t.getBoundingClientRect().left - (row.getBoundingClientRect().left + 18)
     return t.getBoundingClientRect().left - row.getBoundingClientRect().left
   })
-  expect(into, "precondition: the card starts inside the left inset").toBeLessThan(await page.evaluate(() => parseFloat(getComputedStyle((window as any).__neural.optionsRef.current).paddingLeft)))
+  expect(into, "precondition: the card starts inside the left fade").toBeLessThan(36)
   const before = await state(page)
-  await j.clickByMouse("[data-cc-target] .ngchoice-title", `the card "${title}" in the left inset`)
+  await j.clickByMouse("[data-cc-target] .ngchoice-title", `the card "${title}" in the left fade`)
   const picked = await state(page)
   expect(picked.stand?.label).toBe(title)
   expect(Math.abs(picked.stand!.box![0] - before.target![0]), `the stand-in keeps the card's x (${picked.stand!.box} vs ${before.target})`).toBeLessThanOrEqual(2)

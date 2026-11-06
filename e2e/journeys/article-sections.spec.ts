@@ -58,7 +58,7 @@ for (const path of [
       const root = document.querySelector('[data-reader]')!, body = root
       const norm = (s: string | null) => (s || '').replace(/Play as /g, 'Read as ').replace(/\s+/g, ' ').trim()
       const sources = [...new Set([...body.querySelectorAll('[data-source-path]')].map(e => e.getAttribute('data-source-path')!))]
-      const missing: string[] = []
+      const missing: string[] = [], position = /^\/Positions\//.test(root.getAttribute('data-reader-path')!)
       for (const path of sources) {
         const res = await fetch(path); if (!res.ok) throw Error(path + ': ' + res.status)
         const doc = new DOMParser().parseFromString(await res.text(), 'text/html')
@@ -69,7 +69,10 @@ for (const path of [
         const selected = guide || !/\/(Top|Bottom|Attacker|Defender)$/.test(root.getAttribute('data-reader-path')!) ? [source] : [...source.querySelectorAll('#safety-considerations')]
         for (const container of selected) for (const leaf of container.querySelectorAll('p,li,th,td')) {
           if (!/^\/(Principles|Learning|Systems)\//.test(root.getAttribute('data-reader-path')!) && leaf.closest('#film-study,#official-preview')) continue
-          const text = norm(leaf.textContent); if (text && !shown.includes(text)) missing.push(text)
+          // A position's How it works is cut once at a sentence end, behind Read more (U101 b), and the template's wikilink
+          // inside raw HTML prints as its name, so a paragraph is whole when every sentence of it shows.
+          const text = norm(leaf.textContent)
+          for (const line of position ? text.replace(/\[\[.*?\|(.*?)]]/, '$1').split(/(?<=[.!?])\s+(?=[A-Z])/) : [text]) if (line && !shown.includes(line)) missing.push(line)
         }
       }
       const cards = [...root.querySelectorAll('[data-reader-body]>.ng-section-card,.ng-reader-game>.ng-section-card')]
@@ -83,10 +86,12 @@ for (const path of [
     expect(proof.count).toBeGreaterThan(2)
     expect(new Set(proof.ids).size).toBe(proof.ids.length)
     expect(proof.horizontalTabs).toBe(0)
+    // Positions read in the owner's order (2026-11-01): article-order.spec.ts. Everything else keeps this one, except that
     // S1 a (owner, 2026-11-06): a submission's guide leaves this order and goes last; safety-line.spec.ts pins it.
-    const main = ['videos', 'overview', 'principles', 'recognition', 'setup', 'prerequisites', 'options', ...(path.startsWith('/Submissions/') ? [] : ['safety']), 'mistakes']
+    const main = /^\/Positions\//.test(path) ? ['videos', 'aka', 'confused', 'definition', 'principles', 'options', 'safety', 'mistakes', 'statistics', 'overview', 'prerequisites', 'training']
+      : ['videos', 'overview', 'principles', 'recognition', 'setup', 'prerequisites', 'options', ...(path.startsWith('/Submissions/') ? [] : ['safety']), 'mistakes']
     const actual = proof.types.filter(t => main.includes(t!))
-    expect(actual).toEqual(main.filter(t => proof.types.includes(t)))
+    expect([...new Set(actual)]).toEqual(main.filter(t => proof.types.includes(t)))
     if (proof.types.includes('related')) expect(proof.types.slice(proof.types.indexOf('related'))).toEqual(proof.reference && proof.types.includes('sources') ? ['related', 'sources'] : ['related'])
     if (proof.reference) expect(proof.hand).toBe(0)
     expect(await state(page)).toMatchObject({ paused: true, played: false, misses: 0, deals: 0 })
@@ -126,8 +131,11 @@ for (const width of [1366, 390]) {
         headInArticle: r.head.parentElement === r.game && r.head.contains(r.tools) && r.head.hasAttribute('data-bare'),
         sectionHeaders: labels, step: a._landEl.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12,
         backs: 3 * (a._landStackEl?.childElementCount || 0),
-        // U31: cards can share a row. Measure between actual row unions, not between peers.
-        gaps: [...new Set(cards.map(c => c.getBoundingClientRect().top))].slice(1).map(top => top - Math.max(...cards.map(c => c.getBoundingClientRect()).filter(r => r.top < top).map(r => r.bottom))),
+        // Owner (2026-11-06): two columns have no rows, so a gap is measured down each column, between neighbours in it.
+        gaps: [...new Set(cards.map(c => Math.round(c.getBoundingClientRect().left)))].flatMap(left => {
+          const lane = cards.map(c => c.getBoundingClientRect()).filter(r => Math.round(r.left) === left).sort((x, y) => x.top - y.top)
+          return lane.slice(1).map((r, i) => r.top - lane[i].bottom)
+        }),
         overflow: a._readerEl.scrollWidth - a._readerEl.clientWidth }
     })
     const normal = await measure()
@@ -234,12 +242,13 @@ test('@curated optional chrome frame preserves the node band and every flow gap'
   expect(result.before.top).toBeCloseTo(result.ownTop, 2)
   expect(result.before.start).toBeCloseTo(result.expectedStart, 2)
   expect(result.sameHead).toBe(true)
-  expect(result.hooked.cardTop - result.before.cardTop).toBeCloseTo(result.headBottom - result.ownTop + result.offset - result.headLead, 2)
+  // One decimal: Chromium lays out in 1/64px, and a card this far down (U90 a's taller band at 1600) lands on a neighbouring unit.
+  expect(result.hooked.cardTop - result.before.cardTop).toBeCloseTo(result.headBottom - result.ownTop + result.offset - result.headLead, 1)
   expect(result.hooked.band).toBe(result.before.band)
   expect(result.hooked.start).toBeGreaterThan(result.offset)
-  expect(result.hooked.cardGap).toBe(result.before.cardGap)
-  expect(result.hooked.articleGap).toBe(result.before.articleGap)
-  expect(result.hooked.gaps).toEqual(result.before.gaps)
+  expect(result.hooked.cardGap).toBeCloseTo(result.before.cardGap, 1)
+  expect(result.hooked.articleGap).toBeCloseTo(result.before.articleGap, 1)
+  for (const [i, gap] of result.hooked.gaps.entries()) expect(gap).toBeCloseTo(result.before.gaps[i], 1)
   expect(result.readingReserved.geometry).toEqual(result.hooked)
   expect(result.readingReserved.end - result.readingEnd).toBeCloseTo(40, 1)
   expect(result.clamped.bottom).toBeCloseTo(result.clamped.end, 1)
@@ -248,9 +257,11 @@ test('@curated optional chrome frame preserves the node band and every flow gap'
   expect(result.reserved.rootEnd).toBeCloseTo(result.reserved.end, 1)
   expect(result.reserved.geometry.cardGap).toBe(16)
   expect(result.zeroReserve.bottom).toBeCloseTo(result.zeroReserve.end, 1)
-  expect(result.after).toEqual(result.before)
-  expect(result.nullHook).toEqual(result.before)
-  expect(result.undefinedHook).toEqual(result.before)
+  // Within Chromium's 1/64px layout unit: a card at U90 a's depth rounds to a neighbouring unit on a later pass.
+  for (const geometry of [result.after, result.nullHook, result.undefinedHook]) for (const key of Object.keys(result.before) as (keyof typeof result.before)[]) {
+    if (key === 'gaps') for (const [i, gap] of result.before.gaps.entries()) expect(geometry.gaps[i]).toBeCloseTo(gap, 1)
+    else expect(geometry[key] as number, key).toBeCloseTo(result.before[key] as number, 1)
+  }
 
   await j.boot('/Principles/Frames', { initialState: QUIET })
   await expect(page.locator(READY)).toBeVisible()
@@ -306,7 +317,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
     await expect(page.locator(READY)).toBeVisible()
     // Closed pane: 680px article + two (200px TOC + 24px edge + 12px gap) gutters.
     // Hidden on narrow tablets as well as phones; the article never yields width.
-    const hasToc = viewport.width >= 1152 && viewport.height > 500
+    const hasToc = viewport.width >= 1350 && viewport.height > 500 // U97 b (owner, 2026-11-06): a line keeps 45 characters
     const header = page.locator('[data-section-toggle=principles]'), body = page.locator('[data-section-type=principles] .ng-section-body')
     await expect(page.locator('.ng-reader-contents-button')).toHaveCount(0)
     const column = await page.locator('.ng-reader-article').boundingBox()
@@ -425,14 +436,14 @@ test('@curated current node stays centred while the native article crosses it at
     // Repeated reading can mint White Foundations. Its deliberate phone overlay
     // covers the node band; dismiss it natively before testing article occlusion.
     if (await page.locator('[data-reward-close]').isVisible()) await j.clickByMouse('[data-reward-close]')
-    if (width >= 1152) await expect(page.locator('.ng-reader-toc')).toBeVisible()
+    if (width >= 1350) await expect(page.locator('.ng-reader-toc')).toBeVisible() // U97 b
     else await expect(page.locator('.ng-reader-toc')).toBeHidden()
     const board = await tocCanvasGeometry(page)
     expect(board.map).toBe(true)
     expect(Math.abs(board.center - width / 2), width + 'px centred visible composition').toBeLessThan(2)
     expect(Math.max(...board.labels.map(r => r.bottom), ...board.orbs.map(r => r.bottom))).toBeLessThan(board.firstTop)
     expect(board.intersections, width + 'px map: ' + JSON.stringify(board)).toEqual([])
-    if (width >= 1152) await j.clickByMouse('[data-toc-type=overview] a')
+    if (width >= 1350) await j.clickByMouse('[data-toc-type=overview] a')
     else {
       await page.locator('[data-reader-body]').focus()
       await page.keyboard.press('PageDown')
@@ -475,8 +486,8 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
     await expect(page.locator('[aria-label="Reading perspectives"]')).toHaveCount(0)
     await expect(page.locator('.ng-reader-toc h2')).toHaveText('Escaping Loop Choke from Half Guard')
     expect(await page.locator('.ng-reader-toc h2 small').evaluate(e => getComputedStyle(e).display), 'the qualifier stays in the phrase').toBe('inline')
-    expect((await page.locator('.ng-reader-toc-row a').allTextContents()).slice(0, 4)).toEqual(['Videos', 'Moves', 'Questions', 'Overview'])
-    const hasToc = viewport.width >= 1152
+    expect((await page.locator('.ng-reader-toc-row a').allTextContents()).slice(0, 4)).toEqual(['Videos', 'Moves', 'Questions', 'How it works'])
+    const hasToc = viewport.width >= 1350 // U97 b
     for (const [part, close] of [['card', '[data-land-close]'], ['hand', '[data-hand-close]']]) {
       const label = page.locator(`[data-game-open="${part}"]`)
       await expect(label, 'an open part has no header').toBeHidden()

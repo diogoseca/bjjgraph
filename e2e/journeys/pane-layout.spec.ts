@@ -156,11 +156,10 @@ for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 
     const before = await page.locator("[data-reader]").evaluate(e => e.scrollTop)
     const line = () => page.locator("[data-reader]").evaluate(e => {
       const r = (window as any).__neural._reader, top = e.getBoundingClientRect().top
-      const held = r.articleEl.querySelector("[data-test-line]") || [...r.articleEl.querySelectorAll("p,li")].find((x: Element) => x.getBoundingClientRect().top >= top)
+      const held = r.articleEl.querySelector("[data-test-line]") || ([...r.articleEl.querySelectorAll("p,li")] as Element[]).filter(x => x.getBoundingClientRect().top >= top).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]
       held.setAttribute("data-test-line", "")
       return held.getBoundingClientRect().top - top
     })
-    // At 768 the only pin on U59 c's hold while the pane is open: article-dashboard pins 1440 and 1152. pane-open-hold-lost.
     const lineBefore = await line()
     await openPane(page, j)
     const overlap = await page.evaluate(() => {
@@ -210,6 +209,31 @@ for (const path of ["/Positions/Mount/Top", "/Transitions/50-50-Entry/Attacker"]
     expect(await readerTop(page), "the close lands on the place the open left").toBe(before)
   })
 }
+// At 768 the only exact pin on U59 c's hold while the pane is open: article-dashboard pins 1440 and 1152. pane-open-hold-lost.
+// On screen coordinates, from the landed start with an open question. UNGUARDED: from a direct boot the slide's last pass shifts
+// the stage about 18px with no change of grid, so the anchor has no reason to fire and the line ends that much higher while the
+// pane is open: 17-18px on the four position pages measured, on v1.249.1 and v1.249.2 alike. The close still lands exactly.
+test("768px the line holds while the pane is open, mid-article", async ({ page }) => {
+  await page.setViewportSize({ width: 768, height: 1024 })
+  const j = await setup(page)
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  await page.locator("[data-reader-body]").focus()
+  await page.keyboard.press("Control+End")
+  await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop)).toBeLessThan(2)
+  const held = await page.locator("[data-reader]").evaluate(e => {
+    e.scrollTop = Math.round(e.scrollTop * .35)
+    return new Promise<number>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
+      const r = (window as any).__neural._reader, top = e.getBoundingClientRect().top
+      const line = ([...r.articleEl.querySelectorAll("p,li")] as Element[]).filter(x => x.getBoundingClientRect().top >= top).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]
+      line.setAttribute("data-test-line", "")
+      done(line.getBoundingClientRect().top)
+    })))
+  })
+  await openPane(page, j)
+  const open = await page.locator("[data-reader]").evaluate(e => ({ line: e.querySelector("[data-test-line]")!.getBoundingClientRect().top, top: e.scrollTop, max: e.scrollHeight - e.clientHeight }))
+  expect(open.top, "premise: the document's end is not what stops the line").toBeLessThan(open.max - 1)
+  expect(Math.abs(open.line - held), `the line holds on screen (${held} -> ${open.line})`).toBeLessThanOrEqual(8)
+})
 // v1.250.1: a clamp is the document's end moving under the place, and only that. #340 asked "at the end and below the place",
 // which a smooth Ctrl+Home's first tick also is when it moves 1px: layoutNow wrote the place back, the running animation kept
 // the +1 as an offset and stopped at 1 (reading-navigation.spec.ts, CI run 42152251420: 2 of 72 under load on two cores, 0 of
@@ -234,7 +258,7 @@ test("768px a scroll while the pane is open is the reader's new place, and the c
     e.scrollTop = Math.round(e.scrollTop * .4)
     return new Promise<number>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
       const r = (window as any).__neural._reader, top = e.getBoundingClientRect().top
-      const line = [...r.articleEl.querySelectorAll("p,li")].find((x: Element) => x.getBoundingClientRect().top >= top)!
+      const line = ([...r.articleEl.querySelectorAll("p,li")] as Element[]).filter(x => x.getBoundingClientRect().top >= top).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]
       line.setAttribute("data-test-line", "")
       done(line.getBoundingClientRect().top - top)
     })))

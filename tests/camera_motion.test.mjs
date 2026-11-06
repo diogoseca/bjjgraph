@@ -158,7 +158,10 @@ test("the reader centres its drawn composition continuously, independently of ar
   settle();
   const drawnX = (n.x - a.cam.cx) * a.W / a.cam.vw + a.W / 2;
   assert.ok(Math.abs(drawnX + (150 + 11) / 2 - a.W / 2) < 1e-6, "orb and full label are centred together: " + JSON.stringify({ drawnX, cam: a.cam, target: a.camTarget }));
-  assert.ok(Math.abs(H / 2 + (n.y - a.cam.cy) * a.W / a.cam.vw - 140) < 1e-6, "node is in the reserved arrival band");
+  // U90 a: the band's height is the window's now, so the claim is its middle, not the old 144px band's 140.
+  const { top, bottom } = reader.nodeBand;
+  assert.ok(bottom - top >= 144, "the band keeps its old height at least");
+  assert.ok(Math.abs(H / 2 + (n.y - a.cam.cy) * a.W / a.cam.vw - (top + bottom) / 2) < 1e-6, "node is in the middle of the reserved arrival band");
   const before = { ...a.cam };
   reader.contents.hidden = true;
   reader.articleEl.getBoundingClientRect = () => ({ left: 236, right: 916, top: 0, bottom: 900, width: 680 });

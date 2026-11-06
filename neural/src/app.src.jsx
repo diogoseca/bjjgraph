@@ -36,6 +36,12 @@ const NG_LAND_ANSWER_STEPS = Object.freeze([
 // The option tray's own horizontal inset, both ends (`updateUiShift` writes it; the pane's reserve is
 // added on the left only). The template's inline 24px is the same value for the first paint.
 const NG_TRAY_INSET = 24;
+// U99 b (owner, 2026-11-06, over the first build's "never hiding"): a taller map, 43% at 900px tall, knowing that half of all
+// cards then need a scroll to reach their last answer. The room a live question needs under the map, from the map's bottom to the
+// window's, at the median: on 136 real cards from 16 pages (1440x900, real fonts) the bottom answer lands 486px below the map at
+// the median, 570 at p90 and 589 at worst. The reader ends 20px above the window and an answer keeps 8px above that: 486 + 28.
+// The floor that replaces D-368 on a desktop: every answer of every card can be reached by a real scroll (article-order.spec.ts).
+const NG_LIVE_ANSWER_ROOM = 514;
 // v1.230.0: equal choice score columns are styled in choice-value.css.
 // feedback_owner_rules_reverse_shipped_contracts: v1.220.0's 0.6 ratio retired.
 // The chosen card's lift (`_placeOnTable`): a twelfth of its own height (12px on the 144px card),
@@ -12707,8 +12713,11 @@ class Component extends DCLogic {
     // the edge (measured 0px at 1440). The trailing inset is the leading one without the pane's
     // reserve; the phone stylesheet's `!important` 12px wins over both, symmetric too.
     if (op) {
-      op.style.paddingLeft = (NG_TRAY_INSET + this._paneLayout().left).toFixed(1) + "px";
-      op.style.paddingRight = NG_TRAY_INSET + "px";
+      // Owner (2026-11-01): beside the article the row and the grid share both edges, so the first card sits on the
+      // grid's left edge and the reader lifts the inset (`trayFlush`, reader.src.js).
+      const inset = this._reader?.trayFlush ? 0 : NG_TRAY_INSET;
+      op.style.paddingLeft = (inset + this._paneLayout().left).toFixed(1) + "px";
+      op.style.paddingRight = inset + "px";
       this._syncEdgeFade(op);
     }
     this._layoutLandHorizontal();
@@ -18883,7 +18892,9 @@ class Component extends DCLogic {
   }
   // Reading reserves its node before the deferred reader or a deck has arrived.
   // Layout and the camera share this datum; article scroll never changes it.
-  _readerBand(top = Math.max(68, (this.wrapRef?.current?.querySelector(".ng-logo")?.getBoundingClientRect().bottom || 0) + 12)) {
+  _readerBand(top) {
+    const own = Math.max(68, (this.wrapRef?.current?.querySelector(".ng-logo")?.getBoundingClientRect().bottom || 0) + 12);
+    top ??= own;
     // D-349: a phone's band is 186, not 136: it gives back the 44px Questions header and the 6px gap
     // it sat under, the room a move's execution had before D-338 removed them. At 136 a no-Videos
     // exchange's arc carried the pair, on screen, 3px into the Moves row; at 186 every frame with the
@@ -18892,7 +18903,12 @@ class Component extends DCLogic {
     // with no arrival or Answer for Points scroll (U47 d). At 390x631 the reader has 463px: 80 band + 16 gap
     // + the measured 352.25px open card leaves 14.75px. The usual phone keeps 144;
     // no account, type, target or Moves compaction. Both bands hold through the pick.
-    const height = this.H > 500 ? this.W <= 640 ? this._phoneCatch() ? this.H < 700 ? 80 : 144 : 186 : 144 : 64;
+    // U90 a, then U99 b (owner, 2026-11-06): on a desktop the map ends at half the window's height, or NG_LIVE_ANSWER_ROOM above
+    // the window's bottom if that is higher, and never below the old 144. It reads the window alone, never a card, so nothing moves
+    // when a question opens. D-433 stands on a phone; on a desktop a long card's last answer is a scroll away, by his ruling.
+    // From the app's own top, not a chrome frame's: D-318 keeps the reservation's height when chrome moves the head.
+    const height = this.H > 500 ? this.W <= 640 ? this._phoneCatch() ? this.H < 700 ? 80 : 144 : 186
+      : Math.max(144, Math.min(Math.round(this.H / 2), this.H - NG_LIVE_ANSWER_ROOM) - own) : 64;
     return { top, bottom: top + height, height };
   }
   // U16 b, extended by D-433: only a LIVE phone catch uses the smaller band. A calm defender

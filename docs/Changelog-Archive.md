@@ -14098,6 +14098,146 @@ without running it, on a guess that a clamp would break it. Orchestrator review 
 **Bytes.** The hold alone took the deferred set to 22 B over. A `listen()` helper across eleven call sites, and the dead `related-systems`
 alias and `.system-card__*` selectors #339 left, brought it to 506,740 of 506,817 B: 64 B under where it started, and no ceiling moved.
 
+## v1.251.0 — Two columns replace the row grid; the map to half the window, capped; a real race in Ctrl+Home (owner, 2026-11-06)
+
+The owner, on round 1's snapshots: "the grid distribution is always terrible, long empty spaces in some grids", then "instead of a
+grid, maybe just use two columns ... the vertical order is preserved without gaps". His note replaces U59 c's rows and U65 b's
+pairing. #341 stays a draft until he has seen `scratch/article-order/owner2/index.html`.
+
+**The layout, and the first idea that was wrong.** `float:left` alone looked like the whole rule: rule 5 of CSS 2.1 9.5.1 forbids a
+float above an earlier one and rule 8 sends it as high as it can go. It is not, and it shipped into a comment before the numbers
+said so: rule 2 holds a left float below every earlier left float sharing its row, so a tile could not go under a shorter left
+tile while a taller one stood beside it. Side Control Bottom's Definition landed at 953, not 927, and the rows' holes came back.
+So `layoutNow` picks the side from real heights (`data-right`) and floats do the placing. The DOM never moves, so Tab, the index and
+the head tops down the page are one order, and with one float each side the grid box stays exactly the choices row's width.
+A draw is within a pixel: at 1366 two columns ended 0.5px apart, and a strict comparison put a head a sub-pixel above a draw. That
+exposed a second float trap: a left tile within a pixel of a draw slid into the right lane, at x=671, with no gap. Left tiles clear
+left once a right tile exists, which keeps two lanes under a held press.
+
+**Tight, measured.** Each tile grown by half the 24px token, so the gaps the layout means to have count as filled; what stays empty
+in the article's box is a hole, BETWEEN if a tile lies below it, END if not. Recompute: `scratch/article-order/art2/tight.cjs`.
+14 real pages at 1440x900 (5 positions, 4 transitions, 5 submissions), as a share of the article's area:
+
+| | between | end | mean height |
+|---|---:|---:|---:|
+| dev | 12.0% | 3.2% | 5,026 |
+| round 1 rows | 22.1% | 6.4% | 5,957 |
+| two columns | 0.0% | 5.0% | 4,481 |
+
+The big end gaps are Training standing alone on Transitions and Submissions: 1,191px on Knee Slice Pass Attacker, 956 on its Defender,
+844 on Armbar from Mount, 777 on Back Step Pass. A proposal, measured and not built: each bold-led phase its own tile, as the
+Overview's are, brings those to 72, 113, 276 and 185px with no text rewritten. It costs 300 B, and it makes Positions slightly
+worse, so it would be scoped.
+
+**U90 a, and what "never hiding" costs.** 136 real cards on 16 pages at 1440x900: the bottom answer lands 486px below the map at the
+median, 570 at p90, 589 at worst. Hence `NG_LIVE_ANSWER_ROOM = 620` (589, plus the reader's 20px, plus D-368's 8px, rounded up): 280 of
+900 at 1440 (31%), 244 of 864 at 1152 (28%), exactly half from a 1,240px window. A static constant, so nothing moves when a question
+opens. Its blind spot: 136 is a sample, so a taller card needs a scroll, as any card did before. **U90 note:** `offsetLeft`, because a
+scrolled tray or Inspect's slide moves the label and must not take the line along.
+
+**The flake was an app race, not timing.** `reading-navigation.spec.ts:20`, Ctrl+Home stopping at 1: 2 of 72 under load on two cores,
+0 of 40 without, and both traces identical. #340's guard read "at the end and below the place" as the browser's clamp, which is also
+the first tick of a smooth scroll when it moves 1px. `layoutNow` wrote the place back, the running animation kept the +1 as an offset,
+and it stopped at 1. A 1px write makes it deterministic: 3 of 3 red on this branch and on dev. A clamp is the end moving under the
+place, so the guard now asks that. place-end-tick. **The open hold** is back at #340's strength: with the line chosen as the block
+nearest the reader's top in either column, `768px the pane overlays the article` passes its original assertion.
+
+**`mangleProps` stays, for a reason in bytes.** It saves 620 B and 85 B are free, so taking it out lands 535 B over a ceiling nobody
+raises. Row logic freed less than it looked: the sides, the observer and the question line cost most of it back.
+`tests/reader_mangle.test.mjs` now gates what its comment used to ask a person to grep: 23 names, 489 files, 0 reads from outside.
+
+**Specs.** 12 tests pinned the rows: 11 rewritten to the columns' claim (`pairs()` and `rowsOf()` became `columns()`) and 1, the trio,
+replaced by three pages that are two columns too. 10 row controls retired with the rule each pinned, named in the mutant file. New:
+16 journeys, 3 units, 23 controls. `u59-measure-unset` survived at 1440 with nothing wrong, because a tile's text there is under
+46ch, so it moved to 1920. The band controls edit neural.js, outside the reader-only runner: `band-uncapped`
+(`Math.round(this.H/2)-e`), `band-old-144` and `band-follows-card` (a band that shrinks by 60 once a question opens). PR CI's
+first run found what the 45-file batch could not: `layer-dock-centre` held the replay bar to the card's centre, and U90's note took
+the asking card off the column. The bar was right. The claim now reads the column, and `replay-bar-off-column` (the bar 120px left,
+in neural.js) turns it red at 1440 and 1024. Its second run found a window of this PR's own: a close left the columns to the next
+frame, the only open or close path that did, and `article-sections.spec.ts:107` read a 376px hole inside it on one run in two.
+Nothing painted that. A close now sorts in its own task, which cost nothing (-2 B), and `columns-close-waits-a-frame` pins it with no timing in it.
+
+**Round 3, the owner's answers (2026-11-06).** Two columns approved at every width (U95 a, U98 a). U99 b overrode "never hiding": the map
+takes the median card, `NG_LIVE_ANSWER_ROOM = 514`, 43% at 900 tall, knowing half of all cards then need a scroll. D-368's desktop claim
+became "every answer is reached by a real scroll", pinned with the real wheel on the longest deck; D-433 stands on a phone, whose band he
+did not change. U97 b moved the index to 1,350px of free width: a line holds 45 characters from 1,346 on five real pages. That move
+broke something a width change had been hiding: the grid now stands at 902px through most of a pane slide, the line anchor keyed on the
+grid's width, and the film flipping under the question grew the stage 143-168px with nothing holding the line. The anchor now keys on the
+free width. The Overview's numbered tiles (2 to 9 on 266 pages, 135 with four or more) go to the owner as three options; they must not ship.
+
+**Round 4, the owner's picks (2026-11-06): U101 b, U102 a.** His note on U96: "there should only be one overview, and it shouldn't be called
+'overview.' It's a poor header and a poor description of what happens." One tile, "How it works", a short opening, and "Read more" opening the
+rest in place, one way. The numbered tiles never shipped: they gave 2 to 9 tiles on 266 role pages, 135 with four or more. Swept through
+the app's own reader on all 266: one tile, Read more on each, text equal to the source on 266 of 266, no block that is not a paragraph.
+The label changed everywhere it reaches a reader (From the top, From the bottom, As the attacker, As the defender, For both sides), with
+no capture, because the built site carries no such heading: 0 in the HTML, the Markdown export and `llms.txt`. `#overview` anchors stay.
+Saved section settings survive, because they are stored by type. One trap caught before it shipped: Learning, Systems and Submission family
+pages publish their own `<details>`, so an `article`-wide rule hid a question once opened; hence the class. Being one-way is what makes it fit.
+Bytes on the merged tree: deferred 506,815 of 506,817, eager +4,900 of 5,000, no ceiling moved, so `mangleProps` stays (it saves 620 B, so 618 B over without it).
+Controls: `read-more-no-reflow` survived, because a later layout sorts the tiles anyway, and `line-dom-first-slide` survived because the
+slide's page puts both candidates on one block. Both are recorded in the spec's header, and each claim has a control that does bite.
+
+**Round 5, the independent review (2026-11-06).** Eight read-only reviewers, no blocker, `mangleProps` clean. Three leaks readers would have seen,
+all from this PR: the Beta pill's suffix selector lit How it works on all 83 Systems and Training on two positions; an unscoped rule dropped the
+words "Also known as" on 122 Transition and Submission pages; and `reader.src.js` held the first regex lookbehind in any neural bundle, in a
+literal, which would fail the whole module on Safari below 16.4 (the floor is from memory). The cut is now one forward regex, identical on all 266
+pages and smaller, which paid for the exact-id selectors with the redundant `.ng-section-card` prefix. `tests/neural_bundle_regex.test.mjs`
+pins it, and `tests/reader_mangle.test.mjs` now reads 22 names anywhere and `held` by receiver. Three of my own specs could not fail for the
+reason they claimed: the press test booted by URL, whose reading intent cannot decline, so `u99-wheel-declines` survived until it moved to a played
+landing at 640 tall; the wrapping-block journey hid the wrap behind the other column, so it runs at 720 too; and `reader-rounding-remainder-dropped`
+stays a recorded NON-KILL, because the line drifts -0.266px at 720 and -0.234px at 1440 with the remainder and without it: #340's held line now
+does that job. Measured and left alone: a wheel with the pointer over the article declines a live question, stopping the clock and pausing the game,
+while the answers stay pressable and still score. That is a free pause, not a loss, and U99 makes it easier to reach.
+
+## v1.250.0 — The article on a position page, in the order a person needs it (owner, 2026-11-01)
+
+The owner, on Side Control Bottom: the Overview is "such a long text, and I don't know where to start"; "the choices row should
+always have the same size as the grid"; "I kind of like it that it's centered". This PR is a draft until he has seen the screens in
+`scratch/article-order/owner/index.html`, because the Overview split, the Beta mark and the map's height are his to choose.
+
+**The reader sorts the article, so the order lives in `reader.src.js`.** Position pages now read: Also known as, Often confused with,
+the definition, Essential principles, Decisions, Common mistakes, Statistics, Overview, Prerequisites, Training, Related. Every other
+page keeps its order, and `safety` keeps its seat between options and mistakes while question S1 is open. The no-JS page keeps its
+template order, because moving that is a content change.
+
+**The widths.** Measured before at 1408: grid 236-1384, row 236-1172, first card 260. Now all three share 236-1172, and the sweep from 1024 to
+1920 by 64 holds both edges within 1px, centred, clear of the index. So the grid no longer runs to the right edge, which means three
+lanes start at a window of 1,622px rather than 1,440. One seam to know: the grid is 902px at 1151 and 680px at 1152, where the index
+appears and the margins must match. It is on the owner's page as a question.
+
+**The map at 50% is built and not in the branch.** At 1440x900 it pushes a live question's answers past the bottom of the window, against
+D-368 and D-433: four reds, in `covered-card`, `panic-card` and twice in `defending-landing`, with the panic answer's centre at y=901 of 900.
+The brief makes it the owner's call on the screens, so the branch keeps 144px.
+
+**A crash only the full batch could see.** `position && buckets.get("overview")` is `false` on every non-position page, and `false?.parts[0]`
+throws, because optional chaining guards null and undefined only. Every screen in this PR is a position page, so they all looked
+right. The first batch had 243 reds, 218 of them a reader that never appeared. Fixing this line and reverting the band left 22.
+
+**A misdiagnosis, kept out.** A 32px line drift at 1152 looked like the anchor going quiet mid-slide, and a clause was added for it. A
+pass-by-pass trace showed the anchored line held to within a pixel: the journey had picked a line in the other lane, because v1.249.1
+let it fall through to the second lane too eagerly. The clause came out and the journey prefers the first lane.
+
+**The open hold at 768 moved, and was measured.** On this order the landed journey's line sits near the article's end, so one lane
+leaves nothing below it: the line stops 51.5px short with `scrollTop` at 10,155 of 10,155. v1.249.2 measured 0.02px there on the old order. That
+is the document's end, not the hold, so at the article's end the assertion names that condition, and a new mid-article journey pins the
+hold exactly, on screen coordinates, with a premise that nothing clamps it. `pane-open-hold-lost` moved to that journey.
+
+**One shift stays, measured and unpinned.** From a direct boot the slide's last pass moves the stage about 18px with no change of grid, so
+the anchor has no reason to fire: 17-18px on four position pages, on v1.249.1 and v1.249.2 alike, and the close still lands exactly.
+Firing the hold on every pass would fix it, but each 1px correction scrolls, the scroll lays out again and the next pass corrects back,
+which is an oscillation risk for 18px. It is UNGUARDED in the spec's header.
+
+**A control that proved a spec gap.** `width-right-edge` survived the first run: a wider grid stays centred and the row follows it, so
+the edges still match while the grid runs under the index. The sweep now pins the index's clearance. 29 of 29 controls are killed.
+
+**A raw wikilink, reduced.** The template leaves a wikilink inside raw HTML, which Quartz never resolves, so 36 pages print
+`[[Positions/...|Name]]`. It was buried in the Overview and would have led the page, so a position's tile prints the name. The link itself needs
+a template fix and a capture.
+
+**Bytes.** The first build was 1,230 B over the deferred cap. The CSS audit found no dead rules. What paid for it: a `rect()` helper across 30
+call sites, `mangleProps` for 23 names used only inside the reader, merged rules, and the rule the definition could share with
+the reader's headings. Deferred 506,794 of 506,817 B, against 506,740 on dev v1.249.2. Eager gzip +8 B, 346,905 B. No ceiling moved.
+
 ## v1.250.0 — The safety guide last, and the rule above the steps (owner S1 a, S2 b, S3 a, S4 a, 2026-11-06)
 
 **The owner's words.** S1 a: "A: the guide last, one line above the steps", from his K1 note, "the safety text should probably be one

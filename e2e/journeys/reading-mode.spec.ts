@@ -84,7 +84,7 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     await expect(page.locator("[data-land-more]")).toHaveCount(0)
     await expect(page.locator("[data-reader-body]")).toContainText("Training Progressions")
     expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, deals: 0 })
-    // U65 note (owner, 2026-10-29): the game film lives above; the article begins with Overview.
+    // U65 note (owner, 2026-10-29): the game film lives above; the article begins with How it works.
     await expect(page.locator('[data-reader-body]>.ng-section-card:visible').first()).toHaveAttribute('data-section-type', 'overview')
     await expect(page.locator('[data-section-type=overview]')).toContainText('Knee Slice')
     // RETIRED (D-338, owner: no View menu; Focus on reading and Browse removed). The Focus preset,
@@ -298,6 +298,8 @@ test("@curated a technique outside the active game ruleset remains readable on d
 
 for (const action of ["wheel", "selection"] as const) {
   test(`@curated mixed ${action} declines the live question without scoring a miss`, async ({ page }) => {
+    // U99 b (owner, 2026-11-06): the taller map puts the first tile below the fold at 900, and this wheel needs a tile to land on.
+    await page.setViewportSize({ width: 1440, height: 1400 })
     const j = journey(page)
     await j.boot("/")
     await j.land("Mount Top")
@@ -309,13 +311,13 @@ for (const action of ["wheel", "selection"] as const) {
     expect((await state(page)).clock).toBeGreaterThan(0)
     const before = await state(page)
     if (action === "wheel") {
-      // U65 note retires the credits text. Overview's header is visible at arrival; its first
+      // U65 note retires the credits text. The first tile's header is visible at arrival; its first
       // paragraph can lie below the reader's clipped bottom despite being inside the viewport.
-      const point = await page.locator('[data-reader-body] [data-section-type=overview]').evaluate(e => {
+      const point = await page.locator('[data-reader-body]>.ng-section-card:visible').first().evaluate(e => {
         const r = e.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + 12
         return { x, y, owns: e.contains(document.elementFromPoint(x, y)) }
       })
-      expect(point.owns, 'premise: the wheel hits Overview inside the reader scrollport').toBe(true)
+      expect(point.owns, 'premise: the wheel hits the first tile inside the reader scrollport').toBe(true)
       await page.mouse.move(point.x, point.y)
       await page.mouse.wheel(0, 300)
       await expect(page.locator("[data-reader]")).toHaveAttribute("data-reading-expanded", "")

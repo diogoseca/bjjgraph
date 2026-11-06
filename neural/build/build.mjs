@@ -13,7 +13,7 @@
 //   props      : neural/src/props.json  (baked to current defaults — the version you like)
 //   css        : neural/src/helmet.html <style> + Google-fonts @import  -> neural/dist/neural.css
 // Run from anywhere: node neural/build/build.mjs   (resolves esbuild from source/node_modules)
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, readdirSync, writeFileSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import { createRequire } from "node:module";
@@ -464,9 +464,16 @@ await build({
 });
 
 // Independent article renderer: requested on reading intent or after the real first hand.
+// READER_ONLY_PROPS: minifying shortens locals but keeps a property name whole, and the deferred cap is exact. These names
+// live only inside reader.src.js, so they can shrink; the source stays readable. A name the app or a spec reads must
+// never be listed, because it would come back undefined rather than throw. tests/reader_mangle.test.mjs pins this: all but
+// `held` anywhere, as `.name`, a quoted name or a key, and `held` only through the reader's four spellings. It does not pin
+// `held` through another local name, or a name built at runtime. A stale entry fails it too. This stays because it saves
+// 620 B and the deferred set has 6 B free (v1.251.0).
+const READER_ONLY_PROPS = /^(?:closedRow|referenceClips|lightReference|bookClose|highlightReference|syncSections|mediaOrigin|hiddenSections|gamePage|bookScroll|splitSections|syncIndex|mediaNext|readingOrder|chromeActive|shelfState|partEl|roleLinks|ownsMedia|indexBest|held|heldAt|heldY)$/;
 await build({
   entryPoints: [R("src/reader.src.js")], bundle: true, format: "esm", target: "es2019",
-  minify: true, legalComments: "none", outfile: R("dist/reader.js"), logLevel: "info",
+  minify: true, mangleProps: READER_ONLY_PROPS, legalComments: "none", outfile: R("dist/reader.js"), logLevel: "info",
 });
 
 await build({
@@ -620,3 +627,14 @@ console.log(
     `(${(Buffer.byteLength(readingCSS) - Buffer.byteLength(readMin)).toLocaleString()} B of comments and ` +
     `whitespace stripped), NOT in neural.css and NOT on the boot payload`,
 );
+
+// No regex lookbehind in any bundle. Safari below 16.4 cannot parse one, so a literal takes the whole module down, on every article.
+// Here and not in a unit, because ci-validate never builds the bundles: this runs on every build, the deploys' included. A throw with the
+// count printed, so a scan that found nothing to scan cannot read as clean. tests/neural_bundle_regex.test.mjs pins that this stays.
+{
+  const bundles = readdirSync(R("dist")).filter(f => f.endsWith(".js"));
+  if (bundles.length < 8) throw new Error(`[build] the lookbehind scan found only ${bundles.length} bundles in dist`);
+  const dirty = bundles.filter(f => /\(\?<[=!]/.test(readFileSync(R("dist/" + f), "utf8")));
+  if (dirty.length) throw new Error("[build] a regex lookbehind reached a bundle: " + dirty.join(", "));
+  console.log(`[build] ${bundles.length} bundles, no regex lookbehind`);
+}

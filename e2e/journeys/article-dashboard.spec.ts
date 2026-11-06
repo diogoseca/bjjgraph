@@ -8,35 +8,51 @@ import { journey } from '../dsl'
 // to be the same size".
 //
 // REAL CONTENT. The harness serves `{}` for dossier chunks (e2e/dsl.ts); this journey routes them through
-// to the built tree, so Mount/Top reads with its film, a long prose Overview and
+// to the built tree, so Mount/Top reads with its film, a long prose How it works and
 // short lists (Essential principles, Prerequisites, Statistics). The page HTML is the served build's own.
 // What the harness still does NOT serve: Google Fonts (an empty stylesheet) and YouTube thumbnails
 // (aborted). Heights here are fallback-font heights, so every claim is RELATIVE: a tile against its own
 // content, a gap against the token, an edge against the index, never an absolute height.
 //
-// U59 c (owner, 2026-10-28) governs the layout now: "there are two sections side by side always. Some sections
-// can take two columns while the other one takes one ... The most important thing is for that dashboard,
-// especially when it's viewed on desktop, to never only show one section full width." And the measure is kept
-// readable "through some use of padding". So: every desktop row is two open sections in source order (2/3 + 1/3
-// either way on three lanes, halves on two), an odd count can make ONE short trio on three lanes, the text sits in a
-// centred ~46ch column inside each tile, the reader ends above corner controls, and opening Explore keeps the
-// reader's place.
-// U65 b (owner, 2026-10-29): every tile ends at its own content; the next row still follows the
-// tallest tile plus the token gap. The map may show in the unused space, which remains reader input.
+// The owner's two columns govern the layout now (2026-11-06, on the snapshots of round 1): "the grid distribution is always
+// terrible, long empty spaces in some grids", and "instead of a grid, maybe just use two columns. that way there's never a big
+// gap following the previous section ... the vertical order is preserved without gaps". In reading order each section goes to
+// the column that is shorter now, a tie goes left, the text sits in a centred ~46ch column inside each tile, the reader ends
+// above corner controls, and opening Explore keeps the reader's place. This REPLACES, by his rule, U59 c's rows ("two sections
+// side by side always ... Some sections can take two columns") and U65 b's pairing, so the row assertions were rewritten to the
+// columns' claim, not deleted: "every row is two sections" became `columns()`, which the same pages must pass.
+// U59 c's "never only show one section full width" stands, and article-order.spec.ts pins it.
+// U65 b (owner, 2026-10-29): every tile ends at its own content. The only gap is below the shorter column at the article's end;
+// the map may show there, which remains reader input.
 // U65 note: game pages retire the duplicate Videos credits tile; their film stays in the stage.
 // Principles and Learning retain the Videos tile and its player.
 //
 // Claims, each with its control in tests/artifacts/article_sections_mutants.mjs:
 //   u55-tile-capped        every tile shows its whole content (a 520px cap, the owner-rejected mock)
-//   u59-rows-padded        each row ends at its tallest content (100px padded under every tile)
+//   u59-rows-padded        each tile ends at its own content (100px padded under every tile)
 //   u55r-body-capped       nothing inside a tile clips its text (the body capped at 240px)
 //   u55r-para-clamp        nothing inside a tile clips its text (paragraphs clamped to two lines)
-//   u59-row-alone          every row holds two sections, or three thirds (a long section alone across the width)
-//   u59-pair-flipped       of a pair, the longer text takes two thirds (the shorter one takes them)
-//   u59-trio-last          the row of three is the run whose longest section is shortest (always the last three)
-//   u59-order-moved        the eye reads the tiles in source order (a late section moved first)
-//   u59-tab-rtl            Tab walks the tiles in the order the eye does (the rows laid right to left)
+//   columns-rows-back      each tile starts where the shorter column ends (every second tile clears both columns: the old rows)
+//   columns-alternate      each tile goes to the shorter column (odd tiles left, even tiles right, whatever their heights)
+//   columns-tie-right      a draw goes left (the first tile on the right)
+//   columns-one-lane       two columns (each tile the grid's width)
+//   columns-three-lanes    two columns (three lanes)
+//   columns-gap-lost       a column's gap is the token (no gap)
+//   columns-tall-tile      a tile's real height decides (a character count stands in for it)
+//   columns-stale-height   a tile that grows later reorders what follows it (no observer on the tiles)
+//   columns-close-waits-a-frame a close sorts the columns in its own task (it waits for the coalesced frame)
+//   read-more-stays        Read more is one way (its label stays once opened)
+//   read-more-no-grow      Read more opens the rest (the rest stays hidden, so the tile does not grow)
+//   read-more-scrolls      nothing moves above it (the reader scrolls as it opens)
+//   read-more-no-keyboard  Enter opens it (the key is swallowed)
+//   read-more-focus-to-top Tab carries on past it (focus thrown back to the first tile)
+// RECORDED NON-KILLS (v1.251.0), so neither reads as coverage. line-dom-first-slide: on Mount/Bottom the block first in the source and
+// the block nearest the top are the same at both depths; line-dom-first kills that mutant on "opening Explore keeps the line".
+// read-more-no-reflow: with no observer on the tiles a later layout still sorts them, so the observer alone is not what this pins;
+// columns-stale-height is its gate, on a tile that grows with no other layout to carry it.
+//   u59-tab-rtl            Tab walks the tiles in the order the eye does (the columns mirrored)
 //   u59-measure-unset      prose lines keep a readable measure (the 46ch column removed)
+//   line-dom-first         opening Explore keeps the topmost line of EITHER column (the first block in source order)
 //   u59-pill-covers        the reader ends above the corner cue (its reserve measured over the old column only)
 // SIDECX5 integration: U46 b moved the account badge into the drawer. The four desktop cases
 // now create a real conditional share cue in its old corner and retain the obstruction claim.
@@ -45,20 +61,14 @@ import { journey } from '../dsl'
 //   u55-tile-click-toggles a section tile click does nothing (a click on the tile toggles it)
 //   u55r-link-swallowed    a link inside a tile still opens its page (the tile swallows the click)
 //   u55-band-covered       the node band stays clear (the article pulled up over the game stage)
-//   u55-width-unused       the dashboard uses the width (the grid keeps the centred column)
-//   u59-phone-pairs        the phone keeps its stacked flow (the desktop spans applied at 390px)
+// u55-width-unused retired with U55 b's run to the right edge; width-right-edge in article-order.spec.ts replaced it.
+//   u59-phone-pairs        the phone keeps its stacked flow (the desktop's half width applied at 390px)
 // DASH-R4 (the independent review of R3, scratch/review-323): each control below breaks one claim added for it.
 //   u59r4-anchor-arrival   the stage holds still when Explore opens or the window turns at the arrival (no gate)
 //   u59r4-reopen-ungated   putting the article away and back keeps the line (the anchor without its gate)
-//   u59r4-table-third      a wide table takes two thirds and shows every column (it counted as short text)
-//   u59r4-table-measured   a wide table takes two thirds and shows every column (its article kept the 46ch column)
+//   u59r4-table-measured   a wide table shows every column at 1920 (its article kept the 46ch column)
 //   u59r4-table-margin     a tablet table fits inside the padded tile (the static table margin restored)
-//   u59r4-player-third     a reference page's player takes two thirds and the tile's width (it counted as short)
-//   u59r4-trio-unsized     a row of three only holds sections under 1,500 characters (no size threshold)
-//   u59r4-thirds-below     no thirds below three lanes (the odd count made a row of three at 768)
-//   u59r4-lanes-1366       three lanes from a 1,150px grid: 1366 is halves (the old 1,100px threshold)
-//   u59r4-press-full       an article arriving under a held press still pairs (the default span the full width)
-//   u65-tiles-stretched    each tile ends at its content (stretch restored)
+//   u59r4-press-full       an article arriving under a held press still shows two lanes (the default width the whole grid)
 //   u65-watch-tile-restored game articles omit the duplicate Videos credits tile (its contents restored)
 //   u65-film-index-throws  the surviving film's index control works without an exception (null focus dereferenced)
 //   u65-disclosure-destination-lost reopening Videos without the index brings the film into view (hidden card used)
@@ -137,12 +147,6 @@ const dashboard = (page: Page) => page.evaluate(() => {
 type Dash = Awaited<ReturnType<typeof dashboard>>
 const overlaps = (p: DOMRect, q: DOMRect) => p.left < q.right - 1 && q.left < p.right - 1
 
-// Rows: tiles that share a top. Visual order is row by row, left to right.
-const rowsOf = (d: Dash) => {
-  const rows: Dash['tiles'][] = []
-  for (const t of d.tiles) { const row = rows.find(r => Math.abs(r[0].box.top - t.box.top) < 1.5); if (row) row.push(t); else rows.push([t]) }
-  return rows.sort((x, y) => x[0].box.top - y[0].box.top).map(r => r.sort((x, y) => x.box.left - y.box.left))
-}
 const median = (xs: number[]) => [...xs].sort((x, y) => x - y)[xs.length >> 1]
 
 function wholeContent(d: Dash) {
@@ -160,68 +164,37 @@ function wholeContent(d: Dash) {
   for (const [i, t] of d.tiles.entries()) for (const o of d.tiles.slice(0, i)) {
     expect(overlaps(t.box, o.box) && t.box.top < o.box.bottom - 1 && o.box.top < t.box.bottom - 1, `${t.type} and ${o.type} never overlap`).toBe(false)
   }
-  const rows = rowsOf(d)
-  for (const row of rows) {
-    // U65 b: a row is as tall as its taller content; each individual tile ends at its own content.
-    const names = row.map(t => t.type).join('+')
-    expect(Math.min(...row.map(t => t.box.bottom - t.content.bottom)), `the row ${names} ends at its tallest content`).toBeLessThanOrEqual(1)
-  }
-  // Each gap between rows is the token.
-  expect(rows.length, 'the tiles make rows').toBeGreaterThan(1)
-  for (const [i, row] of rows.slice(1).entries()) {
-    const g = row[0].box.top - Math.max(...rows[i].map(t => t.box.bottom))
-    expect(Math.abs(g - d.gap), `gap ${g} is the ${d.gap}px token`).toBeLessThan(1)
-  }
 }
 
-// U59 c: rows of two (or one row of three thirds), in source order, each row filling the grid. DASH-R4: thirds only
-// on three lanes and only for sections under 1,500 characters; otherwise an odd count ends the article with one
-// section beside an empty lane (two thirds, or a half), never across the width.
-function pairs(d: Dash, lanes: number) {
-  // A tile's span out of 12 columns, from its width and the column gap measured between two tiles of a row.
-  const rows = rowsOf(d), two = rows.find(r => r.length > 1)!, g = two[1].box.left - two[0].box.right
-  const span = (t: Dash['tiles'][number]) => Math.round(12 * (t.box.width + g) / (d.body.width + g))
-  const size = (t: Dash['tiles'][number]) => t.long ? Infinity : t.len
-  expect(rows.flat().map(t => t.type), 'the eye reads the tiles in source order').toEqual(d.dom)
-  const trios = rows.filter(r => r.length === 3), lone = rows.filter(r => r.length === 1)
-  for (const [i, row] of rows.entries()) {
-    const names = row.map(t => t.type).join('+')
-    expect(row.length, `no row holds more than three (${names})`).toBeLessThanOrEqual(3)
-    if (row.length === 1) {
-      expect(i, `a section alone ends the article (${names})`).toBe(rows.length - 1)
-      expect(span(row[0]), `the last section alone takes ${lanes === 3 ? 'two thirds' : 'a half'}, never the width (${names})`).toBe(lanes === 3 ? 8 : 6)
-      continue
-    }
-    expect(row.at(-1)!.box.right - row[0].box.left, `the row ${names} fills the grid`).toBeCloseTo(d.body.width, 0)
-    if (row.length === 3) {
-      expect(lanes, `a row of three only on three lanes (${names})`).toBe(3)
-      expect(row.map(span), `a row of three is three thirds (${names})`).toEqual([4, 4, 4])
-      for (const t of row) expect(size(t), `${t.type} in a row of three is under 1,500 characters`).toBeLessThan(1500)
-    } else if (lanes === 2) expect(row.map(span), `two lanes are halves (${names})`).toEqual([6, 6])
-    else {
-      expect(row.map(span).sort(), `three lanes pair two thirds with one (${names})`).toEqual([4, 8])
-      // The longer text takes two thirds. Only where the lengths differ clearly: the film's own text arrives late.
-      const [x, y] = row
-      if (Math.max(size(x), size(y)) > 1.2 * Math.min(size(x), size(y))) expect(span(size(x) > size(y) ? x : y), `of ${names}, the longer takes two thirds`).toBe(8)
-    }
+// The owner's rule, read off the boxes the page emitted: nothing here lays anything out. Two lanes that fill the grid, head tops
+// running down in reading order with the left winning a draw, and each tile starting where the shorter column had ended.
+// So a column holds no gap but the token, and the only other space is below the shorter column at the article's end.
+function columns(d: Dash) {
+  const lanes = [...new Set(d.tiles.map(t => Math.round(t.box.left)))].sort((x, y) => x - y)
+  expect(lanes, 'two columns').toHaveLength(2)
+  expect(Math.abs(lanes[0] - d.body.left), 'the left column starts on the grid\'s left edge').toBeLessThanOrEqual(1)
+  for (const t of d.tiles) {
+    expect(Math.abs(t.box.width - (d.body.width - d.gap) / 2), `${t.type} is half the grid, less half the gap`).toBeLessThan(1)
+    if (Math.round(t.box.left) === lanes[1]) expect(Math.abs(t.box.right - d.body.right), `${t.type} ends on the grid's right edge`).toBeLessThanOrEqual(1)
   }
-  // A wide table or a reference page's player is never in a third.
-  for (const t of d.tiles) if (t.long) expect(span(t), `${t.type} holds a wide table or the page's player: never a third`).toBeGreaterThan(4)
-  expect(trios.length + lone.length, `${d.open} open sections leave ${d.open % 2} odd row`).toBe(d.open % 2)
-  if (lanes < 3) expect(trios.length, 'no thirds below three lanes').toBe(0)
-  // A row of three is the run (starting on a row) whose longest section is shortest.
-  if (trios.length) {
-    const start = d.dom.indexOf(trios[0][0].type), longest = (i: number) => Math.max(...d.tiles.slice(i, i + 3).map(size))
-    for (let i = 0; i + 3 <= d.tiles.length; i += 2) expect(longest(start), `the row of three is the shortest run (vs ${d.dom.slice(i, i + 3).join('+')})`).toBeLessThanOrEqual(longest(i) * 1.05)
+  const down = [...d.tiles].sort((x, y) => x.box.top - y.box.top || x.box.left - y.box.left).map(t => t.type)
+  expect(down, 'head tops down the page read in the DOM\'s order, and the left wins a draw').toEqual(d.dom)
+  const ends = [d.body.top, d.body.top]
+  for (const t of d.tiles) {
+    const side = Math.round(t.box.left) === lanes[0] ? 0 : 1
+    expect(Math.abs(t.box.top - Math.min(...ends)), `${t.type} starts where the shorter column ended (${ends})`).toBeLessThanOrEqual(1)
+    if (Math.abs(ends[0] - ends[1]) <= 1) expect(side, `${t.type}: a draw goes left`).toBe(0)
+    ends[side] = t.box.bottom + d.gap
   }
+  expect(d.tiles.filter(t => Math.round(t.box.left) === lanes[1]).length, 'premise: both columns hold tiles').toBeGreaterThan(0)
 }
 
 // U59 c: a readable measure. Each article column is centred inside its tile's padding, and no paragraph or list
-// entry runs past 80 characters a line (WCAG 1.4.8). On three lanes a two-thirds tile is wider than the column, and
+// entry runs past 80 characters a line (WCAG 1.4.8). On a wide grid a tile is wider than the column, and
 // its lines sit inside a 45-75 character band around the median. The band is wide because the fonts here are the
 // fallbacks: 46ch of them measures a 51-52 median, where the real fonts measure 65-68 on real pages
 // (scratch/article-dashboard/r3/probe-r3.cjs). Uncapped, the same tiles run ~86-95.
-function measure(d: Dash, lanes: number) {
+function measure(d: Dash, wide: boolean) {
   for (const t of d.tiles) {
     for (const a of t.articles) {
       expect(a.right, `${t.type}: its column stays inside the tile's padding`).toBeLessThanOrEqual(t.inner.right + 1)
@@ -231,15 +204,16 @@ function measure(d: Dash, lanes: number) {
     // Mount/Top's media slot is empty (its film keeps the game's home); a Principles page fills it (below).
     if (t.media?.height) expect(t.media.width, `${t.type}: the media keeps the tile's width`).toBeCloseTo(t.inner.right - t.inner.left, 0)
   }
-  if (lanes < 3) return
-  const wide = d.tiles.filter(t => t.articles.some(a => a.left > t.inner.left + 20)).flatMap(t => t.lines)
-  expect(wide.length, 'premise: a two-thirds tile is wider than its column').toBeGreaterThan(20)
-  expect(median(wide), 'a wide tile reads inside the measure band').toBeGreaterThanOrEqual(45)
-  expect(median(wide), 'a wide tile reads inside the measure band').toBeLessThanOrEqual(75)
+  if (!wide) return
+  const lines = d.tiles.filter(t => t.articles.some(a => a.left > t.inner.left + 20)).flatMap(t => t.lines)
+  expect(lines.length, 'premise: a tile is wider than its column').toBeGreaterThan(20)
+  expect(median(lines), 'a wide tile reads inside the measure band').toBeGreaterThanOrEqual(45)
+  expect(median(lines), 'a wide tile reads inside the measure band').toBeLessThanOrEqual(75)
 }
 
-for (const [width, height, lanes] of [[1440, 900, 3], [1920, 1080, 3], [1366, 768, 2], [1152, 900, 2]] as const) {
-  test(`${width === 1440 ? '@curated ' : ''}U59 c: at ${width}x${height} the dashboard pairs its sections in ${lanes} lanes, shows every tile whole and keeps the node band clear`, async ({ page }) => {
+// Owner (2026-11-01): the grid is centred and shares both edges with the choices row, so it no longer runs to the right edge.
+for (const [width, height, wide] of [[1440, 900, false], [1920, 1080, true], [1600, 900, true], [1366, 768, false], [1152, 900, false]] as const) {
+  test(`${width === 1440 ? '@curated ' : ''}at ${width}x${height} the article is two columns, shows every tile whole and keeps the node band clear`, async ({ page }) => {
     const j = await boot(page, width, height)
     await page.evaluate(() => {
       const a = (window as any).__neural, id = a.newList()
@@ -256,25 +230,30 @@ for (const [width, height, lanes] of [[1440, 900, 3], [1920, 1080, 3], [1366, 76
     const stage = Math.max(d.question?.bottom ?? 0, d.hand?.bottom ?? 0)
     expect(stage, 'the question and the Moves row are on screen').toBeGreaterThan(d.band!.bottom)
     expect(Math.min(...d.tiles.map(t => t.box.top)), 'the dashboard starts below the question and the Moves row').toBeGreaterThanOrEqual(stage)
-    // The width: from the index's 12px clearance to a 24px right margin.
-    expect(d.toc, 'the left index shows').not.toBeNull()
-    expect(d.body.left).toBeCloseTo(d.toc!.right + 12, 0)
-    expect(d.body.right).toBeCloseTo(width - 24, 0)
-    expect(Math.max(...d.tiles.map(t => t.box.right))).toBeCloseTo(width - 24, 0)
+    // The width: from the index's 12px clearance, centred, so that margin mirrors on the right. U97 b: 1,350 and wider.
+    if (width < 1350) expect(d.toc, 'no index under 1,350px').toBeNull()
+    else {
+      expect(d.toc, 'the left index shows').not.toBeNull()
+      expect(d.body.left).toBeCloseTo(d.toc!.right + 12, 0)
+    }
+    expect(d.body.right).toBeCloseTo(width - d.body.left, 0)
+    expect(Math.max(...d.tiles.map(t => t.box.right))).toBeCloseTo(width - d.body.left, 0)
     // The account badge moved into the drawer. The conditional share cue now owns the corner;
     // the reader must still reserve that whole last lane so text cannot scroll beneath a control.
     expect(d.cue.height, 'premise: the share cue is a live corner control').toBeGreaterThan(0)
-    expect(d.cue.left, 'premise: the cue is over the grid').toBeLessThan(d.body.right)
+    // Owner (2026-11-01): the centred grid no longer reaches this corner, so the cue sits clear of it. The reserve stays.
+    // U97 b: under 1,350px the grid is 902px wide and does reach under the corner, so there the reserve alone keeps them apart.
+    if (width >= 1350) expect(d.cue.left, 'the cue sits beside the grid').toBeGreaterThanOrEqual(d.body.right)
     expect(d.root.bottom, 'the reader ends above the corner share cue').toBeLessThanOrEqual(d.cue.top)
-    pairs(d, lanes)
+    columns(d)
     wholeContent(d)
-    measure(d, lanes)
-    // Scrolled through the whole dashboard, every tile stays whole and the rows hold.
+    measure(d, wide)
+    // Scrolled through the whole article, every tile stays whole and the columns hold.
     await page.locator(READY).evaluate(e => { e.scrollTop = e.scrollHeight })
     await journey(page).readerLayoutSettled()
     const end = await dashboard(page)
     wholeContent(end)
-    pairs(end, lanes)
+    columns(end)
   })
 }
 
@@ -282,7 +261,7 @@ test('U59 c: at 1440x900 Tab walks the tiles in the order the eye reads them', a
   await boot(page, 1440, 900)
   // U65 removes the visible Videos tile, retaining its hidden preference control. Start at an actual
   // visible tile and traverse the rendered focus targets, rather than a fixed number of stops.
-  const targets = '[data-reader-body] :is(a[href],button):visible'
+  const targets = '[data-reader-body] :is(a[href],button,summary):visible'
   const stops = await page.locator(targets).count()
   await page.locator(targets).first().focus()
   const seen: number[] = []
@@ -329,8 +308,9 @@ async function expectAskGap(page: Page) {
 // DASH-R4 (review finding 9a): the line is picked by GEOMETRY, not by the reader's own anchor rule: the first text
 // line at or below the reader's top, found by walking a point 30px inside each lane's text column down from the
 // reader's top. At two widths (1152 loses the index as the pane opens) and two depths. v1.249.1: the point follows the
-// tile's own 46ch column, not the grid's edge, and either lane will do. The edge only met text in a narrow tile, and a
-// tile ends at its content (U65 b), so a shorter article could land these depths on a gap with nothing wrong.
+// tile's own 46ch column, not the grid's edge. The edge only met text in a narrow tile, and a tile ends at its content
+// (U65 b), so a depth could land on a gap with nothing wrong. v1.251.0: two columns have no one line, because the source
+// order no longer runs down the page, so the line is the nearer of the two lanes' first lines.
 for (const [width, height] of [[1440, 900], [1152, 900]] as const) for (const depth of [0.3, 0.6]) {
   test(`U59 c: at ${width}x${height} opening Explore keeps the line at the reader's top (${depth * 100}% down)`, async ({ page }) => {
     const j = await boot(page, width, height)
@@ -341,17 +321,18 @@ for (const [width, height] of [[1440, 900], [1152, 900]] as const) for (const de
       e.scrollTop = Math.round((e.scrollHeight - e.clientHeight) * depth)
       return new Promise<{ top: number | null, grid: number, text: string }>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
         const top = e.getBoundingClientRect().top, grid = r.body.getBoundingClientRect()
-        let line: Element | null = null
-        for (let y = top + 1; y < top + 400 && !line; y += 3) for (const lane of [grid.left + 30, grid.right - 30]) {
+        const first: Element[] = []
+        for (const lane of [grid.left + 30, grid.right - 30]) for (let y = top + 1, found = false; y < top + 400 && !found; y += 3) {
           const column = document.elementFromPoint(lane, y)?.closest('.ng-section-card')?.querySelector('article')?.getBoundingClientRect().left
           const hit = column == null ? null : document.elementFromPoint(column + 30, y)?.closest('p, li')
-          if (!line && hit && hit.getBoundingClientRect().top >= top - 0.5) line = hit
+          if (hit && hit.getBoundingClientRect().top >= top - 0.5) { first.push(hit); found = true }
         }
+        const line = first.sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0] ?? null
         line?.setAttribute('data-test-place', '')
         done({ top: line ? line.getBoundingClientRect().top : null, grid: Math.round(r.body.getBoundingClientRect().width), text: (line?.textContent || '').trim().slice(0, 40) })
       })))
     }, depth)
-    expect(before.top, 'premise: a text line starts at the reader\'s top in the first lane').not.toBeNull()
+    expect(before.top, 'premise: a text line starts at the reader\'s top').not.toBeNull()
     await openExplore(page, j)
     const after = await page.locator(READY).evaluate(e => ({
       top: e.querySelector('[data-test-place]')!.getBoundingClientRect().top,
@@ -361,21 +342,60 @@ for (const [width, height] of [[1440, 900], [1152, 900]] as const) for (const de
   })
 }
 
+// The brief's moment: a pane slide narrows the tiles, a tile changes column partway through, and the reader's line holds on
+// every step of it, not only at the end. Mount/Bottom flips a tile as the pane opens at 1440 (1 of 20 real pages in these
+// fallback fonts, measured at v1.251.0). The premise says so, so a page that stops flipping fails loudly here instead of
+// passing without the moment it exists for.
+for (const depth of [0.3, 0.6]) {
+  test(`at 1440x900 the line holds on every step of a pane slide that moves a tile to the other column (${depth * 100}% down)`, async ({ page }) => {
+    const j = await boot(page, 1440, 900, '/Positions/Mount/Bottom')
+    await page.emulateMedia({ reducedMotion: 'no-preference' })
+    await expect(page.locator('[data-reward-close]')).toBeHidden({ timeout: 15000 })
+    const sides = () => page.evaluate(() => ([...(window as any).__neural._reader.body.children] as HTMLElement[]).filter(c => c.getClientRects().length).map(c => c.hasAttribute('data-right') ? 'R' : 'L').join(''))
+    const start = await page.locator(READY).evaluate((e, depth) => {
+      e.scrollTop = Math.round((e.scrollHeight - e.clientHeight) * depth)
+      return new Promise<number>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
+        const top = e.getBoundingClientRect().top
+        const line = ([...e.querySelectorAll('[data-reader-body] p,[data-reader-body] li')] as Element[]).filter(x => x.getBoundingClientRect().top >= top).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]
+        line.setAttribute('data-test-place', '')
+        done(line.getBoundingClientRect().top)
+      })))
+    }, depth)
+    const first = await sides(), seen = new Set([first]), drift: number[] = []
+    await j.clickByMouse('.ng-logo', 'the logo opens the pane (Explore)')
+    for (let i = 0; i < 24; i++) {
+      await j.advance(60)
+      seen.add(await sides())
+      drift.push(Math.abs(await page.locator('[data-test-place]').evaluate(e => e.getBoundingClientRect().top) - start))
+    }
+    expect(seen.size, 'premise: a tile changed column during the slide').toBeGreaterThan(1)
+    expect(Math.max(...drift), `the line holds on every step (${drift.map(d => d.toFixed(1)).join(' ')})`).toBeLessThanOrEqual(8)
+  })
+}
+
 // A depth lands wherever the page's height puts it, so a merge can move the cases above off the landings that matter:
 // v1.249.0's merge put the 30% line 4.9px under the reader's top and only then showed a real 31px jump. These two
 // landings are set by geometry, on a list item that wraps as the pane opens, so they hold at any page height.
-//   just under: the rounding's remainder must not carry the block out of the anchor (reader-rounding-remainder-dropped)
+//   just under: the line holds on a block that barely starts inside the reader (wrapping-anchor-lost)
 //   clipped by: the anchor must be the next block, not the one that grows (reader-clipped-block-anchored)
-for (const [label, offset] of [['just under', 2], ['clipped by', -10]] as const) {
-  test(`U59 c: at 1152x900 opening Explore holds the place around a wrapping block ${label} the reader's top`, async ({ page }) => {
-    const j = await boot(page, 1152, 900)
+// RECORDED NON-KILL (v1.251.0): reader-rounding-remainder-dropped survives. The line drifts -0.266px at 720 and -0.234px at 1440 with
+// the remainder and without it, 3 runs each: #340's held line now does what the remainder did, so this journey cannot see it.
+// 720 is one column, so the block after the wrapping one is the line by any reading, and these are the journeys both controls kill.
+// At 1440 a block in the other column can be the nearest line, and it hides the wrap: both controls SURVIVE there (recorded).
+for (const [width, label, offset] of [[720, 'just under', 2], [720, 'clipped by', -10], [1440, 'just under', 2], [1440, 'clipped by', -10]] as const) {
+  test(`U59 c: at ${width}x900 opening Explore holds the place around a wrapping block ${label} the reader's top`, async ({ page }) => {
+    // 1440 narrows from 968 to 902px as the pane opens, so this block wraps there.
+    const j = await boot(page, width, 900)
     await page.emulateMedia({ reducedMotion: 'no-preference' })
     const before = await page.locator(READY).evaluate((e, offset) => {
-      const block = [...e.querySelectorAll('li')].find(li => li.textContent!.trim().startsWith('Understanding of base maintenance'))
+      const block = [...e.querySelectorAll('li')].find(li => li.textContent!.trim().startsWith('Knowledge of fundamental mount submissions'))
       if (!block?.nextElementSibling) throw Error('Mount/Top no longer carries the wrapping prerequisite this journey lands on')
       e.scrollTop += block.getBoundingClientRect().top - e.getBoundingClientRect().top - offset
       return new Promise<{ top: number, height: number, landed: number }>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
-        const line = offset < 0 ? block.nextElementSibling! : block
+        // Clipped: the next block, which in two columns is the nearest in either of them, never the block that grows.
+        const top = e.getBoundingClientRect().top
+        const nearest = ([...e.querySelectorAll('[data-reader-body] p,[data-reader-body] li')] as Element[]).filter(x => x.getBoundingClientRect().top >= top).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]
+        const line = offset < 0 ? nearest : block
         line.setAttribute('data-test-place', ''); block.setAttribute('data-test-wraps', '')
         done({ top: line.getBoundingClientRect().top, height: block.getBoundingClientRect().height, landed: block.getBoundingClientRect().top - e.getBoundingClientRect().top })
       })))
@@ -473,37 +493,138 @@ for (const offset of [40, 300]) {
   })
 }
 
-// DASH-R4 (review finding 3): the 6-column Top/Bottom comparison on every position hub needs ~520-566px; in a third
-// 208-229px of it hid behind a sideways scroll on all 13 hubs.
-test('U59 c: at 1440x900 a position hub\'s wide Top/Bottom table takes two thirds and shows every column', async ({ page }) => {
-  await boot(page, 1440, 900, '/Positions/Mount')
+// DASH-R4 (review finding 3): the 6-column Top/Bottom comparison on every position hub needs ~520-566px, and a tile is 712px
+// wide at 1920. UNGUARDED BELOW THAT, and a known cost of two columns: Mount's table hides 135px behind a sideways scroll at
+// 1152 (dev 140), 147px at 1350, 102px at 1440 (dev 0, round 1's rows 102) and 11px at 1622 (rows 0). wholeContent() would call
+// that clipped, so this journey stays at 1920.
+test('at 1920x1080 a position hub\'s wide Top/Bottom table shows every column', async ({ page }) => {
+  await boot(page, 1920, 1080, '/Positions/Mount')
   const d = await dashboard(page), table = d.tiles.find(t => t.type === 'role-comparison')
   expect(table, 'premise: the hub carries its Top/Bottom comparison').toBeTruthy()
   expect(table!.long, 'premise: its table has more than three columns').toBe(true)
-  pairs(d, 3)
+  columns(d)
   wholeContent(d)
-  measure(d, 3)
+  measure(d, true)
 })
 
-// DASH-R4 (review finding 4): a reference page's player lives in its Videos tile; in a third it shrank 862 -> 337px
-// on all 62 Principles pages that embed one.
-test('U59 c: at 1440x900 a Principles page\'s player takes two thirds and the tile\'s width', async ({ page }) => {
-  await boot(page, 1440, 900, '/Principles/Frames')
+// DASH-R4 (review finding 4): a reference page's player lives in its Videos tile and keeps the tile's width (measure()).
+test('at 1920x1080 a Principles page\'s player takes the tile\'s width', async ({ page }) => {
+  await boot(page, 1920, 1080, '/Principles/Frames')
   const d = await dashboard(page), videos = d.tiles.find(t => t.type === 'videos')
   expect(videos?.media?.height, 'premise: the page\'s player fills its Videos slot').toBeGreaterThan(100)
-  pairs(d, 3)
+  columns(d)
   wholeContent(d)
-  measure(d, 3)
+  measure(d, true)
 })
 
-test('U59 c: an odd article at 1440x900 only uses a trio when its sections are short', async ({ page }) => {
-  // v1.249.1: the Attacker page's Related tile held only the study guides, so that article went even. The Defender
-  // page keeps the odd count, and long sections that a trio must refuse.
-  await boot(page, 1440, 900, '/Transitions/Knee-Slice-Pass/Defender')
-  const d = await dashboard(page)
-  expect(d.open % 2, 'premise: the article has an odd number of open tiles').toBe(1)
-  pairs(d, 3)
-  wholeContent(d)
+// Every article, not only positions: he saw the gaps on submission pages. An odd count ends in a column like any other.
+for (const path of ['/Transitions/Knee-Slice-Pass/Defender', '/Submissions/Americana/from-Side-Control/Attacker', '/Learning/BJJ-For-Beginners-Roadmap']) {
+  test(`at 1440x900 ${path} is two columns too`, async ({ page }) => {
+    await boot(page, 1440, 900, path)
+    const d = await dashboard(page)
+    columns(d)
+    wholeContent(d)
+  })
+}
+
+// Closing a tile reflows only what follows it, because a tile's place depends only on the tiles before it, and those heads
+// all start at or above the closed tile's head: nothing above the reader's line moves. columns-close-reorders.
+test('closing a tile moves nothing before it, reflows what follows, and reopening restores the layout', async ({ page }) => {
+  const j = await boot(page, 1440, 900)
+  await expect(page.locator('[data-reward-close]')).toBeHidden({ timeout: 15000 })
+  await page.locator(READY).evaluate(e => { const t = e.querySelector('[data-reader-body]>[data-section-type=mistakes]')!; e.scrollTop += t.getBoundingClientRect().top - e.getBoundingClientRect().top - 60 })
+  await j.readerLayoutSettled()
+  const before = await dashboard(page), at = before.dom.indexOf('mistakes')
+  expect(at, 'premise: tiles sit on both sides of the closed one').toBeGreaterThan(2)
+  expect(at, 'premise: tiles sit on both sides of the closed one').toBeLessThan(before.dom.length - 2)
+  await j.clickByMouse('[data-section-toggle=mistakes]', 'the tile\'s own close')
+  await j.readerLayoutSettled()
+  const after = await dashboard(page)
+  expect(after.scrollTop, 'the reader stays where it was').toBe(before.scrollTop)
+  expect(after.dom, 'the closed tile left, the order did not change').toEqual(before.dom.filter((_, i) => i !== at))
+  for (const [i, t] of before.tiles.slice(0, at).entries()) expect(after.tiles[i].box, `${t.type}, before the closed tile, did not move`).toEqual(t.box)
+  expect(after.tiles.slice(at).some((t, i) => Math.abs(t.box.top - before.tiles[at + 1 + i].box.top) > 1), 'what follows reflowed').toBe(true)
+  columns(after)
+  await j.clickByMouse('[data-toc-type=mistakes] a', 'the index brings it back')
+  await j.readerLayoutSettled()
+  const back = await dashboard(page)
+  expect(back.tiles.map(t => t.box.left), 'every tile is back in its column').toEqual(before.tiles.map(t => t.box.left))
+  columns(back)
+})
+
+// U101 b: "Read more" opens the rest in place, one way, by real input. A tile's place depends only on the tiles before it, so nothing
+// before it moves, what follows reflows, and the line at the reader's top holds. read-more-stays, read-more-no-reflow.
+for (const path of ['/Positions/Mount/Top', '/Positions/Rubber-Guard/New-York/Bottom']) {
+  test(`Read more on ${path} opens in place by the mouse, and what follows reflows`, async ({ page }) => {
+    const j = await boot(page, 1440, 900, path)
+    await expect(page.locator('[data-reward-close]')).toBeHidden({ timeout: 15000 })
+    await page.locator(READY).evaluate(e => { const t = e.querySelector('[data-reader-body]>[data-section-type=overview]')!; e.scrollTop += t.getBoundingClientRect().top - e.getBoundingClientRect().top - 90 })
+    await j.readerLayoutSettled()
+    await page.locator(READY).evaluate(e => {
+      const top = e.getBoundingClientRect().top, line = ([...e.querySelectorAll('[data-reader-body] p,[data-reader-body] li')] as Element[]).filter(x => x.getBoundingClientRect().top >= top).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]
+      line.setAttribute('data-test-place', '')
+    })
+    const place = () => page.locator('[data-test-place]').evaluate(e => e.getBoundingClientRect().top)
+    const before = await dashboard(page), at = before.dom.indexOf('overview'), line = await place()
+    expect(at, 'premise: tiles sit before it').toBeGreaterThan(2)
+    expect(at, 'premise: tiles sit after it').toBeLessThan(before.dom.length - 1)
+    await j.clickByMouse('[data-section-type=overview] summary', 'Read more')
+    await j.readerLayoutSettled()
+    const after = await dashboard(page)
+    expect(await page.locator('[data-section-type=overview] details').getAttribute('open'), 'it opened').not.toBeNull()
+    await expect(page.locator('[data-section-type=overview] summary'), 'one way: the label goes').toBeHidden()
+    expect(after.scrollTop, 'the reader stays where it was').toBe(before.scrollTop)
+    expect(Math.abs(await place() - line), 'the line holds').toBeLessThanOrEqual(1)
+    for (const [i, t] of before.tiles.slice(0, at).entries()) expect(after.tiles[i].box, `${t.type}, before it, did not move`).toEqual(t.box)
+    expect(after.tiles[at].box.height, 'the tile grew').toBeGreaterThan(before.tiles[at].box.height + 100)
+    expect(after.tiles.slice(at + 1).some((t, i) => Math.abs(t.box.top - before.tiles[at + 1 + i].box.top) > 1), 'what follows reflowed').toBe(true)
+    columns(after)
+  })
+}
+
+// The same by keyboard, and Tab goes on from there. A summary that hides itself must not send focus back to the page's start.
+test('Read more opens by the keyboard, and Tab carries on past it', async ({ page }) => {
+  const j = await boot(page, 1440, 900)
+  await page.locator('[data-section-type=overview] summary').focus()
+  await j.readerLayoutSettled()
+  await page.keyboard.press('Enter')
+  await j.readerLayoutSettled()
+  expect(await page.locator('[data-section-type=overview] details').getAttribute('open'), 'Enter opened it').not.toBeNull()
+  await page.keyboard.press('Tab')
+  const next = await page.evaluate(() => {
+    const r = (window as any).__neural._reader, tiles = ([...r.body.children] as HTMLElement[]).filter(c => c.getClientRects().length)
+    return { tile: tiles.findIndex(c => c.contains(document.activeElement)), from: tiles.findIndex(c => c.dataset.sectionType === 'overview'), tag: document.activeElement?.tagName }
+  })
+  expect(next.tile, `Tab goes on from the tile, not back to the start (${next.tag})`).toBeGreaterThanOrEqual(next.from)
+})
+
+// The close sorts the columns in its own task, as every open does. On a coalesced frame the tiles after it kept their old sides
+// until the next frame: nothing painted that, but a read in the window saw holes (article-sections.spec.ts:107, 1 run in 2 on CI).
+// Same task, so this has no timing in it. columns-close-waits-a-frame.
+test('a close sorts the columns in its own task', async ({ page }) => {
+  await boot(page, 1440, 900)
+  const holes = await page.evaluate(() => {
+    const r = (window as any).__neural._reader
+    r.body.querySelector('[data-section-toggle=principles]').click()
+    const cards = ([...r.body.children] as HTMLElement[]).filter(c => c.getClientRects().length).map(c => c.getBoundingClientRect())
+    const lanes = [...new Set(cards.map(b => Math.round(b.left)))]
+    return { lanes: lanes.length, gaps: lanes.flatMap(left => { const lane = cards.filter(b => Math.round(b.left) === left).sort((x, y) => x.top - y.top); return lane.slice(1).map((b, i) => b.top - lane[i].bottom) }) }
+  })
+  expect(holes.lanes, 'premise: two columns').toBe(2)
+  expect(holes.gaps.filter(g => Math.abs(g - 24) > 1), 'no hole in either column').toEqual([])
+})
+
+// A tile's height is read live, so a tile that grows after the first layout sends what follows to the other column, with no
+// other layout to carry it (a font swap, a late player). columns-stale-height.
+test('a tile that grows reorders what follows it', async ({ page }) => {
+  const j = await boot(page, 1440, 900)
+  const before = await dashboard(page)
+  await page.evaluate(() => { (document.querySelector('[data-reader-body]>[data-section-type=definition] .ng-section-body') as HTMLElement).style.paddingBottom = '2000px' })
+  await page.evaluate(() => new Promise(done => requestAnimationFrame(() => requestAnimationFrame(done))))
+  await j.readerLayoutSettled()
+  const after = await dashboard(page)
+  expect(after.tiles.map(t => t.box.left), 'premise: the growth changed a column').not.toEqual(before.tiles.map(t => t.box.left))
+  columns(after)
 })
 
 test('U65: game pages have one film in the stage and no duplicate Videos credits tile', async ({ page }) => {
@@ -557,39 +678,39 @@ for (const [width, height] of [[1024, 900], [390, 844]]) test(`U65: native Video
   await test.info().attach('reopened-film', { body: await page.screenshot(), contentType: 'image/png' })
 })
 
-test('U65 b: the space below a short tile remains reader input', async ({ page }) => {
+test('U65 b: the space below the shorter column remains reader input', async ({ page }) => {
   const j = await boot(page, 1440, 900, '/Positions/Half-Guard')
-  const d = await dashboard(page), row = rowsOf(d).find(r => r.length > 1 && Math.max(...r.map(t => t.box.bottom)) - Math.min(...r.map(t => t.box.bottom)) > 100)!
-  expect(row, 'premise: a row contains tiles of different heights').toBeTruthy()
-  const short = row.reduce((a, b) => a.box.bottom < b.box.bottom ? a : b)
-  await page.locator(READY).evaluate((e, y) => { e.scrollTop += y - e.getBoundingClientRect().top - 100 }, short.box.bottom)
+  const d = await dashboard(page), right = Math.max(...d.tiles.map(t => t.box.left))
+  const end = (lane: boolean) => Math.max(...d.tiles.filter(t => (t.box.left === right) === lane).map(t => t.box.bottom))
+  const shorter = end(false) < end(true) ? d.tiles.find(t => t.box.left !== right)! : d.tiles.find(t => t.box.left === right)!
+  const bottom = Math.min(end(false), end(true))
+  expect(Math.abs(end(false) - end(true)), 'premise: the columns end apart').toBeGreaterThan(40)
+  await page.locator(READY).evaluate((e, y) => { e.scrollTop += y - e.getBoundingClientRect().top - 100 }, bottom)
   await j.readerLayoutSettled()
-  const point = await page.locator(`[data-reader-body]>[data-section-type="${short.type}"]`).evaluate(e => {
-    const b = e.getBoundingClientRect(); return { x: b.left + b.width / 2, y: b.bottom + 30 }
-  })
-  expect(await page.evaluate(({ x, y }) => document.elementFromPoint(x, y)?.matches('[data-reader-body]'), point), 'the visible map below a short tile is covered by the reader grid for input').toBe(true)
+  const point = await page.evaluate(({ left, width, gap }) => {
+    const r = (window as any).__neural._reader, tiles = ([...r.body.children] as HTMLElement[]).filter(c => c.getClientRects().length && Math.abs(c.getBoundingClientRect().left - left) < 2)
+    return { x: left + width / 2, y: Math.max(...tiles.map(c => c.getBoundingClientRect().bottom)) + gap / 2 + 4 }
+  }, { left: shorter.box.left, width: shorter.box.width, gap: d.gap })
+  expect(await page.evaluate(({ x, y }) => document.elementFromPoint(x, y)?.matches('[data-reader-body]'), point), 'the map below the shorter column is covered by the reader grid for input').toBe(true)
   await page.mouse.click(point.x, point.y)
   expect(await page.evaluate(() => ({ paused: (window as any).__neural.paused, reading: (window as any).__neural._reader.interacting, dragging: !!(window as any).__neural.dragging }))).toEqual({ paused: true, reading: true, dragging: false })
 })
 
-// DASH-R4 (review finding 5; the owner's rule as DASH-R3 briefed it): below the three-lane width, halves; no thirds.
+// DASH-R4 (review finding 5): without the index the grid is narrower and the columns are the same rule.
 for (const [width, height] of [[768, 1024], [844, 390]] as const) {
-  test(`U59 c: at ${width}x${height} (no index) the sections pair in halves, never thirds`, async ({ page }) => {
-    // U65 removes Mount's Videos tile, making that article even. Knee Slice's Defender page keeps the
-    // odd-count premise that distinguishes halves from the retired parity-driven row of thirds.
+  test(`at ${width}x${height} (no index) the sections keep the two columns`, async ({ page }) => {
     await boot(page, width, height, '/Transitions/Knee-Slice-Pass/Defender')
     const d = await dashboard(page)
-    expect(d.open % 2, 'premise: an odd article can expose the retired third-lane rule').toBe(1)
     expect(d.toc, 'premise: the index does not show at this size').toBeNull()
-    pairs(d, 2)
+    columns(d)
     wholeContent(d)
   })
 }
 
-// DASH-R4 (review finding 6): layoutNow waits while a press is held, and the spans are its writes. An article that
-// arrives under a held press showed every tile across the full width until release; the default is now a half.
-test('U59 c: at 1440x900 an article that arrives under a held press still pairs its sections', async ({ page }) => {
-  const j = await boot(page, 1440, 900)
+// DASH-R4 (review finding 6): layoutNow waits while a press is held, and the columns are its writes. An article that
+// arrives under a held press keeps two lanes, unsorted, until release. Its width is CSS, so no script stands behind it.
+test('at 1920x1080 an article that arrives under a held press still shows two lanes', async ({ page }) => {
+  const j = await boot(page, 1920, 1080)
   const at = await page.evaluate(() => { const q = (window as any).__neural._landEl.getBoundingClientRect(); return { x: q.left + 30, y: q.top + q.height / 2 } })
   await page.mouse.move(at.x, at.y); await page.mouse.down()
   expect(await page.evaluate(() => !!(window as any).__neural._readerPress), 'premise: the press is held').toBe(true)
@@ -606,7 +727,7 @@ test('U59 c: at 1440x900 an article that arrives under a held press still pairs 
   expect(during.full, 'no section sits alone across the width under the press').toEqual([])
   await page.mouse.up()
   await j.readerLayoutSettled()
-  pairs(await dashboard(page), 3)
+  columns(await dashboard(page))
 })
 
 test('@curated U55 b: at 1440x900 a click on a section tile does nothing; its links and its close still work', async ({ page }) => {

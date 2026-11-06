@@ -18,13 +18,14 @@ const pathRole = path => (path.split("/").pop() || "Guide") + " perspective";
 // Shared with the deferred Settings UI. Persist semantic types, never a route,
 // translated heading or ordinal. Additions do not delete old settings (§6.6).
 export const SECTION_TYPES = [
-  ["videos", "Videos"], ["overview", "Overview"], ["principles", "Essential principles"],
+  ["videos", "Videos"], ["aka", "Also known as"], ["confused", "Often confused with"], ["definition", "Position definition"],
+  ["overview", "How it works"], ["principles", "Essential principles"],
   ["recognition", "Recognition"], ["setup", "Setup"], ["prerequisites", "Prerequisites"],
   ["options", "Options and applications"], ["safety", "Safety guides"], ["mistakes", "Common mistakes"],
   ["escapes", "Escape paths"], ["favorable-outcomes", "Favorable outcomes"], ["outcomes", "Outcomes"],
   ["training", "Training"], ["statistics", "Statistics"], ["variations", "Variations"],
-  ["role-comparison", "Role comparison"], ["top-summary", "Top overview"], ["bottom-summary", "Bottom overview"],
-  ["attacker-summary", "Attacker overview"], ["defender-summary", "Defender overview"],
+  ["role-comparison", "Role comparison"], ["top-summary", "From the top"], ["bottom-summary", "From the bottom"],
+  ["attacker-summary", "As the attacker"], ["defender-summary", "As the defender"],
   ["assessment", "Self-assessment"], ["progress", "Progress markers"], ["integration", "Position integration"],
   ["sources", "Sources"], ["course", "Course"], ["related", "Related"], ["additional", "Additional reading"],
 ];
@@ -34,7 +35,10 @@ export function sectionShown(app, type) {
 // Group aliases by their semantic type; identity aliases below ship each name only once.
 const SECTION_IDS = Object.fromEntries(Object.entries({
   "videos": "film-study official-preview",
-  "overview": "overview definition state-invariants",
+  "overview": "overview definition",
+  "definition": "state-invariants",
+  "aka": "also-known-as",
+  "confused": "often-confused-with",
   "principles": "key-principles building-blocks key-takeaways",
   "recognition": "recognition-cues",
   "setup": "setup-requirements conditions",
@@ -54,6 +58,12 @@ const SECTION_IDS = Object.fromEntries(Object.entries({
 }).flatMap(([type, ids]) => ids.split(" ").map(id => [id, type])));
 for (const type of "favorable-outcomes role-comparison top-summary bottom-summary attacker-summary defender-summary sources".split(" ")) SECTION_IDS[type] = type;
 const SECTION_ORDER = ["videos", "overview", "principles", "recognition", "setup", "prerequisites", "options", "safety", "mistakes"];
+// Owner (2026-11-01, Side Control Bottom): "what people will probably care most about is 'What is side control
+// bottom?'", then the principles; decisions and mistakes are "very nice", statistics go up, the overview "looks very
+// boring", and prerequisites and training go down. Sections he did not name keep their place at rank 50, and a position's
+// safety keeps its seat between options and mistakes (S1 a moved only a submission's guide). Position pages only: the reader
+// sorts the article, so this is the live order; the templates' order is what a no-JS page shows.
+const POSITION_ORDER = "videos aka confused definition principles options safety mistakes statistics overview prerequisites training".split(" ");
 // D-338 (owner): one close icon, the same on every width, and a closed section becomes a
 // light label (its glyph above its name, no box). Both faces live in the one toggle and CSS
 // shows the face that matches [data-collapsed]: replacing a child between pointerdown and
@@ -69,7 +79,8 @@ function faces(type, title) {
   return [close, label];
 }
 
-// Eleven call sites; the bundle shortens locals but keeps a property name whole, and the deferred cap is exact.
+// Thirty and eleven call sites; the bundle shortens locals but keeps a property name whole, and the deferred cap is exact.
+const rect = el => el?.getBoundingClientRect();
 const listen = (el, ...args) => el.addEventListener(...args);
 function element(tag, attrs = {}, text = "") {
   const node = document.createElement(tag);
@@ -122,8 +133,8 @@ export async function installReader(app) {
       // Escape owns the reservation's lifetime (arrival, resize or deliberate
       // reading). Native flow carries measured row/height instead of a fixed
       // preview push, including the selected card's group-label clearance.
-      const box = row.getBoundingClientRect(), game = reader.game.getBoundingClientRect();
-      card.style.marginTop = shown.getBoundingClientRect().top - box.top - parseFloat(getComputedStyle(row).paddingTop) + "px";
+      const box = rect(row), game = rect(reader.game);
+      card.style.marginTop = rect(shown).top - box.top - parseFloat(getComputedStyle(row).paddingTop) + "px";
       card._ngDock.bottom = window.innerHeight - box.bottom;
       card._ngDock.reader = { rowTop: box.top - game.top, height: game.height, rowHeight: box.height };
     }
@@ -165,7 +176,7 @@ export async function installReader(app) {
     // A new page starts at the deck's top. Since D-338 put Videos and Moves above Questions
     // that is the card's own top edge, never the flow's (which would scroll the deck away).
     if (reader.gamePage != null && this._landPage != null && reader.gamePage !== this._landPage) {
-      const root = reader.root, top = this._landEl ? this._landEl.getBoundingClientRect().top - root.getBoundingClientRect().top + root.scrollTop - 6 : 0;
+      const root = reader.root, top = this._landEl ? rect(this._landEl).top - rect(root).top + root.scrollTop - 6 : 0;
       root.scrollTop = Math.min(root.scrollTop, Math.max(0, top));
     }
     reader.gamePage = this._landPage;
@@ -246,6 +257,8 @@ class Reader {
       this.layout();
     }, { passive: true });
     this.resize = new ResizeObserver(() => this.layout());
+    // A tile's height decides where the next one goes: a font swap or a late player changes it with no other layout.
+    this.tiles = new ResizeObserver(() => this.layout());
     this.resize.observe(this.root);
     this.resize.observe(this.head);
   }
@@ -373,7 +386,7 @@ class Reader {
     article.innerHTML = record.html;
     article.querySelectorAll("script,style").forEach((node) => node.remove());
     const overview = article.querySelector("section#overview");
-    if (overview && !overview.querySelector("h2")) overview.prepend(element("h2", { id: "overview" }, "Overview"));
+    if (overview && !overview.querySelector("h2")) overview.prepend(element("h2", { id: "overview" }, "How it works"));
     const base = new URL(path, location.origin);
     // Source pages sometimes repeat a section's id on its heading. Each clone id
     // is unique, and heading links resolve within this article, never the hidden DOM.
@@ -490,12 +503,12 @@ class Reader {
     this.syncSections();
   }
   splitSections(body) {
-    const path = this.path, parts = [];
+    const path = this.path, parts = [], position = /^\/Positions\//.test(path);
     for (const article of [...body.children]) {
       if (!article.matches("article")) continue;
       const flat = [];
       const walk = (node) => {
-        if (node.nodeType === 1 && node.matches("main.content-wrapper,main.system-guide,.learning-reader")) [...node.childNodes].forEach(walk);
+        if (node.nodeType === 1 && node.matches("main.content-wrapper,main.system-guide,.learning-reader" + (position ? ",.entity-relations" : ""))) [...node.childNodes].forEach(walk);
         else if (node.nodeType === 1 || node.nodeType === 3 && node.textContent.trim()) flat.push(node);
       };
       [...article.childNodes].forEach(walk);
@@ -508,7 +521,7 @@ class Reader {
         else { range = null; parts.push({ node, source: article }); }
       }
     }
-    const buckets = new Map(), position = /^\/Positions\//.test(path), transition = /^\/Transitions\//.test(path), submission = /^\/Submissions\//.test(path);
+    const buckets = new Map(), transition = /^\/Transitions\//.test(path), submission = /^\/Submissions\//.test(path);
     const defender = /\/Defender$/.test(path), bottom = /\/Bottom$/.test(path), reference = /^\/(Learning|Systems)\//.test(path);
     const labels = Object.fromEntries(SECTION_TYPES);
     labels.recognition = transition ? "Recognize the transition" : "Recognize the attack";
@@ -518,7 +531,8 @@ class Reader {
     let ordinal = 0;
     for (const part of parts) {
       const n = part.node, heading = n.nodeType === 1 && n.querySelector("h2,h3,summary"), id = n.dataset?.sourceId || "";
-      let type = SECTION_IDS[id], title;
+      // A position's relations are two paragraphs, not sections: their class names them (owner: "sections of their own").
+      let type = SECTION_IDS[id] || SECTION_IDS[n.className], title;
       // Template IDs are preferred. Irregular Markdown retains each complete h2
       // range; unknown sections never fall into a content-dropping allow-list.
       if (!type && heading) {
@@ -532,19 +546,39 @@ class Reader {
       if (!type && n.nodeType === 1 && n.matches("[data-course-container]")) type = n.dataset.coursePlacement === "top" ? "overview" : "course";
       if (!type) type = heading ? "additional" : "overview";
       if (type === "prerequisites" && !position && /^\/(Submissions|Transitions)\//.test(path)) type = "setup";
+      // The template leaves a wikilink inside raw HTML, which Quartz never resolves: 36 published pages print the
+      // brackets. The name is what the tile needs until a content pass emits a real link.
+      if (type === "confused") n.innerHTML = n.innerHTML.replace(/\[\[.*?\|(.*?)]]/, "$1");
       const key = type === "additional" ? type + "-" + ordinal++ : type;
       title = type === "additional" ? heading.textContent.trim() : labels[type];
       if (!buckets.has(key)) buckets.set(key, { type, title, parts: [] });
       buckets.get(key).parts.push(part);
     }
     if (this.referenceClips.length && !buckets.has("videos")) buckets.set("videos", { type: "videos", title: "Videos", parts: [] });
+    // U101 b, U102 a (owner, 2026-11-06, replacing the split into tiles): "there should only be one overview, and it shouldn't be
+    // called 'overview.'" A position's section opens with its first sentences and "Read more" opens the rest in place, one way, so
+    // the label goes with the opening. Every word stays in the DOM. The class, because Learning, Systems and Submission family
+    // pages publish their own <details>, and a rule that hid their summaries would hide a question once it opened.
+    const wall = buckets.get(position && "overview")?.parts[0].node, paragraphs = [...(wall?.querySelectorAll?.(":scope>p") || [])];
+    if (paragraphs[0]) {
+      // The first sentence end at 240 characters or past it. No lookbehind: Safari below 16.4 cannot parse one, and a literal fails
+      // the whole module, on every article. tests/neural_bundle_regex.test.mjs pins that.
+      const html = paragraphs[0].innerHTML, lead = /^[^]{239,}?[.!?](?=\s+[A-Z])/.exec(html)?.[0] || html, more = element("details", { class: "ng-rm" });
+      paragraphs[0].innerHTML = lead;
+      more.append(element("summary", {}, "Read more"));
+      if (lead != html) { const rest = element("p"); rest.innerHTML = html.slice(lead.length); more.append(rest); }
+      more.append(...paragraphs.slice(1));
+      if (more.children[1]) wall.append(more);
+    }
+    const order = position ? POSITION_ORDER : SECTION_ORDER;
     const ordered = [...buckets.values()].sort((a, b) => {
       // S1 a (owner, 2026-11-06): on a submission the full guide is the last teaching section, before Related,
       // and one line above the steps carries the rule. Transitions share the section id and keep their place.
-      const rank = x => submission && x.type === "safety" ? 99 : SECTION_ORDER.includes(x.type) ? SECTION_ORDER.indexOf(x.type) : x.type === "related" ? 100 : x.type === "sources" && reference ? 101 : 50;
+      const rank = x => submission && x.type === "safety" ? 99 : order.includes(x.type) ? order.indexOf(x.type) : x.type === "related" ? 100 : x.type === "sources" && reference ? 101 : 50;
       return rank(a) - rank(b);
     });
     this.sections = []; this.mediaSlot = null;
+    this.tiles.disconnect();
     body.replaceChildren();
     ordered.forEach((group, index) => {
       // U65 note (owner, 2026-10-29): game pages already show the film in the stage. Retire their
@@ -558,7 +592,9 @@ class Reader {
       const toggle = button("", () => {
         const opening = !sectionShown(this.app, group.type);
         this.toggleSection(group.type);
-        if (opening) { this.layoutNow(); this.scrollTo(card, toggle); }
+        // A close too, in this task: the columns are layoutNow's, and until it runs the tiles after this one keep the old sides.
+        this.layoutNow();
+        if (opening) this.scrollTo(card, toggle);
       }, { "data-section-toggle": group.type, "aria-controls": id + "-body" });
       toggle.append(...faces(group.type, group.title)); heading.append(element("span", { class: "ng-section-title" }, group.title), toggle);
       const content = element("div", { class: "ng-section-body", id: id + "-body" });
@@ -566,7 +602,7 @@ class Reader {
       for (const part of control ? [] : group.parts) {
         const fragment = element("article", { "data-reader-article": part.source.dataset.readerArticle, "data-source-path": part.source.dataset.sourcePath });
         if (!ROLES.test(path) && group.parts.some(p => p.source.dataset.readerArticle !== part.source.dataset.readerArticle)) {
-          fragment.append(element("p", { class: "ng-section-provenance" }, part.source.dataset.readerArticle === "hub" ? "Shared overview" : pathRole(part.source.dataset.sourcePath)));
+          fragment.append(element("p", { class: "ng-section-provenance" }, part.source.dataset.readerArticle === "hub" ? "For both sides" : pathRole(part.source.dataset.sourcePath)));
         }
         // Keep authored headings, anchors and complete safety text in the source
         // fragment. The new heading supplies the visible semantic group title.
@@ -575,12 +611,8 @@ class Reader {
         fragment.append(part.node); content.append(fragment);
       }
       card.setAttribute("aria-labelledby", heading.id); card.append(heading, content); body.append(card);
-      // U59 c: a section's text length decides its share of a desktop row (layoutNow). DASH-R4: a reference
-      // page's Videos holds its player, and a table with a fourth column (the hubs' Top/Bottom comparison,
-      // 523-534px; a family's variations) overflows a third: both count as long, so they take two thirds
-      // and never a third (a 2-3 column table fits a third: statistics, outcomes, safety).
-      this.sections.push({ ...group, id, card, body: content, toggle, control,
-        len: group.type == "videos" && REFERENCE.test(path) || content.querySelector("tr>:nth-child(4)") ? 1e9 : content.textContent.length });
+      this.sections.push({ ...group, id, card, body: content, toggle, control });
+      this.tiles.observe(card);
     });
   }
   // D-338 (owner): Video, Moves, Questions, then the article in its own order.
@@ -640,8 +672,6 @@ class Reader {
       });
     }
     focus?.focus({ preventScroll: true });
-    // U59 c: the open cards' spans are layoutNow's (they follow the grid's width); every sync()
-    // ends in a layout through shelf() -> publishCard().
   }
 
   link(event) {
@@ -699,7 +729,7 @@ class Reader {
       node = this.mediaHome;
       focus = node.querySelector("[data-film-close]");
     }
-    this.root.scrollTop += node.getBoundingClientRect().top - this.root.getBoundingClientRect().top - 6;
+    this.root.scrollTop += rect(node).top - rect(this.root).top - 6;
     if (focus) focus.focus({ preventScroll: true });
   }
   readingInteraction(type, event) {
@@ -900,14 +930,14 @@ class Reader {
   syncIndex() {
     const c = this.contents;
     if (!c || c.hidden) return;
-    const view = this.root.getBoundingClientRect(), span = view.height || 1;
+    const view = rect(this.root), span = view.height || 1;
     let best = null, most = 0;
     for (const s of [...this.gameSections, ...this.sections]) {
       if (!s.row) continue;
       const parts = s.part ? [this.partEl(s.part), s.card] : [s.card, s.type === "videos" && this.media?.parentElement === this.mediaHome ? this.mediaHome : null];
       let seen = 0;
       for (const el of parts) {
-        const r = el?.isConnected && !el.hidden && el.getBoundingClientRect();
+        const r = el?.isConnected && !el.hidden && rect(el);
         if (r?.height) seen = Math.max(seen, Math.max(0, Math.min(r.bottom, view.bottom) - Math.max(r.top, view.top)) / Math.min(r.height, span));
       }
       s.row.style.opacity = (.35 + .5 * seen).toFixed(2);
@@ -939,10 +969,10 @@ class Reader {
     // Reserve the role and qualifier rows at either naming anchor (seat/pair).
     const box = { left: Math.min(...orbs.map(r => r.left)), right: Math.max(...orbs.map(r => r.right)) + 11 + Math.max(80, a._labelWidthPx(node)),
       top: Math.min(...orbs.map(r => r.top), p.y - 36, midY - 36), bottom: Math.max(...orbs.map(r => r.bottom), p.y + 40, midY + 40) };
-    const root = this.root.getBoundingClientRect(), occupied = [];
-    const rect = el => {
+    const root = rect(this.root), occupied = [];
+    const visible = el => {
       if (!el?.isConnected) return null;
-      const cs = getComputedStyle(el), r = el.getBoundingClientRect();
+      const cs = getComputedStyle(el), r = rect(el);
       if (!r.width || !r.height || cs.display === "none" || cs.visibility === "hidden" || cs.opacity === "0") return null;
       const clip = this.root.contains(el) ? root : { top: 0, bottom: H };
       return { left: r.left, right: r.right, top: Math.max(0, r.top, clip.top), bottom: Math.min(H, r.bottom, clip.bottom) };
@@ -950,9 +980,9 @@ class Reader {
     for (const el of [a._execution.card, a.evRef.current, this.articleEl, this.body, this.contents, this.head, this.tools,
       ...this.gameSections.map(s => s.card), a._landEl, a._landFilmEl, this.dock, a._handCloseEl,
       a.accountRef.current, a.shareCueRef.current, a._challengeRewardEl, ...a.wrapRef.current.querySelectorAll(".ng-logo,.ng-winbar")]) {
-      const r = rect(el); if (r && r.bottom > r.top) occupied.push(r);
+      const r = visible(el); if (r && r.bottom > r.top) occupied.push(r);
     }
-    const card = rect(a._execution.card), toast = rect(a.evRef.current);
+    const card = visible(a._execution.card), toast = visible(a.evRef.current);
     // D-326: the above-card band exists only if it can hold the box with its 12px
     // clearances. A thinner one (11px on a scrolled phone) used to reject every
     // candidate and return the unfitted target; it is free 2-D space instead.
@@ -989,7 +1019,7 @@ class Reader {
     // now. With no free spot anywhere the pair falls back to the band (D9-N3 (iii), the floor), counted.
     // The painted pair never intersects an occupied rectangle (roll-execution's phone sweep, reader scroll
     // 0-290px at 390x844 and 390x631).
-    const nodeBand = this.nodeBand && this.on("book") ? this.nodeBand : null, col = this.articleEl.getBoundingClientRect();
+    const nodeBand = this.nodeBand && this.on("book") ? this.nodeBand : null, col = rect(this.articleEl);
     const free = nodeBand && (search(nodeBand) || col.width && search(null, { left: col.left, right: col.right, top: nodeBand.bottom, bottom: H })) || search(null);
     if (free) return free;
     // U52 b: D-370's free space was the landing card's slot, emptied for the execution. An asking question is a
@@ -1034,10 +1064,10 @@ class Reader {
       const a = this.app, H = window.innerHeight, W = window.innerWidth, free = a._paneLayout();
       const width = Math.max(240, Math.min(680, free.width - 24));
       style(this.dock, "left", free.center); style(this.dock, "max-width", Math.min(width, W - 16));
-      style(this.dock, "bottom", a._readerShelfBottom(this.dock.getBoundingClientRect()));
+      style(this.dock, "bottom", a._readerShelfBottom(rect(this.dock)));
       const head = this.head, available = this.on("book");
       const reference = REFERENCE.test(this.path);
-      const ownTop = Math.max(68, (a.wrapRef.current.querySelector(".ng-logo")?.getBoundingClientRect().bottom || 0) + 12);
+      const ownTop = Math.max(68, (rect(a.wrapRef.current.querySelector(".ng-logo"))?.bottom || 0) + 12);
       // Without chrome (including a null return on reference pages), the entire
       // head belongs before the article, never over the map. Chrome positions
       // the SAME head in its header row; phone tools remain in the article.
@@ -1065,11 +1095,11 @@ class Reader {
       const phoneCatch = available && !reference && a._phoneCatch();
       a.wrapRef.current.toggleAttribute("data-phone-catch", phoneCatch);
       const top = chrome ? chrome.headBottom : ownTop;
-      // U59 c: the article's tiles run to the right edge, so the share cue in the corner reserves
+      // U59 c: the share cue in the corner reserves
       // the bottom too: the reader ends above it and the cue never covers text or a link.
       const end = chrome?.bottomReserve != null ? H - chrome.bottomReserve : this.dock.hidden
         ? H - a._readerShelfBottom({ left: free.center - width / 2, right: W }) - 8
-        : this.dock.getBoundingClientRect().top - 8;
+        : rect(this.dock).top - 8;
       for (const [key, value] of Object.entries({ left: 0, top, width: W, height: Math.max(80, end - top) })) style(root, key, value);
       art.hidden = !available;
       // Contents never participates in the column's width or centre calculation.
@@ -1078,19 +1108,21 @@ class Reader {
       // U9 b (owner, 2026-10-21): the index sits on the LEFT, 24px inside the free area (the inset it had on the right).
       const lead = free.left + 24;
       const tocWidth = toc ? parseFloat(getComputedStyle(toc).width) : 200;
-      const column = art.getBoundingClientRect().left, fits = W > 640 && H > 500 && column - lead >= tocWidth + 12;
+      // U97 b (owner, 2026-11-06): the index shows only from about 1,350px of free width. With it the grid is 472px narrower,
+      // and a line stops reading well: 45 characters is the floor, measured at 1,346 on five real pages (32 at 1,152). Below
+      // this the grid is 902px, so the seam is 24px, not the 222 it was at 1,152.
+      const fits = H > 500 && free.width >= 1350;
       // Where the index fits, the Moves tray (which sits beside its rows, D-338) starts 12px past it
       // and stays centred on the column. Decided by the fit, not by readiness, so a loading article
       // never re-centres the hand.
       const indexEdge = available && fits ? lead + tocWidth + 12 : null;
       // Grow only the article's inner grid, leaving the native column, hand and index homes alone.
       // The left index still has its 12px clearance; phone gutters leave the glow visible.
-      // U55 b (owner): where the index fits, the grid starts at its 12px clearance (the Moves row's
-      // left edge) and ends 24px from the right, the index's own inset mirrored; the node band, the
-      // Moves row and the question above it keep their places. Elsewhere it stays centred, as before.
-      // Three lanes from a 1,150px grid (1440 and wider: thirds of 377px or more), else two. DASH-R4: at
-      // 1,100 (1366) a third was 353px, ~36 characters a line, and a 3-column table overflowed it by 7px.
-      const grid = indexEdge ? W - 24 - indexEdge : Math.max(240, Math.min(902, free.width - 64)), wide = grid >= 1150;
+      // Owner (2026-11-01, replacing U55 b's run to the right edge): the choices row "should always have the same
+      // size as the grid", and "I kind of like it that it's centered". So on a desktop the grid and the row share one
+      // box, centred on the free area: it starts at the index's 12px clearance and mirrors that margin on the right.
+      // Only the phone keeps a full-width row.
+      const grid = indexEdge ? free.width + 2 * (free.left - indexEdge) : Math.max(240, Math.min(902, free.width - 64));
       // U59 c: when the grid's width changes (the pane opening, a resize), the first text block starting
       // within the reader keeps its place on screen; the finally puts it back after every other write.
       // DASH-R4: only once the article itself has scrolled above the reader's top. At the arrival the
@@ -1102,25 +1134,28 @@ class Reader {
       // re-picked line: it reorders which line comes first, and it can shorten the document so scrollTop clamps. A pass
       // then took the clamped height as the new place and the close landed elsewhere: 179-333px at the end of Transitions
       // and Submissions at 768, 971px at a landed Mount Top.
-      keep = this.gridW - (this.gridW = available ? grid : NaN) && art.getBoundingClientRect().top < top && (this.placeTop === this.heldAt && this.held?.isConnected
-        ? (was = this.heldY, this.held) : [...art.querySelectorAll("p,li")].find(e => (was = this.heldY = e.getBoundingClientRect().top) >= top));
+      // v1.251.0: the columns reflow on the same width change, so the source order no longer runs down the page. The
+      // line is the block nearest the reader's top in either column, and a tie stays with the earlier block.
+      // v1.251.0 (U97 b): the free width, not the grid's. The grid now stands at 902px through most of a pane slide, while the
+      // film still flips from beside the question to under it and grows the stage: 143-168px with no anchor to hold the line.
+      keep = this.gridW - (this.gridW = available ? free.width : NaN) && rect(art).top < top && (this.placeTop === this.heldAt && this.held?.isConnected
+        ? (was = this.heldY, this.held) : (was = 1 / 0, [...art.querySelectorAll("p,li")].reduce((line, e) => { const y = rect(e).top; return y >= top && y < was ? (was = this.heldY = y, e) : line; }, null)));
       style(art, "--article-width", grid);
-      if (this.body) style(this.body, "margin-left", indexEdge ? indexEdge - column : "");
-      // U59 c (owner): every desktop row holds two open sections side by side, in source order, so
-      // Tab and the eye agree and nothing is lifted: of three lanes the longer text takes two and the
-      // shorter one; of two lanes (a grid of 661-1,149px: 641-1151 without the index), a half each.
-      // DASH-R4: thirds only on three lanes and only where the sizes justify them: an odd count makes
-      // ONE row of three thirds, the run of three (starting on a row) whose longest section is shortest
-      // and under 1,500 characters (a third holds ~40 characters a line at 1440). Otherwise, and on two
-      // lanes, the odd section ends the article beside an empty lane: two thirds, or a half. U65 b:
-      // tiles end at their content; rows still follow the taller card plus the token gap. A grid of 660px or less is
-      // one column (reading.css's container query), as before.
-      const open = this.sections.filter(s => !s.body.hidden && !s.control), n = open.length;
-      let t, best = 1500;
-      if (wide && n % 2) for (let i = 0; i < n - 2; i += 2) { const m = Math.max(...open.slice(i, i + 3).map(s => s.len)); if (m < best) best = m, t = i; }
-      for (let i = 0, k; i < n; i += k) {
-        const row = open.slice(i, i + (k = i == t ? 3 : 2)), [x, y] = row;
-        for (const s of row) style(s.card, "--span", "" + (k > 2 ? 4 : !wide ? 6 : (s == x) == (x.len < (y || x).len) ? 4 : 8));
+      // Owner (2026-11-06, replacing U59 c's rows and U65 b's pairing): two columns, "never a big gap following the
+      // previous section". In reading order each open tile goes to the column that is shorter now, and a tie goes left.
+      // A tile starts where that column ends, and that height only grows, so a head never starts above the one before
+      // it: head tops down the page are the DOM's and the index's order, and the left wins a draw. Real heights: overview
+      // has only a 400-character minimum, so a character count cannot size a tile. 24 is reading.css's --gap on two
+      // columns; on one, a side changes nothing. Both columns are one width, so a side cannot change a height. The sides
+      // stay as they are while the article is put away (its tiles measure 0), so sync() restores bookScroll into the same layout.
+      if (available) {
+        let l = 0, r = 0;
+        for (const s of this.sections) if (!s.body.hidden && !s.control) {
+          // Within a pixel is a draw: a reader sees one line, and the left wins it.
+          const right = l > r + 1, height = rect(s.card).height + 24;
+          s.card.toggleAttribute("data-right", right);
+          if (right) r += height; else l += height;
+        }
       }
       if (toc) {
         toc.hidden = !available || root.dataset.readerReady !== "true" || !fits;
@@ -1138,7 +1173,7 @@ class Reader {
       // U52 b: an asking question is a quiet line with no outside arrows to clear, so it takes the column's width.
       // Its step stays the deck's: taking it up must move nothing above its answers (D-351, the answer appears
       // once at its final rect; a smaller asking step moved Moves and the answers 8px at 1440).
-      const arrows = deck && !card.hasAttribute("data-land-ask");
+      const asking = card?.hasAttribute("data-land-ask"), arrows = deck && !asking;
       // D-351: _readerHold keeps a landing's card and hand unpublished until the article it asked
       // for renders (800ms at most). Parts the ceiling publishes are pinned (_readerPin), and the
       // Videos lift and the film's move wait until they settle: a late article used to move live
@@ -1153,7 +1188,7 @@ class Reader {
           // Translate its fixed rectangle once into the native flow.
           const dock = el === row && a._executionDock();
           if (dock) {
-            const box = el.getBoundingClientRect(), top = game.getBoundingClientRect().top;
+            const box = rect(el), top = rect(game).top;
             dock.reader = { rowTop: box.top - top, height: box.bottom - top, rowHeight: box.height };
           }
           // The hand goes before the closed Questions label: Tab order follows Moves, then Questions.
@@ -1167,8 +1202,8 @@ class Reader {
       };
       // A native scrollport contains the actual, already-dealt controls. Their
       // handlers, question/answer state and row order are never reconstructed.
-      const oldTop = card && !this.gameHomes.has(card) ? card.getBoundingClientRect().top :
-        showHand && !this.gameHomes.has(row) ? row.getBoundingClientRect().top : null;
+      const oldTop = card && !this.gameHomes.has(card) ? rect(card).top :
+        showHand && !this.gameHomes.has(row) ? rect(row).top : null;
       // Keep the node-band reservation through navigation. A new card can be
       // adopted before its article arrives; resetting here would jump it to 64px.
       if (this.gameTop == null && oldTop > 0) this.gameTop = Math.max(64, oldTop - ownTop);
@@ -1177,7 +1212,7 @@ class Reader {
       // any other film (a late chunk's, measuring 0 before its thumbnails load) waits hidden until
       // the parts settle, so nothing opens above or over the pinned rows.
       let homeMedia = this.media?.parentElement === home && !this.media.hidden;
-      const filmHeight = () => a.currentFilmHeight?.() ?? this.media.getBoundingClientRect().height;
+      const filmHeight = () => a.currentFilmHeight?.() ?? rect(this.media).height;
       if (pin) {
         const h = homeMedia ? filmHeight() : 0;
         if (!("film" in pin)) { pin.film = homeMedia && this.media; pin.mh = h; }
@@ -1202,7 +1237,7 @@ class Reader {
       // Chrome may own the desktop head; phone tools always remain in this flow.
       const inlineHead = tools?.parentElement === game ? tools : head?.parentElement === game ? head : null;
       if (inlineHead) position(inlineHead, free.center - width / 2, band + (chrome?.offset || 0), width);
-      const headHeight = available && inlineHead ? inlineHead.getBoundingClientRect().height + 6 : 0;
+      const headHeight = available && inlineHead ? rect(inlineHead).height + 6 : 0;
       if (home.hidden !== !homeMedia) home.hidden = !homeMedia;
       // D-368 (layout C): the current film sits in the game's stage. U65 removes the duplicate article
       // credits; the retained Videos control still governs the film.
@@ -1212,7 +1247,7 @@ class Reader {
       const mediaLayout = homeMedia ? beside ? "side-by-side" : "stacked" : "none";
       if (game.dataset.mediaLayout !== mediaLayout) game.dataset.mediaLayout = mediaLayout;
       if (card) style(card, "width", Math.min(beside ? 390 : arrows ? 560 : 520, free.width - (arrows && !beside ? 104 : 32)), "important");
-      const cardWidth = card?.getBoundingClientRect().width || 0;
+      const cardWidth = rect(card)?.width || 0;
       style(home, "width", mediaWidth, "important");
       // Videos supplies its natural content height (A: ~241px desktop, ~220px
       // phone). Measuring the shared host keeps its future renderer independent.
@@ -1223,9 +1258,10 @@ class Reader {
       // re-read here, after the home's width changes, or a stale data-off leaves Next dead to the mouse.
       if (homeMedia) a._syncFilmEdges?.();
       const mediaHeight = homeMedia ? filmHeight() : 0;
-      const cardHeight = showCard ? card.getBoundingClientRect().height : 0, handHeight = showHand ? row.getBoundingClientRect().height : 0;
+      const cardHeight = showCard ? rect(card).height : 0, handHeight = showHand ? rect(row).height : 0;
       const handoff = a._executionDock()?.reader;
       let cardX = Math.max(a.isMobile() ? 10 : 16, free.center - cardWidth / 2), cardY, gameHeight;
+      const flush = this.trayFlush = available && W > 640;
       if (available) {
         // D-338 (owner): Video, Moves, Questions, then the article, under the node band.
         // No header names a part; a closed one keeps its place as its label. An escape's
@@ -1235,14 +1271,14 @@ class Reader {
         // D-368: Moves follow the node band at the parts' own step (it used to sit under the lifted Videos
         // card): a zoomed roll-start pair reaches the band's edge, so 6px left camera-continuity no 2px clearance.
         let y = band + Math.max(headHeight, step) + (chrome?.offset || 0);
-        // Symmetric about the column's centre, so no move or ✕ hides under an index link. The app pads
-        // the row by the pane (free.left), so its box starts that much before the index's edge.
-        const rowLeft = indexEdge ? indexEdge - free.left : 0;
+        // The grid's own box, so no move or ✕ hides under an index link. The app pads the row by the pane
+        // (free.left), so its box starts that much before the grid's edge; trayFlush takes its 24px inset away.
+        const rowLeft = flush ? free.center - grid / 2 - free.left : 0;
         const placeHand = () => {
           if (pin) y = pin.rowTop || (pin.rowTop = y);
           const rowTop = handoff?.rowTop ?? y;
-          if (row) position(row, rowLeft, rowTop, indexEdge ? W + 2 * free.left - 2 * indexEdge : W);
-          if (!label("hand").hidden) { position(label("hand"), left, y, width); y += label("hand").getBoundingClientRect().height + step; }
+          if (row) position(row, rowLeft, rowTop, flush ? grid + free.left : W);
+          if (!label("hand").hidden) { position(label("hand"), left, y, width); y += rect(label("hand")).height + step; }
           else y = rowTop + (handoff?.rowHeight ?? handHeight) + (askStep ?? step);
         };
         // D-433 (2026-10-26), D-370 adapted to U35: Answer for Points (U47 d) and all shown answers
@@ -1262,10 +1298,15 @@ class Reader {
         if (pin) y = pin.cardY || (pin.cardY = y);
         cardY = y;
         if (beside) { const groupLeft = free.center - (mediaWidth + 60 + cardWidth + 52) / 2; position(home, groupLeft, cardY, mediaWidth); cardX = groupLeft + mediaWidth + 60; }
+        // Owner (2026-11-06, U90): "the question below the choices should be left aligned, aligned with the left start of
+        // Your choices/moves label". The label is its group's first line, 3px inside it, and the line's text sits 4px inside
+        // the card. offsetLeft, because a scrolled tray or Inspect's slide moves the label and must not take the line along.
+        const moves = showHand && asking && row.firstElementChild;
+        if (moves) cardX = rowLeft + moves.offsetLeft - 1;
         if (card) position(card, cardX, cardY);
         // The deck's backs peek 3px per remaining card below the face; the article clears them.
         if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight) + 3 * (a._landStackEl?.childElementCount || 0);
-        else if (!label("card").hidden) { position(label("card"), left, y, width); y += label("card").getBoundingClientRect().height; }
+        else if (!label("card").hidden) { position(label("card"), left, y, width); y += rect(label("card")).height; }
         if (questionFirst) { y += step; placeHand(); y -= step; }
         if (follows) { y += step; position(home, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight; }
         else if (homeMedia && !showCard) { position(home, free.center - mediaWidth / 2, y + step, mediaWidth); y += step + mediaHeight; }
@@ -1313,7 +1354,7 @@ class Reader {
       // close to the reader's top then fell above it, lost the anchor, wrapped and jumped 31px. `was` is reused because
       // the bundle shortens locals and this budget is nearly spent. The remainder cannot go stale: it is under a pixel.
       if (keep) {
-        was = keep.getBoundingClientRect().top - was + (this.rest || 0);
+        was = rect(keep).top - was + (this.rest || 0);
         this.rest = was - (was = Math.round(was));
         this.held = keep; this.heldAt = this.placeTop = root.scrollTop += was;
       }
@@ -1323,7 +1364,7 @@ class Reader {
   destroy() {
     cancelAnimationFrame(this.layoutFrame);
     this.place(this.mediaOrigin); this.restoreGame();
-    this.abort?.abort(); this.resize.disconnect(); this.root.remove(); this.dock?.remove(); this.contents?.remove();
+    this.abort?.abort(); this.resize.disconnect(); this.tiles.disconnect(); this.root.remove(); this.dock?.remove(); this.contents?.remove();
     this.app._readerTocEl = null;
     document.removeEventListener("pointerup", this.selectionEnd);
     this.app.wrapRef.current?.classList.remove("ng-reader-dormant", "ng-reader-no-map", "ng-reader-no-feedback");

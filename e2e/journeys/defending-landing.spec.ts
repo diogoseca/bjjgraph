@@ -160,6 +160,9 @@ test('@curated link, reload and dormant answer keep the generic five-card defend
   expect(await page.evaluate(() => (window as any).__neural._landPage)).toBe(1)
   await j.clickByMouse('[data-land-prev]', 'return to the first defender card')
   const correct = await page.evaluate(() => (window as any).__neural._mc.correct)
+  // U99 b (owner, 2026-11-06): on a desktop a long card's last answers sit a scroll below the fold.
+  await page.locator(`[data-panic-mc-opt="${correct}"]`).evaluate(e => e.scrollIntoView({ block: 'nearest', behavior: 'instant' }))
+  await j.readerLayoutSettled()
   await j.clickByMouse(`[data-panic-mc-opt="${correct}"]`, 'answer the cold defender landing')
   await j.advance(20000)
   expect(await state(page)).toMatchObject({ pressure: false, vignette: false, caught: 0, remaining: null })
@@ -817,7 +820,10 @@ test.beforeEach(async ({ page }, info) => { if (!/^(D-368|U16 b|D-433)/.test(inf
   await page.addInitScript(() => { (window as any).__d368film = () => { const f = (window as any).__neural?._landFilmEl
     return !!f && f.isConnected && !f.hidden && f.getClientRects().length > 0 && f.getBoundingClientRect().height > 0 } }) })
 for (const [width, height] of [[1440, 900], [390, 844], [390, 631]] as const) {
-  test(width > 640 ? `D-368: in a catch at ${width}x${height} the escape answers are on screen without scrolling`
+  // U99 b (owner, 2026-11-06) changes D-368 on a desktop: a taller map, "knowing half of all cards then need a scroll to reach
+  // their last answer". So the desktop claim is no longer "on screen without scrolling": every escape answer is hit-testable once
+  // the real wheel has brought it into the reader. D-433 stands on a phone, whose band he did not change.
+  test(width > 640 ? `D-368: in a catch at ${width}x${height} every escape answer is reached by a real scroll`
     : `D-433: in a catch at ${width}x${height} every opened answer is reachable without scrolling`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = await catchLoop(page)
@@ -836,8 +842,26 @@ for (const [width, height] of [[1440, 900], [390, 844], [390, 631]] as const) {
     expect(r.pressure, 'premise: a live catch').toBe(true)
     expect(r.answers.length, 'premise: the escape answers').toBeGreaterThan(1)
     if (width > 640) {
-      const off = r.answers.filter((x) => !x.hit || x.top < 0 || x.bottom > Math.min(height, r.end) - 8)
-      expect(off, 'every escape answer is on screen and reachable without scrolling, 8px clear of the scrollport end').toEqual([])
+      const identities = await page.locator('[data-panic-mc-opt]').evaluateAll(es => es.map(e => e.getAttribute('data-panic-mc-opt')))
+      let wheels = 0
+      for (const identity of identities) {
+        const read = () => page.locator(`[data-panic-mc-opt="${identity}"]`).evaluate(el => {
+          const b = el.getBoundingClientRect(), root = el.closest('[data-reader]')!, box = root.getBoundingClientRect(), inside = b.top >= box.top && b.bottom <= box.bottom
+          const hit = inside ? document.elementFromPoint(b.left + b.width / 2, b.top + b.height / 2) : null
+          return { x: b.left + b.width / 2, top: b.top, bottom: b.bottom, end: box.bottom, inside, hit: !!hit && el.contains(hit), scrollTop: root.scrollTop }
+        })
+        let now = await read()
+        for (let tries = 0; !now.inside && tries < 6; tries++) {
+          const before = now.scrollTop
+          await page.mouse.move(now.x, Math.min(now.top + 4, now.end - 12))
+          await page.mouse.wheel(0, now.bottom - now.end + 12)
+          await expect.poll(async () => (await read()).scrollTop, { message: 'the wheel moves the reader' }).toBeGreaterThan(before)
+          await j.readerLayoutSettled()
+          now = await read(); wheels++
+        }
+        expect(now, `escape answer ${identity} sits whole in the reader, with nothing over it`).toMatchObject({ inside: true, hit: true })
+      }
+      expect(wheels, 'premise: some answer needed the scroll this claim is about').toBeGreaterThan(0)
     } else {
       // D-433 restores D-370's no-scroll answers for U35. Unlike the old
       // combined-fit oracle, this checks the actual clipped reader and targets.

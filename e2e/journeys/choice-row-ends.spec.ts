@@ -64,7 +64,9 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
   test(`the tray pads its last card and fades only toward hidden cards, wheel, drag and focus, at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = journey(page)
-    await j.boot("/Positions/Closed-Guard/Bottom")
+    // Beside the article a desktop row has no inset, because it shares the grid's edges (article-order.spec.ts). The
+    // inset this journey pins is the one a desktop row wears with the article put away.
+    await j.boot("/Positions/Closed-Guard/Bottom", width > 640 ? { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } } : {})
     await j.advance(4000)
     const start = await settle(page)
     expect(start.max, "closed guard bottom overflows the tray, so both ends exist").toBeGreaterThan(400)
