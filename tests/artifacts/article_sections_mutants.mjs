@@ -370,7 +370,7 @@ const mutants = [
   ['training-flush', 'article-order.spec.ts', 'U100 a /Transitions/Knee-Slice-Pass/Attacker', s => s, css => replace(css, '.ng-section-body{padding:var(--reader-unit)}', '.ng-section-body{padding:0 var(--reader-unit) var(--reader-unit)}')],
   ['training-head-padded', 'article-order.spec.ts', 'U100 a /Transitions/Knee-Slice-Pass/Attacker', s => s, css => replace(css, 'h2+.ng-section-body{padding-top:0}', '')],
   ['training-on-positions', 'article-order.spec.ts', 'U100 a a position keeps', s => replace(s, '(transition || submission) && group.type == "training"', 'group.type == "training"')],
-  ['training-on-learning', 'article-order.spec.ts', 'U100 a a Learning page keeps', s => replace(s, '(transition || submission) && group.type == "training"', '!position && group.type == "training"')],
+  ['training-on-principles', 'article-order.spec.ts', 'U100 a a Principle keeps', s => replace(s, '(transition || submission) && group.type == "training"', '!position && group.type == "training"')],
   ['training-closed-rows', 'article-dashboard.spec.ts', 'U100 a closing Training', s => replace(s, '(shown ? open : s.more ? [] : closed)', '(shown ? open : closed)')],
   ['training-closed-stays', 'article-dashboard.spec.ts', 'U100 a closing Training', s => replace(s, 'if (s.more) s.card.hidden = !shown; ', '')],
   ['training-index-first', 'article-dashboard.spec.ts', 'U100 a the index row follows', s => replace(s, '[...this.sections.filter(x => x.type == s.type).map(x => x.card), s.type === "videos"', '[s.card, s.type === "videos"')],

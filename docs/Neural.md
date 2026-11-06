@@ -90,7 +90,7 @@ the choices row; narrower it is centred, at most 902px. A grid of 660px or less 
 content.** The only gap is below the shorter column at the article's end, where the map shows and the reader grid owns input. Closing a tile reflows only what follows it. **U90 a, U99 b:** on a
 desktop the map ends at half the window, or `NG_LIVE_ANSWER_ROOM` above its bottom if that is higher (43% at 900 tall), never under
 the old 144px; it reads the window alone, so nothing moves when a question opens. Half of all cards need a scroll for their last
-answer (his ruling). **U90 note:** the asking line's text starts on the "Your move" label's left edge. **U101 b:** a position's How it works opens short; Read more opens the rest in place, one way. Each tile's
+answer (his ruling). **U90 note:** the asking line's text starts on the "Your move" label's left edge. **U101 b, U103 a:** a position's How it works opens short; Read more opens the rest in place, one way. A bare hub has one on each of its two text sections, the shared one and its seat's. **U100 a:** on Transitions and Submissions each bold-led phase of Training is its own tile, with no word changed and no head of its own: still one section, with one index row, one ✕ on the first tile, one saved setting and one closed label. Each tile's
 text is a centred 46ch column, except an article holding a wide table.
 The media slot is outside the prose measure. The reader ends above the conditional share cue in the corner;
 the account badge lives in the drawer. When the grid's width changes (Explore

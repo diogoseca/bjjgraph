@@ -42,7 +42,7 @@ import { journey } from '../dsl'
 //   training-flush           a phase's tile has the same padding on every side (its text flush with the top)
 //   training-head-padded     a tile with a head starts as it did (the head's tile doubly padded)
 //   training-on-positions    a position keeps one Training tile (the split on every page)
-//   training-on-learning     a Learning page keeps its exercises whole (the split on anything not a position)
+//   training-on-principles   a Principle stays whole (the split on anything not a position)
 //   hub-first-section-only   a hub opens short on both text sections (the shared one alone, the +70 B version)
 //   hub-parts-first          a hub opens short at all (back to the bucket's first part, its role links, which folds nothing)
 //   index-from-1152          the index waits for a readable line (back at 1,152)
@@ -168,15 +168,16 @@ for (const [path, phases] of [['/Transitions/Knee-Slice-Pass/Attacker', 6], ['/S
     expect(d.rows, 'the index has one row for the section').toEqual(['Training'])
     expect(d.leads, 'each tile opens on its own phase, in order').toEqual(d.sourceLeads)
     expect(d.at, 'the phases stand together').toEqual(d.at.map((_, i) => d.at[0] + i))
-    expect(d.dom.length, 'premise: real text').toBeGreaterThan(800)
+    expect(d.source.length, 'premise: real text').toBeGreaterThan(800)
     expect(d.dom, 'every word of the source, in order').toBe(d.source)
     expect(d.top[0], 'a tile with a head starts as it did').toBe(0)
     for (const t of d.top.slice(1)) expect(t, 'a phase\'s tile has its padding on top too').toBe(d.bottom)
   })
 }
 
-// "Transitions and Submissions only": it measured worse on a position, and a Learning page's exercises are not phases.
-for (const [path, claim] of [['/Positions/Mount/Top', 'a position'], ['/Learning/Investing-in-Loss', 'a Learning page']] as const) {
+// "Transitions and Submissions only": it measured worse on a position, and a Principle's practice is not phases. Microing has three
+// paragraphs there, so the broad split reaches it. No Learning page can show this: 0 of 26 hold a paragraph the split would take.
+for (const [path, claim] of [['/Positions/Mount/Top', 'a position'], ['/Principles/Microing', 'a Principle']] as const) {
   test(`@curated U100 a ${claim} keeps its Training whole`, async ({ page }) => {
     await boot(page, 1440, 900, path)
     expect((await tiles(page)).open.filter(t => t.type === 'training').length, 'one tile').toBe(1)
