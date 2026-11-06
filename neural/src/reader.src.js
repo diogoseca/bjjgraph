@@ -593,7 +593,9 @@ class Reader {
       const toggle = button("", () => {
         const opening = !sectionShown(this.app, group.type);
         this.toggleSection(group.type);
-        if (opening) { this.layoutNow(); this.scrollTo(card, toggle); }
+        // A close too, in this task: the columns are layoutNow's, and until it runs the tiles after this one keep the old sides.
+        this.layoutNow();
+        if (opening) this.scrollTo(card, toggle);
       }, { "data-section-toggle": group.type, "aria-controls": id + "-body" });
       toggle.append(...faces(group.type, group.title)); heading.append(element("span", { class: "ng-section-title" }, group.title), toggle);
       const content = element("div", { class: "ng-section-body", id: id + "-body" });

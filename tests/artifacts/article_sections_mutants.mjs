@@ -321,6 +321,7 @@ const mutants = [
   // A character count for the height: the schemas' field limits, the owner's first thought, and the brief's reason to measure.
   ['columns-tall-tile', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => replace(s, 'height = rect(s.card).height + 24', 'height = s.body.textContent.length / 3')],
   ['columns-stale-height', 'article-dashboard.spec.ts', 'a tile that grows reorders', s => replace(s, '      this.tiles.observe(card);\n', '')],
+  ['columns-close-waits-a-frame', 'article-dashboard.spec.ts', 'a close sorts the columns in its own task', s => replace(s, '        this.layoutNow();\n        if (opening) this.scrollTo(card, toggle);', '        if (opening) { this.layoutNow(); this.scrollTo(card, toggle); }')],
   // Closing a tile re-sorts the tiles before it, which is the one thing a close must not do.
   ['columns-close-reorders', 'article-dashboard.spec.ts', 'closing a tile moves nothing', s => replace(s, '    for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {', '    if (closed.length) open.reverse();\n    for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {')],
   // The block first in the source, not the one nearest the reader's top: the source order no longer runs down the page.

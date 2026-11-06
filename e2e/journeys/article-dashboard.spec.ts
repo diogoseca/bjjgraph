@@ -40,6 +40,7 @@ import { journey } from '../dsl'
 //   columns-gap-lost       a column's gap is the token (no gap)
 //   columns-tall-tile      a tile's real height decides (a character count stands in for it)
 //   columns-stale-height   a tile that grows later reorders what follows it (no observer on the tiles)
+//   columns-close-waits-a-frame a close sorts the columns in its own task (it waits for the coalesced frame)
 //   u59-tab-rtl            Tab walks the tiles in the order the eye does (the columns mirrored)
 //   u59-measure-unset      prose lines keep a readable measure (the 46ch column removed)
 //   line-dom-first         opening Explore keeps the topmost line of EITHER column (the first block in source order)
@@ -529,6 +530,22 @@ test('closing a tile moves nothing before it, reflows what follows, and reopenin
   const back = await dashboard(page)
   expect(back.tiles.map(t => t.box.left), 'every tile is back in its column').toEqual(before.tiles.map(t => t.box.left))
   columns(back)
+})
+
+// The close sorts the columns in its own task, as every open does. On a coalesced frame the tiles after it kept their old sides
+// until the next frame: nothing painted that, but a read in the window saw holes (article-sections.spec.ts:107, 1 run in 2 on CI).
+// Same task, so this has no timing in it. columns-close-waits-a-frame.
+test('a close sorts the columns in its own task', async ({ page }) => {
+  await boot(page, 1440, 900)
+  const holes = await page.evaluate(() => {
+    const r = (window as any).__neural._reader
+    r.body.querySelector('[data-section-toggle=principles]').click()
+    const cards = ([...r.body.children] as HTMLElement[]).filter(c => c.getClientRects().length).map(c => c.getBoundingClientRect())
+    const lanes = [...new Set(cards.map(b => Math.round(b.left)))]
+    return { lanes: lanes.length, gaps: lanes.flatMap(left => { const lane = cards.filter(b => Math.round(b.left) === left).sort((x, y) => x.top - y.top); return lane.slice(1).map((b, i) => b.top - lane[i].bottom) }) }
+  })
+  expect(holes.lanes, 'premise: two columns').toBe(2)
+  expect(holes.gaps.filter(g => Math.abs(g - 24) > 1), 'no hole in either column').toEqual([])
 })
 
 // A tile's height is read live, so a tile that grows after the first layout sends what follows to the other column, with no
