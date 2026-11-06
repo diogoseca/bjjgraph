@@ -13,7 +13,7 @@
 //   props      : neural/src/props.json  (baked to current defaults — the version you like)
 //   css        : neural/src/helmet.html <style> + Google-fonts @import  -> neural/dist/neural.css
 // Run from anywhere: node neural/build/build.mjs   (resolves esbuild from source/node_modules)
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, readdirSync, writeFileSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import { createRequire } from "node:module";
