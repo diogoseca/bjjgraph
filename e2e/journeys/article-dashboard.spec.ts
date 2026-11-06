@@ -44,6 +44,8 @@ import { journey } from '../dsl'
 //   read-more-stays        Read more is one way (its label stays once opened)
 //   read-more-no-grow      Read more opens the rest (the rest stays hidden, so the tile does not grow)
 //   read-more-scrolls      nothing moves above it (the reader scrolls as it opens)
+//   read-more-no-keyboard  Enter opens it (the key is swallowed)
+//   read-more-focus-to-top Tab carries on past it (focus thrown back to the first tile)
 // RECORDED NON-KILLS (v1.251.0), so neither reads as coverage. line-dom-first-slide: on Mount/Bottom the block first in the source and
 // the block nearest the top are the same at both depths; line-dom-first kills that mutant on "opening Explore keeps the line".
 // read-more-no-reflow: with no observer on the tiles a later layout still sorts them, so the observer alone is not what this pins;
