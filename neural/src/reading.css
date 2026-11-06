@@ -115,9 +115,10 @@
 .ng-section-body :is(.section-subtitle,.entity-relations,.entity-relations *) { opacity:1;color:#b6c5df; }
 [data-section-type=definition] .ng-section-title { opacity:.45;font-size:10px; }
 /* The card's title says it already. */
-:is(.also-known-as,.often-confused-with)>em { display:none; }
-/* Owner: both sections carry a coming-feature mark. */
-.ng-section-card:has([data-source-id$=tree],[data-source-id$=metrics])>h2::after { content:"Beta";margin-left:8px;padding:0 7px;border:1px solid #596782;border-radius:9px;font-size:10px;line-height:16px; }
+/* article>: a position's relations are tiles of their own, and only there does the title say it. A transition's and a submission's sit in one block, where the words are the only label. */
+article>:is(.also-known-as,.often-confused-with)>em { display:none; }
+/* Owner (U92 a): both sections carry a coming-feature mark, on positions only. Exact ids, which only positions emit: a suffix also matched every System's assessment-metrics and a Training tile's *-decision-tree. */
+:has([data-source-id=decision-tree],[data-source-id=position-metrics])>h2::after { content:"Beta";margin-left:8px;padding:0 7px;border:1px solid #596782;border-radius:9px;font-size:10px;line-height:16px; }
 .ng-section-body blockquote { margin:0 0 var(--reader-unit);padding:12px;border-left:2px solid #ffb45a;background:#ffb45a08;color:#d6def0; }
 /* S1 a: Quartz sets hyphens:auto on a and p themselves, so it does not inherit: the safety line's rule (p) and its
    link (a) each need it set. A phone broke the key word as "re-/lease". */

@@ -60,9 +60,9 @@ for (const type of "favorable-outcomes role-comparison top-summary bottom-summar
 const SECTION_ORDER = ["videos", "overview", "principles", "recognition", "setup", "prerequisites", "options", "safety", "mistakes"];
 // Owner (2026-11-01, Side Control Bottom): "what people will probably care most about is 'What is side control
 // bottom?'", then the principles; decisions and mistakes are "very nice", statistics go up, the overview "looks very
-// boring", and prerequisites and training go down. Sections he did not name keep their place at rank 50, and safety
-// keeps its seat between options and mistakes while he decides it (S1). Position pages only: the reader sorts the
-// article, so this is the live order; the templates' order is what a no-JS page shows.
+// boring", and prerequisites and training go down. Sections he did not name keep their place at rank 50, and a position's
+// safety keeps its seat between options and mistakes (S1 a moved only a submission's guide). Position pages only: the reader
+// sorts the article, so this is the live order; the templates' order is what a no-JS page shows.
 const POSITION_ORDER = "videos aka confused definition principles options safety mistakes statistics overview prerequisites training".split(" ");
 // D-338 (owner): one close icon, the same on every width, and a closed section becomes a
 // light label (its glyph above its name, no box). Both faces live in the one toggle and CSS
@@ -561,12 +561,12 @@ class Reader {
     // pages publish their own <details>, and a rule that hid their summaries would hide a question once it opened.
     const wall = buckets.get(position && "overview")?.parts[0].node, paragraphs = [...(wall?.querySelectorAll?.(":scope>p") || [])];
     if (paragraphs[0]) {
-      const sentences = paragraphs[0].innerHTML.split(/(?<=[.!?])\s+(?=[A-Z])/), more = element("details", { class: "ng-rm" });
-      let lead = sentences.shift();
-      while (sentences[0] && lead.length < 240) lead += " " + sentences.shift();
+      // The first sentence end at 240 characters or past it. No lookbehind: Safari below 16.4 cannot parse one, and a literal fails
+      // the whole module, on every article. tests/neural_bundle_regex.test.mjs pins that.
+      const html = paragraphs[0].innerHTML, lead = /^[^]{239,}?[.!?](?=\s+[A-Z])/.exec(html)?.[0] || html, more = element("details", { class: "ng-rm" });
       paragraphs[0].innerHTML = lead;
       more.append(element("summary", {}, "Read more"));
-      if (sentences[0]) { const rest = element("p"); rest.innerHTML = sentences.join(" "); more.append(rest); }
+      if (lead != html) { const rest = element("p"); rest.innerHTML = html.slice(lead.length); more.append(rest); }
       more.append(...paragraphs.slice(1));
       if (more.children[1]) wall.append(more);
     }
