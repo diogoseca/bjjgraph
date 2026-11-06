@@ -78,8 +78,8 @@ the vignette. The complete linked article appears below the game controls.
 **Reading and minimizing.** Articles survive grading and card replacement, with native
 scrolling and 16px prose. The node's other half changes role; no role switch (D-318).
 Order (D-338): Videos, Moves, Questions (no headers), then the titled sections: Overview,
-principles, setup/recognition, options, safety, mistakes, the rest, Related; 6px gaps. Learning/System Sources stays
-last; missing groups are omitted. Hubs include the full Top/Attacker guide; role pages add only
+principles, setup/recognition, options, safety, mistakes, the rest, Related (a submission's safety guide moves to
+just before Related; S1 a); 6px gaps. Learning/System Sources stays last; missing groups are omitted. Hubs include the full Top/Attacker guide; role pages add only
 shared hub safety. Failed loads offer Retry.
 
 **The desktop article: two columns (owner, 2026-11-06, replacing U59 c's rows and U65 b's pairing).** Above 660px of grid, on

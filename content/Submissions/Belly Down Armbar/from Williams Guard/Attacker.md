@@ -10,8 +10,6 @@ description: "Learn to attack with the belly down armbar from Williams Guard. St
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from Williams Guard targets the Elbow joint hyperextension and ulnar collateral ligament. Risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking with the belly down armbar from Williams Guard capitalizes on the arm 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Williams Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

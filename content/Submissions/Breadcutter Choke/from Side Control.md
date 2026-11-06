@@ -112,9 +112,6 @@ description: "Master the Breadcutter Choke from Side Control. Learn gi collar gr
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Breadcutter Choke from Side Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Breadcutter Choke/from Side Control/Attacker|Play as Attacker]]
@@ -225,6 +222,8 @@ This choke is particularly effective because opponents under side control typica
 - Treat the collar setup as part of normal side control maintenance to disguise the attack until both grips are secured
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -296,6 +295,8 @@ This choke is particularly effective because opponents under side control typica
 
 - Cross-collar forearm pressure settling across your throat or jawline with the attacker's wrist rotating inward
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

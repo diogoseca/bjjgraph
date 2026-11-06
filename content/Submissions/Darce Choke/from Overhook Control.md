@@ -92,9 +92,6 @@ description: "Master the Darce Choke from Overhook Control with expert finishing
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Darce Choke from Overhook Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Darce Choke/from Overhook Control/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Finishing from overhook control requires attention to body angle and hip positio
 - Keep the trapped arm elevated throughout the entire sequence - if it drops below shoulder line, the choke loses the arm-in configuration that creates bilateral compression
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -258,6 +257,8 @@ Finishing from overhook control requires attention to body angle and hip positio
 
 - Attacker begins sprawling hips backward while maintaining upper body pressure, signaling the finishing sequence has begun
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

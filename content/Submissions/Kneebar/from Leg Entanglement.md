@@ -82,9 +82,6 @@ description: "Master the kneebar from leg entanglement in BJJ. Learn setup from 
 <span class="meta-chip">27% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Leg Entanglement targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Primary risk: Posterior cruciate ligament (PCL) tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Leg Entanglement/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 - Angle your body away from opponent's free leg to prevent them from establishing defensive hooks or counter-entanglement
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 
 - Attacker's free leg pushes against your shoulder, chest, or hip to create distance while their body rotates perpendicular to your trapped leg, combined with increasing squeeze around your thigh
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

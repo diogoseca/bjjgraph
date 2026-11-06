@@ -10,8 +10,6 @@ description: "Learn to finish the toe hold from Inside Ashi-Garami with proper f
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Inside Ashi-Garami targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking the toe hold from Inside Ashi-Garami requires establishing secure leg 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Toe Hold/from Inside Ashi-Garami#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

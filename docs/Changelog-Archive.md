@@ -14205,3 +14205,105 @@ a template fix and a capture.
 **Bytes.** The first build was 1,230 B over the deferred cap. The CSS audit found no dead rules. What paid for it: a `rect()` helper across 30
 call sites, `mangleProps` for 23 names used only inside the reader, merged rules, and the rule the definition could share with
 the reader's headings. Deferred 506,794 of 506,817 B, against 506,740 on dev v1.249.2. Eager gzip +8 B, 346,905 B. No ceiling moved.
+
+## v1.250.0 — The safety guide last, and the rule above the steps (owner S1 a, S2 b, S3 a, S4 a, 2026-11-06)
+
+**The owner's words.** S1 a: "A: the guide last, one line above the steps", from his K1 note, "the safety text should probably be one
+of the last sections appearing". On 6 Nov he then answered three questions from real screens: S2 b, the rule as plain text with only
+"Safety guide ↓" as the link; S3 a, no line on family pages; S4 a, fix the pages that treat going limp as the signal to stop.
+
+**The order lives in the reader, not the templates.** `SECTION_ORDER` sorts every article, so a template move changes only the no-JS page,
+which already ended in the guide on 343 of 350 pages. In the app the guide was section 5 of 8. A DOM move survives idle and a resize, then
+snaps back when a section closes, because `syncSections` re-sorts from `this.sections`. 1,011 built Transition files share the section id,
+so the rank is limited to `/Submissions/` paths.
+
+**What the pages say now.** The four top notices are gone, and 501px of repeated warning went with them on a phone. 574 attacker lines
+and 574 defender lines replace them: `Release immediately upon tap. Safety guide ↓` above Execution Steps on attacker pages and hubs, `Tap
+early and often. Safety guide ↓` above Defensive Options on defender pages and above Escape Paths on hubs. Both sentences were already live,
+in the notices they replace. No safety copy was written. The hub keeps a line per seat because its old notice spoke to both: the first
+draft carried only the attacker's, which left 130 to 188 of 287 hubs without "tap early".
+
+**The link was the trap.** A seat's guide lives on its hub, and `anchor()` searched only the fragments from the link's own page, so the
+link went dead. The study's real-mouse clicks had also missed, because a wrapped link's centre is not on the link. `anchor()` now falls back
+to every fragment, the seat's link names the hub so it also works with no JavaScript, and `article()` reads a link to the page's own hub as
+an anchor. The spec clicks the link's first client box.
+
+**Hyphens do not inherit here.** Quartz sets `hyphens:auto` on `a` and `p` themselves, so a rule on the blockquote did nothing. The first fix
+passed review and was caught by its own spec reading computed style. Under S2 b the rule's text sits in the `p` and the label in the `a`, so
+the rule is `.ng-section-body blockquote *`, and `hyphens-on-the-link-only` proves the `p` matters.
+
+**The real font is not in the harness.** `e2e/dsl.ts` stubs Google Fonts, so a journey lays out in a fallback face and cannot pin a break width.
+One test loads the real font after boot and fails if it did not load. It needs the network, so it is deliberately not `@curated`. Measured in
+Plus Jakarta Sans, in place, one page per seat:
+
+| Viewport | Attacker | Defender |
+|---:|---:|---:|
+| 320 | 2 | 2 |
+| 360 | 2 | 2 |
+| 375 | 2 | 2 |
+| 390 | 2 | 1 |
+| 412 | 2 | 1 |
+| 768 | 2 | 1 |
+| 1440 | 1 | 1 |
+
+The owner first saw `Release immediately upon tap ↓`, with the whole line as the link, one line from 360 on 6px side padding. He chose the
+labelled form, so the padding went back to 12px. No wording with both the rule and a separate label fits one line at 390: the rule is 242px
+and the shortest label 113px, in a 272px box.
+
+**S4 a: 17 deletions on 14 pages, no number moved.** Six Arm Triangle pages said "wait for the tap or feel the resistance fade". Six timing
+fields said "until tap or unconsciousness". The worst was Guillotine Choke from Guillotine Control: "Do not release or readjust once you feel
+the opponent's resistance diminishing". A reviewer counted 13 pages; the search of all 5,636 step fields found a 14th, Von Flue Choke from
+Side Control, whose timing said "Hold until tap or grip release" while its own text called a loosening grip a sign of unconsciousness. Darce
+Choke from Leg Drag got deletions only, which leaves its last step without a release sentence: adding one would be new wording.
+
+**One tap contradiction fixed, the rest listed.** Americana from Side Control's guide dropped "(minimum 2 taps)", against its own rule to
+release on the tap. 27 more pages state a minimum, and 9 cards teach it. Americana from 3-4 Mount marks "Hold until they tap twice" as a wrong
+trap answer while its guide says "minimum 2 taps". All of that stays in the K1 b clean-up.
+
+**A real race, left alone.** A reload onto the hash settles in one of two stable places 18px apart (5 of 14 runs at 1440), because a late layout
+moves the page after `anchor()` has scrolled. A click never does this. It is cosmetic, the fix would have cost bytes the set does not have, and
+the spec pins the claim within 24px with two controls.
+
+**Controls, on the own built tree:** 22 of 22 killed at an assertion, 0 test timeouts, a clean run before and after. A first attempt was
+stopped by hand: a missing link made the spec wait out its 240s timeout, which is no kill, so the click now fails first at "the line is a reader
+anchor". `defender-hub-leak` in `article_sections_mutants.mjs` targeted a line this change rewrote, which would have stopped a default run with
+110 controls behind it. It is repointed and killed against a green baseline.
+
+| Control | Named test that went red |
+|---|---|
+| `order-removed` | the guide is the last teaching section |
+| `order-all-pages` | a transition shares the section id |
+| `anchor-own-fragment-only` | the line's real click reaches the guide |
+| `hub-link-not-recognised` | the line's real click reaches the guide |
+| `hyphens-back` | a wrapped line never hyphenates |
+| `hyphens-on-the-link-only` | a wrapped line never hyphenates (the p, which holds the rule) |
+| `padding-narrower` | in the real font the lines take the shape the owner chose (Defender at 390) |
+| `label-glue-removed` | a wrapped line keeps its link whole |
+| `rule-inside-the-link` | the seat's line sits on its steps (only the label is a link) |
+| `seat-notice-back` | neither top notice survives |
+| `line-below-the-heading` | the seat's line sits on its steps |
+| `defender-given-attacker-rule` | the seat's line sits on its steps |
+| `two-taps-back` | neither top notice survives |
+| `seat-link-in-page-only` | without the app the seat's link still reaches the hub's guide |
+| `family-notice-back` | the hub carries each seat's line, and a family carries none |
+| `family-plain-rule` | the hub carries each seat's line, and a family carries none (the rule's own words) |
+| `hub-attacker-line-removed` | the hub carries each seat's line |
+| `hub-defender-line-removed` | the hub carries each seat's line |
+| `hub-attacker-link-dead` | the hub's own attacker line reaches the guide |
+| `hub-defender-link-dead` | the hub's own defender line reaches the guide |
+| `reload-does-not-anchor` | the line opens a closed guide, and a reload lands on it |
+| `reload-past-the-guide` | the line opens a closed guide, and a reload lands on it (the 24px tolerance) |
+
+**Bytes.** Deferred 506,740 to 506,808 of 506,817 B, +68: `reader.js` +25 and `reading.css` +43. No eager file moved. No ceiling moved.
+
+**CAPS1.** Accepted capture `af12071c744643ea8564a0619b4e5703` at `a99992434`, production accepted, verified against a frozen contract. 938
+content paths: 923 generated Markdown and 15 JSON records. App rows `reader.js` and `reading.css`, 2 of 14. `article_links` 192,205 to 193,229,
+which is 574 seat links, plus 2×287 for the hubs' second line, less 2×62 for family pages. No SEO floor moved. `#safety-considerations` left
+`Submissions/Achilles-Lock` and `Submissions/Rear-Naked-Choke`, approved as the direct effect of S3 a; only `--artifact-only` reaches that
+check, at deploy. The accepted U89 tree had been pruned for disk, so the contract proved its 75 files from p2b against the retained golden.
+
+**Gates.** `ci:validate` 25 of 25, `@curated` 752 of 752 on the own build before the capture, an independent review with no blocker: 15 records
+changed, all 1,201 numeric leaves identical.
+
+**Left behind on purpose:** the 3 md-only pages under `Cross Collar Choke/Finish` keep their old notice, because no JSON feeds them. 59 of the 62
+family pages hold finishing prose in a closed block with no line above it, the owner's S3 a, and `docs/Content.md` names that exception.

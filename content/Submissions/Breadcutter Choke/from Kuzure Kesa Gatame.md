@@ -92,9 +92,6 @@ description: "Master the Breadcutter Choke from Kuzure Kesa Gatame with expert c
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Breadcutter Choke from Kuzure Kesa Gatame targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Breadcutter Choke/from Kuzure Kesa Gatame/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, this choke functions as the apex of a multi-threat attack chain f
 - Keep chest low during the entire sequence to deny framing space to the free arm
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -258,6 +257,8 @@ Strategically, this choke functions as the apex of a multi-threat attack chain f
 
 - You feel fabric tightening against the back of your neck as the collar grip is being set and slack removed
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

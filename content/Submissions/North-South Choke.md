@@ -120,9 +120,6 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> North-South Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/North-South|North-South]]</strong> — North-South is the control POSITION, not the choke finished from it</p>
 </aside>

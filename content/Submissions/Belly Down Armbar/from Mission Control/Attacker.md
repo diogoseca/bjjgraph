@@ -10,8 +10,6 @@ description: "Master attacking with the belly down armbar from Mission Control. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from Mission Control targets the Elbow joint hyperextension and ulnar collateral ligament. Risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Executing the belly down armbar from Mission Control requires precise arm isolat
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Mission Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

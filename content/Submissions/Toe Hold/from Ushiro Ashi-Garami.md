@@ -92,9 +92,6 @@ description: "Master the toe hold finish from ushiro ashi-garami with complete g
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Ushiro Ashi-Garami targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Ushiro Ashi-Garami/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, the toe hold from ushiro serves as a critical secondary attack wh
 - Control the opponent's free leg with your outside leg to prevent them from using it to rotate and relieve pressure
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -260,6 +259,8 @@ Strategically, the toe hold from ushiro serves as a critical secondary attack wh
 
 - The attacker shifts their weight backward slightly as they prepare to load the grip with hip extension
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

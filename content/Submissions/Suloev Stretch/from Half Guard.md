@@ -95,9 +95,6 @@ description: "The Suloev Stretch from a rear tripod captures the elevated oppone
 <span class="meta-chip">35% success</span>
 </div>
 
-> [!danger] Safety
-> Suloev Stretch from Half Guard targets the Hamstring and posterior hip; knee at risk if the leg is twisted. Primary risk: Hamstring or tendon injury from forced extension. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Suloev Stretch from Rear Tripod</strong></p>
 </aside>
@@ -197,6 +194,8 @@ Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submiss
 - Release and support the landing: Let the ankle go immediately on a tap and help the partner return to a stable base.
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -262,6 +261,8 @@ Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submiss
 
 - The attacker arranges your leg so it extends in its natural line rather than rotating sideways at the knee.
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

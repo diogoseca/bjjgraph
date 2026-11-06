@@ -10,8 +10,6 @@ description: "Learn to attack the kneebar from toe hold control. Step-by-step gu
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Toe Hold Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -281,6 +279,8 @@ Executing the kneebar from toe hold control requires reading your opponent's def
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kneebar/from Toe Hold Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

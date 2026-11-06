@@ -10,8 +10,6 @@ description: "Learn to attack the Kimura from Kesa Gatame with expert grip trans
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Kesa Gatame targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking the Kimura from Kesa Gatame leverages the position's built-in arm isol
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

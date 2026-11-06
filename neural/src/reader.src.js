@@ -398,7 +398,9 @@ class Reader {
       for (const attr of ["href", "src", "poster"]) {
         const value = node.getAttribute(attr); if (!value) continue;
         const url = new URL(value, base);
-        if (attr === "href" && url.origin === base.origin && cleanPath(url.href) === path && url.hash) {
+        // S1 a: a seat's safety line names its hub's guide, so that link also works without the app. The
+        // reader shows that guide on the seat's own page, so a link to the page's own hub stays in place.
+        if (attr === "href" && url.origin === base.origin && [path, path.replace(ROLES, "")].includes(cleanPath(url.href)) && url.hash) {
           node.dataset.readerAnchor = decodeURIComponent(url.hash.slice(1));
           node.setAttribute(attr, path + url.hash);
         } else node.setAttribute(attr, url.href);
@@ -454,8 +456,7 @@ class Reader {
       // summaries, execution steps and outcomes, which must never leak across a
       // seat or stand in for an unauthored defender. Only shared safety is added.
       if (ROLES.test(this.path)) {
-        const safety = [...shared.querySelectorAll('[data-source-id="safety-considerations"],blockquote.callout.danger')];
-        shared.replaceChildren(...safety);
+        shared.replaceChildren(...shared.querySelectorAll('[data-source-id="safety-considerations"]'));
       }
       body.append(shared);
 
@@ -521,13 +522,13 @@ class Reader {
         else { range = null; parts.push({ node, source: article }); }
       }
     }
-    const buckets = new Map(), transition = /^\/Transitions\//.test(path);
+    const buckets = new Map(), transition = /^\/Transitions\//.test(path), submission = /^\/Submissions\//.test(path);
     const defender = /\/Defender$/.test(path), bottom = /\/Bottom$/.test(path), reference = /^\/(Learning|Systems)\//.test(path);
     const labels = Object.fromEntries(SECTION_TYPES);
     labels.recognition = transition ? "Recognize the transition" : "Recognize the attack";
     labels.setup = transition ? "Set up the transition" : "Set up the attack";
     if (/^\/Systems\//.test(path)) labels.prerequisites = "Is this for you?";
-    labels.options = /^\/Systems\//.test(path) ? "Coverage and limits" : position ? "Decisions from " + (bottom ? "bottom" : "top") : defender ? "Defensive options" : transition ? "Execution and counters" : /^\/Submissions\//.test(path) ? "Attacking options" : /^\/Learning\//.test(path) ? "In practice" : "Applications";
+    labels.options = /^\/Systems\//.test(path) ? "Coverage and limits" : position ? "Decisions from " + (bottom ? "bottom" : "top") : defender ? "Defensive options" : transition ? "Execution and counters" : submission ? "Attacking options" : /^\/Learning\//.test(path) ? "In practice" : "Applications";
     let ordinal = 0;
     for (const part of parts) {
       const n = part.node, heading = n.nodeType === 1 && n.querySelector("h2,h3,summary"), id = n.dataset?.sourceId || "";
@@ -575,7 +576,9 @@ class Reader {
     });
     const order = position ? POSITION_ORDER : SECTION_ORDER;
     const ordered = [...buckets.values()].sort((a, b) => {
-      const rank = x => order.includes(x.type) ? order.indexOf(x.type) : x.type === "related" ? 100 : x.type === "sources" && reference ? 101 : 50;
+      // S1 a (owner, 2026-11-06): on a submission the full guide is the last teaching section, before Related,
+      // and one line above the steps carries the rule. Transitions share the section id and keep their place.
+      const rank = x => submission && x.type === "safety" ? 99 : order.includes(x.type) ? order.indexOf(x.type) : x.type === "related" ? 100 : x.type === "sources" && reference ? 101 : 50;
       return rank(a) - rank(b);
     });
     this.sections = []; this.mediaSlot = null;
@@ -710,7 +713,8 @@ class Reader {
   anchor(hash, scope = this.root) {
     const id = decodeURIComponent(hash.replace(/^#/, ""));
     const fragments = scope.dataset?.sourcePath ? [...this.root.querySelectorAll("article[data-source-path]")].filter(a => a.dataset.sourcePath === scope.dataset.sourcePath) : [scope];
-    const node = fragments.map(f => f.querySelector('[data-source-id="' + CSS.escape(id) + '"]')).find(Boolean);
+    // The link's own source page answers first: ids repeat across pages. S1 a: a seat's guide lives in its hub's fragment.
+    const node = [...fragments, this.root].map(f => f.querySelector('[data-source-id="' + CSS.escape(id) + '"]')).find(Boolean);
     if (!node) return;
     node.tabIndex = -1;
     const section = node.closest(".ng-section-card");

@@ -10,8 +10,6 @@ description: "Learn to attack the Short Choke from Back Control. Step-by-step cr
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Short Choke from Back Control targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking with the Short Choke from Back Control requires methodical grip establ
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Short Choke/from Back Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

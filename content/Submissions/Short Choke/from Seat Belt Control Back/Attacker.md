@@ -10,8 +10,6 @@ description: "Learn to attack with the Short Choke from Seat Belt Control Back. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Short Choke from Seat Belt Control Back targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -265,6 +263,8 @@ The Short Choke from Seat Belt Control Back attacks the carotid arteries using t
 
 <section id="execution-steps" class="content-section">
 
+> Release immediately upon tap. [[Submissions/Short Choke/from Seat Belt Control Back#safety-considerations|Safety guide ↓]]
+
 ## Execution Steps
 
 <p class="section-subtitle">How do you execute Short Choke from Seat Belt Control Back step by step?</p>
@@ -274,7 +274,7 @@ The Short Choke from Seat Belt Control Back attacks the carotid arteries using t
 3. **Release over-arm and grip the far-side collar**: While maintaining under-arm control and hook pressure, release the over-arm from the seat belt configuration. Reach across the opponent's neck and grip the far-side lapel or collar material as close to the throat as possible. Use a deep four-finger grip inside the collar with thumb on the outside for maximum leverage. (Timing: 1-2 seconds for a decisive grip transition without hesitation)
 4. **Feed the lapel across the front of the throat**: Pull the gripped lapel material across the front of the opponent's throat, ensuring it passes below the chin and sits directly against the carotid arteries on both sides of the neck. The lapel should create a band of pressure across the front of the throat, not ride up onto the jaw or chin. (Timing: 1-2 seconds to position the lapel correctly across the arteries)
 5. **Secure the choking grip with the under-arm**: Bring the under-arm hand to grip the fed lapel on the near side of the neck, or grab your own wrist to create a reinforced choking structure. The goal is a compact cross-collar configuration where both hands are close to the neck with the lapel material trapped between your forearms and the opponent's throat. (Timing: 1-2 seconds to lock the secondary grip before opponent reacts)
-6. **Apply finishing pressure through body mechanics**: Expand your chest while pulling your elbows back toward your own ribs, creating a scissoring action with your forearms against the carotid arteries. Drive your hips forward into the opponent's lower back to prevent them from creating space. Maintain deep hook pressure throughout to prevent hip escape or turning. (Timing: 2-4 seconds of progressive squeeze until tap or unconsciousness)
+6. **Apply finishing pressure through body mechanics**: Expand your chest while pulling your elbows back toward your own ribs, creating a scissoring action with your forearms against the carotid arteries. Drive your hips forward into the opponent's lower back to prevent them from creating space. Maintain deep hook pressure throughout to prevent hip escape or turning. (Timing: 2-4 seconds of progressive squeeze until tap)
 7. **Maintain alignment through the finish**: Keep your body perpendicular to the opponent's spine throughout the finishing sequence. Resist the temptation to roll or shift position as this compromises choking angle. If the opponent bridges or twists, follow their movement with your hips and hooks while maintaining the collar pressure. The choke should tighten as they move. (Timing: Continuous until submission is achieved or position resets)
 
 

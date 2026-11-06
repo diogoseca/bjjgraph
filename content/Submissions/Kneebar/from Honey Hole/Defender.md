@@ -10,8 +10,6 @@ description: "Defend against the kneebar from Honey Hole in BJJ. Recognition cue
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Honey Hole targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -256,6 +254,8 @@ Defending the kneebar from Honey Hole requires recognizing the transition from h
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kneebar/from Honey Hole#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "Learn to attack the Bow and Arrow Choke from back control. Step-by
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Bow and Arrow Choke from Back Control targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking with the Bow and Arrow Choke from back control requires methodical gri
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Bow and Arrow Choke/from Back Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

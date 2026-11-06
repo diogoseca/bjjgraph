@@ -92,9 +92,6 @@ description: "Master the Short Choke from Back Control in BJJ. Learn cross-colla
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Short Choke from Back Control targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Short Choke/from Back Control/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, the Short Choke serves as a high-percentage complement to the Rea
 - Create attacking dilemmas by threatening both RNC and collar choke, forcing the defender to choose which to defend
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -258,6 +257,8 @@ Strategically, the Short Choke serves as a high-percentage complement to the Rea
 
 - Attacker's second hand releasing from underhook seatbelt position, indicating they are committing to dual collar grips for the choke
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

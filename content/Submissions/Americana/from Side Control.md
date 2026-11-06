@@ -92,9 +92,6 @@ description: "Master the Americana from Side Control in BJJ. Complete guide to s
 <span class="meta-chip">68% success</span>
 </div>
 
-> [!danger] Safety
-> Americana from Side Control targets the Shoulder joint (specifically rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Americana/from Side Control/Attacker|Play as Attacker]]
@@ -191,6 +188,8 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 - Keep the opponent's elbow close to their body and in front of their shoulder line for maximum control
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -258,6 +257,8 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 - Opponent begins walking their grip toward your head, repositioning your elbow in line with your shoulder to create the 90-degree angle
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -355,8 +356,8 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 **Tap Signals**:
 - Verbal tap (saying 'tap' or any verbal indication)
-- Physical hand tap on opponent or mat (minimum 2 taps)
-- Physical foot tap on mat (minimum 2 taps)
+- Physical hand tap on opponent or mat
+- Physical foot tap on mat
 - Any distress signal including unusual sounds or movements
 - Screaming or yelling
 - Rapid head shaking

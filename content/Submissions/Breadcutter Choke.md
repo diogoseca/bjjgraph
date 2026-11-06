@@ -131,9 +131,6 @@ description: "Master the Breadcutter Choke in BJJ. Devastating collar choke from
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Breadcutter Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Breadcutter Choke is a powerful gi-based blood choke that utilizes the opponent's own collar to create a devastating strangling mechanism. Executed primarily from turtle position, back control, or transitional positions, this technique creates immense pressure on both carotid arteries while simultaneously compressing the trachea. The name derives from the cutting action of the collar across the neck, similar to slicing bread. What makes the Breadcutter particularly effective is its ability to be applied from positions where the opponent believes they are relatively safe or defending other attacks.

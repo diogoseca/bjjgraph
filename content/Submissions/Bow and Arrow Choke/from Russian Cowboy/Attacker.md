@@ -10,8 +10,6 @@ description: "Complete attacking guide for the Bow and Arrow Choke from Russian 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Bow and Arrow Choke from Russian Cowboy targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -258,6 +256,8 @@ Attacking with the Bow and Arrow Choke from Russian Cowboy leverages the pre-exi
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Bow and Arrow Choke/from Russian Cowboy#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

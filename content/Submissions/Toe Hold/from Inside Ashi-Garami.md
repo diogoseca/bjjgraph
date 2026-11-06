@@ -92,9 +92,6 @@ description: "Master the toe hold from Inside Ashi-Garami. Complete guide to gri
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Inside Ashi-Garami targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Inside Ashi-Garami/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Inside Ashi-Garami provides a tactically valuable platform for the toe hold beca
 - Control the opponent's knee line with your outside leg hook to prevent them from rotating their knee away from the rotational force
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -258,6 +257,8 @@ Inside Ashi-Garami provides a tactically valuable platform for the toe hold beca
 
 - After defending a straight ankle lock attempt, the attacker does not release but instead adjusts their grip downward toward your foot - they are chaining to the toe hold
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

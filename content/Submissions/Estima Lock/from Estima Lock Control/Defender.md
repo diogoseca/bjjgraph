@@ -10,8 +10,6 @@ description: "Learn to defend against the Estima Lock finish from Estima Lock co
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Estima Lock from Estima Lock Control targets the Foot and ankle joints (dorsiflexion of foot). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -198,6 +196,8 @@ Defending the Estima Lock finish from an established control position is signifi
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Estima Lock/from Estima Lock Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

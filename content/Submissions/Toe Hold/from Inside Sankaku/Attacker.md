@@ -10,8 +10,6 @@ description: "Learn to attack the toe hold from Inside Sankaku with expert grip 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Inside Sankaku targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking the toe hold from Inside Sankaku requires maintaining your leg entangl
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Toe Hold/from Inside Sankaku#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

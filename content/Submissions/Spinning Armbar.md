@@ -120,9 +120,6 @@ description: "Master the Spinning Armbar in BJJ. Dynamic rotational submission t
 <span class="meta-chip">~60% avg</span>
 </div>
 
-> [!danger] Safety
-> Spinning Armbar targets the Elbow joint. Primary risk: Elbow hyperextension with ligament damage (UCL/MCL tears). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Spinning Armbar is a dynamic and versatile submission technique that targets the elbow joint through rotational movement. Unlike traditional static armbars, this technique involves spinning your entire body around the opponent's arm to create a finishing angle, making it particularly effective when standard armbar entries are defended or unavailable. The spinning motion generates momentum that can overcome defensive postures and creates multiple entry points from various positions including mount, guard, scrambles, and standing situations. This submission requires precise timing, spatial awareness, and fluid hip movement to execute successfully.

@@ -10,8 +10,6 @@ description: "How to defend against Rear Triangle Choke in BJJ. Recognition, esc
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Triangle Choke from Back Control targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -203,6 +201,8 @@ Defense against this submission requires understanding both the prevention phase
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Rear Triangle Choke/from Back Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "Recognize Buggy Choke from Buggy Choke and interrupt its required 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Buggy Choke from Buggy Choke targets the Neck. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -182,6 +180,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Buggy Choke/from Buggy Choke#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

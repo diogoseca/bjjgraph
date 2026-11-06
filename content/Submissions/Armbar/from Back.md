@@ -102,9 +102,6 @@ description: "Master the Armbar from Back Control in BJJ. Complete safety guide 
 <span class="meta-chip">29% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from Back targets the Elbow joint. Primary risk: Elbow hyperextension or dislocation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from Back/Attacker|Play as Attacker]]
@@ -205,6 +202,8 @@ The Armbar from Back Control represents one of the most devastating finishing se
 - Keep opponent's thumb pointing upward for proper elbow alignment
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -276,6 +275,8 @@ The Armbar from Back Control represents one of the most devastating finishing se
 
 - The attacker's weight shifts from directly behind you to angled on one side, with their hips rotating perpendicular to your spine
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

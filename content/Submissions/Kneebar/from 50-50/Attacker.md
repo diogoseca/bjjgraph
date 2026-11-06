@@ -10,8 +10,6 @@ description: "How to execute Kneebar from 50-50 in BJJ. Attacking perspective wi
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from 50-50 targets the Knee joint (hyperextension of knee ligaments). Risk: MCL/LCL ligament tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -307,6 +305,8 @@ This submission represents a critical component of modern leg lock systems and i
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kneebar/from 50-50#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

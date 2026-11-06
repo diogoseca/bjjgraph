@@ -1,26 +1,15 @@
 {
  "_meta": {
-  "app_provenance": {
-   "command": "npm run regenerate:neural",
-   "esbuild": "0.27.0",
-   "git_head": "38c06eb97689a8301770bf4ad432f8761952a93e",
-   "inputs": {
-    "tree": "e8e8e6ee998beec7e733c1e44fec8238906c5248"
-   },
-   "package_version": "1.251.0",
-   "rows_from": "neural/dist",
-   "schema": "app-assets-rebuild-v2"
-  },
-  "capture_tree": "/home/user/bjj-orchestrator/scratch/article-order/capture/capu89-48417c315/pr-cut-study-guides-48417c315",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/safety-last/capture/caps1-a99992434/pr-safety-last-a99992434",
   "content_provenance": {
-   "capture_git_head": "48417c3158194cf02e6a19103a778f3b4e0f14d9",
-   "capture_id": "702e96b73b5641aea5c00039086b2506",
+   "capture_git_head": "a99992434de2ef2d41641b2125a79ec15c5f5734",
+   "capture_id": "af12071c744643ea8564a0619b4e5703",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6331,
    "content_md": 4549,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "2d9b0945f5cee609badcddf588f50a36be4aab86",
+   "content_tree": "84560ee2ef57c76d302d453a6f117502c1d6011c",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -45,11 +34,11 @@
    },
    "output_identity": {
     "files": 15827,
-    "sha256": "90c211ebea6df9e3197203c0f55982d0c09c832f800dff2b6d0ef84a189cd9a1"
+    "sha256": "adef659bcf2dc5b47201147cce9f7d047cc6cb8af5373fcf2fdf0474f70752d8"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/article-order/capture/capu89-48417c315/pr-cut-study-guides-48417c315"
+    "/home/user/bjj-orchestrator/scratch/safety-last/capture/caps1-a99992434/pr-safety-last-a99992434"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -66,21 +55,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "595b3cd2af8d604ee9033af360a0db9296beb9898ebe0968fde32523759d8dbe"
+    "sha256": "1040069b6d3b866ff00826ab3ee81e86821e0c56ce47eb5f53b4e08772e52516"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78734,
-    "sha256": "f14016649e17c2324184c1727a53eb9281fc3b4235b8bf3406a19199b67587f1",
+    "sha256": "d7ab900fce76e41caab674393127592b47c634a6ab3e2afef9a8a51a80cba7bd",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "f69a26b192326b07e446c1ab9c45e84ad9dab2a282f74eb4b9e525c33c7ccff0",
+    "sha256": "55c6745a2cc7d458e2bc18b96c023a37f6d7a8218c062f67be8501b67d30e521",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 28182,
-    "sha256": "80786d15156eb963797da5eb82aee4604a073dbe3fd29b4395c89d1452f173d6",
+    "sha256": "424ae59ce17252f3173da63672b88f6f640981b001e9693b273904968dd2dc68",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-27979b05ebdc3ec898c90f78b5fa61c0f4bb63f9d92f30916a01920f3da4fde1.js": {
@@ -100,17 +89,17 @@
     "sha256": "7a5faf4870c12bc8ee5caa757c112139cf9ccf50792c0b617792b7e7ce36241b"
    },
    "static/neural/app/neural.js": {
-    "bytes": 681648,
-    "sha256": "94f5dc17af33c919c0e1a51810cc28687f60b4b7ea620668fb2e521de984123a",
+    "bytes": 681528,
+    "sha256": "92ff3edc6204c5959a01811cdb6d8c42b8a87e6995be22b172a09520ba6bd340",
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
-    "bytes": 42218,
-    "sha256": "17f5a3be7f977c8900fe6ba3b5279a8318cba3e0d772c1302e0b342739d4bd18"
+    "bytes": 42552,
+    "sha256": "7ab8f72e5cb11cc68b7a85ea4daa24a6bffabcdedc7c0a13df5619a4f71dcf83"
    },
    "static/neural/app/reading.css": {
-    "bytes": 11117,
-    "sha256": "2ef505e8f564172158d20f4f9ccf4e482a5825b7e2cc795c530b6164ec4260fc"
+    "bytes": 10859,
+    "sha256": "a4e5858e4aa525ebb72fff2bc7a5878d011e1451617d52fd612ef5562c1389e6"
    },
    "static/neural/app/reference.css": {
     "bytes": 15146,
@@ -171,7 +160,7 @@
  },
  "census": {
   "article_headings": 89743,
-  "article_links": 192205,
+  "article_links": 193229,
   "files": 15827,
   "gzip_files": 1,
   "head_links": 49199,

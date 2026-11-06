@@ -92,9 +92,6 @@ description: "Learn the Estima Lock from Saddle position with expert finishing m
 <span class="meta-chip">55% success</span>
 </div>
 
-> [!danger] Safety
-> Estima Lock from Saddle targets the Foot and ankle joints (forced dorsiflexion targeting tarsometatarsal and ankle ligaments). Primary risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Estima Lock/from Saddle/Attacker|Play as Attacker]]
@@ -191,6 +188,8 @@ Strategically, the Estima Lock from Saddle occupies a critical role in modern le
 - Recognize that the Estima Lock and heel hook form a self-defending submission pair from Saddle
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -260,6 +259,8 @@ Strategically, the Estima Lock from Saddle occupies a critical role in modern le
 
 - You feel the attacker's armpit or chest contact the top of your foot while the Saddle entanglement remains locked
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

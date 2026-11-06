@@ -102,9 +102,6 @@ description: "Master the calf slicer from twister control in BJJ. Learn setup me
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer from Twister Control targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Calf Slicer/from Twister Control/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 - Keep your hips heavy and base stable to prevent the defender from rolling or scrambling free during the transition
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -276,6 +275,8 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 
 - Opponent adjusting their hip angle to create better leverage for positioning the shin as a fulcrum
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

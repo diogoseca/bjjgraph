@@ -10,8 +10,6 @@ description: "Learn to execute the Rear Naked Choke from Harness. Step-by-step g
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Harness targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Executing the Rear Naked Choke from Harness requires patience and systematic gri
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Harness#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

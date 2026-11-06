@@ -121,9 +121,6 @@ description: "Master the Baseball Bat Choke in BJJ. Devastating collar choke fro
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Baseball Bat Choke targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Baseball Choke</strong></p>
 </aside>

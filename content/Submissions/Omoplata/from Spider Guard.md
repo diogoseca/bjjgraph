@@ -82,9 +82,6 @@ description: "Master the Omoplata from Spider Guard in BJJ. Complete guide cover
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Omoplata from Spider Guard targets the Shoulder. Primary risk: Shoulder dislocation or subluxation from excessive rotational force on the glenohumeral joint. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/from Spider Guard/Attacker|Play as Attacker]]
@@ -172,6 +169,8 @@ Strategically, the omoplata from spider guard creates a powerful dilemma: oppone
 - Use progressive hip extension to apply the finishing pressure rather than jerking or cranking the shoulder
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -243,6 +242,8 @@ Strategically, the omoplata from spider guard creates a powerful dilemma: oppone
 
 - Opponent begins sitting up aggressively while their leg is draped across the back of your neck and shoulder
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

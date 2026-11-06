@@ -82,9 +82,6 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Electric Chair from Deep Half Guard targets the Knee joint, hip flexors, and posterior chain. Primary risk: Medial collateral ligament (MCL) sprain or tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Electric Chair/from Deep Half Guard/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ Historically developed and refined within the 10th Planet system, the Electric C
 - Submission and sweep synergy - the threat of the submission often facilitates sweep completion as opponent defends
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -246,6 +245,8 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 - Opponent's head moves toward the mat away from you as they commit to the inverted finishing position
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

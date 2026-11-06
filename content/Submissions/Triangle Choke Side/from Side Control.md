@@ -82,9 +82,6 @@ description: "Master Triangle Choke Side from top position in BJJ. Complete safe
 <span class="meta-chip">59% success</span>
 </div>
 
-> [!danger] Safety
-> Triangle Choke Side from Side Control targets the Carotid arteries and jugular veins. Primary risk: Carotid artery compression causing unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Triangle Choke Side/from Side Control/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 - Squeeze knees together, not just legs - the finishing pressure comes from bringing knees toward each other while maintaining the lock, creating circumferential compression
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -242,6 +241,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 - Attacker's leg crosses over the back of your neck and their shin settles across your cervical spine while they reach for their own ankle or knee to establish the figure-four lock
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

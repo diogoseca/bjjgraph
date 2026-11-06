@@ -82,9 +82,6 @@ description: "Learn the Arm Triangle from Twister Side Control in BJJ. Complete 
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Arm Triangle from Twister Side Control targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm Triangle/from Twister Side Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ The position integrates naturally into the Twister Side Control attack chain alo
 - Keep your head low and glued to the mat on the far side of opponent's head to seal the choke and prevent frame escapes
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ The position integrates naturally into the Twister Side Control attack chain alo
 
 - The attacker's head drops low to the mat on the far side of your head as they settle into the finishing position
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

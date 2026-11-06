@@ -82,9 +82,6 @@ description: "Master the kneebar from Saddle position in BJJ. Expert guide cover
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Saddle targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Primary risk: Posterior cruciate ligament (PCL) tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Saddle/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ Safety awareness is paramount when training this technique. The combination of t
 - Apply finishing pressure over a minimum of 5-7 seconds in training - the knee has minimal tolerance between safe pressure and catastrophic injury
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ Safety awareness is paramount when training this technique. The combination of t
 
 - Opponent's free leg pushes against your chest or shoulder to create distance while they simultaneously tighten their prayer grip around your ankle and begin subtle hip extension
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

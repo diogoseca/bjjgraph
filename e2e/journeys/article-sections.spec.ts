@@ -66,7 +66,7 @@ for (const path of [
         const shown = fragments.map(e => norm(e.textContent)).join(' ')
         const guide = fragments.some(e => e.getAttribute('data-reader-article') === 'guide')
         const source = doc.querySelector('article')!
-        const selected = guide || !/\/(Top|Bottom|Attacker|Defender)$/.test(root.getAttribute('data-reader-path')!) ? [source] : [...source.querySelectorAll('#safety-considerations,blockquote.callout.danger')]
+        const selected = guide || !/\/(Top|Bottom|Attacker|Defender)$/.test(root.getAttribute('data-reader-path')!) ? [source] : [...source.querySelectorAll('#safety-considerations')]
         for (const container of selected) for (const leaf of container.querySelectorAll('p,li,th,td')) {
           if (!/^\/(Principles|Learning|Systems)\//.test(root.getAttribute('data-reader-path')!) && leaf.closest('#film-study,#official-preview')) continue
           // A position's Overview is cut into tiles at sentence ends (owner, 2026-11-01), and the template's wikilink
@@ -86,9 +86,10 @@ for (const path of [
     expect(proof.count).toBeGreaterThan(2)
     expect(new Set(proof.ids).size).toBe(proof.ids.length)
     expect(proof.horizontalTabs).toBe(0)
-    // Positions read in the owner's order (2026-11-01): article-order.spec.ts. Everything else keeps this one.
+    // Positions read in the owner's order (2026-11-01): article-order.spec.ts. Everything else keeps this one, except that
+    // S1 a (owner, 2026-11-06): a submission's guide leaves this order and goes last; safety-line.spec.ts pins it.
     const main = /^\/Positions\//.test(path) ? ['videos', 'aka', 'confused', 'definition', 'principles', 'options', 'safety', 'mistakes', 'statistics', 'overview', 'prerequisites', 'training']
-      : ['videos', 'overview', 'principles', 'recognition', 'setup', 'prerequisites', 'options', 'safety', 'mistakes']
+      : ['videos', 'overview', 'principles', 'recognition', 'setup', 'prerequisites', 'options', ...(path.startsWith('/Submissions/') ? [] : ['safety']), 'mistakes']
     const actual = proof.types.filter(t => main.includes(t!))
     expect([...new Set(actual)]).toEqual(main.filter(t => proof.types.includes(t)))
     if (proof.types.includes('related')) expect(proof.types.slice(proof.types.indexOf('related'))).toEqual(proof.reference && proof.types.includes('sources') ? ['related', 'sources'] : ['related'])

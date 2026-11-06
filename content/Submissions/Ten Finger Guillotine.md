@@ -131,9 +131,6 @@ description: "Master the Ten Finger Guillotine in BJJ. Comprehensive guide cover
 <span class="meta-chip">~62% avg</span>
 </div>
 
-> [!danger] Safety
-> Ten Finger Guillotine targets the Carotid arteries and trachea. Primary risk: Trachea damage from excessive crushing pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an interlocking grip with all ten fingers, creating tremendous squeezing power around the opponent's neck. Unlike the traditional guillotine which uses a gable or arm-in configuration, the ten finger variation employs both hands clasped together with fingers interlaced, allowing for maximum compression of the carotid arteries. This submission is particularly effective in no-gi grappling where hand-fighting and grip transitions happen rapidly. The choke can be applied from standing positions during scrambles, from guard pulls, or when defending takedown attempts. The ten finger grip provides exceptional control even against sweaty or slippery opponents, making it a reliable finishing option across all skill levels.

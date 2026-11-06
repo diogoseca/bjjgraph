@@ -82,9 +82,6 @@ description: "Master the Rear Naked Choke from Rodeo Ride in BJJ. Complete guide
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Rodeo targets the Neck. Primary risk: Loss of consciousness from sustained compression of carotid arteries cutting blood supply to the brain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Rodeo/Attacker|Play as Attacker]]
@@ -174,6 +171,8 @@ This submission represents a high-level integration of positional control and fi
 - Maintain hip pressure and leg positioning throughout the finish to prevent the opponent from rolling, standing, or creating defensive space
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -243,6 +242,8 @@ This submission represents a high-level integration of positional control and fi
 
 - Sudden increase in hip pressure pinning your lower body as the opponent stabilizes their base for the finishing squeeze
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

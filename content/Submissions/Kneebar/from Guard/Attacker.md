@@ -10,8 +10,6 @@ description: "How to execute Kneebar from Guard in BJJ. Attacking perspective wi
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Guard targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear or rupture. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -296,6 +294,8 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kneebar/from Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

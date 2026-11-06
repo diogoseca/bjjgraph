@@ -132,9 +132,6 @@ description: "Master the Calf Slicer in BJJ. Complete guide with safety protocol
 <span class="meta-chip">~50% avg</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Calf Crusher</strong>, <strong>Calf Cutter</strong></p>
 </aside>

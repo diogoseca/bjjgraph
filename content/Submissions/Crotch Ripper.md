@@ -109,9 +109,6 @@ description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submis
 <span class="meta-chip">~42% avg</span>
 </div>
 
-> [!danger] Safety
-> Crotch Ripper targets the Hip flexors, groin muscles, and inner thigh adductors. Primary risk: Groin strain or muscle tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 As the offensive counterpart to the Electric Chair within the 10th Planet Jiu-Jitsu system, the Crotch Ripper transforms the lockdown's leg entanglement into a direct attack on the hips and groin rather than a purely defensive hold. This technique applies intense pressure to the opponent's groin, hip flexors, and inner thigh muscles through a combination of lockdown control and strategic knee positioning. Unlike traditional joint locks that target specific joints, the Crotch Ripper creates a painful compression that forces the opponent to tap due to muscular strain rather than joint damage. The submission is particularly effective in no-gi grappling where the lockdown can be secured without gi grips interfering with leg positioning.

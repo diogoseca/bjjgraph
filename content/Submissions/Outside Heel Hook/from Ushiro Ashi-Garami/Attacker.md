@@ -10,8 +10,6 @@ description: "Learn to attack the outside heel hook from ushiro ashi-garami with
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Outside Heel Hook from Ushiro Ashi-Garami targets the Knee joint, ankle joint, and surrounding ligaments. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -225,6 +223,8 @@ Attacking the outside heel hook from ushiro ashi-garami requires adapting standa
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Outside Heel Hook/from Ushiro Ashi-Garami#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

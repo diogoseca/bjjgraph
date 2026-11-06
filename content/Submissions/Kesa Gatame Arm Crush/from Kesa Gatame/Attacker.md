@@ -10,8 +10,6 @@ description: "Execute the Kesa Gatame Arm Crush submission. Step-by-step guide c
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kesa Gatame Arm Crush from Kesa Gatame targets the Elbow/Forearm. Risk: Elbow hyperextension or dislocation from excessive pressure against the fulcrum point. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -225,6 +223,8 @@ Executing the Kesa Gatame Arm Crush requires precise arm isolation and hip posit
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

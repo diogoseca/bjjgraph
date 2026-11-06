@@ -10,8 +10,6 @@ description: "Learn to attack the omoplata from De La Riva Guard with DLR leg sw
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from De La Riva Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -324,6 +322,8 @@ Attacking the omoplata from De La Riva Guard requires reading the opponent's wei
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Omoplata/from De La Riva Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

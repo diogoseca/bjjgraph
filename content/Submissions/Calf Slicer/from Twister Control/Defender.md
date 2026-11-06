@@ -10,8 +10,6 @@ description: "Defend against the calf slicer from twister control. Recognition c
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Twister Control targets the Calf muscle and Achilles tendon. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -231,6 +229,8 @@ Defending against the calf slicer from twister control is exceptionally challeng
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Calf Slicer/from Twister Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

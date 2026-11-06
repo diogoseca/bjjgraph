@@ -76,9 +76,6 @@ description: "Master the Achilles Lock leg submission in BJJ. Complete guide cov
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Achilles Lock targets the Achilles tendon and ankle joint. Primary risk: Achilles tendon rupture or tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Straight Ankle Lock|Straight Ankle Lock]]</strong> — the Straight Ankle Lock hyperextends the ankle joint rather than compressing the tendon</p>
 </aside>

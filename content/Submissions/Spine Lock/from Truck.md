@@ -61,9 +61,6 @@ description: "Master the Spine Lock submission in BJJ. Advanced spinal compressi
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Spine Lock from Truck targets the Lumbar spine, thoracic vertebrae, spinal column. Primary risk: Lumbar spine strain or disc herniation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Spine Lock/from Truck/Attacker|Play as Attacker]]
@@ -131,6 +128,8 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 
 - Position over submission - never sacrifice control for finishing pressure
 
+
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -201,6 +200,8 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 
 - Sensation of your spine being forced into hyperextension or increased curvature in the lower back region, accompanied by restricted ability to breathe deeply
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

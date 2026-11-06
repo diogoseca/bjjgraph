@@ -131,9 +131,6 @@ description: "Master the Rear Triangle Choke in BJJ. Complete guide to finishing
 <span class="meta-chip">~50% avg</span>
 </div>
 
-> [!danger] Safety
-> Rear Triangle Choke targets the Neck. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 Among back attacks, the rear triangle occupies a singular niche: it converts the positional dominance of rear mount into a self-tightening leg lock while freeing both hands for supplementary control, grip fighting, or posture manipulation. This makes it one of the highest-percentage finishing sequences available from back control, marrying skeletal compression with the same triangle mechanics fighters already know from the guard. The posterior angle of attack is what sets it apart from front-facing triangle variations, since the choke seals the carotids from behind and renders traditional chin defense largely ineffective.

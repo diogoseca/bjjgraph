@@ -10,8 +10,6 @@ description: "How to defend against Rolling Omoplata in BJJ. Recognition, escape
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rolling Omoplata from Omoplata Control targets the Shoulder joint and rotator cuff. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -274,6 +272,8 @@ Defending the Rolling Omoplata requires understanding that this submission devel
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

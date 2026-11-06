@@ -82,9 +82,6 @@ description: "Master the Kimura shoulder lock from Lasso Guard top position. Lea
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Lasso Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Lasso Guard/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 - Rotate the captured arm toward the mat behind the opponent's hip line using your entire body, not just arm strength
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -238,6 +237,8 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 
 - The top player's posture shifts from an upright guard passing stance to a low, compressed position focused on controlling your arm rather than addressing your legs
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

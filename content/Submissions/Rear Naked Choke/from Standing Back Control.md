@@ -82,9 +82,6 @@ description: "Master the rear naked choke from standing back control in BJJ. Com
 <span class="meta-chip">65% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Standing Back Control targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Standing Back Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ At the competition level, standing back control finishes appear frequently in bo
 - Be prepared to finish during the transition to ground — the descent often creates the best finishing window
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -238,6 +237,8 @@ At the competition level, standing back control finishes appear frequently in bo
 
 - Opponent adjusts their head position to the choking side and their breathing pattern changes, indicating commitment to the finish
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

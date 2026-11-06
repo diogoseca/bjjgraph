@@ -10,8 +10,6 @@ description: "Learn to execute the kneebar finish from established kneebar contr
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Kneebar Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -258,6 +256,8 @@ Attacking with the kneebar from kneebar control requires methodical execution th
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kneebar/from Kneebar Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

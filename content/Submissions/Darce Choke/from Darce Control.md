@@ -82,9 +82,6 @@ description: "Master the Darce Choke finish from Darce Control position. Learn g
 <span class="meta-chip">44% success</span>
 </div>
 
-> [!danger] Safety
-> Darce Choke from Darce Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Darce Choke/from Darce Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ From a strategic standpoint, the Darce finish from established control carries a
 - Continuous micro-adjustments: small positional changes in response to defensive movement keep tightening the choke rather than maintaining static pressure
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ From a strategic standpoint, the Darce finish from established control carries a
 
 - Opponent's hip begins dropping toward the mat on the choking side, signaling commitment to the finishing sequence
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

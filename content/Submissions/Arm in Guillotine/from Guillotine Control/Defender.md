@@ -10,8 +10,6 @@ description: "Learn to defend and escape the arm-in guillotine from guillotine c
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm in Guillotine from Guillotine Control targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -232,6 +230,8 @@ Defending the arm-in guillotine from guillotine control is one of the most urgen
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Arm in Guillotine/from Guillotine Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

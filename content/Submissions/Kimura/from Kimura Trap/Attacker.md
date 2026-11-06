@@ -10,8 +10,6 @@ description: "Learn to finish the Kimura from Kimura Trap as the attacker. Step-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Kimura Trap targets the Shoulder joint (glenohumeral) and elbow. Risk: Shoulder dislocation (glenohumeral subluxation or full anterior dislocation). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Executing the Kimura from Kimura Trap means finishing a shoulder lock from under
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from Kimura Trap#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

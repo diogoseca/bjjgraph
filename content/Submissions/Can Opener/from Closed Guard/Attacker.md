@@ -10,8 +10,6 @@ description: "How to execute Can Opener in BJJ. Attacking perspective with setup
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Can Opener from Closed Guard targets the Cervical spine and neck muscles. Risk: Cervical spine compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -297,6 +295,8 @@ The Can Opener attack is documented here strictly for educational and defensive 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Can Opener/from Closed Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

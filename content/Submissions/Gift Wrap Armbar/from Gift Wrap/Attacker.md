@@ -10,8 +10,6 @@ description: "Master attacking the Gift Wrap Armbar in BJJ. Learn arm isolation 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Gift Wrap Armbar from Gift Wrap targets the Elbow joint. Risk: Elbow hyperextension causing damage to the ulnar collateral ligament, radial collateral ligament, or joint capsule. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ The Gift Wrap Armbar from the attacker's perspective demands precise coordinatio
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Gift Wrap Armbar/from Gift Wrap#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

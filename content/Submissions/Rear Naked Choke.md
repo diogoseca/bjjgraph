@@ -133,9 +133,6 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
 <span class="meta-chip">~65% avg</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Mata Leão</strong>, <strong>Mata Leao</strong>, <strong>Hadaka Jime</strong>, <strong>RNC</strong>, <strong>Sleeper Hold</strong></p>
 </aside>

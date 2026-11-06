@@ -131,9 +131,6 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
 <span class="meta-chip">~41% avg</span>
 </div>
 
-> [!danger] Safety
-> Anaconda Choke targets the Carotid arteries and trachea. Primary risk: Loss of consciousness from carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Darce Choke|Darce Choke]]</strong> — the D&#39;Arce threads under the opponent&#39;s near arm — opposite arm threading</p>
 </aside>

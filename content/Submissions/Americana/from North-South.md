@@ -102,9 +102,6 @@ description: "Master the Americana shoulder lock from North-South position. Comp
 <span class="meta-chip">68% success</span>
 </div>
 
-> [!danger] Safety
-> Americana from North-South targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Americana/from North-South/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ Strategically, this submission functions as a natural chain attack from North-So
 - Monitor the defender's far arm throughout the attack to prevent them from establishing counter-grips or defensive frames
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -276,6 +275,8 @@ Strategically, this submission functions as a natural chain attack from North-So
 
 - Your arm feels increasingly trapped with limited ability to retract toward your body as the attacker's ribcage weight settles over your elbow joint
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

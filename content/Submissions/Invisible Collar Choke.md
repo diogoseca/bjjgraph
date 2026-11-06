@@ -61,9 +61,6 @@ description: "The bottom Invisible Collar holder applies the vascular choke from
 <span class="meta-chip">25% success</span>
 </div>
 
-> [!danger] Safety
-> Invisible Collar Choke targets the Neck. Primary risk: Neck injury from excessive pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Invisible Collar Choke/Attacker|Play as Attacker]]
@@ -134,6 +131,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Unload the neck at the first signal: Stop at a hand tap, foot tap, verbal signal or distress. Remove choke pressure before opening the legs.
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -197,6 +196,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 - Keep both raised knees supported through the hip angle while maintaining the enclosure.
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

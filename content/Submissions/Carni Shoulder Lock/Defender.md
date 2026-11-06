@@ -10,8 +10,6 @@ description: "Recognize Carni Shoulder Lock and interrupt its required connectio
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Carni Shoulder Lock targets the Shoulder joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -182,6 +180,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Carni Shoulder Lock#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

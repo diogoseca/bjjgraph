@@ -82,9 +82,6 @@ description: "Master the heel hook from Inside Ashi-Garami with expert finishing
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Heel Hook from Inside Ashi-Garami targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Heel Hook/from Inside Ashi-Garami/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ This submission carries extreme injury risk due to the knee's limited rotational
 - Keep chest connected to the trapped leg to prevent space creation - any gap between your torso and their leg allows defensive movement and grip stripping
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ This submission carries extreme injury risk due to the knee's limited rotational
 
 - Hip elevation and bridge movement from the attacker combined with rotational pressure on your heel, indicating active finishing torque is being applied to your knee joint
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -120,9 +120,6 @@ description: "Master the Short Choke in BJJ. Devastating lapel strangle from top
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Short Choke targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 As a gi-based blood choke, the Short Choke is prized for finishing from dominant top and back control — side control, north-south, and from the back — when there is too little space for the deeper grips that traditional collar chokes demand. Unlike traditional collar chokes that require deep grips, the Short Choke capitalizes on minimal space and opponent defensive reactions. The technique involves threading your own lapel or the opponent's lapel behind their neck while maintaining superior top position control, then applying pressure through a combination of wrist rotation and shoulder pressure.

@@ -132,9 +132,6 @@ description: "Master the Ezekiel Choke in BJJ. Complete guide to sleeve-based bl
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Ezekiel Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Sode Guruma Jime</strong>, <strong>Ezequiel Choke</strong></p>
 </aside>

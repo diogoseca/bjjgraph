@@ -10,8 +10,6 @@ description: "Suloev Stretch from Rear Tripod (defender): A hand reaching from y
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Suloev Stretch from Half Guard targets the Hamstring and posterior hip; knee at risk if the leg is twisted. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -219,6 +217,8 @@ Before an ankle is captured, rebuilding base brings the elbows beside the ribs a
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Suloev Stretch/from Half Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

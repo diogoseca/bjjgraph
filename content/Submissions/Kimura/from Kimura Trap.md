@@ -82,9 +82,6 @@ description: "Master the Kimura from Kimura Trap in BJJ. Complete guide to finis
 <span class="meta-chip">38% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Kimura Trap targets the Shoulder joint (glenohumeral) and elbow. Primary risk: Shoulder dislocation (glenohumeral subluxation or full anterior dislocation). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Kimura Trap/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 - Apply the finish with slow progressive pressure in a smooth arc motion, never jerking or spiking the arm behind the opponent's back
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 - Opponent's hips lower and create downward rotational pressure on your shoulder that was not present during the control phase
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

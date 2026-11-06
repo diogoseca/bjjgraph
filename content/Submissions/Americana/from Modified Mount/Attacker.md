@@ -10,8 +10,6 @@ description: "Step-by-step guide to finishing the Americana from Modified Mount.
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Modified Mount targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Executing the Americana from Modified Mount leverages the position's asymmetric 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Americana/from Modified Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

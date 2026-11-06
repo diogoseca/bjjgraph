@@ -92,9 +92,6 @@ description: "Master the belly down armbar finish from mounted crucifix. Learn p
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Belly Down Armbar from Mounted Crucifix targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Belly Down Armbar/from Mounted Crucifix/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, this submission chains naturally with other mounted crucifix atta
 - Control the opponent's shoulder rotation by pressing your belly weight onto the back of their trapped arm
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -258,6 +257,8 @@ Strategically, this submission chains naturally with other mounted crucifix atta
 
 - Attacker's weight shifts off your centerline toward the side of the targeted arm
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

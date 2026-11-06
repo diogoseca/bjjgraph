@@ -102,9 +102,6 @@ description: "Master the Omoplata from Butterfly Guard. Learn hook elevation ent
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Omoplata from Butterfly Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/from Butterfly Guard/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 - Chain the omoplata entry with butterfly sweep threats to create dilemmas that force defensive reactions opening the submission
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -272,6 +271,8 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 
 - Opponent's grip shifts from standard sweep-oriented collar or underhook control to targeting your far hip or belt for post-entry anchoring
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

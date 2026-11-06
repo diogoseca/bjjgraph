@@ -147,7 +147,7 @@ const mutants = [
   ['collapsed-contrast', sections, 'contents and header targets at 390x844', s => s,
     css => css + '\n.ng-reader .ng-section-card[data-collapsed=true] [data-section-toggle]{color:#555b68!important}\n'],
   ['game-collapsed-contrast', sections, 'D-338 1024px', s => s, css => css + '\n.ng-reader-closed-part [data-game-open]{color:#555b68!important}\n'],
-  ['defender-hub-leak', contract, 'defender reading excludes.*Rear-Naked-Choke', s => replace(s, 'shared.replaceChildren(...safety);', '/* mutant: keep the full attacker-rich hub */')],
+  ['defender-hub-leak', contract, 'defender reading excludes.*Rear-Naked-Choke', s => replace(s, `shared.replaceChildren(...shared.querySelectorAll('[data-source-id="safety-considerations"]'));`, '/* mutant: keep the full attacker-rich hub */')],
   ['stale-response', contract, 'a late response cannot repaint', s => replace(replace(s, 'this.abort?.abort();', '/* mutant: no abort */'), 'if (serial !== this.serial || this.app.__ngDestroyed) return;', 'if (this.app.__ngDestroyed) return;')],
   ['toc-current-targets', contract, 'a late response cannot repaint', s => replace(s, 'row.append(link, eyeOff()); contents.append(row);', 'if (section.type === "options") { link.textContent = "Decisions from bottom"; link.dataset.sectionLink = "stale-bottom"; } row.append(link, eyeOff()); contents.append(row);')],
   ['reference-videos-removed', seam, 'published reference videos remain playable.*Principles/Frames', s => replace(s, 'if (REFERENCE.test(path) && source)', 'if (false)')],

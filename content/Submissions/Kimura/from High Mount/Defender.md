@@ -10,8 +10,6 @@ description: "Defend the Kimura from High Mount with early recognition cues, gri
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from High Mount targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -200,6 +198,8 @@ Timing is critical because the top-down angle makes late-stage Kimura defense fa
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kimura/from High Mount#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

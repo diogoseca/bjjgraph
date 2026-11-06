@@ -92,9 +92,6 @@ description: "Master the Kimura shoulder lock from Quarter Guard top. Expert gui
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Quarter Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Quarter Guard/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 - Attack the arm during transitions—the moment the bottom player extends for an underhook or frame is the highest-percentage entry window
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -258,6 +257,8 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 
 - Opponent abandons passing momentum and redirects attention specifically to controlling and isolating your near arm
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

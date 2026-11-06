@@ -10,8 +10,6 @@ description: "Learn to attack the omoplata from armbar control position. Step-by
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Armbar Control targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking the omoplata from armbar control requires recognizing the precise mome
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Omoplata/from Armbar Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

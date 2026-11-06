@@ -82,9 +82,6 @@ description: "Master Far Side Armbar from top positions. Complete guide with saf
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Far Side Armbar from Side Control targets the Elbow joint (hyperextension). Primary risk: Elbow hyperextension (ligament damage). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Far Side Armbar/from Side Control/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ This submission appears frequently in both gi and no-gi competition at all level
 - Control the opponent's head or near arm to prevent defensive turns
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -246,6 +245,8 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 - You feel your far arm being clamped tightly against the attacker's chest with their elbow squeezing to their ribs
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

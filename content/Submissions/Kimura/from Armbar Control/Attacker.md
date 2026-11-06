@@ -10,8 +10,6 @@ description: "Learn to attack with the Kimura from Armbar Control. Step-by-step 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Armbar Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking with the Kimura from Armbar Control requires recognizing the precise m
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from Armbar Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

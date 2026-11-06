@@ -82,9 +82,6 @@ description: "Master the Bow and Arrow Choke from Truck. Learn collar grip setup
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Bow and Arrow Choke from Truck targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Bow and Arrow Choke/from Truck/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ The mechanical key to the bow and arrow is that its far-leg vector comes from a 
 - Monitor the opponent's hand position constantly: hands defending low means the collar is open, hands defending high means redirect to leg attacks
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -242,6 +241,8 @@ The mechanical key to the bow and arrow is that its far-leg vector comes from a 
 
 - Opponent briefly reduces twister or calf slicer pressure to redirect their attack to the upper body
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

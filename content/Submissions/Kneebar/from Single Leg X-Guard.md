@@ -102,9 +102,6 @@ description: "Master the kneebar from Single Leg X-Guard. Expert guide to this B
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Single Leg X-Guard targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Primary risk: Posterior cruciate ligament (PCL) tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Single Leg X-Guard/Attacker|Play as Attacker]]
@@ -209,6 +206,8 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 - Time the entry when the bottom player extends hooks aggressively for a sweep — their commitment creates the opening
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -274,6 +273,8 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 
 - You feel the top player's weight shifting backward and downward as they sit into kneebar position, combined with tightening control on your heel and a perpendicular rotation of their body relative to your trapped leg
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

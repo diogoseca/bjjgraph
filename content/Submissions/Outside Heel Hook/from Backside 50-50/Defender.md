@@ -10,8 +10,6 @@ description: "Defend the Outside Heel Hook from Backside 50-50 in BJJ. Complete 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Outside Heel Hook from Backside 50-50 targets the Knee and ankle joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -199,6 +197,8 @@ Defending the Outside Heel Hook from Backside 50-50 is one of the most challengi
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Outside Heel Hook/from Backside 50-50#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

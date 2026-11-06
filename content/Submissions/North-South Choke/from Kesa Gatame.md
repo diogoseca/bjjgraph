@@ -61,9 +61,6 @@ description: "Complete guide to the North-South Choke from Kesa Gatame in BJJ. D
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> North-South Choke from Kesa Gatame targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/North-South Choke/from Kesa Gatame/Attacker|Play as Attacker]]
@@ -131,6 +128,8 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 
 - Keep your body tight against the opponent during rotation with no space between your chest and their head at any point
 
+
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -203,6 +202,8 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 
 - The attacker threatens an Americana then quickly abandons it when you defend, immediately redirecting to thread their arm deeper around your neck
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

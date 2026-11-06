@@ -132,9 +132,6 @@ description: "Master the Omoplata shoulder lock in BJJ. Complete guide covering 
 <span class="meta-chip">~52% avg</span>
 </div>
 
-> [!danger] Safety
-> Omoplata targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Omo Plata</strong>, <strong>Coil Lock</strong></p>
 </aside>

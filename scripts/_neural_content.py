@@ -215,7 +215,7 @@ def _safety(d):
     sc = d.get("safety_considerations") or {}
     risks = [{"i": r["injury"], "sev": r["severity"]}
              for r in sc.get("injury_risks", [])]
-    # Same source-backed notice as TEMPLATE-DUAL.md.jinja2. Never clip safety text:
+    # The page's former top notice, built from source fields. Never clip safety text:
     # later sentences and later list entries contain release/distress restrictions.
     return {
         "notice": (f"{d['name']} targets the {d.get('target_area', '')}. "

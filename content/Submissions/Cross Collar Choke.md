@@ -132,9 +132,6 @@ description: "Master the Cross Collar Choke in BJJ. Complete guide covering gi g
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Cross Collar Choke targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Cross Choke</strong>, <strong>Juji Jime</strong>, <strong>X-Choke</strong></p>
 </aside>

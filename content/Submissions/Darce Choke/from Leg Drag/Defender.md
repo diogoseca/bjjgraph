@@ -10,8 +10,6 @@ description: "Defend and escape the Darce choke from leg drag position. Recognit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Darce Choke from Leg Drag targets the Neck (Carotid Arteries). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -230,6 +228,8 @@ Defending the Darce choke from leg drag requires understanding that your defensi
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Darce Choke/from Leg Drag#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

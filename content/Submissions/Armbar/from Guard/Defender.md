@@ -10,8 +10,6 @@ description: "How to defend against Armbar from Guard in BJJ. Recognition, escap
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Guard targets the Elbow joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -256,6 +254,8 @@ Defending the armbar from guard requires understanding the attacker's sequential
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Armbar/from Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

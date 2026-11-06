@@ -102,9 +102,6 @@ description: "Master the Armbar from High Mount in BJJ. Complete guide to setup 
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from High Mount targets the Elbow joint (hyperextension) and shoulder girdle. Primary risk: Elbow hyperextension causing ligament tears (UCL, LCL, annular ligament). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from High Mount/Attacker|Play as Attacker]]
@@ -208,6 +205,8 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 - Control the defender's head with your leg to prevent them from sitting up during the finishing sequence
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -279,6 +278,8 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 
 - You feel your arm being pulled across the attacker's centerline away from your body
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

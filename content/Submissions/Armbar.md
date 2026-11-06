@@ -121,9 +121,6 @@ description: "Master the Armbar submission in BJJ. Complete guide covering setup
 <span class="meta-chip">~50% avg</span>
 </div>
 
-> [!danger] Safety
-> Armbar targets the Elbow joint. Primary risk: Elbow hyperextension. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Juji Gatame</strong>, <strong>Arm Bar</strong>, <strong>Straight Armbar</strong></p>
 </aside>

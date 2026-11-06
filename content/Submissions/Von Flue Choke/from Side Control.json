@@ -201,8 +201,8 @@
       {
         "step_number": 7,
         "action": "Maintain position until tap or release",
-        "description": "Hold steady pressure without increasing it further. Most opponents will tap within 3-5 seconds of full pressure application, though some may stubbornly hold their guillotine grip until they lose consciousness. Watch for their grip to loosen (a sign of impending unconsciousness) and be prepared to release immediately upon any tap signal. Never increase pressure once full pressure is achieved—the choke either works or the opponent escapes by releasing their grip.",
-        "timing": "Hold until tap or grip release"
+        "description": "Hold steady pressure without increasing it further. Most opponents will tap within 3-5 seconds of full pressure application. Be prepared to release immediately upon any tap signal. Never increase pressure once full pressure is achieved—the choke either works or the opponent escapes by releasing their grip.",
+        "timing": "Hold until tap"
       }
     ],
     "common_counters": [

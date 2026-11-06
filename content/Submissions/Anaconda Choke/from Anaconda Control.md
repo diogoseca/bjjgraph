@@ -102,9 +102,6 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Anaconda Choke from Anaconda Control targets the Carotid arteries and trachea. Primary risk: Loss of consciousness from carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Anaconda Choke/from Anaconda Control/Attacker|Play as Attacker]]
@@ -209,6 +206,8 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 - The finish requires squeezing elbows together while expanding chest and driving hips forward - three simultaneous pressure vectors
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -282,6 +281,8 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 - You feel constricting pressure around both your neck and trapped arm simultaneously, distinct from a standard guillotine which only targets the neck
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

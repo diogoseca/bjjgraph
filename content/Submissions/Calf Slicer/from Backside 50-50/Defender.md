@@ -10,8 +10,6 @@ description: "Defend the calf slicer from backside 50-50 with early recognition 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Backside 50-50 targets the Calf muscle and Achilles tendon. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -231,6 +229,8 @@ Defending the calf slicer from backside 50-50 requires early recognition of the 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Calf Slicer/from Backside 50-50#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

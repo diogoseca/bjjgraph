@@ -10,8 +10,6 @@ description: "Execute the Armbar from High Mount in BJJ. Step-by-step mechanics 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from High Mount targets the Elbow joint (hyperextension) and shoulder girdle. Risk: Elbow hyperextension causing ligament tears (UCL, LCL, annular ligament). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ Attacking the Armbar from High Mount is a systematic process that begins well be
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Armbar/from High Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

@@ -61,9 +61,6 @@ description: "Master the Reverse Armbar in BJJ. Complete guide with safety proto
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Reverse Armbar from Mount targets the Elbow joint (hyperextension with reverse rotation). Primary risk: Elbow hyperextension with lateral stress. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/Reverse Armbar from Mount/Attacker|Play as Attacker]]
@@ -129,6 +126,8 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 - Body weight distribution shifts toward opponent's feet during finish
 
+
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -199,6 +198,8 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 - You feel a rotational torque on your trapped arm as the attacker's hips swing over and past your arm toward your legs
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

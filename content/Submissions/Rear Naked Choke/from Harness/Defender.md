@@ -10,8 +10,6 @@ description: "Defend against the Rear Naked Choke from Harness. Learn recognitio
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Harness targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -256,6 +254,8 @@ Defending the Rear Naked Choke from Harness demands constant vigilance and disci
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Rear Naked Choke/from Harness#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

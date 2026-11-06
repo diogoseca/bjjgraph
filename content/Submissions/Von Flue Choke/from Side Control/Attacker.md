@@ -10,8 +10,6 @@ description: "How to execute Von Flue Choke in BJJ. Attacking perspective with s
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Von Flue Choke from Side Control targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -59,7 +57,7 @@ description: "How to execute Von Flue Choke in BJJ. Attacking perspective with s
     {
       "@type": "HowToStep",
       "name": "Maintain position until tap or release",
-      "text": "Hold steady pressure without increasing it further. Most opponents will tap within 3-5 seconds of full pressure application, though some may stubbornly hold their guillotine grip until they lose consciousness. Watch for their grip to loosen (a sign of impending unconsciousness) and be prepared to release immediately upon any tap signal. Never increase pressure once full pressure is achieved—the choke either works or the opponent escapes by releasing their grip.",
+      "text": "Hold steady pressure without increasing it further. Most opponents will tap within 3-5 seconds of full pressure application. Be prepared to release immediately upon any tap signal. Never increase pressure once full pressure is achieved—the choke either works or the opponent escapes by releasing their grip.",
       "position": 7
     }
   ],
@@ -303,6 +301,8 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 <section id="execution-steps" class="content-section">
 
+> Release immediately upon tap. [[Submissions/Von Flue Choke/from Side Control#safety-considerations|Safety guide ↓]]
+
 ## Execution Steps
 
 <p class="section-subtitle">How do you execute Von Flue Choke from Side Control step by step?</p>
@@ -313,7 +313,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 4. **Control the far hip**: Your far arm should reach across their body to control their far hip, either by gripping their belt, pants, or simply posting your hand on their hip bone. This control prevents them from shrimping away or turning into you. Keep your elbow tight to their ribs to maintain connection and prevent them from creating the space needed to adjust their position. (Timing: 1-2 seconds)
 5. **Drive weight through the shoulder**: Begin to gradually transfer your body weight through your shoulder into their neck. The key is to drive your weight forward and down at approximately a 45-degree angle, as if you're trying to push their head toward their far shoulder. This angle maximizes carotid compression while their own arm (still holding the guillotine) compresses the opposite carotid. Apply pressure progressively over 3-5 seconds, not suddenly. (Timing: 3-5 seconds progressive application)
 6. **Walk your hips toward their head**: To increase the pressure and eliminate any escape routes, walk your hips in small steps toward their head. This movement serves multiple functions: it increases the downward angle of your shoulder pressure, it prevents them from using their legs to push you away, and it makes it nearly impossible for them to turn into you. Your chest should remain heavy throughout this movement. (Timing: 2-3 seconds)
-7. **Maintain position until tap or release**: Hold steady pressure without increasing it further. Most opponents will tap within 3-5 seconds of full pressure application, though some may stubbornly hold their guillotine grip until they lose consciousness. Watch for their grip to loosen (a sign of impending unconsciousness) and be prepared to release immediately upon any tap signal. Never increase pressure once full pressure is achieved—the choke either works or the opponent escapes by releasing their grip. (Timing: Hold until tap or grip release)
+7. **Maintain position until tap or release**: Hold steady pressure without increasing it further. Most opponents will tap within 3-5 seconds of full pressure application. Be prepared to release immediately upon any tap signal. Never increase pressure once full pressure is achieved—the choke either works or the opponent escapes by releasing their grip. (Timing: Hold until tap)
 
 
 </section>

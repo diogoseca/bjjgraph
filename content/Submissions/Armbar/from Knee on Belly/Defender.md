@@ -10,8 +10,6 @@ description: "Master defending the armbar from knee on belly. Recognition cues, 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Knee on Belly targets the Shoulder and elbow joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -224,6 +222,8 @@ Defending the armbar from knee on belly requires understanding the attack's trig
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Armbar/from Knee on Belly#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

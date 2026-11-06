@@ -10,8 +10,6 @@ description: "Learn to recognize and defend the Cross Collar Choke from Modified
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Cross Collar Choke from Modified Mount targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -229,6 +227,8 @@ Defending the Cross Collar Choke from Modified Mount requires early recognition 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Cross Collar Choke/from Modified Mount#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

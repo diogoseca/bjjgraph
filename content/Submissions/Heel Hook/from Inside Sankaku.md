@@ -92,9 +92,6 @@ description: "Master the heel hook from Inside Sankaku position. Complete guide 
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Heel Hook from Inside Sankaku targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="part-of-family"><em>Part of the</em> <strong>Heel Hook</strong> <em>family</em></p>
 </aside>
@@ -192,6 +189,8 @@ The critical distinction from other leg lock positions is the degree of rotation
 - Treat the heel hook as the final step of a systematic positional sequence and never sacrifice control for a premature finish attempt
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -265,6 +264,8 @@ The critical distinction from other leg lock positions is the degree of rotation
 
 - Opponent transitions from positional control to gripping behavior with their wrist blade seeking contact against your Achilles tendon
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

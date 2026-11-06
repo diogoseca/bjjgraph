@@ -10,8 +10,6 @@ description: "How to defend against Kimura from Turtle in BJJ. Recognition, esca
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Turtle targets the Shoulder joint, rotator cuff, and associated ligaments. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -239,6 +237,8 @@ Defending the Kimura from turtle requires immediate recognition and decisive act
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kimura/from Turtle#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

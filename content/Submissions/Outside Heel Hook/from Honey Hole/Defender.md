@@ -10,8 +10,6 @@ description: "Learn to defend the outside heel hook from Honey Hole. Recognition
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Outside Heel Hook from Honey Hole targets the Knee joint, ankle joint, and surrounding ligaments. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -199,6 +197,8 @@ Defending the outside heel hook from Honey Hole requires recognizing the grip tr
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Outside Heel Hook/from Honey Hole#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

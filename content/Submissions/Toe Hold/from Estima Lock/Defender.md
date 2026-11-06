@@ -10,8 +10,6 @@ description: "Defend the toe hold from Estima Lock in BJJ. Recognition cues, esc
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Estima Lock targets the Ankle, toes, and foot ligaments. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -239,6 +237,8 @@ Defending the toe hold from Estima Lock requires immediate recognition of the gr
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Toe Hold/from Estima Lock#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

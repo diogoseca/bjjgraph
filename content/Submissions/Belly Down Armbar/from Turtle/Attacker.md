@@ -10,8 +10,6 @@ description: "Execute the belly down armbar from turtle top. Master arm isolatio
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from Turtle targets the Elbow joint and shoulder girdle. Risk: Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking with the belly down armbar from turtle requires a fundamentally differ
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Turtle#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

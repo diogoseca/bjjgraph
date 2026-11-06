@@ -82,9 +82,6 @@ description: "Master the kneebar finish from kneebar control in BJJ. Step-by-ste
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Kneebar Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Kneebar Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 - Progressive pressure application prevents injury and provides consistent feedback on submission depth
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -238,6 +237,8 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 
 - Attacker begins pulling your leg toward their chest while extending their body to straighten your captured leg
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

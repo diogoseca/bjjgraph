@@ -129,9 +129,6 @@ description: "Master the Triangle Choke in BJJ. Complete safety guide with setup
 <span class="meta-chip">~65% avg</span>
 </div>
 
-> [!danger] Safety
-> Triangle Choke targets the Carotid arteries and brachial plexus. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Sankaku Jime</strong>, <strong>Sankaku</strong></p>
 </aside>

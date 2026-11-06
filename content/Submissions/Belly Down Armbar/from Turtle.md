@@ -82,9 +82,6 @@ description: "Learn to execute and defend the belly down armbar from turtle in B
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Belly Down Armbar from Turtle targets the Elbow joint and shoulder girdle. Primary risk: Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Belly Down Armbar/from Turtle/Attacker|Play as Attacker]]
@@ -167,6 +164,8 @@ The belly down armbar from turtle exploits arm exposure that naturally occurs wh
 - Finish with controlled back arching and wrist pull rather than explosive jerking — body weight provides the primary force vector
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -236,6 +235,8 @@ The belly down armbar from turtle exploits arm exposure that naturally occurs wh
 
 - Your arm is being pulled away from your body despite your retraction efforts, and you can feel both of the attacker's hands controlling your wrist
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

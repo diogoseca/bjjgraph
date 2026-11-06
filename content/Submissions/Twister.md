@@ -131,9 +131,6 @@ description: "Master the Twister spinal lock in BJJ. Complete guide covering Tru
 <span class="meta-chip">~40% avg</span>
 </div>
 
-> [!danger] Safety
-> Twister targets the Cervical and thoracic spine, shoulder girdle. Primary risk: Cervical spine damage (neck injury). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Twister is an advanced spinal lock submission popularized by 10th Planet Jiu-Jitsu. This technique creates a corkscrew-like torque on the opponent's spine by controlling their lower body with a lockdown or body triangle while simultaneously controlling their upper body in the opposite direction. The Twister is primarily entered from the Truck position, where you have your opponent's back while they are belly-down, with their legs controlled in a specific entanglement. The submission applies pressure to the entire spinal column, creating a twisting motion that forces the tap.

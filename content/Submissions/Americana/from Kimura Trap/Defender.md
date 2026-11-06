@@ -10,8 +10,6 @@ description: "Complete defense guide against the Americana from Kimura Trap. Lea
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Kimura Trap targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -250,6 +248,8 @@ Defending the Americana from Kimura Trap requires recognizing the moment your op
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Americana/from Kimura Trap#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

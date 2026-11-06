@@ -92,9 +92,6 @@ description: "Master the calf slicer from 50-50 Guard. Complete guide covering s
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer from 50-50 Guard targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Calf Slicer/from 50-50 Guard/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ The technique carries significant injury risk due to simultaneous compression of
 - Chain between heel hook and calf slicer based on the opponent's knee angle to create an inescapable dilemma
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -256,6 +255,8 @@ The technique carries significant injury risk due to simultaneous compression of
 
 - You feel increasing inward pull on your foot toward the attacker's chest combined with forward hip pressure from behind your knee
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

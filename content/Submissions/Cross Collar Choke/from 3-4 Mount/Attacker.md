@@ -10,8 +10,6 @@ description: "Learn to execute the cross collar choke from 3-4 mount. Detailed g
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Cross Collar Choke from 3-4 Mount targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking with the cross collar choke from 3-4 mount requires systematic grip in
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Cross Collar Choke/from 3-4 Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

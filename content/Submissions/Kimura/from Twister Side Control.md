@@ -82,9 +82,6 @@ description: "Master the Kimura shoulder lock from Twister Side Control. Complet
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Twister Side Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Twister Side Control/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ This variant integrates naturally into the broader Twister Side Control submissi
 - Target the near arm as it is most accessible and the lateral angle provides optimal rotational leverage
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -244,6 +243,8 @@ This variant integrates naturally into the broader Twister Side Control submissi
 
 - Attacker's hip position shifting toward your head to create a perpendicular finishing angle
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

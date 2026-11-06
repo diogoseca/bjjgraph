@@ -10,8 +10,6 @@ description: "How to defend the Loop Choke from Half Guard Bottom in BJJ. Recogn
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Loop Choke from Half Guard targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -241,6 +239,8 @@ Once the collar is threaded under the chin and the attacker begins sprawling, th
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Loop Choke/from Half Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

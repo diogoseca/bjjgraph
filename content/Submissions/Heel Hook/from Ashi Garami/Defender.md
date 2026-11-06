@@ -10,8 +10,6 @@ description: "Defend against the heel hook from Ashi Garami with early recogniti
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from Ashi Garami targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -263,6 +261,8 @@ Defending the heel hook from Ashi Garami demands early recognition and immediate
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Heel Hook/from Ashi Garami#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "How to execute Boston Crab in BJJ. Attacking perspective with setu
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Boston Crab from Turtle targets the Lumbar spine and hip flexors. Risk: Lumbar spine strain or disc herniation. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -228,6 +226,8 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Boston Crab/from Turtle#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

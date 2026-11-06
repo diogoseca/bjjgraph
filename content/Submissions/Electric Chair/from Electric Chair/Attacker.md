@@ -10,8 +10,6 @@ description: "Execute the Electric Chair from lockdown half guard. Step-by-step 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Electric Chair from Electric Chair targets the Hip joint and groin. Risk: Groin strain or adductor muscle tear from forced hyperabduction of the hip. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -289,6 +287,8 @@ Executing the Electric Chair requires precise coordination of three control syst
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Electric Chair/from Electric Chair#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

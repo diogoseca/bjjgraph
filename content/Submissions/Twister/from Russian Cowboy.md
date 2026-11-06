@@ -112,9 +112,6 @@ description: "Learn the Twister Finish from Russian Cowboy in BJJ. Spinal lock s
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Twister from Russian Cowboy targets the Thoracic and Cervical Spine. Primary risk: Thoracic spine herniated disc from opposed rotational compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Twister/from Russian Cowboy/Attacker|Play as Attacker]]
@@ -227,6 +224,8 @@ The submission's danger profile demands extreme caution in training. The spinal 
 - Commit fully to the finish only after the figure-four leg lock is completely secured and upper body control is established
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -298,6 +297,8 @@ The submission's danger profile demands extreme caution in training. The spinal 
 
 - Sensation of your upper body being pulled in one direction while your hips remain anchored and immobile from the figure-four leg lock
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

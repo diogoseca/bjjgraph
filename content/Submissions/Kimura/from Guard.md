@@ -82,9 +82,6 @@ description: "Master the Kimura from Guard in BJJ. Complete guide covering setup
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Guard targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Guard/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ The position operates on the principle that the figure-four grip isolates the sh
 - **Transition Awareness**: Recognize when opponent defends effectively and transition to sweeps, back takes, or alternative submissions rather than forcing a low-percentage finish
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -244,6 +243,8 @@ The position operates on the principle that the figure-four grip isolates the sh
 
 - Opponent opens their guard while maintaining strong grip on your arm and shifting their hips laterally - guard opening with maintained arm control means they are transitioning from control phase to finishing phase
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -10,8 +10,6 @@ description: "Learn to attack with the outside heel hook from 50-50 guard. Step-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Outside Heel Hook from 50-50 Guard targets the Knee joint, ankle joint, and surrounding ligaments. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -225,6 +223,8 @@ Attacking with the outside heel hook from 50-50 guard requires establishing insi
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Outside Heel Hook/from 50-50 Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

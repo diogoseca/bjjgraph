@@ -10,8 +10,6 @@ description: "Defend the toe hold from Inside Sankaku with grip fighting, body r
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Inside Sankaku targets the Ankle, toes, and foot ligaments. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -231,6 +229,8 @@ Defending the toe hold from Inside Sankaku demands immediate recognition and pro
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Toe Hold/from Inside Sankaku#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

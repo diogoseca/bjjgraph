@@ -102,9 +102,6 @@ description: "Master the Kimura from Shoulder of Justice in BJJ. Complete guide 
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Shoulder of Justice targets the Shoulder joint (glenohumeral) and elbow. Primary risk: Shoulder dislocation or subluxation from forced internal rotation beyond anatomical limits of the glenohumeral joint. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Shoulder of Justice/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 - Recognize when to switch between traditional and belly-down finishing positions based on the direction and strength of the opponent's resistance
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -276,6 +275,8 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 
 - Attacker's weight shifts laterally as they transition from pure pressure control to submission setup positioning
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

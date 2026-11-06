@@ -92,9 +92,6 @@ description: "Master the Rear Naked Choke from Harness in BJJ. Complete guide to
 <span class="meta-chip">74% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Harness targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Harness/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, this creates a cascading dilemma system. The opponent must commit
 - Keep hooks active and engaged to prevent the opponent from using hip escapes or turns as an alternative to hand-fighting the choking arm
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -260,6 +259,8 @@ Strategically, this creates a cascading dilemma system. The opponent must commit
 
 - Opponent adjusts hook depth or body angle to optimize leverage for the arm advancement, often arching slightly or shifting hips
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -10,8 +10,6 @@ description: "Defensive guide for surviving and escaping the paper cutter choke 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Paper Cutter Choke from Kuzure Kesa Gatame targets the Carotid arteries (bilateral compression). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -285,6 +283,8 @@ Defending the paper cutter choke from kuzure kesa-gatame requires recognizing th
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Paper Cutter Choke/from Kuzure Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

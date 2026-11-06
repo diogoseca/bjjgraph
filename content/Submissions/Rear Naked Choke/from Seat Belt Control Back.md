@@ -92,9 +92,6 @@ description: "Master the Rear Naked Choke from Seat Belt Control Back. Complete 
 <span class="meta-chip">65% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Seat Belt Control Back targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Seat Belt Control Back/Attacker|Play as Attacker]]
@@ -191,6 +188,8 @@ Finishing mechanics require precise bilateral compression of both carotid arteri
 - Hook security maintenance — keep lower body control active throughout the entire choke transition to prevent escape during the grip change window
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -264,6 +263,8 @@ Finishing mechanics require precise bilateral compression of both carotid arteri
 
 - Hook pressure intensifying as the attacker drives hooks deeper to secure lower body control before committing to the choke attempt
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

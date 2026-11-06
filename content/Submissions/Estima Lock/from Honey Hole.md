@@ -82,9 +82,6 @@ description: "Master the Estima Lock from Honey Hole in BJJ. Complete guide to f
 <span class="meta-chip">55% success</span>
 </div>
 
-> [!danger] Safety
-> Estima Lock from Honey Hole targets the Foot and ankle joints (dorsiflexion of foot). Primary risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Estima Lock/from Honey Hole/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ From a competition standpoint, the Estima Lock from Honey Hole functions as a se
 - Keep constant hip pressure on trapped leg throughout setup and application phases
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -242,6 +241,8 @@ From a competition standpoint, the Estima Lock from Honey Hole functions as a se
 
 - Attacker clasps hands together around your foot with elbows pulling tight against their body
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

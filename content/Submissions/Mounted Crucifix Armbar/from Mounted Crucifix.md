@@ -92,9 +92,6 @@ description: "Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm i
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Mounted Crucifix Armbar from Mounted Crucifix targets the Shoulder and elbow joint. Primary risk: Elbow hyperextension with ligament tear (UCL/LCL damage). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 - Keep knees pinched tightly during the extension to prevent the defender from retracting the arm past the breaking line
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -258,6 +257,8 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 
 - Attacker adjusts leg positioning to cross over your face or chest, transitioning from crucifix to armbar clamp
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

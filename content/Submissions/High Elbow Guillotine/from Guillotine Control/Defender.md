@@ -10,8 +10,6 @@ description: "Defend against the High Elbow Guillotine from Guillotine Control. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: High Elbow Guillotine from Guillotine Control targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -237,6 +235,8 @@ Defending the High Elbow Guillotine from Guillotine Control requires recognizing
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/High Elbow Guillotine/from Guillotine Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "How to execute Arm Crush in BJJ. Attacking perspective with setup,
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Crush from Side Control targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -278,6 +276,8 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Arm Crush/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

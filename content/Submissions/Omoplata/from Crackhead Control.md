@@ -82,9 +82,6 @@ description: "An omoplata from Crackhead Control requires releasing the reinforc
 <span class="meta-chip">30% success</span>
 </div>
 
-> [!danger] Safety
-> Omoplata from Crackhead Control targets the Shoulder joint. Primary risk: Shoulder joint injury from excessive pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/from Crackhead Control/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Unload first, then free the arm: Stop at a tap or verbal signal, remove the joint pressure, and release the leg clamp so the arm can move freely.
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -236,6 +235,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 - Bring the leg into the omoplata shoulder enclosure while keeping the opponent's wrist and upper arm controlled.
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

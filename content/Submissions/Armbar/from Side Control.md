@@ -82,9 +82,6 @@ description: "Master the Armbar from Side Control in BJJ. Complete guide coverin
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from Side Control targets the Elbow joint. Primary risk: Elbow hyperextension. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from Side Control/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ The submission can be entered from various side control variations including sta
 - Finish with hip extension, not pulling with arms—hips generate the force
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -244,6 +243,8 @@ The submission can be entered from various side control variations including sta
 
 - Attacker switches from maintaining side control to actively gripping and manipulating your near arm with both hands
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

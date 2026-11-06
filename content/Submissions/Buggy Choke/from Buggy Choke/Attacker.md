@@ -10,8 +10,6 @@ description: "The bottom player finishes from the established Buggy arm-and-leg 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Buggy Choke from Buggy Choke targets the Neck. Risk: Neck injury from excessive pressure. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -224,6 +222,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Buggy Choke/from Buggy Choke#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

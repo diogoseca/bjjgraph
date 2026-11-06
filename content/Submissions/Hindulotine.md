@@ -120,9 +120,6 @@ description: "The Hindulotine is Ben Eddy's leg-in guillotine from Hindu Control
 <span class="meta-chip">~40% avg</span>
 </div>
 
-> [!danger] Safety
-> Hindulotine targets the Neck, enclosed by the arm and raised rubber-guard leg. Primary risk: Neck injury from twisting or misaligned pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder. Hindu Control is the setup; Hindulotine is the choke. Ben Eddy's early reverse-gable demonstration and later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.

@@ -92,9 +92,6 @@ description: "Master the Kimura shoulder lock from Armbar Control in BJJ. Learn 
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Armbar Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Armbar Control/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ What makes this attack devastatingly effective is the positional advantage alrea
 - Keep the opponent's elbow pinned tight to your chest to establish the fulcrum point for maximum rotational leverage
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -258,6 +257,8 @@ What makes this attack devastatingly effective is the positional advantage alrea
 
 - Feeling the attacker pull your elbow tight against their chest, establishing a fixed point that signals the rotational finish is imminent
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -92,9 +92,6 @@ description: "Master the Ezekiel Choke from Mount in BJJ. Learn sleeve grip mech
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Ezekiel Choke from Mount targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Ezekiel Choke/from Mount/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ From a strategic perspective, the Ezekiel Choke from Mount fills a critical role
 - Time the attack when the defender's hands are occupied with frames or other defensive priorities rather than monitoring your grips
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -260,6 +259,8 @@ From a strategic perspective, the Ezekiel Choke from Mount fills a critical role
 
 - The attacker's head dropping beside your head, which is the final commitment signal before the choking structure locks and finishing pressure begins
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

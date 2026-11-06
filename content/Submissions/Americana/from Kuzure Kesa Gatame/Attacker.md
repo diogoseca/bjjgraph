@@ -10,8 +10,6 @@ description: "Learn to finish the Americana from Kuzure Kesa Gatame with step-by
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Kuzure Kesa Gatame targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -281,6 +279,8 @@ Attacking with the Americana from Kuzure Kesa Gatame leverages the position's in
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Americana/from Kuzure Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

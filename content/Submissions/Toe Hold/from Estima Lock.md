@@ -82,9 +82,6 @@ description: "Master the toe hold from Estima Lock in BJJ. Expert guide covering
 <span class="meta-chip">26% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Estima Lock targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Estima Lock/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ This submission is particularly effective in no-gi grappling where the smooth su
 - Treat the Estima Lock and toe hold as a unified attack system where defending one submission exposes vulnerability to the other
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -238,6 +237,8 @@ This submission is particularly effective in no-gi grappling where the smooth su
 
 - Change in pressure vector from the Estima Lock's downward forearm compression to a rotational twisting force through your toes and ankle
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

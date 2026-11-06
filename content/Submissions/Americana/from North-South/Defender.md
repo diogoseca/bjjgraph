@@ -10,8 +10,6 @@ description: "Defend against the Americana shoulder lock from North-South. Recog
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from North-South targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -255,6 +253,8 @@ Defending the Americana from North-South requires early recognition and immediat
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Americana/from North-South#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

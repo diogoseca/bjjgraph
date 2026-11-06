@@ -82,9 +82,6 @@ description: "Master the triangle choke finish from triangle control. Learn prec
 <span class="meta-chip">65% success</span>
 </div>
 
-> [!danger] Safety
-> Triangle Choke from Triangle Control targets the Carotid arteries and brachial plexus. Primary risk: Loss of consciousness from bilateral carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Triangle Choke/from Triangle Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ The finish timeline is surprisingly short once mechanics are correct. A properly
 - Keep the choking leg's knee pointed toward the trapped shoulder to ensure the thigh and calf compress both carotid arteries symmetrically
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -242,6 +241,8 @@ The finish timeline is surprisingly short once mechanics are correct. A properly
 
 - Increasing bilateral pressure on both sides of your neck indicating the attacker is beginning the sustained finishing squeeze
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

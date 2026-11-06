@@ -10,8 +10,6 @@ description: "How to execute Triangle from De La Riva in BJJ. Attacking perspect
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke from De La Riva targets the Carotid arteries and jugular veins. Risk: Neck strain or cervical spine compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -278,6 +276,8 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Triangle Choke/from De La Riva#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

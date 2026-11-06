@@ -10,8 +10,6 @@ description: "Complete guide to executing the heel hook from saddle position. St
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from Saddle targets the Knee and ankle joint. Risk: ACL (anterior cruciate ligament) tear from rotational force. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -320,6 +318,8 @@ Executing the heel hook from saddle demands a systematic approach that prioritiz
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Heel Hook/from Saddle#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

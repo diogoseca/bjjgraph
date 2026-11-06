@@ -10,8 +10,6 @@ description: "Complete guide to finishing the rear triangle choke from rear tria
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Triangle Choke from Rear Triangle targets the Neck. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ Attacking with the rear triangle choke from the rear triangle position centers o
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Rear Triangle Choke/from Rear Triangle#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

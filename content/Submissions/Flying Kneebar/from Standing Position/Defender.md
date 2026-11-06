@@ -10,8 +10,6 @@ description: "How to defend against Flying Kneebar in BJJ. Recognition, escape p
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Flying Kneebar from Standing Position targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -255,6 +253,8 @@ Defending the Flying Kneebar requires a two-phase approach: pre-contact recognit
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Flying Kneebar/from Standing Position#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

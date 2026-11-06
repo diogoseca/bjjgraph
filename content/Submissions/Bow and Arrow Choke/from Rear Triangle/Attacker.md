@@ -10,8 +10,6 @@ description: "Learn to execute the Bow and Arrow Choke from Rear Triangle. Step-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Bow and Arrow Choke from Rear Triangle targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Executing the Bow and Arrow Choke from Rear Triangle requires maintaining your t
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Bow and Arrow Choke/from Rear Triangle#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

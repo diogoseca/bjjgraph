@@ -102,9 +102,6 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
 <span class="meta-chip">30% success</span>
 </div>
 
-> [!danger] Safety
-> Can Opener from Closed Guard targets the Cervical spine and neck muscles. Primary risk: Cervical spine compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Can Opener/from Closed Guard/Attacker|Play as Attacker]]
@@ -205,6 +202,8 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 - Understanding this technique defensively prevents being caught by less experienced or unethical opponents
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -276,6 +275,8 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 - You feel increasing forward flexion pressure on your cervical spine that you cannot relieve through normal guard adjustments or hip movement
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

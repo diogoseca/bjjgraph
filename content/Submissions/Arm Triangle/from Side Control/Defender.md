@@ -10,8 +10,6 @@ description: "Defend the Arm Triangle from Side Control. Recognize crossface set
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Triangle from Side Control targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -273,6 +271,8 @@ Defending the arm triangle from side control requires awareness of your near arm
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Arm Triangle/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

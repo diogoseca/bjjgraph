@@ -102,9 +102,6 @@ description: "Master the belly down armbar finish from side control in BJJ. Lear
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Belly Down Armbar from Side Control targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Belly Down Armbar/from Side Control/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ This technique is particularly effective in competition because opponents defend
 - Keep hips heavy on the opponent's arm throughout the finish, never allowing space between your pelvis and their triceps
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -276,6 +275,8 @@ This technique is particularly effective in competition because opponents defend
 
 - Attacker shifts weight from perpendicular chest pressure to a more parallel orientation as they prepare to rotate over your arm
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

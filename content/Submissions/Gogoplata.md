@@ -109,9 +109,6 @@ description: "Master the Gogoplata shin choke in BJJ. Complete guide with safety
 <span class="meta-chip">~26% avg</span>
 </div>
 
-> [!danger] Safety
-> Gogoplata targets the Trachea and carotid arteries. Primary risk: Tracheal damage or crushing. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Gogoplata is an advanced submission technique that utilizes the shin bone to create a choke by pressing against the opponent's trachea while simultaneously pulling their head forward. This highly technical submission is most commonly associated with the rubber guard system and requires exceptional flexibility, precise positioning, and excellent timing. The Gogoplata is executed primarily from rubber guard positions, though variations exist from mount and other control positions.

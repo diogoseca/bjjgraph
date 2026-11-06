@@ -1016,6 +1016,7 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
                 outcomes=data.get('outcomes', []),
                 safety_considerations=data.get('safety_considerations', {}),
                 target_area=data.get('target_area', ''),
+                content_path=content_path,
                 resolve=resolve_fn,
                 **role_extras,
             )
@@ -1033,6 +1034,7 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
                 outcomes=data.get('outcomes', []),
                 safety_considerations=data.get('safety_considerations', {}),
                 target_area=data.get('target_area', ''),
+                content_path=content_path,
                 resolve=resolve_fn,
                 **role_extras,
             )

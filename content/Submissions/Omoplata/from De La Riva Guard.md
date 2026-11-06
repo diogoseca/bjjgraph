@@ -112,9 +112,6 @@ description: "Master the omoplata from De La Riva Guard. Leverage DLR hooks and 
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Omoplata from De La Riva Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/from De La Riva Guard/Attacker|Play as Attacker]]
@@ -225,6 +222,8 @@ The finishing sequence follows standard omoplata mechanics once the leg clears t
 - Keep your hips heavy on the opponent's shoulder blade throughout the finishing sequence to prevent them from sitting up
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -296,6 +295,8 @@ The finishing sequence follows standard omoplata mechanics once the leg clears t
 
 - You feel your arm being isolated and controlled while the opponent's leg swings over your back and shoulder in a circular motion
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

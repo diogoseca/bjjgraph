@@ -131,9 +131,6 @@ description: "Master the Bow and Arrow Choke in BJJ. Complete guide with safety 
 <span class="meta-chip">~62% avg</span>
 </div>
 
-> [!danger] Safety
-> Bow and Arrow Choke targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Loop Choke|Loop Choke]]</strong> — the Loop Choke wraps the collar over the head from the front/side</p>
 </aside>

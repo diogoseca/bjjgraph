@@ -10,8 +10,6 @@ description: "How to defend against Flying Armbar in BJJ. Recognition, escape pa
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Flying Armbar from Closed Guard targets the Elbow joint and shoulder. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -251,6 +249,8 @@ If the attacker does initiate the jump, your response depends on timing. During 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Flying Armbar/from Closed Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

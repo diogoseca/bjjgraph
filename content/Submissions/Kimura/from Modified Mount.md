@@ -92,9 +92,6 @@ description: "Master the Kimura shoulder lock from Modified Mount. Learn grip me
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Modified Mount targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Modified Mount/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, this submission chains effectively with armbars and americanas fr
 - Chain the Kimura with the armbar and americana to create a three-way dilemma where each defense opens another attack
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -260,6 +259,8 @@ Strategically, this submission chains effectively with armbars and americanas fr
 
 - Attacker drives your wrist toward the mat beside your head while increasing chest pressure to prevent you from turning
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

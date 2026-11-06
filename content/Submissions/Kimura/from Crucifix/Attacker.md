@@ -10,8 +10,6 @@ description: "Learn to attack with the Kimura from Crucifix. Step-by-step finish
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Crucifix targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ The Kimura from Crucifix exploits the defining advantage of crucifix position: c
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from Crucifix#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

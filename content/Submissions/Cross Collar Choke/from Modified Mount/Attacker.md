@@ -10,8 +10,6 @@ description: "Learn to finish the Cross Collar Choke from Modified Mount with pr
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Cross Collar Choke from Modified Mount targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -276,6 +274,8 @@ Attacking with the Cross Collar Choke from Modified Mount requires understanding
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Cross Collar Choke/from Modified Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

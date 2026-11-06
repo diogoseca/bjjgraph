@@ -10,8 +10,6 @@ description: "Cross Collar Choke from Invisible Collar (attacker): Keep the oppo
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Cross Collar Choke from Invisible Collar targets the Sides of the neck via crossed forearms and collar tension. Risk: Neck or jaw injury from misaligned pressure. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -302,6 +300,8 @@ The collar must be used as a controlled choking surface, never to grind the face
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Cross Collar Choke/from Invisible Collar#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

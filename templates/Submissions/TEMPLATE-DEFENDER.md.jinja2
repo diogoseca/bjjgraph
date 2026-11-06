@@ -1,6 +1,6 @@
 {# BJJ Submission Defender Page Template #}
 {# Generates defender perspective pages from defender section #}
-{# Input: defender (full defender section), name (hub name), from_position, outcomes, safety_considerations, target_area #}
+{# Input: defender (full defender section), name (hub name), from_position, outcomes, safety_considerations, target_area, content_path (the hub's page, which holds the safety guide) #}
 
 ---
 title: "{{ name }} Defender | BJJ Defense Guide | BJJ Graph"
@@ -9,8 +9,6 @@ description: "{{ defender.description }}"
 
 {# PostHog A/B Testing Metadata #}
 <body data-content-type="submissions">
-
-> **SAFETY**: {{ name }} targets the {{ target_area }}. Tap early and often. Your safety is more important than any training round.
 
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
@@ -231,6 +229,8 @@ description: "{{ defender.description }}"
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[{{ content_path }}#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

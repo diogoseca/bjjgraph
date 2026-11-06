@@ -10,8 +10,6 @@ description: "Arm Triangle from Hindulotine (attacker): Maintain a stable guard 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Triangle from Hindulotine targets the Sides of the neck. Risk: Neck injury from twisting or excessive shoulder pressure. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -304,6 +302,8 @@ For a separately established top-side finish, chest pressure helps keep the trap
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Arm Triangle/from Hindulotine#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

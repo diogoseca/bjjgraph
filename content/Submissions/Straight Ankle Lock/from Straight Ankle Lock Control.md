@@ -82,9 +82,6 @@ description: "Complete guide to the straight ankle lock finish from ankle lock c
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Straight Ankle Lock from Straight Ankle Lock Control targets the Ankle joint, Achilles tendon, and foot ligaments. Primary risk: Ankle sprain or ligament damage. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Strategically, the straight ankle lock from established control serves dual purp
 - Apply progressive controlled pressure that tightens incrementally rather than jerking or spiking the lock
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ Strategically, the straight ankle lock from established control serves dual purp
 
 - Attacker beginning to arch their back or extend their hips away from you, indicating the breaking mechanics are being initiated
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

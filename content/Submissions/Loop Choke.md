@@ -131,9 +131,6 @@ description: "Master the Loop Choke in BJJ - deceptive collar choke from guard, 
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Loop Choke targets the Carotid arteries via deep collar grip and body positioning. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Bow and Arrow Choke|Bow and Arrow Choke]]</strong> — the Bow and Arrow Choke uses a collar grip with a leg/lapel pull from the back</p>
 </aside>

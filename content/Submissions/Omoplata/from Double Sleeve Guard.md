@@ -82,9 +82,6 @@ description: "Master the omoplata shoulder lock from double sleeve guard. Learn 
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Omoplata from Double Sleeve Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/from Double Sleeve Guard/Attacker|Play as Attacker]]
@@ -169,6 +166,8 @@ Strategically, this submission sits at the intersection of the triangle and armb
 - Apply finishing pressure through your hips driving forward, not by leaning back with your upper body
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ Strategically, this submission sits at the intersection of the triangle and armb
 
 - Bottom player's hips elevate and rotate aggressively rather than staying flat — this indicates commitment to the omoplata versus other attacks
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

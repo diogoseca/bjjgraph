@@ -131,9 +131,6 @@ description: "Master the Heel Hook in BJJ. Complete safety-first guide covering 
 <span class="meta-chip">~45% avg</span>
 </div>
 
-> [!danger] Safety
-> Heel Hook targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Toe Hold|Toe Hold]]</strong> — the Toe Hold attacks the ankle/foot via rotation — a different joint</p>
 </aside>

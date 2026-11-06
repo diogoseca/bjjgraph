@@ -92,9 +92,6 @@ description: "Master the belly down armbar finish from knee on belly in BJJ. Com
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Belly Down Armbar from Knee on Belly targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Belly Down Armbar/from Knee on Belly/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ From a defensive perspective, the speed of the transition from knee on belly pre
 - Align the opponent's elbow crease directly against your hip line for maximum mechanical advantage
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -258,6 +257,8 @@ From a defensive perspective, the speed of the transition from knee on belly pre
 
 - Two-on-one grip established on your arm with increasing pulling tension across your body
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

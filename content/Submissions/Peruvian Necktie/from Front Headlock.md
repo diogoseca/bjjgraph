@@ -82,9 +82,6 @@ description: "Master the Peruvian Necktie from front headlock. Learn leg-over-he
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Peruvian Necktie from Front Headlock targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Peruvian Necktie/from Front Headlock/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Strategically, the Peruvian Necktie works best as part of a comprehensive front 
 - Maintain gable grip tightness throughout the finish — any slack in the grip allows blood flow and gives the opponent recovery time
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ Strategically, the Peruvian Necktie works best as part of a comprehensive front 
 
 - The attacker's chest pressure shifts from directly on top of your back to slightly off-center toward the choking arm side as they prepare the sit-through
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -92,9 +92,6 @@ description: "Master the Triangle Choke from Open Guard in BJJ. Expert guide cov
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Triangle Choke from Open Guard targets the Neck. Primary risk: Carotid artery compression causing loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Triangle Choke/from Open Guard/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ The critical finishing mechanics rely on three elements working in concert: perp
 - Maintain chain submission awareness throughout—every triangle defense opens armbar, omoplata, or gogoplata transitions that punish escape attempts
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -256,6 +255,8 @@ The critical finishing mechanics rely on three elements working in concert: perp
 
 - Opponent's leg rises toward your shoulder or neck from an elevated position rather than remaining on your hip or bicep in standard guard configuration
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

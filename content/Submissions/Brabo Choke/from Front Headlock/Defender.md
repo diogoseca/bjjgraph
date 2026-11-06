@@ -10,8 +10,6 @@ description: "How to defend against Brabo Choke in BJJ. Recognition, escape path
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Brabo Choke from Front Headlock targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -239,6 +237,8 @@ Defending the Brabo Choke requires early recognition and immediate action, as th
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Brabo Choke/from Front Headlock#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

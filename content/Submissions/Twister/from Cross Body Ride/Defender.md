@@ -10,8 +10,6 @@ description: "Defend against the Twister from Cross Body Ride with recognition c
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Twister from Cross Body Ride targets the Cervical and thoracic spine, shoulder girdle. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -239,6 +237,8 @@ Defending against the Twister from Cross Body Ride demands early recognition and
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Twister/from Cross Body Ride#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

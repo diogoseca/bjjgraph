@@ -10,8 +10,6 @@ description: "Defend against the calf slicer from Honey Hole. Recognition cues, 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Honey Hole targets the Calf muscle and Achilles tendon. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -193,6 +191,8 @@ Defending the calf slicer from Honey Hole requires immediate recognition of the 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Calf Slicer/from Honey Hole#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

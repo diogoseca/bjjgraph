@@ -82,9 +82,6 @@ description: "Master the Short Choke from Seat Belt Control Back position in BJJ
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Short Choke from Seat Belt Control Back targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Short Choke/from Seat Belt Control Back/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ From the Seat Belt Control Back position, the diagonal over-under grip provides 
 - Treat the Short Choke as part of a two-threat system with the RNC, where defending one exposes the other and forces the opponent into a losing dilemma
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ From the Seat Belt Control Back position, the diagonal over-under grip provides 
 
 - The attacker's under-arm tightens or changes grip configuration to compensate for the released over-arm, signaling that the seat belt is being deliberately broken for a collar attack
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

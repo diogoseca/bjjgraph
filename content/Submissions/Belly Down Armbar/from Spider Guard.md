@@ -92,9 +92,6 @@ description: "Master the belly down armbar finish from Spider Guard. Learn grip 
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Belly Down Armbar from Spider Guard targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Belly Down Armbar/from Spider Guard/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Once the initial armbar position is secured, the attacker rotates to belly-down 
 - Apply finishing pressure through progressive hip extension driving into the back of the elbow rather than jerking the wrist
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -256,6 +255,8 @@ Once the initial armbar position is secured, the attacker rotates to belly-down 
 
 - Increased pulling tension on one sleeve combined with pushing pressure on the other arm creating clear arm isolation
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 
