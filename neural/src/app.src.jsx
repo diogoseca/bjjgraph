@@ -15729,18 +15729,21 @@ class Component extends DCLogic {
         e.stopPropagation(); e.preventDefault(); this._filmPage(e.key === "ArrowRight" ? 1 : -1);
       });
     }
-    const xb = document.createElement("button");
-    xb.type = "button";
-    xb.setAttribute("data-film-close", "1");
-    xb.setAttribute("aria-label", "Hide the videos");
-    xb.title = "Hide the videos";
-    xb.textContent = "✕";
-    // `left`/`top` are a first-frame guess — _dockLandFilm docks it beside the LAST thumbnail
-    xb.style.cssText = NG_GHOST_BTN_CSS + "position:absolute;top:4px;right:4px;z-index:2;background:rgba(19,22,37,.72);";
-    xb.addEventListener("mouseenter", () => { xb.style.color = "#dbe2f0"; xb.style.background = "rgba(40,46,66,.92)"; });
-    xb.addEventListener("mouseleave", () => { xb.style.color = "#8b97b0"; xb.style.background = "rgba(19,22,37,.72)"; });
-    xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("film", false, "x"); });
-    film.appendChild(xb);
+    // U104: a card with no video has nothing to dismiss, and a page with no film has no Videos row to bring it back from.
+    if (filmClips.length) {
+      const xb = document.createElement("button");
+      xb.type = "button";
+      xb.setAttribute("data-film-close", "1");
+      xb.setAttribute("aria-label", "Hide the videos");
+      xb.title = "Hide the videos";
+      xb.textContent = "✕";
+      // `left`/`top` are a first-frame guess — _dockLandFilm docks it beside the LAST thumbnail
+      xb.style.cssText = NG_GHOST_BTN_CSS + "position:absolute;top:4px;right:4px;z-index:2;background:rgba(19,22,37,.72);";
+      xb.addEventListener("mouseenter", () => { xb.style.color = "#dbe2f0"; xb.style.background = "rgba(40,46,66,.92)"; });
+      xb.addEventListener("mouseleave", () => { xb.style.color = "#8b97b0"; xb.style.background = "rgba(19,22,37,.72)"; });
+      xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("film", false, "x"); });
+      film.appendChild(xb);
+    }
     this.wrapRef.current.appendChild(film);
     this._landFilmEl = film;
     film._ngMediaIdx = idx; film._ngMediaRole = role;
