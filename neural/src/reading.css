@@ -105,10 +105,10 @@
 .ng-section-body img { max-width:100%; }
 /* D-489/HATGO489b: hatnotes and Related badges share muted prose; CTA text keeps the reader link color above. */
 .ng-section-body :is(.section-subtitle,.entity-relations,.entity-relations *) { opacity:1;color:#b6c5df; }
-.ng-section-body blockquote { margin:0 0 var(--reader-unit);padding:12px 6px;border-left:2px solid #ffb45a;background:#ffb45a08;color:#d6def0; }
-/* S1 a: Quartz sets hyphens:auto on a and p themselves, so it does not inherit: the safety line's link needs its
-   own rule. A phone broke the key word as "re-/lease". */
-.ng-section-body blockquote a { hyphens:none; }
+.ng-section-body blockquote { margin:0 0 var(--reader-unit);padding:12px;border-left:2px solid #ffb45a;background:#ffb45a08;color:#d6def0; }
+/* S1 a: Quartz sets hyphens:auto on a and p themselves, so it does not inherit: the safety line's rule (p) and its
+   link (a) each need it set. A phone broke the key word as "re-/lease". */
+.ng-section-body blockquote * { hyphens:none; }
 .ng-reader-toc-row[data-collapsed=true] { color:#a8b0c2; }
 /* Video names no header either: its ✕ sits in the corner, over the clip's own frame. */
 .ng-section-card[data-section-type=videos]:not([data-collapsed=true])>h2 { height:0;min-height:0;padding:0;position:relative;z-index:6; }

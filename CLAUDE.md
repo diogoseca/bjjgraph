@@ -424,7 +424,7 @@ Full rules in `docs/Content.md`. The parts you can break:
 - **Success rates are `{gi, nogi}` maps in source** and render as a single folded no-gi percent
   (`**Success Rate**: N%`). There is no Beginner/Intermediate/Advanced tri-level format — nothing
   authors it and no validator checks it.
-- **Submissions must carry a safety section** (last in the app, a one-line rule above the steps):
+- **Submissions must carry a safety section** (last in the app, its rule directly above the steps):
   injury risks with severity, tap signals, release protocol, and safety-critical questions in the
   assessment.
 - **Attempt probabilities sum to 100 per role, per ruleset frame.**

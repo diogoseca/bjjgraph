@@ -466,11 +466,13 @@ not. Do not invent recovery guarantees to fill `recovery_time`. Explain uncertai
 presenting the field as individualized medical advice.
 
 Keep warnings prominent and before execution instructions. Submission templates carry one line
-directly above the steps: `Release immediately upon tap ↓` above Execution Steps on the attacker and
-hub pages, `Tap early and often ↓` above Defensive Options on the defender page. Each line links to
-the full Safety Guide, which is the last teaching section in the app, before Related. Family pages
-list no steps, so they carry the guide and no line. “First visible content” is not an accurate
-description of their output. Inspect the rendered page when changing safety copy or templates.
+directly above the steps: `Release immediately upon tap. Safety guide ↓` above Execution Steps on the
+attacker and hub pages, `Tap early and often. Safety guide ↓` above Defensive Options on the defender
+page and above Escape Paths on the hub. `Safety guide ↓` links to the full Safety Guide, which is the
+last teaching section in the app, before Related. Family pages are the owner's exception (S3 a,
+2026-11-06): they carry the guide and no line, though 59 of the 62 hold finishing prose in a closed
+Mechanical variations block. “First visible content” is not an accurate description of their output.
+Inspect the rendered page when changing safety copy or templates.
 
 Teach early tapping, recognition of verbal and physical stop signals, and immediate release when
 a partner taps or calls stop. Stop on suspected injury or impaired responsiveness rather than
