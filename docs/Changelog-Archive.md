@@ -14148,9 +14148,12 @@ raises. Row logic freed less than it looked: the sides, the observer and the que
 
 **Specs.** 12 tests pinned the rows: 11 rewritten to the columns' claim (`pairs()` and `rowsOf()` became `columns()`) and 1, the trio,
 replaced by three pages that are two columns too. 10 row controls retired with the rule each pinned, named in the mutant file. New:
-15 journeys, 3 units, 21 controls. `u59-measure-unset` survived at 1440 with nothing wrong, because a tile's text there is under
+15 journeys, 3 units, 22 controls. `u59-measure-unset` survived at 1440 with nothing wrong, because a tile's text there is under
 46ch, so it moved to 1920. The band controls edit neural.js, outside the reader-only runner: `band-uncapped`
-(`Math.round(this.H/2)-e`), `band-old-144` and `band-follows-card` (a band that shrinks by 60 once a question opens).
+(`Math.round(this.H/2)-e`), `band-old-144` and `band-follows-card` (a band that shrinks by 60 once a question opens). PR CI's
+first run found what the 45-file batch could not: `layer-dock-centre` held the replay bar to the card's centre, and U90's note took
+the asking card off the column. The bar was right. The claim now reads the column, and `replay-bar-off-column` (the bar 120px left,
+in neural.js) turns it red at 1440 and 1024.
 
 ## v1.250.0 — The article on a position page, in the order a person needs it (owner, 2026-11-01)
 
