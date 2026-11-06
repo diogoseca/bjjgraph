@@ -14017,3 +14017,56 @@ wake, so scheduler jitter breaks it. Test and script are identical to dev. The f
 
 **On the merged head:** `ci:validate` 25 of 25, 1,380 units, 0 skipped; 197 focused journeys of 197; eager gzip 346,897 B,
 +3,109 B on the unchanged baseline, of which this round is +256 B; deferred 506,804 of 506,817 B.
+
+## v1.249.1 — Related study guides cut from every page (owner U89, 2026-11-01)
+
+The owner, looking at Side Control Bottom: "I think these related study guides are just AI slop. If it doesn't contribute
+much to [SEO], [AIO], or [GEO], I would cut those out please." PostHog over 90 days: 5 card clicks from 4 browsers, against
+14,251 views of those pages.
+
+**Removed from the page, not hidden.** Content a person never sees risks reading as cloaking. 611 pages and 2,923 cards go,
+7,200 lines, all deletions; the crawlable text and `article_links` go with them (192,205 afterwards).
+
+**The 611 are 605 + 6.** The eight templates produced 605 pages. Six more, the lowercase `top.md` and `bottom.md` beside X-Guard,
+K-Guard and North-South, are tracked pages no generator owns. They still build, at their own URLs, with the same 30 cards
+under the older title "Train this with a System". A cut made only in the generator reports 605 pages and leaves those 30
+cards live, so the section was removed from those six directly and the scan runs on the built tree: 0 pages carry
+`related-system`, in the HTML and in the Markdown export.
+
+**A first attempt touched 2,771 pages.** Deleting the template line also took the blank lines around it, so every page moved,
+cards or not, and a page's move costs it its D-253 date in the sitemap. The eight templates keep the empty line, so a page
+that never had cards keeps its exact bytes.
+
+**The floor did not need to move.** The brief expected `validate:payload --set-floors`, but `article_links` lands at 192,205
+over a floor of 183,310, so `budget_site.json` is unchanged.
+
+**Where the relationship survives:** 83 Systems pages listing their members (1,471 `related_content` rows, 1,468 members in
+`graph.json`), 83 Systems files in the Markdown export with 1,048 node links, and 83 Systems rows in `llms.txt`.
+
+**Telemetry ends deliberately.** `data-cta="related-system-card"` was the funnel's only node-page emitter (`CLAUDE.md` §6.7). The
+`related_system_card_click` handler left with `AffiliateTracking` earlier, and no code in the tree reads the attribute now. Any
+PostHog funnel starting from those clicks goes flat at this deploy; do not read that as a usage collapse. The Systems pages'
+own product links are untouched.
+
+**Six reds, all premises, none behaviour.** Knee Slice Pass Attacker's Related tile held only the study guides, so that
+article went from an odd tile count to an even one; the two journeys that need an odd article now read its Defender page, which
+keeps a count of 7 and long sections a trio must refuse (`u59-trio-last` still applies). The Explore place journey walked a
+point 30px inside the grid's edge, which only meets text in a narrow tile, so a shorter article landed its depths on a wide
+tile or on the gap under a shorter one. It now walks each lane's own text column. On a content PR, E2E skips until the reseed,
+so these were found and fixed before the capture: 213 of 213 across 14 journey files on the own build, and 88 more in the first
+batch.
+
+**Three SEO floors moved.** `Positions/Mount.html`, `Mount/Bottom.html` and `Mount/Top.html` each lost exactly their 30 cards, 3,318
+characters and 25 links, which put them 1,122, 1,209 and 1,394 characters under their floors. The contract moved those three to 85% of
+the new text, the updater's own ratio, with the orchestrator's approval as the direct effect of U89. The other 17 stayed exact.
+
+**PR CI found two more premises the focused batch had not run.** The study-guide cards hold no `p` or `li`, so at an article's end U59
+c's place anchor used to find nothing and `pane-layout.spec.ts` only ever saw an untouched `scrollTop`. Now the end is the Related list
+and the anchor runs. At 1024 the anchor holds its line, so that journey now reads a wheel over the pane against the position the pane
+settled on. At 768 the line holds while the pane is open, pinned, but the close anchors on whichever line one lane put first, and at
+the article's end that lands a tile away: 971px at Mount Top. Mid-article the same journey held within 26px at 35%, 50% and 70% down.
+That gap is the reader's, stays UNGUARDED in the spec's own header, and goes to the article-order PR, which can pay for the bytes.
+
+**Left behind on purpose:** the `.related-systems` and `.system-card` rules in `source/quartz/styles/custom.scss`, which nothing
+emits now (0 built pages). This capture cannot carry a `source/` change. The reader's `related-systems` alias and its two
+`.system-card__*` selectors are PR-2's.

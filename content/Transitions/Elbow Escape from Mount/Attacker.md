@@ -405,14 +405,6 @@ The elbow escape is one of the safest techniques in BJJ as it is a defensive pos
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Pin-Escape-Fundamentals-System" data-cta="related-system-card" data-system-slug="systems/danaher-pin-escape-fundamentals-system" data-system-name="Danaher Pin Escape Fundamentals System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Pin Escapes and Turtle Escapes</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related transition reference for positional escape study.</span><span class="system-card__chips"><span class="system-card__chip">Beginner</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>
