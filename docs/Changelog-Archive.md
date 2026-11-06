@@ -14199,3 +14199,36 @@ changed, all 1,201 numeric leaves identical.
 
 **Left behind on purpose:** the 3 md-only pages under `Cross Collar Choke/Finish` keep their old notice, because no JSON feeds them. 59 of the 62
 family pages hold finishing prose in a closed block with no line above it, the owner's S3 a, and `docs/Content.md` names that exception.
+
+## v1.250.1 — A one-pixel scroll up from the article's end is the reader's own (2026-11-06)
+
+**The race.** `reading-navigation.spec.ts:20`, Ctrl+Home stopping at 1: 2 of 72 under load on two cores, 0 of 40 without. On 6 Nov it failed
+deploy-dev run 42185772781 and held the safety change off the preview. #340's guard read "at the end and below the place" as the browser's
+clamp, which is also the first tick of a smooth scroll when it moves 1px. `layoutNow` wrote the place back, the running animation kept the
++1 as an offset, and it stopped at 1. `art2` found and fixed it on #341, which waits for the owner, so the one line ships alone.
+
+**The fix.** `r.scrollTop < this.placeTop` became `this.placeTop > end + 1`: a clamp is the end moving under the place.
+
+**Proof, on this tree.**
+
+| run | result |
+|---|---|
+| `a one-pixel scroll up from the article's end is the reader's own`, dev's reader | red 3 of 3 at "the tick stays where it landed", expected 5764, received 5765 |
+| the same test, with the fix | green 3 of 3 |
+| `place-end-tick` | killed at that assertion, green baseline |
+| one-off control, the guard replaced by `false`, not committed | killed at `768px the pane opened and closed at the end of /Transitions`: "the close lands on the place the open left", expected 5765, received 5535 |
+| the 12 reader specs (`pane-layout`, `reading-navigation`, `article-dashboard`, `article-grid`, `article-sections`, `reading-contract`, `reading-mode`, `reading-media-placement`, `safety-line`, `section-divider`, `tab-title`, `pane-keyboard`) | 185 of 185 |
+
+The one-off control is what makes "the clamp journeys still hold" mean something: without the guard they go red.
+
+**UNGUARDED, the place past the end.** A probe, not a spec: while the open pane clamps a held place, a 1px tick up still reads as the clamp
+and is undone. `/Transitions/50-50-Entry/Attacker` at 768: end 7709, place 7779, the write gone four frames later, and
+`/Submissions/Americana/from-Side-Control/Attacker` likewise at end 13069, place 13138. `/Positions/Mount/Top` does not clamp there (end 9587,
+place 9248) and keeps the tick. #340's guard reads that case the same way, and the new guard's cases are a subset of the old one's, so this narrows the race and does not
+widen it. Not fixed here: this version is the one line.
+
+**Bytes.** Deferred 506,808 to 506,800 of 506,817 B, -8. No ceiling moved.
+
+**App rows.** Bundle-only reseed, no capture: `reader.js` 42,552 to 42,544 B, and the other 13 of 14 rows unchanged.
+
+**#341** takes this by merge. The code line is identical, and the comments differ only in naming this version.
