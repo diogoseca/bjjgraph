@@ -215,6 +215,7 @@ const mutants = [
   ['beta-everywhere', 'article-order.spec.ts', 'every other page keeps', s => s, css => replace(css, ':has([data-source-id$=tree],[data-source-id$=metrics])', '[data-section-type=options]')],
   // v1.249.2: the reader holds one line at one height through a pane's slide, until its place moves.
   ['pane-hold-rechosen', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'false')],
+  ['pane-open-hold-lost', 'pane-layout.spec.ts', '768px the pane overlays the article', s => replace(s, 'keep = this.gridW - (this.gridW = available ? grid : NaN) && ', 'keep = this.gridW - (this.gridW = available ? grid : NaN) && false && ')],
   ['pane-hold-rechosen-mount', 'pane-layout.spec.ts', '768px the pane overlays the article', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'false')],
   ['pane-hold-height-lost', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, '(was = this.heldY, this.held)', '(was = this.held.getBoundingClientRect().top, this.held)')],
   ['pane-hold-keyed-on-scroll', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'root.scrollTop === this.heldAt && this.held?.isConnected')],

@@ -14090,6 +14090,11 @@ already was the reader's place: it survives a clamp and any real scroll overwrit
 assertion passed for a whole release on an anchor that never ran. A real scroll while the pane is open is the new place, and that is
 pinned too, or a stale hold would snap the reader back.
 
+**The open hold stays pinned at 768.** The first commit also dropped v1.249.1's "the line holds while the pane is open" assertion
+without running it, on a guess that a clamp would break it. Orchestrator review caught that: it was the only pin on U59 c's open hold at
+768, since `article-dashboard.spec.ts` pins 1440 and 1152. Measured on the fix, in the landed journey, 3 runs of 3: 388.75 to 388.77px at
+768, against 6px of movement on v1.249.1, and exact at 390. It went back, with `pane-open-hold-lost` as its own control.
+
 **Bytes.** The hold alone took the deferred set to 22 B over. A `listen()` helper across eleven call sites, and the dead `related-systems`
 alias and `.system-card__*` selectors #339 left, brought it to 506,740 of 506,817 B: 64 B under where it started, and no ceiling moved.
 

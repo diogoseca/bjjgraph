@@ -154,6 +154,14 @@ for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 
     await page.keyboard.press("Control+End")
     await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop)).toBeLessThan(2)
     const before = await page.locator("[data-reader]").evaluate(e => e.scrollTop)
+    const line = () => page.locator("[data-reader]").evaluate(e => {
+      const r = (window as any).__neural._reader, top = e.getBoundingClientRect().top
+      const held = r.articleEl.querySelector("[data-test-line]") || [...r.articleEl.querySelectorAll("p,li")].find((x: Element) => x.getBoundingClientRect().top >= top)
+      held.setAttribute("data-test-line", "")
+      return held.getBoundingClientRect().top - top
+    })
+    // At 768 the only pin on U59 c's hold while the pane is open: article-dashboard pins 1440 and 1152. pane-open-hold-lost.
+    const lineBefore = await line()
     await openPane(page, j)
     const overlap = await page.evaluate(() => {
       const pane = document.querySelector(".ng-drill")!, article = document.querySelector(".ng-reader-article")!
@@ -167,6 +175,7 @@ for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 
       expect(overlap.height).toBeGreaterThan(8)
       expect(overlap.pane).toBe(true)
     } else expect(overlap.width, "the tablet article fits beside the pane").toBeLessThanOrEqual(0)
+    expect(Math.abs(await line() - lineBefore), "the line holds while the pane is open").toBeLessThanOrEqual(8)
     await closePane(page, j)
     expect(await page.locator("[data-reader]").evaluate(e => e.scrollTop), "the close lands on the place the open left").toBe(before)
     // Reading here is the prose interaction (D-338 retired Focus, which set reading intent).
