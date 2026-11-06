@@ -173,14 +173,15 @@ const lineBoxes = (page: Page) => page.locator(BODY + ' blockquote').first().eva
 })
 
 test('@curated a wrapped line never hyphenates and never strands its arrow', async ({ page }) => {
-  // 240 forces the wrap in any face. The arrow is ~16px wide, so a last line wider than that holds a word too.
-  for (const [path, text] of [[ATTACKER, ATTACKER_LINE], [DEFENDER, DEFENDER_LINE]]) {
-    await open(page, path, 240, 631)
-    const line = await lineBoxes(page)
-    expect(line).toMatchObject({ text, hyphens: 'none' })
-    expect(line.lines, 'this width really wraps').toBeGreaterThan(1)
-    expect(line.lastLine, 'the arrow keeps a word with it').toBeGreaterThan(40)
-  }
+  // The reader floors its text box at 198px, so 240 wraps the attacker line (~250px) in any face. The arrow is
+  // ~16px wide, so a last line wider than that holds a word too. The defender line (~160px) never wraps there.
+  await open(page, ATTACKER, 240, 631)
+  const line = await lineBoxes(page)
+  expect(line).toMatchObject({ text: ATTACKER_LINE, hyphens: 'none' })
+  expect(line.lines, 'this width really wraps').toBeGreaterThan(1)
+  expect(line.lastLine, 'the arrow keeps a word with it').toBeGreaterThan(40)
+  await open(page, DEFENDER, 240, 631)
+  expect(await lineBoxes(page)).toMatchObject({ text: DEFENDER_LINE, hyphens: 'none' })
 })
 
 test('in the real font each line is one line at 360 and 390', async ({ page }) => {
