@@ -14157,6 +14157,14 @@ in neural.js) turns it red at 1440 and 1024. Its second run found a window of th
 frame, the only open or close path that did, and `article-sections.spec.ts:107` read a 376px hole inside it on one run in two.
 Nothing painted that. A close now sorts in its own task, which cost nothing (-2 B), and `columns-close-waits-a-frame` pins it with no timing in it.
 
+**Round 3, the owner's answers (2026-11-06).** Two columns approved at every width (U95 a, U98 a). U99 b overrode "never hiding": the map
+takes the median card, `NG_LIVE_ANSWER_ROOM = 514`, 43% at 900 tall, knowing half of all cards then need a scroll. D-368's desktop claim
+became "every answer is reached by a real scroll", pinned with the real wheel on the longest deck; D-433 stands on a phone, whose band he
+did not change. U97 b moved the index to 1,350px of free width: a line holds 45 characters from 1,346 on five real pages. That move
+broke something a width change had been hiding: the grid now stands at 902px through most of a pane slide, the line anchor keyed on the
+grid's width, and the film flipping under the question grew the stage 143-168px with nothing holding the line. The anchor now keys on the
+free width. The Overview's numbered tiles (2 to 9 on 266 pages, 135 with four or more) go to the owner as three options; they must not ship.
+
 ## v1.250.0 — The article on a position page, in the order a person needs it (owner, 2026-11-01)
 
 The owner, on Side Control Bottom: the Overview is "such a long text, and I don't know where to start"; "the choices row should

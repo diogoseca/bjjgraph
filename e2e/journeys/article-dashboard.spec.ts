@@ -477,9 +477,9 @@ for (const offset of [40, 300]) {
 }
 
 // DASH-R4 (review finding 3): the 6-column Top/Bottom comparison on every position hub needs ~520-566px, and a tile is 712px
-// wide at 1920. UNGUARDED BELOW THAT, and a known cost of two columns: Mount's table hides 246px behind a sideways scroll at
-// 1152 (dev 140), 102px at 1440 (dev 0, round 1's rows 102) and 11px at 1622 (rows 0). wholeContent() would call that clipped,
-// so this journey stays at 1920.
+// wide at 1920. UNGUARDED BELOW THAT, and a known cost of two columns: Mount's table hides 135px behind a sideways scroll at
+// 1152 (dev 140), 147px at 1350, 102px at 1440 (dev 0, round 1's rows 102) and 11px at 1622 (rows 0). wholeContent() would call
+// that clipped, so this journey stays at 1920.
 test('at 1920x1080 a position hub\'s wide Top/Bottom table shows every column', async ({ page }) => {
   await boot(page, 1920, 1080, '/Positions/Mount')
   const d = await dashboard(page), table = d.tiles.find(t => t.type === 'role-comparison')
