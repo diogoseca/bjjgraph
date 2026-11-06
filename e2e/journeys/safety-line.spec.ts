@@ -124,6 +124,8 @@ for (const width of [360, 390, 1440]) for (const path of [ATTACKER, DEFENDER]) {
 
 test('@curated the line opens a closed guide, and a reload lands on it', async ({ page }) => {
   const j = await open(page, ATTACKER, 1440)
+  const close = page.locator('[data-section-toggle="safety"]')
+  await close.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
   await j.clickByMouse('[data-section-toggle="safety"]', 'close the guide')
   await j.readerLayoutSettled()
   expect(await openTypes(page)).not.toContain('safety')
@@ -131,6 +133,13 @@ test('@curated the line opens a closed guide, and a reload lands on it', async (
   await expect.poll(() => openTypes(page), 'the click reopened it').toContain('safety')
   guideIsLast(await openTypes(page), 'reopened')
   await expect.poll(() => guideInView(page).then(g => g.focused)).toBe(true)
+  // The seat's own URL with the hash arrives on the guide, which lives in the hub's fragment.
+  await page.reload()
+  await expect(page.locator(READY)).toHaveAttribute('data-reader-path', ATTACKER)
+  await expect.poll(() => guideInView(page).then(g => g.focused), 'the reload landed on the guide').toBe(true)
+  const guide = await guideInView(page)
+  expect(guide.top, 'the guide is on screen').toBeGreaterThanOrEqual(guide.rootTop - 1)
+  expect(guide.top, 'the guide is on screen').toBeLessThan(guide.rootBottom)
 })
 
 test('@curated the hub line reaches the guide from the hub', async ({ page }) => {
@@ -146,8 +155,9 @@ test('@curated the line is one line at 390 and the key word never hyphenates', a
     await open(page, path, 390, 631)
     const line = await page.locator(BODY + ' blockquote').first().evaluate(q => {
       const r = document.createRange(); r.selectNodeContents(q.querySelector('p')!)
+      // The words are the link's own text, so the link's computed value is the one the browser breaks by.
       return { text: (q.textContent || '').trim(), lines: new Set([...r.getClientRects()].filter(b => b.width > 0).map(b => Math.round(b.top))).size,
-        hyphens: getComputedStyle(q.querySelector('p')!).hyphens }
+        hyphens: getComputedStyle(q.querySelector('a')!).hyphens }
     })
     expect(line).toEqual({ text, lines: 1, hyphens: 'none' })
   }
