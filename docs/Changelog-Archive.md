@@ -14280,9 +14280,11 @@ the leg-contact clause is gone. "Before they close their guard" went with the pi
 
 **The S4 class reaches Transitions.** Search: all 13,986 step and timing strings in `content/Transitions/*.json`, each hit read by hand, on the
 question the owner answered: a field that treats going limp, fading resistance or unconsciousness as the signal to stop, rather than as an
-emergency. Two exact: Gogoplata step 6 "until tap or unconsciousness", and Arm Triangle from Top step 7's list, the shape Darce Choke from Leg
-Drag had. Both are deletions; the second moves the list's "or", as that one did, and leaves its step with no release sentence, because adding
-one would be new wording. `safety_considerations` lines such as "release immediately if they go limp" are the emergency reading and stay.
+emergency. One is exact: Gogoplata step 6, "until tap or unconsciousness". Arm Triangle from Top step 7 was the seat's call, a sibling and not
+literally a tap-signal list: it says what to monitor while holding, and it named unconsciousness beside the tap signals, the shape Darce Choke
+from Leg Drag had. The delta review kept it. Both are deletions; the second moves the list's "or", as that one did, and leaves its step with no
+release sentence, because adding one would be new wording. `safety_considerations` lines such as "release immediately if they go limp" are the
+emergency reading and stay.
 
 **CI now compares all 20 approved hands exactly.** `hand()` ran on only the two Inverted Guard hands, and narrowing the overlay to the 5 phase-2
 hands survived. `_listing_table_expectations.py` now walks all 20: clean head rc=0, one Standing Position/Top share moved rc=1 "approved hand
