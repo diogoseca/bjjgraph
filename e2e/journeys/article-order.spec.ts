@@ -265,18 +265,25 @@ const answersOf = (page: Page) => page.evaluate(() => {
   }) }
 })
 // Reaching an answer is worth nothing if the wheel spent the question. The press is real, the beat is what scored it, and nothing
-// declined it on the way: a wheel over the card is game input. u99-wheel-declines.
-test('@curated U99 at 1440x900 the last answer, reached by the wheel, scores, and the wheel declines nothing', async ({ page }) => {
+// declined it on the way: a wheel over the card is game input. A played landing, because a URL arrival has reading intent and cannot
+// decline at all, so a journey from one passes with the mutant in. 640 tall, because this fixture's card fits at 900. u99-wheel-declines.
+// A wheel with the pointer over the ARTICLE does decline a live question, by design (covered-card.spec.ts): the clock stops, the game
+// pauses, the answers stay pressable and a later press still scores. Measured at v1.251.0; a free pause, not a loss. UNGUARDED at 900.
+test('@curated U99 at 1440x640 the last answer of a live question, reached by the wheel, scores, and the wheel declines nothing', async ({ page }) => {
   test.setTimeout(120000)
-  const j = await boot(page, 1440, 900, '/Submissions/Americana/from-Side-Control/Attacker')
+  await page.setViewportSize({ width: 1440, height: 640 })
+  await page.emulateMedia({ colorScheme: 'dark', reducedMotion: 'reduce' })
+  const j = journey(page)
+  await j.boot('/')
+  await j.land('Mount Top')
+  await j.advance(5000)
+  await expect(page.locator(READY)).toBeVisible()
+  await j.landQuestion()
   await j.openQuestion()
+  await page.evaluate(() => { const a = (window as any).__neural; a._engage('u99-wheel'); a._tryArmClock() })
   await j.readerLayoutSettled()
-  let card = await answersOf(page)
-  for (let n = 0; n < 16 && card.answers.at(-1)!.inside; n++) {
-    await j.clickByMouse('[data-land-next]', 'the next card')
-    await j.readerLayoutSettled()
-    card = await answersOf(page)
-  }
+  expect(await page.evaluate(() => (window as any).__neural._reader.intent), 'premise: a played landing, which can decline').toBeFalsy()
+  const card = await answersOf(page)
   const last = card.answers.at(-1)!
   expect(last.inside, 'premise: this card\'s last answer starts below the reader\'s end').toBe(false)
   await page.mouse.move(last.left + last.width / 2, Math.min(last.top + 4, card.end - 12))

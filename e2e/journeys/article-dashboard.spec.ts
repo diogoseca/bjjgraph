@@ -378,10 +378,12 @@ for (const depth of [0.3, 0.6]) {
 // landings are set by geometry, on a list item that wraps as the pane opens, so they hold at any page height.
 //   just under: the rounding's remainder must not carry the block out of the anchor (reader-rounding-remainder-dropped)
 //   clipped by: the anchor must be the next block, not the one that grows (reader-clipped-block-anchored)
-for (const [label, offset] of [['just under', 2], ['clipped by', -10]] as const) {
-  test(`U59 c: at 1440x900 opening Explore holds the place around a wrapping block ${label} the reader's top`, async ({ page }) => {
+// 720 is one column, so the block after the wrapping one is the line by any reading, and these are the journeys both controls kill.
+// At 1440 a block in the other column can be the nearest line, and it hides the wrap: both controls SURVIVE there (recorded).
+for (const [width, label, offset] of [[720, 'just under', 2], [720, 'clipped by', -10], [1440, 'just under', 2], [1440, 'clipped by', -10]] as const) {
+  test(`U59 c: at ${width}x900 opening Explore holds the place around a wrapping block ${label} the reader's top`, async ({ page }) => {
     // 1440 narrows from 968 to 902px as the pane opens, so this block wraps there.
-    const j = await boot(page, 1440, 900)
+    const j = await boot(page, width, 900)
     await page.emulateMedia({ reducedMotion: 'no-preference' })
     const before = await page.locator(READY).evaluate((e, offset) => {
       const block = [...e.querySelectorAll('li')].find(li => li.textContent!.trim().startsWith('Knowledge of fundamental mount submissions'))

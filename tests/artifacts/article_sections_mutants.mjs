@@ -359,10 +359,10 @@ const mutants = [
   ['u99-no-scroll', 'article-order.spec.ts', 'U99 at 1440x900 every answer', s => s, css => css + '\n.ng-reader{overflow:hidden!important}\n'],
   // After the take-up, not before: a strip up from arrival died in j.openQuestion(), a preflight red that proved nothing.
   ['u99-fixed-over-answer', 'article-order.spec.ts', 'U99 at 1440x900 every answer', s => s, css => css + '\nbody:has(.ng-landcard:not([data-land-ask])):after{content:"";position:fixed;left:0;right:0;top:40%;height:60%;z-index:99;pointer-events:auto}\n'],
-  ['u99-wheel-declines', 'article-order.spec.ts', 'U99 at 1440x900 the last answer', s => replace(s, '        if (this.gameInput(event)) return;\n        // Toolbar activation', '        if (this.gameInput(event) && type !== "wheel") return;\n        // Toolbar activation')],
+  ['u99-wheel-declines', 'article-order.spec.ts', 'U99 at 1440x640 the last answer', s => replace(s, '        if (this.gameInput(event)) return;\n        // Toolbar activation', '        if (this.gameInput(event) && type !== "wheel") return;\n        // Toolbar activation')],
   // The wrapping-block journeys, retargeted: their rows in video_theater_mutants.json named strings this PR replaced.
-  ['reader-rounding-remainder-dropped', 'article-dashboard.spec.ts', 'wrapping block just under', s => replace(s, 'was = rect(keep).top - was + (this.rest || 0);', 'was = rect(keep).top - was;')],
-  ['reader-clipped-block-anchored', 'article-dashboard.spec.ts', 'wrapping block clipped by', s => replace(s, 'return y >= top && y < was ?', 'return y >= top - 20 && y < was ?')],
+  ['reader-rounding-remainder-dropped', 'article-dashboard.spec.ts', 'at 720x900 opening Explore holds the place around a wrapping block just under', s => replace(s, 'was = rect(keep).top - was + (this.rest || 0);', 'was = rect(keep).top - was;')],
+  ['reader-clipped-block-anchored', 'article-dashboard.spec.ts', 'at 720x900 opening Explore holds the place around a wrapping block clipped by', s => replace(s, 'return y >= top && y < was ?', 'return y >= top - 20 && y < was ?')],
 
   ['ask-line-centred', 'article-order.spec.ts', 'U90 at 1440x900 the question line', s => replace(s, 'if (moves) cardX = rowLeft + moves.offsetLeft - 1;', '')],
   ['ask-line-label-offset', 'article-order.spec.ts', 'U90 at 390x844 the question line', s => replace(s, 'if (moves) cardX = rowLeft + moves.offsetLeft - 1;', 'if (moves) cardX = rowLeft + 3;')],
