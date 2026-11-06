@@ -627,3 +627,14 @@ console.log(
     `(${(Buffer.byteLength(readingCSS) - Buffer.byteLength(readMin)).toLocaleString()} B of comments and ` +
     `whitespace stripped), NOT in neural.css and NOT on the boot payload`,
 );
+
+// No regex lookbehind in any bundle. Safari below 16.4 cannot parse one, so a literal takes the whole module down, on every article.
+// Here and not in a unit, because ci-validate never builds the bundles: this runs on every build, the deploys' included. A throw with the
+// count printed, so a scan that found nothing to scan cannot read as clean. tests/neural_bundle_regex.test.mjs pins that this stays.
+{
+  const bundles = readdirSync(R("dist")).filter(f => f.endsWith(".js"));
+  if (bundles.length < 8) throw new Error(`[build] the lookbehind scan found only ${bundles.length} bundles in dist`);
+  const dirty = bundles.filter(f => /\(\?<[=!]/.test(readFileSync(R("dist/" + f), "utf8")));
+  if (dirty.length) throw new Error("[build] a regex lookbehind reached a bundle: " + dirty.join(", "));
+  console.log(`[build] ${bundles.length} bundles, no regex lookbehind`);
+}

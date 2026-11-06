@@ -18,16 +18,14 @@ test("no neural source holds a lookbehind", () => {
   console.log(`neural_bundle_regex: ${sources.length} sources`);
 });
 
-test("no built neural bundle holds a lookbehind", t => {
+// ci-validate never builds the bundles, so the bundles' own scan lives in neural/build/build.mjs, which throws. This pins that it
+// stays, and adds a scan of whatever a local build left behind. (This file first asserted bundles exist in CI: that went red on PR 341.)
+test("the build refuses a lookbehind in a bundle", () => {
+  const build = readFileSync(join(root, "neural/build/build.mjs"), "utf8");
+  assert.match(build, /a regex lookbehind reached a bundle/, "the guard in build.mjs is gone");
   const bundles = scan(join(root, "neural/dist"), /\.js$/);
-  // CI emits the payload before the units, so absence there is a broken chain, never a pass. A fresh worktree says so and skips.
-  if (!bundles.length) {
-    assert.ok(!process.env.CI, "neural/dist is empty in CI: the units ran before the payload");
-    t.skip("neural/dist is empty: run npm run dev:neural:app");
-    return;
-  }
   assert.deepEqual(dirty(bundles), []);
-  console.log(`neural_bundle_regex: ${bundles.length} bundles`);
+  console.log(`neural_bundle_regex: the build guard is in place, ${bundles.length} local bundles scanned`);
 });
 
 test("the pattern sees both forms, in a literal and in a string", () => {
