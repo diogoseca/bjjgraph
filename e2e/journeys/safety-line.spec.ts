@@ -36,11 +36,14 @@ function guideIsLast(types: string[], what: string) {
 }
 
 /** The click lands on the link's OWN box: a wrapped link's centre is not on the link. */
-async function clickOwnBox(page: Page, selector: string) {
+async function clickOwnBox(page: Page, j: ReturnType<typeof journey>, selector: string) {
+  const link = page.locator(selector).first()
   // Fail here, at a claim: a missing link would otherwise wait out the whole test timeout, and a timeout is no kill.
-  await expect(page.locator(selector).first(), 'the line is a reader anchor').toBeAttached()
-  const hit = await page.locator(selector).first().evaluate(a => {
-    a.scrollIntoView({ block: 'center' })
+  await expect(link, 'the line is a reader anchor').toBeAttached()
+  await link.evaluate(a => a.scrollIntoView({ block: 'center' }))
+  // A settling layout can move the box between reading it and pressing it.
+  await j.readerLayoutSettled()
+  const hit = await link.evaluate(a => {
     const box = a.getClientRects()[0], x = box.left + box.width / 2, y = box.top + box.height / 2
     return { x, y, width: box.width, boxes: a.getClientRects().length, own: document.elementFromPoint(x, y) === a }
   })
@@ -119,14 +122,19 @@ test('@curated the hub carries each seat\'s line, and a family carries none', as
   ])
   await open(page, FAMILY, 1440)
   await expect(page.locator(BODY + ' .callout.danger')).toHaveCount(0)
-  await expect(page.locator(GUIDE_LINK)).toHaveCount(0)
+  await expect(page.locator(BODY + ' blockquote')).toHaveCount(0)
+  // S2 b's rule is plain text, so looking for the link alone would pass a family page that grew the rule.
+  const family = ((await page.locator(BODY).textContent()) || '').replace(/\s+/g, ' ')
+  expect(family.length, 'this read the family article').toBeGreaterThan(1000)
+  expect(family).not.toContain('Release immediately upon tap')
+  expect(family).not.toContain('Tap early and often')
 })
 
 for (const width of [360, 390, 1440]) for (const path of [ATTACKER, DEFENDER]) {
   test(`@curated the line's real click reaches the guide and keeps the seat at ${width}: ${path}`, async ({ page }) => {
-    await open(page, path, width, width === 390 ? 631 : 900)
+    const j = await open(page, path, width, width === 390 ? 631 : 900)
     const before = await page.evaluate(() => history.length)
-    await clickOwnBox(page, GUIDE_LINK)
+    await clickOwnBox(page, j, GUIDE_LINK)
     await expect.poll(() => new URL(page.url()).hash).toBe('#safety-considerations')
     await expect.poll(() => guideInView(page).then(g => g.focused), 'the click reached the guide').toBe(true)
     const guide = await guideInView(page)
@@ -145,7 +153,7 @@ test('@curated the line opens a closed guide, and a reload lands on it', async (
   await j.clickByMouse('[data-section-toggle="safety"]', 'close the guide')
   await j.readerLayoutSettled()
   expect(await openTypes(page)).not.toContain('safety')
-  await clickOwnBox(page, GUIDE_LINK)
+  await clickOwnBox(page, j, GUIDE_LINK)
   await expect.poll(() => openTypes(page), 'the click reopened it').toContain('safety')
   guideIsLast(await openTypes(page), 'reopened')
   await expect.poll(() => guideInView(page).then(g => g.focused)).toBe(true)
@@ -162,13 +170,20 @@ test('@curated the line opens a closed guide, and a reload lands on it', async (
   expect(guide.top, 'the guide is on screen').toBeLessThan(guide.rootBottom)
 })
 
-test('@curated the hub line reaches the guide from the hub', async ({ page }) => {
-  await open(page, HUB, 390, 631)
-  await clickOwnBox(page, GUIDE_LINK)
-  await expect.poll(() => new URL(page.url()).hash).toBe('#safety-considerations')
-  await expect.poll(() => guideInView(page).then(g => g.focused)).toBe(true)
-  expect(new URL(page.url()).pathname).toBe(HUB)
-})
+// Three lines show on a hub. The first is the Attacker fragment's, whose link names the hub. The other two are the
+// hub's own, in-page links, the only ones the no-JS hub has.
+for (const [line, section] of [['guide fragment', 'options'], ['own attacker', 'attacker-summary'], ['own defender', 'defender-summary']] as const) {
+  test(`@curated the hub's ${line} line reaches the guide`, async ({ page }) => {
+    const j = await open(page, HUB, 390, 631)
+    await clickOwnBox(page, j, `${BODY} [data-section-type="${section}"] blockquote a[data-reader-anchor]`)
+    await expect.poll(() => new URL(page.url()).hash).toBe('#safety-considerations')
+    await expect.poll(() => guideInView(page).then(g => g.focused), 'the click reached the guide').toBe(true)
+    const guide = await guideInView(page)
+    expect(guide.top, 'the guide is on screen').toBeGreaterThanOrEqual(guide.rootTop - 1)
+    expect(guide.top, 'the guide is on screen').toBeLessThan(guide.rootBottom)
+    expect(new URL(page.url()).pathname).toBe(HUB)
+  })
+}
 
 const lineBoxes = (page: Page) => page.locator(BODY + ' blockquote').first().evaluate(q => {
   const p = q.querySelector('p')!, a = q.querySelector('a')!, r = document.createRange(); r.selectNodeContents(p)
@@ -218,8 +233,8 @@ for (const path of [ATTACKER, DEFENDER]) {
   })
 }
 
-// CONTROLS (own built tree, 2026-11-06, v1.250.0, the owner's S2 b): 17 of 17 killed at an assertion, 0 test timeouts,
-// and a clean run of all 20 tests before and after. Each named the test below; other reds in the same run do not count.
+// CONTROLS (own built tree, 2026-11-06, v1.250.0, the owner's S2 b): 22 of 22 killed at an assertion, 0 test timeouts,
+// and a clean run of all 22 tests before and after. Each named the test below; other reds in the same run do not count.
 //   order-removed                 the guide is the last teaching section
 //   order-all-pages               a transition shares the section id
 //   anchor-own-fragment-only      the line's real click reaches the guide
@@ -235,7 +250,12 @@ for (const path of [ATTACKER, DEFENDER]) {
 //   two-taps-back                 neither top notice survives
 //   seat-link-in-page-only        without the app the seat's link still reaches the hub's guide
 //   family-notice-back            the hub carries each seat's line, and a family carries none
+//   family-plain-rule             the hub carries each seat's line, and a family carries none (the rule's own words)
 //   hub-attacker-line-removed     the hub carries each seat's line
 //   hub-defender-line-removed     the hub carries each seat's line
+//   hub-attacker-link-dead        the hub's own attacker line reaches the guide
+//   hub-defender-link-dead        the hub's own defender line reaches the guide
+//   reload-does-not-anchor        the line opens a closed guide, and a reload lands on it
+//   reload-past-the-guide         the line opens a closed guide, and a reload lands on it (the 24px tolerance)
 // Not a control here: article_sections_mutants.mjs defender-hub-leak covers the selector the reader keeps.
 // Partially pinned: one DUAL page and one family page. The corpus-wide counts are a grep of the Markdown, not a gate.
