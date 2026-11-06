@@ -15647,13 +15647,15 @@ class Component extends DCLogic {
     const perspBlk = perspSide && info && info.perspectives ? info.perspectives[perspSide] : null;
     // D-297a applies to the film too: missing/empty defender clips never inherit
     // the attacker's top-level reel, and an unauthored half shows no placeholder.
-    if (perspSide === "defender") return perspBlk && perspBlk.authored && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null;
-    return (info && info.clips && info.clips.length ? info.clips : null) || (perspBlk && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null);
+    // U104 (owner, 2026-11-06, reversing D-297a's "no placeholder"): "When it's not available, it should say it's not available."
+    // An empty reel, once the dossier has answered; null while it has not, so a film still loading never reads as missing.
+    if (perspSide === "defender") return perspBlk && perspBlk.authored && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : info ? [] : null;
+    return (info && info.clips && info.clips.length ? info.clips : null) || (perspBlk && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null) || (info ? [] : null);
   }
   // The media owner supplies width and spacing; Sections measures its natural height.
   // Below 1152px of free pane, the film fills the 680px reading column (16px phone
   // gutters). Above it, 400px leaves room for the deck, arrows and Contents lane.
-  filmLayout(width, height, paired, card, row) {
+  filmLayout(width, height, paired, card, row, column) {
     const wide = width >= 1152, ask = row && card?.hasAttribute("data-land-ask");
     const css = ask && getComputedStyle(card);
     const gap = ask && parseFloat(css.getPropertyValue("--section-gap"));
@@ -15666,7 +15668,7 @@ class Component extends DCLogic {
       row._askPadding ??= row.style.paddingBottom;
       row.style.paddingBottom = hint ? card.getBoundingClientRect().height + gap + "px" : row._askPadding;
     }
-    return [paired && wide && !hint && height > 500, Math.min(wide ? 400 : 680, width - 32),
+    return [paired && (column || wide && !hint) && height > 500, column || Math.min(wide ? 400 : 680, width - 32),
       ask && (!wide || hint) ? gap - parseFloat(getComputedStyle(row).paddingBottom)
         - (card.querySelector("[data-land-ask-text]").getBoundingClientRect().top - card.getBoundingClientRect().top) : null];
   }
@@ -15689,7 +15691,7 @@ class Component extends DCLogic {
   // A reference supplies a canonical path instead of borrowing a game seat.
   // Playback, teardown and the one-host lifetime stay with this media owner.
   _renderLandFilm(filmClips, referencePath) {
-    if (!filmClips || !filmClips.length) return null;
+    if (!filmClips) return null;
     const current = this._landFilmEl, idx = referencePath ? -1 : this._landIdx, node = this.nodes[idx];
     const role = node ? this._landPerspSide(node) || this.playerRole : null;
     if (current?.isConnected && current._ngMediaIdx === idx && current._ngMediaRole === role && current.dataset.referenceFilm === referencePath) return current;
@@ -15706,7 +15708,7 @@ class Component extends DCLogic {
     film._ngVideoNode = shown;
     const seat = referencePath ? null : shown?.ty === "positions" ? this.playedRole(shown) : this._landPerspSide(shown) || "attacker";
     film.innerHTML = (referencePath ? "" : '<header class="ng-current-title">' + this.choiceShape(shown) + '<span>' + this.choiceEscape(shown ? this.graphName(shown) : "Current move") + '</span></header>')
-      + this.filmStudyHTML(filmClips, true)
+      + (this.filmStudyHTML(filmClips, true) || '<div class="ng-choice-media" data-choice-media><span>Video unavailable</span></div>')
       + (seat ? '<footer><span>' + this.choiceEscape(seat[0].toUpperCase() + seat.slice(1)) + '</span><span class="ng-current-stat"><span>Win %</span><strong data-current-film-win>—</strong></span></footer>' : "");
     film.toggleAttribute("data-single-video", filmClips.length === 1);
     // ARROWS (v1.217.0, owner 2026-10-02): the deck's chevrons, one at each end of the row, shown only
@@ -15727,18 +15729,21 @@ class Component extends DCLogic {
         e.stopPropagation(); e.preventDefault(); this._filmPage(e.key === "ArrowRight" ? 1 : -1);
       });
     }
-    const xb = document.createElement("button");
-    xb.type = "button";
-    xb.setAttribute("data-film-close", "1");
-    xb.setAttribute("aria-label", "Hide the videos");
-    xb.title = "Hide the videos";
-    xb.textContent = "✕";
-    // `left`/`top` are a first-frame guess — _dockLandFilm docks it beside the LAST thumbnail
-    xb.style.cssText = NG_GHOST_BTN_CSS + "position:absolute;top:4px;right:4px;z-index:2;background:rgba(19,22,37,.72);";
-    xb.addEventListener("mouseenter", () => { xb.style.color = "#dbe2f0"; xb.style.background = "rgba(40,46,66,.92)"; });
-    xb.addEventListener("mouseleave", () => { xb.style.color = "#8b97b0"; xb.style.background = "rgba(19,22,37,.72)"; });
-    xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("film", false, "x"); });
-    film.appendChild(xb);
+    // U104: a card with no video has nothing to dismiss, and a page with no film has no Videos row to bring it back from.
+    if (filmClips.length) {
+      const xb = document.createElement("button");
+      xb.type = "button";
+      xb.setAttribute("data-film-close", "1");
+      xb.setAttribute("aria-label", "Hide the videos");
+      xb.title = "Hide the videos";
+      xb.textContent = "✕";
+      // `left`/`top` are a first-frame guess — _dockLandFilm docks it beside the LAST thumbnail
+      xb.style.cssText = NG_GHOST_BTN_CSS + "position:absolute;top:4px;right:4px;z-index:2;background:rgba(19,22,37,.72);";
+      xb.addEventListener("mouseenter", () => { xb.style.color = "#dbe2f0"; xb.style.background = "rgba(40,46,66,.92)"; });
+      xb.addEventListener("mouseleave", () => { xb.style.color = "#8b97b0"; xb.style.background = "rgba(19,22,37,.72)"; });
+      xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("film", false, "x"); });
+      film.appendChild(xb);
+    }
     this.wrapRef.current.appendChild(film);
     this._landFilmEl = film;
     film._ngMediaIdx = idx; film._ngMediaRole = role;

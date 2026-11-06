@@ -205,7 +205,6 @@ class Reader {
     // the reading root's native document-key path.
     this.game = element("div", { class: "ng-reader-game", tabindex: "-1" });
     this.mediaHome = element("div", { class: "ng-reader-media-home", "data-land-media-slot": "" });
-    this.game.append(this.mediaHome);
     this.articleEl = element("div", { class: "ng-reader-article" });
     this.root.append(this.game, this.articleEl);
     // These controls exist before any article fetch finishes. A late title or
@@ -224,6 +223,8 @@ class Reader {
       toggle.append(faces(part, title)[1]); card.append(toggle); this.game.append(card);
       return { part, type: part, title, id, card, toggle };
     });
+    // Last, so Tab goes Moves, question, film: the left cell, then the right. It never moves after this (D-501: that reloads a player).
+    this.game.append(this.mediaHome);
     this.gameHomes = new Map();
     this.sections = [];
     app.wrapRef.current.append(this.root);
@@ -322,7 +323,7 @@ class Reader {
     this.root.dataset.readerReady = "false";
     if (this.contents) this.contents.hidden = true;
     this.place(this.mediaHome);
-    this.sections = []; this.mediaSlot = null;
+    this.sections = []; this.mediaSlot = null; this.lead = 0;
     this.articleEl.replaceChildren(...(this.head.parentElement === this.articleEl ? [this.head] : []), element("p", { role: "status" }, "Loading the complete article…"));
     this.sync();
     try {
@@ -437,6 +438,7 @@ class Reader {
     // U12 a (owner): the article's own ✕, the sections' ghost ✕, puts the article away (the plain map view).
     this.bookClose ||= button("", () => this.toggle("book"), { "data-reader-close": "", "aria-label": "Put the article away", title: "Put the article away" });
     if (!this.bookClose.firstChild) this.bookClose.append(element("span", { class: "ng-section-x", "aria-hidden": "true" }, "✕"));
+    this.bookClose.style.marginRight = 0;
     this.articleEl.replaceChildren(this.bookClose, ...(this.head.parentElement === this.articleEl ? [this.head] : []));
     const tools = this.tools;
     this.heading.textContent = title;
@@ -630,7 +632,7 @@ class Reader {
   // D-338 (owner): Video, Moves, Questions, then the article in its own order.
   readingOrder(game) {
     const video = this.sections.filter(s => s.type === "videos");
-    return [...video, ...(game ? this.gameSections : []), ...this.sections.filter(s => s.type !== "videos")];
+    return [...(game ? this.gameSections : []), ...video, ...this.sections.filter(s => s.type !== "videos")];
   }
   partEl(part) { return part === "card" ? this.app._landEl : part === "hand" ? this.app.optionsRef.current : null; }
   toggleSection(type, shown = !sectionShown(this.app, type)) {
@@ -1163,15 +1165,7 @@ class Reader {
       // has only a 400-character minimum, so a character count cannot size a tile. 24 is reading.css's --gap on two
       // columns; on one, a side changes nothing. Both columns are one width, so a side cannot change a height. The sides
       // stay as they are while the article is put away (its tiles measure 0), so sync() restores bookScroll into the same layout.
-      if (available) {
-        let l = 0, r = 0;
-        for (const s of this.sections) if (!s.body.hidden && !s.control) {
-          // Within a pixel is a draw: a reader sees one line, and the left wins it.
-          const right = l > r + 1, height = rect(s.card).height + 24;
-          s.card.toggleAttribute("data-right", right);
-          if (right) r += height; else l += height;
-        }
-      }
+      if (available) this.sortColumns(...this.lead || []);
       if (toc) {
         toc.hidden = !available || root.dataset.readerReady !== "true" || !fits;
         root.toggleAttribute("data-indexed", !toc.hidden);
@@ -1207,7 +1201,7 @@ class Reader {
             dock.reader = { rowTop: box.top - top, height: box.bottom - top, rowHeight: box.height };
           }
           // The hand goes before the closed Questions label: Tab order follows Moves, then Questions.
-          if (key === "hand") this.gameSections[1].card.before(el); else game.append(el);
+          if (key === "hand") this.gameSections[1].card.before(el); else home.before(el);
           el.setAttribute("data-reader-game-part", key);
           // A late question can replace its body after syncSections. Publish
           // the named eye's target with the actual adopted surface, once.
@@ -1258,10 +1252,13 @@ class Reader {
       // credits; the retained Videos control still governs the film.
       // Keep the deck's 44px outside arrows plus 8px clearance. The left arrow
       // lives in the 60px media gap; the right arrow also fits inside the pane.
-      const [beside, mediaWidth, askStep] = a.filmLayout(free.width, H, homeMedia && showCard, card, row);
+      // U104 (owner, 2026-11-06): the question is the left column's first row and the current technique's video card the right's,
+      // asking or open. Under an 800px grid a column is too narrow for a card and its arrow (288px at 768), so they stack, question first.
+      const column = available && grid > 800 && H > 500 ? (grid - 24) / 2 : 0;
+      const [beside, mediaWidth, askStep] = a.filmLayout(free.width, H, homeMedia && (showCard || column), card, row, column);
       const mediaLayout = homeMedia ? beside ? "side-by-side" : "stacked" : "none";
       if (game.dataset.mediaLayout !== mediaLayout) game.dataset.mediaLayout = mediaLayout;
-      if (card) style(card, "width", Math.min(beside ? 390 : arrows ? 560 : 520, free.width - (arrows && !beside ? 104 : 32)), "important");
+      if (card) style(card, "width", Math.min(column ? asking ? column : column - 52 : beside ? 390 : arrows ? 560 : 520, free.width - (arrows && !beside ? 104 : 32)), "important");
       const cardWidth = rect(card)?.width || 0;
       style(home, "width", mediaWidth, "important");
       // Videos supplies its natural content height (A: ~241px desktop, ~220px
@@ -1312,7 +1309,7 @@ class Reader {
         if (homeMedia && !beside && !follows) { position(home, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight + 12; }
         if (pin) y = pin.cardY || (pin.cardY = y);
         cardY = y;
-        if (beside) { const groupLeft = free.center - (mediaWidth + 60 + cardWidth + 52) / 2; position(home, groupLeft, cardY, mediaWidth); cardX = groupLeft + mediaWidth + 60; }
+        if (column) cardX = free.center - grid / 2;
         // Owner (2026-11-06, U90): "the question below the choices should be left aligned, aligned with the left start of
         // Your choices/moves label". The label is its group's first line, 3px inside it, and the line's text sits 4px inside
         // the card. offsetLeft, because a scrolled tray or Inspect's slide moves the label and must not take the line along.
@@ -1320,18 +1317,32 @@ class Reader {
         if (moves) cardX = rowLeft + moves.offsetLeft - 1;
         if (card) position(card, cardX, cardY);
         // The deck's backs peek 3px per remaining card below the face; the article clears them.
-        if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight) + 3 * (a._landStackEl?.childElementCount || 0);
+        if (showCard) y += cardHeight + 3 * (a._landStackEl?.childElementCount || 0);
         else if (!label("card").hidden) { position(label("card"), left, y, width); y += rect(label("card")).height; }
         if (questionFirst) { y += step; placeHand(); y -= step; }
         if (follows) { y += step; position(home, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight; }
-        else if (homeMedia && !showCard) { position(home, free.center - mediaWidth / 2, y + step, mediaWidth); y += step + mediaHeight; }
+        else if (homeMedia && !showCard && !beside) { position(home, free.center - mediaWidth / 2, y + step, mediaWidth); y += step + mediaHeight; }
+        // U104: the film's cell. An asking question is a line in the Moves band, whose padding the row gives back as it opens, so
+        // the film starts where the open card will, and taking the question up moves it nowhere. `reach` is how far the taller
+        // cell runs past the shorter one, and each column carries on under its own.
+        let reach = 0;
+        if (column) {
+          const filmEnd = cardY + (homeMedia ? (askStep != null ? step + 3 : 0) + mediaHeight : 0);
+          if (homeMedia) position(home, free.center + 12, filmEnd - mediaHeight, mediaWidth);
+          reach = filmEnd - y; y = Math.min(y, filmEnd);
+        }
         gameHeight = Math.max((handoff?.height ?? 0) + (handoff?.slot || 0), y);
+        // The article's own ✕ stays clear of a film that reaches past the Moves' line.
+        if (this.body) style(this.bookClose, "margin-right", reach > 0 ? width / 2 + 12 : 0);
+        this.lead = [-reach, reach].map(x => Math.max(0, x));
+        this.sortColumns(...this.lead);
       } else {
+        // U104: the same sides with no article under them.
         const stageHeight = beside ? Math.max(cardHeight, mediaHeight) : cardHeight + mediaHeight + (homeMedia && showCard ? 12 : 0);
         start = Math.max(6, Math.min(start, end - top - stageHeight - gap - handHeight));
         const groupLeft = free.center - (mediaWidth + 60 + cardWidth + 52) / 2;
-        if (homeMedia) position(home, beside ? groupLeft : free.center - mediaWidth / 2, start + (beside ? (stageHeight - mediaHeight) / 2 : 0), mediaWidth);
-        if (beside) cardX = groupLeft + mediaWidth + 60;
+        if (homeMedia) position(home, beside ? groupLeft + cardWidth + 112 : free.center - mediaWidth / 2, start + (beside ? (stageHeight - mediaHeight) / 2 : 0), mediaWidth);
+        if (beside) cardX = groupLeft + 52;
         cardY = start + (beside ? stageHeight - cardHeight : homeMedia ? mediaHeight + 12 : 0);
         if (card) position(card, cardX, cardY);
         const rowTop = handoff?.rowTop ?? start + stageHeight + gap;
@@ -1366,6 +1377,22 @@ class Reader {
       // anchor a block starting within the reader instead, retaining the rounded correction.
       if (keep) { this.held = keep; this.heldAt = this.placeTop = root.scrollTop += Math.round(rect(keep).top - was); }
       this.laying = false;
+    }
+  }
+  // U104: l and r are how far the stage's taller first-row cell reaches past the shorter one, so each column carries on under its own cell.
+  sortColumns(l = 0, r = 0) {
+    const a = l, b = r;
+    let last = 0;
+    for (const s of this.sections) if (!s.body.hidden && !s.control) {
+      // Within a pixel is a draw: a reader sees one line, and the left wins it.
+      const right = l > r + 1, height = s.card.getBoundingClientRect().height + 24, at = right ? r : l, css = s.card.style;
+      s.card.toggleAttribute("data-right", right);
+      // The first tile under the taller cell starts below it. A float's margin counts from the float before it (CSS 2.1 9.5.1 rule 5),
+      // and with nothing yet across the column two tiles of one side would stand side by side, so each clears its own side.
+      css.marginTop = (right ? r == b : l == a) ? at - last + "px" : 0;
+      css.clear = a + b ? right ? "right" : "left" : "";
+      last = at;
+      if (right) r += height; else l += height;
     }
   }
   destroy() {

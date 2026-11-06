@@ -54,6 +54,7 @@
 .ng-landfilm.ng-current-card .ng-cliprow { padding:0!important; margin:0!important; gap:8px!important; scroll-snap-type:x mandatory; mask-image:none!important; -webkit-mask-image:none!important; }
 .ng-landfilm.ng-current-card .ng-cliprow .ng-clip { flex:0 0 calc(90.9090909% - 7.272727px); width:calc(90.9090909% - 7.272727px)!important; height:auto!important; aspect-ratio:16/9; border:0!important; border-radius:0; transition:none; }
 .ng-landfilm.ng-current-card[data-single-video] .ng-clip { flex-basis:100%; width:100%!important; }
+.ng-current-card .ng-choice-media { height:auto; aspect-ratio:16/9; }
 .ng-current-card footer { margin:0; opacity:1; display:flex; align-items:center; justify-content:space-between; height:40px; padding:0 12px; box-sizing:border-box; font-size:11px; color:#aab9d3; }
 .ng-current-stat { display:flex; flex-direction:column; min-width:64px; gap:1px; font-size:10px; text-align:right; }
 .ng-current-stat strong { font-size:18px; line-height:1.1; color:#edf3ff; font-variant-numeric:tabular-nums; }

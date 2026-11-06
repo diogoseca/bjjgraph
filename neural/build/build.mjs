@@ -63,7 +63,12 @@ const conceptsCSS = readFileSync(R("src/concepts.css"), "utf8");
 // THE READING STYLESHEET IS READ HERE AND DELIBERATELY NOT JOINED INTO `cssJoined` (v1.194.0).
 // It is emitted as its own artifact below and fetched by the deferred reader. See the long
 // note at the top of src/reading.css for why, and the both-halves assertion after the emit.
-const readingCSS = readFileSync(R("src/reading.css"), "utf8");
+// U104's preview switch: NG_SLIM_NO_VIDEO=1 builds the one-line "Video unavailable" card. Off, this adds no byte to any bundle.
+const SLIM_NO_VIDEO_CSS = `
+.ng-current-title:has(+[data-choice-media]), [data-choice-media]+footer { display:none; }
+.ng-current-card>[data-choice-media] { height:44px; aspect-ratio:auto; }
+`;
+const readingCSS = readFileSync(R("src/reading.css"), "utf8") + (process.env.NG_SLIM_NO_VIDEO ? SLIM_NO_VIDEO_CSS : "");
 
 // lists-codec.src.js is a REAL ES module (so `node --test` and a Cloudflare Pages Function
 // can import the identical source — one codec, never a second implementation to drift).
