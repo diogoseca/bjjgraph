@@ -418,7 +418,17 @@
       }
     ],
     "safety_considerations": "The far side armbar applies significant hyperextension force to the elbow joint. Always apply the finish progressively, giving your training partner time to recognize the threat and tap. Release immediately upon feeling a tap or hearing a verbal submission. In training, emphasize reaching armbar control position rather than cranking through full extension. Be especially cautious during the leg swing transition phase, as the opponent's arm can be caught at an awkward angle if the grip shifts unexpectedly. Never apply explosive force to the elbow — use steady, controlled pressure. Both partners should communicate clearly about comfort and tap early when caught.",
-    "clips": []
+    "clips": [
+      {
+        "id": "OXMOkdBo1Ao",
+        "title": "Far Side Armbar from Knee on Belly - Courtesy of Maryland BJJ School, Crazy 88…",
+        "channel": "BaltimoreJiuJitsu",
+        "duration": 42,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Far Side Armbar from KOB Defender",
@@ -594,6 +604,16 @@
         "description": "Partner attempts the far side armbar with full commitment. Defender practices not just blocking the attack but actively converting the defense into guard recovery or positional reversal. Bridge-and-turn during the transition to catch the attacker off-balance and recover half guard or achieve a scramble to a neutral position."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "QmsUagYxkvY",
+        "title": "Spinning Armbar Escape from Knee on Stomach 2 - the Leg Grab Variation",
+        "channel": "Revolution BJJ",
+        "duration": 23,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

@@ -176,6 +176,37 @@ description: "Execute the Guillotine Escape to Von Flue choke. Step-by-step guid
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Escape to Von Flue (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Technique: Von Flue Guillotine Escape",
+      "description": "Guillotine Escape to Von Flue (Attacker) film study: BJJ Technique: Von Flue Guillotine Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4eVRpNHz4cc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4eVRpNHz4cc",
+      "url": "https://www.youtube.com/watch?v=4eVRpNHz4cc",
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine Escape to Von Flue Choke",
+      "description": "Guillotine Escape to Von Flue (Attacker) film study: Guillotine Escape to Von Flue Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-bmiNN7x1Uc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-bmiNN7x1Uc",
+      "url": "https://www.youtube.com/watch?v=-bmiNN7x1Uc",
+      "duration": "PT167S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +219,32 @@ As the attacker in the Guillotine Escape to Von Flue, you are the practitioner c
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Escape to Von Flue (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4eVRpNHz4cc)
+
+<p class="clip-credit"><strong>BJJ Technique: Von Flue Guillotine Escape</strong> · 0:37 · <a href="https://www.youtube.com/watch?v=4eVRpNHz4cc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-bmiNN7x1Uc)
+
+<p class="clip-credit"><strong>Guillotine Escape to Von Flue Choke</strong> · 2:47 · <a href="https://www.youtube.com/watch?v=-bmiNN7x1Uc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

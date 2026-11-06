@@ -142,6 +142,37 @@ description: "Defend against the bridge escape from Kesa Gatame. Learn to recogn
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the Bridge - Scarf Hold \u0026 The Dragon Walk",
+      "description": "Bridge Escape from Kesa Gatame (Defender) film study: Countering the Bridge - Scarf Hold \u0026 The Dragon Walk.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4gayf_3Mk4E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4gayf_3Mk4E",
+      "url": "https://www.youtube.com/watch?v=4gayf_3Mk4E",
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Headstack Counter To The Scarf Hold Bridge (Eliminating Weight Distribution\u2026",
+      "description": "Bridge Escape from Kesa Gatame (Defender) film study: Headstack Counter To The Scarf Hold Bridge (Eliminating Weight Distribution\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6NFL_qNrROc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6NFL_qNrROc?start=126",
+      "url": "https://www.youtube.com/watch?v=6NFL_qNrROc",
+      "duration": "PT299S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +185,32 @@ As the top player defending against the bridge escape from Kesa Gatame, your obj
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4gayf_3Mk4E)
+
+<p class="clip-credit"><strong>Countering the Bridge - Scarf Hold &amp; The Dragon Walk</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=4gayf_3Mk4E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6NFL_qNrROc&start=126)
+
+<p class="clip-credit"><strong>Headstack Counter To The Scarf Hold Bridge (Eliminating Weight Distribution…</strong> · 4:59 · <a href="https://www.youtube.com/watch?v=6NFL_qNrROc&t=126s" rel="noopener">Watch on YouTube from 2:06</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

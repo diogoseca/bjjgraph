@@ -354,7 +354,18 @@
       }
     ],
     "safety_considerations": "Practice this escape at reduced intensity initially as the gogoplata creates real airway compression that can cause panic responses. Partners should establish clear tap signals before drilling and immediately release upon any tap. When drilling the escape, the bottom player should maintain the position loosely enough to allow successful practice without risk of loss of consciousness. Avoid training this escape when fatigued as poor technique under pressure can lead to neck strain or injury. The emergency roll variant carries additional risk of neck injury if performed incorrectly - only attempt after mastering the basic mechanics.",
-    "clips": []
+    "clips": [
+      {
+        "id": "7WcJK3B-Gwc",
+        "title": "gogoplata defense",
+        "channel": "kenprimo",
+        "duration": 101,
+        "vertical": false,
+        "start": 28,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Extraction Escape Defender",

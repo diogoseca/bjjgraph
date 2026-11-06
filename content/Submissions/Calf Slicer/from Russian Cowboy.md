@@ -36,6 +36,37 @@ description: "Master the calf slicer from Russian Cowboy in BJJ. Complete guide 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Russian Cowboy \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Calf Slicer setup from the back",
+      "description": "Calf Slicer from Russian Cowboy film study: Calf Slicer setup from the back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9LhHVcVVGvs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9LhHVcVVGvs",
+      "url": "https://www.youtube.com/watch?v=9LhHVcVVGvs",
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "CALF SLICER FROM BACK MOUNT DETAILS",
+      "description": "Calf Slicer from Russian Cowboy film study: CALF SLICER FROM BACK MOUNT DETAILS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2YQF94UJuGM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2YQF94UJuGM",
+      "url": "https://www.youtube.com/watch?v=2YQF94UJuGM",
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -80,6 +111,32 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Russian Cowboy in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9LhHVcVVGvs)
+
+<p class="clip-credit"><strong>Calf Slicer setup from the back</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=9LhHVcVVGvs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2YQF94UJuGM)
+
+<p class="clip-credit"><strong>CALF SLICER FROM BACK MOUNT DETAILS</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=2YQF94UJuGM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

@@ -837,6 +837,26 @@
         "description": "Full-speed positional sparring from clinch where partner may or may not attempt the duck under alongside other clinch attacks. Develop the ability to defend the duck under while maintaining your own offensive clinch strategy, avoiding the trap of becoming overly defensive and passive against the threat."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "cB4ACnSA0gU",
+        "title": "Duck under defense",
+        "channel": "Jonathan Potter",
+        "duration": 85,
+        "vertical": false,
+        "start": 27,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "XdKf5MhjEA0",
+        "title": "Duck Under ATTACK AND DEFENSE Tutorial - Standing in BJJ",
+        "channel": "Strainger Grappling",
+        "duration": 557,
+        "vertical": false,
+        "start": 326,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

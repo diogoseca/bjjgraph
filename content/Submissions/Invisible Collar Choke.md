@@ -36,6 +36,27 @@ description: "The bottom Invisible Collar holder applies the vascular choke from
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Invisible Collar Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Invisible Collar Choke from Rubber Guard",
+      "description": "Invisible Collar Choke film study: Invisible Collar Choke from Rubber Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8wYsegjBqRA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8wYsegjBqRA",
+      "url": "https://www.youtube.com/watch?v=8wYsegjBqRA",
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -82,6 +103,24 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Invisible Collar Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8wYsegjBqRA)
+
+<p class="clip-credit"><strong>Invisible Collar Choke from Rubber Guard</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=8wYsegjBqRA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

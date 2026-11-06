@@ -162,6 +162,27 @@ description: "Kimura from an established triangle entanglement, with attack and 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Triangle Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Caio Terra, Kimura from Triangle",
+      "description": "Kimura from Triangle Control (Attacker) film study: Caio Terra, Kimura from Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/32-6U-k6-Hg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/32-6U-k6-Hg",
+      "url": "https://www.youtube.com/watch?v=32-6U-k6-Hg",
+      "duration": "PT149S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -175,6 +196,24 @@ Kimura from Triangle Control is a distinct submission state: the bottom player r
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Triangle Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=32-6U-k6-Hg)
+
+<p class="clip-credit"><strong>Caio Terra, Kimura from Triangle</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=32-6U-k6-Hg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

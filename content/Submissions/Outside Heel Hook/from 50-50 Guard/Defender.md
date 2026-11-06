@@ -150,6 +150,27 @@ description: "Defend the outside heel hook from 50-50 guard. Recognition cues, h
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook from 50-50 Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ashi garami, 50\\50, defending the outside heel hook.",
+      "description": "Outside Heel Hook from 50-50 Guard (Defender) film study: Ashi garami, 50\\50, defending the outside heel hook..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wobk37PLXjQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wobk37PLXjQ",
+      "url": "https://www.youtube.com/watch?v=Wobk37PLXjQ",
+      "duration": "PT156S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -163,6 +184,24 @@ Defending the outside heel hook from 50-50 guard demands immediate heel protecti
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook from 50-50 Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wobk37PLXjQ)
+
+<p class="clip-credit"><strong>Ashi garami, 50\50, defending the outside heel hook.</strong> · 2:36 · <a href="https://www.youtube.com/watch?v=Wobk37PLXjQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

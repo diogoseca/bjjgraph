@@ -36,6 +36,27 @@ description: "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from F
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Peruvian Necktie Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front headlock to Peruvian necktie",
+      "description": "Peruvian Necktie Setup film study: Front headlock to Peruvian necktie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4ob2ZrEH3Yc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4ob2ZrEH3Yc",
+      "url": "https://www.youtube.com/watch?v=4ob2ZrEH3Yc",
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -70,6 +91,24 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Peruvian Necktie Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4ob2ZrEH3Yc)
+
+<p class="clip-credit"><strong>Front headlock to Peruvian necktie</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=4ob2ZrEH3Yc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

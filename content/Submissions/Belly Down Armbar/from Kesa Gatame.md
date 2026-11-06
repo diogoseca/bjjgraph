@@ -36,6 +36,37 @@ description: "Master the belly down armbar finish from Kesa Gatame. Learn the st
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Kesa Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belly Down Arm bar from turtle",
+      "description": "Belly Down Armbar from Kesa Gatame film study: Belly Down Arm bar from turtle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UXPfzHTSCDE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UXPfzHTSCDE",
+      "url": "https://www.youtube.com/watch?v=UXPfzHTSCDE",
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Belly Down Armbar From Half Guard",
+      "description": "Belly Down Armbar from Kesa Gatame film study: The Belly Down Armbar From Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9XqsAx3qE5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9XqsAx3qE5A",
+      "url": "https://www.youtube.com/watch?v=9XqsAx3qE5A",
+      "duration": "PT35S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -80,6 +111,32 @@ This technique is particularly effective against opponents who defend the tradit
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Kesa Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UXPfzHTSCDE)
+
+<p class="clip-credit"><strong>Belly Down Arm bar from turtle</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=UXPfzHTSCDE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9XqsAx3qE5A)
+
+<p class="clip-credit"><strong>The Belly Down Armbar From Half Guard</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=9XqsAx3qE5A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

@@ -353,7 +353,18 @@
       }
     ],
     "safety_considerations": "This transition involves rapid leg repositioning within leg entanglements and carries inherent knee and ankle injury risk. Always practice initially at slow speed with cooperative partners, gradually increasing resistance only after movement patterns are established. Never jerk or explosive movements while legs are entangled - smooth, controlled motion protects both practitioners. Tap immediately if you feel knee rotation pressure during the transition. Communicate clearly with training partners about intensity level. If either practitioner's knee becomes trapped at an awkward angle during the movement, stop immediately and reset rather than forcing through. This technique should only be practiced after establishing proficiency in both 50-50 position maintenance and basic inside ashi-garami controls.",
-    "clips": []
+    "clips": [
+      {
+        "id": "FBxL7t27d-Q",
+        "title": "50/50 into Saddle: Leg lock transitions",
+        "channel": "JK JiuJitsu",
+        "duration": 128,
+        "vertical": false,
+        "start": 56,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "50-50 Guard to Inside Ashi Defender",

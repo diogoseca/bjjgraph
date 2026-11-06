@@ -554,7 +554,18 @@
         "description": "Full resistance rounds starting from Gift Wrap bottom. Defender must manage both choke and armbar threats simultaneously. Focus on not extending the free arm under pressure and timing escapes to the attacker's transitions rather than reacting after positions are consolidated."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "b0Efpfxlxbs",
+        "title": "Basic BJJ Armbar Escapes",
+        "channel": "StratfordBJJ",
+        "duration": 1139,
+        "vertical": false,
+        "start": 82,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

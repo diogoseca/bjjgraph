@@ -594,7 +594,18 @@
         "description": "Full resistance positional sparring starting from front headlock. Your goal is to either maintain control, submit, or advance to back control within 30 seconds. Bottom player uses full escape toolkit including arm drag. Track which defensive responses work best against specific partners and refine your counter-selection. Integrate into live rolling whenever you achieve front headlock."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Qnxy36vyAms",
+        "title": "ARM-DRAG FROM FRONT HEADLOCK and COUNTER",
+        "channel": "LI MMA",
+        "duration": 117,
+        "vertical": false,
+        "start": 80,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

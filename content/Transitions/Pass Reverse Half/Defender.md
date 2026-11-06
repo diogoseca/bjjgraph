@@ -150,6 +150,37 @@ description: "Defend against Reverse Half Guard passing in BJJ. Recognition cues
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Reverse Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Half Guard Basic Escapes- Sacramento Braziliain JIu-Jitsu",
+      "description": "Pass Reverse Half (Defender) film study: Reverse Half Guard Basic Escapes- Sacramento Braziliain JIu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wZbDX4X6ZCM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wZbDX4X6ZCM",
+      "url": "https://www.youtube.com/watch?v=wZbDX4X6ZCM",
+      "duration": "PT388S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to counter switch base half guard pass (Eyad Jaara)",
+      "description": "Pass Reverse Half (Defender) film study: How to counter switch base half guard pass (Eyad Jaara).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Lwr3lvoNfLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Lwr3lvoNfLg?start=23",
+      "url": "https://www.youtube.com/watch?v=Lwr3lvoNfLg",
+      "duration": "PT199S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +193,32 @@ As the defender against Pass Reverse Half, you are in reverse half guard bottom�
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Reverse Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wZbDX4X6ZCM)
+
+<p class="clip-credit"><strong>Reverse Half Guard Basic Escapes- Sacramento Braziliain JIu-Jitsu</strong> · 6:28 · <a href="https://www.youtube.com/watch?v=wZbDX4X6ZCM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Lwr3lvoNfLg&start=23)
+
+<p class="clip-credit"><strong>How to counter switch base half guard pass (Eyad Jaara)</strong> · 3:19 · <a href="https://www.youtube.com/watch?v=Lwr3lvoNfLg&t=23s" rel="noopener">Watch on YouTube from 0:23</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

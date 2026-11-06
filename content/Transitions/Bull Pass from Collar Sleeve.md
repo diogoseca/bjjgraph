@@ -36,6 +36,27 @@ description: "Master the Bull Pass from Collar Sleeve Guard. Complete BJJ guide 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bull Pass from Collar Sleeve \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Collar Sleeve Guard Pass to Bullfighter and Leg Drag",
+      "description": "Bull Pass from Collar Sleeve film study: Collar Sleeve Guard Pass to Bullfighter and Leg Drag.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DMvvqaUfOtw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DMvvqaUfOtw",
+      "url": "https://www.youtube.com/watch?v=DMvvqaUfOtw",
+      "duration": "PT127S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, the bull pass serves as a complement to pressure-based passing fr
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bull Pass from Collar Sleeve in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DMvvqaUfOtw)
+
+<p class="clip-credit"><strong>Collar Sleeve Guard Pass to Bullfighter and Leg Drag</strong> · 2:07 · <a href="https://www.youtube.com/watch?v=DMvvqaUfOtw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

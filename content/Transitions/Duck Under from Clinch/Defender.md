@@ -158,6 +158,37 @@ description: "Learn to defend the Duck Under from Clinch in BJJ. Recognition cue
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Duck Under from Clinch (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Duck under defense",
+      "description": "Duck Under from Clinch (Defender) film study: Duck under defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cB4ACnSA0gU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cB4ACnSA0gU?start=27",
+      "url": "https://www.youtube.com/watch?v=cB4ACnSA0gU",
+      "duration": "PT85S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Duck Under ATTACK AND DEFENSE Tutorial - Standing in BJJ",
+      "description": "Duck Under from Clinch (Defender) film study: Duck Under ATTACK AND DEFENSE Tutorial - Standing in BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XdKf5MhjEA0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XdKf5MhjEA0?start=326",
+      "url": "https://www.youtube.com/watch?v=XdKf5MhjEA0",
+      "duration": "PT557S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -172,6 +203,32 @@ The defender who masters duck under recognition can convert successful defenses 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Duck Under from Clinch (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cB4ACnSA0gU&start=27)
+
+<p class="clip-credit"><strong>Duck under defense</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=cB4ACnSA0gU&t=27s" rel="noopener">Watch on YouTube from 0:27</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XdKf5MhjEA0&start=326)
+
+<p class="clip-credit"><strong>Duck Under ATTACK AND DEFENSE Tutorial - Standing in BJJ</strong> · 9:17 · <a href="https://www.youtube.com/watch?v=XdKf5MhjEA0&t=326s" rel="noopener">Watch on YouTube from 5:26</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -396,7 +396,25 @@
       }
     ],
     "safety_considerations": "The Von Flue choke is a blood choke that can produce unconsciousness within seconds once properly established. Always tap immediately when caught in a Von Flue during training—the onset of unconsciousness is often sudden without gradual warning sensations. When applying the technique, maintain constant awareness of your partner's consciousness and release immediately upon tap or any signs of distress. During the passing phase, practitioners should tap early if the guillotine is too tight to survive the passing sequence rather than risking oxygen deprivation or cervical injury. Never ignore neck pain symptoms—cervical spine compression can occur if excessive downward shoulder force is applied improperly.",
-    "clips": []
+    "clips": [
+      {
+        "id": "4eVRpNHz4cc",
+        "title": "BJJ Technique: Von Flue Guillotine Escape",
+        "channel": "Grappling Mastery: BJJ & Muay Thai Academy",
+        "duration": 37,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "-bmiNN7x1Uc",
+        "title": "Guillotine Escape to Von Flue Choke",
+        "channel": "Shark Pit BJJ",
+        "duration": 167,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Guillotine Escape to Von Flue Defender",
@@ -587,6 +605,25 @@
         "description": "Partner commits to the Von Flue passing sequence at full intensity. Practice finishing the guillotine during the opponent's passing attempt by exploiting their forward momentum and timing the maximum choke pressure as they drive through the pass. This is advanced timing work requiring excellent feel."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "sVTvrJqnXww",
+        "title": "TMG Clips #197 - Learn To Defend The Von Flue Choke!",
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 158,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "xYDGYbZXvw0",
+        "title": "Von Flue Defense (Huge Update to the System)",
+        "channel": "Elevate MMA Academy",
+        "duration": 175,
+        "vertical": false,
+        "start": 42,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

@@ -46,12 +46,22 @@ description: "Learn Triangle from Mount in BJJ. Step-by-step setup from 3-4 Moun
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Preventing the Mounted Triangle",
-      "description": "Triangle from Mount film study: Preventing the Mounted Triangle.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/l-HhOV9UjJU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/l-HhOV9UjJU",
-      "url": "https://www.youtube.com/watch?v=l-HhOV9UjJU",
-      "duration": "PT104S"
+      "name": "Mounted Triangle Setup | Fish x BloomBJJ",
+      "description": "Triangle from Mount film study: Mounted Triangle Setup | Fish x BloomBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FPpTdENZrcE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FPpTdENZrcE?start=89",
+      "url": "https://www.youtube.com/watch?v=FPpTdENZrcE",
+      "duration": "PT187S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to set up the Triangle Choke from Mount/Gift Wrap",
+      "description": "Triangle from Mount film study: How to set up the Triangle Choke from Mount/Gift Wrap.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9m9VA9StG4w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9m9VA9StG4w",
+      "url": "https://www.youtube.com/watch?v=9m9VA9StG4w",
+      "duration": "PT275S"
     }
   ]
 }
@@ -105,9 +115,17 @@ At competition level, the mounted triangle is devastating because it combines po
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=l-HhOV9UjJU)
+![](https://www.youtube.com/watch?v=FPpTdENZrcE&start=89)
 
-<p class="clip-credit"><strong>Preventing the Mounted Triangle</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=l-HhOV9UjJU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mounted Triangle Setup | Fish x BloomBJJ</strong> · 3:07 · <a href="https://www.youtube.com/watch?v=FPpTdENZrcE&t=89s" rel="noopener">Watch on YouTube from 1:29</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9m9VA9StG4w)
+
+<p class="clip-credit"><strong>How to set up the Triangle Choke from Mount/Gift Wrap</strong> · 4:35 · <a href="https://www.youtube.com/watch?v=9m9VA9StG4w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

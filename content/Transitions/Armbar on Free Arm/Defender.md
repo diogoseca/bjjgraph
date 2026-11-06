@@ -150,6 +150,27 @@ description: "How to defend against Armbar on Free Arm in BJJ. Recognition cues,
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar on Free Arm (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic BJJ Armbar Escapes",
+      "description": "Armbar on Free Arm (Defender) film study: Basic BJJ Armbar Escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b0Efpfxlxbs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/b0Efpfxlxbs?start=82",
+      "url": "https://www.youtube.com/watch?v=b0Efpfxlxbs",
+      "duration": "PT1139S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,6 +187,24 @@ From a strategic perspective, the best defense begins before the armbar is attem
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar on Free Arm (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=b0Efpfxlxbs&start=82)
+
+<p class="clip-credit"><strong>Basic BJJ Armbar Escapes</strong> · 18:59 · <a href="https://www.youtube.com/watch?v=b0Efpfxlxbs&t=82s" rel="noopener">Watch on YouTube from 1:22</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

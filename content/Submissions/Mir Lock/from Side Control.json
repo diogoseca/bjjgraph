@@ -498,7 +498,26 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "-Zq8zXCtIlg",
+        "title": "MMA Demo | Mir Lock From Side Control | Laura Sanko",
+        "channel": "One On One | MMA",
+        "duration": 179,
+        "vertical": false,
+        "start": 32,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "QeHT5SvHad8",
+        "title": "Marcus Douithitt- arm bundle Mir lock from side control",
+        "channel": "Firehouse Fit",
+        "duration": 235,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Mir Lock Defender",
@@ -691,7 +710,17 @@
         "description": "Begin from bottom side control against a partner who actively hunts for the Mir Lock alongside other submissions. Practice integrating Mir Lock defense into your broader side control escape system, recognizing when the Mir Lock threat is developing versus Americana or Kimura setups, and selecting the correct defensive response for each. Evaluate how often you escape versus tap and identify which defensive stage needs the most improvement."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "URSGCnHSVVY",
+        "title": "Corey - Defend Mir Lock and escape half guard",
+        "channel": "BJJ Techniques",
+        "duration": 73,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "variations_and_setups": [
     {

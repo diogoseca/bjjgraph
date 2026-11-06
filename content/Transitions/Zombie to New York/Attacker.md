@@ -170,6 +170,27 @@ description: "The bottom Zombie player completes the contested hand-clearing act
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Zombie to New York (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber Guard 101: Zombie, New York, Chill Dog, Jiu Claw (omoplata)",
+      "description": "Zombie to New York (Attacker) film study: Rubber Guard 101: Zombie, New York, Chill Dog, Jiu Claw (omoplata).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wUDqbU2jwxg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wUDqbU2jwxg?start=84",
+      "url": "https://www.youtube.com/watch?v=wUDqbU2jwxg",
+      "duration": "PT278S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Zombie to New York (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wUDqbU2jwxg&start=84)
+
+<p class="clip-credit"><strong>Rubber Guard 101: Zombie, New York, Chill Dog, Jiu Claw (omoplata)</strong> · 4:38 · <a href="https://www.youtube.com/watch?v=wUDqbU2jwxg&t=84s" rel="noopener">Watch on YouTube from 1:24</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -128,6 +128,37 @@ description: "Recognize the D'Arce thread and protect the head-and-arm connectio
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Choke from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Darce Choke Defense : Counter Sweep From Half Guard And Bottom Of Side",
+      "description": "Darce Choke from Side Control (Defender) film study: Darce Choke Defense : Counter Sweep From Half Guard And Bottom Of Side.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MpBR8-9F28s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MpBR8-9F28s?start=42",
+      "url": "https://www.youtube.com/watch?v=MpBR8-9F28s",
+      "duration": "PT195S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Move of the Day: D\u0027arce Defense - Belly Down",
+      "description": "Darce Choke from Side Control (Defender) film study: Move of the Day: D\u0027arce Defense - Belly Down.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cmaIzjv3QG8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cmaIzjv3QG8",
+      "url": "https://www.youtube.com/watch?v=cmaIzjv3QG8",
+      "duration": "PT38S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -141,6 +172,32 @@ Respond as the arm threads under your armpit toward the neck. Keep room around t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Choke from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MpBR8-9F28s&start=42)
+
+<p class="clip-credit"><strong>Darce Choke Defense : Counter Sweep From Half Guard And Bottom Of Side</strong> · 3:15 · <a href="https://www.youtube.com/watch?v=MpBR8-9F28s&t=42s" rel="noopener">Watch on YouTube from 0:42</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cmaIzjv3QG8)
+
+<p class="clip-credit"><strong>Move of the Day: D&#39;arce Defense - Belly Down</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=cmaIzjv3QG8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

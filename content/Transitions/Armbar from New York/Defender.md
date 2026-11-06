@@ -150,6 +150,27 @@ description: "Learn to defend and escape the armbar from New York rubber guard. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from New York (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar Defense (Mata Leao from closed guard) FULL DETAILS",
+      "description": "Armbar from New York (Defender) film study: Armbar Defense (Mata Leao from closed guard) FULL DETAILS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y4xZE6kPiuw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y4xZE6kPiuw",
+      "url": "https://www.youtube.com/watch?v=Y4xZE6kPiuw",
+      "duration": "PT255S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the armbar from New York requires early recognition and immediate resp
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from New York (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y4xZE6kPiuw)
+
+<p class="clip-credit"><strong>Armbar Defense (Mata Leao from closed guard) FULL DETAILS</strong> · 4:15 · <a href="https://www.youtube.com/watch?v=Y4xZE6kPiuw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

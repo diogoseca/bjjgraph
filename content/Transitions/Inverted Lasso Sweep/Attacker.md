@@ -176,6 +176,27 @@ description: "Master the attacker perspective for the Inverted Lasso Sweep. Step
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Lasso Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Week 5: Deep Lasso Inverted Sweep",
+      "description": "Inverted Lasso Sweep (Attacker) film study: Week 5: Deep Lasso Inverted Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G5tcck1GPiE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G5tcck1GPiE",
+      "url": "https://www.youtube.com/watch?v=G5tcck1GPiE",
+      "duration": "PT99S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ Executing the Inverted Lasso Sweep requires precise coordination between the las
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Lasso Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G5tcck1GPiE)
+
+<p class="clip-credit"><strong>Week 5: Deep Lasso Inverted Sweep</strong> · 1:39 · <a href="https://www.youtube.com/watch?v=G5tcck1GPiE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

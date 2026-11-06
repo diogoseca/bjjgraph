@@ -150,6 +150,37 @@ description: "Master the defensive perspective against RDLR to Crab Ride in BJJ.
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "RDLR to Crab Ride (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kiss The Dragon Defense | Train Brazilian Jiu Jitsu | Hawaii JiuJitsu",
+      "description": "RDLR to Crab Ride (Defender) film study: Kiss The Dragon Defense | Train Brazilian Jiu Jitsu | Hawaii JiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JTEoohJ9mGM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JTEoohJ9mGM",
+      "url": "https://www.youtube.com/watch?v=JTEoohJ9mGM",
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kiss of the Dragon Counters",
+      "description": "RDLR to Crab Ride (Defender) film study: Kiss of the Dragon Counters.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0QNdTgoDIm8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0QNdTgoDIm8",
+      "url": "https://www.youtube.com/watch?v=0QNdTgoDIm8",
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +193,32 @@ Defending against RDLR to Crab Ride requires recognizing inversion attempts earl
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch RDLR to Crab Ride (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JTEoohJ9mGM)
+
+<p class="clip-credit"><strong>Kiss The Dragon Defense | Train Brazilian Jiu Jitsu | Hawaii JiuJitsu</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=JTEoohJ9mGM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0QNdTgoDIm8)
+
+<p class="clip-credit"><strong>Kiss of the Dragon Counters</strong> · 1:35 · <a href="https://www.youtube.com/watch?v=0QNdTgoDIm8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

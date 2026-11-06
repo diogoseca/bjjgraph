@@ -365,7 +365,17 @@
       }
     ],
     "safety_considerations": "The kneebar attacks the knee joint through hyperextension, which can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied with excessive force or speed. Always apply extension pressure gradually, allowing training partners time to tap before significant pressure builds. Never crank or jerk the submission. In training, establish clear tap protocols and release immediately upon tap signal. Avoid this technique entirely if training partner has existing knee injuries. During drilling, practice positional elements without live extension pressure until both partners are comfortable with the mechanics. Competition application requires even greater control awareness due to adrenaline and resistance levels. Practitioners with hypermobile joints may not feel the submission until damage occurs - communicate clearly with flexible training partners about pressure levels.",
-    "clips": []
+    "clips": [
+      {
+        "id": "4W6-SDBRPo4",
+        "title": "Inverted guard to kneebar",
+        "channel": "RKBJJ Class Archive",
+        "duration": 66,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Kneebar Entry from Inverted Guard Defender",

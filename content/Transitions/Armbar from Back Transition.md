@@ -36,6 +36,27 @@ description: "Master the Armbar from Back Transition in BJJ. Step-by-step guide 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Back Transition \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar from Standing Backtake",
+      "description": "Armbar from Back Transition film study: Armbar from Standing Backtake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zoVjp50nOFA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zoVjp50nOFA",
+      "url": "https://www.youtube.com/watch?v=zoVjp50nOFA",
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The key to success lies in recognizing the correct timing window: when the oppon
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Back Transition in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zoVjp50nOFA)
+
+<p class="clip-credit"><strong>Armbar from Standing Backtake</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=zoVjp50nOFA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">
