@@ -10,8 +10,6 @@ description: "How to execute the Twister Finish in BJJ. Attacking perspective wi
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Twister from Russian Cowboy targets the Thoracic and Cervical Spine. Risk: Thoracic spine herniated disc from opposed rotational compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -324,6 +322,8 @@ The submission's danger profile demands extreme caution in training. The spinal 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Twister/from Russian Cowboy#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

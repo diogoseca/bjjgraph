@@ -10,8 +10,6 @@ description: "Learn to finish the High Elbow Guillotine from Front Headlock with
 
 <body data-content-type="submissions">
 
-> **SAFETY**: High Elbow Guillotine from Front Headlock targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Executing the High Elbow Guillotine from Front Headlock requires precise coordin
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/High Elbow Guillotine/from Front Headlock#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

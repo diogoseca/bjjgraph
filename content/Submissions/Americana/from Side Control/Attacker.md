@@ -10,8 +10,6 @@ description: "How to execute Americana from Side Control in BJJ. Attacking persp
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Side Control targets the Shoulder joint (specifically rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -283,6 +281,8 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Americana/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

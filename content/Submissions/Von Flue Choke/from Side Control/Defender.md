@@ -10,8 +10,6 @@ description: "How to defend against Von Flue Choke in BJJ. Recognition, escape p
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Von Flue Choke from Side Control targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -258,6 +256,8 @@ Defending the Von Flue Choke requires understanding a fundamental paradox: the t
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Von Flue Choke/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

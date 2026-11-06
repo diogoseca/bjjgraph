@@ -102,9 +102,6 @@ description: "Master the cross collar choke from knee on belly. Learn grip seque
 <span class="meta-chip">10% success</span>
 </div>
 
-> [!danger] Safety
-> Cross Collar Choke from Knee on Belly targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Cross Collar Choke/from Knee on Belly/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ The key strategic consideration is grip sequencing. The first grip must be deep 
 - Use collar grip tension to control the opponent's head position and prevent them from turning or sitting up during the finish
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -278,6 +277,8 @@ The key strategic consideration is grip sequencing. The first grip must be deep 
 
 - Opponent's weight shifts forward and their head drops lower, signaling preparation to drop into the finishing position
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

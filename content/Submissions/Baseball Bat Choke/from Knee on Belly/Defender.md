@@ -10,8 +10,6 @@ description: "Complete defensive guide against the Baseball Bat Choke from Knee 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Baseball Bat Choke from Knee on Belly targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -239,6 +237,8 @@ Defending the Baseball Bat Choke from Knee on Belly requires recognizing the thr
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Baseball Bat Choke/from Knee on Belly#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

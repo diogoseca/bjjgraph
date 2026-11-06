@@ -92,9 +92,6 @@ description: "Master the Cross Collar Choke from Modified Mount. Learn grip plac
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Cross Collar Choke from Modified Mount targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Cross Collar Choke/from Modified Mount/Attacker|Play as Attacker]]
@@ -187,6 +184,8 @@ From a strategic standpoint, this choke functions as a high-percentage finishing
 - Create submission dilemmas by threatening armbar when they defend the collar, forcing them to choose which attack to address
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -254,6 +253,8 @@ From a strategic standpoint, this choke functions as a high-percentage finishing
 
 - Attacker drops their forehead beside your head and you feel forearm pressure against the side of your neck from the first grip
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

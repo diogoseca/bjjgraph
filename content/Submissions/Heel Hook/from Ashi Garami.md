@@ -102,9 +102,6 @@ description: "Master the heel hook from Ashi Garami with systematic grip mechani
 <span class="meta-chip">37% success</span>
 </div>
 
-> [!danger] Safety
-> Heel Hook from Ashi Garami targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="part-of-family"><em>Part of the</em> <strong>Heel Hook</strong> <em>family</em></p>
 </aside>
@@ -210,6 +207,8 @@ Strategically, the heel hook from outside Ashi serves a dual purpose. As a direc
 - Secure the heel bone itself in the crook of your wrist rather than gripping the forefoot or toes, which allows easy foot extraction
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -279,6 +278,8 @@ Strategically, the heel hook from outside Ashi serves a dual purpose. As a direc
 
 - Opponent's inside leg hook deepens and their outside leg tightens across your body, consolidating the Ashi Garami entanglement for a committed finish attempt
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

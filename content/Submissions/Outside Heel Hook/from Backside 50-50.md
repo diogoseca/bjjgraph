@@ -82,9 +82,6 @@ description: "Master the Outside Heel Hook from Backside 50-50. Complete guide t
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Outside Heel Hook from Backside 50-50 targets the Knee and ankle joint. Primary risk: Lateral collateral ligament (LCL) tear from rotational torque exceeding tissue tolerance. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Outside Heel Hook/from Backside 50-50/Attacker|Play as Attacker]]
@@ -172,6 +169,8 @@ This submission demands absolute respect for its injury potential. Rotational fo
 - Read defensive reactions before committing: If opponent hides heel effectively, transition to alternative attacks rather than forcing a well-defended heel hook
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -245,6 +244,8 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 - You feel the attacker's second hand join the first on your heel area, indicating they are establishing the reinforced finishing grip
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

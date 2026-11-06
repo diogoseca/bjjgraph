@@ -61,9 +61,6 @@ description: "Carni is a leg-assisted shoulder lock in which the bottom player r
 <span class="meta-chip">35% success</span>
 </div>
 
-> [!danger] Safety
-> Carni Shoulder Lock targets the Shoulder joint. Primary risk: Shoulder joint injury from excessive pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Carni Shoulder Lock/Attacker|Play as Attacker]]
@@ -134,6 +131,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Unload wrist and shoulder before legs: Release at any tap or verbal signal. Remove wrist leverage and shoulder pressure before unwinding the leg connection.
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -197,6 +196,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 - Secure the wrist while keeping the shoulder and elbow within a comfortable, controlled range.
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

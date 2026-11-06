@@ -10,8 +10,6 @@ description: "Learn to attack the Guillotine Choke from Butterfly Guard with ste
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Guillotine Choke from Butterfly Guard targets the Carotid arteries and windpipe. Risk: Trachea damage or crush injury. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -258,6 +256,8 @@ Attacking the Guillotine Choke from Butterfly Guard combines the sweeping threat
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Guillotine Choke/from Butterfly Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

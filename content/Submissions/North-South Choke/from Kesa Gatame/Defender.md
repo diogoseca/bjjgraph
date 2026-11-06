@@ -10,8 +10,6 @@ description: "How to defend and escape the North-South Choke from Kesa Gatame. R
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from Kesa Gatame targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -201,6 +199,8 @@ The defender must prioritize keeping their chin tucked to limit arm threading de
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/North-South Choke/from Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

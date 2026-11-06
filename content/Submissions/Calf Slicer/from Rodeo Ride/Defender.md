@@ -10,8 +10,6 @@ description: "Defend the Calf Slicer from Rodeo Ride in BJJ. Recognition cues, e
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Rodeo Ride targets the Calf muscle and knee joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -191,6 +189,8 @@ Defending the Calf Slicer from Rodeo Ride requires immediate recognition of the 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Calf Slicer/from Rodeo Ride#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

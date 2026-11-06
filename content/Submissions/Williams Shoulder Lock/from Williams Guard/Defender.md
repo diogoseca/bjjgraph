@@ -10,8 +10,6 @@ description: "Defend the Williams Shoulder Lock from Williams Guard. Recognition
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Williams Shoulder Lock from Williams Guard targets the Shoulder joint (glenohumeral joint and rotator cuff). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -200,6 +198,8 @@ Defending the Williams Shoulder Lock from Williams Guard requires immediate reco
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Williams Shoulder Lock/from Williams Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

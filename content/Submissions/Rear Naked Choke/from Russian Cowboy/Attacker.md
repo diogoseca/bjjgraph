@@ -10,8 +10,6 @@ description: "Learn to attack with the Rear Naked Choke from Russian Cowboy. Set
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Russian Cowboy targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ The Rear Naked Choke from Russian Cowboy demands precise grip management during 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Russian Cowboy#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

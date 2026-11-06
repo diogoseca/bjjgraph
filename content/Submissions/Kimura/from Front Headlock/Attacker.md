@@ -10,8 +10,6 @@ description: "Learn to attack the Kimura from front headlock position. Step-by-s
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Front Headlock targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -281,6 +279,8 @@ The Kimura from front headlock attacks the near arm when the opponent successful
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from Front Headlock#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

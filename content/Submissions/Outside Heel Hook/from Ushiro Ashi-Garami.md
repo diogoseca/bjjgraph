@@ -82,9 +82,6 @@ description: "Master the outside heel hook from ushiro ashi-garami. Expert guide
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Outside Heel Hook from Ushiro Ashi-Garami targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Outside Heel Hook/from Ushiro Ashi-Garami/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ The strategic value lies in converting escape attempts into finishing opportunit
 - Keep elbows tight to your chest during the finish to maximize rotational leverage on the heel
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -242,6 +241,8 @@ The strategic value lies in converting escape attempts into finishing opportunit
 
 - Your foot starts being pried from dorsiflexion by the attacker's forearm wedge against your sole
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

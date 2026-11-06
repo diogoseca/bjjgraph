@@ -10,8 +10,6 @@ description: "Defend and escape the kneebar from inside ashi-garami with early r
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Inside Ashi-Garami targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -223,6 +221,8 @@ Defending the kneebar from inside ashi-garami requires early recognition of the 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kneebar/from Inside Ashi-Garami#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

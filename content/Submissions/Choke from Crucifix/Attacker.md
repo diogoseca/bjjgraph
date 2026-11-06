@@ -10,8 +10,6 @@ description: "How to execute Choke from Crucifix in BJJ. Attacking perspective w
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Choke from Crucifix targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -297,6 +295,8 @@ The Choke from Crucifix is a devastating finishing technique that capitalizes on
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Choke from Crucifix#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

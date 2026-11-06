@@ -10,8 +10,6 @@ description: "How to execute Kimura from Side Control in BJJ. Attacking perspect
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Side Control targets the Shoulder joint (rotation and elevation). Risk: Shoulder dislocation (anterior or posterior). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -285,6 +283,8 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

@@ -10,8 +10,6 @@ description: "Learn to attack with the toe hold from leg entanglement. Step-by-s
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Leg Entanglement targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -294,6 +292,8 @@ Attacking with the toe hold from leg entanglement requires precise figure-four g
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Toe Hold/from Leg Entanglement#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

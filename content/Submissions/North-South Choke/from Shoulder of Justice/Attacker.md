@@ -10,8 +10,6 @@ description: "Learn to execute the North-South Choke from Shoulder of Justice. S
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from Shoulder of Justice targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ Executing the North-South Choke from Shoulder of Justice requires precise timing
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/North-South Choke/from Shoulder of Justice#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

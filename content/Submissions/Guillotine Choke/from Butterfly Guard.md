@@ -82,9 +82,6 @@ description: "Master the Guillotine Choke from Butterfly Guard. Learn hook eleva
 <span class="meta-chip">23% success</span>
 </div>
 
-> [!danger] Safety
-> Guillotine Choke from Butterfly Guard targets the Carotid arteries and windpipe. Primary risk: Trachea damage or crush injury. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Guillotine Choke/from Butterfly Guard/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 - Time the guillotine entry with the opponent's forward pressure or failed pass attempt for maximum head exposure
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -238,6 +237,8 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 
 - Grip tightening sensation around your neck combined with the opponent curling their upper body around your head and pulling elbows inward
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

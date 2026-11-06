@@ -102,9 +102,6 @@ description: "Master the heel hook from Cross Ashi-Garami with expert finishing 
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Heel Hook from Cross Ashi-Garami targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Heel Hook/from Cross Ashi-Garami/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ This submission demands meticulous attention to safety in training. The mechanis
 - Control the toes and foot angle with your chest and forearms to prevent the defender from spinning their heel free during the finish
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -278,6 +277,8 @@ This submission demands meticulous attention to safety in training. The mechanis
 
 - Attacker's elbows clamp tight to their ribs as they consolidate a figure-four or S-grip configuration on your heel
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

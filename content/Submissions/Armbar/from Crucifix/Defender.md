@@ -10,8 +10,6 @@ description: "How to defend against Armbar from Crucifix in BJJ. Recognition, es
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Crucifix targets the Elbow joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -247,6 +245,8 @@ Defending the armbar from crucifix is one of the most technically demanding defe
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Armbar/from Crucifix#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

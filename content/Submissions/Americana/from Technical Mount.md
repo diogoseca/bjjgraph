@@ -92,9 +92,6 @@ description: "Master the Americana shoulder lock from Technical Mount in BJJ. Co
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Americana from Technical Mount targets the Shoulder joint (rotator cuff and glenohumeral complex). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Americana/from Technical Mount/Attacker|Play as Attacker]]
@@ -190,6 +187,8 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 - Drive the opponent's elbow toward their ear while keeping the wrist firmly anchored to create maximum glenohumeral torque
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -261,6 +260,8 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 
 - Attacker's elbows squeeze inward after establishing wrist control, indicating the figure-four is being tightened for the finishing rotation
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

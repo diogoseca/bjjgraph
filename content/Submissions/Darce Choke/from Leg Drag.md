@@ -112,9 +112,6 @@ description: "Master the Darce choke from leg drag control in BJJ. Complete guid
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Darce Choke from Leg Drag targets the Neck (Carotid Arteries). Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Darce Choke/from Leg Drag/Attacker|Play as Attacker]]
@@ -226,6 +223,8 @@ This submission represents a high-percentage finishing option within the leg dra
 - Angle your body perpendicular to the opponent's spine for maximum bilateral carotid compression
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -241,7 +240,7 @@ This submission represents a high-percentage finishing option within the leg dra
 
 - **Apply finishing pressure**: With the grip locked and your body perpendicular, apply finishing pressure by driving your hips towa...
 
-- **Monitor opponent response and adjust angle**: Watch for tap signals including hand taps, foot taps, verbal signals, or the opponent going limp. If...
+- **Monitor opponent response and adjust angle**: Watch for tap signals including hand taps, foot taps, or verbal signals. If the opponent is defendin...
 
 
 ### Common Mistakes
@@ -297,6 +296,8 @@ This submission represents a high-percentage finishing option within the leg dra
 
 - Opponent's free hand reaches toward their own bicep area, indicating they are about to lock the figure-four grip
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

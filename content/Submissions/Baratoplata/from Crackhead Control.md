@@ -82,9 +82,6 @@ description: "A Baratoplata attempt from Crackhead Control requires a separate D
 <span class="meta-chip">25% success</span>
 </div>
 
-> [!danger] Safety
-> Baratoplata from Crackhead Control targets the Shoulder joint. Primary risk: Shoulder joint injury from excessive pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Baratoplata/from Crackhead Control/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Unload shoulder before unwrapping: Remove the shoulder pressure at once on a tap or verbal stop, then free the wrist and leg connection.
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -236,6 +235,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 - Establish the Duda-style arm isolation required for the Baratoplata before changing the leg and grip arrangement.
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

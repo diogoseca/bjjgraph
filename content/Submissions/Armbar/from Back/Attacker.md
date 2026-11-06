@@ -10,8 +10,6 @@ description: "How to execute Armbar from Back in BJJ. Attacking perspective with
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Back targets the Elbow joint. Risk: Elbow hyperextension or dislocation. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -296,6 +294,8 @@ The Armbar from Back Control represents one of the most devastating finishing se
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Armbar/from Back#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

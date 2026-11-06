@@ -82,9 +82,6 @@ description: "Master the Americana shoulder lock from Ushiro Kesa Gatame. Comple
 <span class="meta-chip">68% success</span>
 </div>
 
-> [!danger] Safety
-> Americana from Ushiro Kesa Gatame targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Americana/from Ushiro Kesa Gatame/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Strategically, this Americana integrates into a powerful submission chain from r
 - Integrate the Americana into a chain with kimura and arm triangle to create an unsolvable dilemma for the defender
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ Strategically, this Americana integrates into a powerful submission chain from r
 
 - Increasing rotational pressure on your shoulder joint with your palm being painted toward the mat in an arc away from your body
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

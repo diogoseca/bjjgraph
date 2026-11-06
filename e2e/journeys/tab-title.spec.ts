@@ -110,9 +110,10 @@ for (const [from, to] of [
 
 test("VIDEO2 reader anchor replace keeps the exact title and one history entry", async ({ page }) => {
   const j = journey(page)
-  await j.boot("/Submissions/Armbar")
+  // S1 a: a family page lost its notice and with it the anchor; the seat's safety line is the anchor now.
+  await j.boot("/Submissions/Americana/from-Side-Control/Attacker")
   await expect(page.locator(READY)).toHaveCount(1)
-  const before = await exactTitle(page, "submission family")
+  const before = await exactTitle(page, "submission seat")
   const length = await page.evaluate(() => history.length)
   const link = page.locator('[data-reader-body] a[data-reader-anchor][href$="#safety-considerations"]').first()
   await expect(link).toHaveCount(1); await link.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()

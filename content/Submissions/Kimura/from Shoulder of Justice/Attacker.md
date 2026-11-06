@@ -10,8 +10,6 @@ description: "Execute the Kimura from Shoulder of Justice with precision. Step-b
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Shoulder of Justice targets the Shoulder joint (glenohumeral) and elbow. Risk: Shoulder dislocation or subluxation from forced internal rotation beyond anatomical limits of the glenohumeral joint. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ From the Shoulder of Justice, the Kimura becomes available when your intense jaw
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from Shoulder of Justice#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

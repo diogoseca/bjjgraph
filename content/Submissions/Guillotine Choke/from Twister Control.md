@@ -82,9 +82,6 @@ description: "Master the guillotine choke from Twister Control. Learn setup mech
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Guillotine Choke from Twister Control targets the Carotid arteries and windpipe. Primary risk: Trachea damage or crush injury from misaligned choking pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Guillotine Choke/from Twister Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Strategically, this submission functions as a trap within the broader Twister sy
 - Be prepared to abandon the guillotine and return to Twister Control if the grip is not secured cleanly
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ Strategically, this submission functions as a trap within the broader Twister sy
 
 - Your turn-in escape feels unexpectedly easy, suggesting the attacker is allowing or encouraging the turn to access your neck
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

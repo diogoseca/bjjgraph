@@ -92,9 +92,6 @@ description: "Master the Electric Chair in BJJ. Complete lockdown submission gui
 <span class="meta-chip">42% success</span>
 </div>
 
-> [!danger] Safety
-> Electric Chair from Electric Chair targets the Hip joint and groin. Primary risk: Groin strain or adductor muscle tear from forced hyperabduction of the hip. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Electric Chair/from Electric Chair/Attacker|Play as Attacker]]
@@ -191,6 +188,8 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 - Chain the submission threat with Old School sweep setups to prevent single-dimensional defense
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -266,6 +265,8 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 
 - Sensation of your legs being progressively split apart with diminishing ability to bring them back together
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

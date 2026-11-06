@@ -10,8 +10,6 @@ description: "Defend the belly down armbar from Kesa Gatame with proven escape t
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from Kesa Gatame targets the Elbow joint hyperextension and ulnar collateral ligament. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -198,6 +196,8 @@ Defending the belly down armbar from Kesa Gatame demands early recognition and i
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Belly Down Armbar/from Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

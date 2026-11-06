@@ -102,9 +102,6 @@ description: "Master the North-South Choke from Shoulder of Justice with detaile
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> North-South Choke from Shoulder of Justice targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/North-South Choke/from Shoulder of Justice/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ This submission chain is particularly effective because the Shoulder of Justice 
 - Squeeze elbows together using chest and back muscles rather than pulling with arms to generate sustainable choking pressure
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -278,6 +277,8 @@ This submission chain is particularly effective because the Shoulder of Justice 
 
 - Opponent's free hand reaches toward the threading arm to establish a grip connection around your neck
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

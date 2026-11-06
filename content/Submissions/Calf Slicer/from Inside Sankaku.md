@@ -102,9 +102,6 @@ description: "Master the calf slicer from inside sankaku. Complete guide coverin
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer from Inside Sankaku targets the Calf muscle and posterior knee structures. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Calf Slicer/from Inside Sankaku/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ The technique carries particular strategic value in competition because opponent
 - Apply pressure gradually in training — the calf slicer produces pain faster than most opponents expect
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -274,6 +273,8 @@ The technique carries particular strategic value in competition because opponent
 
 - Your knee begins to feel trapped between the attacker's hip pressure driving forward and their shin behind the joint creating a closing vise
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

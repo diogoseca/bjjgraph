@@ -10,8 +10,6 @@ description: "Learn to attack with the inside heel hook from ushiro ashi-garami.
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Inside Heel Hook from Ushiro Ashi-Garami targets the Ankle, knee ligaments, and surrounding connective tissue. Risk: ACL, MCL, or LCL tear or rupture. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking with the inside heel hook from ushiro ashi-garami requires adapting st
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

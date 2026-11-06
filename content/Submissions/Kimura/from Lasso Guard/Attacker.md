@@ -10,8 +10,6 @@ description: "Learn to execute the Kimura shoulder lock from Lasso Guard top. Co
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Lasso Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -258,6 +256,8 @@ Attacking with the Kimura from Lasso Guard top requires recognizing the moment w
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from Lasso Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

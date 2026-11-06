@@ -92,9 +92,6 @@ description: "Master the Americana from Shoulder of Justice in BJJ. Step-by-step
 <span class="meta-chip">68% success</span>
 </div>
 
-> [!danger] Safety
-> Americana from Shoulder of Justice targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Americana/from Shoulder of Justice/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, this submission functions as the centerpiece of the Shoulder of J
 - Recognize when to abandon the americana and chain to kimura or arm triangle based on defensive reactions
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -260,6 +259,8 @@ Strategically, this submission functions as the centerpiece of the Shoulder of J
 
 - You feel a wrist-to-wrist grip structure forming around your bent arm creating the distinctive figure-four lock
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

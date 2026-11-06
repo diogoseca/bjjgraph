@@ -10,8 +10,6 @@ description: "How to defend against Armbar from Mount in BJJ. Recognition, escap
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Mount targets the Elbow joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -297,6 +295,8 @@ Defensive hierarchy follows a strict sequence: prevent arm isolation first, disr
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Armbar/from Mount#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -102,9 +102,6 @@ description: "Master the Cross Collar Choke from Mount in BJJ. Learn deep collar
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Cross Collar Choke from Mount targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Cross Collar Choke/from Mount/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ From a strategic standpoint, the Cross Collar Choke creates a powerful dilemma t
 - Keep knees squeezed against opponent's ribs during the finish to prevent hip escape and guard recovery
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -276,6 +275,8 @@ From a strategic standpoint, the Cross Collar Choke creates a powerful dilemma t
 
 - Opponent threads a second hand under the first arm reaching for the opposite collar, forming the telltale X-shape across your neck
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

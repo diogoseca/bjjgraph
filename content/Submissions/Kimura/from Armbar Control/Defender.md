@@ -10,8 +10,6 @@ description: "Defend against the Kimura from Armbar Control in BJJ. Recognition 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Armbar Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -231,6 +229,8 @@ Defending the Kimura from Armbar Control requires rapid recognition of the grip 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kimura/from Armbar Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

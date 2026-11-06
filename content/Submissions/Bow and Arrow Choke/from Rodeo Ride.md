@@ -82,9 +82,6 @@ description: "Master the Bow and Arrow Choke from Rodeo Ride. Learn gi lapel cho
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Bow and Arrow Choke from Rodeo Ride targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Bow and Arrow Choke/from Rodeo Ride/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ This variant is particularly effective in competition because it chains naturall
 - Use the Clock Choke threat as a setup—opponents defending the near-side collar expose the far-side collar needed for the Bow and Arrow
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -238,6 +237,8 @@ This variant is particularly effective in competition because it chains naturall
 
 - Attacker's near-arm control releases or shifts as they redirect that hand to grab your far leg—this grip transition signals commitment to the bow and arrow
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

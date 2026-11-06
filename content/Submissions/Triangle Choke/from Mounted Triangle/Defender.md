@@ -10,8 +10,6 @@ description: "Defend and escape the triangle choke from mounted triangle. Recogn
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke from Mounted Triangle targets the Carotid arteries and brachial plexus. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -273,6 +271,8 @@ Defending the triangle choke from mounted triangle is among the most challenging
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Triangle Choke/from Mounted Triangle#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

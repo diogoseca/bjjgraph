@@ -102,9 +102,6 @@ description: "Master the Buggy Choke in BJJ. Powerful half guard compression cho
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Buggy Choke targets the Carotid arteries and neck compression. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Buggy Choke/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ For the purple-to-brown belt grappler, the value of the Buggy Choke is less abou
 - Keep the trapped arm pinned throughout — releasing the crossface arm gives the single highest-percentage escape.
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -274,6 +273,8 @@ For the purple-to-brown belt grappler, the value of the Buggy Choke is less abou
 
 - You feel compression building on the sides of your neck rather than on your windpipe.
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

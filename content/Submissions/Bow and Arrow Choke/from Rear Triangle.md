@@ -92,9 +92,6 @@ description: "Master the Bow and Arrow Choke from Rear Triangle in BJJ. Learn co
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Bow and Arrow Choke from Rear Triangle targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Bow and Arrow Choke/from Rear Triangle/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, this submission sits at the intersection of two high-control syst
 - Keep your choking-side elbow tight against the opponent's neck throughout the extension to prevent the collar from sliding to a less effective position
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -260,6 +259,8 @@ Strategically, this submission sits at the intersection of two high-control syst
 
 - Both of the attacker's hands release previous grips simultaneously, indicating they are confident in the triangle control and transitioning to the bow and arrow setup
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

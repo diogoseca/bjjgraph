@@ -10,8 +10,6 @@ description: "Defend against the Kimura from flattened half guard. Recognition c
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Flattened Half Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -273,6 +271,8 @@ Defending the Kimura from flattened half guard bottom is among the most difficul
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kimura/from Flattened Half Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

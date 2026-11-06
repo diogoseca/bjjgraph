@@ -102,9 +102,6 @@ description: "Master Kneebar from Guard in BJJ. Complete guide with safety proto
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Guard targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Primary risk: Posterior cruciate ligament (PCL) tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Guard/Attacker|Play as Attacker]]
@@ -205,6 +202,8 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 - Angle your body away from opponent's free leg to prevent them from establishing defensive hooks
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -270,6 +269,8 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 - Opponent's free leg pushes against your shoulder, chest, or hip to create distance and prevent you from closing the gap, combined with a tightening squeeze around your trapped thigh
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -10,8 +10,6 @@ description: "How to execute Electric Chair in BJJ. Attacking perspective with s
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Electric Chair from Deep Half Guard targets the Knee joint, hip flexors, and posterior chain. Risk: Medial collateral ligament (MCL) sprain or tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -272,6 +270,8 @@ Historically developed and refined within the 10th Planet system, the Electric C
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Electric Chair/from Deep Half Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

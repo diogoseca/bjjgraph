@@ -120,9 +120,6 @@ description: "Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm i
 <span class="meta-chip">~50% avg</span>
 </div>
 
-> [!danger] Safety
-> Mounted Crucifix Armbar targets the Shoulder and elbow joint. Primary risk: Elbow hyperextension with ligament tear (UCL/LCL damage). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Mounted Crucifix Armbar is a high-percentage joint lock executed from one of the most dominant control positions in Brazilian Jiu-Jitsu. The attacker leverages the mounted crucifix's inherent arm isolation—where one or both of the defender's arms are trapped by the attacker's legs—to hyperextend the elbow joint on the trapped arm. Because the defender's normal armbar defense mechanisms are severely compromised by the crucifix control, this submission converts at a significantly higher rate than standard armbar variations from mount.

@@ -10,8 +10,6 @@ description: "Master attacking the Cross Collar Choke from High Mount. Step-by-s
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Cross Collar Choke from High Mount targets the Neck. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking the Cross Collar Choke from High Mount demands patience in grip establ
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Cross Collar Choke/from High Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

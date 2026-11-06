@@ -131,9 +131,6 @@ description: "Master the Darce Choke in BJJ. Complete guide covering setup requi
 <span class="meta-chip">~62% avg</span>
 </div>
 
-> [!danger] Safety
-> Darce Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/Anaconda Choke|Anaconda Choke]]</strong> — the Anaconda threads through toward the far/neck side — opposite arm threading</p>
 </aside>

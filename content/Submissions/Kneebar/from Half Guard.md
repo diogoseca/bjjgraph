@@ -102,9 +102,6 @@ description: "Master the Kneebar from Half Guard in BJJ. Complete guide covering
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Half Guard targets the Knee joint and posterior cruciate ligament. Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Half Guard/Attacker|Play as Attacker]]
@@ -205,6 +202,8 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 - Chest-to-thigh connection creates the fulcrum point for knee hyperextension
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -272,6 +271,8 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 - Opponent's hands shift from controlling your upper body (collar, sleeve, underhook) to reaching for your hip, belt, or far leg—this signals they are securing the kneebar position rather than attempting a sweep
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

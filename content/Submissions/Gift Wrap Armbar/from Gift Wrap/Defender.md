@@ -10,8 +10,6 @@ description: "Learn to defend the Gift Wrap Armbar in BJJ. Recognition cues, esc
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Gift Wrap Armbar from Gift Wrap targets the Elbow joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -207,6 +205,8 @@ Defending the Gift Wrap Armbar requires recognizing the attack early and address
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Gift Wrap Armbar/from Gift Wrap#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

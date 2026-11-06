@@ -10,8 +10,6 @@ description: "How to execute Buggy Choke in BJJ. Attacking perspective with setu
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Buggy Choke from Half Guard targets the Carotid arteries and neck compression. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -260,6 +258,8 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Buggy Choke/from Half Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

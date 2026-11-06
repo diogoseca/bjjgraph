@@ -131,9 +131,6 @@ description: "Master Inside Heel Hook in BJJ. Complete guide with safety protoco
 <span class="meta-chip">~52% avg</span>
 </div>
 
-> [!danger] Safety
-> Inside Heel Hook targets the Ankle, knee ligaments, and surrounding connective tissue. Primary risk: ACL, MCL, or LCL tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Outside Heel Hook|Outside Heel Hook]]</strong> — the Outside Heel Hook uses the opposite leg configuration and finishing rotation</p>
 </aside>

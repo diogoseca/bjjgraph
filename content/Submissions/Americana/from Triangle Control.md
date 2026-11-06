@@ -82,9 +82,6 @@ description: "Learn Americana from Triangle Control: retain the triangle entangl
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Americana from Triangle Control targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Americana/from Triangle Control/Attacker|Play as Attacker]]
@@ -165,6 +162,8 @@ Americana from Triangle Control is a distinct submission state: the bottom playe
 - Release immediately at a tap; the arm attack and choke must both be released.
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -228,6 +227,8 @@ Americana from Triangle Control is a distinct submission state: the bottom playe
 
 - The leg entanglement remains in place during the arm attack.
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

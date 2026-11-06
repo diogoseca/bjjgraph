@@ -82,9 +82,6 @@ description: "Master the arm-in guillotine from guillotine control. Learn grip m
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Arm in Guillotine from Guillotine Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm in Guillotine/from Guillotine Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 - Apply progressive and controlled pressure using body mechanics rather than explosive arm squeezing to maintain position and allow safe training
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -242,6 +241,8 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 
 - You notice your vision darkening or hearing changing, indicating carotid compression has begun and immediate defensive action or tap is required
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

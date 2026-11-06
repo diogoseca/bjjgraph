@@ -10,8 +10,6 @@ description: "Learn to execute the Darce Choke from Overhook Control with expert
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Darce Choke from Overhook Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -276,6 +274,8 @@ Executing the Darce Choke from Overhook Control requires converting your existin
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Darce Choke/from Overhook Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

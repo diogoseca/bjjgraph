@@ -82,9 +82,6 @@ description: "Master the Loop Choke from Mount in BJJ. Complete guide with safet
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Loop Choke from Mount targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Loop Choke/from Mount/Attacker|Play as Attacker]]
@@ -169,6 +166,8 @@ Prized by pressure passers for letting them strangle an opponent with their own 
 - Timing the finish with opponent's defensive movements increases effectiveness
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ Prized by pressure passers for letting them strangle an opponent with their own 
 
 - You feel crossing pressure on both sides of your neck simultaneously, with the collar tightening around your carotid arteries rather than across your throat
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

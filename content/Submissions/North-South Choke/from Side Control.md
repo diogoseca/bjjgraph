@@ -82,9 +82,6 @@ description: "Master the North-South Choke from Side Control in BJJ. Learn the t
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> North-South Choke from Side Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/North-South Choke/from Side Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ This submission is particularly effective against opponents who defend side cont
 - Keep your head low and tight against the opponent's far-side hip to prevent them from creating rotational escape angles
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -242,6 +241,8 @@ This submission is particularly effective against opponents who defend side cont
 
 - You feel the attacker's bicep sliding underneath your neck with their elbow moving past your chin toward the far side
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

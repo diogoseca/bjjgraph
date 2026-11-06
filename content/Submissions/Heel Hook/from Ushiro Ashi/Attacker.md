@@ -10,8 +10,6 @@ description: "Master the attacking mechanics of the Heel Hook from Ushiro Ashi-G
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from Ushiro Ashi targets the Knee ligaments (MCL, LCL, meniscus) via rotational force through heel. Risk: MCL/LCL tear from rotational force exceeding ligament tolerance. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Executing the heel hook from ushiro ashi-garami demands precise mechanical adjus
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Heel Hook/from Ushiro Ashi#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

@@ -82,9 +82,6 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Reverse Kimura from Standing Position targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Reverse Kimura/from Standing Position/Attacker|Play as Attacker]]
@@ -169,6 +166,8 @@ Belonging to the Kimura family of shoulder locks, this reverse-grip variation ev
 - The submission can be applied progressively from control position or explosively in scrambles (training vs competition distinction)
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -238,6 +237,8 @@ Belonging to the Kimura family of shoulder locks, this reverse-grip variation ev
 
 - From standing or front headlock, attacker isolates your wrist and begins threading their controlling arm while maintaining head or body pressure
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

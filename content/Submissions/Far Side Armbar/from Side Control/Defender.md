@@ -10,8 +10,6 @@ description: "How to defend against Far Side Armbar in BJJ. Recognition, escape 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Far Side Armbar from Side Control targets the Elbow joint (hyperextension). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -279,6 +277,8 @@ From a strategic perspective, the best defense against the far side armbar is ne
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Far Side Armbar/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

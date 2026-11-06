@@ -82,9 +82,6 @@ description: "Master the Williams Shoulder Lock from Williams Guard. Learn finis
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Williams Shoulder Lock from Williams Guard targets the Shoulder joint (glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Williams Shoulder Lock/from Williams Guard/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ At the competition level, the Williams Shoulder Lock from Williams Guard functio
 - Combine shoulder torque with lateral hip movement to systematically close escape angles
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -246,6 +245,8 @@ At the competition level, the Williams Shoulder Lock from Williams Guard functio
 
 - Opponent's legs become active distance-controlling frames preventing you from closing space or changing angle
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -82,9 +82,6 @@ description: "Master the outside heel hook from cross ashi-garami. Learn grip me
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Outside Heel Hook from Cross Ashi-Garami targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Outside Heel Hook/from Cross Ashi-Garami/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ From a defensive standpoint, the cross ashi heel hook demands immediate recognit
 - Transition between heel hook, toe hold, and ankle lock based on defensive reactions to maintain constant threat
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -238,6 +237,8 @@ From a defensive standpoint, the cross ashi heel hook demands immediate recognit
 
 - Opponent begins rotating their torso and bridging their hips while gripping your heel—this indicates the finishing sequence has started
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

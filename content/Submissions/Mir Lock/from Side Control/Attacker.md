@@ -10,8 +10,6 @@ description: "How to execute Mir Lock in BJJ. Attacking perspective with setup, 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Mir Lock from Side Control targets the Shoulder joint (glenohumeral joint). Risk: Shoulder dislocation (anterior or posterior). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -228,6 +226,8 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Mir Lock/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

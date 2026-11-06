@@ -82,9 +82,6 @@ description: "Master the Rolling Armbar in BJJ. Dynamic submission from guard an
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Rolling Armbar from Closed Guard targets the Elbow joint. Primary risk: Elbow hyperextension or dislocation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/Rolling Armbar from Closed Guard/Attacker|Play as Attacker]]
@@ -169,6 +166,8 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 - Protect your own neck during the roll by keeping chin tucked and shoulders rounded
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -234,6 +233,8 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 - Opponent tucks their chin and drives their shoulder toward the mat, initiating a backward rolling motion while holding your arm against their chest
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

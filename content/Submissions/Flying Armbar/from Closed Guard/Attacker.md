@@ -10,8 +10,6 @@ description: "How to execute Flying Armbar in BJJ. Attacking perspective with se
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Flying Armbar from Closed Guard targets the Elbow joint and shoulder. Risk: Elbow hyperextension or ligament tears (opponent). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -308,6 +306,8 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Flying Armbar/from Closed Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

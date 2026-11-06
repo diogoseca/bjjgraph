@@ -10,8 +10,6 @@ description: "Defensive guide against the Bow and Arrow Choke from Russian Cowbo
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Bow and Arrow Choke from Russian Cowboy targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -226,6 +224,8 @@ Effective defense operates on a timeline: early-phase defense focuses on grip pr
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Bow and Arrow Choke/from Russian Cowboy#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

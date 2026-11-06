@@ -102,9 +102,6 @@ description: "Master the Kimura from Butterfly Guard in BJJ. Learn grip setup, h
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Butterfly Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="part-of-family"><em>Part of the</em> <strong>Kimura</strong> <em>family</em></p>
 </aside>
@@ -210,6 +207,8 @@ Advanced practitioners chain the Kimura attempt directly off failed or feinted b
 - Chain the Kimura attempt with sweep threats so the opponent must choose between defending the lock and maintaining base
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -277,6 +276,8 @@ Advanced practitioners chain the Kimura attempt directly off failed or feinted b
 
 - Sudden increase in hook pressure combined with upper body pulling indicates the opponent is attempting to trap your arm and compromise your base simultaneously
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

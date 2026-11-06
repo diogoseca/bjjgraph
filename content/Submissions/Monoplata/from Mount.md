@@ -102,9 +102,6 @@ description: "Master Monoplata from Mount in BJJ. Complete safety guide covering
 <span class="meta-chip">48% success</span>
 </div>
 
-> [!danger] Safety
-> Monoplata from Mount targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Monoplata/from Mount/Attacker|Play as Attacker]]
@@ -205,6 +202,8 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 - Keep your weight distributed to prevent bridging escapes during setup
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -268,6 +267,8 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 - Attacker lifts one leg and begins swinging it in an arc over your face or head while maintaining wrist control on your isolated arm—this is the definitive signal that the monoplata is being attempted
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

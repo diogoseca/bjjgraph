@@ -10,8 +10,6 @@ description: "How to execute the Spinning Armbar from Closed Guard in BJJ. Attac
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Spinning Armbar from Closed Guard targets the Elbow joint. Risk: Elbow hyperextension with ligament damage (UCL/MCL tears). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -261,6 +259,8 @@ The Spinning Armbar from Closed Guard is a dynamic and versatile submission tech
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Spinning Armbar/from Closed Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

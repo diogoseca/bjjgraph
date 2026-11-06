@@ -92,9 +92,6 @@ description: "Master the Rear Naked Choke from Crucifix position in BJJ. High-pe
 <span class="meta-chip">63% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Crucifix targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Crucifix/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Unlike the standard RNC from back control, the crucifix variant benefits from th
 - Keep your head tight against the opponent's temple to prevent them from turning into the choke and creating defensive space
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -256,6 +255,8 @@ Unlike the standard RNC from back control, the crucifix variant benefits from th
 
 - You feel the far arm control loosen or disappear entirely, immediately signaling that the choke transition has begun and your defensive window is open
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

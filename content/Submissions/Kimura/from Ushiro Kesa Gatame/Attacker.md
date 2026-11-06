@@ -10,8 +10,6 @@ description: "Complete attacking guide for the Kimura from Ushiro Kesa Gatame co
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Ushiro Kesa Gatame targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -258,6 +256,8 @@ Attacking the Kimura from Ushiro Kesa Gatame leverages your dominant chest press
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from Ushiro Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

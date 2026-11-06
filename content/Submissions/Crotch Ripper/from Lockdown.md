@@ -92,9 +92,6 @@ description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submis
 <span class="meta-chip">42% success</span>
 </div>
 
-> [!danger] Safety
-> Crotch Ripper from Lockdown targets the Hip flexors, groin muscles, and inner thigh adductors. Primary risk: Groin strain or muscle tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Crotch Ripper/from Lockdown/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 - Combination with Electric Chair sweep creates powerful dilemma
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -254,6 +253,8 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 
 - You feel increasing pressure on the soft tissue of your inner thigh and groin as the attacker's knee makes contact and their hips begin extending forward
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

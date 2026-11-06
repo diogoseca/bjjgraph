@@ -10,8 +10,6 @@ description: "How to execute Monoplata from Mount in BJJ. Attacking perspective 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Monoplata from Mount targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -297,6 +295,8 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Monoplata/from Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

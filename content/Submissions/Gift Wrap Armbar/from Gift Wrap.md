@@ -92,9 +92,6 @@ description: "Master the Gift Wrap Armbar in BJJ. Complete guide to attacking th
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Gift Wrap Armbar from Gift Wrap targets the Elbow joint. Primary risk: Elbow hyperextension causing damage to the ulnar collateral ligament, radial collateral ligament, or joint capsule. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Gift Wrap Armbar/from Gift Wrap/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 - Apply finishing pressure through progressive hip elevation rather than pulling the arm with upper body strength
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -260,6 +259,8 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 
 - Attacker transitions grip from seatbelt or neck control to a two-on-one configuration on your free arm
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

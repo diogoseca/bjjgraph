@@ -92,9 +92,6 @@ description: "Master the High Elbow Guillotine from Front Headlock with elevated
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> High Elbow Guillotine from Front Headlock targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/High Elbow Guillotine/from Front Headlock/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 - Time the elbow elevation with the squeeze—raise the elbow and tighten simultaneously for maximum effect
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -260,6 +259,8 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 
 - Opponent's free hand moving to reinforce their grip—grabbing their own wrist or cupping their fist—signaling the transition to high elbow is imminent
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

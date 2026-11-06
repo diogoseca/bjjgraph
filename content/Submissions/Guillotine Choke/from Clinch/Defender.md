@@ -10,8 +10,6 @@ description: "Defend and escape the Guillotine Choke from Clinch in BJJ. Recogni
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Guillotine Choke from Clinch targets the Neck. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -258,6 +256,8 @@ The defensive hierarchy follows three priorities in strict order: first, protect
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Guillotine Choke/from Clinch#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "Master attacking the Short Choke from Harness in BJJ. Step-by-step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Short Choke from Harness targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -276,6 +274,8 @@ Attacking with the Short Choke from Harness requires precise grip threading and 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Short Choke/from Harness#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

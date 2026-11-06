@@ -10,8 +10,6 @@ description: "Learn to attack the arm triangle choke from turtle top position. S
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Triangle from Turtle targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from blood choke. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking the arm triangle from turtle requires a methodical approach that combi
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Arm Triangle/from Turtle#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

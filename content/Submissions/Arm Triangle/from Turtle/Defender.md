@@ -10,8 +10,6 @@ description: "Learn to defend and escape the arm triangle choke from turtle. Rec
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Triangle from Turtle targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -246,6 +244,8 @@ Defending the arm triangle from turtle requires early recognition and immediate 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Arm Triangle/from Turtle#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

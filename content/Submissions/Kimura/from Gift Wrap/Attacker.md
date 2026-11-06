@@ -10,8 +10,6 @@ description: "Learn to attack with the Kimura from Gift Wrap. Step-by-step guide
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Gift Wrap targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -258,6 +256,8 @@ Attacking the Kimura from Gift Wrap leverages the inherent arm isolation that th
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from Gift Wrap#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

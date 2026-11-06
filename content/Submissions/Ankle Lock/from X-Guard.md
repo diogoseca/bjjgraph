@@ -92,9 +92,6 @@ description: "Master the ankle lock from X-Guard in BJJ. Complete guide to setup
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Ankle Lock from X-Guard targets the Ankle. Primary risk: Ankle ligament sprain or tear (anterior talofibular ligament, calcaneofibular ligament). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Ankle Lock/from X-Guard/Attacker|Play as Attacker]]
@@ -192,6 +189,8 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 - Transition to Ashi Garami when the finish is unavailable rather than forcing a compromised ankle lock with diminishing returns
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -263,6 +262,8 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 
 - Attacker's chest drives forward and down toward your ankle rather than maintaining the upward elevation typical of sweep attempts
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

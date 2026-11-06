@@ -10,8 +10,6 @@ description: "How to defend against Reverse Armbar in BJJ. Recognition, escape p
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Reverse Armbar from Mount targets the Elbow joint (hyperextension with reverse rotation). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -193,6 +191,8 @@ Defending the Reverse Armbar requires a fundamentally different approach than de
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Armbar/Reverse Armbar from Mount#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

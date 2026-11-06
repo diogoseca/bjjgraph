@@ -10,8 +10,6 @@ description: "Execute the Outside Heel Hook from Backside 50-50 with systematic 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Outside Heel Hook from Backside 50-50 targets the Knee and ankle joint. Risk: Lateral collateral ligament (LCL) tear from rotational torque exceeding tissue tolerance. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -270,6 +268,8 @@ Executing the Outside Heel Hook from Backside 50-50 requires systematic control 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Outside Heel Hook/from Backside 50-50#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

@@ -10,8 +10,6 @@ description: "Master the Darce choke attack from leg drag control. Step-by-step 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Darce Choke from Leg Drag targets the Neck (Carotid Arteries). Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -59,7 +57,7 @@ description: "Master the Darce choke attack from leg drag control. Step-by-step 
     {
       "@type": "HowToStep",
       "name": "Monitor opponent response and adjust angle",
-      "text": "Watch for tap signals including hand taps, foot taps, verbal signals, or the opponent going limp. If the opponent is defending effectively by posturing or creating space, adjust by tightening the grip, changing angle, or driving hips lower. If the choke is not producing effect after 8-10 seconds of sustained pressure, consider repositioning rather than forcing an ineffective angle.",
+      "text": "Watch for tap signals including hand taps, foot taps, or verbal signals. If the opponent is defending effectively by posturing or creating space, adjust by tightening the grip, changing angle, or driving hips lower. If the choke is not producing effect after 8-10 seconds of sustained pressure, consider repositioning rather than forcing an ineffective angle.",
       "position": 7
     }
   ],
@@ -319,6 +317,8 @@ Attacking the Darce choke from leg drag control requires precise timing and unde
 
 <section id="execution-steps" class="content-section">
 
+> Release immediately upon tap. [[Submissions/Darce Choke/from Leg Drag#safety-considerations|Safety guide ↓]]
+
 ## Execution Steps
 
 <p class="section-subtitle">How do you execute Darce Choke from Leg Drag step by step?</p>
@@ -328,8 +328,8 @@ Attacking the Darce choke from leg drag control requires precise timing and unde
 3. **Thread the choking arm under the neck**: As the opponent turns in, immediately release the crossface and shoot your near arm deep under their neck, threading past the chin and through the far-side armpit. Your hand should emerge completely on the far side. The depth of this thread determines whether the choke will be effective—shallow threading allows defensive chin tucks that block the carotid compression. (Timing: Must be immediate—0.5-1 second window as opponent turns)
 4. **Secure the figure-four grip**: With your threading arm through the neck-armpit channel, clasp the palm of your free hand against the bicep of the threading arm. Then place the threading hand behind the opponent's head or on their far shoulder. This creates the figure-four lock that distributes choking pressure across both carotid arteries. Ensure the opponent's near arm remains trapped inside the triangle formed by your arms and their neck. (Timing: 1-2 seconds to establish secure grip)
 5. **Transition body position for finishing angle**: Release your leg drag control on the lower body and begin walking your hips toward the opponent's head while sprawling your legs back. Your chest should drive into the opponent's upper back or shoulder area. The goal is to create a perpendicular angle to their spine where your choking arm can compress both carotid arteries simultaneously. Keep your elbows tight to your body throughout. (Timing: 2-3 seconds of controlled repositioning)
-6. **Apply finishing pressure**: With the grip locked and your body perpendicular, apply finishing pressure by driving your hips toward the mat while squeezing your elbows together. The primary pressure vector comes from your chest and hips driving into the opponent, not from arm squeezing alone. Walk slightly toward the opponent's head to increase compression. The choke should produce bilateral carotid compression within seconds. (Timing: 3-6 seconds to produce tap or unconsciousness)
-7. **Monitor opponent response and adjust angle**: Watch for tap signals including hand taps, foot taps, verbal signals, or the opponent going limp. If the opponent is defending effectively by posturing or creating space, adjust by tightening the grip, changing angle, or driving hips lower. If the choke is not producing effect after 8-10 seconds of sustained pressure, consider repositioning rather than forcing an ineffective angle. (Timing: Ongoing until submission or decision to reposition)
+6. **Apply finishing pressure**: With the grip locked and your body perpendicular, apply finishing pressure by driving your hips toward the mat while squeezing your elbows together. The primary pressure vector comes from your chest and hips driving into the opponent, not from arm squeezing alone. Walk slightly toward the opponent's head to increase compression. The choke should produce bilateral carotid compression within seconds. (Timing: 3-6 seconds to produce tap)
+7. **Monitor opponent response and adjust angle**: Watch for tap signals including hand taps, foot taps, or verbal signals. If the opponent is defending effectively by posturing or creating space, adjust by tightening the grip, changing angle, or driving hips lower. If the choke is not producing effect after 8-10 seconds of sustained pressure, consider repositioning rather than forcing an ineffective angle. (Timing: Ongoing until submission or decision to reposition)
 
 
 </section>

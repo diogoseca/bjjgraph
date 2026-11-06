@@ -102,9 +102,6 @@ description: "Master the Clock Choke from Rodeo Ride in BJJ. Learn gi-based bloo
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Clock Choke from Rodeo Ride targets the Carotid arteries and jugular veins. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Clock Choke/from Rodeo Ride/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 - Sprawl your legs behind you as you walk around to maximize downward pressure through the choking grip
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -276,6 +275,8 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 
 - Attacker's near-side hand moves to your belt line or near-side collar, indicating secondary grip establishment
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

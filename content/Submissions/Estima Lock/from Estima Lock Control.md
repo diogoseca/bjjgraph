@@ -82,9 +82,6 @@ description: "Master the Estima Lock finish from Estima Lock control. Complete g
 <span class="meta-chip">27% success</span>
 </div>
 
-> [!danger] Safety
-> Estima Lock from Estima Lock Control targets the Foot and ankle joints (dorsiflexion of foot). Primary risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Estima Lock/from Estima Lock Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ This position-specific finish demands particular attention to safety due to the 
 - Keep your own base stable by distributing weight through your hips rather than leaning forward over the trapped foot
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ This position-specific finish demands particular attention to safety due to the 
 
 - Opponent begins controlling or pinning your free leg, indicating they are preparing to initiate the finishing sequence without defensive interference
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

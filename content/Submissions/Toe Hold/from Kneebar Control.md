@@ -92,9 +92,6 @@ description: "Master the toe hold from kneebar control in BJJ. Learn grip transi
 <span class="meta-chip">31% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Kneebar Control targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Kneebar Control/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ What makes this combination particularly effective is the dilemma it creates for
 - The attacking hand cups over the top of the toes and forefoot, not underneath - cupping over prevents the opponent from extending their foot to strip the grip
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -258,6 +257,8 @@ What makes this combination particularly effective is the dilemma it creates for
 
 - Pressure shifts from linear knee hyperextension to a rotational twisting force against your ankle joint
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

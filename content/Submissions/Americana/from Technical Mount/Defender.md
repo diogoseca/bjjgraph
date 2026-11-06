@@ -10,8 +10,6 @@ description: "Defend against the Americana from Technical Mount in BJJ. Recognit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Technical Mount targets the Shoulder joint (rotator cuff and glenohumeral complex). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -256,6 +254,8 @@ Defending the Americana from Technical Mount requires immediate recognition of t
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Americana/from Technical Mount#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

@@ -92,9 +92,6 @@ description: "Master the heel hook from inverted guard with inverted entry mecha
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Heel Hook from Inverted Guard targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Heel Hook/from Inverted Guard/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, this submission functions best within a broader inverted guard at
 - Maintain constant knee pinch throughout the finish to prevent the opponent from straightening or extracting the trapped leg
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -260,6 +259,8 @@ Strategically, this submission functions best within a broader inverted guard at
 
 - Sudden clamping pressure around your lead thigh as their legs close into a triangle or figure-four
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

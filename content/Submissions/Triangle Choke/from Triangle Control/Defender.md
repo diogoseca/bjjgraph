@@ -10,8 +10,6 @@ description: "Essential guide to defending and escaping the triangle choke from 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke from Triangle Control targets the Carotid arteries and brachial plexus. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -270,6 +268,8 @@ Systematic defense requires addressing multiple threats simultaneously rather th
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Triangle Choke/from Triangle Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

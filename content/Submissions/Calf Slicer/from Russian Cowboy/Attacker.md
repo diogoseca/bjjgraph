@@ -10,8 +10,6 @@ description: "Learn to attack with the calf slicer from Russian Cowboy. Step-by-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Russian Cowboy targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture from excessive compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -219,6 +217,8 @@ Attacking with the calf slicer from Russian Cowboy requires precise timing of th
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Calf Slicer/from Russian Cowboy#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

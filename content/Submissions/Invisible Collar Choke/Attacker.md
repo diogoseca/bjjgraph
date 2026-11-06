@@ -10,8 +10,6 @@ description: "The bottom Invisible Collar holder applies the vascular choke from
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Invisible Collar Choke targets the Neck. Risk: Neck injury from excessive pressure. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -224,6 +222,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Invisible Collar Choke#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

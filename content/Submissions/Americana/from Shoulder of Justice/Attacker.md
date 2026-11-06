@@ -10,8 +10,6 @@ description: "Learn to attack with the Americana from Shoulder of Justice. Setup
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Shoulder of Justice targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking the Americana from Shoulder of Justice leverages the immense positiona
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Americana/from Shoulder of Justice#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

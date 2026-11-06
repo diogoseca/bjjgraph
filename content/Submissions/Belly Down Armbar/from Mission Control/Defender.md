@@ -10,8 +10,6 @@ description: "Defend the belly down armbar finish from Mission Control. Recognit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from Mission Control targets the Elbow joint hyperextension and ulnar collateral ligament. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -231,6 +229,8 @@ Defending the belly down armbar from Mission Control requires recognizing the tr
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Belly Down Armbar/from Mission Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

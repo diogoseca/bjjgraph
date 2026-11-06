@@ -10,8 +10,6 @@ description: "How to execute the toe hold from Estima Lock. Step-by-step grip tr
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Estima Lock targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -257,6 +255,8 @@ Attacking with the toe hold from Estima Lock requires precise timing of the grip
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Toe Hold/from Estima Lock#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

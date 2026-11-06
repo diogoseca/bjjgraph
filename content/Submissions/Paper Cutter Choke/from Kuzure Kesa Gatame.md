@@ -112,9 +112,6 @@ description: "Master the paper cutter choke from kuzure kesa-gatame. Complete gu
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Paper Cutter Choke from Kuzure Kesa Gatame targets the Carotid arteries (bilateral compression). Primary risk: Loss of consciousness from carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Paper Cutter Choke/from Kuzure Kesa Gatame/Attacker|Play as Attacker]]
@@ -227,6 +224,8 @@ Strategically, this choke pairs exceptionally well with the americana and armbar
 - Progressive tightening allows your partner time to tap safely in training
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -300,6 +299,8 @@ Strategically, this choke pairs exceptionally well with the americana and armbar
 
 - You feel the bony edge of the opponent's forearm beginning to rotate and press against the front of your throat
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

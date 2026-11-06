@@ -92,9 +92,6 @@ description: "Master Omoplata from Guard in BJJ. Complete shoulder lock guide wi
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Omoplata from Guard targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/from Guard/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ What makes the Omoplata so valuable for the developing player is its connectivit
 - Shoulder pressure and weight distribution keep opponent's posture broken throughout the sequence
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -262,6 +261,8 @@ What makes the Omoplata so valuable for the developing player is its connectivit
 
 - Opponent releases their closed guard and creates a significant hip angle while maintaining overhook control on one of your arms - pre-entry warning sign
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

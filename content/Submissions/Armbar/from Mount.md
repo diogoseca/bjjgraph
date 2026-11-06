@@ -92,9 +92,6 @@ description: "Master Armbar from Mount in BJJ. Complete safety protocols, setup,
 <span class="meta-chip">68% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from Mount targets the Elbow joint. Primary risk: Elbow hyperextension. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from Mount/Attacker|Play as Attacker]]
@@ -191,6 +188,8 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 - Point toes and pinch heels to create maximum hip pressure and control
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -262,6 +261,8 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 
 - Attacker begins lifting one leg near your head in preparation for the swing-over transition
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

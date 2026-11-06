@@ -105,9 +105,6 @@ description: "Hindulotine from Hindu Control joins the hands after the arm loops
 <span class="meta-chip">30% success</span>
 </div>
 
-> [!danger] Safety
-> Hindulotine from Hindulotine targets the Neck, enclosed by the arm and raised rubber-guard leg. Primary risk: Neck injury from twisting or misaligned pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Hindulotine/from Hindulotine/Attacker|Play as Attacker]]
@@ -212,6 +209,8 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 - Open hands and leg: Release the whole enclosure at the first tap or change in responsiveness, including if the opponent has passed the lower leg.
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -277,6 +276,8 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 
 - The attacker uses the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee.
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

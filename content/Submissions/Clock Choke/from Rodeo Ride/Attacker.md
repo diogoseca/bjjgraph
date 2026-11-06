@@ -10,8 +10,6 @@ description: "Learn to attack with the Clock Choke from Rodeo Ride. Step-by-step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Clock Choke from Rodeo Ride targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -294,6 +292,8 @@ Attacking with the Clock Choke from Rodeo Ride requires integrating the dynamic 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Clock Choke/from Rodeo Ride#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

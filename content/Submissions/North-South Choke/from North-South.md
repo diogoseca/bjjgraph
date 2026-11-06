@@ -82,9 +82,6 @@ description: "Master the North-South Choke from North-South in BJJ. Expert guide
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> North-South Choke from North-South targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/North-South Choke/from North-South/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ Strategically, the North-South Choke creates a powerful dilemma when combined wi
 - Time the choke entry during opponent's exhalation when their defensive tension is lowest
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -246,6 +245,8 @@ Strategically, the North-South Choke creates a powerful dilemma when combined wi
 
 - Weight distribution shifts as opponent begins walking their base to the choking side
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

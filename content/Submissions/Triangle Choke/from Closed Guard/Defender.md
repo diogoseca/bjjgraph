@@ -10,8 +10,6 @@ description: "How to defend against Triangle from Closed Guard in BJJ. Recogniti
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke from Closed Guard targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -279,6 +277,8 @@ Successful triangle defense requires understanding the attacker's mechanics in r
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Triangle Choke/from Closed Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

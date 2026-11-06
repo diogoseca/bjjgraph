@@ -92,9 +92,6 @@ description: "Master Triangle from De La Riva in BJJ. Complete guide with setup 
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Triangle Choke from De La Riva targets the Carotid arteries and jugular veins. Primary risk: Neck strain or cervical spine compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Triangle Choke/from De La Riva/Attacker|Play as Attacker]]
@@ -187,6 +184,8 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 - Use active pulling with legs rather than passive squeezing to finish
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -258,6 +257,8 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 - Your arm gets trapped between opponent's legs as their shin crosses behind your neck and they begin closing the triangle figure-four
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

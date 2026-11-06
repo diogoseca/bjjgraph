@@ -82,9 +82,6 @@ description: "Master the Arm Triangle from Ushiro Kesa Gatame in BJJ. Convert th
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Arm Triangle from Ushiro Kesa Gatame targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm Triangle/from Ushiro Kesa Gatame/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Strategically, this submission punishes opponents who remain passive under the U
 - Drop your head low to the mat on the far side of the opponent's head to seal the choke and eliminate space for head rotation or frame insertion
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ Strategically, this submission punishes opponents who remain passive under the U
 
 - The attacker's head drops low to the mat on the far side of your head, sealing the last escape space in the arm triangle configuration
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -10,8 +10,6 @@ description: "Recognize the D'Arce thread and protect the head-and-arm connectio
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Darce Choke from Side Control targets the Sides of the neck, with the trapped shoulder completing the head-and-arm choke. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -176,6 +174,8 @@ Respond as the arm threads under your armpit toward the neck. Keep room around t
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Darce Choke/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

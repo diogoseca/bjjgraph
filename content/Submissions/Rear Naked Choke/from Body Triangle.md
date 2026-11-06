@@ -82,9 +82,6 @@ description: "Master the Rear Naked Choke from Body Triangle with expert finishi
 <span class="meta-chip">65% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Body Triangle targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Body Triangle/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ The finishing mechanics remain identical to the standard RNC — the choking arm
 - Maintain constant chest-to-back connection throughout the hand fighting sequence to prevent any space creation that enables escape
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -242,6 +241,8 @@ The finishing mechanics remain identical to the standard RNC — the choking arm
 
 - Head pressure from behind — opponent presses their head firmly against yours to control your head angle and prevent chin defense
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -10,8 +10,6 @@ description: "Learn to defend and escape the neck crank from Twister Control. Re
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Neck Crank from Twister Control targets the Cervical spine and neck muscles. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -239,6 +237,8 @@ Defending the neck crank from Twister Control requires understanding that you ar
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Neck Crank/from Twister Control#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

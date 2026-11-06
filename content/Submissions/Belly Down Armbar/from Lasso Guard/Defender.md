@@ -10,8 +10,6 @@ description: "Defend against the belly down armbar from lasso guard. Recognition
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from Lasso Guard targets the Elbow joint hyperextension and ulnar collateral ligament. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -241,6 +239,8 @@ Defending the belly down armbar from lasso guard requires early recognition and 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Belly Down Armbar/from Lasso Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

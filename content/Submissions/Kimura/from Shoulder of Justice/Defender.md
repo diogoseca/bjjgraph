@@ -10,8 +10,6 @@ description: "Defend the Kimura from Shoulder of Justice in BJJ. Recognition cue
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Shoulder of Justice targets the Shoulder joint (glenohumeral) and elbow. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -249,6 +247,8 @@ Defending the Kimura from Shoulder of Justice requires early recognition and dis
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kimura/from Shoulder of Justice#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

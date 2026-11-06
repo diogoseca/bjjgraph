@@ -82,9 +82,6 @@ description: "Master the Ezekiel Choke from Side Control with this complete BJJ 
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Ezekiel Choke from Side Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Ezekiel Choke/from Side Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ At the advanced level, the side control Ezekiel becomes a powerful chain-attack 
 - Integrate the Ezekiel threat into your side control submission chain so that americana and kimura defenses create the openings for the choke and vice versa
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -244,6 +243,8 @@ At the advanced level, the side control Ezekiel becomes a powerful chain-attack 
 
 - The attacker's head dropping beside your head without any apparent position advancement, indicating commitment to a close-range finishing structure
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

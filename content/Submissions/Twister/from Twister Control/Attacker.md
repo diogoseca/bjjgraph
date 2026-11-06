@@ -10,8 +10,6 @@ description: "Learn to execute the Twister from Twister Control with step-by-ste
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Twister from Twister Control targets the Cervical and thoracic spine, shoulder girdle. Risk: Cervical spine damage including herniated discs and ligament tears. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -259,6 +257,8 @@ Attacking with the Twister from Twister Control requires mastery of the sequenti
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Twister/from Twister Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

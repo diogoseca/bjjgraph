@@ -102,9 +102,6 @@ description: "Master Kimura from Turtle in BJJ. Complete guide with safety proto
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Turtle targets the Shoulder joint, rotator cuff, and associated ligaments. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Turtle/Attacker|Play as Attacker]]
@@ -205,6 +202,8 @@ Capitalizing on the natural arm exposure of the defensive turtle, the Kimura fro
 - Use your hips and legs to control the opponent's base and prevent them from rolling through the submission
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -278,6 +277,8 @@ Capitalizing on the natural arm exposure of the defensive turtle, the Kimura fro
 
 - You feel a figure-four grip locking around your arm with your elbow being pulled away from your body and toward the attacker's torso
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

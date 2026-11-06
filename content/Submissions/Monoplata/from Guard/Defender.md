@@ -10,8 +10,6 @@ description: "How to defend against Monoplata from Guard in BJJ. Recognition, es
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Monoplata from Guard targets the Shoulder joint and rotator cuff. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -199,6 +197,8 @@ Defending the Monoplata from Guard requires early recognition and immediate acti
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Monoplata/from Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

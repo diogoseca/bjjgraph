@@ -10,8 +10,6 @@ description: "Learn to execute the Americana shoulder lock from S Mount. Detaile
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from S Mount targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -277,6 +275,8 @@ Executing the Americana from S Mount requires precise figure-four grip mechanics
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Americana/from S Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

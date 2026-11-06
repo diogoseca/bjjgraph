@@ -82,9 +82,6 @@ description: "Master the heel hook from 50-50 Guard in BJJ. Learn setup, grip me
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Heel Hook from 50-50 Guard targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Heel Hook/from 50-50 Guard/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ This submission carries extreme injury risk because knee ligaments can rupture b
 - Monitor your own heel defense throughout the attack, since 50-50 gives the defender mirror access to your legs
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -242,6 +241,8 @@ This submission carries extreme injury risk because knee ligaments can rupture b
 
 - Sensing any rotational torque beginning at your ankle that transmits pressure toward your knee joint
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

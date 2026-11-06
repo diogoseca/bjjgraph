@@ -82,9 +82,6 @@ description: "Master the omoplata from Rubber Guard with entries from Mission Co
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Omoplata from Rubber Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/from Rubber Guard/Attacker|Play as Attacker]]
@@ -169,6 +166,8 @@ Strategically, the omoplata from Rubber Guard serves dual purposes: it functions
 - Use the natural Rubber Guard progression from Mission Control to New York rather than forcing the omoplata from suboptimal angles
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -238,6 +237,8 @@ Strategically, the omoplata from Rubber Guard serves dual purposes: it functions
 
 - Opponent's body begins rotating away from you while their leg maintains heavy pressure across your shoulder and upper back
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

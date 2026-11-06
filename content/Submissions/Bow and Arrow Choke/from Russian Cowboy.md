@@ -82,9 +82,6 @@ description: "Master the Bow and Arrow Choke from Russian Cowboy in BJJ. Learn c
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Bow and Arrow Choke from Russian Cowboy targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Bow and Arrow Choke/from Russian Cowboy/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Strategically, this choke fits naturally into the Russian Cowboy attack chain al
 - Time the collar grip entry when opponent defends the truck or leg entanglement threat, exploiting the momentary opening near their neck
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ Strategically, this choke fits naturally into the Russian Cowboy attack chain al
 
 - Increased stretch or pulling sensation on your collar combined with the hook driving your hips in the opposite direction
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

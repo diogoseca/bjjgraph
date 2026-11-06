@@ -10,8 +10,6 @@ description: "Execute the Americana shoulder lock from 3-4 Mount. Setup grips, f
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from 3-4 Mount targets the Shoulder joint (rotator cuff and glenohumeral complex). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -270,6 +268,8 @@ The Americana from 3-4 Mount attacks the shoulder through forced external rotati
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Americana/from 3-4 Mount#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

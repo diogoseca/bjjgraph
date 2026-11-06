@@ -131,9 +131,6 @@ description: "Master High Elbow Guillotine in BJJ. Complete guide with safety pr
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> High Elbow Guillotine targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The High Elbow Guillotine is a devastating blood choke that targets the carotid arteries through precise elbow positioning and shoulder pressure. Distinguished from the traditional arm-in guillotine by its mechanics, this variation achieves superior control and finishing power by elevating the choking elbow above the opponent's shoulder line while driving the non-choking shoulder into their neck. The technique excels in both standing and ground scenarios, making it a versatile weapon across all grappling contexts. Its effectiveness stems from the biomechanical advantage created when the high elbow position redirects force directly into the carotid arteries rather than relying primarily on forearm compression. The submission can be entered from numerous positions including standing clinch exchanges, failed takedown attempts, and guard pulls, making it an essential component of any complete submission system. Modern competitive grapplers favor this variation for its reliability under pressure and its capacity to finish opponents who successfully defend traditional guillotine mechanics.

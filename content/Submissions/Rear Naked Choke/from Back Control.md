@@ -102,9 +102,6 @@ description: "Master the rear naked choke from back control. Complete guide to h
 <span class="meta-chip">74% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Back Control targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Back Control/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ The finishing mechanics rely on chest expansion and shoulder rotation rather tha
 - Use angle changes and hip adjustments to create space for arm insertion when the opponent maintains tight chin-to-chest defense
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -278,6 +277,8 @@ The finishing mechanics rely on chest expansion and shoulder rotation rather tha
 
 - Attacker's supporting hand moves to your forehead or jaw, pushing your head back to open space between chin and chest for the choking arm
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

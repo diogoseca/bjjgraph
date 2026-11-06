@@ -82,9 +82,6 @@ description: "Master the Short Choke from Gift Wrap in BJJ. Complete guide to fi
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Short Choke from Gift Wrap targets the Carotid arteries. Primary risk: Loss of consciousness from bilateral carotid artery compression causing cerebral hypoxia. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Short Choke/from Gift Wrap/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 - Keep hooks or body triangle secure as the foundation; losing back control negates the arm trap advantage entirely
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -242,6 +241,8 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 
 - The attacker's hook pressure changes as they reposition to drive the shoulder of the choking arm into the back of your head
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

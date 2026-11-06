@@ -10,8 +10,6 @@ description: "Step-by-step guide to finishing the North-South Choke from Kuzure 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from Kuzure Kesa Gatame targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -258,6 +256,8 @@ Attacking with the North-South Choke from Kuzure Kesa Gatame requires understand
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/North-South Choke/from Kuzure Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

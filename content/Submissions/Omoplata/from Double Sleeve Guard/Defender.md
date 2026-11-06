@@ -10,8 +10,6 @@ description: "Defend and escape the omoplata from double sleeve guard. Recogniti
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Double Sleeve Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -274,6 +272,8 @@ Defending the omoplata from double sleeve guard requires recognizing the attack 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Omoplata/from Double Sleeve Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

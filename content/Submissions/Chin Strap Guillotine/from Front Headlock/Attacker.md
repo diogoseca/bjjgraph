@@ -10,8 +10,6 @@ description: "How to execute Chin Strap Guillotine in BJJ. Attacking perspective
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Chin Strap Guillotine from Front Headlock targets the Carotid arteries and windpipe. Risk: Neck strain or cervical spine stress from excessive cranking. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -267,6 +265,8 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Chin Strap Guillotine/from Front Headlock#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

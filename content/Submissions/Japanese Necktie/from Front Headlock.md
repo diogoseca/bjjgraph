@@ -92,9 +92,6 @@ description: "Master Japanese Necktie in BJJ. Complete guide with safety protoco
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Japanese Necktie from Front Headlock targets the Carotid arteries and trachea. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Japanese Necktie/from Front Headlock/Attacker|Play as Attacker]]
@@ -187,6 +184,8 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 - Finish with legs extended and hips driving forward for maximum pressure
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -254,6 +253,8 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 - You feel your own shoulder being driven into the side of your neck as the attacker's body weight shifts across your upper back at an angle
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

@@ -82,9 +82,6 @@ description: "Master the High Elbow Guillotine from Guillotine Control. Complete
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> High Elbow Guillotine from Guillotine Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/High Elbow Guillotine/from Guillotine Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 - Coordinate hip extension with elbow elevation to create opposing forces that amplify compression
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -240,6 +239,8 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 
 - Attacker's hips begin driving forward and extending while their guard tightens, indicating the coordinated finishing squeeze is beginning
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

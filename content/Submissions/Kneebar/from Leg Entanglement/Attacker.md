@@ -10,8 +10,6 @@ description: "How to execute the kneebar from leg entanglement in BJJ. Complete 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Leg Entanglement targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear or rupture. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -266,6 +264,8 @@ Attacking the kneebar from leg entanglement leverages pre-existing lower body co
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kneebar/from Leg Entanglement#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

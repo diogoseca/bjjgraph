@@ -102,9 +102,6 @@ description: "Learn to finish and defend the rear naked choke from mounted cruci
 <span class="meta-chip">65% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Mounted Crucifix targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Mounted Crucifix/Attacker|Play as Attacker]]
@@ -209,6 +206,8 @@ Strategically, this submission serves as the primary finishing threat from mount
 - Squeeze with your entire upper body contracting toward center, not just arm strength
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -282,6 +281,8 @@ Strategically, this submission serves as the primary finishing threat from mount
 
 - Opponent's knee pressure on your trapped arm intensifies as they secure the leg trap before committing hands to choke
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

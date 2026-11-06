@@ -10,8 +10,6 @@ description: "Complete defensive guide for surviving and escaping the Americana 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Kesa Gatame targets the Shoulder joint (glenohumeral). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -237,6 +235,8 @@ Defending the Americana from Kesa Gatame requires recognizing the submission thr
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Americana/from Kesa Gatame#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

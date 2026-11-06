@@ -10,8 +10,6 @@ description: "How to defend against Chin Strap Guillotine in BJJ. Recognition, e
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Chin Strap Guillotine from Front Headlock targets the Carotid arteries and windpipe. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -210,6 +208,8 @@ The defensive hierarchy follows three priorities: first, protect the neck by tuc
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Chin Strap Guillotine/from Front Headlock#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

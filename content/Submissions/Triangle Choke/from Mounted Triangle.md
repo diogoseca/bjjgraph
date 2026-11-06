@@ -92,9 +92,6 @@ description: "Master the triangle choke from mounted triangle position. Learn fi
 <span class="meta-chip">65% success</span>
 </div>
 
-> [!danger] Safety
-> Triangle Choke from Mounted Triangle targets the Carotid arteries and brachial plexus. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Triangle Choke/from Mounted Triangle/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, this submission represents the culmination of a mount attack sequ
 - Apply progressive pressure in controlled stages, tightening incrementally rather than attempting explosive finishes that create escape windows
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -258,6 +257,8 @@ Strategically, this submission represents the culmination of a mount attack sequ
 
 - Attacker's hand reaches behind your head and pulls it laterally toward your trapped arm, sealing space around your neck
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

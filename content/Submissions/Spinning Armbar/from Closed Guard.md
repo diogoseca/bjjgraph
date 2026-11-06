@@ -82,9 +82,6 @@ description: "Master the Spinning Armbar from Closed Guard in BJJ. Complete guid
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Spinning Armbar from Closed Guard targets the Elbow joint. Primary risk: Elbow hyperextension with ligament damage (UCL/MCL tears). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Spinning Armbar/from Closed Guard/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 - Smooth circular motion is more effective than explosive jerking movements
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -244,6 +243,8 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 
 - Opponent's legs disengage from guard position and begin swinging laterally in preparation for the spinning motion
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

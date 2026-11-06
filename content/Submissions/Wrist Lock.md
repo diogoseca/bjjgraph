@@ -103,9 +103,6 @@ description: "Finish the Wrist Lock (mão de vaca) from closed guard top: flexio
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Wrist Lock targets the Wrist and carpal joint. Primary risk: Wrist sprain or ligament tear from hyperflexion. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Wristlock</strong>, <strong>Mão de Vaca</strong>, <strong>Mao de Vaca</strong>, <strong>Flexion Wristlock</strong></p>
 </aside>
@@ -209,6 +206,8 @@ The Wrist Lock, known in Portuguese as mão de vaca ('cow's hand') and in judo a
 - Apply slowly and progressively because the joint has almost no margin before injury
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -280,6 +279,8 @@ The Wrist Lock, known in Portuguese as mão de vaca ('cow's hand') and in judo a
 
 - Sharp, localized pressure building in the wrist rather than the elbow or shoulder
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

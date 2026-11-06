@@ -10,8 +10,6 @@ description: "Complete attacking guide for the short choke from body triangle. S
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Short Choke from Body Triangle targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -219,6 +217,8 @@ Executing the short choke from body triangle requires patient lapel manipulation
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Short Choke/from Body Triangle#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

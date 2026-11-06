@@ -10,8 +10,6 @@ description: "Complete defense guide for the Kimura from Lasso Guard. Learn earl
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Lasso Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -237,6 +235,8 @@ Defending against the Kimura from Lasso Guard requires understanding the specifi
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kimura/from Lasso Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

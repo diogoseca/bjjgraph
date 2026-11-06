@@ -133,9 +133,6 @@ description: "Master the Guillotine Choke in BJJ with step-by-step execution, sa
 <span class="meta-chip">~62% avg</span>
 </div>
 
-> [!danger] Safety
-> Guillotine Choke targets the Carotid arteries and windpipe. Primary risk: Trachea damage or crush injury. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Mae Hadaka Jime</strong></p>
 </aside>

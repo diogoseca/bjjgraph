@@ -61,9 +61,6 @@ description: "Master the belly down armbar finish from Kesa Gatame. Learn the st
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Belly Down Armbar from Kesa Gatame targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Belly Down Armbar/from Kesa Gatame/Attacker|Play as Attacker]]
@@ -131,6 +128,8 @@ This technique is particularly effective against opponents who defend the tradit
 
 - Ensure the opponent's thumb points upward before applying extension to maximize leverage on the elbow joint
 
+
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -201,6 +200,8 @@ This technique is particularly effective against opponents who defend the tradit
 
 - Opponent's chest pressure shifts from your torso toward your shoulder as they begin rotating their body toward the prone position
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

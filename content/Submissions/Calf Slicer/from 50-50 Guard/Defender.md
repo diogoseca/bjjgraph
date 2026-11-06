@@ -10,8 +10,6 @@ description: "Defend against the calf slicer from 50-50 Guard with recognition c
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from 50-50 Guard targets the Calf muscle and Achilles tendon. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -248,6 +246,8 @@ Defending the calf slicer from 50-50 Guard requires recognizing the transition f
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Calf Slicer/from 50-50 Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

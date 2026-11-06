@@ -10,8 +10,6 @@ description: "How to execute the Armbar from Side Control in BJJ. Attacking pers
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Side Control targets the Elbow joint. Risk: Elbow hyperextension. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -261,6 +259,8 @@ The Armbar from Side Control represents a high-percentage submission from one of
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Armbar/from Side Control#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

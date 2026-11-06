@@ -102,9 +102,6 @@ description: "Master the Armbar from Technical Mount in BJJ. Complete guide to s
 <span class="meta-chip">55% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from Technical Mount targets the Elbow joint (hyperextension) and shoulder girdle. Primary risk: Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and radial collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from Technical Mount/Attacker|Play as Attacker]]
@@ -209,6 +206,8 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 - Apply breaking pressure through hip elevation rather than pulling with arms for maximum mechanical advantage
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -282,6 +281,8 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 
 - Attacker's inside leg begins lifting to swing over your face — this is the final pre-submission transition cue
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

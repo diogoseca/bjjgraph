@@ -61,9 +61,6 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Mir Lock from Side Control targets the Shoulder joint (glenohumeral joint). Primary risk: Shoulder dislocation (anterior or posterior). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Mir Lock/from Side Control/Attacker|Play as Attacker]]
@@ -129,6 +126,8 @@ From dominant top side control, the Mir Lock weaponizes the same arm isolation t
 
 - Progress from control to submission only when positional dominance is absolute
 
+
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -203,6 +202,8 @@ From dominant top side control, the Mir Lock weaponizes the same arm isolation t
 
 - Attacker's weight drives forward through your shoulder while your arm is pinned at roughly 90 degrees from your body
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

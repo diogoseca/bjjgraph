@@ -102,9 +102,6 @@ description: "Master the Arm Triangle from Shoulder of Justice. Learn how intens
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Arm Triangle from Shoulder of Justice targets the Carotid arteries (compressed by opponent's own shoulder and attacker's arm). Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm Triangle/from Shoulder of Justice/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ The finishing sequence involves locking the head-and-arm grip, walking to a perp
 - Keep your head low and glued to the mat on the far side of opponent's head to seal the choke and prevent frame escapes
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -276,6 +275,8 @@ The finishing sequence involves locking the head-and-arm grip, walking to a perp
 
 - The attacker's head drops low to the mat on the far side of your head as they settle into the finishing position with their hip on the mat
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

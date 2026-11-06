@@ -92,9 +92,6 @@ description: "Master the Kimura shoulder lock from overhook control. Complete gu
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Overhook Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Overhook Control/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Finishing the Kimura from overhook control often requires different body mechani
 - Treat the grip switch as the critical moment requiring maximum speed and precision, since this is the defender's primary escape window
 
 
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -258,6 +257,8 @@ Finishing the Kimura from overhook control often requires different body mechani
 
 - Attacker's hips begin shifting to create a perpendicular angle to your shoulder, indicating they are setting up the finishing position for rotational torque
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

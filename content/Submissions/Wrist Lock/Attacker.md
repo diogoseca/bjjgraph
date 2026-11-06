@@ -10,8 +10,6 @@ description: "Finish the Wrist Lock (mão de vaca) from closed guard: trap the p
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Wrist Lock targets the Wrist and carpal joint. Risk: Wrist sprain or ligament tear from hyperflexion. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -305,6 +303,8 @@ As the attacker, your job is to recognize a straight, planted, or gripping hand 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Wrist Lock#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

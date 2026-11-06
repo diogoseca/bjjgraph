@@ -61,9 +61,6 @@ description: "Learn Kimura from Triangle Control: retain the triangle entangleme
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Triangle Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Triangle Control/Attacker|Play as Attacker]]
@@ -125,6 +122,8 @@ Kimura from Triangle Control is a distinct submission state: the bottom player r
 
 - Release immediately at a tap; the arm attack and choke must both be released.
 
+
+> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -189,6 +188,8 @@ Kimura from Triangle Control is a distinct submission state: the bottom player r
 
 - The leg entanglement remains in place during the arm attack.
 
+
+> Tap early and often. [Safety guide ↓](#safety-considerations)
 
 ### Escape Paths
 

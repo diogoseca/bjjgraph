@@ -10,8 +10,6 @@ description: "Hindulotine from Hindulotine (attacker): Turn onto the hip and kee
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Hindulotine from Hindulotine targets the Neck, enclosed by the arm and raised rubber-guard leg. Risk: Neck injury from twisting or misaligned pressure. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -304,6 +302,8 @@ This neck enclosure can load the sides of the neck as a vascular choke, and misp
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Hindulotine/from Hindulotine#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

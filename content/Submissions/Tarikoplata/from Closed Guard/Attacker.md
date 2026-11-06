@@ -10,8 +10,6 @@ description: "How to execute Tarikoplata in BJJ. Attacking perspective with setu
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Tarikoplata from Closed Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -303,6 +301,8 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Tarikoplata/from Closed Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 

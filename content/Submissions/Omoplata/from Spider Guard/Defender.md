@@ -10,8 +10,6 @@ description: "Learn to defend and escape the Omoplata from Spider Guard. Recogni
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Spider Guard targets the Shoulder. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -230,6 +228,8 @@ Defending the Omoplata from Spider Guard requires understanding both early preve
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Omoplata/from Spider Guard#safety-considerations|Safety guide ↓]]
 
 ## Defensive Options
 

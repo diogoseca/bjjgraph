@@ -10,8 +10,6 @@ description: "How to execute Triangle from Closed Guard in BJJ. Attacking perspe
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke from Closed Guard targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from carotid compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -265,6 +263,8 @@ The technical execution of the triangle from closed guard requires precise angle
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Triangle Choke/from Closed Guard#safety-considerations|Safety guide ↓]]
 
 ## Execution Steps
 
