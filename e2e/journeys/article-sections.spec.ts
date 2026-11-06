@@ -71,8 +71,8 @@ for (const path of [
           if (!/^\/(Principles|Learning|Systems)\//.test(root.getAttribute('data-reader-path')!) && leaf.closest('#film-study,#official-preview')) continue
           // A position's Overview is cut into tiles at sentence ends (owner, 2026-11-01), and the template's wikilink
           // inside raw HTML prints as its name, so a paragraph is whole when every sentence of it shows.
-          const text = norm(leaf.textContent).replace(/\[\[.*?\|(.*?)]]/, '$1')
-          for (const line of position ? text.split(/(?<=[.!?])\s+(?=[A-Z])/) : [text]) if (line && !shown.includes(line)) missing.push(line)
+          const text = norm(leaf.textContent)
+          for (const line of position ? text.replace(/\[\[.*?\|(.*?)]]/, '$1').split(/(?<=[.!?])\s+(?=[A-Z])/) : [text]) if (line && !shown.includes(line)) missing.push(line)
         }
       }
       const cards = [...root.querySelectorAll('[data-reader-body]>.ng-section-card,.ng-reader-game>.ng-section-card')]

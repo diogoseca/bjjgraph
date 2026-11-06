@@ -14092,3 +14092,42 @@ pinned too, or a stale hold would snap the reader back.
 
 **Bytes.** The hold alone took the deferred set to 22 B over. A `listen()` helper across eleven call sites, and the dead `related-systems`
 alias and `.system-card__*` selectors #339 left, brought it to 506,740 of 506,817 B: 64 B under where it started, and no ceiling moved.
+
+## v1.250.0 — The article on a position page, in the order a person needs it (owner, 2026-11-01)
+
+The owner, on Side Control Bottom: the Overview is "such a long text, and I don't know where to start"; "the choices row should
+always have the same size as the grid"; "I kind of like it that it's centered". This PR is a draft until he has seen the screens in
+`scratch/article-order/owner/index.html`, because the Overview split, the Beta mark and the map's height are his to choose.
+
+**The reader sorts the article, so the order lives in `reader.src.js`.** Position pages now read: Also known as, Often confused with,
+the definition, Essential principles, Decisions, Common mistakes, Statistics, Overview, Prerequisites, Training, Related. Every other
+page keeps its order, and `safety` keeps its seat between options and mistakes while question S1 is open. The no-JS page keeps its
+template order, because moving that is a content change.
+
+**The widths.** Measured before at 1408: grid 236-1384, row 236-1172, first card 260. Now all three share 236-1172, and the sweep from 1024 to
+1920 by 64 holds both edges within 1px, centred, clear of the index. So the grid no longer runs to the right edge, which means three
+lanes start at a window of 1,622px rather than 1,440. One seam to know: the grid is 902px at 1151 and 680px at 1152, where the index
+appears and the margins must match. It is on the owner's page as a question.
+
+**The map at 50% is built and not in the branch.** At 1440x900 it pushes a live question's answers past the bottom of the window, against
+D-368 and D-433: four reds, in `covered-card`, `panic-card` and twice in `defending-landing`, with the panic answer's centre at y=901 of 900.
+The brief makes it the owner's call on the screens, so the branch keeps 144px.
+
+**A crash only the full batch could see.** `position && buckets.get("overview")` is `false` on every non-position page, and `false?.parts[0]`
+throws, because optional chaining guards null and undefined only. Every screen in this PR is a position page, so they all looked
+right. The first batch had 243 reds, 218 of them a reader that never appeared. Fixing this line and reverting the band left 22.
+
+**A misdiagnosis, kept out.** A 32px line drift at 1152 looked like the anchor going quiet mid-slide, and a clause was added for it. A
+pass-by-pass trace showed the anchored line held to within a pixel: the journey had picked a line in the other lane, because v1.249.1
+let it fall through to the second lane too eagerly. The clause came out and the journey prefers the first lane.
+
+**A control that proved a spec gap.** `width-right-edge` survived the first run: a wider grid stays centred and the row follows it, so
+the edges still match while the grid runs under the index. The sweep now pins the index's clearance. 28 of 28 controls are killed.
+
+**A raw wikilink, reduced.** The template leaves a wikilink inside raw HTML, which Quartz never resolves, so 36 pages print
+`[[Positions/...|Name]]`. It was buried in the Overview and would have led the page, so a position's tile prints the name. The link itself needs
+a template fix and a capture.
+
+**Bytes.** The first build was 1,230 B over the deferred cap. The CSS audit found no dead rules. What paid for it: a `rect()` helper across 30
+call sites, `mangleProps` for 23 names used only inside the reader, merged rules, and the rule the definition could share with
+the reader's headings. Deferred 506,794 of 506,817 B, against 506,740 on dev v1.249.2. Eager gzip +8 B, 346,905 B. No ceiling moved.

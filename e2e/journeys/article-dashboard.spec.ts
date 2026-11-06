@@ -45,7 +45,7 @@ import { journey } from '../dsl'
 //   u55-tile-click-toggles a section tile click does nothing (a click on the tile toggles it)
 //   u55r-link-swallowed    a link inside a tile still opens its page (the tile swallows the click)
 //   u55-band-covered       the node band stays clear (the article pulled up over the game stage)
-//   u55-width-unused       the dashboard uses the width (the grid keeps the centred column)
+// u55-width-unused retired with U55 b's run to the right edge; width-right-edge in article-order.spec.ts replaced it.
 //   u59-phone-pairs        the phone keeps its stacked flow (the desktop spans applied at 390px)
 // DASH-R4 (the independent review of R3, scratch/review-323): each control below breaks one claim added for it.
 //   u59r4-anchor-arrival   the stage holds still when Explore opens or the window turns at the arrival (no gate)
@@ -56,7 +56,7 @@ import { journey } from '../dsl'
 //   u59r4-player-third     a reference page's player takes two thirds and the tile's width (it counted as short)
 //   u59r4-trio-unsized     a row of three only holds sections under 1,500 characters (no size threshold)
 //   u59r4-thirds-below     no thirds below three lanes (the odd count made a row of three at 768)
-//   u59r4-lanes-1366       three lanes from a 1,150px grid: 1366 is halves (the old 1,100px threshold)
+//   u59r4-lanes-1366       three lanes from a 1,150px grid: 1600 is halves (the old 1,100px threshold)
 //   u59r4-press-full       an article arriving under a held press still pairs (the default span the full width)
 //   u65-tiles-stretched    each tile ends at its content (stretch restored)
 //   u65-watch-tile-restored game articles omit the duplicate Videos credits tile (its contents restored)
@@ -266,7 +266,8 @@ for (const [width, height, lanes] of [[1440, 900, 2], [1920, 1080, 3], [1600, 90
     // The account badge moved into the drawer. The conditional share cue now owns the corner;
     // the reader must still reserve that whole last lane so text cannot scroll beneath a control.
     expect(d.cue.height, 'premise: the share cue is a live corner control').toBeGreaterThan(0)
-    expect(d.cue.left, 'premise: the cue is over the grid').toBeLessThan(d.body.right)
+    // Owner (2026-11-01): the centred grid no longer reaches this corner, so the cue sits clear of it. The reserve stays.
+    expect(d.cue.left, 'the cue sits beside the grid').toBeGreaterThanOrEqual(d.body.right)
     expect(d.root.bottom, 'the reader ends above the corner share cue').toBeLessThanOrEqual(d.cue.top)
     pairs(d, lanes)
     wholeContent(d)
@@ -331,8 +332,8 @@ async function expectAskGap(page: Page) {
 // DASH-R4 (review finding 9a): the line is picked by GEOMETRY, not by the reader's own anchor rule: the first text
 // line at or below the reader's top, found by walking a point 30px inside each lane's text column down from the
 // reader's top. At two widths (1152 loses the index as the pane opens) and two depths. v1.249.1: the point follows the
-// tile's own 46ch column, not the grid's edge, and either lane will do. The edge only met text in a narrow tile, and a
-// tile ends at its content (U65 b), so a shorter article could land these depths on a gap with nothing wrong.
+// tile's own 46ch column, not the grid's edge, and the second lane stands in only where the first shows a gap. The edge
+// only met text in a narrow tile, and a tile ends at its content (U65 b), so a depth could land on a gap with nothing wrong.
 for (const [width, height] of [[1440, 900], [1152, 900]] as const) for (const depth of [0.3, 0.6]) {
   test(`U59 c: at ${width}x${height} opening Explore keeps the line at the reader's top (${depth * 100}% down)`, async ({ page }) => {
     const j = await boot(page, width, height)
@@ -344,10 +345,10 @@ for (const [width, height] of [[1440, 900], [1152, 900]] as const) for (const de
       return new Promise<{ top: number | null, grid: number, text: string }>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
         const top = e.getBoundingClientRect().top, grid = r.body.getBoundingClientRect()
         let line: Element | null = null
-        for (let y = top + 1; y < top + 400 && !line; y += 3) for (const lane of [grid.left + 30, grid.right - 30]) {
+        for (const lane of [grid.left + 30, grid.right - 30]) for (let y = top + 1; y < top + 400 && !line; y += 3) {
           const column = document.elementFromPoint(lane, y)?.closest('.ng-section-card')?.querySelector('article')?.getBoundingClientRect().left
           const hit = column == null ? null : document.elementFromPoint(column + 30, y)?.closest('p, li')
-          if (!line && hit && hit.getBoundingClientRect().top >= top - 0.5) line = hit
+          if (hit && hit.getBoundingClientRect().top >= top - 0.5) line = hit
         }
         line?.setAttribute('data-test-place', '')
         done({ top: line ? line.getBoundingClientRect().top : null, grid: Math.round(r.body.getBoundingClientRect().width), text: (line?.textContent || '').trim().slice(0, 40) })
@@ -369,11 +370,13 @@ for (const [width, height] of [[1440, 900], [1152, 900]] as const) for (const de
 //   just under: the rounding's remainder must not carry the block out of the anchor (reader-rounding-remainder-dropped)
 //   clipped by: the anchor must be the next block, not the one that grows (reader-clipped-block-anchored)
 for (const [label, offset] of [['just under', 2], ['clipped by', -10]] as const) {
-  test(`U59 c: at 1152x900 opening Explore holds the place around a wrapping block ${label} the reader's top`, async ({ page }) => {
-    const j = await boot(page, 1152, 900)
+  test(`U59 c: at 1440x900 opening Explore holds the place around a wrapping block ${label} the reader's top`, async ({ page }) => {
+    // Since the grid and the row share a centred box, 1152 is wider with the pane open than without it (680 to 728px), so
+    // nothing wraps there. 1440 narrows from 968 to 902px.
+    const j = await boot(page, 1440, 900)
     await page.emulateMedia({ reducedMotion: 'no-preference' })
     const before = await page.locator(READY).evaluate((e, offset) => {
-      const block = [...e.querySelectorAll('li')].find(li => li.textContent!.trim().startsWith('Understanding of base maintenance'))
+      const block = [...e.querySelectorAll('li')].find(li => li.textContent!.trim().startsWith('Knowledge of fundamental mount submissions'))
       if (!block?.nextElementSibling) throw Error('Mount/Top no longer carries the wrapping prerequisite this journey lands on')
       e.scrollTop += block.getBoundingClientRect().top - e.getBoundingClientRect().top - offset
       return new Promise<{ top: number, height: number, landed: number }>(done => requestAnimationFrame(() => requestAnimationFrame(() => {

@@ -19,13 +19,12 @@ import { journey } from '../dsl'
 //   overview-one-wall        a position's Overview is several short tiles (the split removed)
 //   overview-index-rows      the index keeps one Overview row (every tile gets a row)
 //   overview-loses-text      the split keeps every sentence (a tile dropped)
-//   width-right-edge         the grid and the row share both edges, centred (the grid back to the right edge)
+//   width-right-edge         the grid keeps the index's 12px clearance (the grid back to the old, wider width)
 //   row-keeps-inset          the first card sits on the grid's left edge (the row's 24px inset back)
 //   row-full-width           below the index the row shares the grid too (the row back to the window's width)
 //   grid-spans-all           no section spans the grid (a tile across all 12 columns)
 //   beta-everywhere          only a position's two sections carry Beta (the mark on every options tile)
-//   place-rechosen           a pane opened and closed at the article's end restores the place (the anchor re-picked each pass)
-//   place-slide-unheld       a line holds while a capped grid stands still mid-slide (the anchor ignoring the slide)
+// pane-layout.spec.ts carries the 768 close (pane-hold-*).
 // The map's height is not claimed here: the 50% band is the owner's open choice, and D-368 and D-433 pin what it would cost.
 
 const READY = '[data-reader][data-reader-ready="true"]'
@@ -103,12 +102,15 @@ test('@curated the choices row and the grid share both edges and stay centred, 1
     const e = await page.evaluate(() => {
       const a = (window as any).__neural, r = a._reader, g = r.body.getBoundingClientRect(), row = a.optionsRef.current, b = row.getBoundingClientRect(), s = getComputedStyle(row)
       const cards = [...row.querySelectorAll('[data-tech],[data-threat-tech]')].map((c: any) => c.getBoundingClientRect().left)
-      return { left: g.left, right: g.right, rowLeft: b.left + parseFloat(s.paddingLeft), rowRight: b.right - parseFloat(s.paddingRight), first: Math.min(...cards), free: a._paneLayout().center }
+      return { left: g.left, right: g.right, rowLeft: b.left + parseFloat(s.paddingLeft), rowRight: b.right - parseFloat(s.paddingRight), first: Math.min(...cards), free: a._paneLayout().center,
+        index: r.contents.hidden ? null : r.contents.getBoundingClientRect().right }
     })
     expect(Math.abs(e.rowLeft - e.left), `left edges at ${width}`).toBeLessThanOrEqual(1)
     expect(Math.abs(e.rowRight - e.right), `right edges at ${width}`).toBeLessThanOrEqual(1)
     expect(Math.abs(e.first - e.left), `the first card sits on the edge at ${width}`).toBeLessThanOrEqual(1)
     expect(Math.abs((e.left + e.right) / 2 - e.free), `centred at ${width}`).toBeLessThanOrEqual(1)
+    // Two edges can match and stay centred while the grid runs under the index, so the clearance is its own claim.
+    if (e.index != null) expect(Math.abs(e.left - (e.index + 12)), `the grid clears the index at ${width}`).toBeLessThanOrEqual(1)
     seen.push(width)
   }
   expect(seen, 'the sweep ran every width').toEqual(widths)
@@ -122,19 +124,3 @@ for (const [width, height] of [[1152, 864], [1440, 900], [1920, 1080]] as const)
     for (const t of d.open) expect(t.width, `${t.type} is narrower than the grid`).toBeLessThan(d.grid.width - 24)
   })
 }
-
-test('a pane opened and closed at the article\'s end restores the reader\'s place at 768', async ({ page }) => {
-  const j = await boot(page, 768, 1024, '/Positions/Mount/Top')
-  await page.emulateMedia({ reducedMotion: 'no-preference' })
-  await page.locator('[data-reader-body]').focus()
-  await page.keyboard.press('Control+End')
-  await expect.poll(() => page.locator('[data-reader]').evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop)).toBeLessThan(2)
-  const top = () => page.locator('[data-reader]').evaluate(e => e.scrollTop), before = await top()
-  const settle = async () => { await j.advance(100); await page.waitForTimeout(450); await j.advance(3500); await page.evaluate(() => document.body.getBoundingClientRect().top); await j.advance(3500) }
-  await j.clickByMouse('.ng-logo', 'open the pane')
-  await expect(page.locator('.ng-drill')).toBeVisible()
-  await settle()
-  await j.clickByMouse('.ng-explorer-close', 'close the pane')
-  await settle()
-  expect(Math.abs(await top() - before), 'the place comes back').toBeLessThanOrEqual(8)
-})

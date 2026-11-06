@@ -1092,7 +1092,7 @@ class Reader {
       const phoneCatch = available && !reference && a._phoneCatch();
       a.wrapRef.current.toggleAttribute("data-phone-catch", phoneCatch);
       const top = chrome ? chrome.headBottom : ownTop;
-      // U59 c: the article's tiles run to the right edge, so the share cue in the corner reserves
+      // U59 c: the share cue in the corner reserves
       // the bottom too: the reader ends above it and the cue never covers text or a link.
       const end = chrome?.bottomReserve != null ? H - chrome.bottomReserve : this.dock.hidden
         ? H - a._readerShelfBottom({ left: free.center - width / 2, right: W }) - 8
@@ -1130,8 +1130,7 @@ class Reader {
       // re-picked line: it reorders which line comes first, and it can shorten the document so scrollTop clamps. A pass
       // then took the clamped height as the new place and the close landed elsewhere: 179-333px at the end of Transitions
       // and Submissions at 768, 971px at a landed Mount Top.
-      // The slide also counts on its own: a capped grid holds still while the stage above it reflows (32px at 1152).
-      keep = (this.gridW - (this.gridW = available ? grid : NaN) || a.uiShift % 1) && rect(art).top < top && (this.placeTop === this.heldAt && this.held?.isConnected
+      keep = this.gridW - (this.gridW = available ? grid : NaN) && rect(art).top < top && (this.placeTop === this.heldAt && this.held?.isConnected
         ? (was = this.heldY, this.held) : [...art.querySelectorAll("p,li")].find(e => (was = this.heldY = rect(e).top) >= top));
       style(art, "--article-width", grid);
       // U59 c (owner): every desktop row holds two open sections side by side, in source order, so

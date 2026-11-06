@@ -83,11 +83,11 @@ last; missing groups are omitted. Hubs include the full Top/Attacker guide; role
 shared hub safety. Failed loads offer Retry.
 
 **The desktop dashboard (U55 b, U59 c).** Above 640px the sections sit in rows of two open sections, in source
-order. With the index shown (from 1152px) the grid runs from its 12px clearance to a 24px right margin; narrower
-it is centred, at most 902px. On three lanes (a grid of 1,150px or more: 1440 and wider with the index) the longer
+order. With the index shown (from 1152px) the grid starts at its 12px clearance and mirrors that margin on the right, centred, and the choices row shares both its edges at every width above 640px (owner, 2026-11-01); narrower
+it is centred, at most 902px. On three lanes (a grid of 1,150px or more: a window of 1,622px and wider with the index) the longer
 section takes two thirds and the other one third, either way; a table with a fourth column and a reference page's
 Videos (its player) count as long. A grid of 661-1,149px uses two lanes, each taking a half (including 768px tablets,
-844px phones held sideways and 1152-1366px with the index). Between 641 and 1151px, the grid stays centred and
+844px phones held sideways and 1152-1621px with the index). Between 641 and 1151px, the grid stays centred and
 becomes two lanes only once its own width exceeds 660px. An odd count makes one row of three thirds only on three lanes and only from the
 run of three (starting on a row) whose longest section is under 1,500 characters; otherwise the last section ends
 the article beside an empty lane (two thirds, or a half). A grid of 660px or less is one column. **U65 b (owner,

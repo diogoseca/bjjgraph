@@ -166,7 +166,7 @@ const mutants = [
   ['chrome-bottom-reserve-ignored', sections, 'optional chrome frame', s => replace(s, 'chrome?.bottomReserve != null', 'false')],
   ['head-over-map', sections, '1366px chrome keeps', s => replace(s, 'const parent = chrome ? root : flow,', 'const parent = root,'), css => css + '\n.ng-reader>.ng-reader-head{left:calc(50% - 455px);top:0}\n'],
   ['phone-tools-in-header', sections, '390px chrome keeps', s => replace(s, 'chrome && W <= 640 ? flow : head', 'false ? flow : head')],
-  ['execution-label-clearance-lost', 'card-presentation.spec.ts', '1440px.*chosen card rises', s => replace(s, 'card.style.marginTop = shown.getBoundingClientRect().top - box.top - parseFloat(getComputedStyle(row).paddingTop) + "px";', 'card.style.marginTop = "0px";')],
+  ['execution-label-clearance-lost', 'card-presentation.spec.ts', '1440px.*chosen card rises', s => replace(s, 'card.style.marginTop = rect(shown).top - box.top - parseFloat(getComputedStyle(row).paddingTop) + "px";', 'card.style.marginTop = "0px";')],
   // D-368: under C Moves lead, so on a desktop a fresh layout gives the chosen row its old top and the handoff is
   // unexercised; U16 b (owner, 2026-10-24) now pins it through the result-time band restore.
   // D-433 renamed the short live-band journey; its native pick/result rectangle claim remains.
@@ -193,12 +193,26 @@ const mutants = [
   ['d338-saved-focus-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$', s => replace(s, 'return this.app.get(GAME_KEYS[part], true) !== false;', 'return this.app.get((this.app.get("readingFocus", false) ? { card: "readingCard", hand: "readingHand", map: "readingMap", feedback: "readingFeedback" } : GAME_KEYS)[part], true) !== false;')],
   ['d338-index-eyes-retained', sections, 'contents and header targets at 1440x900', s => replace(s, 'row.append(link, eyeOff()); contents.append(row);', 'row.append(link, eyeOff(), button("", () => {}, { "data-toc-eye": section.type })); contents.append(row);')],
   ['d338-section-settings-retained', sections, 'contents and header targets at 1440x900', s => replace(s, '    contents.append(indexTitle);', '    contents.append(indexTitle, button("Section settings", () => this.app.openSettings("rolling"), { "data-section-settings": "" }));')],
-  ['d338-tray-under-index', sections, 'D-338 1152px', s => replace(s, 'if (row) position(row, rowLeft, rowTop, indexEdge ? W + 2 * free.left - 2 * indexEdge : W);', 'if (row) position(row, 0, rowTop, W);')],
+  ['d338-tray-under-index', sections, 'D-338 1152px', s => replace(s, 'if (row) position(row, rowLeft, rowTop, flush ? grid + free.left : W);', 'if (row) position(row, 0, rowTop, W);')],
   ['d338-closed-label-boxed', sections, 'contents and header targets at 390x844', s => s, css => css + '\n.ng-section-card[data-collapsed=true]{background:#1b2034!important;border-color:#414c68!important}\n'],
   ['d338-page-scrolls-flow-top', 'landcard-deck.spec.ts', '390px MC: deck pages', s => replace(s, 'root.scrollTop = Math.min(root.scrollTop, Math.max(0, top));', 'root.scrollTop = 0;')],
   // NOT KILLED SINCE U59 c (DASH-R4 measured; dev's reader kills it): the reader's bottom reserve now spans the full
   // width (the account pill), so opening the pane at 1024 no longer moves it, the scrollport never grows and the
   // browser never clamps in this journey. The restore is still code; this control no longer exercises it.
+  // Owner (2026-11-01): the claims of article-order.spec.ts, one control each.
+  ['order-position-list', 'article-order.spec.ts', 'a position reads in the owner', s => replace(s, 'const order = position ? POSITION_ORDER : SECTION_ORDER;', 'const order = SECTION_ORDER;')],
+  ['order-reaches-others', 'article-order.spec.ts', 'every other page keeps', s => replace(s, 'const order = position ? POSITION_ORDER : SECTION_ORDER;', 'const order = POSITION_ORDER;')],
+  ['relations-not-split', 'article-order.spec.ts', 'a position reads in the owner', s => replace(s, ' + (position ? ",.entity-relations" : "")', '')],
+  ['definition-in-overview', 'article-order.spec.ts', 'a position reads in the owner', s => replace(replace(s, '  "definition": "state-invariants",\n', ''), '"overview": "overview definition"', '"overview": "overview definition state-invariants"')],
+  ['wikilink-printed', 'article-order.spec.ts', 'a position reads in the owner', s => replace(s, 'if (type === "confused") n.innerHTML = n.innerHTML.replace(/\\[\\[.*?\\|(.*?)]]/, "$1");', '')],
+  ['overview-one-wall', 'article-order.spec.ts', 'Overview is several short tiles', s => replace(s, 'const overview = buckets.get(position && "overview")', 'const overview = null')],
+  ['overview-index-rows', 'article-order.spec.ts', 'Overview is several short tiles', s => replace(s, 'if (section.more) continue;', '')],
+  ['overview-loses-text', 'article-order.spec.ts', 'Overview is several short tiles', s => replace(s, 'tiles.forEach((html, i) => {', 'tiles.slice(0, 2).forEach((html, i) => {')],
+  ['width-right-edge', 'article-order.spec.ts', 'share both edges', s => replace(s, 'free.width + 2 * (free.left - indexEdge)', 'W - 24 - indexEdge')],
+  ['row-keeps-inset', 'article-order.spec.ts', 'share both edges', s => replace(s, 'const flush = this.trayFlush = available && W > 640;', 'const flush = available && W > 640;')],
+  ['row-full-width', 'article-order.spec.ts', 'share both edges', s => replace(s, 'const flush = this.trayFlush = available && W > 640;', 'const flush = this.trayFlush = available && !!indexEdge;')],
+  ['grid-spans-all', 'article-order.spec.ts', 'no section spans the whole grid at 1440x900', s => s, css => css + '\n[data-section-type=definition]{grid-column:1/-1}'],
+  ['beta-everywhere', 'article-order.spec.ts', 'every other page keeps', s => s, css => replace(css, ':has([data-source-id$=tree],[data-source-id$=metrics])', '[data-section-type=options]')],
   // v1.249.2: the reader holds one line at one height through a pane's slide, until its place moves.
   ['pane-hold-rechosen', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'false')],
   ['pane-hold-rechosen-mount', 'pane-layout.spec.ts', '768px the pane overlays the article', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'false')],
@@ -211,7 +225,7 @@ const mutants = [
   // D-368: at 1440 the current card's film beside the question is taller and absorbs the backs' reserve; the
   // stacked phone stage is where the article must clear them.
   ['d338-deck-backs-unreserved', 'landcard-deck.spec.ts', '390px: the deck face keeps its 1.5x foot', s => replace(s, 'if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight) + 3 * (a._landStackEl?.childElementCount || 0);', 'if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight);')],
-  ['d338-tray-asymmetric', sections, 'D-338 1440px Questions and Moves close', s => replace(s, 'const rowLeft = indexEdge ? indexEdge - free.left : 0;', 'const rowLeft = 0;')],
+  ['d338-tray-asymmetric', sections, 'D-338 1440px Questions and Moves close', s => replace(s, 'const rowLeft = flush ? free.center - grid / 2 - free.left : 0;', 'const rowLeft = 0;')],
   ['d338-film-waits-for-intent', seam, '1366px the current card sits in the game\'s stage', s => replace(s, 'wantsMedia() { return this.on("book"); }', 'wantsMedia() { return this.on("book") && !!(this.intent || this.interacting); }')],
   ['pressed-answer-moved', 'reading-navigation.spec.ts', '1440px reader adoption during a mouse press', s => replace(s, ' || this.app._readerPress', '')],
   // D-351: the hold (a landing is unpublished until its article renders; the reader stops honouring it
@@ -287,9 +301,9 @@ const mutants = [
   // U59 c, "two sections side by side always ... never only show one section full width": a long section alone.
   ['u59-row-alone', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => replace(s, '"" + (k > 2 ? 4 :', '"" + (s.len > 3e3 ? 12 : k > 2 ? 4 :')],
   // "Some sections can take two columns while the other one takes one": the shorter text takes the two.
-  ['u59-pair-flipped', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => replace(s, '(s == x) == (x.len < (y || x).len) ? 4 : 8', '(s == x) == (x.len < (y || x).len) ? 8 : 4')],
+  ['u59-pair-flipped', 'article-dashboard.spec.ts', 'at 1920x1080 the dashboard pairs', s => replace(s, '(s == x) == (x.len < (y || x).len) ? 4 : 8', '(s == x) == (x.len < (y || x).len) ? 8 : 4')],
   // An odd count's row of three is the shortest run, not wherever the count runs out (Mount's last three hold Related).
-  ['u59-trio-last', 'article-dashboard.spec.ts', 'an odd article at 1440', s => replace(s, '(k = i == t ? 3 : 2)', '(k = n % 2 && i == n - 3 ? 3 : 2)')],
+  ['u59-trio-last', 'article-dashboard.spec.ts', 'an odd article at 1920', s => replace(s, '(k = i == t ? 3 : 2)', '(k = n % 2 && i == n - 3 ? 3 : 2)')],
   // Rows in source order: a late section moved first by the grid (what dense packing did).
   ['u59-order-moved', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => s, css => css + '\n[data-reader-body]>[data-section-type=related]{order:-1}\n'],
   // "Tab and visual order agree": the rows laid right to left, so focus (source order) runs against the eye.
@@ -310,15 +324,15 @@ const mutants = [
   // "The node band stays clear": the article pulled up over the game stage to use the space above it.
   ['u55-band-covered', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => replace(s, 'style(art, "margin-top", 6);', 'style(art, "margin-top", 6 - gameHeight);')],
   // "Uses the width": the grid keeps today's centred column instead of starting at the index's clearance.
-  ['u55-width-unused', 'article-dashboard.spec.ts', 'at 1440x900 the dashboard pairs', s => replace(s, 'if (this.body) style(this.body, "margin-left", indexEdge ? indexEdge - column : "");', '')],
+  // u55-width-unused retired with U55 b's run to the right edge: width-right-edge is the owner's rule that replaced it.
   // DASH-R4 (the independent review of R3): one control per claim added for its findings.
   // Finding 1, "the stage holds still at the arrival": the anchor without its gate (the article above the reader's top).
-  ['u59r4-anchor-arrival', 'article-dashboard.spec.ts', 'opening Explore at the arrival', s => replace(s, ' && art.getBoundingClientRect().top < top', '')],
-  ['u59r4-anchor-resize', 'article-dashboard.spec.ts', 'window narrowed at the arrival', s => replace(s, ' && art.getBoundingClientRect().top < top', '')],
-  ['u59r4-anchor-rotation', 'article-dashboard.spec.ts', 'phone turned to landscape', s => replace(s, ' && art.getBoundingClientRect().top < top', '')],
+  ['u59r4-anchor-arrival', 'article-dashboard.spec.ts', 'opening Explore at the arrival', s => replace(s, ' && rect(art).top < top', '')],
+  ['u59r4-anchor-resize', 'article-dashboard.spec.ts', 'window narrowed at the arrival', s => replace(s, ' && rect(art).top < top', '')],
+  ['u59r4-anchor-rotation', 'article-dashboard.spec.ts', 'phone turned to landscape', s => replace(s, ' && rect(art).top < top', '')],
   // Finding 2, "putting the article away and back returns the same line": restore R3's ungated anchor and
   // remembered hidden width together. The reset alone is redundant with the gate in this journey.
-  ['u59r4-reopen-ungated', 'article-dashboard.spec.ts', 'putting the article away and back', s => replace(replace(s, ' && art.getBoundingClientRect().top < top', ''), '(this.gridW = available ? grid : NaN)', '(this.gridW = grid)')],
+  ['u59r4-reopen-ungated', 'article-dashboard.spec.ts', 'putting the article away and back', s => replace(replace(s, ' && rect(art).top < top', ''), '(this.gridW = available ? grid : NaN)', '(this.gridW = grid)')],
   // Finding 3, "a wide table takes two thirds and shows every column": counted as short text; kept in the 46ch column.
   ['u59r4-table-third', 'article-dashboard.spec.ts', 'wide Top/Bottom table', s => replace(s, ' || content.querySelector("tr>:nth-child(4)")', '')],
   ['u59r4-table-measured', 'article-dashboard.spec.ts', 'wide Top/Bottom table', s => s, css => replace(css, '.ng-section-body article:has(tr>:nth-child(4)){max-width:none}', '')],
@@ -328,7 +342,7 @@ const mutants = [
   // Finding 5, thirds "only when the sizes justify them": no size threshold, and thirds by parity below three lanes.
   ['u59r4-trio-unsized', 'article-dashboard.spec.ts', 'Principles page', s => replace(s, 'let t, best = 1500;', 'let t, best = 1e9;')],
   ['u59r4-thirds-below', 'article-dashboard.spec.ts', 'at 768x1024', s => replace(s, 'if (wide && n % 2)', 'if (n % 2)')],
-  ['u59r4-lanes-1366', 'article-dashboard.spec.ts', 'at 1366x768 the dashboard pairs', s => replace(s, 'wide = grid >= 1150', 'wide = grid >= 1100')],
+  ['u59r4-lanes-1366', 'article-dashboard.spec.ts', 'at 1600x900 the dashboard pairs', s => replace(s, 'wide = grid >= 1150', 'wide = grid >= 1100')],
   // Finding 6, "an article arriving under a held press still pairs": the default span back to the full width.
   ['u59r4-press-full', 'article-dashboard.spec.ts', 'arrives under a held press', s => s, css => replace(css, 'span var(--span,6)', 'span var(--span,12)')],
   // U65 b and note (owner, 2026-10-29): each tile ends at its own content; game pages have no credits tile.
