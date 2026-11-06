@@ -14126,7 +14126,7 @@ in the article's box is a hole, BETWEEN if a tile lies below it, END if not. Rec
 
 The big end gaps are Training standing alone on Transitions and Submissions: 1,191px on Knee Slice Pass Attacker, 956 on its Defender,
 844 on Armbar from Mount, 777 on Back Step Pass. A proposal, measured and not built: each bold-led phase its own tile, as the
-Overview's are, brings those to 72, 113, 276 and 185px with no text rewritten. It costs 302 B, and it makes Positions slightly
+Overview's are, brings those to 72, 113, 276 and 185px with no text rewritten. It costs 300 B, and it makes Positions slightly
 worse, so it would be scoped.
 
 **U90 a, and what "never hiding" costs.** 136 real cards on 16 pages at 1440x900: the bottom answer lands 486px below the map at the
@@ -14148,7 +14148,7 @@ raises. Row logic freed less than it looked: the sides, the observer and the que
 
 **Specs.** 12 tests pinned the rows: 11 rewritten to the columns' claim (`pairs()` and `rowsOf()` became `columns()`) and 1, the trio,
 replaced by three pages that are two columns too. 10 row controls retired with the rule each pinned, named in the mutant file. New:
-15 journeys, 3 units, 19 controls. `u59-measure-unset` survived at 1440 with nothing wrong, because a tile's text there is under
+15 journeys, 3 units, 21 controls. `u59-measure-unset` survived at 1440 with nothing wrong, because a tile's text there is under
 46ch, so it moved to 1920. The band controls edit neural.js, outside the reader-only runner: `band-uncapped`
 (`Math.round(this.H/2)-e`), `band-old-144` and `band-follows-card` (a band that shrinks by 60 once a question opens).
 
