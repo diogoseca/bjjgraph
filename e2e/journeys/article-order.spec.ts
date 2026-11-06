@@ -24,8 +24,12 @@ import { journey } from '../dsl'
 //   row-full-width           below the index the row shares the grid too (the row back to the window's width)
 //   grid-spans-all           no section spans the grid (a tile across all 12 columns)
 //   beta-everywhere          only a position's two sections carry Beta (the mark on every options tile)
-//   band-uncapped            the map stops above a live question's answers (half the window, no cap)
+//   index-from-1152          the index waits for a readable line (back at 1,152)
+//   index-never              the index shows at 1,350 (never)
+//   band-uncapped            the map stops at the median card's room (half the window, no cap)
 //   band-old-144             the map is half the window (the old 144px band)
+//   u99-no-scroll            every answer is reached by a real scroll (the reader cannot scroll)
+//   u99-fixed-over-answer    nothing is fixed over an answer (a fixed strip along the window's bottom)
 //   band-follows-card        nothing moves when a question opens (a band read off the open card)
 //   ask-line-centred         the question line starts at the label's left edge (the line centred, as it was)
 // pane-layout.spec.ts carries the 768 close (pane-hold-*). The band mutants edit neural.js, so they sit outside that file's
@@ -96,7 +100,7 @@ test('@curated only a position\'s Statistics and Decisions carry the Beta mark',
 })
 
 // Measured before this change at 1408: grid 236-1384, row 236-1172, first card 260. Sweep from the brief: 1024 to 1920 by 64.
-const widths: number[] = []
+const widths: number[] = [1349, 1350]
 for (let w = 1024; w <= 1920; w += 64) widths.push(w)
 test('@curated the choices row and the grid share both edges and stay centred, 1024 to 1920', async ({ page }) => {
   test.setTimeout(240000)
@@ -120,6 +124,22 @@ test('@curated the choices row and the grid share both edges and stay centred, 1
   expect(seen, 'the sweep ran every width').toEqual(widths)
 })
 
+// U97 b (owner, 2026-11-06): the index shows only from about 1,350px, where a line stays at 45 characters (1,346 on five real
+// pages, real fonts). The harness's fallback fonts cannot measure characters, so the claim here is the widths that carry it:
+// a 387px text column at the threshold, and the 902px grid just below it, which is what keeps the seam small.
+for (const [width, index, grid] of [[1349, false, 902], [1350, true, 878]] as const) {
+  test(`@curated U97 at ${width}px the index is ${index ? 'shown' : 'hidden'} and the grid is ${grid}px`, async ({ page }) => {
+    await boot(page, width, 900)
+    const e = await page.evaluate(() => {
+      const r = (window as any).__neural._reader, tile = r.body.querySelector(':scope>:not([data-media-control])')
+      return { index: !r.contents.hidden, grid: r.body.getBoundingClientRect().width, text: tile.querySelector('article').getBoundingClientRect().width }
+    })
+    expect(e.index, 'the index').toBe(index)
+    expect(e.grid, 'the grid').toBeCloseTo(grid, 0)
+    expect(e.text, 'a line has its room').toBeGreaterThanOrEqual(386)
+  })
+}
+
 for (const [width, height] of [[1152, 864], [1440, 900], [1920, 1080]] as const) {
   test(`no section spans the whole grid at ${width}x${height}`, async ({ page }) => {
     await boot(page, width, height)
@@ -129,9 +149,11 @@ for (const [width, height] of [[1152, 864], [1440, 900], [1920, 1080]] as const)
   })
 }
 
-// U90 a (owner, 2026-11-06): "half the window, never hiding a live question's answers". The map ends at half the window, or
-// NG_LIVE_ANSWER_ROOM above the window's bottom if that is higher. D-368 and D-433 pin the catch; these pin the calm card.
-for (const [width, height, bottom, note] of [[1440, 900, 280, 'capped'], [1152, 864, 244, 'capped'], [1920, 1400, 700, 'exactly half']] as const) {
+// U90 a, then U99 b (owner, 2026-11-06): a taller map, 43% at 900px tall, "knowing half of all cards then need a scroll to reach
+// their last answer". He overrode the first build's "never hiding", so D-368's no-scroll claim on a desktop is replaced by the
+// floor below: every answer of every card can be reached by a real scroll. The map ends at half the window, or NG_LIVE_ANSWER_ROOM
+// (514, the median card) above the window's bottom if that is higher, and it reads the window alone.
+for (const [width, height, bottom, note] of [[1440, 900, 386, '43%'], [1152, 864, 350, 'capped'], [1920, 1400, 700, 'exactly half']] as const) {
   test(`@curated U90 at ${width}x${height} the map ends at ${bottom}px (${note}), and nothing moves when a question opens`, async ({ page }) => {
     const j = await boot(page, width, height)
     const stage = () => page.evaluate(() => {
@@ -143,14 +165,53 @@ for (const [width, height, bottom, note] of [[1440, 900, 280, 'capped'], [1152, 
     await j.openQuestion()
     await j.readerLayoutSettled()
     expect(await stage(), 'the map, the Moves row and the reader hold still').toEqual(before)
-    const open = await page.evaluate(() => {
-      const a = (window as any).__neural, end = a._reader.root.getBoundingClientRect().bottom
-      return { end, answers: [...a._landEl.querySelectorAll('[data-land-q] button')].filter((e: any) => e.getClientRects().length && e.getBoundingClientRect().width > 150).map((e: any) => {
-        const b = e.getBoundingClientRect(), hit = document.elementFromPoint(b.left + b.width / 2, b.top + b.height / 2)
-        return { bottom: b.bottom, hit: !!hit && e.contains(hit) } }) }
-    })
-    expect(open.answers.length, 'premise: the question shows its answers').toBeGreaterThan(1)
-    expect(open.answers.filter(x => !x.hit || x.bottom > Math.min(height, open.end) - 8), 'every answer is on screen, 8px clear of the reader\'s end').toEqual([])
+  })
+}
+
+// U99 b's floor. Americana from Side Control holds the longest card measured (589px below the map, real fonts). Each answer of
+// each card is walked to by the real wheel, over the card, and must then sit whole inside the reader with nothing over it. The
+// premise makes a page that stops needing a scroll fail here instead of passing without the claim.
+const answersOf = (page: Page) => page.evaluate(() => {
+  const a = (window as any).__neural, end = a._reader.root.getBoundingClientRect().bottom, top = a._reader.root.getBoundingClientRect().top
+  return { end, top, scrollTop: a._reader.root.scrollTop, question: a._landQ?.card?.q, answers: [...a._landEl.querySelectorAll('[data-land-q] button')].filter((e: any) => e.getClientRects().length && e.getBoundingClientRect().width > 150).map((e: any) => {
+    const b = e.getBoundingClientRect(), inside = b.top >= top && b.bottom <= end, hit = inside && document.elementFromPoint(b.left + b.width / 2, b.top + b.height / 2)
+    return { top: b.top, bottom: b.bottom, left: b.left, width: b.width, inside, hit: !!hit && e.contains(hit) }
+  }) }
+})
+for (const [width, height] of [[1440, 900], [1152, 864]] as const) {
+  test(`@curated U99 at ${width}x${height} every answer of every card on the longest deck is reached by a real scroll`, async ({ page }) => {
+    test.setTimeout(180000)
+    const j = await boot(page, width, height, '/Submissions/Americana/from-Side-Control/Attacker')
+    await j.openQuestion()
+    await j.readerLayoutSettled()
+    const seen = new Set<string>()
+    let scrolled = 0
+    for (let n = 0; n < 16; n++) {
+      const card = await answersOf(page)
+      expect(card.answers.length, 'premise: the question shows its answers').toBeGreaterThan(1)
+      if (seen.has(card.question)) break
+      seen.add(card.question)
+      for (let i = 0; i < card.answers.length; i++) {
+        let now = await answersOf(page)
+        for (let tries = 0; !now.answers[i].inside && tries < 6; tries++) {
+          const at = now.answers[i]
+          await page.mouse.move(at.left + at.width / 2, Math.min(at.top + 4, now.end - 12))
+          await page.mouse.wheel(0, at.bottom - now.end + 12)
+          await expect.poll(async () => (await answersOf(page)).scrollTop, { message: 'the wheel moves the reader' }).toBeGreaterThan(now.scrollTop)
+          await j.readerLayoutSettled()
+          now = await answersOf(page); scrolled++
+        }
+        expect(now.answers[i], `answer ${i + 1} of "${card.question}" sits whole in the reader, with nothing over it`).toMatchObject({ inside: true, hit: true })
+      }
+      await page.locator('[data-reader]').evaluate(e => { e.scrollTop = 0 })
+      await j.readerLayoutSettled()
+      const next = page.locator('[data-land-next]')
+      if (!(await next.count()) || !(await next.first().isVisible())) break
+      await j.clickByMouse('[data-land-next]', 'the next card')
+      await j.readerLayoutSettled()
+    }
+    expect(seen.size, 'premise: several cards were walked').toBeGreaterThan(3)
+    expect(scrolled, 'premise: some answers needed the scroll this claim is about').toBeGreaterThan(0)
   })
 }
 

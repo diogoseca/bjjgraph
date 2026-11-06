@@ -221,16 +221,20 @@ for (const [width, height, wide] of [[1440, 900, false], [1920, 1080, true], [16
     const stage = Math.max(d.question?.bottom ?? 0, d.hand?.bottom ?? 0)
     expect(stage, 'the question and the Moves row are on screen').toBeGreaterThan(d.band!.bottom)
     expect(Math.min(...d.tiles.map(t => t.box.top)), 'the dashboard starts below the question and the Moves row').toBeGreaterThanOrEqual(stage)
-    // The width: from the index's 12px clearance, centred, so that margin mirrors on the right.
-    expect(d.toc, 'the left index shows').not.toBeNull()
-    expect(d.body.left).toBeCloseTo(d.toc!.right + 12, 0)
+    // The width: from the index's 12px clearance, centred, so that margin mirrors on the right. U97 b: 1,350 and wider.
+    if (width < 1350) expect(d.toc, 'no index under 1,350px').toBeNull()
+    else {
+      expect(d.toc, 'the left index shows').not.toBeNull()
+      expect(d.body.left).toBeCloseTo(d.toc!.right + 12, 0)
+    }
     expect(d.body.right).toBeCloseTo(width - d.body.left, 0)
     expect(Math.max(...d.tiles.map(t => t.box.right))).toBeCloseTo(width - d.body.left, 0)
     // The account badge moved into the drawer. The conditional share cue now owns the corner;
     // the reader must still reserve that whole last lane so text cannot scroll beneath a control.
     expect(d.cue.height, 'premise: the share cue is a live corner control').toBeGreaterThan(0)
     // Owner (2026-11-01): the centred grid no longer reaches this corner, so the cue sits clear of it. The reserve stays.
-    expect(d.cue.left, 'the cue sits beside the grid').toBeGreaterThanOrEqual(d.body.right)
+    // U97 b: under 1,350px the grid is 902px wide and does reach under the corner, so there the reserve alone keeps them apart.
+    if (width >= 1350) expect(d.cue.left, 'the cue sits beside the grid').toBeGreaterThanOrEqual(d.body.right)
     expect(d.root.bottom, 'the reader ends above the corner share cue').toBeLessThanOrEqual(d.cue.top)
     columns(d)
     wholeContent(d)
@@ -366,8 +370,7 @@ for (const depth of [0.3, 0.6]) {
 //   clipped by: the anchor must be the next block, not the one that grows (reader-clipped-block-anchored)
 for (const [label, offset] of [['just under', 2], ['clipped by', -10]] as const) {
   test(`U59 c: at 1440x900 opening Explore holds the place around a wrapping block ${label} the reader's top`, async ({ page }) => {
-    // Since the grid and the row share a centred box, 1152 is wider with the pane open than without it (680 to 728px), so
-    // nothing wraps there. 1440 narrows from 968 to 902px.
+    // 1440 narrows from 968 to 902px as the pane opens, so this block wraps there.
     const j = await boot(page, 1440, 900)
     await page.emulateMedia({ reducedMotion: 'no-preference' })
     const before = await page.locator(READY).evaluate((e, offset) => {

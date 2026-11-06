@@ -298,6 +298,8 @@ test("@curated a technique outside the active game ruleset remains readable on d
 
 for (const action of ["wheel", "selection"] as const) {
   test(`@curated mixed ${action} declines the live question without scoring a miss`, async ({ page }) => {
+    // U99 b (owner, 2026-11-06): the taller map puts the first tile below the fold at 900, and this wheel needs a tile to land on.
+    await page.setViewportSize({ width: 1440, height: 1400 })
     const j = journey(page)
     await j.boot("/")
     await j.land("Mount Top")

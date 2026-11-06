@@ -36,12 +36,12 @@ const NG_LAND_ANSWER_STEPS = Object.freeze([
 // The option tray's own horizontal inset, both ends (`updateUiShift` writes it; the pane's reserve is
 // added on the left only). The template's inline 24px is the same value for the first paint.
 const NG_TRAY_INSET = 24;
-// U90 a: the room a live question needs under the map, from the map's bottom to the window's. Measured at 1440x900 on 136
-// real cards from 16 pages (Positions, Transitions, Submissions), real fonts: the bottom answer lands 486px below the map at
-// the median, 570 at p90 and 589 at worst (`Americana from Side Control`, Attacker). The reader ends 20px above the window and
-// D-368 keeps an answer 8px above that: 589 + 28 = 617, rounded up. A card taller than every sampled one needs a scroll, as
-// any card did before. Lowering this shows more map and costs the longest cards their last answer: U90's own trade-off.
-const NG_LIVE_ANSWER_ROOM = 620;
+// U99 b (owner, 2026-11-06, over the first build's "never hiding"): a taller map, 43% at 900px tall, knowing that half of all
+// cards then need a scroll to reach their last answer. The room a live question needs under the map, from the map's bottom to the
+// window's, at the median: on 136 real cards from 16 pages (1440x900, real fonts) the bottom answer lands 486px below the map at
+// the median, 570 at p90 and 589 at worst. The reader ends 20px above the window and an answer keeps 8px above that: 486 + 28.
+// The floor that replaces D-368 on a desktop: every answer of every card can be reached by a real scroll (article-order.spec.ts).
+const NG_LIVE_ANSWER_ROOM = 514;
 // v1.230.0: equal choice score columns are styled in choice-value.css.
 // feedback_owner_rules_reverse_shipped_contracts: v1.220.0's 0.6 ratio retired.
 // The chosen card's lift (`_placeOnTable`): a twelfth of its own height (12px on the 144px card),
@@ -18903,9 +18903,9 @@ class Component extends DCLogic {
     // with no arrival or Answer for Points scroll (U47 d). At 390x631 the reader has 463px: 80 band + 16 gap
     // + the measured 352.25px open card leaves 14.75px. The usual phone keeps 144;
     // no account, type, target or Moves compaction. Both bands hold through the pick.
-    // U90 a (owner, 2026-11-06): "half the window, never hiding a live question's answers". On a desktop the map ends at
-    // half the window's height, or NG_LIVE_ANSWER_ROOM above the window's bottom if that is higher, and never below the
-    // old 144. It reads the window alone, never a card, so nothing moves when a question opens. D-368 and D-433 stand.
+    // U90 a, then U99 b (owner, 2026-11-06): on a desktop the map ends at half the window's height, or NG_LIVE_ANSWER_ROOM above
+    // the window's bottom if that is higher, and never below the old 144. It reads the window alone, never a card, so nothing moves
+    // when a question opens. D-433 stands on a phone; on a desktop a long card's last answer is a scroll away, by his ruling.
     // From the app's own top, not a chrome frame's: D-318 keeps the reservation's height when chrome moves the head.
     const height = this.H > 500 ? this.W <= 640 ? this._phoneCatch() ? this.H < 700 ? 80 : 144 : 186
       : Math.max(144, Math.min(Math.round(this.H / 2), this.H - NG_LIVE_ANSWER_ROOM) - own) : 64;

@@ -85,12 +85,13 @@ shared hub safety. Failed loads offer Retry.
 **The desktop article: two columns (owner, 2026-11-06, replacing U59 c's rows and U65 b's pairing).** Above 660px of grid, on
 every article, each open section in reading order goes to the column that is shorter now, and a draw (within a pixel) goes left.
 `layoutNow` reads real heights and names the side (`data-right`); floats place it, so the DOM never moves: head tops down the page,
-Tab and the index are one order. With the index shown (from 1152px) the grid is centred 12px clear of it, sharing both edges with
+Tab and the index are one order. With the index shown (from 1,350px free, U97 b) the grid is centred 12px clear of it, sharing both edges with
 the choices row; narrower it is centred, at most 902px. A grid of 660px or less is one column. **U65 b: tiles end at their own
 content.** The only gap is below the shorter column at the article's end, where the map can show, the reader grid owns input and
-the node is not clickable. Nothing is capped, faded or reordered. Closing a tile reflows only what follows it. **U90 a:** on a
-desktop the map ends at half the window, or `NG_LIVE_ANSWER_ROOM` above its bottom if that is higher, never under the old 144px
-band; it reads the window alone, so nothing moves when a question opens. **U90 note:** the asking line's text starts on the "Your move" label's left edge. Each tile's
+the node is not clickable. Nothing is capped, faded or reordered. Closing a tile reflows only what follows it. **U90 a, U99 b:** on a
+desktop the map ends at half the window, or `NG_LIVE_ANSWER_ROOM` above its bottom if that is higher (43% at 900 tall), never under
+the old 144px; it reads the window alone, so nothing moves when a question opens. Half of all cards need a scroll for their last
+answer (his ruling), and every answer can be reached by one. **U90 note:** the asking line's text starts on the "Your move" label's left edge. Each tile's
 text is a centred 46ch column (a 65-68 character median line at 1440-1920), except an article holding a wide table;
 tables use the section's spacing instead of an additional outer margin.
 The media slot is outside the prose measure. The reader ends above the conditional share cue in the corner;

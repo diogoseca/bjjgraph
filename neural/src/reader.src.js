@@ -1112,7 +1112,10 @@ class Reader {
       // U9 b (owner, 2026-10-21): the index sits on the LEFT, 24px inside the free area (the inset it had on the right).
       const lead = free.left + 24;
       const tocWidth = toc ? parseFloat(getComputedStyle(toc).width) : 200;
-      const column = rect(art).left, fits = W > 640 && H > 500 && column - lead >= tocWidth + 12;
+      // U97 b (owner, 2026-11-06): the index shows only from about 1,350px of free width. With it the grid is 472px narrower,
+      // and a line stops reading well: 45 characters is the floor, measured at 1,346 on five real pages (32 at 1,152). Below
+      // this the grid is 902px, so the seam is 24px, not the 222 it was at 1,152.
+      const fits = H > 500 && free.width >= 1350;
       // Where the index fits, the Moves tray (which sits beside its rows, D-338) starts 12px past it
       // and stays centred on the column. Decided by the fit, not by readiness, so a loading article
       // never re-centres the hand.
@@ -1137,7 +1140,9 @@ class Reader {
       // and Submissions at 768, 971px at a landed Mount Top.
       // v1.251.0: the columns reflow on the same width change, so the source order no longer runs down the page. The
       // line is the block nearest the reader's top in either column, and a tie stays with the earlier block.
-      keep = this.gridW - (this.gridW = available ? grid : NaN) && rect(art).top < top && (this.placeTop === this.heldAt && this.held?.isConnected
+      // v1.251.0 (U97 b): the free width, not the grid's. The grid now stands at 902px through most of a pane slide, while the
+      // film still flips from beside the question to under it and grows the stage: 143-168px with no anchor to hold the line.
+      keep = this.gridW - (this.gridW = available ? free.width : NaN) && rect(art).top < top && (this.placeTop === this.heldAt && this.held?.isConnected
         ? (was = this.heldY, this.held) : (was = 1 / 0, [...art.querySelectorAll("p,li")].reduce((line, e) => { const y = rect(e).top; return y >= top && y < was ? (was = this.heldY = y, e) : line; }, null)));
       style(art, "--article-width", grid);
       // Owner (2026-11-06, replacing U59 c's rows and U65 b's pairing): two columns, "never a big gap following the

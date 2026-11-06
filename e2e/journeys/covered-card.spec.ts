@@ -417,12 +417,16 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
     expect(scroll.pageAfter).toBe(scroll.pageBefore)
     expect(scroll.events.every(value => value === scroll.before), 'D-433 no browser scroll anchoring through Answer for Points').toBe(true)
     expect(opened.answers).toHaveLength(3)
+    // U99 b (owner, 2026-11-06) changes this on a desktop: a taller map, "knowing half of all cards then need a scroll to reach
+    // their last answer". The no-scroll claims stay the phone's. On a desktop every answer is reached by a real scroll, which
+    // defending-landing.spec.ts (D-368) and article-order.spec.ts (U99) pin with the real wheel.
+    const phone = viewport.width <= 640
     for (const answer of opened.answers) {
-      expect(answer, 'D-433 every revealed answer is hit-testable without scrolling').toMatchObject({ inside: true, hit: true })
+      if (phone) expect(answer, 'D-433 every revealed answer is hit-testable without scrolling').toMatchObject({ inside: true, hit: true })
       expect(answer.opacity).toBeGreaterThan(.05)
       expect(answer.rect.height, 'the native answer keeps its 44px target').toBeGreaterThanOrEqual(44)
       expect(answer.rect.width).toBeGreaterThanOrEqual(44)
-      expect(answer.bottomMargin, 'D-370 answer clearance survives U35').toBeGreaterThanOrEqual(8)
+      if (phone) expect(answer.bottomMargin, 'D-370 answer clearance survives U35').toBeGreaterThanOrEqual(8)
       expect(answer.fontSize, 'answer typography is unchanged').toBe('12px')
     }
     expect(opened.card.height, 'the opened question retains the original 12px edge-margin fit budget').toBeLessThanOrEqual(opened.bounds.bottom - opened.bounds.top - 24)

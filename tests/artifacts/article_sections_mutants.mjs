@@ -215,7 +215,7 @@ const mutants = [
   ['beta-everywhere', 'article-order.spec.ts', 'every other page keeps', s => s, css => replace(css, ':has([data-source-id$=tree],[data-source-id$=metrics])', '[data-section-type=options]')],
   // v1.249.2: the reader holds one line at one height through a pane's slide, until its place moves.
   ['pane-hold-rechosen', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'false')],
-  ['pane-open-hold-lost', 'pane-layout.spec.ts', '768px the line holds while the pane is open, mid-article', s => replace(s, 'keep = this.gridW - (this.gridW = available ? grid : NaN) && ', 'keep = this.gridW - (this.gridW = available ? grid : NaN) && false && ')],
+  ['pane-open-hold-lost', 'pane-layout.spec.ts', '768px the line holds while the pane is open, mid-article', s => replace(s, 'keep = this.gridW - (this.gridW = available ? free.width : NaN) && ', 'keep = this.gridW - (this.gridW = available ? free.width : NaN) && false && ')],
   ['pane-hold-rechosen-mount', 'pane-layout.spec.ts', '768px the pane overlays the article', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'false')],
   ['pane-hold-height-lost', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, '(was = this.heldY, this.held)', '(was = this.held.getBoundingClientRect().top, this.held)')],
   ['pane-hold-keyed-on-scroll', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.isConnected', 'root.scrollTop === this.heldAt && this.held?.isConnected')],
@@ -329,7 +329,15 @@ const mutants = [
   ['line-dom-first-slide', 'article-dashboard.spec.ts', 'on every step of a pane slide', s => replace(s, 'return y >= top && y < was ? (was = this.heldY = y, e) : line;', 'return y >= top && !line ? (was = this.heldY = y, e) : line;')],
   // The clamp guard back as #340 wrote it: a 1px tick from the end reads as the browser's clamp.
   ['place-end-tick', 'pane-layout.spec.ts', 'one-pixel scroll up', s => replace(s, 'r.scrollTop >= end - 1 && this.placeTop > end + 1', 'r.scrollTop >= end - 1 && r.scrollTop < this.placeTop')],
-  // U90 note: the line centred, as it was.
+  // The anchor on the grid's width again: the grid stands still through most of a slide while the stage grows.
+  ['line-keyed-on-grid', 'article-dashboard.spec.ts', 'at 1152x900 opening Explore keeps the line', s => replace(s, '(this.gridW = available ? free.width : NaN)', '(this.gridW = available ? grid : NaN)')],
+  // U97 b: the index back at 1,152, and never.
+  ['index-from-1152', 'article-order.spec.ts', 'U97 at 1349px', s => replace(s, 'free.width >= 1350', 'free.width >= 1152')],
+  ['index-never', 'article-order.spec.ts', 'U97 at 1350px', s => replace(s, 'free.width >= 1350', 'free.width >= 1e4')],
+  // U99 b's floor: the reader cannot scroll, and a strip fixed along the window's bottom over the answers.
+  ['u99-no-scroll', 'article-order.spec.ts', 'U99 at 1440x900 every answer', s => s, css => css + '\n.ng-reader{overflow:hidden!important}\n'],
+  ['u99-fixed-over-answer', 'article-order.spec.ts', 'U99 at 1440x900 every answer', s => s, css => css + '\nbody:after{content:"";position:fixed;left:0;right:0;top:40%;height:60%;z-index:99;pointer-events:auto}\n'],
+
   ['ask-line-centred', 'article-order.spec.ts', 'U90 at 1440x900 the question line', s => replace(s, 'if (moves) cardX = rowLeft + moves.offsetLeft - 1;', '')],
   ['ask-line-label-offset', 'article-order.spec.ts', 'U90 at 390x844 the question line', s => replace(s, 'if (moves) cardX = rowLeft + moves.offsetLeft - 1;', 'if (moves) cardX = rowLeft + 3;')],
   // "Tab and visual order agree": the columns mirrored, so focus (source order) runs against the eye.
@@ -359,7 +367,7 @@ const mutants = [
   ['u59r4-anchor-rotation', 'article-dashboard.spec.ts', 'phone turned to landscape', s => replace(s, ' && rect(art).top < top', '')],
   // Finding 2, "putting the article away and back returns the same line": restore R3's ungated anchor and
   // remembered hidden width together. The reset alone is redundant with the gate in this journey.
-  ['u59r4-reopen-ungated', 'article-dashboard.spec.ts', 'putting the article away and back', s => replace(replace(s, ' && rect(art).top < top', ''), '(this.gridW = available ? grid : NaN)', '(this.gridW = grid)')],
+  ['u59r4-reopen-ungated', 'article-dashboard.spec.ts', 'putting the article away and back', s => replace(replace(s, ' && rect(art).top < top', ''), '(this.gridW = available ? free.width : NaN)', '(this.gridW = free.width)')],
   // Finding 3, "a wide table shows every column": kept in the 46ch column.
   ['u59r4-table-measured', 'article-dashboard.spec.ts', 'wide Top/Bottom table', s => s, css => replace(css, '.ng-section-body article:has(tr>:nth-child(4)){max-width:none}', '')],
   ['u59r4-table-margin', 'article-dashboard.spec.ts', 'at 768x1024', s => s, css => replace(css, 'table{display:block;overflow-x:auto;font-size:14px;margin:0}', 'table{display:block;overflow-x:auto;font-size:14px}')],

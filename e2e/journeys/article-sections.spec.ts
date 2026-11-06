@@ -317,7 +317,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
     await expect(page.locator(READY)).toBeVisible()
     // Closed pane: 680px article + two (200px TOC + 24px edge + 12px gap) gutters.
     // Hidden on narrow tablets as well as phones; the article never yields width.
-    const hasToc = viewport.width >= 1152 && viewport.height > 500
+    const hasToc = viewport.width >= 1350 && viewport.height > 500 // U97 b (owner, 2026-11-06): a line keeps 45 characters
     const header = page.locator('[data-section-toggle=principles]'), body = page.locator('[data-section-type=principles] .ng-section-body')
     await expect(page.locator('.ng-reader-contents-button')).toHaveCount(0)
     const column = await page.locator('.ng-reader-article').boundingBox()
@@ -436,14 +436,14 @@ test('@curated current node stays centred while the native article crosses it at
     // Repeated reading can mint White Foundations. Its deliberate phone overlay
     // covers the node band; dismiss it natively before testing article occlusion.
     if (await page.locator('[data-reward-close]').isVisible()) await j.clickByMouse('[data-reward-close]')
-    if (width >= 1152) await expect(page.locator('.ng-reader-toc')).toBeVisible()
+    if (width >= 1350) await expect(page.locator('.ng-reader-toc')).toBeVisible() // U97 b
     else await expect(page.locator('.ng-reader-toc')).toBeHidden()
     const board = await tocCanvasGeometry(page)
     expect(board.map).toBe(true)
     expect(Math.abs(board.center - width / 2), width + 'px centred visible composition').toBeLessThan(2)
     expect(Math.max(...board.labels.map(r => r.bottom), ...board.orbs.map(r => r.bottom))).toBeLessThan(board.firstTop)
     expect(board.intersections, width + 'px map: ' + JSON.stringify(board)).toEqual([])
-    if (width >= 1152) await j.clickByMouse('[data-toc-type=overview] a')
+    if (width >= 1350) await j.clickByMouse('[data-toc-type=overview] a')
     else {
       await page.locator('[data-reader-body]').focus()
       await page.keyboard.press('PageDown')
@@ -487,7 +487,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
     await expect(page.locator('.ng-reader-toc h2')).toHaveText('Escaping Loop Choke from Half Guard')
     expect(await page.locator('.ng-reader-toc h2 small').evaluate(e => getComputedStyle(e).display), 'the qualifier stays in the phrase').toBe('inline')
     expect((await page.locator('.ng-reader-toc-row a').allTextContents()).slice(0, 4)).toEqual(['Videos', 'Moves', 'Questions', 'Overview'])
-    const hasToc = viewport.width >= 1152
+    const hasToc = viewport.width >= 1350 // U97 b
     for (const [part, close] of [['card', '[data-land-close]'], ['hand', '[data-hand-close]']]) {
       const label = page.locator(`[data-game-open="${part}"]`)
       await expect(label, 'an open part has no header').toBeHidden()
