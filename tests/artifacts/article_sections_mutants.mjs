@@ -460,6 +460,13 @@ const mutants = [
   ['u59-phone-pairs', 'article-dashboard.spec.ts', 'at 390x844 the phone keeps', s => s, css => replace(css, '@container (max-width:660px){[data-reader-body]>*{width:100%}}', '')],
   // U110 a (owner, 2026-11-09): under 1,024px every stacked container is one 496px box. At 600px the card is 496px with or
   // without the cap (600 less the arrows' 104), so the card's own control runs at 768px.
+  // U104 (v1.252.0): a closed question's label is a row across the grid, so both columns start under it.
+  ['u104-label-under-article', sections, 'D-338 1152px Questions and Moves close', s => replace(s, 'const filmEnd = (showCard ? cardY : y) + ', 'const filmEnd = cardY + ')],
+  // U104: each column carries on under its own stage cell.
+  ['u104-no-lead', 'article-dashboard.spec.ts', '@curated at 1440x900 the article is two columns', s => replace(s, 'this.sortColumns(...this.leadCells);', 'this.sortColumns();')],
+  // U112 a: the reader shows the page's guide whole; the old reader cut would drop the closing line with the four parts.
+  ['u111-reader-cut-back', 'safety-risks-only.spec.ts', 'Armbar/from-Mount/Attacker', s => replace(s, "    // U111, U112 a (owner, 2026-11-09): a submission's guide is cut in its template",
+    '    submission && buckets.get("safety")?.parts[0].node.querySelectorAll(":scope>.table-container~*").forEach(n => n.remove());\n    // U111, U112 a (owner, 2026-11-09): a submission\'s guide is cut in its template')],
   ['u110-cap-lost', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = 0;')],
   ['u110-card-uncapped', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'beside ? 390 : cap || (arrows ? 560 : 520)', 'beside ? 390 : arrows ? 560 : 520')],
   ['u110-film-uncapped', 'stacked-width.spec.ts', 'stacked at 900px', s => replace(s, 'a.filmLayout(cap ? Math.min(free.width, cap + 32) : free.width,', 'a.filmLayout(free.width,')],

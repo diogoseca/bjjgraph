@@ -80,4 +80,7 @@ test("@curated U111: a transition keeps its whole guide and gets no closing line
   expect(m.notes, "no closing line on a transition").toBe(0)
 })
 
-// Red-proof (v1.252.0): pending.
+// Red-proof (v1.252.0, tests/artifacts/article_sections_mutants.mjs on the served reader.js, against a green baseline):
+//   u111-reader-cut-back ... the old reader cut put back (the page's guide re-cut after its table) ... killed: the closing line, once
+// The template side's controls are in tests/submission_safety_pages.test.mjs (a page, a template and a source each mutated).
+// NOT COVERED by a control here: the page claims (builtHeads, builtLast, md), which only a regenerated, rebuilt page could break.

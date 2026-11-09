@@ -560,6 +560,8 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
         const a = (window as any).__neural
         return part === 'card' ? !a._landEl : getComputedStyle(a.optionsRef.current).visibility === 'hidden'
       }, part)).toBe(true)
+      // U104 (v1.252.0): at 1,024 to 1,349px the article once started at the closed question's old top and covered this label.
+      // Control: u104-label-under-article (tests/artifacts/article_sections_mutants.mjs), killed here at 1152px.
       await j.clickByMouse(`[data-game-open="${part}"]`, `reopen ${part} from its label`)
       await expect(label).toBeHidden()
       // D-336: the restore half shows the card, not only the control's state (D-318's reader gate).

@@ -186,7 +186,9 @@ function wholeContent(d: Dash) {
 // So a column holds no gap but the token, and the only other space is below the shorter column at the article's end.
 // U104 (owner, 2026-11-06, U108 a): the stage heads the columns, the question in the left and the film in the right, and each
 // column carries on under its own cell, both at one gap; a column with no cell starts at the stage's top line. Within a pixel is a
-// draw, as in the reader's own packer.
+// draw, as in the reader's own packer. Control (v1.252.0): u104-no-lead, the lead dropped, killed at "confused never runs under the
+// stage". The slide below: ask-fit-late (tests/artifacts/neural_app_mutants.mjs), the asking line fitted a frame late again,
+// killed at "the line holds on every step".
 function columns(d: Dash) {
   const lanes = [...new Set(d.tiles.map(t => Math.round(t.box.left)))].sort((x, y) => x - y)
   expect(lanes, 'two columns').toHaveLength(2)

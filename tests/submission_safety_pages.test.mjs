@@ -10,9 +10,9 @@
 //   - every Submission source that authors a safety object still authors all four parts, non-empty.
 // The md-only `Cross Collar Choke/Finish` page has no source and was cut by hand; it is scanned like the rest.
 // Red-proof (v1.252.0, each mutant applied by hand to one file, run, restored):
-//   tap-signals-back-in-a-page .... "**Tap Signals**:" re-inserted into one generated page ...... pending
-//   line-lost-from-a-template ..... the closing line removed from TEMPLATE-DUAL ................. pending
-//   source-part-dropped ........... one source's tap_signals emptied ............................. pending
+//   tap-signals-back-in-a-page .... "**Tap Signals**:" re-inserted into one generated page ...... killed: still has **Tap Signals**
+//   line-lost-from-a-template ..... the closing line removed from TEMPLATE-DUAL ................. killed: the closing line, once
+//   source-part-dropped ........... one source's tap_signals emptied ............................. killed: tap_signals
 import { test } from "node:test"
 import assert from "node:assert/strict"
 import { readFileSync, readdirSync, statSync } from "node:fs"
