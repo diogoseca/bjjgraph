@@ -14647,3 +14647,14 @@ Top pages without a Film Study section, from the build) whose reader agrees, and
 `outcome` draws were live, a miss let the opponent's counter draw a destination inside Darce Choke from Darce Control, and a
 catch never lands. Isolated it passed 20 of 20 on this build and 20 of 20 on a clean control (same app, base content); the
 move now succeeds onto its first outcome, 20 of 20, and both files pass whole, 37 of 37.
+
+## v1.252.2 - The video search, routes 5 and 6: 18 fills from captions and title-first search (clips2, 2026-11-09)
+
+**What.** Clips only, 16 records: 4 technique halves gain their first front and 14 escape cards gain a `defender.escape_clips` row, one clip each. Every id answered oEmbed 200 on 9 Nov.
+- **Route 6, technique halves**, found as moments inside long lessons on the half's own seat: Ghost Escape from Side Control (defender: "how to prevent a ghost escape from side control"), Back Control to Cross Body Ride, Turtle to Rodeo Ride, and Reverse Kimura from Standing Position.
+- **Route 5, escape cards**, title first: one search per card, captions only where a title names the card. The hitchhiker escape on three armbar cards, the boot defence on two ankle-lock cards, the omoplata front roll and posture on four omoplata cards, and a bridge, a leg-grab, a stack, a toe-hold roll and a triangle posture-up.
+- **Where the rows start.** A title-first window is a keyword hit, which can be a recap, so those rows start at 0 unless a judge named a start.
+
+**How it stopped.** Route 6 halted at its halfway mark (224 of 449 halves, 3 filled, under the bar of 4). Route 5 stopped at its halfway mark (475 of 950 cards): 13 filled, but the full read overturned 3 of 16 double accepts. Each route had run a pilot first.
+
+**Measured.** In FLOW's gi game from Anywhere, placeholder cards fall from 3,541 to 3,441 of 13,448 dealt per 100 games (26.3% to 25.6%); Ghost Escape's defender threat card alone carries 53.1. Sonnet spent on routes 5 and 6 in all, pilots included: about 0.36 Mtok. Ledgers: `scratch/video-search/routes/` outside the repo; report `reports/video-search.md`.

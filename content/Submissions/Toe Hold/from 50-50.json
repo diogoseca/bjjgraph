@@ -895,6 +895,22 @@
         "vertical": false,
         "front": true
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Rotate your entire body in the direction of the toe hold…",
+        "clips": [
+          {
+            "id": "o6SEub-V5bw",
+            "title": "Basic Principles of Toe Hold Defense",
+            "channel": "Elevate MMA Academy",
+            "duration": 192,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-09"
+          }
+        ]
+      }
     ]
   },
   "variations_and_setups": [

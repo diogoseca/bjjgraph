@@ -46,6 +46,16 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Reverse Kimura Takedown to Submission!",
+      "description": "Reverse Kimura from Standing Position film study: Reverse Kimura Takedown to Submission!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4DxYOBM6R0U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4DxYOBM6R0U",
+      "url": "https://www.youtube.com/watch?v=4DxYOBM6R0U",
+      "duration": "PT754S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "TMG Clips #3 - Reverse Kimura Throw to Submission",
       "description": "Reverse Kimura from Standing Position film study: TMG Clips #3 - Reverse Kimura Throw to Submission.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8tW1t_KO1T4/hqdefault.jpg",
@@ -104,6 +114,14 @@ Belonging to the Kimura family of shoulder locks, this reverse-grip variation ev
 
 <p class="section-subtitle">Watch Reverse Kimura from Standing Position in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4DxYOBM6R0U)
+
+<p class="clip-credit"><strong>Reverse Kimura Takedown to Submission!</strong> · 12:34 · <a href="https://www.youtube.com/watch?v=4DxYOBM6R0U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

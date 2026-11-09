@@ -764,6 +764,16 @@
         "description": "Full-resistance side control maintenance rounds where partner uses their complete escape arsenal. Focus on recognizing which escape is being attempted within the first half-second and selecting the appropriate defensive response. Track success rates for each escape type defended."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "uxXAQgtNzgY",
+        "title": "Stop The Ghost Escape For Good | BJJ Side Control",
+        "channel": "RVV BJJ",
+        "duration": 285,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      }
+    ]
   }
 }

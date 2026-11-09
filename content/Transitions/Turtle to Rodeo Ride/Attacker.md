@@ -176,6 +176,27 @@ description: "How to execute the Transition to Rodeo Ride from turtle top in BJJ
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Rodeo Ride (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "TOP RIDE TO SEATED RODEO RIDE AGAINST TURTLE POSITION",
+      "description": "Turtle to Rodeo Ride (Attacker) film study: TOP RIDE TO SEATED RODEO RIDE AGAINST TURTLE POSITION.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EWDM-ozukW8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EWDM-ozukW8",
+      "url": "https://www.youtube.com/watch?v=EWDM-ozukW8",
+      "duration": "PT409S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ Executing the Transition to Rodeo Ride requires converting your standard turtle 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Rodeo Ride (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EWDM-ozukW8)
+
+<p class="clip-credit"><strong>TOP RIDE TO SEATED RODEO RIDE AGAINST TURTLE POSITION</strong> · 6:49 · <a href="https://www.youtube.com/watch?v=EWDM-ozukW8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
