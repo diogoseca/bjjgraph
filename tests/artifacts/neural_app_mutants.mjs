@@ -239,7 +239,7 @@ const controls = [
   // U104 (owner, 2026-11-06): a card with no video has nothing to dismiss.
   // U104 (v1.252.0): an asking card is fitted inside the pass that measures it, or a pane slide reads a wrapped line.
   ['ask-fit-late', 'article-dashboard.spec.ts', 'other column \\(30% down\\)',
-    [['p.clientWidth!==p._fitW&&this._fitAskLine(p,p._fitW=p.clientWidth)}return', 'p.clientWidth}return']], 'the line holds on every step'],
+    [['p.clientWidth!==p._fitW&&this._fitAskLine(p,p._fitW=p.clientWidth)}return', 'p.clientWidth}return']], 'the asking line stays one line on every pass'],
   ['film-none-close-back', 'film-suggest.spec.ts', 'about that move at 1440',
     [['if(e.length){let p=document.createElement("button");p.type="button",p.setAttribute("data-film-close","1")', 'if(1){let p=document.createElement("button");p.type="button",p.setAttribute("data-film-close","1")']],
     'nothing to dismiss: no ✕'],

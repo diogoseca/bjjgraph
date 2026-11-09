@@ -112,7 +112,8 @@ test("@curated role reading retains hub safety and never creates duplicate IDs",
   await j.boot("/Submissions/Rear-Naked-Choke/from-Back-Control/Defender", { initialState: readingState })
   await j.advance(5000)
   await expect(page.locator(READER)).toBeVisible()
-  expect(await page.locator('[data-reader-article="hub"]').allTextContents()).toEqual(expect.arrayContaining([expect.stringMatching(/Safety/)]))
+  // U113 b (owner, 2026-11-09): the hub's guide is "Injury risks" now, its table then the closing line (U112 a).
+  expect(await page.locator('[data-reader-article="hub"]').allTextContents()).toEqual(expect.arrayContaining([expect.stringMatching(/Injury risks[\s\S]*Go slow\./)]))
   const ids = await page.locator("[id]").evaluateAll(nodes => nodes.map(n => n.id))
   const readerIds = ids.filter(id => id.startsWith("reader-"))
   expect(readerIds.length).toBeGreaterThan(5)

@@ -14723,6 +14723,17 @@ align to. Measured at 528, 560, 600, 640, 641, 700, 768, 900, 1,000 and 1,023px.
 `reading.css` and `source/quartz/styles` are byte-identical to dev, and the guide's markup is unchanged. Not changed here: it is
 every reader table's padding, not the guide's.
 
+**U113 b, and the merge with #350.** The owner named the section for what it holds: "Injury risks", once. The three guide
+templates head it so and drop the table's "Injury Risks:" label ("say its name once", as in #349); the 861 S2 b links read "Injury
+risks ↓"; a Submission's reader tile and index row say "Injury risks" (Transitions and positions keep "Safety guides": their
+guides are whole). The section keeps `#safety-considerations`, so every link lands; only each heading's self-anchor moves,
+`#safety-guide` to `#injury-risks`, and no link pointed at it. 924 pages regenerated with nothing but the rename. The reader's
+tables lost Quartz's top padding (cobbler's check): a guide's table now starts 13.6px under its tile's title, as every tile's text
+does, against about 60px. `mediaSlot` joined the mangle list (-72 B) and paid for the label (+29 B). Merged with #350 (dev
+965787508): deferred exactly 507,056 B, 61 B of the 507,117 approval unused. On the merged tree's own build: core journeys 1,234
+passed, then four reconciled (the slide test now takes the first of six seats that flip, 15 of 80 measured, and pins the fit with
+its own claim; two drawn answers use `pressAnswer`; the hub-guide match names Injury risks); generated suite 101 of 101.
+
 **Gates on this build, before the capture.** Core journeys on a private port: 1,182 passed, then the ten U104 specs above and the
 six my run's working directory broke (paths relative to the root; 26 of 26 from the root). Generated suite: 100 of 101, then 101
 (the shared answer press). First-hand payload: core 368,427 B against its 365,296 B baseline, +3,131 of the 6,000 B cap. The

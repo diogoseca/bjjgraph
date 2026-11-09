@@ -188,7 +188,8 @@ function wholeContent(d: Dash) {
 // column carries on under its own cell, both at one gap; a column with no cell starts at the stage's top line. Within a pixel is a
 // draw, as in the reader's own packer. Control (v1.252.0): u104-no-lead, the lead dropped, killed at "confused never runs under the
 // stage". The slide below: ask-fit-late (tests/artifacts/neural_app_mutants.mjs), the asking line fitted a frame late again,
-// killed at "the line holds on every step".
+// killed at "the asking line stays one line on every pass of the slide" (26 / 43). Its first catch, the line's drift, moved off
+// every page once the tables' top padding changed their heights, which is why the fix now has a claim of its own.
 function columns(d: Dash) {
   const lanes = [...new Set(d.tiles.map(t => Math.round(t.box.left)))].sort((x, y) => x - y)
   expect(lanes, 'two columns').toHaveLength(2)
@@ -375,30 +376,51 @@ for (const [width, height] of [[1440, 900], [1152, 900]] as const) for (const de
 // every step of it, not only at the end. Mount/Bottom flips a tile as the pane opens at 1440 (1 of 20 real pages in these
 // fallback fonts, measured at v1.251.0). The premise says so, so a page that stops flipping fails loudly here instead of
 // passing without the moment it exists for.
+// v1.252.0: which page flips moves with every content and spacing edit (the reader tables' top padding stopped Mount Bottom's flip),
+// so the journey takes the first of a few real pages where a tile does change column, and still fails loudly if none does.
+// A sweep of 80 position seats at v1.252.0 found 15 that flip; these are five of them, after Mount Bottom.
+const SLIDE_PAGES = ['/Positions/Mount/Bottom', '/Positions/Clinch/Bottom', '/Positions/Crab-Ride/Top', '/Positions/Darce-Control/Top', '/Positions/Demi-Guard/Bottom', '/Positions/K-Guard/Top']
 for (const depth of [0.3, 0.6]) {
   test(`at 1440x900 the line holds on every step of a pane slide that moves a tile to the other column (${depth * 100}% down)`, async ({ page }) => {
-    const j = await boot(page, 1440, 900, '/Positions/Mount/Bottom')
-    await page.emulateMedia({ reducedMotion: 'no-preference' })
-    await expect(page.locator('[data-reward-close]')).toBeHidden({ timeout: 15000 })
-    const sides = () => page.evaluate(() => ([...(window as any).__neural._reader.body.children] as HTMLElement[]).filter(c => c.getClientRects().length).map(c => c.hasAttribute('data-right') ? 'R' : 'L').join(''))
-    const start = await page.locator(READY).evaluate((e, depth) => {
-      e.scrollTop = Math.round((e.scrollHeight - e.clientHeight) * depth)
-      return new Promise<number>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
-        const top = e.getBoundingClientRect().top
-        const line = ([...e.querySelectorAll('[data-reader-body] p,[data-reader-body] li')] as Element[]).filter(x => x.getBoundingClientRect().top >= top).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]
-        line.setAttribute('data-test-place', '')
-        done(line.getBoundingClientRect().top)
-      })))
-    }, depth)
-    const first = await sides(), seen = new Set([first]), drift: number[] = []
-    await j.clickByMouse('.ng-logo', 'the logo opens the pane (Explore)')
-    for (let i = 0; i < 24; i++) {
-      await j.advance(60)
-      seen.add(await sides())
-      drift.push(Math.abs(await page.locator('[data-test-place]').evaluate(e => e.getBoundingClientRect().top) - start))
+    const slide = async (path: string) => {
+      const j = await boot(page, 1440, 900, path)
+      await page.emulateMedia({ reducedMotion: 'no-preference' })
+      await expect(page.locator('[data-reward-close]')).toBeHidden({ timeout: 15000 })
+      const sides = () => page.evaluate(() => ([...(window as any).__neural._reader.body.children] as HTMLElement[]).filter(c => c.getClientRects().length).map(c => c.hasAttribute('data-right') ? 'R' : 'L').join(''))
+      const start = await page.locator(READY).evaluate((e, depth) => {
+        e.scrollTop = Math.round((e.scrollHeight - e.clientHeight) * depth)
+        return new Promise<number>(done => requestAnimationFrame(() => requestAnimationFrame(() => {
+          const top = e.getBoundingClientRect().top
+          const line = ([...e.querySelectorAll('[data-reader-body] p,[data-reader-body] li')] as Element[]).filter(x => x.getBoundingClientRect().top >= top).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]
+          line.setAttribute('data-test-place', '')
+          done(line.getBoundingClientRect().top)
+        })))
+      }, depth)
+      const seen = new Set([await sides()]), drift: number[] = []
+      // U104 (v1.252.0): the asking card's height after each of the reader's own passes, which is what the stage just measured.
+      // Fitted a frame late, the line wrapped for a pass, the card read 17px taller, and the columns flipped under the held line.
+      await page.evaluate(() => {
+        const a = (window as any).__neural, r = a._reader, now = r.layoutNow; (window as any).__askHeights = []
+        r.layoutNow = function (...args: any[]) {
+          const out = now.apply(this, args), c = a._landEl
+          if (c?.hasAttribute('data-land-ask')) (window as any).__askHeights.push(Math.round(c.getBoundingClientRect().height))
+          return out
+        }
+      })
+      await j.clickByMouse('.ng-logo', 'the logo opens the pane (Explore)')
+      for (let i = 0; i < 24; i++) {
+        await j.advance(60)
+        seen.add(await sides())
+        drift.push(Math.abs(await page.locator('[data-test-place]').evaluate(e => e.getBoundingClientRect().top) - start))
+      }
+      return { path, flipped: seen.size > 1, drift, ask: await page.evaluate(() => (window as any).__askHeights as number[]) }
     }
-    expect(seen.size, 'premise: a tile changed column during the slide').toBeGreaterThan(1)
-    expect(Math.max(...drift), `the line holds on every step (${drift.map(d => d.toFixed(1)).join(' ')})`).toBeLessThanOrEqual(8)
+    let run!: Awaited<ReturnType<typeof slide>>
+    for (const path of SLIDE_PAGES) if ((run = await slide(path)).flipped) break
+    expect(run.flipped, `premise: a tile changed column during the slide (${run.path})`).toBe(true)
+    expect(Math.max(...run.drift), `the line holds on every step on ${run.path} (${run.drift.map(d => d.toFixed(1)).join(' ')})`).toBeLessThanOrEqual(8)
+    expect(run.ask.length, 'premise: the question asks through the slide').toBeGreaterThan(3)
+    expect(new Set(run.ask).size, `the asking line stays one line on every pass of the slide (${[...new Set(run.ask)]})`).toBe(1)
   })
 }
 

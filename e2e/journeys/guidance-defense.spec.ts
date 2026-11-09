@@ -83,7 +83,8 @@ test("defense drama: caught → panic drill → escape odds pump → relief", as
       : null
   })
   if (mcCorrect != null) {
-    await j.clickByMouse(`[data-panic-mc-opt="${mcCorrect}"]`, "Answer the live-catch question")
+    // v1.252.0: the answer is a draw, and under U104 the third can sit below the reader's scrollport (dsl.ts pressAnswer).
+    await j.pressAnswer(`[data-panic-mc-opt="${mcCorrect}"]`, "Answer the live-catch question")
   } else {
     await j.clickByMouse("[data-panic-reveal]", "Reveal the live-catch answer")
     await j.clickByMouse("[data-panic-got]", "Grade the live-catch answer")
