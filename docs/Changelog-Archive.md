@@ -14593,8 +14593,8 @@ Measured in a real browser, every frame sampled, worst drift per slide of the li
 S1 a puts Safety last on every Submission seat. Unsplit it lands beside one tall Training tile. Split, the phases level the columns and it stands alone. Safety split at its five bold heads, on a scratch
 build, gives a median of 208 px for +282 B and 170 px more on a phone at 390x631 on all 576 seats. The owner's question is U111, and nothing here changes the split.
 
-**Bytes.** Deferred 507,110 to 506,959 B, and the ceiling follows it down. The hold costs 10 B, and seven more names in `READER_ONLY_PROPS` save 161 B: `placeTop gridW gameKey selecting seating extract gameInput`.
-`reader_mangle` covers them, 29 names, 0 reads. The owner's approval stands at 507,117 B, so 158 B of it are unused.
+**Bytes.** Deferred 507,110 to 506,961 B on the tree merged with #347, and the ceiling follows it down, exact. The fix costs 12 B and seven more names in `READER_ONLY_PROPS` save 161 B:
+`placeTop gridW gameKey selecting seating extract gameInput`, all covered by `reader_mangle`. The owner's approval stands at 507,117 B, so 156 B of it are unused.
 
 **Hubs print "How it works" three times.** Measured, not shipped: removing the injected heading and printing each provenance line once takes Mount's tile from 6 labels to 3, Knee Slice's and Armbar's from 8 to 3, at -52 B.
 
