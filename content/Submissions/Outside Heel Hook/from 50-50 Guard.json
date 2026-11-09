@@ -427,7 +427,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "tLcHN042w48",
+        "title": "Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and…",
+        "channel": "Fox Den Martial Arts",
+        "duration": 85,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Outside Heel Hook from 50-50 Guard Defender",
@@ -614,6 +624,16 @@
         "description": "Positional sparring from 50-50 bottom against partners with legitimate heel hook ability. Primary goal is recognizing the critical moment when defense has failed and tapping before damage occurs. Track the percentage of rounds where you successfully defend versus where you tap, aiming to improve defense rate while maintaining zero injuries through disciplined tap timing."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Wobk37PLXjQ",
+        "title": "Ashi garami, 50\\50, defending the outside heel hook.",
+        "channel": "Professor Buck",
+        "duration": 156,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

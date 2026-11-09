@@ -46,22 +46,12 @@ description: "Master the Turtle to Standing escape in BJJ. Learn systematic stan
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi\u2026",
-      "description": "Turtle to Standing film study: Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/v37tHX8oKuY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/v37tHX8oKuY",
-      "url": "https://www.youtube.com/watch?v=v37tHX8oKuY",
-      "duration": "PT355S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman",
-      "description": "Turtle to Standing film study: Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7QBW031Crmg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7QBW031Crmg",
-      "url": "https://www.youtube.com/watch?v=7QBW031Crmg",
-      "duration": "PT415S"
+      "name": "Escaping the turtle position in a fight or BJJ with a stand-up",
+      "description": "Turtle to Standing film study: Escaping the turtle position in a fight or BJJ with a stand-up.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Hto8vSvnry0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Hto8vSvnry0?start=49",
+      "url": "https://www.youtube.com/watch?v=Hto8vSvnry0",
+      "duration": "PT293S"
     }
   ]
 }
@@ -115,17 +105,9 @@ Strategically, the ability to threaten this escape forces opponents to commit mo
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=v37tHX8oKuY)
+![](https://www.youtube.com/watch?v=Hto8vSvnry0&start=49)
 
-<p class="clip-credit"><strong>Attacking When They Stand Up from Turtle: the 4-Point Position (No Gi…</strong> · 5:55 · <a href="https://www.youtube.com/watch?v=v37tHX8oKuY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7QBW031Crmg)
-
-<p class="clip-credit"><strong>Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman</strong> · 6:55 · <a href="https://www.youtube.com/watch?v=7QBW031Crmg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping the turtle position in a fight or BJJ with a stand-up</strong> · 4:53 · <a href="https://www.youtube.com/watch?v=Hto8vSvnry0&t=49s" rel="noopener">Watch on YouTube from 0:49</a></p>
 
 </div>
 

@@ -36,6 +36,27 @@ description: "Master the armbar setup from New York rubber guard. Complete guide
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from New York \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar Defense (Mata Leao from closed guard) FULL DETAILS",
+      "description": "Armbar from New York film study: Armbar Defense (Mata Leao from closed guard) FULL DETAILS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y4xZE6kPiuw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y4xZE6kPiuw",
+      "url": "https://www.youtube.com/watch?v=Y4xZE6kPiuw",
+      "duration": "PT255S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Competition data and training observations suggest this technique is most effect
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from New York in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y4xZE6kPiuw)
+
+<p class="clip-credit"><strong>Armbar Defense (Mata Leao from closed guard) FULL DETAILS</strong> · 4:15 · <a href="https://www.youtube.com/watch?v=Y4xZE6kPiuw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

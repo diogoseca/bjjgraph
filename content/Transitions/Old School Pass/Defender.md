@@ -150,6 +150,27 @@ description: "Defend against the Old School Pass in BJJ. Recognition cues, defen
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Old School Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To Use Lockdown to Escape a Tight Half Guard Smasher in BJJ",
+      "description": "Old School Pass (Defender) film study: How To Use Lockdown to Escape a Tight Half Guard Smasher in BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tcS7oBdpRW0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tcS7oBdpRW0",
+      "url": "https://www.youtube.com/watch?v=tcS7oBdpRW0",
+      "duration": "PT304S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the Old School Pass requires maintaining the integrity of your three-p
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Old School Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tcS7oBdpRW0)
+
+<p class="clip-credit"><strong>How To Use Lockdown to Escape a Tight Half Guard Smasher in BJJ</strong> · 5:04 · <a href="https://www.youtube.com/watch?v=tcS7oBdpRW0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

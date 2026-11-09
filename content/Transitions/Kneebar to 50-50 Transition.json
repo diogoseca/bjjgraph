@@ -366,7 +366,18 @@
       }
     ],
     "safety_considerations": "The kneebar to 50-50 transition involves leg entanglement near the knee joint. During training, execute the transition with controlled speed to prevent accidental knee torque during leg threading. Communicate with your partner before drilling, especially when threading legs around their knee. Be aware that 50-50 position opens heel hook opportunities that can damage the knee if applied suddenly. Always maintain awareness of both practitioners' knee alignment throughout the transition sequence and release immediately upon tap.",
-    "clips": []
+    "clips": [
+      {
+        "id": "Q97KDIJayWo",
+        "title": "Knee Cut To Inverted Heel Hook To Kneebar To 50/50 Heel Hook",
+        "channel": "Revolution BJJ",
+        "duration": 58,
+        "vertical": false,
+        "start": 37,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Kneebar to 50-50 Transition Defender",

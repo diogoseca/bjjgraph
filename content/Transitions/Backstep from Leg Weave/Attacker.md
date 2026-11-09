@@ -170,6 +170,27 @@ description: "Backstep from Leg Weave uses the passer's woven arm and upper-body
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from Leg Weave (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg Weave Back Step vs Half, DLR and Single X",
+      "description": "Backstep from Leg Weave (Attacker) film study: Leg Weave Back Step vs Half, DLR and Single X.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y06sw8BX8Wg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y06sw8BX8Wg?start=27",
+      "url": "https://www.youtube.com/watch?v=y06sw8BX8Wg",
+      "duration": "PT278S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from Leg Weave (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=y06sw8BX8Wg&start=27)
+
+<p class="clip-credit"><strong>Leg Weave Back Step vs Half, DLR and Single X</strong> · 4:38 · <a href="https://www.youtube.com/watch?v=y06sw8BX8Wg&t=27s" rel="noopener">Watch on YouTube from 0:27</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -3,24 +3,24 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "d7079360768cc86cde997ac2cca8590db633dbc7",
+   "git_head": "f6c94774cfc34f8e33726f672357b614bbb2ba8b",
    "inputs": {
-    "tree": "8fc94246d94ff27f72a1460eb02668a9db461dcf"
+    "tree": "34e6821232321267a41ebe6f6b016fd3e3281c31"
    },
-   "package_version": "1.251.4",
+   "package_version": "1.251.3",
    "rows_from": "neural/dist",
    "schema": "app-assets-rebuild-v2"
   },
-  "capture_tree": "/home/user/bjj-orchestrator/scratch/fixes-b3/capture/capf3-d8622a856/pr-graph-fixes-b3-d8622a856",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/clips-inventory/capture/cap88-171f5579b/pr-clips-ship-88-171f5579b",
   "content_provenance": {
-   "capture_git_head": "d8622a8563219478da69a163b9a590c509f25f0f",
-   "capture_id": "01678a50dbc4409a85b47f5bd7513530",
+   "capture_git_head": "171f5579b5789915f5639c96fd7106fa0f404790",
+   "capture_id": "f914785ed15a4e179ff929f5c2a9b9fa",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6331,
    "content_md": 4549,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "626e07162a5d5c703ee00ba9f441d91c9b17d985",
+   "content_tree": "1d3c123e239eaa8706e1039c2a0897728d6fa1c6",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -45,11 +45,11 @@
    },
    "output_identity": {
     "files": 15828,
-    "sha256": "45354e071f13a4c788e68475c42ffa9dcd1e06426c45212cf761632c19c85c7f"
+    "sha256": "34a884d757b979a1cf29478f75cc6bfa5a1eccac131a893e8074bf06ec43d8f7"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/fixes-b3/capture/capf3-d8622a856/pr-graph-fixes-b3-d8622a856"
+    "/home/user/bjj-orchestrator/scratch/clips-inventory/capture/cap88-171f5579b/pr-clips-ship-88-171f5579b"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -105,8 +105,8 @@
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
-    "bytes": 42228,
-    "sha256": "cc52ea2af0963d731dc25ec35d027eae74a01c29bdc9d6a3013a3f7a43586c39"
+    "bytes": 42320,
+    "sha256": "90b52c2e211305d1fbb22fd0258e855b8944630557942d907ba123bc99850a24"
    },
    "static/neural/app/reading.css": {
     "bytes": 11244,
@@ -170,15 +170,15 @@
   "tags": 73
  },
  "census": {
-  "article_headings": 89743,
-  "article_links": 193275,
+  "article_headings": 89909,
+  "article_links": 193651,
   "files": 15828,
   "gzip_files": 1,
   "head_links": 49199,
   "html_pages": 6142,
-  "jsonld_blocks": 30804,
+  "jsonld_blocks": 30970,
   "meta_tags": 128627,
-  "outside_links": 144690,
+  "outside_links": 144856,
   "pages_with_article": 6131,
   "pages_with_canonical": 6134,
   "pages_with_description": 6137,
@@ -201,7 +201,7 @@
   "DefinedTerm": 3075,
   "FAQPage": 3085,
   "HowTo": 2935,
-  "ItemList": 3571,
+  "ItemList": 3737,
   "Organization": 6131,
   "WebApplication": 2,
   "WebPage": 5894,

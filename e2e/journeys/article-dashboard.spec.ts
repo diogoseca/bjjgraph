@@ -54,6 +54,7 @@ import { journey } from '../dsl'
 //   training-closed-stays  a closed phase leaves no tile (an empty box per phase stays in the columns)
 //   training-index-first   the index follows Training through its last phase (the row reads the first tile alone)
 //   hub-one-opens-both     a hub's two Read mores open one at a time (the first opens the second)
+//   hub-seat-scrolls       the seat's Read more opens in place too (the second one scrolls the reader)
 //   index-row-by-type      /Systems's index follows each section (a row reads every tile of its type)
 //   hold-closed-line       a closed line is let go (the hold tests isConnected, which a closed tile still is)
 // RECORDED NON-KILLS (v1.251.0), so neither reads as coverage. line-dom-first-slide: on Mount/Bottom the block first in the source and

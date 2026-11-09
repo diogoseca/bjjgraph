@@ -36,6 +36,27 @@ description: "Master Counter Entangle from Cross Ashi in BJJ. Learn to escape cr
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Entangle from Cross Ashi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Over/Under (Saddle) Escape to 50/50 Crossbody Ankle Lock Finish",
+      "description": "Counter Entangle from Cross Ashi film study: Over/Under (Saddle) Escape to 50/50 Crossbody Ankle Lock Finish.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9jZqm9COxo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9jZqm9COxo4",
+      "url": "https://www.youtube.com/watch?v=9jZqm9COxo4",
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Timing is the critical variable. Attempting the counter-entangle while the oppon
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Entangle from Cross Ashi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9jZqm9COxo4)
+
+<p class="clip-credit"><strong>Over/Under (Saddle) Escape to 50/50 Crossbody Ankle Lock Finish</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=9jZqm9COxo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

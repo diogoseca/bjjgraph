@@ -14550,23 +14550,38 @@ aborted at row 10.
 - **The table.** 3 rows retargeted, plus the 5 these two fixes moved. Every row's mutate() replayed in node: 209 rows, 0 moved.
 
 The index fix costs 2 B, so the ceiling is 507,110 B, +293 of the 300 B approved.
+## v1.251.2 - The 88 verified halves ship (CLIPS1 part 2, 2026-11-06)
 
-## v1.251.3 — The hold at a fractional scale, and the record after #345's review (2026-11-06)
+**What.** 111 clips on 88 technique halves, held since 4 Nov, verified by the November backfill and frozen out of PR #334: 52 transition halves (27 attacker, 25 defender) and 36 submission halves (12 attacker, 24 defender). 73 JSON records and their 134 generated Markdown pages. No hold released, no ban lifted, no re-pick taken; no held half is touched.
 
-**The hold broke at 125% and 150%, before #345 and after it.** The review asked whether deleting the `rest` carry held at a fractional scale, since all the evidence was at scale 1.
-Measured in a real browser, per slide, every frame sampled, 12 slides per arm over 3 pages (Knee Slice Pass at 1440, Armbar from Mount at 1152, Mount Top at 720):
+**How.** `apply_picks.py` writes `clips` only, proved by comparing every record with the clip arrays removed: 73 of 73 equal, and 110 new references plus one promotion in place (`Rear Naked Choke from Mounted Crucifix`, whose already-curated first clip takes `front: true`). All 100 distinct ids answered oEmbed 200 on 6 Nov, one request every 2 s. `regenerate:md`, `regenerate:hubs` and `regenerate:neural` only. `graph-data.json` and `graph.json` are byte-identical, so no MDP input moves.
 
-| Scale | `fecd354a3`, median and worst | v1.251.1, no carry | v1.251.3, within a pixel |
-|---|---:|---:|---:|
-| 1 | 0.83, 0.97 px | 0.47, 0.50 px | 0.47, 0.50 px |
-| 1.25 | 2.40, 54.41 px | 7.24, 100.81 px | 0.81, 0.89 px |
-| 1.5 | 4.83, 71.88 px | 2.16, 21.45 px | 0.77, 0.80 px |
+**Measured.** The emitter's own line moves from 1,454 fronts, 107 unapproved and 1,301 empty to 1,542, 103 and 1,217. In FLOW's gi game from Anywhere, placeholder meetings fall from 4,006 to 3,759 of 13,448 dealt cards per 100 games: 29.8% to 28.0%. 84 of the 88 are dealt; the other 4 sit on transitions from control-alias positions, so they fix pages, not cards. Recompute: `scratch/clips-inventory/tools/` (deal.mjs, reach.mjs), outside the repo.
 
-- **The cause is #340's `===`.** The browser reads a write back snapped (3122.39990234375 for 3122.4), so `placeTop` never equalled `heldAt`, the hold let go, and a re-picked line drifted. The skeptics
-  had it right that the carry never saw the snap. It helped at 1.25 and hurt at 1.5, and with the fix it is not missed. The deletion stands, now with evidence.
-- **`Math.abs(placeTop - heldAt) < 1`,** +10 B. A real scroll still lets the hold go, which `pane-hold-survives-scroll` pins.
-- **Emulation cannot see this.** Playwright's `deviceScaleFactor` gave 0 fractional frames of 785 at 1.25 and 1.5, and my first probe passed for that reason. Only `--force-device-scale-factor` reaches the snap,
-  so `reader-fractional-scale.spec.ts` has its own file and a premise that fails if the browser stops snapping. `hold-exact` turns it red. 1.5 and browser zoom have no journey.
+
+## v1.251.3 — The hold at a fractional scale, and the record after #345's review (2026-11-06, finished 2026-11-09)
+
+**The hold broke at fractional scales, before #345 and after it.** The review asked whether deleting the `rest` carry held at a fractional scale, since all the evidence was at scale 1.
+Measured in a real browser, every frame sampled, worst drift per slide of the line under the reader's top:
+
+| Scale | `fecd354a3`, the carry | v1.251.1, no carry | 1px tolerance | v1.251.3, the read-back |
+|---|---:|---:|---:|---:|
+| 0.5 | | | 127.63 px | 1.50 px |
+| 1 | 0.97 px | 0.50 px | 0.50 px | 0.50 px |
+| 1.25 | 54.41 px | 100.81 px | 0.90 px | 0.90 px |
+| 1.5 | 71.88 px | 21.45 px | 0.81 px | 0.83 px |
+| 2 | | | 0.50 px | 0.49 px |
+
+- **The cause is #340's `===` against the sum written.** The browser snaps a scroll write to its device pixels, 3122.39990234375 for 3122.4, so the place, which is the read-back, never equalled `heldAt`, the hold let go, and a re-picked line drifted. The skeptics had it right that the carry never saw the snap, so the deletion stands.
+- **The first fix was a 1px tolerance, and #348's review found its hole:** below scale 1, browser zoom under 100%, a device pixel is more than a CSS pixel. Measured at 0.5 it failed on every run, 105.63 px median. `heldAt` is now the read-back and the test is `===` again: +2 B, and it holds from 0.5 to 2.
+- **Emulation cannot see this,** and nearly fooled me. Playwright's `deviceScaleFactor` gave 0 fractional frames of 785. Only `--force-device-scale-factor` reaches the snap, and it binds a worker, so 1.25 and 0.5 have a file each, sharing `e2e/scale-hold.ts`.
+- **The premise, corrected.** I first claimed the journey "fails rather than passes if a browser stops snapping". It did not: it only asked whether some frame read fractional, which its own first write made true. It now writes off the device grid, `k + 0.3` at 1.25 and an odd pixel at 0.5, and requires the read-back to differ.
+- **The harness boot hid it too.** Under `journey().boot` the failure never happened and `hold-exact` survived twice. Booted as a page with checked real presses, the journey fails the broken build.
+- **Controls:** `hold-exact`, the sum back, dies at 1.25. `hold-tolerance` dies at 0.5. `hold-loose`, a hold that ignores scrolls under 100 px, dies on a new 24 px wheel journey in `pane-layout.spec.ts`: the review found the only scroll-lets-go journey moved 60% of the article.
+- **Not covered:** 1.5 and 2 have no journey, and 2 never failed.
+- **A commit subject names the wrong row:** `a33b79cf8` says `training-close-scrolls` writes a scroll, but that change landed in `45ef0f69a`. Left as it is, not rewritten.
+- **`reader_mangle` widened:** destructuring defaults, every script under `e2e/`, `scripts/`, `forward/` and `source/quartz`, and the reader's own dataset keys and data-* attributes. 652 files, 0 reads. Its header names what stays uncovered.
+- **Item 6, the hold's state after a close or a Read more, did not reproduce.** Tile tops run down the page in DOM order, so the ✕ of any tile above the held line is above the reader's top when the line is at it. A Read more could reach lower in the other column, but a search of 5 pages at 1440 with the pane open found no such layout.
 
 **The end gap, the correction that matters.** Real reader, 1440x900, every seat, the two columns' tile bottoms apart, all after S1 a:
 
@@ -14578,8 +14593,8 @@ Measured in a real browser, per slide, every frame sampled, 12 slides per arm ov
 S1 a puts Safety last on every Submission seat. Unsplit it lands beside one tall Training tile. Split, the phases level the columns and it stands alone. Safety split at its five bold heads, on a scratch
 build, gives a median of 208 px for +282 B and 170 px more on a phone at 390x631 on all 576 seats. The owner's question is U111, and nothing here changes the split.
 
-**Bytes.** Deferred 507,110 to 506,959 B, and the ceiling follows it down. The hold costs 10 B, and seven more names in `READER_ONLY_PROPS` save 161 B: `placeTop gridW gameKey selecting seating extract gameInput`.
-`reader_mangle` covers them, 29 names, 0 reads. The owner's approval stands at 507,117 B, so 158 B of it are unused.
+**Bytes.** Deferred 507,110 to 506,961 B on the tree merged with #347, and the ceiling follows it down, exact. The fix costs 12 B and seven more names in `READER_ONLY_PROPS` save 161 B:
+`placeTop gridW gameKey selecting seating extract gameInput`, all covered by `reader_mangle`. The owner's approval stands at 507,117 B, so 156 B of it are unused.
 
 **Hubs print "How it works" three times.** Measured here, shipped in v1.251.4.
 

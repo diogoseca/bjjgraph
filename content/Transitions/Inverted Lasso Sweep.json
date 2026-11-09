@@ -366,7 +366,17 @@
       }
     ],
     "safety_considerations": "The Inverted Lasso Sweep involves inverted body positioning that places significant load on the cervical spine and shoulders. Always distribute weight across the shoulder blades and upper back rather than concentrating force on the neck vertebrae. Beginners should develop inversion comfort through progressive shoulder roll drills before attempting this technique under resistance. Training partners should avoid explosive stacking responses that could compress the inverted practitioner's spine. If any neck or shoulder discomfort occurs during drilling, immediately abandon the inverted position and return to upright guard. Controlled repetition at reduced intensity is essential before integrating into live sparring.",
-    "clips": []
+    "clips": [
+      {
+        "id": "G5tcck1GPiE",
+        "title": "Week 5: Deep Lasso Inverted Sweep",
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 99,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Inverted Lasso Sweep Defender",

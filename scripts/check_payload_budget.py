@@ -219,8 +219,8 @@ NEURAL_TARGET = {
     # bring it to 506_825. The history is budget_site.json's deferred_raw_note.
     # U16 b / U14 b (owner, 2026-10-24): band-only catch plus centred dividers measure 506_817.
     # The exact ceiling steps down by 8 bytes; the 506_835 authorized maximum is unchanged.
-    # U100 a (owner, 2026-11-06): he approved up to 507_117. v1.251.4 stands at exactly 506_869. The ledger is budget_site.json's note.
-    "deferred_raw_bytes": 506_869,
+    # U100 a (owner, 2026-11-06): he approved up to 507_117. v1.251.3 stands at exactly 506_961. The ledger is budget_site.json's note.
+    "deferred_raw_bytes": 506_961,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one

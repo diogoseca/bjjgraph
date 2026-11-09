@@ -6,7 +6,11 @@
 // whatever object it comes through: `.name`, a quoted "name", or `name:` as a key or in a destructuring, which is how `closedRow`
 // is pinned although it lives on section objects, not on the reader. `held` is common (40-odd unrelated objects carry one), so it
 // is read by its receiver: `_reader`, `reader`, `__seatReader` or `r`, with `?.`, `!.` and `(r as any).` all seen.
-// BLIND SPOT: `held` through any other local name, and any name built from strings at runtime. Pinned for the rest as above.
+// v1.251.3 (#348's review) widened it: a destructuring default (`{ placeTop = 0 }`), every script under e2e/ (not only .ts), scripts/,
+// forward/ and source/quartz, and the reader itself, where a listed name used as a dataset key or a data-* attribute would be renamed
+// with the property and break the attribute silently.
+// BLIND SPOT: `held` through any other local name; any name built from strings at runtime; tests/artifacts/*.mjs, whose mutant tables
+// spell names to edit the source before the build, which is not a read; and Python, which reads nothing of the reader. Pinned for the rest.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync, statSync } from "node:fs";
@@ -17,7 +21,7 @@ const build = readFileSync(join(root, "neural/build/build.mjs"), "utf8");
 const names = build.match(/READER_ONLY_PROPS = \/\^\(\?:([^)]+)\)\$\//)?.[1].split("|") ?? [];
 const COMMON = new Set(["held"]);
 const unique = names.filter(n => !COMMON.has(n)), common = names.filter(n => COMMON.has(n));
-const bare = new RegExp(String.raw`\.(?:${unique.join("|")})\b|['"\`](?:${unique.join("|")})['"\`]|\b(?:${unique.join("|")})\s*[:,}]`, "g");
+const bare = new RegExp(String.raw`\.(?:${unique.join("|")})\b|['"\`](?:${unique.join("|")})['"\`]|\b(?:${unique.join("|")})\s*(?:[:,}]|=(?!=))`, "g");
 const receiver = new RegExp(String.raw`(?:_reader|\breader|__seatReader|\br)(?:\s+as\s+any\))?[!?]?\.(?:${common.join("|")})\b`, "g");
 const reads = line => [...(line.match(bare) ?? []), ...(line.match(receiver) ?? [])];
 const walk = dir => readdirSync(dir).flatMap(name => {
@@ -27,7 +31,10 @@ const walk = dir => readdirSync(dir).flatMap(name => {
 // This file and the mutant runner quote the names to test them; the build's own list is the definition.
 const sources = [
   ...walk(join(root, "neural/src")).filter(f => /\.src\.jsx?$/.test(f) && !f.endsWith("reader.src.js")),
-  ...walk(join(root, "e2e")).filter(f => f.endsWith(".ts") && !f.includes("node_modules")),
+  ...walk(join(root, "e2e")).filter(f => /\.(ts|mjs|js)$/.test(f) && !f.includes("node_modules")),
+  ...walk(join(root, "scripts")).filter(f => /\.(mjs|js|ts)$/.test(f)),
+  ...walk(join(root, "forward")).filter(f => /\.(mjs|js|html)$/.test(f) && !f.includes("node_modules")),
+  ...walk(join(root, "source/quartz")).filter(f => /\.(ts|tsx|js|mjs)$/.test(f) && !f.includes("/static/")),
   ...readdirSync(join(root, "tests")).filter(f => f.endsWith(".mjs") && f !== "reader_mangle.test.mjs").map(f => join(root, "tests", f)),
 ];
 
@@ -43,6 +50,15 @@ test("no source outside the reader reads a mangled name", () => {
   const found = sources.flatMap(file => reads(readFileSync(file, "utf8")).map(hit => relative(root, file) + ": " + hit));
   assert.deepEqual(found, []);
   console.log(`reader_mangle: ${unique.length} names anywhere and ${common.length} by receiver, over ${sources.length} files, 0 reads from outside`);
+});
+
+test("the reader uses no listed name as a dataset key or a data-* attribute", () => {
+  const reader = readFileSync(join(root, "neural/src/reader.src.js"), "utf8");
+  const kebab = n => n.replace(/[A-Z]/g, c => "-" + c.toLowerCase());
+  const used = (n, text) => [...text.matchAll(new RegExp(String.raw`dataset\??\.${n}\b|["'\[]data-${kebab(n)}\b`, "g"))].map(m => n + ": " + m[0]);
+  assert.deepEqual(names.flatMap(n => used(n, reader)), []);
+  assert.equal(used("placeTop", 'el.dataset.placeTop = 1; q("[data-place-top]")').length, 2, "the check can fail");
+  assert.ok(reads("const { placeTop = 0 } = a._reader").length, "a destructuring default is a read");
 });
 
 test("the patterns catch each spelling, so the green above can fail", () => {

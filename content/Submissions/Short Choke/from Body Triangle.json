@@ -432,7 +432,18 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "aH75QD_8n_M",
+        "title": "Demian Maia - Lapel Choke from Body Triangle - Jits Magazine",
+        "channel": "JitsMagazine",
+        "duration": 157,
+        "vertical": false,
+        "start": 29,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Short Choke from Body Triangle Defender",
@@ -613,6 +624,24 @@
         "description": "Start in body triangle with the partner using full offensive pressure including choke attempts and attack chains. Survive for timed rounds, practicing all defensive tools in combination. Focus on composure, breathing management, and making correct decisions under genuine physical and psychological pressure."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "NsS4fkMHv6w",
+        "title": "Collar Choke Defense From Back Mount",
+        "channel": "Gracie Ohio Jiu-Jitsu Academy",
+        "duration": 144,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "FJ2-33jFckg",
+        "title": "Lapel Choke Defense From Back Mount (Simple Way Of Breaking The Grip)",
+        "channel": "Chewjitsu",
+        "duration": 207,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

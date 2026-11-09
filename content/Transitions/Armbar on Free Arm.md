@@ -36,6 +36,27 @@ description: "Master the Armbar on Free Arm from Gift Wrap in BJJ. Detailed exec
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar on Free Arm \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic BJJ Armbar Escapes",
+      "description": "Armbar on Free Arm film study: Basic BJJ Armbar Escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b0Efpfxlxbs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/b0Efpfxlxbs?start=82",
+      "url": "https://www.youtube.com/watch?v=b0Efpfxlxbs",
+      "duration": "PT1139S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar on Free Arm in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=b0Efpfxlxbs&start=82)
+
+<p class="clip-credit"><strong>Basic BJJ Armbar Escapes</strong> · 18:59 · <a href="https://www.youtube.com/watch?v=b0Efpfxlxbs&t=82s" rel="noopener">Watch on YouTube from 1:22</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

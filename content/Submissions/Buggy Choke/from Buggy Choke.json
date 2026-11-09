@@ -261,6 +261,18 @@
           ]
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "0Kcsngo-TDw",
+        "title": "🔥 🔥 Buggy Choke Basics - Easy Entry and Finishes",
+        "channel": "Nation Athletics Jiu Jitsu",
+        "duration": 120,
+        "vertical": false,
+        "start": 28,
+        "front": true,
+        "verified": "2026-11-04"
+      }
     ]
   },
   "defender": {
@@ -370,6 +382,18 @@
     "escape_paths": [
       "Recognize the head-and-arm enclosure before pressure develops.",
       "After release, confirm whether the loop remains or side control has returned."
+    ],
+    "clips": [
+      {
+        "id": "Huv5wYwC3_o",
+        "title": "Who's Next Ep. 5 | How To Defend the Buggy Choke, with Jansen Gomes",
+        "channel": "FloGrappling",
+        "duration": 51,
+        "vertical": false,
+        "start": 28,
+        "front": true,
+        "verified": "2026-11-04"
+      }
     ]
   },
   "submission_category": "Choke",

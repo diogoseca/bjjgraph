@@ -36,6 +36,37 @@ description: "Learn Kimura from Back in BJJ. Attack opponent's shoulder from rea
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Back attack submission combo - rear triangle and kimura",
+      "description": "Kimura from Back film study: BJJ Back attack submission combo - rear triangle and kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qWD_chlEMPo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qWD_chlEMPo",
+      "url": "https://www.youtube.com/watch?v=qWD_chlEMPo",
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back step to Back Triangle Kimura - Bicep Remover BJJ Class recap",
+      "description": "Kimura from Back film study: Back step to Back Triangle Kimura - Bicep Remover BJJ Class recap.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5hkkc0Q-DuE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5hkkc0Q-DuE?start=85",
+      "url": "https://www.youtube.com/watch?v=5hkkc0Q-DuE",
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +105,32 @@ The technique exemplifies the principle of systematic attack chains from back co
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qWD_chlEMPo)
+
+<p class="clip-credit"><strong>BJJ Back attack submission combo - rear triangle and kimura</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=qWD_chlEMPo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5hkkc0Q-DuE&start=85)
+
+<p class="clip-credit"><strong>Back step to Back Triangle Kimura - Bicep Remover BJJ Class recap</strong> · 1:54 · <a href="https://www.youtube.com/watch?v=5hkkc0Q-DuE&t=85s" rel="noopener">Watch on YouTube from 1:25</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

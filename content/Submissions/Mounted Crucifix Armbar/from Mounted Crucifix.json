@@ -637,6 +637,16 @@
         "description": "Defend the mounted crucifix armbar in live sparring scenarios. Partner hunts the armbar with full technique while you integrate recognition, defensive positioning, and bridge timing into a complete defensive response. Emphasize tapping early when defense fails rather than fighting through locked submissions."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "R4F2SIohjEE",
+        "title": "Armbar from mount escape, hitchhiker",
+        "channel": "Ritchie Yip",
+        "duration": 9,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

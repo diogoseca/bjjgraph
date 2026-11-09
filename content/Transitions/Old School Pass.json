@@ -382,7 +382,18 @@
       }
     ],
     "safety_considerations": "The Old School Pass is a pressure-based passing technique with moderate risk. Crossface pressure should be applied with body weight rather than cranking the neck, avoiding excessive cervical spine stress. When extracting the trapped leg from lockdown, use controlled angular movement rather than violent twisting that could injure the ankle or knee of either player. If the bottom player's lockdown creates knee pain in the trapped leg, communicate immediately and adjust rather than forcing through. Be mindful that explosive extraction attempts can cause knee hyperextension in the bottom player's lockdown configuration.",
-    "clips": []
+    "clips": [
+      {
+        "id": "gtsKv_sDRnw",
+        "title": "Passing the Lockdown (Lachlan Giles)",
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 359,
+        "vertical": false,
+        "start": 78,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Old School Pass Defender",
@@ -564,6 +575,16 @@
         "description": "Partner works the Old School Pass at full intensity including crossface pressure, angular extraction, and pass completion attempts. Defender uses all defensive tools: control maintenance, sweep counters, guard transitions, and reguarding sequences. Reset after successful pass, sweep, or stalemate. Build automatic defensive responses to the full passing chain."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "tcS7oBdpRW0",
+        "title": "How To Use Lockdown to Escape a Tight Half Guard Smasher in BJJ",
+        "channel": "Chewjitsu",
+        "duration": 304,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }
