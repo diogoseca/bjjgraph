@@ -36,6 +36,27 @@ description: "Master the armbar setup from double sleeve guard in BJJ. Complete 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar Setup from Double Sleeve \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Feet in hips / Double Sleeve Grip Arm Bar / Omoplata + Concepts",
+      "description": "Armbar Setup from Double Sleeve film study: Feet in hips / Double Sleeve Grip Arm Bar / Omoplata + Concepts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/COwK_QQ9RVs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/COwK_QQ9RVs",
+      "url": "https://www.youtube.com/watch?v=COwK_QQ9RVs",
+      "duration": "PT506S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This technique integrates seamlessly into the double sleeve guard's broader offe
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar Setup from Double Sleeve in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=COwK_QQ9RVs)
+
+<p class="clip-credit"><strong>Feet in hips / Double Sleeve Grip Arm Bar / Omoplata + Concepts</strong> · 8:26 · <a href="https://www.youtube.com/watch?v=COwK_QQ9RVs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

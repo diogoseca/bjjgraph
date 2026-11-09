@@ -334,15 +334,7 @@
         "vertical": false,
         "channel": "JitzLive",
         "duration": 83,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "EE2VQnxXNgg",
-        "title": "John Wayne sweep to underhook half guard",
-        "by": "Combat by the Minute",
-        "vertical": false,
-        "channel": "Combat by the Minute",
-        "duration": 88,
+        "front": true,
         "verified": "2026-07-15"
       }
     ]
@@ -510,35 +502,7 @@
         "description": "Work cooperatively on manage the underhook. Avoid letting the bottom player connect their upper body directly under your base. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
-    "clips": [
-      {
-        "id": "Wgnw31_o3kk",
-        "title": "Defending butterfly hooks",
-        "by": "Kohbukan Sisu",
-        "vertical": false,
-        "channel": "Kohbukan Sisu",
-        "duration": 58,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "qe7ueI5P5H8",
-        "title": "Butterfly hook sweep counter and pass",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 101,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "JODB5UZDwQQ",
-        "title": "How to not get swept from butterfly guard",
-        "by": "Adam Wardzinski",
-        "vertical": false,
-        "channel": "Bernardo Faria BJJ Fanatics",
-        "duration": 443,
-        "verified": "2026-07-15"
-      }
-    ]
+    "clips": []
   },
   "variants_and_adaptations": [
     {

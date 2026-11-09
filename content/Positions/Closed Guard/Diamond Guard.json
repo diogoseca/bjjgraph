@@ -820,7 +820,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "oqR6MLjUrd4",
+        "title": "Diamond Guard (setup + 2 attacks)",
+        "channel": "Caron Jiu Jitsu",
+        "duration": 251,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "flashcards_position": [
     {

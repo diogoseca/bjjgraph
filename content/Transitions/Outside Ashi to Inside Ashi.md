@@ -36,6 +36,27 @@ description: "Master Outside Ashi to Inside Ashi counter-entanglement in BJJ. Gu
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Ashi to Inside Ashi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Problem solving Outside Ashi to Inside",
+      "description": "Outside Ashi to Inside Ashi film study: BJJ Problem solving Outside Ashi to Inside.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZbK5uGQJ_3w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZbK5uGQJ_3w",
+      "url": "https://www.youtube.com/watch?v=ZbK5uGQJ_3w",
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The transition occupies a critical role in the modern leg lock meta-game, where 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Ashi to Inside Ashi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZbK5uGQJ_3w)
+
+<p class="clip-credit"><strong>BJJ Problem solving Outside Ashi to Inside</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=ZbK5uGQJ_3w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

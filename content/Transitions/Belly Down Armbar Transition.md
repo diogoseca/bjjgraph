@@ -36,6 +36,27 @@ description: "Master the belly down armbar transition from armbar control. Learn
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar Transition \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Attack Transitions Armbar to Belly Down Armbar to Triangle to Mounted Triangle\u2026",
+      "description": "Belly Down Armbar Transition film study: Attack Transitions Armbar to Belly Down Armbar to Triangle to Mounted Triangle\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lJbLgKzzI1c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lJbLgKzzI1c",
+      "url": "https://www.youtube.com/watch?v=lJbLgKzzI1c",
+      "duration": "PT109S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The belly-down position offers distinct mechanical advantages for the attacker. 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar Transition in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lJbLgKzzI1c)
+
+<p class="clip-credit"><strong>Attack Transitions Armbar to Belly Down Armbar to Triangle to Mounted Triangle…</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=lJbLgKzzI1c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

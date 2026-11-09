@@ -1,26 +1,15 @@
 {
  "_meta": {
-  "app_provenance": {
-   "command": "npm run regenerate:neural",
-   "esbuild": "0.27.0",
-   "git_head": "b0a2bdc26fc0be41ff4ab1e416a862d526e1e4d3",
-   "inputs": {
-    "tree": "7c2d90add2c30b7263c565ed78a7007e9c9548dd"
-   },
-   "package_version": "1.251.4",
-   "rows_from": "neural/dist",
-   "schema": "app-assets-rebuild-v2"
-  },
-  "capture_tree": "/home/user/bjj-orchestrator/scratch/clips-inventory/capture/cap88-171f5579b/pr-clips-ship-88-171f5579b",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/video-search/capture/capvs1-167549583/pr-video-search-167549583",
   "content_provenance": {
-   "capture_git_head": "171f5579b5789915f5639c96fd7106fa0f404790",
-   "capture_id": "f914785ed15a4e179ff929f5c2a9b9fa",
+   "capture_git_head": "16754958310e98e3033a38076300c0b9fb993dd6",
+   "capture_id": "e295eca70149482580c3bd5d07c9dcec",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6331,
    "content_md": 4549,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "1d3c123e239eaa8706e1039c2a0897728d6fa1c6",
+   "content_tree": "17f7c606e3eaa2fe8220d8772d01b01c1f57fafe",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -45,11 +34,11 @@
    },
    "output_identity": {
     "files": 15828,
-    "sha256": "34a884d757b979a1cf29478f75cc6bfa5a1eccac131a893e8074bf06ec43d8f7"
+    "sha256": "9757ed73138bea5474e93a6ab3a9b940d8fb87204840b3623990766b75ad00e7"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/clips-inventory/capture/cap88-171f5579b/pr-clips-ship-88-171f5579b"
+    "/home/user/bjj-orchestrator/scratch/video-search/capture/capvs1-167549583/pr-video-search-167549583"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -170,15 +159,15 @@
   "tags": 73
  },
  "census": {
-  "article_headings": 89909,
-  "article_links": 193651,
+  "article_headings": 89972,
+  "article_links": 193802,
   "files": 15828,
   "gzip_files": 1,
   "head_links": 49199,
   "html_pages": 6142,
-  "jsonld_blocks": 30970,
+  "jsonld_blocks": 31033,
   "meta_tags": 128627,
-  "outside_links": 144856,
+  "outside_links": 144919,
   "pages_with_article": 6131,
   "pages_with_canonical": 6134,
   "pages_with_description": 6137,
@@ -201,7 +190,7 @@
   "DefinedTerm": 3075,
   "FAQPage": 3085,
   "HowTo": 2935,
-  "ItemList": 3737,
+  "ItemList": 3800,
   "Organization": 6131,
   "WebApplication": 2,
   "WebPage": 5894,

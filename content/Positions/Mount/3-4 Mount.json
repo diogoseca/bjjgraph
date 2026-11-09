@@ -464,7 +464,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "lgfYw5ab0Yo",
+        "title": "Attacks And Retention: Top 3/4 Mount",
+        "channel": "Ramiro Leon Jiu Jitsu",
+        "duration": 542,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "bottom": {
     "name": "3-4 Mount Bottom",
@@ -885,7 +895,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "6YuOQKeZ0P4",
+        "title": "Guard pass prevention: 3/4 mount",
+        "channel": "Revolution BJJ",
+        "duration": 219,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "flashcards_position": [
     {

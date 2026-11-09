@@ -410,6 +410,14 @@ test("the node a move LANDS on blooms harder than one the light passed through",
   // walking into a state it has nothing to say about. 0.99 clears the pFinish ceiling, so the
   // opponent takes the positional branch, travels, and lands somewhere — which is the subject.
   await j.rig("opp-finish", [0.99, 0.99, 0.99]);
+  // ...AND THE MOVE ITSELF (v1.251.5, PR #350's first CI run). Rigging opp-finish left a second lottery: the move's own
+  // `resolve` and `outcome` draws were live, so a MISS handed the turn over and the opponent's positional counter could
+  // draw a destination INSIDE a submission state ("Caught · Darce Choke locked in", Darce Choke from Darce Control):
+  // escape cards, no second landing, red. Measured 0 of 40 isolated runs (20 candidate, 20 base content), 1 of 1 in a
+  // full CI shard; the content change could not reach it (graph-data byte-identical, dossiers served as {} here). So the
+  // move succeeds onto its first outcome, deterministically: the light travels over the move and ARRIVES, the subject.
+  await j.rig("resolve", [0]);
+  await j.rig("outcome", Array(8).fill(0));
 
   // deliberately NOT a submission: a finish ends the round instead of landing, and this journey
   // is about what the light does when it ARRIVES somewhere.

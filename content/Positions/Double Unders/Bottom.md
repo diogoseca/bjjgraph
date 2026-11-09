@@ -155,6 +155,27 @@ description: "Master Double Unders Bottom defensive position in BJJ. Complete su
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Unders (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Defending the Double Unders Guard Pass Tutorial",
+      "description": "Double Unders (Bottom) film study: BJJ Defending the Double Unders Guard Pass Tutorial.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q-D9e1ZD__g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q-D9e1ZD__g",
+      "url": "https://www.youtube.com/watch?v=q-D9e1ZD__g",
+      "duration": "PT157S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +186,24 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Unders (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q-D9e1ZD__g)
+
+<p class="clip-credit"><strong>BJJ Defending the Double Unders Guard Pass Tutorial</strong> · 2:37 · <a href="https://www.youtube.com/watch?v=q-D9e1ZD__g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

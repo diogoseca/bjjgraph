@@ -155,6 +155,27 @@ description: "Master offensive control from 3-4 Mount Top. Complete guide with t
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "3-4 Mount (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Attacks And Retention: Top 3/4 Mount",
+      "description": "3-4 Mount (Top) film study: Attacks And Retention: Top 3/4 Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lgfYw5ab0Yo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lgfYw5ab0Yo",
+      "url": "https://www.youtube.com/watch?v=lgfYw5ab0Yo",
+      "duration": "PT542S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -169,6 +190,24 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 3-4 Mount (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lgfYw5ab0Yo)
+
+<p class="clip-credit"><strong>Attacks And Retention: Top 3/4 Mount</strong> · 9:02 · <a href="https://www.youtube.com/watch?v=lgfYw5ab0Yo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

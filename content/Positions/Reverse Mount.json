@@ -398,7 +398,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "erRqwOhySaU",
+        "title": "Gracie Insider - Reverse Mount Transition",
+        "channel": "Gracie Jiu-jitsu Academy",
+        "duration": 402,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "bottom": {
     "name": "Reverse Mount Bottom",
@@ -768,7 +778,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "j-9zCfMp4RY",
+        "title": "How to Escape from Reverse Mount",
+        "channel": "Stephan Kesting",
+        "duration": 197,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "flashcards_position": [
     {

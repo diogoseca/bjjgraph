@@ -466,7 +466,25 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "2evEh7OBnBg",
+        "title": "Kami-shiho-gatame - Demo",
+        "channel": "Efficient Judo",
+        "duration": 31,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "pvu4nhEHqkM",
+        "title": "Kami-Shiho-Gatame Tips | Riki Judo Dojo",
+        "channel": "Riki Judo Dojo",
+        "duration": 227,
+        "vertical": false,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "bottom": {
     "name": "North-South Bottom",

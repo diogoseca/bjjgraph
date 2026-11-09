@@ -155,6 +155,47 @@ description: "Defend twister side control with systematic escape strategies. Lea
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister Side Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No Gi BJJ - Twister Side Control Escape",
+      "description": "Twister Side Control (Bottom) film study: No Gi BJJ - Twister Side Control Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F1170I6qL7c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F1170I6qL7c",
+      "url": "https://www.youtube.com/watch?v=F1170I6qL7c",
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister Side Control Escape | Gi Class | Pearson Brazilian Jiu-Jitsu",
+      "description": "Twister Side Control (Bottom) film study: Twister Side Control Escape | Gi Class | Pearson Brazilian Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0-Ht2pQtWRs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0-Ht2pQtWRs",
+      "url": "https://www.youtube.com/watch?v=0-Ht2pQtWRs",
+      "duration": "PT228S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "reverse scarfhold escape ( twister side control) (week 12)",
+      "description": "Twister Side Control (Bottom) film study: reverse scarfhold escape ( twister side control) (week 12).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hXp34AtDjac/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hXp34AtDjac",
+      "url": "https://www.youtube.com/watch?v=hXp34AtDjac",
+      "duration": "PT291S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -175,6 +216,40 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister Side Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F1170I6qL7c)
+
+<p class="clip-credit"><strong>No Gi BJJ - Twister Side Control Escape</strong> · 2:18 · <a href="https://www.youtube.com/watch?v=F1170I6qL7c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0-Ht2pQtWRs)
+
+<p class="clip-credit"><strong>Twister Side Control Escape | Gi Class | Pearson Brazilian Jiu-Jitsu</strong> · 3:48 · <a href="https://www.youtube.com/watch?v=0-Ht2pQtWRs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hXp34AtDjac)
+
+<p class="clip-credit"><strong>reverse scarfhold escape ( twister side control) (week 12)</strong> · 4:51 · <a href="https://www.youtube.com/watch?v=hXp34AtDjac" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

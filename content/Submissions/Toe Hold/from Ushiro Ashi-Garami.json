@@ -599,6 +599,23 @@
         "description": "Positional sparring starting from ushiro ashi-garami with partner attacking the toe hold at increasing intensity. Practice the full defensive hierarchy: grip prevention, dorsiflexion, counter-entanglement, and safe tapping. Partner increases speed and intensity over sessions from 50% to 80%."
       }
     ],
-    "clips": []
+    "clips": [],
+    "escape_clips": [
+      {
+        "escape": "Roll toward the rotation direction",
+        "clips": [
+          {
+            "id": "gBnwYLLjEjw",
+            "title": "Toe hold defense and concepts #bjj #jiujitsu #brazilianjiujitsu #btt",
+            "channel": "Brazilian Top Team Happy Valley ",
+            "duration": 118,
+            "vertical": false,
+            "start": 53,
+            "front": true,
+            "verified": "2026-11-09"
+          }
+        ]
+      }
+    ]
   }
 }

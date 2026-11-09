@@ -270,7 +270,26 @@
         }
       }
     ],
-    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "clips": [
+      {
+        "id": "oE-9VFLlIZM",
+        "title": "Granby Roll for BJJ!",
+        "channel": "FightHACKS",
+        "duration": 81,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "dfT1aTfiYU0",
+        "title": "Granby Roll Guard Retention",
+        "channel": "Peak Jiu-Jitsu",
+        "duration": 108,
+        "vertical": false,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "defender": {
     "name": "Granby Roll to Guard Defender",
@@ -374,6 +393,25 @@
         "phase": "Phase 3",
         "focus": "Use the shoulder path",
         "description": "Roll diagonally across the shoulder and upper back rather than planting the head or loading the neck. Pause at this checkpoint with a cooperative partner before linking the next step."
+      }
+    ],
+    "clips": [
+      {
+        "id": "s1dUI4yukLY",
+        "title": "Granby Roll Defense- ReGranby",
+        "channel": "Joe Scioli",
+        "duration": 105,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "DdycKrM8JQY",
+        "title": "Granby Roll Defense- Tricep and Flank",
+        "channel": "Joe Scioli",
+        "duration": 112,
+        "vertical": false,
+        "verified": "2026-11-09"
       }
     ]
   },

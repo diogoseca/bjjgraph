@@ -155,6 +155,27 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Half Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Half Guard (Immortal BJJ - Raleigh, N.C.)",
+      "description": "Reverse Half Guard (Bottom) film study: Reverse Half Guard (Immortal BJJ - Raleigh, N.C.).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/97sDVawCawk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/97sDVawCawk",
+      "url": "https://www.youtube.com/watch?v=97sDVawCawk",
+      "duration": "PT279S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -169,6 +190,24 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Half Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=97sDVawCawk)
+
+<p class="clip-credit"><strong>Reverse Half Guard (Immortal BJJ - Raleigh, N.C.)</strong> · 4:39 · <a href="https://www.youtube.com/watch?v=97sDVawCawk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

@@ -187,17 +187,6 @@ description: "John Wayne Sweep (attacker): Contain one opposing leg while keepin
       "url": "https://www.youtube.com/watch?v=kB5XebzuihY",
       "creator": { "@type": "Person", "name": "JitzLive" },
       "duration": "PT83S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "John Wayne sweep to underhook half guard",
-      "description": "John Wayne Sweep (Attacker) film study: John Wayne sweep to underhook half guard, taught by Combat by the Minute.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EE2VQnxXNgg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/EE2VQnxXNgg",
-      "url": "https://www.youtube.com/watch?v=EE2VQnxXNgg",
-      "creator": { "@type": "Person", "name": "Combat by the Minute" },
-      "duration": "PT88S"
     }
   ]
 }
@@ -236,14 +225,6 @@ Keep the underhooking elbow outside your hip to deny the Darce choke, and use th
 ![](https://www.youtube.com/watch?v=kB5XebzuihY)
 
 <p class="clip-credit"><strong>John Wayne sweep from half guard</strong> — taught by JitzLive · 1:23 · <a href="https://www.youtube.com/watch?v=kB5XebzuihY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=EE2VQnxXNgg)
-
-<p class="clip-credit"><strong>John Wayne sweep to underhook half guard</strong> — taught by Combat by the Minute · 1:28 · <a href="https://www.youtube.com/watch?v=EE2VQnxXNgg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

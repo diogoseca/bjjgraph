@@ -143,6 +143,27 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending Against The Standing Guard Break In Jiu Jitsu",
+      "description": "Standing Guard (Bottom) film study: Defending Against The Standing Guard Break In Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vQ1AOQP-N_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vQ1AOQP-N_w",
+      "url": "https://www.youtube.com/watch?v=vQ1AOQP-N_w",
+      "duration": "PT266S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -157,6 +178,24 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vQ1AOQP-N_w)
+
+<p class="clip-credit"><strong>Defending Against The Standing Guard Break In Jiu Jitsu</strong> · 4:26 · <a href="https://www.youtube.com/watch?v=vQ1AOQP-N_w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

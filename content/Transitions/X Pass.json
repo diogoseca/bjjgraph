@@ -342,22 +342,38 @@
     "safety_considerations": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
     "clips": [
       {
-        "id": "u6d8_QqbqGM",
-        "title": "Passing open guard",
-        "by": "Andre Galvao",
+        "id": "KaQAG_wuvNo",
+        "title": "X Pass for BJJ (2019)",
+        "channel": "Williams Jiu Jitsu",
+        "duration": 156,
         "vertical": false,
-        "channel": "Atos Jiu-Jitsu HQ | World's Best BJJ Academy - Home Page",
-        "duration": 755,
-        "verified": "2026-07-15"
+        "front": true,
+        "verified": "2026-11-09"
       },
       {
-        "id": "S65D0wxPZ7c",
-        "title": "Modified toreando guard pass",
-        "by": "Andre Galvao",
+        "id": "6Zk6D6IHswM",
+        "title": "Saulo Ribeiro Brazilian Jiu-Jitsu Revolution Series 2 - The X-Pass",
+        "channel": "WorldMartialArts",
+        "duration": 444,
         "vertical": false,
-        "channel": "Atos Jiu-Jitsu HQ | World's Best BJJ Academy - Home Page",
-        "duration": 752,
-        "verified": "2026-07-15"
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "8huFMFJPsZM",
+        "title": "X Pass Basics and Control Principles",
+        "channel": "Aaron Benzrihem bjj",
+        "duration": 543,
+        "vertical": false,
+        "start": 105,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "CJF-Go8RO9Y",
+        "title": "X Pass - BJJ DRILLS",
+        "channel": "Ultra Jiu Jitsu Academy",
+        "duration": 73,
+        "vertical": false,
+        "verified": "2026-11-09"
       }
     ]
   },
@@ -526,22 +542,13 @@
     ],
     "clips": [
       {
-        "id": "7zCdpY8nKug",
-        "title": "Headquarters retention for the open guard player",
-        "by": "Lachlan Giles",
+        "id": "e8lZEZ3pQmg",
+        "title": "X-Pass Defense to Single Leg X Guard",
+        "channel": "Revolution BJJ",
+        "duration": 53,
         "vertical": false,
-        "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 586,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "aIfwGOr12rk",
-        "title": "Pass defense: recover guard to technical stand up",
-        "by": "Lucas Lepri",
-        "vertical": false,
-        "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
-        "duration": 50,
-        "verified": "2026-07-16"
+        "front": true,
+        "verified": "2026-11-09"
       }
     ]
   },

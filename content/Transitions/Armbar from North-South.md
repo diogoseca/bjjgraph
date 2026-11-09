@@ -46,12 +46,12 @@ description: "Master the Armbar from North-South in BJJ. Complete guide covering
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to do the hitchhiker armbar escape in BJJ",
-      "description": "Armbar from North-South film study: How to do the hitchhiker armbar escape in BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GECZ6bciLPk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GECZ6bciLPk?start=28",
-      "url": "https://www.youtube.com/watch?v=GECZ6bciLPk",
-      "duration": "PT184S"
+      "name": "North south Armbar setup.",
+      "description": "Armbar from North-South film study: North south Armbar setup..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ajwkkwl2dzY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ajwkkwl2dzY",
+      "url": "https://www.youtube.com/watch?v=Ajwkkwl2dzY",
+      "duration": "PT39S"
     }
   ]
 }
@@ -105,9 +105,9 @@ The mechanical foundation relies on pivoting your body perpendicular to the oppo
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=GECZ6bciLPk&start=28)
+![](https://www.youtube.com/watch?v=Ajwkkwl2dzY)
 
-<p class="clip-credit"><strong>How to do the hitchhiker armbar escape in BJJ</strong> · 3:04 · <a href="https://www.youtube.com/watch?v=GECZ6bciLPk&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
+<p class="clip-credit"><strong>North south Armbar setup.</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=Ajwkkwl2dzY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

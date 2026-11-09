@@ -181,17 +181,6 @@ description: "Half Guard to Leg Weave (attacker): Thread the arm through the ava
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The most basic half guard pass, no-gi",
-      "description": "Half Guard to Leg Weave (Attacker) film study: The most basic half guard pass, no-gi, taught by Danny Mitchell.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_XjuF0no1Uw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_XjuF0no1Uw",
-      "url": "https://www.youtube.com/watch?v=_XjuF0no1Uw",
-      "creator": { "@type": "Person", "name": "Danny Mitchell" },
-      "duration": "PT89S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Passing knee shield with the leg weave pass",
       "description": "Half Guard to Leg Weave (Attacker) film study: Passing knee shield with the leg weave pass, taught by BJJ4Breakfast.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4LIBFmas-oE/hqdefault.jpg",
@@ -234,14 +223,6 @@ Pair the weaving arm with head position and control of the opposing elbow. This 
 
 <p class="section-subtitle">Watch Half Guard to Leg Weave (Attacker) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_XjuF0no1Uw)
-
-<p class="clip-credit"><strong>The most basic half guard pass, no-gi</strong> — taught by Danny Mitchell · 1:29 · <a href="https://www.youtube.com/watch?v=_XjuF0no1Uw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

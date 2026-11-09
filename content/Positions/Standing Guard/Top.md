@@ -155,6 +155,27 @@ description: "Master Standing Guard Top position in BJJ. Complete guide covering
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 Tips For Effective Standing Guard Passing In BJJ",
+      "description": "Standing Guard (Top) film study: 3 Tips For Effective Standing Guard Passing In BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kauFzWg6v_A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kauFzWg6v_A",
+      "url": "https://www.youtube.com/watch?v=kauFzWg6v_A",
+      "duration": "PT274S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -169,6 +190,24 @@ The position is particularly valuable in competition settings where maintaining 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kauFzWg6v_A)
+
+<p class="clip-credit"><strong>3 Tips For Effective Standing Guard Passing In BJJ</strong> · 4:34 · <a href="https://www.youtube.com/watch?v=kauFzWg6v_A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">
