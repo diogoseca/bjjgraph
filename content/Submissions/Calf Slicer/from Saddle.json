@@ -593,6 +593,16 @@
         "description": "Start in saddle during positional sparring with full resistance. Integrate calf slicer defense into your overall saddle escape protocol. Practice the full sequence: defend immediate submission, fight grips, frame hips, extract leg. Track which defensive responses lead to successful escapes versus resets."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "UIaZYXwrDJM",
+        "title": "Calf Slicer defense",
+        "channel": "Warrior Combat Academy",
+        "duration": 21,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

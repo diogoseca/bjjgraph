@@ -36,6 +36,27 @@ description: "Master the Old School Pass in BJJ. Systematic guide to breaking lo
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Old School Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the Lockdown (Lachlan Giles)",
+      "description": "Old School Pass film study: Passing the Lockdown (Lachlan Giles).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gtsKv_sDRnw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gtsKv_sDRnw?start=78",
+      "url": "https://www.youtube.com/watch?v=gtsKv_sDRnw",
+      "duration": "PT359S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategic timing distinguishes successful Old School Pass execution from failed 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Old School Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gtsKv_sDRnw&start=78)
+
+<p class="clip-credit"><strong>Passing the Lockdown (Lachlan Giles)</strong> · 5:59 · <a href="https://www.youtube.com/watch?v=gtsKv_sDRnw&t=78s" rel="noopener">Watch on YouTube from 1:18</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

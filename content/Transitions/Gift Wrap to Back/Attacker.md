@@ -170,6 +170,27 @@ description: "How to execute Gift Wrap to Back in BJJ. Attacking perspective wit
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap to Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 Back Takes From Mount Using The Gift Wrap Control",
+      "description": "Gift Wrap to Back (Attacker) film study: 3 Back Takes From Mount Using The Gift Wrap Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UIWX13Sx-zw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UIWX13Sx-zw",
+      "url": "https://www.youtube.com/watch?v=UIWX13Sx-zw",
+      "duration": "PT224S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +207,24 @@ The strategic value of this transition lies in its forcing function—the oppone
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap to Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UIWX13Sx-zw)
+
+<p class="clip-credit"><strong>3 Back Takes From Mount Using The Gift Wrap Control</strong> · 3:44 · <a href="https://www.youtube.com/watch?v=UIWX13Sx-zw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

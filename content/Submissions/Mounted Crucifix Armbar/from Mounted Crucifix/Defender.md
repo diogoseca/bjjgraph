@@ -150,6 +150,27 @@ description: "Defend the Mounted Crucifix Armbar in BJJ. Recognition cues, hand 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Crucifix Armbar from Mounted Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar from mount escape, hitchhiker",
+      "description": "Mounted Crucifix Armbar from Mounted Crucifix (Defender) film study: Armbar from mount escape, hitchhiker.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R4F2SIohjEE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R4F2SIohjEE",
+      "url": "https://www.youtube.com/watch?v=R4F2SIohjEE",
+      "duration": "PT9S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -163,6 +184,24 @@ Defending the Mounted Crucifix Armbar presents unique challenges because your no
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Crucifix Armbar from Mounted Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R4F2SIohjEE)
+
+<p class="clip-credit"><strong>Armbar from mount escape, hitchhiker</strong> · 0:09 · <a href="https://www.youtube.com/watch?v=R4F2SIohjEE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

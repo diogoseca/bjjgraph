@@ -176,6 +176,27 @@ description: "Execute Counter Entangle from Cross Ashi-Garami bottom. Threading 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Entangle from Cross Ashi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Over/Under (Saddle) Escape to 50/50 Crossbody Ankle Lock Finish",
+      "description": "Counter Entangle from Cross Ashi (Attacker) film study: Over/Under (Saddle) Escape to 50/50 Crossbody Ankle Lock Finish.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9jZqm9COxo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9jZqm9COxo4",
+      "url": "https://www.youtube.com/watch?v=9jZqm9COxo4",
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the person trapped in Cross Ashi-Garami bottom, the counter-entangle converts
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Entangle from Cross Ashi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9jZqm9COxo4)
+
+<p class="clip-credit"><strong>Over/Under (Saddle) Escape to 50/50 Crossbody Ankle Lock Finish</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=9jZqm9COxo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -36,6 +36,27 @@ description: "Master Strip Russian Leg Lasso in BJJ. Complete step-by-step guide
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Strip Russian Leg Lasso \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "PART 1 ESCAPING + PASSING THE LASSO",
+      "description": "Strip Russian Leg Lasso film study: PART 1 ESCAPING + PASSING THE LASSO.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNpws9uAY8o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNpws9uAY8o?start=40",
+      "url": "https://www.youtube.com/watch?v=kNpws9uAY8o",
+      "duration": "PT383S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Mastery of this technique is essential for any practitioner regularly facing mod
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Strip Russian Leg Lasso in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNpws9uAY8o&start=40)
+
+<p class="clip-credit"><strong>PART 1 ESCAPING + PASSING THE LASSO</strong> · 6:23 · <a href="https://www.youtube.com/watch?v=kNpws9uAY8o&t=40s" rel="noopener">Watch on YouTube from 0:40</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

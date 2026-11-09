@@ -150,6 +150,27 @@ description: "Master defending the far side armbar from knee on belly. Recogniti
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Far Side Armbar from KOB (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Spinning Armbar Escape from Knee on Stomach 2 - the Leg Grab Variation",
+      "description": "Far Side Armbar from KOB (Defender) film study: Spinning Armbar Escape from Knee on Stomach 2 - the Leg Grab Variation.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QmsUagYxkvY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QmsUagYxkvY",
+      "url": "https://www.youtube.com/watch?v=QmsUagYxkvY",
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the far side armbar from knee on belly requires recognizing the threat
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Far Side Armbar from KOB (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QmsUagYxkvY)
+
+<p class="clip-credit"><strong>Spinning Armbar Escape from Knee on Stomach 2 - the Leg Grab Variation</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=QmsUagYxkvY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

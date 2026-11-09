@@ -625,6 +625,16 @@
         "description": "Full resistance positional sparring starting from mounted crucifix with the attacker pursuing the belly down armbar. Practice surviving the transition and escaping to any safer position. Goal is extending survival time and increasing escape rate against progressively skilled attackers."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "AApmPQUUmYI",
+        "title": "Belly down arm bar escape breakdown",
+        "channel": "Anchorlinefitness",
+        "duration": 61,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

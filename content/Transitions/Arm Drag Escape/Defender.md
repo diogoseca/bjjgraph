@@ -150,6 +150,27 @@ description: "How to defend against Arm Drag Escape in BJJ. Recognition cues, de
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Drag Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "ARM-DRAG FROM FRONT HEADLOCK and COUNTER",
+      "description": "Arm Drag Escape (Defender) film study: ARM-DRAG FROM FRONT HEADLOCK and COUNTER.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Qnxy36vyAms/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Qnxy36vyAms?start=80",
+      "url": "https://www.youtube.com/watch?v=Qnxy36vyAms",
+      "duration": "PT117S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,6 +187,24 @@ Strategically, the most effective defense combines grip denial with offensive pr
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Drag Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Qnxy36vyAms&start=80)
+
+<p class="clip-credit"><strong>ARM-DRAG FROM FRONT HEADLOCK and COUNTER</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=Qnxy36vyAms&t=80s" rel="noopener">Watch on YouTube from 1:20</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

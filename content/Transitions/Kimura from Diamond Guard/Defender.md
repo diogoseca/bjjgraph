@@ -150,6 +150,27 @@ description: "Defend against the Kimura from Diamond Guard in BJJ. Recognition c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Diamond Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "9/25/23 no gi, closed guard kimura defense",
+      "description": "Kimura from Diamond Guard (Defender) film study: 9/25/23 no gi, closed guard kimura defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h7pzE1Z-ZnM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h7pzE1Z-ZnM?start=63",
+      "url": "https://www.youtube.com/watch?v=h7pzE1Z-ZnM",
+      "duration": "PT229S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the Kimura from Diamond Guard requires recognizing the transition wind
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Diamond Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h7pzE1Z-ZnM&start=63)
+
+<p class="clip-credit"><strong>9/25/23 no gi, closed guard kimura defense</strong> · 3:49 · <a href="https://www.youtube.com/watch?v=h7pzE1Z-ZnM&t=63s" rel="noopener">Watch on YouTube from 1:03</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

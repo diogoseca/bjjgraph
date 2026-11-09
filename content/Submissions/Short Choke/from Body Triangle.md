@@ -36,6 +36,27 @@ description: "Master the short choke from body triangle in BJJ. Learn lapel feed
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Body Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Demian Maia - Lapel Choke from Body Triangle - Jits Magazine",
+      "description": "Short Choke from Body Triangle film study: Demian Maia - Lapel Choke from Body Triangle - Jits Magazine.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aH75QD_8n_M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aH75QD_8n_M?start=29",
+      "url": "https://www.youtube.com/watch?v=aH75QD_8n_M",
+      "duration": "PT157S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -80,6 +101,24 @@ What distinguishes this variant from other short choke entries is the stability 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Body Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aH75QD_8n_M&start=29)
+
+<p class="clip-credit"><strong>Demian Maia - Lapel Choke from Body Triangle - Jits Magazine</strong> · 2:37 · <a href="https://www.youtube.com/watch?v=aH75QD_8n_M&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

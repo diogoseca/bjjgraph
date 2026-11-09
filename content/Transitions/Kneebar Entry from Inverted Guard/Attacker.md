@@ -170,6 +170,27 @@ description: "How to execute Kneebar Entry from Inverted Guard in BJJ. Attacking
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar Entry from Inverted Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inverted guard to kneebar",
+      "description": "Kneebar Entry from Inverted Guard (Attacker) film study: Inverted guard to kneebar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4W6-SDBRPo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4W6-SDBRPo4",
+      "url": "https://www.youtube.com/watch?v=4W6-SDBRPo4",
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar Entry from Inverted Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4W6-SDBRPo4)
+
+<p class="clip-credit"><strong>Inverted guard to kneebar</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=4W6-SDBRPo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

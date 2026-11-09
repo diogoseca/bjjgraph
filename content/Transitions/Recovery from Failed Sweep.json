@@ -359,7 +359,17 @@
       }
     ],
     "safety_considerations": "Scrambles involve rapid direction changes and explosive movements that stress the neck, shoulders, and knees. Avoid posting on fully extended arms during direction changes as this risks wrist and elbow hyperextension injuries. During training, communicate with your partner when transitioning through scramble positions to prevent accidental head-to-head collisions. Progress gradually from slow drilling to full-speed scramble work to build the proprioceptive awareness needed for safe execution. Be particularly cautious of knee torque when legs become entangled during the transition, and tap immediately if any joint is caught at an unnatural angle.",
-    "clips": []
+    "clips": [
+      {
+        "id": "WnRVGlhBSAw",
+        "title": "Open Guard Sweep Failed Koala To Ankle Pick",
+        "channel": "Great Grappling",
+        "duration": 152,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Recovery from Failed Sweep Defender",

@@ -151,6 +151,27 @@ description: "How to defend against Kouchi Gari in BJJ. Recognition cues, defens
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kouchi Gari (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "ko-uchi-gari countered by harai-tsuri-komi-ashi",
+      "description": "Kouchi Gari (Defender) film study: ko-uchi-gari countered by harai-tsuri-komi-ashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/V8vTaFAqMmo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/V8vTaFAqMmo",
+      "url": "https://www.youtube.com/watch?v=V8vTaFAqMmo",
+      "duration": "PT15S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,6 +187,24 @@ Defending Kouchi Gari requires understanding that the throw's power comes primar
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kouchi Gari (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=V8vTaFAqMmo)
+
+<p class="clip-credit"><strong>ko-uchi-gari countered by harai-tsuri-komi-ashi</strong> · 0:15 · <a href="https://www.youtube.com/watch?v=V8vTaFAqMmo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

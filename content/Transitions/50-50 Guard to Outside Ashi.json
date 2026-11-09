@@ -356,7 +356,18 @@
       }
     ],
     "safety_considerations": "This transition involves leg entanglement positions where heel hooks become immediately available upon completion. Partners must understand that the outside ashi-garami configuration creates significant rotational force on the knee joint when heel hooks are applied. Always train with partners who understand leg lock tap protocols and respect immediate taps. The transition itself is relatively safe, but the resulting position demands caution. Avoid this transition entirely if either partner has existing knee injuries. During drilling, complete the transition without immediately attacking submissions - allow partner to recognize the position before adding submission threats. In competition, be aware that heel hooks are prohibited or restricted in many rulesets based on belt level.",
-    "clips": []
+    "clips": [
+      {
+        "id": "Htk0TyHi2zg",
+        "title": "Leg lock flow - ashi garami to side saddle to 50/50 to outside ashi to toe hold",
+        "channel": "BJJ4Breakfast",
+        "duration": 220,
+        "vertical": false,
+        "start": 48,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "50-50 Guard to Outside Ashi Defender",

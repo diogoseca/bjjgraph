@@ -443,7 +443,25 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "UXPfzHTSCDE",
+        "title": "Belly Down Arm bar from turtle",
+        "channel": "Ashland Hero Academy & Standing Monkey Tai Chi",
+        "duration": 25,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "9XqsAx3qE5A",
+        "title": "The Belly Down Armbar From Half Guard",
+        "channel": "Ritchie Yip",
+        "duration": 35,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Belly Down Armbar from Kesa Gatame Defender",
@@ -629,6 +647,24 @@
         "description": "Start in Kesa Gatame bottom with partner at full resistance. Defend all submission attempts including the belly-down armbar, americana, and arm crush. Focus on early recognition, immediate defensive reactions, and knowing when to tap versus when to continue defending. Three-minute rounds with reset."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "AApmPQUUmYI",
+        "title": "Belly down arm bar escape breakdown",
+        "channel": "Anchorlinefitness",
+        "duration": 61,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "FlFGsSpqYdE",
+        "title": "Belly Down Arm Bar Escape:Basic",
+        "channel": "Submissions101",
+        "duration": 84,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

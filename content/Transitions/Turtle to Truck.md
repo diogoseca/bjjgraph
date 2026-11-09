@@ -46,12 +46,12 @@ description: "Master the Turtle to Truck transition in BJJ. Step-by-step executi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Hip Lock Countering the Truck",
-      "description": "Turtle to Truck film study: Hip Lock Countering the Truck.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_0TeNLuarPU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_0TeNLuarPU",
-      "url": "https://www.youtube.com/watch?v=_0TeNLuarPU",
-      "duration": "PT35S"
+      "name": "Entering \u201cThe Truck\u201d from Attacking Turtle",
+      "description": "Turtle to Truck film study: Entering \u201cThe Truck\u201d from Attacking Turtle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FR-0JbBzCPQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FR-0JbBzCPQ",
+      "url": "https://www.youtube.com/watch?v=FR-0JbBzCPQ",
+      "duration": "PT126S"
     }
   ]
 }
@@ -101,9 +101,9 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_0TeNLuarPU)
+![](https://www.youtube.com/watch?v=FR-0JbBzCPQ)
 
-<p class="clip-credit"><strong>Hip Lock Countering the Truck</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=_0TeNLuarPU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Entering “The Truck” from Attacking Turtle</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=FR-0JbBzCPQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

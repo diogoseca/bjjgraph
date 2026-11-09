@@ -417,7 +417,17 @@
       }
     ],
     "safety_considerations": "The Peruvian Necktie is a blood choke that can cause unconsciousness rapidly if applied with full force. Practice this technique with controlled pressure and clear communication with training partners. Always tap immediately when caught in this position as the choking mechanism tightens quickly due to the shoulder fulcrum. When applying the technique, release pressure immediately upon feeling a tap or verbal submission. During drilling phases, focus on position achievement rather than finishing the choke. Be especially cautious during the inversion phase as rapid movements can strain neck muscles or cause dizziness. Partners with neck injuries should avoid this technique entirely. The leg threading motion can also create torque on the knee if executed incorrectly, so maintain proper leg alignment throughout. Always practice under qualified supervision, particularly during initial learning phases.",
-    "clips": []
+    "clips": [
+      {
+        "id": "4ob2ZrEH3Yc",
+        "title": "Front headlock to Peruvian necktie",
+        "channel": "Gile23",
+        "duration": 113,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Peruvian Necktie Setup Defender",
@@ -612,7 +622,25 @@
         "description": "Positional sparring starting from front headlock. Attacker works to complete the Peruvian Necktie at full intensity while defender works to escape to any safe position. Reset after submission, escape, or 60 seconds. Track success rate and identify which defensive phase needs the most work. Begin integrating defense into regular rolling by asking partners to hunt for the Peruvian Necktie from appropriate positions."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "WcVrhdaHaro",
+        "title": "PEDRO SAUER | The PERFECT Defense To The Peruvian Necktie",
+        "channel": "TEAM FUSION ACADEMY | Dedicated To Technique!",
+        "duration": 140,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "yj0xxeLnM5E",
+        "title": "Peruvian necktie escape",
+        "channel": "Gile23",
+        "duration": 122,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "variants_and_adaptations": [
     {
