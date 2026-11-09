@@ -44,6 +44,16 @@ async function read(page: Page, path: string, hub: string) {
       builtLast: norm(built?.lastElementChild?.textContent), builtTitle: norm(built?.querySelector('h2')?.textContent),
       tileTitle: norm(shown?.closest('.ng-section-card')?.querySelector('.ng-section-title')?.textContent),
       indexRow: norm(document.querySelector('.ng-reader-toc-row[data-toc-type="safety"] a')?.textContent),
+      // Cobbler's gap check: the guide's table starts under its tile's title as any tile's text does under its own.
+      spacing: (() => {
+        const gap = (c: Element | null | undefined, first: string) => {
+          const t = c?.querySelector('.ng-section-title'), f = c?.querySelector(first)
+          return t && f ? f.getBoundingClientRect().top - t.getBoundingClientRect().bottom : null
+        }
+        const cards = [...document.querySelectorAll('[data-reader-body] > .ng-section-card')]
+        const other = cards.find(c => c.getAttribute('data-section-type') !== 'safety' && c.querySelector('.ng-section-body p'))
+        return { table: gap(shown?.closest('.ng-section-card'), 'th'), text: gap(other, '.ng-section-body p') }
+      })(),
       md: { length: md.length, note: md.includes(NOTE.replace("Go slow.", "**Go slow.**")), dropped: /\*\*(Application Speed|Tap Signals|Release Protocol|Training Restrictions)\*\*/.test(md) },
       shownRows: [...(table?.querySelectorAll("tr") || [])].map(r => norm(r.textContent)),
       heads: [...(shown?.querySelectorAll("strong") || [])].map(s => norm(s.textContent)),
@@ -67,6 +77,8 @@ for (const [path, hub] of [
     expect(m.builtLast, "the page's guide ends with the closing line").toBe(NOTE)
     expect([m.builtTitle, m.tileTitle, m.indexRow], 'U113 b: "Injury risks" on the page, the tile and its index row').toEqual(['Injury risks', 'Injury risks', 'Injury risks'])
     expect(m.builtHeads.filter(h => /^Injury Risks/i.test(h)), 'U113 b: said once, no label above the table').toEqual([])
+    expect(m.spacing.text, 'control: another tile has text under its title').not.toBeNull()
+    expect(Math.abs(m.spacing.table! - m.spacing.text!), `the table starts under its title as text does (${m.spacing.table} / ${m.spacing.text})`).toBeLessThanOrEqual(1)
     expect(m.md, "its markdown export says the same").toEqual({ length: expect.any(Number), note: true, dropped: false })
     expect(m.md.length, "control: the markdown export was read").toBeGreaterThan(1000)
     expect(m.shownRows, "the reader shows the hub's injury table, row for row").toEqual(m.builtRows)
@@ -87,5 +99,6 @@ test("@curated U111: a transition keeps its whole guide and gets no closing line
 
 // Red-proof (v1.252.0, tests/artifacts/article_sections_mutants.mjs on the served reader.js, against a green baseline):
 //   u111-reader-cut-back ... the old reader cut put back (the page's guide re-cut after its table) ... killed: the closing line, once
+//   table-top-padding-back . reading.css's padding-top:0 on reader tables taken out .................. killed: the table starts under its title as text does (37.6 / 13.6)
 // The template side's controls are in tests/submission_safety_pages.test.mjs (a page, a template and a source each mutated).
 // NOT COVERED by a control here: the page claims (builtHeads, builtLast, md), which only a regenerated, rebuilt page could break.

@@ -467,6 +467,8 @@ const mutants = [
   // U112 a: the reader shows the page's guide whole; the old reader cut would drop the closing line with the four parts.
   ['u111-reader-cut-back', 'safety-risks-only.spec.ts', 'Armbar/from-Mount/Attacker', s => replace(s, "    // U111, U112 a (owner, 2026-11-09): a submission's guide is cut in its template",
     '    submission && buckets.get("safety")?.parts[0].node.querySelectorAll(":scope>.table-container~*").forEach(n => n.remove());\n    // U111, U112 a (owner, 2026-11-09): a submission\'s guide is cut in its template')],
+  // Cobbler's gap check (v1.252.0): a reader table keeps Quartz's side and foot padding, not its top.
+  ['table-top-padding-back', 'safety-risks-only.spec.ts', 'Armbar/from-Mount/Attacker', s => s, css => replace(css, 'margin:0;padding-top:0}', 'margin:0}')],
   ['u110-cap-lost', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = 0;')],
   ['u110-card-uncapped', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'beside ? 390 : cap || (arrows ? 560 : 520)', 'beside ? 390 : arrows ? 560 : 520')],
   ['u110-film-uncapped', 'stacked-width.spec.ts', 'stacked at 900px', s => replace(s, 'a.filmLayout(cap ? Math.min(free.width, cap + 32) : free.width,', 'a.filmLayout(free.width,')],
