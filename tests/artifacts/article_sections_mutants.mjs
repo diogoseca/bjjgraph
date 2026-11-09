@@ -391,6 +391,10 @@ const mutants = [
   ['training-head-not-back', 'article-dashboard.spec.ts', 'U100 a closing Training.*moveBefore absent', s => replace(s, 's.card.prepend(s.closedRow.firstChild); s.closedRow.remove();', 's.closedRow.remove();')],
   ['training-close-scrolls', 'article-dashboard.spec.ts', 'U100 a closing Training.*moveBefore present', s => replace(s, 'if (opening) this.scrollTo(card, toggle);', 'if (opening) this.scrollTo(card, toggle); else this.root.scrollTop -= 200;')],
   ['hub-seat-scrolls', 'article-dashboard.spec.ts', 'U103 a on a hub', s => replace(s, 'if (more.children[1]) wall.append(more);', 'if (more.children[1]) { wall.append(more); if (wall.closest("[data-reader-article=guide]")) more.addEventListener("toggle", () => { this.root.scrollTop += 40; }); }')],
+  // v1.251.4: How it works once, each page's provenance once, and #overview still landing.
+  ['hub-heading-injected', 'article-order.spec.ts', 'Positions/Mount: How it works says its name once', s => replace(s, '    const base = new URL(path, location.origin);\n', '    const overview = article.querySelector("section#overview");\n    if (overview && !overview.querySelector("h2")) overview.prepend(element("h2", { id: "overview" }, "How it works"));\n    const base = new URL(path, location.origin);\n')],
+  ['provenance-every-part', 'article-order.spec.ts', 'Positions/Mount: How it works says its name once', s => replace(s, 'if (said != group.said) fragment.append(', 'if (true) fragment.append(')],
+  ['anchor-lost', 'article-order.spec.ts', 'Positions/Mount#overview lands', s => replace(s, '    if (!node) return;\n    node.tabIndex = -1;', '    return;\n    node.tabIndex = -1;')],
   ['gap-extra-phone', sections, '390px choices precede', s => s, css => css + '\n@media(max-width:599px){.ng-section-card{margin-top:calc(var(--section-gap) - 6px)}}\n'],
   // U103 a: Read more on a hub, both text sections.
   ['hub-first-section-only', 'article-order.spec.ts', 'U103 a /Positions/Mount:', s => replace(s, 'if (wall.dataset?.sourceId == "overview") {', 'if (wall.dataset?.sourceId == "overview" && !buckets.done && (buckets.done = 1)) {')],
