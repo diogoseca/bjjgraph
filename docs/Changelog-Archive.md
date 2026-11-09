@@ -14581,7 +14581,32 @@ build, gives a median of 208 px for +282 B and 170 px more on a phone at 390x631
 **Bytes.** Deferred 507,110 to 506,959 B, and the ceiling follows it down. The hold costs 10 B, and seven more names in `READER_ONLY_PROPS` save 161 B: `placeTop gridW gameKey selecting seating extract gameInput`.
 `reader_mangle` covers them, 29 names, 0 reads. The owner's approval stands at 507,117 B, so 158 B of it are unused.
 
-**Hubs print "How it works" three times.** Measured, not shipped: removing the injected heading and printing each provenance line once takes Mount's tile from 6 labels to 3, Knee Slice's and Armbar's from 8 to 3, at -52 B.
+**Hubs print "How it works" three times.** Measured here, shipped in v1.251.4.
 
 **Tightened.** The poke's floor is exact at 390 again (`gap-extra-phone`). New controls for three claims that had none: `columns-end-apart`, `training-one-tile-columns`, `training-apart`, `training-head-not-back`, and
 `training-close-scrolls` for a new reader check on closing. The hub's Read more journey has its premises back and checks "in place" on both clicks (`hub-seat-scrolls`). "The columns end together" is a named blind spot: it holds on a Transition only.
+
+## v1.251.4 — How it works says its name once (#345's review, item 15, 2026-11-09)
+
+**The reader injected a heading into every overview section that had none, and printed a provenance line once a part.** One tile can hold several parts, so on a
+hub How it works read: HOW IT WORKS, For both sides, the role links, For both sides, How it works, the lead, Top perspective, How it works, the lead. That is the
+"1, 2, or 3 overviews" he rejected, under its new name. It predates #345.
+
+**The fix:** no injected heading, since the tile names the section and `section#overview` keeps its id; and one provenance line for a run of parts from one page.
+
+**Swept through the app's own reader on all 4,538 reader pages, both arms, measured before building:**
+
+| | Before | After |
+|---|---:|---:|
+| Pages where How it works says its name 2 or 3 times | 1,677 (1,432 hubs, 83 Systems, 26 Learning, 74 seats) | 0 |
+| Labels removed | | 3,109 "How it works", 2,044 "For both sides", 37 "Attacker perspective" |
+| Labels added | | 0 |
+| Section order, index rows | | unchanged on all 4,538 |
+| Overview words | | the same; 4 Submission hubs first read as different, which was my regex eating a run of words, and a DOM recount shows them the same |
+
+**`#overview`.** No page links to it, 0 hrefs in the build, so a typed or shared URL is the only way in. On 7 pages at 1440 and 390 it lands on the same section in both
+arms, and identically to the pixel where the heading was hidden. Both arms land between -12 and +37 px of the reader's top: older imprecision, not this change's.
+
+**Bytes:** -90 B, to 506,869 B. The ceiling follows it down. My scratch figure was -52 because that variant left the now-unused `querySelector` in.
+
+**Gates:** journeys, 13 reader files, 281 of 281. Controls `hub-heading-injected`, `provenance-every-part`, `anchor-lost`, all killed on their claims.
