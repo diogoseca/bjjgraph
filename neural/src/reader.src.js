@@ -1352,13 +1352,16 @@ class Reader {
         if (column) {
           // A closed question leaves its label, a row across the grid, so both cells start under it; from cardY the right column
           // ran up over the label and took its reopening press (D-338, at 1,024 to 1,349px, where no index sits beside it).
-          const filmEnd = (showCard ? cardY : y) + (homeMedia ? (askStep != null ? step + 3 : 0) + mediaHeight : 0);
+          // #346's review (finding 3): the asking line sits in the Moves band only while Moves is open (placeHand), so only then does
+          // the film start where the open card will; with Moves closed, it starts on the question, which opens downward.
+          const filmEnd = (showCard ? cardY : y) + (homeMedia ? (showHand && askStep != null ? step + 3 : 0) + mediaHeight : 0);
           if (homeMedia) position(home, free.center + 12, filmEnd - mediaHeight, mediaWidth);
           reach = filmEnd - y; y = Math.min(y, filmEnd);
         }
         gameHeight = Math.max((handoff?.height ?? 0) + (handoff?.slot || 0), y);
-        // The article's own ✕ stays clear of a film that reaches past the Moves' line.
-        if (this.body) style(this.bookClose, "margin-right", reach > 0 ? width / 2 + 12 : 0);
+        // The article's own ✕ stays clear of a film that reaches past the Moves' line. Stacked under the 496px cap it sits on the
+        // column's right edge, not the 680px article's (#346's review, finding 6: 92px outside the tiles at 768).
+        if (this.body) style(this.bookClose, "margin-right", reach > 0 ? width / 2 + 12 : Math.max(0, (width - grid) / 2));
         this.leadCells = [-reach, reach].map(x => Math.max(0, x));
         this.sortColumns(...this.leadCells);
       } else {
@@ -1408,9 +1411,13 @@ class Reader {
   sortColumns(l = 0, r = 0) {
     const a = l, b = r;
     let last = 0;
-    for (const s of this.sections) if (!s.body.hidden && !s.control) {
+    for (const s of this.sections) {
+      // #346's review (finding 2): a tile this pass skips keeps neither, or a closed one carried its margin into "Hidden sections".
+      // Only the skipped ones are written: rewriting an open tile would lay it out again on every pass.
+      const css = s.card.style;
+      if (s.body.hidden || s.control) { css.marginTop = css.clear = ""; continue; }
       // Within a pixel is a draw: a reader sees one line, and the left wins it.
-      const right = l > r + 1, height = rect(s.card).height + 24, at = right ? r : l, css = s.card.style;
+      const right = l > r + 1, height = rect(s.card).height + 24, at = right ? r : l;
       s.card.toggleAttribute("data-right", right);
       // The first tile under the taller cell starts below it. A float's margin counts from the float before it (CSS 2.1 9.5.1 rule 5),
       // and with nothing yet across the column two tiles of one side would stand side by side, so each clears its own side.

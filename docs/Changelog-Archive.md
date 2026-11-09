@@ -14738,3 +14738,35 @@ its own claim; two drawn answers use `pressAnswer`; the hub-guide match names In
 six my run's working directory broke (paths relative to the root; 26 of 26 from the root). Generated suite: 100 of 101, then 101
 (the shared answer press). First-hand payload: core 368,427 B against its 365,296 B baseline, +3,131 of the 6,000 B cap. The
 census and the SEO baseline move only in the receipt-bound reseed after cobbler's guarded capture.
+
+## v1.252.1 — #346's review, findings 1 to 8, and the panic card's drawn answer (2026-11-09)
+
+**Reproduced first, on dev's own served build (d34a047a8), in a real browser; only what reproduced was changed.**
+
+| finding | reproduced | fix | claim and control |
+|---|---|---|---|
+| 1. Previous over the index from 1,350px free | at 1440x900 the arrow at x 184 to 228, 40 of its 44px inside the index (24 to 224) | while the index stands beside the grid the app sets `data-index` on `.ng-landnav` (`_layoutLandHorizontal`, from the index's own `hidden`), and `helmet.html` puts Previous in the right lane, one target above Next; the open face stays on the grid's left edge | `deck-arrows-index.spec.ts`, after paging to card 2, at the top and at the last answer; `deck-prev-home-rule-lost` and `deck-prev-home-flag-lost` killed |
+| 2. a closed tile keeps sortColumns' margin and clear | at 1152x900 the Hidden sections row 116px under its summary (margin 115.6px, clear right) | `sortColumns` clears both on every tile it skips, and writes no open tile | `article-dashboard.spec.ts` "finding 2", gap 16px; `closed-tile-keeps-column-margin` killed |
+| 3. the film jumps 19px at 1,024 to 1,151 with Moves closed | -19px at 1024, 1100 and 1151 on opening the question | the asking line's step counts only while Moves is open, as `placeHand` places it | `reading-media-placement.spec.ts` "finding 3", under 1.5px; `film-ask-step-without-moves` killed |
+| 4. the video suggestion's seat | | `openFeedback(video, seat)` adds `seat` to the same `kind: "video"` event | `film-suggest.spec.ts`; `video-suggestion-seat-lost` killed |
+| 5. the tray from 528 to 599px | | none: no visual problem found; the spec's NOT COVERED note corrected | |
+| 6. the article's ✕ off the stacked column | at 768 the ✕ at x 680 to 724, the column ending at 632 | stacked under the 496px cap, it sits on the column's right edge; desktop unchanged (`Math.max(0, …)`) | `stacked-width.spec.ts` "the article's ✕ ends on the column's right edge"; `u110-close-on-article-edge` killed |
+| 7. | | none: cobbler-approved as shipped | |
+| 8. spec gaps | | "Safety guides" pinned as tile and index on a Transition and (fixture) a Position; `ask-line` and `reading-media-placement` loosened checks scoped to side-by-side; `pane-chrome` fails a 286px card | |
+
+**The panic card's drawn answer (cobbler's added item).** `panic-card.spec.ts` "grading the drill in time pumps the escape odds" failed 3 of 20
+isolated on #346's own capture. Classified before fixing, 20 isolated runs with the geometry logged: 5 red, every one with the correct option drawn
+third and its centre below the reader's scrollport bottom (880): 883 three times (`elementFromPoint` hit the canvas), 901 twice (outside the
+viewport). All 15 green runs had it at 866 or above. Deterministic geometry under an unrigged `mc-shuffle` draw, not a settle race; U99 b only
+requires answers reachable by scrolling, so the spec now reaches it through `pressAnswer`: 20 of 20.
+
+**The other presses on a drawn answer, measured rather than guessed.** A survey found 19 more mouse presses on a drawn MC option. A one-run
+probe in `clickByMouse` (reverted) logged every option's centre against the scrollport in the 11 files that hold them, 40 presses in 22 tests.
+Only the catch and panic-drill cards put their third option below the 880px scrollport bottom (+1 to +34px): six `defending-landing` tests
+(`catchLoop` rigs `panic-mc-shuffle`, so they always press the first or second option), the `landing-deck-answers` panic drill (`questionRolls`
+rigs it the same way), and `reading-contract`'s dormant defender (it already uses `pressAnswer`). Every landing card's lowest option sits 30 to
+274px above the scrollport. So `panic-card` was the one unrigged draw, and no other press was converted.
+
+**A stale premise the fix moved.** `landcard-deck.spec.ts` "1440px chevrons are clickable…" pinned Previous left of the face at 1440, the home
+finding 1 found 40px inside the index. At 1440 it now asserts the index beside the grid as a premise, then Previous in the right lane above Next;
+390 and 320 keep the left home.

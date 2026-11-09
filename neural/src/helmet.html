@@ -340,6 +340,10 @@
   .ng-landnav button{position:absolute;top:calc(var(--guide-y,50%) - 22px);}
   .ng-landnav [data-land-prev]{right:calc(100% + 8px);}
   .ng-landnav [data-land-next]{left:calc(100% + 8px);}
+  /* #346's review (finding 1): from 1,350px free the index stands 12px left of the grid, and the face stays on the grid's left edge,
+     so the Previous arrow's outside home (right:100% + 8px) lay 40px inside the index column. There it takes the right lane too,
+     stacked one target above Next, which the open face's 52px lane holds. */
+  .ng-landnav[data-index] [data-land-prev]{right:auto;left:calc(100% + 8px);top:calc(var(--guide-y,50%) - 70px);}
   .ng-landnav button[hidden]{display:none;}
   .ng-land-deck [data-land-q]>div:first-child{font-size:14px!important;line-height:1.4!important;}
   .ng-land-deck [data-land-mc-opt]{min-height:44px;font-size:13px!important;white-space:normal!important;overflow-wrap:anywhere;padding:10px 12px!important;}

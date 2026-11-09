@@ -4898,7 +4898,8 @@ class Component extends DCLogic {
    * `e2e/journeys/feedback-modal.spec.ts` pins the copy, the column and every control by mouse.
    */
   // U109 b: `video` is the node a no-video card asks about. The form is the same, its context is that node, and the report says so.
-  openFeedback(video) {
+  // #346's review (finding 4): the no-video card is per half, so the report names the half too (`seat`, the film's own role).
+  openFeedback(video, seat) {
     const card = this.modalCardRef.current; if (!card) return;
     card.style.width = "min(440px,92vw)";
     card.innerHTML = "";
@@ -4949,7 +4950,7 @@ class Component extends DCLogic {
         node: ctxOn && node ? node.id : null,
         signed_in: !!this.user,
         app_version: (typeof NG_APP_VERSION !== "undefined" ? NG_APP_VERSION : null),
-        ...(video && { kind: "video" }),
+        ...(video && { kind: "video", seat }),
       });
       this.closeModal();
       this.setEvent("Sent \u2014 thank you", isTech ? "We read every request" : "Reports like this decide what gets fixed next", "good");
@@ -12678,6 +12679,10 @@ class Component extends DCLogic {
   // instead, which is the viewport's centre whenever the pane is shut, i.e. where they were.
   // Pinned by `e2e/journeys/layer-dock-centre.spec.ts`.
   _layoutLandHorizontal() {
+    // #346's review (finding 1): the deck's Previous arrow takes the right lane while the reader's index stands beside the grid
+    // (helmet.html, .ng-landnav[data-index]). Here, not in the frame loop alone, so a card rendered or paged has it at once; a no-op
+    // whenever it does not change.
+    this._landNavEl?.toggleAttribute("data-index", !!this._readerTocEl && !this._readerTocEl.hidden);
     // The native article and its shelf share one coalesced layout writer. The
     // fixed replay bar still follows this frame's legacy column geometry.
     this._reader?.layout();
@@ -15724,7 +15729,7 @@ class Component extends DCLogic {
       + (this.filmStudyHTML(filmClips, true) || '<div class="ng-choice-media ng-film-none" data-choice-media><b>No video of this move yet</b><span>We only show a video that teaches exactly this move. Know one?</span><button data-film-suggest>Suggest a video</button></div>')
       + (seat ? '<footer><span>' + this.choiceEscape(seat[0].toUpperCase() + seat.slice(1)) + '</span><span class="ng-current-stat"><span>Win %</span><strong data-current-film-win>—</strong></span></footer>' : "");
     film.toggleAttribute("data-single-video", filmClips.length === 1);
-    film.querySelector("[data-film-suggest]")?.addEventListener("click", (e) => { e.stopPropagation(); this.openFeedback(shown); });
+    film.querySelector("[data-film-suggest]")?.addEventListener("click", (e) => { e.stopPropagation(); this.openFeedback(shown, film._ngMediaRole); });
     // ARROWS (v1.217.0, owner 2026-10-02): the deck's chevrons, one at each end of the row, shown only
     // toward hidden clips (`_syncFilmEdges`), so the left one is hidden at the start. Appended before
     // the ✕, which therefore paints over an arrow wherever the two could ever touch.

@@ -899,6 +899,30 @@ test('U65 b: the space below the shorter column remains reader input', async ({ 
   expect(await page.evaluate(() => ({ paused: (window as any).__neural.paused, reading: (window as any).__neural._reader.interacting, dragging: !!(window as any).__neural.dragging }))).toEqual({ paused: true, reading: true, dragging: false })
 })
 
+// #346's review, finding 2 (reproduced before the fix at 1152x900, Side Control Bottom: Position definition's 115.6px column margin and
+// clear:right rode into "Hidden sections", 116px under its summary). sortColumns now clears both on every tile it skips.
+// Control: closed-tile-keeps-column-margin (tests/artifacts/article_sections_mutants.mjs).
+test('#346 review, finding 2: a closed tile carries no column margin into "Hidden sections" (1152x900)', async ({ page }) => {
+  const j = await boot(page, 1152, 900, '/Positions/Side-Control/Bottom')
+  const type = await page.evaluate(() => ([...(window as any).__neural._reader.body.children] as HTMLElement[])
+    .find(c => c.getClientRects().length && parseFloat(c.style.marginTop) > 24)?.dataset.sectionType ?? null)
+  expect(type, 'premise: a tile starts under a stage cell, with a column margin').not.toBeNull()
+  const close = `[data-section-toggle="${type}"]`
+  await page.locator(close).evaluate(e => e.scrollIntoView({ block: 'center' })); await j.readerLayoutSettled()
+  await j.clickByMouse(close, `close ${type} with its own control`)
+  await j.readerLayoutSettled()
+  await page.locator('.ng-reader-hidden > summary').evaluate(e => e.scrollIntoView({ block: 'center' })); await j.readerLayoutSettled()
+  await j.clickByMouse('.ng-reader-hidden > summary', 'open "Hidden sections"')
+  const row = await page.evaluate(t => {
+    const h = document.querySelector('.ng-reader-hidden') as HTMLDetailsElement, card = h.querySelector(`[data-section-type="${t}"]`) as HTMLElement | null
+    return card && { open: h.open, gap: card.getBoundingClientRect().top - h.querySelector('summary')!.getBoundingClientRect().bottom, mt: card.style.marginTop, clear: card.style.clear }
+  }, type)
+  expect(row, 'the closed tile is listed in "Hidden sections"').not.toBeNull()
+  expect(row!.open, 'premise: the list is open').toBe(true)
+  expect([row!.mt, row!.clear], 'a closed tile keeps no column margin and no clear').toEqual(['', ''])
+  expect(row!.gap, 'its row sits under the summary at the list\'s own spacing').toBeLessThanOrEqual(24)
+})
+
 // DASH-R4 (review finding 5): without the index the grid is narrower and the columns are the same rule. U110 a (owner,
 // 2026-11-09) moved where that applies: the index shows from 1,350px free and the columns begin at 1,024px, so 1,024 to 1,349
 // is the no-index band; under 1,024 the article is one column, capped at 496px with everything stacked (stacked-width.spec.ts).

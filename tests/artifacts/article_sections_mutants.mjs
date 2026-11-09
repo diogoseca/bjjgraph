@@ -1,3 +1,6 @@
+// v1.252.1 recorded NON-KILL, not coverage: u59r4-table-margin. Its claim, that Quartz's table margin clips a three-column table, needed
+// a 340px lane; since U110 a and U104 no lane above the phone is narrower than 439px, and with the margin back neither 768x1024 (one
+// 496px column), 1024x768 (two 439px lanes) nor 390x844 clips a table. The margin:0 stays; nothing can see it now.
 // H139 recorded NON-KILLS, not coverage: execution-node-band-removed, d338-film-waits-for-intent,
 // and d353-play-keeps-pin. Under layout C the old catch has no film above its question, so
 // d351-deferral-removed and d352-film-over-pin also passed their old catch claims. They now target
@@ -227,8 +230,9 @@ const mutants = [
   ['read-more-focus-to-top', 'article-dashboard.spec.ts', 'Read more opens by the keyboard', s => replace(s, 'if (more.children[1]) wall.append(more);', 'if (more.children[1]) { wall.append(more); listen(more, "toggle", () => this.body.querySelector("[data-section-type=aka] [data-section-toggle]").focus()); }')],
   ['settings-key-renamed', 'article-order.spec.ts', 'a saved closed section survives', s => replace(s, 'this.app.set("readerSection." + type, shown);', 'this.app.set("readerSection." + type, shown);').replace('return app.get("readerSection." + type, true) !== false;', 'return app.get("readerSection." + (type === "overview" ? "how-it-works" : type), true) !== false;')],
   ['width-right-edge', 'article-order.spec.ts', 'share both edges', s => replace(s, 'free.width + 2 * (free.left - indexEdge)', 'W - 24 - indexEdge')],
-  ['row-keeps-inset', 'article-order.spec.ts', 'share both edges', s => replace(s, 'const flush = this.trayFlush = available && W > 640;', 'const flush = available && W > 640;')],
-  ['row-full-width', 'article-order.spec.ts', 'share both edges', s => replace(s, 'const flush = this.trayFlush = available && W > 640;', 'const flush = this.trayFlush = available && !!indexEdge;')],
+  // v1.252.1: retargeted to U110 a's flush condition (600 to 640px too), which #346 changed under these two rows.
+  ['row-keeps-inset', 'article-order.spec.ts', 'share both edges', s => replace(s, 'const flush = this.trayFlush = available && (W > 640 || free.width >= 600);', 'const flush = available && (W > 640 || free.width >= 600);')],
+  ['row-full-width', 'article-order.spec.ts', 'share both edges', s => replace(s, 'const flush = this.trayFlush = available && (W > 640 || free.width >= 600);', 'const flush = this.trayFlush = available && !!indexEdge;')],
   ['grid-spans-all', 'article-order.spec.ts', 'no section spans the whole grid at 1440x900', s => s, css => css + '\n[data-reader-body]>[data-section-type=definition]{width:100%}'],
   ['beta-everywhere', 'article-order.spec.ts', 'every other page keeps', s => s, css => replace(css, ':has([data-source-id=decision-tree],[data-source-id=position-metrics])', '[data-section-type=options]')],
   ['beta-suffix', 'article-order.spec.ts', 'Beta mark: /Systems', s => s, css => replace(css, ':has([data-source-id=decision-tree],[data-source-id=position-metrics])', ':has([data-source-id$=tree],[data-source-id$=metrics])')],
@@ -438,7 +442,8 @@ const mutants = [
   ['u59r4-reopen-ungated', 'article-dashboard.spec.ts', 'putting the article away and back', s => replace(replace(s, ' && rect(art).top < top', ''), '(this.gridW = available ? free.width : NaN)', '(this.gridW = grid)')],
   // Finding 3, "a wide table shows every column": kept in the 46ch column.
   ['u59r4-table-measured', 'article-dashboard.spec.ts', 'wide Top/Bottom table', s => s, css => replace(css, '.ng-section-body article:has(tr>:nth-child(4)){max-width:none}', '')],
-  ['u59r4-table-margin', 'article-dashboard.spec.ts', 'at 768x1024', s => s, css => replace(css, 'table{display:block;overflow-x:auto;font-size:14px;margin:0}', 'table{display:block;overflow-x:auto;font-size:14px}')],
+  // v1.252.1: retargeted to the rule with #346's padding-top:0 (cobbler's gap check); the mutant still takes only the margin away.
+  ['u59r4-table-margin', 'article-dashboard.spec.ts', 'at 768x1024', s => s, css => replace(css, 'table{display:block;overflow-x:auto;font-size:14px;margin:0;padding-top:0}', 'table{display:block;overflow-x:auto;font-size:14px;padding-top:0}')],
   // Finding 6, "an article arriving under a held press still shows two lanes": the default width back to the whole grid.
   ['u59r4-press-full', 'article-dashboard.spec.ts', 'arrives under a held press', s => s, css => replace(css, 'width:calc(50% - var(--gap)/2)', 'width:100%')],
   // U65 b and note (owner, 2026-10-29): each tile ends at its own content; game pages have no credits tile.
@@ -469,12 +474,18 @@ const mutants = [
     '    submission && buckets.get("safety")?.parts[0].node.querySelectorAll(":scope>.table-container~*").forEach(n => n.remove());\n    // U111, U112 a (owner, 2026-11-09): a submission\'s guide is cut in its template')],
   // Cobbler's gap check (v1.252.0): a reader table keeps Quartz's side and foot padding, not its top.
   ['table-top-padding-back', 'safety-risks-only.spec.ts', 'Armbar/from-Mount/Attacker', s => s, css => replace(css, 'margin:0;padding-top:0}', 'margin:0}')],
+  // #346's review (v1.252.1). Finding 2: a tile sortColumns skips keeps neither of its column styles.
+  ['closed-tile-keeps-column-margin', 'article-dashboard.spec.ts', 'finding 2', s => replace(s, 'if (s.body.hidden || s.control) { css.marginTop = css.clear = ""; continue; }', 'if (s.body.hidden || s.control) continue;')],
+  // Finding 3: with Moves closed the film starts on the question.
+  ['film-ask-step-without-moves', 'reading-media-placement.spec.ts', 'finding 3', s => replace(s, '(showHand && askStep != null ? step + 3 : 0)', '(askStep != null ? step + 3 : 0)')],
   ['u110-cap-lost', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = 0;')],
   ['u110-card-uncapped', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'beside ? 390 : cap || (arrows ? 560 : 520)', 'beside ? 390 : arrows ? 560 : 520')],
   ['u110-film-uncapped', 'stacked-width.spec.ts', 'stacked at 900px', s => replace(s, 'a.filmLayout(cap ? Math.min(free.width, cap + 32) : free.width,', 'a.filmLayout(free.width,')],
   ['u110-grid-uncapped', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'Math.min(cap || 902, free.width - 64)', 'Math.min(902, free.width - 64)')],
   // U110 a: the Moves row takes the column wherever the stacked box binds, 600 to 640px included (cobbler's check, 2026-11-09).
   ['u110-tray-phone-flush', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'available && (W > 640 || free.width >= 600)', 'available && W > 640')],
+  // #346's review, finding 6: stacked, the article's ✕ ends on the column's right edge.
+  ['u110-close-on-article-edge', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'reach > 0 ? width / 2 + 12 : Math.max(0, (width - grid) / 2)', 'reach > 0 ? width / 2 + 12 : 0')],
   ['u110-cap-past-columns', 'stacked-width.spec.ts', 'at 1,024px the columns begin', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = free.width < 1100 && 496;')],
 ]
 // D7-N1: controls whose claim IS the landSettled stall (land_publish_stalled). None today.

@@ -529,8 +529,17 @@ for (const width of [1440, 390, 320]) {
     await j.clickByMouse("[data-land-next]")
     await expect(prev).toBeVisible()
     const left = await prev.boundingBox()
-    expect(left!.x).toBeGreaterThanOrEqual(0)
-    expect(left!.x + left!.width).toBeLessThan(face!.x)
+    if (width === 1440) {
+      // v1.252.1, #346's review (finding 1): from 1,350px free the reader's index holds the margin left of the face, and Previous sat
+      // 40px inside it. While the index stands beside the grid, Previous takes the right lane, one target above Next.
+      await expect(page.locator(".ng-reader-toc"), "premise: the index stands beside the grid at 1440").toBeVisible()
+      expect(left!.x, "Previous in the face's right lane").toBeGreaterThan(face!.x + face!.width)
+      expect(left!.x + left!.width).toBeLessThanOrEqual(width)
+      expect(left!.y + left!.height, "Previous stands above Next, clear of it").toBeLessThanOrEqual(box!.y)
+    } else {
+      expect(left!.x).toBeGreaterThanOrEqual(0)
+      expect(left!.x + left!.width).toBeLessThan(face!.x)
+    }
     await expect(page.locator("[data-land-position]")).toHaveAttribute("data-land-position", `2/${total}`)
     await j.clickByMouse("[data-land-prev]")
     await expect(prev).toBeHidden()

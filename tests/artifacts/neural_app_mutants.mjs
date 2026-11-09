@@ -236,6 +236,15 @@ const controls = [
     'the form asks for the link and the second'],
   ['film-suggest-kind-lost', 'film-suggest.spec.ts', 'about that move at 1440',
     [['...e&&{kind:"video"}}),this.closeModal(', '}),this.closeModal(']], 'a video suggestion about the shown move'],
+  // #346's review (v1.252.1). Finding 1: the Previous arrow's home beside the index, by its rule and by the attribute the app sets.
+  ['deck-prev-home-rule-lost', 'deck-arrows-index.spec.ts', 'finding 1', [],
+    '[data-land-prev] lies right of the index at the top', [['.ng-landnav[data-index] [data-land-prev]{', '.ng-landnav[data-index-off] [data-land-prev]{']]],
+  ['deck-prev-home-flag-lost', 'deck-arrows-index.spec.ts', 'finding 1',
+    [['.toggleAttribute("data-index",!!this._readerTocEl&&!this._readerTocEl.hidden)', '.toggleAttribute("data-index",!1)']],
+    '[data-land-prev] lies right of the index at the top'],
+  // Finding 4: the video suggestion names its half.
+  ['video-suggestion-seat-lost', 'film-suggest.spec.ts', 'about that move at 1440',
+    [['...e&&{kind:"video",seat:t}}),this.closeModal(', '...e&&{kind:"video"}}),this.closeModal(']], 'a video suggestion about the shown move'],
   // U104 (owner, 2026-11-06): a card with no video has nothing to dismiss.
   // U104 (v1.252.0): an asking card is fitted inside the pass that measures it, or a pane slide reads a wrapped line.
   ['ask-fit-late', 'article-dashboard.spec.ts', 'other column \\(30% down\\)',
