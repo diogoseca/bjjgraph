@@ -1151,16 +1151,18 @@ class Reader {
       // re-picked line: it reorders which line comes first, and it can shorten the document so scrollTop clamps. A pass
       // then took the clamped height as the new place and the close landed elsewhere: 179-333px at the end of Transitions
       // and Submissions at 768, 971px at a landed Mount Top.
-      // v1.251.3: within a pixel, not ===. At a fractional scale the browser reads back what it snapped (3122.39990234375 for a written
-      // 3122.4), so the place never equalled heldAt, the hold let go, and a line re-picked mid-slide drifted: 100.81px on Armbar from Mount
-      // at 1.25 and 1152, and 71.88px at 1.5 on fecd354a3, the carry there or not. Under a pixel now, and a real scroll still lets go.
+      // v1.251.3: heldAt is the read-back, not the sum written. At a fractional scale the browser snaps a write to its device pixels
+      // (3122.39990234375 for 3122.4), so the place, which is the read-back, never equalled the sum, the hold let go, and a line re-picked
+      // mid-slide drifted: 100.81px on Armbar from Mount at 1.25 and 1152, and 71.88px at 1.5 on fecd354a3, the carry there or not. A 1px
+      // tolerance fixed 1 to 2 but not 0.5 (browser zoom under 100%), where a device pixel is 2 CSS px: 127.63px. The read-back holds
+      // at every scale measured, 0.5 to 2, and === still lets any real scroll go.
       // v1.251.1: offsetWidth, not isConnected. A closed tile stays connected, so the hold kept a line with no box, read its top as 0,
       // and threw the reader up by heldY on every pass of the slide (4,345 -> 745 on Knee Slice Pass). It is 0 detached or unrendered.
       // v1.251.0: the columns reflow on the same width change, so the source order no longer runs down the page. The
       // line is the block nearest the reader's top in either column, and a tie stays with the earlier block.
       // v1.251.0 (U97 b): the free width, not the grid's. The grid now stands at 902px through most of a pane slide, while the
       // film still flips from beside the question to under it and grows the stage: 143-168px with no anchor to hold the line.
-      keep = this.gridW - (this.gridW = available ? free.width : NaN) && rect(art).top < top && (Math.abs(this.placeTop - this.heldAt) < 1 && this.held?.offsetWidth
+      keep = this.gridW - (this.gridW = available ? free.width : NaN) && rect(art).top < top && (this.placeTop === this.heldAt && this.held?.offsetWidth
         ? (was = this.heldY, this.held) : (was = 1 / 0, [...art.querySelectorAll("p,li")].reduce((line, e) => { const y = rect(e).top; return y >= top && y < was ? (was = this.heldY = y, e) : line; }, null)));
       style(art, "--article-width", grid);
       // Owner (2026-11-06, replacing U59 c's rows and U65 b's pairing): two columns, "never a big gap following the
@@ -1371,7 +1373,7 @@ class Reader {
       // way each time, so the line crept 5px up and then lost the anchor to the block below it (26px).
       // SIDECX5: a partially clipped block above the top can wrap and move the first visible line;
       // anchor a block starting within the reader instead, retaining the rounded correction.
-      if (keep) { this.held = keep; this.heldAt = this.placeTop = root.scrollTop += Math.round(rect(keep).top - was); }
+      if (keep) { this.held = keep; root.scrollTop += Math.round(rect(keep).top - was); this.heldAt = this.placeTop = root.scrollTop; }
       this.laying = false;
     }
   }

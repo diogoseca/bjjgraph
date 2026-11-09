@@ -268,6 +268,39 @@ test("768px a scroll while the pane is open is the reader's new place, and the c
   expect(Math.abs(now - held), `the new line keeps its place (${held} -> ${now})`).toBeLessThanOrEqual(8)
 })
 
+// #348's review: the scroll above moves 60% of the article, so a hold that ignored any scroll under 100px passed it. A 24px wheel, real
+// input, is the reader's own too. hold-loose.
+test("1440px a small wheel while the pane is open is the reader's new place, and the close holds that one", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 })
+  const j = journey(page)
+  await j.boot("/Positions/Mount/Top", { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", r => r.continue()) } })
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  await j.readerLayoutSettled()
+  await page.locator("[data-reader]").evaluate(e => { e.scrollTop = Math.round(e.scrollHeight * .4) })
+  await settle(page, j)
+  await openPane(page, j)
+  const before = await readerTop(page)
+  const at = await page.locator("[data-reader]").evaluate(e => {
+    const r = e.getBoundingClientRect(), x = r.right - 120, y = r.top + r.height / 2, hit = document.elementFromPoint(x, y)
+    return { x, y, inside: !!hit && e.contains(hit) }
+  })
+  expect(at.inside, "premise: the wheel is over the article, not the pane").toBe(true)
+  await page.mouse.move(at.x, at.y)
+  await page.mouse.wheel(0, 24)
+  await expect.poll(() => readerTop(page), { message: "the wheel moved the reader a little" }).toBeGreaterThan(before + 8)
+  await settle(page, j)
+  const moved = await readerTop(page) - before
+  expect(moved, "premise: a small scroll, under the 100px a loose hold would ignore").toBeLessThan(60)
+  const held = await page.locator("[data-reader]").evaluate(e => {
+    const top = e.getBoundingClientRect().top, line = ([...e.querySelectorAll("[data-reader-body] p,[data-reader-body] li")] as Element[]).filter(x => x.getClientRects().length && x.getBoundingClientRect().top >= top).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]
+    line.setAttribute("data-test-small", "")
+    return line.getBoundingClientRect().top - top
+  })
+  await closePane(page, j)
+  const now = await page.locator("[data-reader]").evaluate(e => e.querySelector("[data-test-small]")!.getBoundingClientRect().top - e.getBoundingClientRect().top)
+  expect(Math.abs(now - held), `the line the wheel left keeps its place (${held} -> ${now}, moved ${moved})`).toBeLessThanOrEqual(8)
+})
+
 test("@curated exposed cards, videos and reading take real mouse input while the pane is open", async ({ page }) => {
   await page.setViewportSize({ width: 1024, height: 900 })
   const j = await setup(page)
