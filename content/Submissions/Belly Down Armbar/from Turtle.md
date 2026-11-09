@@ -164,7 +164,7 @@ The belly down armbar from turtle exploits arm exposure that naturally occurs wh
 - Finish with controlled back arching and wrist pull rather than explosive jerking — body weight provides the primary force vector
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -236,7 +236,7 @@ The belly down armbar from turtle exploits arm exposure that naturally occurs wh
 - Your arm is being pulled away from your body despite your retraction efforts, and you can feel both of the attacker's hands controlling your wrist
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -298,9 +298,8 @@ The belly down armbar from turtle exploits arm exposure that naturally occurs wh
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -309,30 +308,9 @@ The belly down armbar from turtle exploits arm exposure that naturally occurs wh
 | Bicep tendon strain or tear from sudden pressure application in belly-down position | Medium | 3-6 weeks for strains, 3-6 months for complete tears |
 
 
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds from prone position establishment to full extension in training. The belly-down position generates significant force through body weight alone, requiring even more caution than standard armbar.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making verbal distress sounds)
-- Physical hand tap on your body or the mat with the free hand
-- Physical foot tap on the mat
-- Any distress signal including unusual movement or sounds
 
 
-**Release Protocol**:
-1. Immediately stop arching and release extension pressure on the arm
-2. Release the wrist grip while maintaining light positional control
-3. Lift your hips off the opponent's arm to remove body weight pressure
-4. Allow opponent to retract their arm naturally without resistance
-5. Check with training partner verbally before continuing
-
-
-**Training Restrictions**:
-- Never spike, jerk, or explosively extend the submission in training - the belly-down position amplifies force
-- Never use competition-speed application during drilling or light rolling
-- Always ensure training partner has at least one hand free to tap
-- Never continue pressure after feeling resistance or hearing joint sounds
-- Avoid this submission with beginners until they understand proper defensive reactions and tap timing
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

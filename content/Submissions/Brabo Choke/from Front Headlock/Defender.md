@@ -238,7 +238,7 @@ Defending the Brabo Choke requires early recognition and immediate action, as th
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Brabo Choke/from Front Headlock#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Brabo Choke/from Front Headlock#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

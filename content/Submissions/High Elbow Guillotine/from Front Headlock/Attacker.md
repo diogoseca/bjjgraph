@@ -281,7 +281,7 @@ Executing the High Elbow Guillotine from Front Headlock requires precise coordin
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/High Elbow Guillotine/from Front Headlock#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/High Elbow Guillotine/from Front Headlock#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

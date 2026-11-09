@@ -255,7 +255,7 @@ Defending the Bow and Arrow Choke from the Truck position requires addressing tw
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Bow and Arrow Choke/from Truck#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Bow and Arrow Choke/from Truck#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

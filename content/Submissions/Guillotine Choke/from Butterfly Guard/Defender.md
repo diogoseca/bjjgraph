@@ -272,7 +272,7 @@ Defending the Guillotine Choke from Butterfly Guard requires early recognition o
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Guillotine Choke/from Butterfly Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Guillotine Choke/from Butterfly Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

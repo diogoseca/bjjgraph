@@ -169,7 +169,7 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 - Apply progressive, steady pressure through the rotation rather than jerking—controlled application prevents injury and allows proper tap recognition
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -243,7 +243,7 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 - You feel your arm being flattened to the mat beside your head with your wrist being driven down and controlled
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -310,9 +310,8 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -322,31 +321,9 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 | Pectoral or deltoid muscle strain from resisting the lock under load | Low | 1-3 weeks |
 
 
-**Application Speed**: SLOW and controlled. Apply steady, progressive rotational pressure over 3-5 seconds minimum from figure-four lock to finish. Never jerk, spike, or rapidly crank the shoulder joint. The Americana must be applied gradually to allow time for tap recognition and safe response.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on partner or mat (minimum 2 taps)
-- Physical foot tap on mat with free leg
-- Any unusual screaming, crying out, or distress vocalization
-- Head shake or nodding if hands are trapped and verbal tap is unclear
 
 
-**Release Protocol**:
-1. Release the figure-four grip immediately upon any tap signal—open hands completely and remove rotational pressure
-2. Lift chest weight off opponent's shoulder to allow arm to return to neutral position naturally
-3. Do not force the arm back to starting position—let opponent move it themselves to assess range of motion
-4. Maintain mount position control during release to prevent further positional conflict
-5. Monitor partner for injury after release—check shoulder mobility, pain level, and range of motion before continuing
-
-
-**Training Restrictions**:
-- Never apply full rotational pressure in training—stop when partner signals discomfort or you feel joint resistance at end range
-- Beginners should drill the grip sequence and positioning without finishing pressure until movement patterns are established
-- Avoid training with explosive or jerking application—always use slow, controlled pressure even when drilling at speed
-- Ensure training partner has at least one hand free to tap at all times during drilling and sparring
-- Do not apply this submission to partners with pre-existing shoulder injuries or recent shoulder surgery
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

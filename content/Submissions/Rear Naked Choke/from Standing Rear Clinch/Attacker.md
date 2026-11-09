@@ -281,7 +281,7 @@ Executing the Standing RNC from Rear Clinch requires seamless transition from se
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Standing Rear Clinch#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Standing Rear Clinch#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

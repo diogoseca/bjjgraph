@@ -263,7 +263,7 @@ Attacking with the Darce Choke from Darce Control means you have already won the
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Darce Choke/from Darce Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Darce Choke/from Darce Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

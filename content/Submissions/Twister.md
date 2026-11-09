@@ -242,9 +242,8 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -254,32 +253,9 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 | Intercostal muscle tears (rib area) | Medium | 2-4 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression, never spike or jerk the spine
-
-**Tap Signals**:
-- Verbal tap (most common due to limited mobility)
-- Physical hand tap on your body or mat
-- Physical foot tap if accessible
-- Any distress signal or unusual vocalization
 
 
-**Release Protocol**:
-1. Immediately release the head/neck control completely
-2. Release upper body grips and allow opponent to turn face-up
-3. Slowly unwind the leg entanglement
-4. Do not pull or twist during release - let opponent move naturally
-5. Check with partner after release to ensure they are okay
-
-
-**Training Restrictions**:
-- NEVER apply at competition speed in training - always 50% speed maximum
-- NEVER use on beginners or those unfamiliar with the position
-- NEVER apply sudden or explosive pressure to the spine
-- NEVER continue if partner shows any signs of distress
-- ALWAYS allow clear tap access and communicate throughout
-- NEVER practice without supervision from a qualified black belt
-- Avoid training this submission more than once per week to prevent cumulative spine stress
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

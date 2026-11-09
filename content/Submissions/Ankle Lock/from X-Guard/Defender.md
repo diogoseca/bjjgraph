@@ -246,7 +246,7 @@ Defending the ankle lock from X-Guard demands early recognition and systematic r
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Ankle Lock/from X-Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Ankle Lock/from X-Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

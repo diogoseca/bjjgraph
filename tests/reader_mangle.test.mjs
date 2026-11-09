@@ -29,14 +29,24 @@ const walk = dir => readdirSync(dir).flatMap(name => {
   return statSync(path).isDirectory() ? walk(path) : [path];
 });
 // This file and the mutant runner quote the names to test them; the build's own list is the definition.
+// v1.252.0: two unit tests build a reader from reader.src.js itself, the unmangled source, so a listed name they set or read is the
+// source's own name and the build never touches it. They are named, not detected, so a new test is scanned by default; each must
+// still read the source and never the bundle, or it is scanned again.
+const SOURCE_READERS = ["tests/analytics_exploration.test.mjs", "tests/reader_handoff.test.mjs"];
+const sourceOnly = f => /neural\/src\/reader\.src\.js/.test(f) && !/reader\.js["'`]|dist\/reader|app\/reader/.test(f.replace(/reader\.src\.js/g, ""));
 const sources = [
   ...walk(join(root, "neural/src")).filter(f => /\.src\.jsx?$/.test(f) && !f.endsWith("reader.src.js")),
   ...walk(join(root, "e2e")).filter(f => /\.(ts|mjs|js)$/.test(f) && !f.includes("node_modules")),
   ...walk(join(root, "scripts")).filter(f => /\.(mjs|js|ts)$/.test(f)),
   ...walk(join(root, "forward")).filter(f => /\.(mjs|js|html)$/.test(f) && !f.includes("node_modules")),
   ...walk(join(root, "source/quartz")).filter(f => /\.(ts|tsx|js|mjs)$/.test(f) && !f.includes("/static/")),
-  ...readdirSync(join(root, "tests")).filter(f => f.endsWith(".mjs") && f !== "reader_mangle.test.mjs").map(f => join(root, "tests", f)),
+  ...readdirSync(join(root, "tests")).filter(f => f.endsWith(".mjs") && f !== "reader_mangle.test.mjs" && !SOURCE_READERS.includes("tests/" + f)).map(f => join(root, "tests", f)),
 ];
+
+test("the two exempt unit tests still build their reader from its source, and only from it", () => {
+  for (const f of SOURCE_READERS) assert.ok(sourceOnly(readFileSync(join(root, f), "utf8")), f + " no longer reads only reader.src.js, so scan it");
+  assert.equal(sourceOnly('readFileSync("../source/quartz/static/neural/app/reader.js")'), false, "the check can fail");
+});
 
 test("the list parses, and every listed name still lives in the reader", () => {
   assert.ok(names.length >= 20, `READER_ONLY_PROPS parsed to ${names.length} names`);

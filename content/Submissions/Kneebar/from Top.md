@@ -188,7 +188,7 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 - **Competition vs Training Distinction**: Training kneebarring emphasizes technical precision, control maintenance, and partner safety through slow application; competition application involves faster entries, tighter control, and finish-oriented mechanics—conflating these contexts creates injury risk
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 - Sudden decrease in upper body pressure combined with increased grip pressure on your lower leg or ankle—the weight shift from your torso to your leg precedes the step-over entry by 1-2 seconds
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -337,9 +337,8 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -349,33 +348,9 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 | Tibial plateau fracture (extreme force application) | CRITICAL | 6-12 months with surgical fixation |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive application in training; NEVER spike or jerk
-
-**Tap Signals**:
-- Verbal tap (loudly saying 'tap' or 'stop')
-- Physical hand tap on partner or mat (multiple rapid taps)
-- Physical foot tap on mat or partner
-- Any distress vocalization or signal
-- Frantic movement indicating panic
 
 
-**Release Protocol**:
-1. Immediately release hip extension and leg pressure upon any tap signal
-2. Return leg to neutral position without torque or rotation
-3. Maintain grip contact but zero pressure while checking partner's condition
-4. Allow partner time to assess knee stability before resuming training
-5. Communicate verbally to confirm partner is ready to continue
-
-
-**Training Restrictions**:
-- Never apply competition-speed finishing mechanics in training rolls
-- Never spike, jerk, or explosively extend hips during application
-- Never continue pressure if partner's tap access is compromised
-- Never train kneebars with unfamiliar partners without explicit consent
-- Never practice on partners with existing knee injuries without medical clearance
-- Always ensure partner can tap with both hands before fully committing
-- Avoid training kneebarring techniques when fatigued or with impaired judgment
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

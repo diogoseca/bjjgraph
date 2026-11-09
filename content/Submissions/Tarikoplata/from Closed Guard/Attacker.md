@@ -302,7 +302,7 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Tarikoplata/from Closed Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Tarikoplata/from Closed Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

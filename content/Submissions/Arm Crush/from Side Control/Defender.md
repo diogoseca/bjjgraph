@@ -192,7 +192,7 @@ Defending the Arm Crush requires early recognition and immediate action because 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Arm Crush/from Side Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Arm Crush/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

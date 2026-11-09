@@ -278,7 +278,7 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Armbar/from Crucifix#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Armbar/from Crucifix#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

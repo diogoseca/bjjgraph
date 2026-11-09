@@ -296,7 +296,7 @@ Defensive hierarchy follows a strict sequence: prevent arm isolation first, disr
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Armbar/from Mount#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Armbar/from Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -276,7 +276,7 @@ An early escape must interrupt the supporting hand before the high elbow seals t
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/High Elbow Guillotine/from Hindulotine#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/High Elbow Guillotine/from Hindulotine#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -168,7 +168,7 @@ Strategically, this submission serves as a high-percentage finishing option that
 - Recognize the transition window between the opponent's inversion attempt and their escape completion as the optimal attack timing
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ Strategically, this submission serves as a high-percentage finishing option that
 - Your hip mobility is restricted by the opponent's leg entanglement despite having inverted, and you cannot straighten your trapped leg freely
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -301,9 +301,8 @@ Strategically, this submission serves as a high-percentage finishing option that
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -313,32 +312,9 @@ Strategically, this submission serves as a high-percentage finishing option that
 | Popliteal artery damage (rare but catastrophic) | CRITICAL | Medical emergency requiring immediate surgical intervention |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds in training, stop at first sign of resistance
-
-**Tap Signals**:
-- Verbal tap ("TAP" or any vocalization)
-- Physical hand tap on partner or mat
-- Physical foot tap on mat or partner
-- Any distress signal including arm waving
-- Slapping the mat repeatedly
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant partner taps
-2. Release heel control by opening hands completely
-3. Release leg entanglement by straightening both legs and moving hips away
-4. Do not apply any additional pressure during release sequence
-5. Check with partner verbally before continuing training
-
-
-**Training Restrictions**:
-- Never apply explosive or sudden rotational force in training
-- Never train this submission without instructor supervision initially
-- Never use competition speed finishing mechanics in training
-- Never practice on partners with existing knee injuries without clearance
-- Always maintain communication throughout drilling
-- Absolutely forbidden for beginners without extensive positional training first
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

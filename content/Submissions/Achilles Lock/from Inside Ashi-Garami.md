@@ -189,7 +189,7 @@ The Achilles Lock is legal at every IBJJF belt level in both gi and no-gi, which
 - Ramp slowly on every repetition; the tendon fails faster than a partner can tap
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -259,7 +259,7 @@ The Achilles Lock is legal at every IBJJF belt level in both gi and no-gi, which
 - Their shoulders begin travelling back over their hips — the extension is starting and the window is closing
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -325,9 +325,8 @@ The Achilles Lock is legal at every IBJJF belt level in both gi and no-gi, which
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -337,28 +336,9 @@ The Achilles Lock is legal at every IBJJF belt level in both gi and no-gi, which
 | Plantar fascia strain | Low | 1-3 weeks with rest |
 
 
-**Application Speed**: SLOW and progressive — a minimum of 3-5 seconds from first pressure to full extension. The Achilles tendon gives very little warning before it fails, so the tap window is short and the ramp must be long. Never spike, jerk, or arch explosively.
-
-**Tap Signals**:
-- Verbal tap — the word 'tap' or any distress vocalisation
-- Physical hand tap on the partner, the mat, or their own body
-- Foot tap with the free leg, which is often the only limb they can reach with
-- Sudden total loss of resistance or going limp, which must be treated as a tap
 
 
-**Release Protocol**:
-1. Release the hip extension FIRST — the compression comes off before the grip does
-2. Open the figure four or the grip and let the ankle return to neutral without pulling on it
-3. Open the knees and free the trapped leg completely before disengaging your own hips
-4. Check in verbally with your partner and watch them bear weight on the leg before the next round
-
-
-**Training Restrictions**:
-- Drill the blade placement and the finishing angle statically before any live application
-- No explosive or 'catch' applications in live rolling — the tendon fails faster than a partner can tap
-- Beginners should establish the position and stop there, applying the finish only under direct supervision
-- Do not combine the finish with a simultaneous sweep or scramble; a moving opponent cannot tap reliably
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

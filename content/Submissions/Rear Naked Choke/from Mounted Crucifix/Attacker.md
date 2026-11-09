@@ -318,7 +318,7 @@ Attacking the rear naked choke from mounted crucifix combines the positional dom
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Mounted Crucifix#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Mounted Crucifix#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

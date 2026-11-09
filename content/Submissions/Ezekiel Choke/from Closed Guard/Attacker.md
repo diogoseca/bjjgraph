@@ -299,7 +299,7 @@ Attacking with the Ezekiel Choke from inside closed guard requires precise timin
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Ezekiel Choke/from Closed Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Ezekiel Choke/from Closed Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

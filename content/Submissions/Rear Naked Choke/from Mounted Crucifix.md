@@ -224,7 +224,7 @@ Strategically, this submission serves as the primary finishing threat from mount
 - Squeeze with your entire upper body contracting toward center, not just arm strength
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -300,7 +300,7 @@ Strategically, this submission serves as the primary finishing threat from mount
 - Opponent's knee pressure on your trapped arm intensifies as they secure the leg trap before committing hands to choke
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -361,9 +361,8 @@ Strategically, this submission serves as the primary finishing threat from mount
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -373,33 +372,9 @@ Strategically, this submission serves as the primary finishing threat from mount
 | Carotid artery dissection from excessive or sudden force | CRITICAL | Immediate medical attention required, weeks to months |
 
 
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds to full pressure in training. Build compression gradually so partner can recognize and tap before consciousness is affected. Never snap or jerk the choking arm into position.
-
-**Tap Signals**:
-- Verbal tap - saying 'tap' or any verbal sound indicating submission
-- Physical hand tap on opponent's body, arm, or mat
-- Physical foot tap on mat when hands are unavailable
-- Going limp or loss of consciousness - treat as immediate tap
-- Any distress signal, gurgling, or unusual sound
 
 
-**Release Protocol**:
-1. Release choking arm immediately upon any tap signal
-2. Remove all body weight and hooks from opponent
-3. Guide partner gently to side-lying recovery position
-4. Monitor consciousness and breathing for at least 30 seconds
-5. If partner lost consciousness, elevate legs and keep lying down until fully alert
-6. Never allow a recently choked partner to stand immediately
-
-
-**Training Restrictions**:
-- Apply choke progressively - never use competition speed in drilling
-- Ensure choking arm targets the neck sides, never compress the trachea directly
-- Always verify partner has clear tap access with at least one limb
-- Stop immediately if partner makes any distress sound or goes limp
-- Never hold a choke past the tap under any circumstances
-- Beginners should drill grip placement and positioning without applying pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

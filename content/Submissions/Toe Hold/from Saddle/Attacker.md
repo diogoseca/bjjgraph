@@ -281,7 +281,7 @@ Attacking with the toe hold from saddle requires understanding its role as a sec
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Toe Hold/from Saddle#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Toe Hold/from Saddle#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

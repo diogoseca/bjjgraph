@@ -284,7 +284,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Kimura/from Standing#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Standing#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

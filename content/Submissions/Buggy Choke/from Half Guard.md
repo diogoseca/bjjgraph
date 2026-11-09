@@ -166,7 +166,7 @@ Modern no-gi competition transformed bottom half guard from a survival position 
 - Squeeze with your entire core and back muscles, not just arm strength
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -238,7 +238,7 @@ Modern no-gi competition transformed bottom half guard from a survival position 
 - Opponent secures a grip on their own leg or establishes a gable grip around your head and shoulder area
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -312,9 +312,8 @@ Modern no-gi competition transformed bottom half guard from a survival position 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -324,32 +323,9 @@ Modern no-gi competition transformed bottom half guard from a survival position 
 | Jaw dislocation from improper chin positioning | High | 4-8 weeks with medical intervention |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to full pressure, allow partner to feel compression building
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal distress)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat or opponent
-- Any hand slapping motion
-- Loss of resistance or going limp
 
 
-**Release Protocol**:
-1. Immediately release head pressure and remove choking arm
-2. Release leg entanglement and create space
-3. Move completely away from opponent's neck area
-4. Check partner's consciousness and breathing
-5. If partner lost consciousness, place in recovery position and alert instructor immediately
-
-
-**Training Restrictions**:
-- Never apply full pressure during initial drilling phases
-- Never hold the choke past the tap signal
-- Never use competition speed in training until advanced proficiency
-- Always ensure partner has clear tap access with at least one free hand
-- Never practice on beginners until they understand proper defense and tap protocol
-- Avoid finishing on partners with neck or spine injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

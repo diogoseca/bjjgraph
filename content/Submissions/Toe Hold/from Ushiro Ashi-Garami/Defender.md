@@ -198,7 +198,7 @@ Defending the toe hold from ushiro ashi-garami presents unique challenges becaus
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Toe Hold/from Ushiro Ashi-Garami#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Toe Hold/from Ushiro Ashi-Garami#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

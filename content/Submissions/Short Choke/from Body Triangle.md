@@ -168,7 +168,7 @@ What distinguishes this variant from other short choke entries is the stability 
 - Be patient with the lapel feed rather than forcing it—rushed attempts telegraph your intention and give the defender time to tuck their chin
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -238,7 +238,7 @@ What distinguishes this variant from other short choke entries is the stability 
 - Pressure shifts from general back control to targeted collar manipulation—the opponent's grip changes from controlling your torso to working your gi fabric
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -296,9 +296,8 @@ What distinguishes this variant from other short choke entries is the stability 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -307,30 +306,9 @@ What distinguishes this variant from other short choke entries is the stability 
 | Neck strain from rotational pressure combined with body triangle immobilization | Low | 2-5 days with rest |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. The body triangle already restricts breathing, so the choke compounds pressure rapidly. Apply lapel tension gradually and monitor partner closely.
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress signal including body going limp
 
 
-**Release Protocol**:
-1. Immediately release lapel grip and remove all pressure from neck upon any tap signal
-2. Unlock body triangle and remove leg pressure from torso to restore breathing capacity
-3. Check partner's consciousness and breathing status before moving
-4. If partner is unconscious, place in recovery position, elevate legs, and monitor airway
-5. Never reapply the choke in the same training session if unconsciousness occurred
-
-
-**Training Restrictions**:
-- Never apply sudden jerking motions with the lapel across the neck
-- Never continue pressure after any tap signal—the dual pressure from body triangle and choke can cause rapid unconsciousness
-- Never practice on partners with neck injuries, cardiovascular conditions, or carotid artery issues
-- Always ensure partner can signal a tap with at least one hand or verbally
-- Never use competition speed during initial learning phases
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

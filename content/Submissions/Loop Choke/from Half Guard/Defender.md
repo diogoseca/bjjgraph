@@ -240,7 +240,7 @@ Once the collar is threaded under the chin and the attacker begins sprawling, th
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Loop Choke/from Half Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Loop Choke/from Half Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

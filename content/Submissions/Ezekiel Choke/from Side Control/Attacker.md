@@ -269,7 +269,7 @@ Attacking with the Ezekiel Choke from side control exploits the perpendicular bo
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Ezekiel Choke/from Side Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Ezekiel Choke/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -260,7 +260,7 @@ The most critical defensive principle is urgency during the transition combined 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Armbar/from Back with Legs#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Armbar/from Back with Legs#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

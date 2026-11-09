@@ -232,7 +232,7 @@ Defending the kneebar from half guard requires early recognition and decisive ac
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Kneebar/from Half Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Kneebar/from Half Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

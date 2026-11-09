@@ -288,7 +288,7 @@ Executing the Electric Chair requires precise coordination of three control syst
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Electric Chair/from Electric Chair#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Electric Chair/from Electric Chair#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

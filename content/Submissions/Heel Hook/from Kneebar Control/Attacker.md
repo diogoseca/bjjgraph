@@ -299,7 +299,7 @@ Attacking the heel hook from kneebar control requires reading your opponent's de
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Heel Hook/from Kneebar Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Heel Hook/from Kneebar Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

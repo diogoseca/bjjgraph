@@ -188,7 +188,7 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 - Keep the opponent's elbow close to their body and in front of their shoulder line for maximum control
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 - Opponent begins walking their grip toward your head, repositioning your elbow in line with your shoulder to create the 90-degree angle
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -339,9 +339,8 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -352,35 +351,9 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 | Shoulder capsule strain | Medium | 4-8 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to maximum safe training pressure. NEVER apply sudden force.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal indication)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any distress signal including unusual sounds or movements
-- Screaming or yelling
-- Rapid head shaking
 
 
-**Release Protocol**:
-1. Immediately release the wrist control and stop rotating the arm
-2. Release pressure on the shoulder by lowering the forearm
-3. Move the arm back to neutral position slowly
-4. Completely release all grips on the arm
-5. Move weight off opponent's torso to allow breathing
-6. Ask partner if they are okay before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed in training - always give partner time to tap
-- Always allow tap access - never pin both arms simultaneously
-- Stop immediately upon any tap signal
-- Never practice on injured shoulders or with partners who have shoulder injuries
-- Avoid practicing at full intensity with significant size/strength mismatches
-- Never combine with strikes or use explosive entries in training
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

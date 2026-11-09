@@ -277,7 +277,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Triangle Choke/from De La Riva#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Triangle Choke/from De La Riva#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

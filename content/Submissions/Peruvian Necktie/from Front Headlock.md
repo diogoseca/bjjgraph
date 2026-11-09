@@ -168,7 +168,7 @@ Strategically, the Peruvian Necktie works best as part of a comprehensive front 
 - Maintain gable grip tightness throughout the finish — any slack in the grip allows blood flow and gives the opponent recovery time
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ Strategically, the Peruvian Necktie works best as part of a comprehensive front 
 - The attacker's chest pressure shifts from directly on top of your back to slightly off-center toward the choking arm side as they prepare the sit-through
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -303,9 +303,8 @@ Strategically, the Peruvian Necktie works best as part of a comprehensive front 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -315,34 +314,9 @@ Strategically, the Peruvian Necktie works best as part of a comprehensive front 
 | Shoulder joint stress from arm being trapped | Medium | 1-3 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, NEVER snap or jerk
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any loss of resistance or going limp
-- Any distress signal or irregular breathing
 
 
-**Release Protocol**:
-1. Immediately release choking arm and remove pressure
-2. Unwrap leg from opponent's neck slowly
-3. Allow opponent to straighten their neck naturally
-4. Monitor partner for consciousness and breathing
-5. Check for neck mobility before continuing training
-6. If partner lost consciousness, call for medical assistance and monitor airway
-
-
-**Training Restrictions**:
-- Never apply competition speed or intensity in training
-- Never spike or jerk the submission
-- Always communicate before drilling this choke
-- Beginners must drill under supervision only
-- Never practice on partners with neck injuries
-- Always ensure training partner can tap with free hand
-- Stop immediately if partner shows any sign of distress beyond normal discomfort
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

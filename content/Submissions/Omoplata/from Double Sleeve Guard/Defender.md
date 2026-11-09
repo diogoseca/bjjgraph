@@ -273,7 +273,7 @@ Defending the omoplata from double sleeve guard requires recognizing the attack 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Omoplata/from Double Sleeve Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Omoplata/from Double Sleeve Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

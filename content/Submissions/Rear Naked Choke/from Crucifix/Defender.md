@@ -189,7 +189,7 @@ Defending the Rear Naked Choke from Crucifix demands immediate action within an 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Rear Naked Choke/from Crucifix#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Rear Naked Choke/from Crucifix#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -263,7 +263,7 @@ Attacking with the guillotine from Twister Control requires reading the opponent
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Guillotine Choke/from Twister Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Guillotine Choke/from Twister Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

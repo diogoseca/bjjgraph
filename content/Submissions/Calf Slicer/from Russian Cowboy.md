@@ -186,7 +186,7 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 - Time the slicer entry when the opponent is focused on defending upper body attacks rather than monitoring the leg hook position
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 - The attacker's chest pressure shifts downward toward your hips as they reposition to capture your foot
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -316,9 +316,8 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -328,32 +327,9 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 | Deep tissue bruising and risk of compartment syndrome | Medium | 2-4 weeks, rare cases require emergency fasciotomy |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum to full pressure in training. Never spike, jerk, or bounce the compression. Gradual hip extension only.
-
-**Tap Signals**:
-- Verbal tap strongly encouraged due to leg entanglement limiting hand mobility
-- Physical hand tap on partner, their leg, or the mat
-- Foot tap on mat if hands are trapped or occupied
-- Any distress vocalization treated as immediate tap
-- Slapping the mat repeatedly with free hand
 
 
-**Release Protocol**:
-1. Immediately release foot grip and stop hip extension upon any tap signal
-2. Remove shin pressure from behind the knee slowly and in a controlled manner
-3. Unwrap legs carefully without jerking or twisting movements
-4. Allow partner to fully extend their leg naturally before disengaging upper body control
-5. Check partner's calf mobility and sensation before resuming training
-
-
-**Training Restrictions**:
-- Apply at no more than 50% speed in training, never at competition intensity
-- Never spike, bounce, or jerk the compression under any circumstances
-- Never hold after tap to consolidate position or practice control
-- Always ensure partner has clear tap access with at least one hand or verbal ability
-- Prohibited for colored belts below brown belt in IBJJF and most rule sets
-- Never practice on partners with previous calf or knee injuries without explicit discussion and consent
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

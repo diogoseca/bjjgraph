@@ -857,6 +857,22 @@ export class Journey {
     await this.clickByMouse(".ngAcctChip", what);
   }
 
+  /** U104 (v1.252.0): at 1440x900 an opened question can end below the reader's scrollport, so its last answer needs a scroll
+   *  (U90's ruling: "half of all cards need a scroll for their last answer"). A journey that presses a drawn answer brings it up
+   *  the way a player does, a wheel over the question, which is game input and never reading intent, then presses it by mouse. */
+  async pressAnswer(selector: string, what?: string) {
+    const below = await this.page.evaluate(sel => {
+      const root = (window as W).__neural._reader?.root as HTMLElement | undefined
+      if (!root) return 0
+      return Math.ceil(document.querySelector(sel)!.getBoundingClientRect().bottom - Math.min(root.getBoundingClientRect().bottom, innerHeight) + 8)
+    }, selector)
+    if (below > 0) {
+      const at = await this.page.evaluate(() => { const b = (window as W).__neural._landEl.getBoundingClientRect(); return [b.left + b.width / 2, b.top + 20] })
+      await this.page.mouse.move(at[0], at[1]); await this.page.mouse.wheel(0, below); await this.readerLayoutSettled()
+    }
+    return this.clickByMouse(selector, what)
+  }
+
   async clickByMouse(selector: string, what?: string) {
     const label = what || selector;
     const hit = await this.page.evaluate((sel) => {

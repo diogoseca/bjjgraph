@@ -281,7 +281,7 @@ Attacking with the Kimura from S Mount leverages the perpendicular body angle an
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Kimura/from S Mount#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from S Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

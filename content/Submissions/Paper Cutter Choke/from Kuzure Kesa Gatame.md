@@ -224,7 +224,7 @@ Strategically, this choke pairs exceptionally well with the americana and armbar
 - Progressive tightening allows your partner time to tap safely in training
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -300,7 +300,7 @@ Strategically, this choke pairs exceptionally well with the americana and armbar
 - You feel the bony edge of the opponent's forearm beginning to rotate and press against the front of your throat
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -343,9 +343,8 @@ Strategically, this choke pairs exceptionally well with the americana and armbar
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -354,33 +353,9 @@ Strategically, this choke pairs exceptionally well with the americana and armbar
 | Neck strain or cervical spine stress from head rotation | Medium | 1-3 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal distress)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any distress signal or unusual sound
-- Loss of defensive hand fighting (possible unconsciousness)
 
 
-**Release Protocol**:
-1. Immediately release the choking collar grip completely
-2. Remove your forearm from across the neck
-3. Allow opponent's head to return to neutral position
-4. Check partner's responsiveness verbally
-5. If unconscious, position partner on their side in recovery position and monitor breathing
-6. Never shake or move an unconscious partner roughly
-
-
-**Training Restrictions**:
-- Never apply this choke at competition speed in training
-- Never jerk or spike the submission with sudden force
-- Always ensure partner has both hands free to tap
-- Do not practice on beginners who do not understand blood chokes
-- Never continue applying pressure after feeling partner go limp
-- Avoid practicing when partner has neck or throat injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

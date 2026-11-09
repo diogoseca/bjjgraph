@@ -4897,7 +4897,8 @@ class Component extends DCLogic {
    * The signed_in boolean records only whether this.user exists at Send, never its id or email.
    * `e2e/journeys/feedback-modal.spec.ts` pins the copy, the column and every control by mouse.
    */
-  openFeedback() {
+  // U109 b: `video` is the node a no-video card asks about. The form is the same, its context is that node, and the report says so.
+  openFeedback(video) {
     const card = this.modalCardRef.current; if (!card) return;
     card.style.width = "min(440px,92vw)";
     card.innerHTML = "";
@@ -4912,7 +4913,7 @@ class Component extends DCLogic {
     ta.setAttribute("data-feedback-text", "1");
     ta.setAttribute("aria-label", "Feedback");
     ta.maxLength = 500;
-    ta.placeholder = "What’s wrong, missing or confusing? Where were you when you noticed?";
+    ta.placeholder = video ? "Paste the video's link, and the second the move starts if you know it." : "What’s wrong, missing or confusing? Where were you when you noticed?";
     ta.style.cssText = "width:100%;min-height:110px;resize:vertical;font-family:inherit;font-size:14px;line-height:1.5;color:#eef1f6;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.25);border-radius:11px;padding:12px 14px;box-sizing:border-box;outline:none;";
     body.appendChild(ta);
     const tech = document.createElement("label");
@@ -4920,7 +4921,7 @@ class Component extends DCLogic {
     tech.innerHTML = '<input type="checkbox" data-feedback-technique="1" style="accent-color:#4a6cff;margin:0;flex:none;"> Technique request';
     body.appendChild(tech);
     // context rides along unless removed — names the state the report is about
-    const node = this.nodes && this.nodes[this.currentPos];
+    const node = video || this.nodes && this.nodes[this.currentPos];
     let ctxOn = !!node;
     if (node) {
       const ctx = document.createElement("label");
@@ -4948,6 +4949,7 @@ class Component extends DCLogic {
         node: ctxOn && node ? node.id : null,
         signed_in: !!this.user,
         app_version: (typeof NG_APP_VERSION !== "undefined" ? NG_APP_VERSION : null),
+        ...(video && { kind: "video" }),
       });
       this.closeModal();
       this.setEvent("Sent \u2014 thank you", isTech ? "We read every request" : "Reports like this decide what gets fixed next", "good");
@@ -12715,7 +12717,9 @@ class Component extends DCLogic {
     if (op) {
       // Owner (2026-11-01): beside the article the row and the grid share both edges, so the first card sits on the
       // grid's left edge and the reader lifts the inset (`trayFlush`, reader.src.js).
-      const inset = this._reader?.trayFlush ? 0 : NG_TRAY_INSET;
+      const flush = !!this._reader?.trayFlush, inset = flush ? 0 : NG_TRAY_INSET;
+      // U110 a: from 600 to 640px a flush row is still a phone's, and the phone stylesheet's 12px sides would move it off the column.
+      op.toggleAttribute("data-flush", flush);
       op.style.paddingLeft = (inset + this._paneLayout().left).toFixed(1) + "px";
       op.style.paddingRight = inset + "px";
       this._syncEdgeFade(op);
@@ -15647,17 +15651,27 @@ class Component extends DCLogic {
     const perspBlk = perspSide && info && info.perspectives ? info.perspectives[perspSide] : null;
     // D-297a applies to the film too: missing/empty defender clips never inherit
     // the attacker's top-level reel, and an unauthored half shows no placeholder.
-    if (perspSide === "defender") return perspBlk && perspBlk.authored && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null;
-    return (info && info.clips && info.clips.length ? info.clips : null) || (perspBlk && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null);
+    // U104 (owner, 2026-11-06, reversing D-297a's "no placeholder"): "When it's not available, it should say it's not available."
+    // An empty reel, once the dossier has answered; null while it has not, so a film still loading never reads as missing.
+    if (perspSide === "defender") return perspBlk && perspBlk.authored && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : info ? [] : null;
+    return (info && info.clips && info.clips.length ? info.clips : null) || (perspBlk && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null) || (info ? [] : null);
   }
   // The media owner supplies width and spacing; Sections measures its natural height.
   // Below 1152px of free pane, the film fills the 680px reading column (16px phone
   // gutters). Above it, 400px leaves room for the deck, arrows and Contents lane.
-  filmLayout(width, height, paired, card, row) {
+  filmLayout(width, height, paired, card, row, column) {
     const wide = width >= 1152, ask = row && card?.hasAttribute("data-land-ask");
     const css = ask && getComputedStyle(card);
     const gap = ask && parseFloat(css.getPropertyValue("--section-gap"));
     const hint = ask && width >= 1024 && this._handShown() && this._reader?.on("book");
+    // U104: in columns an asking card is the column's width, and its height feeds the Moves band and the article's columns. The line
+    // is fitted to one line by its ResizeObserver, a frame after its width changes, so a pane slide read a wrapped line, 17px taller:
+    // the columns flipped between passes and the reader's line jumped 11.8px on Mount Bottom at 1440. Size and fit it here first.
+    if (ask && column) {
+      if (card.style.width !== column + "px") card.style.setProperty("width", column + "px", "important");
+      const qt = card.querySelector("[data-land-ask-text]").parentNode;
+      if (qt.clientWidth !== qt._fitW) this._fitAskLine(qt, qt._fitW = qt.clientWidth);
+    }
     // VIDEO3: the hint occupies the choices row's bottom band. The existing askStep
     // then places its text one token below the cards, inside that band, without a
     // separate stage row. Restore the original inline padding on reveal/hide/resize;
@@ -15666,7 +15680,7 @@ class Component extends DCLogic {
       row._askPadding ??= row.style.paddingBottom;
       row.style.paddingBottom = hint ? card.getBoundingClientRect().height + gap + "px" : row._askPadding;
     }
-    return [paired && wide && !hint && height > 500, Math.min(wide ? 400 : 680, width - 32),
+    return [paired && (column || wide && !hint) && height > 500, column || Math.min(wide ? 400 : 680, width - 32),
       ask && (!wide || hint) ? gap - parseFloat(getComputedStyle(row).paddingBottom)
         - (card.querySelector("[data-land-ask-text]").getBoundingClientRect().top - card.getBoundingClientRect().top) : null];
   }
@@ -15689,7 +15703,7 @@ class Component extends DCLogic {
   // A reference supplies a canonical path instead of borrowing a game seat.
   // Playback, teardown and the one-host lifetime stay with this media owner.
   _renderLandFilm(filmClips, referencePath) {
-    if (!filmClips || !filmClips.length) return null;
+    if (!filmClips) return null;
     const current = this._landFilmEl, idx = referencePath ? -1 : this._landIdx, node = this.nodes[idx];
     const role = node ? this._landPerspSide(node) || this.playerRole : null;
     if (current?.isConnected && current._ngMediaIdx === idx && current._ngMediaRole === role && current.dataset.referenceFilm === referencePath) return current;
@@ -15706,9 +15720,11 @@ class Component extends DCLogic {
     film._ngVideoNode = shown;
     const seat = referencePath ? null : shown?.ty === "positions" ? this.playedRole(shown) : this._landPerspSide(shown) || "attacker";
     film.innerHTML = (referencePath ? "" : '<header class="ng-current-title">' + this.choiceShape(shown) + '<span>' + this.choiceEscape(shown ? this.graphName(shown) : "Current move") + '</span></header>')
-      + this.filmStudyHTML(filmClips, true)
+      // U109 b (owner, 2026-11-09): the full-size card, and "ask the user to add it if he wants, like using the same feedback form".
+      + (this.filmStudyHTML(filmClips, true) || '<div class="ng-choice-media ng-film-none" data-choice-media><b>No video of this move yet</b><span>We only show a video that teaches exactly this move. Know one?</span><button data-film-suggest>Suggest a video</button></div>')
       + (seat ? '<footer><span>' + this.choiceEscape(seat[0].toUpperCase() + seat.slice(1)) + '</span><span class="ng-current-stat"><span>Win %</span><strong data-current-film-win>—</strong></span></footer>' : "");
     film.toggleAttribute("data-single-video", filmClips.length === 1);
+    film.querySelector("[data-film-suggest]")?.addEventListener("click", (e) => { e.stopPropagation(); this.openFeedback(shown); });
     // ARROWS (v1.217.0, owner 2026-10-02): the deck's chevrons, one at each end of the row, shown only
     // toward hidden clips (`_syncFilmEdges`), so the left one is hidden at the start. Appended before
     // the ✕, which therefore paints over an arrow wherever the two could ever touch.
@@ -15727,18 +15743,21 @@ class Component extends DCLogic {
         e.stopPropagation(); e.preventDefault(); this._filmPage(e.key === "ArrowRight" ? 1 : -1);
       });
     }
-    const xb = document.createElement("button");
-    xb.type = "button";
-    xb.setAttribute("data-film-close", "1");
-    xb.setAttribute("aria-label", "Hide the videos");
-    xb.title = "Hide the videos";
-    xb.textContent = "✕";
-    // `left`/`top` are a first-frame guess — _dockLandFilm docks it beside the LAST thumbnail
-    xb.style.cssText = NG_GHOST_BTN_CSS + "position:absolute;top:4px;right:4px;z-index:2;background:rgba(19,22,37,.72);";
-    xb.addEventListener("mouseenter", () => { xb.style.color = "#dbe2f0"; xb.style.background = "rgba(40,46,66,.92)"; });
-    xb.addEventListener("mouseleave", () => { xb.style.color = "#8b97b0"; xb.style.background = "rgba(19,22,37,.72)"; });
-    xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("film", false, "x"); });
-    film.appendChild(xb);
+    // U104: a card with no video has nothing to dismiss, and a page with no film has no Videos row to bring it back from.
+    if (filmClips.length) {
+      const xb = document.createElement("button");
+      xb.type = "button";
+      xb.setAttribute("data-film-close", "1");
+      xb.setAttribute("aria-label", "Hide the videos");
+      xb.title = "Hide the videos";
+      xb.textContent = "✕";
+      // `left`/`top` are a first-frame guess — _dockLandFilm docks it beside the LAST thumbnail
+      xb.style.cssText = NG_GHOST_BTN_CSS + "position:absolute;top:4px;right:4px;z-index:2;background:rgba(19,22,37,.72);";
+      xb.addEventListener("mouseenter", () => { xb.style.color = "#dbe2f0"; xb.style.background = "rgba(40,46,66,.92)"; });
+      xb.addEventListener("mouseleave", () => { xb.style.color = "#8b97b0"; xb.style.background = "rgba(19,22,37,.72)"; });
+      xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("film", false, "x"); });
+      film.appendChild(xb);
+    }
     this.wrapRef.current.appendChild(film);
     this._landFilmEl = film;
     film._ngMediaIdx = idx; film._ngMediaRole = role;

@@ -230,7 +230,7 @@ Defending the belly down armbar from Mission Control requires recognizing the tr
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Belly Down Armbar/from Mission Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Belly Down Armbar/from Mission Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

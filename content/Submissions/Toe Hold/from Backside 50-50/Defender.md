@@ -237,7 +237,7 @@ Defending the toe hold from Backside 50-50 requires early recognition and immedi
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Toe Hold/from Backside 50-50#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Toe Hold/from Backside 50-50#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

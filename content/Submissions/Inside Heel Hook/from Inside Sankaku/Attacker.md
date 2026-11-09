@@ -264,7 +264,7 @@ Attacking the heel hook from Inside Sankaku requires methodical control establis
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Inside Heel Hook/from Inside Sankaku#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Inside Heel Hook/from Inside Sankaku#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -293,7 +293,7 @@ As the attacker you are on the bottom, often already flattened, and your goal is
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Buggy Choke#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Buggy Choke#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

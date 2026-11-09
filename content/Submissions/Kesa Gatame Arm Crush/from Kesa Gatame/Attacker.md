@@ -224,7 +224,7 @@ Executing the Kesa Gatame Arm Crush requires precise arm isolation and hip posit
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

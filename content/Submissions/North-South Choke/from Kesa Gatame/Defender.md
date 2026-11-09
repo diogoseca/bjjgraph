@@ -257,7 +257,7 @@ The defender must prioritize keeping their chin tucked to limit arm threading de
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/North-South Choke/from Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/North-South Choke/from Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -269,7 +269,7 @@ The Americana from 3-4 Mount attacks the shoulder through forced external rotati
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Americana/from 3-4 Mount#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Americana/from 3-4 Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

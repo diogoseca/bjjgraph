@@ -263,7 +263,7 @@ Attacking with the outside heel hook from the Saddle requires mastering the grip
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Outside Heel Hook/from Saddle#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Outside Heel Hook/from Saddle#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

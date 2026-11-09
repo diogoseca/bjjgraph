@@ -166,7 +166,7 @@ Prized by pressure passers for letting them strangle an opponent with their own 
 - Timing the finish with opponent's defensive movements increases effectiveness
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ Prized by pressure passers for letting them strangle an opponent with their own 
 - You feel crossing pressure on both sides of your neck simultaneously, with the collar tightening around your carotid arteries rather than across your throat
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -313,9 +313,8 @@ Prized by pressure passers for letting them strangle an opponent with their own 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -324,29 +323,9 @@ Prized by pressure passers for letting them strangle an opponent with their own 
 | Neck strain from defensive bridging against choke | Low | 1-3 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial tightness to full pressure
-
-**Tap Signals**:
-- Verbal tap or verbal statement of submission
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any distress signal including unusual sounds or loss of resistance
 
 
-**Release Protocol**:
-1. Immediately release both collar grips completely
-2. Remove all chest pressure and sit back to neutral mount
-3. Check partner's alertness and awareness before continuing
-4. Allow minimum 60 seconds recovery time before resuming training
-
-
-**Training Restrictions**:
-- Never apply sudden jerking or yanking motions with collar grips
-- Never use competition speed in training - always give partner time to recognize and tap
-- Never continue pressure after tap is felt or heard
-- Always ensure training partner can freely tap with at least one hand
-- Never practice on partners who are visibly fatigued or disoriented
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

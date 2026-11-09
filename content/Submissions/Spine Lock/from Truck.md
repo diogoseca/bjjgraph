@@ -129,7 +129,7 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 - Position over submission - never sacrifice control for finishing pressure
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -201,7 +201,7 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 - Sensation of your spine being forced into hyperextension or increased curvature in the lower back region, accompanied by restricted ability to breathe deeply
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -274,9 +274,8 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -286,33 +285,9 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 | Muscle tears in erector spinae group | Medium | 4-8 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum with constant communication
-
-**Tap Signals**:
-- Verbal tap (primary - opponent may have limited hand mobility)
-- Repeated foot tapping
-- Hand tap on own body or mat
-- Any vocalization of distress
-- Immediate cessation if opponent stops moving
 
 
-**Release Protocol**:
-1. Immediately reduce hip pressure and stop driving forward
-2. Release rotational control by unwinding opponent's body
-3. Remove leg control and allow opponent to return to neutral position
-4. Check opponent's mobility and pain level before continuing training
-5. Never release explosively - maintain control throughout unwinding process
-
-
-**Training Restrictions**:
-- NEVER apply full pressure in training - use 20-30% maximum pressure
-- Never spike or jerk the submission - all pressure must be gradual
-- Never practice on opponents with pre-existing back injuries without medical clearance
-- Always maintain verbal communication throughout application
-- Prohibited for white belts - minimum blue belt requirement with direct supervision
-- Never combine with sudden twisting movements
-- Always allow opponent access to tap signals
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

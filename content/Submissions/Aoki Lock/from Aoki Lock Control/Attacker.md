@@ -303,7 +303,7 @@ Treat a switch to another leg lock as a new submission entry: release the Aoki r
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Aoki Lock/from Aoki Lock Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Aoki Lock/from Aoki Lock Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

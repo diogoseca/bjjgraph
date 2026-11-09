@@ -265,7 +265,7 @@ The Loop Choke from Side Control leverages the perpendicular body alignment to c
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Loop Choke/from Side Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Loop Choke/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -257,7 +257,7 @@ Executing the short choke from body triangle requires patient lapel manipulation
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Short Choke/from Body Triangle#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Short Choke/from Body Triangle#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

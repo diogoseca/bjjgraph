@@ -275,7 +275,7 @@ Executing the belly down armbar finish from Spider Guard requires converting you
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Spider Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Spider Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

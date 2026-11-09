@@ -278,7 +278,7 @@ From a strategic perspective, the best defense against the far side armbar is ne
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Far Side Armbar/from Side Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Far Side Armbar/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

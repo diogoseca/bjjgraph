@@ -166,7 +166,7 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 - Secure dominant position control before attempting the submission to prevent counters
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 - Increasing pressure on the back of your elbow from a bony surface (shin bone) combined with wrist manipulation pulling your hand toward the opponent's body
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -315,9 +315,8 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -326,32 +325,9 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 | Radial nerve compression | Medium | 1-3 weeks for temporary nerve irritation |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum with constant communication
-
-**Tap Signals**:
-- Verbal tap or verbal distress signal
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any vocalization of pain or distress
-- Frantic body movement indicating distress
 
 
-**Release Protocol**:
-1. Immediately release all pressure on the bicep/elbow
-2. Remove the shin from behind the opponent's elbow
-3. Release any grip controlling the wrist
-4. Allow the opponent to straighten their arm naturally
-5. Check with partner about their condition before continuing
-
-
-**Training Restrictions**:
-- Never apply sudden or explosive pressure
-- Never use full competition speed in training
-- Always maintain verbal communication during application
-- Never practice on beginners until they understand tap urgency
-- Do not apply this submission if opponent has existing elbow or bicep injuries
-- Always ensure training partner has clear tap access with free hand
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

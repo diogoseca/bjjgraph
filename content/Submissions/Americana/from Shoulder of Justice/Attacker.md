@@ -281,7 +281,7 @@ Attacking the Americana from Shoulder of Justice leverages the immense positiona
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Americana/from Shoulder of Justice#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Americana/from Shoulder of Justice#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

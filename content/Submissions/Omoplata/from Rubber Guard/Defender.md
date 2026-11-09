@@ -228,7 +228,7 @@ Defending the omoplata from Rubber Guard requires early recognition and interven
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Omoplata/from Rubber Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Omoplata/from Rubber Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

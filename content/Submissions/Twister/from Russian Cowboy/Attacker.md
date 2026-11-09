@@ -323,7 +323,7 @@ The submission's danger profile demands extreme caution in training. The spinal 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Twister/from Russian Cowboy#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Twister/from Russian Cowboy#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

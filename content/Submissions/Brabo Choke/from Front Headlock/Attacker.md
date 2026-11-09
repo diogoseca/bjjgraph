@@ -314,7 +314,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Brabo Choke/from Front Headlock#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Brabo Choke/from Front Headlock#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

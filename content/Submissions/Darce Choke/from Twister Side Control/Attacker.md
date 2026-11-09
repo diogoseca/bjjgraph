@@ -257,7 +257,7 @@ Attacking the Darce Choke from Twister Side Control leverages existing positiona
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Darce Choke/from Twister Side Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Darce Choke/from Twister Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

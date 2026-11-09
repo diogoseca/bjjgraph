@@ -311,7 +311,7 @@ Attacking the Kimura from Knee Shield Half Guard requires patience in grip estab
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Kimura/from Knee Shield Half Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Knee Shield Half Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

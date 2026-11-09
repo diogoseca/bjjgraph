@@ -263,7 +263,7 @@ Executing the Americana from Kimura Trap requires reading your opponent's defens
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Americana/from Kimura Trap#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Americana/from Kimura Trap#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

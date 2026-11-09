@@ -304,7 +304,7 @@ The submission's effectiveness comes from the combined pressure of the choking a
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Anaconda Choke/from Anaconda Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Anaconda Choke/from Anaconda Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

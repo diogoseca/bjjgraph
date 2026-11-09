@@ -249,9 +249,8 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -261,30 +260,9 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 | Unconsciousness from blood choke | High | Immediate recovery but requires medical monitoring |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time. Never snap or jerk the submission
-
-**Tap Signals**:
-- Verbal tap or any vocal sound
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any distress signal or loss of resistance
 
 
-**Release Protocol**:
-1. Immediately release choking arm pressure
-2. Remove head from opponent's neck
-3. Help opponent to seated position if unconscious
-4. Monitor breathing and consciousness
-5. Call for medical assistance if partner doesn't immediately recover
-
-
-**Training Restrictions**:
-- Never use competition speed in training
-- Always allow clear tap access for both arms
-- Stop immediately at any sign of distress
-- Avoid cranking or using neck hyperextension
-- Never practice on training partners with neck injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

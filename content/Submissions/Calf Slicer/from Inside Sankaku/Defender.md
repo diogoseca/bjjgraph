@@ -236,7 +236,7 @@ Defending the calf slicer from inside sankaku requires early recognition and imm
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Calf Slicer/from Inside Sankaku#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Calf Slicer/from Inside Sankaku#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

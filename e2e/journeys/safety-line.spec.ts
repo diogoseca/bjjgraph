@@ -3,7 +3,7 @@ import { journey } from '../dsl'
 
 // S1 a (owner, 2026-11-06): "A: the guide last, one line above the steps". On a submission the full
 // Safety Guide is the last teaching section and the one rule sits directly above what it governs. S2 b: the
-// rule is plain text and only "Safety guide ↓" is the link. S3 a: a family page carries no line. The
+// rule is plain text and only its "↓" label is the link; U113 b (2026-11-09) names it "Injury risks ↓", as the section now is. S3 a: a family page carries no line. The
 // measured study is orchestrator reports/safety-placement-ux.md; the wording's line counts are in
 // reports/safety-last.md. Controls and their kills are recorded at the foot of this file.
 // FONT: e2e/dsl.ts stubs Google Fonts, so every journey here lays out in a fallback face. Only the one
@@ -14,9 +14,12 @@ const QUIET = { v: 2, settings: { landCard: false, landHand: false, landFeedback
 const HUB = '/Submissions/Americana/from-Side-Control'
 const ATTACKER = HUB + '/Attacker', DEFENDER = HUB + '/Defender', FAMILY = '/Submissions/Americana'
 // U+00A0 keeps the link's label whole, so a wrap can never leave the arrow alone on a line.
-const LABEL = 'Safety\u00a0guide\u00a0↓'
+const LABEL = 'Injury\u00a0risks\u00a0↓'
 const ATTACKER_LINE = 'Release immediately upon tap. ' + LABEL, DEFENDER_LINE = 'Tap early and often. ' + LABEL
 const BODY = '[data-reader-body]', GUIDE_LINK = BODY + ' blockquote a[data-reader-anchor="safety-considerations"]'
+// U112 a (owner, 2026-11-09): the guide itself now ends in a quoted line, so the rule lines are the quotes OUTSIDE it.
+const GUIDE = '[data-source-id="safety-considerations"]'
+const CLOSING = 'Go slow. Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.'
 
 async function open(page: Page, path: string, width: number, height = 900) {
   await page.setViewportSize({ width, height })
@@ -86,8 +89,9 @@ for (const width of [390, 1440]) {
   test(`@curated neither top notice survives and the seat's line sits on its steps at ${width}`, async ({ page }) => {
     await open(page, ATTACKER, width)
     const seat = () => page.locator(BODY).evaluate(body => {
-      const quotes = [...body.querySelectorAll('blockquote')]
-      return { lines: quotes.map(q => (q.textContent || '').trim()), links: quotes.map(q => q.querySelector('a')?.textContent),
+      const quotes = [...body.querySelectorAll('blockquote')].filter(q => !q.closest('[data-source-id="safety-considerations"]'))
+      return { closing: [...body.querySelectorAll('[data-source-id="safety-considerations"] blockquote')].map(q => (q.textContent || '').replace(/\s+/g, ' ').trim()),
+        lines: quotes.map(q => (q.textContent || '').trim()), links: quotes.map(q => q.querySelector('a')?.textContent),
         next: quotes.map(q => q.nextElementSibling?.getAttribute('data-source-id')),
         sections: quotes.map(q => q.closest('.ng-section-card')?.getAttribute('data-section-type')),
         callouts: body.querySelectorAll('.callout.danger').length, text: (body.textContent || '').replace(/\s+/g, ' ') }
@@ -95,13 +99,14 @@ for (const width of [390, 1440]) {
     const attacker = await seat()
     expect(attacker).toMatchObject({ lines: [ATTACKER_LINE], links: [LABEL], next: ['execution-steps'], sections: ['options'], callouts: 0 })
     expect(attacker.text).not.toMatch(/SAFETY:|Primary risk:|Risk: /)
-    // J6 / S1 item 6: this page's guide no longer contradicts its own "release on any tap".
-    expect(attacker.text).toMatch(/Physical hand tap on opponent or mat/)
-    expect(attacker.text).not.toMatch(/minimum (2|two) taps/i)
+    // J6 / S1 item 6: this page's guide no longer contradicts its own "release on any tap". U112 a: the guide no longer lists
+    // tap signals at all; its one closing line names every tap, and nothing on the page asks for two.
+    expect(attacker.closing, 'U112 a: the guide closes with its one line').toEqual([CLOSING])
+    expect(attacker.text).not.toMatch(/minimum (2|two) (distinct )?taps/i)
 
     await open(page, DEFENDER, width)
     const defender = await seat()
-    expect(defender).toMatchObject({ lines: [DEFENDER_LINE], links: [LABEL], next: ['defensive-options'], sections: ['options'], callouts: 0 })
+    expect(defender).toMatchObject({ lines: [DEFENDER_LINE], links: [LABEL], next: ['defensive-options'], sections: ['options'], callouts: 0, closing: [CLOSING] })
     expect(defender.text).not.toMatch(/SAFETY:|Primary risk:/)
     // The defender's own words, never the attacker's rule.
     expect(defender.lines[0]).not.toMatch(/release/i)
@@ -110,7 +115,7 @@ for (const width of [390, 1440]) {
 
 test('@curated the hub carries each seat\'s line, and a family carries none', async ({ page }) => {
   await open(page, HUB, 1440)
-  const hub = await page.locator(BODY + ' blockquote').evaluateAll(quotes => quotes.map(q => ({
+  const hub = await page.locator(BODY + ' blockquote').evaluateAll(quotes => quotes.filter(q => !q.closest('[data-source-id="safety-considerations"]')).map(q => ({
     text: (q.textContent || '').trim(), next: q.nextElementSibling?.getAttribute('data-source-id'),
     section: q.closest('.ng-section-card')?.getAttribute('data-section-type') })))
   // The old hub notice spoke to both seats, so the hub keeps a line for each. The attacker's shows twice in the
@@ -122,7 +127,9 @@ test('@curated the hub carries each seat\'s line, and a family carries none', as
   ])
   await open(page, FAMILY, 1440)
   await expect(page.locator(BODY + ' .callout.danger')).toHaveCount(0)
-  await expect(page.locator(BODY + ' blockquote')).toHaveCount(0)
+  // U112 a: a family's guide ends in the closing line too; the S3 a rule is about the line above the steps, and it has none.
+  await expect(page.locator(BODY + ' blockquote')).toHaveCount(1)
+  await expect(page.locator(BODY + ' ' + GUIDE + ' blockquote')).toHaveText(CLOSING)
   // S2 b's rule is plain text, so looking for the link alone would pass a family page that grew the rule.
   const family = ((await page.locator(BODY).textContent()) || '').replace(/\s+/g, ' ')
   expect(family.length, 'this read the family article').toBeGreaterThan(1000)

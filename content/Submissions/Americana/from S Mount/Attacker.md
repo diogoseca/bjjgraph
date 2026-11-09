@@ -276,7 +276,7 @@ Executing the Americana from S Mount requires precise figure-four grip mechanics
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Americana/from S Mount#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Americana/from S Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

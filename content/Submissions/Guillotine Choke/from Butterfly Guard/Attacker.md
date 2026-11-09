@@ -257,7 +257,7 @@ Attacking the Guillotine Choke from Butterfly Guard combines the sweeping threat
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Guillotine Choke/from Butterfly Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Guillotine Choke/from Butterfly Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

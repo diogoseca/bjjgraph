@@ -289,7 +289,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Gogoplata/from Gogoplata Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Gogoplata/from Gogoplata Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

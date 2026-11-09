@@ -197,7 +197,7 @@ Defending the Estima Lock from Honey Hole demands awareness of an attack vector 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Estima Lock/from Honey Hole#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Estima Lock/from Honey Hole#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -236,7 +236,7 @@ Defending the Ten Finger Guillotine from Guillotine Control requires early recog
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Ten Finger Guillotine/from Guillotine Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Ten Finger Guillotine/from Guillotine Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

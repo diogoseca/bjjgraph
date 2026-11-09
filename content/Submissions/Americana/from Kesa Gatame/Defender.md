@@ -272,7 +272,7 @@ Defending the Americana from Kesa Gatame requires recognizing the submission thr
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Americana/from Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Americana/from Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

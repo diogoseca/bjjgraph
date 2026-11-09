@@ -62,6 +62,9 @@ const film = (page: Page) => page.evaluate(() => {
   }
   return { x: row.scrollLeft, max: row.scrollWidth - row.clientWidth, scrollbar: row.offsetHeight - row.clientHeight, sbw: cs.scrollbarWidth,
     inset: parseFloat(getComputedStyle(f).paddingLeft), firstGap: Math.min(...clips.map((b) => b.left)) - fr.left, lastGap: fr.right - Math.max(...clips.map((b) => b.right)),
+    // Inside the card's 1px border: the inset is a padding, so it is measured from the padding box (U104's 472px film adds a
+    // fractional scroll width, whose integer scrollLeft lands the last clip 0.09px short; at 400px the border alone was the gap).
+    lastPad: fr.right - parseFloat(getComputedStyle(f).borderRightWidth) - Math.max(...clips.map((b) => b.right)),
     mask, attr: row.getAttribute("data-fade"), lead, trail: tailM ? Number(tailM[1] || 0) : 0,
     prev: arrow("[data-film-prev]"), next: arrow("[data-film-next]") }
 })
@@ -122,7 +125,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
 
       // THE RATIOS, all of the one token on screen (the strip's side padding), never the pixels. At an inset of 0
       // (the current card) a ratio is undefined, so each is stated as the same equality within 1px.
-      expect(Math.abs(end.lastGap - end.inset), `end padding = 1 inset (${end.lastGap} / ${end.inset})`).toBeLessThanOrEqual(1)
+      expect(Math.abs(end.lastPad - end.inset), `end padding = 1 inset (${end.lastPad} / ${end.inset})`).toBeLessThan(1)
       expect(Math.abs(mid.lead - 3 * mid.inset), `fade = 3 insets (${mid.lead} / ${mid.inset})`).toBeLessThanOrEqual(1)
       expect(Math.abs(mid.prev.cx - mid.prev.w / 2), `the left arrow sits on the card's edge (${mid.prev.cx}, ${mid.prev.w})`).toBeLessThanOrEqual(1)
       expect(Math.abs(mid.next.fromRight - mid.next.w / 2), `the right arrow sits on the card's edge (${mid.next.fromRight}, ${mid.next.w})`).toBeLessThanOrEqual(1)

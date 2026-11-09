@@ -296,7 +296,7 @@ The Choke from Crucifix is a devastating finishing technique that capitalizes on
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Choke from Crucifix#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Choke from Crucifix#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

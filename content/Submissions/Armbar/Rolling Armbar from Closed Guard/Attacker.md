@@ -260,7 +260,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Armbar/Rolling Armbar from Closed Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Armbar/Rolling Armbar from Closed Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

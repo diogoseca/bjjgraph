@@ -281,7 +281,7 @@ Attacking with the Ten Finger Guillotine from Guillotine Control requires a syst
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Ten Finger Guillotine/from Guillotine Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Ten Finger Guillotine/from Guillotine Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

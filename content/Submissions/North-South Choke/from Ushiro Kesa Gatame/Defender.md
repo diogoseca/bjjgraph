@@ -245,7 +245,7 @@ Defending the North-South Choke from Ushiro Kesa Gatame Hold requires early reco
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/North-South Choke/from Ushiro Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/North-South Choke/from Ushiro Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -266,7 +266,7 @@ Defending the omoplata from armbar control demands early recognition that the at
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Omoplata/from Armbar Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Omoplata/from Armbar Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -263,7 +263,7 @@ Finishing the arm triangle from side control demands precise weight distribution
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Arm Triangle/from Side Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Arm Triangle/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -188,7 +188,7 @@ Strategically, the Estima Lock from Saddle occupies a critical role in modern le
 - Recognize that the Estima Lock and heel hook form a self-defending submission pair from Saddle
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ Strategically, the Estima Lock from Saddle occupies a critical role in modern le
 - You feel the attacker's armpit or chest contact the top of your foot while the Saddle entanglement remains locked
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -319,9 +319,8 @@ Strategically, the Estima Lock from Saddle occupies a critical role in modern le
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -331,33 +330,9 @@ Strategically, the Estima Lock from Saddle occupies a critical role in modern le
 | Metatarsal stress fracture under extreme force | CRITICAL | 6-12 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds from initial foot capture to maximum pressure. The Lisfranc joint can sustain structural failure with minimal warning sensation. Allow partner multiple clear tap opportunities throughout application.
-
-**Tap Signals**:
-- Verbal tap (shout 'TAP' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap with free leg
-- Any distress signal or unusual sounds
-- Sudden cessation of defensive resistance (potential injury)
 
 
-**Release Protocol**:
-1. Immediately release hand grip and armpit pressure on the foot
-2. Open elbow to free the trapped foot completely
-3. Allow opponent's foot to return to neutral position naturally without jerking
-4. Maintain visual contact to ensure partner is responsive and okay
-5. Never spike or jerk the release—controlled withdrawal only
-
-
-**Training Restrictions**:
-- Never apply at competition speed during training
-- Restricted to practitioners familiar with leg lock tapping protocols
-- Always ensure partner understands all tap signals before drilling
-- Never apply with sudden jerking or spiking motions
-- Always allow clear tap access with at least one hand free
-- Stop immediately if any popping or unusual sounds occur in the foot
-- Communicate verbally throughout application during all drilling
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

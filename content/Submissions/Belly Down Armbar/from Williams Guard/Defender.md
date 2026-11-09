@@ -248,7 +248,7 @@ Defending the belly down armbar from Williams Guard requires early recognition a
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Belly Down Armbar/from Williams Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Belly Down Armbar/from Williams Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

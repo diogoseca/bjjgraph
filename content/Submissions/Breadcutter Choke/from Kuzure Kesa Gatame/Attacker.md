@@ -281,7 +281,7 @@ Attacking with the Breadcutter Choke from Kuzure Kesa Gatame leverages the exist
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Breadcutter Choke/from Kuzure Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Breadcutter Choke/from Kuzure Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

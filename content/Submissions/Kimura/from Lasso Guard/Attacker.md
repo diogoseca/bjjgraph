@@ -257,7 +257,7 @@ Attacking with the Kimura from Lasso Guard top requires recognizing the moment w
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Kimura/from Lasso Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Lasso Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -255,7 +255,7 @@ Defending the Darce Choke from Overhook Control demands early recognition of the
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Darce Choke/from Overhook Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Darce Choke/from Overhook Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

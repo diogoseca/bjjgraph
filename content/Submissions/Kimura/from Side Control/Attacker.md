@@ -284,7 +284,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Kimura/from Side Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

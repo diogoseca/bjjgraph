@@ -264,7 +264,7 @@ Attacking the Kimura from High Mount requires securing the figure-four grip on t
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Kimura/from High Mount#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from High Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

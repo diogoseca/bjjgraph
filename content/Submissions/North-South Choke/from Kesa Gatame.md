@@ -186,7 +186,7 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 - Keep your body tight against the opponent during rotation with no space between your chest and their head at any point
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 - The attacker threatens an Americana then quickly abandons it when you defend, immediately redirecting to thread their arm deeper around your neck
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -321,9 +321,8 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -333,31 +332,9 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 | Cervical spine stress from improper release or continued pressure after tap | CRITICAL | Weeks to months depending on severity |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and tap
-
-**Tap Signals**:
-- Verbal tap or verbal submission
-- Multiple rapid hand taps on opponent's body
-- Multiple rapid foot taps on the mat
-- Any distress signal including body convulsions
-- Loss of resistance or going limp
 
 
-**Release Protocol**:
-1. Immediately release arm pressure and remove shoulder compression upon any tap signal
-2. Roll off opponent's head and neck area completely
-3. Allow opponent to recover in side-lying position with airway clear
-4. Monitor for signs of consciousness and normal breathing
-5. Never move opponent's neck immediately after release - allow them to move naturally first
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking pressure to the neck during the rotation or finish
-- Always ensure partner has clear tap access with at least one hand
-- Never hold the choke after partner taps or goes limp
-- Beginners should practice the transition and grip placement only, without applying actual choking pressure
-- Use progressive resistance drilling before live application
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

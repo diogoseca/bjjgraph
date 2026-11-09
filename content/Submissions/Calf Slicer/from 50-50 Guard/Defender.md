@@ -247,7 +247,7 @@ Defending the calf slicer from 50-50 Guard requires recognizing the transition f
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Calf Slicer/from 50-50 Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Calf Slicer/from 50-50 Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

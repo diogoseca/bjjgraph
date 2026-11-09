@@ -184,7 +184,8 @@ for (const [path, width, fixture] of [
       expect(stranded, 'the move strands the old document and keeps the host').toMatchObject({ host: true, stale: true, player: false, source: 'about:blank', frames: 1 })
       await page.waitForTimeout(350)
       expect((await moved()).events, 'nothing restarts a stranded clip').not.toContain('play')
-      await page.evaluate(() => { const a = (window as any).__neural; a._reader.place(a._reader.mediaSlot) })
+      // The Videos section's slot, by its own attribute (the reader's name for it is mangled, v1.252.0); a null would place nothing.
+      expect(await page.evaluate(() => { const a = (window as any).__neural, slot = document.querySelector('[data-reader-media-slot]'); if (slot) a._reader.place(slot); return !!slot }), 'the Videos slot exists').toBe(true)
       await page.locator('[data-film-resume]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
       await j.clickByMouse('[data-film-resume]', 'only the visible Play rebinds a stranded clip')
       await expect.poll(async () => (await moved()).events, { message: 'Resume rebinds a fresh player and plays it' }).toContain('play')
@@ -352,8 +353,11 @@ for (const width of [1366, 390]) {
       return { same: a._landFilmEl === w.__placementHost, hosts: document.querySelectorAll('[data-land-film]').length,
         home: a._landFilmEl.parentElement === r.mediaHome, lifted: !!r.videoCard,
         together: r.mediaHome.parentElement === r.game && card.parentElement === r.game && row.parentElement === r.game,
-        layout: r.game.getAttribute('data-media-layout'), overlap: meet(m, c) || meet(m, h),
-        media: { x: m.x, w: m.width, h: m.height, top: m.top, bottom: m.bottom }, card: { x: c.x, y: c.y, bottom: c.bottom }, hand: { top: h.top, bottom: h.bottom },
+        // U104: in columns the film starts level with the asking line, which lives in the Moves row's bottom band, so the film's box
+        // meets the row's empty band. The claim is that it covers no card and no choice, and that a press on it is its own.
+        layout: r.game.getAttribute('data-media-layout'), overlap: meet(m, c) || [...row.querySelectorAll('[data-tech]')].some((el: Element) => meet(m, el.getBoundingClientRect())),
+        filmPressed: [2, 8, 16].every(dy => a._landFilmEl.contains(document.elementFromPoint(m.left + m.width / 2, m.top + dy))),
+        media: { x: m.x, w: m.width, h: m.height, top: m.top, bottom: m.bottom }, card: { x: c.x, y: c.y, bottom: c.bottom, right: c.right }, hand: { top: h.top, bottom: h.bottom },
         ask: card.hasAttribute('data-land-ask'), askGap: card.querySelector('[data-land-ask-text]')?.getBoundingClientRect().top - Math.max(...[...row.querySelectorAll('[data-tech]')].map((el: Element) => el.getBoundingClientRect().bottom)),
         gap: card.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12,
         backs: 3 * (a._landStackEl?.childElementCount || 0), position: getComputedStyle(a._landFilmEl).position }
@@ -361,14 +365,15 @@ for (const width of [1366, 390]) {
     const g = await geometry()
     // VIDEO3: the collapsed hint belongs inside the desktop choices band; the
     // film follows it. The expanded question retains the original paired layout.
-    expect(g).toMatchObject({ same: true, hosts: 1, home: true, lifted: false, together: true, overlap: false, ask: true, layout: 'stacked', position: 'relative' })
+    // U104, U108 a (owner, 2026-11-09): from 1,024px the film is the right column, beside the question, not under it.
+    expect(g).toMatchObject({ same: true, hosts: 1, home: true, lifted: false, together: true, overlap: false, filmPressed: true, ask: true, layout: width > 640 ? 'side-by-side' : 'stacked', position: 'relative' })
     expect(g.media.h).toBeGreaterThanOrEqual(width > 640 ? 241.42 : 219.93)
     if (width > 640) {
       expect(g.card.y, 'VIDEO3 the hint lies inside the choices band').toBeGreaterThanOrEqual(g.hand.top)
       expect(g.card.bottom, 'VIDEO3 the hint lies inside the choices band').toBeLessThanOrEqual(g.hand.bottom)
     }
     expect(g.askGap, 'VIDEO1 the ask follows the visible Moves cards at the 6px section token').toBeCloseTo(6, 1)
-    expect(g.media.top - g.card.bottom - g.backs, 'the current card follows the question (and its backs) at one gap').toBeCloseTo(g.gap, 1)
+    if (width <= 640) expect(g.media.top - g.card.bottom - g.backs, 'the current card follows the question (and its backs) at one gap').toBeCloseTo(g.gap, 1)
     await page.evaluate(async () => { await new Promise(requestAnimationFrame); await new Promise(requestAnimationFrame) })
     const churn = await page.evaluate(async () => {
       const a = (window as any).__neural, reader = a._reader, now = reader.layoutNow
@@ -405,7 +410,11 @@ for (const width of [1366, 390]) {
     expect(expanded.card.y - expanded.hand.bottom, 'the expanded question follows Moves at one gap').toBeCloseTo(expanded.gap, 1)
     if (width > 640) {
       expect(expanded.media.top, 'the current card is top-aligned with the expanded question').toBeCloseTo(expanded.card.y, 1)
-      expect(expanded.card.x - expanded.media.x - expanded.media.w, 'beside it at the 60px gap').toBeCloseTo(60, 1)
+      // U104, U108 a (owner, 2026-11-09, replacing the film 60px left of the question): the film is the right column, past the
+      // open face's 52px lane for the deck's arrows, and taking the question up moved it nowhere.
+      expect(expanded.media.x - expanded.card.right, 'beside it, right of the face and its arrows\' lane').toBeGreaterThanOrEqual(52)
+      // Measured 1px in round 1 (1.02 here), against 461 to 494px before U104: within a pixel, never a jump.
+      expect(Math.abs(expanded.media.top - g.media.top), 'U104: taking the question up moves the film nowhere').toBeLessThan(1.5)
     } else {
       expect(expanded.media.top - expanded.card.bottom - expanded.backs, 'the current card follows the expanded question and its backs at one gap').toBeCloseTo(expanded.gap, 1)
     }

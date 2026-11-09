@@ -303,7 +303,7 @@ This neck enclosure can load the sides of the neck as a vascular choke, and misp
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Hindulotine/from Hindulotine#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Hindulotine/from Hindulotine#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

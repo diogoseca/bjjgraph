@@ -186,7 +186,7 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 - Time the elbow elevation with the squeeze—raise the elbow and tighten simultaneously for maximum effect
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 - Opponent's free hand moving to reinforce their grip—grabbing their own wrist or cupping their fist—signaling the transition to high elbow is imminent
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -309,9 +309,8 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -321,32 +320,9 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 | Jaw and temporomandibular joint stress from high elbow angle forcing chin upward | Medium | 1-2 weeks for minor inflammation |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time with constant awareness of partner's response. The compound pressure from elevated elbow plus Hindulotine rotation can produce unconsciousness rapidly once locked.
-
-**Tap Signals**:
-- Verbal tap or any verbal sound of distress
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat or opponent
-- Any loss of resistance or body going limp
-- Unusual gurgling or breathing sounds
 
 
-**Release Protocol**:
-1. Immediately release choking arm grip upon any tap signal
-2. Lower choking elbow and remove shoulder pressure simultaneously
-3. Release head control and create space by opening guard and moving hips away
-4. Monitor partner's breathing and consciousness for 10-15 seconds
-5. Never reapply pressure once released, even if partner signals they are okay
-
-
-**Training Restrictions**:
-- Never apply at competition speed during drilling or positional training
-- Never spike or jerk the elbow elevation—always apply smooth progressive pressure
-- Never continue pressure if partner's face changes color or shows signs of oxygen deprivation
-- Always maintain verbal communication during slow drilling phases
-- Never practice on partners with neck or throat injuries without explicit instructor approval
-- Always allow clear tap access—never trap both arms while finishing
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

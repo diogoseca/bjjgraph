@@ -293,7 +293,10 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
     const stageTop = Math.min(layout.film.top, layout.card.top)
     expect(stageTop - layout.hand.bottom, 'the stage follows Moves at the parts\' step').toBeCloseTo(16, 0)
     if (layout.beside) {
-      expect(layout.card.left - layout.film.right, 'beside: the current card is 60px left of the question').toBeCloseTo(60, 0)
+      // U104, U108 a (owner, 2026-11-09, replacing the film 60px left of the face): the question left and the video right, each a
+      // column of the article grid, so the film starts past the open face's 52px arrow lane and is that face and lane wide.
+      expect(layout.film.left - layout.card.right, 'beside: the film is right of the face, past its arrows\' lane').toBeGreaterThanOrEqual(52)
+      expect(layout.film.width - layout.card.width, 'beside: equal columns, the face and its arrows\' lane').toBeCloseTo(52, 0)
       expect(layout.film.top, 'beside: tops aligned').toBeCloseTo(layout.card.top, 0)
     } else expect(layout.film.top - (layout.card.bottom + 3 * layout.backs), 'stacked: the current card follows the question\'s backs at the parts\' step').toBeCloseTo(16, 0)
   }

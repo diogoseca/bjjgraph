@@ -200,7 +200,7 @@ From a tactical standpoint, defense against the Boston Crab operates on a timeli
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Boston Crab/from Turtle#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Boston Crab/from Turtle#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

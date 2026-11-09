@@ -236,7 +236,7 @@ Defending the omoplata from Russian Leg Lasso requires recognizing the attack ea
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Omoplata/from Russian Leg Lasso#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Omoplata/from Russian Leg Lasso#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

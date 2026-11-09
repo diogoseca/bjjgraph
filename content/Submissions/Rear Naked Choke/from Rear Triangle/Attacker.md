@@ -275,7 +275,7 @@ Attacking with the RNC from rear triangle is fundamentally different from a stan
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Rear Triangle#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Rear Triangle#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

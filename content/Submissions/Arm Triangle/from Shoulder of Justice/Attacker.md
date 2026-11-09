@@ -299,7 +299,7 @@ Executing the Arm Triangle from Shoulder of Justice requires recognizing when th
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Arm Triangle/from Shoulder of Justice#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Arm Triangle/from Shoulder of Justice#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

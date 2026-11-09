@@ -189,7 +189,7 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 - Use the thumb-up grip position on the wrist to ensure proper arm rotation for clean hyperextension
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -265,7 +265,7 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 - Attacker's far leg crosses your torso at chest level, creating a barrier to hip escape
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -333,9 +333,8 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -344,28 +343,9 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 | Bicep tendon strain or partial tear from rapid forced extension against muscular resistance | Medium | 2-6 weeks for strain, 2-4 months for partial tears |
 
 
-**Application Speed**: SLOW and progressive. Apply extension gradually through hip elevation, never jerk or spike. The elbow reaches its breaking point within 2-3 degrees of full extension under load. Allow opponent adequate time to recognize the submission and tap before damage occurs.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, their body, or the mat
-- Physical foot tap on the mat with either leg
-- Any unusual vocalization, screaming, or distress sounds indicating pain
 
 
-**Release Protocol**:
-1. Release all extension pressure immediately upon any tap signal without hesitation
-2. If in doubt whether opponent tapped, release immediately—position can always be re-established
-3. After release, maintain positional control without reapplying submission pressure until opponent confirms they are ready to continue
-4. If opponent's arm makes an audible pop or sudden loss of resistance occurs, stop immediately and check for injury regardless of tap
-
-
-**Training Restrictions**:
-- White belts should drill mechanics only with cooperative partners and no resistance finishing
-- Never apply full extension speed during drilling—use slow, controlled pressure to develop proper mechanics
-- Partners with previous elbow or shoulder injuries should communicate limitations before positional sparring
-- Competition-speed finishing should only be practiced with experienced training partners who understand tap timing
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

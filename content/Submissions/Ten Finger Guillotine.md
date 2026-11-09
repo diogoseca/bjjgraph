@@ -239,9 +239,8 @@ The submission works through a combination of blood restriction and airway compr
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -251,30 +250,9 @@ The submission works through a combination of blood restriction and airway compr
 | Jaw or temporomandibular joint (TMJ) injury from improper chin positioning | Medium | 2-6 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress sound)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any unusual body stiffening or loss of resistance indicating unconsciousness
 
 
-**Release Protocol**:
-1. Immediately release the choking hand grip while maintaining head control
-2. Lower opponent's head gently to prevent whiplash or neck strain
-3. Create space by stepping back or opening guard to remove all pressure
-4. Check partner's awareness and allow recovery time before continuing
-5. If partner was unconscious, elevate legs and monitor breathing
-
-
-**Training Restrictions**:
-- Never apply full pressure at competition speed in training - always give partner time to tap
-- Never jerk or spike the choke with explosive movements
-- Never continue pressure after partner taps or shows distress
-- Never practice on partners with neck injuries without medical clearance
-- Always ensure partner has access to tap with at least one hand free
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

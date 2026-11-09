@@ -254,7 +254,7 @@ Defending against the outside heel hook from the Saddle is one of the most deman
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Outside Heel Hook/from Saddle#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Outside Heel Hook/from Saddle#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

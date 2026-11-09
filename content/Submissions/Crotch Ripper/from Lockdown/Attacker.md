@@ -278,7 +278,7 @@ The Crotch Ripper is a compression-based submission executed from the lockdown p
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Crotch Ripper/from Lockdown#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Crotch Ripper/from Lockdown#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

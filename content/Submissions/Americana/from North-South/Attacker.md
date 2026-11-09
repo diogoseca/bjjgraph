@@ -299,7 +299,7 @@ Attacking with the Americana from North-South requires capitalizing on the crush
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Americana/from North-South#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Americana/from North-South#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

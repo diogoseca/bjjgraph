@@ -184,7 +184,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 - Use progressive pressure application - build torque gradually to allow safe tapping
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 - You feel your elbow being lifted off the mat while your wrist is controlled and pinned toward your body
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -338,9 +338,8 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -351,32 +350,9 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 | Acromioclavicular joint separation | Medium | 6-12 weeks depending on grade |
 
 
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to maximum torque in training
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent or mat (multiple rapid taps)
-- Physical foot tap on mat or opponent
-- Any audible distress signal or change in breathing pattern
-- Shoulder popping or cracking sounds (immediate release)
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release the figure-four grip while maintaining control of the arm
-3. Gently guide the arm back to neutral position without sudden movements
-4. Allow opponent to move shoulder through safe range of motion before resuming training
-5. Check for pain, instability, or reduced range of motion before continuing
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking motions to the shoulder
-- Never use competition-speed application in training
-- Always ensure training partner has clear tap access with free hand
-- Stop immediately at first sign of discomfort or unusual joint sensation
-- Never apply Kimura when opponent's arm is already compromised or injured
-- Avoid practicing on training partners with known shoulder injuries or hypermobility
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 
