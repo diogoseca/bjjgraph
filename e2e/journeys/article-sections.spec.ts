@@ -127,6 +127,10 @@ for (const width of [1366, 390]) {
         askGap: ask.top - Math.max(...choices.map((b: DOMRect) => b.bottom)), askTop: ask.top, askBottom: ask.bottom, handTop: hand.top, handBottom: hand.bottom,
         token: parseFloat(css.getPropertyValue('--section-gap')), padding: css.padding,
         headGap: hand.top - head.bottom, lifted: !!r.videoCard, cardGap: card.top - hand.bottom, sectionGap: r.articleEl.getBoundingClientRect().top - card.bottom,
+        // U104: in columns the stage's two cells head them, and the article starts below the shorter. With no film its cell is
+        // empty and ends at the question's top line, so the right column runs up beside the question.
+        lanes: new Set(cards.map(c => Math.round(c.getBoundingClientRect().left))).size, cardTop: card.top, cardBottom: card.bottom,
+        filmBottom: a._landFilmEl?.getClientRects().length ? a._landFilmEl.getBoundingClientRect().bottom : null, articleTop: r.articleEl.getBoundingClientRect().top,
         closeRow: first.top - (r.root.querySelector('[data-reader-close]')?.getBoundingClientRect().bottom ?? NaN),
         headInArticle: r.head.parentElement === r.game && r.head.contains(r.tools) && r.head.hasAttribute('data-bare'),
         sectionHeaders: labels, step: a._landEl.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12,
@@ -160,7 +164,10 @@ for (const width of [1366, 390]) {
     // would start play, so this reading journey cannot take it up); landcard-deck.spec.ts measures
     // the shown deck's backs and its article clearance.
     expect(normal.backs, 'U47 d: the asking question shows no backs').toBe(0)
-    expect(normal.sectionGap, 'the article follows Questions (and its backs) at the six-pixel token').toBeCloseTo(normal.backs + 6, 0)
+    if (normal.lanes === 2) {
+      const shorter = normal.filmBottom === null ? normal.cardTop : Math.min(normal.cardBottom + normal.backs, normal.filmBottom)
+      expect(normal.articleTop - shorter, 'U104: the article follows the stage\'s shorter cell at the six-pixel token').toBeCloseTo(6, 0)
+    } else expect(normal.sectionGap, 'the article follows Questions (and its backs) at the six-pixel token').toBeCloseTo(normal.backs + 6, 0)
     // U12 a (D-355): the article's own ✕ is its top row; the first section follows it directly.
     expect(normal.closeRow, 'the first section follows the article\'s ✕ row').toBeCloseTo(0, 0)
     const gapScale = width < 600 ? 3 : 4
@@ -494,7 +501,8 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
     await expect(page.locator('[aria-label="Reading perspectives"]')).toHaveCount(0)
     await expect(page.locator('.ng-reader-toc h2')).toHaveText('Escaping Loop Choke from Half Guard')
     expect(await page.locator('.ng-reader-toc h2 small').evaluate(e => getComputedStyle(e).display), 'the qualifier stays in the phrase').toBe('inline')
-    expect((await page.locator('.ng-reader-toc-row a').allTextContents()).slice(0, 4)).toEqual(['Videos', 'Moves', 'Questions', 'How it works'])
+    // U104, U108 a (owner, 2026-11-09, as built): the index reads as the screen does, Moves, the question, the video, the article.
+    expect((await page.locator('.ng-reader-toc-row a').allTextContents()).slice(0, 4)).toEqual(['Moves', 'Questions', 'Videos', 'How it works'])
     const hasToc = viewport.width >= 1350 // U97 b
     for (const [part, close] of [['card', '[data-land-close]'], ['hand', '[data-hand-close]']]) {
       const label = page.locator(`[data-game-open="${part}"]`)

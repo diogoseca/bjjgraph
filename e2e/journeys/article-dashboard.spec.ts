@@ -111,6 +111,10 @@ const dashboard = (page: Page) => page.evaluate(() => {
     toc: r.contents.hidden ? null : box(r.contents), body: box(r.body), gap: 4 * parseFloat(getComputedStyle(r.root).getPropertyValue('--section-gap')),
     dom: cards.map(c => c.dataset.sectionType!),
     question: a._landEl ? box(a._landEl) : null, hand: a.optionsRef.current ? box(a.optionsRef.current) : null,
+    // U104: the stage's two cells as painted, the question with its deck backs, and the film (unless a reference page hosts it in a tile).
+    cells: [a._landEl && [a._landEl, ...(a._landStackEl?.querySelectorAll('*') || [])], a._landFilmEl && !r.body.contains(a._landFilmEl) && [a._landFilmEl]].filter(Boolean)
+      .map((els: Element[]) => els.filter(e => e.getClientRects().length).map(box)).filter((bs: DOMRect[]) => bs.length)
+      .map((bs: DOMRect[]) => ({ left: Math.min(...bs.map(b => b.left)), right: Math.max(...bs.map(b => b.right)), top: Math.min(...bs.map(b => b.top)), bottom: Math.max(...bs.map(b => b.bottom)) })),
     states: r.sections.map((s: any) => s.type + ':' + s.toggle.getAttribute('aria-expanded') + ':' + s.card.dataset.collapsed).join(' '),
     tiles: cards.map(c => {
       const s = getComputedStyle(c)
@@ -180,6 +184,9 @@ function wholeContent(d: Dash) {
 // The owner's rule, read off the boxes the page emitted: nothing here lays anything out. Two lanes that fill the grid, head tops
 // running down in reading order with the left winning a draw, and each tile starting where the shorter column had ended.
 // So a column holds no gap but the token, and the only other space is below the shorter column at the article's end.
+// U104 (owner, 2026-11-06, U108 a): the stage heads the columns, the question in the left and the film in the right, and each
+// column carries on under its own cell, both at one gap; a column with no cell starts at the stage's top line. Within a pixel is a
+// draw, as in the reader's own packer.
 function columns(d: Dash) {
   const lanes = [...new Set(d.tiles.map(t => Math.round(t.box.left)))].sort((x, y) => x - y)
   expect(lanes, 'two columns').toHaveLength(2)
@@ -188,9 +195,18 @@ function columns(d: Dash) {
     expect(Math.abs(t.box.width - (d.body.width - d.gap) / 2), `${t.type} is half the grid, less half the gap`).toBeLessThan(1)
     if (Math.round(t.box.left) === lanes[1]) expect(Math.abs(t.box.right - d.body.right), `${t.type} ends on the grid's right edge`).toBeLessThanOrEqual(1)
   }
-  const down = [...d.tiles].sort((x, y) => x.box.top - y.box.top || x.box.left - y.box.left).map(t => t.type)
+  const down = [...d.tiles].sort((x, y) => Math.abs(x.box.top - y.box.top) > 1 ? x.box.top - y.box.top : x.box.left - y.box.left).map(t => t.type)
   expect(down, 'head tops down the page read in the DOM\'s order, and the left wins a draw').toEqual(d.dom)
-  const ends = [d.body.top, d.body.top]
+  const laneW = (d.body.width - d.gap) / 2, stageTop = d.cells.length ? Math.min(...d.cells.map(c => c.top)) : null
+  const cellEnd = lanes.map(l => {
+    const over = d.cells.filter(c => c.left < l + laneW - 1 && l < c.right - 1)
+    return over.length ? Math.max(...over.map(c => c.bottom)) : stageTop
+  })
+  const lift = stageTop === null ? 0 : d.body.top - Math.min(...(cellEnd as number[]))
+  for (const t of d.tiles) for (const c of d.cells) {
+    expect(t.box.left < c.right - 1 && c.left < t.box.right - 1 && t.box.top < c.bottom - 1, `${t.type} never runs under the stage`).toBe(false)
+  }
+  const ends = cellEnd.map(e => e === null ? d.body.top : e + lift)
   for (const t of d.tiles) {
     const side = Math.round(t.box.left) === lanes[0] ? 0 : 1
     expect(Math.abs(t.box.top - Math.min(...ends)), `${t.type} starts where the shorter column ended (${ends})`).toBeLessThanOrEqual(1)
@@ -836,12 +852,18 @@ for (const [width, height] of [[1024, 900], [390, 844]]) test(`U65: native Video
 })
 
 test('U65 b: the space below the shorter column remains reader input', async ({ page }) => {
-  const j = await boot(page, 1440, 900, '/Positions/Half-Guard')
-  const d = await dashboard(page), right = Math.max(...d.tiles.map(t => t.box.left))
+  // The premise is a page whose columns end apart. U104's stage moves where they end, so take the first of a few real pages that
+  // has one, rather than pin a page whose ends the next content edit can bring together.
+  let j!: Awaited<ReturnType<typeof boot>>, d!: Dash, right = 0
   const end = (lane: boolean) => Math.max(...d.tiles.filter(t => (t.box.left === right) === lane).map(t => t.box.bottom))
+  for (const path of ['/Positions/Half-Guard', '/Positions/Closed-Guard', '/Positions/Side-Control', '/Positions/Mount', '/Transitions/Knee-Slice-Pass/Defender']) {
+    j = await boot(page, 1440, 900, path)
+    d = await dashboard(page); right = Math.max(...d.tiles.map(t => t.box.left))
+    if (Math.abs(end(false) - end(true)) > 40) break
+  }
   const shorter = end(false) < end(true) ? d.tiles.find(t => t.box.left !== right)! : d.tiles.find(t => t.box.left === right)!
   const bottom = Math.min(end(false), end(true))
-  expect(Math.abs(end(false) - end(true)), 'premise: the columns end apart').toBeGreaterThan(40)
+  expect(Math.abs(end(false) - end(true)), 'premise: the columns end apart (' + d.path + ')').toBeGreaterThan(40)
   await page.locator(READY).evaluate((e, y) => { e.scrollTop += y - e.getBoundingClientRect().top - 100 }, bottom)
   await j.readerLayoutSettled()
   const point = await page.evaluate(({ left, width, gap }) => {
@@ -853,13 +875,25 @@ test('U65 b: the space below the shorter column remains reader input', async ({ 
   expect(await page.evaluate(() => ({ paused: (window as any).__neural.paused, reading: (window as any).__neural._reader.interacting, dragging: !!(window as any).__neural.dragging }))).toEqual({ paused: true, reading: true, dragging: false })
 })
 
-// DASH-R4 (review finding 5): without the index the grid is narrower and the columns are the same rule.
-for (const [width, height] of [[768, 1024], [844, 390]] as const) {
+// DASH-R4 (review finding 5): without the index the grid is narrower and the columns are the same rule. U110 a (owner,
+// 2026-11-09) moved where that applies: the index shows from 1,350px free and the columns begin at 1,024px, so 1,024 to 1,349
+// is the no-index band; under 1,024 the article is one column, capped at 496px with everything stacked (stacked-width.spec.ts).
+for (const [width, height] of [[1024, 768], [1280, 800]] as const) {
   test(`at ${width}x${height} (no index) the sections keep the two columns`, async ({ page }) => {
     await boot(page, width, height, '/Transitions/Knee-Slice-Pass/Defender')
     const d = await dashboard(page)
     expect(d.toc, 'premise: the index does not show at this size').toBeNull()
     columns(d)
+    wholeContent(d)
+  })
+}
+for (const [width, height] of [[768, 1024], [844, 390]] as const) {
+  test(`U110 a at ${width}x${height} (no index) the sections are one column, at most 496px`, async ({ page }) => {
+    await boot(page, width, height, '/Transitions/Knee-Slice-Pass/Defender')
+    const d = await dashboard(page)
+    expect(d.toc, 'premise: the index does not show at this size').toBeNull()
+    expect([...new Set(d.tiles.map(t => Math.round(t.box.left)))], 'one column').toHaveLength(1)
+    expect(d.body.width, 'capped at 496px').toBeLessThanOrEqual(496.5)
     wholeContent(d)
   })
 }

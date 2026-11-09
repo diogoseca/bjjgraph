@@ -77,7 +77,7 @@ the vignette. The complete linked article appears below the game controls.
 
 **Reading and minimizing.** Articles survive grading and card replacement, with native
 scrolling and 16px prose. The node's other half changes role; no role switch (D-318).
-Order (D-338): Videos, Moves, Questions (no headers), then the titled sections: How it works,
+Order (D-338, U104): Moves, Questions, Videos (no headers), then the titled sections: How it works,
 principles, setup/recognition, options, safety, mistakes, the rest, Related (a submission's safety guide moves to
 just before Related, S1 a; its page keeps only the injury risks and a go-slow line, U112 a); 6px gaps. A position reads: Also known as, Often confused with, Position definition (a faint eyebrow), principles, Decisions, safety, mistakes, Statistics (both with a Beta pill), How it works, prerequisites, training, Related. Learning/System Sources stays last; missing groups are omitted. Hubs include the full Top/Attacker guide; role pages add only
 shared hub safety. **U100 a:** Transitions, Submissions, any width: a tile per Training phase. Failed loads offer Retry.

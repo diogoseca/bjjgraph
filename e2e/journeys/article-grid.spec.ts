@@ -95,7 +95,9 @@ for (const width of [1440, 390]) test(`@curated article grid ${width}px preserve
     for (const other of geometry.slice(0, i)) expect(card.left >= other.right - 1 || card.right <= other.left + 1 || card.top >= other.bottom - 1, 'cards never overlap').toBe(true)
   }
   if (width === 390) expect(new Set(geometry.map(c => c.left)).size).toBe(1)
-  else expect(geometry.some((c, i) => i && Math.abs(c.top - geometry[i - 1].top) < 1), 'desktop really pairs cards').toBe(true)
+  // Owner (2026-11-06): two columns, not rows; and U104 heads each with its own stage cell, so the lanes rarely share a top.
+  // Two lanes is the claim (the never-overlap check above keeps them apart); a shared top was the rows' proxy for it.
+  else expect(new Set(geometry.map(c => Math.round(c.left))).size, 'desktop really pairs cards: two lanes').toBe(2)
   // A stable real section identity, not a first/nth fixture that changes when the corpus grows.
   const prerequisites = page.locator('[data-section-type=prerequisites]')
   await prerequisites.evaluate(el => { const root = el.closest('[data-reader]')!; root.scrollTop += el.getBoundingClientRect().top - root.getBoundingClientRect().top - 24 })

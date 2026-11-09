@@ -1346,7 +1346,9 @@ class Reader {
         // cell runs past the shorter one, and each column carries on under its own.
         let reach = 0;
         if (column) {
-          const filmEnd = cardY + (homeMedia ? (askStep != null ? step + 3 : 0) + mediaHeight : 0);
+          // A closed question leaves its label, a row across the grid, so both cells start under it; from cardY the right column
+          // ran up over the label and took its reopening press (D-338, at 1,024 to 1,349px, where no index sits beside it).
+          const filmEnd = (showCard ? cardY : y) + (homeMedia ? (askStep != null ? step + 3 : 0) + mediaHeight : 0);
           if (homeMedia) position(home, free.center + 12, filmEnd - mediaHeight, mediaWidth);
           reach = filmEnd - y; y = Math.min(y, filmEnd);
         }

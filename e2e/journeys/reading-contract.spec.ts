@@ -310,8 +310,9 @@ test('@curated a late response cannot repaint the opposite seat in the same read
   }))
   // The explicit Top article omits the hub's comparison and opposite-role summaries.
   // Keep the exact current-role TOC and every link's semantic target, after the held Bottom response.
+  // U104, U108 a (owner, 2026-11-09, as built): the index reads as the screen does, Moves, the question, the video, the article.
   const expected = [
-    ['videos', 'Videos'], ['hand', 'Moves'], ['card', 'Questions'], ['aka', 'Also known as'], ['confused', 'Often confused with'], ['definition', 'Position definition'],
+    ['hand', 'Moves'], ['card', 'Questions'], ['videos', 'Videos'], ['aka', 'Also known as'], ['confused', 'Often confused with'], ['definition', 'Position definition'],
     ['principles', 'Essential principles'], ['options', 'Decisions from top'], ['mistakes', 'Common mistakes'],
     ['statistics', 'Statistics'], ['overview', 'How it works'], ['prerequisites', 'Prerequisites'], ['training', 'Training'], ['related', 'Related'],
   ]

@@ -15662,6 +15662,14 @@ class Component extends DCLogic {
     const css = ask && getComputedStyle(card);
     const gap = ask && parseFloat(css.getPropertyValue("--section-gap"));
     const hint = ask && width >= 1024 && this._handShown() && this._reader?.on("book");
+    // U104: in columns an asking card is the column's width, and its height feeds the Moves band and the article's columns. The line
+    // is fitted to one line by its ResizeObserver, a frame after its width changes, so a pane slide read a wrapped line, 17px taller:
+    // the columns flipped between passes and the reader's line jumped 11.8px on Mount Bottom at 1440. Size and fit it here first.
+    if (ask && column) {
+      if (card.style.width !== column + "px") card.style.setProperty("width", column + "px", "important");
+      const qt = card.querySelector("[data-land-ask-text]").parentNode;
+      if (qt.clientWidth !== qt._fitW) this._fitAskLine(qt, qt._fitW = qt.clientWidth);
+    }
     // VIDEO3: the hint occupies the choices row's bottom band. The existing askStep
     // then places its text one token below the cards, inside that band, without a
     // separate stage row. Restore the original inline padding on reveal/hide/resize;
