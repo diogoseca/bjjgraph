@@ -240,6 +240,7 @@ const mutants = [
   ['pane-open-hold-lost', 'pane-layout.spec.ts', '768px the line holds while the pane is open, mid-article', s => replace(s, 'keep = this.gridW - (this.gridW = available ? free.width : NaN) && ', 'keep = this.gridW - (this.gridW = available ? free.width : NaN) && false && ')],
   ['pane-hold-rechosen-mount', 'pane-layout.spec.ts', '768px the pane overlays the article', s => replace(s, 'this.placeTop === this.heldAt && this.held?.offsetWidth', 'false')],
   ['pane-hold-height-lost', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, '(was = this.heldY, this.held)', '(was = this.held.getBoundingClientRect().top, this.held)')],
+  // RECORDED NON-KILL since v1.251.3: with heldAt the read-back, no journey separates root.scrollTop from placeTop. pane-layout.spec.ts says why.
   ['pane-hold-keyed-on-scroll', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.offsetWidth', 'root.scrollTop === this.heldAt && this.held?.offsetWidth')],
   ['pane-hold-survives-scroll', 'pane-layout.spec.ts', 'a scroll while the pane is open', s => replace(s, 'this.placeTop === this.heldAt && this.held?.offsetWidth', 'this.held?.offsetWidth')],
   ['d338-clamped-place-lost', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '      if (this.placeTop > root.scrollTop) root.scrollTop = this.placeTop;\n', '')],
@@ -379,6 +380,18 @@ const mutants = [
   // #345's review: the row by type lights all 8 of /Systems's `additional` rows together, and the hold keeps a closed line.
   ['index-row-by-type', 'article-dashboard.spec.ts', 'the index follows each section of /Systems', s => replace(s, 'this.sections.filter(x => x.title == s.title)', 'this.sections.filter(x => x.type == s.type)')],
   ['hold-closed-line', 'article-dashboard.spec.ts', 'a held line whose tile closes', s => replace(s, 'this.held?.offsetWidth', 'this.held?.isConnected')],
+  // #345's review, round B: the claims it found with no control, and the hold at a real fractional scale.
+  ['hold-exact', 'reader-scale-125.spec.ts', 'at a real device scale of 1.25', s => replace(s, 'root.scrollTop += Math.round(rect(keep).top - was); this.heldAt = this.placeTop = root.scrollTop;', 'this.heldAt = this.placeTop = root.scrollTop += Math.round(rect(keep).top - was);')],
+  // #348's review: the 1px tolerance, its first fix, which 0.5 breaks; and a hold too loose for a small real scroll.
+  ['hold-tolerance', 'reader-scale-050.spec.ts', 'at a real device scale of 0.5', s => replace(replace(s, 'root.scrollTop += Math.round(rect(keep).top - was); this.heldAt = this.placeTop = root.scrollTop;', 'this.heldAt = this.placeTop = root.scrollTop += Math.round(rect(keep).top - was);'), '(this.placeTop === this.heldAt && this.held?.offsetWidth', '(Math.abs(this.placeTop - this.heldAt) < 1 && this.held?.offsetWidth')],
+  ['hold-loose', 'pane-layout.spec.ts', '1440px a small wheel while the pane is open', s => replace(s, '(this.placeTop === this.heldAt && this.held?.offsetWidth', '(Math.abs(this.placeTop - this.heldAt) < 100 && this.held?.offsetWidth')],
+  ['columns-end-apart', 'article-dashboard.spec.ts', 'U100 a at 1440x900 the phases fill', s => s, css => css + '\n[data-reader-body]>[data-section-type=training]:last-child{min-height:900px}\n'],
+  ['training-one-tile-columns', 'article-dashboard.spec.ts', 'U100 a at 1440x900 the phases fill', s => replace(s, '(transition || submission) && group.type == "training"', 'false')],
+  ['training-apart', 'article-order.spec.ts', 'U100 a /Submissions/Armbar/from-Mount/Attacker', s => replace(s, '      : group);\n    this.sections = []; this.mediaSlot = null;', '      : group).sort((a, b) => !!a.more - !!b.more);\n    this.sections = []; this.mediaSlot = null;')],
+  ['training-head-not-back', 'article-dashboard.spec.ts', 'U100 a closing Training.*moveBefore absent', s => replace(s, 's.card.prepend(s.closedRow.firstChild); s.closedRow.remove();', 's.closedRow.remove();')],
+  ['training-close-scrolls', 'article-dashboard.spec.ts', 'U100 a closing Training.*moveBefore present', s => replace(s, 'if (opening) this.scrollTo(card, toggle);', 'if (opening) this.scrollTo(card, toggle); else this.root.scrollTop -= 200;')],
+  ['hub-seat-scrolls', 'article-dashboard.spec.ts', 'U103 a on a hub', s => replace(s, 'if (more.children[1]) wall.append(more);', 'if (more.children[1]) { wall.append(more); if (wall.closest("[data-reader-article=guide]")) more.addEventListener("toggle", () => { this.root.scrollTop += 40; }); }')],
+  ['gap-extra-phone', sections, '390px choices precede', s => s, css => css + '\n@media(max-width:599px){.ng-section-card{margin-top:calc(var(--section-gap) - 6px)}}\n'],
   // U103 a: Read more on a hub, both text sections.
   ['hub-first-section-only', 'article-order.spec.ts', 'U103 a /Positions/Mount:', s => replace(s, 'if (wall.dataset?.sourceId == "overview") {', 'if (wall.dataset?.sourceId == "overview" && !buckets.done && (buckets.done = 1)) {')],
   ['hub-parts-first', 'article-order.spec.ts', 'U103 a /Positions/Mount:', s => replace(s, 'of position && buckets.get("overview")?.parts || []) if (wall.dataset?.sourceId == "overview") {', 'of position && buckets.get("overview")?.parts.slice(0, 1) || []) {')],

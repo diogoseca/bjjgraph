@@ -150,6 +150,27 @@ description: "How to defend against Basic Butterfly Sweep in BJJ. Recognition cu
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Basic Butterfly Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Brazilian Jiu-Jitsu: Pedro Sauer Half Guard Butterfly Hook Counter",
+      "description": "Basic Butterfly Sweep (Defender) film study: Brazilian Jiu-Jitsu: Pedro Sauer Half Guard Butterfly Hook Counter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cr_5TyQu_k8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cr_5TyQu_k8",
+      "url": "https://www.youtube.com/watch?v=Cr_5TyQu_k8",
+      "duration": "PT87S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,6 +187,24 @@ Advanced defenders recognize that aggressive butterfly sweep defense creates its
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Basic Butterfly Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cr_5TyQu_k8)
+
+<p class="clip-credit"><strong>Brazilian Jiu-Jitsu: Pedro Sauer Half Guard Butterfly Hook Counter</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=Cr_5TyQu_k8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

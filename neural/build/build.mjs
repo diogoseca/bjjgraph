@@ -474,8 +474,9 @@ await build({
 // never be listed, because it would come back undefined rather than throw. tests/reader_mangle.test.mjs pins this: all but
 // `held` anywhere, as `.name`, a quoted name or a key, and `held` only through the reader's four spellings. It does not pin
 // `held` through another local name, or a name built at runtime. A stale entry fails it too. This stays because it saves
-// 620 B and the deferred set has 6 B free (v1.251.0).
-const READER_ONLY_PROPS = /^(?:closedRow|referenceClips|lightReference|bookClose|highlightReference|syncSections|mediaOrigin|hiddenSections|gamePage|bookScroll|splitSections|syncIndex|mediaNext|readingOrder|chromeActive|shelfState|partEl|roleLinks|ownsMedia|indexBest|held|heldAt|heldY)$/;
+// 620 B, and v1.251.3's seven (from placeTop on) saved a further 161 B, which paid the hold's fix. tests/artifacts/article_sections_mutants.mjs
+// spells some of them, but it edits the source before this build, so that is not a read.
+const READER_ONLY_PROPS = /^(?:placeTop|gridW|gameKey|selecting|seating|extract|gameInput|closedRow|referenceClips|lightReference|bookClose|highlightReference|syncSections|mediaOrigin|hiddenSections|gamePage|bookScroll|splitSections|syncIndex|mediaNext|readingOrder|chromeActive|shelfState|partEl|roleLinks|ownsMedia|indexBest|held|heldAt|heldY)$/;
 await build({
   entryPoints: [R("src/reader.src.js")], bundle: true, format: "esm", target: "es2019",
   minify: true, mangleProps: READER_ONLY_PROPS, legalComments: "none", outfile: R("dist/reader.js"), logLevel: "info",

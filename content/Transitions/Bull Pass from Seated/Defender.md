@@ -150,6 +150,27 @@ description: "Defend the Bull Pass from Seated Guard effectively. Recognition cu
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bull Pass from Seated (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Collar Drag from Sitting Guard (Bull Fighter Counter)",
+      "description": "Bull Pass from Seated (Defender) film study: Collar Drag from Sitting Guard (Bull Fighter Counter).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EjOfbJli308/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EjOfbJli308?start=44",
+      "url": "https://www.youtube.com/watch?v=EjOfbJli308",
+      "duration": "PT352S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the Bull Pass from Seated Guard requires early recognition of the pass
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bull Pass from Seated (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EjOfbJli308&start=44)
+
+<p class="clip-credit"><strong>Collar Drag from Sitting Guard (Bull Fighter Counter)</strong> · 5:52 · <a href="https://www.youtube.com/watch?v=EjOfbJli308&t=44s" rel="noopener">Watch on YouTube from 0:44</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

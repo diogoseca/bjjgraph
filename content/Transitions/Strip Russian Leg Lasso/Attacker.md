@@ -176,6 +176,27 @@ description: "Master the attacker perspective for Strip Russian Leg Lasso. Compl
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Strip Russian Leg Lasso (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "PART 1 ESCAPING + PASSING THE LASSO",
+      "description": "Strip Russian Leg Lasso (Attacker) film study: PART 1 ESCAPING + PASSING THE LASSO.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNpws9uAY8o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNpws9uAY8o?start=40",
+      "url": "https://www.youtube.com/watch?v=kNpws9uAY8o",
+      "duration": "PT383S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the attacker executing Strip Russian Leg Lasso, your objective is to systemat
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Strip Russian Leg Lasso (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNpws9uAY8o&start=40)
+
+<p class="clip-credit"><strong>PART 1 ESCAPING + PASSING THE LASSO</strong> · 6:23 · <a href="https://www.youtube.com/watch?v=kNpws9uAY8o&t=40s" rel="noopener">Watch on YouTube from 0:40</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

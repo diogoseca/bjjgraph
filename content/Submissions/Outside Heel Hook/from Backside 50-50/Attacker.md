@@ -192,6 +192,16 @@ description: "Execute the Outside Heel Hook from Backside 50-50 with systematic 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and\u2026",
+      "description": "Outside Heel Hook from Backside 50-50 (Attacker) film study: Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tLcHN042w48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tLcHN042w48",
+      "url": "https://www.youtube.com/watch?v=tLcHN042w48",
+      "duration": "PT85S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook~ Marshall Stamper",
       "description": "Outside Heel Hook from Backside 50-50 (Attacker) film study: K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook~ Marshall Stamper.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7I0Lj1aSon4/hqdefault.jpg",
@@ -223,6 +233,14 @@ Executing the Outside Heel Hook from Backside 50-50 requires systematic control 
 
 <p class="section-subtitle">Watch Outside Heel Hook from Backside 50-50 (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tLcHN042w48)
+
+<p class="clip-credit"><strong>Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and…</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=tLcHN042w48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

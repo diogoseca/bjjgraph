@@ -160,6 +160,26 @@ description: "Defend against the Americana from Shoulder of Justice. Recognition
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Americana escape from bottom side control Jiu Jitsu",
+      "description": "Americana from Shoulder of Justice (Defender) film study: Americana escape from bottom side control Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VCczZFmkv6U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VCczZFmkv6U",
+      "url": "https://www.youtube.com/watch?v=VCczZFmkv6U",
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bjj defense against the americana",
+      "description": "Americana from Shoulder of Justice (Defender) film study: Bjj defense against the americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qfoEZtys84k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qfoEZtys84k",
+      "url": "https://www.youtube.com/watch?v=qfoEZtys84k",
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Escape americana/key lock from side to chest lock.",
       "description": "Americana from Shoulder of Justice (Defender) film study: Escape americana/key lock from side to chest lock..",
       "thumbnailUrl": "https://i.ytimg.com/vi/Unz1euhI2y8/hqdefault.jpg",
@@ -191,6 +211,22 @@ Defending the Americana from Shoulder of Justice requires discipline under extre
 
 <p class="section-subtitle">Watch Americana from Shoulder of Justice (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VCczZFmkv6U)
+
+<p class="clip-credit"><strong>Americana escape from bottom side control Jiu Jitsu</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=VCczZFmkv6U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qfoEZtys84k)
+
+<p class="clip-credit"><strong>Bjj defense against the americana</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=qfoEZtys84k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

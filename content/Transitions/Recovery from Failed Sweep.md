@@ -36,6 +36,27 @@ description: "Master the recovery from a failed sweep in BJJ. Convert unsuccessf
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Recovery from Failed Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Open Guard Sweep Failed Koala To Ankle Pick",
+      "description": "Recovery from Failed Sweep film study: Open Guard Sweep Failed Koala To Ankle Pick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WnRVGlhBSAw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WnRVGlhBSAw",
+      "url": "https://www.youtube.com/watch?v=WnRVGlhBSAw",
+      "duration": "PT152S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The scramble from failed sweep also serves as a critical mental framework. Pract
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Recovery from Failed Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WnRVGlhBSAw)
+
+<p class="clip-credit"><strong>Open Guard Sweep Failed Koala To Ankle Pick</strong> · 2:32 · <a href="https://www.youtube.com/watch?v=WnRVGlhBSAw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

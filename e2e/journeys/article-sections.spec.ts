@@ -178,11 +178,13 @@ for (const width of [1366, 390]) {
     })).toEqual({ titles: snapshot.titles, same: true })
     // v1.251.1: nothing changes this token at runtime, and the sides stay layoutNow's, sorted on the real 24px gap. A side stale for 48px can
     // hold a tile under an earlier float (CSS 2.1 9.5.1 rule 5), so a gap down a column can read more than the token: 87.5 here since Training
-    // split, with the page correct. The gap IS each tile's margin, so that is what follows the token. gap-hard-coded proves this can fail.
+    // split, with the page correct. The gap IS each tile's margin, so that is what follows the token. gap-hard-coded and gap-extra-phone
+    // prove this can fail, at 1366 and at 390.
     await page.locator(READY).evaluate(e => (e as HTMLElement).style.setProperty('--section-gap', '12px'))
     const poked = await measure()
     expect(poked.margins.every(m => m === 12 * gapScale), `every tile's margin follows the token (${poked.margins})`).toBe(true)
-    expect(poked.gaps.every(g => g >= 12 * gapScale - 1), `no gap is under it (${poked.gaps})`).toBe(true)
+    // One column has no sides to go stale, so there every gap is the token's exactly.
+    expect(poked.gaps.every(g => width < 600 ? Math.abs(g - 12 * gapScale) < 1 : g >= 12 * gapScale - 1), `the gaps follow it (${poked.gaps})`).toBe(true)
     expect(await state(page)).toMatchObject({ paused: true, played: false, misses: 0 })
   })
 }

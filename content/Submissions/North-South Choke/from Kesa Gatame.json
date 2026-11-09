@@ -434,7 +434,25 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "LurZB_PfUmA",
+        "title": "Modified Scarf Hold North/South choke",
+        "channel": "Todd Blatchley",
+        "duration": 120,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "u0sMEQrZemE",
+        "title": "North South Choke 🧭🧭🧭",
+        "channel": "JeanJacquesMachado",
+        "duration": 75,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "from Kesa Gatame Defender",
@@ -621,6 +639,24 @@
         "description": "Positional rounds starting from Kesa Gatame with the top player using the North-South Choke among other attacks at full resistance. Defender works all available defenses and escapes. Two-minute rounds with roles switching. Track success rate and identify which defensive phase needs the most work."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "O-2iSvT8zDk",
+        "title": "“Hook-Plata” (North-South Choke Escape)",
+        "channel": "Erik Koehne",
+        "duration": 59,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "CC8b5mR79OI",
+        "title": "NORTH SOUTH CHOKE DEFENSE - Simple and Effective",
+        "channel": "MMA Leech",
+        "duration": 159,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

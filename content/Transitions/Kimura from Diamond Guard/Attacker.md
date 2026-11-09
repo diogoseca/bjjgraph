@@ -182,6 +182,27 @@ description: "Execute the Kimura from Diamond Guard as the bottom player. Step-b
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Diamond Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "IFAacademy.com - Austin, TX - MMA Guard Cross Overhook Sweep To The Kimura",
+      "description": "Kimura from Diamond Guard (Attacker) film study: IFAacademy.com - Austin, TX - MMA Guard Cross Overhook Sweep To The Kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aMW3uuln4P4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aMW3uuln4P4",
+      "url": "https://www.youtube.com/watch?v=aMW3uuln4P4",
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ The Kimura from Diamond Guard Attacker converts the established overhook control
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Diamond Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aMW3uuln4P4)
+
+<p class="clip-credit"><strong>IFAacademy.com - Austin, TX - MMA Guard Cross Overhook Sweep To The Kimura</strong> · 3:27 · <a href="https://www.youtube.com/watch?v=aMW3uuln4P4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

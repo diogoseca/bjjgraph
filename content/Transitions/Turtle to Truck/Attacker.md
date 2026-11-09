@@ -176,6 +176,27 @@ description: "How to execute Turtle to Truck in BJJ. Attacking perspective with 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Truck (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Entering \u201cThe Truck\u201d from Attacking Turtle",
+      "description": "Turtle to Truck (Attacker) film study: Entering \u201cThe Truck\u201d from Attacking Turtle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FR-0JbBzCPQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FR-0JbBzCPQ",
+      "url": "https://www.youtube.com/watch?v=FR-0JbBzCPQ",
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Truck (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FR-0JbBzCPQ)
+
+<p class="clip-credit"><strong>Entering “The Truck” from Attacking Turtle</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=FR-0JbBzCPQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

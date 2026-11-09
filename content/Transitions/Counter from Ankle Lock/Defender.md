@@ -150,6 +150,27 @@ description: "Defend against ankle lock counter attempts. Recognition cues, grip
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter from Ankle Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Technique: Preventing the boot strap defense to your ankle lock attack",
+      "description": "Counter from Ankle Lock (Defender) film study: BJJ Technique: Preventing the boot strap defense to your ankle lock attack.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wpLZv31LDm8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wpLZv31LDm8?start=48",
+      "url": "https://www.youtube.com/watch?v=wpLZv31LDm8",
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ As the person applying the straight ankle lock, defending against your opponent'
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter from Ankle Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wpLZv31LDm8&start=48)
+
+<p class="clip-credit"><strong>BJJ Technique: Preventing the boot strap defense to your ankle lock attack</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=wpLZv31LDm8&t=48s" rel="noopener">Watch on YouTube from 0:48</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -36,6 +36,27 @@ description: "Master the outside heel hook from 50-50 guard. Learn grip mechanic
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook from 50-50 Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and\u2026",
+      "description": "Outside Heel Hook from 50-50 Guard film study: Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tLcHN042w48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tLcHN042w48",
+      "url": "https://www.youtube.com/watch?v=tLcHN042w48",
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -80,6 +101,24 @@ This submission carries extreme injury risk due to the nature of rotational heel
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook from 50-50 Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tLcHN042w48)
+
+<p class="clip-credit"><strong>Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and…</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=tLcHN042w48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
