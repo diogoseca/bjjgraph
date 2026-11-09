@@ -1,5 +1,6 @@
 import { test, expect, type Page } from "@playwright/test";
 import { journey } from "../dsl";
+import { seatsWithoutVideos } from "../decks";
 
 /**
  * THE CAMERA GLIDES, AND IT FRAMES WHAT YOU CAN SEE (v1.219.0).
@@ -399,12 +400,24 @@ for (const viewport of VIEWPORTS) {
     // in the node band and D-329's preference coincides with it at this width. Clearing the rows, the
     // claim the preference serves, holds without it; the preference itself is ungated here.
     if (W === 390) test("an exchange from a node with no Videos section lands clear of the rows", async ({ page }) => {
+      // The seat comes from the build, never by name: v1.251.5 gave the named one (Reverse Mount Top) its first film. The
+      // pages say which seats have no Film Study section; the reader is the judge, because a seat the app folds into
+      // another state (a "<Submission> Control" alias) reads that state's article. First seat whose reader agrees wins.
+      const seats = seatsWithoutVideos();
+      expect(seats.length, "the build has a position seat with no Videos section to stand on").toBeGreaterThan(0);
       const j = journey(page);
-      await j.boot("/");
-      await j.land("Reverse Mount Top");
+      const readerVideos = () => page.evaluate(() => { const r = (window as any).__neural._reader; return { videos: r.sections.some((s: any) => s.type === "videos"), lifted: !!r.videoCard } });
+      let seat: string | null = null;
+      for (const s of seats) {
+        await j.boot("/");
+        await j.land(s);
+        await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+        if ((await readerVideos()).videos === false) { seat = s; break; }
+      }
+      expect(seat, `premise: a seat whose reader shows no Videos section (tried ${seats.length})`).toBeTruthy();
+      test.info().annotations.push({ type: "seat", description: seat! });
       await j.rig("resolve", [0]); await j.rig("outcome", Array(32).fill(0)); await j.rig("opp-finish", [0.99]);
-      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
-      expect(await page.evaluate(() => { const r = (window as any).__neural._reader; return { videos: r.sections.some((s: any) => s.type === "videos"), lifted: !!r.videoCard } }),
+      expect(await readerVideos(),
         "premise: the article read during the exchange has no Videos section").toEqual({ videos: false, lifted: false });
       const opt = await page.evaluate(() => {
         const a = (window as any).__neural;

@@ -14638,3 +14638,12 @@ arms, and identically to the pixel where the heading was hidden. Both arms land 
 **How.** Scripts reject first (sale pitches in the full description, teaser or highlight titles, title tests for name and seat, bans). Judge A (Sonnet, headless, no settings, tools or MCP, batches of 15 to 20) sees the rest; judge B (Sonnet, a per-rule checklist) sees only A's accepts, after their full description is fetched; the Opus seat settles disagreements and audits a random 10% of double accepts. Every shipped id answered oEmbed 200 on 9 Nov. `regenerate:md`, `regenerate:hubs` and `regenerate:neural` only; `graph.json` and the wire are byte-identical, so no MDP input moves.
 
 **Measured.** The emitter's line moves from 1,542 approved fronts, 103 unapproved and 1,217 empty halves to 1,594, 94 and 1,174; escape rows 67 to 69. In FLOW's gi game from Anywhere, placeholder meetings fall from 3,759 to 3,541 of 13,448 dealt cards per 100 games, 28.0% to 26.3%, and no card loses a video. Judging spent about 0.3 Mtok of Sonnet. Ledgers, verdicts and token records: `scratch/video-search/` outside the repo; report `reports/video-search.md`.
+
+**Two core specs, after the capture (spec, helper and changelog only, so the capture stands).** CI's first full run went red
+on `camera-continuity` (390px, "an exchange from a node with no Videos section") because it NAMED Reverse Mount Top, which
+this PR gave its first film: a stale premise. It now takes the first seat from `e2e/decks.ts seatsWithoutVideos()` (hub and
+Top pages without a Film Study section, from the build) whose reader agrees, and keeps its claim and NON-KILL note.
+`graph-naming` ("the node a move LANDS on blooms harder") went red once on a lottery, not on content: the move's `resolve` and
+`outcome` draws were live, a miss let the opponent's counter draw a destination inside Darce Choke from Darce Control, and a
+catch never lands. Isolated it passed 20 of 20 on this build and 20 of 20 on a clean control (same app, base content); the
+move now succeeds onto its first outcome, 20 of 20, and both files pass whole, 37 of 37.
