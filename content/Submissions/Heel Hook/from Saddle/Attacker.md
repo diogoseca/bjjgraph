@@ -319,7 +319,7 @@ Executing the heel hook from saddle demands a systematic approach that prioritiz
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Heel Hook/from Saddle#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Heel Hook/from Saddle#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

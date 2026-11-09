@@ -215,9 +215,8 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

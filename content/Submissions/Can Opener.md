@@ -196,9 +196,8 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

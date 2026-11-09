@@ -198,7 +198,7 @@ description: "{{ description }}"
 - {{ principle }}
 {% endfor %}
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -234,7 +234,7 @@ description: "{{ description }}"
 - {{ cue }}
 {% endfor %}
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -286,9 +286,10 @@ description: "{{ description }}"
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
-
-**Injury Risks**:
+{# U113 b (owner, 2026-11-09): the section is named for what it now holds, "Injury risks", once: the heading says it, so the
+   table's own "Injury Risks:" label goes ("say its name once", as in #349). Its id stays safety-considerations, so every
+   "Injury risks ↓" link still lands; only the heading's own anchor moves, #safety-guide to #injury-risks. #}
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

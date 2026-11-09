@@ -263,7 +263,7 @@ Attacking the omoplata from armbar control requires recognizing the precise mome
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Omoplata/from Armbar Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Omoplata/from Armbar Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

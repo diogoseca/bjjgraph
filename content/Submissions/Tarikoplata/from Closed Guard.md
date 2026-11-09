@@ -202,7 +202,7 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 - Coordinate hip drive with wrist rotation for maximum mechanical advantage
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -276,7 +276,7 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 - Your trapped palm is being turned toward your own head while shoulder pressure increases - this specific wrist orientation creates the maximum rotational stress that defines the tarikoplata finish
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -354,9 +354,8 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -168,7 +168,7 @@ Strategically, the straight ankle lock from established control serves dual purp
 - Apply progressive controlled pressure that tightens incrementally rather than jerking or spiking the lock
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ Strategically, the straight ankle lock from established control serves dual purp
 - Attacker beginning to arch their back or extend their hips away from you, indicating the breaking mechanics are being initiated
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -300,9 +300,8 @@ Strategically, the straight ankle lock from established control serves dual purp
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -228,7 +228,7 @@ Defending the Kimura from Knee on Belly requires addressing two simultaneous thr
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Kimura/from Knee on Belly#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Kimura/from Knee on Belly#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

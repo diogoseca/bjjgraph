@@ -168,7 +168,7 @@ The mechanical key to the bow and arrow is that its far-leg vector comes from a 
 - Monitor the opponent's hand position constantly: hands defending low means the collar is open, hands defending high means redirect to leg attacks
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ The mechanical key to the bow and arrow is that its far-leg vector comes from a 
 - Opponent briefly reduces twister or calf slicer pressure to redirect their attack to the upper body
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -304,9 +304,8 @@ The mechanical key to the bow and arrow is that its far-leg vector comes from a 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

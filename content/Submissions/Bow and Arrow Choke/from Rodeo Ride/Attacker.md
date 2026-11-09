@@ -256,7 +256,7 @@ Executing the Bow and Arrow Choke from Rodeo Ride requires converting your perpe
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Bow and Arrow Choke/from Rodeo Ride#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Bow and Arrow Choke/from Rodeo Ride#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

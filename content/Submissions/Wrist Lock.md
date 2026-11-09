@@ -206,7 +206,7 @@ The Wrist Lock, known in Portuguese as mão de vaca ('cow's hand') and in judo a
 - Apply slowly and progressively because the joint has almost no margin before injury
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -280,7 +280,7 @@ The Wrist Lock, known in Portuguese as mão de vaca ('cow's hand') and in judo a
 - Sharp, localized pressure building in the wrist rather than the elbow or shoulder
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -344,9 +344,8 @@ The Wrist Lock, known in Portuguese as mão de vaca ('cow's hand') and in judo a
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -281,7 +281,7 @@ Attacking with the kneebar from straight ankle lock control requires reading def
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Kneebar/from Straight Ankle Lock Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Kneebar/from Straight Ankle Lock Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

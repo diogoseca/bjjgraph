@@ -263,7 +263,7 @@ Attacking with the inside heel hook from ushiro ashi-garami requires adapting st
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

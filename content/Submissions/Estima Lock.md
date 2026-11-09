@@ -244,9 +244,8 @@ The technique requires precise control and understanding of leg entanglement mec
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

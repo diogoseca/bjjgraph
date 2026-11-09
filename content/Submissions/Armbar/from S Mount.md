@@ -189,7 +189,7 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 - Use the thumb-up grip position on the wrist to ensure proper arm rotation for clean hyperextension
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -265,7 +265,7 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 - Attacker's far leg crosses your torso at chest level, creating a barrier to hip escape
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -333,9 +333,8 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -192,7 +192,7 @@ The defender must prioritize prevention over escape. Once the forearm is threade
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Short Choke/from Gift Wrap#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Short Choke/from Gift Wrap#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

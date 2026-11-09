@@ -170,7 +170,7 @@ The submission can be entered from various side control variations including sta
 - Finish with hip extension, not pulling with arms—hips generate the force
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -244,7 +244,7 @@ The submission can be entered from various side control variations including sta
 - Attacker switches from maintaining side control to actively gripping and manipulating your near arm with both hands
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -321,9 +321,8 @@ The submission can be entered from various side control variations including sta
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

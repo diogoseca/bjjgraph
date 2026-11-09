@@ -166,7 +166,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 - Protect your own neck during the roll by keeping chin tucked and shoulders rounded
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -234,7 +234,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 - Opponent tucks their chin and drives their shoulder toward the mat, initiating a backward rolling motion while holding your arm against their chest
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -323,9 +323,8 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

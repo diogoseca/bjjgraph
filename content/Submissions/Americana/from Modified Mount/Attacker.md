@@ -281,7 +281,7 @@ Executing the Americana from Modified Mount leverages the position's asymmetric 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Americana/from Modified Mount#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Americana/from Modified Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

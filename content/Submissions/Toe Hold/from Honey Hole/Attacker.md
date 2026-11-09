@@ -263,7 +263,7 @@ Executing the toe hold from Honey Hole requires maintaining your inside leg tria
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Toe Hold/from Honey Hole#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Toe Hold/from Honey Hole#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

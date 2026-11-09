@@ -186,7 +186,7 @@ What makes the Omoplata so valuable for the developing player is its connectivit
 - Shoulder pressure and weight distribution keep opponent's posture broken throughout the sequence
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -262,7 +262,7 @@ What makes the Omoplata so valuable for the developing player is its connectivit
 - Opponent releases their closed guard and creates a significant hip angle while maintaining overhook control on one of your arms - pre-entry warning sign
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -348,9 +348,8 @@ What makes the Omoplata so valuable for the developing player is its connectivit
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

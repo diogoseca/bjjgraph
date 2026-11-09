@@ -238,7 +238,7 @@ Defending the heel hook from Honey Hole is one of the most urgent defensive chal
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Heel Hook/from Honey Hole#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Heel Hook/from Honey Hole#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

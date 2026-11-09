@@ -254,7 +254,7 @@ Defending the Bow and Arrow Choke from Rodeo Ride demands early recognition of t
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Bow and Arrow Choke/from Rodeo Ride#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Bow and Arrow Choke/from Rodeo Ride#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

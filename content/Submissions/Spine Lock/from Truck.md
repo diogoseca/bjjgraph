@@ -129,7 +129,7 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 - Position over submission - never sacrifice control for finishing pressure
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -201,7 +201,7 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 - Sensation of your spine being forced into hyperextension or increased curvature in the lower back region, accompanied by restricted ability to breathe deeply
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -274,9 +274,8 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

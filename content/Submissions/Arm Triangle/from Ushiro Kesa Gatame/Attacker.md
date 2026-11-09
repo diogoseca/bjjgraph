@@ -263,7 +263,7 @@ The Arm Triangle from Ushiro Kesa Gatame exploits the natural arm isolation of t
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Arm Triangle/from Ushiro Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Arm Triangle/from Ushiro Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

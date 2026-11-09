@@ -254,9 +254,8 @@ The submission is particularly dangerous because the pain can be delayed, meanin
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

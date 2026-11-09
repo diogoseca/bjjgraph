@@ -186,7 +186,7 @@ Technically, the saddle amplifies the toe hold's effectiveness compared to other
 - Apply pressure gradually over 5-7 seconds minimum, as the toe hold can cause injury before significant pain registers
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Technically, the saddle amplifies the toe hold's effectiveness compared to other
 - A second hand threads under the opponent's first forearm, indicating the kimura-style figure-four lock is being established
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -303,9 +303,8 @@ Technically, the saddle amplifies the toe hold's effectiveness compared to other
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -215,9 +215,8 @@ As a chaining attack born from scrambles and failed-finish situations, the Inver
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

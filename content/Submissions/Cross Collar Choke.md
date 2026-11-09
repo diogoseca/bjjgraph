@@ -254,9 +254,8 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

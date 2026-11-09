@@ -186,7 +186,7 @@ Inside Ashi-Garami provides a tactically valuable platform for the toe hold beca
 - Control the opponent's knee line with your outside leg hook to prevent them from rotating their knee away from the rotational force
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Inside Ashi-Garami provides a tactically valuable platform for the toe hold beca
 - After defending a straight ankle lock attempt, the attacker does not release but instead adjusts their grip downward toward your foot - they are chaining to the toe hold
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -319,9 +319,8 @@ Inside Ashi-Garami provides a tactically valuable platform for the toe hold beca
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -198,7 +198,7 @@ Defending the Short Choke from Cross Body requires immediate recognition of the 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Short Choke/from Cross Body#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Short Choke/from Cross Body#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -269,7 +269,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Far Side Armbar/from Side Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Far Side Armbar/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

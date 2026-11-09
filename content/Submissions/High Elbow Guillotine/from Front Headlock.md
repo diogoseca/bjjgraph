@@ -186,7 +186,7 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 - Time the elbow elevation with the squeeze—raise the elbow and tighten simultaneously for maximum effect
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 - Opponent's free hand moving to reinforce their grip—grabbing their own wrist or cupping their fist—signaling the transition to high elbow is imminent
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -309,9 +309,8 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

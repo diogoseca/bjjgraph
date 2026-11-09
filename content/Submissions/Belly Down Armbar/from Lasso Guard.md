@@ -168,7 +168,7 @@ From a strategic perspective, this submission works best when the opponent is fo
 - Time the lasso release precisely: only after both legs are secured around the arm in the armbar configuration, never before
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ From a strategic perspective, this submission works best when the opponent is fo
 - You feel the lasso pressure shift from a sweeping vector (sideways) to a pulling vector (forward and down), indicating posture break for submission setup
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -301,9 +301,8 @@ From a strategic perspective, this submission works best when the opponent is fo
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

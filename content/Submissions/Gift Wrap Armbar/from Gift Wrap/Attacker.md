@@ -281,7 +281,7 @@ The Gift Wrap Armbar from the attacker's perspective demands precise coordinatio
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Gift Wrap Armbar/from Gift Wrap#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Gift Wrap Armbar/from Gift Wrap#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

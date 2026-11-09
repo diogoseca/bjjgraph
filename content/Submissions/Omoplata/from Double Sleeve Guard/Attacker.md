@@ -263,7 +263,7 @@ Attacking the omoplata from double sleeve guard leverages your existing bilatera
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Omoplata/from Double Sleeve Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Omoplata/from Double Sleeve Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -245,7 +245,7 @@ Defending the toe hold from Outside Ashi-Garami requires immediate recognition o
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Toe Hold/from Outside Ashi#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Toe Hold/from Outside Ashi#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

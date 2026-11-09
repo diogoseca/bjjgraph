@@ -269,7 +269,7 @@ Attacking the belly down armbar from lasso guard leverages the pre-existing arm 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Lasso Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Lasso Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

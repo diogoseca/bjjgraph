@@ -199,7 +199,7 @@ Defending the rear naked choke from mounted crucifix is one of the most challeng
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Rear Naked Choke/from Mounted Crucifix#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Rear Naked Choke/from Mounted Crucifix#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

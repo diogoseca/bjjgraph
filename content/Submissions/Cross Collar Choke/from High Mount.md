@@ -168,7 +168,7 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 - Patient grip fighting from high mount is sustainable; the position favors you in any attrition exchange
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 - You feel wrist bone pressure against the side of your neck as the first grip reaches depth
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -305,9 +305,8 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

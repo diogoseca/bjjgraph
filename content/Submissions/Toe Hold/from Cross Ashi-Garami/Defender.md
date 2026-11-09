@@ -228,7 +228,7 @@ Defending the toe hold from cross ashi-garami demands early recognition and imme
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Toe Hold/from Cross Ashi-Garami#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Toe Hold/from Cross Ashi-Garami#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

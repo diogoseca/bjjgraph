@@ -170,7 +170,7 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 - Maintain readiness to convert failed finish attempts into positional advancement when choke defense opens other opportunities
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -246,7 +246,7 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 - Difficulty breathing or sudden lightheadedness indicating blood flow restriction has begun
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -315,9 +315,8 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -184,7 +184,7 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 - Proper shoulder alignment maximizes pressure while minimizing injury risk
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -256,7 +256,7 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 - Increasing shoulder pressure that feels different from normal side control - a compressive, inward force rather than downward pin
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -322,9 +322,8 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

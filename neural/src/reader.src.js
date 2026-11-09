@@ -530,6 +530,8 @@ class Reader {
     labels.recognition = transition ? "Recognize the transition" : "Recognize the attack";
     labels.setup = transition ? "Set up the transition" : "Set up the attack";
     if (/^\/Systems\//.test(path)) labels.prerequisites = "Is this for you?";
+    // U113 b (owner, 2026-11-09): since U111 a submission's guide holds only its injury risks, so its tile and index row say so.
+    if (submission) labels.safety = "Injury risks";
     labels.options = /^\/Systems\//.test(path) ? "Coverage and limits" : position ? "Decisions from " + (bottom ? "bottom" : "top") : defender ? "Defensive options" : transition ? "Execution and counters" : submission ? "Attacking options" : /^\/Learning\//.test(path) ? "In practice" : "Applications";
     let ordinal = 0;
     for (const part of parts) {

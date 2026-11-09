@@ -186,7 +186,7 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 - Attack the arm during transitions—the moment the bottom player extends for an underhook or frame is the highest-percentage entry window
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 - Opponent abandons passing momentum and redirects attention specifically to controlling and isolating your near arm
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -318,9 +318,8 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

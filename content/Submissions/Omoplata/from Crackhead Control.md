@@ -170,7 +170,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Unload first, then free the arm: Stop at a tap or verbal signal, remove the joint pressure, and release the leg clamp so the arm can move freely.
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -236,7 +236,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Bring the leg into the omoplata shoulder enclosure while keeping the opponent's wrist and upper arm controlled.
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -272,9 +272,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

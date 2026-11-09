@@ -230,7 +230,7 @@ Defending the calf slicer from backside 50-50 requires early recognition of the 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Calf Slicer/from Backside 50-50#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Calf Slicer/from Backside 50-50#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

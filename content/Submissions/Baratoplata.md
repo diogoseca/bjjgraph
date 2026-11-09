@@ -219,9 +219,8 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

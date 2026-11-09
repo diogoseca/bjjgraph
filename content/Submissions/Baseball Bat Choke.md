@@ -226,9 +226,8 @@ Named for the grip configuration that resembles holding a baseball bat, this tec
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

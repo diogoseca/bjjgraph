@@ -427,7 +427,7 @@ Full rules in `docs/Content.md`. The parts you can break:
 - **Submissions must carry a safety section** (last in the app, its rule directly above the steps).
   The source authors injury risks with severity, application speed, tap signals, release protocol,
   training restrictions and safety-critical assessment questions; the page shows only the injury
-  risks and a closing "Go slow." line (U112 a: the cut is in the three Submission templates).
+  risks, titled "Injury risks" (U113 b), and a closing "Go slow." line (U112 a: cut in the templates).
 - **Attempt probabilities sum to 100 per role, per ruleset frame.**
 
 ### Systems: guides and product links

@@ -284,7 +284,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Omoplata/from Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Omoplata/from Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

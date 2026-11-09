@@ -166,7 +166,7 @@ Prized by pressure passers for letting them strangle an opponent with their own 
 - Timing the finish with opponent's defensive movements increases effectiveness
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ Prized by pressure passers for letting them strangle an opponent with their own 
 - You feel crossing pressure on both sides of your neck simultaneously, with the collar tightening around your carotid arteries rather than across your throat
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -313,9 +313,8 @@ Prized by pressure passers for letting them strangle an opponent with their own 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

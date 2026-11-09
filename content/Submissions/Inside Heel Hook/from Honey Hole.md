@@ -186,7 +186,7 @@ This submission demands absolute safety awareness. The rotational force attacks 
 - Treat every training application as if your partner's knee depends on your control—because it does
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ This submission demands absolute safety awareness. The rotational force attacks 
 - Opponent tucks your foot toward their armpit and you feel the blade of their wrist contact your Achilles tendon
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -326,9 +326,8 @@ This submission demands absolute safety awareness. The rotational force attacks 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

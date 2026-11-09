@@ -236,7 +236,7 @@ Defending against the Kimura from Lasso Guard requires understanding the specifi
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Kimura/from Lasso Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Kimura/from Lasso Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -250,7 +250,7 @@ Successful defense requires calm, systematic decision-making under pressure. The
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Outside Heel Hook/from Cross Ashi-Garami#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Outside Heel Hook/from Cross Ashi-Garami#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

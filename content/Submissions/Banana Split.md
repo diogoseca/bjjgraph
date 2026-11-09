@@ -221,9 +221,8 @@ The Banana Split often works in combination with other attacks from half guard a
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

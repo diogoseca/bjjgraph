@@ -209,7 +209,7 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 - Release the grip: Open the hands and remove all neck pressure on the first stop signal.
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -277,7 +277,7 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 - Bring the supporting elbow over the shoulder through a comfortable arm path.
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -312,9 +312,8 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

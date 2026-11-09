@@ -168,7 +168,7 @@ In competition, this variant carries a higher finishing rate than standard Darce
 - Recognize the turn-in response as the primary entry window and attack immediately when it appears
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ In competition, this variant carries a higher finishing rate than standard Darce
 - Attacker begins adjusting their angle from perpendicular toward your head, a positioning change needed for the Darce finish
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -299,9 +299,8 @@ In competition, this variant carries a higher finishing rate than standard Darce
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

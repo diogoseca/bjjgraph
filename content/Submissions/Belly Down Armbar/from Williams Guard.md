@@ -168,7 +168,7 @@ From a strategic perspective, this submission addresses the primary weakness of 
 - Align your hips directly over the back of the opponent's elbow joint before applying any finishing extension
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ From a strategic perspective, this submission addresses the primary weakness of 
 - The bottom player's body begins rotating from supine to prone while maintaining arm control between their legs
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -285,9 +285,8 @@ From a strategic perspective, this submission addresses the primary weakness of 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

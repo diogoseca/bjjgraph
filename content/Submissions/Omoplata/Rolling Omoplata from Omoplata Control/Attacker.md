@@ -260,7 +260,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

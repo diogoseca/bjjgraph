@@ -188,7 +188,7 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 - Point toes and pinch heels to create maximum hip pressure and control
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -262,7 +262,7 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 - Attacker begins lifting one leg near your head in preparation for the swing-over transition
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -342,9 +342,8 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

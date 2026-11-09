@@ -4,7 +4,7 @@
 // signals, release protocol and training restrictions stay authored in the source JSON and reach no page.
 //
 // This pins the template side, over what regenerate:md EMITTED (the committed content/*.md), plus the templates and the source:
-//   - every Submission page with a Safety Guide has its injury table, ends the guide with the closing line, and has none of the
+//   - every Submission page with an Injury risks guide (U113 b's name) has its injury table, ends the guide with the closing line, and has none of the
 //     four dropped parts; a positive count, so a scan that read nothing cannot pass;
 //   - each of the three templates carries the line once and none of the four heads;
 //   - every Submission source that authors a safety object still authors all four parts, non-empty.
@@ -27,7 +27,7 @@ const walk = dir => readdirSync(dir).flatMap(name => {
 })
 const submissions = walk(join(root, "content/Submissions"))
 const guide = text => {
-  const start = text.indexOf("## Safety Guide")
+  const start = text.indexOf("## Injury risks")  // U113 b (owner, 2026-11-09): the section is named for what it holds
   return start < 0 ? null : text.slice(start, text.indexOf("</section>", start))
 }
 
@@ -40,7 +40,7 @@ test("every built Submission guide is its injury risks, then the closing line", 
     pages++
     const lines = section.split("\n").map(l => l.trim()).filter(Boolean)
     const why = [
-      !section.includes("**Injury Risks**:") && "no injury risks",
+      section.includes("**Injury Risks**") && "U113 b: the heading says it, so no label says it again",
       !/\| Injury \| Severity \| Recovery Time \|\n\|[-|]+\|\n\|/.test(section) && "no injury table rows",
       lines.at(-1) !== LINE && "does not end with the closing line",
       section.split(LINE).length !== 2 && "the closing line is not there exactly once",
@@ -57,6 +57,7 @@ test("each Submission template renders the guide that way", () => {
   for (const name of ["templates/Submissions.md.jinja2", "templates/Submissions/TEMPLATE-DUAL.md.jinja2", "templates/Submissions/TEMPLATE-FAMILY.md.jinja2"]) {
     const section = guide(readFileSync(join(root, name), "utf8"))
     assert.ok(section && section.includes("safety_considerations.injury_risks"), name + ": the injury loop")
+    assert.ok(!section.includes("**Injury Risks**"), name + ": U113 b, said once")
     assert.equal(section.split(LINE).length, 2, name + ": the closing line, once")
     assert.deepEqual(DROPPED.filter(head => section.includes(head)), [], name + ": none of the four dropped heads")
   }

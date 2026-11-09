@@ -204,9 +204,8 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

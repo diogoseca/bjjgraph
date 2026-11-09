@@ -301,7 +301,7 @@ Raise the elbow through available space, never by wrenching the shoulder or neck
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/High Elbow Guillotine/from Hindulotine#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/High Elbow Guillotine/from Hindulotine#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -6,7 +6,8 @@ import { journey } from "../dsl"
  * the tap at the end of the article please". U112 a puts the cut in the page itself: the three Submission templates render the
  * Safety Guide as the injury-risk table and one closing line, so the static page, its markdown export and the app's reader
  * show the same guide. Application speed, tap signals, release protocol and training restrictions stay authored in the source
- * and reach no page. Transitions share the section id and keep their whole guide; no other page gets the line.
+ * and reach no page. U113 b (owner, 2026-11-09): the section is "Injury risks", said once: the page's heading and the reader's tile
+ * and index row, with no "Injury Risks:" label left above the table. Transitions share the section id and keep their whole guide; no other page gets the line.
  *
  * THE CLAIMS, from what the build and the reader EMITTED:
  *   - the built hub's guide is its injury table and, last, the closing line; none of the four dropped parts; and its markdown
@@ -40,7 +41,9 @@ async function read(page: Page, path: string, hub: string) {
     return {
       builtRows: [...(built?.querySelector("table")?.querySelectorAll("tr") || [])].map(r => norm(r.textContent)),
       builtHeads: [...(built?.querySelectorAll("strong") || [])].map(s => norm(s.textContent)),
-      builtLast: norm(built?.lastElementChild?.textContent),
+      builtLast: norm(built?.lastElementChild?.textContent), builtTitle: norm(built?.querySelector('h2')?.textContent),
+      tileTitle: norm(shown?.closest('.ng-section-card')?.querySelector('.ng-section-title')?.textContent),
+      indexRow: norm(document.querySelector('.ng-reader-toc-row[data-toc-type="safety"] a')?.textContent),
       md: { length: md.length, note: md.includes(NOTE.replace("Go slow.", "**Go slow.**")), dropped: /\*\*(Application Speed|Tap Signals|Release Protocol|Training Restrictions)\*\*/.test(md) },
       shownRows: [...(table?.querySelectorAll("tr") || [])].map(r => norm(r.textContent)),
       heads: [...(shown?.querySelectorAll("strong") || [])].map(s => norm(s.textContent)),
@@ -62,6 +65,8 @@ for (const [path, hub] of [
     expect(m.builtRows.length, "control: the built hub has an injury table").toBeGreaterThan(2)
     expect(m.builtHeads.filter(h => DROPPED.some(d => h.startsWith(d))), "the page publishes none of the four dropped parts").toEqual([])
     expect(m.builtLast, "the page's guide ends with the closing line").toBe(NOTE)
+    expect([m.builtTitle, m.tileTitle, m.indexRow], 'U113 b: "Injury risks" on the page, the tile and its index row').toEqual(['Injury risks', 'Injury risks', 'Injury risks'])
+    expect(m.builtHeads.filter(h => /^Injury Risks/i.test(h)), 'U113 b: said once, no label above the table').toEqual([])
     expect(m.md, "its markdown export says the same").toEqual({ length: expect.any(Number), note: true, dropped: false })
     expect(m.md.length, "control: the markdown export was read").toBeGreaterThan(1000)
     expect(m.shownRows, "the reader shows the hub's injury table, row for row").toEqual(m.builtRows)

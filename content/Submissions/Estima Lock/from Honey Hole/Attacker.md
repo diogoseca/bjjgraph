@@ -264,7 +264,7 @@ Attacking with the Estima Lock from Honey Hole requires recognizing when heel ho
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Estima Lock/from Honey Hole#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Estima Lock/from Honey Hole#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

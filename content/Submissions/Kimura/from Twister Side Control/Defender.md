@@ -237,7 +237,7 @@ Defending the Kimura from Twister Side Control requires early recognition that t
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Kimura/from Twister Side Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Kimura/from Twister Side Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

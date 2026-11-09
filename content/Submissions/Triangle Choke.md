@@ -241,9 +241,8 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

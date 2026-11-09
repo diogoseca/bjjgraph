@@ -264,7 +264,7 @@ Executing the guillotine choke from established guillotine control shifts the ch
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Guillotine Choke/from Guillotine Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Guillotine Choke/from Guillotine Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

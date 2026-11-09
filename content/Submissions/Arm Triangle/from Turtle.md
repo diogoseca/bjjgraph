@@ -186,7 +186,7 @@ At the competition level, this submission serves as a powerful secondary attack 
 - Walk hips toward the opponent during the finish to generate squeeze pressure through structural alignment rather than muscular effort
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ At the competition level, this submission serves as a powerful secondary attack 
 - The distinctive figure-four grip lock behind your head, where you feel the attacker's hands clasping together
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -323,9 +323,8 @@ At the competition level, this submission serves as a powerful secondary attack 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

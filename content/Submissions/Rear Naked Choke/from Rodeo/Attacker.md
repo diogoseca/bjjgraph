@@ -264,7 +264,7 @@ Executing the Rear Naked Choke from Rodeo Ride requires integrating positional c
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Rodeo#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Rodeo#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

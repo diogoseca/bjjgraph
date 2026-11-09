@@ -202,7 +202,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 - Chest-to-thigh connection creates the fulcrum point for knee hyperextension
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -272,7 +272,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 - Opponent's hands shift from controlling your upper body (collar, sleeve, underhook) to reaching for your hip, belt, or far leg—this signals they are securing the kneebar position rather than attempting a sweep
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -340,9 +340,8 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

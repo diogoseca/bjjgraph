@@ -168,7 +168,7 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 - Exit awareness - always have a plan to transition if the submission fails
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 - Your arm is extended and opponent's hips are approaching perpendicular alignment to your spine after a rolling motion
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -322,9 +322,8 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

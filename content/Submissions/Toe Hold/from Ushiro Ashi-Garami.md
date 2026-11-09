@@ -186,7 +186,7 @@ Strategically, the toe hold from ushiro serves as a critical secondary attack wh
 - Control the opponent's free leg with your outside leg to prevent them from using it to rotate and relieve pressure
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ Strategically, the toe hold from ushiro serves as a critical secondary attack wh
 - The attacker shifts their weight backward slightly as they prepare to load the grip with hip extension
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -302,9 +302,8 @@ Strategically, the toe hold from ushiro serves as a critical secondary attack wh
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

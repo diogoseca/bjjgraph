@@ -204,7 +204,7 @@ The finishing mechanics rely on chest expansion and shoulder rotation rather tha
 - Use angle changes and hip adjustments to create space for arm insertion when the opponent maintains tight chin-to-chest defense
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -278,7 +278,7 @@ The finishing mechanics rely on chest expansion and shoulder rotation rather tha
 - Attacker's supporting hand moves to your forehead or jaw, pushing your head back to open space between chin and chest for the choking arm
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -341,9 +341,8 @@ The finishing mechanics rely on chest expansion and shoulder rotation rather tha
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

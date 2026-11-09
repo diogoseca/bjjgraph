@@ -168,7 +168,7 @@ This submission carries extreme injury risk because knee ligaments can rupture b
 - Monitor your own heel defense throughout the attack, since 50-50 gives the defender mirror access to your legs
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ This submission carries extreme injury risk because knee ligaments can rupture b
 - Sensing any rotational torque beginning at your ankle that transmits pressure toward your knee joint
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -302,9 +302,8 @@ This submission carries extreme injury risk because knee ligaments can rupture b
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

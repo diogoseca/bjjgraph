@@ -186,7 +186,7 @@ What makes this attack devastatingly effective is the positional advantage alrea
 - Keep the opponent's elbow pinned tight to your chest to establish the fulcrum point for maximum rotational leverage
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ What makes this attack devastatingly effective is the positional advantage alrea
 - Feeling the attacker pull your elbow tight against their chest, establishing a fixed point that signals the rotational finish is imminent
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -317,9 +317,8 @@ What makes this attack devastatingly effective is the positional advantage alrea
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

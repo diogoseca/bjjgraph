@@ -140,9 +140,8 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -251,7 +251,7 @@ Critical safety awareness is non-negotiable when defending kneebars from the Sad
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Kneebar/from Saddle#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Kneebar/from Saddle#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

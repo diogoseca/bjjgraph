@@ -188,7 +188,7 @@ Finishing mechanics require precise bilateral compression of both carotid arteri
 - Hook security maintenance — keep lower body control active throughout the entire choke transition to prevent escape during the grip change window
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -264,7 +264,7 @@ Finishing mechanics require precise bilateral compression of both carotid arteri
 - Hook pressure intensifying as the attacker drives hooks deeper to secure lower body control before committing to the choke attempt
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -326,9 +326,8 @@ Finishing mechanics require precise bilateral compression of both carotid arteri
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

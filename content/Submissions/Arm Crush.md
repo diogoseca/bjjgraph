@@ -213,9 +213,8 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

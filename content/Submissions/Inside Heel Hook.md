@@ -245,9 +245,8 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

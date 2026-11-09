@@ -186,7 +186,7 @@ The technique carries significant injury risk due to simultaneous compression of
 - Chain between heel hook and calf slicer based on the opponent's knee angle to create an inescapable dilemma
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -256,7 +256,7 @@ The technique carries significant injury risk due to simultaneous compression of
 - You feel increasing inward pull on your foot toward the attacker's chest combined with forward hip pressure from behind your knee
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -315,9 +315,8 @@ The technique carries significant injury risk due to simultaneous compression of
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

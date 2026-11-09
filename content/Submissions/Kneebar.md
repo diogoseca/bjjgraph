@@ -263,9 +263,8 @@ The technique has evolved significantly with modern leg lock systems, particular
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

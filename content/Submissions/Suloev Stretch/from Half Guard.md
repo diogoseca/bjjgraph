@@ -175,7 +175,7 @@ Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submiss
 - Release and support the landing: Let the ankle go immediately on a tap and help the partner return to a stable base.
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -243,7 +243,7 @@ Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submiss
 - The attacker arranges your leg so it extends in its natural line rather than rotating sideways at the knee.
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -291,9 +291,8 @@ Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submiss
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -245,7 +245,7 @@ Defending against the outside heel hook from leg entanglement demands early reco
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Outside Heel Hook/from Leg Entanglement#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Outside Heel Hook/from Leg Entanglement#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

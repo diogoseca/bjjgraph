@@ -236,9 +236,8 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

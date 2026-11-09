@@ -168,7 +168,7 @@ The strategic value of this technique lies in its complementary relationship wit
 - Apply progressive pressure over 5-7 seconds minimum in training, monitoring continuously for tap signals
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ The strategic value of this technique lies in its complementary relationship wit
 - Opponent using one hand to control your toes or reposition your foot to expose the heel from the lateral angle
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -303,9 +303,8 @@ The strategic value of this technique lies in its complementary relationship wit
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

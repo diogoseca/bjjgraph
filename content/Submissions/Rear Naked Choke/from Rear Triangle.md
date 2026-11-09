@@ -186,7 +186,7 @@ Strategically, this submission creates a cascading dilemma: defending the triang
 - Apply the choke by expanding your chest and pulling elbows together rather than cranking with arm strength
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -256,7 +256,7 @@ Strategically, this submission creates a cascading dilemma: defending the triang
 - You feel wrist or forearm pressure along your jawline as the opponent attempts to work past your chin tuck
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -299,9 +299,8 @@ Strategically, this submission creates a cascading dilemma: defending the triang
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

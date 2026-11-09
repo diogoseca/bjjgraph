@@ -166,7 +166,7 @@ Strategically, the omoplata from Rubber Guard serves dual purposes: it functions
 - Use the natural Rubber Guard progression from Mission Control to New York rather than forcing the omoplata from suboptimal angles
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -238,7 +238,7 @@ Strategically, the omoplata from Rubber Guard serves dual purposes: it functions
 - Opponent's body begins rotating away from you while their leg maintains heavy pressure across your shoulder and upper back
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -301,9 +301,8 @@ Strategically, the omoplata from Rubber Guard serves dual purposes: it functions
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

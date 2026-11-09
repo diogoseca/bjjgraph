@@ -168,7 +168,7 @@ The finishing mechanics remain identical to the standard RNC — the choking arm
 - Maintain constant chest-to-back connection throughout the hand fighting sequence to prevent any space creation that enables escape
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ The finishing mechanics remain identical to the standard RNC — the choking arm
 - Head pressure from behind — opponent presses their head firmly against yours to control your head angle and prevent chin defense
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -301,9 +301,8 @@ The finishing mechanics remain identical to the standard RNC — the choking arm
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

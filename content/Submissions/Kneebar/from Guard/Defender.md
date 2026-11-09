@@ -251,7 +251,7 @@ Critical safety awareness is paramount when defending kneebars. If your opponent
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Kneebar/from Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Kneebar/from Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

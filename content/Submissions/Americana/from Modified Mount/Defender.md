@@ -222,7 +222,7 @@ Defending the Americana from Modified Mount requires early recognition and immed
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Americana/from Modified Mount#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Americana/from Modified Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

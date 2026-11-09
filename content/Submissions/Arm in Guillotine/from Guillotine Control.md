@@ -168,7 +168,7 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 - Apply progressive and controlled pressure using body mechanics rather than explosive arm squeezing to maintain position and allow safe training
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 - You notice your vision darkening or hearing changing, indicating carotid compression has begun and immediate defensive action or tap is required
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -307,9 +307,8 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

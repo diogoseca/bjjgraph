@@ -296,7 +296,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Armbar/from Back with Legs#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Armbar/from Back with Legs#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

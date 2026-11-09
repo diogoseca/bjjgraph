@@ -202,7 +202,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 - Understanding this technique defensively prevents being caught by less experienced or unethical opponents
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -276,7 +276,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 - You feel increasing forward flexion pressure on your cervical spine that you cannot relieve through normal guard adjustments or hip movement
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -345,9 +345,8 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

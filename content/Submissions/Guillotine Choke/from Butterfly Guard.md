@@ -168,7 +168,7 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 - Time the guillotine entry with the opponent's forward pressure or failed pass attempt for maximum head exposure
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -238,7 +238,7 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 - Grip tightening sensation around your neck combined with the opponent curling their upper body around your head and pulling elbows inward
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -304,9 +304,8 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

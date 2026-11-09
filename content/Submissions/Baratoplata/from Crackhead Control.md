@@ -170,7 +170,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Unload shoulder before unwrapping: Remove the shoulder pressure at once on a tap or verbal stop, then free the wrist and leg connection.
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -236,7 +236,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Establish the Duda-style arm isolation required for the Baratoplata before changing the leg and grip arrangement.
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -272,9 +272,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

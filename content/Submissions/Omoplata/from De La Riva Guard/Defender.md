@@ -272,7 +272,7 @@ Defending the omoplata from De La Riva Guard starts with recognizing the leg swi
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Omoplata/from De La Riva Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Omoplata/from De La Riva Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

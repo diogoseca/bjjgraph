@@ -264,7 +264,7 @@ Attacking with the North-South Choke from the standard North-South position leve
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/North-South Choke/from North-South#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/North-South Choke/from North-South#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

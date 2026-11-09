@@ -168,7 +168,7 @@ At the purple and brown belt level, this technique punishes opponents who have d
 - Keep your own elbows tight to your body throughout the finish to maximize leverage and prevent the opponent from creating space
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ At the purple and brown belt level, this technique punishes opponents who have d
 - Your wrist begins moving in an arc along the mat away from your body rather than being pulled behind your back
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -306,9 +306,8 @@ At the purple and brown belt level, this technique punishes opponents who have d
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

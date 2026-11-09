@@ -186,7 +186,7 @@ Strategically, this submission chains naturally with other mounted crucifix atta
 - Control the opponent's shoulder rotation by pressing your belly weight onto the back of their trapped arm
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Strategically, this submission chains naturally with other mounted crucifix atta
 - Attacker's weight shifts off your centerline toward the side of the targeted arm
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -318,9 +318,8 @@ Strategically, this submission chains naturally with other mounted crucifix atta
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

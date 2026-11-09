@@ -238,7 +238,7 @@ Defending the Kimura from turtle requires immediate recognition and decisive act
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Kimura/from Turtle#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Kimura/from Turtle#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

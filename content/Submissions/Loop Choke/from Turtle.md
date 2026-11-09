@@ -188,7 +188,7 @@ This submission chains naturally with other turtle attacks like the clock choke,
 - Chain the loop choke with clock choke and back take threats to create defensive overload on the turtled opponent
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -264,7 +264,7 @@ This submission chains naturally with other turtle attacks like the clock choke,
 - Attacker's chest lifts off your back as they reposition to the front or side, transitioning from turtle top control to a rolling attack angle
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -334,9 +334,8 @@ This submission chains naturally with other turtle attacks like the clock choke,
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

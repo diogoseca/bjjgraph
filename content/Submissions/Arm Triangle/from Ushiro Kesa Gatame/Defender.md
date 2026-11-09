@@ -272,7 +272,7 @@ Defending the Arm Triangle from Ushiro Kesa Gatame requires proactive management
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Arm Triangle/from Ushiro Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Arm Triangle/from Ushiro Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

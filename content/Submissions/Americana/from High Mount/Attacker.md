@@ -281,7 +281,7 @@ Attacking the Americana from high mount gives you a structural advantage unmatch
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Americana/from High Mount#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Americana/from High Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

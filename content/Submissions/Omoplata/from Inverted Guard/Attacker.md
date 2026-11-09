@@ -281,7 +281,7 @@ Attacking the omoplata from inverted guard requires threading your leg over the 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Omoplata/from Inverted Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Omoplata/from Inverted Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

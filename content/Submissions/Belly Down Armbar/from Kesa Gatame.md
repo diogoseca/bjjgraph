@@ -186,7 +186,7 @@ This technique is particularly effective against opponents who defend the tradit
 - Ensure the opponent's thumb points upward before applying extension to maximize leverage on the elbow joint
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ This technique is particularly effective against opponents who defend the tradit
 - Opponent's chest pressure shifts from your torso toward your shoulder as they begin rotating their body toward the prone position
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -318,9 +318,8 @@ This technique is particularly effective against opponents who defend the tradit
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -204,7 +204,7 @@ At competition level, this submission serves as a critical complement to heel ho
 - Use the calf slicer threat to reopen the heel for heel hook attacks, creating a continuous submission cycle
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -274,7 +274,7 @@ At competition level, this submission serves as a critical complement to heel ho
 - Opponent adjusts their body position to optimize the angle of their shin behind your knee
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -316,9 +316,8 @@ At competition level, this submission serves as a critical complement to heel ho
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

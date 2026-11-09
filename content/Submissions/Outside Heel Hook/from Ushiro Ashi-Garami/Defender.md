@@ -231,7 +231,7 @@ Defending the outside heel hook from ushiro ashi-garami requires early recogniti
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Outside Heel Hook/from Ushiro Ashi-Garami#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Outside Heel Hook/from Ushiro Ashi-Garami#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

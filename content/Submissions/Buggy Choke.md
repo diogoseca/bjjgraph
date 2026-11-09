@@ -204,7 +204,7 @@ For the purple-to-brown belt grappler, the value of the Buggy Choke is less abou
 - Keep the trapped arm pinned throughout — releasing the crossface arm gives the single highest-percentage escape.
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -274,7 +274,7 @@ For the purple-to-brown belt grappler, the value of the Buggy Choke is less abou
 - You feel compression building on the sides of your neck rather than on your windpipe.
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -347,9 +347,8 @@ For the purple-to-brown belt grappler, the value of the Buggy Choke is less abou
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

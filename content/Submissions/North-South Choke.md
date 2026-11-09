@@ -223,9 +223,8 @@ Unlike traditional arm chokes that rely on conspicuous limb positioning, the Nor
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

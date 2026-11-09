@@ -200,9 +200,8 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

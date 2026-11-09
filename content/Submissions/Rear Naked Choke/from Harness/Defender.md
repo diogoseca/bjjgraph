@@ -255,7 +255,7 @@ Defending the Rear Naked Choke from Harness demands constant vigilance and disci
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Rear Naked Choke/from Harness#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Rear Naked Choke/from Harness#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

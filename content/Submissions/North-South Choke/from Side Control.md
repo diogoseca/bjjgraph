@@ -168,7 +168,7 @@ This submission is particularly effective against opponents who defend side cont
 - Keep your head low and tight against the opponent's far-side hip to prevent them from creating rotational escape angles
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ This submission is particularly effective against opponents who defend side cont
 - You feel the attacker's bicep sliding underneath your neck with their elbow moving past your chin toward the far side
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -286,9 +286,8 @@ This submission is particularly effective against opponents who defend side cont
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

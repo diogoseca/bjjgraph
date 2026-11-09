@@ -230,9 +230,8 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

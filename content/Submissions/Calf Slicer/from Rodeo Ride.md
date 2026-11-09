@@ -187,7 +187,7 @@ The calf slicer from this position requires precise leg threading mechanics and 
 - Commit to the submission only when upper body control is stable enough to survive the positional adjustment required for leg threading
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -261,7 +261,7 @@ The calf slicer from this position requires precise leg threading mechanics and 
 - Sudden reduction in the attacker's base stability as they commit their posted leg to the threading motion
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -323,9 +323,8 @@ The calf slicer from this position requires precise leg threading mechanics and 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

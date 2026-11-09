@@ -467,16 +467,17 @@ presenting the field as individualized medical advice.
 
 **What a page shows (owner, U112 a, 2026-11-09):** "Show only the injury risks, and a disclaimer with a
 sensible warning to go slow and watch out for the tap at the end of the article". The three Submission
-templates render the Safety Guide as the injury-risk table and one closing line, `Go slow. Apply this
+templates render the guide as "Injury risks" (U113 b: the heading names it once, with no label over the table),
+the injury-risk table and one closing line, `Go slow. Apply this
 gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.`
 Application speed, tap signals, release protocol and training restrictions stay required in the source,
 and reach no page, no markdown export and no app dossier. The md-only `Cross Collar Choke/Finish` page
 has no source and was cut by hand the same way.
 
 Keep warnings prominent and before execution instructions. Submission templates carry one line
-directly above the steps: `Release immediately upon tap. Safety guide ↓` above Execution Steps on the
-attacker and hub pages, `Tap early and often. Safety guide ↓` above Defensive Options on the defender
-page and above Escape Paths on the hub. `Safety guide ↓` links to the Safety Guide, which is the
+directly above the steps: `Release immediately upon tap. Injury risks ↓` above Execution Steps on the
+attacker and hub pages, `Tap early and often. Injury risks ↓` above Defensive Options on the defender
+page and above Escape Paths on the hub. `Injury risks ↓` links to that section (`#safety-considerations`), the
 last teaching section in the app, before Related. Family pages are the owner's exception (S3 a,
 2026-11-06): they carry the guide and no line, though 59 of the 62 hold finishing prose in a closed
 Mechanical variations block. “First visible content” is not an accurate description of their output.

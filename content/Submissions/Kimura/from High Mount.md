@@ -170,7 +170,7 @@ In competition, the Kimura from High Mount frequently appears as part of submiss
 - Apply finishing pressure progressively to allow training partners time to tap safely
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ In competition, the Kimura from High Mount frequently appears as part of submiss
 - Attacker abandons a choke attempt and immediately reaches for your arm, signaling a transition to shoulder lock attack
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -301,9 +301,8 @@ In competition, the Kimura from High Mount frequently appears as part of submiss
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

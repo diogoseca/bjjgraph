@@ -186,7 +186,7 @@ The submission chains available from this position further elevate its strategic
 - Time grip acquisition to coincide with the opponent's defensive hand movement or adjustment
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -256,7 +256,7 @@ The submission chains available from this position further elevate its strategic
 - Attacker's body begins rotating away from you while maintaining hip pressure, signaling the finishing sequence has started
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -315,9 +315,8 @@ The submission chains available from this position further elevate its strategic
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

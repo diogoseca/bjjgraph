@@ -202,7 +202,7 @@ The Armbar from Back Control represents one of the most devastating finishing se
 - Keep opponent's thumb pointing upward for proper elbow alignment
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -276,7 +276,7 @@ The Armbar from Back Control represents one of the most devastating finishing se
 - The attacker's weight shifts from directly behind you to angled on one side, with their hips rotating perpendicular to your spine
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -357,9 +357,8 @@ The Armbar from Back Control represents one of the most devastating finishing se
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

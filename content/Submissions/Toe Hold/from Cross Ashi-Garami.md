@@ -168,7 +168,7 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 - Stay prepared to transition immediately to heel hook or ankle lock if the opponent straightens their leg to defend the toe hold grip
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -238,7 +238,7 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 - Attacker pulls your foot snugly against their chest or shoulder, seating it against their torso as a fulcrum point for rotation
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -300,9 +300,8 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

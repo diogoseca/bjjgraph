@@ -230,7 +230,7 @@ Defending the Rear Naked Choke from Russian Cowboy requires addressing the immed
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Rear Naked Choke/from Russian Cowboy#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Rear Naked Choke/from Russian Cowboy#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

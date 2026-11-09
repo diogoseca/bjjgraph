@@ -168,7 +168,7 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 - Coordinate hip extension with elbow elevation to create opposing forces that amplify compression
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 - Attacker's hips begin driving forward and extending while their guard tightens, indicating the coordinated finishing squeeze is beginning
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -303,9 +303,8 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

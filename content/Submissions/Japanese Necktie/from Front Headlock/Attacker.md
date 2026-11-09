@@ -284,7 +284,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Japanese Necktie/from Front Headlock#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Japanese Necktie/from Front Headlock#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

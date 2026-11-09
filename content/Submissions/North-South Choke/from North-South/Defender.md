@@ -256,7 +256,7 @@ Defending against the North-South Choke requires early recognition and immediate
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/North-South Choke/from North-South#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/North-South Choke/from North-South#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

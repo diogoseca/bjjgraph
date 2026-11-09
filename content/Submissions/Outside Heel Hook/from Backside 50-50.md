@@ -187,7 +187,7 @@ This submission demands absolute respect for its injury potential. Rotational fo
 - Read defensive reactions before committing: If opponent hides heel effectively, transition to alternative attacks rather than forcing a well-defended heel hook
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -263,7 +263,7 @@ This submission demands absolute respect for its injury potential. Rotational fo
 - You feel the attacker's second hand join the first on your heel area, indicating they are establishing the reinforced finishing grip
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -329,9 +329,8 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

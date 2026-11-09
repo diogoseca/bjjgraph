@@ -168,7 +168,7 @@ Strategically, this Americana integrates into a powerful submission chain from r
 - Integrate the Americana into a chain with kimura and arm triangle to create an unsolvable dilemma for the defender
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ Strategically, this Americana integrates into a powerful submission chain from r
 - Increasing rotational pressure on your shoulder joint with your palm being painted toward the mat in an arc away from your body
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -301,9 +301,8 @@ Strategically, this Americana integrates into a powerful submission chain from r
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

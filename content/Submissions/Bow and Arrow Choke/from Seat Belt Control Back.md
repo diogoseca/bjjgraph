@@ -206,7 +206,7 @@ Strategically, the bow and arrow creates a devastating dilemma when combined wit
 - Angle your pulling direction toward your own hip rather than straight back to optimize the choking vector across the neck
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -282,7 +282,7 @@ Strategically, the bow and arrow creates a devastating dilemma when combined wit
 - The attacker's chest pressure changes from centered to slightly offset as they reposition for the bow and arrow angle
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -342,9 +342,8 @@ Strategically, the bow and arrow creates a devastating dilemma when combined wit
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -261,9 +261,8 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

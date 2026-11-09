@@ -263,7 +263,7 @@ Attacking with the Peruvian Necktie from front headlock requires precise grip po
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Peruvian Necktie/from Front Headlock#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Peruvian Necktie/from Front Headlock#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

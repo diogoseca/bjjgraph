@@ -168,7 +168,7 @@ Strategically, the bow and arrow choke serves as the premier gi-specific attack 
 - Maintain constant forward pressure with your chest during setup to prevent the opponent from creating defensive space or turning
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ Strategically, the bow and arrow choke serves as the premier gi-specific attack 
 - You feel a pulling sensation on your collar combined with the attacker's body moving perpendicular to yours
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -303,9 +303,8 @@ Strategically, the bow and arrow choke serves as the premier gi-specific attack 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

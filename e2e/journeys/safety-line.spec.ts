@@ -3,7 +3,7 @@ import { journey } from '../dsl'
 
 // S1 a (owner, 2026-11-06): "A: the guide last, one line above the steps". On a submission the full
 // Safety Guide is the last teaching section and the one rule sits directly above what it governs. S2 b: the
-// rule is plain text and only "Safety guide ↓" is the link. S3 a: a family page carries no line. The
+// rule is plain text and only its "↓" label is the link; U113 b (2026-11-09) names it "Injury risks ↓", as the section now is. S3 a: a family page carries no line. The
 // measured study is orchestrator reports/safety-placement-ux.md; the wording's line counts are in
 // reports/safety-last.md. Controls and their kills are recorded at the foot of this file.
 // FONT: e2e/dsl.ts stubs Google Fonts, so every journey here lays out in a fallback face. Only the one
@@ -14,7 +14,7 @@ const QUIET = { v: 2, settings: { landCard: false, landHand: false, landFeedback
 const HUB = '/Submissions/Americana/from-Side-Control'
 const ATTACKER = HUB + '/Attacker', DEFENDER = HUB + '/Defender', FAMILY = '/Submissions/Americana'
 // U+00A0 keeps the link's label whole, so a wrap can never leave the arrow alone on a line.
-const LABEL = 'Safety\u00a0guide\u00a0↓'
+const LABEL = 'Injury\u00a0risks\u00a0↓'
 const ATTACKER_LINE = 'Release immediately upon tap. ' + LABEL, DEFENDER_LINE = 'Tap early and often. ' + LABEL
 const BODY = '[data-reader-body]', GUIDE_LINK = BODY + ' blockquote a[data-reader-anchor="safety-considerations"]'
 // U112 a (owner, 2026-11-09): the guide itself now ends in a quoted line, so the rule lines are the quotes OUTSIDE it.

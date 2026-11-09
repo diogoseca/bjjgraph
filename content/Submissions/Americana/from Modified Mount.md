@@ -186,7 +186,7 @@ Competition data consistently shows the Americana from Modified Mount as a high-
 - Progressive pressure application over 3-5 seconds prevents injury and allows controlled finishing
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Competition data consistently shows the Americana from Modified Mount as a high-
 - Your arm is being bent to 90 degrees with your elbow driven downward toward the mat, a sign the finishing position is being established
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -317,9 +317,8 @@ Competition data consistently shows the Americana from Modified Mount as a high-
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

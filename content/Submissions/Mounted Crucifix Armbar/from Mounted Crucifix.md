@@ -186,7 +186,7 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 - Keep knees pinched tightly during the extension to prevent the defender from retracting the arm past the breaking line
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 - Attacker adjusts leg positioning to cross over your face or chest, transitioning from crucifix to armbar clamp
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -307,9 +307,8 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

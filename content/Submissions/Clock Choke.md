@@ -237,9 +237,8 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -210,9 +210,8 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -168,7 +168,7 @@ At the competition level, this combination represents one of the most dominant f
 - Time the collar feed during grip transitions—when your opponent breaks your seatbelt or adjusts their hand position, their collar is momentarily undefended
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ At the competition level, this combination represents one of the most dominant f
 - Body triangle pressure increases as the attacker begins straightening their body behind you, creating the initial tension for the choke finish
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -283,9 +283,8 @@ At the competition level, this combination represents one of the most dominant f
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

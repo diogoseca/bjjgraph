@@ -280,7 +280,7 @@ Attacking with the belly down armbar finish from knee on belly leverages the imm
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Knee on Belly#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Knee on Belly#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

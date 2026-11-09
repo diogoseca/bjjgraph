@@ -216,9 +216,8 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

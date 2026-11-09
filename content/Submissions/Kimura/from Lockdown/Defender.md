@@ -229,7 +229,7 @@ Defending the Kimura from Lockdown requires addressing both the shoulder lock th
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Kimura/from Lockdown#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Kimura/from Lockdown#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

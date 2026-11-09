@@ -304,7 +304,7 @@ As the attacker, your job is to recognize a straight, planted, or gripping hand 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Wrist Lock#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Wrist Lock#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

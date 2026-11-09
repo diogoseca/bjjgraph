@@ -247,7 +247,7 @@ Kimura from Triangle Control is a distinct submission state: the bottom player r
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Kimura/from Triangle Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Triangle Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

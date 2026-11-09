@@ -223,7 +223,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Carni Shoulder Lock#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Carni Shoulder Lock#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

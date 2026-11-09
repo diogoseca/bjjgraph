@@ -237,9 +237,8 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

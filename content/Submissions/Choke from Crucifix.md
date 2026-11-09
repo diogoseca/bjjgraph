@@ -206,7 +206,7 @@ This technique is commonly seen in high-level competition and represents excelle
 - Hide your choking arm by approaching from unexpected angles to prevent defensive turtling
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -278,7 +278,7 @@ This technique is commonly seen in high-level competition and represents excelle
 - You feel the attacker's forearm blade begin to slide along your jawline or under your chin from the side
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -353,9 +353,8 @@ This technique is commonly seen in high-level competition and represents excelle
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

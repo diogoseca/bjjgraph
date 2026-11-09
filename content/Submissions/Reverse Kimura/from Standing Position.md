@@ -166,7 +166,7 @@ Belonging to the Kimura family of shoulder locks, this reverse-grip variation ev
 - The submission can be applied progressively from control position or explosively in scrambles (training vs competition distinction)
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -238,7 +238,7 @@ Belonging to the Kimura family of shoulder locks, this reverse-grip variation ev
 - From standing or front headlock, attacker isolates your wrist and begins threading their controlling arm while maintaining head or body pressure
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -313,9 +313,8 @@ Belonging to the Kimura family of shoulder locks, this reverse-grip variation ev
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

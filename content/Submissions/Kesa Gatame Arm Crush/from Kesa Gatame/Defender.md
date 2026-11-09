@@ -197,7 +197,7 @@ Defending the Kesa Gatame Arm Crush requires early recognition and immediate act
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

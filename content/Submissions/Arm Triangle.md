@@ -249,9 +249,8 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

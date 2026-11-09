@@ -184,7 +184,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 - Thumb points up during extension to target the elbow joint correctly
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -256,7 +256,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 - Opponent secures an overhook on your arm while pulling it across their body toward their opposite hip, isolating the limb across their centerline
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -336,9 +336,8 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

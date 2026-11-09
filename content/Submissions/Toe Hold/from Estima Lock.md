@@ -168,7 +168,7 @@ This submission is particularly effective in no-gi grappling where the smooth su
 - Treat the Estima Lock and toe hold as a unified attack system where defending one submission exposes vulnerability to the other
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -238,7 +238,7 @@ This submission is particularly effective in no-gi grappling where the smooth su
 - Change in pressure vector from the Estima Lock's downward forearm compression to a rotational twisting force through your toes and ankle
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -278,9 +278,8 @@ This submission is particularly effective in no-gi grappling where the smooth su
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -287,7 +287,7 @@ Attacking with the toe hold from Outside Ashi-Garami transforms a defensive leg 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Toe Hold/from Outside Ashi#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Toe Hold/from Outside Ashi#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

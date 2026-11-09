@@ -166,7 +166,7 @@ Emerging from the 10th Planet system's leg-attack arsenal, the Calf Slicer from 
 - **Center of Gravity** - Keep your body weight distributed to maintain truck control while applying the calf compression
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -238,7 +238,7 @@ Emerging from the 10th Planet system's leg-attack arsenal, the Calf Slicer from 
 - Your heel begins being pulled toward your hamstring against your will, creating increasing compression and a folding sensation in your lower leg
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -315,9 +315,8 @@ Emerging from the 10th Planet system's leg-attack arsenal, the Calf Slicer from 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

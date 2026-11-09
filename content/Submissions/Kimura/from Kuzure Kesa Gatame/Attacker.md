@@ -275,7 +275,7 @@ Attacking with the Kimura from Kuzure Kesa Gatame leverages the position's built
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Kimura/from Kuzure Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Kuzure Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

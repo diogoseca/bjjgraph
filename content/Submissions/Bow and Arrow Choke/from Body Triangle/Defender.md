@@ -256,7 +256,7 @@ Defending the Bow and Arrow Choke from Body Triangle is among the most challengi
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Bow and Arrow Choke/from Body Triangle#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Bow and Arrow Choke/from Body Triangle#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

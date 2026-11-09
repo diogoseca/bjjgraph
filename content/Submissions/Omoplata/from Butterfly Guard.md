@@ -204,7 +204,7 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 - Chain the omoplata entry with butterfly sweep threats to create dilemmas that force defensive reactions opening the submission
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -272,7 +272,7 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 - Opponent's grip shifts from standard sweep-oriented collar or underhook control to targeting your far hip or belt for post-entry anchoring
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -329,9 +329,8 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

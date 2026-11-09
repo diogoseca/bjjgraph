@@ -231,9 +231,8 @@ The key to success lies in rapid arm isolation, maintaining connection to the op
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

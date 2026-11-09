@@ -237,7 +237,7 @@ Defending the heel hook from Cross Ashi-Garami demands immediate recognition of 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Heel Hook/from Cross Ashi-Garami#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Heel Hook/from Cross Ashi-Garami#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

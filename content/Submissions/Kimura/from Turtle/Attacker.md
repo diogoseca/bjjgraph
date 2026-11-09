@@ -302,7 +302,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Kimura/from Turtle#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Turtle#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

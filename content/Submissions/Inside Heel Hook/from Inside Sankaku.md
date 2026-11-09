@@ -168,7 +168,7 @@ Success depends on patience and systematic control breakdown rather than explosi
 - Maintain the figure-four leg configuration throughout the finish to prevent last-second knee line clearance that would neutralize the rotational attack
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ Success depends on patience and systematic control breakdown rather than explosi
 - The opponent begins stripping your defensive grip on your own ankle or fighting to peel your hands away from your heel
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -305,9 +305,8 @@ Success depends on patience and systematic control breakdown rather than explosi
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

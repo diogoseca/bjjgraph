@@ -218,9 +218,8 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

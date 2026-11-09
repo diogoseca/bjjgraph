@@ -295,7 +295,7 @@ Attacking the kneebar from Single Leg X-Guard Top requires a fundamental shift i
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Kneebar/from Single Leg X-Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Kneebar/from Single Leg X-Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

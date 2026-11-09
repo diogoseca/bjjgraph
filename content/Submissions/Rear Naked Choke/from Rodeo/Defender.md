@@ -197,7 +197,7 @@ Defending the Rear Naked Choke from Rodeo Ride requires immediate recognition of
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Rear Naked Choke/from Rodeo#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Rear Naked Choke/from Rodeo#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

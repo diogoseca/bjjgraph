@@ -186,7 +186,7 @@ From armbar control specifically, this finish is particularly accessible because
 - Apply extension progressively and slowly - the mechanical advantage in belly-down is enormous and can cause injury faster than expected
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ From armbar control specifically, this finish is particularly accessible because
 - The attacker consolidates both hands specifically onto your wrist in a tight monkey grip, abandoning any bicep or forearm control in favor of maximum wrist security
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -316,9 +316,8 @@ From armbar control specifically, this finish is particularly accessible because
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

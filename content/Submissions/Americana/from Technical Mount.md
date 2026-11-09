@@ -187,7 +187,7 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 - Drive the opponent's elbow toward their ear while keeping the wrist firmly anchored to create maximum glenohumeral torque
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -261,7 +261,7 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 - Attacker's elbows squeeze inward after establishing wrist control, indicating the figure-four is being tightened for the finishing rotation
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -331,9 +331,8 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

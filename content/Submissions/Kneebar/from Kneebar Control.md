@@ -168,7 +168,7 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 - Progressive pressure application prevents injury and provides consistent feedback on submission depth
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -238,7 +238,7 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 - Attacker begins pulling your leg toward their chest while extending their body to straighten your captured leg
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -299,9 +299,8 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

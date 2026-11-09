@@ -186,7 +186,7 @@ In competition, the toe hold from Backside 50-50 serves as both a primary finish
 - Keep legs active in the entanglement throughout the submission attempt to prevent opponent from extracting and recovering guard
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ In competition, the toe hold from Backside 50-50 serves as both a primary finish
 - Sensation of your ankle being controlled with increasing rotational tension as the figure-four locks into place
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -302,9 +302,8 @@ In competition, the toe hold from Backside 50-50 serves as both a primary finish
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

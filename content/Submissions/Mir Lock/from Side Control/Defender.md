@@ -238,7 +238,7 @@ Defending the Mir Lock requires early recognition and immediate preventive actio
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Mir Lock/from Side Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Mir Lock/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

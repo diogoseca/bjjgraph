@@ -255,7 +255,7 @@ Defending the Americana from high mount requires early recognition and immediate
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Americana/from High Mount#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Americana/from High Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

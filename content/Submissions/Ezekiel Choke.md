@@ -255,9 +255,8 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

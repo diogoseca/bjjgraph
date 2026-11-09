@@ -214,9 +214,8 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

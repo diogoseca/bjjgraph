@@ -186,7 +186,7 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 - Combination with Electric Chair sweep creates powerful dilemma
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -254,7 +254,7 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 - You feel increasing pressure on the soft tissue of your inner thigh and groin as the attacker's knee makes contact and their hips begin extending forward
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -325,9 +325,8 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

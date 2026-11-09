@@ -204,7 +204,7 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 - Sprawl your legs behind you as you walk around to maximize downward pressure through the choking grip
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -276,7 +276,7 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 - Attacker's near-side hand moves to your belt line or near-side collar, indicating secondary grip establishment
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -321,9 +321,8 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

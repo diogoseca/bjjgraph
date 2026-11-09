@@ -230,7 +230,7 @@ Defending the toe hold from kneebar control demands early recognition of the gri
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Toe Hold/from Kneebar Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Toe Hold/from Kneebar Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

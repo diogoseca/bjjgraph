@@ -166,7 +166,7 @@ The Flying Kneebar combines athleticism, timing, and technical precision to catc
 - Progressive pressure application - even in competition, ramp pressure over 2-3 seconds to allow tap response time
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -238,7 +238,7 @@ The Flying Kneebar combines athleticism, timing, and technical precision to catc
 - In gi, attacker establishes cross-sleeve grip combined with same-side pant grip at your ankle, then adjusts their stance angle - this grip configuration precedes gi-specific flying kneebar entries
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -315,9 +315,8 @@ The Flying Kneebar combines athleticism, timing, and technical precision to catc
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

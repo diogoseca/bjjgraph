@@ -238,7 +238,7 @@ Defending the straight ankle lock from ankle lock control requires immediate rec
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

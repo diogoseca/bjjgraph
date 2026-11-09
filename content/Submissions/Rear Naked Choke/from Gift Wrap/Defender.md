@@ -184,7 +184,7 @@ Defending the Rear Naked Choke from Gift Wrap is among the most difficult defens
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Rear Naked Choke/from Gift Wrap#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Rear Naked Choke/from Gift Wrap#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

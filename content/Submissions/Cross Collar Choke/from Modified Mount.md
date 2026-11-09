@@ -184,7 +184,7 @@ From a strategic standpoint, this choke functions as a high-percentage finishing
 - Create submission dilemmas by threatening armbar when they defend the collar, forcing them to choose which attack to address
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -254,7 +254,7 @@ From a strategic standpoint, this choke functions as a high-percentage finishing
 - Attacker drops their forehead beside your head and you feel forearm pressure against the side of your neck from the first grip
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -316,9 +316,8 @@ From a strategic standpoint, this choke functions as a high-percentage finishing
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

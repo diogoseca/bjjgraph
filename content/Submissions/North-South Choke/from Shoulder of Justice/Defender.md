@@ -237,7 +237,7 @@ Defending the North-South Choke from Shoulder of Justice requires recognizing th
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/North-South Choke/from Shoulder of Justice#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/North-South Choke/from Shoulder of Justice#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

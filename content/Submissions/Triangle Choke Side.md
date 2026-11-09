@@ -198,9 +198,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

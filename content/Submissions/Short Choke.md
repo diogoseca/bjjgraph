@@ -229,9 +229,8 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

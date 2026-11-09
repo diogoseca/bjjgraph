@@ -299,7 +299,7 @@ Attacking with the rear triangle choke from the rear triangle position centers o
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Rear Triangle Choke/from Rear Triangle#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Rear Triangle Choke/from Rear Triangle#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

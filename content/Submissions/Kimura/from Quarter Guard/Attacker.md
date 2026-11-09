@@ -281,7 +281,7 @@ Attacking the Kimura from Quarter Guard requires integrating submission mechanic
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Kimura/from Quarter Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Quarter Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

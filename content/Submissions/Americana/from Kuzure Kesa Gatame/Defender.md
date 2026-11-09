@@ -246,7 +246,7 @@ Defending the Americana from Kuzure Kesa Gatame requires immediate recognition a
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Americana/from Kuzure Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Americana/from Kuzure Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

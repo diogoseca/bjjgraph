@@ -186,7 +186,7 @@ From a strategic perspective, the kneebar from straight ankle lock control trans
 - Control the foot to prevent the opponent from rotating their knee out of the hyperextension line
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ From a strategic perspective, the kneebar from straight ankle lock control trans
 - Your leg is being pulled tight against the attacker's chest with the knee pointed toward their hips
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -321,9 +321,8 @@ From a strategic perspective, the kneebar from straight ankle lock control trans
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

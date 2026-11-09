@@ -162,7 +162,7 @@ Americana from Triangle Control is a distinct submission state: the bottom playe
 - Release immediately at a tap; the arm attack and choke must both be released.
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -228,7 +228,7 @@ Americana from Triangle Control is a distinct submission state: the bottom playe
 - The leg entanglement remains in place during the arm attack.
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -266,9 +266,8 @@ Americana from Triangle Control is a distinct submission state: the bottom playe
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

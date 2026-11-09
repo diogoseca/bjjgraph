@@ -263,7 +263,7 @@ The Arm Triangle from Kesa Gatame capitalizes on the scarf hold's inherent head 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Arm Triangle/from Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Arm Triangle/from Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

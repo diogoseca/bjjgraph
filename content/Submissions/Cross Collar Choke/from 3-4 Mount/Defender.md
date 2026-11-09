@@ -264,7 +264,7 @@ Defending the cross collar choke from 3-4 mount requires immediate recognition o
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Cross Collar Choke/from 3-4 Mount#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Cross Collar Choke/from 3-4 Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

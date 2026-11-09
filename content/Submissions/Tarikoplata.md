@@ -219,9 +219,8 @@ Named after its innovator Tarik Hopstock, who showcased it across modern no-gi c
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

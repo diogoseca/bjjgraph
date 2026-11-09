@@ -262,7 +262,7 @@ Attacking with the belly down armbar from Kuzure Kesa Gatame requires mastering 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Kuzure Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Belly Down Armbar/from Kuzure Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

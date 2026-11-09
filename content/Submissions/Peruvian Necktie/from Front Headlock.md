@@ -168,7 +168,7 @@ Strategically, the Peruvian Necktie works best as part of a comprehensive front 
 - Maintain gable grip tightness throughout the finish — any slack in the grip allows blood flow and gives the opponent recovery time
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ Strategically, the Peruvian Necktie works best as part of a comprehensive front 
 - The attacker's chest pressure shifts from directly on top of your back to slightly off-center toward the choking arm side as they prepare the sit-through
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -303,9 +303,8 @@ Strategically, the Peruvian Necktie works best as part of a comprehensive front 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -255,7 +255,7 @@ Defending the belly down armbar from New York requires early recognition of the 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Belly Down Armbar/from New York#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Belly Down Armbar/from New York#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

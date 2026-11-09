@@ -204,7 +204,7 @@ Competition-level application demands patience and precise timing. The toe hold 
 - Combine knee line pinching pressure with foot rotation to create the maximum mechanical advantage on the ankle joint
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -274,7 +274,7 @@ Competition-level application demands patience and precise timing. The toe hold 
 - Top player squeezes their legs together to clamp your knee, restricting your ability to straighten or retract your leg
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -320,9 +320,8 @@ Competition-level application demands patience and precise timing. The toe hold 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

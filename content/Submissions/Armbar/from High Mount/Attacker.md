@@ -299,7 +299,7 @@ Attacking the Armbar from High Mount is a systematic process that begins well be
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Armbar/from High Mount#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Armbar/from High Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

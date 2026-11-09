@@ -202,9 +202,8 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

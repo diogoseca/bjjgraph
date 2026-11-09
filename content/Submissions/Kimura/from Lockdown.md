@@ -168,7 +168,7 @@ This technique fits naturally into the lockdown attacking system as a complement
 - Attack the Kimura when sweep defenses expose the arm - treat it as a chain from sweep threats rather than an isolated attack
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ This technique fits naturally into the lockdown attacking system as a complement
 - You feel your arm being pulled across your centerline toward the opponent's hip while your leg remains trapped in lockdown
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -284,9 +284,8 @@ This technique fits naturally into the lockdown attacking system as a complement
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

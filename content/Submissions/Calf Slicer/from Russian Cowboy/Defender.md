@@ -231,7 +231,7 @@ The critical defensive window is narrow — once the attacker has their shin ful
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Calf Slicer/from Russian Cowboy#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Calf Slicer/from Russian Cowboy#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -246,7 +246,7 @@ Defending the Electric Chair requires early recognition and immediate defensive 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Electric Chair/from Electric Chair#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Electric Chair/from Electric Chair#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

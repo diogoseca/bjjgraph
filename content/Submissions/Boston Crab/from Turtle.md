@@ -127,7 +127,7 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 - Training partner communication is essential due to spinal involvement
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -201,7 +201,7 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 - You feel your hips being elevated off the mat as the attacker sits backward, creating increasing tension in your lower back
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -276,9 +276,8 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

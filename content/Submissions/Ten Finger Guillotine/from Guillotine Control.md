@@ -186,7 +186,7 @@ Strategically, this submission chains naturally with the broader guillotine cont
 - Transition smoothly between ten finger grip and alternative guillotine variations when opponent's defense creates openings
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Strategically, this submission chains naturally with the broader guillotine cont
 - Attacker breaks your posture by pulling your head firmly against their chest while simultaneously closing space with hips or guard
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -323,9 +323,8 @@ Strategically, this submission chains naturally with the broader guillotine cont
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

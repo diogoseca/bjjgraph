@@ -204,7 +204,7 @@ The finishing mechanics require precise hip escape movement to create the rotati
 - Patience during the finish prevents defensive scrambles and allows progressive pressure that forces the tap
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -276,7 +276,7 @@ The finishing mechanics require precise hip escape movement to create the rotati
 - Increased pulling pressure on your trapped arm toward the bottom player's hip rather than across their chest
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -319,9 +319,8 @@ The finishing mechanics require precise hip escape movement to create the rotati
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

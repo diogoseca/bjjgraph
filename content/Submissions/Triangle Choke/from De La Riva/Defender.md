@@ -238,7 +238,7 @@ Defending the Triangle from De La Riva requires understanding the attack's progr
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Triangle Choke/from De La Riva#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Triangle Choke/from De La Riva#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

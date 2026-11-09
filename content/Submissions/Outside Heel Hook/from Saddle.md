@@ -168,7 +168,7 @@ The combination of inside and outside heel hook threats from the Saddle creates 
 - Apply rotational force progressively and slowly in training, allowing your partner time to tap before ligament damage occurs
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ The combination of inside and outside heel hook threats from the Saddle creates 
 - Increased hip extension pressure combined with the attacker's torso beginning to rotate, indicating imminent lateral rotational force on your heel
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -286,9 +286,8 @@ The combination of inside and outside heel hook threats from the Saddle creates 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

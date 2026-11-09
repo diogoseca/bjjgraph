@@ -186,7 +186,7 @@ Strategically, this technique adds a submission threat to the inverted guard pos
 - Angle your body slightly past perpendicular toward the opponent's head to maximize shoulder torque
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Strategically, this technique adds a submission threat to the inverted guard pos
 - Increasing pressure on the back of your neck from the opponent's hamstring crossing over your shoulder blade
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -305,9 +305,8 @@ Strategically, this technique adds a submission threat to the inverted guard pos
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

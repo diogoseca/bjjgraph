@@ -240,7 +240,7 @@ Defending the belly down armbar from lasso guard requires early recognition and 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Belly Down Armbar/from Lasso Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Belly Down Armbar/from Lasso Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

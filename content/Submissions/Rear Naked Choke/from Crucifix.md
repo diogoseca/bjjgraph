@@ -186,7 +186,7 @@ Unlike the standard RNC from back control, the crucifix variant benefits from th
 - Keep your head tight against the opponent's temple to prevent them from turning into the choke and creating defensive space
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -256,7 +256,7 @@ Unlike the standard RNC from back control, the crucifix variant benefits from th
 - You feel the far arm control loosen or disappear entirely, immediately signaling that the choke transition has begun and your defensive window is open
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -315,9 +315,8 @@ Unlike the standard RNC from back control, the crucifix variant benefits from th
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

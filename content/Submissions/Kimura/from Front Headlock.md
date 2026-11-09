@@ -186,7 +186,7 @@ This submission integrates naturally into front headlock attack systems. When yo
 - Use the choke-to-Kimura dilemma to force the opponent into defending one attack while opening themselves to the other
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ This submission integrates naturally into front headlock attack systems. When yo
 - Choke pressure on your neck suddenly decreases without any defensive action on your part, indicating they switched targets
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -319,9 +319,8 @@ This submission integrates naturally into front headlock attack systems. When yo
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

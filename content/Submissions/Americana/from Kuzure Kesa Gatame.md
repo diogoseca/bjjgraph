@@ -186,7 +186,7 @@ Strategically, the Americana from Kuzure Kesa Gatame anchors a submission chain 
 - Monitor for the kimura and armbar transitions when the americana is defended - the three submissions form a closed chain
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Strategically, the Americana from Kuzure Kesa Gatame anchors a submission chain 
 - Attacker adjusts their hip angle, shifting pressure from straight down to a 45-degree vector through your shoulder toward the mat
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -317,9 +317,8 @@ Strategically, the Americana from Kuzure Kesa Gatame anchors a submission chain 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

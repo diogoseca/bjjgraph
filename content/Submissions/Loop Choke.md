@@ -253,9 +253,8 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -193,9 +193,8 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -222,9 +222,8 @@ As one of the first submissions taught to beginners and one of the last perfecte
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

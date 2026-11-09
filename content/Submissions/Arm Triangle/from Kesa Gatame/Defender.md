@@ -272,7 +272,7 @@ Defending the Arm Triangle from Kesa Gatame requires recognizing the critical tr
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Arm Triangle/from Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Arm Triangle/from Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

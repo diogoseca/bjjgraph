@@ -293,7 +293,7 @@ The calf slicer from inside sankaku represents one of the most effective seconda
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Calf Slicer/from Inside Sankaku#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Calf Slicer/from Inside Sankaku#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

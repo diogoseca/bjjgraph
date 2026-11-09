@@ -206,7 +206,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 - Immediate arm extension: Once airborne, pull the arm across your centerline and extend hips to create finishing pressure
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -282,7 +282,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 - Feet leave your hips or biceps simultaneously rather than sequentially, which distinguishes a flying submission entry from a standard guard transition
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -358,9 +358,8 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

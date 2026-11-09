@@ -170,7 +170,7 @@ Strategically, the Twister requires patience and precise sequencing rather than 
 - Treat the Twister as one option within a broader attack system - take what the opponent's defense gives you
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -244,7 +244,7 @@ Strategically, the Twister requires patience and precise sequencing rather than 
 - Opponent's body weight shifts as they position to connect the finishing grip behind your head
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -305,9 +305,8 @@ Strategically, the Twister requires patience and precise sequencing rather than 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

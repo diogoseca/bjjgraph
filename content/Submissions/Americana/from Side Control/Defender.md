@@ -256,7 +256,7 @@ The critical defensive window is during the grip establishment phase. Once your 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Americana/from Side Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Americana/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

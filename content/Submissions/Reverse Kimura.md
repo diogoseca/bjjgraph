@@ -198,9 +198,8 @@ Within the broader Kimura shoulder-lock system, the Reverse Kimura occupies the 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

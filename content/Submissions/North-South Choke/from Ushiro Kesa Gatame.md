@@ -187,7 +187,7 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 - Sprawl your legs backward and drive hips forward to increase pressure through the choking structure without lifting your chest off the opponent
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -263,7 +263,7 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 - Attacker's chest pressure shifts from your torso toward your head and neck area as they reposition for the choke angle
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -326,9 +326,8 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

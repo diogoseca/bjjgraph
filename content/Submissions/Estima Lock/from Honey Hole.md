@@ -170,7 +170,7 @@ From a competition standpoint, the Estima Lock from Honey Hole functions as a se
 - Keep constant hip pressure on trapped leg throughout setup and application phases
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ From a competition standpoint, the Estima Lock from Honey Hole functions as a se
 - Attacker clasps hands together around your foot with elbows pulling tight against their body
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -284,9 +284,8 @@ From a competition standpoint, the Estima Lock from Honey Hole functions as a se
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

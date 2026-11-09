@@ -259,9 +259,8 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -249,7 +249,7 @@ Defending the Bow and Arrow Choke from Rear Triangle requires addressing two sim
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Bow and Arrow Choke/from Rear Triangle#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Bow and Arrow Choke/from Rear Triangle#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

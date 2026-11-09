@@ -186,7 +186,7 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 - Keep your body tight against the opponent during rotation with no space between your chest and their head at any point
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 - The attacker threatens an Americana then quickly abandons it when you defend, immediately redirecting to thread their arm deeper around your neck
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -321,9 +321,8 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

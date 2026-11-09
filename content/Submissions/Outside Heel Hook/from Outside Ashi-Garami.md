@@ -188,7 +188,7 @@ Unlike finishing from saddle or inside ashi where both legs are controlled, outs
 - Time the finish when opponent is defending positionally rather than actively scrambling to extract their leg
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -262,7 +262,7 @@ Unlike finishing from saddle or inside ashi where both legs are controlled, outs
 - Attacker's far-side hand threading under their near-side forearm to establish the figure-four lock around your heel
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -326,9 +326,8 @@ Unlike finishing from saddle or inside ashi where both legs are controlled, outs
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -266,7 +266,7 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Calf Slicer/from Truck#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Calf Slicer/from Truck#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

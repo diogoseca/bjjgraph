@@ -184,7 +184,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 - **Grip security over speed** - Prioritize unbreakable grip establishment and control maintenance rather than rushing to finishing position
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -256,7 +256,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 - Opponent shifts to a staggered, lower stance while maintaining grip contact, signaling preparation to combine shoulder lock pressure with takedown or controlled descent
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -341,9 +341,8 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

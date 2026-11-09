@@ -224,7 +224,7 @@ Strategically, this submission serves as the primary finishing threat from mount
 - Squeeze with your entire upper body contracting toward center, not just arm strength
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -300,7 +300,7 @@ Strategically, this submission serves as the primary finishing threat from mount
 - Opponent's knee pressure on your trapped arm intensifies as they secure the leg trap before committing hands to choke
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -361,9 +361,8 @@ Strategically, this submission serves as the primary finishing threat from mount
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

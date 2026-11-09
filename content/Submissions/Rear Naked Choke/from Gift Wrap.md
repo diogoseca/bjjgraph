@@ -170,7 +170,7 @@ From a systems perspective, the Gift Wrap RNC sits at the apex of the back attac
 - Control the defender's posture by driving your forehead into the back of their head
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ From a systems perspective, the Gift Wrap RNC sits at the apex of the back attac
 - You feel the attacker's non-trapping hand move from controlling your body to approaching your neck area
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -286,9 +286,8 @@ From a systems perspective, the Gift Wrap RNC sits at the apex of the back attac
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

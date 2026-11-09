@@ -186,7 +186,7 @@ Strategically, this submission functions best within a broader inverted guard at
 - Maintain constant knee pinch throughout the finish to prevent the opponent from straightening or extracting the trapped leg
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ Strategically, this submission functions best within a broader inverted guard at
 - Sudden clamping pressure around your lead thigh as their legs close into a triangle or figure-four
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -318,9 +318,8 @@ Strategically, this submission functions best within a broader inverted guard at
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

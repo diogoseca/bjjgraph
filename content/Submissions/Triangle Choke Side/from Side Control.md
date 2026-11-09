@@ -170,7 +170,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 - Squeeze knees together, not just legs - the finishing pressure comes from bringing knees toward each other while maintaining the lock, creating circumferential compression
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 - Attacker's leg crosses over the back of your neck and their shin settles across your cervical spine while they reach for their own ankle or knee to establish the figure-four lock
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -307,9 +307,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

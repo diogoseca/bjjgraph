@@ -221,7 +221,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Armbar/Reverse Armbar from Mount#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Armbar/Reverse Armbar from Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

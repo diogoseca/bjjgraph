@@ -244,9 +244,8 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

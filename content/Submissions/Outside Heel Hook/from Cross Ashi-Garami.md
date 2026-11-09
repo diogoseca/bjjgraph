@@ -168,7 +168,7 @@ From a defensive standpoint, the cross ashi heel hook demands immediate recognit
 - Transition between heel hook, toe hold, and ankle lock based on defensive reactions to maintain constant threat
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -238,7 +238,7 @@ From a defensive standpoint, the cross ashi heel hook demands immediate recognit
 - Opponent begins rotating their torso and bridging their hips while gripping your heel—this indicates the finishing sequence has started
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -284,9 +284,8 @@ From a defensive standpoint, the cross ashi heel hook demands immediate recognit
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

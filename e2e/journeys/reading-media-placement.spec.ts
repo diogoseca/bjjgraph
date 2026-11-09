@@ -184,7 +184,8 @@ for (const [path, width, fixture] of [
       expect(stranded, 'the move strands the old document and keeps the host').toMatchObject({ host: true, stale: true, player: false, source: 'about:blank', frames: 1 })
       await page.waitForTimeout(350)
       expect((await moved()).events, 'nothing restarts a stranded clip').not.toContain('play')
-      await page.evaluate(() => { const a = (window as any).__neural; a._reader.place(a._reader.mediaSlot) })
+      // The Videos section's slot, by its own attribute (the reader's name for it is mangled, v1.252.0); a null would place nothing.
+      expect(await page.evaluate(() => { const a = (window as any).__neural, slot = document.querySelector('[data-reader-media-slot]'); if (slot) a._reader.place(slot); return !!slot }), 'the Videos slot exists').toBe(true)
       await page.locator('[data-film-resume]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
       await j.clickByMouse('[data-film-resume]', 'only the visible Play rebinds a stranded clip')
       await expect.poll(async () => (await moved()).events, { message: 'Resume rebinds a fresh player and plays it' }).toContain('play')

@@ -204,7 +204,7 @@ The danger level escalates significantly with this transition. Kneebars provide 
 - Use the constant kneebar threat to dictate the opponent's defensive posture and keep them reactive
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -276,7 +276,7 @@ The danger level escalates significantly with this transition. Kneebars provide 
 - Attacker squeezes elbows together around your heel rather than pulling your leg toward their chest for extension
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -336,9 +336,8 @@ The danger level escalates significantly with this transition. Kneebars provide 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

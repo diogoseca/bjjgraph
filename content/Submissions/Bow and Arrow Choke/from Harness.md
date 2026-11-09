@@ -188,7 +188,7 @@ Strategically, this submission capitalizes on common defensive reactions to back
 - Keep your top hook active throughout the finish to prevent the defender from rotating their hips toward you
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -262,7 +262,7 @@ Strategically, this submission capitalizes on common defensive reactions to back
 - Tightening of the collar across your neck combined with a stretching sensation in your legs indicates the full Bow and Arrow extension has begun
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -325,9 +325,8 @@ Strategically, this submission capitalizes on common defensive reactions to back
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

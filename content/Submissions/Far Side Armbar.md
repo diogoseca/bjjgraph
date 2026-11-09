@@ -203,9 +203,8 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

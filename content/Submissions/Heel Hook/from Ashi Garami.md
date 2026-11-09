@@ -207,7 +207,7 @@ Strategically, the heel hook from outside Ashi serves a dual purpose. As a direc
 - Secure the heel bone itself in the crook of your wrist rather than gripping the forefoot or toes, which allows easy foot extraction
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -279,7 +279,7 @@ Strategically, the heel hook from outside Ashi serves a dual purpose. As a direc
 - Opponent's inside leg hook deepens and their outside leg tightens across your body, consolidating the Ashi Garami entanglement for a committed finish attempt
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -339,9 +339,8 @@ Strategically, the heel hook from outside Ashi serves a dual purpose. As a direc
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

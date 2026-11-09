@@ -248,7 +248,7 @@ Defending the Cross Collar Choke from Mount requires early recognition of grip e
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Cross Collar Choke/from Mount#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Cross Collar Choke/from Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -170,7 +170,7 @@ The finishing mechanic involves a controlled spin away from the opponent after s
 - Drop chest to mat on the far side after spinning to create maximum torsional pressure on the collar
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -246,7 +246,7 @@ The finishing mechanic involves a controlled spin away from the opponent after s
 - Attacker suddenly locks both elbows tight against their body and shifts weight forward — the spin is imminent
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -289,9 +289,8 @@ The finishing mechanic involves a controlled spin away from the opponent after s
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

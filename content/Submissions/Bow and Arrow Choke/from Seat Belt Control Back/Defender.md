@@ -250,7 +250,7 @@ Defending the Bow and Arrow Choke from Seat Belt Control Back requires early rec
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

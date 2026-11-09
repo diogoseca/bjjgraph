@@ -242,9 +242,8 @@ The Breadcutter belongs to a family of collar chokes that includes the Clock Cho
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

@@ -206,7 +206,7 @@ The Banana Split integrates naturally into the truck attacking system alongside 
 - Assess individual flexibility variations before committing to the finish
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -280,7 +280,7 @@ The Banana Split integrates naturally into the truck attacking system alongside 
 - Increasing stretch sensation in your groin and inner thighs while opponent extends their twister-hook leg
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -350,9 +350,8 @@ The Banana Split integrates naturally into the truck attacking system alongside 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|

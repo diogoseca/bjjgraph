@@ -189,7 +189,7 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 - Transition to Ashi Garami when the finish is unavailable rather than forcing a compromised ankle lock with diminishing returns
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -263,7 +263,7 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 - Attacker's chest drives forward and down toward your ankle rather than maintaining the upward elevation typical of sweep attempts
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -328,9 +328,8 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
