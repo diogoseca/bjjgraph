@@ -1,5 +1,16 @@
 {
  "_meta": {
+  "app_provenance": {
+   "command": "npm run regenerate:neural",
+   "esbuild": "0.27.0",
+   "git_head": "f6c94774cfc34f8e33726f672357b614bbb2ba8b",
+   "inputs": {
+    "tree": "34e6821232321267a41ebe6f6b016fd3e3281c31"
+   },
+   "package_version": "1.251.3",
+   "rows_from": "neural/dist",
+   "schema": "app-assets-rebuild-v2"
+  },
   "capture_tree": "/home/user/bjj-orchestrator/scratch/clips-inventory/capture/cap88-171f5579b/pr-clips-ship-88-171f5579b",
   "content_provenance": {
    "capture_git_head": "171f5579b5789915f5639c96fd7106fa0f404790",
@@ -94,8 +105,8 @@
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
-    "bytes": 42469,
-    "sha256": "fe452c3ab653a7ee96f83da91fbdf64e8f719693d6d1487ce904d6f39304ed76"
+    "bytes": 42320,
+    "sha256": "90b52c2e211305d1fbb22fd0258e855b8944630557942d907ba123bc99850a24"
    },
    "static/neural/app/reading.css": {
     "bytes": 11244,

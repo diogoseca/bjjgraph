@@ -14448,8 +14448,9 @@ capture stands; all 12 spec files that call it pass on the build, and the unfixe
 
 ## v1.251.1 — Training as a tile per phase, Read more on the hubs, and a limit CI kept hitting (U100 a, U103 a, 2026-11-06)
 
-**CI.** Shards hit `e2e-full.yml`'s 25-minute limit three times; on the last green run (42266283562) one reached 22m58s, with the others at 11m47s to
-18m29s. The shard job goes to 35. Build (6m05s) and gen (5m47s) keep 25: neither is near it. actionlint passes.
+**CI.** Five shard timeouts are on record at about 25m18s (runs 42112840488, 42130875467, 42222522276, 42231345256, 40790056850), and this PR's own run went green
+with shard 2 at 26m45s, so 25 would have cancelled it. The shard job goes to 35. Build and gen keep 25. Neither was near it on run 42266283562, at 6m08s and 5m50s, but gen is
+not always that far: 20m55s on run 42222522276, and cancelled at 25 twice on 2026-10-28 on one sick branch. actionlint passes.
 
 **U100 a.** Training stood alone at the end of Transitions and Submissions. Each bold-led phase is now its own tile, and a page's tiles stand together
 where Training stood. The round-2 scratch build titled them "Training 2" to "Training N" and left them at the end of their rank. Neither shipped: the first
@@ -14477,11 +14478,12 @@ its own bold name. It is one section: one index row, one ✕, one saved setting 
 | Armbar from Mount, Attacker | 844 px | 1,178 px | Safety |
 | Americana from Side Control, Defender | 639 px | 1,584 px | Safety |
 
-Round 2 measured before S1 a moved a submission's safety guide last. It now stands alone at the end, and that is the gap on Submissions, with or without
-this split. Its four bold heads could split the same way; that is not approved, so it is not here.
+**Corrected in v1.251.3: this paragraph used to say the Safety gap stood "with or without this split", which was never measured and is wrong.** Round 2 measured before S1 a
+moved a submission's safety guide last, so the table above mixes two causes. Measured with and without on all 576 seats, the split itself makes the gap larger on Submissions:
+see v1.251.3.
 
 **U103 a.** Both text sections of a bare hub, named by source id, because a hub's role links come first in the bucket and hold a `<p>` of their own.
-Swept on all 407 position pages: 266 role pages with 1 Read more, 133 hubs with 2, and the 8 lowercase hubs with 1, as they had.
+Swept on all 407 position pages: 266 role pages with 1 Read more, 133 hubs with 2, and the 8 lowercase-path role pages with 1, as they had.
 
 **The `rest` carry.** Deleted, with its comment. It was the code of the recorded non-kill `reader-rounding-remainder-dropped`: the line drifted the same
 with and without it, because #340's held line does that job now. The wrapping and pane journeys pass without it.
@@ -14555,3 +14557,46 @@ The index fix costs 2 B, so the ceiling is 507,110 B, +293 of the 300 B approved
 **How.** `apply_picks.py` writes `clips` only, proved by comparing every record with the clip arrays removed: 73 of 73 equal, and 110 new references plus one promotion in place (`Rear Naked Choke from Mounted Crucifix`, whose already-curated first clip takes `front: true`). All 100 distinct ids answered oEmbed 200 on 6 Nov, one request every 2 s. `regenerate:md`, `regenerate:hubs` and `regenerate:neural` only. `graph-data.json` and `graph.json` are byte-identical, so no MDP input moves.
 
 **Measured.** The emitter's own line moves from 1,454 fronts, 107 unapproved and 1,301 empty to 1,542, 103 and 1,217. In FLOW's gi game from Anywhere, placeholder meetings fall from 4,006 to 3,759 of 13,448 dealt cards per 100 games: 29.8% to 28.0%. 84 of the 88 are dealt; the other 4 sit on transitions from control-alias positions, so they fix pages, not cards. Recompute: `scratch/clips-inventory/tools/` (deal.mjs, reach.mjs), outside the repo.
+
+
+## v1.251.3 — The hold at a fractional scale, and the record after #345's review (2026-11-06, finished 2026-11-09)
+
+**The hold broke at fractional scales, before #345 and after it.** The review asked whether deleting the `rest` carry held at a fractional scale, since all the evidence was at scale 1.
+Measured in a real browser, every frame sampled, worst drift per slide of the line under the reader's top:
+
+| Scale | `fecd354a3`, the carry | v1.251.1, no carry | 1px tolerance | v1.251.3, the read-back |
+|---|---:|---:|---:|---:|
+| 0.5 | | | 127.63 px | 1.50 px |
+| 1 | 0.97 px | 0.50 px | 0.50 px | 0.50 px |
+| 1.25 | 54.41 px | 100.81 px | 0.90 px | 0.90 px |
+| 1.5 | 71.88 px | 21.45 px | 0.81 px | 0.83 px |
+| 2 | | | 0.50 px | 0.49 px |
+
+- **The cause is #340's `===` against the sum written.** The browser snaps a scroll write to its device pixels, 3122.39990234375 for 3122.4, so the place, which is the read-back, never equalled `heldAt`, the hold let go, and a re-picked line drifted. The skeptics had it right that the carry never saw the snap, so the deletion stands.
+- **The first fix was a 1px tolerance, and #348's review found its hole:** below scale 1, browser zoom under 100%, a device pixel is more than a CSS pixel. Measured at 0.5 it failed on every run, 105.63 px median. `heldAt` is now the read-back and the test is `===` again: +2 B, and it holds from 0.5 to 2.
+- **Emulation cannot see this,** and nearly fooled me. Playwright's `deviceScaleFactor` gave 0 fractional frames of 785. Only `--force-device-scale-factor` reaches the snap, and it binds a worker, so 1.25 and 0.5 have a file each, sharing `e2e/scale-hold.ts`.
+- **The premise, corrected.** I first claimed the journey "fails rather than passes if a browser stops snapping". It did not: it only asked whether some frame read fractional, which its own first write made true. It now writes off the device grid, `k + 0.3` at 1.25 and an odd pixel at 0.5, and requires the read-back to differ.
+- **The harness boot hid it too.** Under `journey().boot` the failure never happened and `hold-exact` survived twice. Booted as a page with checked real presses, the journey fails the broken build.
+- **Controls:** `hold-exact`, the sum back, dies at 1.25. `hold-tolerance` dies at 0.5. `hold-loose`, a hold that ignores scrolls under 100 px, dies on a new 24 px wheel journey in `pane-layout.spec.ts`: the review found the only scroll-lets-go journey moved 60% of the article.
+- **Not covered:** 1.5 and 2 have no journey, and 2 never failed.
+- **A commit subject names the wrong row:** `a33b79cf8` says `training-close-scrolls` writes a scroll, but that change landed in `45ef0f69a`. Left as it is, not rewritten.
+- **`reader_mangle` widened:** destructuring defaults, every script under `e2e/`, `scripts/`, `forward/` and `source/quartz`, and the reader's own dataset keys and data-* attributes. 652 files, 0 reads. Its header names what stays uncovered.
+- **Item 6, the hold's state after a close or a Read more, did not reproduce.** Tile tops run down the page in DOM order, so the ✕ of any tile above the held line is above the reader's top when the line is at it. A Read more could reach lower in the other column, but a search of 5 pages at 1440 with the pane open found no such layout.
+
+**The end gap, the correction that matters.** Real reader, 1440x900, every seat, the two columns' tile bottoms apart, all after S1 a:
+
+| All seats | No split, median | Split, median | Better | Worse | Over 800 px, no split | Split |
+|---|---:|---:|---:|---:|---:|---:|
+| Transitions, 2,022 | 752 px | 124 px | 2,003 | 19 | 895 | 0 |
+| Submissions, 576 | 916 px | 1,592 px | 4 | 572 | 383 | 575 |
+
+S1 a puts Safety last on every Submission seat. Unsplit it lands beside one tall Training tile. Split, the phases level the columns and it stands alone. Safety split at its five bold heads, on a scratch
+build, gives a median of 208 px for +282 B and 170 px more on a phone at 390x631 on all 576 seats. The owner's question is U111, and nothing here changes the split.
+
+**Bytes.** Deferred 507,110 to 506,961 B on the tree merged with #347, and the ceiling follows it down, exact. The fix costs 12 B and seven more names in `READER_ONLY_PROPS` save 161 B:
+`placeTop gridW gameKey selecting seating extract gameInput`, all covered by `reader_mangle`. The owner's approval stands at 507,117 B, so 156 B of it are unused.
+
+**Hubs print "How it works" three times.** Measured, not shipped: removing the injected heading and printing each provenance line once takes Mount's tile from 6 labels to 3, Knee Slice's and Armbar's from 8 to 3, at -52 B.
+
+**Tightened.** The poke's floor is exact at 390 again (`gap-extra-phone`). New controls for three claims that had none: `columns-end-apart`, `training-one-tile-columns`, `training-apart`, `training-head-not-back`, and
+`training-close-scrolls` for a new reader check on closing. The hub's Read more journey has its premises back and checks "in place" on both clicks (`hub-seat-scrolls`). "The columns end together" is a named blind spot: it holds on a Transition only.

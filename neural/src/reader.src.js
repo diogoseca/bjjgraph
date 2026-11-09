@@ -582,10 +582,14 @@ class Reader {
       const rank = x => submission && x.type === "safety" ? 99 : order.includes(x.type) ? order.indexOf(x.type) : x.type === "related" ? 100 : x.type === "sources" && reference ? 101 : 50;
       return rank(a) - rank(b);
     }).flatMap(group => (transition || submission) && group.type == "training"
-      // U100 a (owner, 2026-11-06): each bold-led phase of Training is its own tile, so the section stops standing alone at the
-      // article's end (1,191px past the other column on Knee Slice Pass). Not a word changes, and no heading is invented: "Training 2"
-      // is the "1, 2, or 3 overviews" he rejected, and a phase opens with its own bold name. It is still one section: one index row,
-      // one ✕ on the first tile, one saved setting by type, one closed label. A position measured worse under this split, so it stays whole.
+      // U100 a (owner, 2026-11-06): each bold-led phase of Training is its own tile. Not a word changes, and no heading is invented:
+      // "Training 2" is the "1, 2, or 3 overviews" he rejected, and a phase opens with its own bold name. It is still one section: one
+      // index row, one ✕ on the first tile, one saved setting by type, one closed label. Measured on every seat, end gap at 1440x900:
+      // on a Transition, where Training is last, the median falls from 752px to 124px, better on 2,003 of 2,022. On a Submission it
+      // rises, 916px to 1,592px, worse on 572 of 576: S1 a puts Safety last, and it lands beside one tall Training tile, but the phases
+      // level the columns and leave it alone. A position stays whole, measured worse in round 2. Whether a Submission keeps it is U111.
+      // UNGUARDED: every paragraph after the first phase moves, and only paragraphs. A phase with no bold lead would be a tile with no
+      // name, and a list inside a phase would stay in the first tile, out of order. Neither exists (2,598 seats swept at v1.251.1).
       ? [group, ...[...group.parts[0].node.querySelectorAll(":scope>p:not([class])~p")].map(node => ({ ...group, more: 1, parts: [{ ...group.parts[0], node }] }))]
       : group);
     this.sections = []; this.mediaSlot = null;
@@ -1147,6 +1151,11 @@ class Reader {
       // re-picked line: it reorders which line comes first, and it can shorten the document so scrollTop clamps. A pass
       // then took the clamped height as the new place and the close landed elsewhere: 179-333px at the end of Transitions
       // and Submissions at 768, 971px at a landed Mount Top.
+      // v1.251.3: heldAt is the read-back, not the sum written. At a fractional scale the browser snaps a write to its device pixels
+      // (3122.39990234375 for 3122.4), so the place, which is the read-back, never equalled the sum, the hold let go, and a line re-picked
+      // mid-slide drifted: 100.81px on Armbar from Mount at 1.25 and 1152, and 71.88px at 1.5 on fecd354a3, the carry there or not. A 1px
+      // tolerance fixed 1 to 2 but not 0.5 (browser zoom under 100%), where a device pixel is 2 CSS px: 127.63px. The read-back holds
+      // at every scale measured, 0.5 to 2, and === still lets any real scroll go.
       // v1.251.1: offsetWidth, not isConnected. A closed tile stays connected, so the hold kept a line with no box, read its top as 0,
       // and threw the reader up by heldY on every pass of the slide (4,345 -> 745 on Knee Slice Pass). It is 0 detached or unrendered.
       // v1.251.0: the columns reflow on the same width change, so the source order no longer runs down the page. The
@@ -1364,7 +1373,7 @@ class Reader {
       // way each time, so the line crept 5px up and then lost the anchor to the block below it (26px).
       // SIDECX5: a partially clipped block above the top can wrap and move the first visible line;
       // anchor a block starting within the reader instead, retaining the rounded correction.
-      if (keep) { this.held = keep; this.heldAt = this.placeTop = root.scrollTop += Math.round(rect(keep).top - was); }
+      if (keep) { this.held = keep; root.scrollTop += Math.round(rect(keep).top - was); this.heldAt = this.placeTop = root.scrollTop; }
       this.laying = false;
     }
   }
