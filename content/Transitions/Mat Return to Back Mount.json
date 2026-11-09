@@ -595,7 +595,17 @@
         "description": "Live positional sparring starting from standing back control bottom. Partner attempts mat return at full speed and resistance. Practice combining all defensive elements: base maintenance to prevent takedown, controlled turtle if taken down, hook denial upon landing, and immediate escape sequences. Develop the ability to read and respond to all three mat return variants."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "4E342893NJY",
+        "title": "defense against mat return",
+        "channel": "Brian Krenzelak",
+        "duration": 138,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

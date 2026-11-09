@@ -170,6 +170,27 @@ description: "How to execute Jailbreak to Back Take in BJJ. Attacking perspectiv
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Jailbreak to Back Take (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jailbreak - 9 - To Rollover Back Take",
+      "description": "Jailbreak to Back Take (Attacker) film study: Jailbreak - 9 - To Rollover Back Take.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WPSKz2fTCg4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WPSKz2fTCg4",
+      "url": "https://www.youtube.com/watch?v=WPSKz2fTCg4",
+      "duration": "PT250S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +207,24 @@ This transition exemplifies the principle of using opponent reactions to your ad
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Jailbreak to Back Take (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WPSKz2fTCg4)
+
+<p class="clip-credit"><strong>Jailbreak - 9 - To Rollover Back Take</strong> · 4:10 · <a href="https://www.youtube.com/watch?v=WPSKz2fTCg4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -176,6 +176,27 @@ description: "How to execute Turtle to Standing escape in BJJ. Complete attackin
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Standing (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the turtle position in a fight or BJJ with a stand-up",
+      "description": "Turtle to Standing (Attacker) film study: Escaping the turtle position in a fight or BJJ with a stand-up.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Hto8vSvnry0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Hto8vSvnry0?start=49",
+      "url": "https://www.youtube.com/watch?v=Hto8vSvnry0",
+      "duration": "PT293S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ Executing the Turtle to Standing transition requires coordinating explosive hip 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Standing (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Hto8vSvnry0&start=49)
+
+<p class="clip-credit"><strong>Escaping the turtle position in a fight or BJJ with a stand-up</strong> · 4:53 · <a href="https://www.youtube.com/watch?v=Hto8vSvnry0&t=49s" rel="noopener">Watch on YouTube from 0:49</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -36,6 +36,37 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mir Lock from Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "MMA Demo | Mir Lock From Side Control | Laura Sanko",
+      "description": "Mir Lock from Side Control film study: MMA Demo | Mir Lock From Side Control | Laura Sanko.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-Zq8zXCtIlg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-Zq8zXCtIlg?start=32",
+      "url": "https://www.youtube.com/watch?v=-Zq8zXCtIlg",
+      "duration": "PT179S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marcus Douithitt- arm bundle Mir lock from side control",
+      "description": "Mir Lock from Side Control film study: Marcus Douithitt- arm bundle Mir lock from side control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QeHT5SvHad8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QeHT5SvHad8",
+      "url": "https://www.youtube.com/watch?v=QeHT5SvHad8",
+      "duration": "PT235S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -76,6 +107,32 @@ From dominant top side control, the Mir Lock weaponizes the same arm isolation t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mir Lock from Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-Zq8zXCtIlg&start=32)
+
+<p class="clip-credit"><strong>MMA Demo | Mir Lock From Side Control | Laura Sanko</strong> · 2:59 · <a href="https://www.youtube.com/watch?v=-Zq8zXCtIlg&t=32s" rel="noopener">Watch on YouTube from 0:32</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QeHT5SvHad8)
+
+<p class="clip-credit"><strong>Marcus Douithitt- arm bundle Mir lock from side control</strong> · 3:55 · <a href="https://www.youtube.com/watch?v=QeHT5SvHad8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

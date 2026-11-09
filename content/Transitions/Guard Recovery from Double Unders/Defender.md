@@ -142,6 +142,27 @@ description: "Master defending against guard recovery from double unders. Comple
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Double Unders (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Guard Pass: When the Double Stack Pass Fails",
+      "description": "Guard Recovery from Double Unders (Defender) film study: BJJ Guard Pass: When the Double Stack Pass Fails.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X29_Z3lkVTU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X29_Z3lkVTU",
+      "url": "https://www.youtube.com/watch?v=X29_Z3lkVTU",
+      "duration": "PT150S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ As the top player defending against guard recovery attempts from double unders, 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Double Unders (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X29_Z3lkVTU)
+
+<p class="clip-credit"><strong>BJJ Guard Pass: When the Double Stack Pass Fails</strong> · 2:30 · <a href="https://www.youtube.com/watch?v=X29_Z3lkVTU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

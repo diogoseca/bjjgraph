@@ -36,6 +36,27 @@ description: "Master the Twister Side Control to Back Take in BJJ. Complete guid
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister SC to Back Take \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "twister side control / the truck / back",
+      "description": "Twister SC to Back Take film study: twister side control / the truck / back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c2YXoKSd5Fw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c2YXoKSd5Fw?start=141",
+      "url": "https://www.youtube.com/watch?v=c2YXoKSd5Fw",
+      "duration": "PT414S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The success of this technique depends heavily on timing and the ability to maint
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister SC to Back Take in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c2YXoKSd5Fw&start=141)
+
+<p class="clip-credit"><strong>twister side control / the truck / back</strong> · 6:54 · <a href="https://www.youtube.com/watch?v=c2YXoKSd5Fw&t=141s" rel="noopener">Watch on YouTube from 2:21</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

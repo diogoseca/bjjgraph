@@ -144,6 +144,37 @@ description: "Defend against the Bow and Arrow Choke from Seat Belt back control
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Seat Belt Control Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the bow and arrow choke",
+      "description": "Bow and Arrow Choke from Seat Belt Control Back (Defender) film study: Escaping the bow and arrow choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gm5xJHibwZk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gm5xJHibwZk",
+      "url": "https://www.youtube.com/watch?v=gm5xJHibwZk",
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bow and arrow choke escape",
+      "description": "Bow and Arrow Choke from Seat Belt Control Back (Defender) film study: Bow and arrow choke escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Iz0aesx6cKk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Iz0aesx6cKk",
+      "url": "https://www.youtube.com/watch?v=Iz0aesx6cKk",
+      "duration": "PT35S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -157,6 +188,32 @@ Defending the Bow and Arrow Choke from Seat Belt Control Back requires early rec
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Seat Belt Control Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gm5xJHibwZk)
+
+<p class="clip-credit"><strong>Escaping the bow and arrow choke</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=gm5xJHibwZk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Iz0aesx6cKk)
+
+<p class="clip-credit"><strong>Bow and arrow choke escape</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=Iz0aesx6cKk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

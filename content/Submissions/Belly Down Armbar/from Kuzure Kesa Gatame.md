@@ -36,6 +36,27 @@ description: "Master the belly down armbar finish from Kuzure Kesa Gatame. Exper
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Kuzure Kesa Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Belly Down Armbar From Half Guard",
+      "description": "Belly Down Armbar from Kuzure Kesa Gatame film study: The Belly Down Armbar From Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9XqsAx3qE5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9XqsAx3qE5A",
+      "url": "https://www.youtube.com/watch?v=9XqsAx3qE5A",
+      "duration": "PT35S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -80,6 +101,24 @@ From a strategic perspective, this finish serves as a high-percentage completion
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Kuzure Kesa Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9XqsAx3qE5A)
+
+<p class="clip-credit"><strong>The Belly Down Armbar From Half Guard</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=9XqsAx3qE5A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

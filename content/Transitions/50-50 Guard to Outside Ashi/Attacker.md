@@ -170,6 +170,27 @@ description: "How to execute 50-50 Guard to Outside Ashi in BJJ. Attacking persp
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Guard to Outside Ashi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg lock flow - ashi garami to side saddle to 50/50 to outside ashi to toe hold",
+      "description": "50-50 Guard to Outside Ashi (Attacker) film study: Leg lock flow - ashi garami to side saddle to 50/50 to outside ashi to toe hold.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Htk0TyHi2zg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Htk0TyHi2zg?start=48",
+      "url": "https://www.youtube.com/watch?v=Htk0TyHi2zg",
+      "duration": "PT220S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +207,24 @@ This technique is strategically critical in modern leg lock systems because 50-5
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Guard to Outside Ashi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Htk0TyHi2zg&start=48)
+
+<p class="clip-credit"><strong>Leg lock flow - ashi garami to side saddle to 50/50 to outside ashi to toe hold</strong> · 3:40 · <a href="https://www.youtube.com/watch?v=Htk0TyHi2zg&t=48s" rel="noopener">Watch on YouTube from 0:48</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

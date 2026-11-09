@@ -554,6 +554,25 @@
         "description": "Start in reverse half guard bottom with partner at full resistance attempting to pass. Defend for 2-minute rounds, scoring points for successful guard recovery, sweeps, or back exposure prevention. Partner scores for pass completion. Build automatic defensive reactions under competitive pressure."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "wZbDX4X6ZCM",
+        "title": "Reverse Half Guard Basic Escapes- Sacramento Braziliain JIu-Jitsu",
+        "channel": "TeamMaxwell JiuJitsu",
+        "duration": 388,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "Lwr3lvoNfLg",
+        "title": "How to counter switch base half guard pass (Eyad Jaara)",
+        "channel": "Jiu Jitsu Fight Style",
+        "duration": 199,
+        "vertical": false,
+        "start": 23,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

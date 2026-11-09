@@ -36,6 +36,27 @@ description: "Learn the 50-50 Guard to Inside Ashi transition. Extract from symm
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Guard to Inside Ashi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "50/50 into Saddle: Leg lock transitions",
+      "description": "50-50 Guard to Inside Ashi film study: 50/50 into Saddle: Leg lock transitions.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FBxL7t27d-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FBxL7t27d-Q?start=56",
+      "url": "https://www.youtube.com/watch?v=FBxL7t27d-Q",
+      "duration": "PT128S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This transition is particularly valuable against opponents who play defensive 50
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Guard to Inside Ashi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FBxL7t27d-Q&start=56)
+
+<p class="clip-credit"><strong>50/50 into Saddle: Leg lock transitions</strong> · 2:08 · <a href="https://www.youtube.com/watch?v=FBxL7t27d-Q&t=56s" rel="noopener">Watch on YouTube from 0:56</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

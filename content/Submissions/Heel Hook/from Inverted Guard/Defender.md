@@ -144,6 +144,27 @@ description: "Defend the heel hook from inverted guard. Recognition cues, escape
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Inverted Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "escaping outside ashi heel hook to rolling back take, bjj flow grappling\u2026",
+      "description": "Heel Hook from Inverted Guard (Defender) film study: escaping outside ashi heel hook to rolling back take, bjj flow grappling\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KmGhb2j68Ng/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KmGhb2j68Ng",
+      "url": "https://www.youtube.com/watch?v=KmGhb2j68Ng",
+      "duration": "PT33S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -157,6 +178,24 @@ Defending the heel hook from inverted guard demands early recognition and immedi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Inverted Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KmGhb2j68Ng)
+
+<p class="clip-credit"><strong>escaping outside ashi heel hook to rolling back take, bjj flow grappling…</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=KmGhb2j68Ng" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

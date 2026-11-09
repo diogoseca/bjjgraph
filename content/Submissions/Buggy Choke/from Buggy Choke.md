@@ -36,6 +36,27 @@ description: "The bottom player finishes from the established Buggy arm-and-leg 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Buggy Choke from Buggy Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "\ud83d\udd25 \ud83d\udd25 Buggy Choke Basics - Easy Entry and Finishes",
+      "description": "Buggy Choke from Buggy Choke film study: \ud83d\udd25 \ud83d\udd25 Buggy Choke Basics - Easy Entry and Finishes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0Kcsngo-TDw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0Kcsngo-TDw?start=28",
+      "url": "https://www.youtube.com/watch?v=0Kcsngo-TDw",
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -82,6 +103,24 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Buggy Choke from Buggy Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0Kcsngo-TDw&start=28)
+
+<p class="clip-credit"><strong>🔥 🔥 Buggy Choke Basics - Easy Entry and Finishes</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=0Kcsngo-TDw&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">

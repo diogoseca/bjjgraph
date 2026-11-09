@@ -14550,6 +14550,14 @@ aborted at row 10.
 - **The table.** 3 rows retargeted, plus the 5 these two fixes moved. Every row's mutate() replayed in node: 209 rows, 0 moved.
 
 The index fix costs 2 B, so the ceiling is 507,110 B, +293 of the 300 B approved.
+## v1.251.2 - The 88 verified halves ship (CLIPS1 part 2, 2026-11-06)
+
+**What.** 111 clips on 88 technique halves, held since 4 Nov, verified by the November backfill and frozen out of PR #334: 52 transition halves (27 attacker, 25 defender) and 36 submission halves (12 attacker, 24 defender). 73 JSON records and their 134 generated Markdown pages. No hold released, no ban lifted, no re-pick taken; no held half is touched.
+
+**How.** `apply_picks.py` writes `clips` only, proved by comparing every record with the clip arrays removed: 73 of 73 equal, and 110 new references plus one promotion in place (`Rear Naked Choke from Mounted Crucifix`, whose already-curated first clip takes `front: true`). All 100 distinct ids answered oEmbed 200 on 6 Nov, one request every 2 s. `regenerate:md`, `regenerate:hubs` and `regenerate:neural` only. `graph-data.json` and `graph.json` are byte-identical, so no MDP input moves.
+
+**Measured.** The emitter's own line moves from 1,454 fronts, 107 unapproved and 1,301 empty to 1,542, 103 and 1,217. In FLOW's gi game from Anywhere, placeholder meetings fall from 4,006 to 3,759 of 13,448 dealt cards per 100 games: 29.8% to 28.0%. 84 of the 88 are dealt; the other 4 sit on transitions from control-alias positions, so they fix pages, not cards. Recompute: `scratch/clips-inventory/tools/` (deal.mjs, reach.mjs), outside the repo.
+
 
 ## v1.251.3 — The hold at a fractional scale, and the record after #345's review (2026-11-06, finished 2026-11-09)
 

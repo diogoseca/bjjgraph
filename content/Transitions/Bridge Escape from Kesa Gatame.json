@@ -545,6 +545,25 @@
         "description": "Start in Kesa Gatame with full resistance from both players. Top player maintains position and defends all escape attempts including bridge escapes, ghost escapes, and back takes. Track position maintenance time and transition success rate. 2-minute rounds alternating roles."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "4gayf_3Mk4E",
+        "title": "Countering the Bridge - Scarf Hold & The Dragon Walk",
+        "channel": "SBG Rossendale 3rd Degree Black Belt BJJ",
+        "duration": 67,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "6NFL_qNrROc",
+        "title": "Headstack Counter To The Scarf Hold Bridge (Eliminating Weight Distribution…",
+        "channel": "SBG Rossendale 3rd Degree Black Belt BJJ",
+        "duration": 299,
+        "vertical": false,
+        "start": 126,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

@@ -395,7 +395,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "9XqsAx3qE5A",
+        "title": "The Belly Down Armbar From Half Guard",
+        "channel": "Ritchie Yip",
+        "duration": 35,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Belly Down Armbar from Kuzure Kesa Gatame Defender",
@@ -581,6 +591,16 @@
         "description": "Start in Kuzure Kesa Gatame bottom against full-resistance attacks. Defender must read the cues and select appropriate defensive response for each phase. 3-minute rounds with reset on escape or submission. Track which phase the defense succeeds or fails at to identify training priorities."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "AApmPQUUmYI",
+        "title": "Belly down arm bar escape breakdown",
+        "channel": "Anchorlinefitness",
+        "duration": 61,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }
