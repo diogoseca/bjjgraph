@@ -160,24 +160,12 @@ description: "X Pass (defender): Control on the knee line plus a light passing l
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Headquarters retention for the open guard player",
-      "description": "X Pass (Defender) film study: Headquarters retention for the open guard player, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7zCdpY8nKug/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7zCdpY8nKug",
-      "url": "https://www.youtube.com/watch?v=7zCdpY8nKug",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT586S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Pass defense: recover guard to technical stand up",
-      "description": "X Pass (Defender) film study: Pass defense: recover guard to technical stand up, taught by Lucas Lepri.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aIfwGOr12rk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aIfwGOr12rk",
-      "url": "https://www.youtube.com/watch?v=aIfwGOr12rk",
-      "creator": { "@type": "Person", "name": "Lucas Lepri" },
-      "duration": "PT50S"
+      "name": "X-Pass Defense to Single Leg X Guard",
+      "description": "X Pass (Defender) film study: X-Pass Defense to Single Leg X Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e8lZEZ3pQmg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e8lZEZ3pQmg",
+      "url": "https://www.youtube.com/watch?v=e8lZEZ3pQmg",
+      "duration": "PT53S"
     }
   ]
 }
@@ -213,17 +201,9 @@ Make an early escape from the passing angle by keeping a forearm at the shoulder
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=7zCdpY8nKug)
+![](https://www.youtube.com/watch?v=e8lZEZ3pQmg)
 
-<p class="clip-credit"><strong>Headquarters retention for the open guard player</strong> — taught by Lachlan Giles · 9:46 · <a href="https://www.youtube.com/watch?v=7zCdpY8nKug" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aIfwGOr12rk)
-
-<p class="clip-credit"><strong>Pass defense: recover guard to technical stand up</strong> — taught by Lucas Lepri · 0:50 · <a href="https://www.youtube.com/watch?v=aIfwGOr12rk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>X-Pass Defense to Single Leg X Guard</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=e8lZEZ3pQmg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

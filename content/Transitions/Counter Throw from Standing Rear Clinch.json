@@ -390,7 +390,17 @@
       }
     ],
     "safety_considerations": "Counter throws from standing involve significant impact forces and rotational stresses that require careful training progression. Always practice on appropriate mat surfaces with sufficient padding. Begin all throw training at reduced speed with a cooperative partner until mechanics are reliable. Use crash pads for full-speed drilling of lateral drops and sacrifice throws. Both practitioners must know proper breakfall technique (ukemi) before training throws at any intensity. Be particularly cautious with the hip throw variant, as poor execution can result in the opponent landing on their head or neck. Never practice standing throws on hard surfaces or when fatigued to the point where control is compromised. The bottom player (person being thrown) should tap or verbally signal immediately if they feel their neck or spine is being loaded dangerously during any throwing attempt.",
-    "clips": []
+    "clips": [
+      {
+        "id": "K_fKMw83VMY",
+        "title": "Rear Bear Hug Hip Throw",
+        "channel": "Ferris TKD",
+        "duration": 12,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "defender": {
     "name": "Counter Throw from Standing Rear Clinch Defender",

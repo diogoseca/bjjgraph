@@ -155,6 +155,27 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Body Ride (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jeff Jordan Camp - defending a cross body ride",
+      "description": "Cross Body Ride (Bottom) film study: Jeff Jordan Camp - defending a cross body ride.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hghlBKHON1s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hghlBKHON1s",
+      "url": "https://www.youtube.com/watch?v=hghlBKHON1s",
+      "duration": "PT307S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -169,6 +190,24 @@ The fundamental challenge of Cross Body Ride Bottom is that passive defense guar
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Body Ride (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hghlBKHON1s)
+
+<p class="clip-credit"><strong>Jeff Jordan Camp - defending a cross body ride</strong> · 5:07 · <a href="https://www.youtube.com/watch?v=hghlBKHON1s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

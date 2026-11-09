@@ -170,6 +170,27 @@ description: "How to execute Reverse X-Guard Entry in BJJ. Attacking perspective
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse X-Guard Entry (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technique Talk: The Reverse X-Guard Entry",
+      "description": "Reverse X-Guard Entry (Attacker) film study: Technique Talk: The Reverse X-Guard Entry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dISye8G6dpU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dISye8G6dpU",
+      "url": "https://www.youtube.com/watch?v=dISye8G6dpU",
+      "duration": "PT190S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +207,24 @@ This technique represents a sophisticated evolution in modern guard play, bridgi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse X-Guard Entry (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dISye8G6dpU)
+
+<p class="clip-credit"><strong>Technique Talk: The Reverse X-Guard Entry</strong> · 3:10 · <a href="https://www.youtube.com/watch?v=dISye8G6dpU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -155,6 +155,27 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura Trap (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "72 Kimura Trap Techniques In Just 22 Minutes by Jason Scully - BJJ Grappling\u2026",
+      "description": "Kimura Trap (Top) film study: 72 Kimura Trap Techniques In Just 22 Minutes by Jason Scully - BJJ Grappling\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iiF0S-B_81o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iiF0S-B_81o",
+      "url": "https://www.youtube.com/watch?v=iiF0S-B_81o",
+      "duration": "PT1325S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -171,6 +192,24 @@ Strategically, the position is valued for its control density—the top player c
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura Trap (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iiF0S-B_81o)
+
+<p class="clip-credit"><strong>72 Kimura Trap Techniques In Just 22 Minutes by Jason Scully - BJJ Grappling…</strong> · 22:05 · <a href="https://www.youtube.com/watch?v=iiF0S-B_81o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

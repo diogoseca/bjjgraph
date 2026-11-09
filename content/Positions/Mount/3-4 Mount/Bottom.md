@@ -155,6 +155,27 @@ description: "Master defensive strategies from 3-4 Mount Bottom. Complete escape
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "3-4 Mount (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard pass prevention: 3/4 mount",
+      "description": "3-4 Mount (Bottom) film study: Guard pass prevention: 3/4 mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6YuOQKeZ0P4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6YuOQKeZ0P4",
+      "url": "https://www.youtube.com/watch?v=6YuOQKeZ0P4",
+      "duration": "PT219S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -169,6 +190,24 @@ From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 3-4 Mount (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6YuOQKeZ0P4)
+
+<p class="clip-credit"><strong>Guard pass prevention: 3/4 mount</strong> · 3:39 · <a href="https://www.youtube.com/watch?v=6YuOQKeZ0P4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

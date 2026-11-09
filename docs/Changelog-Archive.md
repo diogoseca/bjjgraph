@@ -14626,3 +14626,15 @@ arms, and identically to the pixel where the heading was hidden. Both arms land 
 `querySelector` in. 246 B of the owner's 507,117 approval are unused.
 
 **Gates:** journeys, 13 reader files, 281 of 281. Controls `hub-heading-injected`, `provenance-every-part`, `anchor-lost`, all killed on their claims.
+
+## v1.251.5 - The video search, routes 1 to 4 (clips2, 2026-11-09)
+
+**What.** The owner's U106 a released six identity holds; U107 a kept the October rule (an exact video of that move in that role, or none) and asked for every search route on Claude, at low token cost. 47 content records and their 74 generated pages; clips and escape rows only, proved by comparing every record with its clip keys removed against the base: 47 of 47 equal.
+- Route 1, the six released holds (John Wayne Sweep, X Pass, Leg Weave Pass, Half Guard to Leg Weave, Suloev Stretch from Half Guard, Granby Roll to Guard): every clip already on their 12 halves was judged. 10 that were plainly another move came off (butterfly-guard defences on a half-guard sweep, a toreando pass and headquarters retention on X Pass, an underhook half-guard pass on the leg weave, a 12 s match commentary titled "knee bars"); 8 stayed. Empty halves were searched: X Pass and Granby Roll to Guard gained both halves.
+- Route 2, November's unfinished judging: 48 re-picks, 42 "unsure" verdicts still open on this tree, 10 title-only accepts (three auto frames each), 8 unsure escape moments.
+- Route 3, stale bans: a seeded random 50 of the 1,072 October evidence-gap removals still on a half without a front, plus the 27 title-test ids. 0 of the 50 ship, so the rest stay banned; 1 title-test id ships.
+- Route 4, first search: 73 live position seats and the 18 Demi Guard halves. 24 seats gain a film; no Demi Guard half does.
+
+**How.** Scripts reject first (sale pitches in the full description, teaser or highlight titles, title tests for name and seat, bans). Judge A (Sonnet, headless, no settings, tools or MCP, batches of 15 to 20) sees the rest; judge B (Sonnet, a per-rule checklist) sees only A's accepts, after their full description is fetched; the Opus seat settles disagreements and audits a random 10% of double accepts. Every shipped id answered oEmbed 200 on 9 Nov. `regenerate:md`, `regenerate:hubs` and `regenerate:neural` only; `graph.json` and the wire are byte-identical, so no MDP input moves.
+
+**Measured.** The emitter's line moves from 1,542 approved fronts, 103 unapproved and 1,217 empty halves to 1,594, 94 and 1,174; escape rows 67 to 69. In FLOW's gi game from Anywhere, placeholder meetings fall from 3,759 to 3,541 of 13,448 dealt cards per 100 games, 28.0% to 26.3%, and no card loses a video. Judging spent about 0.3 Mtok of Sonnet. Ledgers, verdicts and token records: `scratch/video-search/` outside the repo; report `reports/video-search.md`.

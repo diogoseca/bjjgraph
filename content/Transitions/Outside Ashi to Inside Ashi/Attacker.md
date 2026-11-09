@@ -176,6 +176,27 @@ description: "Master the attacker perspective for Outside Ashi to Inside Ashi co
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Ashi to Inside Ashi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Problem solving Outside Ashi to Inside",
+      "description": "Outside Ashi to Inside Ashi (Attacker) film study: BJJ Problem solving Outside Ashi to Inside.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZbK5uGQJ_3w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZbK5uGQJ_3w",
+      "url": "https://www.youtube.com/watch?v=ZbK5uGQJ_3w",
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the attacker executing the Outside Ashi to Inside Ashi transition, you are th
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Ashi to Inside Ashi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZbK5uGQJ_3w)
+
+<p class="clip-credit"><strong>BJJ Problem solving Outside Ashi to Inside</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=ZbK5uGQJ_3w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

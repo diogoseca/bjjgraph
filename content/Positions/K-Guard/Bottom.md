@@ -156,6 +156,37 @@ description: "Master K-Guard Bottom in BJJ. Dynamic half guard variation with in
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "K-Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "K Guard Options",
+      "description": "K-Guard (Bottom) film study: K Guard Options.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sixNuvnjL6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sixNuvnjL6s",
+      "url": "https://www.youtube.com/watch?v=sixNuvnjL6s",
+      "duration": "PT876S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "K-Guard For Complete Beginners | Great Open Guard For BJJ",
+      "description": "K-Guard (Bottom) film study: K-Guard For Complete Beginners | Great Open Guard For BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5b7391EWCPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5b7391EWCPs",
+      "url": "https://www.youtube.com/watch?v=5b7391EWCPs",
+      "duration": "PT1203S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -171,6 +202,32 @@ The position excels as both a retention platform and an offensive launching poin
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch K-Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sixNuvnjL6s)
+
+<p class="clip-credit"><strong>K Guard Options</strong> · 14:36 · <a href="https://www.youtube.com/watch?v=sixNuvnjL6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5b7391EWCPs)
+
+<p class="clip-credit"><strong>K-Guard For Complete Beginners | Great Open Guard For BJJ</strong> · 20:03 · <a href="https://www.youtube.com/watch?v=5b7391EWCPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

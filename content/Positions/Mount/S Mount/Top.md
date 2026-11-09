@@ -155,6 +155,37 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "S Mount (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Create Massive Pressure in S Mount With These Fundamental Tips",
+      "description": "S Mount (Top) film study: Create Massive Pressure in S Mount With These Fundamental Tips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1ymee3gku_8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1ymee3gku_8",
+      "url": "https://www.youtube.com/watch?v=1ymee3gku_8",
+      "duration": "PT415S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Iceland Camp 2020: S-Mount with Bjarni Baldursson",
+      "description": "S Mount (Top) film study: Iceland Camp 2020: S-Mount with Bjarni Baldursson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/deKLnJCOKHQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/deKLnJCOKHQ",
+      "url": "https://www.youtube.com/watch?v=deKLnJCOKHQ",
+      "duration": "PT1800S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -173,6 +204,32 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch S Mount (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1ymee3gku_8)
+
+<p class="clip-credit"><strong>Create Massive Pressure in S Mount With These Fundamental Tips</strong> · 6:55 · <a href="https://www.youtube.com/watch?v=1ymee3gku_8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=deKLnJCOKHQ)
+
+<p class="clip-credit"><strong>Iceland Camp 2020: S-Mount with Bjarni Baldursson</strong> · 30:00 · <a href="https://www.youtube.com/watch?v=deKLnJCOKHQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

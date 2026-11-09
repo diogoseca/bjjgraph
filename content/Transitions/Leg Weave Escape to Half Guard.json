@@ -264,7 +264,18 @@
         }
       }
     ],
-    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "clips": [
+      {
+        "id": "Eokc8gkhZbE",
+        "title": "Defending the leg weave pass",
+        "channel": "brent littell",
+        "duration": 168,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Weave Escape to Half Guard Defender",

@@ -155,6 +155,37 @@ description: "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Quarter Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quarter guard",
+      "description": "Quarter Guard (Bottom) film study: Quarter guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YqrhOhBP4XQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YqrhOhBP4XQ",
+      "url": "https://www.youtube.com/watch?v=YqrhOhBP4XQ",
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quarter Guard System: Wrestle Up \u0026 Attack the Legs with Kyle Boehm",
+      "description": "Quarter Guard (Bottom) film study: Quarter Guard System: Wrestle Up \u0026 Attack the Legs with Kyle Boehm.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oOMpgtyVYa8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oOMpgtyVYa8",
+      "url": "https://www.youtube.com/watch?v=oOMpgtyVYa8",
+      "duration": "PT292S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -169,6 +200,32 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Quarter Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YqrhOhBP4XQ)
+
+<p class="clip-credit"><strong>Quarter guard</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=YqrhOhBP4XQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oOMpgtyVYa8)
+
+<p class="clip-credit"><strong>Quarter Guard System: Wrestle Up &amp; Attack the Legs with Kyle Boehm</strong> · 4:52 · <a href="https://www.youtube.com/watch?v=oOMpgtyVYa8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

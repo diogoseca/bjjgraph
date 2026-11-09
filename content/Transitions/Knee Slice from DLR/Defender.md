@@ -150,6 +150,27 @@ description: "Defend against the Knee Slice from De La Riva Guard. Recognition c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from DLR (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "STOP THE KNEE CUT FROM DE LA RIVA. One SIMPLE trick...the DE LA STAMP",
+      "description": "Knee Slice from DLR (Defender) film study: STOP THE KNEE CUT FROM DE LA RIVA. One SIMPLE trick...the DE LA STAMP.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/81iTpFlUwPo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/81iTpFlUwPo",
+      "url": "https://www.youtube.com/watch?v=81iTpFlUwPo",
+      "duration": "PT365S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the Knee Slice from DLR requires proactive disruption of the passer's 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from DLR (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=81iTpFlUwPo)
+
+<p class="clip-credit"><strong>STOP THE KNEE CUT FROM DE LA RIVA. One SIMPLE trick...the DE LA STAMP</strong> · 6:05 · <a href="https://www.youtube.com/watch?v=81iTpFlUwPo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
