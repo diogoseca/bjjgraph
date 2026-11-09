@@ -80,7 +80,7 @@ scrolling and 16px prose. The node's other half changes role; no role switch (D-
 Order (D-338): Videos, Moves, Questions (no headers), then the titled sections: How it works,
 principles, setup/recognition, options, safety, mistakes, the rest, Related (a submission's safety guide moves to
 just before Related; S1 a); 6px gaps. A position reads: Also known as, Often confused with, Position definition (a faint eyebrow), principles, Decisions, safety, mistakes, Statistics (both with a Beta pill), How it works, prerequisites, training, Related. Learning/System Sources stays last; missing groups are omitted. Hubs include the full Top/Attacker guide; role pages add only
-shared hub safety. Failed loads offer Retry.
+shared hub safety. **U100 a:** Transitions, Submissions, any width: a tile per Training phase. Failed loads offer Retry.
 
 **The desktop article: two columns.** Above 660px of grid, on
 every article, each open section in reading order goes to the column that is shorter now, and a draw goes left.
@@ -90,7 +90,7 @@ the choices row; narrower it is centred, at most 902px. **U65 b: tiles end at th
 content.** The only gap is below the shorter column at the article's end, where the map shows and the reader grid owns input. Closing a tile reflows only what follows it. **U90 a, U99 b:** on a
 desktop the map ends at half the window, or `NG_LIVE_ANSWER_ROOM` above its bottom if that is higher (43% at 900 tall), never under
 the old 144px; it reads the window alone, so nothing moves when a question opens. Half of all cards need a scroll for their last
-answer (his ruling). **U90 note:** the asking line's text starts on the "Your move" label's left edge. **U101 b, U103 a:** a position's How it works opens short, a hub on both text sections; Read more opens the rest in place, one way. **U100 a:** on Transitions and Submissions, one Training tile per phase. Each tile's
+answer (his ruling). **U90 note:** the asking line's text starts on the "Your move" label's left edge. **U101 b, U103 a:** a position's How it works opens short, a hub on both text sections; Read more opens the rest in place, one way. Each tile's
 text is a centred 46ch column, except an article holding a wide table.
 The media slot is outside the prose measure. The reader ends above the conditional share cue in the corner;
 the account badge lives in the drawer. When the grid's width changes (Explore

@@ -46,7 +46,11 @@ import { journey } from '../dsl'
 //   read-more-scrolls      nothing moves above it (the reader scrolls as it opens)
 //   read-more-no-keyboard  Enter opens it (the key is swallowed)
 //   read-more-focus-to-top Tab carries on past it (focus thrown back to the first tile)
+//   columns-end-apart      the columns end together (the last phase made tall, with the rule that places tiles untouched)
+//   training-one-tile-columns the phases stand in both columns (the split removed)
 //   training-closed-rows   one section closes as one (each phase listed in Hidden sections)
+//   training-close-scrolls closing leaves the reader where it is (the close writes a scroll)
+//   training-head-not-back reopening brings the head back without moveBefore (the closed row keeps it)
 //   training-closed-stays  a closed phase leaves no tile (an empty box per phase stays in the columns)
 //   training-index-first   the index follows Training through its last phase (the row reads the first tile alone)
 //   hub-one-opens-both     a hub's two Read mores open one at a time (the first opens the second)
@@ -558,7 +562,9 @@ test('closing a tile moves nothing before it, reflows what follows, and reopenin
   columns(back)
 })
 
-// U100 a: what the split is for, on the page that left the most behind. Training alone at the end left 1,191px under the other column here.
+// U100 a: what the split is for, on the page that left the most behind: no split leaves 1,217px under the other column here, the split 22px.
+// BLIND SPOT, named: "the columns end together" holds on a Transition, where Training is last, and this journey runs on one. A Submission
+// could not pass it: Safety stands last and alone there, median 1,592px against 916px with no split. That is U111, the owner's question.
 const KNEE = '/Transitions/Knee-Slice-Pass/Attacker'
 test('U100 a at 1440x900 the phases fill both columns and the columns end together', async ({ page }) => {
   await boot(page, 1440, 900, KNEE)
@@ -584,10 +590,13 @@ for (const atomic of [true, false]) {
     const before = await dashboard(page)
     expect(before.dom.filter(t => t === 'training').length, 'premise: six phases').toBe(6)
     await close.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+    const place = (await dashboard(page)).scrollTop
     await j.clickByMouse('[data-section-toggle=training]', 'the ✕ on the first tile')
     await j.readerLayoutSettled()
-    const after = await dashboard(page)
+    const after = await dashboard(page), end = await page.locator(READY).evaluate(e => e.scrollHeight - e.clientHeight)
     expect(after.dom.filter(t => t === 'training'), 'no phase stays, open or empty').toEqual([])
+    // Training is this page's last section, so closing it can end the article above the place.
+    expect(after.scrollTop, `the reader stays, up to the article's new end (${place}, end ${end})`).toBe(Math.min(place, end))
     await expect(summary, 'one section').toHaveText('Hidden sections (1)›')
     expect(await page.evaluate(() => (window as any).__neural.get('readerSection.training', true)), 'one saved setting, by type').toBe(false)
     columns(after)
@@ -707,20 +716,26 @@ test('U103 a on a hub each Read more opens on its own, in place, by the mouse', 
   await j.readerLayoutSettled()
   const more = page.locator('[data-section-type=overview] details.ng-rm'), open = () => more.evaluateAll(all => all.map(x => (x as HTMLDetailsElement).open))
   const before = await dashboard(page), at = before.dom.indexOf('overview')
+  expect(at, 'premise: tiles sit before it').toBeGreaterThan(2)
+  expect(at, 'premise: tiles sit after it').toBeLessThan(before.dom.length - 1)
   expect(await open(), 'premise: two, both closed').toEqual([false, false])
+  const inPlace = (was: Dash, now: Dash) => {
+    expect(now.scrollTop, 'the reader stays where it was').toBe(was.scrollTop)
+    for (const [i, t] of was.tiles.slice(0, at).entries()) expect(now.tiles[i].box, `${t.type}, before it, did not move`).toEqual(t.box)
+    expect(now.tiles[at].box.height, 'the tile grew').toBeGreaterThan(was.tiles[at].box.height + 100)
+    columns(now)
+  }
   await j.clickByMouse('[data-section-type=overview] [data-reader-article=hub] summary', 'the shared section\'s Read more')
   await j.readerLayoutSettled()
   const after = await dashboard(page)
   expect(await open(), 'the shared section alone opened').toEqual([true, false])
-  expect(after.scrollTop, 'the reader stays where it was').toBe(before.scrollTop)
-  for (const [i, t] of before.tiles.slice(0, at).entries()) expect(after.tiles[i].box, `${t.type}, before it, did not move`).toEqual(t.box)
-  expect(after.tiles[at].box.height, 'the tile grew').toBeGreaterThan(before.tiles[at].box.height + 100)
-  columns(after)
+  inPlace(before, after)
   await page.locator('[data-section-type=overview] [data-reader-article=guide] summary').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+  const scrolled = await dashboard(page)
   await j.clickByMouse('[data-section-type=overview] [data-reader-article=guide] summary', 'the seat\'s Read more')
   await j.readerLayoutSettled()
   expect(await open(), 'then the seat\'s').toEqual([true, true])
-  columns(await dashboard(page))
+  inPlace(scrolled, await dashboard(page))
 })
 
 // The same by keyboard, and Tab goes on from there. A summary that hides itself must not send focus back to the page's start.

@@ -36,6 +36,7 @@ import { journey } from '../dsl'
 //   relations-label-shown    a position drops them (the rule removed)
 //   u99-wheel-declines       the wheel declines nothing (a wheel over the card counts as reading)
 //   training-one-tile        each phase of Training is its own tile (the split removed)
+//   training-apart           the phases stand together (the round-2 defect: sorted to the end, past Safety)
 //   training-numbered        no head is invented (each phase's tile keeps a head, the "Training 2" he rejected on the Overview)
 //   training-text-lost       every word of the source stays (a phase's tile loses its text)
 //   training-index-rows      one section, one index row (a row per phase)
@@ -120,7 +121,7 @@ for (const path of [SCB, '/Positions/Rubber-Guard/New-York/Bottom']) {
 }
 
 // U103 a (owner, 2026-11-06): a bare hub too, on both text sections, and its role links stay above them. Every position page was swept
-// once at v1.251.1 through the app's own reader: 266 role pages with 1 Read more, 133 hubs with 2, and the 8 lowercase hubs with 1.
+// once at v1.251.1 through the app's own reader: 266 role pages with 1 Read more, 133 hubs with 2, and the 8 lowercase-path role pages with 1.
 for (const path of ['/Positions/Mount', '/Positions/Side-Control']) {
   test(`@curated U103 a ${path}: a hub opens short on both text sections, and every word of both sources stays`, async ({ page }) => {
     await boot(page, 1440, 900, path)
@@ -140,7 +141,7 @@ for (const path of ['/Positions/Mount', '/Positions/Side-Control']) {
     expect(d.links, 'the role links stay').toBeGreaterThan(1)
     expect(d.walls.map(w => w.read), 'the shared section and the seat\'s each wait behind Read more').toEqual(['Read more', 'Read more'])
     expect(d.walls.map(w => w.open), 'both closed on arrival').toEqual([false, false])
-    expect(d.shown, 'the tile opens short: Mount\'s was 3,294px of text').toBeLessThan(1100)
+    expect(d.shown, 'the tile opens short: under 1,100 characters, where Mount showed 3,294px of text').toBeLessThan(1100)
     for (const w of d.walls) {
       expect(w.dom.length, 'premise: real text').toBeGreaterThan(600)
       expect(w.dom, 'every word of the source stays in the DOM, in order').toBe(w.source)
