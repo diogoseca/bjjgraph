@@ -730,6 +730,22 @@
         "duration": 48,
         "vertical": false
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Posture up and stack defense - drive head upward",
+        "clips": [
+          {
+            "id": "dJOw0ZEyXXc",
+            "title": "Triangle choke from Guard \"Posture Up Escape",
+            "channel": "Cosens MMA LLC",
+            "duration": 72,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-09"
+          }
+        ]
+      }
     ]
   },
   "variations_and_setups": [

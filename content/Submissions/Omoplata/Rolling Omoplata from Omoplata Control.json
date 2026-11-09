@@ -739,6 +739,22 @@
         "duration": 43,
         "vertical": false
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Forward roll through the omoplata",
+        "clips": [
+          {
+            "id": "3IFNLM1TTi0",
+            "title": "Omoplata Position Front Roll",
+            "channel": "Great Grappling",
+            "duration": 196,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-09"
+          }
+        ]
+      }
     ]
   }
 }

@@ -651,6 +651,36 @@
         "duration": 71,
         "vertical": false
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Forward roll escape",
+        "clips": [
+          {
+            "id": "wa2c3XfXEyQ",
+            "title": "Escaping the omoplata with a front roll",
+            "channel": "Brazilian Top Team Happy Valley ",
+            "duration": 50,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-09"
+          }
+        ]
+      },
+      {
+        "escape": "Posture up",
+        "clips": [
+          {
+            "id": "yXAmZh6fG2k",
+            "title": "Escape the omoplata with good posture",
+            "channel": "Ramsey Dewey",
+            "duration": 83,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-09"
+          }
+        ]
+      }
     ]
   }
 }

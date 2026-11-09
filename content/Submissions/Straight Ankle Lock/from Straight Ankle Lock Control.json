@@ -857,6 +857,22 @@
         "vertical": false,
         "front": true
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Boot defense",
+        "clips": [
+          {
+            "id": "dasxk0qWNtQ",
+            "title": "Straight ankle lock defense - the boot",
+            "channel": "BJJ4Breakfast",
+            "duration": 235,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-09"
+          }
+        ]
+      }
     ]
   }
 }
