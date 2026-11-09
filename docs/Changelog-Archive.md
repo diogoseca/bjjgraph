@@ -14622,6 +14622,7 @@ hub How it works read: HOW IT WORKS, For both sides, the role links, For both si
 **`#overview`.** No page links to it, 0 hrefs in the build, so a typed or shared URL is the only way in. On 7 pages at 1440 and 390 it lands on the same section in both
 arms, and identically to the pixel where the heading was hidden. Both arms land between -12 and +37 px of the reader's top: older imprecision, not this change's.
 
-**Bytes:** -90 B, to 506,869 B. The ceiling follows it down. My scratch figure was -52 because that variant left the now-unused `querySelector` in.
+**Bytes:** -90 B, to 506,871 B on the tree merged with #348, and the ceiling follows it down. My scratch figure was -52 because that variant left the now-unused
+`querySelector` in. 246 B of the owner's 507,117 approval are unused.
 
 **Gates:** journeys, 13 reader files, 281 of 281. Controls `hub-heading-injected`, `provenance-every-part`, `anchor-lost`, all killed on their claims.
