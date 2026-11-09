@@ -185,6 +185,43 @@ for (const [path, claim] of [['/Positions/Mount/Top', 'a position'], ['/Principl
   })
 }
 
+// v1.251.4 (#345's review, item 15): How it works said its name once per text section, under its own title, and "For both sides" once a
+// part. On a hub that read "How it works" three times: the "1, 2, or 3 overviews" he rejected, under its new name. Swept once through the
+// app's own reader on all 4,538 reader pages: before, 1,677 showed it two or three times (the 1,432 hubs, 83 Systems, 26 Learning and 74
+// seats); after, 1 on every page, with section order, index rows and words unchanged. hub-heading-injected, provenance-every-part.
+for (const [path, said] of [['/Positions/Mount', ['For both sides', 'Top perspective']], ['/Transitions/Knee-Slice-Pass', ['For both sides', 'Attacker perspective']],
+  ['/Submissions/Armbar/from-Mount', ['For both sides', 'Attacker perspective']], ['/Systems/10th-Planet-Half-Guard-Bottom-System', []], ['/Learning/Double-Down-on-Strengths', []]] as const) {
+  test(`@curated ${path}: How it works says its name once, and each page's provenance once`, async ({ page }) => {
+    await boot(page, 1440, 900, path)
+    const d = await page.evaluate(() => {
+      const t = document.querySelector('[data-reader-body]>[data-section-type=overview]')!, vis = (e: Element) => e.getClientRects().length > 0
+      return { names: [...t.querySelectorAll('*')].filter(e => vis(e) && !e.children.length && e.textContent!.trim() === 'How it works').length,
+        said: [...t.querySelectorAll('.ng-section-provenance')].filter(vis).map(e => e.textContent!.trim()), words: t.textContent!.replace(/\s+/g, '').length }
+    })
+    expect(d.words, 'premise: real text').toBeGreaterThan(200)
+    expect(d.names, 'the name once, on the tile').toBe(1)
+    expect(d.said, 'each page named once, in order').toEqual(said)
+  })
+}
+
+// #overview, typed or shared. No page links to it (0 hrefs in the build), so a URL is the only way in, and the injected heading carried
+// the same id. Both arms land on the section, measured on 7 pages at 1440 and 390. anchor-lost.
+for (const path of ['/Positions/Mount', '/Positions/Mount/Top']) {
+  test(`@curated ${path}#overview lands on its section`, async ({ page }) => {
+    await boot(page, 1440, 900, path + '#overview')
+    await expect.poll(() => page.evaluate(() => (window as any).__neural._reader.root.scrollTop), { message: 'the reader goes to it' }).toBeGreaterThan(500)
+    await page.waitForTimeout(400)
+    const d = await page.evaluate(() => {
+      const r = (window as any).__neural._reader, wall = r.root.querySelector('[data-source-id="overview"]')
+      return { tag: wall.tagName, top: wall.getBoundingClientRect().top - r.root.getBoundingClientRect().top, hash: location.hash }
+    })
+    expect(d.tag, 'the anchor is the section').toBe('SECTION')
+    expect(d.hash, 'the URL keeps it').toBe('#overview')
+    expect(d.top, 'at the reader\'s top').toBeGreaterThan(-40)
+    expect(d.top, 'at the reader\'s top').toBeLessThan(80)
+  })
+}
+
 // The names a reader sees on a hub. The prose may use the word; a label may not.
 for (const [path, seats] of [['/Positions/Mount', ['From the top', 'From the bottom']], ['/Transitions/Knee-Slice-Pass', ['As the attacker', 'As the defender']]] as const) {
   test(`@curated ${path}: the seats take their new names, and no label says overview`, async ({ page }) => {

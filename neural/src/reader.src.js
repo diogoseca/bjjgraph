@@ -386,8 +386,8 @@ class Reader {
     const article = element("article", { "data-reader-article": kind, "data-source-path": path });
     article.innerHTML = record.html;
     article.querySelectorAll("script,style").forEach((node) => node.remove());
-    const overview = article.querySelector("section#overview");
-    if (overview && !overview.querySelector("h2")) overview.prepend(element("h2", { id: "overview" }, "How it works"));
+    // v1.251.4: no heading is injected into section#overview any more. The tile names it, and on a hub the injected one showed once per
+    // text section, so the tile read "How it works" three times. The section keeps id="overview", which anchor() finds first anyway.
     const base = new URL(path, location.origin);
     // Source pages sometimes repeat a section's id on its heading. Each clone id
     // is unique, and heading links resolve within this article, never the hidden DOM.
@@ -619,7 +619,9 @@ class Reader {
       for (const part of control ? [] : group.parts) {
         const fragment = element("article", { "data-reader-article": part.source.dataset.readerArticle, "data-source-path": part.source.dataset.sourcePath });
         if (!ROLES.test(path) && group.parts.some(p => p.source.dataset.readerArticle !== part.source.dataset.readerArticle)) {
-          fragment.append(element("p", { class: "ng-section-provenance" }, part.source.dataset.readerArticle === "hub" ? "For both sides" : pathRole(part.source.dataset.sourcePath)));
+          // v1.251.4: once for a run of parts from one page, not once a part: a hub's How it works said "For both sides" twice in a row.
+          const said = part.source.dataset.readerArticle === "hub" ? "For both sides" : pathRole(part.source.dataset.sourcePath);
+          if (said != group.said) fragment.append(element("p", { class: "ng-section-provenance" }, group.said = said));
         }
         // Keep authored headings, anchors and complete safety text in the source
         // fragment. The new heading supplies the visible semantic group title.
