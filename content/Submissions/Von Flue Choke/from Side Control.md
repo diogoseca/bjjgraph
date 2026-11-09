@@ -357,32 +357,9 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 | Shoulder impingement from pressure application | Low | 1-3 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and release their guillotine grip
-
-**Tap Signals**:
-- Verbal tap (most important as arms may be trapped)
-- Physical hand tap on your body or mat
-- Physical foot tap on mat
-- Releasing the guillotine grip immediately
-- Any distress signal including body going limp
 
 
-**Release Protocol**:
-1. Immediately remove shoulder pressure from neck
-2. Lift your head and upper body away from opponent's neck
-3. Create space by posting your hands and moving your torso back
-4. Check partner's consciousness and breathing
-5. If partner is unconscious, elevate legs and monitor recovery
-
-
-**Training Restrictions**:
-- Never apply full pressure in training—use gradual pressure to allow tap
-- Never hold the choke after partner releases their guillotine grip
-- Always allow partner's arms to be free enough to tap
-- Never use competition speed or sudden pressure in drilling
-- Stop immediately if partner's grip loosens (indicates impending unconsciousness)
-- Require verbal confirmation that partner understands the danger before practicing
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

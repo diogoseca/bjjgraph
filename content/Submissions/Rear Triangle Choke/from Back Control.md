@@ -362,34 +362,9 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 | Shoulder hyperextension of trapped arm | Medium | 5-10 days depending on severity |
 
 
-**Application Speed**: EXTREMELY SLOW and progressive - 4-6 seconds minimum in training, allowing partner clear opportunity to tap
-
-**Tap Signals**:
-- Verbal tap or verbal signal of any kind
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any distress signal including sounds or movements indicating panic
-- Loss of resistance or going limp (immediate release required)
 
 
-**Release Protocol**:
-1. Immediately unlock legs and open triangle configuration
-2. Release trapped arm completely
-3. Allow opponent's head to return to neutral position
-4. Reduce all pressure and maintain stillness
-5. Check partner's condition and ensure they are alert and breathing normally
-6. Wait for verbal confirmation before resuming training
-
-
-**Training Restrictions**:
-- Never apply full pressure during initial learning phases (first 3-4 weeks)
-- Never spike or jerk the submission - all pressure must be gradual
-- Never continue applying pressure after tap signal
-- Never practice on partners significantly smaller or less experienced without explicit agreement
-- Always ensure training partner has clear access to tap (free hand available)
-- Never combine with additional submissions during learning phases
-- Strictly avoid competition-speed application in training environment
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -231,32 +231,9 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 | Shoulder dislocation | CRITICAL | 8-12 weeks minimum, potential for chronic instability |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time, shoulder submissions require exceptional care
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on partner or mat
-- Physical foot tap on partner or mat
-- Any distress signal or vocalization
-- Rapid tapping motion with free hand
 
 
-**Release Protocol**:
-1. Immediately stop all forward pressure on shoulder
-2. Release arm weave and unwrap controlling leg
-3. Remove high guard position and lower hips
-4. Allow partner to safely extract their arm
-5. Check for shoulder mobility and comfort before continuing training
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking motions to shoulder submissions
-- Never use competition speed during training rolls
-- Always ensure training partner has clear tap access with free hand
-- Never force the position if partner has limited shoulder flexibility
-- Stop immediately upon any tap signal, do not wait for verbal confirmation
-- Beginners should only practice entry mechanics, not finishing pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

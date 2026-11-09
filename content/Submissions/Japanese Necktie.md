@@ -215,33 +215,9 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 | Shoulder injury to trapped arm | Medium | 2-4 weeks for strains |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time in training. This choke can render opponents unconscious in 3-5 seconds when fully locked, making gradual pressure application critical.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap on partner's body
-- Physical foot tap on mat
-- Any distress signal or unusual sound
-- Loss of resistance or body going limp (IMMEDIATE RELEASE)
 
 
-**Release Protocol**:
-1. Immediately remove choking arm from around neck
-2. Release grip on your own wrist or leg
-3. Roll away from opponent to create space
-4. Check partner's consciousness and breathing
-5. If unconscious: elevate legs, monitor breathing, seek medical attention if no immediate recovery
-
-
-**Training Restrictions**:
-- Never apply at competition speed during drilling
-- Never hold after partner taps or goes unconscious
-- Always allow clear tap access for both hands
-- Communicate pressure levels with training partner
-- Stop immediately if partner shows any sign of distress
-- Avoid jerking or yanking motions during application
-- White and blue belts should practice setup only, not full finishing pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

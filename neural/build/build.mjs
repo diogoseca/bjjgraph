@@ -63,12 +63,7 @@ const conceptsCSS = readFileSync(R("src/concepts.css"), "utf8");
 // THE READING STYLESHEET IS READ HERE AND DELIBERATELY NOT JOINED INTO `cssJoined` (v1.194.0).
 // It is emitted as its own artifact below and fetched by the deferred reader. See the long
 // note at the top of src/reading.css for why, and the both-halves assertion after the emit.
-// U104's preview switch: NG_SLIM_NO_VIDEO=1 builds the one-line "Video unavailable" card. Off, this adds no byte to any bundle.
-const SLIM_NO_VIDEO_CSS = `
-.ng-current-title:has(+[data-choice-media]), [data-choice-media]+footer { display:none; }
-.ng-current-card>[data-choice-media] { height:44px; aspect-ratio:auto; }
-`;
-const readingCSS = readFileSync(R("src/reading.css"), "utf8") + (process.env.NG_SLIM_NO_VIDEO ? SLIM_NO_VIDEO_CSS : "");
+const readingCSS = readFileSync(R("src/reading.css"), "utf8");
 
 // lists-codec.src.js is a REAL ES module (so `node --test` and a Cloudflare Pages Function
 // can import the identical source — one codec, never a second implementation to drift).
@@ -474,9 +469,10 @@ await build({
 // never be listed, because it would come back undefined rather than throw. tests/reader_mangle.test.mjs pins this: all but
 // `held` anywhere, as `.name`, a quoted name or a key, and `held` only through the reader's four spellings. It does not pin
 // `held` through another local name, or a name built at runtime. A stale entry fails it too. This stays because it saves
-// 620 B, and v1.251.3's seven (from placeTop on) saved a further 161 B, which paid the hold's fix. tests/artifacts/article_sections_mutants.mjs
-// spells some of them, but it edits the source before this build, so that is not a read.
-const READER_ONLY_PROPS = /^(?:placeTop|gridW|gameKey|selecting|seating|extract|gameInput|closedRow|referenceClips|lightReference|bookClose|highlightReference|syncSections|mediaOrigin|hiddenSections|gamePage|bookScroll|splitSections|syncIndex|mediaNext|readingOrder|chromeActive|shelfState|partEl|roleLinks|ownsMedia|indexBest|held|heldAt|heldY)$/;
+// 620 B, and v1.251.3's seven (from placeTop on) saved a further 161 B, which paid the hold's fix. v1.252.0's seven (to leadCells)
+// pay for U109 to U111: the last four were renamed from common words (serial, tiles, article, lead) so the gate can scan them.
+// tests/artifacts/article_sections_mutants.mjs spells some of them, but it edits the source before this build, so that is not a read.
+const READER_ONLY_PROPS = /^(?:sortColumns|readingInteraction|gameHomes|renderSerial|tileSizer|pageArticle|leadCells|placeTop|gridW|gameKey|selecting|seating|extract|gameInput|closedRow|referenceClips|lightReference|bookClose|highlightReference|syncSections|mediaOrigin|hiddenSections|gamePage|bookScroll|splitSections|syncIndex|mediaNext|readingOrder|chromeActive|shelfState|partEl|roleLinks|ownsMedia|indexBest|held|heldAt|heldY)$/;
 await build({
   entryPoints: [R("src/reader.src.js")], bundle: true, format: "esm", target: "es2019",
   minify: true, mangleProps: READER_ONLY_PROPS, legalComments: "none", outfile: R("dist/reader.js"), logLevel: "info",

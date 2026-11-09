@@ -315,31 +315,9 @@ At the highest levels of competition, the arm triangle from side control remains
 | Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds. Never spike or jerk the squeeze.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap (multiple taps on opponent or mat)
-- Physical foot tap (multiple taps with foot)
-- Any distress signal or sudden loss of resistance
-- Immediately release if opponent goes limp
 
 
-**Release Protocol**:
-1. Immediately release arm squeeze and remove chest pressure upon any tap signal
-2. Disengage from head-and-arm grip and move away from opponent's head
-3. Allow opponent to breathe and recover fully (30-60 seconds minimum)
-4. Check for consciousness, normal breathing, and coherent verbal response
-5. If unconscious: position on side in recovery position, elevate legs, monitor breathing, seek medical attention if not conscious within 20 seconds
-
-
-**Training Restrictions**:
-- Apply smooth progressive pressure only - never spike or jerk the squeeze
-- Release immediately upon any tap signal without hesitation
-- Always allow at least one hand free for tapping during training
-- Never apply competition-speed finishing pressure in training - prioritize control over speed
-- Stop immediately if opponent's face changes color or shows signs of distress
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

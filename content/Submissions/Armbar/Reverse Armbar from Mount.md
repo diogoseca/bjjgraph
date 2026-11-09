@@ -288,31 +288,9 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 | Bicep tendon strain from improper angle | Medium | 2-3 weeks |
 
 
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum with constant communication
-
-**Tap Signals**:
-- Verbal tap (preferred during rotation)
-- Physical hand tap on your body or mat
-- Physical foot tap on mat
-- Any distress vocalization or signal
 
 
-**Release Protocol**:
-1. Immediately stop hip extension and rotation
-2. Lower hips away from elbow joint
-3. Release leg pressure on head and shoulder
-4. Return arm to neutral position before releasing grip
-5. Allow partner to extract arm at their pace
-
-
-**Training Restrictions**:
-- Never spike or jerk during the rotation phase
-- Never complete the submission at competition speed in training
-- Always maintain verbal communication during setup
-- Never apply full extension until partner is completely controlled
-- Prohibit this technique for beginners without supervision
-- Always allow clear tap access throughout
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

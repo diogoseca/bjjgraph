@@ -315,30 +315,9 @@ Strategically, this submission functions as a trap within the broader Twister sy
 | Neck muscle strain from resistance under rotational load | Medium | 7-14 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time. The combination of spinal rotation and choking pressure makes this submission especially dangerous when applied rapidly. Never snap or jerk the submission.
-
-**Tap Signals**:
-- Verbal tap or any vocal sound indicating submission
-- Physical hand tap on opponent, own body, or mat
-- Physical foot tap on mat
-- Any distress signal, loss of resistance, or going limp
 
 
-**Release Protocol**:
-1. Immediately release choking arm pressure upon any tap signal
-2. Disengage head and neck control before releasing leg entanglement
-3. Help opponent to seated or recovery position
-4. Monitor breathing and consciousness for at least 30 seconds
-5. Call for medical assistance if partner does not immediately recover
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity during drilling
-- Always allow clear tap access for both hands and feet
-- Stop immediately at any sign of distress or loss of consciousness
-- Avoid cranking the neck or using hyperextension to finish
-- Never practice on training partners with existing neck or cervical injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

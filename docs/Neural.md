@@ -79,17 +79,18 @@ the vignette. The complete linked article appears below the game controls.
 scrolling and 16px prose. The node's other half changes role; no role switch (D-318).
 Order (D-338): Videos, Moves, Questions (no headers), then the titled sections: How it works,
 principles, setup/recognition, options, safety, mistakes, the rest, Related (a submission's safety guide moves to
-just before Related; S1 a); 6px gaps. A position reads: Also known as, Often confused with, Position definition (a faint eyebrow), principles, Decisions, safety, mistakes, Statistics (both with a Beta pill), How it works, prerequisites, training, Related. Learning/System Sources stays last; missing groups are omitted. Hubs include the full Top/Attacker guide; role pages add only
+just before Related, S1 a; its page keeps only the injury risks and a go-slow line, U112 a); 6px gaps. A position reads: Also known as, Often confused with, Position definition (a faint eyebrow), principles, Decisions, safety, mistakes, Statistics (both with a Beta pill), How it works, prerequisites, training, Related. Learning/System Sources stays last; missing groups are omitted. Hubs include the full Top/Attacker guide; role pages add only
 shared hub safety. **U100 a:** Transitions, Submissions, any width: a tile per Training phase. Failed loads offer Retry.
 
 **The desktop article: two columns.** Above 660px of grid, on
 every article, each open section in reading order goes to the column that is shorter now, and a draw goes left.
 `layoutNow` reads real heights and names the side (`data-right`); floats place it, so the DOM never moves: head tops down the page,
 Tab and the index are one order. With the index shown (from 1,350px free, U97 b) the grid is centred 12px clear of it, sharing both edges with
-the choices row; narrower it is centred, at most 902px. **U65 b: tiles end at their own
+the choices row; narrower it is centred, at most 902px. **U110 a:** under 1,024px free, all that
+stacks is one centred box, at most 496px. **U65 b: tiles end at their own
 content.** The only gap is below the shorter column at the article's end, where the map shows and the reader grid owns input. Closing a tile reflows only what follows it. **U90 a, U99 b:** on a
-desktop the map ends at half the window, or `NG_LIVE_ANSWER_ROOM` above its bottom if that is higher (43% at 900 tall), never under
-the old 144px; it reads the window alone, so nothing moves when a question opens. Half of all cards need a scroll for their last
+desktop the map ends at half the window, or `NG_LIVE_ANSWER_ROOM` above its bottom if that is higher, never under
+144px; it reads the window alone, so nothing moves when a question opens. Half of all cards need a scroll for their last
 answer (his ruling). **U90 note:** the asking line's text starts on the "Your move" label's left edge. **U101 b, U103 a:** a position's How it works opens short, a hub on both text sections; Read more opens the rest in place, one way. Each tile's
 text is a centred 46ch column, except an article holding a wide table.
 The media slot is outside the prose measure. The reader ends above the conditional share cue in the corner;
@@ -97,7 +98,7 @@ the account badge lives in the drawer. When the grid's width changes (Explore
 opening, a resize) and the article has scrolled above the reader's top, `layoutNow` keeps the text block nearest the
 reader's top, in either column, in place; at the arrival the stage holds still. A tile click does nothing; the node band, Moves and question
 keep their places; ≤640px keeps its stacked geometry. **U65 note:** game pages omit the duplicate Videos credits
-tile; the film remains in the stage above, with its own close button. Videos keeps its index entry and closed
+tile; the film remains in the stage above. Videos keeps its index entry and closed
 disclosure control; either brings the film into view and focuses its close button when reopened.
 Reference pages keep their Videos tile and player.
 
@@ -181,15 +182,14 @@ re-mounting an answered question would hand out a second attempt at credit alrea
 
 The current media card (`.ng-landfilm`) is the film's one host. It shares the game's scrollport and
 moves between game and article slots (see Reading delivery). Its ghost ✕ (`data-film-close`) hides
-while a clip expands. Its reel has no scrollbar, earned fades (`_syncEdgeFade`) and
+while a clip expands. With columns the question sits left, the film right (U104, U108 a). With no video it keeps one
+clip's size, no ✕, and asks for one through Feedback (`kind: "video"`, U109 b). Its reel has no scrollbar, earned fades (`_syncEdgeFade`) and
 `data-film-prev/next` chevrons toward hidden clips; each press glides one clip (`_filmPage`).
 **Technique films** come from their own `perspectives.{attacker,defender}.clips`; the node's fixed
 half selects them on reader/link arrivals and live catches. `renderLandCard` assigns `_landIdx`
 before selection. Missing or unauthored defender clips show no reel and never borrow another half's
 content. Position clips use the half-local array followed by explicitly tagged hub clips,
-deduplicated by video ID. At v1.227.0, 285/290 concrete submissions have defender clips. Gaps:
-Americana, Armbar and Kimura from Triangle Control; Achilles Lock from Inside Ashi-Garami; Suloev
-Stretch from Half Guard. All five have authored defender blocks; no clips were added.
+deduplicated by video ID.
 **Recognition comes first, everywhere** (v1.132.2): the emitter's `_hard_clip` bridge
 makes every display answer one-line-comparable (word-boundary ≤150 + ellipsis, full text in `d`),
 so every deck in the corpus builds a real MC. The recall block survives only as a last-resort safety net (a deliberately-opened card
@@ -486,7 +486,7 @@ value through ONE module (`knowledge-profile.src.js`), so a correct answer moves
   (`{text, stale, handId}`), published after the existing all-values gate. No second solve or
   formatter supplies the footer. Between decisions the shared view names its stale state.
 - **"—"** keeps the move playable: pending, failed, or over admission (40k states, 400k branches,
-  10 s build, 15 s solve). Values follow the first hand (5.6 s, measured desktop).
+  10 s build, 15 s solve). Values follow the first hand.
 
 EDGE (`cal.ev`) is no longer printed: it is the dealt order, FLOW's feature and the opponent's
 tie-break. The wire

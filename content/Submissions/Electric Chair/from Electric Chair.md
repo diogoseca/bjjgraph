@@ -342,28 +342,9 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 | Lower back strain from asymmetric hip loading during the split | Medium | 1-4 weeks with proper rehabilitation |
 
 
-**Application Speed**: VERY SLOW and progressive. The hip joint and groin have highly variable flexibility between individuals. Apply splitting pressure gradually over several seconds, never spike or jerk the submission. The opponent may not feel danger until they are already at risk of injury.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, your body, or mat
-- Physical foot tap with free leg on mat or partner
-- Any unusual vocalization, screaming, or grimacing indicating distress
 
 
-**Release Protocol**:
-1. Release ALL splitting pressure immediately upon any tap signal
-2. Slowly bring opponent's legs back together rather than dropping them suddenly
-3. Maintain lockdown control briefly during release to prevent opponent from jerking their own leg
-4. If in doubt about tap, release immediately - position can be re-established safely
-
-
-**Training Restrictions**:
-- Apply submission at no more than 50% speed and pressure during drilling until both partners understand the mechanics
-- Never apply full splitting force in training - stop well before the opponent's flexibility limit
-- Beginners should only practice the positional setup without applying finishing pressure until they develop sensitivity to their partner's flexibility
-- Avoid this submission against partners with known hip or groin injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

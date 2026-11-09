@@ -370,33 +370,9 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 | Head and facial impact injuries | Medium | 1-4 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW in training - 5-7 seconds minimum from entry to finish. NEVER use competition speed in drilling. Allow partner to safely position themselves.
-
-**Tap Signals**:
-- Verbal tap (most important during aerial techniques)
-- Physical hand tap (multiple rapid taps)
-- Physical foot tap or stomp
-- Any distress signal or protective movement
-- Partner going limp or unresponsive
 
 
-**Release Protocol**:
-1. Immediately release hip pressure and leg grip
-2. Release arm control while supporting opponent's arm
-3. Allow opponent to safely extract their arm
-4. Assist partner in sitting up if they landed awkwardly
-5. Check for any signs of injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jump aggressively onto opponent's arm
-- Never use full competition speed in training
-- Always ensure mat space is clear before attempting
-- Never practice on partners significantly smaller than you
-- Prohibit this technique for white belts and most blue belts
-- Always have experienced instructor supervision when learning
-- Never combine with other dynamic movements in drilling
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

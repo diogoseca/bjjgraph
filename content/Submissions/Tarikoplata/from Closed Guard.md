@@ -366,32 +366,9 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 | Labrum tear (glenoid labrum) | CRITICAL | 4-6 months post-surgery, career-threatening |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (primary)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any verbal distress signal
-- Frantic movement or panic response
 
 
-**Release Protocol**:
-1. Immediately release wrist grip upon tap signal
-2. Remove leg from over opponent's shoulder smoothly
-3. Release hip pressure gradually
-4. Allow opponent to extract arm naturally without resistance
-5. Check for injury before continuing training
-
-
-**Training Restrictions**:
-- Never use competition speed in training
-- Never spike or jerk the submission - apply progressive pressure only
-- Always allow tap access - opponent must have free hand available
-- Restrict to advanced practitioners only (minimum purple belt recommended)
-- Avoid practicing on training partners with existing shoulder injuries
-- Never combine with explosive movements or sudden adjustments
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

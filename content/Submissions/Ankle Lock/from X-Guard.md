@@ -339,28 +339,9 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 | Midfoot joint sprain (Lisfranc injury) from twisting pressure on planted foot | High | 6-12 weeks, may require surgical intervention |
 
 
-**Application Speed**: SLOW and progressive. Straight ankle locks allow the defender time to feel escalating pressure and tap before injury occurs. Never jerk, spike, or explosively crank the ankle. Apply steady hip extension over 2-3 seconds minimum.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, your body, or the mat
-- Physical foot tap with free leg on mat or partner
-- Any unusual screaming, groaning, or distress vocalization
 
 
-**Release Protocol**:
-1. Release grip immediately upon any tap signal without hesitation
-2. If in doubt whether a tap occurred, release immediately — position can always be re-established
-3. Slowly unwind the figure-four grip rather than abruptly dropping the leg to prevent secondary strain
-4. Verbally check with partner after release to confirm they are uninjured before continuing
-
-
-**Training Restrictions**:
-- Beginners should drill at slow speed with cooperative partners before adding resistance
-- No explosive cranking or sudden increases in pressure at any skill level
-- Avoid ankle locks on partners with known ankle, foot, or Achilles tendon injuries
-- White belts under IBJJF rules may only attempt straight ankle locks — no heel hooks or toe holds from this position
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

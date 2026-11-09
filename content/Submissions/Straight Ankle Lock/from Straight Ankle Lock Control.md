@@ -312,31 +312,9 @@ Strategically, the straight ankle lock from established control serves dual purp
 | Foot bone fracture from explosive application | High | 6-12 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner to recognize depth and tap safely
-
-**Tap Signals**:
-- Verbal tap - clearly audible 'tap' or 'stop'
-- Physical hand tap on opponent or mat - minimum 2 taps
-- Physical foot tap with free leg
-- Any distress signal including unusual sounds or movements
 
 
-**Release Protocol**:
-1. Immediately stop hip extension the moment tap is felt or heard
-2. Release armpit grip on the foot and allow it to slide free
-3. Open leg entanglement by releasing hooks and creating space
-4. Move away from the leg to prevent accidental re-engagement
-5. Check with partner verbally to ensure they are okay
-
-
-**Training Restrictions**:
-- Apply smooth progressive pressure only - never spike or jerk the submission
-- Always allow a 3-5 second pressure window in training - never use competition speed
-- Maintain verbal communication with training partners about pressure levels
-- Never continue pressure after tap signal is given
-- Beginners should train this submission under direct instructor supervision
-- Never combine explosive entries with immediate finishing pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

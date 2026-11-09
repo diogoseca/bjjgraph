@@ -337,25 +337,9 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 | Loss of consciousness or serious harm from a sustained choke | CRITICAL | Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms. |
 
 
-**Application Speed**: Use slow enclosure practice and avoid cervical extension or twisting. Open the hands and remove the neck restraint immediately on any tap. No fixed number of seconds makes a locked submission safe.
-
-**Tap Signals**:
-- Repeated hand taps anywhere the partner can feel them
-- A clear verbal tap or stop, including when the hands are trapped
-- Foot taps or any agreed stop signal; release immediately if normal responsiveness changes
 
 
-**Release Protocol**:
-1. Open the finishing grip immediately at the first signal; do not wait for repeated confirmation
-2. Remove the leg, arm or body restraint without forcing the captured joint or neck through another movement
-3. Check the partner can respond normally and allow a safe reset; end practice and obtain help if there is an injury or concerning symptom
-
-
-**Training Restrictions**:
-- Start with supervised, cooperative control-and-release drilling rather than a loaded finish
-- Check the event's current rules for the specific age, experience and clothing division before live use
-- Use slow enclosure practice and avoid cervical extension or twisting. Open the hands and remove the neck restraint immediately on any tap.
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

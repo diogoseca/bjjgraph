@@ -334,33 +334,9 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 | AC joint separation | Medium | 4-8 weeks |
 
 
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum in training with gradual pressure increase
-
-**Tap Signals**:
-- Verbal tap (most important during rolls)
-- Physical hand tap on body or mat
-- Physical foot tap on mat
-- Any distress vocalization
-- Frantically tapping with free hand
 
 
-**Release Protocol**:
-1. Immediately stop all forward rolling motion
-2. Release leg pressure on shoulder and head
-3. Remove leg triangle if locked
-4. Extend hips backward to create space
-5. Allow partner to safely extract their arm
-6. Check partner's shoulder mobility before continuing
-
-
-**Training Restrictions**:
-- Never complete the roll at full speed in training
-- Never apply sudden jerking or explosive pressure
-- Always allow partner to tap before locking the position
-- Never practice on partners with known shoulder injuries
-- Always telegraph the technique during flow rolling
-- Never combine with neck cranking or cervical spine pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

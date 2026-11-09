@@ -319,29 +319,9 @@ This submission represents a high-level integration of positional control and fi
 | Cervical spine strain from excessive cranking or twisting during choke application combined with positional pressure | Medium | 1-3 weeks for minor strain, 2-6 weeks for moderate ligament involvement |
 
 
-**Application Speed**: SLOW and progressive. Apply steady, increasing pressure through chest expansion and elbow retraction. Never jerk, crank, or spike the choke. Blood chokes can cause unconsciousness in 4-10 seconds once fully locked—monitor training partner continuously.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat or partner with either leg
-- Any unusual vocalization, gurgling, or distress sounds indicating airway compromise
-- Body going limp indicating loss of consciousness—release immediately
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation or delay
-2. Release immediately if opponent goes limp or shows signs of unconsciousness
-3. If unconscious, place in recovery position, elevate legs, and alert medical staff immediately
-4. If in doubt about whether opponent tapped, release and re-establish position rather than risk injury
-
-
-**Training Restrictions**:
-- Never hold the choke after a tap or signs of unconsciousness under any circumstances
-- Beginners should practice grip mechanics and arm threading without applying full squeeze until technique is clean
-- Apply progressive pressure only—no explosive or jerking application of the choke
-- Partners should agree on resistance level and communication protocols before drilling choke sequences
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

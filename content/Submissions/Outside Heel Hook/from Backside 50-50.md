@@ -342,31 +342,9 @@ This submission demands absolute respect for its injury potential. Rotational fo
 | Ankle ligament sprain from secondary rotational stress transmitted through the foot | Medium | 2-6 weeks depending on severity |
 
 
-**Application Speed**: SLOW and progressive. Apply rotation gradually over 2-3 seconds minimum. Never jerk, spike, or explosively rotate the heel. The knee ligaments targeted provide almost no pain warning before structural failure, making controlled application speed the single most important safety practice.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, your body, or the mat (single or repeated)
-- Physical foot tap with free leg on mat or partner
-- Any unusual screaming, gasping, or distress vocalization
-- Sudden body stiffening or panicked movement indicating distress
 
 
-**Release Protocol**:
-1. Release ALL rotational pressure immediately upon any tap signal—do not finish the rotation
-2. Disengage heel grip completely before releasing leg entanglement to prevent accidental torque during separation
-3. Maintain leg entanglement briefly without pressure to allow controlled, safe separation of limbs
-4. If opponent appears injured or does not respond normally after release, stop training immediately and assess
-5. If in any doubt whether a tap occurred, release immediately—the position can always be re-established
-
-
-**Training Restrictions**:
-- Heel hooks should only be trained with partners who understand rotational leg lock mechanics and tap early
-- New practitioners (white and blue belts) should drill grip mechanics and positioning without applying rotational finishing pressure
-- Never apply this submission at full speed during positional sparring—reserve competition-speed application for competition only
-- Partners with prior knee injuries should communicate limitations before leg lock training begins
-- Avoid training heel hooks when fatigued, as reduced proprioception increases injury risk for both practitioners
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

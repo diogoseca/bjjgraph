@@ -315,28 +315,9 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 | Medial collateral ligament strain of the elbow from combined rotation and extension force | Medium | 2-6 weeks with rest and progressive rehabilitation |
 
 
-**Application Speed**: SLOW and progressive. The Kimura generates enormous torque on the shoulder joint through the figure-four lever. Apply rotational pressure gradually in a smooth arc, allowing the opponent adequate time to recognize the threat and tap. Never jerk, spike, or explosively wrench the arm behind the back.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on partner, mat, or own body with free hand
-- Physical foot tap on mat with either leg
-- Any unusual screaming, grunting, or visible facial distress indicating pain
 
 
-**Release Protocol**:
-1. Release all rotational pressure immediately upon any tap signal without hesitation
-2. Return opponent's arm gently to a neutral anatomical position after releasing the grip
-3. If in doubt about whether a signal was a tap, release immediately—the position can always be re-established
-4. Check on training partner's shoulder condition and range of motion after release before continuing
-
-
-**Training Restrictions**:
-- White belts should drill at controlled speed without full rotational pressure until they demonstrate consistent grip mechanics and tap recognition
-- Never apply the Kimura with explosive or jerking force in training—always use slow progressive pressure that allows the partner to tap safely
-- Avoid applying this technique to training partners with known shoulder injuries, prior dislocations, or hypermobility conditions
-- In competition, release immediately upon tap regardless of perceived submission legitimacy or referee response time
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

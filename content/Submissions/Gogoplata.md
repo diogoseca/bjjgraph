@@ -214,34 +214,9 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 | Jaw or facial bone stress fractures | Medium | 4-6 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial shin placement to full pressure. This is one of the most dangerous chokes due to tracheal vulnerability.
-
-**Tap Signals**:
-- Verbal tap (any sound indicating distress)
-- Physical hand tap (rapid tapping on partner's body or mat)
-- Physical foot tap (stomping or tapping with feet)
-- Any distress signal or change in breathing pattern
-- Loss of resistance or body going limp (IMMEDIATE RELEASE)
 
 
-**Release Protocol**:
-1. IMMEDIATELY remove shin from across throat at first sign of tap
-2. Release head control and allow head to return to neutral position
-3. Remove top leg from over opponent's head completely
-4. Lower hips and release all pressure
-5. Check on training partner's condition before continuing
-6. Allow adequate recovery time (minimum 2-3 minutes) before resuming training
-
-
-**Training Restrictions**:
-- NEVER apply rapid or explosive pressure to the throat
-- NEVER practice at competition speed during training
-- NEVER use excessive pulling force on the head
-- Always allow training partner immediate tap access
-- Beginners should drill position only without applying pressure for first 6-12 months
-- Only practice with trusted partners who understand the dangers
-- Never practice when fatigued or with impaired judgment
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

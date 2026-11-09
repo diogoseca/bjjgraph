@@ -317,36 +317,9 @@ The strategic value of this technique lies in its complementary relationship wit
 | Ankle ligament damage | Medium | 4-8 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training, NEVER sudden rotation
-
-**Tap Signals**:
-- Verbal tap (primary)
-- Physical hand tap on partner or mat
-- Physical foot tap with free leg
-- Any vocal distress signal
-- Frantic movement or panic response
-- Any indication of discomfort
 
 
-**Release Protocol**:
-1. Immediately release rotational pressure on heel
-2. Release the figure-four grip or heel cup
-3. Remove hip pressure and extension
-4. Allow opponent to straighten leg naturally
-5. Check partner's condition before continuing
-6. Never apply rotation while releasing
-
-
-**Training Restrictions**:
-- NEVER apply sudden rotational force - always slow and progressive
-- NEVER practice at competition speed during training
-- NEVER continue past first sign of discomfort
-- Only train with experienced partners who understand leg locks
-- Always ensure clear communication before training leg locks
-- Tap early and often - do not test flexibility limits
-- Prohibited for white and blue belts in most IBJJF competitions
-- Never practice on injured knees or with prior knee injuries without medical clearance
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

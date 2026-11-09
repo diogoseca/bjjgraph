@@ -337,28 +337,9 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 | Shoulder or rotator cuff strain from arm trap | Low | 3-7 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial lock to any significant pressure
-
-**Tap Signals**:
-- Verbal tap or vocal distress
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any sudden change in resistance or body going limp
 
 
-**Release Protocol**:
-1. Immediately open legs and release triangle configuration
-2. Release arm trap and posture control
-3. Allow partner to return to neutral position with full neck mobility
-4. Check partner's consciousness and neck comfort before continuing
-
-
-**Training Restrictions**:
-- Never apply sudden jerking motions to the neck
-- Never use competition finishing speed during drilling or light sparring
-- Always ensure partner has at least one arm free to tap
-- Release immediately upon any tap signal without testing tightness
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

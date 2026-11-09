@@ -311,32 +311,9 @@ Strategically, this choke functions as the apex of a multi-threat attack chain f
 | Jaw pressure causing temporomandibular joint irritation | Medium | 2-4 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum squeeze in training, never spike or jerk the collar grip
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any rapid tapping motion with hand or foot
-- Body going limp (automatic release required immediately)
 
 
-**Release Protocol**:
-1. Immediately release collar grip upon any tap signal
-2. Remove forearm pressure and body weight from opponent's neck
-3. Allow opponent to turn to a safe position and recover breathing
-4. Check that opponent is conscious and breathing normally
-5. Give partner adequate time to recover before continuing training
-
-
-**Training Restrictions**:
-- Always apply the choke gradually in training, never at competition speed
-- Never jerk or spike the collar grip into position
-- Ensure partner has clear access to tap with at least one hand
-- Stop immediately at any sign of distress even without a tap
-- Never train this choke on partners with neck, throat, or vascular injuries
-- Beginners must drill under direct instructor supervision
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

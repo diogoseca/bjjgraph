@@ -210,34 +210,9 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 | Jaw compression and TMJ stress | Low | 2-5 days |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time in training. Blood chokes can cause unconsciousness in 3-8 seconds under competition pressure.
-
-**Tap Signals**:
-- Verbal tap (any vocal signal)
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress signal or change in breathing pattern
-- Loss of resistance or body tension
 
 
-**Release Protocol**:
-1. Immediately release leg pressure and open triangle configuration
-2. Remove all pressure from neck and trapped arm
-3. Allow opponent to turn head to restore blood flow
-4. Check partner's consciousness and breathing immediately
-5. If unconscious: elevate legs, monitor airway, ensure medical attention if needed
-6. Never apply additional pressure after tap signal
-7. Maintain awareness of partner's neck angle throughout release
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply gradual, controlled pressure
-- Never use competition-speed application in training scenarios
-- Always ensure partner has at least one hand free to tap
-- Never practice on partners with pre-existing neck, jaw, or shoulder injuries without explicit clearance
-- White belts should only practice with supervision and on willing, experienced partners
-- Stop immediately at any sign of partner distress beyond normal defensive reactions
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

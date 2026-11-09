@@ -4897,7 +4897,8 @@ class Component extends DCLogic {
    * The signed_in boolean records only whether this.user exists at Send, never its id or email.
    * `e2e/journeys/feedback-modal.spec.ts` pins the copy, the column and every control by mouse.
    */
-  openFeedback() {
+  // U109 b: `video` is the node a no-video card asks about. The form is the same, its context is that node, and the report says so.
+  openFeedback(video) {
     const card = this.modalCardRef.current; if (!card) return;
     card.style.width = "min(440px,92vw)";
     card.innerHTML = "";
@@ -4912,7 +4913,7 @@ class Component extends DCLogic {
     ta.setAttribute("data-feedback-text", "1");
     ta.setAttribute("aria-label", "Feedback");
     ta.maxLength = 500;
-    ta.placeholder = "What’s wrong, missing or confusing? Where were you when you noticed?";
+    ta.placeholder = video ? "Paste the video's link, and the second the move starts if you know it." : "What’s wrong, missing or confusing? Where were you when you noticed?";
     ta.style.cssText = "width:100%;min-height:110px;resize:vertical;font-family:inherit;font-size:14px;line-height:1.5;color:#eef1f6;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.25);border-radius:11px;padding:12px 14px;box-sizing:border-box;outline:none;";
     body.appendChild(ta);
     const tech = document.createElement("label");
@@ -4920,7 +4921,7 @@ class Component extends DCLogic {
     tech.innerHTML = '<input type="checkbox" data-feedback-technique="1" style="accent-color:#4a6cff;margin:0;flex:none;"> Technique request';
     body.appendChild(tech);
     // context rides along unless removed — names the state the report is about
-    const node = this.nodes && this.nodes[this.currentPos];
+    const node = video || this.nodes && this.nodes[this.currentPos];
     let ctxOn = !!node;
     if (node) {
       const ctx = document.createElement("label");
@@ -4948,6 +4949,7 @@ class Component extends DCLogic {
         node: ctxOn && node ? node.id : null,
         signed_in: !!this.user,
         app_version: (typeof NG_APP_VERSION !== "undefined" ? NG_APP_VERSION : null),
+        ...(video && { kind: "video" }),
       });
       this.closeModal();
       this.setEvent("Sent \u2014 thank you", isTech ? "We read every request" : "Reports like this decide what gets fixed next", "good");
@@ -15708,9 +15710,11 @@ class Component extends DCLogic {
     film._ngVideoNode = shown;
     const seat = referencePath ? null : shown?.ty === "positions" ? this.playedRole(shown) : this._landPerspSide(shown) || "attacker";
     film.innerHTML = (referencePath ? "" : '<header class="ng-current-title">' + this.choiceShape(shown) + '<span>' + this.choiceEscape(shown ? this.graphName(shown) : "Current move") + '</span></header>')
-      + (this.filmStudyHTML(filmClips, true) || '<div class="ng-choice-media" data-choice-media><span>Video unavailable</span></div>')
+      // U109 b (owner, 2026-11-09): the full-size card, and "ask the user to add it if he wants, like using the same feedback form".
+      + (this.filmStudyHTML(filmClips, true) || '<div class="ng-choice-media ng-film-none" data-choice-media><b>No video of this move yet</b><span>We only show a video that teaches exactly this move. Know one?</span><button data-film-suggest>Suggest a video</button></div>')
       + (seat ? '<footer><span>' + this.choiceEscape(seat[0].toUpperCase() + seat.slice(1)) + '</span><span class="ng-current-stat"><span>Win %</span><strong data-current-film-win>—</strong></span></footer>' : "");
     film.toggleAttribute("data-single-video", filmClips.length === 1);
+    film.querySelector("[data-film-suggest]")?.addEventListener("click", (e) => { e.stopPropagation(); this.openFeedback(shown); });
     // ARROWS (v1.217.0, owner 2026-10-02): the deck's chevrons, one at each end of the row, shown only
     // toward hidden clips (`_syncFilmEdges`), so the left one is hidden at the start. Appended before
     // the ✕, which therefore paints over an arrow wherever the two could ever touch.

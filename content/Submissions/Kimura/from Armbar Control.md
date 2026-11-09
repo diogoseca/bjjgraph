@@ -329,31 +329,9 @@ What makes this attack devastatingly effective is the positional advantage alrea
 | Bicep tendon strain or rupture from combined rotation and extension forces | Medium | 6-12 weeks for strain, 3-6 months for rupture |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand on partner or mat)
-- Physical foot tap (multiple taps with either foot on the mat)
-- Any distress signal including screaming or unusual sounds
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position by externally rotating back to starting position
-3. Release the figure-four grip completely and remove hands from the arm
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled at all times
-- Never use competition speed or surprise attacks during training rounds
-- Always ensure partner has at least one hand free to tap or can verbalize
-- Do not apply while partner is in an awkward body position that restricts their ability to tap
-- Never combine with excessive weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance or range of motion
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

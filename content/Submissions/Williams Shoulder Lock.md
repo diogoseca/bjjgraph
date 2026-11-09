@@ -228,32 +228,9 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 | Shoulder capsule strain or tear | Medium | 6-12 weeks with proper rehabilitation |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (loudly say 'tap' or 'stop')
-- Physical hand tap on partner or mat (multiple rapid taps)
-- Physical foot tap on mat or partner
-- Any verbal distress signal or scream
-- Any unusual shoulder clicking or popping sounds
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon tap signal
-2. Release the overhook grip completely and allow arm to return to neutral position
-3. Do not abruptly release - guide the arm back to safe position slowly
-4. Check with partner verbally to ensure they are okay before continuing training
-5. If any pain persists beyond 30 seconds, stop training and seek medical evaluation
-
-
-**Training Restrictions**:
-- Never apply this submission at competition speed during training
-- Never spike, jerk, or apply sudden rotational force
-- Always ensure training partner has clear tap access with free hand
-- Never practice on training partners with previous shoulder injuries without explicit consent
-- Beginners should only practice the position control, not the finishing mechanics
-- Never combine with sudden movement transitions or scrambles
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

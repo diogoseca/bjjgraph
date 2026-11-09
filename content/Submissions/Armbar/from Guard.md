@@ -348,32 +348,9 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 | Biceps tendon strain | Medium | 3-6 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to finishing pressure
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any vocal distress signal
-- Frantic movement or panic response
 
 
-**Release Protocol**:
-1. Immediately release hip pressure and stop extending opponent's arm
-2. Open legs and release leg control over head and arm
-3. Allow opponent to recover arm to safe position
-4. Check opponent's elbow mobility before continuing training
-5. If pain persists, apply ice and seek medical evaluation
-
-
-**Training Restrictions**:
-- Never spike or jerk the armbar—always apply smooth, progressive pressure
-- Never use competition speed in training—control and communication are paramount
-- Always ensure training partner has clear tap access with at least one free hand
-- Stop immediately at first sign of discomfort, even before verbal tap
-- Beginners should practice finishing mechanics on compliant partners only
-- Never continue pressure after tap signal—release immediately
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -315,31 +315,9 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 | Cervical spine strain from combined rotational and compressive force on the neck | Medium | 1-3 weeks with rest and rehabilitation |
 
 
-**Application Speed**: SLOW and progressive. Build pressure incrementally over 3-5 seconds minimum. The Gift Wrap arm trap amplifies force significantly because the defender cannot create counter-pressure, so controlled application is essential to give adequate time to tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, mat, or any available surface
-- Physical foot tap with either leg on mat
-- Any unusual vocalization, gurgling, or distress sound indicating inability to verbally tap
-- Body going limp indicating loss of consciousness - release immediately
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation or delay
-2. If in doubt about whether a tap occurred, release immediately - the Gift Wrap position can be re-established
-3. Remove all choking pressure and body weight from the neck area
-4. Monitor partner for signs of unconsciousness including unresponsiveness, limp limbs, or glazed expression
-5. If partner loses consciousness, place in recovery position, elevate legs, and seek medical attention if not conscious within 15 seconds
-
-
-**Training Restrictions**:
-- Never apply sudden jerking or explosive motions when threading the forearm under the chin
-- Never continue pressure after tap signal - the arm trap makes this choke tighter than standard variations
-- Do not practice on partners with known neck injuries, cervical spine conditions, or cardiovascular problems
-- Beginners should practice forearm placement and threading mechanics without compression before adding any pressure
-- Always train with a qualified instructor present when first learning this submission
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -355,29 +355,9 @@ The Wrist Lock, known in Portuguese as mão de vaca ('cow's hand') and in judo a
 | Finger or hand strain from gripping resistance | Low | 1-3 days |
 
 
-**Application Speed**: SLOW and progressive - the wrist has a very short range before injury, so apply over 2-3 seconds and stop the instant resistance ends
-
-**Tap Signals**:
-- Physical hand or arm tap with the free hand
-- Foot tap on the mat
-- Verbal tap
-- The trapped hand going limp or stopping its resistance
-- Any wince or sharp distress signal as the wrist reaches end range
 
 
-**Release Protocol**:
-1. Release the flexion pressure on the wrist immediately and completely
-2. Let the opponent's hand and forearm return to a neutral straight position
-3. Do not jerk the hand back open — allow it to relax naturally
-4. Check the partner's wrist and hand for any sign of injury
-5. Confirm the partner can move the wrist through normal range before continuing
-
-
-**Training Restrictions**:
-- Never apply the wrist lock with a jerk or snap — the joint has almost no margin
-- Always apply slowly and progressively, releasing the moment the partner taps
-- Never crank past the tap; small-joint locks injure with very little extra force
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -369,29 +369,9 @@ The Armbar from Back Control represents one of the most devastating finishing se
 | Shoulder joint stress from improper angle | Medium | 3-6 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training. Competition speed only in competition.
-
-**Tap Signals**:
-- Verbal tap or verbal submission
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any distress signal, vocalization, or panic movement
 
 
-**Release Protocol**:
-1. Immediately stop hip extension and lower hips
-2. Release leg pressure across opponent's face and chest
-3. Loosen arm control and allow opponent to bend elbow
-4. Maintain communication and check for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike, jerk, or explosively extend the armbar in training
-- Never use competition speed or intensity during drilling
-- Always ensure training partner has clear tap access
-- Never continue pressure after tap signal is given
-- Avoid training armbar from back at full resistance until both partners are experienced
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

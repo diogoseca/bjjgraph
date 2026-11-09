@@ -227,6 +227,19 @@ const controls = [
   ['reading-intent-blocks-digit', 'submission-choices.spec.ts', 'triangle defender',
     [['if(p&&!((u=this._reader)!=null&&u.interacting))', 'if(p&&!this._reader?.intent&&!((u=this._reader)!=null&&u.interacting))']],
     '...and the chosen escape stays on the table'],
+  // U109 b (owner, 2026-11-09): the no-video card's ask is the Feedback form about the shown move, reported as a video.
+  ['film-suggest-unwired', 'film-suggest.spec.ts', 'about that move at 1440',
+    [['(u=o.querySelector("[data-film-suggest]"))==null||u.addEventListener', '(u=o.querySelector("[data-film-suggest-off]"))==null||u.addEventListener']],
+    'Suggest a video opens Feedback'],
+  ['film-suggest-node-lost', 'film-suggest.spec.ts', 'about that move at 1440',
+    [['p.stopPropagation(),this.openFeedback(a)});let d=o.querySelector(".ng-cliprow")', 'p.stopPropagation(),this.openFeedback()});let d=o.querySelector(".ng-cliprow")']],
+    'the form asks for the link and the second'],
+  ['film-suggest-kind-lost', 'film-suggest.spec.ts', 'about that move at 1440',
+    [['...e&&{kind:"video"}}),this.closeModal(', '}),this.closeModal(']], 'a video suggestion about the shown move'],
+  // U104 (owner, 2026-11-06): a card with no video has nothing to dismiss.
+  ['film-none-close-back', 'film-suggest.spec.ts', 'about that move at 1440',
+    [['if(e.length){let p=document.createElement("button");p.type="button",p.setAttribute("data-film-close","1")', 'if(1){let p=document.createElement("button");p.type="button",p.setAttribute("data-film-close","1")']],
+    'nothing to dismiss: no ✕'],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')

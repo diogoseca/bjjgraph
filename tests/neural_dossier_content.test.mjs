@@ -101,26 +101,24 @@ test("both position seats preserve their properties and decision targets", () =>
   assert.equal(dossiers["Knee on Belly|Bottom"].props.pts, 0);
 });
 
-test("every leaf submission keeps complete safety instructions and categories", () => {
-  let count = 0, longerProtocols = 0;
+// U111 (owner, 2026-11-09): "Show only the injury risks". The dossier keeps the risks and the notice; speed, tap signals, release
+// and restrictions stay authored in the source and on the static page, and no longer reach the dossier, which the app never read.
+test("every leaf submission keeps its injury risks and categories, and only those safety parts", () => {
+  let count = 0;
   eachDossier((dossier, data, section, role, family, key) => {
     if (section !== "Submissions") return;
     count++;
     const sc = data.safety_considerations, safety = dossier.safety;
     assert.deepEqual(dossier.kind, { cat: data.submission_category, type: data.submission_type, area: data.target_area });
     assert.deepEqual(safety.risks, sc.injury_risks.map(({ injury, severity }) => ({ i: injury, sev: severity })), key);
-    assert.equal(safety.speed, sc.application_speed, `${key}: application text must not be clipped`);
-    assert.deepEqual(safety.tap, sc.tap_signals);
-    assert.deepEqual(safety.release, sc.release_protocol);
-    assert.deepEqual(safety.restrictions, sc.training_restrictions);
+    assert.deepEqual(Object.keys(safety).sort(), ["notice", "risks"], key);
+    assert.ok(sc.application_speed && sc.tap_signals.length && sc.release_protocol.length && sc.training_restrictions.length, `${key}: the source keeps every part`);
     assert.ok(safety.notice.includes(data.target_area));
     assert.ok(safety.notice.includes(sc.injury_risks[0].injury));
     assert.match(safety.notice, /Tap early; release immediately on the tap/);
-    longerProtocols += sc.release_protocol.length > 3;
   });
   assert.equal(count, source.Submissions.filter(({ data }) => !data.is_family).length);
-  assert.ok(longerProtocols > 200, "fixtures really exercise protocol entries beyond three");
-  assert.ok(dossiers["Inside Heel Hook from Honey Hole"].safety.speed.length > 160);
+  assert.equal(dossiers["Inside Heel Hook from Honey Hole"].safety.speed, undefined);
 });
 
 test("all variation shapes and mistake consequences reach their emitted readers", () => {
@@ -249,6 +247,7 @@ assert p['decisionTree'][0]['acts'] == [['Reset', 0, 'Guard'], ['Absent frame', 
 `);
 });
 
+// U111: the safety guard now refuses both ways, lost injury risks and a dropped part coming back into the dossier.
 test("source-mapping guards refuse lost safety and missing alias sites even in report-only mode", () => {
   python(String.raw`
 import json, sys
@@ -258,17 +257,23 @@ import _neural_content as nc
 import regenerate_neural_data as bridge
 graph = json.loads(Path('graph.json').read_text())
 original = nc._safety
+def readd(source):
+    emitted = original(source)
+    emitted['release'] = source['safety_considerations']['release_protocol']
+    return emitted
 def truncate(source):
     emitted = original(source)
-    emitted['release'] = emitted['release'][:3]
+    emitted['risks'] = emitted['risks'][:1]
     return emitted
-nc._safety = truncate
-try:
-    nc.build_ng_content(graph)
-except SystemExit as failure:
-    assert 'submission safety missing or truncated: release' in str(failure)
-else:
-    raise AssertionError('truncated safety emitted successfully with JOIN_STRICT=0')
+for mutant, said in ((readd, 'carrying a part U111 drops: release'), (truncate, 'carrying a part U111 drops: ')):
+    nc._safety = mutant
+    try:
+        nc.build_ng_content(graph)
+    except SystemExit as failure:
+        assert said in str(failure), str(failure)[:300]
+    else:
+        raise AssertionError(mutant.__name__ + ' safety emitted successfully with JOIN_STRICT=0')
+nc._safety = original
 nodes = json.loads(Path('source/quartz/static/neural/graph-data.json').read_text())['nodes']
 nodes = [n for n in nodes if n.get('t') != 'Kosoto Gari']
 try:

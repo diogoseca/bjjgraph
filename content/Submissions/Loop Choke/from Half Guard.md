@@ -326,29 +326,9 @@ The attacker must balance commitment to the choke against maintaining top positi
 | Neck strain from defensive head pulling against collar loop | Low | 1-3 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial tightness to full pressure
-
-**Tap Signals**:
-- Verbal tap or verbal statement of submission
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any distress signal including unusual sounds or loss of resistance
 
 
-**Release Protocol**:
-1. Immediately release collar grip and all head control completely
-2. Remove chest and hip pressure by disengaging to a neutral position
-3. Check partner's alertness and awareness before continuing
-4. Allow minimum 60 seconds recovery time before resuming training
-
-
-**Training Restrictions**:
-- Never apply sudden jerking or yanking motions with collar grips
-- Never use competition speed in training - always give partner time to recognize and tap
-- Never continue pressure after tap is felt or heard
-- Always ensure training partner can freely tap with at least one hand
-- Never practice on partners who are visibly fatigued or disoriented
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

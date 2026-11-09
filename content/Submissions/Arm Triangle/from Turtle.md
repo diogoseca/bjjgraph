@@ -334,31 +334,9 @@ At the competition level, this submission serves as a powerful secondary attack 
 | Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds once both carotids are fully occluded.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap on opponent or mat (multiple rapid taps)
-- Physical foot tap on mat (multiple rapid taps)
-- Any distress signal or sudden loss of resistance
-- Immediately release if opponent goes limp or unresponsive
 
 
-**Release Protocol**:
-1. Immediately release arm squeeze and remove head pressure upon any tap signal
-2. Disengage from opponent's head and shoulders completely
-3. Allow opponent to recover breathing and orientation for 30-60 seconds
-4. Check for consciousness, coherent speech, and normal breathing
-5. If unconscious: place on side in recovery position, elevate legs, monitor breathing continuously until fully conscious
-
-
-**Training Restrictions**:
-- Apply smooth progressive pressure only - never spike or jerk the submission
-- Release immediately upon any tap signal without exception
-- Always ensure training partner has at least one hand free to tap
-- Practice control and positioning before adding finishing pressure
-- Stop immediately if opponent's face shows color change indicating excessive pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

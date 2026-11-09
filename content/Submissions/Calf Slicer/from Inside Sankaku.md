@@ -348,32 +348,9 @@ The technique carries particular strategic value in competition because opponent
 | Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training. Never spike or jerk. Compression produces pain faster than most practitioners expect.
-
-**Tap Signals**:
-- Verbal tap strongly encouraged due to leg entanglement limiting hand mobility
-- Physical hand tap on partner, their leg, or the mat
-- Foot tap with free leg if hands are trapped in the entanglement
-- Any distress vocalization treated as immediate tap signal
-- Slapping the mat repeatedly with free hand
 
 
-**Release Protocol**:
-1. Immediately release ankle grip upon any tap signal
-2. Remove shin from behind knee crease slowly and in a controlled manner
-3. Unwrap figure-four leg configuration without jerking movements
-4. Allow partner to extend and straighten their leg naturally before fully disengaging
-5. Check partner's calf mobility, knee stability, and sensation before resuming training
-
-
-**Training Restrictions**:
-- Never apply compression at competition speed during training
-- Never spike or jerk the compression — build pressure over 5-7 seconds minimum
-- Never hold or continue pressure after any tap signal
-- Always ensure partner has clear access to tap with at least one hand
-- Prohibited for colored belts below brown belt in most IBJJF rulesets
-- Never practice on partners with previous calf or knee injuries without explicit consent
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

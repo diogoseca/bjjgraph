@@ -337,34 +337,9 @@ The technical execution of the triangle from closed guard requires precise angle
 | Rib or intercostal muscle strain from leg pressure | Low | 3-5 days |
 
 
-**Application Speed**: SLOW and progressive - 5-7 seconds minimum in training, never snap or jerk the choke
-
-**Tap Signals**:
-- Verbal tap or any verbal distress signal
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any unusual breathing sounds or struggle patterns
-- Loss of resistance or going limp (immediate release required)
 
 
-**Release Protocol**:
-1. Immediately open legs and release triangle configuration
-2. Push opponent's head away gently while maintaining awareness of their neck
-3. Allow opponent to recover posture slowly without sudden movements
-4. Check partner's awareness and ensure they are responsive
-5. Never maintain pressure after tap or loss of consciousness
-6. Give partner time to recover before resuming training
-
-
-**Training Restrictions**:
-- Never hold choke after partner taps or goes unconscious
-- Never spike or slam opponent while setting up triangle
-- Always allow partner clear tap access with at least one arm
-- Never use competition speed or finishing pressure in drilling
-- Stop immediately if partner shows distress or unusual breathing
-- Communicate clearly about pressure levels during positional training
-- White belts should drill under supervision until mechanics are understood
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

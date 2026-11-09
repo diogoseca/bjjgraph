@@ -212,33 +212,9 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 | Shoulder capsule damage | High | 3-6 months with potential chronic instability |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training
-
-**Tap Signals**:
-- Verbal tap or audible distress signal
-- Physical hand tap with free hand
-- Physical foot tap on mat or opponent
-- Any vocalization indicating pain or distress
-- Head shake or nodding motion if arms restricted
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release grip on the wrist and elbow control
-3. Allow the arm to return to neutral position naturally
-4. Do not pull or manipulate the arm after release
-5. Check with partner verbally before resuming
-6. Allow full recovery time if any discomfort reported
-
-
-**Training Restrictions**:
-- Never apply this submission at competition speed in training
-- Never jerk or spike the shoulder rotation
-- Always maintain verbal communication during drilling
-- Stop immediately if partner shows any hesitation to tap
-- Prohibited for white belts without direct supervision
-- Never practice on partners with existing shoulder injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

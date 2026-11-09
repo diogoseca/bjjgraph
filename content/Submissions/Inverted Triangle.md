@@ -227,33 +227,9 @@ As a chaining attack born from scrambles and failed-finish situations, the Inver
 | Shoulder dislocation if trapped arm is torqued excessively | High | 6-12 weeks minimum |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression from setup to full pressure
-
-**Tap Signals**:
-- Verbal tap or saying 'tap'
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat or opponent
-- Any unusual sound or distress signal
-- Loss of resistance or going limp
 
 
-**Release Protocol**:
-1. Immediately open the figure-four by releasing your ankle lock first
-2. Remove the leg that is over the back of the neck first
-3. Release the trapped arm carefully without jerking
-4. Create space to allow opponent to turn their head and restore blood flow
-5. Check for consciousness and breathing immediately
-6. Support opponent's neck during release if they are unconscious
-
-
-**Training Restrictions**:
-- Never spike the technique or jerk into position rapidly
-- Never apply competition speed or pressure in training
-- Never continue past light resistance during drilling
-- Always ensure training partner can tap with at least one hand
-- Never attempt this technique on beginners or those unfamiliar with choke safety
-- Absolutely no practice on unconscious or semi-conscious partners
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

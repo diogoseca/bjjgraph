@@ -334,32 +334,9 @@ In competition, the omoplata from established control carries a significantly hi
 | Labrum tear | CRITICAL | 6-12 months with surgery |
 
 
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum pressure increase
-
-**Tap Signals**:
-- Verbal tap (any vocal signal)
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress signal or sound
-- Roll forward escape attempt (release immediately)
 
 
-**Release Protocol**:
-1. Immediately stop all forward pressure and rotation
-2. Release leg pinch on shoulder
-3. Unwind hip position to neutral
-4. Allow opponent to extract arm slowly
-5. Check for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the shoulder rotation
-- Never apply competition speed in training
-- Always allow opponent access to tap
-- Stop immediately if opponent rolls forward (escape attempt)
-- Never apply full finishing pressure until advanced belt level
-- Always control the rate of shoulder rotation
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

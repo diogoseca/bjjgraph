@@ -210,33 +210,9 @@ Within the broader Kimura shoulder-lock system, the Reverse Kimura occupies the 
 | Labrum tear | CRITICAL | 6-12 months with surgery likely |
 
 
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum with constant communication
-
-**Tap Signals**:
-- Verbal tap (most important for standing submissions)
-- Physical hand tap on any available surface
-- Physical tap with free hand on partner
-- Any distress vocalization
-- Tapping feet if hands unavailable
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure
-2. Release grip completely and step back
-3. Allow partner to externally rotate shoulder naturally
-4. Do not force arm back to neutral position
-5. Check with partner before continuing training
-
-
-**Training Restrictions**:
-- Never apply quickly or explosively in training
-- Never continue rotation past 90 degrees in practice
-- Always maintain verbal communication during application
-- Never spike or drop weight during standing applications
-- Always allow partner clear tap access with free hand
-- Stop immediately at first sign of discomfort
-- Never practice on injured shoulders
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

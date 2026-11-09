@@ -329,32 +329,9 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 | Patellar dislocation or subluxation | Medium | 3-6 weeks with potential for chronic instability |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training
-
-**Tap Signals**:
-- Verbal tap (preferred for leg locks)
-- Multiple rapid hand taps on opponent or mat
-- Multiple foot taps on mat or opponent
-- Any vocalization of distress or pain
-- Frantic or panicked movement
 
 
-**Release Protocol**:
-1. Immediately stop all hip extension pressure
-2. Release the leg grip and allow knee to return to neutral position
-3. Do not suddenly drop the leg - control descent
-4. Allow partner to assess knee integrity before continuing
-5. Check with partner verbally before resuming training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply progressive pressure
-- Never use competition speed in training - always allow time to tap
-- Always maintain control of opponent's heel - never let it slip out during application
-- Never practice on training partners with known knee injuries without explicit permission
-- Never combine with explosive rotational movements that add torque to the knee
-- Beginners should not practice finishing pressure - focus on positional control only
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

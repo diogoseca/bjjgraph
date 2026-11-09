@@ -333,31 +333,9 @@ The submission can be entered from various side control variations including sta
 | Complete elbow dislocation | CRITICAL | 3-6 months |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to finish
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on opponent's body
-- Physical foot tap on mat
-- Any distress vocalization
-- Frantic tapping motion anywhere
 
 
-**Release Protocol**:
-1. Immediately stop all extension pressure
-2. Release hip pressure and lower your hips
-3. Open your legs and allow opponent's arm to bend naturally
-4. Maintain control but remove all finishing pressure
-5. Check with training partner before resuming
-
-
-**Training Restrictions**:
-- Never spike or jerk the armbar - always apply smooth, progressive pressure
-- Never use competition speed in training - allow time for tap response
-- Always ensure training partner has free hand to tap
-- Do not practice on injured or hyperflexible opponents without instructor approval
-- White belts should only practice under direct supervision
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

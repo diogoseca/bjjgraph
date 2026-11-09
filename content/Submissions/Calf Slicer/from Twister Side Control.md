@@ -312,32 +312,9 @@ This submission functions as a potent secondary threat within the twister side c
 | Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk the compression
-
-**Tap Signals**:
-- Verbal tap strongly encouraged due to leg entanglement limiting hand access
-- Physical hand tap on partner or mat with either hand
-- Physical foot tap if both hands are trapped in the entanglement
-- Any distress vocalization or pain signal treated as immediate tap
-- Slapping mat repeatedly with free hand
 
 
-**Release Protocol**:
-1. Immediately release foot grip and stop all hip drive upon any tap signal
-2. Remove shin pressure from behind the knee slowly and in controlled fashion
-3. Unwrap legs carefully without jerking or twisting movements
-4. Allow partner to fully extend their leg naturally before disengaging
-5. Check partner's calf mobility and sensation before continuing training
-
-
-**Training Restrictions**:
-- Never apply at competition speed in training — always use slow, controlled compression
-- Never spike or jerk the fold — the Achilles tendon can rupture with sudden force
-- Never hold after tap to practice finishing position
-- Always ensure partner has at least one hand free to tap
-- Prohibited for colored belts below brown belt in most IBJJF-affiliated organizations
-- Never practice on partners with previous calf or Achilles injuries without explicit consent
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

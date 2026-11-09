@@ -367,32 +367,9 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 | Rib cage compression from body triangle combination | Low | 1-2 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from catch to full extension
-
-**Tap Signals**:
-- Verbal tap (any vocal submission signal)
-- Physical hand tap (on your body or mat)
-- Physical foot tap (on mat or your body)
-- Any distress signal or unusual sound
-- Loss of resistance (treat as tap and release immediately)
 
 
-**Release Protocol**:
-1. Immediately release hip extension pressure on the arm
-2. Open your legs to remove leg pressure from their upper body
-3. Return their arm to neutral position gently
-4. Verbally confirm your partner is okay before continuing training
-5. Never jerk or spike the release - control the arm throughout
-
-
-**Training Restrictions**:
-- Never apply competition speed or explosive finishing pressure in training
-- Never use this technique on partners with existing elbow injuries without explicit consent
-- Always allow clear tap access - do not trap both arms simultaneously
-- Never combine with neck cranking or other secondary submissions
-- Begin all training reps at 30% pressure maximum and increase gradually over months
-- White belts should only practice the movement pattern without any submission pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

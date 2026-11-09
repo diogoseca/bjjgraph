@@ -52,25 +52,7 @@ Strategically, this finish serves as the primary payoff for invisible collar pos
 | Cervical spine strain from resisting choke with aggressive neck extension or rotation | Medium | 1-2 weeks with rest and anti-inflammatory treatment |
 
 
-**Application Speed**: Blood choke onset in 3-8 seconds when properly applied. Unconsciousness can occur within 10 seconds of full arterial compression. Release immediately upon any tap signal. Never hold to test tightness after tap.
-
-**Tap Signals**:
-- Hand tap on opponent's body, arm, or mat (minimum two distinct taps)
-- Verbal tap - saying 'tap' or any distress vocalization
-- Foot tap on mat when hands are trapped or unavailable
-- Going limp or ceasing all defensive movement (treat as unconsciousness, release immediately)
-
-
-**Release Protocol**:
-1. Release all choking pressure immediately upon feeling or hearing any tap signal
-2. Maintain light positional control briefly while confirming partner is conscious and responsive
-3. If partner loses consciousness, release immediately, place in recovery position, monitor breathing, and seek medical attention if not responsive within 20 seconds
-
-
-**Training Restrictions**:
-- Beginners should only practice grip mechanics and positioning without applying finishing pressure until proper technique is confirmed by instructor
-- Never apply this technique when either partner is fatigued, as diminished awareness increases accident risk for both practitioners
-- Always train with an attentive training partner who understands tap signals and release protocols before drilling finishing mechanics
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 
 </section>

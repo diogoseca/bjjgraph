@@ -333,28 +333,9 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 | Shoulder capsule ligament sprain from repeated sub-threshold stress during training | High | 4-8 weeks with rest and rehabilitation |
 
 
-**Application Speed**: SLOW and progressive. The Americana generates enormous rotational force at the shoulder joint. Apply the paint motion gradually over 3-5 seconds minimum, pausing at initial resistance to allow the opponent time to recognize the submission and tap. Never jerk, spike, or explosively accelerate the finishing motion.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat with free hand
-- Physical foot tap on mat with either leg
-- Any unusual vocalization, screaming, or expression of acute distress
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal by unwinding the figure-four grip and releasing wrist control
-2. If partner shows signs of distress but has not tapped, stop all pressure and verbally confirm their status
-3. If in doubt about whether a tap occurred, always release—position can be re-established
-4. After releasing, check on partner's shoulder mobility and comfort before resuming training
-
-
-**Training Restrictions**:
-- Apply the finishing paint motion with slow, progressive pressure only—never jerk or spike the shoulder lock
-- White and blue belts should drill the figure-four grip and paint motion at reduced speed until mechanics are reliable
-- Partners with pre-existing shoulder injuries, hypermobility, or previous dislocations must communicate limitations before training this technique
-- During flow rolling and warm-up rounds, catch and release only—do not apply finishing pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

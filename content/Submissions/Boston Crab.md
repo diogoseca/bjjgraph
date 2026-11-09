@@ -230,32 +230,9 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 | Knee ligament stress from leg control | Medium | 3-6 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression to finishing position
-
-**Tap Signals**:
-- Verbal tap (critical as hands may be trapped)
-- Repeated hand tap on mat or opponent
-- Foot tap on mat
-- Any vocal distress signal
-- Frantic movement or panic signals
 
 
-**Release Protocol**:
-1. Immediately release leg grips and sit forward
-2. Lower opponent's hips gently back to mat
-3. Allow opponent to flatten out completely before moving
-4. Check opponent's condition and allow recovery time
-5. Never release explosively or drop opponent
-
-
-**Training Restrictions**:
-- Never apply sudden or explosive pressure to the spine
-- Never use competition speed in training
-- Never bridge higher once opponent shows discomfort
-- Always ensure training partner can verbally tap
-- Prohibited in many IBJJF competitions - verify rule compliance
-- Never apply to training partners with known back issues
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

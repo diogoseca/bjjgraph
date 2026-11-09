@@ -296,33 +296,9 @@ From a competition standpoint, the Estima Lock from Honey Hole functions as a se
 | Metatarsal stress or fracture (with extreme force) | CRITICAL | 6-12 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial pressure to maximum force. The foot contains small bones and ligaments with limited pain feedback before structural failure. Allow partner multiple tap opportunities throughout application.
-
-**Tap Signals**:
-- Verbal tap (shout 'TAP' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap with free leg
-- Any distress signal or unusual sounds
-- Loss of resistance indicating potential injury
 
 
-**Release Protocol**:
-1. Immediately release hand grip on foot upon any tap signal
-2. Remove forearm from across the ankle joint
-3. Allow opponent's foot to return to neutral position naturally without forcing it
-4. Release inside leg triangle and disengage from entanglement
-5. Maintain visual contact to ensure partner is uninjured
-
-
-**Training Restrictions**:
-- Never apply at competition speed during training
-- Never apply to training partners unfamiliar with foot locks or leg lock defense
-- Always ensure partner knows all tap signals before drilling
-- Never apply with sudden jerking motions — slow controlled pressure only
-- Always allow clear tap access with hands and verbal ability
-- Stop immediately if partner's foot or ankle makes popping or cracking sounds
-- Communicate throughout application when drilling
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

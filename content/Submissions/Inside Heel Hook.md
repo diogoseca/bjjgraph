@@ -257,32 +257,9 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 | Popliteal artery damage (rare but catastrophic) | CRITICAL | Medical emergency requiring immediate surgical intervention |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds in training, stop at first sign of resistance
-
-**Tap Signals**:
-- Verbal tap ("TAP" or any vocalization)
-- Physical hand tap on partner or mat
-- Physical foot tap on mat or partner
-- Any distress signal including arm waving
-- Slapping the mat repeatedly
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant partner taps
-2. Release heel control by opening hands completely
-3. Release leg entanglement by straightening both legs and moving hips away
-4. Do not apply any additional pressure during release sequence
-5. Check with partner verbally before continuing training
-
-
-**Training Restrictions**:
-- Never apply explosive or sudden rotational force in training
-- Never train this submission without instructor supervision initially
-- Never use competition speed finishing mechanics in training
-- Never practice on partners with existing knee injuries without clearance
-- Always maintain communication throughout drilling
-- Absolutely forbidden for beginners without extensive positional training first
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -338,25 +338,9 @@ _3 of these outcomes do not exist in no-gi and carry no probability here. The ou
 | Loss of consciousness or serious harm from sustained neck compression | CRITICAL | Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms. |
 
 
-**Application Speed**: The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke. No fixed number of seconds makes a locked submission safe.
-
-**Tap Signals**:
-- Repeated hand taps anywhere the partner can feel them
-- A clear verbal tap or stop, including when the hands are trapped
-- Foot taps or any agreed stop signal; release immediately if normal responsiveness changes
 
 
-**Release Protocol**:
-1. Open the finishing grip immediately at the first signal; do not wait for repeated confirmation
-2. Remove the leg, arm or body restraint without forcing the captured joint or neck through another movement
-3. Check the partner can respond normally and allow a safe reset; end practice and obtain help if there is an injury or concerning symptom
-
-
-**Training Restrictions**:
-- Start with supervised, cooperative control-and-release drilling rather than a loaded finish
-- Check the event's current rules for the specific age, experience and clothing division before live use
-- The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke.
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

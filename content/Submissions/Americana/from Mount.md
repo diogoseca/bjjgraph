@@ -351,32 +351,9 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 | AC joint sprain | Medium | 2-6 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from isolation to finish. Never spike or jerk the shoulder.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent or mat (minimum 2 taps)
-- Physical foot tap on mat
-- Any unusual vocalization or distress signal
-- Head shake or nodding if hands are trapped
 
 
-**Release Protocol**:
-1. Immediately release the figure-four grip on the wrist
-2. Remove pressure from the opponent's shoulder by lifting your chest
-3. Release the arm and allow it to return to neutral position naturally
-4. Do not force the arm back to starting position - let opponent move it themselves
-5. Maintain mount position control while releasing to ensure safe transition
-
-
-**Training Restrictions**:
-- Never apply competition speed or sudden pressure in training
-- Always ensure training partner has at least one hand free to tap
-- Stop immediately at any sign of discomfort or pain
-- Never use this submission on beginners until they understand tap protocols
-- Avoid training this technique with partners who have pre-existing shoulder injuries
-- Communication before and after drilling is mandatory
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

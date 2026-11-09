@@ -311,30 +311,9 @@ From the Harness position specifically, the seatbelt grip provides the ideal sta
 | Neck strain from rotational pressure | Low | 2-5 days with rest |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress signal including body going limp
 
 
-**Release Protocol**:
-1. Immediately release lapel grip and remove all pressure from neck
-2. Remove your weight from opponent's torso to allow breathing
-3. Check partner's consciousness and breathing status
-4. If partner is unconscious, elevate legs and monitor airway
-5. Never apply the choke again in the same training session if unconsciousness occurred
-
-
-**Training Restrictions**:
-- Never apply sudden jerking motions with the lapel
-- Never continue pressure after tap signal
-- Never practice on partners with neck injuries or medical conditions
-- Always ensure partner can tap with at least one hand
-- Never use competition speed during initial learning phases
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

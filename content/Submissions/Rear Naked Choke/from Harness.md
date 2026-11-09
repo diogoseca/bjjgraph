@@ -332,33 +332,9 @@ Strategically, this creates a cascading dilemma system. The opponent must commit
 | Carotid artery dissection from excessive or rapid force | CRITICAL | Immediate medical attention required, weeks to months |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum squeeze in training. Never snap or jerk the choke. Partner should have full awareness of pressure building before the choke becomes tight.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' or any verbal sound indicating submission)
-- Physical hand tap on opponent's body, arm, or mat (multiple taps)
-- Physical foot tap on mat when hands are trapped
-- Going limp or loss of consciousness requires immediate release
-- Any distress signal, unusual gurgling, or panicked movement
 
 
-**Release Protocol**:
-1. Immediately release choking arm upon any tap signal
-2. Remove hooks and disengage body contact
-3. Gently guide partner to side-lying recovery position
-4. Monitor consciousness and breathing for 30 seconds minimum
-5. If partner lost consciousness, keep them lying down with legs slightly elevated until fully alert
-6. Never allow an unconscious partner to sit up or stand immediately
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity when drilling the choke
-- Never apply pressure to the trachea or windpipe - blade of wrist targets carotids only
-- Always ensure partner has clear tap access with at least one hand
-- Stop immediately if partner makes any distress sound or appears to panic
-- Never hold a choke past the tap for any reason, regardless of competition preparation
-- Beginners must practice with extremely slow, controlled progression only
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -125,22 +125,13 @@ description: "{{description}}"
 | {{risk.injury}} | {{risk.severity}} | {{risk.recovery_time}} |
 {% endfor %}
 
-**Application Speed**: {{safety_considerations.application_speed}}
+{# U111, U112 a (owner, 2026-11-09): "Show only the injury risks, and a disclaimer with a sensible warning to go slow and watch
+   out for the tap at the end of the article"; U112 a puts the cut here, in the page itself, so the static page, the markdown
+   export and the app's reader all show the same guide. Application speed, tap signals, release protocol and training
+   restrictions stay authored in the source JSON (templates/Submissions.json still requires them) and reach no page. The line
+   is a plain blockquote: the reader styles it as the S1 a rule line above the steps, Quartz as its own quote. #}
 
-**Tap Signals**:
-{% for signal in safety_considerations.tap_signals -%}
-- {{signal}}
-{% endfor %}
-
-**Release Protocol**:
-{% for step in safety_considerations.release_protocol -%}
-{{loop.index}}. {{step}}
-{% endfor %}
-
-**Training Restrictions**:
-{% for restriction in safety_considerations.training_restrictions -%}
-- {{restriction}}
-{% endfor %}
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

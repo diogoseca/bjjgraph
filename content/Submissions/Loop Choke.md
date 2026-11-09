@@ -264,30 +264,9 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 | Cervical spine stress from improper rolling mechanics | High | 1-4 weeks depending on severity |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training, allowing partner clear opportunity to tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on partner or mat (multiple taps clearly felt)
-- Physical foot tap on mat or partner
-- Any distress signal including unusual sounds or body tension
 
 
-**Release Protocol**:
-1. Immediately release collar grip upon feeling tap
-2. Remove bodyweight pressure and allow partner to breathe freely
-3. Check partner's awareness and ensure they are conscious and responsive
-4. Allow 10-15 seconds recovery time before resuming training
-5. If partner is unconscious, call for instructor assistance immediately and position them in recovery position
-
-
-**Training Restrictions**:
-- Never spike or jerk the choke - always apply smooth, progressive pressure
-- Never use competition speed or tightness in drilling or light rolling
-- Always ensure partner has at least one hand free to tap clearly
-- Never hold the choke after feeling a tap or seeing distress signals
-- Avoid practicing on partners with known neck injuries without explicit instructor approval
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

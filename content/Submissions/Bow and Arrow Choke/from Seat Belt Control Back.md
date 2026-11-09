@@ -354,32 +354,9 @@ Strategically, the bow and arrow creates a devastating dilemma when combined wit
 | Knee or hip stress from forced leg extension against resistance | Low | 2-5 days for minor discomfort |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
-
-**Tap Signals**:
-- Verbal tap or any spoken indication of submission
-- Physical hand tap on attacker's body, own body, or the mat
-- Physical foot tap on the mat
-- Any audible distress signal or gurgling sound
-- Loss of resistance or going limp (immediate release required - possible unconsciousness)
 
 
-**Release Protocol**:
-1. Immediately release collar grip upon any tap signal
-2. Release leg extension and remove hook from opponent's leg simultaneously
-3. Allow opponent's head and neck to return to neutral position without jerking
-4. Check for consciousness and verbal responsiveness before moving away
-5. If opponent was unconscious, place in recovery position, elevate legs, and monitor until fully alert
-
-
-**Training Restrictions**:
-- Apply choke pressure smoothly and progressively - never spike or jerk the collar grip
-- Never use competition-speed finishing in training rolls
-- Always maintain verbal communication with training partner throughout the sequence
-- Never continue applying pressure after any tap signal is received
-- Beginners must drill grip transitions and body positioning before attempting the full finish under resistance
-- Always ensure partner has clear access to tap with hands or voice throughout the entire sequence
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

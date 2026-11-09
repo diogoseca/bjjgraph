@@ -341,36 +341,9 @@ Historically developed and refined within the 10th Planet system, the Electric C
 | Hamstring and adductor muscle strains | Low | 1-3 weeks for minor strains |
 
 
-**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum extension; compression submissions require gradual intensity increase
-
-**Tap Signals**:
-- Verbal tap or verbal distress signal
-- Physical hand tap on partner or mat
-- Physical foot tap on mat or partner
-- Any audible pain vocalization
-- Tapping with free leg on mat
-- Any visible distress or panic response
 
 
-**Release Protocol**:
-1. Immediately cease all extension pressure upon tap signal
-2. Release lockdown leg configuration first to remove compression
-3. Control opponent's leg as you release to prevent sudden movement
-4. Gradually lower opponent's leg back to neutral position
-5. Maintain communication to ensure partner safety
-6. Allow partner time to assess their knee and hip before continuing
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking movements during extension
-- Never use competition-speed application in training environments
-- Always maintain verbal communication with training partner
-- Never continue pressure after tap signal for any reason
-- Avoid training this submission with partners who have existing knee injuries
-- Never practice on partners who lack flexibility in hips and hamstrings without proper warm-up
-- Always ensure partner has clear access to tap with both hands
-- Never attempt full extension in initial learning phases
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

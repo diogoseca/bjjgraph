@@ -373,34 +373,9 @@ Capitalizing on the natural arm exposure of the defensive turtle, the Kimura fro
 | AC joint sprain (acromioclavicular separation) | Medium | 2-6 weeks depending on grade |
 
 
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds application time in training, never explosive
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal submission)
-- Physical hand tap on partner or mat (minimum 2 taps)
-- Physical foot tap on mat or partner
-- Any verbal distress signal or physical indication of pain
-- Screaming or crying out
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Maintain grip control while releasing rotational torque
-3. Gently lower the arm back to neutral position
-4. Release the figure-four grip slowly
-5. Allow partner to move shoulder freely and assess
-6. Check with partner verbally before continuing training
-
-
-**Training Restrictions**:
-- Never spike, jerk, or explosively apply rotational pressure
-- Never use competition speed or intensity in training rolls
-- Always ensure training partner has clear tap access with free hand
-- Stop immediately at any sign of discomfort or resistance
-- Never force the position if partner's shoulder is already compromised
-- Avoid training this submission on partners with pre-existing shoulder injuries
-- Do not combine with sudden weight drops or dynamic movements
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

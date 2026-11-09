@@ -248,31 +248,9 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 | Anterior shoulder capsule damage | Medium | 3-6 weeks with proper rehabilitation |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression from initial control to finishing pressure
-
-**Tap Signals**:
-- Verbal tap or verbal distress signal
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat or opponent
-- Any audible distress indication
-- Loss of resistance or sudden limpness
 
 
-**Release Protocol**:
-1. Immediately release the figure-four leg configuration
-2. Remove all rotational pressure from the shoulder
-3. Allow opponent's arm to return to neutral position gradually
-4. Maintain control of opponent's posture while releasing to prevent sudden movements
-5. Check with training partner before resuming
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking motions to the shoulder joint
-- Never use competition speed or intensity in training rolls
-- Always ensure training partner has clear tap access with free hand
-- Never practice on opponents with known shoulder injuries without explicit approval
-- Beginners should not attempt finishing pressure for first 20+ repetitions
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

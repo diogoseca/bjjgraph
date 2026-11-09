@@ -315,31 +315,9 @@ At the advanced level, the side control Ezekiel becomes a powerful chain-attack 
 | Jaw injury from improper forearm placement across the mandible | Low | 1-2 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum. Blood chokes should never be spiked or jerked. Apply steady, increasing pressure and release immediately upon tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on partner or mat (multiple rapid taps)
-- Physical foot tap on mat or partner
-- Any unusual sound or loss of resistance (immediate release required)
 
 
-**Release Protocol**:
-1. Immediately release blade hand grip upon tap signal
-2. Remove forearm pressure from neck completely
-3. Maintain position briefly to ensure partner is conscious and oriented
-4. Allow partner to recover without immediate movement requirements
-5. Check partner's verbal confirmation they are okay before continuing training
-
-
-**Training Restrictions**:
-- Never apply sudden or jerking pressure to the choke
-- Never hold the choke after tap signal for any reason
-- Never practice on partners with known neck injuries without explicit medical clearance
-- Never apply full pressure during initial learning phase (use 20-30% pressure maximum)
-- Always ensure partner has clear access to tap with at least one hand
-- Never combine with violent bridging or explosive movements
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

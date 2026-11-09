@@ -341,31 +341,9 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 | Cervical spine strain from combined compression and rotational forces during standing choke application | Medium | 1-4 weeks with rest and conservative treatment |
 
 
-**Application Speed**: SLOW and progressive. Apply pressure gradually over 2-3 seconds. Never jerk, spike, or crank the choke. The standing position makes controlled application even more critical due to fall risk if opponent loses consciousness.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on partner's arm, body, or the mat
-- Physical foot tap or stomp on the mat
-- Any unusual vocalization, gurgling, wheezing, or distress sound
-- Body going limp or cessation of all resistance (treat as involuntary tap)
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation or delay
-2. If opponent goes limp or stops resisting entirely, release immediately and check for consciousness
-3. Lower unconscious partner safely to ground in recovery position, never let them fall uncontrolled
-4. If in doubt about whether a tap occurred, release the choke—position can always be re-established
-5. Monitor partner for delayed symptoms including dizziness, disorientation, or nausea after release
-
-
-**Training Restrictions**:
-- Never apply full standing RNC finishing pressure during drilling—use controlled catch-and-release to practice arm placement without compressive force
-- Standing choke training must be conducted on padded surfaces to mitigate fall-related injuries if partner loses consciousness or balance
-- Beginners should master ground-based RNC mechanics thoroughly before attempting standing application
-- Always have a training partner or coach actively monitoring when drilling standing submission techniques
-- Avoid repeated full-resistance standing RNC attempts in a single session to prevent cumulative neck trauma
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

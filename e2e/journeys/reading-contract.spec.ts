@@ -214,8 +214,9 @@ for (const path of [KNEE, RNC]) {
     expect(proof.leaked, 'no attacker steps, principles or counters in defender reading').toEqual([])
     for (const prose of proof.sourceGuide) expect(proof.reader).toContain(prose)
     if (path === RNC) {
-      expect(proof.rows, 'the full authored safety guide is nonempty').toBeGreaterThan(20)
-      expect(proof.shownSafety, 'every risk, speed, tap, release and restriction survives').toBe(proof.safety)
+      // U112 a (owner, 2026-11-09): the page's guide is its injury table and one closing line, and the reader shows it whole.
+      expect(proof.rows, 'the page\'s guide carries its injury table').toBeGreaterThan(8)
+      expect(proof.shownSafety, 'every injury risk and the closing line survive').toBe(proof.safety)
     }
     expect(await activity(page)).toMatchObject({ intent: true, paused: true, played: false, remaining: null, beats: [] })
   })
@@ -338,7 +339,19 @@ for (const path of [RNC, '/Submissions/Triangle-Choke/from-Triangle-Control']) {
         await j.openQuestion() // U47 d: Answer for Points shows the answers; the answer starts play
         await j.advance(20000)
         expect(await activity(page), 'Answer for Points leaves a dormant defender dormant, with no clock').toMatchObject({ intent: true, paused: true, played: false, remaining: null, beats: [] })
-        await j.clickByMouse(`[data-panic-mc-opt="${correct}"]`, 'answer the dormant defender question')
+        // U104 at 1440x900: the opened question can end below the reader's scrollport, so its last answer needs a scroll (U90's
+        // ruling, "half of all cards need a scroll for their last answer"). The answer is a draw (land-mc-shuffle is not rigged
+        // here), so bring it up the way a player does, a wheel over the question, which is game input and never reading intent.
+        const answer = `[data-panic-mc-opt="${correct}"]`
+        const below = await page.evaluate(sel => {
+          const r = (window as any).__neural._reader.root.getBoundingClientRect(), b = document.querySelector(sel)!.getBoundingClientRect()
+          return Math.ceil(b.bottom - r.bottom + 8)
+        }, answer)
+        if (below > 0) {
+          const card = await page.evaluate(() => { const b = (window as any).__neural._landEl.getBoundingClientRect(); return [b.left + b.width / 2, b.top + 20] })
+          await page.mouse.move(card[0], card[1]); await page.mouse.wheel(0, below); await j.readerLayoutSettled()
+        }
+        await j.clickByMouse(answer, 'answer the dormant defender question')
       }
       expect(await activity(page)).toMatchObject({ intent: false, paused: false })
       expect((await activity(page)).beats.filter((b: string) => b === 'defend_start')).toHaveLength(0)

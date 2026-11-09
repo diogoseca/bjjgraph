@@ -338,36 +338,9 @@ The critical distinction from other leg lock positions is the degree of rotation
 | Tibial/fibular fracture from extreme rotational force | CRITICAL | 3-6 months, potential permanent mobility issues |
 
 
-**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force. The knee ligaments provide almost no proprioceptive warning before catastrophic failure.
-
-**Tap Signals**:
-- Verbal tap saying 'tap' clearly
-- Physical hand tap on opponent or mat (repeated)
-- Physical foot tap with free leg on mat or opponent
-- Any distress vocalization or scream
-- Frantic slapping or waving with hands
-- Leg stiffening or sudden defensive panic reaction
 
 
-**Release Protocol**:
-1. Immediately cease all rotational pressure upon any tap signal
-2. Release heel grip completely before unwrapping leg entanglement
-3. Slowly and carefully unwrap leg configuration while monitoring partner's joint
-4. Allow partner to extract their leg at their own pace without forcing movement
-5. Verbally check with training partner about knee and ankle status before continuing
-6. Report any joint discomfort to instructor immediately even if it seems minor
-
-
-**Training Restrictions**:
-- NEVER apply sudden or explosive rotational force in training under any circumstances
-- NEVER practice at competition intensity or speed with training partners
-- NEVER continue pressure if partner's leg begins rotating involuntarily with the submission
-- Always ensure immediate tap access for both of partner's hands throughout the exchange
-- Only train with partners who have explicit experience with heel hook defense and know when to tap
-- Prohibited for practitioners below brown belt in most traditional academies and many competition rulesets
-- Never train heel hooks without instructor supervision during initial learning phases
-- Stop immediately if any popping, clicking, or unusual sensations occur in opponent's leg
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

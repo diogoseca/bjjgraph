@@ -364,31 +364,9 @@ This technique is commonly seen in high-level competition and represents excelle
 | Shoulder strain from arm entrapment during resistance | Medium | 3-7 days with proper care |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, always allow time for tap
-
-**Tap Signals**:
-- Verbal tap or any vocalization
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any distress signal or body convulsion
-- Loss of resistance or going limp
 
 
-**Release Protocol**:
-1. Immediately release choking arm upon any tap signal
-2. Maintain positional control briefly to ensure partner's safety
-3. Allow partner to recover in side position, do not immediately move away
-4. Check partner's awareness and breathing before continuing
-5. Never re-apply pressure after a tap, even if accidental
-
-
-**Training Restrictions**:
-- Never apply full pressure in drilling - use 30-40% maximum
-- Never hold choke after partner taps or goes unconscious
-- Always ensure both you and partner understand tap signals before training
-- Beginners should only practice entry and position, not finish
-- Never use competition speed or intensity in casual training
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

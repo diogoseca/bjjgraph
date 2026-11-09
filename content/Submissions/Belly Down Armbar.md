@@ -242,29 +242,9 @@ The key to success lies in rapid arm isolation, maintaining connection to the op
 | Bicep tendon strain or tear from sudden pressure application | Medium | 3-6 weeks for strains, 3-6 months for complete tears |
 
 
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial arm isolation to full extension in training
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making verbal distress sounds)
-- Physical hand tap on your body or the mat
-- Physical foot tap on the mat
-- Any distress signal including unusual movement or sounds
 
 
-**Release Protocol**:
-1. Immediately release hip pressure and stop extending the arm
-2. Release the wrist grip while maintaining light control
-3. Allow opponent to retract their arm naturally without resistance
-4. Check with training partner verbally before continuing
-
-
-**Training Restrictions**:
-- Never spike, jerk, or explosively extend the submission in training
-- Never use competition-speed application during drilling or light rolling
-- Always ensure training partner has both hands free to tap
-- Never continue pressure after feeling resistance or hearing joint sounds
-- Avoid this submission with beginners until they understand proper defensive reactions
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

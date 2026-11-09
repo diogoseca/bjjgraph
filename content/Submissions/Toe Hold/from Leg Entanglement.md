@@ -351,33 +351,9 @@ What makes the toe hold particularly effective from leg entanglement is the inhe
 | Achilles tendon strain | Medium | 4-6 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. The rotational nature of this submission means damage accumulates without clear warning. Never snap this technique on in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly and clearly)
-- Physical hand tap on partner or mat (multiple rapid taps)
-- Physical foot tap with free leg on partner or mat
-- Any verbal distress signal or shout
-- Slapping the mat repeatedly with open hand
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon feeling or hearing a tap
-2. Unwind the rotation gradually rather than releasing abruptly
-3. Release the figure-four grip completely
-4. Release heel and ankle control
-5. Allow opponent's foot to return to neutral position naturally
-6. Check with training partner before resuming
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual and controlled
-- Never grip individual toes - always grip across multiple toes and the ball of the foot
-- Never combine toe hold rotation with explosive hip extension
-- Always allow clear tap access for both of the defender's hands
-- Stop immediately at any sign of discomfort, popping, or unusual resistance
-- Never train this submission at full competition speed until both partners are experienced
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

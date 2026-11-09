@@ -315,32 +315,9 @@ In competition, the toe hold from Backside 50-50 serves as both a primary finish
 | Achilles tendon strain | Medium | 4-6 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. The rotational force compounds rapidly once applied. This is NOT a technique to snap on in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly)
-- Physical hand tap on partner or mat (multiple taps)
-- Physical foot tap with free leg
-- Any verbal distress signal
-- Slapping the mat with hand
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon tap
-2. Release toe grip completely before releasing heel control
-3. Allow opponent's foot to return to neutral position naturally
-4. Do not let go abruptly - maintain light contact until opponent signals they are okay
-5. Check with training partner before continuing
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual and controlled
-- Never grip individual toes - always grip across multiple toes and ball of foot
-- Never combine toe hold rotation with explosive hip extension
-- Always allow clear tap access for both hands and verbal tap
-- Stop immediately at any sign of discomfort from training partner
-- Never train this submission at full competition speed or intensity
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

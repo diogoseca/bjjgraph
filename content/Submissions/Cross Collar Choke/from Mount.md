@@ -346,29 +346,9 @@ From a strategic standpoint, the Cross Collar Choke creates a powerful dilemma t
 | Neck strain or cervical spine irritation from defensive twisting under pressure | Low | 3-7 days with rest and ice |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training. Gradually increase pressure to allow partner time to recognize and signal the tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal of distress)
-- Physical hand tap on partner's body or mat (minimum two taps)
-- Physical foot tap on mat or partner's legs
-- Any distress signal including going limp, loss of resistance, or panicked facial expression
 
 
-**Release Protocol**:
-1. Immediately release both collar grips upon any tap signal
-2. Disengage controlling mount position and create space
-3. Allow partner time to recover breathing and normal circulation
-4. Check partner's alertness and responsiveness before continuing training
-
-
-**Training Restrictions**:
-- Never apply full pressure during initial learning phases — use progressive resistance
-- Never hold the choke past the tap signal under any circumstances
-- Never use competition speed or intensity during basic drilling sessions
-- Never practice on partners with neck, cardiovascular, or circulation conditions without instructor supervision
-- Always ensure partner has clear access to tap with at least one hand or foot
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

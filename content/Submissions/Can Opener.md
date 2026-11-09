@@ -208,34 +208,9 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 | Cervical ligament damage | High | 6-12 weeks |
 
 
-**Application Speed**: SHOULD NOT BE APPLIED - This technique is banned in most competitions and carries unacceptable injury risk. If demonstrated for educational purposes only: EXTREMELY SLOW - 7-10 seconds minimum with constant partner communication
-
-**Tap Signals**:
-- Verbal tap (primary due to restricted movement)
-- Physical hand tap on opponent's body
-- Physical foot tap on ground
-- Any distress signal including verbal stop command
-- Immediate cessation if partner shows any neck pain signs
 
 
-**Release Protocol**:
-1. Immediately remove all pressure from neck by releasing hand clasp
-2. Simultaneously posture upward to remove forearm pressure from throat
-3. Allow partner to slowly extend neck naturally without assistance
-4. Check for neck pain, dizziness, or numbness before continuing
-5. Wait minimum 2-3 minutes before resuming any activity
-6. If any pain persists beyond 5 minutes, stop training and seek medical evaluation
-
-
-**Training Restrictions**:
-- NEVER apply this technique in live training or competition where banned
-- NEVER use this as a primary guard-breaking method - safer alternatives exist
-- NEVER apply to training partners with pre-existing neck injuries
-- NEVER apply sudden or jerking pressure to the neck
-- NEVER continue pressure after partner indicates discomfort
-- Only demonstrate with cooperative partner for educational awareness
-- Always prioritize learning legal and safer guard-breaking alternatives
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

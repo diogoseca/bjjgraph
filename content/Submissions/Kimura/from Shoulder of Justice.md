@@ -354,28 +354,9 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 | Superior labrum tear (SLAP lesion) from combined compression and rotational forces through the glenohumeral joint | High | 3-6 months, often requires arthroscopic surgical repair |
 
 
-**Application Speed**: SLOW and controlled. Apply rotational pressure gradually with steady incremental force. Never jerk, spike, or explosively rotate the shoulder. The kimura can cause catastrophic, career-ending injury before the opponent feels sufficient pain to tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, your body, or the mat with free hand
-- Physical foot tap on mat with either leg
-- Any unusual vocalization, screaming, or sound indicating distress
 
 
-**Release Protocol**:
-1. Release the figure-four grip immediately upon any tap signal without hesitation
-2. If opponent goes limp or loses consciousness, release immediately and check responsiveness
-3. If in doubt about whether a signal was a tap, release and re-establish position—safety over position
-4. Return the captured arm to a neutral anatomical position slowly after release to prevent additional injury from abrupt repositioning
-
-
-**Training Restrictions**:
-- White belts should drill grip mechanics and positioning without applying finishing rotational pressure until technique is reliable and controlled
-- Never apply the kimura with explosive or jerking force in any training context—slow progressive pressure only
-- Beginners must practice catch-and-release without rotating the forearm past 90 degrees from the mat
-- Avoid training this submission when either partner has pre-existing shoulder injuries, recent shoulder surgery, or active inflammation
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

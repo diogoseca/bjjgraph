@@ -339,32 +339,9 @@ The submission works exceptionally well in no-gi situations where collar grips a
 | Loss of consciousness from carotid artery compression | High | Immediate recovery if released promptly |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum with constant communication
-
-**Tap Signals**:
-- Verbal tap or verbal distress
-- Physical hand tap on partner's body
-- Physical foot tap on mat
-- Any struggling or resistance that suddenly stops
-- Any distress signal or sound
 
 
-**Release Protocol**:
-1. Immediately release the choking arm grip upon any tap signal
-2. Remove pressure from the chin and neck completely
-3. Allow partner to roll away and recover breathing
-4. Check on partner's condition and ensure they are okay before continuing
-5. Never apply finishing pressure during drilling without explicit partner consent
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply sudden pressure to the neck
-- Never use competition speed or full pressure in training
-- Always ensure partner has clear access to tap with both hands
-- Never practice on partners with known neck or jaw injuries
-- Stop immediately if partner shows any sign of distress or discomfort
-- Drill at 30-40% pressure maximum until both partners are comfortable
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 
