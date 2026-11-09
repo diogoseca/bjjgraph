@@ -1254,9 +1254,9 @@
  },
  "Submissions/Achilles-Lock.html": {
   "canonical": "https://bjjgraph.org/Submissions/Achilles-Lock",
-  "content_floor": 5128,
-  "content_hash": "0d592bd199bc2f48ad96cdf0cb4b8e371d2ccade1996ef4b3784790cb5767847",
-  "content_len": 5857,
+  "content_floor": 4212,
+  "content_hash": "6bc8689db42325195cbc6b3bd1bee9a1e40dd6fa67088b82c34baaac2979339b",
+  "content_len": 4956,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Submissions/\", \"name\": \"Submissions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Submissions/Achilles-Lock\", \"name\": \"Achilles Lock\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"CollectionPage\", \"dateModified\": \"<volatile>\", \"datePublished\": \"<volatile>\", \"description\": \"Master the Achilles Lock leg submission in BJJ. Complete guide covering setup mechanics, finishing details, and safety protocols from Ashi Garami positions.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Achilles Lock\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}}",
@@ -1265,8 +1265,8 @@
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}"
   ],
   "links": [
+   "#injury-risks",
    "#related",
-   "#safety-guide",
    "#what-positions-can-you-finish-from",
    "../../Positions/Ashi-Garami",
    "../../Positions/Ashi-Garami/Honey-Hole",
@@ -1305,8 +1305,8 @@
  "Submissions/Rear-Naked-Choke.html": {
   "canonical": "https://bjjgraph.org/Submissions/Rear-Naked-Choke",
   "content_floor": 6754,
-  "content_hash": "04e78e9d03f9cc633f5cfc595e1917a0ebc4221c8819fc93ef79ae6248d72300",
-  "content_len": 7714,
+  "content_hash": "6314a155e20162c7b5afe804794bd233e6b51570b7a9f4fbb421898ba42e7f13",
+  "content_len": 6779,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Submissions/\", \"name\": \"Submissions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Submissions/Rear-Naked-Choke\", \"name\": \"Rear Naked Choke\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"CollectionPage\", \"alternateName\": [\"Mata Leão\", \"Mata Leao\", \"Hadaka Jime\", \"RNC\", \"Sleeper Hold\"], \"dateModified\": \"<volatile>\", \"datePublished\": \"<volatile>\", \"description\": \"Master the Rear Naked Choke in BJJ. Complete safety guide with proper execution, defense patterns, and training progressions. Beginner 35%, Intermediate 55%, Advanced 75%.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Rear Naked Choke\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"sameAs\": [\"https://en.wikipedia.org/wiki/Rear_naked_choke\", \"https://www.wikidata.org/wiki/Q4845233\"]}",
@@ -1317,8 +1317,8 @@
   ],
   "links": [
    "#film-study",
+   "#injury-risks",
    "#related",
-   "#safety-guide",
    "#what-positions-can-you-finish-from",
    "../../Positions/Back-Control",
    "../../Positions/Back-Control/Body-Triangle",
@@ -1625,14 +1625,14 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "16754958310e98e3033a38076300c0b9fb993dd6",
-   "capture_id": "e295eca70149482580c3bd5d07c9dcec",
+   "capture_git_head": "c3faea76026e110103472355090bb72bc668724b",
+   "capture_id": "e285ae799da8411d849a00ff6edbb14d",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6331,
    "content_md": 4549,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "17f7c606e3eaa2fe8220d8772d01b01c1f57fafe",
+   "content_tree": "39f435c5489d4288f1d18dd3963926190aa0b8f5",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -1657,11 +1657,11 @@
    },
    "output_identity": {
     "files": 15828,
-    "sha256": "9757ed73138bea5474e93a6ab3a9b940d8fb87204840b3623990766b75ad00e7"
+    "sha256": "82ab8330bd9646d00b9d5eaa68cfa8085e2bdccc6f08fdf1b023a5d88f36d9e3"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/video-search/capture/capvs1-167549583/pr-video-search-167549583"
+    "/home/user/bjj-orchestrator/scratch/article-polish/capture/cap346-c3faea760/pr-first-row-columns-c3faea760"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"

@@ -1,15 +1,15 @@
 {
  "_meta": {
-  "capture_tree": "/home/user/bjj-orchestrator/scratch/video-search/capture/capvs1-167549583/pr-video-search-167549583",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/article-polish/capture/cap346-c3faea760/pr-first-row-columns-c3faea760",
   "content_provenance": {
-   "capture_git_head": "16754958310e98e3033a38076300c0b9fb993dd6",
-   "capture_id": "e295eca70149482580c3bd5d07c9dcec",
+   "capture_git_head": "c3faea76026e110103472355090bb72bc668724b",
+   "capture_id": "e285ae799da8411d849a00ff6edbb14d",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6331,
    "content_md": 4549,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "17f7c606e3eaa2fe8220d8772d01b01c1f57fafe",
+   "content_tree": "39f435c5489d4288f1d18dd3963926190aa0b8f5",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -34,11 +34,11 @@
    },
    "output_identity": {
     "files": 15828,
-    "sha256": "9757ed73138bea5474e93a6ab3a9b940d8fb87204840b3623990766b75ad00e7"
+    "sha256": "82ab8330bd9646d00b9d5eaa68cfa8085e2bdccc6f08fdf1b023a5d88f36d9e3"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/video-search/capture/capvs1-167549583/pr-video-search-167549583"
+    "/home/user/bjj-orchestrator/scratch/article-polish/capture/cap346-c3faea760/pr-first-row-columns-c3faea760"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -55,21 +55,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "87d4fa9c54878efe178d2181ca4c0f46ec7adc912b39748ec648ffe5606ba2d2"
+    "sha256": "a8b5b5f618582d32a1b432f5bb5bf045f7978161170ef6c8f9949339196419d8"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78734,
-    "sha256": "e8d5dd1fc1980633fd399bf5641c81f672b18e9e8fa9936cc39e11437680c30a",
+    "sha256": "64b6dcc917cefa100fdd8f3c9c3255562f30730b89239348c9fe3a0c113af9f3",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "7d4bebcce19f97dcc168ec727135414bce20193edeacb472ab71e27594ae893c",
+    "sha256": "7cd3a07ec7df6dfd4dd8c7c21f612c38fdc65bd328c4f4cfb19028394f6944b8",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 28182,
-    "sha256": "1a86357091438210fb1971e3af5493129bfd24e0174f06f95e5e7fbee1e0449b",
+    "sha256": "238a37b4413f15068d0b2f763fe85c73fb523266b65d53e4ba4447b3242cde80",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-27979b05ebdc3ec898c90f78b5fa61c0f4bb63f9d92f30916a01920f3da4fde1.js": {
@@ -85,21 +85,21 @@
     "sha256": "d807ef6f5dc3649d41932f2145b6716a61bd9386a1459974180854ef1e10dbf2"
    },
    "static/neural/app/neural.css": {
-    "bytes": 49019,
-    "sha256": "7a5faf4870c12bc8ee5caa757c112139cf9ccf50792c0b617792b7e7ce36241b"
+    "bytes": 49535,
+    "sha256": "abaaed0d03f7bb0310e661f0c8022c9a900560e47b91d0a6d9c42bd5676ac4c2"
    },
    "static/neural/app/neural.js": {
-    "bytes": 681648,
-    "sha256": "56268128d7a58d35f027755c0b90d0baaf5f9c286029d47dae23aae8e488d1dc",
+    "bytes": 682380,
+    "sha256": "f74ab753d93a07f45aaa298361ea7fb9ef6f7f4f2d339156edb49ce3fd9c4af4",
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
-    "bytes": 42230,
-    "sha256": "abab56dd0d84b42693fdf281b5d3f2242eaa250348f28553500478f219295fcd"
+    "bytes": 42401,
+    "sha256": "c6c7c2168cf04c8bf1e17a105012aa735167772755b549788fafd5112f305949"
    },
    "static/neural/app/reading.css": {
-    "bytes": 11244,
-    "sha256": "c881a835ca1415bacaee2dcc1511036dfb5272c7f6ad59c211c13b8182d1f552"
+    "bytes": 11258,
+    "sha256": "e509defac86d28afe37ee45a5b9d659632741e9c0736b25c277073a0d72a6a1d"
    },
    "static/neural/app/reference.css": {
     "bytes": 15146,
