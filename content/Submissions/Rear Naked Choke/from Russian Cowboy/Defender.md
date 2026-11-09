@@ -10,8 +10,6 @@ description: "Defend the Rear Naked Choke from Russian Cowboy. Recognition cues,
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Russian Cowboy targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -146,6 +144,27 @@ description: "Defend the Rear Naked Choke from Russian Cowboy. Recognition cues,
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Russian Cowboy (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rear Naked Choke Defense",
+      "description": "Rear Naked Choke from Russian Cowboy (Defender) film study: Rear Naked Choke Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0ubZ65hvM2M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0ubZ65hvM2M",
+      "url": "https://www.youtube.com/watch?v=0ubZ65hvM2M",
+      "duration": "PT153S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +178,24 @@ Defending the Rear Naked Choke from Russian Cowboy requires addressing the immed
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Russian Cowboy (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0ubZ65hvM2M)
+
+<p class="clip-credit"><strong>Rear Naked Choke Defense</strong> · 2:33 · <a href="https://www.youtube.com/watch?v=0ubZ65hvM2M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -192,6 +229,8 @@ Defending the Rear Naked Choke from Russian Cowboy requires addressing the immed
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Rear Naked Choke/from Russian Cowboy#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

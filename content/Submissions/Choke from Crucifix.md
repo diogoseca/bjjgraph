@@ -102,9 +102,6 @@ description: "Master the Choke from Crucifix in BJJ. Complete guide covering blo
 <span class="meta-chip">63% success</span>
 </div>
 
-> [!danger] Safety
-> Choke from Crucifix targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Choke from Crucifix/Attacker|Play as Attacker]]
@@ -209,6 +206,8 @@ This technique is commonly seen in high-level competition and represents excelle
 - Hide your choking arm by approaching from unexpected angles to prevent defensive turtling
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -278,6 +277,8 @@ This technique is commonly seen in high-level competition and represents excelle
 
 - You feel the attacker's forearm blade begin to slide along your jawline or under your chin from the side
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -352,9 +353,8 @@ This technique is commonly seen in high-level competition and represents excelle
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -363,42 +363,12 @@ This technique is commonly seen in high-level competition and represents excelle
 | Shoulder strain from arm entrapment during resistance | Medium | 3-7 days with proper care |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, always allow time for tap
-
-**Tap Signals**:
-- Verbal tap or any vocalization
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any distress signal or body convulsion
-- Loss of resistance or going limp
 
 
-**Release Protocol**:
-1. Immediately release choking arm upon any tap signal
-2. Maintain positional control briefly to ensure partner's safety
-3. Allow partner to recover in side position, do not immediately move away
-4. Check partner's awareness and breathing before continuing
-5. Never re-apply pressure after a tap, even if accidental
-
-
-**Training Restrictions**:
-- Never apply full pressure in drilling - use 30-40% maximum
-- Never hold choke after partner taps or goes unconscious
-- Always ensure both you and partner understand tap signals before training
-- Beginners should only practice entry and position, not finish
-- Never use competition speed or intensity in casual training
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related submission on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

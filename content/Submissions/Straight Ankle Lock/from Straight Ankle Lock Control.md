@@ -82,9 +82,6 @@ description: "Complete guide to the straight ankle lock finish from ankle lock c
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Straight Ankle Lock from Straight Ankle Lock Control targets the Ankle joint, Achilles tendon, and foot ligaments. Primary risk: Ankle sprain or ligament damage. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Strategically, the straight ankle lock from established control serves dual purp
 - Apply progressive controlled pressure that tightens incrementally rather than jerking or spiking the lock
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -241,6 +240,8 @@ Strategically, the straight ankle lock from established control serves dual purp
 - Attacker beginning to arch their back or extend their hips away from you, indicating the breaking mechanics are being initiated
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -299,9 +300,8 @@ Strategically, the straight ankle lock from established control serves dual purp
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -311,31 +311,9 @@ Strategically, the straight ankle lock from established control serves dual purp
 | Foot bone fracture from explosive application | High | 6-12 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner to recognize depth and tap safely
-
-**Tap Signals**:
-- Verbal tap - clearly audible 'tap' or 'stop'
-- Physical hand tap on opponent or mat - minimum 2 taps
-- Physical foot tap with free leg
-- Any distress signal including unusual sounds or movements
 
 
-**Release Protocol**:
-1. Immediately stop hip extension the moment tap is felt or heard
-2. Release armpit grip on the foot and allow it to slide free
-3. Open leg entanglement by releasing hooks and creating space
-4. Move away from the leg to prevent accidental re-engagement
-5. Check with partner verbally to ensure they are okay
-
-
-**Training Restrictions**:
-- Apply smooth progressive pressure only - never spike or jerk the submission
-- Always allow a 3-5 second pressure window in training - never use competition speed
-- Maintain verbal communication with training partners about pressure levels
-- Never continue pressure after tap signal is given
-- Beginners should train this submission under direct instructor supervision
-- Never combine explosive entries with immediate finishing pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

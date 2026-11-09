@@ -219,6 +219,8 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 
 - **[[Transitions/Worm to Squid Guard/Attacker|Worm to Squid Guard]]** (0% of attempts)
 
+- **[[Transitions/Worm Guard to Demi Guard/Attacker|Worm Guard to Demi Guard]]** (gi only)
+
 
 ### Common Mistakes
 
@@ -294,6 +296,8 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 
 - **[[Transitions/Lapel Strip from Worm Guard/Attacker|Lapel Strip from Worm Guard]]** (gi only)
 
+- **[[Transitions/Worm Wrestling Pressure Counter/Attacker|Worm Wrestling Pressure Counter]]** (gi only)
+
 
 ### Common Mistakes
 
@@ -349,17 +353,11 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 
 - **[[Positions/Collar Sleeve Guard]]** - Foundation guard that shares grip fighting principles
 
+- **[[Positions/Demi Guard]]** - Gi lapel-guard connection using a collar grip, lapel behind the knee and foot on the tail
+
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Worm Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

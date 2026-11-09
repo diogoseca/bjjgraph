@@ -10,8 +10,6 @@ description: "Learn to attack with the calf slicer from twister control. Step-by
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Twister Control targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -188,6 +186,26 @@ description: "Learn to attack with the calf slicer from twister control. Step-by
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Adults Technique 4/1/20 Twister to Calf Slicer and Armbar",
+      "description": "Calf Slicer from Twister Control (Attacker) film study: Adults Technique 4/1/20 Twister to Calf Slicer and Armbar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FhaUPcjiQpI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FhaUPcjiQpI",
+      "url": "https://www.youtube.com/watch?v=FhaUPcjiQpI",
+      "duration": "PT401S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No Gi BJJ: Truck to Calf Slicer or Back Control",
+      "description": "Calf Slicer from Twister Control (Attacker) film study: No Gi BJJ: Truck to Calf Slicer or Back Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PeTL7X19Imo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PeTL7X19Imo?start=32",
+      "url": "https://www.youtube.com/watch?v=PeTL7X19Imo",
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "X-PASS - SIDE CONTROL - TWISTER ROLL - CALF SLICER",
       "description": "Calf Slicer from Twister Control (Attacker) film study: X-PASS - SIDE CONTROL - TWISTER ROLL - CALF SLICER.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4gzXKLfRlYY/hqdefault.jpg",
@@ -219,6 +237,22 @@ Attacking with the calf slicer from twister control leverages the position's inh
 
 <p class="section-subtitle">Watch Calf Slicer from Twister Control (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FhaUPcjiQpI)
+
+<p class="clip-credit"><strong>Adults Technique 4/1/20 Twister to Calf Slicer and Armbar</strong> · 6:41 · <a href="https://www.youtube.com/watch?v=FhaUPcjiQpI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PeTL7X19Imo&start=32)
+
+<p class="clip-credit"><strong>No Gi BJJ: Truck to Calf Slicer or Back Control</strong> · 2:23 · <a href="https://www.youtube.com/watch?v=PeTL7X19Imo&t=32s" rel="noopener">Watch on YouTube from 0:32</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -264,6 +298,8 @@ Attacking with the calf slicer from twister control leverages the position's inh
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Calf Slicer/from Twister Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

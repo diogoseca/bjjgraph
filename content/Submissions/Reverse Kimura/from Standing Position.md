@@ -82,9 +82,6 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Reverse Kimura from Standing Position targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Reverse Kimura/from Standing Position/Attacker|Play as Attacker]]
@@ -169,6 +166,8 @@ Belonging to the Kimura family of shoulder locks, this reverse-grip variation ev
 - The submission can be applied progressively from control position or explosively in scrambles (training vs competition distinction)
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -238,6 +237,8 @@ Belonging to the Kimura family of shoulder locks, this reverse-grip variation ev
 
 - From standing or front headlock, attacker isolates your wrist and begins threading their controlling arm while maintaining head or body pressure
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -312,9 +313,8 @@ Belonging to the Kimura family of shoulder locks, this reverse-grip variation ev
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -324,33 +324,9 @@ Belonging to the Kimura family of shoulder locks, this reverse-grip variation ev
 | Labrum tear | CRITICAL | 6-12 months with surgery likely |
 
 
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum with constant communication
-
-**Tap Signals**:
-- Verbal tap (most important for standing submissions)
-- Physical hand tap on any available surface
-- Physical tap with free hand on partner
-- Any distress vocalization
-- Tapping feet if hands unavailable
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure
-2. Release grip completely and step back
-3. Allow partner to externally rotate shoulder naturally
-4. Do not force arm back to neutral position
-5. Check with partner before continuing training
-
-
-**Training Restrictions**:
-- Never apply quickly or explosively in training
-- Never continue rotation past 90 degrees in practice
-- Always maintain verbal communication during application
-- Never spike or drop weight during standing applications
-- Always allow partner clear tap access with free hand
-- Stop immediately at first sign of discomfort
-- Never practice on injured shoulders
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

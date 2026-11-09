@@ -10,8 +10,6 @@ description: "How to defend and escape the Ten Finger Guillotine from Guillotine
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Ten Finger Guillotine from Guillotine Control targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -152,6 +150,27 @@ description: "How to defend and escape the Ten Finger Guillotine from Guillotine
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ten Finger Guillotine from Guillotine Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "defense from 10 finger guillotine with arm in",
+      "description": "Ten Finger Guillotine from Guillotine Control (Defender) film study: defense from 10 finger guillotine with arm in.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P5GX0W1FTH0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P5GX0W1FTH0",
+      "url": "https://www.youtube.com/watch?v=P5GX0W1FTH0",
+      "duration": "PT104S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +184,24 @@ Defending the Ten Finger Guillotine from Guillotine Control requires early recog
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ten Finger Guillotine from Guillotine Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P5GX0W1FTH0)
+
+<p class="clip-credit"><strong>defense from 10 finger guillotine with arm in</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=P5GX0W1FTH0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -198,6 +235,8 @@ Defending the Ten Finger Guillotine from Guillotine Control requires early recog
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Ten Finger Guillotine/from Guillotine Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -102,9 +102,6 @@ description: "Master the Buggy Choke in BJJ. Powerful half guard compression cho
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Buggy Choke targets the Carotid arteries and neck compression. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Buggy Choke/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ For the purple-to-brown belt grappler, the value of the Buggy Choke is less abou
 - Keep the trapped arm pinned throughout — releasing the crossface arm gives the single highest-percentage escape.
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -274,6 +273,8 @@ For the purple-to-brown belt grappler, the value of the Buggy Choke is less abou
 
 - You feel compression building on the sides of your neck rather than on your windpipe.
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -346,9 +347,8 @@ For the purple-to-brown belt grappler, the value of the Buggy Choke is less abou
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -358,32 +358,9 @@ For the purple-to-brown belt grappler, the value of the Buggy Choke is less abou
 | Jaw dislocation from improper chin positioning | High | 4-8 weeks with medical intervention |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to full pressure, allow partner to feel compression building
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal distress)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat or opponent
-- Any hand slapping motion
-- Loss of resistance or going limp
 
 
-**Release Protocol**:
-1. Immediately release head pressure and remove choking arm
-2. Release leg entanglement and create space
-3. Move completely away from opponent's neck area
-4. Check partner's consciousness and breathing
-5. If partner lost consciousness, place in recovery position and alert instructor immediately
-
-
-**Training Restrictions**:
-- Never apply full pressure during initial drilling phases
-- Never hold the choke past the tap signal
-- Never use competition speed in training until advanced proficiency
-- Always ensure partner has clear tap access with at least one free hand
-- Never practice on beginners until they understand proper defense and tap protocol
-- Avoid finishing on partners with neck or spine injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

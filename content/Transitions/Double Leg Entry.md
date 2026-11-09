@@ -46,22 +46,22 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from standin
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Sprawl against a Double Leg!",
-      "description": "Double Leg Entry film study: How to Sprawl against a Double Leg!.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Io79xaXZx_c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Io79xaXZx_c",
-      "url": "https://www.youtube.com/watch?v=Io79xaXZx_c",
-      "duration": "PT56S"
+      "name": "Double Leg Takedown: Basic Shot",
+      "description": "Double Leg Entry film study: Double Leg Takedown: Basic Shot.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/maSM-KwV4AM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/maSM-KwV4AM",
+      "url": "https://www.youtube.com/watch?v=maSM-KwV4AM",
+      "duration": "PT33S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How To Defend The Double Leg Takedown",
-      "description": "Double Leg Entry film study: How To Defend The Double Leg Takedown.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iPZ2ZB0A1Fs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iPZ2ZB0A1Fs",
-      "url": "https://www.youtube.com/watch?v=iPZ2ZB0A1Fs",
-      "duration": "PT85S"
+      "name": "Double Leg Takedown: Basic Neutral Wrestling and BJJ Moves and Technique For\u2026",
+      "description": "Double Leg Entry film study: Double Leg Takedown: Basic Neutral Wrestling and BJJ Moves and Technique For\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wxNAEByjOoA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wxNAEByjOoA",
+      "url": "https://www.youtube.com/watch?v=wxNAEByjOoA",
+      "duration": "PT82S"
     }
   ]
 }
@@ -115,17 +115,17 @@ Mastery of the double leg entry provides a reliable method for taking the fight 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Io79xaXZx_c)
+![](https://www.youtube.com/watch?v=maSM-KwV4AM)
 
-<p class="clip-credit"><strong>How to Sprawl against a Double Leg!</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=Io79xaXZx_c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Leg Takedown: Basic Shot</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=maSM-KwV4AM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=iPZ2ZB0A1Fs)
+![](https://www.youtube.com/watch?v=wxNAEByjOoA)
 
-<p class="clip-credit"><strong>How To Defend The Double Leg Takedown</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=iPZ2ZB0A1Fs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Leg Takedown: Basic Neutral Wrestling and BJJ Moves and Technique For…</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=wxNAEByjOoA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -329,18 +329,6 @@ The double leg entry serves as a foundational transition from standing engagemen
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference: Double Leg Entry.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Grappling Under MMA Rules</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference: Double Leg Entry.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Game Plans</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Double Leg Entry.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Preparation with Matt D’Aquino</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition reference: Double Leg Entry.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Cage-Clinch-to-Ground-System" data-cta="related-system-card" data-system-slug="systems/cage-clinch-to-ground-system" data-system-name="Cage Clinch to Ground System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Neiman Gracie: Jiu-Jitsu for MMA</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

@@ -10,8 +10,6 @@ description: "Americana from an established triangle entanglement, with attack a
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Triangle Control targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -248,6 +246,8 @@ Americana from Triangle Control is a distinct submission state: the bottom playe
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Americana/from Triangle Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

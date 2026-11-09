@@ -176,6 +176,27 @@ description: "Master hook insertion from seat belt back control. Learn systemati
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Seat Belt to Full Back Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Getting the Second Hook with an Over/Under Seatbelt Grip on the Back",
+      "description": "Seat Belt to Full Back Control (Attacker) film study: Getting the Second Hook with an Over/Under Seatbelt Grip on the Back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/twk68LOuCWY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/twk68LOuCWY",
+      "url": "https://www.youtube.com/watch?v=twk68LOuCWY",
+      "duration": "PT142S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the attacker executing Seat Belt to Full Back Control, your objective is conv
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Seat Belt to Full Back Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=twk68LOuCWY)
+
+<p class="clip-credit"><strong>Getting the Second Hook with an Over/Under Seatbelt Grip on the Back</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=twk68LOuCWY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

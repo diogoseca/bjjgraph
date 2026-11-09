@@ -10,8 +10,6 @@ description: "Defend the Short Choke from Gift Wrap position. Recognition cues, 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Short Choke from Gift Wrap targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -193,6 +191,8 @@ The defender must prioritize prevention over escape. Once the forearm is threade
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Short Choke/from Gift Wrap#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

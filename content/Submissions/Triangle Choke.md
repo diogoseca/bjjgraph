@@ -129,9 +129,6 @@ description: "Master the Triangle Choke in BJJ. Complete safety guide with setup
 <span class="meta-chip">~65% avg</span>
 </div>
 
-> [!danger] Safety
-> Triangle Choke targets the Carotid arteries and brachial plexus. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Sankaku Jime</strong>, <strong>Sankaku</strong></p>
 </aside>
@@ -244,9 +241,8 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -255,31 +251,9 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 | Brachial plexus compression (temporary arm numbness) | Low | Minutes to hours |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to tap. NEVER spike or jerk the finish.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress sound)
-- Physical hand tap (multiple taps on body or mat)
-- Physical foot tap (if hands trapped)
-- Any loss of resistance or going limp
 
 
-**Release Protocol**:
-1. Immediately open legs and release triangle configuration
-2. Remove shin from neck and lower legs to mat
-3. Release arm trap and create space
-4. Check partner's consciousness and breathing
-5. If unconscious, place in recovery position and alert instructor
-
-
-**Training Restrictions**:
-- NEVER hold triangle after tap or loss of consciousness
-- NEVER use competition finishing speed in training
-- Always ensure partner has clear tap access with at least one hand
-- Release immediately upon any tap signal
-- Monitor partner's color and breathing throughout
-- Practice finishing mechanics on cooperative partners first
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

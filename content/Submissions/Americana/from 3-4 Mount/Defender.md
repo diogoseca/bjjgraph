@@ -10,8 +10,6 @@ description: "Defend the Americana from 3-4 Mount in BJJ. Recognition cues, grip
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from 3-4 Mount targets the Shoulder joint (rotator cuff and glenohumeral complex). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -162,6 +160,26 @@ description: "Defend the Americana from 3-4 Mount in BJJ. Recognition cues, grip
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Defense against the Americana (Key Lock) from Mount",
+      "description": "Americana from 3-4 Mount (Defender) film study: Defense against the Americana (Key Lock) from Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DmPhEpL8Znk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DmPhEpL8Znk",
+      "url": "https://www.youtube.com/watch?v=DmPhEpL8Znk",
+      "duration": "PT165S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes",
+      "description": "Americana from 3-4 Mount (Defender) film study: Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ny_l7GHApo0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ny_l7GHApo0?start=35",
+      "url": "https://www.youtube.com/watch?v=Ny_l7GHApo0",
+      "duration": "PT199S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Kipping Escape: Defend the Americana into the Heelhook (No Gi BJJ/Jiu-Jitsu)",
       "description": "Americana from 3-4 Mount (Defender) film study: Kipping Escape: Defend the Americana into the Heelhook (No Gi BJJ/Jiu-Jitsu).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ht5OdSQG3BY/hqdefault.jpg",
@@ -195,6 +213,22 @@ Keep your elbows tight to your ribs at all times, never allowing your near arm t
 
 <p class="section-subtitle">Watch Americana from 3-4 Mount (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DmPhEpL8Znk)
+
+<p class="clip-credit"><strong>Defense against the Americana (Key Lock) from Mount</strong> · 2:45 · <a href="https://www.youtube.com/watch?v=DmPhEpL8Znk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ny_l7GHApo0&start=35)
+
+<p class="clip-credit"><strong>Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes</strong> · 3:19 · <a href="https://www.youtube.com/watch?v=Ny_l7GHApo0&t=35s" rel="noopener">Watch on YouTube from 0:35</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -239,6 +273,8 @@ Keep your elbows tight to your ribs at all times, never allowing your near arm t
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Americana/from 3-4 Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

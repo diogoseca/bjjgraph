@@ -10,8 +10,6 @@ description: "Learn to attack with the Bow and Arrow Choke from Seat Belt back c
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Bow and Arrow Choke from Seat Belt Control Back targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -301,6 +299,8 @@ Attacking with the Bow and Arrow Choke from Seat Belt Control Back requires a pr
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

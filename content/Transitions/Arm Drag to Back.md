@@ -123,7 +123,7 @@ From the butterfly guard specifically, the arm drag pairs naturally with the hoo
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 58% |
 | Failure | [[Positions/Butterfly Guard]] | 30% |
-| Counter | [[Positions/Butterfly Guard]] | 12% |
+| Counter | [[Positions/Side Control]] | 12% |
 
 
 </section>
@@ -309,17 +309,6 @@ The arm drag to back is a fundamental transitional technique that bridges multip
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: The Marcelotine</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Arm Drag to Back: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Arm Drag to Back: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

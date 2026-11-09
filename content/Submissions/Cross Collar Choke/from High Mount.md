@@ -82,9 +82,6 @@ description: "Master the Cross Collar Choke from High Mount in BJJ. Complete gui
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Cross Collar Choke from High Mount targets the Neck. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Cross Collar Choke/from High Mount/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 - Patient grip fighting from high mount is sustainable; the position favors you in any attrition exchange
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -243,6 +242,8 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 - You feel wrist bone pressure against the side of your neck as the first grip reaches depth
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -304,9 +305,8 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -315,30 +315,9 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 | Neck muscle strain from sustained defensive tension against choke pressure | Low | 3-7 days with rest and anti-inflammatory treatment |
 
 
-**Application Speed**: SLOW and progressive. Feed collar grips gradually, increase pressure steadily over 3-5 seconds. Never jerk or spike the choke. Monitor opponent's consciousness throughout application.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat or partner
-- Any unusual vocalization, gurgling, or distress sounds
-- Going limp or losing consciousness (treat as immediate tap)
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal without waiting for confirmation
-2. If opponent goes limp or unconscious, release immediately and place in recovery position
-3. If in doubt whether opponent tapped, release - position can always be re-established
-4. After release, check partner's responsiveness and breathing before continuing
-5. Allow partner 30-60 seconds to recover orientation after a deep choke application
-
-
-**Training Restrictions**:
-- Beginners should drill grip placement and positioning without applying finishing pressure until technique is refined
-- Never apply full choking pressure during positional drilling - reserve for live sparring with experienced partners only
-- Partners with any history of carotid artery issues, stroke, or cardiovascular conditions should avoid this technique entirely
-- Competition-level pressure should only be applied under instructor supervision
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

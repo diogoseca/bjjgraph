@@ -315,6 +315,15 @@
     ],
     "clips": [
       {
+        "id": "MlQrVhlY_vg",
+        "title": "Ankle Lock: Straight Ashi Garami",
+        "channel": "Frankenmuth Martial Arts Center",
+        "duration": 142,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
         "id": "9jaSEuYbq_4",
         "title": "Finishing the Straight Ankle Lock (BJJ): Countering Defense to the Achilles…",
         "channel": "Brian Glick",
@@ -448,6 +457,17 @@
         "phase": "Resistance",
         "focus": "The roll",
         "description": "Start with the capture fully set and the knees pinched. Boot-and-roll toward the trapped side against live resistance, and tap immediately if the extension begins."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lNLRhW9GFSo",
+        "title": "Como defender y escapar del Ashi Garami/Straight Ankle Lock/Llave de aquiles…",
+        "channel": "JAN FERNANDEZ ",
+        "duration": 206,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
       }
     ]
   }

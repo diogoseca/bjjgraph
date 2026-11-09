@@ -82,9 +82,6 @@ description: "Master the bow and arrow choke from body triangle in BJJ. Learn de
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Bow and Arrow Choke from Body Triangle targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Bow and Arrow Choke/from Body Triangle/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ At the competition level, this combination represents one of the most dominant f
 - Time the collar feed during grip transitions—when your opponent breaks your seatbelt or adjusts their hand position, their collar is momentarily undefended
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -241,6 +240,8 @@ At the competition level, this combination represents one of the most dominant f
 - Body triangle pressure increases as the attacker begins straightening their body behind you, creating the initial tension for the choke finish
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -282,9 +283,8 @@ At the competition level, this combination represents one of the most dominant f
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -294,32 +294,9 @@ At the competition level, this combination represents one of the most dominant f
 | Rib compression injury from body triangle squeeze combined with choke extension | Low | 2-5 days for minor discomfort |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on body or mat
-- Physical foot tap on mat
-- Any audible distress signal
-- Loss of resistance (immediate release required)
 
 
-**Release Protocol**:
-1. Immediately release collar grip upon tap signal
-2. Release leg extension and body triangle simultaneously
-3. Allow opponent's head to return to neutral position
-4. Check for consciousness and responsiveness
-5. If opponent was unconscious, elevate legs and monitor until full recovery
-
-
-**Training Restrictions**:
-- Never spike or jerk the choke - apply smooth progressive pressure only
-- Never use competition speed in training rolls
-- Always maintain communication with training partner throughout
-- Never continue pressure after any tap signal
-- Beginners must drill grip placement and position control before attempting the finish
-- Always allow partner clear access to tap with hands or voice
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

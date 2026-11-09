@@ -10,8 +10,6 @@ description: "Execute the belly down armbar from New York rubber guard. Step-by-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from New York targets the Elbow joint hyperextension and ulnar collateral ligament. Risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -178,6 +176,37 @@ description: "Execute the belly down armbar from New York rubber guard. Step-by-
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from New York (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BELLY DOWN ARMBAR From Butterfly Rubber Guard",
+      "description": "Belly Down Armbar from New York (Attacker) film study: BELLY DOWN ARMBAR From Butterfly Rubber Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RnsE_y1OdeI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RnsE_y1OdeI",
+      "url": "https://www.youtube.com/watch?v=RnsE_y1OdeI",
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Belly Down Armbar from Guard",
+      "description": "Belly Down Armbar from New York (Attacker) film study: Belly Down Armbar from Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EdYFELAO6B0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EdYFELAO6B0",
+      "url": "https://www.youtube.com/watch?v=EdYFELAO6B0",
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +220,32 @@ Attacking the belly down armbar from New York requires converting your existing 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from New York (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RnsE_y1OdeI)
+
+<p class="clip-credit"><strong>BELLY DOWN ARMBAR From Butterfly Rubber Guard</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=RnsE_y1OdeI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EdYFELAO6B0)
+
+<p class="clip-credit"><strong>Belly Down Armbar from Guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=EdYFELAO6B0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -226,6 +281,8 @@ Attacking the belly down armbar from New York requires converting your existing 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Belly Down Armbar/from New York#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -47,32 +47,12 @@ description: "Establish the Double Unders stacking control from Open Guard top. 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Jiu-Jitsu SUPER EASY double under guard pass defense!",
-      "description": "Open Guard to Double Unders film study: Jiu-Jitsu SUPER EASY double under guard pass defense!.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4k-D0Q8DeGQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4k-D0Q8DeGQ",
-      "url": "https://www.youtube.com/watch?v=4k-D0Q8DeGQ",
-      "duration": "PT56S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Double Under Stack Pass Counter - Triangle",
-      "description": "Open Guard to Double Unders film study: Double Under Stack Pass Counter - Triangle.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1UOj60dc540/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/1UOj60dc540",
-      "url": "https://www.youtube.com/watch?v=1UOj60dc540",
-      "duration": "PT68S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Very Effective Double Under Stack Defense And Counter",
-      "description": "Open Guard to Double Unders film study: Very Effective Double Under Stack Defense And Counter.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ad0qtay9IVQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ad0qtay9IVQ",
-      "url": "https://www.youtube.com/watch?v=Ad0qtay9IVQ",
-      "duration": "PT130S"
+      "name": "Guard passing, open guard, double under",
+      "description": "Open Guard to Double Unders film study: Guard passing, open guard, double under.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DVeabSxZcJY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DVeabSxZcJY",
+      "url": "https://www.youtube.com/watch?v=DVeabSxZcJY",
+      "duration": "PT11S"
     }
   ]
 }
@@ -129,25 +109,9 @@ For the passer this entry is a commitment. Diving both arms under the legs surre
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4k-D0Q8DeGQ)
+![](https://www.youtube.com/watch?v=DVeabSxZcJY)
 
-<p class="clip-credit"><strong>Jiu-Jitsu SUPER EASY double under guard pass defense!</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=4k-D0Q8DeGQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=1UOj60dc540)
-
-<p class="clip-credit"><strong>Double Under Stack Pass Counter - Triangle</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=1UOj60dc540" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ad0qtay9IVQ)
-
-<p class="clip-credit"><strong>Very Effective Double Under Stack Defense And Counter</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=Ad0qtay9IVQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard passing, open guard, double under</strong> · 0:11 · <a href="https://www.youtube.com/watch?v=DVeabSxZcJY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

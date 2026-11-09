@@ -47,22 +47,12 @@ description: "Set the Buggy Choke from under side control. Frame the near arm, t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "buggy choke defense",
-      "description": "Buggy Choke from Bottom Side Control film study: buggy choke defense.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/q61vmur0g1E/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/q61vmur0g1E",
-      "url": "https://www.youtube.com/watch?v=q61vmur0g1E",
-      "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Buggy Choke Defense!!",
-      "description": "Buggy Choke from Bottom Side Control film study: Buggy Choke Defense!!.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U_gLL4x7pLU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U_gLL4x7pLU",
-      "url": "https://www.youtube.com/watch?v=U_gLL4x7pLU",
-      "duration": "PT89S"
+      "name": "BJJ - Side Control Bottom - Buggy Choke",
+      "description": "Buggy Choke from Bottom Side Control film study: BJJ - Side Control Bottom - Buggy Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5r1WjjuO5xM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5r1WjjuO5xM",
+      "url": "https://www.youtube.com/watch?v=5r1WjjuO5xM",
+      "duration": "PT87S"
     }
   ]
 }
@@ -119,17 +109,9 @@ Strategically, the entry rewards patience and timing over scrambling. The bottom
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=q61vmur0g1E)
+![](https://www.youtube.com/watch?v=5r1WjjuO5xM)
 
-<p class="clip-credit"><strong>buggy choke defense</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=q61vmur0g1E" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=U_gLL4x7pLU)
-
-<p class="clip-credit"><strong>Buggy Choke Defense!!</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=U_gLL4x7pLU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ - Side Control Bottom - Buggy Choke</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=5r1WjjuO5xM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

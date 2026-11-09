@@ -264,7 +264,19 @@
         }
       }
     ],
-    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "clips": [
+      {
+        "id": "y06sw8BX8Wg",
+        "title": "Leg Weave Back Step vs Half, DLR and Single X",
+        "channel": "Brandon Quick",
+        "duration": 278,
+        "vertical": false,
+        "start": 27,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Backstep from Leg Weave Defender",

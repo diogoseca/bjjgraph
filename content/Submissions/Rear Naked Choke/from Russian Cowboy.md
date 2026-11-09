@@ -36,6 +36,27 @@ description: "Master the Rear Naked Choke from Russian Cowboy. Learn setup mecha
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Russian Cowboy \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Craig Jones: details on finishing the rear naked choke",
+      "description": "Rear Naked Choke from Russian Cowboy film study: Craig Jones: details on finishing the rear naked choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8tdVE2zgjXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8tdVE2zgjXw?start=36",
+      "url": "https://www.youtube.com/watch?v=8tdVE2zgjXw",
+      "duration": "PT56S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +82,6 @@ description: "Master the Rear Naked Choke from Russian Cowboy. Learn setup mecha
 <span class="meta-chip">65% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Russian Cowboy targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Russian Cowboy/Attacker|Play as Attacker]]
@@ -83,6 +101,24 @@ Strategically, the RNC threat serves as the primary fork in the Russian Cowboy a
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Russian Cowboy in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8tdVE2zgjXw&start=36)
+
+<p class="clip-credit"><strong>Craig Jones: details on finishing the rear naked choke</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw&t=36s" rel="noopener">Watch on YouTube from 0:36</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -131,6 +167,8 @@ Strategically, the RNC threat serves as the primary fork in the Russian Cowboy a
 
 - Use your head as a control point by pressing your temple into the back of the opponent's skull to prevent defensive head turns
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -202,6 +240,8 @@ Strategically, the RNC threat serves as the primary fork in the Russian Cowboy a
 - Subtle increase in leg hook tension as the opponent prepares the diagonal hip stretch that opens space at the neck
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -243,9 +283,8 @@ Strategically, the RNC threat serves as the primary fork in the Russian Cowboy a
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -255,33 +294,9 @@ Strategically, the RNC threat serves as the primary fork in the Russian Cowboy a
 | Carotid artery injury from excessive force | CRITICAL | Immediate medical attention required |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. Never snap or jerk the choke. Partner should have full awareness of pressure building.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' or make any verbal sound)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Going limp or loss of consciousness
-- Any distress signal or unusual sound
 
 
-**Release Protocol**:
-1. Immediately release choking arm upon tap signal
-2. Remove hooks and body triangle if present
-3. Gently guide partner to side-lying recovery position
-4. Monitor consciousness and breathing for 30 seconds
-5. If partner was unconscious, keep them lying down until fully alert
-6. Never allow unconscious partner to stand immediately
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity in drilling
-- Never apply the choke to the trachea or windpipe
-- Always ensure partner has clear tap access with both hands
-- Stop immediately if partner makes any distress sound
-- Never hold a choke past the tap for any reason
-- Beginners must practice with extremely slow progression only
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

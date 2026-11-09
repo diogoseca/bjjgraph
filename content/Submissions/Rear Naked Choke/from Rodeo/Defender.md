@@ -10,8 +10,6 @@ description: "Defend against the Rear Naked Choke from Rodeo Ride. Recognition c
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Rodeo targets the Neck. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -198,6 +196,8 @@ Defending the Rear Naked Choke from Rodeo Ride requires immediate recognition of
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Rear Naked Choke/from Rodeo#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "How to execute the Loop Choke from Side Control in BJJ. Attacking 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Loop Choke from Side Control targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from bilateral carotid artery compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -266,6 +264,8 @@ The Loop Choke from Side Control leverages the perpendicular body alignment to c
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Loop Choke/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

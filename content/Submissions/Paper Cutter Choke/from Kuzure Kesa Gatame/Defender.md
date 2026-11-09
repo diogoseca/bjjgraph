@@ -10,8 +10,6 @@ description: "Defensive guide for surviving and escaping the paper cutter choke 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Paper Cutter Choke from Kuzure Kesa Gatame targets the Carotid arteries (bilateral compression). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -154,6 +152,26 @@ description: "Defensive guide for surviving and escaping the paper cutter choke 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Escape from the Paper Cutter Choke",
+      "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Defender) film study: Escape from the Paper Cutter Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oUAtAggATDg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oUAtAggATDg",
+      "url": "https://www.youtube.com/watch?v=oUAtAggATDg",
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Paper Cutter Choke Defense with Armlock",
+      "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Defender) film study: Paper Cutter Choke Defense with Armlock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MIgIjgc4olg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MIgIjgc4olg?start=55",
+      "url": "https://www.youtube.com/watch?v=MIgIjgc4olg",
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Paper Cutter Choke Escape",
       "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Defender) film study: Paper Cutter Choke Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JSQ2Hc6KQbA/hqdefault.jpg",
@@ -163,7 +181,7 @@ description: "Defensive guide for surviving and escaping the paper cutter choke 
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 4,
       "name": "Paper Cutter Choke Escape",
       "description": "Paper Cutter Choke from Kuzure Kesa Gatame (Defender) film study: Paper Cutter Choke Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/iaHCShqMFvs/hqdefault.jpg",
@@ -195,6 +213,22 @@ Defending the paper cutter choke from kuzure kesa-gatame requires recognizing th
 
 <p class="section-subtitle">Watch Paper Cutter Choke from Kuzure Kesa Gatame (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oUAtAggATDg)
+
+<p class="clip-credit"><strong>Escape from the Paper Cutter Choke</strong> · 1:37 · <a href="https://www.youtube.com/watch?v=oUAtAggATDg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MIgIjgc4olg&start=55)
+
+<p class="clip-credit"><strong>Paper Cutter Choke Defense with Armlock</strong> · 2:23 · <a href="https://www.youtube.com/watch?v=MIgIjgc4olg&t=55s" rel="noopener">Watch on YouTube from 0:55</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -249,6 +283,8 @@ Defending the paper cutter choke from kuzure kesa-gatame requires recognizing th
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Paper Cutter Choke/from Kuzure Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

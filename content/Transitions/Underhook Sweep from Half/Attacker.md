@@ -299,7 +299,7 @@ The Underhook Sweep from Half Guard is a fundamental attacking technique that ex
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 65% |
 | Failure | [[Positions/Half Guard]] | 25% |
-| Counter | [[Positions/Half Guard]] | 10% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 10% |
 
 
 </section>
@@ -312,7 +312,7 @@ The Underhook Sweep from Half Guard is a fundamental attacking technique that ex
 
 - **Opponent whizzers your underhook arm, overhooking and controlling it tightly** (Effectiveness: High) - Your Response: Switch to Old School Sweep by posting on your free hand and kicking the trapped leg out, or transition to deep half guard where the whizzer becomes less effective → Leads to [[Positions/Half Guard]]
 - **Opponent posts their far leg out wide for base when they feel the sweep coming** (Effectiveness: Medium) - Your Response: Use your hip control grip to prevent the post, or switch to a back take by using the underhook to climb up their back as they defend the sweep → Leads to [[Positions/Half Guard]]
-- **Opponent flattens you out by driving their chest down and sprawling their hips back** (Effectiveness: High) - Your Response: Maintain underhook and transition to knee shield half guard or pump your half guard to create space for re-establishing angle and sweep opportunity → Leads to [[Positions/Half Guard]]
+- **Opponent flattens you out by driving their chest down and sprawling their hips back** (Effectiveness: High) - Your Response: Maintain underhook and transition to knee shield half guard or pump your half guard to create space for re-establishing angle and sweep opportunity → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Opponent grabs your pants or ankle to control your sweeping leg** (Effectiveness: Medium) - Your Response: Use your mobility to kick the leg free or switch to butterfly hook on the non-trapped side for alternative sweeping mechanics → Leads to [[Positions/Half Guard]]
 - **Opponent sits back and removes their weight before sweep completes** (Effectiveness: Low) - Your Response: Follow them up immediately using underhook to maintain connection, potentially transitioning to butterfly guard or single leg attack as they create distance → Leads to [[Positions/Half Guard]]
 
@@ -399,15 +399,6 @@ The underhook sweep is generally one of the safer techniques in Brazilian Jiu-Ji
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Half Guard: Recovering Closed Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Underhook Sweep from Half: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Tom DeBlass: The Lockdown Blueprint</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

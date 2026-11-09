@@ -30,7 +30,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Side Control/Bottom",
       "probability": {
         "gi": 10,
         "nogi": 10
@@ -162,7 +162,7 @@
         "counter": "Opponent drives forward aggressively and stacks your hips to neutralize angle",
         "effectiveness": "Medium",
         "your_response": "Use their forward momentum to reguard with overhook control or switch to Pendulum Sweep taking advantage of their committed weight distribution",
-        "targets_outcome": "Closed Guard/Top"
+        "targets_outcome": "Side Control/Bottom"
       },
       {
         "counter": "Opponent circles away from sweep direction to realign their base",
@@ -373,7 +373,25 @@
       }
     ],
     "safety_considerations": "When practicing the Muscle Sweep, ensure controlled execution to protect both partners. The person being swept should be prepared for backward rolling motion and know how to breakfall safely. Avoid slamming the opponent by following through smoothly to mount rather than releasing them during the sweep. For the bottom person, be cautious with grip strength on the collar to avoid neck strain - pull the collar down and across rather than purely downward. During training, start with slow controlled repetitions before adding explosive power. Partners should communicate clearly about resistance levels, especially during the learning phases. Be particularly careful when training this technique with significant size mismatches, as the smaller person may struggle with the explosive elements while the larger person may inadvertently use too much force. Always practice on proper matted surfaces to cushion any impacts.",
-    "clips": []
+    "clips": [
+      {
+        "id": "9pHYo_Sonpw",
+        "title": "The Muscle sweep #bjj #jiujitsu #brazilianjiujitsu #btt",
+        "channel": "Brazilian Top Team Happy Valley ",
+        "duration": 59,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "oD1WVLGgDXo",
+        "title": "How To Do The Muscle Sweep. First Day BJJ.",
+        "channel": "Brampton Brazilian Jiu Jitsu",
+        "duration": 122,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Muscle Sweep Defender",
@@ -409,8 +427,8 @@
       {
         "action": "Drive forward aggressively and stack the opponent's hips while widening your knees to neutralize their angle and reverse the pressure dynamic",
         "when_to_use": "When you recognize the hip angle being created but before the explosive phase - your forward pressure eliminates the space they need for the sweep",
-        "targets_outcome": "Closed Guard/Top",
-        "if_successful": "You flatten the opponent's angle, compress their guard, and may create guard opening opportunities from the stacking pressure",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You flatten the opponent's angle, compress their guard, and use the stacking pressure to open it and complete the pass to side control",
         "risk": "If timed poorly and the opponent has already loaded the sweep, your forward drive adds momentum to their sweep and accelerates the rollover"
       }
     ],
@@ -420,8 +438,8 @@
         "how": "Strip the opponent's collar grip early using two-on-one grip breaks, recover strong upright posture with head over hips, and widen your base to prevent the angle creation. Denying posture and grips forces the bottom player to abandon the sweep attempt entirely."
       },
       {
-        "outcome": "Closed Guard/Top",
-        "how": "Drive forward aggressively when you feel the hip angle being created, stacking the opponent's hips and flattening their angle. Use the forward pressure to begin guard opening sequences while the opponent is compressed and unable to maintain their attacking position."
+        "outcome": "Side Control/Bottom",
+        "how": "Drive forward aggressively when you feel the hip angle being created, stacking the opponent's hips and flattening their angle. Use the forward pressure to open the guard and complete the pass to side control while the opponent is compressed and unable to maintain their attacking position."
       }
     ],
     "common_errors": [
@@ -526,7 +544,17 @@
         "description": "Defend against Muscle Sweep attempts mixed with other closed guard attacks during live positional sparring. Partner uses full combinations including Hip Bump, Scissor Sweep, and submission threats. Focus on reading which attack is coming and selecting the appropriate defensive response from your complete toolkit."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "HRvNci4EU2c",
+        "title": "Closed Guard \"Muscle Sweep\" Counter",
+        "channel": "Satori BJJ",
+        "duration": 62,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

@@ -214,7 +214,7 @@
       {
         "step_number": 7,
         "action": "Apply progressive bilateral squeeze",
-        "description": "Expand your chest outward while simultaneously pulling both elbows back toward your own body. This creates bilateral compression on both carotid arteries without relying on arm strength. Maintain steady progressive pressure rather than pulsing or jerking. The opponent should feel mounting pressure that builds over 2-3 seconds, allowing them time to recognize the choke and tap. If they do not tap, maintain pressure until they signal or go limp, then release immediately.",
+        "description": "Expand your chest outward while simultaneously pulling both elbows back toward your own body. This creates bilateral compression on both carotid arteries without relying on arm strength. Maintain steady progressive pressure rather than pulsing or jerking. The opponent should feel mounting pressure that builds over 2-3 seconds, allowing them time to recognize the choke and tap. If they do not tap, maintain pressure until they signal, then release immediately.",
         "timing": "2-5 seconds to finish"
       }
     ],
@@ -655,6 +655,23 @@
       }
     ],
     "clips": [
+      {
+        "id": "kXvNLzTMVPk",
+        "title": "Rear Naked Choke to Escape",
+        "channel": "Applied Pressure MMA",
+        "duration": 46,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "R6W9P4_SMzY",
+        "title": "TMG Clips #67 - Escape The RNC",
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 103,
+        "vertical": false,
+        "verified": "2026-11-04"
+      },
       {
         "id": "ylLO80PM4zg",
         "title": "Rear naked choke escape",

@@ -827,7 +827,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "97sDVawCawk",
+        "title": "Reverse Half Guard (Immortal BJJ - Raleigh, N.C.)",
+        "channel": "ImmortalBJJNC",
+        "duration": 279,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "flashcards_position": [
     {

@@ -170,6 +170,37 @@ description: "How to execute Roll to Turtle in BJJ. Attacking perspective with s
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll to Turtle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "27.1- Side Control Escape Turtle position",
+      "description": "Roll to Turtle (Attacker) film study: 27.1- Side Control Escape Turtle position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2JqWevrJGmc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2JqWevrJGmc",
+      "url": "https://www.youtube.com/watch?v=2JqWevrJGmc",
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control escape to turtle",
+      "description": "Roll to Turtle (Attacker) film study: Side control escape to turtle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ecYTns1riDM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ecYTns1riDM",
+      "url": "https://www.youtube.com/watch?v=ecYTns1riDM",
+      "duration": "PT94S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +217,32 @@ Timing is critical for this technique - the roll must be explosive enough to cre
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll to Turtle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2JqWevrJGmc)
+
+<p class="clip-credit"><strong>27.1- Side Control Escape Turtle position</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=2JqWevrJGmc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ecYTns1riDM)
+
+<p class="clip-credit"><strong>Side control escape to turtle</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=ecYTns1riDM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

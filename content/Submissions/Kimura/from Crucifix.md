@@ -82,9 +82,6 @@ description: "Master the Kimura from Crucifix in BJJ. Learn how bilateral arm is
 <span class="meta-chip">39% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Crucifix targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Crucifix/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Strategically, the Kimura from Crucifix rewards patient practitioners who establ
 - Transition between choke threats and Kimura seamlessly—when the opponent defends the neck, the arm becomes exposed, creating a forced-choice dilemma
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -241,6 +240,8 @@ Strategically, the Kimura from Crucifix rewards patient practitioners who establ
 - Feeling the attacker's palm wrapping around the back of your wrist or forearm in the distinctive double-wrist Kimura grip
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -298,9 +299,8 @@ Strategically, the Kimura from Crucifix rewards patient practitioners who establ
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -310,31 +310,9 @@ Strategically, the Kimura from Crucifix rewards patient practitioners who establ
 | Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position by slowly externally rotating back to starting position
-3. Release the figure-four grip completely
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

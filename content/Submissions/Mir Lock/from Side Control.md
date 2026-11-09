@@ -36,6 +36,37 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mir Lock from Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "MMA Demo | Mir Lock From Side Control | Laura Sanko",
+      "description": "Mir Lock from Side Control film study: MMA Demo | Mir Lock From Side Control | Laura Sanko.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-Zq8zXCtIlg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-Zq8zXCtIlg?start=32",
+      "url": "https://www.youtube.com/watch?v=-Zq8zXCtIlg",
+      "duration": "PT179S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marcus Douithitt- arm bundle Mir lock from side control",
+      "description": "Mir Lock from Side Control film study: Marcus Douithitt- arm bundle Mir lock from side control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QeHT5SvHad8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QeHT5SvHad8",
+      "url": "https://www.youtube.com/watch?v=QeHT5SvHad8",
+      "duration": "PT235S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +92,6 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Mir Lock from Side Control targets the Shoulder joint (glenohumeral joint). Primary risk: Shoulder dislocation (anterior or posterior). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Mir Lock/from Side Control/Attacker|Play as Attacker]]
@@ -79,6 +107,32 @@ From dominant top side control, the Mir Lock weaponizes the same arm isolation t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mir Lock from Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-Zq8zXCtIlg&start=32)
+
+<p class="clip-credit"><strong>MMA Demo | Mir Lock From Side Control | Laura Sanko</strong> · 2:59 · <a href="https://www.youtube.com/watch?v=-Zq8zXCtIlg&t=32s" rel="noopener">Watch on YouTube from 0:32</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QeHT5SvHad8)
+
+<p class="clip-credit"><strong>Marcus Douithitt- arm bundle Mir lock from side control</strong> · 3:55 · <a href="https://www.youtube.com/watch?v=QeHT5SvHad8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -129,6 +183,8 @@ From dominant top side control, the Mir Lock weaponizes the same arm isolation t
 
 - Progress from control to submission only when positional dominance is absolute
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -204,6 +260,8 @@ From dominant top side control, the Mir Lock weaponizes the same arm isolation t
 - Attacker's weight drives forward through your shoulder while your arm is pinned at roughly 90 degrees from your body
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -278,9 +336,8 @@ From dominant top side control, the Mir Lock weaponizes the same arm isolation t
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -291,33 +348,9 @@ From dominant top side control, the Mir Lock weaponizes the same arm isolation t
 | Shoulder capsule damage | High | 3-6 months with potential chronic instability |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training
-
-**Tap Signals**:
-- Verbal tap or audible distress signal
-- Physical hand tap with free hand
-- Physical foot tap on mat or opponent
-- Any vocalization indicating pain or distress
-- Head shake or nodding motion if arms restricted
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release grip on the wrist and elbow control
-3. Allow the arm to return to neutral position naturally
-4. Do not pull or manipulate the arm after release
-5. Check with partner verbally before resuming
-6. Allow full recovery time if any discomfort reported
-
-
-**Training Restrictions**:
-- Never apply this submission at competition speed in training
-- Never jerk or spike the shoulder rotation
-- Always maintain verbal communication during drilling
-- Stop immediately if partner shows any hesitation to tap
-- Prohibited for white belts without direct supervision
-- Never practice on partners with existing shoulder injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

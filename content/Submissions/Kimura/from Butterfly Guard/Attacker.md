@@ -10,8 +10,6 @@ description: "Execute the Kimura from Butterfly Guard with precise grip mechanic
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Butterfly Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -302,6 +300,8 @@ Attacking the Kimura from Butterfly Guard requires coordinating upper body grip 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from Butterfly Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

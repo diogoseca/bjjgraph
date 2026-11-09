@@ -120,9 +120,6 @@ description: "Master the Baratoplata shoulder lock in BJJ. Advanced submission f
 <span class="meta-chip">~42% avg</span>
 </div>
 
-> [!danger] Safety
-> Baratoplata targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Baratoplata is an advanced shoulder lock submission that originated from the 10th Planet Jiu-Jitsu system, combining elements of the omoplata with unique arm isolation mechanics. This technique is typically initiated from rubber guard positions, particularly Mission Control or New York, and represents a sophisticated understanding of shoulder manipulation and control. The submission works by trapping the opponent's arm while rotating their shoulder beyond its natural range of motion, creating intense pressure on the rotator cuff and shoulder capsule. Unlike traditional omoplatas that focus primarily on forward shoulder rotation, the Baratoplata incorporates a unique arm weave that increases the mechanical advantage and makes escape more difficult.
@@ -222,9 +219,8 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -234,32 +230,9 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 | Shoulder dislocation | CRITICAL | 8-12 weeks minimum, potential for chronic instability |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time, shoulder submissions require exceptional care
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on partner or mat
-- Physical foot tap on partner or mat
-- Any distress signal or vocalization
-- Rapid tapping motion with free hand
 
 
-**Release Protocol**:
-1. Immediately stop all forward pressure on shoulder
-2. Release arm weave and unwrap controlling leg
-3. Remove high guard position and lower hips
-4. Allow partner to safely extract their arm
-5. Check for shoulder mobility and comfort before continuing training
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking motions to shoulder submissions
-- Never use competition speed during training rolls
-- Always ensure training partner has clear tap access with free hand
-- Never force the position if partner has limited shoulder flexibility
-- Stop immediately upon any tap signal, do not wait for verbal confirmation
-- Beginners should only practice entry mechanics, not finishing pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

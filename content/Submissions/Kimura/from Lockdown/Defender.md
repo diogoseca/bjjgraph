@@ -10,8 +10,6 @@ description: "Defend against the Kimura from Lockdown half guard in BJJ. Recogni
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Lockdown targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -144,6 +142,27 @@ description: "Defend against the Kimura from Lockdown half guard in BJJ. Recogni
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Lockdown (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura Counter From Top Half Guard To Armlock",
+      "description": "Kimura from Lockdown (Defender) film study: Kimura Counter From Top Half Guard To Armlock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/urKU1BKZNXA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/urKU1BKZNXA?start=21",
+      "url": "https://www.youtube.com/watch?v=urKU1BKZNXA",
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -157,6 +176,24 @@ Defending the Kimura from Lockdown requires addressing both the shoulder lock th
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Lockdown (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=urKU1BKZNXA&start=21)
+
+<p class="clip-credit"><strong>Kimura Counter From Top Half Guard To Armlock</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=urKU1BKZNXA&t=21s" rel="noopener">Watch on YouTube from 0:21</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -191,6 +228,8 @@ Defending the Kimura from Lockdown requires addressing both the shoulder lock th
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kimura/from Lockdown#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

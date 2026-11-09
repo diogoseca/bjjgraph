@@ -85,7 +85,13 @@ for (const path of [
       const doc = new DOMParser().parseFromString(await response.text(), "text/html")
       const source = doc.querySelector("article")!
       const normalized = (s: string) => s.replace(/Play as /g, "Read as ").replace(/\s+/g, " ").trim()
-      const prose = [...source.querySelectorAll("p,li,h2,h3,h4,td,th,aside")].map(n => normalized(n.textContent || "")).filter(s => s.length > 0)
+      // U65 note (owner, 2026-10-29) retires only the duplicate game video credits. Reference
+      // players and credits remain; every other published block still belongs in the reader.
+      const reference = /^\/(Principles|Learning|Systems)\//.test(path)
+      // A position's relations are tiles and its How it works is cut at a sentence end (U101 b), so its text is compared sentence
+      // by sentence; the template's wikilink inside raw HTML prints as its name.
+      const position = /^\/Positions\//.test(path)
+      const prose = [...source.querySelectorAll(position ? "p,li,h2,h3,h4,td,th" : "p,li,h2,h3,h4,td,th,aside")].filter(n => reference || !n.closest('#film-study,#official-preview')).flatMap(n => { const t = normalized(n.textContent || "").replace(/\[\[.*?\|(.*?)]]/, "$1"); return position ? t.split(/(?<=[.!?])\s+(?=[A-Z])/) : [t] }).filter(s => s.length > 0)
       const shown = normalized([...document.querySelectorAll('[data-reader-article="guide"]')].map(e => e.textContent).join(" "))
       const a = (window as any).__neural
       return { status: response.status, prose: prose.length, missing: prose.filter(s => !shown.includes(s)),
@@ -106,7 +112,8 @@ test("@curated role reading retains hub safety and never creates duplicate IDs",
   await j.boot("/Submissions/Rear-Naked-Choke/from-Back-Control/Defender", { initialState: readingState })
   await j.advance(5000)
   await expect(page.locator(READER)).toBeVisible()
-  expect(await page.locator('[data-reader-article="hub"]').allTextContents()).toEqual(expect.arrayContaining([expect.stringMatching(/Safety/)]))
+  // U113 b (owner, 2026-11-09): the hub's guide is "Injury risks" now, its table then the closing line (U112 a).
+  expect(await page.locator('[data-reader-article="hub"]').allTextContents()).toEqual(expect.arrayContaining([expect.stringMatching(/Injury risks[\s\S]*Go slow\./)]))
   const ids = await page.locator("[id]").evaluateAll(nodes => nodes.map(n => n.id))
   const readerIds = ids.filter(id => id.startsWith("reader-"))
   expect(readerIds.length).toBeGreaterThan(5)
@@ -210,7 +217,7 @@ test("@curated a slower article never replaces a later Browse selection in the s
   }), { message: "Browse hydration finishes before measuring the Mount row" }).toBe(true)
   await expect(page.locator("[data-alias-status], [data-systems-status]")).toHaveCount(0)
   await j.clickByMouse('div:has(> [data-list-surface="explore"][data-list-add="Positions/Mount"]) > button:first-child')
-  await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Positions/Mount")
+  await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Positions/Mount/Top")
   expect(await page.evaluate(() => (window as any).__racingReader === (window as any).__neural._reader), "both navigations use the same live reader").toBe(true)
   release()
   await expect.poll(() => settled).toBe(true)
@@ -219,7 +226,7 @@ test("@curated a slower article never replaces a later Browse selection in the s
     if (!done) throw new Error("The held Defender article must have a real reader operation")
     await done
   })
-  await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Positions/Mount")
+  await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Positions/Mount/Top")
   expect(await page.locator('[data-reader-article="guide"]').evaluateAll(es => [...new Set(es.map(e => e.getAttribute("data-source-path")))])).toEqual(["/Positions/Mount/Top"])
 })
 

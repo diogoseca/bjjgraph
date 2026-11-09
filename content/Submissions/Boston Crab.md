@@ -120,9 +120,6 @@ description: "Master Boston Crab submission in BJJ. Complete guide covering setu
 <span class="meta-chip">~42% avg</span>
 </div>
 
-> [!danger] Safety
-> Boston Crab targets the Lumbar spine and hip flexors. Primary risk: Lumbar spine strain or disc herniation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Boston Crab is a compression submission that targets the opponent's lumbar spine and hip flexors by creating extreme hyperextension of the lower back. Originating from catch wrestling and professional wrestling, this technique has limited application in modern sport BJJ due to rule restrictions in many competition formats, but remains valuable for understanding spinal mechanics and no-gi scenarios where it can create legitimate finishing pressure. The submission works by controlling both of the opponent's legs, typically from turtle or back control positions, then sitting back to create a bridge-like arch in the opponent's spine. The effectiveness comes from the combination of hip flexor strain, lower back compression, and the opponent's inability to effectively defend while both legs are controlled. This technique requires careful application due to the significant spinal stress involved and is most commonly seen in catch wrestling competitions or MMA scenarios where back control is established but traditional chokes are defended. Understanding the Boston Crab provides insight into compression-based submission mechanics and the importance of protecting your lower back when opponent has leg control from behind.
@@ -221,9 +218,8 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -233,32 +229,9 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 | Knee ligament stress from leg control | Medium | 3-6 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression to finishing position
-
-**Tap Signals**:
-- Verbal tap (critical as hands may be trapped)
-- Repeated hand tap on mat or opponent
-- Foot tap on mat
-- Any vocal distress signal
-- Frantic movement or panic signals
 
 
-**Release Protocol**:
-1. Immediately release leg grips and sit forward
-2. Lower opponent's hips gently back to mat
-3. Allow opponent to flatten out completely before moving
-4. Check opponent's condition and allow recovery time
-5. Never release explosively or drop opponent
-
-
-**Training Restrictions**:
-- Never apply sudden or explosive pressure to the spine
-- Never use competition speed in training
-- Never bridge higher once opponent shows discomfort
-- Always ensure training partner can verbally tap
-- Prohibited in many IBJJF competitions - verify rule compliance
-- Never apply to training partners with known back issues
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

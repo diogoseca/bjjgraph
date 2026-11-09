@@ -46,32 +46,12 @@ description: "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from fai
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "\ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
-      "description": "Rolling Omoplata from Omoplata Control film study: \ud83d\udcaf BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
-      "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to escape the omoplata when it\u2019s already in and he\u2019s ready to break your\u2026",
-      "description": "Rolling Omoplata from Omoplata Control film study: How to escape the omoplata when it\u2019s already in and he\u2019s ready to break your\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jKdERMTQqPY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jKdERMTQqPY",
-      "url": "https://www.youtube.com/watch?v=jKdERMTQqPY",
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Early Omoplata Escape - Opposite Shoulder Roll",
-      "description": "Rolling Omoplata from Omoplata Control film study: Early Omoplata Escape - Opposite Shoulder Roll.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YsSrfDmrVjs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YsSrfDmrVjs",
-      "url": "https://www.youtube.com/watch?v=YsSrfDmrVjs",
-      "duration": "PT43S"
+      "name": "Lasso Guard: Rolling Omoplata Entry",
+      "description": "Rolling Omoplata from Omoplata Control film study: Lasso Guard: Rolling Omoplata Entry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3-sSkw3fdsQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3-sSkw3fdsQ",
+      "url": "https://www.youtube.com/watch?v=3-sSkw3fdsQ",
+      "duration": "PT78S"
     }
   ]
 }
@@ -102,9 +82,6 @@ description: "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from fai
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Rolling Omoplata from Omoplata Control targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control/Attacker|Play as Attacker]]
@@ -132,25 +109,9 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
+![](https://www.youtube.com/watch?v=3-sSkw3fdsQ)
 
-<p class="clip-credit"><strong>💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jKdERMTQqPY)
-
-<p class="clip-credit"><strong>How to escape the omoplata when it’s already in and he’s ready to break your…</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=jKdERMTQqPY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=YsSrfDmrVjs)
-
-<p class="clip-credit"><strong>Early Omoplata Escape - Opposite Shoulder Roll</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=YsSrfDmrVjs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lasso Guard: Rolling Omoplata Entry</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=3-sSkw3fdsQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -206,6 +167,8 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 - Exit awareness - always have a plan to transition if the submission fails
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -276,6 +239,8 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 - Your arm is extended and opponent's hips are approaching perpendicular alignment to your spine after a rolling motion
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -357,9 +322,8 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -369,44 +333,12 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 | AC joint separation | Medium | 4-8 weeks |
 
 
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum in training with gradual pressure increase
-
-**Tap Signals**:
-- Verbal tap (most important during rolls)
-- Physical hand tap on body or mat
-- Physical foot tap on mat
-- Any distress vocalization
-- Frantically tapping with free hand
 
 
-**Release Protocol**:
-1. Immediately stop all forward rolling motion
-2. Release leg pressure on shoulder and head
-3. Remove leg triangle if locked
-4. Extend hips backward to create space
-5. Allow partner to safely extract their arm
-6. Check partner's shoulder mobility before continuing
-
-
-**Training Restrictions**:
-- Never complete the roll at full speed in training
-- Never apply sudden jerking or explosive pressure
-- Always allow partner to tap before locking the position
-- Never practice on partners with known shoulder injuries
-- Always telegraph the technique during flow rolling
-- Never combine with neck cranking or cervical spine pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Rubber Guard and Triangle Attacks</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related submission reference; inclusion here does not establish course coverage.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

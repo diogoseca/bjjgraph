@@ -10,8 +10,6 @@ description: "Master attacking the armbar from knee on belly. Step-by-step execu
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Knee on Belly targets the Shoulder and elbow joint. Risk: Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and medial structures. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -276,6 +274,8 @@ Attacking the armbar from knee on belly requires converting the opponent's natur
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Armbar/from Knee on Belly#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

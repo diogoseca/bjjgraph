@@ -256,7 +256,7 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 |--------|----------|-------------|
 | Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 65% |
 | Failure | [[Positions/X-Guard]] | 25% |
-| Counter | [[Positions/X-Guard]] | 10% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -271,7 +271,7 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 - **Opponent steps over your bottom leg to prevent inside position establishment** (Effectiveness: High) - Your Response: If they successfully step over, immediately switch to outside Ashi Garami configuration or transition to single leg X-Guard. Alternatively, use their step-over movement to enter into a deep half guard position or kiss of the dragon back take. → Leads to [[Positions/X-Guard]]
 - **Opponent drops their weight forward, smashing into you during transition** (Effectiveness: Medium) - Your Response: Accept the forward pressure by going to your back while maintaining leg entanglement. Transition to a supine Ashi position or 50-50 guard configuration. Use the forward pressure to facilitate heel exposure and grip security. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **Opponent clears their trapped leg's knee line by limp-legging out** (Effectiveness: Low) - Your Response: Anticipate the limp leg escape by pre-emptively tightening your top hook and following their leg's movement. Maintain heel control throughout and adjust your angle to stay perpendicular to their hip. If necessary, transition to straight ankle lock position. → Leads to [[Positions/X-Guard]]
-- **Opponent turns away toward their trapped leg side** (Effectiveness: High) - Your Response: Your inside leg position is specifically designed to prevent this rotation. If they begin turning, drive your inside knee harder into their far hip and use your heel control to pull their leg back toward centerline. If rotation continues, follow them into outside Ashi or saddle position. → Leads to [[Positions/X-Guard]]
+- **Opponent turns away toward their trapped leg side** (Effectiveness: High) - Your Response: Your inside leg position is specifically designed to prevent this rotation. If they begin turning, drive your inside knee harder into their far hip and use your heel control to pull their leg back toward centerline. If they complete the escape and free the leg, release the entanglement and retain guard from open guard. → Leads to [[Positions/Open Guard]]
 
 
 </section>
@@ -356,16 +356,6 @@ This transition enters leg entanglement territory where submissions can occur ra
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Leglocks — Enter The System</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Straight Ankle Locks and Kneebars</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

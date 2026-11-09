@@ -10,8 +10,6 @@ description: "Recognize Invisible Collar Choke and interrupt its required connec
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Invisible Collar Choke targets the Neck. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -182,6 +180,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Invisible Collar Choke#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

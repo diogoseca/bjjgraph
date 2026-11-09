@@ -509,7 +509,25 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "1ymee3gku_8",
+        "title": "Create Massive Pressure in S Mount With These Fundamental Tips",
+        "channel": "Chewjitsu",
+        "duration": 415,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "deKLnJCOKHQ",
+        "title": "Iceland Camp 2020: S-Mount with Bjarni Baldursson",
+        "channel": "BJJ Globetrotters in Action",
+        "duration": 1800,
+        "vertical": false,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "bottom": {
     "name": "S Mount Bottom",

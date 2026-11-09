@@ -120,9 +120,6 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
 <span class="meta-chip">~45% avg</span>
 </div>
 
-> [!danger] Safety
-> Tarikoplata targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 Named after its innovator Tarik Hopstock, who showcased it across modern no-gi competition, the Tarikoplata evolved from the traditional omoplata by adding a second lever through wrist manipulation. The submission works by trapping the opponent's arm in an omoplata configuration while simultaneously controlling and twisting their wrist, creating a compound lock that attacks both the shoulder joint and rotator cuff. This technique is particularly effective when the opponent attempts to defend the traditional omoplata by posturing or rolling, as the added wrist control prevents these common escape routes. The Tarikoplata has gained significant traction in modern no-gi grappling and is a staple of innovative guard systems, particularly within the 10th Planet Jiu-Jitsu methodology. The submission requires excellent hip mobility, precise timing, and thorough understanding of omoplata mechanics before attempting the wrist control variation.
@@ -222,9 +219,8 @@ Named after its innovator Tarik Hopstock, who showcased it across modern no-gi c
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -234,32 +230,9 @@ Named after its innovator Tarik Hopstock, who showcased it across modern no-gi c
 | Labrum tear (glenoid labrum) | CRITICAL | 4-6 months post-surgery, career-threatening |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (primary)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any verbal distress signal
-- Frantic movement or panic response
 
 
-**Release Protocol**:
-1. Immediately release wrist grip upon tap signal
-2. Remove leg from over opponent's shoulder smoothly
-3. Release hip pressure gradually
-4. Allow opponent to extract arm naturally without resistance
-5. Check for injury before continuing training
-
-
-**Training Restrictions**:
-- Never use competition speed in training
-- Never spike or jerk the submission - apply progressive pressure only
-- Always allow tap access - opponent must have free hand available
-- Restrict to advanced practitioners only (minimum purple belt recommended)
-- Avoid practicing on training partners with existing shoulder injuries
-- Never combine with explosive movements or sudden adjustments
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

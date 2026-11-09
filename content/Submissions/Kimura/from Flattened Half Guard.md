@@ -46,6 +46,26 @@ description: "Master the Kimura shoulder lock from flattened half guard top. Exp
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "kimura from top half guard",
+      "description": "Kimura from Flattened Half Guard film study: kimura from top half guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E2eGqpQOmd8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E2eGqpQOmd8",
+      "url": "https://www.youtube.com/watch?v=E2eGqpQOmd8",
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura from top half guard",
+      "description": "Kimura from Flattened Half Guard film study: Kimura from top half guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0bDeYhoETD4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0bDeYhoETD4?start=52",
+      "url": "https://www.youtube.com/watch?v=0bDeYhoETD4",
+      "duration": "PT223S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Very Effective Kimura from Reverse Half Guard!",
       "description": "Kimura from Flattened Half Guard film study: Very Effective Kimura from Reverse Half Guard!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WS4OuwGvi9Y/hqdefault.jpg",
@@ -82,9 +102,6 @@ description: "Master the Kimura shoulder lock from flattened half guard top. Exp
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Flattened Half Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Flattened Half Guard/Attacker|Play as Attacker]]
@@ -111,6 +128,22 @@ The finishing mechanics differ from standard Kimura applications because the fla
 
 <p class="section-subtitle">Watch Kimura from Flattened Half Guard in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E2eGqpQOmd8)
+
+<p class="clip-credit"><strong>kimura from top half guard</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=E2eGqpQOmd8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0bDeYhoETD4&start=52)
+
+<p class="clip-credit"><strong>Kimura from top half guard</strong> · 3:43 · <a href="https://www.youtube.com/watch?v=0bDeYhoETD4&t=52s" rel="noopener">Watch on YouTube from 0:52</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -170,6 +203,8 @@ The finishing mechanics differ from standard Kimura applications because the fla
 
 - Treat the Kimura grip as a positional control tool first and submission second — the threat alone can create passing opportunities
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -241,6 +276,8 @@ The finishing mechanics differ from standard Kimura applications because the fla
 - Your arm is isolated with your elbow away from your ribcage — any arm position where your elbow is more than six inches from your body is vulnerable to Kimura capture from this position
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -282,9 +319,8 @@ The finishing mechanics differ from standard Kimura applications because the fla
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -294,31 +330,9 @@ The finishing mechanics differ from standard Kimura applications because the fla
 | Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position (externally rotate back to starting position)
-3. Release the figure-four grip completely
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

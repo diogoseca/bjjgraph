@@ -294,7 +294,7 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 62% |
 | Failure | [[Positions/Closed Guard]] | 23% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Triangle Control]] | 15% |
 
 
 </section>
@@ -306,10 +306,10 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 <p class="section-subtitle">How might your opponent counter Stack Pass?</p>
 
 - **Hip escape and shrimp away to create space before full stack is established** (Effectiveness: Medium) - Your Response: Follow their hips with your weight and maintain constant forward pressure. Do not allow any distance to develop between your chest and their legs. Keep your base wide and walk your feet forward as they shrimp to stay connected. → Leads to [[Positions/Closed Guard]]
-- **Guillotine choke attempt as you drive forward into the stack** (Effectiveness: High) - Your Response: Keep your head positioned to the side with chin tucked throughout the forward drive. Maintain your head below their chest line on the passing side. If caught, immediately posture up, strip the choking grip with both hands, and re-establish your passing grips before resuming the stack. → Leads to [[Positions/Closed Guard]]
+- **Guillotine threat as you drive forward into the stack, then a locked triangle on the arm you leave inside their guard** (Effectiveness: High) - Your Response: Keep your head positioned to the side with chin tucked throughout the forward drive. Maintain your head below their chest line on the passing side. Strip any choking grip with both hands without leaving one arm inside their guard. If the triangle locks, you stay on top but trapped in it, so free your head before resuming the stack. → Leads to [[Positions/Triangle Control]]
 - **Granby roll or inversion to recover guard from the stacked position** (Effectiveness: Medium) - Your Response: Maintain tight leg control and follow their rolling momentum rather than fighting it. Use their inversion to advance past their legs and secure side control or back control. Do not release your grips during their roll. → Leads to [[Positions/Closed Guard]]
 - **Stiff-arm frames on your hips or shoulders to prevent forward pressure** (Effectiveness: Low) - Your Response: Drive through their frames by keeping your hips low and transferring weight forward through your center of gravity. Use your grips to pull their legs higher toward their face, which negates the mechanical advantage of their arm frames by compressing their structure. → Leads to [[Positions/Closed Guard]]
-- **Triangle choke attempt by controlling one arm and locking legs from the stacked position** (Effectiveness: Medium) - Your Response: Keep both arms either inside their legs or posted wide on the mat. Never allow them to isolate one arm inside and one outside their guard simultaneously. If they begin to close the triangle, stack even harder and use the pressure to strip their ankle lock and free your head. → Leads to [[Positions/Closed Guard]]
+- **Triangle choke attempt by controlling one arm and locking legs from the stacked position** (Effectiveness: Medium) - Your Response: Keep both arms either inside their legs or posted wide on the mat. Never allow them to isolate one arm inside and one outside their guard simultaneously. If they begin to close the triangle, stack even harder and use the pressure to strip their ankle lock and free your head. → Leads to [[Positions/Triangle Control]]
 
 
 </section>
@@ -394,14 +394,6 @@ The stack pass places significant pressure on the opponent's neck, cervical spin
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference: Stack Pass.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

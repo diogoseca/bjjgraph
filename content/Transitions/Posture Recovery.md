@@ -123,7 +123,7 @@ When executed properly, posture recovery neutralizes the guard player's attacks 
 |--------|----------|-------------|
 | Success | [[Positions/Combat Base]] | 75% |
 | Failure | [[Positions/Closed Guard]] | 15% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -241,9 +241,9 @@ When executed properly, posture recovery neutralizes the guard player's attacks 
 
 - **Reinforce collar grip and increase heel drive into lower back to resist recovery force** - When: When you feel the opponent beginning to spread their knees and shift weight backward in early recovery setup
 
-- **Transition to armbar by pivoting hips and controlling the near arm as opponent extends during frame establishment** - When: When opponent pushes hands to your hips or biceps with arms extended, creating arm isolation opportunity during recovery framing
+- **Threaten the armbar by pivoting hips and controlling the near arm as opponent extends during frame establishment, then hip bump them over as their weight shifts back** - When: When opponent pushes hands to your hips or biceps with arms extended, creating arm isolation opportunity during recovery framing
 
-- **Shoot triangle by controlling one arm and elevating hips as opponent drives backward, trapping head and arm** - When: When opponent's recovery movement creates an asymmetric arm position with one arm inside and one outside your guard frame
+- **Threaten the triangle by controlling one arm and elevating hips as opponent drives backward, then hip bump them over as their weight shifts back** - When: When opponent's recovery movement creates an asymmetric arm position with one arm inside and one outside your guard frame
 
 
 </section>

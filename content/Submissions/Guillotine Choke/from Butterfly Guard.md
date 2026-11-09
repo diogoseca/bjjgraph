@@ -82,9 +82,6 @@ description: "Master the Guillotine Choke from Butterfly Guard. Learn hook eleva
 <span class="meta-chip">23% success</span>
 </div>
 
-> [!danger] Safety
-> Guillotine Choke from Butterfly Guard targets the Carotid arteries and windpipe. Primary risk: Trachea damage or crush injury. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Guillotine Choke/from Butterfly Guard/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 - Time the guillotine entry with the opponent's forward pressure or failed pass attempt for maximum head exposure
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -239,6 +238,8 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 - Grip tightening sensation around your neck combined with the opponent curling their upper body around your head and pulling elbows inward
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -303,9 +304,8 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -315,30 +315,9 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 | Unconsciousness from blood choke | High | Immediate recovery but requires medical monitoring |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time. Never snap or jerk the submission
-
-**Tap Signals**:
-- Verbal tap or any vocal sound
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any distress signal or loss of resistance
 
 
-**Release Protocol**:
-1. Immediately release choking arm pressure
-2. Remove arm from around opponent's neck
-3. Help opponent to seated position if unconscious
-4. Monitor breathing and consciousness
-5. Call for medical assistance if partner does not immediately recover
-
-
-**Training Restrictions**:
-- Never use competition speed in training
-- Always allow clear tap access for both arms
-- Stop immediately at any sign of distress
-- Avoid cranking or using neck hyperextension as a finishing mechanic
-- Never practice on training partners with existing neck injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

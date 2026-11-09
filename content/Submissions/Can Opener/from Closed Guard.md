@@ -46,6 +46,16 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Can Opener To Break The Closed Guard With GI",
+      "description": "Can Opener from Closed Guard film study: Can Opener To Break The Closed Guard With GI.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TuVqCxWxI0w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TuVqCxWxI0w?start=39",
+      "url": "https://www.youtube.com/watch?v=TuVqCxWxI0w",
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Cervical Choke\"Can Opener\" \u0026 defense",
       "description": "Can Opener from Closed Guard film study: Cervical Choke\"Can Opener\" \u0026 defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FGPGkKnY_Mg/hqdefault.jpg",
@@ -55,7 +65,7 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "How to Do a Can Opener   MMA Submissions",
       "description": "Can Opener from Closed Guard film study: How to Do a Can Opener   MMA Submissions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_-NGlUCnHy0/hqdefault.jpg",
@@ -92,9 +102,6 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
 <span class="meta-chip">30% success</span>
 </div>
 
-> [!danger] Safety
-> Can Opener from Closed Guard targets the Cervical spine and neck muscles. Primary risk: Cervical spine compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Can Opener/from Closed Guard/Attacker|Play as Attacker]]
@@ -117,6 +124,14 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <p class="section-subtitle">Watch Can Opener from Closed Guard in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TuVqCxWxI0w&start=39)
+
+<p class="clip-credit"><strong>Can Opener To Break The Closed Guard With GI</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=TuVqCxWxI0w&t=39s" rel="noopener">Watch on YouTube from 0:39</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -186,6 +201,8 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 - Understanding this technique defensively prevents being caught by less experienced or unethical opponents
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -259,6 +276,8 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 - You feel increasing forward flexion pressure on your cervical spine that you cannot relieve through normal guard adjustments or hip movement
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -326,9 +345,8 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -338,34 +356,9 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 | Cervical ligament damage | High | 6-12 weeks |
 
 
-**Application Speed**: SHOULD NOT BE APPLIED - This technique is banned in most competitions and carries unacceptable injury risk. If demonstrated for educational purposes only: EXTREMELY SLOW - 7-10 seconds minimum with constant partner communication
-
-**Tap Signals**:
-- Verbal tap (primary due to restricted movement)
-- Physical hand tap on opponent's body
-- Physical foot tap on ground
-- Any distress signal including verbal stop command
-- Immediate cessation if partner shows any neck pain signs
 
 
-**Release Protocol**:
-1. Immediately remove all pressure from neck by releasing hand clasp
-2. Simultaneously posture upward to remove forearm pressure from throat
-3. Allow partner to slowly extend neck naturally without assistance
-4. Check for neck pain, dizziness, or numbness before continuing
-5. Wait minimum 2-3 minutes before resuming any activity
-6. If any pain persists beyond 5 minutes, stop training and seek medical evaluation
-
-
-**Training Restrictions**:
-- NEVER apply this technique in live training or competition where banned
-- NEVER use this as a primary guard-breaking method - safer alternatives exist
-- NEVER apply to training partners with pre-existing neck injuries
-- NEVER apply sudden or jerking pressure to the neck
-- NEVER continue pressure after partner indicates discomfort
-- Only demonstrate with cooperative partner for educational awareness
-- Always prioritize learning legal and safer guard-breaking alternatives
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -47,17 +47,6 @@ description: "The Suloev Stretch from a rear tripod captures the elevated oppone
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee Bars (Suloev Stretch)",
-      "description": "Suloev Stretch from Half Guard film study: Knee Bars (Suloev Stretch), taught by Josh Cisneros.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FrwS6dX2ydk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FrwS6dX2ydk",
-      "url": "https://www.youtube.com/watch?v=FrwS6dX2ydk",
-      "creator": { "@type": "Person", "name": "Josh Cisneros" },
-      "duration": "PT13S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "The Suloev Stretch submission for BJJ and MMA",
       "description": "Suloev Stretch from Half Guard film study: The Suloev Stretch submission for BJJ and MMA, taught by Sonny Brown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kwS4-kslujQ/hqdefault.jpg",
@@ -95,9 +84,6 @@ description: "The Suloev Stretch from a rear tripod captures the elevated oppone
 <span class="meta-chip">35% success</span>
 </div>
 
-> [!danger] Safety
-> Suloev Stretch from Half Guard targets the Hamstring and posterior hip; knee at risk if the leg is twisted. Primary risk: Hamstring or tendon injury from forced extension. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Suloev Stretch from Rear Tripod</strong></p>
 </aside>
@@ -129,14 +115,6 @@ Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submiss
 
 <p class="section-subtitle">Watch Suloev Stretch from Half Guard in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FrwS6dX2ydk)
-
-<p class="clip-credit"><strong>Knee Bars (Suloev Stretch)</strong> — taught by Josh Cisneros · 0:13 · <a href="https://www.youtube.com/watch?v=FrwS6dX2ydk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 
@@ -196,6 +174,8 @@ Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submiss
 
 - Release and support the landing: Let the ankle go immediately on a tap and help the partner return to a stable base.
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -263,6 +243,8 @@ Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submiss
 - The attacker arranges your leg so it extends in its natural line rather than rotating sideways at the knee.
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -309,9 +291,8 @@ Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submiss
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -319,25 +300,9 @@ Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submiss
 | Knee injury from sideways rotation of a captured leg | High | Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms. |
 
 
-**Application Speed**: Use a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed. No fixed number of seconds makes a locked submission safe.
-
-**Tap Signals**:
-- Repeated hand taps anywhere the partner can feel them
-- A clear verbal tap or stop, including when the hands are trapped
-- Foot taps or any agreed stop signal; release immediately if normal responsiveness changes
 
 
-**Release Protocol**:
-1. Open the finishing grip immediately at the first signal; do not wait for repeated confirmation
-2. Remove the leg, arm or body restraint without forcing the captured joint or neck through another movement
-3. Check the partner can respond normally and allow a safe reset; end practice and obtain help if there is an injury or concerning symptom
-
-
-**Training Restrictions**:
-- Start with supervised, cooperative control-and-release drilling rather than a loaded finish
-- Check the event's current rules for the specific age, experience and clothing division before live use
-- Use a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

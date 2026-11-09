@@ -60,9 +60,12 @@ test("the selected half owns films before and after the land slot is cleared", (
   a._stagedTech = null;
   assert.deepEqual(a._landFilmClips(defender, info), [{ id: "escape" }], "live catches use the same fixed half");
   info.perspectives.defender.clips = [];
-  assert.equal(a._landFilmClips(defender, info), null, "no empty strip and no fallback to attacker clips");
+  // U104 (owner, 2026-11-06, reversing D-297a's "no placeholder"): "When it's not available, it should say it's not available."
+  // Once the dossier has answered, an empty or unauthored half is an empty reel, which the card announces (U109 b asks for a
+  // video); it is still never the attacker's film.
+  assert.deepEqual(a._landFilmClips(defender, info), [], "an empty reel, and no fallback to attacker clips");
   delete info.perspectives.defender;
-  assert.equal(a._landFilmClips(defender, info), null, "unauthored defender blocks cannot inherit attacker film");
+  assert.deepEqual(a._landFilmClips(defender, info), [], "unauthored defender blocks cannot inherit attacker film");
   console.log("# defending films: 9 assertions");
 });
 

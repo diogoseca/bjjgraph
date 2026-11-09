@@ -32,7 +32,7 @@
       "result": "failure"
     },
     {
-      "to": "Deep Half Guard/Bottom",
+      "to": "Deep Half Guard/Top",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -181,7 +181,7 @@
         "counter": "Opponent shrimps away and transitions to deep half guard",
         "effectiveness": "Medium",
         "your_response": "Immediately backstep to address deep half position before they complete entry, stay mobile and prevent them from getting underneath your hips",
-        "targets_outcome": "Deep Half Guard/Bottom"
+        "targets_outcome": "Deep Half Guard/Top"
       }
     ],
     "common_errors": [
@@ -440,7 +440,7 @@
       {
         "action": "Release lockdown and transition to deep half guard by sliding underneath opponent's hips",
         "when_to_use": "When lockdown is clearly failing and opponent has created sufficient angle change that retention is no longer viable",
-        "targets_outcome": "Deep Half Guard/Bottom",
+        "targets_outcome": "Deep Half Guard/Top",
         "if_successful": "You establish deep half guard with underhook of their far leg, maintaining an offensive guard position with sweep opportunities",
         "risk": "If transition is too slow, opponent completes extraction and establishes combat base before you can secure deep half grips"
       },
@@ -458,7 +458,7 @@
         "how": "Maintain lockdown tension by keeping ankles tightly crossed and constantly pulling opponent's heel toward your hip. When you feel them begin extraction, immediately extend the lockdown while simultaneously fighting for the underhook. Attack with whip-up or Old School sweep when their base is compromised by the extraction attempt. The goal is either to retain lockdown or use their extraction attempt as a launching pad for a sweep."
       },
       {
-        "outcome": "Deep Half Guard/Bottom",
+        "outcome": "Deep Half Guard/Top",
         "how": "When lockdown retention becomes impossible because opponent has created too much angle change, proactively release the figure-four and immediately slide your body underneath their hips before they can establish combat base. Secure a deep underhook on their far leg with your shoulder wedged against their inner thigh. This transition must be fast and decisive—any hesitation allows them to complete extraction and begin passing."
       }
     ],

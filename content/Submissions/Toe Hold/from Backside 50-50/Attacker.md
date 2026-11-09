@@ -10,8 +10,6 @@ description: "Attack the toe hold from Backside 50-50 with precision. Step-by-st
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Backside 50-50 targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking the toe hold from Backside 50-50 leverages your dominant knee-line and
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Toe Hold/from Backside 50-50#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

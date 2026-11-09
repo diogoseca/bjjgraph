@@ -443,6 +443,15 @@
     ],
     "clips": [
       {
+        "id": "g-e2ZrNsoNQ",
+        "title": "Set up Kimura from Side control",
+        "channel": "Heiho Dojo",
+        "duration": 61,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
         "id": "M-xjYAPgKVU",
         "title": "Kimura/Armbar from side control | BJJ submissions",
         "channel": "BJJ Recap",
@@ -623,6 +632,16 @@
         "description": "Start in armbar control bottom. Attacker uses full armbar-to-kimura chain at competition intensity. Defender applies complete defensive repertoire including prevention, escape, and tap awareness. Track escape rate and time to escape for measurable improvement over training sessions."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late Kimura Defense from Bottom Side Control",
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

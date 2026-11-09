@@ -37,6 +37,27 @@ description: "Learn the De La Riva to Lapel Guard entry in BJJ. Extract the oppo
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "De La Riva to Lapel Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapelapalooza Lapel Guard System - Setting up The Worm Position from De La\u2026",
+      "description": "De La Riva to Lapel Guard film study: Lapelapalooza Lapel Guard System - Setting up The Worm Position from De La\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n5_uWP0hc_c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n5_uWP0hc_c?start=246",
+      "url": "https://www.youtube.com/watch?v=n5_uWP0hc_c",
+      "duration": "PT670S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -78,6 +99,24 @@ Strategically this entry converts a dynamic, grip-dependent open guard into a lo
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch De La Riva to Lapel Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n5_uWP0hc_c&start=246)
+
+<p class="clip-credit"><strong>Lapelapalooza Lapel Guard System - Setting up The Worm Position from De La…</strong> · 11:10 · <a href="https://www.youtube.com/watch?v=n5_uWP0hc_c&t=246s" rel="noopener">Watch on YouTube from 4:06</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -258,7 +297,7 @@ The De La Riva to Lapel Guard entry is the primary on-ramp into the entire lapel
 
 - [[Positions/Spider Guard]] - Complementary gi guard that shares grip strategy and serves as a backup if the lapel is stripped
 
-- [[Positions/Open Guard]] - Position the opponent reaches if they counter the extraction by passing the loose lapel
+- [[Positions/Open Guard]] - Position you return to on the bottom if opponent counters the extraction by passing the loose lapel, giving them a passing opportunity
 
 
 </section>

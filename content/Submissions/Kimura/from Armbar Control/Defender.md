@@ -10,8 +10,6 @@ description: "Defend against the Kimura from Armbar Control in BJJ. Recognition 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Armbar Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -146,6 +144,27 @@ description: "Defend against the Kimura from Armbar Control in BJJ. Recognition 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Armbar Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Late Kimura Defense from Bottom Side Control",
+      "description": "Kimura from Armbar Control (Defender) film study: Late Kimura Defense from Bottom Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
+      "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
+      "duration": "PT100S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +178,24 @@ Defending the Kimura from Armbar Control requires rapid recognition of the grip 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Armbar Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uRn3DRICpeY)
+
+<p class="clip-credit"><strong>Late Kimura Defense from Bottom Side Control</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -192,6 +229,8 @@ Defending the Kimura from Armbar Control requires rapid recognition of the grip 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kimura/from Armbar Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

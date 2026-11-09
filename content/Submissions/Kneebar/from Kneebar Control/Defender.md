@@ -10,8 +10,6 @@ description: "Defend against the kneebar from kneebar control position. Recognit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Kneebar Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -249,6 +247,8 @@ Defending against the kneebar from kneebar control demands immediate recognition
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kneebar/from Kneebar Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

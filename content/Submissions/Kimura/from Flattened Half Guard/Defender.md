@@ -10,8 +10,6 @@ description: "Defend against the Kimura from flattened half guard. Recognition c
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Flattened Half Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -162,6 +160,26 @@ description: "Defend against the Kimura from flattened half guard. Recognition c
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Kimura defense from the bottom half guard, with taking opponents back",
+      "description": "Kimura from Flattened Half Guard (Defender) film study: Kimura defense from the bottom half guard, with taking opponents back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u-sTrjJEQrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u-sTrjJEQrk",
+      "url": "https://www.youtube.com/watch?v=u-sTrjJEQrk",
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending kimura from bottom half guard",
+      "description": "Kimura from Flattened Half Guard (Defender) film study: Defending kimura from bottom half guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0vGJM4WbneA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0vGJM4WbneA",
+      "url": "https://www.youtube.com/watch?v=0vGJM4WbneA",
+      "duration": "PT196S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Late Kimura Defense from Bottom Side Control",
       "description": "Kimura from Flattened Half Guard (Defender) film study: Late Kimura Defense from Bottom Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
@@ -193,6 +211,22 @@ Defending the Kimura from flattened half guard bottom is among the most difficul
 
 <p class="section-subtitle">Watch Kimura from Flattened Half Guard (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u-sTrjJEQrk)
+
+<p class="clip-credit"><strong>Kimura defense from the bottom half guard, with taking opponents back</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=u-sTrjJEQrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0vGJM4WbneA)
+
+<p class="clip-credit"><strong>Defending kimura from bottom half guard</strong> · 3:16 · <a href="https://www.youtube.com/watch?v=0vGJM4WbneA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -237,6 +271,8 @@ Defending the Kimura from flattened half guard bottom is among the most difficul
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kimura/from Flattened Half Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

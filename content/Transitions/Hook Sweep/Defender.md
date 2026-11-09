@@ -38,8 +38,8 @@ description: "How to defend against the Hook Sweep from Butterfly Guard in BJJ. 
     },
     {
       "@type": "HowToStep",
-      "name": "Strip the opponent's dominant grip and immediately establish your own controlling grip on their wrist or collar to prevent re-gripping",
-      "text": "Early in the exchange when you recognize grip establishment that would enable the pull component of the sweep If successful: Without upper body grips, the opponent cannot generate the pull needed to off-balance you, neutralizing the sweep threat entirely and allowing you to initiate passing",
+      "name": "Strip the opponent's dominant grip, establish your own controlling grip on their wrist or collar to prevent re-gripping, and complete the pass",
+      "text": "Early in the exchange when you recognize grip establishment that would enable the pull component of the sweep If successful: Without upper body grips, the opponent cannot generate the pull needed to off-balance you, neutralizing the sweep threat entirely and letting you complete the pass to side control on top",
       "position": 4
     }
   ],
@@ -142,6 +142,27 @@ description: "How to defend against the Hook Sweep from Butterfly Guard in BJJ. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hook Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stop the Butterfly Hook Sweep!",
+      "description": "Hook Sweep (Defender) film study: Stop the Butterfly Hook Sweep!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QOcFJHA8Pcw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QOcFJHA8Pcw?start=31",
+      "url": "https://www.youtube.com/watch?v=QOcFJHA8Pcw",
+      "duration": "PT179S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -158,6 +179,24 @@ At the highest level, hook sweep defense transitions from pure survival into off
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hook Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QOcFJHA8Pcw&start=31)
+
+<p class="clip-credit"><strong>Stop the Butterfly Hook Sweep!</strong> · 2:59 · <a href="https://www.youtube.com/watch?v=QOcFJHA8Pcw&t=31s" rel="noopener">Watch on YouTube from 0:31</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -219,11 +258,11 @@ At the highest level, hook sweep defense transitions from pure survival into off
 - **If successful**: Opponent's butterfly guard is compressed and flattened, reducing elevation power and creating passing opportunities
 - **Risk**: If opponent maintains hooks during the pressure, your forward weight commitment can be redirected into a sweep using your own momentum
 
-### 4. Strip the opponent's dominant grip and immediately establish your own controlling grip on their wrist or collar to prevent re-gripping
+### 4. Strip the opponent's dominant grip, establish your own controlling grip on their wrist or collar to prevent re-gripping, and complete the pass
 
 - **When to use**: Early in the exchange when you recognize grip establishment that would enable the pull component of the sweep
-- **Targets**: [[Positions/Butterfly Guard]]
-- **If successful**: Without upper body grips, the opponent cannot generate the pull needed to off-balance you, neutralizing the sweep threat entirely and allowing you to initiate passing
+- **Targets**: [[Positions/Side Control]]
+- **If successful**: Without upper body grips, the opponent cannot generate the pull needed to off-balance you, neutralizing the sweep threat entirely and letting you complete the pass to side control on top
 - **Risk**: Momentary loss of your own base during the grip fight may create a brief window for the opponent to attack
 
 
@@ -240,7 +279,7 @@ At the highest level, hook sweep defense transitions from pure survival into off
 
 Neutralize the sweep through posting, base widening, or hip sprawl to maintain your top position while the opponent remains in butterfly guard bottom. From here, immediately re-engage your passing strategy before the opponent can reset and attempt again.
 
-### → [[Positions/Butterfly Guard]]
+### → [[Positions/Side Control]]
 
 Counter the sweep attempt by capitalizing on the attacker's committed angle and grip configuration. As they load for the sweep, time a guard pass that exploits the gap created by their lateral hip shift, passing to the side they angled away from. Their sweep commitment compromises their guard retention on the opposite side.
 

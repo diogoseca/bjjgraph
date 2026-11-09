@@ -10,8 +10,6 @@ description: "How to defend against Reverse Kimura in BJJ. Recognition, escape p
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Reverse Kimura from Standing Position targets the Shoulder joint and rotator cuff. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -199,6 +197,8 @@ Defending the Reverse Kimura requires understanding its unique grip mechanics an
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Reverse Kimura/from Standing Position#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

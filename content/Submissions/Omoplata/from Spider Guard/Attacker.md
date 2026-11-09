@@ -10,8 +10,6 @@ description: "Master attacking the Omoplata from Spider Guard. Step-by-step entr
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Spider Guard targets the Shoulder. Risk: Shoulder dislocation or subluxation from excessive rotational force on the glenohumeral joint. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking the Omoplata from Spider Guard requires converting your bilateral slee
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Omoplata/from Spider Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

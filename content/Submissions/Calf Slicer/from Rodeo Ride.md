@@ -92,9 +92,6 @@ description: "Master the Calf Slicer from Rodeo Ride in BJJ. Complete guide to c
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer from Rodeo Ride targets the Calf muscle and knee joint. Primary risk: Knee ligament damage (MCL/LCL tears) from hyperextension force applied through the compression lock. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Calf Slicer/from Rodeo Ride/Attacker|Play as Attacker]]
@@ -190,6 +187,8 @@ The calf slicer from this position requires precise leg threading mechanics and 
 - Commit to the submission only when upper body control is stable enough to survive the positional adjustment required for leg threading
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -262,6 +261,8 @@ The calf slicer from this position requires precise leg threading mechanics and 
 - Sudden reduction in the attacker's base stability as they commit their posted leg to the threading motion
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -322,9 +323,8 @@ The calf slicer from this position requires precise leg threading mechanics and 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -334,29 +334,9 @@ The calf slicer from this position requires precise leg threading mechanics and 
 | Posterior knee capsule strain from sustained hyperextension pressure during the finishing sequence | Medium | 2-4 weeks with rest and ice; chronic cases may require 6-8 weeks rehabilitation |
 
 
-**Application Speed**: SLOW and progressive. The compression builds gradually as hips extend. Never jerk, spike, or explosively apply the leg fold. Allow the opponent adequate time to recognize the submission and tap. The knee joint is particularly vulnerable to sudden force application in this position.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, their own body, or the mat (multiple rapid taps)
-- Physical foot tap with the free leg on the mat or partner's body
-- Any unusual screaming, groaning, or distress vocalization indicating pain
-- Verbal submission to referee in competition settings
 
 
-**Release Protocol**:
-1. Release ALL pressure immediately upon any tap signal—do not complete the movement or hold for even a fraction of a second
-2. If in doubt whether opponent tapped, release immediately—the position can always be re-established but joint damage cannot be undone
-3. Release the figure-four leg lock first, then release foot control, allowing opponent to straighten their leg naturally
-4. After release, maintain safe distance and allow opponent to assess their knee and calf before resuming training
-
-
-**Training Restrictions**:
-- Purple belt and above only for live application due to the rapid onset of knee hyperextension and compression damage potential
-- Always apply with slow, controlled pressure during drilling—never use explosive hip extension to finish
-- Tap early and often when caught in this submission during training; ego tapping leads to preventable knee injuries
-- Do not drill this technique on partners with pre-existing knee injuries, recent meniscus surgery, or ligament reconstruction
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -10,8 +10,6 @@ description: "Finish the Rear Naked Choke from Body Triangle with systematic han
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Body Triangle targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking with the Rear Naked Choke from Body Triangle represents the convergenc
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Body Triangle#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

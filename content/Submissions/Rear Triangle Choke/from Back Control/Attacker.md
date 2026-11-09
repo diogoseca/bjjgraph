@@ -10,8 +10,6 @@ description: "How to execute Rear Triangle Choke in BJJ. Attacking perspective w
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Triangle Choke from Back Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -301,6 +299,8 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Rear Triangle Choke/from Back Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

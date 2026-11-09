@@ -102,9 +102,6 @@ description: "Master the cross collar choke from closed guard with detailed grip
 <span class="meta-chip">10% success</span>
 </div>
 
-> [!danger] Safety
-> Cross Collar Choke from Closed Guard targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Cross Collar Choke/from Closed Guard/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ Strategically, the cross collar choke threat from closed guard functions as an o
 - Thread the second grip decisively once posture is broken; hesitation allows the opponent to recognize the threat and begin defensive grip fighting
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -277,6 +276,8 @@ Strategically, the cross collar choke threat from closed guard functions as an o
 - Free hand reaches over your arm toward the far side of your collar with palm facing upward, signaling the second grip entry that completes the choke structure
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -333,9 +334,8 @@ Strategically, the cross collar choke threat from closed guard functions as an o
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -344,29 +344,9 @@ Strategically, the cross collar choke threat from closed guard functions as an o
 | Neck strain from defensive thrashing or explosive posture recovery attempts | Low | 3-7 days with rest and light stretching |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training. Blood chokes can render a person unconscious in 8-12 seconds under full pressure. Always apply gradually to give your training partner time to recognize the choke and tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any distress signal including facial expressions or loss of resistance
 
 
-**Release Protocol**:
-1. Immediately release both collar grips upon any tap signal
-2. Open guard and disengage all controlling grips on collar and body
-3. Allow partner space to recover breathing and circulation fully before continuing
-4. Check partner's alertness and responsiveness; if partner went unconscious, place in recovery position and seek medical attention
-
-
-**Training Restrictions**:
-- Never apply full choking pressure during initial learning phases; focus on grip placement and positioning first
-- Never hold the choke past the tap signal under any circumstances
-- Never use competition speed or intensity during basic drilling sessions
-- Never practice on partners with neck injuries, cardiovascular conditions, or circulation issues without explicit instructor supervision
-- Always ensure partner has clear access to tap with at least one hand or foot at all times
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

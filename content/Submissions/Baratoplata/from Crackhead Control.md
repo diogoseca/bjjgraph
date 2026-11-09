@@ -36,6 +36,27 @@ description: "A Baratoplata attempt from Crackhead Control requires a separate D
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Baratoplata from Crackhead Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rafael \"Barata\" Freitas: learn the baratoplata",
+      "description": "Baratoplata from Crackhead Control film study: Rafael \"Barata\" Freitas: learn the baratoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vLjB3BJ9O5w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vLjB3BJ9O5w",
+      "url": "https://www.youtube.com/watch?v=vLjB3BJ9O5w",
+      "duration": "PT154S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +82,6 @@ description: "A Baratoplata attempt from Crackhead Control requires a separate D
 <span class="meta-chip">25% success</span>
 </div>
 
-> [!danger] Safety
-> Baratoplata from Crackhead Control targets the Shoulder joint. Primary risk: Shoulder joint injury from excessive pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Baratoplata/from Crackhead Control/Attacker|Play as Attacker]]
@@ -85,6 +103,24 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Baratoplata from Crackhead Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vLjB3BJ9O5w)
+
+<p class="clip-credit"><strong>Rafael &#34;Barata&#34; Freitas: learn the baratoplata</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=vLjB3BJ9O5w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -133,6 +169,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 - Unload shoulder before unwrapping: Remove the shoulder pressure at once on a tap or verbal stop, then free the wrist and leg connection.
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -198,6 +236,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Establish the Duda-style arm isolation required for the Baratoplata before changing the leg and grip arrangement.
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -232,9 +272,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -242,24 +281,9 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 | Neck or knee strain during a forced escape | High | Variable; do not train through symptoms. |
 
 
-**Application Speed**: Apply gradually and release immediately at any signal.
-
-**Tap Signals**:
-- Hand tap
-- Foot tap when the arms are trapped
-- Verbal tap or stop
 
 
-**Release Protocol**:
-1. Stop adding pressure immediately.
-2. Remove the joint or neck load before changing grips.
-3. Free the trapped limb or neck and check the partner.
-
-
-**Training Restrictions**:
-- Practice under qualified supervision with a cooperative partner.
-- Do not force the movement through pain or a restricted joint range.
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

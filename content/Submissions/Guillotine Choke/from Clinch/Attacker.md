@@ -10,8 +10,6 @@ description: "Execute the Guillotine Choke from Clinch in BJJ. Step-by-step guid
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Guillotine Choke from Clinch targets the Neck. Risk: Tracheal damage from direct pressure on the windpipe when grip slides to front of throat. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ Attacking with the standing guillotine from clinch requires understanding the pr
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Guillotine Choke/from Clinch#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

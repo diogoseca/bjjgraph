@@ -92,9 +92,6 @@ description: "Master the toe hold from Backside 50-50 in BJJ. Complete guide cov
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Backside 50-50 targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Backside 50-50/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ In competition, the toe hold from Backside 50-50 serves as both a primary finish
 - Keep legs active in the entanglement throughout the submission attempt to prevent opponent from extracting and recovering guard
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -261,6 +260,8 @@ In competition, the toe hold from Backside 50-50 serves as both a primary finish
 - Sensation of your ankle being controlled with increasing rotational tension as the figure-four locks into place
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -301,9 +302,8 @@ In competition, the toe hold from Backside 50-50 serves as both a primary finish
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -314,32 +314,9 @@ In competition, the toe hold from Backside 50-50 serves as both a primary finish
 | Achilles tendon strain | Medium | 4-6 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. The rotational force compounds rapidly once applied. This is NOT a technique to snap on in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly)
-- Physical hand tap on partner or mat (multiple taps)
-- Physical foot tap with free leg
-- Any verbal distress signal
-- Slapping the mat with hand
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon tap
-2. Release toe grip completely before releasing heel control
-3. Allow opponent's foot to return to neutral position naturally
-4. Do not let go abruptly - maintain light contact until opponent signals they are okay
-5. Check with training partner before continuing
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual and controlled
-- Never grip individual toes - always grip across multiple toes and ball of foot
-- Never combine toe hold rotation with explosive hip extension
-- Always allow clear tap access for both hands and verbal tap
-- Stop immediately at any sign of discomfort from training partner
-- Never train this submission at full competition speed or intensity
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -142,6 +142,27 @@ description: "Defend against the Feet on Hips Tripod Sweep with recognition cues
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Feet on Hips Tripod Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "NEVER get Tripod swept again! The ultimate tripod sweep defense.",
+      "description": "Feet on Hips Tripod Sweep (Defender) film study: NEVER get Tripod swept again! The ultimate tripod sweep defense..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HbJrdjEZk-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HbJrdjEZk-8?start=46",
+      "url": "https://www.youtube.com/watch?v=HbJrdjEZk-8",
+      "duration": "PT310S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ When facing the tripod sweep from feet-on-hips guard, the defender must recogniz
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Feet on Hips Tripod Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HbJrdjEZk-8&start=46)
+
+<p class="clip-credit"><strong>NEVER get Tripod swept again! The ultimate tripod sweep defense.</strong> · 5:10 · <a href="https://www.youtube.com/watch?v=HbJrdjEZk-8&t=46s" rel="noopener">Watch on YouTube from 0:46</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

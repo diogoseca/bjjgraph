@@ -10,8 +10,6 @@ description: "Defend the belly down armbar from turtle position. Learn recogniti
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from Turtle targets the Elbow joint and shoulder girdle. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -146,6 +144,37 @@ description: "Defend the belly down armbar from turtle position. Learn recogniti
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mastering Turtle bottom - Dealing with the Turtle Armbar (Rolling/Judo/Belly\u2026",
+      "description": "Belly Down Armbar from Turtle (Defender) film study: Mastering Turtle bottom - Dealing with the Turtle Armbar (Rolling/Judo/Belly\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D7pdb0B6V-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D7pdb0B6V-8?start=321",
+      "url": "https://www.youtube.com/watch?v=D7pdb0B6V-8",
+      "duration": "PT1718S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Belly down arm bar escape breakdown",
+      "description": "Belly Down Armbar from Turtle (Defender) film study: Belly down arm bar escape breakdown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AApmPQUUmYI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AApmPQUUmYI",
+      "url": "https://www.youtube.com/watch?v=AApmPQUUmYI",
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +188,32 @@ Defending the belly down armbar from turtle requires maintaining the fundamental
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D7pdb0B6V-8&start=321)
+
+<p class="clip-credit"><strong>Mastering Turtle bottom - Dealing with the Turtle Armbar (Rolling/Judo/Belly…</strong> · 28:38 · <a href="https://www.youtube.com/watch?v=D7pdb0B6V-8&t=321s" rel="noopener">Watch on YouTube from 5:21</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AApmPQUUmYI)
+
+<p class="clip-credit"><strong>Belly down arm bar escape breakdown</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=AApmPQUUmYI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -192,6 +247,8 @@ Defending the belly down armbar from turtle requires maintaining the fundamental
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Belly Down Armbar/from Turtle#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

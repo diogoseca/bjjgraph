@@ -10,8 +10,6 @@ description: "How to defend against Kimura from Guard in BJJ. Recognition, escap
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Guard targets the Shoulder joint and rotator cuff. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -243,6 +241,8 @@ A critical defensive principle is recognizing that the Kimura grip creates a con
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kimura/from Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

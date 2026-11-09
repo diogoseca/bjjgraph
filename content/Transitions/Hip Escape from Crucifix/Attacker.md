@@ -254,7 +254,7 @@ Executing the hip escape from crucifix requires precise understanding of how lat
 |--------|----------|-------------|
 | Success | [[Positions/Turtle]] | 45% |
 | Failure | [[Positions/Crucifix]] | 35% |
-| Counter | [[Positions/Back Control]] | 20% |
+| Success | [[Positions/Back Control]] | 20% |
 
 
 </section>

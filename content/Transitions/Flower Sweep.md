@@ -155,7 +155,7 @@ Named for the circular, flower-blooming motion of the legs as the sweep unfolds,
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 62% |
 | Failure | [[Positions/Closed Guard]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 13% |
+| Counter | [[Positions/Open Guard]] | 13% |
 
 
 </section>

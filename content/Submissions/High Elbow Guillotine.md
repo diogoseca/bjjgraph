@@ -131,9 +131,6 @@ description: "Master High Elbow Guillotine in BJJ. Complete guide with safety pr
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> High Elbow Guillotine targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The High Elbow Guillotine is a devastating blood choke that targets the carotid arteries through precise elbow positioning and shoulder pressure. Distinguished from the traditional arm-in guillotine by its mechanics, this variation achieves superior control and finishing power by elevating the choking elbow above the opponent's shoulder line while driving the non-choking shoulder into their neck. The technique excels in both standing and ground scenarios, making it a versatile weapon across all grappling contexts. Its effectiveness stems from the biomechanical advantage created when the high elbow position redirects force directly into the carotid arteries rather than relying primarily on forearm compression. The submission can be entered from numerous positions including standing clinch exchanges, failed takedown attempts, and guard pulls, making it an essential component of any complete submission system. Modern competitive grapplers favor this variation for its reliability under pressure and its capacity to finish opponents who successfully defend traditional guillotine mechanics.
@@ -247,9 +244,8 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -259,32 +255,9 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 | Jaw and temporomandibular joint stress | Medium | 1-2 weeks for minor inflammation |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time with constant awareness of partner's response
-
-**Tap Signals**:
-- Verbal tap or any verbal sound of distress
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat or opponent
-- Any loss of resistance or body going limp
-- Unusual gurgling or breathing sounds
 
 
-**Release Protocol**:
-1. Immediately release choking arm grip upon any tap signal
-2. Lower choking elbow and remove shoulder pressure simultaneously
-3. Release head control and create space by stepping back or opening guard
-4. Monitor partner's breathing and consciousness for 10-15 seconds
-5. Never reapply pressure once released, even if partner signals they are okay
-
-
-**Training Restrictions**:
-- Never apply at competition speed during drilling or positional training
-- Never spike or jerk the submission - always apply smooth progressive pressure
-- Never continue pressure if partner's face changes color or shows signs of oxygen deprivation
-- Always maintain verbal communication during slow drilling phases
-- Never practice on partners with neck or throat injuries without explicit instructor approval
-- Always allow clear tap access - never trap both arms while finishing
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

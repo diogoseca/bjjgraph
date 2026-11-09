@@ -10,8 +10,6 @@ description: "The bottom Invisible Collar holder applies the vascular choke from
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Invisible Collar Choke targets the Neck. Risk: Neck injury from excessive pressure. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -172,6 +170,27 @@ description: "The bottom Invisible Collar holder applies the vascular choke from
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Invisible Collar Choke (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Invisible Collar Choke from Rubber Guard",
+      "description": "Invisible Collar Choke (Attacker) film study: Invisible Collar Choke from Rubber Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8wYsegjBqRA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8wYsegjBqRA",
+      "url": "https://www.youtube.com/watch?v=8wYsegjBqRA",
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +210,24 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Invisible Collar Choke (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8wYsegjBqRA)
+
+<p class="clip-credit"><strong>Invisible Collar Choke from Rubber Guard</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=8wYsegjBqRA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -224,6 +261,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Invisible Collar Choke#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

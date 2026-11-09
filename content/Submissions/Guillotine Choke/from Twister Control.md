@@ -46,22 +46,12 @@ description: "Master the guillotine choke from Twister Control. Learn setup mech
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "BJJ Guillotine Choke Escape and Defense from Full Guard \u0026 with Takedowns",
-      "description": "Guillotine Choke from Twister Control film study: BJJ Guillotine Choke Escape and Defense from Full Guard \u0026 with Takedowns.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/v-CRBRea_KY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/v-CRBRea_KY",
-      "url": "https://www.youtube.com/watch?v=v-CRBRea_KY",
-      "duration": "PT319S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Guillotine Defence",
-      "description": "Guillotine Choke from Twister Control film study: Guillotine Defence.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/46LaXNe6rJo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/46LaXNe6rJo",
-      "url": "https://www.youtube.com/watch?v=46LaXNe6rJo",
-      "duration": "PT594S"
+      "name": "Special: guillotine choke from clinch",
+      "description": "Guillotine Choke from Twister Control film study: Special: guillotine choke from clinch.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2Ioe4B7HF38/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2Ioe4B7HF38",
+      "url": "https://www.youtube.com/watch?v=2Ioe4B7HF38",
+      "duration": "PT42S"
     }
   ]
 }
@@ -92,9 +82,6 @@ description: "Master the guillotine choke from Twister Control. Learn setup mech
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Guillotine Choke from Twister Control targets the Carotid arteries and windpipe. Primary risk: Trachea damage or crush injury from misaligned choking pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Guillotine Choke/from Twister Control/Attacker|Play as Attacker]]
@@ -124,17 +111,9 @@ Strategically, this submission functions as a trap within the broader Twister sy
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=v-CRBRea_KY)
+![](https://www.youtube.com/watch?v=2Ioe4B7HF38)
 
-<p class="clip-credit"><strong>BJJ Guillotine Choke Escape and Defense from Full Guard &amp; with Takedowns</strong> · 5:19 · <a href="https://www.youtube.com/watch?v=v-CRBRea_KY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=46LaXNe6rJo)
-
-<p class="clip-credit"><strong>Guillotine Defence</strong> · 9:54 · <a href="https://www.youtube.com/watch?v=46LaXNe6rJo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Special: guillotine choke from clinch</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=2Ioe4B7HF38" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -188,6 +167,8 @@ Strategically, this submission functions as a trap within the broader Twister sy
 
 - Be prepared to abandon the guillotine and return to Twister Control if the grip is not secured cleanly
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -259,6 +240,8 @@ Strategically, this submission functions as a trap within the broader Twister sy
 - Your turn-in escape feels unexpectedly easy, suggesting the attacker is allowing or encouraging the turn to access your neck
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -320,9 +303,8 @@ Strategically, this submission functions as a trap within the broader Twister sy
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -332,30 +314,9 @@ Strategically, this submission functions as a trap within the broader Twister sy
 | Neck muscle strain from resistance under rotational load | Medium | 7-14 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time. The combination of spinal rotation and choking pressure makes this submission especially dangerous when applied rapidly. Never snap or jerk the submission.
-
-**Tap Signals**:
-- Verbal tap or any vocal sound indicating submission
-- Physical hand tap on opponent, own body, or mat
-- Physical foot tap on mat
-- Any distress signal, loss of resistance, or going limp
 
 
-**Release Protocol**:
-1. Immediately release choking arm pressure upon any tap signal
-2. Disengage head and neck control before releasing leg entanglement
-3. Help opponent to seated or recovery position
-4. Monitor breathing and consciousness for at least 30 seconds
-5. Call for medical assistance if partner does not immediately recover
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity during drilling
-- Always allow clear tap access for both hands and feet
-- Stop immediately at any sign of distress or loss of consciousness
-- Avoid cranking the neck or using hyperextension to finish
-- Never practice on training partners with existing neck or cervical injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

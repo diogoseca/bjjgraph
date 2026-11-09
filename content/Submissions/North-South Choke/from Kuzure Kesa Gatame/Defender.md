@@ -10,8 +10,6 @@ description: "Complete defensive guide against the North-South Choke from Kuzure
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from Kuzure Kesa Gatame targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -256,6 +254,8 @@ Defending the North-South Choke from Kuzure Kesa Gatame demands early recognitio
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/North-South Choke/from Kuzure Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

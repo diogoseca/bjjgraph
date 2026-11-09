@@ -365,7 +365,18 @@
       }
     ],
     "safety_considerations": "Strip Russian Leg Lasso is a low-injury-risk technique as it involves grip fighting and positional adjustments rather than joint manipulation or compression. However, practitioners should be aware that aggressive arm extraction against a tight lasso can strain the shoulder joint of the trapped arm. Always create slack before extracting rather than forcing through resistance. The bottom player should release the lasso if the top player's shoulder is being stressed in an unnatural direction. During training, communicate clearly when beginning the strip sequence so the bottom player can adjust grip tension appropriately.",
-    "clips": []
+    "clips": [
+      {
+        "id": "kNpws9uAY8o",
+        "title": "PART 1 ESCAPING + PASSING THE LASSO",
+        "channel": "Bryce Nie",
+        "duration": 383,
+        "vertical": false,
+        "start": 40,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Strip Russian Leg Lasso Defender",

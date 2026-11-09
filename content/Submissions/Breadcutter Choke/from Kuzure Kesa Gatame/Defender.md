@@ -10,8 +10,6 @@ description: "Defend against the Breadcutter Choke from Kuzure Kesa Gatame with 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Breadcutter Choke from Kuzure Kesa Gatame targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -146,6 +144,37 @@ description: "Defend against the Breadcutter Choke from Kuzure Kesa Gatame with 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Breadcutter Choke from Kuzure Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape from the Paper Cutter Choke",
+      "description": "Breadcutter Choke from Kuzure Kesa Gatame (Defender) film study: Escape from the Paper Cutter Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oUAtAggATDg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oUAtAggATDg",
+      "url": "https://www.youtube.com/watch?v=oUAtAggATDg",
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Bread Cutter Escapes",
+      "description": "Breadcutter Choke from Kuzure Kesa Gatame (Defender) film study: 3 Bread Cutter Escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u3QCYxp87uk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u3QCYxp87uk",
+      "url": "https://www.youtube.com/watch?v=u3QCYxp87uk",
+      "duration": "PT225S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +188,32 @@ Defending the Breadcutter Choke from Kuzure Kesa Gatame demands early recognitio
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Breadcutter Choke from Kuzure Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oUAtAggATDg)
+
+<p class="clip-credit"><strong>Escape from the Paper Cutter Choke</strong> · 1:37 · <a href="https://www.youtube.com/watch?v=oUAtAggATDg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u3QCYxp87uk)
+
+<p class="clip-credit"><strong>3 Bread Cutter Escapes</strong> · 3:45 · <a href="https://www.youtube.com/watch?v=u3QCYxp87uk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -192,6 +247,8 @@ Defending the Breadcutter Choke from Kuzure Kesa Gatame demands early recognitio
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Breadcutter Choke/from Kuzure Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

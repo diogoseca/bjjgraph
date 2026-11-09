@@ -10,8 +10,6 @@ description: "Learn to defend and escape the Darce Choke from Darce Control. Rec
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Darce Choke from Darce Control targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -265,6 +263,8 @@ Defending the Darce Choke from established Darce Control is one of the most urge
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Darce Choke/from Darce Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

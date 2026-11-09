@@ -36,6 +36,27 @@ description: "Master the Chair Sit to Back Take in BJJ. Control opponent from tu
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Chair Sit to Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle attack - Chair Sit",
+      "description": "Chair Sit to Back film study: Turtle attack - Chair Sit.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xyrDkdfSLCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xyrDkdfSLCk?start=52",
+      "url": "https://www.youtube.com/watch?v=xyrDkdfSLCk",
+      "duration": "PT359S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -75,6 +96,24 @@ Success requires precise hip positioning, weight distribution, and grip sequenci
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Chair Sit to Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xyrDkdfSLCk&start=52)
+
+<p class="clip-credit"><strong>Turtle attack - Chair Sit</strong> · 5:59 · <a href="https://www.youtube.com/watch?v=xyrDkdfSLCk&t=52s" rel="noopener">Watch on YouTube from 0:52</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -84,7 +123,7 @@ Success requires precise hip positioning, weight distribution, and grip sequenci
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 68% |
 | Failure | [[Positions/Turtle]] | 20% |
-| Counter | [[Positions/Turtle]] | 12% |
+| Counter | [[Positions/Open Guard]] | 12% |
 
 
 </section>
@@ -270,15 +309,6 @@ The chair sit to back take occupies a central position within the turtle attack 
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

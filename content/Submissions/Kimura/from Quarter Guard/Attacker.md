@@ -10,8 +10,6 @@ description: "Learn to attack with the Kimura from Quarter Guard top position. S
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Quarter Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -178,6 +176,37 @@ description: "Learn to attack with the Kimura from Quarter Guard top position. S
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Quarter Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "kimura from top half guard",
+      "description": "Kimura from Quarter Guard (Attacker) film study: kimura from top half guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E2eGqpQOmd8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E2eGqpQOmd8",
+      "url": "https://www.youtube.com/watch?v=E2eGqpQOmd8",
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Fabio Holanda | Jiu Jitsu Technique: Kimura from Half Guard Top Variation\u2026",
+      "description": "Kimura from Quarter Guard (Attacker) film study: Fabio Holanda | Jiu Jitsu Technique: Kimura from Half Guard Top Variation\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9DGzMd9VjqE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9DGzMd9VjqE",
+      "url": "https://www.youtube.com/watch?v=9DGzMd9VjqE",
+      "duration": "PT134S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +220,32 @@ Attacking the Kimura from Quarter Guard requires integrating submission mechanic
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Quarter Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E2eGqpQOmd8)
+
+<p class="clip-credit"><strong>kimura from top half guard</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=E2eGqpQOmd8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9DGzMd9VjqE)
+
+<p class="clip-credit"><strong>Fabio Holanda | Jiu Jitsu Technique: Kimura from Half Guard Top Variation…</strong> · 2:14 · <a href="https://www.youtube.com/watch?v=9DGzMd9VjqE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -225,6 +280,8 @@ Attacking the Kimura from Quarter Guard requires integrating submission mechanic
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from Quarter Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

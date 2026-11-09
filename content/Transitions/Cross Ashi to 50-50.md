@@ -36,6 +36,27 @@ description: "Master the Cross Ashi to 50-50 transition in BJJ. Learn leg reposi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Ashi to 50-50 \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Saddle to 50/50: A Transition",
+      "description": "Cross Ashi to 50-50 film study: Saddle to 50/50: A Transition.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h3VbOwfR7-k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h3VbOwfR7-k",
+      "url": "https://www.youtube.com/watch?v=h3VbOwfR7-k",
+      "duration": "PT28S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ From a systems perspective, this transition represents a key connector in the mo
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Ashi to 50-50 in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h3VbOwfR7-k)
+
+<p class="clip-credit"><strong>Saddle to 50/50: A Transition</strong> · 0:28 · <a href="https://www.youtube.com/watch?v=h3VbOwfR7-k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

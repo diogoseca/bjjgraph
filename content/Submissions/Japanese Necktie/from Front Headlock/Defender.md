@@ -10,8 +10,6 @@ description: "How to defend against Japanese Necktie in BJJ. Recognition, escape
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Japanese Necktie from Front Headlock targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -152,6 +150,27 @@ description: "How to defend against Japanese Necktie in BJJ. Recognition, escape
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Japanese Necktie from Front Headlock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Wax Off- D\u00b4arce and japanese neck tie defense - 10th planet jiu jitsu Stockholm",
+      "description": "Japanese Necktie from Front Headlock (Defender) film study: Wax Off- D\u00b4arce and japanese neck tie defense - 10th planet jiu jitsu Stockholm.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L51fq8eEhDc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L51fq8eEhDc?start=297",
+      "url": "https://www.youtube.com/watch?v=L51fq8eEhDc",
+      "duration": "PT418S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -167,6 +186,24 @@ The Japanese Necktie defense centers on three critical priorities: preventing th
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Japanese Necktie from Front Headlock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L51fq8eEhDc&start=297)
+
+<p class="clip-credit"><strong>Wax Off- D´arce and japanese neck tie defense - 10th planet jiu jitsu Stockholm</strong> · 6:58 · <a href="https://www.youtube.com/watch?v=L51fq8eEhDc&t=297s" rel="noopener">Watch on YouTube from 4:57</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -199,6 +236,8 @@ The Japanese Necktie defense centers on three critical priorities: preventing th
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Japanese Necktie/from Front Headlock#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

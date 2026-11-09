@@ -29,6 +29,10 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.248.0** — [Practice in the Challenges look](#v12480--practice-in-the-challenges-look)
+- **v1.247.1** — [The deploy's curated gate: a keyed loader and an unpainted label](#v12471--the-deploys-curated-gate-a-keyed-loader-and-an-unpainted-label)
+- **v1.247.0** — [Exact clips for submission escapes](#v12470--exact-clips-for-submission-escapes)
+
 - **v1.230.0** — [Article sections and floating contents](#v12300--article-sections-and-floating-contents)
 
 - **v1.231.0** — [Videos lead the cards, with separate actions](#v12310--videos-lead-the-cards-with-separate-actions)
@@ -13103,3 +13107,1634 @@ serve 200 `noindex` for up to ~7 days, where the old edge rules ran before any p
   `$&`, `` $` ``, `$'` or `$$`. `resolve()` follows handler.ts for queries and absolute targets. The docstring now says
   Cloudflare parses `_redirects` server-side. Added: a test for an empty file in `--file` mode, and probe mutants on the
   real YAML.
+
+## v1.242.0 — the drawer (owner A5 · E1 · T-b) and Practice as one mixed session (owner U56 e, 2026-10-28)
+
+The owner's rounds 3–6 (U45–U56) on the design canvas settled a Claude-style drawer and one daily habit:
+"Practice is flashcards reviewing which included past + new (new = gaps) okay? Similar to how Anki
+mixes known + new cards… The goal today is to do 20 flashcards."
+
+- **Practice engine** (its own commit). The planner's `queue` deals every owed review, most overdue
+  first, and slips the next new gap deck in once the reviews placed before it pay for its cards at
+  `NG_PRACTICE_REVIEWS_PER_NEW = 4`, counted in cards (80/20, the deck-seasoning blend the owner chose).
+  The goal `NG_PRACTICE_GOAL = 20` (was 30) is also the day's new-card quota:
+  `room = min(left, max(left − due, ⌈left / 5⌉))`, `left` = the goal less today's answers (SIDE-R2 M2;
+  the first cut's `⌈due / 4⌉` floor climbed back to the whole goal at 77 owed). This reverses v1.138.0's
+  "due debt consumes the target before new work", which dealt a heavy review day no new card at all.
+  Mutants: 7 planner (tests/gameplan.test.mjs) and 5 app (e2e/journeys/practice-mix.spec.ts), all killed.
+- **The drawer.** The three tabs became one list: Search, Explore (an expandable list, the six
+  categories on a guide line), Train (Practice then Path; nothing under them), Your lists, Last rolls,
+  and the badge, which shows "Today: N of 20 cards · M rolls" before it is opened. One drawer icon opens
+  it, with no "Menu" label; the brand ("‹ Path") leads home from Path and Last rolls; a left swipe closes
+  it. The stat row, the guest save block and the pane foot's links moved into the Practice row and the
+  badge's short menu (Settings, Account preferences, Feedback, sign in/out; Request a technique · Terms ·
+  Privacy · GitHub small). The 145-row capability inventory (U49, D-523) maps every row: kept, moved, or
+  retired by an owner decision (tests/artifacts/sidebar_capabilities.md).
+- **Defects the inventory found, fixed:** the account chip and the pane-foot links were not keyboard
+  controls (now buttons); the save-progress toast reached signed-in players (now guests only); the
+  guest sign-up pill was coded and never placed (now the badge's Save).
+- **The dim (U45).** A lit page fades the rest of the map to 20% (was an instant 30%), easing on the
+  WALL clock because the drawer pauses the game clock (§6.2); the frame publishes `_fogLow`.
+- **The word gap (orchestrator SIDE-R1).** Plus Jakarta Sans draws its space at 0.143 em (2.00 px at
+  14 px; Arial 3.89 px), identical on dev, so "Your lists" read as one word in the owner's screens. The
+  drawer adds `word-spacing: .1em`, naming its buttons too because the UA stylesheet resets `word-spacing`
+  on every button (the first cut reached no row). sidebar.spec.ts measures the label's gap against a
+  control with normal spacing: the harness never loads the Google face, so an absolute gap passed
+  without the fix (mutant D5 survived it).
+- **Retired:** the tab pager and the trackpad flick (pane-tab-swipe.spec.ts deleted; the tabs it paged
+  are gone), the stat row's `_mountStatsRow`/`_exploreStatsRow` (their FGD13 repaint-in-place rule moved
+  to `_paintTrain`, still pinned by tests/gameplan_stats_repaint.test.mjs), `renderPaneAnchor`.
+
+### v1.242.0, SIDE-R2: the independent review's HOLD, and PR 327's first CI
+
+- **B1, Practice was reviews-only on a visit's first press.** The planner chunk was fetched only by
+  the cold Practice press, and its arrival never replaced the waiting review queue, so a returning player's
+  first session ended on "come back tomorrow" with no new card. Now the drawer's opening asks for
+  `gameplan.js` (8.7 KB, deferred, never at boot), and a waiting queue nothing in which was graded is
+  reopened as the mix when it lands; a graded one is still never replaced. practice-mix.spec.ts claim 2b
+  presses cold with the chunk held.
+- **S1, a left swipe mid-Practice closed the drawer** and the next open threw the session away. The
+  retired pager's study guard (`_paneStudyActive`) is back on the gesture, and the pager's other guards
+  (horizontal scroller, vertical drag, pinch, swipe-is-not-a-tap at 16 px) are re-pinned in sidebar.spec.ts.
+- **P1, the phone's closing tap leaked into the map.** Probed at 390x844: a click on a node in the exposed
+  strip closed the drawer AND staged a roll there (the live roll discarded: `roll_discarded`,
+  `roll_staged`); on open ground it dismissed the landing card. `attachInput` now consumes the tap whose
+  pointerdown closed the drawer; a drag begun with it still pans. A headless finger tap at the drawer's
+  edge snaps to a drawer button (touch adjustment); not changed.
+- **M1/M2, the quota and its copy.** Decks are dealt whole (median 8 cards), so the copy says "a new
+  technique after every few reviews"; the quota's floor is a fifth of what is left of the goal, so it never
+  climbs back up on a heavy day (one line, `ngPracticeRoom`, beside the ratio; the owner's question U63).
+- **M9, measured:** asking for the study comparison on the first Practice press (390x844, 4x CPU throttle)
+  fetched `game-study.js` (78,719 B) and added one or two long tasks (~160 ms), and the comparison had not
+  started 8 s later. Practice opens without it, as dev's due door did; "Open study plan" still asks.
+- **Smaller:** one goal source (`practiceGoal`, clamped like the Settings field); the day's rolls persist
+  (`rollDays` beside `days`, the badge's "Today"); the star count is asked for once per page; the Practice
+  tail is written only when it changed; the study head's ‹ Back is a button; the badge menu takes focus on
+  open and walks by arrow keys; Account preferences, the amber dot and the Explore fold across a reload
+  are pinned; the share cue keeps dev's phone seat (bottom 84 px); a no-view open lands
+  on the list; the reviews' technique count is rendered again in the Practice note.
+- **CI on 70ebae7a5, 16 reds classified dev vs head**: 15 STALE SPEC (9 gen specs expected the pane to
+  open on Challenges; the 44 px drawer icon puts the reader's top inset 6 px deeper, 68 → 74, which moved
+  dual-pair's widest pair and roll-execution's two pins; a share-lists read whose selector no build ever
+  emitted, so it had always read the whole body; a scroll premise the taller list no longer met;
+  systems-demand-live's "the menu alone must not warm Systems", where the drawer IS the Explore entry now)
+  and 1 REAL BREAK, fixed in the app: the cue's first frame could show its pill over the phone's layer dock
+  (`_setShareCue` now lays the dock out in the same task; 4 of 8 red before, 4 of 4 after).
+- **Tried and reverted: payload-free category headers** (Systems/Principles/Learning fetched on expanding
+  the fold instead of on the drawer's opening). It needed a landing render that bypassed D-325's hover hold,
+  its first cut re-rendered without end on an index that landed empty (a settled promise re-armed on every
+  render), and five more journeys assumed the drawer's opening hydrates both indexes. The ~20 KB gzip a
+  Practice-only visit would save is not worth that churn in this PR; the drawer asks for both on opening,
+  as dev's Explore tab did.
+
+### v1.242.0 — SIDECX1 review completion and SIDECX2 owner addendum
+
+Held-index probes reproduced the missed first Practice press: concepts arrival moved the row
+60px at both 390×844 and 1440×900 (both indexes: 61px). Stable loading headers and matching
+Systems line height reduce all six cases to 0px, with every aimed press opening Practice. The
+index waits that hid the race are gone. Closing the phone drawer preserves replay, a deferred
+planner preserves a revealed/open study card, and only keyboard opening focuses the badge menu.
+The quota property now covers 303 points (due 0…100 at left 20, 7, 60).
+
+U60 b removes Train and folds Account preferences into the one Settings row; Notifications and
+its email preference remain reachable. U16 b / U66 a keep the drawer icon reachable during a
+catch, using the existing pane pause ownership. U61 c: About never existed and is retired. U67 a
+merges Request a technique and Help improve the graph into one Feedback row, one textarea, the
+existing about/current-page checkbox and an optional Technique request checkbox. General
+feedback still emits `neural_issue_reported`; marked requests still emit
+`neural_technique_requested`, with unchanged payload properties. This preserves telemetry
+history and consumers. The small line is Terms · Privacy · GitHub.
+
+The takeover's 16 controls and four addendum controls were killed at their named assertions.
+The N7 geometry kills use 1440×720 (74..218px reading band) and 1440×700, preserving the
+original overlap/fit assertions. Six affected minified controls were rerun after rebinding
+minifier locals: all killed against green baselines. Exact patches and outcomes are recorded
+in `tests/artifacts/sidebar_r3_mutants.json` and `sidebar_mutants.md`. The addendum's 15
+focused browser checks passed, including both submit kinds, context opt-out, session/guest
+telemetry and keyboard/touch navigation; the owner preview has 27 current captures.
+
+Correction to SIDE-R2's CI classification above: **14 STALE / 2 REAL**, because dual-pair's
+harness-visible fog ease was also an app defect. The later cancelled e9b09f6ea run exposed nine
+more stale Path-entry assumptions (dev and corrected head both 9/9) and a fog observation that
+sampled after the fade. Sampling each pumped draw still kills snap and no-ease controls. N9
+remains measurement only: 36 reliable integer-x samples at width 390, 33 at width 360, with
+ten non-closing exposed samples beside the drawer at each width.
+
+Final addendum payload: deferred **506,562 / 506,817 B**; eager raw **1,366,605 / 1,600,000 B**;
+eager gzip **342,366 B**, **+2,781 B** against baseline 339,585 (5,000 B delta cap). No ceiling
+changed. Relative to SIDECX1, Feedback adds 49 raw eager bytes and removes 31 gzip bytes.
+
+### v1.242.0 — SIDECX3: explicit Path entry and visible-visit telemetry
+
+PR 327's generated CI on 4829453c9 failed seven cases, all from the retired assumption that
+opening the pane selects Challenges. The two `beat challenges_opened emitted` failures meant
+an expected beat was absent, not that a phantom beat was observed. All seven original cases
+passed on dev f63049013; explicit Path selection and Path-body visibility selectors made all
+seven pass against the unchanged PR app. Catch survival, checkpoint denominators/refusals,
+durable evidence, capstone gates and graph focus assertions are unchanged. No known-red added.
+
+A separate probe found a REAL pre-existing telemetry defect on both builds: `setGiMode`
+renders the remembered Path even while its parent is closed. That emitted `challenges_opened`
+and `neural_challenges_viewed` and consumed the next visit's dedupe flag. A saved Path emitted
+0→1 of each without a visit; after closing a real Path, another ruleset change emitted 1→2.
+`noteLearningViewOpen` now refuses hidden, unselected or study-owned Path renders BEFORE the
+flag is consumed. A visible Path visit still emits both existing events once per open pane.
+
+Two fresh/saved-preference regression cases fail on the old app and pass with the fix, alongside
+14 existing Challenges UI cases. Six exact source mutations are killed at named assertions:
+hidden render, drawer-open inflation, either event silenced, repeat render counted and next
+visit silenced. The patches and receipts are indexed in `tests/artifacts/sidebar_mutants.md`.
+
+SIDECX3 validation: 25/25 CI-equivalent steps, 1,370/1,370 units (zero skips), final nine
+focused regressions green. Payload remains within the existing caps: deferred 506,562 B;
+eager raw 1,366,689 B; eager gzip 342,395 B (+2,810 against the 339,585 B baseline, cap +5,000).
+The visible-visit guard adds 84 raw eager bytes and 29 gzip bytes to the owner addendum build.
+## v1.239.0 — the article as a bento dashboard on desktop (owner U55 b)
+
+U55 asked: keep today's article grid, go wider, or a dashboard of tiles? The owner answered b, Dashboard, with a
+correction to the mock (three tiles a row, capped heights): leave the node's "available" space, show all content (a
+click on a section does nothing), "three cols is great but sometimes 2 is better, and they dont need to be the same
+size", the current video taking about 2/3. His reference was diogoseca.com's 12-column bento.
+
+**Measured before (dev c4c013a6a, real served pages).** The grid was centred and capped at 902 px: x 269–1171 at
+1440 (about 270 px empty on the right), 509–1411 at 1920, and 236–916 (680 px) at 1152, where the left index first
+fits. Adjacent sections paired 6+6 or 8+4 and a short tile stretched to its neighbour's height (Mount's Statistics,
+193 characters, stood 2,784 px tall beside Related). Payload room: deferred raw 506,590 of 506,817 B (227 B), eager
+gzip +3,044 of the +5,000 cap; reader.js and reading.css are both deferred.
+
+**What shipped.** Where the index shows, `layoutNow` runs the grid from the index's 12 px clearance (the Moves row's
+left edge) to a 24 px right margin (the index's inset, mirrored) with an inline margin-left on the body; elsewhere it
+stays centred exactly as before. Spans follow type and size: Videos and any section over 2,000 characters take two
+of three lanes (`--span` 8), the rest one (4); below a 1,100 px grid, the whole width and half (12, 6). Above 640 px
+the body has 4 px rows, no row gap and dense flow; each open card spans its title + body + the token margin under
+it (`calc(var(--section-gap)*4)`) in rows, and stretches over them, so every gap is the token exactly and a card
+runs at most 3 px past its content. Spans, then all heights, then all rows: one forced layout. The ResizeObserver
+watches each card's body (late fonts and images) and is released when the reader opens another path. The adjacent-
+pair packing is deleted. After: x 236–1416 at 1440, 236–1896 at 1920, 236–1128 at 1152 (two lanes); page height at
+1440 Mount 8,348 → 6,813, Knee Slice 7,501 → 5,790, RNC from Back Control 7,135 → 6,085.
+
+**A defect the new spec found.** The first version measured a card as title height + body height. A section whose
+body opens with a heading (Mount's Related) lets that heading's 20 px top margin collapse out of the body (no top
+padding), so the row count fell ~19 px short and the tile was clipped. My own probe repeated the same sum and
+reported "fits"; the spec, which compares the tile's bottom with its content's bottom edge, went red. Fix:
+`.ng-section-body` is a flow root, so the margin stays inside it; positions are unchanged (the phone measured
+identical card for card at 390x844, 390x631 and 640x900 before and after).
+
+**Bytes.** Deferred +219 B (reader.js +12, reading.css +207) of the 227 B room: 506,809 of 506,817, the same on
+the camera base (c4c013a6a) and on dev after #320's revert (372d1ea97, merged here as 25eb0b024). Eager is untouched:
+on the merged base 1,357,830 B raw and 338,236 B gzip (−1,349 on the v1.230.0 baseline, the camera's code gone). Paid for inside
+the change: the inline margin instead of a CSS variable, a selector without its prefix where specificity allows, no
+filter over open sections (a closed card is not in the grid, so writing it is inert), and the token margin as the
+pill clearance instead of a foot rule. Kept where it was: the article's own ✕ at the old column's right edge
+(moving it to the grid's edge is ~75 B, over the ceiling; offered to the owner in U59).
+
+**Claims changed, old → new.** article-grid 1440: "each card starts at or below the previous one" → kept on the
+phone; on desktop dense flow may lift a later one-third tile into the hole beside a wide one, and the index carries
+the reading order. "Desktop really pairs cards" (two neighbours share a top) → cards really sit side by side.
+article-sections 1366: gaps between row unions → gaps from each card to the nearest card above in its columns; the
+token claim (4x, 3x on a phone, and 12 px → 48) is unchanged.
+
+**Specs that followed the layout (claims unchanged).** On the camera base, the affected-spec batch went 214 of 216:
+opening-camera "a drag mid-rise releases the board" started its drag at (1300,760), map beside the old centred
+article and now a tile, so the press was reading; it moved to the node band's right side with a premise that the
+point is map (11ad9b466). That spec left with #320's revert, so the move is recorded for #320's re-landing.
+reading-contract "reader rhythm" measured its gap to the next row union; it now measures to the card's nearest
+neighbour in its own columns. One outcome-on-cards red ("+N pops", 22 s) ran beside the ci:validate replay; alone it
+was green 3 of 3 at both widths (under 4.2 s), so it is load, not layout.
+
+**Gates (merged base 25eb0b024).** New and affected specs, one worker, private port: the direct set (dashboard,
+grid, sections, reading-contract, camera-continuity, pane-layout) 100 of 100; the remaining 34 reader-touching
+files 147 + 156 passed (1 owner-deferred fixme skipped, the one load red above re-run green). The camera-base batch
+of 13 heavier files went 214 of 216 before the two spec moves. Units 1,336 of 1,336; ci:validate 24 of 24 replayed
+steps; validate:payload OK; build-shape app rows re-seeded at 25eb0b024 (reader.js 42,451 → 42,463 B, reading.css
+10,697 → 10,904 B, the other 12 unchanged). CI runs the four core shards, @curated and gen on the merge ref (D-554).
+
+**Mutant controls** (tests/artifacts/article_sections_mutants.mjs, `SECTIONS_MUTANT_ONLY=^u55-`, each against a
+green baseline of the same spec and grep, all killed at their claim in article-dashboard.spec.ts):
+
+| control | mutation | killed by |
+|---|---|---|
+| u55-tile-capped | the mock's 520 px cap and fade on every tile | "videos is not capped" |
+| u55-rows-short | rows counted as h/5 instead of h/4 | "videos shows its whole content" |
+| u55-margin-uncounted | the body is no longer a flow root | "related shows its whole content" |
+| u55-tile-click-toggles | a click on a tile (not a link or control) toggles it | "a click on the title changes nothing" |
+| u55-band-covered | the article pulled up over the game stage | "videos leaves the node band clear" |
+| u55-width-unused | the grid keeps the centred column | body.left at the index clearance |
+
+Not covered by a spec: the visual balance of the masonry (a long last section leaves one lane empty at the
+bottom; Mount's Related, Knee Slice's Training) and the 1920 line length of a two-thirds prose tile (~150
+characters). Both are the owner's to judge on the U59 screens.
+
+## v1.241.0 — the dashboard rebuilt as rows of two, at a readable measure (owner U59 c)
+
+U59 put the R2 review's paid fixes to the owner with a ceiling raise (+1,009 B). He chose c, no raise, with a design
+note that governs: "there are two sections side by side always. Some sections can take two columns while the other
+one takes one ... The most important thing is for that dashboard, especially when it's viewed on desktop, to never
+only show one section full width. That has really poor readability, making the user's eyes scroll left and right
+successively", and the measure kept readable "through some use of padding". The DASH-R2 free fixes (8 px rows, the
+spec gaps) had shipped at d5c9c2186; the paid stack (344a1fb29: pill, Explore anchor, packer, ✕) was never pushed.
+
+**What shipped.** The masonry is gone: no 8 px rows, no `--rows`, no dense flow, no per-card ResizeObserver, no
+flow-root body. `layoutNow` pairs the open sections in source order. On three lanes (a grid of 1,100 px or more,
+1366 and wider with the index) the longer text of a pair takes two thirds and the other one third, either way; on two
+lanes, halves. An odd count makes ONE row of three thirds: the run of three, starting on a row, whose longest section
+is shortest (Mount: Principles, Prerequisites, Options; its last three hold Related, 3,981 characters). A lone open
+section takes two thirds. Rows take the grid's auto height and stretch, so the gap is the 24 px token and nothing is
+lifted: the eye, the DOM and Tab agree. Each tile's text is a centred `max-width:46ch` article column inside the
+token padding (the section titles are centred labels already); the media slot is outside the article.
+- The pill: `_readerShelfBottom` measured the bottom chrome over the old 680 px column only; it now measures to the
+  right edge, so the reader ends 8 px above the account pill (and at 1024-1151 too, where dev's centred grid already
+  ran under it). Cost: ~62 px of reading height at the bottom; the alternative (the grid ending left of the pill, P1a)
+  was ~50 B and gave up ~111 px of width at every size.
+- The place: when the grid's width changes, `layoutNow` notes the first text block at or below the reader's top and,
+  after every other write and the clamp's restore, scrolls so it is back where it was, recording that as the place
+  (the pane slides open over ~20 passes; the next pass's clamp must not undo a scroll its event has not recorded yet:
+  the first version without that write drifted 253 px).
+- ch is not characters: prose glyphs are narrower than the 0 the unit measures. 60ch gave an 83-98 character median;
+  44ch 62-65; 46ch 66-68 (2/3 tiles, real fonts, 1366-1920).
+
+**Measured (real served pages: Mount/Top, Knee Slice/Attacker, RNC from Back Control/Attacker, the Half-Guard hub,
+the RNC family; 1152, 1280, 1366, 1440 and 1920; scratch/article-dashboard/r3/probe-r3.cjs).** In all 25 page x width
+cases: no single-section row, every row fills the grid, one row of three exactly where the open count is odd, the
+visual order is the source order, nothing lifted, every row gap 24 px, 0 pill-covered samples (was 13-246 on the
+U55 b head), and Tab never steps back to an earlier tile (apart from the wrap to the top). Characters per full line,
+median (p10-p90):
+- two-thirds tiles: 65-68 (61-71) at 1366, 1440 and 1920 (was 83-98 uncapped);
+- one-third tiles: 34-41 at 1366-1440, 58-63 at 1920;
+- halves (1152, 1280): 45-47 and 53-55;
+- the odd row's thirds at 1152 and 1280: 25-33. This is the weakest measure in the design: a row of three on two
+  lanes is 281 px a tile.
+
+Explore at 1440 and 1920, 4 pages, from 15/35/55/75% scroll depth (32 cases): the first text block at the reader's
+top moves a median 1 px (max 4 px on the final build, 8db420cc3; was 354-566 px on the U55 b head). The R2 probe's own position on Knee Slice still
+moves 58 px: mid-slide a different block becomes the first at the top, because the other tile of its row reflows. A
+sticky anchor (P2's) fixes that and costs ~77 B more than the 22 B left.
+
+**Bytes.** Deferred 506,799 of 506,817 B (18 B left): reader.js 42,463 -> 42,633 (+170), reading.css 10,904 ->
+10,724 (-180), -10 B against the U55 b head and +209 B against dev. Paid for by deleting the masonry (rows, dense flow, observers,
+flow-root), with the pill fixed as a widened reserve (negative bytes) instead of a measured right edge. esbuild lowers
+`?.` to `== null ? void 0 :` for this target, so `(y || x).len` and `&&` are cheaper here.
+
+**Claims (article-dashboard.spec.ts), each killed at its claim by tests/artifacts/article_sections_mutants.mjs
+(`SECTIONS_MUTANT_ONLY='^u5[59]'`, 17 of 17, against green baselines):**
+
+| control | mutation | killed by |
+|---|---|---|
+| u55-tile-capped | the mock's 520 px cap and fade | "videos is not capped" |
+| u59-rows-padded | 100 px padded under every tile | "the row videos+overview ends at its tallest content" |
+| u55r-body-capped | the body capped at 240 px | "overview: nothing inside the tile clips its text" |
+| u55r-para-clamp | paragraphs clamped to two lines | "videos: nothing inside the tile clips its text" |
+| u59-row-alone | a section over 3,000 characters alone | "every row holds two sections, or three thirds (videos)" |
+| u59-pair-flipped | the shorter text takes two thirds | "of videos+overview, the longer text takes two thirds" |
+| u59-trio-last | the row of three always the last three | "the row of three is the shortest run" |
+| u59-order-moved | Related moved first by the grid | "the eye reads the tiles in source order" |
+| u59-tab-rtl | the rows laid right to left | "Tab stop 4 goes forward" |
+| u59-measure-unset | the 46ch column removed | "overview: no line runs past 80 characters" (104) |
+| u59-pill-covers | the reserve over the old column only | "the reader ends above the account pill" (880 > 834) |
+| u59-place-lost | the anchor's restore removed | "the first text block ... keeps its place" (309 px) |
+| u55r-link-swallowed | the tile swallows its links' clicks | the reader stays on Mount/Top |
+| u55-tile-click-toggles | a tile click toggles it | "a click on the title changes nothing" |
+| u55-band-covered | the article pulled over the game stage | "videos leaves the node band clear" |
+| u55-width-unused | the grid keeps the centred column | body.left at the index clearance (130 vs 236) |
+| u59-phone-pairs | the phone's one-column rules removed | "one column" (4) |
+
+Retired with the masonry: u55-rows-short, u55r-rows-long, u55-margin-uncounted and u55r-phone-dashboard (they mutated
+`--rows`, the flow-root body and the `width>640px` rows rule, all deleted). Not covered by the spec: "a video keeps
+the tile's width" (Mount's media slot is empty in the harness, 0x0; the slot sits outside the article column by
+construction), and characters per line in the real fonts (the harness serves fallback fonts: 46ch measures a 51-52
+median there, so the spec's band is 45-75).
+
+**Claims restored.** article-grid, article-sections and reading-contract are dev's own again: U55 b had made the
+source-order claim phone-only and measured gaps per lane because dense flow lifted tiles and left no row unions.
+Rows in source order bring back both.
+
+**What the reader batch found (51 reader-touching and camera journeys, one worker, private port).** The first
+batch went red on 7 at 390-1440 (D-338's hand and question closes, the optional chrome frame, an orb arrival); with
+dev's reader.js and reading.css swapped into the same served tree all 8 passed. The cause was the anchor: the first
+layoutNow counted as a grid-width change, and that pass writes the game parts' height, so the anchor held a text
+block still and scrolled the question and the hand out of their reserved places. `this.gridW - (this.gridW = grid)`
+is NaN on the first layout (no anchor), and the search is the article's own text, not the game parts'
+(8db420cc3); all 7 green. The eighth, article-sections "current node stays centred as the native sections cover
+it", is a CLAIM CHANGE: at 1366 the node's centre (x 608) falls in the 24 px gutter between Videos (1/3) and
+Overview (2/3) of one row, so it now accepts a card or the gutter inside a row (old/new/reason in the spec; its
+control toc-camera-gutter-restored is still killed). On the final build: 217 + 165 + 185 passed, the 8 re-run green,
+1 owner-deferred fixme skipped; one land-layers timeout in the second batch was green alone and 15 of 15 on repeat.
+The reader_handoff units' minimal DOM node gained an empty querySelectorAll (a11b6231e). Units 1,364 of 1,364;
+ci:validate 25 of 25; validate:payload OK (deferred 506,799 of 506,817 B).
+
+**DASH-R4 / DASHCX1 (2026-10-29): arrival, readable lanes, and U65.** The independent R3 review found that
+the place anchor also moved the arrival stage when Explore opened at 1152px, a window narrowed, or a phone
+rotated. It now acts only after the article has scrolled above the reader's top; hiding the article resets the
+remembered grid width to NaN. Restoring a rounded offset, with 20px of slack for the chosen block, prevents the
+pane's repeated layout passes from accumulating rounding drift. Close/reopen retains the line at both tested
+depths. The hidden-width reset alone is redundant with the arrival gate in that journey; its control restores
+both old behaviours and does not claim to distinguish them.
+
+Wide tables (four or more columns) and reference Videos count as long, and wide-table articles escape the 46ch
+prose measure. Removing the inherited static table margin also prevents Knee Slice's three-column Outcomes
+table from needing a 16px sideways scroll at 768px. Three lanes now require a 1,150px grid; thirds require an odd count and a run whose longest
+section is below 1,500 characters. Otherwise an odd section ends beside an empty lane. Grids up to 660px stay
+one column, and other grids below three lanes use halves. The default span is a half too, so an article arriving
+under a held press does not briefly show every tile full width before layout writes its spans.
+
+**U65 b (owner, 2026-10-29): end at the content.** Tiles no longer stretch to the taller neighbour. The next row
+still follows the taller tile plus the token gap; a node can show through the space below a short tile, but that
+space remains reader input. The article-sections header records this changed claim. U65's note also retires the
+duplicate Videos credits tile on game pages. The stage film retains its title, instructor credit and close
+button; Videos retains its index and closed disclosure preference. The duplicated credits list and standalone
+Watch on YouTube links are retired from game articles. Reference pages retain their tile, player and links.
+The published static source is unchanged.
+
+Final deferred payload: **506,775 / 506,817 B**, 42 B spare, no ceiling increase. reader.js is 42,444 B and
+reading.css 10,889 B, together 24 B below R3. Reusing local element/path references pays for the added behaviour;
+eager payload is unchanged. The dashboard tests now select the Explore line by geometry at two widths and two
+depths, assert phone measure and full content, and exercise the surviving film controls. Opening-camera checks
+that a drag starts on the canvas. Related reader tests use the surviving controls, exclude only the explicitly
+retired source credits, and wait for the replacement article before choosing its index or closed label.
+
+**DASHCX3 (2026-10-30): reopening Videos returns to its surviving film.** U65 removed the game Videos tile,
+but its native disclosure still scrolled to that hidden card and focused its hidden label. At 1024×900 and
+390×844, reopening left the film thousands of pixels above the scrollport and focus on BODY. The shared
+`scrollTo` path now resolves that control to the media home and the film's close button, for both disclosure
+and index navigation. The new native-input cases fail on 76c29222e without any helper scroll after reopening;
+separate controls remove the destination or focus. The grid preservation test again asserts every open
+content section has a box, exempting only the media preference control and intentional collapsed state;
+the review's hidden-Overview CSS is retained as a negative control.
+
+The shared destination/focus costs 46 B; an equivalent explicit focus guard saves 6 B under the ES2019 build.
+Reader JS is 42,484 B, CSS remains 10,889 B, and deferred payload is **506,815 / 506,817 B**: 2 B spare,
+zero shortfall, no ceiling increase. The earlier shard-1 Moves-label failure remains unproven; this fix
+changes only media-control navigation and does not alter the Moves input path.
+
+## v1.241.1 — Position orb URLs name their role (VIDEO1, 2026-10-30)
+
+The Top member of a dual pair keeps its hub id and share ordinal. `_nodeUrlPath` also used that
+id as the page URL, so a native Bottom → Top click during map play opened `/Positions/Half-Guard`
+instead of `/Positions/Half-Guard/Top`; keyboard activation of its Explore search result did the
+same. Half Guard, Side Control, Mount and Closed Guard all reproduced both entry paths on dev
+e3d407825. Fresh role-page arrivals already worked in both directions on that dev build and
+production v1.240.1: the deferred reader had its own suffix workaround.
+
+The shared URL boundary now adds `/Top` for a Top position member. Node ids, pair ids, share
+ordinals, list identity, adjacency and technique paths are unchanged. The new journey asserts
+both URL and focused member through 16 native orb clicks and four keyboard activations across
+those four positions. Together with the existing URL-arrival journeys, 20/20 tests pass. The
+`position-top-url-is-hub` source mutant is killed by both named Half Guard map-click and keyboard
+URL assertions; reader arrivals alone do not kill it. URL units additionally cover all 264
+position members and the existing 2,842-node round-trip sweep.
+
+The real dev Half Guard hub shows a visible Top video card with two authored clips at 1440×900;
+no hub/content behavior was changed. Payload: eager raw 1,370,180 → 1,370,207 B, eager gzip
+342,629 → 342,643 B (+14), deferred unchanged at 506,815 / 506,817 B. The eager policy delta is
+3,058 / 5,000 B above its accepted checkpoint; no budget was raised. Browser runs used private
+port 18174 after heavy-advisory GO, outside the build lock.
+
+**VIDEO1 CI follow-up:** the automatic reader resolves the player seat before asking the role-URL
+helper: a Bottom roll can still carry the Top representative as its landing node. This preserves
+the existing Bottom-article contract. Eleven existing arrival, Explore, late-reader and map-input
+assertions now expect the requested explicit Top path while retaining their node identity,
+camera, history, race and hit-testing checks. A second source control restores the reader regression.
+
+## v1.241.1 — Title-fix CI contracts (VIDEO2 CI, 2026-11-04)
+
+All three failures in #331's run 41829898270 were stale test contracts. At both 1440px and
+390px, the unknown-section fixture supplied only a body, unlike all 6,102 built HTML pages,
+which have nonempty head titles. Its missing title correctly withheld the new atomic URL/title
+publication. The fixture now supplies a complete page and asserts its pathname and title as well
+as the original anchor hash, section reopening, focus, content preservation and paused state.
+The original anchor cases failed 10/10 on 862bee788 and passed 10/10 on dev e3d407825.
+
+The map-arrival camera assertion sampled two clocks: the simulation had settled against a
+586px boundary before native reader layout moved that boundary to 532.90625px. The original
+spec reproduced the exact CI discrepancy of 2.7017383711347023 on both heads: twice in 30
+fixed-head repetitions and once in 20 dev diagnostics. Waiting for the reader's actual layout
+publication before pumping the camera fixes the observation order. It does not poll the desired
+framing, add a delay or change any zoom, clearance or two-unit target bound. All three repaired
+cases pass ten repetitions each (30/30, zero skips). No application source, payload ceiling,
+version or app fingerprint changes in this follow-up.
+
+`tests/artifacts/title_ci_mutants.json` records two compiled source controls:
+`drop-reader-anchor-url` fails the original `#legacy-notes` assertion at both widths, with the
+camera control green; `suppress-staged-camera-retarget` fails the original re-aim assertion,
+with both anchor controls green. Healthy and restored controls pass 3/3 each. Source hashes and
+all 42 asset hashes (14 files across dist, Quartz static and public) match the accepted title
+receipt after restoration.
+
+The complete affected `article-sections` and `url-arrival` files pass **53/53** cases, with zero
+skips or retries, on the restored bytes. Browser runs use one worker, anchored file filters and
+private port 18274 after heavy-advisory GO; every app and mutant build holds the shared lock.
+
+## v1.242.0 — SIDECX5: catch input ownership and the article-dashboard merge
+
+The delta review's three defects are fixed. Settings backdrop dismissal no longer
+resumes a catch behind an open drawer. A closing tap still preserves replay, while
+a continuous pan or pinch stops it. Wheel input on the catch drawer icon stays
+on that control. Seven native-input cases fail on the original 1a1fd494d bundle
+and pass after repair; seven source controls each fail their named assertion.
+
+PR #323 landed on dev e3d407825 and was merged into feat/sidebar via 9fcc4e2a8,
+without rebasing. Both archive additions and version 1.242.0 were retained. Of
+245 integration cases, six failed: four obsolete account-pill premises, one
+reward-toast fixture race, and one real 1152px reading-position shift. All six
+pass on current dev. The corner-obstruction cases now create a real share cue;
+the tile fixture waits for its existing reward before measuring title input.
+The reader anchors the first block starting within its viewport, preventing a
+partly clipped preceding block's wrap from moving the visible line by 20.5625px.
+The existing 8px allowance stays unchanged. Final affected checks pass 75/75;
+the anchor control and four existing reader controls also fail named assertions.
+See `tests/artifacts/sidebar_mutants.md` for exact controls, scope and receipts.
+
+
+## v1.242.0 — Documentation budget after the article-dashboard merge
+
+The combined reader and sidebar documentation reached 73,927 characters against the
+unchanged 72,000-character ceiling. The current rules remain in Neural.md in shorter
+form. The former wording below preserves implementation history, test narratives and
+historical coverage measurements; those counts are not a new corpus audit.
+
+### Keyboard evidence narrative
+
+Desktop opening and the search shortcut focus Search immediately, before the next keyboard
+input. Cold index arrivals preserve the focused Practice/Path row. The curated keyboard cases
+in `challenges-ui.spec.ts` hold both indexes, advance pending timers while Path is focused,
+then use Tab/Enter to select Black belt and Close; focus returns to the opener.
+
+### Path telemetry explanation
+
+Path emits `challenges_opened` and `neural_challenges_viewed` on its first visible visit in
+each open drawer. The list, saved view preference and hidden ruleset re-renders emit neither
+and cannot consume that visit. Returning to Path or re-rendering it within the same open
+drawer does not count again; closing the drawer permits the next deliberate Path visit.
+`path-visit-telemetry.spec.ts` pins both event streams with fresh and saved preferences.
+
+### Feedback rationale and test inventory
+
+U61 c leaves About out. U67 a merges the two feedback doors into one **Feedback** form: one
+text box, optional **Technique request**, and the existing checked **about: <current page>**
+context. Send keeps `neural_issue_reported` for general feedback and
+`neural_technique_requested` when the player marks a request. Both retain `text` (≤500), `node`
+(or null when unchecked), `signed_in` and `app_version`; the existing `track()` variant is unchanged.
+Keeping the event names and payloads preserves their telemetry consumers and history. Empty Send
+keeps the form open without a capture. `feedback-modal.spec.ts` covers both kinds through the
+same row, context opt-out, guest/session properties and the submit controls.
+
+### Explore migration rationale
+
+**Explore** — the Explore fold itself starts open; its six category sections start collapsed; every
+fold persists. Search ranks results before sections; filter to `rep` to avoid duplicates. Your lists sit
+after Path, in their own section, and use the shared three-rung indent. The drawer's opening is the
+Explore entry, so it asks for the Systems and Concepts indexes (deferred, never at boot), as dev's Explore
+tab did. Your lists folds like the other six (v1.196.1, key `Your lists` in
+`exploreOpenSections`; an absent key is closed, so existing users need no migration). The one
+difference is `_revealLists`: making, adding to or restoring a list, or a saved class lit by a
+share arrival or the cue, opens the section for the session without writing the map — the older
+rule that you SEE a technique land after adding it. Systems have counted topic branches and indented leaves, like position
+families. Topic folds start collapsed, stay independent, and survive detail/back navigation and
+section folds for the session.
+
+### Inline deck keyboard defect history
+
+**Every inline deck answers the same four keys** (v1.175.0). The roll history's rows, the session
+queue and the corridor's lesson decks all register the same `_miniReg` handles, so `←/→` page
+cards, `↑/↓` walk techniques (in the corridor: the ladder's lesson rows, in ladder order, skipping
+folded belts), `Space` flips and `⏎` grades *Got it* and walks on. The corridor was
+the one surface with none of it: `openMini` never claimed `_focusRow`, so there was nothing for the
+keys to resolve — and because the ladder is built entirely out of buttons, `Space` after a click on
+▸ went to the ▸ and shut the deck. **Opening an inline lesson deck therefore moves focus onto the
+deck BOX** (`tabindex="-1"`), which owns neither activation key, leaving Tab-then-Space on a lesson
+row exactly as it was. A corridor repaint — any evidence beat, and a grade fires one — rebuilds the
+registry with the rows it indexes and re-opens the deck that was open, on the card it was on;
+`_miniDeck` grades AFTER walking the deck on, so the rebuild paints the card the player is owed
+rather than a dead one.
+
+### Historical score-coverage counts
+
+Until v1.145.13 only the attacking third was weighted: 1,326 Defender and 272 position decks —
+**9,071 cards, 41.4%** — scored zero. **Studying a position now counts, and counts heavily**: 272 decks share a third of the mass, so one is worth
+~4.7× an average technique deck and 14 of the 20 heaviest decks are positions (`Side
+Control|Top` leads).
+
+### Historical ruleset score omission and coverage snapshot
+
+**Wire.** `curriculum.scoreWeightsByOrd` is `{div, p:{o,r,gi,nogi}, t:{o,gi,nogi}}` — each seat
+once by node **ordinal** (v1.204.3), one int array **per ruleset**, each `t` entry carrying **both
+seats**. `ngWireScoreWeights` (`wire-keys.src.js`) is the one expander; the emitter
+round-trips it per frame and refuses if the mirror stops holding. Per ruleset (v1.146.0): 52
+techniques are attemptable only in gi — the default — and 16 only in no-gi, so a folded no-gi solve
+scored them 0 in both seats (**104 decks, 739 cards**). `o` is the union, a **zero means "not
+attemptable here"**, and `frame` is REQUIRED — a default is how that survived 77 versions. `gameScore` memoises on `(_stageVer, frame)` and the expander per frame, or the first read
+pins one ruleset for the session. Gated by `validate:score-coverage -- --gate`; coverage is now **99.66%**.
+
+## v1.247.0 — Exact clips for submission escapes
+
+The owner chose a demonstration for each named escape on 4 November 2026 while retaining the
+v1.230.0 prohibition on substituting the submission's general defender reel. `_choiceMediaTarget`
+now identifies an escape by its submission and exact card label, for both the player's choices and
+the opponent's threats. `_choiceFront` reads only
+`info.perspectives.defender.escapes[label][0]`, requires `front === true`, and returns null for a
+missing or unapproved entry. The existing card media and Watch player consume that row, including
+its `start`; the placeholder remains when there is no eligible clip. Other choice fronts retain
+their existing role and exactness rules. Content plumbing and curated clip data ship separately.
+
+`e2e/journeys/escape-clips.spec.ts` supplies explicit dossier fixtures because the ordinary harness
+serves empty dossiers. It counts the fixture request and pins the two distinct labels, first-row
+selection, timestamped Watch, opponent threats, absent maps, unmatched labels, unapproved first
+rows, later fronts and non-boolean approval. It does not claim coverage of real video availability
+or editorial accuracy. `tests/artifacts/escape_clips_mutants.py` names the source changes and the
+journey each must fail, using an unaffected passing browser control and the shared runner's exact
+source restoration checks.
+
+Local gates on 4 November: the seven new journeys and 58 affected journeys passed (video cards,
+submission choices, roll execution, card click contracts and the first-hand payload gate), one
+worker on a private port under the shared build lock. The version-normalised `neural.js` fingerprint
+grew 316 bytes (675,399 → 675,715) against base `1308bf0dd`; its actual emitted size is 675,625 bytes.
+The earlier 226-byte figure mixed raw and normalised sizes. `tests/artifacts/first_hand_payload.json`
+records 361,961 core gzip bytes, 3,335 below the accepted 365,296-byte baseline; the 6,000-byte delta
+cap and all payload thresholds stayed unchanged. The full site build, app refresh and payload
+validator passed.
+
+All ten named source mutants were killed by their specified journeys, each with an unaffected
+passing browser control: `escape_target`, `escape_queue`, `escape_label`, `escape_first`,
+`escape_start`, `defender_reel_fallback`, `escape_front`, `escape_later`, `escape_truthy` and
+`threat_escape_excluded`. Results and source hashes are committed in
+`tests/artifacts/escape_clips_mutants.json`. The runner restored the source byte-for-byte and
+rebuilt the healthy bundle; there were no surviving mutants.
+
+## v1.242.1 — Merge the drawer release into the URL/title fix (V331DEV1)
+
+PR #331 merges dev 1308bf0dd (the v1.242.0 drawer release) without rebasing.
+The role URL, exact tab-title writer and repaired CI contracts remain alongside
+the drawer and reader-position changes. Both package manifests now use 1.242.1;
+the following app-only fingerprint commit regenerates its rows from this clean
+merged source. The guarded site census is unchanged; no capture is required.
+
+## v1.244.0 — Current video theater and the ask line (VIDEO1)
+
+The ask text follows the visible Moves cards at the existing 6px section-spacing token on
+mobile and tablet, with its `0 0 0 3px !important` padding retained. The media owner supplies
+the reading stage's geometry: below 1152px of available pane width, its own video fills the
+reading column (680px maximum with 16px phone gutters); desktop keeps a 400px film below
+the collapsed hint and beside the expanded question. Technique media remains outside
+question, flashcard and multiple-choice cards.
+
+Play loads the YouTube API on demand and requests autoplay. Only the video rectangle moves
+into a root-portaled native dialog: a 360ms zoom to 95% viewport width, capped by 95% viewport
+height at the clip's aspect ratio, with a 60% black backdrop. The card, title and score stay
+in their measured place. Reduced motion skips the animation. Escape, backdrop and the
+visible Close destroy the player and restore Play focus; modal focus, graph input guards,
+pointer-capture cancellation and keyboard priority isolate playback from the underlying map.
+The iframe is constructed in its final home, so resize never reparents its live document.
+While focus is inside the cross-origin YouTube controls, Escape stays with the provider;
+Shift+Tab back to Close restores the Escape exit. Close and the dim remain pointer exits.
+
+VIDEO1's source controls cover gap, tablet/desktop widths, both fit limits, rectangle-only
+zoom, dim, autoplay, every exit, entry/return focus, graph/keyboard guards and reduced motion.
+The shared reader's layout call replaces its local media-width decision without deferred
+growth. Existing reference-film continuity and choice-video behavior remain independently
+exercised; current-film and pane journeys now assert the requested theater lifecycle.
+
+The three shard-1 failures on the original theater head were stale spacing assertions.
+Opening Explore at 1152px or narrowing 1440px to 900px preserves the reader's scroll and
+Moves position while the question moves to the requested six-pixel visible gap. The 390px
+section journey now measures painted card/text edges instead of wrapper padding. Both
+journeys retain their scroll, section, DOM-identity and overflow checks. The compiled
+`responsive-ask-gap-doubled` control targets all three replacement assertions, with an
+unaffected desktop film-width case. The package lock now agrees with the reserved 1.244.0
+release already named by the package manifest; no budget or baseline changes.
+
+VIDEO3 makes the collapsed desktop question one hint line inside the choices row's bottom
+band, using the same six-pixel token as mobile and tablet. Only the question is trimmed;
+Answer for Points stays whole. Reveal restores the full question and the row's original
+padding without moving its choices. The real Side Control question is checked at 1024,
+1440 and 1920px, with separate controls for fitting, attachment and padding restoration.
+The long Twister Control question keeps its two-line tall-phone allowance and now uses one
+line on desktop; the expanded card still shows the complete authored question.
+
+The new stage height exposed a reader-place bug at 1152px: its anchor could start above the
+viewport, then grow by a wrapped line and move the next visible paragraph by 20.64px. The
+reader now anchors a fully visible block. The existing eight-pixel bound, arrival gate and
+reopen gate remain; a source control restores the clipped-block selection.
+
+## v1.246.0 — per-escape clips: `defender.escape_clips` (owner ESC1)
+
+Every submission escape card showed "Video unavailable" by design: 1,049 choices across 287 submissions, because
+v1.230.0 forbids a destination's video or the submission's general defender reel for a named escape. The owner chose a
+clip of THAT escape or nothing. This change is the content side; the card itself is a separate app PR.
+
+**Shape.** `defender.escape_clips: [{escape, clips[]}]`, joined on the exact card label `compile_defenses` prints.
+- Not on an outcome: Americana from Side Control has 4 cards on 2 outcomes.
+- Not inside `defensive_options[i]`: that row is `details[i]`, which `response_identity` hashes into each defense's MDP id.
+- Emitted as `perspectives.defender.escapes` in the dossier chunk, which `_drainChoiceMedia` already hydrates, and NOT in
+  submission-details, whose bytes feed `detailsHash`. `scripts/submission_choices.py` and `regenerate_neural_data.py` are
+  untouched for the same reason: both are hashed into MDP provenance.
+
+**Failure modes, each with a test in `tests/clip_data_contract.py`.** A row naming no card fails validation and names
+itself. The AI schema never sees the key, `restore_clips` puts it back, and a reworded action that would orphan a row
+fails preservation. `_clips.iter_clips_arrays` yields each row, or clips-verify would report full coverage while skipping
+them. The emit prints a positive join count and fails under `ESCAPE_CLIP_JOIN_FLOOR`.
+
+**Mutants.** 9 of 9 killed by their named tests: rot check skips rows, AI schema keeps the key, restore skips the key,
+reword not caught, orphan passes, duplicate row passes, front rules skip rows, dossier drops escapes, override join broken.
+
+**Bytes.** One clip row is 131 B mean and 170 B max on the wire, measured on the 268 real defender rows of submissions.
+Dossiers count against `chunk_max_bytes` (40,000; largest submission chunk 25,499), not `deferred_raw_bytes`.
+
+**First data.** Escape labels are micro-actions ("Grip your own belt") that no title carries, so title search cannot find
+them. Each defence video's captions were indexed with timestamps, cards were matched to indexed moments, and a second
+independent judge read the excerpt. Each clip starts at the second that shows the escape. Transcripts stayed private.
+
+**Review (R1, R2).** The review found two gaps. Three bots edit source JSON directly, and a file that loses every clip
+still validates, because `clips` is optional: `scripts/restore_curated_clips.py` now runs after each direct edit and
+before validation, with HEAD as the snapshot, and reverts a file a reword left orphaned. `restore_clips` moved to
+`_clips.py` so that script and the paid pass share one implementation. The corpus validator now prints the join and fails
+under `ESCAPE_CLIP_JOIN_FLOOR`, since per file a record with no rows is fine and only a corpus walk can tell "all joined"
+from "nothing to join". Mutants now 13 of 13.
+
+**Technique clips, folded in (CAPORDER1, one capture for both).** The gap was 1,623 of 2,578 halves: 1,478 empty, and 145
+with clips but no approved front, which `_choiceFront` refuses. Dead clips were not a cause: the November rot check passed
+1,659 of 1,659. This batch gives 325 of those halves a front with 423 clips, and 67 escape cards a clip.
+
+Method, for every pick: search with queries written per technique (two routes, 20 per half at most), a first judge on
+title, channel and description, an embed check, the full description and captions fetched fresh, then a second independent
+judge reading them. October's ban list was rebuilt first, 443 ids everywhere plus a per-half ban, so nothing that curation
+refused comes back. A clip ships only with an accept and read evidence. 16 accepts that rested on a title alone are held
+for a visual check: that is the evidence class October's QC failed on. Of the 100 most-dealt halves 41 have a clip; most
+of the rest are defender halves of transitions, which instructors rarely film, and "no video beats a wrong one" stands.
+
+**Spec (SPEC334).** `defending-landing.spec.ts` named five pages as "the authored clip gap", and this PR gave one of them a clip, so
+the reel correctly appeared and the spec went red: a stale fixture, not a break. The claim now picks its pages from the wire
+(`defenderReels()` in `e2e/decks.ts`): any authored defender half with zero clips, first, middle and last, failing on zero. A new
+control proves a filled half does mount its reel in wire order, which the gap tests alone would not notice. Mutants, measured:
+`_landFilmClips` returning [] and `_renderLandFilm` dropping its length check turns all three gap tests red with the control green.
+Either guard alone leaves all three green, because each covers the other. The spec file is 33 of 33 clean.
+
+## v1.247.1 — The deploy's curated gate: a keyed loader and an unpainted label
+
+DEPLOYFIX, 2026-11-05. Every `deploy-dev.yaml` run from #327 on failed its curated gate, so the dev
+preview stayed on v1.241.0. Both reds were specs. No app code changed, and neither is a production
+loss. Both had passed their PR shards, for two different reasons.
+
+**`path-visit-telemetry.spec.ts`: stale spec, red on every deploy since #327 (5 of 5 logs read, line 57).** PR shards
+build keyless and deploys build keyed, and the key changes exactly one output: a one-file fixture
+built both ways differs only in `postscript.js`, and the keyless fixture's copy is byte-identical to
+the full build's. The fixture took the key through `quartz.config.ts`'s own `dotenv/config`, pointed
+at the root `.env` with `DOTENV_CONFIG_PATH`, so it reached no command line and no output. That gave
+a clean A/B on one bundle: keyless 2 of 2 green, keyed 2 of 2 red at CI's line with CI's
+`beats: 1, events: 0`. On a keyed build `posthog.init()` overwrote the spec's pre-boot `{ capture }`
+spy with the loader's queue shim, which threw `t.push is not a function` on the plain object, and
+`track()`'s try/catch swallowed that. With no stub, a visitor's `window.posthog` queue held
+`["capture","neural_challenges_viewed",{"variant":"neural"}]` exactly once, beside one
+`challenges_opened` beat. **Where that proof stops:** at the SDK's queue. The harness aborts remote
+requests and posthog-js is not installed here, so delivery from the queue to PostHog was not run.
+
+The spy is now that queue: an array, which is the loader's own `window.posthog||[]` fallback. A keyed
+build runs the real loader and shim over it; a keyless build runs a stand-in pushing the same
+`["capture", ...]` shape. It stays an init script, because the post-boot `page.evaluate` spies in
+`feedback-modal`, `footer-feedback` and `systems-surface` would not see the boot, and "boot is not a
+Path visit" is a claim about the boot. Those three were never affected, for the same reason.
+
+**`article-sections.spec.ts` D-338 768px: spec race, red on 2 of those 5 (line 514).** Both red runs
+were the fast ones: its neighbours took ~700ms there against ~1.0-1.3s in the three green runs and
+in the three earlier deploys sampled.
+Throttling (6x, 6 of 6 green) goes the wrong way, because the race needs the client to be faster.
+Both failure frames show Diamond Guard Top, not Loop Choke, with no `advance()` in between. `rng()`
+is unrigged there, so a fixed destination meant fixed geometry, not a restart.
+
+The ✕ unhides the label at the top of the game column (y=74, over the map) and `reader.layout()`
+moves it (y=466) on the next frame. `clickByMouse` measured (384,96), `elementFromPoint` agreed, and
+the press then landed on CANVAS and went through `attachInput`'s tap router into `stageRollAt` of the
+orb under it. y=74 is never painted: a MessageChannel task posted from a rAF reads each rendering
+update as it finished, and in 24 of 24 runs across three widths `layoutNow` moved the label inside
+the first update, which painted its final place. So a script can reach that spot and no player can.
+`layout-shift` still reported 74 to 466; that is probably hit-testing forcing pre-paint, which is
+not verified. The direct sampler is the evidence. Pressing at once, without the asserts between:
+missed 4 of 10 at 768px, 1 of 10 at 1024px and 1 of 10 at 390px, each on its own fixed node (768px:
+Diamond Guard Top, as CI). After `j.readerLayoutSettled()`: 30 of 30 reopened. Why CI only ever lost
+at 768px is not established; it has the highest local rate. Every other `[data-game-open]` click
+already waits (`reading-mode`, `reading-contract`, `land-layers`).
+
+| mutant | arm | result |
+|---|---|---|
+| the six `sidebar_path_mutants.json` Path mutants | keyed and keyless | each KILLED at its named assertion |
+| `path-keyed-queue-dropped` (`track()` bails on `__SV`) | keyed | KILLED: "the first real Path visit emits one of each event" |
+| same | keyless | SURVIVED by construction; only the loader's queue has `__SV`. **A PR cannot see this; the deploy can** |
+| neutral string | keyed and keyless | green |
+| `label-reopen-dead` (the label's toggle a no-op) | keyed, 768px | KILLED: the label's `toBeHidden` |
+| `reader.layout()` held until the press's own `pointermove`, spec as fixed | keyed, 5 widths | green, 5 of 5 |
+| same, the settle line removed (the only difference) | keyed, 3 widths | KILLED, 3 of 3: line 514, CI's locator; 768px on Diamond Guard Top |
+| `reader.layout()` delayed 150ms, the settle line removed | keyed, 3 widths | NON-KILL, 3 of 3 green: the press lands before the layout too, and hits the label |
+
+**The class that remains:** PR gates are keyless and deploys keyed, so a keyed-only red first shows
+after merge. Nothing here closes that. Hardening `clickByMouse` to re-measure at press time would
+close the other class for every spec, but it costs frames on every press across a 30-minute gate.
+Neither was done here.
+
+## v1.248.0 — Practice in the Challenges look
+
+LADDERP1 and LADDERC, 2026-11-04 and 05. Step 1 of the belt ladder, under the owner's U76, U86 and U87.
+Practice takes the Challenges corridor: the first flashcard is usable at once, due reviews come first,
+current and earned belts open, earlier belts sit behind a faint disclosure at the end, and a future
+belt is inert only inside Path and Practice. Reviews and deliberate new work share one uncapped session
+and one distinct-question ledger. Path keeps its original UI until Practice is tight (U86). No P2 to P4
+work, no ceiling raised, no setting deleted.
+
+The receipts are `tests/artifacts/ladder_p1_capabilities.md` (22 P1 dispositions extending the
+sidebar's 145-row inventory), and `tests/artifacts/ladder_p1_mutants.md` with its `.json` (26 of 26
+named kills).
+
+**The session contract changed, and one unit test still described the old one.** `openPlanSession` used
+to open a due-only queue and re-enter itself as `("new", false)` when the planner landed. It now frames
+one Practice session from the eager debt and `_practiceAppend` extends it. `gameplan_study_host_app`
+was never in that job's focused-unit list, so it stayed red until the full `ci:validate` replay: two cases
+on `ngGameplanDebt is not defined`, its `new Function` scope having no such binding. The harness now
+passes the real modules in. The `reopened` receipt has no successor call to count, so the case reads the
+effect it stood for. It is stricter than before: the plan orders its new deck FIRST, so an untouched
+queue taking the plan and an engaged one appending behind the open card cannot agree.
+
+| mutant in `neural/src/app.src.jsx`, via `BJJ_STUDY_APP_SOURCE` | result |
+|---|---|
+| adopt drops the `_sessionInline()` guard | KILLED: `open-deck` |
+| `engaged` drops the reveal | KILLED: `revealed` |
+| `engaged` drops the grade | KILLED: `graded` |
+| `engaged` always | KILLED: `untouched` |
+| `engaged` never | KILLED: `graded` |
+| the cold landing skips `_afterPress` | KILLED: "the landing waits for the press" |
+| the landing requests study | KILLED: `untouched`, its `calls.requests` |
+| `studyIntent !== false` dropped | KILLED: the request list |
+| a due entry requests study | KILLED: the request list |
+| a second entry replaces the session | KILLED: "one visit owns one session" |
+
+The first pass of that table had one crash-kill (a `TypeError` on an absent `_paneOwed`) and one survivor.
+Both were closed in the same change: `?.length` makes it the named assertion, and the last row is new.
+
+**`docs/Neural.md` crossed its 72,000 ceiling by 508**, on this version's own text. The ceiling stayed.
+Moved out as narrative, verbatim: recognition-first's owner quote, "It should have shown me multiple
+choice … then I finally start to show actual Anki flashcards"; `validate:mc` 96.3% → 100.0% viable,
+worklist 110 → 0; the clock's "a first-time Guest can land on TOO SLOW · −4% before ever interacting";
+and "v1.155.3 seated the board on a member instead; that seat was itself a roll nobody asked for, and
+the owner's reference law replaced it."
+
+**A compaction cut the owner's copy, and the run that would have caught it had already finished.**
+The implementation commit shortened "Why these decks?" to "Overdue reviews mix with current-belt
+practice. Shared questions count once." to fit the eager cap, at 20:04, after the 19:20 curated run. That
+removed item 9's plain copy (owner, 2026-09-30) and its caveat, "that is not a measure of real grappling".
+The plan's ledger says the fold is retained, and nothing declared the rewrite. `gameplan-learning-loop`
+went red on the first curated replay after the merge. The spec was right, so dev's exact words came back
+and the caveat gained its own assertion, because the first sentence had been the only pin.
+
+A scan of every string that left the app against dev (126 literals on removed lines, 11 user-facing)
+sorts the rest. "All done, come back tomorrow" and "Find more weaknesses" are the plan's declared
+replacement of a dead end with "Keep practising". Still reworded and declared here: the three eager
+`planSummary` fallback lines, whose meaning and caveat survive and whose originals remain in
+`gameplan.src.js`, and three empty states merged into "Nothing to practise here right now."
+The scan's first version reported 0 because a multi-line backtick pattern ate the file; the known
+string as a required positive control is what exposed that.
+
+**Three reds outside the affected list, on the PR's first CI run.** `recall-badge` was a second silent
+loss: a locked section `continue`d past the Black reward row, hiding the owner's "see yourself walking
+toward" advert from everyone below Black, and the ledger cited that very spec as proof it was kept. One
+builder now serves both paths, and the row is text only, so the section stays inert. `sidebar` was stale:
+the compact head is the plan's, so its title claim moved to the card section's exact heading.
+`session-scroll` had lost its surface, because Practice hides every row but the open one. The row walk
+stayed on a real inline door, `openSession("reviewing")`, and the owner's sentence gained Practice's
+own picker: a queue button far below the card must bring its deck back into view. Mutants, one build:
+a button in the locked section, a reworded heading, and the jump without `_scrollFocusedDeck`, each
+KILLED on its named assertion. The lesson: an affected list is a guess at the blast radius, and only the
+whole suite measures it.
+
+**REV336's fix round.** An independent review drove the page with a mouse and found what every text pin missed: a corridor stale after a lesson, a card its own title row blanked, an end card 3,500 px down. All fixed; the mutants are in `tests/artifacts/ladder_p1_mutants.md`. A pin that reads text says nothing about where it stands.
+
+**Eager gzip checkpoint (LADDERPAY1).** Dev's own 343,788 B, +4,203 from 339,585; this version's
+merged tree stood at +5,755, over the 5,000 B cap. See the commit for the method.
+
+## v1.249.0 — The reader's place: the rounding's remainder (combined #332 validation)
+
+Merging dev v1.247.1 moved Mount/Top's page height, so the 1152px 30% case of `article-dashboard` landed its line
+4.9px under the reader's top instead of 38px, and went red deterministically, 4 of 4 identical (78.90625 -> 47.953125,
+31px against the unchanged 8px bound). The spec was right. A frame trace of the anchor showed the mechanism: each pass
+rounds its correction and re-measures from where the last pass left the line, so the remainders added up across one
+pane slide (78.9 -> 73.95). The line then fell above `>= top`, lost the anchor to the block below it, wrapped from 51px
+to 77px and jumped. Carrying the remainder to the next pass holds it within half a pixel: all four depth cases now move
+0.05-0.33px, where 1152px 60% had been moving 6.3px inside its bound. `reader.js` grew 37 B (deferred, 50 B of room).
+
+The depth cases reach a landing only by the page's height, which is why a merge could expose this and why the
+clipped-block control stopped having a clipped block to act on. Two journeys now set the landing by geometry, on a list
+item that wraps as the pane opens, and both reader controls aim at them. Known limit, not covered: a line starting
+within half a pixel of the reader's top can still lose the anchor.
+
+On this merge `validate:build-shape` first failed with 103 extra static files. All were stale content-addressed MDP
+generations in this worktree's ignored outputs (`regenerate:mdp` skips existing files, D-285): the 65 files reachable
+from the manifest are exactly the census's count, and removing the rest passed the gate with no baseline change.
+
+The first complete E2E run on the combined head then failed one journey: `panic-card` read the drill 22px above the bottom
+of the options row. That number was the spec's: VIDEO3 grows the row's box to hold the hint, and the drill was 4px clear
+of the cards. Checking it found what the row's box had been hiding. Between the choices and the film there were 40px,
+and Answer for Points has a 44px target, so its box lay over the bottom 8px of the choice above it, on landings and
+drills alike, at tablet and desktop widths and on short phones. A press there opened the question instead of playing the
+move. Nothing painted it and no press at a card's centre meets it; a 4-9s drill is the worst place for it.
+
+The target now hangs below its label and the film sits one section gap lower, so all 44px fit. That second half is the
+part a first repair missed: moving the box alone put 5.6px of it over the film's Watch and Hide controls, which only a
+measurement on real content showed, because the harness has no film. The rule follows `_fitAskLine`'s one-line case, so
+only a tall phone keeps the old box: 390x844 was clean, 390x631 was not. `ask-line` now samples every choice's bottom
+edge and the film's top edge at six sizes, `panic-card` measures the cards and samples their edges, and six controls
+pin it. The film moving 6px is a visible change, the only one here.
+
+## v1.249.0 — Documentation budget after the video theater (REV332 S4)
+
+`docs/Neural.md` stood at 71,996 of its 72,000 ceiling, so the theater, the 1152px pairing and the desktop one-line
+question had no room, and the review found the spec silent on all three. The ceiling stayed. Each rule below remains in
+Neural.md in shorter form; these are the passages as they read before, verbatim, because they carry the owner quotes and
+retirement notes the current rule no longer needs.
+
+- still force-enables the toggle early. **The White Challenges cue card is retired** (owner) — the challenge engine and the pane's Challenges tab are untouched; `renderChallengeCue` survives as a remover. **Win chance
+- **Every navigation starts a calm journey** (owner 2026-10-15, v1.227.0, superseding v1.134.0):
+- drill arrows and refuse `_landHidden()`. The retired dots/reveal pager and undeployed `landAnswers` setting have no reader. Paging replaces
+- v1.231.0 (`feedback_owner_rules_reverse_shipped_contracts`): **Your move** replaces Inspect and its option sheet; the reversal history is in the archive. A title
+- included (v1.218.1; they used to clear the hand and show nothing). Its face
+- The separate renderer and red skin are retired. Defense always
+- The "+7 Tilt toward winning" legend retired; the meter is 165×7px.
+- U47 d + U52 b (v1.236.0, owner 2026-10-27/28; supersedes U34 a's in-card **Reveal / Answer for a boost**): a landing
+- The clock times the QUESTION, never the hand (v1.133.0, owner: "pressure should not be on the choices … the choices are fun to click"). `decisionSec` (the "Answer time" slider, 5–15s, flat — the v1.123.0 Hick's-law knee died with the hand clock) arms
+- pauses** (v1.134.0, owner: "that's our test to the user") — it drains
+- the platform's job); the "see more" hint that also scrolled it was deleted in v1.173.0. A drag
+- **Hesitating costs nothing but the question.** The v1.129.0 hand-over on expiry (`hesitated`) was retired in v1.133.0 with the hand clock: expiry is a missed answer, never a lost turn.
+- flash and the number change only. That retired v1.138.0's expiry lease (`_evExpiry`): nothing outcome-shaped is left to pin. And **one subject per label**
+- **Every ▶ asks, and the seat is the player's** (v1.197.0, owner: "it says we start on top, but what if i wanted to start on bottom?"). `confirmPlayFrom`
+- inside it stay there (⏎ used to reach the option sheet below and commit its move). A graph tap
+
+## v1.248.2 — K2 batch 1: 67 approved outcome fixes and their page text
+
+67 transitions, plus 82 text follow-ups on 42 rows. Only F68's table was re-cut; 3 success rates and their votes
+seeds follow relabelled rows. F17 was held: a review note called Guillotine Control/Bottom's moves the trapped
+player's, every gate passed with it applied, and two rulings on file said otherwise, so a green gate proved nothing there.
+The four moved FLOW ratchet rows carry their causes in `tests/artifacts/flow_validation_baseline.json`.
+
+## v1.249.0 — The theater's review round (REV332)
+
+An independent review of #332 found no blocker, four should-fix items and nine nits. The seat that reviewed it fixed them.
+
+**A reward notice under the theater was used up unseen (S1).** The notice is ambient, at z 14, and the dialog is in the
+top layer. With three escapes minting a coin while the theater was open, the notice was covered at all three sample
+points, timed out at 5.3s with the theater still open, and never came back. The control showed it normally. D-326 had
+already solved this for a move, so the theater reuses that hold and release. The coin or patch was never lost, only the
+notice. The trigger is narrow: a notice showing at Play, or `white.film` being the last open white challenge. The first
+spec draft polled for the notice to go, which passes without the hold because the notice times itself out at 4.8s inside
+a 5s poll; the assertion now reads once. The choice-watch dialog has the same gap and is out of this round's scope.
+
+**A blocked provider script left the theater on its poster (S2).** Nothing settled `ytApiReady`, so `fail()` could never
+run: 1 theater, 0 iframes, 0 links after 6s. The review's proposed fix was incomplete. Clearing `_ytPromise` alone would
+have made a retry wait forever, because the id check would find the old tag and skip the request, so `onerror` removes the
+tag too. `fail()` now fires `video_load_failed`.
+
+**The rewrite had dropped three film proofs (S3).** `reading-media-placement` went from 82 to 68 assertions and its comment
+said the reference cases kept them. They did not: no reference case moved a playing film without `moveBefore`, and none
+pressed Resume. Resume is now pressed by mouse, and the fixture cases with no `moveBefore` move a live player again.
+
+**`docs/Neural.md` never mentioned the theater (S4).** It stood at 71,996 of 72,000. Fifteen passages moved to this archive
+verbatim (the entry above), the ceiling stayed, and the file is at 71,929.
+
+**The link and the article's close (N6).** The overlap was 91 px² on dev and this PR had grown it to 142 px² of a 1,936 px²
+target. The close now takes that corner by stacking, in the eager CSS because `reading.css` has 13 B of room. 3 px² remain
+at its rounded corner, outside its own hit shape, so they were never its presses; the spec counts only points where the
+close would have received the press.
+
+**A recorded non-kill.** `_readOwnScroll`'s theater guard has no control and cannot have one here: `_readMax` is 0 in the
+book view and in the map view, measured with a revealed card at 390x631, because the reader has adopted the card.
+
+**Controls.** All 40 rows of `tests/artifacts/video_theater_mutants.json` killed at their named assertions on the final
+source, with exact restoration: 13 and 27, in two locked runs. That includes the 13 theater rows the combined run had not
+repeated, which needed proving again because this round changed the code they guard.
+
+**Merging dev v1.248.2 moved the four MDP rows, and the cause was this PR, not content.** `opponentPolicyHash` and
+`manifestHash` differ from dev's capture because `regenerate_mdp_data.py` hashes the bytes of `app.src.jsx` as
+`gameplayHash`. `graphHash`, `modelHash`, the five law hashes, the wire and the content all equal dev's, and the sizes are
+equal. D-282 names this move as expected. The review had called the same difference a minifier swap, which was wrong.
+
+**A flake, not ours.** `test_request_start_pacing_is_global_and_concurrency_is_bounded` in `tests/verify_clips_test.py`
+failed once in `ci:validate`, then 3 of 8 alone on the same tree. It asserts a 19ms gap between stamps taken after threads
+wake, so scheduler jitter breaks it. Test and script are identical to dev. The full replay then passed.
+
+**On the merged head:** `ci:validate` 25 of 25, 1,380 units, 0 skipped; 197 focused journeys of 197; eager gzip 346,897 B,
++3,109 B on the unchanged baseline, of which this round is +256 B; deferred 506,804 of 506,817 B.
+
+## v1.249.1 — Related study guides cut from every page (owner U89, 2026-11-01)
+
+The owner, looking at Side Control Bottom: "I think these related study guides are just AI slop. If it doesn't contribute
+much to [SEO], [AIO], or [GEO], I would cut those out please." PostHog over 90 days: 5 card clicks from 4 browsers, against
+14,251 views of those pages.
+
+**Removed from the page, not hidden.** Content a person never sees risks reading as cloaking. 611 pages and 2,923 cards go,
+7,200 lines, all deletions; the crawlable text and `article_links` go with them (192,205 afterwards).
+
+**The 611 are 605 + 6.** The eight templates produced 605 pages. Six more, the lowercase `top.md` and `bottom.md` beside X-Guard,
+K-Guard and North-South, are tracked pages no generator owns. They still build, at their own URLs, with the same 30 cards
+under the older title "Train this with a System". A cut made only in the generator reports 605 pages and leaves those 30
+cards live, so the section was removed from those six directly and the scan runs on the built tree: 0 pages carry
+`related-system`, in the HTML and in the Markdown export.
+
+**A first attempt touched 2,771 pages.** Deleting the template line also took the blank lines around it, so every page moved,
+cards or not, and a page's move costs it its D-253 date in the sitemap. The eight templates keep the empty line, so a page
+that never had cards keeps its exact bytes.
+
+**The floor did not need to move.** The brief expected `validate:payload --set-floors`, but `article_links` lands at 192,205
+over a floor of 183,310, so `budget_site.json` is unchanged.
+
+**Where the relationship survives:** 83 Systems pages listing their members (1,471 `related_content` rows, 1,468 members in
+`graph.json`), 83 Systems files in the Markdown export with 1,048 node links, and 83 Systems rows in `llms.txt`.
+
+**Telemetry ends deliberately.** `data-cta="related-system-card"` was the funnel's only node-page emitter (`CLAUDE.md` §6.7). The
+`related_system_card_click` handler left with `AffiliateTracking` earlier, and no code in the tree reads the attribute now. Any
+PostHog funnel starting from those clicks goes flat at this deploy; do not read that as a usage collapse. The Systems pages'
+own product links are untouched.
+
+**Six reds, all premises, none behaviour.** Knee Slice Pass Attacker's Related tile held only the study guides, so that
+article went from an odd tile count to an even one; the two journeys that need an odd article now read its Defender page, which
+keeps a count of 7 and long sections a trio must refuse (`u59-trio-last` still applies). The Explore place journey walked a
+point 30px inside the grid's edge, which only meets text in a narrow tile, so a shorter article landed its depths on a wide
+tile or on the gap under a shorter one. It now walks each lane's own text column. On a content PR, E2E skips until the reseed,
+so these were found and fixed before the capture: 213 of 213 across 14 journey files on the own build, and 88 more in the first
+batch.
+
+**Three SEO floors moved.** `Positions/Mount.html`, `Mount/Bottom.html` and `Mount/Top.html` each lost exactly their 30 cards, 3,318
+characters and 25 links, which put them 1,122, 1,209 and 1,394 characters under their floors. The contract moved those three to 85% of
+the new text, the updater's own ratio, with the orchestrator's approval as the direct effect of U89. The other 17 stayed exact.
+
+**PR CI found two more premises the focused batch had not run.** The study-guide cards hold no `p` or `li`, so at an article's end U59
+c's place anchor used to find nothing and `pane-layout.spec.ts` only ever saw an untouched `scrollTop`. Now the end is the Related list
+and the anchor runs. At 1024 the anchor holds its line, so that journey now reads a wheel over the pane against the position the pane
+settled on. At 768 the line holds while the pane is open, pinned, but the close anchors on whichever line one lane put first, and at
+the article's end that lands a tile away: 971px at Mount Top. Mid-article the same journey held within 26px at 35%, 50% and 70% down.
+That gap is the reader's, stays UNGUARDED in the spec's own header, and goes to the article-order PR, which can pay for the bytes.
+
+**Left behind on purpose:** the `.related-systems` and `.system-card` rules in `source/quartz/styles/custom.scss`, which nothing
+emits now (0 built pages). This capture cannot carry a `source/` change. The reader's `related-systems` alias and its two
+`.system-card__*` selectors are PR-2's.
+
+## v1.249.2 — A pane opened and closed at an article's end comes back to the same place
+
+**The loss was older than #339.** `pane-layout.spec.ts` closed the pane at Mount Top's end and asserted an untouched `scrollTop`. That
+held only because the study-guide cards there hold no `p` or `li`, so the place anchor found nothing. On v1.249.1, with the same journey at 768x1024, the nine pages that never had the cards already lost
+their place: 316, 307 and 231px on three Transitions, 179, 333 and 281px on three Submissions, and 0, 0 and 63px on three positions.
+Mount Top lands 13px away from a direct boot and 971px through the landed start with an open question.
+
+**Two causes, found by tracing the slide pass by pass.** A slide is many layout passes, and each one picked a line afresh. A lane
+change reorders which line comes first, so the pick changed partway. It can also shorten the document so the browser clamps
+`scrollTop`, and the next pass then took the clamped height as the new place, so the line never came back.
+
+**The fix holds one line at one height for the whole slide, until the reader's place moves.** The first attempt keyed that on `scrollTop`
+and fixed the positions but not Transitions or Submissions, because a clamp or its restore moves `scrollTop` between passes. `placeTop`
+already was the reader's place: it survives a clamp and any real scroll overwrites it. Keying on it took all ten pages to 0.
+
+**Pinned on a page #339 changed and on one it never touched,** with a premise that the slide moved the reader, because the old
+assertion passed for a whole release on an anchor that never ran. A real scroll while the pane is open is the new place, and that is
+pinned too, or a stale hold would snap the reader back.
+
+**The open hold stays pinned at 768.** The first commit also dropped v1.249.1's "the line holds while the pane is open" assertion
+without running it, on a guess that a clamp would break it. Orchestrator review caught that: it was the only pin on U59 c's open hold at
+768, since `article-dashboard.spec.ts` pins 1440 and 1152. Measured on the fix, in the landed journey, 3 runs of 3: 388.75 to 388.77px at
+768, against 6px of movement on v1.249.1, and exact at 390. It went back, with `pane-open-hold-lost` as its own control.
+
+**Bytes.** The hold alone took the deferred set to 22 B over. A `listen()` helper across eleven call sites, and the dead `related-systems`
+alias and `.system-card__*` selectors #339 left, brought it to 506,740 of 506,817 B: 64 B under where it started, and no ceiling moved.
+
+## v1.251.0 — Two columns replace the row grid; the map to half the window, capped; a real race in Ctrl+Home (owner, 2026-11-06)
+
+The owner, on round 1's snapshots: "the grid distribution is always terrible, long empty spaces in some grids", then "instead of a
+grid, maybe just use two columns ... the vertical order is preserved without gaps". His note replaces U59 c's rows and U65 b's
+pairing. #341 stays a draft until he has seen `scratch/article-order/owner2/index.html`.
+
+**The layout, and the first idea that was wrong.** `float:left` alone looked like the whole rule: rule 5 of CSS 2.1 9.5.1 forbids a
+float above an earlier one and rule 8 sends it as high as it can go. It is not, and it shipped into a comment before the numbers
+said so: rule 2 holds a left float below every earlier left float sharing its row, so a tile could not go under a shorter left
+tile while a taller one stood beside it. Side Control Bottom's Definition landed at 953, not 927, and the rows' holes came back.
+So `layoutNow` picks the side from real heights (`data-right`) and floats do the placing. The DOM never moves, so Tab, the index and
+the head tops down the page are one order, and with one float each side the grid box stays exactly the choices row's width.
+A draw is within a pixel: at 1366 two columns ended 0.5px apart, and a strict comparison put a head a sub-pixel above a draw. That
+exposed a second float trap: a left tile within a pixel of a draw slid into the right lane, at x=671, with no gap. Left tiles clear
+left once a right tile exists, which keeps two lanes under a held press.
+
+**Tight, measured.** Each tile grown by half the 24px token, so the gaps the layout means to have count as filled; what stays empty
+in the article's box is a hole, BETWEEN if a tile lies below it, END if not. Recompute: `scratch/article-order/art2/tight.cjs`.
+14 real pages at 1440x900 (5 positions, 4 transitions, 5 submissions), as a share of the article's area:
+
+| | between | end | mean height |
+|---|---:|---:|---:|
+| dev | 12.0% | 3.2% | 5,026 |
+| round 1 rows | 22.1% | 6.4% | 5,957 |
+| two columns | 0.0% | 5.0% | 4,481 |
+
+The big end gaps are Training standing alone on Transitions and Submissions: 1,191px on Knee Slice Pass Attacker, 956 on its Defender,
+844 on Armbar from Mount, 777 on Back Step Pass. A proposal, measured and not built: each bold-led phase its own tile, as the
+Overview's are, brings those to 72, 113, 276 and 185px with no text rewritten. It costs 300 B, and it makes Positions slightly
+worse, so it would be scoped.
+
+**U90 a, and what "never hiding" costs.** 136 real cards on 16 pages at 1440x900: the bottom answer lands 486px below the map at the
+median, 570 at p90, 589 at worst. Hence `NG_LIVE_ANSWER_ROOM = 620` (589, plus the reader's 20px, plus D-368's 8px, rounded up): 280 of
+900 at 1440 (31%), 244 of 864 at 1152 (28%), exactly half from a 1,240px window. A static constant, so nothing moves when a question
+opens. Its blind spot: 136 is a sample, so a taller card needs a scroll, as any card did before. **U90 note:** `offsetLeft`, because a
+scrolled tray or Inspect's slide moves the label and must not take the line along.
+
+**The flake was an app race, not timing.** `reading-navigation.spec.ts:20`, Ctrl+Home stopping at 1: 2 of 72 under load on two cores,
+0 of 40 without, and both traces identical. #340's guard read "at the end and below the place" as the browser's clamp, which is also
+the first tick of a smooth scroll when it moves 1px. `layoutNow` wrote the place back, the running animation kept the +1 as an offset,
+and it stopped at 1. A 1px write makes it deterministic: 3 of 3 red on this branch and on dev. A clamp is the end moving under the
+place, so the guard now asks that. place-end-tick. **The open hold** is back at #340's strength: with the line chosen as the block
+nearest the reader's top in either column, `768px the pane overlays the article` passes its original assertion.
+
+**`mangleProps` stays, for a reason in bytes.** It saves 620 B and 85 B are free, so taking it out lands 535 B over a ceiling nobody
+raises. Row logic freed less than it looked: the sides, the observer and the question line cost most of it back.
+`tests/reader_mangle.test.mjs` now gates what its comment used to ask a person to grep: 23 names, 489 files, 0 reads from outside.
+
+**Specs.** 12 tests pinned the rows: 11 rewritten to the columns' claim (`pairs()` and `rowsOf()` became `columns()`) and 1, the trio,
+replaced by three pages that are two columns too. 10 row controls retired with the rule each pinned, named in the mutant file. New:
+16 journeys, 3 units, 23 controls. `u59-measure-unset` survived at 1440 with nothing wrong, because a tile's text there is under
+46ch, so it moved to 1920. The band controls edit neural.js, outside the reader-only runner: `band-uncapped`
+(`Math.round(this.H/2)-e`), `band-old-144` and `band-follows-card` (a band that shrinks by 60 once a question opens). PR CI's
+first run found what the 45-file batch could not: `layer-dock-centre` held the replay bar to the card's centre, and U90's note took
+the asking card off the column. The bar was right. The claim now reads the column, and `replay-bar-off-column` (the bar 120px left,
+in neural.js) turns it red at 1440 and 1024. Its second run found a window of this PR's own: a close left the columns to the next
+frame, the only open or close path that did, and `article-sections.spec.ts:107` read a 376px hole inside it on one run in two.
+Nothing painted that. A close now sorts in its own task, which cost nothing (-2 B), and `columns-close-waits-a-frame` pins it with no timing in it.
+
+**Round 3, the owner's answers (2026-11-06).** Two columns approved at every width (U95 a, U98 a). U99 b overrode "never hiding": the map
+takes the median card, `NG_LIVE_ANSWER_ROOM = 514`, 43% at 900 tall, knowing half of all cards then need a scroll. D-368's desktop claim
+became "every answer is reached by a real scroll", pinned with the real wheel on the longest deck; D-433 stands on a phone, whose band he
+did not change. U97 b moved the index to 1,350px of free width: a line holds 45 characters from 1,346 on five real pages. That move
+broke something a width change had been hiding: the grid now stands at 902px through most of a pane slide, the line anchor keyed on the
+grid's width, and the film flipping under the question grew the stage 143-168px with nothing holding the line. The anchor now keys on the
+free width. The Overview's numbered tiles (2 to 9 on 266 pages, 135 with four or more) go to the owner as three options; they must not ship.
+
+**Round 4, the owner's picks (2026-11-06): U101 b, U102 a.** His note on U96: "there should only be one overview, and it shouldn't be called
+'overview.' It's a poor header and a poor description of what happens." One tile, "How it works", a short opening, and "Read more" opening the
+rest in place, one way. The numbered tiles never shipped: they gave 2 to 9 tiles on 266 role pages, 135 with four or more. Swept through
+the app's own reader on all 266: one tile, Read more on each, text equal to the source on 266 of 266, no block that is not a paragraph.
+The label changed everywhere it reaches a reader (From the top, From the bottom, As the attacker, As the defender, For both sides), with
+no capture, because the built site carries no such heading: 0 in the HTML, the Markdown export and `llms.txt`. `#overview` anchors stay.
+Saved section settings survive, because they are stored by type. One trap caught before it shipped: Learning, Systems and Submission family
+pages publish their own `<details>`, so an `article`-wide rule hid a question once opened; hence the class. Being one-way is what makes it fit.
+Bytes on the merged tree: deferred 506,815 of 506,817, eager +4,900 of 5,000, no ceiling moved, so `mangleProps` stays (it saves 620 B, so 618 B over without it).
+Controls: `read-more-no-reflow` survived, because a later layout sorts the tiles anyway, and `line-dom-first-slide` survived because the
+slide's page puts both candidates on one block. Both are recorded in the spec's header, and each claim has a control that does bite.
+
+**Round 5, the independent review (2026-11-06).** Eight read-only reviewers, no blocker, `mangleProps` clean. Three leaks readers would have seen,
+all from this PR: the Beta pill's suffix selector lit How it works on all 83 Systems and Training on two positions; an unscoped rule dropped the
+words "Also known as" on 122 Transition and Submission pages; and `reader.src.js` held the first regex lookbehind in any neural bundle, in a
+literal, which would fail the whole module on Safari below 16.4 (the floor is from memory). The cut is now one forward regex, identical on all 266
+pages and smaller, which paid for the exact-id selectors with the redundant `.ng-section-card` prefix. `tests/neural_bundle_regex.test.mjs`
+pins it, and `tests/reader_mangle.test.mjs` now reads 22 names anywhere and `held` by receiver. Three of my own specs could not fail for the
+reason they claimed: the press test booted by URL, whose reading intent cannot decline, so `u99-wheel-declines` survived until it moved to a played
+landing at 640 tall; the wrapping-block journey hid the wrap behind the other column, so it runs at 720 too; and `reader-rounding-remainder-dropped`
+stays a recorded NON-KILL, because the line drifts -0.266px at 720 and -0.234px at 1440 with the remainder and without it: #340's held line now
+does that job. Measured and left alone: a wheel with the pointer over the article declines a live question, stopping the clock and pausing the game,
+while the answers stay pressable and still score. That is a free pause, not a loss, and U99 makes it easier to reach.
+
+## v1.250.0 — The article on a position page, in the order a person needs it (owner, 2026-11-01)
+
+The owner, on Side Control Bottom: the Overview is "such a long text, and I don't know where to start"; "the choices row should
+always have the same size as the grid"; "I kind of like it that it's centered". This PR is a draft until he has seen the screens in
+`scratch/article-order/owner/index.html`, because the Overview split, the Beta mark and the map's height are his to choose.
+
+**The reader sorts the article, so the order lives in `reader.src.js`.** Position pages now read: Also known as, Often confused with,
+the definition, Essential principles, Decisions, Common mistakes, Statistics, Overview, Prerequisites, Training, Related. Every other
+page keeps its order, and `safety` keeps its seat between options and mistakes while question S1 is open. The no-JS page keeps its
+template order, because moving that is a content change.
+
+**The widths.** Measured before at 1408: grid 236-1384, row 236-1172, first card 260. Now all three share 236-1172, and the sweep from 1024 to
+1920 by 64 holds both edges within 1px, centred, clear of the index. So the grid no longer runs to the right edge, which means three
+lanes start at a window of 1,622px rather than 1,440. One seam to know: the grid is 902px at 1151 and 680px at 1152, where the index
+appears and the margins must match. It is on the owner's page as a question.
+
+**The map at 50% is built and not in the branch.** At 1440x900 it pushes a live question's answers past the bottom of the window, against
+D-368 and D-433: four reds, in `covered-card`, `panic-card` and twice in `defending-landing`, with the panic answer's centre at y=901 of 900.
+The brief makes it the owner's call on the screens, so the branch keeps 144px.
+
+**A crash only the full batch could see.** `position && buckets.get("overview")` is `false` on every non-position page, and `false?.parts[0]`
+throws, because optional chaining guards null and undefined only. Every screen in this PR is a position page, so they all looked
+right. The first batch had 243 reds, 218 of them a reader that never appeared. Fixing this line and reverting the band left 22.
+
+**A misdiagnosis, kept out.** A 32px line drift at 1152 looked like the anchor going quiet mid-slide, and a clause was added for it. A
+pass-by-pass trace showed the anchored line held to within a pixel: the journey had picked a line in the other lane, because v1.249.1
+let it fall through to the second lane too eagerly. The clause came out and the journey prefers the first lane.
+
+**The open hold at 768 moved, and was measured.** On this order the landed journey's line sits near the article's end, so one lane
+leaves nothing below it: the line stops 51.5px short with `scrollTop` at 10,155 of 10,155. v1.249.2 measured 0.02px there on the old order. That
+is the document's end, not the hold, so at the article's end the assertion names that condition, and a new mid-article journey pins the
+hold exactly, on screen coordinates, with a premise that nothing clamps it. `pane-open-hold-lost` moved to that journey.
+
+**One shift stays, measured and unpinned.** From a direct boot the slide's last pass moves the stage about 18px with no change of grid, so
+the anchor has no reason to fire: 17-18px on four position pages, on v1.249.1 and v1.249.2 alike, and the close still lands exactly.
+Firing the hold on every pass would fix it, but each 1px correction scrolls, the scroll lays out again and the next pass corrects back,
+which is an oscillation risk for 18px. It is UNGUARDED in the spec's header.
+
+**A control that proved a spec gap.** `width-right-edge` survived the first run: a wider grid stays centred and the row follows it, so
+the edges still match while the grid runs under the index. The sweep now pins the index's clearance. 29 of 29 controls are killed.
+
+**A raw wikilink, reduced.** The template leaves a wikilink inside raw HTML, which Quartz never resolves, so 36 pages print
+`[[Positions/...|Name]]`. It was buried in the Overview and would have led the page, so a position's tile prints the name. The link itself needs
+a template fix and a capture.
+
+**Bytes.** The first build was 1,230 B over the deferred cap. The CSS audit found no dead rules. What paid for it: a `rect()` helper across 30
+call sites, `mangleProps` for 23 names used only inside the reader, merged rules, and the rule the definition could share with
+the reader's headings. Deferred 506,794 of 506,817 B, against 506,740 on dev v1.249.2. Eager gzip +8 B, 346,905 B. No ceiling moved.
+
+## v1.250.0 — The safety guide last, and the rule above the steps (owner S1 a, S2 b, S3 a, S4 a, 2026-11-06)
+
+**The owner's words.** S1 a: "A: the guide last, one line above the steps", from his K1 note, "the safety text should probably be one
+of the last sections appearing". On 6 Nov he then answered three questions from real screens: S2 b, the rule as plain text with only
+"Safety guide ↓" as the link; S3 a, no line on family pages; S4 a, fix the pages that treat going limp as the signal to stop.
+
+**The order lives in the reader, not the templates.** `SECTION_ORDER` sorts every article, so a template move changes only the no-JS page,
+which already ended in the guide on 343 of 350 pages. In the app the guide was section 5 of 8. A DOM move survives idle and a resize, then
+snaps back when a section closes, because `syncSections` re-sorts from `this.sections`. 1,011 built Transition files share the section id,
+so the rank is limited to `/Submissions/` paths.
+
+**What the pages say now.** The four top notices are gone, and 501px of repeated warning went with them on a phone. 574 attacker lines
+and 574 defender lines replace them: `Release immediately upon tap. Safety guide ↓` above Execution Steps on attacker pages and hubs, `Tap
+early and often. Safety guide ↓` above Defensive Options on defender pages and above Escape Paths on hubs. Both sentences were already live,
+in the notices they replace. No safety copy was written. The hub keeps a line per seat because its old notice spoke to both: the first
+draft carried only the attacker's, which left 130 to 188 of 287 hubs without "tap early".
+
+**The link was the trap.** A seat's guide lives on its hub, and `anchor()` searched only the fragments from the link's own page, so the
+link went dead. The study's real-mouse clicks had also missed, because a wrapped link's centre is not on the link. `anchor()` now falls back
+to every fragment, the seat's link names the hub so it also works with no JavaScript, and `article()` reads a link to the page's own hub as
+an anchor. The spec clicks the link's first client box.
+
+**Hyphens do not inherit here.** Quartz sets `hyphens:auto` on `a` and `p` themselves, so a rule on the blockquote did nothing. The first fix
+passed review and was caught by its own spec reading computed style. Under S2 b the rule's text sits in the `p` and the label in the `a`, so
+the rule is `.ng-section-body blockquote *`, and `hyphens-on-the-link-only` proves the `p` matters.
+
+**The real font is not in the harness.** `e2e/dsl.ts` stubs Google Fonts, so a journey lays out in a fallback face and cannot pin a break width.
+One test loads the real font after boot and fails if it did not load. It needs the network, so it is deliberately not `@curated`. Measured in
+Plus Jakarta Sans, in place, one page per seat:
+
+| Viewport | Attacker | Defender |
+|---:|---:|---:|
+| 320 | 2 | 2 |
+| 360 | 2 | 2 |
+| 375 | 2 | 2 |
+| 390 | 2 | 1 |
+| 412 | 2 | 1 |
+| 768 | 2 | 1 |
+| 1440 | 1 | 1 |
+
+The owner first saw `Release immediately upon tap ↓`, with the whole line as the link, one line from 360 on 6px side padding. He chose the
+labelled form, so the padding went back to 12px. No wording with both the rule and a separate label fits one line at 390: the rule is 242px
+and the shortest label 113px, in a 272px box.
+
+**S4 a: 17 deletions on 14 pages, no number moved.** Six Arm Triangle pages said "wait for the tap or feel the resistance fade". Six timing
+fields said "until tap or unconsciousness". The worst was Guillotine Choke from Guillotine Control: "Do not release or readjust once you feel
+the opponent's resistance diminishing". A reviewer counted 13 pages; the search of all 5,636 step fields found a 14th, Von Flue Choke from
+Side Control, whose timing said "Hold until tap or grip release" while its own text called a loosening grip a sign of unconsciousness. Darce
+Choke from Leg Drag got deletions only, which leaves its last step without a release sentence: adding one would be new wording.
+
+**One tap contradiction fixed, the rest listed.** Americana from Side Control's guide dropped "(minimum 2 taps)", against its own rule to
+release on the tap. 27 more pages state a minimum, and 9 cards teach it. Americana from 3-4 Mount marks "Hold until they tap twice" as a wrong
+trap answer while its guide says "minimum 2 taps". All of that stays in the K1 b clean-up.
+
+**A real race, left alone.** A reload onto the hash settles in one of two stable places 18px apart (5 of 14 runs at 1440), because a late layout
+moves the page after `anchor()` has scrolled. A click never does this. It is cosmetic, the fix would have cost bytes the set does not have, and
+the spec pins the claim within 24px with two controls.
+
+**Controls, on the own built tree:** 22 of 22 killed at an assertion, 0 test timeouts, a clean run before and after. A first attempt was
+stopped by hand: a missing link made the spec wait out its 240s timeout, which is no kill, so the click now fails first at "the line is a reader
+anchor". `defender-hub-leak` in `article_sections_mutants.mjs` targeted a line this change rewrote, which would have stopped a default run with
+110 controls behind it. It is repointed and killed against a green baseline.
+
+| Control | Named test that went red |
+|---|---|
+| `order-removed` | the guide is the last teaching section |
+| `order-all-pages` | a transition shares the section id |
+| `anchor-own-fragment-only` | the line's real click reaches the guide |
+| `hub-link-not-recognised` | the line's real click reaches the guide |
+| `hyphens-back` | a wrapped line never hyphenates |
+| `hyphens-on-the-link-only` | a wrapped line never hyphenates (the p, which holds the rule) |
+| `padding-narrower` | in the real font the lines take the shape the owner chose (Defender at 390) |
+| `label-glue-removed` | a wrapped line keeps its link whole |
+| `rule-inside-the-link` | the seat's line sits on its steps (only the label is a link) |
+| `seat-notice-back` | neither top notice survives |
+| `line-below-the-heading` | the seat's line sits on its steps |
+| `defender-given-attacker-rule` | the seat's line sits on its steps |
+| `two-taps-back` | neither top notice survives |
+| `seat-link-in-page-only` | without the app the seat's link still reaches the hub's guide |
+| `family-notice-back` | the hub carries each seat's line, and a family carries none |
+| `family-plain-rule` | the hub carries each seat's line, and a family carries none (the rule's own words) |
+| `hub-attacker-line-removed` | the hub carries each seat's line |
+| `hub-defender-line-removed` | the hub carries each seat's line |
+| `hub-attacker-link-dead` | the hub's own attacker line reaches the guide |
+| `hub-defender-link-dead` | the hub's own defender line reaches the guide |
+| `reload-does-not-anchor` | the line opens a closed guide, and a reload lands on it |
+| `reload-past-the-guide` | the line opens a closed guide, and a reload lands on it (the 24px tolerance) |
+
+**Bytes.** Deferred 506,740 to 506,808 of 506,817 B, +68: `reader.js` +25 and `reading.css` +43. No eager file moved. No ceiling moved.
+
+**CAPS1.** Accepted capture `af12071c744643ea8564a0619b4e5703` at `a99992434`, production accepted, verified against a frozen contract. 938
+content paths: 923 generated Markdown and 15 JSON records. App rows `reader.js` and `reading.css`, 2 of 14. `article_links` 192,205 to 193,229,
+which is 574 seat links, plus 2×287 for the hubs' second line, less 2×62 for family pages. No SEO floor moved. `#safety-considerations` left
+`Submissions/Achilles-Lock` and `Submissions/Rear-Naked-Choke`, approved as the direct effect of S3 a; only `--artifact-only` reaches that
+check, at deploy. The accepted U89 tree had been pruned for disk, so the contract proved its 75 files from p2b against the retained golden.
+
+**Gates.** `ci:validate` 25 of 25, `@curated` 752 of 752 on the own build before the capture, an independent review with no blocker: 15 records
+changed. Every numeric leaf of the 15 JSON records the PR changed (`git diff --name-only 579a6a23b 43af21b47 -- 'content/*.json'`, walked on
+both sides, booleans excluded): 300 leaves, all identical.
+
+**Left behind on purpose:** the 3 md-only pages under `Cross Collar Choke/Finish` keep their old notice, because no JSON feeds them. 59 of the 62
+family pages hold finishing prose in a closed block with no line above it, the owner's S3 a, and `docs/Content.md` names that exception.
+
+## v1.250.1 — A one-pixel scroll up from the article's end is the reader's own (2026-11-06)
+
+**The race.** `reading-navigation.spec.ts:20`, Ctrl+Home stopping at 1: 2 of 72 under load on two cores, 0 of 40 without. On 6 Nov it failed
+deploy-dev run 42185772781 and held the safety change off the preview. #340's guard read "at the end and below the place" as the browser's
+clamp, which is also the first tick of a smooth scroll when it moves 1px. `layoutNow` wrote the place back, the running animation kept the
++1 as an offset, and it stopped at 1. `art2` found and fixed it on #341, which waits for the owner, so the one line ships alone.
+
+**The fix.** `r.scrollTop < this.placeTop` became `this.placeTop > end + 1`: a clamp is the end moving under the place.
+
+**Proof, on this tree.**
+
+| run | result |
+|---|---|
+| `a one-pixel scroll up from the article's end is the reader's own`, dev's reader | red 3 of 3 at "the tick stays where it landed", expected 5764, received 5765 |
+| the same test, with the fix | green 3 of 3 |
+| `place-end-tick` | killed at that assertion, green baseline |
+| one-off control, the guard replaced by `false`, not committed | killed at `768px the pane opened and closed at the end of /Transitions`: "the close lands on the place the open left", expected 5765, received 5535 |
+| the 12 reader specs (`pane-layout`, `reading-navigation`, `article-dashboard`, `article-grid`, `article-sections`, `reading-contract`, `reading-mode`, `reading-media-placement`, `safety-line`, `section-divider`, `tab-title`, `pane-keyboard`) | 185 of 185 |
+
+The one-off control is what makes "the clamp journeys still hold" mean something: without the guard they go red.
+
+**UNGUARDED, the place past the end.** A probe, not a spec: while the open pane clamps a held place, a 1px tick up still reads as the clamp
+and is undone. `/Transitions/50-50-Entry/Attacker` at 768: end 7709, place 7779, the write gone four frames later, and
+`/Submissions/Americana/from-Side-Control/Attacker` likewise at end 13069, place 13138. `/Positions/Mount/Top` does not clamp there (end 9587,
+place 9248) and keeps the tick. #340's guard reads that case the same way, and the new guard's cases are a subset of the old one's, so this narrows the race and does not
+widen it. Not fixed here: this version is the one line.
+
+**Bytes.** Deferred 506,808 to 506,800 of 506,817 B, -8. No ceiling moved.
+
+**App rows.** Bundle-only reseed, no capture: `reader.js` 42,552 to 42,544 B, and the other 13 of 14 rows unchanged.
+
+**#341** takes this by merge. The code line is identical, and the comments differ only in naming this version.
+
+## v1.250.2 - The owner's 52 missing moves and the guillotine landing (K2 batch 2, F17)
+
+**H1 to H52, approved as proposed on 6 Nov.** 155 cell operations on 20 seats in 16 position files: 29 listed moves now deal their own
+table, 23 new moves join a hand, and 103 other listings shrink to make room (170 share cells). No listed move's own share moved, no page,
+node or ordinal was added, and the map kept every coordinate: 5,103 links to 5,124. H53 was not ruled, and H54 comes with the new positions.
+
+**F17, his F17b c.** A shot caught by a guillotine lands in Guillotine Control, bottom, as first approved, in full view of the −0.44 cost
+and of the 17 Aug review calling that seat the choker's. The page says that and no more. The cost on the final tree: −0.473 no-gi, −0.468
+gi, and Standing Position/Bottom goes +0.091 to +0.043 no-gi, +0.027 to −0.001 gi. The seat's text is untouched on purpose: its premise
+was wrong and straightening it belongs to the new positions. Dropped: the defender's "pull guard with the guillotine" wording, because a
+defender on their back with the shooter on top cannot sit beside "the shooter lands in Guillotine Control, bottom" on one page. The draft's
+follow-up asked for the opposite; the guard pull stays only as a Related row, and no row of this table lands it any more.
+
+**A wrong answer the row made true.** Three "where do you start" cards offered the new seat as a distractor: Back Step Pass "Top of Half
+Guard", Body Triangle Lock "Back Control with both hooks", S-Mount Transition "Full Mount, both knees pinned". Each now offers a seat the
+move is not listed at, and each answer names the new start. No question changed, so no card's schedule reset. Found by scanning every
+flashcard on the 52 rows' techniques for the seat's name; the batch's own flags could not have seen it. That scan missed a fourth; see round 2.
+
+**The provenance home is `calibration/graph_fixes_b2.json`.** The drift gate (`_restructure_supersession.py`) refused 5 of the 20 hands,
+because the restructure receipt recorded them and these are later. The receipt stays history; the new ledger overlays it, and covers the
+other 15 so a historical apply path skips them instead of restoring them. Mutant: overlay off, red in `restructure_supersession_test.py`
+and in `_listing_table_expectations.py`.
+
+**FLOW.** 15 rows to 16, threshold unchanged. `kimura-trap/bottom|Rolling Kimura Escape` -0.296: above the line on dev, F17 alone -0.250,
+batch 2 alone -0.292, and -0.252 on the final tree without Open Guard/Bottom's four rows. Kimura Defense -0.305 to -0.325, all of it Half
+Guard/Bottom's two rows. Lockdown to Vaporizer -0.252 to -0.264, almost all of it Open Guard/Bottom's four. Each note is in the baseline.
+
+**One named sign flip in `flow.test.mjs`.** In gi, `Overhook Extraction|Attacker` is py -8.43e-7, js +1.94e-6, and +1.91e-6 from the Python
+kernel with only its shares rounded. It sits above the 1e-7 zero band, and widening the band to 2e-6 would hold 102 decks of gi/standing, so
+the one deck is named and must stay a flip that small in both kernels.
+
+**Text.** Level Change Takedown 8 fields, Back Step Pass 6 plus its card, Body Triangle Lock and S-Mount Transition one card each, and the
+#338 review's N1 to N4. `Cross Collar Choke/Finish.md` and `Finish/Attacker.md` lose "or go unconscious" by hand: they are md-only pages
+with no JSON, the same class as the owner's S4 a, and S4's JSON search could not see them. The other 20 `text_names_origin` rows name their
+main origin and are not false, the same limit as the 96 listings before them.
+
+**Round 2, the independent review of `c32445375`: no blocker, and the numbers were exact, but four page-text findings fell under F0 a.**
+That capture was accepted and verified, and it was discarded before any reseed, because the content moved. Body Triangle Lock had a fourth wrong
+answer H17 made true, "Both hooks in, no Gift Wrap", which the seat-name scan could not see because it never says Back Control; the lesson
+is that the rows' own evidence is the test, not the seat's name. Its setup line and condition follow, as do Kimura Sweep's "must be
+established" and Long Step Pass's "must be in an open guard variation", which H2 makes false; `conditions` ships to readers as `recognition`. Arm Drag to Back no longer requires hooks that H15's evidence says it does not need. Level Change's "Late guillotine" was this
+PR's own wording and contradicted the page, which allows the guillotine only before chest-to-thigh contact, so its window is now that one and
+the leg-contact clause is gone. "Before they close their guard" went with the picture it depended on.
+
+**The S4 class reaches Transitions.** Search: all 13,986 step and timing strings in `content/Transitions/*.json`, each hit read by hand, on the
+question the owner answered: a field that treats going limp, fading resistance or unconsciousness as the signal to stop, rather than as an
+emergency. One is exact: Gogoplata step 6, "until tap or unconsciousness". Arm Triangle from Top step 7 was the seat's call, a sibling and not
+literally a tap-signal list: it says what to monitor while holding, and it named unconsciousness beside the tap signals, the shape Darce Choke
+from Leg Drag had. The delta review kept it. Both are deletions; the second moves the list's "or", as that one did, and leaves its step with no
+release sentence, because adding one would be new wording. `safety_considerations` lines such as "release immediately if they go limp" are the
+emergency reading and stay.
+
+**CI now compares all 20 approved hands exactly.** `hand()` ran on only the two Inverted Guard hands, and narrowing the overlay to the 5 phase-2
+hands survived. `_listing_table_expectations.py` now walks all 20: clean head rc=0, one Standing Position/Top share moved rc=1 "approved hand
+drift", the narrowed overlay rc=1. Four carried FLOW notes said Rolling Kimura Escape succeeds into Kimura Trap/Top. It lands on Open
+Guard/Bottom, and they now say so.
+
+**Bytes, on the final real build, with #344 in.** Eager gzip 348,652 B, +4,864 B of the 5,000 B cap since its baseline: 136 B of room.
+Deferred 506,800 of 506,817 B: 17 B of room. First hand core 367,950 B, +2,654 B of its 6,000 B cap. No ceiling moved and no baseline was
+accepted. The MDP data grew by one content-addressed shard, so the build gains one file and no page.
+
+**Two reds that only a local `@curated` could find.** On a content PR the E2E shards skip until the reseed, so both would have surfaced after
+the capture: H4 and H5 take Standing Position/Top from 34 cards to 36, and `option-hand` and `option-overflow` held the old size. The spec's
+own independent pool check passed first, so the app was right and the literal was stale. 752 passed, and the 2 pass on the new literal.
+The final tree, with #344 and round 2 in, passed `@curated` 754 of 754 on its own build.
+
+**A third red that only the generated suite could find.** It is not `@curated`, and the seat had not run it. `veteran-odds-clamp` went red on the first
+PR run after the reseed: S-Mount Transition's card printed 56 and the spec expected 60. The card was right. H11's own table is 54 and the canonical
+rate 58, and the card, `tensionSweep` and `resolve` all play the listing through `_actOf`. The helper was wrong: `displayedOdds` always read the
+canonical node, which stayed hidden while no listing at a spec's landing differed. It now reads the node a dealt card plays. Harness only, so the
+capture stands; all 12 spec files that call it pass on the build, and the unfixed helper is the control, red on `a2f0100d7`.
+
+## v1.251.1 — Training as a tile per phase, Read more on the hubs, and a limit CI kept hitting (U100 a, U103 a, 2026-11-06)
+
+**CI.** Five shard timeouts are on record at about 25m18s (runs 42112840488, 42130875467, 42222522276, 42231345256, 40790056850), and this PR's own run went green
+with shard 2 at 26m45s, so 25 would have cancelled it. The shard job goes to 35. Build and gen keep 25. Neither was near it on run 42266283562, at 6m08s and 5m50s, but gen is
+not always that far: 20m55s on run 42222522276, and cancelled at 25 twice on 2026-10-28 on one sick branch. actionlint passes.
+
+**U100 a.** Training stood alone at the end of Transitions and Submissions. Each bold-led phase is now its own tile, and a page's tiles stand together
+where Training stood. The round-2 scratch build titled them "Training 2" to "Training N" and left them at the end of their rank. Neither shipped: the first
+is the "1, 2, or 3 overviews" of his U96 note, the second breaks them up across other sections. So the first tile keeps the head, and a phase opens on
+its own bold name. It is one section: one index row, one ✕, one saved setting by type, one closed label, and it counts once in Hidden sections.
+`syncIndex` reads all of a section's tiles, or the row would dim while the reader stands on phase 3.
+
+| Swept once, through the app's own reader, every seat page with the section | Pages |
+|---|---:|
+| one tile a phase | 2,598 of 2,598 |
+| one head | 2,598 |
+| one index row | 2,598 |
+| text equal to the source, in order | 2,598 |
+| the phases contiguous | 2,598 |
+| every later tile opens on bold | 2,598 |
+
+**It fixed Transitions, and the Submissions have a new end gap.** Same pages as round 2, 1440x900:
+
+| Page | End gap, round 2 | Now | Last tile |
+|---|---:|---:|---|
+| Knee Slice Pass, Attacker | 1,191 px | 22 px | Training |
+| Knee Slice Pass, Defender | 956 px | 115 px | Training |
+| Back Step Pass, Attacker | 777 px | 151 px | Training |
+| 50 50 Entry, Attacker | 700 px | 64 px | Training |
+| Armbar from Mount, Attacker | 844 px | 1,178 px | Safety |
+| Americana from Side Control, Defender | 639 px | 1,584 px | Safety |
+
+**Corrected in v1.251.3: this paragraph used to say the Safety gap stood "with or without this split", which was never measured and is wrong.** Round 2 measured before S1 a
+moved a submission's safety guide last, so the table above mixes two causes. Measured with and without on all 576 seats, the split itself makes the gap larger on Submissions:
+see v1.251.3.
+
+**U103 a.** Both text sections of a bare hub, named by source id, because a hub's role links come first in the bucket and hold a `<p>` of their own.
+Swept on all 407 position pages: 266 role pages with 1 Read more, 133 hubs with 2, and the 8 lowercase-path role pages with 1, as they had.
+
+**The `rest` carry.** Deleted, with its comment. It was the code of the recorded non-kill `reader-rounding-remainder-dropped`: the line drifted the same
+with and without it, because #340's held line does that job now. The wrapping and pane journeys pass without it.
+
+**Bytes.** Deferred 506,811 to 507,108 B, measured by `validate:payload`. The ceiling moves by exactly 291 B, of the 300 he approved.
+
+| | Bytes |
+|---|---:|
+| `rest` carry removed | -37 |
+| U103 a, the hubs | +26 |
+| U100 a, reader | +295 |
+| U100 a, CSS | +13 |
+| Net | +297 |
+| Free before | 6 |
+| Raise | 291 |
+
+Eager did not move: 348,688 B, +4,900 of the 5,000 B cap. The CSS is the base rule padded on all sides with `h2+` taking the top back off, 13 B against
+the 58 B of a rule for the phases. The selector `:scope>p:not([class])~p` replaced a `.slice(1)` and saved 16 B more.
+
+**One spec changed its claim, and why.** `article-sections` at 1366 went red 8 of 8 on the poke that doubles `--section-gap`: 87.5 against 48 on one gap.
+The app is right. Nothing changes that token at runtime, and the sides stay sorted on the real 24 px gap, so a side stale for 48 px can hold a tile under
+an earlier float (CSS 2.1 9.5.1 rule 5). The old check saw no stale side on this page only because fewer tiles sat at the end. The gap is each tile's
+margin, so the poke now reads the margins exactly, and every gap as a floor. `gap-hard-coded` kills the new check at the margins; it would have
+passed the two checks before the poke.
+
+**Controls.** 23 run, 22 killed at their assertions, each read, and 1 retired.
+
+| Control | Dies on |
+|---|---|
+| `training-one-tile`, `training-numbered` | one head, on the first tile |
+| `training-text-lost` | every word of the source, in order |
+| `training-index-rows` | the index has one row for the section |
+| `training-flush` | a phase's tile has its padding on top too |
+| `training-head-padded` | a tile with a head starts as it did |
+| `training-on-positions`, `training-on-principles` | one tile |
+| `training-closed-rows` | one section |
+| `training-closed-stays` | no phase stays, open or empty |
+| `training-index-first` | the row is lit |
+| `hub-first-section-only`, `hub-parts-first` | the shared section and the seat's each wait behind Read more |
+| `hub-one-opens-both` | the shared section alone opened |
+| `gap-hard-coded` | every tile's margin follows the token |
+| `wrapping-anchor-lost`, `reader-clipped-block-anchored`, `u59-place-lost` | the line keeps its place (retargeted past the `rest` code) |
+| `u55r-link-swallowed`, `u55-tile-click-toggles` | retargeted anchors; their claims unchanged |
+| `missing-gap`, `columns-gap-lost-sections` | rerun against the changed test |
+
+Two needed a second look. `training-text-lost` first died on a premise, not on the words, so the premise now reads the source and it dies at the claim.
+`training-on-learning` is the one retired: it survived, because no Learning page can show the claim, with 0 of 26 holding a paragraph the split would take.
+The journey now runs on `/Principles/Microing`, which has three paragraphs there, as `training-on-principles`.
+
+**UNGUARDED.** The closed path without `moveBefore` runs in Chromium with the method deleted, not in Safari or Firefox. A phone has no measured claim
+about the split: each phase is a tile there too, and the page is longer by their padding and gaps.
+
+**Housekeeping.** `video_theater_mutants.json`: row 5 names the 720 journey, and row 6 is dropped, because the code it mutated is gone. A full run of that table
+ends clean, 39 of 39. That is the video table only: `article_sections_mutants.mjs` has 209 rows and no CI job, and three of its rows had moved, so a full run of it
+aborted at row 10.
+
+**The review.** Three fixes, one regression among them.
+
+- **`syncIndex`, a regression from this PR.** Filtering by type lit all 8 `additional` rows on /Systems together, 0.84 each with the reader on one of them, and the active row
+  stuck to the first. "Back to Systems" reaches that page from all 83 System pages. The row now reads by title, which a section's phases inherit. `index-row-by-type`.
+- **The hold kept a closed line, older than this PR, which widened it.** `isConnected` is true of a closed tile, so the line had no box, its top read 0, and each pass of the
+  slide threw the reader up. Reproduced with real input on Knee Slice Pass at 1440: Training's ✕ with the pane open, then the pane closed, scrollTop 4,345 to 745. It is
+  `offsetWidth` now, 0 detached or unrendered. `hold-closed-line`.
+- **The table.** 3 rows retargeted, plus the 5 these two fixes moved. Every row's mutate() replayed in node: 209 rows, 0 moved.
+
+The index fix costs 2 B, so the ceiling is 507,110 B, +293 of the 300 B approved.
+## v1.251.2 - The 88 verified halves ship (CLIPS1 part 2, 2026-11-06)
+
+**What.** 111 clips on 88 technique halves, held since 4 Nov, verified by the November backfill and frozen out of PR #334: 52 transition halves (27 attacker, 25 defender) and 36 submission halves (12 attacker, 24 defender). 73 JSON records and their 134 generated Markdown pages. No hold released, no ban lifted, no re-pick taken; no held half is touched.
+
+**How.** `apply_picks.py` writes `clips` only, proved by comparing every record with the clip arrays removed: 73 of 73 equal, and 110 new references plus one promotion in place (`Rear Naked Choke from Mounted Crucifix`, whose already-curated first clip takes `front: true`). All 100 distinct ids answered oEmbed 200 on 6 Nov, one request every 2 s. `regenerate:md`, `regenerate:hubs` and `regenerate:neural` only. `graph-data.json` and `graph.json` are byte-identical, so no MDP input moves.
+
+**Measured.** The emitter's own line moves from 1,454 fronts, 107 unapproved and 1,301 empty to 1,542, 103 and 1,217. In FLOW's gi game from Anywhere, placeholder meetings fall from 4,006 to 3,759 of 13,448 dealt cards per 100 games: 29.8% to 28.0%. 84 of the 88 are dealt; the other 4 sit on transitions from control-alias positions, so they fix pages, not cards. Recompute: `scratch/clips-inventory/tools/` (deal.mjs, reach.mjs), outside the repo.
+
+
+## v1.251.3 — The hold at a fractional scale, and the record after #345's review (2026-11-06, finished 2026-11-09)
+
+**The hold broke at fractional scales, before #345 and after it.** The review asked whether deleting the `rest` carry held at a fractional scale, since all the evidence was at scale 1.
+Measured in a real browser, every frame sampled, worst drift per slide of the line under the reader's top:
+
+| Scale | `fecd354a3`, the carry | v1.251.1, no carry | 1px tolerance | v1.251.3, the read-back |
+|---|---:|---:|---:|---:|
+| 0.5 | | | 127.63 px | 1.50 px |
+| 1 | 0.97 px | 0.50 px | 0.50 px | 0.50 px |
+| 1.25 | 54.41 px | 100.81 px | 0.90 px | 0.90 px |
+| 1.5 | 71.88 px | 21.45 px | 0.81 px | 0.83 px |
+| 2 | | | 0.50 px | 0.49 px |
+
+- **The cause is #340's `===` against the sum written.** The browser snaps a scroll write to its device pixels, 3122.39990234375 for 3122.4, so the place, which is the read-back, never equalled `heldAt`, the hold let go, and a re-picked line drifted. The skeptics had it right that the carry never saw the snap, so the deletion stands.
+- **The first fix was a 1px tolerance, and #348's review found its hole:** below scale 1, browser zoom under 100%, a device pixel is more than a CSS pixel. Measured at 0.5 it failed on every run, 105.63 px median. `heldAt` is now the read-back and the test is `===` again: +2 B, and it holds from 0.5 to 2.
+- **Emulation cannot see this,** and nearly fooled me. Playwright's `deviceScaleFactor` gave 0 fractional frames of 785. Only `--force-device-scale-factor` reaches the snap, and it binds a worker, so 1.25 and 0.5 have a file each, sharing `e2e/scale-hold.ts`.
+- **The premise, corrected.** I first claimed the journey "fails rather than passes if a browser stops snapping". It did not: it only asked whether some frame read fractional, which its own first write made true. It now writes off the device grid, `k + 0.3` at 1.25 and an odd pixel at 0.5, and requires the read-back to differ.
+- **The harness boot hid it too.** Under `journey().boot` the failure never happened and `hold-exact` survived twice. Booted as a page with checked real presses, the journey fails the broken build.
+- **Controls:** `hold-exact`, the sum back, dies at 1.25. `hold-tolerance` dies at 0.5. `hold-loose`, a hold that ignores scrolls under 100 px, dies on a new 24 px wheel journey in `pane-layout.spec.ts`: the review found the only scroll-lets-go journey moved 60% of the article.
+- **Not covered:** 1.5 and 2 have no journey, and 2 never failed.
+- **A commit subject names the wrong row:** `a33b79cf8` says `training-close-scrolls` writes a scroll, but that change landed in `45ef0f69a`. Left as it is, not rewritten.
+- **`reader_mangle` widened:** destructuring defaults, every script under `e2e/`, `scripts/`, `forward/` and `source/quartz`, and the reader's own dataset keys and data-* attributes. 652 files, 0 reads. Its header names what stays uncovered.
+- **Item 6, the hold's state after a close or a Read more, did not reproduce.** Tile tops run down the page in DOM order, so the ✕ of any tile above the held line is above the reader's top when the line is at it. A Read more could reach lower in the other column, but a search of 5 pages at 1440 with the pane open found no such layout.
+
+**The end gap, the correction that matters.** Real reader, 1440x900, every seat, the two columns' tile bottoms apart, all after S1 a:
+
+| All seats | No split, median | Split, median | Better | Worse | Over 800 px, no split | Split |
+|---|---:|---:|---:|---:|---:|---:|
+| Transitions, 2,022 | 752 px | 124 px | 2,003 | 19 | 895 | 0 |
+| Submissions, 576 | 916 px | 1,592 px | 4 | 572 | 383 | 575 |
+
+S1 a puts Safety last on every Submission seat. Unsplit it lands beside one tall Training tile. Split, the phases level the columns and it stands alone. Safety split at its five bold heads, on a scratch
+build, gives a median of 208 px for +282 B and 170 px more on a phone at 390x631 on all 576 seats. The owner's question is U111, and nothing here changes the split.
+
+**Bytes.** Deferred 507,110 to 506,961 B on the tree merged with #347, and the ceiling follows it down, exact. The fix costs 12 B and seven more names in `READER_ONLY_PROPS` save 161 B:
+`placeTop gridW gameKey selecting seating extract gameInput`, all covered by `reader_mangle`. The owner's approval stands at 507,117 B, so 156 B of it are unused.
+
+**Hubs print "How it works" three times.** Measured here, shipped in v1.251.4.
+
+**Tightened.** The poke's floor is exact at 390 again (`gap-extra-phone`). New controls for three claims that had none: `columns-end-apart`, `training-one-tile-columns`, `training-apart`, `training-head-not-back`, and
+`training-close-scrolls` for a new reader check on closing. The hub's Read more journey has its premises back and checks "in place" on both clicks (`hub-seat-scrolls`). "The columns end together" is a named blind spot: it holds on a Transition only.
+
+## v1.251.4 — How it works says its name once (#345's review, item 15, 2026-11-09)
+
+**The reader injected a heading into every overview section that had none, and printed a provenance line once a part.** One tile can hold several parts, so on a
+hub How it works read: HOW IT WORKS, For both sides, the role links, For both sides, How it works, the lead, Top perspective, How it works, the lead. That is the
+"1, 2, or 3 overviews" he rejected, under its new name. It predates #345.
+
+**The fix:** no injected heading, since the tile names the section and `section#overview` keeps its id; and one provenance line for a run of parts from one page.
+
+**Swept through the app's own reader on all 4,538 reader pages, both arms, measured before building:**
+
+| | Before | After |
+|---|---:|---:|
+| Pages where How it works says its name 2 or 3 times | 1,677 (1,432 hubs, 83 Systems, 26 Learning, 74 seats) | 0 |
+| Labels removed | | 3,109 "How it works", 2,044 "For both sides", 37 "Attacker perspective" |
+| Labels added | | 0 |
+| Section order, index rows | | unchanged on all 4,538 |
+| Overview words | | the same; 4 Submission hubs first read as different, which was my regex eating a run of words, and a DOM recount shows them the same |
+
+**`#overview`.** No page links to it, 0 hrefs in the build, so a typed or shared URL is the only way in. On 7 pages at 1440 and 390 it lands on the same section in both
+arms, and identically to the pixel where the heading was hidden. Both arms land between -12 and +37 px of the reader's top: older imprecision, not this change's.
+
+**Bytes:** -90 B, to 506,871 B on the tree merged with #348, and the ceiling follows it down. My scratch figure was -52 because that variant left the now-unused
+`querySelector` in. 246 B of the owner's 507,117 approval are unused.
+
+**Gates:** journeys, 13 reader files, 281 of 281. Controls `hub-heading-injected`, `provenance-every-part`, `anchor-lost`, all killed on their claims.
+
+## v1.251.5 - The video search, routes 1 to 4 (clips2, 2026-11-09)
+
+**What.** The owner's U106 a released six identity holds; U107 a kept the October rule (an exact video of that move in that role, or none) and asked for every search route on Claude, at low token cost. 47 content records and their 74 generated pages; clips and escape rows only, proved by comparing every record with its clip keys removed against the base: 47 of 47 equal.
+- Route 1, the six released holds (John Wayne Sweep, X Pass, Leg Weave Pass, Half Guard to Leg Weave, Suloev Stretch from Half Guard, Granby Roll to Guard): every clip already on their 12 halves was judged. 10 that were plainly another move came off (butterfly-guard defences on a half-guard sweep, a toreando pass and headquarters retention on X Pass, an underhook half-guard pass on the leg weave, a 12 s match commentary titled "knee bars"); 8 stayed. Empty halves were searched: X Pass and Granby Roll to Guard gained both halves.
+- Route 2, November's unfinished judging: 48 re-picks, 42 "unsure" verdicts still open on this tree, 10 title-only accepts (three auto frames each), 8 unsure escape moments.
+- Route 3, stale bans: a seeded random 50 of the 1,072 October evidence-gap removals still on a half without a front, plus the 27 title-test ids. 0 of the 50 ship, so the rest stay banned; 1 title-test id ships.
+- Route 4, first search: 73 live position seats and the 18 Demi Guard halves. 24 seats gain a film; no Demi Guard half does.
+
+**How.** Scripts reject first (sale pitches in the full description, teaser or highlight titles, title tests for name and seat, bans). Judge A (Sonnet, headless, no settings, tools or MCP, batches of 15 to 20) sees the rest; judge B (Sonnet, a per-rule checklist) sees only A's accepts, after their full description is fetched; the Opus seat settles disagreements and audits a random 10% of double accepts. Every shipped id answered oEmbed 200 on 9 Nov. `regenerate:md`, `regenerate:hubs` and `regenerate:neural` only; `graph.json` and the wire are byte-identical, so no MDP input moves.
+
+**Measured.** The emitter's line moves from 1,542 approved fronts, 103 unapproved and 1,217 empty halves to 1,594, 94 and 1,174; escape rows 67 to 69. In FLOW's gi game from Anywhere, placeholder meetings fall from 3,759 to 3,541 of 13,448 dealt cards per 100 games, 28.0% to 26.3%, and no card loses a video. Judging spent about 0.3 Mtok of Sonnet. Ledgers, verdicts and token records: `scratch/video-search/` outside the repo; report `reports/video-search.md`.
+
+**Two core specs, after the capture (spec, helper and changelog only, so the capture stands).** CI's first full run went red
+on `camera-continuity` (390px, "an exchange from a node with no Videos section") because it NAMED Reverse Mount Top, which
+this PR gave its first film: a stale premise. It now takes the first seat from `e2e/decks.ts seatsWithoutVideos()` (hub and
+Top pages without a Film Study section, from the build) whose reader agrees, and keeps its claim and NON-KILL note.
+`graph-naming` ("the node a move LANDS on blooms harder") went red once on a lottery, not on content: the move's `resolve` and
+`outcome` draws were live, a miss let the opponent's counter draw a destination inside Darce Choke from Darce Control, and a
+catch never lands. Isolated it passed 20 of 20 on this build and 20 of 20 on a clean control (same app, base content); the
+move now succeeds onto its first outcome, 20 of 20, and both files pass whole, 37 of 37.
+## v1.252.0 — The question left and the video right, a video asked for, one stacked width, and the injury risks only (U104, U108 to U112, 2026-11-06 to 2026-11-09)
+
+**U104, U108 a: the question left, the video right.** From 1,024px of free width the stage heads the article's two columns: the
+question in the left, the film in the right, each column carrying on under its own cell, so a short card leaves no hole. Opening
+the question moves the film nowhere (1 px, against 461 to 494 px before). The index reads as the screen: Moves, Questions, Videos.
+A move with no video keeps a one-clip card and no ✕ (nothing to dismiss, and no Videos row on that page to bring it back).
+
+**U109 b: the card asks for a video.** "No video of this move yet", "We only show a video that teaches exactly this move. Know
+one?", and Suggest a video, which opens the existing Feedback form about that move with "Paste the video's link, and the second
+the move starts if you know it." It sends the form's own `neural_issue_reported` with `kind: "video"`; an ordinary report has no
+`kind`. +261 B eager gzip (+193 neural.js, +68 neural.css).
+
+**U110 a: one stacked width.** Under 1,024px free, everything stacked (question, film, grid and tiles, and above 640px the hand)
+is one centred box of at most 496px: a tile's 468px of text at 600px, 70 characters of the body face at 6.68px each. Measured on
+Side Control Bottom, opened: at 600, 768, 900 and 1,000 every box is 496px with one pair of edges; before, 768 had card 560, film
+680 and grid 704 in two 340px lanes, and 900 and 1,000 were side by side. At 1,024, 1,280 and 1,440 every box equals #346's own
+committed reader. Text runs 468px at 600 (70 characters) and 456px above 640, where a tile pads 20px (68).
+
+**U111, U112 a: the injury risks only, cut in the page.** The owner: "Show only the injury risks, and a disclaimer with a
+sensible warning to go slow and watch out for the tap at the end of the article". U112 a chose the template over the reader:
+
+| Route | Deferred | Against 507,117 |
+|---|---:|---:|
+| a, the templates (chosen) | 507,063 B | 54 B under |
+| b, the reader, with a raise | 507,678 B | 561 B over |
+| c, the reader and mangle tier 4, with a raise | 507,256 B | 139 B over |
+
+The three Submission templates render the guide as the injury table and "Go slow. Apply this gradually, with a partner who knows
+it is coming, and let go the moment they tap, by hand, foot or voice." `regenerate:md` and `regenerate:hubs` moved 349 pages; the
+md-only Cross Collar Choke/Finish page has no source and was cut by hand, as v1.250.2's hand edit records (its role pages carry no
+guide). All 350 guides end with the line and none keeps a tap signal. Each hub loses a median of 974 visible characters net (342
+to 1,793; 9.7% of the article at the median, 24.0% at worst); 0 links lost. SEO: Achilles Lock falls under its floor (5,857 to
+4,971 against 5,128); Rear Naked Choke holds (6,794 against 6,754). The submission dossiers stop carrying speed, tap signals,
+release and restrictions, which nothing in the app read: -325,146 B raw, -124,319 B gzip over 287 chunks.
+
+**Bytes.** Deferred exactly 507,063 B: seven more reader-only names mangled (`sortColumns readingInteraction gameHomes`, and
+`renderSerial tileSizer pageArticle leadCells`, renamed from `serial tiles article lead` so the gate can scan them) and
+`sortColumns` back on `rect()`. Eager: checkpoint at dev b0142e40c's own level, 348,688 B (+4,900 since v1.247.1); #346's own
+growth is measured in the commit body.
+
+**Moved here from docs/Neural.md (a measured past state, verbatim):** "At v1.227.0, 285/290 concrete submissions have defender
+clips. Gaps: Americana, Armbar and Kimura from Triangle Control; Achilles Lock from Inside Ashi-Garami; Suloev Stretch from Half
+Guard. All five have authored defender blocks; no clips were added."
+
+**#346's own spec debt, and the two bugs it hid.** U104 shipped to its draft without its specs, so an A/B (#346's head against
+this tree, the same 11 files) found 36 tests red on both; none was a round-4 regression. Two were real:
+- *A pane slide jumped the reader's line 11.8 to 15.7px for a frame or two.* Traced pass by pass: the asking line is fitted to one
+  line by its ResizeObserver a frame after each width change, so every width-change pass measured a wrapped line 17px taller (card
+  26 to 43px, the Moves band 31.5 to 49.1px), the stage's lead flipped the columns (R19 to R137), and the next pass at the same
+  width flipped them back with no hold armed. `filmLayout` now sizes an asking card to its column and fits the line in the pass
+  that measures it. Before U104 the card's height never fed the columns, which is why dev never showed it.
+- *At 1,024 to 1,349px a closed question's reopen label sat under the article*, because the right cell started at the question's
+  old top line; both cells now start under the label.
+The rest restate the owner's rulings on the emitted boxes: each column carries on under its own stage cell at one gap; the
+index reads Moves, Questions, Videos; the film is the right column, the face and its 52px arrow lane; "ends above the film" (a
+proxy stricter than its claim) became "never shares a pixel with the film"; the 1366 placement gains "taking the question up moves
+the film nowhere" (1.02px against 461 to 494px before). The dormant-defender journey was a lottery (an unrigged answer draw that
+U104 can put below the scrollport: Triangle Choke 3 of 4 serial runs red); it wheels the answer up over the question, as a player.
+
+**Controls, all killed at their claims against green baselines:** app `film-suggest-unwired`, `film-suggest-node-lost`,
+`film-suggest-kind-lost`, `film-none-close-back`, `ask-fit-late`; reader `u110-cap-lost`, `u110-card-uncapped`,
+`u110-film-uncapped`, `u110-grid-uncapped` (at 600px: at 900 it fails a step earlier, the columns switching on),
+`u110-cap-past-columns`, `u104-label-under-article`, `u104-no-lead`, `u111-reader-cut-back`; and three hand mutants of the
+template side (a page, a template, a source). 230 reader rows replay. **Found, not fixed:** 23 of the 66 app controls' minified
+targets do not apply to dev b0142e40c's own bundle (18 to this one); none was moved by #346.
+
+**Cobbler's two checks.** *The Moves row at 600 to 640px:* the app is in its phone mode there, so the row stayed full-width with
+the phone stylesheet's 12px sides while the card and the grid shared 52 to 548px. The row now takes the column wherever the stacked
+box binds (600px free: the 496px cap and the card's 104px arrow lane), and the phone rule leaves a flush row's sides to its inline
+inset; under 600px a phone keeps its full-width tray, where the card (free - 104) and the grid (free - 64) are not one column to
+align to. Measured at 528, 560, 600, 640, 641, 700, 768, 900, 1,000 and 1,023px. *The Safety tile's gap* (about 60px between
+"Injury Risks:" and the table's header): the paragraph's 20px bottom margin, then Quartz's `.table-container > table` padding of
+1.5rem (24px), which the reader keeps while zeroing that table's margin, then the header cell's own padding. It predates #346:
+`reading.css` and `source/quartz/styles` are byte-identical to dev, and the guide's markup is unchanged. Not changed here: it is
+every reader table's padding, not the guide's.
+
+**U113 b, and the merge with #350.** The owner named the section for what it holds: "Injury risks", once. The three guide
+templates head it so and drop the table's "Injury Risks:" label ("say its name once", as in #349); the 861 S2 b links read "Injury
+risks ↓"; a Submission's reader tile and index row say "Injury risks" (Transitions and positions keep "Safety guides": their
+guides are whole). The section keeps `#safety-considerations`, so every link lands; only each heading's self-anchor moves,
+`#safety-guide` to `#injury-risks`, and no link pointed at it. 924 pages regenerated with nothing but the rename. The reader's
+tables lost Quartz's top padding (cobbler's check): a guide's table now starts 13.6px under its tile's title, as every tile's text
+does, against about 60px. `mediaSlot` joined the mangle list (-72 B) and paid for the label (+29 B). Merged with #350 (dev
+965787508): deferred exactly 507,056 B, 61 B of the 507,117 approval unused. On the merged tree's own build: core journeys 1,234
+passed, then four reconciled (the slide test now takes the first of six seats that flip, 15 of 80 measured, and pins the fit with
+its own claim; two drawn answers use `pressAnswer`; the hub-guide match names Injury risks); generated suite 101 of 101.
+
+**Gates on this build, before the capture.** Core journeys on a private port: 1,182 passed, then the ten U104 specs above and the
+six my run's working directory broke (paths relative to the root; 26 of 26 from the root). Generated suite: 100 of 101, then 101
+(the shared answer press). First-hand payload: core 368,427 B against its 365,296 B baseline, +3,131 of the 6,000 B cap. The
+census and the SEO baseline move only in the receipt-bound reseed after cobbler's guarded capture.

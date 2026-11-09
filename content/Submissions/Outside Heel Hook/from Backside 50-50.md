@@ -46,6 +46,16 @@ description: "Master the Outside Heel Hook from Backside 50-50. Complete guide t
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and\u2026",
+      "description": "Outside Heel Hook from Backside 50-50 film study: Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tLcHN042w48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tLcHN042w48",
+      "url": "https://www.youtube.com/watch?v=tLcHN042w48",
+      "duration": "PT85S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook~ Marshall Stamper",
       "description": "Outside Heel Hook from Backside 50-50 film study: K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook~ Marshall Stamper.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7I0Lj1aSon4/hqdefault.jpg",
@@ -82,9 +92,6 @@ description: "Master the Outside Heel Hook from Backside 50-50. Complete guide t
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Outside Heel Hook from Backside 50-50 targets the Knee and ankle joint. Primary risk: Lateral collateral ligament (LCL) tear from rotational torque exceeding tissue tolerance. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Outside Heel Hook/from Backside 50-50/Attacker|Play as Attacker]]
@@ -111,6 +118,14 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 <p class="section-subtitle">Watch Outside Heel Hook from Backside 50-50 in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tLcHN042w48)
+
+<p class="clip-credit"><strong>Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and…</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=tLcHN042w48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -171,6 +186,8 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 - Read defensive reactions before committing: If opponent hides heel effectively, transition to alternative attacks rather than forcing a well-defended heel hook
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -246,6 +263,8 @@ This submission demands absolute respect for its injury potential. Rotational fo
 - You feel the attacker's second hand join the first on your heel area, indicating they are establishing the reinforced finishing grip
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -310,9 +329,8 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -323,31 +341,9 @@ This submission demands absolute respect for its injury potential. Rotational fo
 | Ankle ligament sprain from secondary rotational stress transmitted through the foot | Medium | 2-6 weeks depending on severity |
 
 
-**Application Speed**: SLOW and progressive. Apply rotation gradually over 2-3 seconds minimum. Never jerk, spike, or explosively rotate the heel. The knee ligaments targeted provide almost no pain warning before structural failure, making controlled application speed the single most important safety practice.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, your body, or the mat (single or repeated)
-- Physical foot tap with free leg on mat or partner
-- Any unusual screaming, gasping, or distress vocalization
-- Sudden body stiffening or panicked movement indicating distress
 
 
-**Release Protocol**:
-1. Release ALL rotational pressure immediately upon any tap signal—do not finish the rotation
-2. Disengage heel grip completely before releasing leg entanglement to prevent accidental torque during separation
-3. Maintain leg entanglement briefly without pressure to allow controlled, safe separation of limbs
-4. If opponent appears injured or does not respond normally after release, stop training immediately and assess
-5. If in any doubt whether a tap occurred, release immediately—the position can always be re-established
-
-
-**Training Restrictions**:
-- Heel hooks should only be trained with partners who understand rotational leg lock mechanics and tap early
-- New practitioners (white and blue belts) should drill grip mechanics and positioning without applying rotational finishing pressure
-- Never apply this submission at full speed during positional sparring—reserve competition-speed application for competition only
-- Partners with prior knee injuries should communicate limitations before leg lock training begins
-- Avoid training heel hooks when fatigued, as reduced proprioception increases injury risk for both practitioners
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

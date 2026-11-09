@@ -92,9 +92,6 @@ description: "Master the Kimura from Standing in BJJ. Complete safety guide with
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Standing targets the Shoulder joint, rotator cuff, and posterior shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Standing/Attacker|Play as Attacker]]
@@ -187,6 +184,8 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 - **Grip security over speed** - Prioritize unbreakable grip establishment and control maintenance rather than rushing to finishing position
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -256,6 +255,8 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 - Opponent shifts to a staggered, lower stance while maintaining grip contact, signaling preparation to combine shoulder lock pressure with takedown or controlled descent
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -340,9 +341,8 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -353,34 +353,9 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 | Fall-related head or spine injury (from standing height) | CRITICAL | Variable, potentially permanent |
 
 
-**Application Speed**: EXTREMELY SLOW and controlled - minimum 5-7 seconds, standing applications require extra caution due to fall risk
-
-**Tap Signals**:
-- Verbal tap (loudly, especially in standing)
-- Physical hand tap on partner's body or mat
-- Physical foot tap or stomp
-- Any distress vocalization
-- Opponent going to knees (may indicate submission)
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Maintain grip stability to prevent sudden arm release (controlled descent)
-3. Guide partner safely to ground if still standing
-4. Release wrist control first, then shoulder control
-5. Allow partner to externally rotate shoulder back to neutral position
-6. Check for injury and range of motion before continuing training
-
-
-**Training Restrictions**:
-- Never spike, jerk, or explosively rotate the shoulder joint
-- Never use competition finishing speed in training (always 50% speed maximum)
-- Never apply standing Kimura on beginners without extensive instruction
-- Never prevent partner from tapping by controlling both arms
-- Always ensure safe landing space and clear training area
-- Never continue pressure if partner shows any sign of distress or instability
-- Prohibit standing Kimura practice without instructor supervision for white belts
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

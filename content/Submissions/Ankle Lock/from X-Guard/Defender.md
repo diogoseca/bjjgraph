@@ -10,8 +10,6 @@ description: "Defend against the ankle lock from X-Guard in BJJ. Recognition cue
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Ankle Lock from X-Guard targets the Ankle. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -247,6 +245,8 @@ Defending the ankle lock from X-Guard demands early recognition and systematic r
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Ankle Lock/from X-Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

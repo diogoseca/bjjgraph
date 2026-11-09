@@ -109,9 +109,6 @@ description: "Master Far Side Armbar from top positions. Complete guide with saf
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Far Side Armbar targets the Elbow joint (hyperextension). Primary risk: Elbow hyperextension (ligament damage). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Far Side Armbar is a high-percentage finishing technique targeting the opponent's far arm (the arm furthest from you) when controlling from top positions like side control, mount, or north-south. This submission exploits the opponent's defensive frames by isolating the extended arm and applying hyperextension pressure to the elbow joint. The far side armbar is particularly effective because it attacks the arm that opponents naturally use to create distance and prevent transitions, making it a fundamental component of submission chains from dominant positions.
@@ -206,9 +203,8 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -218,30 +214,9 @@ This submission appears frequently in both gi and no-gi competition at all level
 | Shoulder strain from torquing during setup | Medium | 2-6 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to tap. Never snap or jerk the submission.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap (on partner or mat)
-- Physical foot tap (on partner or mat)
-- Any distress signal or unusual sound
 
 
-**Release Protocol**:
-1. Immediately release hip pressure and stop extending the arm
-2. Open your legs if using leg control over the body
-3. Return opponent's arm to neutral position slowly
-4. Allow opponent to recover and reset before continuing
-5. Check with partner verbally that they are okay
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply sudden explosive force to the submission
-- Never use competition speed or pressure in training rolls
-- Always ensure partner has clear access to tap with at least one hand
-- Stop immediately at any sign of discomfort or unusual joint sound
-- White and blue belts should practice at 30-50% speed only
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

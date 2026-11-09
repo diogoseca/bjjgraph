@@ -10,8 +10,6 @@ description: "Learn to execute the toe hold from Toe Hold Control. Step-by-step 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Toe Hold Control targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking with the toe hold from an established Toe Hold Control position is the
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Toe Hold/from Toe Hold Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

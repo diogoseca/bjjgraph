@@ -10,8 +10,6 @@ description: "How to execute Flying Kneebar in BJJ. Attacking perspective with s
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Flying Kneebar from Standing Position targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -268,6 +266,8 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Flying Kneebar/from Standing Position#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

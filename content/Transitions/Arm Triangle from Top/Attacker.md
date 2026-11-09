@@ -57,7 +57,7 @@ description: "How to execute Arm Triangle from Top in BJJ. Attacking perspective
     {
       "@type": "HowToStep",
       "name": "Apply finishing compression",
-      "text": "With hips sprawled low and heavy, raise your non-choking shoulder slightly while driving the choking shoulder deeper into the neck. Imagine trying to touch your choking-side elbow to your own opposite hip—this inward rotation maximizes carotid compression. Hold steady pressure and monitor the opponent for tap signals, verbal submission, or signs of unconsciousness.",
+      "text": "With hips sprawled low and heavy, raise your non-choking shoulder slightly while driving the choking shoulder deeper into the neck. Imagine trying to touch your choking-side elbow to your own opposite hip—this inward rotation maximizes carotid compression. Hold steady pressure and monitor the opponent for tap signals or verbal submission.",
       "position": 7
     }
   ],
@@ -277,7 +277,7 @@ The arm triangle from top integrates seamlessly with side control attacks. If th
 4. **Lock the grip behind the head**: Thread your crossface arm behind the opponent's head and connect it with your other hand using a gable grip or palm-to-palm clasp. The grip should sit at the base of the opponent's skull, pulling their head forward slightly to tighten the arm-and-neck configuration. Squeeze your elbows together to test the seal before committing to the walk-around.
 5. **Walk to the finishing side**: Keeping chest-to-chest contact and the grip locked, walk your feet in an arc toward the opposite side of the opponent's body (the side their trapped arm is on). Step over their torso with your far leg first, then follow with your near leg. Maintain constant downward pressure through your chest throughout the transition—any lift allows arm extraction.
 6. **Sprawl and angle the squeeze**: Once on the finishing side, sprawl both legs back with hips driving into the mat at a 45-degree angle toward the opponent's trapped arm. Drop your choking-side shoulder forward and down while pulling your elbow tight to your ribs. The squeeze comes from your body angle and hip pressure compressing inward, not from arm strength alone.
-7. **Apply finishing compression**: With hips sprawled low and heavy, raise your non-choking shoulder slightly while driving the choking shoulder deeper into the neck. Imagine trying to touch your choking-side elbow to your own opposite hip—this inward rotation maximizes carotid compression. Hold steady pressure and monitor the opponent for tap signals, verbal submission, or signs of unconsciousness.
+7. **Apply finishing compression**: With hips sprawled low and heavy, raise your non-choking shoulder slightly while driving the choking shoulder deeper into the neck. Imagine trying to touch your choking-side elbow to your own opposite hip—this inward rotation maximizes carotid compression. Hold steady pressure and monitor the opponent for tap signals or verbal submission.
 
 
 </section>

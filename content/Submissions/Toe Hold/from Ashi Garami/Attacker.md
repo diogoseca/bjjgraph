@@ -10,8 +10,6 @@ description: "Learn to execute the toe hold from Ashi Garami top position. Step-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Ashi Garami targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -294,6 +292,8 @@ Executing the toe hold from Ashi Garami top position requires recognizing the na
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Toe Hold/from Ashi Garami#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

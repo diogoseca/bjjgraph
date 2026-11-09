@@ -10,8 +10,6 @@ description: "Defend against the Kimura from overhook control. Recognition cues,
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Overhook Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -162,6 +160,16 @@ description: "Defend against the Kimura from overhook control. Recognition cues,
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense\u2026",
+      "description": "Kimura from Overhook Control (Defender) film study: KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MM9rddEgJ58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MM9rddEgJ58",
+      "url": "https://www.youtube.com/watch?v=MM9rddEgJ58",
+      "duration": "PT155S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Late Kimura Defense from Bottom Side Control",
       "description": "Kimura from Overhook Control (Defender) film study: Late Kimura Defense from Bottom Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
@@ -193,6 +201,14 @@ Defending against the Kimura from Overhook Control demands early recognition of 
 
 <p class="section-subtitle">Watch Kimura from Overhook Control (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MM9rddEgJ58)
+
+<p class="clip-credit"><strong>KIMURA DEFENSE 101 From bottom side control! #graciewestchase #kimuradefense…</strong> · 2:35 · <a href="https://www.youtube.com/watch?v=MM9rddEgJ58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -237,6 +253,8 @@ Defending against the Kimura from Overhook Control demands early recognition of 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kimura/from Overhook Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

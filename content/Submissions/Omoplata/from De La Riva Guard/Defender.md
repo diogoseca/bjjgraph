@@ -10,8 +10,6 @@ description: "Defend and escape the omoplata from De La Riva Guard. Recognition 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from De La Riva Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -162,6 +160,16 @@ description: "Defend and escape the omoplata from De La Riva Guard. Recognition 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Omoplata escape, jump over",
+      "description": "Omoplata from De La Riva Guard (Defender) film study: Omoplata escape, jump over.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_2dhd21ffbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_2dhd21ffbc",
+      "url": "https://www.youtube.com/watch?v=_2dhd21ffbc",
+      "duration": "PT7S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Omoplata defense I learned from Delariva himself",
       "description": "Omoplata from De La Riva Guard (Defender) film study: Omoplata defense I learned from Delariva himself.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mC8Vc-n3twQ/hqdefault.jpg",
@@ -171,7 +179,7 @@ description: "Defend and escape the omoplata from De La Riva Guard. Recognition 
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Ursinho Technique Breakdown - [Omoplata Defense]",
       "description": "Omoplata from De La Riva Guard (Defender) film study: Ursinho Technique Breakdown - [Omoplata Defense].",
       "thumbnailUrl": "https://i.ytimg.com/vi/WpdIBfxbUbo/hqdefault.jpg",
@@ -203,6 +211,14 @@ Defending the omoplata from De La Riva Guard starts with recognizing the leg swi
 
 <p class="section-subtitle">Watch Omoplata from De La Riva Guard (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_2dhd21ffbc)
+
+<p class="clip-credit"><strong>Omoplata escape, jump over</strong> · 0:07 · <a href="https://www.youtube.com/watch?v=_2dhd21ffbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -255,6 +271,8 @@ Defending the omoplata from De La Riva Guard starts with recognizing the leg swi
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Omoplata/from De La Riva Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

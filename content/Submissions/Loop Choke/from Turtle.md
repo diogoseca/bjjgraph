@@ -92,9 +92,6 @@ description: "Master the loop choke from turtle in BJJ. Learn cross-collar grip 
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Loop Choke from Turtle targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Loop Choke/from Turtle/Attacker|Play as Attacker]]
@@ -191,6 +188,8 @@ This submission chains naturally with other turtle attacks like the clock choke,
 - Chain the loop choke with clock choke and back take threats to create defensive overload on the turtled opponent
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -265,6 +264,8 @@ This submission chains naturally with other turtle attacks like the clock choke,
 - Attacker's chest lifts off your back as they reposition to the front or side, transitioning from turtle top control to a rolling attack angle
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -333,9 +334,8 @@ This submission chains naturally with other turtle attacks like the clock choke,
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -345,29 +345,9 @@ This submission chains naturally with other turtle attacks like the clock choke,
 | Neck muscle strain from defender's resistance against the tightening collar during the roll | Low | 1-3 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial tightness to full pressure. The rolling motion must be controlled, not explosive, to allow the partner time to recognize and tap.
-
-**Tap Signals**:
-- Verbal tap or verbal statement of submission
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any distress signal including unusual sounds or sudden loss of resistance
 
 
-**Release Protocol**:
-1. Immediately release all collar grips completely upon any tap signal
-2. Unwind from rolling position and create space between bodies
-3. Check partner's alertness and awareness before any further activity
-4. Allow minimum 60 seconds recovery time before resuming training
-
-
-**Training Restrictions**:
-- Never execute the rolling motion at full competition speed in training - control the roll to allow partner recognition time
-- Never apply sudden jerking or yanking motions with collar grips during or after the roll
-- Never continue pressure after tap is felt or heard, even if you believe the choke is not yet tight
-- Always ensure training partner can freely tap with at least one hand throughout the rolling sequence
-- Never practice on partners who are visibly fatigued or disoriented from previous rolls
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

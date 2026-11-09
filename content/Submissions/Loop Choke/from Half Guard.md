@@ -82,9 +82,6 @@ description: "Master the Loop Choke from Half Guard Top in BJJ. Learn deep colla
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Loop Choke from Half Guard targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Loop Choke/from Half Guard/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ The attacker must balance commitment to the choke against maintaining top positi
 - The opponent's own defensive movement is the primary tightening mechanism of the choke
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -245,6 +244,8 @@ The attacker must balance commitment to the choke against maintaining top positi
 - Attacker begins sprawling their hips backward while maintaining collar grip and head control, creating progressive tightening around your neck
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -314,9 +315,8 @@ The attacker must balance commitment to the choke against maintaining top positi
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -325,29 +325,9 @@ The attacker must balance commitment to the choke against maintaining top positi
 | Neck strain from defensive head pulling against collar loop | Low | 1-3 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial tightness to full pressure
-
-**Tap Signals**:
-- Verbal tap or verbal statement of submission
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any distress signal including unusual sounds or loss of resistance
 
 
-**Release Protocol**:
-1. Immediately release collar grip and all head control completely
-2. Remove chest and hip pressure by disengaging to a neutral position
-3. Check partner's alertness and awareness before continuing
-4. Allow minimum 60 seconds recovery time before resuming training
-
-
-**Training Restrictions**:
-- Never apply sudden jerking or yanking motions with collar grips
-- Never use competition speed in training - always give partner time to recognize and tap
-- Never continue pressure after tap is felt or heard
-- Always ensure training partner can freely tap with at least one hand
-- Never practice on partners who are visibly fatigued or disoriented
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

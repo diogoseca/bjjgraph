@@ -209,7 +209,7 @@
       {
         "step_number": 7,
         "action": "Apply progressive squeeze",
-        "description": "Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. The chest expansion combined with elbow contraction creates bilateral carotid compression. Wait for the tap or feel the resistance fade as blood flow restriction takes effect.",
+        "description": "Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. The chest expansion combined with elbow contraction creates bilateral carotid compression. Wait for the tap as blood flow restriction takes effect.",
         "timing": "3-8 seconds to finish"
       }
     ],
@@ -642,6 +642,24 @@
       }
     ],
     "clips": [
+      {
+        "id": "D2vkZGTD78I",
+        "title": "The Fastest Escape Out Of The Arm Triangle",
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "Jxd9UkmU5Co",
+        "title": "How to Escape the Head & Arm Triangle in Jiu Jitsu for all you Whiners",
+        "channel": "Malachy Friedman",
+        "duration": 82,
+        "vertical": false,
+        "start": 35,
+        "verified": "2026-11-04"
+      },
       {
         "id": "BuTIktWWudo",
         "title": "How to Escape Arm Triangles (Head and Arm Chokes) and Return with a Scarf Hold",

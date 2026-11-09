@@ -35,7 +35,7 @@
         "gi": 15,
         "nogi": 15
       },
-      "result": "counter"
+      "result": "failure"
     }
   ],
   "success_rate": {
@@ -530,6 +530,16 @@
         "description": "Back control positional sparring where bottom player uses all escape methods with full resistance. Maintain back control for 2-minute rounds, focusing on retention and counter-attacking when escape attempts create submission opportunities or position improvement."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "abIQHEI0k0w",
+        "title": "Countering the Butt Scoop Back Escape (week 10)",
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 330,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

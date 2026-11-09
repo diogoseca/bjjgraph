@@ -10,8 +10,6 @@ description: "How to defend and escape the North-South Choke from Kesa Gatame. R
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from Kesa Gatame targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -152,6 +150,37 @@ description: "How to defend and escape the North-South Choke from Kesa Gatame. R
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Choke from Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "\u201cHook-Plata\u201d (North-South Choke Escape)",
+      "description": "North-South Choke from Kesa Gatame (Defender) film study: \u201cHook-Plata\u201d (North-South Choke Escape).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O-2iSvT8zDk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O-2iSvT8zDk",
+      "url": "https://www.youtube.com/watch?v=O-2iSvT8zDk",
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "NORTH SOUTH CHOKE DEFENSE - Simple and Effective",
+      "description": "North-South Choke from Kesa Gatame (Defender) film study: NORTH SOUTH CHOKE DEFENSE - Simple and Effective.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CC8b5mR79OI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CC8b5mR79OI",
+      "url": "https://www.youtube.com/watch?v=CC8b5mR79OI",
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -167,6 +196,32 @@ The defender must prioritize keeping their chin tucked to limit arm threading de
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Choke from Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O-2iSvT8zDk)
+
+<p class="clip-credit"><strong>“Hook-Plata” (North-South Choke Escape)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=O-2iSvT8zDk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CC8b5mR79OI)
+
+<p class="clip-credit"><strong>NORTH SOUTH CHOKE DEFENSE - Simple and Effective</strong> · 2:39 · <a href="https://www.youtube.com/watch?v=CC8b5mR79OI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -201,6 +256,8 @@ The defender must prioritize keeping their chin tucked to limit arm threading de
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/North-South Choke/from Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

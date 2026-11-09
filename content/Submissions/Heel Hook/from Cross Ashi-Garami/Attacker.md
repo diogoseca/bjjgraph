@@ -10,8 +10,6 @@ description: "Learn to attack with the heel hook from Cross Ashi-Garami. Step-by
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from Cross Ashi-Garami targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ Attacking the heel hook from Cross Ashi-Garami requires precise control of the o
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Heel Hook/from Cross Ashi-Garami#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

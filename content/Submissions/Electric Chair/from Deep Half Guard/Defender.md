@@ -10,8 +10,6 @@ description: "How to defend against Electric Chair in BJJ. Recognition, escape p
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Electric Chair from Deep Half Guard targets the Knee joint, hip flexors, and posterior chain. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -243,6 +241,8 @@ When defense fails to prevent the submission entry, the defender must recognize 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Electric Chair/from Deep Half Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

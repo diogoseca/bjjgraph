@@ -132,9 +132,6 @@ description: "Master the Kneebar in BJJ. Complete guide covering safety protocol
 <span class="meta-chip">~60% avg</span>
 </div>
 
-> [!danger] Safety
-> Kneebar targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Knee Bar</strong>, <strong>Hiza Juji Gatame</strong>, <strong>Leg Bar</strong></p>
 </aside>
@@ -266,9 +263,8 @@ The technique has evolved significantly with modern leg lock systems, particular
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -278,30 +274,9 @@ The technique has evolved significantly with modern leg lock systems, particular
 | Meniscus tear (medial or lateral) | High | 3-6 months, may require surgery |
 
 
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress vocalization or signal
 
 
-**Release Protocol**:
-1. Immediately stop all hip extension the moment tap is received
-2. Release hip pressure by dropping hips away from opponent's leg
-3. Maintain positional control while releasing the leg slowly
-4. Allow opponent to extract their leg at their own pace
-5. Check with partner verbally after release
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply smooth, progressive pressure
-- Never use competition speed or intensity in training rolls
-- Always communicate with training partners about leg lock experience level
-- Never continue pressure after any tap signal
-- Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

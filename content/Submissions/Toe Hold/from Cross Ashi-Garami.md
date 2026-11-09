@@ -82,9 +82,6 @@ description: "Master the toe hold from cross ashi-garami with grip mechanics, ro
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Cross Ashi-Garami targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Cross Ashi-Garami/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 - Stay prepared to transition immediately to heel hook or ankle lock if the opponent straightens their leg to defend the toe hold grip
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -239,6 +238,8 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 - Attacker pulls your foot snugly against their chest or shoulder, seating it against their torso as a fulcrum point for rotation
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -299,9 +300,8 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -312,33 +312,9 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 | Achilles tendon strain | Medium | 4-6 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. The toe hold generates structural damage before pain signals register, making controlled application essential in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly)
-- Physical hand tap on partner or mat (multiple taps)
-- Physical foot tap with free leg
-- Any verbal distress signal
-- Slapping the mat with hand
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon tap
-2. Release toe grip completely before releasing leg control
-3. Release heel control and uncross legs
-4. Allow opponent's foot to return to neutral position naturally
-5. Do not let go abruptly - maintain light contact until opponent signals they are okay
-6. Check with training partner before continuing
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual and controlled
-- Never grip individual toes - always grip across multiple toes and ball of foot
-- Never combine with explosive hip extension while grip is locked
-- Always allow clear tap access for both hands
-- Stop immediately at any sign of discomfort from training partner
-- Never train this submission at competition speed during drilling
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

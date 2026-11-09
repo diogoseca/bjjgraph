@@ -33,7 +33,7 @@ description: "How to defend the Omoplata to Back transition in BJJ. Recognition 
     {
       "@type": "HowToStep",
       "name": "Strip the seatbelt grip with two-on-one control on the choking arm before hooks are consolidated",
-      "text": "When the attacker has begun establishing the seatbelt after the roll but has not yet locked both hooks If successful: Breaking the seatbelt removes the primary control that prevents you from turning, allowing you to rotate and face the attacker or escape to turtle",
+      "text": "When the attacker has begun establishing the seatbelt after the roll but has not yet locked both hooks If successful: Breaking the seatbelt removes the primary control that prevents you from turning, allowing you to rotate and face the attacker, who is left recovering closed guard underneath you",
       "position": 3
     },
     {
@@ -218,8 +218,8 @@ Defending the Omoplata to Back transition requires understanding that your own f
 ### 3. Strip the seatbelt grip with two-on-one control on the choking arm before hooks are consolidated
 
 - **When to use**: When the attacker has begun establishing the seatbelt after the roll but has not yet locked both hooks
-- **Targets**: [[Positions/Omoplata Control]]
-- **If successful**: Breaking the seatbelt removes the primary control that prevents you from turning, allowing you to rotate and face the attacker or escape to turtle
+- **Targets**: [[Positions/Closed Guard]]
+- **If successful**: Breaking the seatbelt removes the primary control that prevents you from turning, allowing you to rotate and face the attacker, who is left recovering closed guard underneath you
 - **Risk**: If the attacker already has deep hooks, stripping the seatbelt alone may not be sufficient to escape and you remain in back control
 
 ### 4. Posture up aggressively in the omoplata to prevent the need to roll at all
@@ -243,9 +243,9 @@ Defending the Omoplata to Back transition requires understanding that your own f
 
 Roll explosively at a diagonal angle while keeping elbows tight to break the attacker's shoulder connection, then immediately turn to face them and establish guard before they can re-enter the omoplata or take your back. The angular roll is key because rolling straight forward is what the attacker expects and has drilled to follow.
 
-### → [[Positions/Omoplata Control]]
+### → [[Positions/Closed Guard]]
 
-If the attacker partially establishes back control, use two-on-one grip fighting on their choking arm to strip the seatbelt while simultaneously turning your hips toward them. Even if hooks remain, removing the seatbelt allows you to rotate into a scramble where you can recover to a guard position and the attacker may re-enter omoplata control rather than maintaining back mount.
+If the attacker partially establishes back control, use two-on-one grip fighting on their choking arm to strip the seatbelt while simultaneously turning your hips toward them. Even if hooks remain, removing the seatbelt allows you to rotate into a scramble where you end up on top inside the attacker's closed guard rather than leaving them in back mount.
 
 
 

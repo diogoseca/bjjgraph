@@ -29,7 +29,7 @@
       "result": "failure"
     },
     {
-      "to": "Butterfly Guard/Top",
+      "to": "Side Control/Bottom",
       "probability": {
         "gi": 10,
         "nogi": 10
@@ -179,10 +179,10 @@
         "targets_outcome": "Butterfly Guard/Bottom"
       },
       {
-        "counter": "Opponent stands up completely, removing all weight from hooks and attempting to disengage or pass standing",
+        "counter": "Opponent stands up completely, removing all weight from hooks, and completes the pass to side control",
         "effectiveness": "Medium",
-        "your_response": "Maintain grip control and transition to standing guard options like De La Riva or Shin-to-Shin. Use your hooks to off-balance opponent as they stand, potentially setting up sacrifice throws or back take entries.",
-        "targets_outcome": "Butterfly Guard/Top"
+        "your_response": "Maintain grip control and transition to standing guard options like De La Riva or Shin-to-Shin. Use your hooks to off-balance opponent as they stand, potentially setting up sacrifice throws or back take entries. If the pass completes, you land underneath side control and your recovery starts there.",
+        "targets_outcome": "Side Control/Bottom"
       }
     ],
     "common_errors": [
@@ -443,17 +443,17 @@
         "risk": "Posted arm becomes exposed to Kimura attack or armbar if opponent anticipates the post. Also, weight committed to posted hand can be exploited if opponent redirects sweep to opposite side."
       },
       {
-        "action": "Sprawl hips backward explosively while driving crossface pressure forward, removing your weight from the hooks entirely and flattening opponent's posture",
+        "action": "Sprawl hips backward explosively while driving crossface pressure forward, removing your weight from the hooks entirely, flattening opponent's posture and passing beyond the hooks to side control",
         "when_to_use": "When opponent breaks your posture and loads your weight forward but before they commit to a specific sweep direction. Most effective against opponents who rely heavily on forward weight loading.",
-        "targets_outcome": "Butterfly Guard/Top",
-        "if_successful": "Opponent's hooks lose all elevation power as your weight moves behind them. You establish heavy top pressure with potential to pass immediately through the compromised guard structure.",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Opponent's hooks lose all elevation power as your weight moves behind them. You establish heavy top pressure and complete the pass through the compromised guard structure, securing side control.",
         "risk": "If sprawl is late and opponent already has rotation, you may end up sprawling into the sweep. Excessive backward sprawl can disengage contact entirely, allowing opponent to recover full guard position."
       },
       {
-        "action": "Drive forward with heavy chest-to-chest pressure while swimming your arms inside to strip opponent's grips, flattening them to their back and neutralizing the upright posture they need",
+        "action": "Drive forward with heavy chest-to-chest pressure while swimming your arms inside to strip opponent's grips, flattening them to their back, neutralizing the upright posture they need and carrying the pass through to a side control pin",
         "when_to_use": "When opponent is attempting to sit up and establish grips but has not yet loaded your weight or committed to a sweep direction. Works as a preemptive defense before sweep components are assembled.",
-        "targets_outcome": "Butterfly Guard/Top",
-        "if_successful": "Opponent is flattened on their back with reduced hook effectiveness and compromised grip position. Creates passing opportunities through smash pass or over-under configurations.",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Opponent is flattened on their back with reduced hook effectiveness and compromised grip position. You complete the pass through smash pass or over-under configurations and pin them in side control.",
         "risk": "If opponent maintains strong hooks during your drive forward, your committed weight becomes the force they redirect into the sweep. Must combine with grip stripping to be effective."
       },
       {
@@ -470,8 +470,8 @@
         "how": "Deny the sweep while maintaining top position by posting early on the sweep side, stripping opponent's dominant grips to prevent posture breaking, and keeping your hips back with weight distributed away from hooks. After stopping the sweep attempt, immediately initiate your own passing sequence before opponent can re-establish optimal guard structure."
       },
       {
-        "outcome": "Butterfly Guard/Top",
-        "how": "Counter the sweep attempt aggressively by sprawling backward when you feel the loading phase, then immediately driving forward with chest pressure to flatten opponent's posture. Strip grips during the transition and establish dominant passing position with crossface or underhook control. This converts a defensive moment into an offensive passing opportunity as opponent's guard structure is compromised from their failed sweep attempt."
+        "outcome": "Side Control/Bottom",
+        "how": "Counter the sweep attempt aggressively by sprawling backward when you feel the loading phase, then immediately driving forward with chest pressure to flatten opponent's posture. Strip grips during the transition and establish dominant passing position with crossface or underhook control. This converts a defensive moment into an offensive passing opportunity as opponent's guard structure is compromised from their failed sweep attempt. Finish the pass to side control."
       }
     ],
     "common_errors": [

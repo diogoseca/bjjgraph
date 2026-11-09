@@ -157,6 +157,37 @@ description: "Master North-South top position in BJJ. Complete guide to establis
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kami-shiho-gatame - Demo",
+      "description": "North-South (Top) film study: Kami-shiho-gatame - Demo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2evEh7OBnBg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2evEh7OBnBg",
+      "url": "https://www.youtube.com/watch?v=2evEh7OBnBg",
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kami-Shiho-Gatame Tips | Riki Judo Dojo",
+      "description": "North-South (Top) film study: Kami-Shiho-Gatame Tips | Riki Judo Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pvu4nhEHqkM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pvu4nhEHqkM",
+      "url": "https://www.youtube.com/watch?v=pvu4nhEHqkM",
+      "duration": "PT227S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -177,6 +208,32 @@ The position serves as a critical checkpoint during guard passing sequences and 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2evEh7OBnBg)
+
+<p class="clip-credit"><strong>Kami-shiho-gatame - Demo</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=2evEh7OBnBg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pvu4nhEHqkM)
+
+<p class="clip-credit"><strong>Kami-Shiho-Gatame Tips | Riki Judo Dojo</strong> · 3:47 · <a href="https://www.youtube.com/watch?v=pvu4nhEHqkM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">
@@ -374,20 +431,6 @@ Maintain maximum chest pressure in North-South while partner attempts only frame
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position: North-South.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie: Closed Guard</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura — Enter The System</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Ariel-Tabak-Outside-Passing-System" data-cta="related-system-card" data-system-slug="systems/ariel-tabak-outside-passing-system" data-system-name="Ariel Tabak Outside Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ariel Tabak: Outside Passing and Finishing</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Gordon-Ryan-Side-Control-to-North-South-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-side-control-to-north-south-system" data-system-name="Gordon Ryan Side Control to North-South System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gordon Ryan: Side Control and North-South</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-North-South-Choke-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-north-south-choke-system" data-system-name="Marcelo Garcia North South Choke System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: The North-South Choke</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

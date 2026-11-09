@@ -27,25 +27,25 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg Takedown",
-      "text": "From this position, attempt Single Leg Takedown. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg Takedown. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Snap Down to Front Headlock",
-      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Fireman's Carry",
-      "text": "From this position, attempt Fireman's Carry. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Fireman's Carry. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kouchi Gari",
-      "text": "From this position, attempt Kouchi Gari. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Kouchi Gari. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
@@ -423,20 +423,6 @@ Focused drill exclusively on establishing and maintaining dominant head position
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Alex Enriquez: Wrestling Takedown Defense</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position reference for standing defense study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Grappling Under MMA Rules</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position: Clinch.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Self-Defense-Application-Framework" data-cta="related-system-card" data-system-slug="systems/self-defense-application-framework" data-system-name="Self-Defense Application Framework" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Sport Grappling and Self-Defense</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Related position: Clinch.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Aaron-Benzrihem-Ankle-Pick-System" data-cta="related-system-card" data-system-slug="systems/aaron-benzrihem-ankle-pick-system" data-system-name="Aaron Benzrihem Ankle Pick System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Aaron Benzrihem: Ankle Picks</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Cage-Clinch-to-Ground-System" data-cta="related-system-card" data-system-slug="systems/cage-clinch-to-ground-system" data-system-name="Cage Clinch to Ground System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Neiman Gracie: Jiu-Jitsu for MMA</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Jimmy-Sheptock-Single-Leg-System" data-cta="related-system-card" data-system-slug="systems/jimmy-sheptock-single-leg-system" data-system-name="Jimmy Sheptock Single Leg System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Jimmy Sheptock: Single-Leg Takedowns</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Kenta-Iwamoto-Foot-Sweep-System" data-cta="related-system-card" data-system-slug="systems/kenta-iwamoto-foot-sweep-system" data-system-name="Kenta Iwamoto Foot Sweep System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Kenta Iwamoto: Foot Sweeps and Leg Trips</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

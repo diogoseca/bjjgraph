@@ -10,8 +10,6 @@ description: "How to execute Monoplata from Guard in BJJ. Attacking perspective 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Monoplata from Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -279,6 +277,8 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Monoplata/from Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

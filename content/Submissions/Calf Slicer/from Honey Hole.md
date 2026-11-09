@@ -102,9 +102,6 @@ description: "Master the calf slicer from Honey Hole position in BJJ. Complete g
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer from Honey Hole targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Calf Slicer/from Honey Hole/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ Strategically, the calf slicer adds a compression dimension to the rotational at
 - Keep perpendicular body alignment to prevent the opponent from rotating out of the compression angle
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -277,6 +276,8 @@ Strategically, the calf slicer adds a compression dimension to the rotational at
 - Attacker threads their arm under your ankle from the outside, cupping the ball of your foot
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -335,9 +336,8 @@ Strategically, the calf slicer adds a compression dimension to the rotational at
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -347,32 +347,9 @@ Strategically, the calf slicer adds a compression dimension to the rotational at
 | Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (encouraged due to leg entanglement limiting hand access)
-- Physical hand tap on partner or mat
-- Physical foot tap if hands are trapped
-- Any distress vocalization or signal
-- Slapping mat with free hand multiple times
 
 
-**Release Protocol**:
-1. Immediately release foot grip upon any tap signal
-2. Remove shin pressure from calf slowly and controlled
-3. Unwrap legs carefully without jerking movements
-4. Allow partner to extend leg naturally before disengaging
-5. Check partner's mobility and sensation before continuing training
-
-
-**Training Restrictions**:
-- Never apply at competition speed in training
-- Never spike or jerk the compression
-- Never hold after tap to finish the position
-- Always allow immediate tap access with both hands
-- Prohibited for colored belts below brown belt in most organizations
-- Never practice on partners with previous calf injuries without explicit consent
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

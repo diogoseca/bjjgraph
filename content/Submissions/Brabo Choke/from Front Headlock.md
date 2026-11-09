@@ -112,9 +112,6 @@ description: "Master the Brabo Choke in BJJ. Complete guide with safety protocol
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Brabo Choke from Front Headlock targets the Carotid arteries and trachea. Primary risk: Carotid artery compression causing loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Brabo Choke/from Front Headlock/Attacker|Play as Attacker]]
@@ -223,6 +220,8 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 - Proper angle adjustment ensures blood choke rather than painful air choke
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -294,6 +293,8 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 - Opponent's hands connect behind your neck in a bicep grip or wrist grip, completing a closed loop you can feel tightening around your neck and trapped arm
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -372,9 +373,8 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -384,32 +384,9 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 | Trachea damage from improper forearm placement | CRITICAL | 2-6 weeks or longer; potential permanent damage |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum pressure buildup in training
-
-**Tap Signals**:
-- Verbal tap or any vocal distress signal
-- Multiple taps with free hand on opponent's body
-- Multiple taps with feet on the mat
-- Any unusual sound or movement indicating distress
-- Loss of resistance or body going limp (IMMEDIATE RELEASE)
 
 
-**Release Protocol**:
-1. Immediately release the choking arm grip upon tap signal
-2. Remove arm from under opponent's neck smoothly (do not jerk)
-3. Allow opponent to expand neck and breathe freely
-4. Check partner's condition and allow recovery time before continuing
-5. If partner was close to unconsciousness, extend rest period to 2-3 minutes minimum
-
-
-**Training Restrictions**:
-- Never apply sudden or jerking pressure to the neck
-- Never use competition finishing speed during training rolls
-- Never continue pressure after tap signal for any reason
-- Never practice on opponents with known neck or spinal injuries without explicit medical clearance
-- Never hold the choke 'just to see' if partner will tap - always release at first signal
-- Avoid practicing at full intensity until proper technique is established (minimum 20+ controlled repetitions)
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

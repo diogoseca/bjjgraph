@@ -363,7 +363,26 @@
       }
     ],
     "safety_considerations": "The Clock Choke is a blood choke that can render an opponent unconscious within seconds once fully applied. Always release immediately upon tap or when unconsciousness is detected. Apply pressure gradually during drilling to allow your partner time to tap before the choke becomes fully tight. Never crank or jerk the rotation, as this can cause cervical spine injury in addition to the choking mechanism. Partners should tap early when practicing, as the choke tightens rapidly during the sprawl phase. Practitioners with neck injuries should avoid this technique until fully healed. When drilling, communicate clearly about pressure levels and respect tap signals immediately.",
-    "clips": []
+    "clips": [
+      {
+        "id": "_qmq81d5X0M",
+        "title": "Secrets of Turtle Clock Choke",
+        "channel": "John Machado",
+        "duration": 119,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "1qVlaITDNGI",
+        "title": "BJJ Basics How to do a Clock Choke from Turtle Position",
+        "channel": "Rituals Jiu Jitsu",
+        "duration": 151,
+        "vertical": false,
+        "start": 29,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Clock Choke Defender",

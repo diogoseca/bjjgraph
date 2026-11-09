@@ -170,6 +170,37 @@ description: "How to execute Muscle Sweep in BJJ. Attacking perspective with set
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Muscle Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Muscle sweep #bjj #jiujitsu #brazilianjiujitsu #btt",
+      "description": "Muscle Sweep (Attacker) film study: The Muscle sweep #bjj #jiujitsu #brazilianjiujitsu #btt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9pHYo_Sonpw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9pHYo_Sonpw",
+      "url": "https://www.youtube.com/watch?v=9pHYo_Sonpw",
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How To Do The Muscle Sweep. First Day BJJ.",
+      "description": "Muscle Sweep (Attacker) film study: How To Do The Muscle Sweep. First Day BJJ..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oD1WVLGgDXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oD1WVLGgDXo",
+      "url": "https://www.youtube.com/watch?v=oD1WVLGgDXo",
+      "duration": "PT122S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -182,6 +213,32 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Muscle Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9pHYo_Sonpw)
+
+<p class="clip-credit"><strong>The Muscle sweep #bjj #jiujitsu #brazilianjiujitsu #btt</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=9pHYo_Sonpw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oD1WVLGgDXo)
+
+<p class="clip-credit"><strong>How To Do The Muscle Sweep. First Day BJJ.</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=oD1WVLGgDXo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -242,7 +299,7 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 70% |
 | Failure | [[Positions/Closed Guard]] | 20% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -256,7 +313,7 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 - **Opponent posts hard with free arm to prevent rollover** (Effectiveness: High) - Your Response: Switch to attacking the posted arm with Kimura or armbar, or transition to alternative sweep like Hip Bump Sweep if they post too wide → Leads to [[Positions/Closed Guard]]
 - **Opponent maintains strong posture and prevents forward weight distribution** (Effectiveness: High) - Your Response: Chain to different attacks like Triangle or Omoplata that work from upright posture, or use hip bump to break posture again → Leads to [[Positions/Closed Guard]]
 - **Opponent sprawls legs back as you attempt to sweep** (Effectiveness: Medium) - Your Response: Transition to Guillotine control or follow to Turtle position for back take opportunity → Leads to [[Positions/Closed Guard]]
-- **Opponent drives forward aggressively and stacks your hips to neutralize angle** (Effectiveness: Medium) - Your Response: Use their forward momentum to reguard with overhook control or switch to Pendulum Sweep taking advantage of their committed weight distribution → Leads to [[Positions/Closed Guard]]
+- **Opponent drives forward aggressively and stacks your hips to neutralize angle** (Effectiveness: Medium) - Your Response: Use their forward momentum to reguard with overhook control or switch to Pendulum Sweep taking advantage of their committed weight distribution → Leads to [[Positions/Side Control]]
 - **Opponent circles away from sweep direction to realign their base** (Effectiveness: Low) - Your Response: Follow their circular movement and either sweep to opposite side or transition to Triangle setup as they move, exploiting the space their rotation creates → Leads to [[Positions/Closed Guard]]
 
 

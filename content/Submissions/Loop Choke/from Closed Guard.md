@@ -102,9 +102,6 @@ description: "Master the Loop Choke from Closed Guard in BJJ. Step-by-step guide
 <span class="meta-chip">55% success</span>
 </div>
 
-> [!danger] Safety
-> Loop Choke from Closed Guard targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Loop Choke/from Closed Guard/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ From a strategic standpoint, the Loop Choke pairs naturally with other closed gu
 - Use the self-tightening nature of the loop to your advantage - opponent resistance increases choking pressure
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -279,6 +278,8 @@ From a strategic standpoint, the Loop Choke pairs naturally with other closed gu
 - You feel the collar material tightening around your neck with progressive circumferential pressure as the opponent begins rotating underneath you
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -345,9 +346,8 @@ From a strategic standpoint, the Loop Choke pairs naturally with other closed gu
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -356,29 +356,9 @@ From a strategic standpoint, the Loop Choke pairs naturally with other closed gu
 | Neck strain from defensive posturing and resistance against the turning motion | Low | 1-3 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial tightness to full pressure
-
-**Tap Signals**:
-- Verbal tap or verbal statement of submission
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any distress signal including unusual sounds or loss of resistance
 
 
-**Release Protocol**:
-1. Immediately release the collar grip completely and remove all rotational pressure
-2. Disengage from closed guard position and create space between you and your partner
-3. Check partner's alertness and awareness before continuing
-4. Allow minimum 60 seconds recovery time before resuming training
-
-
-**Training Restrictions**:
-- Never apply sudden jerking or yanking motions with collar grips or during the turning motion
-- Never use competition speed in training - always give partner time to recognize and tap
-- Never continue pressure after tap is felt or heard
-- Always ensure training partner can freely tap with at least one hand during the choke
-- Never practice on partners who are visibly fatigued or disoriented
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

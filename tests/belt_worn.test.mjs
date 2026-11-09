@@ -124,16 +124,18 @@ function stageDecks(a, n, st) {
   }
   a._publishKnowledge("test-stage");
 }
-/** what renderTabSubtitles() WROTE — read back from a stub node, never recomputed */
+/** what renderTabSubtitles() WROTE on the drawer's Path row (v1.242.0: the Challenges tab became Train's
+ *  Path row, its belt drawn under the row) — read back from stub nodes, never recomputed */
 function tab(a) {
-  const ex = { textContent: "" }, btn = { attrs: {}, setAttribute(k, v) { this.attrs[k] = v; } };
-  const ch = { innerHTML: "", closest: () => btn };
-  a.viewToggleRef = { current: { querySelector: (s) => (s.includes("explore") ? ex : s.includes("challenges") ? ch : null) } };
+  const btn = { attrs: {}, setAttribute(k, v) { this.attrs[k] = v; } };
+  const ch = { textContent: "", closest: () => btn }, belt = { innerHTML: "" };
+  a.drillRef = { current: { querySelector: (s) => (s.includes("challenges") ? ch : s.includes("data-path-belt") ? belt : null) } };
   a.renderTabSubtitles();
-  a.viewToggleRef = { current: null };
-  const attr = (n) => (new RegExp(n + '="([^"]*)"').exec(ch.innerHTML) || [])[1];
-  const out = { belt: attr("data-tab-belt"), stripes: attr("data-tab-stripes"), dye: (/--tb:([^;]+);/.exec(ch.innerHTML) || [])[1], aria: btn.attrs["aria-label"] };
-  assert.ok(out.belt && out.stripes != null && out.dye, "the tab wrote a belt, stripes and a dye: " + ch.innerHTML);
+  a.drillRef = { current: null };
+  const attr = (n) => (new RegExp(n + '="([^"]*)"').exec(belt.innerHTML) || [])[1];
+  const out = { belt: attr("data-tab-belt"), stripes: attr("data-tab-stripes"), dye: (/--tb:([^;]+);/.exec(belt.innerHTML) || [])[1], aria: btn.attrs["aria-label"] };
+  assert.ok(out.belt && out.stripes != null && out.dye, "the Path row wrote a belt, stripes and a dye: " + belt.innerHTML);
+  assert.equal(ch.textContent, out.stripes + (out.stripes === "1" ? " stripe" : " stripes"), "the row's tail names the stripes");
   return out;
 }
 
@@ -360,4 +362,29 @@ test("the dayLog merge carries the email's belt line", async () => {
   assert.equal(await a._pullAndMerge(), true);
   assert.deepEqual(a.dayLog[today].b, ["blue", 0, 2]);
   assert.equal(a.dayLog[today].s, 10, "the score keeps its own rule");
+});
+
+// P1-B: existing held/grandfathered rank is the progression boundary. Reference
+// study is intentionally outside these guards (browser practice-page verifies it).
+test("P1-B: future progression actions cannot use selected/folded tracks as an entitlement", () => {
+  const a = boot({ blob: { belts: { held: { id: "blue", t: 1 }, gf: 1, won: {} } } });
+  a.renderExplorer = () => {};
+  a.settings.challengeSelectedTrack = "black";
+  a.settings.challengeOpenSections = { black: true };
+  assert.equal(a.selectedChallengeTrack(), "blue");
+  assert.equal(a._beltSectionOpen("black"), false, "P1-B stored fold cannot unlock");
+  a.selectChallengeTrack("purple");
+  assert.equal(a.settings.challengeSelectedTrack, "black", "P1-B direct selection rejected");
+  a._setBeltSectionOpen("brown", true);
+  assert.equal(a.settings.challengeOpenSections.brown, undefined, "P1-B direct fold rejected");
+  const unit = a.curriculum.belts[4].units[0];
+  a.openLessonStudy(unit.lessons[0], unit, a.curriculum.belts[4]);
+  assert.equal(a._session, undefined, "P1-B direct future lesson rejected");
+  a.startCheckpoint("black", unit);
+  assert.equal(a._checkpoint, undefined, "P1-B direct future checkpoint rejected");
+  a.startBeltTest("black");
+  assert.equal(a._beltTest, undefined, "P1-B direct future capstone rejected");
+  a.selectChallengeTrack("white");
+  assert.equal(a.selectedChallengeTrack(), "white", "earlier earned sections remain reachable");
+  assert.equal(a.wornBelt().id, "blue", "selection cannot change the worn rank");
 });

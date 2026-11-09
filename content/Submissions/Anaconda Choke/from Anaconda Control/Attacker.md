@@ -10,8 +10,6 @@ description: "How to execute Anaconda Choke in BJJ. Attacking perspective with s
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Anaconda Choke from Anaconda Control targets the Carotid arteries and trachea. Risk: Loss of consciousness from carotid artery compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -305,6 +303,8 @@ The submission's effectiveness comes from the combined pressure of the choking a
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Anaconda Choke/from Anaconda Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

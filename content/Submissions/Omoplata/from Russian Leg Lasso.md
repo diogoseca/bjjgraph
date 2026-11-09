@@ -46,6 +46,26 @@ description: "Master the omoplata from Russian Leg Lasso. Complete guide coverin
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Week 5b: Deep Lasso to Omoplata Variation",
+      "description": "Omoplata from Russian Leg Lasso film study: Week 5b: Deep Lasso to Omoplata Variation.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O_dTDVti0sk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O_dTDVti0sk",
+      "url": "https://www.youtube.com/watch?v=O_dTDVti0sk",
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata from Lasso Guard - Gi ( #2 )",
+      "description": "Omoplata from Russian Leg Lasso film study: Omoplata from Lasso Guard - Gi ( #2 ).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qL3-H-TUUeQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qL3-H-TUUeQ",
+      "url": "https://www.youtube.com/watch?v=qL3-H-TUUeQ",
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Nogi Lasso Omaplata",
       "description": "Omoplata from Russian Leg Lasso film study: Nogi Lasso Omaplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FCdFl9aAiUg/hqdefault.jpg",
@@ -55,7 +75,7 @@ description: "Master the omoplata from Russian Leg Lasso. Complete guide coverin
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 4,
       "name": "Lasso to Omoplata",
       "description": "Omoplata from Russian Leg Lasso film study: Lasso to Omoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X38VbqKI8dY/hqdefault.jpg",
@@ -92,9 +112,6 @@ description: "Master the omoplata from Russian Leg Lasso. Complete guide coverin
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Omoplata from Russian Leg Lasso targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/from Russian Leg Lasso/Attacker|Play as Attacker]]
@@ -121,6 +138,22 @@ Elite practitioners chain this omoplata threat with triangle and sweep entries f
 
 <p class="section-subtitle">Watch Omoplata from Russian Leg Lasso in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O_dTDVti0sk)
+
+<p class="clip-credit"><strong>Week 5b: Deep Lasso to Omoplata Variation</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=O_dTDVti0sk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qL3-H-TUUeQ)
+
+<p class="clip-credit"><strong>Omoplata from Lasso Guard - Gi ( #2 )</strong> · 1:05 · <a href="https://www.youtube.com/watch?v=qL3-H-TUUeQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -188,6 +221,8 @@ Elite practitioners chain this omoplata threat with triangle and sweep entries f
 
 - Chain omoplata threat with triangle and sweep entries to create an offensive dilemma from the lasso configuration
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -259,6 +294,8 @@ Elite practitioners chain this omoplata threat with triangle and sweep entries f
 - You feel the sleeve grip on your trapped arm tighten significantly as the opponent prepares to transition, preventing you from pulling the arm free during the position change
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -302,9 +339,8 @@ Elite practitioners chain this omoplata threat with triangle and sweep entries f
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -314,32 +350,9 @@ Elite practitioners chain this omoplata threat with triangle and sweep entries f
 | Labrum tear | CRITICAL | 6-12 months with surgery |
 
 
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum pressure increase
-
-**Tap Signals**:
-- Verbal tap (any vocal signal)
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress signal or sound
-- Roll forward escape attempt (release immediately)
 
 
-**Release Protocol**:
-1. Immediately stop all forward pressure and rotation
-2. Release leg pinch on shoulder
-3. Unwind hip position to neutral
-4. Allow opponent to extract arm slowly
-5. Check for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the shoulder rotation
-- Never apply competition speed in training
-- Always allow opponent access to tap
-- Stop immediately if opponent rolls forward (escape attempt)
-- Never apply full finishing pressure until advanced belt level
-- Always control the rate of shoulder rotation
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

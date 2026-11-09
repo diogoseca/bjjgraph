@@ -105,9 +105,6 @@ description: "Cross Collar Choke from Invisible Collar requires jacket grips. Es
 <span class="meta-chip">gi only</span>
 </div>
 
-> [!danger] Safety
-> Cross Collar Choke from Invisible Collar targets the Sides of the neck via crossed forearms and collar tension. Primary risk: Neck or jaw injury from misaligned pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Cross Collar Choke/from Invisible Collar/Attacker|Play as Attacker]]
@@ -214,6 +211,8 @@ _3 of these outcomes do not exist in no-gi and carry no probability here. The ou
 - Release both grips: Open the hands at the first tap or change in normal responsiveness.
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -280,6 +279,8 @@ _3 of these outcomes do not exist in no-gi and carry no probability here. The ou
 - The attacker places the forearms beside your neck without dragging across the jaw or bending the wrists painfully.
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -327,9 +328,8 @@ _3 of these outcomes do not exist in no-gi and carry no probability here. The ou
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -337,25 +337,9 @@ _3 of these outcomes do not exist in no-gi and carry no probability here. The ou
 | Loss of consciousness or serious harm from sustained neck compression | CRITICAL | Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms. |
 
 
-**Application Speed**: The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke. No fixed number of seconds makes a locked submission safe.
-
-**Tap Signals**:
-- Repeated hand taps anywhere the partner can feel them
-- A clear verbal tap or stop, including when the hands are trapped
-- Foot taps or any agreed stop signal; release immediately if normal responsiveness changes
 
 
-**Release Protocol**:
-1. Open the finishing grip immediately at the first signal; do not wait for repeated confirmation
-2. Remove the leg, arm or body restraint without forcing the captured joint or neck through another movement
-3. Check the partner can respond normally and allow a safe reset; end practice and obtain help if there is an injury or concerning symptom
-
-
-**Training Restrictions**:
-- Start with supervised, cooperative control-and-release drilling rather than a loaded finish
-- Check the event's current rules for the specific age, experience and clothing division before live use
-- The collar must be used as a controlled choking surface, never to grind the face. Release both grips promptly and do not test how long a partner can tolerate the choke.
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

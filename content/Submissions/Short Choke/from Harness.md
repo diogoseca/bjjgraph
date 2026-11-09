@@ -36,6 +36,37 @@ description: "Learn the Short Choke from Harness in BJJ. Master gi lapel choke m
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Harness \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ezekiel Choke from the Back",
+      "description": "Short Choke from Harness film study: Ezekiel Choke from the Back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7txa2emuwfI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7txa2emuwfI",
+      "url": "https://www.youtube.com/watch?v=7txa2emuwfI",
+      "duration": "PT160S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Ezekiel Chokes From The Back.",
+      "description": "Short Choke from Harness film study: 3 Ezekiel Chokes From The Back..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sOCBEA5IX7M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sOCBEA5IX7M",
+      "url": "https://www.youtube.com/watch?v=sOCBEA5IX7M",
+      "duration": "PT213S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +92,6 @@ description: "Learn the Short Choke from Harness in BJJ. Master gi lapel choke m
 <span class="meta-chip">54% success</span>
 </div>
 
-> [!danger] Safety
-> Short Choke from Harness targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Short Choke/from Harness/Attacker|Play as Attacker]]
@@ -83,6 +111,32 @@ From the Harness position specifically, the seatbelt grip provides the ideal sta
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Harness in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7txa2emuwfI)
+
+<p class="clip-credit"><strong>Ezekiel Choke from the Back</strong> · 2:40 · <a href="https://www.youtube.com/watch?v=7txa2emuwfI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sOCBEA5IX7M)
+
+<p class="clip-credit"><strong>3 Ezekiel Chokes From The Back.</strong> · 3:33 · <a href="https://www.youtube.com/watch?v=sOCBEA5IX7M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -131,6 +185,8 @@ From the Harness position specifically, the seatbelt grip provides the ideal sta
 
 - Apply the choke by driving the forearm blade across the neck while pulling the sleeve connection tight, creating bilateral carotid compression
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -200,6 +256,8 @@ From the Harness position specifically, the seatbelt grip provides the ideal sta
 - Opponent increases forward chest pressure and tightens hooks simultaneously, indicating they are stabilizing before an offensive attack sequence
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -242,9 +300,8 @@ From the Harness position specifically, the seatbelt grip provides the ideal sta
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -253,30 +310,9 @@ From the Harness position specifically, the seatbelt grip provides the ideal sta
 | Neck strain from rotational pressure | Low | 2-5 days with rest |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress signal including body going limp
 
 
-**Release Protocol**:
-1. Immediately release lapel grip and remove all pressure from neck
-2. Remove your weight from opponent's torso to allow breathing
-3. Check partner's consciousness and breathing status
-4. If partner is unconscious, elevate legs and monitor airway
-5. Never apply the choke again in the same training session if unconsciousness occurred
-
-
-**Training Restrictions**:
-- Never apply sudden jerking motions with the lapel
-- Never continue pressure after tap signal
-- Never practice on partners with neck injuries or medical conditions
-- Always ensure partner can tap with at least one hand
-- Never use competition speed during initial learning phases
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -150,6 +150,27 @@ description: "How to defend against Mat Return to Back Mount in BJJ. Recognition
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mat Return to Back Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "defense against mat return",
+      "description": "Mat Return to Back Mount (Defender) film study: defense against mat return.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4E342893NJY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4E342893NJY",
+      "url": "https://www.youtube.com/watch?v=4E342893NJY",
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -164,6 +185,24 @@ The most common defensive error is passivity. Practitioners who accept the stand
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mat Return to Back Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4E342893NJY)
+
+<p class="clip-credit"><strong>defense against mat return</strong> · 2:18 · <a href="https://www.youtube.com/watch?v=4E342893NJY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

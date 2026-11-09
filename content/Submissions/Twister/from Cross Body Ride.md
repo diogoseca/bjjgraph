@@ -82,9 +82,6 @@ description: "Master the Twister spinal lock from Cross Body Ride. Complete guid
 <span class="meta-chip">17% success</span>
 </div>
 
-> [!danger] Safety
-> Twister from Cross Body Ride targets the Cervical and thoracic spine, shoulder girdle. Primary risk: Cervical spine damage including herniated discs and ligament tears. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Twister/from Cross Body Ride/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ This submission demands extreme caution due to the direct spinal torque it gener
 - Treat the Twister as one option within a broader attack system - take what the opponent's defense gives you
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -247,6 +246,8 @@ This submission demands extreme caution due to the direct spinal torque it gener
 - Breathing becomes increasingly restricted as spinal rotation compresses the rib cage and diaphragm
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -306,9 +307,8 @@ This submission demands extreme caution due to the direct spinal torque it gener
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -318,32 +318,9 @@ This submission demands extreme caution due to the direct spinal torque it gener
 | Intercostal muscle tears from rib cage torque | Medium | 2-4 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression, never spike or jerk the spine
-
-**Tap Signals**:
-- Verbal tap (most common due to limited hand mobility in this position)
-- Physical hand tap on attacker's body or the mat
-- Physical foot tap if accessible
-- Any distress signal or unusual vocalization treated as immediate tap
 
 
-**Release Protocol**:
-1. Immediately release the head and neck control completely upon any tap signal
-2. Release all upper body grips and allow opponent to turn face-up naturally
-3. Slowly unwind the leg entanglement without pulling or twisting
-4. Do not apply any force during release - let opponent move at their own pace
-5. Check with partner verbally after release to confirm they are okay
-
-
-**Training Restrictions**:
-- NEVER apply at competition speed in training - always 50% speed maximum
-- NEVER use on beginners or those unfamiliar with the position and its dangers
-- NEVER apply sudden or explosive rotational pressure to the spine
-- NEVER continue if partner shows any signs of distress or resistance stops suddenly
-- ALWAYS ensure clear tap access and communicate throughout application
-- NEVER practice without supervision from a qualified instructor
-- Limit Twister-specific drilling to prevent cumulative spinal stress
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

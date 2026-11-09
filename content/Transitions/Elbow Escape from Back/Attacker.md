@@ -182,6 +182,27 @@ description: "Complete guide to executing the elbow escape from back control. Le
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape from Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Beginners Tutorial - Back Escape / Elbow Escape Method",
+      "description": "Elbow Escape from Back (Attacker) film study: BJJ Beginners Tutorial - Back Escape / Elbow Escape Method.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uyIV0ez9bUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uyIV0ez9bUo",
+      "url": "https://www.youtube.com/watch?v=uyIV0ez9bUo",
+      "duration": "PT264S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ Executing the elbow escape from back control requires systematic dismantling of 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape from Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uyIV0ez9bUo)
+
+<p class="clip-credit"><strong>BJJ Beginners Tutorial - Back Escape / Elbow Escape Method</strong> · 4:24 · <a href="https://www.youtube.com/watch?v=uyIV0ez9bUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -252,7 +291,7 @@ Executing the elbow escape from back control requires systematic dismantling of 
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard]] | 50% |
 | Failure | [[Positions/Back Control]] | 30% |
-| Counter | [[Positions/Mount]] | 20% |
+| Failure | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -289,7 +328,7 @@ Executing the elbow escape from back control requires systematic dismantling of 
 
 ### 3. Using explosive bridging movements instead of controlled hip escape mechanics
 
-- **Consequence**: Creates momentary space but opponent easily follows the explosive motion and frequently improves position to mount during the uncontrolled scramble
+- **Consequence**: Creates momentary space but opponent easily follows the explosive motion and frequently maintains dominant control by moving to mount during the uncontrolled scramble
 - **Correction**: Use deliberate hip escape mechanics with consistent steady pressure against the elbow frame rather than explosive movements that waste energy and create unpredictable positions
 
 ### 4. Placing elbow frame too high on the opponent's thigh instead of directly against the hook at knee level

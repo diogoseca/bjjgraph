@@ -36,6 +36,27 @@ description: "Master the Kimura from Diamond Guard in BJJ. Convert overhook cont
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Diamond Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "IFAacademy.com - Austin, TX - MMA Guard Cross Overhook Sweep To The Kimura",
+      "description": "Kimura from Diamond Guard film study: IFAacademy.com - Austin, TX - MMA Guard Cross Overhook Sweep To The Kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aMW3uuln4P4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aMW3uuln4P4",
+      "url": "https://www.youtube.com/watch?v=aMW3uuln4P4",
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The Kimura from Diamond Guard occupies a critical junction in the diamond guard 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Diamond Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aMW3uuln4P4)
+
+<p class="clip-credit"><strong>IFAacademy.com - Austin, TX - MMA Guard Cross Overhook Sweep To The Kimura</strong> · 3:27 · <a href="https://www.youtube.com/watch?v=aMW3uuln4P4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

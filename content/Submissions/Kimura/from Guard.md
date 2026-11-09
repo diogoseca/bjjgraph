@@ -82,9 +82,6 @@ description: "Master the Kimura from Guard in BJJ. Complete guide covering setup
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Guard targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Guard/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ The position operates on the principle that the figure-four grip isolates the sh
 - **Transition Awareness**: Recognize when opponent defends effectively and transition to sweeps, back takes, or alternative submissions rather than forcing a low-percentage finish
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -244,6 +243,8 @@ The position operates on the principle that the figure-four grip isolates the sh
 
 - Opponent opens their guard while maintaining strong grip on your arm and shifting their hips laterally - guard opening with maintained arm control means they are transitioning from control phase to finishing phase
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -326,9 +327,8 @@ The position operates on the principle that the figure-four grip isolates the sh
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -338,32 +338,9 @@ The position operates on the principle that the figure-four grip isolates the sh
 | Spiral fracture of humerus (rare but catastrophic) | CRITICAL | 6-12+ months with surgical fixation required |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time, with constant awareness of partner's tap
-
-**Tap Signals**:
-- Verbal tap (spoken word or sound)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat or opponent
-- Any distress signal or unusual vocalization
-- Rapid repeated tapping motions
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release the figure-four grip while maintaining gentle arm support
-3. Allow partner to control their arm's return to neutral position
-4. Do not suddenly release the arm - guide it back safely
-5. Check with partner before resuming training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - smooth, progressive pressure only
-- Never use competition speed or intensity during drilling
-- Never continue applying pressure after feeling resistance pop or crack
-- Always allow clear tap access with the free hand
-- Never apply Kimura during warm-up or cooldown periods
-- Avoid training Kimuras with injured shoulders or recent shoulder injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -131,9 +131,6 @@ description: "Master the Ten Finger Guillotine in BJJ. Comprehensive guide cover
 <span class="meta-chip">~62% avg</span>
 </div>
 
-> [!danger] Safety
-> Ten Finger Guillotine targets the Carotid arteries and trachea. Primary risk: Trachea damage from excessive crushing pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an interlocking grip with all ten fingers, creating tremendous squeezing power around the opponent's neck. Unlike the traditional guillotine which uses a gable or arm-in configuration, the ten finger variation employs both hands clasped together with fingers interlaced, allowing for maximum compression of the carotid arteries. This submission is particularly effective in no-gi grappling where hand-fighting and grip transitions happen rapidly. The choke can be applied from standing positions during scrambles, from guard pulls, or when defending takedown attempts. The ten finger grip provides exceptional control even against sweaty or slippery opponents, making it a reliable finishing option across all skill levels.
@@ -242,9 +239,8 @@ The submission works through a combination of blood restriction and airway compr
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -254,30 +250,9 @@ The submission works through a combination of blood restriction and airway compr
 | Jaw or temporomandibular joint (TMJ) injury from improper chin positioning | Medium | 2-6 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress sound)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any unusual body stiffening or loss of resistance indicating unconsciousness
 
 
-**Release Protocol**:
-1. Immediately release the choking hand grip while maintaining head control
-2. Lower opponent's head gently to prevent whiplash or neck strain
-3. Create space by stepping back or opening guard to remove all pressure
-4. Check partner's awareness and allow recovery time before continuing
-5. If partner was unconscious, elevate legs and monitor breathing
-
-
-**Training Restrictions**:
-- Never apply full pressure at competition speed in training - always give partner time to tap
-- Never jerk or spike the choke with explosive movements
-- Never continue pressure after partner taps or shows distress
-- Never practice on partners with neck injuries without medical clearance
-- Always ensure partner has access to tap with at least one hand free
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

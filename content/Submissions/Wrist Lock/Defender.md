@@ -10,8 +10,6 @@ description: "Defend the Wrist Lock (mão de vaca): recognize the flexion attack
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Wrist Lock targets the Wrist and carpal joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -197,6 +195,8 @@ As the defender, you are usually the top player posturing inside closed guard wi
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Wrist Lock#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

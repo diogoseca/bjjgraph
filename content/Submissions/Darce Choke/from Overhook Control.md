@@ -92,9 +92,6 @@ description: "Master the Darce Choke from Overhook Control with expert finishing
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Darce Choke from Overhook Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Darce Choke/from Overhook Control/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Finishing from overhook control requires attention to body angle and hip positio
 - Keep the trapped arm elevated throughout the entire sequence - if it drops below shoulder line, the choke loses the arm-in configuration that creates bilateral compression
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -259,6 +258,8 @@ Finishing from overhook control requires attention to body angle and hip positio
 - Attacker begins sprawling hips backward while maintaining upper body pressure, signaling the finishing sequence has begun
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -319,9 +320,8 @@ Finishing from overhook control requires attention to body angle and hip positio
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -331,33 +331,9 @@ Finishing from overhook control requires attention to body angle and hip positio
 | Tracheal compression if applied incorrectly | High | 14-21 days with medical attention |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
-
-**Tap Signals**:
-- Verbal tap (say 'tap' or 'stop')
-- Physical hand tap on partner's body
-- Physical foot tap on mat
-- Any distress signal or loss of resistance
-- Unconscious body going limp (IMMEDIATE RELEASE)
 
 
-**Release Protocol**:
-1. Immediately unclasp hands and release figure-four grip
-2. Remove shoulder pressure from neck first
-3. Extract choking arm slowly to avoid neck jerk
-4. Allow partner to recover in seated or supine position
-5. Monitor for 30+ seconds for dizziness or disorientation
-6. If unconsciousness occurred, keep airway clear and seek medical evaluation
-
-
-**Training Restrictions**:
-- Never apply full pressure in drilling - use positional control only
-- Never use competition speed or intensity in training
-- Always allow clear tap access with free hand
-- Never spike or jerk the choke - apply smooth progressive pressure
-- Stop immediately at any tap signal without waiting for confirmation
-- Never train this technique while fatigued or with impaired judgment
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

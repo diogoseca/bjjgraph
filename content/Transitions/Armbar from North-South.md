@@ -36,6 +36,27 @@ description: "Master the Armbar from North-South in BJJ. Complete guide covering
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from North-South \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "North south Armbar setup.",
+      "description": "Armbar from North-South film study: North south Armbar setup..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ajwkkwl2dzY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ajwkkwl2dzY",
+      "url": "https://www.youtube.com/watch?v=Ajwkkwl2dzY",
+      "duration": "PT39S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The mechanical foundation relies on pivoting your body perpendicular to the oppo
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from North-South in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ajwkkwl2dzY)
+
+<p class="clip-credit"><strong>North south Armbar setup.</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=Ajwkkwl2dzY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

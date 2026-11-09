@@ -82,9 +82,6 @@ description: "Master the cross collar choke from 3-4 mount in BJJ. Complete guid
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Cross Collar Choke from 3-4 Mount targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Cross Collar Choke/from 3-4 Mount/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ The 3-4 mount also allows the attacker to use their posted leg to drive forward 
 - Elbow retraction toward the mat during the finish amplifies choking pressure through leverage rather than muscular strength
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -241,6 +240,8 @@ The 3-4 mount also allows the attacker to use their posted leg to drive forward 
 - Opponent strips your defensive wrist control or swims past your frames specifically to access the collar rather than to establish arm control
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -280,9 +281,8 @@ The 3-4 mount also allows the attacker to use their posted leg to drive forward 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -291,29 +291,9 @@ The 3-4 mount also allows the attacker to use their posted leg to drive forward 
 | Neck strain from defensive bridging and turning reactions under pressure | Low | 3-7 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any distress signal including facial expressions or loss of resistance
 
 
-**Release Protocol**:
-1. Immediately release both collar grips upon tap signal
-2. Open mount and disengage controlling position to allow recovery
-3. Allow partner space to recover breathing and circulation
-4. Check partner's alertness and ensure full recovery before continuing
-
-
-**Training Restrictions**:
-- Never apply full choking pressure during initial learning phases - focus on grip mechanics first
-- Never hold the choke past the tap signal under any circumstances
-- Never use competition speed or intensity in basic drilling
-- Never practice on partners with neck or circulation issues without instructor supervision
-- Always ensure partner has clear access to tap with hands or feet
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

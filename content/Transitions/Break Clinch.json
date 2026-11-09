@@ -555,6 +555,16 @@
         "description": "Full-speed positional sparring where the opponent's sole objective is to break the clinch and your objective is to maintain control or advance to a dominant position. Track success rates and identify which break variants give you the most trouble for targeted improvement."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "JInuxUGuJ0g",
+        "title": "Counter to the Crossface Clinch Defense",
+        "channel": "Kings Muay Thai Gym",
+        "duration": 42,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

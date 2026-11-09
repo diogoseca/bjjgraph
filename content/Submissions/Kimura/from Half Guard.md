@@ -92,9 +92,6 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
 <span class="meta-chip">22% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Half Guard targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Half Guard/Attacker|Play as Attacker]]
@@ -187,6 +184,8 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 - **Weight distribution** - Shift weight to prevent opponent's hip escape while maintaining submission control
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -256,6 +255,8 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 - Bottom player's hips close distance to yours and their chest reconnects after briefly creating space for grip entry
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -338,9 +339,8 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -350,42 +350,12 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 | Bicep tendon strain or rupture | Medium | 6-12 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to finish
-
-**Tap Signals**:
-- Verbal tap (any vocalization)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat or opponent
-- Any distress signal or movement cessation
 
 
-**Release Protocol**:
-1. Immediately release rotational pressure (stop arm movement)
-2. Release figure-four grip configuration
-3. Return arm to neutral position slowly
-4. Release positional control completely
-5. Check partner for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission application
-- Never use competition speed during training rolls
-- Always allow clear tap access (hand/foot free)
-- Never apply full rotation in drilling without partner consent
-- Avoid repeated applications on same partner in single session
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Half Guard: Recovering Closed Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Kimura from Half Guard: related submission study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura — Enter The System</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related submission reference; inclusion here does not establish course coverage.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

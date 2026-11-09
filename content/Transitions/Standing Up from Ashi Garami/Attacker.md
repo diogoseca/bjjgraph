@@ -246,7 +246,7 @@ As the attacker executing Standing Up from Ashi Garami, you are the bottom playe
 |--------|----------|-------------|
 | Success | [[Positions/Standing Position]] | 55% |
 | Failure | [[Positions/Ashi Garami]] | 30% |
-| Counter | [[Positions/Open Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 15% |
 
 
 </section>

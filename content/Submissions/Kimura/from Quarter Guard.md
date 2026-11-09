@@ -36,6 +36,37 @@ description: "Master the Kimura shoulder lock from Quarter Guard top. Expert gui
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Quarter Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "kimura from top half guard",
+      "description": "Kimura from Quarter Guard film study: kimura from top half guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E2eGqpQOmd8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E2eGqpQOmd8",
+      "url": "https://www.youtube.com/watch?v=E2eGqpQOmd8",
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Fabio Holanda | Jiu Jitsu Technique: Kimura from Half Guard Top Variation\u2026",
+      "description": "Kimura from Quarter Guard film study: Fabio Holanda | Jiu Jitsu Technique: Kimura from Half Guard Top Variation\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9DGzMd9VjqE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9DGzMd9VjqE",
+      "url": "https://www.youtube.com/watch?v=9DGzMd9VjqE",
+      "duration": "PT134S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +92,6 @@ description: "Master the Kimura shoulder lock from Quarter Guard top. Expert gui
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Quarter Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Quarter Guard/Attacker|Play as Attacker]]
@@ -83,6 +111,32 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Quarter Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E2eGqpQOmd8)
+
+<p class="clip-credit"><strong>kimura from top half guard</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=E2eGqpQOmd8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9DGzMd9VjqE)
+
+<p class="clip-credit"><strong>Fabio Holanda | Jiu Jitsu Technique: Kimura from Half Guard Top Variation…</strong> · 2:14 · <a href="https://www.youtube.com/watch?v=9DGzMd9VjqE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -131,6 +185,8 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 
 - Attack the arm during transitions—the moment the bottom player extends for an underhook or frame is the highest-percentage entry window
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -202,6 +258,8 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 - Opponent abandons passing momentum and redirects attention specifically to controlling and isolating your near arm
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -260,9 +318,8 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -272,31 +329,9 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 | Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position (externally rotate back to starting position)
-3. Release the figure-four grip completely
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

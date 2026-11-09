@@ -10,8 +10,6 @@ description: "How to defend against Americana from Side Control in BJJ. Recognit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Side Control targets the Shoulder joint (specifically rotator cuff). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -257,6 +255,8 @@ The critical defensive window is during the grip establishment phase. Once your 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Americana/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

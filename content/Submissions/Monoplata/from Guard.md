@@ -92,9 +92,6 @@ description: "Master the Monoplata from Guard in BJJ. Complete guide with safety
 <span class="meta-chip">48% success</span>
 </div>
 
-> [!danger] Safety
-> Monoplata from Guard targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Monoplata/from Guard/Attacker|Play as Attacker]]
@@ -187,6 +184,8 @@ Emerging from the rubber guard and omoplata systems of modern no-gi grappling, t
 - Transition smoothly from omoplata or other guard attacks to maintain surprise
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -256,6 +255,8 @@ Emerging from the rubber guard and omoplata systems of modern no-gi grappling, t
 
 - You feel increasing rotational pressure on your shoulder with your elbow pointing upward and your arm trapped between the opponent's legs
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -334,9 +335,8 @@ Emerging from the rubber guard and omoplata systems of modern no-gi grappling, t
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -346,32 +346,9 @@ Emerging from the rubber guard and omoplata systems of modern no-gi grappling, t
 | AC joint sprain | Medium | 2-6 weeks depending on severity |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum pressure application with constant communication
-
-**Tap Signals**:
-- Verbal tap (primary signal)
-- Physical hand tap on legs or mat
-- Physical foot tap on mat
-- Any distress vocalization
-- Repeated tapping on your body
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release the figure-four leg configuration
-3. Unwrap your legs from around the arm
-4. Allow the partner to extract their arm naturally
-5. Check for shoulder mobility and pain before continuing training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth, progressive pressure only
-- Never use competition speed in training - always start at 20-30% intensity
-- Always maintain verbal communication with training partner throughout
-- Never apply the finish without establishing full control first
-- Beginners must drill this with 0% resistance for minimum 50 repetitions
-- Never practice on partners with pre-existing shoulder injuries without explicit approval
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

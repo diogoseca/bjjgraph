@@ -155,6 +155,37 @@ description: "Control twister side control from top position with systematic sub
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister Side Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the Open Guard to Twister Side Control",
+      "description": "Twister Side Control (Top) film study: Passing the Open Guard to Twister Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3RtGUiiDD1k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3RtGUiiDD1k",
+      "url": "https://www.youtube.com/watch?v=3RtGUiiDD1k",
+      "duration": "PT301S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Jiu-Jitsu Magazine #7 - Discovering the Twister: What is Twister Side Control",
+      "description": "Twister Side Control (Top) film study: Jiu-Jitsu Magazine #7 - Discovering the Twister: What is Twister Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W5ihpY3_rL0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W5ihpY3_rL0",
+      "url": "https://www.youtube.com/watch?v=W5ihpY3_rL0",
+      "duration": "PT374S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -175,6 +206,32 @@ The learning progression for Twister Side Control top is significant, with begin
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister Side Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3RtGUiiDD1k)
+
+<p class="clip-credit"><strong>Passing the Open Guard to Twister Side Control</strong> · 5:01 · <a href="https://www.youtube.com/watch?v=3RtGUiiDD1k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W5ihpY3_rL0)
+
+<p class="clip-credit"><strong>Jiu-Jitsu Magazine #7 - Discovering the Twister: What is Twister Side Control</strong> · 6:14 · <a href="https://www.youtube.com/watch?v=W5ihpY3_rL0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">
@@ -366,15 +423,6 @@ Start from various positions (truck, side control, failed back take). Partner pr
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Twister and Truck Entries</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Tom DeBlass: The Lockdown Blueprint</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

@@ -10,8 +10,6 @@ description: "Execute the North-South Choke from Ushiro Kesa Gatame Hold. Comple
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from Ushiro Kesa Gatame targets the Neck (Carotid Arteries). Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -194,6 +192,16 @@ description: "Execute the North-South Choke from Ushiro Kesa Gatame Hold. Comple
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Attack from side control 1. North South Choke. Techniques Jiu-jitsu\u2026",
+      "description": "North-South Choke from Ushiro Kesa Gatame (Attacker) film study: Attack from side control 1. North South Choke. Techniques Jiu-jitsu\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TkdKbLp5Ugo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TkdKbLp5Ugo",
+      "url": "https://www.youtube.com/watch?v=TkdKbLp5Ugo",
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "North South Choke for BJJ \u0026 MMA",
       "description": "North-South Choke from Ushiro Kesa Gatame (Attacker) film study: North South Choke for BJJ \u0026 MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SfUhu8rbz68/hqdefault.jpg",
@@ -225,6 +233,14 @@ Attacking the North-South Choke from Ushiro Kesa Gatame Hold requires understand
 
 <p class="section-subtitle">Watch North-South Choke from Ushiro Kesa Gatame (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TkdKbLp5Ugo)
+
+<p class="clip-credit"><strong>Attack from side control 1. North South Choke. Techniques Jiu-jitsu…</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=TkdKbLp5Ugo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -271,6 +287,8 @@ Attacking the North-South Choke from Ushiro Kesa Gatame Hold requires understand
 
 <section id="execution-steps" class="content-section">
 
+> Release immediately upon tap. [[Submissions/North-South Choke/from Ushiro Kesa Gatame#safety-considerations|Injury risks ↓]]
+
 ## Execution Steps
 
 <p class="section-subtitle">How do you execute North-South Choke from Ushiro Kesa Gatame step by step?</p>
@@ -282,7 +300,7 @@ Attacking the North-South Choke from Ushiro Kesa Gatame Hold requires understand
 5. **Drop Shoulder and Head to Lock Position**: As you reach north-south alignment, drop your shoulder on the choking-arm side directly into the opponent's neck on the far-side carotid. Simultaneously drop your head to the mat on the opposite side of the choking arm. This creates a locked triangle of pressure between your bicep, shoulder, and chest that compresses both carotid arteries simultaneously. (Timing: 1-2 seconds for shoulder drop and head placement)
 6. **Establish Grip Lock**: Connect your choking hand to your free hand using a palm-to-palm grip, gable grip, or by grabbing your own bicep to lock the choking structure in place. The grip prevents the opponent from pulling your arm out and maintains the depth of the choke. Choose whichever grip allows you to maintain the deepest arm position beneath the neck. (Timing: 1-2 seconds to establish grip)
 7. **Sprawl and Drive Hips Forward**: Extend your legs behind you in a sprawl and drive your hips forward toward the opponent's head. This sprawling action increases the downward pressure through your shoulder and chest into the neck without requiring you to squeeze harder with your arms. Your bodyweight becomes the primary compression force through structural alignment. (Timing: 1-3 seconds for sprawl and pressure engagement)
-8. **Apply Bilateral Compression and Finish**: With the position locked, apply progressive pressure by continuing to drive your hips forward and squeezing your elbows together slightly. The bicep compresses one carotid artery while the shoulder and chest compress the opposite carotid. The choke should feel tight and produce a visible defensive reaction within seconds. Apply pressure gradually and wait for the tap. (Timing: 3-8 seconds for tap or unconsciousness once locked)
+8. **Apply Bilateral Compression and Finish**: With the position locked, apply progressive pressure by continuing to drive your hips forward and squeezing your elbows together slightly. The bicep compresses one carotid artery while the shoulder and chest compress the opposite carotid. The choke should feel tight and produce a visible defensive reaction within seconds. Apply pressure gradually and wait for the tap. (Timing: 3-8 seconds for tap once locked)
 
 
 </section>

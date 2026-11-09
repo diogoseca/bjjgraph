@@ -29,10 +29,26 @@
 .ng-reader-article button,.ng-reader-tools button { pointer-events:auto;min-height:44px;font:inherit;color:#d6def0;background:#29334d;border:1px solid #596782;border-radius:8px;cursor:pointer;padding:8px 10px; }
 .ng-reader-tools button { font:12px "Plus Jakarta Sans",sans-serif; }
 .ng-reader-game>.ng-reader-tools { pointer-events:auto; }
+/* Owner (2026-11-01): the grid stays centred on the free area at every width, sharing both edges with the choices row. */
 .ng-reader :is([data-reader-body],.ng-reader-hidden) { width:var(--article-width,100%);margin-left:calc((100% - var(--article-width,100%))/2); }
-.ng-reader [data-reader-body] { box-sizing:border-box;container-type:inline-size;min-width:0;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:calc(var(--section-gap)*4) min(calc(var(--section-gap)*4),3%); }
-.ng-section-card { box-sizing:border-box;grid-column:span var(--span,12);background:#141b2b;border:0;border-radius:20px;min-width:0;overflow:clip;box-shadow:var(--section-shadow); }
-@container(max-width:660px) { .ng-section-card { grid-column:1/-1; } }
+/* Owner (2026-11-06, replacing U59 c's rows and U65 b's pairing): "instead of a grid, maybe just use two columns ... the
+   vertical order is preserved without gaps". layoutNow names each tile's column from real heights (data-right); floats do
+   the placing, so the DOM never changes and Tab, the index and the head tops down the page are one order: a float may not
+   sit above an earlier one (CSS 2.1 9.5.1 rule 5). Every tile cannot be a plain left float: rule 2 holds a left float
+   below every earlier left float that shares its row, so a tile could not go under a shorter left tile while a taller one
+   stands beside it, and the rows' gaps came back (measured, Side Control Bottom: Definition at 953, not 927). A tile that
+   a held press has not sorted yet is a left float, in its half. U65 b stands: a tile ends at its content. */
+.ng-reader [data-reader-body] { --gap:calc(var(--section-gap)*4);margin-bottom:calc(var(--gap)*-1);container-type:inline-size; }
+[data-reader-body]>* { float:left;width:calc(50% - var(--gap)/2);margin:0 0 var(--gap); }
+[data-reader-body]>[data-right] { float:right; }
+/* A left tile stays in its lane: within a pixel of a draw the right lane opens first, and a bare left float would slide into it. */
+[data-right]~:not([data-right]) { clear:left; }
+/* A grid of 660px or less stays one column. */
+@container(max-width:660px) { [data-reader-body]>* { width:100%; } }
+.ng-section-card { box-sizing:border-box;background:#141b2b;border:0;border-radius:20px;min-width:0;overflow:clip;box-shadow:var(--section-shadow); }
+/* U65 note: on game pages Videos retains its index and closed disclosure control, without a credits
+   tile in the article grid. Its film and close button remain in the stage above. */
+.ng-section-card[data-media-control]:not([data-collapsed=true]) { display:none; }
 /* D-338 (owner): one close icon on every width, the ghost ✕ the question card and the hand
    already wear (NG_GHOST_BTN_CSS: a 24px #8b97b0 glyph), on a 44px target. A closed section
    is a light label instead, its glyph above its name: no box, no outline, centred. */
@@ -44,7 +60,7 @@
 .ng-section-card>h2>[aria-expanded=true] { position:absolute;right:6px;top:50%;transform:translateY(-50%); }
 .ng-reader :is([data-section-toggle],[data-game-open],[data-reader-close]) { flex:none;display:grid;place-items:center;width:44px;height:44px;min-height:44px;margin:0;padding:0;border:0;border-radius:7px;background:none;box-shadow:none;color:#8b97b0;font:12px/1 "Plus Jakarta Sans",sans-serif;text-align:center;cursor:pointer; }
 .ng-section-x { display:grid;place-items:center;width:24px;height:24px;border-radius:7px;transition:color .15s,background .15s; }
-.ng-reader [data-section-toggle]:hover .ng-section-x { color:#dbe2f0;background:#ffffff14; }
+.ng-reader :is([data-section-toggle],[data-reader-close]):hover .ng-section-x { color:#dbe2f0;background:#ffffff14; }
 .ng-section-closed { display:none; }
 .ng-reader [data-collapsed=true] .ng-section-x { display:none; }
 .ng-reader [data-collapsed=true] .ng-section-closed { display:flex;align-items:center;gap:6px; }
@@ -68,27 +84,49 @@
 .ng-reader-hidden .ng-section-closed::after { content:"Show"; }
 /* U12 a (owner): the article's own ✕ on its top row puts the article away. */
 .ng-reader [data-reader-close] { margin:0 0 0 auto; }
-.ng-reader [data-reader-close]:hover .ng-section-x { color:#dbe2f0;background:#ffffff14; }
-.ng-section-body { padding:0 var(--reader-unit) var(--reader-unit); }
-.ng-section-body article { all:revert;display:block;font:inherit;color:inherit;overflow-wrap:break-word; }
+/* U100 a: a phase of Training has no head above it, so only a body under one starts flush. */
+.ng-section-body { padding:var(--reader-unit); }
+h2+.ng-section-body { padding-top:0; }
+/* U59 c (owner): a readable measure in every tile, centred inside the token padding like the tile's title:
+   46ch of the body font is a 66-68 character median line on real pages (prose glyphs are narrower than
+   the 0 the ch unit measures). The media slot is outside the article, so a video keeps the tile's width. */
+.ng-section-body article { all:revert;display:block;font:inherit;color:inherit;overflow-wrap:break-word;max-width:46ch;margin:auto; }
+/* DASH-R4: a table with a fourth column needs ~520-566px (the hubs' Top/Bottom comparison), more than the column;
+   its article takes the tile's width. */
+.ng-section-body article:has(tr>:nth-child(4)) { max-width:none; }
 .ng-section-body article+article { margin-top:var(--reader-unit); }
 .ng-section-body :is(.content-section,.learning-section,.system-section) { margin:0; }
 .ng-section-body .ng-section-source-title { display:none; }
-.ng-section-body :is(h2,h3) { color:#e7edf8;font:600 18px/1.4 "Space Grotesk",sans-serif;margin:var(--reader-unit) 0 calc(var(--reader-unit)/2); }
+/* Owner (2026-11-01): "What is Side Control Bottom?" leads; "Position definition" stays, almost unnoticeable. */
+.ng-section-body :is(h2,h3,[data-source-id=state-invariants] .section-subtitle) { color:#e7edf8;font:600 18px/1.4 "Space Grotesk",sans-serif;margin:var(--reader-unit) 0 calc(var(--reader-unit)/2); }
 .ng-section-body h4 { color:#dbe2f0;font-size:17px; }
 .ng-section-body p { margin:0 0 var(--reader-unit);color:#d6def0; }
 .ng-section-body p:last-child { margin-bottom:0; }
 .ng-section-body :is(li,td,th) { color:#d6def0; }
 .ng-section-body :is(ul,ol) { display:grid;gap:calc(var(--reader-unit)/2);padding-left:24px;margin:0; }
 .ng-section-body li { margin:0; }
-.ng-section-body a,.ng-section-body .system-card__cta { color:#adc9ff; }
-.ng-section-body a { text-decoration:underline;text-underline-offset:3px; }
-.ng-section-body table { display:block;overflow-x:auto;font-size:14px; }
+.ng-section-body a { color:#adc9ff;text-decoration:underline;text-underline-offset:3px; }
+/* The section supplies spacing; Quartz's table margin otherwise clips a three-column table at 768px. Its 1.5rem padding stays at the
+   sides and the foot, but not the top (cobbler's check, v1.252.0): with the paragraph's 20px it left ~60px between a table and the
+   line that heads it, and since U111 a Submission's guide is that line and its table. */
+.ng-section-body table { display:block;overflow-x:auto;font-size:14px;margin:0;padding-top:0; }
 .ng-section-body :is(td,th) { padding:8px;border-bottom:1px solid #414c68; }
 .ng-section-body img { max-width:100%; }
+/* U101 b: "Read more" on a position's How it works. One way: it goes once the text has opened. */
+.ng-rm>summary { color:#adc9ff; }
+.ng-rm[open]>summary { display:none; }
 /* D-489/HATGO489b: hatnotes and Related badges share muted prose; CTA text keeps the reader link color above. */
-.ng-section-body :is(.section-subtitle,.entity-relations,.entity-relations *,.system-card__chip) { opacity:1;color:#b6c5df; }
+.ng-section-body :is(.section-subtitle,.entity-relations,.entity-relations *) { opacity:1;color:#b6c5df; }
+[data-section-type=definition] .ng-section-title { opacity:.45;font-size:10px; }
+/* The card's title says it already. */
+/* article>: a position's relations are tiles of their own, and only there does the title say it. A transition's and a submission's sit in one block, where the words are the only label. */
+article>:is(.also-known-as,.often-confused-with)>em { display:none; }
+/* Owner (U92 a): both sections carry a coming-feature mark, on positions only. Exact ids, which only positions emit: a suffix also matched every System's assessment-metrics and a Training tile's *-decision-tree. */
+:has([data-source-id=decision-tree],[data-source-id=position-metrics])>h2::after { content:"Beta";margin-left:8px;padding:0 7px;border:1px solid #596782;border-radius:9px;font-size:10px;line-height:16px; }
 .ng-section-body blockquote { margin:0 0 var(--reader-unit);padding:12px;border-left:2px solid #ffb45a;background:#ffb45a08;color:#d6def0; }
+/* S1 a: Quartz sets hyphens:auto on a and p themselves, so it does not inherit: the safety line's rule (p) and its
+   link (a) each need it set. A phone broke the key word as "re-/lease". */
+.ng-section-body blockquote * { hyphens:none; }
 .ng-reader-toc-row[data-collapsed=true] { color:#a8b0c2; }
 /* Video names no header either: its ✕ sits in the corner, over the clip's own frame. */
 .ng-section-card[data-section-type=videos]:not([data-collapsed=true])>h2 { height:0;min-height:0;padding:0;position:relative;z-index:6; }
@@ -121,7 +159,7 @@
 .ng-reader-shelf[hidden] { display:none!important; }
 .ng-reader-no-map>canvas,.ng-reader-no-map .ng-legendkey,.ng-reader-no-map [data-seat-star],.ng-reader-no-map [data-reader-map],.ng-reader-no-feedback :is(.ng-evtoast,.ng-winbar,.ng-challenge-reward,.ng-combo-pop,.ng-momentum,.ng-vignette,.ng-tut,[data-reader-feedback]) { visibility:hidden!important; }
 @media(max-width:640px) { .ng-reader { --reader-unit:14px; } .ng-reader-shelf button { width:48px; } }
-@media(max-width:599px) { .ng-reader [data-reader-body] { grid-template-columns:minmax(0,1fr);gap:calc(var(--section-gap)*3); } .ng-section-card { grid-column:1/-1;border-radius:16px; } }
+@media(max-width:599px) { .ng-reader [data-reader-body] { --gap:calc(var(--section-gap)*3); } .ng-section-card { border-radius:16px; } }
 @media(prefers-reduced-motion:reduce) { .ng-reader,.ng-reader-article *,.ng-reader-toc-row { scroll-behavior:auto!important;animation:none!important;transition:none!important; } }
 .ng-section-body .ng-section-provenance { color:#b6c5df;font-size:12px;margin:0 0 8px; }
 .ng-section-body .film-clip>p:empty { display:none; }

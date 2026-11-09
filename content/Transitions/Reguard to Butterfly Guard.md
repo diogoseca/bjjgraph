@@ -36,6 +36,27 @@ description: "Learn the Reguard to Butterfly Guard transition in BJJ. Recover fu
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reguard to Butterfly Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly Guard Recovery - Marcelo Style",
+      "description": "Reguard to Butterfly Guard film study: Butterfly Guard Recovery - Marcelo Style.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cHzeigPygw0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cHzeigPygw0",
+      "url": "https://www.youtube.com/watch?v=cHzeigPygw0",
+      "duration": "PT331S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, the ability to recover a compromised guard position rather than a
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reguard to Butterfly Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cHzeigPygw0)
+
+<p class="clip-credit"><strong>Butterfly Guard Recovery - Marcelo Style</strong> · 5:31 · <a href="https://www.youtube.com/watch?v=cHzeigPygw0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

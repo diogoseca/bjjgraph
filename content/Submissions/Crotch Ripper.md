@@ -109,9 +109,6 @@ description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submis
 <span class="meta-chip">~42% avg</span>
 </div>
 
-> [!danger] Safety
-> Crotch Ripper targets the Hip flexors, groin muscles, and inner thigh adductors. Primary risk: Groin strain or muscle tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 As the offensive counterpart to the Electric Chair within the 10th Planet Jiu-Jitsu system, the Crotch Ripper transforms the lockdown's leg entanglement into a direct attack on the hips and groin rather than a purely defensive hold. This technique applies intense pressure to the opponent's groin, hip flexors, and inner thigh muscles through a combination of lockdown control and strategic knee positioning. Unlike traditional joint locks that target specific joints, the Crotch Ripper creates a painful compression that forces the opponent to tap due to muscular strain rather than joint damage. The submission is particularly effective in no-gi grappling where the lockdown can be secured without gi grips interfering with leg positioning.
@@ -203,9 +200,8 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -215,31 +211,9 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 | Lower back strain from excessive arching | Low | 1-2 weeks |
 
 
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum to allow partner to recognize pressure and tap
-
-**Tap Signals**:
-- Verbal tap (most common due to leg entanglement)
-- Physical hand tap on mat or opponent's body
-- Physical foot tap with free leg
-- Any distress signal or vocalization
 
 
-**Release Protocol**:
-1. Immediately release lockdown figure-four grip
-2. Remove knee pressure from groin area
-3. Straighten attacking leg to remove compression
-4. Allow opponent's leg to naturally extend and decompress
-5. Do not suddenly jerk or twist during release
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply gradually
-- Never practice at competition intensity during training
-- Always communicate with partner about pressure level
-- Stop immediately if partner shows any sign of discomfort
-- Avoid practicing on partners with known groin or hip injuries
-- Never combine with sudden sweeping motions that could increase injury risk
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

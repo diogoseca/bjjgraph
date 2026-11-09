@@ -92,9 +92,6 @@ description: "Master the Americana shoulder lock from S Mount. Step-by-step guid
 <span class="meta-chip">68% success</span>
 </div>
 
-> [!danger] Safety
-> Americana from S Mount targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Americana/from S Mount/Attacker|Play as Attacker]]
@@ -191,6 +188,8 @@ Strategically, the Americana from S Mount serves as a powerful secondary attack 
 - If the keylock grip is broken, return to armbar threat immediately rather than re-fighting for the Americana grip
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -259,6 +258,8 @@ Strategically, the Americana from S Mount serves as a powerful secondary attack 
 - Your forearm begins rotating toward the mat as the attacker starts the keylock arc - this signals the submission is actively being applied
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -300,9 +301,8 @@ Strategically, the Americana from S Mount serves as a powerful secondary attack 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -313,33 +313,9 @@ Strategically, the Americana from S Mount serves as a powerful secondary attack 
 | Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. In drilling, apply 10-20% pressure maximum. The S Mount hip pressure amplifies rotational force, so even less effort is needed compared to standard mount Americana.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on opponent or mat (minimum 2 taps)
-- Physical foot tap on mat or opponent
-- Any distress vocalization or unusual sound
-- Slapping mat with free hand repeatedly
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release the figure-four grip on the wrist
-3. Carefully lower the arm back to neutral position (do not drop suddenly)
-4. Release control of the elbow and allow opponent to move freely
-5. Check with partner verbally to ensure they are okay
-6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply sudden rotational force
-- Never use competition speed or full pressure in training
-- Always allow clear access to tap with free hand
-- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
-- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
-- Avoid repeated submissions on the same shoulder in a single training session
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

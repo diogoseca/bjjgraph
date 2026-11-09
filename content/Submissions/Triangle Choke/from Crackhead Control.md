@@ -36,6 +36,27 @@ description: "A triangle from Crackhead Control requires changing the two-leg hi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from Crackhead Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle Choke from Rubber Guard",
+      "description": "Triangle Choke from Crackhead Control film study: Triangle Choke from Rubber Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/03s0m1_Jkxg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/03s0m1_Jkxg",
+      "url": "https://www.youtube.com/watch?v=03s0m1_Jkxg",
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +82,6 @@ description: "A triangle from Crackhead Control requires changing the two-leg hi
 <span class="meta-chip">30% success</span>
 </div>
 
-> [!danger] Safety
-> Triangle Choke from Crackhead Control targets the Neck. Primary risk: Neck injury from excessive pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Triangle Choke/from Crackhead Control/Attacker|Play as Attacker]]
@@ -85,6 +103,24 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from Crackhead Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=03s0m1_Jkxg)
+
+<p class="clip-credit"><strong>Triangle Choke from Rubber Guard</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=03s0m1_Jkxg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -133,6 +169,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 - Open legs and remove neck pressure: Release fully on any tap or verbal signal. Any loss of responsiveness ends the drill immediately.
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -198,6 +236,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Bring the leg across the shoulder line while preserving a comfortable hip and knee angle.
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -232,9 +272,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -242,24 +281,9 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 | Neck or knee strain during a forced escape | High | Variable; do not train through symptoms. |
 
 
-**Application Speed**: Apply gradually and release immediately at any signal.
-
-**Tap Signals**:
-- Hand tap
-- Foot tap when the arms are trapped
-- Verbal tap or stop
 
 
-**Release Protocol**:
-1. Stop adding pressure immediately.
-2. Remove the joint or neck load before changing grips.
-3. Free the trapped limb or neck and check the partner.
-
-
-**Training Restrictions**:
-- Practice under qualified supervision with a cooperative partner.
-- Do not force the movement through pain or a restricted joint range.
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -303,7 +303,7 @@ As the person escaping back control, your goal is to systematically dismantle th
 |--------|----------|-------------|
 | Success | [[Positions/Turtle]] | 50% |
 | Failure | [[Positions/Back Control]] | 30% |
-| Counter | [[Positions/Mount]] | 20% |
+| Failure | [[Positions/Mount]] | 20% |
 
 
 </section>

@@ -10,8 +10,6 @@ description: "Step-by-step guide to finishing the Arm Triangle from Shoulder of 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Triangle from Shoulder of Justice targets the Carotid arteries (compressed by opponent's own shoulder and attacker's arm). Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ Executing the Arm Triangle from Shoulder of Justice requires recognizing when th
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Arm Triangle/from Shoulder of Justice#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

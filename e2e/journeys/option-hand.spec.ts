@@ -12,6 +12,12 @@ import { journey } from "../dsl"
  *
  * Every corpus claim walks all 272 role-hands through `optionsFor` — the same seam `enterLand`
  * deals from — rather than sampling one state and generalising.
+ *
+ * A TIE ON SCREEN IS A TIE IN THE RANKED SUM (v1.248.2, K2 batch 1). At crucifix/top, Crucifix
+ * Maintenance is 6 - 0.52 and Rear Naked Choke from Crucifix is 8 - 2.52: two different wire rows that
+ * both make 5.48, so both print 10, both rank 9.7746, and `_cmpDealt`'s tiebreak orders them. That is
+ * a real coincidence, 1 of 46 exact ties, and no mismatch for a player: the equal numbers are equal.
+ * The exact-tie rule therefore compares e0 + slope term at 1e-9, not each part alone.
  */
 
 /** All 272 role-hands, each with an INDEPENDENTLY re-derived pool.
@@ -93,7 +99,7 @@ test("@curated every legal move is dealt — the hand IS the pool", async ({ pag
   const j = journey(page)
   await j.boot("/")
   const hands = await sweep(page)
-  expect(hands.length, "every distinct position seat was walked").toBe(240) // census:positionChoiceSeats
+  expect(hands.length, "every distinct position seat was walked").toBe(242) // census:positionChoiceSeats
 
   // v1.119.0 asked the weaker question — "did the cap erase a CATEGORY" — because a cap existed
   // and some truncation was accepted. With NG_HAND_CAP gone the invariant is the strongest one
@@ -130,7 +136,8 @@ test("@curated every legal move is dealt — the hand IS the pool", async ({ pag
 
   // and the biggest hand in the corpus is dealt whole
   const stand = hands.find((h: any) => h.st === "standing-position/top")!
-  expect(stand.cards.length, "standing-position/top — the largest hand there is").toBe(34)
+  // 34 until v1.250.2: H4 and H5 deal Kouchi Gari and Uchi Mata here.
+  expect(stand.cards.length, "standing-position/top — the largest hand there is").toBe(36)
 })
 
 test("@curated the hand is ranked by EDGE, under a total order that is not node index", async ({ page }) => {
@@ -187,8 +194,8 @@ test("@curated the printed number is the number the hand was ranked by", async (
     // shape of the bug this whole feature replaced: `movePotential` returned a flat 1 for every
     // submission, so ten side-control cards printed an identical +100 while their wire rows were
     // all different. Two cards may print the same integer as ROUNDING NEIGHBOURS (different raw
-    // values) — but when the raw values are bit-identical, the wire rows behind them must be
-    // identical too.
+    // values) — but when the raw values are bit-identical, the ranked sums behind them must be
+    // equal too. Different wire rows may legitimately tie: 6 - 0.52 and 8 - 2.52 are both 5.48.
     const byRaw: Record<string, any[]> = {}
     const byPrint: Record<string, any[]> = {}
     for (const c of h.cards) {
@@ -206,6 +213,9 @@ test("@curated the printed number is the number the hand was ranked by", async (
     // two products differ in the last bit (-1.3 against -1.2999999999999998). The constant this test
     // exists to catch still fails here: measured, a flat moveEdge (every card 1) goes red on the e0
     // line at k-guard/top.
+    // THE RANKED SUM IS WHAT REACHES THE SCREEN, SO THE SUM IS WHAT IS COMPARED (v1.248.2, K2 batch 1).
+    // Comparing e0 and the term separately went red on a correct build, the way c1 alone did at
+    // v1.216.0: see the file header. The flat moveEdge mutant stays red here, at k-guard/top.
     let slopeOnly = 0
     for (const k in byRaw) {
       const g = byRaw[k]
@@ -213,10 +223,14 @@ test("@curated the printed number is the number the hand was ranked by", async (
       exactTies++
       const term = (c: any) => (c.dp == null ? null : c.c1 * c.dp + 0)
       for (const c of g) {
-        expect(c.e0, `${h.st}: ${c.t} and ${g[0].t} print the same value from DIFFERENT wire rows`).toBe(g[0].e0)
         const tc = term(c), t0 = term(g[0])
-        if (tc == null || t0 == null) expect(tc, `${h.st}: ${c.t} and ${g[0].t}: one has a slope term and one does not`).toBe(t0)
-        else expect(Math.abs(tc - t0), `${h.st}: ${c.t} and ${g[0].t} print the same value from DIFFERENT slope terms (${tc} vs ${t0})`).toBeLessThan(1e-9)
+        if (tc == null || t0 == null) {
+          expect(tc, `${h.st}: ${c.t} and ${g[0].t}: one has a slope term and one does not`).toBe(t0)
+          expect(c.e0, `${h.st}: ${c.t} and ${g[0].t} print the same value from different ranked sums`).toBe(g[0].e0)
+        } else {
+          const sum = c.e0 + tc, sum0 = g[0].e0 + t0
+          expect(Math.abs(sum - sum0), `${h.st}: ${c.t} and ${g[0].t} print the same value from different ranked sums (${sum} vs ${sum0})`).toBeLessThan(1e-9)
+        }
         if (c.c1 !== g[0].c1) slopeOnly++
       }
     }

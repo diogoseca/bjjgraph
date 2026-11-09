@@ -120,9 +120,6 @@ description: "Master the Arm Crush submission in BJJ. Learn shoulder lock mechan
 <span class="meta-chip">~52% avg</span>
 </div>
 
-> [!danger] Safety
-> Arm Crush targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Arm Crush is a powerful shoulder lock submission that combines crushing pressure with rotational torque on the opponent's shoulder joint. Unlike traditional shoulder locks that isolate the joint through leverage alone, the Arm Crush uses body weight and positional pressure to compress the shoulder while simultaneously applying a twisting motion. This submission is most commonly executed from side control positions, particularly when the opponent's arm is trapped between their body and yours. The technique targets the rotator cuff muscles and shoulder capsule, creating intense pressure that forces a quick tap. The Arm Crush is especially effective against defensive opponents who keep their elbows tight to their body, as this defensive posture actually creates the necessary configuration for the submission. The finish combines elements of the Americana and Kimura while adding a unique crushing component that makes it extremely difficult to defend once properly applied.
@@ -216,9 +213,8 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -228,31 +224,9 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 | Labrum tear | CRITICAL | 4-6 months post-surgery, career-threatening |
 
 
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum application time in training
-
-**Tap Signals**:
-- Verbal tap or verbal distress
-- Physical tap with free hand
-- Physical tap with feet
-- Any unusual shoulder popping or grinding sounds
-- Opponent going still or rigid
 
 
-**Release Protocol**:
-1. Immediately reduce all rotational pressure on the shoulder
-2. Release crushing pressure by lifting your chest off opponent's arm
-3. Allow opponent's arm to return to neutral position slowly
-4. Check with partner verbally before resuming training
-5. Watch for signs of shoulder injury (limited range of motion, pain with movement)
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth, progressive pressure only
-- Never use competition speed in training - this is a high-injury-risk submission
-- Always maintain verbal communication with training partner
-- Stop immediately if you hear or feel any popping in the shoulder
-- Do not practice this submission on partners with previous shoulder injuries without explicit consent
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

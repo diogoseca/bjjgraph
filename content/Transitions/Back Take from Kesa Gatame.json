@@ -368,7 +368,25 @@
       }
     ],
     "safety_considerations": "The Back Take from Kesa Gatame involves significant rotational forces on the spine and neck during the turning sequence. During drilling, ensure smooth controlled rotations rather than explosive jerking movements that could strain the cervical spine. Partners should communicate immediately if neck pressure becomes excessive when the bottom player is turning through the head-trapped position. When practicing at full speed, be mindful of knee and ankle positions during the hip rotation to prevent joint injuries from legs getting caught underneath. The bridge-and-turn variant in particular requires careful progressive resistance training to prevent the bottom player from over-rotating and landing awkwardly on their training partner.",
-    "clips": []
+    "clips": [
+      {
+        "id": "AQlh8Pa7G3c",
+        "title": "Jiu-Jitsu Back Take from Scarf Hold & Easy Sweep",
+        "channel": "Kirk Brackmann",
+        "duration": 64,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "V_L7POoXVv0",
+        "title": "take back in kesa gatame",
+        "channel": "BJJInAction",
+        "duration": 81,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Back Take from Kesa Gatame Defender",

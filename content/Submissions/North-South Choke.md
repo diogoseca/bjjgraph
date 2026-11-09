@@ -120,9 +120,6 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> North-South Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/North-South|North-South]]</strong> — North-South is the control POSITION, not the choke finished from it</p>
 </aside>
@@ -226,9 +223,8 @@ Unlike traditional arm chokes that rely on conspicuous limb positioning, the Nor
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -238,31 +234,9 @@ Unlike traditional arm chokes that rely on conspicuous limb positioning, the Nor
 | Cervical spine stress from improper release | CRITICAL | Weeks to months depending on severity |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and tap
-
-**Tap Signals**:
-- Verbal tap or verbal submission
-- Multiple rapid hand taps on opponent's body
-- Multiple rapid foot taps on the mat
-- Any distress signal including body convulsions
-- Loss of resistance or going limp
 
 
-**Release Protocol**:
-1. Immediately release arm pressure and remove shoulder compression
-2. Roll off opponent's head and neck area completely
-3. Allow opponent to recover in side-lying position with airway clear
-4. Monitor for signs of consciousness and breathing
-5. Never move opponent's neck immediately after release—allow them to move naturally first
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking pressure to the neck
-- Never use competition speed or full pressure in training
-- Always ensure partner has clear tap access with at least one hand
-- Never hold the choke after partner taps or goes limp
-- Beginners should only practice the position and grip, not the actual choking pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

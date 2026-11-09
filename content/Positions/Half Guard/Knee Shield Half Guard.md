@@ -187,29 +187,31 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 - **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (5% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (9% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (8% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
 
 - **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (9% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (10% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (9% of attempts)
 
 - **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (2% of attempts)
 
-- **[[Submissions/Kimura/from Knee Shield Half Guard/Attacker|Kimura from Knee Shield Half Guard]]** (7% of attempts)
+- **[[Submissions/Kimura/from Knee Shield Half Guard/Attacker|Kimura from Knee Shield Half Guard]]** (6% of attempts)
 
-- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (17% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (15% of attempts)
 
 - **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (4% of attempts)
 
-- **[[Transitions/Knee Shield Half Guard to Z-Guard/Attacker|Knee Shield Half Guard to Z-Guard]]** (8% of attempts)
+- **[[Transitions/Knee Shield Half Guard to Z-Guard/Attacker|Knee Shield Half Guard to Z-Guard]]** (7% of attempts)
 
-- **[[Transitions/Knee Shield to Closed Guard/Attacker|Knee Shield to Closed Guard]]** (6% of attempts)
+- **[[Transitions/Knee Shield to Closed Guard/Attacker|Knee Shield to Closed Guard]]** (5% of attempts)
 
-- **[[Transitions/Underhook from Knee Shield/Attacker|Underhook from Knee Shield]]** (14% of attempts)
+- **[[Transitions/Underhook from Knee Shield/Attacker|Underhook from Knee Shield]]** (13% of attempts)
 
 - **[[Transitions/Sweep from Knee Shield/Attacker|Sweep from Knee Shield]]** (4% of attempts)
+
+- **[[Transitions/John Wayne Sweep/Attacker|John Wayne Sweep]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -350,22 +352,6 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Bernardo Faria: No-Gi Pressure Passing</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles: 50/50 Leg Locks and Defense</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position reference for leg-entanglement study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Caio Terra: Guard Recovery</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position reference for guard-recovery study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Half Guard: Recovering Closed Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Knee Shield Half Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">No-Gi Guard-Passing Courses</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lucas-Lepri-Half-Guard-Passing-System" data-cta="related-system-card" data-system-slug="systems/lucas-lepri-half-guard-passing-system" data-system-name="Lucas Lepri Half Guard Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lucas Lepri: Gi Half-Guard Passing</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Brian-Glick-Half-Butterfly-System" data-cta="related-system-card" data-system-slug="systems/brian-glick-half-butterfly-system" data-system-name="Brian Glick Half Butterfly System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Brian Glick: Half Butterfly</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Knee Shield Half Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Dante-Leon-Reverse-De-La-Riva-System" data-cta="related-system-card" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-system-name="Dante Leon Reverse De La Riva System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Dante Leon: No-Gi Reverse De La Riva</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Knee Shield Half Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Jeff-Glover-Deep-Half-System" data-cta="related-system-card" data-system-slug="systems/jeff-glover-deep-half-system" data-system-name="Jeff Glover Deep Half System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Jeff Glover: No-Gi Deep Half</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Knee Shield Half Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

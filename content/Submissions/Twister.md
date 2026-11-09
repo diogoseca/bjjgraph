@@ -131,9 +131,6 @@ description: "Master the Twister spinal lock in BJJ. Complete guide covering Tru
 <span class="meta-chip">~40% avg</span>
 </div>
 
-> [!danger] Safety
-> Twister targets the Cervical and thoracic spine, shoulder girdle. Primary risk: Cervical spine damage (neck injury). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Twister is an advanced spinal lock submission popularized by 10th Planet Jiu-Jitsu. This technique creates a corkscrew-like torque on the opponent's spine by controlling their lower body with a lockdown or body triangle while simultaneously controlling their upper body in the opposite direction. The Twister is primarily entered from the Truck position, where you have your opponent's back while they are belly-down, with their legs controlled in a specific entanglement. The submission applies pressure to the entire spinal column, creating a twisting motion that forces the tap.
@@ -245,9 +242,8 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -257,32 +253,9 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 | Intercostal muscle tears (rib area) | Medium | 2-4 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression, never spike or jerk the spine
-
-**Tap Signals**:
-- Verbal tap (most common due to limited mobility)
-- Physical hand tap on your body or mat
-- Physical foot tap if accessible
-- Any distress signal or unusual vocalization
 
 
-**Release Protocol**:
-1. Immediately release the head/neck control completely
-2. Release upper body grips and allow opponent to turn face-up
-3. Slowly unwind the leg entanglement
-4. Do not pull or twist during release - let opponent move naturally
-5. Check with partner after release to ensure they are okay
-
-
-**Training Restrictions**:
-- NEVER apply at competition speed in training - always 50% speed maximum
-- NEVER use on beginners or those unfamiliar with the position
-- NEVER apply sudden or explosive pressure to the spine
-- NEVER continue if partner shows any signs of distress
-- ALWAYS allow clear tap access and communicate throughout
-- NEVER practice without supervision from a qualified black belt
-- Avoid training this submission more than once per week to prevent cumulative spine stress
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

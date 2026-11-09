@@ -105,9 +105,6 @@ description: "Hindulotine from Hindu Control joins the hands after the arm loops
 <span class="meta-chip">30% success</span>
 </div>
 
-> [!danger] Safety
-> Hindulotine from Hindulotine targets the Neck, enclosed by the arm and raised rubber-guard leg. Primary risk: Neck injury from twisting or misaligned pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Hindulotine/from Hindulotine/Attacker|Play as Attacker]]
@@ -212,6 +209,8 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 - Open hands and leg: Release the whole enclosure at the first tap or change in responsiveness, including if the opponent has passed the lower leg.
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -278,6 +277,8 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 - The attacker uses the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee.
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -313,9 +314,8 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -323,25 +323,9 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 | Loss of consciousness or serious harm from continued neck compression | CRITICAL | Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms. |
 
 
-**Application Speed**: Drill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal. No fixed number of seconds makes a locked submission safe.
-
-**Tap Signals**:
-- Repeated hand taps anywhere the partner can feel them
-- A clear verbal tap or stop, including when the hands are trapped
-- Foot taps or any agreed stop signal; release immediately if normal responsiveness changes
 
 
-**Release Protocol**:
-1. Open the finishing grip immediately at the first signal; do not wait for repeated confirmation
-2. Remove the leg, arm or body restraint without forcing the captured joint or neck through another movement
-3. Check the partner can respond normally and allow a safe reset; end practice and obtain help if there is an injury or concerning symptom
-
-
-**Training Restrictions**:
-- Start with supervised, cooperative control-and-release drilling rather than a loaded finish
-- Check the event's current rules for the specific age, experience and clothing division before live use
-- Drill the arm path with no choke pressure first. Protect the high knee, avoid cervical twisting, and release both the grip and raised leg immediately on any stop signal.
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -46,12 +46,12 @@ description: "Master the Scissor Sweep from Open Guard in BJJ. Learn grip setup,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the Scissor Sweep Position",
-      "description": "Scissor Sweep from Open Guard film study: Defending the Scissor Sweep Position.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ke2QNnPRrWQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ke2QNnPRrWQ",
-      "url": "https://www.youtube.com/watch?v=Ke2QNnPRrWQ",
-      "duration": "PT37S"
+      "name": "Collar and sleeve guard: triangle choke and scissor sweep",
+      "description": "Scissor Sweep from Open Guard film study: Collar and sleeve guard: triangle choke and scissor sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ii5WNzuZlW8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ii5WNzuZlW8?start=221",
+      "url": "https://www.youtube.com/watch?v=ii5WNzuZlW8",
+      "duration": "PT357S"
     }
   ]
 }
@@ -105,9 +105,9 @@ The technique's effectiveness at competition level depends heavily on timing and
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Ke2QNnPRrWQ)
+![](https://www.youtube.com/watch?v=ii5WNzuZlW8&start=221)
 
-<p class="clip-credit"><strong>Defending the Scissor Sweep Position</strong> · 0:37 · <a href="https://www.youtube.com/watch?v=Ke2QNnPRrWQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Collar and sleeve guard: triangle choke and scissor sweep</strong> · 5:57 · <a href="https://www.youtube.com/watch?v=ii5WNzuZlW8&t=221s" rel="noopener">Watch on YouTube from 3:41</a></p>
 
 </div>
 

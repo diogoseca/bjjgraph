@@ -46,12 +46,12 @@ description: "Master the guillotine choke finish from guillotine control. Comple
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guillotine Choke Defense",
-      "description": "Guillotine Choke from Guillotine Control film study: Guillotine Choke Defense.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OQYU2BXdEEw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OQYU2BXdEEw",
-      "url": "https://www.youtube.com/watch?v=OQYU2BXdEEw",
-      "duration": "PT51S"
+      "name": "High Elbow Guillotine from the Front Headlock",
+      "description": "Guillotine Choke from Guillotine Control film study: High Elbow Guillotine from the Front Headlock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l4FWC_kYKas/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l4FWC_kYKas?start=171",
+      "url": "https://www.youtube.com/watch?v=l4FWC_kYKas",
+      "duration": "PT248S"
     }
   ]
 }
@@ -82,9 +82,6 @@ description: "Master the guillotine choke finish from guillotine control. Comple
 <span class="meta-chip">35% success</span>
 </div>
 
-> [!danger] Safety
-> Guillotine Choke from Guillotine Control targets the Carotid arteries and windpipe. Primary risk: Trachea damage or crush injury. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Guillotine Choke/from Guillotine Control/Attacker|Play as Attacker]]
@@ -114,9 +111,9 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=OQYU2BXdEEw)
+![](https://www.youtube.com/watch?v=l4FWC_kYKas&start=171)
 
-<p class="clip-credit"><strong>Guillotine Choke Defense</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=OQYU2BXdEEw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>High Elbow Guillotine from the Front Headlock</strong> · 4:08 · <a href="https://www.youtube.com/watch?v=l4FWC_kYKas&t=171s" rel="noopener">Watch on YouTube from 2:51</a></p>
 
 </div>
 
@@ -173,6 +170,8 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 - Maintain readiness to convert failed finish attempts into positional advancement when choke defense opens other opportunities
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -188,7 +187,7 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 
 - **Angle adjustment for maximum compression**: Rotate your body slightly toward the choking side to optimize the angle of forearm pressure against ...
 
-- **Maintain and follow through finish**: Hold steady pressure as the choke takes effect. Do not release or readjust once you feel the opponen...
+- **Maintain and follow through finish**: Hold steady pressure as the choke takes effect. Maintain the exact position and pressure that is wor...
 
 
 ### Common Mistakes
@@ -246,6 +245,8 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 
 - Difficulty breathing or sudden lightheadedness indicating blood flow restriction has begun
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -314,9 +315,8 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -326,30 +326,9 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 | Unconsciousness from blood choke | High | Immediate recovery but requires medical monitoring |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time. Never snap or jerk the submission
-
-**Tap Signals**:
-- Verbal tap or any vocal sound
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any distress signal or loss of resistance
 
 
-**Release Protocol**:
-1. Immediately release choking arm pressure upon any tap signal
-2. Remove head from opponent's neck and open grip completely
-3. Help opponent to seated position if they appear disoriented
-4. Monitor breathing and consciousness for 30 seconds minimum
-5. Call for medical assistance if partner doesn't recover within 20 seconds
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity during drilling phases
-- Always allow clear tap access for both arms and verbal signaling
-- Stop immediately at any sign of distress including gurgling, color change, or sudden limpness
-- Avoid cranking or using neck hyperextension to force the submission
-- Never practice full-pressure guillotines on partners with known neck injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

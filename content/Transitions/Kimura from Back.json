@@ -362,7 +362,26 @@
       }
     ],
     "safety_considerations": "The kimura creates extreme rotational stress on the shoulder joint, specifically the rotator cuff muscles and glenohumeral capsule. Apply pressure slowly and continuously—never jerk or crank the submission. Give your training partner time to tap; shoulder injuries can occur within 1-2 seconds of proper pressure application. In training, release immediately upon any tap, verbal submission, or expression of discomfort. Be especially cautious with training partners who have previous shoulder injuries, as their range of motion and pain thresholds may be reduced. When drilling, establish clear communication about pressure levels before beginning. The combination of back control (which is disorienting) and shoulder lock can cause panicked reactions—be prepared to release if your partner tenses unexpectedly.",
-    "clips": []
+    "clips": [
+      {
+        "id": "qWD_chlEMPo",
+        "title": "BJJ Back attack submission combo - rear triangle and kimura",
+        "channel": "BJJake",
+        "duration": 89,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "5hkkc0Q-DuE",
+        "title": "Back step to Back Triangle Kimura - Bicep Remover BJJ Class recap",
+        "channel": "War Room Jiu Jitsu",
+        "duration": 114,
+        "vertical": false,
+        "start": 85,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Kimura from Back Defender",

@@ -10,8 +10,6 @@ description: "Learn to finish the heel hook from Inside Sankaku with systematic 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Inside Heel Hook from Inside Sankaku targets the Knee ligaments (MCL, ACL, meniscus) via rotational heel manipulation. Risk: MCL (medial collateral ligament) tear from rotational force on the knee. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -265,6 +263,8 @@ Attacking the heel hook from Inside Sankaku requires methodical control establis
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Inside Heel Hook/from Inside Sankaku#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

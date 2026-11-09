@@ -131,9 +131,6 @@ description: "Master Estima Lock foot submission with safety protocols, setup fr
 <span class="meta-chip">~55% avg</span>
 </div>
 
-> [!danger] Safety
-> Estima Lock targets the Foot and ankle joints (dorsiflexion of foot). Primary risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Estima Lock is a sophisticated foot lock submission targeting the ankle and foot through dorsiflexion pressure. Named after Victor Estima who popularized the technique, this submission applies pressure by using the back of the opponent's knee to create a fulcrum while controlling the foot. The Estima Lock is most commonly executed from leg entanglement positions, particularly the 50-50 guard, where both practitioners' legs are entangled and the positioning creates ideal mechanical advantage for the foot attack.
@@ -247,9 +244,8 @@ The technique requires precise control and understanding of leg entanglement mec
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -259,33 +255,9 @@ The technique requires precise control and understanding of leg entanglement mec
 | Metatarsal stress or fracture (with extreme force) | CRITICAL | 6-12 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial pressure to maximum force. Allow partner multiple tap opportunities.
-
-**Tap Signals**:
-- Verbal tap (shout 'TAP' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap with free leg
-- Any distress signal or unusual sounds
-- Loss of resistance (unconsciousness risk)
 
 
-**Release Protocol**:
-1. Immediately release hand grip on foot
-2. Remove attacking leg from behind opponent's knee
-3. Allow opponent's foot to return to neutral position naturally
-4. Maintain visual contact to ensure partner is okay
-5. Never jerk or spike the release - controlled withdrawal only
-
-
-**Training Restrictions**:
-- Never apply at competition speed during training
-- Never apply to beginners or those unfamiliar with leg locks
-- Always ensure partner knows the tap signals before drilling
-- Never apply with sudden jerking motions
-- Always allow clear tap access with hands
-- Stop immediately if partner's foot makes unusual sounds
-- Communicate throughout application in drilling
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

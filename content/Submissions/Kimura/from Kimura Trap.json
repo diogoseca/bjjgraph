@@ -630,7 +630,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "dgYwflmcxKk",
+        "title": "Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle…",
+        "channel": "Hayabusa",
+        "duration": 72,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "from Kimura Trap Defender",

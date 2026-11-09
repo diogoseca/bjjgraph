@@ -293,7 +293,7 @@ What makes the arm drag sweep particularly powerful in modern BJJ is its adaptab
 | Success | [[Positions/Back Control]] | 45% |
 | Success | [[Positions/Side Control]] | 20% |
 | Failure | [[Positions/Closed Guard]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -389,14 +389,6 @@ The arm drag sweep is generally a safe technique with low injury risk when pract
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Arm Drag Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

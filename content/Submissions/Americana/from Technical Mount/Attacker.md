@@ -10,8 +10,6 @@ description: "Execute the Americana shoulder lock from Technical Mount. Step-by-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Technical Mount targets the Shoulder joint (rotator cuff and glenohumeral complex). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ The Americana from Technical Mount leverages the asymmetric leg positioning to c
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Americana/from Technical Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

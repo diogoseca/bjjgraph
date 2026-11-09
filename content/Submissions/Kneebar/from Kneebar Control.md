@@ -46,22 +46,12 @@ description: "Master the kneebar finish from kneebar control in BJJ. Step-by-ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu\u2026",
-      "description": "Kneebar from Kneebar Control film study: Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3zJthP57wXw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3zJthP57wXw",
-      "url": "https://www.youtube.com/watch?v=3zJthP57wXw",
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defending Kneebar To Toe Hold",
-      "description": "Kneebar from Kneebar Control film study: Defending Kneebar To Toe Hold.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hze1WyTvkzA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/hze1WyTvkzA",
-      "url": "https://www.youtube.com/watch?v=hze1WyTvkzA",
-      "duration": "PT24S"
+      "name": "Finishing Knee Bar. Control And Breaking Mechanics.",
+      "description": "Kneebar from Kneebar Control film study: Finishing Knee Bar. Control And Breaking Mechanics..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mZs0vLcyvAo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mZs0vLcyvAo",
+      "url": "https://www.youtube.com/watch?v=mZs0vLcyvAo",
+      "duration": "PT282S"
     }
   ]
 }
@@ -92,9 +82,6 @@ description: "Master the kneebar finish from kneebar control in BJJ. Step-by-ste
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Kneebar Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Kneebar Control/Attacker|Play as Attacker]]
@@ -124,17 +111,9 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3zJthP57wXw)
+![](https://www.youtube.com/watch?v=mZs0vLcyvAo)
 
-<p class="clip-credit"><strong>Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu…</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=3zJthP57wXw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=hze1WyTvkzA)
-
-<p class="clip-credit"><strong>Defending Kneebar To Toe Hold</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=hze1WyTvkzA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Finishing Knee Bar. Control And Breaking Mechanics.</strong> · 4:42 · <a href="https://www.youtube.com/watch?v=mZs0vLcyvAo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -188,6 +167,8 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 
 - Progressive pressure application prevents injury and provides consistent feedback on submission depth
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -257,6 +238,8 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 - Attacker begins pulling your leg toward their chest while extending their body to straighten your captured leg
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -316,9 +299,8 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -328,30 +310,9 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 | Meniscus tear (medial or lateral) | High | 3-6 months, may require surgery |
 
 
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress vocalization or signal
 
 
-**Release Protocol**:
-1. Immediately stop all hip extension the moment tap is received
-2. Release hip pressure by dropping hips away from opponent's leg
-3. Maintain positional control while releasing the leg slowly
-4. Allow opponent to extract their leg at their own pace
-5. Check with partner verbally after release
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply smooth, progressive pressure
-- Never use competition speed or intensity in training rolls
-- Always communicate with training partners about leg lock experience level
-- Never continue pressure after any tap signal
-- Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

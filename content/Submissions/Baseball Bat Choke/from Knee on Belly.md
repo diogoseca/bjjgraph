@@ -82,9 +82,6 @@ description: "Master the Baseball Bat Choke from Knee on Belly in BJJ. Learn gi 
 <span class="meta-chip">10% success</span>
 </div>
 
-> [!danger] Safety
-> Baseball Bat Choke from Knee on Belly targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Baseball Bat Choke/from Knee on Belly/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ The finishing mechanic involves a controlled spin away from the opponent after s
 - Drop chest to mat on the far side after spinning to create maximum torsional pressure on the collar
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -247,6 +246,8 @@ The finishing mechanic involves a controlled spin away from the opponent after s
 - Attacker suddenly locks both elbows tight against their body and shifts weight forward — the spin is imminent
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -288,9 +289,8 @@ The finishing mechanic involves a controlled spin away from the opponent after s
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -299,30 +299,9 @@ The finishing mechanic involves a controlled spin away from the opponent after s
 | Neck strain from explosive spinning finish or resisting the rotation | Medium | 3-7 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. The spin should be controlled, not explosive.
-
-**Tap Signals**:
-- Verbal tap saying 'tap' clearly
-- Physical hand tap on partner or mat (minimum two taps)
-- Physical foot tap on mat when hands are trapped
-- Any distress signal including going limp or loss of muscle tone
 
 
-**Release Protocol**:
-1. Immediately release all collar grips upon any tap signal
-2. Remove hands completely from opponent's neck and collar area
-3. Roll off opponent and allow them to recover in side-lying position
-4. Check partner's awareness, breathing, and orientation before continuing
-5. Wait for verbal confirmation of readiness before resuming training
-
-
-**Training Restrictions**:
-- Never apply at competition speed during drilling — control the spin
-- Never jerk or spike the choke to force a finish
-- Always ensure partner can signal a tap with at least one hand or verbally
-- Never continue past initial resistance in training — reset and refine grip depth
-- Stop immediately if partner shows any signs of distress, color change, or unconsciousness
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

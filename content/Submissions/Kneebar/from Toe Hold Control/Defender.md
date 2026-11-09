@@ -10,8 +10,6 @@ description: "Learn to defend the kneebar from toe hold control. Recognition cue
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Toe Hold Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -255,6 +253,8 @@ Defending the kneebar from toe hold control demands recognition of the transitio
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kneebar/from Toe Hold Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

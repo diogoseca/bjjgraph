@@ -10,8 +10,6 @@ description: "Defend and escape the Armbar from High Mount in BJJ. Recognition c
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from High Mount targets the Elbow joint (hyperextension) and shoulder girdle. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -256,6 +254,8 @@ Defending the Armbar from High Mount requires a layered approach that begins wit
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Armbar/from High Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

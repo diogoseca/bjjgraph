@@ -176,6 +176,27 @@ description: "Master the offensive armbar attack from reverse mount. Learn arm i
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Reverse Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ | How To Do A Basic Armbar From The Top Mount",
+      "description": "Armbar from Reverse Mount (Attacker) film study: BJJ | How To Do A Basic Armbar From The Top Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GI0lv-MA2h4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GI0lv-MA2h4",
+      "url": "https://www.youtube.com/watch?v=GI0lv-MA2h4",
+      "duration": "PT65S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ Attacking the armbar from reverse mount requires a fundamentally different appro
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Reverse Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GI0lv-MA2h4)
+
+<p class="clip-credit"><strong>BJJ | How To Do A Basic Armbar From The Top Mount</strong> · 1:05 · <a href="https://www.youtube.com/watch?v=GI0lv-MA2h4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

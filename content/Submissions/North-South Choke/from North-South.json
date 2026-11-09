@@ -208,7 +208,7 @@
         "step_number": 7,
         "action": "Apply Progressive Squeeze",
         "description": "Increase the bilateral compression gradually by continuing the body rotation and hip drop. Monitor your opponent's response for tap signals at all times. The choke should feel like a tightening vise with pressure coming from your entire body position rather than muscular effort. Hold the position steady once maximum compression is achieved and wait for the tap.",
-        "timing": "3-5 seconds to tap or unconsciousness"
+        "timing": "3-5 seconds to tap"
       }
     ],
     "common_counters": [
@@ -448,7 +448,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "u0sMEQrZemE",
+        "title": "North South Choke 🧭🧭🧭",
+        "channel": "JeanJacquesMachado",
+        "duration": 75,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "from North-South Defender",

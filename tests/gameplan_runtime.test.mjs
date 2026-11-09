@@ -119,22 +119,36 @@ test("late recommendation responses cannot override a changed ruleset/profile co
 test("shared credit completing a mounted plan paints completion without a local mini callback", () => {
   const a = app([{ q: "shared", a: "answer" }]), qh = a.qhash("shared");
   a.srs = { "Move|Defender": { [qh]: [99, 3, 96] } };
-  const s = a._session = { plan: a.planSummary(), keys: ["Move|Defender"], required: 1 };
   const list = new Element();
+  const s = a._session = { practice: true, plan: a.planSummary(), keys: ["Move|Defender"], required: 1, completion: list };
   list.querySelector = (selector) => list.children.find((el) => el.attrs[selector.slice(1, -1)]) || null;
-  a.drillListRef = { current: list }; a.drillFootRef = { current: null }; a.setDrillHeader = () => {};
+  a.drillListRef = { current: list }; a._paintPractice = () => {};
   a._paintGameplanProgress(s);
   assert.equal(list.children.length, 0);
   // This is authoritative SRS evidence delivered after a shared/remote grade.
   a.srs["Move|Defender"][qh] = [107, 7, 100];
   a._paintGameplanProgress(s); a._paintGameplanProgress(s);
-  // FGD13: completion re-renders the plan, whose END is now the "All done" card (its extra list,
-  // if any, stays behind the card's action). Exactly one end card, last, no lock, one event.
+  // Completion paints under the card and rebuilds nothing. Exactly one end card, last, one event.
   const ends = list.children.filter((el) => el.attrs["data-session-complete"]);
   assert.equal(ends.length, 1); assert.equal(list.children.at(-1), ends[0]);
-  assert.match(ends[0].html, /All done, come back tomorrow/);
-  assert.equal(list.children.filter((el) => el.attrs["data-plan-locked"]).length, 0);
+  assert.match(ends[0].html, /Session complete/);
   assert.equal(a.events.filter((e) => e.event === "neural_session_completed").length, 1);
+});
+
+// §6.6: the belt scope needs the curriculum, and a plan built without it deals every belt. That is
+// the right offer on a 404, so it stands, and it says so: once per outage, whatever repaints it.
+test("a plan dealt with no belt to scope it says so, once until the curriculum lands", () => {
+  const a = app([{ q: "first", a: "one" }]), beats = [];
+  a.fx = (beat) => beats.push(beat);
+  const unfiltered = () => beats.filter((b) => b === "practice_belt_unfiltered").length;
+  a.planSummary(); a.planSummary();
+  assert.equal(unfiltered(), 1, "named once, not per paint");
+  a.curriculum = { belts: [{ id: "white", units: [] }] };
+  a.planSummary();
+  assert.equal(unfiltered(), 1, "a scoped plan is not the fallback");
+  a.curriculum = null;
+  a.planSummary();
+  assert.equal(unfiltered(), 2, "a second outage is a second fallback");
 });
 
 test("a valid empty FLOW ranking stays distinct from a cold kernel", () => {
@@ -149,7 +163,7 @@ test("before the planner loads, DUE completion still requires frozen question an
   delete a._gameplanRuntime;
   a.srs = { "Move|Defender": { [qh]: [99, 3, 96] } }; a.prep["Move|Defender"] = 5;
   assert.equal(a.planSummary(), null, "no invented zero-sized plan before runtime");
-  const s = { keys: ["Move|Defender"], filter: "due", review: {
+  const s = { practice: true, keys: ["Move|Defender"], review: {
     ...ngGameplanDebt({ day: a.day, srs: a.srs, decks: a._gameplanDecks() }), day: a.day } };
   assert.deepEqual(a.bucketTechniques("due"), s.keys);
   assert.equal(a._gameplanProgress(s).complete, false);
@@ -190,4 +204,48 @@ test("queued model results recheck current context on runtime arrival and teardo
   assert.equal(a._gameplanProvider, undefined, "old-day model reply is not installed");
   const b = app(); delete b._gameplanRuntime; b.__ngDestroyed = true;
   assert.equal(b.setGameplanRuntime(gameplanRuntime), false);
+});
+
+// P1-C/D: real app plan-adoption seam. DOM paints are stubbed here because the
+// browser suite owns identity/focus/press geometry; the ledger and bindings are real.
+test("P1-C: continuation appends distinct questions at goal without clearing due debt", () => {
+  const a = app([{ q: "owed", a: "answer" }]), owed = a.qhash("owed"), shared = a.qhash("new shared");
+  a.srs = { "Move|Defender": { [owed]: [99, 3, 96] }, "Past|Top": Object.fromEntries(Array.from({ length: 20 }, (_, i) => ["past" + i, [101, 1, 100]])) };
+  a.flashcards.decks["New|Top"] = { cards: [{ q: "new shared", a: "answer" }] };
+  a.flashcards.decks["Copy|Bottom"] = { cards: [{ q: "new shared", a: "answer" }] };
+  a.weakSpots = () => ({ cold: true, keys: ["New|Top", "Copy|Bottom"], weak: [] });
+  const plan = a.planSummary();
+  assert.equal(plan.fresh.length, 0); assert.equal(plan.more.length, 2);
+  const s = a._session = { practice: true, plan, keys: ["Move|Defender"], idx: 0, started: 20 };
+  a._practiceRows = () => {}; a._paintGameplanProgress = () => {};
+  a.hydrateDecks = async () => {}; a._sessionInline = () => false;
+  a._practiceAppend(s, plan, plan.more);
+  assert.equal(a._session, s, "P1-C one session at goal");
+  assert.deepEqual(s.keys, ["Move|Defender", "New|Top"], "P1-C duplicate shared copy is not appended");
+  assert.deepEqual(s.plan.fresh.flatMap(r => r.questions), [shared]);
+  assert.equal(a.dueCount(), 1, "P1-C debt did not gate continuation");
+  a.gradeRecall("New|Top", a.flashcards.decks["New|Top"].cards[0], false);
+  assert.equal(a.practiceToday().done, 21, "P1-C a mistake after the goal counts");
+  assert.equal(a._gameplanProgress(s).completed, 1);
+});
+
+test("P1-D: cold planner appends after reveal and after grading without replacing the session", () => {
+  for (const grade of [false, true]) {
+    const a = app([{ q: "owed", a: "answer" }]), q = a.qhash("owed");
+    a.srs = { "Move|Defender": { [q]: [99, 3, 96] } };
+    a.flashcards.decks["New|Top"] = { cards: [{ q: "new", a: "answer" }] };
+    a.weakSpots = () => ({ cold: true, keys: ["New|Top"], weak: [] });
+    const s = a._session = { practice: true, keys: ["Move|Defender"], idx: 0, started: 0,
+      review: { ...ngGameplanDebt({ srs: a.srs, day: 100, decks: a._gameplanDecks() }), day: 100 } };
+    const answer = { idx: 0, revealed: true }; a._deckState = { "Move|Defender": answer };
+    if (grade) a.gradeRecall("Move|Defender", a.flashcards.decks["Move|Defender"].cards[0], true);
+    a._practiceRows = () => {}; a._paintGameplanProgress = () => {};
+    a.renderSession = () => assert.fail("P1-D engaged surface must not rebuild");
+    a.hydrateDecks = async () => {}; a._sessionInline = () => false;
+    a._practiceAppend(s, a.planSummary());
+    assert.equal(a._session, s, "P1-D one cold session");
+    assert.equal(a._deckState["Move|Defender"], answer, "P1-D selected answer state survives");
+    assert.deepEqual(s.keys, ["Move|Defender", "New|Top"], "P1-D new work eventually joins");
+    assert.ok(s.plan.dueQuestions.includes(q), "P1-D original debt stays in the grading ledger");
+  }
 });

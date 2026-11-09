@@ -112,8 +112,8 @@
       {
         "transition": "Knee Slide from Combat Base",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 21
+          "gi": 18,
+          "nogi": 18
         }
       },
       {
@@ -121,20 +121,90 @@
         "attempt_probability": {
           "gi": 13,
           "nogi": 14
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 23,
+          "nogi": 38
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 38,
+              "nogi": 38
+            },
+            "result": "success"
+          },
+          {
+            "to": "Combat Base/Top",
+            "probability": {
+              "gi": 44,
+              "nogi": 44
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 18,
+              "nogi": 18
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
           "gi": 13,
           "nogi": 13
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 47,
+          "nogi": 47
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 41,
+              "nogi": 41
+            },
+            "result": "success"
+          },
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 6,
+              "nogi": 6
+            },
+            "result": "success"
+          },
+          {
+            "to": "Combat Base/Top",
+            "probability": {
+              "gi": 35,
+              "nogi": 35
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Knee Shield Half Guard/Top",
+            "probability": {
+              "gi": 18,
+              "nogi": 18
+            },
+            "result": "failure"
+          }
+        ]
       },
       {
         "transition": "Combat Base to Headquarters",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 14
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
@@ -142,20 +212,51 @@
         "attempt_probability": {
           "gi": 10,
           "nogi": 9
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 42,
+          "nogi": 42
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 42,
+              "nogi": 42
+            },
+            "result": "success"
+          },
+          {
+            "to": "Combat Base/Top",
+            "probability": {
+              "gi": 36,
+              "nogi": 36
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 22,
+              "nogi": 22
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Standing Up from Combat Base",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 5
+          "gi": 3,
+          "nogi": 4
         }
       },
       {
         "transition": "Stand Up from Combat Base",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 4
+          "nogi": 3
         }
       },
       {
@@ -170,14 +271,83 @@
         "attempt_probability": {
           "gi": 9,
           "nogi": 10
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 48,
+          "nogi": 48
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 48,
+              "nogi": 48
+            },
+            "result": "success"
+          },
+          {
+            "to": "Combat Base/Top",
+            "probability": {
+              "gi": 35,
+              "nogi": 35
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Closed Guard/Top",
+            "probability": {
+              "gi": 17,
+              "nogi": 17
+            },
+            "result": "failure"
+          }
+        ]
       },
       {
         "transition": "Pressure Pass",
         "attempt_probability": {
+          "gi": 8,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Over-Under Pass",
+        "attempt_probability": {
           "gi": 10,
           "nogi": 9
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 44,
+          "nogi": 49
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 49,
+              "nogi": 49
+            },
+            "result": "success"
+          },
+          {
+            "to": "Combat Base/Top",
+            "probability": {
+              "gi": 31,
+              "nogi": 31
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "counter"
+          }
+        ]
       }
     ],
     "decision_tree": [

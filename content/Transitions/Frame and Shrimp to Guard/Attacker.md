@@ -170,6 +170,27 @@ description: "How to execute Frame and Shrimp to Guard in BJJ. Attacking perspec
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Shrimp to Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "SPECTRUM JIU JITSU | FUNDAMENTALS | FRAME AND HIP ESCAPE VS LEG DRAG + PULLING\u2026",
+      "description": "Frame and Shrimp to Guard (Attacker) film study: SPECTRUM JIU JITSU | FUNDAMENTALS | FRAME AND HIP ESCAPE VS LEG DRAG + PULLING\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0LzaRsziUW4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0LzaRsziUW4",
+      "url": "https://www.youtube.com/watch?v=0LzaRsziUW4",
+      "duration": "PT1330S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +207,24 @@ From a strategic perspective, Frame and Shrimp to Guard serves as your first lin
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Shrimp to Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0LzaRsziUW4)
+
+<p class="clip-credit"><strong>SPECTRUM JIU JITSU | FUNDAMENTALS | FRAME AND HIP ESCAPE VS LEG DRAG + PULLING…</strong> · 22:10 · <a href="https://www.youtube.com/watch?v=0LzaRsziUW4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -338,15 +377,6 @@ Frame and Shrimp to Guard is a relatively low-risk defensive technique, but prop
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Caio Terra: Guard Recovery</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related transition reference for guard-recovery study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Defensive Priorities Under IBJJF Rules</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related transition reference for defensive decision study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

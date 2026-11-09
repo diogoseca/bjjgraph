@@ -298,7 +298,7 @@ The Butterfly Sweep is a fundamental attacking technique from butterfly guard th
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 70% |
 | Failure | [[Positions/Butterfly Guard]] | 20% |
-| Counter | [[Positions/Butterfly Guard]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -313,7 +313,7 @@ The Butterfly Sweep is a fundamental attacking technique from butterfly guard th
 - **Opponent sprawls backward, removing weight from your hooks and sitting back on their heels** (Effectiveness: High) - Your Response: Follow opponent's backward movement by transitioning to Deep Half Guard or Single Leg X-Guard. Alternatively, stand up using Technical Standup and pursue takedown opportunities or re-engage guard. → Leads to [[Positions/Butterfly Guard]]
 - **Opponent crossfaces heavily, driving their forearm across your face to break your posture and control** (Effectiveness: Medium) - Your Response: Address the crossface by framing against it with your near arm while maintaining hooks. Transition to outside position by switching grips, or attack the exposed arm with Kimura or Guillotine entries. → Leads to [[Positions/Butterfly Guard]]
 - **Opponent widens their base by stepping one leg out wide, creating a tripod stance** (Effectiveness: Medium) - Your Response: Target the remaining near leg with both hooks, concentrating your elevation on one side. Alternatively, transition to Single Leg X-Guard by adjusting your hook position to control the extended leg. → Leads to [[Positions/Butterfly Guard]]
-- **Opponent stands up completely, removing all weight from hooks and attempting to disengage or pass standing** (Effectiveness: Medium) - Your Response: Maintain grip control and transition to standing guard options like De La Riva or Shin-to-Shin. Use your hooks to off-balance opponent as they stand, potentially setting up sacrifice throws or back take entries. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent stands up completely, removing all weight from hooks, and completes the pass to side control** (Effectiveness: Medium) - Your Response: Maintain grip control and transition to standing guard options like De La Riva or Shin-to-Shin. Use your hooks to off-balance opponent as they stand, potentially setting up sacrifice throws or back take entries. If the pass completes, you land underneath side control and your recovery starts there. → Leads to [[Positions/Side Control]]
 
 
 </section>
@@ -403,17 +403,6 @@ The butterfly sweep is generally safe when practiced with proper progression and
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Butterfly Sweep.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Teaching BJJ: Explanation, Recall and Application</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Butterfly Sweep.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Butterfly Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Butterfly Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

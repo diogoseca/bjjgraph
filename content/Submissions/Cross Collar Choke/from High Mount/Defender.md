@@ -10,8 +10,6 @@ description: "Defend the Cross Collar Choke from High Mount in BJJ. Recognition 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Cross Collar Choke from High Mount targets the Neck. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -162,6 +160,26 @@ description: "Defend the Cross Collar Choke from High Mount in BJJ. Recognition 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Cross Collar Choke Defense part 2: \u201cDown and Over\u201d from bottom Mount",
+      "description": "Cross Collar Choke from High Mount (Defender) film study: Cross Collar Choke Defense part 2: \u201cDown and Over\u201d from bottom Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iTr1-K7N9S4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iTr1-K7N9S4",
+      "url": "https://www.youtube.com/watch?v=iTr1-K7N9S4",
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Brazilian Jiu Jitsu Video: Escape the Cross Collar Choke from Mount with Mark\u2026",
+      "description": "Cross Collar Choke from High Mount (Defender) film study: Brazilian Jiu Jitsu Video: Escape the Cross Collar Choke from Mount with Mark\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YaDKRPbIzYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YaDKRPbIzYY",
+      "url": "https://www.youtube.com/watch?v=YaDKRPbIzYY",
+      "duration": "PT124S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Defend cross choke - armbar",
       "description": "Cross Collar Choke from High Mount (Defender) film study: Defend cross choke - armbar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/F1qoGHKy_uE/hqdefault.jpg",
@@ -193,6 +211,22 @@ Defending the Cross Collar Choke from High Mount requires early recognition, dis
 
 <p class="section-subtitle">Watch Cross Collar Choke from High Mount (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iTr1-K7N9S4)
+
+<p class="clip-credit"><strong>Cross Collar Choke Defense part 2: “Down and Over” from bottom Mount</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=iTr1-K7N9S4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YaDKRPbIzYY)
+
+<p class="clip-credit"><strong>Brazilian Jiu Jitsu Video: Escape the Cross Collar Choke from Mount with Mark…</strong> · 2:04 · <a href="https://www.youtube.com/watch?v=YaDKRPbIzYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -238,6 +272,8 @@ Defending the Cross Collar Choke from High Mount requires early recognition, dis
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Cross Collar Choke/from High Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

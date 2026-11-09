@@ -10,8 +10,6 @@ description: "How to defend against the kneebar from Single Leg X-Guard in BJJ. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Single Leg X-Guard targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -230,6 +228,8 @@ Defending the kneebar from Single Leg X-Guard requires the bottom player to reco
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kneebar/from Single Leg X-Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

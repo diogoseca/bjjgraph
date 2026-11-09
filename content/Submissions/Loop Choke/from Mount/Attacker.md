@@ -10,8 +10,6 @@ description: "How to execute Loop Choke from Mount in BJJ. Attacking perspective
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Loop Choke from Mount targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from carotid artery compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -260,6 +258,8 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Loop Choke/from Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

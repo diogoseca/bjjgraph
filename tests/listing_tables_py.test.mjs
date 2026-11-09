@@ -13,8 +13,9 @@ test(file, () => {
   assert.equal(result.status, 0, out);
   const ran = Number((out.match(/Ran (\d+) tests?/) || [])[1] || 0);
   assert.ok(ran > 0, file + ' ran no tests');
-  // N4 removes three reviewed listings; exact approvals are in _listing_table_expectations.py.
-  assert.match(out, /listing tables Python: 88 surviving reviewed, 2 added, 7 absent; gi=90, nogi=80/);
+  // N4 removes three reviewed listings, and K2 batch 2 adds 52 owner-approved tables (v1.250.2), 3 of them
+  // gi-only (H30, H51, H52), which is why no-gi rises by 49. Exact approvals are in _listing_table_expectations.py.
+  assert.match(out, /listing tables Python: 88 surviving reviewed, 54 added, 7 absent; gi=142, nogi=129/);
   if (process.env.CI) assert.doesNotMatch(out, /skipped=\d+/, file + ': a skipped case is a failure in CI\n' + out);
   console.log(`${file}: ${ran} Python cases`);
   console.log(out.match(/listing tables Python:[^\n]+/)[0]);

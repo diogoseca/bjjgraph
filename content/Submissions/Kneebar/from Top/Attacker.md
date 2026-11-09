@@ -10,8 +10,6 @@ description: "How to execute Kneebar from Top in BJJ. Attacking perspective with
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Top targets the Knee joint (tibial plateau, popliteal ligaments, meniscus). Risk: Knee hyperextension and ligament damage (ACL, PCL, MCL tears). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -279,6 +277,8 @@ The Kneebar from Top represents a high-percentage leg attack opportunity that ar
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kneebar/from Top#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

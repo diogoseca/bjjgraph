@@ -10,8 +10,6 @@ description: "How to execute the North-South Choke from Kesa Gatame. Step-by-ste
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from Kesa Gatame targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -178,6 +176,37 @@ description: "How to execute the North-South Choke from Kesa Gatame. Step-by-ste
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Choke from Kesa Gatame (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modified Scarf Hold North/South choke",
+      "description": "North-South Choke from Kesa Gatame (Attacker) film study: Modified Scarf Hold North/South choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LurZB_PfUmA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LurZB_PfUmA",
+      "url": "https://www.youtube.com/watch?v=LurZB_PfUmA",
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North South Choke \ud83e\udded\ud83e\udded\ud83e\udded",
+      "description": "North-South Choke from Kesa Gatame (Attacker) film study: North South Choke \ud83e\udded\ud83e\udded\ud83e\udded.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u0sMEQrZemE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u0sMEQrZemE",
+      "url": "https://www.youtube.com/watch?v=u0sMEQrZemE",
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +220,32 @@ Attacking the North-South Choke from Kesa Gatame requires mastering a smooth rot
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Choke from Kesa Gatame (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LurZB_PfUmA)
+
+<p class="clip-credit"><strong>Modified Scarf Hold North/South choke</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=LurZB_PfUmA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u0sMEQrZemE)
+
+<p class="clip-credit"><strong>North South Choke 🧭🧭🧭</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=u0sMEQrZemE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -225,6 +280,8 @@ Attacking the North-South Choke from Kesa Gatame requires mastering a smooth rot
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/North-South Choke/from Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

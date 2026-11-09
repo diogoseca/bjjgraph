@@ -20,6 +20,12 @@ import { journey } from "../dsl";
  *
  * Mutants: the old first-`.mt` target fails the click step (the list jumps up past the row);
  * dropping `_scrollFocusedDeck` from `sessionNav` fails the ↓ steps once a row leaves the fold.
+ *
+ * TWO SURFACES SINCE v1.248.0. Practice shows one card and hides every other row (`box.hidden`), so
+ * no Practice row can start below the fold. The owner's sentence still holds in both places: an
+ * inline session keeps its rows, and Practice's picker is the queue under the card, which sits far
+ * below the deck it opens. Mutant: dropping `_scrollFocusedDeck` from the queue button's onclick
+ * leaves the opened deck above the scroller and fails the second test's click step.
  */
 
 type Fit = {
@@ -55,6 +61,28 @@ const expectInView = (f: Fit, what: string) => {
   if (!f.tall) expect(f.deckBottom, what + ": the whole card, Reveal included, is above the scroller's bottom").toBeGreaterThanOrEqual(0);
 };
 
+// THE QUEUE'S ROWS ARE SEEDED AS REVIEW DEBT (v1.207.0). Until the full game, `openPlanSession
+// ("new")` dealt a guest the whole FLOW ranking ("Learn next" + "More, in order"), so a fresh
+// boot overflowed on its own. Since D2 (owner, 2026-09-30) a fresh plan deals only its budget.
+// So: one card due yesterday in each of 30 decks (ONE row per covering deck), the planner loaded
+// FIRST through the app's own seam so no deferred swap can rebuild the list mid-walk.
+const plantReviews = () => {
+  const a = (window as any).__neural;
+  const today = a._epochDay();
+  const decks = a.flashcards.decks;
+  let planted = 0;
+  for (const k of Object.keys(decks).sort()) {
+    const cards = a._cardsOf(decks[k]);
+    if (!cards || !cards.length || a._sharedDecksFor(cards[0].q, k)) continue;   // a shared card would be covered by ONE row
+    const i = a.nodeForKey(k);
+    if (i >= 0 && !a.rsAllowsIdx(i)) continue;
+    a.srs[k] = { [a.qhash(cards[0].q)]: [today - 1, 3, today - 4] };
+    a.prep[k] = 1;   // puts the deck in the "reviewing" bucket too
+    if (++planted >= 30) break;
+  }
+  return planted;
+};
+
 test("a session row opened below the fold, then walked with ↓ and ↑, keeps its deck fully visible", async ({
   page,
 }) => {
@@ -63,42 +91,20 @@ test("a session row opened below the fold, then walked with ↓ and ↑, keeps i
   await j.hydrateAll();
   await j.land("Mount Top");
 
-  // The plan queue, every row dealt (the "Show more" pages collapsed into one), so the list is
-  // certain to overflow its scroller. Row 0 opens on arrival — that is the hidden tick the old
-  // code later aimed at.
-  //
-  // THE QUEUE'S ROWS ARE SEEDED AS REVIEW DEBT (v1.207.0). Until the full game, `openPlanSession
-  // ("new")` dealt a guest the whole FLOW ranking ("Learn next" + "More, in order"), so a fresh
-  // boot overflowed on its own. Since D2 (owner, 2026-09-30) the rows past the session are LOCKED
-  // until it is finished, so a fresh plan deals only its budget — and the surface under test,
-  // `renderSession`'s inline rows + `_scrollFocusedDeck`, is the same whatever fills it. So: one
-  // card due yesterday in each of 30 decks (the maintenance section is ONE row per covering
-  // deck), the planner loaded FIRST through the app's own seam so no deferred swap can rebuild
-  // the list mid-walk, and the `due` door, which requests no study comparison (whose controls
-  // would otherwise mount above the rows while the test measures them).
+  // An inline session, so every row is dealt and the list is certain to overflow its scroller. Row
+  // 0 opens on arrival — that is the hidden tick the old code later aimed at. Practice no longer
+  // has this surface (see the header); `renderSession`'s inline rows + `_scrollFocusedDeck` are the
+  // same whatever fills them, and "reviewing" is a real door that requests no study comparison.
   expect(await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime()), "the planner loads").toBe(true);
+  expect(await page.evaluate(plantReviews), "30 decks carry one owed card").toBe(30);
   const setup = await page.evaluate(() => {
     const a = (window as any).__neural;
-    const today = a._epochDay();
-    const decks = a.flashcards.decks;
-    let planted = 0;
-    for (const k of Object.keys(decks).sort()) {
-      const cards = a._cardsOf(decks[k]);
-      if (!cards || !cards.length || a._sharedDecksFor(cards[0].q, k)) continue;   // a shared card would be covered by ONE row
-      const i = a.nodeForKey(k);
-      if (i >= 0 && !a.rsAllowsIdx(i)) continue;
-      a.srs[k] = { [a.qhash(cards[0].q)]: [today - 1, 3, today - 4] };
-      if (++planted >= 30) break;
-    }
-    a.openPlanSession("due");
+    a.openSession("reviewing", "Reviewing");
     const s = a._session;
-    if (!s) return { planted, rows: 0, keys: [] as string[], plan: false };
-    s.shown = s.keys.length;
-    a.renderSession();
-    return { planted, rows: s.keys.length, keys: s.keys as string[], plan: !!s.plan };
+    if (!s) return { rows: 0, keys: [] as string[], practice: true };
+    return { rows: s.keys.length, keys: s.keys as string[], practice: !!s.practice };
   });
-  expect(setup.planted, "30 decks carry one owed card").toBe(30);
-  expect(setup.plan, "the queue is the plan surface (bucket plan), not the pre-planner review list").toBe(true);
+  expect(setup.practice, "the inline surface, not Practice's one-card page").toBe(false);
   expect(setup.rows, "the queue has rows to walk").toBeGreaterThan(8);
   await page.waitForTimeout(400);
 
@@ -135,6 +141,68 @@ test("a session row opened below the fold, then walked with ↓ and ↑, keeps i
     await page.waitForTimeout(400);
     const f = await fit(page);
     expect(f.key, "↑ ×" + step + " reopens the row above").toBe(setup.keys[target!.idx + 3 - step]);
+    expectInView(f, "after ↑ ×" + step);
+  }
+});
+
+test("a Practice queue jump made far below the card, then walked with ↓ and ↑, keeps its deck fully visible", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.hydrateAll();
+  await j.land("Mount Top");
+  expect(await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime()), "the planner loads").toBe(true);
+  expect(await page.evaluate(plantReviews), "30 decks carry one owed card").toBe(30);
+  const setup = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    a.openPlanSession("due");
+    const s = a._session;
+    if (!s) return { rows: 0, keys: [] as string[], plan: false, practice: false };
+    return { rows: s.keys.length, keys: s.keys as string[], plan: !!s.plan, practice: !!s.practice };
+  });
+  expect(setup.practice, "Practice's one-card page").toBe(true);
+  expect(setup.plan, "the queue is the plan surface, not the pre-planner review list").toBe(true);
+  expect(setup.rows, "the queue has rows to walk").toBeGreaterThan(8);
+  await page.waitForTimeout(400);
+
+  // Scroll the LIST (as a finger would) down to the queue and open it, then to one of its buttons.
+  // That takes the open deck off the top, or this test would pass without the scroll it exists to pin.
+  const scrollListTo = async (sel: string) => {
+    await page.evaluate((target) => {
+      const list = (document.querySelector("[data-session]") as HTMLElement).parentElement as HTMLElement;
+      const b = (document.querySelector(target) as HTMLElement).getBoundingClientRect(), lr = list.getBoundingClientRect();
+      list.scrollTop += b.top - lr.top - lr.height * 0.6;
+    }, sel);
+    await page.waitForTimeout(100);
+  };
+  await j.readerLayoutSettled();   // opening the pane moves the reader; clickByMouse measures, then presses (§6.3)
+  await scrollListTo("[data-practice-details] > summary");
+  await j.clickByMouse("[data-practice-details] > summary", "open the session queue");
+  await page.waitForTimeout(200);
+  const idx = 5;
+  const jump = "[data-practice-queue] button:nth-child(" + (idx + 1) + ")";
+  await scrollListTo(jump);
+  const away = await fit(page);
+  expect(away.rowTop, "the open deck has left the top of the scroller").toBeLessThan(0);
+  await j.clickByMouse(jump, "a queue button far below the card");
+  await page.waitForTimeout(400);
+  const clicked = await fit(page);
+  expect(clicked.key, "the queue button opens its own deck").toBe(setup.keys[idx]);
+  expectInView(clicked, "after the jump");
+
+  for (let step = 1; step <= 3; step++) {
+    await page.keyboard.press("ArrowDown");
+    await page.waitForTimeout(400);
+    const f = await fit(page);
+    expect(f.key, "↓ ×" + step + " opens the next deck").toBe(setup.keys[idx + step]);
+    expectInView(f, "after ↓ ×" + step);
+  }
+  for (let step = 1; step <= 3; step++) {
+    await page.keyboard.press("ArrowUp");
+    await page.waitForTimeout(400);
+    const f = await fit(page);
+    expect(f.key, "↑ ×" + step + " reopens the deck before").toBe(setup.keys[idx + 3 - step]);
     expectInView(f, "after ↑ ×" + step);
   }
 });

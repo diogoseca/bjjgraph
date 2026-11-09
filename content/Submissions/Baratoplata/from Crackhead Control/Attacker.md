@@ -10,8 +10,6 @@ description: "A Baratoplata attempt from Crackhead Control requires a separate D
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Baratoplata from Crackhead Control targets the Shoulder joint. Risk: Shoulder joint injury from excessive pressure. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -172,6 +170,27 @@ description: "A Baratoplata attempt from Crackhead Control requires a separate D
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Baratoplata from Crackhead Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rafael \"Barata\" Freitas: learn the baratoplata",
+      "description": "Baratoplata from Crackhead Control (Attacker) film study: Rafael \"Barata\" Freitas: learn the baratoplata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vLjB3BJ9O5w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vLjB3BJ9O5w",
+      "url": "https://www.youtube.com/watch?v=vLjB3BJ9O5w",
+      "duration": "PT154S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +210,24 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Baratoplata from Crackhead Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vLjB3BJ9O5w)
+
+<p class="clip-credit"><strong>Rafael &#34;Barata&#34; Freitas: learn the baratoplata</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=vLjB3BJ9O5w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -224,6 +261,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Baratoplata/from Crackhead Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

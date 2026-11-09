@@ -10,8 +10,6 @@ description: "How to execute the kneebar from Single Leg X-Guard Top in BJJ. Cou
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Single Leg X-Guard targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear or rupture. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -296,6 +294,8 @@ Attacking the kneebar from Single Leg X-Guard Top requires a fundamental shift i
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kneebar/from Single Leg X-Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

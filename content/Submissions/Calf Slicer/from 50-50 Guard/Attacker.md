@@ -10,8 +10,6 @@ description: "Learn to attack the calf slicer from 50-50 Guard with step-by-step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from 50-50 Guard targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -281,6 +279,8 @@ Attacking the calf slicer from 50-50 Guard requires converting the existing leg 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Calf Slicer/from 50-50 Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

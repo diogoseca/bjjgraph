@@ -46,12 +46,12 @@ description: "Master the level change takedown in BJJ. Complete guide to penetra
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Sprawl against a Double Leg!",
-      "description": "Level Change Takedown film study: How to Sprawl against a Double Leg!.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Io79xaXZx_c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Io79xaXZx_c",
-      "url": "https://www.youtube.com/watch?v=Io79xaXZx_c",
-      "duration": "PT56S"
+      "name": "Developing your wrestling shot from scratch: The basics of the penetration step",
+      "description": "Level Change Takedown film study: Developing your wrestling shot from scratch: The basics of the penetration step.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/--QDcfjIEAc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/--QDcfjIEAc?start=50",
+      "url": "https://www.youtube.com/watch?v=--QDcfjIEAc",
+      "duration": "PT416S"
     }
   ]
 }
@@ -103,9 +103,9 @@ In competition, the level change takedown creates a direct path from neutral sta
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Io79xaXZx_c)
+![](https://www.youtube.com/watch?v=--QDcfjIEAc&start=50)
 
-<p class="clip-credit"><strong>How to Sprawl against a Double Leg!</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=Io79xaXZx_c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Developing your wrestling shot from scratch: The basics of the penetration step</strong> · 6:56 · <a href="https://www.youtube.com/watch?v=--QDcfjIEAc&t=50s" rel="noopener">Watch on YouTube from 0:50</a></p>
 
 </div>
 
@@ -121,7 +121,7 @@ In competition, the level change takedown creates a direct path from neutral sta
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 55% |
 | Failure | [[Positions/Standing Position]] | 30% |
-| Counter | [[Positions/Open Guard]] | 15% |
+| Counter | [[Positions/Guillotine Control]] | 15% |
 
 
 </section>
@@ -285,7 +285,7 @@ The level change takedown sits at the heart of the BJJ standing game, connecting
 
 - [[Positions/Side Control]] - Primary target position after successful takedown completion
 
-- [[Positions/Open Guard]] - Counter outcome when opponent pulls guard or establishes leg frames during shot entry
+- [[Positions/Guillotine Control]] - Counter outcome when a guillotine catches the shot: the shooter lands in Guillotine Control, bottom, and it costs them
 
 - [[Positions/Clinch]] - Alternative standing engagement that can set up level changes through collar ties and snapdowns
 

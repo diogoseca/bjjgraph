@@ -76,9 +76,6 @@ description: "Master the Achilles Lock leg submission in BJJ. Complete guide cov
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Achilles Lock targets the Achilles tendon and ankle joint. Primary risk: Achilles tendon rupture or tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Straight Ankle Lock|Straight Ankle Lock]]</strong> — the Straight Ankle Lock hyperextends the ankle joint rather than compressing the tendon</p>
 </aside>
@@ -143,9 +140,8 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -155,32 +151,9 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 | Plantar fascia strain | Low | 1-3 weeks with rest |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to full extension. Never spike or jerk the submission.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner or mat
-- Physical foot tap with free leg
-- Any unusual screaming or distress vocalization
-- Loss of resistance or going limp
 
 
-**Release Protocol**:
-1. Immediately release hip extension and return hips to mat
-2. Maintain leg control but remove all pressure from ankle
-3. Slowly open guard and release leg in controlled manner
-4. Check with partner verbally before resuming training
-5. Never release suddenly or drop the leg
-
-
-**Training Restrictions**:
-- Never apply at competition speed during training
-- Always communicate with training partner about pressure levels
-- Stop immediately at any sign of discomfort
-- Beginners should only practice setup and positioning without pressure
-- Never combine with twisting or rotational pressure
-- Avoid training this submission if partner has existing ankle or Achilles injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

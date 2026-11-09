@@ -82,9 +82,6 @@ description: "Master the toe hold from Estima Lock in BJJ. Expert guide covering
 <span class="meta-chip">26% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Estima Lock targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Estima Lock/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ This submission is particularly effective in no-gi grappling where the smooth su
 - Treat the Estima Lock and toe hold as a unified attack system where defending one submission exposes vulnerability to the other
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -239,6 +238,8 @@ This submission is particularly effective in no-gi grappling where the smooth su
 - Change in pressure vector from the Estima Lock's downward forearm compression to a rotational twisting force through your toes and ankle
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -277,9 +278,8 @@ This submission is particularly effective in no-gi grappling where the smooth su
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -290,33 +290,9 @@ This submission is particularly effective in no-gi grappling where the smooth su
 | Achilles tendon strain | Medium | 4-6 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. This is NOT a technique to 'snap on' in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly)
-- Physical hand tap on partner or mat (multiple taps)
-- Physical foot tap with free leg
-- Any verbal distress signal
-- Slapping the mat with hand
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure
-2. Release toe grip completely
-3. Release heel control
-4. Allow opponent's foot to return to neutral position naturally
-5. Do not let go abruptly - maintain light contact until opponent signals they are okay
-6. Check with training partner before continuing
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual
-- Never grip individual toes - always grip across multiple toes and ball of foot
-- Never combine with explosive hip extension
-- Always allow clear tap access for both hands
-- Stop immediately at any sign of discomfort
-- Never train this submission at competition speed
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

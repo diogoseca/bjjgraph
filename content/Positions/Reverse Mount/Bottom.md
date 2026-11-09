@@ -156,6 +156,27 @@ description: "Master defensive strategies from Reverse Mount Bottom. Learn syste
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Mount (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Escape from Reverse Mount",
+      "description": "Reverse Mount (Bottom) film study: How to Escape from Reverse Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j-9zCfMp4RY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j-9zCfMp4RY",
+      "url": "https://www.youtube.com/watch?v=j-9zCfMp4RY",
+      "duration": "PT197S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -173,6 +194,24 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Mount (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j-9zCfMp4RY)
+
+<p class="clip-credit"><strong>How to Escape from Reverse Mount</strong> · 3:17 · <a href="https://www.youtube.com/watch?v=j-9zCfMp4RY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

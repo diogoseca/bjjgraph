@@ -10,8 +10,6 @@ description: "Defend the Breadcutter Choke from Side Control. Recognition cues, 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Breadcutter Choke from Side Control targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -250,6 +248,8 @@ Defending the Breadcutter Choke from Side Control requires early recognition of 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Breadcutter Choke/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

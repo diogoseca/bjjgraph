@@ -132,9 +132,6 @@ description: "Master the Cross Collar Choke in BJJ. Complete guide covering gi g
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Cross Collar Choke targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Cross Choke</strong>, <strong>Juji Jime</strong>, <strong>X-Choke</strong></p>
 </aside>
@@ -257,9 +254,8 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -268,29 +264,9 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 | Neck strain or whiplash from explosive defensive reactions against the choke | Low | 3-7 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training. Blood chokes can cause unconsciousness rapidly once locked, so controlled progressive application is mandatory.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any distress signal including facial expressions or loss of resistance
 
 
-**Release Protocol**:
-1. Immediately release both collar grips upon any tap signal
-2. Open guard or disengage controlling position to give partner space
-3. Allow partner time to recover breathing and circulation before continuing
-4. Check partner's alertness and ensure full cognitive recovery before resuming training
-
-
-**Training Restrictions**:
-- Never apply full pressure during initial learning phases - use progressive resistance
-- Never hold the choke past the tap signal under any circumstances
-- Never use competition speed or intensity in basic drilling
-- Never practice on partners with neck or circulation issues without instructor supervision
-- Always ensure partner has clear access to tap with hands or feet
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

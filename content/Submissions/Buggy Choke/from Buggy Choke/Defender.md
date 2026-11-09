@@ -10,8 +10,6 @@ description: "Recognize Buggy Choke from Buggy Choke and interrupt its required 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Buggy Choke from Buggy Choke targets the Neck. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -136,6 +134,27 @@ description: "Recognize Buggy Choke from Buggy Choke and interrupt its required 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Buggy Choke from Buggy Choke (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Who\u0027s Next Ep. 5 | How To Defend the Buggy Choke, with Jansen Gomes",
+      "description": "Buggy Choke from Buggy Choke (Defender) film study: Who\u0027s Next Ep. 5 | How To Defend the Buggy Choke, with Jansen Gomes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Huv5wYwC3_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Huv5wYwC3_o?start=28",
+      "url": "https://www.youtube.com/watch?v=Huv5wYwC3_o",
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -151,6 +170,24 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Buggy Choke from Buggy Choke (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Huv5wYwC3_o&start=28)
+
+<p class="clip-credit"><strong>Who&#39;s Next Ep. 5 | How To Defend the Buggy Choke, with Jansen Gomes</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=Huv5wYwC3_o&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -182,6 +219,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Buggy Choke/from Buggy Choke#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

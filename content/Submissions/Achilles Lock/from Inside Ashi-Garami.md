@@ -46,6 +46,16 @@ description: "Master the Achilles Lock from Inside Ashi-Garami in BJJ. Blade pla
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Ankle Lock: Straight Ashi Garami",
+      "description": "Achilles Lock from Inside Ashi-Garami film study: Ankle Lock: Straight Ashi Garami.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MlQrVhlY_vg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MlQrVhlY_vg",
+      "url": "https://www.youtube.com/watch?v=MlQrVhlY_vg",
+      "duration": "PT142S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Finishing the Straight Ankle Lock (BJJ): Countering Defense to the Achilles\u2026",
       "description": "Achilles Lock from Inside Ashi-Garami film study: Finishing the Straight Ankle Lock (BJJ): Countering Defense to the Achilles\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9jaSEuYbq_4/hqdefault.jpg",
@@ -82,9 +92,6 @@ description: "Master the Achilles Lock from Inside Ashi-Garami in BJJ. Blade pla
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Achilles Lock from Inside Ashi-Garami targets the Achilles tendon and ankle joint. Primary risk: Achilles tendon rupture or partial tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="part-of-family"><em>Part of the</em> <strong>Achilles Lock</strong> <em>family</em></p>
 </aside>
@@ -114,6 +121,14 @@ The Achilles Lock is legal at every IBJJF belt level in both gi and no-gi, which
 
 <p class="section-subtitle">Watch Achilles Lock from Inside Ashi-Garami in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MlQrVhlY_vg)
+
+<p class="clip-credit"><strong>Ankle Lock: Straight Ashi Garami</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=MlQrVhlY_vg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -173,6 +188,8 @@ The Achilles Lock is legal at every IBJJF belt level in both gi and no-gi, which
 
 - Ramp slowly on every repetition; the tendon fails faster than a partner can tap
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,6 +259,8 @@ The Achilles Lock is legal at every IBJJF belt level in both gi and no-gi, which
 - Their shoulders begin travelling back over their hips — the extension is starting and the window is closing
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -306,9 +325,8 @@ The Achilles Lock is legal at every IBJJF belt level in both gi and no-gi, which
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -318,28 +336,9 @@ The Achilles Lock is legal at every IBJJF belt level in both gi and no-gi, which
 | Plantar fascia strain | Low | 1-3 weeks with rest |
 
 
-**Application Speed**: SLOW and progressive — a minimum of 3-5 seconds from first pressure to full extension. The Achilles tendon gives very little warning before it fails, so the tap window is short and the ramp must be long. Never spike, jerk, or arch explosively.
-
-**Tap Signals**:
-- Verbal tap — the word 'tap' or any distress vocalisation
-- Physical hand tap on the partner, the mat, or their own body
-- Foot tap with the free leg, which is often the only limb they can reach with
-- Sudden total loss of resistance or going limp, which must be treated as a tap
 
 
-**Release Protocol**:
-1. Release the hip extension FIRST — the compression comes off before the grip does
-2. Open the figure four or the grip and let the ankle return to neutral without pulling on it
-3. Open the knees and free the trapped leg completely before disengaging your own hips
-4. Check in verbally with your partner and watch them bear weight on the leg before the next round
-
-
-**Training Restrictions**:
-- Drill the blade placement and the finishing angle statically before any live application
-- No explosive or 'catch' applications in live rolling — the tendon fails faster than a partner can tap
-- Beginners should establish the position and stop there, applying the finish only under direct supervision
-- Do not combine the finish with a simultaneous sweep or scramble; a moving opponent cannot tap reliably
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

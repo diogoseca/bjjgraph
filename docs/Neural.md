@@ -77,15 +77,34 @@ the vignette. The complete linked article appears below the game controls.
 
 **Reading and minimizing.** Articles survive grading and card replacement, with native
 scrolling and 16px prose. The node's other half changes role; no role switch (D-318).
-Order (D-338): Videos, Moves, Questions (no headers), then the titled sections: Overview,
-principles, setup/recognition, options, safety, mistakes, the rest, Related; 6px gaps. Learning/System Sources stays
-last; missing groups are omitted. Hubs include the full Top/Attacker guide; role pages add only
-shared hub safety. Failed loads offer Retry.
+Order (D-338, U104): Moves, Questions, Videos (no headers), then the titled sections: How it works,
+principles, setup/recognition, options, safety, mistakes, the rest, Related (a submission's safety guide moves to
+just before Related, S1 a; its page keeps only the injury risks and a go-slow line, U112 a); 6px gaps. A position reads: Also known as, Often confused with, Position definition (a faint eyebrow), principles, Decisions, safety, mistakes, Statistics (both with a Beta pill), How it works, prerequisites, training, Related. Learning/System Sources stays last; missing groups are omitted. Hubs include the full Top/Attacker guide; role pages add only
+shared hub safety. **U100 a:** Transitions, Submissions, any width: a tile per Training phase. Failed loads offer Retry.
+
+**The desktop article: two columns.** Above 660px of grid, on
+every article, each open section in reading order goes to the column that is shorter now, and a draw goes left.
+`layoutNow` reads real heights and names the side (`data-right`); floats place it, so the DOM never moves: head tops down the page,
+Tab and the index are one order. With the index shown (from 1,350px free, U97 b) the grid is centred 12px clear of it, sharing both edges with
+the choices row; narrower it is centred, at most 902px. **U110 a:** under 1,024px free, all that
+stacks is one centred box, at most 496px. **U65 b: tiles end at their own
+content.** The only gap is below the shorter column at the article's end, where the map shows and the reader grid owns input. Closing a tile reflows only what follows it. **U90 a, U99 b:** on a
+desktop the map ends at half the window, or `NG_LIVE_ANSWER_ROOM` above its bottom if that is higher, never under
+144px; it reads the window alone, so nothing moves when a question opens. Half of all cards need a scroll for their last
+answer (his ruling). **U90 note:** the asking line's text starts on the "Your move" label's left edge. **U101 b, U103 a:** a position's How it works opens short, a hub on both text sections; Read more opens the rest in place, one way. Each tile's
+text is a centred 46ch column, except an article holding a wide table.
+The media slot is outside the prose measure. The reader ends above the conditional share cue in the corner;
+the account badge lives in the drawer. When the grid's width changes (Explore
+opening, a resize) and the article has scrolled above the reader's top, `layoutNow` keeps the text block nearest the
+reader's top, in either column, in place; at the arrival the stage holds still. A tile click does nothing; the node band, Moves and question
+keep their places; ≤640px keeps its stacked geometry. **U65 note:** game pages omit the duplicate Videos credits
+tile; the film remains in the stage above. Videos keeps its index entry and closed
+disclosure control; either brings the film into view and focuses its close button when reopened.
+Reference pages keep their Videos tile and player.
 
 One close icon (D-338): the card's and hand's ghost ✕, on every section's corner. A closed
-part leaves a light label (glyph above name, no box) that reopens it. Contents floats at the right-control inset, taking no layout
-space. It hides at width ≤640px, height ≤500px, or a gutter below 212px (below
-1152px). Its rows only navigate and dim what is closed; its heading reads role
+part leaves a light label (glyph above name, no box) that reopens it. Contents floats at the left, taking no layout
+space. It hides at height ≤500px or under 1,350px of free width (U97 b). Its rows only navigate and dim what is closed; its heading reads role
 first ("Escaping Loop Choke from Half Guard"); the Moves tray ends short of it. Arrival centres the
 node above sections; scrolled prose covers it.
 `readerSection.*` defaults shown, merges per key, and is edited in Settings → Rolling.
@@ -118,9 +137,7 @@ v1.211.0, §8 — never a Game Knowledge band), a stage-2+ card
 asks as timed recall Q/A in play; below blue, recognition-first MC holds. **That rank gate prices
 a question asked against a running CLOCK, and only those.** The paused node study card takes
 `askFormat` instead: recognition below stage 2, recall at or above it, whatever the belt. The black-belt badge
-still force-enables the toggle early. **The White Challenges cue card is retired** (owner) — the
-challenge engine and the pane's Challenges tab are untouched; `renderChallengeCue` survives as a
-remover. **Win chance explains itself** in the score tooltip (§4).
+still force-enables the toggle early. `renderChallengeCue` only removes a stale cue card. **Win chance explains itself** in the score tooltip (§4).
 
 **Technique navigation** keeps the chosen node's camera (`camFocus`), URL (`_syncUrl`),
 focus, flare and card; the roll's seat remains its origin position. `_stagedTech = {idx, side}`
@@ -129,7 +146,7 @@ an attacking technique through the ordinary pick path. Another commit or `clearO
 consumes the latch. Family hubs resolve to their most-connected member. Telemetry remains
 `roll_staged {technique}` and `staged_exchange {technique, side}`.
 
-**Every navigation starts a calm journey** (owner 2026-10-15, v1.227.0, superseding v1.134.0):
+**Every navigation starts a calm journey** (v1.227.0):
 URL/reload, Back/Forward, sidebar/Browse/search, article/perspective/list/shared links, orb
 clicks and manual restaging. Submission defenders receive their escape hand and generic card;
 transitions keep their staged landing. Answering or starting a dormant defense also stays calm.
@@ -146,8 +163,7 @@ Defender article, and hydrates its own deck. Hiding the question leaves catch an
 
 **Paging browses the current deck.** Horizontal swipes (40px / 700ms), accumulated trackpad
 `deltaX` (one page per gesture), outside chevrons and `←`/`→` call `_landPageTo(dir)`. Keys yield to pane History and
-drill arrows and refuse `_landHidden()`. The retired dots/reveal pager and undeployed
-`landAnswers` setting have no reader. Paging replaces only `[data-land-q]`, clamped at the ends.
+drill arrows and refuse `_landHidden()`. Paging replaces only `[data-land-q]`, clamped at the ends.
 The per-landing cache restores spent time and re-parents the same shuffle without another RNG draw; answered cards
 return graded and disabled. Cold distractors warm through `_landWarmP` (replace-not-clear).
 A capture-phase suppressor swallows synthesized clicks after movement >6px. Live defense
@@ -166,20 +182,17 @@ re-mounting an answered question would hand out a second attempt at credit alrea
 
 The current media card (`.ng-landfilm`) is the film's one host. It shares the game's scrollport and
 moves between game and article slots (see Reading delivery). Its ghost ✕ (`data-film-close`) hides
-while a clip expands. Its reel has no scrollbar, earned fades (`_syncEdgeFade`) and
+while a clip expands. With columns the question sits left, the film right (U104, U108 a). With no video it keeps one
+clip's size, no ✕, and asks for one through Feedback (`kind: "video"`, U109 b). Its reel has no scrollbar, earned fades (`_syncEdgeFade`) and
 `data-film-prev/next` chevrons toward hidden clips; each press glides one clip (`_filmPage`).
 **Technique films** come from their own `perspectives.{attacker,defender}.clips`; the node's fixed
 half selects them on reader/link arrivals and live catches. `renderLandCard` assigns `_landIdx`
 before selection. Missing or unauthored defender clips show no reel and never borrow another half's
 content. Position clips use the half-local array followed by explicitly tagged hub clips,
-deduplicated by video ID. At v1.227.0, 285/290 concrete submissions have defender clips. Gaps:
-Americana, Armbar and Kimura from Triangle Control; Achilles Lock from Inside Ashi-Garami; Suloev
-Stretch from Half Guard. All five have authored defender blocks; no clips were added.
-**Recognition comes first, everywhere** (v1.132.2, owner: "It should have shown me multiple
-choice … then I finally start to show actual Anki flashcards"): the emitter's `_hard_clip` bridge
+deduplicated by video ID.
+**Recognition comes first, everywhere** (v1.132.2): the emitter's `_hard_clip` bridge
 makes every display answer one-line-comparable (word-boundary ≤150 + ellipsis, full text in `d`),
-so every deck in the corpus builds a real MC — `validate:mc` 96.3% → **100.0% viable, worklist
-110 → 0**. The recall block survives only as a last-resort safety net (a deliberately-opened card
+so every deck in the corpus builds a real MC. The recall block survives only as a last-resort safety net (a deliberately-opened card
 is never chrome-only) with no live trigger in this corpus; authored `answer_line` (Phase B)
 remains the quality upgrade over truncation. The option-node label pass yields to the
 focused pair (`_lastOptLabels` publishes what it drew) — a staged technique is a dealt option AND
@@ -196,8 +209,8 @@ fills the last slot. Display order is still the `…-mc-shuffle` shuffle. Pinned
 
 ### Choosing a move and watching its video
 
-v1.231.0 (`feedback_owner_rules_reverse_shipped_contracts`): **Your move** replaces Inspect
-and its option sheet; the reversal history is in the archive. A title sits above the first clip
+v1.231.0: **Your move** replaces Inspect
+and its option sheet. A title sits above the first clip
 only if it has `front: true` in the move's own role. Otherwise the media region stays empty.
 Escape choices never borrow destination footage.
 
@@ -223,7 +236,7 @@ and stale states.
 
 After commit, the live hand is cleared and a non-actionable copy of the chosen card remains,
 exactly where the card was (the row's padding, i.e. the open pane, comes off its offset), escapes
-included (v1.218.1; they used to clear the hand and show nothing). Its face rises 1/12 of its
+included (v1.218.1). Its face rises 1/12 of its
 height and settles (`_placeOnTable`, 0.44 s, none under reduced motion); its holder never moves.
 The execution handoff retains the measured row position and game height through its result;
 the same dock supplies fixed-layout callers. Resizing or reading releases the reservation.
@@ -245,7 +258,7 @@ borrows the announcer. `tests/roll_execution.test.mjs` pins source behavior;
 `_landFilmEl` has a fixed title, role and **Win %** footer, no execute percentage, and one
 full clip plus a 10% peek. Curated order wins over duration. Multi-clip frames are about
 241px high at 400px wide and 220px at 358px; `currentFilmHeight()` measures the actual height.
-Desktop geometry is 400px media + 60px gap + 390px practice + 52px Next reserve = 902px.
+Beside the practice card it takes 1152px of free pane and no collapsed hint (`filmLayout`); below that it fills the reading column, 680px at most.
 At 390px, 358px media sits 12px above a 286px practice face (viewport minus 104px).
 The 44px deck arrows remain outside the face. Sections owns the slot; the media observer
 calls `reader.layout()` only after a measured height change and never resizes the host itself.
@@ -265,6 +278,15 @@ Collapse pauses and hides the section without destroying its host. Reopening nev
 Only closing a clip or changing node/role destroys it. `reading-media-placement.spec.ts` pins the
 shared ownership contract; `video-cards.spec.ts` pins the contents and real input.
 
+**The theater** (VIDEO1). Play on the current technique's card loads YouTube on that click and asks it
+to autoplay. `_openFilmTheater` portals only the player rectangle into a modal `<dialog>`; the card keeps
+its place. The rectangle zooms from there over 360ms, or appears at once under reduced motion, to 95% of
+the viewport's width, capped at 95% of its height, over a 60% black backdrop. Close, the dim and Escape
+destroy the player and return focus to Play; Escape inside the iframe stays the provider's. The modal
+and `_graphInputOn` keep input off the map, and reward notices wait for it (D-326). A blocked script
+shows the YouTube link and fires `video_load_failed`; a later Play retries. Only this card zooms: a
+reference clip plays in place, as above, and no video enters a question.
+
 ### The commit hands the camera to the roll (v1.135.1)
 
 `userActiveNow()` (4 game-seconds since `lastInteract`) is the ONE condition that suppresses the
@@ -278,12 +300,11 @@ regression remains covered by `roll-card.spec.ts`; the execution cases live in
 ### The panic drill is multiple choice (v1.135.0)
 
 The shared defending card uses `_mcBlock` on surface `"panic"` (`data-panic-mc-opt`, RNG tags
-`panic-mc-pick`/`panic-mc-shuffle`), preserving its knowledge/telemetry identity. The separate
-renderer and red skin are retired. Defense always uses MC despite the in-play recall preference.
+`panic-mc-pick`/`panic-mc-shuffle`), preserving its knowledge/telemetry identity. Defense always uses MC despite the in-play recall preference.
 Correct answers pump escape odds and deal the next card; wrong answers reveal without a boost
 and break momentum. Expiry reveals a miss. Reveal/Got-it is the cold-pool fallback, with one
 warm-upgrade attempt per deck. Seeing the answer permanently prevents that upgrade, even
-after Space hides it or paging brings it back. The "+7 Tilt toward winning" legend retired; the meter is 165×7px.
+after Space hides it or paging brings it back. The meter is 165×7px.
 
 **Danger animation**, beside Answer time in Rolling, uses permanent boolean `dangerAnimation`
 (default `true`). Off removes pulsing edges and card warnings, retaining static catch status,
@@ -335,13 +356,14 @@ player is already reaching into.
 Choice cards show a direct title, approved video, immediate chance and Win chance; the shortcut
 sits inside the same category shape used on the map. A threat card's colour is your win chance.
 
-U47 d + U52 b (v1.236.0, owner 2026-10-27/28; supersedes U34 a's in-card **Reveal / Answer for a
-boost**): a landing, attempt or catch arrives **asking** — no card at all, only its question as a
+U47 d + U52 b (v1.236.0): a landing, attempt or catch arrives **asking** — no card at all, only its question as a
 quiet line **immediately after the Your move row** (`_landAsk`, `[data-land-ask]`; on a stacked
 phone stage the Videos card now follows the question), with **Answer for Points** inline at its
-end. No container, fill or border; a soft text shadow keeps it legible over the map. A phone trims
-the question with an ellipsis (`_fitAskLine`, never the link) so the line is at most two lines; a
-390×631 phone shows both at arrival. The card's answers are built but inert, so no key, click or
+end. No container, fill or border; a soft text shadow keeps it legible over the map. `_fitAskLine`
+trims the question with an ellipsis, never the link, to one line (two on a tall phone), so a 390×631
+phone shows both at arrival. Its text sits one `--section-gap` under the cards at every width; with
+1024px of free pane it is a hint inside the choices row's bottom band and takes no row of its own,
+the panic drill included. The card's answers are built but inert, so no key, click or
 paging gesture acts on them, letters a/b/c included, and no clock runs. The ✕ stays: it is the
 Questions layer's handle. Answer for Points (Tab + Enter too), or a tap on the question, calls
 `_landReveal`: the card opens in place as today's card (multiple choice, or the recall flashcard)
@@ -369,9 +391,7 @@ Watch control or next-video step. Video belongs to the video card or Videos sect
 catch covers only its question; native Moves remain separate and untimed. U37: there is no
 next-step overlay inside a video player.
 
-The clock times the QUESTION, never the hand (v1.133.0, owner: "pressure should not be on the
-choices … the choices are fun to click"). `decisionSec` (the "Answer time" slider, 5–15s, flat —
-the v1.123.0 Hick's-law knee died with the hand clock) arms when the player presses **Answer for Points**
+The clock times the QUESTION, never the hand (v1.133.0). `decisionSec` (the "Answer time" slider, 5–15s, flat) arms when the player presses **Answer for Points**
 (`_armLandClock`) — or, for a card that arrives already shown (after one take-up in this tab, U52 b), on arrival
 once the player has engaged; with the pane open (study) it does not run (`_clockGate`: `!deckShown`) — and drains a 3px bar on the card's top edge (neutral, red at ≤3s, "Answer
 3…2…1" in the announcer). Expiry (`_expireLandQ`) reveals the answer as a MISS — correct option
@@ -381,9 +401,9 @@ live: the player still picks, untimed. Committing past an open question is a FRE
 anything that puts the question away — the ✕, a background tap, the pane or the video viewer — all
 DECLINE it (`land_q_declined`, mapped to the same funnel side-mark; momentum untouched). The
 penalty exists only for letting it expire while it faces you. **The question clock never
-pauses** (v1.134.0, owner: "that's our test to the user") — it drains on the real game frame,
+pauses** (v1.134.0) — it drains on the real game frame,
 staged boards and internal pauses included — **but it never STARTS before the player does**
-(v1.137.0, owner: "a first-time Guest can land on TOO SLOW · −4% before ever interacting"): no
+(v1.137.0): no
 window arms until the player presses Answer for Points (or taps the question; a card shown on arrival
 after an opt-in needs only engagement) and the card is visible; engagement alone (click, keypress or graph hover) cannot take the question up. An early arm parks in
 `_cwArm` (a FLAG — the bar element resolves at arm time, because the card can re-render
@@ -401,7 +421,7 @@ exploratory red lets go), the green never moves, and none of it emits a beat or 
 ledger (`explore` in `_mcBlock`). A landing that asks nothing has no clock at all. The option cards' bottom bars are static — nothing on the hand drains. Deck warm-up takes the hand's first `NG_PREFETCH_CAP` cards
 
 The tray scrolls by wheel (larger of `deltaX`/`deltaY`) and by mouse drag (mouse only — touch is
-the platform's job); the "see more" hint that also scrolled it was deleted in v1.173.0. A drag
+the platform's job). A drag
 that moved more than a few pixels suppresses the click, or every drag ending over a card would
 commit that move. One rAF owns `scrollLeft`: `_trayStop()` is called by a new grab, by `tweenScroll`
 and by `clearOptions`.
@@ -421,8 +441,7 @@ you move again. A miss that moves you costs a ply and hands over the turn; a mis
 in place costs nothing. `opponentDefend` always ends by handing the board back, so the opponent
 never keeps initiative.
 
-**Hesitating costs nothing but the question.** The v1.129.0 hand-over on expiry (`hesitated`)
-was retired in v1.133.0 with the hand clock: expiry is a missed answer, never a lost turn.
+**Hesitating costs nothing but the question.** Expiry is a missed answer, never a lost turn.
 
 ### The announcer
 
@@ -435,8 +454,7 @@ it, "−4% move" (`_cardHit`, hooked in
 never take one). The cause is named once, rising from the measured "Your options" label ("too
 slow", "missed", "that one hurts", "correct"; a broken streak stacks "×N momentum lost"), with one
 polite aria-live sentence. Wall-clock CSS, `pointer-events:none`, z 16; reduced motion keeps the
-flash and the number change only. That retired v1.138.0's expiry lease (`_evExpiry`): nothing
-outcome-shaped is left to pin. And **one subject per label**: the announcer names
+flash and the number change only. **One subject per label**: the announcer names
 **who is initiating** ("You go for" /
 "Opponent goes for"), and the graph verb names **your posture** toward that move. They can never
 contradict because they answer different questions. Whoever writes the slot owns its lifetime —
@@ -468,7 +486,7 @@ value through ONE module (`knowledge-profile.src.js`), so a correct answer moves
   (`{text, stale, handId}`), published after the existing all-values gate. No second solve or
   formatter supplies the footer. Between decisions the shared view names its stale state.
 - **"—"** keeps the move playable: pending, failed, or over admission (40k states, 400k branches,
-  10 s build, 15 s solve). Values follow the first hand (5.6 s, measured desktop).
+  10 s build, 15 s solve). Values follow the first hand.
 
 EDGE (`cal.ev`) is no longer printed: it is the dealt order, FLOW's feature and the opponent's
 tie-break. The wire
@@ -654,8 +672,31 @@ drawn inside a node at any zoom; zoom changes how many nodes you can see, never 
 
 ## 7. The pane
 
-One pane, anchored left, 360px, opened by the logo. Three tabs: **Explore · Challenges · Last
-rolls**.
+One pane, anchored left, 360px: **the drawer** (v1.242.0, owner A5 / E1 / T-b), opened by one
+drawer icon with no label (an amber dot while reviews are owed). It is ONE list, in the owner's
+order: Search, **Explore** (an expandable list: Positions, Transitions, Submissions, Systems,
+Principles, Learning — the category folds below), **Practice**, then **Path** (U60 b: no Train
+header), **Your lists**, **Last rolls**, and the **badge** at the foot, which shows today ("Today: 12
+of 20 cards · 2 rolls"; the day's rolls persist as `rollDays`) before it is opened and opens a short menu (Settings, including Notifications,
+Feedback, sign in/out; Terms · Privacy · GitHub small). Practice opens the mixed
+session (§8), Path the Challenges corridor and Last rolls the roll history; the brand ("‹ Path")
+leads back. The view ids stay `explore` · `challenges` · `history`. A lit page fades the rest of the
+map to 20%, easing on the wall clock. The icon stays reachable during a catch (U16 b, U66 a);
+opening the drawer pauses the roll through the same pane law.
+
+Desktop opening and the search shortcut focus Search before the next key. Cold index arrivals
+preserve Practice/Path focus; closing returns focus to the opener (`challenges-ui.spec.ts`).
+
+Path emits `challenges_opened` and `neural_challenges_viewed` once per open drawer, on its first
+visible visit. The list, saved preference and hidden ruleset renders neither emit nor consume that visit.
+Revisiting within the same open drawer stays silent; closing permits the next deliberate visit
+(`path-visit-telemetry.spec.ts`, fresh and saved preferences).
+
+U61 c leaves About out. U67 a provides one **Feedback** form: one text box, optional
+**Technique request**, and checked **about: <current page>** context. General feedback emits
+`neural_issue_reported`; requests emit `neural_technique_requested`. Both retain `text` (≤500),
+`node` (null when unchecked), `signed_in`, `app_version` and the existing `track()` variant.
+Empty Send leaves the form open and captures nothing (`feedback-modal.spec.ts`).
 
 The card, videos, article and camera shift beside the pane with the choices. The article fits
 the free width; game-control overlap paints beneath the pane. Phones retain the overlay drawer, and short landscape
@@ -665,6 +706,8 @@ retains its two columns. Closing restores the layout without resetting the card 
 game stops. Close = the game resumes, but only if the pane is what stopped it** — one latch
 (`_paneAutoPaused`) for the whole pane, taken in `applyDeckVisibility` rather than `setDeckOpen`,
 because several study entry points assign `deckOpen` directly. A hand-paused roll stays paused.
+Closing Settings through its backdrop keeps the pause while the drawer is open, including during a catch.
+The catch-time drawer icon also owns its wheel input, so scrolling over it cannot zoom the map.
 
 Every pauser owns its own latch — `_paneAutoPaused`, `_replayAutoPaused`,
 `_dossierAutoPaused` — so releasing gives back only the pause you took, transferring it to any
@@ -674,32 +717,22 @@ On a phone the pane is an 88vw drawer and **is** the screen, so closing it is ho
 graph: a list focus survives a mobile close, and closing it during a replay hands the clock to the
 film rather than resuming.
 
-**The tab bar is a pager** (v1.147.0). A horizontal touch drag anywhere in the pane, or a
-trackpad's horizontal wheel, walks the three tabs; the CONTENT FOLLOWS THE FINGER, so dragging
-leftward pulls the tab on the right into view — `_landPageTo`'s convention, and every native
-pager's. It clamps at both ends rather than wrapping, refuses a vertical-dominant drag (that axis
-belongs to the pane's own scroller) and refuses one begun inside a horizontal scroller such as a
-dossier's film strip. A study surface keeps the gesture for its own cards. No platform exposes a
-swipe-direction preference to a web app; the one device signal that exists is writing direction,
-so an RTL layout flips the mapping (`_paneGestureDir`). A swipe is never a tap: a capture-phase
+**A left swipe closes the drawer** (v1.242.0). The tab pager (v1.147.0, v1.151.1) went with the
+tabs; a horizontal-dominant touch drag toward the left edge closes the drawer instead, a vertical drag
+belongs to the scroller, a drag begun inside a horizontal scroller is that scroller's, and a second
+finger makes it a pinch. A study surface keeps the gesture: the full-screen deck pages its cards with
+it, and an inline deck, a Practice session or a cold study ignores it, so a swipe never closes the
+drawer on a session it would throw away (`_paneStudyActive`). A swipe is never a tap: a capture-phase
 suppressor eats the click the browser synthesises at the end of one.
 
-**One gesture is one tab** (v1.151.1). The wheel path ends its gesture on the STREAM going idle
-(a 300ms gap), not on a timer: a trackpad's inertia keeps deltas arriving for about a second after
-the fingers lift, and v1.147.0's cooldown merely rate-limited that tail, so one flick off the
-rightmost tab paged twice and landed two tabs away — "passing through the middle tab but never
-landing on it". The clamp was never involved. The touch path was always one step, because a drag
-has an explicit end.
-
-**Explore** — sections start collapsed and persist their folds. Search ranks results before sections;
-filter to `rep` to avoid duplicates. Lists sit first and use the
-shared three-rung indent. Your lists folds like the other six (v1.196.1, key `Your lists` in
-`exploreOpenSections`; an absent key is closed, so existing users need no migration). The one
-difference is `_revealLists`: making, adding to or restoring a list, or a saved class lit by a
-share arrival or the cue, opens the section for the session without writing the map — the older
-rule that you SEE a technique land after adding it. Systems have counted topic branches and indented leaves, like position
-families. Topic folds start collapsed, stay independent, and survive detail/back navigation and
-section folds for the session.
+**Explore** starts open; its six category sections start collapsed. Every fold persists in
+`exploreOpenSections`, including `Your lists` (absent means closed). Search precedes sections and
+filters to `rep`. Your lists follows Path with the shared three-rung indent. Opening the drawer
+requests Systems and Concepts indexes, deferred until Explore. `_revealLists` opens Your lists
+for the session, without persisting its fold, when making, adding, restoring or lighting a shared
+class through arrival or its cue. Systems have counted topic branches and indented leaves.
+Topic folds start collapsed, remain independent, and survive detail/back and section folds for
+the session.
 
 **A page-shaped entry (Principle · Learning · System) opens as a READ.** The deferred index
 (`concepts.json`, `systems-index.json`) carries the card and the ids it lights; the body rides the
@@ -726,41 +759,36 @@ route, dossier key and analytics identity remain unchanged. Self-assessment does
 Arriving on `/Principles/<slug>` (or `/Learning/`, `/Systems/`) opens that entry and lights its
 techniques, and starts **nothing** — no seat, no hand, no roll (`_refPage`, set from the path in
 `_seedPageFromUrl`). A roll begins only when the player clicks a position, transition or
-submission. v1.155.3 seated the board on a member instead; that seat was itself a roll nobody
-asked for, and the owner's reference law replaced it. A bare CATEGORY HUB — `/Positions`,
+submission. A bare CATEGORY HUB — `/Positions`,
 `/Transitions`, `/Submissions`, `/Systems`, `/Principles`, `/Learning` — is the same law one level
 up (v1.169.0): the arrival opens the pane on Explore with that ONE section expanded, written
 through the same persisted `exploreOpenSections` map a header click uses (neighbours keep their
 folds), and starts nothing. The deferred sections render expanded when their payload lands,
 because the map is written before their first render asks.
 
-**Challenges** — the belt corridor. Five content tracks, all open from day one; track colours
-describe material difficulty, never rank or access. The frontier belt (first belt with lessons
-left) drives navigation — the open section, the arrival scroll, the cue; the tab belt is the belt
-you **wear** (§8), never the frontier, which painted a finished player white. Nothing re-locks.
+**Path and Practice belt sections** (v1.248.0, owner U76/U87). The existing kept belt and
+its grandfathered entitlement determine which sections open. Current and earned earlier belts
+are clickable; future sections are inert. In Practice, earlier belts sit behind “Show earlier
+belts” at the end. Saved folds and selection cannot grant access. The worn belt drives default
+opening and Path arrival; lesson progress still drives the next-lesson highlight. All material
+remains available through reference, lists and gameplay, and all due reviews remain eligible.
+Path keeps its original corridor temporarily as the owner's UI reference (U86).
 
-**Every inline deck answers the same four keys** (v1.175.0). The roll history's rows, the session
-queue and the corridor's lesson decks all register the same `_miniReg` handles, so `←/→` page
-cards, `↑/↓` walk techniques (in the corridor: the ladder's lesson rows, in ladder order, skipping
-folded belts), `Space` flips and `⏎` grades *Got it* and walks on. The corridor was
-the one surface with none of it: `openMini` never claimed `_focusRow`, so there was nothing for the
-keys to resolve — and because the ladder is built entirely out of buttons, `Space` after a click on
-▸ went to the ▸ and shut the deck. **Opening an inline lesson deck therefore moves focus onto the
-deck BOX** (`tabindex="-1"`), which owns neither activation key, leaving Tab-then-Space on a lesson
-row exactly as it was. A corridor repaint — any evidence beat, and a grade fires one — rebuilds the
-registry with the rows it indexes and re-opens the deck that was open, on the card it was on;
-`_miniDeck` grades AFTER walking the deck on, so the rebuild paints the card the player is owed
-rather than a dead one.
+**Inline deck keys.** History, session queues and corridor lessons share `_miniReg`: `←/→`
+pages, `↑/↓` walks techniques (corridor lesson order, skipping folded belts), `Space` flips,
+and `⏎` grades *Got it* and advances. Opening a lesson focuses its deck box (`tabindex="-1"`),
+which owns neither activation key; Tab-then-Space on a lesson row still works. Evidence repaints
+rebuild the registry and reopen the same deck/card. `_miniDeck` advances before grading, so a
+grade-triggered repaint shows the next card.
 
-**Every ▶ asks, and the seat is the player's** (v1.197.0, owner: "it says we start on top, but what
-if i wanted to start on bottom?"). `confirmPlayFrom` — behind an Explore or list row's ▶, the option
+**Every ▶ asks, and the seat is the player's** (v1.197.0). `confirmPlayFrom` — behind an Explore or list row's ▶, the option
 sheet's "Play from here" and a Last-rolls ▶ — offers both seats with the derived one preselected,
 so an untouched Start plays what it always did: Attacker / Defender for a technique (Defender is the
 other side of the same origin position, and the sheet says so), Top / Bottom for a position. The
 title names only the place ("Roll from Half Guard?"); the seat is the "Play as" control plus the
 body's side word. Start passes an explicit role and `_seatMember` seats you on the orb that plays
 it, so the URL (`…/Bottom`) re-seats you on reload. Esc closes the sheet alone, and keys pressed
-inside it stay there (⏎ used to reach the option sheet below and commit its move). A graph tap
+inside it stay there. A graph tap
 needs no sheet: the pair's two orbs are the seat choice.
 
 **Last rolls** — roll history with inline decks, plus per-row ▶ (stage a roll from that state, on
@@ -778,7 +806,9 @@ files nothing. The archive records the earlier missing-history and stale-tab def
 
 **A replay is a film of a roll you already rolled.** It credits nothing — `_replayBeat()` pushes to
 the beat stream and stops, deliberately not through `fx()`, which is the challenge-evidence seam.
-Any real input ends it. It holds the clock on its own latch and never touches the pane.
+Graph input ends it, except the tap that closes the phone drawer so the film can be seen.
+If that same closing gesture becomes a pan or pinch, it ends the film. A replay holds the clock
+on its own latch and never touches the pane.
 
 ---
 
@@ -802,23 +832,33 @@ those visits mirrored to the defending seat — each summing to 1; the score is 
 tuning knob: attempt probabilities sum to 100 on **272 of 272** role-nodes, so `sum(pi)` and
 `sum(visits)` are both exactly 1 — three readings of one unit step.
 
-Until v1.145.13 only the attacking third was weighted: 1,326 Defender and 272 position decks —
-**9,071 cards, 41.4%** — scored zero. **Studying a position now counts, and counts heavily**: 272 decks share a third of the mass, so one is worth
-~4.7× an average technique deck and 14 of the 20 heaviest decks are positions (`Side
-Control|Top` leads).
+Positions share one third of score mass, like attacking and defending technique knowledge.
 
 **Nothing about the score decays.** `deckMastery` moves only on answers — the score cannot drop
 because time passed (a failed card can lower it; it can never lower a belt, below). Retention-vs-pressure gets decided in `_schedule` (SRS intervals: *what you
 are shown*), never in what a deck is *worth*.
 
-**Wire.** `curriculum.scoreWeightsByOrd` is `{div, p:{o,r,gi,nogi}, t:{o,gi,nogi}}` — each seat
-once by node **ordinal** (v1.204.3), one int array **per ruleset**, each `t` entry carrying **both
-seats**. `ngWireScoreWeights` (`wire-keys.src.js`) is the one expander; the emitter
-round-trips it per frame and refuses if the mirror stops holding. Per ruleset (v1.146.0): 52
-techniques are attemptable only in gi — the default — and 16 only in no-gi, so a folded no-gi solve
-scored them 0 in both seats (**104 decks, 739 cards**). `o` is the union, a **zero means "not
-attemptable here"**, and `frame` is REQUIRED — a default is how that survived 77 versions. `gameScore` memoises on `(_stageVer, frame)` and the expander per frame, or the first read
-pins one ruleset for the session. Gated by `validate:score-coverage -- --gate`; coverage is now **99.66%**.
+**Practice is one mixed session** (v1.248.0, owner U56 e). Its active flashcard comes first,
+with due reviews ahead of new work and the belt corridor below. The planner (`gameplan.src.js`)
+interleaves new decks from the current belt after every few reviews, using the existing weak-spots
+or study-comparison order. All due reviews remain eligible, including higher-belt material.
+The default goal is 20 (`dailyGoal` overrides, read through `practiceGoal()`); it counts distinct
+graded questions, including mistakes, once per day. Reveal earns nothing. Automatic new allocation
+uses `ngPracticeRoom`: new cards stay at least a fifth of the goal; reviews are never capped. Explicit “Keep practising” appends more eligible work to the same session,
+including after the goal and while reviews remain. Shared questions reserve one obligation.
+
+The compact head shows the worn belt, stripes, format and daily progress. “Practice details &
+session queue” retains reviewed counts, blocked debt, day notices, reasons, comparison controls
+and loading/retry states. Planner arrival appends even after a reveal or grade; it never replaces
+an engaged card or an in-flight press. The drawer asks for the planner on opening. Comparison
+remains deliberate through Open study plan or Refresh plan. Back restores the originating view;
+Close/Esc retain the shared pane's pause ownership. Account controls remain in the drawer.
+
+**Wire.** `curriculum.scoreWeightsByOrd` is `{div, p:{o,r,gi,nogi}, t:{o,gi,nogi}}`: each seat
+once by node ordinal, per ruleset, with both technique seats in each `t` entry. `ngWireScoreWeights`
+(`wire-keys.src.js`) expands it; the emitter round-trips every frame and refuses a broken mirror.
+`o` is the union; zero means "not attemptable here". `frame` is required. `gameScore` memoises on
+`(_stageVer, frame)` and expansion is cached per frame. Gate: `validate:score-coverage -- --gate`.
 
 **Game Knowledge is a percentage and decides no belt** (v1.211.0, owner). Its bands (white .20 ·
 blue .40 · purple .60 · brown .70 · black .80; MC caps a card at 2/3, so recognition tops out at

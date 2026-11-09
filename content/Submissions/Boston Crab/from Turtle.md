@@ -61,9 +61,6 @@ description: "Master Boston Crab submission in BJJ. Complete guide covering setu
 <span class="meta-chip">42% success</span>
 </div>
 
-> [!danger] Safety
-> Boston Crab from Turtle targets the Lumbar spine and hip flexors. Primary risk: Lumbar spine strain or disc herniation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Boston Crab/from Turtle/Attacker|Play as Attacker]]
@@ -129,6 +126,8 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 - Training partner communication is essential due to spinal involvement
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -201,6 +200,8 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 - You feel your hips being elevated off the mat as the attacker sits backward, creating increasing tension in your lower back
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -275,9 +276,8 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -287,32 +287,9 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 | Knee ligament stress from leg control | Medium | 3-6 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression to finishing position
-
-**Tap Signals**:
-- Verbal tap (critical as hands may be trapped)
-- Repeated hand tap on mat or opponent
-- Foot tap on mat
-- Any vocal distress signal
-- Frantic movement or panic signals
 
 
-**Release Protocol**:
-1. Immediately release leg grips and sit forward
-2. Lower opponent's hips gently back to mat
-3. Allow opponent to flatten out completely before moving
-4. Check opponent's condition and allow recovery time
-5. Never release explosively or drop opponent
-
-
-**Training Restrictions**:
-- Never apply sudden or explosive pressure to the spine
-- Never use competition speed in training
-- Never bridge higher once opponent shows discomfort
-- Always ensure training partner can verbally tap
-- Prohibited in many IBJJF competitions - verify rule compliance
-- Never apply to training partners with known back issues
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

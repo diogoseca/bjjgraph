@@ -176,6 +176,27 @@ description: "Master the attacker perspective for stack defense from omoplata. L
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Defense from Omoplata (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending The Omoplata Stack - Backwards Roll Sweep - Omoplata (week 2)",
+      "description": "Stack Defense from Omoplata (Attacker) film study: Defending The Omoplata Stack - Backwards Roll Sweep - Omoplata (week 2).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FtRBzcl9UMA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FtRBzcl9UMA?start=65",
+      "url": "https://www.youtube.com/watch?v=FtRBzcl9UMA",
+      "duration": "PT355S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the attacker executing the stack defense, you are the practitioner who has es
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Defense from Omoplata (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FtRBzcl9UMA&start=65)
+
+<p class="clip-credit"><strong>Defending The Omoplata Stack - Backwards Roll Sweep - Omoplata (week 2)</strong> · 5:55 · <a href="https://www.youtube.com/watch?v=FtRBzcl9UMA&t=65s" rel="noopener">Watch on YouTube from 1:05</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

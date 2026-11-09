@@ -31,7 +31,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -166,7 +166,7 @@
         "counter": "Opponent turns into you during the leg slide attempting hitchhiker escape",
         "effectiveness": "Medium",
         "your_response": "Maintain arm control and use their turning momentum to take the back with a harness grip, or tighten the leg across their face and continue to armbar control. If they complete the turn, transition to triangle or back control.",
-        "targets_outcome": "Closed Guard/Top"
+        "targets_outcome": "Closed Guard/Bottom"
       },
       {
         "counter": "Opponent stacks forward and drives into you during the transition",
@@ -431,7 +431,7 @@
       {
         "action": "Control the leg crossing your face and execute hitchhiker escape",
         "when_to_use": "When the attacker's leg is crossing your face but they have not yet achieved tight hip-to-shoulder connection - grab their leg with your free hand and begin rotating",
-        "targets_outcome": "Closed Guard/Top",
+        "targets_outcome": "Closed Guard/Bottom",
         "if_successful": "You extract your arm by rotating it thumb-first while turning your body away from the attack, recovering to a neutral position or establishing closed guard on top.",
         "risk": "If the attacker maintains wrist control during your rotation, the escape stalls and you remain in armbar control with depleted energy."
       },
@@ -449,8 +449,8 @@
         "how": "Prevent the armbar transition entirely by retracting your elbow early and turning into the attacker during their pivot phase. Keep elbows tight to your body, deny arm isolation, and bridge toward their head to disrupt the rotation. If successful, you remain in bottom mount where you can then work standard mount escapes."
       },
       {
-        "outcome": "Closed Guard/Top",
-        "how": "Execute the hitchhiker escape during the transition by controlling the attacker's leg across your face, rotating your trapped arm thumb-first, and turning your body away from the attack. As you extract your arm, follow through by establishing closed guard. This is the best-case scenario when the transition has progressed past the initial pivot."
+        "outcome": "Closed Guard/Bottom",
+        "how": "Execute the hitchhiker escape during the transition by controlling the attacker's leg across your face, rotating your trapped arm thumb-first, and turning your body away from the attack. As you extract your arm, follow through by coming up on top inside the attacker's closed guard. This is the best-case scenario when the transition has progressed past the initial pivot."
       }
     ],
     "common_errors": [

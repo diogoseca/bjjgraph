@@ -10,8 +10,6 @@ description: "Defend the Outside Heel Hook from Backside 50-50 in BJJ. Complete 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Outside Heel Hook from Backside 50-50 targets the Knee and ankle joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -152,6 +150,27 @@ description: "Defend the Outside Heel Hook from Backside 50-50 in BJJ. Complete 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook from Backside 50-50 (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To: Defend an outside heel hook",
+      "description": "Outside Heel Hook from Backside 50-50 (Defender) film study: How To: Defend an outside heel hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CN_k8AXvOyk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CN_k8AXvOyk",
+      "url": "https://www.youtube.com/watch?v=CN_k8AXvOyk",
+      "duration": "PT202S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +184,24 @@ Defending the Outside Heel Hook from Backside 50-50 is one of the most challengi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook from Backside 50-50 (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CN_k8AXvOyk)
+
+<p class="clip-credit"><strong>How To: Defend an outside heel hook</strong> · 3:22 · <a href="https://www.youtube.com/watch?v=CN_k8AXvOyk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -199,6 +236,8 @@ Defending the Outside Heel Hook from Backside 50-50 is one of the most challengi
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Outside Heel Hook/from Backside 50-50#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

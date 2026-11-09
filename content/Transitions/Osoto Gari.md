@@ -123,7 +123,7 @@ As one of the first throws taught in traditional judo, Osoto Gari has crossed in
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 75% |
 | Failure | [[Positions/Standing Position]] | 15% |
-| Counter | [[Positions/Standing Position]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>

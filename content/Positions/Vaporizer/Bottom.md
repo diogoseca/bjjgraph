@@ -155,6 +155,27 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Vaporizer (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "10th Planet Jiu Jitsu System 101 1/4 guard to vaporizer",
+      "description": "Vaporizer (Bottom) film study: 10th Planet Jiu Jitsu System 101 1/4 guard to vaporizer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dLIqO90Ix7o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dLIqO90Ix7o",
+      "url": "https://www.youtube.com/watch?v=dLIqO90Ix7o",
+      "duration": "PT112S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -169,6 +190,24 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Vaporizer (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dLIqO90Ix7o)
+
+<p class="clip-credit"><strong>10th Planet Jiu Jitsu System 101 1/4 guard to vaporizer</strong> · 1:52 · <a href="https://www.youtube.com/watch?v=dLIqO90Ix7o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

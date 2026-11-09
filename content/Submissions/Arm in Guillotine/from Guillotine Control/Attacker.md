@@ -10,8 +10,6 @@ description: "Learn to execute the arm-in guillotine from guillotine control wit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm in Guillotine from Guillotine Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Executing the arm-in guillotine from guillotine control requires precise grip ad
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Arm in Guillotine/from Guillotine Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

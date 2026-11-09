@@ -92,9 +92,6 @@ description: "Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm i
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Mounted Crucifix Armbar from Mounted Crucifix targets the Shoulder and elbow joint. Primary risk: Elbow hyperextension with ligament tear (UCL/LCL damage). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 - Keep knees pinched tightly during the extension to prevent the defender from retracting the arm past the breaking line
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -259,6 +258,8 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 - Attacker adjusts leg positioning to cross over your face or chest, transitioning from crucifix to armbar clamp
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -306,9 +307,8 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -317,28 +317,9 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 | Shoulder subluxation or rotator cuff strain from combined arm isolation and extension forces | High | 4-8 months depending on severity |
 
 
-**Application Speed**: SLOW and progressive. The elbow joint is vulnerable to rapid damage once the arm is extended past the breaking point. Apply steady incremental pressure, never spike or jerk the submission. The mounted crucifix traps the arm in a mechanically disadvantaged position, meaning less force is required to cause injury than in a standard armbar.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat with free hand
-- Physical foot tap on mat with either leg
-- Any unusual screaming, groaning, or distress vocalization
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation
-2. If in doubt about whether opponent tapped, release immediately—position can be re-established
-3. Lower the arm gently after release rather than dropping it to prevent additional strain
-4. Check on training partner's elbow and shoulder condition after every submission application
-
-
-**Training Restrictions**:
-- Begin with slow positional drilling at zero resistance before adding any progressive resistance
-- No explosive jerking, spiking, or rapid extension of the arm during training at any experience level
-- White and blue belts should only drill this submission with instructor supervision due to the trapped-arm dynamic reducing escape options
-- Partners must establish clear tap protocols before drilling and confirm both verbal and physical tap recognition
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

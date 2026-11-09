@@ -170,6 +170,37 @@ description: "How to execute the Clock Choke in BJJ. Attacking perspective with 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clock Choke (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Secrets of Turtle Clock Choke",
+      "description": "Clock Choke (Attacker) film study: Secrets of Turtle Clock Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_qmq81d5X0M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_qmq81d5X0M",
+      "url": "https://www.youtube.com/watch?v=_qmq81d5X0M",
+      "duration": "PT119S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "BJJ Basics How to do a Clock Choke from Turtle Position",
+      "description": "Clock Choke (Attacker) film study: BJJ Basics How to do a Clock Choke from Turtle Position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1qVlaITDNGI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1qVlaITDNGI?start=29",
+      "url": "https://www.youtube.com/watch?v=1qVlaITDNGI",
+      "duration": "PT151S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -184,6 +215,32 @@ The technique creates a fundamental dilemma for the turtled opponent: defending 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clock Choke (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_qmq81d5X0M)
+
+<p class="clip-credit"><strong>Secrets of Turtle Clock Choke</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=_qmq81d5X0M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1qVlaITDNGI&start=29)
+
+<p class="clip-credit"><strong>BJJ Basics How to do a Clock Choke from Turtle Position</strong> · 2:31 · <a href="https://www.youtube.com/watch?v=1qVlaITDNGI&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -329,14 +386,6 @@ The Clock Choke is a blood choke that can render an opponent unconscious within 
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie’s Closed Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related submission reference: Clock Choke.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

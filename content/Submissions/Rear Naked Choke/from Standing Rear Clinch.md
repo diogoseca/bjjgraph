@@ -46,22 +46,22 @@ description: "Master the Standing RNC from Rear Clinch in BJJ. Expert guide to f
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Standing Rear Naked Choke Defense",
-      "description": "Rear Naked Choke from Standing Rear Clinch film study: Standing Rear Naked Choke Defense.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rlJlNeccbEw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rlJlNeccbEw",
-      "url": "https://www.youtube.com/watch?v=rlJlNeccbEw",
-      "duration": "PT20S"
+      "name": "Rear naked choke from standing. (Grappling)",
+      "description": "Rear Naked Choke from Standing Rear Clinch film study: Rear naked choke from standing. (Grappling).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aHcEZPbczO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aHcEZPbczO0",
+      "url": "https://www.youtube.com/watch?v=aHcEZPbczO0",
+      "duration": "PT87S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie\u2026",
-      "description": "Rear Naked Choke from Standing Rear Clinch film study: Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie\u2026.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dTIDRA-0YY0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dTIDRA-0YY0",
-      "url": "https://www.youtube.com/watch?v=dTIDRA-0YY0",
-      "duration": "PT38S"
+      "name": "Technique of the Week Liz Carmouche Standing Rear Naked Choke",
+      "description": "Rear Naked Choke from Standing Rear Clinch film study: Technique of the Week Liz Carmouche Standing Rear Naked Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VMMxUYLSKT8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VMMxUYLSKT8?start=29",
+      "url": "https://www.youtube.com/watch?v=VMMxUYLSKT8",
+      "duration": "PT91S"
     }
   ]
 }
@@ -92,9 +92,6 @@ description: "Master the Standing RNC from Rear Clinch in BJJ. Expert guide to f
 <span class="meta-chip">35% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Standing Rear Clinch targets the Neck (Carotid Arteries). Primary risk: Carotid artery dissection from excessive or jerking pressure on the neck vasculature. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Standing Rear Clinch/Attacker|Play as Attacker]]
@@ -124,17 +121,17 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rlJlNeccbEw)
+![](https://www.youtube.com/watch?v=aHcEZPbczO0)
 
-<p class="clip-credit"><strong>Standing Rear Naked Choke Defense</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=rlJlNeccbEw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear naked choke from standing. (Grappling)</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=aHcEZPbczO0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dTIDRA-0YY0)
+![](https://www.youtube.com/watch?v=VMMxUYLSKT8&start=29)
 
-<p class="clip-credit"><strong>Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie…</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=dTIDRA-0YY0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique of the Week Liz Carmouche Standing Rear Naked Choke</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=VMMxUYLSKT8&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
 
 </div>
 
@@ -189,6 +186,8 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 
 - Time the choking arm transition when opponent is focused on other defensive priorities such as grip fighting, base recovery, or takedown defense
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -264,6 +263,8 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 - Opponent begins walking you backward to compromise your base and force your chin up through postural extension
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -328,9 +329,8 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -340,31 +340,9 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 | Cervical spine strain from combined compression and rotational forces during standing choke application | Medium | 1-4 weeks with rest and conservative treatment |
 
 
-**Application Speed**: SLOW and progressive. Apply pressure gradually over 2-3 seconds. Never jerk, spike, or crank the choke. The standing position makes controlled application even more critical due to fall risk if opponent loses consciousness.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on partner's arm, body, or the mat
-- Physical foot tap or stomp on the mat
-- Any unusual vocalization, gurgling, wheezing, or distress sound
-- Body going limp or cessation of all resistance (treat as involuntary tap)
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation or delay
-2. If opponent goes limp or stops resisting entirely, release immediately and check for consciousness
-3. Lower unconscious partner safely to ground in recovery position, never let them fall uncontrolled
-4. If in doubt about whether a tap occurred, release the choke—position can always be re-established
-5. Monitor partner for delayed symptoms including dizziness, disorientation, or nausea after release
-
-
-**Training Restrictions**:
-- Never apply full standing RNC finishing pressure during drilling—use controlled catch-and-release to practice arm placement without compressive force
-- Standing choke training must be conducted on padded surfaces to mitigate fall-related injuries if partner loses consciousness or balance
-- Beginners should master ground-based RNC mechanics thoroughly before attempting standing application
-- Always have a training partner or coach actively monitoring when drilling standing submission techniques
-- Avoid repeated full-resistance standing RNC attempts in a single session to prevent cumulative neck trauma
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

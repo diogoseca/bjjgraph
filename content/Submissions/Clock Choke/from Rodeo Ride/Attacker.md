@@ -10,8 +10,6 @@ description: "Learn to attack with the Clock Choke from Rodeo Ride. Step-by-step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Clock Choke from Rodeo Ride targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -182,6 +180,16 @@ description: "Learn to attack with the Clock Choke from Rodeo Ride. Step-by-step
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Secrets of Turtle Clock Choke",
+      "description": "Clock Choke from Rodeo Ride (Attacker) film study: Secrets of Turtle Clock Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_qmq81d5X0M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_qmq81d5X0M",
+      "url": "https://www.youtube.com/watch?v=_qmq81d5X0M",
+      "duration": "PT119S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Turtle Control \u0026 Clock Choke",
       "description": "Clock Choke from Rodeo Ride (Attacker) film study: Turtle Control \u0026 Clock Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/grDZ5vo84bg/hqdefault.jpg",
@@ -191,7 +199,7 @@ description: "Learn to attack with the Clock Choke from Rodeo Ride. Step-by-step
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Wallid Ismail clock choke (week 14)",
       "description": "Clock Choke from Rodeo Ride (Attacker) film study: Wallid Ismail clock choke (week 14).",
       "thumbnailUrl": "https://i.ytimg.com/vi/vX8n_1YUZJs/hqdefault.jpg",
@@ -223,6 +231,14 @@ Attacking with the Clock Choke from Rodeo Ride requires integrating the dynamic 
 
 <p class="section-subtitle">Watch Clock Choke from Rodeo Ride (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_qmq81d5X0M)
+
+<p class="clip-credit"><strong>Secrets of Turtle Clock Choke</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=_qmq81d5X0M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -276,6 +292,8 @@ Attacking with the Clock Choke from Rodeo Ride requires integrating the dynamic 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Clock Choke/from Rodeo Ride#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

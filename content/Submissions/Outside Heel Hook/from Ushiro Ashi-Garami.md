@@ -36,6 +36,27 @@ description: "Master the outside heel hook from ushiro ashi-garami. Expert guide
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook from Ushiro Ashi-Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To: Defend an outside heel hook",
+      "description": "Outside Heel Hook from Ushiro Ashi-Garami film study: How To: Defend an outside heel hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CN_k8AXvOyk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CN_k8AXvOyk",
+      "url": "https://www.youtube.com/watch?v=CN_k8AXvOyk",
+      "duration": "PT202S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +82,6 @@ description: "Master the outside heel hook from ushiro ashi-garami. Expert guide
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Outside Heel Hook from Ushiro Ashi-Garami targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Outside Heel Hook/from Ushiro Ashi-Garami/Attacker|Play as Attacker]]
@@ -83,6 +101,24 @@ The strategic value lies in converting escape attempts into finishing opportunit
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook from Ushiro Ashi-Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CN_k8AXvOyk)
+
+<p class="clip-credit"><strong>How To: Defend an outside heel hook</strong> · 3:22 · <a href="https://www.youtube.com/watch?v=CN_k8AXvOyk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -131,6 +167,8 @@ The strategic value lies in converting escape attempts into finishing opportunit
 
 - Keep elbows tight to your chest during the finish to maximize rotational leverage on the heel
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -204,6 +242,8 @@ The strategic value lies in converting escape attempts into finishing opportunit
 - Your foot starts being pried from dorsiflexion by the attacker's forearm wedge against your sole
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -246,9 +286,8 @@ The strategic value lies in converting escape attempts into finishing opportunit
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -260,36 +299,9 @@ The strategic value lies in converting escape attempts into finishing opportunit
 | Ankle ligament damage | Medium | 4-8 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training, NEVER sudden rotation
-
-**Tap Signals**:
-- Verbal tap (primary)
-- Physical hand tap on partner or mat
-- Physical foot tap with free leg
-- Any vocal distress signal
-- Frantic movement or panic response
-- Any indication of discomfort
 
 
-**Release Protocol**:
-1. Immediately release rotational pressure on heel
-2. Release the figure-four grip or heel cup
-3. Remove hip pressure and extension
-4. Allow opponent to straighten leg naturally
-5. Check partner's condition before continuing
-6. Never apply rotation while releasing
-
-
-**Training Restrictions**:
-- NEVER apply sudden rotational force - always slow and progressive
-- NEVER practice at competition speed during training
-- NEVER continue past first sign of discomfort
-- Only train with experienced partners who understand leg locks
-- Always ensure clear communication before training leg locks
-- Tap early and often - do not test flexibility limits
-- Prohibited for white and blue belts in most IBJJF competitions
-- Never practice on injured knees or with prior knee injuries without medical clearance
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

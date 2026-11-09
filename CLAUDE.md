@@ -267,7 +267,7 @@ with the `<snapshot />` receiver).
 (**the one you want after editing `neural/src/*`**) · `dev:neural` also regenerates the payload ·
 `regenerate:neural` the full payload emit.
 
-**Test** — `test` full core suite · `test:curated` the `@curated` deployment gate (30-min ceiling) ·
+**Test** — `test` full core suite · `test:curated` the `@curated` deployment gate (45-min ceiling) ·
 `test:units` pure node --test · `e2e:gen` generated suite · `npm run e2e -- --headed` for a visible
 browser (ports: §8). `pree2e` and both `test*` scripts run
 `scripts/check_no_raw_random.sh` first.
@@ -348,11 +348,12 @@ carries its traps' trigger tokens.
 - …write — or trust — a Playwright assertion → **§6.3** in `.claude/rules/traps-playwright.md`:
   `locator.click()` · a render re-implemented in a spec · a probe is not a gate · an unrigged
   `rng()` tag · a green gate's blind spot · an assertion stricter than its claim · `nth()` ·
-  `all()[i]` · `data-tech`
+  `all()[i]` · `data-tech` · `clickByMouse` before a layout settles
 - …rely on the harness: the DSL, a port, a payload, which build is under test → **§6.4**, same
   file: a payload pattern is a URL SUBSTRING · what the harness does NOT serve · `testDir` · a
   result from a shared port · a WebGL context left on the old page · `ERR_INSUFFICIENT_RESOURCES`
-  · `Target crashed` · `df -h /`
+  · `Target crashed` · `df -h /` ·
+  `addInitScript` + `window.posthog`
 - …write app runtime logic → **§6.5** in `.claude/rules/traps-neural.md`: a single-slot resource
   with many writers · a suppression flag's LIFTERS · one question answered in two places · if the
   data states it, READ it
@@ -423,8 +424,10 @@ Full rules in `docs/Content.md`. The parts you can break:
 - **Success rates are `{gi, nogi}` maps in source** and render as a single folded no-gi percent
   (`**Success Rate**: N%`). There is no Beginner/Intermediate/Advanced tri-level format — nothing
   authors it and no validator checks it.
-- **Submissions must carry a safety section**: the notice first, injury risks with severity, tap
-  signals, release protocol, and safety-critical questions in the assessment.
+- **Submissions must carry a safety section** (last in the app, its rule directly above the steps).
+  The source authors injury risks with severity, application speed, tap signals, release protocol,
+  training restrictions and safety-critical assessment questions; the page shows only the injury
+  risks, titled "Injury risks" (U113 b), and a closing "Go slow." line (U112 a: cut in the templates).
 - **Attempt probabilities sum to 100 per role, per ruleset frame.**
 
 ### Systems: guides and product links

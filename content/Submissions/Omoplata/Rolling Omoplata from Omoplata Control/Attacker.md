@@ -10,8 +10,6 @@ description: "How to execute Rolling Omoplata in BJJ. Attacking perspective with
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rolling Omoplata from Omoplata Control targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -172,6 +170,27 @@ description: "How to execute Rolling Omoplata in BJJ. Attacking perspective with
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Omoplata from Omoplata Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lasso Guard: Rolling Omoplata Entry",
+      "description": "Rolling Omoplata from Omoplata Control (Attacker) film study: Lasso Guard: Rolling Omoplata Entry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3-sSkw3fdsQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3-sSkw3fdsQ",
+      "url": "https://www.youtube.com/watch?v=3-sSkw3fdsQ",
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -185,6 +204,24 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Omoplata from Omoplata Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3-sSkw3fdsQ)
+
+<p class="clip-credit"><strong>Lasso Guard: Rolling Omoplata Entry</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=3-sSkw3fdsQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -222,6 +259,8 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -607,6 +607,34 @@
         "description": "Full positional sparring starting in lockdown with partner attacking freely using sweeps, submissions, and back takes. Defend all attacks including the Kimura while working to pass. Develop the ability to distinguish between Kimura setups and sweep setups in real time and apply the appropriate defensive response."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "urKU1BKZNXA",
+        "title": "Kimura Counter From Top Half Guard To Armlock",
+        "channel": "Revolution BJJ Ashland",
+        "duration": 52,
+        "vertical": false,
+        "start": 21,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Clasp hands together in a gable grip or grab your own…",
+        "clips": [
+          {
+            "id": "Il__jkzGDJg",
+            "title": "Move of the Day: Escaping the Turtle - 3 - What if they Kimura me",
+            "channel": "JitzLive",
+            "duration": 371,
+            "vertical": false,
+            "start": 167,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
+    ]
   }
 }

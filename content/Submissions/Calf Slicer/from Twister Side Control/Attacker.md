@@ -10,8 +10,6 @@ description: "Step-by-step guide to executing the calf slicer from twister side 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Twister Side Control targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -263,6 +261,8 @@ Executing the calf slicer from twister side control leverages the position's inh
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Calf Slicer/from Twister Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

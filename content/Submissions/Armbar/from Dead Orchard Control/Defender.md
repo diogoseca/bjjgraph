@@ -10,8 +10,6 @@ description: "Recognize Armbar from Dead Orchard Control and interrupt its requi
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Dead Orchard Control targets the Elbow joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -182,6 +180,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Armbar/from Dead Orchard Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

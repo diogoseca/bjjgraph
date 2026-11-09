@@ -15,7 +15,7 @@ Two dossier shapes the app renders (see neural/src/technique-content.js exemplar
        perspectives:{attacker:{summary,recognition[],prerequisites[],steps[],principles[],
                                counters[],mistakes[{err,fix}]},
                      defender:{authored,summary,recognition[],principles[],options[{move,when,leadsTo}],
-                               bestOutcomes[],mistakes[{err,fix}]}}}
+                               bestOutcomes[],mistakes[{err,fix}],clips[]?,escapes{label:clips[]}?}}}
 Both shapes also carry lead (the node's own summary), aka[] / confuse[{n,why}] for its
 own names, and optional family{name,aka[],confuse[]} for inherited naming metadata.
 Family names are not synonyms of a particular variant. The deferred search index uses
@@ -215,17 +215,16 @@ def _safety(d):
     sc = d.get("safety_considerations") or {}
     risks = [{"i": r["injury"], "sev": r["severity"]}
              for r in sc.get("injury_risks", [])]
-    # Same source-backed notice as TEMPLATE-DUAL.md.jinja2. Never clip safety text:
-    # later sentences and later list entries contain release/distress restrictions.
+    # The page's former top notice, built from source fields. Never clip safety text.
+    # U111 (owner, 2026-11-09): "Show only the injury risks". The app reads no part of this (the reader shows the page's own
+    # guide, cut after its injury table), so the four parts it drops are no longer emitted: application speed, tap signals,
+    # release protocol and training restrictions, 325,146 B raw (124,319 B gzip) over the 287 submission dossiers at v1.252.0.
+    # The source JSON and the static page keep all four, and the validator below still requires them authored.
     return {
         "notice": (f"{d['name']} targets the {d.get('target_area', '')}. "
                    f"Primary risk: {risks[0]['i']}. Tap early; release immediately on the tap."
                    if risks else ""),
         "risks": risks,
-        "speed": sc.get("application_speed", ""),
-        "tap": sc.get("tap_signals", []),
-        "release": sc.get("release_protocol", []),
-        "restrictions": sc.get("training_restrictions", []),
     }
 
 
@@ -417,6 +416,13 @@ def _perspective_defender(dfn):
     clips = _clips(dfn.get("clips"))
     if clips:
         p["clips"] = clips
+    # Per-escape clips, by exact card label. In the dossier and NOT in submission-details:
+    # that file's rows are hashed into each defense's MDP identity and into detailsHash, so
+    # a byte there re-keys the model. The choice card already hydrates this dossier.
+    escapes = {row["escape"]: _clips(row.get("clips")) for row in dfn.get("escape_clips") or []}
+    escapes = {label: rows for label, rows in escapes.items() if rows}
+    if escapes:
+        p["escapes"] = escapes
     return p
 
 
@@ -528,13 +534,13 @@ def _validate_enrichment(decks, sources):
             safety = dossier.get("safety") or {}
             fields = {"speed": "application_speed", "tap": "tap_signals",
                       "release": "release_protocol", "restrictions": "training_restrictions"}
-            bad = [field for field, authored in fields.items()
-                   if not sc.get(authored) or safety.get(field) != sc[authored]]
+            # U111: each must be authored in the source, and none may reach the dossier.
+            bad = [field for field, authored in fields.items() if not sc.get(authored) or field in safety]
             expected_risks = [{"i": r.get("injury"), "sev": r.get("severity")}
                               for r in sc.get("injury_risks", [])]
             if (bad or not expected_risks or safety.get("risks") != expected_risks
                     or not safety.get("notice")):
-                errors.append(label + "submission safety missing or truncated: " + ", ".join(bad))
+                errors.append(label + "submission safety lost, truncated, or carrying a part U111 drops: " + ", ".join(bad))
             else:
                 counts["submission safety"] += 1
             variations = source.get("variations_and_setups")
@@ -692,7 +698,30 @@ def build_ng_content(graph) -> dict:
             unassigned += sum(1 for c in d.get("clips", []) if not c.get("half"))
     print(f"  clip curation: {fronts} approved fronts; {suppressed} unapproved fronts suppressed; "
           f"{empty} empty halves; {unassigned} unassigned hub clips suppressed")
+    _report_escape_clips(sources)
     return decks
+
+
+def _report_escape_clips(sources):
+    """Count the escape clip join, and refuse an orphan or a join that found nothing.
+
+    validate_json.py catches an orphan per file, but this is the one place that sees the whole
+    corpus, so it is the one place that can tell "no problems" from "never looked".
+    """
+    from _clips import ESCAPE_CLIP_JOIN_FLOOR, escape_clip_join, escape_rows
+    joined, orphans = 0, []
+    for d, role, _family in sources.values():
+        if role or not escape_rows(d):
+            continue
+        good, bad = escape_clip_join(d)
+        joined += len(good)
+        orphans += [(d.get("name"), row.get("escape")) for row in bad]
+    print(f"  escape clips: {joined} rows joined to a card; {len(orphans)} orphaned")
+    if orphans:
+        raise ValueError(f"escape_clips rows name no card of their submission: {orphans[:6]}")
+    if joined < ESCAPE_CLIP_JOIN_FLOOR:
+        raise ValueError(f"escape_clips joined {joined} rows, under the floor of {ESCAPE_CLIP_JOIN_FLOOR}: "
+                         "a join that finds nothing is a check that never ran")
 
 
 def fnv1a32(s: str) -> str:

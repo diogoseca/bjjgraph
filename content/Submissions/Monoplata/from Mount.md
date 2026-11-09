@@ -102,9 +102,6 @@ description: "Master Monoplata from Mount in BJJ. Complete safety guide covering
 <span class="meta-chip">48% success</span>
 </div>
 
-> [!danger] Safety
-> Monoplata from Mount targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Monoplata/from Mount/Attacker|Play as Attacker]]
@@ -205,6 +202,8 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 - Keep your weight distributed to prevent bridging escapes during setup
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -268,6 +267,8 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 - Attacker lifts one leg and begins swinging it in an arc over your face or head while maintaining wrist control on your isolated arm—this is the definitive signal that the monoplata is being attempted
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -346,9 +347,8 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -358,32 +358,9 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 | AC joint separation | Medium | 4-8 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time in training
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any verbal distress signal
-- Screaming or shouting
 
 
-**Release Protocol**:
-1. Immediately release leg pressure and remove the figure-four configuration
-2. Unthread your leg from around opponent's arm slowly
-3. Return to neutral mount position without additional pressure
-4. Allow opponent time to assess shoulder before continuing
-5. Check with training partner verbally before resuming
-
-
-**Training Restrictions**:
-- Never apply this submission at competition speed during training
-- Never jerk or spike the shoulder joint
-- Always ensure training partner has access to tap with free hand
-- Do not practice on training partners with existing shoulder injuries
-- Stop immediately if opponent shows any sign of shoulder instability
-- White belts should drill mechanics only with zero resistance
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

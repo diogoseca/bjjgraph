@@ -92,9 +92,6 @@ description: "Master the Inside Heel Hook from Honey Hole in BJJ. Complete guide
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Inside Heel Hook from Honey Hole targets the Knee and ankle joint. Primary risk: ACL (anterior cruciate ligament) tear from rotational force exceeding joint tolerance. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Inside Heel Hook/from Honey Hole/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ This submission demands absolute safety awareness. The rotational force attacks 
 - Treat every training application as if your partner's knee depends on your control—because it does
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -261,6 +260,8 @@ This submission demands absolute safety awareness. The rotational force attacks 
 - Opponent tucks your foot toward their armpit and you feel the blade of their wrist contact your Achilles tendon
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -325,9 +326,8 @@ This submission demands absolute safety awareness. The rotational force attacks 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -337,42 +337,12 @@ This submission demands absolute safety awareness. The rotational force attacks 
 | Lateral ankle ligament damage from rotational overpressure transmitted through the heel | Medium | 4-8 weeks with rest and rehabilitation |
 
 
-**Application Speed**: EXTREMELY SLOW and progressive. The inside heel hook is the most dangerous submission in BJJ because the knee provides almost zero pain warning before catastrophic ligament failure. Apply rotational pressure incrementally over 2-3 seconds minimum, pausing at each stage to allow the defender time to perceive the threat and tap. Never jerk, spike, or explosively crank under any circumstances—including competition.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, their body, or the mat
-- Physical foot tap with free leg on partner or mat
-- Any unusual vocalization, screaming, or distress sound
-- Nodding head rapidly or any panicked body language
 
 
-**Release Protocol**:
-1. Release ALL rotational pressure immediately upon any tap signal—do not finish the rotation
-2. Maintain leg entanglement briefly to allow controlled disengagement without dropping the leg suddenly
-3. If in doubt about whether partner tapped, release immediately—position can be re-established but ligaments cannot
-4. After release, check with partner about knee and ankle condition before resuming training
-5. If partner shows any signs of injury (limping, holding knee, reluctance to continue), stop the round completely
-
-
-**Training Restrictions**:
-- Inside heel hooks should only be trained by practitioners at purple belt or above, or lower belts under direct black belt supervision with explicit safety instruction
-- Always apply with slow, progressive pressure—never explosively crank regardless of competition simulation intensity
-- New training partners must be briefed on heel hook danger and tap protocols before any leg lock sparring begins
-- Do not train heel hooks when fatigued, as diminished proprioception increases injury risk for both attacker and defender
-- Competition-intensity heel hook sparring should only occur between experienced partners who have established trust and communication protocols
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Leglocks — Enter The System</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related submission reference; inclusion here does not establish course coverage.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

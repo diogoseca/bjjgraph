@@ -180,17 +180,6 @@ description: "Leg Weave Pass (attacker): Thread the arm through the available le
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg pummeling into the weave pass",
-      "description": "Leg Weave Pass (Attacker) film study: Leg pummeling into the weave pass, taught by Michael Wong.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kQrTYXOO1To/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kQrTYXOO1To",
-      "url": "https://www.youtube.com/watch?v=kQrTYXOO1To",
-      "creator": { "@type": "Person", "name": "Michael Wong" },
-      "duration": "PT22S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Leg weave pass against the knee shield",
       "description": "Leg Weave Pass (Attacker) film study: Leg weave pass against the knee shield, taught by BJJ4Breakfast coach.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4LIBFmas-oE/hqdefault.jpg",
@@ -198,6 +187,17 @@ description: "Leg Weave Pass (attacker): Thread the arm through the available le
       "url": "https://www.youtube.com/watch?v=4LIBFmas-oE",
       "creator": { "@type": "Person", "name": "BJJ4Breakfast coach" },
       "duration": "PT153S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg pummeling into the weave pass",
+      "description": "Leg Weave Pass (Attacker) film study: Leg pummeling into the weave pass, taught by Michael Wong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kQrTYXOO1To/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kQrTYXOO1To",
+      "url": "https://www.youtube.com/watch?v=kQrTYXOO1To",
+      "creator": { "@type": "Person", "name": "Michael Wong" },
+      "duration": "PT22S"
     }
   ]
 }
@@ -233,17 +233,17 @@ Maintain hip control through the joined knees as the feet circle. Once the knee 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=kQrTYXOO1To)
+![](https://www.youtube.com/watch?v=4LIBFmas-oE)
 
-<p class="clip-credit"><strong>Leg pummeling into the weave pass</strong> — taught by Michael Wong · 0:22 · <a href="https://www.youtube.com/watch?v=kQrTYXOO1To" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg weave pass against the knee shield</strong> — taught by BJJ4Breakfast coach · 2:33 · <a href="https://www.youtube.com/watch?v=4LIBFmas-oE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4LIBFmas-oE)
+![](https://www.youtube.com/watch?v=kQrTYXOO1To)
 
-<p class="clip-credit"><strong>Leg weave pass against the knee shield</strong> — taught by BJJ4Breakfast coach · 2:33 · <a href="https://www.youtube.com/watch?v=4LIBFmas-oE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg pummeling into the weave pass</strong> — taught by Michael Wong · 0:22 · <a href="https://www.youtube.com/watch?v=kQrTYXOO1To" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

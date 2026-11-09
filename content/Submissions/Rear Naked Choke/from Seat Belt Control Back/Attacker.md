@@ -10,8 +10,6 @@ description: "Learn to finish the Rear Naked Choke from Seat Belt Control Back. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Seat Belt Control Back targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -59,7 +57,7 @@ description: "Learn to finish the Rear Naked Choke from Seat Belt Control Back. 
     {
       "@type": "HowToStep",
       "name": "Apply progressive bilateral squeeze",
-      "text": "Expand your chest outward while simultaneously pulling both elbows back toward your own body. This creates bilateral compression on both carotid arteries without relying on arm strength. Maintain steady progressive pressure rather than pulsing or jerking. The opponent should feel mounting pressure that builds over 2-3 seconds, allowing them time to recognize the choke and tap. If they do not tap, maintain pressure until they signal or go limp, then release immediately.",
+      "text": "Expand your chest outward while simultaneously pulling both elbows back toward your own body. This creates bilateral compression on both carotid arteries without relying on arm strength. Maintain steady progressive pressure rather than pulsing or jerking. The opponent should feel mounting pressure that builds over 2-3 seconds, allowing them time to recognize the choke and tap. If they do not tap, maintain pressure until they signal, then release immediately.",
       "position": 7
     }
   ],
@@ -284,6 +282,8 @@ The Rear Naked Choke from Seat Belt Control Back represents the single highest-p
 
 <section id="execution-steps" class="content-section">
 
+> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Seat Belt Control Back#safety-considerations|Injury risks ↓]]
+
 ## Execution Steps
 
 <p class="section-subtitle">How do you execute Rear Naked Choke from Seat Belt Control Back step by step?</p>
@@ -294,7 +294,7 @@ The Rear Naked Choke from Seat Belt Control Back represents the single highest-p
 4. **Sink forearm blade to proper depth**: Continue threading the choking arm until the crook of your elbow is centered directly under the opponent's chin. The forearm blade should rest across the carotid artery on one side while the bicep muscle compresses the carotid on the other. Verify positioning by feel — if you sense the hard ridge of the trachea under your forearm, adjust laterally until the forearm sits in the soft tissue groove beside it. (Timing: 1-2 seconds)
 5. **Establish the figure-four lock behind the head**: Bring the free hand behind the opponent's head and place it on or near your choking arm's bicep. Thread the choking hand behind your own head or onto your opposite shoulder to complete the figure-four circuit. The locking arm's forearm presses against the back of the opponent's head, driving it forward into the choking arm. Ensure the lock is tight with no slack in either arm before applying pressure. (Timing: 1-2 seconds)
 6. **Set body alignment for maximum compression**: Arch your back slightly to increase chest-to-back pressure, driving the opponent's body forward into the choke. Position your head beside the opponent's head on the choking-arm side. Ensure your hooks or body triangle remain secure to prevent last-second escape attempts. Your entire body should form a unified compression structure around the opponent's neck and torso. (Timing: 1 second)
-7. **Apply progressive bilateral squeeze**: Expand your chest outward while simultaneously pulling both elbows back toward your own body. This creates bilateral compression on both carotid arteries without relying on arm strength. Maintain steady progressive pressure rather than pulsing or jerking. The opponent should feel mounting pressure that builds over 2-3 seconds, allowing them time to recognize the choke and tap. If they do not tap, maintain pressure until they signal or go limp, then release immediately. (Timing: 2-5 seconds to finish)
+7. **Apply progressive bilateral squeeze**: Expand your chest outward while simultaneously pulling both elbows back toward your own body. This creates bilateral compression on both carotid arteries without relying on arm strength. Maintain steady progressive pressure rather than pulsing or jerking. The opponent should feel mounting pressure that builds over 2-3 seconds, allowing them time to recognize the choke and tap. If they do not tap, maintain pressure until they signal, then release immediately. (Timing: 2-5 seconds to finish)
 
 
 </section>

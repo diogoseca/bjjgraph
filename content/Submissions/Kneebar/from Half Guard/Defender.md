@@ -10,8 +10,6 @@ description: "How to defend against Kneebar from Half Guard in BJJ. Recognition,
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Half Guard targets the Knee joint and posterior cruciate ligament. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -233,6 +231,8 @@ Defending the kneebar from half guard requires early recognition and decisive ac
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kneebar/from Half Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

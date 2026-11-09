@@ -36,6 +36,27 @@ description: "Master the ankle lock counter in BJJ. Complete guide to neutralizi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter from Ankle Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Technique: Preventing the boot strap defense to your ankle lock attack",
+      "description": "Counter from Ankle Lock film study: BJJ Technique: Preventing the boot strap defense to your ankle lock attack.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wpLZv31LDm8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wpLZv31LDm8?start=48",
+      "url": "https://www.youtube.com/watch?v=wpLZv31LDm8",
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Execution demands a disciplined two-phase approach. Phase one is pure defense: e
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter from Ankle Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wpLZv31LDm8&start=48)
+
+<p class="clip-credit"><strong>BJJ Technique: Preventing the boot strap defense to your ankle lock attack</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=wpLZv31LDm8&t=48s" rel="noopener">Watch on YouTube from 0:48</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

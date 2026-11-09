@@ -142,6 +142,27 @@ description: "Counter the hip scoot escape from back control. Learn to maintain 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scoot Hips to Guard from Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the Butt Scoop Back Escape (week 10)",
+      "description": "Scoot Hips to Guard from Back (Defender) film study: Countering the Butt Scoop Back Escape (week 10).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/abIQHEI0k0w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/abIQHEI0k0w",
+      "url": "https://www.youtube.com/watch?v=abIQHEI0k0w",
+      "duration": "PT330S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ As the back controller, your opponent's hip scoot escape represents one of the m
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scoot Hips to Guard from Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=abIQHEI0k0w)
+
+<p class="clip-credit"><strong>Countering the Butt Scoop Back Escape (week 10)</strong> · 5:30 · <a href="https://www.youtube.com/watch?v=abIQHEI0k0w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

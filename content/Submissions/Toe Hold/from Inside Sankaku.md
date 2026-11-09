@@ -92,9 +92,6 @@ description: "Master the toe hold from Inside Sankaku. Learn grip mechanics, rot
 <span class="meta-chip">30% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Inside Sankaku targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Inside Sankaku/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, the toe hold from Inside Sankaku functions as part of a dilemma s
 - Chain between heel hook and toe hold threats to create an unsolvable dilemma where every defense opens another attack
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -259,6 +258,8 @@ Strategically, the toe hold from Inside Sankaku functions as part of a dilemma s
 - A figure-four wrist lock establishes under your foot with blade pressure against the ball of your foot
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -300,9 +301,8 @@ Strategically, the toe hold from Inside Sankaku functions as part of a dilemma s
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -313,33 +313,9 @@ Strategically, the toe hold from Inside Sankaku functions as part of a dilemma s
 | Achilles tendon strain | Medium | 4-6 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. This is NOT a technique to 'snap on' in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly)
-- Physical hand tap on partner or mat (multiple taps)
-- Physical foot tap with free leg
-- Any verbal distress signal
-- Slapping the mat with hand
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure
-2. Release toe grip completely
-3. Release heel control
-4. Allow opponent's foot to return to neutral position naturally
-5. Do not let go abruptly - maintain light contact until opponent signals they are okay
-6. Check with training partner before continuing
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual
-- Never grip individual toes - always grip across multiple toes and ball of foot
-- Never combine with explosive hip extension
-- Always allow clear tap access for both hands
-- Stop immediately at any sign of discomfort
-- Never train this submission at competition speed
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

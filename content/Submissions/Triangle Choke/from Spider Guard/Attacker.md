@@ -10,8 +10,6 @@ description: "How to execute Triangle from Spider Guard in BJJ. Attacking perspe
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke from Spider Guard targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -285,6 +283,8 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Triangle Choke/from Spider Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -10,8 +10,6 @@ description: "Learn to attack with the Breadcutter Choke from Side Control. Step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Breadcutter Choke from Side Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -318,6 +316,8 @@ The Breadcutter Choke from Side Control rewards methodical grip establishment an
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Breadcutter Choke/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

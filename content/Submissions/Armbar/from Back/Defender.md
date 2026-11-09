@@ -10,8 +10,6 @@ description: "How to defend against Armbar from Back in BJJ. Recognition, escape
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Back targets the Elbow joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -275,6 +273,8 @@ Defending the armbar from back control is one of the most challenging defensive 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Armbar/from Back#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

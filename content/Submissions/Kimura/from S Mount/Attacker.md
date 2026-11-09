@@ -10,8 +10,6 @@ description: "Attack with the Kimura from S Mount in BJJ. Step-by-step execution
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from S Mount targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -188,6 +186,16 @@ description: "Attack with the Kimura from S Mount in BJJ. Step-by-step execution
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Try This Crazy Tight Kimura From S Mount",
+      "description": "Kimura from S Mount (Attacker) film study: Try This Crazy Tight Kimura From S Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rN4ZoExf5N0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rN4ZoExf5N0",
+      "url": "https://www.youtube.com/watch?v=rN4ZoExf5N0",
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "S-Mount Armbar, Kimura, + Far side Armbar",
       "description": "Kimura from S Mount (Attacker) film study: S-Mount Armbar, Kimura, + Far side Armbar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nH4ly3vk7WI/hqdefault.jpg",
@@ -219,6 +227,14 @@ Attacking with the Kimura from S Mount leverages the perpendicular body angle an
 
 <p class="section-subtitle">Watch Kimura from S Mount (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rN4ZoExf5N0)
+
+<p class="clip-credit"><strong>Try This Crazy Tight Kimura From S Mount</strong> · 2:18 · <a href="https://www.youtube.com/watch?v=rN4ZoExf5N0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -264,6 +280,8 @@ Attacking with the Kimura from S Mount leverages the perpendicular body angle an
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from S Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

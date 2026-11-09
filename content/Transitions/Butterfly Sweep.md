@@ -137,7 +137,7 @@ As the cornerstone attack of the Butterfly Guard system, the sweep converts insi
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 70% |
 | Failure | [[Positions/Butterfly Guard]] | 20% |
-| Counter | [[Positions/Butterfly Guard]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -253,9 +253,9 @@ As the cornerstone attack of the Butterfly Guard system, the sweep converts insi
 
 - **Post hand firmly on the mat on the sweep side, creating a tripod base that blocks the rotational path of the sweep** - When: As soon as you feel the directional commitment of the sweep - the hook driving up on one side and grips pulling you laterally. Must be before full rotation begins.
 
-- **Sprawl hips backward explosively while driving crossface pressure forward, removing your weight from the hooks entirely and flattening opponent's posture** - When: When opponent breaks your posture and loads your weight forward but before they commit to a specific sweep direction. Most effective against opponents who rely heavily on forward weight loading.
+- **Sprawl hips backward explosively while driving crossface pressure forward, removing your weight from the hooks entirely, flattening opponent's posture and passing beyond the hooks to side control** - When: When opponent breaks your posture and loads your weight forward but before they commit to a specific sweep direction. Most effective against opponents who rely heavily on forward weight loading.
 
-- **Drive forward with heavy chest-to-chest pressure while swimming your arms inside to strip opponent's grips, flattening them to their back and neutralizing the upright posture they need** - When: When opponent is attempting to sit up and establish grips but has not yet loaded your weight or committed to a sweep direction. Works as a preemptive defense before sweep components are assembled.
+- **Drive forward with heavy chest-to-chest pressure while swimming your arms inside to strip opponent's grips, flattening them to their back, neutralizing the upright posture they need and carrying the pass through to a side control pin** - When: When opponent is attempting to sit up and establish grips but has not yet loaded your weight or committed to a sweep direction. Works as a preemptive defense before sweep components are assembled.
 
 
 </section>
@@ -331,17 +331,6 @@ The butterfly sweep serves as a cornerstone technique in modern Brazilian Jiu-Ji
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Development and Promotion</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Butterfly Sweep.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Teaching BJJ: Explanation, Recall and Application</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Butterfly Sweep.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Butterfly Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Butterfly Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

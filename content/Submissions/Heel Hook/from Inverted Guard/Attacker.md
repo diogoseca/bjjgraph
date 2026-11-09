@@ -10,8 +10,6 @@ description: "Learn to execute the heel hook from inverted guard. Step-by-step i
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from Inverted Guard targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking with the heel hook from inverted guard requires precise timing of the 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Heel Hook/from Inverted Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

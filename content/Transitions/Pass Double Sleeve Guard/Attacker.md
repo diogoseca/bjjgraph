@@ -176,6 +176,37 @@ description: "Complete attacking guide for passing Double Sleeve Guard. Step-by-
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Double Sleeve Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing feet on hips double sleeve guard",
+      "description": "Pass Double Sleeve Guard (Attacker) film study: Passing feet on hips double sleeve guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_vUNYRbf-fo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_vUNYRbf-fo?start=30",
+      "url": "https://www.youtube.com/watch?v=_vUNYRbf-fo",
+      "duration": "PT190S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing Open Guard: dealing with double sleeve grips and space management",
+      "description": "Pass Double Sleeve Guard (Attacker) film study: Passing Open Guard: dealing with double sleeve grips and space management.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eTYDVOtBAYg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eTYDVOtBAYg?start=24",
+      "url": "https://www.youtube.com/watch?v=eTYDVOtBAYg",
+      "duration": "PT830S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +219,32 @@ As the attacker passing Double Sleeve Guard, your primary objective is to system
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Double Sleeve Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_vUNYRbf-fo&start=30)
+
+<p class="clip-credit"><strong>Passing feet on hips double sleeve guard</strong> · 3:10 · <a href="https://www.youtube.com/watch?v=_vUNYRbf-fo&t=30s" rel="noopener">Watch on YouTube from 0:30</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eTYDVOtBAYg&start=24)
+
+<p class="clip-credit"><strong>Passing Open Guard: dealing with double sleeve grips and space management</strong> · 13:50 · <a href="https://www.youtube.com/watch?v=eTYDVOtBAYg&t=24s" rel="noopener">Watch on YouTube from 0:24</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

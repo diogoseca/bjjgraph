@@ -36,6 +36,37 @@ description: "Master the Lasso Guard Backstep Pass in BJJ. Learn rotational pass
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lasso Guard Backstep Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back Step vs Lasso Guard | AFDLR",
+      "description": "Lasso Guard Backstep Pass film study: Back Step vs Lasso Guard | AFDLR.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5cHvD1SdzOY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5cHvD1SdzOY",
+      "url": "https://www.youtube.com/watch?v=5cHvD1SdzOY",
+      "duration": "PT165S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back step lasso pass",
+      "description": "Lasso Guard Backstep Pass film study: Back step lasso pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3gfur_PACjM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3gfur_PACjM",
+      "url": "https://www.youtube.com/watch?v=3gfur_PACjM",
+      "duration": "PT178S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +105,32 @@ The backstep integrates effectively into a multi-directional lasso guard passing
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lasso Guard Backstep Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5cHvD1SdzOY)
+
+<p class="clip-credit"><strong>Back Step vs Lasso Guard | AFDLR</strong> · 2:45 · <a href="https://www.youtube.com/watch?v=5cHvD1SdzOY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3gfur_PACjM)
+
+<p class="clip-credit"><strong>Back step lasso pass</strong> · 2:58 · <a href="https://www.youtube.com/watch?v=3gfur_PACjM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

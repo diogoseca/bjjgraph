@@ -256,7 +256,7 @@ Advanced defense against the Hip Bump requires understanding the entire attack t
 ### 3. Sprawl hips backward explosively while driving chest forward and down to flatten the bottom player
 
 - **When to use**: When you feel the guard open and the angle being created but before the explosive bump, especially effective against slower or more telegraphed attempts
-- **Targets**: [[Positions/Closed Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Your sprawl denies the bumping angle entirely and your forward chest pressure may create a guard passing opportunity as their guard is now open
 - **Risk**: If the bottom player reads the sprawl, they can use your forward momentum to set up a Guillotine or switch to a different sweep that exploits your lowered posture
 
@@ -281,7 +281,7 @@ Advanced defense against the Hip Bump requires understanding the entire attack t
 
 Maintain strong posture throughout by keeping head over hips, fighting grips immediately when they attempt to secure your wrist, and driving hips backward the moment you feel the guard open. Prevention through posture is the highest-percentage defense that avoids entering the chain attack triangle entirely.
 
-### → [[Positions/Closed Guard]]
+### → [[Positions/Open Guard]]
 
 When the bottom player opens their guard to attempt the sweep, use the opening to initiate your own guard passing sequence. Sprawl your hips back, control their legs before they can re-close guard, and begin working toward a passing position. Their failed sweep attempt gives you the guard opening you needed.
 

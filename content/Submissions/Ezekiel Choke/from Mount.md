@@ -92,9 +92,6 @@ description: "Master the Ezekiel Choke from Mount in BJJ. Learn sleeve grip mech
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Ezekiel Choke from Mount targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Ezekiel Choke/from Mount/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ From a strategic perspective, the Ezekiel Choke from Mount fills a critical role
 - Time the attack when the defender's hands are occupied with frames or other defensive priorities rather than monitoring your grips
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -261,6 +260,8 @@ From a strategic perspective, the Ezekiel Choke from Mount fills a critical role
 - The attacker's head dropping beside your head, which is the final commitment signal before the choking structure locks and finishing pressure begins
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -316,9 +317,8 @@ From a strategic perspective, the Ezekiel Choke from Mount fills a critical role
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -328,31 +328,9 @@ From a strategic perspective, the Ezekiel Choke from Mount fills a critical role
 | Jaw injury from improper forearm placement across the chin rather than throat | Low | 1-2 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum. Blood chokes should never be spiked or jerked. Apply steady, increasing pressure using body weight through the choking structure and release immediately upon tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on partner or mat (multiple rapid taps)
-- Physical foot tap on mat or partner
-- Any unusual sound or sudden loss of resistance (immediate release required)
 
 
-**Release Protocol**:
-1. Immediately release blade hand grip and sleeve grip upon any tap signal
-2. Remove forearm pressure from neck completely in a smooth controlled motion
-3. Maintain mount position briefly to ensure partner is conscious and oriented
-4. Allow partner to recover without immediate movement requirements or positional scrambles
-5. Check partner's verbal confirmation they are okay before continuing training
-
-
-**Training Restrictions**:
-- Never apply sudden or jerking pressure to the choke - progressive pressure only
-- Never hold the choke after tap signal for any reason
-- Never practice on partners with known neck injuries without explicit medical clearance
-- Never apply full pressure during initial learning phase (use 20-30% pressure maximum)
-- Always ensure partner has clear access to tap with at least one hand
-- Never combine with explosive weight drops or sudden postural changes
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

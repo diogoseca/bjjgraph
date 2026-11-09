@@ -36,6 +36,27 @@ description: "Master Reverse De La Riva Recovery in BJJ. Learn how to re-establi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse De La Riva Recovery \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "reverse Dela riva retention drill",
+      "description": "Reverse De La Riva Recovery film study: reverse Dela riva retention drill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yI9J3Bem0Co/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yI9J3Bem0Co",
+      "url": "https://www.youtube.com/watch?v=yI9J3Bem0Co",
+      "duration": "PT250S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Mastering RDLR recovery creates a safety net that allows more aggressive guard p
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse De La Riva Recovery in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yI9J3Bem0Co)
+
+<p class="clip-credit"><strong>reverse Dela riva retention drill</strong> · 4:10 · <a href="https://www.youtube.com/watch?v=yI9J3Bem0Co" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

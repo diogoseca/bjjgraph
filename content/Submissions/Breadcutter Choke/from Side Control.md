@@ -112,9 +112,6 @@ description: "Master the Breadcutter Choke from Side Control. Learn gi collar gr
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Breadcutter Choke from Side Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Breadcutter Choke/from Side Control/Attacker|Play as Attacker]]
@@ -225,6 +222,8 @@ This choke is particularly effective because opponents under side control typica
 - Treat the collar setup as part of normal side control maintenance to disguise the attack until both grips are secured
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -297,6 +296,8 @@ This choke is particularly effective because opponents under side control typica
 - Cross-collar forearm pressure settling across your throat or jawline with the attacker's wrist rotating inward
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -357,9 +358,8 @@ This choke is particularly effective because opponents under side control typica
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -369,32 +369,9 @@ This choke is particularly effective because opponents under side control typica
 | Jaw or facial pressure causing TMJ irritation | Medium | 2-4 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent's body
-- Physical foot tap on mat
-- Any rapid tapping motion with hand or foot
-- Body going limp (automatic release required)
 
 
-**Release Protocol**:
-1. Immediately release collar grip upon tap signal
-2. Remove body weight and pressure from opponent's neck
-3. Allow opponent to turn to safe position (typically supine or seated)
-4. Check that opponent is breathing normally and conscious
-5. Give partner time to recover before continuing training
-
-
-**Training Restrictions**:
-- Never apply competition speed or force in training
-- Never spike or jerk the choke - always apply gradually
-- Always ensure partner has clear access to tap
-- Stop immediately at any sign of distress, even without tap
-- Never practice on partners with neck or throat injuries
-- Beginners must drill under supervision for first 20+ repetitions
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

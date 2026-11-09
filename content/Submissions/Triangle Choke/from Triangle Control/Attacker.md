@@ -10,8 +10,6 @@ description: "Complete guide to finishing the triangle choke from triangle contr
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke from Triangle Control targets the Carotid arteries and brachial plexus. Risk: Loss of consciousness from bilateral carotid artery compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Finishing the triangle choke from triangle control requires mastering three simu
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Triangle Choke/from Triangle Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

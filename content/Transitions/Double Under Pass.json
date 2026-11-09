@@ -29,12 +29,12 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Bottom",
+      "to": "Closed Guard/Top",
       "probability": {
         "gi": 10,
         "nogi": 10
       },
-      "result": "counter"
+      "result": "failure"
     }
   ],
   "success_rate": {
@@ -167,7 +167,7 @@
         "counter": "Opponent locks closed guard or half guard during the pass",
         "effectiveness": "High",
         "your_response": "If they achieve closed guard, you must break the guard before continuing. If they capture half guard, transition to a half guard passing sequence, maintaining your underhook control on the trapped leg side and working to clear the lockdown or hook.",
-        "targets_outcome": "Closed Guard/Bottom"
+        "targets_outcome": "Closed Guard/Top"
       },
       {
         "counter": "Opponent sits up explosively or attempts to granby roll",
@@ -458,7 +458,7 @@
       {
         "action": "Lock closed guard by crossing ankles behind passer's back before they consolidate pressure",
         "when_to_use": "When the passer has established one or both underhooks but has not yet dropped full chest pressure or clasped hands—you must act before they lock their grip",
-        "targets_outcome": "Closed Guard/Bottom",
+        "targets_outcome": "Closed Guard/Top",
         "if_successful": "You recover closed guard, neutralizing the pass attempt and returning to an offensive guard position with sweep and submission options",
         "risk": "If the passer already has deep underhooks with hands clasped, your closed guard will be loose and they can stack through it"
       },
@@ -483,7 +483,7 @@
         "how": "Create early frames on the passer's biceps and maintain feet on hips to prevent underhook entry. If underhooks are partially established, hip escape aggressively to one side while pushing their head to the opposite side, breaking their alignment and forcing them to release one or both underhooks to recover base. Re-establish grips on sleeves or collar and recover open guard structure with active legs."
       },
       {
-        "outcome": "Closed Guard/Bottom",
+        "outcome": "Closed Guard/Top",
         "how": "As the passer attempts to swim their second underhook, immediately overhook one of their arms and pull them forward while shooting your legs high on their back and crossing your ankles. The overhook prevents them from achieving the deep bilateral grip they need, and your closed guard locks before they can consolidate chest pressure. This works best when you catch them during the transition between first and second underhook."
       }
     ],

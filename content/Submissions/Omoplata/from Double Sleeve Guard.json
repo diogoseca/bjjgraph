@@ -452,7 +452,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "zwQypvk5OUs",
+        "title": "Double Sleeve Guard System - Kneeling Opponent - Omoplata (week 16)",
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 177,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Omoplata from Double Sleeve Guard Defender",
@@ -640,6 +650,15 @@
       }
     ],
     "clips": [
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "💯 BEST WAY to ESCAPE THE OMOPLATA Shoulder Lock",
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 61,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
       {
         "id": "tOnP_QiviyU",
         "title": "Omoplata Step Over Escape Drill 2",

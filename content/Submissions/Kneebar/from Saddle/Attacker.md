@@ -10,8 +10,6 @@ description: "How to execute the kneebar from Saddle position in BJJ. Attacking 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Saddle targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear or rupture. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -266,6 +264,8 @@ The kneebar from Saddle represents a high-percentage secondary attack from one o
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kneebar/from Saddle#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -10,8 +10,6 @@ description: "Defend against the inside heel hook from ushiro ashi-garami. Recog
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Inside Heel Hook from Ushiro Ashi-Garami targets the Ankle, knee ligaments, and surrounding connective tissue. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -237,6 +235,8 @@ Defending the inside heel hook from ushiro ashi-garami requires immediate recogn
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "Step-by-step guide to finishing the arm triangle from high mount. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Triangle from High Mount targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from blood choke. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -59,7 +57,7 @@ description: "Step-by-step guide to finishing the arm triangle from high mount. 
     {
       "@type": "HowToStep",
       "name": "Apply progressive chest compression",
-      "text": "Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. The choke tightens with each exhale the opponent makes. Wait patiently for the tap or feel resistance fade as blood restriction takes effect.",
+      "text": "Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. The choke tightens with each exhale the opponent makes. Wait patiently for the tap as blood restriction takes effect.",
       "position": 7
     }
   ],
@@ -300,6 +298,8 @@ The arm triangle from high mount leverages your dominant elevated position to is
 
 <section id="execution-steps" class="content-section">
 
+> Release immediately upon tap. [[Submissions/Arm Triangle/from High Mount#safety-considerations|Injury risks ↓]]
+
 ## Execution Steps
 
 <p class="section-subtitle">How do you execute Arm Triangle from High Mount step by step?</p>
@@ -310,7 +310,7 @@ The arm triangle from high mount leverages your dominant elevated position to is
 4. **Lock the figure-four or gable grip**: Connect your hands by gripping your own bicep with the choking hand while your free hand cups behind the opponent's head, creating a tight figure-four lock. Alternatively, use a gable grip for maximum compression. The grip must lock the opponent's head and trapped arm together as a single unit with zero slack in the configuration. (Timing: 1 second)
 5. **Step over and walk to the finishing angle**: Step your leg over the opponent's body and walk your hips around toward the trapped-arm side until you are perpendicular to their body. Your chest should be directly over their face. Each step tightens the choke by removing available space between your bodies. The perpendicular angle ensures the opponent's shoulder drives maximally into their own carotid. (Timing: 2-4 seconds)
 6. **Drop hip and seal the position**: Drop your hip closest to the trapped arm to the mat, sprawling your weight onto the opponent. Your head drops low to the mat on the far side of their head, sealing the position completely. This removes the space opponents use to breathe or create defensive frames. Your body acts as a wall preventing any rotation or escape movement. (Timing: 1-2 seconds)
-7. **Apply progressive chest compression**: Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. The choke tightens with each exhale the opponent makes. Wait patiently for the tap or feel resistance fade as blood restriction takes effect. (Timing: 3-8 seconds to finish)
+7. **Apply progressive chest compression**: Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. The choke tightens with each exhale the opponent makes. Wait patiently for the tap as blood restriction takes effect. (Timing: 3-8 seconds to finish)
 
 
 </section>

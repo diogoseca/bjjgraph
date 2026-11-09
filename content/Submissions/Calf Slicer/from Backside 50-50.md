@@ -46,6 +46,16 @@ description: "Master the calf slicer from backside 50-50 with expert finishing m
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Outside-In Calf Slicer from 50/50",
+      "description": "Calf Slicer from Backside 50-50 film study: Outside-In Calf Slicer from 50/50.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6LP7Ssy2nOk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6LP7Ssy2nOk",
+      "url": "https://www.youtube.com/watch?v=6LP7Ssy2nOk",
+      "duration": "PT300S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "5050 Calf Slicer",
       "description": "Calf Slicer from Backside 50-50 film study: 5050 Calf Slicer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/d4KgnwWTkuk/hqdefault.jpg",
@@ -55,7 +65,7 @@ description: "Master the calf slicer from backside 50-50 with expert finishing m
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Calf Slicer Positions: RDLR, 50/50, Z Guard",
       "description": "Calf Slicer from Backside 50-50 film study: Calf Slicer Positions: RDLR, 50/50, Z Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/buBg-yzLTrY/hqdefault.jpg",
@@ -92,9 +102,6 @@ description: "Master the calf slicer from backside 50-50 with expert finishing m
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer from Backside 50-50 targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Calf Slicer/from Backside 50-50/Attacker|Play as Attacker]]
@@ -121,6 +128,14 @@ This submission serves as a critical secondary threat within the backside 50-50 
 
 <p class="section-subtitle">Watch Calf Slicer from Backside 50-50 in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6LP7Ssy2nOk)
+
+<p class="clip-credit"><strong>Outside-In Calf Slicer from 50/50</strong> · 5:00 · <a href="https://www.youtube.com/watch?v=6LP7Ssy2nOk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -188,6 +203,8 @@ This submission serves as a critical secondary threat within the backside 50-50 
 
 - Apply compression gradually in training, allowing time for your partner to tap before tissue damage occurs
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -259,6 +276,8 @@ This submission serves as a critical secondary threat within the backside 50-50 
 - Increased forward knee-line control combined with the opponent pulling your foot toward them
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -312,9 +331,8 @@ This submission serves as a critical secondary threat within the backside 50-50 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -324,32 +342,9 @@ This submission serves as a critical secondary threat within the backside 50-50 
 | Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (encouraged due to leg entanglement)
-- Physical hand tap on partner or mat
-- Physical foot tap if hands trapped
-- Any distress vocalization or signal
-- Slapping mat with free hand multiple times
 
 
-**Release Protocol**:
-1. Immediately release foot grip upon tap signal
-2. Remove shin pressure from calf slowly and controlled
-3. Unwrap legs carefully without jerking movements
-4. Allow partner to extend leg naturally before disengaging
-5. Check partner's mobility and sensation before continuing training
-
-
-**Training Restrictions**:
-- Never apply at competition speed in training
-- Never spike or jerk the compression
-- Never hold after tap to finish the position
-- Always allow immediate tap access with both hands
-- Prohibited for colored belts below brown belt in most organizations
-- Never practice on partners with previous calf injuries without explicit consent
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

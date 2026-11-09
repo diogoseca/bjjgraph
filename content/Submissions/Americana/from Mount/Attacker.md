@@ -10,8 +10,6 @@ description: "How to execute Americana from Mount in BJJ. Attacking perspective 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Mount targets the Shoulder joint (rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -182,6 +180,16 @@ description: "How to execute Americana from Mount in BJJ. Attacking perspective 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Basic AMERICANA SHOULDER SUBMISSION from MOUNT (A.K.A Paint Brush, Figure Four\u2026",
+      "description": "Americana from Mount (Attacker) film study: Basic AMERICANA SHOULDER SUBMISSION from MOUNT (A.K.A Paint Brush, Figure Four\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GX1fk0p0lwc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GX1fk0p0lwc",
+      "url": "https://www.youtube.com/watch?v=GX1fk0p0lwc",
+      "duration": "PT211S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "\ud83d\udee1\ufe0f Americana from Mount Explained | BJJ Submission Guide",
       "description": "Americana from Mount (Attacker) film study: \ud83d\udee1\ufe0f Americana from Mount Explained | BJJ Submission Guide.",
       "thumbnailUrl": "https://i.ytimg.com/vi/N-bZMbI2jSo/hqdefault.jpg",
@@ -217,6 +225,14 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 <p class="section-subtitle">Watch Americana from Mount (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GX1fk0p0lwc)
+
+<p class="clip-credit"><strong>Basic AMERICANA SHOULDER SUBMISSION from MOUNT (A.K.A Paint Brush, Figure Four…</strong> · 3:31 · <a href="https://www.youtube.com/watch?v=GX1fk0p0lwc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -264,6 +280,8 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Americana/from Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

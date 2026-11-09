@@ -92,9 +92,6 @@ description: "Master the Gift Wrap Armbar in BJJ. Complete guide to attacking th
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Gift Wrap Armbar from Gift Wrap targets the Elbow joint. Primary risk: Elbow hyperextension causing damage to the ulnar collateral ligament, radial collateral ligament, or joint capsule. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Gift Wrap Armbar/from Gift Wrap/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 - Apply finishing pressure through progressive hip elevation rather than pulling the arm with upper body strength
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -261,6 +260,8 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 - Attacker transitions grip from seatbelt or neck control to a two-on-one configuration on your free arm
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -325,9 +326,8 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -336,28 +336,9 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 | Radial nerve compression from prolonged forearm pressure during wrist control phase of the armbar | Low | Hours to days for temporary numbness, 2-4 weeks if nerve irritation persists |
 
 
-**Application Speed**: MODERATE to SLOW. The armbar extension phase must be applied progressively with controlled hip elevation. Never jerk, spike, or explosively extend the arm. Allow the opponent time to recognize the submission and tap before reaching full extension. The transition from gift wrap control to armbar position can be executed at normal speed, but the finishing pressure must always be gradual.
-
-**Tap Signals**:
-- Verbal tap saying 'tap' or any distress vocalization
-- Physical hand tap on partner, own body, or mat with free hand
-- Physical foot tap on mat or partner with either leg
-- Any unusual screaming, grunting, or verbal distress signal
 
 
-**Release Protocol**:
-1. Release all hip pressure immediately upon any tap signal before releasing arm grip
-2. Lower hips completely and open leg clamp before releasing wrist control
-3. If opponent cannot tap verbally or physically due to position, watch for body tension changes and release if in doubt
-4. Return to neutral position and allow partner to assess arm condition before continuing
-
-
-**Training Restrictions**:
-- Apply finishing extension at 50% speed or slower during drilling and allow training partner to tap early
-- White and blue belts should practice the setup and transition without applying full finishing pressure
-- Never crank or bounce the armbar extension to overcome resistance during training
-- Partners with previous elbow injuries should communicate limitations before drilling this technique
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

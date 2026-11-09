@@ -82,9 +82,6 @@ description: "Master the rear naked choke from standing back control in BJJ. Com
 <span class="meta-chip">65% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Standing Back Control targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Standing Back Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ At the competition level, standing back control finishes appear frequently in bo
 - Be prepared to finish during the transition to ground — the descent often creates the best finishing window
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -239,6 +238,8 @@ At the competition level, standing back control finishes appear frequently in bo
 - Opponent adjusts their head position to the choking side and their breathing pattern changes, indicating commitment to the finish
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -298,9 +299,8 @@ At the competition level, standing back control finishes appear frequently in bo
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -311,34 +311,9 @@ At the competition level, standing back control finishes appear frequently in bo
 | Head or spinal injury from uncontrolled fall while choke is applied standing | CRITICAL | Variable — potential permanent injury if fall is uncontrolled |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. Never snap or jerk the choke. Partner should have full awareness of pressure building. Standing application requires extra caution due to fall risk.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' or make any verbal sound)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Going limp or loss of consciousness — release immediately
-- Any distress signal or unusual sound
 
 
-**Release Protocol**:
-1. Immediately release choking arm upon tap signal
-2. Remove hooks and any body control grips
-3. If standing, carefully guide partner to a controlled seated or side-lying position
-4. Monitor consciousness and breathing for 30 seconds
-5. If partner was unconscious, keep them lying down until fully alert and oriented
-6. Never allow unconscious partner to stand immediately — risk of secondary fall injury
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity in drilling
-- Never apply the choke to the trachea or windpipe — blade of forearm must cross carotid arteries
-- Always ensure partner has clear tap access with both hands
-- Stop immediately if partner makes any distress sound
-- Never hold a choke past the tap for any reason
-- Beginners must practice with extremely slow progression only
-- When drilling standing, use mats and practice controlled descents to prevent fall injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

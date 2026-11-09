@@ -10,8 +10,6 @@ description: "How to defend against Tarikoplata in BJJ. Recognition, escape path
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Tarikoplata from Closed Guard targets the Shoulder joint and rotator cuff. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -224,6 +222,8 @@ Defending the tarikoplata requires recognizing the threat early and acting decis
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Tarikoplata/from Closed Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

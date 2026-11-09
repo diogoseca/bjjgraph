@@ -246,7 +246,7 @@ Executing the turn into opponent escape from back control requires systematic di
 |--------|----------|-------------|
 | Success | [[Positions/Closed Guard]] | 55% |
 | Failure | [[Positions/Back Control]] | 30% |
-| Counter | [[Positions/Mount]] | 15% |
+| Failure | [[Positions/Mount]] | 15% |
 
 
 </section>

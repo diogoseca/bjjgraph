@@ -10,8 +10,6 @@ description: "Learn to attack with the Ezekiel Choke from side control top. Step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Ezekiel Choke from Side Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -270,6 +268,8 @@ Attacking with the Ezekiel Choke from side control exploits the perpendicular bo
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Ezekiel Choke/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

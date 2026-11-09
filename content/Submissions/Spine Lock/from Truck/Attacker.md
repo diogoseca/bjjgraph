@@ -10,8 +10,6 @@ description: "How to execute Spine Lock in BJJ. Attacking perspective with setup
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Spine Lock from Truck targets the Lumbar spine, thoracic vertebrae, spinal column. Risk: Lumbar spine strain or disc herniation. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -222,6 +220,8 @@ The Spine Lock is an advanced spinal compression submission that targets the opp
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Spine Lock/from Truck#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

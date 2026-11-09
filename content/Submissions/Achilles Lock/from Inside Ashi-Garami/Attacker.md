@@ -10,8 +10,6 @@ description: "Capturing the foot, placing the blade on the tendon, and extending
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Achilles Lock from Inside Ashi-Garami targets the Achilles tendon and ankle joint. Risk: Achilles tendon rupture or partial tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -187,6 +185,16 @@ description: "Capturing the foot, placing the blade on the tendon, and extending
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Ankle Lock: Straight Ashi Garami",
+      "description": "Achilles Lock from Inside Ashi-Garami (Attacker) film study: Ankle Lock: Straight Ashi Garami.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MlQrVhlY_vg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MlQrVhlY_vg",
+      "url": "https://www.youtube.com/watch?v=MlQrVhlY_vg",
+      "duration": "PT142S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Finishing the Straight Ankle Lock (BJJ): Countering Defense to the Achilles\u2026",
       "description": "Achilles Lock from Inside Ashi-Garami (Attacker) film study: Finishing the Straight Ankle Lock (BJJ): Countering Defense to the Achilles\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9jaSEuYbq_4/hqdefault.jpg",
@@ -221,6 +229,14 @@ Your finish is decided by the order you do things in, not by how hard you extend
 
 <p class="section-subtitle">Watch Achilles Lock from Inside Ashi-Garami (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MlQrVhlY_vg)
+
+<p class="clip-credit"><strong>Ankle Lock: Straight Ashi Garami</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=MlQrVhlY_vg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -265,6 +281,8 @@ Your finish is decided by the order you do things in, not by how hard you extend
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Achilles Lock/from Inside Ashi-Garami#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

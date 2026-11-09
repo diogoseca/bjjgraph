@@ -204,14 +204,14 @@ Defending the X-Guard to Ashi Garami transition requires understanding the preci
 ### 1. Immediate leg extraction by driving your knee forward and pulling your foot back while their bottom hook is released
 
 - **When to use**: The instant you feel the bottom hook disengage from your hip. This window is narrow: you have approximately 1-2 seconds before the new inside leg position locks in.
-- **Targets**: [[Positions/X-Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You free your trapped leg entirely, breaking the X-Guard configuration and establishing top position with passing opportunities. Immediately advance to guard pass before opponent can re-establish any guard.
 - **Risk**: If you pull your leg back too slowly, you extend it directly into their control zone, actually making the Ashi entry easier. Failed extraction often accelerates their transition.
 
 ### 2. Step over the incoming inside leg by lifting your free leg and placing it on the opposite side of their threading leg before it crosses your centerline
 
 - **When to use**: When you see or feel their bottom leg beginning to thread across your hip. This must occur before their foot passes your centerline, otherwise you step into a deeper entanglement.
-- **Targets**: [[Positions/X-Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You deny inside position entirely, collapsing the Ashi configuration before it forms. From here you can immediately pressure pass or establish top control since their guard structure is broken.
 - **Risk**: Stepping over requires momentary single-leg balance, which can be exploited if they time a sweep during your weight transfer. Also risks entering outside Ashi if executed poorly.
 
@@ -239,7 +239,7 @@ Defending the X-Guard to Ashi Garami transition requires understanding the preci
 
 <p class="section-subtitle">What is the best outcome when defending X-Guard to Ashi Garami?</p>
 
-### → [[Positions/X-Guard]]
+### → [[Positions/Open Guard]]
 
 Extract your trapped leg during the transition window when opponent releases their bottom hook. Drive your knee forward assertively while pulling your foot back, then immediately advance to a passing position before they can re-establish guard hooks. Alternatively, step over their incoming inside leg before it crosses your centerline to deny Ashi configuration entirely.
 

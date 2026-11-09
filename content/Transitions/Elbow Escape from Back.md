@@ -36,6 +36,27 @@ description: "Master the elbow escape from back control in BJJ. Complete guide t
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape from Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Beginners Tutorial - Back Escape / Elbow Escape Method",
+      "description": "Elbow Escape from Back film study: BJJ Beginners Tutorial - Back Escape / Elbow Escape Method.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uyIV0ez9bUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uyIV0ez9bUo",
+      "url": "https://www.youtube.com/watch?v=uyIV0ez9bUo",
+      "duration": "PT264S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -75,6 +96,24 @@ Strategic integration of this escape with other back escape methods creates a la
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape from Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uyIV0ez9bUo)
+
+<p class="clip-credit"><strong>BJJ Beginners Tutorial - Back Escape / Elbow Escape Method</strong> · 4:24 · <a href="https://www.youtube.com/watch?v=uyIV0ez9bUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -84,7 +123,7 @@ Strategic integration of this escape with other back escape methods creates a la
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard]] | 50% |
 | Failure | [[Positions/Back Control]] | 30% |
-| Counter | [[Positions/Mount]] | 20% |
+| Failure | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -155,7 +194,7 @@ Strategic integration of this escape with other back escape methods creates a la
   - Correction: Always turn toward the opponent to face them directly, which blocks their ability to follow the rotation and naturally leads to half guard establishment
 
 - **Using explosive bridging movements instead of controlled hip escape mechanics**
-  - Consequence: Creates momentary space but opponent easily follows the explosive motion and frequently improves position to mount during the uncontrolled scramble
+  - Consequence: Creates momentary space but opponent easily follows the explosive motion and frequently maintains dominant control by moving to mount during the uncontrolled scramble
   - Correction: Use deliberate hip escape mechanics with consistent steady pressure against the elbow frame rather than explosive movements that waste energy and create unpredictable positions
 
 
@@ -245,7 +284,7 @@ The elbow escape from back control integrates into the broader back escape syste
 
 - [[Positions/Half Guard]] - Primary success target position where the escaper establishes leg entanglement after completing the turn
 
-- [[Positions/Mount]] - Counter outcome position when the back controller follows the escape turn and establishes mount
+- [[Positions/Mount]] - Failed half guard recovery when the back controller follows the escape turn and establishes mount
 
 - [[Transitions/Back Door Escape]] - Alternative escape from back control targeting turtle position, often chained with elbow escape attempts
 

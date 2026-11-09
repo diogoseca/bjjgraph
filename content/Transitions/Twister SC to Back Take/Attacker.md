@@ -176,6 +176,27 @@ description: "Execute the Twister Side Control to Back Take with systematic prec
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister SC to Back Take (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "twister side control / the truck / back",
+      "description": "Twister SC to Back Take (Attacker) film study: twister side control / the truck / back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c2YXoKSd5Fw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c2YXoKSd5Fw?start=141",
+      "url": "https://www.youtube.com/watch?v=c2YXoKSd5Fw",
+      "duration": "PT414S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ Executing the Twister Side Control to Back Take requires recognizing the precise
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister SC to Back Take (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c2YXoKSd5Fw&start=141)
+
+<p class="clip-credit"><strong>twister side control / the truck / back</strong> · 6:54 · <a href="https://www.youtube.com/watch?v=c2YXoKSd5Fw&t=141s" rel="noopener">Watch on YouTube from 2:21</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

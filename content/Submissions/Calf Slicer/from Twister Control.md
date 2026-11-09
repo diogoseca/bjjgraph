@@ -46,6 +46,26 @@ description: "Master the calf slicer from twister control in BJJ. Learn setup me
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Adults Technique 4/1/20 Twister to Calf Slicer and Armbar",
+      "description": "Calf Slicer from Twister Control film study: Adults Technique 4/1/20 Twister to Calf Slicer and Armbar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FhaUPcjiQpI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FhaUPcjiQpI",
+      "url": "https://www.youtube.com/watch?v=FhaUPcjiQpI",
+      "duration": "PT401S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No Gi BJJ: Truck to Calf Slicer or Back Control",
+      "description": "Calf Slicer from Twister Control film study: No Gi BJJ: Truck to Calf Slicer or Back Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PeTL7X19Imo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PeTL7X19Imo?start=32",
+      "url": "https://www.youtube.com/watch?v=PeTL7X19Imo",
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "X-PASS - SIDE CONTROL - TWISTER ROLL - CALF SLICER",
       "description": "Calf Slicer from Twister Control film study: X-PASS - SIDE CONTROL - TWISTER ROLL - CALF SLICER.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4gzXKLfRlYY/hqdefault.jpg",
@@ -82,9 +102,6 @@ description: "Master the calf slicer from twister control in BJJ. Learn setup me
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer from Twister Control targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Calf Slicer/from Twister Control/Attacker|Play as Attacker]]
@@ -111,6 +128,22 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 
 <p class="section-subtitle">Watch Calf Slicer from Twister Control in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FhaUPcjiQpI)
+
+<p class="clip-credit"><strong>Adults Technique 4/1/20 Twister to Calf Slicer and Armbar</strong> · 6:41 · <a href="https://www.youtube.com/watch?v=FhaUPcjiQpI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PeTL7X19Imo&start=32)
+
+<p class="clip-credit"><strong>No Gi BJJ: Truck to Calf Slicer or Back Control</strong> · 2:23 · <a href="https://www.youtube.com/watch?v=PeTL7X19Imo&t=32s" rel="noopener">Watch on YouTube from 0:32</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -170,6 +203,8 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 
 - Keep your hips heavy and base stable to prevent the defender from rolling or scrambling free during the transition
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -241,6 +276,8 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 - Opponent adjusting their hip angle to create better leverage for positioning the shin as a fulcrum
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -282,9 +319,8 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -294,32 +330,9 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 | Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap strongly encouraged due to leg entanglement restricting hand access
-- Physical hand tap on partner or mat when possible
-- Physical foot tap with free leg if hands are trapped
-- Any distress vocalization treated as immediate tap signal
-- Slapping mat with free hand multiple times
 
 
-**Release Protocol**:
-1. Immediately release foot grip upon any tap signal
-2. Remove shin pressure from behind the knee slowly and controlled
-3. Unwrap legs from twister entanglement carefully without jerking
-4. Allow partner to extend leg naturally before fully disengaging
-5. Check partner's calf mobility and sensation before continuing training
-
-
-**Training Restrictions**:
-- Never apply at competition speed in training
-- Never spike or jerk the compression under any circumstances
-- Never hold after tap to practice finishing position
-- Always ensure partner has immediate tap access with at least one hand or verbal ability
-- Prohibited for colored belts below brown belt in most competition rulesets
-- Never practice on partners with previous calf or Achilles injuries without explicit consent
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

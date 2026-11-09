@@ -46,6 +46,26 @@ description: "Master the Flying Armbar technique in BJJ. High-risk aerial submis
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Flying Armbar (Flying Juji-Gatame)",
+      "description": "Flying Armbar from Closed Guard film study: Flying Armbar (Flying Juji-Gatame).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/chFHrPFWQ6Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/chFHrPFWQ6Q",
+      "url": "https://www.youtube.com/watch?v=chFHrPFWQ6Q",
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "BJJ - How to Safely Practice the Flying Armbar - Firas Zahabi",
+      "description": "Flying Armbar from Closed Guard film study: BJJ - How to Safely Practice the Flying Armbar - Firas Zahabi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RgZdYVZqbwA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RgZdYVZqbwA?start=48",
+      "url": "https://www.youtube.com/watch?v=RgZdYVZqbwA",
+      "duration": "PT248S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Flying Armbar - Using an Ese",
       "description": "Flying Armbar from Closed Guard film study: Flying Armbar - Using an Ese.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9BHfe_ar48Q/hqdefault.jpg",
@@ -82,9 +102,6 @@ description: "Master the Flying Armbar technique in BJJ. High-risk aerial submis
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Flying Armbar from Closed Guard targets the Elbow joint and shoulder. Primary risk: Elbow hyperextension or ligament tears (opponent). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Flying Armbar/from Closed Guard/Attacker|Play as Attacker]]
@@ -111,6 +128,22 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <p class="section-subtitle">Watch Flying Armbar from Closed Guard in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=chFHrPFWQ6Q)
+
+<p class="clip-credit"><strong>Flying Armbar (Flying Juji-Gatame)</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=chFHrPFWQ6Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RgZdYVZqbwA&start=48)
+
+<p class="clip-credit"><strong>BJJ - How to Safely Practice the Flying Armbar - Firas Zahabi</strong> · 4:08 · <a href="https://www.youtube.com/watch?v=RgZdYVZqbwA&t=48s" rel="noopener">Watch on YouTube from 0:48</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -172,6 +205,8 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 - Immediate arm extension: Once airborne, pull the arm across your centerline and extend hips to create finishing pressure
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -247,6 +282,8 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 - Feet leave your hips or biceps simultaneously rather than sequentially, which distinguishes a flying submission entry from a standard guard transition
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -321,9 +358,8 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -333,33 +369,9 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 | Head and facial impact injuries | Medium | 1-4 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW in training - 5-7 seconds minimum from entry to finish. NEVER use competition speed in drilling. Allow partner to safely position themselves.
-
-**Tap Signals**:
-- Verbal tap (most important during aerial techniques)
-- Physical hand tap (multiple rapid taps)
-- Physical foot tap or stomp
-- Any distress signal or protective movement
-- Partner going limp or unresponsive
 
 
-**Release Protocol**:
-1. Immediately release hip pressure and leg grip
-2. Release arm control while supporting opponent's arm
-3. Allow opponent to safely extract their arm
-4. Assist partner in sitting up if they landed awkwardly
-5. Check for any signs of injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jump aggressively onto opponent's arm
-- Never use full competition speed in training
-- Always ensure mat space is clear before attempting
-- Never practice on partners significantly smaller than you
-- Prohibit this technique for white belts and most blue belts
-- Always have experienced instructor supervision when learning
-- Never combine with other dynamic movements in drilling
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

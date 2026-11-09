@@ -91,6 +91,8 @@ function node(values = {}) {
     setAttribute: key => attrs.add(key), hasAttribute: key => attrs.has(key),
     removeAttribute: key => attrs.delete(key),
     toggleAttribute(key, on) { if (on) attrs.add(key); else attrs.delete(key); },
+    // U59 c: a grid-width change looks for the first text block at the reader's top; these fixtures hold none.
+    querySelectorAll: () => [],
     append(el) { el.parentElement = this; }, appendChild(el) { this.append(el); },
     before(el) { el.parentElement = this.parentElement; },
     remove() { this.isConnected = false; },
@@ -131,7 +133,7 @@ function choose(f) {
   const stand = node(); stand._ngDock = { w: 390, h: 844, bottom: NaN };
   a._optionCards = [{ opt, card: { getBoundingClientRect: () => ({ top: 492.75 }) } }];
   a.executionCard = () => stand;
-  new Function("app", "reader", wrapper)(a, r);
+  new Function("app", "reader", "const rect = el => el.getBoundingClientRect();\n" + wrapper)(a, r);
   assert.equal(a.executionCard(opt), stand);
   a._execution = { card: stand, result: false };
   return stand;

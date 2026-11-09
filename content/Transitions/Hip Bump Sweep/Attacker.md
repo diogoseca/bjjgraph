@@ -324,7 +324,7 @@ The Hip Bump Sweep is also an excellent technique for developing timing, hip mob
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 60% |
 | Failure | [[Positions/Closed Guard]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -339,7 +339,7 @@ The Hip Bump Sweep is also an excellent technique for developing timing, hip mob
 - **Opponent pulls their controlled arm back forcefully to break your grip** (Effectiveness: Medium) - Your Response: Follow their arm back and transition to Guillotine choke or High Elbow Guillotine. As they pull back, their head comes forward into perfect guillotine position. Wrap your arm around their neck and lock up the choke before they can re-establish posture. → Leads to [[Positions/Closed Guard]]
 - **Opponent establishes extremely strong posture before you can execute the sweep** (Effectiveness: High) - Your Response: Abandon the Hip Bump temporarily and work to break their posture again using collar grips, overhooks, or by threatening other attacks like Triangle or Armbar. Strong posture makes the Hip Bump significantly less effective - re-break posture before reattempting. → Leads to [[Positions/Closed Guard]]
 - **Opponent sprawls their hips back as you begin the hip bump motion** (Effectiveness: Medium) - Your Response: If they sprawl early, you can often still complete the sweep with more emphasis on pulling their head down and driving through at a steeper angle. Alternatively, transition to a Sit-Up Sweep variation or use the forward momentum to set up a Guillotine. → Leads to [[Positions/Closed Guard]]
-- **Opponent drives forward aggressively to flatten you back down during the bump** (Effectiveness: Low) - Your Response: Their forward drive actually loads weight onto you, which you can redirect laterally with the 45-degree angle bump. Use their forward momentum against them by timing the bump as they commit their weight forward. This often makes the sweep easier rather than harder. → Leads to [[Positions/Closed Guard]]
+- **Opponent drives forward aggressively to flatten you back down during the bump** (Effectiveness: Low) - Your Response: Their forward drive actually loads weight onto you, which you can redirect laterally with the 45-degree angle bump. Use their forward momentum against them by timing the bump as they commit their weight forward. This often makes the sweep easier rather than harder. If you miss the timing, they flatten you with your guard open and you continue from open guard. → Leads to [[Positions/Open Guard]]
 
 
 </section>
@@ -424,15 +424,6 @@ The Hip Bump Sweep is generally a very safe technique for both practitioners whe
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ryan Hall: The Modern Triangle</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Teaching BJJ: Explanation, Recall and Application</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Hip Bump Sweep.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

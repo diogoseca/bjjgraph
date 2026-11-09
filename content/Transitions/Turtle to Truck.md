@@ -46,12 +46,12 @@ description: "Master the Turtle to Truck transition in BJJ. Step-by-step executi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Hip Lock Countering the Truck",
-      "description": "Turtle to Truck film study: Hip Lock Countering the Truck.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_0TeNLuarPU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_0TeNLuarPU",
-      "url": "https://www.youtube.com/watch?v=_0TeNLuarPU",
-      "duration": "PT35S"
+      "name": "Entering \u201cThe Truck\u201d from Attacking Turtle",
+      "description": "Turtle to Truck film study: Entering \u201cThe Truck\u201d from Attacking Turtle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FR-0JbBzCPQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FR-0JbBzCPQ",
+      "url": "https://www.youtube.com/watch?v=FR-0JbBzCPQ",
+      "duration": "PT126S"
     }
   ]
 }
@@ -101,9 +101,9 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_0TeNLuarPU)
+![](https://www.youtube.com/watch?v=FR-0JbBzCPQ)
 
-<p class="clip-credit"><strong>Hip Lock Countering the Truck</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=_0TeNLuarPU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Entering “The Truck” from Attacking Turtle</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=FR-0JbBzCPQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -308,15 +308,6 @@ The Truck transition is a critical component of modern no-gi grappling and the 1
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Twister and Truck Entries</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Tom DeBlass: The Lockdown Blueprint</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

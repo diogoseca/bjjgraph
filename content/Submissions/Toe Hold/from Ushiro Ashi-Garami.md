@@ -92,9 +92,6 @@ description: "Master the toe hold finish from ushiro ashi-garami with complete g
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Ushiro Ashi-Garami targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Ushiro Ashi-Garami/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, the toe hold from ushiro serves as a critical secondary attack wh
 - Control the opponent's free leg with your outside leg to prevent them from using it to rotate and relieve pressure
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -261,6 +260,8 @@ Strategically, the toe hold from ushiro serves as a critical secondary attack wh
 - The attacker shifts their weight backward slightly as they prepare to load the grip with hip extension
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -301,9 +302,8 @@ Strategically, the toe hold from ushiro serves as a critical secondary attack wh
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -314,33 +314,9 @@ Strategically, the toe hold from ushiro serves as a critical secondary attack wh
 | Achilles tendon strain | Medium | 4-6 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. The reversed ushiro angle amplifies rotational force unpredictably. This is NOT a technique to snap on in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly)
-- Physical hand tap on partner or mat (multiple taps)
-- Physical foot tap with free leg
-- Any verbal distress signal
-- Slapping the mat with hand
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the foot
-2. Release the figure-four grip and free the toes completely
-3. Release heel and ankle control
-4. Allow opponent's foot to return to neutral position naturally without abrupt release
-5. Maintain light contact until opponent signals they are okay
-6. Check with training partner before continuing the round
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual and controlled
-- Never grip individual toes - always grip across multiple toes and ball of foot
-- Never combine with explosive hip extension while the grip is locked
-- Always allow clear tap access for both of your partner's hands
-- Stop immediately at any sign of discomfort or popping sensation
-- Never train this submission at competition speed during drilling
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

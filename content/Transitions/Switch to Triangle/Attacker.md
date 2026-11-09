@@ -307,7 +307,7 @@ Success depends on maintaining continuous offensive pressure throughout the swit
 |--------|----------|-------------|
 | Success | [[Positions/Triangle Control]] | 55% |
 | Failure | [[Positions/Closed Guard]] | 30% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -319,7 +319,7 @@ Success depends on maintaining continuous offensive pressure throughout the swit
 <p class="section-subtitle">How might your opponent counter Switch to Triangle?</p>
 
 - **Opponent postures up aggressively during transition before triangle locks** (Effectiveness: High) - Your Response: Maintain strong overhook or head control and use your legs to break posture back down. If posture cannot be broken, transition to omoplata or overhook guard rather than forcing a compromised triangle. The key is not releasing your anchor grip during their posture attempt. → Leads to [[Positions/Closed Guard]]
-- **Opponent stacks your hips and drives forward to pass guard during the switch** (Effectiveness: Medium) - Your Response: Keep shoulders off the mat by posting on your elbow, create frames against their hips to prevent the stack, and be ready to follow their pressure into an omoplata or sweep if the triangle position becomes too compressed. Never accept a flat back under stacking pressure. → Leads to [[Positions/Closed Guard]]
+- **Opponent stacks your hips and drives forward to pass guard during the switch** (Effectiveness: Medium) - Your Response: Keep shoulders off the mat by posting on your elbow, create frames against their hips to prevent the stack, and be ready to follow their pressure into an omoplata or sweep if the triangle position becomes too compressed. Never accept a flat back under stacking pressure. → Leads to [[Positions/Side Control]]
 - **Opponent grabs your leg to prevent it from crossing their neck and blocks the triangle entry** (Effectiveness: Medium) - Your Response: Use your free leg to kick away their grip on your attacking leg, swim your leg over the top of their grip rather than forcing it through their block, or switch to armbar or omoplata if the triangle entry is denied since your angle is already established. → Leads to [[Positions/Closed Guard]]
 - **Opponent circles away and creates distance before triangle locks in** (Effectiveness: Low) - Your Response: Follow their circular movement with your hips, maintain constant pressure with your bottom leg behind their shoulder, and adjust your angle continuously. If they fully disengage, recover closed guard and re-attack knowing they are susceptible to the same chain. → Leads to [[Positions/Closed Guard]]
 
@@ -406,16 +406,6 @@ The switch to triangle transition is relatively safe when practiced with proper 
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ryan Hall: The Modern Triangle</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Rubber Guard to Omoplata</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Rubber Guard and Triangle Attacks</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

@@ -102,9 +102,6 @@ description: "Master the Arm Triangle from Shoulder of Justice. Learn how intens
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Arm Triangle from Shoulder of Justice targets the Carotid arteries (compressed by opponent's own shoulder and attacker's arm). Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm Triangle/from Shoulder of Justice/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ The finishing sequence involves locking the head-and-arm grip, walking to a perp
 - Keep your head low and glued to the mat on the far side of opponent's head to seal the choke and prevent frame escapes
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -277,6 +276,8 @@ The finishing sequence involves locking the head-and-arm grip, walking to a perp
 - The attacker's head drops low to the mat on the far side of your head as they settle into the finishing position with their hip on the mat
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -338,9 +339,8 @@ The finishing sequence involves locking the head-and-arm grip, walking to a perp
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -349,31 +349,9 @@ The finishing sequence involves locking the head-and-arm grip, walking to a perp
 | Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap (multiple taps on opponent or mat)
-- Physical foot tap (multiple taps with foot)
-- Any distress signal or loss of resistance
-- Immediately release if opponent goes limp
 
 
-**Release Protocol**:
-1. Immediately release arm squeeze and remove chest pressure
-2. Step back from opponent's head and shoulders
-3. Allow opponent to breathe and recover (30-60 seconds)
-4. Check for consciousness and normal breathing
-5. If unconscious: position on side, elevate legs, monitor breathing until conscious
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth progressive pressure only
-- Never hold after tap signal - release immediately upon any tap
-- Always allow tap access - do not trap both arms in training
-- Never use competition speed in training - practice control first
-- Stop immediately if opponent's face changes color (purple/red indicates excessive pressure)
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

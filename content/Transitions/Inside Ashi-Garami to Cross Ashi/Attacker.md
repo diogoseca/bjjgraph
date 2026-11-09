@@ -182,6 +182,37 @@ description: "How to execute Inside Ashi-Garami to Cross Ashi in BJJ. Attacking 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Ashi-Garami to Cross Ashi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ashi garami to 411",
+      "description": "Inside Ashi-Garami to Cross Ashi (Attacker) film study: Ashi garami to 411.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVYMMNbJjRk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVYMMNbJjRk",
+      "url": "https://www.youtube.com/watch?v=lVYMMNbJjRk",
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The only move you need. Ashi Garami to Honeyhole Sankaku saddle 411 kasa.\u2026",
+      "description": "Inside Ashi-Garami to Cross Ashi (Attacker) film study: The only move you need. Ashi Garami to Honeyhole Sankaku saddle 411 kasa.\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pxncCa02Bzo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pxncCa02Bzo",
+      "url": "https://www.youtube.com/watch?v=pxncCa02Bzo",
+      "duration": "PT178S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -198,6 +229,32 @@ Strategically, this transition serves as an essential response when opponents su
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Ashi-Garami to Cross Ashi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVYMMNbJjRk)
+
+<p class="clip-credit"><strong>Ashi garami to 411</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=lVYMMNbJjRk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pxncCa02Bzo)
+
+<p class="clip-credit"><strong>The only move you need. Ashi Garami to Honeyhole Sankaku saddle 411 kasa.…</strong> · 2:58 · <a href="https://www.youtube.com/watch?v=pxncCa02Bzo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -170,6 +170,37 @@ description: "How to execute Leg Drag to North-South in BJJ. Attacking perspecti
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to North-South (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ: Leg Drag Pass To North-South | Evolve MMA",
+      "description": "Leg Drag to North-South (Attacker) film study: BJJ: Leg Drag Pass To North-South | Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AwwJ1HI7D20/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AwwJ1HI7D20",
+      "url": "https://www.youtube.com/watch?v=AwwJ1HI7D20",
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Drag to North South",
+      "description": "Leg Drag to North-South (Attacker) film study: Leg Drag to North South.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yCIUXFyowFs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yCIUXFyowFs?start=40",
+      "url": "https://www.youtube.com/watch?v=yCIUXFyowFs",
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -186,6 +217,32 @@ From a systematic perspective, the leg drag to north-south fills an essential ga
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to North-South (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AwwJ1HI7D20)
+
+<p class="clip-credit"><strong>BJJ: Leg Drag Pass To North-South | Evolve MMA</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=AwwJ1HI7D20" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yCIUXFyowFs&start=40)
+
+<p class="clip-credit"><strong>Leg Drag to North South</strong> · 2:39 · <a href="https://www.youtube.com/watch?v=yCIUXFyowFs&t=40s" rel="noopener">Watch on YouTube from 0:40</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -330,14 +387,6 @@ This transition is relatively low-risk from an injury standpoint as it involves 
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Ariel-Tabak-Outside-Passing-System" data-cta="related-system-card" data-system-slug="systems/ariel-tabak-outside-passing-system" data-system-name="Ariel Tabak Outside Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ariel Tabak: Outside Passing and Finishing</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related BJJGraph transition.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

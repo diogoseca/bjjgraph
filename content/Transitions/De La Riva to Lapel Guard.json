@@ -33,7 +33,7 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -92,7 +92,7 @@
     },
     {
       "name": "Open Guard",
-      "relationship": "Position the opponent reaches if they counter the extraction by passing the loose lapel"
+      "relationship": "Position you return to on the bottom if opponent counters the extraction by passing the loose lapel, giving them a passing opportunity"
     }
   ],
   "attacker": {
@@ -158,7 +158,7 @@
         "counter": "Opponent strips the loose lapel and drives forward to pass while the cloth is unsecured",
         "effectiveness": "Medium",
         "your_response": "If they catch the lapel mid-feed, abandon the wrap, recover your De La Riva hook and frames, and re-close to open guard rather than fighting to complete a compromised configuration that exposes you to the pass.",
-        "targets_outcome": "Open Guard/Top"
+        "targets_outcome": "Open Guard/Bottom"
       },
       {
         "counter": "Opponent kills the De La Riva hook by sitting their weight back and pulling the leg free",
@@ -295,7 +295,18 @@
       }
     ],
     "safety_considerations": "This entry is a positional gi transition with low inherent injury risk, but a few precautions apply. Avoid cinching the lapel wrap so aggressively around the opponent's knee that it torques the joint laterally - the goal is to trap and control the leg, not to apply a leg lock, so feed the fabric with control and release immediately if your partner signals knee discomfort. Be mindful of finger entanglement in the gi during the feed and re-grip; keep fingers hooked rather than deeply threaded to prevent finger sprains if the opponent rips free. When drilling the standing-pass timing, communicate clearly so neither partner is surprised by the sudden leg entanglement, which can unbalance a standing opponent.",
-    "clips": []
+    "clips": [
+      {
+        "id": "n5_uWP0hc_c",
+        "title": "Lapelapalooza Lapel Guard System - Setting up The Worm Position from De La…",
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 670,
+        "vertical": false,
+        "start": 246,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "De La Riva to Lapel Guard Defender",
@@ -333,7 +344,7 @@
       {
         "action": "Strip the loose lapel and drive forward to pass while the fabric is still unsecured",
         "when_to_use": "When the opponent has freed the lapel but has not yet completed the wrap behind your knee",
-        "targets_outcome": "Open Guard/Top",
+        "targets_outcome": "Open Guard/Bottom",
         "if_successful": "You clear the half-formed wrap, free your leg, and convert the opponent's incomplete entry into a guard-passing opportunity",
         "risk": "If you misjudge and the wrap is more complete than it appears, driving forward can tighten the entanglement and feed their sweep"
       }
@@ -344,7 +355,7 @@
         "how": "Deny the entry by protecting your lapel and managing your weight so the lead leg is never committed, then backstep and circle the hooked leg out to reset the exchange to a basic De La Riva where you can resume passing without facing lapel control."
       },
       {
-        "outcome": "Open Guard/Top",
+        "outcome": "Open Guard/Bottom",
         "how": "When the opponent frees the lapel but has not yet secured the wrap behind your knee, strip the loose fabric, clear the De La Riva hook, and drive forward into the opening to begin a guard pass against their now-disrupted open guard."
       }
     ],

@@ -904,7 +904,25 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "YqrhOhBP4XQ",
+        "title": "Quarter guard",
+        "channel": "Masters Martial Arts",
+        "duration": 120,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "oOMpgtyVYa8",
+        "title": "Quarter Guard System: Wrestle Up & Attack the Legs with Kyle Boehm",
+        "channel": "Gold BJJ",
+        "duration": 292,
+        "vertical": false,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "flashcards_position": [
     {

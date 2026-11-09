@@ -156,6 +156,37 @@ description: "Master K-Guard Bottom in BJJ. Dynamic half guard variation with in
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "K-Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "K Guard Options",
+      "description": "K-Guard (Bottom) film study: K Guard Options.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sixNuvnjL6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sixNuvnjL6s",
+      "url": "https://www.youtube.com/watch?v=sixNuvnjL6s",
+      "duration": "PT876S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "K-Guard For Complete Beginners | Great Open Guard For BJJ",
+      "description": "K-Guard (Bottom) film study: K-Guard For Complete Beginners | Great Open Guard For BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5b7391EWCPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5b7391EWCPs",
+      "url": "https://www.youtube.com/watch?v=5b7391EWCPs",
+      "duration": "PT1203S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -171,6 +202,32 @@ The position excels as both a retention platform and an offensive launching poin
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch K-Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sixNuvnjL6s)
+
+<p class="clip-credit"><strong>K Guard Options</strong> · 14:36 · <a href="https://www.youtube.com/watch?v=sixNuvnjL6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5b7391EWCPs)
+
+<p class="clip-credit"><strong>K-Guard For Complete Beginners | Great Open Guard For BJJ</strong> · 20:03 · <a href="https://www.youtube.com/watch?v=5b7391EWCPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">
@@ -363,16 +420,6 @@ Partner commits weight forward attempting various passing grips while bottom pra
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Down Under Leg Attacks</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Craig-Jones-Kneebar-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-kneebar-system" data-system-name="Craig Jones Kneebar System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Kneebars</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lachlan-Giles-K-Guard-System" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-k-guard-system" data-system-name="Lachlan Giles K-Guard System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles: K-Guard Entries and Offense</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">K-Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

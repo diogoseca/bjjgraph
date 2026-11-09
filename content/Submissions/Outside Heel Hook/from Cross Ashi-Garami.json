@@ -409,7 +409,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "tLcHN042w48",
+        "title": "Finishing Mechanics for the Outside Heel Hook from Irimi Ashi Garami and…",
+        "channel": "Fox Den Martial Arts",
+        "duration": 85,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "from Cross Ashi-Garami Defender",
@@ -584,6 +594,24 @@
         "description": "Start in cross ashi-garami bottom against a partner attacking heel hooks at 70-90% intensity. Apply the complete defensive layering—boot defense, hand fighting, frame management, escape timing—under realistic pressure. Focus on surviving, escaping, or tapping safely. 3-minute rounds."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "XQd0-5hk1Lo",
+        "title": "Standard Ashi outside heel hook escape",
+        "channel": "GRAPPLING GAME CHANGER",
+        "duration": 94,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "CN_k8AXvOyk",
+        "title": "How To: Defend an outside heel hook",
+        "channel": "Flux MMA",
+        "duration": 202,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

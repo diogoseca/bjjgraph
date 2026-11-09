@@ -193,7 +193,7 @@
         "step_number": 6,
         "action": "Apply finishing pressure through body mechanics",
         "description": "Expand your chest while pulling your elbows back toward your own ribs, creating a scissoring action with your forearms against the carotid arteries. Drive your hips forward into the opponent's lower back to prevent them from creating space. Maintain deep hook pressure throughout to prevent hip escape or turning.",
-        "timing": "2-4 seconds of progressive squeeze until tap or unconsciousness"
+        "timing": "2-4 seconds of progressive squeeze until tap"
       },
       {
         "step_number": 7,
@@ -434,7 +434,18 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "poQVy53KJ_A",
+        "title": "Cross Collar Choke from the Back",
+        "channel": "Jiu-Jitsu On The Go",
+        "duration": 249,
+        "vertical": false,
+        "start": 33,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "from Seat Belt Control Back Defender",
@@ -619,6 +630,24 @@
         "description": "Start in seat belt back control with full resistance. Attacker uses the complete RNC and Short Choke two-threat system. Defender must recognize and defend both attacks while working escape sequences. Reset on submission or successful escape. Focus on staying calm under pressure and making correct defensive reads."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "NsS4fkMHv6w",
+        "title": "Collar Choke Defense From Back Mount",
+        "channel": "Gracie Ohio Jiu-Jitsu Academy",
+        "duration": 144,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "FJ2-33jFckg",
+        "title": "Lapel Choke Defense From Back Mount (Simple Way Of Breaking The Grip)",
+        "channel": "Chewjitsu",
+        "duration": 207,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

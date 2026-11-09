@@ -10,8 +10,6 @@ description: "Defend against the Estima Lock from Honey Hole. Recognition cues, 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Estima Lock from Honey Hole targets the Foot and ankle joints (dorsiflexion of foot). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -198,6 +196,8 @@ Defending the Estima Lock from Honey Hole demands awareness of an attack vector 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Estima Lock/from Honey Hole#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

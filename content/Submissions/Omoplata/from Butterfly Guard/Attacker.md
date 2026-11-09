@@ -10,8 +10,6 @@ description: "Execute the Omoplata from Butterfly Guard with hook elevation setu
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Butterfly Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -294,6 +292,8 @@ Attacking the Omoplata from Butterfly Guard requires mastery of the transition f
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Omoplata/from Butterfly Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

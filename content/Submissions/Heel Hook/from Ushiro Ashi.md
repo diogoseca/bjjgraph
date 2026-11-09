@@ -46,22 +46,12 @@ description: "Master the Heel Hook from Ushiro Ashi-Garami. Complete guide cover
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Double outside ashi heel hook escape / running man escape",
-      "description": "Heel Hook from Ushiro Ashi film study: Double outside ashi heel hook escape / running man escape.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2RLgyzWN71Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2RLgyzWN71Y",
-      "url": "https://www.youtube.com/watch?v=2RLgyzWN71Y",
-      "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Outside heel hook defense to Inside Heel Hook",
-      "description": "Heel Hook from Ushiro Ashi film study: Outside heel hook defense to Inside Heel Hook.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/clVAHxgRadE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/clVAHxgRadE",
-      "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
-      "duration": "PT104S"
+      "name": "Cross Ashi belly down heel hook",
+      "description": "Heel Hook from Ushiro Ashi film study: Cross Ashi belly down heel hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h_SRARh0B6U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h_SRARh0B6U",
+      "url": "https://www.youtube.com/watch?v=h_SRARh0B6U",
+      "duration": "PT67S"
     }
   ]
 }
@@ -92,9 +82,6 @@ description: "Master the Heel Hook from Ushiro Ashi-Garami. Complete guide cover
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Heel Hook from Ushiro Ashi targets the Knee ligaments (MCL, LCL, meniscus) via rotational force through heel. Primary risk: MCL/LCL tear from rotational force exceeding ligament tolerance. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Heel Hook/from Ushiro Ashi/Attacker|Play as Attacker]]
@@ -124,17 +111,9 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=2RLgyzWN71Y)
+![](https://www.youtube.com/watch?v=h_SRARh0B6U)
 
-<p class="clip-credit"><strong>Double outside ashi heel hook escape / running man escape</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=2RLgyzWN71Y" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=clVAHxgRadE)
-
-<p class="clip-credit"><strong>Outside heel hook defense to Inside Heel Hook</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross Ashi belly down heel hook</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=h_SRARh0B6U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -189,6 +168,8 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 
 - Prioritize position retention over premature finishing attempts when the opponent's defensive grips are strong and established
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -262,6 +243,8 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 - Attacker's upper body begins rotating as a unit, indicating imminent application of finishing rotational force
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -327,9 +310,8 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -339,30 +321,9 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 | Ankle ligament sprain from grip pressure on the heel and foot complex | Medium | 2-6 weeks for mild to moderate sprains |
 
 
-**Application Speed**: EXTREMELY SLOW and progressive. Heel hooks attack ligaments that provide no pain warning before catastrophic failure. Apply rotational force incrementally over several seconds, pausing frequently to allow partner time to recognize danger and tap. Never jerk, spike, or explosively rotate the heel under any circumstances.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat (any rapid tapping motion)
-- Physical foot tap with free leg on mat or partner
-- Any unusual vocalization, screaming, or distress sound
-- Pushing away or attempting to physically disengage from the submission
 
 
-**Release Protocol**:
-1. Release ALL rotational pressure immediately upon any tap signal - do not wait for confirmation
-2. Slowly unwind grip and leg control after releasing rotational pressure - do not abruptly release the leg
-3. If in doubt about whether partner tapped, release immediately - position can always be re-established
-4. Check on partner's knee condition after every training repetition, even when no tap occurred
-5. If partner becomes unresponsive or does not tap but appears in distress, release immediately and seek medical attention
-
-
-**Training Restrictions**:
-- Live heel hook finishing with rotational force restricted to brown and black belts with established trust between training partners
-- Lower belts practice catch-and-release only: establish grip control and position without applying any rotational finishing force
-- All practitioners must receive specific heel hook safety instruction before training this technique in any format
-- Never apply heel hooks during high-intensity scrambles where control and awareness may be compromised
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

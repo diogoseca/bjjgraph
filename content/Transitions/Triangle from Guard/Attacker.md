@@ -176,6 +176,37 @@ description: "How to execute Triangle from Guard in BJJ. Attacking perspective w
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle from Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ferro Academy BJJ No Gi Triangle from Rubber Guard",
+      "description": "Triangle from Guard (Attacker) film study: Ferro Academy BJJ No Gi Triangle from Rubber Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ekg3PrW62Ts/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ekg3PrW62Ts",
+      "url": "https://www.youtube.com/watch?v=Ekg3PrW62Ts",
+      "duration": "PT85S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle from the Rubber Guard",
+      "description": "Triangle from Guard (Attacker) film study: Triangle from the Rubber Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8osperxGvxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8osperxGvxU",
+      "url": "https://www.youtube.com/watch?v=8osperxGvxU",
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -192,6 +223,32 @@ Strategically, the Triangle from Guard serves as the cornerstone threat that mak
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle from Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ekg3PrW62Ts)
+
+<p class="clip-credit"><strong>Ferro Academy BJJ No Gi Triangle from Rubber Guard</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=Ekg3PrW62Ts" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8osperxGvxU)
+
+<p class="clip-credit"><strong>Triangle from the Rubber Guard</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=8osperxGvxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -355,15 +412,6 @@ The Triangle from Guard involves significant pressure on the cervical spine and 
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: The Ultimate Rubber Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Triangle from Guard: related submission study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Rubber Guard and Triangle Attacks</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related submission reference; inclusion here does not establish course coverage.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

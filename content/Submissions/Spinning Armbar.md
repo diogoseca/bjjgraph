@@ -120,9 +120,6 @@ description: "Master the Spinning Armbar in BJJ. Dynamic rotational submission t
 <span class="meta-chip">~60% avg</span>
 </div>
 
-> [!danger] Safety
-> Spinning Armbar targets the Elbow joint. Primary risk: Elbow hyperextension with ligament damage (UCL/MCL tears). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Spinning Armbar is a dynamic and versatile submission technique that targets the elbow joint through rotational movement. Unlike traditional static armbars, this technique involves spinning your entire body around the opponent's arm to create a finishing angle, making it particularly effective when standard armbar entries are defended or unavailable. The spinning motion generates momentum that can overcome defensive postures and creates multiple entry points from various positions including mount, guard, scrambles, and standing situations. This submission requires precise timing, spatial awareness, and fluid hip movement to execute successfully.
@@ -232,9 +229,8 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -244,30 +240,9 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 | Neck strain if opponent's head is trapped during rotation | Medium | 1-3 weeks |
 
 
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum for the full rotation and extension
-
-**Tap Signals**:
-- Verbal tap (especially during rotation phase)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any distress signal or loss of balance indication
 
 
-**Release Protocol**:
-1. Immediately stop all extension pressure on the elbow
-2. Release leg pressure across opponent's face and chest
-3. Allow opponent's arm to return to natural position without jerking
-4. Roll away from the submission to create space
-5. Check opponent's elbow mobility and comfort before continuing
-
-
-**Training Restrictions**:
-- Never spike or snap the armbar during the spinning motion
-- Never use competition speed in training - control the rotation carefully
-- Always allow opponent to tap during the spin phase before full extension
-- Never grip the wrist only - control above and below the elbow joint
-- Avoid spinning if opponent's base is compromised and they may land awkwardly
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

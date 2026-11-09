@@ -46,12 +46,12 @@ description: "Master the inside heel hook from ushiro ashi-garami with detailed 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Basic Inside/Inverted Heel Hook Escape",
-      "description": "Inside Heel Hook from Ushiro Ashi-Garami film study: Basic Inside/Inverted Heel Hook Escape.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5jD4ByQUrDA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/5jD4ByQUrDA",
-      "url": "https://www.youtube.com/watch?v=5jD4ByQUrDA",
-      "duration": "PT108S"
+      "name": "Inside Heel Hook from Saddle Finishing Mechanics Explained",
+      "description": "Inside Heel Hook from Ushiro Ashi-Garami film study: Inside Heel Hook from Saddle Finishing Mechanics Explained.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CE-249MNn5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CE-249MNn5A",
+      "url": "https://www.youtube.com/watch?v=CE-249MNn5A",
+      "duration": "PT279S"
     }
   ]
 }
@@ -82,9 +82,6 @@ description: "Master the inside heel hook from ushiro ashi-garami with detailed 
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Inside Heel Hook from Ushiro Ashi-Garami targets the Ankle, knee ligaments, and surrounding connective tissue. Primary risk: ACL, MCL, or LCL tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami/Attacker|Play as Attacker]]
@@ -114,9 +111,9 @@ Strategically, this submission serves as a high-percentage finishing option that
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=5jD4ByQUrDA)
+![](https://www.youtube.com/watch?v=CE-249MNn5A)
 
-<p class="clip-credit"><strong>Basic Inside/Inverted Heel Hook Escape</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=5jD4ByQUrDA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inside Heel Hook from Saddle Finishing Mechanics Explained</strong> · 4:39 · <a href="https://www.youtube.com/watch?v=CE-249MNn5A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -170,6 +167,8 @@ Strategically, this submission serves as a high-percentage finishing option that
 
 - Recognize the transition window between the opponent's inversion attempt and their escape completion as the optimal attack timing
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -241,6 +240,8 @@ Strategically, this submission serves as a high-percentage finishing option that
 - Your hip mobility is restricted by the opponent's leg entanglement despite having inverted, and you cannot straighten your trapped leg freely
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -300,9 +301,8 @@ Strategically, this submission serves as a high-percentage finishing option that
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -312,32 +312,9 @@ Strategically, this submission serves as a high-percentage finishing option that
 | Popliteal artery damage (rare but catastrophic) | CRITICAL | Medical emergency requiring immediate surgical intervention |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds in training, stop at first sign of resistance
-
-**Tap Signals**:
-- Verbal tap ("TAP" or any vocalization)
-- Physical hand tap on partner or mat
-- Physical foot tap on mat or partner
-- Any distress signal including arm waving
-- Slapping the mat repeatedly
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant partner taps
-2. Release heel control by opening hands completely
-3. Release leg entanglement by straightening both legs and moving hips away
-4. Do not apply any additional pressure during release sequence
-5. Check with partner verbally before continuing training
-
-
-**Training Restrictions**:
-- Never apply explosive or sudden rotational force in training
-- Never train this submission without instructor supervision initially
-- Never use competition speed finishing mechanics in training
-- Never practice on partners with existing knee injuries without clearance
-- Always maintain communication throughout drilling
-- Absolutely forbidden for beginners without extensive positional training first
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

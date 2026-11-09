@@ -155,6 +155,37 @@ description: "Master defending against Ringworm Guard in BJJ. Systematic approac
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ringworm Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Using The Lapel to break grip and Pass Ringworm Guard",
+      "description": "Ringworm Guard (Top) film study: Using The Lapel to break grip and Pass Ringworm Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BbON-7b8iM4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BbON-7b8iM4",
+      "url": "https://www.youtube.com/watch?v=BbON-7b8iM4",
+      "duration": "PT289S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "TOTD 9 16 2025 ALL LVLS RINGWORM GUARD PASSING",
+      "description": "Ringworm Guard (Top) film study: TOTD 9 16 2025 ALL LVLS RINGWORM GUARD PASSING.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bmdwBuNPNDU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bmdwBuNPNDU",
+      "url": "https://www.youtube.com/watch?v=bmdwBuNPNDU",
+      "duration": "PT554S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -171,6 +202,32 @@ This position is primarily encountered in gi-based competition and training envi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ringworm Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BbON-7b8iM4)
+
+<p class="clip-credit"><strong>Using The Lapel to break grip and Pass Ringworm Guard</strong> · 4:49 · <a href="https://www.youtube.com/watch?v=BbON-7b8iM4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bmdwBuNPNDU)
+
+<p class="clip-credit"><strong>TOTD 9 16 2025 ALL LVLS RINGWORM GUARD PASSING</strong> · 9:14 · <a href="https://www.youtube.com/watch?v=bmdwBuNPNDU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

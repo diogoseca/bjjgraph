@@ -698,6 +698,33 @@
         "description": "Full resistance rounds starting from leg entanglement where the attacker works for the outside heel hook and you work for escape. Maintain strict tap-early culture - tap the moment you feel rotation reaching the knee. Review each round to identify where defensive opportunities were missed and which stage your defense broke down. Progress to starting from earlier positions as defensive skills improve."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "XQd0-5hk1Lo",
+        "title": "Standard Ashi outside heel hook escape",
+        "channel": "GRAPPLING GAME CHANGER",
+        "duration": 94,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Clear the knee line",
+        "clips": [
+          {
+            "id": "CN_k8AXvOyk",
+            "title": "How To: Defend an outside heel hook",
+            "channel": "Flux MMA",
+            "duration": 202,
+            "vertical": false,
+            "start": 169,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
+    ]
   }
 }

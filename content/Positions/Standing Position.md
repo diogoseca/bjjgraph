@@ -214,11 +214,11 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ### Available Transitions
 
 
-- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (7% of attempts)
+- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (6% of attempts)
 
 - **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** (5% of attempts)
 
-- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (8% of attempts)
+- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (7% of attempts)
 
 - **[[Transitions/Double Leg Setup/Attacker|Double Leg Setup]]** (6% of attempts)
 
@@ -226,9 +226,9 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 - **[[Transitions/Knee Tap/Attacker|Knee Tap]]** (3% of attempts)
 
-- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (6% of attempts)
+- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (5% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (6% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (5% of attempts)
 
 - **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (5% of attempts)
 
@@ -287,6 +287,10 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 - **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (3% of attempts)
 
 - **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (2% of attempts)
+
+- **[[Transitions/Kouchi Gari/Attacker|Kouchi Gari]]** (2% of attempts)
+
+- **[[Transitions/Uchi Mata/Attacker|Uchi Mata]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -354,22 +358,6 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Front Headlock Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Alex Enriquez: Wrestling Takedown Defense</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position reference for standing defense study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: The Marcelotine</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Aaron-Benzrihem-Ankle-Pick-System" data-cta="related-system-card" data-system-slug="systems/aaron-benzrihem-ankle-pick-system" data-system-name="Aaron Benzrihem Ankle Pick System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Aaron Benzrihem: Ankle Picks</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Cage-Clinch-to-Ground-System" data-cta="related-system-card" data-system-slug="systems/cage-clinch-to-ground-system" data-system-name="Cage Clinch to Ground System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Neiman Gracie: Jiu-Jitsu for MMA</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Jimmy-Sheptock-Single-Leg-System" data-cta="related-system-card" data-system-slug="systems/jimmy-sheptock-single-leg-system" data-system-name="Jimmy Sheptock Single Leg System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Jimmy Sheptock: Single-Leg Takedowns</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Kenta-Iwamoto-Foot-Sweep-System" data-cta="related-system-card" data-system-slug="systems/kenta-iwamoto-foot-sweep-system" data-system-name="Kenta Iwamoto Foot Sweep System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Kenta Iwamoto: Foot Sweeps and Leg Trips</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Eoghan-O&#x27;Flanagan-Shin-to-Shin-System" data-cta="related-system-card" data-system-slug="systems/eoghan-o&#x27;flanagan-shin-to-shin-system" data-system-name="Eoghan O&#x27;Flanagan Shin-to-Shin System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eoghan O’Flanagan: Shin-to-Shin and Seated Engagement</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Standing Position: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Priit-Mihkelson-Turtle-Defense-System" data-cta="related-system-card" data-system-slug="systems/priit-mihkelson-turtle-defense-system" data-system-name="Priit Mihkelson Turtle Defense System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Priit Mihkelson: Turtle Defense and Exits</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related endpoint for the standing-from-turtle section in Volume 4.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

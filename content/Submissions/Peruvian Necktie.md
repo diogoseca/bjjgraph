@@ -120,9 +120,6 @@ description: "Master the Peruvian Necktie in BJJ. Complete guide covering front 
 <span class="meta-chip">~52% avg</span>
 </div>
 
-> [!danger] Safety
-> Peruvian Necktie targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Peruvian Necktie is a sophisticated blood choke that attacks the carotid arteries from a front headlock position, typically initiated when the opponent is in turtle or combat base. Unlike traditional guillotine variations, this submission utilizes a unique body positioning where the attacker threads their leg through the opponent's neck and arm configuration, creating a fulcrum that amplifies choking pressure. The technique derives its effectiveness from the combination of arm pressure across the neck and the leverage created by the attacker's bodyweight and leg position. This submission is particularly effective in scrambles and transitional situations where the opponent attempts to build back to their base from turtle. The Peruvian Necktie represents an advanced understanding of front headlock mechanics and requires precise timing and positioning. When executed correctly, it creates an inescapable choking mechanism that forces a rapid tap due to the simultaneous compression of both carotid arteries. The submission has gained prominence in modern no-gi grappling and MMA due to its effectiveness in dynamic situations and its relatively low energy cost compared to maintaining traditional control positions.
@@ -217,9 +214,8 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -229,34 +225,9 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 | Shoulder joint stress from arm being trapped | Medium | 1-3 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, NEVER snap or jerk
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any loss of resistance or going limp
-- Any distress signal or irregular breathing
 
 
-**Release Protocol**:
-1. Immediately release choking arm and remove pressure
-2. Unwrap leg from opponent's neck slowly
-3. Allow opponent to straighten their neck naturally
-4. Monitor partner for consciousness and breathing
-5. Check for neck mobility before continuing training
-6. If partner lost consciousness, call for medical assistance and monitor airway
-
-
-**Training Restrictions**:
-- Never apply competition speed or intensity in training
-- Never spike or jerk the submission
-- Always communicate before drilling this choke
-- Beginners must drill under supervision only
-- Never practice on partners with neck injuries
-- Always ensure training partner can tap with free hand
-- Stop immediately if partner shows any sign of distress beyond normal discomfort
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

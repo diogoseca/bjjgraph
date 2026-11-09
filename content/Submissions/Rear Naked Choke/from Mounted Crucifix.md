@@ -56,6 +56,16 @@ description: "Learn to finish and defend the rear naked choke from mounted cruci
     {
       "@type": "VideoObject",
       "position": 2,
+      "name": "No Risk Guillotine and Top Crucifix Rear Naked Choke - JiuJitsu Front Headlock\u2026",
+      "description": "Rear Naked Choke from Mounted Crucifix film study: No Risk Guillotine and Top Crucifix Rear Naked Choke - JiuJitsu Front Headlock\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rda9-d1WqP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rda9-d1WqP8?start=74",
+      "url": "https://www.youtube.com/watch?v=Rda9-d1WqP8",
+      "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Crucifix to rear naked choke",
       "description": "Rear Naked Choke from Mounted Crucifix film study: Crucifix to rear naked choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3t6j9HT6Mr8/hqdefault.jpg",
@@ -65,7 +75,7 @@ description: "Learn to finish and defend the rear naked choke from mounted cruci
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Crucifix Smother to Rear Choke",
       "description": "Rear Naked Choke from Mounted Crucifix film study: Crucifix Smother to Rear Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pyZ65EYfirU/hqdefault.jpg",
@@ -102,9 +112,6 @@ description: "Learn to finish and defend the rear naked choke from mounted cruci
 <span class="meta-chip">65% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Mounted Crucifix targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Mounted Crucifix/Attacker|Play as Attacker]]
@@ -137,6 +144,14 @@ Strategically, this submission serves as the primary finishing threat from mount
 ![](https://www.youtube.com/watch?v=amVyOvT2yJs)
 
 <p class="clip-credit"><strong>Rear Naked Choke from Crucifix Position</strong> · 0:14 · <a href="https://www.youtube.com/watch?v=amVyOvT2yJs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rda9-d1WqP8&start=74)
+
+<p class="clip-credit"><strong>No Risk Guillotine and Top Crucifix Rear Naked Choke - JiuJitsu Front Headlock…</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=Rda9-d1WqP8&t=74s" rel="noopener">Watch on YouTube from 1:14</a></p>
 
 </div>
 
@@ -208,6 +223,8 @@ Strategically, this submission serves as the primary finishing threat from mount
 
 - Squeeze with your entire upper body contracting toward center, not just arm strength
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -283,6 +300,8 @@ Strategically, this submission serves as the primary finishing threat from mount
 - Opponent's knee pressure on your trapped arm intensifies as they secure the leg trap before committing hands to choke
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -342,9 +361,8 @@ Strategically, this submission serves as the primary finishing threat from mount
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -354,33 +372,9 @@ Strategically, this submission serves as the primary finishing threat from mount
 | Carotid artery dissection from excessive or sudden force | CRITICAL | Immediate medical attention required, weeks to months |
 
 
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds to full pressure in training. Build compression gradually so partner can recognize and tap before consciousness is affected. Never snap or jerk the choking arm into position.
-
-**Tap Signals**:
-- Verbal tap - saying 'tap' or any verbal sound indicating submission
-- Physical hand tap on opponent's body, arm, or mat
-- Physical foot tap on mat when hands are unavailable
-- Going limp or loss of consciousness - treat as immediate tap
-- Any distress signal, gurgling, or unusual sound
 
 
-**Release Protocol**:
-1. Release choking arm immediately upon any tap signal
-2. Remove all body weight and hooks from opponent
-3. Guide partner gently to side-lying recovery position
-4. Monitor consciousness and breathing for at least 30 seconds
-5. If partner lost consciousness, elevate legs and keep lying down until fully alert
-6. Never allow a recently choked partner to stand immediately
-
-
-**Training Restrictions**:
-- Apply choke progressively - never use competition speed in drilling
-- Ensure choking arm targets the neck sides, never compress the trachea directly
-- Always verify partner has clear tap access with at least one limb
-- Stop immediately if partner makes any distress sound or goes limp
-- Never hold a choke past the tap under any circumstances
-- Beginners should drill grip placement and positioning without applying pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -10,8 +10,6 @@ description: "Learn to defend and escape the Inverted Triangle from Triangle Con
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Inverted Triangle from Triangle Control targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -272,6 +270,8 @@ Defending the inverted triangle from triangle control requires recognizing the t
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Inverted Triangle/from Triangle Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

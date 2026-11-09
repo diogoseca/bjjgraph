@@ -120,9 +120,6 @@ description: "Master the Williams Shoulder Lock in BJJ. Complete guide covering 
 <span class="meta-chip">~52% avg</span>
 </div>
 
-> [!danger] Safety
-> Williams Shoulder Lock targets the Shoulder joint (glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Williams Shoulder Lock is an advanced shoulder submission primarily executed from the Williams Guard position, utilizing an overhook control to isolate and attack the shoulder joint. This technique targets the glenohumeral joint and rotator cuff through a combination of lateral pressure and rotation, creating significant torque on the shoulder capsule. Named after its innovator, the Williams Shoulder Lock represents a sophisticated application of leverage principles where the attacker uses their entire body to control the opponent's arm while applying controlled rotational force. The submission is particularly effective against opponents who defend traditional armlocks by keeping their elbows tight, as it attacks a different plane of movement. The technique requires precise positioning and exceptional body awareness, making it a favorite among advanced practitioners who appreciate technical submissions over brute force applications. Due to the complexity of shoulder anatomy and the potential for serious injury, this submission demands careful study and controlled practice progression.
@@ -219,9 +216,8 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -231,32 +227,9 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 | Shoulder capsule strain or tear | Medium | 6-12 weeks with proper rehabilitation |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (loudly say 'tap' or 'stop')
-- Physical hand tap on partner or mat (multiple rapid taps)
-- Physical foot tap on mat or partner
-- Any verbal distress signal or scream
-- Any unusual shoulder clicking or popping sounds
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon tap signal
-2. Release the overhook grip completely and allow arm to return to neutral position
-3. Do not abruptly release - guide the arm back to safe position slowly
-4. Check with partner verbally to ensure they are okay before continuing training
-5. If any pain persists beyond 30 seconds, stop training and seek medical evaluation
-
-
-**Training Restrictions**:
-- Never apply this submission at competition speed during training
-- Never spike, jerk, or apply sudden rotational force
-- Always ensure training partner has clear tap access with free hand
-- Never practice on training partners with previous shoulder injuries without explicit consent
-- Beginners should only practice the position control, not the finishing mechanics
-- Never combine with sudden movement transitions or scrambles
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

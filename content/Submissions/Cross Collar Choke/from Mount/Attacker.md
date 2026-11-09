@@ -10,8 +10,6 @@ description: "Learn to finish the Cross Collar Choke from Mount with proper grip
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Cross Collar Choke from Mount targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ The Cross Collar Choke from Mount leverages the dominant top position to establi
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Cross Collar Choke/from Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

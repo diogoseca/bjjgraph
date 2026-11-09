@@ -123,7 +123,7 @@ When executed correctly, the deep half entry transforms a potentially defensive 
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard/Deep Half Guard]] | 60% |
 | Failure | [[Positions/Half Guard]] | 25% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -243,7 +243,7 @@ When executed correctly, the deep half entry transforms a potentially defensive 
 
 - **Establish strong crossface and drive shoulder into opponent's jaw to prevent head from dropping below hip line** - When: When opponent has begun creating space but has not yet completed the rotation or established head position below your hips
 
-- **Limp leg extraction by pulling your near leg backward while widening base with free leg** - When: When opponent has begun rotation and has a shallow underhook but has not yet fully committed to the deep half position
+- **Drop your weight and drive chest-to-chest to flatten opponent before the entry completes, with your leg still trapped** - When: When opponent has begun rotation and has a shallow underhook but has not yet fully committed to the deep half position
 
 
 </section>
@@ -316,14 +316,6 @@ The deep half entry represents a critical junction in the half guard bottom game
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Half Guard: Recovering Closed Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Deep Half Entry: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

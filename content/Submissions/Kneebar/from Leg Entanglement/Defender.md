@@ -10,8 +10,6 @@ description: "How to defend the kneebar from leg entanglement in BJJ. Recognitio
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Leg Entanglement targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -234,6 +232,8 @@ Critical safety awareness is paramount. Never attempt explosive rotational escap
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kneebar/from Leg Entanglement#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

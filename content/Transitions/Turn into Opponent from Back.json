@@ -35,7 +35,7 @@
         "gi": 15,
         "nogi": 15
       },
-      "result": "counter"
+      "result": "failure"
     }
   ],
   "success_rate": {
@@ -79,7 +79,7 @@
     },
     {
       "name": "Mount",
-      "relationship": "Counter position opponent may achieve by following the turn and establishing mount"
+      "relationship": "Failure outcome position: the guard recovery fails when opponent follows the turn and establishes mount"
     },
     {
       "name": "Hip Escape from Back Control",

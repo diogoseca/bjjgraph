@@ -70,15 +70,19 @@ for (const width of [1440, 390]) test(`@curated article grid ${width}px preserve
   } })
   await expect(page.locator(READY)).toBeVisible(); await j.readerLayoutSettled()
   const original = await page.locator('[data-reader-body]').textContent()
-  const geometry = await page.locator('[data-reader-body]').evaluate(body => [...body.children].map(card => {
+  // U65 note (owner, 2026-10-29): Videos keeps only its closed control; no open credits tile on game pages.
+  const geometry = await page.locator('[data-reader-body]').evaluate(body => [...body.children]
+    .filter(card => !card.hasAttribute('data-media-control') && card.getAttribute('data-collapsed') !== 'true').map(card => {
     const b = card.getBoundingClientRect(), s = getComputedStyle(card)
-    return { type: (card as HTMLElement).dataset.sectionType, left: b.left, top: b.top, right: b.right, bottom: b.bottom,
+    return { type: (card as HTMLElement).dataset.sectionType, rendered: card.getClientRects().length > 0,
+      left: b.left, top: b.top, right: b.right, bottom: b.bottom,
       fill: s.backgroundColor, border: s.borderWidth, shadow: s.boxShadow, filter: s.filter, backdrop: s.backdropFilter,
       webkit: s.getPropertyValue('-webkit-backdrop-filter'), webkitSupported: CSS.supports('-webkit-backdrop-filter', 'none'),
       overflow: card.scrollWidth - card.clientWidth }
   }))
   expect(geometry.length).toBeGreaterThan(4)
   for (const [i, card] of geometry.entries()) {
+    expect(card.rendered, card.type + ': every open content section is rendered').toBe(true)
     expect(card.fill).toBe('rgb(20, 27, 43)'); expect(card.border).toBe('0px')
     // The owner's A/B/C choice changes ONE CSS line, never the regression expectation.
     expect(card.shadow).toMatch(/^rgba\(155, 174, 255, 0\.(2|12|06)\) 0px 0px 16px 2px$/)
@@ -91,7 +95,9 @@ for (const width of [1440, 390]) test(`@curated article grid ${width}px preserve
     for (const other of geometry.slice(0, i)) expect(card.left >= other.right - 1 || card.right <= other.left + 1 || card.top >= other.bottom - 1, 'cards never overlap').toBe(true)
   }
   if (width === 390) expect(new Set(geometry.map(c => c.left)).size).toBe(1)
-  else expect(geometry.some((c, i) => i && Math.abs(c.top - geometry[i - 1].top) < 1), 'desktop really pairs cards').toBe(true)
+  // Owner (2026-11-06): two columns, not rows; and U104 heads each with its own stage cell, so the lanes rarely share a top.
+  // Two lanes is the claim (the never-overlap check above keeps them apart); a shared top was the rows' proxy for it.
+  else expect(new Set(geometry.map(c => Math.round(c.left))).size, 'desktop really pairs cards: two lanes').toBe(2)
   // A stable real section identity, not a first/nth fixture that changes when the corpus grows.
   const prerequisites = page.locator('[data-section-type=prerequisites]')
   await prerequisites.evaluate(el => { const root = el.closest('[data-reader]')!; root.scrollTop += el.getBoundingClientRect().top - root.getBoundingClientRect().top - 24 })
@@ -99,7 +105,12 @@ for (const width of [1440, 390]) test(`@curated article grid ${width}px preserve
   await ownerFrame(page, `grid-stack-${width}`)
   for (const type of ['principles', 'prerequisites', 'mistakes']) {
     const selector = `[data-section-toggle=${type}]`
-    await page.locator(selector).scrollIntoViewIfNeeded(); await j.readerLayoutSettled(); await j.clickByMouse(selector)
+    await page.locator(selector).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+    // CLAIM UNCHANGED (U59 c, DASH-R4): the DSL boot pre-completes the White track, so reading mints a patch whose
+    // toast sits in the top-right corner over the right lane's top tile, where Mistakes' ✕ now lands at 1440.
+    // Let its ordinary 4.8s lifetime end; a separate mouse click can race that expiry.
+    await expect(page.locator('[data-reward-close]')).toBeHidden({ timeout: 15000 })
+    await j.clickByMouse(selector)
     await expect(page.locator(selector)).toHaveAttribute('aria-expanded', 'false')
   }
   const summary = page.locator('.ng-reader-hidden>summary')

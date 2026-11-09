@@ -10,8 +10,6 @@ description: "Defend the Twister spinal lock from Twister Side Control with reco
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Twister from Twister Side Control targets the Cervical and thoracic spine, shoulder girdle. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -231,6 +229,8 @@ Defending the Twister from Twister Side Control demands immediate attention to s
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Twister/from Twister Side Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

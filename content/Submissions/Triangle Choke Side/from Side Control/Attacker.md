@@ -10,8 +10,6 @@ description: "How to execute Triangle Choke Side in BJJ. Attacking perspective w
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke Side from Side Control targets the Carotid arteries and jugular veins. Risk: Carotid artery compression causing unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -178,6 +176,27 @@ description: "How to execute Triangle Choke Side in BJJ. Attacking perspective w
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke Side from Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Finish the Yoko Sankaku (Side Triangle)",
+      "description": "Triangle Choke Side from Side Control (Attacker) film study: How to Finish the Yoko Sankaku (Side Triangle).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OZ0v1pu8gJU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OZ0v1pu8gJU",
+      "url": "https://www.youtube.com/watch?v=OZ0v1pu8gJU",
+      "duration": "PT222S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -195,6 +214,24 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke Side from Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OZ0v1pu8gJU)
+
+<p class="clip-credit"><strong>How to Finish the Yoko Sankaku (Side Triangle)</strong> · 3:42 · <a href="https://www.youtube.com/watch?v=OZ0v1pu8gJU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -231,6 +268,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Triangle Choke Side/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

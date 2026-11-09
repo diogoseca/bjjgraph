@@ -134,6 +134,37 @@ description: "Recognize Granby Roll to Guard and interrupt its required connecti
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Granby Roll to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Granby Roll Defense- ReGranby",
+      "description": "Granby Roll to Guard (Defender) film study: Granby Roll Defense- ReGranby.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s1dUI4yukLY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s1dUI4yukLY",
+      "url": "https://www.youtube.com/watch?v=s1dUI4yukLY",
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Granby Roll Defense- Tricep and Flank",
+      "description": "Granby Roll to Guard (Defender) film study: Granby Roll Defense- Tricep and Flank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DdycKrM8JQY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DdycKrM8JQY",
+      "url": "https://www.youtube.com/watch?v=DdycKrM8JQY",
+      "duration": "PT112S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -148,6 +179,32 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Granby Roll to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s1dUI4yukLY)
+
+<p class="clip-credit"><strong>Granby Roll Defense- ReGranby</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=s1dUI4yukLY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DdycKrM8JQY)
+
+<p class="clip-credit"><strong>Granby Roll Defense- Tricep and Flank</strong> · 1:52 · <a href="https://www.youtube.com/watch?v=DdycKrM8JQY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

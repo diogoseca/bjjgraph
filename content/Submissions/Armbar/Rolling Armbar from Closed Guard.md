@@ -82,9 +82,6 @@ description: "Master the Rolling Armbar in BJJ. Dynamic submission from guard an
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Rolling Armbar from Closed Guard targets the Elbow joint. Primary risk: Elbow hyperextension or dislocation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/Rolling Armbar from Closed Guard/Attacker|Play as Attacker]]
@@ -169,6 +166,8 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 - Protect your own neck during the roll by keeping chin tucked and shoulders rounded
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -234,6 +233,8 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 - Opponent tucks their chin and drives their shoulder toward the mat, initiating a backward rolling motion while holding your arm against their chest
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -322,9 +323,8 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -334,32 +334,9 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 | Shoulder impingement during rotation | Medium | 3-6 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time, especially during the rolling phase
-
-**Tap Signals**:
-- Verbal tap (any vocalization of submission)
-- Physical hand tap on partner or mat
-- Physical foot tap on mat or partner
-- Any distress signal or audible pain indication
-- Loss of resistance or going limp
 
 
-**Release Protocol**:
-1. Immediately release hip pressure and stop extending the arm
-2. Open legs and remove hip contact from the trapped arm
-3. Release hand grips in controlled manner
-4. Allow opponent to extract arm slowly and under their own control
-5. Check partner's condition and ensure no injury occurred
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission during the roll
-- Never use competition speed in drilling or light rolling
-- Always control the rolling speed to prevent neck injuries
-- Never prevent partner from tapping by controlling both arms
-- Stop immediately if partner shows any sign of distress
-- Avoid this technique with significantly smaller or less experienced partners until control is mastered
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

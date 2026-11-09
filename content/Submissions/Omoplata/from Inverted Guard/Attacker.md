@@ -10,8 +10,6 @@ description: "Learn to attack the omoplata from inverted guard. Step-by-step exe
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Inverted Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -178,6 +176,37 @@ description: "Learn to attack the omoplata from inverted guard. Step-by-step exe
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Inverted Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Omaplata from Inverted Guard by Roleta Magalhaes",
+      "description": "Omoplata from Inverted Guard (Attacker) film study: BJJ Omaplata from Inverted Guard by Roleta Magalhaes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r3gy1JDPeyU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r3gy1JDPeyU",
+      "url": "https://www.youtube.com/watch?v=r3gy1JDPeyU",
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "INVERTED GUARD OMOPLATA",
+      "description": "Omoplata from Inverted Guard (Attacker) film study: INVERTED GUARD OMOPLATA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lFrzogJkHBw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lFrzogJkHBw",
+      "url": "https://www.youtube.com/watch?v=lFrzogJkHBw",
+      "duration": "PT181S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +220,32 @@ Attacking the omoplata from inverted guard requires threading your leg over the 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Inverted Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=r3gy1JDPeyU)
+
+<p class="clip-credit"><strong>BJJ Omaplata from Inverted Guard by Roleta Magalhaes</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=r3gy1JDPeyU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lFrzogJkHBw)
+
+<p class="clip-credit"><strong>INVERTED GUARD OMOPLATA</strong> · 3:01 · <a href="https://www.youtube.com/watch?v=lFrzogJkHBw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -225,6 +280,8 @@ Attacking the omoplata from inverted guard requires threading your leg over the 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Omoplata/from Inverted Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

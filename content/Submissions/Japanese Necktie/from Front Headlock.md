@@ -46,6 +46,16 @@ description: "Master Japanese Necktie in BJJ. Complete guide with safety protoco
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Japanese Necktie (from the front headlock position)",
+      "description": "Japanese Necktie from Front Headlock film study: Japanese Necktie (from the front headlock position).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/geGuiTx93x4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/geGuiTx93x4",
+      "url": "https://www.youtube.com/watch?v=geGuiTx93x4",
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "The Front Headlock Trinity: Japanese Necktie, Darce, Anaconda Choke",
       "description": "Japanese Necktie from Front Headlock film study: The Front Headlock Trinity: Japanese Necktie, Darce, Anaconda Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IZdoJMCc9B0/hqdefault.jpg",
@@ -82,9 +92,6 @@ description: "Master Japanese Necktie in BJJ. Complete guide with safety protoco
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Japanese Necktie from Front Headlock targets the Carotid arteries and trachea. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Japanese Necktie/from Front Headlock/Attacker|Play as Attacker]]
@@ -107,6 +114,14 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <p class="section-subtitle">Watch Japanese Necktie from Front Headlock in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=geGuiTx93x4)
+
+<p class="clip-credit"><strong>Japanese Necktie (from the front headlock position)</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=geGuiTx93x4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -168,6 +183,8 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 - Finish with legs extended and hips driving forward for maximum pressure
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -236,6 +253,8 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 - You feel your own shoulder being driven into the side of your neck as the attacker's body weight shifts across your upper back at an angle
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -316,9 +335,8 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -328,33 +346,9 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 | Shoulder injury to trapped arm | Medium | 2-4 weeks for strains |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time in training. This choke can render opponents unconscious in 3-5 seconds when fully locked, making gradual pressure application critical.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap on partner's body
-- Physical foot tap on mat
-- Any distress signal or unusual sound
-- Loss of resistance or body going limp (IMMEDIATE RELEASE)
 
 
-**Release Protocol**:
-1. Immediately remove choking arm from around neck
-2. Release grip on your own wrist or leg
-3. Roll away from opponent to create space
-4. Check partner's consciousness and breathing
-5. If unconscious: elevate legs, monitor breathing, seek medical attention if no immediate recovery
-
-
-**Training Restrictions**:
-- Never apply at competition speed during drilling
-- Never hold after partner taps or goes unconscious
-- Always allow clear tap access for both hands
-- Communicate pressure levels with training partner
-- Stop immediately if partner shows any sign of distress
-- Avoid jerking or yanking motions during application
-- White and blue belts should practice setup only, not full finishing pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

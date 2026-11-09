@@ -10,8 +10,6 @@ description: "Learn to attack with the calf slicer from Russian Cowboy. Step-by-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Russian Cowboy targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture from excessive compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -172,6 +170,37 @@ description: "Learn to attack with the calf slicer from Russian Cowboy. Step-by-
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Russian Cowboy (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Calf Slicer setup from the back",
+      "description": "Calf Slicer from Russian Cowboy (Attacker) film study: Calf Slicer setup from the back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9LhHVcVVGvs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9LhHVcVVGvs",
+      "url": "https://www.youtube.com/watch?v=9LhHVcVVGvs",
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "CALF SLICER FROM BACK MOUNT DETAILS",
+      "description": "Calf Slicer from Russian Cowboy (Attacker) film study: CALF SLICER FROM BACK MOUNT DETAILS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2YQF94UJuGM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2YQF94UJuGM",
+      "url": "https://www.youtube.com/watch?v=2YQF94UJuGM",
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -185,6 +214,32 @@ Attacking with the calf slicer from Russian Cowboy requires precise timing of th
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Russian Cowboy (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9LhHVcVVGvs)
+
+<p class="clip-credit"><strong>Calf Slicer setup from the back</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=9LhHVcVVGvs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2YQF94UJuGM)
+
+<p class="clip-credit"><strong>CALF SLICER FROM BACK MOUNT DETAILS</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=2YQF94UJuGM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -219,6 +274,8 @@ Attacking with the calf slicer from Russian Cowboy requires precise timing of th
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Calf Slicer/from Russian Cowboy#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

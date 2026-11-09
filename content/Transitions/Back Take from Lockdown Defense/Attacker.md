@@ -251,7 +251,7 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 58% |
 | Failure | [[Positions/Half Guard/Electric Chair]] | 27% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -263,8 +263,8 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 <p class="section-subtitle">How might your opponent counter Back Take from Lockdown Defense?</p>
 
 - **Opponent releases lockdown early and recovers closed guard before backstep completes** (Effectiveness: High) - Your Response: If they release early, immediately pass to side control using your established upper body control. The lockdown release gives you a free pass opportunity. → Leads to [[Positions/Half Guard/Electric Chair]]
-- **Opponent turns into you during backstep and re-establishes half guard or full guard** (Effectiveness: Medium) - Your Response: Maintain constant crossface pressure throughout the backstep. If they begin turning, drive your shoulder harder into their jaw to prevent rotation and continue the backstep motion. → Leads to [[Positions/Half Guard]]
-- **Opponent abandons Electric Chair and transitions to deep half guard under your backstep** (Effectiveness: Medium) - Your Response: Sprawl your hips back and establish whizzer control. From here, look to pass with knee slice or smash pass rather than continuing the back take. → Leads to [[Positions/Half Guard]]
+- **Opponent turns into you during backstep and re-establishes half guard** (Effectiveness: Medium) - Your Response: Maintain constant crossface pressure throughout the backstep. If they begin turning, drive your shoulder harder into their jaw to prevent rotation and continue the backstep motion. → Leads to [[Positions/Half Guard]]
+- **Opponent abandons Electric Chair and drops underneath your backstep to recover half guard** (Effectiveness: Medium) - Your Response: Sprawl your hips back and establish whizzer control. From here, look to pass with knee slice or smash pass rather than continuing the back take. → Leads to [[Positions/Half Guard]]
 - **Opponent elevates hips dramatically creating space to invert and recover guard** (Effectiveness: Low) - Your Response: Keep your weight low and connected. If they create elevation space, follow their hips with your weight rather than allowing separation. → Leads to [[Positions/Half Guard/Electric Chair]]
 
 
@@ -339,14 +339,6 @@ This technique is generally safe when practiced with control and awareness. The 
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Bottom Half in The Ultimate Rubber Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Back Take from Lockdown Defense: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

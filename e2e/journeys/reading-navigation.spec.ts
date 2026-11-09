@@ -41,10 +41,13 @@ for (const width of [320, 390]) {
     await page.keyboard.press('Control+End')
     await expect.poll(() => page.locator(READY).evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop)).toBeLessThan(2)
     await page.keyboard.press('Control+Home')
+    // A real race, fixed at v1.250.1: this stopped at 1 when the smooth scroll's first tick moved 1px (CI run 42152251420).
+    // It only shows under load here; pane-layout.spec.ts pins it deterministically (place-end-tick).
     await expect.poll(() => page.locator(READY).evaluate(e => e.scrollTop)).toBe(0)
     const bodyTop = await page.locator('[data-reader-body]').evaluate(e => e.getBoundingClientRect().top)
     const r = await page.locator(READY).boundingBox()
-    const prose = await page.locator('.ng-section-card').first().boundingBox()
+    // U65 note: the retired game Videos tile keeps only a hidden preference control.
+    const prose = await page.locator('[data-reader-body]>.ng-section-card:visible').first().boundingBox()
     await page.mouse.move(prose!.x + prose!.width / 2, Math.min(prose!.y + 60, r!.y + r!.height - 20))
     await page.mouse.wheel(0, 400)
     await expect.poll(() => page.locator(READY).evaluate(e => e.scrollTop)).toBeGreaterThan(200)

@@ -10,8 +10,6 @@ description: "Defend the cross collar choke from closed guard with early grip re
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Cross Collar Choke from Closed Guard targets the Carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -255,6 +253,8 @@ Defending the cross collar choke from closed guard demands constant awareness of
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Cross Collar Choke/from Closed Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

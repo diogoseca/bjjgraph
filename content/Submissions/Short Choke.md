@@ -120,9 +120,6 @@ description: "Master the Short Choke in BJJ. Devastating lapel strangle from top
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Short Choke targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 As a gi-based blood choke, the Short Choke is prized for finishing from dominant top and back control — side control, north-south, and from the back — when there is too little space for the deeper grips that traditional collar chokes demand. Unlike traditional collar chokes that require deep grips, the Short Choke capitalizes on minimal space and opponent defensive reactions. The technique involves threading your own lapel or the opponent's lapel behind their neck while maintaining superior top position control, then applying pressure through a combination of wrist rotation and shoulder pressure.
@@ -232,9 +229,8 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -243,30 +239,9 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 | Neck strain from rotational pressure | Low | 2-5 days with rest |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress signal including body going limp
 
 
-**Release Protocol**:
-1. Immediately release lapel grip and remove all pressure from neck
-2. Remove your weight from opponent's torso to allow breathing
-3. Check partner's consciousness and breathing status
-4. If partner is unconscious, elevate legs and monitor airway
-5. Never apply the choke again in the same training session if unconsciousness occurred
-
-
-**Training Restrictions**:
-- Never apply sudden jerking motions with the lapel
-- Never continue pressure after tap signal
-- Never practice on partners with neck injuries or medical conditions
-- Always ensure partner can tap with at least one hand
-- Never use competition speed during initial learning phases
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

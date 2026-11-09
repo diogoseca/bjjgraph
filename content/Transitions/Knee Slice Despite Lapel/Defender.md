@@ -150,6 +150,37 @@ description: "How to defend against Knee Slice Despite Lapel in BJJ. Recognition
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice Despite Lapel (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapel Wrap Counter to Knee Cut Pass",
+      "description": "Knee Slice Despite Lapel (Defender) film study: Lapel Wrap Counter to Knee Cut Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HrWUpisdg80/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HrWUpisdg80",
+      "url": "https://www.youtube.com/watch?v=HrWUpisdg80",
+      "duration": "PT244S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lapel Half Guard to Combat Knee Slice",
+      "description": "Knee Slice Despite Lapel (Defender) film study: Lapel Half Guard to Combat Knee Slice.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fpHh5-DyeAk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fpHh5-DyeAk",
+      "url": "https://www.youtube.com/watch?v=fpHh5-DyeAk",
+      "duration": "PT74S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -164,6 +195,32 @@ The critical defensive window occurs between the passer's partial lapel clear an
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice Despite Lapel (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HrWUpisdg80)
+
+<p class="clip-credit"><strong>Lapel Wrap Counter to Knee Cut Pass</strong> · 4:04 · <a href="https://www.youtube.com/watch?v=HrWUpisdg80" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fpHh5-DyeAk)
+
+<p class="clip-credit"><strong>Lapel Half Guard to Combat Knee Slice</strong> · 1:14 · <a href="https://www.youtube.com/watch?v=fpHh5-DyeAk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

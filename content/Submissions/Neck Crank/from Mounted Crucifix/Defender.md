@@ -10,8 +10,6 @@ description: "Defend and escape the Neck Crank from Mounted Crucifix in BJJ. Rec
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Neck Crank from Mounted Crucifix targets the Cervical spine and neck muscles. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -184,6 +182,8 @@ Defending the neck crank from mounted crucifix is among the most challenging def
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Neck Crank/from Mounted Crucifix#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

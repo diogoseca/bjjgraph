@@ -46,6 +46,16 @@ description: "Master the Inverted Triangle from Triangle Control. Learn setup me
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Inverted Triangle From Guard (BJJ/Jiu-Jitsu)",
+      "description": "Inverted Triangle from Triangle Control film study: Inverted Triangle From Guard (BJJ/Jiu-Jitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sGEBKhs8_yo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sGEBKhs8_yo?start=40",
+      "url": "https://www.youtube.com/watch?v=sGEBKhs8_yo",
+      "duration": "PT227S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Tap everyone with this inverted triangle #bjj #brazillianjiujitsu #triangle",
       "description": "Inverted Triangle from Triangle Control film study: Tap everyone with this inverted triangle #bjj #brazillianjiujitsu #triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/i2l9Gx72DU0/hqdefault.jpg",
@@ -55,7 +65,7 @@ description: "Master the Inverted Triangle from Triangle Control. Learn setup me
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Inverted Triangle",
       "description": "Inverted Triangle from Triangle Control film study: Inverted Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xAW3spYg9vE/hqdefault.jpg",
@@ -92,9 +102,6 @@ description: "Master the Inverted Triangle from Triangle Control. Learn setup me
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Inverted Triangle from Triangle Control targets the Carotid arteries and trachea. Primary risk: Cervical spine compression from improper rotation during setup. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Inverted Triangle/from Triangle Control/Attacker|Play as Attacker]]
@@ -121,6 +128,14 @@ Strategically, the inverted triangle adds a critical dimension to the triangle s
 
 <p class="section-subtitle">Watch Inverted Triangle from Triangle Control in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sGEBKhs8_yo&start=40)
+
+<p class="clip-credit"><strong>Inverted Triangle From Guard (BJJ/Jiu-Jitsu)</strong> · 3:47 · <a href="https://www.youtube.com/watch?v=sGEBKhs8_yo&t=40s" rel="noopener">Watch on YouTube from 0:40</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -188,6 +203,8 @@ Strategically, the inverted triangle adds a critical dimension to the triangle s
 
 - Pull the trapped arm across the opponent's throat to amplify inverted compression using their own limb as a lever
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -257,6 +274,8 @@ Strategically, the inverted triangle adds a critical dimension to the triangle s
 - Attacker's grip adjustments on your trapped arm or head, often tightening head control just before initiating the hip rotation
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -316,9 +335,8 @@ Strategically, the inverted triangle adds a critical dimension to the triangle s
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -328,33 +346,9 @@ Strategically, the inverted triangle adds a critical dimension to the triangle s
 | Shoulder dislocation if trapped arm is torqued excessively | High | 6-12 weeks minimum |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression from setup to full pressure
-
-**Tap Signals**:
-- Verbal tap or saying 'tap'
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat or opponent
-- Any unusual sound or distress signal
-- Loss of resistance or going limp
 
 
-**Release Protocol**:
-1. Immediately open the figure-four by releasing your ankle lock first
-2. Remove the leg that is over the back of the neck first
-3. Release the trapped arm carefully without jerking
-4. Create space to allow opponent to turn their head and restore blood flow
-5. Check for consciousness and breathing immediately
-6. Support opponent's neck during release if they are unconscious
-
-
-**Training Restrictions**:
-- Never spike the technique or jerk into position rapidly
-- Never apply competition speed or pressure in training
-- Never continue past light resistance during drilling
-- Always ensure training partner can tap with at least one hand
-- Never attempt this technique on beginners or those unfamiliar with choke safety
-- Absolutely no practice on unconscious or semi-conscious partners
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

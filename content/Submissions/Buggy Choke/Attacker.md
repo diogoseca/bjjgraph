@@ -10,8 +10,6 @@ description: "Attack the Buggy Choke from bottom half guard: trap the arm and he
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Buggy Choke targets the Carotid arteries and neck compression. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -294,6 +292,8 @@ As the attacker you are on the bottom, often already flattened, and your goal is
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Buggy Choke#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

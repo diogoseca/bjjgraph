@@ -10,8 +10,6 @@ description: "Learn to defend and escape the arm-in guillotine from guillotine c
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm in Guillotine from Guillotine Control targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -146,6 +144,27 @@ description: "Learn to defend and escape the arm-in guillotine from guillotine c
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm in Guillotine from Guillotine Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm in Guillotine escape",
+      "description": "Arm in Guillotine from Guillotine Control (Defender) film study: Arm in Guillotine escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tUU62NEPzVU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tUU62NEPzVU",
+      "url": "https://www.youtube.com/watch?v=tUU62NEPzVU",
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +178,24 @@ Defending the arm-in guillotine from guillotine control is one of the most urgen
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm in Guillotine from Guillotine Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tUU62NEPzVU)
+
+<p class="clip-credit"><strong>Arm in Guillotine escape</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=tUU62NEPzVU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -193,6 +230,8 @@ Defending the arm-in guillotine from guillotine control is one of the most urgen
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Arm in Guillotine/from Guillotine Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

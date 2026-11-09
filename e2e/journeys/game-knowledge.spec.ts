@@ -8,7 +8,7 @@ async function openChallenges(page: any) {
     app.openExplorer();
     app.showExplorerList();
   });
-  await expect(page.locator(".ng-learning-nav")).toBeVisible();
+  await expect(page.locator(".ng-drawer-head")).toBeVisible();
 }
 
 // This file's subject is the SCORE, not deck residency, so it takes full residency explicitly:
@@ -110,7 +110,7 @@ test.describe("Game Knowledge @curated", () => {
     ]);
   });
 
-  test("Game Knowledge never gates content tracks or lessons", async ({
+  test("earned tracks stay open independently of current Game Knowledge", async ({
     page,
   }) => {
     const j = journey(page);
@@ -120,6 +120,7 @@ test.describe("Game Knowledge @curated", () => {
       const app = (window as any).__neural;
       app.stage = {};
       app.rec = {};
+      app.belts = { ...app.belts, held: { id: "black", t: 1 }, gf: 1 };
       app._stageVer = (app._stageVer || 0) + 1;
     });
     await openChallenges(page);
@@ -145,8 +146,10 @@ test.describe("Game Knowledge @curated", () => {
     // the score belt visual is retired (v1.98.1) — the score's one exposure is the
     // Explore tab subtitle, and it reads the SAME gameScore()
     await expect(page.locator(".ng-knowledge-meter")).toHaveCount(0);
-    await expect(page.locator('[data-tab-sub="explore"]')).toHaveText(
-      "Mastered " + Math.round(game.score * 100) + "%",
+    // v1.242.0: the Explore subtitle moved to the badge's menu, the score's one exposure
+    await j.openAccountMenu();
+    await expect(page.locator("[data-menu-mastered]")).toHaveText(
+      new RegExp(" · " + Math.round(game.score * 100) + "%$"),
     );
   });
 
@@ -168,10 +171,11 @@ test.describe("Game Knowledge @curated", () => {
     expect(lower.score).toBeLessThan(peak.score);
 
     await openChallenges(page);
-    await expect(page.locator(".ng-track-card")).toHaveCount(5);
+    await expect(page.locator(".ng-belt-section")).toHaveCount(5);
     // no meter visual anymore (v1.98.1) — the subtitle reads the lowered score
-    await expect(page.locator('[data-tab-sub="explore"]')).toHaveText(
-      "Mastered " + Math.round(lower.score * 100) + "%",
+    await j.openAccountMenu();
+    await expect(page.locator("[data-menu-mastered]")).toHaveText(
+      new RegExp(" · " + Math.round(lower.score * 100) + "%$"),
     );
   });
 
@@ -222,7 +226,7 @@ test.describe("Game Knowledge @curated", () => {
     const by = (suffix: string) => keys.filter((k) => k.endsWith(suffix)).length;
     expect(by("|Attacker"), "attacker decks are weighted").toBeGreaterThan(1000);
     expect(by("|Defender"), "SO ARE DEFENDER DECKS").toBe(by("|Attacker"));
-    expect(by("|Top") + by("|Bottom"), "AND POSITION DECKS").toBe(264); // census:roleHands
+    expect(by("|Top") + by("|Bottom"), "AND POSITION DECKS").toBe(266); // census:roleHands
     const sum = keys.reduce((total, key) => total + w[key], 0);
     expect(sum, "still one distribution").toBeCloseTo(1, 4);
     // The owner's first constraint, asserted where a user would feel it: the heaviest deck in the

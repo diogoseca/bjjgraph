@@ -244,7 +244,7 @@ As the attacker executing the stand-up from combat base, your objective is to tr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Standing Position]] | 55% |
+| Success | [[Positions/Open Guard]] | 55% |
 | Failure | [[Positions/Combat Base]] | 30% |
 | Counter | [[Positions/Half Guard]] | 15% |
 

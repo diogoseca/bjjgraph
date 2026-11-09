@@ -10,8 +10,6 @@ description: "Complete attacking guide for the outside heel hook from outside as
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Outside Heel Hook from Outside Ashi-Garami targets the Knee joint, ankle joint, and surrounding ligaments. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -277,6 +275,8 @@ Attacking the outside heel hook from outside ashi-garami requires establishing p
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Outside Heel Hook/from Outside Ashi-Garami#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

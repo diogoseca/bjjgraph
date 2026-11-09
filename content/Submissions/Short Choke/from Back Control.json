@@ -433,7 +433,26 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "qkqvg7SEwzc",
+        "title": "Lapel Choke from Back Control - Rampage Jiu-Jitsu Academy",
+        "channel": "Rampage Jiu-Jitsu Academy",
+        "duration": 102,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "poQVy53KJ_A",
+        "title": "Cross Collar Choke from the Back",
+        "channel": "Jiu-Jitsu On The Go",
+        "duration": 249,
+        "vertical": false,
+        "start": 33,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Short Choke from Back Control Defender",
@@ -607,6 +626,25 @@
         "description": "Full resistance positional sparring starting from back control. Partner uses complete back attack system including RNC, Short Choke, and Bow and Arrow. Practice defensive threat identification and appropriate response selection under pressure. Track successful defenses and escapes across rounds."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "NsS4fkMHv6w",
+        "title": "Collar Choke Defense From Back Mount",
+        "channel": "Gracie Ohio Jiu-Jitsu Academy",
+        "duration": 144,
+        "vertical": false,
+        "start": 28,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "FJ2-33jFckg",
+        "title": "Lapel Choke Defense From Back Mount (Simple Way Of Breaking The Grip)",
+        "channel": "Chewjitsu",
+        "duration": 207,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

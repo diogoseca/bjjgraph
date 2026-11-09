@@ -10,8 +10,6 @@ description: "Defend the straight ankle lock from ankle lock control. Boot defen
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Straight Ankle Lock from Straight Ankle Lock Control targets the Ankle joint, Achilles tendon, and foot ligaments. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -239,6 +237,8 @@ Defending the straight ankle lock from ankle lock control requires immediate rec
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

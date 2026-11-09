@@ -10,8 +10,6 @@ description: "Learn to finish the Neck Crank from Mounted Crucifix. Step-by-step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Neck Crank from Mounted Crucifix targets the Cervical spine and neck muscles. Risk: Cervical disc herniation or vertebral fracture from excessive rotational force. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -275,6 +273,8 @@ Attacking the neck crank from mounted crucifix gives you a finishing option that
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Neck Crank/from Mounted Crucifix#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -10,8 +10,6 @@ description: "Defend against the Americana shoulder lock from North-South. Recog
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from North-South targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -162,6 +160,16 @@ description: "Defend against the Americana shoulder lock from North-South. Recog
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Bjj defense against the americana",
+      "description": "Americana from North-South (Defender) film study: Bjj defense against the americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qfoEZtys84k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qfoEZtys84k",
+      "url": "https://www.youtube.com/watch?v=qfoEZtys84k",
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Americana with legs defense",
       "description": "Americana from North-South (Defender) film study: Americana with legs defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bN9pxIdCiPU/hqdefault.jpg",
@@ -193,6 +201,14 @@ Defending the Americana from North-South requires early recognition and immediat
 
 <p class="section-subtitle">Watch Americana from North-South (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qfoEZtys84k)
+
+<p class="clip-credit"><strong>Bjj defense against the americana</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=qfoEZtys84k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -237,6 +253,8 @@ Defending the Americana from North-South requires early recognition and immediat
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Americana/from North-South#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

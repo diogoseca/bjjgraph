@@ -10,8 +10,6 @@ description: "Learn to attack with the inside heel hook from ushiro ashi-garami.
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Inside Heel Hook from Ushiro Ashi-Garami targets the Ankle, knee ligaments, and surrounding connective tissue. Risk: ACL, MCL, or LCL tear or rupture. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -178,6 +176,27 @@ description: "Learn to attack with the inside heel hook from ushiro ashi-garami.
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Heel Hook from Ushiro Ashi-Garami (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside Heel Hook from Saddle Finishing Mechanics Explained",
+      "description": "Inside Heel Hook from Ushiro Ashi-Garami (Attacker) film study: Inside Heel Hook from Saddle Finishing Mechanics Explained.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CE-249MNn5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CE-249MNn5A",
+      "url": "https://www.youtube.com/watch?v=CE-249MNn5A",
+      "duration": "PT279S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +210,24 @@ Attacking with the inside heel hook from ushiro ashi-garami requires adapting st
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Heel Hook from Ushiro Ashi-Garami (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CE-249MNn5A)
+
+<p class="clip-credit"><strong>Inside Heel Hook from Saddle Finishing Mechanics Explained</strong> · 4:39 · <a href="https://www.youtube.com/watch?v=CE-249MNn5A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -225,6 +262,8 @@ Attacking with the inside heel hook from ushiro ashi-garami requires adapting st
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -242,7 +242,7 @@ Timing is paramount for this technique. The optimal window occurs when your oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Open Guard]] | 55% |
+| Success | [[Positions/Feet on Hips Guard]] | 55% |
 | Success | [[Positions/Closed Guard]] | 10% |
 | Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
 | Counter | [[Positions/Ashi Garami/Saddle]] | 10% |

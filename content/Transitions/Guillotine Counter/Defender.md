@@ -158,6 +158,27 @@ description: "How to defend against your opponent's guillotine counter in BJJ. M
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Counter (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stop Letting People Escape Your Guillotine",
+      "description": "Guillotine Counter (Defender) film study: Stop Letting People Escape Your Guillotine.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TSHvgheCXpw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TSHvgheCXpw",
+      "url": "https://www.youtube.com/watch?v=TSHvgheCXpw",
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,6 +191,24 @@ The Guillotine Counter Defender is the practitioner who has secured a guillotine
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Counter (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TSHvgheCXpw)
+
+<p class="clip-credit"><strong>Stop Letting People Escape Your Guillotine</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=TSHvgheCXpw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

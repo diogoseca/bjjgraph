@@ -131,9 +131,6 @@ description: "Master the Bow and Arrow Choke in BJJ. Complete guide with safety 
 <span class="meta-chip">~62% avg</span>
 </div>
 
-> [!danger] Safety
-> Bow and Arrow Choke targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <aside class="entity-relations">
 <p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Loop Choke|Loop Choke]]</strong> — the Loop Choke wraps the collar over the head from the front/side</p>
 </aside>
@@ -261,9 +258,8 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -273,32 +269,9 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 | Knee or hip stress from forced leg extension | Low | 2-5 days for minor discomfort |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on body or mat
-- Physical foot tap on mat
-- Any audible distress signal
-- Loss of resistance (immediate release required)
 
 
-**Release Protocol**:
-1. Immediately release collar grip upon tap signal
-2. Release leg extension and hooks simultaneously
-3. Allow opponent's head to return to neutral position
-4. Check for consciousness and responsiveness
-5. If opponent was unconscious, elevate legs and monitor until full recovery
-
-
-**Training Restrictions**:
-- Never spike or jerk the choke - apply smooth progressive pressure only
-- Never use competition speed in training rolls
-- Always maintain communication with training partner
-- Never continue pressure after tap signal
-- Beginners must drill position control before attempting finish
-- Always allow partner clear access to tap with hands or voice
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

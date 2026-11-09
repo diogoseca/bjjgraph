@@ -10,8 +10,6 @@ description: "Defend against the Kimura from Knee Shield Half Guard. Recognition
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Knee Shield Half Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -148,6 +146,26 @@ description: "Defend against the Kimura from Knee Shield Half Guard. Recognition
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "3 Ways to Defend the Kimura from Knee Shield",
+      "description": "Kimura from Knee Shield Half Guard (Defender) film study: 3 Ways to Defend the Kimura from Knee Shield.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/A5jjqAxGXIM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/A5jjqAxGXIM",
+      "url": "https://www.youtube.com/watch?v=A5jjqAxGXIM",
+      "duration": "PT244S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura Counter From Top Half Guard To Armlock",
+      "description": "Kimura from Knee Shield Half Guard (Defender) film study: Kimura Counter From Top Half Guard To Armlock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/urKU1BKZNXA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/urKU1BKZNXA",
+      "url": "https://www.youtube.com/watch?v=urKU1BKZNXA",
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "How To Defend Kimura Lock On Closed and Half Guard",
       "description": "Kimura from Knee Shield Half Guard (Defender) film study: How To Defend Kimura Lock On Closed and Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2gJ7XDPyOLQ/hqdefault.jpg",
@@ -179,6 +197,22 @@ Defending the Kimura from Knee Shield Half Guard requires early recognition and 
 
 <p class="section-subtitle">Watch Kimura from Knee Shield Half Guard (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=A5jjqAxGXIM)
+
+<p class="clip-credit"><strong>3 Ways to Defend the Kimura from Knee Shield</strong> · 4:04 · <a href="https://www.youtube.com/watch?v=A5jjqAxGXIM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=urKU1BKZNXA)
+
+<p class="clip-credit"><strong>Kimura Counter From Top Half Guard To Armlock</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=urKU1BKZNXA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -223,6 +257,8 @@ Defending the Kimura from Knee Shield Half Guard requires early recognition and 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kimura/from Knee Shield Half Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

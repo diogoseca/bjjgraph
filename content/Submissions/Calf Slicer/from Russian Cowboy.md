@@ -36,6 +36,37 @@ description: "Master the calf slicer from Russian Cowboy in BJJ. Complete guide 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Russian Cowboy \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Calf Slicer setup from the back",
+      "description": "Calf Slicer from Russian Cowboy film study: Calf Slicer setup from the back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9LhHVcVVGvs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9LhHVcVVGvs",
+      "url": "https://www.youtube.com/watch?v=9LhHVcVVGvs",
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "CALF SLICER FROM BACK MOUNT DETAILS",
+      "description": "Calf Slicer from Russian Cowboy film study: CALF SLICER FROM BACK MOUNT DETAILS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2YQF94UJuGM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2YQF94UJuGM",
+      "url": "https://www.youtube.com/watch?v=2YQF94UJuGM",
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +92,6 @@ description: "Master the calf slicer from Russian Cowboy in BJJ. Complete guide 
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer from Russian Cowboy targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture from excessive compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Calf Slicer/from Russian Cowboy/Attacker|Play as Attacker]]
@@ -83,6 +111,32 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Russian Cowboy in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9LhHVcVVGvs)
+
+<p class="clip-credit"><strong>Calf Slicer setup from the back</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=9LhHVcVVGvs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2YQF94UJuGM)
+
+<p class="clip-credit"><strong>CALF SLICER FROM BACK MOUNT DETAILS</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=2YQF94UJuGM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -131,6 +185,8 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 
 - Time the slicer entry when the opponent is focused on defending upper body attacks rather than monitoring the leg hook position
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -202,6 +258,8 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 - The attacker's chest pressure shifts downward toward your hips as they reposition to capture your foot
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -258,9 +316,8 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -270,32 +327,9 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 | Deep tissue bruising and risk of compartment syndrome | Medium | 2-4 weeks, rare cases require emergency fasciotomy |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum to full pressure in training. Never spike, jerk, or bounce the compression. Gradual hip extension only.
-
-**Tap Signals**:
-- Verbal tap strongly encouraged due to leg entanglement limiting hand mobility
-- Physical hand tap on partner, their leg, or the mat
-- Foot tap on mat if hands are trapped or occupied
-- Any distress vocalization treated as immediate tap
-- Slapping the mat repeatedly with free hand
 
 
-**Release Protocol**:
-1. Immediately release foot grip and stop hip extension upon any tap signal
-2. Remove shin pressure from behind the knee slowly and in a controlled manner
-3. Unwrap legs carefully without jerking or twisting movements
-4. Allow partner to fully extend their leg naturally before disengaging upper body control
-5. Check partner's calf mobility and sensation before resuming training
-
-
-**Training Restrictions**:
-- Apply at no more than 50% speed in training, never at competition intensity
-- Never spike, bounce, or jerk the compression under any circumstances
-- Never hold after tap to consolidate position or practice control
-- Always ensure partner has clear tap access with at least one hand or verbal ability
-- Prohibited for colored belts below brown belt in IBJJF and most rule sets
-- Never practice on partners with previous calf or knee injuries without explicit discussion and consent
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

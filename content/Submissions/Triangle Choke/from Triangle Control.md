@@ -82,9 +82,6 @@ description: "Master the triangle choke finish from triangle control. Learn prec
 <span class="meta-chip">65% success</span>
 </div>
 
-> [!danger] Safety
-> Triangle Choke from Triangle Control targets the Carotid arteries and brachial plexus. Primary risk: Loss of consciousness from bilateral carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Triangle Choke/from Triangle Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ The finish timeline is surprisingly short once mechanics are correct. A properly
 - Keep the choking leg's knee pointed toward the trapped shoulder to ensure the thigh and calf compress both carotid arteries symmetrically
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -243,6 +242,8 @@ The finish timeline is surprisingly short once mechanics are correct. A properly
 - Increasing bilateral pressure on both sides of your neck indicating the attacker is beginning the sustained finishing squeeze
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -302,9 +303,8 @@ The finish timeline is surprisingly short once mechanics are correct. A properly
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -313,31 +313,9 @@ The finish timeline is surprisingly short once mechanics are correct. A properly
 | Brachial plexus compression causing temporary arm numbness or tingling | Low | Minutes to hours, rarely persists beyond 24 hours |
 
 
-**Application Speed**: SLOW and progressive—build squeeze pressure over 3-5 seconds minimum. Never jerk, spike, or explosively tighten the triangle. Gradual compression allows training partners adequate time to recognize the submission and tap before arterial occlusion reaches dangerous levels.
-
-**Tap Signals**:
-- Verbal tap—saying 'tap' or any distress vocalization
-- Physical hand tap—multiple taps on partner's body, legs, or the mat
-- Physical foot tap—tapping feet on mat when hands are trapped inside the triangle
-- Going limp or sudden loss of resistance—treat as immediate tap and release
 
 
-**Release Protocol**:
-1. Immediately uncross ankles and open legs to release the triangle configuration
-2. Lower legs to the mat and remove all shin pressure from opponent's neck
-3. Release all grips on head, wrist, and sleeve to allow partner to recover posture
-4. Check partner's consciousness, breathing, and responsiveness immediately
-5. If partner is unconscious, place in recovery position, elevate legs, and alert instructor
-
-
-**Training Restrictions**:
-- Never hold the triangle after any tap signal or loss of consciousness
-- Never apply competition-speed finishing pressure during regular training
-- Always ensure partner has at least one hand free to deliver a tap signal
-- Monitor partner's skin color around face and ears throughout the finishing sequence
-- Practice finishing mechanics at controlled intensity before applying against full resistance
-- Release immediately if partner shows signs of disorientation or panic
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

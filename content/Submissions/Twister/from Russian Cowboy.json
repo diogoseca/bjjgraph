@@ -446,6 +446,23 @@
     ],
     "clips": [
       {
+        "id": "FjWN_aBp2eE",
+        "title": "Eddie Bravo's Twister - With 3 Flores",
+        "channel": "CholoMMA",
+        "duration": 49,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "fimsdxzk-8s",
+        "title": "Guillotine or Twister from broken down opponent",
+        "channel": "Hideout Wrestling",
+        "duration": 126,
+        "vertical": false,
+        "verified": "2026-11-04"
+      },
+      {
         "id": "RVr67Kb-6ec",
         "title": "Twister from Turtle (Try it out Tuesday)",
         "channel": "Thunderdome BJJ",
@@ -660,6 +677,23 @@
         "channel": "m mill",
         "duration": 201,
         "vertical": false
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Tuck both arms tight",
+        "clips": [
+          {
+            "id": "oNCcwLYDM_g",
+            "title": "Breakdown DEFENSE ESCAPE TWISTER Korean Zombie first HISTORY of UFC (uploaded…",
+            "channel": "m mill",
+            "duration": 201,
+            "vertical": false,
+            "start": 84,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
       }
     ]
   }

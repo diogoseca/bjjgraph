@@ -396,7 +396,25 @@
       }
     ],
     "safety_considerations": "This defense involves significant pressure application through crossface and chest compression. Train with progressive resistance, starting at low intensity to allow partners to develop comfort with the pressure. Communicate clearly about crossface pressure levels as excessive force against the jaw can cause neck strain or jaw discomfort. Ensure the lockdown extension during defense does not hyperextend the knee of the trapped leg. Tap immediately if the lockdown creates uncomfortable knee pressure rather than fighting through it.",
-    "clips": []
+    "clips": [
+      {
+        "id": "3CM7prP1kzc",
+        "title": "BJJ Basics: Counter Old School Sweep",
+        "channel": "Ayrshire Grappler",
+        "duration": 60,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "4M_9jlXDCtE",
+        "title": "Basic old school Sweep defense",
+        "channel": "Ricardo Cavalcanti BJJ",
+        "duration": 231,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Defend Old School Sweep Defender",
@@ -571,6 +589,16 @@
         "description": "Start in Old School bottom position against full resistance. Execute complete offensive game plan including initial sweep threat, reading defense, and flowing through chain attacks. Reset after successful sweep, back take, submission, or pass. Five-minute rounds developing fight IQ for Old School bottom offense."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "KX4aiS5DVPU",
+        "title": "When your opponent defends the Old School sweep - HIT THEM WITH THIS! #bjj…",
+        "channel": "Wimbledon Brazilian Jiu Jitsu & Self Defence",
+        "duration": 119,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      }
+    ]
   }
 }

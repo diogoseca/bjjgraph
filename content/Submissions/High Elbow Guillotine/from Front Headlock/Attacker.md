@@ -10,8 +10,6 @@ description: "Learn to finish the High Elbow Guillotine from Front Headlock with
 
 <body data-content-type="submissions">
 
-> **SAFETY**: High Elbow Guillotine from Front Headlock targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -188,6 +186,16 @@ description: "Learn to finish the High Elbow Guillotine from Front Headlock with
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "High Elbow Guillotine from the Front Headlock",
+      "description": "High Elbow Guillotine from Front Headlock (Attacker) film study: High Elbow Guillotine from the Front Headlock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l4FWC_kYKas/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l4FWC_kYKas",
+      "url": "https://www.youtube.com/watch?v=l4FWC_kYKas",
+      "duration": "PT248S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "High Elbow Guillotine aka Marcelotine",
       "description": "High Elbow Guillotine from Front Headlock (Attacker) film study: High Elbow Guillotine aka Marcelotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9U5nyBImGj4/hqdefault.jpg",
@@ -219,6 +227,14 @@ Executing the High Elbow Guillotine from Front Headlock requires precise coordin
 
 <p class="section-subtitle">Watch High Elbow Guillotine from Front Headlock (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l4FWC_kYKas)
+
+<p class="clip-credit"><strong>High Elbow Guillotine from the Front Headlock</strong> · 4:08 · <a href="https://www.youtube.com/watch?v=l4FWC_kYKas" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -264,6 +280,8 @@ Executing the High Elbow Guillotine from Front Headlock requires precise coordin
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/High Elbow Guillotine/from Front Headlock#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

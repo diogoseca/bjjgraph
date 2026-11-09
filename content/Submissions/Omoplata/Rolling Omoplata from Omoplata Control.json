@@ -519,7 +519,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "3-sSkw3fdsQ",
+        "title": "Lasso Guard: Rolling Omoplata Entry",
+        "channel": "Revolution BJJ",
+        "duration": 78,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Rolling Omoplata Defender",

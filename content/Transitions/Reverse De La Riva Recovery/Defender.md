@@ -142,6 +142,27 @@ description: "How to prevent Reverse De La Riva Recovery in BJJ. Recognition cue
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse De La Riva Recovery (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse De La Riva Guard Recovery Counter Pass",
+      "description": "Reverse De La Riva Recovery (Defender) film study: Reverse De La Riva Guard Recovery Counter Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K3qRyXTPixY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K3qRyXTPixY",
+      "url": "https://www.youtube.com/watch?v=K3qRyXTPixY",
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -156,6 +177,24 @@ The defender's strategic framework centers on three pillars: pressure consolidat
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse De La Riva Recovery (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K3qRyXTPixY)
+
+<p class="clip-credit"><strong>Reverse De La Riva Guard Recovery Counter Pass</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=K3qRyXTPixY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

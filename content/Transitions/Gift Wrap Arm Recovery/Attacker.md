@@ -176,6 +176,27 @@ description: "How to execute Gift Wrap Arm Recovery in BJJ. Attacking perspectiv
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap Arm Recovery (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the Gift Wrap in jiu jitsu",
+      "description": "Gift Wrap Arm Recovery (Attacker) film study: Escaping the Gift Wrap in jiu jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OMzki0Uu7vA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OMzki0Uu7vA",
+      "url": "https://www.youtube.com/watch?v=OMzki0Uu7vA",
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -192,6 +213,24 @@ Execution demands patience and precise timing. The optimal window opens when the
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap Arm Recovery (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OMzki0Uu7vA)
+
+<p class="clip-credit"><strong>Escaping the Gift Wrap in jiu jitsu</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=OMzki0Uu7vA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

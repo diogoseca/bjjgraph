@@ -10,8 +10,6 @@ description: "Defend and escape the belly down armbar finish from Spider Guard. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from Spider Guard targets the Elbow joint hyperextension and ulnar collateral ligament. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -138,6 +136,37 @@ description: "Defend and escape the belly down armbar finish from Spider Guard. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Spider Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belly down arm bar escape breakdown",
+      "description": "Belly Down Armbar from Spider Guard (Defender) film study: Belly down arm bar escape breakdown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AApmPQUUmYI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AApmPQUUmYI",
+      "url": "https://www.youtube.com/watch?v=AApmPQUUmYI",
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Belly Down Arm Bar Escape:Basic",
+      "description": "Belly Down Armbar from Spider Guard (Defender) film study: Belly Down Arm Bar Escape:Basic.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FlFGsSpqYdE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FlFGsSpqYdE",
+      "url": "https://www.youtube.com/watch?v=FlFGsSpqYdE",
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -151,6 +180,32 @@ Defending the belly down armbar finish from Spider Guard requires recognizing th
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Spider Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AApmPQUUmYI)
+
+<p class="clip-credit"><strong>Belly down arm bar escape breakdown</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=AApmPQUUmYI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FlFGsSpqYdE)
+
+<p class="clip-credit"><strong>Belly Down Arm Bar Escape:Basic</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=FlFGsSpqYdE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -184,6 +239,8 @@ Defending the belly down armbar finish from Spider Guard requires recognizing th
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Belly Down Armbar/from Spider Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

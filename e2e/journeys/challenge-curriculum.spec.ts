@@ -29,46 +29,36 @@ async function openChallenges(page: any) {
 }
 
 test.describe("Challenge curriculum @curated", () => {
-  test("Challenges is the default learning view and the three-view choice persists", async ({
+  // v1.242.0 (owner A5 / E1 / T-b): the tabs became one drawer list, so there is no "default tab" any
+  // more. The drawer always opens on its list; Path (the old Challenges tab) is one row away, and the
+  // stat band's cells moved to the Practice row and the badge's menu (sidebar.spec.ts pins those).
+  test("the drawer opens on its list, and Path is one row away from it", async ({
     page,
   }) => {
     const j = journey(page);
     await j.boot("/");
-    await openChallenges(page);
-
-    await expect(page.locator("[data-view='challenges']")).toHaveAttribute(
-      "aria-pressed",
-      "true",
-    );
-    await page.locator("[data-view='history']").click();
+    await page.evaluate(() => (window as any).__neural.toggleExplorer());
+    await expect(page.locator("[data-drawer-explore]")).toBeVisible();
+    await expect(page.locator(".ng-drawer-brand")).toHaveText("BJJGraph");
+    await page.locator("[data-view='challenges']").click();
+    await expect(page.locator(".ng-track-card").first()).toBeVisible();
+    await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Path");
     expect(
       await page.evaluate(() => localStorage.getItem("bjj_view_mode")),
-    ).toBe("history");
+    ).toBe("challenges");
 
     await j.boot("/", { preserveStorage: true });
     await page.evaluate(() => (window as any).__neural.toggleExplorer());
-    await expect(page.locator("[data-view='history']")).toHaveAttribute(
-      "aria-pressed",
-      "true",
-    );
-    // THE STAT BAND MOVED TO THE PANE FOOT (v1.104.5, owner: "I would prefer to be closer to the
-    // bottom"). It was Explore-only at the top of that tab's body from v1.95.0; it is now its own
-    // element above the save nudge, so it is visible on EVERY tab — including the restored
-    // History one — and it must not vanish for a signed-in user the way the nudge does.
-    await expect(page.locator(".ngStat[data-b='mastered']")).toBeVisible();
-    expect(
-      await page.evaluate(() => !!document.querySelector(".ng-pane-stats [data-explore-stats]")),
-      "it lives in the foot band, not in a tab body",
-    ).toBe(true);
-    await page.locator("[data-view='explore']").click();
-    await expect(page.locator(".ngStat[data-b='mastered']")).toBeVisible();
+    await expect(page.locator("[data-drawer-explore]"), "reopened on the list, not on Path").toBeVisible();
+    await expect(page.locator(".ngStat[data-b='due']"), "Practice sits on the list").toBeVisible();
   });
 
-  test("all content tracks and lessons are open while proof gates checkpoints and capstones", async ({
+  test("earned tracks keep lessons open while proof gates checkpoints and capstones", async ({
     page,
   }) => {
     const j = journey(page);
     await j.boot("/");
+    await page.evaluate(() => { const a = (window as any).__neural; a.belts = { ...a.belts, held: { id: "black", t: 1 }, gf: 1 }; });
     await openChallenges(page);
 
     const tracks = page.locator(".ng-track-card");
@@ -167,7 +157,7 @@ test.describe("Challenge curriculum @curated", () => {
       expect(selected.id).toBe(pick.id);
       await expect(page.locator(".ng-challenge-ladder [data-list-add]")).toHaveCount(0);
       await expect(page.locator(`[data-mini-deck="${pick.key}"]`)).toBeVisible();
-      await expect(page.locator("[data-view='challenges']")).toHaveAttribute("aria-pressed", "true");
+      await expect(page.locator(".ng-drawer-brand"), "the pick stays on Path").toHaveText("\u2039 Path");
 
       // Choosing the same row again keeps its cards open without duplicating history.
       await row.click();
@@ -266,6 +256,7 @@ test.describe("Challenge curriculum @curated", () => {
     await j.boot("/");
     await j.land("Mount Top");
     await page.evaluate(() => (window as any).__neural.setGiMode("nogi"));
+    await page.evaluate((id) => { const a = (window as any).__neural; a.belts = { ...a.belts, held: { id, t: 1 }, gf: 1 }; }, owner.track.id);
     await openChallenges(page);
     await page
       .locator(`.ng-track-card[data-track="${owner.track.id}"]`)
@@ -488,6 +479,7 @@ test.describe("Challenge curriculum @curated", () => {
     await expect(page.locator(".ng-challenge-curriculum").first()).toContainText(
       "Curriculum is unavailable right now",
     );
-    await expect(page.locator(".ng-track-card")).toHaveCount(5);
+    await expect(page.locator(".ng-belt-section")).toHaveCount(5);
+    await expect(page.locator("[data-belt-locked]")).toHaveCount(4);
   });
 });

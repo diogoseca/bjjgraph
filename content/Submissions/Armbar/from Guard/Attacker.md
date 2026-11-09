@@ -10,8 +10,6 @@ description: "How to execute Armbar from Guard in BJJ. Attacking perspective wit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Guard targets the Elbow joint. Risk: Elbow hyperextension. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -279,6 +277,8 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Armbar/from Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

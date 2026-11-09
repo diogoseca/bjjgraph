@@ -10,8 +10,6 @@ description: "Defend and escape the Armbar from S Mount in BJJ. Recognition cues
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from S Mount targets the Elbow joint (hyperextension) and shoulder joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -285,6 +283,8 @@ The critical defensive principle is that a bent arm cannot be armbarred. As long
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Armbar/from S Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

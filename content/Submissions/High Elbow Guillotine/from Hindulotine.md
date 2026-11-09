@@ -105,9 +105,6 @@ description: "The high-elbow guillotine raises the supporting elbow over the sho
 <span class="meta-chip">30% success</span>
 </div>
 
-> [!danger] Safety
-> High Elbow Guillotine from Hindulotine targets the Neck. Primary risk: Neck injury from forced extension or twisting. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/High Elbow Guillotine/from Hindulotine/Attacker|Play as Attacker]]
@@ -212,6 +209,8 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 - Release the grip: Open the hands and remove all neck pressure on the first stop signal.
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -278,6 +277,8 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 - Bring the supporting elbow over the shoulder through a comfortable arm path.
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -311,9 +312,8 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -321,25 +321,9 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 | Loss of consciousness or serious harm from continued choking | CRITICAL | Variable; stop training and seek appropriate clinical assessment after an injury or concerning symptoms. |
 
 
-**Application Speed**: Raise the elbow through available space, never by wrenching the shoulder or neck. Stop at a controlled enclosure in drills and release immediately on any tap. No fixed number of seconds makes a locked submission safe.
-
-**Tap Signals**:
-- Repeated hand taps anywhere the partner can feel them
-- A clear verbal tap or stop, including when the hands are trapped
-- Foot taps or any agreed stop signal; release immediately if normal responsiveness changes
 
 
-**Release Protocol**:
-1. Open the finishing grip immediately at the first signal; do not wait for repeated confirmation
-2. Remove the leg, arm or body restraint without forcing the captured joint or neck through another movement
-3. Check the partner can respond normally and allow a safe reset; end practice and obtain help if there is an injury or concerning symptom
-
-
-**Training Restrictions**:
-- Start with supervised, cooperative control-and-release drilling rather than a loaded finish
-- Check the event's current rules for the specific age, experience and clothing division before live use
-- Raise the elbow through available space, never by wrenching the shoulder or neck. Stop at a controlled enclosure in drills and release immediately on any tap.
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

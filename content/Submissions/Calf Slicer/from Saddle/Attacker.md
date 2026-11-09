@@ -10,8 +10,6 @@ description: "Step-by-step guide to finishing the calf slicer from saddle positi
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Saddle targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -294,6 +292,8 @@ Attacking with the calf slicer from saddle requires understanding how the saddle
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Calf Slicer/from Saddle#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

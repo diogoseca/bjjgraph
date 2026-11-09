@@ -310,7 +310,7 @@ As the practitioner trapped in back control, your primary objective is to system
 |--------|----------|-------------|
 | Success | [[Positions/Turtle]] | 55% |
 | Failure | [[Positions/Back Control]] | 30% |
-| Counter | [[Positions/Mount]] | 15% |
+| Failure | [[Positions/Mount]] | 15% |
 
 
 </section>

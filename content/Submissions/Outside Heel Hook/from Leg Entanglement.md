@@ -92,9 +92,6 @@ description: "Master the outside heel hook from leg entanglement positions. Expe
 <span class="meta-chip">41% success</span>
 </div>
 
-> [!danger] Safety
-> Outside Heel Hook from Leg Entanglement targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: LCL tear (lateral collateral ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Outside Heel Hook/from Leg Entanglement/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ This technique carries extreme injury risk because knee ligaments provide minima
 - Clamp your knees together around the trapped leg to isolate the knee joint and prevent the opponent from spinning or rotating their leg to relieve torsional pressure
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -261,6 +260,8 @@ This technique carries extreme injury risk because knee ligaments provide minima
 - Opponent releasing control of your free leg or upper body to commit both hands to the heel cup and figure-four reinforcement
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -323,9 +324,8 @@ This technique carries extreme injury risk because knee ligaments provide minima
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -338,36 +338,9 @@ This technique carries extreme injury risk because knee ligaments provide minima
 | Ankle ligament damage | Medium | 4-8 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training, NEVER sudden rotation
-
-**Tap Signals**:
-- Verbal tap (primary)
-- Physical hand tap on partner or mat
-- Physical foot tap with free leg
-- Any vocal distress signal
-- Frantic movement or panic response
-- Any indication of discomfort
 
 
-**Release Protocol**:
-1. Immediately release rotational pressure on heel
-2. Release the figure-four grip or heel cup
-3. Remove hip pressure and extension
-4. Allow opponent to straighten leg naturally
-5. Check partner's condition before continuing
-6. Never apply rotation while releasing
-
-
-**Training Restrictions**:
-- NEVER apply sudden rotational force - always slow and progressive
-- NEVER practice at competition speed during training
-- NEVER continue past first sign of discomfort
-- Only train with experienced partners who understand leg locks
-- Always ensure clear communication before training leg locks
-- Tap early and often - do not test flexibility limits
-- Prohibited for white and blue belts in most IBJJF competitions
-- Never practice on injured knees or with prior knee injuries without medical clearance
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

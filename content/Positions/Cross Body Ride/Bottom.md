@@ -155,6 +155,27 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Body Ride (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jeff Jordan Camp - defending a cross body ride",
+      "description": "Cross Body Ride (Bottom) film study: Jeff Jordan Camp - defending a cross body ride.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hghlBKHON1s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hghlBKHON1s",
+      "url": "https://www.youtube.com/watch?v=hghlBKHON1s",
+      "duration": "PT307S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -169,6 +190,24 @@ The fundamental challenge of Cross Body Ride Bottom is that passive defense guar
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Body Ride (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hghlBKHON1s)
+
+<p class="clip-credit"><strong>Jeff Jordan Camp - defending a cross body ride</strong> · 5:07 · <a href="https://www.youtube.com/watch?v=hghlBKHON1s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">
@@ -358,15 +397,6 @@ Start in cross body ride bottom position. Bottom player scores points for succes
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Craig-Jones-Riding-Control-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-riding-control-system" data-system-name="Craig Jones Riding Control System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Riding Control with Power Ride</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

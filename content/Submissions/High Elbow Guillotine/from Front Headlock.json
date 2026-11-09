@@ -434,6 +434,15 @@
     ],
     "clips": [
       {
+        "id": "l4FWC_kYKas",
+        "title": "High Elbow Guillotine from the Front Headlock",
+        "channel": "Rich Castro",
+        "duration": 248,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
         "id": "9U5nyBImGj4",
         "title": "High Elbow Guillotine aka Marcelotine",
         "channel": "Wrecking Crew BJJ",
@@ -613,6 +622,17 @@
         "description": "Start in front headlock with the attacker given freedom to attempt any finish including the high elbow guillotine. Defend with full resistance, implementing the complete defensive decision tree. Track which defenses succeed and which require further drilling. 6-minute rounds from starting position with reset on escape or submission."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "nY6aJK6eS2I",
+        "title": "Defending the Marcelotine, and why the arm in is preferable (Lachlan Giles)",
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 255,
+        "vertical": false,
+        "start": 53,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

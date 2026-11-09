@@ -46,12 +46,12 @@ description: "Master the kneebar from leg entanglement in BJJ. Learn setup from 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Defend a Kneebar (and Prevent a Backstep Pass)",
-      "description": "Kneebar from Leg Entanglement film study: How to Defend a Kneebar (and Prevent a Backstep Pass).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
-      "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
-      "duration": "PT59S"
+      "name": "Ashi Garami Followup: Kneebar Transition from Irimi (BJJ / No Gi Jiu-Jitsu /\u2026",
+      "description": "Kneebar from Leg Entanglement film study: Ashi Garami Followup: Kneebar Transition from Irimi (BJJ / No Gi Jiu-Jitsu /\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/reb8ennYps8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/reb8ennYps8",
+      "url": "https://www.youtube.com/watch?v=reb8ennYps8",
+      "duration": "PT280S"
     }
   ]
 }
@@ -82,9 +82,6 @@ description: "Master the kneebar from leg entanglement in BJJ. Learn setup from 
 <span class="meta-chip">27% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Leg Entanglement targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Primary risk: Posterior cruciate ligament (PCL) tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Leg Entanglement/Attacker|Play as Attacker]]
@@ -114,9 +111,9 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=wBRG0fY94fs)
+![](https://www.youtube.com/watch?v=reb8ennYps8)
 
-<p class="clip-credit"><strong>How to Defend a Kneebar (and Prevent a Backstep Pass)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi Garami Followup: Kneebar Transition from Irimi (BJJ / No Gi Jiu-Jitsu /…</strong> · 4:40 · <a href="https://www.youtube.com/watch?v=reb8ennYps8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -172,6 +169,8 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 
 - Angle your body away from opponent's free leg to prevent them from establishing defensive hooks or counter-entanglement
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,6 +239,8 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 
 - Attacker's free leg pushes against your shoulder, chest, or hip to create distance while their body rotates perpendicular to your trapped leg, combined with increasing squeeze around your thigh
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -315,9 +316,8 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -328,32 +328,9 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 | Patellar dislocation or subluxation | Medium | 3-6 weeks with potential for chronic instability |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training
-
-**Tap Signals**:
-- Verbal tap (preferred for leg locks)
-- Multiple rapid hand taps on opponent or mat
-- Multiple foot taps on mat or opponent
-- Any vocalization of distress or pain
-- Frantic or panicked movement
 
 
-**Release Protocol**:
-1. Immediately stop all hip extension pressure
-2. Release the leg grip and allow knee to return to neutral position
-3. Do not suddenly drop the leg - control descent
-4. Allow partner to assess knee integrity before continuing
-5. Check with partner verbally before resuming training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply progressive pressure
-- Never use competition speed in training - always allow time to tap
-- Always maintain control of opponent's heel - never let it slip out during application
-- Never practice on training partners with known knee injuries without explicit permission
-- Never combine with explosive rotational movements that add torque to the knee
-- Beginners should not practice finishing pressure - focus on positional control only
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

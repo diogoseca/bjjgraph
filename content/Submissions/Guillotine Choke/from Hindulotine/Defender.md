@@ -10,8 +10,6 @@ description: "Guillotine Choke from Hindulotine (defender): Manage posture and i
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Guillotine Choke from Hindulotine targets the Neck. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -256,6 +254,8 @@ The early escape targets the chin strap and supporting hand before they form a c
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Guillotine Choke/from Hindulotine#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

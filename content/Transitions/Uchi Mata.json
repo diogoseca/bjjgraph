@@ -34,7 +34,7 @@
       "result": "failure"
     },
     {
-      "to": "Clinch/Bottom",
+      "to": "Side Control/Bottom",
       "probability": {
         "gi": 10,
         "nogi": 10
@@ -183,7 +183,7 @@
         "counter": "Opponent counters with Uchi Mata Sukashi (void throw) by pulling leg back",
         "effectiveness": "Low",
         "your_response": "If committed properly to Uchi Mata with strong grips, the sukashi counter is difficult to execute. Maintain upper body control and complete your rotation faster than they can void the throw. Keep pulling hand active to prevent them redirecting your momentum.",
-        "targets_outcome": "Clinch/Bottom"
+        "targets_outcome": "Side Control/Bottom"
       }
     ],
     "common_errors": [
@@ -441,7 +441,7 @@
       {
         "action": "Counter-throw with Uchi Mata Sukashi (void throw) by pulling your target leg back and redirecting the attacker's momentum",
         "when_to_use": "When the attacker is mid-rotation and has committed to the throw but has not yet made strong contact with your inner thigh. Requires precise timing.",
-        "targets_outcome": "Clinch/Bottom",
+        "targets_outcome": "Side Control/Bottom",
         "if_successful": "The attacker throws themselves due to their own committed momentum. You end up in top position with the attacker on their back.",
         "risk": "Mistiming the sukashi can result in the original throw succeeding. If the attacker has strong grips and good rotation, the counter may fail and you get thrown harder."
       },
@@ -459,7 +459,7 @@
         "how": "Sprawl early and decisively when you recognize the entry step. Drive your hips back and down while maintaining your grips on the attacker. As their throw fails, use the positional advantage of their compromised posture to establish dominant grips or initiate your own takedown attempt. The failed throw leaves them extended and off-balance, creating openings for snap downs, go-behinds, or counter-takedowns."
       },
       {
-        "outcome": "Clinch/Bottom",
+        "outcome": "Side Control/Bottom",
         "how": "Execute Uchi Mata Sukashi or a counter-throw when the attacker over-commits to their rotation. As they turn their back and lift their sweeping leg, pull your target leg back while redirecting their forward momentum downward. Step around their rotating body and guide them to the mat using their own momentum. This requires precise timing during the transition between their entry and full rotation, and strong grip control to redirect their trajectory."
       }
     ],
@@ -579,7 +579,25 @@
         "description": "Engage in standing sparring rounds where the attacker is specifically working Uchi Mata setups and combinations. Practice maintaining defensive posture while still threatening your own offense. Develop the ability to defend Uchi Mata while continuing to grip fight and advance your own position. Review which defenses work under pressure and refine mechanics. Include both gi and no-gi rounds."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "0Fpw60A1_pw",
+        "title": "Uchi-mata-sukashi - Demo",
+        "channel": "Efficient Judo",
+        "duration": 33,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "lctx64XV6gE",
+        "title": "2 Counters to Uchi-mata",
+        "channel": "Nick Delpopolo",
+        "duration": 316,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "variants_and_adaptations": [
     {

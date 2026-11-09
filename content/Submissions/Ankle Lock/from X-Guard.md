@@ -92,9 +92,6 @@ description: "Master the ankle lock from X-Guard in BJJ. Complete guide to setup
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Ankle Lock from X-Guard targets the Ankle. Primary risk: Ankle ligament sprain or tear (anterior talofibular ligament, calcaneofibular ligament). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Ankle Lock/from X-Guard/Attacker|Play as Attacker]]
@@ -192,6 +189,8 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 - Transition to Ashi Garami when the finish is unavailable rather than forcing a compromised ankle lock with diminishing returns
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -264,6 +263,8 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 - Attacker's chest drives forward and down toward your ankle rather than maintaining the upward elevation typical of sweep attempts
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -327,9 +328,8 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -338,28 +338,9 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 | Midfoot joint sprain (Lisfranc injury) from twisting pressure on planted foot | High | 6-12 weeks, may require surgical intervention |
 
 
-**Application Speed**: SLOW and progressive. Straight ankle locks allow the defender time to feel escalating pressure and tap before injury occurs. Never jerk, spike, or explosively crank the ankle. Apply steady hip extension over 2-3 seconds minimum.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, your body, or the mat
-- Physical foot tap with free leg on mat or partner
-- Any unusual screaming, groaning, or distress vocalization
 
 
-**Release Protocol**:
-1. Release grip immediately upon any tap signal without hesitation
-2. If in doubt whether a tap occurred, release immediately — position can always be re-established
-3. Slowly unwind the figure-four grip rather than abruptly dropping the leg to prevent secondary strain
-4. Verbally check with partner after release to confirm they are uninjured before continuing
-
-
-**Training Restrictions**:
-- Beginners should drill at slow speed with cooperative partners before adding resistance
-- No explosive cranking or sudden increases in pressure at any skill level
-- Avoid ankle locks on partners with known ankle, foot, or Achilles tendon injuries
-- White belts under IBJJF rules may only attempt straight ankle locks — no heel hooks or toe holds from this position
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

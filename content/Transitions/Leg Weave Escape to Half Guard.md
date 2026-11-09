@@ -36,6 +36,27 @@ description: "Leg Weave Escape to Half Guard uses inside frames and hip movement
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Weave Escape to Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the leg weave pass",
+      "description": "Leg Weave Escape to Half Guard film study: Defending the leg weave pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Eokc8gkhZbE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Eokc8gkhZbE",
+      "url": "https://www.youtube.com/watch?v=Eokc8gkhZbE",
+      "duration": "PT168S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -76,6 +97,24 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Weave Escape to Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Eokc8gkhZbE)
+
+<p class="clip-credit"><strong>Defending the leg weave pass</strong> · 2:48 · <a href="https://www.youtube.com/watch?v=Eokc8gkhZbE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

@@ -41,6 +41,9 @@
 .ng-choice-card button:focus-visible { outline:2px solid #c5d6ff; outline-offset:-3px; }
 .ng-choice-viewer { width:min(620px,calc(100vw - 24px)); padding:12px; box-sizing:border-box; border:1px solid #637392; border-radius:14px; background:#151a2b; color:#eef1f6; }
 .ng-choice-viewer::backdrop { background:rgba(3,6,14,.75); }
+/* The top-layer player keeps the card's header, footer and layout at home. */
+.ng-video-theater { position:fixed; inset:0; margin:auto; padding:0; border:0; max-width:none; max-height:none; width:min(95vw,calc(95vh * var(--film-ratio))); height:min(calc(95vw / var(--film-ratio)),95vh); background:#000; color:#eef1f6; z-index:96; overflow:hidden; }
+.ng-video-theater::backdrop { background:rgba(0,0,0,.6); }
 .ng-choice-viewer header { display:flex; align-items:center; justify-content:space-between; gap:12px; font-size:14px; }
 .ng-choice-viewer header button { width:44px; height:44px; flex:none; border:0; background:none; color:inherit; cursor:pointer; }
 .ng-choice-viewer .ng-clip { width:100%!important; height:auto!important; aspect-ratio:16/9; }
@@ -51,6 +54,12 @@
 .ng-landfilm.ng-current-card .ng-cliprow { padding:0!important; margin:0!important; gap:8px!important; scroll-snap-type:x mandatory; mask-image:none!important; -webkit-mask-image:none!important; }
 .ng-landfilm.ng-current-card .ng-cliprow .ng-clip { flex:0 0 calc(90.9090909% - 7.272727px); width:calc(90.9090909% - 7.272727px)!important; height:auto!important; aspect-ratio:16/9; border:0!important; border-radius:0; transition:none; }
 .ng-landfilm.ng-current-card[data-single-video] .ng-clip { flex-basis:100%; width:100%!important; }
+.ng-current-card .ng-choice-media { height:auto; aspect-ratio:16/9; }
+/* U109 b (owner, 2026-11-09): the no-video card says so and asks for one, in a clip's 16:9, below the card's title. Colours and radius
+   are the card's own. */
+.ng-film-none { grid-template:none; align-content:center; gap:8px; padding:48px 24px 16px; text-align:center; font-size:13px; }
+.ng-film-none b { color:#eef1f6; font-size:14px; }
+.ng-film-none button { justify-self:center; padding:8px 16px; border:1px solid #4a6cff; border-radius:11px; background:none; color:#eef1f6; font:inherit; font-weight:600; cursor:pointer; }
 .ng-current-card footer { margin:0; opacity:1; display:flex; align-items:center; justify-content:space-between; height:40px; padding:0 12px; box-sizing:border-box; font-size:11px; color:#aab9d3; }
 .ng-current-stat { display:flex; flex-direction:column; min-width:64px; gap:1px; font-size:10px; text-align:right; }
 .ng-current-stat strong { font-size:18px; line-height:1.1; color:#edf3ff; font-variant-numeric:tabular-nums; }

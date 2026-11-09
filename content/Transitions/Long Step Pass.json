@@ -43,7 +43,7 @@
   },
   "conditions": [
     "Passer must have standing or combat base position with ability to control distance",
-    "Opponent must be in an open guard variation where legs are not locked around the passer",
+    "Opponent must be in an open guard variation where legs are not locked around the passer, unless you start from Half Guard, where this is the standard change of direction when the knee slice stalls",
     "Passer must have at least one controlling grip established on opponent's lower body",
     "Opponent's guard structure must have a momentary opening or the passer must create one through grip fighting"
   ],

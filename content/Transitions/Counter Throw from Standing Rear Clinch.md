@@ -36,6 +36,27 @@ description: "Master counter throws from standing rear clinch in BJJ. Learn late
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Throw from Standing Rear Clinch \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rear Bear Hug Hip Throw",
+      "description": "Counter Throw from Standing Rear Clinch film study: Rear Bear Hug Hip Throw.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K_fKMw83VMY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K_fKMw83VMY",
+      "url": "https://www.youtube.com/watch?v=K_fKMw83VMY",
+      "duration": "PT12S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The counter throw family from rear clinch draws heavily from judo and wrestling 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Throw from Standing Rear Clinch in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K_fKMw83VMY)
+
+<p class="clip-credit"><strong>Rear Bear Hug Hip Throw</strong> · 0:12 · <a href="https://www.youtube.com/watch?v=K_fKMw83VMY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

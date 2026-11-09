@@ -102,9 +102,6 @@ description: "Master the Armbar from Technical Mount in BJJ. Complete guide to s
 <span class="meta-chip">55% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from Technical Mount targets the Elbow joint (hyperextension) and shoulder girdle. Primary risk: Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and radial collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from Technical Mount/Attacker|Play as Attacker]]
@@ -209,6 +206,8 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 - Apply breaking pressure through hip elevation rather than pulling with arms for maximum mechanical advantage
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -283,6 +282,8 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 - Attacker's inside leg begins lifting to swing over your face — this is the final pre-submission transition cue
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -349,9 +350,8 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -360,28 +360,9 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 | Shoulder strain or subluxation from rotational force when opponent resists by turning the arm inward | Medium | 2-6 weeks depending on severity of the strain and tissue involvement |
 
 
-**Application Speed**: SLOW and controlled. Apply gradual increasing pressure to the elbow joint through hip elevation. Never jerk, spike, or explosively extend the arm. The elbow reaches its breaking point within 2-3 degrees of full extension under load. Allow sufficient time for partner to recognize the submission and tap before damage occurs.
-
-**Tap Signals**:
-- Verbal tap — saying 'tap' or any distress signal clearly
-- Physical hand tap on partner, mat, or own body with free hand
-- Physical foot tap on mat with either leg
-- Any unusual vocalization, scream, or distress sound treated as immediate tap
 
 
-**Release Protocol**:
-1. Release all pressure immediately upon any tap signal without hesitation
-2. If in doubt whether a tap occurred, release immediately — position can always be re-established
-3. Gradually release arm control after removing breaking pressure to avoid jarring the joint
-4. If opponent's arm makes an audible pop or sudden loss of resistance occurs, stop immediately and check for injury regardless of tap
-
-
-**Training Restrictions**:
-- White belts should drill mechanics only with cooperative partners and no resistance finishing until supervised by instructor
-- Never apply this submission with explosive force in training under any circumstances
-- Partners with pre-existing elbow or shoulder injuries should communicate limitations before rolling
-- Competition-speed finishing should only be practiced with experienced partners who understand tap timing
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

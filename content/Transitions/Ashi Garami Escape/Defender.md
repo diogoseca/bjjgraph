@@ -20,7 +20,7 @@ description: "How to prevent and counter the Ashi Garami Escape in BJJ. Retentio
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Advance to inside ashi or saddle by backstep when opponent creates hip angle for escape",
+      "name": "Advance to saddle by backstep when opponent creates hip angle for escape",
       "text": "When opponent rotates hips away and begins clearing sequence, creating space that allows you to backstep your outside leg to achieve superior inside position If successful: You advance to a more dominant leg entanglement position with better heel exposure and finishing angles, forcing opponent to restart escape from worse position",
       "position": 1
     },
@@ -234,10 +234,10 @@ Effective ashi garami retention demands active grip management, constant hip fol
 
 <p class="section-subtitle">What can you do to defend against Ashi Garami Escape?</p>
 
-### 1. Advance to inside ashi or saddle by backstep when opponent creates hip angle for escape
+### 1. Advance to saddle by backstep when opponent creates hip angle for escape
 
 - **When to use**: When opponent rotates hips away and begins clearing sequence, creating space that allows you to backstep your outside leg to achieve superior inside position
-- **Targets**: [[Positions/Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You advance to a more dominant leg entanglement position with better heel exposure and finishing angles, forcing opponent to restart escape from worse position
 - **Risk**: If the backstep is incomplete, opponent may use the transitional moment to accelerate their leg extraction through the gap you created
 
@@ -276,9 +276,9 @@ Effective ashi garami retention demands active grip management, constant hip fol
 
 Maintain tight entanglement structure by keeping legs triangled, following opponent's hip rotation with your own adjustments, and immediately recomposing any cleared legs before opponent can complete the full extraction sequence. Time submission attacks for moments of heel exposure during escape attempts.
 
-### → [[Positions/Ashi Garami]]
+### → [[Positions/Ashi Garami/Saddle]]
 
-Use opponent's escape movements as advancement opportunities by backstep to saddle or inside ashi when they create hip angle. Their rotation away from you opens pathways for your outside leg to step behind their trapped leg, achieving superior inside position with greater heel exposure and finishing angles.
+Use opponent's escape movements as advancement opportunities by backstep to saddle when they create hip angle. Their rotation away from you opens pathways for your outside leg to step behind their trapped leg, achieving superior inside position with greater heel exposure and finishing angles.
 
 
 

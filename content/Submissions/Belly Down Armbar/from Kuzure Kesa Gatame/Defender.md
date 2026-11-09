@@ -10,8 +10,6 @@ description: "How to defend the belly down armbar from Kuzure Kesa Gatame. Recog
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Belly Down Armbar from Kuzure Kesa Gatame targets the Elbow joint hyperextension and ulnar collateral ligament. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -152,6 +150,27 @@ description: "How to defend the belly down armbar from Kuzure Kesa Gatame. Recog
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Kuzure Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belly down arm bar escape breakdown",
+      "description": "Belly Down Armbar from Kuzure Kesa Gatame (Defender) film study: Belly down arm bar escape breakdown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AApmPQUUmYI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AApmPQUUmYI",
+      "url": "https://www.youtube.com/watch?v=AApmPQUUmYI",
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +184,24 @@ Defending the belly down armbar from Kuzure Kesa Gatame requires recognizing the
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Kuzure Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AApmPQUUmYI)
+
+<p class="clip-credit"><strong>Belly down arm bar escape breakdown</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=AApmPQUUmYI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -198,6 +235,8 @@ Defending the belly down armbar from Kuzure Kesa Gatame requires recognizing the
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Belly Down Armbar/from Kuzure Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -36,6 +36,27 @@ description: "Master the short choke from body triangle in BJJ. Learn lapel feed
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Body Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Demian Maia - Lapel Choke from Body Triangle - Jits Magazine",
+      "description": "Short Choke from Body Triangle film study: Demian Maia - Lapel Choke from Body Triangle - Jits Magazine.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aH75QD_8n_M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aH75QD_8n_M?start=29",
+      "url": "https://www.youtube.com/watch?v=aH75QD_8n_M",
+      "duration": "PT157S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +82,6 @@ description: "Master the short choke from body triangle in BJJ. Learn lapel feed
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Short Choke from Body Triangle targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Short Choke/from Body Triangle/Attacker|Play as Attacker]]
@@ -83,6 +101,24 @@ What distinguishes this variant from other short choke entries is the stability 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Body Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aH75QD_8n_M&start=29)
+
+<p class="clip-credit"><strong>Demian Maia - Lapel Choke from Body Triangle - Jits Magazine</strong> · 2:37 · <a href="https://www.youtube.com/watch?v=aH75QD_8n_M&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -131,6 +167,8 @@ What distinguishes this variant from other short choke entries is the stability 
 
 - Be patient with the lapel feed rather than forcing it—rushed attempts telegraph your intention and give the defender time to tuck their chin
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -200,6 +238,8 @@ What distinguishes this variant from other short choke entries is the stability 
 - Pressure shifts from general back control to targeted collar manipulation—the opponent's grip changes from controlling your torso to working your gi fabric
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -256,9 +296,8 @@ What distinguishes this variant from other short choke entries is the stability 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -267,30 +306,9 @@ What distinguishes this variant from other short choke entries is the stability 
 | Neck strain from rotational pressure combined with body triangle immobilization | Low | 2-5 days with rest |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. The body triangle already restricts breathing, so the choke compounds pressure rapidly. Apply lapel tension gradually and monitor partner closely.
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress signal including body going limp
 
 
-**Release Protocol**:
-1. Immediately release lapel grip and remove all pressure from neck upon any tap signal
-2. Unlock body triangle and remove leg pressure from torso to restore breathing capacity
-3. Check partner's consciousness and breathing status before moving
-4. If partner is unconscious, place in recovery position, elevate legs, and monitor airway
-5. Never reapply the choke in the same training session if unconsciousness occurred
-
-
-**Training Restrictions**:
-- Never apply sudden jerking motions with the lapel across the neck
-- Never continue pressure after any tap signal—the dual pressure from body triangle and choke can cause rapid unconsciousness
-- Never practice on partners with neck injuries, cardiovascular conditions, or carotid artery issues
-- Always ensure partner can signal a tap with at least one hand or verbally
-- Never use competition speed during initial learning phases
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

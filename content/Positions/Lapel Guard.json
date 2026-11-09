@@ -836,79 +836,171 @@
       {
         "transition": "Worm Guard Entry",
         "attempt_probability": {
-          "gi": 18,
+          "gi": 15,
           "nogi": null
         }
       },
       {
         "transition": "Squid Guard Entry",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 8,
           "nogi": null
         }
       },
       {
         "transition": "Ringworm Guard Entry",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 5,
           "nogi": null
         }
       },
       {
         "transition": "Lapel Sweep to Back",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 10,
           "nogi": null
         }
       },
       {
         "transition": "Lapel Omoplata Entry",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 7,
           "nogi": null
         }
       },
       {
         "transition": "Lapel Triangle Setup",
         "attempt_probability": {
-          "gi": 5,
+          "gi": 4,
           "nogi": null
         }
       },
       {
         "transition": "Lapel to Lasso Guard",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 8,
           "nogi": null
         }
       },
       {
         "transition": "Lapel to Spider Guard",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 7,
           "nogi": null
         }
       },
       {
         "transition": "Lapel to De La Riva",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 9,
           "nogi": null
         }
       },
       {
         "transition": "Lapel Elevator Sweep",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 9,
           "nogi": null
         }
       },
       {
         "transition": "Lapel Guard to Piranha Guard",
         "attempt_probability": {
-          "gi": 4,
+          "gi": 3,
           "nogi": null
         }
+      },
+      {
+        "transition": "Technical Stand Up to Single Leg",
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": null
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 53,
+          "nogi": null
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 31,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Single Leg X-Guard/Bottom",
+            "probability": {
+              "gi": 22,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Lapel Guard/Bottom",
+            "probability": {
+              "gi": 29,
+              "nogi": null
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Front Headlock/Bottom",
+            "probability": {
+              "gi": 12,
+              "nogi": null
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Turtle/Bottom",
+            "probability": {
+              "gi": 6,
+              "nogi": null
+            },
+            "result": "counter"
+          }
+        ]
+      },
+      {
+        "transition": "Tripod Sweep",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": null
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 41,
+          "nogi": null
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 41,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Lapel Guard/Bottom",
+            "probability": {
+              "gi": 42,
+              "nogi": null
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 17,
+              "nogi": null
+            },
+            "result": "counter"
+          }
+        ]
       }
     ],
     "clips": [

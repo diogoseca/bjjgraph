@@ -10,8 +10,6 @@ description: "Learn to finish the rear naked choke from back control. Step-by-st
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Back Control targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ Attacking with the rear naked choke from back control requires systematic progre
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Back Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

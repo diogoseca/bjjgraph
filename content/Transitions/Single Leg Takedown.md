@@ -135,9 +135,10 @@ The Single Leg Takedown is one of the most fundamental and high-percentage taked
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 70% |
+| Success | [[Positions/Side Control]] | 60% |
+| Success | [[Positions/Closed Guard]] | 10% |
 | Failure | [[Positions/Standing Position]] | 20% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Front Headlock]] | 10% |
 
 
 </section>
@@ -314,7 +315,7 @@ The single leg takedown occupies a crucial position within the broader BJJ techn
 
 - [[Transitions/Snap Down to Front Headlock]] - Setup technique - creates reactions that open single leg opportunities
 
-- [[Positions/Front Headlock]] - Alternative position - where you may end up if single leg is partially defended
+- [[Positions/Front Headlock]] - Counter outcome - where you land, caught, when opponent sprawls on the shot
 
 - [[Positions/X-Guard/Single Leg X-Guard]] - Alternative finish - guard position if takedown is defended but leg control maintained
 
@@ -322,21 +323,13 @@ The single leg takedown occupies a crucial position within the broader BJJ techn
 
 - [[Positions/Back Control]] - Alternative success outcome - achieved when opponent turns incorrectly during defense
 
-- [[Transitions/Guard Pull]] - Alternative strategy - opponent may pull guard to avoid single leg
+- [[Transitions/Guard Pull]] - Alternative strategy - opponent may pull guard to avoid single leg, a lesser success that lands you on top in their closed guard
 
 - [[Transitions/Double Leg Finish]] - Chain technique - conversion option when single leg is defended by squaring hips
 
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Jimmy-Sheptock-Single-Leg-System" data-cta="related-system-card" data-system-slug="systems/jimmy-sheptock-single-leg-system" data-system-name="Jimmy Sheptock Single Leg System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Jimmy Sheptock: Single-Leg Takedowns</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

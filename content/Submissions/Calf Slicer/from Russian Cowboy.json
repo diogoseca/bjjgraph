@@ -441,7 +441,25 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "9LhHVcVVGvs",
+        "title": "Calf Slicer setup from the back",
+        "channel": "McHugh Brazilian Jiu Jitsu",
+        "duration": 33,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "2YQF94UJuGM",
+        "title": "CALF SLICER FROM BACK MOUNT DETAILS",
+        "channel": "Alpha BJJ",
+        "duration": 68,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "from Russian Cowboy Defender",
@@ -612,6 +630,16 @@
         "description": "Start in Russian Cowboy bottom with full resistance. Defend all attacks including the calf slicer while working systematic escapes. Focus on maintaining split awareness between neck and leg threats. Rounds of 2-3 minutes with emphasis on recognizing the earliest possible intervention points."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "UIaZYXwrDJM",
+        "title": "Calf Slicer defense",
+        "channel": "Warrior Combat Academy",
+        "duration": 21,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

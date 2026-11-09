@@ -356,7 +356,25 @@
       }
     ],
     "safety_considerations": "The Gift Wrap Transition is generally low-risk when executed with proper technique. Primary safety concern is avoiding excessive force on the trapped arm, which could cause shoulder strain. Pull the arm across the chest using positional pressure rather than cranking force. During training, tap early if the shoulder position becomes uncomfortable. Partners should release the trap immediately upon tap, as continued pressure on an isolated arm can cause injury. Avoid explosive jerking movements when establishing the wrap - smooth, steady pressure is both more effective and safer.",
-    "clips": []
+    "clips": [
+      {
+        "id": "26xN6gftepQ",
+        "title": "Setting up the Gift Wrap from Mount",
+        "channel": "Rolling Past 50 - BJJ with Kevin",
+        "duration": 99,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "Dd6AiFrhQ7g",
+        "title": "How to Secure a Gift Wrap from Mount to Attack a Head and Arm Strangle or Take…",
+        "channel": "Fox Den Martial Arts",
+        "duration": 137,
+        "vertical": false,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "defender": {
     "name": "Gift Wrap Transition Defender",

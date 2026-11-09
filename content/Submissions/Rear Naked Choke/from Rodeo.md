@@ -82,9 +82,6 @@ description: "Master the Rear Naked Choke from Rodeo Ride in BJJ. Complete guide
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Rear Naked Choke from Rodeo targets the Neck. Primary risk: Loss of consciousness from sustained compression of carotid arteries cutting blood supply to the brain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Rear Naked Choke/from Rodeo/Attacker|Play as Attacker]]
@@ -174,6 +171,8 @@ This submission represents a high-level integration of positional control and fi
 - Maintain hip pressure and leg positioning throughout the finish to prevent the opponent from rolling, standing, or creating defensive space
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -244,6 +243,8 @@ This submission represents a high-level integration of positional control and fi
 - Sudden increase in hip pressure pinning your lower body as the opponent stabilizes their base for the finishing squeeze
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -307,9 +308,8 @@ This submission represents a high-level integration of positional control and fi
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -318,29 +318,9 @@ This submission represents a high-level integration of positional control and fi
 | Cervical spine strain from excessive cranking or twisting during choke application combined with positional pressure | Medium | 1-3 weeks for minor strain, 2-6 weeks for moderate ligament involvement |
 
 
-**Application Speed**: SLOW and progressive. Apply steady, increasing pressure through chest expansion and elbow retraction. Never jerk, crank, or spike the choke. Blood chokes can cause unconsciousness in 4-10 seconds once fully locked—monitor training partner continuously.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat or partner with either leg
-- Any unusual vocalization, gurgling, or distress sounds indicating airway compromise
-- Body going limp indicating loss of consciousness—release immediately
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation or delay
-2. Release immediately if opponent goes limp or shows signs of unconsciousness
-3. If unconscious, place in recovery position, elevate legs, and alert medical staff immediately
-4. If in doubt about whether opponent tapped, release and re-establish position rather than risk injury
-
-
-**Training Restrictions**:
-- Never hold the choke after a tap or signs of unconsciousness under any circumstances
-- Beginners should practice grip mechanics and arm threading without applying full squeeze until technique is clean
-- Apply progressive pressure only—no explosive or jerking application of the choke
-- Partners should agree on resistance level and communication protocols before drilling choke sequences
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

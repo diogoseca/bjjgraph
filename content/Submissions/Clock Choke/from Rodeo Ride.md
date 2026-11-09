@@ -46,6 +46,16 @@ description: "Master the Clock Choke from Rodeo Ride in BJJ. Learn gi-based bloo
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Secrets of Turtle Clock Choke",
+      "description": "Clock Choke from Rodeo Ride film study: Secrets of Turtle Clock Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_qmq81d5X0M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_qmq81d5X0M",
+      "url": "https://www.youtube.com/watch?v=_qmq81d5X0M",
+      "duration": "PT119S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Turtle Control \u0026 Clock Choke",
       "description": "Clock Choke from Rodeo Ride film study: Turtle Control \u0026 Clock Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/grDZ5vo84bg/hqdefault.jpg",
@@ -55,7 +65,7 @@ description: "Master the Clock Choke from Rodeo Ride in BJJ. Learn gi-based bloo
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Wallid Ismail clock choke (week 14)",
       "description": "Clock Choke from Rodeo Ride film study: Wallid Ismail clock choke (week 14).",
       "thumbnailUrl": "https://i.ytimg.com/vi/vX8n_1YUZJs/hqdefault.jpg",
@@ -92,9 +102,6 @@ description: "Master the Clock Choke from Rodeo Ride in BJJ. Learn gi-based bloo
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Clock Choke from Rodeo Ride targets the Carotid arteries and jugular veins. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Clock Choke/from Rodeo Ride/Attacker|Play as Attacker]]
@@ -121,6 +128,14 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 
 <p class="section-subtitle">Watch Clock Choke from Rodeo Ride in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_qmq81d5X0M)
+
+<p class="clip-credit"><strong>Secrets of Turtle Clock Choke</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=_qmq81d5X0M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -188,6 +203,8 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 
 - Sprawl your legs behind you as you walk around to maximize downward pressure through the choking grip
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -259,6 +276,8 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 - Attacker's near-side hand moves to your belt line or near-side collar, indicating secondary grip establishment
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -302,9 +321,8 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -313,28 +331,9 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 | Jaw or temporomandibular joint (TMJ) compression | Medium | 1-2 weeks for minor discomfort; longer for existing TMJ issues |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the choke and tap
-
-**Tap Signals**:
-- Verbal tap or verbal submission signal
-- Physical hand tap on attacker's body or mat
-- Physical foot tap on mat
-- Any rapid or frantic movement indicating distress
 
 
-**Release Protocol**:
-1. Immediately release the lapel grip upon receiving tap signal
-2. Remove your weight from opponent's back and create space
-3. Allow partner to recover in a neutral position without pressure
-4. Check on partner's condition before continuing training
-
-
-**Training Restrictions**:
-- Never apply the choke rapidly or explosively in training
-- Never maintain pressure after partner taps or shows distress
-- Always ensure partner has clear access to tap with hands or feet
-- Avoid training this technique with partners who have neck injuries or cardiovascular conditions
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

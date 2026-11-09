@@ -10,8 +10,6 @@ description: "How to execute Crotch Ripper in BJJ. Attacking perspective with se
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Crotch Ripper from Lockdown targets the Hip flexors, groin muscles, and inner thigh adductors. Risk: Groin strain or muscle tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -279,6 +277,8 @@ The Crotch Ripper is a compression-based submission executed from the lockdown p
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Crotch Ripper/from Lockdown#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

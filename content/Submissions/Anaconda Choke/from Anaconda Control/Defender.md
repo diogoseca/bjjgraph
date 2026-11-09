@@ -10,8 +10,6 @@ description: "How to defend against Anaconda Choke in BJJ. Recognition cues, ear
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Anaconda Choke from Anaconda Control targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -243,6 +241,8 @@ The Anaconda's bilateral compression mechanism means that both your opponent's a
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Anaconda Choke/from Anaconda Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

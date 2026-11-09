@@ -46,12 +46,12 @@ description: "Master the Whizzer overhook control in BJJ. Essential defensive an
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Dip Under Sweep - Whizzer Counter!",
-      "description": "Whizzer film study: Dip Under Sweep - Whizzer Counter!.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pYljJ1yRXO4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pYljJ1yRXO4",
-      "url": "https://www.youtube.com/watch?v=pYljJ1yRXO4",
-      "duration": "PT169S"
+      "name": "Whizzer from Half Guard. How to win \"Dog Fight\"",
+      "description": "Whizzer film study: Whizzer from Half Guard. How to win \"Dog Fight\".",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
+      "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
+      "duration": "PT59S"
     }
   ]
 }
@@ -105,9 +105,9 @@ The Whizzer is inherently transitional. Holding it statically wastes energy and 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pYljJ1yRXO4)
+![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
 
-<p class="clip-credit"><strong>Dip Under Sweep - Whizzer Counter!</strong> · 2:49 · <a href="https://www.youtube.com/watch?v=pYljJ1yRXO4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Whizzer from Half Guard. How to win &#34;Dog Fight&#34;</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -308,15 +308,6 @@ The Whizzer functions as a critical connecting technique within the broader BJJ 
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Alex Enriquez: Wrestling Takedown Defense</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition reference for standing defense study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Tom DeBlass: The Lockdown Blueprint</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

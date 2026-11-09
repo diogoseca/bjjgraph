@@ -34,11 +34,11 @@ const wire = JSON.parse(read("source/quartz/static/neural/graph-data.json"));
  *  Chromium's location.pathname does, which is what made decodeURI throw. */
 function browser(start = "/") {
   let url = new URL(start, "https://bjjgraph.test");
-  const location = { get pathname() { return url.pathname; }, get search() { return url.search; }, get origin() { return url.origin; } };
+  const location = { get href() { return url.href; }, get pathname() { return url.pathname; }, get search() { return url.search; }, get origin() { return url.origin; } };
   const history = { state: null, pushes: 0,
     pushState(state, _t, u) { this.state = state; this.pushes++; url = new URL(u, url); },
     replaceState(state, _t, u) { this.state = state; url = new URL(u, url); } };
-  globalThis.location = location; globalThis.history = history;
+  globalThis.location = location; globalThis.history = history; globalThis.document = { title: "Initial title" };
   return { location, history, go: (p) => { url = new URL(p, url); } };
 }
 
@@ -114,4 +114,85 @@ test("_pageSlug applies exactly Quartz's sluggify replacements (source/quartz/ut
   const app_ = pairs(SRC.slice(SRC.indexOf("  _pageSlug(id) {"), SRC.indexOf("  _pageSlug(id) {") + 400));
   assert.ok(quartz.length >= 5, `read ${quartz.length} replacements from path.ts`);
   assert.deepEqual(app_, quartz, "a drift between the two is an address that 404s on reload");
+});
+
+test("VIDEO1: every position member navigates to its role page without changing site identity", () => {
+  const a = app(), b = browser();
+  const positions = a.nodes.filter(n => n.ty === "positions" && n.role);
+  assert.ok(positions.length > 200, "a real corpus of both position halves was inspected");
+  for (const n of positions) {
+    const identity = { id: n.id, ordinal: n.o, site: a.siteIdOf(n.id) };
+    a._syncUrl(n.idx);
+    const side = n.role === "top" ? "Top" : "Bottom";
+    assert.equal(b.location.pathname, "/" + a._pageSlug(identity.site) + "/" + side, `${n.id}: URL names the selected role`);
+    const back = a._nodeAndRoleForPath(b.location.pathname);
+    assert.equal(back.idx, a.canonicalState(n.idx, n.role), `${n.id}: URL focuses the same role member`);
+    assert.equal(back.role, n.role);
+    assert.deepEqual({ id: n.id, ordinal: n.o, site: a.siteIdOf(n.id) }, identity, "navigation preserves list/share identity");
+  }
+  assert.equal(faults(a).length, 0);
+  console.log(`# VIDEO1 position role URLs asserted: ${positions.length}`);
+});
+
+test("VIDEO2: title is published before history observers, including same-path refresh and replace", () => {
+  const b = browser("/Positions/Mount"), a = app(), observed = [];
+  b.history.state = { retained: 7 };
+  for (const method of ["pushState", "replaceState"]) {
+    const original = b.history[method];
+    b.history[method] = function (...args) { observed.push(document.title); return original.apply(this, args); };
+  }
+  a._pushUrl("/Positions/Half-Guard/Bottom", { ngNode: "bottom" });
+  assert.equal(document.title, "Half Guard Bottom | BJJ Position Guide | BJJ Graph");
+  assert.deepEqual(observed, [document.title]);
+  assert.equal(b.history.state.retained, 7);
+  document.title = "stale";
+  a._pushUrl("/Positions/Half-Guard/Bottom", { ngNode: "bottom" });
+  assert.equal(document.title, observed[0]);
+  assert.equal(observed.length, 1, "same path repairs title without another history entry");
+  a._writeUrl("/Transitions/100-percent-Sweep/Defender#execution", { ngReading: true }, true);
+  assert.equal(document.title, "100% Sweep Defender | BJJ Defense Guide | BJJ Graph");
+  assert.equal(observed[1], document.title);
+  assert.equal(b.history.pushes, 1);
+});
+
+test("VIDEO2: an unknown reader page waits for its head title; a late cache record cannot rename another route", () => {
+  const b = browser("/Positions/Mount"), a = app();
+  a._writeUrl();
+  a._reader = { cache: new Map() };
+  assert.equal(a._writeUrl("/Submissions/Armbar", { ngReading: true }), false);
+  assert.equal(b.location.pathname, "/Positions/Mount");
+  assert.equal(document.title, "Mount | BJJ Position Guide | BJJ Graph");
+  a._reader.cache.set("/Submissions/Armbar", { tab: "Armbar family: authored title" });
+  assert.equal(a._writeUrl("/Submissions/Armbar", { ngReading: true }), true);
+  assert.equal(document.title, "Armbar family: authored title");
+  a._pushUrl("/Positions/Half-Guard/Top", { ngNode: "half" });
+  a._writeUrl();
+  assert.equal(document.title, "Half Guard Top | BJJ Position Guide | BJJ Graph");
+});
+
+test("P1-E: Back can restore an already observed root URL and title through the shared writer", () => {
+  const b = browser("/?origin=practice"), a = app();
+  const origin = { path: location.href, title: "BJJ Graph — home" };
+  a._pushUrl("/Positions/Mount/Top", {});
+  assert.equal(a._writeUrl(origin.path, {}, true, origin.title), true);
+  assert.equal(location.pathname, "/");
+  assert.equal(location.search, "?origin=practice");
+  assert.equal(document.title, origin.title);
+  a._writeUrl("/Positions/Mount/Bottom", {}, true, origin.title);
+  assert.equal(document.title, "Mount Bottom | BJJ Position Guide | BJJ Graph", "a known page keeps its canonical title");
+});
+
+test("VIDEO2: failed history writes roll back the title and count the fault; /l/ keeps its preview title", () => {
+  const b = browser("/Positions/Mount"), a = app();
+  a._writeUrl();
+  b.history.pushState = () => { throw new Error("history unavailable"); };
+  a._pushUrl("/Positions/Half-Guard/Top", { ngNode: "half" });
+  assert.equal(document.title, "Mount | BJJ Position Guide | BJJ Graph");
+  assert.equal(faults(a).length, 1);
+  b.go("/l/shared-class"); document.title = "Coach's shared class";
+  a._syncUrl(a.nodes.find(n => n.id === "Positions/Half-Guard").idx);
+  assert.equal(b.location.pathname, "/l/shared-class");
+  assert.equal(document.title, "Coach's shared class");
+  assert.equal(faults(a).length, 1);
+  console.log("# VIDEO2 title writer: history order, same-path, replace, absent/late HTML, rollback and share asserted");
 });

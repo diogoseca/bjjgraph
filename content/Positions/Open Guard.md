@@ -221,9 +221,9 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (15% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (12% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (4% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (3% of attempts)
 
 - **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (4% of attempts)
 
@@ -239,31 +239,37 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 - **[[Transitions/Scissor Sweep from Open Guard/Attacker|Scissor Sweep from Open Guard]]** (2% of attempts)
 
-- **[[Transitions/Open Guard to Deep Half/Attacker|Open Guard to Deep Half]]** (3% of attempts)
+- **[[Transitions/Open Guard to Deep Half/Attacker|Open Guard to Deep Half]]** (2% of attempts)
 
 - **[[Transitions/Open Guard to Collar Sleeve Guard/Attacker|Open Guard to Collar Sleeve Guard]]** (gi only)
 
-- **[[Transitions/Open Guard to De La Riva/Attacker|Open Guard to De La Riva]]** (5% of attempts)
+- **[[Transitions/Open Guard to De La Riva/Attacker|Open Guard to De La Riva]]** (4% of attempts)
 
 - **[[Transitions/Open Guard to Double Sleeve Guard/Attacker|Open Guard to Double Sleeve Guard]]** (gi only)
 
-- **[[Transitions/Open Guard to Feet on Hips Guard/Attacker|Open Guard to Feet on Hips Guard]]** (9% of attempts)
+- **[[Transitions/Open Guard to Feet on Hips Guard/Attacker|Open Guard to Feet on Hips Guard]]** (7% of attempts)
 
 - **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (gi only)
 
-- **[[Transitions/Recovery from Failed Sweep/Attacker|Recovery from Failed Sweep]]** (6% of attempts)
+- **[[Transitions/Recovery from Failed Sweep/Attacker|Recovery from Failed Sweep]]** (5% of attempts)
 
-- **[[Transitions/Technical Stand Up from Open Guard/Attacker|Technical Stand Up from Open Guard]]** (13% of attempts)
+- **[[Transitions/Technical Stand Up from Open Guard/Attacker|Technical Stand Up from Open Guard]]** (11% of attempts)
 
 - **[[Transitions/Transition to Clamp Guard/Attacker|Transition to Clamp Guard]]** (2% of attempts)
 
 - **[[Submissions/Belly Down Armbar/from Open Guard/Attacker|Belly Down Armbar from Open Guard]]** (1% of attempts)
 
-- **[[Submissions/Triangle Choke/from Open Guard/Attacker|Triangle Choke from Open Guard]]** (5% of attempts)
+- **[[Submissions/Triangle Choke/from Open Guard/Attacker|Triangle Choke from Open Guard]]** (4% of attempts)
 
-- **[[Transitions/Grip Break/Attacker|Grip Break]]** (3% of attempts)
+- **[[Transitions/Grip Break/Attacker|Grip Break]]** (2% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (9% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (7% of attempts)
+
+- **[[Transitions/Open Guard to Demi Guard/Attacker|Open Guard to Demi Guard]]** (gi only)
+
+- **[[Transitions/Pull Guard from Ground/Attacker|Pull Guard from Ground]]** (7% of attempts)
+
+- **[[Transitions/Reguard to Butterfly Guard/Attacker|Reguard to Butterfly Guard]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -328,29 +334,33 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (15% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (12% of attempts)
 
 - **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (16% of attempts)
 
-- **[[Transitions/Counter Sweep/Attacker|Counter Sweep]]** (4% of attempts)
+- **[[Transitions/Counter Sweep/Attacker|Counter Sweep]]** (3% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (12% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (10% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (6% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (5% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (8% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (7% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (6% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (7% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (6% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (4% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (3% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (9% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (7% of attempts)
 
-- **[[Transitions/Float Passing/Attacker|Float Passing]]** (9% of attempts)
+- **[[Transitions/Float Passing/Attacker|Float Passing]]** (7% of attempts)
 
 - **[[Transitions/Open Guard to Double Unders/Attacker|Open Guard to Double Unders]]** (2% of attempts)
+
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (7% of attempts)
+
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -413,30 +423,11 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 - **[[Positions/Headquarters Position]]** - Transitional passing position during open guard top sequences
 
+- **[[Positions/Demi Guard]]** - Gi lapel-guard connection using a collar grip, lapel behind the knee and foot on the tail
+
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Caio Terra: Guard Recovery</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position reference for guard-recovery study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">No-Gi Guard-Passing Courses</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Aaron-Benzrihem-Ankle-Pick-System" data-cta="related-system-card" data-system-slug="systems/aaron-benzrihem-ankle-pick-system" data-system-name="Aaron Benzrihem Ankle Pick System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Aaron Benzrihem: Ankle Picks</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Ariel-Tabak-Outside-Passing-System" data-cta="related-system-card" data-system-slug="systems/ariel-tabak-outside-passing-system" data-system-name="Ariel Tabak Outside Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ariel Tabak: Outside Passing and Finishing</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Craig-Jones-Triangle-to-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-triangle-to-leg-lock-system" data-system-name="Craig Jones Triangle to Leg Lock System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Triangle-to-Leg Transitions</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Adam-Wardzinski-Single-Leg-X-System" data-cta="related-system-card" data-system-slug="systems/adam-wardzinski-single-leg-x-system" data-system-name="Adam Wardzinski Single Leg X System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Adam Wardzinski: Single Leg X in the Gi</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Open Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Dante-Leon-Reverse-De-La-Riva-System" data-cta="related-system-card" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-system-name="Dante Leon Reverse De La Riva System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Dante Leon: No-Gi Reverse De La Riva</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Open Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Eoghan-O&#x27;Flanagan-Shin-to-Shin-System" data-cta="related-system-card" data-system-slug="systems/eoghan-o&#x27;flanagan-shin-to-shin-system" data-system-name="Eoghan O&#x27;Flanagan Shin-to-Shin System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eoghan O’Flanagan: Shin-to-Shin and Seated Engagement</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Open Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Jonathan-Thomas-Double-Sleeve-Guard-System" data-cta="related-system-card" data-system-slug="systems/jonathan-thomas-double-sleeve-guard-system" data-system-name="Jonathan Thomas Double Sleeve Guard System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Jonathan Thomas: Double Sleeve Guard</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Open Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lachlan-Giles-K-Guard-System" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-k-guard-system" data-system-name="Lachlan Giles K-Guard System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles: K-Guard Entries and Offense</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Open Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lucas-Lepri-Knee-Cut-System" data-cta="related-system-card" data-system-slug="systems/lucas-lepri-knee-cut-system" data-system-name="Lucas Lepri Knee Cut System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lucas Lepri: Knee-Cut Passing</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Priit-Mihkelson-Turtle-Defense-System" data-cta="related-system-card" data-system-slug="systems/priit-mihkelson-turtle-defense-system" data-system-name="Priit Mihkelson Turtle Defense System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Priit Mihkelson: Turtle Defense and Exits</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related guard reference for comparing the guard-return sections in Volume 4.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lachlan-Giles-and-Ariel-Tabak-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-and-ariel-tabak-guard-retention-system" data-system-name="Lachlan Giles and Ariel Tabak Guard Retention System" data-member-count="9"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Giles and Tabak: Guard Retention Around and Under</span><span class="system-card__unlocks-badge">9 related references</span><span class="system-card__blurb">Open Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

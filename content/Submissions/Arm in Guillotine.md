@@ -131,9 +131,6 @@ description: "Master Arm in Guillotine in BJJ. High-percentage front headlock ch
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Arm in Guillotine targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Arm in Guillotine represents a powerful variation of the standard guillotine choke where one of the opponent's arms becomes trapped inside the choking mechanism. This configuration significantly increases the effectiveness of the submission by preventing defensive hand fighting and creating additional pressure on the carotid arteries. Unlike the standard guillotine where both arms remain outside, the arm-in variation capitalizes on the opponent's attempted defensive frames or underhooks, turning their defensive structure into a liability. This submission is particularly effective in scrambles, takedown situations, and transitional moments where the opponent commits an arm to establish position. The arm-in configuration creates a tighter choking circle and eliminates several escape pathways available in the traditional guillotine. While slightly more difficult to finish than a clean high-elbow guillotine, the arm-in variation offers superior control and maintains effectiveness even when jumping guard or pulling to closed guard.
@@ -240,9 +237,8 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -252,32 +248,9 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 | Shoulder or rotator cuff injury to trapped arm | Medium | 2-8 weeks depending on severity |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial contact to finish pressure
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal surrender)
-- Physical hand tap on partner or mat
-- Physical foot tap on mat or partner
-- Any distress signal including going limp
 
 
-**Release Protocol**:
-1. Immediately release choking arm pressure
-2. Open guard if closed guard is applied
-3. Gently lower opponent to mat if elevated
-4. Release all grips and create space
-5. Check partner's alertness and breathing
-6. Wait for clear verbal confirmation before continuing training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth, progressive pressure only
-- Never use competition speed in training - always allow time for tap
-- Never continue applying pressure after tap signal
-- Always allow trapped arm access to tap
-- Never practice this submission on beginners without close supervision
-- Stop immediately if partner's face changes color or they show signs of distress
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

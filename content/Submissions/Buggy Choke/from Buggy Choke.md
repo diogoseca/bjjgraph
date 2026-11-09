@@ -36,6 +36,27 @@ description: "The bottom player finishes from the established Buggy arm-and-leg 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Buggy Choke from Buggy Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "\ud83d\udd25 \ud83d\udd25 Buggy Choke Basics - Easy Entry and Finishes",
+      "description": "Buggy Choke from Buggy Choke film study: \ud83d\udd25 \ud83d\udd25 Buggy Choke Basics - Easy Entry and Finishes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0Kcsngo-TDw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0Kcsngo-TDw?start=28",
+      "url": "https://www.youtube.com/watch?v=0Kcsngo-TDw",
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +82,6 @@ description: "The bottom player finishes from the established Buggy arm-and-leg 
 <span class="meta-chip">30% success</span>
 </div>
 
-> [!danger] Safety
-> Buggy Choke from Buggy Choke targets the Neck. Primary risk: Neck injury from excessive pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Buggy Choke/from Buggy Choke/Attacker|Play as Attacker]]
@@ -85,6 +103,24 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Buggy Choke from Buggy Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0Kcsngo-TDw&start=28)
+
+<p class="clip-credit"><strong>🔥 🔥 Buggy Choke Basics - Easy Entry and Finishes</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=0Kcsngo-TDw&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -133,6 +169,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 - Remove pressure at the first tap: Release immediately at a hand tap, foot tap, verbal signal or distress, then free the head and arm without forcing the knee.
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -198,6 +236,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Keep the raised leg supported by a comfortable hip angle rather than pulling the foot against a fixed knee.
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -232,9 +272,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -242,24 +281,9 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 | Neck or knee strain during a forced escape | High | Variable; do not train through symptoms. |
 
 
-**Application Speed**: Apply gradually and release immediately at any signal.
-
-**Tap Signals**:
-- Hand tap
-- Foot tap when the arms are trapped
-- Verbal tap or stop
 
 
-**Release Protocol**:
-1. Stop adding pressure immediately.
-2. Remove the joint or neck load before changing grips.
-3. Free the trapped limb or neck and check the partner.
-
-
-**Training Restrictions**:
-- Practice under qualified supervision with a cooperative partner.
-- Do not force the movement through pain or a restricted joint range.
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

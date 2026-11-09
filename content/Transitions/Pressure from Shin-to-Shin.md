@@ -36,6 +36,27 @@ description: "Master the pressure pass from Shin-to-Shin Guard. Step-by-step gui
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pressure from Shin-to-Shin \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shin to Shin - Passing 1 // Knee Cut Pass",
+      "description": "Pressure from Shin-to-Shin film study: Shin to Shin - Passing 1 // Knee Cut Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zYIRjM3Yjj0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zYIRjM3Yjj0?start=22",
+      "url": "https://www.youtube.com/watch?v=zYIRjM3Yjj0",
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Effective execution demands precise understanding of weight distribution mechani
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pressure from Shin-to-Shin in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zYIRjM3Yjj0&start=22)
+
+<p class="clip-credit"><strong>Shin to Shin - Passing 1 // Knee Cut Pass</strong> · 1:54 · <a href="https://www.youtube.com/watch?v=zYIRjM3Yjj0&t=22s" rel="noopener">Watch on YouTube from 0:22</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

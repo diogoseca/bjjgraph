@@ -84,7 +84,7 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 58% |
 | Failure | [[Positions/Half Guard/Electric Chair]] | 27% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -200,7 +200,7 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 ### Defensive Options
 
 
-- **Release lockdown and immediately recover closed guard or half guard by retracting legs and inserting knee shield** - When: At the earliest recognition of backstep initiation, before the opponent's leg clears the lockdown configuration
+- **Release lockdown and immediately recover half guard by retracting legs and inserting knee shield** - When: At the earliest recognition of backstep initiation, before the opponent's leg clears the lockdown configuration
 
 - **Turn toward the opponent during their backstep by driving your underhook side shoulder into them and rotating your hips to face them** - When: When the backstep is already in progress but the opponent has not yet established their first hook behind you
 
@@ -266,14 +266,6 @@ Back Take from Lockdown Defense fits into the broader half guard top game as a c
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Bottom Half in The Ultimate Rubber Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Back Take from Lockdown Defense: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

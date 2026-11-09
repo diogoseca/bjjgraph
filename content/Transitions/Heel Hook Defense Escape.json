@@ -411,7 +411,17 @@
       }
     ],
     "safety_considerations": "Heel hook defense training carries significant injury risk to the knee joint, including ACL, MCL, and meniscus tears that may require surgical reconstruction. Always tap immediately when heel hook pressure reaches the point of ligament tension — never attempt to tough through rotational pressure on the knee. Train with progressive resistance and trusted partners who demonstrate consistent respect for tap signals. Begin all drilling at reduced intensity and speed, only increasing resistance as escape mechanics become automatic. Injury from heel hooks can require 6-12 months of rehabilitation and may permanently limit athletic capability. Communicate clearly with training partners about intensity levels and establish verbal tap protocols for positions where hand tapping is restricted.",
-    "clips": []
+    "clips": [
+      {
+        "id": "ufTGwJ4ZF74",
+        "title": "Inside Heel Hook Defense and Escape. Saddle, 50/50, and more.",
+        "channel": "Pica Pau Jiu Jitsu & Grappling",
+        "duration": 944,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "defender": {
     "name": "Heel Hook Defense Escape Defender",
@@ -588,6 +598,16 @@
         "description": "Positional sparring from Honey Hole top at 100% intensity. 30-second rounds where partner attempts escape and you attempt to finish or maintain. Track retention rate and submission rate across rounds. Develop realistic timing for when to finish versus when to focus on control."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "NqcH5OvYXCg",
+        "title": "How to Finish the Heel Hook Even When Your Opponent Is Trying to Escape",
+        "channel": "Stephan Kesting",
+        "duration": 1063,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

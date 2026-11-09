@@ -46,12 +46,12 @@ description: "Master the Kimura from Kimura Trap in BJJ. Complete guide to finis
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Late Kimura Defense from Bottom Side Control",
-      "description": "Kimura from Kimura Trap film study: Late Kimura Defense from Bottom Side Control.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
-      "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
-      "duration": "PT100S"
+      "name": "Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026",
+      "description": "Kimura from Kimura Trap film study: Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dgYwflmcxKk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dgYwflmcxKk",
+      "url": "https://www.youtube.com/watch?v=dgYwflmcxKk",
+      "duration": "PT72S"
     }
   ]
 }
@@ -82,9 +82,6 @@ description: "Master the Kimura from Kimura Trap in BJJ. Complete guide to finis
 <span class="meta-chip">38% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Kimura Trap targets the Shoulder joint (glenohumeral) and elbow. Primary risk: Shoulder dislocation (glenohumeral subluxation or full anterior dislocation). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Kimura Trap/Attacker|Play as Attacker]]
@@ -114,9 +111,9 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uRn3DRICpeY)
+![](https://www.youtube.com/watch?v=dgYwflmcxKk)
 
-<p class="clip-credit"><strong>Late Kimura Defense from Bottom Side Control</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle…</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dgYwflmcxKk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -170,6 +167,8 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 - Apply the finish with slow progressive pressure in a smooth arc motion, never jerking or spiking the arm behind the opponent's back
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -241,6 +240,8 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 - Opponent's hips lower and create downward rotational pressure on your shoulder that was not present during the control phase
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -303,9 +304,8 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -314,28 +314,9 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 | Medial collateral ligament strain of the elbow from combined rotation and extension force | Medium | 2-6 weeks with rest and progressive rehabilitation |
 
 
-**Application Speed**: SLOW and progressive. The Kimura generates enormous torque on the shoulder joint through the figure-four lever. Apply rotational pressure gradually in a smooth arc, allowing the opponent adequate time to recognize the threat and tap. Never jerk, spike, or explosively wrench the arm behind the back.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on partner, mat, or own body with free hand
-- Physical foot tap on mat with either leg
-- Any unusual screaming, grunting, or visible facial distress indicating pain
 
 
-**Release Protocol**:
-1. Release all rotational pressure immediately upon any tap signal without hesitation
-2. Return opponent's arm gently to a neutral anatomical position after releasing the grip
-3. If in doubt about whether a signal was a tap, release immediately—the position can always be re-established
-4. Check on training partner's shoulder condition and range of motion after release before continuing
-
-
-**Training Restrictions**:
-- White belts should drill at controlled speed without full rotational pressure until they demonstrate consistent grip mechanics and tap recognition
-- Never apply the Kimura with explosive or jerking force in training—always use slow progressive pressure that allows the partner to tap safely
-- Avoid applying this technique to training partners with known shoulder injuries, prior dislocations, or hypermobility conditions
-- In competition, release immediately upon tap regardless of perceived submission legitimacy or referee response time
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

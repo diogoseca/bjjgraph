@@ -92,9 +92,6 @@ description: "Master the Breadcutter Choke from Kuzure Kesa Gatame with expert c
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Breadcutter Choke from Kuzure Kesa Gatame targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Breadcutter Choke/from Kuzure Kesa Gatame/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, this choke functions as the apex of a multi-threat attack chain f
 - Keep chest low during the entire sequence to deny framing space to the free arm
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -259,6 +258,8 @@ Strategically, this choke functions as the apex of a multi-threat attack chain f
 - You feel fabric tightening against the back of your neck as the collar grip is being set and slack removed
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -298,9 +299,8 @@ Strategically, this choke functions as the apex of a multi-threat attack chain f
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -310,32 +310,9 @@ Strategically, this choke functions as the apex of a multi-threat attack chain f
 | Jaw pressure causing temporomandibular joint irritation | Medium | 2-4 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum squeeze in training, never spike or jerk the collar grip
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any rapid tapping motion with hand or foot
-- Body going limp (automatic release required immediately)
 
 
-**Release Protocol**:
-1. Immediately release collar grip upon any tap signal
-2. Remove forearm pressure and body weight from opponent's neck
-3. Allow opponent to turn to a safe position and recover breathing
-4. Check that opponent is conscious and breathing normally
-5. Give partner adequate time to recover before continuing training
-
-
-**Training Restrictions**:
-- Always apply the choke gradually in training, never at competition speed
-- Never jerk or spike the collar grip into position
-- Ensure partner has clear access to tap with at least one hand
-- Stop immediately at any sign of distress even without a tap
-- Never train this choke on partners with neck, throat, or vascular injuries
-- Beginners must drill under direct instructor supervision
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

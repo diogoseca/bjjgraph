@@ -635,6 +635,24 @@
         "description": "Partner alternates between inside and outside heel hook setups from saddle, switching based on your defensive posture. Practice identifying which direction they are attacking and deploying the appropriate defensive response while maintaining protection against the alternate threat. Develop the ability to manage the submission dilemma rather than defending only one direction."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "XQd0-5hk1Lo",
+        "title": "Standard Ashi outside heel hook escape",
+        "channel": "GRAPPLING GAME CHANGER",
+        "duration": 94,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "CN_k8AXvOyk",
+        "title": "How To: Defend an outside heel hook",
+        "channel": "Flux MMA",
+        "duration": 202,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   }
 }

@@ -10,8 +10,6 @@ description: "How to execute Kimura from Guard in BJJ. Attacking perspective wit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -261,6 +259,8 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

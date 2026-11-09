@@ -10,8 +10,6 @@ description: "How to defend against Armbar from Back with Legs in BJJ. Recogniti
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Back with Legs targets the Elbow joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -261,6 +259,8 @@ The most critical defensive principle is urgency during the transition combined 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Armbar/from Back with Legs#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

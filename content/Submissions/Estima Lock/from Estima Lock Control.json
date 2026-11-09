@@ -413,7 +413,18 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "2njD9FdoLtg",
+        "title": "How to Finish the Estima Lock (Get the EASY Tap!)",
+        "channel": "JonThomasBJJ Plus",
+        "duration": 197,
+        "vertical": false,
+        "start": 25,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "from Estima Lock Defender",
@@ -598,6 +609,16 @@
         "description": "Integrate Estima Lock defense into broader leg entanglement sparring. Start from 50-50 or open guard and work through the full positional chain including Estima Lock attempts and defenses. Develop the ability to recognize and defend the lock within the flow of dynamic grappling rather than only from static starting positions."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "ESNrUEVZOL8",
+        "title": "Fernando Reis Counter to Estima Foot Lock Gi",
+        "channel": "Baltimore Martial Arts",
+        "duration": 88,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      }
+    ]
   }
 }

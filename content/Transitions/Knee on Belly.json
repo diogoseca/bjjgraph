@@ -31,7 +31,7 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -147,7 +147,7 @@
         "counter": "Bottom player shrimps away and attempts to insert knee shield or recover guard",
         "effectiveness": "High",
         "your_response": "Follow the hip movement, maintaining knee pressure while transitioning back to Side Control or pursuing mount as they create space",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Bottom player pushes against the knee with both hands to create space",
@@ -165,7 +165,7 @@
         "counter": "Bottom player turns into you, diving underneath to recover half guard",
         "effectiveness": "Low",
         "your_response": "Sprawl hip pressure to flatten them, then backstep to re-establish Side Control or transition to North-South if they expose the far arm",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       }
     ],
     "common_errors": [
@@ -421,7 +421,7 @@
       {
         "action": "Frame on the opponent's knee with your near elbow while shrimping your hips away to create space for knee shield insertion or guard recovery",
         "when_to_use": "Immediately upon feeling the knee drive into your torso, before the opponent settles their full weight and establishes controlling grips",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "You recover to Half Guard or Knee Shield Half Guard with frames established, neutralizing the pressure and score threat",
         "risk": "If the shrimp is insufficient, you remain under pressure with the opponent potentially transitioning to mount as you create space"
       },
@@ -435,7 +435,7 @@
       {
         "action": "Use near hand to cup the opponent's knee while far hand blocks their hip, then execute a coordinated hip escape away from the pressure to create re-guard distance",
         "when_to_use": "When the opponent has settled their weight but has not yet secured dominant grips on your collar or controlled your far arm",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "You create enough space to insert a knee between your bodies, recovering to Half Guard or Open Guard with frames preventing re-establishment",
         "risk": "If you extend the cupping hand too far, it becomes vulnerable to armbar; maintain elbow connection to your body throughout"
       },
@@ -449,7 +449,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Bottom",
+        "outcome": "Half Guard/Top",
         "how": "Frame on the knee with your near elbow while shrimping your hips away from the pressure. As space opens, insert your near knee between your bodies to establish Knee Shield Half Guard. Maintain the frame throughout to prevent the opponent from re-establishing Knee on Belly. The key is lateral hip movement combined with knee insertion rather than pushing vertically against the knee."
       },
       {

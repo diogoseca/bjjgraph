@@ -10,8 +10,6 @@ description: "Complete defensive guide against the heel hook from Backside 50-50
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from Backside 50-50 targets the Knee (MCL, LCL, ACL, meniscus). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -199,6 +197,8 @@ Defending the heel hook from Backside 50-50 top requires recognizing the attack 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Heel Hook/from Backside 50-50#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

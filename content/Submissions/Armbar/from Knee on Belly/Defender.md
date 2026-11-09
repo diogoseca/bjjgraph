@@ -10,8 +10,6 @@ description: "Master defending the armbar from knee on belly. Recognition cues, 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Knee on Belly targets the Shoulder and elbow joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -138,6 +136,27 @@ description: "Master defending the armbar from knee on belly. Recognition cues, 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Knee on Belly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar Escape To Side Control With Valdir Rodrigues.",
+      "description": "Armbar from Knee on Belly (Defender) film study: Armbar Escape To Side Control With Valdir Rodrigues..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fRhm4gy-kxo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fRhm4gy-kxo",
+      "url": "https://www.youtube.com/watch?v=fRhm4gy-kxo",
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -151,6 +170,24 @@ Defending the armbar from knee on belly requires understanding the attack's trig
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Knee on Belly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fRhm4gy-kxo)
+
+<p class="clip-credit"><strong>Armbar Escape To Side Control With Valdir Rodrigues.</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=fRhm4gy-kxo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -185,6 +222,8 @@ Defending the armbar from knee on belly requires understanding the attack's trig
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Armbar/from Knee on Belly#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

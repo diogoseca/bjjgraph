@@ -92,9 +92,6 @@ description: "Master the Neck Crank from Mounted Crucifix in BJJ. Learn the cerv
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Neck Crank from Mounted Crucifix targets the Cervical spine and neck muscles. Primary risk: Cervical disc herniation or vertebral fracture from excessive rotational force. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Neck Crank/from Mounted Crucifix/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, the neck crank serves dual purpose from this position. As a prima
 - Keep hips heavy and forward throughout the finish to prevent bridging escapes during application
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -257,6 +256,8 @@ Strategically, the neck crank serves dual purpose from this position. As a prima
 - Attacker re-squeezes knees tighter on your trapped arms, indicating they are about to commit hands to the head
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -296,9 +297,8 @@ Strategically, the neck crank serves dual purpose from this position. As a prima
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -307,25 +307,9 @@ Strategically, the neck crank serves dual purpose from this position. As a prima
 | Cervical nerve compression causing radiating pain or numbness in extremities | High | 4-8 weeks, requires medical evaluation |
 
 
-**Application Speed**: SLOW AND PROGRESSIVE ONLY. Never apply explosive or jerking force to the cervical spine. Increase pressure gradually over several seconds, giving the defender adequate time to recognize danger and tap. The cervical spine provides minimal warning before catastrophic failure.
-
-**Tap Signals**:
-- Physical tap on partner's body, legs, or the mat (minimum two distinct taps)
-- Verbal submission ('tap', 'stop', or any verbal indication of distress)
-- Any sign of distress including grunting, gasping, or going limp—treat as an immediate tap
 
 
-**Release Protocol**:
-1. Release ALL pressure immediately and completely upon any tap signal—do not 'finish the rep'
-2. Gently return the opponent's head to neutral alignment before disengaging the body position
-3. Check on your training partner verbally after every neck crank attempt, even if they did not tap
-
-
-**Training Restrictions**:
-- Prohibited for white and blue belts in most academies; purple belt and above with instructor supervision recommended
-- Never apply full force in training—use controlled progressive pressure at 50-70% intensity maximum
-- Do not drill on partners with pre-existing cervical spine injuries, neck surgery history, or active neck pain
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

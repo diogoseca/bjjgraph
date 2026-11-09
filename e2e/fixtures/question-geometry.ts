@@ -22,6 +22,10 @@ export async function questionGeometry(page: Page) {
     const go = a._landEl.querySelector('[data-land-ask-go]')
     return { reader: reader.toJSON(), bounds, scrollTop: root.scrollTop, pageScroll: window.scrollY,
       band: a._reader.nodeBand, card: rect(a._landEl), moves: rect(a.optionsRef.current),
+      movesPadding: parseFloat(getComputedStyle(a.optionsRef.current).paddingBottom),
+      moveCards: [...a.optionsRef.current.querySelectorAll('[data-tech]')].map((e: Element) => ({
+        id: e.getAttribute('data-tech'), ...rect(e),
+      })).filter((b: DOMRect) => b.width && b.height),
       asking: a._landEl.hasAttribute('data-land-ask'), question: target(question),
       answerBlock: { ...rect(block), display: getComputedStyle(block).display,
         visibility: getComputedStyle(block).visibility, inert: block.inert },

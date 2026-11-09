@@ -123,7 +123,7 @@ When executed properly, the Stack Pass transitions seamlessly into dominant side
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 62% |
 | Failure | [[Positions/Closed Guard]] | 23% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Triangle Control]] | 15% |
 
 
 </section>
@@ -245,7 +245,7 @@ When executed properly, the Stack Pass transitions seamlessly into dominant side
 
 - **Frame on the passer's hips with both hands and shrimp your hips away to create distance before the stack is established** - When: Early in the stack attempt when you first feel forward pressure and your hips have not yet left the mat
 
-- **Secure a guillotine grip around the passer's neck as they drive forward, threatening the choke to halt their advance** - When: When the passer drives forward with their head positioned in your centerline or transitions between head positions during the stack
+- **Use a guillotine grip around the passer's neck to halt their advance as they drive forward, then lock a triangle on the arm they leave inside your guard** - When: When the passer drives forward with their head positioned in your centerline or transitions between head positions during the stack, and one of their arms is isolated inside your guard
 
 - **Shoot for a triangle choke by controlling one of the passer's arms and cutting an angle with your hips to lock the triangle from the stacked position** - When: When the passer has one arm inside your guard and one outside, creating the arm isolation needed for the triangle entry
 
@@ -316,14 +316,6 @@ The stack pass occupies a central position within pressure passing systems and i
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference: Stack Pass.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

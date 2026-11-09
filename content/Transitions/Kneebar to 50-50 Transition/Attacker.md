@@ -182,6 +182,27 @@ description: "Master the attacker perspective for the kneebar to 50-50 transitio
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar to 50-50 Transition (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee Cut To Inverted Heel Hook To Kneebar To 50/50 Heel Hook",
+      "description": "Kneebar to 50-50 Transition (Attacker) film study: Knee Cut To Inverted Heel Hook To Kneebar To 50/50 Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q97KDIJayWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q97KDIJayWo?start=37",
+      "url": "https://www.youtube.com/watch?v=Q97KDIJayWo",
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ From the attacker's perspective, the kneebar to 50-50 transition is a calculated
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar to 50-50 Transition (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q97KDIJayWo&start=37)
+
+<p class="clip-credit"><strong>Knee Cut To Inverted Heel Hook To Kneebar To 50/50 Heel Hook</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=Q97KDIJayWo&t=37s" rel="noopener">Watch on YouTube from 0:37</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

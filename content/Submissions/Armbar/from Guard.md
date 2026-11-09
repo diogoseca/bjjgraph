@@ -92,9 +92,6 @@ description: "Master the armbar from guard with systematic technique breakdown, 
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from Guard targets the Elbow joint. Primary risk: Elbow hyperextension. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from Guard/Attacker|Play as Attacker]]
@@ -187,6 +184,8 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 - Thumb points up during extension to target the elbow joint correctly
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -256,6 +255,8 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 - Opponent secures an overhook on your arm while pulling it across their body toward their opposite hip, isolating the limb across their centerline
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -335,9 +336,8 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -347,32 +347,9 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 | Biceps tendon strain | Medium | 3-6 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to finishing pressure
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any vocal distress signal
-- Frantic movement or panic response
 
 
-**Release Protocol**:
-1. Immediately release hip pressure and stop extending opponent's arm
-2. Open legs and release leg control over head and arm
-3. Allow opponent to recover arm to safe position
-4. Check opponent's elbow mobility before continuing training
-5. If pain persists, apply ice and seek medical evaluation
-
-
-**Training Restrictions**:
-- Never spike or jerk the armbar—always apply smooth, progressive pressure
-- Never use competition speed in training—control and communication are paramount
-- Always ensure training partner has clear tap access with at least one free hand
-- Stop immediately at first sign of discomfort, even before verbal tap
-- Beginners should practice finishing mechanics on compliant partners only
-- Never continue pressure after tap signal—release immediately
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

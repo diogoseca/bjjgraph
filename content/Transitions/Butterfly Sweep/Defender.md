@@ -26,14 +26,14 @@ description: "How to defend against Butterfly Sweep in BJJ. Recognition cues, de
     },
     {
       "@type": "HowToStep",
-      "name": "Sprawl hips backward explosively while driving crossface pressure forward, removing your weight from the hooks entirely and flattening opponent's posture",
-      "text": "When opponent breaks your posture and loads your weight forward but before they commit to a specific sweep direction. Most effective against opponents who rely heavily on forward weight loading. If successful: Opponent's hooks lose all elevation power as your weight moves behind them. You establish heavy top pressure with potential to pass immediately through the compromised guard structure.",
+      "name": "Sprawl hips backward explosively while driving crossface pressure forward, removing your weight from the hooks entirely, flattening opponent's posture and passing beyond the hooks to side control",
+      "text": "When opponent breaks your posture and loads your weight forward but before they commit to a specific sweep direction. Most effective against opponents who rely heavily on forward weight loading. If successful: Opponent's hooks lose all elevation power as your weight moves behind them. You establish heavy top pressure and complete the pass through the compromised guard structure, securing side control.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Drive forward with heavy chest-to-chest pressure while swimming your arms inside to strip opponent's grips, flattening them to their back and neutralizing the upright posture they need",
-      "text": "When opponent is attempting to sit up and establish grips but has not yet loaded your weight or committed to a sweep direction. Works as a preemptive defense before sweep components are assembled. If successful: Opponent is flattened on their back with reduced hook effectiveness and compromised grip position. Creates passing opportunities through smash pass or over-under configurations.",
+      "name": "Drive forward with heavy chest-to-chest pressure while swimming your arms inside to strip opponent's grips, flattening them to their back, neutralizing the upright posture they need and carrying the pass through to a side control pin",
+      "text": "When opponent is attempting to sit up and establish grips but has not yet loaded your weight or committed to a sweep direction. Works as a preemptive defense before sweep components are assembled. If successful: Opponent is flattened on their back with reduced hook effectiveness and compromised grip position. You complete the pass through smash pass or over-under configurations and pin them in side control.",
       "position": 3
     },
     {
@@ -249,18 +249,18 @@ The defender's strategic framework centers on disrupting the sweep's prerequisit
 - **If successful**: Sweep is stopped and you maintain top position in opponent's butterfly guard. Opponent must reset and attempt a different attack or redirect the sweep.
 - **Risk**: Posted arm becomes exposed to Kimura attack or armbar if opponent anticipates the post. Also, weight committed to posted hand can be exploited if opponent redirects sweep to opposite side.
 
-### 2. Sprawl hips backward explosively while driving crossface pressure forward, removing your weight from the hooks entirely and flattening opponent's posture
+### 2. Sprawl hips backward explosively while driving crossface pressure forward, removing your weight from the hooks entirely, flattening opponent's posture and passing beyond the hooks to side control
 
 - **When to use**: When opponent breaks your posture and loads your weight forward but before they commit to a specific sweep direction. Most effective against opponents who rely heavily on forward weight loading.
-- **Targets**: [[Positions/Butterfly Guard]]
-- **If successful**: Opponent's hooks lose all elevation power as your weight moves behind them. You establish heavy top pressure with potential to pass immediately through the compromised guard structure.
+- **Targets**: [[Positions/Side Control]]
+- **If successful**: Opponent's hooks lose all elevation power as your weight moves behind them. You establish heavy top pressure and complete the pass through the compromised guard structure, securing side control.
 - **Risk**: If sprawl is late and opponent already has rotation, you may end up sprawling into the sweep. Excessive backward sprawl can disengage contact entirely, allowing opponent to recover full guard position.
 
-### 3. Drive forward with heavy chest-to-chest pressure while swimming your arms inside to strip opponent's grips, flattening them to their back and neutralizing the upright posture they need
+### 3. Drive forward with heavy chest-to-chest pressure while swimming your arms inside to strip opponent's grips, flattening them to their back, neutralizing the upright posture they need and carrying the pass through to a side control pin
 
 - **When to use**: When opponent is attempting to sit up and establish grips but has not yet loaded your weight or committed to a sweep direction. Works as a preemptive defense before sweep components are assembled.
-- **Targets**: [[Positions/Butterfly Guard]]
-- **If successful**: Opponent is flattened on their back with reduced hook effectiveness and compromised grip position. Creates passing opportunities through smash pass or over-under configurations.
+- **Targets**: [[Positions/Side Control]]
+- **If successful**: Opponent is flattened on their back with reduced hook effectiveness and compromised grip position. You complete the pass through smash pass or over-under configurations and pin them in side control.
 - **Risk**: If opponent maintains strong hooks during your drive forward, your committed weight becomes the force they redirect into the sweep. Must combine with grip stripping to be effective.
 
 ### 4. Widen base by stepping one leg out laterally while maintaining low hip position, creating a wide tripod that is extremely difficult to topple in any single direction
@@ -284,9 +284,9 @@ The defender's strategic framework centers on disrupting the sweep's prerequisit
 
 Deny the sweep while maintaining top position by posting early on the sweep side, stripping opponent's dominant grips to prevent posture breaking, and keeping your hips back with weight distributed away from hooks. After stopping the sweep attempt, immediately initiate your own passing sequence before opponent can re-establish optimal guard structure.
 
-### → [[Positions/Butterfly Guard]]
+### → [[Positions/Side Control]]
 
-Counter the sweep attempt aggressively by sprawling backward when you feel the loading phase, then immediately driving forward with chest pressure to flatten opponent's posture. Strip grips during the transition and establish dominant passing position with crossface or underhook control. This converts a defensive moment into an offensive passing opportunity as opponent's guard structure is compromised from their failed sweep attempt.
+Counter the sweep attempt aggressively by sprawling backward when you feel the loading phase, then immediately driving forward with chest pressure to flatten opponent's posture. Strip grips during the transition and establish dominant passing position with crossface or underhook control. This converts a defensive moment into an offensive passing opportunity as opponent's guard structure is compromised from their failed sweep attempt. Finish the pass to side control.
 
 
 

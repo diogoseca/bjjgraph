@@ -10,8 +10,6 @@ description: "How to defend against the Spinning Armbar from Closed Guard in BJJ
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Spinning Armbar from Closed Guard targets the Elbow joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -261,6 +259,8 @@ Defensive strategy follows a time-based hierarchy: prevent the initial arm isola
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Spinning Armbar/from Closed Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -10,8 +10,6 @@ description: "How to defend against Kimura from Mount in BJJ. Recognition, escap
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Mount targets the Shoulder joint (glenohumeral joint, rotator cuff). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -162,6 +160,16 @@ description: "How to defend against Kimura from Mount in BJJ. Recognition, escap
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Defending the Kimura from Side Mount",
+      "description": "Kimura from Mount (Defender) film study: Defending the Kimura from Side Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HbYLa6ZmCxg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HbYLa6ZmCxg?start=23",
+      "url": "https://www.youtube.com/watch?v=HbYLa6ZmCxg",
+      "duration": "PT559S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "How To Escape The Kimura When On Top",
       "description": "Kimura from Mount (Defender) film study: How To Escape The Kimura When On Top.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qQZI-_SRLM4/hqdefault.jpg",
@@ -197,6 +205,14 @@ From a positional standpoint, the defender must balance the urgency of Kimura de
 
 <p class="section-subtitle">Watch Kimura from Mount (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HbYLa6ZmCxg&start=23)
+
+<p class="clip-credit"><strong>Defending the Kimura from Side Mount</strong> · 9:19 · <a href="https://www.youtube.com/watch?v=HbYLa6ZmCxg&t=23s" rel="noopener">Watch on YouTube from 0:23</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -243,6 +259,8 @@ From a positional standpoint, the defender must balance the urgency of Kimura de
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kimura/from Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

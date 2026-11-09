@@ -138,6 +138,27 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Mount (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gracie Insider - Reverse Mount Transition",
+      "description": "Reverse Mount (Top) film study: Gracie Insider - Reverse Mount Transition.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/erRqwOhySaU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/erRqwOhySaU",
+      "url": "https://www.youtube.com/watch?v=erRqwOhySaU",
+      "duration": "PT402S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -155,6 +176,24 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Mount (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=erRqwOhySaU)
+
+<p class="clip-credit"><strong>Gracie Insider - Reverse Mount Transition</strong> · 6:42 · <a href="https://www.youtube.com/watch?v=erRqwOhySaU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

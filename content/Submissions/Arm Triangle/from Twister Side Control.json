@@ -207,7 +207,7 @@
       {
         "step_number": 7,
         "action": "Apply progressive squeeze",
-        "description": "Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. Wait for the tap or feel the resistance fade.",
+        "description": "Expand your chest while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. Wait for the tap.",
         "timing": "3-8 seconds to finish"
       }
     ],
@@ -654,6 +654,23 @@
         "channel": "MMA Leech",
         "duration": 273,
         "vertical": false
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Retract the framing arm",
+        "clips": [
+          {
+            "id": "3nbeNMmvF-c",
+            "title": "How to Defend: Head-Arm Triangle Choke",
+            "channel": "fightTIPS",
+            "duration": 405,
+            "vertical": false,
+            "start": 89,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
       }
     ]
   }

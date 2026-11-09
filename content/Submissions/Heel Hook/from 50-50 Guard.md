@@ -82,9 +82,6 @@ description: "Master the heel hook from 50-50 Guard in BJJ. Learn setup, grip me
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Heel Hook from 50-50 Guard targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Heel Hook/from 50-50 Guard/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ This submission carries extreme injury risk because knee ligaments can rupture b
 - Monitor your own heel defense throughout the attack, since 50-50 gives the defender mirror access to your legs
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -243,6 +242,8 @@ This submission carries extreme injury risk because knee ligaments can rupture b
 - Sensing any rotational torque beginning at your ankle that transmits pressure toward your knee joint
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -301,9 +302,8 @@ This submission carries extreme injury risk because knee ligaments can rupture b
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -314,36 +314,9 @@ This submission carries extreme injury risk because knee ligaments can rupture b
 | Tibial/fibular fracture from extreme rotational force | CRITICAL | 3-6 months, potential permanent mobility issues |
 
 
-**Application Speed**: EXTREMELY SLOW and progressive. Allow minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force. The heel hook lacks pain feedback before structural damage, making slow application a non-negotiable safety requirement.
-
-**Tap Signals**:
-- Verbal tap saying 'tap' clearly
-- Physical hand tap on opponent or mat (minimum two taps)
-- Physical foot tap with free leg on mat or opponent
-- Any distress vocalization or yelling
-- Frantic slapping or waving with hands
-- Leg stiffening or panicked defensive reaction
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon any tap signal
-2. Release heel grip completely before releasing leg entanglement
-3. Slowly unwrap leg configuration while maintaining awareness of partner's joint alignment
-4. Allow partner to extract their leg at their own pace without rushing
-5. Check with training partner about their knee and ankle status after every repetition
-6. Report any joint discomfort to instructor immediately, even if it seems minor
-
-
-**Training Restrictions**:
-- NEVER apply sudden or explosive rotational force in training
-- NEVER practice at competition speed with training partners
-- NEVER continue pressure if partner's leg begins rotating with the submission
-- Always allow immediate tap access for both hands and verbal tap
-- Only train with partners who have explicit experience with heel hook defense
-- Prohibited for practitioners below brown belt in most traditional academies and below purple belt in most progressive academies
-- Never train heel hooks without instructor supervision during initial learning phases
-- Stop immediately if any popping, clicking, or unusual sensations occur in partner's leg
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

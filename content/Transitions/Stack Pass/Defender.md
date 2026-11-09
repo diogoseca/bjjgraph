@@ -26,8 +26,8 @@ description: "How to defend against Stack Pass in BJJ. Recognition cues, defensi
     },
     {
       "@type": "HowToStep",
-      "name": "Secure a guillotine grip around the passer's neck as they drive forward, threatening the choke to halt their advance",
-      "text": "When the passer drives forward with their head positioned in your centerline or transitions between head positions during the stack If successful: Forces the passer to abandon the stack pass to defend the choke, resetting to guard position or finishing the submission",
+      "name": "Use a guillotine grip around the passer's neck to halt their advance as they drive forward, then lock a triangle on the arm they leave inside your guard",
+      "text": "When the passer drives forward with their head positioned in your centerline or transitions between head positions during the stack, and one of their arms is isolated inside your guard If successful: You establish triangle control: the passer stays on top but is trapped, and must abandon the stack pass to defend the choke",
       "position": 2
     },
     {
@@ -268,17 +268,17 @@ The defender must understand the three critical windows for defense: before the 
 - **If successful**: Creates enough distance to re-close your guard or transition to an active open guard like collar-sleeve or spider guard
 - **Risk**: If frames collapse, you lose your last opportunity to create space before full compression, and the passer advances with additional momentum
 
-### 2. Secure a guillotine grip around the passer's neck as they drive forward, threatening the choke to halt their advance
+### 2. Use a guillotine grip around the passer's neck to halt their advance as they drive forward, then lock a triangle on the arm they leave inside your guard
 
-- **When to use**: When the passer drives forward with their head positioned in your centerline or transitions between head positions during the stack
-- **Targets**: [[Positions/Closed Guard]]
-- **If successful**: Forces the passer to abandon the stack pass to defend the choke, resetting to guard position or finishing the submission
-- **Risk**: If the guillotine grip is not deep enough, the passer can posture through it and use your arm commitment to accelerate the pass with less resistance
+- **When to use**: When the passer drives forward with their head positioned in your centerline or transitions between head positions during the stack, and one of their arms is isolated inside your guard
+- **Targets**: [[Positions/Triangle Control]]
+- **If successful**: You establish triangle control: the passer stays on top but is trapped, and must abandon the stack pass to defend the choke
+- **Risk**: If the grip is not deep enough or the triangle does not lock, the passer can posture through it and use your commitment to accelerate the pass with less resistance
 
 ### 3. Shoot for a triangle choke by controlling one of the passer's arms and cutting an angle with your hips to lock the triangle from the stacked position
 
 - **When to use**: When the passer has one arm inside your guard and one outside, creating the arm isolation needed for the triangle entry
-- **Targets**: [[Positions/Closed Guard]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Catches the passer in a submission from their own passing attempt, forcing them to defend or tap
 - **Risk**: If the triangle is not locked tightly, the increased stacking pressure from the passer's defense can crush the triangle and accelerate the pass
 
@@ -303,9 +303,9 @@ The defender must understand the three critical windows for defense: before the 
 
 Create strong frames on the passer's hips early in the stack attempt and shrimp your hips laterally to break their forward pressure angle. Once distance is created, immediately re-close your guard by locking your ankles behind their back, or transition to an active open guard if re-closing is not possible. The key is acting before your hips leave the mat.
 
-### → [[Positions/Closed Guard]]
+### → [[Positions/Triangle Control]]
 
-Threaten a guillotine choke or triangle submission as the passer drives forward, forcing them to abandon the stack pass and retreat to a defensive posture. The guillotine threat is most effective when the passer's head is centered, while the triangle requires isolating one of their arms inside your guard. Either counter resets the exchange to your offensive closed guard position.
+Threaten a guillotine choke as the passer drives forward, then isolate one of their arms inside your guard and lock the triangle, forcing them to abandon the stack pass. The guillotine threat is most effective when the passer's head is centered. The passer ends on top but trapped in your established triangle control.
 
 
 

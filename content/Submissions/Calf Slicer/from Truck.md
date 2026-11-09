@@ -36,6 +36,27 @@ description: "Master the Calf Slicer from Truck in BJJ. Complete guide with safe
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Truck \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Calf Slicer from Truck",
+      "description": "Calf Slicer from Truck film study: Calf Slicer from Truck.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DvPs-12-APM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DvPs-12-APM",
+      "url": "https://www.youtube.com/watch?v=DvPs-12-APM",
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +82,6 @@ description: "Master the Calf Slicer from Truck in BJJ. Complete guide with safe
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer from Truck targets the Calf muscle and knee joint. Primary risk: Calf muscle tear or rupture (gastrocnemius/soleus). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Calf Slicer/from Truck/Attacker|Play as Attacker]]
@@ -79,6 +97,24 @@ Emerging from the 10th Planet system's leg-attack arsenal, the Calf Slicer from 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Truck in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DvPs-12-APM)
+
+<p class="clip-credit"><strong>Calf Slicer from Truck</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=DvPs-12-APM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -129,6 +165,8 @@ Emerging from the 10th Planet system's leg-attack arsenal, the Calf Slicer from 
 
 - **Center of Gravity** - Keep your body weight distributed to maintain truck control while applying the calf compression
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -199,6 +237,8 @@ Emerging from the 10th Planet system's leg-attack arsenal, the Calf Slicer from 
 
 - Your heel begins being pulled toward your hamstring against your will, creating increasing compression and a folding sensation in your lower leg
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -275,9 +315,8 @@ Emerging from the 10th Planet system's leg-attack arsenal, the Calf Slicer from 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -287,34 +326,9 @@ Emerging from the 10th Planet system's leg-attack arsenal, the Calf Slicer from 
 | Hamstring tendon strain at insertion point | Medium | 3-8 weeks with rehabilitation |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progressive pressure. Calf slicers can cause sudden muscle tears before pain signals register.
-
-**Tap Signals**:
-- Verbal tap (primary - opponent may not have hand access)
-- Physical hand tap on your body or mat
-- Physical foot tap with free leg
-- Any vocalization or distress signal
-- Frantic movement or struggle (assume distress)
 
 
-**Release Protocol**:
-1. Immediately release the heel grip and stop pulling
-2. Remove your shin from behind their calf smoothly (no jerking motion)
-3. Release hip control and allow opponent to straighten their leg naturally
-4. Do not stand or apply weight during release
-5. Allow opponent 30+ seconds to assess injury before continuing
-6. Monitor for signs of compartment syndrome (numbness, extreme tightness, color changes)
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply progressive pressure only
-- Never use competition speed in training sessions
-- Never apply to training partners with previous calf or knee injuries without explicit consent
-- Never combine with twisting pressure (straight compression only in training)
-- Always ensure opponent has at least one hand free to tap
-- Require verbal acknowledgment from partner before attempting in drilling
-- Reserved for advanced practitioners only (minimum purple belt recommended)
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

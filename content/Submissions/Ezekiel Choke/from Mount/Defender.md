@@ -10,8 +10,6 @@ description: "Defend the Ezekiel Choke from mount bottom. Recognize sleeve grip 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Ezekiel Choke from Mount targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -250,6 +248,8 @@ Defending the Ezekiel Choke from mount bottom compounds the challenge of an alre
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Ezekiel Choke/from Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

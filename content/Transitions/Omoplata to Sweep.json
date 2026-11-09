@@ -31,7 +31,7 @@
       "result": "failure"
     },
     {
-      "to": "Omoplata Control/Bottom",
+      "to": "Open Guard/Bottom",
       "probability": {
         "gi": 15,
         "nogi": 15
@@ -175,7 +175,7 @@
         "counter": "Opponent stacks you by driving forward pressure and flattening your hips",
         "effectiveness": "High",
         "your_response": "Abandon the sweep temporarily and create defensive frames to prevent being flattened. Shrimp your hips away to create space and angle, then transition to alternative attacks such as triangle or armbar from the inverted position. If fully stacked, work to recover standard guard position before re-attacking.",
-        "targets_outcome": "Omoplata Control/Bottom"
+        "targets_outcome": "Open Guard/Bottom"
       },
       {
         "counter": "Opponent extracts trapped arm during sweep execution",
@@ -442,8 +442,8 @@
       {
         "action": "Step over the attacker's head with your far leg to reverse the position",
         "when_to_use": "When the attacker commits heavily to the sweep and shifts their weight forward, creating space for you to step through",
-        "targets_outcome": "Omoplata Control/Bottom",
-        "if_successful": "You reverse the position entirely, ending up in a dominant position with the attacker's legs still entangled but with you on top controlling the engagement",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "You step over and free your arm, ending up on top engaging the attacker, who is left playing open guard",
         "risk": "If your timing is off, stepping over can accelerate the sweep and you end up mounted with your arm still trapped"
       },
       {
@@ -456,8 +456,8 @@
       {
         "action": "Sit back to your hip and roll toward the attacker's legs to stack them",
         "when_to_use": "When the attacker begins the sweep motion and you still have sufficient base to redirect your weight backward rather than forward",
-        "targets_outcome": "Omoplata Control/Bottom",
-        "if_successful": "You flatten the attacker's hips to the mat and neutralize their leg leverage, creating an opportunity to stack pass or extract your arm under pressure",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "You flatten the attacker's hips to the mat and neutralize their leg leverage. Stacking alone is only the first step: the exchange ends when you extract your arm and the attacker recovers open guard.",
         "risk": "If the attacker adjusts their angle before you complete the stack, the omoplata submission pressure increases significantly on the trapped shoulder"
       }
     ],
@@ -467,8 +467,8 @@
         "how": "Maintain wide base with free hand posted far from centerline while driving weight backward toward attacker's hips. Deny their hip elevation by keeping your center of gravity low and resist free arm control. Work incrementally to extract the trapped arm during moments when attacker adjusts their leg position. Once arm is free, immediately posture and work to pass guard."
       },
       {
-        "outcome": "Omoplata Control/Bottom",
-        "how": "When the sweep is already in motion and cannot be stopped, use the momentum to step over the attacker's head with your far leg as you are being rolled. This converts the sweep into a position reversal where you end up on top. Alternatively, sit back aggressively and stack the attacker before the sweep builds full rotational momentum, flattening their hips and neutralizing their leg leverage."
+        "outcome": "Open Guard/Bottom",
+        "how": "When the sweep is already in motion and cannot be stopped, use the momentum to step over the attacker's head with your far leg as you are being rolled, freeing your arm and ending up on top. Alternatively, sit back aggressively and stack the attacker before the sweep builds full rotational momentum, flattening their hips and neutralizing their leg leverage, then extract your arm. Either defense releases the trapped arm and leaves the attacker playing open guard."
       }
     ],
     "common_errors": [

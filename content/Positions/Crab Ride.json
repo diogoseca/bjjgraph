@@ -467,7 +467,38 @@
         "attempt_probability": {
           "gi": 9,
           "nogi": 9
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 36,
+          "nogi": 33
+        },
+        "outcomes": [
+          {
+            "to": "Crucifix/Top",
+            "probability": {
+              "gi": 33,
+              "nogi": 33
+            },
+            "result": "success"
+          },
+          {
+            "to": "Crab Ride/Top",
+            "probability": {
+              "gi": 52,
+              "nogi": 52
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Crab Ride/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Back Control to Cross Body Ride",

@@ -120,9 +120,6 @@ description: "Master the Banana Split compression submission in BJJ. Complete gu
 <span class="meta-chip">~48% avg</span>
 </div>
 
-> [!danger] Safety
-> Banana Split targets the Hip adductors, groin, and lower back. Primary risk: Groin muscle tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Banana Split is a unique compression submission that targets the opponent's hip adductors, groin muscles, and lower back through forced over-extension of the legs. Primarily executed from the truck position, deep half guard, or lockdown configurations, this technique creates extreme discomfort by splitting the opponent's legs apart while controlling their upper body. The submission gained prominence through the 10th Planet system, where it serves as both a finishing technique and a powerful position to force reactions.
@@ -224,9 +221,8 @@ The Banana Split often works in combination with other attacks from half guard a
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -236,32 +232,9 @@ The Banana Split often works in combination with other attacks from half guard a
 | Hip flexor damage | Medium | 3-5 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum. This submission creates intense pressure on muscle groups that can tear rapidly. There is no clear structural limit before tissue damage occurs, making controlled application essential.
-
-**Tap Signals**:
-- Verbal tap (most common due to position)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap if hands unavailable
-- Any distress vocalization
-- Frantic movement or panic signals
 
 
-**Release Protocol**:
-1. Immediately stop all leg splitting pressure
-2. Release the leg trap and allow opponent's legs to return to natural position
-3. Maintain control but remove all stretching force
-4. Allow opponent to assess their condition before continuing
-5. Never release explosively - control the return to neutral position
-
-
-**Training Restrictions**:
-- Never spike or jerk the leg split - apply pressure gradually
-- Never use competition speed or intensity in training
-- Always communicate with training partner about flexibility limitations
-- Stop immediately if partner shows signs of panic or distress
-- Avoid this submission with partners who have known groin or hip injuries
-- Beginners should practice mechanics without applying finishing pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -10,8 +10,6 @@ description: "Defend the toe hold from Outside Ashi-Garami in BJJ. Recognition c
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Outside Ashi targets the Foot and ankle joint complex. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -246,6 +244,8 @@ Defending the toe hold from Outside Ashi-Garami requires immediate recognition o
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Toe Hold/from Outside Ashi#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

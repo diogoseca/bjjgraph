@@ -102,9 +102,6 @@ description: "Master the toe hold from leg entanglement positions in BJJ. Expert
 <span class="meta-chip">29% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Leg Entanglement targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Leg Entanglement/Attacker|Play as Attacker]]
@@ -205,6 +202,8 @@ What makes the toe hold particularly effective from leg entanglement is the inhe
 - Maintain the leg entanglement structure throughout the entire finishing sequence to prevent escape during grip transitions
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -275,6 +274,8 @@ What makes the toe hold particularly effective from leg entanglement is the inhe
 - The attacker drives their hips noticeably closer to your ankle while maintaining their entanglement hooks
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -337,9 +338,8 @@ What makes the toe hold particularly effective from leg entanglement is the inhe
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -350,33 +350,9 @@ What makes the toe hold particularly effective from leg entanglement is the inhe
 | Achilles tendon strain | Medium | 4-6 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. The rotational nature of this submission means damage accumulates without clear warning. Never snap this technique on in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly and clearly)
-- Physical hand tap on partner or mat (multiple rapid taps)
-- Physical foot tap with free leg on partner or mat
-- Any verbal distress signal or shout
-- Slapping the mat repeatedly with open hand
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon feeling or hearing a tap
-2. Unwind the rotation gradually rather than releasing abruptly
-3. Release the figure-four grip completely
-4. Release heel and ankle control
-5. Allow opponent's foot to return to neutral position naturally
-6. Check with training partner before resuming
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual and controlled
-- Never grip individual toes - always grip across multiple toes and the ball of the foot
-- Never combine toe hold rotation with explosive hip extension
-- Always allow clear tap access for both of the defender's hands
-- Stop immediately at any sign of discomfort, popping, or unusual resistance
-- Never train this submission at full competition speed until both partners are experienced
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

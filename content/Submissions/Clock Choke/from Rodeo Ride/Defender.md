@@ -10,8 +10,6 @@ description: "Defend the Clock Choke from Rodeo Ride in BJJ. Recognition cues, g
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Clock Choke from Rodeo Ride targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -154,6 +152,16 @@ description: "Defend the Clock Choke from Rodeo Ride in BJJ. Recognition cues, g
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Clock Choke Defense",
+      "description": "Clock Choke from Rodeo Ride (Defender) film study: Clock Choke Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9x_quJLuJl0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9x_quJLuJl0",
+      "url": "https://www.youtube.com/watch?v=9x_quJLuJl0",
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Clock Choke from Turtle Escape Jiu Jitsu",
       "description": "Clock Choke from Rodeo Ride (Defender) film study: Clock Choke from Turtle Escape Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bHIR07WZ8yI/hqdefault.jpg",
@@ -163,7 +171,7 @@ description: "Defend the Clock Choke from Rodeo Ride in BJJ. Recognition cues, g
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "BJJ Clock Choke Defense",
       "description": "Clock Choke from Rodeo Ride (Defender) film study: BJJ Clock Choke Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vckXustqtpQ/hqdefault.jpg",
@@ -173,7 +181,7 @@ description: "Defend the Clock Choke from Rodeo Ride in BJJ. Recognition cues, g
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Clock Choke Escape #1",
       "description": "Clock Choke from Rodeo Ride (Defender) film study: Clock Choke Escape #1.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ivs8Lt1oI0I/hqdefault.jpg",
@@ -207,6 +215,14 @@ The defender's primary strategic objective is to prevent the collar grip from be
 
 <p class="section-subtitle">Watch Clock Choke from Rodeo Ride (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9x_quJLuJl0)
+
+<p class="clip-credit"><strong>Clock Choke Defense</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=9x_quJLuJl0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -268,6 +284,8 @@ The defender's primary strategic objective is to prevent the collar grip from be
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Clock Choke/from Rodeo Ride#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

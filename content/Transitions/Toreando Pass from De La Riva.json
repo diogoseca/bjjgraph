@@ -29,12 +29,12 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Knee Shield Half Guard/Top",
       "probability": {
         "gi": 15,
         "nogi": 15
       },
-      "result": "counter"
+      "result": "failure"
     }
   ],
   "success_rate": {
@@ -77,8 +77,8 @@
       "relationship": "Primary target position achieved on successful pass completion"
     },
     {
-      "name": "Half Guard",
-      "relationship": "Position reached when guard player counters with partial guard recovery during pass"
+      "name": "Knee Shield Half Guard",
+      "relationship": "Position reached when guard player recovers a knee shield during the pass, leaving you on top"
     },
     {
       "name": "Backstep from De La Riva",
@@ -185,16 +185,16 @@
         "targets_outcome": "De La Riva Guard/Top"
       },
       {
-        "counter": "Opponent inverts and attempts berimbolo or kiss of the dragon as you commit to the lateral passing direction",
+        "counter": "Opponent starts to invert for berimbolo or kiss of the dragon as you commit to the lateral passing direction, then settles into a knee shield when you stop to smash the inversion",
         "effectiveness": "Medium",
-        "your_response": "If you see the opponent begin to invert, immediately stop lateral movement and drop your hips directly onto their inverted body to smash the inversion. Sprawl your weight onto their torso and re-establish grips to flatten them back out before restarting the pass.",
-        "targets_outcome": "Half Guard/Bottom"
+        "your_response": "If you see the opponent begin to invert, immediately stop lateral movement and drop your hips directly onto their inverted body to smash the inversion. Sprawl your weight onto their torso and re-establish grips to flatten them back out before restarting the pass. If they recover the knee shield instead, you stay on top and restart from knee shield half guard.",
+        "targets_outcome": "Knee Shield Half Guard/Top"
       },
       {
         "counter": "Opponent hip escapes and inserts a knee shield as you settle into side control, recovering to half guard",
         "effectiveness": "Medium",
         "your_response": "Secure the crossface before releasing pants grips during the consolidation phase. Drive your shoulder pressure across their jaw immediately to prevent them from turning and creating the space needed for knee insertion.",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Knee Shield Half Guard/Top"
       }
     ],
     "common_errors": [
@@ -454,15 +454,15 @@
       {
         "action": "Hip escape and insert knee shield as passer completes lateral arc to block side control consolidation",
         "when_to_use": "When the toreando is already in progress and the passer has cleared your legs. Time the knee insertion as they transition from lateral movement to chest drop. This is a last-resort defense.",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Knee Shield Half Guard/Top",
         "if_successful": "You recover to half guard or knee shield half guard, which while not ideal represents successful defense against the pass and provides a new offensive platform",
         "risk": "If the knee insertion is too late, the passer establishes crossface and hip control in full side control before you can insert the knee"
       },
       {
-        "action": "Invert toward the passer during their lateral commitment to attack the back via berimbolo or kiss of the dragon",
+        "action": "Invert toward the passer during their lateral commitment to threaten the back, then recover a knee shield as they stop to smash the inversion",
         "when_to_use": "When the passer commits fully to one lateral direction with significant momentum. The inversion exploits their linear movement pattern by attacking from underneath their passing trajectory.",
-        "targets_outcome": "Half Guard/Bottom",
-        "if_successful": "You achieve a back take or reversal by using the passer's own momentum against them, converting their offensive action into a defensive scramble",
+        "targets_outcome": "Knee Shield Half Guard/Top",
+        "if_successful": "You stop the pass and recover knee shield half guard, with the passer staying on top",
         "risk": "A well-timed sprawl from the passer smashes the inversion and leaves you flattened on your back with no guard structure, potentially resulting in an immediate pass to side control"
       }
     ],
@@ -472,7 +472,7 @@
         "how": "Retain or re-establish the DLR hook and ankle grip through aggressive grip fighting before the passer can initiate the lateral passing phase. Fight every grip strip immediately and maintain constant hook tension to make the toreando structurally impossible."
       },
       {
-        "outcome": "Half Guard/Bottom",
+        "outcome": "Knee Shield Half Guard/Top",
         "how": "If the pass is already in progress, time a hip escape and knee insertion during the passer's transition from lateral movement to chest contact. The brief moment when the passer shifts from moving laterally to dropping down creates a window for inserting a knee shield between your bodies."
       }
     ],

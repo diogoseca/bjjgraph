@@ -10,8 +10,6 @@ description: "Learn to finish the Darce Choke from established Darce Control. St
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Darce Choke from Darce Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking with the Darce Choke from Darce Control means you have already won the
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Darce Choke/from Darce Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

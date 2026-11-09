@@ -102,9 +102,6 @@ description: "Master the Von Flue Choke counter in BJJ. Complete safety guide wi
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Von Flue Choke from Side Control targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Von Flue Choke/from Side Control/Attacker|Play as Attacker]]
@@ -205,6 +202,8 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 - The choke is a positional control problem first, submission second
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -277,6 +276,8 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 - You notice your opponent is not fighting your guillotine grip but instead seems comfortable or even encouraging of it—this indicates they recognize the Von Flue opportunity
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -345,9 +346,8 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -356,32 +356,9 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 | Shoulder impingement from pressure application | Low | 1-3 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and release their guillotine grip
-
-**Tap Signals**:
-- Verbal tap (most important as arms may be trapped)
-- Physical hand tap on your body or mat
-- Physical foot tap on mat
-- Releasing the guillotine grip immediately
-- Any distress signal including body going limp
 
 
-**Release Protocol**:
-1. Immediately remove shoulder pressure from neck
-2. Lift your head and upper body away from opponent's neck
-3. Create space by posting your hands and moving your torso back
-4. Check partner's consciousness and breathing
-5. If partner is unconscious, elevate legs and monitor recovery
-
-
-**Training Restrictions**:
-- Never apply full pressure in training—use gradual pressure to allow tap
-- Never hold the choke after partner releases their guillotine grip
-- Always allow partner's arms to be free enough to tap
-- Never use competition speed or sudden pressure in drilling
-- Stop immediately if partner's grip loosens (indicates impending unconsciousness)
-- Require verbal confirmation that partner understands the danger before practicing
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

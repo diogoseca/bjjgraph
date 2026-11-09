@@ -150,6 +150,27 @@ description: "Overcome Old School Sweep defense in BJJ half guard. Bottom player
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Defend Old School Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "When your opponent defends the Old School sweep - HIT THEM WITH THIS! #bjj\u2026",
+      "description": "Defend Old School Sweep (Defender) film study: When your opponent defends the Old School sweep - HIT THEM WITH THIS! #bjj\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KX4aiS5DVPU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KX4aiS5DVPU",
+      "url": "https://www.youtube.com/watch?v=KX4aiS5DVPU",
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -164,6 +185,24 @@ The key insight for the defender is that the top player's defense is reactive an
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Defend Old School Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KX4aiS5DVPU)
+
+<p class="clip-credit"><strong>When your opponent defends the Old School sweep - HIT THEM WITH THIS! #bjj…</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=KX4aiS5DVPU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

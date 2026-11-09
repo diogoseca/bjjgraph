@@ -46,12 +46,22 @@ description: "Master the Kimura shoulder lock from overhook control. Complete gu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Late Kimura Defense from Bottom Side Control",
-      "description": "Kimura from Overhook Control film study: Late Kimura Defense from Bottom Side Control.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
-      "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
-      "duration": "PT100S"
+      "name": "New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin",
+      "description": "Kimura from Overhook Control film study: New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/67Meai2C0LQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/67Meai2C0LQ",
+      "url": "https://www.youtube.com/watch?v=67Meai2C0LQ",
+      "duration": "PT191S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy",
+      "description": "Kimura from Overhook Control film study: Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3f_RYd1W4s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3f_RYd1W4s?start=44",
+      "url": "https://www.youtube.com/watch?v=v3f_RYd1W4s",
+      "duration": "PT291S"
     }
   ]
 }
@@ -82,9 +92,6 @@ description: "Master the Kimura shoulder lock from overhook control. Complete gu
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Overhook Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Overhook Control/Attacker|Play as Attacker]]
@@ -114,9 +121,17 @@ Finishing the Kimura from overhook control often requires different body mechani
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uRn3DRICpeY)
+![](https://www.youtube.com/watch?v=67Meai2C0LQ)
 
-<p class="clip-credit"><strong>Late Kimura Defense from Bottom Side Control</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=67Meai2C0LQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3f_RYd1W4s&start=44)
+
+<p class="clip-credit"><strong>Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy</strong> · 4:51 · <a href="https://www.youtube.com/watch?v=v3f_RYd1W4s&t=44s" rel="noopener">Watch on YouTube from 0:44</a></p>
 
 </div>
 
@@ -170,6 +185,8 @@ Finishing the Kimura from overhook control often requires different body mechani
 
 - Treat the grip switch as the critical moment requiring maximum speed and precision, since this is the defender's primary escape window
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -241,6 +258,8 @@ Finishing the Kimura from overhook control often requires different body mechani
 - Attacker's hips begin shifting to create a perpendicular angle to your shoulder, indicating they are setting up the finishing position for rotational torque
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -304,9 +323,8 @@ Finishing the Kimura from overhook control often requires different body mechani
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -316,31 +334,9 @@ Finishing the Kimura from overhook control often requires different body mechani
 | Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position (externally rotate back to starting position)
-3. Release the figure-four grip completely
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

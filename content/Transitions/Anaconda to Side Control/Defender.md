@@ -150,6 +150,27 @@ description: "Master defensive strategies against the Anaconda to Side Control g
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda to Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the Anaconda Choke/Gator Roll with the Americana",
+      "description": "Anaconda to Side Control (Defender) film study: Countering the Anaconda Choke/Gator Roll with the Americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sc-ZPyDTOWA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Sc-ZPyDTOWA?start=78",
+      "url": "https://www.youtube.com/watch?v=Sc-ZPyDTOWA",
+      "duration": "PT259S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ As the defender against the Anaconda to Side Control transition, you are already
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda to Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Sc-ZPyDTOWA&start=78)
+
+<p class="clip-credit"><strong>Countering the Anaconda Choke/Gator Roll with the Americana</strong> · 4:19 · <a href="https://www.youtube.com/watch?v=Sc-ZPyDTOWA&t=78s" rel="noopener">Watch on YouTube from 1:18</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

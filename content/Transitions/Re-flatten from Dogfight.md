@@ -36,6 +36,27 @@ description: "Master the Re-flatten from Dogfight in BJJ. Learn crossface pressu
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Re-flatten from Dogfight \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half Guard Sweeps getting Mauled by Overhook in Dogfight in BJJ",
+      "description": "Re-flatten from Dogfight film study: Half Guard Sweeps getting Mauled by Overhook in Dogfight in BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RVA8RrRo9N8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RVA8RrRo9N8?start=23",
+      "url": "https://www.youtube.com/watch?v=RVA8RrRo9N8",
+      "duration": "PT209S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, the re-flatten occupies an important position in the top player's
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Re-flatten from Dogfight in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RVA8RrRo9N8&start=23)
+
+<p class="clip-credit"><strong>Half Guard Sweeps getting Mauled by Overhook in Dogfight in BJJ</strong> · 3:29 · <a href="https://www.youtube.com/watch?v=RVA8RrRo9N8&t=23s" rel="noopener">Watch on YouTube from 0:23</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

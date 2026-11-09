@@ -36,6 +36,27 @@ description: "Master the Short Choke from Gift Wrap in BJJ. Complete guide to fi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Gift Wrap \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Short Choke Setup",
+      "description": "Short Choke from Gift Wrap film study: Short Choke Setup.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VnDcLU0GUWY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VnDcLU0GUWY?start=65",
+      "url": "https://www.youtube.com/watch?v=VnDcLU0GUWY",
+      "duration": "PT146S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +82,6 @@ description: "Master the Short Choke from Gift Wrap in BJJ. Complete guide to fi
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Short Choke from Gift Wrap targets the Carotid arteries. Primary risk: Loss of consciousness from bilateral carotid artery compression causing cerebral hypoxia. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Short Choke/from Gift Wrap/Attacker|Play as Attacker]]
@@ -83,6 +101,24 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Gift Wrap in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VnDcLU0GUWY&start=65)
+
+<p class="clip-credit"><strong>Short Choke Setup</strong> · 2:26 · <a href="https://www.youtube.com/watch?v=VnDcLU0GUWY&t=65s" rel="noopener">Watch on YouTube from 1:05</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -131,6 +167,8 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 
 - Keep hooks or body triangle secure as the foundation; losing back control negates the arm trap advantage entirely
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -204,6 +242,8 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 - The attacker's hook pressure changes as they reposition to drive the shoulder of the choking arm into the back of your head
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -264,9 +304,8 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -275,31 +314,9 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 | Cervical spine strain from combined rotational and compressive force on the neck | Medium | 1-3 weeks with rest and rehabilitation |
 
 
-**Application Speed**: SLOW and progressive. Build pressure incrementally over 3-5 seconds minimum. The Gift Wrap arm trap amplifies force significantly because the defender cannot create counter-pressure, so controlled application is essential to give adequate time to tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, mat, or any available surface
-- Physical foot tap with either leg on mat
-- Any unusual vocalization, gurgling, or distress sound indicating inability to verbally tap
-- Body going limp indicating loss of consciousness - release immediately
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation or delay
-2. If in doubt about whether a tap occurred, release immediately - the Gift Wrap position can be re-established
-3. Remove all choking pressure and body weight from the neck area
-4. Monitor partner for signs of unconsciousness including unresponsiveness, limp limbs, or glazed expression
-5. If partner loses consciousness, place in recovery position, elevate legs, and seek medical attention if not conscious within 15 seconds
-
-
-**Training Restrictions**:
-- Never apply sudden jerking or explosive motions when threading the forearm under the chin
-- Never continue pressure after tap signal - the arm trap makes this choke tighter than standard variations
-- Do not practice on partners with known neck injuries, cervical spine conditions, or cardiovascular problems
-- Beginners should practice forearm placement and threading mechanics without compression before adding any pressure
-- Always train with a qualified instructor present when first learning this submission
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -36,6 +36,27 @@ description: "Master the Counter from Estima Lock in BJJ. Complete guide to coun
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter from Estima Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fernando Reis Counter to Estima Foot Lock Gi",
+      "description": "Counter from Estima Lock film study: Fernando Reis Counter to Estima Foot Lock Gi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ESNrUEVZOL8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ESNrUEVZOL8",
+      "url": "https://www.youtube.com/watch?v=ESNrUEVZOL8",
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This transition connects the Estima Lock defensive position to open guard recove
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter from Estima Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ESNrUEVZOL8)
+
+<p class="clip-credit"><strong>Fernando Reis Counter to Estima Foot Lock Gi</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=ESNrUEVZOL8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

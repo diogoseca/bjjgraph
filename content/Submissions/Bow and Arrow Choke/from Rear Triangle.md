@@ -46,6 +46,16 @@ description: "Master the Bow and Arrow Choke from Rear Triangle in BJJ. Learn co
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Beginner Bow and Arrow choke",
+      "description": "Bow and Arrow Choke from Rear Triangle film study: Beginner Bow and Arrow choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iNKRhe39iT0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iNKRhe39iT0",
+      "url": "https://www.youtube.com/watch?v=iNKRhe39iT0",
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Bow \u0026 Arrow Choke",
       "description": "Bow and Arrow Choke from Rear Triangle film study: Bow \u0026 Arrow Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R5LFNqtx1ps/hqdefault.jpg",
@@ -82,9 +92,6 @@ description: "Master the Bow and Arrow Choke from Rear Triangle in BJJ. Learn co
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Bow and Arrow Choke from Rear Triangle targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Bow and Arrow Choke/from Rear Triangle/Attacker|Play as Attacker]]
@@ -111,6 +118,14 @@ Strategically, this submission sits at the intersection of two high-control syst
 
 <p class="section-subtitle">Watch Bow and Arrow Choke from Rear Triangle in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iNKRhe39iT0)
+
+<p class="clip-credit"><strong>Beginner Bow and Arrow choke</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=iNKRhe39iT0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -170,6 +185,8 @@ Strategically, this submission sits at the intersection of two high-control syst
 
 - Keep your choking-side elbow tight against the opponent's neck throughout the extension to prevent the collar from sliding to a less effective position
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -243,6 +260,8 @@ Strategically, this submission sits at the intersection of two high-control syst
 - Both of the attacker's hands release previous grips simultaneously, indicating they are confident in the triangle control and transitioning to the bow and arrow setup
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -284,9 +303,8 @@ Strategically, this submission sits at the intersection of two high-control syst
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -296,32 +314,9 @@ Strategically, this submission sits at the intersection of two high-control syst
 | Knee or hip stress from forced leg extension against resistance | Low | 2-5 days for minor discomfort |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on body or mat
-- Physical foot tap on mat
-- Any audible distress signal
-- Loss of resistance (immediate release required)
 
 
-**Release Protocol**:
-1. Immediately release collar grip upon tap signal
-2. Release leg extension and triangle lock simultaneously
-3. Allow opponent's head to return to neutral position
-4. Check for consciousness and responsiveness
-5. If opponent was unconscious, elevate legs and monitor until full recovery
-
-
-**Training Restrictions**:
-- Never spike or jerk the choke - apply smooth progressive pressure only
-- Never use competition-speed extension in training rolls
-- Always maintain communication with training partner throughout the submission
-- Never continue pressure after any tap signal is given
-- Beginners must drill position control and grip placement before attempting the finish
-- Always allow partner clear access to tap with hands or voice
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

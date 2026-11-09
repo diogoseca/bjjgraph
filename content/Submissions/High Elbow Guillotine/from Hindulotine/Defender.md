@@ -10,8 +10,6 @@ description: "High Elbow Guillotine from Hindulotine (defender): A support elbow
 
 <body data-content-type="submissions">
 
-> **SAFETY**: High Elbow Guillotine from Hindulotine targets the Neck. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -277,6 +275,8 @@ An early escape must interrupt the supporting hand before the high elbow seals t
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/High Elbow Guillotine/from Hindulotine#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

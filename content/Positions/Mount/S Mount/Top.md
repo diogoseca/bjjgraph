@@ -155,6 +155,37 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "S Mount (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Create Massive Pressure in S Mount With These Fundamental Tips",
+      "description": "S Mount (Top) film study: Create Massive Pressure in S Mount With These Fundamental Tips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1ymee3gku_8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1ymee3gku_8",
+      "url": "https://www.youtube.com/watch?v=1ymee3gku_8",
+      "duration": "PT415S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Iceland Camp 2020: S-Mount with Bjarni Baldursson",
+      "description": "S Mount (Top) film study: Iceland Camp 2020: S-Mount with Bjarni Baldursson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/deKLnJCOKHQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/deKLnJCOKHQ",
+      "url": "https://www.youtube.com/watch?v=deKLnJCOKHQ",
+      "duration": "PT1800S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -173,6 +204,32 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch S Mount (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1ymee3gku_8)
+
+<p class="clip-credit"><strong>Create Massive Pressure in S Mount With These Fundamental Tips</strong> · 6:55 · <a href="https://www.youtube.com/watch?v=1ymee3gku_8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=deKLnJCOKHQ)
+
+<p class="clip-credit"><strong>Iceland Camp 2020: S-Mount with Bjarni Baldursson</strong> · 30:00 · <a href="https://www.youtube.com/watch?v=deKLnJCOKHQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">
@@ -381,15 +438,6 @@ Start in S Mount top, partner starts in S Mount bottom. Full resistance sparring
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Gordon-Ryan-Mount-Control-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-mount-control-system" data-system-name="Gordon Ryan Mount Control System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gordon Ryan: Mount Maintenance and Attacks</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

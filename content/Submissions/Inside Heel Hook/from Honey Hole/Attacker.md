@@ -10,8 +10,6 @@ description: "Learn to execute the Inside Heel Hook from Honey Hole. Step-by-ste
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Inside Heel Hook from Honey Hole targets the Knee and ankle joint. Risk: ACL (anterior cruciate ligament) tear from rotational force exceeding joint tolerance. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Executing the Inside Heel Hook from Honey Hole requires systematic establishment
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Inside Heel Hook/from Honey Hole#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

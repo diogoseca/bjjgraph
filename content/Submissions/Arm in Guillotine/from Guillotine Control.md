@@ -82,9 +82,6 @@ description: "Master the arm-in guillotine from guillotine control. Learn grip m
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Arm in Guillotine from Guillotine Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm in Guillotine/from Guillotine Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 - Apply progressive and controlled pressure using body mechanics rather than explosive arm squeezing to maintain position and allow safe training
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -243,6 +242,8 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 - You notice your vision darkening or hearing changing, indicating carotid compression has begun and immediate defensive action or tap is required
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -306,9 +307,8 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -318,32 +318,9 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 | Shoulder or rotator cuff injury to trapped arm | Medium | 2-8 weeks depending on severity |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial contact to finish pressure
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal surrender)
-- Physical hand tap on partner or mat
-- Physical foot tap on mat or partner
-- Any distress signal including going limp
 
 
-**Release Protocol**:
-1. Immediately release choking arm pressure upon any tap signal
-2. Open guard if closed guard is applied
-3. Gently lower opponent to mat if elevated
-4. Release all grips and create space
-5. Check partner's alertness and breathing
-6. Wait for clear verbal confirmation before continuing training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth, progressive pressure only
-- Never use competition speed in training - always allow time for tap
-- Never continue applying pressure after tap signal
-- Always allow trapped arm access to tap with free hand or feet
-- Never practice this submission on beginners without close supervision
-- Stop immediately if partner's face changes color or they show signs of distress
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

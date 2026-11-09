@@ -102,9 +102,6 @@ description: "Master the Armbar from High Mount in BJJ. Complete guide to setup 
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from High Mount targets the Elbow joint (hyperextension) and shoulder girdle. Primary risk: Elbow hyperextension causing ligament tears (UCL, LCL, annular ligament). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from High Mount/Attacker|Play as Attacker]]
@@ -208,6 +205,8 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 - Control the defender's head with your leg to prevent them from sitting up during the finishing sequence
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -280,6 +279,8 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 - You feel your arm being pulled across the attacker's centerline away from your body
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -347,9 +348,8 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -358,28 +358,9 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 | Shoulder strain or rotator cuff injury from resistance against locked position | Medium | 2-6 weeks depending on severity of strain |
 
 
-**Application Speed**: SLOW and progressive. Apply steady, incremental pressure against the elbow joint. Never jerk, spike, or explosively extend the arm. Allow the defender time to recognize the submission and tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat or partner with either leg
-- Any unusual vocalization, screaming, or distress signal
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation
-2. If in doubt about whether partner tapped, release immediately—position can be re-established
-3. Release if partner goes limp or appears to lose consciousness
-4. After release, maintain position control but remove all joint pressure before continuing
-
-
-**Training Restrictions**:
-- White belts should drill at slow speed with compliant partners before attempting in live sparring
-- Never apply full extension speed in drilling—always leave time for partner to tap
-- Avoid cranking through defensive grips—use proper grip-breaking technique instead of force
-- Partners with previous elbow injuries should communicate limitations before training
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

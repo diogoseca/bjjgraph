@@ -82,9 +82,6 @@ description: "Master the kneebar from Saddle position in BJJ. Expert guide cover
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Saddle targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Primary risk: Posterior cruciate ligament (PCL) tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Saddle/Attacker|Play as Attacker]]
@@ -173,6 +170,8 @@ Safety awareness is paramount when training this technique. The combination of t
 - Apply finishing pressure over a minimum of 5-7 seconds in training - the knee has minimal tolerance between safe pressure and catastrophic injury
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -241,6 +240,8 @@ Safety awareness is paramount when training this technique. The combination of t
 - Opponent's free leg pushes against your chest or shoulder to create distance while they simultaneously tighten their prayer grip around your ankle and begin subtle hip extension
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -308,9 +309,8 @@ Safety awareness is paramount when training this technique. The combination of t
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -321,32 +321,9 @@ Safety awareness is paramount when training this technique. The combination of t
 | Patellar dislocation or subluxation | Medium | 3-6 weeks with potential for chronic instability |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training
-
-**Tap Signals**:
-- Verbal tap (preferred for leg locks due to rapid injury onset)
-- Multiple rapid hand taps on opponent or mat
-- Multiple foot taps on mat or opponent
-- Any vocalization of distress or pain
-- Frantic or panicked movement indicating submission
 
 
-**Release Protocol**:
-1. Immediately stop all hip extension pressure upon any tap signal
-2. Release the leg grip and allow knee to return to neutral position
-3. Do not suddenly drop the leg - control the descent to prevent secondary injury
-4. Allow partner to assess knee integrity before continuing
-5. Check with partner verbally before resuming training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply progressive pressure over 5-7 seconds minimum
-- Never use competition speed finishing pressure in training - always allow time to tap
-- Always maintain control of opponent's ankle - never let it slip or rotate during application
-- Never practice on training partners with known knee injuries without explicit permission
-- Never combine with explosive rotational movements that add torque to the knee
-- Beginners should not practice finishing pressure - focus on positional control and entry mechanics only
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -282,7 +282,7 @@ Effective grip breaking requires reading which grips pose the greatest tactical 
 |--------|----------|-------------|
 | Success | [[Positions/Open Guard]] | 75% |
 | Failure | [[Positions/Open Guard]] | 15% |
-| Counter | [[Positions/Open Guard]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -295,7 +295,7 @@ Effective grip breaking requires reading which grips pose the greatest tactical 
 
 - **Opponent switches to alternative grip before break is complete** (Effectiveness: High) - Your Response: Track their switching hand and immediately address the new grip threat. Often you can continue breaking the original grip while using hip movement or frames to prevent the new grip from being established. Anticipate common switching patterns and pre-emptively block those gripping attempts. → Leads to [[Positions/Open Guard]]
 - **Opponent uses their other hand to reinforce the grip being broken** (Effectiveness: Medium) - Your Response: Recognize that a two-handed grip from your opponent is less mobile and limits their other options. Continue breaking while using leg frames or hip movement to create angles that make the double-handed grip untenable. Sometimes allowing a temporary double-handed grip actually limits their ability to advance or attack. → Leads to [[Positions/Open Guard]]
-- **Opponent advances position while you focus on grip breaking** (Effectiveness: High) - Your Response: Always maintain frames and hip position while breaking grips. If you must choose between breaking a grip and preventing positional advancement, preventing the pass takes priority. Sometimes creating distance to reset is better than winning a grip battle while being passed. → Leads to [[Positions/Open Guard]]
+- **Opponent advances position while you focus on grip breaking** (Effectiveness: High) - Your Response: Always maintain frames and hip position while breaking grips. If you must choose between breaking a grip and preventing positional advancement, preventing the pass takes priority. Sometimes creating distance to reset is better than winning a grip battle while being passed. → Leads to [[Positions/Side Control]]
 - **Opponent re-grips immediately after the break** (Effectiveness: Medium) - Your Response: Chain your grip breaks together by immediately controlling their sleeve or wrist after breaking the first grip. This prevents the re-grip and establishes your own control. Follow successful grip breaks with offensive actions that force them to defend rather than re-grip. → Leads to [[Positions/Open Guard]]
 
 
@@ -375,14 +375,6 @@ Grip breaking is generally a low-risk technique with minimal injury potential wh
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Alex Enriquez: Wrestling Takedown Defense</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related principle reference for standing defense study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

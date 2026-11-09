@@ -36,6 +36,37 @@ description: "Master the omoplata from inverted guard in BJJ. Complete guide to 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Inverted Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Omaplata from Inverted Guard by Roleta Magalhaes",
+      "description": "Omoplata from Inverted Guard film study: BJJ Omaplata from Inverted Guard by Roleta Magalhaes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r3gy1JDPeyU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r3gy1JDPeyU",
+      "url": "https://www.youtube.com/watch?v=r3gy1JDPeyU",
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "INVERTED GUARD OMOPLATA",
+      "description": "Omoplata from Inverted Guard film study: INVERTED GUARD OMOPLATA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lFrzogJkHBw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lFrzogJkHBw",
+      "url": "https://www.youtube.com/watch?v=lFrzogJkHBw",
+      "duration": "PT181S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +92,6 @@ description: "Master the omoplata from inverted guard in BJJ. Complete guide to 
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Omoplata from Inverted Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/from Inverted Guard/Attacker|Play as Attacker]]
@@ -83,6 +111,32 @@ Strategically, this technique adds a submission threat to the inverted guard pos
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Inverted Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=r3gy1JDPeyU)
+
+<p class="clip-credit"><strong>BJJ Omaplata from Inverted Guard by Roleta Magalhaes</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=r3gy1JDPeyU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lFrzogJkHBw)
+
+<p class="clip-credit"><strong>INVERTED GUARD OMOPLATA</strong> · 3:01 · <a href="https://www.youtube.com/watch?v=lFrzogJkHBw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -131,6 +185,8 @@ Strategically, this technique adds a submission threat to the inverted guard pos
 
 - Angle your body slightly past perpendicular toward the opponent's head to maximize shoulder torque
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -202,6 +258,8 @@ Strategically, this technique adds a submission threat to the inverted guard pos
 - Increasing pressure on the back of your neck from the opponent's hamstring crossing over your shoulder blade
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -247,9 +305,8 @@ Strategically, this technique adds a submission threat to the inverted guard pos
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -259,32 +316,9 @@ Strategically, this technique adds a submission threat to the inverted guard pos
 | Labrum tear | CRITICAL | 6-12 months with surgery |
 
 
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum pressure increase
-
-**Tap Signals**:
-- Verbal tap (any vocal signal)
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress signal or sound
-- Roll forward escape attempt (release immediately)
 
 
-**Release Protocol**:
-1. Immediately stop all forward pressure and rotation
-2. Release leg pinch on shoulder
-3. Unwind hip position to neutral
-4. Allow opponent to extract arm slowly
-5. Check for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the shoulder rotation
-- Never apply competition speed in training
-- Always allow opponent access to tap
-- Stop immediately if opponent rolls forward (escape attempt)
-- Never apply full finishing pressure until advanced belt level
-- Always control the rate of shoulder rotation
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

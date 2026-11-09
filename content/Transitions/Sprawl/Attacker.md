@@ -316,7 +316,7 @@ The Sprawl is executed by the defender of a takedown attempt, making you the 'at
 |--------|----------|-------------|
 | Success | [[Positions/Front Headlock]] | 75% |
 | Failure | [[Positions/Standing Position]] | 15% |
-| Counter | [[Positions/Standing Position]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -329,7 +329,7 @@ The Sprawl is executed by the defender of a takedown attempt, making you the 'at
 
 - **Opponent adjusts angle and continues driving forward, refusing to abandon the takedown attempt** (Effectiveness: Medium) - Your Response: Continue circling aggressively away from their head while maintaining heavy chest pressure. Use hand placement to steer their head toward the mat. If necessary, secure a whizzer on their arm to prevent completion while you re-establish front headlock control. → Leads to [[Positions/Front Headlock]]
 - **Opponent switches to single leg attack mid-sprawl, grabbing one leg and elevating it** (Effectiveness: High) - Your Response: Post your free leg out wide for base, drive your trapped leg's hip down toward the mat, and establish crossface or whizzer control. Circle away from the trapped leg while hopping on your free foot to maintain balance. Transition to dedicated single leg defense sequences. → Leads to [[Positions/Standing Position]]
-- **Opponent uses a fake level change to bait the sprawl, then attacks after you commit** (Effectiveness: Low) - Your Response: Maintain athletic stance and do not overcommit to the sprawl until the opponent fully commits to their shot. Use feints and level changes of your own to disrupt their timing. Stay heavy on hands briefly, then return to standing position if the shot was a fake. → Leads to [[Positions/Standing Position]]
+- **Opponent uses a fake level change to bait the sprawl, then attacks after you commit** (Effectiveness: Low) - Your Response: Maintain athletic stance and do not overcommit to the sprawl until the opponent fully commits to their shot. Use feints and level changes of your own to disrupt their timing. Stay heavy on hands briefly, then return to standing position if the shot was a fake, because a sprawl committed to a fake lets them finish the counter-takedown and pin you in side control. → Leads to [[Positions/Side Control]]
 - **Opponent grabs a guillotine as you sprawl, threatening a choke as your head drops** (Effectiveness: Medium) - Your Response: Immediately look up and turn your head away from the choking arm to relieve pressure. Circle toward the non-choking side while controlling their grip hand with your free hand. Consider passing to side control or driving through to escape the guillotine angle. → Leads to [[Positions/Standing Position]]
 
 
@@ -415,17 +415,6 @@ The sprawl is generally a safe defensive technique when performed with proper fo
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Front Headlock Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related BJJGraph transition.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Alex Enriquez: Wrestling Takedown Defense</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition reference for standing defense study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Grappling Under MMA Rules</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference: Sprawl.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Jimmy-Sheptock-Single-Leg-System" data-cta="related-system-card" data-system-slug="systems/jimmy-sheptock-single-leg-system" data-system-name="Jimmy Sheptock Single Leg System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Jimmy Sheptock: Single-Leg Takedowns</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

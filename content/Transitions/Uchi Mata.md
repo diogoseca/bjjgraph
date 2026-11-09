@@ -123,7 +123,7 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 70% |
 | Failure | [[Positions/Clinch]] | 20% |
-| Counter | [[Positions/Clinch]] | 10% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -313,14 +313,6 @@ Uchi Mata serves as a fundamental cornerstone of an effective standing game in B
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Kenta-Iwamoto-Foot-Sweep-System" data-cta="related-system-card" data-system-slug="systems/kenta-iwamoto-foot-sweep-system" data-system-name="Kenta Iwamoto Foot Sweep System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Kenta Iwamoto: Foot Sweeps and Leg Trips</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

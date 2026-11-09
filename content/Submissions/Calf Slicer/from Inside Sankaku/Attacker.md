@@ -10,8 +10,6 @@ description: "Learn to execute the calf slicer from inside sankaku. Step-by-step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Inside Sankaku targets the Calf muscle and posterior knee structures. Risk: Calf muscle tear or rupture. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -294,6 +292,8 @@ The calf slicer from inside sankaku represents one of the most effective seconda
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Calf Slicer/from Inside Sankaku#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

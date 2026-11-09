@@ -10,8 +10,6 @@ description: "Defend against the calf slicer from Honey Hole. Recognition cues, 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Honey Hole targets the Calf muscle and Achilles tendon. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -146,6 +144,27 @@ description: "Defend against the calf slicer from Honey Hole. Recognition cues, 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Honey Hole (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Calf Slicer defense",
+      "description": "Calf Slicer from Honey Hole (Defender) film study: Calf Slicer defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UIaZYXwrDJM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UIaZYXwrDJM",
+      "url": "https://www.youtube.com/watch?v=UIaZYXwrDJM",
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -159,6 +178,24 @@ Defending the calf slicer from Honey Hole requires immediate recognition of the 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Honey Hole (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UIaZYXwrDJM)
+
+<p class="clip-credit"><strong>Calf Slicer defense</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=UIaZYXwrDJM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -193,6 +230,8 @@ Defending the calf slicer from Honey Hole requires immediate recognition of the 
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Calf Slicer/from Honey Hole#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

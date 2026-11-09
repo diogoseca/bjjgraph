@@ -116,9 +116,6 @@ description: "Learn the D'Arce head-and-arm choke from Side Control, including t
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Darce Choke from Side Control targets the Sides of the neck, with the trapped shoulder completing the head-and-arm choke. Primary risk: Loss of consciousness from neck compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Darce Choke/from Side Control/Attacker|Play as Attacker]]
@@ -229,6 +226,8 @@ The same family is taught from front headlock and half-guard exchanges. This ent
 - Release pressure immediately when the partner taps or shows distress
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -297,6 +296,8 @@ The same family is taught from front headlock and half-guard exchanges. This ent
 - The attacker brings their hips close and drops toward a shoulder-roll angle
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -351,9 +352,8 @@ The same family is taught from front headlock and half-guard exchanges. This ent
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -361,26 +361,9 @@ The same family is taught from front headlock and half-guard exchanges. This ent
 | Neck or shoulder strain from forced rotation | High | Varies with injury; persistent pain requires assessment |
 
 
-**Application Speed**: Slow, progressive pressure with a clear opportunity to tap
-
-**Tap Signals**:
-- Physical hand tap
-- Verbal tap or stop
-- Foot tap
-- Any distress or loss of responsiveness
 
 
-**Release Protocol**:
-1. Open the figure-four immediately on a tap or distress
-2. Release neck and shoulder pressure before changing position
-3. Stop the drill and check the partner before continuing
-
-
-**Training Restrictions**:
-- Practice the shoulder roll cooperatively before adding resistance
-- Do not wrench the neck or force a roll through a trapped shoulder
-- Keep a clear tap signal available throughout the movement
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

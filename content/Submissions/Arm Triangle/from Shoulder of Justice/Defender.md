@@ -10,8 +10,6 @@ description: "Learn to defend the Arm Triangle from Shoulder of Justice. Recogni
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Triangle from Shoulder of Justice targets the Carotid arteries (compressed by opponent's own shoulder and attacker's arm). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -255,6 +253,8 @@ Defending the Arm Triangle from Shoulder of Justice begins with understanding th
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Arm Triangle/from Shoulder of Justice#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

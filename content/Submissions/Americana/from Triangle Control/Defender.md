@@ -10,8 +10,6 @@ description: "Defend the arm attack while addressing the retained triangle entan
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Triangle Control targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -174,6 +172,8 @@ The triangle entanglement remains in place while the attacker changes the active
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Americana/from Triangle Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

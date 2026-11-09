@@ -158,6 +158,37 @@ description: "Defend against the Von Flue choke counter to your guillotine. Reco
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Escape to Von Flue (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "TMG Clips #197 - Learn To Defend The Von Flue Choke!",
+      "description": "Guillotine Escape to Von Flue (Defender) film study: TMG Clips #197 - Learn To Defend The Von Flue Choke!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sVTvrJqnXww/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sVTvrJqnXww",
+      "url": "https://www.youtube.com/watch?v=sVTvrJqnXww",
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Von Flue Defense (Huge Update to the System)",
+      "description": "Guillotine Escape to Von Flue (Defender) film study: Von Flue Defense (Huge Update to the System).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xYDGYbZXvw0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xYDGYbZXvw0?start=42",
+      "url": "https://www.youtube.com/watch?v=xYDGYbZXvw0",
+      "duration": "PT175S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,6 +201,32 @@ As the defender in the Guillotine Escape to Von Flue scenario, you are the pract
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Escape to Von Flue (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sVTvrJqnXww)
+
+<p class="clip-credit"><strong>TMG Clips #197 - Learn To Defend The Von Flue Choke!</strong> · 2:38 · <a href="https://www.youtube.com/watch?v=sVTvrJqnXww" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xYDGYbZXvw0&start=42)
+
+<p class="clip-credit"><strong>Von Flue Defense (Huge Update to the System)</strong> · 2:55 · <a href="https://www.youtube.com/watch?v=xYDGYbZXvw0&t=42s" rel="noopener">Watch on YouTube from 0:42</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

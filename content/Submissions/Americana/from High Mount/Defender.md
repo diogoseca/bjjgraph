@@ -10,8 +10,6 @@ description: "Defend the Americana shoulder lock from High Mount. Recognition cu
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from High Mount targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -256,6 +254,8 @@ Defending the Americana from high mount requires early recognition and immediate
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Americana/from High Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

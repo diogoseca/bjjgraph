@@ -10,8 +10,6 @@ description: "Learn to execute the Kimura shoulder lock from Lasso Guard top. Co
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Lasso Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -172,6 +170,27 @@ description: "Learn to execute the Kimura shoulder lock from Lasso Guard top. Co
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Lasso Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "S2 E55 Kimura from Leg Lasso - Coach Natalie\u0027s Brazilian Jiu Jitsu for Dummies",
+      "description": "Kimura from Lasso Guard (Attacker) film study: S2 E55 Kimura from Leg Lasso - Coach Natalie\u0027s Brazilian Jiu Jitsu for Dummies.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1UccW2-_G00/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1UccW2-_G00?start=94",
+      "url": "https://www.youtube.com/watch?v=1UccW2-_G00",
+      "duration": "PT395S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -185,6 +204,24 @@ Attacking with the Kimura from Lasso Guard top requires recognizing the moment w
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Lasso Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1UccW2-_G00&start=94)
+
+<p class="clip-credit"><strong>S2 E55 Kimura from Leg Lasso - Coach Natalie&#39;s Brazilian Jiu Jitsu for Dummies</strong> · 6:35 · <a href="https://www.youtube.com/watch?v=1UccW2-_G00&t=94s" rel="noopener">Watch on YouTube from 1:34</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -219,6 +256,8 @@ Attacking with the Kimura from Lasso Guard top requires recognizing the moment w
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from Lasso Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

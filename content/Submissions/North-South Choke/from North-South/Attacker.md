@@ -10,8 +10,6 @@ description: "Learn to attack with the North-South Choke from North-South. Step-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: North-South Choke from North-South targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -178,6 +176,27 @@ description: "Learn to attack with the North-South Choke from North-South. Step-
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Choke from North-South (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "North South Choke \ud83e\udded\ud83e\udded\ud83e\udded",
+      "description": "North-South Choke from North-South (Attacker) film study: North South Choke \ud83e\udded\ud83e\udded\ud83e\udded.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u0sMEQrZemE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u0sMEQrZemE",
+      "url": "https://www.youtube.com/watch?v=u0sMEQrZemE",
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +210,24 @@ Attacking with the North-South Choke from the standard North-South position leve
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Choke from North-South (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u0sMEQrZemE)
+
+<p class="clip-credit"><strong>North South Choke 🧭🧭🧭</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=u0sMEQrZemE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -227,6 +264,8 @@ Attacking with the North-South Choke from the standard North-South position leve
 
 <section id="execution-steps" class="content-section">
 
+> Release immediately upon tap. [[Submissions/North-South Choke/from North-South#safety-considerations|Injury risks ↓]]
+
 ## Execution Steps
 
 <p class="section-subtitle">How do you execute North-South Choke from North-South step by step?</p>
@@ -237,7 +276,7 @@ Attacking with the North-South Choke from the standard North-South position leve
 4. **Drive Shoulder Pressure**: Simultaneously drive your shoulder on the choking side directly into the near-side carotid artery, creating the bilateral compression needed for a blood choke. Your shoulder acts as one jaw of the vise while your threading arm acts as the other. Maintain heavy downward pressure through your chest to prevent the opponent from creating any rotational escape. (Timing: 1-2 seconds)
 5. **Secure the Grip**: Lock your choking hand by grabbing your own wrist, clasping a gable grip, or gripping your own bicep on the free arm. The grip should be tight and positioned so that pulling your arms together drives the forearm deeper into the far-side carotid. Your free hand can post on the mat for base or control the opponent's far arm. (Timing: 1-2 seconds)
 6. **Drop Hips and Rotate**: Drop your hips toward the mat on the side away from the opponent while rotating your upper body to face away from them. This rotation tightens the choking arm against the far carotid while your shoulder drives deeper into the near carotid. The hip drop removes space and eliminates any remaining slack in the choke. The squeeze should come from body structure and rotation, not arm strength. (Timing: 2-3 seconds)
-7. **Apply Progressive Squeeze**: Increase the bilateral compression gradually by continuing the body rotation and hip drop. Monitor your opponent's response for tap signals at all times. The choke should feel like a tightening vise with pressure coming from your entire body position rather than muscular effort. Hold the position steady once maximum compression is achieved and wait for the tap. (Timing: 3-5 seconds to tap or unconsciousness)
+7. **Apply Progressive Squeeze**: Increase the bilateral compression gradually by continuing the body rotation and hip drop. Monitor your opponent's response for tap signals at all times. The choke should feel like a tightening vise with pressure coming from your entire body position rather than muscular effort. Hold the position steady once maximum compression is achieved and wait for the tap. (Timing: 3-5 seconds to tap)
 
 
 </section>

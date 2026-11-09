@@ -649,7 +649,24 @@
         "description": "Partner attacks the reverse armbar at 60-80% intensity while you chain defensive techniques: recognize, bend arm, grip defensively, disrupt rotation, escape to guard. Track success rate across rounds and identify which phase of the defense breaks down first under pressure. Build conditioning for sustained grip fighting when the position stalls."
       }
     ],
-    "clips": []
+    "clips": [],
+    "escape_clips": [
+      {
+        "escape": "Bend elbow aggressively",
+        "clips": [
+          {
+            "id": "MnJ00En9COI",
+            "title": "Rodrigo Comprido shows the BEST Armbar Escape on the Mount",
+            "channel": "Rodrigo Comprido",
+            "duration": 119,
+            "vertical": false,
+            "start": 23,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
+    ]
   },
   "variations_and_setups": [
     {

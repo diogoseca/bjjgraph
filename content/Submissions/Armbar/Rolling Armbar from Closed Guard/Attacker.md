@@ -10,8 +10,6 @@ description: "How to execute Rolling Armbar in BJJ. Attacking perspective with s
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rolling Armbar from Closed Guard targets the Elbow joint. Risk: Elbow hyperextension or dislocation. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -261,6 +259,8 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Armbar/Rolling Armbar from Closed Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

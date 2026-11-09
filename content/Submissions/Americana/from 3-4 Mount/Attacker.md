@@ -10,8 +10,6 @@ description: "Execute the Americana shoulder lock from 3-4 Mount. Setup grips, f
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from 3-4 Mount targets the Shoulder joint (rotator cuff and glenohumeral complex). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -184,6 +182,27 @@ description: "Execute the Americana shoulder lock from 3-4 Mount. Setup grips, f
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from 3-4 Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "KeyLock from Mount",
+      "description": "Americana from 3-4 Mount (Attacker) film study: KeyLock from Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3iXOWMoZYRA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3iXOWMoZYRA",
+      "url": "https://www.youtube.com/watch?v=3iXOWMoZYRA",
+      "duration": "PT33S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -197,6 +216,24 @@ The Americana from 3-4 Mount attacks the shoulder through forced external rotati
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from 3-4 Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3iXOWMoZYRA)
+
+<p class="clip-credit"><strong>KeyLock from Mount</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=3iXOWMoZYRA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -231,6 +268,8 @@ The Americana from 3-4 Mount attacks the shoulder through forced external rotati
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Americana/from 3-4 Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

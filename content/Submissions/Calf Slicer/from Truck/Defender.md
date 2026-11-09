@@ -10,8 +10,6 @@ description: "How to defend against Calf Slicer from Truck in BJJ. Recognition, 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Calf Slicer from Truck targets the Calf muscle and knee joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -198,6 +196,8 @@ Defending the calf slicer from truck requires addressing two simultaneous proble
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Calf Slicer/from Truck#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

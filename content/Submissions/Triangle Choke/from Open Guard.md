@@ -92,9 +92,6 @@ description: "Master the Triangle Choke from Open Guard in BJJ. Expert guide cov
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Triangle Choke from Open Guard targets the Neck. Primary risk: Carotid artery compression causing loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Triangle Choke/from Open Guard/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ The critical finishing mechanics rely on three elements working in concert: perp
 - Maintain chain submission awareness throughout—every triangle defense opens armbar, omoplata, or gogoplata transitions that punish escape attempts
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -257,6 +256,8 @@ The critical finishing mechanics rely on three elements working in concert: perp
 - Opponent's leg rises toward your shoulder or neck from an elevated position rather than remaining on your hip or bicep in standard guard configuration
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -303,9 +304,8 @@ The critical finishing mechanics rely on three elements working in concert: perp
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -314,27 +314,9 @@ The critical finishing mechanics rely on three elements working in concert: perp
 | Tracheal compression from improperly applied triangle pressing on windpipe | High | 1-3 weeks for soft tissue bruising; longer for cartilage damage |
 
 
-**Application Speed**: SLOW and progressive. Apply squeeze gradually, allowing opponent time to recognize the choke and tap. Never explosively crank the head down or spike the squeeze. Blood chokes can cause unconsciousness within 4-6 seconds of full application.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat with either leg
-- Any unusual vocalization, gurgling, or signs of distress
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation
-2. If opponent goes limp or stops resisting suddenly, release immediately and check consciousness
-3. If in doubt whether a tap occurred, release - position can always be re-established
-4. After release, maintain awareness of partner's condition and be prepared to call for medical assistance
-
-
-**Training Restrictions**:
-- Beginners should drill the position and lock mechanics before applying any finishing squeeze; focus on angle and position before pressure
-- Never hold a fully locked triangle with finishing pressure for extended periods during drilling; apply, partner taps, release, reset
-- Practitioners with neck injuries or cardiovascular conditions should consult medical professionals before training triangle chokes
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

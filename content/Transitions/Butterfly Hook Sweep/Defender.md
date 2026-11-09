@@ -150,6 +150,27 @@ description: "Complete guide to defending the Butterfly Hook Sweep. Recognition 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Hook Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly sweep counter!",
+      "description": "Butterfly Hook Sweep (Defender) film study: Butterfly sweep counter!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dtS-yeqGtUM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dtS-yeqGtUM",
+      "url": "https://www.youtube.com/watch?v=dtS-yeqGtUM",
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -164,6 +185,24 @@ Recognizing the early warning signs of the sweep setup is critical because the t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Hook Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dtS-yeqGtUM)
+
+<p class="clip-credit"><strong>Butterfly sweep counter!</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=dtS-yeqGtUM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

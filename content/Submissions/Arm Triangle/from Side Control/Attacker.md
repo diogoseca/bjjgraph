@@ -10,8 +10,6 @@ description: "Step-by-step guide to finishing the Arm Triangle from Side Control
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Triangle from Side Control targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -59,7 +57,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Side Control
     {
       "@type": "HowToStep",
       "name": "Apply progressive chest compression",
-      "text": "Expand your chest outward while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. The choke should tighten incrementally with each breath you take. Wait for the tap signal or feel the opponent's resistance fade as blood flow restricts. Maintain the position patiently without rushing.",
+      "text": "Expand your chest outward while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. The choke should tighten incrementally with each breath you take. Wait for the tap signal as blood flow restricts. Maintain the position patiently without rushing.",
       "position": 7
     }
   ],
@@ -265,6 +263,8 @@ Finishing the arm triangle from side control demands precise weight distribution
 
 <section id="execution-steps" class="content-section">
 
+> Release immediately upon tap. [[Submissions/Arm Triangle/from Side Control#safety-considerations|Injury risks ↓]]
+
 ## Execution Steps
 
 <p class="section-subtitle">How do you execute Arm Triangle from Side Control step by step?</p>
@@ -275,7 +275,7 @@ Finishing the arm triangle from side control demands precise weight distribution
 4. **Lock the figure-four or gable grip**: Connect your hands by gripping your own bicep with the choking hand while your free hand cups behind the back of the opponent's head, creating a figure-four lock. Alternatively, use a tight palm-to-palm gable grip for maximum compression. The grip must lock the opponent's head and trapped arm together as a sealed unit with no slack in the configuration. Squeeze your elbows together to eliminate remaining space. (Timing: 1 second to connect hands)
 5. **Walk hips to the perpendicular finishing angle**: Release your leg base from the standard side control position and begin walking your hips around toward the opponent's trapped-arm side until your body is perpendicular to theirs. Your chest should end up directly over their face. Each step incrementally tightens the choke by removing available space between your bodies and increasing the angle of compression on the carotid arteries. Use small deliberate steps rather than one large movement. (Timing: 2-4 seconds for the full walk-around)
 6. **Drop hip and seal the position**: Drop your hip closest to the opponent's trapped arm flat to the mat, sprawling your weight onto the opponent's upper body. Simultaneously drop your head to the mat on the far side of the opponent's head. This seals both sides of the choke and removes all the space opponents use to breathe, turn, or create defensive frames. Your body acts as a compressive wall with no gaps or angles the opponent can exploit. (Timing: 1-2 seconds to settle into finishing position)
-7. **Apply progressive chest compression**: Expand your chest outward while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. The choke should tighten incrementally with each breath you take. Wait for the tap signal or feel the opponent's resistance fade as blood flow restricts. Maintain the position patiently without rushing. (Timing: 3-8 seconds to achieve the tap)
+7. **Apply progressive chest compression**: Expand your chest outward while pulling your elbows together toward your own centerline. The opponent's trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure rather than explosive squeezing. The choke should tighten incrementally with each breath you take. Wait for the tap signal as blood flow restricts. Maintain the position patiently without rushing. (Timing: 3-8 seconds to achieve the tap)
 
 
 </section>

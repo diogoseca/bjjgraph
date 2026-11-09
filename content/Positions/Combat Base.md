@@ -249,25 +249,27 @@ Mastering Combat Base from both sides means understanding this central tension: 
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slide from Combat Base/Attacker|Knee Slide from Combat Base]]** (21% of attempts)
+- **[[Transitions/Knee Slide from Combat Base/Attacker|Knee Slide from Combat Base]]** (18% of attempts)
 
 - **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (14% of attempts)
 
 - **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
 
-- **[[Transitions/Combat Base to Headquarters/Attacker|Combat Base to Headquarters]]** (14% of attempts)
+- **[[Transitions/Combat Base to Headquarters/Attacker|Combat Base to Headquarters]]** (12% of attempts)
 
 - **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
 
-- **[[Transitions/Standing Up from Combat Base/Attacker|Standing Up from Combat Base]]** (5% of attempts)
+- **[[Transitions/Standing Up from Combat Base/Attacker|Standing Up from Combat Base]]** (4% of attempts)
 
-- **[[Transitions/Stand Up from Combat Base/Attacker|Stand Up from Combat Base]]** (4% of attempts)
+- **[[Transitions/Stand Up from Combat Base/Attacker|Stand Up from Combat Base]]** (3% of attempts)
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (1% of attempts)
 
 - **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (10% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (9% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (7% of attempts)
+
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -337,18 +339,6 @@ Mastering Combat Base from both sides means understanding this central tension: 
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Front Headlock Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Bernardo Faria: No-Gi Pressure Passing</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Alex Enriquez: Wrestling Takedown Defense</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position reference for standing defense study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Self-Defense-Application-Framework" data-cta="related-system-card" data-system-slug="systems/self-defense-application-framework" data-system-name="Self-Defense Application Framework" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Sport Grappling and Self-Defense</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Related position: Combat Base.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lachlan-Giles-K-Guard-System" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-k-guard-system" data-system-name="Lachlan Giles K-Guard System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles: K-Guard Entries and Offense</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Combat Base: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

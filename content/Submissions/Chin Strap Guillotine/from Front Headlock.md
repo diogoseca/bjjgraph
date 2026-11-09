@@ -82,9 +82,6 @@ description: "Master the Chin Strap Guillotine in BJJ. High-control choke target
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Chin Strap Guillotine from Front Headlock targets the Carotid arteries and windpipe. Primary risk: Neck strain or cervical spine stress from excessive cranking. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Chin Strap Guillotine/from Front Headlock/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ The submission works exceptionally well in no-gi situations where collar grips a
 - Apply pressure progressively by tightening the arm configuration and expanding your chest for the final finish
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -244,6 +243,8 @@ The submission works exceptionally well in no-gi situations where collar grips a
 
 - Attacker's legs begin actively controlling your hips through guard closure, hooks, or sprawl pressure while maintaining the front headlock grip
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -326,9 +327,8 @@ The submission works exceptionally well in no-gi situations where collar grips a
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -338,44 +338,12 @@ The submission works exceptionally well in no-gi situations where collar grips a
 | Loss of consciousness from carotid artery compression | High | Immediate recovery if released promptly |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum with constant communication
-
-**Tap Signals**:
-- Verbal tap or verbal distress
-- Physical hand tap on partner's body
-- Physical foot tap on mat
-- Any struggling or resistance that suddenly stops
-- Any distress signal or sound
 
 
-**Release Protocol**:
-1. Immediately release the choking arm grip upon any tap signal
-2. Remove pressure from the chin and neck completely
-3. Allow partner to roll away and recover breathing
-4. Check on partner's condition and ensure they are okay before continuing
-5. Never apply finishing pressure during drilling without explicit partner consent
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply sudden pressure to the neck
-- Never use competition speed or full pressure in training
-- Always ensure partner has clear access to tap with both hands
-- Never practice on partners with known neck or jaw injuries
-- Stop immediately if partner shows any sign of distress or discomfort
-- Drill at 30-40% pressure maximum until both partners are comfortable
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Front Headlock Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related BJJGraph submission.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: The Marcelotine</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related submission reference; inclusion here does not establish course coverage.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

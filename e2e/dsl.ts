@@ -848,6 +848,31 @@ export class Journey {
     return box;
   }
 
+  /**
+   * THE BADGE LIVES IN THE DRAWER (v1.242.0, owner U46 b): the account menu opens from the badge at
+   * the drawer's foot, so a shut drawer is opened first, by its icon, the way a player does it.
+   */
+  async openAccountMenu(what = "the badge") {
+    if (!(await this.page.locator(".ngAcctChip").isVisible())) await this.clickByMouse(".ng-logo", "the drawer icon");
+    await this.clickByMouse(".ngAcctChip", what);
+  }
+
+  /** U104 (v1.252.0): at 1440x900 an opened question can end below the reader's scrollport, so its last answer needs a scroll
+   *  (U90's ruling: "half of all cards need a scroll for their last answer"). A journey that presses a drawn answer brings it up
+   *  the way a player does, a wheel over the question, which is game input and never reading intent, then presses it by mouse. */
+  async pressAnswer(selector: string, what?: string) {
+    const below = await this.page.evaluate(sel => {
+      const root = (window as W).__neural._reader?.root as HTMLElement | undefined
+      if (!root) return 0
+      return Math.ceil(document.querySelector(sel)!.getBoundingClientRect().bottom - Math.min(root.getBoundingClientRect().bottom, innerHeight) + 8)
+    }, selector)
+    if (below > 0) {
+      const at = await this.page.evaluate(() => { const b = (window as W).__neural._landEl.getBoundingClientRect(); return [b.left + b.width / 2, b.top + 20] })
+      await this.page.mouse.move(at[0], at[1]); await this.page.mouse.wheel(0, below); await this.readerLayoutSettled()
+    }
+    return this.clickByMouse(selector, what)
+  }
+
   async clickByMouse(selector: string, what?: string) {
     const label = what || selector;
     const hit = await this.page.evaluate((sel) => {
@@ -1048,10 +1073,17 @@ export class Journey {
 
   /** Read the currently displayed success % for a technique's option card. */
   async displayedOdds(technique: string): Promise<number> {
+    // A dealt card plays its listing's own table: the card prints moveChance(opt.node), and tensionSweep
+    // and resolve play `_actOf(opt)`, the same node. The canonical node can carry a different rate, so a
+    // dealt move reads the node its exchange is played with, and only a move not in the tray reads the
+    // canonical one. Until v1.250.2 this always read canonical, which stayed hidden while no listing at a
+    // spec's landing differed: H11's S-Mount Transition at Mount/Top is 54 on its table and 58 canonically,
+    // so veteran-odds-clamp printed 56 against a helper's 60. The helper was wrong, not the card.
     return this.page.evaluate((t) => {
       const a = (window as W).__neural;
+      const dealt = (a._optionCards || []).find((oc: any) => !oc.opt.threat && oc.opt.node?.t === t);
       const idx = a.nodes.findIndex((n: any) => n.t === t);
-      return Math.round(a.moveChance(a.nodes[idx]) * 100);
+      return Math.round(a.moveChance(dealt ? a._actOf(dealt.opt) : a.nodes[idx]) * 100);
     }, technique);
   }
 

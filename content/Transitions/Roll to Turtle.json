@@ -361,7 +361,25 @@
       }
     ],
     "safety_considerations": "Roll to Turtle is a relatively safe escape technique when executed with proper form. The primary safety concern is protecting your neck throughout the movement by maintaining a tucked chin and rounded back posture. Exposing the neck during rotation can lead to front headlock chokes. Additionally, be aware that failed attempts may result in the opponent establishing back control, which carries submission risk from rear naked chokes and back attacks. Train the technique progressively with increasing resistance levels, ensuring you develop the defensive structure habits before facing aggressive training partners. Communicate with training partners about their intended follow-up attacks so you can practice defensive reactions safely.",
-    "clips": []
+    "clips": [
+      {
+        "id": "2JqWevrJGmc",
+        "title": "27.1- Side Control Escape Turtle position",
+        "channel": "ICON JIU-JITSU TEAM",
+        "duration": 20,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "ecYTns1riDM",
+        "title": "Side control escape to turtle",
+        "channel": "Carnage BJJ",
+        "duration": 94,
+        "vertical": false,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Roll to Turtle Defender",

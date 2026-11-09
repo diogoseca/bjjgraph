@@ -1,5 +1,6 @@
 import { test, expect, type Page } from "@playwright/test";
 import { journey } from "../dsl";
+import { seatsWithoutVideos } from "../decks";
 
 /**
  * THE CAMERA GLIDES, AND IT FRAMES WHAT YOU CAN SEE (v1.219.0).
@@ -84,7 +85,10 @@ import { journey } from "../dsl";
  *                                                       no journey here runs. H139 / ORCH-377 again
  *                                                       measured both as NON-KILLS on green baselines;
  *                                                       neither is prediction coverage.
- *   fixed 30px band-flight gate                     → "ZERO overlap URL arrival" (ORCH-382)
+ *   fixed 30px band-flight gate                     → "ZERO overlap URL arrival" (ORCH-382; SIDE-R3 N7)
+ *     Historical NON-KILL at 1440x900 on the drawer bundle. The added 1440x720 viewport restores
+ *     flight-lift-fixed-margin's kill with band 74..218: label bottom 235.82 vs required <232.
+ *     Both heights pass unmutated; the ZERO-overlap assertion and 74px inset remain unchanged.
  *   track the hold only after that gate opens         → "ZERO overlap URL arrival" (ORCH-382)
  *     H140 before the fix: final 0/10, CI-green 3c3a4f949 10/10, video-cards 76891e049 10/10.
  *     The actual silhouette and zero-offset tracking preserve the existing frame bounds and hover.
@@ -343,10 +347,14 @@ for (const viewport of VIEWPORTS) {
       test.info().annotations.push({ type: "motion", description: JSON.stringify(m) });
     });
 
-    test("URL arrival: from the intro to the staged board, every frame within the bounds", async ({ page }) => {
+    for (const height of (W === 1440 ? [720, 900] : [viewport.height])) test(`URL arrival: from the intro to the staged board at ${height}px, every frame within the bounds`, async ({ page }) => {
+      await page.setViewportSize({ width: W, height });
       const j = journey(page);
       await j.boot("/Positions/Mount");
       const S = await record(page, 60 * 7);
+      const band = await page.evaluate(() => (window as any).__neural._reader?.nodeBand);
+      console.log(`[D-355] ${W}x${height} band=${JSON.stringify(band)}`);
+      if (W === 1440) expect(band.top, "the 44px drawer icon sets the reader inset to 74px").toBe(74);
       expectContinuous(S, W, "URL arrival");
       expectClearOfRows(S, W, "URL arrival");
     });
@@ -392,12 +400,24 @@ for (const viewport of VIEWPORTS) {
     // in the node band and D-329's preference coincides with it at this width. Clearing the rows, the
     // claim the preference serves, holds without it; the preference itself is ungated here.
     if (W === 390) test("an exchange from a node with no Videos section lands clear of the rows", async ({ page }) => {
+      // The seat comes from the build, never by name: v1.251.5 gave the named one (Reverse Mount Top) its first film. The
+      // pages say which seats have no Film Study section; the reader is the judge, because a seat the app folds into
+      // another state (a "<Submission> Control" alias) reads that state's article. First seat whose reader agrees wins.
+      const seats = seatsWithoutVideos();
+      expect(seats.length, "the build has a position seat with no Videos section to stand on").toBeGreaterThan(0);
       const j = journey(page);
-      await j.boot("/");
-      await j.land("Reverse Mount Top");
+      const readerVideos = () => page.evaluate(() => { const r = (window as any).__neural._reader; return { videos: r.sections.some((s: any) => s.type === "videos"), lifted: !!r.videoCard } });
+      let seat: string | null = null;
+      for (const s of seats) {
+        await j.boot("/");
+        await j.land(s);
+        await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+        if ((await readerVideos()).videos === false) { seat = s; break; }
+      }
+      expect(seat, `premise: a seat whose reader shows no Videos section (tried ${seats.length})`).toBeTruthy();
+      test.info().annotations.push({ type: "seat", description: seat! });
       await j.rig("resolve", [0]); await j.rig("outcome", Array(32).fill(0)); await j.rig("opp-finish", [0.99]);
-      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
-      expect(await page.evaluate(() => { const r = (window as any).__neural._reader; return { videos: r.sections.some((s: any) => s.type === "videos"), lifted: !!r.videoCard } }),
+      expect(await readerVideos(),
         "premise: the article read during the exchange has no Videos section").toEqual({ videos: false, lifted: false });
       const opt = await page.evaluate(() => {
         const a = (window as any).__neural;

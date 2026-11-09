@@ -10,8 +10,6 @@ description: "Complete defense guide for the Kimura from Lasso Guard. Learn earl
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Lasso Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -152,6 +150,27 @@ description: "Complete defense guide for the Kimura from Lasso Guard. Learn earl
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Lasso Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the Kimura from Bottom Half Guard",
+      "description": "Kimura from Lasso Guard (Defender) film study: Defending the Kimura from Bottom Half Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UmpGRjmyOak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UmpGRjmyOak",
+      "url": "https://www.youtube.com/watch?v=UmpGRjmyOak",
+      "duration": "PT122S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +184,24 @@ Defending against the Kimura from Lasso Guard requires understanding the specifi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Lasso Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UmpGRjmyOak)
+
+<p class="clip-credit"><strong>Defending the Kimura from Bottom Half Guard</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=UmpGRjmyOak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -198,6 +235,8 @@ Defending against the Kimura from Lasso Guard requires understanding the specifi
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kimura/from Lasso Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

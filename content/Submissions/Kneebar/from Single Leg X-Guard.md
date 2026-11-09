@@ -102,9 +102,6 @@ description: "Master the kneebar from Single Leg X-Guard. Expert guide to this B
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Single Leg X-Guard targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Primary risk: Posterior cruciate ligament (PCL) tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Single Leg X-Guard/Attacker|Play as Attacker]]
@@ -209,6 +206,8 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 - Time the entry when the bottom player extends hooks aggressively for a sweep — their commitment creates the opening
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -274,6 +273,8 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 
 - You feel the top player's weight shifting backward and downward as they sit into kneebar position, combined with tightening control on your heel and a perpendicular rotation of their body relative to your trapped leg
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -344,9 +345,8 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -357,32 +357,9 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 | Patellar dislocation or subluxation | Medium | 3-6 weeks with potential for chronic instability |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training
-
-**Tap Signals**:
-- Verbal tap (preferred for leg locks)
-- Multiple rapid hand taps on opponent or mat
-- Multiple foot taps on mat or opponent
-- Any vocalization of distress or pain
-- Frantic or panicked movement
 
 
-**Release Protocol**:
-1. Immediately stop all hip extension pressure
-2. Release the leg grip and allow knee to return to neutral position
-3. Do not suddenly drop the leg - control descent
-4. Allow partner to assess knee integrity before continuing
-5. Check with partner verbally before resuming training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply progressive pressure
-- Never use competition speed in training - always allow time to tap
-- Always maintain control of opponent's heel - never let it slip out during application
-- Never practice on training partners with known knee injuries without explicit permission
-- Never combine with explosive rotational movements that add torque to the knee
-- Beginners should not practice finishing pressure - focus on positional control only
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

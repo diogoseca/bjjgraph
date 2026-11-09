@@ -147,11 +147,11 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     await j.openQuestion()
     await expect(page.locator("[data-land-film]")).toBeVisible()
     const geometry = () => page.evaluate(() => {
-      const a = (window as any).__neural, media = a._landFilmEl.getBoundingClientRect(), face = a._landEl.getBoundingClientRect()
+      const a = (window as any).__neural, media = a._landFilmEl.getBoundingClientRect(), face = a._landEl.getBoundingClientRect(), grid = a._reader.body.getBoundingClientRect()
       return { mediaWidth: media.width, mediaHeight: media.height, reportedHeight: a.currentFilmHeight(), faceWidth: face.width,
+        faceLeft: face.left, mediaRight: media.right, gridLeft: grid.left, gridRight: grid.right,
         // U52 b (superseding D-368's stacked order): stacked, the current card follows the question and its backs
         // at the parts' step
-        sideGap: face.left - media.right, footprint: face.right + 52 - media.left,
         followGap: media.top - face.bottom - 3 * (a._landStackEl?.childElementCount || 0),
         step: a._landEl.classList.contains("ng-land-deck") ? 16 : a.isMobile() ? 8 : 12,
         layout: a._reader.game.dataset.mediaLayout, hosts: document.querySelectorAll("[data-land-film]").length }
@@ -159,12 +159,20 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     await expect.poll(async () => (await geometry()).layout).toBe(width > 640 ? "side-by-side" : "stacked")
     const g = await geometry()
     expect(g.hosts).toBe(1)
-    expect(g.mediaWidth).toBe(width > 640 ? 400 : 358)
-    expect(g.faceWidth).toBe(width > 640 ? 390 : 286)
-    expect(g.reportedHeight).toBe(g.mediaHeight)
-    expect(g.mediaHeight).toBeCloseTo(width > 640 ? 241.42 : 219.94, 0)
-    if (width > 640) { expect(g.sideGap).toBe(60); expect(g.footprint).toBe(902) }
-    else expect(g.followGap, "stacked: the current card follows the question at the parts' step").toBeCloseTo(g.step, 0)
+    expect(g.reportedHeight, "the reader is told the film's measured height").toBe(g.mediaHeight)
+    if (width > 640) {
+      // U104, U108 a (owner, 2026-11-09, replacing the film-left stage and its 400px film): the question left and the video right,
+      // each in a column of the article's grid. The open face keeps a 52px lane for the deck's outside arrows, so the film is
+      // the face and that lane, and the two span the grid.
+      expect(Math.abs(g.faceLeft - g.gridLeft), "the face starts on the grid's left edge").toBeLessThanOrEqual(1)
+      expect(Math.abs(g.mediaRight - g.gridRight), "the film ends on the grid's right edge").toBeLessThanOrEqual(1)
+      expect(g.mediaWidth, "equal columns: the film is the face and its arrows' lane").toBeCloseTo(g.faceWidth + 52, 0)
+    } else {
+      expect(g.mediaWidth).toBe(358)
+      expect(g.faceWidth).toBe(286)
+      expect(g.mediaHeight).toBeCloseTo(219.94, 0)
+      expect(g.followGap, "stacked: the current card follows the question at the parts' step").toBeCloseTo(g.step, 0)
+    }
     // The unchanged landcard-deck journeys pin the 44px arrow hit targets.
     // Flush observer/layout frames to catch a host resize feedback loop.
     await page.evaluate(async () => { for (let i = 0; i < 6; i++) await new Promise(requestAnimationFrame) })

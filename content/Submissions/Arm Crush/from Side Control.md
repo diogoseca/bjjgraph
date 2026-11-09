@@ -92,9 +92,6 @@ description: "Master the Arm Crush submission in BJJ. Learn shoulder lock mechan
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Arm Crush from Side Control targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm Crush/from Side Control/Attacker|Play as Attacker]]
@@ -187,6 +184,8 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 - Proper shoulder alignment maximizes pressure while minimizing injury risk
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -257,6 +256,8 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 - Increasing shoulder pressure that feels different from normal side control - a compressive, inward force rather than downward pin
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -321,9 +322,8 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -333,31 +333,9 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 | Labrum tear | CRITICAL | 4-6 months post-surgery, career-threatening |
 
 
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum application time in training
-
-**Tap Signals**:
-- Verbal tap or verbal distress
-- Physical tap with free hand
-- Physical tap with feet
-- Any unusual shoulder popping or grinding sounds
-- Opponent going still or rigid
 
 
-**Release Protocol**:
-1. Immediately reduce all rotational pressure on the shoulder
-2. Release crushing pressure by lifting your chest off opponent's arm
-3. Allow opponent's arm to return to neutral position slowly
-4. Check with partner verbally before resuming training
-5. Watch for signs of shoulder injury (limited range of motion, pain with movement)
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth, progressive pressure only
-- Never use competition speed in training - this is a high-injury-risk submission
-- Always maintain verbal communication with training partner
-- Stop immediately if you hear or feel any popping in the shoulder
-- Do not practice this submission on partners with previous shoulder injuries without explicit consent
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

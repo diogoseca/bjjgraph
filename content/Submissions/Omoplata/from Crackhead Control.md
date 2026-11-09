@@ -36,6 +36,27 @@ description: "An omoplata from Crackhead Control requires releasing the reinforc
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Crackhead Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mission Control to Omo Plata",
+      "description": "Omoplata from Crackhead Control film study: Mission Control to Omo Plata.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mxp2kAwshzE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mxp2kAwshzE",
+      "url": "https://www.youtube.com/watch?v=mxp2kAwshzE",
+      "duration": "PT48S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +82,6 @@ description: "An omoplata from Crackhead Control requires releasing the reinforc
 <span class="meta-chip">30% success</span>
 </div>
 
-> [!danger] Safety
-> Omoplata from Crackhead Control targets the Shoulder joint. Primary risk: Shoulder joint injury from excessive pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/from Crackhead Control/Attacker|Play as Attacker]]
@@ -85,6 +103,24 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Crackhead Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mxp2kAwshzE)
+
+<p class="clip-credit"><strong>Mission Control to Omo Plata</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=mxp2kAwshzE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -133,6 +169,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 - Unload first, then free the arm: Stop at a tap or verbal signal, remove the joint pressure, and release the leg clamp so the arm can move freely.
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -198,6 +236,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Bring the leg into the omoplata shoulder enclosure while keeping the opponent's wrist and upper arm controlled.
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -232,9 +272,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -242,24 +281,9 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 | Neck or knee strain during a forced escape | High | Variable; do not train through symptoms. |
 
 
-**Application Speed**: Apply gradually and release immediately at any signal.
-
-**Tap Signals**:
-- Hand tap
-- Foot tap when the arms are trapped
-- Verbal tap or stop
 
 
-**Release Protocol**:
-1. Stop adding pressure immediately.
-2. Remove the joint or neck load before changing grips.
-3. Free the trapped limb or neck and check the partner.
-
-
-**Training Restrictions**:
-- Practice under qualified supervision with a cooperative partner.
-- Do not force the movement through pain or a restricted joint range.
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

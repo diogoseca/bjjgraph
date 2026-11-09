@@ -82,9 +82,6 @@ description: "Master the Arm Triangle from Side Control in BJJ. Complete finishi
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Arm Triangle from Side Control targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm Triangle/from Side Control/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ At the highest levels of competition, the arm triangle from side control remains
 - Maintain constant chest-to-chest contact throughout the finishing sequence with zero space between your bodies
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -241,6 +240,8 @@ At the highest levels of competition, the arm triangle from side control remains
 - The attacker's hips disengage from standard side control positioning and begin walking toward your trapped-arm side to change their angle
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -303,9 +304,8 @@ At the highest levels of competition, the arm triangle from side control remains
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -314,31 +314,9 @@ At the highest levels of competition, the arm triangle from side control remains
 | Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds. Never spike or jerk the squeeze.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap (multiple taps on opponent or mat)
-- Physical foot tap (multiple taps with foot)
-- Any distress signal or sudden loss of resistance
-- Immediately release if opponent goes limp
 
 
-**Release Protocol**:
-1. Immediately release arm squeeze and remove chest pressure upon any tap signal
-2. Disengage from head-and-arm grip and move away from opponent's head
-3. Allow opponent to breathe and recover fully (30-60 seconds minimum)
-4. Check for consciousness, normal breathing, and coherent verbal response
-5. If unconscious: position on side in recovery position, elevate legs, monitor breathing, seek medical attention if not conscious within 20 seconds
-
-
-**Training Restrictions**:
-- Apply smooth progressive pressure only - never spike or jerk the squeeze
-- Release immediately upon any tap signal without hesitation
-- Always allow at least one hand free for tapping during training
-- Never apply competition-speed finishing pressure in training - prioritize control over speed
-- Stop immediately if opponent's face changes color or shows signs of distress
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

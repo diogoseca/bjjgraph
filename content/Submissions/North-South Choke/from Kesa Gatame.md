@@ -36,6 +36,37 @@ description: "Complete guide to the North-South Choke from Kesa Gatame in BJJ. D
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Choke from Kesa Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modified Scarf Hold North/South choke",
+      "description": "North-South Choke from Kesa Gatame film study: Modified Scarf Hold North/South choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LurZB_PfUmA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LurZB_PfUmA",
+      "url": "https://www.youtube.com/watch?v=LurZB_PfUmA",
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North South Choke \ud83e\udded\ud83e\udded\ud83e\udded",
+      "description": "North-South Choke from Kesa Gatame film study: North South Choke \ud83e\udded\ud83e\udded\ud83e\udded.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u0sMEQrZemE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u0sMEQrZemE",
+      "url": "https://www.youtube.com/watch?v=u0sMEQrZemE",
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +92,6 @@ description: "Complete guide to the North-South Choke from Kesa Gatame in BJJ. D
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> North-South Choke from Kesa Gatame targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/North-South Choke/from Kesa Gatame/Attacker|Play as Attacker]]
@@ -83,6 +111,32 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Choke from Kesa Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LurZB_PfUmA)
+
+<p class="clip-credit"><strong>Modified Scarf Hold North/South choke</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=LurZB_PfUmA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u0sMEQrZemE)
+
+<p class="clip-credit"><strong>North South Choke 🧭🧭🧭</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=u0sMEQrZemE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -131,6 +185,8 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 
 - Keep your body tight against the opponent during rotation with no space between your chest and their head at any point
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -204,6 +260,8 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 - The attacker threatens an Americana then quickly abandons it when you defend, immediately redirecting to thread their arm deeper around your neck
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -263,9 +321,8 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -275,31 +332,9 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 | Cervical spine stress from improper release or continued pressure after tap | CRITICAL | Weeks to months depending on severity |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and tap
-
-**Tap Signals**:
-- Verbal tap or verbal submission
-- Multiple rapid hand taps on opponent's body
-- Multiple rapid foot taps on the mat
-- Any distress signal including body convulsions
-- Loss of resistance or going limp
 
 
-**Release Protocol**:
-1. Immediately release arm pressure and remove shoulder compression upon any tap signal
-2. Roll off opponent's head and neck area completely
-3. Allow opponent to recover in side-lying position with airway clear
-4. Monitor for signs of consciousness and normal breathing
-5. Never move opponent's neck immediately after release - allow them to move naturally first
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking pressure to the neck during the rotation or finish
-- Always ensure partner has clear tap access with at least one hand
-- Never hold the choke after partner taps or goes limp
-- Beginners should practice the transition and grip placement only, without applying actual choking pressure
-- Use progressive resistance drilling before live application
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

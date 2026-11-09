@@ -48,6 +48,7 @@ jobs:
       - name: Regenerate Neural app and data
         run: npm run regenerate:neural
 
+      # npm run build also gates every app title against the built page head.
       - name: Build production site and Forward libraries
         id: site-build
         run: npm run build
@@ -154,6 +155,7 @@ jobs:
     name: E2E shard ${{ matrix.shard }}/4
     needs: build
     runs-on: ubuntu-latest
+    # History, at 25; the limit today and its reason are at the end of this comment.
     # Ceiling lowered 45 -> 25 so a hung shard fails in under half an hour instead of
     # parking a runner for three quarters of one. 4 shards is the measured optimum
     # (N=4 ~13.6 min wall vs N=2 ~21.3 min) — do not change the shard count to chase
@@ -169,9 +171,15 @@ jobs:
     # unverified projection would risk reddening the gate on every PR into main and dev.
     # 25 still reclaims 20 minutes per stuck shard and cannot break a working run.
     #
-    # TIGHTEN THIS to 15 once one post-fix sharded run is green — check the real per-shard
-    # durations first and set the ceiling from them, not from this comment.
-    timeout-minutes: 25
+    # v1.251.1: raised 25 -> 35. The suite outgrew 25: five shard timeouts are on record, each a
+    # cancelled job at about 25m18s with nothing failed (runs 42112840488, 42130875467,
+    # 42222522276, 42231345256, 40790056850), and shard 2 went green at 26m45s on run
+    # 42283757329 (job clock; 8m52s of it apt, the variance described at the gen job). A timeout
+    # still bounds a hang, so it sits above the slowest run actually observed. This limit is the
+    # shard job's alone. Build and gen keep 25, and gen is the closer of the two: 5m50s on run
+    # 42266283562, but 20m55s on run 42222522276, and cancelled at 25 twice on 2026-10-28 on one
+    # sick branch (runs 40766387204, 40790056850).
+    timeout-minutes: 35
     strategy:
       fail-fast: false
       matrix:

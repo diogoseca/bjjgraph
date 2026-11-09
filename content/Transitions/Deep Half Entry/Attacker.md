@@ -288,7 +288,7 @@ The Deep Half Entry from the attacker's perspective is about converting a defens
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard/Deep Half Guard]] | 60% |
 | Failure | [[Positions/Half Guard]] | 25% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -302,7 +302,7 @@ The Deep Half Entry from the attacker's perspective is about converting a defens
 - **Opponent sprawls back and limp legs out of underhook** (Effectiveness: High) - Your Response: Immediately follow the retreating leg by scooting your hips forward and re-securing the underhook. If the leg is fully extracted, transition to single leg X guard by hooking their leg with your feet, or sit up to pursue a single leg takedown on the retreating leg. → Leads to [[Positions/Half Guard]]
 - **Opponent applies heavy crossface and shoulder pressure to prevent rotation** (Effectiveness: High) - Your Response: Create stronger frame with top arm against their shoulder or bicep. If crossface is established before you begin rotating, abandon deep half entry and work back to knee shield half guard or use the pressure to transition into lockdown to control their posture before reattempting. → Leads to [[Positions/Half Guard]]
 - **Opponent bases out wide with far leg and circles away from your underhook** (Effectiveness: Medium) - Your Response: Follow their movement by scooting your hips and maintaining underhook control. If they create too much distance, release and transition to butterfly guard by inserting a hook, or pursue single leg X guard on their near leg as they back away. → Leads to [[Positions/Half Guard]]
-- **Opponent drops weight and flattens you before entry completion, driving chest-to-chest** (Effectiveness: Medium) - Your Response: Use lockdown on their trapped leg to prevent them from advancing position and to break their posture down. From lockdown, work back to creating space by whipping their leg to off-balance them, then reattempt the deep half entry or transition to electric chair. → Leads to [[Positions/Half Guard]]
+- **Opponent drops weight and flattens you before entry completion, driving chest-to-chest** (Effectiveness: Medium) - Your Response: Use lockdown on their trapped leg to prevent them from advancing position and to break their posture down. From lockdown, work back to creating space by whipping their leg to off-balance them, then reattempt the deep half entry or transition to electric chair. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 
 
 </section>
@@ -384,14 +384,6 @@ Deep half entry is generally a low-risk technique when practiced with proper pro
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Half Guard: Recovering Closed Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Deep Half Entry: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

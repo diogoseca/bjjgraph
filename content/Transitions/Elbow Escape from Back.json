@@ -35,7 +35,7 @@
         "gi": 20,
         "nogi": 20
       },
-      "result": "counter"
+      "result": "failure"
     }
   ],
   "success_rate": {
@@ -79,7 +79,7 @@
     },
     {
       "name": "Mount",
-      "relationship": "Counter outcome position when the back controller follows the escape turn and establishes mount"
+      "relationship": "Failed half guard recovery when the back controller follows the escape turn and establishes mount"
     },
     {
       "name": "Back Door Escape",
@@ -209,7 +209,7 @@
       },
       {
         "error": "Using explosive bridging movements instead of controlled hip escape mechanics",
-        "consequence": "Creates momentary space but opponent easily follows the explosive motion and frequently improves position to mount during the uncontrolled scramble",
+        "consequence": "Creates momentary space but opponent easily follows the explosive motion and frequently maintains dominant control by moving to mount during the uncontrolled scramble",
         "correction": "Use deliberate hip escape mechanics with consistent steady pressure against the elbow frame rather than explosive movements that waste energy and create unpredictable positions"
       },
       {
@@ -365,7 +365,17 @@
       }
     ],
     "safety_considerations": "The elbow escape is a low-risk technique for both practitioners when performed correctly. The primary safety concern involves the neck defense phase where improper hand fighting during drilling can lead to accidental finger injuries or neck strain from sustained choking pressure. Partners should apply submissions with controlled pressure during training, allowing adequate time for the escaper to work through the sequence before fully committing to chokes. Avoid explosive bridging movements that can strain the lower back, and communicate clearly if experiencing breathing difficulty or choking discomfort. The turning phase requires controlled rotation to avoid knee strain on the trapped leg.",
-    "clips": []
+    "clips": [
+      {
+        "id": "uyIV0ez9bUo",
+        "title": "BJJ Beginners Tutorial - Back Escape / Elbow Escape Method",
+        "channel": "Chess Club Jiu-Jitsu",
+        "duration": 264,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Elbow Escape from Back Defender",

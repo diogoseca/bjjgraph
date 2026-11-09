@@ -131,9 +131,6 @@ description: "Master the Breadcutter Choke in BJJ. Devastating collar choke from
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Breadcutter Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Breadcutter Choke is a powerful gi-based blood choke that utilizes the opponent's own collar to create a devastating strangling mechanism. Executed primarily from turtle position, back control, or transitional positions, this technique creates immense pressure on both carotid arteries while simultaneously compressing the trachea. The name derives from the cutting action of the collar across the neck, similar to slicing bread. What makes the Breadcutter particularly effective is its ability to be applied from positions where the opponent believes they are relatively safe or defending other attacks.
@@ -245,9 +242,8 @@ The Breadcutter belongs to a family of collar chokes that includes the Clock Cho
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -257,32 +253,9 @@ The Breadcutter belongs to a family of collar chokes that includes the Clock Cho
 | Jaw or facial pressure causing TMJ issues | Medium | 2-4 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent's body
-- Physical foot tap on mat
-- Any rapid tapping motion with hand or foot
-- Body going limp (automatic release required)
 
 
-**Release Protocol**:
-1. Immediately release collar grip upon tap signal
-2. Remove body weight and pressure from opponent's neck
-3. Allow opponent to turn to safe position (typically supine or seated)
-4. Check that opponent is breathing normally and conscious
-5. Give partner time to recover before continuing training
-
-
-**Training Restrictions**:
-- Never apply competition speed or force in training
-- Never spike or jerk the choke - always apply gradually
-- Always ensure partner has clear access to tap
-- Stop immediately at any sign of distress, even without tap
-- Never practice on partners with neck or throat injuries
-- Beginners must drill under supervision for first 20+ repetitions
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

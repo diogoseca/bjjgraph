@@ -10,8 +10,6 @@ description: "Master attacking with the toe hold from Outside Ashi-Garami. Figur
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Outside Ashi targets the Foot and ankle joint complex. Risk: Lateral ankle ligament tears (anterior talofibular, calcaneofibular ligaments). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -288,6 +286,8 @@ Attacking with the toe hold from Outside Ashi-Garami transforms a defensive leg 
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Toe Hold/from Outside Ashi#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

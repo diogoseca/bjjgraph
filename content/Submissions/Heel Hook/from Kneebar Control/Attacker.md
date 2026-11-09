@@ -10,8 +10,6 @@ description: "Master attacking the heel hook from kneebar control. Grip transiti
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from Kneebar Control targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ Attacking the heel hook from kneebar control requires reading your opponent's de
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Heel Hook/from Kneebar Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

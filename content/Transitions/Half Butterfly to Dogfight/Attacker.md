@@ -176,6 +176,27 @@ description: "Master executing the Half Butterfly to Dogfight transition. Comple
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Butterfly to Dogfight (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Adam Wardzinski`s Butterfly Guard System - Half Butterfly - Half Guard - Dog\u2026",
+      "description": "Half Butterfly to Dogfight (Attacker) film study: Adam Wardzinski`s Butterfly Guard System - Half Butterfly - Half Guard - Dog\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xl67taBKp3g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xl67taBKp3g?start=24",
+      "url": "https://www.youtube.com/watch?v=xl67taBKp3g",
+      "duration": "PT362S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the attacker, you are the bottom player in half butterfly guard working to el
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Butterfly to Dogfight (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xl67taBKp3g&start=24)
+
+<p class="clip-credit"><strong>Adam Wardzinski`s Butterfly Guard System - Half Butterfly - Half Guard - Dog…</strong> · 6:02 · <a href="https://www.youtube.com/watch?v=xl67taBKp3g&t=24s" rel="noopener">Watch on YouTube from 0:24</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

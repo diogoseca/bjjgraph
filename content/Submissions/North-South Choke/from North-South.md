@@ -46,22 +46,12 @@ description: "Master the North-South Choke from North-South in BJJ. Expert guide
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the north south choke.",
-      "description": "North-South Choke from North-South film study: Defending the north south choke..",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AyL9eW7ytq4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AyL9eW7ytq4",
-      "url": "https://www.youtube.com/watch?v=AyL9eW7ytq4",
-      "duration": "PT59S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "\u201cHook-Plata\u201d  (North-South Choke Escape)",
-      "description": "North-South Choke from North-South film study: \u201cHook-Plata\u201d  (North-South Choke Escape).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/O-2iSvT8zDk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/O-2iSvT8zDk",
-      "url": "https://www.youtube.com/watch?v=O-2iSvT8zDk",
-      "duration": "PT59S"
+      "name": "North South Choke \ud83e\udded\ud83e\udded\ud83e\udded",
+      "description": "North-South Choke from North-South film study: North South Choke \ud83e\udded\ud83e\udded\ud83e\udded.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u0sMEQrZemE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u0sMEQrZemE",
+      "url": "https://www.youtube.com/watch?v=u0sMEQrZemE",
+      "duration": "PT75S"
     }
   ]
 }
@@ -92,9 +82,6 @@ description: "Master the North-South Choke from North-South in BJJ. Expert guide
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> North-South Choke from North-South targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/North-South Choke/from North-South/Attacker|Play as Attacker]]
@@ -124,17 +111,9 @@ Strategically, the North-South Choke creates a powerful dilemma when combined wi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=AyL9eW7ytq4)
+![](https://www.youtube.com/watch?v=u0sMEQrZemE)
 
-<p class="clip-credit"><strong>Defending the north south choke.</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=AyL9eW7ytq4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=O-2iSvT8zDk)
-
-<p class="clip-credit"><strong>“Hook-Plata”  (North-South Choke Escape)</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=O-2iSvT8zDk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>North South Choke 🧭🧭🧭</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=u0sMEQrZemE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -190,6 +169,8 @@ Strategically, the North-South Choke creates a powerful dilemma when combined wi
 
 - Time the choke entry during opponent's exhalation when their defensive tension is lowest
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -265,6 +246,8 @@ Strategically, the North-South Choke creates a powerful dilemma when combined wi
 - Weight distribution shifts as opponent begins walking their base to the choking side
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -323,9 +306,8 @@ Strategically, the North-South Choke creates a powerful dilemma when combined wi
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -335,31 +317,9 @@ Strategically, the North-South Choke creates a powerful dilemma when combined wi
 | Cervical spine stress from improper release or continued pressure after tap | CRITICAL | Weeks to months depending on severity |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and tap before blood flow restriction causes unconsciousness
-
-**Tap Signals**:
-- Verbal tap or verbal submission
-- Multiple rapid hand taps on opponent's body
-- Multiple rapid foot taps on the mat
-- Any distress signal including body convulsions or going limp
-- Loss of resistance indicating possible unconsciousness
 
 
-**Release Protocol**:
-1. Immediately release arm pressure and remove shoulder compression upon tap
-2. Roll off opponent's head and neck area completely
-3. Allow opponent to recover in side-lying position with airway clear
-4. Monitor for signs of consciousness and normal breathing for at least 30 seconds
-5. Never move opponent's neck after release - allow them to move naturally first
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking pressure to the neck area
-- Always ensure partner has clear tap access with at least one hand
-- Never hold the choke after partner taps or goes limp
-- Beginners should practice the position and grip placement only, without applying choking pressure
-- Apply progressive pressure in training - never use competition-level squeeze speed
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

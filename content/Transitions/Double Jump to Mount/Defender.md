@@ -21,7 +21,7 @@ description: "Defend against the Double Jump to Mount transition. Recognition cu
     {
       "@type": "HowToStep",
       "name": "Turn into opponent and recover half guard during hook extraction",
-      "text": "When the first hook is extracted and control is transitionally weakened, immediately hip escape and turn to face the attacker If successful: Recover to half guard top position, reversing the positional hierarchy and neutralizing the mount threat entirely",
+      "text": "When the first hook is extracted and control is transitionally weakened, immediately hip escape and turn to face the attacker If successful: Recover to half guard bottom, neutralizing the mount threat entirely while the attacker stays on top",
       "position": 1
     },
     {
@@ -88,7 +88,7 @@ description: "Defend against the Double Jump to Mount transition. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "How can you exploit the attacker's weight shift during the step-over to create a reversal?",
+      "name": "How do you use the attacker's step-over weight shift to disrupt mount and recover guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the step-over, the attacker's weight shifts asymmetrically to one side as they swing their leg across your body. This creates a brief moment of compromised lateral balance that can be exploited with a well-timed bridge in the direction of the step-over, using their own momentum against them. Combined with framing against the stepping-over side, this creates disruption that often results in half guard recovery rather than a clean mount establishment."
@@ -207,7 +207,7 @@ The defender must understand that passive resistance from a flattened belly-down
 
 - **When to use**: When the first hook is extracted and control is transitionally weakened, immediately hip escape and turn to face the attacker
 - **Targets**: [[Positions/Half Guard]]
-- **If successful**: Recover to half guard top position, reversing the positional hierarchy and neutralizing the mount threat entirely
+- **If successful**: Recover to half guard bottom, neutralizing the mount threat entirely while the attacker stays on top
 - **Risk**: If timing is late, the attacker may follow your turn to take the back instead of completing the mount
 
 ### 2. Rebuild turtle base and recover active defensive posture

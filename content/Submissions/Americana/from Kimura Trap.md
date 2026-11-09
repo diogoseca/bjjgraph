@@ -82,9 +82,6 @@ description: "Master the Americana from Kimura Trap in BJJ. Convert your Kimura 
 <span class="meta-chip">68% success</span>
 </div>
 
-> [!danger] Safety
-> Americana from Kimura Trap targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Americana/from Kimura Trap/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ At the purple and brown belt level, this technique punishes opponents who have d
 - Keep your own elbows tight to your body throughout the finish to maximize leverage and prevent the opponent from creating space
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -243,6 +242,8 @@ At the purple and brown belt level, this technique punishes opponents who have d
 - Your wrist begins moving in an arc along the mat away from your body rather than being pulled behind your back
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -305,9 +306,8 @@ At the purple and brown belt level, this technique punishes opponents who have d
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -318,33 +318,9 @@ At the purple and brown belt level, this technique punishes opponents who have d
 | Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. The Kimura-to-Americana redirect must be controlled, not snapped. In drilling, apply 10-20% pressure maximum.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on opponent or mat (minimum 2 taps)
-- Physical foot tap on mat or opponent
-- Any distress vocalization or unusual sound
-- Slapping mat with free hand repeatedly
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release the figure-four grip on the wrist
-3. Carefully lower the arm back to neutral position (do not drop suddenly)
-4. Release control of the elbow and allow opponent to move freely
-5. Check with partner verbally to ensure they are okay
-6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply sudden rotational force during the Kimura-to-Americana redirect
-- Never use competition speed or full pressure in training
-- Always allow clear access to tap with free hand
-- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
-- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
-- Avoid repeated submissions on the same shoulder in a single training session
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

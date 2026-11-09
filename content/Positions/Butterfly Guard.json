@@ -495,36 +495,36 @@
       {
         "transition": "Butterfly Sweep",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 20
+          "gi": 20,
+          "nogi": 19
         }
       },
       {
         "transition": "Elevator Sweep",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 10
         }
       },
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 13
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Butterfly Guard to X-Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Guillotine Choke from Butterfly Guard",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 7
+          "nogi": 6
         }
       },
       {
@@ -532,13 +532,44 @@
         "attempt_probability": {
           "gi": 8,
           "nogi": 10
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 44,
+          "nogi": 44
+        },
+        "outcomes": [
+          {
+            "to": "Single Leg X-Guard/Bottom",
+            "probability": {
+              "gi": 44,
+              "nogi": 44
+            },
+            "result": "success"
+          },
+          {
+            "to": "Butterfly Guard/Bottom",
+            "probability": {
+              "gi": 35,
+              "nogi": 35
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 21,
+              "nogi": 21
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Butterfly Guard to Butterfly Hook Control",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
@@ -589,6 +620,60 @@
           "gi": 2,
           "nogi": 2
         }
+      },
+      {
+        "transition": "Technical Stand Up to Single Leg",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 6
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 53,
+          "nogi": 54
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 32,
+              "nogi": 32
+            },
+            "result": "success"
+          },
+          {
+            "to": "Butterfly Guard/Bottom",
+            "probability": {
+              "gi": 29,
+              "nogi": 29
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Front Headlock/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Turtle/Bottom",
+            "probability": {
+              "gi": 6,
+              "nogi": 6
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Single Leg X-Guard/Bottom",
+            "probability": {
+              "gi": 22,
+              "nogi": 22
+            },
+            "result": "success"
+          }
+        ]
       }
     ],
     "decision_tree": [

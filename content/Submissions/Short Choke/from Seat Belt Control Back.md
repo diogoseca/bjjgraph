@@ -36,6 +36,27 @@ description: "Master the Short Choke from Seat Belt Control Back position in BJJ
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Seat Belt Control Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross Collar Choke from the Back",
+      "description": "Short Choke from Seat Belt Control Back film study: Cross Collar Choke from the Back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/poQVy53KJ_A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/poQVy53KJ_A?start=33",
+      "url": "https://www.youtube.com/watch?v=poQVy53KJ_A",
+      "duration": "PT249S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +82,6 @@ description: "Master the Short Choke from Seat Belt Control Back position in BJJ
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Short Choke from Seat Belt Control Back targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Short Choke/from Seat Belt Control Back/Attacker|Play as Attacker]]
@@ -83,6 +101,24 @@ From the Seat Belt Control Back position, the diagonal over-under grip provides 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Seat Belt Control Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=poQVy53KJ_A&start=33)
+
+<p class="clip-credit"><strong>Cross Collar Choke from the Back</strong> · 4:09 · <a href="https://www.youtube.com/watch?v=poQVy53KJ_A&t=33s" rel="noopener">Watch on YouTube from 0:33</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -131,6 +167,8 @@ From the Seat Belt Control Back position, the diagonal over-under grip provides 
 
 - Treat the Short Choke as part of a two-threat system with the RNC, where defending one exposes the other and forces the opponent into a losing dilemma
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -202,6 +240,8 @@ From the Seat Belt Control Back position, the diagonal over-under grip provides 
 - The attacker's under-arm tightens or changes grip configuration to compensate for the released over-arm, signaling that the seat belt is being deliberately broken for a collar attack
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -257,9 +297,8 @@ From the Seat Belt Control Back position, the diagonal over-under grip provides 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -268,30 +307,9 @@ From the Seat Belt Control Back position, the diagonal over-under grip provides 
 | Neck strain from rotational pressure | Low | 2-5 days with rest |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress signal including body going limp
 
 
-**Release Protocol**:
-1. Immediately release lapel grip and remove all pressure from neck
-2. Remove your weight from opponent's torso to allow breathing
-3. Check partner's consciousness and breathing status
-4. If partner is unconscious, elevate legs and monitor airway
-5. Never apply the choke again in the same training session if unconsciousness occurred
-
-
-**Training Restrictions**:
-- Never apply sudden jerking motions with the lapel
-- Never continue pressure after tap signal
-- Never practice on partners with neck injuries or medical conditions
-- Always ensure partner can tap with at least one hand
-- Never use competition speed during initial learning phases
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

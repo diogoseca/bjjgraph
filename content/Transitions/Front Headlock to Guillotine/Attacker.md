@@ -180,6 +180,16 @@ description: "How to execute Front Headlock to Guillotine in BJJ. Attacking pers
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Coach Brandon teaches the guillotine from front headlock",
+      "description": "Front Headlock to Guillotine (Attacker) film study: Coach Brandon teaches the guillotine from front headlock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1WxshgULs-s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1WxshgULs-s",
+      "url": "https://www.youtube.com/watch?v=1WxshgULs-s",
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Guillotine From Front Headlock - Technique Of The Month #7",
       "description": "Front Headlock to Guillotine (Attacker) film study: Guillotine From Front Headlock - Technique Of The Month #7.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GgXRLKAm9pY/hqdefault.jpg",
@@ -214,6 +224,14 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 
 <p class="section-subtitle">Watch Front Headlock to Guillotine (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1WxshgULs-s)
+
+<p class="clip-credit"><strong>Coach Brandon teaches the guillotine from front headlock</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=1WxshgULs-s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -379,14 +397,6 @@ When practicing the Front Headlock to Guillotine transition, both partners must 
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: The Marcelotine</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

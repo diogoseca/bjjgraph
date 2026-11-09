@@ -10,8 +10,6 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from Backside 50-50 targets the Knee (MCL, LCL, ACL, meniscus). Risk: MCL tear from medial rotational force transmitted through the heel to the knee joint. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -188,6 +186,26 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "K Guard to Backside 50/50 Heel Hook",
+      "description": "Heel Hook from Backside 50-50 (Attacker) film study: K Guard to Backside 50/50 Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1DiA3n7-zfs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1DiA3n7-zfs?start=42",
+      "url": "https://www.youtube.com/watch?v=1DiA3n7-zfs",
+      "duration": "PT161S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back Side 50/50 Heel Hook Submission (No Gi BJJ)",
+      "description": "Heel Hook from Backside 50-50 (Attacker) film study: Back Side 50/50 Heel Hook Submission (No Gi BJJ).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VPDBOfyIE1w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VPDBOfyIE1w",
+      "url": "https://www.youtube.com/watch?v=VPDBOfyIE1w",
+      "duration": "PT226S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "50/50 Heelhook Finishing Details",
       "description": "Heel Hook from Backside 50-50 (Attacker) film study: 50/50 Heelhook Finishing Details.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fB3FYb-Jx_0/hqdefault.jpg",
@@ -219,6 +237,22 @@ Attacking the heel hook from Backside 50-50 bottom demands a fundamentally diffe
 
 <p class="section-subtitle">Watch Heel Hook from Backside 50-50 (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1DiA3n7-zfs&start=42)
+
+<p class="clip-credit"><strong>K Guard to Backside 50/50 Heel Hook</strong> · 2:41 · <a href="https://www.youtube.com/watch?v=1DiA3n7-zfs&t=42s" rel="noopener">Watch on YouTube from 0:42</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VPDBOfyIE1w)
+
+<p class="clip-credit"><strong>Back Side 50/50 Heel Hook Submission (No Gi BJJ)</strong> · 3:46 · <a href="https://www.youtube.com/watch?v=VPDBOfyIE1w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -264,6 +298,8 @@ Attacking the heel hook from Backside 50-50 bottom demands a fundamentally diffe
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Heel Hook/from Backside 50-50#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

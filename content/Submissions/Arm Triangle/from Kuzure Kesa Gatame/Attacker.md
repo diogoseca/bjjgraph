@@ -10,8 +10,6 @@ description: "Step-by-step guide to finishing the arm triangle from Kuzure Kesa 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Triangle from Kuzure Kesa Gatame targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from blood choke. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -59,7 +57,7 @@ description: "Step-by-step guide to finishing the arm triangle from Kuzure Kesa 
     {
       "@type": "HowToStep",
       "name": "Apply progressive chest compression",
-      "text": "Expand your chest while pulling your elbows together toward your centerline. The opponent's own trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure over 3-5 seconds rather than explosive squeezing. Wait for the tap signal or feel the resistance fade completely before releasing.",
+      "text": "Expand your chest while pulling your elbows together toward your centerline. The opponent's own trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure over 3-5 seconds rather than explosive squeezing. Wait for the tap signal before releasing.",
       "position": 7
     }
   ],
@@ -178,6 +176,27 @@ description: "Step-by-step guide to finishing the arm triangle from Kuzure Kesa 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Kuzure Kesa Gatame (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm Triangle from Scarf Hold Position",
+      "description": "Arm Triangle from Kuzure Kesa Gatame (Attacker) film study: Arm Triangle from Scarf Hold Position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xz9-FEBFFIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xz9-FEBFFIo",
+      "url": "https://www.youtube.com/watch?v=xz9-FEBFFIo",
+      "duration": "PT32S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +210,24 @@ Attacking the arm triangle from Kuzure Kesa Gatame leverages the position's buil
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Kuzure Kesa Gatame (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xz9-FEBFFIo)
+
+<p class="clip-credit"><strong>Arm Triangle from Scarf Hold Position</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=xz9-FEBFFIo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -226,6 +263,8 @@ Attacking the arm triangle from Kuzure Kesa Gatame leverages the position's buil
 
 <section id="execution-steps" class="content-section">
 
+> Release immediately upon tap. [[Submissions/Arm Triangle/from Kuzure Kesa Gatame#safety-considerations|Injury risks ↓]]
+
 ## Execution Steps
 
 <p class="section-subtitle">How do you execute Arm Triangle from Kuzure Kesa Gatame step by step?</p>
@@ -236,7 +275,7 @@ Attacking the arm triangle from Kuzure Kesa Gatame leverages the position's buil
 4. **Lock the figure-four or gable grip**: Connect your hands by gripping your own bicep with the choking hand while your free hand cups behind the opponent's head, forming a figure-four lock. Alternatively, use a tight gable grip for maximum compression. The configuration must lock the opponent's head and trapped arm together as a single unit with zero slack in the system. (Timing: 1 second)
 5. **Walk to the perpendicular finishing angle**: Disengage your hips from the scarf hold position and walk them around toward the opponent's trapped-arm side until you reach a perpendicular angle relative to their body. Your chest should be directly over their face. Each step around tightens the head-and-arm configuration by progressively removing available space between your bodies. (Timing: 2-4 seconds)
 6. **Drop hip and seal the position**: Drop your hip closest to the trapped arm to the mat, sprawling your weight onto the opponent's upper body. Lower your head to the mat on the far side of their head to create a complete seal that prevents the opponent from turning their head away from the choke or creating any breathing space. (Timing: 1-2 seconds)
-7. **Apply progressive chest compression**: Expand your chest while pulling your elbows together toward your centerline. The opponent's own trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure over 3-5 seconds rather than explosive squeezing. Wait for the tap signal or feel the resistance fade completely before releasing. (Timing: 3-8 seconds to finish)
+7. **Apply progressive chest compression**: Expand your chest while pulling your elbows together toward your centerline. The opponent's own trapped shoulder compresses one carotid artery while your forearm blade compresses the other. Apply slow, steady, progressive pressure over 3-5 seconds rather than explosive squeezing. Wait for the tap signal before releasing. (Timing: 3-8 seconds to finish)
 
 
 </section>

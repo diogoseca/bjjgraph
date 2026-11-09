@@ -150,6 +150,27 @@ description: "How to defend against the Rolling Kimura in BJJ. Recognition cues,
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Kimura (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Escape a Rolling Kimura",
+      "description": "Rolling Kimura (Defender) film study: How to Escape a Rolling Kimura.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/17KEJsZFggA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/17KEJsZFggA",
+      "url": "https://www.youtube.com/watch?v=17KEJsZFggA",
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the Rolling Kimura means stopping a bottom player who has already secu
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Kimura (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=17KEJsZFggA)
+
+<p class="clip-credit"><strong>How to Escape a Rolling Kimura</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=17KEJsZFggA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

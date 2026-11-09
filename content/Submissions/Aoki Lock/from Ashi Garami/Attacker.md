@@ -10,8 +10,6 @@ description: "Aoki Lock from Ashi Garami (attacker): Identify the turned-out foo
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Aoki Lock from Ashi Garami targets the Foot and ankle, with rotational stress transmitted to the knee. Risk: Ankle ligament or joint injury from rotational loading. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -304,6 +302,8 @@ A failed Aoki entry does not justify changing targets while the foot remains twi
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Aoki Lock/from Ashi Garami#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

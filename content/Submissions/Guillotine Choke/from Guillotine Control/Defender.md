@@ -10,8 +10,6 @@ description: "Complete defensive guide against the guillotine choke from guillot
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Guillotine Choke from Guillotine Control targets the Carotid arteries and windpipe. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -162,6 +160,16 @@ description: "Complete defensive guide against the guillotine choke from guillot
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Gordon Ryan\u0027s Guillotine Escape Secrets - 4 Pointing From Bottom Side Head\u2026",
+      "description": "Guillotine Choke from Guillotine Control (Defender) film study: Gordon Ryan\u0027s Guillotine Escape Secrets - 4 Pointing From Bottom Side Head\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bkTJD6RIyKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bkTJD6RIyKY",
+      "url": "https://www.youtube.com/watch?v=bkTJD6RIyKY",
+      "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Guillotine Choke Defense",
       "description": "Guillotine Choke from Guillotine Control (Defender) film study: Guillotine Choke Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OQYU2BXdEEw/hqdefault.jpg",
@@ -195,6 +203,14 @@ The most critical defensive principle is that prevention is vastly easier than e
 
 <p class="section-subtitle">Watch Guillotine Choke from Guillotine Control (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bkTJD6RIyKY)
+
+<p class="clip-credit"><strong>Gordon Ryan&#39;s Guillotine Escape Secrets - 4 Pointing From Bottom Side Head…</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=bkTJD6RIyKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -241,6 +257,8 @@ The most critical defensive principle is that prevention is vastly easier than e
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Guillotine Choke/from Guillotine Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

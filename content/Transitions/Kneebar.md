@@ -36,6 +36,27 @@ description: "Master the Kneebar from Backside 50-50 in BJJ. Complete technique 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee bar defense fundamental #bjj #jiujitsu #brazilianjiujitsu #kneebar",
+      "description": "Kneebar film study: Knee bar defense fundamental #bjj #jiujitsu #brazilianjiujitsu #kneebar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dnvVsPGHGtY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dnvVsPGHGtY",
+      "url": "https://www.youtube.com/watch?v=dnvVsPGHGtY",
+      "duration": "PT39S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The kneebar from Backside 50-50 integrates seamlessly into modern leg lock syste
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dnvVsPGHGtY)
+
+<p class="clip-credit"><strong>Knee bar defense fundamental #bjj #jiujitsu #brazilianjiujitsu #kneebar</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=dnvVsPGHGtY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -264,20 +303,6 @@ The kneebar from Backside 50-50 functions as a critical component of modern leg 
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Leglocks — Enter The System</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related submission reference; inclusion here does not establish course coverage.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Straight Ankle Locks and Kneebars</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related submission reference; inclusion here does not establish course coverage.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles: 50/50 Leg Locks and Defense</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related submission reference for leg-entanglement study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related submission on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/B-Team-Dilemma-System" data-cta="related-system-card" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Triangle and Leg-Lock Combinations</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related submission on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Craig-Jones-Triangle-to-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-triangle-to-leg-lock-system" data-system-name="Craig Jones Triangle to Leg Lock System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Triangle-to-Leg Transitions</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related submission reference; inclusion here does not establish course coverage.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Craig-Jones-Kneebar-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-kneebar-system" data-system-name="Craig Jones Kneebar System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Kneebars</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related submission on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

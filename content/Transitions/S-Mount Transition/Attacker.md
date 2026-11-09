@@ -79,7 +79,7 @@ description: "How to execute S-Mount Transition in BJJ. Attacking perspective wi
       "name": "What position do you start S-Mount Transition from and why is it ideal?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from Modified Mount Top, where you have one leg posted to the side for stability and your other knee crosses the opponent's torso. The posted leg configuration naturally facilitates the S-Mount entry by already having one leg partially positioned for the transition, and the across-body knee provides the rotational axis for the hip perpendicularity shift."
+        "text": "This technique starts from Modified Mount Top, where you have one leg posted to the side for stability and your other knee crosses the opponent's torso. The posted leg configuration naturally facilitates the S-Mount entry by already having one leg partially positioned for the transition, and the across-body knee provides the rotational axis for the hip perpendicularity shift. It can also start from Mount/Top."
       }
     },
     {

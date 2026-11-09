@@ -10,8 +10,6 @@ description: "Defend the arm triangle from high mount. Recognize the setup, prev
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Arm Triangle from High Mount targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -162,6 +160,26 @@ description: "Defend the arm triangle from high mount. Recognize the setup, prev
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Two variations of arm triangle (kata gatame) escapes",
+      "description": "Arm Triangle from High Mount (Defender) film study: Two variations of arm triangle (kata gatame) escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CmXniIPFMhU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CmXniIPFMhU",
+      "url": "https://www.youtube.com/watch?v=CmXniIPFMhU",
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Arm Triangle Choke Defenses - From Prevention To Late Defense",
+      "description": "Arm Triangle from High Mount (Defender) film study: 3 Arm Triangle Choke Defenses - From Prevention To Late Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fx6qjR6a_xE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fx6qjR6a_xE?start=26",
+      "url": "https://www.youtube.com/watch?v=Fx6qjR6a_xE",
+      "duration": "PT273S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Gracie Barra Jupiter- Head and arm choke escape",
       "description": "Arm Triangle from High Mount (Defender) film study: Gracie Barra Jupiter- Head and arm choke escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/N7SC93aEOIA/hqdefault.jpg",
@@ -193,6 +211,22 @@ Defending the arm triangle from high mount requires recognizing the setup before
 
 <p class="section-subtitle">Watch Arm Triangle from High Mount (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CmXniIPFMhU)
+
+<p class="clip-credit"><strong>Two variations of arm triangle (kata gatame) escapes</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=CmXniIPFMhU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fx6qjR6a_xE&start=26)
+
+<p class="clip-credit"><strong>3 Arm Triangle Choke Defenses - From Prevention To Late Defense</strong> · 4:33 · <a href="https://www.youtube.com/watch?v=Fx6qjR6a_xE&t=26s" rel="noopener">Watch on YouTube from 0:26</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -237,6 +271,8 @@ Defending the arm triangle from high mount requires recognizing the setup before
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Arm Triangle/from High Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -176,6 +176,27 @@ description: "Execute the armbar setup from double sleeve guard with precision. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar Setup from Double Sleeve (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Feet in hips / Double Sleeve Grip Arm Bar / Omoplata + Concepts",
+      "description": "Armbar Setup from Double Sleeve (Attacker) film study: Feet in hips / Double Sleeve Grip Arm Bar / Omoplata + Concepts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/COwK_QQ9RVs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/COwK_QQ9RVs",
+      "url": "https://www.youtube.com/watch?v=COwK_QQ9RVs",
+      "duration": "PT506S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The attacker in the armbar setup from double sleeve guard operates from the bott
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar Setup from Double Sleeve (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=COwK_QQ9RVs)
+
+<p class="clip-credit"><strong>Feet in hips / Double Sleeve Grip Arm Bar / Omoplata + Concepts</strong> · 8:26 · <a href="https://www.youtube.com/watch?v=COwK_QQ9RVs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

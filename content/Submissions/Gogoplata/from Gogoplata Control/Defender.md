@@ -10,8 +10,6 @@ description: "How to defend against Gogoplata in BJJ. Recognition, escape paths,
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Gogoplata from Gogoplata Control targets the Trachea and carotid arteries. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -241,6 +239,8 @@ The most effective gogoplata defense operates on a timeline: early recognition w
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Gogoplata/from Gogoplata Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

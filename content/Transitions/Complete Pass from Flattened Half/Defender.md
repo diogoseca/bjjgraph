@@ -38,8 +38,8 @@ description: "Defend the guard pass from flattened half guard. Recognition cues,
     },
     {
       "@type": "HowToStep",
-      "name": "Thread underneath for deep half guard entry during the opponent's extraction movement",
-      "text": "When the opponent's hips rise above your hip line during the extraction attempt, creating enough space to dive underneath If successful: You achieve deep half guard which completely reverses the passing dynamic and gives you strong sweeping options",
+      "name": "Work back underneath the opponent during their extraction movement to recover active half guard",
+      "text": "When the opponent's hips rise above your hip line during the extraction attempt, creating enough space to work back underneath If successful: You recover active half guard, which resets the passing sequence while the opponent stays on top",
       "position": 4
     }
   ],
@@ -142,6 +142,37 @@ description: "Defend the guard pass from flattened half guard. Recognition cues,
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Complete Pass from Flattened Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 Ways to Recover from Smashed Half Guard when Your Opponent Has the Crossface\u2026",
+      "description": "Complete Pass from Flattened Half (Defender) film study: 3 Ways to Recover from Smashed Half Guard when Your Opponent Has the Crossface\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-S230cttiTk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-S230cttiTk",
+      "url": "https://www.youtube.com/watch?v=-S230cttiTk",
+      "duration": "PT690S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "BJJ BASICS: Tips To Recover When Flattened In Half Guard by Jason Scully",
+      "description": "Complete Pass from Flattened Half (Defender) film study: BJJ BASICS: Tips To Recover When Flattened In Half Guard by Jason Scully.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k74zyEn_Z_0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k74zyEn_Z_0",
+      "url": "https://www.youtube.com/watch?v=k74zyEn_Z_0",
+      "duration": "PT396S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +185,32 @@ As the defender against the Complete Pass from Flattened Half Guard, you are in 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Complete Pass from Flattened Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-S230cttiTk)
+
+<p class="clip-credit"><strong>3 Ways to Recover from Smashed Half Guard when Your Opponent Has the Crossface…</strong> · 11:30 · <a href="https://www.youtube.com/watch?v=-S230cttiTk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k74zyEn_Z_0)
+
+<p class="clip-credit"><strong>BJJ BASICS: Tips To Recover When Flattened In Half Guard by Jason Scully</strong> · 6:36 · <a href="https://www.youtube.com/watch?v=k74zyEn_Z_0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -214,12 +271,12 @@ As the defender against the Complete Pass from Flattened Half Guard, you are in 
 - **If successful**: Frame creates space for full knee shield recovery or return to active half guard with offensive capabilities restored
 - **Risk**: Extending the arm for the frame can expose it to Kimura or Americana attacks if the extraction succeeds despite your defense
 
-### 4. Thread underneath for deep half guard entry during the opponent's extraction movement
+### 4. Work back underneath the opponent during their extraction movement to recover active half guard
 
-- **When to use**: When the opponent's hips rise above your hip line during the extraction attempt, creating enough space to dive underneath
+- **When to use**: When the opponent's hips rise above your hip line during the extraction attempt, creating enough space to work back underneath
 - **Targets**: [[Positions/Half Guard]]
-- **If successful**: You achieve deep half guard which completely reverses the passing dynamic and gives you strong sweeping options
-- **Risk**: If the opponent recognizes the entry and sprawls, you may end up in a worse flattened position with less defensive structure
+- **If successful**: You recover active half guard, which resets the passing sequence while the opponent stays on top
+- **Risk**: If the opponent recognizes the recovery and sprawls, you may end up in a worse flattened position with less defensive structure
 
 
 

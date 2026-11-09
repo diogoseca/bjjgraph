@@ -465,10 +465,23 @@ The fields' presence and counts are machine-checkable; medical accuracy and safe
 not. Do not invent recovery guarantees to fill `recovery_time`. Explain uncertainty and avoid
 presenting the field as individualized medical advice.
 
-Keep warnings prominent and before execution instructions. Current submission templates place an
-early safety callout after the summary and metadata, with full safety guidance later; “first visible
-content” is not an accurate description of their output. Inspect the rendered page when changing
-safety copy or templates.
+**What a page shows (owner, U112 a, 2026-11-09):** "Show only the injury risks, and a disclaimer with a
+sensible warning to go slow and watch out for the tap at the end of the article". The three Submission
+templates render the guide as "Injury risks" (U113 b: the heading names it once, with no label over the table),
+the injury-risk table and one closing line, `Go slow. Apply this
+gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.`
+Application speed, tap signals, release protocol and training restrictions stay required in the source,
+and reach no page, no markdown export and no app dossier. The md-only `Cross Collar Choke/Finish` page
+has no source and was cut by hand the same way.
+
+Keep warnings prominent and before execution instructions. Submission templates carry one line
+directly above the steps: `Release immediately upon tap. Injury risks ↓` above Execution Steps on the
+attacker and hub pages, `Tap early and often. Injury risks ↓` above Defensive Options on the defender
+page and above Escape Paths on the hub. `Injury risks ↓` links to that section (`#safety-considerations`), the
+last teaching section in the app, before Related. Family pages are the owner's exception (S3 a,
+2026-11-06): they carry the guide and no line, though 59 of the 62 hold finishing prose in a closed
+Mechanical variations block. “First visible content” is not an accurate description of their output.
+Inspect the rendered page when changing safety copy or templates.
 
 Teach early tapping, recognition of verbal and physical stop signals, and immediate release when
 a partner taps or calls stop. Stop on suspected injury or impaired responsiveness rather than
@@ -511,6 +524,16 @@ half's role, without being a teaser or sales pitch. Leave the front absent when 
 shorter runtime alone never establishes relevance. Curated clips carry `duration` in seconds.
 On position hub clips, `half: "top"`, `"bottom"`, or `"both"` records the approved role mapping.
 Omit `half` when the role is unknown; do not tag clips already inside a role block.
+
+A submission's defender block may also carry `escape_clips`: one row per escape card,
+`{ "escape": "<exact card label>", "clips": [...] }`. The label is what
+`scripts/submission_choices.py` compiles from `defensive_options[].action`, or a
+`defense_overrides` row, so copy it from the card. The clip must show that named escape, not
+general defence of the submission; set `start` to the second it begins. An escape with no row
+keeps the empty media area. A row that names no card fails validation, and the content bots may
+neither touch these rows nor reword an action that has one: `restore_curated_clips.py` runs after
+every direct bot edit, before validation. Rows sit beside `clips`, not inside
+`defensive_options`, because that row is hashed into each defense's MDP identity.
 
 ```bash
 # AI-assisted planning/curation of real search results, verification, and application
@@ -568,7 +591,8 @@ the effective list deduplicates by video ID, with the half-local front, array or
 taking priority over a hub duplicate (including a differently trimmed copy). The build reports the
 number of unassigned hub clips and suppressed choice fronts. Choice cards consume only the first
 clip with `front: true` in their own perspective; they never promote a later clip, sort by duration,
-borrow the opposite role, or use a destination position's video for an escape. Missing approval
+borrow the opposite role, or use a destination position's video for an escape. An escape card uses
+only its own `escape_clips` row, never the submission's general defender reel. Missing approval
 produces a quiet inert media area. The current node reel preserves curated array order. Generated Markdown also
 renders film-study embeds and video structured data. Prefer focused technique demonstrations;
 longer concept instruction can be appropriate for Principles. Duration preferences are editorial

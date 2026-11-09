@@ -10,8 +10,6 @@ description: "Complete attacking guide for finishing the rear naked choke from m
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Mounted Crucifix targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -198,6 +196,16 @@ description: "Complete attacking guide for finishing the rear naked choke from m
     {
       "@type": "VideoObject",
       "position": 2,
+      "name": "No Risk Guillotine and Top Crucifix Rear Naked Choke - JiuJitsu Front Headlock\u2026",
+      "description": "Rear Naked Choke from Mounted Crucifix (Attacker) film study: No Risk Guillotine and Top Crucifix Rear Naked Choke - JiuJitsu Front Headlock\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rda9-d1WqP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rda9-d1WqP8?start=74",
+      "url": "https://www.youtube.com/watch?v=Rda9-d1WqP8",
+      "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Crucifix to rear naked choke",
       "description": "Rear Naked Choke from Mounted Crucifix (Attacker) film study: Crucifix to rear naked choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3t6j9HT6Mr8/hqdefault.jpg",
@@ -207,7 +215,7 @@ description: "Complete attacking guide for finishing the rear naked choke from m
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Crucifix Smother to Rear Choke",
       "description": "Rear Naked Choke from Mounted Crucifix (Attacker) film study: Crucifix Smother to Rear Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pyZ65EYfirU/hqdefault.jpg",
@@ -245,6 +253,14 @@ Attacking the rear naked choke from mounted crucifix combines the positional dom
 ![](https://www.youtube.com/watch?v=amVyOvT2yJs)
 
 <p class="clip-credit"><strong>Rear Naked Choke from Crucifix Position</strong> · 0:14 · <a href="https://www.youtube.com/watch?v=amVyOvT2yJs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rda9-d1WqP8&start=74)
+
+<p class="clip-credit"><strong>No Risk Guillotine and Top Crucifix Rear Naked Choke - JiuJitsu Front Headlock…</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=Rda9-d1WqP8&t=74s" rel="noopener">Watch on YouTube from 1:14</a></p>
 
 </div>
 
@@ -301,6 +317,8 @@ Attacking the rear naked choke from mounted crucifix combines the positional dom
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Mounted Crucifix#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

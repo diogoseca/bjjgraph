@@ -10,8 +10,6 @@ description: "How to execute Mir Lock in BJJ. Attacking perspective with setup, 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Mir Lock from Side Control targets the Shoulder joint (glenohumeral joint). Risk: Shoulder dislocation (anterior or posterior). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -178,6 +176,37 @@ description: "How to execute Mir Lock in BJJ. Attacking perspective with setup, 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mir Lock from Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "MMA Demo | Mir Lock From Side Control | Laura Sanko",
+      "description": "Mir Lock from Side Control (Attacker) film study: MMA Demo | Mir Lock From Side Control | Laura Sanko.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-Zq8zXCtIlg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-Zq8zXCtIlg?start=32",
+      "url": "https://www.youtube.com/watch?v=-Zq8zXCtIlg",
+      "duration": "PT179S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marcus Douithitt- arm bundle Mir lock from side control",
+      "description": "Mir Lock from Side Control (Attacker) film study: Marcus Douithitt- arm bundle Mir lock from side control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QeHT5SvHad8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QeHT5SvHad8",
+      "url": "https://www.youtube.com/watch?v=QeHT5SvHad8",
+      "duration": "PT235S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +220,32 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mir Lock from Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-Zq8zXCtIlg&start=32)
+
+<p class="clip-credit"><strong>MMA Demo | Mir Lock From Side Control | Laura Sanko</strong> · 2:59 · <a href="https://www.youtube.com/watch?v=-Zq8zXCtIlg&t=32s" rel="noopener">Watch on YouTube from 0:32</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QeHT5SvHad8)
+
+<p class="clip-credit"><strong>Marcus Douithitt- arm bundle Mir lock from side control</strong> · 3:55 · <a href="https://www.youtube.com/watch?v=QeHT5SvHad8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -228,6 +283,8 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Mir Lock/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

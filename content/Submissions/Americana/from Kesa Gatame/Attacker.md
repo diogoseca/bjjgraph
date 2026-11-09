@@ -10,8 +10,6 @@ description: "Complete attacking guide for finishing the Americana shoulder lock
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Kesa Gatame targets the Shoulder joint (glenohumeral). Risk: Rotator cuff tear from forced lateral rotation beyond shoulder's natural range of motion. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -288,6 +286,8 @@ Executing the Americana from Kesa Gatame requires precise sequencing of grip tra
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Americana/from Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

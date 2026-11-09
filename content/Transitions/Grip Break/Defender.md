@@ -150,6 +150,27 @@ description: "How to defend against Grip Break in BJJ. Recognition cues, defensi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grip Break (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bjj grip break counter",
+      "description": "Grip Break (Defender) film study: Bjj grip break counter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EQPsSm8W4as/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EQPsSm8W4as?start=26",
+      "url": "https://www.youtube.com/watch?v=EQPsSm8W4as",
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -164,6 +185,24 @@ Effective grip retention is not simply squeezing harder. It requires understandi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grip Break (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EQPsSm8W4as&start=26)
+
+<p class="clip-credit"><strong>Bjj grip break counter</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=EQPsSm8W4as&t=26s" rel="noopener">Watch on YouTube from 0:26</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -221,7 +260,7 @@ Effective grip retention is not simply squeezing harder. It requires understandi
 ### 3. Advance position aggressively while opponent commits both hands to the grip break, using their hand occupation as a passing or pressure opportunity
 
 - **When to use**: When opponent removes both hands from framing to break your grip, creating a window where they cannot defend positional advancement
-- **Targets**: [[Positions/Open Guard]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You achieve positional advancement or a pass while opponent is focused on grip fighting rather than guard retention
 - **Risk**: If advancement fails, you may lose both the grip and your base, ending up in a worse position than before
 
@@ -246,7 +285,7 @@ Effective grip retention is not simply squeezing harder. It requires understandi
 
 Maintain at least one controlling grip throughout the exchange by reinforcing the threatened grip early, switching to alternative grips when breaks are inevitable, or re-establishing grips faster than your opponent can capitalize on the momentary freedom. Keep multiple connection points active so losing any single grip does not collapse your control structure.
 
-### → [[Positions/Open Guard]]
+### → [[Positions/Side Control]]
 
 Capitalize on the opponent committing both hands to grip breaking by advancing position aggressively through their weakened frames. When they remove both hands from guard retention to strip your grip, drive forward with shoulder pressure, cut an angle for a knee slice or leg drag, or establish head control while their hands are occupied. The grip break attempt becomes your passing opportunity.
 

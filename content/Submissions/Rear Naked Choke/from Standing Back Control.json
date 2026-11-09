@@ -709,6 +709,38 @@
         "vertical": false,
         "front": true
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Two-on-one grip strip on the choking arm",
+        "clips": [
+          {
+            "id": "kXvNLzTMVPk",
+            "title": "Rear Naked Choke to Escape",
+            "channel": "Applied Pressure MMA",
+            "duration": 46,
+            "vertical": false,
+            "start": 2,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      },
+      {
+        "escape": "Hip turn and face the attacker",
+        "clips": [
+          {
+            "id": "rlJlNeccbEw",
+            "title": "Standing Rear Naked Choke Defense",
+            "channel": "SAMA Self Defense",
+            "duration": 20,
+            "vertical": false,
+            "start": 2,
+            "front": true,
+            "verified": "2026-11-04"
+          }
+        ]
+      }
     ]
   }
 }

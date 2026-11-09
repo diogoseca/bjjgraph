@@ -207,14 +207,16 @@ for (const path of [KNEE, RNC]) {
         safety: safety ? norm(safety.textContent) : null,
         shownSafety: norm(document.querySelector('[data-reader-article="hub"] [data-source-id="safety-considerations"]')?.textContent || ''),
         rows: safety?.querySelectorAll('li,td').length || 0,
-        sourceGuide: [...defender.querySelectorAll('article p,article li')].map(n => norm(n.textContent)).filter(s => s.length > 40), reader }
+        // U65 note (owner, 2026-10-29): only duplicate game video credits are retired; safety and guide prose stay.
+        sourceGuide: [...defender.querySelectorAll('article p,article li')].filter(n => !n.closest('#film-study,#official-preview')).map(n => norm(n.textContent)).filter(s => s.length > 40), reader }
     }, path)
     expect(proof.attackerOnly.length, 'the built hub has actual attacker-only rules to exclude').toBeGreaterThan(2)
     expect(proof.leaked, 'no attacker steps, principles or counters in defender reading').toEqual([])
     for (const prose of proof.sourceGuide) expect(proof.reader).toContain(prose)
     if (path === RNC) {
-      expect(proof.rows, 'the full authored safety guide is nonempty').toBeGreaterThan(20)
-      expect(proof.shownSafety, 'every risk, speed, tap, release and restriction survives').toBe(proof.safety)
+      // U112 a (owner, 2026-11-09): the page's guide is its injury table and one closing line, and the reader shows it whole.
+      expect(proof.rows, 'the page\'s guide carries its injury table').toBeGreaterThan(8)
+      expect(proof.shownSafety, 'every injury risk and the closing line survive').toBe(proof.safety)
     }
     expect(await activity(page)).toMatchObject({ intent: true, paused: true, played: false, remaining: null, beats: [] })
   })
@@ -246,9 +248,9 @@ for (const width of [1366, 390]) {
       // D-338: the heading's words are its title (the toggle beside it is now the one ✕).
       const list = section.querySelector('ul')!, card = section.closest('.ng-section-card')!, head = card.querySelector('.ng-section-title')!, prose = list.querySelector('li')!
       const sub = document.querySelector('[data-reader-article="guide"] [data-source-id="defensive-options"] h3')!
-      const peers = [...card.parentElement!.children].map(e => e.getBoundingClientRect())
-      const nextTop = Math.min(...peers.filter(r => r.top > card.getBoundingClientRect().top + 1).map(r => r.top))
-      return { gap: nextTop - Math.max(...peers.filter(r => r.top < nextTop).map(r => r.bottom)),
+      // Owner (2026-11-06): two columns have no rows, so the gap is between neighbours down this tile's own column.
+      const box = card.getBoundingClientRect(), lane = [...card.parentElement!.children].map(e => e.getBoundingClientRect()).filter(r => r.height && Math.abs(r.left - box.left) < 2).sort((x, y) => x.top - y.top)
+      return { gap: lane[1].top - lane[0].bottom,
         item: px(list, 'rowGap'), unit: parseFloat(getComputedStyle(section.closest('[data-reader]')!).getPropertyValue('--reader-unit')),
         head: px(head, 'fontSize'), sub: px(sub, 'fontSize'), prose: px(prose, 'fontSize'),
         uppercase: getComputedStyle(head).textTransform, headLum: lum(head),
@@ -288,7 +290,7 @@ test('@curated a late response cannot repaint the opposite seat in the same read
   await page.locator('.ng-explorer-search input').fill('Mount')
   await page.waitForTimeout(450) // the pane's CSS slide must settle before a coordinate click
   await j.clickByMouse('div:has(> [data-list-surface="explore"][data-list-add="Positions/Mount"]) > button:first-child')
-  await expect(page.locator(READY)).toHaveAttribute('data-reader-path', '/Positions/Mount')
+  await expect(page.locator(READY)).toHaveAttribute('data-reader-path', '/Positions/Mount/Top')
   release()
   await expect.poll(() => settled).toBe(true)
   await page.waitForTimeout(100)
@@ -306,11 +308,13 @@ test('@curated a late response cannot repaint the opposite seat in the same read
       current: !!card && !!document.querySelector('[data-reader]')?.contains(card) && e.getAttribute('href') === '#' + card.id,
       heading: card?.querySelector('.ng-section-title')?.textContent }
   }))
+  // The explicit Top article omits the hub's comparison and opposite-role summaries.
+  // Keep the exact current-role TOC and every link's semantic target, after the held Bottom response.
+  // U104, U108 a (owner, 2026-11-09, as built): the index reads as the screen does, Moves, the question, the video, the article.
   const expected = [
-    ['videos', 'Videos'], ['hand', 'Moves'], ['card', 'Questions'], ['overview', 'Overview'], ['principles', 'Essential principles'],
-    ['prerequisites', 'Prerequisites'], ['options', 'Decisions from top'], ['mistakes', 'Common mistakes'],
-    ['role-comparison', 'Role comparison'], ['bottom-summary', 'Bottom overview'], ['top-summary', 'Top overview'],
-    ['training', 'Training'], ['statistics', 'Statistics'], ['related', 'Related'],
+    ['hand', 'Moves'], ['card', 'Questions'], ['videos', 'Videos'], ['aka', 'Also known as'], ['confused', 'Often confused with'], ['definition', 'Position definition'],
+    ['principles', 'Essential principles'], ['options', 'Decisions from top'], ['mistakes', 'Common mistakes'],
+    ['statistics', 'Statistics'], ['overview', 'How it works'], ['prerequisites', 'Prerequisites'], ['training', 'Training'], ['related', 'Related'],
   ]
   expect(toc, 'every current Top label points to its own nonempty semantic section').toEqual(
     expected.map(([type, label]) => ({ type, label, heading: label, current: true })))
@@ -336,7 +340,8 @@ for (const path of [RNC, '/Submissions/Triangle-Choke/from-Triangle-Control']) {
         await j.openQuestion() // U47 d: Answer for Points shows the answers; the answer starts play
         await j.advance(20000)
         expect(await activity(page), 'Answer for Points leaves a dormant defender dormant, with no clock').toMatchObject({ intent: true, paused: true, played: false, remaining: null, beats: [] })
-        await j.clickByMouse(`[data-panic-mc-opt="${correct}"]`, 'answer the dormant defender question')
+        // The answer is a draw (land-mc-shuffle is not rigged here), and under U104 the third can sit below the scrollport.
+        await j.pressAnswer(`[data-panic-mc-opt="${correct}"]`, 'answer the dormant defender question')
       }
       expect(await activity(page)).toMatchObject({ intent: false, paused: false })
       expect((await activity(page)).beats.filter((b: string) => b === 'defend_start')).toHaveLength(0)

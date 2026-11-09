@@ -10,8 +10,6 @@ description: "Step-by-step guide to finishing the Americana shoulder lock from U
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Ushiro Kesa Gatame targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking with the Americana from Ushiro Kesa Gatame leverages the natural arm i
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Americana/from Ushiro Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

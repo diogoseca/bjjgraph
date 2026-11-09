@@ -287,7 +287,7 @@ Prevent the armbar transition entirely by retracting your elbow early and turnin
 
 ### → [[Positions/Closed Guard]]
 
-Execute the hitchhiker escape during the transition by controlling the attacker's leg across your face, rotating your trapped arm thumb-first, and turning your body away from the attack. As you extract your arm, follow through by establishing closed guard. This is the best-case scenario when the transition has progressed past the initial pivot.
+Execute the hitchhiker escape during the transition by controlling the attacker's leg across your face, rotating your trapped arm thumb-first, and turning your body away from the attack. As you extract your arm, follow through by coming up on top inside the attacker's closed guard. This is the best-case scenario when the transition has progressed past the initial pivot.
 
 
 

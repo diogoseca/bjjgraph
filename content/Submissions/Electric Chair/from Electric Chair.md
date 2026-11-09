@@ -52,6 +52,16 @@ description: "Master the Electric Chair in BJJ. Complete lockdown submission gui
       "embedUrl": "https://www.youtube.com/embed/Mpy_9vGEbeE",
       "url": "https://www.youtube.com/watch?v=Mpy_9vGEbeE",
       "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown Electric Chair Sweep and Submission",
+      "description": "Electric Chair from Electric Chair film study: Lockdown Electric Chair Sweep and Submission.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9ruPuY0XBOI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9ruPuY0XBOI",
+      "url": "https://www.youtube.com/watch?v=9ruPuY0XBOI",
+      "duration": "PT181S"
     }
   ]
 }
@@ -81,9 +91,6 @@ description: "Master the Electric Chair in BJJ. Complete lockdown submission gui
 <span class="meta-chip">Targets Hip joint and groin</span>
 <span class="meta-chip">42% success</span>
 </div>
-
-> [!danger] Safety
-> Electric Chair from Electric Chair targets the Hip joint and groin. Primary risk: Groin strain or adductor muscle tear from forced hyperabduction of the hip. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -117,6 +124,14 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 ![](https://www.youtube.com/watch?v=Mpy_9vGEbeE)
 
 <p class="clip-credit"><strong>Eddie Bravo Technique: How to do the Electric Chair submission</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=Mpy_9vGEbeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9ruPuY0XBOI)
+
+<p class="clip-credit"><strong>Lockdown Electric Chair Sweep and Submission</strong> · 3:01 · <a href="https://www.youtube.com/watch?v=9ruPuY0XBOI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -172,6 +187,8 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 
 - Chain the submission threat with Old School sweep setups to prevent single-dimensional defense
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -249,6 +266,8 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 - Sensation of your legs being progressively split apart with diminishing ability to bring them back together
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -311,9 +330,8 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -323,28 +341,9 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 | Lower back strain from asymmetric hip loading during the split | Medium | 1-4 weeks with proper rehabilitation |
 
 
-**Application Speed**: VERY SLOW and progressive. The hip joint and groin have highly variable flexibility between individuals. Apply splitting pressure gradually over several seconds, never spike or jerk the submission. The opponent may not feel danger until they are already at risk of injury.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, your body, or mat
-- Physical foot tap with free leg on mat or partner
-- Any unusual vocalization, screaming, or grimacing indicating distress
 
 
-**Release Protocol**:
-1. Release ALL splitting pressure immediately upon any tap signal
-2. Slowly bring opponent's legs back together rather than dropping them suddenly
-3. Maintain lockdown control briefly during release to prevent opponent from jerking their own leg
-4. If in doubt about tap, release immediately - position can be re-established safely
-
-
-**Training Restrictions**:
-- Apply submission at no more than 50% speed and pressure during drilling until both partners understand the mechanics
-- Never apply full splitting force in training - stop well before the opponent's flexibility limit
-- Beginners should only practice the positional setup without applying finishing pressure until they develop sensitivity to their partner's flexibility
-- Avoid this submission against partners with known hip or groin injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

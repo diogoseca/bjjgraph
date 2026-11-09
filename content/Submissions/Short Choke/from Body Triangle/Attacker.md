@@ -10,8 +10,6 @@ description: "Complete attacking guide for the short choke from body triangle. S
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Short Choke from Body Triangle targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -172,6 +170,27 @@ description: "Complete attacking guide for the short choke from body triangle. S
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Body Triangle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Demian Maia - Lapel Choke from Body Triangle - Jits Magazine",
+      "description": "Short Choke from Body Triangle (Attacker) film study: Demian Maia - Lapel Choke from Body Triangle - Jits Magazine.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aH75QD_8n_M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aH75QD_8n_M?start=29",
+      "url": "https://www.youtube.com/watch?v=aH75QD_8n_M",
+      "duration": "PT157S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -185,6 +204,24 @@ Executing the short choke from body triangle requires patient lapel manipulation
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Body Triangle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aH75QD_8n_M&start=29)
+
+<p class="clip-credit"><strong>Demian Maia - Lapel Choke from Body Triangle - Jits Magazine</strong> · 2:37 · <a href="https://www.youtube.com/watch?v=aH75QD_8n_M&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -219,6 +256,8 @@ Executing the short choke from body triangle requires patient lapel manipulation
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Short Choke/from Body Triangle#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

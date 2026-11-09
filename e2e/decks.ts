@@ -91,6 +91,52 @@ export function deckChunk(key: string): Deck | null {
   return blob.cards ? blob : blob[key] || null
 }
 
+/** One node's dossier, as the app would hydrate it, or null when it has none. */
+export function dossier(key: string): any {
+  try {
+    return JSON.parse(readFileSync(resolve(NEURAL, "content", fnv1a32(key) + ".json"), "utf8"))[key] ?? null
+  } catch {
+    return null
+  }
+}
+
+/**
+ * Every authored defender half of a submission, read from the WIRE, with the video ids its reel
+ * shows. Same test as `_landFilmClips`: `authored`, then `clips`. Sorted by route, so a pick from
+ * it is deterministic. A spec needing "a page with no clip" must choose from here rather than
+ * name one: naming one goes stale the day that page gets its clip (v1.246.0 did exactly that).
+ */
+export function defenderReels(): { route: string; clips: string[] }[] {
+  const graph = JSON.parse(readFileSync(resolve(NEURAL, "graph-data.json"), "utf8"))
+  const reels: { route: string; clips: string[] }[] = []
+  for (const node of graph.nodes) {
+    if (node.ty !== "submissions") continue
+    const half = dossier(node.t)?.perspectives?.defender
+    if (half?.authored) reels.push({ route: "/" + node.id + "/Defender", clips: (half.clips ?? []).map((c: any) => c.id) })
+  }
+  return reels.sort((a, b) => a.route.localeCompare(b.route))
+}
+
+/**
+ * Every position seat whose BUILT article has no Film Study section, as the wire names it ("Reverse Mount Top"), sorted, so
+ * a pick from it is deterministic. A spec needing "a node with no Videos section" must choose from here rather than name
+ * one: v1.251.5 gave Reverse Mount Top its first film and turned camera-continuity's named premise false. The pages read
+ * are the two the reader renders for the seat (the hub `<id>/index.html` as context, `<id>/Top.html` as the guide); the
+ * spec still asserts its own premise in the browser.
+ */
+export function seatsWithoutVideos(): string[] {
+  const graph = JSON.parse(readFileSync(resolve(NEURAL, "graph-data.json"), "utf8"))
+  const out: string[] = []
+  for (const node of graph.nodes) {
+    if (node.ty !== "positions" || !/ Top$/.test(node.t)) continue
+    // The reader renders the hub page as context AND the Top page as the guide, so both must lack the section.
+    let html = ""
+    try { html = ["/index.html", "/Top.html"].map((p) => readFileSync(resolve(NEURAL, "../..", node.id + p), "utf8")).join("") } catch { continue }
+    if (!/id="film-study"/.test(html)) out.push(node.t)
+  }
+  return out.sort((a, b) => a.localeCompare(b))
+}
+
 /** Names of the emitted per-node dossier chunks (content/<fnv1a32(key)>.json). */
 export function contentChunkFiles(): string[] {
   try {

@@ -10,8 +10,6 @@ description: "Armbar from an established triangle entanglement, with attack and 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Armbar from Triangle Control targets the Elbow. Risk: Elbow hyperextension with collateral ligament sprain or tear. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -248,6 +246,8 @@ Armbar from Triangle Control is a distinct submission state: the bottom player r
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Armbar/from Triangle Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

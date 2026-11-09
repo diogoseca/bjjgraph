@@ -10,8 +10,6 @@ description: "Learn to execute the ankle lock from X-Guard with expert technique
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Ankle Lock from X-Guard targets the Ankle. Risk: Ankle ligament sprain or tear (anterior talofibular ligament, calcaneofibular ligament). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -289,6 +287,8 @@ Executing the ankle lock from X-Guard requires transitioning from sweep-based gu
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Ankle Lock/from X-Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -10,8 +10,6 @@ description: "Learn to attack with the heel hook from Inside Sankaku. Step-by-st
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Heel Hook from Inside Sankaku targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -296,6 +294,8 @@ Attacking the heel hook from Inside Sankaku demands systematic positional develo
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Heel Hook/from Inside Sankaku#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

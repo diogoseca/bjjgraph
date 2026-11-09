@@ -10,8 +10,6 @@ description: "How to execute Reverse Armbar in BJJ. Attacking perspective with s
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Reverse Armbar from Mount targets the Elbow joint (hyperextension with reverse rotation). Risk: Elbow hyperextension with lateral stress. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -222,6 +220,8 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Armbar/Reverse Armbar from Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

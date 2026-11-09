@@ -82,9 +82,6 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Flying Kneebar from Standing Position targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Flying Kneebar/from Standing Position/Attacker|Play as Attacker]]
@@ -169,6 +166,8 @@ The Flying Kneebar combines athleticism, timing, and technical precision to catc
 - Progressive pressure application - even in competition, ramp pressure over 2-3 seconds to allow tap response time
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -238,6 +237,8 @@ The Flying Kneebar combines athleticism, timing, and technical precision to catc
 
 - In gi, attacker establishes cross-sleeve grip combined with same-side pant grip at your ankle, then adjusts their stance angle - this grip configuration precedes gi-specific flying kneebar entries
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -314,9 +315,8 @@ The Flying Kneebar combines athleticism, timing, and technical precision to catc
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -328,34 +328,9 @@ The Flying Kneebar combines athleticism, timing, and technical precision to catc
 | Landing injuries (ankle sprains, hip impact, head trauma from failed entries) | Medium | Variable: 2-8 weeks depending on severity |
 
 
-**Application Speed**: EXTREMELY SLOW and controlled - 5-7 seconds minimum in training, NEVER use competition speed during practice
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap (tap partner's body or mat repeatedly)
-- Physical foot tap (tap mat with free foot)
-- Any distress signal or unusual sounds
-- Loss of resistance or sudden relaxation (treat as emergency tap)
 
 
-**Release Protocol**:
-1. Immediately release hip pressure and stop extending the knee
-2. Release leg grip and allow partner's leg to return to neutral position
-3. Roll away from the leg to create space
-4. Check with partner verbally before continuing training
-5. If uncertain about injury, stop training and assess knee stability
-
-
-**Training Restrictions**:
-- NEVER practice at full speed or with live resistance until brown belt level minimum
-- NEVER spike or jerk the submission - slow, progressive pressure only
-- NEVER practice on training partners with existing knee injuries
-- Always crash pad training for initial learning phases (weeks 1-8)
-- Beginners and intermediates should ONLY practice the entry with zero resistance
-- Always allow partner full tap access - never control both arms during finish
-- Require explicit consent before attempting this submission on training partners
-- Competition-banned in many rulesets (IBJJF white/blue belt) - know your tournament rules
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

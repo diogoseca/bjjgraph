@@ -150,6 +150,27 @@ description: "Learn to defend and counter the Shin-to-Shin to Single Leg X-Guard
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shin-to-Shin to Single Leg X (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Pass Shin-to-Shin Guard and Prevent Single Leg X with World Champion\u2026",
+      "description": "Shin-to-Shin to Single Leg X (Defender) film study: How to Pass Shin-to-Shin Guard and Prevent Single Leg X with World Champion\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zFxZXlC_lTg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zFxZXlC_lTg?start=31",
+      "url": "https://www.youtube.com/watch?v=zFxZXlC_lTg",
+      "duration": "PT239S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the Shin-to-Shin to Single Leg X-Guard entry requires recognizing the 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shin-to-Shin to Single Leg X (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zFxZXlC_lTg&start=31)
+
+<p class="clip-credit"><strong>How to Pass Shin-to-Shin Guard and Prevent Single Leg X with World Champion…</strong> · 3:59 · <a href="https://www.youtube.com/watch?v=zFxZXlC_lTg&t=31s" rel="noopener">Watch on YouTube from 0:31</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

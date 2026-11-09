@@ -413,13 +413,14 @@ test("opening a System from scrolled search results starts at the top", async ({
   const data = catalog();
   data.systems[0].name = "ZZ search target";
   data.systems[0].aliases = ["Shared search"];
-  for (let i = 0; i < 24; i++) data.systems.push({ ...data.systems[2],
+  // 40 fillers (v1.242.0: the drawer's list is taller than the tabbed pane's body, so 24 no longer overflowed it)
+  for (let i = 0; i < 40; i++) data.systems.push({ ...data.systems[2],
     id: `Systems/Fixture-Search-${i}`, key: `Fixture Search ${i}|System`, name: `Search filler ${i}`,
     display_title: `Search filler ${i}`, aliases: ["Shared search"] });
   const j = await bootFixtures(page, journey(page), data);
   await openExplore(page, false);
   await page.locator(".ng-explorer-search input").fill("Shared search");
-  await expect(page.locator("[data-system-row]")).toHaveCount(25);
+  await expect(page.locator("[data-system-row]")).toHaveCount(41);
   const list = page.locator(".ng-learning-list");
   await list.hover();
   await page.mouse.wheel(0, 2000);

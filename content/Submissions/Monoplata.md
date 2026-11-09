@@ -131,9 +131,6 @@ description: "Master the Monoplata submission in BJJ. Complete guide covering se
 <span class="meta-chip">~45% avg</span>
 </div>
 
-> [!danger] Safety
-> Monoplata targets the Shoulder joint and rotator cuff. Primary risk: Shoulder dislocation or subluxation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Monoplata is an advanced shoulder lock submission that combines elements of the omoplata with unique figure-four leg control. Executed primarily from guard positions, particularly the rubber guard and mission control, this technique applies rotational pressure to the shoulder joint through a distinctive leg configuration that traps the opponent's arm while controlling their posture. The monoplata represents a sophisticated evolution of traditional shoulder attacks, offering practitioners a powerful finishing option when conventional submissions are defended. Unlike the traditional omoplata which uses both legs to isolate the arm, the monoplata employs a figure-four leg entanglement that creates exceptional control while maintaining offensive options. This submission has gained prominence in modern no-gi grappling due to its effectiveness against defensive posturing and its integration within systematic guard attack sequences.
@@ -239,9 +236,8 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -251,31 +247,9 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 | Anterior shoulder capsule damage | Medium | 3-6 weeks with proper rehabilitation |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression from initial control to finishing pressure
-
-**Tap Signals**:
-- Verbal tap or verbal distress signal
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat or opponent
-- Any audible distress indication
-- Loss of resistance or sudden limpness
 
 
-**Release Protocol**:
-1. Immediately release the figure-four leg configuration
-2. Remove all rotational pressure from the shoulder
-3. Allow opponent's arm to return to neutral position gradually
-4. Maintain control of opponent's posture while releasing to prevent sudden movements
-5. Check with training partner before resuming
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking motions to the shoulder joint
-- Never use competition speed or intensity in training rolls
-- Always ensure training partner has clear tap access with free hand
-- Never practice on opponents with known shoulder injuries without explicit approval
-- Beginners should not attempt finishing pressure for first 20+ repetitions
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

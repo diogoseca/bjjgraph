@@ -82,9 +82,6 @@ description: "Master the North-South Choke from Kuzure Kesa Gatame with step-by-
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> North-South Choke from Kuzure Kesa Gatame targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/North-South Choke/from Kuzure Kesa Gatame/Attacker|Play as Attacker]]
@@ -171,6 +168,8 @@ Finishing the choke requires precise shoulder placement deep into the pocket bet
 - Control the far arm before applying finishing pressure to eliminate the primary roll escape pathway
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -241,6 +240,8 @@ Finishing the choke requires precise shoulder placement deep into the pocket bet
 - You feel the opponent's body rotating from beside you toward a north-south alignment while maintaining contact
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -300,9 +301,8 @@ Finishing the choke requires precise shoulder placement deep into the pocket bet
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -312,31 +312,9 @@ Finishing the choke requires precise shoulder placement deep into the pocket bet
 | Cervical spine stress from improper release or stacking | CRITICAL | Weeks to months depending on severity |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and tap
-
-**Tap Signals**:
-- Verbal tap or verbal submission
-- Multiple rapid hand taps on opponent's body
-- Multiple rapid foot taps on the mat
-- Any distress signal including body convulsions
-- Loss of resistance or going limp indicates unconsciousness - release immediately
 
 
-**Release Protocol**:
-1. Immediately release arm pressure and remove shoulder compression from the neck
-2. Roll off opponent's head and neck area completely without jerking
-3. Allow opponent to recover in side-lying position with airway clear
-4. Monitor for signs of consciousness and normal breathing before continuing
-5. Never move opponent's neck after release - allow them to reposition naturally
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking pressure to the neck during the choke
-- Always ensure partner has clear tap access with at least one hand free
-- Never hold the choke after partner taps or goes limp
-- Beginners should practice position and grip mechanics only, without applying choking pressure
-- Use progressive resistance drilling before live application
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -10,8 +10,6 @@ description: "Complete attacking guide for finishing the guillotine choke from e
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Guillotine Choke from Guillotine Control targets the Carotid arteries and windpipe. Risk: Trachea damage or crush injury. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -59,7 +57,7 @@ description: "Complete attacking guide for finishing the guillotine choke from e
     {
       "@type": "HowToStep",
       "name": "Maintain and follow through finish",
-      "text": "Hold steady pressure as the choke takes effect. Do not release or readjust once you feel the opponent's resistance diminishing—maintain the exact position and pressure that is working. Monitor for tap signals constantly and be prepared for immediate release. If the opponent attempts last-ditch escapes, follow their movement with your hips while keeping the choking structure locked.",
+      "text": "Hold steady pressure as the choke takes effect. Maintain the exact position and pressure that is working. Monitor for tap signals constantly and be prepared for immediate release. If the opponent attempts last-ditch escapes, follow their movement with your hips while keeping the choking structure locked.",
       "position": 7
     }
   ],
@@ -178,6 +176,27 @@ description: "Complete attacking guide for finishing the guillotine choke from e
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke from Guillotine Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "High Elbow Guillotine from the Front Headlock",
+      "description": "Guillotine Choke from Guillotine Control (Attacker) film study: High Elbow Guillotine from the Front Headlock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l4FWC_kYKas/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l4FWC_kYKas?start=171",
+      "url": "https://www.youtube.com/watch?v=l4FWC_kYKas",
+      "duration": "PT248S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +210,24 @@ Executing the guillotine choke from established guillotine control shifts the ch
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke from Guillotine Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l4FWC_kYKas&start=171)
+
+<p class="clip-credit"><strong>High Elbow Guillotine from the Front Headlock</strong> · 4:08 · <a href="https://www.youtube.com/watch?v=l4FWC_kYKas&t=171s" rel="noopener">Watch on YouTube from 2:51</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -227,6 +264,8 @@ Executing the guillotine choke from established guillotine control shifts the ch
 
 <section id="execution-steps" class="content-section">
 
+> Release immediately upon tap. [[Submissions/Guillotine Choke/from Guillotine Control#safety-considerations|Injury risks ↓]]
+
 ## Execution Steps
 
 <p class="section-subtitle">How do you execute Guillotine Choke from Guillotine Control step by step?</p>
@@ -237,7 +276,7 @@ Executing the guillotine choke from established guillotine control shifts the ch
 4. **Break remaining posture and control direction**: Pull the opponent's head down toward your hip pocket on the choking side while using your shoulder and chest to direct their upper body. From top, sprawl hips forward and drop weight onto their upper back. From bottom, close your guard high on their back and angle your hips toward the choking side to create a finishing wedge. (Timing: 2-3 seconds)
 5. **Apply finishing torque**: Curl your choking wrist upward into the throat while simultaneously pulling your elbow back toward your own hip. This creates a shearing force across the carotid arteries that is distinct from simple squeezing. From top, arch your back slightly while maintaining hip pressure. From bottom, extend your hips away while pulling the head in, creating opposing forces across the neck. (Timing: 2-4 seconds progressive application)
 6. **Angle adjustment for maximum compression**: Rotate your body slightly toward the choking side to optimize the angle of forearm pressure against the neck. This small directional change can transform a defended choke into a finishing one by redirecting compression onto the carotid arteries. The rotation also loads your bodyweight into the choking structure for additional pressure without muscular effort. (Timing: 1-2 seconds)
-7. **Maintain and follow through finish**: Hold steady pressure as the choke takes effect. Do not release or readjust once you feel the opponent's resistance diminishing—maintain the exact position and pressure that is working. Monitor for tap signals constantly and be prepared for immediate release. If the opponent attempts last-ditch escapes, follow their movement with your hips while keeping the choking structure locked. (Timing: 3-8 seconds until tap or unconsciousness)
+7. **Maintain and follow through finish**: Hold steady pressure as the choke takes effect. Maintain the exact position and pressure that is working. Monitor for tap signals constantly and be prepared for immediate release. If the opponent attempts last-ditch escapes, follow their movement with your hips while keeping the choking structure locked. (Timing: 3-8 seconds until tap)
 
 
 </section>

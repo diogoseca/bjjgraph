@@ -36,6 +36,27 @@ description: "Master the Estima Lock finish from Estima Lock control. Complete g
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock from Estima Lock Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Finish the Estima Lock (Get the EASY Tap!)",
+      "description": "Estima Lock from Estima Lock Control film study: How to Finish the Estima Lock (Get the EASY Tap!).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2njD9FdoLtg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2njD9FdoLtg?start=25",
+      "url": "https://www.youtube.com/watch?v=2njD9FdoLtg",
+      "duration": "PT197S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +82,6 @@ description: "Master the Estima Lock finish from Estima Lock control. Complete g
 <span class="meta-chip">27% success</span>
 </div>
 
-> [!danger] Safety
-> Estima Lock from Estima Lock Control targets the Foot and ankle joints (dorsiflexion of foot). Primary risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Estima Lock/from Estima Lock Control/Attacker|Play as Attacker]]
@@ -83,6 +101,24 @@ This position-specific finish demands particular attention to safety due to the 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock from Estima Lock Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2njD9FdoLtg&start=25)
+
+<p class="clip-credit"><strong>How to Finish the Estima Lock (Get the EASY Tap!)</strong> · 3:17 · <a href="https://www.youtube.com/watch?v=2njD9FdoLtg&t=25s" rel="noopener">Watch on YouTube from 0:25</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -131,6 +167,8 @@ This position-specific finish demands particular attention to safety due to the 
 
 - Keep your own base stable by distributing weight through your hips rather than leaning forward over the trapped foot
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -202,6 +240,8 @@ This position-specific finish demands particular attention to safety due to the 
 - Opponent begins controlling or pinning your free leg, indicating they are preparing to initiate the finishing sequence without defensive interference
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -255,9 +295,8 @@ This position-specific finish demands particular attention to safety due to the 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -267,33 +306,9 @@ This position-specific finish demands particular attention to safety due to the 
 | Metatarsal stress or fracture (with extreme force) | CRITICAL | 6-12 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial pressure to maximum force. Allow partner multiple tap opportunities.
-
-**Tap Signals**:
-- Verbal tap (shout 'TAP' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap with free leg
-- Any distress signal or unusual sounds
-- Loss of resistance (unconsciousness risk)
 
 
-**Release Protocol**:
-1. Immediately release hand grip on foot
-2. Remove attacking leg from behind opponent's knee
-3. Allow opponent's foot to return to neutral position naturally
-4. Maintain visual contact to ensure partner is okay
-5. Never jerk or spike the release - controlled withdrawal only
-
-
-**Training Restrictions**:
-- Never apply at competition speed during training
-- Never apply to beginners or those unfamiliar with leg locks
-- Always ensure partner knows the tap signals before drilling
-- Never apply with sudden jerking motions
-- Always allow clear tap access with hands
-- Stop immediately if partner's foot makes unusual sounds
-- Communicate throughout application in drilling
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

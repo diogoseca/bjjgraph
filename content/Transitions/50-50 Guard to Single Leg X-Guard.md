@@ -36,6 +36,27 @@ description: "Master the 50-50 Guard to Single Leg X-Guard transition in BJJ. Co
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Guard to Single Leg X-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "50/50 TO SINGLE LEG X TO LEG DRAG",
+      "description": "50-50 Guard to Single Leg X-Guard film study: 50/50 TO SINGLE LEG X TO LEG DRAG.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZqwsEunEsTU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZqwsEunEsTU?start=50",
+      "url": "https://www.youtube.com/watch?v=ZqwsEunEsTU",
+      "duration": "PT458S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Timing is critical for this transition. The optimal window occurs when opponent 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Guard to Single Leg X-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZqwsEunEsTU&start=50)
+
+<p class="clip-credit"><strong>50/50 TO SINGLE LEG X TO LEG DRAG</strong> · 7:38 · <a href="https://www.youtube.com/watch?v=ZqwsEunEsTU&t=50s" rel="noopener">Watch on YouTube from 0:50</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

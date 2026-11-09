@@ -10,8 +10,6 @@ description: "Defend against the High Elbow Guillotine from Guillotine Control. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: High Elbow Guillotine from Guillotine Control targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -152,6 +150,27 @@ description: "Defend against the High Elbow Guillotine from Guillotine Control. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "High Elbow Guillotine from Guillotine Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the Marcelotine, and why the arm in is preferable (Lachlan Giles)",
+      "description": "High Elbow Guillotine from Guillotine Control (Defender) film study: Defending the Marcelotine, and why the arm in is preferable (Lachlan Giles).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nY6aJK6eS2I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nY6aJK6eS2I?start=53",
+      "url": "https://www.youtube.com/watch?v=nY6aJK6eS2I",
+      "duration": "PT255S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +184,24 @@ Defending the High Elbow Guillotine from Guillotine Control requires recognizing
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch High Elbow Guillotine from Guillotine Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nY6aJK6eS2I&start=53)
+
+<p class="clip-credit"><strong>Defending the Marcelotine, and why the arm in is preferable (Lachlan Giles)</strong> · 4:15 · <a href="https://www.youtube.com/watch?v=nY6aJK6eS2I&t=53s" rel="noopener">Watch on YouTube from 0:53</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -198,6 +235,8 @@ Defending the High Elbow Guillotine from Guillotine Control requires recognizing
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/High Elbow Guillotine/from Guillotine Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

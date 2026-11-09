@@ -10,8 +10,6 @@ description: "Defend against the Peruvian Necktie from front headlock. Recogniti
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Peruvian Necktie from Front Headlock targets the Carotid arteries and trachea. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -154,6 +152,37 @@ description: "Defend against the Peruvian Necktie from front headlock. Recogniti
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Peruvian Necktie from Front Headlock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Peruvian necktie escape",
+      "description": "Peruvian Necktie from Front Headlock (Defender) film study: Peruvian necktie escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yj0xxeLnM5E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yj0xxeLnM5E",
+      "url": "https://www.youtube.com/watch?v=yj0xxeLnM5E",
+      "duration": "PT122S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "PEDRO SAUER | The PERFECT Defense To The Peruvian Necktie",
+      "description": "Peruvian Necktie from Front Headlock (Defender) film study: PEDRO SAUER | The PERFECT Defense To The Peruvian Necktie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WcVrhdaHaro/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WcVrhdaHaro",
+      "url": "https://www.youtube.com/watch?v=WcVrhdaHaro",
+      "duration": "PT140S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -167,6 +196,32 @@ Defending the Peruvian Necktie from front headlock demands early recognition and
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Peruvian Necktie from Front Headlock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yj0xxeLnM5E)
+
+<p class="clip-credit"><strong>Peruvian necktie escape</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=yj0xxeLnM5E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WcVrhdaHaro)
+
+<p class="clip-credit"><strong>PEDRO SAUER | The PERFECT Defense To The Peruvian Necktie</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=WcVrhdaHaro" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -200,6 +255,8 @@ Defending the Peruvian Necktie from front headlock demands early recognition and
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Peruvian Necktie/from Front Headlock#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

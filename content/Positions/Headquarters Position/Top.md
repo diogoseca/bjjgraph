@@ -21,19 +21,19 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
     {
       "@type": "HowToStep",
       "name": "Execute Knee Cut from Headquarters",
-      "text": "From this position, attempt Knee Cut from Headquarters. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Knee Cut from Headquarters. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando from Headquarters",
-      "text": "From this position, attempt Toreando from Headquarters. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Toreando from Headquarters. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag from Headquarters",
-      "text": "From this position, attempt Leg Drag from Headquarters. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag from Headquarters. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
     {
       "@type": "HowToStep",
       "name": "Execute Body Lock Pass",
-      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Headquarters Pass",
-      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -397,18 +397,6 @@ Start from compromised positions where opponent has frames, partial guard recove
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Leglocks — Enter The System</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Bernardo Faria: No-Gi Pressure Passing</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Power Ride: Craig Jones’s Pinning System</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related position: Headquarters Position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">No-Gi Guard-Passing Courses</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Gordon-Ryan-Passing-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-member-count="17"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gordon Ryan: No-Gi Guard Passing</span><span class="system-card__unlocks-badge">17 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

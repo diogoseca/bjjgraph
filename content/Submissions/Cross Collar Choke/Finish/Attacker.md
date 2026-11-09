@@ -53,7 +53,7 @@ description: "How to execute the Cross Collar Choke Finish in BJJ. Attacking per
     {
       "@type": "HowToStep",
       "name": "Complete the choke",
-      "text": "Continue the rotation and elbow pull until you feel opponent tap or go unconscious, maintaining all control points throughout and being prepared to release immediately upon any tap signal",
+      "text": "Continue the rotation and elbow pull until you feel opponent tap, maintaining all control points throughout and being prepared to release immediately upon any tap signal",
       "position": 6
     }
   ],
@@ -228,7 +228,7 @@ Strategically, this finish serves as the primary payoff for invisible collar pos
 3. **Tighten body connection**: Drive your chest firmly into opponent's upper back and sink your hips lower than theirs, creating maximum body-to-body pressure that eliminates escape space and stabilizes finishing position (Timing: 1-2 seconds before initiating rotation)
 4. **Activate hooks**: Drive your heels toward opponent's hips to prevent any forward escape or hip movement that could create space, keeping lower body control active throughout the entire finishing sequence (Timing: Continuous throughout finish)
 5. **Initiate forearm rotation**: Begin rotating your choking forearm toward your own chest while pulling your elbow down toward your hip, folding the gi material against opponent's neck rather than pulling it away from the body (Timing: Gradual onset over 1-2 seconds)
-6. **Complete the choke**: Continue the rotation and elbow pull until you feel opponent tap or go unconscious, maintaining all control points throughout and being prepared to release immediately upon any tap signal (Timing: 3-8 seconds to full effect, release immediately on tap)
+6. **Complete the choke**: Continue the rotation and elbow pull until you feel opponent tap, maintaining all control points throughout and being prepared to release immediately upon any tap signal (Timing: 3-8 seconds to full effect, release immediately on tap)
 
 
 </section>

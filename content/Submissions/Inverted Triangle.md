@@ -120,9 +120,6 @@ description: "Master the Inverted Triangle choke in BJJ. Complete guide covering
 <span class="meta-chip">~60% avg</span>
 </div>
 
-> [!danger] Safety
-> Inverted Triangle targets the Carotid arteries and trachea. Primary risk: Cervical spine compression from improper rotation during setup. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 As a chaining attack born from scrambles and failed-finish situations, the Inverted Triangle rewards practitioners who can read a defender's arm extraction and immediately punish it. The technique traps one of the opponent's arms across their neck while isolating it with the legs in a figure-four configuration, generating exceptional carotid pressure from a body orientation that is inverted relative to a standard triangle. The inverted, perpendicular nature of this technique generates unique leverage mechanics that make it particularly effective against opponents who have strong triangle defense patterns developed for conventional angles. The submission is most commonly entered from positions like turtle defense, failed armbar attempts, or scrambles where traditional triangle setups are unavailable. The mechanical advantage stems from the practitioner's ability to use their entire body weight and hip extension to create compression against the carotid arteries while simultaneously restricting the opponent's ability to posture or turn into the choke. Unlike the standard triangle where you face your opponent, the inverted variation positions you facing away or perpendicular, creating unusual angles that opponents often struggle to defend. This makes it an excellent addition to any guard player's submission arsenal, particularly for those who frequently find themselves in scramble situations or against opponents with excellent triangle awareness.
@@ -218,9 +215,8 @@ As a chaining attack born from scrambles and failed-finish situations, the Inver
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -230,33 +226,9 @@ As a chaining attack born from scrambles and failed-finish situations, the Inver
 | Shoulder dislocation if trapped arm is torqued excessively | High | 6-12 weeks minimum |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression from setup to full pressure
-
-**Tap Signals**:
-- Verbal tap or saying 'tap'
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat or opponent
-- Any unusual sound or distress signal
-- Loss of resistance or going limp
 
 
-**Release Protocol**:
-1. Immediately open the figure-four by releasing your ankle lock first
-2. Remove the leg that is over the back of the neck first
-3. Release the trapped arm carefully without jerking
-4. Create space to allow opponent to turn their head and restore blood flow
-5. Check for consciousness and breathing immediately
-6. Support opponent's neck during release if they are unconscious
-
-
-**Training Restrictions**:
-- Never spike the technique or jerk into position rapidly
-- Never apply competition speed or pressure in training
-- Never continue past light resistance during drilling
-- Always ensure training partner can tap with at least one hand
-- Never attempt this technique on beginners or those unfamiliar with choke safety
-- Absolutely no practice on unconscious or semi-conscious partners
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -92,9 +92,6 @@ description: "Master the calf slicer from 50-50 Guard. Complete guide covering s
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Calf Slicer from 50-50 Guard targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Calf Slicer/from 50-50 Guard/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ The technique carries significant injury risk due to simultaneous compression of
 - Chain between heel hook and calf slicer based on the opponent's knee angle to create an inescapable dilemma
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -257,6 +256,8 @@ The technique carries significant injury risk due to simultaneous compression of
 - You feel increasing inward pull on your foot toward the attacker's chest combined with forward hip pressure from behind your knee
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -314,9 +315,8 @@ The technique carries significant injury risk due to simultaneous compression of
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -326,32 +326,9 @@ The technique carries significant injury risk due to simultaneous compression of
 | Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (encouraged due to leg entanglement limiting hand access)
-- Physical hand tap on partner or mat
-- Physical foot tap if hands are trapped in the entanglement
-- Any distress vocalization or signal
-- Slapping mat with free hand multiple times
 
 
-**Release Protocol**:
-1. Immediately release foot grip upon any tap signal
-2. Remove shin pressure from calf slowly and with control
-3. Unwrap legs carefully without jerking movements
-4. Allow partner to extend leg naturally before fully disengaging
-5. Check partner's mobility and sensation before continuing training
-
-
-**Training Restrictions**:
-- Never apply at competition speed during training
-- Never spike or jerk the compression force
-- Never hold after tap to practice finishing position
-- Always ensure partner has clear access to tap with at least one hand
-- Prohibited below brown belt in most competition rulesets
-- Never practice on partners with previous calf or Achilles injuries without explicit consent
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

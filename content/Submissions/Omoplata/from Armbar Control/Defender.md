@@ -10,8 +10,6 @@ description: "Defend against the omoplata from armbar control in BJJ. Recognitio
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Armbar Control targets the Shoulder joint (rotator cuff, capsule, AC joint). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -267,6 +265,8 @@ Defending the omoplata from armbar control demands early recognition that the at
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Omoplata/from Armbar Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -490,7 +490,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "sLEo5uBwhj0",
+        "title": "HACK 69: Passing Dealing with the Leg hook",
+        "channel": "Carlos Machado",
+        "duration": 150,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "bottom": {
     "name": "Leg Hook Bottom",

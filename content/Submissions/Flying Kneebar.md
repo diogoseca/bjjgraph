@@ -109,9 +109,6 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
 <span class="meta-chip">~40% avg</span>
 </div>
 
-> [!danger] Safety
-> Flying Kneebar targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 As a variant family, the Flying Kneebar collects the dynamic aerial entries to the kneebar, organized here by the position the leap is launched from. This spectacular technique combines athleticism, timing, and technical precision to catch opponents off-guard during standup exchanges or guard pulls. While visually impressive and highly effective when executed properly, it carries significant risk for both practitioners and requires extensive drilling before live application. The submission targets the knee joint through hyperextension, attacking the posterior cruciate ligament (PCL), medial collateral ligament (MCL), and lateral collateral ligament (LCL) simultaneously. Due to the dynamic nature of the entry and the potential for awkward landings, the technique demands exceptional body control and spatial awareness. It is most commonly seen in no-gi competition where grips don't interfere with the rotational mechanics, though gi variations exist using lapel and sleeve grips to control the descent. The Flying Kneebar represents the intersection of takedown artistry and leg lock expertise, requiring practitioners to master both the aerial component and the finishing mechanics to achieve consistent success.
@@ -202,9 +199,8 @@ As a variant family, the Flying Kneebar collects the dynamic aerial entries to t
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -216,34 +212,9 @@ As a variant family, the Flying Kneebar collects the dynamic aerial entries to t
 | Landing injuries (ankle sprains, hip impact, head trauma from failed entries) | Medium | Variable: 2-8 weeks depending on severity |
 
 
-**Application Speed**: EXTREMELY SLOW and controlled - 5-7 seconds minimum in training, NEVER use competition speed during practice
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap (tap partner's body or mat repeatedly)
-- Physical foot tap (tap mat with free foot)
-- Any distress signal or unusual sounds
-- Loss of resistance or sudden relaxation (treat as emergency tap)
 
 
-**Release Protocol**:
-1. Immediately release hip pressure and stop extending the knee
-2. Release leg grip and allow partner's leg to return to neutral position
-3. Roll away from the leg to create space
-4. Check with partner verbally before continuing training
-5. If uncertain about injury, stop training and assess knee stability
-
-
-**Training Restrictions**:
-- NEVER practice at full speed or with live resistance until brown belt level minimum
-- NEVER spike or jerk the submission - slow, progressive pressure only
-- NEVER practice on training partners with existing knee injuries
-- Always crash pad training for initial learning phases (weeks 1-8)
-- Beginners and intermediates should ONLY practice the entry with zero resistance
-- Always allow partner full tap access - never control both arms during finish
-- Require explicit consent before attempting this submission on training partners
-- Competition-banned in many rulesets (IBJJF white/blue belt) - know your tournament rules
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

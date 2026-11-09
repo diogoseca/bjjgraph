@@ -371,7 +371,17 @@
       }
     ],
     "safety_considerations": "Guard recovery from leg entanglement involves managing active submission threats to the knee and ankle joints. Never attempt explosive extraction when the opponent has a secured heel hook grip, as the sudden movement combined with rotational force can cause catastrophic knee ligament damage. If a heel hook or toe hold is locked in during your recovery attempt, address the submission defense first by stripping grips carefully — tap immediately if you cannot strip the grip before pressure is applied. Practice recovery drills at controlled intensity with trusted training partners who understand leg lock safety protocols.",
-    "clips": []
+    "clips": [
+      {
+        "id": "0g_ALDkfU2Q",
+        "title": "ASHI GARAMI ESCAPE - BJJ",
+        "channel": "Brandon Mccaghren",
+        "duration": 106,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Recovery from Leg Entanglement Defender",

@@ -36,6 +36,27 @@ description: "Master the Kimura shoulder lock from Lasso Guard top position. Lea
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Lasso Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "S2 E55 Kimura from Leg Lasso - Coach Natalie\u0027s Brazilian Jiu Jitsu for Dummies",
+      "description": "Kimura from Lasso Guard film study: S2 E55 Kimura from Leg Lasso - Coach Natalie\u0027s Brazilian Jiu Jitsu for Dummies.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1UccW2-_G00/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1UccW2-_G00?start=94",
+      "url": "https://www.youtube.com/watch?v=1UccW2-_G00",
+      "duration": "PT395S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +82,6 @@ description: "Master the Kimura shoulder lock from Lasso Guard top position. Lea
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Lasso Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Lasso Guard/Attacker|Play as Attacker]]
@@ -83,6 +101,24 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Lasso Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1UccW2-_G00&start=94)
+
+<p class="clip-credit"><strong>S2 E55 Kimura from Leg Lasso - Coach Natalie&#39;s Brazilian Jiu Jitsu for Dummies</strong> · 6:35 · <a href="https://www.youtube.com/watch?v=1UccW2-_G00&t=94s" rel="noopener">Watch on YouTube from 1:34</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -131,6 +167,8 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 
 - Rotate the captured arm toward the mat behind the opponent's hip line using your entire body, not just arm strength
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -200,6 +238,8 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 - The top player's posture shifts from an upright guard passing stance to a low, compressed position focused on controlling your arm rather than addressing your legs
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -255,9 +295,8 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -267,31 +306,9 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 | Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position (externally rotate back to starting position)
-3. Release the figure-four grip completely
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

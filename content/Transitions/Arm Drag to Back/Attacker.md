@@ -252,12 +252,12 @@ The Arm Drag to Back from the attacker's perspective is about converting grip co
 
 <p class="section-subtitle">What do you need before attempting Arm Drag to Back?</p>
 
-- Establish butterfly guard position with both hooks active and opponent engaged within dragging range
+- Establish butterfly guard position with both hooks active and opponent engaged within dragging range; from Open Guard or Seated Guard, a close opponent's exposed or reaching arm allows this without butterfly hooks
 - Control opponent's wrist with same-side grip (right hand to their right wrist) with thumb-down C-grip
 - Secure grip on opponent's triceps or lat with opposite hand to create the two-point control frame
 - Opponent must have forward pressure or weight commitment that prevents them from simply pulling away
 - Your hips must be mobile and positioned to execute explosive hip escape away from drag side
-- Feet positioned with active butterfly hooks to provide elevation leverage during the drag
+- Feet positioned with active butterfly hooks to provide elevation leverage during the drag, when you start from butterfly guard
 - Upright seated posture maintained to generate pulling power and facilitate rotation
 
 
@@ -288,7 +288,7 @@ The Arm Drag to Back from the attacker's perspective is about converting grip co
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 58% |
 | Failure | [[Positions/Butterfly Guard]] | 30% |
-| Counter | [[Positions/Butterfly Guard]] | 12% |
+| Counter | [[Positions/Side Control]] | 12% |
 
 
 </section>
@@ -301,7 +301,7 @@ The Arm Drag to Back from the attacker's perspective is about converting grip co
 
 - **Opponent whizzers the dragged arm** (Effectiveness: High) - Your Response: Switch to a duck under, using their whizzer against them by diving under their arm to the opposite side back take. Alternatively, if they whizzer high, use it to elevate them with your butterfly hooks and sweep them. → Leads to [[Positions/Butterfly Guard]]
 - **Opponent sprawls and posts far hand** (Effectiveness: Medium) - Your Response: Follow them to turtle position, maintain control of the dragged arm, and attack with either a clock choke, crucifix transition, or continue working to establish back control from turtle top. → Leads to [[Positions/Butterfly Guard]]
-- **Opponent turns into you aggressively** (Effectiveness: Medium) - Your Response: Use their momentum against them - switch to a triangle setup as they turn into you, or establish closed guard and look for sweeps. Their aggressive turn often leaves their neck exposed for guillotine entries. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent turns into you aggressively** (Effectiveness: Medium) - Your Response: Use their momentum against them before they can pass - switch to a triangle setup as they turn into you, or establish closed guard and look for sweeps. Their aggressive turn often leaves their neck exposed for guillotine entries. If these responses do not stop the turn-in, they finish the pass and you land under side control. → Leads to [[Positions/Side Control]]
 - **Opponent grabs your head during rotation** (Effectiveness: Low) - Your Response: Keep circling and do not stop your motion. Their head control is temporary if you maintain movement. Circle away from their grip while keeping your head tight to their body until you clear behind them. → Leads to [[Positions/Back Control]]
 - **Opponent sits to guard to prevent back take** (Effectiveness: Medium) - Your Response: If they sit, you have still achieved a positional advantage. Establish front headlock control, look for darce or anaconda opportunities, or use the angle to pass their guard from the side. → Leads to [[Positions/Butterfly Guard]]
 
@@ -393,17 +393,6 @@ The arm drag to back is generally a low-risk technique with minimal injury poten
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: The Marcelotine</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Arm Drag to Back: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Arm Drag to Back: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

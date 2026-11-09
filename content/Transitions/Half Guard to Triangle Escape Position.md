@@ -63,11 +63,11 @@ description: "Learn how to recognize and transition into triangle escape positio
 
 **Half Guard to Triangle Escape Position is the defensive transition where a half guard top player caught in a developing triangle establishes posture, base, and arm protection to convert the submission threat into a structured, escapable position.**
 
-Transition to Triangle Escape Position addresses one of the most dangerous moments for a half guard top player: getting caught in a triangle choke during a passing attempt. When the top player leads with their head during knee slice or pressure passes, the bottom player can capture the head and one arm in a triangle configuration. This transition covers the critical defensive sequence of recognizing the triangle threat and immediately establishing a structured escape position rather than panicking or making the situation worse through explosive, uncontrolled reactions.
+Transition to Triangle Escape Position addresses one of the most dangerous moments for a half guard top player: getting caught in a triangle choke during a passing attempt. When the top player leads with their head during knee slice or pressure passes, the bottom player can capture the head and one arm in a triangle configuration. The player on their back has the triangle locked, and you, on top, are the one trapped in it. This transition covers the critical defensive sequence of recognizing the triangle threat and immediately establishing a structured escape position rather than panicking or making the situation worse through explosive, uncontrolled reactions.
 
 The scenario typically unfolds when the top player overcommits to a pass, loses track of one arm's position relative to the bottom player's legs, or fails to maintain adequate posture during passing sequences. The bottom player exploits this by shooting their hips up, closing a triangle lock around the exposed arm and neck. The top player must immediately shift from an offensive passing mindset to a defensive survival framework, establishing posture, protecting the trapped arm, and preventing angle optimization before systematically working to escape.
 
-Success in this transition depends on early recognition and immediate defensive structure establishment. The faster the top player identifies the triangle threat and transitions to a proper escape position, the higher their probability of successfully escaping. Delayed reactions allow the bottom player to lock the triangle, optimize their angle, and begin finishing sequences that become exponentially harder to defend against with each passing second. This transition is fundamentally about converting a crisis moment into a structured defensive problem that can be solved through systematic technique.
+Success in this transition depends on early recognition and immediate defensive structure establishment. The faster the top player identifies the triangle threat and transitions to a proper escape position, the higher their probability of successfully escaping. Delayed reactions allow the bottom player to tighten the triangle, optimize their angle, and begin finishing sequences that become exponentially harder to defend against with each passing second. This transition is fundamentally about converting a crisis moment into a structured defensive problem that can be solved through systematic technique. If the transition fails, you stay trapped in the triangle rather than returning to half guard.
 
 **From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 60%
@@ -83,7 +83,7 @@ Success in this transition depends on early recognition and immediate defensive 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Triangle Escape Position]] | 60% |
-| Failure | [[Positions/Half Guard]] | 25% |
+| Failure | [[Positions/Triangle Control]] | 25% |
 | Counter | [[Positions/Triangle Control]] | 15% |
 
 
@@ -245,7 +245,7 @@ This transition occupies a critical defensive junction in the BJJ positional hie
 
 - [[Positions/Half Guard]] - Starting position from which the triangle threat develops during passing attempts
 
-- [[Positions/Triangle Control]] - Opponent's attacking position that this transition defends against
+- [[Positions/Triangle Control]] - Position you stay trapped in if this transition fails: the player on their back keeps the triangle locked while you stay on top
 
 - [[Submissions/Triangle Choke]] - Submission threat that motivates the urgent need for this defensive transition
 

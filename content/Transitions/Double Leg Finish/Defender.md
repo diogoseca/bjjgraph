@@ -150,6 +150,27 @@ description: "How to defend against Double Leg Finish in BJJ. Recognition cues, 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Leg Finish (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "This KEY Double Leg DEFENCE will change your WRESTLING game FOREVER",
+      "description": "Double Leg Finish (Defender) film study: This KEY Double Leg DEFENCE will change your WRESTLING game FOREVER.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qeVlTtCrOFs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qeVlTtCrOFs?start=27",
+      "url": "https://www.youtube.com/watch?v=qeVlTtCrOFs",
+      "duration": "PT110S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -166,6 +187,24 @@ Advanced defenders develop the ability to counterattack during the finish phase 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Leg Finish (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qeVlTtCrOFs&start=27)
+
+<p class="clip-credit"><strong>This KEY Double Leg DEFENCE will change your WRESTLING game FOREVER</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=qeVlTtCrOFs&t=27s" rel="noopener">Watch on YouTube from 0:27</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

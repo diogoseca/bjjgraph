@@ -36,6 +36,12 @@ const NG_LAND_ANSWER_STEPS = Object.freeze([
 // The option tray's own horizontal inset, both ends (`updateUiShift` writes it; the pane's reserve is
 // added on the left only). The template's inline 24px is the same value for the first paint.
 const NG_TRAY_INSET = 24;
+// U99 b (owner, 2026-11-06, over the first build's "never hiding"): a taller map, 43% at 900px tall, knowing that half of all
+// cards then need a scroll to reach their last answer. The room a live question needs under the map, from the map's bottom to the
+// window's, at the median: on 136 real cards from 16 pages (1440x900, real fonts) the bottom answer lands 486px below the map at
+// the median, 570 at p90 and 589 at worst. The reader ends 20px above the window and an answer keeps 8px above that: 486 + 28.
+// The floor that replaces D-368 on a desktop: every answer of every card can be reached by a real scroll (article-order.spec.ts).
+const NG_LIVE_ANSWER_ROOM = 514;
 // v1.230.0: equal choice score columns are styled in choice-value.css.
 // feedback_owner_rules_reverse_shipped_contracts: v1.220.0's 0.6 ratio retired.
 // The chosen card's lift (`_placeOnTable`): a twelfth of its own height (12px on the 144px card),
@@ -207,6 +213,12 @@ const NG_GHOST_BTN_CSS = "flex:none;pointer-events:auto;cursor:pointer;font-fami
 // tested, not timed" canon). No ease factor: fewer fields, fewer merge cases. A success climbs one
 // rung; any failure resets to rung 0 (1 day).
 const NG_SRS_IVLS = [1, 3, 7, 14, 30, 60, 120];
+// THE DAILY GOAL, in cards (owner U56 e, 2026-10-28: "The goal today is to do 20 flashcards"). A goal,
+// never a cap: reviews and new cards both count, and it is also the day's NEW-card quota — the planner
+// stops dealing new cards once the day's answers reach it, and never stops dealing reviews
+// (NG_PRACTICE_REVIEWS_PER_NEW in gameplan.src.js has the ratio and the reasoning). The `dailyGoal`
+// setting overrides it; Settings' own default repeats the 20.
+const NG_PRACTICE_GOAL = 20;
 // How long a landing question may be "still settling" before readers stop waiting on it. A stalled
 // deck fetch must not make the app look hung; the fetch itself is never cancelled. See v1.104.8.
 const NG_LAND_WARM_CEILING_MS = 8000;
@@ -282,13 +294,18 @@ const NG_RESIDENCY_MAX_HOLD_MS = 2000;
 // (its module hung) is waited for this long, wall clock: its module took ~0.7 s locally on a cold load, and CI
 // runs ~4x slower.
 const NG_READER_FIRST_LAYOUT_MS = 3000;
-// THE PANE'S TABS, IN NAV ORDER — one list, because two readers need it and they need different
-// halves. `setViewMode` needs the SET (it validated against a hand-typed triple of the same three
-// strings) and `_paneTabPageTo` needs the ORDER. The order here is the DOM order in
-// `xdc-template.html`, deliberately and permanently: a pager whose index disagrees with what the
-// eye sees is a pager that moves the wrong way, and nothing would go red. "Last rolls" is display
-// copy for `history` — the view ids never migrated (v1.95.0).
+// THE PANE'S VIEWS — `setViewMode` validates against this set. Since v1.242.0 (owner A5/E1) they are no
+// longer tabs: "explore" is the drawer's home list, and Path (`challenges`) and Last rolls
+// (`history`) open from its rows, the brand leading back ("‹ Path"). The view ids never migrated.
 const NG_PANE_TABS = ["explore", "challenges", "history"];
+// The drawer's glyphs (owner board E1 / T-b): stroked 24px paths, drawn by `ngIcon`.
+const NG_IC = {
+  explore: '<circle cx="12" cy="12" r="8.5"/><path d="M15.4 8.6l-2.1 4.7-4.7 2.1 2.1-4.7z"/>',
+  practice: '<rect x="4.5" y="5" width="15" height="14.5" rx="2.5"/><path d="M4.5 9.5h15M9 3v3.5M15 3v3.5M9.5 14.2l1.8 1.8 3.4-3.6"/>',
+  path: '<path d="M8 4h8v4a4 4 0 01-8 0zM5 5h3v3a3 3 0 01-3-3zM19 5h-3v3a3 3 0 003-3zM12 12v4m-4 4h8"/>',
+};
+function ngIcon(d) { return '<svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' + d + '</svg>'; }
+const NG_DRAWER_LOGO = '<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24"><path d="M6.5 16.5l5-9 6 7" stroke="#9ea3ff" stroke-width="1.8" fill="none" stroke-linecap="round"/><circle cx="6.5" cy="16.5" r="2.6" fill="#9ea3ff"/><path d="M11.5 4.6l2.6 2.9-2.6 2.9-2.6-2.9z" fill="#d5d9ea"/><path d="M17.5 11.9l3 5.1h-6z" fill="#e8c070"/></svg>';
 // Owner, 2026-10-15: always mix both halves in the overview, even with mastery
 // gold off. Opposite technique poles therefore share a purple-grey site colour.
 const NG_MIX_SITES_BY_DEFAULT = true;
@@ -350,7 +367,6 @@ class Component extends DCLogic {
   legendMarkRef = React.createRef();
   legendPointRef = React.createRef();
   legendRef = React.createRef();
-  brandFontRef = React.createRef();
   accountRef = React.createRef();
   acctChipRef = React.createRef();
   acctMenuRef = React.createRef();
@@ -402,10 +418,8 @@ class Component extends DCLogic {
   dossierRef = React.createRef();
   dossierSheetRef = React.createRef();
   viewToggleRef = React.createRef();
-  paneAnchorRef = React.createRef();
-  paneStatsRef = React.createRef();
   ghChipRef = React.createRef();
-  _viewMode = "challenges";
+  _viewMode = "explore";   // the drawer's list: an open that names no view lands home (SIDE-R2 M8)
   nodeCardRef = React.createRef();
   evCenterRef = React.createRef();
   evcKickerRef = React.createRef();
@@ -419,15 +433,13 @@ class Component extends DCLogic {
       optionsRef: this.optionsRef, fxRef: this.fxRef,
       drillRef: this.drillRef, drillTitleRef: this.drillTitleRef, drillHeadRef: this.drillHeadRef, drillListRef: this.drillListRef, drillFootRef: this.drillFootRef, drillCountRef: this.drillCountRef,
       shareCueRef: this.shareCueRef,
-      closeDeck: () => this.setDeckOpen(false),
-      openSettings: () => this.openSettings("flashcards"), openFeedbackTechnique: () => this.openFeedback("technique"), openFeedbackIssue: () => this.openFeedback("issue"),
-      openTerms: () => this.openLegal("terms"), openPrivacy: () => this.openLegal("privacy"),
+      closeDeck: () => this.setDeckOpen(false), drawerHome: () => this.drawerHome(), openSignup: () => this.openAuth("create"),
       statusRef: this.statusRef, legendMarkRef: this.legendMarkRef,
-      accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctMenuRef: this.acctMenuRef, toggleAccountMenu: () => this.toggleAccountMenu(),
+      accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctMenuRef: this.acctMenuRef, acctCtaRef: this.acctCtaRef, toggleAccountMenu: () => this.toggleAccountMenu(),
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
-      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef, paneAnchorRef: this.paneAnchorRef, paneStatsRef: this.paneStatsRef, ghChipRef: this.ghChipRef,
+      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef,
       toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(),
-      legendPointRef: this.legendPointRef, legendRef: this.legendRef, brandFontRef: this.brandFontRef,
+      legendPointRef: this.legendPointRef, legendRef: this.legendRef,
       togglePause: () => this.setPaused(!this.paused), resetRoll: () => this.resetRoll(),
       evCenterRef: this.evCenterRef, evcKickerRef: this.evcKickerRef, evcTextRef: this.evcTextRef, evcSubRef: this.evcSubRef,
     };
@@ -838,7 +850,7 @@ class Component extends DCLogic {
     this.resize();
     this.attachInput();
     // block pan when interacting with overlay controls
-    [this.optionsRef.current, this.drillRef.current, this.shareCueRef.current, this.accountRef.current].forEach((el) => {
+    [this.optionsRef.current, this.drillRef.current, this.shareCueRef.current].forEach((el) => {
       if (el) { el.addEventListener("pointerdown", (e) => e.stopPropagation()); el.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false }); }
     });
     // ── A WHEEL OVER THE HAND SCROLLS THE HAND (v1.123.0) ─────────────────────────────────────
@@ -917,24 +929,28 @@ class Component extends DCLogic {
     }
     // modal: card blocks pan + wheel; backdrop click closes
     if (this.modalCardRef.current) { this.modalCardRef.current.addEventListener("pointerdown", (e) => e.stopPropagation()); this.modalCardRef.current.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false }); }
-    if (this.modalRef.current) this.modalRef.current.addEventListener("pointerdown", (e) => { e.stopPropagation(); this.setPaused(false); this.closeModal(); });
+    if (this.modalRef.current) this.modalRef.current.addEventListener("pointerdown", (e) => { e.stopPropagation(); if (!this.deckShown) this.setPaused(false); this.closeModal(); });
     // Z LADDER (v1.95.1, see helmet.html): the modal is a DELIBERATE screen — portal it out
     // of the wrap (whose stacking context traps any z it wears) onto the root overlay plane,
     // where its 95 outranks every ambient overlay (landcard 5, combo pop 72).
     // Listeners above survive the move; the account menu portals the same way when opened.
     if (this.modalRef.current && this.__ngRoot && this.modalRef.current.parentElement !== this.__ngRoot) this.__ngRoot.appendChild(this.modalRef.current);
     const logoEl = this.wrapRef.current.querySelector(".ng-logo");
-    if (logoEl) logoEl.addEventListener("pointerdown", (e) => e.stopPropagation());
+    if (logoEl) {
+      logoEl.addEventListener("pointerdown", (e) => e.stopPropagation());
+      logoEl.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false });
+    }
     // keyboard: "/" or Cmd/Ctrl+K focuses search in the explorer
     this._onKey = (e) => {
       const t = e.target, typing = t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
+      if (this._filmTheater) { if (e.key === "Escape") { e.preventDefault(); this.collapseClip(this._filmTheater.card); } return; }
       if (this._choiceWatch) { if (e.key === "Escape") { e.preventDefault(); this._closeChoiceWatch(); } return; }
       if (e.key !== "Escape" && this.modalRef.current?.style.display === "flex") return;
       if (e.key !== "Escape" && this._readKey(e)) return;
       if (((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing)) {
         e.preventDefault();
         this.openPane("explore");
-        setTimeout(() => { try { const inp = this.explorerSearchRef.current; if (inp) inp.focus(); } catch (err) {} }, 80);
+        this.explorerSearchRef.current?.focus();
       } else if (e.key === "Escape") {
         // Esc walks the Z LADDER top-down: deliberate screens first (modal 95, menu 90),
         // then temporary gameplay screens, then the pane above the landing reading column.
@@ -1099,7 +1115,6 @@ class Component extends DCLogic {
     const drill = this.drillRef.current;
     if (drill) {
       let sx = 0, sy = 0, st = 0, tracking = false, hscroll = false, moved = 0, movedAt = 0;
-      let wAcc = 0, wLast = 0, wLock = false;
       // A gesture that BEGINS inside a horizontal scroller belongs to that scroller, not to the
       // pager. Written AHEAD of one rather than in response to one, and the distinction is worth
       // keeping honest: the app's horizontal-scroller idiom is `.ng-cliprow` (`filmStudyHTML`),
@@ -1132,17 +1147,27 @@ class Component extends DCLogic {
         const t = e.changedTouches[0]; const dx = t.clientX - sx, dy = t.clientY - sy;
         moved = Math.max(Math.abs(dx), Math.abs(dy)); movedAt = Date.now();
         if (Date.now() - st > 700) return;
+        if (this._sessionInline() && e.target.closest?.("[data-mini-deck]")) {
+          if (Math.abs(dx) >= 40 && Math.abs(dx) > Math.abs(dy)) {
+            const mini = this._focusedMini(); if (mini) (dx < 0 ? mini.next() : mini.prev());
+          }
+          return;
+        }
         if (this.isDrillOpen()) {
           if (Math.abs(dx) < 40 && Math.abs(dy) < 40) return;
           if (Math.abs(dx) > Math.abs(dy)) { if (dx < 0) this.drillNext(); else this.drillPrev(); }
           else { if (dy > 0) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); } else { if (this.revealed) this.drillGrade(false); else this.drillReveal(); } }
           return;
         }
-        // tabs mode: HORIZONTAL-DOMINANT ONLY. The pane's body is a tall scroller and its
-        // vertical axis is not ours to take — the landing card's rule (v1.130.0), same numbers.
-        if (hscroll) return;
-        if (Math.abs(dx) < 40 || Math.abs(dx) <= Math.abs(dy)) return;
-        this._paneTabPageTo(this._paneGestureDir(dx, drill));
+        // THE DRAWER CLOSES THE WAY IT CAME (v1.242.0): the tab pager went with the tabs (owner A5/E1:
+        // one list), so a horizontal-dominant swipe toward the left edge closes the drawer, as a
+        // phone's own drawers do. The vertical axis stays the scroller's — the landing card's rule.
+        // A STUDY SURFACE KEEPS THE GESTURE (SIDE-R2 S1): mid-Practice, an inline deck or a cold study,
+        // the swipe that closed the drawer threw the session away at the next open — the retired
+        // pager's own guard (`_paneStudyActive`), carried onto the gesture that replaced it.
+        if (hscroll || this._paneStudyActive()) return;
+        if (dx > -40 || Math.abs(dx) <= Math.abs(dy)) return;
+        this.setDeckOpen(false);
       }, { passive: true });
       // A SWIPE IS NOT A TAP. The pane is built almost entirely OUT of buttons — lesson rows,
       // belt folds, list rows, the tab bar itself — so without this the click the browser
@@ -1160,38 +1185,6 @@ class Component extends DCLogic {
         if (moved > 16 && Date.now() - movedAt < 700) { e.stopPropagation(); e.preventDefault(); }
         moved = 0;
       }, true);
-      // Trackpad "scroll left or right" — the same pager, the same accumulate-and-cool numbers as
-      // the landing card's wheel handler. deltaX-dominant only, so a vertical wheel keeps
-      // scrolling the pane. NB a wheel's deltaX is already in CONTENT space (positive = content
-      // moves left = forward), the opposite sign convention to a finger's dx — hence the flip.
-      drill.addEventListener("wheel", (e) => {
-        // no study check here: `_paneTabPageTo` owns that rule and refuses on its own. It was
-        // written out a second time and MEASURED redundant (the double mutant in
-        // pane-tab-swipe.spec.ts's header) — one rule, one place.
-        if (Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return;
-        if (inHScroller(e.target)) return;
-        const now = Date.now();
-        // ONE FLICK IS ONE TAB (v1.151.1). A LATCH, not a cooldown — v1.147.0 shipped
-        // `now - wCool >= 350` and it rate-limits a stream without ever ENDING a gesture: a
-        // trackpad's inertia keeps deltas arriving for ~1s after the fingers lift, `wAcc` goes on
-        // filling the whole time the cooldown runs, and the instant it lapses the SAME physical
-        // flick pages again. Measured on the built bundle: one flick off `history` emitted two
-        // `pane_tab_paged` beats and landed on `explore` — the owner's "I'm passing through the
-        // middle tab but never landing on it". The clamp in `_paneTabPageTo` was never at fault;
-        // it clamped correctly on each of those steps.
-        // The stream itself is the gesture, so the gesture ends where the stream goes IDLE — the
-        // same 300ms gap the accumulator already resets on, one rule for both. A deliberate
-        // second flick clears the latch by arriving after that gap; a momentum tail never does.
-        if (now - wLast > 300) { wAcc = 0; wLock = false; }
-        wLast = now; // BEFORE the latch check: idle is measured from the last event of the flick,
-        if (wLock) return; // tail included, or the tail's own silence would unlatch mid-gesture
-        wAcc += e.deltaX;
-        if (Math.abs(wAcc) >= 60) {
-          wLock = true;
-          this._paneTabPageTo(this._paneGestureDir(-wAcc, drill));
-          wAcc = 0;
-        }
-      }, { passive: true });
       // A PAYLOAD MUST NOT REBUILD THE BUTTON UNDER A MOUSE PRESS (v1.198.2). systems.json,
       // concepts.json and the alias index land whenever the network delivers them, and each one
       // rebuilds the whole Explore body — every control in it is destroyed and made again. A mouse
@@ -1317,9 +1310,16 @@ class Component extends DCLogic {
     try {
       this._onNeuralPopstate = () => {
         if (!this._progressCurrent()) return;
+        this._writeUrl();
         if (history.state?.ngReading || this._readerIntent) { this._readArticle(location.pathname + location.hash, true, false); return; }
         const hit = this._nodeAndRoleForPath(location.pathname);
-        if (hit.idx >= 0) this.rollFromPosition(hit.idx, true, hit.role);
+        if (hit.idx >= 0) {
+          // Restore the entry, including a hub URL, without pushing a role URL
+          // over it. Quartz is concurrently fetching this same history entry.
+          this._urlRestoring = true;
+          try { this.rollFromPosition(hit.idx, true, hit.role); }
+          finally { this._urlRestoring = false; }
+        }
         // ...and Back onto a concept or system page re-opens that page, the same way arriving on
         // it does. Without this the address bar said "Principles/Frames" and the pane showed
         // whatever it was showing before.
@@ -2408,6 +2408,8 @@ class Component extends DCLogic {
     close.style.cssText = "position:absolute;top:0;right:0;z-index:7;width:44px;height:44px;background:rgba(8,10,16,.85);border:0;border-radius:8px;color:#eef1f6;cursor:pointer;";
     close.onclick = e => { e.stopPropagation(); this.collapseClip(card); launch?.focus({ preventScroll: true }); };
     card.appendChild(close);
+    const theater = card.closest("[data-land-film]:not([data-reference-film])");
+    if (theater) this._openFilmTheater(card, clip, ph, close, launch);
     // An outside activation of a section control is a pause/move, never a close.
     // This listener only closes a non-current reference clip; current media keeps
     // its identity until its own Close or a real node/role teardown.
@@ -2415,8 +2417,10 @@ class Component extends DCLogic {
       card._outside = e => { if (live() && !card.contains(e.target)) this.collapseClip(card); };
       document.addEventListener("pointerdown", card._outside, true);
     }
-    const fail = () => {
+    // §6.6: the fallback says it fired. `e` is the player's onError; no `e` means the script itself failed.
+    const fail = e => {
       if (!live()) return;
+      this.fx("video_load_failed", { id: clip.id, code: e?.data ?? "script" });
       const link = document.createElement("a"); link.textContent = "Open video on YouTube ↗";
       link.href = "https://www.youtube.com/watch?v=" + clip.id + (clip.start ? "&t=" + clip.start + "s" : "");
       link.target = "_blank"; link.rel = "noopener noreferrer";
@@ -2428,17 +2432,17 @@ class Component extends DCLogic {
       if (!YT?.Player) { fail(); return; }
       const player = new YT.Player(vhost, {
         width: "100%", height: "100%", videoId: clip.id,
-        playerVars: { autoplay: 0, controls: 1, start: clip.start || 0, end: clip.end || undefined, rel: 0, playsinline: 1 },
+        playerVars: { autoplay: theater ? 1 : 0, controls: 1, start: clip.start || 0, end: clip.end || undefined, rel: 0, playsinline: 1 },
         events: {
           onReady: e => {
             if (!live()) return;
             card._playerReady = true;
             const iframe = e.target.getIframe?.();
-            if (iframe) { iframe.title = clip.title || "Technique video"; iframe.setAttribute("allow", "encrypted-media; picture-in-picture; fullscreen"); }
+            if (iframe) { iframe.title = clip.title || "Technique video"; iframe.setAttribute("allow", "autoplay; encrypted-media; picture-in-picture; fullscreen"); }
             if (card._mediaPaused || card.closest("[hidden],[inert]")) e.target.pauseVideo();
             // A fallback move discards the old handle. Only an explicit Resume
             // may start its replacement, after this fresh player's ready event.
-            else if (resume) e.target.playVideo();
+            else if (resume || theater) e.target.playVideo();
           },
           onStateChange: e => {
             if (!live()) return;
@@ -2457,11 +2461,40 @@ class Component extends DCLogic {
     });
     this._dockLandFilm();
   }
+  // Portal only the player rectangle. Its card stays in the reader's measured flow;
+  // the iframe is created in its final home, so opening never reloads a live player.
+  _openFilmTheater(card, clip, host, close, source) {
+    const from = card.getBoundingClientRect(), dialog = document.createElement("dialog");
+    dialog.className = "ng-video-theater";
+    dialog.setAttribute("aria-label", clip.title || "Technique video");
+    dialog.style.setProperty("--film-ratio", clip.vertical ? 9 / 16 : 16 / 9);
+    host.style.background = "#000 url(\"" + source.querySelector("img").src + "\") center/cover";
+    dialog.append(close, host);
+    (this.__ngRoot || document.body).appendChild(dialog);
+    this._filmTheater = { dialog, card, source };
+    this.holdChallengeReward?.(); // after the line above: the hold's own dismiss must not re-show it
+    this._cancelGraphInput?.(); this._readStop();
+    dialog.oncancel = e => { e.preventDefault(); this.collapseClip(card); };
+    dialog.onclick = e => { if (e.target === dialog) this.collapseClip(card); };
+    dialog.showModal(); close.focus({ preventScroll: true });
+    const to = dialog.getBoundingClientRect();
+    if (!this._reducedMotion()) dialog.animate([
+      { transform: `translate(${from.x + from.width / 2 - to.x - to.width / 2}px,${from.y + from.height / 2 - to.y - to.height / 2}px) scale(${from.width / to.width},${from.height / to.height})` },
+      { transform: "none" },
+    ], { duration: 360, easing: "cubic-bezier(.2,.7,.2,1)" });
+  }
   collapseClip(card) {
     if (!card) return;
     card._mediaGeneration = (card._mediaGeneration || 0) + 1; card._playerReady = false;
     card.querySelector("[data-film-resume]")?.remove();
     const launch = card.querySelector("[data-film-play]"); if (launch) launch.hidden = false;
+    if (this._filmTheater?.card === card) {
+      const { dialog, source } = this._filmTheater; this._filmTheater = null;
+      dialog.getAnimations().forEach(a => a.cancel()); dialog.close(); dialog.remove();
+      if (source.isConnected) source.focus({ preventScroll: true });
+      // D-326's release, the same microtask as clearExecution's: the held notice gets its full time now.
+      if (this.showNextChallengeReward) queueMicrotask(() => this._challengeRewardActive || this.showNextChallengeReward());
+    }
     if (card._loop) { clearInterval(card._loop); card._loop = null; }
     if (card._player) { try { card._player.destroy(); } catch (e) {} card._player = null; }
     const ph = card.querySelector(".ngPlayerHost"); if (ph) ph.remove();
@@ -2484,7 +2517,12 @@ class Component extends DCLogic {
       const prev = window.onYouTubeIframeAPIReady;
       window.onYouTubeIframeAPIReady = () => { if (prev) { try { prev(); } catch (e) {} } resolve(window.YT); };
       if (!document.getElementById("yt-iframe-api")) {
-        const s = document.createElement("script"); s.id = "yt-iframe-api"; s.src = "https://www.youtube.com/iframe_api"; document.head.appendChild(s);
+        const s = document.createElement("script"); s.id = "yt-iframe-api"; s.src = "https://www.youtube.com/iframe_api";
+        // A blocked script never calls the ready hook, so nothing settled and fail() could not run
+        // (REV332 S2). Forget this attempt so a later Play retries: the promise here, and the tag,
+        // because the id check above would otherwise skip the new request and wait forever.
+        s.onerror = () => { s.remove(); this._ytPromise = null; resolve(null); };
+        document.head.appendChild(s);
       }
     });
     return this._ytPromise;
@@ -2879,9 +2917,15 @@ class Component extends DCLogic {
   }
   setDrillHeader(title, sub, countText, role, roleColor) {
     const head = this.drillHeadRef.current; if (!head) return;
+    if (this._session?.practice && !this._checkpoint && !this.deck) {
+      head.innerHTML = '<button type="button" class="ngBack" data-pane-back="1">‹ Back</button><b>Practice</b><small data-practice-belt="1"></small>';
+      head.querySelector(".ngBack").onclick = () => this._exitStudyTo();
+      return;
+    }
     head.innerHTML =
       '<div style="display:flex;align-items:center;height:40px;margin-bottom:12px;">' +
-        '<span class="ngBack" data-pane-back="1" style="cursor:pointer;color:#aeb9d2;display:flex;align-items:center;gap:6px;font-size:12px;font-weight:600;white-space:nowrap;height:30px;padding:0 13px 0 10px;border-radius:9px;background:rgba(255,255,255,.05);transition:background .15s,color .15s;"><span style="font-size:14px;line-height:1;">\u2039</span>Back</span>' +
+        // a real button (SIDE-R2 P2): Tab reaches it and Enter or Space takes it, as every drawer row does
+        '<button type="button" class="ngBack" data-pane-back="1" style="cursor:pointer;color:#aeb9d2;display:flex;align-items:center;gap:6px;font-size:12px;font-weight:600;font-family:inherit;white-space:nowrap;height:30px;padding:0 13px 0 10px;border:0;border-radius:9px;background:rgba(255,255,255,.05);transition:background .15s,color .15s;"><span style="font-size:14px;line-height:1;">\u2039</span>Back</button>' +
       '</div>' +
       // `data-drill-role` is a marker this file OWNS, so a spec can assert the kicker exists
       // EXACTLY ONCE and read it without matching on a style or a word another element could carry
@@ -2990,7 +3034,10 @@ class Component extends DCLogic {
       // the same choke point that latches the pane law, so no open path can miss it; the _wired
       // flags inside make repeat calls no-ops.
       this._wirePaneControls();
-      this._refreshGhChip();   // lazy star count: first pane open, never the boot path (v1.105.5)
+      // PRACTICE IS MIXED FROM ITS FIRST PRESS (SIDE-R2 B1): the planner chunk (gameplan.js, deferred) is
+      // fetched when the drawer opens, the moment its Practice row is in front of the player, so the
+      // press deals the interleaved queue rather than the owed reviews alone. Never on the boot path.
+      void this._ensureGameplanRuntime();
       // arrival positioning (v1.98.1): opening the pane onto Challenges lands the corridor
       // where the person is — renderChallenges consumes this once, instantly
       if (this._viewMode === "challenges") this._challengeScrollPending = true;
@@ -3044,12 +3091,13 @@ class Component extends DCLogic {
     // the pane lives LEFT now (v1.94.0): on desktop the bottom-right chip and the pane no longer
     // share a corner, so the chip keeps its normal look. On a phone the drawer takes the screen
     // and the chip fades (updateUiShift) — close its menu so it can't linger over the drawer.
-    if (open && !wasShown && this.isMobile()) this.closeAccountMenu();
+    if (!open) this.closeAccountMenu();   // the badge's menu lives in the drawer (v1.242.0)
+    { const o = this.wrapRef.current && this.wrapRef.current.querySelector(".ng-logo"); if (o) o.style.visibility = open ? "hidden" : ""; }   // the drawer's head owns the corner while open
     // Landing surfaces share the wrap's stacking context with the pane. They remain readable
     // and interactive beside it; at narrow widths the pane covers the overlap naturally.
     if (open && !wasShown) this._declineLandQ("pane"); // studying instead of answering = declining (v1.134.0)
     if (open !== wasShown && this.renderChallengeCue) this.renderChallengeCue(); // cue removal hook (the cue itself is retired)
-    if (open) this.renderPaneAnchor(); // bottom anchor: stats + guest save nudge, fresh on every apply
+    if (open) this._paintBadge(); // today's numbers, fresh on every open
     this._layoutPane();
     this.updateUiShift(0);
     this.forceUpdate();
@@ -3087,8 +3135,9 @@ class Component extends DCLogic {
     const study = this._paneStudyActive();
     if (study && !this._paneWasStudy) this._paneReturnTab = this._viewMode; // remember where ‹ Back goes
     this._paneWasStudy = study;
+    panel.toggleAttribute("data-practice-page", !!this._session?.practice && !this._checkpoint && !this.deck);
     if (study) panel.setAttribute("data-pane-study", "1"); else panel.removeAttribute("data-pane-study");
-    const vt = this.viewToggleRef.current; if (vt) vt.style.display = study ? "none" : "grid";
+    this._paintDrawerHead();
     this._syncExploreTools(study);
     const showEx = !study && this._viewMode !== "history";
     if (!showEx) this._stopConceptFilm();
@@ -3100,26 +3149,12 @@ class Component extends DCLogic {
     const dh = this.drillHeadRef.current; if (dh) dh.style.display = study ? "block" : "none";
     const dl = this.drillListRef.current; if (dl) dl.style.display = showDrill ? "flex" : "none";
     const df = this.drillFootRef.current; if (df && !showDrill) df.style.display = "none";
-    // the bottom anchor supersedes tabs (all three see it); a study takeover hides it, and an
-    // EMPTY anchor stays collapsed (signed-in users have no save nudge — v1.95.0, the stat
-    // row lives in Explore now, so the anchor can be legitimately contentless)
-    const pa = this.paneAnchorRef.current; if (pa) pa.style.display = study || !pa.childElementCount ? "none" : "flex";
-    // THE STAT BAND SITS AT THE PANE'S FOOT (v1.104.5, owner: "I would prefer to be closer to the
-    // bottom"). It is its OWN element above `.ng-pane-anchor` rather than inside it, because the
-    // anchor collapses entirely for a signed-in user and these three numbers must not vanish with
-    // the save nudge. Hidden during a study takeover, like everything else in the foot.
-    const ps = this.paneStatsRef.current;
-    if (ps) {
-      if (study) ps.style.display = "none";
-      // in place when a row is mounted (see _mountStatsRow): every apply and auth flip lands here
-      else { if (ps.querySelector("[data-explore-stats]")) this._mountStatsRow(ps); else { ps.innerHTML = ""; ps.appendChild(this._exploreStatsRow()); } ps.style.display = "block"; }
-    }
   }
   // render whichever body the active tab owns (no-op while a study surface holds the pane)
   _renderPaneBody() {
     this._layoutPane();
     if (!this.deckShown || this._paneStudyActive()) return;
-    this.renderPaneAnchor(); // exiting a study surface re-shows the anchor with fresh counts
+    this._paintBadge(); // exiting a study surface repaints today's numbers
     if (this._viewMode === "history") { this._pathDim = false; this.clearFocus(); this.renderDrillHome(); }
     else this.renderExplorer();
   }
@@ -3127,11 +3162,19 @@ class Component extends DCLogic {
   _exitStudyTo(view) {
     if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // leaving the card view cancels the pending advance
     if (this._checkpoint) this._cancelCheckpoint();
+    const origin = this._session?.practice && this._session.origin;
     this.deck = null; this._studyOpen = null; this._session = null; this._sessionNodes = null; this._inSession = false;
     this._drillView = "home";
-    const target = view || this._paneReturnTab || "history";
+    const target = view || origin?.view || this._paneReturnTab || "history";
     if (this._viewMode !== target) this.setViewMode(target);
     else this._renderPaneBody();
+    if (origin) {
+      this.focusIdx = origin.node;
+      this._writeUrl(origin.path, {}, true, origin.title);
+      this.explorerListRef.current.scrollTop = origin.scroll;
+      const focus = origin.focus?.isConnected ? origin.focus : this.explorerListRef.current?.querySelector('[data-maintenance], [data-b="due"], [data-track]');
+      focus?.focus({ preventScroll: true });
+    }
   }
 
   // ---------- progress / save hint ----------
@@ -3149,10 +3192,12 @@ class Component extends DCLogic {
   // inside the pane whenever the user opens it by hand (_menuNudge). The pill this used
   // to shake is deleted (v1.99.0).
   maybeShowSaveHint(reason) {
-    if (this.saveDismissed || this.saveShown) return;
-    this.saveShown = true; this._menuNudge = true;
+    // A SIGNED-IN PLAYER'S PROGRESS IS ALREADY SAVED (v1.242.0, the U49 inventory found this toast
+    // had no sign-in check), and an account played unverified offline is not a guest either.
+    if (this.saveDismissed || this.saveShown || this.user || this._progressLocalOnly) return;
+    this.saveShown = true;
     this.fx("save_hint", { reason: reason });
-    this.setEvent("Save your progress", "Open the panel to keep it", "muted");
+    this.setEvent("Save your progress", "Open the sidebar to keep it", "muted");
   }
   // (v1.94.0) the chip's old toggleMenu — open the pane / close the pane — is gone: the chip
   // opens the ACCOUNT MENU now (toggleAccountMenu), and the pane opener is the top-left logo.
@@ -3553,7 +3598,8 @@ class Component extends DCLogic {
     return this._systemsWait;
   }
   _renderSystemsStatus(list, mk) {
-        const status = mk('<span role="status">' + (this._systemsError ? 'Systems could not be loaded. Retry systems' : 'Loading systems…') + '</span>', 12, () => {
+        // the header's own line box (14px), so the swap to the Systems header moves nothing below (SIDE-R3 N1)
+        const status = mk('<span role="status" style="font-size:14px;">' + (this._systemsError ? 'Systems could not be loaded. Retry systems' : 'Loading systems…') + '</span>', 12, () => {
           if (this._systemsError) { this._ensureSystems(true); this.showExplorerList(); }
         });
         status.setAttribute("data-systems-status", this._systemsError ? "error" : "pending");
@@ -3598,6 +3644,7 @@ class Component extends DCLogic {
       .catch(() => null)
       .then((c) => {
         if (c && Array.isArray(c.concepts) && c.concepts.length) { this.concepts = c.concepts; this._onConcepts(); }
+        else { this._conceptsMissing = true; this._afterPress(() => { if (this.deckShown && this._viewMode === "explore" && !this._systemId) this._renderPaneBody(); }); }   // no index: the placeholders go
         return this.concepts || [];
       });
     return this._conceptsWait;
@@ -3835,7 +3882,7 @@ class Component extends DCLogic {
     const stack = "'Space Grotesk'";
     this._displayFam = stack;
     const fam = stack + ",sans-serif";
-    [this.brandFontRef, this.evcTextRef, this.evcKickerRef, this.evTextRef].forEach((r) => { if (r && r.current) r.current.style.fontFamily = fam; });
+    [this.evcTextRef, this.evcKickerRef, this.evTextRef].forEach((r) => { if (r && r.current) r.current.style.fontFamily = fam; });
   }
   // ---------- account menu / modals ----------
   // ---------- local persistence (bjj-neural-progress) — drill progress used to reset on every
@@ -3866,6 +3913,7 @@ class Component extends DCLogic {
     this._challengeRuntime = this._challengeRuntime || {};
       this.prep = Object.assign({}, p.prep || {});
       this._days = Object.assign({}, p.days || {});
+      this._rollDays = Object.assign({}, p.rollDays || {});   // rolls a day: the badge's "Today" (SIDE-R2 M4)
       this.dayLog = Object.assign({}, p.dayLog || {});
       if (p.settings) this.settings = Object.assign({}, this.settings || {}, p.settings);
       this._settingsAt = Object.assign({}, p.settingsAt || {});
@@ -3916,7 +3964,7 @@ class Component extends DCLogic {
     this._progressAt = Date.now();
     // `flow` and `explored` ride the EXISTING v2 blob, the way `lists` and `srs` did — a roll
     // ledger is not worth a schema migration, and `neural` is free-form JSONB on the cloud side.
-    return { ...(this._progressExtras || {}), v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, dayLog: this._trimDays(this.dayLog || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, flow: this._trimFlow(this.flow || {}), explored: [...(this._exploredKeys || [])], days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    return { ...(this._progressExtras || {}), v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, dayLog: this._trimDays(this.dayLog || {}), rollDays: this._trimDays(this._rollDays || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, flow: this._trimFlow(this.flow || {}), explored: [...(this._exploredKeys || [])], days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
   }
   _saveProgress() {
     clearTimeout(this._saveT);
@@ -4212,35 +4260,8 @@ class Component extends DCLogic {
   }
   iconStack(col) { return '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="' + (col || '#9fb0d8') + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5Z"></path><path d="m2 17 10 5 10-5"></path><path d="m2 12 10 5 10-5"></path></svg>'; }
 
-  // ── pane bottom anchor: the guest save nudge, ONE block at the pane's foot, every tab ──
-  // v1.95.0: the stat row (mastered / today / weak spots) moved OUT of the anchor to the top
-  // of Explore — "the 30 weak spots are the call to action" there (owner). The anchor keeps
-  // exactly one job: "Create an account to save your progress" over a quieter "or log in",
-  // directly above the Settings/Terms/Privacy row. A study takeover hides it (_layoutPane);
-  // signed-in users have nothing here, so the block collapses entirely (their session CTA
-  // and Log out live in the Last rolls foot as before).
-  renderPaneAnchor() {
-    const el = this.paneAnchorRef.current; if (!el) return;
-    if (this.user) { el.innerHTML = ""; el.style.display = "none"; return; }
-    // THE CLASSIC STACK (v1.98.1, owner's final design — supersedes the v1.97 one-liner):
-    // three levels reading as ONE unit — a small muted caption (the why), the full-width
-    // primary button (the block's one visual anchor), and a centered quiet escape line.
-    // Tight vertical rhythm; guest-only; drawer + desktop alike.
-    // styled via .ng-anchor-* classes (helmet.html) — hover/active/focus-visible states
-    // need real CSS, and the block should read as one designed unit (owner, v1.99.1)
-    el.innerHTML =
-      '<div class="ng-anchor-caption" data-anchor-caption="1">Save your progress</div>' +
-      '<button type="button" class="ngHdrAuth ng-anchor-cta" data-anchor-auth="1">Create account</button>' +
-      '<div class="ng-anchor-alt" data-anchor-alt="1"><span>Already have one?</span><button type="button" class="ng-anchor-login" data-anchor-login="1">Log in</button></div>';
-    el.style.display = this._paneStudyActive() ? "none" : "flex";
-    { const a = el.querySelector("[data-anchor-auth]"); if (a) { a.addEventListener("mouseenter", () => a.style.filter = "brightness(1.08)"); a.addEventListener("mouseleave", () => a.style.filter = "none"); a.addEventListener("click", () => this.openAuth("create")); } }
-    { const l = el.querySelector("[data-anchor-login]"); if (l) { l.addEventListener("mouseenter", () => l.style.color = "#cbd4e6"); l.addEventListener("mouseleave", () => l.style.color = "#7e8aa3"); l.addEventListener("click", () => this.openAuth("login")); } }
-  }
-
-  // ── the stat row (v1.95.0): mastered / today / weak spots, at the TOP of Explore ──
-  // Same .ngStat handles and click-throughs it has carried since v1.7 — only its home moved
-  // (History head → pane anchor → Explore body top). The weak-spots count is the browse
-  // surface's call to action; the other two open their flashcard lists.
+  // (The pane's foot anchor and the Explore stat row retired with the tabs, v1.242.0: the guest's save
+  // offer is the badge's Save pill, and the stat row's figures are the Practice row's pill and tooltip.)
   /**
    * THE WEAK-SPOT FIGURE WAS THE DAILY GOAL (v1.104.5). `_exploreStatsRow` printed
    * `get("dailyGoal", 30) + "+"`, so it read "30+" for a player with 3 gaps and for one with 700,
@@ -4414,102 +4435,14 @@ class Component extends DCLogic {
    * figure is still interesting (due FACTS vs due DECKS) it lives in the title/aria, never as a
    * second headline that can disagree with the first.
    */
-  // The tooltip describes the exact same planner result as the opened session.
-  _flowTitle(plan) { return plan ? this._gameplanRuntime.ngGameplanSummary(plan) : this._gameplanLoadingText(); }
   _gameplanLoadingText() {
     return this._gameplanLoadState === "pending" ? "Loading study suggestions. Due reviews remain available."
       : this._gameplanLoadState === "failed" ? "Study suggestions could not load. Retry when ready; due reviews remain available."
       : this._gameplanRuntime ? "Study suggestions are ready. Open your plan when ready."
       : "Open your study plan to load suggestions. Due reviews remain available.";
   }
-  /**
-   * THE STAT ROW IS REPAINTED IN PLACE (FGD13). `_refreshGameplanUI` and `renderPaneAnchor` (every
-   * `applyDeckVisibility`, every auth flip) used to replace the whole row, so a repaint landing
-   * between a pointerdown and its pointerup swallowed the click, and a spec's resolved cell detached
-   * under it (gameplan-study-live, 3 of 9 runs once D1 made the row's build slower). With the same
-   * cells, the fresh text and attributes move onto the MOUNTED cells, whose listeners stay; a changed
-   * cell set rebuilds as before.
-   */
-  _mountStatsRow(host) {
-    const fresh = this._exploreStatsRow(), old = host.querySelector("[data-explore-stats]");
-    const cells = (row) => [...row.querySelectorAll(".ngStat")];
-    const was = old && typeof old.getAttributeNames === "function" ? cells(old) : null, now = cells(fresh);
-    if (!was || was.map((c) => c.getAttribute("data-b")).join() !== now.map((c) => c.getAttribute("data-b")).join()) { host.replaceChildren(fresh); return; }
-    const copy = (to, from) => {
-      for (const name of to.getAttributeNames()) if (!from.hasAttribute(name)) to.removeAttribute(name);
-      for (const name of from.getAttributeNames()) if (to.getAttribute(name) !== from.getAttribute(name)) to.setAttribute(name, from.getAttribute(name));
-    };
-    copy(old, fresh);
-    now.forEach((cell, i) => { copy(was[i], cell); if (was[i].innerHTML !== cell.innerHTML) was[i].innerHTML = cell.innerHTML; });
-  }
-  _exploreStatsRow() {
-    const mastered = this.masteredCount();
-    const gs = this.gameScore();
-    const pctMastered = Math.round((gs && gs.score ? gs.score : 0) * 100);
-    // MASTERED / DUE / NEW — the three states any card is in, so the row reads as one
-    // progression rather than three unrelated figures (owner: "5 new or something like that…
-    // something that alludes to the player to know that these are new cards that we will study
-    // to learn and improve, and that are specifically ranked to patch up his game where it needs
-    // the most"). ONE tier, not two: the measured two-tier string was "4 very weak · 1452 weak
-    // spots" and it wrapped on an 88vw drawer.
-    this._ensureGameplanClock();
-    const plan = this.planSummary();
-    const debt = plan ? null : ngGameplanDebt({ srs: this.srs, day: this._epochDay(), decks: this._gameplanDecks() });
-    const reviewed = plan ? plan.reviewed.length : ngGameplanReviewed(this.srs, this._epochDay()).length;
-    const num = (v) => '<b style="color:#e9bd70;font-weight:700;">' + v + '</b>';
-    const newN = plan ? plan.fresh.length : 0;
-    const newTxt = this._gameStudyStatText(plan, num);
-    // THE CELL COUNTS CARDS — the same `dueCount()` the Challenges band prints (v1.172.0, owner:
-    // "18 cards due" over "35 due" on one pane: "the due cards should be consistent"). The
-    // technique count moved to the tooltip; it is a COVER of those cards (see bucketTechniques
-    // "due"), so it is never larger than the number printed.
-    const dueCards = plan ? plan.dueCards : debt.count;
-    const due = plan ? plan.due.length : debt.rows.length;
-    const row = document.createElement("div");
-    row.setAttribute("data-explore-stats", "1");
-    row.setAttribute("data-flow-cold", !plan || ["unavailable", "pending", "stale"].includes(plan.status) || (plan.status === "weak-spots" && this.weakSpots().cold) ? "1" : "0");
-    row.setAttribute("data-gameplan-status", this._gameStudyState?.phase || (plan ? plan.status : this._gameplanLoadState || "not-loaded"));
-    // SPACE-EVENLY, NOT THIRDS (v1.137.0, owner: "the space between these items is so large that
-    // they seem overglued to their edges in a weird way"). The v1.104.5 fix for the OPPOSITE
-    // complaint — three `1fr` columns with justify-self start/centre/end — distributes the BOXES
-    // evenly and then pins the outer two to the pane's inner edge, so the ink ends up hard against
-    // both walls with a hole in the middle. `space-evenly` distributes the GAPS instead: the space
-    // before the first stat, between each pair, and after the last are all equal, which is what
-    // "designed and distributed" actually looks like. `gap` here is a FLOOR, not the spacing — it
-    // only bites once the content is wide enough that there is no free space left to share.
-    // `flex-wrap` is the narrow-drawer safety valve: two evenly-spaced lines, never clipped ink.
-    // COLUMN-GAP MUST EQUAL THE HORIZONTAL PADDING or the four gaps are not equal: an OUTER gap
-    // measured from the border box is `padding + free/4`, an INNER one is `column-gap + free/4`.
-    // Measured at 6px against 12px padding: 56 / 50 / 50 / 56. Matched, all four land together.
-    row.style.cssText = "display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-evenly;font-size:11.5px;min-height:34px;padding:8px 12px 10px;gap:8px 12px;";
-    const cell = "cursor:pointer;white-space:nowrap;display:inline-flex;align-items:baseline;gap:4px;padding-bottom:1px;";
-    row.innerHTML =
-      // word first (owner, v1.95.2): "Mastered 3" — NB this figure is the recall-proven
-      // technique COUNT (masteredCount), not a percent; the percent lives in the Explore
-      // tab subtitle ("Mastered N%"). Its siblings keep their number-first shapes.
-      '<span class="ngStat" data-b="mastered" style="' + cell + 'color:#8b97b0;border-bottom:1px dashed rgba(139,151,176,.35);">Mastered <b style="color:#cbd4e6;font-weight:700;">' + mastered + '</b><span style="color:#7e8aa3;font-size:10.5px;">(' + pctMastered + '%)</span></span>' +
-      // MAINTENANCE FIRST (v1.105.0, owner): the middle cell is the daily dosage, amber while
-      // anything is owed. One press opens the due SESSION, not the browse modal.
-      '<span class="ngStat" data-b="due" data-due-decks="' + due + '" title="' + dueCards + ' card' + (dueCards === 1 ? '' : 's') + ' due · ' + due + ' technique' + (due === 1 ? '' : 's') + ' · ' + reviewed + ' answered today" aria-label="' + dueCards + ' card' + (dueCards === 1 ? '' : 's') + ' due · ' + due + ' technique' + (due === 1 ? '' : 's') + ' · ' + reviewed + ' answered today" style="' + cell + 'color:' + (dueCards > 0 ? "#e9bd70" : "#8b97b0") + ';border-bottom:1px dashed rgba(139,151,176,.35);"><b style="color:' + (dueCards > 0 ? "#e9bd70" : "#7ee0a8") + ';font-weight:700;">' + dueCards + '</b> due</span>' +
-      '<span class="ngStat" data-b="new"' + (plan ? ' data-new="' + newN + '" data-weak="' + newN + '"' : '') + ' style="' + cell + 'color:#d6a45a;border-bottom:1px dashed rgba(214,164,90,.4);">' + newTxt + '</span>';
-    row.querySelectorAll(".ngStat").forEach((s) => {
-      if (s.getAttribute("data-b") === "new") s.setAttribute("title", this._flowTitle(plan));
-      s.setAttribute("role", "button"); s.tabIndex = 0;
-      s.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); e.stopPropagation(); s.click(); } });
-      const sg = s.getAttribute("data-b") === "new";
-      s.addEventListener("mouseenter", () => s.style.color = sg ? "#f0cf8e" : "#cbd4e6");
-      s.addEventListener("mouseleave", () => s.style.color = sg ? "#d6a45a" : "#8b97b0");
-      // BOTH STUDY CELLS OPEN THE SAME SURFACE, anchored differently (owner: "when we click to
-      // show them, it should show the same interface as if clicking the weak spots"). One list:
-      // maintenance first, then what to learn next, then the rest of the ranking on scroll.
-      s.addEventListener("click", () => {
-        const b = s.getAttribute("data-b");
-        if (b === "new" || b === "due") this.openPlanSession(b === "due" ? "due" : "new");
-        else this.openFlashBrowser(b, "Mastered");
-      });
-    });
-    return row;
-  }
+
+
 
   // THE LAST ROLLS FOOT IS EMPTY, DELIBERATELY (v1.146.2, owner: "I'm already logged in.
   // Showing this makes no sense"). It used to carry a signed-in-only pair — a "Continue today"
@@ -4534,34 +4467,10 @@ class Component extends DCLogic {
 
     list.innerHTML = "";
     this._miniReg = {};
-    const sec = (label) => { const d = document.createElement("div"); d.style.cssText = "font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#6b7691;font-weight:700;padding:6px 8px 4px;margin:0 -8px;"; d.textContent = label; return d; };
-    const row = (label, count, strong, bucket) => {
-      const r = document.createElement("div");
-      r.style.cssText = "display:flex;align-items:center;gap:10px;padding:11px 8px;margin:0 -8px;cursor:pointer;border-radius:8px;transition:background .12s;";
-      r.innerHTML =
-        '<span style="flex:1;font-size:13.5px;font-weight:' + (strong ? 600 : 500) + ';color:' + (strong ? "#eef1f6" : "#9aa6bd") + ';">' + label + '</span>' +
-        '<span style="font-size:13px;font-weight:600;color:' + (strong ? "#cbd4e6" : "#7e8aa3") + ';">' + count + '</span>' +
-        '<span style="color:#5d6883;font-size:15px;">\u203a</span>';
-      r.addEventListener("mouseenter", () => r.style.background = "rgba(255,255,255,.03)");
-      r.addEventListener("mouseleave", () => r.style.background = "transparent");
-      r.addEventListener("click", () => { if (count <= 0) return; if (bucket === "suggested" || bucket === "explored") { this.openSession(bucket, label); } else this.openFlashBrowser(bucket, label); });
-      if (count === 0) { r.style.cursor = "default"; r.style.opacity = ".5"; }
-      return r;
-    };
-
     // grouped roll history — the current roll's CURRENT row expands to an inline flashcard deck
     this.renderRollHistory(list);
   }
 
-  _timeBucket(ts) {
-    const d = new Date(ts), now = new Date();
-    const day0 = (x) => new Date(x.getFullYear(), x.getMonth(), x.getDate()).getTime();
-    const diff = Math.round((day0(now) - day0(d)) / 86400000);
-    if (diff <= 0) return "Today";
-    if (diff === 1) return "Yesterday";
-    if (diff < 7) return d.toLocaleDateString(undefined, { weekday: "long" });
-    return d.toLocaleDateString(undefined, { month: "short", day: "numeric" });
-  }
   _agoLabel(ts) {
     const s = Math.max(0, (Date.now() - ts) / 1000);
     if (s < 60) return "just now";
@@ -4689,12 +4598,15 @@ class Component extends DCLogic {
     this.prep = this.prep || {};
     const wrap = document.createElement("div");
     if (isCurrent) wrap.className = "ngCurExpire";
-    wrap.setAttribute("data-mini-deck", key); // the pane's Q&A card: question, reveal, answer — never MC
+    wrap.setAttribute("data-mini-deck", key); // shared inline card; Practice honors the answer-mode setting
     wrap.style.cssText = "padding:0 8px 12px 26px;animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;";
     const navBtn = (cls, d) => '<button class="' + cls + '" style="flex:none;width:42px;height:36px;cursor:pointer;border:1px solid rgba(150,170,210,.2);border-radius:9px;background:rgba(255,255,255,.03);color:#aab4c8;display:flex;align-items:center;justify-content:center;transition:background .12s,color .12s;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="' + d + '"></path></svg></button>';
+    let recallFallback;
+    const recognition = () => this._session?.practice && cards[st.idx] !== recallFallback && this.mcActive(key, cards[st.idx]) && !graded(cards[st.idx]);
     const doPrev = () => { st.idx = (st.idx - 1 + total) % total; st.revealed = false; render(); };
     const doNext = () => { st.idx = (st.idx + 1) % total; st.revealed = false; render(); };
     const doReveal = () => {
+      if (recognition()) return;
       st.revealed = !st.revealed;
       if (st.revealed) { ansSet.add(identity(cards[st.idx])); this.noteCardSeen(key, st.idx); } // reveal = SEEN only; mastery credit requires grading (honest economy)
       render();
@@ -4731,11 +4643,13 @@ class Component extends DCLogic {
     // revealed → grade, already graded → next card (gradeMini's latch would swallow the second
     // press, and "Graded — next card →" is exactly what the card is already telling you).
     const doEnter = () => {
+      if (recognition()) return;
       if (!st.revealed) { doReveal(); return; }
       if (graded(cards[st.idx])) { doNext(); return; }
       gradeMini(true);
     };
     const render = () => {
+      if (this._mc?.surface === "practice") { this._mc.spent = true; this._mc = null; }
       const card = cards[st.idx] || {};
       const tabs = cards.map((c, i) => {
         const active = i === st.idx, done = ansSet.has(identity(c));
@@ -4773,6 +4687,26 @@ class Component extends DCLogic {
       if (gb) gb.onclick = () => gradeMini(true, card);
       if (ab) ab.onclick = () => gradeMini(false, card);
       wrap.querySelectorAll(".mt").forEach((t) => t.onclick = () => { st.idx = parseInt(t.dataset.i, 10); st.revealed = false; render(); });
+      // The same MC options/grade writer as the full study deck. Its callback owns
+      // this inline row only; late pool/planner arrival cannot replace a chosen answer.
+      if (recognition()) {
+        mr.disabled = true; mr.textContent = "Choose an answer";
+        if (!this.mcPoolWarm(key, card)) {
+          mr.textContent = "Loading answers…";
+          this._warmMcPool(card, key, "practice").then(() => this._afterPress(() => {
+            if (wrap.isConnected && cards[st.idx] === card && recognition()) render();
+          }));
+        } else {
+          const choices = this._mcBlock(card, key, () => {
+            st.revealed = true;
+            mr.disabled = false; mr.textContent = "Next card"; mr.onclick = doNext;
+            if (onGrade) onGrade();
+            this._refreshGameplanUI();
+          }, "practice");
+          if (choices) wrap.insertBefore(choices, mr.parentElement);
+          else { recallFallback = card; render(); }
+        }
+      }
     };
     this._miniReg = this._miniReg || {};
     this._miniReg[rid != null ? rid : key] = { reveal: doReveal, prev: doPrev, next: doNext, enter: doEnter };
@@ -4950,7 +4884,8 @@ class Component extends DCLogic {
   openModal() { this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); const m = this.modalRef.current; if (m) m.style.display = "flex"; this.lastInteract = this.now; }
   /**
    * FEEDBACK GOES TO POSTHOG (v1.105.5, owner: "using post hoc. It should not be done using
-   * GitHub"). One small modal for both kinds; submit is a plain `track()` capture with the text
+   * GitHub"). U67 a: one Feedback row and form for both kinds. An optional technique-request
+   * checkbox keeps the two existing events alive; submit is a plain `track()` capture with the text
    * as a property — PostHog-native collection, no new backend. The auth form is the styling
    * prior art.
    *
@@ -4962,26 +4897,31 @@ class Component extends DCLogic {
    * The signed_in boolean records only whether this.user exists at Send, never its id or email.
    * `e2e/journeys/feedback-modal.spec.ts` pins the copy, the column and every control by mouse.
    */
-  openFeedback(kind) {
+  // U109 b: `video` is the node a no-video card asks about. The form is the same, its context is that node, and the report says so.
+  openFeedback(video) {
     const card = this.modalCardRef.current; if (!card) return;
     card.style.width = "min(440px,92vw)";
     card.innerHTML = "";
-    const isTech = kind === "technique";
     const head = document.createElement("div");
     head.style.cssText = "display:flex;align-items:center;justify-content:space-between;padding:16px 20px 0;";
-    head.innerHTML = '<div data-feedback-title="1" style="font-size:16px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;">' + (isTech ? "Request a technique" : "Help improve the graph") + '</div><span class="x" data-feedback-close="1" style="cursor:pointer;color:#8b97b0;font-size:21px;line-height:1;">\u00d7</span>';
+    head.innerHTML = '<div data-feedback-title="1" style="font-size:16px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;">Feedback</div><span class="x" data-feedback-close="1" style="cursor:pointer;color:#8b97b0;font-size:21px;line-height:1;">\u00d7</span>';
     head.querySelector(".x").addEventListener("click", () => this.closeModal());
     card.appendChild(head);
     const body = document.createElement("div");
     body.style.cssText = "padding:12px 20px 20px;display:flex;flex-direction:column;gap:10px;";
     const ta = document.createElement("textarea");
     ta.setAttribute("data-feedback-text", "1");
+    ta.setAttribute("aria-label", "Feedback");
     ta.maxLength = 500;
-    ta.placeholder = isTech ? "Which technique is missing? A name is enough \u2014 a position it starts from helps." : "What’s wrong, missing or confusing? Where were you when you noticed?";
+    ta.placeholder = video ? "Paste the video's link, and the second the move starts if you know it." : "What’s wrong, missing or confusing? Where were you when you noticed?";
     ta.style.cssText = "width:100%;min-height:110px;resize:vertical;font-family:inherit;font-size:14px;line-height:1.5;color:#eef1f6;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.25);border-radius:11px;padding:12px 14px;box-sizing:border-box;outline:none;";
     body.appendChild(ta);
+    const tech = document.createElement("label");
+    tech.style.cssText = "display:flex;align-items:center;gap:7px;min-height:24px;font-size:11px;color:#8b97b0;cursor:pointer;";
+    tech.innerHTML = '<input type="checkbox" data-feedback-technique="1" style="accent-color:#4a6cff;margin:0;flex:none;"> Technique request';
+    body.appendChild(tech);
     // context rides along unless removed — names the state the report is about
-    const node = this.nodes && this.nodes[this.currentPos];
+    const node = video || this.nodes && this.nodes[this.currentPos];
     let ctxOn = !!node;
     if (node) {
       const ctx = document.createElement("label");
@@ -5003,11 +4943,13 @@ class Component extends DCLogic {
     btn.addEventListener("click", () => {
       const text = (ta.value || "").trim();
       if (!text) { ta.focus(); return; }
+      const isTech = tech.querySelector("input").checked;
       this.track(isTech ? "neural_technique_requested" : "neural_issue_reported", {
         text: text.slice(0, 500),
         node: ctxOn && node ? node.id : null,
         signed_in: !!this.user,
         app_version: (typeof NG_APP_VERSION !== "undefined" ? NG_APP_VERSION : null),
+        ...(video && { kind: "video" }),
       });
       this.closeModal();
       this.setEvent("Sent \u2014 thank you", isTech ? "We read every request" : "Reports like this decide what gets fixed next", "good");
@@ -5017,14 +4959,22 @@ class Component extends DCLogic {
     this.openModal();
     ta.focus();
   }
-  /** GitHub star chip: lazy (first pane open, never boot), day-cached, and NEVER throwing —
-   *  the harness aborts non-localhost fetches and at least one spec collects pageerror. */
+  /** GitHub star chip: lazy (the badge menu's first render, never boot), day-cached, asked for ONCE per
+   *  page (SIDE-R2 M5: the menu re-renders on every open, and resetting the latch there re-fetched after
+   *  every miss), and NEVER throwing — the harness aborts non-localhost fetches and at least one spec
+   *  collects pageerror. A count, once known, paints whichever chip the menu holds now. */
   _refreshGhChip() {
-    const el = this.ghChipRef.current; if (!el || this._ghTried) return;
+    const paint = (n) => {
+      if (typeof n !== "number") return;
+      this._ghStars = n;
+      const l = this.ghChipRef.current && this.ghChipRef.current.querySelector("[data-gh-label]");
+      if (l) l.textContent = "\u2605 " + (n >= 1000 ? (n / 1000).toFixed(1) + "k" : n);
+    };
+    if (this._ghStars != null) { paint(this._ghStars); return; }
+    if (!this.ghChipRef.current || this._ghTried) return;
     this._ghTried = true;
     let cached = null;
     try { cached = JSON.parse(localStorage.getItem("gh-stars") || "null"); } catch (e) { /* fine */ }
-    const paint = (n) => { const l = el.querySelector("[data-gh-label]"); if (l && typeof n === "number") l.textContent = "\u2605 " + (n >= 1000 ? (n / 1000).toFixed(1) + "k" : n); };
     if (cached && Date.now() - cached.at < 86400000) { paint(cached.n); return; }
     try {
       fetch("https://api.github.com/repos/diogoseca/bjjgraph")
@@ -5382,14 +5332,20 @@ class Component extends DCLogic {
     if (this._checkKnowledgeDay) this._checkKnowledgeDay();
     return JSON.stringify([this._knowledgeRevision || this._stageVer || 0, this._flowVer || 0,
       this._epochDay(), this._giMode || "gi", this.startFrom(),
-      this.get("dailyGoal", 30), this._gameplanContextKey || ""]);
+      this.practiceGoal(), this._gameplanContextKey || ""]);
   }
   planSummary() {
     if (!this._gameplanRuntime) return null;
-    const stamp = this._gameplanStamp();
+    const stamp = this._gameplanStamp(), belt = this.curriculum?.belts.find(b => b.id === this.wornBelt().id);
+    const families = new Set(belt?.units.flatMap(u => u.lessons.map(l => l.deckKey.split("|")[0])));
+    // §6.6: with no curriculum there is no belt to scope new cards by, so they come from every belt. That
+    // is the right offer on a 404, and it says so, once per outage. Lifter: the next plan that has a belt.
+    if (belt) this._planUnscoped = false;
+    else if (!this._planUnscoped) { this._planUnscoped = true; this.fx("practice_belt_unfiltered", {}); }
     return this._gameplanRuntime.ngGameplanBuild({ day: this._epochDay(), ruleset: this._giMode || "gi",
       revision: this._knowledgeRevision || this._stageVer || 0, stamp,
-      target: this.get("dailyGoal", 30), decks: this._gameplanDecks(), srs: this.srs,
+      target: this.practiceGoal(), decks: Object.fromEntries(Object.entries(this._gameplanDecks()).map(([key, d]) =>
+        [key, belt && !families.has(key.split("|")[0]) ? { ...d, headroom: 0 } : d])), srs: this.srs,
       provider: this._gameplanProvider, fallback: this._gameplanWeakFallback() });
   }
   /**
@@ -5424,6 +5380,10 @@ class Component extends DCLogic {
   setGameplanRecommendations(provider) {
     if (!provider || provider.stamp !== this._gameplanStamp()) return false;
     this._gameplanProvider = provider;
+    const s = this._session;
+    if (s?.practice) this._afterPress(() => {
+      if (this._session === s && this._sessionInline()) this._practiceAppend(s, this.planSummary(), s.plan?.fresh.length ? [] : null);
+    });
     this._refreshGameplanUI();
     return true;
   }
@@ -5455,10 +5415,14 @@ class Component extends DCLogic {
     this._gameplanRefresh = setTimeout(() => {
       this._gameplanRefresh = null;
       if (this.__ngDestroyed) return;
-      const stats = this.paneStatsRef && this.paneStatsRef.current;
-      if (stats && stats.querySelector("[data-explore-stats]")) this._mountStatsRow(stats);
+      this._paintTrain(); this._paintBadge();
       const s = this._session;
-      if (s && (s.plan || s.review) && this._sessionInline()) this._paintGameplanProgress(s);
+      if (s && (s.plan || s.review) && this._sessionInline()) {
+        if (s.practice && !s.keys.length && this._gameplanRuntime) this._afterPress(() => {
+          if (this._session === s && !s.keys.length) this._practiceAppend(s, this.planSummary());
+        });
+        this._paintGameplanProgress(s);
+      }
     }, 0);
   }
   _ensureGameplanClock() {
@@ -5684,16 +5648,14 @@ class Component extends DCLogic {
    */
   openSession(bucket, label, sub) {
     if (this._deferSystemBucket(bucket, () => this.openSession(bucket, label, sub))) return;
-    if ((bucket === "due" && this._gameplanRuntime) || bucket === "new" || bucket === "suggested") { this.openPlanSession(bucket === "due" ? "due" : "new"); return; }
+    if (["due", "new", "suggested"].includes(bucket)) { this.openPlanSession(bucket === "due" ? "due" : "new"); return; }
     this._stopSystemPreview();
     this._stopConceptFilm();
     const keys = this.bucketTechniques(bucket);
     this.hydrateDecks(keys);   // a session is a queue of decks the user has already committed to
-    // "due" sessions narrow every deck to its due cards (see _entryForKey); others are whole-deck
-    // `openLessonStudy` builds its own `_session` and goes STRAIGHT to studyFromSession, so the
-    // belt corridor keeps its one-card lesson view (a different, gated surface) — see renderSession.
-    this._session = { keys: keys, label: label, sub: sub || null, idx: 0, filter: bucket === "due" ? "due" : null, bucket: bucket };
-    if (bucket === "due") this._session.review = { ...ngGameplanDebt({ srs: this.srs, day: this._epochDay(), decks: this._gameplanDecks() }), day: this._epochDay() };
+    // Daily queues use openPlanSession above. Other buckets and explicit lesson study
+    // keep their existing scope and shared renderer.
+    this._session = { keys: keys, label: label, sub: sub || null, idx: 0, bucket: bucket };
     this._sessionNodes = keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // camera + rings only: never aim at an orb this ruleset does not draw
     this.closeModal();
     this.frameNodes(this._sessionNodes);   // frame the highlighted nodes
@@ -5718,56 +5680,121 @@ class Component extends DCLogic {
    * best by doing those. 3. We can show more techniques that load on infinite scroll, but they
    * should be ranked and ordered by that metric."
    *
-   * So the queue is ONE list in that order and `anchor` only decides which section it opens on.
+   * So the queue is ONE list in that order, and every door lands on its first card. `anchor` only says
+   * whether this visit asks for the study comparison: "due" does not.
    * Maintenance first is not a layout preference: reviews are the debt, new cards are the
    * throttle that creates tomorrow's reviews.
    */
   openPlanSession(anchor, studyIntent) {
     this._ensureGameplanClock();
     if (studyIntent !== false && (anchor !== "due" || studyIntent)) void this._requestGameplanStudy(studyIntent || "open-plan");
-    if (!this._gameplanRuntime) {
-      this.openSession("due", this._dueTodayLabel(this.dueCount()));
-      const waiting = this._session; waiting.anchor = anchor;
-      this._ensureGameplanRuntime().then((ready) => {
-        // Runtime arrival never replaces an active review queue. An empty waiting
-        // view may open the requested plan if the user has not navigated away.
-        if (ready && !this.__ngDestroyed && this._session === waiting && this._sessionInline() && !waiting.review.count && !this.dueCount()) this.openPlanSession(anchor, false);
-      });
-      return;
+    // One visit owns one session. Refresh and cold completion append to it; neither
+    // replaces its answer DOM or its grade identity. A new explicit visit starts afresh.
+    let s = this._session;
+    if (!s?.practice) {
+      const review = { ...ngGameplanDebt({ srs: this.srs, day: this._epochDay(), decks: this._gameplanDecks() }), day: this._epochDay() };
+      const keys = review.rows.map(r => r.key);
+      if (!keys.length) {
+        const belt = this.curriculum?.belts.find(b => b.id === this.wornBelt().id);
+        const lesson = belt?.units.flatMap(u => u.lessons).find(l => this._lessonLive(l) && !this.lessonDone(l.deckKey));
+        if (lesson) keys.push(lesson.deckKey);
+      }
+      const list = this.explorerListRef.current;
+      s = this._session = { practice: true, keys, review, idx: 0, anchor, bucket: "plan",
+        origin: { view: this._viewMode, scroll: list?.scrollTop || 0, node: this.focusIdx, path: location.href, title: document.title, focus: document.activeElement } };
+      this._stopSystemPreview(); this._stopConceptFilm();
+      this.closeModal();
+      this.renderSession();
+      this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
+      this.track("neural_practice_opened", { surface: "practice" });
     }
-    const plan = this.planSummary();
-    const due = plan.due.map((r) => r.key), fresh = plan.fresh.map((r) => r.key), more = plan.more.map((r) => r.key);
-    const keys = due.concat(fresh, more);
-    // D2 (owner, 2026-09-30). The session list (due reviews plus the new-card budget) is headed
-    // "Finish these to unlock more" with its progress, and `more` below it stays LOCKED until that
-    // list is done (renderSession, `_planGoalHead`). Inside the session, dev's own section names
-    // (v1.138.0: maintenance first, then learn next) say why each row is there.
-    const cards = (n) => n + (n === 1 ? " card" : " cards"), techs = (n) => n + (n === 1 ? " technique" : " techniques");
-    const sections = [];
-    if (due.length) sections.push({ at: 0, label: "Maintenance", note: cards(plan.dueCards) + " owed across " + techs(due.length) });
-    if (fresh.length) sections.push({ at: due.length, label: "Learn next", note: plan.newCards + " new " + (plan.newCards === 1 ? "card" : "cards") + " across " + techs(fresh.length) + ", " +
-      (plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") });
-    this._session = {
-      keys, plan, label: this._dueTodayLabel(plan.dueCards), sub: "",
-      idx: anchor === "new" && fresh.length ? due.length : 0,
-      filter: null, dueUntil: due.length, anchor, sections, bucket: "plan",
-      // `required` rows are the session; everything after them is the locked extra list, dealt a
-      // page at a time once unlocked (`shown`).
-      required: due.length + fresh.length, shown: Math.min(keys.length, due.length + fresh.length + 10),
+    const session = s;
+    const adopt = () => {
+      if (this._session !== session || !this._sessionInline() || this.__ngDestroyed) return;
+      if (this._gameplanRuntime) this._practiceAppend(session, this.planSummary());
+      this.hydrateDecks(session.keys);
     };
-    const session = this._session;
-    this.hydrateDecks(due.concat(fresh)).then(() => {
-      const s = this._session;
-      if (!s || s !== session || this.__ngDestroyed) return;
-      s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks());
-      if (this._sessionInline()) this.renderSession();
-    });
-    // camera + rings: the session only, while the extra list is locked (renderSession widens it)
-    this._sessionNodes = keys.slice(0, this._session.required).map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));
-    this.closeModal(); this.frameNodes(this._sessionNodes);
-    this.renderSession();
-    this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
+    if (this._gameplanRuntime) this._afterPress(adopt);
+    else this._ensureGameplanRuntime().then(ready => { if (ready) this._afterPress(adopt); });
   }
+
+  // Extend the obligation, never replace it. Distinct question IDs are reserved
+  // across reviews, new rows and explicit continuation before the shared renderer
+  // sees them. Already graded cards still count in the original session ledger.
+  _practiceAppend(s, incoming, chosen) {
+    if (this._session !== s || !incoming) return;
+    const old = s.plan, due = (old ? old.due : s.review.rows).map(r => ({ ...r, questions: r.questions.slice() }));
+    const fresh = old ? old.fresh.slice() : [];
+    for (const r of incoming.due) {
+      const prior = due.find(x => x.key === r.key);
+      if (prior) { prior.questions = [...new Set(prior.questions.concat(r.questions))]; prior.count = prior.questions.length; }
+      else due.push(r);
+    }
+    // A cold fallback can already be revealed/graded before the planner arrives.
+    // Reserve that exact deck's cards so it cannot become a second shared copy.
+    const active = s.keys[s.idx], engaged = this._deckState?.[active]?.revealed || this.practiceToday().done !== s.started;
+    if (!old && engaged && active && !due.some(r => r.key === active)) {
+      const d = this._gameplanDecks()[active];
+      if (d) fresh.push({ key: active, kind: "new", questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length), count: d.count, reason: "Practice this lesson." });
+    }
+    const used = new Set(ngGameplanReviewed(this.srs, this._epochDay()).concat(due.concat(fresh).flatMap(r => r.questions)));
+    const keys = new Set(due.concat(fresh).map(r => r.key));
+    for (const r of (chosen || incoming.fresh)) {
+      if (keys.has(r.key)) continue;
+      const questions = r.questions.filter(q => !used.has(q));
+      keys.add(r.key);
+      if (!questions.length && !r.pending) continue;
+      questions.forEach(q => used.add(q));
+      fresh.push({ ...r, kind: "new", questions, count: questions.length + r.pending });
+    }
+    const dueQuestions = [...new Set(due.flatMap(r => r.questions))];
+    const newCards = fresh.reduce((n, r) => n + r.count, 0);
+    s.plan = { ...incoming, due, fresh, dueQuestions,
+      dueCards: dueQuestions.length, newCards, total: dueQuestions.length + newCards,
+      more: incoming.more.filter(r => !keys.has(r.key)) };
+    s.review = null;
+    // Untouched cold queues can take the normal interleaving. Once a card has been
+    // used, append at the end without moving any existing opener or focus handle.
+    if ((!old || !s.keys.length) && !engaged) {
+      const first = s.keys[s.idx];
+      s.keys = incoming.queue.filter(k => keys.has(k));
+      for (const r of due.concat(fresh)) if (!s.keys.includes(r.key)) s.keys.push(r.key);
+      if (first && s.keys.includes(first)) s.idx = s.keys.indexOf(first);
+      s.required = s.keys.length;
+      this.renderSession();
+    } else {
+      for (const r of due.concat(fresh)) if (!s.keys.includes(r.key)) s.keys.push(r.key);
+      s.required = s.keys.length;
+      this._practiceRows(s);
+      this._paintGameplanProgress(s);
+    }
+    this.hydrateDecks(s.keys).then(() => {
+      if (this._session !== s || !this._sessionInline()) return;
+      s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks());
+      this._paintGameplanProgress(s);
+    });
+  }
+
+  _practiceLesson(key) {
+    const s = this._session;
+    if (!s?.practice || !this.beltUnlocked(this._lessonIndex?.[key]?.belt)) return;
+    const go = () => {
+      if (this._session !== s) return;
+      if (!s.keys.includes(key)) {
+        const d = this._gameplanDecks()[key], planner = !!this._gameplanRuntime;
+        if (planner && d?.allowed && d.count) {
+          const row = { key, questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length), reason: "Practice this lesson." };
+          this._practiceAppend(s, s.plan || this.planSummary(), [row]);
+        } else this.fx("practice_lesson_unplanned", { deckKey: key, planner });   // §6.6: it still opens, outside the session's ledger
+        // Already graded/shared lessons remain readable without a second obligation.
+        if (!s.keys.includes(key)) { s.keys.push(key); this._practiceRows(s); }
+      }
+      const at = s.keys.indexOf(key);
+      if (at >= 0) { this._sessionOpeners[at]?.(); this._scrollFocusedDeck(); }
+    };
+    this._ensureGameplanRuntime().then(() => this._afterPress(go));
+  }
+
   _gameplanProgress(s) {
     const decks = this._gameplanDecks();
     if (s.review) {
@@ -5793,17 +5820,13 @@ class Component extends DCLogic {
       const row = (s.live || this._gameplanProgress(s)).rows.find((r) => r.key === key);
       return !!(row && row.done);
     }
-    if (s.filter === "due") return !this.duePool().some((r) => r.key === key);
     return this.lessonDone(key);
   }
   _paintGameplanProgress(s) {
     if (this._session !== s || !(s.plan || s.review)) return;
     const p = this._gameplanProgress(s);
     const list = this.drillListRef.current;
-    // D2: finishing (or a new day un-finishing) changes the plan's END, lock <-> "All done" and its
-    // action, so a change in either direction re-renders. renderSession paints this again with the
-    // two in agreement, so there is no loop.
-    if (s.plan && list && list.querySelector && !!list.querySelector("[data-session-complete]") !== !!p.complete) { this.renderSession(); return; }
+    // Completion updates below the card; it must never replace an answer or pressed control.
     // The live count is the header's ("N cards due today"); this polite line carries only what the
     // player must act on (D2: "Order and reasons saved when opened · current review debt below" is gone).
     const note = list && list.querySelector("[data-gameplan-current]");
@@ -5812,92 +5835,47 @@ class Component extends DCLogic {
       : [p.newDebt.length ? "New reviews came due: refresh the plan to include them." : "",
         p.blocked.length ? (p.blocked.length === 1 ? "1 due card needs content that isn't available; it stays due." : p.blocked.length + " due cards need content that isn't available; they stay due.") : ""].filter(Boolean).join(" ");
     if (note) note.style.margin = note.textContent ? "" : "0";   // an empty polite line takes no room
-    this._paintPlanGoal(s);
     for (const paint of Object.values(this._sessionPaint || {})) paint();
     const loading = this.drillListRef.current && this.drillListRef.current.querySelector("[data-gameplan-loading]");
     if (loading) loading.textContent = this._gameplanLoadingText();
     this._paintGameStudyPanel();
-    this.setDrillHeader(this._dueTodayLabel(p.dueCards), "", "");   // live; the session object is not rewritten
-    const foot = this.drillFootRef.current;
-    if (foot) { foot.replaceChildren(this._sessionFoot(s)); foot.style.display = "flex"; }
+    if (s.practice) this._paintPractice(s);
     const complete = this.drillListRef.current && this.drillListRef.current.querySelector("[data-session-complete]");
-    if (complete && !p.complete) { complete.remove(); this.renderSession(); }
-    if (!complete && p.complete && p.total > 0) this.drillListRef.current.appendChild(this._sessionDoneCard(s));
-  }
-  /** D2 (owner, 2026-09-30): the plain due header, "N cards due today", live from the current debt. */
-  _dueTodayLabel(n) { return !n ? "No cards due today" : n + (n === 1 ? " card" : " cards") + " due today"; }
-  /**
-   * D2: THE SESSION LIST IS HEADED BY WHAT FINISHING IT DOES (owner, 2026-09-30: "Finish these to
-   * unlock more", with its progress). Built once per render; `_paintPlanGoal` repaints its two lines
-   * on every grade (through _paintGameplanProgress), so the rows under it are never rebuilt for it.
-   */
-  _planGoalHead(s) {
-    const head = document.createElement("div"); head.setAttribute("data-plan-goal", "1");
-    head.style.cssText = "display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;padding:2px 2px 10px;";
-    const title = document.createElement("span"); title.setAttribute("data-plan-goal-title", "1");
-    title.style.cssText = "font-size:13.5px;font-weight:700;color:#eef1f6;";
-    const progress = document.createElement("span"); progress.setAttribute("data-plan-goal-progress", "1"); progress.setAttribute("aria-live", "polite");
-    progress.style.cssText = "font-size:11.5px;font-weight:600;color:#9ab0e0;white-space:nowrap;";
-    head.appendChild(title); head.appendChild(progress);
-    head._ngGoal = { title, progress };   // painted through these references, never re-queried
-    this._paintPlanGoal(s, head);
-    return head;
-  }
-  _paintPlanGoal(s, head) {
-    head = head || (this.drillListRef.current && this.drillListRef.current.querySelector && this.drillListRef.current.querySelector("[data-plan-goal]"));
-    if (!head || !s.plan) return;
-    const p = s.live || this._gameplanProgress(s), extra = s.keys.length - s.required;
-    // FGD13 (owner): the "Reviewed 0/30" style he liked; the celebration is the end card's job
-    const { title, progress } = head._ngGoal || {};
-    if (!title || !progress) return;
-    title.textContent = s.unlocked || p.complete ? "Today's session" : extra > 0 ? "Finish these to unlock more" : "Finish today's session";
-    progress.textContent = p.total ? "Reviewed " + p.completed + "/" + p.total : "Nothing left to review";
+    if (complete && !p.complete) complete.remove();
+    if (!complete && p.complete && p.total > 0) s.completion.appendChild(this._sessionDoneCard(s));
   }
   /**
-   * D2: the plan's extra list, LOCKED until the session is done ("29 more techniques unlock when
-   * you finish"). Finishing replaces this line with the end card and its "Find more weaknesses"
-   * action (`_sessionDoneCard`). The gate is this list only: every deck still opens from Explore.
-   * `count` is the list's real length.
+   * TODAY AGAINST THE DAILY GOAL (owner U56 e: "the goal today is to do 20 flashcards"). `done` is the
+   * planner's own count — distinct cards answered today, reviews and new alike, a failure included —
+   * so the figure and the plan's goal accounting cannot disagree. A goal, never a cap: nothing reads
+   * this to stop a review. `_practiceGoalText` is the one phrasing every surface prints.
    */
-  _planLockBlock(count) {
-    const el = document.createElement("div");
-    el.setAttribute("data-plan-locked", String(count));
-    el.style.cssText = "display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;line-height:1.4;border-radius:10px;padding:11px 12px;margin:10px 0 2px;" +
-      "color:#8b97b0;border:1px dashed rgba(150,170,210,.3);background:rgba(255,255,255,.02);";
-    el.innerHTML = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="flex:none;">' +
-      '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span></span>';
-    el.querySelector("span").textContent = count.toLocaleString("en-US") + " more " + (count === 1 ? "technique" : "techniques") + " unlock when you finish";
-    return el;
-  }
-  _gameplanWaitingIntro(s) {
-    const box = document.createElement("div"); box.setAttribute("data-gameplan-summary", "1");
-    const loading = document.createElement("p"); loading.setAttribute("data-gameplan-loading", "1"); loading.textContent = this._gameplanLoadingText(); box.appendChild(loading);
-    const current = document.createElement("p"); current.setAttribute("data-gameplan-current", "1"); current.setAttribute("aria-live", "polite"); box.appendChild(current);
-    const button = document.createElement("button"); button.type = "button"; button.setAttribute("data-gameplan-load", "1");
-    button.textContent = "Open study plan"; button.style.cssText = "min-height:44px;padding:8px;font:inherit;cursor:pointer;";
-    button.addEventListener("click", () => this.openPlanSession(s.anchor || "new", "open-plan")); box.appendChild(button);
-    box.appendChild(this._gameStudyPanel());
-    box.style.cssText = "font-size:12px;line-height:1.55;color:#aeb9cf;padding:4px 4px 16px;overflow-wrap:anywhere;";
-    return box;
-  }
+  // THE DAILY GOAL HAS ONE SOURCE (SIDE-R2 M3): NG_PRACTICE_GOAL, read through here by the badge, the goal
+  // bar, the planner and the Settings field (a separate chunk, which cannot see the constant), clamped to
+  // the field's own 5-200 so a stored oddity can never print what the planner does not play.
+  practiceGoal(v = this.get("dailyGoal", NG_PRACTICE_GOAL)) { v = Math.floor(Number(v)); return Number.isFinite(v) ? Math.max(5, Math.min(200, v)) : NG_PRACTICE_GOAL; }
+  practiceToday() { return { done: ngGameplanReviewed(this.srs, this._epochDay()).length, goal: this.practiceGoal() }; }
+  _practiceGoalText(t) { t = t || this.practiceToday(); return t.done + " of " + t.goal + " today" + (t.done >= t.goal ? " \u2713" : ""); }
+  /** Planner state and all comparison controls live below the active card. */
   _gameplanIntro(s) {
     const box = document.createElement("div"); box.setAttribute("data-gameplan-summary", "1");
-    box.style.cssText = "font-size:12px;line-height:1.55;color:#aeb9cf;padding:4px 4px 16px;overflow-wrap:anywhere;";
-    const text = document.createElement("p"); text.textContent = this._gameplanRuntime.ngGameplanSummary(s.plan); box.appendChild(text);
-    const current = document.createElement("p"); current.setAttribute("data-gameplan-current", "1"); current.setAttribute("aria-live", "polite"); box.appendChild(current);
-    const details = document.createElement("details"), summary = document.createElement("summary");
-    summary.textContent = "Why these decks?"; summary.style.cssText = "cursor:pointer;min-height:44px;display:flex;align-items:center;";
-    details.appendChild(summary);
-    const explanation = document.createElement("p");
-    // PLAIN COPY (item 9, owner 2026-09-30): what the order means, then the ranking's own caveats.
-    explanation.textContent = "Reviews come back on your memory schedule, so they come first. New techniques are ranked by how much practising them would help your game. " +
-      "Correct answers make your moves more likely to work in the game; that is not a measure of real grappling. A question two decks share counts once. " +
-      s.plan.assumptions.join(" ");
-    details.appendChild(explanation); box.appendChild(details);
+    box.style.cssText = "line-height:1.55;padding:4px 4px 16px;overflow-wrap:anywhere;";
+    box.innerHTML = '<p></p><p data-gameplan-current="1" aria-live="polite"></p>';
+    if (!s.plan) {
+      box.firstChild.textContent = this._gameplanLoadingText(); box.firstChild.setAttribute("data-gameplan-loading", "1");
+    } else {
+      const details = document.createElement("details");
+      details.innerHTML = '<summary>Why these decks?</summary><p></p>';
+      // PLAIN COPY (item 9, owner 2026-09-30): what the order means, then the ranking's own caveats.
+      details.lastChild.textContent = "Reviews come back on your memory schedule, most overdue first. New techniques, ranked by how much practising them would help your game, are mixed in: a new technique after every few reviews. " +
+        "Correct answers make your moves more likely to work in the game; that is not a measure of real grappling. A question two decks share counts once. " +
+        s.plan.assumptions.join(" ");
+      box.appendChild(details);
+    }
     box.appendChild(this._gameStudyPanel());
-    const refresh = document.createElement("button"); refresh.type = "button"; refresh.setAttribute("data-gameplan-refresh", "1");
-    refresh.textContent = "Refresh plan"; refresh.style.cssText = "min-height:44px;padding:8px 12px;cursor:pointer;font:inherit;color:#dce6fc;background:#24314b;border:1px solid #62749a;border-radius:8px;";
-    refresh.addEventListener("click", () => this.openPlanSession(s.anchor, "refresh-plan")); box.appendChild(refresh);
+    const refresh = this.drillBtn(s.plan ? "Refresh plan" : "Open study plan");
+    refresh.setAttribute(s.plan ? "data-gameplan-refresh" : "data-gameplan-load", "1");
+    refresh.onclick = () => this.openPlanSession(s.anchor, s.plan ? "refresh-plan" : "open-plan"); box.appendChild(refresh);
     return box;
   }
   /**
@@ -5944,7 +5922,7 @@ class Component extends DCLogic {
       return row && row.row && row.row.offsetParent !== null ? reg : null;
     }
     if (lesson) return null; // and a corridor row is not drivable from another tab either
-    if (this._sessionInline()) return reg;
+    if (this._sessionInline()) return this._openMini?.rid === rid && this._openMini.el.isConnected && this._openMini.el.offsetParent !== null ? reg : null;
     if (this.deckShown && this._viewMode === "history" && this._drillView === "home") return reg;
     return null;
   }
@@ -5968,92 +5946,109 @@ class Component extends DCLogic {
    * surface has to be the number the user pressed (see _exploreStatsRow).
    */
   renderSession() {
-    const list = this.drillListRef.current; const s = this._session; if (!list || !s) return;
-    // THIS SURFACE IS NOW THE PANE BODY, so the one-card drill is closed by definition. Declared
-    // here rather than at each entry point: `_sessionInline()` and `_onDeckHydrated` both read
-    // `this.deck` to tell the two surfaces apart, and a stale entry left over from an earlier
-    // study would let a late-landing chunk repaint renderDrill straight over the queue.
+    const list = this.drillListRef.current, s = this._session;
+    if (!list || !s) return;
     this.deck = null; this.drillEntries = null; this._studyOpen = null; this._inSession = false;
-    const decks = (this.flashcards && this.flashcards.decks) || {};
-    const n = s.keys.length;
-    if (s.plan || s.review) this._gameplanProgress(s);
-    // D2 (owner, 2026-09-30; copy FGD13). The plan's extra list (rows past `required`) is LOCKED
-    // until the session is done. Finishing ends the session with "All done, come back tomorrow" and,
-    // AFTER it, the "Find more weaknesses" action, which is what opens the extra list: `s.unlocked`,
-    // set only by that action and kept for this plan (a new day does not re-lock it).
-    const extra = s.plan ? n - s.required : 0, locked = extra > 0 && !s.unlocked;
-    const daily = !!(s.plan || s.review), complete = daily && s.live.complete;
-    this.setDrillHeader(s.label, s.sub || (n + (n === 1 ? " technique" : " techniques")), n ? this._sessionDone(s) + "/" + n : "");
-    list.innerHTML = "";
-    // the registry is rebuilt with the rows it indexes, exactly as renderDrillHome does
+    list.replaceChildren();
     this._miniReg = {}; this._sessionPaint = {}; this._openMini = null; this._openRow = null; this._focusRow = null;
-    if (s.plan) list.appendChild(this._gameplanIntro(s));
-    else if (s.review) list.appendChild(this._gameplanWaitingIntro(s));
+    this._sessionOpeners = [];
+    if (s.practice) { this._renderPractice(s, list); return; }
+    const n = s.keys.length;
+    this.setDrillHeader(s.label, s.sub || n + " techniques", this._sessionDone(s) + "/" + n);
     if (!n) {
-      const empty = document.createElement("div");
-      empty.setAttribute("data-session-empty", "1");
-      empty.style.cssText = "padding:26px 8px;font-size:12.5px;line-height:1.6;color:#7e8aa3;";
-      empty.textContent = s.plan ? "Nothing to review or learn right now." : s.filter === "due"
-        ? "Nothing due right now. Answer cards anywhere — in a roll or here — and they come back on a spaced-repetition schedule."
-        : "No gaps left in this tier. Roll into somewhere new and it will show up here.";
-      list.appendChild(empty);
-      if (s.plan || s.review) this._paintGameplanProgress(s);
-      return;
+      const empty = document.createElement("p"); empty.setAttribute("data-session-empty", "1");
+      empty.textContent = "Nothing to practise here right now."; list.appendChild(empty); return;
     }
-    if (!daily && this._sessionDone(s) >= n) { list.appendChild(this._sessionDoneCard(s)); return; }
-    const wrap = document.createElement("div");
-    wrap.setAttribute("data-session", "1");
-    wrap.style.cssText = "display:flex;flex-direction:column;";
-    if (s.plan) wrap.appendChild(this._planGoalHead(s));
-    const openers = [];
-    const secAt = {};
-    for (const sec of (s.sections || [])) secAt[sec.at] = sec;
-    // the opened extra list is its own block, dealt AFTER the session's end card
-    const more = document.createElement("div"); more.setAttribute("data-plan-extra", "1"); more.style.cssText = "display:flex;flex-direction:column;";
-    if (extra > 0) secAt[s.required] = { label: "More weaknesses", note: extra.toLocaleString("en-US") + " more " + (extra === 1 ? "technique" : "techniques") + ", " +
-      (s.plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") };
-    const limit = locked ? s.required : s.shown ? Math.min(s.keys.length, s.shown) : s.keys.length;
-    if (s.plan) this._sessionNodes = s.keys.slice(0, limit).map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // rings follow the unlock
+    if (this._sessionDone(s) >= n) { list.appendChild(this._sessionDoneCard(s)); return; }
+    const wrap = document.createElement("div"); wrap.setAttribute("data-session", "1");
     s.keys.forEach((key, i) => {
-      if (i >= limit) { openers.push(null); return; }
-      const host = s.plan && i >= s.required ? more : wrap;
-      const sec = secAt[i];
-      if (sec) {
-        const h = document.createElement("div");
-        h.setAttribute("data-session-section", sec.label);
-        h.style.cssText = "display:flex;flex-wrap:wrap;align-items:baseline;gap:7px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#6b7691;font-weight:700;padding:" + (i ? "14px" : "2px") + " 2px 7px;";
-        h.innerHTML = "<span>" + sec.label + "</span><span style=\"letter-spacing:0;text-transform:none;font-size:10.5px;font-weight:500;color:#5d6883;\">" + sec.note + "</span>";
-        host.appendChild(h);
-      }
-      const r = this._sessionRow(key, i, s, decks);
-      host.appendChild(r.el);
-      openers.push(r.open);
+      const row = this._sessionRow(key, i, s, this.flashcards?.decks || {});
+      wrap.appendChild(row.el); this._sessionOpeners.push(row.open);
     });
     list.appendChild(wrap);
-    // the session's END: the celebration once it is done (with the action after it), the lock before
-    if (complete && (s.plan || s.live.total > 0)) list.appendChild(this._sessionDoneCard(s));
-    else if (locked) list.appendChild(this._planLockBlock(extra));
-    if (more.children.length) list.appendChild(more);
-    this._sessionOpeners = openers;
-    // INFINITE SCROLL, one page at a time, and deliberately a BUTTON rather than a scroll
-    // listener: the pane's scroller is shared with the open mini-deck, and appending rows under
-    // a card the user is mid-answer moves it out from under them.
-    if (!locked && limit < s.keys.length) {
-      const more = document.createElement("button");
-      more.type = "button";
-      more.setAttribute("data-session-more", String(s.keys.length - limit));
-      more.textContent = "Show " + Math.min(10, s.keys.length - limit) + " more \u00b7 " + (s.keys.length - limit) + " left in the ranking";
-      more.style.cssText = "width:100%;margin:10px 0 2px;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:600;padding:10px;border-radius:10px;border:1px solid rgba(150,170,210,.2);background:rgba(255,255,255,.03);color:#9aa6bd;";
-      more.addEventListener("click", () => { s.shown = limit + 10; this.renderSession(); });
-      list.appendChild(more);
-    }
-    // LAND ON A CARD, NOT ON A BUTTON. The old surface made you press "Start session" before it
-    // would show you anything; the queue's whole point is that the first question is already here.
-    const at = Math.max(0, Math.min(n - 1, s.idx || 0));
-    if (openers[at] && !complete) openers[at]();
-    { const foot = this.drillFootRef.current; if (foot) { foot.innerHTML = ""; foot.style.display = "flex"; foot.appendChild(this._sessionFoot(s)); } }
-    if (s.plan || s.review) this._paintGameplanProgress(s);
+    this._sessionOpeners[Math.max(0, Math.min(n - 1, s.idx || 0))]?.();
+    const foot = this.drillFootRef.current;
+    if (foot) { foot.replaceChildren(this._sessionFoot(s)); foot.style.display = "flex"; }
   }
+
+  _renderPractice(s, list) {
+    s.started ??= this.practiceToday().done;
+    this._gameplanProgress(s);
+    this.setDrillHeader("Practice", "", "");
+    // This fixed skeleton is owned by the page; the shared card renderer fills its first section.
+    list.innerHTML = '<div data-plan-goal="1" style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;font-size:11.5px;font-weight:600"><span data-plan-goal-progress="1" aria-live="polite" style="color:#9ab0e0;white-space:nowrap"></span><span data-practice-goal="1"></span></div><section data-session="1" class="ng-practice-cards"><div data-practice-section="1"></div></section><div class="ng-practice-nav"></div><div data-practice-keys="1"></div><div data-practice-end="1"><div></div></div><div></div><div><details data-practice-details="1"><summary>Practice details &amp; session queue</summary><div data-practice-queue="1"></div><p data-session-section="Practice"></p><div></div></details></div>';
+    const [goal, wrap, nav, keys, end, corridor, support] = list.children, details = support.firstChild;
+    s.goal = goal; s.rows = wrap; s.heading = wrap.firstChild; s.corridor = corridor; s.support = support; s.end = end;
+    s.queue = details.children[1]; s.count = details.children[2]; s.explanation = details.children[3]; s.completion = end.firstChild;
+    keys.innerHTML = this._keyLegend();
+    for (const [text, dir] of [["‹ Previous technique", -1], ["Next technique →", 1]]) {
+      const b = this.drillBtn(text); b.onclick = () => this.sessionNav(dir); nav.appendChild(b);
+    }
+    s.explanation.appendChild(this._gameplanIntro(s));
+    const more = s.more = this.drillBtn("Keep practising · more new cards", true);
+    more.setAttribute("data-plan-more", "1");
+    more.onclick = () => {
+      if (!s.plan) { this.openPlanSession(s.anchor, "open-plan"); return; }
+      const at = s.keys.length;
+      this.track("neural_find_more_weaknesses", { techniques: Math.min(10, s.plan.more.length), ranking: s.plan.status });
+      this._practiceAppend(s, s.plan, s.plan.more.slice(0, 10));
+      this._sessionOpeners[at]?.(); this._scrollFocusedDeck();
+    };
+    end.appendChild(more);
+    this._practiceCorridor(); this._practiceRows(s);
+    this._sessionOpeners[Math.max(0, Math.min(s.keys.length - 1, s.idx || 0))]?.();
+    if (!s.keys.length) {
+      const empty = document.createElement("p"); empty.setAttribute("data-session-empty", "1");
+      empty.textContent = s.plan ? "Nothing to practise here right now." : this._gameplanLoadState === "failed" ? "Open study plan to retry." : "Loading cards…";
+      wrap.appendChild(empty);
+    }
+    const foot = this.drillFootRef.current; if (foot) foot.style.display = "none";
+    this._paintGameplanProgress(s);
+  }
+
+  _practiceRows(s) {
+    if (!s.rows?.isConnected) return;
+    for (let i = this._sessionOpeners.length; i < s.keys.length; i++) {
+      const key = s.keys[i], row = this._sessionRow(key, i, s, this.flashcards?.decks || {});
+      s.rows.appendChild(row.el); this._sessionOpeners.push(row.open);
+      const jump = document.createElement("button"); jump.type = "button";
+      jump.textContent = key.replace("|", " · ");
+      jump.onclick = () => { row.open(); this._scrollFocusedDeck(); }; s.queue.appendChild(jump);
+    }
+    this._sessionNodes = s.keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // camera + rings: never aim at an orb this ruleset does not draw
+    if (s.keys.length) s.rows.querySelector("[data-session-empty]")?.remove();
+  }
+
+  _paintPractice(s) {
+    const worn = this.wornBelt(), p = s.live, count = (n, noun) => n + " " + noun + (n === 1 ? "" : "s");
+    const cards = (n) => count(n, "card"), techs = (n) => count(n, "technique");
+    const [progress, goal] = s.goal.children, today = this.practiceToday();
+    goal.textContent = "Daily goal: " + this._practiceGoalText(today);
+    goal.style.color = today.done >= today.goal ? "#7ee0a8" : "#7e8aa3";
+    progress.textContent = p.total ? "Reviewed " + p.completed + "/" + p.total : "Nothing left to review";
+    const due = s.plan ? s.plan.due : s.review.rows, row = due.find(r => r.key === s.keys[s.idx]);
+    const label = row ? "Due reviews · " + cards(p.dueCards) : ngBeltDisplayName(worn.id) + " practice";
+    s.heading.textContent = label;
+    s.rows.style.setProperty("--practice-belt", NG_CHALLENGE_TRACK_COLORS[worn.id]);
+    // Each half only when it has something to say (SIDE-R2 M6): no plan makes no claim about new work.
+    s.count.textContent = [p.dueCards ? cards(p.dueCards) + " to review across " + techs(due.length) : "", s.plan?.fresh.length ? s.plan.newCards + " new across " + techs(s.plan.fresh.length) + ", " +
+      (s.plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") : ""].filter(Boolean).join(" \u00b7 ");
+    const more = s.more;
+    more.disabled = !!s.plan && !s.plan.more.length;
+    if (s.plan && !s.explanation.querySelector("[data-gameplan-refresh]")) s.explanation.replaceChildren(this._gameplanIntro(s));
+    if (s.plan) s.explanation.firstChild.firstChild.textContent = this._gameplanRuntime.ngGameplanSummary(s.plan);
+    const title = this.drillHeadRef.current.querySelector("[data-practice-belt]");
+    if (title) title.textContent = ngBeltDisplayName(worn.id) + " · " + count(worn.stripes, "stripe") + " · " + (this._giMode === "nogi" ? "No-gi" : "Gi");
+  }
+
+  _practiceCorridor() {
+    const s = this._session;
+    if (!s?.practice || !s.corridor) return;
+    s.belt = this.wornBelt().id;
+    s.corridor.replaceChildren();
+    this.renderChallenges(s.corridor, true);
+  }
+
   /** Due work resolves by reviewed questions; curriculum lessons retain their own credit goal. */
   _sessionDone(s) {
     if (s.plan || s.review) return this._gameplanProgress(s).rows.filter((r) => r.done).length;
@@ -6070,6 +6065,7 @@ class Component extends DCLogic {
     const ncards = this._deckCardCount(d);
     const rid = "s" + i;
     const box = document.createElement("div");
+    if (s.practice) box.hidden = true;
     const r = document.createElement("button"); r.type = "button";
     r.setAttribute("data-session-row", key);
     r.setAttribute("data-session-idx", String(i));
@@ -6079,10 +6075,9 @@ class Component extends DCLogic {
     // instead of rebuilding the list underneath the card the user is reading
     const paint = () => {
       const progress = (s.plan || s.review) && s.live && s.live.rows.find((r) => r.key === key);
-      const dueQs = !(s.plan || s.review) && s.filter === "due" ? this.duePool().filter((r) => r.key === key) : null;
       const done = this._sessionRowDone(s, key);
-      const goal = progress ? progress.count : dueQs ? dueQs.length : this._deckGoal(key);
-      const prep = progress ? progress.completed : dueQs ? 0 : Math.min((this.prep && this.prep[key]) || 0, goal);
+      const goal = progress ? progress.count : this._deckGoal(key);
+      const prep = progress ? progress.completed : Math.min((this.prep && this.prep[key]) || 0, goal);
       const open = detail.style.display !== "none";
       if (done) r.setAttribute("data-session-done", "1"); else r.removeAttribute("data-session-done");
       r.setAttribute("aria-expanded", String(open));
@@ -6090,10 +6085,14 @@ class Component extends DCLogic {
         (done ? "rgba(110,214,160,.42)" : open ? "rgba(150,180,255,.5)" : "rgba(150,170,210,.12)") + ";background:" +
         (done ? "rgba(28,58,44,.5)" : open ? "rgba(58,72,118,.5)" : "rgba(255,255,255,.025)") + ";";
       const label = this._deckCountLabel(key, true);
+      // PRACTICE'S MIX, said per row (U56 e): a review or a new deck, read from the plan's own rows
+      const kind = s.plan ? s.plan.due.some((x) => x.key === key) ? "due" : s.plan.fresh.some((x) => x.key === key) ? "new" : "" : s.review ? s.review.rows.some(x => x.key === key) ? "due" : "new" : "";
+      if (kind) r.setAttribute("data-practice-kind", kind);
       r.innerHTML =
         '<span style="width:9px;height:9px;border-radius:' + (cat === "Position" ? "50%" : "2px") + ';background:' + (done ? "#7ee0a8" : (catCol[cat] || "#9fb0d8")) + ';flex:none;"></span>' +
         '<div style="flex:1;min-width:0;"><div style="font-size:13px;font-weight:600;color:' + (done ? "#bff0d2" : "#eef1f6") + ';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + fam + '</div>' +
-        '<div style="font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#7e8aa3;font-weight:600;margin-top:1px;">' + cat + ' · ' + role + '</div></div>' +
+        '<div style="font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#7e8aa3;font-weight:600;margin-top:1px;">' + cat + ' · ' + role +
+        (kind ? ' · <span style="color:' + (kind === "due" ? "#e9bd70" : "#9ab0e0") + ';">' + (kind === "due" ? "Review" : "New") + '</span>' : '') + '</div></div>' +
         (done
           ? '<span data-session-tick="1" style="flex:none;color:#7ee0a8;font-size:13px;font-weight:700;">✓</span>'
           : !ncards
@@ -6108,6 +6107,7 @@ class Component extends DCLogic {
     };
     const closeSelf = () => {
       detail.style.display = "none";
+      if (s.practice) box.hidden = true;
       if (this._openRow === rid) this._openRow = null;
       if (this._focusRow === rid) this._focusRow = null;
       if (this._openMini && this._openMini.rid === rid) this._openMini = null;
@@ -6122,18 +6122,17 @@ class Component extends DCLogic {
       // contract) while a "learn next" row shows the whole deck — and the plan queue holds both,
       // so a single session-level `filter` would narrow the wrong half.
       const planned = (s.plan ? s.plan.due.concat(s.plan.fresh) : s.review ? s.review.rows : []).find((r) => r.key === key);
-      const extraRow = !planned && s.plan ? s.plan.more.find((r) => r.key === key) : null;   // an unlocked extra: whole deck, its reason
-      const only = planned ? (this._cardsOf(deck) || []).filter((c) => planned.questions.includes(this.qhash(c.q)))
-        : (s.filter === "due" || i < (s.dueUntil || 0)) ? this._entryForKey(key, "due").cards : null;
-      if (planned || extraRow) {
+      const only = planned ? (this._cardsOf(deck) || []).filter((c) => planned.questions.includes(this.qhash(c.q))) : null;
+      const explanation = document.createElement("div");
+      if (planned) {
         const why = document.createElement("p"); why.setAttribute("data-gameplan-reason", key);
         why.style.cssText = "font-size:12px;line-height:1.5;color:#aab9d5;padding:0 12px;overflow-wrap:anywhere;";
         // ONE PLAIN SENTENCE PER CARD (item 9, owner 2026-09-30); the caveats live once, under
         // "Why these decks?". The row's own subtitle already names the role.
         why.textContent = planned && planned.kind === "due"
           ? planned.count + (planned.count === 1 ? " card" : " cards") + " due for review, so you keep what you've learned."
-          : (planned || extraRow).reason;
-        detail.appendChild(why);
+          : planned.reason;
+        explanation.appendChild(why);
         if (planned && planned.related && planned.related.length) {
           const shared = document.createElement("details"), label = document.createElement("summary");
           label.textContent = "Shares cards with " + planned.related.length + " other " + (planned.related.length === 1 ? "deck" : "decks");
@@ -6143,7 +6142,7 @@ class Component extends DCLogic {
             const p = document.createElement("p"); p.style.cssText = "font-size:11.5px;line-height:1.5;color:#aab9d5;padding:0 12px;";
             p.textContent = related.key.replace("|", " · ") + ": " + related.reason; shared.appendChild(p);
           }
-          detail.appendChild(shared);
+          explanation.appendChild(shared);
         }
       }
       detail.appendChild(ncards && resident && (!only || only.length)
@@ -6151,6 +6150,7 @@ class Component extends DCLogic {
         // finished, walks the queue on — the session's whole reason to be a queue.
         ? this._miniDeck(key, deck, false, rid, () => { paint(); this._sessionGraded(s, i); }, only)
         : this._miniDeckEmpty({ key: key }));
+      detail.appendChild(explanation);
       // authored but not here yet: opening the row IS the request for it (and, after a dropped
       // chunk, the retry) — same contract as the roll history's rows.
       if (ncards && !resident) {
@@ -6165,15 +6165,21 @@ class Component extends DCLogic {
     };
     const open = () => {
       if (this._openMini && this._openMini.rid !== rid) this._openMini.close();  // accordion: one at a time
-      if (!built || s.plan || s.filter === "due") { built = true; build(); }
+      if (!built || s.plan) { built = true; build(); }
       detail.style.display = "block";
+      box.hidden = false;
       s.idx = i;
       this._openRow = rid; this._focusRow = rid;
       this._openMini = { rid: rid, el: detail, close: closeSelf };
       paint();
+      if (s.practice) {
+        if (s.belt !== this.wornBelt().id) { s.earlier = false; this._practiceCorridor(); }
+        detail.tabIndex = -1; detail.focus({ preventScroll: true }); this._paintPractice(s);
+      }
       const ni = this.nodeForKey(key); if (ni >= 0) this.locateNode(ni);   // the graph follows the queue
     };
-    r.addEventListener("click", () => { if (detail.style.display !== "none") closeSelf(); else { open(); this._scrollFocusedDeck(); } });
+    // Practice shows one row, so collapsing it would take its own title away: there it only ever opens.
+    r.addEventListener("click", () => { if (detail.style.display === "none") { open(); this._scrollFocusedDeck(); } else if (!s.practice) closeSelf(); });
     paint();
     box.appendChild(r); box.appendChild(detail);
     this._sessionPaint = this._sessionPaint || {};
@@ -6194,7 +6200,11 @@ class Component extends DCLogic {
     for (const paint of Object.values(this._sessionPaint || {})) paint();
     if (!this._sessionRowDone(s, s.keys[i])) return;
     const n = s.plan ? s.required : s.keys.length;
-    if (s.plan || s.review ? s.live.complete : this._sessionDone(s) >= n) { this.renderSession(); return; }
+    if (s.plan || s.review ? s.live.complete : this._sessionDone(s) >= n) {
+      // Practice's end card is already painted under the card, so a grade never rebuilds the page.
+      if (s.practice) s.end.scrollIntoView({ block: "nearest" }); else this.renderSession();
+      return;
+    }
     const nextAt = (() => {
       for (let d = 1; d <= n; d++) { const j = (i + d) % n; if (!this._sessionRowDone(s, s.keys[j])) return j; }
       return -1;
@@ -6214,21 +6224,23 @@ class Component extends DCLogic {
   }
   /** The pinned foot: how far through the queue you are, and the keys that drive it. */
   _sessionFoot(s) {
-    const p = (s.plan || s.review) && (s.live || this._gameplanProgress(s));
-    const n = p ? p.total : s.keys.length, done = p ? p.completed : this._sessionDone(s);
+    // Daily Practice owns its progress above the card; this footer serves other queues.
+    const n = s.keys.length, done = this._sessionDone(s);
     const el = document.createElement("div");
     el.setAttribute("data-session-foot", "1");
     el.style.cssText = "display:flex;flex-direction:column;gap:7px;width:100%;";
-    const kb = '<span style="display:inline-block;min-width:13px;text-align:center;padding:1px 3px;border-radius:3px;background:rgba(255,255,255,.06);color:#9aa6bd;">';
     el.innerHTML =
       '<div style="display:flex;align-items:center;gap:9px;">' +
         '<div style="flex:1;height:4px;border-radius:2px;background:rgba(150,170,210,.16);overflow:hidden;"><div style="height:100%;width:' + Math.round((done / Math.max(1, n)) * 100) + '%;border-radius:2px;background:linear-gradient(90deg,#4a9c74,#7ee0a8);transition:width .3s;"></div></div>' +
-        '<span style="flex:none;font-size:10.5px;font-weight:700;color:' + (done ? "#7ee0a8" : "#7e8aa3") + ';">' + done + ' of ' + n + (p ? ' cards' : '') + '</span>' +
-      '</div>' +
-      '<div style="display:flex;align-items:center;justify-content:center;gap:10px;font-size:9.5px;font-weight:600;letter-spacing:.02em;color:#6b7691;">' +
-        kb + '←→</span> card<span style="color:#3d4761;">·</span>' + kb + '↑↓</span> technique<span style="color:#3d4761;">·</span>' + kb + 'space</span> flip' +
-      '</div>';
+        '<span style="flex:none;font-size:10.5px;font-weight:700;color:' + (done ? "#7ee0a8" : "#7e8aa3") + ';">' + done + ' of ' + n + '</span>' +
+      '</div>' + this._keyLegend();
     return el;
+  }
+  /** The keys that drive a queue: the pinned foot's last line, and on Practice's page a line under the card. */
+  _keyLegend() {
+    const kb = '<span style="display:inline-block;min-width:13px;text-align:center;padding:1px 3px;border-radius:3px;background:rgba(255,255,255,.06);color:#9aa6bd;">', dot = '<span style="color:#3d4761;">·</span>';
+    return '<div style="display:flex;align-items:center;justify-content:center;gap:10px;font-size:9.5px;font-weight:600;letter-spacing:.02em;color:#6b7691;">' +
+      kb + '←→</span> card' + dot + kb + '↑↓</span> technique' + dot + kb + 'space</span> flip</div>';
   }
   /**
    * THE END OF A SESSION, BUILT IN ONE PLACE (v1.137.0). The inline queue and `renderDrill`'s
@@ -6250,13 +6262,12 @@ class Component extends DCLogic {
     const done = document.createElement("div");
     done.setAttribute(valid ? "data-session-complete" : "data-session-incomplete", "1");
     done.style.cssText = "margin-top:auto;background:rgba(28,46,38,.5);border:1px solid rgba(110,224,168,.35);border-radius:12px;padding:20px 16px;text-align:center;animation:ngCardIn .3s ease both;";
-    // FGD13 (owner, 2026-09-30): the daily session ends on "All done, come back tomorrow", and AFTER
-    // it offers the Continue action, "Find more weaknesses" (below the week plot). A lesson session
-    // keeps "Session complete".
+    // Completion describes this obligation. Practice keeps its separate continuation
+    // control available before and after completion, including beyond the daily goal.
     const due = this.dueCount();
     done.innerHTML =
       '<div style="font-size:26px;margin-bottom:10px;">\uD83C\uDF89</div>' +
-      '<div data-session-done-title="1" style="font-size:15px;font-weight:700;color:#bff0d2;margin-bottom:6px;">' + (!valid ? 'Reviews still need attention' : live ? 'All done, come back tomorrow' : 'Session complete') + '</div>' +
+      '<div data-session-done-title="1" style="font-size:15px;font-weight:700;color:#bff0d2;margin-bottom:6px;">' + (!valid ? 'Reviews still need attention' : 'Session complete') + '</div>' +
       '<div style="font-size:11.5px;color:#9ab3a4;line-height:1.5;margin-bottom:14px;">' +
       (!live ? 'The lesson goals in this session are complete. ' : live.total ? 'You reviewed ' + live.completed + ' of ' + live.total + ' cards today. ' : "You've met today's goal. ") +
       (due ? due + (due === 1 ? ' card is' : ' cards are') + ' due now.' : '') + '</div>';
@@ -6272,27 +6283,7 @@ class Component extends DCLogic {
     plot.style.cssText = "background:rgba(255,255,255,.03);border:1px solid rgba(150,170,210,.12);border-radius:12px;padding:14px 12px 10px;margin-bottom:14px;";
     plot.innerHTML = '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin-bottom:10px;">This week</div>' + bars;
     done.appendChild(plot);
-    const extra = ses.plan ? ses.keys.length - ses.required : 0;
-    if (valid && extra > 0 && !ses.unlocked) {
-      // THE CONTINUE ACTION (FGD13): opens the plan's extra list and lands on its first deck
-      const go = document.createElement("button"); go.type = "button"; go.setAttribute("data-plan-more", String(extra));
-      go.style.cssText = "display:block;width:100%;min-height:44px;margin:0 0 10px;cursor:pointer;font-family:inherit;font-size:13px;font-weight:700;padding:10px 14px;border-radius:10px;border:1px solid rgba(126,224,168,.55);background:rgba(126,224,168,.14);color:#bff0d2;";
-      go.innerHTML = 'Find more weaknesses<span style="display:block;margin-top:2px;font-size:10.5px;font-weight:500;color:#8fb8a0;"></span>';
-      go.querySelector("span").textContent = extra.toLocaleString("en-US") + " more " + (extra === 1 ? "technique" : "techniques") + ", " +
-        (ses.plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison");
-      go.addEventListener("click", () => {
-        if (this._session !== ses) return;
-        ses.unlocked = true; ses.idx = ses.required;
-        this.track("neural_find_more_weaknesses", { techniques: extra, ranking: ses.plan.status });
-        this.renderSession();
-        const op = this._sessionOpeners && this._sessionOpeners[ses.required];
-        if (op) { op(); this._scrollFocusedDeck(); }
-      });
-      done.appendChild(go);
-    }
-    const close = document.createElement("button");
-    close.textContent = "Close";
-    close.style.cssText = "cursor:pointer;font-family:inherit;font-size:12.5px;font-weight:600;padding:9px 18px;border-radius:10px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#aeb6c8;";
+    const close = this.drillBtn("Close");
     close.addEventListener("click", () => { this._session = null; this._sessionNodes = null; this._inSession = false; this.setDeckOpen(false); });
     done.appendChild(close);
     return done;
@@ -6313,7 +6304,9 @@ class Component extends DCLogic {
     // would ever refresh the snapshot and the surface would sit on "being authored" for good.
     this._studyOpen = key;
     if (!this._deckResident(key)) this.hydrateDeck(key).then(() => this._restudy(key));
-    this.drillEntries = [this._entryForKey(key, this._session && this._session.filter)]; // due sessions stay due-only
+    const s = this._session;
+    const due = (s?.plan ? s.plan.due : s?.review?.rows || []).some(r => r.key === key);
+    this.drillEntries = [this._entryForKey(key, due ? "due" : null)];
     this._posKey = key; this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
     this._gameValueChanged("position-key");
     this._inSession = true;
@@ -6438,7 +6431,6 @@ class Component extends DCLogic {
       host.appendChild(add);
     }
   }
-  modifierCount() { const p = this.prep || {}; return Object.keys(p).filter((k) => p[k] > 0).length; }
   openAuth(mode) { this._authMode = mode || "create"; this.openModal(); this.renderAuth(); }
   // ---------- real auth via the page's Supabase facade (window.__bjjAuth, see supabase.ts) ----------
   _auth() { const A = window.__bjjAuth; return (A && typeof A.isAuthenticated === "function") ? A : null; }
@@ -6562,6 +6554,8 @@ class Component extends DCLogic {
         for (const k in (cloud.prep || {})) prep[k] = Math.max(prep[k] || 0, cloud.prep[k] || 0);
         for (const d in (cloud.days || {})) days[d] = Math.max(days[d] || 0, cloud.days[d] || 0);
         this.prep = prep; this._days = days;
+        const rollDays = (this._rollDays = this._rollDays || {});   // the same per-day MAX as `days`
+        for (const d in (cloud.rollDays || {})) rollDays[d] = Math.max(rollDays[d] || 0, cloud.rollDays[d] || 0);
         // v2 fields: per-key MAX for rec/stage/challenges, UNION for durable proof.
         const rec = this.rec || {}, stage = this.stage || {};
         const cRec = cloud.v === 2 ? (cloud.rec || {}) : (cloud.prep || {}); // v1 cloud grandfathers
@@ -6754,22 +6748,16 @@ class Component extends DCLogic {
     this._renderLocalOnly();
     const chip = this.acctChipRef.current; if (!chip) return;
     const cta = this.acctCtaRef.current;
-    if (!this.user && this._progressLocalOnly) {
-      // An account's progress, played unverified: never "Guest", and no create-account nudge.
-      chip.children[0].textContent = "Offline";
-      chip.children[1].textContent = "!";
-      if (cta) cta.style.display = "none";
-    } else if (this.user) {
-      chip.children[0].textContent = this.user.name;
-      const av = chip.children[1]; av.textContent = this.user.initial;
-      av.style.background = "linear-gradient(135deg,#1f8a5b,#2a6fdb)";
-      if (cta) cta.style.display = "none";
-    } else {
-      chip.children[0].textContent = "Guest";
-      chip.children[1].textContent = "G";
-      if (cta) cta.style.display = "";
-    }
-    if (this.deckShown) this.renderPaneAnchor(); // auth state flips the anchor's save nudge
+    const name = chip.querySelector("b"), av = chip.querySelector(".ng-badge-av");
+    // An account's progress, played unverified: never "Guest", and no create-account nudge.
+    const offline = !this.user && this._progressLocalOnly;
+    name.textContent = offline ? "Offline" : this.user ? this.user.name : "Guest";
+    av.textContent = offline ? "!" : this.user ? this.user.initial : "G";
+    av.style.background = this.user ? "linear-gradient(135deg,#1f8a5b,#2a6fdb)" : "";
+    // THE GUEST'S SAVE OFFER (round 4's calmer one, after G7 e): the pill coded since v1.99 and never
+    // placed (the U49 inventory found it) sits in the guest's badge, beside today's numbers.
+    if (cta) cta.style.display = this.user || offline ? "none" : "";
+    this._paintBadge();
     if (this._acctMenuOpen) this.renderAccountMenu(); // …and the menu's auth rows, if it's up
     const explorer = this.explorerRef.current;
     if (
@@ -6813,15 +6801,31 @@ class Component extends DCLogic {
       this.closeAccountMenu();
     };
     document.addEventListener("pointerdown", this._acctMenuAway, true);
+    // THE MENU IS REACHED BY KEYS (SIDE-R2 M7): it is portaled out of the drawer, so Tab from the badge
+    // never arrived in it. Opening moves focus to its first item; the arrows, Home and End walk the items
+    // (`role=menu`'s own keys), Tab leaves it, and closing hands focus back to the badge.
+    if (!m._ngKeys) {
+      m._ngKeys = true;
+      m.addEventListener("keydown", (e) => {
+        const items = Array.from(m.querySelectorAll('[role="menuitem"]')), i = items.indexOf(document.activeElement);
+        const to = { ArrowDown: i + 1, ArrowUp: i - 1, Home: 0, End: items.length - 1 }[e.key];
+        if (e.key === "Tab") { this.closeAccountMenu(); return; }
+        if (to == null || !items.length) return;
+        e.preventDefault();
+        items[(to + items.length) % items.length].focus();
+      });
+    }
+    const first = m.querySelector('[role="menuitem"]'); if (first && this._kbNav) first.focus({ preventScroll: true });
     this.track("neural_account_menu_opened", { signed_in: !!this.user });
   }
   // returns true when it actually closed something — the Esc handler uses that to stop there
   closeAccountMenu() {
     if (!this._acctMenuOpen) return false;
     this._acctMenuOpen = false;
-    const m = this.acctMenuRef.current;
+    const m = this.acctMenuRef.current, chip = this.acctChipRef.current;
+    if (m && chip && m.contains(document.activeElement)) chip.focus({ preventScroll: true });
     if (m) { m.style.display = "none"; m.removeAttribute("data-open"); }
-    const chip = this.acctChipRef.current; if (chip) chip.setAttribute("aria-expanded", "false");
+    if (chip) chip.setAttribute("aria-expanded", "false");
     if (this._acctMenuAway) { document.removeEventListener("pointerdown", this._acctMenuAway, true); this._acctMenuAway = null; }
     return true;
   }
@@ -6868,6 +6872,7 @@ class Component extends DCLogic {
       b.addEventListener("click", () => { this.closeAccountMenu(); fn(); });
       return b;
     };
+    const auth = [];   // sign in / out goes below Feedback (U46 b's order)
     if (this.user) {
       // the signed-in identity, readable but not a control
       const em = document.createElement("div");
@@ -6876,7 +6881,7 @@ class Component extends DCLogic {
       em.title = this.user.email || this.user.name;
       em.style.cssText = "min-height:44px;display:flex;align-items:center;padding:0 13px;font-size:12px;font-weight:600;color:#8b97b0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:default;";
       m.appendChild(em);
-      m.appendChild(row("data-menu-logout", "Log out", async () => {
+      auth.push(row("data-menu-logout", "Sign out", async () => {
         const A = this._auth(); if (!A || !A.signOut || !this._progressCurrent()) return;
         try {
           const result = await A.signOut();
@@ -6887,8 +6892,7 @@ class Component extends DCLogic {
         }
       }));
     } else {
-      m.appendChild(row("data-menu-create", "Create account", () => this.openAuth("create")));
-      m.appendChild(row("data-menu-login", "Log in", () => this.openAuth("login")));
+      auth.push(row("data-menu-create", "Create account", () => this.openAuth("create")), row("data-menu-login", "Log in", () => this.openAuth("login")));
     }
     // Owner removed the legacy row (2026-10-09); the data layer still supports legacy import.
     const source = this._progressHost && this._progressHost.previewImport(this, "guest");
@@ -6903,17 +6907,24 @@ class Component extends DCLogic {
     sep.setAttribute("data-menu-sep", "1");
     sep.style.cssText = "flex:none;height:1px;margin:5px 4px;background:rgba(150,170,210,.14);";
     m.appendChild(sep);
+    // THE BADGE'S MENU IS SHORT (owner U46 b, U60 b, U67 a): Settings, Feedback, sign in/out;
+    // Terms · Privacy small. What the pane's foot carried moved here (v1.242.0): the gear became
+    // Settings, the two feedback links became one Feedback form, and the
+    // GitHub chip and the legal pair became the small line. Keyboard shortcuts are Settings' own tab.
+    // After opening, more detail is fine (U46 b): the Mastered figure the stat row printed leads it.
+    const gs = this.gameScore(), mastered = row("data-menu-mastered", "Mastered " + this.masteredCount() + " \u00b7 " + Math.round((gs && gs.score ? gs.score : 0) * 100) + "%", () => this.openFlashBrowser("mastered", "Mastered"));
+    m.insertBefore(mastered, sep);
     m.appendChild(row("data-menu-settings", "Settings", () => this.openSettings()));
-    m.appendChild(row("data-menu-shortcuts", "Keyboard shortcuts", () => this.openSettings("shortcuts")));
-    const legal = document.createElement("div");
-    legal.style.cssText = "display:flex;align-items:center;";
-    const lb = (attr, label, kind) => { const b = row(attr, label, () => this.openLegal(kind)); b.style.width = "auto"; return b; };
-    legal.appendChild(lb("data-menu-terms", "Terms", "terms"));
-    const dot = document.createElement("span");
-    dot.style.cssText = "flex:none;width:3px;height:3px;border-radius:50%;background:#3c4358;";
-    legal.appendChild(dot);
-    legal.appendChild(lb("data-menu-privacy", "Privacy", "privacy"));
-    m.appendChild(legal);
+    m.appendChild(row("data-menu-feedback", "Feedback", () => this.openFeedback()));
+    m.append(...auth);
+    const small = document.createElement("div"); small.className = "ng-menu-small";
+    const sb = (attr, label, fn) => { const b = row(attr, label, fn); b.style.cssText = ""; return b; };
+    small.append(sb("data-menu-terms", "Terms", () => this.openLegal("terms")),
+      sb("data-menu-privacy", "Privacy", () => this.openLegal("privacy")));
+    const gh = document.createElement("a"); gh.href = "https://github.com/diogoseca/bjjgraph"; gh.target = "_blank"; gh.rel = "noopener";
+    gh.setAttribute("data-gh-chip", "1"); gh.setAttribute("role", "menuitem"); gh.innerHTML = '<span data-gh-label="1">GitHub</span>';
+    small.appendChild(gh); m.appendChild(small);
+    this.ghChipRef.current = gh; this._refreshGhChip();   // cached a day; a plain link until the count lands
   }
   renderAuth() {
     const card = this.modalCardRef.current; if (!card) return;
@@ -7009,9 +7020,9 @@ class Component extends DCLogic {
       try { stored = localStorage.getItem("bjj_view_mode"); } catch (e) {}
     }
     // History replaced the Collection tab (v1.76.0) — stored `collection` (and legacy `path`)
-    // land on challenges; `tree` stays explore.
+    // land on challenges; `tree` stays explore. Nothing stored lands on the drawer's list (v1.242.0).
     const migrated =
-      stored === "tree" || stored === "explore"
+      !stored || stored === "tree" || stored === "explore"
         ? "explore"
         : stored === "history"
           ? "history"
@@ -7032,6 +7043,12 @@ class Component extends DCLogic {
     // that same belt sync (same "curriculum" reason) and repaints the tab — one seam, the order
     // it already guarantees. Pinned by e2e/gen/holder-restart-tutorial-resets-white-only.spec.ts.
     this._publishKnowledge("curriculum");
+    const s = this._session;
+    if (s?.practice) this._afterPress(() => {
+      if (this._session !== s || !this._sessionInline()) return;
+      this._practiceCorridor();
+      if (!s.keys.length) this.openPlanSession("due", false);
+    });
   }
   setViewMode(m) {
     if (m === "collection") m = "challenges"; // retired tab — its content lives in Challenges now
@@ -7051,22 +7068,7 @@ class Component extends DCLogic {
     this.styleViewToggle();
     this._renderPaneBody();
   }
-  /**
-   * A CLICK on a tab, as distinct from a swipe (v1.195.8). `setViewMode` is the TRANSITION seam
-   * and early-returns on the current tab by design — a transition to where you already are is
-   * nothing — which left the pressed Explore tab a dead click while a Principle, a Learning entry
-   * or a System owned the pane. Owner: "If I click the Explore tab even though it's open, it
-   * should go to the Explore root. Right now clicking the Explore tab doesn't do anything if the
-   * Explore is already open." So the click handler decides: the pressed Explore tab goes HOME
-   * (`_exploreHome`), everything else is the transition it always was. The other two tabs keep
-   * their no-op, and the swipe path (`_paneTabPageTo`) never targets the pressed tab at all, so
-   * neither changes here.
-   */
-  _paneTabClick(view) {
-    if (view === "collection") view = "challenges"; // retired tab, as setViewMode reads it
-    if (view === "explore" && this._viewMode === "explore") { this._exploreHome(); return; }
-    this.setViewMode(view);
-  }
+
   /**
    * THE EXPLORE ROOT: the top-level list, un-drilled and unfiltered. A Principle, a Learning entry
    * or a System is a PAGE rendered in the list's place (reference law, CLAUDE.md §5): `_conceptId`
@@ -7095,88 +7097,118 @@ class Component extends DCLogic {
     this.lastInteract = this.now;
     return true;
   }
-  /**
-   * PAGE THE PANE'S TABS BY GESTURE (v1.147.0, owner: "users try to scroll left and right").
-   * ONE seam for every non-click way to change tab — `dir` is in NAV SPACE: +1 is the tab drawn
-   * to the RIGHT of the active one, -1 the one to its left. Callers hand over a gesture and the
-   * finger→nav conversion happens in `_paneGestureDir`, once, for the same reason `techniqueOrigin`
-   * exists: a direction rule written in two places disagrees with itself exactly once.
-   *
-   * Clamps at both ends, like `_landPageTo`. A pager that WRAPS teaches the wrong map — one swipe
-   * past the end teleports you across the whole nav, and no gesture is left meaning "you are at
-   * the edge".
-   */
-  _paneTabPageTo(dir) {
-    if (!this.deckShown || this._paneStudyActive()) return false; // a study surface owns the pane; its nav is hidden
-    const at = NG_PANE_TABS.indexOf(this._viewMode);
-    if (at < 0) return false;
-    const next = Math.max(0, Math.min(NG_PANE_TABS.length - 1, at + (dir > 0 ? 1 : -1)));
-    if (next === at) return false;
-    const from = NG_PANE_TABS[at];
-    const sign = next > at ? 1 : -1;
-    this.setViewMode(NG_PANE_TABS[next]);
-    this._paneSlideBody(sign);
-    this.fx("pane_tab_paged", { from: from, to: NG_PANE_TABS[next], dir: sign });
-    return true;
+
+
+
+  // ═══ THE DRAWER (owner A5 / E1 / T-b, U45–U56, v1.242.0) ═══════════════════════════════════
+  // One list replaces the three tabs, in the owner's order: Search, Explore (an expandable list of six
+  // categories), Train (Practice, then Path — nothing under them), your lists, Last rolls, and the badge
+  // at the foot. It overlays the map, the legend included; nothing moves when it opens. The VIEW model is
+  // unchanged, so every seam that opens a view (setViewMode, openPane(view), the URL arrivals) still
+  // lands: "explore" IS the home list, and Path / Last rolls open as views whose way back is the brand.
+  styleViewToggle() { if (!this.viewToggleRef?.current) return; this._paintDrawerHead(); this._syncExploreTools(); }
+  drawerHome() {
+    if (this._paneStudyActive()) this._exitStudyTo("explore");
+    else if (this._viewMode !== "explore") this.setViewMode("explore");
+    else this._exploreHome();
+  }
+  _paintDrawerHead() {
+    const b = this.viewToggleRef?.current; if (!b) return;
+    const sub = !this._paneStudyActive() && { challenges: "Path", history: "Last rolls" }[this._viewMode];
+    const html = sub ? "\u2039 " + sub : NG_DRAWER_LOGO + "BJJGraph";
+    if (b._ngHead !== html) { b._ngHead = html; b.innerHTML = html; }
+    b.setAttribute("aria-label", sub ? "Back to the sidebar" : "BJJGraph: the top of the sidebar");
+  }
+  _drawerRow(icon, label, tail, onClick) {
+    const b = document.createElement("button"); b.type = "button"; b.className = "ng-dr-row";
+    b.innerHTML = icon + '<span class="ng-dr-name">' + label + '</span><span class="ng-dr-tail">' + (tail || "") + '</span>';
+    b.addEventListener("click", onClick);
+    return b;
   }
   /**
-   * FINGER → NAV, and the answer to "should it be inverted?": no.
-   *
-   * THE CONTENT FOLLOWS THE FINGER. Dragging leftward pulls the tab on the right into view, so
-   * `dx < 0` is +1. That is UIPageViewController, Android ViewPager2 and every tabbed phone app
-   * the visitor already owns — and it is ALSO this app's own landing card
-   * (`_landPageTo(dx < 0 ? 1 : -1)`, v1.130.0). Two pagers inside one drawer disagreeing about
-   * which way is forward would be the defect, whatever the merits of the other convention.
-   *
-   * THERE IS NO DEVICE PREFERENCE TO READ — written down so nobody goes looking again. No web
-   * API exposes a swipe-direction or "natural scrolling" setting: `navigator`, `matchMedia` and
-   * the pointer events are all silent on it. macOS "natural scrolling" inverts WHEEL deltas
-   * inside the OS, so the browser is handed an already-flipped number and cannot tell; a touch
-   * gesture is never flipped at all, on any platform. The one REAL device signal is WRITING
-   * DIRECTION: under `dir="rtl"` the nav lays itself out history|challenges|explore, so the same
-   * drag must move the other way. Read it off the element that actually laid out — never off a
-   * language guess, because the browser has already done that work and can be overridden per page.
+   * PRACTICE AND PATH (owner U56 e, U60 b): two rows, without a Train header. Practice is the
+   * mixed session (openPlanSession: reviews + new gap cards); its row carries today's goal and what is
+   * owed. It keeps the stat row's handles (`data-explore-stats`, `data-b="due"`) because it IS that
+   * row's due cell, grown up; "N new" and "Mastered" moved (into Practice, and onto the badge).
    */
-  _paneGestureDir(dx, el) {
-    let rtl = false;
-    try { rtl = getComputedStyle(el || this.drillRef.current).direction === "rtl"; } catch (e) {}
-    return (dx < 0 ? 1 : -1) * (rtl ? -1 : 1);
+  // ONE BLOCK FOR THE SESSION (FGD13): every list render re-appends the SAME element and repaints it in
+  // place. _afterPress protects pointer presses; renderExplorer restores its focus across reattachment.
+  _renderTrain(list) {
+    let box = this._trainBox;
+    if (!box) {
+      box = this._trainBox = document.createElement("div"); box.setAttribute("data-explore-stats", "1");
+      // Practice is both old doors, and it opens the way dev's due door did: WITHOUT asking for the study
+      // comparison (SIDE-R2 M9, measured at 390x844 under a 4x CPU throttle: asking fetched game-study.js,
+      // 78,719 B, and added one or two long tasks, ~160 ms, while the comparison had not started 8 s later,
+      // so the first session ranked new cards by weak spots either way). "Open study plan" still asks.
+      const pr = this._drawerRow(ngIcon(NG_IC.practice), "Practice", "", () => this.openPlanSession("due"));
+      pr.className += " ngStat"; pr.setAttribute("data-b", "due");
+      const path = this._drawerRow(ngIcon(NG_IC.path), "Path", '<small data-tab-sub="challenges"></small>', () => this.setViewMode("challenges"));
+      path.setAttribute("data-view", "challenges");
+      const belt = document.createElement("div"); belt.className = "ng-dr-belt"; belt.setAttribute("data-path-belt", "1");
+      box.append(pr, path, belt);
+    }
+    list.appendChild(box);
+    this._paintTrain(box);
+    this.renderTabSubtitles();
+  }
+  // PAINTED IN PLACE (FGD13's rule for the stat row this replaces): `_refreshGameplanUI` lands whenever
+  // a payload or a grade does, and a rebuild between a press and its release would swallow the click.
+  _paintTrain(box) {
+    box = box || this.drillRef?.current?.querySelector("[data-explore-stats]");
+    const pr = box && box.querySelector('[data-b="due"]'); if (!pr) return;
+    this._ensureGameplanClock();
+    const plan = this.planSummary(), t = this.practiceToday();
+    const debt = plan ? null : ngGameplanDebt({ srs: this.srs, day: this._epochDay(), decks: this._gameplanDecks() });
+    const due = plan ? plan.dueCards : debt.count, techs = plan ? plan.due.length : debt.rows.length;
+    box.setAttribute("data-gameplan-status", this._gameStudyState?.phase || (plan ? plan.status : this._gameplanLoadState || "not-loaded"));
+    pr.setAttribute("data-due-decks", techs);
+    if (plan) pr.setAttribute("data-new", plan.fresh.length); else pr.removeAttribute("data-new");
+    // the stat cells' tooltip, kept whole: what is owed, what was answered, and the plan's new count or state
+    const tip = due + (due === 1 ? " card" : " cards") + " due \u00b7 " + techs + (techs === 1 ? " technique" : " techniques") + " \u00b7 " +
+      t.done + " answered today \u00b7 " + this._gameStudyStatText(plan, (v) => v);
+    pr.title = tip; pr.setAttribute("aria-label", "Practice, daily goal " + this._practiceGoalText(t) + ": " + tip);
+    // WRITTEN ONLY WHEN IT CHANGED (SIDE-R2 M10): a residency refresh rewrote the pill under a pointer,
+    // and a press whose target is replaced before its release dispatches no click (FGD13's class).
+    const tail = pr.querySelector(".ng-dr-tail"), html = (due ? '<span class="ng-dr-pill">' + due + ' due</span>' : '') +
+      '<span class="ng-dr-bar"><i style="width:' + Math.min(100, Math.round(100 * t.done / Math.max(1, t.goal))) + '%"></i></span>' + t.done + '/' + t.goal;
+    if (tail._ngHtml !== html) { tail._ngHtml = html; tail.innerHTML = html; }
+  }
+  /** LAST ROLLS on the home list: this roll and the three before it, each opening the full view. */
+  _renderRollsHome(list) {
+    const cur = this.rollLog || [], past = this._pastRolls || [], n = past.length + (cur.length ? 1 : 0);
+    const head = document.createElement("button"); head.type = "button"; head.className = "ng-dr-label";
+    head.setAttribute("data-view", "history");
+    head.innerHTML = 'Last rolls<span class="ng-dr-tail">' + n + (n === 1 ? " roll" : " rolls") + ' \u203a</span>';
+    head.addEventListener("click", () => this.setViewMode("history"));
+    list.appendChild(head);
+    const row = (c, name, tail) => {
+      const r = this._drawerRow('<i class="ng-dr-dot" style="background:' + c + ';"></i>', name, tail, () => this.setViewMode("history"));
+      r.setAttribute("data-roll-home", "1"); list.appendChild(r);
+    };
+    if (cur.length) row("#f0c987", "This roll", this.escHTML(this.replayEnds({ log: cur }).from) + " \u00b7 " + cur.length + (cur.length === 1 ? " state" : " states"));
+    for (const roll of past.slice(0, 3)) {
+      const e = this.replayEnds(roll);
+      row({ win: "#7ee0a8", lose: "#e8889e" }[roll.outcome] || "#7e8aa3", this.escHTML(e.from + (e.to ? " \u2192 " + e.to : "")), { win: "won", lose: "tapped" }[roll.outcome] || "reset");
+    }
+    if (!n) { const none = document.createElement("div"); none.className = "ng-dr-none"; none.textContent = "No rolls yet"; list.appendChild(none); }
   }
   /**
-   * The incoming body slides in from the side the finger pulled it from. This is the only thing
-   * that distinguishes "my swipe worked" from "the tab changed"; it is also how the gesture
-   * ADVERTISES itself, which is the actual complaint being fixed — people were already swiping.
-   * Transform + opacity only (no layout), cleared on completion so a scroller is never left
-   * holding a containing block it does not need. `prefers-reduced-motion` skips the animation,
-   * never the tab change.
+   * THE BADGE SHOWS TODAY BEFORE IT IS OPENED (owner U46 b: "before I even click on my badge, I want to
+   * see my progress today… 12 out of 20 cards, 2 rolls"). Cards are the goal's own count; rolls are the
+   * day's, kept per local day beside `days` (`_rollDays`, SIDE-R2 M4), plus the roll in progress. The closed
+   * drawer's dot is the same refresh: lit while reviews are owed.
    */
-  _paneSlideBody(sign) {
-    if (this._reducedMotion()) return;
-    const el = this._viewMode === "history" ? this.drillListRef.current : this.explorerListRef.current;
-    if (!el) return;
-    clearTimeout(this._paneSlideT);
-    el.style.transition = "none";
-    el.style.transform = "translateX(" + (sign > 0 ? 18 : -18) + "px)";
-    el.style.opacity = "0.55";
-    // two frames: one commits the offset, the next transitions off it. A single rAF lands both
-    // writes in one style recalculation and nothing moves.
-    requestAnimationFrame(() => requestAnimationFrame(() => {
-      el.style.transition = "transform .18s cubic-bezier(.2,.7,.2,1),opacity .18s linear";
-      el.style.transform = "translateX(0)";
-      el.style.opacity = "1";
-      this._paneSlideT = setTimeout(() => { el.style.transition = ""; el.style.transform = ""; el.style.opacity = ""; }, 240);
-    }));
+  _paintBadge() {
+    const chip = this.acctChipRef?.current; if (!chip) return;
+    const t = this.practiceToday();
+    const rolls = ((this._rollDays || {})[this._dayKey()] || 0) + ((this.rollLog || []).length ? 1 : 0);
+    const line = chip.querySelector("[data-badge-today]");
+    if (line) line.textContent = "Today: " + t.done + " of " + t.goal + " cards \u00b7 " + rolls + (rolls === 1 ? " roll" : " rolls");
+    const dot = this.wrapRef?.current?.querySelector("[data-drawer-dot]");
+    if (dot) dot.style.display = this.dueCount() ? "block" : "none";
   }
-  styleViewToggle() {
-    const vt = this.viewToggleRef.current; if (!vt) return;
-    vt.style.display = this._paneStudyActive() ? "none" : "grid";
-    vt.querySelectorAll("[data-view]").forEach((s) => {
-      const on = s.getAttribute("data-view") === this._viewMode;
-      s.setAttribute("aria-pressed", on ? "true" : "false");
-    });
-    this._syncExploreTools();
-    if (this.renderTabSubtitles) this.renderTabSubtitles(); // the Explore subtitle is the score's one exposure (v1.98.1)
-  }
+
   // A deck's lesson goal is min(3, its card count) — and the manifest's `n` is that count even
   // before the cards land, so a 1-card deck never asks for 3 answers just because it is still
   // in flight (which is what made lessonDone, and every crown downstream of it, flicker).
@@ -7327,8 +7359,14 @@ class Component extends DCLogic {
     if (this._lessonBeatFired.has(key)) return;
     this._lessonBeatFired.add(key);
     this.fx("lesson_done", { deckKey: key, unit: e.unit, belt: e.belt });
+    // Evidence repaints Path through noteChallenges, whose gate skips every study surface. Practice's
+    // corridor stands below its card, not over it, so it repaints here: a finished unit's checkpoint
+    // goes live in place instead of waiting for the player to leave the page. Spec: practice-page P1-F.
+    if (this._session?.practice && this._sessionInline()) this._afterPress(() => this._practiceCorridor());
   }
   openLessonStudy(l, unit, belt) {
+    if (!this.beltUnlocked(belt.id || belt)) return;
+    if (this._session?.practice) { this._practiceLesson(l.deckKey); return; }
     const keys = unit.lessons.filter((x) => this._lessonLive(x)).map((x) => x.deckKey);
     this._session = { keys: keys, label: unit.name, idx: Math.max(0, keys.indexOf(l.deckKey)) };
     this._sessionNodes = keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // camera + rings only: never aim at an orb this ruleset does not draw
@@ -7481,6 +7519,7 @@ class Component extends DCLogic {
     return bt.names.indexOf(this.splitName(n.t).main.toLowerCase()) >= 0;
   }
   startBeltTest(beltId) {
+    if (!this.beltUnlocked(beltId)) return;
     const bs = (this.curriculum && this.curriculum.belts) || [];
     const bi = bs.findIndex((b) => b.id === beltId);
     const belt = bs[bi];
@@ -7555,7 +7594,7 @@ class Component extends DCLogic {
     if (label === NG_LISTS_SECTION && this._listsRevealed) return true;
     const map = this.get("exploreOpenSections", null);
     if (map && typeof map === "object" && Object.prototype.hasOwnProperty.call(map, label)) return !!map[label];
-    return false;
+    return label === "Explore";   // the drawer's Explore fold starts open (E1); the categories under it start closed
   }
   _setExploreSectionOpen(label, open) {
     const cur = this.get("exploreOpenSections", null);
@@ -7574,12 +7613,13 @@ class Component extends DCLogic {
     // falls to <body>: one Enter opens a section and the next key does nothing. Only a header
     // that HELD focus gets it back, and preventScroll keeps the scroll exactly as it was.
     let refocus = false;
-    try { const ae = document.activeElement; refocus = !!(ae && ae.getAttribute && ae.getAttribute("data-explore-section") === label); } catch (e) { /* non-fatal */ }
+    const sel = label === "Explore" ? "[data-drawer-explore]" : '[data-explore-section="' + label + '"]';
+    try { const ae = document.activeElement; refocus = !!(ae && ae.matches && ae.matches(sel)); } catch (e) { /* non-fatal */ }
     this.renderExplorer();
     if (refocus) {
       try {
         const list = this.explorerListRef.current;
-        const back = list && list.querySelector('[data-explore-section="' + label + '"]');
+        const back = list && list.querySelector(sel);
         if (back) back.focus({ preventScroll: true });
       } catch (e) { /* non-fatal */ }
     }
@@ -7611,9 +7651,13 @@ class Component extends DCLogic {
     // the logo (and legacy callers) toggle the merged pane
     if (this.deckShown) { this.setDeckOpen(false); }
     else {
-      this.openPane();
-      if (this._viewMode === "explore") {
-        setTimeout(() => { try { const inp = this.explorerSearchRef.current; if (inp) inp.focus(); } catch (e) {} }, 80);
+      // the drawer opens on its list (v1.242.0), never on the sub-view it last showed; search takes the
+      // keys on a desktop, never on a phone, where the keyboard would cover the list it just opened
+      this.openPane("explore");
+      if (!this.isMobile()) {
+        // openPane makes the input visible synchronously. A delayed focus steals the next Tab/Enter
+        // from Path (SIDECX4), so hand over the keys before the opening gesture returns.
+        this.explorerSearchRef.current?.focus();
       }
     }
     this.lastInteract = this.now;
@@ -7645,12 +7689,6 @@ class Component extends DCLogic {
     // hydrated at ingest now (see _hydrateGiMode) — this call is the belt-and-braces for a pane
     // that somehow opens first. setGiMode stays the one behavior seam.
     this._hydrateGiMode();
-    const vt = this.viewToggleRef.current;
-    if (vt && !vt._wired) {
-      vt._wired = true;
-      vt.addEventListener("pointerdown", (e) => e.stopPropagation());
-      vt.querySelectorAll("[data-view]").forEach((s) => s.addEventListener("click", () => this._paneTabClick(s.getAttribute("data-view"))));
-    }
     this.styleViewToggle();
   }
   setGiMode(m) {
@@ -7787,6 +7825,9 @@ class Component extends DCLogic {
       return;
     }
     const list = this.explorerListRef.current; if (!list) return;
+    // A cold index rebuild detaches even the cached Practice/Path block. Retain a keyboard user's
+    // chosen row across that synchronous rebuild; the next Enter must still activate that row.
+    const trainFocus = this._trainBox?.contains(document.activeElement) ? document.activeElement : null;
     // corridor re-renders (evidence beats, pin/select/fold clicks) must not yank the
     // scroll while the user reads (the History-body gate precedent) — keep it unless an
     // arrival reposition is pending (v1.98.1)
@@ -7963,16 +8004,28 @@ class Component extends DCLogic {
       }[ty];
       return '<span aria-hidden="true" style="display:flex;align-items:center;justify-content:center;width:14px;height:14px;flex:none;margin-left:auto;">' + (shape ? '<svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="#8b97b0" stroke-width="1.5" stroke-linejoin="round" focusable="false">' + shape + '</svg>' : '') + '</span>';
     };
+    let ex = list;   // where a category renders: the Explore fold's body on the home list
     const renderConcepts = (cat, label) => {
       const all = (this.concepts || []).filter((c) => c.cat === cat);
       // Deferred payload (63KB), same posture as Systems: ask at the first read, and _onConcepts
-      // re-renders Explore when it lands. Absent (or 404) -> no section yet, never a stub list.
-      if (!all.length) { this._ensureConcepts(); return; }
+      // re-renders Explore when it lands. Absent (or 404) -> no section, never a stub list.
+      // HELD AT ITS HEIGHT WHILE IT LOADS (SIDE-R3 N1): the drawer opens on this fold, and the two headers
+      // appearing on landing pushed Train down 60px (measured, 390x844 and 1440x900) under a thumb on its
+      // way to Practice; touch gets no `_afterPress` hover hold. Until the index lands each category holds
+      // a placeholder of the header's own shape (a disabled button, the same spans), so nothing moves.
+      if (!all.length) {
+        if (!this._conceptsMissing) {
+          const ph = mk('<span style="font-size:14px;font-weight:700;color:#5d6883;">' + label + '</span><span role="status" style="margin-left:auto;color:#5d6883;font-size:11px;">Loading\u2026</span>', 12, () => {});
+          ph.disabled = true; ph.style.cursor = "default"; ph.setAttribute("data-concepts-status", label);
+          ex.appendChild(ph);
+        }
+        this._ensureConcepts(); return;
+      }
       const open = this._exploreSectionOpen(label);
       const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + all.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + this._caretHTML(open) + '</span>', 12, () => this._toggleExploreSection(label));
       hdr.setAttribute("data-explore-section", label);
       hdr.setAttribute("aria-expanded", open ? "true" : "false");
-      list.appendChild(hdr);
+      ex.appendChild(hdr);
       if (!open) return;
       for (const c of all) {
         const row = mk('<span style="font-size:13px;color:#c4cde0;">' + this.escHTML(c.title || c.name) + '</span>' + (c.meta ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;white-space:nowrap;">' + this.escHTML(c.meta) + '</span>' : ""), 22, () => this._readArticle("/" + c.id));
@@ -7980,7 +8033,7 @@ class Component extends DCLogic {
         row.setAttribute("data-concept-row", c.id);
         row.setAttribute("data-concept-cat", c.cat);
         row.style.pointerEvents = "auto";
-        list.appendChild(row);
+        ex.appendChild(row);
       }
     };
     // Systems: every authored system in systems.json, grouped by topic. The whole library is listed
@@ -7991,13 +8044,13 @@ class Component extends DCLogic {
       // it here, at the first read; _onSystems re-renders Explore when it lands.
       if (!all.length) {
         this._ensureSystems();
-        this._renderSystemsStatus(list, mk); return;
+        this._renderSystemsStatus(ex, mk); return;
       }
       const open = this._exploreSectionOpen("Systems");
       const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">Systems</span><span style="font-size:11px;color:#7e8aa3;">(' + all.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + this._caretHTML(open) + '</span>', 12, () => this._toggleExploreSection("Systems"));
       hdr.setAttribute("data-explore-section", "Systems");
       hdr.setAttribute("aria-expanded", open ? "true" : "false");
-      list.appendChild(hdr);
+      ex.appendChild(hdr);
       if (!open) return;
       // Topics are family branches, with the same session-local folds and 22 → 38px
       // indentation as the position tree. Multiple branches can remain open together.
@@ -8035,7 +8088,7 @@ class Component extends DCLogic {
           }
         };
         branch.append(row, children);
-        list.appendChild(branch);
+        ex.appendChild(branch);
         renderBranch();
       }
     };
@@ -8048,23 +8101,23 @@ class Component extends DCLogic {
       const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + count + ')</span>' + sectionGlyph(key) + '<span style="color:#5d6883;font-size:11px;">' + this._caretHTML(gOpen) + '</span>', 12, () => this._toggleExploreSection(label));
       hdr.setAttribute("data-explore-section", label);
       hdr.setAttribute("aria-expanded", gOpen ? "true" : "false");
-      list.appendChild(hdr);
+      ex.appendChild(hdr);
       if (!gOpen) return;
       for (const fam of famNames) {
         const nodes = fams[fam], col = this.hex(nodes[0].col);
         if (nodes.length > 1) {
           const fk = key + "|" + fam, fOpen = this._exp.f.has(fk);
-          list.appendChild(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;font-weight:600;color:#c4cde0;">' + fam + '</span><span style="font-size:10.5px;color:#7e8aa3;">' + nodes.length + '</span><span style="margin-left:auto;color:#5d6883;font-size:10px;">' + this._caretHTML(fOpen) + '</span>', 22, () => { if (fOpen) this._exp.f.delete(fk); else this._exp.f.add(fk); this.renderExplorer(); }));
+          ex.appendChild(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;font-weight:600;color:#c4cde0;">' + fam + '</span><span style="font-size:10.5px;color:#7e8aa3;">' + nodes.length + '</span><span style="margin-left:auto;color:#5d6883;font-size:10px;">' + this._caretHTML(fOpen) + '</span>', 22, () => { if (fOpen) this._exp.f.delete(fk); else this._exp.f.add(fk); this.renderExplorer(); }));
           // THE CATEGORY SHAPE RIDES EVERY TECHNIQUE ROW (v1.103.6). These leaf rows carried no
           // glyph at all, so a technique inside a family fold was the one place in Explore that
           // did not say what it was. `nodeGlyph` is the same vocabulary `draw()` puts on the
           // canvas — circle = position, triangle = submission, diamond = transition (:9516-9518).
-          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.graphName(n) + (this.nodeQual(n) ? ' <span style="color:#6b7691;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span>', 38, () => this._readArticle(this._nodeUrlPath(n.idx), true, true, "browse")), n, "explore"));
+          if (fOpen) for (const n of nodes) ex.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.graphName(n) + (this.nodeQual(n) ? ' <span style="color:#6b7691;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span>', 38, () => this._readArticle(this._nodeUrlPath(n.idx), true, true, "browse")), n, "explore"));
         } else {
           // A one-site family already identifies its representative. Probing role dossiers here
           // used to fetch both seats for every visible singleton just to choose that same node.
           const solo = nodes[0], qual = this.nodeQual(solo);
-          list.appendChild(this._withListAdd(mk(this.nodeGlyph(solo.ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + '</span>' : '') + '</span>', 22, () => this._readArticle(this._nodeUrlPath(solo.idx), true, true, "browse")), solo, "explore"));
+          ex.appendChild(this._withListAdd(mk(this.nodeGlyph(solo.ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + '</span>' : '') + '</span>', 22, () => this._readArticle(this._nodeUrlPath(solo.idx), true, true, "browse")), solo, "explore"));
         }
       }
     };
@@ -8072,11 +8125,31 @@ class Component extends DCLogic {
     // Submissions \u2192 Learning. The score-belt block is GONE (v1.98.1, owner: "we should no
     // longer see this") \u2014 the score lives in the Explore tab subtitle; the stat row leads
     // (the weak-spots count is Explore's call to action); Lists heads the sections.
+    // THE HOME LIST (v1.242.0; owner U51 e, U53 a, U56 e): Explore, then Train, your lists, Last rolls.
+    // Explore is an expandable list (E1) with its own icon (U45); its six categories hang off a thin
+    // guide line in the owner's order. Each is the category fold it always was, so every row, sub-fold,
+    // ▶ and ★ inside them is unchanged.
+    const exOpen = this._exploreSectionOpen("Explore");
+    const exRow = this._drawerRow(ngIcon(NG_IC.explore), "Explore", this._caretHTML(exOpen), () => this._toggleExploreSection("Explore"));
+    exRow.setAttribute("data-drawer-explore", "1"); exRow.setAttribute("aria-expanded", String(exOpen));
+    list.appendChild(exRow);
+    if (exOpen) {
+      list.appendChild(ex = document.createElement("div")); ex.className = "ng-dr-sub";
+      for (const pair of data.order) renderGraphGroup(pair);
+      renderSystems();
+      renderConcepts("Principle", "Principles");
+      renderConcepts("Learning", "Learning");
+      ex = list;
+    }
+    this._renderTrain(list);
+    if (trainFocus && document.activeElement === document.body) trainFocus.focus({ preventScroll: true });
     this.renderLists(list);
-    renderSystems();
-    renderConcepts("Principle", "Principles");
-    for (const pair of data.order) renderGraphGroup(pair);
-    renderConcepts("Learning", "Learning");
+    this._renderRollsHome(list);
+    // AN ADD IS SEEN WHERE IT LANDS (the older rule, v1.196.1): Your lists sits below Explore now (owner
+    // U51 e), so a capture from a long category would land off screen; the landed row comes into view.
+    const land = this._landList; this._landList = null;
+    const landed = land && list.querySelector('[data-list-items="' + land.id + '"] [data-list-item="' + land.node + '"]');
+    if (landed) landed.scrollIntoView({ block: "nearest" });
     // THE ALIAS LINE GOES UNDER THE TREE, NEVER OVER IT (v1.198.3). `_aliasStatus` ran before the
     // tree existed, so "Loading aliases…" was the list's FIRST child — one ~30px line above Your
     // lists — and the alias index landing ~100ms after Explore opened deleted it, lifting every
@@ -8326,6 +8399,7 @@ class Component extends DCLogic {
     // techniques AFTER ADDING": a + pressed while the pane is open has to land somewhere the
     // eye can follow it, not just tick a counter.
     this._expandList(id);
+    this._landList = { id, node: nodeId };   // and the next render brings it into view (renderExplorer)
     this.fx("list_item_added", { list: id, node: nodeId, count: l.items.length });
     return { added: true, listId: id, count: l.items.length };
   }
@@ -8480,7 +8554,10 @@ class Component extends DCLogic {
   // Two zones because they are two different intentions: ◉ lights the class WITHOUT covering
   // it, and "Class ▸" opens the pane to read / save / drill it.
   // ══════════════════════════════════════════════════════════════════════════════════════
-  _setShareCue(cue) { this._shareCue = cue || null; this._renderShareCue(); this._renderLayerDock(); /* the dock steps aside from the cue pill on a phone (v1.171.0) */ }
+  // the dock steps aside from the cue pill on a phone (v1.171.0), IN THIS TASK: the reader's shelf is laid
+  // out on its coalesced frame unless the card is pending, so the pill and the un-stepped glyphs shared one
+  // painted frame — layer-dock-centre's phone claim read them overlapping 4 runs in 8 (SIDE-R2 addendum)
+  _setShareCue(cue) { this._shareCue = cue || null; this._renderShareCue(); this._renderLayerDock(); if (this._reader) this._reader.layoutNow(); }
   /**
    * One flag on <body> naming the live cue kind — a layout/diagnostic hook for the thumb
    * band (the pill-era CSS that consumed it is gone; specs and snapshots still read it).
@@ -11118,7 +11195,10 @@ class Component extends DCLogic {
   // the address follows the roll without making Back walk every automatic move.
   _nodeUrlPath(idx) {
     const n = this.nodes && this.nodes[idx];
-    return n && n.id ? "/" + this._pageSlug(n.id) : null;
+    // The Top member keeps its hub id/ordinal for graph and list joins. Its
+    // navigable page is nevertheless /Top, just as the partner's is /Bottom.
+    // Reader-only suffixing missed map play and keyboard Explore activation.
+    return n && n.id ? "/" + this._pageSlug(n.id + (n.role === "top" ? "/Top" : "")) : null;
   }
   /** The PATH Quartz builds a node's page at: its id through Quartz's own `sluggify`
    *  (source/quartz/util/path.ts), segment by segment. Identity on 1,447 of 1,448 ids today; the
@@ -11148,7 +11228,7 @@ class Component extends DCLogic {
     this.fx("url_fault", { kind: kind, path: String(path || "").slice(0, 200), error: (e && e.name) || String(e), n: this._urlFaults });
   }
   _syncUrl(idx, replace = false) {
-    if (this._readerIntent) return; // the reader owns one canonical history entry, including its seat/hash
+    if (this._readerIntent || this._urlRestoring) return; // reader/popstate own their canonical entry
     const path = this._nodeUrlPath(idx); if (!path) return;
     this._pushUrl(path, { ngNode: this.nodes[idx].id }, replace);
   }
@@ -11157,10 +11237,47 @@ class Component extends DCLogic {
       if (/^\/l\//.test(location.pathname)) return;
       // compare DECODED spellings through the non-throwing decoder: a stray "%" in the current
       // address used to throw right here, on every push, for the rest of the session
-      if (this._decodePath(location.pathname) === this._decodePath(path)) return;
-      history[replace ? "replaceState" : "pushState"](
-        { ...history.state, ...state }, "", encodeURI(path) + location.search);
+      if (this._decodePath(location.pathname) === this._decodePath(path)) { this._writeUrl(); return; }
+      this._writeUrl(encodeURI(path) + location.search, state, replace);
     } catch (e) { this._urlFault("push", path, e); }
+  }
+  // The title names the URL, not the current game seat or the reader's contextual
+  // article. These are the existing template titles, including Systems' own suffix.
+  // The built-site gate compares every wire hub/role and reference index entry.
+  _pageTitle(path) {
+    const id = this._decodePath(new URL(path, location.href).pathname).replace(/\.html$/, "");
+    const role = /\/(Top|Bottom|Attacker|Defender)$/.exec(id)?.[1] || "";
+    const base = role ? id.slice(0, -role.length - 1) : id;
+    const n = this.nodes?.[this._idIndex?.get(base)];
+    if (n) {
+      const position = n.ty === "positions", name = position ? n.t.replace(/ Top$/, "") : n.t;
+      const kind = position ? "Position Guide" : role === "Defender" ? "Defense Guide" :
+        (n.ty === "transitions" ? "Technique" : "Submission") + (role === "Attacker" ? " Guide" : "");
+      return name + (role ? " " + role : "") + " | BJJ " + kind + " | BJJ Graph";
+    }
+    const concept = this._conceptsById?.[id], system = this._systemsById?.[id];
+    if (concept) return (concept.title || concept.name) + " | BJJ " + concept.cat + " | BJJ Graph";
+    if (system) return (system.display_title || system.name) + " | BJJGraph";
+    // Non-wire pages (for example submission families) already arrive as complete
+    // reader HTML. Reuse its exact head title; never invent one from a slug.
+    return this._reader?.cache.get("/" + id)?.tab || null;
+  }
+  // One URL/title writer for map navigation, reader push/replace and popstate.
+  // No state means refresh the current title without touching history. A late
+  // reader response therefore cannot rename a newer route. Publish the title
+  // before History's synchronous observers run. /l/ graph navigation returns in
+  // _pushUrl above, preserving the share preview's address AND title.
+  _writeUrl(path = location.href, state, replace = false, priorTitle) {
+    const before = document.title;
+    try {
+      const title = this._pageTitle(path) || priorTitle;
+      // The reader retries a non-indexed page after its already-requested HTML
+      // supplies the title, keeping the history entry and tab text atomic.
+      if (!title && state) return false;
+      if (title) document.title = title;
+      if (state) history[replace ? "replaceState" : "pushState"]({ ...history.state, ...state }, "", path);
+      return true;
+    } catch (e) { document.title = before; this._urlFault("push", path, e); }
   }
   /** the node a path names, or -1. Used by boot-seeding and by Back/Forward. */
   _nodeForPath(path) {
@@ -11329,6 +11446,7 @@ class Component extends DCLogic {
       this._refPage = true;
       const label = hub[1].charAt(0).toUpperCase() + hub[1].slice(1).toLowerCase();
       if (!this._exploreSectionOpen(label)) this._setExploreSectionOpen(label, true);
+      if (!this._exploreSectionOpen("Explore")) this._setExploreSectionOpen("Explore", true);
       this.openPane("explore");
       this.showExplorerList();
       // best-effort: put the named header at the top — a returning visitor can have whole
@@ -12058,7 +12176,7 @@ class Component extends DCLogic {
     // the flag-derived truth (never the pixels), so the refusal flips back the instant the sheet
     // closes, with no transition to race. Not a decline and not a grade: the question is untouched
     // and still pays when the player comes back to it.
-    const answer = (i) => { if (wrap.inert || (["land", "panic"].includes(truth.surface) && this._landHidden(true))) return; if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
+    const answer = (i) => { if (truth.surface === "practice" && (!this._sessionInline() || !wrap.isConnected || wrap.offsetParent === null)) return; if (wrap.inert || (["land", "panic"].includes(truth.surface) && this._landHidden(true))) return; if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
     truth.answer = answer;                                    // the A/B/C keyboard seam
     mc.options.forEach((o, i) => {
       const b = document.createElement("button");
@@ -12258,6 +12376,7 @@ class Component extends DCLogic {
   // ═══ P2: checkpoint quiz (replaces the P1 placeholder behind the same handle + beats) ═══
   _cancelCheckpoint() { if (this._checkpoint) { this._checkpoint = null; this.fx("checkpoint_abandoned", {}); } }
   startCheckpoint(beltId, unit) {
+    if (!this.beltUnlocked(beltId)) return;
     if (this._checkpoint) return; // a quiz is already in progress — don't discard it
     const uk = beltId + "/" + unit.id;
     const live = unit.lessons.filter((l) => this._lessonLive(l));
@@ -12531,7 +12650,9 @@ class Component extends DCLogic {
   _paneLayout(target = false) {
     const W = this.W || window.innerWidth;
     const panel = this.drillRef && this.drillRef.current;
-    if (panel && panel.offsetWidth) this._paneWidth = panel.getBoundingClientRect().width;
+    // Its RIGHT EDGE, which is its width while it is docked left: Practice's page stands centred, and the
+    // graph the camera aims at is what shows beside it.
+    if (panel && panel.offsetWidth) this._paneWidth = panel.getBoundingClientRect().right;
     const progress = target ? (this.deckShown ? 1 : 0) : (this.uiShift || 0);
     const left = this.isMobile() ? 0 : Math.min(W, this._paneWidth || this.sbOffset()) * progress;
     return { left, width: W - left, center: (W + left) / 2, shift: left / 2 };
@@ -12594,8 +12715,13 @@ class Component extends DCLogic {
     // the edge (measured 0px at 1440). The trailing inset is the leading one without the pane's
     // reserve; the phone stylesheet's `!important` 12px wins over both, symmetric too.
     if (op) {
-      op.style.paddingLeft = (NG_TRAY_INSET + this._paneLayout().left).toFixed(1) + "px";
-      op.style.paddingRight = NG_TRAY_INSET + "px";
+      // Owner (2026-11-01): beside the article the row and the grid share both edges, so the first card sits on the
+      // grid's left edge and the reader lifts the inset (`trayFlush`, reader.src.js).
+      const flush = !!this._reader?.trayFlush, inset = flush ? 0 : NG_TRAY_INSET;
+      // U110 a: from 600 to 640px a flush row is still a phone's, and the phone stylesheet's 12px sides would move it off the column.
+      op.toggleAttribute("data-flush", flush);
+      op.style.paddingLeft = (inset + this._paneLayout().left).toFixed(1) + "px";
+      op.style.paddingRight = inset + "px";
       this._syncEdgeFade(op);
     }
     this._layoutLandHorizontal();
@@ -12626,13 +12752,6 @@ class Component extends DCLogic {
         if (show) this._dockHandClose(op, x);
       }
     }
-    // the pane moved LEFT (v1.94.0): on desktop it no longer shares a corner with the
-    // bottom-right chip, so the chip stays put and stays clickable while the pane is open.
-    // On a PHONE the fade stays: the 88vw drawer owns the screen and the exposed right strip
-    // is the tap-to-dismiss surface — a live chip there would eat the dismiss tap (its
-    // pointerdown stops propagation) and float over the drawer's edge.
-    const ac = this.accountRef.current;
-    if (ac) { const cover = this.isMobile() ? this.uiShift : 0; ac.style.opacity = (1 - cover).toFixed(3); ac.style.pointerEvents = cover > 0.5 ? "none" : "auto"; ac.style.transform = "none"; }
   }
   clearOptions() {
     this._choiceMediaObserver?.disconnect(); this._choiceMediaQueue = []; this._closeChoiceWatch(false);
@@ -13578,17 +13697,24 @@ class Component extends DCLogic {
       + stat("Win", view.value, 'data-choice-win', view.stale);
   }
   _choiceMediaTarget(opt) {
-    // A destination is not a demonstration of the escape. Its source submission
-    // has a defending reel, but that is not a front for the named escape.
+    // Escape fronts belong to the submission and the exact card label, including
+    // opponent threats. A destination or the submission's general reel is not
+    // a demonstration of that escape (escape-clips.spec.ts).
     const defense = opt.action === "escape" || !!opt.defense;
     const node = defense ? this.nodes[opt.submission] || this.submissionNode(opt.node) : opt.node;
     if (!node) return null;
+    if (opt.action === "escape") return { node, role: "defender", key: node.t, escape: opt.label };
     const role = node.ty === "positions" ? this.playedRole(node) : defense ? (opt.threat ? "attacker" : "defender") : opt.threat ? "defender" : "attacker";
     const key = node.ty === "positions" ? this.deckKeyFor(node).key : node.t;
     return { node, role, key, exact: !defense };
   }
   _choiceFront(target, info) {
-    if (!target?.exact || !info) return null;
+    if (!info) return null;
+    if (target?.escape) {
+      const escapeClip = info.perspectives?.defender?.escapes?.[target.escape]?.[0];
+      return escapeClip?.front === true ? escapeClip : null;
+    }
+    if (!target?.exact) return null;
     const block = target.node.ty === "positions" ? info : info.perspectives?.[target.role];
     if (target.role === "defender" && !block?.authored) return null;
     const clip = block?.clips?.[0];
@@ -13600,7 +13726,7 @@ class Component extends DCLogic {
     this.setPaused(true);
   }
   _queueChoiceMedia(card, target, hand) {
-    if (!target?.exact) return;
+    if (!target?.exact && !target?.escape) return;
     this._choiceMediaQueue = this._choiceMediaQueue || [];
     this._choiceMediaQueue.push({ card, target, hand });
     this._drainChoiceMedia();
@@ -14428,7 +14554,8 @@ class Component extends DCLogic {
     block.querySelector("button")?.focus({ preventScroll: true });
   }
   /** U52 b: on a phone the asking line is at most two lines, with "Answer for Points" at its end:
-   *  trim the question (never the link) with an ellipsis until it fits. Desktop shows it whole.
+   *  trim the question (never the link) with an ellipsis until it fits. VIDEO3 keeps desktop to
+   *  one line too: the collapsed question is a hint belonging to the choices, not another tile.
    *  APTS-R4: a short phone (under 700px tall; the real p10 is 631) gets ONE line, so the link shares the
    *  question's first line and is on screen at arrival with the deck's 16px gap after Moves (D-351). */
   _fitAskLine(qt) {
@@ -14436,8 +14563,7 @@ class Component extends DCLogic {
     if (!tx) return;
     const full = tx.dataset.full || (tx.dataset.full = tx.textContent);
     tx.textContent = full;
-    if (!this.isMobile()) return;
-    const max = (innerHeight < 700 ? 1 : 2) * parseFloat(getComputedStyle(qt).lineHeight) + 1;
+    const max = (this.isMobile() && innerHeight >= 700 ? 2 : 1) * parseFloat(getComputedStyle(qt).lineHeight) + 1;
     if (qt.getBoundingClientRect().height <= max) return;
     let lo = 0, hi = full.length;
     while (lo < hi) {
@@ -15040,7 +15166,9 @@ class Component extends DCLogic {
   // request it after the real hand mounts; content arrivals prepare dormant controls.
   _queueReader(node, side) {
     if (this._readerIntent || this._reader?.interacting || !node) return;
-    let path = this._nodeUrlPath(node.idx);
+    // A live landing may retain the representative node while the player is Bottom.
+    // Resolve that seat before asking the shared role-URL helper for its article.
+    let path = this._nodeUrlPath(this._seatMember(node.idx, this.playerRole));
     if (path && !/\/(Top|Bottom|Attacker|Defender)$/i.test(path))
       path += "/" + (node.ty === "positions" ? (this.playerRole === "bottom" ? "Bottom" : "Top") : (side === "defender" ? "Defender" : "Attacker"));
     // D-351: the request names its landing, and the reader holds that landing's card and hand
@@ -15263,6 +15391,7 @@ class Component extends DCLogic {
    *  taken the wheel that was meant to scroll back); its horizontal deltas still reach it.
    */
   _readOwnScroll(t) {
+    if (this._filmTheater) return true;
     // Pane headers and empty areas own their gestures too, even without a scrollable ancestor.
     if (t && this.deckShown && this.drillRef.current && this.drillRef.current.contains(t)) return true;
     for (let n = t; n && n !== document.body && n !== document.documentElement; n = n.parentElement) {
@@ -15494,7 +15623,7 @@ class Component extends DCLogic {
   }
   _readerShelfBottom(horizontal) {
     let bottom = 12;
-    for (const el of [this.accountRef.current, this.shareCueRef.current, this.wrapRef.current.querySelector(".ng-winbar")]) {
+    for (const el of [this.shareCueRef.current, this.wrapRef.current.querySelector(".ng-winbar")]) {
       if (!el || getComputedStyle(el).visibility === "hidden") continue;
       const box = el.getBoundingClientRect();
       if (box.height && box.top > 0 && box.left < horizontal.right && box.right > horizontal.left)
@@ -15522,13 +15651,39 @@ class Component extends DCLogic {
     const perspBlk = perspSide && info && info.perspectives ? info.perspectives[perspSide] : null;
     // D-297a applies to the film too: missing/empty defender clips never inherit
     // the attacker's top-level reel, and an unauthored half shows no placeholder.
-    if (perspSide === "defender") return perspBlk && perspBlk.authored && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null;
-    return (info && info.clips && info.clips.length ? info.clips : null) || (perspBlk && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null);
+    // U104 (owner, 2026-11-06, reversing D-297a's "no placeholder"): "When it's not available, it should say it's not available."
+    // An empty reel, once the dossier has answered; null while it has not, so a film still loading never reads as missing.
+    if (perspSide === "defender") return perspBlk && perspBlk.authored && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : info ? [] : null;
+    return (info && info.clips && info.clips.length ? info.clips : null) || (perspBlk && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null) || (info ? [] : null);
   }
-  // Sections sets the one host's width before reading its natural height: 400px
-  // beside a 390px deck (60px gap + 52px Next reserve), or 358px above a 286px
-  // deck at a 390px viewport (12px gap). The 902px pair stacks when it cannot fit.
-  // Height is measured, never inferred from the practice face or arrow reserve.
+  // The media owner supplies width and spacing; Sections measures its natural height.
+  // Below 1152px of free pane, the film fills the 680px reading column (16px phone
+  // gutters). Above it, 400px leaves room for the deck, arrows and Contents lane.
+  filmLayout(width, height, paired, card, row, column) {
+    const wide = width >= 1152, ask = row && card?.hasAttribute("data-land-ask");
+    const css = ask && getComputedStyle(card);
+    const gap = ask && parseFloat(css.getPropertyValue("--section-gap"));
+    const hint = ask && width >= 1024 && this._handShown() && this._reader?.on("book");
+    // U104: in columns an asking card is the column's width, and its height feeds the Moves band and the article's columns. The line
+    // is fitted to one line by its ResizeObserver, a frame after its width changes, so a pane slide read a wrapped line, 17px taller:
+    // the columns flipped between passes and the reader's line jumped 11.8px on Mount Bottom at 1440. Size and fit it here first.
+    if (ask && column) {
+      if (card.style.width !== column + "px") card.style.setProperty("width", column + "px", "important");
+      const qt = card.querySelector("[data-land-ask-text]").parentNode;
+      if (qt.clientWidth !== qt._fitW) this._fitAskLine(qt, qt._fitW = qt.clientWidth);
+    }
+    // VIDEO3: the hint occupies the choices row's bottom band. The existing askStep
+    // then places its text one token below the cards, inside that band, without a
+    // separate stage row. Restore the original inline padding on reveal/hide/resize;
+    // deleting the declaration would lose the template's eight-pixel baseline.
+    if (row) {
+      row._askPadding ??= row.style.paddingBottom;
+      row.style.paddingBottom = hint ? card.getBoundingClientRect().height + gap + "px" : row._askPadding;
+    }
+    return [paired && (column || wide && !hint) && height > 500, column || Math.min(wide ? 400 : 680, width - 32),
+      ask && (!wide || hint) ? gap - parseFloat(getComputedStyle(row).paddingBottom)
+        - (card.querySelector("[data-land-ask-text]").getBoundingClientRect().top - card.getBoundingClientRect().top) : null];
+  }
   currentFilmHeight() { return this._landFilmEl?.getBoundingClientRect().height || 0; }
   _paintCurrentFilmWin() {
     const footer = this._landFilmEl?.querySelector("[data-current-film-win]"); if (!footer) return;
@@ -15548,7 +15703,7 @@ class Component extends DCLogic {
   // A reference supplies a canonical path instead of borrowing a game seat.
   // Playback, teardown and the one-host lifetime stay with this media owner.
   _renderLandFilm(filmClips, referencePath) {
-    if (!filmClips || !filmClips.length) return null;
+    if (!filmClips) return null;
     const current = this._landFilmEl, idx = referencePath ? -1 : this._landIdx, node = this.nodes[idx];
     const role = node ? this._landPerspSide(node) || this.playerRole : null;
     if (current?.isConnected && current._ngMediaIdx === idx && current._ngMediaRole === role && current.dataset.referenceFilm === referencePath) return current;
@@ -15565,9 +15720,11 @@ class Component extends DCLogic {
     film._ngVideoNode = shown;
     const seat = referencePath ? null : shown?.ty === "positions" ? this.playedRole(shown) : this._landPerspSide(shown) || "attacker";
     film.innerHTML = (referencePath ? "" : '<header class="ng-current-title">' + this.choiceShape(shown) + '<span>' + this.choiceEscape(shown ? this.graphName(shown) : "Current move") + '</span></header>')
-      + this.filmStudyHTML(filmClips, true)
+      // U109 b (owner, 2026-11-09): the full-size card, and "ask the user to add it if he wants, like using the same feedback form".
+      + (this.filmStudyHTML(filmClips, true) || '<div class="ng-choice-media ng-film-none" data-choice-media><b>No video of this move yet</b><span>We only show a video that teaches exactly this move. Know one?</span><button data-film-suggest>Suggest a video</button></div>')
       + (seat ? '<footer><span>' + this.choiceEscape(seat[0].toUpperCase() + seat.slice(1)) + '</span><span class="ng-current-stat"><span>Win %</span><strong data-current-film-win>—</strong></span></footer>' : "");
     film.toggleAttribute("data-single-video", filmClips.length === 1);
+    film.querySelector("[data-film-suggest]")?.addEventListener("click", (e) => { e.stopPropagation(); this.openFeedback(shown); });
     // ARROWS (v1.217.0, owner 2026-10-02): the deck's chevrons, one at each end of the row, shown only
     // toward hidden clips (`_syncFilmEdges`), so the left one is hidden at the start. Appended before
     // the ✕, which therefore paints over an arrow wherever the two could ever touch.
@@ -15586,18 +15743,21 @@ class Component extends DCLogic {
         e.stopPropagation(); e.preventDefault(); this._filmPage(e.key === "ArrowRight" ? 1 : -1);
       });
     }
-    const xb = document.createElement("button");
-    xb.type = "button";
-    xb.setAttribute("data-film-close", "1");
-    xb.setAttribute("aria-label", "Hide the videos");
-    xb.title = "Hide the videos";
-    xb.textContent = "✕";
-    // `left`/`top` are a first-frame guess — _dockLandFilm docks it beside the LAST thumbnail
-    xb.style.cssText = NG_GHOST_BTN_CSS + "position:absolute;top:4px;right:4px;z-index:2;background:rgba(19,22,37,.72);";
-    xb.addEventListener("mouseenter", () => { xb.style.color = "#dbe2f0"; xb.style.background = "rgba(40,46,66,.92)"; });
-    xb.addEventListener("mouseleave", () => { xb.style.color = "#8b97b0"; xb.style.background = "rgba(19,22,37,.72)"; });
-    xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("film", false, "x"); });
-    film.appendChild(xb);
+    // U104: a card with no video has nothing to dismiss, and a page with no film has no Videos row to bring it back from.
+    if (filmClips.length) {
+      const xb = document.createElement("button");
+      xb.type = "button";
+      xb.setAttribute("data-film-close", "1");
+      xb.setAttribute("aria-label", "Hide the videos");
+      xb.title = "Hide the videos";
+      xb.textContent = "✕";
+      // `left`/`top` are a first-frame guess — _dockLandFilm docks it beside the LAST thumbnail
+      xb.style.cssText = NG_GHOST_BTN_CSS + "position:absolute;top:4px;right:4px;z-index:2;background:rgba(19,22,37,.72);";
+      xb.addEventListener("mouseenter", () => { xb.style.color = "#dbe2f0"; xb.style.background = "rgba(40,46,66,.92)"; });
+      xb.addEventListener("mouseleave", () => { xb.style.color = "#8b97b0"; xb.style.background = "rgba(19,22,37,.72)"; });
+      xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("film", false, "x"); });
+      film.appendChild(xb);
+    }
     this.wrapRef.current.appendChild(film);
     this._landFilmEl = film;
     film._ngMediaIdx = idx; film._ngMediaRole = role;
@@ -16197,8 +16357,6 @@ class Component extends DCLogic {
     if (on) this.showVignette();
     else {
       if (this._vignetteEl) { this._vignetteEl.remove(); this._vignetteEl = null; }
-      const logo = this.wrapRef?.current?.querySelector(".ng-logo");
-      if (logo) { logo.style.opacity = ""; logo.style.pointerEvents = ""; }
     }
     if ((!on || reduced) && this._landEl && this._landMode === "defense") {
       this._landEl.classList.remove("ng-clock-hot");
@@ -16212,15 +16370,12 @@ class Component extends DCLogic {
     v.className = "ng-vignette";
     (this.__ngRoot || document.body).appendChild(v);
     this._vignetteEl = v;
-    // danger owns the frame (v1.133.0): the brand yields while the vignette burns
-    const logo = this.wrapRef && this.wrapRef.current ? this.wrapRef.current.querySelector(".ng-logo") : null;
-    if (logo) { logo.style.opacity = "0"; logo.style.pointerEvents = "none"; }
+    // U16 b + U66 a: the drawer icon stays reachable during a catch. Opening it pauses
+    // the roll through the ordinary pane law, giving access to the badge and Settings.
   }
   killVignette(relief) {
     this._dangerAnimated = false;
     this._dangerSet = null; // the fog lifts with the danger (set in enterDefense)
-    const logo = this.wrapRef && this.wrapRef.current ? this.wrapRef.current.querySelector(".ng-logo") : null;
-    if (logo) { logo.style.opacity = ""; logo.style.pointerEvents = ""; }
     const v = this._vignetteEl; if (!v) return; this._vignetteEl = null;
     // STOP THE HEARTBEAT BEFORE FADING. A running CSS animation outranks an inline declaration
     // of the property it animates (the same cascade fact `_suppressLand` documents), so with
@@ -17164,6 +17319,10 @@ class Component extends DCLogic {
       this._pastRolls = this._pastRolls || [];
       this._pastRolls.unshift({ log: log.slice(), outcome: this._lastOutcome || "reset", ts: Date.now(), finish: this._lastFinish || null });
       if (this._pastRolls.length > 40) this._pastRolls.pop();
+      // THE DAY'S ROLLS SURVIVE A RELOAD (SIDE-R2 M4): the shelf above is this visit's, so the badge's
+      // "Today: … rolls" counts here, per local day beside `days`, on the roll ledger's own debounce.
+      const dk = this._dayKey(), rd = (this._rollDays = this._rollDays || {});
+      rd[dk] = (rd[dk] || 0) + 1; this._saveFlowSoon();
       this.fx("roll_archived", { states: log.length, outcome: this._lastOutcome || "reset", shelf: this._pastRolls.length });
     } else if (log.length) {
       this.fx("roll_discarded", { states: log.length, played: !!this._played, acted: acted });
@@ -18752,7 +18911,9 @@ class Component extends DCLogic {
   }
   // Reading reserves its node before the deferred reader or a deck has arrived.
   // Layout and the camera share this datum; article scroll never changes it.
-  _readerBand(top = Math.max(68, (this.wrapRef?.current?.querySelector(".ng-logo")?.getBoundingClientRect().bottom || 0) + 12)) {
+  _readerBand(top) {
+    const own = Math.max(68, (this.wrapRef?.current?.querySelector(".ng-logo")?.getBoundingClientRect().bottom || 0) + 12);
+    top ??= own;
     // D-349: a phone's band is 186, not 136: it gives back the 44px Questions header and the 6px gap
     // it sat under, the room a move's execution had before D-338 removed them. At 136 a no-Videos
     // exchange's arc carried the pair, on screen, 3px into the Moves row; at 186 every frame with the
@@ -18761,7 +18922,12 @@ class Component extends DCLogic {
     // with no arrival or Answer for Points scroll (U47 d). At 390x631 the reader has 463px: 80 band + 16 gap
     // + the measured 352.25px open card leaves 14.75px. The usual phone keeps 144;
     // no account, type, target or Moves compaction. Both bands hold through the pick.
-    const height = this.H > 500 ? this.W <= 640 ? this._phoneCatch() ? this.H < 700 ? 80 : 144 : 186 : 144 : 64;
+    // U90 a, then U99 b (owner, 2026-11-06): on a desktop the map ends at half the window's height, or NG_LIVE_ANSWER_ROOM above
+    // the window's bottom if that is higher, and never below the old 144. It reads the window alone, never a card, so nothing moves
+    // when a question opens. D-433 stands on a phone; on a desktop a long card's last answer is a scroll away, by his ruling.
+    // From the app's own top, not a chrome frame's: D-318 keeps the reservation's height when chrome moves the head.
+    const height = this.H > 500 ? this.W <= 640 ? this._phoneCatch() ? this.H < 700 ? 80 : 144 : 186
+      : Math.max(144, Math.min(Math.round(this.H / 2), this.H - NG_LIVE_ANSWER_ROOM) - own) : 64;
     return { top, bottom: top + height, height };
   }
   // U16 b, extended by D-433: only a LIVE phone catch uses the smaller band. A calm defender
@@ -19695,7 +19861,7 @@ class Component extends DCLogic {
     this.setPaused(true);            // freeze with a fresh decision timer; Play resumes
     this.enterLand(false);           // build options for the new state (no restart toast)
   }
-  _graphInputOn() { return !this._reader || this._reader.on("map"); }
+  _graphInputOn() { return !this._filmTheater && (!this._reader || this._reader.on("map")); }
   _updateHover(e) {
     if (!this._graphInputOn()) { this._hover = null; return; }
     if (!this.cam || !this.nodes) return;
@@ -19738,7 +19904,7 @@ class Component extends DCLogic {
         document.addEventListener(ev, eng, { once: true, capture: true });
     }
     const el = this.wrapRef.current;
-    let dragging = false, lx = 0, ly = 0, dsx = 0, dsy = 0, moved = 0;
+    let dragging = false, lx = 0, ly = 0, dsx = 0, dsy = 0, moved = 0, closing = false;
     const ptrs = new Map();
     let pinch = null;
     this._cancelGraphInput = () => {
@@ -19781,11 +19947,19 @@ class Component extends DCLogic {
         this._layerDockEl, this._handCloseEl, this._readerEl, this._readerTocEl]) {
         if (ov && e.target && ov.contains(e.target)) return;
       }
+      // THE TAP THAT CLOSES THE DRAWER IS CONSUMED (SIDE-R2 P1). On a phone the exposed strip's tap is the
+      // drawer's way out, and it went on into the tap router at pointerup: over a node it staged a roll
+      // there (the live roll discarded), over the background it dismissed the landing card. It closes,
+      // and that is all it does; a drag begun with it still pans.
+      const shown = this.deckShown;
       this.closeDeckIfStudying();
+      if (ptrs.size === 0) closing = shown && !this.deckShown;
       // A HAND ON THE GRAPH ENDS THE FILM (v1.106.5). This covers pan, pinch and tap in one place —
       // the overlays that own controls have already returned above, and the replay bar is a
-      // root-plane sibling of this wrap, so its own ✕ never reaches here.
-      if (this._replay) this.stopReplay("input");
+      // root-plane sibling of this wrap, so its own ✕ never reaches here. NOT the tap that closes the
+      // drawer (SIDE-R3 N2): on a phone that is how you WATCH the replay you just started.
+      // A closing gesture that becomes a pan or pinch ends it in pointermove below (SIDECX5 D2).
+      if (this._replay && !closing) this.stopReplay("input");
       ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       try { el.setPointerCapture(e.pointerId); } catch (err) {}
       if (ptrs.size === 2) {
@@ -19800,6 +19974,7 @@ class Component extends DCLogic {
       if (!this._graphInputOn()) { this._cancelGraphInput(); return; }
       if (ptrs.has(e.pointerId)) ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       if (pinch && ptrs.size >= 2 && this.cam) {
+        if (this._replay) this.stopReplay("input"); // a closing pinch takes the camera too
         const rect = this.canvas.getBoundingClientRect();
         const m = mid(); const sx = m.x - rect.left, sy = m.y - rect.top;
         const sb = this.W / this.cam.vw;
@@ -19825,6 +20000,7 @@ class Component extends DCLogic {
       }
       if (!dragging || !this.cam) { this._updateHover(e); return; }
       moved += Math.abs(e.clientX - lx) + Math.abs(e.clientY - ly);
+      if (moved > 6 && this._replay) this.stopReplay("input"); // only the closing TAP keeps the film
       const scale = this.W / this.cam.vw;
       this.cam.cx -= (e.clientX - lx) / scale; this.cam.cy -= (e.clientY - ly) / scale;
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy;
@@ -19858,7 +20034,7 @@ class Component extends DCLogic {
         // simply routes there. A POSITION deliberately keeps calling `stageRollAt` directly:
         // going through `openDossier` would also unfold the card and take a `_dossierAutoPaused`
         // latch on every roam, which is a different feature from the one being fixed.
-        if (dragging && moved < 5 && e && !inCard) {
+        if (dragging && moved < 5 && e && !inCard && !closing) {
           this._updateHover(e);
           if (this._hover && this._hover.idx >= 0) {
             // ── TAPPING A NODE IS COMING BACK (v1.129.5) ─────────────────────────────────────
@@ -19873,7 +20049,7 @@ class Component extends DCLogic {
             else this.stageRollAt(this._hover.idx);
           } else { this._tapBackground(); }
         }
-        dragging = false; el.style.cursor = "grab";
+        dragging = false; closing = false; el.style.cursor = "grab";
       }
       this.lastInteract = this.now;
     };
@@ -20273,7 +20449,20 @@ class Component extends DCLogic {
     // the path view's curriculum territory while it is up.
     // danger fogs the field (v1.133.0): while caught, only the threat, the seat and the escapes
     // stay lit — the quiet map is what makes the red read as danger
-    const fogSet = this._dangerSet || ((this._focusIdxSet && this._focusIdxSet.size) ? this._focusIdxSet : (this._pathDim ? this._curriculumIdxSet : null));
+    // A LIT PAGE FADES THE REST OF THE MAP TO ~20%, SMOOTHLY (owner U45, v1.242.0): a System, a Principle,
+    // a Learning entry or a list lights its places and the rest eases to 0.2 (it was an instant 0.3).
+    // The ease takes whichever clock moved more since the last frame: the WALL clock while the drawer
+    // holds the game paused (`this.now` stops with it, §6.2), the GAME clock otherwise — the harness
+    // renders one frame per pumped advance, so a wall-only ease never landed there (dual-pair:568 read
+    // the undimmed map). The last lit set is kept while the fog eases out, so closing is smooth too.
+    // Danger keeps its instant 0.3: it is the roll speaking, not a page.
+    const lit = this._focusIdxSet && this._focusIdxSet.size ? this._focusIdxSet : null, wall = performance.now(), game = (this.now || 0) * 1000;
+    if (lit) this._fogLast = lit;
+    const fogDt = Math.max(wall - (this._fogT || wall), game - (this._fogS == null ? game : this._fogS));
+    this._fogMix = Math.max(0, Math.min(1, (this._fogMix || 0) + ((lit ? 1 : 0) - (this._fogMix || 0)) * Math.min(1, fogDt / 160)));
+    this._fogT = wall; this._fogS = game;
+    const fogSet = this._dangerSet || (this._fogMix > 0.01 ? this._fogLast : null) || (this._pathDim ? this._curriculumIdxSet : null);
+    const fogLow = this._fogLow = this._dangerSet || !(this._fogMix > 0.01) ? (fogSet ? 0.3 : 1) : 1 - 0.8 * this._fogMix;   // published: the frame's own answer (sidebar.spec)
     // MITOSIS (v1.113.1). Zoomed out a pair IS its site: the representative wears the historical
     // hub radius and its twin has faded to nothing, on the exact ground point the single node
     // always occupied — so the overview is the map people already know. Zooming in, the
@@ -20296,7 +20485,7 @@ class Component extends DCLogic {
         else { aK = kLOD; if (aK < 0.02) continue; }
       }
       const bk = br ? 1 + br * Math.sin(this.now * 1.4 + n.idx * 0.83) : 1;
-      const fogK = fogSet && !fogSet.has(n.idx) ? 0.3 : 1;
+      const fogK = fogSet && !fogSet.has(n.idx) ? fogLow : 1;
       const rD = rr * nodeK * bk;
       ctx.fillStyle = this.rgba(this._mapColor(n, true), 0.62 * A * dim * fogK * aK);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, ny, rD); ctx.fill();

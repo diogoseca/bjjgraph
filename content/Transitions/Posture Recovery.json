@@ -32,7 +32,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Bottom",
+      "to": "Mount/Bottom",
       "probability": {
         "gi": 10,
         "nogi": 10
@@ -157,16 +157,16 @@
     ],
     "common_counters": [
       {
-        "counter": "Opponent transitions to armbar as you push away with extended arms",
+        "counter": "Opponent threatens the armbar as you push away with extended arms, then hip bumps you to mount as your weight shifts back",
         "effectiveness": "High",
-        "your_response": "Keep elbows tight to body during recovery. Never fully extend arms when framing. If they pivot for armbar, immediately posture to the opposite side and extract your arm while driving your weight forward over the attacking leg.",
-        "targets_outcome": "Closed Guard/Bottom"
+        "your_response": "Keep elbows tight to body during recovery. Never fully extend arms when framing. If they pivot for armbar, immediately posture to the opposite side and extract your arm while driving your weight forward over the attacking leg, so your weight never shifts back into the hip bump sweep that lands you under mount.",
+        "targets_outcome": "Mount/Bottom"
       },
       {
-        "counter": "Opponent shoots legs up for triangle choke during recovery",
+        "counter": "Opponent shoots legs up for a triangle threat during recovery, then hip bumps you to mount as your weight shifts back",
         "effectiveness": "High",
-        "your_response": "Monitor their hip angle and leg positioning throughout recovery. If triangle is imminent, immediately tuck your chin to the inside, change your recovery angle to the opposite side, and drive forward to stack them while addressing the leg over your shoulder.",
-        "targets_outcome": "Closed Guard/Bottom"
+        "your_response": "Monitor their hip angle and leg positioning throughout recovery. If triangle is imminent, immediately tuck your chin to the inside, change your recovery angle to the opposite side, and drive forward to stack them while addressing the leg over your shoulder. Staying forward also denies the hip bump sweep that lands you under mount.",
+        "targets_outcome": "Mount/Bottom"
       },
       {
         "counter": "Opponent uses deep collar grips to pull you back down repeatedly",
@@ -181,10 +181,10 @@
         "targets_outcome": "Combat Base/Top"
       },
       {
-        "counter": "Opponent overhooks your arm and begins rotating hips for omoplata",
+        "counter": "Opponent overhooks your arm and rotates hips for an omoplata threat, then hip bumps you to mount as your weight shifts back",
         "effectiveness": "Medium",
-        "your_response": "Recognize the overhook early and immediately roll your shoulder forward to prevent external rotation. Keep heavy weight on the trapped arm side, posture aggressively to the free side, and use a circular motion to extract the trapped arm before their hips complete the rotation.",
-        "targets_outcome": "Closed Guard/Bottom"
+        "your_response": "Recognize the overhook early and immediately roll your shoulder forward to prevent external rotation. Keep heavy weight on the trapped arm side, posture aggressively to the free side, and use a circular motion to extract the trapped arm before their hips complete the rotation. Keep your weight from shifting back while you do, because that opens the hip bump sweep to mount.",
+        "targets_outcome": "Mount/Bottom"
       }
     ],
     "common_errors": [
@@ -432,23 +432,23 @@
         "risk": "If opponent has already generated significant backward momentum, over-committing to pulling may compromise your own position or burn grip endurance"
       },
       {
-        "action": "Transition to armbar by pivoting hips and controlling the near arm as opponent extends during frame establishment",
+        "action": "Threaten the armbar by pivoting hips and controlling the near arm as opponent extends during frame establishment, then hip bump them over as their weight shifts back",
         "when_to_use": "When opponent pushes hands to your hips or biceps with arms extended, creating arm isolation opportunity during recovery framing",
-        "targets_outcome": "Closed Guard/Bottom",
-        "if_successful": "You sweep and achieve dominant position through the armbar attempt, even if the submission itself is not completed, or finish the armbar",
-        "risk": "If armbar attempt fails and opponent postures through it, they achieve full posture recovery with momentum advantage"
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "You sweep the opponent to mount position through the armbar threat, even though the submission itself is not completed",
+        "risk": "If the armbar threat fails and opponent postures through it, they achieve full posture recovery with momentum advantage"
       },
       {
-        "action": "Shoot triangle by controlling one arm and elevating hips as opponent drives backward, trapping head and arm",
+        "action": "Threaten the triangle by controlling one arm and elevating hips as opponent drives backward, then hip bump them over as their weight shifts back",
         "when_to_use": "When opponent's recovery movement creates an asymmetric arm position with one arm inside and one outside your guard frame",
-        "targets_outcome": "Closed Guard/Bottom",
-        "if_successful": "Triangle locks in and opponent must address the submission threat, abandoning posture recovery entirely and entering your submission control",
-        "risk": "If triangle is not locked cleanly, opponent can stack and use the triangle attempt to assist their posture recovery"
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "The triangle threat makes opponent abandon posture recovery, and the hip bump sweeps them to mount position",
+        "risk": "If the triangle threat is not clean, opponent can stack and use the attempt to assist their posture recovery"
       },
       {
         "action": "Execute hip bump sweep by sitting up explosively as opponent shifts weight backward during recovery",
         "when_to_use": "When opponent drives hips back and their weight shifts posteriorly, creating forward-direction sweep vulnerability during the recovery transition",
-        "targets_outcome": "Closed Guard/Bottom",
+        "targets_outcome": "Mount/Bottom",
         "if_successful": "You sweep the opponent to mount position, completely reversing the positional hierarchy and negating their recovery attempt",
         "risk": "If hip bump is read early, opponent may use your forward momentum against you and achieve faster posture recovery"
       }
@@ -459,8 +459,8 @@
         "how": "Maintain layered grip control with at least two control points (collar plus sleeve, or collar plus head control) so that breaking one grip does not free them. Actively pull with heels into their lower back while using arms to keep their head and shoulders below their hip line. Re-grip immediately whenever a grip is broken rather than allowing any recovery momentum to build."
       },
       {
-        "outcome": "Closed Guard/Bottom",
-        "how": "Use the opponent's recovery attempt as an offensive trigger. When they extend arms to frame, attack the armbar or triangle. When they shift weight backward, execute a hip bump sweep. The recovery movement creates predictable body mechanics that you can exploit with pre-planned counters. Time your attacks to the moment of maximum commitment to the recovery drive."
+        "outcome": "Mount/Bottom",
+        "how": "Use the opponent's recovery attempt as an offensive trigger. When they extend arms to frame, threaten the armbar or triangle. When they shift weight backward, execute a hip bump sweep and come up in mount. The recovery movement creates predictable body mechanics that you can exploit with pre-planned counters. Time your attacks to the moment of maximum commitment to the recovery drive."
       }
     ],
     "common_errors": [

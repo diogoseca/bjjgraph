@@ -10,8 +10,6 @@ description: "Defend against the omoplata from Russian Leg Lasso. Recognition cu
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Russian Leg Lasso targets the Shoulder joint (rotator cuff, capsule, AC joint). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -237,6 +235,8 @@ Defending the omoplata from Russian Leg Lasso requires recognizing the attack ea
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Omoplata/from Russian Leg Lasso#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

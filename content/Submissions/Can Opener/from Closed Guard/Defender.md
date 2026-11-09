@@ -10,8 +10,6 @@ description: "How to defend against Can Opener in BJJ. Recognition, escape paths
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Can Opener from Closed Guard targets the Cervical spine and neck muscles. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -257,6 +255,8 @@ Defending the Can Opener is among the most safety-critical defensive skills in B
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Can Opener/from Closed Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

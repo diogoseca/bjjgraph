@@ -10,8 +10,6 @@ description: "How to defend the Loop Choke from Turtle in BJJ. Recognition cues,
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Loop Choke from Turtle targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -239,6 +237,8 @@ Defending the loop choke from turtle requires immediate recognition and proactiv
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Loop Choke/from Turtle#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

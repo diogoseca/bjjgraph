@@ -287,7 +287,7 @@ The De La Riva to X-Guard Transition represents the systematic framework for con
 |--------|----------|-------------|
 | Success | [[Positions/X-Guard]] | 65% |
 | Failure | [[Positions/De La Riva Guard]] | 25% |
-| Counter | [[Positions/De La Riva Guard]] | 10% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -301,7 +301,7 @@ The De La Riva to X-Guard Transition represents the systematic framework for con
 - **Opponent widens base and lowers hips to prevent elevation** (Effectiveness: High) - Your Response: Switch to Single Leg X-Guard variation by focusing both hooks on near leg, or return to De La Riva and attack with alternative sweep. Don't force elevation against heavy base pressure. → Leads to [[Positions/De La Riva Guard]]
 - **Opponent backs away during hook transition, creating distance** (Effectiveness: Medium) - Your Response: Maintain connection with collar/sleeve grips or underhook, follow their movement by extending your hooks, or transition to Reverse De La Riva Guard if they circle away. Never let hooks completely disengage. → Leads to [[Positions/De La Riva Guard]]
 - **Opponent drops weight suddenly onto your bottom hook** (Effectiveness: Medium) - Your Response: Accept the pressure temporarily, use their weight commitment to attack with alternative sweeps like the Single Leg X Sweep, or transition to Deep Half Guard if weight becomes too heavy to elevate. → Leads to [[Positions/De La Riva Guard]]
-- **Opponent clears the top hook and drives forward to pass** (Effectiveness: High) - Your Response: Immediately revert to De La Riva configuration or transition to Shin-to-Shin Guard. Alternatively, switch to Single Leg X Guard with both hooks on one leg if bottom hook is secure. → Leads to [[Positions/De La Riva Guard]]
+- **Opponent clears the top hook and drives forward to pass** (Effectiveness: High) - Your Response: Immediately revert to De La Riva configuration or transition to Shin-to-Shin Guard. Alternatively, switch to Single Leg X Guard with both hooks on one leg if bottom hook is secure. → Leads to [[Positions/Half Guard]]
 
 
 </section>
@@ -383,14 +383,6 @@ This transition is generally safe when practiced progressively, but several prec
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">De La Riva to X-Guard Transition: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

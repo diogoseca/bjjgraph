@@ -176,6 +176,27 @@ description: "Master the Step Over pass from X-Guard as the attacker. Detailed e
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Step Over from X-Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Smash the X Guard - Step Over Pass to Tight Underhook Side Control",
+      "description": "Step Over from X-Guard (Attacker) film study: Smash the X Guard - Step Over Pass to Tight Underhook Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5EGR9NJXeDk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5EGR9NJXeDk",
+      "url": "https://www.youtube.com/watch?v=5EGR9NJXeDk",
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the attacker executing the Step Over from X-Guard, your objective is to clear
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Step Over from X-Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5EGR9NJXeDk)
+
+<p class="clip-credit"><strong>Smash the X Guard - Step Over Pass to Tight Underhook Side Control</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=5EGR9NJXeDk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

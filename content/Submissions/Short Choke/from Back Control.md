@@ -36,6 +36,37 @@ description: "Master the Short Choke from Back Control in BJJ. Learn cross-colla
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Back Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapel Choke from Back Control - Rampage Jiu-Jitsu Academy",
+      "description": "Short Choke from Back Control film study: Lapel Choke from Back Control - Rampage Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qkqvg7SEwzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qkqvg7SEwzc",
+      "url": "https://www.youtube.com/watch?v=qkqvg7SEwzc",
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross Collar Choke from the Back",
+      "description": "Short Choke from Back Control film study: Cross Collar Choke from the Back.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/poQVy53KJ_A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/poQVy53KJ_A?start=33",
+      "url": "https://www.youtube.com/watch?v=poQVy53KJ_A",
+      "duration": "PT249S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +92,6 @@ description: "Master the Short Choke from Back Control in BJJ. Learn cross-colla
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> Short Choke from Back Control targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Short Choke/from Back Control/Attacker|Play as Attacker]]
@@ -83,6 +111,32 @@ Strategically, the Short Choke serves as a high-percentage complement to the Rea
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Back Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qkqvg7SEwzc)
+
+<p class="clip-credit"><strong>Lapel Choke from Back Control - Rampage Jiu-Jitsu Academy</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=qkqvg7SEwzc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=poQVy53KJ_A&start=33)
+
+<p class="clip-credit"><strong>Cross Collar Choke from the Back</strong> · 4:09 · <a href="https://www.youtube.com/watch?v=poQVy53KJ_A&t=33s" rel="noopener">Watch on YouTube from 0:33</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -131,6 +185,8 @@ Strategically, the Short Choke serves as a high-percentage complement to the Rea
 
 - Create attacking dilemmas by threatening both RNC and collar choke, forcing the defender to choose which to defend
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -202,6 +258,8 @@ Strategically, the Short Choke serves as a high-percentage complement to the Rea
 - Attacker's second hand releasing from underhook seatbelt position, indicating they are committing to dual collar grips for the choke
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -256,9 +314,8 @@ Strategically, the Short Choke serves as a high-percentage complement to the Rea
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -267,30 +324,9 @@ Strategically, the Short Choke serves as a high-percentage complement to the Rea
 | Neck strain from rotational pressure | Low | 2-5 days with rest |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress signal including body going limp
 
 
-**Release Protocol**:
-1. Immediately release lapel grip and remove all pressure from neck
-2. Remove your weight from opponent's torso to allow breathing
-3. Check partner's consciousness and breathing status
-4. If partner is unconscious, elevate legs and monitor airway
-5. Never apply the choke again in the same training session if unconsciousness occurred
-
-
-**Training Restrictions**:
-- Never apply sudden jerking motions with the lapel
-- Never continue pressure after tap signal
-- Never practice on partners with neck injuries or medical conditions
-- Always ensure partner can tap with at least one hand
-- Never use competition speed during initial learning phases
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -10,8 +10,6 @@ description: "Learn to attack the omoplata from armbar control position. Step-by
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Omoplata from Armbar Control targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -178,6 +176,27 @@ description: "Learn to attack the omoplata from armbar control position. Step-by
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Armbar Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "BJJ Techniques: Basic Omoplata from Armbar Attempt",
+      "description": "Omoplata from Armbar Control (Attacker) film study: BJJ Techniques: Basic Omoplata from Armbar Attempt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lKPIFyJVEAE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lKPIFyJVEAE",
+      "url": "https://www.youtube.com/watch?v=lKPIFyJVEAE",
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -191,6 +210,24 @@ Attacking the omoplata from armbar control requires recognizing the precise mome
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Armbar Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lKPIFyJVEAE)
+
+<p class="clip-credit"><strong>BJJ Techniques: Basic Omoplata from Armbar Attempt</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=lKPIFyJVEAE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -225,6 +262,8 @@ Attacking the omoplata from armbar control requires recognizing the precise mome
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Omoplata/from Armbar Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

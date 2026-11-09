@@ -155,6 +155,37 @@ description: "Technical Mount Bottom escape guide in BJJ. Comprehensive defense 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Mount (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical Mount Escapes",
+      "description": "Technical Mount (Bottom) film study: Technical Mount Escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2pUpL1zdrsc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2pUpL1zdrsc",
+      "url": "https://www.youtube.com/watch?v=2pUpL1zdrsc",
+      "duration": "PT272S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "TECHNICAL MOUNT - 4 SIMPLE ESCAPES with Professor Alan Merullo",
+      "description": "Technical Mount (Bottom) film study: TECHNICAL MOUNT - 4 SIMPLE ESCAPES with Professor Alan Merullo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YjWi3ijM-QA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YjWi3ijM-QA",
+      "url": "https://www.youtube.com/watch?v=YjWi3ijM-QA",
+      "duration": "PT662S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -167,6 +198,32 @@ From the bottom perspective, Technical Mount represents one of the most precario
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Mount (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2pUpL1zdrsc)
+
+<p class="clip-credit"><strong>Technical Mount Escapes</strong> · 4:32 · <a href="https://www.youtube.com/watch?v=2pUpL1zdrsc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YjWi3ijM-QA)
+
+<p class="clip-credit"><strong>TECHNICAL MOUNT - 4 SIMPLE ESCAPES with Professor Alan Merullo</strong> · 11:02 · <a href="https://www.youtube.com/watch?v=YjWi3ijM-QA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">
@@ -342,14 +399,6 @@ Start with partner giving 50% resistance in technical mount, allowing you to wor
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

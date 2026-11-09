@@ -36,6 +36,27 @@ description: "Master Leg Extraction Escape from Gogoplata Control in BJJ. Comple
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "gogoplata defense",
+      "description": "Leg Extraction Escape film study: gogoplata defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7WcJK3B-Gwc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7WcJK3B-Gwc?start=28",
+      "url": "https://www.youtube.com/watch?v=7WcJK3B-Gwc",
+      "duration": "PT101S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, this escape serves as the primary pathway out of gogoplata contro
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7WcJK3B-Gwc&start=28)
+
+<p class="clip-credit"><strong>gogoplata defense</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=7WcJK3B-Gwc&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

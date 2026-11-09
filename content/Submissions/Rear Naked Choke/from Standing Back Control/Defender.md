@@ -10,8 +10,6 @@ description: "Learn to defend and escape the rear naked choke from standing back
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Rear Naked Choke from Standing Back Control targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -245,6 +243,8 @@ Defending the rear naked choke from standing back control is one of the most urg
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Rear Naked Choke/from Standing Back Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

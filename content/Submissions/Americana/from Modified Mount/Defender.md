@@ -10,8 +10,6 @@ description: "Complete defense guide against the Americana from Modified Mount. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Modified Mount targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -138,6 +136,27 @@ description: "Complete defense guide against the Americana from Modified Mount. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Modified Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes",
+      "description": "Americana from Modified Mount (Defender) film study: Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ny_l7GHApo0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ny_l7GHApo0?start=35",
+      "url": "https://www.youtube.com/watch?v=Ny_l7GHApo0",
+      "duration": "PT199S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -151,6 +170,24 @@ Defending the Americana from Modified Mount requires early recognition and immed
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Modified Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ny_l7GHApo0&start=35)
+
+<p class="clip-credit"><strong>Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes</strong> · 3:19 · <a href="https://www.youtube.com/watch?v=Ny_l7GHApo0&t=35s" rel="noopener">Watch on YouTube from 0:35</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -184,6 +221,8 @@ Defending the Americana from Modified Mount requires early recognition and immed
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Americana/from Modified Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

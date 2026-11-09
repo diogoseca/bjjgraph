@@ -10,8 +10,6 @@ description: "Complete defensive guide for surviving and escaping the Americana 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Americana from Kesa Gatame targets the Shoulder joint (glenohumeral). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -162,6 +160,26 @@ description: "Complete defensive guide for surviving and escaping the Americana 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Rickson Gracie Fundamentals - Keylock Escape from Scarf Hold Position (week 12)",
+      "description": "Americana from Kesa Gatame (Defender) film study: Rickson Gracie Fundamentals - Keylock Escape from Scarf Hold Position (week 12).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Gq_0GK6mMB0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Gq_0GK6mMB0?start=127",
+      "url": "https://www.youtube.com/watch?v=Gq_0GK6mMB0",
+      "duration": "PT484S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bjj defense against the americana",
+      "description": "Americana from Kesa Gatame (Defender) film study: Bjj defense against the americana.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qfoEZtys84k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qfoEZtys84k",
+      "url": "https://www.youtube.com/watch?v=qfoEZtys84k",
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "BJJ Techniques: Escape Kesa Gatame Leg Americana",
       "description": "Americana from Kesa Gatame (Defender) film study: BJJ Techniques: Escape Kesa Gatame Leg Americana.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R9pryxCaovU/hqdefault.jpg",
@@ -193,6 +211,22 @@ Defending the Americana from Kesa Gatame requires recognizing the submission thr
 
 <p class="section-subtitle">Watch Americana from Kesa Gatame (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Gq_0GK6mMB0&start=127)
+
+<p class="clip-credit"><strong>Rickson Gracie Fundamentals - Keylock Escape from Scarf Hold Position (week 12)</strong> · 8:04 · <a href="https://www.youtube.com/watch?v=Gq_0GK6mMB0&t=127s" rel="noopener">Watch on YouTube from 2:07</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qfoEZtys84k)
+
+<p class="clip-credit"><strong>Bjj defense against the americana</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=qfoEZtys84k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -237,6 +271,8 @@ Defending the Americana from Kesa Gatame requires recognizing the submission thr
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Americana/from Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -46,6 +46,26 @@ description: "Master the Kimura shoulder lock from New York Control rubber guard
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Manny Rocha - Kimura From Dead Orchard via Rubber Guard",
+      "description": "Kimura from New York Control film study: Manny Rocha - Kimura From Dead Orchard via Rubber Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4P9qQNRt_T0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4P9qQNRt_T0",
+      "url": "https://www.youtube.com/watch?v=4P9qQNRt_T0",
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Setting up a kimura lock from Nino Schembri/Shawn Williams guard",
+      "description": "Kimura from New York Control film study: Setting up a kimura lock from Nino Schembri/Shawn Williams guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4jYauSUDEYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4jYauSUDEYA",
+      "url": "https://www.youtube.com/watch?v=4jYauSUDEYA",
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Marshall Stamper ~ Meathook\u2192Chilldog\u2192Carnie/Kimura/Ultimate Kimura",
       "description": "Kimura from New York Control film study: Marshall Stamper ~ Meathook\u2192Chilldog\u2192Carnie/Kimura/Ultimate Kimura.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Q2aYW-20B44/hqdefault.jpg",
@@ -82,9 +102,6 @@ description: "Master the Kimura shoulder lock from New York Control rubber guard
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from New York Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from New York Control/Attacker|Play as Attacker]]
@@ -111,6 +128,22 @@ The finishing mechanics require precise hip escape movement to create the rotati
 
 <p class="section-subtitle">Watch Kimura from New York Control in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4P9qQNRt_T0)
+
+<p class="clip-credit"><strong>Manny Rocha - Kimura From Dead Orchard via Rubber Guard</strong> · 1:37 · <a href="https://www.youtube.com/watch?v=4P9qQNRt_T0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4jYauSUDEYA)
+
+<p class="clip-credit"><strong>Setting up a kimura lock from Nino Schembri/Shawn Williams guard</strong> · 1:09 · <a href="https://www.youtube.com/watch?v=4jYauSUDEYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -170,6 +203,8 @@ The finishing mechanics require precise hip escape movement to create the rotati
 
 - Patience during the finish prevents defensive scrambles and allows progressive pressure that forces the tap
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -241,6 +276,8 @@ The finishing mechanics require precise hip escape movement to create the rotati
 - Increased pulling pressure on your trapped arm toward the bottom player's hip rather than across their chest
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -282,9 +319,8 @@ The finishing mechanics require precise hip escape movement to create the rotati
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -294,31 +330,9 @@ The finishing mechanics require precise hip escape movement to create the rotati
 | Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position (externally rotate back to starting position)
-3. Release the figure-four grip completely
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

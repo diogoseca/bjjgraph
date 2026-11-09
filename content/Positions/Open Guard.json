@@ -54,6 +54,10 @@
     {
       "name": "Headquarters Position",
       "relationship": "Transitional passing position during open guard top sequences"
+    },
+    {
+      "name": "Demi Guard",
+      "relationship": "Gi lapel-guard connection using a collar grip, lapel behind the knee and foot on the tail"
     }
   ],
   "top": {
@@ -288,8 +292,8 @@
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 15
+          "gi": 16,
+          "nogi": 12
         }
       },
       {
@@ -297,62 +301,101 @@
         "attempt_probability": {
           "gi": 15,
           "nogi": 16
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 53,
+          "nogi": 50
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 50,
+              "nogi": 50
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 21,
+              "nogi": 21
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 10,
+              "nogi": 10
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 19,
+              "nogi": 19
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Counter Sweep",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 4
+          "gi": 2,
+          "nogi": 3
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 6
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 9
+          "gi": 6,
+          "nogi": 8
         }
       },
       {
         "transition": "X Pass",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 4
+          "gi": 6,
+          "nogi": 3
         }
       },
       {
         "transition": "Pressure Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 7,
+          "nogi": 7
         },
         "deal_here": true,
         "success_rate": {
@@ -397,16 +440,100 @@
       {
         "transition": "Float Passing",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 9
+          "gi": 4,
+          "nogi": 7
         }
       },
       {
         "transition": "Open Guard to Double Unders",
         "attempt_probability": {
-          "gi": 3,
+          "gi": 2,
           "nogi": 2
         }
+      },
+      {
+        "transition": "Body Lock Pass",
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 40,
+          "nogi": 44
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 44,
+              "nogi": 44
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 30,
+              "nogi": 30
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 26,
+              "nogi": 26
+            },
+            "result": "counter"
+          }
+        ]
+      },
+      {
+        "transition": "Over-Under Pass",
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 8
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 44,
+          "nogi": 49
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 49,
+              "nogi": 49
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 21,
+              "nogi": 21
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Closed Guard/Top",
+            "probability": {
+              "gi": 10,
+              "nogi": 10
+            },
+            "result": "failure"
+          }
+        ]
       }
     ],
     "flashcards": [
@@ -796,15 +923,15 @@
       {
         "transition": "Butterfly Sweep",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 15
+          "gi": 5,
+          "nogi": 12
         }
       },
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 4
+          "gi": 6,
+          "nogi": 3
         }
       },
       {
@@ -812,12 +939,43 @@
         "attempt_probability": {
           "gi": 4,
           "nogi": 4
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 34,
+          "nogi": 24
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 24,
+              "nogi": 24
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 54,
+              "nogi": 54
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 22,
+              "nogi": 22
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Tripod Sweep",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 4,
           "nogi": null
         },
         "deal_here": true,
@@ -886,7 +1044,38 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 12
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 33,
+          "nogi": 29
+        },
+        "outcomes": [
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 29,
+              "nogi": 29
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 51,
+              "nogi": 51
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Scissor Sweep from Open Guard",
@@ -899,56 +1088,56 @@
         "transition": "Open Guard to Deep Half",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 3
+          "nogi": 2
         }
       },
       {
         "transition": "Open Guard to Collar Sleeve Guard",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 9,
           "nogi": null
         }
       },
       {
         "transition": "Open Guard to De La Riva",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 4
         }
       },
       {
         "transition": "Open Guard to Double Sleeve Guard",
         "attempt_probability": {
-          "gi": 5,
+          "gi": 4,
           "nogi": null
         }
       },
       {
         "transition": "Open Guard to Feet on Hips Guard",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 9
+          "gi": 4,
+          "nogi": 7
         }
       },
       {
         "transition": "Collar Drag from Open Guard",
         "attempt_probability": {
-          "gi": 5,
+          "gi": 4,
           "nogi": null
         }
       },
       {
         "transition": "Recovery from Failed Sweep",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 6
+          "gi": 4,
+          "nogi": 5
         }
       },
       {
         "transition": "Technical Stand Up from Open Guard",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 13
+          "nogi": 11
         }
       },
       {
@@ -969,22 +1158,121 @@
         "transition": "Triangle Choke from Open Guard",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 5
+          "nogi": 4
         }
       },
       {
         "transition": "Grip Break",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 2
         }
       },
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 9
+          "nogi": 7
         }
+      },
+      {
+        "transition": "Open Guard to Demi Guard",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": null
+        }
+      },
+      {
+        "transition": "Pull Guard from Ground",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 7
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 51,
+          "nogi": 51
+        },
+        "outcomes": [
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 51,
+              "nogi": 51
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 33,
+              "nogi": 33
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "counter"
+          }
+        ]
+      },
+      {
+        "transition": "Reguard to Butterfly Guard",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 8
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 51,
+          "nogi": 51
+        },
+        "outcomes": [
+          {
+            "to": "Butterfly Guard/Bottom",
+            "probability": {
+              "gi": 51,
+              "nogi": 51
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 22,
+              "nogi": 22
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Feet on Hips Guard/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 5,
+              "nogi": 5
+            },
+            "result": "counter"
+          }
+        ]
       }
     ],
     "flashcards": [

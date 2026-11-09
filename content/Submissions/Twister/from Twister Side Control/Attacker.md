@@ -10,8 +10,6 @@ description: "Step-by-step guide to finishing the Twister spinal lock from Twist
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Twister from Twister Side Control targets the Cervical and thoracic spine, shoulder girdle. Risk: Cervical spine damage (neck injury). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Attacking with the Twister from Twister Side Control requires methodical control
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Twister/from Twister Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

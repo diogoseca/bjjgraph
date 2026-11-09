@@ -143,6 +143,27 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending Against The Standing Guard Break In Jiu Jitsu",
+      "description": "Standing Guard (Bottom) film study: Defending Against The Standing Guard Break In Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vQ1AOQP-N_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vQ1AOQP-N_w",
+      "url": "https://www.youtube.com/watch?v=vQ1AOQP-N_w",
+      "duration": "PT266S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -157,6 +178,24 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vQ1AOQP-N_w)
+
+<p class="clip-credit"><strong>Defending Against The Standing Guard Break In Jiu Jitsu</strong> · 4:26 · <a href="https://www.youtube.com/watch?v=vQ1AOQP-N_w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">
@@ -370,14 +409,6 @@ Start standing with grips engaged. Bottom player must successfully pull guard to
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Alex Enriquez: Wrestling Takedown Defense</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related position reference for standing defense study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

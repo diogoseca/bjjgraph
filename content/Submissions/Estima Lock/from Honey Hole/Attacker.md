@@ -10,8 +10,6 @@ description: "Learn to attack the Estima Lock from Honey Hole position. Step-by-
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Estima Lock from Honey Hole targets the Foot and ankle joints (dorsiflexion of foot). Risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -265,6 +263,8 @@ Attacking with the Estima Lock from Honey Hole requires recognizing when heel ho
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Estima Lock/from Honey Hole#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

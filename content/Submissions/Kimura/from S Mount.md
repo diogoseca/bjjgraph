@@ -46,6 +46,16 @@ description: "Master the Kimura shoulder lock from S Mount in BJJ. Complete fini
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Try This Crazy Tight Kimura From S Mount",
+      "description": "Kimura from S Mount film study: Try This Crazy Tight Kimura From S Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rN4ZoExf5N0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rN4ZoExf5N0",
+      "url": "https://www.youtube.com/watch?v=rN4ZoExf5N0",
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "S-Mount Armbar, Kimura, + Far side Armbar",
       "description": "Kimura from S Mount film study: S-Mount Armbar, Kimura, + Far side Armbar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nH4ly3vk7WI/hqdefault.jpg",
@@ -82,9 +92,6 @@ description: "Master the Kimura shoulder lock from S Mount in BJJ. Complete fini
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from S Mount targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from S Mount/Attacker|Play as Attacker]]
@@ -111,6 +118,14 @@ This submission chains naturally with the armbar from S Mount, creating a powerf
 
 <p class="section-subtitle">Watch Kimura from S Mount in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rN4ZoExf5N0)
+
+<p class="clip-credit"><strong>Try This Crazy Tight Kimura From S Mount</strong> · 2:18 · <a href="https://www.youtube.com/watch?v=rN4ZoExf5N0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -170,6 +185,8 @@ This submission chains naturally with the armbar from S Mount, creating a powerf
 
 - Control the pace of rotation progressively in training, never jerking or spiking the shoulder joint
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -241,6 +258,8 @@ This submission chains naturally with the armbar from S Mount, creating a powerf
 - Your bent-arm defense against the armbar suddenly feels like it is being exploited rather than resisted
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -300,9 +319,8 @@ This submission chains naturally with the armbar from S Mount, creating a powerf
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -312,31 +330,9 @@ This submission chains naturally with the armbar from S Mount, creating a powerf
 | Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position by externally rotating back to starting position
-3. Release the figure-four grip completely and allow partner to self-assess shoulder mobility
-4. Never release suddenly or allow arm to spring back forcefully
-5. Allow partner adequate recovery time before continuing training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

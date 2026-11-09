@@ -10,8 +10,6 @@ description: "Defend against the Kimura from New York Control position. Recognit
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from New York Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -231,6 +229,8 @@ Defending the Kimura from New York Control requires recognizing the transition f
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Kimura/from New York Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

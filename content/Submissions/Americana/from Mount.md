@@ -46,6 +46,16 @@ description: "Master the Americana shoulder lock from mount with safety protocol
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Basic AMERICANA SHOULDER SUBMISSION from MOUNT (A.K.A Paint Brush, Figure Four\u2026",
+      "description": "Americana from Mount film study: Basic AMERICANA SHOULDER SUBMISSION from MOUNT (A.K.A Paint Brush, Figure Four\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GX1fk0p0lwc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GX1fk0p0lwc",
+      "url": "https://www.youtube.com/watch?v=GX1fk0p0lwc",
+      "duration": "PT211S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "\ud83d\udee1\ufe0f Americana from Mount Explained | BJJ Submission Guide",
       "description": "Americana from Mount film study: \ud83d\udee1\ufe0f Americana from Mount Explained | BJJ Submission Guide.",
       "thumbnailUrl": "https://i.ytimg.com/vi/N-bZMbI2jSo/hqdefault.jpg",
@@ -82,9 +92,6 @@ description: "Master the Americana shoulder lock from mount with safety protocol
 <span class="meta-chip">68% success</span>
 </div>
 
-> [!danger] Safety
-> Americana from Mount targets the Shoulder joint (rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Americana/from Mount/Attacker|Play as Attacker]]
@@ -111,6 +118,14 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 <p class="section-subtitle">Watch Americana from Mount in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GX1fk0p0lwc)
+
+<p class="clip-credit"><strong>Basic AMERICANA SHOULDER SUBMISSION from MOUNT (A.K.A Paint Brush, Figure Four…</strong> · 3:31 · <a href="https://www.youtube.com/watch?v=GX1fk0p0lwc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -172,6 +187,8 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 - Create the figure-four grip with your hand on their wrist and your other hand controlling your own wrist for maximum leverage
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -244,6 +261,8 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 - You feel your arm being externally rotated with your elbow controlled at or below shoulder level
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -320,9 +339,8 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -332,32 +350,9 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 | AC joint sprain | Medium | 2-6 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from isolation to finish. Never spike or jerk the shoulder.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent or mat (minimum 2 taps)
-- Physical foot tap on mat
-- Any unusual vocalization or distress signal
-- Head shake or nodding if hands are trapped
 
 
-**Release Protocol**:
-1. Immediately release the figure-four grip on the wrist
-2. Remove pressure from the opponent's shoulder by lifting your chest
-3. Release the arm and allow it to return to neutral position naturally
-4. Do not force the arm back to starting position - let opponent move it themselves
-5. Maintain mount position control while releasing to ensure safe transition
-
-
-**Training Restrictions**:
-- Never apply competition speed or sudden pressure in training
-- Always ensure training partner has at least one hand free to tap
-- Stop immediately at any sign of discomfort or pain
-- Never use this submission on beginners until they understand tap protocols
-- Avoid training this technique with partners who have pre-existing shoulder injuries
-- Communication before and after drilling is mandatory
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

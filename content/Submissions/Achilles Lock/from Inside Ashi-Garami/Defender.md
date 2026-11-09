@@ -10,8 +10,6 @@ description: "Recognising the capture early, defending the blade, and escaping t
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Achilles Lock from Inside Ashi-Garami targets the Achilles tendon and ankle joint. Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -149,6 +147,27 @@ description: "Recognising the capture early, defending the blade, and escaping t
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Achilles Lock from Inside Ashi-Garami (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Como defender y escapar del Ashi Garami/Straight Ankle Lock/Llave de aquiles\u2026",
+      "description": "Achilles Lock from Inside Ashi-Garami (Defender) film study: Como defender y escapar del Ashi Garami/Straight Ankle Lock/Llave de aquiles\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lNLRhW9GFSo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lNLRhW9GFSo",
+      "url": "https://www.youtube.com/watch?v=lNLRhW9GFSo",
+      "duration": "PT206S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +184,24 @@ Your defence lives entirely before the blade is seated. Once the forearm is on t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Achilles Lock from Inside Ashi-Garami (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lNLRhW9GFSo)
+
+<p class="clip-credit"><strong>Como defender y escapar del Ashi Garami/Straight Ankle Lock/Llave de aquiles…</strong> · 3:26 · <a href="https://www.youtube.com/watch?v=lNLRhW9GFSo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -198,6 +235,8 @@ Your defence lives entirely before the blade is seated. Once the forearm is on t
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Achilles Lock/from Inside Ashi-Garami#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

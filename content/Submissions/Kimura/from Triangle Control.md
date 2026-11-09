@@ -36,6 +36,27 @@ description: "Learn Kimura from Triangle Control: retain the triangle entangleme
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Triangle Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Caio Terra, Kimura from Triangle",
+      "description": "Kimura from Triangle Control film study: Caio Terra, Kimura from Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/32-6U-k6-Hg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/32-6U-k6-Hg",
+      "url": "https://www.youtube.com/watch?v=32-6U-k6-Hg",
+      "duration": "PT149S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -61,9 +82,6 @@ description: "Learn Kimura from Triangle Control: retain the triangle entangleme
 <span class="meta-chip">50% success</span>
 </div>
 
-> [!danger] Safety
-> Kimura from Triangle Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kimura/from Triangle Control/Attacker|Play as Attacker]]
@@ -79,6 +97,24 @@ Kimura from Triangle Control is a distinct submission state: the bottom player r
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Triangle Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=32-6U-k6-Hg)
+
+<p class="clip-credit"><strong>Caio Terra, Kimura from Triangle</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=32-6U-k6-Hg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="outcomes" class="content-section">
@@ -125,6 +161,8 @@ Kimura from Triangle Control is a distinct submission state: the bottom player r
 
 - Release immediately at a tap; the arm attack and choke must both be released.
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -190,6 +228,8 @@ Kimura from Triangle Control is a distinct submission state: the bottom player r
 - The leg entanglement remains in place during the arm attack.
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -226,9 +266,8 @@ Kimura from Triangle Control is a distinct submission state: the bottom player r
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -238,25 +277,9 @@ Kimura from Triangle Control is a distinct submission state: the bottom player r
 | Bicep tendon strain or rupture from combined rotation and extension forces | Medium | Varies with injury severity and treatment; a clinician must assess an injury. |
 
 
-**Application Speed**: Apply pressure slowly and progressively with a qualified instructor supervising practice. Never jerk or force the joint; release immediately at any tap, request to stop, or sign of distress.
-
-**Tap Signals**:
-- Any hand or foot tap
-- A verbal tap or request to stop
-- A cry of pain, distress, or loss of responsiveness; stop immediately
 
 
-**Release Protocol**:
-1. Immediately remove pressure from the arm and neck at any tap or sign of distress.
-2. Release the arm grip and open the triangle entanglement without forcing the partner’s limb.
-3. Stop the exchange and check on the partner before resuming practice.
-
-
-**Training Restrictions**:
-- Practice finishing mechanics under qualified supervision with a cooperative partner and minimal pressure.
-- Tell the instructor and partner about prior arm, shoulder, or neck injuries before practice.
-- Stop immediately if control is lost, pain occurs, or either partner wants to stop.
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

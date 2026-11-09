@@ -92,9 +92,6 @@ description: "Master the toe hold from Outside Ashi-Garami in BJJ. Complete guid
 <span class="meta-chip">26% success</span>
 </div>
 
-> [!danger] Safety
-> Toe Hold from Outside Ashi targets the Foot and ankle joint complex. Primary risk: Lateral ankle ligament tears (anterior talofibular, calcaneofibular ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Toe Hold/from Outside Ashi/Attacker|Play as Attacker]]
@@ -189,6 +186,8 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 - Time the toe hold attempt when the opponent commits both hands to their own offensive attack, creating a window where their feet are unprotected and their attention is directed away from defense
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -263,6 +262,8 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 - Opponent pulls your foot toward their chest, reducing your ability to retract it and establishing the finishing fulcrum point
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -328,9 +329,8 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -340,30 +340,9 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 | Ankle joint dislocation from combined rotational and hyperextension forces | CRITICAL | 3-6 months with surgical reduction and rehabilitation |
 
 
-**Application Speed**: SLOW and progressive. The toe hold can cause structural damage before the opponent registers sufficient pain to tap. Never spike, jerk, or explosively apply rotational pressure. The ankle's structural failure threshold and pain threshold are dangerously close, meaning damage can occur simultaneously with pain onset.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat (multiple rapid taps)
-- Physical foot tap with free leg on partner or mat
-- Any unusual screaming, gasping, or distress vocalization
-- Going limp or sudden cessation of defensive movement (treat as emergency tap)
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal—do not maintain torque while unwinding the grip
-2. If opponent shows distress, goes limp, or stops defending, release immediately and check on them
-3. If in doubt about whether opponent tapped, release and re-establish position—safety over position
-4. Unwind the figure-four smoothly rather than simply dropping the foot, as residual tension can cause injury
-
-
-**Training Restrictions**:
-- Toe holds prohibited for white and blue belts under IBJJF rules—train only at appropriate belt levels with qualified instruction
-- No explosive or rapid application under any circumstances—always use slow, progressive rotational pressure
-- Begin drilling with zero resistance and graduated pressure protocols (30%, 50%, 75%) before any live application
-- Training partners must discuss tap threshold and signals before drilling toe holds
-- Avoid toe holds on partners with known ankle or knee injuries or recent surgical history
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

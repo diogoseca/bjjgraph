@@ -1,5 +1,5 @@
 {# BJJ Submission Hub Page Template #}
-{# Generates hub pages with safety banner, outcomes, and role summaries #}
+{# Generates hub pages with outcomes, role summaries and the safety guide last #}
 {# Input: Root fields (name, description, overview, etc.) + attacker, defender, outcomes, safety_considerations #}
 
 ---
@@ -107,9 +107,6 @@ description: "{{ description }}"
 <span class="meta-chip">{{ success_rate | pct(' success') }}</span>
 </div>
 
-> [!danger] Safety
-> {{ name }} targets the {{ target_area }}. Primary risk: {{ safety_considerations.injury_risks[0].injury }}. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 {% if (aliases is defined and aliases) or (family is defined and family) or (disambiguations is defined and disambiguations) -%}
 <aside class="entity-relations">
 {%- if aliases is defined and aliases %}
@@ -201,6 +198,8 @@ description: "{{ description }}"
 - {{ principle }}
 {% endfor %}
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 {% for step in attacker.execution_steps %}
@@ -234,6 +233,8 @@ description: "{{ description }}"
 {% for cue in defender.recognition_cues %}
 - {{ cue }}
 {% endfor %}
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -285,9 +286,10 @@ description: "{{ description }}"
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
-
-**Injury Risks**:
+{# U113 b (owner, 2026-11-09): the section is named for what it now holds, "Injury risks", once: the heading says it, so the
+   table's own "Injury Risks:" label goes ("say its name once", as in #349). Its id stays safety-considerations, so every
+   "Injury risks ↓" link still lands; only the heading's own anchor moves, #safety-guide to #injury-risks. #}
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -295,25 +297,16 @@ description: "{{ description }}"
 | {{ risk.injury }} | {{ risk.severity }} | {{ risk.recovery_time }} |
 {% endfor %}
 
-**Application Speed**: {{ safety_considerations.application_speed }}
+{# U111, U112 a (owner, 2026-11-09): "Show only the injury risks, and a disclaimer with a sensible warning to go slow and watch
+   out for the tap at the end of the article"; U112 a puts the cut here, in the page itself, so the static page, the markdown
+   export and the app's reader all show the same guide. Application speed, tap signals, release protocol and training
+   restrictions stay authored in the source JSON (templates/Submissions.json still requires them) and reach no page. The line
+   is a plain blockquote: the reader styles it as the S1 a rule line above the steps, Quartz as its own quote. #}
 
-**Tap Signals**:
-{% for signal in safety_considerations.tap_signals -%}
-- {{ signal }}
-{% endfor %}
-
-**Release Protocol**:
-{% for step in safety_considerations.release_protocol -%}
-{{ loop.index }}. {{ step }}
-{% endfor %}
-
-**Training Restrictions**:
-{% for restriction in safety_considerations.training_restrictions -%}
-- {{ restriction }}
-{% endfor %}
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 
-{{ resolve.related_systems_html(name) }}
+
 
 </main>

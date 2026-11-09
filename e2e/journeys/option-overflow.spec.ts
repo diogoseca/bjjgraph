@@ -64,7 +64,7 @@ test("@curated the hand never expires — the clock belongs to the question (v1.
   const j = journey(page)
   await j.boot("/")
   const hands: any[] = await page.evaluate(CLOCKS)
-  expect(hands.length, "every distinct position seat was driven through enterLand").toBe(240) // census:positionChoiceSeats
+  expect(hands.length, "every distinct position seat was driven through enterLand").toBe(242) // census:positionChoiceSeats
   for (const h of hands) {
     expect(h.armed, `${h.st} (${h.cards} cards) deals with a disarmed window`).toBe(null)
     expect(h.dsec, `${h.st}'s per-question window is the flat setting`).toBe(9)
@@ -102,15 +102,16 @@ test("@curated the hand uncapped; the deck warm-up did not", async ({ page }) =>
   // Hands over the cap warm fewer decks than they show. Both counts are census-tracked:
   // v1.229.0 combines Grasshopper's moves into Inverted, increasing both overflow counts.
   const overCap = hands.filter((h) => h.cards > 10)
-  expect(overCap.length, "hands dealing more than the warm-up cap").toBe(19) // census:handsOverPrefetchCap
+  expect(overCap.length, "hands dealing more than the warm-up cap").toBe(22) // census:handsOverPrefetchCap
   const strictly = hands.filter((h) => h.cards > 11)
-  expect(strictly.length, "hands warming strictly fewer decks than they deal cards").toBe(13) // census:handsOverWarmCap
+  expect(strictly.length, "hands warming strictly fewer decks than they deal cards").toBe(17) // census:handsOverWarmCap
   for (const h of strictly) {
     expect(h.warmed, `${h.st} caps its warm-up at 10 options + its own deck`).toBe(11)
     expect(h.warmed, `${h.st} warms fewer decks than it deals cards`).toBeLessThan(h.cards)
   }
   const stand = hands.find((h) => h.st === "standing-position/top")!
-  expect(stand.cards, "34 cards dealt").toBe(34)
+  // 34 until v1.250.2: H4 and H5 deal Kouchi Gari and Uchi Mata here.
+  expect(stand.cards, "36 cards dealt").toBe(36)
   expect(stand.warmed, "11 decks warmed").toBe(11)
 })
 

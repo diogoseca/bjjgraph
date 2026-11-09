@@ -10,8 +10,6 @@ description: "Learn to defend against the Estima Lock finish from Estima Lock co
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Estima Lock from Estima Lock Control targets the Foot and ankle joints (dorsiflexion of foot). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -152,6 +150,27 @@ description: "Learn to defend against the Estima Lock finish from Estima Lock co
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock from Estima Lock Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fernando Reis Counter to Estima Foot Lock Gi",
+      "description": "Estima Lock from Estima Lock Control (Defender) film study: Fernando Reis Counter to Estima Foot Lock Gi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ESNrUEVZOL8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ESNrUEVZOL8",
+      "url": "https://www.youtube.com/watch?v=ESNrUEVZOL8",
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +184,24 @@ Defending the Estima Lock finish from an established control position is signifi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock from Estima Lock Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ESNrUEVZOL8)
+
+<p class="clip-credit"><strong>Fernando Reis Counter to Estima Foot Lock Gi</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=ESNrUEVZOL8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -198,6 +235,8 @@ Defending the Estima Lock finish from an established control position is signifi
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Estima Lock/from Estima Lock Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

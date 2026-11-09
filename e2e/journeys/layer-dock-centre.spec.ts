@@ -259,7 +259,9 @@ for (const width of [1440, 1024]) {
     const g = await geo(page)
     expect(g.card, "premise: the card it stands in for is mounted (stood down, measurable)").not.toBeNull()
     expect(g.card!.l, "premise: the column sits beside the pane").toBeGreaterThanOrEqual(g.pane!.r)
-    same(g.replay?.c, g.card?.c, "the replay bar sits where the card it stands in for sits")
+    // U90 note (owner, 2026-11-06): the asking line starts at the label above the choices, so the card the bar stands in for is
+    // no longer centred on the column. The bar still is, which is what this journey's title claims. replay-bar-off-column.
+    same(g.replay?.c, g.col, "the replay bar sits under the column")
     expect(g.replay!.l, "…clear of the pane, so it cannot paint over the pane's rows").toBeGreaterThanOrEqual(g.pane!.r)
     await j.clickByMouse("[data-replay-stop]", "the replay bar's ✕ beside the open pane")
     await expect(page.locator("[data-replay-bar]")).toHaveCount(0)

@@ -10,8 +10,6 @@ description: "Guillotine Choke from Hindulotine (attacker): Establish a chin-str
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Guillotine Choke from Hindulotine targets the Neck. Risk: Neck injury from twisting or extension. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -304,6 +302,8 @@ If the opponent clears your legs to the weak side, stop trying to finish the gui
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Guillotine Choke/from Hindulotine#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

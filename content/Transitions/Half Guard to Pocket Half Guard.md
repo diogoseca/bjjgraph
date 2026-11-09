@@ -36,6 +36,27 @@ description: "Master the Transition to Pocket Half Guard from Half Guard Top. Es
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Pocket Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jason Rau BJJ Passing Mastery: Crossface + Underhook Control to Smash Half\u2026",
+      "description": "Half Guard to Pocket Half Guard film study: Jason Rau BJJ Passing Mastery: Crossface + Underhook Control to Smash Half\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/A__mIUaNZfw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/A__mIUaNZfw",
+      "url": "https://www.youtube.com/watch?v=A__mIUaNZfw",
+      "duration": "PT241S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, this transition serves as the critical gateway to high-percentage
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Pocket Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=A__mIUaNZfw)
+
+<p class="clip-credit"><strong>Jason Rau BJJ Passing Mastery: Crossface + Underhook Control to Smash Half…</strong> · 4:01 · <a href="https://www.youtube.com/watch?v=A__mIUaNZfw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

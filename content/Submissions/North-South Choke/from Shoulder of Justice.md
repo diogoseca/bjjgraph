@@ -46,6 +46,26 @@ description: "Master the North-South Choke from Shoulder of Justice with detaile
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "BJJ | How To Execute A North South Choke From Side Control",
+      "description": "North-South Choke from Shoulder of Justice film study: BJJ | How To Execute A North South Choke From Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z_l2Hq4u0LU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z_l2Hq4u0LU",
+      "url": "https://www.youtube.com/watch?v=z_l2Hq4u0LU",
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attack from side control 1. North South Choke. Techniques Jiu-jitsu\u2026",
+      "description": "North-South Choke from Shoulder of Justice film study: Attack from side control 1. North South Choke. Techniques Jiu-jitsu\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TkdKbLp5Ugo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TkdKbLp5Ugo",
+      "url": "https://www.youtube.com/watch?v=TkdKbLp5Ugo",
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "NORTH SOUTH PRESSURE CHOKE",
       "description": "North-South Choke from Shoulder of Justice film study: NORTH SOUTH PRESSURE CHOKE.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Fdq-j0AUVtc/hqdefault.jpg",
@@ -82,9 +102,6 @@ description: "Master the North-South Choke from Shoulder of Justice with detaile
 <span class="meta-chip">58% success</span>
 </div>
 
-> [!danger] Safety
-> North-South Choke from Shoulder of Justice targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/North-South Choke/from Shoulder of Justice/Attacker|Play as Attacker]]
@@ -111,6 +128,22 @@ This submission chain is particularly effective because the Shoulder of Justice 
 
 <p class="section-subtitle">Watch North-South Choke from Shoulder of Justice in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z_l2Hq4u0LU)
+
+<p class="clip-credit"><strong>BJJ | How To Execute A North South Choke From Side Control</strong> · 1:09 · <a href="https://www.youtube.com/watch?v=z_l2Hq4u0LU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TkdKbLp5Ugo)
+
+<p class="clip-credit"><strong>Attack from side control 1. North South Choke. Techniques Jiu-jitsu…</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=TkdKbLp5Ugo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -170,6 +203,8 @@ This submission chain is particularly effective because the Shoulder of Justice 
 
 - Squeeze elbows together using chest and back muscles rather than pulling with arms to generate sustainable choking pressure
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -243,6 +278,8 @@ This submission chain is particularly effective because the Shoulder of Justice 
 - Opponent's free hand reaches toward the threading arm to establish a grip connection around your neck
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -301,9 +338,8 @@ This submission chain is particularly effective because the Shoulder of Justice 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -313,31 +349,9 @@ This submission chain is particularly effective because the Shoulder of Justice 
 | Neck strain from explosive bridging attempts under choke pressure | Medium | 3-7 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and tap before full compression
-
-**Tap Signals**:
-- Verbal tap or verbal submission
-- Multiple rapid hand taps on opponent's body
-- Multiple rapid foot taps on the mat
-- Any distress signal including body convulsions or going limp
-- Loss of resistance indicating possible unconsciousness
 
 
-**Release Protocol**:
-1. Immediately release arm pressure and unlock gable grip upon any tap signal
-2. Roll off opponent's head and neck area completely without jerking their neck
-3. Allow opponent to recover in side-lying position with airway clear
-4. Monitor for signs of consciousness and normal breathing patterns
-5. If opponent is unconscious, place in recovery position and alert medical staff immediately
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking pressure to the neck during the choke transition
-- Always ensure partner has clear tap access with at least one hand throughout the sequence
-- Never hold the choke after partner taps or goes limp under any circumstances
-- Beginners should practice only the positional transition and grip placement without applying choking pressure
-- Never use competition speed or full pressure in training—apply progressively and give time to tap
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

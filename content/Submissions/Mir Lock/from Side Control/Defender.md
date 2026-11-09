@@ -10,8 +10,6 @@ description: "How to defend against Mir Lock in BJJ. Recognition, escape paths, 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Mir Lock from Side Control targets the Shoulder joint (glenohumeral joint). Tap early and often. Your safety is more important than any training round.
-
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
@@ -152,6 +150,27 @@ description: "How to defend against Mir Lock in BJJ. Recognition, escape paths, 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mir Lock from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Corey - Defend Mir Lock and escape half guard",
+      "description": "Mir Lock from Side Control (Defender) film study: Corey - Defend Mir Lock and escape half guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/URSGCnHSVVY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/URSGCnHSVVY",
+      "url": "https://www.youtube.com/watch?v=URSGCnHSVVY",
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +184,24 @@ Defending the Mir Lock requires early recognition and immediate preventive actio
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mir Lock from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=URSGCnHSVVY)
+
+<p class="clip-credit"><strong>Corey - Defend Mir Lock and escape half guard</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=URSGCnHSVVY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
@@ -200,6 +237,8 @@ Defending the Mir Lock requires early recognition and immediate preventive actio
 </section>
 
 <section id="defensive-options" class="content-section">
+
+> Tap early and often. [[Submissions/Mir Lock/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

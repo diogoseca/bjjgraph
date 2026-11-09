@@ -289,7 +289,7 @@ The fundamental framework follows a strict hierarchy: address immediate submissi
 |--------|----------|-------------|
 | Success | [[Positions/Standing Position]] | 55% |
 | Failure | [[Positions/Ashi Garami]] | 30% |
-| Counter | [[Positions/Ashi Garami]] | 15% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 15% |
 
 
 </section>
@@ -304,7 +304,7 @@ The fundamental framework follows a strict hierarchy: address immediate submissi
 - **Opponent secures heel hook grip during escape attempt** (Effectiveness: High) - Your Response: Stop all movement immediately and address the heel control with both hands using a two-on-one grip break. Break the grip completely before continuing the escape, as any movement with heel control secured creates catastrophic knee ligament injury risk. → Leads to [[Positions/Ashi Garami]]
 - **Opponent uses their free leg to hook your hip and pull you back into the entanglement** (Effectiveness: Medium) - Your Response: Maintain frames on opponent's hips and use your free hand to strip the hip hook before continuing leg clearance. May need to re-establish hip angle and address upper body control first before returning to the leg extraction sequence. → Leads to [[Positions/Ashi Garami]]
 - **Opponent switches to kneebar attack by turning belly-down as you create space** (Effectiveness: Medium) - Your Response: Recognize the transition early by feeling them rotate toward your knee line. Immediately bend your trapped leg and rotate the knee away from their chest to deny the extension. Keep the leg bent and address by pushing their hips away with frames. → Leads to [[Positions/Ashi Garami]]
-- **Opponent recomposes entanglement by re-triangling legs after you clear the bottom leg** (Effectiveness: Medium) - Your Response: Maintain constant downward pressure on cleared legs and accelerate the top leg clearance. Use your free leg to pin both of opponent's legs simultaneously if possible. If they fully recompose, restart the clearing sequence from grip fighting. → Leads to [[Positions/Ashi Garami]]
+- **Opponent uses your hip angle to backstep and advance to saddle after you clear the bottom leg** (Effectiveness: Medium) - Your Response: Maintain constant downward pressure on cleared legs and accelerate the top leg clearance. Use your free leg to pin both of opponent's legs simultaneously if possible. If they reach saddle, you are in a worse position, so restart the clearing sequence from grip fighting. → Leads to [[Positions/Ashi Garami/Saddle]]
 
 
 </section>
@@ -389,17 +389,6 @@ Ashi garami escapes must be practiced with controlled, deliberate movements to p
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Leglocks — Enter The System</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Straight Ankle Locks and Kneebars</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles: 50/50 Leg Locks and Defense</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference for leg-entanglement study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Down Under Leg Attacks</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

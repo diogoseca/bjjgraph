@@ -30,7 +30,7 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": {
         "gi": 20,
         "nogi": 20
@@ -141,16 +141,16 @@
     ],
     "common_counters": [
       {
-        "counter": "Bridge and roll attempt using elbows as pivot points",
+        "counter": "Bridge and roll attempt using elbows as pivot points, leading into half guard recovery rather than a full reversal",
         "effectiveness": "Medium",
         "your_response": "Post hand wide on the side they bridge toward, sprawl hips, and ride out the bridge before re-establishing grapevines",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Elbow-knee escape (shrimping) to recover half guard",
         "effectiveness": "High",
         "your_response": "Block their hip with your knee and maintain heavy chest pressure; if they create space, immediately re-close it before they can insert knee shield",
-        "targets_outcome": "Half Guard/Bottom"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Framing on hips to create space and turn",
@@ -382,14 +382,14 @@
       {
         "action": "Explosive bridge and hip escape before grapevines are inserted",
         "when_to_use": "Immediately when mount is achieved, during the first 3-5 seconds before the attacker settles weight and hooks legs",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "Recover half guard by inserting knee shield during the space created by the bridge",
         "risk": "If the bridge fails, you expend energy and the attacker settles heavier, making subsequent escapes harder"
       },
       {
         "action": "Frame on hips with both forearms and shrimp to create angle for knee insertion",
         "when_to_use": "After the attacker has settled weight but before they have eliminated your frames by swimming inside",
-        "targets_outcome": "Half Guard/Bottom",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "Insert knee between bodies to establish half guard, preventing further mount consolidation",
         "risk": "Extended arms during framing can be isolated for Americana or trapped against the mat"
       },
@@ -414,7 +414,7 @@
         "how": "Execute a properly set up upa reversal by trapping the attacker's arm and same-side foot, then explosively bridging toward the trapped side during a weight shift. This requires precise timing when the attacker reaches for grips or begins walking knees up."
       },
       {
-        "outcome": "Half Guard/Bottom",
+        "outcome": "Half Guard/Top",
         "how": "Use frames on the hips combined with a strong hip escape to create enough space to insert a knee between bodies. Chain multiple small shrimps together, preserving each increment of space with frame adjustments before the next hip escape. Even recovering half guard is a significant improvement over mounted."
       }
     ],

@@ -92,9 +92,6 @@ description: "Master Triangle from Spider Guard. Setup from spider hooks, angle 
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Triangle Choke from Spider Guard targets the Carotid arteries and jugular veins. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Triangle Choke/from Spider Guard/Attacker|Play as Attacker]]
@@ -187,6 +184,8 @@ Building directly on spider guard's distance control and posture breaking, this 
 - Adjust angle continuously based on opponent's defensive movements
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -258,6 +257,8 @@ Building directly on spider guard's distance control and posture breaking, this 
 
 - Opponent pulls your head down forcefully with collar or sleeve grip while simultaneously shooting their hips upward—the final entry motion combining posture break with leg placement
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -337,9 +338,8 @@ Building directly on spider guard's distance control and posture breaking, this 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -348,32 +348,9 @@ Building directly on spider guard's distance control and posture breaking, this 
 | Shoulder hyperextension from trapped arm | Medium | 1-2 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to finish. Never snap or jerk the triangle closed.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any distress signal including gurgling sounds
-- Loss of resistance or going limp
 
 
-**Release Protocol**:
-1. Immediately open legs and release figure-four lock
-2. Pull trapped arm out from triangle space
-3. Release head and neck control
-4. Move hips away to create space
-5. Check partner's consciousness and breathing
-6. Allow partner time to recover before resuming training
-
-
-**Training Restrictions**:
-- Never apply full pressure in drilling—focus on position and angle
-- Never hold the choke after partner taps or goes unconscious
-- Always allow clear tap access with at least one free hand
-- Never use competition speed when training with less experienced partners
-- Stop immediately if partner shows any signs of distress beyond normal discomfort
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

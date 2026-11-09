@@ -98,6 +98,10 @@ const indexed = (page: any) => page.locator(".ng-reader-toc").isVisible()
 const restore = async (page: any, j: any, view: View, part: "card" | "hand") => {
   if (view === "map") return j.clickByMouse(`[data-layer-show="${part}"]`, `the dock's ${part} glyph`)
   await expect(page.locator(".ng-reader-shelf"), "the reading view has no shelf").toBeHidden()
+  // A catch can replace the article asynchronously. Choose its index/label only once that
+  // article is published; the old hidden index is not evidence that the new page has no index.
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  await j.readerLayoutSettled()
   if (await indexed(page)) return j.clickByMouse(`[data-toc-type="${part}"] a`, `the closed ${part === "card" ? "Questions" : "Moves"} index row`)
   await page.locator(`[data-game-open="${part}"]`).scrollIntoViewIfNeeded()
   await j.clickByMouse(`[data-game-open="${part}"]`, `the closed ${part === "card" ? "Questions" : "Moves"} label`)
@@ -255,8 +259,8 @@ test(`the layers are independent: the film's ✕ keeps the card; the hand's ✕ 
   expect((await read(page)).film, "film authored and up").toBe(true)
   expect((await read(page)).more, "the card's More sibling is authored too").toBe(true)
 
-  // D-338: with the article shown the film's ✕ is its Videos section's (the strip's own ✕ is hidden there).
-  await j.clickByMouse(view === "map" ? "[data-film-close]" : '[data-section-toggle="videos"]', "the film's ✕")
+  // U65 note (owner, 2026-10-29): the duplicate credits tile is retired; the stage film owns its ✕.
+  await j.clickByMouse('[data-film-close]', "the film's ✕")
   await j.advance(300)
   const f1 = await read(page)
   expect(f1.film, "the strip is gone").toBe(false)
@@ -310,9 +314,9 @@ test("@curated the article survives minimizing the question, videos and moves", 
   await j.boot("/"); await j.land("Mount Top"); await read(page)
   await seedFilm(page); await j.advance(400)
   await page.evaluate(() => { (window as any).__articleBefore = document.querySelector("[data-reader-body]") })
-  // D-338: the film's home with the article shown is its Videos section, closed by that ✕.
-  await page.locator('[data-section-toggle="videos"]').scrollIntoViewIfNeeded()
-  await j.clickByMouse('[data-section-toggle="videos"]', "the videos' ✕")
+  // U65 note: the stage film's own ✕ replaces the removed credits tile's control.
+  await page.locator('[data-film-close]').scrollIntoViewIfNeeded()
+  await j.clickByMouse('[data-film-close]', "the videos' ✕")
   for (const sel of ["[data-land-close]", "[data-hand-close]"]) {
     await page.locator(sel).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
     await j.clickByMouse(sel, sel === "[data-land-close]" ? "the card's ✕" : "the hand's ✕")
@@ -474,11 +478,15 @@ test.describe("phone", () => {
     expect(s.more, "and its More sibling remains").toBe(true)
   })
   // MAP view (Book off): the reading view's 44px eyes are article-sections.spec.ts's D-318 390px case.
-  test("every dock glyph is a 44px thumb target that owns its centre, clear of the legend and the chip, and a tap works", async ({ page }) => {
+  test("every dock glyph is a 44px thumb target that owns its centre, clear of the legend and the share cue, and a tap works", async ({ page }) => {
     const j = journey(page)
     await bootIn(j, "map")
     await j.land("Mount Top")
     await page.evaluate(() => { const a = (window as any).__neural; for (const l of ["film", "card", "hand"]) a.setLayer(l, false, "test") })
+    // SIDE-R2 M6: the corner chip this claim measured left the map for the drawer's foot (v1.242.0), so its
+    // rect inside the closed drawer was 0x0 and could never overlap. The share cue holds the bottom-right
+    // seat now: raise one (a stale link, the kind that needs no list) and measure the glyphs against it.
+    await page.evaluate(() => (window as any).__neural._setShareCue({ kind: "stale" }))
     await j.advance(300)
     const g = await page.evaluate(() => {
       const box = (el: Element | null) => { if (!el) return null; const r = el.getBoundingClientRect(); return { l: r.left, t: r.top, r: r.right, b: r.bottom, w: r.width, h: r.height } }
@@ -487,16 +495,17 @@ test.describe("phone", () => {
         const hit = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2)
         return { layer: b.getAttribute("data-layer-show"), box: box(b), own: hit === b || b.contains(hit) }
       })
-      return { glyphs, legend: box(document.querySelector(".ng-legend")), chip: box(document.querySelector(".ng-acctwrap")) }
+      return { glyphs, legend: box(document.querySelector(".ng-legend")), cue: box(document.querySelector(".ng-sharecue")) }
     })
     expect(g.glyphs.map((x: any) => x.layer)).toEqual(docked("map", "film", "card", "hand"))
     const overlaps = (a: any, b: any) => !!a && !!b && !(a.r <= b.l || a.l >= b.r || a.b <= b.t || a.t >= b.b)
+    expect(g.cue && g.cue.w * g.cue.h, "premise: the share cue is raised and has a box").toBeGreaterThan(0)
     for (const x of g.glyphs) {
       expect(x.box!.w, `${x.layer}: 44px wide`).toBeGreaterThanOrEqual(44)
       expect(x.box!.h, `${x.layer}: 44px tall`).toBeGreaterThanOrEqual(44)
       expect(x.own, `${x.layer}: owns its centre`).toBe(true)
       expect(overlaps(x.box, g.legend), `${x.layer}: clear of the legend`).toBe(false)
-      expect(overlaps(x.box, g.chip), `${x.layer}: clear of the account chip`).toBe(false)
+      expect(overlaps(x.box, g.cue), `${x.layer}: clear of the share cue`).toBe(false)
     }
     const c = g.glyphs.find((x: any) => x.layer === "card")!.box!
     await page.touchscreen.tap(c.l + c.w / 2, c.t + c.h / 2)

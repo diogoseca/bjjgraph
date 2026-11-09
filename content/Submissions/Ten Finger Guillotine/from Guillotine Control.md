@@ -46,6 +46,16 @@ description: "Master the Ten Finger Guillotine from Guillotine Control in BJJ. S
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "10 Finger Guillotine / Gogo Choke",
+      "description": "Ten Finger Guillotine from Guillotine Control film study: 10 Finger Guillotine / Gogo Choke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bl3qgsV-l04/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bl3qgsV-l04",
+      "url": "https://www.youtube.com/watch?v=bl3qgsV-l04",
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "How to Do a 10-Finger Guillotine | MMA Submissions",
       "description": "Ten Finger Guillotine from Guillotine Control film study: How to Do a 10-Finger Guillotine | MMA Submissions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tsofKYcYqaA/hqdefault.jpg",
@@ -82,9 +92,6 @@ description: "Master the Ten Finger Guillotine from Guillotine Control in BJJ. S
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Ten Finger Guillotine from Guillotine Control targets the Carotid arteries and trachea. Primary risk: Trachea damage from excessive crushing pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Ten Finger Guillotine/from Guillotine Control/Attacker|Play as Attacker]]
@@ -111,6 +118,14 @@ Strategically, this submission chains naturally with the broader guillotine cont
 
 <p class="section-subtitle">Watch Ten Finger Guillotine from Guillotine Control in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bl3qgsV-l04)
+
+<p class="clip-credit"><strong>10 Finger Guillotine / Gogo Choke</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=bl3qgsV-l04" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -170,6 +185,8 @@ Strategically, this submission chains naturally with the broader guillotine cont
 
 - Transition smoothly between ten finger grip and alternative guillotine variations when opponent's defense creates openings
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -241,6 +258,8 @@ Strategically, this submission chains naturally with the broader guillotine cont
 - Attacker breaks your posture by pulling your head firmly against their chest while simultaneously closing space with hips or guard
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -304,9 +323,8 @@ Strategically, this submission chains naturally with the broader guillotine cont
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -316,30 +334,9 @@ Strategically, this submission chains naturally with the broader guillotine cont
 | Jaw or temporomandibular joint (TMJ) injury from improper chin positioning | Medium | 2-6 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress sound)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any unusual body stiffening or loss of resistance indicating unconsciousness
 
 
-**Release Protocol**:
-1. Immediately release the choking hand grip while maintaining head control
-2. Lower opponent's head gently to prevent whiplash or neck strain
-3. Create space by stepping back or opening guard to remove all pressure
-4. Check partner's awareness and allow recovery time before continuing
-5. If partner was unconscious, elevate legs and monitor breathing
-
-
-**Training Restrictions**:
-- Never apply full pressure at competition speed in training - always give partner time to tap
-- Never jerk or spike the choke with explosive movements
-- Never continue pressure after partner taps or shows distress
-- Never practice on partners with neck injuries without medical clearance
-- Always ensure partner has access to tap with at least one hand free
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

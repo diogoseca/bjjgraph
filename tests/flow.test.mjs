@@ -174,6 +174,12 @@ test("both roles carry occupancy — the top-member collapse must never come bac
 //   nogi 0.93% / 39/40 / 31.0% Knee Torque Sweep / 1.55%; gi 1.75% / 39/40 / 30.1% Transition to
 //   Clamp Guard / 1.57%; nogi/standing 0.20% / 40/40 / 31.0% / 2.33%; gi/standing 0.80% / 39/40 /
 //   30.2% Transition to Clamp Guard / 1.81%.
+// v1.248.2 (K2 batch 1, the 67 outcome fixes) raised the top-10 band AT THE CUT 1.5% -> 2.2%; the
+// adjacent-swap band stays 1.5%. ROUNDING again, proved as v1.212.0 and v1.216.0 proved theirs, with one
+// variable changed: no-gi's ranks 10/11 are `Mount|Bottom` py 0.06592 and `Open Guard|Bottom` py 0.06453,
+// 2.1082% apart, and the wire reads them 0.06548 and 0.06586, the other way round. The Python kernel with
+// ONLY its attempt shares rounded to whole percents, as the emitter rounds them, reproduces the JS top 10
+// exactly, order and all, worst gap 0.000006 over the top 40 (gi: the same top 10, worst gap 0.000181).
 // v1.212.0 raised the no-gi worst-deck bounds 0.30 -> 0.35 and the top-10 near-tie 1% -> 1.5%, and
 // both are ROUNDING, proved rather than assumed: half-guard/bottom now deals Knee Shield Retention
 // (deal_here) and lost Lumberjack Sweep (re-homed), so its 1-point cards are 1.408% of the hand and
@@ -228,16 +234,24 @@ for (const key of Object.keys(GAMES)) {
     // 0.110738 (0.39% apart), and the wire puts them 0.02% apart the other way round. A swap is
     // allowed only between neighbours within 1.5% in the reference (1% until v1.212.0; see the
     // tolerance table above); anything else is a disagreement.
-    // MUTATION: `Back Control|Top`'s reference gradient x0.8 drops it below `Closed Guard|Top` (4.7% apart):
-    // red, "not a near-tie swap". Non-kill, recorded: x0.9 on `Half Guard|Bottom` crosses no neighbour.
+    // MUTATION (re-run at v1.248.2, no-gi reference): `Back Control|Top` x0.78 drops it two places, past
+    // `Open Guard|Top` and `Mount|Bottom`: red, "not a near-tie swap". `Closed Guard|Top` x1.05 crosses
+    // `Mount|Top` (2.6% past): red, the same assertion. x1.03 is a true near-tie: green, the control.
+    // RETIRED, recorded so nobody reads it as cover: `Back Control|Top` x0.8, cited here until v1.248.2,
+    // NO LONGER KILLS. That deck had already fallen below `Closed Guard|Top`, so on dev's reference x0.8
+    // crossed no neighbour, and now it lands 0.38% from `Open Guard|Top`, an allowed swap.
+    // Non-kill, recorded: x0.9 on `Half Guard|Bottom` crosses no neighbour.
     // THE CUT AT 10 IS A BOUNDARY TOO (v1.216.0, PR B2): a deck may cross it only from inside the
-    // near-tie band at the reference's 10th gradient (1.5%), as the top-40 boundary already may. In
+    // near-tie band at the reference's 10th gradient (2.2% since v1.248.2, 1.5% until then; the adjacent-
+    // swap band below stays 1.5%), as the top-40 boundary already may. In
     // no-gi the reference's ranks 10-13 sit within 1.13% (Elbow Escape to Guard, which eight new
     // listing tables made valuable, then Open Guard|Top, Back Control|Bottom, Open Guard|Bottom), and
     // whole-percent shares put Open Guard|Bottom at the JS 10th. Fed the EXACT shares the JS top 10 is
     // the reference's, order and all (see the tolerance table above).
+    // MUTATION: `Open Guard|Bottom` x0.999 puts it 2.2061% off the cut: red, "top-10 set differs", so 2.2% is
+    // the tight bound for today's swap.
     const cut = ref.py.get(pyOrder[9]);
-    const inBand = (d) => Math.abs(ref.py.get(d) - cut) / Math.abs(cut) <= 0.015;
+    const inBand = (d) => Math.abs(ref.py.get(d) - cut) / Math.abs(cut) <= 0.022;
     const crossed = [...jsOrder.slice(0, 10).filter((d) => !pyOrder.slice(0, 10).includes(d)),
                      ...pyOrder.slice(0, 10).filter((d) => !jsOrder.slice(0, 10).includes(d))];
     assert.ok(crossed.every(inBand), `top-10 set differs outside the near-tie band at the cut: ${crossed.join(", ")}`);
@@ -275,7 +289,21 @@ for (const key of Object.keys(GAMES)) {
     // py +3.94e-8 and js -1.03e-9 (exact shares: js +3.94e-8). The band is symmetric, its members
     // are counted, and a real sign error (any gradient either kernel prices above 1e-7) still fails.
     const ZERO = 1e-7;
-    const nil = (d) => Math.abs(ref.py.get(d)) < ZERO && Math.abs(run.grad[k.deckIdx.get(d)]) < ZERO;
+    // ONE NAMED FLIP ABOVE THAT BAND (v1.250.2, K2 batch 2), and named rather than the band widened:
+    // gi/standing sits at the cap of 12 below, and a band of 2e-6 would hold 102 of its decks. In gi,
+    // `Overhook Extraction|Attacker` is py -8.43e-7, js +1.94e-6, and the Python kernel with ONLY its
+    // shares rounded to whole percents gives +1.91e-6, so this is the same rounding, not a sign error.
+    // A named deck must still BE a flip this small, in both kernels, or this fails and the row goes.
+    // MUTATION, re-run at v1.250.2, on the fixture: this deck at -1e-4, or at +1e-6 so it stops flipping,
+    // red here, by name. An unnamed deck (`Americana from Mount|Attacker`) at -3e-6, or this row removed:
+    // red at the set below, "the decks whose drilling LOWERS the score".
+    const FLIP = 2e-6, FLIPS = { gi: ["Overhook Extraction|Attacker"] }[key] || [];
+    for (const d of FLIPS) {
+      const p = ref.py.get(d), j = run.grad[k.deckIdx.get(d)];
+      assert.ok(Math.abs(p) < FLIP && Math.abs(j) < FLIP && (p < 0) !== (j < 0),
+        `${d}: named as a rounding flip, but py ${p} and js ${j} are not one`);
+    }
+    const nil = (d) => FLIPS.includes(d) || (Math.abs(ref.py.get(d)) < ZERO && Math.abs(run.grad[k.deckIdx.get(d)]) < ZERO);
     const jsNeg = k.deckKeys.filter((d, i) => run.grad[i] < -1e-12 && !nil(d)).sort();
     const pyNeg = ref.decks.filter((d) => ref.py.get(d) < -1e-12 && !nil(d)).sort();
     // Measured at v1.212.0: 0 decks in the band in three games, 10 of 1,560 in gi/standing (2 of them
@@ -316,14 +344,14 @@ test("drilling can LOWER your score, and the negative set matches the reference 
   // move (it succeeded into Kimura Trap/Top, which has no finish); none joined.
   const jsNeg = K.deckKeys.filter((d, i) => RUN.grad[i] < -1e-12).sort();
   const pyNeg = NOGI.decks.filter((d) => PY.get(d) < -1e-12).sort();
-  assert.equal(jsNeg.length, 17, "21 decks backfire at lam 2 on a blank no-gi profile"); // census:negDecks
+  assert.equal(jsNeg.length, 19, "21 decks backfire at lam 2 on a blank no-gi profile"); // census:negDecks
   assert.deepEqual(jsNeg, pyNeg, "and they are the same 21");
   const gi = SOLVED.gi;
   const giNeg = gi.k.deckKeys.filter((d, i) => gi.run.grad[i] < -1e-12);
   // 22 since v1.210.0 (origin coherence): `De La Riva to Inverted Guard|Attacker` joined once 50-50 Entry
   // was listed at inverted-guard/bottom, its own origin, and inverted guard stopped being worth more than
   // the DLR it is entered from. Nothing left the set, and no-gi stayed at 24.
-  assert.equal(giNeg.length, 17, "21 decks backfire at lam 2 on a blank gi profile"); // census:negDecksGi
+  assert.equal(giNeg.length, 16, "21 decks backfire at lam 2 on a blank gi profile"); // census:negDecksGi
   // N4's approved Invisible Collar correction gives Bottom its attacks (restructure-numbers-n4.md
   // 335–345, 788–820, 854–860). D-431 follow-up preserves the sign claim on that new premise:
   // these two entries now help. D-366's exact N4 New York|Bottom gradient is +0.00282975265428865064,

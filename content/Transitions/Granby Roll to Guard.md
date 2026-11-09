@@ -36,6 +36,37 @@ description: "The turtled player rolls across the shoulder and upper back, keeps
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Granby Roll to Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Granby Roll for BJJ!",
+      "description": "Granby Roll to Guard film study: Granby Roll for BJJ!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oE-9VFLlIZM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oE-9VFLlIZM",
+      "url": "https://www.youtube.com/watch?v=oE-9VFLlIZM",
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Granby Roll Guard Retention",
+      "description": "Granby Roll to Guard film study: Granby Roll Guard Retention.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfT1aTfiYU0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfT1aTfiYU0",
+      "url": "https://www.youtube.com/watch?v=dfT1aTfiYU0",
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -76,6 +107,32 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Granby Roll to Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oE-9VFLlIZM)
+
+<p class="clip-credit"><strong>Granby Roll for BJJ!</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=oE-9VFLlIZM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfT1aTfiYU0)
+
+<p class="clip-credit"><strong>Granby Roll Guard Retention</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=dfT1aTfiYU0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">
@@ -230,15 +287,6 @@ The turtled player rolls across the shoulder and upper back, keeps weight off th
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Caio Terra: Guard Recovery</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related transition reference for guard-recovery study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Brian Glick: Dynamic Back Escapes</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference for rear-mount escape study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

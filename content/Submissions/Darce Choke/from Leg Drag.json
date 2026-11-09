@@ -222,12 +222,12 @@
         "step_number": 6,
         "action": "Apply finishing pressure",
         "description": "With the grip locked and your body perpendicular, apply finishing pressure by driving your hips toward the mat while squeezing your elbows together. The primary pressure vector comes from your chest and hips driving into the opponent, not from arm squeezing alone. Walk slightly toward the opponent's head to increase compression. The choke should produce bilateral carotid compression within seconds.",
-        "timing": "3-6 seconds to produce tap or unconsciousness"
+        "timing": "3-6 seconds to produce tap"
       },
       {
         "step_number": 7,
         "action": "Monitor opponent response and adjust angle",
-        "description": "Watch for tap signals including hand taps, foot taps, verbal signals, or the opponent going limp. If the opponent is defending effectively by posturing or creating space, adjust by tightening the grip, changing angle, or driving hips lower. If the choke is not producing effect after 8-10 seconds of sustained pressure, consider repositioning rather than forcing an ineffective angle.",
+        "description": "Watch for tap signals including hand taps, foot taps, or verbal signals. If the opponent is defending effectively by posturing or creating space, adjust by tightening the grip, changing angle, or driving hips lower. If the choke is not producing effect after 8-10 seconds of sustained pressure, consider repositioning rather than forcing an ineffective angle.",
         "timing": "Ongoing until submission or decision to reposition"
       }
     ],
@@ -480,6 +480,23 @@
       }
     ],
     "clips": [
+      {
+        "id": "tVrhlQyClpQ",
+        "title": "Leg drag + Darce choke from BJJ 4’s degree black belt ! Russian Budo-Center",
+        "channel": "Budo-Center",
+        "duration": 37,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "VOliFfkp5Ik",
+        "title": "How to do the D'Arce Choke, Step by Step",
+        "channel": "Stephan Kesting",
+        "duration": 135,
+        "vertical": false,
+        "verified": "2026-11-04"
+      },
       {
         "id": "eEDKC2F3U2k",
         "title": "Double stack pass to a darce choke #bjj #brazilianjiujitsu #blackwatergrappling",

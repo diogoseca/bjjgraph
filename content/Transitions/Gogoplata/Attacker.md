@@ -51,7 +51,7 @@ description: "How to execute Gogoplata in BJJ. Attacking perspective with setup,
     {
       "@type": "HowToStep",
       "name": "Apply finishing pressure",
-      "text": "Pull opponent's head forcefully down into your shin using your grip behind their head while simultaneously extending your hip to drive your shin into their throat. The finish combines pulling and pressing - your arms pull the head while your hip extension drives the shin. Maintain constant pressure until tap or unconsciousness.",
+      "text": "Pull opponent's head forcefully down into your shin using your grip behind their head while simultaneously extending your hip to drive your shin into their throat. The finish combines pulling and pressing - your arms pull the head while your hip extension drives the shin. Maintain constant pressure until tap.",
       "position": 6
     }
   ],
@@ -290,7 +290,7 @@ Competition footage shows the Gogoplata succeeding primarily when opponents are 
 3. **Thread the attacking foot**: Circle your attacking foot up and over their shoulder, threading it behind their head. Your shin bone should be positioned to cross their throat at the trachea level. The foot travels in an arc motion, coming from outside their shoulder and curling behind their head. Keep your hip elevated to create the necessary range of motion.
 4. **Secure head control**: Both hands now reach behind opponent's head, interlocking your fingers or grabbing wrist-to-wrist at the back of their skull. Your grip should be directly on the occipital bone area, not on the neck. This creates the pulling mechanism that drives their throat into your shin.
 5. **Create finishing angle**: Hip out slightly to the side opposite your attacking leg, creating an angle that prevents opponent from stacking directly over you. Your non-attacking leg can hook their hip or post on the mat for additional control. Keep your hips elevated off the mat - flat hips equal failed submission.
-6. **Apply finishing pressure**: Pull opponent's head forcefully down into your shin using your grip behind their head while simultaneously extending your hip to drive your shin into their throat. The finish combines pulling and pressing - your arms pull the head while your hip extension drives the shin. Maintain constant pressure until tap or unconsciousness.
+6. **Apply finishing pressure**: Pull opponent's head forcefully down into your shin using your grip behind their head while simultaneously extending your hip to drive your shin into their throat. The finish combines pulling and pressing - your arms pull the head while your hip extension drives the shin. Maintain constant pressure until tap.
 
 
 </section>
@@ -396,16 +396,6 @@ The Gogoplata is a particularly dangerous submission that can cause unconsciousn
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: The Ultimate Rubber Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Gogoplata: related submission study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Rubber Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Gogoplata: related submission study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Rubber Guard and Triangle Attacks</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related submission reference; inclusion here does not establish course coverage.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

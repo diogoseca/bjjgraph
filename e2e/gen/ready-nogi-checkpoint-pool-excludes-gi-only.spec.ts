@@ -91,6 +91,7 @@ test("nogi checkpoint pool draws only from nogi-viable decks — the gi-only dec
   // prior belt won — beltUnlocked(bi) needs the previous belt's victory, and a locked row gets
   // NO click handler (renderBeltPath:2511); prior units stay checkpoint:true so uLocked=false.
   const seed: any = beltReady(H.belt)
+  seed.belts.held = { id: H.belt.id, t: 1 }; seed.belts.gf = 1 // P1: earned entry, unchanged checkpoint evidence
   delete seed.units[H.uk]
   for (const id of H.priorBeltIds) seed.belts.won[id] = { moves: 14, dominance: 4, byPoints: false }
   await j.boot("/", { initialState: seed })
@@ -106,7 +107,8 @@ test("nogi checkpoint pool draws only from nogi-viable decks — the gi-only dec
   await j.rig("mc-pick", seq(7, 200))
   await j.rig("mc-shuffle", seq(11, 40))
 
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  // Drawer (U51 e / U56 e): select Path explicitly; opening alone shows the home list.
+  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
   await expect(page.locator("[data-view]").first()).toBeVisible()
   await j.expectBeat("challenges_opened")
   // only the SELECTED track renders its curriculum (v1.74) — select the hit belt's track

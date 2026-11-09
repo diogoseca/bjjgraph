@@ -10,8 +10,6 @@ description: "How to execute Japanese Necktie in BJJ. Attacking perspective with
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Japanese Necktie from Front Headlock targets the Carotid arteries and trachea. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -188,6 +186,16 @@ description: "How to execute Japanese Necktie in BJJ. Attacking perspective with
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Japanese Necktie (from the front headlock position)",
+      "description": "Japanese Necktie from Front Headlock (Attacker) film study: Japanese Necktie (from the front headlock position).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/geGuiTx93x4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/geGuiTx93x4",
+      "url": "https://www.youtube.com/watch?v=geGuiTx93x4",
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "The Front Headlock Trinity: Japanese Necktie, Darce, Anaconda Choke",
       "description": "Japanese Necktie from Front Headlock (Attacker) film study: The Front Headlock Trinity: Japanese Necktie, Darce, Anaconda Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IZdoJMCc9B0/hqdefault.jpg",
@@ -219,6 +227,14 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 <p class="section-subtitle">Watch Japanese Necktie from Front Headlock (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=geGuiTx93x4)
+
+<p class="clip-credit"><strong>Japanese Necktie (from the front headlock position)</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=geGuiTx93x4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -267,6 +283,8 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Japanese Necktie/from Front Headlock#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -150,6 +150,27 @@ description: "Complete defensive guide against the Underhook Sweep from Pocket H
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Underhook Sweep from Pocket Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Counter the Half Guard Underhook and Pass the Guard",
+      "description": "Underhook Sweep from Pocket Half (Defender) film study: How to Counter the Half Guard Underhook and Pass the Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vYhkl2Xb98U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vYhkl2Xb98U?start=26",
+      "url": "https://www.youtube.com/watch?v=vYhkl2Xb98U",
+      "duration": "PT168S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ As the defender against the Underhook Sweep from Pocket Half Guard, you are in t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Underhook Sweep from Pocket Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vYhkl2Xb98U&start=26)
+
+<p class="clip-credit"><strong>How to Counter the Half Guard Underhook and Pass the Guard</strong> · 2:48 · <a href="https://www.youtube.com/watch?v=vYhkl2Xb98U&t=26s" rel="noopener">Watch on YouTube from 0:26</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

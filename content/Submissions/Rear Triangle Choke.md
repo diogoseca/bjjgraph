@@ -131,9 +131,6 @@ description: "Master the Rear Triangle Choke in BJJ. Complete guide to finishing
 <span class="meta-chip">~50% avg</span>
 </div>
 
-> [!danger] Safety
-> Rear Triangle Choke targets the Neck. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 Among back attacks, the rear triangle occupies a singular niche: it converts the positional dominance of rear mount into a self-tightening leg lock while freeing both hands for supplementary control, grip fighting, or posture manipulation. This makes it one of the highest-percentage finishing sequences available from back control, marrying skeletal compression with the same triangle mechanics fighters already know from the guard. The posterior angle of attack is what sets it apart from front-facing triangle variations, since the choke seals the carotids from behind and renders traditional chin defense largely ineffective.
@@ -229,9 +226,8 @@ Strategically, the rear triangle choke creates a layered submission dilemma. Def
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -240,30 +236,9 @@ Strategically, the rear triangle choke creates a layered submission dilemma. Def
 | Cervical spine strain from excessive posture breaking or neck cranking during finish | Medium | 1-3 weeks for mild strain; 4-8 weeks for moderate injury |
 
 
-**Application Speed**: SLOW and progressive. Blood chokes can cause unconsciousness in 4-6 seconds once fully locked. Apply squeeze gradually and monitor opponent continuously. Never jerk, spike, or explosively tighten the triangle.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, your body, or the mat
-- Physical foot tap with free leg on mat or partner
-- Any unusual vocalization, gurgling, or distress sounds
-- Body going limp or cessation of all defensive movement (unconsciousness indicator—release immediately)
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation
-2. If opponent goes limp or stops responding, release immediately and alert instructor
-3. If in doubt whether a tap occurred, release—position can always be re-established
-4. After release, check opponent's consciousness and responsiveness before continuing
-5. Place unconscious training partner in recovery position and call for medical assistance
-
-
-**Training Restrictions**:
-- Never apply full squeeze pressure on training partners below blue belt or with less than one year of consistent training
-- Always use controlled, progressive application during drilling—save competitive-speed finishing for supervised sparring only
-- Do not hold the choke after the tap to demonstrate control; release is immediate and unconditional
-- Practitioners with neck injuries, cardiovascular conditions, or blood pressure disorders should consult a physician before training this technique
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

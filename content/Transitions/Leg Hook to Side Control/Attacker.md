@@ -176,6 +176,27 @@ description: "Complete attacking guide for the Leg Hook to Side Control pass. Le
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Hook to Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half-Guard Pressure Pass",
+      "description": "Leg Hook to Side Control (Attacker) film study: Half-Guard Pressure Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xThHE-44Flk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xThHE-44Flk?start=28",
+      "url": "https://www.youtube.com/watch?v=xThHE-44Flk",
+      "duration": "PT194S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the top player executing this pass completion, your objective is to clear the
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Hook to Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xThHE-44Flk&start=28)
+
+<p class="clip-credit"><strong>Half-Guard Pressure Pass</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=xThHE-44Flk&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

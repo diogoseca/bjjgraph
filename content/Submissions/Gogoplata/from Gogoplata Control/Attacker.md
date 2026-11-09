@@ -10,8 +10,6 @@ description: "How to execute Gogoplata in BJJ. Attacking perspective with setup,
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Gogoplata from Gogoplata Control targets the Trachea and carotid arteries. Risk: Tracheal damage or crushing. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -290,6 +288,8 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Gogoplata/from Gogoplata Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

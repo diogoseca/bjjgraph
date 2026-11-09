@@ -10,8 +10,6 @@ description: "Learn to attack with the toe hold from kneebar control. Step-by-st
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Toe Hold from Kneebar Control targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -282,6 +280,8 @@ Attacking with the toe hold from kneebar control exploits a fundamental defensiv
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Toe Hold/from Kneebar Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

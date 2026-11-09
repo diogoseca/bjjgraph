@@ -46,6 +46,26 @@ description: "Master the heel hook from saddle position in BJJ. Complete guide t
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Inside Saddle Heel Hook Leg Control and Finish",
+      "description": "Heel Hook from Saddle film study: Inside Saddle Heel Hook Leg Control and Finish.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hmmXU6w5QGc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hmmXU6w5QGc",
+      "url": "https://www.youtube.com/watch?v=hmmXU6w5QGc",
+      "duration": "PT101S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside Heel Hook from Saddle Finishing Mechanics Explained",
+      "description": "Heel Hook from Saddle film study: Inside Heel Hook from Saddle Finishing Mechanics Explained.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CE-249MNn5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CE-249MNn5A",
+      "url": "https://www.youtube.com/watch?v=CE-249MNn5A",
+      "duration": "PT279S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Craig Jones  - Heel Hook Breaking Mechanics",
       "description": "Heel Hook from Saddle film study: Craig Jones  - Heel Hook Breaking Mechanics.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
@@ -55,7 +75,7 @@ description: "Master the heel hook from saddle position in BJJ. Complete guide t
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 4,
       "name": "4 Variations Of Heel Hook Finish From Saddle",
       "description": "Heel Hook from Saddle film study: 4 Variations Of Heel Hook Finish From Saddle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/n6EoUkDwUVc/hqdefault.jpg",
@@ -92,9 +112,6 @@ description: "Master the heel hook from saddle position in BJJ. Complete guide t
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Heel Hook from Saddle targets the Knee and ankle joint. Primary risk: ACL (anterior cruciate ligament) tear from rotational force. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Heel Hook/from Saddle/Attacker|Play as Attacker]]
@@ -121,6 +138,22 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 
 <p class="section-subtitle">Watch Heel Hook from Saddle in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hmmXU6w5QGc)
+
+<p class="clip-credit"><strong>Inside Saddle Heel Hook Leg Control and Finish</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=hmmXU6w5QGc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CE-249MNn5A)
+
+<p class="clip-credit"><strong>Inside Heel Hook from Saddle Finishing Mechanics Explained</strong> · 4:39 · <a href="https://www.youtube.com/watch?v=CE-249MNn5A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -190,6 +223,8 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 
 - Develop sensitivity to recognize when the opponent has accepted the position and when they are about to explode into an escape
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -265,6 +300,8 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 - Attacker's elbows draw tight to their body and you feel the figure-four grip locking around your heel
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -326,9 +363,8 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -338,31 +374,9 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 | Lateral ankle ligament damage from rotational overpressure | Medium | 4-8 weeks |
 
 
-**Application Speed**: SLOW and progressive. The heel hook must be applied with gradual, controlled rotational pressure. Never jerk, spike, or explosively crank the submission. The knee's ligaments provide almost no pain warning before catastrophic failure—damage occurs before the defender feels significant pain. Apply pressure incrementally, pause at each stage, and give ample time for the tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, their body, or the mat
-- Physical foot tap with free leg on partner or mat
-- Any unusual vocalization, screaming, or distress sound
-- Nodding head rapidly or any panicked body language
 
 
-**Release Protocol**:
-1. Release ALL rotational pressure immediately upon any tap signal
-2. Maintain leg position briefly to allow controlled disengagement—do not drop the leg suddenly
-3. If in doubt about whether partner tapped, release immediately—position can be re-established
-4. After release, check with partner about knee and ankle condition before resuming
-5. If partner shows signs of injury (limping, holding knee, reluctance to continue), stop the round completely
-
-
-**Training Restrictions**:
-- Heel hooks should only be trained by practitioners at purple belt or above, or lower belts under direct black belt supervision with explicit instruction on mechanics and safety
-- Always apply with slow, progressive pressure—never explosively crank in training regardless of competition simulation intensity
-- New training partners must be briefed on heel hook danger and tap protocols before any leg lock sparring
-- Do not train heel hooks when fatigued, as diminished proprioception increases injury risk for both attacker and defender
-- Competition-intensity heel hook sparring should only occur between experienced partners who have established trust and communication
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

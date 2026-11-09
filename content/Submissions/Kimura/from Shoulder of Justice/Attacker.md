@@ -10,8 +10,6 @@ description: "Execute the Kimura from Shoulder of Justice with precision. Step-b
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Shoulder of Justice targets the Shoulder joint (glenohumeral) and elbow. Risk: Shoulder dislocation or subluxation from forced internal rotation beyond anatomical limits of the glenohumeral joint. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -188,6 +186,16 @@ description: "Execute the Kimura from Shoulder of Justice with precision. Step-b
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Set up Kimura from Side control",
+      "description": "Kimura from Shoulder of Justice (Attacker) film study: Set up Kimura from Side control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g-e2ZrNsoNQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g-e2ZrNsoNQ",
+      "url": "https://www.youtube.com/watch?v=g-e2ZrNsoNQ",
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Kimura from side control",
       "description": "Kimura from Shoulder of Justice (Attacker) film study: Kimura from side control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/awNPX8E6bf4/hqdefault.jpg",
@@ -197,7 +205,7 @@ description: "Execute the Kimura from Shoulder of Justice with precision. Step-b
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "1 Minute Jiu Jitsu Hack - Controlling the Elbow in the Kimura",
       "description": "Kimura from Shoulder of Justice (Attacker) film study: 1 Minute Jiu Jitsu Hack - Controlling the Elbow in the Kimura.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qbKtgYa_wzk/hqdefault.jpg",
@@ -229,6 +237,14 @@ From the Shoulder of Justice, the Kimura becomes available when your intense jaw
 
 <p class="section-subtitle">Watch Kimura from Shoulder of Justice (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g-e2ZrNsoNQ)
+
+<p class="clip-credit"><strong>Set up Kimura from Side control</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=g-e2ZrNsoNQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -282,6 +298,8 @@ From the Shoulder of Justice, the Kimura becomes available when your intense jaw
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Kimura/from Shoulder of Justice#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -27,7 +27,7 @@ description: "How to defend against Switch to Triangle in BJJ. Recognition cues,
     {
       "@type": "HowToStep",
       "name": "Drive forward into the triangle attempt, keeping your trapped arm's elbow pinned to your ribcage while circling toward the choking leg to reduce the angle",
-      "text": "When the triangle is partially locked but the opponent has not yet achieved the perpendicular finishing angle or full hip extension If successful: You neutralize the choking angle and can begin systematic triangle escape by stacking, extracting the trapped arm, or passing to the side",
+      "text": "When the triangle is partially locked but the opponent has not yet achieved the perpendicular finishing angle or full hip extension If successful: You neutralize the choking angle and can begin systematic triangle escape by stacking and extracting the trapped arm. The exchange ends only when you pass to the side and secure side control.",
       "position": 2
     },
     {
@@ -39,7 +39,7 @@ description: "How to defend against Switch to Triangle in BJJ. Recognition cues,
     {
       "@type": "HowToStep",
       "name": "Stand up explosively while the guard is momentarily open during the transition, denying both the triangle lock and the closed guard recovery",
-      "text": "In the brief window when the opponent uncrosses their ankles to throw the triangle leg, before the new leg configuration is established If successful: You achieve standing position with opponent's guard broken, allowing you to begin standing guard passing sequence from a dominant tactical position",
+      "text": "In the brief window when the opponent uncrosses their ankles to throw the triangle leg, before the new leg configuration is established If successful: You achieve standing position with opponent's guard broken, allowing you to begin standing guard passing sequence from a dominant tactical position and carry it through to a completed pass into side control",
       "position": 4
     }
   ],
@@ -262,8 +262,8 @@ The defensive hierarchy follows a clear priority sequence. First, prevent the co
 ### 2. Drive forward into the triangle attempt, keeping your trapped arm's elbow pinned to your ribcage while circling toward the choking leg to reduce the angle
 
 - **When to use**: When the triangle is partially locked but the opponent has not yet achieved the perpendicular finishing angle or full hip extension
-- **Targets**: [[Positions/Closed Guard]]
-- **If successful**: You neutralize the choking angle and can begin systematic triangle escape by stacking, extracting the trapped arm, or passing to the side
+- **Targets**: [[Positions/Side Control]]
+- **If successful**: You neutralize the choking angle and can begin systematic triangle escape by stacking and extracting the trapped arm. The exchange ends only when you pass to the side and secure side control.
 - **Risk**: If you drive forward without controlling the angle, you may assist the opponent in achieving the perpendicular position they need for maximum choking pressure
 
 ### 3. Block the leg from crossing your neck by immediately framing your free hand against their thigh or knee as it rises toward your head
@@ -276,8 +276,8 @@ The defensive hierarchy follows a clear priority sequence. First, prevent the co
 ### 4. Stand up explosively while the guard is momentarily open during the transition, denying both the triangle lock and the closed guard recovery
 
 - **When to use**: In the brief window when the opponent uncrosses their ankles to throw the triangle leg, before the new leg configuration is established
-- **Targets**: [[Positions/Closed Guard]]
-- **If successful**: You achieve standing position with opponent's guard broken, allowing you to begin standing guard passing sequence from a dominant tactical position
+- **Targets**: [[Positions/Side Control]]
+- **If successful**: You achieve standing position with opponent's guard broken, allowing you to begin standing guard passing sequence from a dominant tactical position and carry it through to a completed pass into side control
 - **Risk**: If the opponent maintains strong head or collar control during your stand-up, they may use your upward momentum to complete the triangle or switch to a flying triangle variation
 
 
@@ -294,9 +294,9 @@ The defensive hierarchy follows a clear priority sequence. First, prevent the co
 
 Deny the triangle switch by maintaining posture during the initial attack defense and blocking the leg before it crosses your neck. Keep both arms symmetrically positioned and prevent the hip angle change. The opponent returns to closed guard without achieving the triangle configuration.
 
-### → [[Positions/Closed Guard]]
+### → [[Positions/Side Control]]
 
-If the triangle partially develops, drive forward with strong posture while circling toward the choking leg to neutralize the angle. Stack the opponent to relieve choking pressure, extract your trapped arm by pushing it toward their hip, and pass to side control or settle back into closed guard top with recovered posture.
+If the triangle partially develops, drive forward with strong posture while circling toward the choking leg to neutralize the angle. Stack the opponent to relieve choking pressure, extract your trapped arm by pushing it toward their hip, and pass to side control.
 
 
 

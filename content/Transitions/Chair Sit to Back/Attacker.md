@@ -182,6 +182,27 @@ description: "How to execute Chair Sit to Back in BJJ. Attacking perspective wit
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Chair Sit to Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle attack - Chair Sit",
+      "description": "Chair Sit to Back (Attacker) film study: Turtle attack - Chair Sit.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xyrDkdfSLCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xyrDkdfSLCk?start=52",
+      "url": "https://www.youtube.com/watch?v=xyrDkdfSLCk",
+      "duration": "PT359S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ The Chair Sit to Back Take is a systematic transition from attacking turtle posi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Chair Sit to Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xyrDkdfSLCk&start=52)
+
+<p class="clip-credit"><strong>Turtle attack - Chair Sit</strong> · 5:59 · <a href="https://www.youtube.com/watch?v=xyrDkdfSLCk&t=52s" rel="noopener">Watch on YouTube from 0:52</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
@@ -255,7 +294,7 @@ The Chair Sit to Back Take is a systematic transition from attacking turtle posi
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 68% |
 | Failure | [[Positions/Turtle]] | 20% |
-| Counter | [[Positions/Turtle]] | 12% |
+| Counter | [[Positions/Open Guard]] | 12% |
 
 
 </section>
@@ -266,7 +305,7 @@ The Chair Sit to Back Take is a systematic transition from attacking turtle posi
 
 <p class="section-subtitle">How might your opponent counter Chair Sit to Back?</p>
 
-- **Opponent sits through to blocking leg side, rotating their hips away** (Effectiveness: High) - Your Response: Maintain seatbelt grip and follow their rotation rather than fighting it. Thread your blocking leg through to establish truck position, which offers twister, calf slicer, and continued back take opportunities. → Leads to [[Positions/Turtle]]
+- **Opponent sits through to blocking leg side, rotating their hips away** (Effectiveness: High) - Your Response: Maintain seatbelt grip and follow their rotation rather than fighting it. Try to thread your blocking leg through to establish truck position, which prevents this counter and offers twister, calf slicer, and continued back take opportunities. If they escape that control and finish facing you, you stay on top in open guard. → Leads to [[Positions/Open Guard]]
 - **Opponent drives forward explosively to flatten you or escape** (Effectiveness: Medium) - Your Response: Use your blocking leg as a rudder to redirect their momentum laterally while maintaining chest contact. If seatbelt is established, their forward drive actually helps you climb onto their back as they extend. → Leads to [[Positions/Turtle]]
 - **Opponent rolls over their far shoulder attempting to invert and face you** (Effectiveness: Medium) - Your Response: Keep your base leg posted firmly and follow the roll, maintaining seatbelt control throughout. As they complete the rotation, you often end up in an improved back control position with hooks partially inserted. → Leads to [[Positions/Turtle]]
 - **Opponent grabs your blocking leg and attempts to strip it or execute a leg drag** (Effectiveness: Low) - Your Response: Their hands on your leg means their hands are not defending their neck or controlling your upper body. Immediately establish seatbelt grip if not already secured and use upper body dominance to complete the back take while they focus on your leg. → Leads to [[Positions/Turtle]]
@@ -359,15 +398,6 @@ Chair sit to back take is generally a low-risk technique when practiced correctl
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

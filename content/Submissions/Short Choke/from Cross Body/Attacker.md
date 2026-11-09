@@ -10,8 +10,6 @@ description: "Master attacking the Short Choke from Cross Body Ride. Step-by-ste
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Short Choke from Cross Body targets the Neck. Risk: Loss of consciousness from bilateral carotid artery compression causing cerebral hypoxia. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -226,6 +224,8 @@ Executing the Short Choke from Cross Body requires precise arm threading under t
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Short Choke/from Cross Body#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

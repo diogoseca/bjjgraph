@@ -2,6 +2,11 @@ import { expect, test, type Page } from '@playwright/test'
 import { journey } from '../dsl'
 
 // Sections are a view of the served article, not a second content pipeline.
+// U65 b (owner, 2026-10-29) changes the occlusion claim: the current node stays stationary while
+// the article crosses it; cards, gutters and space below shorter tiles may cover its hit target.
+// The node visible through that space is NOT clickable: the reader grid owns the mouse there.
+// U65 note retires game-page Film Study credits (their film already appears in the stage).
+// Source preservation below excludes only those credits; reference-page Videos remain complete.
 // Source equality is checked independently of the semantic order. Integrated
 // section/media/game controls on the pre-D-318 head (2026-10-16): 46 retained assertion kills plus
 // the corrected wheel and two review controls, 49 total. The original wheel
@@ -53,7 +58,7 @@ for (const path of [
       const root = document.querySelector('[data-reader]')!, body = root
       const norm = (s: string | null) => (s || '').replace(/Play as /g, 'Read as ').replace(/\s+/g, ' ').trim()
       const sources = [...new Set([...body.querySelectorAll('[data-source-path]')].map(e => e.getAttribute('data-source-path')!))]
-      const missing: string[] = []
+      const missing: string[] = [], position = /^\/Positions\//.test(root.getAttribute('data-reader-path')!)
       for (const path of sources) {
         const res = await fetch(path); if (!res.ok) throw Error(path + ': ' + res.status)
         const doc = new DOMParser().parseFromString(await res.text(), 'text/html')
@@ -61,9 +66,13 @@ for (const path of [
         const shown = fragments.map(e => norm(e.textContent)).join(' ')
         const guide = fragments.some(e => e.getAttribute('data-reader-article') === 'guide')
         const source = doc.querySelector('article')!
-        const selected = guide || !/\/(Top|Bottom|Attacker|Defender)$/.test(root.getAttribute('data-reader-path')!) ? [source] : [...source.querySelectorAll('#safety-considerations,blockquote.callout.danger')]
+        const selected = guide || !/\/(Top|Bottom|Attacker|Defender)$/.test(root.getAttribute('data-reader-path')!) ? [source] : [...source.querySelectorAll('#safety-considerations')]
         for (const container of selected) for (const leaf of container.querySelectorAll('p,li,th,td')) {
-          const text = norm(leaf.textContent); if (text && !shown.includes(text)) missing.push(text)
+          if (!/^\/(Principles|Learning|Systems)\//.test(root.getAttribute('data-reader-path')!) && leaf.closest('#film-study,#official-preview')) continue
+          // A position's How it works is cut once at a sentence end, behind Read more (U101 b), and the template's wikilink
+          // inside raw HTML prints as its name, so a paragraph is whole when every sentence of it shows.
+          const text = norm(leaf.textContent)
+          for (const line of position ? text.replace(/\[\[.*?\|(.*?)]]/, '$1').split(/(?<=[.!?])\s+(?=[A-Z])/) : [text]) if (line && !shown.includes(line)) missing.push(line)
         }
       }
       const cards = [...root.querySelectorAll('[data-reader-body]>.ng-section-card,.ng-reader-game>.ng-section-card')]
@@ -77,9 +86,12 @@ for (const path of [
     expect(proof.count).toBeGreaterThan(2)
     expect(new Set(proof.ids).size).toBe(proof.ids.length)
     expect(proof.horizontalTabs).toBe(0)
-    const main = ['videos', 'overview', 'principles', 'recognition', 'setup', 'prerequisites', 'options', 'safety', 'mistakes']
+    // Positions read in the owner's order (2026-11-01): article-order.spec.ts. Everything else keeps this one, except that
+    // S1 a (owner, 2026-11-06): a submission's guide leaves this order and goes last; safety-line.spec.ts pins it.
+    const main = /^\/Positions\//.test(path) ? ['videos', 'aka', 'confused', 'definition', 'principles', 'options', 'safety', 'mistakes', 'statistics', 'overview', 'prerequisites', 'training']
+      : ['videos', 'overview', 'principles', 'recognition', 'setup', 'prerequisites', 'options', ...(path.startsWith('/Submissions/') ? [] : ['safety']), 'mistakes']
     const actual = proof.types.filter(t => main.includes(t!))
-    expect(actual).toEqual(main.filter(t => proof.types.includes(t)))
+    expect([...new Set(actual)]).toEqual(main.filter(t => proof.types.includes(t)))
     if (proof.types.includes('related')) expect(proof.types.slice(proof.types.indexOf('related'))).toEqual(proof.reference && proof.types.includes('sources') ? ['related', 'sources'] : ['related'])
     if (proof.reference) expect(proof.hand).toBe(0)
     expect(await state(page)).toMatchObject({ paused: true, played: false, misses: 0, deals: 0 })
@@ -107,15 +119,28 @@ for (const width of [1366, 390]) {
       // U11 (D-355): where the index shows, a closed section leaves no placeholder; the visible cards keep the token.
       const a = (window as any).__neural, r = a._reader, cards = [...document.querySelectorAll('[data-reader-body] > .ng-section-card')].filter(c => (c as HTMLElement).getClientRects().length)
       const card = a._landEl.getBoundingClientRect(), hand = a.optionsRef.current.getBoundingClientRect(), first = cards[0].getBoundingClientRect(), head = r.head.getBoundingClientRect()
+      const choices = [...a.optionsRef.current.querySelectorAll('[data-tech]')].map((c: Element) => c.getBoundingClientRect()).filter((b: DOMRect) => b.width && b.height)
+      if (!choices.length) throw Error('No painted Moves cards')
+      const ask = a._landEl.querySelector('[data-land-ask-text]').getBoundingClientRect(), css = getComputedStyle(a._landEl)
       const labels = r.gameSections.map((s: any) => s.card.getBoundingClientRect().height)
       return { deck: a._landEl.classList.contains('ng-land-deck'),
+        askGap: ask.top - Math.max(...choices.map((b: DOMRect) => b.bottom)), askTop: ask.top, askBottom: ask.bottom, handTop: hand.top, handBottom: hand.bottom,
+        token: parseFloat(css.getPropertyValue('--section-gap')), padding: css.padding,
         headGap: hand.top - head.bottom, lifted: !!r.videoCard, cardGap: card.top - hand.bottom, sectionGap: r.articleEl.getBoundingClientRect().top - card.bottom,
+        // U104: in columns the stage's two cells head them, and the article starts below the shorter. With no film its cell is
+        // empty and ends at the question's top line, so the right column runs up beside the question.
+        lanes: new Set(cards.map(c => Math.round(c.getBoundingClientRect().left))).size, cardTop: card.top, cardBottom: card.bottom,
+        filmBottom: a._landFilmEl?.getClientRects().length ? a._landFilmEl.getBoundingClientRect().bottom : null, articleTop: r.articleEl.getBoundingClientRect().top,
         closeRow: first.top - (r.root.querySelector('[data-reader-close]')?.getBoundingClientRect().bottom ?? NaN),
         headInArticle: r.head.parentElement === r.game && r.head.contains(r.tools) && r.head.hasAttribute('data-bare'),
         sectionHeaders: labels, step: a._landEl.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12,
         backs: 3 * (a._landStackEl?.childElementCount || 0),
-        // U31: cards can share a row. Measure between actual row unions, not between peers.
-        gaps: [...new Set(cards.map(c => c.getBoundingClientRect().top))].slice(1).map(top => top - Math.max(...cards.map(c => c.getBoundingClientRect()).filter(r => r.top < top).map(r => r.bottom))),
+        // Owner (2026-11-06): two columns have no rows, so a gap is measured down each column, between neighbours in it.
+        gaps: [...new Set(cards.map(c => Math.round(c.getBoundingClientRect().left)))].flatMap(left => {
+          const lane = cards.map(c => c.getBoundingClientRect()).filter(r => Math.round(r.left) === left).sort((x, y) => x.top - y.top)
+          return lane.slice(1).map((r, i) => r.top - lane[i].bottom)
+        }),
+        margins: cards.map(c => parseFloat(getComputedStyle(c).marginBottom)),
         overflow: a._readerEl.scrollWidth - a._readerEl.clientWidth }
     })
     const normal = await measure()
@@ -124,13 +149,25 @@ for (const width of [1366, 390]) {
     expect(normal.headInArticle).toBe(true)
     expect(normal.headGap, 'Moves lead the flow at the parts\' step').toBeCloseTo(normal.step, 0)
     expect(normal.sectionHeaders, 'no header names an open Moves or Questions').toEqual([0, 0])
-    expect(normal.cardGap, 'Questions follows Moves at the deck gap').toBeCloseTo(16, 0)
+    // VIDEO1 closes the visible mobile/tablet gap. The row's bottom padding and the
+    // question's text inset are not painted content; wrapper distance is the old contract.
+    expect(normal.askGap, 'VIDEO1 painted ask gap follows the section token').toBeCloseTo(normal.token, 1)
+    expect(normal.askGap).toBeGreaterThanOrEqual(5)
+    expect(normal.askGap).toBeLessThanOrEqual(6.1)
+    expect(normal.padding).toBe('0px 0px 0px 3px')
+    if (width >= 1024) {
+      expect(normal.askTop, 'VIDEO3 the hint belongs inside the choices band').toBeGreaterThanOrEqual(normal.handTop)
+      expect(normal.askBottom, 'VIDEO3 the hint belongs inside the choices band').toBeLessThanOrEqual(normal.handBottom)
+    }
     // The deck's backs peek 3px per remaining card below the face; the token is paid after them.
     // U47 d: a reading arrival's question asks alone, with no backs until Answer for Points (which
     // would start play, so this reading journey cannot take it up); landcard-deck.spec.ts measures
     // the shown deck's backs and its article clearance.
     expect(normal.backs, 'U47 d: the asking question shows no backs').toBe(0)
-    expect(normal.sectionGap, 'the article follows Questions (and its backs) at the six-pixel token').toBeCloseTo(normal.backs + 6, 0)
+    if (normal.lanes === 2) {
+      const shorter = normal.filmBottom === null ? normal.cardTop : Math.min(normal.cardBottom + normal.backs, normal.filmBottom)
+      expect(normal.articleTop - shorter, 'U104: the article follows the stage\'s shorter cell at the six-pixel token').toBeCloseTo(6, 0)
+    } else expect(normal.sectionGap, 'the article follows Questions (and its backs) at the six-pixel token').toBeCloseTo(normal.backs + 6, 0)
     // U12 a (D-355): the article's own ✕ is its top row; the first section follows it directly.
     expect(normal.closeRow, 'the first section follows the article\'s ✕ row').toBeCloseTo(0, 0)
     const gapScale = width < 600 ? 3 : 4
@@ -146,8 +183,15 @@ for (const width of [1366, 390]) {
       const w = window as any, cards = [...w.__neural.optionsRef.current.querySelectorAll('.ngchoice-title')]
       return { titles: cards.map((e: any) => e.textContent), same: cards.every((e, i) => e === w.__sectionsCards[i]) && cards.length === w.__sectionsCards.length }
     })).toEqual({ titles: snapshot.titles, same: true })
+    // v1.251.1: nothing changes this token at runtime, and the sides stay layoutNow's, sorted on the real 24px gap. A side stale for 48px can
+    // hold a tile under an earlier float (CSS 2.1 9.5.1 rule 5), so a gap down a column can read more than the token: 87.5 here since Training
+    // split, with the page correct. The gap IS each tile's margin, so that is what follows the token. gap-hard-coded and gap-extra-phone
+    // prove this can fail, at 1366 and at 390.
     await page.locator(READY).evaluate(e => (e as HTMLElement).style.setProperty('--section-gap', '12px'))
-    expect((await measure()).gaps.every(g => Math.abs(g - 12 * gapScale) < 1)).toBe(true)
+    const poked = await measure()
+    expect(poked.margins.every(m => m === 12 * gapScale), `every tile's margin follows the token (${poked.margins})`).toBe(true)
+    // One column has no sides to go stale, so there every gap is the token's exactly.
+    expect(poked.gaps.every(g => width < 600 ? Math.abs(g - 12 * gapScale) < 1 : g >= 12 * gapScale - 1), `the gaps follow it (${poked.gaps})`).toBe(true)
     expect(await state(page)).toMatchObject({ paused: true, played: false, misses: 0 })
   })
 }
@@ -166,7 +210,8 @@ test('@curated optional chrome frame preserves the node band and every flow gap'
     // in flow order and the article follows the lower part.
     r.gameTop = 180
     const measure = () => {
-      const c = a._landEl.getBoundingClientRect(), h = a.optionsRef.current.getBoundingClientRect(), cards = [...r.root.querySelectorAll('.ng-section-card')] as HTMLElement[]
+      // U65 retains an unpainted Videos preference control; only painted tiles have flow gaps.
+      const c = a._landEl.getBoundingClientRect(), h = a.optionsRef.current.getBoundingClientRect(), cards = ([...r.root.querySelectorAll('.ng-section-card')] as HTMLElement[]).filter(e => e.getClientRects().length)
       const first = r.videoCard && !r.videoCard.hidden ? r.videoCard : a.optionsRef.current
       return { top: r.root.getBoundingClientRect().top, start: parseFloat(first.style.top), cardTop: c.top,
         cardGap: Math.max(h.top - c.bottom, c.top - h.bottom), articleGap: r.articleEl.getBoundingClientRect().top - Math.max(c.bottom, h.bottom),
@@ -212,12 +257,13 @@ test('@curated optional chrome frame preserves the node band and every flow gap'
   expect(result.before.top).toBeCloseTo(result.ownTop, 2)
   expect(result.before.start).toBeCloseTo(result.expectedStart, 2)
   expect(result.sameHead).toBe(true)
-  expect(result.hooked.cardTop - result.before.cardTop).toBeCloseTo(result.headBottom - result.ownTop + result.offset - result.headLead, 2)
+  // One decimal: Chromium lays out in 1/64px, and a card this far down (U90 a's taller band at 1600) lands on a neighbouring unit.
+  expect(result.hooked.cardTop - result.before.cardTop).toBeCloseTo(result.headBottom - result.ownTop + result.offset - result.headLead, 1)
   expect(result.hooked.band).toBe(result.before.band)
   expect(result.hooked.start).toBeGreaterThan(result.offset)
-  expect(result.hooked.cardGap).toBe(result.before.cardGap)
-  expect(result.hooked.articleGap).toBe(result.before.articleGap)
-  expect(result.hooked.gaps).toEqual(result.before.gaps)
+  expect(result.hooked.cardGap).toBeCloseTo(result.before.cardGap, 1)
+  expect(result.hooked.articleGap).toBeCloseTo(result.before.articleGap, 1)
+  for (const [i, gap] of result.hooked.gaps.entries()) expect(gap).toBeCloseTo(result.before.gaps[i], 1)
   expect(result.readingReserved.geometry).toEqual(result.hooked)
   expect(result.readingReserved.end - result.readingEnd).toBeCloseTo(40, 1)
   expect(result.clamped.bottom).toBeCloseTo(result.clamped.end, 1)
@@ -226,9 +272,11 @@ test('@curated optional chrome frame preserves the node band and every flow gap'
   expect(result.reserved.rootEnd).toBeCloseTo(result.reserved.end, 1)
   expect(result.reserved.geometry.cardGap).toBe(16)
   expect(result.zeroReserve.bottom).toBeCloseTo(result.zeroReserve.end, 1)
-  expect(result.after).toEqual(result.before)
-  expect(result.nullHook).toEqual(result.before)
-  expect(result.undefinedHook).toEqual(result.before)
+  // Within Chromium's 1/64px layout unit: a card at U90 a's depth rounds to a neighbouring unit on a later pass.
+  for (const geometry of [result.after, result.nullHook, result.undefinedHook]) for (const key of Object.keys(result.before) as (keyof typeof result.before)[]) {
+    if (key === 'gaps') for (const [i, gap] of result.before.gaps.entries()) expect(geometry.gaps[i]).toBeCloseTo(gap, 1)
+    else expect(geometry[key] as number, key).toBeCloseTo(result.before[key] as number, 1)
+  }
 
   await j.boot('/Principles/Frames', { initialState: QUIET })
   await expect(page.locator(READY)).toBeVisible()
@@ -284,7 +332,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
     await expect(page.locator(READY)).toBeVisible()
     // Closed pane: 680px article + two (200px TOC + 24px edge + 12px gap) gutters.
     // Hidden on narrow tablets as well as phones; the article never yields width.
-    const hasToc = viewport.width >= 1152 && viewport.height > 500
+    const hasToc = viewport.width >= 1350 && viewport.height > 500 // U97 b (owner, 2026-11-06): a line keeps 45 characters
     const header = page.locator('[data-section-toggle=principles]'), body = page.locator('[data-section-type=principles] .ng-section-body')
     await expect(page.locator('.ng-reader-contents-button')).toHaveCount(0)
     const column = await page.locator('.ng-reader-article').boundingBox()
@@ -307,6 +355,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
       await page.locator('.ng-reader-hidden>summary').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
       await j.clickByMouse('.ng-reader-hidden>summary', 'reveal the closed labels')
       await expect(header).toBeVisible()
+      await expect(body, 'revealing a closed label does not reveal its article body').toBeHidden()
       // D-338 / D-475: a closed section is a light label with no box. A zero-width border
       // draws nothing even when its computed color is currentColor; the open-card glow must vanish too.
       const closed = await page.locator('[data-section-type=principles]').evaluate(e => {
@@ -388,7 +437,7 @@ const tocCanvasGeometry = (page: Page) => page.evaluate(() => {
 
 // STALE CONTRACT: D-318 U4a replaces the free-gutter correction with centred
 // arrival and native occlusion. Restoring that correction must fail this claim.
-test('@curated current node stays centred as the native sections cover it at every width', async ({ page }) => {
+test('@curated current node stays centred while the native article crosses it at every width', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   await page.emulateMedia({ reducedMotion: 'reduce' })
   const j = journey(page)
@@ -402,14 +451,14 @@ test('@curated current node stays centred as the native sections cover it at eve
     // Repeated reading can mint White Foundations. Its deliberate phone overlay
     // covers the node band; dismiss it natively before testing article occlusion.
     if (await page.locator('[data-reward-close]').isVisible()) await j.clickByMouse('[data-reward-close]')
-    if (width >= 1152) await expect(page.locator('.ng-reader-toc')).toBeVisible()
+    if (width >= 1350) await expect(page.locator('.ng-reader-toc')).toBeVisible() // U97 b
     else await expect(page.locator('.ng-reader-toc')).toBeHidden()
     const board = await tocCanvasGeometry(page)
     expect(board.map).toBe(true)
     expect(Math.abs(board.center - width / 2), width + 'px centred visible composition').toBeLessThan(2)
     expect(Math.max(...board.labels.map(r => r.bottom), ...board.orbs.map(r => r.bottom))).toBeLessThan(board.firstTop)
     expect(board.intersections, width + 'px map: ' + JSON.stringify(board)).toEqual([])
-    if (width >= 1152) await j.clickByMouse('[data-toc-type=overview] a')
+    if (width >= 1350) await j.clickByMouse('[data-toc-type=overview] a')
     else {
       await page.locator('[data-reader-body]').focus()
       await page.keyboard.press('PageDown')
@@ -420,7 +469,16 @@ test('@curated current node stays centred as the native sections cover it at eve
     expect(reading).toMatchObject({ map: true, reading: true })
     expect(Math.abs(reading.center - board.center)).toBeLessThan(1)
     expect(Math.abs(reading.point.y - board.point.y)).toBeLessThan(1)
-    expect(await page.evaluate(({ x, y }) => !!document.elementFromPoint(x, y)?.closest('.ng-section-card'), reading.point), 'native prose covers the stationary node').toBe(true)
+    // NOT CLICKABLE THERE (DASH-R4, review finding 9d): the node seen through a row's gutter is dead to the mouse. The
+    // gutter is the reader's grid, so a press there is reading: it pauses the game and, with a mouse, declines an
+    // asking question. The orchestrator tells the owner; nothing here asserts the node can be picked in a gutter.
+    // CLAIM CHANGED: U65 b (owner, 2026-10-29). Old: a card or a gutter inside a row covers the node.
+    // New: the article grid crosses the stationary node; the map may show below a shorter tile.
+    // Input there still belongs to reading. A real canvas hit must fail, as must moving the camera.
+    expect(await page.evaluate(({ x, y }) => {
+      const hit = document.elementFromPoint(x, y)
+      return !!hit?.closest('[data-reader-body]')
+    }, reading.point), 'the article grid owns the stationary node hit target, including space below a short tile').toBe(true)
     expect(reading.intersections, width + 'px reading: ' + JSON.stringify(reading)).toEqual([])
     const column = await page.locator('.ng-reader-article').boundingBox()
     expect(column!.x).toBe(Math.max(12, (width - 680) / 2))
@@ -443,8 +501,9 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
     await expect(page.locator('[aria-label="Reading perspectives"]')).toHaveCount(0)
     await expect(page.locator('.ng-reader-toc h2')).toHaveText('Escaping Loop Choke from Half Guard')
     expect(await page.locator('.ng-reader-toc h2 small').evaluate(e => getComputedStyle(e).display), 'the qualifier stays in the phrase').toBe('inline')
-    expect((await page.locator('.ng-reader-toc-row a').allTextContents()).slice(0, 4)).toEqual(['Videos', 'Moves', 'Questions', 'Overview'])
-    const hasToc = viewport.width >= 1152
+    // U104, U108 a (owner, 2026-11-09, as built): the index reads as the screen does, Moves, the question, the video, the article.
+    expect((await page.locator('.ng-reader-toc-row a').allTextContents()).slice(0, 4)).toEqual(['Moves', 'Questions', 'Videos', 'How it works'])
+    const hasToc = viewport.width >= 1350 // U97 b
     for (const [part, close] of [['card', '[data-land-close]'], ['hand', '[data-hand-close]']]) {
       const label = page.locator(`[data-game-open="${part}"]`)
       await expect(label, 'an open part has no header').toBeHidden()
@@ -464,6 +523,14 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
         expect(Math.abs(tray.off), 'the Moves tray is centred on the article column').toBeLessThan(1)
       }
       await j.clickByMouse(close, `the ${part}'s own ✕`)
+      // Settle BEFORE measuring the label (v1.247.1, DEPLOYFIX). The ✕ unhides it at the top of the game column,
+      // over the map, and reader.layout() moves it on the next frame. That first spot is never painted, so no
+      // player can press it, but clickByMouse can measure it: its press then lands on the map and stages the orb
+      // there (768px: Diamond Guard Top), and the label reads as dead. Only runners fast enough to beat one frame.
+      // Kill: with reader.layout() held until the press's own pointermove, this line is green at all five widths and
+      // its removal is red at the label's toBeHidden at the three it reaches. A plain delay cannot force this: the
+      // press then lands before the layout too, and hits the label (150ms: 3 of 3 green without this line).
+      await j.readerLayoutSettled()
       await expect(label).toHaveAttribute('aria-expanded', 'false')
       if (hasToc) {
         await expect(page.locator(`[data-toc-type="${part}"]`)).toHaveAttribute('data-collapsed', 'true')
@@ -493,6 +560,8 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
         const a = (window as any).__neural
         return part === 'card' ? !a._landEl : getComputedStyle(a.optionsRef.current).visibility === 'hidden'
       }, part)).toBe(true)
+      // U104 (v1.252.0): at 1,024 to 1,349px the article once started at the closed question's old top and covered this label.
+      // Control: u104-label-under-article (tests/artifacts/article_sections_mutants.mjs), killed here at 1152px.
       await j.clickByMouse(`[data-game-open="${part}"]`, `reopen ${part} from its label`)
       await expect(label).toBeHidden()
       // D-336: the restore half shows the card, not only the control's state (D-318's reader gate).
@@ -653,16 +722,23 @@ test('@curated independent section preferences merge per key and preserve stale 
   expect(await page.evaluate(() => (window as any).__neural.get('readerSection.future-type'))).toBe(false)
 })
 
+// VIDEO2 CI control `drop-reader-anchor-url` in title_ci_mutants.json is killed
+// at #legacy-notes at BOTH widths; the camera control remains green.
 for (const width of [1440, 390]) test(`@curated ${width}px unknown authored sections and cross-section anchors survive regrouping`, async ({ page }) => {
   await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
   const j = journey(page)
   await j.boot(KNEE + '/Attacker', { initialState: QUIET })
   await expect(page.locator(READY)).toBeVisible()
   const path = '/Learning/Section-Shape-Fixture'
-  await page.route('**' + path, route => route.fulfill({ contentType: 'text/html', body: '<h1>Section shape fixture</h1><article><h2 id="key-principles">Principles</h2><p>First complete authored statement. <a href="#legacy-notes">Read the original notes</a></p><h2 id="legacy-notes">Legacy notes</h2><p>Unmapped content survives in full.</p><h3 id="deep-note">An authored subheading</h3><p>Its detail also survives.</p><h2 id="related">Related</h2><p>A related source.</p><h2 id="sources">Sources</h2><p>A final citation.</p></article>' }))
+  // VIDEO2 CI: this synthetic page must carry the same head-title contract as
+  // every built page. A body-only fixture cannot publish an exact URL/title pair.
+  const title = 'Section shape fixture | BJJ Learning | BJJ Graph'
+  await page.route('**' + path, route => route.fulfill({ contentType: 'text/html', body: '<!doctype html><html><head><title>' + title + '</title></head><body><h1>Section shape fixture</h1><article><h2 id="key-principles">Principles</h2><p>First complete authored statement. <a href="#legacy-notes">Read the original notes</a></p><h2 id="legacy-notes">Legacy notes</h2><p>Unmapped content survives in full.</p><h3 id="deep-note">An authored subheading</h3><p>Its detail also survives.</p><h2 id="related">Related</h2><p>A related source.</p><h2 id="sources">Sources</h2><p>A final citation.</p></article></body></html>' }))
   await page.evaluate(path => (window as any).__neural._readArticle(path), path)
   await expect(page.locator(READY)).toHaveAttribute('data-reader-path', path)
   await expect(page.locator(READY)).toHaveAttribute('data-reader-ready', 'true')
+  expect(new URL(page.url()).pathname, 'the fixture has its own published URL').toBe(path)
+  await expect(page).toHaveTitle(title)
   expect(await page.locator('.ng-section-card').evaluateAll(es => es.map(e => e.getAttribute('data-section-type')))).toEqual(['principles', 'additional', 'related', 'sources'])
   await expect(page.locator('[data-section-type=additional]')).toContainText('Unmapped content survives in full.')
   await expect(page.locator('[data-section-type=additional]')).toContainText('Its detail also survives.')
@@ -710,6 +786,7 @@ for (const width of [1440, 390]) test(`@curated ${width}px unknown authored sect
     return card.contains(el) && box.width > 0 && box.height > 0 && box.top >= root.top && box.top < root.bottom
   }), 'the anchor destination is inside the reader').toBe(true)
   expect(new URL(page.url()).hash).toBe('#legacy-notes')
+  await expect(page).toHaveTitle(title)
   expect(await page.locator('[data-reader-body]').textContent(), 'every authored character returns in source order').toBe(original)
   expect(await state(page)).toMatchObject({ paused: true, played: false, deals: 0, misses: 0 })
 })

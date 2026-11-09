@@ -10,8 +10,6 @@ description: "How to execute the Loop Choke from Closed Guard in BJJ. Attacking 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Loop Choke from Closed Guard targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from bilateral carotid artery compression. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -300,6 +298,8 @@ The Loop Choke from Closed Guard is a deceptive and highly effective blood choke
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Loop Choke/from Closed Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

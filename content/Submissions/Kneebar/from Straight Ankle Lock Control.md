@@ -46,6 +46,16 @@ description: "Master the kneebar from straight ankle lock control in BJJ. Comple
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Straight Ankle Lock Not Working? Switch to a Kneebar **\u00bfNo Funciona el\u2026",
+      "description": "Kneebar from Straight Ankle Lock Control film study: Straight Ankle Lock Not Working? Switch to a Kneebar **\u00bfNo Funciona el\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5dVYECoSbZY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5dVYECoSbZY?start=77",
+      "url": "https://www.youtube.com/watch?v=5dVYECoSbZY",
+      "duration": "PT280S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Ankle Lock to Knee Bar to Heel Hook transitions",
       "description": "Kneebar from Straight Ankle Lock Control film study: Ankle Lock to Knee Bar to Heel Hook transitions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/B8q8wZx0b74/hqdefault.jpg",
@@ -82,9 +92,6 @@ description: "Master the kneebar from straight ankle lock control in BJJ. Comple
 <span class="meta-chip">60% success</span>
 </div>
 
-> [!danger] Safety
-> Kneebar from Straight Ankle Lock Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Kneebar/from Straight Ankle Lock Control/Attacker|Play as Attacker]]
@@ -111,6 +118,14 @@ From a strategic perspective, the kneebar from straight ankle lock control trans
 
 <p class="section-subtitle">Watch Kneebar from Straight Ankle Lock Control in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5dVYECoSbZY&start=77)
+
+<p class="clip-credit"><strong>Straight Ankle Lock Not Working? Switch to a Kneebar **¿No Funciona el…</strong> · 4:40 · <a href="https://www.youtube.com/watch?v=5dVYECoSbZY&t=77s" rel="noopener">Watch on YouTube from 1:17</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -170,6 +185,8 @@ From a strategic perspective, the kneebar from straight ankle lock control trans
 
 - Control the foot to prevent the opponent from rotating their knee out of the hyperextension line
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -241,6 +258,8 @@ From a strategic perspective, the kneebar from straight ankle lock control trans
 - Your leg is being pulled tight against the attacker's chest with the knee pointed toward their hips
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -302,9 +321,8 @@ From a strategic perspective, the kneebar from straight ankle lock control trans
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -314,30 +332,9 @@ From a strategic perspective, the kneebar from straight ankle lock control trans
 | Meniscus tear (medial or lateral) | High | 3-6 months, may require surgery |
 
 
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress vocalization or signal
 
 
-**Release Protocol**:
-1. Immediately stop all hip extension the moment tap is received
-2. Release hip pressure by dropping hips away from opponent's leg
-3. Maintain positional control while releasing the leg slowly
-4. Allow opponent to extract their leg at their own pace
-5. Check with partner verbally after release
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply smooth, progressive pressure
-- Never use competition speed or intensity in training rolls
-- Always communicate with training partners about leg lock experience level
-- Never continue pressure after any tap signal
-- Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

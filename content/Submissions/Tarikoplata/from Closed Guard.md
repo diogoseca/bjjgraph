@@ -46,6 +46,16 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "How to: TARIKOPLATA",
+      "description": "Tarikoplata from Closed Guard film study: How to: TARIKOPLATA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7QIKCY_R_3A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7QIKCY_R_3A",
+      "url": "https://www.youtube.com/watch?v=7QIKCY_R_3A",
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Tarikoplata finishes + switch to Baratoplata",
       "description": "Tarikoplata from Closed Guard film study: Tarikoplata finishes + switch to Baratoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZbFNUmyWQkM/hqdefault.jpg",
@@ -55,7 +65,7 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Do you know about the power of the TARIKOPLATA?",
       "description": "Tarikoplata from Closed Guard film study: Do you know about the power of the TARIKOPLATA?.",
       "thumbnailUrl": "https://i.ytimg.com/vi/jpNqecvfuFg/hqdefault.jpg",
@@ -92,9 +102,6 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
 <span class="meta-chip">45% success</span>
 </div>
 
-> [!danger] Safety
-> Tarikoplata from Closed Guard targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Tarikoplata/from Closed Guard/Attacker|Play as Attacker]]
@@ -117,6 +124,14 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 <p class="section-subtitle">Watch Tarikoplata from Closed Guard in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7QIKCY_R_3A)
+
+<p class="clip-credit"><strong>How to: TARIKOPLATA</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=7QIKCY_R_3A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -186,6 +201,8 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 - Coordinate hip drive with wrist rotation for maximum mechanical advantage
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,6 +275,8 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 - Your trapped palm is being turned toward your own head while shoulder pressure increases - this specific wrist orientation creates the maximum rotational stress that defines the tarikoplata finish
 
+
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -335,9 +354,8 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -347,32 +365,9 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 | Labrum tear (glenoid labrum) | CRITICAL | 4-6 months post-surgery, career-threatening |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (primary)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any verbal distress signal
-- Frantic movement or panic response
 
 
-**Release Protocol**:
-1. Immediately release wrist grip upon tap signal
-2. Remove leg from over opponent's shoulder smoothly
-3. Release hip pressure gradually
-4. Allow opponent to extract arm naturally without resistance
-5. Check for injury before continuing training
-
-
-**Training Restrictions**:
-- Never use competition speed in training
-- Never spike or jerk the submission - apply progressive pressure only
-- Always allow tap access - opponent must have free hand available
-- Restrict to advanced practitioners only (minimum purple belt recommended)
-- Avoid practicing on training partners with existing shoulder injuries
-- Never combine with explosive movements or sudden adjustments
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

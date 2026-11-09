@@ -46,12 +46,12 @@ description: "Master the arm triangle from Kuzure Kesa Gatame with setup mechani
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Two variations of arm triangle (kata gatame) escapes",
-      "description": "Arm Triangle from Kuzure Kesa Gatame film study: Two variations of arm triangle (kata gatame) escapes.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CmXniIPFMhU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CmXniIPFMhU",
-      "url": "https://www.youtube.com/watch?v=CmXniIPFMhU",
-      "duration": "PT89S"
+      "name": "Arm Triangle from Scarf Hold Position",
+      "description": "Arm Triangle from Kuzure Kesa Gatame film study: Arm Triangle from Scarf Hold Position.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xz9-FEBFFIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xz9-FEBFFIo",
+      "url": "https://www.youtube.com/watch?v=xz9-FEBFFIo",
+      "duration": "PT32S"
     }
   ]
 }
@@ -82,9 +82,6 @@ description: "Master the arm triangle from Kuzure Kesa Gatame with setup mechani
 <span class="meta-chip">62% success</span>
 </div>
 
-> [!danger] Safety
-> Arm Triangle from Kuzure Kesa Gatame targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Arm Triangle/from Kuzure Kesa Gatame/Attacker|Play as Attacker]]
@@ -114,9 +111,9 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=CmXniIPFMhU)
+![](https://www.youtube.com/watch?v=xz9-FEBFFIo)
 
-<p class="clip-credit"><strong>Two variations of arm triangle (kata gatame) escapes</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=CmXniIPFMhU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm Triangle from Scarf Hold Position</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=xz9-FEBFFIo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -170,6 +167,8 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 
 - Keep your head low and glued to the mat on the far side of opponent's head to seal the choke and prevent defensive turns
 
+
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -241,6 +240,8 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 - The attacker's head drops low to the mat on the far side of your head as they settle into the perpendicular finishing position
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -304,9 +305,8 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -315,31 +315,9 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 | Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap (multiple taps on opponent or mat)
-- Physical foot tap (multiple taps with foot)
-- Any distress signal or loss of resistance
-- Immediately release if opponent goes limp
 
 
-**Release Protocol**:
-1. Immediately release arm squeeze and remove head pressure
-2. Step back from opponent's head and shoulders
-3. Allow opponent to breathe and recover (30-60 seconds)
-4. Check for consciousness and normal breathing
-5. If unconscious: position on side, elevate legs, monitor breathing until conscious
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth progressive pressure only
-- Never hold after tap signal - release immediately upon any tap
-- Always allow tap access - do not trap both arms in training
-- Never use competition speed in training - practice control first
-- Stop immediately if opponent's face changes color (purple/red indicates excessive pressure)
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

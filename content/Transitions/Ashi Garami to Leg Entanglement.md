@@ -36,6 +36,27 @@ description: "Master the transition to leg entanglement from Ashi Garami top pos
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ashi Garami to Leg Entanglement \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ashi Garami Counter into Saddle.",
+      "description": "Ashi Garami to Leg Entanglement film study: Ashi Garami Counter into Saddle..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zXeMxV_3a50/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zXeMxV_3a50?start=27",
+      "url": "https://www.youtube.com/watch?v=zXeMxV_3a50",
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This transition requires precise timing and mechanical understanding. Initiating
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ashi Garami to Leg Entanglement in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zXeMxV_3a50&start=27)
+
+<p class="clip-credit"><strong>Ashi Garami Counter into Saddle.</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=zXeMxV_3a50&t=27s" rel="noopener">Watch on YouTube from 0:27</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

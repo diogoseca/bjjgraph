@@ -61,9 +61,6 @@ description: "The short armbar from Dead Orchard uses the high triangle around b
 <span class="meta-chip">40% success</span>
 </div>
 
-> [!danger] Safety
-> Armbar from Dead Orchard Control targets the Elbow joint. Primary risk: Elbow joint injury from excessive pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Armbar/from Dead Orchard Control/Attacker|Play as Attacker]]
@@ -134,6 +131,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Remove extension and free the arm: Stop immediately for a hand tap, foot tap, verbal stop, or other distress. Remove the extension before opening the high legs.
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -198,6 +197,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 - Maintain the elbow's relationship to the leg frame before attempting any extension.
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -232,9 +233,8 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -242,24 +242,9 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 | Neck or knee strain during a forced escape | High | Variable; do not train through symptoms. |
 
 
-**Application Speed**: Apply gradually and release immediately at any signal.
-
-**Tap Signals**:
-- Hand tap
-- Foot tap when the arms are trapped
-- Verbal tap or stop
 
 
-**Release Protocol**:
-1. Stop adding pressure immediately.
-2. Remove the joint or neck load before changing grips.
-3. Free the trapped limb or neck and check the partner.
-
-
-**Training Restrictions**:
-- Practice under qualified supervision with a cooperative partner.
-- Do not force the movement through pain or a restricted joint range.
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -131,9 +131,6 @@ description: "Master the Clock Choke in BJJ. Gi-based blood choke from turtle us
 <span class="meta-chip">~58% avg</span>
 </div>
 
-> [!danger] Safety
-> Clock Choke targets the Carotid arteries and jugular veins. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <section id="overview" class="content-section">
 
 The Clock Choke is a highly effective gi-based blood choke primarily executed from turtle position, though it can also be applied from back control variations. The technique derives its name from the circular walking motion the attacker makes around the opponent's head, resembling the movement of clock hands. This submission targets the carotid arteries using a combination of the opponent's own gi lapel and precise body positioning. The Clock Choke represents an excellent example of using the gi as a force multiplier, creating a mechanical advantage that doesn't require significant upper body strength. The technique is particularly valuable because it can be executed when traditional back takes are defended, offering an alternative finishing option from turtle and transition positions. Many practitioners overlook the Clock Choke in favor of taking the back, but experienced grapplers recognize it as a high-percentage finish that capitalizes on the opponent's defensive posture in turtle.
@@ -240,9 +237,8 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -251,28 +247,9 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 | Jaw or temporomandibular joint (TMJ) compression | Medium | 1-2 weeks for minor discomfort; longer for existing TMJ issues |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the choke and tap
-
-**Tap Signals**:
-- Verbal tap or verbal submission signal
-- Physical hand tap on attacker's body or mat
-- Physical foot tap on mat
-- Any rapid or frantic movement indicating distress
 
 
-**Release Protocol**:
-1. Immediately release the lapel grip upon receiving tap signal
-2. Remove your weight from opponent's back and create space
-3. Allow partner to recover in a neutral position without pressure
-4. Check on partner's condition before continuing training
-
-
-**Training Restrictions**:
-- Never apply the choke rapidly or explosively in training
-- Never maintain pressure after partner taps or shows distress
-- Always ensure partner has clear access to tap with hands or feet
-- Avoid training this technique with partners who have neck injuries or cardiovascular conditions
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

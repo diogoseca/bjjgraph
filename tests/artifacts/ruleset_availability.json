@@ -13,10 +13,10 @@
       "acts": false
     },
     "nogi": {
-      "excluded_positions": 22,
-      "excluded_techniques": 122,
-      "unreachable_positions": 22,
-      "unreachable_techniques": 122,
+      "excluded_positions": 24,
+      "excluded_techniques": 131,
+      "unreachable_positions": 24,
+      "unreachable_techniques": 131,
       "acts": true
     }
   },
@@ -29,6 +29,8 @@
       "positions": [
         "collar-sleeve-guard/bottom",
         "collar-sleeve-guard/top",
+        "demi-guard/bottom",
+        "demi-guard/top",
         "double-sleeve-guard/bottom",
         "double-sleeve-guard/top",
         "inverted-lasso-guard/bottom",
@@ -196,6 +198,18 @@
           "name": "De La Riva to Lapel Guard"
         },
         {
+          "id": "demi-guard-elevation-sweep",
+          "name": "Demi Guard Elevation Sweep"
+        },
+        {
+          "id": "demi-guard-to-half-guard",
+          "name": "Demi Guard to Half Guard"
+        },
+        {
+          "id": "demi-guard-to-lapel-guard",
+          "name": "Demi Guard to Lapel Guard"
+        },
+        {
           "id": "distance-creation-to-reset",
           "name": "Distance Creation to Reset"
         },
@@ -232,6 +246,10 @@
           "name": "Guard Recovery from Squid Guard"
         },
         {
+          "id": "half-guard-to-demi-guard",
+          "name": "Half Guard to Demi Guard"
+        },
+        {
           "id": "inside-heel-hook-from-inside-sankaku",
           "name": "Inside Heel Hook from Inside Sankaku"
         },
@@ -254,6 +272,10 @@
         {
           "id": "kneebar",
           "name": "Kneebar"
+        },
+        {
+          "id": "lapel-clear-from-demi-guard",
+          "name": "Lapel Clear from Demi Guard"
         },
         {
           "id": "lapel-clear-to-toreando-pass",
@@ -372,6 +394,10 @@
           "name": "Open Guard to Collar Sleeve Guard"
         },
         {
+          "id": "open-guard-to-demi-guard",
+          "name": "Open Guard to Demi Guard"
+        },
+        {
           "id": "open-guard-to-double-sleeve-guard",
           "name": "Open Guard to Double Sleeve Guard"
         },
@@ -386,6 +412,10 @@
         {
           "id": "pass-double-sleeve-guard",
           "name": "Pass Double Sleeve Guard"
+        },
+        {
+          "id": "pass-from-demi-guard",
+          "name": "Pass from Demi Guard"
         },
         {
           "id": "pass-inverted-lasso-guard",
@@ -536,8 +566,16 @@
           "name": "Worm Guard Sweep"
         },
         {
+          "id": "worm-guard-to-demi-guard",
+          "name": "Worm Guard to Demi Guard"
+        },
+        {
           "id": "worm-to-squid-guard",
           "name": "Worm to Squid Guard"
+        },
+        {
+          "id": "worm-wrestling-pressure-counter",
+          "name": "Worm Wrestling Pressure Counter"
         }
       ]
     }

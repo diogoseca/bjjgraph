@@ -182,6 +182,27 @@ description: "Learn to recover the underhook from flattened half guard bottom. S
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Underhook Recovery from Flattened (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Recovering Underhook in Half Guard - Nate Kleinfeld",
+      "description": "Underhook Recovery from Flattened (Attacker) film study: Recovering Underhook in Half Guard - Nate Kleinfeld.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Hq7lPJmjXvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Hq7lPJmjXvU",
+      "url": "https://www.youtube.com/watch?v=Hq7lPJmjXvU",
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ As the bottom player in flattened half guard, recovering the underhook is your h
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Underhook Recovery from Flattened (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Hq7lPJmjXvU)
+
+<p class="clip-credit"><strong>Recovering Underhook in Half Guard - Nate Kleinfeld</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=Hq7lPJmjXvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

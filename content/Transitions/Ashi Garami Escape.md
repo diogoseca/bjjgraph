@@ -123,7 +123,7 @@ The technique emphasizes hip positioning, frame management, and timing to create
 |--------|----------|-------------|
 | Success | [[Positions/Standing Position]] | 55% |
 | Failure | [[Positions/Ashi Garami]] | 30% |
-| Counter | [[Positions/Ashi Garami]] | 15% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 15% |
 
 
 </section>
@@ -239,7 +239,7 @@ The technique emphasizes hip positioning, frame management, and timing to create
 ### Defensive Options
 
 
-- **Advance to inside ashi or saddle by backstep when opponent creates hip angle for escape** - When: When opponent rotates hips away and begins clearing sequence, creating space that allows you to backstep your outside leg to achieve superior inside position
+- **Advance to saddle by backstep when opponent creates hip angle for escape** - When: When opponent rotates hips away and begins clearing sequence, creating space that allows you to backstep your outside leg to achieve superior inside position
 
 - **Secure heel hook grip and attack during escape movement when opponent exposes heel** - When: When opponent straightens their trapped leg during extraction attempt or loses foot flexion during the clearing sequence, momentarily exposing the heel to hook grip
 
@@ -310,17 +310,6 @@ The ashi garami escape is a critical defensive skill within the modern leg lock 
 
 </section>
 
-<section id="related-systems" class="content-section related-systems">
 
-## Related study guides
-
-<div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Leglocks — Enter The System</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Straight Ankle Locks and Kneebars</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related graph transition for separate study, not a verified course sequence.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles: 50/50 Leg Locks and Defense</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference for leg-entanglement study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Down Under Leg Attacks</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-</div>
-
-</section>
 
 </main>

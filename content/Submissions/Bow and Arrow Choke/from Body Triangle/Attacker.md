@@ -10,8 +10,6 @@ description: "Step-by-step guide to finishing the bow and arrow choke from body 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Bow and Arrow Choke from Body Triangle targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
-
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
@@ -264,6 +262,8 @@ Executing the Bow and Arrow Choke from Body Triangle requires establishing a dee
 </section>
 
 <section id="execution-steps" class="content-section">
+
+> Release immediately upon tap. [[Submissions/Bow and Arrow Choke/from Body Triangle#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -102,9 +102,6 @@ description: "Master the Omoplata from Butterfly Guard. Learn hook elevation ent
 <span class="meta-chip">52% success</span>
 </div>
 
-> [!danger] Safety
-> Omoplata from Butterfly Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
-
 <div class="role-links">
 
 [[Submissions/Omoplata/from Butterfly Guard/Attacker|Play as Attacker]]
@@ -207,6 +204,8 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 - Chain the omoplata entry with butterfly sweep threats to create dilemmas that force defensive reactions opening the submission
 
 
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
+
 ### Execution Steps
 
 
@@ -273,6 +272,8 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 - Opponent's grip shifts from standard sweep-oriented collar or underhook control to targeting your far hip or belt for post-entry anchoring
 
 
+> Tap early and often. [Injury risks ↓](#safety-considerations)
+
 ### Escape Paths
 
 
@@ -328,9 +329,8 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -340,32 +340,9 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 | Labrum tear | CRITICAL | 6-12 months with surgery |
 
 
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum pressure increase
-
-**Tap Signals**:
-- Verbal tap (any vocal signal)
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress signal or sound
-- Roll forward escape attempt (release immediately)
 
 
-**Release Protocol**:
-1. Immediately stop all forward pressure and rotation
-2. Release leg pinch on shoulder
-3. Unwind hip position to neutral
-4. Allow opponent to extract arm slowly
-5. Check for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the shoulder rotation
-- Never apply competition speed in training
-- Always allow opponent access to tap
-- Stop immediately if opponent rolls forward (escape attempt)
-- Never apply full finishing pressure until advanced belt level
-- Always control the rate of shoulder rotation
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

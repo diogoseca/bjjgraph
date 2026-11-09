@@ -471,7 +471,17 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "3iXOWMoZYRA",
+        "title": "KeyLock from Mount",
+        "channel": "Science Of JiuJitsu",
+        "duration": 33,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      }
+    ]
   },
   "defender": {
     "name": "from 3-4 Mount Defender",
@@ -658,6 +668,24 @@
       }
     ],
     "clips": [
+      {
+        "id": "DmPhEpL8Znk",
+        "title": "Defense against the Americana (Key Lock) from Mount",
+        "channel": "Submissions101",
+        "duration": 165,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-04"
+      },
+      {
+        "id": "Ny_l7GHApo0",
+        "title": "Mounted Americana Defenses - Technique #1 - Prevention and Early Phase Escapes",
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 199,
+        "vertical": false,
+        "start": 35,
+        "verified": "2026-11-04"
+      },
       {
         "id": "Ht5OdSQG3BY",
         "title": "Kipping Escape: Defend the Americana into the Heelhook (No Gi BJJ/Jiu-Jitsu)",
