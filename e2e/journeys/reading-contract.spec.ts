@@ -340,19 +340,8 @@ for (const path of [RNC, '/Submissions/Triangle-Choke/from-Triangle-Control']) {
         await j.openQuestion() // U47 d: Answer for Points shows the answers; the answer starts play
         await j.advance(20000)
         expect(await activity(page), 'Answer for Points leaves a dormant defender dormant, with no clock').toMatchObject({ intent: true, paused: true, played: false, remaining: null, beats: [] })
-        // U104 at 1440x900: the opened question can end below the reader's scrollport, so its last answer needs a scroll (U90's
-        // ruling, "half of all cards need a scroll for their last answer"). The answer is a draw (land-mc-shuffle is not rigged
-        // here), so bring it up the way a player does, a wheel over the question, which is game input and never reading intent.
-        const answer = `[data-panic-mc-opt="${correct}"]`
-        const below = await page.evaluate(sel => {
-          const r = (window as any).__neural._reader.root.getBoundingClientRect(), b = document.querySelector(sel)!.getBoundingClientRect()
-          return Math.ceil(b.bottom - r.bottom + 8)
-        }, answer)
-        if (below > 0) {
-          const card = await page.evaluate(() => { const b = (window as any).__neural._landEl.getBoundingClientRect(); return [b.left + b.width / 2, b.top + 20] })
-          await page.mouse.move(card[0], card[1]); await page.mouse.wheel(0, below); await j.readerLayoutSettled()
-        }
-        await j.clickByMouse(answer, 'answer the dormant defender question')
+        // The answer is a draw (land-mc-shuffle is not rigged here), and under U104 the third can sit below the scrollport.
+        await j.pressAnswer(`[data-panic-mc-opt="${correct}"]`, 'answer the dormant defender question')
       }
       expect(await activity(page)).toMatchObject({ intent: false, paused: false })
       expect((await activity(page)).beats.filter((b: string) => b === 'defend_start')).toHaveLength(0)
