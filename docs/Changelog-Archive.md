@@ -14626,3 +14626,74 @@ arms, and identically to the pixel where the heading was hidden. Both arms land 
 `querySelector` in. 246 B of the owner's 507,117 approval are unused.
 
 **Gates:** journeys, 13 reader files, 281 of 281. Controls `hub-heading-injected`, `provenance-every-part`, `anchor-lost`, all killed on their claims.
+
+## v1.252.0 — The question left and the video right, a video asked for, one stacked width, and the injury risks only (U104, U108 to U112, 2026-11-06 to 2026-11-09)
+
+**U104, U108 a: the question left, the video right.** From 1,024px of free width the stage heads the article's two columns: the
+question in the left, the film in the right, each column carrying on under its own cell, so a short card leaves no hole. Opening
+the question moves the film nowhere (1 px, against 461 to 494 px before). The index reads as the screen: Moves, Questions, Videos.
+A move with no video keeps a one-clip card and no ✕ (nothing to dismiss, and no Videos row on that page to bring it back).
+
+**U109 b: the card asks for a video.** "No video of this move yet", "We only show a video that teaches exactly this move. Know
+one?", and Suggest a video, which opens the existing Feedback form about that move with "Paste the video's link, and the second
+the move starts if you know it." It sends the form's own `neural_issue_reported` with `kind: "video"`; an ordinary report has no
+`kind`. +261 B eager gzip (+193 neural.js, +68 neural.css).
+
+**U110 a: one stacked width.** Under 1,024px free, everything stacked (question, film, grid and tiles, and above 640px the hand)
+is one centred box of at most 496px: a tile's 468px of text at 600px, 70 characters of the body face at 6.68px each. Measured on
+Side Control Bottom, opened: at 600, 768, 900 and 1,000 every box is 496px with one pair of edges; before, 768 had card 560, film
+680 and grid 704 in two 340px lanes, and 900 and 1,000 were side by side. At 1,024, 1,280 and 1,440 every box equals #346's own
+committed reader. Text runs 468px at 600 (70 characters) and 456px above 640, where a tile pads 20px (68).
+
+**U111, U112 a: the injury risks only, cut in the page.** The owner: "Show only the injury risks, and a disclaimer with a
+sensible warning to go slow and watch out for the tap at the end of the article". U112 a chose the template over the reader:
+
+| Route | Deferred | Against 507,117 |
+|---|---:|---:|
+| a, the templates (chosen) | 507,063 B | 54 B under |
+| b, the reader, with a raise | 507,678 B | 561 B over |
+| c, the reader and mangle tier 4, with a raise | 507,256 B | 139 B over |
+
+The three Submission templates render the guide as the injury table and "Go slow. Apply this gradually, with a partner who knows
+it is coming, and let go the moment they tap, by hand, foot or voice." `regenerate:md` and `regenerate:hubs` moved 349 pages; the
+md-only Cross Collar Choke/Finish page has no source and was cut by hand, as v1.250.2's hand edit records (its role pages carry no
+guide). All 350 guides end with the line and none keeps a tap signal. Each hub loses a median of 974 visible characters net (342
+to 1,793; 9.7% of the article at the median, 24.0% at worst); 0 links lost. SEO: Achilles Lock falls under its floor (5,857 to
+4,971 against 5,128); Rear Naked Choke holds (6,794 against 6,754). The submission dossiers stop carrying speed, tap signals,
+release and restrictions, which nothing in the app read: -325,146 B raw, -124,319 B gzip over 287 chunks.
+
+**Bytes.** Deferred exactly 507,063 B: seven more reader-only names mangled (`sortColumns readingInteraction gameHomes`, and
+`renderSerial tileSizer pageArticle leadCells`, renamed from `serial tiles article lead` so the gate can scan them) and
+`sortColumns` back on `rect()`. Eager: checkpoint at dev b0142e40c's own level, 348,688 B (+4,900 since v1.247.1); #346's own
+growth is measured in the commit body.
+
+**Moved here from docs/Neural.md (a measured past state, verbatim):** "At v1.227.0, 285/290 concrete submissions have defender
+clips. Gaps: Americana, Armbar and Kimura from Triangle Control; Achilles Lock from Inside Ashi-Garami; Suloev Stretch from Half
+Guard. All five have authored defender blocks; no clips were added."
+
+**#346's own spec debt, and the two bugs it hid.** U104 shipped to its draft without its specs, so an A/B (#346's head against
+this tree, the same 11 files) found 36 tests red on both; none was a round-4 regression. Two were real:
+- *A pane slide jumped the reader's line 11.8 to 15.7px for a frame or two.* Traced pass by pass: the asking line is fitted to one
+  line by its ResizeObserver a frame after each width change, so every width-change pass measured a wrapped line 17px taller (card
+  26 to 43px, the Moves band 31.5 to 49.1px), the stage's lead flipped the columns (R19 to R137), and the next pass at the same
+  width flipped them back with no hold armed. `filmLayout` now sizes an asking card to its column and fits the line in the pass
+  that measures it. Before U104 the card's height never fed the columns, which is why dev never showed it.
+- *At 1,024 to 1,349px a closed question's reopen label sat under the article*, because the right cell started at the question's
+  old top line; both cells now start under the label.
+The rest restate the owner's rulings on the emitted boxes: each column carries on under its own stage cell at one gap; the
+index reads Moves, Questions, Videos; the film is the right column, the face and its 52px arrow lane; "ends above the film" (a
+proxy stricter than its claim) became "never shares a pixel with the film"; the 1366 placement gains "taking the question up moves
+the film nowhere" (1.02px against 461 to 494px before). The dormant-defender journey was a lottery (an unrigged answer draw that
+U104 can put below the scrollport: Triangle Choke 3 of 4 serial runs red); it wheels the answer up over the question, as a player.
+
+**Controls, all killed at their claims against green baselines:** app `film-suggest-unwired`, `film-suggest-node-lost`,
+`film-suggest-kind-lost`, `film-none-close-back`, `ask-fit-late`; reader `u110-cap-lost`, `u110-card-uncapped`,
+`u110-film-uncapped`, `u110-grid-uncapped` (at 600px: at 900 it fails a step earlier, the columns switching on),
+`u110-cap-past-columns`, `u104-label-under-article`, `u104-no-lead`, `u111-reader-cut-back`; and three hand mutants of the
+template side (a page, a template, a source). 230 reader rows replay. **Found, not fixed:** 23 of the 66 app controls' minified
+targets do not apply to dev b0142e40c's own bundle (18 to this one); none was moved by #346.
+
+**Gates on this build, before the capture.** Core journeys on a private port: 1,182 passed, then the ten U104 specs above and the
+six my run's working directory broke (paths relative to the root; 26 of 26 from the root). Generated suite: 100 of 101, then 101
+(the shared answer press). First-hand payload: core 368,427 B against its 365,296 B baseline, +3,131 of the 6,000 B cap. The
+census and the SEO baseline move only in the receipt-bound reseed after cobbler's guarded capture.
