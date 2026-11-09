@@ -240,6 +240,7 @@ const mutants = [
   ['pane-open-hold-lost', 'pane-layout.spec.ts', '768px the line holds while the pane is open, mid-article', s => replace(s, 'keep = this.gridW - (this.gridW = available ? free.width : NaN) && ', 'keep = this.gridW - (this.gridW = available ? free.width : NaN) && false && ')],
   ['pane-hold-rechosen-mount', 'pane-layout.spec.ts', '768px the pane overlays the article', s => replace(s, 'this.placeTop === this.heldAt && this.held?.offsetWidth', 'false')],
   ['pane-hold-height-lost', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, '(was = this.heldY, this.held)', '(was = this.held.getBoundingClientRect().top, this.held)')],
+  // RECORDED NON-KILL since v1.251.3: with heldAt the read-back, no journey separates root.scrollTop from placeTop. pane-layout.spec.ts says why.
   ['pane-hold-keyed-on-scroll', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.offsetWidth', 'root.scrollTop === this.heldAt && this.held?.offsetWidth')],
   ['pane-hold-survives-scroll', 'pane-layout.spec.ts', 'a scroll while the pane is open', s => replace(s, 'this.placeTop === this.heldAt && this.held?.offsetWidth', 'this.held?.offsetWidth')],
   ['d338-clamped-place-lost', 'pane-layout.spec.ts', 'exposed cards, videos and reading', s => replace(s, '      if (this.placeTop > root.scrollTop) root.scrollTop = this.placeTop;\n', '')],

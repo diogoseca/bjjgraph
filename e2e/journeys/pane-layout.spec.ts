@@ -11,7 +11,11 @@ import { journey, type Journey } from "../dsl"
  * line 131 red, because this journey's first landing is the directed arrival, which never flies and so never engages
  * the follow-cam's band lift. That claim is pinned at the source by tests/camera_motion.test.mjs ("in the reading
  * view the follow-cam engages no lift at rest"), which the same mutation turns red.
- * External video playback is not covered by the harness. */
+ * External video playback is not covered by the harness.
+ * RECORDED NON-KILL (v1.251.3): pane-hold-keyed-on-scroll (the hold keyed on root.scrollTop, not placeTop) survives since heldAt became
+ * the read-back (#348's review). At every clamp these journeys reach, the read-back is the clamped value, so root.scrollTop and heldAt
+ * agree. They part only if the end shrinks again after a held write while the listener keeps placeTop past it, and no journey here
+ * does that. Killed at the "the close lands on the place the open left" assertion before v1.251.3. */
 
 async function settle(page: Page, j: Journey) {
   await j.advance(100)
