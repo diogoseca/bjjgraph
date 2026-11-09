@@ -155,6 +155,37 @@ description: "Control twister side control from top position with systematic sub
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister Side Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the Open Guard to Twister Side Control",
+      "description": "Twister Side Control (Top) film study: Passing the Open Guard to Twister Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3RtGUiiDD1k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3RtGUiiDD1k",
+      "url": "https://www.youtube.com/watch?v=3RtGUiiDD1k",
+      "duration": "PT301S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Jiu-Jitsu Magazine #7 - Discovering the Twister: What is Twister Side Control",
+      "description": "Twister Side Control (Top) film study: Jiu-Jitsu Magazine #7 - Discovering the Twister: What is Twister Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W5ihpY3_rL0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W5ihpY3_rL0",
+      "url": "https://www.youtube.com/watch?v=W5ihpY3_rL0",
+      "duration": "PT374S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -175,6 +206,32 @@ The learning progression for Twister Side Control top is significant, with begin
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister Side Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3RtGUiiDD1k)
+
+<p class="clip-credit"><strong>Passing the Open Guard to Twister Side Control</strong> · 5:01 · <a href="https://www.youtube.com/watch?v=3RtGUiiDD1k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W5ihpY3_rL0)
+
+<p class="clip-credit"><strong>Jiu-Jitsu Magazine #7 - Discovering the Twister: What is Twister Side Control</strong> · 6:14 · <a href="https://www.youtube.com/watch?v=W5ihpY3_rL0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

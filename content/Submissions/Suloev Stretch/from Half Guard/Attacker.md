@@ -181,17 +181,6 @@ description: "Suloev Stretch from Rear Tripod (attacker): Control the torso from
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee Bars (Suloev Stretch)",
-      "description": "Suloev Stretch from Half Guard (Attacker) film study: Knee Bars (Suloev Stretch), taught by Josh Cisneros.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FrwS6dX2ydk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FrwS6dX2ydk",
-      "url": "https://www.youtube.com/watch?v=FrwS6dX2ydk",
-      "creator": { "@type": "Person", "name": "Josh Cisneros" },
-      "duration": "PT13S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "The Suloev Stretch submission for BJJ and MMA",
       "description": "Suloev Stretch from Half Guard (Attacker) film study: The Suloev Stretch submission for BJJ and MMA, taught by Sonny Brown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kwS4-kslujQ/hqdefault.jpg",
@@ -233,14 +222,6 @@ Use a cooperative entry and stop at the aligned capture. Never drop onto the str
 
 <p class="section-subtitle">Watch Suloev Stretch from Half Guard (Attacker) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FrwS6dX2ydk)
-
-<p class="clip-credit"><strong>Knee Bars (Suloev Stretch)</strong> — taught by Josh Cisneros · 0:13 · <a href="https://www.youtube.com/watch?v=FrwS6dX2ydk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

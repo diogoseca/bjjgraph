@@ -182,6 +182,27 @@ description: "Master heel hook defense escape execution from Honey Hole bottom. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook Defense Escape (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside Heel Hook Defense and Escape. Saddle, 50/50, and more.",
+      "description": "Heel Hook Defense Escape (Attacker) film study: Inside Heel Hook Defense and Escape. Saddle, 50/50, and more..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ufTGwJ4ZF74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ufTGwJ4ZF74",
+      "url": "https://www.youtube.com/watch?v=ufTGwJ4ZF74",
+      "duration": "PT944S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ As the person executing the Heel Hook Defense Escape, you are caught in the Hone
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook Defense Escape (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ufTGwJ4ZF74)
+
+<p class="clip-credit"><strong>Inside Heel Hook Defense and Escape. Saddle, 50/50, and more.</strong> · 15:44 · <a href="https://www.youtube.com/watch?v=ufTGwJ4ZF74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

@@ -384,7 +384,25 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "BbON-7b8iM4",
+        "title": "Using The Lapel to break grip and Pass Ringworm Guard",
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 289,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "bmdwBuNPNDU",
+        "title": "TOTD 9 16 2025 ALL LVLS RINGWORM GUARD PASSING",
+        "channel": "Molinaro Jiu-Jitsu",
+        "duration": 554,
+        "vertical": false,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "bottom": {
     "name": "Ringworm Guard Bottom",
@@ -750,7 +768,18 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "DFoCy86fsds",
+        "title": "How to Set Up the Ringworm Guard Gary Berger",
+        "channel": "Baltimore Martial Arts",
+        "duration": 422,
+        "vertical": false,
+        "start": 26,
+        "front": true,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "flashcards_position": [
     {

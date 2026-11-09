@@ -170,6 +170,37 @@ description: "The turtled player rolls across the shoulder and upper back, keeps
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Granby Roll to Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Granby Roll for BJJ!",
+      "description": "Granby Roll to Guard (Attacker) film study: Granby Roll for BJJ!.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oE-9VFLlIZM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oE-9VFLlIZM",
+      "url": "https://www.youtube.com/watch?v=oE-9VFLlIZM",
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Granby Roll Guard Retention",
+      "description": "Granby Roll to Guard (Attacker) film study: Granby Roll Guard Retention.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfT1aTfiYU0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfT1aTfiYU0",
+      "url": "https://www.youtube.com/watch?v=dfT1aTfiYU0",
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +219,32 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Granby Roll to Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oE-9VFLlIZM)
+
+<p class="clip-credit"><strong>Granby Roll for BJJ!</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=oE-9VFLlIZM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfT1aTfiYU0)
+
+<p class="clip-credit"><strong>Granby Roll Guard Retention</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=dfT1aTfiYU0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

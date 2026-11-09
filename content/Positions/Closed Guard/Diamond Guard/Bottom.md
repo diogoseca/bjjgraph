@@ -155,6 +155,27 @@ description: "Master Diamond Guard in BJJ. Closed guard variation using overhook
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Diamond Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Diamond Guard (setup + 2 attacks)",
+      "description": "Diamond Guard (Bottom) film study: Diamond Guard (setup + 2 attacks).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oqR6MLjUrd4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oqR6MLjUrd4",
+      "url": "https://www.youtube.com/watch?v=oqR6MLjUrd4",
+      "duration": "PT251S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -169,6 +190,24 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Diamond Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oqR6MLjUrd4)
+
+<p class="clip-credit"><strong>Diamond Guard (setup + 2 attacks)</strong> · 4:11 · <a href="https://www.youtube.com/watch?v=oqR6MLjUrd4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

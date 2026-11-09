@@ -496,7 +496,25 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "3RtGUiiDD1k",
+        "title": "Passing the Open Guard to Twister Side Control",
+        "channel": "Submissions101",
+        "duration": 301,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "W5ihpY3_rL0",
+        "title": "Jiu-Jitsu Magazine #7 - Discovering the Twister: What is Twister Side Control",
+        "channel": "JiuJitsuMag",
+        "duration": 374,
+        "vertical": false,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "bottom": {
     "name": "Twister Side Control Bottom",
@@ -868,7 +886,33 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "F1170I6qL7c",
+        "title": "No Gi BJJ - Twister Side Control Escape",
+        "channel": "10th Planet Colorado Springs",
+        "duration": 138,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "0-Ht2pQtWRs",
+        "title": "Twister Side Control Escape | Gi Class | Pearson Brazilian Jiu-Jitsu",
+        "channel": "Pearson Brazilian Jiu-Jitsu",
+        "duration": 228,
+        "vertical": false,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "hXp34AtDjac",
+        "title": "reverse scarfhold escape ( twister side control) (week 12)",
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 291,
+        "vertical": false,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "flashcards_position": [
     {

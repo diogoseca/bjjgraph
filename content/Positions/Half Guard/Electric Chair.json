@@ -777,7 +777,33 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "l7nTPVFdlF4",
+        "title": "Eddie Bravo Getting to Electric Chair",
+        "channel": "JiuJitsuMag",
+        "duration": 316,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "d3YDJ6HfXYQ",
+        "title": "ELECTRIC CHAIR FROM HALF GUARD",
+        "channel": "Full Metal Jiu Jitsu",
+        "duration": 354,
+        "vertical": false,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "XaWqoltL7_E",
+        "title": "SILLA ELÉCTRICA - Escuela de Grappling - BJJ #Escueladegrappling #BJJenEspañol…",
+        "channel": "Escuela de Grappling - Certified Killers",
+        "duration": 349,
+        "vertical": false,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "flashcards_position": [
     {

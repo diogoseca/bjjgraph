@@ -170,6 +170,27 @@ description: "How to execute Armbar from North-South in BJJ. Attacking perspecti
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from North-South (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "North south Armbar setup.",
+      "description": "Armbar from North-South (Attacker) film study: North south Armbar setup..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ajwkkwl2dzY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ajwkkwl2dzY",
+      "url": "https://www.youtube.com/watch?v=Ajwkkwl2dzY",
+      "duration": "PT39S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -184,6 +205,24 @@ Mechanically, you anchor the wrist with a pistol grip, underhook the elbow to yo
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from North-South (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ajwkkwl2dzY)
+
+<p class="clip-credit"><strong>North south Armbar setup.</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=Ajwkkwl2dzY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

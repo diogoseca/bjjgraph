@@ -149,6 +149,47 @@ description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guid
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Electric Chair (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Eddie Bravo Getting to Electric Chair",
+      "description": "Electric Chair (Bottom) film study: Eddie Bravo Getting to Electric Chair.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l7nTPVFdlF4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l7nTPVFdlF4",
+      "url": "https://www.youtube.com/watch?v=l7nTPVFdlF4",
+      "duration": "PT316S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "ELECTRIC CHAIR FROM HALF GUARD",
+      "description": "Electric Chair (Bottom) film study: ELECTRIC CHAIR FROM HALF GUARD.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d3YDJ6HfXYQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d3YDJ6HfXYQ",
+      "url": "https://www.youtube.com/watch?v=d3YDJ6HfXYQ",
+      "duration": "PT354S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "SILLA EL\u00c9CTRICA - Escuela de Grappling - BJJ #Escueladegrappling #BJJenEspa\u00f1ol\u2026",
+      "description": "Electric Chair (Bottom) film study: SILLA EL\u00c9CTRICA - Escuela de Grappling - BJJ #Escueladegrappling #BJJenEspa\u00f1ol\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XaWqoltL7_E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XaWqoltL7_E",
+      "url": "https://www.youtube.com/watch?v=XaWqoltL7_E",
+      "duration": "PT349S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -163,6 +204,40 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Electric Chair (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l7nTPVFdlF4)
+
+<p class="clip-credit"><strong>Eddie Bravo Getting to Electric Chair</strong> · 5:16 · <a href="https://www.youtube.com/watch?v=l7nTPVFdlF4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d3YDJ6HfXYQ)
+
+<p class="clip-credit"><strong>ELECTRIC CHAIR FROM HALF GUARD</strong> · 5:54 · <a href="https://www.youtube.com/watch?v=d3YDJ6HfXYQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XaWqoltL7_E)
+
+<p class="clip-credit"><strong>SILLA ELÉCTRICA - Escuela de Grappling - BJJ #Escueladegrappling #BJJenEspañol…</strong> · 5:49 · <a href="https://www.youtube.com/watch?v=XaWqoltL7_E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

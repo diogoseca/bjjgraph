@@ -46,24 +46,42 @@ description: "The X Pass is a standing guard pass that controls the upper body a
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing open guard",
-      "description": "X Pass film study: Passing open guard, taught by Andre Galvao.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/u6d8_QqbqGM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/u6d8_QqbqGM",
-      "url": "https://www.youtube.com/watch?v=u6d8_QqbqGM",
-      "creator": { "@type": "Person", "name": "Andre Galvao" },
-      "duration": "PT755S"
+      "name": "X Pass for BJJ (2019)",
+      "description": "X Pass film study: X Pass for BJJ (2019).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KaQAG_wuvNo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KaQAG_wuvNo",
+      "url": "https://www.youtube.com/watch?v=KaQAG_wuvNo",
+      "duration": "PT156S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Modified toreando guard pass",
-      "description": "X Pass film study: Modified toreando guard pass, taught by Andre Galvao.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/S65D0wxPZ7c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/S65D0wxPZ7c",
-      "url": "https://www.youtube.com/watch?v=S65D0wxPZ7c",
-      "creator": { "@type": "Person", "name": "Andre Galvao" },
-      "duration": "PT752S"
+      "name": "Saulo Ribeiro Brazilian Jiu-Jitsu Revolution Series 2 - The X-Pass",
+      "description": "X Pass film study: Saulo Ribeiro Brazilian Jiu-Jitsu Revolution Series 2 - The X-Pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6Zk6D6IHswM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6Zk6D6IHswM",
+      "url": "https://www.youtube.com/watch?v=6Zk6D6IHswM",
+      "duration": "PT444S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "X Pass Basics and Control Principles",
+      "description": "X Pass film study: X Pass Basics and Control Principles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8huFMFJPsZM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8huFMFJPsZM?start=105",
+      "url": "https://www.youtube.com/watch?v=8huFMFJPsZM",
+      "duration": "PT543S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "X Pass - BJJ DRILLS",
+      "description": "X Pass film study: X Pass - BJJ DRILLS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CJF-Go8RO9Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CJF-Go8RO9Y",
+      "url": "https://www.youtube.com/watch?v=CJF-Go8RO9Y",
+      "duration": "PT73S"
     }
   ]
 }
@@ -119,17 +137,33 @@ Instructional sources: [Stephan Kesting — X-pass / kick-pass drill](https://ww
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=u6d8_QqbqGM)
+![](https://www.youtube.com/watch?v=KaQAG_wuvNo)
 
-<p class="clip-credit"><strong>Passing open guard</strong> — taught by Andre Galvao · 12:35 · <a href="https://www.youtube.com/watch?v=u6d8_QqbqGM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>X Pass for BJJ (2019)</strong> · 2:36 · <a href="https://www.youtube.com/watch?v=KaQAG_wuvNo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=S65D0wxPZ7c)
+![](https://www.youtube.com/watch?v=6Zk6D6IHswM)
 
-<p class="clip-credit"><strong>Modified toreando guard pass</strong> — taught by Andre Galvao · 12:32 · <a href="https://www.youtube.com/watch?v=S65D0wxPZ7c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Saulo Ribeiro Brazilian Jiu-Jitsu Revolution Series 2 - The X-Pass</strong> · 7:24 · <a href="https://www.youtube.com/watch?v=6Zk6D6IHswM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8huFMFJPsZM&start=105)
+
+<p class="clip-credit"><strong>X Pass Basics and Control Principles</strong> · 9:03 · <a href="https://www.youtube.com/watch?v=8huFMFJPsZM&t=105s" rel="noopener">Watch on YouTube from 1:45</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CJF-Go8RO9Y)
+
+<p class="clip-credit"><strong>X Pass - BJJ DRILLS</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=CJF-Go8RO9Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

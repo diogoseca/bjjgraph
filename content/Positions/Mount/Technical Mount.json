@@ -915,7 +915,25 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "2pUpL1zdrsc",
+        "title": "Technical Mount Escapes",
+        "channel": "Knight Jiu-Jitsu",
+        "duration": 272,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "YjWi3ijM-QA",
+        "title": "TECHNICAL MOUNT - 4 SIMPLE ESCAPES with Professor Alan Merullo",
+        "channel": "BJJ Joe",
+        "duration": 662,
+        "vertical": false,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "flashcards_position": [
     {

@@ -46,12 +46,12 @@ description: "Master the heel hook defense escape from Honey Hole in BJJ. Comple
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Finish the Heel Hook Even When Your Opponent Is Trying to Escape",
-      "description": "Heel Hook Defense Escape film study: How to Finish the Heel Hook Even When Your Opponent Is Trying to Escape.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NqcH5OvYXCg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NqcH5OvYXCg",
-      "url": "https://www.youtube.com/watch?v=NqcH5OvYXCg",
-      "duration": "PT1063S"
+      "name": "Inside Heel Hook Defense and Escape. Saddle, 50/50, and more.",
+      "description": "Heel Hook Defense Escape film study: Inside Heel Hook Defense and Escape. Saddle, 50/50, and more..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ufTGwJ4ZF74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ufTGwJ4ZF74",
+      "url": "https://www.youtube.com/watch?v=ufTGwJ4ZF74",
+      "duration": "PT944S"
     }
   ]
 }
@@ -105,9 +105,9 @@ Strategically, this escape ranks among the highest-priority defensive skills for
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=NqcH5OvYXCg)
+![](https://www.youtube.com/watch?v=ufTGwJ4ZF74)
 
-<p class="clip-credit"><strong>How to Finish the Heel Hook Even When Your Opponent Is Trying to Escape</strong> · 17:43 · <a href="https://www.youtube.com/watch?v=NqcH5OvYXCg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inside Heel Hook Defense and Escape. Saddle, 50/50, and more.</strong> · 15:44 · <a href="https://www.youtube.com/watch?v=ufTGwJ4ZF74" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

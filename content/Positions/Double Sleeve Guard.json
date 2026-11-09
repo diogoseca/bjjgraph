@@ -968,7 +968,25 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "luF9qQnFU3A",
+        "title": "Double Sleeve Guard System - Setting up Double Sleeve Guard from Standing…",
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 200,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "pOlPzquFhS0",
+        "title": "Double sleeve guard basics for new open guard players",
+        "channel": "Alec Baulding",
+        "duration": 283,
+        "vertical": false,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "flashcards_position": [
     {

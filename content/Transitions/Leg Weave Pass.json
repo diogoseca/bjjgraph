@@ -347,21 +347,22 @@
     "safety_considerations": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
     "clips": [
       {
-        "id": "kQrTYXOO1To",
-        "title": "Leg pummeling into the weave pass",
-        "by": "Michael Wong",
-        "vertical": false,
-        "channel": "Michael Wong",
-        "duration": 22,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "4LIBFmas-oE",
         "title": "Leg weave pass against the knee shield",
         "by": "BJJ4Breakfast coach",
         "vertical": false,
         "channel": "BJJ4Breakfast",
         "duration": 153,
+        "front": true,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kQrTYXOO1To",
+        "title": "Leg pummeling into the weave pass",
+        "by": "Michael Wong",
+        "vertical": false,
+        "channel": "Michael Wong",
+        "duration": 22,
         "verified": "2026-07-15"
       }
     ]

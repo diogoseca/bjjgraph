@@ -155,6 +155,37 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Sleeve Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double Sleeve Guard System - Setting up Double Sleeve Guard from Standing\u2026",
+      "description": "Double Sleeve Guard (Bottom) film study: Double Sleeve Guard System - Setting up Double Sleeve Guard from Standing\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/luF9qQnFU3A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/luF9qQnFU3A",
+      "url": "https://www.youtube.com/watch?v=luF9qQnFU3A",
+      "duration": "PT200S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double sleeve guard basics for new open guard players",
+      "description": "Double Sleeve Guard (Bottom) film study: Double sleeve guard basics for new open guard players.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pOlPzquFhS0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pOlPzquFhS0",
+      "url": "https://www.youtube.com/watch?v=pOlPzquFhS0",
+      "duration": "PT283S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -165,6 +196,32 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Sleeve Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=luF9qQnFU3A)
+
+<p class="clip-credit"><strong>Double Sleeve Guard System - Setting up Double Sleeve Guard from Standing…</strong> · 3:20 · <a href="https://www.youtube.com/watch?v=luF9qQnFU3A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pOlPzquFhS0)
+
+<p class="clip-credit"><strong>Double sleeve guard basics for new open guard players</strong> · 4:43 · <a href="https://www.youtube.com/watch?v=pOlPzquFhS0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="state-invariants" class="content-section">

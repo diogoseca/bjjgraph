@@ -176,6 +176,27 @@ description: "Learn to defend Vaporizer sweeps from top position. Step-by-step g
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Defend Vaporizer Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Nullify the Vaporizer - Houston BJJ Team Caique",
+      "description": "Defend Vaporizer Sweep (Attacker) film study: Nullify the Vaporizer - Houston BJJ Team Caique.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0urKvFXZ4FU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0urKvFXZ4FU",
+      "url": "https://www.youtube.com/watch?v=0urKvFXZ4FU",
+      "duration": "PT724S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The Defend Vaporizer Sweep attacker is the top player caught in the Vaporizer po
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Defend Vaporizer Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0urKvFXZ4FU)
+
+<p class="clip-credit"><strong>Nullify the Vaporizer - Houston BJJ Team Caique</strong> · 12:04 · <a href="https://www.youtube.com/watch?v=0urKvFXZ4FU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

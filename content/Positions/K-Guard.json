@@ -921,7 +921,25 @@
         }
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "sixNuvnjL6s",
+        "title": "K Guard Options",
+        "channel": "South Boston BJJ",
+        "duration": 876,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-09"
+      },
+      {
+        "id": "5b7391EWCPs",
+        "title": "K-Guard For Complete Beginners | Great Open Guard For BJJ",
+        "channel": "DVG JIU JITSU",
+        "duration": 1203,
+        "vertical": false,
+        "verified": "2026-11-09"
+      }
+    ]
   },
   "flashcards_position": [
     {

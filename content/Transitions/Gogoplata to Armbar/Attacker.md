@@ -176,6 +176,27 @@ description: "Execute the gogoplata to armbar chain attack from bottom position.
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gogoplata to Armbar (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "39. Your Gogoplata Failed? Perfect. Here\u0027s The Armbar #bjj #jiujitsu\u2026",
+      "description": "Gogoplata to Armbar (Attacker) film study: 39. Your Gogoplata Failed? Perfect. Here\u0027s The Armbar #bjj #jiujitsu\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LCmJe22yPMM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LCmJe22yPMM",
+      "url": "https://www.youtube.com/watch?v=LCmJe22yPMM",
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The gogoplata to armbar transition exploits a fundamental defensive dilemma. Whe
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gogoplata to Armbar (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LCmJe22yPMM)
+
+<p class="clip-credit"><strong>39. Your Gogoplata Failed? Perfect. Here&#39;s The Armbar #bjj #jiujitsu…</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=LCmJe22yPMM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

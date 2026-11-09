@@ -46,6 +46,26 @@ description: "Learn Standing to Single Leg X transition in BJJ. Step-by-step ent
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Class 3-Standing entry to SLX",
+      "description": "Standing to Single Leg X film study: Class 3-Standing entry to SLX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DP6n6HlrCqM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DP6n6HlrCqM",
+      "url": "https://www.youtube.com/watch?v=DP6n6HlrCqM",
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard Pull to Single Leg X | Gi Class | Pearson Brazilian Jiu-Jitsu",
+      "description": "Standing to Single Leg X film study: Guard Pull to Single Leg X | Gi Class | Pearson Brazilian Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Vw9ZvK_Lp3c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Vw9ZvK_Lp3c",
+      "url": "https://www.youtube.com/watch?v=Vw9ZvK_Lp3c",
+      "duration": "PT125S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "No gi guard pull to single leg X.",
       "description": "Standing to Single Leg X film study: No gi guard pull to single leg X..",
       "thumbnailUrl": "https://i.ytimg.com/vi/xyy5xm72UJ8/hqdefault.jpg",
@@ -98,6 +118,22 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 <p class="section-subtitle">Watch Standing to Single Leg X in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DP6n6HlrCqM)
+
+<p class="clip-credit"><strong>Class 3-Standing entry to SLX</strong> · 1:46 · <a href="https://www.youtube.com/watch?v=DP6n6HlrCqM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Vw9ZvK_Lp3c)
+
+<p class="clip-credit"><strong>Guard Pull to Single Leg X | Gi Class | Pearson Brazilian Jiu-Jitsu</strong> · 2:05 · <a href="https://www.youtube.com/watch?v=Vw9ZvK_Lp3c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

@@ -46,12 +46,22 @@ description: "Master Gift Wrap Transition from High Mount in BJJ. Arm isolation 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping the Gift Wrap in jiu jitsu",
-      "description": "Gift Wrap Transition film study: Escaping the Gift Wrap in jiu jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OMzki0Uu7vA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OMzki0Uu7vA",
-      "url": "https://www.youtube.com/watch?v=OMzki0Uu7vA",
-      "duration": "PT47S"
+      "name": "Setting up the Gift Wrap from Mount",
+      "description": "Gift Wrap Transition film study: Setting up the Gift Wrap from Mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/26xN6gftepQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/26xN6gftepQ",
+      "url": "https://www.youtube.com/watch?v=26xN6gftepQ",
+      "duration": "PT99S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Secure a Gift Wrap from Mount to Attack a Head and Arm Strangle or Take\u2026",
+      "description": "Gift Wrap Transition film study: How to Secure a Gift Wrap from Mount to Attack a Head and Arm Strangle or Take\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dd6AiFrhQ7g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dd6AiFrhQ7g",
+      "url": "https://www.youtube.com/watch?v=Dd6AiFrhQ7g",
+      "duration": "PT137S"
     }
   ]
 }
@@ -105,9 +115,17 @@ The transition rewards patience and methodical execution. Rushing the arm isolat
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=OMzki0Uu7vA)
+![](https://www.youtube.com/watch?v=26xN6gftepQ)
 
-<p class="clip-credit"><strong>Escaping the Gift Wrap in jiu jitsu</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=OMzki0Uu7vA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Setting up the Gift Wrap from Mount</strong> · 1:39 · <a href="https://www.youtube.com/watch?v=26xN6gftepQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dd6AiFrhQ7g)
+
+<p class="clip-credit"><strong>How to Secure a Gift Wrap from Mount to Attack a Head and Arm Strangle or Take…</strong> · 2:17 · <a href="https://www.youtube.com/watch?v=Dd6AiFrhQ7g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

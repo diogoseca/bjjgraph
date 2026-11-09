@@ -46,12 +46,12 @@ description: "Master underhook recovery from flattened half guard in BJJ. Comple
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Stop the half guard underhook with this simple Jiu Jitsu tip!",
-      "description": "Underhook Recovery from Flattened film study: Stop the half guard underhook with this simple Jiu Jitsu tip!.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
-      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
-      "duration": "PT97S"
+      "name": "Recovering Underhook in Half Guard - Nate Kleinfeld",
+      "description": "Underhook Recovery from Flattened film study: Recovering Underhook in Half Guard - Nate Kleinfeld.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Hq7lPJmjXvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Hq7lPJmjXvU",
+      "url": "https://www.youtube.com/watch?v=Hq7lPJmjXvU",
+      "duration": "PT131S"
     }
   ]
 }
@@ -105,9 +105,9 @@ From a strategic perspective, the underhook recovery sits at the intersection of
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+![](https://www.youtube.com/watch?v=Hq7lPJmjXvU)
 
-<p class="clip-credit"><strong>Stop the half guard underhook with this simple Jiu Jitsu tip!</strong> · 1:37 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Recovering Underhook in Half Guard - Nate Kleinfeld</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=Hq7lPJmjXvU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
