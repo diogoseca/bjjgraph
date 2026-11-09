@@ -12717,7 +12717,9 @@ class Component extends DCLogic {
     if (op) {
       // Owner (2026-11-01): beside the article the row and the grid share both edges, so the first card sits on the
       // grid's left edge and the reader lifts the inset (`trayFlush`, reader.src.js).
-      const inset = this._reader?.trayFlush ? 0 : NG_TRAY_INSET;
+      const flush = !!this._reader?.trayFlush, inset = flush ? 0 : NG_TRAY_INSET;
+      // U110 a: from 600 to 640px a flush row is still a phone's, and the phone stylesheet's 12px sides would move it off the column.
+      op.toggleAttribute("data-flush", flush);
       op.style.paddingLeft = (inset + this._paneLayout().left).toFixed(1) + "px";
       op.style.paddingRight = inset + "px";
       this._syncEdgeFade(op);

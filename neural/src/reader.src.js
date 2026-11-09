@@ -1292,7 +1292,9 @@ class Reader {
       const cardHeight = showCard ? rect(card).height : 0, handHeight = showHand ? rect(row).height : 0;
       const handoff = a._executionDock()?.reader;
       let cardX = Math.max(a.isMobile() ? 10 : 16, free.center - cardWidth / 2), cardY, gameHeight;
-      const flush = this.trayFlush = available && W > 640;
+      // U110 a: the Moves row shares the column's edges wherever the stacked box binds, from 600px free (the cap and the card's
+      // 104px arrow lane), so on a phone-sized screen from 600 to 640px too. Under 600px a phone keeps its full-width tray.
+      const flush = this.trayFlush = available && (W > 640 || free.width >= 600);
       if (available) {
         // D-338 (owner): Video, Moves, Questions, then the article, under the node band.
         // No header names a part; a closed one keeps its place as its label. An escape's

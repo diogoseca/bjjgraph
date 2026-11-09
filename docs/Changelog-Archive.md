@@ -14693,6 +14693,16 @@ U104 can put below the scrollport: Triangle Choke 3 of 4 serial runs red); it wh
 template side (a page, a template, a source). 230 reader rows replay. **Found, not fixed:** 23 of the 66 app controls' minified
 targets do not apply to dev b0142e40c's own bundle (18 to this one); none was moved by #346.
 
+**Cobbler's two checks.** *The Moves row at 600 to 640px:* the app is in its phone mode there, so the row stayed full-width with
+the phone stylesheet's 12px sides while the card and the grid shared 52 to 548px. The row now takes the column wherever the stacked
+box binds (600px free: the 496px cap and the card's 104px arrow lane), and the phone rule leaves a flush row's sides to its inline
+inset; under 600px a phone keeps its full-width tray, where the card (free - 104) and the grid (free - 64) are not one column to
+align to. Measured at 528, 560, 600, 640, 641, 700, 768, 900, 1,000 and 1,023px. *The Safety tile's gap* (about 60px between
+"Injury Risks:" and the table's header): the paragraph's 20px bottom margin, then Quartz's `.table-container > table` padding of
+1.5rem (24px), which the reader keeps while zeroing that table's margin, then the header cell's own padding. It predates #346:
+`reading.css` and `source/quartz/styles` are byte-identical to dev, and the guide's markup is unchanged. Not changed here: it is
+every reader table's padding, not the guide's.
+
 **Gates on this build, before the capture.** Core journeys on a private port: 1,182 passed, then the ten U104 specs above and the
 six my run's working directory broke (paths relative to the root; 26 of 26 from the root). Generated suite: 100 of 101, then 101
 (the shared answer press). First-hand payload: core 368,427 B against its 365,296 B baseline, +3,131 of the 6,000 B cap. The
