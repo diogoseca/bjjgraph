@@ -186,7 +186,7 @@ Strategically, this submission sits at the intersection of two high-control syst
 - Keep your choking-side elbow tight against the opponent's neck throughout the extension to prevent the collar from sliding to a less effective position
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -260,7 +260,7 @@ Strategically, this submission sits at the intersection of two high-control syst
 - Both of the attacker's hands release previous grips simultaneously, indicating they are confident in the triangle control and transitioning to the bow and arrow setup
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -303,9 +303,8 @@ Strategically, this submission sits at the intersection of two high-control syst
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -315,32 +314,9 @@ Strategically, this submission sits at the intersection of two high-control syst
 | Knee or hip stress from forced leg extension against resistance | Low | 2-5 days for minor discomfort |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on body or mat
-- Physical foot tap on mat
-- Any audible distress signal
-- Loss of resistance (immediate release required)
 
 
-**Release Protocol**:
-1. Immediately release collar grip upon tap signal
-2. Release leg extension and triangle lock simultaneously
-3. Allow opponent's head to return to neutral position
-4. Check for consciousness and responsiveness
-5. If opponent was unconscious, elevate legs and monitor until full recovery
-
-
-**Training Restrictions**:
-- Never spike or jerk the choke - apply smooth progressive pressure only
-- Never use competition-speed extension in training rolls
-- Always maintain communication with training partner throughout the submission
-- Never continue pressure after any tap signal is given
-- Beginners must drill position control and grip placement before attempting the finish
-- Always allow partner clear access to tap with hands or voice
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -287,7 +287,7 @@ Executing the Outside Heel Hook from Backside 50-50 requires systematic control 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Outside Heel Hook/from Backside 50-50#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Outside Heel Hook/from Backside 50-50#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

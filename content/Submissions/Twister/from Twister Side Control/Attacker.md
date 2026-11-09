@@ -263,7 +263,7 @@ Attacking with the Twister from Twister Side Control requires methodical control
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Twister/from Twister Side Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Twister/from Twister Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

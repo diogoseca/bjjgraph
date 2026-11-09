@@ -255,7 +255,7 @@ Defending the North-South Choke from Kuzure Kesa Gatame demands early recognitio
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/North-South Choke/from Kuzure Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/North-South Choke/from Kuzure Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

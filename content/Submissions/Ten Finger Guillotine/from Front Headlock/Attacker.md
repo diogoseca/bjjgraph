@@ -263,7 +263,7 @@ Attacking with the Ten Finger Guillotine from Front Headlock requires converting
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Ten Finger Guillotine/from Front Headlock#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Ten Finger Guillotine/from Front Headlock#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -223,7 +223,7 @@ This submission represents a high-percentage finishing option within the leg dra
 - Angle your body perpendicular to the opponent's spine for maximum bilateral carotid compression
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -297,7 +297,7 @@ This submission represents a high-percentage finishing option within the leg dra
 - Opponent's free hand reaches toward their own bicep area, indicating they are about to lock the figure-four grip
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -364,9 +364,8 @@ This submission represents a high-percentage finishing option within the leg dra
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -376,31 +375,9 @@ This submission represents a high-percentage finishing option within the leg dra
 | Shoulder strain on the trapped arm from forced internal rotation under pressure | Medium | 1-3 weeks with rest and rehabilitation |
 
 
-**Application Speed**: MODERATE. Blood chokes take effect within 4-8 seconds once fully locked. Apply finishing pressure progressively and be prepared for opponent to lose consciousness without tapping. Never jerk or spike the choke.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat or partner with either leg
-- Any unusual vocalization, gurgling, or distress sound
-- Body going limp or cessation of defensive movement (indicates unconsciousness - release immediately)
 
 
-**Release Protocol**:
-1. Release all choking pressure immediately upon any tap signal
-2. Release immediately if opponent goes limp or loses consciousness - do not wait for verbal confirmation
-3. Place unconscious opponent in recovery position on their side
-4. If in doubt about whether opponent tapped, release immediately - the position can be re-established
-5. Monitor recovered opponent for confusion, dizziness, or delayed symptoms after release
-
-
-**Training Restrictions**:
-- Apply finishing pressure gradually and progressively - never explosively crank the choke
-- Beginners should practice grip mechanics and positioning without applying finishing pressure until comfortable with the release protocol
-- Do not train this technique when fatigued to the point of impaired reaction time for release
-- Partners should establish clear tap signals before drilling, especially in no-gi where sound may be muffled
-- Stop immediately if opponent shows any signs of distress beyond normal discomfort
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

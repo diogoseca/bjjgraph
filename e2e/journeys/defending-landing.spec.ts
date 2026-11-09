@@ -234,8 +234,11 @@ test('@curated the curated empty transition defender mounts no reel on the first
       completedRefreshes: (window as any).__neural.__emptyHalfRefreshes,
     }), dossierKey), 'the authored dossier is published and its film refresh completed').toEqual({ published: true, completedRefreshes: 1 })
     await expect.poll(async () => (await state(page)).clips).toEqual([])
-    await expect(page.locator('.ng-landfilm')).toHaveCount(0)
+    // U104, U109 b (owner, 2026-11-06 and 2026-11-09, reversing D-307's "no placeholder"): "When it's not available, it should say
+    // it's not available." Still no reel and no clip; the card says there is no video of this move yet and asks for one.
+    await expect(page.locator('.ng-landfilm .ng-cliprow')).toHaveCount(0)
     await expect(page.locator('.ng-landfilm .ng-clip')).toHaveCount(0)
+    await expect(page.locator('.ng-landfilm .ng-film-none [data-film-suggest]')).toBeVisible()
     expect(await state(page)).toMatchObject({ pressure: false, vignette: false, cards: 4, key: 'Kuzure Kesa Gatame to Kesa Gatame|Defender' })
   } finally { release() }
 })
@@ -269,7 +272,10 @@ for (const [pick, at] of Object.entries(gapPicks)) {
     await j.boot(gaps[at(gaps.length)].route, { beforeNavigate: realContent })
     await expect(page.locator(READY)).toBeVisible()
     await expect(page.locator('[data-land-q]')).toBeVisible()
-    await expect(page.locator('.ng-landfilm')).toHaveCount(0)
+    // U104, U109 b: no reel and no clip, and the card asks for a video instead of standing empty.
+    await expect(page.locator('.ng-landfilm .ng-cliprow')).toHaveCount(0)
+    await expect(page.locator('.ng-landfilm .ng-clip')).toHaveCount(0)
+    await expect(page.locator('.ng-landfilm .ng-film-none [data-film-suggest]')).toBeVisible()
   })
 }
 

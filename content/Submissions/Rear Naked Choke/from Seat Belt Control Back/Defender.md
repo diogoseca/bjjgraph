@@ -292,7 +292,7 @@ Defending the Rear Naked Choke from Seat Belt Control Back requires immediate re
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Rear Naked Choke/from Seat Belt Control Back#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Rear Naked Choke/from Seat Belt Control Back#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -282,7 +282,7 @@ Attacking with the Estima Lock from Saddle requires precise transition from heel
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Estima Lock/from Saddle#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Estima Lock/from Saddle#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

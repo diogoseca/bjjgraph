@@ -263,7 +263,7 @@ The Arm Triangle from Twister Side Control attacks the carotid arteries using th
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Arm Triangle/from Twister Side Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Arm Triangle/from Twister Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

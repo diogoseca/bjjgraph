@@ -292,7 +292,11 @@ for (const width of [1440, 1024]) {
     await expect(card, "the question remains visible beside the pane").toBeVisible()
     const open = await card.boundingBox()
     expect(open!.x, "the card moves toward the available space").toBeGreaterThan(before!.x + 80)
-    expect(open!.width, "opening the pane keeps the readable card width").toBeCloseTo(before!.width, 0)
+    // U104, U110 a (owner, 2026-11-09): the card is no longer one fixed width. In columns it is its column's face, so the pane narrows
+    // it with the grid, and under 1,024px free it joins the one stacked box, at most 496px. Readable is the claim: never under a
+    // phone's 286px face, and never past the stacked cap.
+    expect(open!.width, "opening the pane keeps a readable card").toBeGreaterThanOrEqual(286)
+    expect(open!.width, "opening the pane keeps a readable card, within the stacked cap").toBeLessThanOrEqual(Math.max(before!.width, 496))
     expect(open!.x + open!.width, "the card stays on screen").toBeLessThanOrEqual(width)
     const next = await page.locator("[data-land-next]").boundingBox()
     expect(next!.x + next!.width, "the navigation gutter stays on screen too").toBeLessThanOrEqual(width + 1)

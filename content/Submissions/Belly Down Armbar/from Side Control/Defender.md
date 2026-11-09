@@ -240,7 +240,7 @@ Defending the belly down armbar from side control requires recognizing the attac
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Belly Down Armbar/from Side Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Belly Down Armbar/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

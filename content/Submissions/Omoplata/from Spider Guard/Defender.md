@@ -229,7 +229,7 @@ Defending the Omoplata from Spider Guard requires understanding both early preve
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Omoplata/from Spider Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Omoplata/from Spider Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

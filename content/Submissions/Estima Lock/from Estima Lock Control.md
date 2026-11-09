@@ -168,7 +168,7 @@ This position-specific finish demands particular attention to safety due to the 
 - Keep your own base stable by distributing weight through your hips rather than leaning forward over the trapped foot
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ This position-specific finish demands particular attention to safety due to the 
 - Opponent begins controlling or pinning your free leg, indicating they are preparing to initiate the finishing sequence without defensive interference
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -295,9 +295,8 @@ This position-specific finish demands particular attention to safety due to the 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -307,33 +306,9 @@ This position-specific finish demands particular attention to safety due to the 
 | Metatarsal stress or fracture (with extreme force) | CRITICAL | 6-12 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial pressure to maximum force. Allow partner multiple tap opportunities.
-
-**Tap Signals**:
-- Verbal tap (shout 'TAP' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap with free leg
-- Any distress signal or unusual sounds
-- Loss of resistance (unconsciousness risk)
 
 
-**Release Protocol**:
-1. Immediately release hand grip on foot
-2. Remove attacking leg from behind opponent's knee
-3. Allow opponent's foot to return to neutral position naturally
-4. Maintain visual contact to ensure partner is okay
-5. Never jerk or spike the release - controlled withdrawal only
-
-
-**Training Restrictions**:
-- Never apply at competition speed during training
-- Never apply to beginners or those unfamiliar with leg locks
-- Always ensure partner knows the tap signals before drilling
-- Never apply with sudden jerking motions
-- Always allow clear tap access with hands
-- Stop immediately if partner's foot makes unusual sounds
-- Communicate throughout application in drilling
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

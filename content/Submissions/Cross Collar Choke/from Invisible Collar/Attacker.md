@@ -301,7 +301,7 @@ The collar must be used as a controlled choking surface, never to grind the face
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Cross Collar Choke/from Invisible Collar#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Cross Collar Choke/from Invisible Collar#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

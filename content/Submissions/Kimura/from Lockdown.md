@@ -168,7 +168,7 @@ This technique fits naturally into the lockdown attacking system as a complement
 - Attack the Kimura when sweep defenses expose the arm - treat it as a chain from sweep threats rather than an isolated attack
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ This technique fits naturally into the lockdown attacking system as a complement
 - You feel your arm being pulled across your centerline toward the opponent's hip while your leg remains trapped in lockdown
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -284,9 +284,8 @@ This technique fits naturally into the lockdown attacking system as a complement
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -296,31 +295,9 @@ This technique fits naturally into the lockdown attacking system as a complement
 | Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position by externally rotating back to starting position
-3. Release the figure-four grip completely before releasing lockdown
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine lockdown extension with maximum Kimura rotation simultaneously at full force
-- Respect immediate taps without testing partner's pain tolerance
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

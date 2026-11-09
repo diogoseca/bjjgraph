@@ -303,7 +303,7 @@ For a separately established top-side finish, chest pressure helps keep the trap
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Arm Triangle/from Hindulotine#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Arm Triangle/from Hindulotine#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

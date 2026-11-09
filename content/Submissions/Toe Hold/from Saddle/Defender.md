@@ -230,7 +230,7 @@ Defending the toe hold from saddle demands immediate recognition of the grip cha
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Toe Hold/from Saddle#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Toe Hold/from Saddle#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

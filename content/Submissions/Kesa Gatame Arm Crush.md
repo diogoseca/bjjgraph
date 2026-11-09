@@ -193,9 +193,8 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -204,26 +203,9 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 | Rib bruising or intercostal strain on the defender from sustained kesa gatame pressure combined with arm crush mechanics | Medium | 2-4 weeks for bruising; intercostal strains may take 4-8 weeks |
 
 
-**Application Speed**: SLOW and progressive. Apply pressure gradually through hip drive, never jerk or spike the elbow. The compression should build steadily over 2-3 seconds, giving the opponent adequate time to recognize the danger and tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner or mat with free hand
-- Physical foot tap on mat with either leg
-- Any unusual vocalization, screaming, or distress sound indicating pain
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal by relaxing hip pressure and releasing wrist control
-2. If opponent cannot verbally or physically tap due to arm position, watch for grimacing, body stiffening, or any sign of distress and release immediately
-3. After release, gradually decompress the arm rather than dropping it suddenly to prevent secondary strain injury
-
-
-**Training Restrictions**:
-- Begin with slow, controlled application at 50% intensity until both partners understand the tap timing and fulcrum mechanics
-- Avoid explosive hip drives into the arm crush - always apply pressure gradually to allow partner adequate time to recognize and signal the tap
-- White and blue belts should practice the positioning and grip mechanics without applying finishing pressure until the setup is consistent
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

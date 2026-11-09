@@ -236,7 +236,7 @@ Defending the Mounted Crucifix Armbar presents unique challenges because your no
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -300,7 +300,7 @@ Attacking with the Bow and Arrow Choke from Seat Belt Control Back requires a pr
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

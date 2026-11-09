@@ -245,7 +245,7 @@ Defending against the Rear Naked Choke from Body Triangle is among the most dema
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Rear Naked Choke/from Body Triangle#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Rear Naked Choke/from Body Triangle#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

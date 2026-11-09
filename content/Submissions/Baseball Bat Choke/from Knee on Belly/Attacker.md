@@ -264,7 +264,7 @@ Attacking with the Baseball Bat Choke from Knee on Belly exploits the unique pre
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Baseball Bat Choke/from Knee on Belly#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Baseball Bat Choke/from Knee on Belly#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

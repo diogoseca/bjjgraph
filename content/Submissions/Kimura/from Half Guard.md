@@ -184,7 +184,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 - **Weight distribution** - Shift weight to prevent opponent's hip escape while maintaining submission control
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -256,7 +256,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 - Bottom player's hips close distance to yours and their chest reconnects after briefly creating space for grip entry
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -339,9 +339,8 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -351,30 +350,9 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 | Bicep tendon strain or rupture | Medium | 6-12 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to finish
-
-**Tap Signals**:
-- Verbal tap (any vocalization)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat or opponent
-- Any distress signal or movement cessation
 
 
-**Release Protocol**:
-1. Immediately release rotational pressure (stop arm movement)
-2. Release figure-four grip configuration
-3. Return arm to neutral position slowly
-4. Release positional control completely
-5. Check partner for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission application
-- Never use competition speed during training rolls
-- Always allow clear tap access (hand/foot free)
-- Never apply full rotation in drilling without partner consent
-- Avoid repeated applications on same partner in single session
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

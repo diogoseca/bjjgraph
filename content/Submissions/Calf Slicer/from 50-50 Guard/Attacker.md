@@ -280,7 +280,7 @@ Attacking the calf slicer from 50-50 Guard requires converting the existing leg 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Calf Slicer/from 50-50 Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Calf Slicer/from 50-50 Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

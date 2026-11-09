@@ -198,7 +198,7 @@ Defending the Monoplata from Guard requires early recognition and immediate acti
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Monoplata/from Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Monoplata/from Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

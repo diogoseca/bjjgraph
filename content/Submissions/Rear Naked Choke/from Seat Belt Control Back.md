@@ -188,7 +188,7 @@ Finishing mechanics require precise bilateral compression of both carotid arteri
 - Hook security maintenance — keep lower body control active throughout the entire choke transition to prevent escape during the grip change window
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -264,7 +264,7 @@ Finishing mechanics require precise bilateral compression of both carotid arteri
 - Hook pressure intensifying as the attacker drives hooks deeper to secure lower body control before committing to the choke attempt
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -326,9 +326,8 @@ Finishing mechanics require precise bilateral compression of both carotid arteri
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -338,33 +337,9 @@ Finishing mechanics require precise bilateral compression of both carotid arteri
 | Carotid artery injury from excessive force | CRITICAL | Immediate medical attention required |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. Never snap or jerk the choke. Partner should have full awareness of pressure building.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' or make any verbal sound)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Going limp or loss of consciousness
-- Any distress signal or unusual sound
 
 
-**Release Protocol**:
-1. Immediately release choking arm upon tap signal
-2. Remove hooks and body triangle if present
-3. Gently guide partner to side-lying recovery position
-4. Monitor consciousness and breathing for 30 seconds
-5. If partner was unconscious, keep them lying down until fully alert
-6. Never allow unconscious partner to stand immediately
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity in drilling
-- Never apply the choke to the trachea or windpipe
-- Always ensure partner has clear tap access with both hands
-- Stop immediately if partner makes any distress sound
-- Never hold a choke past the tap for any reason
-- Beginners must practice with extremely slow progression only
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -306,7 +306,7 @@ Contain the opponent's head and arm before committing to the finish. The choking
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Darce Choke/from Side Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Darce Choke/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

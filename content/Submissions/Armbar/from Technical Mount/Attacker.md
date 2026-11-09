@@ -300,7 +300,7 @@ Attacking the Armbar from Technical Mount is among the most mechanically efficie
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Armbar/from Technical Mount#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Armbar/from Technical Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -254,9 +254,8 @@ The submission is particularly dangerous because the pain can be delayed, meanin
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -266,32 +265,9 @@ The submission is particularly dangerous because the pain can be delayed, meanin
 | Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (encouraged due to leg entanglement)
-- Physical hand tap on partner or mat
-- Physical foot tap if hands trapped
-- Any distress vocalization or signal
-- Slapping mat with free hand multiple times
 
 
-**Release Protocol**:
-1. Immediately release foot grip upon tap signal
-2. Remove shin pressure from calf slowly and controlled
-3. Unwrap legs carefully without jerking movements
-4. Allow partner to extend leg naturally before disengaging
-5. Check partner's mobility and sensation before continuing training
-
-
-**Training Restrictions**:
-- Never apply at competition speed in training
-- Never spike or jerk the compression
-- Never hold after tap to finish the position
-- Always allow immediate tap access with both hands
-- Prohibited for colored belts below brown belt in most organizations
-- Never practice on partners with previous calf injuries without explicit consent
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

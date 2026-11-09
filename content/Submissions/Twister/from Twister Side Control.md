@@ -168,7 +168,7 @@ The twister carries extreme injury risk to the spine and neck, demanding excepti
 - Maintain base with the outside leg posted wide to prevent bridge-and-roll reversals during the finishing sequence
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ The twister carries extreme injury risk to the spine and neck, demanding excepti
 - Feeling of your shoulder being pinned to the mat with perpendicular pressure while your hips are elevated by the leg hook
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -281,9 +281,8 @@ The twister carries extreme injury risk to the spine and neck, demanding excepti
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -293,32 +292,9 @@ The twister carries extreme injury risk to the spine and neck, demanding excepti
 | Intercostal muscle tears (rib area) | Medium | 2-4 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression, never spike or jerk the spine
-
-**Tap Signals**:
-- Verbal tap (most common due to limited mobility)
-- Physical hand tap on your body or mat
-- Physical foot tap if accessible
-- Any distress signal or unusual vocalization
 
 
-**Release Protocol**:
-1. Immediately release the head/neck control completely
-2. Release upper body grips and allow opponent to turn face-up
-3. Slowly unwind the leg entanglement
-4. Do not pull or twist during release - let opponent move naturally
-5. Check with partner after release to ensure they are okay
-
-
-**Training Restrictions**:
-- NEVER apply at competition speed in training - always 50% speed maximum
-- NEVER use on beginners or those unfamiliar with the position
-- NEVER apply sudden or explosive pressure to the spine
-- NEVER continue if partner shows any signs of distress
-- ALWAYS allow clear tap access and communicate throughout
-- NEVER practice without supervision from a qualified black belt
-- Avoid training this submission more than once per week to prevent cumulative spine stress
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

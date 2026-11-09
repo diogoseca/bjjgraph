@@ -244,7 +244,7 @@ Defending the toe hold from Inside Ashi-Garami begins with recognizing the grip 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Toe Hold/from Inside Ashi-Garami#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Toe Hold/from Inside Ashi-Garami#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

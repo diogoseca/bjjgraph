@@ -222,7 +222,7 @@ Elite practitioners chain this omoplata threat with triangle and sweep entries f
 - Chain omoplata threat with triangle and sweep entries to create an offensive dilemma from the lasso configuration
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -294,7 +294,7 @@ Elite practitioners chain this omoplata threat with triangle and sweep entries f
 - You feel the sleeve grip on your trapped arm tighten significantly as the opponent prepares to transition, preventing you from pulling the arm free during the position change
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -339,9 +339,8 @@ Elite practitioners chain this omoplata threat with triangle and sweep entries f
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -351,32 +350,9 @@ Elite practitioners chain this omoplata threat with triangle and sweep entries f
 | Labrum tear | CRITICAL | 6-12 months with surgery |
 
 
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum pressure increase
-
-**Tap Signals**:
-- Verbal tap (any vocal signal)
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress signal or sound
-- Roll forward escape attempt (release immediately)
 
 
-**Release Protocol**:
-1. Immediately stop all forward pressure and rotation
-2. Release leg pinch on shoulder
-3. Unwind hip position to neutral
-4. Allow opponent to extract arm slowly
-5. Check for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the shoulder rotation
-- Never apply competition speed in training
-- Always allow opponent access to tap
-- Stop immediately if opponent rolls forward (escape attempt)
-- Never apply full finishing pressure until advanced belt level
-- Always control the rate of shoulder rotation
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

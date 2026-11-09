@@ -184,7 +184,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 - Keep your base wide and stable throughout the submission sequence
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 - You feel your near elbow being pried away from your ribs while chest pressure increases on your shoulder to pin it to the mat
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -336,9 +336,8 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -348,30 +347,9 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 | Biceps tendon strain or rupture | Medium | 4-8 weeks for strain, 12+ weeks for rupture |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from position establishment to submission pressure
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any distress vocalization or signal
 
 
-**Release Protocol**:
-1. Immediately release rotational pressure on the arm
-2. Lower the opponent's arm back toward the mat in controlled manner
-3. Release the figure-four grip completely
-4. Allow opponent to move arm freely and check for injury
-5. Never jerk or spike the arm during release
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking motions to the shoulder
-- Always pause at 50-70% pressure to allow tap response time
-- Never use competition finishing speed during drilling
-- Stop immediately if partner cannot tap with free hand
-- Avoid training this submission with injured or recovering partners
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

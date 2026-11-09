@@ -298,7 +298,7 @@ The arm triangle from high mount leverages your dominant elevated position to is
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Arm Triangle/from High Mount#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Arm Triangle/from High Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

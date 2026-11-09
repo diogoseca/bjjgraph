@@ -299,7 +299,7 @@ The Loop Choke from Closed Guard is a deceptive and highly effective blood choke
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Loop Choke/from Closed Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Loop Choke/from Closed Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -258,7 +258,7 @@ The most critical defensive principle is that prevention is vastly easier than e
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Guillotine Choke/from Guillotine Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Guillotine Choke/from Guillotine Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -188,7 +188,7 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 - Control the opponent's thumb-up orientation to ensure the elbow hyperextension plane aligns with your hip elevation vector
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -264,7 +264,7 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 - You feel progressive upward pressure on the back of your elbow as the attacker initiates the glute bridge—this is the final finishing motion and signals maximum urgency
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -332,9 +332,8 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -343,25 +342,9 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 | Radial head subluxation or fracture from explosive resistance against locked extension | High | 6-12 weeks for subluxation, 3-6 months for fracture requiring immobilization or surgery |
 
 
-**Application Speed**: Progressive over 2-3 seconds minimum. Never apply explosive jerking force. Increase bridge pressure gradually to allow tap recognition. The difference between a controlled tap and a ligament tear is often less than one inch of additional extension.
-
-**Tap Signals**:
-- Hand tap on attacker's body, legs, or mat (minimum 2 distinct taps)
-- Foot tap on mat when hands are trapped or immobilized
-- Verbal tap saying 'tap' clearly and audibly
 
 
-**Release Protocol**:
-1. Lower hips immediately upon any tap signal to remove bridge pressure from the elbow joint
-2. Release wrist grip and open hands completely within 1 second of recognizing the tap
-3. Maintain leg position briefly after release to prevent opponent from jerking their arm free in a way that causes self-injury
-
-
-**Training Restrictions**:
-- White belts should drill finishing mechanics at 50% pressure maximum with experienced partners who can communicate clearly
-- Practitioners with prior elbow injuries, hyperextension history, or joint hypermobility must inform training partners before armbar drilling
-- Never apply full finishing pressure in flow rolling or warm-up rounds
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

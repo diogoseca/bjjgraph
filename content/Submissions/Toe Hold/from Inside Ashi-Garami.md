@@ -186,7 +186,7 @@ Inside Ashi-Garami provides a tactically valuable platform for the toe hold beca
 - Control the opponent's knee line with your outside leg hook to prevent them from rotating their knee away from the rotational force
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Inside Ashi-Garami provides a tactically valuable platform for the toe hold beca
 - After defending a straight ankle lock attempt, the attacker does not release but instead adjusts their grip downward toward your foot - they are chaining to the toe hold
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -319,9 +319,8 @@ Inside Ashi-Garami provides a tactically valuable platform for the toe hold beca
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -332,33 +331,9 @@ Inside Ashi-Garami provides a tactically valuable platform for the toe hold beca
 | Achilles tendon strain | Medium | 4-6 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. This is NOT a technique to 'snap on' in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly)
-- Physical hand tap on partner or mat (multiple taps)
-- Physical foot tap with free leg
-- Any verbal distress signal
-- Slapping the mat with hand
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure
-2. Release toe grip completely
-3. Release heel control
-4. Allow opponent's foot to return to neutral position naturally
-5. Do not let go abruptly - maintain light contact until opponent signals they are okay
-6. Check with training partner before continuing
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual
-- Never grip individual toes - always grip across multiple toes and ball of foot
-- Never combine with explosive hip extension
-- Always allow clear tap access for both hands
-- Stop immediately at any sign of discomfort
-- Never train this submission at competition speed
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

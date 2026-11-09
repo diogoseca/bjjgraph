@@ -131,7 +131,7 @@ The choke operates on blood restriction principles, compressing the carotid arte
 - Position the forearm blade across both carotid arteries simultaneously for a bilateral blood choke rather than a tracheal compression
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -205,7 +205,7 @@ The choke operates on blood restriction principles, compressing the carotid arte
 - Attacker releases one grip from standard cross body control to begin threading the choking arm, creating a momentary reduction in overall positional pressure
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -267,9 +267,8 @@ The choke operates on blood restriction principles, compressing the carotid arte
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -278,28 +277,9 @@ The choke operates on blood restriction principles, compressing the carotid arte
 | Cervical spine strain from combined neck compression and body weight pressure at perpendicular angle | Medium | 1-3 weeks with rest and rehabilitation |
 
 
-**Application Speed**: SLOW and progressive. Build pressure incrementally over several seconds. Never jerk, spike, or explosively crank the choke. The cross body weight amplifies force significantly, so controlled application is essential to give the defender adequate time to tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, mat, or any available surface
-- Physical foot tap with either leg
-- Any unusual vocalization, gurgling, or distress sound indicating inability to verbally tap
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation
-2. If in doubt about whether a tap occurred, release immediately - the position can be re-established
-3. Monitor partner for signs of unconsciousness after release including unresponsiveness, limp limbs, or glazed expression
-4. If partner loses consciousness, place in recovery position, elevate legs, and seek medical attention if not conscious within 15 seconds
-
-
-**Training Restrictions**:
-- Never apply at full force during drilling; use progressive resistance building from 30% to controlled competition intensity
-- Do not practice on partners with known neck injuries, cervical spine conditions, or cardiovascular problems
-- Beginners should practice grip placement and arm threading mechanics without pressure before adding any compression
-- Always train with a qualified instructor present when first learning this submission
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

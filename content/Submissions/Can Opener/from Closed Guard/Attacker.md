@@ -296,7 +296,7 @@ The Can Opener attack is documented here strictly for educational and defensive 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Can Opener/from Closed Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Can Opener/from Closed Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

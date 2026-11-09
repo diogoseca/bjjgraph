@@ -184,7 +184,7 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 - Finish with hip extension, not by pulling on the arm - let your largest muscle groups do the work
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 - Your opponent's grip changes from controlling your upper body to specifically targeting your wrist with a two-handed grip, indicating commitment to the arm attack rather than choke
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -339,9 +339,8 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -351,31 +350,9 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 | Ligament damage (UCL/LCL) | CRITICAL | 6-12 months with potential surgery |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from position to finish
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on your body or the mat
-- Physical foot tap on the mat
-- Any vocalization of pain or distress
-- Rapid head nodding or shaking
 
 
-**Release Protocol**:
-1. Immediately stop all hip extension and leg pressure
-2. Release the wrist/hand grip controlling the arm
-3. Remove your leg from across the opponent's face/shoulder
-4. Allow the opponent to retract their arm slowly
-5. Check with your partner before continuing training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth, progressive pressure only
-- Never use competition speed in training - always allow reaction time for tap
-- Always ensure your partner has at least one hand free to tap
-- Never continue pressure after feeling the tap or hearing verbal submission
-- Never practice this submission on opponents with pre-existing elbow injuries without explicit permission
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

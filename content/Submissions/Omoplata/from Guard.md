@@ -186,7 +186,7 @@ What makes the Omoplata so valuable for the developing player is its connectivit
 - Shoulder pressure and weight distribution keep opponent's posture broken throughout the sequence
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -262,7 +262,7 @@ What makes the Omoplata so valuable for the developing player is its connectivit
 - Opponent releases their closed guard and creates a significant hip angle while maintaining overhook control on one of your arms - pre-entry warning sign
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -348,9 +348,8 @@ What makes the Omoplata so valuable for the developing player is its connectivit
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -360,30 +359,9 @@ What makes the Omoplata so valuable for the developing player is its connectivit
 | Labrum tear | High | 4-6 months with surgery |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum extension, pause at resistance
-
-**Tap Signals**:
-- Verbal tap or 'tap' call
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress vocalization or irregular movement
 
 
-**Release Protocol**:
-1. Immediately stop hip extension and forward pressure
-2. Retract hips backward to reduce shoulder rotation
-3. Release leg triangle and remove leg from over opponent's shoulder
-4. Allow opponent to safely extract arm and assess shoulder mobility
-5. Check with partner verbally before continuing training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission with sudden hip extension
-- Never use competition speed or explosive finishing in training
-- Always allow partner's hand access to tap throughout the sequence
-- Never finish the submission fully in training - stop at light pressure
-- Prohibit training with partners who have pre-existing shoulder injuries without medical clearance
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

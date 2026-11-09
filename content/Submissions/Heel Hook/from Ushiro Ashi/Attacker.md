@@ -263,7 +263,7 @@ Executing the heel hook from ushiro ashi-garami demands precise mechanical adjus
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Heel Hook/from Ushiro Ashi#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Heel Hook/from Ushiro Ashi#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

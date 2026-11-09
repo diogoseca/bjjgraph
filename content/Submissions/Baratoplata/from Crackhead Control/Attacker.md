@@ -262,7 +262,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Baratoplata/from Crackhead Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Baratoplata/from Crackhead Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

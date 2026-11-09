@@ -257,7 +257,7 @@ Attacking the Kimura from Ushiro Kesa Gatame leverages your dominant chest press
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Kimura/from Ushiro Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Kimura/from Ushiro Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

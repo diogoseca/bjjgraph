@@ -222,7 +222,7 @@ Defending the Kimura from Kuzure Kesa Gatame requires early recognition and imme
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Kimura/from Kuzure Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Kimura/from Kuzure Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

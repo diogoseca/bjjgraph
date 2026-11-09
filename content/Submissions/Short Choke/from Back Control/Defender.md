@@ -248,7 +248,7 @@ Defending the Short Choke from Back Control demands early recognition and immedi
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Short Choke/from Back Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Short Choke/from Back Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

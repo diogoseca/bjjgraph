@@ -224,7 +224,7 @@ The submission's danger profile demands extreme caution in training. The spinal 
 - Commit fully to the finish only after the figure-four leg lock is completely secured and upper body control is established
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -298,7 +298,7 @@ The submission's danger profile demands extreme caution in training. The spinal 
 - Sensation of your upper body being pulled in one direction while your hips remain anchored and immobile from the figure-four leg lock
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -354,9 +354,8 @@ The submission's danger profile demands extreme caution in training. The spinal 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -366,28 +365,9 @@ The submission's danger profile demands extreme caution in training. The spinal 
 | Thoracic and lumbar ligament sprain from rotational forces exceeding flexibility | Medium | 2-6 weeks |
 
 
-**Application Speed**: Extremely slow and progressive. Minimum 5-7 seconds of gradual pressure escalation required. Never jerk or spike this submission. The spine lacks the protective mechanisms of peripheral joints and can reach catastrophic injury threshold with minimal warning.
-
-**Tap Signals**:
-- Tap with hand on attacker's body or the mat with minimum two clear taps
-- Verbal tap shouting 'TAP' clearly, critical since hands may be trapped in the Twister position
-- Stomp feet on the mat repeatedly as emergency signal when both hands and voice are compromised
 
 
-**Release Protocol**:
-1. Release head and shoulder rotational controls first to immediately relieve spinal pressure
-2. Unwrap the figure-four leg lock second to free the hip anchor
-3. Allow opponent to return to neutral spinal alignment slowly without forcing movement
-4. Check partner's condition verbally and ask about numbness, tingling, or shooting pain in extremities
-5. If any neurological symptoms are reported, end training immediately and seek medical evaluation
-
-
-**Training Restrictions**:
-- Only attempt with experienced grapplers who understand spinal submission mechanics and will tap preventatively
-- Establish clear verbal communication protocols and tap signals before any Twister drilling
-- Prohibited for white and blue belt practitioners in most academies due to catastrophic injury risk
-- Never drill at full speed without progressive training through all phases over a minimum 8-week period
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -263,7 +263,7 @@ Attacking with the outside heel hook from Honey Hole requires mastery of grip tr
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Outside Heel Hook/from Honey Hole#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Outside Heel Hook/from Honey Hole#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

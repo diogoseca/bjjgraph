@@ -228,7 +228,7 @@ Defending the calf slicer from saddle requires recognizing that you are already 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Calf Slicer/from Saddle#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Calf Slicer/from Saddle#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

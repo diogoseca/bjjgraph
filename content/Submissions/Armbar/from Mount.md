@@ -188,7 +188,7 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 - Point toes and pinch heels to create maximum hip pressure and control
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -262,7 +262,7 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 - Attacker begins lifting one leg near your head in preparation for the swing-over transition
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -342,9 +342,8 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -354,31 +353,9 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 | Bicep tendon strain | Medium | 3-6 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from capture to full extension
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap (minimum 2 taps on partner or mat)
-- Physical foot tap (stomping or tapping with foot)
-- Any distress vocalization or signal
-- Frantic hand waving if arms trapped
 
 
-**Release Protocol**:
-1. Immediately release hip pressure and lower hips to mat
-2. Open legs and remove leg pressure from opponent's head/shoulder
-3. Release grip on opponent's wrist/arm
-4. Allow opponent to pull arm back to safety
-5. Check verbally that partner is okay before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth, progressive pressure only
-- Never use competition speed in training - always allow minimum 3-5 seconds
-- Always ensure training partner has at least one hand free to tap
-- Never fully extend the joint in training - stop at first sign of resistance
-- Never practice on partners with existing elbow injuries without instructor supervision
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

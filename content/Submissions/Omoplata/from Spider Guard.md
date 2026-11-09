@@ -169,7 +169,7 @@ Strategically, the omoplata from spider guard creates a powerful dilemma: oppone
 - Use progressive hip extension to apply the finishing pressure rather than jerking or cranking the shoulder
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -243,7 +243,7 @@ Strategically, the omoplata from spider guard creates a powerful dilemma: oppone
 - Opponent begins sitting up aggressively while their leg is draped across the back of your neck and shoulder
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -297,9 +297,8 @@ Strategically, the omoplata from spider guard creates a powerful dilemma: oppone
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -309,29 +308,9 @@ Strategically, the omoplata from spider guard creates a powerful dilemma: oppone
 | Neck strain from opponent's forward roll escape attempt while arm is trapped | Medium | 1-3 weeks with rest and physical therapy |
 
 
-**Application Speed**: SLOW and progressive. Apply rotational pressure gradually by sitting up and extending hips forward. The shoulder joint is vulnerable to sudden force, and damage can occur before pain is fully registered. Never jerk or spike the finish.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, leg, or mat with free hand
-- Physical foot tap on mat with either leg
-- Any unusual vocalization indicating pain or distress
 
 
-**Release Protocol**:
-1. Release hip pressure and lean back immediately upon any tap signal
-2. Remove leg from over opponent's shoulder to fully release the lock
-3. Allow opponent to retract their arm freely before re-engaging
-4. If opponent cannot verbally communicate, assume distress and release immediately
-5. Check partner's shoulder mobility and comfort before resuming training
-
-
-**Training Restrictions**:
-- White belts should drill the entry and control position only, without applying finishing pressure to the shoulder
-- Apply the finish slowly in training regardless of belt level - competition speed application risks permanent shoulder damage
-- Partners with prior shoulder injuries should inform their training partner before drilling this technique
-- Avoid this submission entirely on training partners who have recently returned from shoulder surgery or rehabilitation
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -218,7 +218,7 @@ Before an ankle is captured, rebuilding base brings the elbows beside the ribs a
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Suloev Stretch/from Half Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Suloev Stretch/from Half Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

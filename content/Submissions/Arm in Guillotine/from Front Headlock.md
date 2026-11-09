@@ -168,7 +168,7 @@ Strategically, the arm-in guillotine from front headlock serves as a powerful de
 - Apply progressive and controlled pressure using body mechanics rather than explosive arm squeezing to maintain position and allow safe training
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ Strategically, the arm-in guillotine from front headlock serves as a powerful de
 - You notice your vision darkening or hearing changing, indicating carotid compression has begun and immediate defensive action or tap is required
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -306,9 +306,8 @@ Strategically, the arm-in guillotine from front headlock serves as a powerful de
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -318,32 +317,9 @@ Strategically, the arm-in guillotine from front headlock serves as a powerful de
 | Shoulder or rotator cuff injury to trapped arm | Medium | 2-8 weeks depending on severity |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial contact to finish pressure
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal surrender)
-- Physical hand tap on partner or mat
-- Physical foot tap on mat or partner
-- Any distress signal including going limp
 
 
-**Release Protocol**:
-1. Immediately release choking arm pressure upon any tap signal
-2. Open guard if closed guard is applied
-3. Gently lower opponent to mat if elevated
-4. Release all grips and create space
-5. Check partner's alertness and breathing
-6. Wait for clear verbal confirmation before continuing training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth, progressive pressure only
-- Never use competition speed in training - always allow time for tap
-- Never continue applying pressure after tap signal
-- Always allow trapped arm access to tap with free hand or feet
-- Never practice this submission on beginners without close supervision
-- Stop immediately if partner's face changes color or they show signs of distress
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

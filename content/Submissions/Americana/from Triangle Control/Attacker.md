@@ -247,7 +247,7 @@ Americana from Triangle Control is a distinct submission state: the bottom playe
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Americana/from Triangle Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Americana/from Triangle Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

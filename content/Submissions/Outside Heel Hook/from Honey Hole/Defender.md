@@ -237,7 +237,7 @@ Defending the outside heel hook from Honey Hole requires recognizing the grip tr
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Outside Heel Hook/from Honey Hole#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Outside Heel Hook/from Honey Hole#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -263,7 +263,7 @@ Attacking with the outside heel hook from 50-50 guard requires establishing insi
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Outside Heel Hook/from 50-50 Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Outside Heel Hook/from 50-50 Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

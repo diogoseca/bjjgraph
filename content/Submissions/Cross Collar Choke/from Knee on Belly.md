@@ -204,7 +204,7 @@ The key strategic consideration is grip sequencing. The first grip must be deep 
 - Use collar grip tension to control the opponent's head position and prevent them from turning or sitting up during the finish
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -278,7 +278,7 @@ The key strategic consideration is grip sequencing. The first grip must be deep 
 - Opponent's weight shifts forward and their head drops lower, signaling preparation to drop into the finishing position
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -336,9 +336,8 @@ The key strategic consideration is grip sequencing. The first grip must be deep 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -347,28 +346,9 @@ The key strategic consideration is grip sequencing. The first grip must be deep 
 | Neck strain from defensive thrashing under combined knee and choke pressure | Low | 3-7 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any distress signal including facial expressions or loss of resistance
 
 
-**Release Protocol**:
-1. Immediately release both collar grips upon tap signal
-2. Remove knee from belly and disengage to neutral position
-3. Allow partner space to recover breathing and circulation
-4. Check partner's alertness and ensure full recovery before continuing
-
-
-**Training Restrictions**:
-- Never apply full choking pressure during initial learning phases—drill grip insertion and positioning first
-- Never hold the choke past the tap signal under any circumstances
-- Never combine full KOB pressure with full choke pressure on training partners with neck or circulation issues
-- Always ensure partner has clear access to tap with hands or feet despite knee pressure
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

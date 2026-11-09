@@ -248,7 +248,7 @@ Defending the belly down armbar from turtle requires maintaining the fundamental
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Belly Down Armbar/from Turtle#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Belly Down Armbar/from Turtle#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

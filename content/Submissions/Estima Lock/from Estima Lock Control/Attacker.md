@@ -263,7 +263,7 @@ Finishing the Estima Lock from an already-established control position provides 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Estima Lock/from Estima Lock Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Estima Lock/from Estima Lock Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

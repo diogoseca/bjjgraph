@@ -229,7 +229,7 @@ Defending the kneebar from Single Leg X-Guard requires the bottom player to reco
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Kneebar/from Single Leg X-Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Kneebar/from Single Leg X-Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

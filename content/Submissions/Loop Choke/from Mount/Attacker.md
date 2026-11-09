@@ -259,7 +259,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Loop Choke/from Mount#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Loop Choke/from Mount#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

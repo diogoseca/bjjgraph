@@ -248,9 +248,8 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -260,32 +259,9 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 | Shoulder impingement from trapped arm position | Low | 1-3 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to full compression. Allow partner time to recognize position and tap.
-
-**Tap Signals**:
-- Verbal tap (any verbal signal of submission)
-- Physical hand tap on opponent's body
-- Physical foot tap on mat
-- Desperate hand waving or frantic movement
-- Any loss of resistance or limpness
 
 
-**Release Protocol**:
-1. Immediately open figure-four grip upon tap signal
-2. Remove choking arm from under opponent's neck
-3. Create space by moving body away from opponent
-4. Monitor partner for 10-15 seconds to ensure full consciousness
-5. If partner shows signs of unconsciousness, place in recovery position and alert instructor
-
-
-**Training Restrictions**:
-- Never crank or jerk the choke - apply pressure smoothly and progressively
-- Never use competition speed during drilling or light sparring
-- Always ensure partner has clear tap access with at least one hand
-- Stop immediately if partner makes any distress sound or shows panic
-- Never continue pressure after tap signal - instant release required
-- Avoid practicing on partners with known neck injuries without instructor approval
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

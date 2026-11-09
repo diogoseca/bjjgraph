@@ -299,7 +299,7 @@ Executing the North-South Choke from Shoulder of Justice requires precise timing
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/North-South Choke/from Shoulder of Justice#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/North-South Choke/from Shoulder of Justice#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -170,7 +170,7 @@ This technique functions as a critical secondary attack within the Backside 50-5
 - Maintain upper body control with your free leg to prevent the opponent from sitting up and facing you
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ This technique functions as a critical secondary attack within the Backside 50-5
 - Attacker's inside leg begins threading across your thigh to establish the figure-four leg triangle while their free leg pushes against your upper body to create distance and prevent you from sitting up
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -310,9 +310,8 @@ This technique functions as a critical secondary attack within the Backside 50-5
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -323,32 +322,9 @@ This technique functions as a critical secondary attack within the Backside 50-5
 | Patellar dislocation or subluxation | Medium | 3-6 weeks with potential for chronic instability |
 
 
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training
-
-**Tap Signals**:
-- Verbal tap (preferred for leg locks due to rapid injury onset)
-- Multiple rapid hand taps on opponent or mat
-- Multiple foot taps on mat or opponent
-- Any vocalization of distress or pain
-- Frantic or panicked movement indicating loss of composure
 
 
-**Release Protocol**:
-1. Immediately stop all hip extension pressure upon any tap signal
-2. Release the leg grip and allow knee to return to neutral position gradually
-3. Do not suddenly drop the leg - control descent to prevent secondary injury
-4. Allow partner to assess knee integrity before continuing
-5. Check with partner verbally before resuming training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply progressive pressure over 5-7 seconds minimum
-- Never use competition speed finishing pressure in training - always allow time to tap
-- Always maintain control of opponent's heel - never let it slip or rotate during application
-- Never practice on training partners with known knee injuries without explicit permission
-- Never combine with explosive rotational movements that add torque to the knee
-- Beginners should not practice finishing pressure - focus on positional control and entry mechanics only
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

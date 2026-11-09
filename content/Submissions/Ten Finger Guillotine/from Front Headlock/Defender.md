@@ -236,7 +236,7 @@ Defending the Ten Finger Guillotine from Front Headlock requires intervention at
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Ten Finger Guillotine/from Front Headlock#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Ten Finger Guillotine/from Front Headlock#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

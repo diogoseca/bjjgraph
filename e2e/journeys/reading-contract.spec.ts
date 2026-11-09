@@ -214,8 +214,9 @@ for (const path of [KNEE, RNC]) {
     expect(proof.leaked, 'no attacker steps, principles or counters in defender reading').toEqual([])
     for (const prose of proof.sourceGuide) expect(proof.reader).toContain(prose)
     if (path === RNC) {
-      expect(proof.rows, 'the full authored safety guide is nonempty').toBeGreaterThan(20)
-      expect(proof.shownSafety, 'every risk, speed, tap, release and restriction survives').toBe(proof.safety)
+      // U112 a (owner, 2026-11-09): the page's guide is its injury table and one closing line, and the reader shows it whole.
+      expect(proof.rows, 'the page\'s guide carries its injury table').toBeGreaterThan(8)
+      expect(proof.shownSafety, 'every injury risk and the closing line survive').toBe(proof.safety)
     }
     expect(await activity(page)).toMatchObject({ intent: true, paused: true, played: false, remaining: null, beats: [] })
   })
@@ -309,8 +310,9 @@ test('@curated a late response cannot repaint the opposite seat in the same read
   }))
   // The explicit Top article omits the hub's comparison and opposite-role summaries.
   // Keep the exact current-role TOC and every link's semantic target, after the held Bottom response.
+  // U104, U108 a (owner, 2026-11-09, as built): the index reads as the screen does, Moves, the question, the video, the article.
   const expected = [
-    ['videos', 'Videos'], ['hand', 'Moves'], ['card', 'Questions'], ['aka', 'Also known as'], ['confused', 'Often confused with'], ['definition', 'Position definition'],
+    ['hand', 'Moves'], ['card', 'Questions'], ['videos', 'Videos'], ['aka', 'Also known as'], ['confused', 'Often confused with'], ['definition', 'Position definition'],
     ['principles', 'Essential principles'], ['options', 'Decisions from top'], ['mistakes', 'Common mistakes'],
     ['statistics', 'Statistics'], ['overview', 'How it works'], ['prerequisites', 'Prerequisites'], ['training', 'Training'], ['related', 'Related'],
   ]
@@ -338,7 +340,8 @@ for (const path of [RNC, '/Submissions/Triangle-Choke/from-Triangle-Control']) {
         await j.openQuestion() // U47 d: Answer for Points shows the answers; the answer starts play
         await j.advance(20000)
         expect(await activity(page), 'Answer for Points leaves a dormant defender dormant, with no clock').toMatchObject({ intent: true, paused: true, played: false, remaining: null, beats: [] })
-        await j.clickByMouse(`[data-panic-mc-opt="${correct}"]`, 'answer the dormant defender question')
+        // The answer is a draw (land-mc-shuffle is not rigged here), and under U104 the third can sit below the scrollport.
+        await j.pressAnswer(`[data-panic-mc-opt="${correct}"]`, 'answer the dormant defender question')
       }
       expect(await activity(page)).toMatchObject({ intent: false, paused: false })
       expect((await activity(page)).beats.filter((b: string) => b === 'defend_start')).toHaveLength(0)

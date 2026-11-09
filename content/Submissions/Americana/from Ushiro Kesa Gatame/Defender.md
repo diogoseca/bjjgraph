@@ -228,7 +228,7 @@ Defending the Americana from Ushiro Kesa Gatame demands immediate recognition of
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Americana/from Ushiro Kesa Gatame#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Americana/from Ushiro Kesa Gatame#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

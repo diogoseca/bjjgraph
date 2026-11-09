@@ -187,7 +187,7 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 - Sprawl your legs backward and drive hips forward to increase pressure through the choking structure without lifting your chest off the opponent
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -263,7 +263,7 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 - Attacker's chest pressure shifts from your torso toward your head and neck area as they reposition for the choke angle
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -326,9 +326,8 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -337,28 +336,9 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 | Cervical spine strain from excessive neck cranking or lateral pressure during choke application | Medium | 3-14 days with rest and appropriate treatment |
 
 
-**Application Speed**: SLOW and progressive. Blood chokes can cause unconsciousness in 4-8 seconds once locked. Never jerk or spike the choke. Apply pressure gradually and give your partner adequate time to tap. In training, pause briefly after initial engagement to allow recognition and tap response.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat or partner with either leg
-- Any unusual vocalization, gurgling, or distress sound indicating inability to verbally tap
 
 
-**Release Protocol**:
-1. Release ALL pressure immediately upon any tap signal - do not wait to confirm
-2. If partner goes limp or stops resisting unexpectedly, release immediately and check consciousness
-3. If in doubt about whether a tap occurred, release - position can always be re-established
-4. After release, maintain awareness of partner's consciousness and breathing for 15-30 seconds
-
-
-**Training Restrictions**:
-- Beginners should practice positioning and mechanics only without applying full choking pressure until instructor approval
-- Never apply this choke at full speed or force during drilling - save intensity for controlled positional sparring
-- Partners with neck injuries, cardiovascular conditions, or blood pressure issues should avoid this technique entirely
-- Always train with a qualified instructor present when first learning this choke
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

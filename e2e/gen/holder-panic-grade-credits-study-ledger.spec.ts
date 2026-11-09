@@ -105,7 +105,8 @@ test("caught → panic grade credits the shared study ledger (prep +1, cardsToda
   })
   if (mcCorrect != null) {
     await journey(page).openQuestion() // U47 d: the question asks first; Answer for Points shows its answers
-    await j.clickByMouse(`[data-panic-mc-opt="${mcCorrect}"]`, "Grade the defender question")
+    // v1.252.0: the answer is a draw, and under U104 the third can sit below the reader's scrollport (dsl.ts pressAnswer).
+    await j.pressAnswer(`[data-panic-mc-opt="${mcCorrect}"]`, "Grade the defender question")
   } else {
     await j.clickByMouse("[data-panic-reveal]", "Reveal the defender answer")
     await j.clickByMouse("[data-panic-got]", "Grade the defender answer")

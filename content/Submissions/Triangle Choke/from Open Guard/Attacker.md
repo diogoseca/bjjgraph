@@ -280,7 +280,7 @@ The Triangle from Open Guard Attacker position focuses on systematically isolati
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Triangle Choke/from Open Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Triangle Choke/from Open Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

@@ -275,8 +275,13 @@ test("the film row rides the game card", async ({ page }) => {
     if (!f) return null
     const fr = f.getBoundingClientRect(), hr = a.optionsRef.current.getBoundingClientRect(), r = a._reader
     return { clips: f.querySelectorAll(".ng-clip").length,
-             shared: f.parentElement === r.mediaSlot && r.videoCard?.parentElement === r.game || f.parentElement === r.mediaHome && r.mediaHome.parentElement === r.game,
-             layout: r.game.dataset.mediaLayout, belowMoves: fr.top >= hr.bottom - .5,
+             // The film's one home on a game page is the stage's media home. (A Videos-slot branch, r.videoCard, was dead: the reader
+             // has had no videoCard since U65.)
+             shared: f.parentElement === r.mediaHome && r.mediaHome.parentElement === r.game,
+             // U104: the film starts level with the asking line, which lives in the Moves row's bottom band, so "below Moves" is
+             // below the painted Moves cards, not the row's box (8px of empty band at 1440).
+             layout: r.game.dataset.mediaLayout,
+             belowMoves: fr.top >= Math.max(...[...a.optionsRef.current.querySelectorAll("[data-tech]")].map((c: Any) => c.getBoundingClientRect().bottom).filter((b: number) => b > 0), hr.top) - .5,
              inCard: !!(a._landEl && a._landEl.contains(f)) }
   })
   expect(film, "the film row is up").not.toBeNull()

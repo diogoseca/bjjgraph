@@ -186,7 +186,7 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 - Finish by elevating hips into the arm rather than pulling the arm down with your hands
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -258,7 +258,7 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 - Opponent's posture changes from forward pressure to a sideways or backward lean with arm control
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -305,9 +305,8 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -316,28 +315,9 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 | Radial head fracture from sudden explosive hyperextension against locked arm defense | CRITICAL | 6-12 weeks for non-displaced, 3-6 months for displaced fracture requiring surgery |
 
 
-**Application Speed**: SLOW and progressive. Apply extension gradually by elevating hips while maintaining tight control. Never jerk or spike the arm. The elbow joint has very little tolerance for sudden extension force.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat with free hand
-- Physical foot tap on mat with either leg
-- Any unusual screaming, groaning, or distress vocalization indicating pain
 
 
-**Release Protocol**:
-1. Release hip elevation and arm extension immediately upon any tap signal
-2. Maintain wrist control briefly during release to prevent opponent's arm from whipping free and causing self-injury
-3. If in doubt whether a tap occurred, release immediately — the position can always be re-established
-4. After release, check with training partner before continuing the roll
-
-
-**Training Restrictions**:
-- Beginners should drill the positional transition without applying finishing extension until technique is controlled
-- Never apply sudden or explosive extension force — always use slow progressive pressure
-- Avoid full resistance armbar sparring until both partners demonstrate controlled application and timely tapping
-- Partners with pre-existing elbow or shoulder injuries should communicate limitations before drilling
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

@@ -66,7 +66,7 @@ const layout = (page: Page) => page.evaluate(() => {
   const cards = [...a.optionsRef.current.querySelectorAll("[data-tech]")].map((c: Element) => c.getBoundingClientRect())
   const text = ask.getBoundingClientRect(), media = film.getBoundingClientRect()
   return { gap: text.top - Math.max(...cards.map((r: DOMRect) => r.bottom)), film: media.toJSON(), askBottom: text.bottom,
-    padding: getComputedStyle(a._landEl).padding, free: a._paneLayout().width, layout: a._reader.game.dataset.mediaLayout,
+    padding: getComputedStyle(a._landEl).padding, free: a._paneLayout().width, layout: a._reader.game.dataset.mediaLayout, cardWidth: a._landEl.getBoundingClientRect().width,
     nested: !!film.closest(".ng-landcard,[data-land-q]"), token: parseFloat(getComputedStyle(ask).getPropertyValue("--section-gap")) }
 })
 
@@ -74,16 +74,18 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 1024], [1024, 768],
   test(`@curated VIDEO1 gap and card width ${width}x${height}`, async ({ page }) => {
     await page.setViewportSize({ width, height }); await boot(page)
     const g = await layout(page)
-    if (width < 1152) {
+    // U104 and U110 a (owner, 2026-11-09): under 1,024px free everything stacks in one box of at most 496px; from 1,024px the
+    // question and the film are the article grid's two columns (replacing VIDEO1's 680px column and the 400px desktop film).
+    if (width < 1024) {
       expect(g.gap, "VIDEO1 ask gap is 5–6px below the visible Moves cards").toBeGreaterThanOrEqual(5)
       expect(g.gap, "VIDEO1 ask gap is 5–6px below the visible Moves cards").toBeLessThanOrEqual(6.1)
       expect(g.gap, "VIDEO1 gap uses the existing section spacing token").toBeCloseTo(g.token, 1)
-      expect(g.film.width, "VIDEO1 mobile/tablet film fills the column").toBeCloseTo(Math.min(680, g.free - 32), 1)
+      expect(g.film.width, "VIDEO1 mobile/tablet film fills the column").toBeCloseTo(Math.min(496, g.free - 32), 1)
       expect(g.film.top, "VIDEO1 own film follows the ask").toBeGreaterThan(g.askBottom)
       expect(g.layout).toBe("stacked")
     } else {
-      expect(g.film.width, "VIDEO1 desktop film is a portion of the column").toBe(400)
-      expect(g.layout, "VIDEO3 the film follows the hint attached to the choices row").toBe("stacked")
+      expect(g.layout, "U104: from 1,024px the film is the right column").toBe("side-by-side")
+      expect(g.film.width, "U104: a column wide, as wide as the asking question").toBeCloseTo(g.cardWidth, 0)
     }
     expect(g.padding).toBe("0px 0px 0px 3px")
     expect(g.nested, "VIDEO1 own film never enters a question card").toBe(false)

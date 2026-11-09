@@ -168,7 +168,7 @@ In competition, this technique forces opponents to choose between defending the 
 - Control the transition speed—rushing the grip change telegraphs the attack and opens escape windows
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -242,7 +242,7 @@ In competition, this technique forces opponents to choose between defending the 
 - Opponent's upper body shifts slightly as they reposition their arms from heel hook to toe hold alignment
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -302,9 +302,8 @@ In competition, this technique forces opponents to choose between defending the 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -315,33 +314,9 @@ In competition, this technique forces opponents to choose between defending the 
 | Achilles tendon strain | Medium | 4-6 weeks |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. The small joints of the foot fail with less force than larger joints. This is NOT a technique to snap on in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly)
-- Physical hand tap on partner or mat (multiple taps)
-- Physical foot tap with free leg
-- Any verbal distress signal
-- Slapping the mat with hand
 
 
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon tap
-2. Release toe grip completely before releasing figure-four
-3. Release heel and ankle control
-4. Allow opponent's foot to return to neutral position naturally
-5. Maintain light contact until opponent signals they are okay
-6. Check with training partner before continuing the round
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual over 5-7 seconds minimum
-- Never grip individual toes - always grip across multiple toes and ball of foot
-- Never combine toe hold pressure with explosive hip extension
-- Always allow clear tap access for both of opponent's hands
-- Stop immediately at any sign of discomfort or unusual popping sounds
-- Never train this submission at full competition speed until both partners are experienced
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

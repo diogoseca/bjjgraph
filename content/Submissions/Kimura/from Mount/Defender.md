@@ -260,7 +260,7 @@ From a positional standpoint, the defender must balance the urgency of Kimura de
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Kimura/from Mount#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Kimura/from Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

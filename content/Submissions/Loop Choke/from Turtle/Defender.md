@@ -238,7 +238,7 @@ Defending the loop choke from turtle requires immediate recognition and proactiv
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Loop Choke/from Turtle#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Loop Choke/from Turtle#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

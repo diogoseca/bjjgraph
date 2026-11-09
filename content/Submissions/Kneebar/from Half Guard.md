@@ -202,7 +202,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 - Chest-to-thigh connection creates the fulcrum point for knee hyperextension
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -272,7 +272,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 - Opponent's hands shift from controlling your upper body (collar, sleeve, underhook) to reaching for your hip, belt, or far leg—this signals they are securing the kneebar position rather than attempting a sweep
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -340,9 +340,8 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -352,29 +351,9 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 | Meniscus tear | Medium | 6-12 weeks, may require surgery |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum with constant communication
-
-**Tap Signals**:
-- Verbal tap (loudly say 'tap' or 'stop')
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress vocalization or signal
 
 
-**Release Protocol**:
-1. Immediately release hip extension and stop arching back
-2. Return leg to neutral position without jerking
-3. Release all leg controls and allow partner to extract their leg
-4. Check with partner verbally before resuming training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission—apply smooth, progressive pressure only
-- Never use competition speed in training—always give partner minimum 3-5 seconds to tap
-- Always maintain communication and watch for tap signals
-- Never practice on partners with existing knee injuries without explicit permission
-- Lower belts should only practice under supervision with experienced partners
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

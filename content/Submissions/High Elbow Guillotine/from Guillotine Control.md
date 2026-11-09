@@ -168,7 +168,7 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 - Coordinate hip extension with elbow elevation to create opposing forces that amplify compression
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -240,7 +240,7 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 - Attacker's hips begin driving forward and extending while their guard tightens, indicating the coordinated finishing squeeze is beginning
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -303,9 +303,8 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -315,32 +314,9 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 | Jaw and temporomandibular joint stress | Medium | 1-2 weeks for minor inflammation |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time with constant awareness of partner's response
-
-**Tap Signals**:
-- Verbal tap or any verbal sound of distress
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat or opponent
-- Any loss of resistance or body going limp
-- Unusual gurgling or breathing sounds
 
 
-**Release Protocol**:
-1. Immediately release choking arm grip upon any tap signal
-2. Lower choking elbow and remove shoulder pressure simultaneously
-3. Release head control and create space by stepping back or opening guard
-4. Monitor partner's breathing and consciousness for 10-15 seconds
-5. Never reapply pressure once released, even if partner signals they are okay
-
-
-**Training Restrictions**:
-- Never apply at competition speed during drilling or positional training
-- Never spike or jerk the submission—always apply smooth progressive pressure
-- Never continue pressure if partner's face changes color or shows signs of oxygen deprivation
-- Always maintain verbal communication during slow drilling phases
-- Never practice on partners with neck or throat injuries without explicit instructor approval
-- Always allow clear tap access—never trap both arms while finishing
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

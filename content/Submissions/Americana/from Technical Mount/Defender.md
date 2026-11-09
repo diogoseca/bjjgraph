@@ -255,7 +255,7 @@ Defending the Americana from Technical Mount requires immediate recognition of t
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Americana/from Technical Mount#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Americana/from Technical Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

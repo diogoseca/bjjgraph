@@ -198,7 +198,7 @@ Defending the heel hook from Backside 50-50 top requires recognizing the attack 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Heel Hook/from Backside 50-50#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Heel Hook/from Backside 50-50#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

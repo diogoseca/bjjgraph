@@ -239,7 +239,7 @@ Defending the Omoplata from Butterfly Guard requires recognizing the attack earl
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Omoplata/from Butterfly Guard#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Omoplata/from Butterfly Guard#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -204,7 +204,7 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 - Keep your hips heavy and base stable to prevent the defender from rolling or scrambling free during the transition
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -276,7 +276,7 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 - Opponent adjusting their hip angle to create better leverage for positioning the shin as a fulcrum
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -319,9 +319,8 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -331,32 +330,9 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 | Deep tissue bruising and compartment syndrome | Medium | 2-4 weeks, rare cases require emergency surgery |
 
 
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum in training, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap strongly encouraged due to leg entanglement restricting hand access
-- Physical hand tap on partner or mat when possible
-- Physical foot tap with free leg if hands are trapped
-- Any distress vocalization treated as immediate tap signal
-- Slapping mat with free hand multiple times
 
 
-**Release Protocol**:
-1. Immediately release foot grip upon any tap signal
-2. Remove shin pressure from behind the knee slowly and controlled
-3. Unwrap legs from twister entanglement carefully without jerking
-4. Allow partner to extend leg naturally before fully disengaging
-5. Check partner's calf mobility and sensation before continuing training
-
-
-**Training Restrictions**:
-- Never apply at competition speed in training
-- Never spike or jerk the compression under any circumstances
-- Never hold after tap to practice finishing position
-- Always ensure partner has immediate tap access with at least one hand or verbal ability
-- Prohibited for colored belts below brown belt in most competition rulesets
-- Never practice on partners with previous calf or Achilles injuries without explicit consent
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

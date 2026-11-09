@@ -226,9 +226,8 @@ Named for the grip configuration that resembles holding a baseball bat, this tec
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -237,30 +236,9 @@ Named for the grip configuration that resembles holding a baseball bat, this tec
 | Neck strain from explosive application | Medium | 3-7 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress signal including loss of muscle tone
 
 
-**Release Protocol**:
-1. Immediately release all collar grips upon tap signal
-2. Remove hands completely from opponent's neck area
-3. Allow partner to recover in side position without pressure
-4. Check partner's awareness and breathing before continuing
-5. Wait for verbal confirmation of readiness before resuming training
-
-
-**Training Restrictions**:
-- Never apply at competition speed during drilling
-- Never jerk or spike the choke
-- Always ensure partner can tap with both hands
-- Never continue past initial resistance in training
-- Stop immediately if partner shows any signs of distress or unconsciousness
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

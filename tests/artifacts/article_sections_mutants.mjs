@@ -149,7 +149,7 @@ const mutants = [
     css => css + '\n.ng-reader .ng-section-card[data-collapsed=true] [data-section-toggle]{color:#555b68!important}\n'],
   ['game-collapsed-contrast', sections, 'D-338 1024px', s => s, css => css + '\n.ng-reader-closed-part [data-game-open]{color:#555b68!important}\n'],
   ['defender-hub-leak', contract, 'defender reading excludes.*Rear-Naked-Choke', s => replace(s, `shared.replaceChildren(...shared.querySelectorAll('[data-source-id="safety-considerations"]'));`, '/* mutant: keep the full attacker-rich hub */')],
-  ['stale-response', contract, 'a late response cannot repaint', s => replace(replace(s, 'this.abort?.abort();', '/* mutant: no abort */'), 'if (serial !== this.serial || this.app.__ngDestroyed) return;', 'if (this.app.__ngDestroyed) return;')],
+  ['stale-response', contract, 'a late response cannot repaint', s => replace(replace(s, 'this.abort?.abort();', '/* mutant: no abort */'), 'if (serial !== this.renderSerial || this.app.__ngDestroyed) return;', 'if (this.app.__ngDestroyed) return;')],
   ['toc-current-targets', contract, 'a late response cannot repaint', s => replace(s, 'row.append(link, eyeOff()); contents.append(row);', 'if (section.type === "options") { link.textContent = "Decisions from bottom"; link.dataset.sectionLink = "stale-bottom"; } row.append(link, eyeOff()); contents.append(row);')],
   ['reference-videos-removed', seam, 'published reference videos remain playable.*Principles/Frames', s => replace(s, 'if (REFERENCE.test(path) && source)', 'if (false)')],
   ['native-reloads', seam, '1366px media identity and native', s => replace(s, 'if (typeof target.moveBefore === "function")', 'if (false)')],
@@ -188,7 +188,7 @@ const mutants = [
   // D-338 (owner: U7 round 2), one control per new claim, each killed at its own assertion.
   // RETIRED (D-368, layout C): d338-video-not-lifted claimed the Videos section is lifted above Moves. Nothing is
   // lifted under C; the opposite is pinned by a-column-wide-videos-question and -catch.
-  ['d338-questions-above-moves', sections, '1366px choices precede', s => replace(s, '        cardY = y;\n        if (beside) {', '        cardY = (row ? parseFloat(row.style.top) : y) - cardHeight - step;\n        if (beside) {')],
+  ['d338-questions-above-moves', sections, '1366px choices precede', s => replace(s, '        cardY = y;\n        if (column) cardX', '        cardY = (row ? parseFloat(row.style.top) : y) - cardHeight - step;\n        if (column) cardX')],
   ['d338-open-part-keeps-header', sections, 'D-338 1024px', s => replace(replace(s, 'if (s.part) s.card.hidden = shown || !labels;', 'if (s.part) s.card.hidden = !labels;'), 's.card.hidden = !available || reference || this.on(s.part);', 's.card.hidden = !available || reference;')],
   ['d338-focus-browse-retained', 'reading-mode.spec.ts', '1366px complete article, every close', s => replace(s, 'this.head.append(this.heading, this.tools); this.game.append(this.head);', 'this.tools.append(button("Focus on reading", () => {}, { "data-reading-focus": "" }), button("Browse", () => app.openPane("explore"), { "data-reader-browse": "" })); this.head.append(this.heading, this.tools); this.game.append(this.head);')],
   ['d338-saved-focus-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$', s => replace(s, 'return this.app.get(GAME_KEYS[part], true) !== false;', 'return this.app.get((this.app.get("readingFocus", false) ? { card: "readingCard", hand: "readingHand", map: "readingMap", feedback: "readingFeedback" } : GAME_KEYS)[part], true) !== false;')],
@@ -250,7 +250,7 @@ const mutants = [
   // D5-N1: the deck backs' clearance and the tray's symmetry, each with its own claim.
   // D-368: at 1440 the current card's film beside the question is taller and absorbs the backs' reserve; the
   // stacked phone stage is where the article must clear them.
-  ['d338-deck-backs-unreserved', 'landcard-deck.spec.ts', '390px: the deck face keeps its 1.5x foot', s => replace(s, 'if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight) + 3 * (a._landStackEl?.childElementCount || 0);', 'if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight);')],
+  ['d338-deck-backs-unreserved', 'landcard-deck.spec.ts', '390px: the deck face keeps its 1.5x foot', s => replace(s, 'if (showCard) y += cardHeight + 3 * (a._landStackEl?.childElementCount || 0);', 'if (showCard) y += cardHeight;')],
   ['d338-tray-asymmetric', sections, 'D-338 1440px Questions and Moves close', s => replace(s, 'const rowLeft = flush ? free.center - grid / 2 - free.left : 0;', 'const rowLeft = 0;')],
   ['d338-film-waits-for-intent', seam, '1366px the current card sits in the game\'s stage', s => replace(s, 'wantsMedia() { return this.on("book"); }', 'wantsMedia() { return this.on("book") && !!(this.intent || this.interacting); }')],
   ['pressed-answer-moved', 'reading-navigation.spec.ts', '1440px reader adoption during a mouse press', s => replace(s, ' || this.app._readerPress', '')],
@@ -264,7 +264,7 @@ const mutants = [
   ['d352-film-over-pin', 'reading-media-placement.spec.ts', '390px a film chunk landing after 2.6s', s => replace(s, 'homeMedia = homeMedia && !pin.hid && this.media === pin.film && h <= pin.mh;', 'homeMedia = homeMedia;')],
   ['d352-ready-before-layout', 'systems-surface.spec.ts', 'D-352: a reference page says ready only once', s => replace(s, '      // out of the game\'s header row; a frame later, a click aimed at "ready" hit the map instead.\n      this.layoutNow();\n', '      // out of the game\'s header row; a frame later, a click aimed at "ready" hit the map instead.\n')],
   ['d352-home-clamp-lost', sections, 'D-352: at arrival Home and PageUp', s => replace(s, 'this.root.scrollTop = /Home|Up/.test(event.key) ? Math.min(top, to) : to;', 'this.root.scrollTop = to;')],
-  ['d352-hand-after-questions', sections, 'D-352: at arrival Home and PageUp', s => replace(s, 'if (key === "hand") this.gameSections[1].card.before(el); else game.append(el);', 'game.append(el);')],
+  ['d352-hand-after-questions', sections, 'D-352: at arrival Home and PageUp', s => replace(s, 'if (key === "hand") this.gameSections[1].card.before(el); else home.before(el);', 'home.before(el);')],
   // D-353 (Delta 7 B1): a play settles the pin, as grading does.
   ['d353-play-keeps-pin', 'defending-landing.spec.ts', 'D-353: playing the pinned film', s => replace(s, '      if (name === "expandClip") this._readerPin = null;\n', '')],
   // D-368 (layout C) invariants. A: the video card column-wide in the Videos section, lifted above Moves (the
@@ -293,8 +293,7 @@ const mutants = [
   ['u52b-touch-press-declines', 'covered-card.spec.ts', 'a touch scroll over the article does not decline',
     s => replace(s, ' || type === "pointerdown" && event.pointerType !== "mouse"', '')],
   ['u47-backs-unpaid', 'landcard-deck.spec.ts', '390px: the deck face keeps its 1.5x foot',
-    s => replace(s, 'if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight) + 3 * (a._landStackEl?.childElementCount || 0);',
-      'if (showCard) y += (beside ? Math.max(cardHeight, mediaHeight) : cardHeight);')],
+    s => replace(s, 'if (showCard) y += cardHeight + 3 * (a._landStackEl?.childElementCount || 0);', 'if (showCard) y += cardHeight;')],
   // U14 b (owner, 2026-10-24): asymmetric side reserves shift the words; missing rules lose the divider.
   ['u14-divider-off-centre', 'section-divider.spec.ts', '1440px divider titles', s => s,
     css => css + '.ng-section-card>h2{padding-left:52px}'],
@@ -349,7 +348,7 @@ const mutants = [
   ['columns-gap-lost-rhythm', contract, '1366px reader rhythm', s => s, css => replace(css, 'margin:0 0 var(--gap)', 'margin:0')],
   // A character count for the height: the schemas' field limits, the owner's first thought, and the brief's reason to measure.
   ['columns-tall-tile', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => replace(s, 'height = rect(s.card).height + 24', 'height = s.body.textContent.length / 3')],
-  ['columns-stale-height', 'article-dashboard.spec.ts', 'a tile that grows reorders', s => replace(s, '      this.tiles.observe(card);\n', '')],
+  ['columns-stale-height', 'article-dashboard.spec.ts', 'a tile that grows reorders', s => replace(s, '      this.tileSizer.observe(card);\n', '')],
   ['columns-close-waits-a-frame', 'article-dashboard.spec.ts', 'a close sorts the columns in its own task', s => replace(s, '        this.layoutNow();\n        if (opening) this.scrollTo(card, toggle);', '        if (opening) { this.layoutNow(); this.scrollTo(card, toggle); }')],
   // Closing a tile re-sorts the tiles before it, which is the one thing a close must not do.
   ['columns-close-reorders', 'article-dashboard.spec.ts', 'closing a tile moves nothing', s => replace(s, '    for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {', '    if (closed.length) open.reverse();\n    for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {')],
@@ -459,6 +458,24 @@ const mutants = [
   ['u59r4-drag-on-reader', 'opening-camera.spec.ts', 'a drag mid-rise', s => s, css => css + '\nbody:after{content:"";position:fixed;left:1290px;top:150px;width:40px;height:40px;z-index:99}\n'],
   // "The phone keeps its stacked flow": its one-column rule removed, so the desktop's half width applies at 390px.
   ['u59-phone-pairs', 'article-dashboard.spec.ts', 'at 390x844 the phone keeps', s => s, css => replace(css, '@container (max-width:660px){[data-reader-body]>*{width:100%}}', '')],
+  // U110 a (owner, 2026-11-09): under 1,024px every stacked container is one 496px box. At 600px the card is 496px with or
+  // without the cap (600 less the arrows' 104), so the card's own control runs at 768px.
+  // U104 (v1.252.0): a closed question's label is a row across the grid, so both columns start under it.
+  ['u104-label-under-article', sections, 'D-338 1152px Questions and Moves close', s => replace(s, 'const filmEnd = (showCard ? cardY : y) + ', 'const filmEnd = cardY + ')],
+  // U104: each column carries on under its own stage cell.
+  ['u104-no-lead', 'article-dashboard.spec.ts', '@curated at 1440x900 the article is two columns', s => replace(s, 'this.sortColumns(...this.leadCells);', 'this.sortColumns();')],
+  // U112 a: the reader shows the page's guide whole; the old reader cut would drop the closing line with the four parts.
+  ['u111-reader-cut-back', 'safety-risks-only.spec.ts', 'Armbar/from-Mount/Attacker', s => replace(s, "    // U111, U112 a (owner, 2026-11-09): a submission's guide is cut in its template",
+    '    submission && buckets.get("safety")?.parts[0].node.querySelectorAll(":scope>.table-container~*").forEach(n => n.remove());\n    // U111, U112 a (owner, 2026-11-09): a submission\'s guide is cut in its template')],
+  // Cobbler's gap check (v1.252.0): a reader table keeps Quartz's side and foot padding, not its top.
+  ['table-top-padding-back', 'safety-risks-only.spec.ts', 'Armbar/from-Mount/Attacker', s => s, css => replace(css, 'margin:0;padding-top:0}', 'margin:0}')],
+  ['u110-cap-lost', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = 0;')],
+  ['u110-card-uncapped', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'beside ? 390 : cap || (arrows ? 560 : 520)', 'beside ? 390 : arrows ? 560 : 520')],
+  ['u110-film-uncapped', 'stacked-width.spec.ts', 'stacked at 900px', s => replace(s, 'a.filmLayout(cap ? Math.min(free.width, cap + 32) : free.width,', 'a.filmLayout(free.width,')],
+  ['u110-grid-uncapped', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'Math.min(cap || 902, free.width - 64)', 'Math.min(902, free.width - 64)')],
+  // U110 a: the Moves row takes the column wherever the stacked box binds, 600 to 640px included (cobbler's check, 2026-11-09).
+  ['u110-tray-phone-flush', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'available && (W > 640 || free.width >= 600)', 'available && W > 640')],
+  ['u110-cap-past-columns', 'stacked-width.spec.ts', 'at 1,024px the columns begin', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = free.width < 1100 && 496;')],
 ]
 // D7-N1: controls whose claim IS the landSettled stall (land_publish_stalled). None today.
 const STALL_CLAIMS = new Set([])

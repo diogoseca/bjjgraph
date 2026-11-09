@@ -204,7 +204,7 @@ This submission chain is particularly effective because the Shoulder of Justice 
 - Squeeze elbows together using chest and back muscles rather than pulling with arms to generate sustainable choking pressure
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -278,7 +278,7 @@ This submission chain is particularly effective because the Shoulder of Justice 
 - Opponent's free hand reaches toward the threading arm to establish a grip connection around your neck
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -338,9 +338,8 @@ This submission chain is particularly effective because the Shoulder of Justice 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -350,31 +349,9 @@ This submission chain is particularly effective because the Shoulder of Justice 
 | Neck strain from explosive bridging attempts under choke pressure | Medium | 3-7 days |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the danger and tap before full compression
-
-**Tap Signals**:
-- Verbal tap or verbal submission
-- Multiple rapid hand taps on opponent's body
-- Multiple rapid foot taps on the mat
-- Any distress signal including body convulsions or going limp
-- Loss of resistance indicating possible unconsciousness
 
 
-**Release Protocol**:
-1. Immediately release arm pressure and unlock gable grip upon any tap signal
-2. Roll off opponent's head and neck area completely without jerking their neck
-3. Allow opponent to recover in side-lying position with airway clear
-4. Monitor for signs of consciousness and normal breathing patterns
-5. If opponent is unconscious, place in recovery position and alert medical staff immediately
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking pressure to the neck during the choke transition
-- Always ensure partner has clear tap access with at least one hand throughout the sequence
-- Never hold the choke after partner taps or goes limp under any circumstances
-- Beginners should practice only the positional transition and grip placement without applying choking pressure
-- Never use competition speed or full pressure in training—apply progressively and give time to tap
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

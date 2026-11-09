@@ -293,7 +293,7 @@ Attacking with the toe hold from leg entanglement requires precise figure-four g
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Toe Hold/from Leg Entanglement#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Toe Hold/from Leg Entanglement#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

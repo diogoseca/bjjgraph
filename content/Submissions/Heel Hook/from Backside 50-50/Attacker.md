@@ -299,7 +299,7 @@ Attacking the heel hook from Backside 50-50 bottom demands a fundamentally diffe
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Heel Hook/from Backside 50-50#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Heel Hook/from Backside 50-50#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

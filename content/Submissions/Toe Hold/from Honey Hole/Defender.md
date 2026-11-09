@@ -237,7 +237,7 @@ Defending the toe hold from Honey Hole requires recognizing the grip transition 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Toe Hold/from Honey Hole#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Toe Hold/from Honey Hole#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

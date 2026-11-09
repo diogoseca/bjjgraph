@@ -281,7 +281,7 @@ Attacking the toe hold from Inside Sankaku requires maintaining your leg entangl
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Toe Hold/from Inside Sankaku#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Toe Hold/from Inside Sankaku#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

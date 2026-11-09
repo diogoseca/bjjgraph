@@ -265,7 +265,7 @@ The kneebar from Saddle represents a high-percentage secondary attack from one o
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Kneebar/from Saddle#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Kneebar/from Saddle#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

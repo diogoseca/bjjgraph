@@ -246,7 +246,7 @@ The bilateral nature of 50-50 creates a unique defensive dynamic: your best defe
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Toe Hold/from 50-50#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Toe Hold/from 50-50#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

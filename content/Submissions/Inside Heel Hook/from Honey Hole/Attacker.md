@@ -281,7 +281,7 @@ Executing the Inside Heel Hook from Honey Hole requires systematic establishment
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Inside Heel Hook/from Honey Hole#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Inside Heel Hook/from Honey Hole#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

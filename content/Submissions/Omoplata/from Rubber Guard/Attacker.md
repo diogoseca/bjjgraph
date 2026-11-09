@@ -263,7 +263,7 @@ Attacking the omoplata from Rubber Guard demands systematic progression through 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Omoplata/from Rubber Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Omoplata/from Rubber Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

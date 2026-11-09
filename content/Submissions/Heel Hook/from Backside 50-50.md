@@ -204,7 +204,7 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 - Counter-attack mentality - treat this as a reactive weapon that punishes opponent overcommitment rather than a proactive strategy from this disadvantaged position
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -278,7 +278,7 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 - You feel fingers or palm contact on your Achilles tendon or heel area during a moment when you shifted weight or initiated your own attack
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -345,9 +345,8 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -357,28 +356,9 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 | LCL sprain or tear from lateral rotational stress during outside heel hook variation | High | 4-8 months depending on severity grade |
 
 
-**Application Speed**: Extremely fast onset. Heel hooks can cause structural ligament damage within fractions of a second after the breaking mechanism engages, often before pain signals reach the brain. Always apply pressure progressively in training and pause when the mechanism locks to allow your partner time to tap.
-
-**Tap Signals**:
-- Verbal tap - clearly say 'tap' or 'stop' loud enough for partner to hear
-- Physical tap - tap partner's body, legs, or the mat at least twice with hand or foot
-- Foot tap - tap the mat or opponent with the free foot when hands are trapped in the entanglement
-- Any visible distress, panic response, or sudden stillness should be treated as a tap immediately
 
 
-**Release Protocol**:
-1. Release grip immediately upon any tap signal without completing or maintaining the rotation
-2. Maintain leg entanglement position briefly after release to allow partner to assess their knee before moving
-3. Do not re-engage the same leg attack immediately after release - allow recovery and assessment time
-4. If partner shows any signs of injury after release, stop the round entirely and assess before continuing
-
-
-**Training Restrictions**:
-- Purple belt and above only for live heel hook exchanges - lower belts should drill grip acquisition and positioning without finishing pressure
-- Always communicate comfort level with heel hooks before rolling with new or unfamiliar training partners
-- No explosive or jerking application of finishing force in training - progressive pressure only with clear pauses
-- Avoid heel hook exchanges when fatigued as reaction time for recognizing danger and tapping slows significantly
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

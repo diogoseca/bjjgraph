@@ -263,7 +263,7 @@ Attacking with the Short Choke from Gift Wrap leverages the position's fundament
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Short Choke/from Gift Wrap#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Short Choke/from Gift Wrap#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

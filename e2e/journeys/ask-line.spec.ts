@@ -125,7 +125,9 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 900], [1024, 900], 
       const range = document.createRange()
       range.selectNode([...go.childNodes].find(n => n.nodeType === Node.TEXT_NODE)!)
       const label = range.getBoundingClientRect()
+      const f = film?.getBoundingClientRect()
       return { samples: edges.reduce((n, e) => n + e.samples, 0), stolen: edges.reduce((n, e) => n + e.stolen, 0), onFilm, filmTop,
+        overlapsFilm: !!f && box.left < f.right && f.left < box.right && box.top < f.bottom && f.top < box.bottom,
         height: box.height, top: box.top, bottom: box.bottom, cardsBottom: Math.max(...cards.map(c => c.getBoundingClientRect().bottom)),
         focused: go.matches(":focus-visible"), ringStyle: ring.outlineStyle, label: { top: label.top, bottom: label.bottom },
         ring: { top: box.top + parseFloat(ring.top), bottom: box.bottom - parseFloat(ring.bottom) } }
@@ -135,7 +137,9 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 900], [1024, 900], 
     expect(g.top, "VIDEO3 Answer for Points starts below the choices").toBeGreaterThanOrEqual(g.cardsBottom)
     expect(g.onFilm?.samples, "premise: this page shows its film").toBeGreaterThan(0)
     expect(g.onFilm!.stolen, "VIDEO3 Answer for Points takes no press from the film").toBe(0)
-    expect(g.bottom, "VIDEO3 Answer for Points ends above the film").toBeLessThanOrEqual(g.filmTop! + .5)
+    // U104, U108 a (owner, 2026-11-09): the film is the right column now, beside the line rather than under it, so "ends above the
+    // film" (its old proxy) is stricter than the claim. The claim is that the link and the film never share a pixel.
+    expect(g.overlapsFilm, "VIDEO3 Answer for Points never overlaps the film").toBe(false)
     expect(g.height, "VIDEO3 the link keeps its 44px target").toBeGreaterThanOrEqual(44)
     expect(g.focused, "premise: the link shows keyboard focus").toBe(true)
     if (width <= 640 && height >= 700) return

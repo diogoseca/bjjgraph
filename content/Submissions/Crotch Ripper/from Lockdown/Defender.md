@@ -196,7 +196,7 @@ Defending the Crotch Ripper requires understanding that this compression submiss
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Crotch Ripper/from Lockdown#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Crotch Ripper/from Lockdown#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

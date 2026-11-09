@@ -248,7 +248,7 @@ Defending the guillotine from Twister Control requires recognizing that your esc
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Guillotine Choke/from Twister Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Guillotine Choke/from Twister Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

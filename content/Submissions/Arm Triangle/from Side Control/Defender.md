@@ -272,7 +272,7 @@ Defending the arm triangle from side control requires awareness of your near arm
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Arm Triangle/from Side Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Arm Triangle/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

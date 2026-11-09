@@ -170,7 +170,7 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 - Maintain readiness to convert failed finish attempts into positional advancement when choke defense opens other opportunities
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -246,7 +246,7 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 - Difficulty breathing or sudden lightheadedness indicating blood flow restriction has begun
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -315,9 +315,8 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -327,30 +326,9 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 | Unconsciousness from blood choke | High | Immediate recovery but requires medical monitoring |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time. Never snap or jerk the submission
-
-**Tap Signals**:
-- Verbal tap or any vocal sound
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any distress signal or loss of resistance
 
 
-**Release Protocol**:
-1. Immediately release choking arm pressure upon any tap signal
-2. Remove head from opponent's neck and open grip completely
-3. Help opponent to seated position if they appear disoriented
-4. Monitor breathing and consciousness for 30 seconds minimum
-5. Call for medical assistance if partner doesn't recover within 20 seconds
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity during drilling phases
-- Always allow clear tap access for both arms and verbal signaling
-- Stop immediately at any sign of distress including gurgling, color change, or sudden limpness
-- Avoid cranking or using neck hyperextension to force the submission
-- Never practice full-pressure guillotines on partners with known neck injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

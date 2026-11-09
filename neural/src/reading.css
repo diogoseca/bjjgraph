@@ -106,8 +106,10 @@ h2+.ng-section-body { padding-top:0; }
 .ng-section-body :is(ul,ol) { display:grid;gap:calc(var(--reader-unit)/2);padding-left:24px;margin:0; }
 .ng-section-body li { margin:0; }
 .ng-section-body a { color:#adc9ff;text-decoration:underline;text-underline-offset:3px; }
-/* The section supplies spacing; Quartz's table margin otherwise clips a three-column table at 768px. */
-.ng-section-body table { display:block;overflow-x:auto;font-size:14px;margin:0; }
+/* The section supplies spacing; Quartz's table margin otherwise clips a three-column table at 768px. Its 1.5rem padding stays at the
+   sides and the foot, but not the top (cobbler's check, v1.252.0): with the paragraph's 20px it left ~60px between a table and the
+   line that heads it, and since U111 a Submission's guide is that line and its table. */
+.ng-section-body table { display:block;overflow-x:auto;font-size:14px;margin:0;padding-top:0; }
 .ng-section-body :is(td,th) { padding:8px;border-bottom:1px solid #414c68; }
 .ng-section-body img { max-width:100%; }
 /* U101 b: "Read more" on a position's How it works. One way: it goes once the text has opened. */

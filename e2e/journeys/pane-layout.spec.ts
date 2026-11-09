@@ -106,23 +106,28 @@ for (const width of [1440, 1024]) {
     // STALE CONTRACT (D-368's stacked order): U52 b puts the question straight after Moves, so a stacked
     // reflow keeps the question under Moves and the current card follows the question's backs.
     const shift = open.card.x - before.card.x, reflow = open.layout !== before.layout
-    expect(before.layout, 'VIDEO1 the available width selects the desktop or stacked stage').toBe(width >= 1152 ? 'side-by-side' : 'stacked')
+    // U104 and U110 a (owner, 2026-11-09): the columns begin at 1,024px free, and under that everything stacks in one 496px box.
+    expect(before.layout, 'VIDEO1 the available width selects the desktop or stacked stage').toBe(width >= 1024 ? 'side-by-side' : 'stacked')
     if (!reflow) expect(shift).toBeGreaterThan(80)
     for (const surface of ["card", "film"] as const) {
       expect(open[surface].visible, `${surface} remains visible`).toBe(true)
       expect(open[surface].x).toBeGreaterThanOrEqual(open.pane.right)
       expect(open[surface].right).toBeLessThanOrEqual(width)
       if (!reflow) {
-        if (surface === "card") expect(open[surface].width, `${surface} keeps its readable width`).toBeCloseTo(before[surface].width, 0)
-        // VIDEO1's full-column film can narrow with the available pane. Its centre
-        // still follows the card; its new width is asserted independently below.
-        expect(open[surface].center - before[surface].center, `${surface} moves with the card`).toBeCloseTo(shift, 0)
+        // U104, U108 a (owner, 2026-11-09, replacing a fixed 390px face beside a 400px film): in columns the question and the
+        // film are the article grid's two columns, so the pane narrows both with the grid. The open face keeps its 52px lane
+        // for the deck's arrows, the film stays right of it, and each keeps its vertical dock.
+        if (surface === "card") {
+          expect(open.film.width - open.card.width, "equal columns: the film is the face and its arrows' lane").toBeCloseTo(52, 0)
+          expect(open.film.x, 'the film stays right of the question').toBeGreaterThan(open.card.right)
+        }
         expect(open[surface].y, `${surface} keeps its vertical dock`).toBeCloseTo(before[surface].y, 0)
       }
     }
     if (open.layout === 'stacked') {
-      expect(open.film.width).toBe(Math.min(680, width - open.pane.width - 32))
-      expect(open.card.width).toBe(Math.min(560, width - open.pane.width - 104))
+      // U110 a: stacked, the film and the card share one box of at most 496px.
+      expect(open.film.width).toBe(Math.min(496, width - open.pane.width - 32))
+      expect(open.card.width).toBe(Math.min(496, width - open.pane.width - 104))
       expect(open.card.y - open.hand.bottom, 'the question follows Moves at the deck gap').toBeCloseTo(16, 0)
       expect(open.film.y - (open.card.bottom + 3 * open.backs), "the current card follows the question's backs at the deck gap").toBeCloseTo(16, 0)
     }

@@ -205,7 +205,7 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 - Attack during transitions, not static positions—the guillotine is most effective when the opponent's head drops during movement, grip fighting, or takedown attempts
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -279,7 +279,7 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 - Your own posture being broken downward with your head forced below the opponent's chest level during clinch grip fighting
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -343,9 +343,8 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -354,29 +353,9 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 | Carotid artery compression causing unconsciousness if choke is held after opponent goes limp | High | Immediate recovery if released promptly; prolonged compression can cause brain injury |
 
 
-**Application Speed**: SLOW and progressive. Apply increasing pressure gradually over 2-3 seconds. Never jerk, spike, or explosively crank the neck. The standing position amplifies forces on the cervical spine compared to ground-based guillotines.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, your arm, or mat
-- Physical foot tap or stomping on the mat
-- Any unusual vocalization, gurgling, or distress sounds
-- Body going limp (unconsciousness) - treat as immediate tap
 
 
-**Release Protocol**:
-1. Release immediately upon any tap signal without delay
-2. If opponent goes limp, release immediately and lower them safely to the ground in recovery position
-3. If in doubt whether a signal was a tap, release immediately - position can always be re-established
-4. After release, check on training partner's condition before resuming
-
-
-**Training Restrictions**:
-- Apply slowly with progressive pressure in training - never explosively crank from standing
-- Beginners should drill grip mechanics and positioning without finishing pressure until comfortable with the defense
-- Avoid training standing guillotine at full resistance with significant size or strength mismatches
-- Do not train this technique on partners with known cervical spine issues or neck injuries
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

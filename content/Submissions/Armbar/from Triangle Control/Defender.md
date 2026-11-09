@@ -173,7 +173,7 @@ The triangle entanglement remains in place while the attacker changes the active
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Armbar/from Triangle Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Armbar/from Triangle Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

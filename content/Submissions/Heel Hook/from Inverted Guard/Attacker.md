@@ -281,7 +281,7 @@ Attacking with the heel hook from inverted guard requires precise timing of the 
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Heel Hook/from Inverted Guard#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Heel Hook/from Inverted Guard#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

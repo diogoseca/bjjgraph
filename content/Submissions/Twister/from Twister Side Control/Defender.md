@@ -230,7 +230,7 @@ Defending the Twister from Twister Side Control demands immediate attention to s
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Twister/from Twister Side Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Twister/from Twister Side Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

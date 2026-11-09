@@ -275,7 +275,7 @@ Attacking the armbar from knee on belly requires converting the opponent's natur
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Armbar/from Knee on Belly#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Armbar/from Knee on Belly#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

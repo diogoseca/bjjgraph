@@ -274,7 +274,7 @@ Keep your elbows tight to your ribs at all times, never allowing your near arm t
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Americana/from 3-4 Mount#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Americana/from 3-4 Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -274,7 +274,7 @@ Defending the armbar from back control is one of the most challenging defensive 
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Armbar/from Back#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Armbar/from Back#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

@@ -281,7 +281,7 @@ Attacking with the toe hold from an established Toe Hold Control position is the
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Toe Hold/from Toe Hold Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Toe Hold/from Toe Hold Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

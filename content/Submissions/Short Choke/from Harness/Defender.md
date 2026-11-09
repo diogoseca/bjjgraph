@@ -189,7 +189,7 @@ Defending the Short Choke from Harness requires early recognition and systematic
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Short Choke/from Harness#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Short Choke/from Harness#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

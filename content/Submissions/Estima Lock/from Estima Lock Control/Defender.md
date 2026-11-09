@@ -236,7 +236,7 @@ Defending the Estima Lock finish from an established control position is signifi
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Estima Lock/from Estima Lock Control#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Estima Lock/from Estima Lock Control#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

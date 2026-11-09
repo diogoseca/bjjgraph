@@ -199,7 +199,7 @@ Timing is critical because the top-down angle makes late-stage Kimura defense fa
 
 <section id="defensive-options" class="content-section">
 
-> Tap early and often. [[Submissions/Kimura/from High Mount#safety-considerations|Safety guide ↓]]
+> Tap early and often. [[Submissions/Kimura/from High Mount#safety-considerations|Injury risks ↓]]
 
 ## Defensive Options
 

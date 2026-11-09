@@ -282,7 +282,7 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Americana/from Side Control#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Americana/from Side Control#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

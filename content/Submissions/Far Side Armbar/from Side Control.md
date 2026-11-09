@@ -170,7 +170,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 - Control the opponent's head or near arm to prevent defensive turns
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -246,7 +246,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 - You feel your far arm being clamped tightly against the attacker's chest with their elbow squeezing to their ribs
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -329,9 +329,8 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -341,30 +340,9 @@ This submission appears frequently in both gi and no-gi competition at all level
 | Shoulder strain from torquing during setup | Medium | 2-6 weeks |
 
 
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to tap. Never snap or jerk the submission.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap (on partner or mat)
-- Physical foot tap (on partner or mat)
-- Any distress signal or unusual sound
 
 
-**Release Protocol**:
-1. Immediately release hip pressure and stop extending the arm
-2. Open your legs if using leg control over the body
-3. Return opponent's arm to neutral position slowly
-4. Allow opponent to recover and reset before continuing
-5. Check with partner verbally that they are okay
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply sudden explosive force to the submission
-- Never use competition speed or pressure in training rolls
-- Always ensure partner has clear access to tap with at least one hand
-- Stop immediately at any sign of discomfort or unusual joint sound
-- White and blue belts should practice at 30-50% speed only
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 

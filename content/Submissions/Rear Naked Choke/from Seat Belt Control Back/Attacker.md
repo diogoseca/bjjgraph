@@ -282,7 +282,7 @@ The Rear Naked Choke from Seat Belt Control Back represents the single highest-p
 
 <section id="execution-steps" class="content-section">
 
-> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Seat Belt Control Back#safety-considerations|Safety guide ↓]]
+> Release immediately upon tap. [[Submissions/Rear Naked Choke/from Seat Belt Control Back#safety-considerations|Injury risks ↓]]
 
 ## Execution Steps
 

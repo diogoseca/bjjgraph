@@ -168,7 +168,7 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 - Progressive pressure application prevents injury and provides consistent feedback on submission depth
 
 
-> Release immediately upon tap. [Safety guide ↓](#safety-considerations)
+> Release immediately upon tap. [Injury risks ↓](#safety-considerations)
 
 ### Execution Steps
 
@@ -238,7 +238,7 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 - Attacker begins pulling your leg toward their chest while extending their body to straighten your captured leg
 
 
-> Tap early and often. [Safety guide ↓](#safety-considerations)
+> Tap early and often. [Injury risks ↓](#safety-considerations)
 
 ### Escape Paths
 
@@ -299,9 +299,8 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 
 <section id="safety-considerations" class="content-section">
 
-## Safety Guide
 
-**Injury Risks**:
+## Injury risks
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
@@ -311,30 +310,9 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 | Meniscus tear (medial or lateral) | High | 3-6 months, may require surgery |
 
 
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress vocalization or signal
 
 
-**Release Protocol**:
-1. Immediately stop all hip extension the moment tap is received
-2. Release hip pressure by dropping hips away from opponent's leg
-3. Maintain positional control while releasing the leg slowly
-4. Allow opponent to extract their leg at their own pace
-5. Check with partner verbally after release
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply smooth, progressive pressure
-- Never use competition speed or intensity in training rolls
-- Always communicate with training partners about leg lock experience level
-- Never continue pressure after any tap signal
-- Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission
-
+> **Go slow.** Apply this gradually, with a partner who knows it is coming, and let go the moment they tap, by hand, foot or voice.
 
 </section>
 
