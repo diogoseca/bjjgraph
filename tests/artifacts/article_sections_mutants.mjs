@@ -517,6 +517,9 @@ const mutants = [
   ['u110-tray-phone-flush', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'this.trayFlush = W > 640 || free.width >= 600', 'this.trayFlush = W > 640')],
   // #346's review, finding 6: stacked, the article's ✕ ends on the column's right edge.
   ['u110-cap-past-columns', 'stacked-width.spec.ts', 'at 1,024px the columns begin', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = free.width < 1100 && 496;')],
+  // v1.254.0: a reader button's pointer click counts only if its own pointerdown was on it, so the click ending a background tap on
+  // touch cannot land on the Questions label that took the card's place and reopen the card.
+  ['ghost-press-reopens-card', 'legend-search.spec.ts', 'nowhere a node is revealed \\(768', s => replace(s, 'if (!event.detail || node.contains(downOn)) action(event);', 'action(event);')],
 ]
 // D7-N1: controls whose claim IS the landSettled stall (land_publish_stalled). None today.
 const STALL_CLAIMS = new Set([])

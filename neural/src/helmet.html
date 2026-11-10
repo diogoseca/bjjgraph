@@ -42,8 +42,14 @@
   @media (prefers-reduced-motion: reduce){.ng-film-arrow,.ng-film-arrow[data-off]{transition:none;}}
   .ng-optionrow::-webkit-scrollbar{height:0;display:none;}
   [data-reader-pending]{visibility:hidden!important;}
-  .ng-logo{transition:background .14s,color .14s;filter:drop-shadow(0 1px 3px rgba(0,0,0,.7));}
-  .ng-logo:hover{background:rgba(255,255,255,.07)!important;color:#fff!important;}
+  .ng-logo,.ng-search{transition:background .14s,color .14s;filter:drop-shadow(0 1px 3px rgba(0,0,0,.7));}
+  .ng-logo:hover,.ng-search:hover{background:rgba(255,255,255,.07)!important;color:#fff!important;}
+  /* v1.254.0: the legend's key shows on the map alone, and the win bar steps aside for the index (updateUiShift, the one writer).
+     Hidden, never removed: visibility takes each out of hit-testing and the accessibility tree, and the bar keeps its one painter.
+     The key's !importants outrank its inline opacity (the hand's fade) and its inline .6s transition. */
+  .ng-legendkey[data-away]{opacity:0!important;visibility:hidden;transition:opacity .3s ease,visibility 0s .3s!important;}
+  .ng-winbar{transition:opacity .3s ease;}
+  .ng-winbar[data-away]{opacity:0;visibility:hidden;transition:opacity .3s ease,visibility 0s .3s;}
   @keyframes ngSpin{to{transform:rotate(360deg);}}
   @keyframes ngCount{from{transform:scaleX(1);}to{transform:scaleX(0);}}
   @keyframes ngCardIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
@@ -197,6 +203,7 @@
   @media (max-width:640px){
     .ng-sharecue{bottom:84px!important;right:14px!important;}
     .ng-logo{top:16px!important;left:10px!important;}
+    .ng-search{top:16px!important;left:60px!important;}
     .ng-drill{width:88vw!important;}
     .ng-evtoast{width:86vw!important;}
     .ng-optionrow{padding-top:10px!important;padding-bottom:6px!important;gap:9px!important;}

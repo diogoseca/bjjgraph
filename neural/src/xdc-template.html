@@ -89,6 +89,12 @@
     <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="3"></rect><path d="M9.5 4.5v15"></path></svg>
     <span data-drawer-dot="1" style="display:none;position:absolute;top:9px;right:8px;width:8px;height:8px;border-radius:50%;background:#e9bd70;box-shadow:0 0 0 2px #10131f;"></span>
   </button>
+  <!-- SEARCH (v1.254.0, owner, 2026-11-10: "a search icon on the right of the dashboard, next to the open drawer icon"). The drawer's
+       own search box, the path "/" and Cmd/Ctrl+K take (`openSearchPane`); the old modal (`openSearch`) has no user path. 6px from the
+       drawer button, the drawer head's own gap; hidden with it while the drawer is open (its box sits under the drawer's head). -->
+  <button type="button" aria-label="Search" title="Search (/)" class="ng-search" onClick="{{ openSearchPane }}" style="position:absolute;top:18px;left:72px;pointer-events:auto;cursor:pointer;z-index:9;border:0;background:transparent;padding:0;width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;color:#cbd4e6;">
+    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"></circle><path d="m20 20-4.35-4.35"></path></svg>
+  </button>
 
   <!-- transport controls (bottom center) -->
   <!-- THE TRANSPORT IS RETIRED (v1.134.0, owner): with the hesitation branch gone the game is

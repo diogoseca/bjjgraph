@@ -436,7 +436,7 @@ class Component extends DCLogic {
       accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctMenuRef: this.acctMenuRef, acctCtaRef: this.acctCtaRef, toggleAccountMenu: () => this.toggleAccountMenu(),
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
       explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef,
-      toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(),
+      toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(), openSearchPane: () => this.openSearchPane("icon"),
       legendPointRef: this.legendPointRef, legendRef: this.legendRef,
       togglePause: () => this.setPaused(!this.paused), resetRoll: () => this.resetRoll(),
       evCenterRef: this.evCenterRef, evcKickerRef: this.evcKickerRef, evcTextRef: this.evcTextRef, evcSubRef: this.evcSubRef,
@@ -933,8 +933,8 @@ class Component extends DCLogic {
     // where its 95 outranks every ambient overlay (landcard 5, combo pop 72).
     // Listeners above survive the move; the account menu portals the same way when opened.
     if (this.modalRef.current && this.__ngRoot && this.modalRef.current.parentElement !== this.__ngRoot) this.__ngRoot.appendChild(this.modalRef.current);
-    const logoEl = this.wrapRef.current.querySelector(".ng-logo");
-    if (logoEl) {
+    // The drawer button and the search icon beside it (v1.254.0): a press must not reach attachInput's capture on the wrap (§6.1).
+    for (const logoEl of this.wrapRef.current.querySelectorAll(".ng-logo,.ng-search")) {
       logoEl.addEventListener("pointerdown", (e) => e.stopPropagation());
       logoEl.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false });
     }
@@ -947,8 +947,7 @@ class Component extends DCLogic {
       if (e.key !== "Escape" && this._readKey(e)) return;
       if (((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing)) {
         e.preventDefault();
-        this.openPane("explore");
-        this.explorerSearchRef.current?.focus();
+        this.openSearchPane("key");
       } else if (e.key === "Escape") {
         // Esc walks the Z LADDER top-down: deliberate screens first (modal 95, menu 90),
         // then temporary gameplay screens, then the pane above the landing reading column.
@@ -3090,7 +3089,7 @@ class Component extends DCLogic {
     // share a corner, so the chip keeps its normal look. On a phone the drawer takes the screen
     // and the chip fades (updateUiShift) — close its menu so it can't linger over the drawer.
     if (!open) this.closeAccountMenu();   // the badge's menu lives in the drawer (v1.242.0)
-    { const o = this.wrapRef.current && this.wrapRef.current.querySelector(".ng-logo"); if (o) o.style.visibility = open ? "hidden" : ""; }   // the drawer's head owns the corner while open
+    for (const o of this.wrapRef.current?.querySelectorAll(".ng-logo,.ng-search") || []) o.style.visibility = open ? "hidden" : "";   // the drawer's head owns the corner while open
     // Landing surfaces share the wrap's stacking context with the pane. They remain readable
     // and interactive beside it; at narrow widths the pane covers the overlap naturally.
     if (open && !wasShown) this._declineLandQ("pane"); // studying instead of answering = declining (v1.134.0)
@@ -11178,7 +11177,16 @@ class Component extends DCLogic {
     const i = text.toLowerCase().indexOf(q); if (i < 0) return text;
     return text.slice(0, i) + '<span style="background:rgba(120,160,255,.32);border-radius:3px;padding:0 1px;">' + text.slice(i, i + q.length) + '</span>' + text.slice(i + q.length);
   }
+  // THE OLD SEARCH MODAL has no user path: no control and no key opens it (the template binds it to nothing). Two journeys
+  // still drive it through the test handle (alias-search, seat-word-and-search). The search a player reaches is the drawer's.
   openSearch() { this._searchQ = ""; this._searchSel = null; this.openModal(); this.renderSearch(); }
+  /** ONE WAY INTO SEARCH (v1.254.0): the search icon beside the drawer button, "/" and Cmd/Ctrl+K open the drawer on its list
+   *  with its search box focused. Phones too, unlike the drawer button: a search press asks for the keyboard. */
+  openSearchPane(via) {
+    this.openPane("explore");
+    this.explorerSearchRef.current?.focus();
+    this.fx("search_open", { via });
+  }
   // ── ONE "START A ROLL HERE" (v1.104.5, owner: "why wasn't this calling the same method as
   // when navigation happens? or wtv. i thought this had been streamlined") ──
   //
@@ -12749,8 +12757,20 @@ class Component extends DCLogic {
     // Left to the reader's next frame, a click measured just after the pane opened landed on the moved
     // card (its next arrow's point became an answer: pane-keyboard:103, 10 of 75 isolated runs red).
     if (this.uiShift !== previous) this._reader?.layoutNow();
-    // fade the legend out only while option cards actually overlap it; fade back in otherwise
-    const leg = this.legendRef.current;
+    // THE LEGEND'S ONE WRITER, every frame, from what is on screen. v1.254.0 (owner, 2026-11-10): the key (Position, Transition,
+    // Submission) is "only revealed at the beginning ... a node or an article has not yet been selected and revealed", so it shows on
+    // the map alone (`_mapAlone`) and nowhere else; the win bar stays. And "the table of contents/index is way more important": where
+    // the bar meets the index's box or comes within its 12px clearance, the bar steps aside until there is room. Hidden, not removed:
+    // `_paintWinThermometer` stays its one writer, `_readerReserve` already skips a hidden bar, and the film's seat row keeps the
+    // figure (`currentWinView`). Nothing here moves either box (the key keeps its place above the bar; the index's height is the
+    // reader's), so the answer cannot feed back into itself.
+    const leg = this.legendRef.current, bar = this.legendMarkRef.current?.closest(".ng-winbar");
+    if (leg) leg.toggleAttribute("data-away", !this._mapAlone());
+    if (bar) {
+      const toc = this._readerTocEl?.isConnected && this._readerTocEl.getBoundingClientRect(), b = bar.getBoundingClientRect();
+      bar.toggleAttribute("data-away", !!toc && toc.height > 0 && b.left < toc.right && b.right > toc.left && b.top < toc.bottom + 12);
+    }
+    // fade the key out only while option cards actually overlap it; fade back in otherwise
     if (leg && op) {
       let overlap = false;
       if (op.children.length && this._handShown()) {   // a put-away hand (v1.171.0) covers nothing
@@ -15663,6 +15683,17 @@ class Component extends DCLogic {
         bottom = Math.max(bottom, (this.H || 800) - box.top + 8);
     }
     return Math.round(bottom);
+  }
+  /** THE MAP ALONE (v1.254.0, owner, 2026-11-10): no node's landing card, film or article is on screen. The legend key's one answer
+   *  (updateUiShift). Read from the screen, not from game state: at "/" that is the boot before the first landing, and it lasts
+   *  only until then, because free roam keeps the last article on screen (U114 a retired the way to put it away). */
+  _mapAlone() {
+    const H = this.H || window.innerHeight;
+    return ![this._landEl, this._landFilmEl, this._reader?.articleEl].some((el) => {
+      if (!el?.isConnected) return false;
+      const r = el.getBoundingClientRect();
+      return r.width > 0 && r.height > 0 && r.bottom > 0 && r.top < H && getComputedStyle(el).visibility !== "hidden";
+    });
   }
   /** WHICH PERSPECTIVE THIS CARD SPEAKS FROM — one seam, because two callers ask it (v1.173.0).
    *  The film picks its reel with it and the automatic article picks its guide; when

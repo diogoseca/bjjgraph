@@ -65,7 +65,7 @@ deliberate screen must portal to the app root. Esc walks the ladder top-down, pa
 
 | what you are doing | seams |
 |---|---|
-| overlays, hit-testing | `attachInput` · `_suppressLand` · `_landHidden` · `_tapBackground` |
+| overlays, hit-testing | `attachInput` · `_suppressLand` · `_landHidden` · `_tapBackground` · `_mapAlone` (the legend's key) |
 | docking fixed chrome | `_dockLandCard` · `_dockLandFilm` · `_dockLandMore` · `_landDatum` · `_bandBot` |
 | the three bottom layers (film · card · hand), sticky by setting | `setLayer` · `_layerOn` · `_handShown` · `_applyLayers` · `_renderLayerDock` — a collapsed card is NOT BUILT, a collapsed hand is dealt and hidden; the complete article is independent of the card; `neural/src/reader.src.js` owns reading intent and each closed part's label (its shelf is retired, v1.253.0) |
 | node coordinates, camera | `pairMid` · `_LY` · `headPos` · `rollCamTarget` · `holdCamera` · `frameNodes` |
@@ -80,7 +80,7 @@ deliberate screen must portal to the app root. Esc walks the ladder top-down, pa
 | persistence | `_pullAndMerge` · `ngMergeLists` · `_saveProgress` |
 | randomness | `rng(tag)` — **never `Math.random`**; `scripts/check_no_raw_random.sh` gates it |
 | the tray | `_trayStop` · `_trayGlideBy` · `_trayFling` |
-| the drawer: its list, views, badge | `NG_PANE_TABS` · `setViewMode` · `drawerHome` · `_renderTrain` · `_paintBadge` |
+| the drawer: its list, views, badge, search | `NG_PANE_TABS` · `setViewMode` · `drawerHome` · `_renderTrain` · `_paintBadge` · `openSearchPane` |
 | keys on an inline deck (history · session · corridor) | `_miniReg` · `_focusRow` · `_challengeInline` · `challengeLessonNav` · `_lessonRows` — one registry for all three; a deck that takes focus takes it on the deck BOX, never a button (Space/⏎ are activation keys, §6.1) |
 | gi / no-gi exclusion | `giAllows` · `rsAllows` · `_rulesetMask` · `setGiMode` · `cal.avail` · `frame_reachable` |
 | build-side joins | `_tech_keys` · `fnv1a32` (in `scripts/_neural_content.py`) |
