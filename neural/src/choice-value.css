@@ -99,7 +99,7 @@
 .ng-choice-grade [data-grade=no] { background:rgba(239,133,133,.16); color:#f4b0b0; }
 .ng-choice-card[data-asking] .ng-choice-watch { top:46px; }
 /* touch: the strip grows to a 44px target and the film button steps up out of its way */
-@media (pointer:coarse) { .ng-choice-grade { top:86px; height:44px; } .ng-choice-card .ng-choice-grade button { height:44px; padding:7px 13px; background-clip:content-box; } .ng-choice-card[data-asking] .ng-choice-watch { top:40px; } }
+@media (pointer:coarse) { .ng-choice-grade { top:86px; height:44px; gap:4px; padding:0 4px 0 7px; font-size:10px; } .ng-choice-grade > span { min-width:0; overflow:hidden; text-overflow:ellipsis; } .ng-choice-card .ng-choice-grade button { height:44px; min-width:44px; padding:7px 4px; background-clip:content-box; } .ng-choice-card[data-asking] .ng-choice-watch { top:40px; } }
 .ng-hide-all { pointer-events:auto; cursor:pointer; border:0; background:none; color:#bdcce4; font:inherit; font-size:10px; margin:-10px 0 -10px 8px; padding:0 4px; min-height:44px; }
 .ng-hide-hint { margin-left:8px; font-weight:400; letter-spacing:0; color:#8f9cba; }
 @media (prefers-reduced-motion:reduce) { .ng-choice-card[data-hide], .ng-choice-card[data-hide] .ng-choice-watch { transition:none; } .ng-choice-card[data-hover], .ng-choice-card[data-hide] .ng-choice-watch:hover { transform:none; } }

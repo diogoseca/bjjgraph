@@ -16,15 +16,15 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  * `textContent` still holds its name (every other reader of the card depends on that). Each claim
  * here reads computed visibility, the back's geometry against the film slot, or `elementFromPoint`.
  *
- * Mutants (v1.255.0): 25 app/CSS mutants, each run against the ONE test named for its claim, all
+ * Mutants (v1.255.0): 26 app/CSS mutants, each run against the ONE test named for its claim, all
  * killed with that claim's own message; runner and table in docs/Changelog-Archive.md (v1.255.0).
  * Claims: the name's visibility:hidden · the dwell (peek on enter) · the first tap consumed · the
  * stand-in face up · `moves` in the blob · the map's label gate · Show all asks nothing · "Hidden move
  * N" · a peek touches the hand · the staged card face up · an escape filed by label · No takes the
  * gold away · No recorded as ok 0 · a due card offers No · known-and-not-due asks nothing · Yes only
  * on an unknown card · the gold border · the hover transform · the stand-in seated on the layout box ·
- * the 44px touch Yes · "Tap to reveal" · the live switch · the film button still under the card's
- * hover · the film button's own hover · reduced motion. The merge rule's two mutants are killed by
+ * the 44px touch Yes · Yes and No both 44px inside the card on touch · "Tap to reveal" · the live
+ * switch · the film button still under the card's hover · the film button's own hover · reduced motion. The merge rule's two mutants are killed by
  * tests/moves_record.test.mjs. NOT COVERED here: the header-hint variant (NG_HIDE_HINT = "header",
  * not shipped) and the PostHog properties (no PR shard is keyed, §6.4).
  */
@@ -394,6 +394,28 @@ test.describe("touch", () => {
     s = await appState(page)
     expect(s.executing, "the second tap plays it").toBe(true)
     expect(s.stand && s.stand.hidden).toBe(false)
+  })
+
+  test("@curated Still got it on touch: Yes and No are both 44px targets, whole inside the card", async ({ page }) => {
+    const S = ORD["Positions/Mount"] + "/top", due = "Submissions/Americana/from-Mount"
+    await page.addInitScript((d) => { (window as W).__NG_EPOCH_DAY__ = d }, DAY)
+    const j = journey(page)
+    await j.boot("/", { initialState: { ...seed, moves: { [S]: { [ORD[due]]: [DAY - 1, 3, DAY - 4, 1] } } } })
+    await j.land("Mount Top")
+    await page.evaluate((id) => { const c = (window as W).__neural._optionCards.find((c: W) => c.opt.node.id === id && !c.opt.threat); c.card.setAttribute("data-hk", "due") }, due)
+    const p = await pointOn(page, '[data-hk="due"]')
+    await page.touchscreen.tap(p.x, p.y)
+    const t = await page.evaluate(() => {
+      const c = document.querySelector('[data-hk="due"]')!, cr = c.getBoundingClientRect()
+      return [...c.querySelectorAll("[data-grade]")].map((b) => {
+        const r = b.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2
+        const own = (px: number, py: number) => { const e = document.elementFromPoint(px, py); return !!e && b.contains(e) }
+        return { g: (b as HTMLElement).dataset.grade, w: r.width >= 44, h: r.height >= 44, inside: r.left >= cr.left - 0.5 && r.right <= cr.right + 0.5,
+          edges: own(r.left + 2, y) && own(r.right - 2, y) && own(x, r.top + 2) && own(x, r.bottom - 2) }
+      })
+    })
+    expect(t, "Yes and No: 44 x 44, inside the card, every edge their own").toEqual([
+      { g: "yes", w: true, h: true, inside: true, edges: true }, { g: "no", w: true, h: true, inside: true, edges: true }])
   })
 
   test("@curated the badge reads Tap to reveal on the Suggested card while it is down", async ({ page }) => {
