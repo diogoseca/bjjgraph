@@ -18,7 +18,15 @@ const fixture = (page: Page) => page.evaluate(() => {
   }));
 });
 
-test("@curated delayed aliases refresh both live searches without replacing the input", async ({ page }) => {
+// v1.255.1: the old search modal is retired (no control and no key opened it). These cases drive the one search a player reaches,
+// the drawer's, by real input: the search icon pressed by mouse where it sits, and keys for the text and the caret.
+const openSearch = async (page: Page, j: ReturnType<typeof journey>) => {
+  await j.clickByMouse(".ng-search", "the search icon");
+  await expect(page.locator(".ng-explorer-search input"), "the icon hands the keys to the drawer's search").toBeFocused();
+};
+const retype = async (page: Page, text: string) => { await page.keyboard.press("Control+A"); await page.keyboard.type(text); };
+
+test("@curated delayed aliases refresh the drawer's search without replacing its input", async ({ page }) => {
   let calls = 0;
   page.on("request", (r) => { if (ALIASES.test(r.url())) calls++; });
   const j = journey(page);
@@ -29,45 +37,46 @@ test("@curated delayed aliases refresh both live searches without replacing the 
   const held = new Promise<void>((resolve) => { release = resolve; });
   await page.route(ALIASES, async (route) => { await held; await route.fulfill({ json: aliases }); });
 
-  await page.evaluate(() => (window as any).__neural.openPane("explore"));
-  await page.locator(".ng-explorer-search input").fill("minor outer reap");
-  await page.evaluate(() => (window as any).__neural.openSearch());
-  const input = page.locator("[data-search-input]");
-  await input.fill("minor outer reap");
-  await input.fill("MATA LEÃO");
-  await input.evaluate((el: HTMLInputElement) => {
-    (window as any).__aliasInput = el;
-    el.focus(); el.setSelectionRange(2, 5);
-  });
-  await expect(page.locator("[data-search-results] [data-alias-status]")).toHaveAttribute("data-alias-status", "loading");
-  expect(calls, "both search surfaces share one request").toBe(1);
+  await openSearch(page, j);
+  const input = page.locator(".ng-explorer-search input"), list = page.locator(".ng-learning-list");
+  await page.keyboard.type("MATA LEÃO");
+  await page.keyboard.press("Home");
+  for (let i = 0; i < 2; i++) await page.keyboard.press("ArrowRight");
+  for (let i = 0; i < 3; i++) await page.keyboard.press("Shift+ArrowRight");
+  await input.evaluate((el: HTMLInputElement) => { (window as any).__aliasInput = el; });
+  await expect(list.locator("[data-alias-status]")).toHaveAttribute("data-alias-status", "loading");
+  expect(calls, "one request for the session").toBe(1);
   release();
 
-  await expect(page.locator("[data-search-results]")).toContainText("Rear Naked Choke");
-  await expect(page.locator("[data-search-results]")).not.toContainText("Kosoto Gari");
-  await expect(page.locator(".ng-learning-list")).toContainText("Kosoto Gari");
-  await expect(page.locator(".ng-learning-list")).toContainText("aka Minor Outer Reap <alias-canary>");
-  await expect(page.locator(".ng-learning-list alias-canary")).toHaveCount(0);
+  await expect(list, "a family alias finds its site").toContainText("Rear Naked Choke");
+  await expect(list).not.toContainText("Kosoto Gari");
   const focus = await input.evaluate((el: HTMLInputElement) => ({
     same: el === (window as any).__aliasInput, focused: document.activeElement === el,
     caret: [el.selectionStart, el.selectionEnd], value: el.value,
   }));
-  expect(focus).toEqual({ same: true, focused: true, caret: [2, 5], value: "MATA LEÃO" });
-  await input.fill("rnc");
-  await expect(page.locator("[data-search-results]")).toContainText("from Back Control");
-  await expect(page.locator("[data-search-results]").locator(":scope > div")).toHaveCount(1);
+  expect(focus, "the alias arrival kept the input, its focus, caret and text").toEqual({ same: true, focused: true, caret: [2, 5], value: "MATA LEÃO" });
+  await retype(page, "minor outer reap");
+  await expect(list).toContainText("Kosoto Gari");
+  await expect(list).toContainText("aka Minor Outer Reap <alias-canary>");
+  await expect(list.locator("alias-canary")).toHaveCount(0);
+  await retype(page, "rnc");
+  await expect(list).toContainText("from Back Control");
+  await expect(list.locator("[data-list-add]"), "a family alias names its site once").toHaveCount(1);
   expect(calls).toBe(1);
 });
 
-test("@curated an alias response cannot replace a newer modal or reopen closed search", async ({ page }) => {
+test("@curated an alias response cannot reopen a closed search or replace a newer modal", async ({ page }) => {
   const j = journey(page);
   await j.boot();
   const aliases = await fixture(page);
   let release!: () => void;
   const held = new Promise<void>((resolve) => { release = resolve; });
   await page.route(ALIASES, async (route) => { await held; await route.fulfill({ json: aliases }); });
-  await page.evaluate(() => (window as any).__neural.openSearch());
-  await expect(page.locator("[data-alias-status]")).toHaveAttribute("data-alias-status", "loading");
+  await openSearch(page, j);
+  await page.keyboard.type("mata");
+  await expect(page.locator(".ng-learning-list [data-alias-status]")).toHaveAttribute("data-alias-status", "loading");
+  await j.clickByMouse(".ng-explorer-close", "the drawer's close");
+  await expect.poll(() => page.evaluate(() => !!(window as any).__neural.deckShown), { message: "premise: the search is closed" }).toBe(false);
   // Settings is a DEFERRED bundle since v1.207.0: `openSettings()` paints "Loading settings…"
   // synchronously and swaps in the real UI when `app/settings-ui.js` lands. That swap is the
   // modal's OWN legitimate repaint, so the snapshot is taken only after it settles (awaiting the
@@ -79,18 +88,14 @@ test("@curated an alias response cannot replace a newer modal or reopen closed s
     const card = a.modalCardRef.current;
     return { text: card.textContent, tabs: card.querySelectorAll("[data-settings-tab]").length, generation: a._modalGeneration };
   });
-  const shown = await page.evaluate(async () => {
-    const a = (window as any).__neural;
-    a.closeModal();
-    return await a.openSettings();
-  });
+  const shown = await page.evaluate(async () => await (window as any).__neural.openSettings());
   expect(shown, "the real Settings UI rendered").toBe(true);
   const settings = await modal();
   expect(settings.tabs, "the snapshot is the loaded Settings, not its loading state").toBeGreaterThan(0);
   release();
   await expect.poll(() => page.evaluate(() => !!(window as any).__neural._aliasesReady)).toBe(true);
   expect(await modal(), "the alias response left the newer modal exactly as it was").toEqual(settings);
-  await expect(page.locator("[data-search-input]")).toHaveCount(0);
+  expect(await page.evaluate(() => !!(window as any).__neural.deckShown), "and did not reopen the closed search").toBe(false);
 });
 
 test("@curated alias failures stop after three attempts and explicit Retry recovers", async ({ page }) => {
@@ -102,21 +107,23 @@ test("@curated alias failures stop after three attempts and explicit Retry recov
     calls++;
     await route.fulfill(healthy ? { json: aliases } : { status: 503, body: "Unavailable" });
   });
-  await page.evaluate(() => (window as any).__neural.openSearch());
-  const results = page.locator("[data-search-results]"), input = page.locator("[data-search-input]");
-  await expect(results.locator("[data-alias-status]")).toHaveAttribute("data-alias-status", "error");
+  await openSearch(page, j);
+  const list = page.locator(".ng-learning-list");
+  await expect(list.locator("[data-alias-status]")).toHaveAttribute("data-alias-status", "error");
   expect(calls).toBe(3);
-  await input.fill("Mount");
-  await expect(results).toContainText("Mount");
-  await input.fill("minor outer reap");
-  await expect(results).toContainText("Alias search unavailable");
+  await page.keyboard.type("Mount");
+  await expect(list).toContainText("Mount");
+  await retype(page, "minor outer reap");
+  await expect(list).toContainText("Alias search unavailable");
   expect(calls, "keystrokes do not retry a failed chain").toBe(3);
   healthy = true;
-  await results.locator("[data-alias-retry]").click();
-  await expect(results).toContainText("Kosoto Gari");
-  await expect(results).toContainText("aka Minor Outer Reap <alias-canary>");
-  await expect(results.locator("alias-canary")).toHaveCount(0);
-  await expect(results.locator("[data-alias-status]")).toHaveCount(0);
+  await j.clickByMouse(".ng-learning-list [data-alias-retry]", "the alias Retry");
+  // The drawer never re-renders its list under a resting pointer (`_afterPress`): the answer lands when the pointer leaves it.
+  await page.mouse.move(1200, 400);
+  await expect(list).toContainText("Kosoto Gari");
+  await expect(list).toContainText("aka Minor Outer Reap <alias-canary>");
+  await expect(list.locator("alias-canary")).toHaveCount(0);
+  await expect(list.locator("[data-alias-status]")).toHaveCount(0);
   expect(calls).toBe(4);
 });
 

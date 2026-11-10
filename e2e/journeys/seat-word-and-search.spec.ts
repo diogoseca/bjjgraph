@@ -18,8 +18,8 @@ type W = Window & { __neural: any }
  *    so the kicker was wrong on 90.7% of them. With no roll in play `roleLabel()` returns the
  *    constant "Top", so it was a constant dressed as a measurement (CLAUDE.md §6.6).
  *
- * 2. THE SEARCH MODAL LISTED EVERY SITE TWICE. `renderSearch` filtered `this.nodes` with no `rep`
- *    term. `_deriveDualPairs` gives both members of a pair the hub's own title (`t: h.t`), so a
+ * 2. THE SEARCH MODAL LISTED EVERY SITE TWICE (the modal is retired since v1.255.1; the claim now runs on the drawer's
+ *    search). `renderSearch` filtered `this.nodes` with no `rep` term. `_deriveDualPairs` gives both members of a pair the hub's own title (`t: h.t`), so a
  *    title match resolved to the site twice and the 100-cap then showed 50 sites. The Explore
  *    pane's search has always filtered; this one never did.
  *
@@ -38,7 +38,7 @@ type W = Window & { __neural: any }
  *    stamps in place of the node's real category. That loses the submission/transition distinction,
  *    so a `<name>|Defender` submission deck opened from the panic drill reads DEFENDING where
  *    ESCAPING is right. That is the override's defect and belongs with the Defender-deck work.
- *  · It does NOT cover the search modal's DETAIL pane, only its results column.
+ *  · (The search modal's detail pane went with the modal in v1.255.1.)
  *  · The vocabulary strings themselves are pinned by `dual-pair.spec.ts` on the canvas side; this
  *    spec pins that the DRILL side reads the same table for the same deck.
  */
@@ -88,41 +88,40 @@ test("@curated the drill header names the DECK's seat, and the roll cannot move 
   }
 })
 
-test("@curated the search modal names each site once", async ({ page }) => {
-  const j = journey(page)
-  await j.boot()
+// v1.255.1: the search modal is retired; the claim moves to the one search a player reaches, the drawer's, opened by a finger on
+// the search icon at 390x631. The empty query is the drawer's browse tree there, not a node list, so "top" (a seat word) stands
+// in for it. The drawer has filtered `rep` since before this claim existed; this pins that it still does.
+test.describe("the drawer's search, 390x631 by touch", () => {
+  test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true })
+  test("@curated the drawer's search names each site once", async ({ page }) => {
+    const j = journey(page)
+    await j.boot()
+    const icon = await page.evaluate(() => { const r = document.querySelector(".ng-search")!.getBoundingClientRect(); return [r.left + r.width / 2, r.top + r.height / 2] as [number, number] })
+    await page.touchscreen.tap(...icon)
+    await expect(page.locator(".ng-explorer-search input"), "the icon opens the drawer's search").toBeFocused()
 
-  const rowsFor = (q: string) =>
-    page.evaluate((query) => {
-      const a = (window as unknown as W).__neural
-      a.openSearch()
-      a._searchQ = query as string
-      a._searchSel = null
-      a.renderSearch()
-      // read what the RENDER emitted — the results column is the first child of the body row
-      const card = a.modalCardRef.current as HTMLElement
-      const col = card.querySelectorAll("div")[3] as HTMLElement // top, body, results, detail
-      const results = Array.from(card.querySelectorAll("div")).find(
-        (d) => (d as HTMLElement).style.width === "312px",
-      ) as HTMLElement
-      const host = results || col
-      const texts = Array.from(host.children).map((r) => (r as HTMLElement).textContent!.trim())
-      return { texts, repTotal: a.nodes.filter((n: any) => n.rep).length, nodeTotal: a.nodes.length }
-    }, q)
+    for (const q of ["mount", "guard", "top"]) {
+      await page.keyboard.press("Control+A"); await page.keyboard.type(q)
+      await expect(page.locator(".ng-learning-list"), `premise: "${q}" lists results`).toContainText(/\d+ results?/)
+      // read what the RENDER emitted: each graph hit is a row whose list button sits beside its name
+      const { texts, repTotal, nodeTotal } = await page.evaluate(() => {
+        const a = (window as unknown as W).__neural
+        const texts = Array.from(document.querySelectorAll(".ng-learning-list [data-list-add]"))
+          .map((b) => (b.parentElement!.firstElementChild as HTMLElement).textContent!.trim())
+        return { texts, repTotal: a.nodes.filter((n: any) => n.rep).length, nodeTotal: a.nodes.length }
+      })
+      const label = `query "${q}"`
 
-  for (const q of ["mount", "guard", ""]) {
-    const { texts, repTotal, nodeTotal } = await rowsFor(q)
-    const label = q ? `query "${q}"` : "the empty query"
+      // NON-TRIVIALITY FLOOR FIRST — an empty list satisfies "no duplicates" perfectly.
+      expect(texts.length, `${label} rendered rows at all`).toBeGreaterThan(3)
+      expect(repTotal, "the graph really is paired, so the bug was reachable").toBeLessThan(nodeTotal)
 
-    // NON-TRIVIALITY FLOOR FIRST — an empty list satisfies "no duplicates" perfectly.
-    expect(texts.length, `${label} rendered rows at all`).toBeGreaterThan(3)
-    expect(repTotal, "the graph really is paired, so the bug was reachable").toBeLessThan(nodeTotal)
-
-    const seen = new Map<string, number>()
-    for (const t of texts) seen.set(t, (seen.get(t) || 0) + 1)
-    const dupes = [...seen.entries()].filter(([, n]) => n > 1).map(([t, n]) => `${t} x${n}`)
-    expect(dupes, `${label}: every row names a different site`).toEqual([])
-  }
+      const seen = new Map<string, number>()
+      for (const t of texts) seen.set(t, (seen.get(t) || 0) + 1)
+      const dupes = [...seen.entries()].filter(([, n]) => n > 1).map(([t, n]) => `${t} x${n}`)
+      expect(dupes, `${label}: every row names a different site`).toEqual([])
+    }
+  })
 })
 
 /**

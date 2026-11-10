@@ -308,6 +308,13 @@ const controls = [
     [['this.openSearchPane("key")', '(this.openPane("explore"),this.explorerSearchRef.current.focus())']], 'takes the same seam'],
   ['search-phone-seat-lost', 'legend-search.spec.ts', 'search icon.*390x631', [], '6px right of the drawer button',
     [['.ng-search{top:16px!important;left:60px!important}', '']]],
+  // v1.255.1: the search modal is retired; its journeys' claims run on the drawer's search, by real input.
+  ['drawer-search-doubles', 'seat-word-and-search.spec.ts', "drawer.s search names each site once",
+    [['this.nodes.filter(T=>T.rep&&this.rsAllows(T)&&this.nodeMatches(T,d)).slice(0,120)', 'this.nodes.filter(T=>this.rsAllows(T)&&this.nodeMatches(T,d)).slice(0,120)']], 'every row names a different site'],
+  ['alias-readers-dropped', 'alias-search.spec.ts', "delayed aliases refresh the drawer",
+    [['for(let s of t)this._afterPress(s)', 'for(let s of t);']], 'a family alias finds its site'],
+  ['alias-retry-dead', 'alias-search.spec.ts', 'explicit Retry recovers',
+    [['{this._aliasesFailed=!1,t()}', '{t()}']], 'Kosoto Gari'],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')

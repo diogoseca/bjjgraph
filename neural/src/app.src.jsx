@@ -436,7 +436,7 @@ class Component extends DCLogic {
       accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctMenuRef: this.acctMenuRef, acctCtaRef: this.acctCtaRef, toggleAccountMenu: () => this.toggleAccountMenu(),
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
       explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef,
-      toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(), openSearchPane: () => this.openSearchPane("icon"),
+      toggleExplorer: () => this.toggleExplorer(), openSearchPane: () => this.openSearchPane("icon"),
       legendPointRef: this.legendPointRef, legendRef: this.legendRef,
       togglePause: () => this.setPaused(!this.paused), resetRoll: () => this.resetRoll(),
       evCenterRef: this.evCenterRef, evcKickerRef: this.evcKickerRef, evcTextRef: this.evcTextRef, evcSubRef: this.evcSubRef,
@@ -11177,11 +11177,10 @@ class Component extends DCLogic {
     const i = text.toLowerCase().indexOf(q); if (i < 0) return text;
     return text.slice(0, i) + '<span style="background:rgba(120,160,255,.32);border-radius:3px;padding:0 1px;">' + text.slice(i, i + q.length) + '</span>' + text.slice(i + q.length);
   }
-  // THE OLD SEARCH MODAL has no user path: no control and no key opens it (the template binds it to nothing). Two journeys
-  // still drive it through the test handle (alias-search, seat-word-and-search). The search a player reaches is the drawer's.
-  openSearch() { this._searchQ = ""; this._searchSel = null; this.openModal(); this.renderSearch(); }
   /** ONE WAY INTO SEARCH (v1.254.0): the search icon beside the drawer button, "/" and Cmd/Ctrl+K open the drawer on its list
-   *  with its search box focused. Phones too, unlike the drawer button: a search press asks for the keyboard. */
+   *  with its search box focused. Phones too, unlike the drawer button: a search press asks for the keyboard. v1.255.1: the old
+   *  search modal (`openSearch`, `renderSearch`, `locateNode2`), which no control and no key opened, is retired; its journeys
+   *  (alias-search, seat-word-and-search) drive this search by real input now. */
   openSearchPane(via) {
     this.openPane("explore");
     this.explorerSearchRef.current?.focus();
@@ -11613,7 +11612,7 @@ class Component extends DCLogic {
    *
    *  · WHAT YOU WILL BE, in the vocabulary the rest of the app already uses for that node type:
    *    Attacker / Defender for a technique (the option sheet's own perspective toggle), Top /
-   *    Bottom for a position (the search modal's "Play as Top"). A technique's Defender is the
+   *    Bottom for a position (the retired search modal's "Play as Top"). A technique's Defender is the
    *    OTHER side of the SAME origin position — you are the one defending it — and the hint line
    *    says so, because "Defender" alone does not say where you are standing.
    *  · THE SEAT IS NAMED BESIDE THE NAME, NEVER INSIDE IT (`graphName`, §5): the title is
@@ -11755,102 +11754,6 @@ class Component extends DCLogic {
   closePlayConfirm() {
     const c = this._playConfirmClose;
     return !!(c && c());
-  }
-  renderSearch() {
-    const card = this.modalCardRef.current; if (!card) return;
-    card.style.width = "min(1000px,93vw)";
-    card.innerHTML = "";
-    const top = document.createElement("div");
-    top.style.cssText = "padding:16px 20px;border-bottom:1px solid rgba(150,170,210,.12);display:flex;gap:12px;align-items:center;";
-    top.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8b97b0" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg>';
-    const inp = document.createElement("input");
-    inp.placeholder = "Search positions, transitions, submissions\u2026"; inp.value = this._searchQ || "";
-    inp.setAttribute("data-search-input", "");
-    inp.style.cssText = "flex:1;font-family:inherit;font-size:16px;color:#eef1f6;background:transparent;border:none;outline:none;";
-    const x = document.createElement("span"); x.textContent = "\u00d7"; x.style.cssText = "cursor:pointer;color:#8b97b0;font-size:21px;";
-    x.addEventListener("click", () => this.closeModal());
-    top.appendChild(inp); top.appendChild(x); card.appendChild(top);
-
-    const body = document.createElement("div"); body.style.cssText = "display:flex;height:min(560px,68vh);";
-    const results = document.createElement("div"); results.style.cssText = "width:312px;border-right:1px solid rgba(150,170,210,.12);overflow-y:auto;padding:8px;flex:none;";
-    results.setAttribute("data-search-results", "");
-    const detail = document.createElement("div"); detail.style.cssText = "flex:1;overflow-y:auto;padding:24px 28px;";
-    body.appendChild(results); body.appendChild(detail); card.appendChild(body);
-
-    const renderDetail = () => {
-      detail.innerHTML = "";
-      const n = this.nodes.find((z) => z.idx === this._searchSel && this.rsAllows(z));
-      if (!n) { detail.innerHTML = '<div style="color:#7e8aa3;font-size:14px;">Search and pick a technique to see details.</div>'; return; }
-      const cat = this.deckCat(n), isPos = n.ty === "positions";
-      const deckKey = this.deckKeyFor(n).key;
-      const deck = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[deckKey] : null;
-      let html = '<div style="font-size:26px;font-weight:700;color:#eef1f6;letter-spacing:-.01em;font-family:\'Space Grotesk\',sans-serif;">' + this.graphName(n) + '</div>';
-      if (this.nodeQual(n)) html += '<div style="font-size:14px;color:#8b97b0;margin-top:2px;">' + this.escHTML(this.nodeQual(n)) + '</div>';
-      html += '<div style="display:inline-block;margin-top:11px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#8094b4;border:1px solid rgba(150,170,210,.25);border-radius:6px;padding:4px 9px;">' + cat + '</div>';
-      detail.innerHTML = html;
-      const btns = document.createElement("div"); btns.style.cssText = "display:flex;gap:10px;margin:18px 0 6px;flex-wrap:wrap;";
-      if (isPos) {
-        const mkPlay = (lbl, role) => { const b = document.createElement("button"); b.textContent = lbl; b.style.cssText = "cursor:pointer;font-family:inherit;font-size:13px;font-weight:600;padding:9px 16px;border-radius:10px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#dbe2f0;"; b.addEventListener("click", () => this.playFrom(n.idx, role)); return b; };
-        btns.appendChild(mkPlay("Play as Bottom", "bottom"));
-        btns.appendChild(mkPlay("Play as Top", "top"));
-      }
-      const loc = document.createElement("button"); loc.textContent = "Locate on graph";
-      loc.style.cssText = "cursor:pointer;font-family:inherit;font-size:13px;font-weight:600;padding:9px 16px;border-radius:10px;border:1px solid rgba(110,160,255,.4);background:rgba(74,108,255,.2);color:#dbe6ff;";
-      loc.addEventListener("click", () => { this.closeModal(); this.locateNode2(n.idx); });
-      btns.appendChild(loc);
-      detail.appendChild(btns);
-      const desc = document.createElement("div"); desc.style.cssText = "margin-top:18px;font-size:14px;color:#c2ccde;line-height:1.65;";
-      const neighbors = this.adj[n.idx].slice(0, 6).map((k) => this.graphName(this.nodes[k]));
-      const deckCards = this._cardsOf(deck);
-      if (deckCards && deckCards.length) {
-        desc.innerHTML = '<div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin-bottom:8px;">Key question</div><div style="font-weight:600;color:#eef1f6;margin-bottom:6px;">' + deckCards[0].q + '</div>' + deckCards[0].a;
-      } else {
-        desc.innerHTML = (isPos ? "A " + this.roleLabelOf(n) + " state in the graph. " : "A " + cat.toLowerCase() + " linking positions. ") +
-          (neighbors.length ? 'It connects to <b style="color:#dbe2f0;">' + neighbors.join('</b>, <b style="color:#dbe2f0;">') + '</b>.' : "") +
-          '<div style="margin-top:12px;font-size:12.5px;color:#7e8aa3;">Full write-up is authored on bjjgraph.org.</div>';
-      }
-      detail.appendChild(desc);
-    };
-    const renderResults = () => {
-      const q = (this._searchQ || "").toLowerCase().trim();
-      results.innerHTML = "";
-      this._aliasStatus(results, refreshAliases, searchActive);
-      // FILTER TO `rep`, or every hit doubles. `_deriveDualPairs` gives both members of a pair the
-      // hub's own title (`t: h.t`, :862), so a title match resolves to the site TWICE and the 100-cap
-      // below then shows 50 sites. The Explore pane's search (:6015) has always filtered; this one
-      // never did, so the modal listed 202 rows for "mount" where the rep set is 101. Same rule for
-      // the empty-query branch: `slice(0, 80)` over an interleaved [rep, partner, rep, …] node list
-      // is 40 sites shown twice, not 80 results. (CLAUDE.md §6.6 — one question answered in two
-      // places; the pane's spelling is the correct one.)
-      // RULESET (v1.153.0): same argument as `rep` one paragraph up — this walks `this.nodes`
-      // directly, so it inherited neither filter.
-      const repd = this.nodes.filter((n) => n.rep && this.rsAllows(n));
-      let matches = q ? repd.filter((n) => this.nodeMatches(n, q)) : repd.slice(0, 80);
-      matches = matches.slice(0, 100);
-      if ((this._searchSel == null || !matches.some((m) => m.idx === this._searchSel)) && matches.length) this._searchSel = matches[0].idx;
-      for (const n of matches) {
-        const r = document.createElement("div"); const active = n.idx === this._searchSel;
-        r.style.cssText = "cursor:pointer;padding:10px 12px;border-radius:9px;margin-bottom:2px;font-size:13.5px;background:" + (active ? "rgba(74,108,255,.18)" : "transparent") + ";color:" + (active ? "#eef1f6" : "#aeb6c8") + ";";
-        r.innerHTML = '<span style="display:inline-flex;width:12px;justify-content:center;margin-right:8px;vertical-align:middle;">' + this.nodeGlyph(n.ty, this.hex(n.col), 9) + '</span>' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11.5px;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "");
-        r.addEventListener("click", () => { this._searchSel = n.idx; renderResults(); renderDetail(); });
-        results.appendChild(r);
-      }
-      if (!matches.length && this._aliasesReady) results.innerHTML = '<div style="padding:16px;color:#7e8aa3;font-size:13px;">No matches.</div>';
-    };
-    // Update the live result/detail closures, never rebuild the input or resurrect a closed modal.
-    const searchActive = () => inp.isConnected && this.modalRef.current.style.display !== "none";
-    const refreshAliases = () => {
-      const scroll = results.scrollTop, detailScroll = detail.scrollTop;
-      renderResults(); renderDetail();
-      results.scrollTop = scroll; detail.scrollTop = detailScroll;
-    };
-    inp.addEventListener("input", () => { this._searchQ = inp.value; this._searchSel = null; renderResults(); renderDetail(); });
-    renderResults(); renderDetail();
-    setTimeout(() => { try { if (searchActive()) inp.focus(); } catch (e) {} }, 60);
-  }
-  locateNode2(idx) {
-    // search "Locate" takes the same unified prezi path as explorer rows and canvas clicks
-    this.openDossier(idx, false, "search");
   }
   nodeGlyph(ty, col, sz) {
     const s = sz || 8;
