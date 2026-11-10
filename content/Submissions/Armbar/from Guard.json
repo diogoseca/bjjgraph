@@ -710,6 +710,36 @@
         "duration": 92,
         "vertical": false
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Stack defense",
+        "clips": [
+          {
+            "id": "TS6x08LUmP0",
+            "title": "Defending the Armbar: Stack Defense and Pass",
+            "channel": "Revolution BJJ",
+            "duration": 156,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-09"
+          }
+        ]
+      },
+      {
+        "escape": "Hitchhiker escape",
+        "clips": [
+          {
+            "id": "B2bUgWXoRvQ",
+            "title": "MUST Know Hitchhiker Armbar ESCAPE!",
+            "channel": "TeachMeGrappling Coach Brian",
+            "duration": 569,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-09"
+          }
+        ]
+      }
     ]
   },
   "variations_and_setups": [

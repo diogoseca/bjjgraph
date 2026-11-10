@@ -1625,14 +1625,14 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "c3faea76026e110103472355090bb72bc668724b",
-   "capture_id": "e285ae799da8411d849a00ff6edbb14d",
+   "capture_git_head": "0ac2538d14cfc80d162349ae7cadc1a5639b03d3",
+   "capture_id": "7dfee053bd6f411a88f898272863cf78",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6331,
    "content_md": 4549,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "39f435c5489d4288f1d18dd3963926190aa0b8f5",
+   "content_tree": "261d0c6a9ff22ed47351b83975b2a8dc3640d023",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -1657,11 +1657,11 @@
    },
    "output_identity": {
     "files": 15828,
-    "sha256": "82ab8330bd9646d00b9d5eaa68cfa8085e2bdccc6f08fdf1b023a5d88f36d9e3"
+    "sha256": "c545eb47138be4e6391efd0a39e09823f5b29503c7c86dfcab9f76b031d3d966"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/article-polish/capture/cap346-c3faea760/pr-first-row-columns-c3faea760"
+    "/home/user/bjj-orchestrator/scratch/video-search/capture/capvs2-0ac2538d1/pr-video-search2-0ac2538d1"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"

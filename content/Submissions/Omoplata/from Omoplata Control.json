@@ -617,6 +617,22 @@
         "vertical": false,
         "front": true
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Forward roll escape",
+        "clips": [
+          {
+            "id": "wa2c3XfXEyQ",
+            "title": "Escaping the omoplata with a front roll",
+            "channel": "Brazilian Top Team Happy Valley ",
+            "duration": 50,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-09"
+          }
+        ]
+      }
     ]
   }
 }

@@ -170,6 +170,27 @@ description: "Master executing the transition from back control to cross body ri
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Control to Cross Body Ride (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No Escape: Keep the Back (and Hip Lock!) with the Cross-Body Ride (NO GI\u2026",
+      "description": "Back Control to Cross Body Ride (Attacker) film study: No Escape: Keep the Back (and Hip Lock!) with the Cross-Body Ride (NO GI\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBXtR-UefWE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBXtR-UefWE",
+      "url": "https://www.youtube.com/watch?v=DBXtR-UefWE",
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -182,6 +203,24 @@ As the attacker executing the Transition to Cross Body Ride, your objective is t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Control to Cross Body Ride (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBXtR-UefWE)
+
+<p class="clip-credit"><strong>No Escape: Keep the Back (and Hip Lock!) with the Cross-Body Ride (NO GI…</strong> · 3:27 · <a href="https://www.youtube.com/watch?v=DBXtR-UefWE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">
