@@ -14,6 +14,7 @@
 //   signin-every-event (count every SIGNED_IN, as before) ........ red: "a tab return counts no sign-in"
 //   intent-kept (the intent not removed) ......................... red: "a sign-in this browser started counts once"
 //   intent-ageless (the 30-minute bound removed) ................. red: "an intent older than 30 minutes counts nothing"
+//   pull-trusts-overlap (the pull records what it read regardless) red: both "a pull overlapping a push in flight" orders
 // EQUIVALENT, recorded: key-drops-settings (a setting also moves its `settingsAt` stamp, which the key keeps); either half of
 // the failed-push guard alone (`_cloudSeen` set only on success; a failure forces a re-pull)
 // is enough by itself, so a mutant of one half survives; `fail-remembered` breaks both. And the account check on `_cloudSeen`
@@ -140,6 +141,46 @@ test('after two pushes overlap, nothing is trusted', () => fakeTimers(async ({ q
   assert.equal(before, 2, 'premise: both pushes went');
   a._saveProgress(); await flush();
   assert.equal(h.pushes.length, before + 1, 'either push may have landed last at the server, so the unchanged blob goes again');
+}));
+
+// #360's review (ART3R12B): a push in flight across a pull may land at the server after the read (the old last-writer race), so
+// the pull's read is not what the cloud holds. Before this PR the save after the pull was the echo that repaired it; now that save
+// must not be skipped. C is another device's newer write: everything the in-flight push P1 carries, and one card more.
+async function raced(h, { q, flush }) {
+  const a = await synced(h); await flush();
+  h.facade.pullNeural = async id => ({ userId: id, blob: reordered(h.pushes.at(-1).value) });
+  await a._pullAndMerge(); await flush();                       // one round trip, so hydration's defaults are already in
+  const take = () => { const jobs = [...q.values()]; q.clear(); return jobs; };
+  const calls = [], gates = [], ok = h.facade.pushNeural;
+  h.facade.pushNeural = async (value, userId) => { calls.push(JSON.parse(JSON.stringify(value))); await new Promise(r => gates.push(r)); return ok(value, userId); };
+  a.prep.x = 1; a._saveProgress();
+  const [job] = take(); const p1 = job();                       // P1 in flight (the flush on hide, say)
+  await new Promise(r => setImmediate(r));
+  const C = JSON.parse(JSON.stringify(calls[0])); C.prep.other = 9; C.updatedAt = (C.updatedAt || 0) + 1;
+  let readGate; const read = new Promise(r => { readGate = r; });
+  h.facade.pullNeural = async id => { await read; return { userId: id, blob: reordered(C) }; };
+  const pull = a._pullAndMerge();                               // SIGNED_IN on the return: the read sees C
+  await new Promise(r => setImmediate(r));
+  return { a, calls, gates, p1, pull, release: () => readGate(), take };
+}
+
+test('a pull overlapping a push in flight records nothing: P1\'s response first', () => fakeTimers(async ({ q, flush }) => {
+  const h = harness(); const r = await raced(h, { q, flush });
+  r.gates[0](); await r.p1;                                     // P1 lands (over C, at the server) and answers first
+  r.release(); await r.pull;                                    // then the pull answers with C
+  const before = r.calls.length;
+  for (const job of r.take()) { const done = job(); await new Promise(x => setImmediate(x)); r.gates.at(-1)?.(); await done; }
+  assert.equal(r.calls.length, before + 1, 'the save after the pull pushes, as the echo did: the cloud may hold P1, not C');
+  assert.equal(r.calls.at(-1).prep.other, 9);
+}));
+
+test('a pull overlapping a push in flight records nothing: the pull\'s response first', () => fakeTimers(async ({ q, flush }) => {
+  const h = harness(); const r = await raced(h, { q, flush });
+  r.release(); await r.pull;                                    // the pull answers with C while P1 is still in flight
+  const before = r.calls.length;
+  for (const job of r.take()) { job(); await new Promise(x => setImmediate(x)); }
+  assert.equal(r.calls.length, before + 1, 'the save after the pull pushes: P1 may still land over C');
+  for (const g of r.gates) g(); await r.p1; await flush();
 }));
 
 test('another account never compares against the previous one\'s blob', () => fakeTimers(async ({ flush }) => {

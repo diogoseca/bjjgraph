@@ -6681,6 +6681,9 @@ class Component extends DCLogic {
     // An older cached facade cannot distinguish a failed read from an empty account.
     if (!A || A.neuralSyncVersion !== 2 || !A.pullNeural || !userId || this._authDisposed || !this._progressCurrent() || this._pullToken || this._progressLocalOnly) return false;
     const token = { epoch: this._authEpoch || 0, userId };
+    // A push in flight at any moment of this pull (one already in flight, or one starting or finishing meanwhile) may land at the
+    // server after the read, so what this pull read is not what the cloud holds: record nothing then, and the save after it pushes.
+    const pushesAtStart = this._pushesInFlight ? -1 : (this._pushEvents || 0);
     this._pullToken = token; this._pulled = false; this._pulledUserId = null;
     clearTimeout(this._pushT); this._pushT = null;
     const current = () => this._progressCurrent() && !this._authDisposed && this._pullToken === token
@@ -6704,7 +6707,8 @@ class Component extends DCLogic {
         this._refreshChallengeEvidence();
       }
       if (!current()) return false;
-      this._pulled = true; this._pulledUserId = userId; this._cloudSeen = seen; this._pushSeq = (this._pushSeq || 0) + 1;
+      this._pulled = true; this._pulledUserId = userId; this._pushSeq = (this._pushSeq || 0) + 1;
+      this._cloudSeen = pushesAtStart === (this._pushEvents || 0) ? seen : null;
       this._cloudSyncError = null;
       this._saveProgress();         // persist verified merge; then push only if the merge differs from what the cloud gave
       return true;
@@ -6740,10 +6744,10 @@ class Component extends DCLogic {
         const snap = this._progressHost.cloudSnapshot(this), key = ngProgressCloudKey(snap), seen = this._cloudSeen;
         if (seen && seen.userId === userId && seen.key === key) return;
         const seq = this._pushSeq = (this._pushSeq || 0) + 1, solo = !this._pushesInFlight;
-        this._pushesInFlight = (this._pushesInFlight || 0) + 1;
+        this._pushesInFlight = (this._pushesInFlight || 0) + 1; this._pushEvents = (this._pushEvents || 0) + 1;
         let ok;
         // The facade pins this exact account at its awaited SDK/session boundary too.
-        try { ok = await A.pushNeural(snap, userId); } finally { this._pushesInFlight--; }
+        try { ok = await A.pushNeural(snap, userId); } finally { this._pushesInFlight--; this._pushEvents++; }
         if (!ok && current()) {
           this._pulled = false; this._pulledUserId = null; this._cloudSyncError = "push-failed";
         } else if (ok && current()) this._cloudSeen = solo && seq === this._pushSeq ? { userId, key } : null;
