@@ -498,7 +498,8 @@ for (const height of [900, 720]) {
     await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop), { message: "native scrolling reaches the article end" }).toBeLessThan(2)
     const end = await page.locator("[data-reader]").evaluate(e => ({ top: e.getBoundingClientRect().top, bottom: e.getBoundingClientRect().bottom, scroll: e.scrollTop, remaining: e.scrollHeight - e.clientHeight - e.scrollTop }))
     expect(end.top).toBeGreaterThanOrEqual(0)
-    expect(end.bottom).toBeLessThan(height)
+    // v1.253.0 (owner, 2026-11-09): with the shelf's reservation retired the scrollport runs to the fold, so it may end at it.
+    expect(end.bottom).toBeLessThanOrEqual(height)
     expect(end.scroll).toBeGreaterThan(0)
     expect(end.remaining).toBeLessThan(2)
   })

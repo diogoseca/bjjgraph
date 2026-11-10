@@ -53,3 +53,4 @@ for (const [width, height, under] of [[1440, 900, false], [1100, 900, true], [10
 //   legend-restore-blank ... "" for the 30px (deletes the inline declaration) ... killed: the legend keeps the template's 30px
 //   legend-not-docked ...... the legend left 30px up under the grid .............. killed: the legend docks 8px off the bottom
 //   reader-end-double-gap .. the 8px gap counted twice again ...................... killed: the reader ends one 8px gap above the win bar
+//   reader-reserve-shelf-floor (neural_app_mutants.mjs) the 12px floor back ....... killed: the reader runs to the fold

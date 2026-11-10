@@ -1,5 +1,7 @@
 // v1.253.0 RETIRED with their subject (U114 a, the article's ✕ and the shelf): reading-shelf-retained and u110-close-on-article-edge.
-// Their source is gone, so no build can carry them. u59-pill-covers and reader-end-double-gap were retargeted onto _readerReserve's lane.
+// Their source is gone, so no build can carry them. u59-pill-covers and reader-end-double-gap were retargeted onto _readerReserve's lane
+// (both killed). pane-card-overflow lost its spec with the map view's dock tests; retargeted onto pane-layout.spec.ts it is NOT KILLED,
+// so the card's width with the pane open at 800px has no live claim now.
 // v1.252.1 recorded NON-KILL, not coverage: u59r4-table-margin. Its claim, that Quartz's table margin clips a three-column table, needed
 // a 340px lane; since U110 a and U104 no lane above the phone is narrower than 439px, and with the margin back neither 768x1024 (one
 // 496px column), 1024x768 (two 439px lanes) nor 390x844 clips a table. The margin:0 stays; nothing can see it now.

@@ -343,6 +343,8 @@ async function expectAskGap(page: Page) {
 // tile's own 46ch column, not the grid's edge. The edge only met text in a narrow tile, and a tile ends at its content
 // (U65 b), so a depth could land on a gap with nothing wrong. v1.251.0: two columns have no one line, because the source
 // order no longer runs down the page, so the line is the nearer of the two lanes' first lines.
+// v1.253.0: with the article's ✕ gone (U114 a) a line sat 0.14px above the reader's top at 1152 (30%); the reader's anchor now takes a
+// line within half a pixel. Control: anchor-line-strict-top (article_sections_mutants.mjs), killed at "keeps its place" (73.86 -> 426.73).
 for (const [width, height] of [[1440, 900], [1152, 900]] as const) for (const depth of [0.3, 0.6]) {
   test(`U59 c: at ${width}x${height} opening Explore keeps the line at the reader's top (${depth * 100}% down)`, async ({ page }) => {
     const j = await boot(page, width, height)
