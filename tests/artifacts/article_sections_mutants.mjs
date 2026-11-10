@@ -519,6 +519,8 @@ const mutants = [
   ['u110-cap-past-columns', 'stacked-width.spec.ts', 'at 1,024px the columns begin', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = free.width < 1100 && 496;')],
   // v1.254.0: a reader button's pointer click counts only if its own pointerdown was on it, so the click ending a background tap on
   // touch cannot land on the Questions label that took the card's place and reopen the card.
+  // #331's review (R1), v1.254.1: Retry reopens the address as asked, its #section included.
+  ['retry-drops-fragment', 'tab-title.spec.ts', 'keeps its #section on Retry', s => replace(s, 'this.open({ path: url.href, intent, push })', 'this.open({ path, intent, push })')],
   ['ghost-press-reopens-card', 'legend-search.spec.ts', 'nowhere a node is revealed \\(768', s => replace(s, 'if (!event.detail || node.contains(downOn)) action(event);', 'action(event);')],
 ]
 // D7-N1: controls whose claim IS the landSettled stall (land_publish_stalled). None today.

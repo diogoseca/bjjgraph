@@ -14930,6 +14930,16 @@ The owner's three notes on the dev preview (v1.253.0), and one touch bug the new
 - **Gates on this tree's own build:** core 1,332 passed, 5 skipped, 0 failed, 0 flaky (41 min); generated 101 of 101.
 - **Bytes:** deferred 504,371 B (+119 B), 2,746 B of the owner's 507,117 approval unused; eager gzip +842 B since the 348,688 baseline (+386 B this version), cap 5,000.
 
+## v1.254.1 — Retry keeps the address's #section; the old search modal retired (2026-11-10)
+
+**Retry (#331's review, R1).** A failed non-indexed article's Retry reopened the normalised `path`, which carries no hash, so `/Systems#guard-system` came back as `/Systems`. Retry now reopens `url.href`, the parsed URL `open()` was given (the reviewer's verified one-line fix). The corpus has no cross-page fragment link to a non-indexed page today (the review's scan), so `tab-title.spec.ts` pins it with an authored-link fixture: the page's own Systems link pointed at the real section, the first fetch 503, link and Retry by mouse; the URL keeps `#guard-system` and focus goes to the section. Mutant `retry-drops-fragment` killed there.
+
+**The search modal.** `openSearch()` had no control and no key path (round 9's finding); two journeys reached it through the test handle. Checked first: the drawer's search, which the icon, "/" and Cmd/Ctrl+K open, finds what the modal found: the same `nodeMatches` (own and family aliases, seat words), the same `rep` and `rsAllows` filters (cap 120 against 100), the same `_aliasStatus` with its Retry and one deferred request. The modal's detail pane is covered by the row: ▶ plays from either seat (`confirmPlayFrom`), and the row itself opens the node's article (Locate, the key question). Two differences, neither a loss: an empty query is the drawer's browse tree, and the drawer never re-renders its list under a resting pointer (`_afterPress`), so an alias answer lands when the pointer leaves it. Retired: `openSearch`, `renderSearch`, `locateNode2` and the template's unused binding; `playFrom` stays (two other callers). `alias-search` and `seat-word-and-search` now open the drawer's search with the icon (mouse at 1440, touch at 390x631) and type; mutants `drawer-search-doubles`, `alias-readers-dropped` and `alias-retry-dead` killed at their claims.
+
+**Bytes.** Eager: `neural.js` −5,585 B raw, eager gzip 349,530 → 348,121 B (−1,409 B), 567 B under the 348,688 baseline. Deferred: 504,376 B (+5 B); 2,741 B of the owner's 507,117 approval unused.
+
+**Re-numbered from v1.255.1.** It lands before hidden moves (v1.255.0), which went red on `payload-first-hand.spec.ts`'s 6,000 B step cap (371,789 B, +6,493 B since the v1.221.0 baseline of 365,296 B). The first-hand core (delta basis), from this seat's own full runs: 368,845 B on v1.254.0 (dev `21318b0c5`'s app, +3,549 B), 367,451 B on this branch (+2,155 B, −1,394 B).
+
 ## v1.255.0 — Hidden moves: the row face down until you look, and the moves you recall (owner U115 b, U116, HIDE1A, 2026-11-10)
 
 The owner, 9 November: "maybe there could also be an obfuscate feature for the moves! like they're obfuscated unless the
