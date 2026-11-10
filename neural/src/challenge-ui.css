@@ -507,8 +507,7 @@
 }
 
 .ng-challenge-curriculum > small,
-.ng-challenge-capstone > small,
-.ng-collection-intro > small {
+.ng-challenge-capstone > small {
   color: var(--ng-track, #8fa9e8);
   font-size: 8px;
   font-weight: 900;
@@ -602,7 +601,6 @@
   line-height: 1.45;
 }
 
-.ng-collection-intro h2,
 .ng-collection-section h3 {
   margin: 3px 0 0;
   color: #eef1f6;
@@ -644,8 +642,7 @@
 
 .ng-challenge-row p,
 .ng-challenge-curriculum > p,
-.ng-challenge-capstone p,
-.ng-collection-intro p {
+.ng-challenge-capstone p {
   margin: 5px 0;
   color: #8793aa;
   font-size: 9px;
@@ -671,7 +668,6 @@
 
 .ng-challenge-group,
 .ng-challenge-capstone,
-.ng-collection-intro,
 .ng-collection-section {
   border: 1px solid rgba(150, 170, 210, 0.18);
   border-radius: 11px;

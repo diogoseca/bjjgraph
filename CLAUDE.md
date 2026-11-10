@@ -393,9 +393,9 @@ here because a rename can start anywhere.
 - **LOOKS DELETABLE, IS NOT.** `AuthUI.tsx` + `source/quartz/components/scripts/authUI.inline.ts` render NOTHING but are the only static importer of `supabase.ts` (which installs the `window.__bjjAuth` façade at module top-level) and the only code that completes a Google OAuth redirect-back — delete either and signed-in users break while every headless test stays green. `CategoryNav.tsx` is the site's only persistent static nav and **NO gate guards it**: `check_seo_parity.py` extracts from the `<article>` only, and `#sidebar-overlay` is a sibling of `#quartz-root`. `openListSession` has exactly ONE caller left (`[data-shared-drill]`, `app.src.jsx`) and it is the received-class study path.
   <br>_(3)_
 
-- **LOOKS ALIVE, IS DEAD — do not debug through it.** `renderDossier` and its subtree (`dossierSheetRef`, `_renderNodeQuestion`, `nodeQuestionFor`, `askFormat`, `jumpToState`) are unreachable from the app: `_dossierIdx` is assigned `null` at four sites and a node index at NONE, so the guarded call at `app.src.jsx` can never fire and only `first-impression.spec.ts` reaches `renderDossier` directly. The Forward catalog (`forward/shared/*`) is a DESIGN MOCK with no parity gate — `check_forward_catalog.mjs` only checks frames render, so retired rows survive there by default.
+- **LOOKS ALIVE, IS DEAD — do not debug through it.** The Forward catalog (`forward/shared/*`) is a DESIGN MOCK with no parity gate — `check_forward_catalog.mjs` only checks frames render, so retired rows survive there by default (it still lists the node dossier, whose code went in v1.255.1).
   **And `neural/src/` contains untracked design dumps that grep exactly like the app:** `Neural Graph.dc.html` (288KB, touched as recently as HEAD) still defines `movePopularity`, `_hash01`, `_freqMap` and the retired `orderScore` fork, and `neural/src/graph-data.json` is a stale 1899-node copy of a 1467-node wire. **Scope every "is this gone?" grep to the build inputs, and read the shipped wire from `source/quartz/static/neural/`.**
-  <br>_(4)_
+  <br>_(4; the node dossier, one of them, deleted in v1.255.1)_
 
 
 ### 6.9 Before you quote a number, cite a gate, or claim something is covered

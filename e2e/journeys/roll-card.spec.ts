@@ -323,21 +323,17 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
 
   const st = await page.evaluate(() => {
     const a = (window as Any).__neural
-    const nc = a.nodeCardRef && a.nodeCardRef.current
-    const sh = a.dossierSheetRef && a.dossierSheetRef.current
     const body = a._readerEl
     const add = document.querySelector("[data-seat-star]")
+    // v1.255.1: "the in-node container is gone for good" and "no node-dossier sheet opens" went with the two surfaces
+    // themselves (§6.8, deleted outright): with no element left, either assertion could only pass.
     return {
-      nodeCard: nc ? nc.style.display : null,
-      sheet: sh ? sh.style.display : null,
       card: !!a._landEl,
       unfolded: !!body,
       capture: add ? add.getAttribute("data-list-add") : null,
       zoom: a.cam.vw / a.graphW,
     }
   })
-  expect(st.nodeCard, "the in-node container is gone for good").toBe("none")
-  expect(st.sheet, "and no node-dossier reading sheet opens").not.toBe("block")
   expect(st.card, "the game card is what opens").toBe(true)
   expect(st.unfolded, "the full article is already present").toBe(true)
   expect(st.capture, "and the seat star captures the TECHNIQUE, not its origin position").toBe(tech.id)
@@ -359,11 +355,9 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
   await j.advance(400)
   const self = await page.evaluate(() => {
     const a = (window as Any).__neural
-    const sh = a.dossierSheetRef && a.dossierSheetRef.current
     const body = a._readerEl
-    return { sheet: sh ? sh.style.display : null, card: !!a._landEl, unfolded: !!body }
+    return { card: !!a._landEl, unfolded: !!body }
   })
-  expect(self.sheet, "no sheet for the node you are standing on").not.toBe("block")
   expect(self.card, "a dismissed card is rebuilt, not replaced").toBe(true)
   expect(self.unfolded, "the article survives rebuilding the question").toBe(true)
 })

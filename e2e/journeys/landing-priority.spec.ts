@@ -120,7 +120,7 @@ test("the complete article stays separate from the timed question", async ({ pag
   await article.focus();
   expect(await page.evaluate(() => !!(window as any).__neural.paused)).toBe(true);
   expect(await card.textContent(), "reading leaves the question's text intact").toBe(question);
-  expect(await page.evaluate(() => (window as any).__neural._dossierIdx ?? null)).toBeNull();
+  // v1.255.1: the `_dossierIdx` read went with the dossier (§6.8): it was null by construction (no site ever wrote a node index).
 });
 
 test("turning questions off leaves the landing surface but asks nothing", async ({
