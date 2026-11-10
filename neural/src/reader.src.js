@@ -86,10 +86,17 @@ function element(tag, attrs = {}, text = "") {
   node.textContent = text;
   return node;
 }
+// v1.254.0, the ghost press: a background tap closes the card and its "Show Questions" label takes the card's place at once, so on
+// touch the click that ends the same tap (hit-tested after the layout moved) landed on the label and reopened the card (768x1024,
+// 1 landing in 8 at "/"). A pointer's click counts only if its own pointerdown was on the button; a key's (detail 0) always does.
+// A mouse cannot tell: its click goes to the common ancestor of where it went down and up.
+let downOn = null;
+const down = (event) => { downOn = event.target; };
 function button(label, action, attrs = {}) {
   const node = element("button", { type: "button", ...attrs }, label);
   node.style.pointerEvents = "auto";
-  listen(node, "click", (event) => { event.stopPropagation(); action(event); });
+  document.addEventListener("pointerdown", down, true);
+  listen(node, "click", (event) => { event.stopPropagation(); if (!event.detail || node.contains(downOn)) action(event); });
   return node;
 }
 
@@ -994,7 +1001,7 @@ class Reader {
     };
     for (const el of [a._execution.card, a.evRef.current, this.articleEl, this.body, this.contents, this.head, this.tools,
       ...this.gameSections.map(s => s.card), a._landEl, a._landFilmEl, a._handCloseEl,
-      a.accountRef.current, a.shareCueRef.current, a._challengeRewardEl, ...a.wrapRef.current.querySelectorAll(".ng-logo,.ng-winbar")]) {
+      a.accountRef.current, a.shareCueRef.current, a._challengeRewardEl, ...a.wrapRef.current.querySelectorAll(".ng-logo,.ng-search,.ng-winbar")]) {
       const r = visible(el); if (r && r.bottom > r.top) occupied.push(r);
     }
     const card = visible(a._execution.card), toast = visible(a.evRef.current);

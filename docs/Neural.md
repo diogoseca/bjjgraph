@@ -109,13 +109,13 @@ first ("Escaping Loop Choke from Half Guard"); the Moves tray ends short of it. 
 node above sections; scrolled prose covers it.
 `readerSection.*` defaults shown, merges per key, and is edited in Settings → Rolling.
 
-No control turns the article, Map or Feedback off; the logo opens the pane. U114 a retired the
-article's ✕ and the shelf: `readerBook`, `landMap`, `landFeedback` are never read again. `landFilm/Card/Hand` store
+No control turns the article, Map or Feedback off; U114 a retired its ✕ and shelf (`readerBook`, `landMap`, `landFeedback`
+unread). The legend's key shows on the map alone (`_mapAlone`); the win bar yields 12px from Contents. `landFilm/Card/Hand` store
 normal visibility; the film follows `readerSection.videos`.
 Hidden questions are not built; hidden hands stay dealt and untimed. Card and hand publish once
 the landing's article renders (≤800ms, D-351); late Videos or film never move them. The hand starts its Win
-chance only after the reader has laid its landing out once (`_readerAwaited`, D-354; 3 s at most). Focus is retired (D-338):
-`readingFocus` and `readingCard/Hand/Map/Feedback` are not read. Restores start no play. References offer Study tools.
+chance only after the reader has laid its landing out once (`_readerAwaited`, D-354; 3 s at most). D-338 retired Focus:
+`readingFocus`, `readingCard/Hand/Map/Feedback` unread. Restores start no play. References offer Study tools.
 
 Content URLs and links prepare dormant controls (`NG_READING_DEFAULT_ON_CONTENT_URL`).
 A move or answer starts play, without a Practice gate, prior clock or miss.
@@ -699,7 +699,7 @@ leads back. The view ids stay `explore` · `challenges` · `history`. A lit page
 map to 20%, easing on the wall clock. The icon stays reachable during a catch (U16 b, U66 a);
 opening the drawer pauses the roll through the same pane law.
 
-Desktop opening and the search shortcut focus Search before the next key. Cold index arrivals
+Desktop opening, "/" and the search icon by it (`openSearchPane`, phones too) focus Search. Cold index arrivals
 preserve Practice/Path focus; closing returns focus to the opener (`challenges-ui.spec.ts`).
 
 Path emits `challenges_opened` and `neural_challenges_viewed` once per open drawer, on its first
