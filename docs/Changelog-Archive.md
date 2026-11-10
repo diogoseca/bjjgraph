@@ -14852,3 +14852,21 @@ Then the merge with #353 and the app-only reseed on the merged tree.
   - killed: `tease-column-width`, `tease-drop-lost`, `tease-drop-asking-only`, `legend-restore-blank`, `legend-not-docked`, `reader-end-double-gap` (as retargeted), `index-reveal-lost`, `video-title-plural`, `anchor-line-strict-top`, `u59-pill-covers` (retargeted);
   - killed at its claim: `deck-end-arrow-hidden`, `seat-win-unwired`, `reader-reserve-shelf-floor`.
 - Recorded NON-KILLS: `ask-fit-late` and `desktop-ask-fit-disabled`'s desktop case (no authored question needs fitting on the row-wide line), and `pane-card-overflow` (its spec was the map view's).
+
+**Before the merge: #354's independent review (round 7).**
+- **The owner's note 3, found.** A background tap on the map closes this landing's card and film (v1.134.0) and leaves their preferences on. The Questions and Video index rows then read open and did nothing until the next landing. This was reproduced on production v1.252.0 and on this build, at 1440 by mouse; round 6 had closed each part by its own ✕ only.
+  - The tap now keeps the dismissed landing for its decision, and `restoreLanding()` brings the card and film back through `_applyLayers`.
+  - The rows (and the Questions label) read closed while away. The rebuilt card is a declined question, so it earns no fresh credit.
+- **The mutant tables.**
+  - `article_sections_mutants.mjs` replays all 246 rows with 0 bad: 14 rows retargeted onto the code that ships, `u59r4-reopen-ungated` retired with its journey, and new rows added. Every retargeted row was killed again at its claim, except the two H139 non-kills.
+  - `neural_app_mutants.mjs`: nine rows moved with this PR (one retired: `d352-book-rehold`). Fifteen were already stale on dev; replayed against dev's own bundle, they are listed in the header and not counted as coverage.
+- **Answer for Points' hang.**
+  - With the film closed, the hang took 301 to 337 px² of the first tile's ✕ at 390x631 and 174 px² at 768.
+  - A `z-index` on every tile ✕ also covered the card's own ✕ from 1024 to 1440, because the card is one stacking context; five journeys caught it.
+  - The reader now raises only a tile ✕ the hang reaches and the card's ✕ does not.
+- **Nits.**
+  - A saved "off" for all three retired settings is now pinned to show the article, the map and the win bar.
+  - Beside the index on short screens, Previous stays on the face. It had climbed 27px at 1440x560 and reached 23px into the choices at 520.
+  - `choice-row-ends` runs at 1440 again in the reading view.
+  - The film's drop under the tease applies only while Moves is open.
+- **Bytes:** deferred 503,763 B (+785 B), 3,354 B of the approval unused; eager gzip +446 B since the checkpoint.

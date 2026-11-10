@@ -203,6 +203,7 @@ for (const height of [844, 631]) test(`a live phone catch at ${height} puts its 
   r.on = () => true; a._layerOn = () => true;
   a._defensePressure = true; a._landMode = "defense";
   const card = a._landEl = node(); card.parentElement = r.game; r.gameHomes.set(card, {});
+  card.querySelector = () => null; // v1.253.0: the layout asks the card for its Answer for Points and its ✕ (#354's review, finding 3)
   card.classList = { contains: () => true };
   card.getBoundingClientRect = () => ({ top: parseFloat(card.style.top) || 0, width: 286, height: 352.25 });
   r.layoutNow();
