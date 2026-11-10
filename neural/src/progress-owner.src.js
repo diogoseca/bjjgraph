@@ -39,7 +39,7 @@ export function ngProgressValidateBlob(value) {
     active.delete(v);
   };
   walk(value);
-  for (const key of ["prep", "rec", "stage", "srs", "units", "belts", "tut", "challenges", "badges", "coins", "lists", "flow", "days", "rollDays", "dayLog", "settings", "settingsAt"]) {
+  for (const key of ["prep", "rec", "stage", "srs", "moves", "units", "belts", "tut", "challenges", "badges", "coins", "lists", "flow", "days", "rollDays", "dayLog", "settings", "settingsAt"]) {
     if (key in value && !ngProgressObject(value[key])) throw new Error("Invalid saved progress field: " + key);
   }
   const map = v => ngProgressObject(v) && Object.getPrototypeOf(v) === Object.prototype;
@@ -52,6 +52,10 @@ export function ngProgressValidateBlob(value) {
   }
   for (const row of Object.values(value.srs || {})) {
     if (!map(row) || Object.values(row).some(v => !Array.isArray(v) || v.length < 3 || v.some(x => !number(x)))) throw new Error("Invalid review schedule");
+  }
+  // moves[state][move] = [due, ivl, last, ok] (v1.255.0); a longer row from a later build is kept
+  for (const row of Object.values(value.moves || {})) {
+    if (!map(row) || Object.values(row).some(v => !Array.isArray(v) || v.length < 4 || v.some(x => !number(x)))) throw new Error("Invalid move record");
   }
   for (const device of Object.values(value.flow || {})) {
     if (!map(device)) throw new Error("Invalid flow device");
