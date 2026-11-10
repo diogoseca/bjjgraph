@@ -14739,6 +14739,38 @@ six my run's working directory broke (paths relative to the root; 26 of 26 from 
 (the shared answer press). First-hand payload: core 368,427 B against its 365,296 B baseline, +3,131 of the 6,000 B cap. The
 census and the SEO baseline move only in the receipt-bound reseed after cobbler's guarded capture.
 
+## v1.252.1 — #346's review, findings 1 to 8, and the panic card's drawn answer (2026-11-09)
+
+**Reproduced first, on dev's own served build (d34a047a8), in a real browser; only what reproduced was changed.**
+
+| finding | reproduced | fix | claim and control |
+|---|---|---|---|
+| 1. Previous over the index from 1,350px free | at 1440x900 the arrow at x 184 to 228, 40 of its 44px inside the index (24 to 224) | while the index stands beside the grid the app sets `data-index` on `.ng-landnav` (`_layoutLandHorizontal`, from the index's own `hidden`), and `helmet.html` puts Previous in the right lane, one target above Next; the open face stays on the grid's left edge | `deck-arrows-index.spec.ts`, after paging to card 2, at the top and at the last answer; `deck-prev-home-rule-lost` and `deck-prev-home-flag-lost` killed |
+| 2. a closed tile keeps sortColumns' margin and clear | at 1152x900 the Hidden sections row 116px under its summary (margin 115.6px, clear right) | `sortColumns` clears both on every tile it skips, and writes no open tile | `article-dashboard.spec.ts` "finding 2", gap 16px; `closed-tile-keeps-column-margin` killed |
+| 3. the film jumps 19px at 1,024 to 1,151 with Moves closed | -19px at 1024, 1100 and 1151 on opening the question | the asking line's step counts only while Moves is open, as `placeHand` places it | `reading-media-placement.spec.ts` "finding 3", under 1.5px; `film-ask-step-without-moves` killed |
+| 4. the video suggestion's seat | | `openFeedback(video, seat)` adds `seat` to the same `kind: "video"` event | `film-suggest.spec.ts`; `video-suggestion-seat-lost` killed |
+| 5. the tray from 528 to 599px | | none: no visual problem found; the spec's NOT COVERED note corrected | |
+| 6. the article's ✕ off the stacked column | at 768 the ✕ at x 680 to 724, the column ending at 632 | stacked under the 496px cap, it sits on the column's right edge; desktop unchanged (`Math.max(0, …)`) | `stacked-width.spec.ts` "the article's ✕ ends on the column's right edge"; `u110-close-on-article-edge` killed |
+| 7. | | none: cobbler-approved as shipped | |
+| 8. spec gaps | | "Safety guides" pinned as tile and index on a Transition and (fixture) a Position; `ask-line` and `reading-media-placement` loosened checks scoped to side-by-side; `pane-chrome` fails a 286px card | |
+
+**The panic card's drawn answer (cobbler's added item).** `panic-card.spec.ts` "grading the drill in time pumps the escape odds" failed 3 of 20
+isolated on #346's own capture. Classified before fixing, 20 isolated runs with the geometry logged: 5 red, every one with the correct option drawn
+third and its centre below the reader's scrollport bottom (880): 883 three times (`elementFromPoint` hit the canvas), 901 twice (outside the
+viewport). All 15 green runs had it at 866 or above. Deterministic geometry under an unrigged `mc-shuffle` draw, not a settle race; U99 b only
+requires answers reachable by scrolling, so the spec now reaches it through `pressAnswer`: 20 of 20.
+
+**The other presses on a drawn answer, measured rather than guessed.** A survey found 19 more mouse presses on a drawn MC option. A one-run
+probe in `clickByMouse` (reverted) logged every option's centre against the scrollport in the 11 files that hold them, 40 presses in 22 tests.
+Only the catch and panic-drill cards put their third option below the 880px scrollport bottom (+1 to +34px): six `defending-landing` tests
+(`catchLoop` rigs `panic-mc-shuffle`, so they always press the first or second option), the `landing-deck-answers` panic drill (`questionRolls`
+rigs it the same way), and `reading-contract`'s dormant defender (it already uses `pressAnswer`). Every landing card's lowest option sits 30 to
+274px above the scrollport. So `panic-card` was the one unrigged draw, and no other press was converted.
+
+**A stale premise the fix moved.** `landcard-deck.spec.ts` "1440px chevrons are clickable…" pinned Previous left of the face at 1440, the home
+finding 1 found 40px inside the index. At 1440 it now asserts the index beside the grid as a premise, then Previous in the right lane above Next;
+390 and 320 keep the left home.
+
 ## v1.252.2 - The video search, routes 5 and 6: 18 fills from captions and title-first search (clips2, 2026-11-09)
 
 **What.** Clips only, 16 records: 4 technique halves gain their first front and 14 escape cards gain a `defender.escape_clips` row, one clip each. Every id answered oEmbed 200 on 9 Nov.
@@ -14749,3 +14781,109 @@ census and the SEO baseline move only in the receipt-bound reseed after cobbler'
 **How it stopped.** Route 6 halted at its halfway mark (224 of 449 halves, 3 filled, under the bar of 4). Route 5 stopped at its halfway mark (475 of 950 cards): 13 filled, but the full read overturned 3 of 16 double accepts. Each route had run a pilot first.
 
 **Measured.** In FLOW's gi game from Anywhere, placeholder cards fall from 3,541 to 3,441 of 13,448 dealt per 100 games (26.3% to 25.6%); Ghost Escape's defender threat card alone carries 53.1. Sonnet spent on routes 5 and 6 in all, pilots included: about 0.36 Mtok. Ledgers: `scratch/video-search/routes/` outside the repo; report `reports/video-search.md`.
+
+## v1.253.0 — The owner's notes on live v1.252.0: Video, the state's Win %, the tease across the row, the deck's ends, the fold, and the shelf retired (U114 a, 2026-11-09)
+
+The owner tried production v1.252.0 on the evening of 9 November. Each point was measured on production first (Mount Top, real input), then on this branch's build.
+
+| # | his words, shortened | measured on v1.252.0 | done |
+|---|---|---|---|
+| 1 | "it's just Video on the index right?" | the tile and its index row said "Videos" | the reader names the section "Video" (`SECTION_TYPES`, and the reference-clip bucket). 764 of 3,034 dossier entries hold 2 to 4 clips: the tile shows one featured video, and its "More videos" button stays plural, so nothing reads wrong |
+| 2 | "where's my Win% off of this state i'm in?" | the state's own number, V(s), was only on the bottom-left win bar ("Win 90%"). The film's seat row has carried a "Win %" slot since v1.231.0 and printed "—" on every film: it called `currentWinView`, which nothing ever defined. #346 changed neither | `_paintWinThermometer` keeps the view it prints, and `currentWinView` hands it on: one computation, two places that print it (§6.5). `state-win.spec.ts`: the seat row is the win bar's number, on a position and a transition |
+| 3 | "when i click a section on the toc/index it should reveal it if it's hidden" | not reproduced: on 1440 every one of Mount Top's 15 index rows reopened its closed section and scrolled to it, Moves, Questions and Video included, and Video on Knee Slice Pass (U11 already did this) | no change; `index-reveal.spec.ts` pins it by mouse for a tile, Moves and the film |
+| 4 | the one-line question "should take as much width as the choices row does" | the tease took the left column, 472px of a 968px row at 1440 | in columns under an open Moves row the tease is the grid's width, and the film starts under it. Opened, the question takes the left column, and the film keeps its place: the tease's height, kept per card, drops the opened card's film as much (finding 3). Below 1,024 nothing changes |
+| 5 | "retire those 2 components pls" (the article's ✕ and the shelf) | see below | retired, in its own commit |
+| 6 | "the right arrow past the last flashcard hides both the question card and the video card" | Next was HIDDEN on the last card, so a second press where it had stood fell through to the map, and the map's background tap closes the landing (`land_q_declined`, `land_dismissed`): card and film together, at 1440 and 390. A fall-through, not a deck-done rule | each boundary arrow stays where it is, disabled (`aria-disabled`, dimmed); the deck's nav is one of `_landSurfaces()`, so the press stops there. `deck-boundary.spec.ts` presses at the point the arrow occupied one card earlier, so the press is the claim |
+| 7 | "the article container cuts off its content 10 to 20 px before the fold" | no clip-path, contain or padding on the reader or its ancestors; the scrollport itself ended early: `H - _readerShelfBottom() - 8`, with a 12px floor for a shelf that is hidden while the article shows (20px at 1440x900). Where the win bar falls under the grid, its top + 8, then 8 again, with the bar 30px up: 72px at 1024x768, 69px at 390x844 | where the bar falls under the grid (no index), the legend docks 8px off the bottom and the reader ends one 8px gap above it: 42px at 1024 and 390. Elsewhere the legend keeps the template's 30px, restored by value (writing "" deleted the inline declaration and sent it to the top, §6.1, caught by this branch's own probe). The shelf's 12px floor went with the shelf: at 1440 the article runs to the fold. `reader-fold.spec.ts` |
+
+**Item 5, the retirement (U114 a, the owner, 23:43: lose all three).** The article's ✕ (`[data-reader-close]`) and the shelf (`nav.ng-reader-shelf`)
+were the only writers of `readerBook`, `landMap` and `landFeedback`. A settings key can never be deleted (§6.6), so all three are no longer read, and a saved
+"off" strands nobody. Their capabilities, with their other homes:
+
+| capability | other home | |
+|---|---|---|
+| show or hide Video | the film's own ✕; the Video index row and the closed label reopen it | kept |
+| show or hide Questions | the card's ✕; its closed label and index row | kept |
+| show or hide Moves | the hand's ✕; its closed label and index row | kept |
+| put the article away (the map-only view) | none | **LOST**, his call |
+| hide the map | none | **LOST**, his call |
+| hide the game's feedback (toasts, win bar, rewards, momentum, the tutorial) | none | **LOST**, his call |
+| keyboard | both were Tab-and-Enter buttons only; no shortcut named either | nothing else to move |
+
+Telemetry: neither sent a PostHog event. The shelf's toggles reached `setLayer` with `src: "reader-shelf"`, a beat only (no sound cue, not in the cold-start funnel); the reader's own labels still call it, now with `src: "reader"`.
+
+**What went with them, in specs** (each named in place with a v1.253.0 note):
+- Deleted file: `reading-map-input.spec.ts` (hidden Map rejects graph input, 1440 and 390).
+- `layer-dock-centre.spec.ts`: its 7 dock tests (the dock under the column with the pane open at 1440, 1024 and 800; its pane-slide and resize passes; short landscape; the phone's glyphs beside the share cue). Its replay tests stay.
+- `land-layers.spec.ts`: the map view's variants of three tests, and the phone's dock glyphs. The reading view keeps every claim, with no dock glyph left to count; the reload test moved to the reading view.
+- `article-dashboard.spec.ts`: putting the article away and back (×2).
+- `article-sections.spec.ts`: showing the article while its page loads (D-352); the first section's gap to the ✕ row; the Book-off clamp block.
+- `ask-line.spec.ts`: the article's ✕ keeping its presses at 390x631.
+- `camera-continuity.spec.ts`: the two map-view CLEAR_SEC tests, at 1440 and 390.
+- `choice-row-ends.spec.ts`: its 1440 case (the inset a row wore with the article away).
+- `dual-pair.spec.ts`: the map view's desktop framing.
+- `landcard-chrome.spec.ts`: Book restore.
+- `landing-reveal.spec.ts`: the map-view variant.
+- `opening-camera.spec.ts`: the Book-off variants.
+- `reading-navigation.spec.ts`: the Book restore step; the reuse claim stays.
+- `tab-title.spec.ts`: the reader open/close steps.
+- `stacked-width.spec.ts`: round 5's ✕ claim.
+- Units: `reader_handoff` lays out the article's flow, its only layout (the fixture had run the article-away branch, so the numbers moved to "Book reserves its node band"'s); its shelf-writer test is now the article's; `camera_opening` no longer expects `data-ng-book`; `reader_mangle`'s self-check names `placeTop` for the retired `bookScroll`.
+
+**A layout shift the ✕ hid.** The ✕ was the article's first child, 44px. Without it, at 1152 and 30% down, a line landed at 73.86px against the reader's 74px top. The reader's anchor skipped it (strictly below the top), held the next line, and opening Explore threw the skipped one 353px (`article-dashboard`, deterministic, 5 of 5). A line within half a pixel of the top is now the line at the top (`anchor-line-strict-top`).
+
+**Bytes.** Deferred exactly 502,978 B: the notes cost +331 B and the retirement paid back 4,466 B, so 4,139 B of the owner's 507,117
+approval are unused, and the ceiling followed the bytes down. Against dev's rows: `reader.js` -2,877 B, `reading.css` -1,201 B,
+`neural.js` -482 B, `neural.css` +124 B. Eager gzip 349,021 B, +333 B since the 348,688 B checkpoint (the retirement alone -212 B, from 349,233 B on commit A).
+
+**Commits.** Round 5 (v1.252.1); A, the notes (`be3911ae2`); B, the retirement alone (`20025c991`), so it reverts cleanly. Reverting B
+alone would put the deferred bytes 327 B over the approval (A measured 507,444 B), so it needs the ceiling looked at again.
+Then the merge with #353 and the app-only reseed on the merged tree.
+
+**Gates, on the tree merged with #353 (its own build).**
+- Core journeys: 1,306 passed, 5 skipped, 7 red. The seven were round 6's rules meeting old claims:
+  - two `covered-card` cases: the reading wheel's point now sat on the row-wide tease, so it moved to an article tile; and the 99-character question now stands whole on desktop;
+  - two `roll-card` cases: the scrollport now ends at the fold, so `<` became `<=`;
+  - three `video-theater` cases: the film is one column, and the asking question is the row's width.
+  - Their three files then passed 53 of 53.
+- Generated suite: 101 of 101.
+- Build shape OK (19 census counts, 3 root bundles and 14 app assets byte-for-byte), SEO parity OK on 20 routes, payload exact.
+- Controls, all against green baselines:
+  - killed: `tease-column-width`, `tease-drop-lost`, `tease-drop-asking-only`, `legend-restore-blank`, `legend-not-docked`, `reader-end-double-gap` (as retargeted), `index-reveal-lost`, `video-title-plural`, `anchor-line-strict-top`, `u59-pill-covers` (retargeted);
+  - killed at its claim: `deck-end-arrow-hidden`, `seat-win-unwired`, `reader-reserve-shelf-floor`.
+- Recorded NON-KILLS: `ask-fit-late` and `desktop-ask-fit-disabled`'s desktop case (no authored question needs fitting on the row-wide line), and `pane-card-overflow` (its spec was the map view's).
+
+**Before the merge: #354's independent review (round 7).**
+- **The owner's note 3, found.** A background tap on the map closes this landing's card and film (v1.134.0) and leaves their preferences on. The Questions and Video index rows then read open and did nothing until the next landing. This was reproduced on production v1.252.0 and on this build, at 1440 by mouse; round 6 had closed each part by its own ✕ only.
+  - The tap now keeps the dismissed landing for its decision, and `restoreLanding()` brings the card and film back through `_applyLayers`.
+  - The rows (and the Questions label) read closed while away. The rebuilt card is a declined question, so it earns no fresh credit.
+- **The mutant tables.**
+  - `article_sections_mutants.mjs` replays all 246 rows with 0 bad: 14 rows retargeted onto the code that ships, `u59r4-reopen-ungated` retired with its journey, and new rows added. Every retargeted row was killed again at its claim, except the two H139 non-kills.
+  - `neural_app_mutants.mjs`: nine rows moved with this PR (one retired: `d352-book-rehold`). Fifteen were already stale on dev; replayed against dev's own bundle, they are listed in the header and not counted as coverage.
+- **Answer for Points' hang.**
+  - With the film closed, the hang took 301 to 337 px² of the first tile's ✕ at 390x631 and 174 px² at 768.
+  - A `z-index` on every tile ✕ also covered the card's own ✕ from 1024 to 1440, because the card is one stacking context; five journeys caught it.
+  - The reader now raises only a tile ✕ the hang reaches and the card's ✕ does not.
+- **Nits.**
+  - A saved "off" for all three retired settings is now pinned to show the article, the map and the win bar.
+  - Beside the index on short screens, Previous stays on the face. It had climbed 27px at 1440x560 and reached 23px into the choices at 520.
+  - `choice-row-ends` runs at 1440 again in the reading view.
+  - The film's drop under the tease applies only while Moves is open.
+- **Bytes:** deferred 503,763 B (+785 B), 3,354 B of the approval unused; eager gzip +446 B since the checkpoint.
+
+**Before the merge, again: the delta review of round 7 (round 8).** Each of its three should-fix findings was tried by mouse first.
+
+- **The stale label (finding 1): not reproduced as described, but it led to a second hole.**
+  - At 1440 the stale Questions row left `landCard` on.
+  - At 1152 there was no label to press at all: the layout pass re-hid it from the preference, so round 7's away label never showed below 1,350px.
+  - The root fix:
+    - one predicate (`partClosed`: off by the preference, or away with the landing) for the label, the row, `aria-expanded` and the Hide/Show text, painted on every layout pass;
+    - `toggle()`, whose only callers are closed controls, now only ever opens.
+- **The null decision (finding 2): not reproduced by mouse.** The commit clears the card at once. `_landAway()` now needs a live decision; a unit test pins it.
+- **The restore that kept reading (finding 3): reproduced.** After a row restore `interacting` stayed true and the clock never armed. The restore clears it. Pinned on a played landing, because a URL arrival is reading intent, where the clock never runs at all.
+- **Nits:**
+  - the restored card is scored as the landing question, as ✕ then label (round 7 said "no fresh credit", which was wrong);
+  - one press also opens the pressed part;
+  - the hang is measured after the pass's game height, and 768 is pinned;
+  - Next under the fold at 1440x520–560 beside the index is recorded: fewer than 92px of the face are in view there.
+- **Bytes:** deferred 504,252 B (+489 B); 2,865 B of the approval unused.

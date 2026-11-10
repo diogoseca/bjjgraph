@@ -90,7 +90,9 @@ for (const vp of [{ width: 1440, height: 900 }, { width: 390, height: 844 }]) {
     const sent = await page.evaluate(() => (window as any).__phEvents.filter((x: any) => /^neural_(issue_reported|technique_requested)$/.test(x.e)))
     expect(sent, "one report").toHaveLength(1)
     expect(sent[0].e, "the form's own event").toBe("neural_issue_reported")
-    expect(sent[0].p, "a video suggestion about the shown move").toMatchObject({ kind: "video", node: shown.id, text: "https://youtu.be/ddddddddddd?t=42" })
+    // #346's review (finding 4): the no-video card is per half, so the report names the half: Mount Top's film is the top seat's.
+    // A technique half reports "attacker" or "defender" through the same film role (_ngMediaRole).
+    expect(sent[0].p, "a video suggestion about the shown move").toMatchObject({ kind: "video", node: shown.id, seat: "top", text: "https://youtu.be/ddddddddddd?t=42" })
 
     await j.openAccountMenu()
     await j.clickByMouse("[data-menu-feedback]", "the menu's Feedback")
@@ -110,4 +112,7 @@ for (const vp of [{ width: 1440, height: 900 }, { width: 390, height: 844 }]) {
 //   film-suggest-node-lost ...... openFeedback() without the move ................ killed
 //   film-suggest-kind-lost ...... the report says no kind ........................ killed
 //   film-none-close-back ........ the ✕ on the no-video card again (U104) ........ killed
+//   (v1.253.0, #354's review finding 2: the three rows above were retargeted after later edits moved their minified targets, and killed
+//   again at their claims against a green baseline.)
+//   video-suggestion-seat-lost .. the report drops its seat (v1.252.1) ........... killed
 // No surviving controls. NOT COVERED: the card's own CSS (its 16:9 box is the shared `.ng-current-card .ng-choice-media` rule).

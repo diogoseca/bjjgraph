@@ -501,10 +501,7 @@ for (const width of [390, 1440]) test.describe(`catch drawer ${width}`, () => {
     const j = await catchLoop(page)
     await page.emulateMedia({ reducedMotion: 'no-preference' })
     await settled(page)
-    if (!await page.evaluate(() => (window as any).__neural._graphInputOn())) {
-      await j.clickByMouse('[data-reader-part="map"]', 'enable map for the wheel control')
-      await j.readerLayoutSettled()
-    }
+    // v1.253.0 (U114 a): the map can no longer be hidden, so there is no shelf Map button to turn it on; only the theater turns it off.
     expect(await page.evaluate(() => (window as any).__neural._graphInputOn()), 'premise: map input is enabled').toBe(true)
     await page.evaluate(() => {
       const a = (window as any).__neural

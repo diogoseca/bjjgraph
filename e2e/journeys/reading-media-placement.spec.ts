@@ -317,6 +317,25 @@ test('@curated same-seat hydration retains the host; a role change retires it', 
 // stage, beside the question on a desktop (top-aligned, 60px gap) and above it on a phone (12px gap). The
 // kept claims are unchanged; the video cards' A journey pins the stage's sizes. STALE CONTRACT (D-368's
 // phone order): U52 b puts the question straight after Moves, and the current card follows its backs.
+// #346's review, finding 3 (reproduced before the fix: a 19px jump at 1,024, 1,100 and 1,151px). With Moves closed the asking line
+// is not in the Moves band, so the film starts on the question, which opens downward. Control: film-ask-step-without-moves
+// (tests/artifacts/article_sections_mutants.mjs).
+test('#346 review, finding 3: with Moves closed, taking the question up moves the film nowhere (1100x900)', async ({ page }) => {
+  await page.setViewportSize({ width: 1100, height: 900 })
+  const j = journey(page)
+  await j.boot(PATH, { beforeNavigate: async () => { await page.route('**/static/neural/content/*.json', route => route.continue()) } })
+  await expect(page.locator('[data-land-film]')).toBeVisible()
+  await j.readerLayoutSettled()
+  await page.locator('[data-hand-close]').evaluate(e => e.scrollIntoView({ block: 'center' })); await j.readerLayoutSettled()
+  await j.clickByMouse('[data-hand-close]', 'close Moves with its own ✕')
+  await j.readerLayoutSettled()
+  const film = () => page.evaluate(() => (window as any).__neural._landFilmEl.getBoundingClientRect().top)
+  expect(await page.evaluate(() => (window as any).__neural._reader.game.dataset.mediaLayout), 'premise: the film is beside the question').toBe('side-by-side')
+  const asking = await film()
+  await j.openQuestion()
+  expect(Math.abs(await film() - asking), 'taking the question up moves the film nowhere, with Moves closed').toBeLessThan(1.5)
+})
+
 for (const width of [1366, 390]) {
   test(`@curated ${width}px the current card sits in the game's stage without fixed overlap or resize loops`, async ({ page }) => {
     const errors: string[] = []
@@ -355,7 +374,9 @@ for (const width of [1366, 390]) {
         together: r.mediaHome.parentElement === r.game && card.parentElement === r.game && row.parentElement === r.game,
         // U104: in columns the film starts level with the asking line, which lives in the Moves row's bottom band, so the film's box
         // meets the row's empty band. The claim is that it covers no card and no choice, and that a press on it is its own.
-        layout: r.game.getAttribute('data-media-layout'), overlap: meet(m, c) || [...row.querySelectorAll('[data-tech]')].some((el: Element) => meet(m, el.getBoundingClientRect())),
+        // Stacked, the film is under the row and the stricter claim, no shared pixel with the row's box at all, still holds (finding 8).
+        layout: r.game.getAttribute('data-media-layout'), overlap: meet(m, c) || (r.game.getAttribute('data-media-layout') === 'side-by-side'
+          ? [...row.querySelectorAll('[data-tech]')].some((el: Element) => meet(m, el.getBoundingClientRect())) : meet(m, h)),
         filmPressed: [2, 8, 16].every(dy => a._landFilmEl.contains(document.elementFromPoint(m.left + m.width / 2, m.top + dy))),
         media: { x: m.x, w: m.width, h: m.height, top: m.top, bottom: m.bottom }, card: { x: c.x, y: c.y, bottom: c.bottom, right: c.right }, hand: { top: h.top, bottom: h.bottom },
         ask: card.hasAttribute('data-land-ask'), askGap: card.querySelector('[data-land-ask-text]')?.getBoundingClientRect().top - Math.max(...[...row.querySelectorAll('[data-tech]')].map((el: Element) => el.getBoundingClientRect().bottom)),
@@ -409,7 +430,10 @@ for (const width of [1366, 390]) {
     expect(expanded).toMatchObject({ same: true, hosts: 1, home: true, lifted: false, together: true, overlap: false, ask: false, layout: width > 640 ? 'side-by-side' : 'stacked', position: 'relative' })
     expect(expanded.card.y - expanded.hand.bottom, 'the expanded question follows Moves at one gap').toBeCloseTo(expanded.gap, 1)
     if (width > 640) {
-      expect(expanded.media.top, 'the current card is top-aligned with the expanded question').toBeCloseTo(expanded.card.y, 1)
+      // v1.253.0 (owner, 2026-11-09): the tease spans the row and the film starts under it, so beside the expanded question it
+      // starts one tease line lower (the "moves the film nowhere" claim below is the one that matters).
+      expect(expanded.media.top - expanded.card.y, 'the current card starts within one tease line under the expanded question').toBeGreaterThanOrEqual(0)
+      expect(expanded.media.top - expanded.card.y, 'the current card starts within one tease line under the expanded question').toBeLessThanOrEqual(30)
       // U104, U108 a (owner, 2026-11-09, replacing the film 60px left of the question): the film is the right column, past the
       // open face's 52px lane for the deck's arrows, and taking the question up moved it nowhere.
       expect(expanded.media.x - expanded.card.right, 'beside it, right of the face and its arrows\' lane').toBeGreaterThanOrEqual(52)

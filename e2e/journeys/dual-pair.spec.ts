@@ -865,19 +865,7 @@ test("@curated on a narrow phone the clamp holds the orb off the edge, and the n
 // and name above the first section (0.447 here), which article-sections.spec.ts asserts at eight
 // widths ("current node stays centred"). The reading bias is the MAP view's framing, so it is
 // asserted there: Book off, persisted the way a returning reader left it.
-test("desktop framing is untouched — the orb stays at the reading bias", async ({ page }) => {
-  const j = journey(page)
-  await bootContent(page, j, AT, { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } })
-  await settle(page, j)
-  const m = await page.evaluate(() => {
-    const a: any = (window as any).__neural
-    const scale = a.W / a.cam.vw
-    const mid = a.pairMid(a.nodes[a.focusIdx])
-    return { frac: ((mid.x - a.cam.cx) * scale + a.W / 2) / a.W, W: a.W }
-  })
-  expect(m.W, "this is a desktop viewport").toBeGreaterThan(700)
-  expect(m.frac, `the orb parks at ~44% of the width (${m.frac.toFixed(3)})`).toBeCloseTo(0.44, 2)
-})
+// v1.253.0 (U114 a): "desktop framing is untouched — the orb stays at the reading bias" asserted the MAP view's framing, retired.
 
 /**
  * THE ROLE WORD IS THE ONE ITS CATEGORY ACTUALLY USES (v1.129.4). @curated
@@ -906,7 +894,7 @@ test("@curated a submission finishes and escapes; a transition attempts and defe
   // STALE CONTRACT (D-338, no View menu): no control hides Book from the article view, so the
   // map view boots as a returning reader left it, Book and the card off (the persisted settings
   // the two retired clicks wrote).
-  await bootContent(page, j, AT, { initialState: { v: 2, settings: { readerBook: false, landCard: false }, settingsAt: {} } })
+  await bootContent(page, j, AT, { initialState: { v: 2, settings: { landCard: false }, settingsAt: {} } })
   await settle(page, j)
 
   const WORDS: Record<string, [string, string]> = {
@@ -1008,7 +996,7 @@ test("@curated the name and its qualifier centre on the pair, and the one-row ca
   // STALE CONTRACT (D-338, no View menu): no control hides Book from the article view, so the
   // map view boots as a returning reader left it, Book and the card off (the persisted settings
   // the two retired clicks wrote).
-  await bootContent(page, j, AT, { initialState: { v: 2, settings: { readerBook: false, landCard: false }, settingsAt: {} } })
+  await bootContent(page, j, AT, { initialState: { v: 2, settings: { landCard: false }, settingsAt: {} } })
   await settle(page, j)
 
   const hoverKind = async (want: "qual" | "plain") => {

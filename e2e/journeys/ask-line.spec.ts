@@ -70,8 +70,10 @@ for (const width of [1024, 1440, 1920]) {
     }
     expect(g.link).toBe("Answer for Points")
     expect(g.shown.length).toBeGreaterThan(3)
-    expect(g.full.length, "premise: the authored question needs trimming").toBeGreaterThan(g.shown.length)
-    expect(g.shown).toMatch(/…$/)
+    // v1.253.0 (owner, 2026-11-09): the one-line tease spans the choices row, so the authored question (at most 100 characters in
+    // the whole corpus) stands whole on it at every width here; it was "needs trimming" in a column. The fit's trim no longer meets
+    // real content in columns, and nothing in this file covers it now.
+    expect(g.shown, "the question stands whole on its one line").toBe(g.full)
     expect(g.clipped).toBe(false)
     expect(g.padding).toBe("0px 0px 0px 3px")
     expect(g.gap, "VIDEO3 the attached hint keeps the visible section gap").toBeCloseTo(g.token, 1)
@@ -127,7 +129,7 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 900], [1024, 900], 
       const label = range.getBoundingClientRect()
       const f = film?.getBoundingClientRect()
       return { samples: edges.reduce((n, e) => n + e.samples, 0), stolen: edges.reduce((n, e) => n + e.stolen, 0), onFilm, filmTop,
-        overlapsFilm: !!f && box.left < f.right && f.left < box.right && box.top < f.bottom && f.top < box.bottom,
+        overlapsFilm: !!f && box.left < f.right && f.left < box.right && box.top < f.bottom && f.top < box.bottom, layout: a._reader.game.dataset.mediaLayout,
         height: box.height, top: box.top, bottom: box.bottom, cardsBottom: Math.max(...cards.map(c => c.getBoundingClientRect().bottom)),
         focused: go.matches(":focus-visible"), ringStyle: ring.outlineStyle, label: { top: label.top, bottom: label.bottom },
         ring: { top: box.top + parseFloat(ring.top), bottom: box.bottom - parseFloat(ring.bottom) } }
@@ -137,9 +139,11 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 900], [1024, 900], 
     expect(g.top, "VIDEO3 Answer for Points starts below the choices").toBeGreaterThanOrEqual(g.cardsBottom)
     expect(g.onFilm?.samples, "premise: this page shows its film").toBeGreaterThan(0)
     expect(g.onFilm!.stolen, "VIDEO3 Answer for Points takes no press from the film").toBe(0)
-    // U104, U108 a (owner, 2026-11-09): the film is the right column now, beside the line rather than under it, so "ends above the
-    // film" (its old proxy) is stricter than the claim. The claim is that the link and the film never share a pixel.
-    expect(g.overlapsFilm, "VIDEO3 Answer for Points never overlaps the film").toBe(false)
+    // U104, U108 a (owner, 2026-11-09): in columns the film is the right column, beside the line rather than under it, so "ends above
+    // the film" is stricter than the claim there; the claim is that the link and the film never share a pixel. Stacked, the film is
+    // still under the line, and the stricter claim holds (#346's review, finding 8).
+    if (g.layout === "side-by-side") expect(g.overlapsFilm, "VIDEO3 Answer for Points never overlaps the film").toBe(false)
+    else expect(g.bottom, "VIDEO3 Answer for Points ends above the film").toBeLessThanOrEqual(g.filmTop! + .5)
     expect(g.height, "VIDEO3 the link keeps its 44px target").toBeGreaterThanOrEqual(44)
     expect(g.focused, "premise: the link shows keyboard focus").toBe(true)
     if (width <= 640 && height >= 700) return
@@ -152,27 +156,43 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 900], [1024, 900], 
 
 // With the film closed the next thing under the link is the article's ✕. Their boxes overlap in a corner neither one
 // paints; the ✕ takes it. On dev the link took 91px² of it, and the hang above grew that to 142px².
-test("VIDEO3 at 390x631 with the film closed the article's close keeps its presses", async ({ page }) => {
-  const j = await boot(page, 390, 631)
+// With the film closed the next thing under the link is the first open tile's ✕ (v1.253.0, U114 a, retired the article's ✕ that
+// was there before). Their boxes overlap in a corner neither one paints; the ✕ takes it (the reader raises it there). Measured on this
+// page before the fix (#354's review, finding 3): the link took 328px² of the ✕'s 1,936px², so a press on the ✕'s top took the
+// question up instead of closing the tile.
+// Round 7's review (nit 7): sampled straight after the film closes, with no scroll that would lay the reader out again, so a pass that
+// decided on the tiles' old places would show here. 768 too (174px² there before the fix).
+for (const [width, height] of [[390, 631], [768, 900]] as const)
+test(`VIDEO3 at ${width}x${height} with the film closed the first tile's close keeps its presses`, async ({ page }) => {
+  const j = await boot(page, width, height)
   await j.clickByMouse("[data-film-close]")
   for (let i = 0; i < 6; i++) await j.advance(100)
   await j.readerLayoutSettled()
   const g = await page.evaluate(() => {
     const go = document.querySelector("[data-land-ask-go]") as HTMLElement
-    const close = [...document.querySelectorAll("[data-reader-close]")].find(e => e.getClientRects().length) as HTMLElement
+    const tile = [...document.querySelectorAll("[data-reader-body] > .ng-section-card")].find(e => e.getClientRects().length && (e as HTMLElement).dataset.collapsed !== "true") as HTMLElement
+    const close = tile.querySelector("[data-section-toggle]") as HTMLElement
     const c = close.getBoundingClientRect(), b = go.getBoundingClientRect()
-    let inBoth = 0, stolen = 0
+    let inBoth = 0, stolen = 0, corner: [number, number] | null = null
     for (let x = c.left + .5; x < c.right; x++) for (let y = c.top + .5; y < c.bottom; y++) {
-      if (x >= b.left && x <= b.right && y >= b.top && y <= b.bottom) inBoth++
-      // Only where the ✕ would have taken the press: its rounded corner is outside its own hit shape.
+      const both = x >= b.left && x <= b.right && y >= b.top && y <= b.bottom
+      if (both) inBoth++
       const stack = document.elementsFromPoint(x, y)
       if (stack.includes(close) && go.contains(stack[0])) stolen++
+      // A point the ✕'s own hit shape holds (its rounded corner is outside it) and the link's box reaches: the contested corner.
+      if (both && stack.includes(close)) corner ||= [x, y]
     }
-    return { inBoth, stolen, height: b.height }
+    return { type: tile.dataset.sectionType!, inBoth, stolen, height: b.height, corner }
   })
-  expect(g.inBoth, "premise: the link's box reaches the close").toBeGreaterThan(0)
-  expect(g.stolen, "VIDEO3 Answer for Points takes no press from the article's close").toBe(0)
+  expect(g.inBoth, "premise: the link's box reaches the first tile's close").toBeGreaterThan(0)
+  expect(g.stolen, "VIDEO3 Answer for Points takes no press from the first tile's close").toBe(0)
   expect(g.height, "VIDEO3 the link keeps its 44px target").toBeGreaterThanOrEqual(44)
+  // And a real press in that corner does what the ✕ does, not what the link does.
+  await page.mouse.click(...g.corner!); await j.readerLayoutSettled()
+  // A closed tile moves to Hidden sections, so it is found by its type, wherever it went.
+  await expect(page.locator(`.ng-section-card[data-section-type="${g.type}"]`).first(), "a press in the shared corner closes the tile")
+    .toHaveAttribute("data-collapsed", "true")
+  await expect(page.locator(GO), "and does not take the question up").toHaveCount(1)
 })
 
 test("@curated VIDEO3 resize and reveal restore the choices row's original padding", async ({ page }) => {

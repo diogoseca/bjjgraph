@@ -215,19 +215,16 @@ for (const width of [390, 1440]) {
   })
 }
 
-// STALE CONTRACT (D-338, D5-S4): the article view has no Book control, but the saved Book-off state keeps
-// its restore, so the claim is kept there: the seats are read in the map view and Book restores
-// without refetching either seat.
-test('@curated successful article responses are reused across seat navigation and Book restores', async ({ page }) => {
+// v1.253.0 (U114 a): the Book restore this also pressed is retired with the shelf; the reuse claim stays, in the article view.
+test('@curated successful article responses are reused across seat navigation', async ({ page }) => {
   const j = journey(page), requests: string[] = []
   page.on('request', r => { if (r.resourceType() === 'fetch' && /Knee-Slice-Pass\/(Attacker|Defender)$/.test(new URL(r.url()).pathname)) requests.push(new URL(r.url()).pathname) })
-  await j.boot(KNEE + '/Attacker', { initialState: { ...QUIET, settings: { ...QUIET.settings, readerBook: false } } })
+  await j.boot(KNEE + '/Attacker', { initialState: QUIET })
   await expect(page.locator(READY)).toHaveCount(1)
   for (const seat of ['Defender', 'Attacker', 'Defender']) {
     await j.readingOtherHalf() // D-318 U6a: the native paired half replaces the retired switch.
     await expect(page.locator('[data-reader]')).toHaveAttribute('data-reader-path', KNEE + '/' + seat)
   }
-  await j.clickByMouse('[data-layer-show="book"]', 'restore Book from the saved map view')
   await expect(page.locator(READY)).toBeVisible()
   expect(requests.filter(x => x.endsWith('/Defender'))).toHaveLength(1)
   expect(requests.filter(x => x.endsWith('/Attacker'))).toHaveLength(0)

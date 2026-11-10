@@ -58,9 +58,9 @@
 .ng-section-title::before,.ng-section-title::after { content:"";flex:1;min-width:2px;height:1px;background:#414c68; }
 .ng-section-title::before { flex-basis:calc(52px - var(--reader-unit)); }
 .ng-section-card>h2>[aria-expanded=true] { position:absolute;right:6px;top:50%;transform:translateY(-50%); }
-.ng-reader :is([data-section-toggle],[data-game-open],[data-reader-close]) { flex:none;display:grid;place-items:center;width:44px;height:44px;min-height:44px;margin:0;padding:0;border:0;border-radius:7px;background:none;box-shadow:none;color:#8b97b0;font:12px/1 "Plus Jakarta Sans",sans-serif;text-align:center;cursor:pointer; }
+.ng-reader :is([data-section-toggle],[data-game-open]) { flex:none;display:grid;place-items:center;width:44px;height:44px;min-height:44px;margin:0;padding:0;border:0;border-radius:7px;background:none;box-shadow:none;color:#8b97b0;font:12px/1 "Plus Jakarta Sans",sans-serif;text-align:center;cursor:pointer; }
 .ng-section-x { display:grid;place-items:center;width:24px;height:24px;border-radius:7px;transition:color .15s,background .15s; }
-.ng-reader :is([data-section-toggle],[data-reader-close]):hover .ng-section-x { color:#dbe2f0;background:#ffffff14; }
+.ng-reader [data-section-toggle]:hover .ng-section-x { color:#dbe2f0;background:#ffffff14; }
 .ng-section-closed { display:none; }
 .ng-reader [data-collapsed=true] .ng-section-x { display:none; }
 .ng-reader [data-collapsed=true] .ng-section-closed { display:flex;align-items:center;gap:6px; }
@@ -83,7 +83,6 @@
 .ng-reader-hidden .ng-section-closed { width:100%;justify-content:space-between; }
 .ng-reader-hidden .ng-section-closed::after { content:"Show"; }
 /* U12 a (owner): the article's own ✕ on its top row puts the article away. */
-.ng-reader [data-reader-close] { margin:0 0 0 auto; }
 /* U100 a: a phase of Training has no head above it, so only a body under one starts flush. */
 .ng-section-body { padding:var(--reader-unit); }
 h2+.ng-section-body { padding-top:0; }
@@ -149,16 +148,10 @@ article>:is(.also-known-as,.often-confused-with)>em { display:none; }
 .ng-reader-toc-row[data-collapsed=true] a:hover { color:inherit!important; }
 .ng-reader[data-reference] .ng-reader-head { justify-content:flex-start; }
 .ng-reader[data-reference] .ng-reader-head h1 { position:static;width:auto;height:auto;clip-path:none;font:600 23px/1.3 "Space Grotesk",sans-serif;color:#f0f3fa; }
-.ng-reader :focus-visible,.ng-reader-shelf :focus-visible { outline:2px solid #afcfff;outline-offset:2px; }
+.ng-reader :focus-visible { outline:2px solid #afcfff;outline-offset:2px; }
 .ng-reader-toc :focus-visible { outline:2px solid #afcfff;outline-offset:-2px; }
 .ng-reader-dormant [data-land-clock-track] { visibility:hidden; }
-.ng-reader-shelf { position:absolute;z-index:6;display:flex;gap:4px;transform:translateX(-50%);box-sizing:border-box;padding:4px;border:1px solid #414c68;border-radius:12px;background:#161c30;cursor:auto;touch-action:manipulation; }
-.ng-reader-shelf button { display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:44px;min-height:48px;width:55px;margin:0;padding:4px 2px;gap:3px;border:1px solid transparent;border-radius:7px;background:transparent;color:#b6c5df;font:10px/1.2 "Plus Jakarta Sans",sans-serif;cursor:pointer; }
-.ng-reader-shelf button>span:first-child { font-size:18px; }
-.ng-reader-shelf [aria-pressed=false] { background:#2c3e60;color:#eff5ff;border-color:#718ab0; }
-.ng-reader-shelf[hidden] { display:none!important; }
-.ng-reader-no-map>canvas,.ng-reader-no-map .ng-legendkey,.ng-reader-no-map [data-seat-star],.ng-reader-no-map [data-reader-map],.ng-reader-no-feedback :is(.ng-evtoast,.ng-winbar,.ng-challenge-reward,.ng-combo-pop,.ng-momentum,.ng-vignette,.ng-tut,[data-reader-feedback]) { visibility:hidden!important; }
-@media(max-width:640px) { .ng-reader { --reader-unit:14px; } .ng-reader-shelf button { width:48px; } }
+@media(max-width:640px) { .ng-reader { --reader-unit:14px; } }
 @media(max-width:599px) { .ng-reader [data-reader-body] { --gap:calc(var(--section-gap)*3); } .ng-section-card { border-radius:16px; } }
 @media(prefers-reduced-motion:reduce) { .ng-reader,.ng-reader-article *,.ng-reader-toc-row { scroll-behavior:auto!important;animation:none!important;transition:none!important; } }
 .ng-section-body .ng-section-provenance { color:#b6c5df;font-size:12px;margin:0 0 8px; }

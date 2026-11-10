@@ -29,6 +29,7 @@ import { journey } from '../dsl'
 //   width-right-edge         the grid keeps the index's 12px clearance (the grid back to the old, wider width)
 //   row-keeps-inset          the first card sits on the grid's left edge (the row's 24px inset back)
 //   row-full-width           below the index the row shares the grid too (the row back to the window's width)
+//   (both retargeted in v1.253.0 after U114 a moved their target, and killed again: #354's review, finding 2)
 //   grid-spans-all           no section spans the grid (a tile across all 12 columns)
 //   beta-everywhere          only a position's two sections carry Beta (the mark on every options tile)
 //   beta-suffix              the same, on a System and on Training (the selector back to id suffixes)

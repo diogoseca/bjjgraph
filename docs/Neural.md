@@ -109,9 +109,9 @@ first ("Escaping Loop Choke from Half Guard"); the Moves tray ends short of it. 
 node above sections; scrolled prose covers it.
 `readerSection.*` defaults shown, merges per key, and is edited in Settings → Rolling.
 
-With Book shown no control turns the article, Map or Feedback off (D-338: no View menu); the logo
-opens the pane, as Browse did. Book off (a saved state) keeps the restore shelf. `landFilm/Card/Hand/Map/Feedback` store normal visibility; with the article shown
-the film follows `readerSection.videos`. `readerBook` controls the article.
+No control turns the article, Map or Feedback off; the logo opens the pane. U114 a retired the
+article's ✕ and the shelf: `readerBook`, `landMap`, `landFeedback` are never read again. `landFilm/Card/Hand` store
+normal visibility; the film follows `readerSection.videos`.
 Hidden questions are not built; hidden hands stay dealt and untimed. Card and hand publish once
 the landing's article renders (≤800ms, D-351); late Videos or film never move them. The hand starts its Win
 chance only after the reader has laid its landing out once (`_readerAwaited`, D-354; 3 s at most). Focus is retired (D-338):
@@ -955,7 +955,7 @@ the app root**. Esc walks the ladder top-down, pane last. New overlay → pick a
 number.
 
 **Dock from measurements.** `_landDatum` measures the hand; fixed card/film writers yield to
-the reader's shared native scrollport. Its measured shelf clears corner controls; the hand ✕
+the reader's shared native scrollport, to the fold or one gap above chrome under it (`_readerReserve`); the hand ✕
 hugs the last choice and the film ✕ the last thumbnail. `_bandBot` keeps the tightest observed
 play band. The [reading layout contract](Architecture.md#reading-delivery) defines the media
 slots, outside arrows, coalesced layout and optional `readerChromeFrame` hook.

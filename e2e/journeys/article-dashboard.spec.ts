@@ -64,6 +64,8 @@ import { journey } from '../dsl'
 //   u59-tab-rtl            Tab walks the tiles in the order the eye does (the columns mirrored)
 //   u59-measure-unset      prose lines keep a readable measure (the 46ch column removed)
 //   line-dom-first         opening Explore keeps the topmost line of EITHER column (the first block in source order)
+//   (v1.253.0, #354's review finding 2: line-dom-first, line-keyed-on-grid and reader-clipped-block-anchored were retargeted after
+//   U114 a and the half-pixel anchor moved their targets, and killed again against a green baseline)
 //   u59-pill-covers        the reader ends above the corner cue (its reserve measured over the old column only)
 // SIDECX5 integration: U46 b moved the account badge into the drawer. The four desktop cases
 // now create a real conditional share cue in its old corner and retain the obstruction claim.
@@ -76,7 +78,7 @@ import { journey } from '../dsl'
 //   u59-phone-pairs        the phone keeps its stacked flow (the desktop's half width applied at 390px)
 // DASH-R4 (the independent review of R3, scratch/review-323): each control below breaks one claim added for it.
 //   u59r4-anchor-arrival   the stage holds still when Explore opens or the window turns at the arrival (no gate)
-//   u59r4-reopen-ungated   putting the article away and back keeps the line (the anchor without its gate)
+//   u59r4-reopen-ungated   RETIRED in v1.253.0 with its journey, putting the article away and back (U114 a)
 //   u59r4-table-measured   a wide table shows every column at 1920 (its article kept the 46ch column)
 //   u59r4-table-margin     a tablet table fits inside the padded tile (the static table margin restored)
 //   u59r4-press-full       an article arriving under a held press still shows two lanes (the default width the whole grid)
@@ -190,6 +192,8 @@ function wholeContent(d: Dash) {
 // stage". The slide below: ask-fit-late (tests/artifacts/neural_app_mutants.mjs), the asking line fitted a frame late again,
 // killed at "the asking line stays one line on every pass of the slide" (26 / 43). Its first catch, the line's drift, moved off
 // every page once the tables' top padding changed their heights, which is why the fix now has a claim of its own.
+// NOT KILLED since v1.253.0: the tease spans the row (owner, 2026-11-09), and no authored question needs fitting at that width, so
+// a late fit leaves the line one line on every pass. The fit's column path has no live claim now; ask-line.spec.ts says so too.
 function columns(d: Dash) {
   const lanes = [...new Set(d.tiles.map(t => Math.round(t.box.left)))].sort((x, y) => x - y)
   expect(lanes, 'two columns').toHaveLength(2)
@@ -341,6 +345,8 @@ async function expectAskGap(page: Page) {
 // tile's own 46ch column, not the grid's edge. The edge only met text in a narrow tile, and a tile ends at its content
 // (U65 b), so a depth could land on a gap with nothing wrong. v1.251.0: two columns have no one line, because the source
 // order no longer runs down the page, so the line is the nearer of the two lanes' first lines.
+// v1.253.0: with the article's ✕ gone (U114 a) a line sat 0.14px above the reader's top at 1152 (30%); the reader's anchor now takes a
+// line within half a pixel. Control: anchor-line-strict-top (article_sections_mutants.mjs), killed at "keeps its place" (73.86 -> 426.73).
 for (const [width, height] of [[1440, 900], [1152, 900]] as const) for (const depth of [0.3, 0.6]) {
   test(`U59 c: at ${width}x${height} opening Explore keeps the line at the reader's top (${depth * 100}% down)`, async ({ page }) => {
     const j = await boot(page, width, height)
@@ -503,46 +509,9 @@ test('U59 c: a phone turned to landscape and back (390x844, 844x390, 390x844) le
   expect(await stage(page), 'back upright, the Moves row and the question are where they were').toEqual(before)
 })
 
-// DASH-R4 (review finding 2): the article's own close and the shelf's Book button. sync() restores the reader's scroll
-// into the reopened article; on R3 the anchor then held whatever line the never-shown narrow grid had put at the top,
-// 113-293px off. The line under a fixed point must come back to the same place, as on dev.
-for (const offset of [40, 300]) {
-  test(`U59 c: at 1440x900 putting the article away and back (its close ${offset}px below the top) returns the same line`, async ({ page }) => {
-    const j = await boot(page, 1440, 900)
-    await page.locator(READY).evaluate((e, off) => {
-      const x = e.querySelector('[data-reader-close]')!
-      e.scrollTop += x.getBoundingClientRect().top - e.getBoundingClientRect().top - off
-    }, offset)
-    await j.readerLayoutSettled()
-    const mark = () => page.evaluate(() => {
-      const r = (window as any).__neural._reader, rt = r.root.getBoundingClientRect()
-      const w = window as any
-      if (!w.__testLine) {
-        // At the 300px depth a point 140px below the reader top is still above the article.
-        // Select a rendered paragraph first, then retain the character under that fixed point.
-        const paragraph = ([...r.body.querySelectorAll('p,li')] as HTMLElement[]).find(e => {
-          const b = e.getBoundingClientRect(); return b.width > 0 && b.top >= rt.top && b.top + 20 < rt.bottom
-        })
-        if (!paragraph) throw Error('premise: a paragraph is visible in the article')
-        const b = paragraph.getBoundingClientRect(), pos = (document as any).caretRangeFromPoint(b.left + 10, b.top + 12), range = document.createRange()
-        if (!pos || pos.startContainer.nodeType !== Node.TEXT_NODE || !r.body.contains(pos.startContainer)) throw Error('premise: the point names article text')
-        range.setStart(pos.startContainer, pos.startOffset); range.setEnd(pos.startContainer, Math.min((pos.startContainer as Text).length ?? 0, pos.startOffset + 1))
-        w.__testLine = range
-      }
-      const b = w.__testLine.getBoundingClientRect()
-      return { scrollTop: Math.round(r.root.scrollTop), line: Math.round(b.top), rendered: !!w.__testLine.toString() && b.height > 0 && b.top >= rt.top && b.bottom <= rt.bottom }
-    })
-    const before = await mark()
-    expect(before.rendered, 'premise: the saved range is visible article text, not an empty caret on the map').toBe(true)
-    await j.clickByMouse('[data-reader-close]', 'the article\'s own close')
-    for (let i = 0; i < 6; i++) await j.advance(100)
-    expect(await page.evaluate(() => (window as any).__neural._reader.articleEl.hidden), 'premise: the article is put away').toBe(true)
-    await j.clickByMouse('[data-reader-part="book"]', 'the shelf\'s Book button')
-    for (let i = 0; i < 6; i++) await j.advance(100)
-    await j.readerLayoutSettled()
-    expect(await mark(), 'the same line is back under the same point').toEqual(before)
-  })
-}
+// v1.253.0 (U114 a): "U59 c: at 1440x900 putting the article away and back returns the same line" (DASH-R4, review finding 2)
+// went with the article's ✕ and the shelf's Book button.
+
 
 // DASH-R4 (review finding 3): the 6-column Top/Bottom comparison on every position hub needs ~520-566px, and a tile is 712px
 // wide at 1920. UNGUARDED BELOW THAT, and a known cost of two columns: Mount's table hides 135px behind a sideways scroll at
@@ -897,6 +866,30 @@ test('U65 b: the space below the shorter column remains reader input', async ({ 
   expect(await page.evaluate(({ x, y }) => document.elementFromPoint(x, y)?.matches('[data-reader-body]'), point), 'the map below the shorter column is covered by the reader grid for input').toBe(true)
   await page.mouse.click(point.x, point.y)
   expect(await page.evaluate(() => ({ paused: (window as any).__neural.paused, reading: (window as any).__neural._reader.interacting, dragging: !!(window as any).__neural.dragging }))).toEqual({ paused: true, reading: true, dragging: false })
+})
+
+// #346's review, finding 2 (reproduced before the fix at 1152x900, Side Control Bottom: Position definition's 115.6px column margin and
+// clear:right rode into "Hidden sections", 116px under its summary). sortColumns now clears both on every tile it skips.
+// Control: closed-tile-keeps-column-margin (tests/artifacts/article_sections_mutants.mjs).
+test('#346 review, finding 2: a closed tile carries no column margin into "Hidden sections" (1152x900)', async ({ page }) => {
+  const j = await boot(page, 1152, 900, '/Positions/Side-Control/Bottom')
+  const type = await page.evaluate(() => ([...(window as any).__neural._reader.body.children] as HTMLElement[])
+    .find(c => c.getClientRects().length && parseFloat(c.style.marginTop) > 24)?.dataset.sectionType ?? null)
+  expect(type, 'premise: a tile starts under a stage cell, with a column margin').not.toBeNull()
+  const close = `[data-section-toggle="${type}"]`
+  await page.locator(close).evaluate(e => e.scrollIntoView({ block: 'center' })); await j.readerLayoutSettled()
+  await j.clickByMouse(close, `close ${type} with its own control`)
+  await j.readerLayoutSettled()
+  await page.locator('.ng-reader-hidden > summary').evaluate(e => e.scrollIntoView({ block: 'center' })); await j.readerLayoutSettled()
+  await j.clickByMouse('.ng-reader-hidden > summary', 'open "Hidden sections"')
+  const row = await page.evaluate(t => {
+    const h = document.querySelector('.ng-reader-hidden') as HTMLDetailsElement, card = h.querySelector(`[data-section-type="${t}"]`) as HTMLElement | null
+    return card && { open: h.open, gap: card.getBoundingClientRect().top - h.querySelector('summary')!.getBoundingClientRect().bottom, mt: card.style.marginTop, clear: card.style.clear }
+  }, type)
+  expect(row, 'the closed tile is listed in "Hidden sections"').not.toBeNull()
+  expect(row!.open, 'premise: the list is open').toBe(true)
+  expect([row!.mt, row!.clear], 'a closed tile keeps no column margin and no clear').toEqual(['', ''])
+  expect(row!.gap, 'its row sits under the summary at the list\'s own spacing').toBeLessThanOrEqual(24)
 })
 
 // DASH-R4 (review finding 5): without the index the grid is narrower and the columns are the same rule. U110 a (owner,

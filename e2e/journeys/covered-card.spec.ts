@@ -114,9 +114,14 @@ for (const width of [1440, 390]) {
     // A reading gesture first — a real wheel over the article, as a reader scrolls past or back to
     // the question (U52 b puts it straight after Moves, but a long Moves row or a short phone can
     // still push it down). Reading declines a LIVE question; it must not decline one still asking.
+    // v1.253.0: over an article tile in view. The article's own top now lies under the tease, which spans the choices row from
+    // 1,024px (owner, 2026-11-09), so its centre was the tease's Answer for Points: game input, not reading.
     const at = await page.evaluate(() => {
       const a = (window as any).__neural, r = a._reader.root.getBoundingClientRect(), art = a._reader.articleEl.getBoundingClientRect()
-      return { x: r.left + r.width / 2, y: Math.round(Math.min(r.bottom - 24, Math.max(art.top + 24, r.top + 24))) }
+      const tile = [...a._reader.root.querySelectorAll('[data-reader-body] > .ng-section-card')].map((c: Element) => c.getBoundingClientRect())
+        .find((b: DOMRect) => b.height > 48 && b.top > r.top && b.top < r.bottom - 48)
+      return tile ? { x: tile.left + tile.width / 2, y: Math.round(Math.min(r.bottom - 24, tile.top + 24)) }
+        : { x: r.left + r.width / 2, y: Math.round(Math.min(r.bottom - 24, Math.max(art.top + 24, r.top + 24))) }
     })
     await page.mouse.move(at.x, at.y)
     await page.mouse.wheel(0, 120)
@@ -363,7 +368,9 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 1440, height: 900 
     expect(asking.goHeight, 'the inline link keeps a 44px target').toBeGreaterThanOrEqual(44)
     if (viewport.width <= 640) {
       expect(asking, 'U47 d: a long question is cut to two lines on a phone').toMatchObject({ lines: 2, cut: true })
-    } else expect(asking, 'VIDEO3 the collapsed question and Answer for Points occupy one line').toMatchObject({ lines: 1, cut: true })
+    // v1.253.0 (owner, 2026-11-09): on a desktop the one-line tease spans the choices row, so this 99-character question stands whole
+    // on its one line. desktop-ask-fit-disabled no longer has a real-content desktop case here to kill.
+    } else expect(asking, 'VIDEO3 the collapsed question and Answer for Points occupy one line').toMatchObject({ lines: 1, cut: false })
     expect(QUESTION.startsWith(asking.text!.slice(0, -1).trimEnd()), 'the trim keeps the question\'s own words, in order').toBe(true)
     await j.openQuestion()
     expect(await measure(), 'the shown card carries the whole question').toMatchObject({ text: QUESTION, cut: false, goEnds: null })

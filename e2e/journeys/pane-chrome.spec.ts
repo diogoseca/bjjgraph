@@ -294,8 +294,9 @@ for (const width of [1440, 1024]) {
     expect(open!.x, "the card moves toward the available space").toBeGreaterThan(before!.x + 80)
     // U104, U110 a (owner, 2026-11-09): the card is no longer one fixed width. In columns it is its column's face, so the pane narrows
     // it with the grid, and under 1,024px free it joins the one stacked box, at most 496px. Readable is the claim: never under a
-    // phone's 286px face, and never past the stacked cap.
-    expect(open!.width, "opening the pane keeps a readable card").toBeGreaterThanOrEqual(286)
+    // phone's 286px face, and never past the stacked cap. #346's review (finding 8): 286 would pass a card the pane crushed at 1440, so
+    // the floor is the card's own width before the pane opened, less the grid's narrowing (968 to 902px at 1440: 92%); 85% is the bound.
+    expect(open!.width, "opening the pane keeps a readable card").toBeGreaterThanOrEqual(Math.max(286, before!.width * 0.85))
     expect(open!.width, "opening the pane keeps a readable card, within the stacked cap").toBeLessThanOrEqual(Math.max(before!.width, 496))
     expect(open!.x + open!.width, "the card stays on screen").toBeLessThanOrEqual(width)
     const next = await page.locator("[data-land-next]").boundingBox()

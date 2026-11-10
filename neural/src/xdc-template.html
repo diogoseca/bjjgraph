@@ -178,6 +178,8 @@
   </div>
 
   <!-- legend (bottom left) -->
+  <!-- v1.253.0: reader.src.js docks this legend 8px off the bottom where the win bar falls under the grid, and restores the 30px
+       below BY VALUE elsewhere (deleting the inline declaration sends it to the top). Change one, change the other. -->
   <div class="ng-legend" style="position:absolute;bottom:30px;left:38px;z-index:1;display:flex;flex-direction:column;gap:16px;pointer-events:none;">
     <div ref="{{ legendRef }}" class="ng-legendkey" style="display:flex;flex-direction:column;gap:11px;opacity:0;transition:opacity .6s ease;">
       <div style="display:flex;align-items:center;gap:11px;">
