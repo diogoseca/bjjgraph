@@ -10906,8 +10906,11 @@ class Component extends DCLogic {
   // v1.253.0 (the owner's note 3, #354's review finding 1): the background tap closes THIS landing's card and film (v1.134.0) and
   // leaves their preferences on, so nothing brought them back: the index rows read open and did nothing until the next landing.
   // The dismissal is kept for the decision it belongs to; the reader's index row or Questions label restores it, through the same
-  // `_applyLayers` rebuild a label uses mid-landing. The question was declined, so the rebuilt card earns no fresh credit.
-  _landAway() { const d = this._landDismissed; return !!d && !this._landEl && d.decision === this._decision && d.pos === this.currentPos; }
+  // `_applyLayers` rebuild a label uses mid-landing, and is scored exactly as ✕ then label is: the decline resolved nothing, so the
+  // rebuilt card's first answer is this landing's question (no double credit, no fresh-landing reset), it re-arms a full window, and
+  // it emits land_q_shown and land_q_unseen again, as that rebuild does (round 7's review, nit 4). Only for a live decision: after a
+  // commit, through the flight and endRound's hold, `_decision` is null, and null === null would restore a finished roll (finding 2).
+  _landAway() { const d = this._landDismissed; return !!d && !!d.decision && !this._landEl && d.decision === this._decision && d.pos === this.currentPos; }
   restoreLanding() {
     if (!this._landAway()) return false;
     const d = this._landDismissed; this._landDismissed = null;

@@ -160,12 +160,14 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 900], [1024, 900], 
 // was there before). Their boxes overlap in a corner neither one paints; the ✕ takes it (the reader raises it there). Measured on this
 // page before the fix (#354's review, finding 3): the link took 328px² of the ✕'s 1,936px², so a press on the ✕'s top took the
 // question up instead of closing the tile.
-test("VIDEO3 at 390x631 with the film closed the first tile's close keeps its presses", async ({ page }) => {
-  const j = await boot(page, 390, 631)
+// Round 7's review (nit 7): sampled straight after the film closes, with no scroll that would lay the reader out again, so a pass that
+// decided on the tiles' old places would show here. 768 too (174px² there before the fix).
+for (const [width, height] of [[390, 631], [768, 900]] as const)
+test(`VIDEO3 at ${width}x${height} with the film closed the first tile's close keeps its presses`, async ({ page }) => {
+  const j = await boot(page, width, height)
   await j.clickByMouse("[data-film-close]")
   for (let i = 0; i < 6; i++) await j.advance(100)
   await j.readerLayoutSettled()
-  await page.locator(GO).evaluate(e => (e as HTMLElement).scrollIntoView({ block: "center" })); await j.readerLayoutSettled()
   const g = await page.evaluate(() => {
     const go = document.querySelector("[data-land-ask-go]") as HTMLElement
     const tile = [...document.querySelectorAll("[data-reader-body] > .ng-section-card")].find(e => e.getClientRects().length && (e as HTMLElement).dataset.collapsed !== "true") as HTMLElement

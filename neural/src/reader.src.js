@@ -650,24 +650,24 @@ class Reader {
     this.sync();
   }
   syncSections() {
-    const labels = !REFERENCE.test(this.path), hidden = this.hiddenSections, away = this.app._landAway?.();
+    const hidden = this.hiddenSections;
     const open = [], closed = [];
     let focus;
     for (const s of [...this.gameSections, ...this.sections]) {
       const body = s.part ? this.partEl(s.part) : s.body;
-      // #354's review (finding 1): a background tap takes this landing's card and film away with their preferences still on. Their
-      // index rows and the Questions label read closed then, and bring them back (link, toggle); no tile moves.
-      const gone = away && (s.part === "card" || s.type === "videos");
       const shown = s.part ? this.on(s.part) : sectionShown(this.app, s.type), focused = !shown && (body?.contains(document.activeElement) || !s.part && s.card.dataset.collapsed !== "true" && s.card.contains(document.activeElement));
       if (s.type === "videos" && !shown && !body.hidden) this.app.pauseLandFilm();
-      s.card.dataset.collapsed = String(!shown || gone && !!s.part);
-      // An open game part shows itself and its own ✕; only a closed one leaves its label.
-      if (s.part) s.card.hidden = shown && !gone || !labels;
-      // A phase's tile goes with Training's and leaves no label or Hidden sections row of its own.
-      else { body.hidden = !shown; body.inert = !shown; if (s.more) s.card.hidden = !shown; (shown ? open : s.more ? [] : closed).push(s); }
-      s.row?.setAttribute("data-collapsed", String(!shown || gone));
-      if (s.toggle.getAttribute("aria-expanded") !== String(shown)) {
-        s.toggle.setAttribute("aria-expanded", String(shown)); s.toggle.setAttribute("aria-label", (shown ? "Hide " : "Show ") + s.title);
+      // A game part's label, row and aria, and the Video row, read paintPart's one answer (an open part shows itself and its own ✕;
+      // only a closed one, or one taken away with its landing, leaves its label). A tile's own look keeps its preference.
+      if (s.part || s.type === "videos") this.paintPart(s);
+      if (!s.part) {
+        s.card.dataset.collapsed = String(!shown);
+        // A phase's tile goes with Training's and leaves no label or Hidden sections row of its own.
+        body.hidden = !shown; body.inert = !shown; if (s.more) s.card.hidden = !shown; (shown ? open : s.more ? [] : closed).push(s);
+        if (s.type !== "videos") s.row?.setAttribute("data-collapsed", String(!shown));
+        if (s.toggle.getAttribute("aria-expanded") !== String(shown)) {
+          s.toggle.setAttribute("aria-expanded", String(shown)); s.toggle.setAttribute("aria-label", (shown ? "Hide " : "Show ") + s.title);
+        }
       }
       // U11: where the index shows, a closed section has no control in the content, so focus goes to its index row.
       if (focused) focus = this.root.hasAttribute("data-indexed") && s.row?.querySelector("a") || (s.part ? s.toggle : hidden?.firstChild);
@@ -715,7 +715,15 @@ class Reader {
       const section = [...this.gameSections, ...this.sections].find(s => s.id === link.dataset.sectionLink);
       // U11 (owner): where the index shows, a closed section leaves no placeholder in the content, so its
       // index row reopens it before going there. #354's review (finding 1): so does a card or film the background tap took away.
-      if (section && (section.part === "card" || section.type === "videos") && this.app.restoreLanding?.()) this.layoutNow();
+      if (section && (section.part === "card" || section.type === "videos") && this.app.restoreLanding?.()) {
+        // Round 7's review (finding 3): the restore is the player's own input, as the label's is, so reading stops holding the
+        // question's clock (left interacting, the clock never armed). And the pressed part opens too, if its own preference had it
+        // closed, so one press is enough (nit 5).
+        this.interacting = false;
+        if (section.part && !this.on(section.part)) this.app.setLayer(section.part, true, "reader");
+        else if (section.type === "videos" && !sectionShown(this.app, "videos")) this.toggleSection("videos", true);
+        this.layoutNow();
+      }
       else if (section && this.root.hasAttribute("data-indexed") && !(section.part ? this.on(section.part) : sectionShown(this.app, section.type))) {
         if (section.part) this.toggle(section.part); else this.toggleSection(section.type, true);
         this.layoutNow();
@@ -799,17 +807,38 @@ class Reader {
     if (part === "film") return sectionShown(this.app, "videos");
     return !GAME_KEYS[part] || this.app.get(GAME_KEYS[part], true) !== false;
   }
+  // The only callers are a closed part's label and its index row, so this only ever OPENS: it never turns a part off, even when the
+  // look it was pressed in is a frame stale (#354's review, round 7 finding 1, where a stale "closed" label saved landCard off). A part
+  // the background tap took away comes back with its landing; a part off by its preference opens. One press does both (nit 5).
   toggle(part) {
-    const a = this.app, on = !this.on(part);
-    // #354's review (finding 1): the Questions label of a card the background tap took away brings it back, never turns it off.
-    if (part === "card" && a.restoreLanding?.()) { this.interacting = false; this.sync(); a._landEl?.querySelector("[data-land-close]")?.focus({ preventScroll: true }); return; }
-    if (part === "film") { this.toggleSection("videos", on); return; }
-    a.setLayer(part, on, "reader");
-    if (on) this.interacting = false;
+    const a = this.app;
+    if (part === "film") { this.toggleSection("videos", true); return; }
+    const back = a.restoreLanding?.();
+    if (!this.on(part)) a.setLayer(part, true, "reader");
+    else if (!back) { this.sync(); return; }
+    this.interacting = false;
     this.sync();
     // The label just pressed is hidden once its part reopens: focus that part's own ✕.
-    const reopened = on && (part === "card" ? a._landEl?.querySelector("[data-land-close]") : a._handCloseEl);
+    const reopened = part === "card" ? a._landEl?.querySelector("[data-land-close]") : a._handCloseEl;
     (reopened || this.gameSections.find(s => s.part === part)?.toggle)?.focus({ preventScroll: true });
+  }
+  // ONE answer for a game part's look and the Video row's (#354's review, round 7 findings 1 and 6): closed by its preference, or taken
+  // away with this landing by a background tap. The label, the index row, aria-expanded and the Hide/Show text all read it, and every
+  // layout pass paints it, so none can go stale when the landing's state moves without a sync (roam, a commit). The Video tile itself
+  // keeps its own preference; only its row reads the landing.
+  partClosed(s) {
+    const pref = s.part ? this.on(s.part) : sectionShown(this.app, s.type);
+    return !pref || (s.part === "card" || s.type === "videos") && !!this.app._landAway?.();
+  }
+  paintPart(s) {
+    const closed = this.partClosed(s);
+    s.row?.setAttribute("data-collapsed", String(closed));
+    if (!s.part) return;
+    s.card.dataset.collapsed = String(closed);
+    s.card.hidden = !closed || REFERENCE.test(this.path);
+    if (s.toggle.getAttribute("aria-expanded") !== String(!closed)) {
+      s.toggle.setAttribute("aria-expanded", String(!closed)); s.toggle.setAttribute("aria-label", (closed ? "Show " : "Hide ") + s.title);
+    }
   }
   sync() {
     const a = this.app, wrap = a.wrapRef.current;
@@ -1155,7 +1184,7 @@ class Reader {
         for (const [key, value] of Object.entries({ left: lead, right: "auto", top, "max-height": Math.max(44, end - top) })) style(toc, key, value);
       }
       root.toggleAttribute("data-reference", reference);
-      for (const s of this.gameSections) s.card.hidden = reference || this.on(s.part);
+      for (const s of [...this.gameSections, this.sections.find(s => s.type === "videos")]) if (s) this.paintPart(s);
       this.nodeBand = reference ? null : a._readerBand(top);
       const band = this.nodeBand?.height || 0;
       if (reference) { this.restoreGame(); this.syncIndex(); return; }
@@ -1343,14 +1372,16 @@ class Reader {
         // in view it climbed over the choices (23px of their bottoms at 1440x520). There the guide keeps Previous's top on the face.
         style(a._landNavEl, "--guide-y", Math.max(a._landNavEl.hasAttribute("data-index") ? 70 : 22, Math.min(cardHeight - 22, middle)));
       }
-      // #354's review (finding 3): Answer for Points' 23px hang (helmet.html) reaches a tile's ✕ where the film is closed, 369px² of the
-      // first tile's at 390x631, as it reached the retired article ✕; that ✕ takes the shared corner. Only where the card's own ✕ is
-      // clear of it: the card is one stacking context, so a tile ✕ raised there would cover the card's ✕ too (1440, the film closed).
+      style(game, "height", gameHeight);
+      style(art, "margin-top", 6);
+      // #354's review (finding 3): Answer for Points' 23px hang (helmet.html) reaches a tile's ✕ where the film is closed: 328px² of the
+      // first tile's 1,936px² at 390x631 (ask-line.spec.ts, every point sampled with elementsFromPoint), as it reached the retired
+      // article ✕; that ✕ takes the shared corner. Only where the card's own ✕ is clear of it: the card is one stacking context, so a tile
+      // ✕ raised there would cover the card's ✕ too (1440, the film closed). Measured after this pass's game height and article margin,
+      // so the pass that moves the tiles decides on where they now are (round 7's review, nit 7).
       const go = rect(card?.querySelector("[data-land-ask-go]")), shut = rect(card?.querySelector("[data-land-close]"));
       const meets = (x, y) => x && y.width && x.left < y.right && x.right > y.left && x.top < y.bottom && x.bottom > y.top;
       for (const s of this.sections) { const b = rect(s.toggle); s.toggle.style.zIndex = meets(go, b) && !meets(shut, b) ? 6 : ""; }
-      style(game, "height", gameHeight);
-      style(art, "margin-top", 6);
       this.trayBottom = H - end + 12 + Math.min(128, H * .15);
       this.cardBottom = this.trayBottom;
       // Publication is the last write, after the actual controls and their

@@ -108,8 +108,8 @@ const mutants = [
   ['aria-control-broken', sections, 'contents and header targets at 390x844', s => replace(s, '"data-section-toggle": group.type, "aria-controls": id + "-body"', '"data-section-toggle": group.type, "aria-controls": id + "-missing"')],
   ['game-label-control-broken', sections, 'D-338 1440px', s => replace(s, '"data-game-open": part, "aria-controls": id + "-body"', '"data-game-open": part, "aria-controls": id + "-missing"')],
   ['late-game-control-target', sections, 'late question backfill', s => replace(replace(s,
-    '(shown ? open : s.more ? [] : closed).push(s); }',
-    '(shown ? open : s.more ? [] : closed).push(s); } if (s.part && body) body.id = s.id + "-body";'),
+    'if (s.part || s.type === "videos") this.paintPart(s);',
+    'if (s.part || s.type === "videos") this.paintPart(s); if (s.part && body) body.id = s.id + "-body";'),
     'if (key === "card" || key === "hand") el.id = "reader-" + key + "-body";', '/* mutant: only the old sync binds the body */')],
   ['phone-contents', sections, 'contents and header targets at 390x844', s => replace(s, '|| !fits;', '|| false;')],
   ['label-toggles', sections, 'contents and header targets at 1366x768', s => replace(s, 'else if (section) this.scrollTo(section.card, section.toggle);', 'else if (section) { this.toggleSection(section.type); this.scrollTo(section.card, section.toggle); }')],
@@ -196,7 +196,7 @@ const mutants = [
   // RETIRED (D-368, layout C): d338-video-not-lifted claimed the Videos section is lifted above Moves. Nothing is
   // lifted under C; the opposite is pinned by a-column-wide-videos-question and -catch.
   ['d338-questions-above-moves', sections, '1366px choices precede', s => replace(s, '        cardY = y;\n        if (column) cardX', '        cardY = (row ? parseFloat(row.style.top) : y) - cardHeight - step;\n        if (column) cardX')],
-  ['d338-open-part-keeps-header', sections, 'D-338 1024px', s => replace(replace(s, 'if (s.part) s.card.hidden = shown && !gone || !labels;', 'if (s.part) s.card.hidden = !labels;'), 's.card.hidden = reference || this.on(s.part);', 's.card.hidden = reference;')],
+  ['d338-open-part-keeps-header', sections, 'D-338 1024px', s => replace(s, 's.card.hidden = !closed || REFERENCE.test(this.path);', 's.card.hidden = REFERENCE.test(this.path);')],
   ['d338-focus-browse-retained', 'reading-mode.spec.ts', '1366px complete article, every close', s => replace(s, 'this.head.append(this.heading, this.tools); this.game.append(this.head);', 'this.tools.append(button("Focus on reading", () => {}, { "data-reading-focus": "" }), button("Browse", () => app.openPane("explore"), { "data-reader-browse": "" })); this.head.append(this.heading, this.tools); this.game.append(this.head);')],
   ['d338-saved-focus-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$', s => replace(s, 'return !GAME_KEYS[part] || this.app.get(GAME_KEYS[part], true) !== false;', 'return !GAME_KEYS[part] || this.app.get((this.app.get("readingFocus", false) ? { card: "readingCard", hand: "readingHand" } : GAME_KEYS)[part], true) !== false;')],
   ['d338-index-eyes-retained', sections, 'contents and header targets at 1440x900', s => replace(s, 'row.append(link, eyeOff()); contents.append(row);', 'row.append(link, eyeOff(), button("", () => {}, { "data-toc-eye": section.type })); contents.append(row);')],
@@ -493,7 +493,7 @@ const mutants = [
   // v1.253.0: the line within half a pixel of the reader's top is the one held (the ✕'s 44px gone put a line at 73.86 against 74).
   ['anchor-line-strict-top', 'article-dashboard.spec.ts', '1152x900 opening Explore keeps the line at the reader.s top \\(30% down\\)', s => replace(s, 'return y >= top - 0.5 && y < was ?', 'return y >= top && y < was ?')],
   // v1.253.0 (#354's review, finding 1): the rows of a card and film the background tap took away read closed.
-  ['land-away-row-open', 'index-reveal.spec.ts', 'after a background tap the Video', s => replace(s, 's.row?.setAttribute("data-collapsed", String(!shown || gone));', 's.row?.setAttribute("data-collapsed", String(!shown));')],
+  ['land-away-row-open', 'index-reveal.spec.ts', 'after a background tap the Video', s => replace(s, 's.row?.setAttribute("data-collapsed", String(closed));', 's.row?.setAttribute("data-collapsed", String(!(s.part ? this.on(s.part) : sectionShown(this.app, s.type))));')],
   // v1.253.0 (#354's review, finding 3): the first open tile's ✕ takes the corner Answer for Points' hang reaches.
   ['tile-close-under-ask-hang', 'ask-line.spec.ts', 'first tile.s close keeps its presses', s => replace(s, 's.toggle.style.zIndex = meets(go, b) && !meets(shut, b) ? 6 : "";', 's.toggle.style.zIndex = "";')],
   // NOT KILLED (v1.253.0), recorded: no journey has a tile ✕ that both the hang and the card's own ✕ reach, so the guard has no live case.
@@ -502,6 +502,11 @@ const mutants = [
   // while Moves is open.
   ['prev-climbs-over-choices', 'deck-arrows-index.spec.ts', 'Previous stays on the face', s => replace(s, 'Math.max(a._landNavEl.hasAttribute("data-index") ? 70 : 22, Math.min(cardHeight - 22, middle))', 'Math.max(22, Math.min(cardHeight - 22, middle))')],
   ['tease-drop-moves-closed', 'tease-width.spec.ts', 'Moves closed', s => replace(s, 'const drop = showCard && showHand && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;', 'const drop = showCard && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;')],
+  // #354's review, round 7 (finding 1): a closed control only ever opens, and the parts' look is painted on every layout pass.
+  ['stale-label-turns-off', 'index-reveal.spec.ts', 'never turns the card layer off', s => replace(s, 'const back = a.restoreLanding?.();\n    if (!this.on(part)) a.setLayer(part, true, "reader");\n    else if (!back) { this.sync(); return; }', 'a.restoreLanding?.();\n    a.setLayer(part, !this.on(part), "reader");')],
+  ['parts-painted-at-sync-only', 'index-reveal.spec.ts', 'reads open again \\(1152', s => replace(s, 'for (const s of [...this.gameSections, this.sections.find(s => s.type === "videos")]) if (s) this.paintPart(s);', 'for (const s of this.gameSections) s.card.hidden = reference || this.on(s.part);')],
+  // Round 7's review (finding 3): a restore from the index row stops reading, so the question's clock runs.
+  ['row-restore-keeps-reading', 'index-reveal.spec.ts', 'clock runs', s => replace(s, '        this.interacting = false;\n        if (section.part && !this.on(section.part)) this.app.setLayer', '        if (section.part && !this.on(section.part)) this.app.setLayer')],
   ['index-reveal-lost', 'index-reveal.spec.ts', 'an article tile', s => replace(s, 'if (section.part) this.toggle(section.part); else this.toggleSection(section.type, true);', '')],
   ['video-title-plural', 'reading-contract.spec.ts', 'cannot repaint the opposite seat', s => replace(s, '["videos", "Video"], ["aka"', '["videos", "Videos"], ["aka"')],
   ['u110-cap-lost', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = 0;')],
