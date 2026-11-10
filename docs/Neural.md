@@ -724,8 +724,7 @@ because several study entry points assign `deckOpen` directly. A hand-paused rol
 Closing Settings through its backdrop keeps the pause while the drawer is open, including during a catch.
 The catch-time drawer icon also owns its wheel input, so scrolling over it cannot zoom the map.
 
-Every pauser owns its own latch — `_paneAutoPaused`, `_replayAutoPaused`,
-`_dossierAutoPaused` — so releasing gives back only the pause you took, transferring it to any
+Every pauser owns its own latch — `_paneAutoPaused`, `_replayAutoPaused` — so releasing gives back only the pause you took, transferring it to any
 still-open pane or replay. Reading holds play until a move or landing-card answer.
 
 On a phone the pane is an 88vw drawer and **is** the screen, so closing it is how you look at the

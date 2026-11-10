@@ -748,7 +748,7 @@ class Component extends DCLogic {
    * pane, and the stale latch resumes a roll the user had just paused by hand. The promise
    * inverted. A deliberate pause/resume clears the pane, dossier and background claims. */
   _clearPauseLatches() {
-    this._paneAutoPaused = false; this._dossierAutoPaused = false;
+    this._paneAutoPaused = false;
     this._bgAutoPaused = false;
   }
   setPaused(p) {
@@ -2249,14 +2249,14 @@ class Component extends DCLogic {
   // AND SO DOES THE DOM (v1.171.0). Owner, on the aka rows: "those trailing Top vs aka without
   // top is weird. actually the top shouldn't appear there trailing, only in those subtitles."
   // Every DOM surface printed `splitName(n.t).main`, which for a position IS the whole title —
-  // so the canvas said "Kesa Gatame", the node card said "Kesa Gatame" (it strips, and hands the
-  // seat to its badge — see openDossier), and the Explore row, the search row, the list drawer,
+  // so the canvas said "Kesa Gatame", the node card said "Kesa Gatame" (the node card is retired,
+  // v1.255.1), and the Explore row, the search row, the list drawer,
   // the systems row and every naming prose line said "Kesa Gatame Top". Two answers to one
   // question (§6.5), and the row's answer is WRONG twice over: `_deriveDualPairs` gives both pair
   // members the hub's title, so a BOTTOM seat's row read "Top" too, and Explore lists SITES
   // (`if (!n.rep) continue`), where no seat is being named at all.
-  // THIS IS THE ONE NAME, on every surface. A seat is named beside it, never inside it: the node
-  // card's badge, the systems/concept row's role chip, the canvas rich label's role word.
+  // THIS IS THE ONE NAME, on every surface. A seat is named beside it, never inside it: the
+  // systems/concept row's role chip, the canvas rich label's role word.
   graphName(n) { return n.ty === "positions" ? this.posFamily(n.t) : this.splitName(n.t).main; }
   // Binary-search the longest prefix that fits, then ellipsize. `ctx.font` must already be set —
   // the caller owns it, because every label site draws at its own size.
@@ -2987,8 +2987,7 @@ class Component extends DCLogic {
     this._landPaneHid = !!open;
     // ── PANE LAW ── the pane showing STOPS the game; hiding it resumes ONLY if the pane is what
     // stopped it (a hand-paused roll stays paused when you close it). One latch for the whole
-    // merged pane (any tab, any study surface) — _dossierAutoPaused stays separate for the node
-    // dossier. Latched here, not in setDeckOpen, because study, session and checkpoint entry
+    // merged pane (any tab, any study surface). Latched here, not in setDeckOpen, because study, session and checkpoint entry
     // points also assign deckOpen directly.
     // _paneTransition: the open/close beats run challenge-evidence processing, whose refresh
     // tail re-renders the pane body — mid-transition that's a double render that eats one-shot
@@ -8940,9 +8939,8 @@ class Component extends DCLogic {
     const root = this.__ngRoot || document;
     try {
       root.querySelectorAll("[data-list-add]").forEach((el) => {
-        // the dossier's .dsList row has its own painter (glyph + words in child spans); the
-        // plain buttons take _styleListAdd. One loop, so no surface can be left stale.
-        if (el._ngPaint) el._ngPaint(); else this._styleListAdd(el, el.getAttribute("data-list-add"));
+        // One loop, so no surface can be left stale (the dossier's own painter went with the dossier, v1.255.1).
+        this._styleListAdd(el, el.getAttribute("data-list-add"));
       });
     } catch (e) { /* non-fatal */ }
     // re-render the Explore body so the Lists section's counts follow the model. Safe while a
@@ -10734,7 +10732,9 @@ class Component extends DCLogic {
     // live engagement here let a sidebar/list restage inherit its prior roll.
     this.stageRollAt(idx);
     if (this.deckShown) this.setDeckOpen(false);
-    if (!this.paused) { this.setPaused(true); this._dossierAutoPaused = true; }
+    // v1.255.1: no latch of its own. `_dossierAutoPaused` was released only by the dossier's close, which no path reached,
+    // so it was written and never read; it went with the dossier. The pause itself is unchanged.
+    if (!this.paused) this.setPaused(true);
     this.lastInteract = this.now; this.flare(idx);
   }
 
@@ -19615,8 +19615,8 @@ class Component extends DCLogic {
         // `openDossier` has carried the right three-way rule since v1.101.5 (technique -> the
         // "attempt" card; another position -> stage; your own node -> rebuild), so a TECHNIQUE
         // simply routes there. A POSITION deliberately keeps calling `stageRollAt` directly:
-        // going through `openDossier` would also unfold the card and take a `_dossierAutoPaused`
-        // latch on every roam, which is a different feature from the one being fixed.
+        // going through `openDossier` would also unfold the card and pause the roll on every roam,
+        // which is a different feature from the one being fixed.
         if (dragging && moved < 5 && e && !closing) {
           this._updateHover(e);
           if (this._hover && this._hover.idx >= 0) {
