@@ -2,6 +2,7 @@ import { expect, test, type Page } from "@playwright/test"
 import { readFileSync } from "node:fs"
 import { resolve } from "node:path"
 import { journey } from "../dsl"
+import { bootVideoCards, CARD } from "../fixtures/video-cards"
 
 /** HIDDEN MOVES (v1.255.0, owner U115 b + U116, 10 Nov 2026).
  *
@@ -15,11 +16,17 @@ import { journey } from "../dsl"
  * `textContent` still holds its name (every other reader of the card depends on that). Each claim
  * here reads computed visibility, the back's geometry against the film slot, or `elementFromPoint`.
  *
- * Mutants (v1.255.0, each turned the named test red; see docs/Changelog-Archive.md):
- *   the title's visibility:hidden deleted · the dwell removed (peek on enter) · `_hideTap` never
- *   consuming · the stand-in keeping `data-hide` · `moves` dropped from `_progressBlob` · the map's
- *   label gate removed · "Show all" still asking · "Hidden move N" never written · a peek not
- *   setting `_handTouched` · the staged card left face down · the escape key filed by destination.
+ * Mutants (v1.255.0): 25 app/CSS mutants, each run against the ONE test named for its claim, all
+ * killed with that claim's own message; runner and table in docs/Changelog-Archive.md (v1.255.0).
+ * Claims: the name's visibility:hidden · the dwell (peek on enter) · the first tap consumed · the
+ * stand-in face up · `moves` in the blob · the map's label gate · Show all asks nothing · "Hidden move
+ * N" · a peek touches the hand · the staged card face up · an escape filed by label · No takes the
+ * gold away · No recorded as ok 0 · a due card offers No · known-and-not-due asks nothing · Yes only
+ * on an unknown card · the gold border · the hover transform · the stand-in seated on the layout box ·
+ * the 44px touch Yes · "Tap to reveal" · the live switch · the film button still under the card's
+ * hover · the film button's own hover · reduced motion. The merge rule's two mutants are killed by
+ * tests/moves_record.test.mjs. NOT COVERED here: the header-hint variant (NG_HIDE_HINT = "header",
+ * not shipped) and the PostHog properties (no PR shard is keyed, §6.4).
  */
 
 type W = any
@@ -104,7 +111,7 @@ test("@curated off by default: the row is dealt as before, and the setting turns
   await page.evaluate(() => (window as W).__neural.closeModal())
   expect(await page.evaluate(() => (window as W).__neural._optionCards.map((c: W) => c.opt.node.t).join("|")), "the same hand, not a redeal").toBe(before)
   const down = await face(page, hm(0))
-  expect([down.title, down.stats, down.filmCovered]).toEqual(["hidden", "visible", true])
+  expect([down.title, down.stats, down.filmCovered], "switched on under a dealt hand, the same card goes face down in place").toEqual(["hidden", "visible", true])
 })
 
 test("@curated on: the name and the film are face down, the numbers stay, and the map withholds the names", async ({ page }) => {
@@ -216,6 +223,37 @@ test("@curated a mouse click on a face-up card plays it, seated where the card w
   expect([s.executing, s.stand && s.stand.hidden], "the click plays it, face up").toEqual([true, false])
   const stand = await page.evaluate(() => { const r = (document.querySelector("[data-executing-tech]") as HTMLElement).getBoundingClientRect(); return r.left + r.width / 2 })
   expect(Math.abs(stand - was.centre), "the stand-in sits where the card was, not a scale's width off").toBeLessThan(1.5)
+})
+
+const scaleOf = (page: Page, sel: string) => page.evaluate((sel) => Math.round(new DOMMatrix(getComputedStyle(document.querySelector(sel)!).transform).a * 1000), sel)
+
+test("@curated the film button has its own animation: the card's hover leaves it still, its own hover lifts it", async ({ page }) => {
+  // a real approved front, served through the real dossier fetch (the fixture video-cards.spec.ts uses)
+  await bootVideoCards(page, "approved")
+  await page.evaluate(() => (window as W).__neural.set("hideMoves", true))
+  await page.evaluate((c) => { (window as W).__neural._handTouched = true; document.querySelector(c)!.scrollIntoView({ inline: "nearest", block: "nearest" }) }, CARD)
+  const p = await pointOn(page, CARD)
+  await page.mouse.move(p.x, p.y)
+  await expect.poll(async () => (await face(page, CARD)).watch, { message: "face up, the film button shows" }).toBe("visible")
+  await page.waitForTimeout(250)
+  expect(await scaleOf(page, CARD), "the card stands out").toBeGreaterThan(1020)
+  expect(await scaleOf(page, `${CARD} [data-choice-watch]`), "...and its film button does not move with the card's hover").toBe(1000)
+  const w = await page.evaluate((c) => { const r = document.querySelector(c + " [data-choice-watch]")!.getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 } }, CARD)
+  await page.mouse.move(w.x, w.y, { steps: 3 })
+  await page.waitForTimeout(250)
+  expect(await scaleOf(page, `${CARD} [data-choice-watch]`), "hovering the button lifts the button").toBeGreaterThan(1100)
+  const lit = await page.evaluate((c) => document.querySelector(c)!.hasAttribute("data-hover"), CARD)
+  expect([lit, await scaleOf(page, CARD) > 1020], "...while the card stays lit: the pointer is still inside it").toEqual([true, true])
+})
+
+test("@curated reduced motion: a hovered card is lit but does not grow", async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: "reduce" })   // test.use({ reducedMotion }) leaves matchMedia false here (§6.4)
+  await seatMount(page)
+  const p = await pointOn(page, hm(1))
+  await page.mouse.move(p.x, p.y)
+  await expect.poll(async () => (await face(page, hm(1))).up).toBe(true)
+  const r = await page.evaluate(() => { const c = document.querySelector('[data-hm="1"]')!; return { hover: c.hasAttribute("data-hover"), glow: getComputedStyle(c).boxShadow !== "none" } })
+  expect([r.hover, r.glow, await scaleOf(page, hm(1))], "lit by its glow, at its own size").toEqual([true, true, 1000])
 })
 
 test("@curated Show all: the whole row face up for the turn, nothing asked; Hide all turns it back", async ({ page }) => {
