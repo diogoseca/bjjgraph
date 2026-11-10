@@ -25,7 +25,10 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  * on an unknown card · the gold border · the hover transform · the stand-in seated on the layout box ·
  * the 44px touch Yes · Yes and No both 44px inside the card on touch · "Tap to reveal" · the live
  * switch · the film button still under the card's hover · the film button's own hover · reduced motion. The merge rule's two mutants are killed by
- * tests/moves_record.test.mjs. NOT COVERED here: the header-hint variant (NG_HIDE_HINT = "header",
+ * tests/moves_record.test.mjs. REVIEW ROUND (HIDE1D), 9 more, each killed by its named test: the hovered pair group
+ * ungated · the single hover label ungated · a face-down orb's pair partner unlisted (R2) · the grade buttons never
+ * armed, by mouse and by touch · the strip taking presses again (R3) · Enter following the last pointer (R7) · "Hidden
+ * move N" from the printed digit (R8) · a hydrate that flips the setting not re-syncing (R9). NOT COVERED here: the header-hint variant (NG_HIDE_HINT = "header",
  * not shipped) and the PostHog properties (no PR shard is keyed, §6.4).
  */
 

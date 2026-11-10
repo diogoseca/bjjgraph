@@ -15017,6 +15017,22 @@ with that claim's own message.
 | the merge tie flipped | tests/moves_record.test.mjs: same-day tie, clamp |
 | the merge drops `ok` | tests/moves_record.test.mjs: the later answer carries its ok |
 
+**The independent review's round (HIDE1D), all eight fixed in the same version.** R1: the merge kept the LOCAL copy
+on a full tie, so a phone's same-day No and a laptop's first Yes each kept their own and never converged; it is now a
+total order (later `last`, smaller interval, the No, earlier due, then the tail), clamped on both sides: the
+reviewer's probe found 454 asymmetric pairs in 200,000 before and 0 after, 0 non-idempotent. R2: the map's hover pair
+group and single hover label named a face-down orb; one per-frame set of face-down orbs (and their partners) now gates
+all three label passes, and the frame publishes `_lastHoverLabel`. R3: the grade strip arrives under the pointer, so
+the press meant for the card graded it; the buttons answer only a press that began 500 ms after the strip appeared
+(`NG_GRADE_ARM_MS`), and the strip itself is `pointer-events:none`, so a press on its text plays the card. R4: every
+save wrote `moves: {}`; now only once it holds a cell (a never-graded account saves byte-equal to v1.254.0's own code:
+407 = 407 bytes in a probe of both builds). R5: a row's tail survives the merge, the heal and a grade. R7: Enter or
+Space on a focused card turns it up when face down and plays it when face up, whatever pointer pressed last. R8:
+"Hidden move N" counts the card's place in its row (the digit stops at 9). R9: a hydrate (a pull, another tab) that
+flips `hideMoves` re-syncs the dealt row. 16 mutants, all killed: 9 in the spec, 7 in the units. Building R8, the first
+draft read `parentElement` before the card was mounted and broke every hidden deal; the spec went red at once.
+Eager +355 B for the round.
+
 **Not covered:** the header-hint variant (`NG_HIDE_HINT = "header"`, built for the owner's screens, not shipped), the
 Yes / No on every card variant (`NG_HIDE_GRADE_NO`), and the PostHog properties (no PR shard is keyed). The eye toggle
 beside "Your move" (HIDE1A item 2) was built as a screen only and is not in this version
