@@ -174,7 +174,8 @@ test("the board is wrap state the CSS turns into styles; a row is styled by wher
     const op = a._camOpen = { pick: 0, cancelled: false, rise: 0.4, riseDy: 120 };
     a._openingBoard(op);
     assert.ok(nodes["ng-open-css"], "the rule set is injected once");
-    assert.deepEqual([wrap.dataset.ngOpen, wrap.props["--ng-open-o"], wrap.props["--ng-open-y"], wrap.dataset.ngBook], ["board", "0.4", "120.00px", "on"]);
+    // v1.253.0 (U114 a): data-ng-book is gone with the article-away view; its one rule ([data-ng-book=off]) was that view's.
+    assert.deepEqual([wrap.dataset.ngOpen, wrap.props["--ng-open-o"], wrap.props["--ng-open-y"], wrap.dataset.ngBook], ["board", "0.4", "120.00px", undefined]);
     op.rise = 0.05; a.now = 2.1; a._openingBoard(op);
     assert.equal(wrap.dataset.ngOpen, "faint", "below NG_CAM_OPEN_FAINT the rows take no tap");
     wrap.dataset = {}; wrap.props = {}; a.now = 1.5; op.rise = 0; a._openingBoard(op);
@@ -313,7 +314,7 @@ test("a landing's hand waits for the reader's first layout of it, and that layou
   Object.assign(a, { optionsRef: { current: { hasAttribute: () => false, toggleAttribute: () => {} } }, _landStackEl: null, _landNavEl: null, _handCloseEl: null,
     _landEl: null, _readerPin: null, _handShown: () => true, _layerOn: () => true, _filmPending: () => false });
   const loc = globalThis.location; globalThis.location = { href: "http://localhost/" };
-  try { a._readerHold({ root: { dataset: {} }, path: "/x", layout: () => {} }, false, 390, 844); } finally { globalThis.location = loc; }
+  try { a._readerHold({ root: { dataset: {} }, path: "/x", layout: () => {} }, 390, 844); } finally { globalThis.location = loc; }
   assert.equal(a._readerQueued.laid, true, "the reader's first layout of the landing marks it");
   assert.equal(a._readerAwaited(), false);
   await Promise.resolve();

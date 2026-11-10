@@ -1,14 +1,12 @@
 // The complete published article is the source of truth. This module is deferred:
 // content arrivals prepare dormant controls; game articles load after the real hand.
-const PARTS = [
-  ["film", "Videos", "▶"], ["card", "Practice questions", "?"],
-  ["hand", "Moves", "⋯"], ["map", "Map", "◇"],
-  ["feedback", "Game feedback", "◌"], ["book", "Article", "▤"],
-];
 // Film has dedicated normal-home and section preferences; legacy keys remain in storage.
 // D-338 retired Focus on reading: `readingFocus` and its reading* overrides are never read
 // again (a settings key can never be deleted, §6.6), so a saved Focus cannot strand anyone.
-const GAME_KEYS = { film: "landFilm", book: "readerBook", card: "landCard", hand: "landHand", map: "landMap", feedback: "landFeedback" };
+// v1.253.0 (owner, U114 a, 2026-11-09: "retire those 2 components"): the article's ✕ and the shelf were the only writers of readerBook,
+// landMap and landFeedback, so those three are never read again either: a saved "off" can strand nobody. The article-away map view,
+// hiding the map and hiding the game's feedback went with them (his call).
+const GAME_KEYS = { film: "landFilm", card: "landCard", hand: "landHand" };
 const CONTENT = /^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)(?:\/|$)/i;
 const ROLES = /\/(Top|Bottom|Attacker|Defender)$/i;
 const REFERENCE = /^\/(Principles|Learning|Systems)\//;
@@ -184,7 +182,9 @@ export async function installReader(app) {
   };
   const readKey = app._readKey;
   app._readKey = function (event) { return reader.gameKey(event) || readKey.call(this, event); };
-  reader.shelf();
+  // The reader's parts reopen from their own labels; a dock the app built before this module arrived goes.
+  app._layerDockEl?.remove(); app._layerDockEl = null;
+  reader.hooked = true; reader.publishCard(app._landEl);
 }
 
 class Reader {
@@ -368,7 +368,7 @@ class Reader {
     this.lightReference();
   }
   lightReference() {
-    if (!this.reference || !this.on("map")) return;
+    if (!this.reference) return;
     const { record, system } = this.reference, a = this.app;
     if (system) { a._systemId = record.id; a.setFocusIdxSet(a.systemNodeIdxs(record)); }
     else { a._conceptId = record.id; a.focusConcept(record); }
@@ -435,11 +435,7 @@ class Reader {
   render(title, record, path, context, hub) {
     this.place(this.mediaHome);
     this.referenceClips = [];
-    // U12 a (owner): the article's own ✕, the sections' ghost ✕, puts the article away (the plain map view).
-    this.bookClose ||= button("", () => this.toggle("book"), { "data-reader-close": "", "aria-label": "Put the article away", title: "Put the article away" });
-    if (!this.bookClose.firstChild) this.bookClose.append(element("span", { class: "ng-section-x", "aria-hidden": "true" }, "✕"));
-    this.bookClose.style.marginRight = 0;
-    this.articleEl.replaceChildren(this.bookClose, ...(this.head.parentElement === this.articleEl ? [this.head] : []));
+    this.articleEl.replaceChildren(...(this.head.parentElement === this.articleEl ? [this.head] : []));
     const tools = this.tools;
     this.heading.textContent = title;
     tools.querySelector("[data-reader-study]")?.remove();
@@ -654,7 +650,7 @@ class Reader {
     this.sync();
   }
   syncSections() {
-    const labels = this.on("book") && !REFERENCE.test(this.path), hidden = this.hiddenSections;
+    const labels = !REFERENCE.test(this.path), hidden = this.hiddenSections;
     const open = [], closed = [];
     let focus;
     for (const s of [...this.gameSections, ...this.sections]) {
@@ -796,72 +792,31 @@ class Reader {
     a.setPaused(false);
   }
   on(part) {
-    if (part === "film" && this.wantsMedia()) return sectionShown(this.app, "videos");
-    return this.app.get(GAME_KEYS[part], true) !== false;
+    if (part === "film") return sectionShown(this.app, "videos");
+    return !GAME_KEYS[part] || this.app.get(GAME_KEYS[part], true) !== false;
   }
   toggle(part) {
     const a = this.app, on = !this.on(part);
-    if (part === "film" && this.wantsMedia()) { this.toggleSection("videos", on); return; }
-    if (part === "book") { if (!on) a.pauseLandFilm(); a.set("readerBook", on); }
-    else if (["film", "card", "hand"].includes(part)) a.setLayer(part, on, "reader-shelf");
-    else a.set(GAME_KEYS[part], on);
-    if (on && (part === "card" || part === "hand")) this.interacting = false;
+    if (part === "film") { this.toggleSection("videos", on); return; }
+    a.setLayer(part, on, "reader");
+    if (on) this.interacting = false;
     this.sync();
     // The label just pressed is hidden once its part reopens: focus that part's own ✕.
-    const reopened = on && (part === "card" ? a._landEl?.querySelector("[data-land-close]") : part === "hand" ? a._handCloseEl : null);
-    const control = this.on("book") ? reopened || this.gameSections.find(s => s.part === part)?.toggle : this.dock.querySelector('[data-reader-part="' + part + '"]');
-    control?.focus({ preventScroll: true });
-    if (part === "book" && on) this.root.focus({ preventScroll: true });
-  }
-  shelf() {
-    if (!this.dock) {
-      this.app._layerDockEl?.remove();
-      this.dock = this.app._layerDockEl = element("nav", { class: "ng-reader-shelf", "data-layer-dock": "1", "aria-label": "Reading and game parts" });
-      this.dock.style.pointerEvents = "auto";
-      this.app.wrapRef.current.append(this.dock);
-      listen(this.dock, "pointerdown", (e) => e.stopPropagation());
-      listen(this.dock, "keydown", (e) => e.stopPropagation());
-      this.resize.observe(this.dock);
-    }
-    const state = PARTS.map(([part]) => this.on(part)).join();
-    this.dock.hidden = this.on("book");
-    if (state !== this.shelfState) {
-      this.shelfState = state;
-      this.dock.replaceChildren(...PARTS.map(([part, label, icon]) => {
-        const on = this.on(part);
-        const b = button("", () => this.toggle(part), { "data-reader-part": part, [on ? "data-layer-hide" : "data-layer-show"]: part, "aria-label": (on ? "Hide " : "Show ") + label, "aria-pressed": String(on), title: (on ? "Hide " : "Show ") + label });
-        b.append(element("span", { "aria-hidden": "true" }, icon), element("span", {}, part === "card" ? "Questions" : part === "feedback" ? "Feedback" : part === "book" ? "Book" : label));
-        return b;
-      }));
-    }
-    this.publishCard(this.app._landEl);
+    const reopened = on && (part === "card" ? a._landEl?.querySelector("[data-land-close]") : a._handCloseEl);
+    (reopened || this.gameSections.find(s => s.part === part)?.toggle)?.focus({ preventScroll: true });
   }
   sync() {
     const a = this.app, wrap = a.wrapRef.current;
-    const book = this.on("book"), wasHidden = this.articleEl.hidden;
-    if (!book && !wasHidden) this.bookScroll = this.root.scrollTop;
-    this.articleEl.hidden = !book;
-    if (!book && this.contents) this.contents.hidden = true;
-    const head = this.root.querySelector(".ng-reader-head"); if (head) head.hidden = !this.on("book");
     const expanded = !!(this.interacting && !this.selecting);
     this.root.toggleAttribute("data-reading-expanded", expanded);
-    for (const ref of [a.nodeCardRef]) ref.current?.setAttribute("data-reader-map", "");
-    for (const ref of [a.evCenterRef, a.fxRef]) ref.current?.setAttribute("data-reader-feedback", "");
     wrap.classList.toggle("ng-reader-dormant", !!this.intent);
-    const map = this.on("map");
-    if (!map) a._cancelGraphInput?.();
-    else if (wrap.classList.contains("ng-reader-no-map")) this.lightReference();
-    wrap.classList.toggle("ng-reader-no-map", !map);
-    wrap.classList.toggle("ng-reader-no-feedback", !this.on("feedback"));
-    a.__ngRoot?.classList.toggle("ng-reader-no-feedback", !this.on("feedback"));
     this.syncMedia();
     this.syncSections();
-    this.shelf();
-    if (book && wasHidden && this.bookScroll != null) this.root.scrollTop = this.bookScroll;
+    this.publishCard(a._landEl);
   }
-  // D-338: with the article shown, the film's one home is its Videos section, first in the
-  // flow, under the section's one preference. It no longer waits for reading intent to move.
-  wantsMedia() { return this.on("book"); }
+  // D-338: the film's one home is its Videos section, first in the flow, under the section's one preference.
+  // v1.253.0: the article can no longer be put away, so that is always so; the app still asks.
+  wantsMedia() { return true; }
   ownsMedia(host = this.app._landFilmEl) { return !!host && host.parentElement === this.mediaSlot; }
   placesMedia(host = this.app._landFilmEl) { return !!host && (host.parentElement === this.mediaSlot || host.parentElement === this.mediaHome); }
   // A suspended player needs an explicit way to resume. Keep this presentation deferred; pauseLandFilm
@@ -1003,7 +958,7 @@ class Reader {
       return { left: r.left, right: r.right, top: Math.max(0, r.top, clip.top), bottom: Math.min(H, r.bottom, clip.bottom) };
     };
     for (const el of [a._execution.card, a.evRef.current, this.articleEl, this.body, this.contents, this.head, this.tools,
-      ...this.gameSections.map(s => s.card), a._landEl, a._landFilmEl, this.dock, a._handCloseEl,
+      ...this.gameSections.map(s => s.card), a._landEl, a._landFilmEl, a._handCloseEl,
       a.accountRef.current, a.shareCueRef.current, a._challengeRewardEl, ...a.wrapRef.current.querySelectorAll(".ng-logo,.ng-winbar")]) {
       const r = visible(el); if (r && r.bottom > r.top) occupied.push(r);
     }
@@ -1044,7 +999,7 @@ class Reader {
     // now. With no free spot anywhere the pair falls back to the band (D9-N3 (iii), the floor), counted.
     // The painted pair never intersects an occupied rectangle (roll-execution's phone sweep, reader scroll
     // 0-290px at 390x844 and 390x631).
-    const nodeBand = this.nodeBand && this.on("book") ? this.nodeBand : null, col = rect(this.articleEl);
+    const nodeBand = this.nodeBand || null, col = rect(this.articleEl);
     const free = nodeBand && (search(nodeBand) || col.width && search(null, { left: col.left, right: col.right, top: nodeBand.bottom, bottom: H })) || search(null);
     if (free) return free;
     // U52 b: D-370's free space was the landing card's slot, emptied for the execution. An asking question is a
@@ -1071,7 +1026,7 @@ class Reader {
     if (card?.hasAttribute("data-reader-pending")) this.layoutNow(); else this.layout();
   }
   layoutNow() {
-    if (!this.dock || this.app.__ngDestroyed || this.app._readerPress || this.laying) return;
+    if (!this.hooked || this.app.__ngDestroyed || this.app._readerPress || this.laying) return;
     this.laying = true;
     // DASH-R4: locals for repeated element reads pay for the review fixes because the bundle shortens
     // locals but keeps property names whole. These elements are set once, in the constructor.
@@ -1088,9 +1043,7 @@ class Reader {
     try {
       const a = this.app, H = window.innerHeight, W = window.innerWidth, free = a._paneLayout();
       const width = Math.max(240, Math.min(680, free.width - 24));
-      style(this.dock, "left", free.center); style(this.dock, "max-width", Math.min(width, W - 16));
-      style(this.dock, "bottom", a._readerShelfBottom(rect(this.dock)));
-      const head = this.head, available = this.on("book");
+      const head = this.head;
       const reference = REFERENCE.test(this.path);
       const ownTop = Math.max(68, (rect(a.wrapRef.current.querySelector(".ng-logo"))?.bottom || 0) + 12);
       // Without chrome (including a null return on reference pages), the entire
@@ -1098,8 +1051,7 @@ class Reader {
       // the SAME head in its header row; phone tools remain in the article.
       // headBottom replaces ownTop only. Keep the node band/gameTop and add
       // offset before the fit clamp: there is no map-band head reservation.
-      // Optional bottomReserve already includes the live shelf, its clearance
-      // and the 8px flow gap; do not subtract any of those a second time.
+      // Optional bottomReserve already includes the 8px flow gap; do not subtract it a second time.
       let chrome = typeof a.readerChromeFrame === "function" ? a.readerChromeFrame(head) : null;
       if (head) {
         const flow = reference ? art : game;
@@ -1117,7 +1069,7 @@ class Reader {
       this.chromeActive = !!chrome;
       // D-433 adapts D-370 to U35: the live phone catch question must be reachable
       // before and after Answer for Points (U47 d) without scrolling. Account and native Moves retain their space.
-      const phoneCatch = available && !reference && a._phoneCatch();
+      const phoneCatch = !reference && a._phoneCatch();
       a.wrapRef.current.toggleAttribute("data-phone-catch", phoneCatch);
       const top = chrome ? chrome.headBottom : ownTop;
       // U9 b (owner, 2026-10-21): the index sits on the LEFT, 24px inside the free area (the inset it had on the right).
@@ -1130,7 +1082,7 @@ class Reader {
       // Where the index fits, the Moves tray (which sits beside its rows, D-338) starts 12px past it
       // and stays centred on the column. Decided by the fit, not by readiness, so a loading article
       // never re-centres the hand.
-      const indexEdge = available && fits ? lead + tocWidth + 12 : null;
+      const indexEdge = fits ? lead + tocWidth + 12 : null;
       // Grow only the article's inner grid, leaving the native column, hand and index homes alone.
       // The left index still has its 12px clearance; phone gutters leave the glow visible.
       // Owner (2026-11-01, replacing U55 b's run to the right edge): the choices row "should always have the same
@@ -1152,11 +1104,9 @@ class Reader {
       // back to the template's inline 30px: writing "" would delete that declaration, not restore it (§6.1), and send it to the top.
       const legend = a.wrapRef.current.querySelector(".ng-legend"), bar = rect(legend?.querySelector(".ng-winbar")), lane = { left: free.center - grid / 2, right: W };
       if (bar) { const under = bar.left < lane.right && bar.right > lane.left; legend.style.setProperty("bottom", under ? "8px" : "30px", under ? "important" : ""); }
-      const end = chrome?.bottomReserve != null ? H - chrome.bottomReserve : this.dock.hidden
-        ? H - a._readerShelfBottom(lane)
-        : rect(this.dock).top - 8;
+      // With the shelf retired (U114 a) nothing else reserves the bottom: the article runs to the fold (owner, 2026-11-09).
+      const end = H - (chrome?.bottomReserve ?? a._readerReserve(lane));
       for (const [key, value] of Object.entries({ left: 0, top, width: W, height: Math.max(80, end - top) })) style(root, key, value);
-      art.hidden = !available;
       // Contents never participates in the column's width or centre calculation.
       style(art, "width", Math.min(680, free.width - 24));
       style(art, "margin-left", Math.max(12, free.center - parseFloat(art.style.width) / 2));
@@ -1164,8 +1114,7 @@ class Reader {
       // within the reader keeps its place on screen; the finally puts it back after every other write.
       // DASH-R4: only once the article itself has scrolled above the reader's top. At the arrival the
       // stage (node band, Moves, question) owns the top and holds still, as on dev, when the pane opens,
-      // the window narrows or a phone turns. A hidden article resets the width to NaN, so reopening
-      // restores bookScroll without anchoring against a layout that was never shown.
+      // the window narrows or a phone turns.
       // v1.249.2: one line, at one height, for a whole pane slide, until the reader's place moves (placeTop survives the
       // browser's clamp and any real scroll overwrites it). A slide is many passes, and a lane change does two things to a
       // re-picked line: it reorders which line comes first, and it can shorten the document so scrollTop clamps. A pass
@@ -1178,30 +1127,30 @@ class Reader {
       // at every scale measured, 0.5 to 2, and === still lets any real scroll go.
       // v1.251.1: offsetWidth, not isConnected. A closed tile stays connected, so the hold kept a line with no box, read its top as 0,
       // and threw the reader up by heldY on every pass of the slide (4,345 -> 745 on Knee Slice Pass). It is 0 detached or unrendered.
+      // v1.253.0: a line within half a pixel of the reader's top is the line at its top. Strictly below it, a line at 73.86 against a
+      // 74px top was skipped for the next one, and opening Explore at 1152 then threw the skipped line 353px (article-dashboard, 30%).
       // v1.251.0: the columns reflow on the same width change, so the source order no longer runs down the page. The
       // line is the block nearest the reader's top in either column, and a tie stays with the earlier block.
       // v1.251.0 (U97 b): the free width, not the grid's. The grid now stands at 902px through most of a pane slide, while the
       // film still flips from beside the question to under it and grows the stage: 143-168px with no anchor to hold the line.
-      keep = this.gridW - (this.gridW = available ? free.width : NaN) && rect(art).top < top && (this.placeTop === this.heldAt && this.held?.offsetWidth
-        ? (was = this.heldY, this.held) : (was = 1 / 0, [...art.querySelectorAll("p,li")].reduce((line, e) => { const y = rect(e).top; return y >= top && y < was ? (was = this.heldY = y, e) : line; }, null)));
+      keep = this.gridW - (this.gridW = free.width) && rect(art).top < top && (this.placeTop === this.heldAt && this.held?.offsetWidth
+        ? (was = this.heldY, this.held) : (was = 1 / 0, [...art.querySelectorAll("p,li")].reduce((line, e) => { const y = rect(e).top; return y >= top - 0.5 && y < was ? (was = this.heldY = y, e) : line; }, null)));
       style(art, "--article-width", grid);
       // Owner (2026-11-06, replacing U59 c's rows and U65 b's pairing): two columns, "never a big gap following the
       // previous section". In reading order each open tile goes to the column that is shorter now, and a tie goes left.
       // A tile starts where that column ends, and that height only grows, so a head never starts above the one before
       // it: head tops down the page are the DOM's and the index's order, and the left wins a draw. Real heights: overview
       // has only a 400-character minimum, so a character count cannot size a tile. 24 is reading.css's --gap on two
-      // columns; on one, a side changes nothing. Both columns are one width, so a side cannot change a height. The sides
-      // stay as they are while the article is put away (its tiles measure 0), so sync() restores bookScroll into the same layout.
-      if (available) this.sortColumns(...this.leadCells || []);
+      // columns; on one, a side changes nothing. Both columns are one width, so a side cannot change a height.
+      this.sortColumns(...this.leadCells || []);
       if (toc) {
-        toc.hidden = !available || root.dataset.readerReady !== "true" || !fits;
+        toc.hidden = root.dataset.readerReady !== "true" || !fits;
         root.toggleAttribute("data-indexed", !toc.hidden);
         for (const [key, value] of Object.entries({ left: lead, right: "auto", top, "max-height": Math.max(44, end - top) })) style(toc, key, value);
       }
       root.toggleAttribute("data-reference", reference);
-      root.hidden = !available && reference;
-      for (const s of this.gameSections) s.card.hidden = !available || reference || this.on(s.part);
-      this.nodeBand = available && !reference ? a._readerBand(top) : null;
+      for (const s of this.gameSections) s.card.hidden = reference || this.on(s.part);
+      this.nodeBand = reference ? null : a._readerBand(top);
       const band = this.nodeBand?.height || 0;
       if (reference) { this.restoreGame(); this.syncIndex(); return; }
       const card = a._landEl, row = a.optionsRef.current, showCard = card && this.on("card"), showHand = row && a._handShown();
@@ -1214,7 +1163,7 @@ class Reader {
       // for renders (800ms at most). Parts the ceiling publishes are pinned (_readerPin), and the
       // Videos lift and the film's move wait until they settle: a late article used to move live
       // answers under the pointer.
-      const hold = a._readerHold(this, available, W, H), pin = a._readerPin;
+      const hold = a._readerHold(this, W, H), pin = a._readerPin;
       const moved = (el, key) => {
         if (!el) return;
         if (!this.gameHomes.has(el)) {
@@ -1273,7 +1222,7 @@ class Reader {
       // Chrome may own the desktop head; phone tools always remain in this flow.
       const inlineHead = tools?.parentElement === game ? tools : head?.parentElement === game ? head : null;
       if (inlineHead) position(inlineHead, free.center - width / 2, band + (chrome?.offset || 0), width);
-      const headHeight = available && inlineHead ? rect(inlineHead).height + 6 : 0;
+      const headHeight = inlineHead ? rect(inlineHead).height + 6 : 0;
       if (home.hidden !== !homeMedia) home.hidden = !homeMedia;
       // D-368 (layout C): the current film sits in the game's stage. U65 removes the duplicate article
       // credits; the retained Videos control still governs the film.
@@ -1281,7 +1230,7 @@ class Reader {
       // lives in the 60px media gap; the right arrow also fits inside the pane.
       // U104 (owner, 2026-11-06): the question is the left column's first row and the current technique's video card the right's,
       // asking or open. Under an 800px grid a column is too narrow for a card and its arrow (288px at 768), so they stack, question first.
-      const column = available && grid > 800 && H > 500 ? (grid - 24) / 2 : 0;
+      const column = grid > 800 && H > 500 ? (grid - 24) / 2 : 0;
       // v1.253.0 (owner, 2026-11-09): "when it's just a one liner tease it should appear under the choices row" and take "as much width as
       // the choices row does": in columns, under an open Moves row, the asking line is the grid's width; opened, it takes the left column.
       const tease = column && asking && showHand ? grid : column;
@@ -1305,8 +1254,8 @@ class Reader {
       let cardX = Math.max(a.isMobile() ? 10 : 16, free.center - cardWidth / 2), cardY, gameHeight;
       // U110 a: the Moves row shares the column's edges wherever the stacked box binds, from 600px free (the cap and the card's
       // 104px arrow lane), so on a phone-sized screen from 600 to 640px too. Under 600px a phone keeps its full-width tray.
-      const flush = this.trayFlush = available && (W > 640 || free.width >= 600);
-      if (available) {
+      const flush = this.trayFlush = W > 640 || free.width >= 600;
+      {
         // D-338 (owner): Video, Moves, Questions, then the article, under the node band.
         // No header names a part; a closed one keeps its place as its label. An escape's
         // handoff keeps the hand's clicked rectangle, and the card below it stays put too.
@@ -1372,23 +1321,8 @@ class Reader {
           reach = filmEnd - y; y = Math.min(y, filmEnd);
         }
         gameHeight = Math.max((handoff?.height ?? 0) + (handoff?.slot || 0), y);
-        // The article's own ✕ stays clear of a film that reaches past the Moves' line. Stacked under the 496px cap it sits on the
-        // column's right edge, not the 680px article's (#346's review, finding 6: 92px outside the tiles at 768).
-        if (this.body) style(this.bookClose, "margin-right", reach > 0 ? width / 2 + 12 : Math.max(0, (width - grid) / 2));
         this.leadCells = [-reach, reach].map(x => Math.max(0, x));
         this.sortColumns(...this.leadCells);
-      } else {
-        // U104: the same sides with no article under them.
-        const stageHeight = beside ? Math.max(cardHeight, mediaHeight) : cardHeight + mediaHeight + (homeMedia && showCard ? 12 : 0);
-        start = Math.max(6, Math.min(start, end - top - stageHeight - gap - handHeight));
-        const groupLeft = free.center - (mediaWidth + 60 + cardWidth + 52) / 2;
-        if (homeMedia) position(home, beside ? groupLeft + cardWidth + 112 : free.center - mediaWidth / 2, start + (beside ? (stageHeight - mediaHeight) / 2 : 0), mediaWidth);
-        if (beside) cardX = groupLeft + 52;
-        cardY = start + (beside ? stageHeight - cardHeight : homeMedia ? mediaHeight + 12 : 0);
-        if (card) position(card, cardX, cardY);
-        const rowTop = handoff?.rowTop ?? start + stageHeight + gap;
-        if (row) position(row, 0, rowTop, W);
-        gameHeight = (handoff?.height ?? rowTop + handHeight) + (handoff?.slot || 0);
       }
       for (const [el, key] of [[a._landStackEl, "stack"], [a._landNavEl, "nav"]]) {
         if (el && card) { moved(el, key); position(el, cardX, cardY, cardWidth); style(el, "height", cardHeight); }
@@ -1443,7 +1377,7 @@ class Reader {
   destroy() {
     cancelAnimationFrame(this.layoutFrame);
     this.place(this.mediaOrigin); this.restoreGame();
-    this.abort?.abort(); this.resize.disconnect(); this.tileSizer.disconnect(); this.root.remove(); this.dock?.remove(); this.contents?.remove();
+    this.abort?.abort(); this.resize.disconnect(); this.tileSizer.disconnect(); this.root.remove(); this.contents?.remove();
     this.app._readerTocEl = null;
     document.removeEventListener("pointerup", this.selectionEnd);
     this.app.wrapRef.current?.classList.remove("ng-reader-dormant", "ng-reader-no-map", "ng-reader-no-feedback");

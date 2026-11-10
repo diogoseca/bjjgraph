@@ -196,7 +196,8 @@ test("map partner redirect through the production reader wrapper does not duplic
 test("pan, wheel, cancellation, background and disabled graph are not exploration", () => {
   for (const gesture of ["pan", "wheel", "cancel", "background", "disabled"]) {
     const { a, events } = fixture(); const dispatch = input(a);
-    if (gesture === "disabled") a._reader.on = () => false;
+    // v1.253.0 (U114 a): the map can no longer be hidden, so the film's theater is the graph's one off-switch (_graphInputOn).
+    if (gesture === "disabled") a._filmTheater = true;
     if (gesture === "wheel") dispatch("wheel", 500, 400, { deltaY: -20 });
     else {
       const x = gesture === "background" ? 980 : 500;

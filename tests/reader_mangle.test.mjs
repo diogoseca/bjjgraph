@@ -72,8 +72,9 @@ test("the reader uses no listed name as a dataset key or a data-* attribute", ()
 });
 
 test("the patterns catch each spelling, so the green above can fail", () => {
-  for (const line of ["r.gameSections.find(f).closedRow", "a._reader!.syncIndex()", "(r as any).bookScroll", "w.__seatReader.gamePage", "const {bookScroll} = a._reader",
-    "const { bookScroll, x } = r", "el['mediaNext']", "a._reader.heldAt", "a._reader!.held", "(r as any).held", "reader?.held", "w.__seatReader.held", "r.held"]) {
+  // v1.253.0: bookScroll left the list with the article-away view (U114 a); placeTop stands in for it as a listed name.
+  for (const line of ["r.gameSections.find(f).closedRow", "a._reader!.syncIndex()", "(r as any).placeTop", "w.__seatReader.gamePage", "const {placeTop} = a._reader",
+    "const { placeTop, x } = r", "el['mediaNext']", "a._reader.heldAt", "a._reader!.held", "(r as any).held", "reader?.held", "w.__seatReader.held", "r.held"]) {
     assert.ok(reads(line).length, line);
   }
   assert.deepEqual(reads("belt.held + hand.weight + a.heldBy"), [], "an unrelated object's .held is not a read");

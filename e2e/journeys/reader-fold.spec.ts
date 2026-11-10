@@ -11,7 +11,8 @@ import { journey } from "../dsl"
  * THE CLAIMS, from the boxes the page emitted:
  *   - where the win bar falls under the grid (1100, 1024, 390): the legend docks 8px off the bottom, the reader ends one 8px gap above
  *     the bar, and the last tile, scrolled to, ends inside the reader;
- *   - where it does not (1440, beside the index): the legend keeps the template's 30px, and the reader runs to the fold.
+ *   - where it does not (1440, beside the index): the legend keeps the template's 30px, and the reader runs to the fold (from the
+ *     shelf's retirement, U114 a, which took its 12px floor).
  * Red-proof is at the foot of this file.
  */
 
@@ -41,7 +42,8 @@ for (const [width, height, under] of [[1440, 900, false], [1100, 900, true], [10
       expect(m.barTop - m.rootBottom, "the reader ends one 8px gap above the win bar").toBeCloseTo(8, 0)
     } else {
       expect(m.H - m.barBottom, "the legend keeps the template's 30px").toBeCloseTo(30, 0)
-      expect(m.H - m.rootBottom, "the reader runs to the fold").toBeLessThanOrEqual(12)
+      // The retired shelf's 12px floor went with it (U114 a): nothing else reserves the bottom here.
+      expect(m.H - m.rootBottom, "the reader runs to the fold").toBeLessThanOrEqual(0.5)
     }
     expect(m.lastBottom, "the last tile ends inside the reader").toBeLessThanOrEqual(m.rootBottom + 0.5)
   })

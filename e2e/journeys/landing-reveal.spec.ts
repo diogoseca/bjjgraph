@@ -141,10 +141,11 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
     // reader's reserved node band, the same band for every layer combination (cold and loaded
     // layouts share it), so the reading view's "available space" is that published band. The map
     // view (Book off, persisted) keeps the original announcer-to-rows oracle.
-    for (const view of ['reading', 'map'] as const)
-    test(`staging and layer changes center the node in the current available space${view === 'map' ? ' (map view)' : ''}`, async ({ page }) => {
+    // v1.253.0 (U114 a): the map view's variant is retired with the article-away view.
+    for (const view of ['reading'] as const)
+    test(`staging and layer changes center the node in the current available space`, async ({ page }) => {
       const j = journey(page);
-      await j.boot('/Positions/Side-Control/Bottom', view === 'map' ? { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } } : {});
+      await j.boot('/Positions/Side-Control/Bottom');
       await j.advance(8000);
       await seedHalfGuardFilm(page);
       for (const layers of [[false, false, true], [true, false, true], [true, true, true], [false, false, false]]) {

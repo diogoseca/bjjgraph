@@ -167,15 +167,13 @@ const NG_CAM_OPEN_HOMED = "[data-reader-game-part],[data-reader-game-media],[dat
 const NG_CAM_OPEN_CSS = "@property --ng-open-o{syntax:'<number>';inherits:false;initial-value:1}"
   + "@property --ng-open-y{syntax:'<length>';inherits:false;initial-value:0px}"
   + "[data-ng-open] .ng-reader{opacity:var(--ng-open-o);translate:0 var(--ng-open-y)}"
-  + "[data-ng-open] .ng-reader-shelf{opacity:var(--ng-open-o)}"
   + "[data-ng-open] :is(" + NG_CAM_OPEN_ROWS + "):not(" + NG_CAM_OPEN_HOMED + "){opacity:var(--ng-open-o)!important}"
-  + "[data-ng-open][data-ng-book=off] :is(" + NG_CAM_OPEN_ROWS + "):not(" + NG_CAM_OPEN_HOMED + "){translate:0 var(--ng-open-y)!important}"
-  + "[data-ng-open=faint] :is(" + NG_CAM_OPEN_ROWS + ",.ng-reader-shelf){visibility:hidden}"
+  + "[data-ng-open=faint] :is(" + NG_CAM_OPEN_ROWS + "){visibility:hidden}"
   // the film in the reader's media home keeps reading.css's `visibility:visible!important`; a faint board outranks it
   + "[data-ng-open=faint] .ng-reader :is([data-reader-media],[data-reader-game-media]){visibility:hidden!important}"
   // ...and the section's own controls (article links, tools, section labels) take no tap or focus while faint
   + "[data-ng-open=faint] .ng-reader :is(a,button,input,select,textarea,summary,[tabindex]:not([tabindex='-1'])){visibility:hidden!important}"
-  + "[data-ng-open=release] :is(.ng-reader,.ng-reader-shelf," + NG_CAM_OPEN_ROWS + "){transition:opacity .2s ease,translate .2s ease}";
+  + "[data-ng-open=release] :is(.ng-reader," + NG_CAM_OPEN_ROWS + "){transition:opacity .2s ease,translate .2s ease}";
 // Below this the board's rows and shelf are HIDDEN, not merely transparent: an opacity-0 row still takes a
 // tap and focus (CLAUDE.md 6.1; review m3 measured a tap on the first card at effective opacity 0.066). The
 // rise passes it in its first ~0.24s, and a restart's breath out in its last ~0.3s.
@@ -12683,11 +12681,11 @@ class Component extends DCLogic {
     // (helmet.html, .ng-landnav[data-index]). Here, not in the frame loop alone, so a card rendered or paged has it at once; a no-op
     // whenever it does not change.
     this._landNavEl?.toggleAttribute("data-index", !!this._readerTocEl && !this._readerTocEl.hidden);
-    // The native article and its shelf share one coalesced layout writer. The
+    // The native article has one coalesced layout writer (its shelf is retired, U114 a). The
     // fixed replay bar still follows this frame's legacy column geometry.
     this._reader?.layout();
     const W = this.W || window.innerWidth, card = this._landEl, film = this._landFilmEl;
-    const chrome = [this._layerDockEl, this._replayEl].filter(el => el && el !== this._reader?.dock);
+    const chrome = [this._layerDockEl, this._replayEl].filter(Boolean);
     if (!card && !film && !chrome.length) return;
     const compact = this._compactLandDeck();
     const anchor = card || film;
@@ -14957,7 +14955,7 @@ class Component extends DCLogic {
     // The deferred reader must publish the first rectangle before an answer can
     // paint or take input. Released by layoutNow, or by the module failure path;
     // a pending question neither arms its clock nor consumes a keyboard answer.
-    if (this.get("readerBook", true) && !this._readerFailed) el.setAttribute("data-reader-pending", "");
+    if (!this._readerFailed) el.setAttribute("data-reader-pending", "");
     this.wrapRef.current.appendChild(el);
     this._landEl = el;
     this._landIdx = node.idx; this._landMode = mode || "land"; // what _landBackfill is allowed to refill
@@ -15219,14 +15217,14 @@ class Component extends DCLogic {
     const key = n.ty === "positions" ? this.deckKeyFor(n).key : n.t, C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
     return !Object.prototype.hasOwnProperty.call(C, key) && !!this._contentWaits?.[key];
   }
-  _readerHold(r, shown, W, H) {
+  _readerHold(r, W, H) {
     const q = this._readerQueued, pin = this._readerPin, card = this._landEl;
     // the landing's first layout: the hand is adopted and held (or not) by the time this layout returns, so the
     // Win chance it waited for (`_readerAwaited`) is asked again then, held or not
     if (q && !q.laid && q.idx === this._landIdx) { q.laid = true; queueMicrotask(() => this._ensureGameValues()); }
     // Settled: graded (the event: a reading decline also marks the question answered, and must not
     // release live parts), the card or hand closed, the next landing, the article put away, a new viewport.
-    if (pin && (pin.q !== q || !shown || pin.W !== W || pin.H !== H || !this._handShown() || pin.graded || card && !this._layerOn("card"))) {
+    if (pin && (pin.q !== q || pin.W !== W || pin.H !== H || !this._handShown() || pin.graded || card && !this._layerOn("card"))) {
       this._readerPin = null; setTimeout(() => r.sync());
     }
     let hold = 0;
@@ -15234,9 +15232,8 @@ class Component extends DCLogic {
       // the reader's own cleanPath: a URL arrival may carry a hash, a trailing slash or ".html"
       const path = decodeURI(new URL(q.path, location.href).pathname).replace(/\.html$/, "").replace(/\/$/, "") || "/";
       if (q.skip || r.root.dataset.readerReady === "true" && r.path === path) q.pub = true;
-      else if (!shown) q.live = true;
       else {
-        const age = q.live ? 800 : performance.now() - (q.at || (q.at = performance.now()));
+        const age = performance.now() - (q.at || (q.at = performance.now()));
         if (age < 800) { hold = 801 - age; clearTimeout(this._readerHoldT); this._readerHoldT = setTimeout(() => r.layout(), hold); }
         else { q.pub = true; this._readerPin = { q, W, H }; hold = -1; }
       }
@@ -15246,7 +15243,7 @@ class Component extends DCLogic {
     // mounting until the player's own input (D-352 S2).
     if (card && this._filmHold?.card !== card) this._filmHold = { card, at: performance.now() };
     const F = card && this._filmHold;
-    if (F && !F.done && hold <= 0 && shown && !this._readerPin && this._filmPending()) {
+    if (F && !F.done && hold <= 0 && !this._readerPin && this._filmPending()) {
       const age = performance.now() - F.at;
       if (age < 800) { hold = 801 - age; clearTimeout(this._readerHoldT); this._readerHoldT = setTimeout(() => r.layout(), hold); }
       else { this._readerPin = { q, W, H }; hold = -1; }
@@ -15624,7 +15621,8 @@ class Component extends DCLogic {
     // once mounted. Both paths measure the same existing bottom chrome.
     const W = this.W || 1200, H = this.H || 800, center = this._paneLayout().center;
     const half = (W <= 640 ? 318 : 360) / 2;
-    const cold = this.get("readerBook", true) ? this._readerShelfBottom({ left: center - half, right: center + half }) + 78 + Math.min(128, H * .15) : 84;
+    // v1.253.0: the cold figure keeps the retired shelf's 12px inset and 78px height; the reader's first layout replaces it.
+    const cold = Math.max(12, this._readerReserve({ left: center - half, right: center + half })) + 78 + Math.min(128, H * .15);
     const TRAY_BOTTOM = this._executionDock()?.bottom ?? (this._reader?.trayBottom || cold);
     const row = this.optionsRef.current;
     if (!this._reader && row && !this._readMax) row.style.bottom = TRAY_BOTTOM + "px";
@@ -15637,8 +15635,10 @@ class Component extends DCLogic {
     const dock = this._execution?.card?._ngDock;
     return dock && dock.w === window.innerWidth && dock.h === window.innerHeight && !this._reader?.interacting ? dock : null;
   }
-  _readerShelfBottom(horizontal) {
-    let bottom = 12;
+  // What the bottom chrome takes from the reader's column: the share cue's or the win bar's top plus one 8px gap, where either falls
+  // under it, else nothing (v1.253.0: the 12px floor was the retired shelf's inset, and it cut the article 20px above the fold).
+  _readerReserve(horizontal) {
+    let bottom = 0;
     for (const el of [this.shareCueRef.current, this.wrapRef.current.querySelector(".ng-winbar")]) {
       if (!el || getComputedStyle(el).visibility === "hidden") continue;
       const box = el.getBoundingClientRect();
@@ -15845,7 +15845,7 @@ class Component extends DCLogic {
    *  `_layoutLandHorizontal` (every frame, and once here so the first frame is already right),
    *  which is what keeps it under the card while the pane is open or animating (v1.196.1). */
   _renderLayerDock() {
-    if (this._reader) { this._reader.shelf(); return; }
+    if (this._reader) return;
     const wrap = this.wrapRef && this.wrapRef.current; if (!wrap) return;
     const off = NG_LAYER_ORDER.filter((l) => !this._layerOn(l));
     let dock = this._layerDockEl;
@@ -18710,7 +18710,7 @@ class Component extends DCLogic {
     // lease TIMING: an escape picked inside that window keeps the framing it was picked from, one
     // picked after it is followed (camera-continuity 380/427, DEVMV31-CAM; CI 48be3a910). No target
     // is captured: at a URL arrival camTarget can still be the intro's overview.
-    if (live || !this.get("readerBook", true)) this.frameNodes(nodes); else this._calmCatchUntil = Number.isFinite(this.now) ? this.now + this.camHoldSec : -1;
+    if (live) this.frameNodes(nodes); else this._calmCatchUntil = Number.isFinite(this.now) ? this.now + this.camHoldSec : -1;
     this._optPick = pick; this._optList = escapes;
     if (live) this._startDefensePressure(catchArrival);
     // The drill runs on the shared card's question clock; the ESCAPES are
@@ -18900,7 +18900,7 @@ class Component extends DCLogic {
     // reading bias ("every name hanging off a node runs left-to-right FROM it") which nothing
     // here has any reason to overturn.
     let cx = f.x + 0.06 * vw;
-    if ((this.isMobile() || this.get("readerBook", true) && !moving && !ahead && !this._execution) && n) {
+    if ((this.isMobile() || !moving && !ahead && !this._execution) && n) {
       const labelW = this._labelWidthPx(n);
       if (labelW > 0) {
         // centre the orb+label block…
@@ -18976,7 +18976,7 @@ class Component extends DCLogic {
     const W = this.W || 1200, H = this.H || 800;
     const pane = this._paneLayout();
     const horizontal = { left: pane.left, right: W, width: Math.max(1, W - pane.left) };
-    if (this.get("readerBook", true) && !this._refPage && !this._execution && !opts?.ahead) {
+    if (!this._refPage && !this._execution && !opts?.ahead) {
       return { ...horizontal, ...(this._reader?.nodeBand || this._readerBand()), measured: true, predicted: false, band: true };
     }
     let top = 16;
@@ -19004,7 +19004,7 @@ class Component extends DCLogic {
           // container, not the viewport. Read its actual visible rectangle.
           const dock = this._readerEl?.contains(el) ? NaN : parseFloat(css.bottom);
           // ...and without the directed arrival's ride (NG_CAM_OPEN_CSS), or the band would move with the board
-          const ride = this.wrapRef?.current?.dataset.ngOpen && (this._readerEl?.contains(el) || !this.get("readerBook", true)) ? this._openY || 0 : 0;
+          const ride = this.wrapRef?.current?.dataset.ngOpen && this._readerEl?.contains(el) ? this._openY || 0 : 0;
           const y = Number.isFinite(dock) ? H - dock - el.offsetHeight : el.getBoundingClientRect().top - ride;
           if (y > top + 32) { bottom = Math.min(bottom, y - 12); measured = on = true; }
         }
@@ -19041,7 +19041,7 @@ class Component extends DCLogic {
     if (!want[0] && !want[1] && !want[2]) return H - 16;
     // A later question can need more space than any one already measured. Keep
     // the book's conservative reserve when forecasting the next landing.
-    const prior = (want[0] || want[1]) && this.get("readerBook", true) ? H * .1 : Infinity;
+    const prior = want[0] || want[1] ? H * .1 : Infinity;
     const memo = this._bandMemo || {}, pre = W + "x" + H + "|";
     const exact = memo[pre + want.map((w) => (w ? "1" : "0")).join("")];
     if (exact != null) return Math.min(exact, prior);
@@ -19052,7 +19052,7 @@ class Component extends DCLogic {
       if (want.every((w, i) => !w || rows[i] === "1")) best = best == null ? memo[k] : Math.min(best, memo[k]);
     }
     if (best != null) return best;
-    return want[0] || want[1] ? H * (this.get("readerBook", true) ? 0.1 : 0.19) : H * 0.6;
+    return want[0] || want[1] ? H * 0.1 : H * 0.6;
   }
   /** Make room for a landing that has not mounted yet: move framing `t` the least distance that
    *  puts node `idx` (both pair members, drawn size) inside the band that landing will have. The
@@ -19276,8 +19276,7 @@ class Component extends DCLogic {
     }
     this._openStamp(String(Math.round(o * 1e4) / 1e4), y.toFixed(2) + "px");
     // the wrap's state attributes are written only when they change: each write is a style invalidation
-    const book = this.get("readerBook", true) ? "on" : "off", was = wrap.dataset.ngOpen, state = o < NG_CAM_OPEN_FAINT ? "faint" : "board";
-    if (wrap.dataset.ngBook !== book) wrap.dataset.ngBook = book;
+    const was = wrap.dataset.ngOpen, state = o < NG_CAM_OPEN_FAINT ? "faint" : "board";
     if (was !== state) wrap.dataset.ngOpen = state;
     // a hand refused while faint (hidden, `_gameValuePlayable`) is asked again the frame it shows: nothing else would
     if (was === "faint" && wrap.dataset.ngOpen === "board") this._ensureGameValues();
@@ -19314,20 +19313,20 @@ class Component extends DCLogic {
     if (op?.art) { op.art.style.translate = op.artPrev || ""; op.art = null; }
     if (!wrap || !wrap.dataset.ngOpen) return;
     const clear = () => {
-      delete wrap.dataset.ngOpen; delete wrap.dataset.ngBook;
+      delete wrap.dataset.ngOpen;
       this._openUnstamp();
       this._openO = 1; this._openY = 0;
       this._ensureGameValues();   // the board is the player's now: a refusal during the entrance is asked again
     };
     // a release needs something actually fading, or no transitionend would ever come to clear it
-    const fading = [...wrap.querySelectorAll(".ng-reader,.ng-reader-shelf," + NG_CAM_OPEN_ROWS)]
+    const fading = [...wrap.querySelectorAll(".ng-reader," + NG_CAM_OPEN_ROWS)]
       .some((el) => el.offsetHeight && parseFloat(getComputedStyle(el).opacity) < 0.999);
     if (!fade || !fading || ((this._openO ?? 1) >= 0.999 && !this._openY)) { clear(); return; }
     this._openStamp("1", "0px");
     wrap.dataset.ngOpen = "release"; this._openO = 1; this._openY = 0;
     const id = (this._openRelease = (this._openRelease || 0) + 1);
     const done = (e) => {
-      if (e && (e.propertyName !== "opacity" || !e.target.matches?.(".ng-reader,.ng-reader-shelf," + NG_CAM_OPEN_ROWS))) return;
+      if (e && (e.propertyName !== "opacity" || !e.target.matches?.(".ng-reader," + NG_CAM_OPEN_ROWS))) return;
       wrap.removeEventListener("transitionend", done); wrap.removeEventListener("transitioncancel", done);
       if (this._openRelease === id && wrap.dataset.ngOpen === "release") clear();
     };
@@ -19877,7 +19876,8 @@ class Component extends DCLogic {
     this.setPaused(true);            // freeze with a fresh decision timer; Play resumes
     this.enterLand(false);           // build options for the new state (no restart toast)
   }
-  _graphInputOn() { return !this._filmTheater && (!this._reader || this._reader.on("map")); }
+  // v1.253.0 (U114 a): the map can no longer be hidden, so only the film's theater turns graph input off.
+  _graphInputOn() { return !this._filmTheater; }
   _updateHover(e) {
     if (!this._graphInputOn()) { this._hover = null; return; }
     if (!this.cam || !this.nodes) return;

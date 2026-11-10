@@ -1,3 +1,5 @@
+// v1.253.0 RETIRED with their subject (U114 a, the article's ✕ and the shelf): reading-shelf-retained and u110-close-on-article-edge.
+// Their source is gone, so no build can carry them. u59-pill-covers and reader-end-double-gap were retargeted onto _readerReserve's lane.
 // v1.252.1 recorded NON-KILL, not coverage: u59r4-table-margin. Its claim, that Quartz's table margin clips a three-column table, needed
 // a 340px lane; since U110 a and U104 no lane above the phone is narrower than 439px, and with the margin back neither 768x1024 (one
 // 496px column), 1024x768 (two 439px lanes) nor 390x844 clips a table. The margin:0 stays; nothing can see it now.
@@ -133,7 +135,6 @@ const mutants = [
   ['landing-never-published-no-decks', 'coldstart-late-payload.spec.ts', 'a payload that never arrives', neverPublish],
   ['landing-never-published-list-item', 'lists-disclosure.spec.ts', 'clicking a listed technique opens its dossier', neverPublish],
   ['landing-never-published-label-restore', sections, 'D-338 1440px Questions and Moves close with their own', neverPublish],
-  ['reading-shelf-retained', sections, 'D-338 1440px', s => replace(s, 'this.dock.hidden = this.on("book");', 'this.dock.hidden = false;')],
   ['native-role-starts-game', sections, 'D-338 1440px', s => replace(s, 'if (reader.intent && node?.pi === this.focusIdx)', 'if (false)')],
   // D-355 (U11): where the index shows (1440, 1152) a closed part leaves no label in the content, so the label's
   // claims (it reopens, its contrast, it hides while open) are killed at 1024, the widest viewport without the index.
@@ -179,7 +180,7 @@ const mutants = [
   ['native-game-focus-lost', 'pane-keyboard.spec.ts', 'recall page mounted under the pane', s => replace(s, '{ class: "ng-reader-game", tabindex: "-1" }', '{ class: "ng-reader-game" }')],
   ['reduced-motion-flash-lost', 'outcome-on-cards.spec.ts', 'reduced motion.*1440', s => s, css => replace(css, '.ng-reader,.ng-reader-article *', '.ng-reader,.ng-reader *')],
   ['entry-centering-lost', 'coldstart-backfill.spec.ts', 'landing card stays centred', s => replace(s, 'if (el !== row) style(el, "transform", "none", "important");', 'if (el !== row) style(el, "transform", "translateX(-50%)", "important");')],
-  ['pane-card-overflow', 'layer-dock-centre.spec.ts', '800px with the pane open', s => replace(s, 'free.width - (arrows && !beside ? 104 : 32)', 'W - (arrows && !beside ? 104 : 32)')],
+  ['pane-card-overflow', 'pane-layout.spec.ts', 'pane moves film, card, article', s => replace(s, 'free.width - (arrows && !beside ? 104 : 32)', 'W - (arrows && !beside ? 104 : 32)')],
   // D-338: with the article shown the film's home is its Videos section's slot ([data-reader-media]).
   // RETIRED (v1.230.0, feat/video-cards): media-inset-lost removed the film strip's side padding, which the current
   // card no longer has (padding 0, no fades: choice-value.css .ng-current-card); film-row-arrows retires those ratios.
@@ -417,7 +418,7 @@ const mutants = [
   ['u59-measure-unset', 'article-dashboard.spec.ts', 'at 1920x1080 the article is two columns', s => s, css => replace(css, 'overflow-wrap:break-word;max-width:46ch;margin:auto}', 'overflow-wrap:break-word}')],
   // U46 b moved the Guest badge into the drawer. The conditional share cue now occupies the corner;
   // retain the obstruction control (historical name) with its reserve measured over the old 680px column only.
-  ['u59-pill-covers', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => replace(s, 'a._readerShelfBottom({ left: free.center - width / 2, right: W })', 'a._readerShelfBottom({ left: free.center - width / 2, right: free.center + width / 2 })')],
+  ['u59-pill-covers', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', s => replace(s, 'lane = { left: free.center - grid / 2, right: W }', 'lane = { left: free.center - grid / 2, right: free.center + grid / 2 }')],
   // "Keep the reader's place when the lane count changes": the anchor found but never put back.
   ['u59-place-lost', 'article-dashboard.spec.ts', 'opening Explore keeps', s => replace(s, 'root.scrollTop += Math.round(rect(keep).top - was);', 'root.scrollTop;')],
   // "A link inside a tile still opens its page": the tile swallows its links' clicks.
@@ -485,8 +486,10 @@ const mutants = [
   // v1.253.0: the article runs to the fold, or to one gap above the win bar where the bar falls under the grid.
   ['legend-restore-blank', 'reader-fold.spec.ts', '1440x900', s => replace(s, 'under ? "8px" : "30px"', 'under ? "8px" : ""')],
   ['legend-not-docked', 'reader-fold.spec.ts', '1024x768', s => replace(s, 'under ? "8px" : "30px"', 'under ? "30px" : "30px"')],
-  ['reader-end-double-gap', 'reader-fold.spec.ts', '1024x768', s => replace(s, '? H - a._readerShelfBottom(lane)', '? H - a._readerShelfBottom(lane) - 8')],
+  ['reader-end-double-gap', 'reader-fold.spec.ts', '1024x768', s => replace(s, 'a._readerReserve(lane));', 'a._readerReserve(lane) + 8);')],
   // v1.253.0: an index row reopens its closed section (U11), checked by mouse.
+  // v1.253.0: the line within half a pixel of the reader's top is the one held (the ✕'s 44px gone put a line at 73.86 against 74).
+  ['anchor-line-strict-top', 'article-dashboard.spec.ts', '1152x900 opening Explore keeps the line at the reader.s top \\(30% down\\)', s => replace(s, 'return y >= top - 0.5 && y < was ?', 'return y >= top && y < was ?')],
   ['index-reveal-lost', 'index-reveal.spec.ts', 'an article tile', s => replace(s, 'if (section.part) this.toggle(section.part); else this.toggleSection(section.type, true);', '')],
   ['video-title-plural', 'reading-contract.spec.ts', 'cannot repaint the opposite seat', s => replace(s, '["videos", "Video"], ["aka"', '["videos", "Videos"], ["aka"')],
   ['u110-cap-lost', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = 0;')],
@@ -496,7 +499,6 @@ const mutants = [
   // U110 a: the Moves row takes the column wherever the stacked box binds, 600 to 640px included (cobbler's check, 2026-11-09).
   ['u110-tray-phone-flush', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'available && (W > 640 || free.width >= 600)', 'available && W > 640')],
   // #346's review, finding 6: stacked, the article's ✕ ends on the column's right edge.
-  ['u110-close-on-article-edge', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'reach > 0 ? width / 2 + 12 : Math.max(0, (width - grid) / 2)', 'reach > 0 ? width / 2 + 12 : 0')],
   ['u110-cap-past-columns', 'stacked-width.spec.ts', 'at 1,024px the columns begin', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = free.width < 1100 && 496;')],
 ]
 // D7-N1: controls whose claim IS the landSettled stall (land_publish_stalled). None today.

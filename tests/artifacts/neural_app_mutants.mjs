@@ -252,6 +252,9 @@ const controls = [
   // v1.253.0: the film's seat row prints the win bar's own number.
   ['seat-win-unwired', 'state-win.spec.ts', 'seat row prints',
     [['currentWinView(){return this._winView||', 'currentWinView(){return null||']], 'the seat row agrees with the win bar'],
+  // v1.253.0 (U114 a): with the shelf retired, nothing reserves the bottom where no chrome falls under the grid.
+  ['reader-reserve-shelf-floor', 'reader-fold.spec.ts', '1440x900',
+    [['_readerReserve(e){let t=0', '_readerReserve(e){let t=12']], 'the reader runs to the fold'],
   // U104 (owner, 2026-11-06): a card with no video has nothing to dismiss.
   // U104 (v1.252.0): an asking card is fitted inside the pass that measures it, or a pane slide reads a wrapped line.
   // NOT KILLED since v1.253.0: the tease spans the choices row, and no authored question (100 characters at most) needs fitting there,

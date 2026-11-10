@@ -505,46 +505,9 @@ test('U59 c: a phone turned to landscape and back (390x844, 844x390, 390x844) le
   expect(await stage(page), 'back upright, the Moves row and the question are where they were').toEqual(before)
 })
 
-// DASH-R4 (review finding 2): the article's own close and the shelf's Book button. sync() restores the reader's scroll
-// into the reopened article; on R3 the anchor then held whatever line the never-shown narrow grid had put at the top,
-// 113-293px off. The line under a fixed point must come back to the same place, as on dev.
-for (const offset of [40, 300]) {
-  test(`U59 c: at 1440x900 putting the article away and back (its close ${offset}px below the top) returns the same line`, async ({ page }) => {
-    const j = await boot(page, 1440, 900)
-    await page.locator(READY).evaluate((e, off) => {
-      const x = e.querySelector('[data-reader-close]')!
-      e.scrollTop += x.getBoundingClientRect().top - e.getBoundingClientRect().top - off
-    }, offset)
-    await j.readerLayoutSettled()
-    const mark = () => page.evaluate(() => {
-      const r = (window as any).__neural._reader, rt = r.root.getBoundingClientRect()
-      const w = window as any
-      if (!w.__testLine) {
-        // At the 300px depth a point 140px below the reader top is still above the article.
-        // Select a rendered paragraph first, then retain the character under that fixed point.
-        const paragraph = ([...r.body.querySelectorAll('p,li')] as HTMLElement[]).find(e => {
-          const b = e.getBoundingClientRect(); return b.width > 0 && b.top >= rt.top && b.top + 20 < rt.bottom
-        })
-        if (!paragraph) throw Error('premise: a paragraph is visible in the article')
-        const b = paragraph.getBoundingClientRect(), pos = (document as any).caretRangeFromPoint(b.left + 10, b.top + 12), range = document.createRange()
-        if (!pos || pos.startContainer.nodeType !== Node.TEXT_NODE || !r.body.contains(pos.startContainer)) throw Error('premise: the point names article text')
-        range.setStart(pos.startContainer, pos.startOffset); range.setEnd(pos.startContainer, Math.min((pos.startContainer as Text).length ?? 0, pos.startOffset + 1))
-        w.__testLine = range
-      }
-      const b = w.__testLine.getBoundingClientRect()
-      return { scrollTop: Math.round(r.root.scrollTop), line: Math.round(b.top), rendered: !!w.__testLine.toString() && b.height > 0 && b.top >= rt.top && b.bottom <= rt.bottom }
-    })
-    const before = await mark()
-    expect(before.rendered, 'premise: the saved range is visible article text, not an empty caret on the map').toBe(true)
-    await j.clickByMouse('[data-reader-close]', 'the article\'s own close')
-    for (let i = 0; i < 6; i++) await j.advance(100)
-    expect(await page.evaluate(() => (window as any).__neural._reader.articleEl.hidden), 'premise: the article is put away').toBe(true)
-    await j.clickByMouse('[data-reader-part="book"]', 'the shelf\'s Book button')
-    for (let i = 0; i < 6; i++) await j.advance(100)
-    await j.readerLayoutSettled()
-    expect(await mark(), 'the same line is back under the same point').toEqual(before)
-  })
-}
+// v1.253.0 (U114 a): "U59 c: at 1440x900 putting the article away and back returns the same line" (DASH-R4, review finding 2)
+// went with the article's ✕ and the shelf's Book button.
+
 
 // DASH-R4 (review finding 3): the 6-column Top/Bottom comparison on every position hub needs ~520-566px, and a tile is 712px
 // wide at 1920. UNGUARDED BELOW THAT, and a known cost of two columns: Mount's table hides 135px behind a sideways scroll at

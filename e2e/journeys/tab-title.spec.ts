@@ -7,7 +7,7 @@ import { journey } from "../dsl"
 // Mutants in tests/artifacts/tab_title_mutants.json: dropped-title-write is killed
 // by "native map"; hub-title-for-role is killed by "dual pair" (also native map).
 const READY = '[data-reader-ready="true"]'
-const QUIET = { v: 2, settings: { landFilm: false, landCard: false, landHand: false, landFeedback: false, readerBook: false }, settingsAt: {} }
+const QUIET = { v: 2, settings: { landFilm: false, landCard: false, landHand: false, landFeedback: false }, settingsAt: {} }
 
 async function exactTitle(page: Page, step: string) {
   const row = await page.evaluate(async () => {
@@ -37,7 +37,8 @@ async function clickNode(page: Page, j: ReturnType<typeof journey>, id: string) 
   await page.mouse.click(point.x, point.y)
 }
 
-test("@curated VIDEO2 native map click, Back/Forward and reader open/close keep exact titles", async ({ page }) => {
+// v1.253.0 (U114 a): the reader open/close steps went with the article's ✕ and the shelf's Book button.
+test("@curated VIDEO2 native map click, Back/Forward and the dual pair keep exact titles", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Mount", { initialState: QUIET })
   await expect(page.locator(READY)).toHaveCount(1); await j.advance(8000)
@@ -50,15 +51,12 @@ test("@curated VIDEO2 native map click, Back/Forward and reader open/close keep 
   expect((await exactTitle(page, "Back")).title).toBe(initial.title)
   await page.goForward(); await expect(page.locator(READY)).toHaveCount(1)
   await exactTitle(page, "Forward")
-  await j.clickByMouse('[data-layer-show="book"]'); await exactTitle(page, "reader open")
-  await page.locator('[data-reader-close]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-  await j.clickByMouse('[data-reader-close]'); await exactTitle(page, "reader close")
   for (const side of ["Bottom", "Top"]) {
     await j.readingOtherHalf()
     await expect.poll(() => new URL(page.url()).pathname).toBe(`/Positions/Half-Guard/${side}`)
     await exactTitle(page, `dual pair ${side}`)
   }
-  console.log("VIDEO2 native navigation: 8 exact built titles asserted")
+  console.log("VIDEO2 native navigation: 6 exact built titles asserted")
 })
 
 test("@curated VIDEO2 dual pair titles name the selected role, never the hub", async ({ page }) => {

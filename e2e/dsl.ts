@@ -581,7 +581,8 @@ export class Journey {
       if (!a || typeof a.landSettled !== "function") return null;
       const published = await a.landSettled();
       const r = a._reader;
-      return published === false && !!r && a.get("readerBook", true) !== false && !r.root.hasAttribute("data-reference") ? a._landIdx : null;
+      // v1.253.0 (U114 a): the article is always shown, so readerBook is no longer asked.
+      return published === false && !!r && !r.root.hasAttribute("data-reference") ? a._landIdx : null;
     });
     expect.soft(stalled, `landSettled: landing ${stalled} is still unpublished 1.5s after its question settled (land_publish_stalled)`).toBeNull();
     return this;

@@ -149,7 +149,8 @@ const motion = (S: F[]) => {
 };
 const span = (xs: number[]) => (xs.length ? Math.max(...xs) - Math.min(...xs) : NaN);
 
-for (const book of ["on", "off"] as const) {
+// v1.253.0 (U114 a): Book off was a saved state with no way back, and it is no longer read; its variant is retired.
+for (const book of ["on"] as const) {
 test.describe(`the directed arrival, Book ${book}`, () => {
   test.use({ viewport: { width: 390, height: 844 }, hasTouch: true });
 
@@ -386,7 +387,8 @@ const withFilm = (page: Page, title: string) => page.evaluate((title) => {
   return keys;
 }, title);
 
-for (const book of ["on", "off"] as const) {
+// v1.253.0 (U114 a): Book off was a saved state with no way back, and it is no longer read; its variant is retired.
+for (const book of ["on"] as const) {
 test.describe(`the directed arrival with a Videos row, Book ${book}`, () => {
   test.use({ viewport: { width: 390, height: 844 }, hasTouch: true });
 

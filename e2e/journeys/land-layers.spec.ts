@@ -87,17 +87,17 @@ const read = async (page: any) => {
 // The dock keeps its claims in the MAP view (Book off), where it also restores the hidden article.
 // No control turns Book off (D-338: no View menu), so the map view boots as a returning reader
 // left it: the persisted setting the app reads. A dock claim with a reading twin runs in both.
-const BOOK_OFF = { v: 2, settings: { readerBook: false }, settingsAt: {} }
-type View = "map" | "reading"
-const VIEWS: View[] = ["map", "reading"]
-const bootIn = (j: any, view: View) => j.boot("/", view === "map" ? { initialState: BOOK_OFF } : {})
-const docked = (view: View, ...parts: string[]) => view === "map" ? [...parts, "book"] : parts
+// v1.253.0 (owner, U114 a, 2026-11-09): the shelf and the article's ✕ are retired, and with them the map view (Book off) these
+// tests also ran in: readerBook is no longer read. One view is left, and no dock glyph exists in it (the hidden shelf's buttons were
+// the glyphs these lists counted): a closed part comes back from its own label or index row.
+type View = "reading"
+const VIEWS: View[] = ["reading"]
+const bootIn = (j: any, _view: View) => j.boot("/")
+const docked = (_view: View, ..._parts: string[]): string[] => []
 // STALE SPEC (D-355, U11): where the index shows (1440x900 here) a closed part leaves no label in the content:
 // its index row carries the closed state and reopens it. Without the index the label reopens it, as before.
 const indexed = (page: any) => page.locator(".ng-reader-toc").isVisible()
 const restore = async (page: any, j: any, view: View, part: "card" | "hand") => {
-  if (view === "map") return j.clickByMouse(`[data-layer-show="${part}"]`, `the dock's ${part} glyph`)
-  await expect(page.locator(".ng-reader-shelf"), "the reading view has no shelf").toBeHidden()
   // A catch can replace the article asynchronously. Choose its index/label only once that
   // article is published; the old hidden index is not evidence that the new page has no index.
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
@@ -106,7 +106,7 @@ const restore = async (page: any, j: any, view: View, part: "card" | "hand") => 
   await page.locator(`[data-game-open="${part}"]`).scrollIntoViewIfNeeded()
   await j.clickByMouse(`[data-game-open="${part}"]`, `the closed ${part === "card" ? "Questions" : "Moves"} label`)
 }
-const viewTitle = (view: View) => view === "map" ? "" : " (reading view: the closed label)"
+const viewTitle = (_view: View) => " (reading view: the closed label)"
 
 /** one deterministic hop through the tray (the returner spec's pattern): first transitions-type
  *  option, rigged to succeed, then wait for the next hand */
@@ -166,7 +166,7 @@ test(`@curated the ✕ is sticky: the next landing builds no card and asks nothi
   expect(q0, "a fresh visitor's first landing asks (the on-phase is non-vacuous)").toBeTruthy()
   const s0 = await read(page)
   expect(s0.cardEls, "one card up to begin with").toBe(1)
-  expect(s0.dockEls, "one labeled shelf holds the hide and restore controls").toBe(1)
+  expect(s0.dockEls, "no shelf (retired, U114 a)").toBe(0)
 
   // ── the ✕, by mouse ──
   await j.clickByMouse("[data-land-close]", "the card's ✕")
@@ -176,9 +176,9 @@ test(`@curated the ✕ is sticky: the next landing builds no card and asks nothi
   expect(s1.keys.card, "…and the choice is persisted").toBe(false)
   expect(s1.tray, "the hand survived").toBeGreaterThan(0)
   expect(s1.beats, "the dismissal is named").toContain("land_dismissed")
-  expect(s1.dock, "the dock shows exactly the card glyph").toEqual(docked(view, "card"))
-  if (view === "reading" && await indexed(page)) await expect(page.locator('[data-toc-type="card"]'), "the closed card's index row shows it closed").toHaveAttribute("data-collapsed", "true")
-  else if (view === "reading") await expect(page.locator('[data-game-open="card"]'), "the closed card leaves its Questions label").toBeVisible()
+  expect(s1.dock, "no dock glyph: the closed card's label or index row brings it back").toEqual(docked(view, "card"))
+  if (await indexed(page)) await expect(page.locator('[data-toc-type="card"]'), "the closed card's index row shows it closed").toHaveAttribute("data-collapsed", "true")
+  else await expect(page.locator('[data-game-open="card"]'), "the closed card leaves its Questions label").toBeVisible()
   expect(s1.landIdx, "the landing still knows its state (film + backfill invariant)").toBe(s1.cur)
 
   // ── the next landing: no card, a hand, the gap named ──
@@ -206,7 +206,7 @@ test(`@curated the ✕ is sticky: the next landing builds no card and asks nothi
   await j.openQuestion() // U47 d: restoring Questions rebuilds an asking card; Answer for Points arms its clock.
   const s4 = await read(page)
   expect(s4.keys.card).toBe(true)
-  expect(s4.dockEls, "the shelf keeps the hide controls when every layer is open").toBe(1)
+  expect(s4.dockEls, "no shelf, with every layer open too").toBe(0)
   expect(s4.shown, "a second land_q_shown — the re-expanded landing's").toBeGreaterThan(s0.shown)
   expect(s4.remaining, "…and its clock armed").not.toBe(null)
   // Restoring a part keeps keyboard focus on the shelf. Move into the question
@@ -222,12 +222,12 @@ test(`@curated the ✕ is sticky: the next landing builds no card and asks nothi
 // state. With the article shown the videos follow their section, so this boots in the map view.
 test("the choice survives a reload (persisted, read live at the next landing)", async ({ page }) => {
   const j = journey(page)
-  await j.boot("/", { initialState: BOOK_OFF })
+  await j.boot("/")
   await j.land("Mount Top")
   // through the real handle, and through setLayer's OWN save — no _flushSave here, so a writer
   // that forgets `this.set` (M2) leaves nothing for the next boot to find
   await j.clickByMouse("[data-land-close]", "the card's ✕")
-  await page.evaluate(() => { const a = (window as any).__neural; a.setLayer("film", false, "test"); a.setLayer("hand", false, "test") })
+  await page.evaluate(() => { const a = (window as any).__neural; a.setLayer("film", false, "settings"); a.setLayer("hand", false, "test") })
   await j.advance(1200) // > the 400ms save debounce
   // the per-key TIMESTAMP is the cross-device half of the claim: without it the LWW merge lets a
   // stale device's value win (M2 writes the value and forgets the stamp — a reload alone cannot
@@ -239,6 +239,7 @@ test("the choice survives a reload (persisted, read live at the next landing)", 
   const keys = await page.evaluate(() => { const a = (window as any).__neural; return { card: a.get("landCard", true), film: a.get("landFilm", true), dock: document.querySelectorAll("[data-layer-show]").length } })
   expect(keys.card, "landCard came back off").toBe(false)
   expect(keys.film, "landFilm came back off").toBe(false)
+  // The app's own dock (.ng-layerdock, not the retired shelf) is up from boot until the reader arrives, which removes it (U114 a).
   expect(keys.dock, "the dock is up from boot, before any landing").toBe(3)
   await j.land("Mount Top")
   const s = await read(page)
@@ -246,7 +247,7 @@ test("the choice survives a reload (persisted, read live at the next landing)", 
   expect(s.tray, "a hand, as always").toBeGreaterThan(0)
   // the tray is a FRESH element after a reload, so only the per-landing sync can hide it (M3)
   expect(s.trayVis, "…hidden by the first deal, from a persisted key").toBe("hidden")
-  expect(s.dock).toEqual(docked("map", "film", "card", "hand"))
+  expect(s.dock).toEqual(docked("reading", "film", "card", "hand"))
 })
 
 for (const view of VIEWS)
@@ -351,9 +352,9 @@ test("@curated the measured reader and shelf reserve the final paragraph's space
       .filter((el: any) => el && getComputedStyle(el).visibility !== "hidden")
       .map((el: any) => el.getBoundingClientRect()).filter((b: any) => b.height && b.left < col.right && b.right > col.left)
       .map((b: any) => ({ top: b.top, bottom: b.bottom }))
-    return { articleBottom: r.bottom, shelf: document.querySelector("[data-layer-dock]")!.getBoundingClientRect().height, controls, H: innerHeight }
+    return { articleBottom: r.bottom, shelf: document.querySelectorAll("[data-layer-dock]").length, controls, H: innerHeight }
   })
-  expect(boxes.shelf, "no shelf in the reading view").toBe(0)
+  expect(boxes.shelf, "no shelf (retired, U114 a)").toBe(0)
   expect(boxes.controls.length, "the phone has bottom controls under the column").toBeGreaterThan(0)
   for (const c of boxes.controls) expect(boxes.articleBottom, JSON.stringify(boxes)).toBeLessThanOrEqual(c.top - 6)
   expect(boxes.articleBottom).toBeLessThan(boxes.H)
@@ -368,10 +369,8 @@ test("the background ladder stays per-landing: a tap closes THIS card, the next 
   const s1 = await read(page)
   expect(s1.card, "tap 1 closes the card").toBe(false)
   expect(s1.keys.card, "…as a gesture, not a preference").toBe(true)
-  expect(s1.dockEls, "the independent reading shelf survives a per-landing dismissal").toBe(1)
-  await expect(page.locator("[data-reader-part]")).toHaveCount(6)
+  // v1.253.0: the shelf it checked survives is retired (U114 a); the per-landing claim is the card's, below.
   await expect(page.locator("[data-layer-show]")).toHaveCount(0)
-  await expect(page.locator('[data-layer-hide="card"]')).toHaveAttribute("aria-pressed", "true")
   await hop(page, j)
   const s2 = await read(page)
   expect(s2.card, "the next landing has its card").toBe(true)
@@ -391,7 +390,7 @@ test("the settings rows mirror the keys, both ways", async ({ page }) => {
   const s = await read(page)
   expect(s.keys.card).toBe(false)
   expect(s.card, "the live card went with it").toBe(false)
-  expect(s.dock).toEqual(["card"])
+  expect(s.dock, "no dock glyph (U114 a)").toEqual([])
   await page.evaluate(() => (window as any).__neural.setLayer("card", true, "test"))
   await page.evaluate(() => (window as any).__neural.renderSettings())
   await expect(page.locator('[data-layer-toggle="card"]'), "a change from the board shows in the row").toHaveAttribute("aria-pressed", "true")
@@ -477,41 +476,6 @@ test.describe("phone", () => {
     expect(s.card, "the card remains").toBe(true)
     expect(s.more, "and its More sibling remains").toBe(true)
   })
-  // MAP view (Book off): the reading view's 44px eyes are article-sections.spec.ts's D-318 390px case.
-  test("every dock glyph is a 44px thumb target that owns its centre, clear of the legend and the share cue, and a tap works", async ({ page }) => {
-    const j = journey(page)
-    await bootIn(j, "map")
-    await j.land("Mount Top")
-    await page.evaluate(() => { const a = (window as any).__neural; for (const l of ["film", "card", "hand"]) a.setLayer(l, false, "test") })
-    // SIDE-R2 M6: the corner chip this claim measured left the map for the drawer's foot (v1.242.0), so its
-    // rect inside the closed drawer was 0x0 and could never overlap. The share cue holds the bottom-right
-    // seat now: raise one (a stale link, the kind that needs no list) and measure the glyphs against it.
-    await page.evaluate(() => (window as any).__neural._setShareCue({ kind: "stale" }))
-    await j.advance(300)
-    const g = await page.evaluate(() => {
-      const box = (el: Element | null) => { if (!el) return null; const r = el.getBoundingClientRect(); return { l: r.left, t: r.top, r: r.right, b: r.bottom, w: r.width, h: r.height } }
-      const glyphs = Array.from(document.querySelectorAll("[data-layer-show]")).map((b) => {
-        const r = b.getBoundingClientRect()
-        const hit = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2)
-        return { layer: b.getAttribute("data-layer-show"), box: box(b), own: hit === b || b.contains(hit) }
-      })
-      return { glyphs, legend: box(document.querySelector(".ng-legend")), cue: box(document.querySelector(".ng-sharecue")) }
-    })
-    expect(g.glyphs.map((x: any) => x.layer)).toEqual(docked("map", "film", "card", "hand"))
-    const overlaps = (a: any, b: any) => !!a && !!b && !(a.r <= b.l || a.l >= b.r || a.b <= b.t || a.t >= b.b)
-    expect(g.cue && g.cue.w * g.cue.h, "premise: the share cue is raised and has a box").toBeGreaterThan(0)
-    for (const x of g.glyphs) {
-      expect(x.box!.w, `${x.layer}: 44px wide`).toBeGreaterThanOrEqual(44)
-      expect(x.box!.h, `${x.layer}: 44px tall`).toBeGreaterThanOrEqual(44)
-      expect(x.own, `${x.layer}: owns its centre`).toBe(true)
-      expect(overlaps(x.box, g.legend), `${x.layer}: clear of the legend`).toBe(false)
-      expect(overlaps(x.box, g.cue), `${x.layer}: clear of the share cue`).toBe(false)
-    }
-    const c = g.glyphs.find((x: any) => x.layer === "card")!.box!
-    await page.touchscreen.tap(c.l + c.w / 2, c.t + c.h / 2)
-    await j.advance(400)
-    const s = await read(page)
-    expect(s.keys.card, "a tap on the glyph brings the card layer back").toBe(true)
-    expect(s.dock).toEqual(docked("map", "film", "hand"))
-  })
+  // v1.253.0: "every dock glyph is a 44px thumb target" was the MAP view's (Book off), retired with the shelf (U114 a).
+
 })

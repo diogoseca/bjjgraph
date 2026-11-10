@@ -39,8 +39,7 @@ async function opened(page: Page, width: number) {
     const tile = ([...r.body.children] as HTMLElement[]).find(c => c.getClientRects().length) || null
     const free = a._paneLayout()
     return { layout: r.game.dataset.mediaLayout, free: [Math.round(free.left), Math.round(free.left + free.width)],
-      card: edges(a._landEl), film: edges(a._landFilmEl), grid: edges(r.body), tile: edges(tile), hand: edges(a.optionsRef.current),
-      close: edges(document.querySelector('[data-reader-close]')) }
+      card: edges(a._landEl), film: edges(a._landFilmEl), grid: edges(r.body), tile: edges(tile), hand: edges(a.optionsRef.current) }
   })
 }
 
@@ -54,8 +53,7 @@ for (const width of [600, 768, 900, 1000]) {
     // The hand too, at every width here: from 600 to 640px the app is in its phone mode, and the Moves row still takes the column.
     const shared = { film: m.film, grid: m.grid, tile: m.tile, hand: m.hand }
     for (const [name, e] of Object.entries(shared)) expect(e, `the ${name} shares the question's two edges`).toEqual(m.card)
-    // #346's review, finding 6: the article's own ✕ ends on the column's right edge, not the wider article's.
-    expect(Math.abs(m.close![1] - m.card[1]), "the article's ✕ ends on the column's right edge").toBeLessThanOrEqual(1)
+    // #346's review, finding 6 (v1.252.1) put the article's own ✕ on the column's edge; v1.253.0 retired that ✕ (U114 a).
   })
 }
 
@@ -72,7 +70,7 @@ test("@curated U110 a: at 1,024px the columns begin and the cap ends", async ({ 
 //   u110-grid-uncapped ...... the grid at free - 64, 600px ...... killed: the grid shares the question's two edges
 //   u110-cap-past-columns ... the cap kept to 1,100px .......... killed: side by side from 1,024px
 //   u110-tray-phone-flush ... the row full-width again to 640px . killed: the hand shares the question's two edges (600px)
-//   u110-close-on-article-edge  the ✕ back on the 680px article .. killed: the article's ✕ ends on the column's right edge (v1.252.1)
+//   (u110-close-on-article-edge, v1.252.1, retired with the article's ✕ in v1.253.0)
 // At 900px the grid's control fails one step earlier, at "under 1,024px the stage stacks": an uncapped grid is wide enough for
 // the columns, which is the cap's other job. The card's control cannot run at 600px, where 600 less the arrows' 104 is 496 anyway.
 // No surviving controls. NOT COVERED: widths under 600px (#346's review, finding 5). From 528 to 599 the cap already binds the film and
