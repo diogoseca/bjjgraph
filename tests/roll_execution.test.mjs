@@ -282,7 +282,7 @@ test("the actual canvas sweep uses the lifted orb and freezes its needle during 
   });
   Object.assign(a, { W: 495, H: 600, dpr: 1, alpha: 1, startTime: 0, focusIdx: n.idx,
     currentPos: n.idx, playerRole: "top", pulse: null, activeMove: null, optionIdxs: [], trail: [], ripples: [] });
-  a.anim = (_key, fallback) => fallback; a.updateNodeCard = a._syncSeatStars = () => {};
+  a.anim = (_key, fallback) => fallback; a._syncSeatStars = () => {};
   a.cam = { cx: n.x, cy: a.nodes[n.pi].y, vw: 165 };
   const sw = a._sweep = { idx: n.idx, hold: .38, dur: .7, band: .6, roll: .8, t0: a.now,
     timer: a.after(1.08, () => assert.fail("a paused sweep must not finish")) };

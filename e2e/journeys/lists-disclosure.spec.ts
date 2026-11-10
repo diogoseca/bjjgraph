@@ -31,7 +31,7 @@ import { journey } from "../dsl";
  *  7. It works in the 390px drawer: names truncate, controls stay thumb-sized, no scroll trap.
  *  8. Expansion is SESSION state (a Set, not a settings map) — a reload comes back collapsed.
  *
- * Rails: __neural.lists, .listsArray(), ._listExpanded(id), ._focusIdxSet, ._dossierIdx,
+ * Rails: __neural.lists, .listsArray(), ._listExpanded(id), ._focusIdxSet,
  *        .addToList, .removeListItem
  * Handles: [data-list-open] (the toggle), [data-list-items], [data-list-item],
  *          [data-list-item-remove], [data-list-empty], [data-list-count], [data-list-chevron]
@@ -246,14 +246,11 @@ test("clicking a listed technique opens its dossier — the same move as a share
     "a listed technique",
   );
   // v1.132.0: opening a technique NAVIGATES — the exchange stages on it and the card arrives
-  // with the landing (~0.6s sim), so the read pumps the clock first. `_dossierIdx` stays null
-  // because nothing separate was "opened"; the game's own card is the surface.
+  // with the landing (~0.6s sim), so the read pumps the clock first. The game's own card is the surface. (v1.255.1: the
+  // `_dossierIdx` read that stood here went with the dossier, §6.8: it was null by construction, and there is no separate
+  // surface left to open.)
   await j.advance(1500);
   await j.landQuestion();
-  expect(
-    await page.evaluate(() => (window as any).__neural._dossierIdx ?? null),
-    "no separate dossier surface is opened",
-  ).toBeNull();
   expect(
     await page.evaluate(() => {
       const a = (window as any).__neural;

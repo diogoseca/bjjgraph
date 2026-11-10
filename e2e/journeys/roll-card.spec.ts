@@ -327,6 +327,7 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
     const sh = a.dossierSheetRef && a.dossierSheetRef.current
     const body = a._readerEl
     const add = document.querySelector("[data-seat-star]")
+    // v1.255.1: both retired surfaces are deleted outright (§6.8), so "never shown" became "absent": the refs are gone.
     return {
       nodeCard: nc ? nc.style.display : null,
       sheet: sh ? sh.style.display : null,
@@ -336,8 +337,8 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
       zoom: a.cam.vw / a.graphW,
     }
   })
-  expect(st.nodeCard, "the in-node container is gone for good").toBe("none")
-  expect(st.sheet, "and no node-dossier reading sheet opens").not.toBe("block")
+  expect(st.nodeCard, "the in-node container is gone for good").toBeNull()
+  expect(st.sheet, "and there is no node-dossier reading sheet to open").toBeNull()
   expect(st.card, "the game card is what opens").toBe(true)
   expect(st.unfolded, "the full article is already present").toBe(true)
   expect(st.capture, "and the seat star captures the TECHNIQUE, not its origin position").toBe(tech.id)
@@ -363,7 +364,7 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
     const body = a._readerEl
     return { sheet: sh ? sh.style.display : null, card: !!a._landEl, unfolded: !!body }
   })
-  expect(self.sheet, "no sheet for the node you are standing on").not.toBe("block")
+  expect(self.sheet, "no sheet for the node you are standing on").toBeNull()
   expect(self.card, "a dismissed card is rebuilt, not replaced").toBe(true)
   expect(self.unfolded, "the article survives rebuilding the question").toBe(true)
 })

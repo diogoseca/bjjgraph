@@ -37,15 +37,13 @@ type W = Window & { __neural: any }
  * M5 SURVIVES AND IS NOT A HOLE. `_recallLive` refuses a torn-down block by two independent
  * clauses, and for the only REACHABLE surface the other one gets there first: `_landHidden()`
  * leads with `!this._landEl`, so a cleared landing card is already refused without consulting
- * `isConnected`. The liveness clause earns its keep only on `_recallBlock`'s other caller,
- * `_renderNodeQuestion`, which §6.8 records as unreachable (re-derived while writing this:
- * `_dossierIdx` is assigned null at four sites and a node index at none). Journey 4 therefore
+ * `isConnected`. The liveness clause earned its keep only on `_recallBlock`'s other caller,
+ * `_renderNodeQuestion`, which was unreachable and is retired with the dossier (v1.255.1). Journey 4 therefore
  * pins the BEHAVIOUR — Space never moves a block that has left the screen — without being able
  * to say which clause delivered it. Do not cite it for `isConnected`.
  *
  * NON-KILLS, recorded so nobody reads this file as covering them (§6.3):
- *   · the `"node"` surface. `_recallBlock`'s other caller renders the same block from the same
- *     code, but no journey here drives it, so this file is evidence about `"land"` only.
+ *   · the `"node"` surface: its caller is retired (v1.255.1), so this file is evidence about `"land"` only.
  *   · Space's `!this._detailCtx` gate is UNCHANGED and deliberately so — see the app comment.
  *     Nothing here fails if that gate is relaxed; there is simply no reachable recall block
  *     behind an open option sheet on this build to relax it for.
