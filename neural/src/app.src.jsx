@@ -47,6 +47,16 @@ const NG_LIVE_ANSWER_ROOM = 514;
 // The chosen card's lift (`_placeOnTable`): a twelfth of its own height (12px on the 144px card),
 // over NG_CARD_LIFT_MS: rise, set down, settle.
 const NG_CARD_LIFT = 1 / 12, NG_CARD_LIFT_MS = 440;
+// HIDDEN MOVES (v1.255.0, owner U115-U116). A hover turns a hidden card face up, and counts as a
+// peek, only after NG_PEEK_DWELL_MS on that card. NG_HIDE_HINT says where "reveal" is offered:
+// "badge" turns the Suggested badge into "Hover to reveal" / "Tap to reveal" while its card is
+// down; "header" writes a hint beside "Your move" instead (the owner chooses from screens of both).
+// NG_HIDE_GRADE_NO puts a No beside EVERY "Did you get it?" — off: he wrote Yes only for a move you
+// do not know yet; the No lives on a known move that is due ("Still got it?", HIDE1A, `_peek`).
+// NG_GRADE_ARM_MS (review R3): the strip's buttons answer only a press that BEGAN this long after the strip
+// appeared — it appears where the pointer already is (after the dwell, or under the revealing tap), so an earlier
+// press was aimed at the card, not at a button the player had not seen yet.
+const NG_PEEK_DWELL_MS = 250, NG_HIDE_HINT = "badge", NG_HIDE_GRADE_NO = false, NG_GRADE_ARM_MS = 500;
 // The videos row's fade, in units of the ONE token it is sized from: the card's side padding, measured
 // by `_dockLandFilm` (the end padding is 1 of the same unit). helmet.html `.ng-landfilm`.
 const NG_FILM_FADE_RATIO = 3;
@@ -3903,6 +3913,8 @@ class Component extends DCLogic {
   }
   _hydrateProgressBlob(p) {
     if (p !== null) ngProgressValidateBlob(p);
+    // a pull or another tab can flip `hideMoves` under a dealt hand (review R9): the row and the map re-sync below
+    const hideWas = this._optionCards && this._optionCards.length ? this._hideMoves() : null;
     p = p === null ? { v: 2 } : JSON.parse(JSON.stringify(p));
     this._progressExtras = Object.assign({}, p);
     this._progressAt = p.updatedAt || 0;
@@ -3920,6 +3932,8 @@ class Component extends DCLogic {
       // per-card review schedule (v1.105.0): {deckKey: {qhash: [due, ivl, last]}} in epoch DAYS.
       // Rides the v2 blob without a version bump (the `lists` precedent); absent on old blobs.
       this.srs = Object.assign({}, p.srs || {});
+      // the moves you recalled from each state (v1.255.0, `_gradeMove`); absent on older blobs
+      this.moves = Object.assign({}, p.moves || {});
       this.stage = Object.assign({}, p.stage || {});
       this.units = Object.assign({}, p.units || {});
       this.belts = Object.assign({ won: {} }, p.belts || {});
@@ -3950,6 +3964,7 @@ class Component extends DCLogic {
       this.cardsToday = this._days[this._dayKey()] || 0;
     this._publishKnowledge("progress-load");
     this._syncDangerAnimation(); // live cloud/other-tab receipt; staged merge has no pressure
+    if (hideWas != null && hideWas !== this._hideMoves()) this._syncHideMoves();
   }
   /** last-30-keys trim, shared by `days` and `dayLog` */
   _trimDays(m) { const out = {}; for (const k of Object.keys(m).sort().slice(-30)) out[k] = m[k]; return out; }
@@ -3961,7 +3976,11 @@ class Component extends DCLogic {
     this._progressAt = Date.now();
     // `flow` and `explored` ride the EXISTING v2 blob, the way `lists` and `srs` did — a roll
     // ledger is not worth a schema migration, and `neural` is free-form JSONB on the cloud side.
-    return { ...(this._progressExtras || {}), v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, dayLog: this._trimDays(this.dayLog || {}), rollDays: this._trimDays(this._rollDays || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, flow: this._trimFlow(this.flow || {}), explored: [...(this._exploredKeys || [])], days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    const out = { ...(this._progressExtras || {}), v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, dayLog: this._trimDays(this.dayLog || {}), rollDays: this._trimDays(this._rollDays || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, flow: this._trimFlow(this.flow || {}), explored: [...(this._exploredKeys || [])], days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    // `moves` (v1.255.0) is written only once it holds a cell (review R4): an account that never graded a move
+    // saves exactly the blob v1.254.0 saves, and an open older tab is never handed a `moves` copy to push back.
+    if (Object.values(this.moves || {}).some(row => row && Object.keys(row).length)) out.moves = this.moves; else delete out.moves;
+    return out;
   }
   _saveProgress() {
     clearTimeout(this._saveT);
@@ -3981,7 +4000,7 @@ class Component extends DCLogic {
     const saved = this._progressHost.persist(this, this._progressBlob());
     if (saved.status === "saved" && this._pushCloud) this._pushCloud();
   }
-  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; (this._settingsAt = this._settingsAt || {})[k] = Date.now(); this._saveProgress(); if (k === "masteryGold") this._rebuildMapPaint(); if (k === "dangerAnimation") this._syncDangerAnimation(); }
+  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; (this._settingsAt = this._settingsAt || {})[k] = Date.now(); this._saveProgress(); if (k === "masteryGold") this._rebuildMapPaint(); if (k === "dangerAnimation") this._syncDangerAnimation(); if (k === "hideMoves") { this._hideVia = this._hideViaNext || "settings"; this._hideViaNext = null; this._syncHideMoves(); } }
   // deferred-payload hooks: refresh whatever is open when the heavy files land post-boot
   onFlashcardsReady() {
     try {
@@ -6612,6 +6631,10 @@ class Component extends DCLogic {
               l[qh] = w;
             }
           }
+          // `moves` merges by the same recency rule, cell by cell, carrying the winner's answer
+          // (progress-owner.src.js). A device on an older build keeps the field whole in its
+          // extras and can push a stale copy; the next pull here heals it cell by cell.
+          this.moves = ngProgressMergeMoves(this.moves || {}, cloud.moves || {}, today);
         }
         // dayLog merge (v1.105.7): per-day, union of technique keys, latest score snapshot
         {
@@ -13345,7 +13368,7 @@ class Component extends DCLogic {
       }
       if (label) label.textContent = view.immediateLabel === "Finish" ? "Submit" : view.immediateLabel;
       const execute = oc.card.querySelector("[data-choice-execute]");
-      if (execute) oc.card.querySelectorAll("[data-choice-execute]").forEach(button => button.setAttribute("aria-label", this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + (view.immediateText || view.immediateLabel + " chance " + view.immediate) + "."));
+      if (execute) oc.card.querySelectorAll("[data-choice-execute]").forEach(button => { button.setAttribute("aria-label", button._ngFull = this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + (view.immediateText || view.immediateLabel + " chance " + view.immediate) + "."); if (oc.card.hasAttribute?.("data-hide")) this._hideAria(oc.card); });
       const best = oc.card.querySelector("[data-choice-recommended]");
       if (best) best.textContent = view.recommended ? (view.recommendationLabel || "Recommended") : "";
     }
@@ -13448,6 +13471,7 @@ class Component extends DCLogic {
     // ...and its own overflow: `startExecution` lets the stand-in's lift out of the row (v1.220.0)
     el.style.overflowX = "auto"; el.style.overflowY = "hidden";
     this._handEscape = !!escape;
+    this._hmLit = new Set(); this._hmPeeks = new Set(); this._hmAt = this.currentPos;
     this._choiceHandId = "hand-" + (this._choiceHandSerial = (this._choiceHandSerial || 0) + 1);
     const add = (label, list, threat) => {
       if (!list.length) return;
@@ -13476,6 +13500,7 @@ class Component extends DCLogic {
         retry.style.cssText = sort.style.cssText;
         retry.onclick = (e) => { e.stopPropagation(); this._retryGameValues(); };
         title.appendChild(retry);
+        this._hideEye(title);
       }
       const row = document.createElement("div");
       row.style.cssText = "display:flex;gap:9px;align-items:stretch;";
@@ -13767,7 +13792,7 @@ class Component extends DCLogic {
     card.dataset.choiceFront = "suppressed";
     if (isThreat) card.setAttribute("data-opponent-threat", "1");
     const value = isThreat ? null : this.choiceValueShown(opt), target = this._choiceMediaTarget(opt);
-    card._choiceOpt = opt; card._choiceTarget = target;
+    card._choiceOpt = opt; card._choiceTarget = target; card._place = num;
     const chance = isThreat ? this.choiceChance(opt) : null;
     const immediateLabel = opt.action === "escape" ? "Escape" : opt.action === "finish" ? "Submit" : n.ty === "submissions" ? "Works" : "Move";
     const execute = isThreat ? 'div' : 'button';
@@ -13777,9 +13802,209 @@ class Component extends DCLogic {
       + '<span class="ngcv-card" data-choice-value data-status="' + (value?.status || 'pending') + '">' + (value ? this.choiceStatsHTML(value) : '<span class="ng-choice-stat"><span><span data-immediate-label>' + immediateLabel + '</span> %</span><strong class="ngodds">' + (chance == null ? '—' : Math.round(chance * 100)) + '</strong></span><span class="ng-choice-stat"><span>Win %</span><strong data-threat-win>—</strong></span>') + '</span></' + execute + '>'
       + '<span class="ng-choice-badge" data-choice-recommended></span>'
       + '<div class="ngbar"></div>';
-    card.addEventListener("click", () => this.activateOption(opt, onPick, card));
+    // A mastered move wears thin gold in every row, hidden or not (owner, U116).
+    if (this._moveMastered(opt)) card.setAttribute("data-mastered", "");
+    if (this._hideMoves()) this._hideCard(card);
+    // A HIDDEN CARD'S FIRST TOUCH REVEALS, ITS SECOND PLAYS. The gate sits HERE, in front of
+    // activateOption, so keys 1-9 (which call activateOption directly) still play blind and the
+    // reader's beginPlay wrapper never sees a reveal as a play. Read at click time: the setting
+    // can be switched on under a dealt hand (`_syncHideMoves`).
+    card.addEventListener("click", (e) => { if (card.hasAttribute("data-hide") && this._hideTap(card, e)) return; this.activateOption(opt, onPick, card); });
     (this._optionCards = this._optionCards || []).push({ node: n, card, bar: card.querySelector(".ngbar"), opt, num, esc: isEsc });
     return card;
+  }
+  // ═══ HIDDEN MOVES (v1.255.0, owner U115 b + U116, 10 Nov) ═══
+  // "Hide moves until I look" (Rolling settings, off by default) hides each dealt card's NAME and
+  // FILM — Works % and Win % stay (U115 b) — and the map's names of the dealt moves until a card is
+  // face up. Hover a card (NG_PEEK_DWELL_MS) or tap it to turn it face up; the eye beside "Your move"
+  // switches the whole mode from the row (U121); keys 1-9 still play blind. Face up, it asks "Did you get it?", and a Yes
+  // files the move in `moves` as MASTERED (`_gradeMove`).
+  // HIDING IS CSS ON AN ATTRIBUTE, NEVER A REBUILT FACE: every reader of this card — the docks,
+  // fitChoiceTitles, the value painter, `_gameValuePlayable`, the specs' text — sees the same DOM
+  // as an open card, and the back is pointer-events:none, so the face below still takes the hit.
+  // The card's own `textContent` therefore still holds the name: a spec proves hiddenness with
+  // computed visibility or elementFromPoint, never with text.
+  _hideMoves() { return this.get("hideMoves", false) === true; }
+  _hideCard(card) {
+    card.setAttribute("data-hide", NG_HIDE_HINT);
+    this._hideAria(card);
+    if (card._hm) return;
+    card._hm = 1;
+    const back = document.createElement("div");
+    back.className = "ng-choice-back"; back.setAttribute("aria-hidden", "true");
+    back.innerHTML = this.choiceShape(card._choiceOpt.node);
+    card.appendChild(back);
+    card.addEventListener("pointerdown", e => { card._pt = e.pointerType; });
+    // The card stands out at once; it turns face up only after the dwell, so a pointer sweeping
+    // across the row to card 5 does not peek at cards 1 to 4.
+    card.addEventListener("pointerenter", e => {
+      if (e.pointerType !== "mouse" || !card.hasAttribute("data-hide")) return;
+      card.setAttribute("data-hover", "");
+      clearTimeout(card._dwell);
+      card._dwell = setTimeout(() => this._peek(card, true), NG_PEEK_DWELL_MS);
+    });
+    card.addEventListener("pointerleave", e => {
+      if (e.pointerType !== "mouse") return;
+      clearTimeout(card._dwell);
+      card.removeAttribute("data-hover");
+      this._peek(card, false);
+    });
+  }
+  _unhideCard(card) {
+    clearTimeout(card._dwell);
+    for (const a of ["data-hide", "data-revealed", "data-hover", "data-asking"]) card.removeAttribute(a);
+  }
+  // "Hidden move N" until the card is face up; the painter's full label after (`_ngFull`).
+  _hideAria(card) {
+    const b = card.querySelector("[data-choice-execute]"); if (!b) return;
+    const down = card.hasAttribute("data-hide") && !card.hasAttribute("data-revealed");
+    // the number is the card's PLACE in its row (review R8): the printed digit stops at 9, and is absent with numbers off.
+    // Built but not yet mounted (buildOptionCard), the place is the dealt one it was built with; the painter re-reads it.
+    const row = card.parentElement, place = row ? [...row.children].indexOf(card) + 1 : card._place;
+    b.setAttribute("aria-label", down ? "Hidden move " + (place || "") : b._ngFull || this.choiceLabel(card._choiceOpt));
+  }
+  // Touch or pen on a face-down card: turn it up (closing the one turned up before) and consume
+  // the tap. A face-up card falls through and plays; a threat has nothing to play, so it toggles.
+  // ENTER OR SPACE ON A FOCUSED CARD (a click with no pointer: detail 0) HAS ONE RULE, whatever pointer
+  // pressed last (review R7): face down, it turns up; face up, it plays. A mouse click plays (the hover
+  // already turned it up); keys 1-9 never come here and still play blind.
+  _hideTap(card, e) {
+    const key = e.detail === 0;
+    if (!key && card._pt === "mouse") return false;
+    if (card.hasAttribute("data-revealed")) {
+      if (key || !card._choiceOpt.threat) return false;
+      this._peek(card, false, true); return true;
+    }
+    for (const c of this._optionCards || []) if (c.card !== card) this._peek(c.card, false, true);
+    this._peek(card, true);
+    e.stopPropagation();
+    return true;
+  }
+  // Face up or down. `force` closes a touch-revealed card (no pointerleave ever comes for it).
+  _peek(card, on, force) {
+    const opt = card._choiceOpt, lit = this._hmLit || (this._hmLit = new Set());
+    if (!on) {
+      card.removeAttribute("data-asking");
+      if (!force && card._pt && card._pt !== "mouse") return;
+      card.removeAttribute("data-revealed");
+      lit.delete(opt.idx); lit.delete(opt.res);
+      this._hideAria(card);
+      return;
+    }
+    if (!card.hasAttribute("data-hide")) return;
+    card.setAttribute("data-revealed", "");
+    lit.add(opt.idx); if (opt.res != null) lit.add(opt.res);
+    this._hideAria(card);
+    // A PEEK IS A TOUCH. The hand sorts itself once when its win chances land, unless touched; a
+    // hover is not one of the latch's events, and with every card face down the reorder is
+    // invisible — a blind `3` would then play a different move from the one peeked at as 3.
+    this._handTouched = true;
+    (this._hmPeeks || (this._hmPeeks = new Set())).add(opt);
+    // WHAT A FACE-UP CARD ASKS (owner U116, HIDE1A: "breaks … when he answers again No, similar to
+    // Anki"; "what matters most is the last time he answered it"):
+    //   a move you do not know yet     "Did you get it?"  Yes      (a peek without a Yes records nothing)
+    //   a move you know, and it is DUE "Still got it?"    Yes / No (No takes its gold away and reschedules it)
+    //   a move you know, not due       nothing
+    const row = this._moveRow(opt), known = !!(row && row[3] === 1);
+    const due = known && row[0] <= this._epochDay() && row[2] < this._epochDay();
+    if ((known && !due) || !this._moveKey(opt)) return;
+    let strip = card.querySelector("[data-choice-grade]");
+    if (!strip) {
+      strip = document.createElement("div");
+      strip.className = "ng-choice-grade"; strip.setAttribute("data-choice-grade", "");
+      // The strip is pointer-events:none, so a press on its text reaches the card as any press on the card
+      // does; only its buttons take input. A button answers a press that BEGAN once it was armed
+      // (NG_GRADE_ARM_MS after the strip appeared, review R3); an earlier press does nothing at all — no
+      // grade and no play — because it was aimed before the button was there to be seen.
+      strip.addEventListener("pointerdown", ev => { ev.stopPropagation(); strip._press = performance.now() >= strip._armAt; });
+      strip.addEventListener("click", ev => {
+        ev.stopPropagation();
+        const b = ev.target.closest("[data-grade]"), armed = ev.detail === 0 ? performance.now() >= strip._armAt : strip._press === true;
+        strip._press = null;
+        if (!b || !armed) return;
+        card.removeAttribute("data-asking");
+        this._gradeMove(opt, b.dataset.grade === "yes", card);
+      });
+      card.appendChild(strip);
+    }
+    if (!card.hasAttribute("data-asking")) strip._armAt = performance.now() + NG_GRADE_ARM_MS;
+    strip.innerHTML = '<span>' + (due ? "Still got it?" : "Did you get it?") + '</span><button type="button" data-grade="yes">Yes</button>' + (due || NG_HIDE_GRADE_NO ? '<button type="button" data-grade="no">No</button>' : "");
+    card.setAttribute("data-asking", "");
+  }
+  // THE EYE (owner U121, 10 Nov: "We don't say 'show all', but still show the icon"). Beside "Your move" on every
+  // dealt row, it switches hidden moves on and off from the row itself: the same `hideMoves` the Settings switch
+  // writes, in place under the dealt hand (`set` -> `_syncHideMoves`). Plain while the moves show; slashed and gold
+  // while they are hidden. A press is not a peek: it turns no card up and records nothing. Its own pointerdown stop
+  // keeps the press out of the map's input (attachInput, §6.1). Its 44px target rides negative margins, so the
+  // title's 24px line does not grow and "Your move" does not move. No transition, so reduced motion has nothing to
+  // remove. ("Show all" and its this-turn reveal, U115's first build, are gone with this: the eye is the one way.)
+  _hideEye(title) {
+    const eye = document.createElement("button");
+    eye.type = "button"; eye.className = "ng-hide-eye"; eye.setAttribute("data-hide-eye", "");
+    eye.setAttribute("aria-label", "Hide moves until I look"); eye.title = "Hide moves until I look";
+    eye.addEventListener("pointerdown", e => e.stopPropagation());
+    eye.onclick = e => { e.stopPropagation(); this._hideViaNext = "row"; this.set("hideMoves", !this._hideMoves()); };
+    title.insertBefore(eye, title.firstChild.nextSibling);
+    this._paintEye(title);
+  }
+  // the eye's state, and the header hint's (NG_HIDE_HINT = "header", not shipped)
+  _paintEye(title) {
+    const eye = title && title.querySelector("[data-hide-eye]"); if (!eye) return;
+    const on = this._hideMoves();
+    eye.setAttribute("aria-pressed", String(on));
+    eye.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>' + (on ? '<path d="M3 3l18 18"/>' : '') + '</svg>';
+    title.querySelector("[data-hide-hint]")?.remove();
+    if (on && NG_HIDE_HINT === "header") {
+      const hint = document.createElement("span");
+      hint.className = "ng-hide-hint"; hint.setAttribute("data-hide-hint", "");
+      hint.textContent = (window.matchMedia?.("(hover: none)").matches ? "Tap" : "Hover") + " a card to reveal it";
+      title.appendChild(hint);
+    }
+  }
+  // the setting switched under a dealt hand (the eye, Settings, a pull): hide or show the row in place, no redeal.
+  // The face-up set starts over: a card left face up before the switch must not leave its orb named after it.
+  _syncHideMoves() {
+    const on = this._hideMoves();
+    this._hmLit = new Set();
+    for (const c of this._optionCards || []) on ? this._hideCard(c.card) : (this._unhideCard(c.card), this._hideAria(c.card));
+    this._paintEye(this.optionsRef.current?.querySelector('[data-choice-group="you"] > div'));
+  }
+  // ── THE `moves` RECORD (v1.255.0, owner U116) ──────────────────────────────────────────────
+  // moves[state][move] = [due, ivl, last, ok]: the schedule row `srs` keeps (ngKnowledgeScheduleRow),
+  // plus the LAST answer. ok = 1 is MASTERED and stays mastered whatever its due date — "what
+  // matters most is the last time he answered it" — while the schedule is still written so Phase 2
+  // can bring the move back for review.
+  //   state = "<site ordinal>/<role>": the state the hand was dealt at, by its permanent share
+  //           ordinal (node_ordinals.json), never an index or a name; a threat is the OPPONENT's
+  //           move from here, so it files under the opponent's role — the same fact.
+  //   move  = the technique's site ordinal; an escape is "e" + qhash(label), because two escapes
+  //           of one submission can share a destination and differ only by name.
+  // A SEPARATE FIELD, NEVER `stage` OR `srs`: deckMastery's unhydrated branch sums every graded
+  // hash in stage[deck] over the manifest's count (a synthetic hash inflates mastery), and
+  // practiceToday / duePool count every srs cell while the planner binds rows to manifest cards
+  // (a due "move" row would open nothing, CLAUDE.md §6.6). It changes no score in this phase.
+  _moveKey(opt) {
+    const at = this.nodes[this._hmAt != null ? this._hmAt : this.currentPos], node = this.nodes[opt.idx];
+    const ord = n => n && this._ordById ? this._ordById.get(this.siteIdOf(n.id)) : undefined;
+    const so = ord(at), mo = opt.action === "escape" ? "e" + this.qhash(opt.label) : ord(node);
+    if (so == null || mo == null) {
+      // a dealt move with no share ordinal cannot be filed: say so once, never file it by name
+      if (!this._moveKeyBeat) { this._moveKeyBeat = 1; this.fx("moves_key_missing", { state: at && at.id, move: node && node.id }); }
+      return null;
+    }
+    const role = opt.threat ? (this.playerRole === "top" ? "bottom" : "top") : this.playerRole;
+    return [so + "/" + role, String(mo)];
+  }
+  _moveRow(opt) { const k = this._moveKey(opt); return k && this.moves && this.moves[k[0]] ? this.moves[k[0]][k[1]] : null; }
+  _moveMastered(opt) { const r = this._moveRow(opt); return !!(r && r[3] === 1); }
+  _gradeMove(opt, ok, card) {
+    const k = this._moveKey(opt); if (!k) return;
+    const m = (this.moves = this.moves || {}), row = (m[k[0]] = m[k[0]] || {});
+    const prior = row[k[1]];   // cells a later build added after the fourth ride along (review R5)
+    row[k[1]] = ngKnowledgeScheduleRow(prior, ok, this._epochDay()).concat(ok ? 1 : 0, prior && prior.length > 4 ? prior.slice(4) : []);
+    card.toggleAttribute("data-mastered", ok);
+    this.track("neural_move_recalled", { technique: opt.node.t, got: ok, threat: !!opt.threat, escape: opt.action === "escape", via: this._hideVia || "saved" });
+    this._saveProgress();
   }
   // repaint ONE dealt card's EDGE channel in place — corner number, glyph and clock bar, all three
   // from the same `edgeMark`, so they cannot drift apart between a deal and a refresh.
@@ -16749,6 +16974,11 @@ class Component extends DCLogic {
     const target = this.nodes[st.idx];
     const oc = this._optionCards.find((c) => c.opt && (c.opt.idx === st.idx || (target && target.pairId && c.node && c.node.pairId === target.pairId)));
     if (!oc || !oc.card) return;
+    if (oc.card.hasAttribute("data-hide")) {
+      oc.card.setAttribute("data-revealed", "");
+      (this._hmLit || (this._hmLit = new Set())).add(oc.opt.idx);
+      this._hideAria(oc.card);
+    }
     oc.card.style.borderColor = "rgba(126,160,255,.65)";
     oc.card.style.boxShadow = "0 0 0 1px rgba(126,160,255,.35), 0 6px 22px rgba(74,108,255,.18)";
     const eyebrow = oc.card.querySelector("[data-cat]");
@@ -17910,12 +18140,17 @@ class Component extends DCLogic {
       // Keep that dock and its preview reservation through teardown and flight;
       // otherwise clearLandCard moves the stand-in, then reader layout moves it again.
       card._ngDock = { bottom: parseFloat(cs.bottom), w: window.innerWidth, h: window.innerHeight };
-      const x = shown.card.getBoundingClientRect().left - row.getBoundingClientRect().left - padL;
+      // the card's LAYOUT left: a hidden card hovered to its pick stands out (scaled about its
+      // centre), and its scaled rect would seat the stand-in a few px left of the card you clicked
+      const cr = shown.card.getBoundingClientRect(), x = cr.left + (cr.width - shown.card.offsetWidth) / 2 - row.getBoundingClientRect().left - padL;
       card.style.marginLeft = "clamp(" + -Math.min(padL, padR) + "px, " + x + "px, calc(100% - " + shown.card.offsetWidth + "px + " + padR + "px))";
     }
     face.removeAttribute("data-tech");
     face.removeAttribute("data-choice-action");
     face.removeAttribute("tabindex");
+    // a blind pick (a number key) still shows the move it played: the stand-in is always face up
+    for (const a of ["data-hide", "data-revealed", "data-hover", "data-asking"]) face.removeAttribute(a);
+    face.querySelectorAll(".ng-choice-back, [data-choice-grade]").forEach(el => el.remove());
     card.setAttribute("data-executing-tech", this.choiceLabel(opt));
     card.setAttribute("role", "status");
     card.setAttribute("aria-live", "polite");
@@ -18052,7 +18287,8 @@ class Component extends DCLogic {
     // dedupes consecutive landings on the same state, so an attempt that fails and leaves you
     // exactly where you stood adds no row. Cleared by `_closeRoll` with the log it belongs to.
     this._rollActed = true;
-    this.track("neural_move_picked", { technique: act.t, node_type: act.ty });
+    // hidden moves: was this move played face down, and had the player looked at it first
+    this.track("neural_move_picked", { technique: act.t, node_type: act.ty, ...(this._hideMoves() ? { hidden: true, peeked: !!(this._hmPeeks && this._hmPeeks.has(opt)), via: this._hideVia || "saved" } : {}) });
     // `via` IS THE EDGE, AND A REPLAY CANNOT BE RECONSTRUCTED WITHOUT IT (v1.106.5). The roll log
     // records the STATES you passed through; a film of the roll has to show HOW — which technique
     // node the exchange travelled over. That fact exists only here, at the moment of the commit,
@@ -20685,11 +20921,21 @@ class Component extends DCLogic {
       }
       // persistent labels on the outgoing option nodes while a decision is open
       this._lastOptLabels = null; // published like _lastPairLabel: "what did THIS frame draw"
+      // HIDDEN MOVES: every dealt orb whose card is face down, with its pair partner. NO map label may name one —
+      // the always-on option labels, the roaming pair group and the single hover label all ask this set
+      // (review R2: the hover labels did not, so pointing at an orb named the move its card hides).
+      let hmDown = null;
+      if (this.optionIdxs && this.optionIdxs.length && this._hideMoves()) {
+        hmDown = new Set();
+        const lit = this._hmLit || new Set();
+        for (const i of this.optionIdxs) if (!lit.has(i)) { hmDown.add(i); const q = this.nodes[i]; if (q && q.pi >= 0) hmDown.add(q.pi); }
+      }
       if (this.optionIdxs && this.optionIdxs.length && !this.pulse) {
         this._lastOptLabels = [];
         ctx.textBaseline = "bottom"; ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
         for (const idx of this.optionIdxs) {
           const n = this.nodes[idx]; if (!n) continue;
+          if (hmDown && hmDown.has(idx)) continue;   // hidden moves: a face-down card's orb is not named
           // a staged exchange makes a dealt option THE FOCUS (v1.132.0) — the pair group already
           // names it, and an option label on the same orb is the "printed twice" defect the
           // in-node pass was deleted for. Never possible before: an option was never the focus.
@@ -20874,7 +21120,7 @@ class Component extends DCLogic {
       if (_hovNode && _hovNode.pi >= 0) {
         const inFocusPair = drawFocus >= 0 &&
           (_hovNode.idx === drawFocus || _hovNode.idx === this.nodes[drawFocus].pi);
-        if (!inFocusPair) _hovPairDrawn = pairGroup(_hovNode, _hovNode, false);
+        if (!inFocusPair && !(hmDown && hmDown.has(_hovNode.idx))) _hovPairDrawn = pairGroup(_hovNode, _hovNode, false);
       }
       // hover: nearest node label (brighter + "your move" tag if it's an outgoing option)
       // ...but NOT for a member of the focused pair: the label group above already names it, and
@@ -20882,7 +21128,8 @@ class Component extends DCLogic {
       // orb would be the "printed twice" problem the in-node pass had (v1.114.0), on hover.
       const _hovIsPairHalf = _hovNode && drawFocus >= 0 &&
         (_hovNode.idx === drawFocus || _hovNode.idx === this.nodes[drawFocus].pi);
-      if (_hovNode && !_hovIsPairHalf && !_hovPairDrawn) {
+      this._lastHoverLabel = null;   // published, like _lastPairLabel: the single hover label THIS frame drew
+      if (_hovNode && !_hovIsPairHalf && !_hovPairDrawn && !(hmDown && hmDown.has(_hovNode.idx))) {
         const n = _hovNode;
         const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         const isOpt = this.optionIdxs && this.optionIdxs.indexOf(n.idx) >= 0;
@@ -20920,6 +21167,7 @@ class Component extends DCLogic {
           ctx.fillText(this._fitText(ctx, qual, maxW), hx, hNameY + this.NG_LABEL_LEAD);
         }
         ctx.shadowBlur = 0;
+        this._lastHoverLabel = { idx: n.idx, main };
       }
     }
     this._syncSeatStars(seatStars);

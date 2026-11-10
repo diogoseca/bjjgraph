@@ -253,6 +253,21 @@ opponent handoff, round end, restaging and teardown clear card/announcer ownersh
 borrows the announcer. `tests/roll_execution.test.mjs` pins source behavior;
 `e2e/journeys/roll-execution.spec.ts` measures real input and painted clearance in a browser.
 
+### Hidden moves (v1.255.0, owner U115 b + U116)
+
+"Hide moves until I look" (Rolling settings, `hideMoves`, off by default) deals every card — yours,
+threats, escapes — with its **name and film face down**; Works % and Win % stay, and the map names
+no dealt move until its card is up. Hiding is CSS on `data-hide`: the card's DOM and text never change.
+A hover stands the card out at once (a transform, none under reduced motion) and turns it up after
+`NG_PEEK_DWELL_MS`; on touch the first tap turns it up and the second plays. The eye by "Your move"
+toggles it (U121); keys 1–9 play blind; the stand-in is always face up; a peek touches the hand. The film button
+animates on its own hover only. Face up, an unknown move asks "Did you get it?" (Yes only); a known
+move that is due asks "Still got it?" (Yes / No — No takes its gold away); a known move not due
+asks nothing. `moves[state][move] = [due, ivl, last, ok]` (state `<site ordinal>/<role>`,
+an escape `e` + qhash(label)) rides the blob beside `srs`, never inside `stage` or `srs`, and merges
+by `srs`'s rule (`ngProgressMergeMoves`). `ok = 1` is mastered — the last answer — and wears thin
+gold in every row; it moves no odds, score or map gold. Pinned by `e2e/journeys/hidden-moves.spec.ts`.
+
 ### The current node's media card
 
 `_landFilmEl` has a fixed title, role and **Win %** footer, no execute percentage, and one

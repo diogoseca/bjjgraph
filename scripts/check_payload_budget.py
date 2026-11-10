@@ -223,7 +223,8 @@ NEURAL_TARGET = {
     # back 4,466 B, and #354's two review rounds took 1,274 B of it. v1.254.0: 504_371, +119 B (the reader's free-space list names the
     # search icon; a reader button's pointer click counts only if its own pointerdown was on it). v1.254.1: 504_376, +5 B (Retry keeps the
     # address's #section). The ledger is budget_site.json's note.
-    "deferred_raw_bytes": 504_376,
+    # v1.255.0: 504_652, +276 B (hidden moves' settings row, settings-ui.js), on v1.254.1's 504_376.
+    "deferred_raw_bytes": 504_652,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one

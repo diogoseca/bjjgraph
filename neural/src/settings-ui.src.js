@@ -241,6 +241,14 @@ renderSettings() {
       gseg.appendChild(this.segBtn("No-gi", giCur === "nogi", false, () => { this.setGiMode("nogi"); this.renderSettings(); }));
       gv.appendChild(gseg);
       body.appendChild(gv);
+      // HIDDEN MOVES (v1.255.0, owner U115-U116): the dealt row's names and films stay face down
+      // until you look, and each look asks "Did you get it?". One boolean key, off by default
+      // (a settings key can never be deleted, CLAUDE.md §6.6).
+      const hm = this.settingRow("Hide moves until I look", "Your moves and their threats are dealt face down: hover or tap a card to see it, then say if you got it.",
+        [["On", true], ["Off", false]], "hideMoves", false);
+      hm.setAttribute("data-settings-hide-moves", "1");
+      hm.style.cssText = sectionStyle;
+      body.appendChild(hm);
       // "WINNING vs NOT LOSING" (v1.124.0) IS RETIRED (v1.207.0, owner, 2026-09-29). The full game's card
       // number is pure Win chance and the hand sorts once by it, so the dial only reordered the ~5 s
       // before values arrived and nudged the opponent's tie-breaks. The stored `lossAversion` key is
