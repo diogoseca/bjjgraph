@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.255.0** — [Hidden moves: the row face down until you look, and the moves you recall](#v12550--hidden-moves-the-row-face-down-until-you-look-and-the-moves-you-recall-owner-u115-b-u116-hide1a-2026-11-10)
 - **v1.248.0** — [Practice in the Challenges look](#v12480--practice-in-the-challenges-look)
 - **v1.247.1** — [The deploy's curated gate: a keyed loader and an unpainted label](#v12471--the-deploys-curated-gate-a-keyed-loader-and-an-unpainted-label)
 - **v1.247.0** — [Exact clips for submission escapes](#v12470--exact-clips-for-submission-escapes)
@@ -14887,3 +14888,72 @@ Then the merge with #353 and the app-only reseed on the merged tree.
   - the hang is measured after the pass's game height, and 768 is pinned;
   - Next under the fold at 1440x520–560 beside the index is recorded: fewer than 92px of the face are in view there.
 - **Bytes:** deferred 504,252 B (+489 B); 2,865 B of the approval unused.
+
+## v1.255.0 — Hidden moves: the row face down until you look, and the moves you recall (owner U115 b, U116, HIDE1A, 2026-11-10)
+
+The owner, 9 November: "maybe there could also be an obfuscate feature for the moves! like they're obfuscated unless the
+user hovers it … that would be wonderful for training, and memorizing which moves are available from which state", then
+"it's sort of like flashcards … did you guess it? yes! / no!". Phase 0 built four variants on a private build (card back,
+name and film only, hover/tap reveal, per-card and per-state grade); he chose from the screens on 10 November:
+**U115 b** (hide the name and the film, keep the numbers; "Hover to reveal" where Suggested sits; the hovered card stands
+out; the film button animates on its own), **U116** ("Did you get it?" with a Yes; a Yes makes the move mastered and
+gold; "what matters most is the last time he answered it"), and HIDE1A (a known move that is due asks "Still got it?"
+Yes / No; a No takes the gold away, as in Anki). U117 (Path, Practice and mastery ranked by the choices row) is Phase 2.
+
+**What Phase 0 found that the plan had missed:** the map names every dealt move beside its orb, so hiding the cards alone
+hides nothing (the label pass now skips a face-down card's move); the grades cannot ride `stage` (deckMastery's
+unhydrated branch sums every graded hash over the manifest count) or `srs` (practiceToday and duePool count every cell,
+and the planner binds rows to manifest cards), hence the separate `moves` field; and a hover is not a hand touch, so a
+face-down hand could auto-sort under a peek and a blind `3` would then play another move (a peek now sets
+`_handTouched`).
+
+**The record.** `moves[state][move] = [due, ivl, last, ok]`; state `"<site ordinal>/<role>"`, move the technique's site
+ordinal or `"e" + qhash(label)` for an escape. Merge (`ngKnowledgeMergeMoves`): the later `last` wins, a same-day tie
+goes to the smaller interval (a same-day No beats a same-day Yes), a winner past rung 0 keeps the longer interval it beat,
+the winner's `ok` rides with it, ingested `last` clamped to today. A device on an older build keeps the field whole in its
+extras and can push a stale copy; the next pull on a current build heals it cell by cell.
+
+**Bytes**, measured by building dev's own five source files and this branch's, same tree: eager gzip +2,491 B
+(neural.js +1,868, neural.css +623), +2,947 B since the accepted baseline 348,688 (2,053 B of the 5,000 cap left);
+deferred raw +276 B (settings-ui.js, the Rolling row) to exactly 504,528 B, 2,589 B of the owner's 507,117 approval unused.
+Phase 0 estimated 1.2–1.6 KB eager; the difference is the hover standout, the film button's animation, the gold, the
+due/known logic, the live switch and "Show all".
+
+**Mutants.** Each was applied alone, the bundle rebuilt, and the ONE test named for its claim run (`-g`); all 28 killed
+with that claim's own message.
+
+| mutant | killed by (hidden-moves.spec.ts unless named) |
+|---|---|
+| the name's `visibility:hidden` deleted | on: name hidden, numbers shown, film covered |
+| no dwell (peek on enter) | hover: a sweep counts no peek |
+| `_hideTap` never consumes | touch: the first tap reveals, consumed |
+| the stand-in keeps `data-hide` | keys play blind: the stand-in is face up |
+| `moves` dropped from `_progressBlob` | Yes: after a reload the mastered move is gold again |
+| the map's label gate removed | on: the map names no dealt move while face down |
+| Show all still asks | Show all asks nothing |
+| "Hidden move N" never written | on: announced without its name |
+| a peek does not set `_handTouched` | hover: a peek touches the hand |
+| the staged card left face down | the staged card is face up |
+| an escape filed by destination | an escape files by its label |
+| No keeps the gold | what a face-up card asks: No takes the gold away |
+| No recorded as ok 1 | what a face-up card asks: No takes the gold away |
+| a due card offers no No | known and due: Still got it? Yes / No |
+| known-and-not-due asks | known and not due asks nothing |
+| an unknown card offers a No | hover: Yes only |
+| the gold border deleted | Yes: a thin GOLD outline |
+| the hover transform deleted | hover: it stands out by a transform |
+| the stand-in seated on the scaled rect | a mouse click on a face-up card: seated where the card was |
+| the touch Yes back to 26px | touch: Yes is a 44px target, edge to edge |
+| the touch strip's old padding (No clipped) | touch: Yes and No 44 x 44 inside the card |
+| "Tap to reveal" deleted | touch: the badge reads Tap to reveal |
+| the live switch not wired | off by default: the same card goes face down in place |
+| the film button scales with the card's hover | the film button does not move with the card's hover |
+| the film button's own hover deleted | hovering the button lifts the button |
+| reduced motion ignored | reduced motion: at its own size |
+| the merge tie flipped | tests/moves_record.test.mjs: same-day tie, clamp |
+| the merge drops `ok` | tests/moves_record.test.mjs: the later answer carries its ok |
+
+**Not covered:** the header-hint variant (`NG_HIDE_HINT = "header"`, built for the owner's screens, not shipped), the
+Yes / No on every card variant (`NG_HIDE_GRADE_NO`), and the PostHog properties (no PR shard is keyed). The eye toggle
+beside "Your move" (HIDE1A item 2) was built as a screen only and is not in this version
+(`reports/hidden-moves-eye-toggle.patch` in the orchestrator's folder).
