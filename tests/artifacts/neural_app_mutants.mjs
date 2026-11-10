@@ -327,6 +327,13 @@ const controls = [
   // v1.255.2: the Google button writes the sign-in intent its SIGNED_IN counts (tests/save_echo.test.mjs pins the counting rule).
   ['google-intent-unwritten', 'signin-intent.spec.ts', 'Continue with Google writes the sign-in intent',
     [['this._signinIntent("google",t),this.track("neural_signin_started"', 'this.track("neural_signin_started"']], 'the Google button writes the intent'],
+  // #360's review (E1, E5): Log in writes its intent too, and an attempt that fails in place removes it, either way.
+  ['email-intent-unwritten', 'signin-intent.spec.ts', 'Log in with an email writes the sign-in intent',
+    [['this._signinIntent("email",t),this.track("neural_signin_started"', 'this.track("neural_signin_started"']], 'Log in writes the intent'],
+  ['email-failure-keeps-intent', 'signin-intent.spec.ts', 'fails in place leaves no intent',
+    [['catch(p){this._signinAbandoned(),a(p&&p.message||"Sign-in failed', 'catch(p){a(p&&p.message||"Sign-in failed']], 'a failed attempt leaves no intent (email)'],
+  ['google-failure-keeps-intent', 'signin-intent.spec.ts', 'fails in place leaves no intent',
+    [['catch(f){this._signinAbandoned(),a(f&&f.message||"Google sign-in failed.', 'catch(f){a(f&&f.message||"Google sign-in failed.']], 'a failed attempt leaves no intent (Google)'],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')

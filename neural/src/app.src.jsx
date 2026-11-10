@@ -15,9 +15,9 @@ function ngAuthIsGuest(auth) {
 // rising above "Your options". true = variant B: the same hits plus a central bubble over the hand.
 // The owner chooses from the demo; both paths are the same seam (`_outcomeCause`).
 const NG_OUTCOME_BUBBLE = false;
-// v1.255.2: a sign-in this browser started (see _signinCompleted), and how long it may take to complete (Google's round trip, an email
-// confirmation): one localStorage key per browser, never per account, so it needs no owner.
-const NG_SIGNIN_INTENT_KEY = "bjj-neural-signin-intent", NG_SIGNIN_INTENT_MS = 30 * 60 * 1000;
+// v1.255.2: a sign-in this browser started (see _signinCompleted), and how long it may take to complete: 30 minutes for a log-in or
+// Google's round trip, 24 hours for a sign-up's email confirmation. One localStorage key per browser, never per account: no owner.
+const NG_SIGNIN_INTENT_KEY = "bjj-neural-signin-intent", NG_SIGNIN_INTENT_MS = 30 * 60 * 1000, NG_SIGNIN_CREATE_MS = 24 * 60 * 60 * 1000;
 // EVERY CARD ANSWERED IN ONE LANDING MOVES THIS EXCHANGE AGAIN, BY A SMALLER STEP (v1.221.0, owner
 // 2026-10-05: "answering more flashcards should increase/decrease choices proba further, it's not a 1
 // slot thing, but many"). Row k-1 is the k-th card RESOLVED in one landing (answered, or run out of
@@ -6487,6 +6487,9 @@ class Component extends DCLogic {
       if (user === null) { this._clearAuthUser(); return; }
       if (user && typeof user.id === "string" && user.id) {
         this._applyUser(user);
+        // #360's review (E2): the tab that returns from Google may subscribe after auth-js has fired its start-up SIGNED_IN, so a
+        // verified identity here spends an intent too. The intent is taken once, so it never counts twice.
+        this._signinCompleted();
         await this._pullAndMerge();
       }
     } catch (e) {
@@ -6504,16 +6507,26 @@ class Component extends DCLogic {
   _signinIntent(method, mode) {
     try { localStorage.setItem(NG_SIGNIN_INTENT_KEY, JSON.stringify({ method, mode, at: Date.now() })); } catch (e) { /* private mode */ }
   }
+  // #360's review: the read-and-remove runs under a Web Lock where the browser has one (E3: storage reaches another tab on its own
+  // path, so two tabs could both read the intent); `intent_at` rides the event so a double count can still be removed in analysis.
+  // The window is 24 hours for a sign-up, whose confirmation email may be opened much later, and 30 minutes otherwise (E4).
   _signinCompleted() {
-    let intent = null;
-    try {
-      intent = JSON.parse(localStorage.getItem(NG_SIGNIN_INTENT_KEY) || "null");
-      if (intent) localStorage.removeItem(NG_SIGNIN_INTENT_KEY);
-    } catch (e) { intent = null; }
-    const age = intent && Date.now() - intent.at;
-    if (!intent || !(age >= 0 && age < NG_SIGNIN_INTENT_MS)) return;
-    this.track("neural_signin_completed", { method: intent.method, mode: intent.mode });
+    const take = () => {
+      let intent = null;
+      try {
+        intent = JSON.parse(localStorage.getItem(NG_SIGNIN_INTENT_KEY) || "null");
+        if (intent) localStorage.removeItem(NG_SIGNIN_INTENT_KEY);
+      } catch (e) { intent = null; }
+      const age = intent && Date.now() - intent.at;
+      if (!intent || !(age >= 0 && age < (intent.mode === "create" ? NG_SIGNIN_CREATE_MS : NG_SIGNIN_INTENT_MS))) return;
+      this.track("neural_signin_completed", { method: intent.method, mode: intent.mode, intent_at: intent.at });
+    };
+    const locks = typeof navigator !== "undefined" && navigator.locks;
+    if (!locks || typeof locks.request !== "function") { take(); return; }
+    let ran = false;
+    Promise.resolve().then(() => locks.request(NG_SIGNIN_INTENT_KEY, () => { ran = true; take(); })).catch(() => { if (!ran) take(); });
   }
+  _signinAbandoned() { try { localStorage.removeItem(NG_SIGNIN_INTENT_KEY); } catch (e) { /* private mode */ } }
   _applyUser(u) {
     if (!u || typeof u.id !== "string" || !u.id || !this._progressCurrent()) return;
     const changed = this._progressHost.authenticate(this, u);
@@ -6737,12 +6750,15 @@ class Component extends DCLogic {
         if (!A.isAuthenticated()) return;
         // v1.255.2: NO ECHO. auth-js answers every tab return with SIGNED_IN, every SIGNED_IN pulls, and every pull saved and pushed
         // the merged blob back, changed or not (Supabase check, 2026-11-10: 18% or more of all saves). A blob equal, without its
-        // write stamp (ngProgressCloudKey), to the one this tab last pushed or pulled for this account is not sent. Only a push that
+        // write stamp (ngProgressCloudKey), to the one this tab last pushed or pulled for this account is not sent. The record is
+        // what the cloud held WHEN THIS TAB LAST LOOKED, not what it holds: another device may have written since, and then this
+        // tab's unchanged blob waits for its next pull or change (a conditional push is the real fix; #360's report). Never while a
+        // push is in flight: that push may carry what was since undone here (a list added, then removed). Only a push that
         // returned true and ran alone, start to finish, is remembered (`_pushSeq`, `_pushesInFlight`): two in flight could land at the
         // server in either order, so after an overlap (or a pull meanwhile) nothing is trusted and the next save pushes. A failed push
         // is remembered as nothing and, as before, forces a re-pull, which records what the cloud really holds.
         const snap = this._progressHost.cloudSnapshot(this), key = ngProgressCloudKey(snap), seen = this._cloudSeen;
-        if (seen && seen.userId === userId && seen.key === key) return;
+        if (!this._pushesInFlight && seen && seen.userId === userId && seen.key === key) return;
         const seq = this._pushSeq = (this._pushSeq || 0) + 1, solo = !this._pushesInFlight;
         this._pushesInFlight = (this._pushesInFlight || 0) + 1; this._pushEvents = (this._pushEvents || 0) + 1;
         let ok;
@@ -6979,6 +6995,7 @@ class Component extends DCLogic {
         this.closeModal(); // SIGNED_IN handler applies identity + pulls; sign-up may require email confirm
         if (mode === "create") this.showCenter && this.showCenter("Check your inbox", "Confirm your email to finish creating the account", "", "muted", true);
       } catch (e2) {
+        this._signinAbandoned();   // #360's review (E5): an attempt that failed in place never completes
         showErr((e2 && e2.message) || "Sign-in failed \u2014 check your details and try again.");
         cont.disabled = false; cont.textContent = label;
       }
@@ -6996,7 +7013,7 @@ class Component extends DCLogic {
       sb.addEventListener("click", async () => {
         if (!A) { showErr("Accounts aren\u2019t available right now \u2014 your progress is saved on this device."); return; }
         this._signinIntent("google", mode); this.track("neural_signin_started", { method: "google", mode: mode });
-        try { const result = await A.signInWithGoogle(); if (result && result.error) throw new Error(result.error); } catch (e2) { showErr((e2 && e2.message) || "Google sign-in failed."); } // PKCE redirect navigates away on success
+        try { const result = await A.signInWithGoogle(); if (result && result.error) throw new Error(result.error); } catch (e2) { this._signinAbandoned(); showErr((e2 && e2.message) || "Google sign-in failed."); } // PKCE redirect navigates away on success
       });
       b.appendChild(sb);
     }

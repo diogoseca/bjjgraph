@@ -4,21 +4,22 @@
 //   - a push is skipped only when the blob, without its write stamp, equals what the cloud last held for this account;
 //   - every kind of local change, a merge the cloud lacks, a failed push and an overlap still push;
 //   - `neural_signin_completed` counts the sign-ins this browser started, once.
-// Red-proof, run by hand on the source with each mutant applied and reverted (node --test tests/save_echo.test.mjs):
-//   no-echo-guard (the skip line removed) ........................ red: "a pull that brings back what this tab pushed sends nothing"
-//   key-drops-moves (`moves` left out of the key too) ............ red: "every kind of local change still pushes" (a move graded)
-//   key-content-blind (the key reads only `v`) ................... red: the key's own case, every change, the merge
-//   pull-records-merged (the pull records the merged blob) ....... red: "a merge the cloud lacks still pushes"
-//   overlap-trusted (`solo &&` removed) .......................... red: "after two pushes overlap, nothing is trusted"
-//   fail-remembered (recorded before the await, no re-pull) ...... red: "a failed push is never remembered as pushed"
-//   signin-every-event (count every SIGNED_IN, as before) ........ red: "a tab return counts no sign-in"
-//   intent-kept (the intent not removed) ......................... red: "a sign-in this browser started counts once"
-//   intent-ageless (the 30-minute bound removed) ................. red: "an intent older than 30 minutes counts nothing"
-//   pull-trusts-overlap (the pull records what it read regardless) red: both "a pull overlapping a push in flight" orders
-// EQUIVALENT, recorded: key-drops-settings (a setting also moves its `settingsAt` stamp, which the key keeps); either half of
-// the failed-push guard alone (`_cloudSeen` set only on success; a failure forces a re-pull)
-// is enough by itself, so a mutant of one half survives; `fail-remembered` breaks both. And the account check on `_cloudSeen`
-// (`seen.userId === userId`) is defence in depth: every account pulls before its first push, and the pull replaces the record.
+// Red-proof, run by hand on the source with each mutant applied and reverted (node --test tests/save_echo.test.mjs), each red at:
+//   no-echo-guard ............ the echo          skip-while-in-flight ..... a list added, then removed (S1)
+//   key-drops-moves .......... a move graded     key-content-blind ........ the key, every change, the merge
+//   sets-in-order ............ two devices, one set, two orders (S2)
+//   pull-records-merged ...... a merge the cloud lacks       overlap-trusted .......... two pushes overlap
+//   fail-remembered .......... a failed push (false and thrown)
+//   pull-trusts-overlap ...... a pull overlapping a push, P1's response first (the other order is ALSO caught by S1's rule)
+//   signin-every-event ....... a tab return      intent-kept .............. counts once, two tabs
+//   intent-ageless / create-window-30m ... the 30-minute and 24-hour windows (E4)
+//   no-intent-at ............. counts once (E3)  lock-bypassed ............ the Web Lock (E3)
+//   initauth-no-count ........ a verified identity at start-up (E2)
+// EQUIVALENT, recorded: key-drops-settings (a setting also moves its `settingsAt` stamp, which the key keeps); either half of the
+// failed-push guard alone (recorded only on success; a failure re-pulls); the account check on `_cloudSeen` and its clear in
+// `_invalidateCloudSync` (an instance never changes account: any owner change mounts a new one); the pull's `_pushSeq` bump (a
+// solo push records what its own write left in the cloud, which a pull meanwhile does not change; the pull itself records nothing
+// when a push overlaps it). The two sign-in buttons' writes and failed-attempt clears are pinned by e2e/journeys/signin-intent.spec.ts.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -48,7 +49,7 @@ function harness(mem = memory()) {
   } });
   const get = () => current;
   const switchTo = id => { identity = { id, email: id + '@example.invalid' }; get()._applyUser(identity); get()._applyUser(identity); return get(); };
-  return { mem, host, facade, get, switchTo, pushes, pulls, tracked, listeners, boot: () => host.bootstrap() };
+  return { mem, host, facade, get, switchTo, pushes, pulls, tracked, listeners, setIdentity: user => { identity = user; }, boot: () => host.bootstrap() };
 }
 async function fakeTimers(run) {
   const oldSet = globalThis.setTimeout, oldClear = globalThis.clearTimeout; let seq = 0; const q = new Map();
@@ -183,14 +184,48 @@ test('a pull overlapping a push in flight records nothing: the pull\'s response 
   for (const g of r.gates) g(); await r.p1; await flush();
 }));
 
-test('another account never compares against the previous one\'s blob', () => fakeTimers(async ({ flush }) => {
+test('another account starts with no record: the switch builds a new instance', () => fakeTimers(async ({ flush }) => {
+  // #360's review: an instance never changes account (`_applyUser` returns early on any owner change, and the host mounts a new
+  // instance), so the record cannot cross accounts. Clearing it in `_invalidateCloudSync` and the `seen.userId` check are defence
+  // in depth: their mutants are EQUIVALENT here, recorded in the header.
   const h = harness(); const a = await synced(h); await flush();
-  assert.equal(h.pushes.length, 1);
   const b = h.switchTo('B');
-  assert.equal(b._cloudSeen ?? null, null, 'the switch forgets what A\'s cloud held');
+  assert.notEqual(b, a, 'the switch mounts a new instance');
+  assert.equal(b._cloudSeen ?? null, null);
   await b._pullAndMerge(); await flush();
   assert.equal(h.pushes.at(-1).userId, 'B', 'B\'s first save after its own pull pushes to B');
-  assert.ok(h.pushes.every((p, i) => i === 0 || p.userId === 'B'), 'nothing after the switch goes to A');
+}));
+
+test('no skip while a push is in flight: a list added, then removed before the first push lands', () => fakeTimers(async ({ q, flush }) => {
+  const h = harness(); const a = await synced(h); await flush();
+  h.facade.pullNeural = async id => ({ userId: id, blob: reordered(h.pushes.at(-1).value) });
+  await a._pullAndMerge(); await flush();                        // settled: the record is the cloud's, without the list
+  const take = () => { const jobs = [...q.values()]; q.clear(); return jobs; };
+  const calls = [], gates = [], ok = h.facade.pushNeural;
+  h.facade.pushNeural = async (value, userId) => { calls.push(JSON.parse(JSON.stringify(value))); await new Promise(r => gates.push(r)); return ok(value, userId); };
+  a.lists = { ...(a.lists || {}), l1: { name: 'Class', items: ['Positions/Mount'], t: 1 } }; a._saveProgress();
+  const [one] = take(); const first = one(); await new Promise(r => setImmediate(r));
+  const { l1, ...rest } = a.lists; a.lists = rest; a._saveProgress();
+  const [two] = take(); const second = two(); await new Promise(r => setImmediate(r));
+  assert.equal(calls.length, 2, 'the removal goes too: the push in flight still carries the list');
+  assert.equal('l1' in (calls[1].lists || {}), false);
+  for (const g of gates) g(); await first; await second;
+}));
+
+test('two devices holding one set in two orders echo nothing; a real addition still pushes', () => fakeTimers(async ({ flush }) => {
+  const h = harness(); const a = await synced(h);
+  a._exploredKeys = new Set(['k1', 'k2', 'k3']); a.dayLog = { [a._dayKey()]: { s: 1, k: ['d1', 'd2', 'd3'], w: 0 } };
+  a.lists = { l1: { name: 'Class', items: ['n1', 'n2', 'n3'], t: 1 } }; a._saveProgress(); await flush();
+  h.facade.pullNeural = async id => ({ userId: id, blob: reordered(h.pushes.at(-1).value) });
+  await a._pullAndMerge(); await flush();                        // settle hydration's defaults
+  const other = JSON.parse(JSON.stringify(h.pushes.at(-1).value));   // the other device: the same sets, other orders
+  other.explored.reverse(); for (const d of Object.values(other.dayLog)) d.k.reverse(); other.lists.l1.items.reverse();
+  h.facade.pullNeural = async id => ({ userId: id, blob: other });
+  const before = h.pushes.length;
+  for (let i = 0; i < 10; i++) { await a._pullAndMerge(); await flush(); }
+  assert.equal(h.pushes.length, before, 'ten no-change pulls, zero pushes');
+  a._exploredKeys.add('k4'); a._saveProgress(); await flush();
+  assert.equal(h.pushes.length, before + 1, 'a real addition still pushes');
 }));
 
 // ── neural_signin_completed ──
@@ -214,7 +249,9 @@ test('a sign-in this browser started counts once, with its method and mode', () 
   a._signinIntent('google', 'create');
   h.listeners.at(-1)('SIGNED_IN', { id: 'A', email: 'a@example.invalid' }); await flush();
   h.listeners.at(-1)('SIGNED_IN', { id: 'A', email: 'a@example.invalid' }); await flush();
-  assert.deepEqual(completed(h).map(([, p]) => p), [{ method: 'google', mode: 'create' }]);
+  const got = completed(h).map(([, p]) => p);
+  assert.deepEqual(got.map(({ method, mode }) => ({ method, mode })), [{ method: 'google', mode: 'create' }]);
+  assert.equal(typeof got[0].intent_at, 'number', 'the intent\'s own stamp rides the event, so a double count can be removed in analysis');
   assert.equal(mem.getItem('bjj-neural-signin-intent'), null, 'the intent is spent');
 })));
 
@@ -233,4 +270,34 @@ test('an intent older than 30 minutes counts nothing', () => withStorage(mem => 
   h.listeners.at(-1)('SIGNED_IN', { id: 'A', email: 'a@example.invalid' }); await flush();
   assert.equal(completed(h).length, 0);
   assert.equal(mem.getItem('bjj-neural-signin-intent'), null, 'and the stale intent is cleared');
+})));
+
+test('a sign-up is honoured for 24 hours; a log-in for 30 minutes', () => withStorage(mem => fakeTimers(async ({ flush }) => {
+  for (const [mode, ago, counts] of [['create', 2 * 3600e3, 1], ['create', 25 * 3600e3, 0], ['login', 31 * 60e3, 0]]) {
+    const h = harness(); await subscribed(h);
+    mem.setItem('bjj-neural-signin-intent', JSON.stringify({ method: 'email', mode, at: Date.now() - ago }));
+    h.listeners.at(-1)('SIGNED_IN', { id: 'A', email: 'a@example.invalid' }); await flush();
+    assert.equal(completed(h).length, counts, mode + ' after ' + Math.round(ago / 60e3) + ' minutes');
+  }
+})));
+
+test('a verified identity at start-up spends the intent too (the tab back from Google may miss SIGNED_IN)', () => withStorage(() => fakeTimers(async ({ flush }) => {
+  const h = harness(); await h.boot(); const a = h.get();
+  a._signinIntent('google', 'login');
+  h.setIdentity({ id: 'A', email: 'a@example.invalid' });
+  await a._initAuth(); await flush();                            // no SIGNED_IN reaches this tab
+  h.listeners.at(-1)('SIGNED_IN', { id: 'A', email: 'a@example.invalid' }); await flush();   // and if it does, later
+  assert.equal(completed(h).length, 1, 'counted once, by whichever comes first');
+})));
+
+test('where the browser has Web Locks, the intent is read and removed under one', () => withStorage(() => fakeTimers(async ({ flush }) => {
+  const old = Object.getOwnPropertyDescriptor(globalThis, 'navigator'), held = [];
+  Object.defineProperty(globalThis, 'navigator', { configurable: true, value: { locks: { request: async (name, cb) => { held.push(name); return cb(); } } } });
+  try {
+    const h = harness(); const a = await subscribed(h);
+    a._signinIntent('google', 'login');
+    h.listeners.at(-1)('SIGNED_IN', { id: 'A', email: 'a@example.invalid' }); await flush();
+    assert.deepEqual(held, ['bjj-neural-signin-intent'], 'one lock, named for the intent');
+    assert.equal(completed(h).length, 1);
+  } finally { if (old) Object.defineProperty(globalThis, 'navigator', old); else delete globalThis.navigator; }
 })));
