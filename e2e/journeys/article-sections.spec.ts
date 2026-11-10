@@ -131,7 +131,6 @@ for (const width of [1366, 390]) {
         // empty and ends at the question's top line, so the right column runs up beside the question.
         lanes: new Set(cards.map(c => Math.round(c.getBoundingClientRect().left))).size, cardTop: card.top, cardBottom: card.bottom,
         filmBottom: a._landFilmEl?.getClientRects().length ? a._landFilmEl.getBoundingClientRect().bottom : null, articleTop: r.articleEl.getBoundingClientRect().top,
-        closeRow: first.top - (r.root.querySelector('[data-reader-close]')?.getBoundingClientRect().bottom ?? NaN),
         headInArticle: r.head.parentElement === r.game && r.head.contains(r.tools) && r.head.hasAttribute('data-bare'),
         sectionHeaders: labels, step: a._landEl.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12,
         backs: 3 * (a._landStackEl?.childElementCount || 0),
@@ -169,7 +168,7 @@ for (const width of [1366, 390]) {
       expect(normal.articleTop - shorter, 'U104: the article follows the stage\'s shorter cell at the six-pixel token').toBeCloseTo(6, 0)
     } else expect(normal.sectionGap, 'the article follows Questions (and its backs) at the six-pixel token').toBeCloseTo(normal.backs + 6, 0)
     // U12 a (D-355): the article's own ✕ is its top row; the first section follows it directly.
-    expect(normal.closeRow, 'the first section follows the article\'s ✕ row').toBeCloseTo(0, 0)
+    // v1.253.0 (U114 a): the article's ✕ row this checked the first section against is retired.
     const gapScale = width < 600 ? 3 : 4
     expect(normal.gaps.length).toBeGreaterThan(0)
     expect(normal.gaps.every(g => Math.abs(g - 6 * gapScale) < 1)).toBe(true)
@@ -231,28 +230,14 @@ test('@curated optional chrome frame preserves the node band and every flow gap'
     a.readerChromeFrame = () => ({ headBottom, offset, bottomReserve: readingReserve })
     r.layoutNow(); const readingReserved = { geometry: measure(), end: r.root.getBoundingClientRect().bottom }
     a.readerChromeFrame = () => ({ headBottom, offset })
-    // Book off retains the compact fixed-game fit. Exercise its bottom clamp
-    // separately: a scrollable article must not squeeze the reserved node band.
-    a.set('readerBook', false); r.sync(); r.root.scrollTop = 0; r.gameTop = 100000
-    r.layoutNow()
-    const clamped = { bottom: r.game.getBoundingClientRect().bottom, end: r.dock.getBoundingClientRect().top - 8 }
-    // Chrome supplies the entire bottom exclusion, including shelf clearance
-    // and its existing 8px gap. The clamp must not count those twice.
-    const bottomReserve = innerHeight - (r.dock.getBoundingClientRect().top - 8) - 40
-    a.readerChromeFrame = () => ({ headBottom, offset, bottomReserve })
-    r.layoutNow()
-    const reserved = { bottom: r.game.getBoundingClientRect().bottom, end: innerHeight - bottomReserve,
-      rootEnd: r.root.getBoundingClientRect().bottom, geometry: measure() }
-    a.readerChromeFrame = () => ({ headBottom, offset, bottomReserve: 0 })
-    r.layoutNow()
-    const zeroReserve = { bottom: r.game.getBoundingClientRect().bottom, end: innerHeight }
-    a.set('readerBook', true); r.sync(); r.gameTop = 180; delete a.readerChromeFrame
+    // v1.253.0 (U114 a): the Book-off clamp this exercised (against the shelf's top) is retired with the article-away view.
+    r.gameTop = 180; delete a.readerChromeFrame
     r.layoutNow()
     const after = measure()
     a.readerChromeFrame = () => null; r.layoutNow(); const nullHook = measure()
     a.readerChromeFrame = () => undefined; r.layoutNow(); const undefinedHook = measure()
     delete a.readerChromeFrame
-    return { before, after, nullHook, undefinedHook, ownTop, expectedStart, headLead, headBottom, offset, hooked, readingEnd, readingReserved, clamped, reserved, zeroReserve, sameHead }
+    return { before, after, nullHook, undefinedHook, ownTop, expectedStart, headLead, headBottom, offset, hooked, readingEnd, readingReserved, sameHead }
   })
   expect(result.before.top).toBeCloseTo(result.ownTop, 2)
   expect(result.before.start).toBeCloseTo(result.expectedStart, 2)
@@ -266,12 +251,6 @@ test('@curated optional chrome frame preserves the node band and every flow gap'
   for (const [i, gap] of result.hooked.gaps.entries()) expect(gap).toBeCloseTo(result.before.gaps[i], 1)
   expect(result.readingReserved.geometry).toEqual(result.hooked)
   expect(result.readingReserved.end - result.readingEnd).toBeCloseTo(40, 1)
-  expect(result.clamped.bottom).toBeCloseTo(result.clamped.end, 1)
-  expect(result.reserved.bottom).toBeCloseTo(result.reserved.end, 1)
-  expect(result.reserved.bottom - result.clamped.bottom).toBeCloseTo(40, 1)
-  expect(result.reserved.rootEnd).toBeCloseTo(result.reserved.end, 1)
-  expect(result.reserved.geometry.cardGap).toBe(16)
-  expect(result.zeroReserve.bottom).toBeCloseTo(result.zeroReserve.end, 1)
   // Within Chromium's 1/64px layout unit: a card at U90 a's depth rounds to a neighbouring unit on a later pass.
   for (const geometry of [result.after, result.nullHook, result.undefinedHook]) for (const key of Object.keys(result.before) as (keyof typeof result.before)[]) {
     if (key === 'gaps') for (const [i, gap] of result.before.gaps.entries()) expect(geometry.gaps[i]).toBeCloseTo(gap, 1)
@@ -497,12 +476,12 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
     const j = journey(page); await j.boot(LOOP)
     await expect(page.locator(READY)).toBeVisible()
     await j.readerLayoutSettled()
-    await expect(page.locator('.ng-reader-shelf')).toBeHidden()
     await expect(page.locator('[aria-label="Reading perspectives"]')).toHaveCount(0)
     await expect(page.locator('.ng-reader-toc h2')).toHaveText('Escaping Loop Choke from Half Guard')
     expect(await page.locator('.ng-reader-toc h2 small').evaluate(e => getComputedStyle(e).display), 'the qualifier stays in the phrase').toBe('inline')
     // U104, U108 a (owner, 2026-11-09, as built): the index reads as the screen does, Moves, the question, the video, the article.
-    expect((await page.locator('.ng-reader-toc-row a').allTextContents()).slice(0, 4)).toEqual(['Moves', 'Questions', 'Videos', 'How it works'])
+    // v1.253.0 (owner, 2026-11-09): "it's just Video on the index right?"
+    expect((await page.locator('.ng-reader-toc-row a').allTextContents()).slice(0, 4)).toEqual(['Moves', 'Questions', 'Video', 'How it works'])
     const hasToc = viewport.width >= 1350 // U97 b
     for (const [part, close] of [['card', '[data-land-close]'], ['hand', '[data-hand-close]']]) {
       const label = page.locator(`[data-game-open="${part}"]`)
@@ -847,41 +826,8 @@ test('D-351: an exchange whose article lands late never moves the new card or ha
   }
 })
 
-// D-352 S1: a landing laid out with the article put away is live (its hand and card play in the
-// map view). Showing the article while that landing's page is still loading must not hide the live
-// hand again: it publishes pinned at once, as the ceiling does, so the late article cannot move it
-// either. Review-claude measured the failure: the hand pending (hidden, digits inert) for 49 frames,
-// t63 to t859, while its card stayed live.
-test('D-352: showing the article while its page loads never hides the live hand again', async ({ page }) => {
-  const j = journey(page)
-  await j.boot('/', { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } })
-  const held: string[] = []
-  await page.route((url) => url.pathname === '/Positions/Mount/Top', async (route) => {
-    if (route.request().resourceType() === 'fetch') { held.push(new URL(route.request().url()).pathname); await new Promise((r) => setTimeout(r, 2500)) }
-    await route.continue()
-  })
-  await j.land('Mount Top')
-  await expect.poll(() => held.length, { message: 'premise: the landing asked for its article, and it is held' }).toBeGreaterThan(0)
-  const before = await page.evaluate(() => { const a = (window as any).__neural, r = a._reader; return { book: a.get('readerBook', true), ready: r.root.dataset.readerReady === 'true' && r.path === '/Positions/Mount/Top', hand: !!a.optionsRef.current?.querySelector('[data-tech]') } })
-  expect(before, 'premise: the hand is live in the map view and its article has not rendered').toEqual({ book: false, ready: false, hand: true })
-  await page.evaluate(() => {
-    const w = window as any, out: any[] = (w.__d352 = [])
-    const tick = () => {
-      const a = w.__neural, r = a._reader, row = a.optionsRef.current, box = row?.getBoundingClientRect()
-      out.push({ book: a.get('readerBook', true) !== false, ready: r.root.dataset.readerReady === 'true' && r.path === '/Positions/Mount/Top', pending: !!row?.hasAttribute('data-reader-pending'), shown: !!row && !!box!.height && getComputedStyle(row).visibility !== 'hidden', top: box ? Math.round(box.top * 2) / 2 : null })
-      if (!w.__d352stop) requestAnimationFrame(tick)
-    }
-    requestAnimationFrame(tick)
-  })
-  await j.clickByMouse('[data-layer-show="book"]', 'show the article while its page is still loading')
-  await expect.poll(() => page.evaluate(() => (window as any).__d352.filter((x: any) => x.ready).length), { timeout: 10_000, message: 'the held article rendered' }).toBeGreaterThan(10)
-  const S = await page.evaluate(() => { (window as any).__d352stop = true; return (window as any).__d352 as any[] })
-  const book = S.filter((x) => x.book)
-  expect(book.some((x) => !x.ready), 'premise: the article was shown while its page was still loading').toBe(true)
-  expect(book.filter((x) => x.pending || !x.shown), 'the live hand is never hidden again').toEqual([])
-  const i = S.findIndex((x) => x.ready)
-  expect(S.slice(i, i + 10).map((x) => x.top), 'and the late article does not move it').toEqual(Array(Math.min(10, S.length - i)).fill(S[i - 1].top))
-})
+// v1.253.0 (U114 a): "D-352: showing the article while its page loads never hides the live hand again" pressed the shelf's Book
+// button from the map view; both are retired.
 
 // D-352 N2: D5-S2's clamp and N3's order, each gated. At arrival the reader sits above the question,
 // so Home and PageUp never move the view down; and the hand comes before the closed Questions label in

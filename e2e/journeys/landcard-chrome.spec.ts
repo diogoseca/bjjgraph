@@ -47,17 +47,7 @@ const seedFilm = (page: any) =>
 
 // RETIRED in part (D-338, no View menu): the article view has no Book minimize. Book off survives
 // only as a saved state, whose shelf keeps the restore control; that half keeps its claim.
-test("Book restore keeps a readable, reachable control @curated", async ({ page }) => {
-  const j = journey(page);
-  await j.boot("/", { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } });
-  await j.land("Mount Top");
-  await expect(page.locator('.ng-reader-article')).toBeHidden();
-  const color = await page.locator('[data-layer-show="book"]').evaluate(el => getComputedStyle(el).color);
-  expect(color, "the restore control is never the UA default black").not.toBe("rgb(0, 0, 0)");
-  await j.clickByMouse('[data-layer-show="book"]');
-  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
-  await expect(page.locator('.ng-reader-article')).toBeVisible();
-});
+// v1.253.0 (U114 a): "Book restore keeps a readable, reachable control" went with the shelf and the article-away view.
 
 test("the question corner keeps its close button and count; capture belongs to the seat", async ({ page }) => {
   const j = journey(page);

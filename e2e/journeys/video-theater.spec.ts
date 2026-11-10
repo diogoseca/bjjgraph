@@ -66,7 +66,7 @@ const layout = (page: Page) => page.evaluate(() => {
   const cards = [...a.optionsRef.current.querySelectorAll("[data-tech]")].map((c: Element) => c.getBoundingClientRect())
   const text = ask.getBoundingClientRect(), media = film.getBoundingClientRect()
   return { gap: text.top - Math.max(...cards.map((r: DOMRect) => r.bottom)), film: media.toJSON(), askBottom: text.bottom,
-    padding: getComputedStyle(a._landEl).padding, free: a._paneLayout().width, layout: a._reader.game.dataset.mediaLayout, cardWidth: a._landEl.getBoundingClientRect().width,
+    padding: getComputedStyle(a._landEl).padding, free: a._paneLayout().width, layout: a._reader.game.dataset.mediaLayout, cardWidth: a._landEl.getBoundingClientRect().width, gridWidth: (document.querySelector("[data-reader-body]") as HTMLElement).getBoundingClientRect().width,
     nested: !!film.closest(".ng-landcard,[data-land-q]"), token: parseFloat(getComputedStyle(ask).getPropertyValue("--section-gap")) }
 })
 
@@ -85,7 +85,9 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 1024], [1024, 768],
       expect(g.layout).toBe("stacked")
     } else {
       expect(g.layout, "U104: from 1,024px the film is the right column").toBe("side-by-side")
-      expect(g.film.width, "U104: a column wide, as wide as the asking question").toBeCloseTo(g.cardWidth, 0)
+      // v1.253.0 (owner, 2026-11-09): the asking question spans the choices row (the grid); the film is one of its two columns.
+      expect(g.film.width, "U104: a column wide").toBeCloseTo((g.gridWidth - 24) / 2, 0)
+      expect(g.cardWidth, "v1.253.0: the asking question as wide as the choices row").toBeCloseTo(g.gridWidth, 0)
     }
     expect(g.padding).toBe("0px 0px 0px 3px")
     expect(g.nested, "VIDEO1 own film never enters a question card").toBe(false)

@@ -340,7 +340,12 @@
   .ng-landnav button{position:absolute;top:calc(var(--guide-y,50%) - 22px);}
   .ng-landnav [data-land-prev]{right:calc(100% + 8px);}
   .ng-landnav [data-land-next]{left:calc(100% + 8px);}
+  /* #346's review (finding 1): from 1,350px free the index stands 12px left of the grid, and the face stays on the grid's left edge,
+     so the Previous arrow's outside home (right:100% + 8px) lay 40px inside the index column. There it takes the right lane too,
+     stacked one target above Next, which the open face's 52px lane holds. */
+  .ng-landnav[data-index] [data-land-prev]{right:auto;left:calc(100% + 8px);top:calc(var(--guide-y,50%) - 70px);}
   .ng-landnav button[hidden]{display:none;}
+  .ng-landnav [aria-disabled=true]{opacity:.3;cursor:default;color:#8797b3;}
   .ng-land-deck [data-land-q]>div:first-child{font-size:14px!important;line-height:1.4!important;}
   .ng-land-deck [data-land-mc-opt]{min-height:44px;font-size:13px!important;white-space:normal!important;overflow-wrap:anywhere;padding:10px 12px!important;}
   .ng-land-deck [data-land-recall]{font-size:13px;overflow-wrap:anywhere;}
@@ -401,11 +406,13 @@
      narrow screen keeps the rules above, because its two-line question stands apart from the cards. A question short
      enough to share one line with its link does not, and there the old box still lies 8px over the choice above: no
      question at 430px, about 1% at 540px and 600px (of 21,269, measured 2026-11-05). With the film closed the hang
-     meets the article's ✕, so the ✕ takes that corner: the link keeps its 44px and the press goes to the nearer control.
-     Pinned by ask-line.spec.ts and panic-card.spec.ts. */
+     meets the first open tile's ✕ (v1.253.0 retired the article's ✕ that met it before), and took 328px² of that ✕'s 1,936px² at
+     390x631 on Side Control Bottom (ask-line.spec.ts: every point of the ✕ sampled with elementsFromPoint, counted where the
+     link is on top). So the reader gives that ✕ an inline z-index:6 where the hang meets it and the card's own ✕ does not
+     (reader.src.js, after the pass's game height): the link keeps its 44px and the press goes to the nearer control. Pinned by
+     ask-line.spec.ts and panic-card.spec.ts. */
   @media(min-width:641px),(max-height:699px){
     .ng-landcard[data-land-ask]{border-bottom-width:calc(1px + var(--section-gap,6px))!important;}
-    .ng-reader [data-reader-close]{position:relative;z-index:6;}
     [data-land-ask-go]{position:relative;margin:-5px -6px -23px;padding:5px 6px 23px;}
     [data-land-ask-go]:focus-visible{outline:0;}
     [data-land-ask-go]:focus-visible::before{content:"";position:absolute;inset:1px 10px 19px;outline:2px solid #9cbcff;}

@@ -297,7 +297,10 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
       // column of the article grid, so the film starts past the open face's 52px arrow lane and is that face and lane wide.
       expect(layout.film.left - layout.card.right, 'beside: the film is right of the face, past its arrows\' lane').toBeGreaterThanOrEqual(52)
       expect(layout.film.width - layout.card.width, 'beside: equal columns, the face and its arrows\' lane').toBeCloseTo(52, 0)
-      expect(layout.film.top, 'beside: tops aligned').toBeCloseTo(layout.card.top, 0)
+      // v1.253.0 (owner, 2026-11-09): the one-line tease spans the row and the film starts under it, where it stays as the question
+      // opens (tease-width.spec.ts pins that it does not move): beside the opened face it starts one tease line lower, never above it.
+      expect(layout.film.top - layout.card.top, 'beside: the film starts within one tease line under the question\'s top').toBeGreaterThanOrEqual(0)
+      expect(layout.film.top - layout.card.top, 'beside: the film starts within one tease line under the question\'s top').toBeLessThanOrEqual(30)
     } else expect(layout.film.top - (layout.card.bottom + 3 * layout.backs), 'stacked: the current card follows the question\'s backs at the parts\' step').toBeCloseTo(16, 0)
   }
 })
@@ -511,13 +514,15 @@ test("a gentle second scroll can build gradually out of the previous momentum ta
 })
 
 for (const width of [1440, 390, 320]) {
-  test(`@curated ${width}px chevrons are clickable, keep focus, and disappear at deck boundaries`, async ({ page }) => {
+  // v1.253.0 (owner, 2026-11-09): at a deck boundary an arrow stays, disabled; hidden, a second press there reached the map and
+  // closed the card and the film. deck-boundary.spec.ts pins what that press does.
+  test(`@curated ${width}px chevrons are clickable, keep focus, and stand disabled at deck boundaries`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     const { j, total } = await setup(page)
     const prev = page.locator("[data-land-prev]"), next = page.locator("[data-land-next]")
     await expect(page.locator("[data-land-nav]")).toHaveCount(1)
-    await expect(prev).toBeHidden()
-    await expect(next).toBeVisible()
+    await expect(prev).toHaveAttribute("aria-disabled", "true")
+    await expect(next).toHaveAttribute("aria-disabled", "false")
     await expect(page.locator("[data-landcard] [data-land-nav]")).toHaveCount(0)
     const box = await next.boundingBox()
     const face = await page.locator("[data-landcard]").boundingBox()
@@ -527,13 +532,22 @@ for (const width of [1440, 390, 320]) {
     expect(box!.width).toBeGreaterThanOrEqual(44)
     expect(box!.height).toBeGreaterThanOrEqual(44)
     await j.clickByMouse("[data-land-next]")
-    await expect(prev).toBeVisible()
+    await expect(prev).toHaveAttribute("aria-disabled", "false")
     const left = await prev.boundingBox()
-    expect(left!.x).toBeGreaterThanOrEqual(0)
-    expect(left!.x + left!.width).toBeLessThan(face!.x)
+    if (width === 1440) {
+      // v1.252.1, #346's review (finding 1): from 1,350px free the reader's index holds the margin left of the face, and Previous sat
+      // 40px inside it. While the index stands beside the grid, Previous takes the right lane, one target above Next.
+      await expect(page.locator(".ng-reader-toc"), "premise: the index stands beside the grid at 1440").toBeVisible()
+      expect(left!.x, "Previous in the face's right lane").toBeGreaterThan(face!.x + face!.width)
+      expect(left!.x + left!.width).toBeLessThanOrEqual(width)
+      expect(left!.y + left!.height, "Previous stands above Next, clear of it").toBeLessThanOrEqual(box!.y)
+    } else {
+      expect(left!.x).toBeGreaterThanOrEqual(0)
+      expect(left!.x + left!.width).toBeLessThan(face!.x)
+    }
     await expect(page.locator("[data-land-position]")).toHaveAttribute("data-land-position", `2/${total}`)
     await j.clickByMouse("[data-land-prev]")
-    await expect(prev).toBeHidden()
+    await expect(prev).toHaveAttribute("aria-disabled", "true")
     // Focus is handed to the remaining arrow. Enter activates it through native button behavior.
     await expect(next).toBeFocused()
     await page.keyboard.press("Enter")
@@ -549,11 +563,11 @@ for (const width of [1440, 390, 320]) {
       await j.clickByMouse("[data-land-next]")
       await page.waitForFunction((index) => (window as any).__neural._landPage === index, index)
     }
-    await expect(next).toBeHidden()
-    await expect(prev).toBeVisible()
+    await expect(next).toHaveAttribute("aria-disabled", "true")
+    await expect(prev).toHaveAttribute("aria-disabled", "false")
     await expect(prev).toBeFocused()
     await j.clickByMouse("[data-land-prev]")
-    await expect(next).toBeVisible()
+    await expect(next).toHaveAttribute("aria-disabled", "false")
     expect((await j.beats()).filter(b => b.beat === "land_q_answered")).toHaveLength(0)
   })
 }
@@ -596,5 +610,5 @@ test("@curated long recall answers grow the card and scroll with the whole colum
   // Paging restores the next face to the start of the column.
   await page.keyboard.press("ArrowLeft")
   await expect.poll(async () => (await geometry(page)).top).toBeGreaterThan(0)
-  await expect(page.locator("[data-land-prev]")).toBeHidden()
+  await expect(page.locator("[data-land-prev]")).toHaveAttribute("aria-disabled", "true")
 })

@@ -640,67 +640,8 @@ for (const viewport of VIEWPORTS) {
     // STALE CONTRACT (D-338, no View menu): the article view has no Book control, so these map-view
     // camera rules boot with the article away, as a returning reader left it (the persisted setting
     // the retired click wrote). The clearance claims are unchanged.
-    test("CLEAR_SEC: a card the player turns back on mounts over the node, and is cleared within the rule", async ({ page }) => {
-      const j = journey(page);
-      await j.boot("/", { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } });
-      await j.land("Mount Top");
-      // every layer off: nothing bounds the graph, so the node is framed at the screen's middle
-      await expect(page.locator('[data-reader-ready="true"]')).toHaveCount(1);
-      await page.evaluate(() => { const a = (window as any).__neural; for (const k of ["film", "card", "hand"]) a.setLayer(k, false, "test"); });
-      await j.readerLayoutSettled();
-      await j.advance(6000); // let any input lease and the resulting flight settle
-      const before = await frame(page);
-      expect(before.rows, "no rows while every layer is off").toBeNull();
-      // the player turns the card and the hand back on (the layer dock): rows the camera did not predict
-      await page.evaluate(() => { const a = (window as any).__neural; a.setLayer("card", true, "test"); a.setLayer("hand", true, "test"); });
-      // U47 d: the card returns asking, a question too short to reach the node. Taking it up (a real
-      // mouse, no frame pumped since `before`) grows it over the node: that is the row under test.
-      // The 0.28s slide-in is wall-clock CSS, so let it finish first: a click measured mid-slide can
-      // land beside the moving button.
-      await expect.poll(() => page.evaluate(() => (window as any).__neural._landEl.getAnimations().every((x: Animation) => x.playState === "finished"))).toBe(true);
-      // APTS-CI2 (CI run 40675333437, 1 of 23 runs here): the restored card re-docks above the re-dealt hand on a
-      // real frame, so a click measured just before it landed on a move (why.exec in the failing frame) instead of
-      // Answer for Points, and the test failed at the non-vacuity check below, far from its cause. Wait until the
-      // card holds still across real frames, then require the click to have taken the question up.
-      await expect.poll(() => page.evaluate(async () => {
-        const el = (window as any).__neural._landEl, at = el.getBoundingClientRect().top;
-        await new Promise(requestAnimationFrame); await new Promise(requestAnimationFrame);
-        return Math.abs(el.getBoundingClientRect().top - at) < 0.5;
-      }), { message: "premise: the restored card holds still before the click" }).toBe(true);
-      await j.clickByMouse("[data-land-ask-go]", "Answer for Points on the restored card");
-      expect(await page.evaluate(() => { const a = (window as any).__neural; return { move: !!a._execution, takenUp: (a.beats || []).filter((b: any) => b.beat === "land_q_taken_up").length }; }),
-        "premise: the click took the question up, and started no move").toEqual({ move: false, takenUp: 1 });
-      const S = await record(page, 60 * 2);
-      expect(S[0].rows, "the rows mounted").not.toBeNull();
-      // NON-VACUITY: the row came up OVER the node; a scenario where it did not would pass vacuously
-      expect(S[0].lo!, `the card mounted over the node ${JSON.stringify(S[0])}`).toBeGreaterThan(S[0].rows! - 2);
-      expectContinuous([before, ...S], W, "a row turned on");
-      expectClearedWithin(S, "a row turned on");
-    });
+    // v1.253.0 (U114 a): "CLEAR_SEC: a card the player turns back on mounts over the node" was the map view's (Book off), retired.
 
-    test("CLEAR_SEC: a film row whose content arrives after the landing never stays over the node", async ({ page }) => {
-      const j = journey(page);
-      await j.boot("/", { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } });
-      await j.land("Mount Top");          // the harness serves no clips: no film row at the landing
-      await expect(page.locator('[data-reader-ready="true"]')).toHaveCount(1);
-      // A small A film fits beside practice without moving the camera. Put the
-      // other surfaces away so the late film alone changes an unbounded band.
-      await page.evaluate(() => { const a = (window as any).__neural; a.setLayer("card", false, "test"); a.setLayer("hand", false, "test"); });
-      await j.readerLayoutSettled();
-      await j.advance(6000); // let the mouse-input camera lease and the resulting flight settle
-      const before = await frame(page);
-      expect(before.film, "no film row before its content arrives").toBeNull();
-      // the content arrives late: the same path a hydrated dossier chunk takes
-      await seedFilm(page, "Mount|Top");
-      await page.evaluate(() => {
-        const a = (window as any).__neural;
-        a._refreshReadingContent();
-      });
-      const S = await record(page, 60 * 2);
-      const visible = S.findIndex(s => s.film != null);
-      expect(visible, "the late film row mounted after its coalesced layout frame").toBeGreaterThanOrEqual(0);
-      expectContinuous([before, ...S], W, "late film row");
-      expectClearedWithin(S.slice(visible), "late film row");
-    });
+    // v1.253.0 (U114 a): "CLEAR_SEC: a film row whose content arrives after the landing never stays over the node" was the map view's, retired.
   });
 }

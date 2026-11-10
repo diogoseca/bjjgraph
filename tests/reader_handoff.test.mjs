@@ -88,7 +88,7 @@ class Style {
 function node(values = {}) {
   const attrs = new Set();
   return { style: new Style(values), dataset: {}, isConnected: true,
-    setAttribute: key => attrs.add(key), hasAttribute: key => attrs.has(key),
+    setAttribute: key => attrs.add(key), hasAttribute: key => attrs.has(key), getAttribute: key => attrs.has(key) ? "" : null,
     removeAttribute: key => attrs.delete(key),
     toggleAttribute(key, on) { if (on) attrs.add(key); else attrs.delete(key); },
     // U59 c: a grid-width change looks for the first text block at the reader's top; these fixtures hold none.
@@ -111,9 +111,12 @@ function fixture(adopted = true) {
   r.articleEl = node(); r.mediaHome = node(); r.sections = [];
   r.articleEl.getBoundingClientRect = () => ({ left: 12, right: 378, width: 366 });
   // D-338: the closed-part labels, Moves first; an open part hides its label.
-  r.gameSections = [{ part: "hand", card: node() }, { part: "card", card: node() }];
+  // v1.253.0 (#354's round-7 review): every layout pass paints a part's label, row and aria from one answer, so each carries its toggle.
+  r.gameSections = [{ part: "hand", title: "Moves", card: node(), toggle: node() }, { part: "card", title: "Questions", card: node(), toggle: node() }];
   for (const s of r.gameSections) r.game.append(s.card);
-  r.dock = node(); r.dock.getBoundingClientRect = () => ({ top: 758, height: 48 });
+  // v1.253.0 (U114 a): the shelf is retired; the reader lays out once installed (`hooked`), and ends where the fixture's
+  // retired dock used to end it, at 750 (`_readerReserve` below), so every coordinate here keeps its meaning.
+  r.hooked = true;
   const wrap = node(); wrap.querySelector = () => null; a.wrapRef.current = wrap;
   const row = a.optionsRef.current = node({ top: "430.5px", bottom: "auto", paddingTop: "8px" });
   row.parentElement = adopted ? r.game : wrap; row.fixtureHeight = 196.25;
@@ -125,7 +128,7 @@ function fixture(adopted = true) {
   };
   Object.assign(a, { W: 390, H: 844, _paneLayout: () => ({ width: window.innerWidth, center: window.innerWidth / 2 }),
     // D-351's hold is the app's decision (journeys pin it); these units lay out a published landing.
-    _readerShelfBottom: () => 12, _handShown: () => true, isMobile: () => true, _readerHold: () => 0 });
+    _readerReserve: () => window.innerHeight - 750, _handShown: () => true, isMobile: () => true, _readerHold: () => 0 });
   return { a, r, row };
 }
 function choose(f) {
@@ -154,7 +157,9 @@ test("teardown and result display keep the same native row and article reservati
     f.r.gameTop = 32;
     f.r.layoutNow();
     assert.equal(f.row.style.top, "430.5px");
-    assert.equal(f.r.game.style.height, "626.75px");
+    // v1.253.0: the fixture lays out the article's flow, its only layout now (U114 a), which ends one 8px phone step under the
+    // hand: the reservation never shrinks below the snapshot (626.75), and the flow adds its step.
+    assert.equal(f.r.game.style.height, "634.75px");
     assert.equal(f.row.getBoundingClientRect().top, 448.5);
   }
 });
@@ -199,6 +204,7 @@ for (const height of [844, 631]) test(`a live phone catch at ${height} puts its 
   r.on = () => true; a._layerOn = () => true;
   a._defensePressure = true; a._landMode = "defense";
   const card = a._landEl = node(); card.parentElement = r.game; r.gameHomes.set(card, {});
+  card.querySelector = () => null; // v1.253.0: the layout asks the card for its Answer for Points and its ✕ (#354's review, finding 3)
   card.classList = { contains: () => true };
   card.getBoundingClientRect = () => ({ top: parseFloat(card.style.top) || 0, width: 286, height: 352.25 });
   r.layoutNow();
@@ -223,8 +229,9 @@ for (const release of ["resize", "reading", "arrival"]) {
     if (release === "arrival") f.a.clearExecution();
     assert.equal(f.a._executionDock(), null);
     f.r.layoutNow();
-    assert.equal(f.row.style.top, "180px");
-    assert.equal(f.r.game.style.height, "376.25px");
+    // v1.253.0: released into the article's flow (its only layout, U114 a): Moves under the node band, as "Book reserves its node band".
+    assert.equal(f.row.style.top, "194px");
+    assert.equal(f.r.game.style.height, "398.25px");
   });
 }
 
@@ -255,33 +262,28 @@ test("startExecution uses the shared bottom only for the fixed home", () => {
   }
 });
 
-test("the article and shelf have one frame writer while fixed replay keeps its own writer", () => {
+// v1.253.0 (U114 a): the shelf is retired, so the article is the reader's one frame writer; the replay bar keeps its own.
+test("the article has one frame writer while fixed replay keeps its own writer", () => {
   const { a, r } = fixture();
   window.innerWidth = a.W = 1440;
   a.isMobile = () => false; a._compactLandDeck = () => false;
   let center = 800;
   a._paneLayout = () => ({ center, width: 2 * (1440 - center) });
-  a._layerDockEl = r.dock; r.dock.style.left = "720px";
   const replay = a._replayEl = node(); replay.offsetWidth = 360;
   let pending, queued = 0;
   const original = globalThis.requestAnimationFrame;
   globalThis.requestAnimationFrame = callback => { pending = callback; queued++; return 1; };
   try {
     for (let i = 0; i < 4; i++) a._layoutLandHorizontal();
-    assert.equal(r.dock.style.left, "720px", "legacy positioning cannot move the shelf ahead of its article");
     assert.equal(replay.style.left, "800px", "fixed replay still follows the pane immediately");
     assert.equal(queued, 1, "one coalesced native layout");
     pending();
-    assert.equal(parseFloat(r.dock.style.left), center);
     assert.equal(parseFloat(r.articleEl.style["margin-left"]) + parseFloat(r.articleEl.style.width) / 2, center);
-    // A reference or hidden game can leave only the reader-owned shelf. That
-    // must still schedule layout after excluding it from the legacy writers.
+    // With no legacy writer left at all, the article still schedules its own layout.
     a._replayEl = null; center = 860;
     a._layoutLandHorizontal();
     assert.equal(queued, 2);
-    assert.equal(r.dock.style.left, "800px");
     pending();
-    assert.equal(parseFloat(r.dock.style.left), center);
     assert.equal(parseFloat(r.articleEl.style["margin-left"]) + parseFloat(r.articleEl.style.width) / 2, center);
   } finally {
     if (original) globalThis.requestAnimationFrame = original;

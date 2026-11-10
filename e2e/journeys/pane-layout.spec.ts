@@ -218,7 +218,8 @@ for (const path of ["/Positions/Mount/Top", "/Transitions/50-50-Entry/Attacker"]
     expect(await readerTop(page), "the close lands on the place the open left").toBe(before)
   })
 }
-// At 768 the only exact pin on U59 c's hold while the pane is open: article-dashboard pins 1440 and 1152. pane-open-hold-lost.
+// At 768 the only exact pin on U59 c's hold while the pane is open: article-dashboard pins 1440 and 1152. pane-open-hold-lost
+// (retargeted in v1.253.0 after U114 a moved its target, and killed again: #354's review, finding 2).
 // On screen coordinates, from the landed start with an open question. UNGUARDED: from a direct boot the slide's last pass shifts
 // the stage about 18px with no change of grid, so the anchor has no reason to fire and the line ends that much higher while the
 // pane is open: 17-18px on the four position pages measured, on v1.249.1 and v1.249.2 alike. The close still lands exactly.

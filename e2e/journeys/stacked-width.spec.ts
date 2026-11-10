@@ -53,6 +53,7 @@ for (const width of [600, 768, 900, 1000]) {
     // The hand too, at every width here: from 600 to 640px the app is in its phone mode, and the Moves row still takes the column.
     const shared = { film: m.film, grid: m.grid, tile: m.tile, hand: m.hand }
     for (const [name, e] of Object.entries(shared)) expect(e, `the ${name} shares the question's two edges`).toEqual(m.card)
+    // #346's review, finding 6 (v1.252.1) put the article's own ✕ on the column's edge; v1.253.0 retired that ✕ (U114 a).
   })
 }
 
@@ -68,7 +69,10 @@ test("@curated U110 a: at 1,024px the columns begin and the cap ends", async ({ 
 //   u110-film-uncapped ...... the film at the full width, 900px . killed: the film shares the question's two edges
 //   u110-grid-uncapped ...... the grid at free - 64, 600px ...... killed: the grid shares the question's two edges
 //   u110-cap-past-columns ... the cap kept to 1,100px .......... killed: side by side from 1,024px
-//   u110-tray-phone-flush ... the row full-width again to 640px . killed: the hand shares the question's two edges (600px)
+//   u110-tray-phone-flush ... the row full-width again to 640px . killed: the hand shares the question's two edges (600px) (retargeted v1.253.0, killed again)
+//   (u110-close-on-article-edge, v1.252.1, retired with the article's ✕ in v1.253.0)
 // At 900px the grid's control fails one step earlier, at "under 1,024px the stage stacks": an uncapped grid is wide enough for
 // the columns, which is the cap's other job. The card's control cannot run at 600px, where 600 less the arrows' 104 is 496 anyway.
-// No surviving controls. NOT COVERED: the phone's widths (below every cap, so no control of the cap can move them).
+// No surviving controls. NOT COVERED: widths under 600px (#346's review, finding 5). From 528 to 599 the cap already binds the film and
+// the asking card (496px) while an open card keeps free - 104, so they are not one box there and nothing here pins that range; under
+// 528 every box keeps its phone width, which no control of the cap can move.

@@ -141,7 +141,7 @@ test("@curated a role page sets the board on THAT side, paused, and starts no ro
 // still fails the re-aim assertion after the native-layout wait; both anchor controls pass.
 test("the node it navigates to is framed clear of the landing card", async ({ page }) => {
   const j = journey(page)
-  await j.boot("/Positions/Side-Control/Bottom", { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } })
+  await j.boot("/Positions/Side-Control/Bottom")
   // boot() waits for graph ingest, not the deferred reader's seat or styled article.
   // Advancing first can spend all six seconds before the arrival flight even starts.
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
