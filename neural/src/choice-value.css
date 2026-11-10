@@ -68,3 +68,25 @@
 .ng-current-card [data-film-prev] { left:0; }
 .ng-current-card [data-film-next] { right:0; }
 .ng-current-card .ng-clip::after, .ng-choice-viewer .ng-clip::after { display:none; }
+/* HIDDEN MOVES (Phase 0 prototype). The back covers the face and takes no hit: the face below still
+   executes. "back" (1a) covers everything under the title row; "name" (1b) only the film slot. */
+.ng-choice-back { position:absolute; inset:44px 0 0; display:none; place-items:center; pointer-events:none; border-top:1px solid rgba(150,170,210,.14);
+  background: repeating-linear-gradient(45deg,rgba(179,198,234,.06) 0 1px,transparent 1px 5px), repeating-linear-gradient(-45deg,rgba(179,198,234,.06) 0 1px,transparent 1px 5px), radial-gradient(130% 100% at 50% 35%,#252d49,#141829); }
+.ng-choice-card[data-hide=name] .ng-choice-back { bottom:46px; }
+.ng-choice-card[data-hide=name] .ng-choice-badge { z-index:1; }
+.ng-choice-card[data-hide]:not([data-revealed]) .ng-choice-back { display:grid; }
+.ng-choice-back .ng-choice-shape { width:52px; height:52px; color:rgba(179,198,234,.3); }
+.ng-choice-back .ng-choice-shape svg { stroke-width:1; }
+.ng-choice-card[data-hide]:not([data-revealed]) .ngchoice-title, .ng-choice-card[data-hide]:not([data-revealed]) .ng-choice-watch { visibility:hidden; }
+.ng-choice-card[data-hide][data-graded]:not([data-revealed]) .ng-choice-title-button::after { content:"Got it"; margin-left:auto; font-size:10px; color:#7ee0a8; }
+.ng-choice-card[data-hide][data-graded=no]:not([data-revealed]) .ng-choice-title-button::after { content:"Missed"; color:#ef8585; }
+.ng-choice-grade { position:absolute; left:0; right:0; top:96px; height:34px; display:none; align-items:center; gap:5px; padding:0 6px 0 9px; box-sizing:border-box; background:rgba(10,13,22,.9); font-size:10.5px; color:#dbe2f0; }
+.ng-choice-card[data-grading]:not([data-graded]) .ng-choice-grade { display:flex; }
+.ng-choice-grade > span { flex:1; white-space:nowrap; }
+.ng-choice-card .ng-choice-grade button { flex:none; height:26px; padding:0 9px; border-radius:6px; font-size:11px; font-weight:700; }
+.ng-choice-grade [data-grade=yes] { background:rgba(126,224,168,.16); color:#a6efc4; }
+.ng-choice-grade [data-grade=no] { background:rgba(239,133,133,.16); color:#f4b0b0; }
+.ng-choice-card[data-grading]:not([data-graded]) .ng-choice-watch { top:46px; }
+.ng-hide-state { display:inline-flex; align-items:center; gap:6px; margin-left:10px; font-weight:400; letter-spacing:0; color:#dbe2f0; }
+.ng-hide-state button { pointer-events:auto; cursor:pointer; border:1px solid rgba(150,170,210,.3); border-radius:5px; background:rgba(255,255,255,.04); color:#dbe2f0; font:inherit; font-size:10px; font-weight:700; padding:2px 7px; }
+@media (max-width:600px) { [data-choice-group] .ng-hide-state-title { height:auto !important; flex-wrap:wrap; row-gap:2px; } .ng-hide-state { flex-basis:100%; margin-left:0; min-height:26px; } }

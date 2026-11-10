@@ -13499,6 +13499,7 @@ class Component extends DCLogic {
     // ...and its own overflow: `startExecution` lets the stand-in's lift out of the row (v1.220.0)
     el.style.overflowX = "auto"; el.style.overflowY = "hidden";
     this._handEscape = !!escape;
+    this._hmLit = new Set(); this._hmAll = false; this._hmPeeks = new Set(); this._hmGrades = new Map(); this._hmState = null;
     this._choiceHandId = "hand-" + (this._choiceHandSerial = (this._choiceHandSerial || 0) + 1);
     const add = (label, list, threat) => {
       if (!list.length) return;
@@ -13527,6 +13528,7 @@ class Component extends DCLogic {
         retry.style.cssText = sort.style.cssText;
         retry.onclick = (e) => { e.stopPropagation(); this._retryGameValues(); };
         title.appendChild(retry);
+        if (this._hideMode() && this.get("hideGrade", "card") === "state") this._hideStateBar(title);
       }
       const row = document.createElement("div");
       row.style.cssText = "display:flex;gap:9px;align-items:stretch;";
@@ -13828,9 +13830,85 @@ class Component extends DCLogic {
       + '<span class="ngcv-card" data-choice-value data-status="' + (value?.status || 'pending') + '">' + (value ? this.choiceStatsHTML(value) : '<span class="ng-choice-stat"><span><span data-immediate-label>' + immediateLabel + '</span> %</span><strong class="ngodds">' + (chance == null ? '—' : Math.round(chance * 100)) + '</strong></span><span class="ng-choice-stat"><span>Win %</span><strong data-threat-win>—</strong></span>') + '</span></' + execute + '>'
       + '<span class="ng-choice-badge" data-choice-recommended></span>'
       + '<div class="ngbar"></div>';
-    card.addEventListener("click", () => this.activateOption(opt, onPick, card));
+    const hide = this._hideMode();
+    if (hide) this._hideCard(card, hide, opt, n);
+    // A HIDDEN CARD'S FIRST TOUCH REVEALS, ITS SECOND PICKS (hidden moves 2a). The gate sits HERE,
+    // before activateOption, so number keys (which call activateOption directly) still pick blind,
+    // and the reader's beginPlay wrapper never sees a reveal as a play.
+    card.addEventListener("click", (e) => { if (hide && this._hideTap(card, e)) return; this.activateOption(opt, onPick, card); });
     (this._optionCards = this._optionCards || []).push({ node: n, card, bar: card.querySelector(".ngbar"), opt, num, esc: isEsc });
     return card;
+  }
+  // ═══ HIDDEN MOVES (Phase 0 prototype, owner 9 Nov: "obfuscated unless the user hovers it") ═══
+  // "back": the card back, shape + number + type glyph only (1a). "name": the name and the video
+  // hidden, the stats shown (1b). Hiding is CSS on an attribute, never a rebuilt face: every
+  // measurement (fitChoiceTitles, the docks, the value painter, the specs' text reads) sees the
+  // same DOM as an open card, and the back is pointer-events:none so the face still takes the hit.
+  _hideMode() { const m = this.get("hideMoves", ""); return m === "back" || m === "name" ? m : ""; }
+  _hideCard(card, mode, opt, n) {
+    card.dataset.hide = mode;
+    const back = document.createElement("div");
+    back.className = "ng-choice-back"; back.setAttribute("aria-hidden", "true");
+    back.innerHTML = this.choiceShape(n);
+    card.appendChild(back);
+    card.addEventListener("pointerdown", e => { card._pt = e.pointerType; });
+    card.addEventListener("pointerenter", e => { if (e.pointerType === "mouse") this._peek(card, true); });
+    card.addEventListener("pointerleave", e => { if (e.pointerType === "mouse") this._peek(card, false); });
+  }
+  // touch or pen on an unrevealed card: reveal it (and close the one revealed before). Consumed.
+  _hideTap(card, e) {
+    if (card._pt === "mouse" || card.hasAttribute("data-revealed")) return card._choiceOpt.threat && card._pt !== "mouse" ? (this._peek(card, false, true), true) : false;
+    for (const c of this._optionCards || []) if (c.card !== card) this._peek(c.card, false, true);
+    this._peek(card, true);
+    e.stopPropagation();
+    return true;
+  }
+  _peek(card, on, force) {
+    const opt = card._choiceOpt, lit = this._hmLit = this._hmLit || new Set();
+    if (!on) {
+      if (this._hmAll || (!force && card._pt && card._pt !== "mouse")) return;
+      card.removeAttribute("data-revealed"); card.removeAttribute("data-grading");
+      lit.delete(opt.idx); lit.delete(opt.res);
+      return;
+    }
+    card.setAttribute("data-revealed", "");
+    lit.add(opt.idx); if (opt.res != null) lit.add(opt.res);
+    (this._hmPeeks = this._hmPeeks || new Set()).add(opt);
+    if (this.get("hideGrade", "card") !== "card" || card.dataset.graded) return;
+    let strip = card.querySelector("[data-choice-grade]");
+    if (!strip) {
+      strip = document.createElement("div");
+      strip.className = "ng-choice-grade"; strip.setAttribute("data-choice-grade", "");
+      strip.innerHTML = '<span>Did you get it?</span><button type="button" data-grade="yes">Yes</button><button type="button" data-grade="no">No</button>';
+      for (const type of ["pointerdown", "click"]) strip.addEventListener(type, ev => ev.stopPropagation());
+      strip.addEventListener("click", ev => {
+        const b = ev.target.closest("[data-grade]"); if (!b) return;
+        card.dataset.graded = b.dataset.grade; card.removeAttribute("data-grading");
+        (this._hmGrades = this._hmGrades || new Map()).set(opt, b.dataset.grade === "yes");
+      });
+      card.appendChild(strip);
+    }
+    card.setAttribute("data-grading", "");
+  }
+  // 5b, the comparison: ONE grade per state, asked once the whole row is shown.
+  _hideStateBar(title) {
+    const bar = document.createElement("span");
+    bar.className = "ng-hide-state";
+    const ask = () => {
+      bar.innerHTML = '<span>Did you remember the moves from here?</span>' + ["All", "Some", "None"].map(g => '<button type="button" data-state-grade="' + g + '">' + g + '</button>').join("");
+    };
+    bar.innerHTML = '<button type="button" data-hide-all>Show all</button>';
+    bar.addEventListener("click", e => {
+      const b = e.target.closest("button"); if (!b) return;
+      e.stopPropagation();
+      if (b.hasAttribute("data-hide-all")) {
+        this._hmAll = true;
+        for (const c of this._optionCards || []) { c.card.setAttribute("data-revealed", ""); (this._hmPeeks = this._hmPeeks || new Set()).add(c.opt); }
+        ask();
+      } else { this._hmState = b.dataset.stateGrade; bar.innerHTML = '<span>Noted: ' + b.dataset.stateGrade + '</span>'; }
+    });
+    title.classList.add("ng-hide-state-title");
+    title.appendChild(bar);
   }
   // repaint ONE dealt card's EDGE channel in place — corner number, glyph and clock bar, all three
   // from the same `edgeMark`, so they cannot drift apart between a deal and a refresh.
@@ -17949,6 +18027,9 @@ class Component extends DCLogic {
     face.removeAttribute("data-tech");
     face.removeAttribute("data-choice-action");
     face.removeAttribute("tabindex");
+    // a blind pick (number key) still shows the move it played: the stand-in is always face up
+    for (const a of ["data-hide", "data-revealed", "data-grading", "data-graded"]) face.removeAttribute(a);
+    face.querySelectorAll(".ng-choice-back, [data-choice-grade]").forEach(el => el.remove());
     card.setAttribute("data-executing-tech", this.choiceLabel(opt));
     card.setAttribute("role", "status");
     card.setAttribute("aria-live", "polite");
@@ -20721,8 +20802,11 @@ class Component extends DCLogic {
       if (this.optionIdxs && this.optionIdxs.length && !this.pulse) {
         this._lastOptLabels = [];
         ctx.textBaseline = "bottom"; ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
+        // hidden moves: the map names only the dealt moves whose card is face up
+        const hm = this._hideMode() && !this._hmAll ? (this._hmLit || (this._hmLit = new Set())) : null;
         for (const idx of this.optionIdxs) {
           const n = this.nodes[idx]; if (!n) continue;
+          if (hm && !hm.has(idx)) continue;
           // a staged exchange makes a dealt option THE FOCUS (v1.132.0) — the pair group already
           // names it, and an option label on the same orb is the "printed twice" defect the
           // in-node pass was deleted for. Never possible before: an option was never the focus.
