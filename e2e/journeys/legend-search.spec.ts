@@ -225,4 +225,19 @@ for (const [width, height, touch] of [[390, 631, true], [1440, 900, false]] as [
   })
 }
 
-// Red-proof: filled in by the round's mutant run (tests/artifacts/neural_app_mutants.mjs, served neural.js and neural.css).
+// Red-proof (v1.254.0, on the served bundle against green baselines; each killed at the named claim):
+//   tests/artifacts/neural_app_mutants.mjs
+//     key-shows-over-article ... `_mapAlone` without the article ......... an article on screen is a node revealed
+//     key-never-away / key-never-shown / key-away-sticks ................. hidden once a node is revealed / shows on the map alone /
+//                                                                            comes back when the map is alone again
+//     key-away-css-lost (neural.css, 768 by touch) ........................ the key is hidden once a node is revealed
+//     bar-never-away / bar-clearance-lost (+12 -> +0) / bar-away-sticks ... the bar steps aside / within 12px of the index /
+//                                                                            with room again, the bar comes back
+//     bar-never-away-touch (1366x768) / bar-away-css-lost .................. the bar is away / the bar steps aside
+//     search-icon-capture (the icon's pointerdown stop removed, §6.1) ...... a press opens the drawer
+//     search-icon-over-drawer / search-no-focus (390 by touch) ............. a press opens the drawer
+//     slash-own-path ("/" off the seam) .................................... "/" takes the same seam
+//     search-phone-seat-lost (neural.css) .................................. 6px right of the drawer button
+//   tests/artifacts/article_sections_mutants.mjs
+//     ghost-press-reopens-card (the button guard removed, 768 by touch) .... the tap that closed the card does not reopen it
+// UNGUARDED: reader.src.js's execution-label occupied list naming `.ng-search` (no journey frames a travelling name there).
