@@ -11178,7 +11178,7 @@ class Component extends DCLogic {
     return text.slice(0, i) + '<span style="background:rgba(120,160,255,.32);border-radius:3px;padding:0 1px;">' + text.slice(i, i + q.length) + '</span>' + text.slice(i + q.length);
   }
   /** ONE WAY INTO SEARCH (v1.254.0): the search icon beside the drawer button, "/" and Cmd/Ctrl+K open the drawer on its list
-   *  with its search box focused. Phones too, unlike the drawer button: a search press asks for the keyboard. v1.255.1: the old
+   *  with its search box focused. Phones too, unlike the drawer button: a search press asks for the keyboard. v1.254.1: the old
    *  search modal (`openSearch`, `renderSearch`, `locateNode2`), which no control and no key opened, is retired; its journeys
    *  (alias-search, seat-word-and-search) drive this search by real input now. */
   openSearchPane(via) {

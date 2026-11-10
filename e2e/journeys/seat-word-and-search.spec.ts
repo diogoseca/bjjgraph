@@ -18,7 +18,7 @@ type W = Window & { __neural: any }
  *    so the kicker was wrong on 90.7% of them. With no roll in play `roleLabel()` returns the
  *    constant "Top", so it was a constant dressed as a measurement (CLAUDE.md §6.6).
  *
- * 2. THE SEARCH MODAL LISTED EVERY SITE TWICE (the modal is retired since v1.255.1; the claim now runs on the drawer's
+ * 2. THE SEARCH MODAL LISTED EVERY SITE TWICE (the modal is retired since v1.254.1; the claim now runs on the drawer's
  *    search). `renderSearch` filtered `this.nodes` with no `rep` term. `_deriveDualPairs` gives both members of a pair the hub's own title (`t: h.t`), so a
  *    title match resolved to the site twice and the 100-cap then showed 50 sites. The Explore
  *    pane's search has always filtered; this one never did.
@@ -38,7 +38,7 @@ type W = Window & { __neural: any }
  *    stamps in place of the node's real category. That loses the submission/transition distinction,
  *    so a `<name>|Defender` submission deck opened from the panic drill reads DEFENDING where
  *    ESCAPING is right. That is the override's defect and belongs with the Defender-deck work.
- *  · (The search modal's detail pane went with the modal in v1.255.1.)
+ *  · (The search modal's detail pane went with the modal in v1.254.1.)
  *  · The vocabulary strings themselves are pinned by `dual-pair.spec.ts` on the canvas side; this
  *    spec pins that the DRILL side reads the same table for the same deck.
  */
@@ -88,7 +88,7 @@ test("@curated the drill header names the DECK's seat, and the roll cannot move 
   }
 })
 
-// v1.255.1: the search modal is retired; the claim moves to the one search a player reaches, the drawer's, opened by a finger on
+// v1.254.1: the search modal is retired; the claim moves to the one search a player reaches, the drawer's, opened by a finger on
 // the search icon at 390x631. The empty query is the drawer's browse tree there, not a node list, so "top" (a seat word) stands
 // in for it. The drawer has filtered `rep` since before this claim existed; this pins that it still does.
 test.describe("the drawer's search, 390x631 by touch", () => {

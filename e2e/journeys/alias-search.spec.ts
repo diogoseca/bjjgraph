@@ -18,7 +18,7 @@ const fixture = (page: Page) => page.evaluate(() => {
   }));
 });
 
-// v1.255.1: the old search modal is retired (no control and no key opened it). These cases drive the one search a player reaches,
+// v1.254.1: the old search modal is retired (no control and no key opened it). These cases drive the one search a player reaches,
 // the drawer's, by real input: the search icon pressed by mouse where it sits, and keys for the text and the caret.
 const openSearch = async (page: Page, j: ReturnType<typeof journey>) => {
   await j.clickByMouse(".ng-search", "the search icon");

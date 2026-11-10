@@ -151,7 +151,7 @@ test("VIDEO2 a failed non-indexed article retains its pending URL/title on Retry
   await exactTitle(page, "successful reader retry")
 })
 
-// #331's review (R1), v1.255.1: Retry reopened the normalised path, so a pending non-indexed article lost its #section. The corpus
+// #331's review (R1), v1.254.1: Retry reopened the normalised path, so a pending non-indexed article lost its #section. The corpus
 // has no such link today (the review's scan), so an authored-link fixture points the page's own Systems link at a real section.
 // Red-proof: tests/artifacts/article_sections_mutants.mjs `retry-drops-fragment` (Retry back on `path`) is killed at the claim.
 test("VIDEO2 a failed non-indexed article keeps its #section on Retry", async ({ page }) => {
