@@ -324,6 +324,9 @@ const controls = [
     [['_tapBackground(){var e;if(this._traySup||this._suppressLand(!1),this.closeDeckIfStudying(),', '_tapBackground(){var e;if(this.closeDeckIfStudying(),']], 'card'],
   ['tap-unsuppress-lost-index', 'index-reveal.spec.ts', 'background tap',
     [['_tapBackground(){var e;if(this._traySup||this._suppressLand(!1),this.closeDeckIfStudying(),', '_tapBackground(){var e;if(this.closeDeckIfStudying(),']], 'card'],
+  // v1.255.2: the Google button writes the sign-in intent its SIGNED_IN counts (tests/save_echo.test.mjs pins the counting rule).
+  ['google-intent-unwritten', 'signin-intent.spec.ts', 'Continue with Google writes the sign-in intent',
+    [['this._signinIntent("google",t),this.track("neural_signin_started"', 'this.track("neural_signin_started"']], 'the Google button writes the intent'],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')

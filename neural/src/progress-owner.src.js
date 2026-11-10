@@ -12,6 +12,18 @@ const NG_PROGRESS_LEGACY_FIELD_PREFIX = "bjj-neural-";
 
 function ngProgressObject(value) { return !!value && typeof value === "object" && !Array.isArray(value); }
 function ngProgressClone(value) { return JSON.parse(JSON.stringify(value)); }
+// v1.255.2: what a cloud write would store, for "has anything changed since the cloud last held this?". Two things are left out:
+// `updatedAt`, the one write-time stamp (`_progressBlob` sets it to the clock on every call, so two writes of the same progress always
+// differ there), and key order, at every depth (the database's JSONB reorders keys, and a merge may build them in another order).
+// Leaving `updatedAt` out is safe: only two merge steps read it, and neither needs a push that advances nothing else. Settings merge
+// per key on `settingsAt` and fall back to the blob's stamp only for keys older than per-key stamps; there a stamp-only push would make
+// an unchanged value look newer than another device's real edit. The white-challenge migration stamps what it migrates with it.
+export function ngProgressCloudKey(blob) {
+  const sorted = (v) => Array.isArray(v) ? v.map(sorted)
+    : ngProgressObject(v) ? Object.keys(v).sort().reduce((out, k) => { out[k] = sorted(v[k]); return out; }, {}) : v;
+  const { updatedAt, ...rest } = ngProgressObject(blob) ? blob : {};
+  return JSON.stringify(sorted(rest));
+}
 function ngProgressFreeze(value) {
   if (value && typeof value === "object") { Object.values(value).forEach(ngProgressFreeze); Object.freeze(value); }
   return value;
