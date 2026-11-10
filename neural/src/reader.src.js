@@ -358,8 +358,9 @@ class Reader {
       else if (this.interacting) this.heading.focus({ preventScroll: true });
     } catch (error) {
       if (serial !== this.renderSerial || error.name === "AbortError" || this.app.__ngDestroyed) return;
+      // #331's review (R1): Retry reopens the address as asked, its #section included; `path` is normalised and has none.
       this.articleEl.replaceChildren(element("p", { role: "alert" }, error.message),
-        button("Retry article", () => this.open({ path, intent, push }), { "data-reader-retry": "" }),
+        button("Retry article", () => this.open({ path: url.href, intent, push }), { "data-reader-retry": "" }),
         element("a", { href: path, target: "_blank", rel: "noopener" }, "Open the original page in a new tab"));
     }
   }
