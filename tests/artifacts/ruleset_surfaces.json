@@ -132,7 +132,7 @@
    "fn": "_ensureAliases",
    "file": "neural/src/app.src.jsx",
    "snippet": "this._idIndex.get(",
-   "reason": "SEARCH METADATA, not a displayed or dealt node. This one-time deferred load attaches aliases to both role nodes across rulesets. Filtering during hydration would permanently omit aliases when the player later switches rulesets because _aliasesWait is reused. The consumers apply the mask: renderExplorer filters with rsAllows before nodeMatches, and renderSearch filters representative nodes with rsAllows before matching aliases."
+   "reason": "SEARCH METADATA, not a displayed or dealt node. This one-time deferred load attaches aliases to both role nodes across rulesets. Filtering during hydration would permanently omit aliases when the player later switches rulesets because _aliasesWait is reused. The consumer applies the mask: renderExplorer filters representative nodes with rsAllows before nodeMatches (the search modal that also read them was retired in v1.254.1)."
   },
   "neural/src/app.src.jsx::_pageTitle::this._idIndex?.get(": {
    "fn": "_pageTitle",
