@@ -1,15 +1,14 @@
 // THE `moves` RECORD (v1.255.0, hidden moves, owner U116): moves[state][move] = [due, ivl, last, ok].
-// Its merge rule (`ngKnowledgeMergeMoves`, knowledge-profile.src.js) and the blob validator's entry
+// Its merge rule (`ngProgressMergeMoves`, progress-owner.src.js) and the blob validator's entry
 // (`ngProgressValidateBlob`, progress-owner.src.js). The app wiring (emit, hydrate, merge call) is
 // pinned end to end by e2e/journeys/hidden-moves.spec.ts ("kept across a reload").
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import * as K from "../neural/src/knowledge-profile.src.js";
-import { ngProgressValidateBlob } from "../neural/src/progress-owner.src.js";
+import { ngProgressValidateBlob, ngProgressMergeMoves } from "../neural/src/progress-owner.src.js";
 
 const S = "76/top", M = "307", T = 20000;
-const merge = (l, c, today = T) => K.ngKnowledgeMergeMoves(l, c, today);
+const merge = (l, c, today = T) => ngProgressMergeMoves(l, c, today);
 
 test("a cell only one side has is kept, from either side", () => {
   assert.deepEqual(merge({ [S]: { [M]: [T + 3, 3, T, 1] } }, {}), { [S]: { [M]: [T + 3, 3, T, 1] } });
@@ -63,6 +62,6 @@ test("the blob validator accepts `moves` rows and rejects a broken one", () => {
 
 test("the app merges `moves` through this function and emits it in the blob", () => {
   const app = readFileSync(new URL("../neural/src/app.src.jsx", import.meta.url), "utf8");
-  assert.match(app, /this\.moves = ngKnowledgeMergeMoves\(this\.moves \|\| \{\}, cloud\.moves \|\| \{\}, today\)/);
+  assert.match(app, /this\.moves = ngProgressMergeMoves\(this\.moves \|\| \{\}, cloud\.moves \|\| \{\}, today\)/);
   assert.match(app, /srs: this\.srs \|\| \{\}, moves: this\.moves \|\| \{\}/);
 });

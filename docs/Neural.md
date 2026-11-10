@@ -255,35 +255,18 @@ borrows the announcer. `tests/roll_execution.test.mjs` pins source behavior;
 
 ### Hidden moves (v1.255.0, owner U115 b + U116)
 
-"Hide moves until I look" (Rolling settings, `hideMoves`, a boolean, off by default) deals the row
-with each card's **name and film face down**; Works % and Win % stay, and the map does not name a
-dealt move until its card is face up. Every card hides: your moves, the opponent's threats and the
-escape tray. Hiding is CSS on `data-hide`, so the card's DOM, text and measurements are unchanged.
-
-- **Reveal.** A mouse hover stands the card out at once (a transform on the card alone, a faint
-  glow; none under reduced motion) and turns it face up after `NG_PEEK_DWELL_MS` (250 ms), so a
-  sweep across the row peeks at nothing. On touch, the first tap turns a card up and plays nothing;
-  the second plays. "Show all" beside "Your move" turns the row up for the turn. Keys 1–9 play blind,
-  and the execution stand-in is always face up. The Suggested badge reads "Hover to reveal" ("Tap to
-  reveal" on touch) while its card is down. A peek touches the hand, so it never re-sorts under one.
-  A staged card (an orb tapped on the map) is face up: you named it.
-- **The film button** has its own animation: hovering the card leaves it still; hovering the button
-  lifts and rings it while the card stays lit.
-- **The grade.** Face up, a move you do not know yet asks "Did you get it?" with **Yes** only (a peek
-  without a Yes records nothing). A move you know that is **due** asks "Still got it?" with **Yes /
-  No**: No takes its gold away and starts its schedule over; Yes moves its due date on. A move you
-  know that is not due asks nothing, and "Show all" asks nothing.
-- **The record.** `moves[state][move] = [due, ivl, last, ok]` in the progress blob, beside `srs`:
-  state = `<site ordinal>/<role>` (a threat files under the opponent's role), move = the technique's
-  site ordinal, or `e` + qhash(label) for an escape. It is NOT `stage` or `srs` (deckMastery and the
-  daily count read every cell of those). It merges by `srs`'s recency rule
-  (`ngKnowledgeMergeMoves`). `ok = 1` is **mastered** whatever the due date: the last answer counts.
-- **Gold.** A mastered move's card wears a thin gold outline and a faint warm light in every row,
-  hidden or not. It changes no odds, score, belt or map gold in this version.
-- PostHog: `neural_move_recalled` (`got`, `threat`, `escape`); `neural_move_picked` carries
-  `hidden`, `peeked` and `shown_all` while the mode is on.
-
-Pinned by `e2e/journeys/hidden-moves.spec.ts` (mouse and touch) and `tests/moves_record.test.mjs`.
+"Hide moves until I look" (Rolling settings, `hideMoves`, off by default) deals every card — yours,
+threats, escapes — with its **name and film face down**; Works % and Win % stay, and the map names
+no dealt move until its card is up. Hiding is CSS on `data-hide`: the card's DOM and text never change.
+A hover stands the card out at once (a transform, none under reduced motion) and turns it up after
+`NG_PEEK_DWELL_MS`; on touch the first tap turns it up and the second plays. "Show all" turns the
+row up; keys 1–9 play blind; the stand-in is always face up; a peek touches the hand. The film button
+animates on its own hover only. Face up, an unknown move asks "Did you get it?" (Yes only); a known
+move that is due asks "Still got it?" (Yes / No — No takes its gold away); a known move not due, or
+"Show all", asks nothing. `moves[state][move] = [due, ivl, last, ok]` (state `<site ordinal>/<role>`,
+an escape `e` + qhash(label)) rides the blob beside `srs`, never inside `stage` or `srs`, and merges
+by `srs`'s rule (`ngProgressMergeMoves`). `ok = 1` is mastered — the last answer — and wears thin
+gold in every row; it moves no odds, score or map gold. Pinned by `e2e/journeys/hidden-moves.spec.ts`.
 
 ### The current node's media card
 

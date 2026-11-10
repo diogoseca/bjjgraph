@@ -316,33 +316,6 @@ export function ngKnowledgeScheduleRow(prior, ok, day) {
   const ivl = ok ? NG_KNOWLEDGE_INTERVALS[Math.min(NG_KNOWLEDGE_INTERVALS.length - 1, at + 1)] : NG_KNOWLEDGE_INTERVALS[0];
   return [day + ivl, ivl, day];
 }
-// THE `moves` MERGE (v1.255.0): moves[state][move] = [due, ivl, last, ok], two devices' copies,
-// cell by cell, by `srs`'s rule (app.src.jsx _mergeProgressFields): the later `last` wins; a
-// same-day tie goes to the SMALLER interval, so a same-day No (rung 0) beats a same-day Yes; a
-// winner past rung 0 keeps the longer interval it lost, which heals a fresh device's 1 -> 3 against
-// a mature schedule. The winner's answer (`ok`) rides with it: mastery is the LAST answer. Ingested
-// `last` is clamped to today so a fast clock cannot win forever. Returns a new map; inputs untouched.
-export function ngKnowledgeMergeMoves(local, cloud, today) {
-  const out = {};
-  for (const s in local || {}) out[s] = Object.assign({}, local[s]);
-  for (const s in cloud || {}) {
-    const l = (out[s] = out[s] || {}), cs = cloud[s] || {};
-    for (const mv in cs) {
-      const c = cs[mv], m = l[mv];
-      if (!Array.isArray(c) || c.length < 4) continue;
-      const cc = [c[0] | 0, c[1] | 0, Math.min(today, c[2] | 0), c[3] ? 1 : 0];
-      if (!m) { l[mv] = cc; continue; }
-      let w, o;
-      if (cc[2] > m[2]) { w = cc; o = m; }
-      else if (m[2] > cc[2]) { w = m; o = cc; }
-      else if (cc[1] < m[1]) { w = cc; o = m; }
-      else { w = m; o = cc; }
-      if (w[1] > 1 && o[1] > w[1]) w = [w[2] + o[1], o[1], w[2], w[3]];
-      l[mv] = w;
-    }
-  }
-  return out;
-}
 export function ngKnowledgeApplyGrade(evidence, event, manifest, day) {
   const e = evidence || ngKnowledgeBuildEvidence();
   const invalid = !event || !event.attemptId || !event.key || !event.card || !event.card.q ||

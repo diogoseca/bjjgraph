@@ -67,6 +67,35 @@ export function ngProgressValidateBlob(value) {
   return value;
 }
 
+// THE `moves` MERGE (v1.255.0): moves[state][move] = [due, ivl, last, ok], two devices' copies,
+// cell by cell, by `srs`'s rule (app.src.jsx _mergeProgressFields). It lives HERE, with the
+// blob's validator, because it is blob code: knowledge-profile's bytes are pinned by the study engine's law
+// hashes, and the app harnesses that exercise the merge load this module, not that one: the later `last` wins; a
+// same-day tie goes to the SMALLER interval, so a same-day No (rung 0) beats a same-day Yes; a
+// winner past rung 0 keeps the longer interval it lost, which heals a fresh device's 1 -> 3 against
+// a mature schedule. The winner's answer (`ok`) rides with it: mastery is the LAST answer. Ingested
+// `last` is clamped to today so a fast clock cannot win forever. Returns a new map; inputs untouched.
+export function ngProgressMergeMoves(local, cloud, today) {
+  const out = {};
+  for (const s in local || {}) out[s] = Object.assign({}, local[s]);
+  for (const s in cloud || {}) {
+    const l = (out[s] = out[s] || {}), cs = cloud[s] || {};
+    for (const mv in cs) {
+      const c = cs[mv], m = l[mv];
+      if (!Array.isArray(c) || c.length < 4) continue;
+      const cc = [c[0] | 0, c[1] | 0, Math.min(today, c[2] | 0), c[3] ? 1 : 0];
+      if (!m) { l[mv] = cc; continue; }
+      let w, o;
+      if (cc[2] > m[2]) { w = cc; o = m; }
+      else if (m[2] > cc[2]) { w = m; o = cc; }
+      else if (cc[1] < m[1]) { w = cc; o = m; }
+      else { w = m; o = cc; }
+      if (w[1] > 1 && o[1] > w[1]) w = [w[2] + o[1], o[1], w[2], w[3]];
+      l[mv] = w;
+    }
+  }
+  return out;
+}
 export function ngProgressOwner(userId = null) {
   if (userId === null) return Object.freeze({ kind: "guest" });
   if (typeof userId !== "string" || !userId) throw new TypeError("A verified account ID is required");

@@ -6623,9 +6623,9 @@ class Component extends DCLogic {
             }
           }
           // `moves` merges by the same recency rule, cell by cell, carrying the winner's answer
-          // (knowledge-profile.src.js). A device on an older build keeps the field whole in its
+          // (progress-owner.src.js). A device on an older build keeps the field whole in its
           // extras and can push a stale copy; the next pull here heals it cell by cell.
-          this.moves = ngKnowledgeMergeMoves(this.moves || {}, cloud.moves || {}, today);
+          this.moves = ngProgressMergeMoves(this.moves || {}, cloud.moves || {}, today);
         }
         // dayLog merge (v1.105.7): per-day, union of technique keys, latest score snapshot
         {
@@ -13435,7 +13435,7 @@ class Component extends DCLogic {
       }
       if (label) label.textContent = view.immediateLabel === "Finish" ? "Submit" : view.immediateLabel;
       const execute = oc.card.querySelector("[data-choice-execute]");
-      if (execute) oc.card.querySelectorAll("[data-choice-execute]").forEach(button => { button._ngFull = this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + (view.immediateText || view.immediateLabel + " chance " + view.immediate) + "."; this._hideAria(oc.card); });
+      if (execute) oc.card.querySelectorAll("[data-choice-execute]").forEach(button => { button.setAttribute("aria-label", button._ngFull = this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + (view.immediateText || view.immediateLabel + " chance " + view.immediate) + "."); if (oc.card.hasAttribute?.("data-hide")) this._hideAria(oc.card); });
       const best = oc.card.querySelector("[data-choice-recommended]");
       if (best) best.textContent = view.recommended ? (view.recommendationLabel || "Recommended") : "";
     }
