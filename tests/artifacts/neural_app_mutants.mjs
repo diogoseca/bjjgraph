@@ -26,6 +26,14 @@ const original = readFileSync(app), source = original.toString()
 // D-370: optional NEURAL_MUTANT_CSS, the served neural.css, for controls whose claim is an eager stylesheet rule.
 const cssPath = process.env.NEURAL_MUTANT_CSS, cssOriginal = cssPath ? readFileSync(cssPath) : null
 // [name, spec, grep, [[minified target, replacement]...], claim: message text or the asserting line, css edits?]
+// #354's review (finding 2), v1.253.0: a static replay against the served bundle found rows whose targets were gone. Nine moved with
+// this PR's edits (rounds 5 to 7; the minifier renames locals as code shifts) and are retargeted or retired here: d352-book-rehold (retired with its journey), d370-late-film-unheld-390/-1440,
+// film-suggest-node-lost, film-suggest-kind-lost, film-none-close-back, ask-fit-late, d354-held-hand-no-value, u35-watch-in-question.
+// FIFTEEN WERE ALREADY STALE ON DEV (the minifier renamed their locals; replayed against dev's own bundle, built from origin/dev):
+// reward-hold-lost, d338-saved-focus-layer-read, d351-hand-hold-removed, d354-pane-follow-lag, d370-band-186-in-catch,
+// u16-band-restoration-lost, slowclear, d355-flight-lift-ungated, d355-flight-lift-lost, flight-lift-fixed-margin,
+// flight-lift-tracking-lost, concept-fit-reveal-lost, u47-question-tap-dead, u47-desktop-offer-lost, reading-intent-blocks-digit.
+// They are left as they were, recorded, not counted as coverage until someone retargets them.
 const controls = [
   // D10-N1: a genuinely held deck manifest lands while Watch is open. Suppress only that backfill;
   // the new question-presence claim must fail, rather than passing on an already-mounted card.
@@ -62,8 +70,7 @@ const controls = [
     [['["land","attempt","defense"].includes(this._landMode)&&this._landPage!=null&&(r.key==="ArrowLeft"', '["land","attempt"].includes(this._landMode)&&this._landPage!=null&&(r.key==="ArrowLeft"']], 'arrows page the defender deck'],
   // D-352 (Delta 6): S1, a landing laid out with the article put away is live, so showing the article
   // mid-load publishes it pinned instead of holding it; and N1, the hand's half of D-351's hold.
-  ['d352-book-rehold', 'article-sections.spec.ts', 'D-352: showing the article while its page loads',
-    [['else if(!t)n.live=!0;else{', 'else if(!t);else{']], 'the live hand is never hidden again'],
+  // d352-book-rehold RETIRED in v1.253.0 (#354's review, finding 2): the article-away hold it removed and its journey went with U114 a.
   ['d351-hand-hold-removed', 'article-sections.spec.ts', 'D-351: an exchange whose article lands late',
     [['p==null||p.toggleAttribute("data-reader-pending",a>0);return d&&a<=0', 'p==null||p.toggleAttribute("data-reader-pending",!1);return d&&a<=0']], 'the new hand is shown once, at its final place'],
   // D-354 (Delta 8, B1): parts the reader adopted follow the pane's slide in the same frame.
@@ -71,7 +78,7 @@ const controls = [
     [[',this.uiShift!==s&&((r=this._reader)==null||r.layoutNow())', '']], 'the card and its arrows follow the pane in the same frame'],
   // D-354 (H95, H97): REAL BREAK from D-351. A hand the reader held starts its Win chance when it publishes.
   ['d354-held-hand-no-value', 'article-sections.spec.ts', 'D-354: a hand the reader held starts its Win chance',
-    [['return d&&a<=0&&this._ensureGameValues(),a}_readerGraded(){', 'return a}_readerGraded(){']], 'the Win chance starts in the frame the held hand publishes'],
+    [['return l&&o<=0&&this._ensureGameValues(),o}_readerGraded(){', 'return o}_readerGraded(){']], 'the Win chance starts in the frame the held hand publishes'],
   // RETIRED (D-368, layout C): d354-play-film-left-home; the game film never enters the Videos slot.
   // D-354 N3: the film's only remover ends the reader's media-home observation.
   ['d354-removed-film-observed', 'defending-landing.spec.ts', 'D-354 N3: a removed film',
@@ -114,10 +121,11 @@ const controls = [
     [['this.isMobile()&&!!this._defensePressure&&this._layerOn("card")', 'this.isMobile()&&this._landMode==="defense"&&this._layerOn("card")']],
     'a calm phone defender keeps the usual band'],
   // D-370 (2), D-325: a published question never moves for its film; the hold waits for the node's content chunk.
+  // v1.253.0: retargeted, and they name the assertion they turn red; the test checks the late film stays unmounted before it checks the answers.
   ['d370-late-film-unheld-390', 'reading-media-placement.spec.ts', '390px a film chunk landing after 2.6s',
-    [['l&&!l.done&&a<=0&&t&&!this._readerPin&&this._filmPending()', '!1']], 'the published answers never move'],
+    [['a&&!a.done&&o<=0&&!this._readerPin&&this._filmPending()', '!1']], 'past the ceiling the late film does not mount while the question is live'],
   ['d370-late-film-unheld-1440', 'reading-media-placement.spec.ts', '1440px a film chunk landing after 2.6s',
-    [['l&&!l.done&&a<=0&&t&&!this._readerPin&&this._filmPending()', '!1']], 'the published answers never move'],
+    [['a&&!a.done&&o<=0&&!this._readerPin&&this._filmPending()', '!1']], 'past the ceiling the late film does not mount while the question is live'],
   // D-355: the band's soft hold engages only for a flight that reaches its lower edge (a URL arrival), never for one
   // inside the band (a hover's re-aim), and it is what keeps the arrival clear of the Moves row.
   // CLEAR_SEC (v1.219.0's hand mutant `slowclear`, scripted at APTS-CI2): the lift's edge takes 1 s and every flight
@@ -221,7 +229,7 @@ const controls = [
   ['u36-motion-listener-lost', 'defending-landing.spec.ts', 'reduced motion keeps a static cue',
     [['(e=this._motionQuery)==null||e.addEventListener("change",this._motionChanged)', '(e=this._motionQuery)==null||0']], 'the media-change listener acted, with no frame pumped'],
   ['u35-watch-in-question', 'covered-card.spec.ts', 'U35 every question builder segregates technique media',
-    [['if(c.appendChild(f),this._landQ=d', 'if(c.appendChild(f),c.insertAdjacentHTML("beforeend","<button data-choice-watch>Watch technique</button>"),this._landQ=d']], 'U35 question surfaces contain no media/watch controls'],
+    [['if(c.appendChild(p),this._landQ=d', 'if(c.appendChild(p),c.insertAdjacentHTML("beforeend","<button data-choice-watch>Watch technique</button>"),this._landQ=d']], 'U35 question surfaces contain no media/watch controls'],
   // REAL BREAK inherited from bfdfad39d: a reading arrival has intent=true and a live hand. Restoring that
   // gate leaves plain digits dead although the same card plays by mouse (H138 video-cards cross).
   ['reading-intent-blocks-digit', 'submission-choices.spec.ts', 'triangle defender',
@@ -232,10 +240,10 @@ const controls = [
     [['(u=o.querySelector("[data-film-suggest]"))==null||u.addEventListener', '(u=o.querySelector("[data-film-suggest-off]"))==null||u.addEventListener']],
     'Suggest a video opens Feedback'],
   ['film-suggest-node-lost', 'film-suggest.spec.ts', 'about that move at 1440',
-    [['p.stopPropagation(),this.openFeedback(a)});let d=o.querySelector(".ng-cliprow")', 'p.stopPropagation(),this.openFeedback()});let d=o.querySelector(".ng-cliprow")']],
+    [['f.stopPropagation(),this.openFeedback(a,o._ngMediaRole)});let d=o.querySelector(".ng-cliprow")', 'f.stopPropagation(),this.openFeedback()});let d=o.querySelector(".ng-cliprow")']],
     'the form asks for the link and the second'],
   ['film-suggest-kind-lost', 'film-suggest.spec.ts', 'about that move at 1440',
-    [['...e&&{kind:"video"}}),this.closeModal(', '}),this.closeModal(']], 'a video suggestion about the shown move'],
+    [['...e&&{kind:"video",seat:t}}),this.closeModal(', '}),this.closeModal(']], 'a video suggestion about the shown move'],
   // #346's review (v1.252.1). Finding 1: the Previous arrow's home beside the index, by its rule and by the attribute the app sets.
   ['deck-prev-home-rule-lost', 'deck-arrows-index.spec.ts', 'finding 1', [],
     '[data-land-prev] lies right of the index at the top', [['.ng-landnav[data-index] [data-land-prev]{', '.ng-landnav[data-index-off] [data-land-prev]{']]],
@@ -252,6 +260,9 @@ const controls = [
   // v1.253.0: the film's seat row prints the win bar's own number.
   ['seat-win-unwired', 'state-win.spec.ts', 'seat row prints',
     [['currentWinView(){return this._winView||', 'currentWinView(){return null||']], 'the seat row agrees with the win bar'],
+  // v1.253.0 (#354's review, finding 1): a landing the background tap took away comes back from its index row.
+  ['land-away-unrestored', 'index-reveal.spec.ts', 'after a background tap the Questions',
+    [['restoreLanding(){if(!this._landAway())return!1;', 'restoreLanding(){return!1;if(!this._landAway())return!1;']], 'the row brings this landing\'s card and film back'],
   // v1.253.0 (U114 a): with the shelf retired, nothing reserves the bottom where no chrome falls under the grid.
   ['reader-reserve-shelf-floor', 'reader-fold.spec.ts', '1440x900',
     [['_readerReserve(e){let t=0', '_readerReserve(e){let t=12']], 'the reader runs to the fold'],
@@ -260,9 +271,9 @@ const controls = [
   // NOT KILLED since v1.253.0: the tease spans the choices row, and no authored question (100 characters at most) needs fitting there,
   // so a late fit wraps nothing. Kept as the record; the fit's column path has no live claim.
   ['ask-fit-late', 'article-dashboard.spec.ts', 'other column \\(30% down\\)',
-    [['p.clientWidth!==p._fitW&&this._fitAskLine(p,p._fitW=p.clientWidth)}return', 'p.clientWidth}return']], 'the asking line stays one line on every pass'],
+    [['f.clientWidth!==f._fitW&&this._fitAskLine(f,f._fitW=f.clientWidth)}return', 'f.clientWidth}return']], 'the asking line stays one line on every pass'],
   ['film-none-close-back', 'film-suggest.spec.ts', 'about that move at 1440',
-    [['if(e.length){let p=document.createElement("button");p.type="button",p.setAttribute("data-film-close","1")', 'if(1){let p=document.createElement("button");p.type="button",p.setAttribute("data-film-close","1")']],
+    [['if(e.length){let f=document.createElement("button");f.type="button",f.setAttribute("data-film-close","1")', 'if(1){let f=document.createElement("button");f.type="button",f.setAttribute("data-film-close","1")']],
     'nothing to dismiss: no ✕'],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null

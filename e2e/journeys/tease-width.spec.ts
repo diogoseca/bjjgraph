@@ -41,6 +41,25 @@ for (const [width, height] of [[1440, 900], [1100, 900], [1024, 768]] as const) 
   })
 }
 
+// #354's review (finding 7): the tease's drop applied whenever this card had once asked under an open Moves row, so with Moves closed
+// the same asking state put the film at two heights (22.5px apart at 1440). Now the drop applies only while Moves is open.
+test("@curated v1.253.0: with Moves closed after the tease, the asking film starts on the question, whatever Moves did before (1440)", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 })
+  const j = journey(page)
+  await j.boot(PATH, { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", route => route.continue()) } })
+  await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible()
+  await expect(page.locator("[data-land-ask-go]")).toBeVisible()
+  await j.readerLayoutSettled()
+  const spanned = await box(page)
+  expect(spanned.card!.right - spanned.card!.left, "premise: the tease spanned the row with Moves open").toBeGreaterThan((spanned.grid!.right - spanned.grid!.left) * 0.9)
+  await page.locator("[data-hand-close]").evaluate(e => (e as HTMLElement).scrollIntoView({ block: "center" })); await j.readerLayoutSettled()
+  await j.clickByMouse("[data-hand-close]", "Moves closed")
+  await j.readerLayoutSettled()
+  const closed = await box(page)
+  expect(closed.asking, "premise: still asking").toBe(true)
+  expect(Math.abs(closed.film!.top - closed.card!.top), `Moves closed: the film starts on the question (${closed.film!.top - closed.card!.top}px)`).toBeLessThanOrEqual(1.5)
+})
+
 // Red-proof (v1.253.0, tests/artifacts/article_sections_mutants.mjs on the served reader.js, against a green baseline):
 //   tease-column-width ...... the tease back to the column's width ............. killed: the tease ends on the grid's right edge (707 / 1204)
 //   tease-drop-lost ......... the film no longer dropped under the tease ........ killed: the film starts under the tease

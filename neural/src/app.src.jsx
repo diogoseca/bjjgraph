@@ -10896,10 +10896,24 @@ class Component extends DCLogic {
       const n = this._landIdx != null && this.nodes ? this.nodes[this._landIdx] : null;
       this._declineLandQ("bg");
       this.fx("land_dismissed", { node: n ? n.t : null, answered: !!(this._landQ && this._landQ.answered) });
+      this._landDismissed = { idx: this._landIdx, mode: this._landMode, pos: this.currentPos, decision: this._decision };
       this.clearLandCard();
+      this._reader?.sync(); // the rows read closed now
       return;
     }
     this._enterRoam();
+  }
+  // v1.253.0 (the owner's note 3, #354's review finding 1): the background tap closes THIS landing's card and film (v1.134.0) and
+  // leaves their preferences on, so nothing brought them back: the index rows read open and did nothing until the next landing.
+  // The dismissal is kept for the decision it belongs to; the reader's index row or Questions label restores it, through the same
+  // `_applyLayers` rebuild a label uses mid-landing. The question was declined, so the rebuilt card earns no fresh credit.
+  _landAway() { const d = this._landDismissed; return !!d && !this._landEl && d.decision === this._decision && d.pos === this.currentPos; }
+  restoreLanding() {
+    if (!this._landAway()) return false;
+    const d = this._landDismissed; this._landDismissed = null;
+    this._landIdx = d.idx; this._landMode = d.mode;
+    this._applyLayers();
+    return true;
   }
   _enterRoam() {
     if (this._roam) return;
@@ -15679,7 +15693,7 @@ class Component extends DCLogic {
     const wide = width >= 1152, ask = row && card?.hasAttribute("data-land-ask");
     const css = ask && getComputedStyle(card);
     const gap = ask && parseFloat(css.getPropertyValue("--section-gap"));
-    const hint = ask && width >= 1024 && this._handShown() && this._reader?.on("book");
+    const hint = ask && width >= 1024 && this._handShown() && !!this._reader;
     // U104: in columns an asking card is the column's width (v1.253.0: the grid's, `tease`, under an open Moves row), and its height feeds
     // the Moves band and the article's columns. The line
     // is fitted to one line by its ResizeObserver, a frame after its width changes, so a pane slide read a wrapped line, 17px taller:

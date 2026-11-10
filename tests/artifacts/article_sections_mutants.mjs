@@ -1,5 +1,6 @@
 // v1.253.0 RETIRED with their subject (U114 a, the article's ✕ and the shelf): reading-shelf-retained and u110-close-on-article-edge.
-// Their source is gone, so no build can carry them. u59-pill-covers and reader-end-double-gap were retargeted onto _readerReserve's lane
+// Their source is gone, so no build can carry them. So is u59r4-reopen-ungated (#354's review, finding 2): its journey, putting the article
+// away and back, went with them. u59-pill-covers and reader-end-double-gap were retargeted onto _readerReserve's lane
 // (both killed). pane-card-overflow lost its spec with the map view's dock tests; retargeted onto pane-layout.spec.ts it is NOT KILLED,
 // so the card's width with the pane open at 800px has no live claim now.
 // v1.252.1 recorded NON-KILL, not coverage: u59r4-table-margin. Its claim, that Quartz's table margin clips a three-column table, needed
@@ -126,7 +127,7 @@ const mutants = [
   // D-354 B2: the same fallback at the phone's arrival pick, now pressed by a mouse after the layout settles.
   ['d354-phone-pick-no-fit', 'roll-execution.spec.ts', 'execution camera frames the technique at 390px; pane false; reduced motion false$', s => replace(s, '    const search = (within, reserved) => {', '    const search = (within, reserved) => { return null;')],
   // D-329: drop the reader node band; the 390px exchange's pair is covered by the landing rows again.
-  ['execution-node-band-removed', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange from a node with no Videos section', s => replace(s, 'const nodeBand = this.nodeBand && this.on("book") ? this.nodeBand : null,', 'const nodeBand = null,')],
+  ['execution-node-band-removed', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange from a node with no Videos section', s => replace(s, 'const nodeBand = this.nodeBand || null,', 'const nodeBand = null,')],
   ['execution-occupied-space-lost', 'roll-execution.spec.ts', 'execution camera frames.*1440px; pane false; reduced motion false after native wheel', s => replace(s, '  frameExecution(target, node) {', '  frameExecution(target, node) { return target;')],
   // D-333: the reader never publishes a new landing card, so a cold start's greeting stays hidden,
   // (D4-S1) the card behind the list picker is not readable, and (D-336) every claim that a visitor
@@ -170,7 +171,7 @@ const mutants = [
   ['layout-style-churn', seam, '1366px the current card sits in the game\'s stage', s => replace(s, 'if (!same || el.style.getPropertyPriority(key) !== priority)', 'if (true)')],
   ['chrome-hook-ignored', sections, 'optional chrome frame', s => replace(s, 'typeof a.readerChromeFrame === "function"', 'false')],
   ['chrome-node-band-lost', sections, 'optional chrome frame', s => replace(s, 'let y = band + Math.max(headHeight, step) + (chrome?.offset || 0);', 'let y = Math.max(headHeight, step) + (chrome?.offset || 0);')],
-  ['chrome-bottom-reserve-ignored', sections, 'optional chrome frame', s => replace(s, 'chrome?.bottomReserve != null', 'false')],
+  ['chrome-bottom-reserve-ignored', sections, 'optional chrome frame', s => replace(s, 'chrome?.bottomReserve ??', 'undefined ??')],
   ['head-over-map', sections, '1366px chrome keeps', s => replace(s, 'const parent = chrome ? root : flow,', 'const parent = root,'), css => css + '\n.ng-reader>.ng-reader-head{left:calc(50% - 455px);top:0}\n'],
   ['phone-tools-in-header', sections, '390px chrome keeps', s => replace(s, 'chrome && W <= 640 ? flow : head', 'false ? flow : head')],
   ['execution-label-clearance-lost', 'card-presentation.spec.ts', '1440px.*chosen card rises', s => replace(s, 'card.style.marginTop = rect(shown).top - box.top - parseFloat(getComputedStyle(row).paddingTop) + "px";', 'card.style.marginTop = "0px";')],
@@ -195,9 +196,9 @@ const mutants = [
   // RETIRED (D-368, layout C): d338-video-not-lifted claimed the Videos section is lifted above Moves. Nothing is
   // lifted under C; the opposite is pinned by a-column-wide-videos-question and -catch.
   ['d338-questions-above-moves', sections, '1366px choices precede', s => replace(s, '        cardY = y;\n        if (column) cardX', '        cardY = (row ? parseFloat(row.style.top) : y) - cardHeight - step;\n        if (column) cardX')],
-  ['d338-open-part-keeps-header', sections, 'D-338 1024px', s => replace(replace(s, 'if (s.part) s.card.hidden = shown || !labels;', 'if (s.part) s.card.hidden = !labels;'), 's.card.hidden = !available || reference || this.on(s.part);', 's.card.hidden = !available || reference;')],
+  ['d338-open-part-keeps-header', sections, 'D-338 1024px', s => replace(replace(s, 'if (s.part) s.card.hidden = shown && !gone || !labels;', 'if (s.part) s.card.hidden = !labels;'), 's.card.hidden = reference || this.on(s.part);', 's.card.hidden = reference;')],
   ['d338-focus-browse-retained', 'reading-mode.spec.ts', '1366px complete article, every close', s => replace(s, 'this.head.append(this.heading, this.tools); this.game.append(this.head);', 'this.tools.append(button("Focus on reading", () => {}, { "data-reading-focus": "" }), button("Browse", () => app.openPane("explore"), { "data-reader-browse": "" })); this.head.append(this.heading, this.tools); this.game.append(this.head);')],
-  ['d338-saved-focus-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$', s => replace(s, 'return this.app.get(GAME_KEYS[part], true) !== false;', 'return this.app.get((this.app.get("readingFocus", false) ? { card: "readingCard", hand: "readingHand", map: "readingMap", feedback: "readingFeedback" } : GAME_KEYS)[part], true) !== false;')],
+  ['d338-saved-focus-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$', s => replace(s, 'return !GAME_KEYS[part] || this.app.get(GAME_KEYS[part], true) !== false;', 'return !GAME_KEYS[part] || this.app.get((this.app.get("readingFocus", false) ? { card: "readingCard", hand: "readingHand" } : GAME_KEYS)[part], true) !== false;')],
   ['d338-index-eyes-retained', sections, 'contents and header targets at 1440x900', s => replace(s, 'row.append(link, eyeOff()); contents.append(row);', 'row.append(link, eyeOff(), button("", () => {}, { "data-toc-eye": section.type })); contents.append(row);')],
   ['d338-section-settings-retained', sections, 'contents and header targets at 1440x900', s => replace(s, '    contents.append(indexTitle);', '    contents.append(indexTitle, button("Section settings", () => this.app.openSettings("rolling"), { "data-section-settings": "" }));')],
   // U97 b took the index from 1152, so this claim lives at 1440.
@@ -234,8 +235,8 @@ const mutants = [
   ['settings-key-renamed', 'article-order.spec.ts', 'a saved closed section survives', s => replace(s, 'this.app.set("readerSection." + type, shown);', 'this.app.set("readerSection." + type, shown);').replace('return app.get("readerSection." + type, true) !== false;', 'return app.get("readerSection." + (type === "overview" ? "how-it-works" : type), true) !== false;')],
   ['width-right-edge', 'article-order.spec.ts', 'share both edges', s => replace(s, 'free.width + 2 * (free.left - indexEdge)', 'W - 24 - indexEdge')],
   // v1.252.1: retargeted to U110 a's flush condition (600 to 640px too), which #346 changed under these two rows.
-  ['row-keeps-inset', 'article-order.spec.ts', 'share both edges', s => replace(s, 'const flush = this.trayFlush = available && (W > 640 || free.width >= 600);', 'const flush = available && (W > 640 || free.width >= 600);')],
-  ['row-full-width', 'article-order.spec.ts', 'share both edges', s => replace(s, 'const flush = this.trayFlush = available && (W > 640 || free.width >= 600);', 'const flush = this.trayFlush = available && !!indexEdge;')],
+  ['row-keeps-inset', 'article-order.spec.ts', 'share both edges', s => replace(s, 'const flush = this.trayFlush = W > 640 || free.width >= 600;', 'const flush = W > 640 || free.width >= 600;')],
+  ['row-full-width', 'article-order.spec.ts', 'share both edges', s => replace(s, 'const flush = this.trayFlush = W > 640 || free.width >= 600;', 'const flush = this.trayFlush = !!indexEdge;')],
   ['grid-spans-all', 'article-order.spec.ts', 'no section spans the whole grid at 1440x900', s => s, css => css + '\n[data-reader-body]>[data-section-type=definition]{width:100%}'],
   ['beta-everywhere', 'article-order.spec.ts', 'every other page keeps', s => s, css => replace(css, ':has([data-source-id=decision-tree],[data-source-id=position-metrics])', '[data-section-type=options]')],
   ['beta-suffix', 'article-order.spec.ts', 'Beta mark: /Systems', s => s, css => replace(css, ':has([data-source-id=decision-tree],[data-source-id=position-metrics])', ':has([data-source-id$=tree],[data-source-id$=metrics])')],
@@ -244,7 +245,7 @@ const mutants = [
   ['relations-label-shown', 'article-order.spec.ts', 'a position reads in the owner', s => s, css => replace(css, 'article>:is(.also-known-as,.often-confused-with)>em{display:none}', '')],
   // v1.249.2: the reader holds one line at one height through a pane's slide, until its place moves.
   ['pane-hold-rechosen', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, 'this.placeTop === this.heldAt && this.held?.offsetWidth', 'false')],
-  ['pane-open-hold-lost', 'pane-layout.spec.ts', '768px the line holds while the pane is open, mid-article', s => replace(s, 'keep = this.gridW - (this.gridW = available ? free.width : NaN) && ', 'keep = this.gridW - (this.gridW = available ? free.width : NaN) && false && ')],
+  ['pane-open-hold-lost', 'pane-layout.spec.ts', '768px the line holds while the pane is open, mid-article', s => replace(s, 'keep = this.gridW - (this.gridW = free.width) && ', 'keep = this.gridW - (this.gridW = free.width) && false && ')],
   ['pane-hold-rechosen-mount', 'pane-layout.spec.ts', '768px the pane overlays the article', s => replace(s, 'this.placeTop === this.heldAt && this.held?.offsetWidth', 'false')],
   ['pane-hold-height-lost', 'pane-layout.spec.ts', '768px the pane opened and closed at the end of /Transitions', s => replace(s, '(was = this.heldY, this.held)', '(was = this.held.getBoundingClientRect().top, this.held)')],
   // RECORDED NON-KILL since v1.251.3: with heldAt the read-back, no journey separates root.scrollTop from placeTop. pane-layout.spec.ts says why.
@@ -259,14 +260,14 @@ const mutants = [
   // stacked phone stage is where the article must clear them.
   ['d338-deck-backs-unreserved', 'landcard-deck.spec.ts', '390px: the deck face keeps its 1.5x foot', s => replace(s, 'if (showCard) y += cardHeight + 3 * (a._landStackEl?.childElementCount || 0);', 'if (showCard) y += cardHeight;')],
   ['d338-tray-asymmetric', sections, 'D-338 1440px Questions and Moves close', s => replace(s, 'const rowLeft = flush ? free.center - grid / 2 - free.left : 0;', 'const rowLeft = 0;')],
-  ['d338-film-waits-for-intent', seam, '1366px the current card sits in the game\'s stage', s => replace(s, 'wantsMedia() { return this.on("book"); }', 'wantsMedia() { return this.on("book") && !!(this.intent || this.interacting); }')],
+  ['d338-film-waits-for-intent', seam, '1366px the current card sits in the game\'s stage', s => replace(s, 'wantsMedia() { return true; }', 'wantsMedia() { return !!(this.intent || this.interacting); }')],
   ['pressed-answer-moved', 'reading-navigation.spec.ts', '1440px reader adoption during a mouse press', s => replace(s, ' || this.app._readerPress', '')],
   // D-351: the hold (a landing is unpublished until its article renders; the reader stops honouring it
   // for the card) and the deferral (parts the ceiling published stay pinned; the reader drops the pin, so
   // the Videos lift and the rows move). The exchange journey is gated by the pair: either keeps it still.
-  ['d351-hold-removed', 'defending-landing.spec.ts', 'D-351: a catch whose article lands late', s => replace(s, 'const hold = a._readerHold(this, available, W, H), pin', 'const hold = Math.min(0, a._readerHold(this, available, W, H)), pin')],
+  ['d351-hold-removed', 'defending-landing.spec.ts', 'D-351: a catch whose article lands late', s => replace(s, 'const hold = a._readerHold(this, W, H), pin', 'const hold = Math.min(0, a._readerHold(this, W, H)), pin')],
   ['d351-deferral-removed', 'reading-media-placement.spec.ts', '390px a film chunk landing after 2.6s', s => replace(s, ', pin = a._readerPin;', ', pin = null;')],
-  ['d351-both-removed-exchange', sections, 'D-351: an exchange whose article lands late', s => replace(replace(s, 'const hold = a._readerHold(this, available, W, H), pin', 'const hold = Math.min(0, a._readerHold(this, available, W, H)), pin'), ', pin = a._readerPin;', ', pin = null;')],
+  ['d351-both-removed-exchange', sections, 'D-351: an exchange whose article lands late', s => replace(replace(s, 'const hold = a._readerHold(this, W, H), pin', 'const hold = Math.min(0, a._readerHold(this, W, H)), pin'), ', pin = a._readerPin;', ', pin = null;')],
   // D-352 (Delta 6): S2's media-home pin, the ready-means-laid-out fix, and N2's two gated D-347 fixes.
   ['d352-film-over-pin', 'reading-media-placement.spec.ts', '390px a film chunk landing after 2.6s', s => replace(s, 'homeMedia = homeMedia && !pin.hid && this.media === pin.film && h <= pin.mh;', 'homeMedia = homeMedia;')],
   ['d352-ready-before-layout', 'systems-surface.spec.ts', 'D-352: a reference page says ready only once', s => replace(s, '      // out of the game\'s header row; a frame later, a click aimed at "ready" hit the map instead.\n      this.layoutNow();\n', '      // out of the game\'s header row; a frame later, a click aimed at "ready" hit the map instead.\n')],
@@ -360,9 +361,9 @@ const mutants = [
   // Closing a tile re-sorts the tiles before it, which is the one thing a close must not do.
   ['columns-close-reorders', 'article-dashboard.spec.ts', 'closing a tile moves nothing', s => replace(s, '    for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {', '    if (closed.length) open.reverse();\n    for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {')],
   // The block first in the source, not the one nearest the reader's top: the source order no longer runs down the page.
-  ['line-dom-first', 'article-dashboard.spec.ts', 'opening Explore keeps the line', s => replace(s, 'return y >= top && y < was ? (was = this.heldY = y, e) : line;', 'return y >= top && !line ? (was = this.heldY = y, e) : line;')],
+  ['line-dom-first', 'article-dashboard.spec.ts', 'opening Explore keeps the line', s => replace(s, 'return y >= top - 0.5 && y < was ? (was = this.heldY = y, e) : line;', 'return y >= top - 0.5 && !line ? (was = this.heldY = y, e) : line;')],
   // The anchor on the grid's width again: the grid stands still through most of a slide while the stage grows.
-  ['line-keyed-on-grid', 'article-dashboard.spec.ts', 'at 1152x900 opening Explore keeps the line', s => replace(s, '(this.gridW = available ? free.width : NaN)', '(this.gridW = available ? grid : NaN)')],
+  ['line-keyed-on-grid', 'article-dashboard.spec.ts', 'at 1152x900 opening Explore keeps the line', s => replace(s, '(this.gridW = free.width)', '(this.gridW = grid)')],
   // U97 b: the index back at 1,152, and never.
   ['index-from-1152', 'article-order.spec.ts', 'U97 at 1349px', s => replace(s, 'free.width >= 1350', 'free.width >= 1152')],
   ['index-never', 'article-order.spec.ts', 'U97 at 1350px', s => replace(s, 'free.width >= 1350', 'free.width >= 1e4')],
@@ -409,7 +410,7 @@ const mutants = [
   // The wrapping-block journeys, retargeted: their rows in video_theater_mutants.json named strings this PR replaced.
   // reader-rounding-remainder-dropped was a recorded NON-KILL and its code is gone (v1.251.1): article-dashboard.spec.ts's header says why.
   ['wrapping-anchor-lost', 'article-dashboard.spec.ts', 'at 720x900 opening Explore holds the place around a wrapping block just under', s => replace(s, 'if (keep) { this.held = keep;', 'if (false) { this.held = keep;')],
-  ['reader-clipped-block-anchored', 'article-dashboard.spec.ts', 'at 720x900 opening Explore holds the place around a wrapping block clipped by', s => replace(s, 'return y >= top && y < was ?', 'return y >= top - 20 && y < was ?')],
+  ['reader-clipped-block-anchored', 'article-dashboard.spec.ts', 'at 720x900 opening Explore holds the place around a wrapping block clipped by', s => replace(s, 'return y >= top - 0.5 && y < was ?', 'return y >= top - 20 && y < was ?')],
 
   ['ask-line-centred', 'article-order.spec.ts', 'U90 at 1440x900 the question line', s => replace(s, 'if (moves) cardX = rowLeft + moves.offsetLeft - 1;', '')],
   ['ask-line-label-offset', 'article-order.spec.ts', 'U90 at 390x844 the question line', s => replace(s, 'if (moves) cardX = rowLeft + moves.offsetLeft - 1;', 'if (moves) cardX = rowLeft + 3;')],
@@ -442,7 +443,6 @@ const mutants = [
   // reopens nothing and survives with the claim unbroken (measured). The grid does change, because the hidden article has no index.
   // Finding 2, "putting the article away and back returns the same line": restore R3's ungated anchor and
   // remembered hidden width together. The reset alone is redundant with the gate in this journey.
-  ['u59r4-reopen-ungated', 'article-dashboard.spec.ts', 'putting the article away and back', s => replace(replace(s, ' && rect(art).top < top', ''), '(this.gridW = available ? free.width : NaN)', '(this.gridW = grid)')],
   // Finding 3, "a wide table shows every column": kept in the 46ch column.
   ['u59r4-table-measured', 'article-dashboard.spec.ts', 'wide Top/Bottom table', s => s, css => replace(css, '.ng-section-body article:has(tr>:nth-child(4)){max-width:none}', '')],
   // v1.252.1: retargeted to the rule with #346's padding-top:0 (cobbler's gap check); the mutant still takes only the margin away.
@@ -483,8 +483,8 @@ const mutants = [
   ['film-ask-step-without-moves', 'reading-media-placement.spec.ts', 'finding 3', s => replace(s, '(showHand && askStep != null ? step + 3 : 0)', '(askStep != null ? step + 3 : 0)')],
   // v1.253.0 (owner, 2026-11-09): the one-line tease spans the choices row, and the film keeps its place under it as the question opens.
   ['tease-column-width', 'tease-width.spec.ts', 'one-line tease spans.*1440', s => replace(s, 'const tease = column && asking && showHand ? grid : column;', 'const tease = column;')],
-  ['tease-drop-lost', 'tease-width.spec.ts', 'one-line tease spans.*1440', s => replace(s, 'const drop = showCard && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;', 'const drop = 0;')],
-  ['tease-drop-asking-only', 'tease-width.spec.ts', 'one-line tease spans.*1440', s => replace(s, 'const drop = showCard && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;', 'const drop = askStep != null && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;')],
+  ['tease-drop-lost', 'tease-width.spec.ts', 'one-line tease spans.*1440', s => replace(s, 'const drop = showCard && showHand && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;', 'const drop = 0;')],
+  ['tease-drop-asking-only', 'tease-width.spec.ts', 'one-line tease spans.*1440', s => replace(s, 'const drop = showCard && showHand && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;', 'const drop = askStep != null && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;')],
   // v1.253.0: the article runs to the fold, or to one gap above the win bar where the bar falls under the grid.
   ['legend-restore-blank', 'reader-fold.spec.ts', '1440x900', s => replace(s, 'under ? "8px" : "30px"', 'under ? "8px" : ""')],
   ['legend-not-docked', 'reader-fold.spec.ts', '1024x768', s => replace(s, 'under ? "8px" : "30px"', 'under ? "30px" : "30px"')],
@@ -492,6 +492,16 @@ const mutants = [
   // v1.253.0: an index row reopens its closed section (U11), checked by mouse.
   // v1.253.0: the line within half a pixel of the reader's top is the one held (the ✕'s 44px gone put a line at 73.86 against 74).
   ['anchor-line-strict-top', 'article-dashboard.spec.ts', '1152x900 opening Explore keeps the line at the reader.s top \\(30% down\\)', s => replace(s, 'return y >= top - 0.5 && y < was ?', 'return y >= top && y < was ?')],
+  // v1.253.0 (#354's review, finding 1): the rows of a card and film the background tap took away read closed.
+  ['land-away-row-open', 'index-reveal.spec.ts', 'after a background tap the Video', s => replace(s, 's.row?.setAttribute("data-collapsed", String(!shown || gone));', 's.row?.setAttribute("data-collapsed", String(!shown));')],
+  // v1.253.0 (#354's review, finding 3): the first open tile's ✕ takes the corner Answer for Points' hang reaches.
+  ['tile-close-under-ask-hang', 'ask-line.spec.ts', 'first tile.s close keeps its presses', s => replace(s, 's.toggle.style.zIndex = meets(go, b) && !meets(shut, b) ? 6 : "";', 's.toggle.style.zIndex = "";')],
+  // NOT KILLED (v1.253.0), recorded: no journey has a tile ✕ that both the hang and the card's own ✕ reach, so the guard has no live case.
+  ['tile-close-over-card-close', 'land-layers.spec.ts', 'the article survives minimizing the question', s => replace(s, 's.toggle.style.zIndex = meets(go, b) && !meets(shut, b) ? 6 : "";', 's.toggle.style.zIndex = meets(go, b) ? 6 : "";')],
+  // v1.253.0 (#354's review, finding 5): beside the index the guide keeps Previous's top on the face. Finding 7: the film's drop only
+  // while Moves is open.
+  ['prev-climbs-over-choices', 'deck-arrows-index.spec.ts', 'Previous stays on the face', s => replace(s, 'Math.max(a._landNavEl.hasAttribute("data-index") ? 70 : 22, Math.min(cardHeight - 22, middle))', 'Math.max(22, Math.min(cardHeight - 22, middle))')],
+  ['tease-drop-moves-closed', 'tease-width.spec.ts', 'Moves closed', s => replace(s, 'const drop = showCard && showHand && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;', 'const drop = showCard && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;')],
   ['index-reveal-lost', 'index-reveal.spec.ts', 'an article tile', s => replace(s, 'if (section.part) this.toggle(section.part); else this.toggleSection(section.type, true);', '')],
   ['video-title-plural', 'reading-contract.spec.ts', 'cannot repaint the opposite seat', s => replace(s, '["videos", "Video"], ["aka"', '["videos", "Videos"], ["aka"')],
   ['u110-cap-lost', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = 0;')],
@@ -499,7 +509,7 @@ const mutants = [
   ['u110-film-uncapped', 'stacked-width.spec.ts', 'stacked at 900px', s => replace(s, 'a.filmLayout(cap ? Math.min(free.width, cap + 32) : free.width,', 'a.filmLayout(free.width,')],
   ['u110-grid-uncapped', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'Math.min(cap || 902, free.width - 64)', 'Math.min(902, free.width - 64)')],
   // U110 a: the Moves row takes the column wherever the stacked box binds, 600 to 640px included (cobbler's check, 2026-11-09).
-  ['u110-tray-phone-flush', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'available && (W > 640 || free.width >= 600)', 'available && W > 640')],
+  ['u110-tray-phone-flush', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'this.trayFlush = W > 640 || free.width >= 600', 'this.trayFlush = W > 640')],
   // #346's review, finding 6: stacked, the article's ✕ ends on the column's right edge.
   ['u110-cap-past-columns', 'stacked-width.spec.ts', 'at 1,024px the columns begin', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = free.width < 1100 && 496;')],
 ]

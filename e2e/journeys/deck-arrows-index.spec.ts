@@ -50,6 +50,32 @@ test("@curated #346 review, finding 1: with the index beside the grid, the deck'
   await expect.poll(() => page.locator("[data-land-q]").innerText(), { message: "Previous pages back" }).not.toBe(second)
 })
 
+// #354's review (finding 5): on a short screen with the index beside the grid, little of the face is in view, and Previous (one target
+// above Next) climbed over the choices: 3px of the cards' bottoms at 1440x560, 23px at 1440x520. Its top now stays on the face.
+for (const height of [560, 520]) {
+  test(`@curated v1.253.0: at 1440x${height}, beside the index, Previous stays on the face and off the choices`, async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height })
+    const j = journey(page)
+    await j.boot("/Positions/Mount/Top")
+    await expect(page.locator(".ng-reader-toc"), "premise: the index stands beside the grid").toBeVisible()
+    await j.openQuestion()
+    // Next may sit under the fold on so short a screen, so the deck pages by its own key.
+    await page.keyboard.press("ArrowRight")
+    await expect.poll(() => page.evaluate(() => (window as any).__neural._landPage), { message: "premise: card 2" }).toBe(1)
+    await j.readerLayoutSettled()
+    await page.locator("[data-reader]").evaluate(e => { e.scrollTop = 0 }); await j.readerLayoutSettled()
+    const m = await page.evaluate(() => {
+      const a = (window as any).__neural, face = a._landEl.getBoundingClientRect(), prev = document.querySelector("[data-land-prev]")!.getBoundingClientRect()
+      const cards = Math.max(...[...a.optionsRef.current.querySelectorAll("[data-tech]")].map((c: Element) => c.getBoundingClientRect().bottom))
+      const root = a._reader.root.getBoundingClientRect()
+      return { faceTop: face.top, prevTop: prev.top, cardsBottom: cards, visibleFace: Math.min(face.bottom, root.bottom) - face.top }
+    })
+    expect(m.visibleFace, "premise: little of the face is in view").toBeLessThan(140)
+    expect(m.prevTop, `Previous's top stays on the face (${m.prevTop} / ${m.faceTop})`).toBeGreaterThanOrEqual(m.faceTop - 1)
+    expect(m.prevTop, `and off the choices (${m.prevTop} / ${m.cardsBottom})`).toBeGreaterThanOrEqual(m.cardsBottom)
+  })
+}
+
 // Red-proof (v1.252.1, tests/artifacts/neural_app_mutants.mjs on the served neural.css and neural.js, against a green baseline):
 //   deck-prev-home-rule-lost ... the stylesheet rule unmatched ............ killed: [data-land-prev] lies right of the index at the top
 //   deck-prev-home-flag-lost ... the app never sets data-index ............ killed: [data-land-prev] lies right of the index at the top

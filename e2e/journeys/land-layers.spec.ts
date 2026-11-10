@@ -209,7 +209,7 @@ test(`@curated the ✕ is sticky: the next landing builds no card and asks nothi
   expect(s4.dockEls, "no shelf, with every layer open too").toBe(0)
   expect(s4.shown, "a second land_q_shown — the re-expanded landing's").toBeGreaterThan(s0.shown)
   expect(s4.remaining, "…and its clock armed").not.toBe(null)
-  // Restoring a part keeps keyboard focus on the shelf. Move into the question
+  // Restoring a part focuses that part's own ✕ (the shelf it once stayed on is retired). Move into the question
   // before asserting the game keyboard shortcut.
   await page.locator("[data-land-mc-opt]").first().focus()
   await page.keyboard.press("abcd"[q!.correct])
@@ -358,6 +358,24 @@ test("@curated the measured reader and shelf reserve the final paragraph's space
   expect(boxes.controls.length, "the phone has bottom controls under the column").toBeGreaterThan(0)
   for (const c of boxes.controls) expect(boxes.articleBottom, JSON.stringify(boxes)).toBeLessThanOrEqual(c.top - 6)
   expect(boxes.articleBottom).toBeLessThan(boxes.H)
+})
+
+// v1.253.0 (U114 a, #354's review finding 4): the retired ✕ and shelf were the only writers of readerBook, landMap and landFeedback, and
+// the app reads none of the three now, so a returning player who saved any of them "off" is stranded nowhere. NOTE for every spec
+// whose quiet fixture still carries landFeedback:false: it quiets nothing any more; toasts and the win bar show in those runs.
+test("@curated a saved \"off\" for the retired controls strands nobody: the article, the map and the win bar all show", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 })
+  const j = journey(page)
+  await j.boot("/Positions/Mount/Top", { initialState: { v: 2, settings: { readerBook: false, landMap: false, landFeedback: false }, settingsAt: {} } })
+  await expect(page.locator('[data-reader-ready="true"]'), "the reader is up").toBeVisible()
+  await j.readerLayoutSettled()
+  const seen = await page.evaluate(() => {
+    const a = (window as any).__neural, vis = (e: Element | null) => !!e && e.getClientRects().length > 0 && getComputedStyle(e).visibility !== "hidden" && !e.closest("[hidden]")
+    return { saved: [a.get("readerBook", true), a.get("landMap", true), a.get("landFeedback", true)], article: vis(a._reader.articleEl) && !!a._reader.body?.children.length,
+      map: vis(a.wrapRef.current.querySelector("canvas")), winbar: vis(a.wrapRef.current.querySelector(".ng-winbar")) }
+  })
+  expect(seen.saved, "premise: all three saved off").toEqual([false, false, false])
+  expect({ article: seen.article, map: seen.map, winbar: seen.winbar }, "the article, the map and the win bar all show").toEqual({ article: true, map: true, winbar: true })
 })
 
 test("the background ladder stays per-landing: a tap closes THIS card, the next landing has one", async ({ page }) => {

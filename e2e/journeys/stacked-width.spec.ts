@@ -69,7 +69,7 @@ test("@curated U110 a: at 1,024px the columns begin and the cap ends", async ({ 
 //   u110-film-uncapped ...... the film at the full width, 900px . killed: the film shares the question's two edges
 //   u110-grid-uncapped ...... the grid at free - 64, 600px ...... killed: the grid shares the question's two edges
 //   u110-cap-past-columns ... the cap kept to 1,100px .......... killed: side by side from 1,024px
-//   u110-tray-phone-flush ... the row full-width again to 640px . killed: the hand shares the question's two edges (600px)
+//   u110-tray-phone-flush ... the row full-width again to 640px . killed: the hand shares the question's two edges (600px) (retargeted v1.253.0, killed again)
 //   (u110-close-on-article-edge, v1.252.1, retired with the article's ✕ in v1.253.0)
 // At 900px the grid's control fails one step earlier, at "under 1,024px the stage stacks": an uncapped grid is wide enough for
 // the columns, which is the cap's other job. The card's control cannot run at 600px, where 600 less the arrows' 104 is 496 anyway.

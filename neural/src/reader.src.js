@@ -650,19 +650,22 @@ class Reader {
     this.sync();
   }
   syncSections() {
-    const labels = !REFERENCE.test(this.path), hidden = this.hiddenSections;
+    const labels = !REFERENCE.test(this.path), hidden = this.hiddenSections, away = this.app._landAway?.();
     const open = [], closed = [];
     let focus;
     for (const s of [...this.gameSections, ...this.sections]) {
       const body = s.part ? this.partEl(s.part) : s.body;
+      // #354's review (finding 1): a background tap takes this landing's card and film away with their preferences still on. Their
+      // index rows and the Questions label read closed then, and bring them back (link, toggle); no tile moves.
+      const gone = away && (s.part === "card" || s.type === "videos");
       const shown = s.part ? this.on(s.part) : sectionShown(this.app, s.type), focused = !shown && (body?.contains(document.activeElement) || !s.part && s.card.dataset.collapsed !== "true" && s.card.contains(document.activeElement));
       if (s.type === "videos" && !shown && !body.hidden) this.app.pauseLandFilm();
-      s.card.dataset.collapsed = String(!shown);
+      s.card.dataset.collapsed = String(!shown || gone && !!s.part);
       // An open game part shows itself and its own ✕; only a closed one leaves its label.
-      if (s.part) s.card.hidden = shown || !labels;
+      if (s.part) s.card.hidden = shown && !gone || !labels;
       // A phase's tile goes with Training's and leaves no label or Hidden sections row of its own.
       else { body.hidden = !shown; body.inert = !shown; if (s.more) s.card.hidden = !shown; (shown ? open : s.more ? [] : closed).push(s); }
-      s.row?.setAttribute("data-collapsed", String(!shown));
+      s.row?.setAttribute("data-collapsed", String(!shown || gone));
       if (s.toggle.getAttribute("aria-expanded") !== String(shown)) {
         s.toggle.setAttribute("aria-expanded", String(shown)); s.toggle.setAttribute("aria-label", (shown ? "Hide " : "Show ") + s.title);
       }
@@ -711,8 +714,9 @@ class Reader {
       event.preventDefault(); this.readingInteraction();
       const section = [...this.gameSections, ...this.sections].find(s => s.id === link.dataset.sectionLink);
       // U11 (owner): where the index shows, a closed section leaves no placeholder in the content, so its
-      // index row reopens it before going there.
-      if (section && this.root.hasAttribute("data-indexed") && !(section.part ? this.on(section.part) : sectionShown(this.app, section.type))) {
+      // index row reopens it before going there. #354's review (finding 1): so does a card or film the background tap took away.
+      if (section && (section.part === "card" || section.type === "videos") && this.app.restoreLanding?.()) this.layoutNow();
+      else if (section && this.root.hasAttribute("data-indexed") && !(section.part ? this.on(section.part) : sectionShown(this.app, section.type))) {
         if (section.part) this.toggle(section.part); else this.toggleSection(section.type, true);
         this.layoutNow();
       }
@@ -797,6 +801,8 @@ class Reader {
   }
   toggle(part) {
     const a = this.app, on = !this.on(part);
+    // #354's review (finding 1): the Questions label of a card the background tap took away brings it back, never turns it off.
+    if (part === "card" && a.restoreLanding?.()) { this.interacting = false; this.sync(); a._landEl?.querySelector("[data-land-close]")?.focus({ preventScroll: true }); return; }
     if (part === "film") { this.toggleSection("videos", on); return; }
     a.setLayer(part, on, "reader");
     if (on) this.interacting = false;
@@ -1315,7 +1321,9 @@ class Reader {
           // v1.253.0: a tease across the row puts the film under it, and the film keeps that place as the question opens: the tease's
           // height, kept for this card (a new landing's card is a new element), drops the opened card's film by the same amount.
           if (tease > column && askStep != null) this.teaseDrop = [card, cardHeight - 3];
-          const drop = showCard && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;
+          // #354's review (finding 7): only while Moves is open, where the tease spans; with Moves closed the asking line is the column's
+          // and the film starts on the question (finding 3), whatever Moves did earlier on this card.
+          const drop = showCard && showHand && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;
           const filmEnd = (showCard ? cardY : y) + (homeMedia ? (showHand && askStep != null ? step + 3 : 0) + drop + mediaHeight : 0);
           if (homeMedia) position(home, free.center + 12, filmEnd - mediaHeight, mediaWidth);
           reach = filmEnd - y; y = Math.min(y, filmEnd);
@@ -1331,8 +1339,16 @@ class Reader {
         // Long answers keep their outside arrows beside the visible face.
         const cardTop = top + cardY - root.scrollTop;
         const middle = (Math.max(top, cardTop) + Math.min(end, cardTop + cardHeight)) / 2 - cardTop;
-        style(a._landNavEl, "--guide-y", Math.max(22, Math.min(cardHeight - 22, middle)));
+        // #354's review (finding 5): beside the index Previous stands one target above Next (helmet.html), so with little of the face
+        // in view it climbed over the choices (23px of their bottoms at 1440x520). There the guide keeps Previous's top on the face.
+        style(a._landNavEl, "--guide-y", Math.max(a._landNavEl.hasAttribute("data-index") ? 70 : 22, Math.min(cardHeight - 22, middle)));
       }
+      // #354's review (finding 3): Answer for Points' 23px hang (helmet.html) reaches a tile's ✕ where the film is closed, 369px² of the
+      // first tile's at 390x631, as it reached the retired article ✕; that ✕ takes the shared corner. Only where the card's own ✕ is
+      // clear of it: the card is one stacking context, so a tile ✕ raised there would cover the card's ✕ too (1440, the film closed).
+      const go = rect(card?.querySelector("[data-land-ask-go]")), shut = rect(card?.querySelector("[data-land-close]"));
+      const meets = (x, y) => x && y.width && x.left < y.right && x.right > y.left && x.top < y.bottom && x.bottom > y.top;
+      for (const s of this.sections) { const b = rect(s.toggle); s.toggle.style.zIndex = meets(go, b) && !meets(shut, b) ? 6 : ""; }
       style(game, "height", gameHeight);
       style(art, "margin-top", 6);
       this.trayBottom = H - end + 12 + Math.min(128, H * .15);

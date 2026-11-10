@@ -54,5 +54,30 @@ for (const [type, close, what] of CASES) {
   })
 }
 
+// #354's review (finding 1), and very likely the owner's own note 3: a background tap on the map closes THIS landing's card and film
+// (v1.134.0) and leaves their preferences on, so the rows read open and did nothing (reproduced on production v1.252.0 at 1440).
+// The rows read closed now, and a press brings the landing's card and film back. Entered here by the background tap itself.
+const parts = (page: Page) => page.evaluate(() => {
+  const a = (window as any).__neural, on = (e: Element | null) => !!e && e.isConnected && e.getClientRects().length > 0 && getComputedStyle(e).visibility !== "hidden" && !e.closest("[hidden]")
+  return { card: on(a._landEl), film: on(a._landFilmEl) }
+})
+for (const [type, what] of [["card", "Questions"], ["videos", "Video"]] as const) {
+  test(`@curated v1.253.0: after a background tap the ${what} index row brings this landing's card and film back (1440, by mouse)`, async ({ page }) => {
+    const j = await boot(page)
+    const tap = await page.evaluate(() => { for (const [x, y] of [[1320, 160], [1300, 320], [1380, 640], [1260, 90], [1000, 120]]) { const e = document.elementFromPoint(x, y); if (e?.tagName === "CANVAS") return [x, y] as [number, number] } return null })
+    expect(tap, "premise: an empty point on the map").not.toBeNull()
+    const before = (await j.beats()).length
+    await page.mouse.click(...tap!); await j.readerLayoutSettled()
+    expect((await j.beats()).slice(before).map(b => b.beat), "premise: a background tap").toContain("land_dismissed")
+    expect(await parts(page), "premise: it took the card and the film away").toEqual({ card: false, film: false })
+    const row = page.locator(`.ng-reader-toc-row[data-toc-type="${type}"]`)
+    await expect(row, "the row reads closed").toHaveAttribute("data-collapsed", "true")
+    await j.clickByMouse(`.ng-reader-toc-row[data-toc-type="${type}"] a`, `the ${what} index row`)
+    await j.readerLayoutSettled()
+    expect(await parts(page), "the row brings this landing's card and film back").toEqual({ card: true, film: true })
+    await expect(row, "and reads open again").toHaveAttribute("data-collapsed", "false")
+  })
+}
+
 // Red-proof (v1.253.0, tests/artifacts/article_sections_mutants.mjs on the served reader.js, against a green baseline):
 //   index-reveal-lost ... the index row no longer reopens its section ... killed: the index row shows it again

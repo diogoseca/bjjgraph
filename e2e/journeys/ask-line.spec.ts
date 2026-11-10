@@ -156,7 +156,42 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 900], [1024, 900], 
 
 // With the film closed the next thing under the link is the article's ✕. Their boxes overlap in a corner neither one
 // paints; the ✕ takes it. On dev the link took 91px² of it, and the hang above grew that to 142px².
-// v1.253.0 (U114 a): "VIDEO3 at 390x631 with the film closed the article's close keeps its presses" went with the article's ✕.
+// With the film closed the next thing under the link is the first open tile's ✕ (v1.253.0, U114 a, retired the article's ✕ that
+// was there before). Their boxes overlap in a corner neither one paints; the ✕ takes it (the reader raises it there). Measured on this
+// page before the fix (#354's review, finding 3): the link took 328px² of the ✕'s 1,936px², so a press on the ✕'s top took the
+// question up instead of closing the tile.
+test("VIDEO3 at 390x631 with the film closed the first tile's close keeps its presses", async ({ page }) => {
+  const j = await boot(page, 390, 631)
+  await j.clickByMouse("[data-film-close]")
+  for (let i = 0; i < 6; i++) await j.advance(100)
+  await j.readerLayoutSettled()
+  await page.locator(GO).evaluate(e => (e as HTMLElement).scrollIntoView({ block: "center" })); await j.readerLayoutSettled()
+  const g = await page.evaluate(() => {
+    const go = document.querySelector("[data-land-ask-go]") as HTMLElement
+    const tile = [...document.querySelectorAll("[data-reader-body] > .ng-section-card")].find(e => e.getClientRects().length && (e as HTMLElement).dataset.collapsed !== "true") as HTMLElement
+    const close = tile.querySelector("[data-section-toggle]") as HTMLElement
+    const c = close.getBoundingClientRect(), b = go.getBoundingClientRect()
+    let inBoth = 0, stolen = 0, corner: [number, number] | null = null
+    for (let x = c.left + .5; x < c.right; x++) for (let y = c.top + .5; y < c.bottom; y++) {
+      const both = x >= b.left && x <= b.right && y >= b.top && y <= b.bottom
+      if (both) inBoth++
+      const stack = document.elementsFromPoint(x, y)
+      if (stack.includes(close) && go.contains(stack[0])) stolen++
+      // A point the ✕'s own hit shape holds (its rounded corner is outside it) and the link's box reaches: the contested corner.
+      if (both && stack.includes(close)) corner ||= [x, y]
+    }
+    return { type: tile.dataset.sectionType!, inBoth, stolen, height: b.height, corner }
+  })
+  expect(g.inBoth, "premise: the link's box reaches the first tile's close").toBeGreaterThan(0)
+  expect(g.stolen, "VIDEO3 Answer for Points takes no press from the first tile's close").toBe(0)
+  expect(g.height, "VIDEO3 the link keeps its 44px target").toBeGreaterThanOrEqual(44)
+  // And a real press in that corner does what the ✕ does, not what the link does.
+  await page.mouse.click(...g.corner!); await j.readerLayoutSettled()
+  // A closed tile moves to Hidden sections, so it is found by its type, wherever it went.
+  await expect(page.locator(`.ng-section-card[data-section-type="${g.type}"]`).first(), "a press in the shared corner closes the tile")
+    .toHaveAttribute("data-collapsed", "true")
+  await expect(page.locator(GO), "and does not take the question up").toHaveCount(1)
+})
 
 test("@curated VIDEO3 resize and reveal restore the choices row's original padding", async ({ page }) => {
   const j = await boot(page, 900)

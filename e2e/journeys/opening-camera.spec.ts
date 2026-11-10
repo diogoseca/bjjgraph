@@ -75,7 +75,6 @@ import { journey } from "../dsl";
 const MOVE_PX: Record<number, number> = { 1440: 120, 390: 48 };
 const KICK_PX: Record<number, number> = { 1440: 14, 390: 6 };
 const ZOOM_RATIO = 1.07;
-const BOOK_OFF = { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } };
 
 type F = { t: number; el: number; W: number; H: number; cx: number; cy: number; vw: number; node: { x: number; y: number } | null;
   pick: number | null; secO: number | null; open: string; hand: number | null; handO: number | null; head: number | null;
@@ -127,8 +126,8 @@ const rigStart = (page: Page, title: string) => page.evaluate((title) => {
 const rigAmbient = async (j: ReturnType<typeof journey>) => { await j.rig("ai-skill", [0.5]); await j.rig("role", [0]); await j.rig("max-moves", [0.5]); };
 const bootTo = async (page: Page, title: string, book: "on" | "off" = "on") => {
   const j = journey(page);
-  await j.boot("/", book === "off" ? BOOK_OFF : {});
-  expect(await page.evaluate(() => (window as any).__neural.get("readerBook", true)), "premise: the Book is " + book).toBe(book === "on");
+  // v1.253.0 (U114 a): readerBook is no longer read; every boot shows the article.
+  await j.boot("/");
   await rigAmbient(j); await rigStart(page, title);
   return j;
 };

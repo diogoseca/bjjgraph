@@ -406,8 +406,9 @@
      narrow screen keeps the rules above, because its two-line question stands apart from the cards. A question short
      enough to share one line with its link does not, and there the old box still lies 8px over the choice above: no
      question at 430px, about 1% at 540px and 600px (of 21,269, measured 2026-11-05). With the film closed the hang
-     meets the article's ✕, so the ✕ takes that corner: the link keeps its 44px and the press goes to the nearer control.
-     Pinned by ask-line.spec.ts and panic-card.spec.ts. */
+     meets the first open tile's ✕ (v1.253.0 retired the article's ✕ that met it before: 301 to 337px² of the tile ✕'s 1,936px²
+     went to the link at 390x631, #354's review finding 3), so the ✕ takes that corner (reading.css, z-index:6): the link keeps
+     its 44px and the press goes to the nearer control. Pinned by ask-line.spec.ts and panic-card.spec.ts. */
   @media(min-width:641px),(max-height:699px){
     .ng-landcard[data-land-ask]{border-bottom-width:calc(1px + var(--section-gap,6px))!important;}
     [data-land-ask-go]{position:relative;margin:-5px -6px -23px;padding:5px 6px 23px;}

@@ -64,6 +64,8 @@ import { journey } from '../dsl'
 //   u59-tab-rtl            Tab walks the tiles in the order the eye does (the columns mirrored)
 //   u59-measure-unset      prose lines keep a readable measure (the 46ch column removed)
 //   line-dom-first         opening Explore keeps the topmost line of EITHER column (the first block in source order)
+//   (v1.253.0, #354's review finding 2: line-dom-first, line-keyed-on-grid and reader-clipped-block-anchored were retargeted after
+//   U114 a and the half-pixel anchor moved their targets, and killed again against a green baseline)
 //   u59-pill-covers        the reader ends above the corner cue (its reserve measured over the old column only)
 // SIDECX5 integration: U46 b moved the account badge into the drawer. The four desktop cases
 // now create a real conditional share cue in its old corner and retain the obstruction claim.
@@ -76,7 +78,7 @@ import { journey } from '../dsl'
 //   u59-phone-pairs        the phone keeps its stacked flow (the desktop's half width applied at 390px)
 // DASH-R4 (the independent review of R3, scratch/review-323): each control below breaks one claim added for it.
 //   u59r4-anchor-arrival   the stage holds still when Explore opens or the window turns at the arrival (no gate)
-//   u59r4-reopen-ungated   putting the article away and back keeps the line (the anchor without its gate)
+//   u59r4-reopen-ungated   RETIRED in v1.253.0 with its journey, putting the article away and back (U114 a)
 //   u59r4-table-measured   a wide table shows every column at 1920 (its article kept the 46ch column)
 //   u59r4-table-margin     a tablet table fits inside the padded tile (the static table margin restored)
 //   u59r4-press-full       an article arriving under a held press still shows two lanes (the default width the whole grid)

@@ -476,7 +476,6 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
     const j = journey(page); await j.boot(LOOP)
     await expect(page.locator(READY)).toBeVisible()
     await j.readerLayoutSettled()
-    await expect(page.locator('.ng-reader-shelf')).toBeHidden()
     await expect(page.locator('[aria-label="Reading perspectives"]')).toHaveCount(0)
     await expect(page.locator('.ng-reader-toc h2')).toHaveText('Escaping Loop Choke from Half Guard')
     expect(await page.locator('.ng-reader-toc h2 small').evaluate(e => getComputedStyle(e).display), 'the qualifier stays in the phrase').toBe('inline')

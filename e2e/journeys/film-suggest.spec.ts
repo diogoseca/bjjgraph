@@ -112,5 +112,7 @@ for (const vp of [{ width: 1440, height: 900 }, { width: 390, height: 844 }]) {
 //   film-suggest-node-lost ...... openFeedback() without the move ................ killed
 //   film-suggest-kind-lost ...... the report says no kind ........................ killed
 //   film-none-close-back ........ the ✕ on the no-video card again (U104) ........ killed
+//   (v1.253.0, #354's review finding 2: the three rows above were retargeted after later edits moved their minified targets, and killed
+//   again at their claims against a green baseline.)
 //   video-suggestion-seat-lost .. the report drops its seat (v1.252.1) ........... killed
 // No surviving controls. NOT COVERED: the card's own CSS (its 16:9 box is the shared `.ng-current-card .ng-choice-media` rule).
