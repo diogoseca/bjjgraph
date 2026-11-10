@@ -502,7 +502,8 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
     await expect(page.locator('.ng-reader-toc h2')).toHaveText('Escaping Loop Choke from Half Guard')
     expect(await page.locator('.ng-reader-toc h2 small').evaluate(e => getComputedStyle(e).display), 'the qualifier stays in the phrase').toBe('inline')
     // U104, U108 a (owner, 2026-11-09, as built): the index reads as the screen does, Moves, the question, the video, the article.
-    expect((await page.locator('.ng-reader-toc-row a').allTextContents()).slice(0, 4)).toEqual(['Moves', 'Questions', 'Videos', 'How it works'])
+    // v1.253.0 (owner, 2026-11-09): "it's just Video on the index right?"
+    expect((await page.locator('.ng-reader-toc-row a').allTextContents()).slice(0, 4)).toEqual(['Moves', 'Questions', 'Video', 'How it works'])
     const hasToc = viewport.width >= 1350 // U97 b
     for (const [part, close] of [['card', '[data-land-close]'], ['hand', '[data-hand-close]']]) {
       const label = page.locator(`[data-game-open="${part}"]`)

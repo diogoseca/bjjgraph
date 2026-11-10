@@ -190,6 +190,8 @@ function wholeContent(d: Dash) {
 // stage". The slide below: ask-fit-late (tests/artifacts/neural_app_mutants.mjs), the asking line fitted a frame late again,
 // killed at "the asking line stays one line on every pass of the slide" (26 / 43). Its first catch, the line's drift, moved off
 // every page once the tables' top padding changed their heights, which is why the fix now has a claim of its own.
+// NOT KILLED since v1.253.0: the tease spans the row (owner, 2026-11-09), and no authored question needs fitting at that width, so
+// a late fit leaves the line one line on every pass. The fit's column path has no live claim now; ask-line.spec.ts says so too.
 function columns(d: Dash) {
   const lanes = [...new Set(d.tiles.map(t => Math.round(t.box.left)))].sort((x, y) => x - y)
   expect(lanes, 'two columns').toHaveLength(2)

@@ -70,8 +70,10 @@ for (const width of [1024, 1440, 1920]) {
     }
     expect(g.link).toBe("Answer for Points")
     expect(g.shown.length).toBeGreaterThan(3)
-    expect(g.full.length, "premise: the authored question needs trimming").toBeGreaterThan(g.shown.length)
-    expect(g.shown).toMatch(/…$/)
+    // v1.253.0 (owner, 2026-11-09): the one-line tease spans the choices row, so the authored question (at most 100 characters in
+    // the whole corpus) stands whole on it at every width here; it was "needs trimming" in a column. The fit's trim no longer meets
+    // real content in columns, and nothing in this file covers it now.
+    expect(g.shown, "the question stands whole on its one line").toBe(g.full)
     expect(g.clipped).toBe(false)
     expect(g.padding).toBe("0px 0px 0px 3px")
     expect(g.gap, "VIDEO3 the attached hint keeps the visible section gap").toBeCloseTo(g.token, 1)

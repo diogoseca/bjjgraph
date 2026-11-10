@@ -430,7 +430,10 @@ for (const width of [1366, 390]) {
     expect(expanded).toMatchObject({ same: true, hosts: 1, home: true, lifted: false, together: true, overlap: false, ask: false, layout: width > 640 ? 'side-by-side' : 'stacked', position: 'relative' })
     expect(expanded.card.y - expanded.hand.bottom, 'the expanded question follows Moves at one gap').toBeCloseTo(expanded.gap, 1)
     if (width > 640) {
-      expect(expanded.media.top, 'the current card is top-aligned with the expanded question').toBeCloseTo(expanded.card.y, 1)
+      // v1.253.0 (owner, 2026-11-09): the tease spans the row and the film starts under it, so beside the expanded question it
+      // starts one tease line lower (the "moves the film nowhere" claim below is the one that matters).
+      expect(expanded.media.top - expanded.card.y, 'the current card starts within one tease line under the expanded question').toBeGreaterThanOrEqual(0)
+      expect(expanded.media.top - expanded.card.y, 'the current card starts within one tease line under the expanded question').toBeLessThanOrEqual(30)
       // U104, U108 a (owner, 2026-11-09, replacing the film 60px left of the question): the film is the right column, past the
       // open face's 52px lane for the deck's arrows, and taking the question up moved it nowhere.
       expect(expanded.media.x - expanded.card.right, 'beside it, right of the face and its arrows\' lane').toBeGreaterThanOrEqual(52)

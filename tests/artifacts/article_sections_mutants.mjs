@@ -478,6 +478,17 @@ const mutants = [
   ['closed-tile-keeps-column-margin', 'article-dashboard.spec.ts', 'finding 2', s => replace(s, 'if (s.body.hidden || s.control) { css.marginTop = css.clear = ""; continue; }', 'if (s.body.hidden || s.control) continue;')],
   // Finding 3: with Moves closed the film starts on the question.
   ['film-ask-step-without-moves', 'reading-media-placement.spec.ts', 'finding 3', s => replace(s, '(showHand && askStep != null ? step + 3 : 0)', '(askStep != null ? step + 3 : 0)')],
+  // v1.253.0 (owner, 2026-11-09): the one-line tease spans the choices row, and the film keeps its place under it as the question opens.
+  ['tease-column-width', 'tease-width.spec.ts', 'one-line tease spans.*1440', s => replace(s, 'const tease = column && asking && showHand ? grid : column;', 'const tease = column;')],
+  ['tease-drop-lost', 'tease-width.spec.ts', 'one-line tease spans.*1440', s => replace(s, 'const drop = showCard && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;', 'const drop = 0;')],
+  ['tease-drop-asking-only', 'tease-width.spec.ts', 'one-line tease spans.*1440', s => replace(s, 'const drop = showCard && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;', 'const drop = askStep != null && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;')],
+  // v1.253.0: the article runs to the fold, or to one gap above the win bar where the bar falls under the grid.
+  ['legend-restore-blank', 'reader-fold.spec.ts', '1440x900', s => replace(s, 'under ? "8px" : "30px"', 'under ? "8px" : ""')],
+  ['legend-not-docked', 'reader-fold.spec.ts', '1024x768', s => replace(s, 'under ? "8px" : "30px"', 'under ? "30px" : "30px"')],
+  ['reader-end-double-gap', 'reader-fold.spec.ts', '1024x768', s => replace(s, '? H - a._readerShelfBottom(lane)', '? H - a._readerShelfBottom(lane) - 8')],
+  // v1.253.0: an index row reopens its closed section (U11), checked by mouse.
+  ['index-reveal-lost', 'index-reveal.spec.ts', 'an article tile', s => replace(s, 'if (section.part) this.toggle(section.part); else this.toggleSection(section.type, true);', '')],
+  ['video-title-plural', 'reading-contract.spec.ts', 'cannot repaint the opposite seat', s => replace(s, '["videos", "Video"], ["aka"', '["videos", "Videos"], ["aka"')],
   ['u110-cap-lost', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = 0;')],
   ['u110-card-uncapped', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'beside ? 390 : cap || (arrows ? 560 : 520)', 'beside ? 390 : arrows ? 560 : 520')],
   ['u110-film-uncapped', 'stacked-width.spec.ts', 'stacked at 900px', s => replace(s, 'a.filmLayout(cap ? Math.min(free.width, cap + 32) : free.width,', 'a.filmLayout(free.width,')],

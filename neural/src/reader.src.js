@@ -18,7 +18,7 @@ const pathRole = path => (path.split("/").pop() || "Guide") + " perspective";
 // Shared with the deferred Settings UI. Persist semantic types, never a route,
 // translated heading or ordinal. Additions do not delete old settings (§6.6).
 export const SECTION_TYPES = [
-  ["videos", "Videos"], ["aka", "Also known as"], ["confused", "Often confused with"], ["definition", "Position definition"],
+  ["videos", "Video"], ["aka", "Also known as"], ["confused", "Often confused with"], ["definition", "Position definition"],
   ["overview", "How it works"], ["principles", "Essential principles"],
   ["recognition", "Recognition"], ["setup", "Setup"], ["prerequisites", "Prerequisites"],
   ["options", "Options and applications"], ["safety", "Safety guides"], ["mistakes", "Common mistakes"],
@@ -559,7 +559,7 @@ class Reader {
       if (!buckets.has(key)) buckets.set(key, { type, title, parts: [] });
       buckets.get(key).parts.push(part);
     }
-    if (this.referenceClips.length && !buckets.has("videos")) buckets.set("videos", { type: "videos", title: "Videos", parts: [] });
+    if (this.referenceClips.length && !buckets.has("videos")) buckets.set("videos", { type: "videos", title: "Video", parts: [] });
     // U101 b, U102 a (owner, 2026-11-06, replacing the split into tiles): "there should only be one overview, and it shouldn't be
     // called 'overview.'" A position's section opens with its first sentences and "Read more" opens the rest in place, one way, so
     // the label goes with the opening. Every word stays in the DOM. The class, because Learning, Systems and Submission family
@@ -1120,16 +1120,6 @@ class Reader {
       const phoneCatch = available && !reference && a._phoneCatch();
       a.wrapRef.current.toggleAttribute("data-phone-catch", phoneCatch);
       const top = chrome ? chrome.headBottom : ownTop;
-      // U59 c: the share cue in the corner reserves
-      // the bottom too: the reader ends above it and the cue never covers text or a link.
-      const end = chrome?.bottomReserve != null ? H - chrome.bottomReserve : this.dock.hidden
-        ? H - a._readerShelfBottom({ left: free.center - width / 2, right: W }) - 8
-        : rect(this.dock).top - 8;
-      for (const [key, value] of Object.entries({ left: 0, top, width: W, height: Math.max(80, end - top) })) style(root, key, value);
-      art.hidden = !available;
-      // Contents never participates in the column's width or centre calculation.
-      style(art, "width", Math.min(680, free.width - 24));
-      style(art, "margin-left", Math.max(12, free.center - parseFloat(art.style.width) / 2));
       // U9 b (owner, 2026-10-21): the index sits on the LEFT, 24px inside the free area (the inset it had on the right).
       const lead = free.left + 24;
       const tocWidth = toc ? parseFloat(getComputedStyle(toc).width) : 200;
@@ -1154,6 +1144,22 @@ class Reader {
       // also keeps the grid under 660px, so the article is one column and the stage stacks until 1,024px, where nothing changes.
       const cap = free.width < 1024 && 496;
       const grid = indexEdge ? free.width + 2 * (free.left - indexEdge) : Math.max(240, Math.min(cap || 902, free.width - 64));
+      // U59 c: the share cue in the corner reserves
+      // the bottom too: the reader ends above it and the cue never covers text or a link.
+      // v1.253.0 (owner, 2026-11-09: "cuts off its content 10 to 20 px before the fold"): where the win bar falls under the grid
+      // (no index: to 1,349px free, and a phone), the legend docks 8px off the bottom and the reader ends one 8px gap above the bar, so
+      // it reserves the bar's own height. It stood 30px up and the gap was counted twice: 64 to 72px of article lost. Elsewhere it goes
+      // back to the template's inline 30px: writing "" would delete that declaration, not restore it (§6.1), and send it to the top.
+      const legend = a.wrapRef.current.querySelector(".ng-legend"), bar = rect(legend?.querySelector(".ng-winbar")), lane = { left: free.center - grid / 2, right: W };
+      if (bar) { const under = bar.left < lane.right && bar.right > lane.left; legend.style.setProperty("bottom", under ? "8px" : "30px", under ? "important" : ""); }
+      const end = chrome?.bottomReserve != null ? H - chrome.bottomReserve : this.dock.hidden
+        ? H - a._readerShelfBottom(lane)
+        : rect(this.dock).top - 8;
+      for (const [key, value] of Object.entries({ left: 0, top, width: W, height: Math.max(80, end - top) })) style(root, key, value);
+      art.hidden = !available;
+      // Contents never participates in the column's width or centre calculation.
+      style(art, "width", Math.min(680, free.width - 24));
+      style(art, "margin-left", Math.max(12, free.center - parseFloat(art.style.width) / 2));
       // U59 c: when the grid's width changes (the pane opening, a resize), the first text block starting
       // within the reader keeps its place on screen; the finally puts it back after every other write.
       // DASH-R4: only once the article itself has scrolled above the reader's top. At the arrival the
@@ -1276,10 +1282,13 @@ class Reader {
       // U104 (owner, 2026-11-06): the question is the left column's first row and the current technique's video card the right's,
       // asking or open. Under an 800px grid a column is too narrow for a card and its arrow (288px at 768), so they stack, question first.
       const column = available && grid > 800 && H > 500 ? (grid - 24) / 2 : 0;
-      const [beside, mediaWidth, askStep] = a.filmLayout(cap ? Math.min(free.width, cap + 32) : free.width, H, homeMedia && (showCard || column), card, row, column);
+      // v1.253.0 (owner, 2026-11-09): "when it's just a one liner tease it should appear under the choices row" and take "as much width as
+      // the choices row does": in columns, under an open Moves row, the asking line is the grid's width; opened, it takes the left column.
+      const tease = column && asking && showHand ? grid : column;
+      const [beside, mediaWidth, askStep] = a.filmLayout(cap ? Math.min(free.width, cap + 32) : free.width, H, homeMedia && (showCard || column), card, row, column, tease);
       const mediaLayout = homeMedia ? beside ? "side-by-side" : "stacked" : "none";
       if (game.dataset.mediaLayout !== mediaLayout) game.dataset.mediaLayout = mediaLayout;
-      if (card) style(card, "width", Math.min(column ? asking ? column : column - 52 : beside ? 390 : cap || (arrows ? 560 : 520), free.width - (arrows && !beside ? 104 : 32)), "important");
+      if (card) style(card, "width", Math.min(column ? asking ? tease : column - 52 : beside ? 390 : cap || (arrows ? 560 : 520), free.width - (arrows && !beside ? 104 : 32)), "important");
       const cardWidth = rect(card)?.width || 0;
       style(home, "width", mediaWidth, "important");
       // Videos supplies its natural content height (A: ~241px desktop, ~220px
@@ -1354,7 +1363,11 @@ class Reader {
           // ran up over the label and took its reopening press (D-338, at 1,024 to 1,349px, where no index sits beside it).
           // #346's review (finding 3): the asking line sits in the Moves band only while Moves is open (placeHand), so only then does
           // the film start where the open card will; with Moves closed, it starts on the question, which opens downward.
-          const filmEnd = (showCard ? cardY : y) + (homeMedia ? (showHand && askStep != null ? step + 3 : 0) + mediaHeight : 0);
+          // v1.253.0: a tease across the row puts the film under it, and the film keeps that place as the question opens: the tease's
+          // height, kept for this card (a new landing's card is a new element), drops the opened card's film by the same amount.
+          if (tease > column && askStep != null) this.teaseDrop = [card, cardHeight - 3];
+          const drop = showCard && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;
+          const filmEnd = (showCard ? cardY : y) + (homeMedia ? (showHand && askStep != null ? step + 3 : 0) + drop + mediaHeight : 0);
           if (homeMedia) position(home, free.center + 12, filmEnd - mediaHeight, mediaWidth);
           reach = filmEnd - y; y = Math.min(y, filmEnd);
         }

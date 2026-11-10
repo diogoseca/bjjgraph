@@ -473,7 +473,7 @@ await build({
 // pay for U109 to U111: the last four were renamed from common words (serial, tiles, article, lead) so the gate can scan them.
 // mediaSlot (U113 b's label paid for): the two specs that read it take the slot by its data-reader-media-slot attribute now.
 // tests/artifacts/article_sections_mutants.mjs spells some of them, but it edits the source before this build, so that is not a read.
-const READER_ONLY_PROPS = /^(?:mediaSlot|sortColumns|readingInteraction|gameHomes|renderSerial|tileSizer|pageArticle|leadCells|placeTop|gridW|gameKey|selecting|seating|extract|gameInput|closedRow|referenceClips|lightReference|bookClose|highlightReference|syncSections|mediaOrigin|hiddenSections|gamePage|bookScroll|splitSections|syncIndex|mediaNext|readingOrder|chromeActive|shelfState|partEl|roleLinks|ownsMedia|indexBest|held|heldAt|heldY)$/;
+const READER_ONLY_PROPS = /^(?:teaseDrop|mediaSlot|sortColumns|readingInteraction|gameHomes|renderSerial|tileSizer|pageArticle|leadCells|placeTop|gridW|gameKey|selecting|seating|extract|gameInput|closedRow|referenceClips|lightReference|bookClose|highlightReference|syncSections|mediaOrigin|hiddenSections|gamePage|bookScroll|splitSections|syncIndex|mediaNext|readingOrder|chromeActive|shelfState|partEl|roleLinks|ownsMedia|indexBest|held|heldAt|heldY)$/;
 await build({
   entryPoints: [R("src/reader.src.js")], bundle: true, format: "esm", target: "es2019",
   minify: true, mangleProps: READER_ONLY_PROPS, legalComments: "none", outfile: R("dist/reader.js"), logLevel: "info",

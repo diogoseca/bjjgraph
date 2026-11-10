@@ -245,8 +245,17 @@ const controls = [
   // Finding 4: the video suggestion names its half.
   ['video-suggestion-seat-lost', 'film-suggest.spec.ts', 'about that move at 1440',
     [['...e&&{kind:"video",seat:t}}),this.closeModal(', '...e&&{kind:"video"}}),this.closeModal(']], 'a video suggestion about the shown move'],
+  // v1.253.0 (owner, 2026-11-09): a deck boundary's arrow stays, disabled, so a press there never reaches the map.
+  ['deck-end-arrow-hidden', 'deck-boundary.spec.ts', 'past either end',
+    [['a.hidden=l.hidden=!!this._landAsk,', 'a.hidden=!!this._landAsk||this._landPage===0,l.hidden=!!this._landAsk||this._landPage===i-1,']],
+    'a press where Previous stands on the first card keeps the question card and the film'],
+  // v1.253.0: the film's seat row prints the win bar's own number.
+  ['seat-win-unwired', 'state-win.spec.ts', 'seat row prints',
+    [['currentWinView(){return this._winView||', 'currentWinView(){return null||']], 'the seat row agrees with the win bar'],
   // U104 (owner, 2026-11-06): a card with no video has nothing to dismiss.
   // U104 (v1.252.0): an asking card is fitted inside the pass that measures it, or a pane slide reads a wrapped line.
+  // NOT KILLED since v1.253.0: the tease spans the choices row, and no authored question (100 characters at most) needs fitting there,
+  // so a late fit wraps nothing. Kept as the record; the fit's column path has no live claim.
   ['ask-fit-late', 'article-dashboard.spec.ts', 'other column \\(30% down\\)',
     [['p.clientWidth!==p._fitW&&this._fitAskLine(p,p._fitW=p.clientWidth)}return', 'p.clientWidth}return']], 'the asking line stays one line on every pass'],
   ['film-none-close-back', 'film-suggest.spec.ts', 'about that move at 1440',

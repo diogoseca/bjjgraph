@@ -13452,6 +13452,7 @@ class Component extends DCLogic {
     const label = bar && bar.querySelector("[data-legend-win]");
     if (!root || !runtime || !root.outcomes || typeof root.outcomes.win !== "number") {
       if (this.adv.shown) this.adv.stale = true;
+      this._winView = null;
       if (label) { label.textContent = "Win"; label.removeAttribute("data-win-chance"); }
       return;
     }
@@ -13465,8 +13466,13 @@ class Component extends DCLogic {
     if (!this.adv.shown) this.adv.cur = this.adv.target;
     this.adv.shown = true; this.adv.stale = false;
     if (prev != null && Math.abs(win - prev) >= 0.02) { this.adv.glow = 1; this.adv.sign = win > prev ? 1 : -1; this.adv.glowMag = Math.min(1, Math.abs(win - prev) * 2.8); }
+    this._winView = { text, handId: snapshot.handId };
     if (label) { label.textContent = "Win " + text; label.setAttribute("data-win-chance", text); }
   }
+  // The state's own Win %, V(s), exactly as the win bar prints it: _paintWinThermometer is the one place it is worked out, and this
+  // only hands its view on (§6.5). The film's seat row has asked for it since v1.231.0, and nothing defined it, so the row printed
+  // "—" on every film until v1.253.0 (owner, 2026-11-09: "where's my Win% off of this state i'm in?").
+  currentWinView() { return this._winView || { text: "—", handId: this._choiceHandId }; }
   sortChoiceValues(auto = false) {
     // An explicit player action is a safe reorder boundary, and so is the ONE automatic sort when
     // values arrive on an untouched hand (paintChoiceValues). Keep the exact opt objects/pick
@@ -14662,13 +14668,18 @@ class Component extends DCLogic {
     }
     const prev = nav.querySelector("[data-land-prev]"), next = nav.querySelector("[data-land-next]");
     const focused = document.activeElement;
-    prev.hidden = !!this._landAsk || this._landPage === 0;
-    next.hidden = !!this._landAsk || this._landPage === total - 1;
-    // Do not strand keyboard focus on a control that disappeared at a deck boundary.
-    if ((focused === prev && prev.hidden) || (focused === next && next.hidden)) {
-      const available = prev.hidden ? next : prev;
+    // v1.253.0 (owner, 2026-11-09): at a deck boundary the arrow stays where it was, disabled. Hidden, a second press there fell
+    // through to the map, whose background tap closes the card and the film (land_q_declined, land_dismissed); the deck ending
+    // is no reason for either to go. _landSurfaces() holds the nav, so a press on a disabled arrow never reaches the map.
+    prev.hidden = next.hidden = !!this._landAsk;
+    prev.setAttribute("aria-disabled", this._landPage === 0);
+    next.setAttribute("aria-disabled", this._landPage === total - 1);
+    const off = (b) => b.hidden || b.getAttribute("aria-disabled") === "true";
+    // Do not strand keyboard focus on a control that went off at a deck boundary.
+    if ((focused === prev && off(prev)) || (focused === next && off(next))) {
+      const available = focused === prev ? next : prev;
       // Asking hides both (U52 b): keyboard focus goes to Answer for Points, never to the page (APTS-R4).
-      (available.hidden ? el.querySelector("[data-land-ask-go]") : available)?.focus({ preventScroll: true });
+      (off(available) ? el.querySelector("[data-land-ask-go]") : available)?.focus({ preventScroll: true });
     }
     if (!this._landStackEl) {
       const stack = document.createElement("div");
@@ -15664,16 +15675,17 @@ class Component extends DCLogic {
   // The media owner supplies width and spacing; Sections measures its natural height.
   // Below 1152px of free pane, the film fills the 680px reading column (16px phone
   // gutters). Above it, 400px leaves room for the deck, arrows and Contents lane.
-  filmLayout(width, height, paired, card, row, column) {
+  filmLayout(width, height, paired, card, row, column, tease = column) {
     const wide = width >= 1152, ask = row && card?.hasAttribute("data-land-ask");
     const css = ask && getComputedStyle(card);
     const gap = ask && parseFloat(css.getPropertyValue("--section-gap"));
     const hint = ask && width >= 1024 && this._handShown() && this._reader?.on("book");
-    // U104: in columns an asking card is the column's width, and its height feeds the Moves band and the article's columns. The line
+    // U104: in columns an asking card is the column's width (v1.253.0: the grid's, `tease`, under an open Moves row), and its height feeds
+    // the Moves band and the article's columns. The line
     // is fitted to one line by its ResizeObserver, a frame after its width changes, so a pane slide read a wrapped line, 17px taller:
     // the columns flipped between passes and the reader's line jumped 11.8px on Mount Bottom at 1440. Size and fit it here first.
     if (ask && column) {
-      if (card.style.width !== column + "px") card.style.setProperty("width", column + "px", "important");
+      if (card.style.width !== tease + "px") card.style.setProperty("width", tease + "px", "important");
       const qt = card.querySelector("[data-land-ask-text]").parentNode;
       if (qt.clientWidth !== qt._fitW) this._fitAskLine(qt, qt._fitW = qt.clientWidth);
     }
@@ -15692,11 +15704,10 @@ class Component extends DCLogic {
   currentFilmHeight() { return this._landFilmEl?.getBoundingClientRect().height || 0; }
   _paintCurrentFilmWin() {
     const footer = this._landFilmEl?.querySelector("[data-current-film-win]"); if (!footer) return;
-    const view = this.currentWinView?.() || { text: "—", stale: false, handId: this._choiceHandId };
-    footer.textContent = view.text;
-    footer.toggleAttribute("data-choice-stale", !!view.stale);
+    const view = this.currentWinView();
+    footer.textContent = this.choiceNumber(view.text);
     footer.dataset.handId = view.handId || "";
-    footer.setAttribute("aria-label", "Win " + view.text + (view.stale ? ", updating" : ""));
+    footer.setAttribute("aria-label", "Win " + view.text);
   }
   // FILM RIDES ITS OWN STRIP, OUTSIDE THE CARD (v1.101.1, owner: "place the film study row aka
   // the videos outside the ng-landcard ... should be outside, immediately above it"). It is a
