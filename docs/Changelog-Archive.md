@@ -14908,10 +14908,33 @@ face-down hand could auto-sort under a peek and a blind `3` would then play anot
 `_handTouched`).
 
 **The record.** `moves[state][move] = [due, ivl, last, ok]`; state `"<site ordinal>/<role>"`, move the technique's site
-ordinal or `"e" + qhash(label)` for an escape. Merge (`ngKnowledgeMergeMoves`): the later `last` wins, a same-day tie
+ordinal or `"e" + qhash(label)` for an escape. Merge (`ngProgressMergeMoves`): the later `last` wins, a same-day tie
 goes to the smaller interval (a same-day No beats a same-day Yes), a winner past rung 0 keeps the longer interval it beat,
-the winner's `ok` rides with it, ingested `last` clamped to today. A device on an older build keeps the field whole in its
-extras and can push a stale copy; the next pull on a current build heals it cell by cell.
+the winner's `ok` rides with it, ingested `last` clamped to today. The function lives in `progress-owner.src.js` beside
+the blob's validator: the first draft put it in `knowledge-profile.src.js`, whose bytes the study engine pins by law hash,
+and five game-study units plus `gameplan-study-live.spec.ts:242` went red until it moved.
+
+**Protecting the stored accounts (HIDE1B; the owner: "we got 200 users now … i'd like to protect the current users").**
+`tests/moves_account_safety.test.mjs` drives the real class on a realistic saved account: a pre-v1.255.0 blob loads with
+prep, stage, rec, srs, belts, units, "Mastered N · X%", every deck's mastery and odds bonus, the due count and today's
+Practice count unchanged; a full `moves` record (and a Yes and a No graded through `_gradeMove`) moves none of them;
+every old field is saved back byte-equal under its own key and the only new key is `moves`; and the app's merge of two
+new devices gives the same cells in either order. Four mutants killed (moves hydrated into srs, a grade bumping stage,
+the merge ignoring the cloud, the emit re-keying srs). Dropping a field from `_progressBlob`'s explicit list is NOT
+caught, by construction: the emit spreads the loaded blob first, so the field rides through anyway.
+
+**A new blob in an old app, traced on v1.253.0's own code** (origin/dev `dc01c3d44`, the real class and prelude in a
+scratch probe): it LOADS and SAVES `moves` untouched, and a v1.253.0 client that never held `moves` keeps the cloud's copy
+on a pull. But once it has held a copy, its pull merges `Object.assign({}, cloud, localExtras)`: the local copy wins
+WHOLE, so a cell graded on another device since that client last saw `moves` is dropped from its merged blob (probe:
+today's Americana grade, 143, gone; the v1.255.0 merge on the same inputs keeps both), and its next push writes that to
+the cloud. It keeps doing so on every sync, across reloads, until it runs v1.255.0. **Loss is real but narrow:** the
+grading device still holds its own copy, and its next pull restores the cell cell by cell, so a grade is lost for good
+only if that device's storage is gone before it syncs again while an old tab keeps pushing. The window is the life of a
+v1.253.0 tab left open after the deploy (a reload fetches the new build). This is the same exposure every field already
+has between an old tab's pull and its push (pull merges, push overwrites); `moves` adds only that the old tab's later
+pulls do not refresh it. No change in v1.255.0 can reach an already-open v1.253.0 tab: it pushes without re-checking once
+pulled, so even a version bump would not stop it.
 
 **Bytes**, measured by building dev's own five source files and this branch's, same tree: eager gzip +2,491 B
 (neural.js +1,868, neural.css +623), +2,947 B since the accepted baseline 348,688 (2,053 B of the 5,000 cap left);
