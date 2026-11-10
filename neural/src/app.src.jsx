@@ -53,7 +53,10 @@ const NG_CARD_LIFT = 1 / 12, NG_CARD_LIFT_MS = 440;
 // down; "header" writes a hint beside "Your move" instead (the owner chooses from screens of both).
 // NG_HIDE_GRADE_NO puts a No beside EVERY "Did you get it?" — off: he wrote Yes only for a move you
 // do not know yet; the No lives on a known move that is due ("Still got it?", HIDE1A, `_peek`).
-const NG_PEEK_DWELL_MS = 250, NG_HIDE_HINT = "badge", NG_HIDE_GRADE_NO = false;
+// NG_GRADE_ARM_MS (review R3): the strip's buttons answer only a press that BEGAN this long after the strip
+// appeared — it appears where the pointer already is (after the dwell, or under the revealing tap), so an earlier
+// press was aimed at the card, not at a button the player had not seen yet.
+const NG_PEEK_DWELL_MS = 250, NG_HIDE_HINT = "badge", NG_HIDE_GRADE_NO = false, NG_GRADE_ARM_MS = 500;
 // The videos row's fade, in units of the ONE token it is sized from: the card's side padding, measured
 // by `_dockLandFilm` (the end padding is 1 of the same unit). helmet.html `.ng-landfilm`.
 const NG_FILM_FADE_RATIO = 3;
@@ -3910,6 +3913,8 @@ class Component extends DCLogic {
   }
   _hydrateProgressBlob(p) {
     if (p !== null) ngProgressValidateBlob(p);
+    // a pull or another tab can flip `hideMoves` under a dealt hand (review R9): the row and the map re-sync below
+    const hideWas = this._optionCards && this._optionCards.length ? this._hideMoves() : null;
     p = p === null ? { v: 2 } : JSON.parse(JSON.stringify(p));
     this._progressExtras = Object.assign({}, p);
     this._progressAt = p.updatedAt || 0;
@@ -3959,6 +3964,7 @@ class Component extends DCLogic {
       this.cardsToday = this._days[this._dayKey()] || 0;
     this._publishKnowledge("progress-load");
     this._syncDangerAnimation(); // live cloud/other-tab receipt; staged merge has no pressure
+    if (hideWas != null && hideWas !== this._hideMoves()) this._syncHideMoves();
   }
   /** last-30-keys trim, shared by `days` and `dayLog` */
   _trimDays(m) { const out = {}; for (const k of Object.keys(m).sort().slice(-30)) out[k] = m[k]; return out; }
@@ -3970,7 +3976,11 @@ class Component extends DCLogic {
     this._progressAt = Date.now();
     // `flow` and `explored` ride the EXISTING v2 blob, the way `lists` and `srs` did — a roll
     // ledger is not worth a schema migration, and `neural` is free-form JSONB on the cloud side.
-    return { ...(this._progressExtras || {}), v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, moves: this.moves || {}, dayLog: this._trimDays(this.dayLog || {}), rollDays: this._trimDays(this._rollDays || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, flow: this._trimFlow(this.flow || {}), explored: [...(this._exploredKeys || [])], days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    const out = { ...(this._progressExtras || {}), v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, dayLog: this._trimDays(this.dayLog || {}), rollDays: this._trimDays(this._rollDays || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, flow: this._trimFlow(this.flow || {}), explored: [...(this._exploredKeys || [])], days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    // `moves` (v1.255.0) is written only once it holds a cell (review R4): an account that never graded a move
+    // saves exactly the blob v1.254.0 saves, and an open older tab is never handed a `moves` copy to push back.
+    if (Object.values(this.moves || {}).some(row => row && Object.keys(row).length)) out.moves = this.moves; else delete out.moves;
+    return out;
   }
   _saveProgress() {
     clearTimeout(this._saveT);
@@ -13879,7 +13889,7 @@ class Component extends DCLogic {
     card.dataset.choiceFront = "suppressed";
     if (isThreat) card.setAttribute("data-opponent-threat", "1");
     const value = isThreat ? null : this.choiceValueShown(opt), target = this._choiceMediaTarget(opt);
-    card._choiceOpt = opt; card._choiceTarget = target;
+    card._choiceOpt = opt; card._choiceTarget = target; card._place = num;
     const chance = isThreat ? this.choiceChance(opt) : null;
     const immediateLabel = opt.action === "escape" ? "Escape" : opt.action === "finish" ? "Submit" : n.ty === "submissions" ? "Works" : "Move";
     const execute = isThreat ? 'div' : 'button';
@@ -13945,14 +13955,21 @@ class Component extends DCLogic {
   _hideAria(card) {
     const b = card.querySelector("[data-choice-execute]"); if (!b) return;
     const down = card.hasAttribute("data-hide") && !card.hasAttribute("data-revealed");
-    b.setAttribute("aria-label", down ? "Hidden move " + (card.querySelector("[data-choice-number]")?.textContent || "") : b._ngFull || this.choiceLabel(card._choiceOpt));
+    // the number is the card's PLACE in its row (review R8): the printed digit stops at 9, and is absent with numbers off.
+    // Built but not yet mounted (buildOptionCard), the place is the dealt one it was built with; the painter re-reads it.
+    const row = card.parentElement, place = row ? [...row.children].indexOf(card) + 1 : card._place;
+    b.setAttribute("aria-label", down ? "Hidden move " + (place || "") : b._ngFull || this.choiceLabel(card._choiceOpt));
   }
   // Touch or pen on a face-down card: turn it up (closing the one turned up before) and consume
   // the tap. A face-up card falls through and plays; a threat has nothing to play, so it toggles.
+  // ENTER OR SPACE ON A FOCUSED CARD (a click with no pointer: detail 0) HAS ONE RULE, whatever pointer
+  // pressed last (review R7): face down, it turns up; face up, it plays. A mouse click plays (the hover
+  // already turned it up); keys 1-9 never come here and still play blind.
   _hideTap(card, e) {
-    if (card._pt === "mouse") return false;
+    const key = e.detail === 0;
+    if (!key && card._pt === "mouse") return false;
     if (card.hasAttribute("data-revealed")) {
-      if (!card._choiceOpt.threat || this._hmAll) return false;
+      if (key || !card._choiceOpt.threat || this._hmAll) return false;
       this._peek(card, false, true); return true;
     }
     if (!this._hmAll) for (const c of this._optionCards || []) if (c.card !== card) this._peek(c.card, false, true);
@@ -13993,14 +14010,22 @@ class Component extends DCLogic {
     if (!strip) {
       strip = document.createElement("div");
       strip.className = "ng-choice-grade"; strip.setAttribute("data-choice-grade", "");
-      for (const type of ["pointerdown", "click"]) strip.addEventListener(type, ev => ev.stopPropagation());
+      // The strip is pointer-events:none, so a press on its text reaches the card as any press on the card
+      // does; only its buttons take input. A button answers a press that BEGAN once it was armed
+      // (NG_GRADE_ARM_MS after the strip appeared, review R3); an earlier press does nothing at all — no
+      // grade and no play — because it was aimed before the button was there to be seen.
+      strip.addEventListener("pointerdown", ev => { ev.stopPropagation(); strip._press = performance.now() >= strip._armAt; });
       strip.addEventListener("click", ev => {
-        const b = ev.target.closest("[data-grade]"); if (!b) return;
+        ev.stopPropagation();
+        const b = ev.target.closest("[data-grade]"), armed = ev.detail === 0 ? performance.now() >= strip._armAt : strip._press === true;
+        strip._press = null;
+        if (!b || !armed) return;
         card.removeAttribute("data-asking");
         this._gradeMove(opt, b.dataset.grade === "yes", card);
       });
       card.appendChild(strip);
     }
+    if (!card.hasAttribute("data-asking")) strip._armAt = performance.now() + NG_GRADE_ARM_MS;
     strip.innerHTML = '<span>' + (due ? "Still got it?" : "Did you get it?") + '</span><button type="button" data-grade="yes">Yes</button>' + (due || NG_HIDE_GRADE_NO ? '<button type="button" data-grade="no">No</button>' : "");
     card.setAttribute("data-asking", "");
   }
@@ -14066,7 +14091,8 @@ class Component extends DCLogic {
   _gradeMove(opt, ok, card) {
     const k = this._moveKey(opt); if (!k) return;
     const m = (this.moves = this.moves || {}), row = (m[k[0]] = m[k[0]] || {});
-    row[k[1]] = ngKnowledgeScheduleRow(row[k[1]], ok, this._epochDay()).concat(ok ? 1 : 0);
+    const prior = row[k[1]];   // cells a later build added after the fourth ride along (review R5)
+    row[k[1]] = ngKnowledgeScheduleRow(prior, ok, this._epochDay()).concat(ok ? 1 : 0, prior && prior.length > 4 ? prior.slice(4) : []);
     card.toggleAttribute("data-mastered", ok);
     this.track("neural_move_recalled", { technique: opt.node.t, got: ok, threat: !!opt.threat, escape: opt.action === "escape" });
     this._saveProgress();
@@ -20986,14 +21012,21 @@ class Component extends DCLogic {
       }
       // persistent labels on the outgoing option nodes while a decision is open
       this._lastOptLabels = null; // published like _lastPairLabel: "what did THIS frame draw"
+      // HIDDEN MOVES: every dealt orb whose card is face down, with its pair partner. NO map label may name one —
+      // the always-on option labels, the roaming pair group and the single hover label all ask this set
+      // (review R2: the hover labels did not, so pointing at an orb named the move its card hides).
+      let hmDown = null;
+      if (this.optionIdxs && this.optionIdxs.length && this._hideMoves() && !this._hmAll) {
+        hmDown = new Set();
+        const lit = this._hmLit || new Set();
+        for (const i of this.optionIdxs) if (!lit.has(i)) { hmDown.add(i); const q = this.nodes[i]; if (q && q.pi >= 0) hmDown.add(q.pi); }
+      }
       if (this.optionIdxs && this.optionIdxs.length && !this.pulse) {
         this._lastOptLabels = [];
         ctx.textBaseline = "bottom"; ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
-        // hidden moves: the map names only the dealt moves whose card is face up
-        const hm = this._hideMoves() && !this._hmAll ? (this._hmLit || (this._hmLit = new Set())) : null;
         for (const idx of this.optionIdxs) {
           const n = this.nodes[idx]; if (!n) continue;
-          if (hm && !hm.has(idx)) continue;
+          if (hmDown && hmDown.has(idx)) continue;   // hidden moves: a face-down card's orb is not named
           // a staged exchange makes a dealt option THE FOCUS (v1.132.0) — the pair group already
           // names it, and an option label on the same orb is the "printed twice" defect the
           // in-node pass was deleted for. Never possible before: an option was never the focus.
@@ -21178,7 +21211,7 @@ class Component extends DCLogic {
       if (_hovNode && _hovNode.pi >= 0) {
         const inFocusPair = drawFocus >= 0 &&
           (_hovNode.idx === drawFocus || _hovNode.idx === this.nodes[drawFocus].pi);
-        if (!inFocusPair) _hovPairDrawn = pairGroup(_hovNode, _hovNode, false);
+        if (!inFocusPair && !(hmDown && hmDown.has(_hovNode.idx))) _hovPairDrawn = pairGroup(_hovNode, _hovNode, false);
       }
       // hover: nearest node label (brighter + "your move" tag if it's an outgoing option)
       // ...but NOT for a member of the focused pair: the label group above already names it, and
@@ -21186,7 +21219,8 @@ class Component extends DCLogic {
       // orb would be the "printed twice" problem the in-node pass had (v1.114.0), on hover.
       const _hovIsPairHalf = _hovNode && drawFocus >= 0 &&
         (_hovNode.idx === drawFocus || _hovNode.idx === this.nodes[drawFocus].pi);
-      if (_hovNode && !_hovIsPairHalf && !_hovPairDrawn) {
+      this._lastHoverLabel = null;   // published, like _lastPairLabel: the single hover label THIS frame drew
+      if (_hovNode && !_hovIsPairHalf && !_hovPairDrawn && !(hmDown && hmDown.has(_hovNode.idx))) {
         const n = _hovNode;
         const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         const isOpt = this.optionIdxs && this.optionIdxs.indexOf(n.idx) >= 0;
@@ -21224,6 +21258,7 @@ class Component extends DCLogic {
           ctx.fillText(this._fitText(ctx, qual, maxW), hx, hNameY + this.NG_LABEL_LEAD);
         }
         ctx.shadowBlur = 0;
+        this._lastHoverLabel = { idx: n.idx, main };
       }
     }
     this._syncSeatStars(seatStars);

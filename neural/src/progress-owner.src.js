@@ -67,30 +67,31 @@ export function ngProgressValidateBlob(value) {
   return value;
 }
 
-// THE `moves` MERGE (v1.255.0): moves[state][move] = [due, ivl, last, ok], two devices' copies,
-// cell by cell, by `srs`'s rule (app.src.jsx _mergeProgressFields). It lives HERE, with the
-// blob's validator, because it is blob code: knowledge-profile's bytes are pinned by the study engine's law
-// hashes, and the app harnesses that exercise the merge load this module, not that one: the later `last` wins; a
-// same-day tie goes to the SMALLER interval, so a same-day No (rung 0) beats a same-day Yes; a
-// winner past rung 0 keeps the longer interval it lost, which heals a fresh device's 1 -> 3 against
-// a mature schedule. The winner's answer (`ok`) rides with it: mastery is the LAST answer. Ingested
-// `last` is clamped to today so a fast clock cannot win forever. Returns a new map; inputs untouched.
+// THE `moves` MERGE (v1.255.0): moves[state][move] = [due, ivl, last, ok, ...tail], two devices' copies, cell by cell.
+// A TOTAL ORDER, so merge(a, b) equals merge(b, a) and two devices always converge (review R1: the first draft let a
+// full tie keep whichever copy was LOCAL, so a phone's No and a laptop's first Yes on the same day each kept their own
+// and the cloud flipped with every push). The winner is: the later `last`; then the smaller interval (`srs`'s rule);
+// then the No (ok 0) — mastery breaks on a No; then the earlier due; then the tail, compared as text. A winner past
+// rung 0 keeps the longer interval it beat, which heals a fresh device's 1 -> 3 against a mature schedule. `last` is
+// clamped to today on BOTH sides, so a fast clock cannot win forever. A row's tail (cells a later build may add) rides
+// with the row that wins, through the heal too (review R5). It lives HERE, beside the blob's validator, because it is
+// blob code: knowledge-profile's bytes are pinned by the study engine's law hashes. Returns a new map; inputs untouched.
 export function ngProgressMergeMoves(local, cloud, today) {
+  const valid = r => Array.isArray(r) && r.length >= 4 && r.slice(0, 4).every(x => typeof x === "number" && Number.isFinite(x));
+  const norm = r => [r[0] | 0, r[1] | 0, Math.min(today, r[2] | 0), r[3] ? 1 : 0].concat(r.slice(4));
+  const tail = r => JSON.stringify(r.slice(4));
+  const first = (a, b) => a[2] !== b[2] ? (a[2] > b[2] ? a : b) : a[1] !== b[1] ? (a[1] < b[1] ? a : b)
+    : a[3] !== b[3] ? (a[3] < b[3] ? a : b) : a[0] !== b[0] ? (a[0] < b[0] ? a : b) : tail(a) <= tail(b) ? a : b;
   const out = {};
-  for (const s in local || {}) out[s] = Object.assign({}, local[s]);
-  for (const s in cloud || {}) {
-    const l = (out[s] = out[s] || {}), cs = cloud[s] || {};
-    for (const mv in cs) {
-      const c = cs[mv], m = l[mv];
-      if (!Array.isArray(c) || c.length < 4) continue;
-      const cc = [c[0] | 0, c[1] | 0, Math.min(today, c[2] | 0), c[3] ? 1 : 0];
-      if (!m) { l[mv] = cc; continue; }
-      let w, o;
-      if (cc[2] > m[2]) { w = cc; o = m; }
-      else if (m[2] > cc[2]) { w = m; o = cc; }
-      else if (cc[1] < m[1]) { w = cc; o = m; }
-      else { w = m; o = cc; }
-      if (w[1] > 1 && o[1] > w[1]) w = [w[2] + o[1], o[1], w[2], w[3]];
+  for (const side of [local, cloud]) for (const s in side || {}) {
+    const l = (out[s] = out[s] || {});
+    for (const mv in side[s] || {}) {
+      if (!valid(side[s][mv])) continue;
+      const c = norm(side[s][mv]), m = l[mv];
+      if (!m) { l[mv] = c; continue; }
+      let w = first(m, c);
+      const o = w === m ? c : m;
+      if (w[1] > 1 && o[1] > w[1]) w = [w[2] + o[1], o[1], w[2], w[3]].concat(w.slice(4));
       l[mv] = w;
     }
   }

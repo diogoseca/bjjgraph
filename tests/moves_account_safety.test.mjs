@@ -19,6 +19,8 @@
 //   `_gradeMove` also bumps `stage` for the state's deck → old blob: a full moves record moves no number
 //   the merge ignores the cloud's `moves`                 → two new devices
 //   the emit re-keys `srs` (deck keys lower-cased)        → old blob: nothing rewritten
+//   `moves: {}` emitted for every account (review R4)     → old blob: no `moves` key, v1.254.0's keys in order
+//   a grade cuts the row to four cells (review R5)         → R4 / R5
 // NOT a gate here, by construction: dropping a field from `_progressBlob`'s explicit list survives, because the emit
 // spreads the loaded blob's own fields first (`_progressExtras`), so an old field rides through either way.
 import { test } from "node:test";
@@ -94,6 +96,7 @@ function boot(blob) {
   a.curriculum = { belts: [], weights: Object.fromEntries(Object.keys(DECKS).map((k) => [k, 1])) };
   return a;
 }
+const V1254_ORDER = ["v", "prep", "rec", "stage", "srs", "dayLog", "rollDays", "units", "belts", "tut", "challenges", "badges", "coins", "lists", "flow", "explored", "days", "settings", "settingsAt", "updatedAt"];
 const numbers = (a) => {
   const gs = a.gameScore();
   return {
@@ -126,9 +129,10 @@ test("old blob, new app: a pre-v1.255.0 account loads with every number unchange
   }
   assert.deepEqual(out.belts.won, blob.belts.won); assert.equal(out.belts.held, blob.belts.held);
   for (const c of Object.keys(blob.challenges)) assert.equal(out.challenges[c], blob.challenges[c], "challenge " + c + " kept");
-  const added = Object.keys(out).filter((k) => !(k in blob));
-  assert.deepEqual(added.filter((k) => k !== "updatedAt").sort(), ["moves"], "the one new key is `moves`");
-  assert.deepEqual(out.moves, {});
+  // review R4: an account that never graded a move saves NO `moves` key — the blob v1.254.0 saves for it, key for
+  // key in the same order (V1254_ORDER is v1.254.0's `_progressBlob` literal, 21318b0c5, after the loaded fields)
+  assert.ok(!("moves" in out), "no `moves` key for an account that never graded one");   // (belts.won carries its own `moves` count)
+  assert.deepEqual(Object.keys(out), [...Object.keys(blob), ...V1254_ORDER.filter((k) => !(k in blob))], "v1.254.0's keys, in v1.254.0's order");
 });
 
 test("old blob, new app: a full `moves` record moves no number — no mastery, no menu figure, no odds bonus, no due or Practice count", () => {
@@ -145,6 +149,18 @@ test("old blob, new app: a full `moves` record moves no number — no mastery, n
   a._gradeMove({ idx: 1, node: a.nodes[1] }, true, card);
   assert.deepEqual(numbers(a), plain, "a graded move changes no existing number");
   assert.deepEqual(a.moves["76/top"]["307"].slice(1), [3, DAY, 1], "…and lands in `moves` alone");
+});
+
+test("R4 / R5: a graded account saves `moves`; a grade keeps a later build's tail on the row", () => {
+  const a = boot({ v: 2, moves: { "76/top": { "307": [DAY - 1, 3, DAY - 4, 1, 5, 9] } } });
+  a.nodes = [{ id: "Positions/Mount", t: "Mount", ty: "positions" }, { id: "Submissions/Kimura/from-Mount", t: "Kimura from Mount", ty: "submissions" }];
+  a._ordById = new Map([["Positions/Mount", 76], ["Submissions/Kimura/from-Mount", 307]]);
+  a.siteIdOf = (id) => id; a._hmAt = 0; a.currentPos = 0; a.playerRole = "top";
+  a._gradeMove({ idx: 1, node: a.nodes[1] }, true, { toggleAttribute() {} });
+  assert.deepEqual(a.moves["76/top"]["307"].slice(1), [7, DAY, 1, 5, 9], "the schedule moved on, and the tail rode along");
+  assert.deepEqual(a._progressBlob().moves, a.moves, "a held cell is saved");
+  const empty = boot({ v: 2, moves: { "76/top": {} } })._progressBlob();
+  assert.ok(!("moves" in empty), "a `moves` with no cell (an earlier v1.255.0 build's {}) is not written back");
 });
 
 test("two new devices: the app's merge gives the same `moves` in either order of arrival", () => {

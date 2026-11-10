@@ -47,6 +47,8 @@ async function seatMount(page: Page, hidden = true) {
  *  same card for the whole test. */
 const tag = (page: Page) => page.evaluate(() => (window as W).__neural._optionCards.filter((c: W) => !c.opt.threat).forEach((c: W, i: number) => c.card.setAttribute("data-hm", String(i))))
 const hm = (i: number) => `[data-hm="${i}"]`
+/** the grade buttons answer only a press that began NG_GRADE_ARM_MS (500 ms) after the strip appeared (review R3) */
+const ARM = 600
 
 /** What a player can SEE of the card `sel` names: never its text. */
 const face = (page: Page, sel: string) => page.evaluate((sel) => {
@@ -117,17 +119,35 @@ test("@curated off by default: the row is dealt as before, and the setting turns
 test("@curated on: the name and the film are face down, the numbers stay, and the map withholds the names", async ({ page }) => {
   await seatMount(page)
   const n = await page.locator(OWN).count()
-  for (let i = 0; i < Math.min(n, 6); i++) {
+  expect(n, "Mount Top deals past nine cards (the printed digit stops at 9)").toBeGreaterThan(9)
+  for (let i = 0; i < n; i++) {
     const f = await face(page, `${OWN}:nth-child(${i + 1})`)
     expect([f.title, f.stats, f.filmCovered, f.up], `own card ${i}: name hidden, numbers shown, film covered`).toEqual(["hidden", "visible", true, false])
-    expect(f.aria, `own card ${i} is announced without its name`).toBe(`Hidden move ${i + 1}`)
+    expect(f.aria, `own card ${i} is announced without its name, by its place in the row (review R8)`).toBe(`Hidden move ${i + 1}`)
   }
   const t = await face(page, "[data-opponent-threat]")
   expect([t.title, t.filmCovered], "a threat is face down too").toEqual(["hidden", true])
   expect(await mapNames(page), "the map names no dealt move while the row is face down").toEqual([])
   // positive control on the same board: face up, the same frame path draws the names
-  await journey(page).clickByMouse("[data-hide-all]", '"Show all"')
+  const j = journey(page)
+  await j.clickByMouse("[data-hide-all]", '"Show all"')
   expect((await mapNames(page)).length, "...and names them once the row is face up").toBeGreaterThan(0)
+  // REVIEW R2 / T3: pointing at a dealt orb must not name it either. The map's hover is the frame's input
+  // (`_hover`, which the canvas pointermove writes); every label the frame then DRAWS is published
+  // (`_lastPairLabel`, `_lastHoverLabel`), so the claim is read off the render, not recomputed.
+  const orb = await page.evaluate(() => { const a = (window as W).__neural; return a._lastOptLabels[0] as number })
+  const pointAt = (idx: number) => page.evaluate(async (idx) => {
+    const a = (window as W).__neural, partner = a.nodes[idx].pi
+    a._hover = { idx, t: a.now }; a.advance(30)
+    const named = (l: any) => !!l && (l.idx === idx || l.idx === partner)
+    return { pair: named(a._lastPairLabel), single: named(a._lastHoverLabel) }
+  }, idx)
+  const shown = await pointAt(orb)
+  expect(shown.pair || shown.single, "control: face up, pointing at the orb names it").toBe(true)
+  await j.clickByMouse("[data-hide-all]", '"Hide all"')
+  expect(await pointAt(orb), "face down, pointing at the same orb names nothing").toEqual({ pair: false, single: false })
+  const partner = await page.evaluate((idx) => (window as W).__neural.nodes[idx].pi as number, orb)
+  if (partner >= 0) expect(await pointAt(partner), "...nor at its pair partner").toEqual({ pair: false, single: false })
 })
 
 test("@curated hover: the card stands out at once, turns up only after the dwell, and a sweep peeks at nothing", async ({ page }) => {
@@ -147,6 +167,8 @@ test("@curated hover: the card stands out at once, turns up only after the dwell
 
   const p = await pointOn(page, hm(1))
   await page.evaluate(() => { (window as W).__neural._handTouched = false })
+  const boxes = () => page.evaluate(() => ["0", "2", "3"].map((i) => { const r = document.querySelector(`[data-hm="${i}"]`)!.getBoundingClientRect(); return [r.left, r.top, r.width, r.height].map((v) => Math.round(v * 10) / 10) }))
+  const before = await boxes()
   await page.mouse.move(p.x, p.y)
   await page.waitForTimeout(120)
   const early = await page.evaluate(() => { const c = document.querySelector('[data-hm="1"]') as HTMLElement; return { hover: c.hasAttribute("data-hover"), title: getComputedStyle(c.querySelector(".ngchoice-title")!).visibility } })
@@ -160,7 +182,7 @@ test("@curated hover: the card stands out at once, turns up only after the dwell
   expect(up.aria, "face up, it is announced by name").toMatch(/^Attack /)
   const s = await appState(page)
   expect([s.peeks, s.touched], "one peek, and a peek touches the hand (it never re-sorts under a peek)").toEqual([1, true])
-  expect(await page.evaluate(() => { const r = (window as W).__neural.optionsRef.current; return r.scrollWidth >= r.clientWidth && getComputedStyle(r).overflowY }), "no layout shift: the row keeps its own overflow").toBe("hidden")
+  expect(await boxes(), "no layout shift: the neighbours' boxes are where they were (review T1)").toEqual(before)
   await page.mouse.move(p.x, p.y - 160)
   await page.waitForTimeout(250)
   expect((await face(page, hm(1))).title, "leaving turns it back down").toBe("hidden")
@@ -177,6 +199,7 @@ test("@curated Yes files the move as mastered: gold in every row, kept across a 
   })
   const [stateKey, moveKey] = key.split("|")
   expect(stateKey, "the state is filed by its permanent share ordinal and the seat").toMatch(/^\d+\/top$/)
+  await page.waitForTimeout(ARM)
   await j.clickByMouse(`${hm(1)} [data-grade="yes"]`, '"Yes"')
   const s = await appState(page)
   expect(s.executing, "Yes is not a play").toBe(false)
@@ -301,6 +324,7 @@ test("@curated the escape tray is face down too, and an escape files by its own 
   const p = await pointOn(page, '[data-hm-esc="0"]')
   await page.mouse.move(p.x, p.y)
   await expect.poll(async () => (await face(page, '[data-hm-esc="0"]')).asking).toBe(true)
+  await page.waitForTimeout(ARM)
   await j.clickByMouse('[data-hm-esc="0"] [data-grade="yes"]', '"Yes" on an escape')
   const filed = await page.evaluate(() => {
     const a = (window as W).__neural, o = a._optionCards.find((c: W) => c.card.getAttribute("data-hm-esc") === "0").opt
@@ -347,6 +371,7 @@ test("@curated what a face-up card asks: unknown Yes only, known and due Still g
 
   const d = await ask("due")
   expect(d.r, "known and due: Still got it? Yes / No").toEqual({ asking: true, q: "Still got it?", yes: 1, no: 1, gold: true, up: true })
+  await page.waitForTimeout(ARM)
   await j.clickByMouse('[data-hk="due"] [data-grade="no"]', '"No"')
   const no = await page.evaluate((k) => { const a = (window as W).__neural, c = document.querySelector('[data-hk="due"]')!; return { gold: c.hasAttribute("data-mastered"), row: a.moves[k[0]][k[1]], executing: !!a._execution } }, [S, String(ORD[id.due])])
   expect(no.executing, "No is not a play").toBe(false)
@@ -358,10 +383,87 @@ test("@curated what a face-up card asks: unknown Yes only, known and due Still g
 
   const y = await ask("dueYes")
   expect(y.r.q).toBe("Still got it?")
+  await page.waitForTimeout(ARM)
   await j.clickByMouse('[data-hk="dueYes"] [data-grade="yes"]', '"Yes" on a due card')
   const yes = await page.evaluate((k) => { const a = (window as W).__neural; return { gold: document.querySelector('[data-hk="dueYes"]')!.hasAttribute("data-mastered"), row: a.moves[k[0]][k[1]] } }, [S, String(ORD[id.dueYes])])
   expect([yes.gold, yes.row[3], yes.row[2]], "Yes keeps it gold, answered today").toEqual([true, 1, DAY])
   expect(yes.row[0], "...and moves its due date on past today").toBeGreaterThan(DAY)
+})
+
+/** where card `sel`'s Yes (and the strip's text) sit once it is face up: measured on the real strip, then the card
+ *  is closed again, so the next press lands where the button WILL appear */
+async function stripPoints(page: Page, sel: string, open: () => Promise<void>, close: () => Promise<void>) {
+  await open()
+  await expect.poll(async () => (await face(page, sel)).asking).toBe(true)
+  const pt = await page.evaluate((sel) => {
+    const c = document.querySelector(sel)!, y = c.querySelector('[data-grade="yes"]')!.getBoundingClientRect(), t = c.querySelector("[data-choice-grade] span")!.getBoundingClientRect()
+    return { yes: { x: y.left + y.width / 2, y: y.top + y.height / 2 }, text: { x: t.left + 6, y: t.top + t.height / 2 } }
+  }, sel)
+  await close()
+  await expect.poll(async () => (await face(page, sel)).up).toBe(false)
+  return pt
+}
+const graded = (page: Page) => page.evaluate(() => Object.values((window as W).__neural.moves || {}).reduce((n: number, r: any) => n + Object.keys(r).length, 0))
+
+test("@curated a press on a grade button that began before it could be seen does nothing; armed, it grades; the strip's text plays", async ({ page }) => {
+  const j = await seatMount(page)
+  const p = await pointOn(page, hm(1))
+  const pt = await stripPoints(page, hm(1), () => page.mouse.move(p.x, p.y), () => page.mouse.move(p.x, p.y - 160))
+  // the pointer rests where Yes WILL appear; the dwell turns the card up and the strip arrives under it
+  await page.mouse.move(pt.yes.x, pt.yes.y)
+  await expect.poll(async () => (await face(page, hm(1))).asking, { message: "the strip arrives under the resting pointer" }).toBe(true)
+  await page.mouse.click(pt.yes.x, pt.yes.y)
+  let s = await appState(page)
+  expect([await graded(page), s.executing], "a click that began before the button was armed: no grade, no play (review R3)").toEqual([0, false])
+  await page.waitForTimeout(ARM)
+  await page.mouse.click(pt.yes.x, pt.yes.y)
+  s = await appState(page)
+  expect([await graded(page), s.executing], "armed, the same click grades and plays nothing").toEqual([1, false])
+  // a second card: a press on the strip's TEXT reaches the card, as any press on the card does
+  const q = await pointOn(page, hm(2))
+  await page.mouse.move(q.x, q.y)
+  await expect.poll(async () => (await face(page, hm(2))).asking).toBe(true)
+  const tx = await page.evaluate(() => { const t = document.querySelector('[data-hm="2"] [data-choice-grade] span')!.getBoundingClientRect(); return { x: t.left + 6, y: t.top + t.height / 2 } })
+  await page.waitForTimeout(ARM)
+  await page.mouse.click(tx.x, tx.y)
+  s = await appState(page)
+  expect([s.executing, s.stand && s.stand.hidden], "the strip's text is not a button: the press plays the card").toEqual([true, false])
+})
+
+test("@curated Enter on a focused card: face down it turns up, face up it plays, whatever pointer pressed last (review R7)", async ({ page }) => {
+  await seatMount(page)
+  // a mouse press on card 2 that is not a click (down, away, up), quicker than the dwell: it was the last pointer
+  const p = await pointOn(page, hm(2))
+  await page.mouse.move(p.x, p.y); await page.mouse.down(); await page.mouse.move(p.x, p.y - 160); await page.mouse.up()
+  await page.waitForTimeout(300)
+  expect((await face(page, hm(2))).up, "precondition: still face down").toBe(false)
+  for (const k of ["2", "4"]) {
+    await page.evaluate((k) => (document.querySelector(`[data-hm="${k}"] [data-choice-execute]`) as HTMLElement).focus(), k)
+    await page.keyboard.press("Enter")
+    const f = await face(page, hm(Number(k)))
+    expect([f.up, f.title, (await appState(page)).executing], `card ${k}: Enter turns a face-down card up and plays nothing`).toEqual([true, "visible", false])
+    if (k === "2") continue
+    await page.keyboard.press("Enter")
+    const s = await appState(page)
+    expect([s.executing, s.stand && s.stand.hidden], "Enter on the face-up card plays it").toEqual([true, false])
+  }
+})
+
+test("@curated a pull that flips the setting mid-hand re-syncs the row and the map (review R9)", async ({ page }) => {
+  await seatMount(page, false)
+  // the live receipt path: `_pullAndMerge` and another tab's write both land through `_hydrateProgressBlob`
+  const pull = (on: boolean) => page.evaluate((on) => {
+    const a = (window as W).__neural, b = a._progressBlob()
+    a._hydrateProgressBlob({ ...b, settings: { ...b.settings, hideMoves: on }, settingsAt: { ...b.settingsAt, hideMoves: Date.now() } })
+  }, on)
+  await pull(true)
+  const down = await face(page, hm(0))
+  expect([down.title, down.filmCovered, await page.locator("[data-hide-all]").count()], "a pull turning it on: the dealt row goes face down in place").toEqual(["hidden", true, 1])
+  expect(await mapNames(page), "...and the map names nothing").toEqual([])
+  await pull(false)
+  const open = await face(page, hm(0))
+  expect([open.title, open.filmCovered, await page.locator("[data-hide-all]").count()], "a pull turning it off: face up again").toEqual(["visible", false, 0])
+  expect((await mapNames(page)).length, "...and the map names the moves again").toBeGreaterThan(0)
 })
 
 test.describe("touch", () => {
@@ -382,6 +484,7 @@ test.describe("touch", () => {
       return { h: Math.round(r.height), top: own(r.top + 2), bottom: own(r.bottom - 2), x, y: r.top + r.height / 2 }
     })
     expect([yes.h >= 44, yes.top, yes.bottom], "Yes is a 44px touch target, edge to edge").toEqual([true, true, true])
+    await page.waitForTimeout(ARM)
     await page.touchscreen.tap(yes.x, yes.y)
     s = await appState(page)
     expect(s.executing, "a tap on Yes grades and plays nothing").toBe(false)
@@ -394,6 +497,22 @@ test.describe("touch", () => {
     s = await appState(page)
     expect(s.executing, "the second tap plays it").toBe(true)
     expect(s.stand && s.stand.hidden).toBe(false)
+  })
+
+  test("@curated touch: a second tap where Yes appeared does nothing until the button is armed (review R3)", async ({ page }) => {
+    await seatMount(page)
+    const p = await pointOn(page, hm(1)), o = await pointOn(page, hm(0))
+    const pt = await stripPoints(page, hm(1), () => page.touchscreen.tap(p.x, p.y), () => page.touchscreen.tap(o.x, o.y))
+    // the first tap lands where Yes will be: it turns the card up (consumed); the second, at once, in the same place
+    await page.touchscreen.tap(pt.yes.x, pt.yes.y)
+    await expect.poll(async () => (await face(page, hm(1))).asking).toBe(true)
+    await page.touchscreen.tap(pt.yes.x, pt.yes.y)
+    let s = await appState(page)
+    expect([await graded(page), s.executing], "the second tap, before the button was armed: no grade, no play").toEqual([0, false])
+    await page.waitForTimeout(ARM)
+    await page.touchscreen.tap(pt.yes.x, pt.yes.y)
+    s = await appState(page)
+    expect([await graded(page), s.executing], "armed, a tap on Yes grades and plays nothing").toEqual([1, false])
   })
 
   test("@curated Still got it on touch: Yes and No are both 44px targets, whole inside the card", async ({ page }) => {

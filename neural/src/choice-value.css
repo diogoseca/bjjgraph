@@ -91,10 +91,11 @@
 /* a MASTERED move (a Yes in "Did you get it?"): thin gold and a faint warm light, in every row */
 .ng-choice-card[data-mastered] { border-color:rgba(232,196,106,.9); box-shadow:0 0 0 .5px rgba(232,196,106,.6), 0 0 6px rgba(255,214,128,.22); }
 .ng-choice-card[data-mastered][data-hover] { box-shadow:0 0 0 .5px rgba(232,196,106,.6), 0 0 7px rgba(150,185,255,.3); }
-.ng-choice-grade { position:absolute; left:0; right:0; top:96px; height:34px; display:none; align-items:center; gap:6px; padding:0 6px 0 9px; box-sizing:border-box; background:rgba(10,13,22,.9); font-size:10.5px; color:#dbe2f0; }
+/* the strip takes no press (review R3): its text and background pass the press to the card; only its buttons answer */
+.ng-choice-grade { pointer-events:none; position:absolute; left:0; right:0; top:96px; height:34px; display:none; align-items:center; gap:6px; padding:0 6px 0 9px; box-sizing:border-box; background:rgba(10,13,22,.9); font-size:10.5px; color:#dbe2f0; }
 .ng-choice-card[data-asking] .ng-choice-grade { display:flex; }
 .ng-choice-grade > span { flex:1; white-space:nowrap; }
-.ng-choice-card .ng-choice-grade button { flex:none; height:26px; padding:0 11px; border-radius:6px; font-size:11px; font-weight:700; }
+.ng-choice-card .ng-choice-grade button { pointer-events:auto; flex:none; height:26px; padding:0 11px; border-radius:6px; font-size:11px; font-weight:700; }
 .ng-choice-grade [data-grade=yes] { background:rgba(126,224,168,.16); color:#a6efc4; }
 .ng-choice-grade [data-grade=no] { background:rgba(239,133,133,.16); color:#f4b0b0; }
 .ng-choice-card[data-asking] .ng-choice-watch { top:46px; }
