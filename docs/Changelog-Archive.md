@@ -14870,3 +14870,20 @@ Then the merge with #353 and the app-only reseed on the merged tree.
   - `choice-row-ends` runs at 1440 again in the reading view.
   - The film's drop under the tease applies only while Moves is open.
 - **Bytes:** deferred 503,763 B (+785 B), 3,354 B of the approval unused; eager gzip +446 B since the checkpoint.
+
+**Before the merge, again: the delta review of round 7 (round 8).** Each of its three should-fix findings was tried by mouse first.
+
+- **The stale label (finding 1): not reproduced as described, but it led to a second hole.**
+  - At 1440 the stale Questions row left `landCard` on.
+  - At 1152 there was no label to press at all: the layout pass re-hid it from the preference, so round 7's away label never showed below 1,350px.
+  - The root fix:
+    - one predicate (`partClosed`: off by the preference, or away with the landing) for the label, the row, `aria-expanded` and the Hide/Show text, painted on every layout pass;
+    - `toggle()`, whose only callers are closed controls, now only ever opens.
+- **The null decision (finding 2): not reproduced by mouse.** The commit clears the card at once. `_landAway()` now needs a live decision; a unit test pins it.
+- **The restore that kept reading (finding 3): reproduced.** After a row restore `interacting` stayed true and the clock never armed. The restore clears it. Pinned on a played landing, because a URL arrival is reading intent, where the clock never runs at all.
+- **Nits:**
+  - the restored card is scored as the landing question, as ✕ then label (round 7 said "no fresh credit", which was wrong);
+  - one press also opens the pressed part;
+  - the hang is measured after the pass's game height, and 768 is pinned;
+  - Next under the fold at 1440x520–560 beside the index is recorded: fewer than 92px of the face are in view there.
+- **Bytes:** deferred 504,252 B (+489 B); 2,865 B of the approval unused.

@@ -88,7 +88,7 @@ class Style {
 function node(values = {}) {
   const attrs = new Set();
   return { style: new Style(values), dataset: {}, isConnected: true,
-    setAttribute: key => attrs.add(key), hasAttribute: key => attrs.has(key),
+    setAttribute: key => attrs.add(key), hasAttribute: key => attrs.has(key), getAttribute: key => attrs.has(key) ? "" : null,
     removeAttribute: key => attrs.delete(key),
     toggleAttribute(key, on) { if (on) attrs.add(key); else attrs.delete(key); },
     // U59 c: a grid-width change looks for the first text block at the reader's top; these fixtures hold none.
@@ -111,7 +111,8 @@ function fixture(adopted = true) {
   r.articleEl = node(); r.mediaHome = node(); r.sections = [];
   r.articleEl.getBoundingClientRect = () => ({ left: 12, right: 378, width: 366 });
   // D-338: the closed-part labels, Moves first; an open part hides its label.
-  r.gameSections = [{ part: "hand", card: node() }, { part: "card", card: node() }];
+  // v1.253.0 (#354's round-7 review): every layout pass paints a part's label, row and aria from one answer, so each carries its toggle.
+  r.gameSections = [{ part: "hand", title: "Moves", card: node(), toggle: node() }, { part: "card", title: "Questions", card: node(), toggle: node() }];
   for (const s of r.gameSections) r.game.append(s.card);
   // v1.253.0 (U114 a): the shelf is retired; the reader lays out once installed (`hooked`), and ends where the fixture's
   // retired dock used to end it, at 750 (`_readerReserve` below), so every coordinate here keeps its meaning.
