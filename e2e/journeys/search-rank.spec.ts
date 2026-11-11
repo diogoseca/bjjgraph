@@ -22,17 +22,21 @@ type W = Window & { __neural: any };
  * (p90 191), the ranking itself 11-30 ms of it. The budget below is 2.5x that median. It exists to catch a list that
  * draws everything again (the "e" query has 1,300+ results); the exact page size is pinned by the row count.
  *
- * MUTANTS (v1.257.0), each run against this file on this build, each red here:
- *   S1 seats appended beside the name, not under it        -> "Side Control is row 1 … on one line" (390)
- *   S2 the Top press opens the hub page, not the seat's     -> "the seats open their own pages"
- *   S3 families not folded                                   -> "guillotine: the choke family is row 1"
- *   S4 the top family not open by default                    -> "guillotine: the choke family is row 1"
- *   S5 "All N starts" draws nothing more                     -> "a folded family opens by mouse"
+ * MUTANTS (v1.257.0), run under the build lock on the merged v1.257.0 build: 10 of 10 killed, each by the test named
+ * (the Playwright titles, shortened):
+ *   S1 seats appended beside the name, not under it        -> "Side Control is row 1 … on one line" (390), and the
+ *                                                              40-row page (the extra row height moves the page)
+ *   S2 the Top press opens the hub page, not the seat's     -> "the seats open their own pages" and the 390 Top press
+ *   S3 families not folded                                   -> "the row a person means is row 1", "a folded family
+ *                                                              opens by mouse", "one typo is forgiven"
+ *   S4 the top family not open by default                    -> "the row a person means is row 1", "a folded family …"
+ *   S5 "All N starts" draws nothing more                     -> "a folded family opens by mouse …"
  *   S6 the typo band off in the renderer                     -> "one typo is forgiven, and its near-miss stays last"
- *   S7 NG_SEARCH_PAGE = 100000 (draw everything)             -> "forty rows first" (count) and the budget
- *   S8 no sentinel (nothing draws on scroll)                 -> "forty rows first, the rest on scroll"
- *   S9 ↓ past the last drawn row does not draw more          -> "the arrows walk the list in the order shown"
- *   S10 Enter in the box does nothing                        -> "the arrows walk the list in the order shown"
+ *   S7 NG_SEARCH_PAGE = 100000 (draw everything)             -> "forty rows first …" and "the arrows walk the list …"
+ *   S8 no sentinel (nothing draws on scroll)                 -> "forty rows first, the rest on scroll …"
+ *   S9 ↓ past the last drawn row does not draw more          -> "the arrows walk the list in the order shown …"
+ *   S10 Enter in the box does nothing                        -> "the arrows walk the list in the order shown …"
+ * And D1, searchRank without its `rep` filter (every site doubled), is red in dual-consumers.spec.ts's hub test.
  * NOT COVERED here: the ruleset filter and the order in no-gi (tests/search_rank.test.mjs, both rulesets); the
  * escape of the query (explore-search-escape.spec.ts).
  */
