@@ -6895,61 +6895,33 @@ class Component extends DCLogic {
     const name = (u.user_metadata && (u.user_metadata.full_name || u.user_metadata.name)) || (email ? email.split("@")[0] : "You");
     this.user = { name: name, initial: (name[0] || "Y").toUpperCase(), email: email }; // email feeds the account menu's identity row
     this.updateAccountUI();
-    // guestprog: once per mounted account, before its first pull (`_initAuth` awaits the pull after this returns), so an
-    // automatic merge rides the pull's merge and the first push
-    if (!this._guestJoinAsked) { this._guestJoinAsked = true; this._joinGuestPractice(); }
+    // v1.262.0: once per mounted account, on its VERIFIED identity (never on a mount alone, so a local-only account joins
+    // nothing), and before its first pull (`_initAuth` awaits the pull after this returns): the join rides the pull's
+    // merge and the first push.
+    if (!this._guestJoinTried) { this._guestJoinTried = true; this._joinGuestPractice(); }
   }
-  // GUEST PRACTICE AT SIGN-IN (guestprog, 2026-11-11, the owner: "i dont like that functionality. seems like AI slop/bloat
-  // pls fix"). Three variants, for him to pick from; the merge rule is the host's (progress-owner.src.js, `guestOffer`).
-  //   a  automatic: the practice is added; one line, once ("Practice saved").
-  //   b  one question, once: "Add the practice you did here before signing in to your account?" Add it / No thanks.
-  //   c  automatic when no other account has been signed in in this browser; the question otherwise.
-  // SHOOT-ONLY SELECTOR: `localStorage["bjj-guestprog-variant"]` picks a, b or c; anything else is today's app (the menu
-  // row and its dialog). The pick replaces this with a constant and deletes the other two.
-  _guestJoinVariant() {
-    try { const v = localStorage.getItem("bjj-guestprog-variant"); return v === "a" || v === "b" || v === "c" ? v : "today"; } catch (e) { return "today"; }
-  }
+  // GUEST PRACTICE JOINS THE ACCOUNT AT SIGN-IN (v1.262.0, owner U138 a, "Always automatic"; the rule and its reasons are
+  // in progress-owner.src.js above `ngProgressGuestMerge`). It replaces the menu row "Review guest progress" and its
+  // Import dialog, which every signed-in player saw for good (the owner, 11 Nov: "seems like AI slop/bloat pls fix").
+  // THE LINE, once per guest copy and account: the announcer, which is `pointer-events:none` and sits at the top centre
+  // (`.ng-evtoast`). Its kicker is a non-breaking space ON PURPOSE: an empty kicker lifts the sentence onto the row of
+  // the 390 phone's top-left icons, and the sentence is wide enough to reach the search icon (measured;
+  // e2e/journeys/guest-join.spec.ts pins "covers no control" at 390 and 1440). It is HELD for the landing
+  // (`_announceArrival`) and stays until the board's next sentence replaces it: the player's next move, the next
+  // landing or the roll's end. It never overwrites another held arrival sentence (a shared link's): that visit's join
+  // is silent.
   _joinGuestPractice() {
-    const v = this._guestJoinVariant(), host = this._progressHost;
-    if (v === "today" || !this._progressCurrent() || !host || !host.guestOffer) return;
-    const offer = host.guestOffer(this);
-    if (offer.status !== "offer") return;
-    if (v === "b" || (v === "c" && offer.otherAccount)) { this._askGuestPractice(offer); return; }
-    if (this._takeGuestPractice(offer)) {
-      this._announceArrival("Practice saved", "What you practised here before signing in is in your account now", "muted");
-      if (this._decision) this._sayArrivalIfPending();   // already landed: say it now, not at the next landing
-    }
-  }
-  _takeGuestPractice(offer) {
-    const r = this._progressHost.acceptGuest(this, offer);
-    if (r.status !== "ready") return false;
+    const host = this._progressHost;
+    if (!this._progressCurrent() || !host || !host.joinGuest) return;
+    const r = host.joinGuest(this);
+    if (r.status !== "joined") return;
     this._hydrateProgressBlob(r.blob);
     this._applyLayers(); this._refreshChallengeEvidence();
     this._saveProgress();   // persists; pushes once the pull has run (`_pushCloud` pulls first otherwise)
     this.updateAccountUI();
-    return true;
-  }
-  _askGuestPractice(offer) {
-    this.openModal();
-    const card = this.modalCardRef.current; if (!card) return;
-    card.innerHTML = "";
-    const box = document.createElement("section");
-    box.setAttribute("data-guest-join", "1");
-    box.style.cssText = "padding:24px;color:#dbe2f0;line-height:1.5;font-size:15px";
-    const q = document.createElement("p"); q.style.cssText = "margin:0 0 18px;font-weight:600;color:#eef1f6";
-    q.textContent = "Add the practice you did here before signing in to your account?";
-    const btn = (label, primary, fn) => {
-      const b = document.createElement("button"); b.type = "button"; b.textContent = label;
-      b.style.cssText = "display:block;width:100%;min-height:44px;margin-top:10px;cursor:pointer;font:inherit;font-weight:600;border-radius:10px;" +
-        (primary ? "border:none;background:#4f7bd8;color:#fff;" : "border:1px solid rgba(150,170,210,.3);background:transparent;color:#cbd4e6;");
-      b.addEventListener("click", fn); return b;
-    };
-    // Closing it any other way decides nothing: the next sign-in on this device asks again.
-    const yes = btn("Add it", true, () => { this.closeModal(); if (this._progressCurrent()) this._takeGuestPractice(offer); });
-    yes.setAttribute("data-guest-join-yes", "1");
-    const no = btn("No thanks", false, () => { this.closeModal(); if (this._progressCurrent()) this._progressHost.declineGuest(this, offer); });
-    no.setAttribute("data-guest-join-no", "1");
-    box.append(q, yes, no); card.appendChild(box);
+    if (this._arrivalSay) return;
+    this._announceArrival("\u00a0", "Your practice from before you signed in is saved", "muted");
+    if (this._decision) this._sayArrivalIfPending();   // already landed: say it now, not at the next landing
   }
   // merge-on-pull: per-key max for prep/days (monotonic counters), settings LWW by updatedAt.
   _mergeProgressBlobs(local, incoming) {
@@ -7270,36 +7242,6 @@ class Component extends DCLogic {
     if (this._acctMenuAway) { document.removeEventListener("pointerdown", this._acctMenuAway, true); this._acctMenuAway = null; }
     return true;
   }
-  openProgressImport(kind) {
-    if (!this._progressCurrent()) return;
-    const host = this._progressHost, preview = host.previewImport(this, kind);
-    if (preview.status !== "preview") return;
-    this.openModal();
-    const card = this.modalCardRef.current; if (!card) return;
-    card.innerHTML = "";
-    const box = document.createElement("section");
-    box.style.cssText = "padding:24px;color:#dbe2f0;line-height:1.5";
-    box.setAttribute("data-progress-import", kind);
-    const title = document.createElement("h2"); title.textContent = "Import saved practice";
-    const target = this._progressOwner.kind === "account" ? (this.user && this.user.email) : "guest progress on this device";
-    // A verified account without display email is not a sufficiently clear import target.
-    if (!target) { this.closeModal(); return; }
-    const detail = document.createElement("p");
-    detail.textContent = "Guest progress is kept separately. " +
-      "Import practice evidence, saved lists and achievements into " + target + "? Account settings and email consent stay unchanged. The original copy is kept.";
-    const error = document.createElement("p"); error.setAttribute("role", "status");
-    const cancel = document.createElement("button"); cancel.type = "button"; cancel.textContent = "Keep separate";
-    cancel.onclick = () => this.closeModal();
-    const confirm = document.createElement("button"); confirm.type = "button"; confirm.textContent = "Import into " + target;
-    confirm.setAttribute("data-progress-import-confirm", "1");
-    confirm.onclick = () => {
-      if (!this._progressCurrent()) return;
-      const result = host.confirmImport(this, preview);
-      if (result.status !== "ready" && result.status !== "held") error.textContent = "Import could not be completed. Nothing was replaced. Close this review and try again.";
-    };
-    for (const button of [cancel, confirm]) button.style.cssText = "display:block;width:100%;min-height:44px;margin-top:12px;cursor:pointer";
-    box.append(title, detail, error, cancel, confirm); card.appendChild(box);
-  }
   renderAccountMenu() {
     const m = this.acctMenuRef.current; if (!m) return;
     m.innerHTML = "";
@@ -7335,10 +7277,8 @@ class Component extends DCLogic {
     } else {
       auth.push(row("data-menu-create", "Create account", () => this.openAuth("create")), row("data-menu-login", "Log in", () => this.openAuth("login")));
     }
-    // Owner removed the legacy row (2026-10-09); the data layer still supports legacy import.
-    // guestprog: variants a/b/c have no menu row (the question, if any, is asked at sign-in)
-    const source = this._guestJoinVariant() === "today" && this._progressHost && this._progressHost.previewImport(this, "guest");
-    if (source && source.status === "preview") m.appendChild(row("data-menu-import-guest", "Review guest progress", () => this.openProgressImport("guest")));
+    // NO IMPORT ROW: the owner removed "Review older saved progress" (2026-10-09) and "Review guest progress" (v1.262.0);
+    // guest practice joins at sign-in (`_joinGuestPractice`). The data layer keeps its explicit legacy import, unused.
     if (this._progressStorageError) {
       const status = document.createElement("p"); status.setAttribute("role", "status");
       status.textContent = "Progress could not be saved on this device. Keep this page open and free some browser storage.";

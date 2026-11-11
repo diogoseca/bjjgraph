@@ -71,18 +71,21 @@ test('an account never adopts unowned legacy automatically; the data layer retai
   assert.equal(h.mem.rows.get(ngProgressLocalKey(guest)),undefined,'no guest adoption while an account is resolved');
   assert.equal(h.host.previewImport(h.get(),'legacy').status,'preview');
 });
-test('A to B saves A only and restores B without legacy or guest state',async()=>{
+// v1.262.0 (owner U138 a): guest practice joins EVERY account that signs in on the browser, so A and B both get
+// `guest: 3`; the claim kept is that A's own practice never reaches B (was: B restored with no guest state at all).
+test('A to B saves A only: B never receives A practice (both receive the guest practice, U138 a)',async()=>{
   const h=harness();h.host.store.write(ownerB,blob({b:7}));await h.boot();h.get().prep.guest=3;const a=h.switchTo('A');a.prep.a=8;const b=h.switchTo('B');
-  assert.deepEqual(b.prep,{b:7});assert.deepEqual(h.host.store.read(ownerA).blob.prep,{a:8});assert.deepEqual(h.host.store.read(guest).blob.prep,{guest:3});assert.equal(a.__ngDestroyed,true);
+  assert.deepEqual(b.prep,{b:7,guest:3});assert.deepEqual(h.host.store.read(ownerA).blob.prep,{a:8,guest:3});assert.deepEqual(h.host.store.read(guest).blob.prep,{guest:3});assert.equal(a.__ngDestroyed,true);
 });
 test('signout restores guest rather than relabeling account practice',async()=>{
   const h=harness();await h.boot();h.get().prep.guest=4;const a=h.switchTo('A');a.prep.a=9;a._clearAuthUser();
-  assert.deepEqual(h.get().prep,{guest:4});assert.deepEqual(h.host.store.read(ownerA).blob.prep,{a:9});assert.equal(h.get().user,undefined);
+  // v1.262.0: A's copy also holds the guest practice it joined at sign-in; the guest copy is never relabelled with A's
+  assert.deepEqual(h.get().prep,{guest:4});assert.deepEqual(h.host.store.read(ownerA).blob.prep,{a:9,guest:4});assert.equal(h.get().user,undefined);
 });
 for (const existingGuest of [false,true]) {
   test(existingGuest
-    ? 'signout with an existing guest keeps legacy separate; guest import exposes only that guest'
-    : 'signout without a guest adopts legacy; signing back in can import it through guest progress',async()=>{
+    ? 'signout with an existing guest keeps legacy separate; signing back in joins only that guest copy'
+    : 'signout without a guest adopts legacy; signing back in joins it with the guest copy (v1.262.0)',async()=>{
     const h=harness(), legacy={
       'bjj-neural-progress':'{ "v": 2, "prep": { "legacy": 5 } }\n',
       'bjj-neural-ladder':'{ "rank": 3 }', 'bjj-neural-firstroll':'1', 'bjj-neural-coached':'1',
@@ -94,9 +97,8 @@ for (const existingGuest of [false,true]) {
     h.setIdentity(null);h.get()._clearAuthUser();
     const expected=existingGuest?{guest:2}:{legacy:5};
     assert.equal(h.get()._progressOwner.kind,'guest');assert.deepEqual(h.get().prep,expected);
-    const a=h.switchTo('A'), preview=h.host.previewImport(a,'guest');
-    assert.equal(preview.status,'preview');assert.deepEqual(a.prep,{},'import still requires confirmation');
-    assert.equal(h.host.confirmImport(a,preview).status,'ready');assert.deepEqual(h.get().prep,expected);
+    // v1.262.0: signing back in joins the guest copy by itself (was: an explicit, confirmed import)
+    h.switchTo('A');assert.deepEqual(h.get().prep,expected,'the guest copy joined at sign-in');
     for (const [key,value] of Object.entries(legacy)) assert.equal(h.mem.rows.get(key),value,key+' stays byte-identical');
   });
 }
@@ -145,16 +147,19 @@ test('same-owner local re-read merges other-tab evidence before writing',async()
   assert.deepEqual(h.host.store.read(ownerA).blob.prep,{thisTab:2,otherTab:7});
 });
 test('explicit legacy import strips consent and preserves its source bytes',async()=>{
-  const h=harness();const legacy=JSON.stringify(blob({old:9},{settings:{emailMarketing:true},settingsAt:{emailMarketing:999}}));h.mem.rows.set('bjj-neural-progress',legacy);await h.boot();const a=h.switchTo('A');a.settings={emailMarketing:false};a._settingsAt={emailMarketing:1};
+  // v1.262.0: an (empty) guest copy exists, so the guest never adopted the legacy copy and the sign-in joins nothing
+  const h=harness();h.host.store.write(guest,blob({}));const legacy=JSON.stringify(blob({old:9},{settings:{emailMarketing:true},settingsAt:{emailMarketing:999}}));h.mem.rows.set('bjj-neural-progress',legacy);await h.boot();const a=h.switchTo('A');a.settings={emailMarketing:false};a._settingsAt={emailMarketing:1};
   assert.deepEqual(a.prep,{});const preview=h.host.previewImport(a,'legacy');assert.equal(preview.status,'preview');assert.equal(h.host.confirmImport(a,preview).status,'ready');
   assert.equal(h.get().prep.old,9);assert.equal(h.get().settings.emailMarketing,false);assert.equal(h.mem.rows.get('bjj-neural-progress'),legacy);assert.equal(a.__ngDestroyed,true);
 });
-test('guest import is explicit and another account is never offered',async()=>{
-  const h=harness();await h.boot();h.get().prep.guest=3;const a=h.switchTo('A');assert.deepEqual(a.prep,{});assert.equal(h.host.previewImport(a,'account:B').status,'unavailable');
-  assert.equal(h.host.confirmImport(a,h.host.previewImport(a,'guest')).status,'ready');assert.equal(h.get().prep.guest,3);assert.equal(h.host.store.read(guest).blob.prep.guest,3);
+// v1.262.0 (owner U138 a): was "guest import is explicit"; guest practice now joins at sign-in, with no import step.
+test('guest practice joins at sign-in without an import, and another account is never offered',async()=>{
+  const h=harness();await h.boot();h.get().prep.guest=3;const a=h.switchTo('A');assert.deepEqual(a.prep,{guest:3});assert.equal(h.host.previewImport(a,'account:B').status,'unavailable');
+  assert.equal(h.host.store.read(ownerA).blob.prep.guest,3);assert.equal(h.host.store.read(guest).blob.prep.guest,3);
 });
 test('import preview cannot cross an identity change or changed source',async()=>{
-  const h=harness();h.mem.rows.set('bjj-neural-progress',JSON.stringify(blob({old:9})));await h.boot();const a=h.switchTo('A');const old=h.host.previewImport(a,'legacy');const b=h.switchTo('B');
+  // v1.262.0: an (empty) guest copy exists, so the legacy copy is not adopted and joins nobody at sign-in
+  const h=harness();h.host.store.write(guest,blob({}));h.mem.rows.set('bjj-neural-progress',JSON.stringify(blob({old:9})));await h.boot();const a=h.switchTo('A');const old=h.host.previewImport(a,'legacy');const b=h.switchTo('B');
   assert.equal(h.host.confirmImport(b,old).status,'unavailable');const fresh=h.host.previewImport(b,'legacy');h.mem.rows.set('bjj-neural-progress',JSON.stringify(blob({changed:4})));assert.equal(h.host.confirmImport(b,fresh).status,'unavailable');assert.deepEqual(b.prep,{});
 });
 test('corrupt incoming owner is preserved and transition shows recovery',async()=>{
@@ -193,17 +198,9 @@ test('asynchronous mount failure destroys the partial instance and offers a retr
   const h=harness();await h.boot();const a=h.get();h.host.mountFailed(a);assert.equal(a.__ngDestroyed,true);assert.equal(h.held.at(-1).reason,'mount-failed');
   await h.host.retry();assert.notEqual(h.get(),a);assert.equal(h.host.current(h.get()),true);
 });
-test('guest import UI names target, cancel keeps separate, explicit click imports',async()=>{
-  const oldDocument=globalThis.document;
-  const element=tag=>({tag,children:[],attrs:{},style:{},textContent:'',setAttribute(k,v){this.attrs[k]=v;},append(...items){this.children.push(...items);},appendChild(item){this.children.push(item);},set innerHTML(v){this.children=[];}});
-  globalThis.document={createElement:element};
-  try {
-    const h=harness();h.mem.rows.set('bjj-neural-progress',JSON.stringify(blob({old:4})));await h.boot();const a=h.switchTo('A');let closed=0;a.openModal=()=>{};a.closeModal=()=>{closed++;};a.modalCardRef.current=element('div');
-    a.openProgressImport('guest');let section=a.modalCardRef.current.children[0];assert.equal(section.attrs['data-progress-import'],'guest');assert.ok(section.children[1].textContent.startsWith('Guest progress is kept separately. '));assert.ok(section.children[1].textContent.includes('A@example.invalid'));assert.ok(section.children[1].textContent.includes('email consent stay unchanged'));
-    section.children.find(x=>x.textContent==='Keep separate').onclick();assert.equal(closed,1);assert.deepEqual(a.prep,{});
-    a.openProgressImport('guest');section=a.modalCardRef.current.children[0];section.children.find(x=>x.attrs['data-progress-import-confirm']==='1').onclick();assert.equal(h.get().prep.old,4);assert.notEqual(h.get(),a);
-  } finally {globalThis.document=oldDocument;}
-});
+// v1.262.0: "guest import UI names target, cancel keeps separate, explicit click imports" is DELETED with the dialog it
+// pinned (the owner, 11 Nov: "i dont like that functionality"). Its successors: tests/guest_join_safety.test.mjs (the
+// join, once, adding only) and e2e/journeys/guest-join.spec.ts (no row in the menu, the line, by mouse and touch).
 
 test('bootstrap waits for authoritative identity before exposing any cached owner',async()=>{
   const h=harness(),wait=deferred();h.host.store.write(ownerA,blob({a:8}));h.facade.resolveNeuralUser=()=>wait.promise;

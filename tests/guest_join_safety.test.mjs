@@ -1,27 +1,35 @@
-// GUEST PRACTICE AT SIGN-IN ONLY ADDS (guestprog, 2026-11-11). The owner's two lines for any change here: no player loses
-// progress on any path (a merge never lowers a figure, a boost, a gold mark or a belt), and he picks from real screens.
-// The variants a/b/c (progress-owner.src.js `guestOffer` / `acceptGuest` / `declineGuest`, app.src.jsx
-// `_joinGuestPractice`) all add a guest copy to an account through ONE rule, `ngProgressGuestMerge`. These tests drive
-// the REAL class with the bundle's prelude, as tests/moves_account_safety.test.mjs does, and claim:
+// GUEST PRACTICE JOINS THE ACCOUNT AT SIGN-IN, AND ONLY ADDS (v1.262.0, the owner U138 a, 11 Nov: "Always automatic").
+// His standing rule for any change to stored progress: no account loses a %, a boost, gold or a belt. The join
+// (progress-owner.src.js `joinGuest`, app.src.jsx `_joinGuestPractice`) adds the browser's guest copy to the account
+// through ONE rule, `ngProgressGuestMerge`. These tests drive the REAL class with the bundle's prelude, as
+// tests/moves_account_safety.test.mjs does, and claim:
 //   1. FIGURES NEVER DROP, synthetic decks: over seeded random accounts and guest copies, every figure the account shows
 //      (each deck's mastery, deckMastery and odds bonus, "Mastered N · X%", today's Practice count, the worn belt, every
 //      challenge's progress, badges, coins, list items) is at least the account's AND at least the guest's.
 //   2. KNOWN MOVES NEVER DROP, the real wire, both rulesets: a known move of the account stays known, every deck's
 //      `mastery(key)` (the boost) and the "Moves known" line are at least the account's, and a guest's known move is
 //      added unless the account's own answer on that move is the later one (then the account's answer stands, as on
-//      its own two devices). CONTROL: today's Import (the pull's merge, unchanged) lowers known moves on some of the
+//      its own two devices). CONTROL: the old Import's merge (the pull's, unchanged) lowers known moves on some of the
 //      same accounts: the count is asserted non-zero, so the guard is not decoration.
-//   3. THE HOST: an empty guest copy (every sign-in writes one) offers nothing; a practised one is offered once,
-//      taken or declined once; the guest copy stays byte for byte; account settings and email consent stay the
-//      account's; an offer cannot cross an account switch; "another account in this browser" is read from storage.
-//   4. THE VARIANTS through `_applyUser`: today does nothing at sign-in; a adds and says one line; b asks; c adds on a
-//      one-account browser and asks on a browser another account has used.
-// MUTANTS (2026-11-11, each turned the named test red):
-//   ngProgressGuestMoves returns `merged` unchanged          → 2 (known moves never drop: the account side)
-//   ngProgressGuestPart keeps `settings`                    → 1 and 3 (the account's settings and consent are its own)
-//   guestOffer skips the "adds nothing" check               → 3 (an empty guest copy offers nothing)
-//   acceptGuest does not write the marker                   → 3 (offered once)
-//   otherAccount ignores other accounts' keys               → 3 and 4 (c asks on a browser another account has used)
+//   3-9. THE JOIN, through the real sign-in path (`_applyUser`): only practice triggers it (3, 4); nothing is added
+//      twice (5); practice done signed out later joins at the next sign-in (6); the guest copy stays byte for byte and
+//      the account's settings stay its own (7); a SECOND ACCOUNT on the same browser receives it too, the owner's pick
+//      (8); a failed or unverified sign-in adds nothing and marks nothing (9); the line, its words, once (10).
+// MUTANTS (2026-11-12, each run against this green file; every one turned the tests named red):
+//   ngProgressGuestMoves returns `merged` unchanged                    → 2 (known moves never drop)
+//   ngProgressGuestPart keeps `settings`                              → 1, 7
+//   ngProgressPracticeKey counts the trail (= the cloud key)           → 3
+//   NG_PROGRESS_TRAIL_CHALLENGES loses "white.coach3"                  → 3, 4
+//   joinGuest writes no mark                                          → 5
+//   the mark compared by presence, not by the copy's hash (`if (seen)`) → 6, 10
+//   joinGuest also writes the joined blob back to the guest copy        → 5, 7
+//   the mark kept per browser, not per account                        → 8 (the owner's pick: a second account receives)
+//   joinGuest without its refusal of an unverified (local-only) account → 9
+//   the join also run at mount (`_loadProgress`), the host's refusal kept → 10 (the line is said at mount, before a
+//     shared link's sentence is held). Joining an UNVERIFIED account this way is still stopped by that refusal, a
+//     second guard: the mutant above removes it.
+//   the mark written before the account's copy is saved               → 9 (storage full: "nothing marked")
+//   the line overwrites a held arrival sentence                        → 10
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -41,7 +49,7 @@ const SOURCE = [
   rd("neural/src/challenge-ui.src.js"),
   strip(rd("neural/src/flow.src.js")),
 ].join("\n");
-const M = new Function("DCLogic", "React", SOURCE + "\nreturn { Component, ngProgressGuestMerge, ngProgressCreateHost, ngProgressOwner, ngProgressLocalKey, ngBeltRank };")(class DCLogic {}, { createRef: () => ({ current: null }) });
+const M = new Function("DCLogic", "React", SOURCE + "\nreturn { Component, ngProgressGuestMerge, ngProgressCreateHost, ngProgressOwner, ngProgressLocalKey, ngBeltRank, NG_PROGRESS_TRAIL_CHALLENGES, NG_WHITE_CHALLENGES };")(class DCLogic {}, { createRef: () => ({ current: null }) });
 
 const DAY = 20402;
 globalThis.window = globalThis.window || {};
@@ -203,94 +211,140 @@ test("2. known moves never drop, real wire, both rulesets; today's Import is the
   }
 });
 
-// ── 3 & 4. the host, and the variants through the real sign-in path ───────────────────────────────────────────────────
-function memory() { const rows = new Map(); return { rows, getItem: (k) => rows.get(k) ?? null, setItem: (k, v) => rows.set(k, String(v)), keys: () => [...rows.keys()] }; }
+// ── 3-10. the join, through the real sign-in path ───────────────────────────────────────────────────────────────────
+function memory(failOn) {
+  const rows = new Map();
+  return { rows, getItem: (k) => rows.get(k) ?? null, setItem: (k, v) => { if (failOn && failOn(k)) throw new Error("quota"); rows.set(k, String(v)); } };
+}
+const GUEST = M.ngProgressOwner(), A = M.ngProgressOwner("A"), B = M.ngProgressOwner("B");
+const guestKey = M.ngProgressLocalKey(GUEST), markOf = (o) => M.ngProgressLocalKey(o, "guest");
+const LINE = "Your practice from before you signed in is saved";
 function harness(mem = memory()) {
   let current, identity = null;
   const facade = { resolveNeuralUser: async () => identity, neuralSyncVersion: 2, isAuthenticated: () => true, pullNeural: async (id) => ({ userId: id, blob: null }), pushNeural: async () => true };
+  const said = [];
   const host = M.ngProgressCreateHost({ storage: mem, resolveUser: () => facade.resolveNeuralUser(), hold: () => {}, mount(b) {
     const inst = new M.Component({}); current = inst; host.bind(inst, b);
     inst._publishKnowledge = () => {}; inst._applyLayers = () => {}; inst._refreshChallengeEvidence = () => {}; inst.updateAccountUI = () => {}; inst.track = () => {}; inst.fx = () => {};
     inst._auth = () => facade; inst.isTest = () => true;
+    // the announcer: what the line would print, as the app's own `_announceArrival` holds it (the slot is kept real)
+    const hold = inst._announceArrival.bind(inst);
+    inst._announceArrival = (k, t, tone) => { said.push(t); hold(k, t, tone); };
     inst.destroy = () => { if (inst.__ngDestroyed) return; inst.__ngDestroyed = true; inst._authDisposed = true; inst._invalidateCloudSync(); };
     inst._loadProgress();
   } });
   const get = () => current;
+  // a verified sign-in, as the facade's SIGNED_IN reaches the app: the outgoing instance switches, the new one applies
   const signIn = (id) => { identity = { id, email: "player@example.com" }; get()._applyUser(identity); get()._applyUser(identity); return get(); };
   const signOut = () => { identity = null; get()._clearAuthUser(); return get(); };
-  return { mem, host, get, signIn, signOut, boot: () => host.bootstrap() };
+  const practise = (patch) => { const g = get(); Object.assign(g.prep, patch.prep || {}); if (patch.lists) g.lists = { ...g.lists, ...patch.lists }; g._flushSave(); };
+  return { mem, host, facade, get, signIn, signOut, practise, said, setIdentity: (u) => { identity = u; }, boot: () => host.bootstrap() };
 }
-const guestKey = M.ngProgressLocalKey(M.ngProgressOwner(), "progress");
-function withVariant(v, run) {
-  const had = Object.getOwnPropertyDescriptor(globalThis, "localStorage");
-  globalThis.localStorage = { getItem: (k) => (k === "bjj-guestprog-variant" ? v : null), setItem() {}, removeItem() {} };
-  try { return run(); } finally { if (had) Object.defineProperty(globalThis, "localStorage", had); else delete globalThis.localStorage; }
-}
-function withModal(inst) {
-  const el = (tag) => ({ tag, children: [], attrs: {}, style: {}, textContent: "", listeners: {}, setAttribute(k, v) { this.attrs[k] = v; }, append(...x) { this.children.push(...x); }, appendChild(x) { this.children.push(x); }, addEventListener(t, f) { this.listeners[t] = f; }, set innerHTML(_v) { this.children = []; } });
-  globalThis.document = { createElement: el };
-  inst.modalCardRef.current = el("div"); inst._modalOpen = 0; inst.openModal = () => { inst._modalOpen++; }; inst.closeModal = () => {};
-  return () => inst.modalCardRef.current.children[0];
-}
+const accountBlob = (h, o) => h.host.store.read(o).blob;
+// the trail a bare guest landing leaves, measured in the built app on 11 Nov (no answer, no roll)
+const TRAIL = { explored: ["Positions/Mount"], tut: { done: { coach3: 1 } }, challenges: { "white.coach3": { progress: 1, done: true, t: 1794440051811 } }, belts: { won: {}, gf: 1794440051576 } };
 
-test("3. the host: an empty guest copy offers nothing; a practised one is offered once; the guest copy and the account's settings stay", async () => {
+test("3. an empty guest copy, or one holding only a bare visit's trail, joins nothing and says nothing", async () => {
   const h = harness(); await h.boot();
-  let a = h.signIn("A");
-  assert.ok(h.mem.rows.has(guestKey), "the sign-in itself wrote an (empty) guest copy: why today's menu row shows for everyone");
-  assert.equal(h.host.guestOffer(a).status, "nothing", "an empty guest copy offers nothing");
-  assert.equal(h.host.previewImport(a, "guest").status, "preview", "while today's menu row is offered for it");
-  // a guest practises, then the same browser signs in again
-  h.signOut().prep["Mount|Top"] = 4; h.get().settings = { emailMarketing: true }; h.get()._settingsAt = { emailMarketing: 9e12 }; h.get()._flushSave();
-  a = h.signIn("A"); a.settings = { emailMarketing: false }; a._settingsAt = { emailMarketing: 1 };
-  const guestRaw = h.mem.rows.get(guestKey);   // after the sign-in, which itself re-saves the outgoing guest copy
-  const offer = h.host.guestOffer(a);
-  assert.equal(offer.status, "offer"); assert.equal(offer.otherAccount, false, "only A has used this browser");
-  assert.equal(h.host.acceptGuest(a, offer).status, "ready");
-  assert.equal(h.host.store.read(M.ngProgressOwner("A")).blob.prep["Mount|Top"], 4, "the account holds the guest's practice");
-  assert.equal(h.host.store.read(M.ngProgressOwner("A")).blob.settings.emailMarketing, false, "email consent stays the account's");
-  assert.equal(h.mem.rows.get(guestKey), guestRaw, "the guest copy is kept byte for byte");
-  assert.equal(h.host.guestOffer(a).status, "seen", "offered once");
-  // a decline is also once; new guest practice is a new offer
-  h.signOut().prep["Side Control|Top"] = 2; h.get()._flushSave();
-  a = h.signIn("A"); const o2 = h.host.guestOffer(a); assert.equal(o2.status, "offer", "new guest practice is offered");
-  assert.equal(h.host.declineGuest(a, o2).status, "declined"); assert.equal(h.host.guestOffer(a).status, "seen", "declined once");
-  assert.equal(h.host.store.read(M.ngProgressOwner("A")).blob.prep["Side Control|Top"], undefined, "a decline adds nothing");
-  // an offer cannot cross an account switch; another account now shows on this browser
-  h.signOut(); const b = h.signIn("B"), ob = h.host.guestOffer(b);
-  assert.equal(ob.status, "offer"); assert.equal(ob.otherAccount, true, "A's copy is in this browser");
-  const c = h.signIn("C");
-  assert.equal(h.host.acceptGuest(c, ob).status, "unavailable", "B's offer cannot be taken by C");
+  h.signIn("A");
+  assert.ok(h.mem.rows.has(guestKey), "the sign-in itself wrote a guest copy, which is why every player saw the old row");
+  assert.deepEqual(h.said, [], "an empty guest copy says nothing");
+  // a guest who only looked: visited a state and met the first coach step
+  const g = h.signOut(); Object.assign(g, { _exploredKeys: new Set(TRAIL.explored), tut: TRAIL.tut, challenges: TRAIL.challenges, belts: TRAIL.belts }); g._flushSave();
+  const a = h.signIn("A");
+  assert.deepEqual(h.said, [], "a bare visit's trail says nothing");
+  assert.ok(!accountBlob(h, A).challenges || !accountBlob(h, A).challenges["white.coach3"], "and joins nothing");
+  assert.equal(h.host.joinGuest(a).status, "seen", "and is marked, so it is not looked at again");
 });
 
-test("4. the variants at sign-in: today nothing; a adds and says one line; b asks; c adds alone and asks when shared", async () => {
-  const practised = async (variant, before) => {
-    const h = harness(); await h.boot();
-    if (before) { h.signIn(before); h.signOut(); }   // another account used this browser first
-    h.get().prep["Mount|Top"] = 5; h.get()._flushSave();
-    return withVariant(variant, () => {
-      const g = h.get(); g._applyUser({ id: "A", email: "player@example.com" });
-      const a = h.get(), modal = withModal(a), said = [];
-      a._announceArrival = (k, t) => said.push(k + ": " + t);
-      a._applyUser({ id: "A", email: "player@example.com" });
-      return { h, a, modal: modal(), said, prep: () => h.host.store.read(M.ngProgressOwner("A")).blob?.prep?.["Mount|Top"] };
-    });
-  };
-  let t = await practised("today");
-  assert.equal(t.prep(), undefined, "today: nothing at sign-in"); assert.equal(t.modal, undefined); assert.deepEqual(t.said, []);
-  t = await practised("a");
-  assert.equal(t.prep(), 5, "a: added"); assert.equal(t.modal, undefined, "a: no question");
-  assert.deepEqual(t.said, ["Practice saved: What you practised here before signing in is in your account now"], "a: one line");
-  t = await practised("b");
-  assert.equal(t.prep(), undefined, "b: nothing before the answer");
-  assert.equal(t.modal.attrs["data-guest-join"], "1");
-  assert.equal(t.modal.children[0].textContent, "Add the practice you did here before signing in to your account?");
-  t.modal.children.find((x) => x.attrs["data-guest-join-yes"]).listeners.click();
-  assert.equal(t.prep(), 5, "b: Add it adds");
-  t = await practised("c");
-  assert.equal(t.prep(), 5, "c, one-account browser: added"); assert.equal(t.modal, undefined);
-  t = await practised("c", "B");
-  assert.equal(t.prep(), undefined, "c, a browser B used: asks first"); assert.equal(t.modal.attrs["data-guest-join"], "1");
-  t.modal.children.find((x) => x.attrs["data-guest-join-no"]).listeners.click();
-  assert.equal(t.prep(), undefined, "c: No thanks adds nothing");
-  delete globalThis.document;
+test("4. the trail's coach steps are the white track's three coach challenges, and a coach step done WITH an answer joins", async () => {
+  // two names for one set (CLAUDE.md §6.5): the white challenges mirrored from the three first-coach steps
+  const coach = M.NG_WHITE_CHALLENGES.filter((c) => /^coach\d$/.test(c.legacyId)).map((c) => c.id);
+  assert.equal(coach.length, 3, "the coach steps were found (" + coach.join(", ") + ")");
+  assert.deepEqual([...M.NG_PROGRESS_TRAIL_CHALLENGES], coach);
+  const h = harness(); await h.boot();
+  const g = h.get(); Object.assign(g, { tut: TRAIL.tut, challenges: TRAIL.challenges }); h.practise({ prep: { "Mount|Top": 1 } });
+  h.signIn("A");
+  assert.equal(accountBlob(h, A).prep["Mount|Top"], 1, "one answer is practice");
+  assert.equal(accountBlob(h, A).challenges["white.coach3"].done, true, "and the trail rides along with it");
+  assert.deepEqual(h.said, [LINE]);
+});
+
+test("5. nothing is added twice: the per-account mark keeps a deleted list deleted and the line unsaid", async () => {
+  const h = harness(); await h.boot();
+  h.practise({ prep: { "Mount|Top": 3 }, lists: { g1: { name: "Guest list", t: 1762000000000, items: ["Positions/Mount"] } } });
+  let a = h.signIn("A");
+  assert.equal(accountBlob(h, A).lists.g1.name, "Guest list"); assert.deepEqual(h.said, [LINE]);
+  delete a.lists.g1; a._flushSave();                       // the player deletes the list the guest copy brought
+  h.signOut(); a = h.signIn("A");
+  assert.equal(accountBlob(h, A).lists.g1, undefined, "the same guest copy is never joined again (lists add, so it would come back)");
+  assert.deepEqual(h.said, [LINE], "and the line is said once");
+});
+
+test("6. practice done signed out later joins at the next sign-in", async () => {
+  const h = harness(); await h.boot();
+  h.practise({ prep: { "Mount|Top": 3 } }); h.signIn("A");
+  h.signOut(); h.practise({ prep: { "Side Control|Top": 2 } });
+  h.signIn("A");
+  assert.equal(accountBlob(h, A).prep["Side Control|Top"], 2, "the new practice joined");
+  assert.deepEqual(h.said, [LINE, LINE], "a new guest copy, a new line");
+});
+
+test("7. the guest copy stays byte for byte, and the account's settings and email consent stay its own", async () => {
+  const h = harness(); await h.boot();
+  const g = h.get(); g.settings = { emailMarketing: true, dailyGoal: 50 }; g._settingsAt = { emailMarketing: 9e12, dailyGoal: 9e12 }; h.practise({ prep: { "Mount|Top": 4 } });
+  h.mem.setItem(M.ngProgressLocalKey(A), JSON.stringify({ format: "bjj-progress-owner-v1", owner: A, blob: { v: 2, settings: { emailMarketing: false, dailyGoal: 20 }, settingsAt: { emailMarketing: 5, dailyGoal: 5 } }, savedAt: 1 }));
+  // the sign-in re-saves the outgoing guest copy (savedAt moves); the JOIN must not touch it after that
+  let raw = null; const host = h.host, join = host.joinGuest;
+  host.joinGuest = (inst) => { raw = h.mem.rows.get(guestKey); return join(inst); };
+  h.signIn("A");
+  assert.ok(raw, "the join ran"); assert.equal(h.mem.rows.get(guestKey), raw, "the guest copy is byte for byte what it was");
+  assert.equal(accountBlob(h, A).prep["Mount|Top"], 4);
+  assert.deepEqual(accountBlob(h, A).settings, { emailMarketing: false, dailyGoal: 20 }, "consent and goal stay the account's");
+  assert.equal(h.signOut().prep["Mount|Top"], 4, "signing out still plays the guest copy");
+});
+
+test("8. a second account signing in on the same browser receives the guest practice too (owner U138 a, 11 Nov: his pick, not a leak to fix)", async () => {
+  const h = harness(); await h.boot();
+  h.practise({ prep: { "Mount|Top": 3 } });
+  h.signIn("A").prep["A|Top"] = 5; h.get()._flushSave();
+  h.signOut(); h.signIn("B");
+  assert.equal(accountBlob(h, B).prep["Mount|Top"], 3, "B receives what was practised signed out on this browser");
+  assert.equal(accountBlob(h, B).prep["A|Top"], undefined, "never A's own practice");
+  assert.deepEqual(h.said, [LINE, LINE], "each account is told once");
+});
+
+test("9. a failed or unverified sign-in adds nothing and marks nothing", async () => {
+  // (a) an unverified account: the SDK cannot load, so this device plays the stored account's copy locally
+  const h = harness(); h.mem.setItem(guestKey, JSON.stringify({ format: "bjj-progress-owner-v1", owner: GUEST, blob: { v: 2, prep: { "Mount|Top": 3 } }, savedAt: 1 }));
+  h.mem.setItem(M.ngProgressLocalKey(A), JSON.stringify({ format: "bjj-progress-owner-v1", owner: A, blob: { v: 2, prep: { "A|Top": 2 } }, savedAt: 1 }));
+  h.facade.resolveNeuralUser = async () => { throw Object.assign(new Error("Account service unreachable"), { code: "sdk-unavailable", storedUserId: "A" }); };
+  const r = await h.boot(); assert.equal(r.localOnly, true);
+  const a = h.get(); await a._initAuth();
+  assert.equal(a._progressLocalOnly, true);
+  assert.equal(a.prep["Mount|Top"], undefined, "an unverified account joins nothing"); assert.equal(h.mem.rows.get(markOf(A)), undefined, "and marks nothing");
+  assert.equal(h.host.joinGuest(a).status, "unavailable", "the host refuses it outright");
+  // verified again: now it joins
+  h.facade.resolveNeuralUser = async () => ({ id: "A", email: "player@example.com" }); await a._initAuth();
+  assert.equal(h.get().prep["Mount|Top"], 3, "the verified sign-in joins"); assert.deepEqual(h.said, [LINE]);
+  // (b) the account's copy cannot be written (storage full): nothing joins, nothing is marked, nothing is said
+  const full = harness(memory((k) => k === M.ngProgressLocalKey(A))); await full.boot();
+  full.practise({ prep: { "Mount|Top": 3 } }); full.signIn("A");
+  assert.equal(full.get().prep["Mount|Top"], undefined, "nothing joined"); assert.equal(full.mem.rows.get(markOf(A)), undefined, "nothing marked");
+  assert.deepEqual(full.said, [], "nothing said");
+});
+
+test("10. the line: its words, held for the landing, once; it never overwrites another held sentence", async () => {
+  const h = harness(); await h.boot();
+  h.practise({ prep: { "Mount|Top": 3 } });
+  const a = h.signIn("A"), u = { id: "A", email: "player@example.com" };
+  assert.deepEqual(h.said, [LINE]);
+  assert.deepEqual([a._arrivalSay.k, a._arrivalSay.t], ["\u00a0", LINE], "held for the landing, under a blank kicker (it keeps the sentence below the phone's top icons)");
+  // new guest practice, and a shared link's sentence already held when the account mounts: the join stays silent
+  h.signOut(); h.practise({ prep: { "Side Control|Top": 1 } });
+  const keep = { k: "Shared list", t: "A coach's class", tone: "good" };
+  h.setIdentity(u); h.get()._applyUser(u);              // the guest instance switches; the account instance mounts
+  const acct = h.get(); acct._arrivalSay = keep; acct._applyUser(u);
+  assert.equal(acct._arrivalSay, keep, "the held sentence is kept"); assert.equal(acct.prep["Side Control|Top"], 1, "the practice still joined");
+  assert.deepEqual(h.said, [LINE], "nothing else was said");
 });

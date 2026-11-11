@@ -12,7 +12,7 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *   2. The menu is short. Signed out: Mastered (the detail, after opening) │ Settings · Feedback ·
  *      Create account · Log in, and one small line: Terms · Privacy · GitHub (U67 a).
  *   3. Signed in: the email (not a control) · Mastered │ Settings · Feedback ·
- *      Sign out (+ Review guest progress when an owned guest cache exists). Sign out flips the badge.
+ *      Sign out; no import row (v1.262.0: guest practice joins at sign-in, guest-join.spec.ts). Sign out flips the badge.
  *   4. Rows open the real surfaces: the auth modal, Settings (including its Notifications tab, U60 b), the merged Feedback form (U67 a), the legal modals, the Mastered list.
  *   5. Esc closes the menu FIRST, then the drawer; an outside tap closes the menu too.
  *   6. On a 390x844 phone the badge and its menu sit in thumb reach and on screen; the main rows are
@@ -109,8 +109,9 @@ test("signed in with legacy progress: email, Settings, Sign out; sign out flips 
   await expect(menu.locator("[data-menu-create]"), "no create row when signed in").toHaveCount(0)
   await expect(menu.locator("[data-menu-login]"), "no login row when signed in").toHaveCount(0)
   await expect(menu.locator("[data-menu-sep]"), "still ONE separator").toHaveCount(1)
-  await expect(menu.locator("[data-menu-import-guest]")).toHaveText("Review guest progress")
-  await expect(menu.locator("button")).toHaveCount(7)
+  // v1.262.0 (owner U138 a): the "Review guest progress" row is gone; guest practice joins at sign-in
+  await expect(menu.locator("[data-menu-import-guest]"), "no import row").toHaveCount(0)
+  await expect(menu.locator("button")).toHaveCount(6)
   // U60 b: Account preferences is folded into Settings; Notifications is still reachable there.
   await j.clickByMouse("[data-menu-settings]", "Settings")
   await expect(page.locator("#ng-stab-notifications")).toBeVisible()

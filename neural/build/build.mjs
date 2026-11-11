@@ -399,9 +399,7 @@ function __mountNeuralOnce() {
   return (window).__neural
 }
 const __progressHost = ngProgressCreateHost({
-  storage: { getItem: key => localStorage.getItem(key), setItem: (key, value) => localStorage.setItem(key, value),
-    // guestprog variant c reads whether another account has a copy in this browser
-    keys: () => { const out = []; for (let i = 0; i < localStorage.length; i++) out.push(localStorage.key(i)); return out } },
+  storage: { getItem: key => localStorage.getItem(key), setItem: (key, value) => localStorage.setItem(key, value) },
   resolveUser: async () => {
     const auth = window.__bjjAuth
     if (!auth) {
