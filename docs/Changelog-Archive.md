@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.256.2** — [Practice says where its new decks came from](#v12562--practice-says-where-its-new-decks-came-from-ranked-by-your-study-comparison-then-your-weakest-spots-the-orchestrators-calls-a-a-and-b-a-stage2h-2026-11-11)
 - **v1.256.1** — [The moves index, hardened](#v12561--the-moves-index-hardened-the-graph-in-its-key-a-failed-deal-never-kept-the-line-practice-prints-the-second-review-stage2g-2026-11-11)
 - **v1.256.0** — [What a known move is worth: odds, gold and "Moves known N of M"](#v12560--what-a-known-move-is-worth-odds-gold-and-moves-known-n-of-m-owner-u124-a-u122-a-stage2c-2026-11-11)
 - **v1.255.0** — [Hidden moves: the row face down until you look, and the moves you recall](#v12550--hidden-moves-the-row-face-down-until-you-look-and-the-moves-you-recall-owner-u115-b-u116-hide1a-2026-11-10)
@@ -15127,3 +15128,15 @@ From the Supabase check (`reports/supabase-slow-queries.md` in the orchestrator'
 **Mutants (2026-11-11), 9, each against its named test:** 8 killed (no index before the graph; both graph guards; a failed share cached; the gold kept through a failed deal; the known-seat loop's `continue`; a filled deck's unavailable row hidden; the summary ignoring kept decks; the filled deck counted missing, through the real presenter). ONE NON-KILL, a second guard: the graph's map in the key, alone, behind the no-index-before-the-graph guard.
 
 **Bytes (gzip, own build).** Eager 346,947 B (−1,741 B against 348,688); first-hand core 366,381 B (+1,085 B against 365,296, cap 6,000); deferred 504,925 B (+102 B, `gameplan.js`), its ceiling set to that size, inside the owner's 507,117 B approval. No baseline moved.
+
+## v1.256.2 — Practice says where its new decks came from: "ranked by your study comparison, then your weakest spots" (the orchestrator's calls A a and B a, STAGE2H, 2026-11-11)
+
+**The calls** (05:36 WET, under the owner's standing rule that copy on dev is the orchestrator's with evidence; both lines are on the briefing for him). **(A) a:** a plan that mixes the comparison's ranked decks with decks kept from the weak spots (decks the known moves fill, v1.256.0) reads "New techniques are ranked by your study comparison, then your weakest spots."; the partial status keeps its second sentence; the all-kept case keeps v1.256.1's weak-spots sentence. Not b ("moves you already know come from your weakest spots"): it reads as if the moves, not the deck's new detail cards, were offered. **(B) a:** the presenter's "Some compared material isn't in today's new cards; its effect is not counted in this plan." is dropped when every withheld deck is in today's new cards, and stays while any is not (then it is true of that deck). Not b: a kept deck's game odds are already full, so nothing of it goes uncounted.
+
+**One answer, two lines.** The plan carries `newFrom` ("comparison", "weak-spots" or "mixed"), and both the summary (`ngGameplanSummary`) and Practice's count line (`_newOrderText`: "16 new across 2 techniques, ranked by your study comparison, then your weakest spots") read it, so they cannot disagree. The presenter is in the study bundle's law hashes, so its sentence is matched verbatim in `gameplan.src.js` and filtered there; the presenter is untouched.
+
+**Painted, and checked in a browser** (1440 and 390, every Mount Top move known, a comparison installed through `setGameplanRecommendations` that ranks Side Control|Top and withholds Mount|Top): the Practice summary and the count line read the new clause; "Why these decks?" no longer carries the withheld-material sentence; the Explore cell's tooltip ("… · 2 new") carries neither line and is unchanged. Screens `artifacts/briefing/img/moves2/08-…`, `09-…`.
+
+**Pinned.** `tests/gameplan.test.mjs`: the mixed line, ready and partial, and the all-kept line; the control, every summary over 2,000 seeded plans with no kept deck byte-identical to v1.256.0's function (copied verbatim). `tests/gameplan_study_presenter.test.mjs`, the REAL presenter: every withheld deck offered, the sentence dropped and nothing else changed; one withheld deck not offered, the sentence stays. `tests/moves_account_safety.test.mjs`: the count line, dev's text with no kept deck. **Mutants, 4, all killed at their named tests:** the summary's mixed line dropped; the count line's clause dropped; the sentence never dropped; dropped when only some withheld deck is offered.
+
+**Bytes.** Eager 346,994 B (−1,694 B against 348,688); first-hand core 366,427 B (+1,131 B against 365,296, cap 6,000); deferred 505,645 B (+720 B, `gameplan.js`), its ceiling set to that size, inside the owner's 507,117 B approval (1,472 B unused). No baseline moved.

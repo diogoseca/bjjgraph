@@ -672,6 +672,21 @@ test("v1.256.1, the line: a known seat whose hand fails to deal prints no line",
   a.optionsFor = real;
 });
 
+test("v1.256.2, Practice's count line reads the plan's own order: dev's text with no kept deck, the call's clause when mixed", async () => {
+  const G = await import("../neural/src/gameplan.src.js"), a = Object.create(M.Component.prototype);
+  const dev = (plan) => plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison";   // v1.256.0's expression
+  const D = (q, extra = {}) => ({ questions: q, count: q.length, exact: true, headroom: .15, allowed: true, ...extra });
+  const prov = (rows) => ({ kind: "learning-opportunity", status: "ready", stamp: "s", assumptions: ["a"], rows: rows.map((key) => ({ key, role: "Top", status: "ready", exposure: .2, headroom: .15, score: 1, reason: "r" })) });
+  const plan = (decks, rows, fb) => G.ngGameplanBuild({ day: 100, ruleset: "gi", revision: 1, stamp: "s", target: 20, decks, srs: {}, provider: rows && prov(rows), fallback: fb });
+  const fb = { rows: [{ key: "A|Top", reason: "w" }, { key: "B|Top", reason: "w" }], assumptions: ["f"] };
+  for (const p of [plan({ "A|Top": D(["a"]) }, ["A|Top"], fb), plan({ "A|Top": D(["a"]) }, null, fb), plan({ "A|Top": D(["a"]), "B|Top": D(["b"]) }, ["A|Top", "B|Top"], fb)])
+    assert.equal(a._newOrderText(p), dev(p), "no kept deck: dev's text, " + p.status);
+  const mixed = plan({ "A|Top": D(["a"]), "B|Top": D(["b"], { oddsFull: true }) }, ["A|Top"], fb);
+  assert.equal(a._newOrderText(mixed), "ranked by your study comparison, then your weakest spots");
+  const kept = plan({ "B|Top": D(["b"], { oddsFull: true }) }, [], fb);
+  assert.equal(a._newOrderText(kept), "weakest first", "every new deck kept: the weak-spots text, as the summary");
+});
+
 test("stage 2, Practice keeps the flashcard-only figure: every Mount Top move known, Mount|Top's cards are still offered as new", async () => {
   const G = await import("../neural/src/gameplan.src.js");
   const plan = (moves) => {

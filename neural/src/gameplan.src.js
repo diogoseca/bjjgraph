@@ -128,6 +128,8 @@ const NG_PRACTICE_REVIEWS_PER_NEW = 4;
 // cards and 77 owed the whole goal again). Goal 20: 20 new on a clear day, 4 once 16 or more are owed.
 const ngPracticeRoom = (left, due) => Math.max(0, Math.min(left, Math.max(left - due, Math.ceil(left / (NG_PRACTICE_REVIEWS_PER_NEW + 1)))));
 
+// the presenter's sentence for withheld material, verbatim (gameplan-study-presenter.src.js TEXT.limited)
+const NG_GAMEPLAN_LIMITED = "Some compared material isn't in today's new cards; its effect is not counted in this plan.";
 // Deck descriptors: {count, questions:[hash], exact, allowed, headroom, oddsFull?}.
 // A manifest supplies shared hashes + stored SRS hashes before hydration. The
 // remainder is counted as pending, never treated as already reviewed.
@@ -181,10 +183,24 @@ export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, de
     queue.push(r.key); reviews += r.count;
   }
   for (const r of fresh.slice(next)) queue.push(r.key);
+  // WHERE TODAY'S NEW DECKS CAME FROM (v1.256.2), read by the summary and by Practice's count line, so the two
+  // cannot disagree: all from the weak spots, all from the comparison, or the comparison's then the weak spots'
+  // (decks the known moves fill, kept after the ranked ones).
+  const kept = fresh.filter((r) => r.source === "weak-spots").length;
+  const newFrom = !kept ? "comparison" : kept === fresh.length ? "weak-spots" : "mixed";
+  // "Some compared material isn't in today's new cards" (the presenter's, when it withheld a deck: its file is in the
+  // study bundle's law hashes, so it is matched here, never edited). A deck the moves fill is withheld AND kept, so
+  // when EVERY withheld deck is in today's new cards the line is untrue and dropped; it stays while any is not
+  // (the orchestrator's call, STAGE2H B a).
+  const withheld = ((provider && provider.study && provider.study.groups) || []).filter((g) => g.status === "beneficial")
+    .flatMap((g) => (g.members || []).filter((m) => m.withheld).map((m) => m.deck && m.deck.deckKey));
+  const today = new Set(fresh.map((r) => r.key));
+  const assumptions = withheld.length && withheld.every((k) => today.has(k))
+    ? ranking.assumptions.filter((a) => a !== NG_GAMEPLAN_LIMITED) : ranking.assumptions;
   return ngGameplanFreeze({
     version: NG_GAMEPLAN_VERSION, day, ruleset, revision, stamp, target: budget, queue,
     reviewed, due: debt.rows, fresh, more, blocked: debt.blocked,
-    dueQuestions: debt.questions, status: ranking.status, comparison, assumptions: ranking.assumptions,
+    dueQuestions: debt.questions, status: ranking.status, comparison, assumptions, newFrom,
     missing: ranking.missing, room, newCards: spent, dueCards: debt.count,
     total: debt.count + spent, overrun: Math.max(0, reviewed.length + debt.count + spent - budget),
   });
@@ -233,9 +249,10 @@ export function ngGameplanProgress(plan, { srs = {}, day, decks = {} }) {
 export function ngGameplanSummary(plan) {
   const cards = (n) => n + (n === 1 ? " card" : " cards");
   // v1.256.1 (STAGE2G): when EVERY new deck was kept from the weak spots (decks the known moves fill, which a
-  // comparison cannot rank), the line says where they came from, never the comparison's "nothing new worth adding". A
-  // plan with no kept deck cannot meet this, so it reads as it always did.
-  const kept = plan.status !== "weak-spots" && plan.fresh.length > 0 && plan.fresh.every((r) => r.source === "weak-spots");
+  // comparison cannot rank), the line says where they came from, never the comparison's "nothing new worth adding".
+  // v1.256.2 (STAGE2H A a): ranked decks THEN kept ones read "ranked by your study comparison, then your weakest
+  // spots", the partial status keeping its second sentence. A plan with no kept deck reads as it always did.
+  const from = plan.status === "weak-spots" ? "comparison" : plan.newFrom;
   const source = {
     "weak-spots": "New techniques are your weakest spots first.",
     ready: "New techniques are ranked by your study comparison.",
@@ -244,7 +261,9 @@ export function ngGameplanSummary(plan) {
     unavailable: "There is no ranking for new techniques yet. Reviews still count.",
     pending: "The ranking for new techniques is loading. Reviews still count.",
     stale: "The ranking for new techniques is out of date: refresh the plan. Reviews still count.",
-  }[kept ? "weak-spots" : plan.status];
+    "ready+kept": "New techniques are ranked by your study comparison, then your weakest spots.",
+    "partial+kept": "New techniques are ranked by your study comparison, then your weakest spots. Some could not be compared, which does not mean you've mastered them.",
+  }[from === "weak-spots" ? "weak-spots" : from === "mixed" ? plan.status + "+kept" : plan.status];
   // Frozen with the plan, so it speaks of the time BEFORE it opened: the session heading below counts
   // what happens after (a live "you've answered 0 today" read wrong once the session was done).
   return "Your daily goal is " + cards(plan.target) +
