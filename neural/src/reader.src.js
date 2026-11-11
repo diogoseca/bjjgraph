@@ -1329,8 +1329,12 @@ class Reader {
         // U52 b (owner, 2026-10-28) supersedes D-368's stacked order: the question comes "immediately
         // following the your move row", so stacked, the current card follows the question in every
         // landing (it already did in a catch, so the answers stay on screen).
+        // CARDGAP1 (owner, 2026-11-11, v1.256.3): "this big ass space between sections where the landcard used to be". A film-first
+        // line stood here, `homeMedia && !beside && !follows`: placed the film, then `y += mediaHeight + 12`. Since U52 b (v1.241.0)
+        // dropped the catch from `follows`, that test IS the closed-card film line's below (`!showCard`), so the two always fired
+        // together; the later one moved the film under the label and the first left its height behind, above the label: 240px at
+        // 390x844, 311px at 574x760, the film's height plus 20. It was the only thing the line did. Pinned by card-close-gap.spec.ts.
         const follows = homeMedia && !beside && showCard;
-        if (homeMedia && !beside && !follows) { position(home, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight + 12; }
         if (pin) y = pin.cardY || (pin.cardY = y);
         cardY = y;
         if (column) cardX = free.center - grid / 2;
@@ -1345,7 +1349,12 @@ class Reader {
         else if (!label("card").hidden) { position(label("card"), left, y, width); y += rect(label("card")).height; }
         if (questionFirst) { y += step; placeHand(); y -= step; }
         if (follows) { y += step; position(home, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight; }
-        else if (homeMedia && !showCard && !beside) { position(home, free.center - mediaWidth / 2, y + step, mediaWidth); y += step + mediaHeight; }
+        else if (homeMedia && !showCard && !beside) {
+          // The step after Moves is already in y; a painted label adds its own. None painted (the index carries it, or no card yet
+          // on this landing), the film takes the place the label would: one step under Moves, never two.
+          const lead = rect(label("card")).height ? step : 0;
+          position(home, free.center - mediaWidth / 2, y + lead, mediaWidth); y += lead + mediaHeight;
+        }
         // U104: the film's cell. An asking question is a line in the Moves band, whose padding the row gives back as it opens, so
         // the film starts where the open card will, and taking the question up moves it nowhere. `reach` is how far the taller
         // cell runs past the shorter one, and each column carries on under its own.
