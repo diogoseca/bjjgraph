@@ -37,6 +37,14 @@ type W = Window & { __neural: any };
  *   S9 ↓ past the last drawn row does not draw more          -> "the arrows walk the list in the order shown …"
  *   S10 Enter in the box does nothing                        -> "the arrows walk the list in the order shown …"
  * And D1, searchRank without its `rep` filter (every site doubled), is red in dual-consumers.spec.ts's hub test.
+ * After the independent review (D1-D3 fixed), run again with S1-S10 on the merged build: 7 of 7 more killed:
+ *   R1 Enter presses the family header (shuts it)           -> "Enter on a family-first result …"
+ *   R2 a stale page still draws                              -> "a stale page draws nothing …"
+ *   R3 a cleared query keeps its pager                       -> "a stale page draws nothing …"
+ *   R4 scrolling draws one extra page only                   -> "forty rows first … " (every result reachable)
+ *   R5 the "N starts" label miscounts                        -> "a folded family opens by mouse …"
+ *   R6 seats on the first position row only                  -> "the seats open their own pages …" (second position)
+ *   R7 the ruleset filter dropped                            -> "a ruleset switch with a query on screen …"
  * NOT COVERED here: the ruleset filter and the order in no-gi (tests/search_rank.test.mjs, both rulesets); the
  * escape of the query (explore-search-escape.spec.ts).
  */
