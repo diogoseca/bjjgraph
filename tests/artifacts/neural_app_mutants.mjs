@@ -344,6 +344,10 @@ const controls = [
     [['_readerReserve(e){let t=0;', '_readerReserve(e){let t=41;']], "the column's bottom is the viewport's bottom"],
   ['winbar-away-everywhere', 'winbar-fold.spec.ts', '1440x900',
     [['||!o&&!!((u=this._reader)!=null&&u.barUnder))', '||!o)']], 'the win bar shows'],
+  // WINBAR2 (owner's pick U137 a): the other half of the rule, the bar is away only while the column is on screen; free roam is the
+  // map alone and has it back (legend-search at 768, where it was away under the column).
+  ['winbar-away-on-map-alone', 'legend-search.spec.ts', '768, by touch',
+    [['||!o&&!!((u=this._reader)!=null&&u.barUnder))', '||!!((u=this._reader)!=null&&u.barUnder))']], 'the map alone keeps the win bar'],
   ['winbar-paint-skips-away', 'winbar-fold.spec.ts', 'keeps today',
     [['_paintWinThermometer(e){if(!this.adv)return;', '_paintWinThermometer(e){if(!this.adv||this.legendMarkRef.current?.closest(".ng-winbar")?.hasAttribute("data-away"))return;']],
     'not the one it went away with'],
