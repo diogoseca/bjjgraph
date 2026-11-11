@@ -5,7 +5,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import {
   NG_CHOICE_VALUE, ngChoiceValueController, ngChoiceValueStamp, ngChoiceValuePercent,
-  ngChoiceValueView, ngChoiceValueOrder, ngChoiceValueKnowledge,
+  ngChoiceValueView, ngChoiceValueOrder, ngChoiceValueRanked, ngChoiceValueKnowledge,
   ngChoiceValueThreatView, ngChoiceValueThreatOrder, ngChoiceValueImmediate, ngChoiceValueUpdating, NG_CHOICE_VALUE_RUNTIME,
 } from "../neural/src/choice-value.src.js";
 
@@ -76,6 +76,7 @@ test("bounds crossing a rounding threshold stay a range; point values require va
   const s = c.snapshot();
   assert.equal(ngChoiceValueView(s.actions[0], s).value, "42–43%");
   assert.deepEqual(ngChoiceValueOrder([B, A], s), [B, A], "an ambiguous result cannot rank the hand");
+  assert.equal(ngChoiceValueRanked([B, A], s), null, "...and says so, so the status slot never reads 'Sorted by win chance' for it (v1.258.0)");
 });
 
 test("reported conversion error is honored at rounding boundaries", () => {
@@ -213,6 +214,12 @@ test("explicit ordering compares visible rounded win bins with canonical content
   assert.match(ngChoiceValueView(s.actions[0], s).notes.join(" "), /does not make their exact values equal/);
   assert.deepEqual(ngChoiceValueOrder([B, "missing", A], s), [B, "missing", A]);
   assert.deepEqual(ngChoiceValueOrder([A, B], ready([record(A, .3), record(B, .6)])), [B, A]);
+  // the slot's question (v1.258.0): a real ranking, the same one the sort applies; none for a partial hand or none at all
+  assert.deepEqual(ngChoiceValueRanked([B, A], s), [A, B]);
+  assert.deepEqual(ngChoiceValueRanked([A, B], s), [A, B], "a hand already in order is ranked, unchanged");
+  assert.equal(ngChoiceValueRanked([B, "missing", A], s), null);
+  assert.equal(ngChoiceValueRanked([], s), null);
+  assert.equal(ngChoiceValueRanked([A, B], null), null);
 });
 
 test("ties do not imply every counterfactual action is a safe stationary policy", () => {
