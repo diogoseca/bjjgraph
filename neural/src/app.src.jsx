@@ -13785,7 +13785,7 @@ class Component extends DCLogic {
     // left open (`_peek(card, false)` closes its "Did you get it?"), the strip's buttons still arm only
     // NG_GRADE_ARM_MS after it appears — and, as any peek, it touches the hand, so a hand swept before
     // its win chances land keeps its dealt order ("Sort by win chance" stays offered), and the move's
-    // `neural_move_picked` says peeked. Pinned by hidden-moves.spec.ts ("hover: ... at once").
+    // `neural_move_picked` says peeked. Pinned by hidden-moves.spec.ts ("hover: the card turns up the moment the pointer is on it").
     card.addEventListener("pointerenter", e => {
       if (e.pointerType !== "mouse" || !card.hasAttribute("data-hide")) return;
       card.setAttribute("data-hover", "");
