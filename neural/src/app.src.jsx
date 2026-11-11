@@ -2620,9 +2620,13 @@ class Component extends DCLogic {
   // moves on every deck landing, every move played and every grade, and keying the whole index on it re-dealt every
   // known seat's hand on the next frame (13 to 43 ms with half of every seat known); only the gold's LEVEL reads
   // flashcards, so only the level is keyed on it (`_movesGold`).
+  // AND ON THE GRAPH (v1.256.1, STAGE2G): the index maps ordinals through `_ordToId` / `_idIndex` and walks `this.nodes`,
+  // and progress hydrates at mount, before `ingest`. Before the graph is in nothing is built or cached (a transient,
+  // empty index: every reader gets the flashcard figure, as on dev), and the graph's own map is part of the key.
   _movesIdx() {
+    if (!this._ordToId || !this.nodes || !this.nodes.length) return { tech: new Set(), seats: new Map(), share: new Map(), transient: true };
     const c = this._movesCache;
-    if (c && c.src === this.moves && c.rev === this._movesRev && c.gi === this._giMode) return c;
+    if (c && c.src === this.moves && c.rev === this._movesRev && c.gi === this._giMode && c.ord === this._ordToId) return c;
     const tech = new Set(), seats = new Map();
     for (const st in this.moves || {}) for (const mv in this.moves[st]) {
       const r = this.moves[st][mv];
@@ -2631,7 +2635,7 @@ class Component extends DCLogic {
       const id = mv[0] === "e" || !this._ordToId ? null : this._ordToId.get(+mv), i = id != null && this._idIndex ? this._idIndex.get(id) : null;
       if (i != null) tech.add(this.deckKeyFor(this.nodes[i]).key);
     }
-    return (this._movesCache = { src: this.moves, rev: this._movesRev, gi: this._giMode, tech, seats, share: new Map(), goldAt: null, gold: null });
+    return (this._movesCache = { src: this.moves, rev: this._movesRev, gi: this._giMode, ord: this._ordToId, tech, seats, share: new Map(), goldAt: null, gold: null });
   }
   // a seat's dealt moves (this ruleset) as the share-ordinal strings `_moveKey` files them under. `optionsFor` ranks by
   // moveChance -> mastery, so the moves part is held at 0 meanwhile (`_movesBusy`): that can reorder a hand, never
@@ -2661,7 +2665,12 @@ class Component extends DCLogic {
     share = 0;
     const i = this.nodeForKey(key), role = key.endsWith("|Bottom") ? "bottom" : "top";
     const known = i >= 0 && this.nodes[i].ty === "positions" && this._ordById ? c.seats.get(this._ordById.get(this.siteIdOf(this.nodes[i].id)) + "/" + role) : null;
-    if (known) { const d = this._dealtOrds(i, role); if (d && d.length) share = d.filter((o) => known.has(o)).length / d.length; }
+    if (known) {
+      const d = this._dealtOrds(i, role);
+      // a hand that failed to deal reads as unknown THIS once and is never kept (v1.256.1): the next read deals again
+      if (!d) { c.failed = true; return 0; }
+      if (d.length) share = d.filter((o) => known.has(o)).length / d.length;
+    }
     c.share.set(key, share);
     return share;
   }
@@ -2683,16 +2692,19 @@ class Component extends DCLogic {
   _movesGold() {
     const c = this._movesIdx();
     if (c.gold && c.goldSv === this._stageVer) return c.gold;
-    if (!c.goldAt) {
-      c.goldAt = [];
+    let at = c.goldAt;
+    if (!at) {
+      at = []; c.failed = false;
       if (c.seats.size) for (const n of this.nodes) {
         if (!this.rsAllowsIdx(n.idx)) continue;   // a node this ruleset cannot produce is never drawn
         const key = n.ty === "positions" ? this.posFamily(n.t) + "|" + (n.role === "bottom" ? "Bottom" : "Top") : n.role === "defender" ? null : this.deckKeyFor(n).key;
-        if (key && (n.ty === "positions" ? this._seatShare(key) >= 1 : c.tech.has(key))) c.goldAt.push([n.idx, key]);
+        if (key && (n.ty === "positions" ? this._seatShare(key) >= 1 : c.tech.has(key))) at.push([n.idx, key]);
       }
+      if (!c.failed && !c.transient) c.goldAt = at;   // a list read through a failed deal is used once, never kept
     }
-    c.goldSv = this._stageVer;
-    return (c.gold = new Map(c.goldAt.map(([i, key]) => [i, this.deckMastery(key) >= 1 ? 2 : 1])));
+    const g = new Map(at.map(([i, key]) => [i, this.deckMastery(key) >= 1 ? 2 : 1]));
+    if (c.goldAt) { c.goldSv = this._stageVer; c.gold = g; }
+    return g;
   }
   // "Moves known N of M" (U124), under "Mastered N · X%": the pairs dealt in this ruleset over every position seat the
   // ruleset can deal (`rsAllowsIdx`), deduped by site and role as `_moveKey` files them, and how many of them your last

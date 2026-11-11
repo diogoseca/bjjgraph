@@ -288,3 +288,49 @@ test("D1: with no comparison the weak-spots ranking fills the plan, in order, an
   const tight = build(input({ target: 2, decks, srs, fallback }));
   assert.deepEqual(tight.fresh.map((r) => r.key), ["Guard|Bottom"]); assert.deepEqual(tight.more.map((r) => r.key), ["Mount|Top"]);
 });
+
+// ── v1.256.1 (STAGE2G): decks the known moves fill (`oddsFull`, stage 2) ─────────────────────────────────────────────
+// Mutants (2026-11-11), each red at the named test: the summary ignoring kept decks → "every new deck was kept";
+// a filled deck's unavailable row hidden (`if (d.oddsFull) continue`) → "comparison row is unavailable stays missing".
+// NOT PINNED, the owner's wording (STAGE2G item 4, sent to the orchestrator): a plan that MIXES ranked and kept decks
+// keeps the comparison's line ("ranked by your study comparison"), which is not true of the kept ones.
+test("a plan whose every new deck was kept from the weak spots says so, never the comparison's 'nothing new worth adding'", () => {
+  const decks = { "A|Top": deck(["a1", "a2"]), "B|Top": deck(["b1", "b2"], { oddsFull: true }) };
+  const fallback = { rows: [{ key: "B|Top", reason: "w" }, { key: "A|Top", reason: "w" }], assumptions: ["f"] };
+  // the comparison looked at A and found it not worth adding (score 0); B, filled, it could not rank at all
+  const p = build(input({ decks, provider: provider([row("A|Top", 0)]), fallback }));
+  assert.equal(p.status, "exhausted", "the comparison's own status stays");
+  assert.deepEqual(p.fresh.map((r) => [r.key, r.source]), [["B|Top", "weak-spots"]], "B is offered, from the weak spots");
+  assert.match(summary(p), /New techniques are your weakest spots first\.$/, "and the line says where it came from");
+  assert.doesNotMatch(summary(p), /nothing new worth adding/);
+});
+
+test("with no deck the moves fill, every plan's line reads as it did before v1.256.1 (seeded random plans)", () => {
+  let seed = 7; const rnd = () => ((seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0) / 2 ** 32);
+  const line = { "weak-spots": "New techniques are your weakest spots first.", ready: "New techniques are ranked by your study comparison.",
+    partial: "New techniques are ranked by your study comparison. Some could not be compared, which does not mean you've mastered them.",
+    exhausted: "Your study comparison found nothing new worth adding. Reviews still count.", unavailable: "There is no ranking for new techniques yet. Reviews still count.",
+    pending: "The ranking for new techniques is loading. Reviews still count.", stale: "The ranking for new techniques is out of date: refresh the plan. Reviews still count." };
+  const keys = Array.from({ length: 24 }, (_, i) => "Deck" + i + "|" + ["Top", "Bottom", "Attacker", "Defender"][i % 4]);
+  let n = 0;
+  for (let t = 0; t < 2000; t++) {
+    const decks = {};
+    for (const k of keys) if (rnd() < 0.8) decks[k] = deck(Array.from({ length: 1 + Math.floor(rnd() * 4) }, (_, j) => k + "q" + j), { headroom: rnd() < 0.2 ? 0 : 0.15 * rnd(), allowed: rnd() < 0.9 });
+    const prov = rnd() < 0.2 ? null : provider(keys.filter(() => rnd() < 0.4).map((key) => row(key, rnd() < 0.3 ? 0 : rnd(), { headroom: 0.15 * rnd() * 0.5 })), { status: ["ready", "pending", "unavailable"][Math.floor(rnd() * 3)] });
+    const fallback = rnd() < 0.1 ? undefined : { rows: keys.filter(() => rnd() < 0.5).map((key) => ({ key, reason: "w" })), assumptions: ["f"] };
+    const p = build(input({ decks, provider: prov, fallback, target: 5 + Math.floor(rnd() * 20) }));
+    assert.ok(summary(p).endsWith(line[p.status]), `plan ${t} (${p.status}): ${summary(p)}`);
+    n++;
+  }
+  assert.equal(n, 2000);
+});
+
+test("a deck the moves fill but whose comparison row is unavailable stays missing, as on dev: its comparison did not complete", () => {
+  // dev: that deck has headroom and the same unavailable row, so it is missing and the plan partial; stage 2 must not
+  // hide an incomplete comparison by calling the deck filled
+  const decks = { "A|Top": deck(["a1"]), "B|Top": deck(["b1"], { oddsFull: true }) };
+  const p = build(input({ decks, provider: provider([row("A|Top", 1), { key: "B|Top", role: "Top", status: "unavailable", reason: "x" }]),
+    fallback: { rows: [{ key: "B|Top", reason: "w" }], assumptions: ["f"] } }));
+  assert.deepEqual([p.status, p.missing], ["partial", ["B|Top"]]);
+  assert.deepEqual(p.fresh.map((r) => r.key), ["A|Top", "B|Top"], "and B is still offered, after the ranked deck");
+});

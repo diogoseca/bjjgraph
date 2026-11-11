@@ -232,6 +232,10 @@ export function ngGameplanProgress(plan, { srs = {}, day, decks = {} }) {
 // also the Explore cell's tooltip.
 export function ngGameplanSummary(plan) {
   const cards = (n) => n + (n === 1 ? " card" : " cards");
+  // v1.256.1 (STAGE2G): when EVERY new deck was kept from the weak spots (decks the known moves fill, which a
+  // comparison cannot rank), the line says where they came from, never the comparison's "nothing new worth adding". A
+  // plan with no kept deck cannot meet this, so it reads as it always did.
+  const kept = plan.status !== "weak-spots" && plan.fresh.length > 0 && plan.fresh.every((r) => r.source === "weak-spots");
   const source = {
     "weak-spots": "New techniques are your weakest spots first.",
     ready: "New techniques are ranked by your study comparison.",
@@ -240,7 +244,7 @@ export function ngGameplanSummary(plan) {
     unavailable: "There is no ranking for new techniques yet. Reviews still count.",
     pending: "The ranking for new techniques is loading. Reviews still count.",
     stale: "The ranking for new techniques is out of date: refresh the plan. Reviews still count.",
-  }[plan.status];
+  }[kept ? "weak-spots" : plan.status];
   // Frozen with the plan, so it speaks of the time BEFORE it opened: the session heading below counts
   // what happens after (a live "you've answered 0 today" read wrong once the session was done).
   return "Your daily goal is " + cards(plan.target) +
