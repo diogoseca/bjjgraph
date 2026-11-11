@@ -13308,16 +13308,8 @@ class Component extends DCLogic {
       const best = oc.card.querySelector("[data-choice-recommended]");
       if (best) best.textContent = view.recommended ? (view.recommendationLabel || "Recommended") : "";
     }
-    const row = this.optionsRef.current, status = row?.querySelector("[data-choice-value-status]");
-    if (status) status.textContent = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading" || this._readerAwaited()) ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "" : "Win chance unavailable";
-    const retry = row?.querySelector("[data-choice-value-retry]");
-    if (retry) retry.style.display = !/^live-graph-/.test(this._gameValueReason || "") && !["scheduled", "loading", "preparing"].includes(this._gameValueState) && (this._gameValueRetryable || (this._gameValueRuntime && ["unavailable", "error"].includes(snapshot?.status))) ? "inline-block" : "none";
-    const sort = row?.querySelector("[data-choice-value-sort]");
-    if (sort) {
-      const ids = (this._optionCards || []).filter(c => !c.opt.threat).map(c => (this._choiceValueBindings || []).find(b => b.opt === c.opt)?.actionId);
-      const order = this.choiceValueRuntime()?.ngChoiceValueOrder(ids, snapshot) || ids;
-      sort.style.display = ids.some((id, i) => id !== order[i]) ? "inline-block" : "none";
-    }
+    const title = this.optionsRef.current?.querySelector('[data-choice-group="you"] > div');
+    if (title) this._paintValueSlot(title, snapshot, updating);
     const complete = ["ready", "bounded"].includes(snapshot?.status) && (this._optionCards || []).some(c => !c.opt.threat)
       && (this._optionCards || []).every(c => c.opt.threat || ["ready", "bounded"].includes(this.choiceValueView(c.opt).status));
     this._paintWinThermometer(complete ? snapshot : null);
@@ -13370,6 +13362,36 @@ class Component extends DCLogic {
   // only hands its view on (§6.5). The film's seat row has asked for it since v1.231.0, and nothing defined it, so the row printed
   // "—" on every film until v1.253.0 (owner, 2026-11-09: "where's my Win% off of this state i'm in?").
   currentWinView() { return this._winView || { text: "—", handId: this._choiceHandId }; }
+  // THE ONE STATUS SLOT (v1.257.0, the owner's note on U130: "'calculating win chances' shouldn't come into conflict
+  // with 'sort by win chances' ... it should only show as a replacement for 'calculating win chances' and should say
+  // 'sorted by win chances'"; hidetoggle round 2, s2). Beside "Your moves" and its switch there is ONE line in the
+  // status's quiet type, and at most one press after it, in the same type with a dotted underline:
+  //   "Preparing…" / "Calculating…" / "Updating win chances…"   while a value is being worked out (as before)
+  //   "Sorted by win chance"                                     the hand stands in its win-chance ranking
+  //   "Sort by win chance" (a press)                             it does not: a hand touched before its values landed
+  //                                                              never re-sorts itself (§5), so this is the way back
+  //   "Win chance unavailable · Retry" (Retry a press)           a failed load
+  //   nothing                                                    values in, but the hand has no ranking to report
+  // The bold "Sort by win chance" and "Retry win chances" buttons are gone. "Sorted" is asked of
+  // ngChoiceValueRanked, never read off "the order came back unchanged": an unrankable hand returns its dealt order
+  // there, and the line would claim a sort that never happened. The status span stays the live region, so a hand
+  // sorting itself is announced; the press is its own button ("Sort by win chance", "Retry win chances").
+  _paintValueSlot(title, snapshot, updating) {
+    const status = title.querySelector("[data-choice-value-status]"), press = title.querySelector("[data-choice-value-press]");
+    if (!status || !press) return;
+    const said = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading" || this._readerAwaited()) ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "" : "Win chance unavailable";
+    const retryable = !/^live-graph-/.test(this._gameValueReason || "") && !["scheduled", "loading", "preparing"].includes(this._gameValueState) && (this._gameValueRetryable || (this._gameValueRuntime && ["unavailable", "error"].includes(snapshot?.status)));
+    const ids = (this._optionCards || []).filter(c => !c.opt.threat).map(c => (this._choiceValueBindings || []).find(b => b.opt === c.opt)?.actionId);
+    const ranked = said ? null : this.choiceValueRuntime()?.ngChoiceValueRanked?.(ids, snapshot) || null;
+    let text = said, act = null, word = "";
+    if (said === "Win chance unavailable" && retryable) { act = "retry"; word = "Retry"; }
+    else if (ranked) { if (ranked.every((id, i) => id === ids[i])) text = "Sorted by win chance"; else { act = "sort"; word = "Sort by win chance"; } }
+    if (status.textContent !== text) status.textContent = text;
+    press.innerHTML = word ? (text ? '<span aria-hidden="true">\u00a0·\u00a0</span>' : "") + '<span class="ng-value-press-word">' + word + "</span>" : "";
+    press.style.display = word ? "" : "none";
+    if (act) press.setAttribute("data-act", act); else press.removeAttribute("data-act");
+    if (act === "retry") press.setAttribute("aria-label", "Retry win chances"); else press.removeAttribute("aria-label");
+  }
   sortChoiceValues(auto = false) {
     // An explicit player action is a safe reorder boundary, and so is the ONE automatic sort when
     // values arrive on an untouched hand (paintChoiceValues). Keep the exact opt objects/pick
@@ -13424,19 +13446,18 @@ class Component extends DCLogic {
         status.setAttribute("role", "status");
         status.style.cssText = "margin-left:8px;font-weight:400;letter-spacing:0;overflow:hidden;text-overflow:ellipsis;min-width:0;";
         title.appendChild(status);
-        const sort = document.createElement("button");
-        sort.type = "button"; sort.textContent = "Sort by win chance";
-        sort.setAttribute("data-choice-value-sort", "1");
-        sort.style.cssText = "display:none;flex:none;pointer-events:auto;cursor:pointer;border:0;background:none;color:#bdcce4;font:inherit;font-size:10px;margin:-10px 0 -10px 8px;padding:0 4px;min-height:44px;";
-        sort.onclick = () => this.sortChoiceValues();
-        title.appendChild(sort);
-        const retry = document.createElement("button");
-        retry.type = "button"; retry.textContent = "Retry win chances";
-        retry.setAttribute("data-choice-value-retry", "1");
-        retry.style.cssText = sort.style.cssText;
-        retry.onclick = (e) => { e.stopPropagation(); this._retryGameValues(); };
-        title.appendChild(retry);
-        this._hideEye(title);
+        // the slot's one press (`_paintValueSlot`): "Sort by win chance" or "Retry"
+        const press = document.createElement("button");
+        press.type = "button"; press.className = "ng-value-press"; press.setAttribute("data-choice-value-press", "");
+        press.style.display = "none";
+        press.addEventListener("pointerdown", e => e.stopPropagation());
+        press.onclick = e => {
+          e.stopPropagation();
+          const act = press.getAttribute("data-act");
+          if (act === "retry") this._retryGameValues(); else if (act === "sort") this.sortChoiceValues();
+        };
+        title.appendChild(press);
+        this._hideSwitch(title);
       }
       const row = document.createElement("div");
       row.style.cssText = "display:flex;gap:9px;align-items:stretch;";
@@ -13457,9 +13478,13 @@ class Component extends DCLogic {
     // hand re-orders itself by it exactly once — unless the player has already reached into it
     // (pointer, key, wheel, focus, or an activate via a shortcut), because moving a card the player
     // is aiming at is the one thing a hand must never do (frozen deal order, CLAUDE.md §5). After
-    // that it never re-sorts; the "Sort by win chance" button stays for a hand that was touched.
+    // that it never re-sorts; the status slot offers "Sort by win chance" for a hand that was touched.
+    // A PRESS ON THE TITLE IS NOT A REACH INTO THE HAND (v1.257.0, hidetoggle round 2's finding): the switch and the
+    // slot's press (Retry) sit in the title row inside this tray, so their pointerdown, key and focus used to latch
+    // "touched" and a hand whose values had not landed yet never sorted itself, after nothing but a Hidden/Shown press
+    // or a Retry. Those three are skipped for the title's controls; a wheel anywhere still counts (it scrolls the hand).
     this._handTouched = false;
-    const touched = () => { this._handTouched = true; };
+    const touched = e => { if (e.type !== "wheel" && e.target?.closest?.("[data-hide-switch], [data-choice-value-press]")) return; this._handTouched = true; };
     for (const type of ["pointerdown", "keydown", "wheel", "touchstart", "focusin"]) el.addEventListener(type, touched, { capture: true, passive: true });
     this.fitChoiceTitles();
     this._observeChoiceMedia();
@@ -13755,7 +13780,7 @@ class Component extends DCLogic {
   // ═══ HIDDEN MOVES (v1.255.0, owner U115 b + U116, 10 Nov) ═══
   // "Hide moves until I look" (Rolling settings, off by default) hides each dealt card's NAME and
   // FILM — Works % and Win % stay (U115 b) — and the map's names of the dealt moves until a card is
-  // face up. Hover a card (at once, v1.256.3) or tap it to turn it face up; the eye beside "Your moves"
+  // face up. Hover a card (at once, v1.256.3) or tap it to turn it face up; the switch beside "Your moves" (v1.257.0; the eye before it, U121)
   // switches the whole mode from the row (U121); keys 1-9 still play blind. Face up, it asks "Did you get it?", and a Yes
   // files the move in `moves` as MASTERED (`_gradeMove`).
   // HIDING IS CSS ON AN ATTRIBUTE, NEVER A REBUILT FACE: every reader of this card — the docks,
@@ -13877,28 +13902,31 @@ class Component extends DCLogic {
     strip.innerHTML = '<span>' + (due ? "Still got it?" : "Did you get it?") + '</span><button type="button" data-grade="yes">Yes</button>' + (due || NG_HIDE_GRADE_NO ? '<button type="button" data-grade="no">No</button>' : "");
     card.setAttribute("data-asking", "");
   }
-  // THE EYE (owner U121, 10 Nov: "We don't say 'show all', but still show the icon"). Beside "Your moves" on every
-  // dealt row, it switches hidden moves on and off from the row itself: the same `hideMoves` the Settings switch
-  // writes, in place under the dealt hand (`set` -> `_syncHideMoves`). Plain while the moves show; slashed and gold
-  // while they are hidden. A press is not a peek: it turns no card up and records nothing. Its own pointerdown stop
-  // keeps the press out of the map's input (attachInput, §6.1). Its 44px target rides negative margins, so the
-  // title's 24px line does not grow and "Your moves" does not move. No transition, so reduced motion has nothing to
-  // remove. ("Show all" and its this-turn reveal, U115's first build, are gone with this: the eye is the one way.)
-  _hideEye(title) {
-    const eye = document.createElement("button");
-    eye.type = "button"; eye.className = "ng-hide-eye"; eye.setAttribute("data-hide-eye", "");
-    eye.setAttribute("aria-label", "Hide moves until I look"); eye.title = "Hide moves until I look";
-    eye.addEventListener("pointerdown", e => e.stopPropagation());
-    eye.onclick = e => { e.stopPropagation(); this._hideViaNext = "row"; this.set("hideMoves", !this._hideMoves()); };
-    title.insertBefore(eye, title.firstChild.nextSibling);
-    this._paintEye(title);
+  // THE SWITCH (v1.257.0, owner's pick d on U130, 11 Nov; it replaces U121's eye). After "Your moves" on every dealt
+  // row, one word says the state and a press flips it: "Your moves · Hidden" / "· Shown", in the title's own type at
+  // full strength (6.5:1 on the map at both widths, where a word at 50% measured 2.6:1 and at 75% 4.2:1, hidetoggle
+  // round 1), a dotted underline marking it as a press. The same `hideMoves` the Settings switch writes, in place under
+  // the dealt hand (`set` -> `_syncHideMoves`). A press is not a peek (it turns no card up and records nothing) and not
+  // a reach into the hand (the `touched` latch skips it, renderChoiceGroups). Its own pointerdown stop keeps the press
+  // out of the map's input (attachInput, §6.1). Its 40px target is the whole free band and rides negative margins, so
+  // the title's 24px line does not grow; the word's box reserves "Hidden", so a press moves nothing beside it. The
+  // state is in the NAME ("Moves hidden" / "Moves shown"), not in aria-pressed: a pressed "Shown" would read as a
+  // contradiction. No transition, so reduced motion has nothing to remove.
+  _hideSwitch(title) {
+    const sw = document.createElement("button");
+    sw.type = "button"; sw.className = "ng-hide-switch"; sw.setAttribute("data-hide-switch", "");
+    sw.addEventListener("pointerdown", e => e.stopPropagation());
+    sw.onclick = e => { e.stopPropagation(); this._hideViaNext = "row"; this.set("hideMoves", !this._hideMoves()); };
+    title.insertBefore(sw, title.firstChild.nextSibling);
+    this._paintHideSwitch(title);
   }
-  // the eye's state, and the header hint's (NG_HIDE_HINT = "header", not shipped)
-  _paintEye(title) {
-    const eye = title && title.querySelector("[data-hide-eye]"); if (!eye) return;
-    const on = this._hideMoves();
-    eye.setAttribute("aria-pressed", String(on));
-    eye.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>' + (on ? '<path d="M3 3l18 18"/>' : '') + '</svg>';
+  // the switch's word, and the header hint's (NG_HIDE_HINT = "header", not shipped)
+  _paintHideSwitch(title) {
+    const sw = title && title.querySelector("[data-hide-switch]"); if (!sw) return;
+    const on = this._hideMoves(), word = on ? "Hidden" : "Shown";
+    sw.setAttribute("aria-label", "Moves " + word.toLowerCase());
+    sw.title = on ? "Show moves" : "Hide moves until I look";
+    sw.innerHTML = '<span aria-hidden="true">\u00b7</span><span class="ng-hide-word"><span>' + word + '</span></span>';
     title.querySelector("[data-hide-hint]")?.remove();
     if (on && NG_HIDE_HINT === "header") {
       const hint = document.createElement("span");
@@ -13907,13 +13935,13 @@ class Component extends DCLogic {
       title.appendChild(hint);
     }
   }
-  // the setting switched under a dealt hand (the eye, Settings, a pull): hide or show the row in place, no redeal.
+  // the setting switched under a dealt hand (the switch, Settings, a pull): hide or show the row in place, no redeal.
   // The face-up set starts over: a card left face up before the switch must not leave its orb named after it.
   _syncHideMoves() {
     const on = this._hideMoves();
     this._hmLit = new Set();
     for (const c of this._optionCards || []) on ? this._hideCard(c.card) : (this._unhideCard(c.card), this._hideAria(c.card));
-    this._paintEye(this.optionsRef.current?.querySelector('[data-choice-group="you"] > div'));
+    this._paintHideSwitch(this.optionsRef.current?.querySelector('[data-choice-group="you"] > div'));
   }
   // ── THE `moves` RECORD (v1.255.0, owner U116) ──────────────────────────────────────────────
   // moves[state][move] = [due, ivl, last, ok]: the schedule row `srs` keeps (ngKnowledgeScheduleRow),

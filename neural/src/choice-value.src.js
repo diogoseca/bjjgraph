@@ -258,6 +258,15 @@ export function ngChoiceValueController({ publish = () => {}, isCurrent = () => 
 // match the visible headline; equal rounded values are ties for presentation, never an
 // assertion of exact Bellman equality. Ambiguous intervals retain their existing order.
 export function ngChoiceValueOrder(ids, snapshot) {
+  return ngChoiceValueRanked(ids, snapshot) || [...ids];
+}
+
+// THE HAND'S WIN-CHANCE ORDER, OR null WHEN IT HAS NONE (v1.257.0). ngChoiceValueOrder hands back the
+// dealt order for a hand it cannot rank, which is the right thing to SORT by and the wrong thing to
+// REPORT: the status slot reads "Sorted by win chance" only when the hand stands in a real ranking, so
+// it asks this, not "did the order come back unchanged" (an unrankable hand would pass that and the
+// slot would state a sort that never happened, CLAUDE.md §6 "absence produces a plausible answer").
+export function ngChoiceValueRanked(ids, snapshot) {
   // Bounded (certified) values sort too (owner, 2026-09-29: "sort once automatically when the values
   // arrive"). Their enclosures are ~1e-14 wide, so they almost never straddle a display bin; one that
   // does returns no key below, and an unkeyed option keeps the whole hand in its dealt order.
@@ -270,7 +279,7 @@ export function ngChoiceValueOrder(ids, snapshot) {
   };
   // Unknown scores do not earn last place. Ranking a partial hand would imply evidence
   // against the missing options; wait until every displayed option can be compared.
-  if (ids.some(id => key(id) == null)) return [...ids];
+  if (!ids.length || ids.some(id => key(id) == null)) return null;
   // Equal display bins keep their DEALT order. Only an exact result may lift its verified
   // recommendation within a tie: a certified suggestion is within the regret bound of its peers,
   // not proven better, so promoting it would reorder cards the evidence cannot separate.
@@ -451,5 +460,5 @@ export function ngChoiceValueUpdating(current, previous) {
 
 // The standalone verification bundle installs this namespace eagerly. Production may
 // omit the entire module and pass its imported namespace to setChoiceValueRuntime.
-export const NG_CHOICE_VALUE_RUNTIME = Object.freeze({ ngChoiceValueController, ngChoiceValueView, ngChoiceValueOrder,
+export const NG_CHOICE_VALUE_RUNTIME = Object.freeze({ ngChoiceValueController, ngChoiceValueView, ngChoiceValueOrder, ngChoiceValueRanked,
   ngChoiceValueThreatView, ngChoiceValueThreatOrder, ngChoiceValuePercent, ngChoiceValueImmediate, ngChoiceValueUpdating });

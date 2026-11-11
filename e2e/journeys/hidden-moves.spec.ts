@@ -10,7 +10,8 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  * card's NAME and FILM face down — Works % and Win % stay — and withholds the map's names of the
  * dealt moves. A hover (at once, v1.256.3) or a tap turns one card up and asks "Did you get
  * it?"; a Yes files the move in the `moves` record as MASTERED and the card wears thin gold in every
- * row. The eye beside "Your moves" switches the mode from the row (U121); keys 1-9 still play blind.
+ * row. The word beside "Your moves" (· Hidden / · Shown, v1.257.0; U121's eye before it) switches the mode from the
+ * row; keys 1-9 still play blind.
  *
  * "SHOW ALL" IS GONE, AND SO ARE ITS CASES (owner, U121, 10 Nov: "We don't say 'show all', but still show the
  * icon"): the eye replaced the control and its this-turn reveal, so the "Show all asks nothing / Hide all turns it
@@ -20,6 +21,18 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  * across off and on. ONE NON-KILL, recorded so nobody reads it as covered: deleting the eye's own pointerdown stop
  * changes nothing a test can see, because the option row already keeps its presses from the map's input
  * (attachInput); the probe is live (its control counts a real map press). The eye's stop is a second guard.
+ *
+ * THE EYE BECAME A WORD (v1.257.0, the owner's pick d on U130, 11 Nov), AND EVERY EYE CLAIM MOVED TO IT. What each
+ * changed assertion claimed before, so none of them reads as dropped:
+ *   off by default    was "the plain eye, aria-pressed false"      now "the word reads Shown, named 'Moves shown'"
+ *   the switch test   was "on: pressed, named 'Hide moves until I look', slashed and gold; off: plain, unpressed"
+ *                     now "on: the word reads Hidden, named 'Moves hidden', in the title's own colour; off: Shown"
+ *                     (the state is in the NAME, not aria-pressed: a pressed "Shown" would read as a contradiction)
+ *   the pull (R9)     was "the eye pressed / not pressed"           now "the word Hidden / Shown"
+ *   the touch target  was "the eye: 44 x 40, the free band"        now the same claim on the word, unchanged numbers
+ *   the map's controls press the word where they pressed the eye.
+ * NEW (v1.257.0): a press on the word moves nothing beside it (its box reserves "Hidden"). The eye's six mutants were
+ * re-run against the word, and each new claim has its own; table in docs/Changelog-Archive.md (v1.257.0).
  *
  * THE DWELL IS GONE, AND THREE ASSERTIONS CHANGED WITH IT (v1.256.3, owner, 11 Nov: "i'd like for it to be instant
  * to show it, what's taking it so long?"). v1.255.0 turned a hovered card up only after NG_PEEK_DWELL_MS (250 ms), so
@@ -116,6 +129,12 @@ const appState = (page: Page) => page.evaluate(() => {
   }
 })
 
+/** the word beside "Your moves" (v1.257.0): what it reads and the name it gives a screen reader */
+const switchWord = (page: Page) => page.evaluate(() => {
+  const e = document.querySelector("[data-hide-switch]") as HTMLElement
+  return { word: e.querySelector(".ng-hide-word > span")!.textContent, name: e.getAttribute("aria-label") }
+})
+
 /** the map's dealt-move names drawn on the latest frame */
 const mapNames = async (page: Page) => {
   await journey(page).advance(50)
@@ -125,7 +144,7 @@ const mapNames = async (page: Page) => {
 test("@curated off by default: the row is dealt as before, and the setting turns it face down in place", async ({ page }) => {
   await seatMount(page, false)
   expect(await page.locator("[data-hide], .ng-choice-back, [data-choice-grade]").count(), "no hidden-moves DOM on the cards while off").toBe(0)
-  expect(await page.locator("[data-hide-eye]").getAttribute("aria-pressed"), "...and the plain eye by Your moves (U121)").toBe("false")
+  expect(await switchWord(page), "...and the word by Your moves reads Shown, named for the state (v1.257.0)").toEqual({ word: "Shown", name: "Moves shown" })
   const open = await face(page, hm(0))
   expect([open.title, open.stats, open.filmCovered]).toEqual(["visible", "visible", false])
   // the Rolling tab's row, by mouse, under a dealt hand: no redeal, the same cards go face down
@@ -154,9 +173,9 @@ test("@curated on: the name and the film are face down, the numbers stay, and th
   const t = await face(page, "[data-opponent-threat]")
   expect([t.title, t.filmCovered], "a threat is face down too").toEqual(["hidden", true])
   expect(await mapNames(page), "the map names no dealt move while the row is face down").toEqual([])
-  // positive control on the same board: the eye turns the mode off, and the same frame path draws the names
+  // positive control on the same board: the word turns the mode off, and the same frame path draws the names
   const j = journey(page)
-  await j.clickByMouse("[data-hide-eye]", "the eye (off)")
+  await j.clickByMouse("[data-hide-switch]", "the word (off)")
   expect((await mapNames(page)).length, "...and names them once the row is face up").toBeGreaterThan(0)
   // REVIEW R2 / T3: pointing at a dealt orb must not name it either. The map's hover is the frame's input
   // (`_hover`, which the canvas pointermove writes); every label the frame then DRAWS is published
@@ -170,7 +189,7 @@ test("@curated on: the name and the film are face down, the numbers stay, and th
   }, idx)
   const shown = await pointAt(orb)
   expect(shown.pair || shown.single, "control: face up, pointing at the orb names it").toBe(true)
-  await j.clickByMouse("[data-hide-eye]", "the eye (on)")
+  await j.clickByMouse("[data-hide-switch]", "the word (on)")
   expect(await pointAt(orb), "face down, pointing at the same orb names nothing").toEqual({ pair: false, single: false })
   const partner = await page.evaluate((idx) => (window as W).__neural.nodes[idx].pi as number, orb)
   if (partner >= 0) expect(await pointAt(partner), "...nor at its pair partner").toEqual({ pair: false, single: false })
@@ -328,28 +347,47 @@ test("@curated reduced motion: a hovered card is lit but does not grow", async (
   expect([r.hover, r.glow, await scaleOf(page, hm(1))], "lit by its glow, at its own size").toEqual([true, true, 1000])
 })
 
-test("@curated the eye by Your moves switches hidden moves from the row, in place, and is not a peek (U121)", async ({ page }) => {
+test("@curated the word by Your moves switches hidden moves from the row, in place, and is not a peek (v1.257.0; U121's eye before it)", async ({ page }) => {
   const j = await seatMount(page, false)
   const hand = () => page.evaluate(() => (window as W).__neural._optionCards.map((c: W) => c.opt.node.t).join("|"))
   const before = await hand()
   // its own pointerdown stop: the press never reaches the map's input (attachInput closes a studying deck on every press it sees)
   await page.evaluate(() => { const a = (window as W).__neural, f = a.closeDeckIfStudying; a.__mapPresses = 0; a.closeDeckIfStudying = function (...x: any[]) { a.__mapPresses++; return f.apply(this, x) } })
-  await j.clickByMouse("[data-hide-eye]", "the eye")
-  const eye = () => page.evaluate(() => { const e = document.querySelector("[data-hide-eye]") as HTMLElement; return { pressed: e.getAttribute("aria-pressed"), label: e.getAttribute("aria-label"), slashed: e.querySelectorAll("path").length === 2, color: getComputedStyle(e).color } })
-  let e = await eye(), s = await appState(page)
-  expect([e.pressed, e.label, e.slashed, e.color], "on: pressed, named for what it does, slashed and gold").toEqual(["true", "Hide moves until I look", true, "rgb(232, 196, 106)"])
+  const titleColor = await page.evaluate(() => getComputedStyle(document.querySelector("[data-hide-switch]")!.parentElement!).color)
+  await j.clickByMouse("[data-hide-switch]", "the word")
+  const sw = () => page.evaluate(() => { const e = document.querySelector("[data-hide-switch]") as HTMLElement; return { color: getComputedStyle(e.querySelector(".ng-hide-word > span")!).color } })
+  let s = await appState(page)
+  expect(await switchWord(page), "on: the word reads Hidden, named for the state").toEqual({ word: "Hidden", name: "Moves hidden" })
+  await expect(page.locator("[data-hide-switch]"), "...and that is the name a screen reader gives the button").toHaveAccessibleName("Moves hidden")
+  expect((await sw()).color, "in the title's own colour, at full strength (6.5:1 on the map; 50% measured 2.6:1)").toBe(titleColor)
   expect(await page.evaluate(() => (window as W).__neural.get("hideMoves", false)), "the same setting the Settings switch writes").toBe(true)
   expect(await hand(), "the same hand, switched in place").toBe(before)
   const down = await face(page, hm(1))
   expect([down.title, down.filmCovered, down.up], "the dealt row is face down").toEqual(["hidden", true, false])
-  expect([s.peeks, Object.keys(s.moves).length, s.executing], "a press on the eye is not a peek: nothing turned up, nothing recorded, nothing played").toEqual([0, 0, false])
-  expect(await page.evaluate(() => (window as W).__neural.__mapPresses), "the press stopped at the eye, before the map's input").toBe(0)
-  await j.clickByMouse("[data-hide-eye]", "the eye")
-  e = await eye()
-  expect([e.pressed, e.slashed, (await face(page, hm(1))).title], "off: the plain eye, the row face up").toEqual(["false", false, "visible"])
+  expect([s.peeks, Object.keys(s.moves).length, s.executing], "a press on the word is not a peek: nothing turned up, nothing recorded, nothing played").toEqual([0, 0, false])
+  expect(await page.evaluate(() => (window as W).__neural.__mapPresses), "the press stopped at the word, before the map's input").toBe(0)
+  await j.clickByMouse("[data-hide-switch]", "the word")
+  expect([await switchWord(page), (await face(page, hm(1))).title], "off: the word reads Shown, the row face up").toEqual([{ word: "Shown", name: "Moves shown" }, "visible"])
+  await expect(page.locator("[data-hide-switch]")).toHaveAccessibleName("Moves shown")
   // control: the probe sees a press that DOES reach the map (empty map, above the row)
   await page.mouse.click(720, 120)
   expect(await page.evaluate(() => (window as W).__neural.__mapPresses), "control: a press on the map itself is counted").toBeGreaterThan(0)
+})
+
+test("@curated a press on the word moves nothing beside it: the status slot and the cards keep their places (v1.257.0)", async ({ page }) => {
+  const j = await seatMount(page, false)
+  // what sits after the word, measured: the status slot's start, the word's own box, card 1's left edge
+  const at = () => page.evaluate(() => {
+    const sw = document.querySelector("[data-hide-switch]") as HTMLElement, st = sw.parentElement!.querySelector("[data-choice-value-status]")!
+    const r = sw.getBoundingClientRect(), c = document.querySelector('[data-hm="0"]')!.getBoundingClientRect()
+    return { switchW: Math.round(r.width * 10) / 10, slot: Math.round(st.getBoundingClientRect().left * 10) / 10, card: Math.round(c.left * 10) / 10 }
+  })
+  const shown = await at()
+  await j.clickByMouse("[data-hide-switch]", "the word (to Hidden)")
+  expect((await switchWord(page)).word).toBe("Hidden")
+  expect(await at(), "Hidden is wider than Shown, and the word's box reserves it: nothing beside the word moves").toEqual(shown)
+  await j.clickByMouse("[data-hide-switch]", "the word (to Shown)")
+  expect(await at()).toEqual(shown)
 })
 
 test("@curated the staged card: an orb tapped on the map is a move you named, so its card is face up", async ({ page }) => {
@@ -517,11 +555,11 @@ test("@curated a pull that flips the setting mid-hand re-syncs the row and the m
   }, on)
   await pull(true)
   const down = await face(page, hm(0))
-  expect([down.title, down.filmCovered, await page.locator("[data-hide-eye]").getAttribute("aria-pressed")], "a pull turning it on: the dealt row goes face down in place, the eye with it").toEqual(["hidden", true, "true"])
+  expect([down.title, down.filmCovered, (await switchWord(page)).word], "a pull turning it on: the dealt row goes face down in place, the word with it").toEqual(["hidden", true, "Hidden"])
   expect(await mapNames(page), "...and the map names nothing").toEqual([])
   await pull(false)
   const open = await face(page, hm(0))
-  expect([open.title, open.filmCovered, await page.locator("[data-hide-eye]").getAttribute("aria-pressed")], "a pull turning it off: face up again").toEqual(["visible", false, "false"])
+  expect([open.title, open.filmCovered, (await switchWord(page)).word], "a pull turning it off: face up again").toEqual(["visible", false, "Shown"])
   expect((await mapNames(page)).length, "...and the map names the moves again").toBeGreaterThan(0)
 })
 
@@ -596,10 +634,10 @@ test.describe("touch", () => {
       { g: "yes", w: true, h: true, inside: true, edges: true }, { g: "no", w: true, h: true, inside: true, edges: true }])
   })
 
-  test("@curated touch: the eye's target is the whole free band (44 x 40), covers neither Your moves, card 1 nor the hand's close, and a card left up stays unnamed after off and on (U121)", async ({ page }) => {
+  test("@curated touch: the word's target is the whole free band (44 x 40), covers neither Your moves, card 1 nor the hand's close, and a card left up stays unnamed after off and on (v1.257.0; the eye's claim, U121)", async ({ page }) => {
     await seatMount(page)
     const g = await page.evaluate(() => {
-      const e = document.querySelector("[data-hide-eye]") as HTMLElement, title = e.parentElement!, r = e.getBoundingClientRect()
+      const e = document.querySelector("[data-hide-switch]") as HTMLElement, title = e.parentElement!, r = e.getBoundingClientRect()
       const range = document.createRange(); range.selectNodeContents(title.firstChild!); const lab = range.getBoundingClientRect()
       const x = (window as W).__neural._handCloseEl, xr = x ? x.getBoundingClientRect() : null
       const own = (px: number, py: number) => { const t = document.elementFromPoint(px, py); return !!t && e.contains(t) }
@@ -610,19 +648,19 @@ test.describe("touch", () => {
         label: lab.width > 10 && apart(lab), close: apart(xr), line: Math.round(title.getBoundingClientRect().height), motion: getComputedStyle(e).transitionDuration, x: cx, y: cy }
     })
     // 44 TALL IS NOT AVAILABLE HERE: the band between the row's clip and card 1's top is 40px (8 padding, 24 line, 8
-    // gap). The eye takes all of it, edge to edge its own, and steals no press from the card (§6.1's padded-target trap).
+    // gap). The word takes all of it, edge to edge its own, and steals no press from the card (§6.1's padded-target trap).
     expect([g.w, g.h, g.inBand, g.edges], "44 wide, the full 40px band, inside it, edge to edge its own").toEqual([true, true, true, true])
     expect([g.label, g.close, g.line], "it covers neither Your moves nor the close, and the title's line stays 24px").toEqual([true, true, 24])
     expect(g.motion, "no transition to remove under reduced motion").toBe("0s")
-    // a card left face up by a tap, then the eye off and on: the card is down again, and its orb unnamed
+    // a card left face up by a tap, then the word off and on: the card is down again, and its orb unnamed
     const p = await pointOn(page, hm(1))
     await page.touchscreen.tap(p.x, p.y)
     expect((await face(page, hm(1))).up).toBe(true)
     const orb = await page.evaluate(() => (window as W).__neural._optionCards.find((c: W) => c.card.getAttribute("data-hm") === "1").opt.idx as number)
     await page.touchscreen.tap(g.x, g.y)
-    expect(await page.locator("[data-hide-eye]").getAttribute("aria-pressed"), "a tap turns it off").toBe("false")
+    expect((await switchWord(page)).word, "a tap turns it off").toBe("Shown")
     await page.touchscreen.tap(g.x, g.y)
-    expect([(await face(page, hm(1))).up, await page.locator("[data-hide-eye]").getAttribute("aria-pressed")], "...and on: the card is face down").toEqual([false, "true"])
+    expect([(await face(page, hm(1))).up, (await switchWord(page)).word], "...and on: the card is face down").toEqual([false, "Hidden"])
     const named = await page.evaluate(async (idx) => { const a = (window as W).__neural; a._hover = { idx, t: a.now }; a.advance(30); const l = a._lastHoverLabel, q = a._lastPairLabel; return !!((l && l.idx === idx) || (q && q.idx === idx)) }, orb)
     expect(named, "...and its orb is not named on the map").toBe(false)
   })
