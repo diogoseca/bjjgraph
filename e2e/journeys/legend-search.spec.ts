@@ -251,6 +251,7 @@ for (const [width, height, touch] of [[390, 631, true], [1440, 900, false]] as [
 //     search-icon-over-drawer / search-no-focus (390 by touch) ............. a press opens the drawer
 //     slash-own-path ("/" off the seam) .................................... "/" takes the same seam
 //     search-phone-seat-lost (neural.css) .................................. 6px right of the drawer button
+//     winbar-away-on-map-alone (WINBAR2: the bar away under a column not on screen, 768) .. the map alone keeps the win bar
 //   tests/artifacts/article_sections_mutants.mjs
 //     ghost-press-reopens-card (the button guard removed, 768 by touch) .... the tap that closed the card does not reopen it
 // UNGUARDED: reader.src.js's execution-label occupied list naming `.ng-search` (no journey frames a travelling name there).
