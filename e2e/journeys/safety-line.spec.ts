@@ -30,7 +30,19 @@ async function open(page: Page, path: string, width: number, height = 900) {
   await j.readerLayoutSettled()
   return j
 }
-const openTypes = (page: Page) => page.locator(BODY + ' > .ng-section-card').evaluateAll(cards => cards.map(c => c.getAttribute('data-section-type')!))
+// RED4 (PR #372 shard 4). WAS: every tile directly in the body, since a close MOVED its tile into the "Hidden sections" fold.
+// NOW (U131 b2, owner 2026-11-11): a closed tile stays where it is, holding only its message for 5s and then hidden, so it never
+// leaves the body. A tile is open when it AND its content are rendered (no client rect = hidden, display:none or under one).
+const openTypes = (page: Page) => page.locator(BODY + ' > .ng-section-card').evaluateAll(cards => cards
+  .filter(c => c.getClientRects().length > 0 && [...c.querySelectorAll(':scope > .ng-section-body')].some(b => b.getClientRects().length > 0))
+  .map(c => c.getAttribute('data-section-type')!))
+const tile = (type: string) => BODY + ` > .ng-section-card[data-section-type="${type}"]`
+/** b2: a closed tile first holds its message, then leaves nothing. Move the mouse off it: a hovered message never leaves. */
+async function messageGoes(page: Page, type: string) {
+  await expect(page.locator(tile(type) + ' [data-hidesec-notice]'), 'only its message stands in its place').toHaveCount(1)
+  await page.mouse.move(page.viewportSize()!.width - 8, 8)
+  await expect(page.locator(tile(type)), 'and nothing is left once its message has gone').toBeHidden({ timeout: 15000 })
+}
 const indexTypes = (page: Page) => page.locator('.ng-reader-toc-row[data-toc-type]').evaluateAll(rows => rows.map(r => r.getAttribute('data-toc-type')!))
 function guideIsLast(types: string[], what: string) {
   expect(types, `${what}: the guide exists`).toContain('safety')
@@ -68,12 +80,18 @@ for (const path of [ATTACKER, DEFENDER, HUB, FAMILY]) {
     const j = await open(page, path, 1440)
     guideIsLast(await openTypes(page), 'page')
     guideIsLast(await indexTypes(page), 'index')
-    // A DOM move survives idle and resize, then snaps back here: syncSections re-sorts from this.sections.
-    await j.clickByMouse('[data-section-toggle="overview"]', 'close a section so syncSections re-sorts')
+    // WAS: a close moved the tile into the fold and syncSections re-sorted the body from this.sections (a DOM move survives idle and
+    // resize, then snapped back here). NOW (U131 b2): nothing moves on a close, so the order is read at both of b2's moments: while
+    // the message stands, and once the place is gone. The closed section's content leaves at once.
+    await j.clickByMouse('[data-section-toggle="overview"]', 'close a section')
     await j.readerLayoutSettled()
+    const held = await openTypes(page)
+    expect(held, 'the closed section left').not.toContain('overview')
+    guideIsLast(held, 'while its message stands')
+    await messageGoes(page, 'overview')
     const open_ = await openTypes(page)
-    expect(open_, 'the closed section left').not.toContain('overview')
-    guideIsLast(open_, 'after a re-sort')
+    expect(open_, 'the closed section stays gone').not.toContain('overview')
+    guideIsLast(open_, 'once its place is gone')
   })
 }
 
@@ -159,7 +177,12 @@ test('@curated the line opens a closed guide, and a reload lands on it', async (
   await close.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
   await j.clickByMouse('[data-section-toggle="safety"]', 'close the guide')
   await j.readerLayoutSettled()
-  expect(await openTypes(page)).not.toContain('safety')
+  expect(await openTypes(page), 'the guide closed').not.toContain('safety')
+  // WAS: the line was pressed at once, the guide sitting closed in the fold. NOW (U131 b2): the closed guide's steady state is
+  // its tile hidden, so the line is pressed once the message has gone. Under the old openTypes this reopen was vacuous on b2:
+  // the hidden tile was still a child of the body (safety-anchor-no-reopen, foot of this file).
+  await messageGoes(page, 'safety')
+  expect(await openTypes(page), 'the guide stays closed').not.toContain('safety')
   await clickOwnBox(page, j, GUIDE_LINK)
   await expect.poll(() => openTypes(page), 'the click reopened it').toContain('safety')
   guideIsLast(await openTypes(page), 'reopened')
@@ -264,5 +287,14 @@ for (const path of [ATTACKER, DEFENDER]) {
 //   hub-defender-link-dead        the hub's own defender line reaches the guide
 //   reload-does-not-anchor        the line opens a closed guide, and a reload lands on it
 //   reload-past-the-guide         the line opens a closed guide, and a reload lands on it (the 24px tolerance)
+// RED4 (2026-11-11, U131 b2, PR #372 shard 4): the two closed-section tests were red on b2 because openTypes counted a closed tile
+// that no longer leaves the body (measured: it holds its 44px message, then is hidden at 0px). Rewritten above (WAS/NOW); the
+// controls that reach them now live in tests/artifacts/article_sections_mutants.mjs, each killed at its own assertion against a
+// green baseline on the own build:
+//   safety-order-removed           order-removed, ported: nothing teaches after the guide
+//   safety-closed-content-stays    the closed section left (the guide's content left on screen under its message)
+//   safety-closed-tile-stays       nothing is left once its message has gone
+//   safety-anchor-no-reopen        the click reopened it (the old openTypes could not tell a reopened guide from a hidden one)
+//   safety-reload-does-not-anchor  reload-does-not-anchor, ported: the reload landed on the guide
 // Not a control here: article_sections_mutants.mjs defender-hub-leak covers the selector the reader keeps.
 // Partially pinned: one DUAL page and one family page. The corpus-wide counts are a grep of the Markdown, not a gate.

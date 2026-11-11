@@ -564,6 +564,13 @@ const mutants = [
   ['hidesec2-key-focus-no-hold', hidesec, 'a close by keyboard', s => replace(s, 'listen(box, "focusin", () => { if (byKey) this.holdNotice(n, "focus", true); });', 'listen(box, "focusin", () => {});')],
   ['hidesec2-video-message-no-height', hidesec, 'every part closes.*1440', s => replace(s, 'const filmHeight = () => note && !film ? rect(note).height :', 'const filmHeight = () => note && !film ? 0 :')],
   ['hidesec2-undo-dead-keyboard', 'reading-navigation.spec.ts', '390px native reading keys and section toggles', s => replace(s, 'button("Undo", () => this.undoNotice(key),', 'button("Undo", () => {},')],
+  // RED4 (PR #372 shard 4): safety-line.spec.ts's closed-section claims, rewritten to b2. Its own 22 controls were run by hand
+  // (reports/safety-last.md); the two whose tests changed are ported here, and three controls are new, one per b2 claim.
+  ['safety-order-removed', 'safety-line.spec.ts', 'the guide is the last teaching section', s => replace(s, 'submission && x.type === "safety" ? 99 : ', '')],
+  ['safety-closed-content-stays', 'safety-line.spec.ts', 'the guide is the last teaching section.*Attacker$', s => replace(s, 'body.hidden = !shown; body.inert = !shown;', 'body.inert = !shown;')],
+  ['safety-closed-tile-stays', 'safety-line.spec.ts', 'the guide is the last teaching section.*Defender$', s => replace(s, 's.card.hidden = !shown && !held;', 's.card.hidden = false;')],
+  ['safety-anchor-no-reopen', 'safety-line.spec.ts', 'the line opens a closed guide', s => replace(s, '      this.toggleSection(section.dataset.sectionType, true); this.layoutNow();\n', '      this.layoutNow();\n')],
+  ['safety-reload-does-not-anchor', 'safety-line.spec.ts', 'the line opens a closed guide', s => replace(s, '      if (url.hash) this.anchor(url.hash);\n      else if (this.interacting)', '      if (this.interacting)')],
 ]
 // D7-N1: controls whose claim IS the landSettled stall (land_publish_stalled). None today.
 const STALL_CLAIMS = new Set([])
