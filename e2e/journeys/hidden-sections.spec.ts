@@ -177,6 +177,8 @@ for (const vp of VIEWPORTS) test.describe(`${vp.width}`, () => {
     if (vp.touch) {
       expect(await phase(page, "card"), "the press brings the message back").toBe("on")
       expect(await setting(page, "landCard"), "and Undo did not fire").toBe(false)
+      // The tap's click lands on (and focuses) the button under it; a finger never takes focus back, so focus must not hold it.
+      await expect.poll(() => phase(page, "card"), { message: "after the finger lifts it leaves again (a tap's focus does not hold it)", timeout: 6000, intervals: [50] }).not.toBe("on")
     } else {
       expect(await setting(page, "landCard"), "by mouse the hover brought it back and Undo took the press").toBe(true)
       await press(page, j, "[data-land-close]", false, "Questions' close, again"); await away()
@@ -218,10 +220,15 @@ test("@curated several closed in a row: one message per part, in place, and none
   expect(card.top, "each in its own place: Questions under Moves").toBeGreaterThan(hand.top + hand.height - 1)
   // Moves' message leaves first; its place holds, so Questions' message does not move while it stands.
   await page.waitForFunction(() => (document.querySelector('[data-hidesec-notice="hand"]') as HTMLElement)?.dataset.phase === "leaving", null, { polling: "raf", timeout: 10000 })
-  for (let i = 0; i < 4; i++) {
-    expect(await phase(page, "card"), "premise: Questions' message still stands").toBe("on")
-    expect((await box(page, '[data-hidesec-notice="card"]'))!.top, "Questions' message has not moved").toBeCloseTo(card.top, 0)
-    await page.waitForTimeout(250)
+  // Until Questions' message starts to leave, Moves' place holds, and Questions' message neither moves nor goes.
+  for (let i = 0; ; i++) {
+    expect(i, "Questions' message leaves in its own time").toBeLessThan(80)
+    if (await phase(page, "card") === "leaving") break
+    const now = await box(page, '[data-hidesec-notice="card"]')
+    expect(await box(page, '[data-hidesec-notice="hand"]'), "Moves' place holds while Questions' message stands").not.toBeNull()
+    expect(now, "Questions' message still stands while Moves' leaves").not.toBeNull()
+    expect(now!.top, "Questions' message has not moved").toBeCloseTo(card.top, 0)
+    await page.waitForTimeout(100)
   }
   // Both places close together, in one step.
   await page.waitForFunction(() => !document.querySelector("[data-hidesec-notice]"), null, { timeout: 12000 })

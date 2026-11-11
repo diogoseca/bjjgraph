@@ -515,6 +515,11 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
       const message = page.locator(`[data-hidesec-notice="${part}"]`)
       await expect(label, 'no label left behind').toBeHidden()
       await expect(message, 'its message stands in its place').toBeVisible()
+      // U104 (v1.252.0): at 1,024 to 1,349px the article once started at the closed question's old top. The message is raised over
+      // the article's body box (the film's cell needs it), so a press cannot tell; the rectangles can: no tile overlaps the message.
+      const overlap = await message.evaluate(m => { const b = m.getBoundingClientRect(); return [...document.querySelectorAll('[data-reader-body]>.ng-section-card')]
+        .filter(t => t.getClientRects().length).map(t => t.getBoundingClientRect()).reduce((n, r) => n + Math.max(0, Math.min(b.right, r.right) - Math.max(b.left, r.left)) * Math.max(0, Math.min(b.bottom, r.bottom) - Math.max(b.top, r.top)), 0) })
+      expect(overlap, 'no article tile overlaps the message (px²)').toBe(0)
       expect((await message.locator('[data-hidesec-undo]').boundingBox())!.height, 'Undo keeps a 44px target').toBeGreaterThanOrEqual(44)
       await page.mouse.move(viewport.width - 2, viewport.height - 2)
       const contrast = await message.evaluate(el => {

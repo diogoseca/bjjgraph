@@ -695,12 +695,20 @@ test('a held line whose tile closes is let go, and the pane closing leaves the r
   // U131 b2: Training's message holds its place for five seconds; the place is read once it has gone, before the pane closes.
   await messageGone(page, j, 'training')
   const scrollTop = await page.locator(READY).evaluate(e => e.scrollTop)
+  // The line at the reader's top, as the player sees it (U59 c holds it through a pane slide).
+  const line = await page.locator(READY).evaluate(e => { const top = e.getBoundingClientRect().top; const l = ([...e.querySelectorAll('[data-reader-body] p,[data-reader-body] li')] as HTMLElement[]).filter(x => x.getClientRects().length && x.getBoundingClientRect().top >= top - 0.5).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]; (window as any).__heldLine = l; return l.getBoundingClientRect().top })
   await j.clickByMouse('.ng-explorer-close', 'the pane\'s close button')
   for (let i = 0; i < 24; i++) await j.advance(60)
   await j.readerLayoutSettled()
   // Training is this page's last section, so the wider grid can end the article above the old place: the claim is the place or that end.
-  const now = await page.locator(READY).evaluate(e => ({ top: e.scrollTop, end: e.scrollHeight - e.clientHeight }))
-  expect(Math.abs(now.top - Math.min(scrollTop, now.end)), `the reader stays where it was, up to the article's end (${scrollTop} -> ${now.top}, end ${now.end})`).toBeLessThanOrEqual(8)
+  // LOOSENED (U131 b2, HIDESEC2), stated: the place may also be the LINE the player was reading, held where it was on screen. WAS: only
+  // the scroll position, within 8px of the place or the end. With "Hidden sections" gone nothing stands below Training, so the place sat
+  // at the article's very end and the held line (U59 c) put the reader 29px above the new end, with that line 0.03px from where it was
+  // (measured: 3882 -> 3780, end 3809; the line at 147.39 then 147.42). The bug this pins threw the reader by the held height on every
+  // pass, which neither half allows: hold-closed-line still kills it (tests/artifacts/article_sections_mutants.mjs).
+  const now = await page.locator(READY).evaluate(e => ({ top: e.scrollTop, end: e.scrollHeight - e.clientHeight, line: (window as any).__heldLine.getBoundingClientRect().top }))
+  const atPlace = Math.abs(now.top - Math.min(scrollTop, now.end)) <= 8, lineHeld = Math.abs(now.line - line) <= 1
+  expect(atPlace || lineHeld, `the reader stays where it was, up to the article's end, or holds the line the player was reading (${scrollTop} -> ${now.top}, end ${now.end}; line ${line} -> ${now.line})`).toBe(true)
 })
 
 // U101 b: "Read more" opens the rest in place, one way, by real input. A tile's place depends only on the tiles before it, so nothing
