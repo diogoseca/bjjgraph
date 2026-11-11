@@ -3,9 +3,9 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "027c8e035910338c700a8e3b8b45ce732c93fe47",
+   "git_head": "c8867ac06c5c92bcca3e9cf4e081fce0fddb2a6a",
    "inputs": {
-    "tree": "cbd34b264beea8452273a55ec0d8fca734e6817b"
+    "tree": "ae6ce07ed010514622b9704f360f70fd34c3ccae"
    },
    "package_version": "1.258.0",
    "rows_from": "neural/dist",
