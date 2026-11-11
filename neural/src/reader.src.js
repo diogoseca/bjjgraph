@@ -70,6 +70,15 @@ const POSITION_ORDER = "videos aka confused definition principles options safety
 // an eye with a slash, so people understand it is hidden.
 const EYE_OFF = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7zm7 0a3 3 0 1 0 6 0 3 3 0 1 0-6 0M3 3l18 18"/></svg>';
 function eyeOff() { const icon = element("span", { class: "ng-section-eye", "aria-hidden": "true" }); icon.innerHTML = EYE_OFF; return icon; }
+// HIDESEC1 variant b (prototype, owner 2026-11-11: "have them in the settings (and show a fading message in the top, right of the open
+// drawer icon or inplace like section hidden - you will be able to show it again in the settings)"). A part's ✕ hides it and leaves
+// nothing in the flow: no label, no "Hidden sections" fold. Settings > Rolling owns the way back (Bottom of the screen for Moves,
+// Questions and Video; Article sections for every section), and where the index shows, its row still reopens one. A part a
+// background tap took away for this landing keeps its label: no switch can bring a one-landing hide back. One message says where to
+// look: b1 at the top, right of the drawer's open button and the search; b2 in place, where the part was. Undo costs one button.
+const NOTICE_AT = "top", NOTICE_MS = 5000;
+// The message moves focus to its Undo only after a key press, so a mouse or a finger never sees a ring.
+let byKey = false;
 function faces(type, title) {
   const close = element("span", { class: "ng-section-x", "aria-hidden": "true" }, "✕");
   const label = element("span", { class: "ng-section-closed" });
@@ -191,6 +200,15 @@ export async function installReader(app) {
   app._readKey = function (event) { return reader.gameKey(event) || readKey.call(this, event); };
   // The reader's parts reopen from their own labels; a dock the app built before this module arrived goes.
   app._layerDockEl?.remove(); app._layerDockEl = null;
+  // HIDESEC1 b: a part's own ✕ is the one handle that asks for the message (src "x"); Settings and Undo do not.
+  const layer = app.setLayer;
+  app.setLayer = function (name, on, src) {
+    const result = layer.apply(this, arguments);
+    if (result && src === "x" && on === false) reader.notice(name === "film" ? "videos" : name);
+    return result;
+  };
+  document.addEventListener("keydown", () => { byKey = true; }, true);
+  document.addEventListener("pointerdown", () => { byKey = false; }, true);
   reader.hooked = true; reader.publishCard(app._landEl);
 }
 
@@ -617,6 +635,7 @@ class Reader {
       const toggle = button("", () => {
         const opening = !sectionShown(this.app, group.type);
         this.toggleSection(group.type);
+        if (!opening) this.notice(group.type);
         // A close too, in this task: the columns are layoutNow's, and until it runs the tiles after this one keep the old sides.
         this.layoutNow();
         if (opening) this.scrollTo(card, toggle);
@@ -671,17 +690,20 @@ class Reader {
       if (!s.part) {
         s.card.dataset.collapsed = String(!shown);
         // A phase's tile goes with Training's and leaves no label or Hidden sections row of its own.
-        body.hidden = !shown; body.inert = !shown; if (s.more) s.card.hidden = !shown; (shown ? open : s.more ? [] : closed).push(s);
+        const held = this.inPlace(s.type);
+        s.card.toggleAttribute("data-notice", held);
+        body.hidden = !shown; body.inert = !shown; if (s.more) s.card.hidden = !shown; (shown || held ? open : s.more ? [] : closed).push(s);
         if (s.type !== "videos") s.row?.setAttribute("data-collapsed", String(!shown));
         if (s.toggle.getAttribute("aria-expanded") !== String(shown)) {
           s.toggle.setAttribute("aria-expanded", String(shown)); s.toggle.setAttribute("aria-label", (shown ? "Hide " : "Show ") + s.title);
         }
       }
       // U11: where the index shows, a closed section has no control in the content, so focus goes to its index row.
-      if (focused) focus = this.root.hasAttribute("data-indexed") && s.row?.querySelector("a") || (s.part ? s.toggle : hidden?.firstChild);
+      // Variant b: nothing is left where it was, so focus goes to its index row, else the message's Undo, else the reader.
+      if (focused) focus = this.root.hasAttribute("data-indexed") && s.row?.querySelector("a") || this.root;
     }
     if (!hidden) { focus?.focus({ preventScroll: true }); return; }
-    hidden.hidden = !closed.length;
+    hidden.hidden = true;
     hidden.firstChild.firstChild.textContent = "Hidden sections (" + closed.length + ")";
     if (!closed.length) hidden.open = false;
     for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {
@@ -834,6 +856,66 @@ class Reader {
   // away with this landing by a background tap. The label, the index row, aria-expanded and the Hide/Show text all read it, and every
   // layout pass paints it, so none can go stale when the landing's state moves without a sync (roam, a commit). The Video tile itself
   // keeps its own preference; only its row reads the landing.
+  inPlace(key) { return NOTICE_AT !== "top" && this.noticing?.key === key; }
+  // HIDESEC1 b: the one message. Its painted copy is aria-hidden and a live region that is always in the tree says it, once. It never
+  // takes a press meant for what is under it: the box is pointer-events:none, only Undo takes one, and from the moment it starts to
+  // fade the box is inert, then hidden (display:none), never opacity alone (§6.1). Reduced motion: no fade, the same five seconds.
+  notice(key) {
+    const a = this.app, part = this.gameSections.find(s => s.part === key);
+    const title = part ? part.title : key === "videos" ? "Video" : this.sections.find(s => s.type === key)?.title || "Section";
+    const text = title + " hidden. You can show it again in Settings.";
+    if (!this.live) { this.live = element("div", { role: "status", class: "ng-sr-only" }); a.wrapRef.current.append(this.live); }
+    this.live.textContent = "";
+    requestAnimationFrame(() => { if (this.live) this.live.textContent = text; });
+    clearTimeout(this.noticeTimer); clearTimeout(this.noticeFade);
+    const box = this.noticeEl || (this.noticeEl = a._hidesecEl = element("div", { class: "ng-hidesec-notice", "data-hidesec-notice": "", hidden: "" }));
+    if (!box.firstChild) box.append(element("span", { "aria-hidden": "true" }), button("Undo", () => this.noticing?.undo(), { "data-hidesec-undo": "" }));
+    box.firstChild.textContent = text;
+    box.lastChild.setAttribute("aria-label", "Undo: show " + title + " again");
+    this.noticing = { key, undo: () => {
+      this.endNotice(true);
+      if (part) this.toggle(key); else this.toggleSection(key, true);
+      this.layoutNow();
+    } };
+    if (NOTICE_AT === "top") {
+      a.wrapRef.current.append(box);
+      box.setAttribute("data-at", "top");
+      this.placeNotice();
+    } else {
+      // b2: in the part's own place. A game part's place is its label; a section's is its tile, kept in the flow while this shows.
+      const home = part ? part.card : this.sections.find(s => s.type === key)?.card;
+      box.setAttribute("data-at", "place");
+      home?.append(box);
+    }
+    box.hidden = false; box.inert = false; box.removeAttribute("data-on");
+    this.sync(); this.layoutNow();
+    void box.offsetWidth; box.setAttribute("data-on", "");
+    if (byKey) box.lastChild.focus({ preventScroll: true });
+    this.noticeTimer = setTimeout(() => this.endNotice(), NOTICE_MS);
+  }
+  placeNotice() {
+    const box = this.noticeEl, wrap = this.app.wrapRef.current;
+    if (!box || box.getAttribute("data-at") !== "top") return;
+    const w = rect(wrap), logo = rect(wrap.querySelector(".ng-logo")), search = rect(wrap.querySelector(".ng-search"));
+    const left = Math.max(logo?.right || 0, search?.right || 0) + 10 - w.left;
+    box.style.left = left + "px";
+    box.style.maxWidth = (w.width - left - 12) + "px";
+    box.style.top = Math.max(6, (logo ? logo.top + logo.height / 2 : 30) - w.top - 22) + "px";
+  }
+  endNotice(now) {
+    clearTimeout(this.noticeTimer); clearTimeout(this.noticeFade);
+    const box = this.noticeEl, was = this.noticing;
+    this.noticing = null;
+    if (!box || box.hidden) return;
+    const focused = box.contains(document.activeElement);
+    box.inert = true; box.removeAttribute("data-on");
+    const done = () => {
+      box.hidden = true; box.firstChild.textContent = "";
+      if (focused && !now) this.root.focus({ preventScroll: true });
+      if (was && NOTICE_AT !== "top") { this.sync(); this.layoutNow(); }
+    };
+    if (now || matchMedia("(prefers-reduced-motion: reduce)").matches) done(); else this.noticeFade = setTimeout(done, 400);
+  }
   partClosed(s) {
     const pref = s.part ? this.on(s.part) : sectionShown(this.app, s.type);
     return !pref || (s.part === "card" || s.type === "videos") && !!this.app._landAway?.();
@@ -843,7 +925,9 @@ class Reader {
     s.row?.setAttribute("data-collapsed", String(closed));
     if (!s.part) return;
     s.card.dataset.collapsed = String(closed);
-    s.card.hidden = !closed || REFERENCE.test(this.path);
+    const held = this.inPlace(s.part);
+    s.card.toggleAttribute("data-notice", held);
+    s.card.hidden = !(held || closed && this.on(s.part)) || REFERENCE.test(this.path);
     if (s.toggle.getAttribute("aria-expanded") !== String(!closed)) {
       s.toggle.setAttribute("aria-expanded", String(!closed)); s.toggle.setAttribute("aria-label", (closed ? "Show " : "Hide ") + s.title);
     }

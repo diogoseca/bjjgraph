@@ -291,14 +291,17 @@ renderSettings() {
       // here so the state is discoverable when every handle is collapsed. Same ✓ box as above.
       const lay = document.createElement("div");
       lay.style.cssText = sectionStyle;
-      lay.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Bottom of the screen</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Each row has its own ✕ on the board; the small glyphs at the bottom bring one back. Your choice sticks across states and devices.</div>';
+      lay.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Bottom of the screen</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Each part has its own ✕ on the board, and this is where a hidden part comes back. Your choice sticks across states and devices.</div>';
       const LAYER_ROWS = [
         ["film", "Videos during play", "The current node's videos while playing."],
         ["card", "Question card", "Off = no card and no question. (Turning questions off above keeps the card.)"],
         ["hand", "Your moves", "The hand of moves, escapes included. Off = the roll waits until you show them."],
       ];
       for (const [name, title, sub] of LAYER_ROWS) {
-        const on = name === "film" ? this.get("landFilm", true) : this._layerOn(name);
+        // HIDESEC1: with the reader loaded, the film obeys the Video section's setting (landFilm is no longer read there),
+        // so this row reads and writes that one setting, the one the film's own control writes. No key is added.
+        const film = name === "film" && this._reader;
+        const on = film ? this.get("readerSection.videos", true) !== false : name === "film" ? this.get("landFilm", true) : this._layerOn(name);
         const r = document.createElement("div");
         r.setAttribute("data-layer-row", name);
         r.style.cssText = "display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-top:12px;";
@@ -309,7 +312,8 @@ renderSettings() {
         rb.innerHTML = on ? "✓" : "";
         rb.style.cssText = "flex:none;margin-top:2px;width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (on ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (on ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
         rb.addEventListener("click", () => {
-          if (name === "film") { this.set("landFilm", !this.get("landFilm", true)); this._applyLayers(); }
+          if (film) { this.set("readerSection.videos", !on); this._reader.sync(); } // as the Article sections' Video box does
+          else if (name === "film") { this.set("landFilm", !this.get("landFilm", true)); this._applyLayers(); }
           else this.setLayer(name, !this._layerOn(name), "settings");
           this.renderSettings();
         });
@@ -318,7 +322,7 @@ renderSettings() {
       body.appendChild(lay);
       const sections = document.createElement("section");
       sections.setAttribute("data-section-settings", "");
-      sections.innerHTML = '<h3 style="font-size:15px;color:#eef1f6;margin:0 0 6px;">Article sections</h3><p style="font-size:12.5px;color:#b6c5df;">Shown where available. Your choices carry across pages and sync when signed in.</p>';
+      sections.innerHTML = '<h3 style="font-size:15px;color:#eef1f6;margin:0 0 6px;">Article sections</h3><p style="font-size:12.5px;color:#b6c5df;">Shown where available. A section you hide with its ✕ comes back here. Your choices carry across pages and sync when signed in.</p>';
       for (const [type, title] of SECTION_TYPES) {
         const row = document.createElement("label"), input = document.createElement("input");
         row.style.cssText = "display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:44px;color:#dfe5f1;font-size:13px;";

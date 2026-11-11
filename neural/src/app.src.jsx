@@ -19791,7 +19791,7 @@ class Component extends DCLogic {
       // dead to a real mouse. The option sheet, minimized-layer dock and hand ✕ complete the
       // current fixed-control set.
       for (const ov of [...this._landSurfaces(),
-        this._layerDockEl, this._handCloseEl, this._readerEl, this._readerTocEl]) {
+        this._layerDockEl, this._handCloseEl, this._readerEl, this._readerTocEl, this._hidesecEl]) {
         if (ov && e.target && ov.contains(e.target)) return;
       }
       // THE TAP THAT CLOSES THE DRAWER IS CONSUMED (SIDE-R2 P1). On a phone the exposed strip's tap is the
