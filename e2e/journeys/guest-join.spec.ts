@@ -113,7 +113,7 @@ async function story(page: Page, touch: boolean) {
   await expect.poll(async () => (await lineCover(page)).text, { timeout: 30_000 }).toBe(LINE)
 }
 
-test("a guest who practised signs in at 1440: the practice joins, one line that covers no control, no menu row, once, a second account too", async ({ page }) => {
+test("@curated a guest who practised signs in at 1440: the practice joins, one line that covers no control, no menu row, once, a second account too", async ({ page }) => {
   await story(page, false)
 })
 
