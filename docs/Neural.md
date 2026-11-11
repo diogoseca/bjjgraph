@@ -750,8 +750,7 @@ drawer on a session it would throw away (`_paneStudyActive`). A swipe is never a
 suppressor eats the click the browser synthesises at the end of one.
 
 **Explore** starts open; its six category sections start collapsed. Every fold persists in
-`exploreOpenSections`, including `Your lists` (absent means closed). Search precedes sections and
-filters to `rep`. Your lists follows Path with the shared three-rung indent. Opening the drawer
+`exploreOpenSections`, including `Your lists` (absent means closed). Search (`searchRank`) precedes sections. Your lists follows Path with the shared three-rung indent. Opening the drawer
 requests Systems and Concepts indexes, deferred until Explore. `_revealLists` opens Your lists
 for the session, without persisting its fold, when making, adding, restoring or lighting a shared
 class through arrival or its cue. Systems have counted topic branches and indented leaves.

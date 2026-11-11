@@ -39,6 +39,9 @@ const NG_LAND_ANSWER_STEPS = Object.freeze([
 // The option tray's own horizontal inset, both ends (`updateUiShift` writes it; the pane's reserve is
 // added on the left only). The template's inline 24px is the same value for the first paint.
 const NG_TRAY_INSET = 24;
+// The drawer search draws its first 40 rows on a keystroke and the rest as the list scrolls (`_renderSearch`, v1.257.0).
+// Pinned by e2e/journeys/search-rank.spec.ts, which also holds the per-keystroke budget this was sized for.
+const NG_SEARCH_PAGE = 40;
 // U99 b (owner, 2026-11-06, over the first build's "never hiding"): a taller map, 43% at 900px tall, knowing that half of all
 // cards then need a scroll to reach their last answer. The room a live question needs under the map, from the map's bottom to the
 // window's, at the median: on 136 real cards from 16 pages (1440x900, real fonts) the bottom answer lands 486px below the map at
@@ -2229,6 +2232,156 @@ class Component extends DCLogic {
     if (!n._searchNames) n._searchNames = [n.t, n.aka || "", ...(n.aliases || [])].filter(Boolean).map((s) => this._foldSearch(s));
     return n._searchNames.some((s) => s.includes(this._aliasQueryFold));
   }
+  // ── SEARCH RANKS ITS RESULTS (v1.257.0, owner, 11 Nov: "when i search for something like Side Control i was
+  // expecting to see matches according to their relevance ... instead they apear like as item n20 which makes it look
+  // too unsorted. also, when i search guillotine, the guillotine choke should show first"). Until this version the
+  // drawer's search was `nodes.filter(nodeMatches).slice(0, 120)`: NO order at all, node-array order, and the 120 cap
+  // cut in that order, so "guard" (320 sites) showed an arbitrary 120 (a cap over an unordered list is a random
+  // sample, CLAUDE.md §6.6). Side Control the position was row 17 of 56 under its own name.
+  //
+  // THE ORDER IS ONE STRICT TOTAL ORDER, ranked BEFORE any cap (`_rankCmp`), keys in this order:
+  //   1. band (`_rankTier`): 0 the NAME matches (it is the query, an alias is the query, it starts with it, or every
+  //      query word starts one of its words) · 1 the query is inside a word · 2 only together with where it starts
+  //      from ("Armbar from Side Control" for "side control") · 3 an alias matches in part · 4 one typo (opt-in);
+  //   2. head: an exact name leads band 0, then an exact nickname, of ANY kind (review D2b, v1.257.0: kind used to come
+  //      first, so "triangle escape" put Triangle Escape Position above the transition named exactly that);
+  //   3. kind: submission, position, transition, System. A finish before the place it is finished from, because the
+  //      corpus names its control positions after the finish ("Guillotine Control", "Armbar Control", "Triangle
+  //      Control"), and before its setups, whose bare names often EQUAL the query ("Guillotine from Turtle" is a
+  //      transition whose printed name is "Guillotine"). A player typing "guillotine" means the choke (owner's example).
+  //      Measured: 7 of 77 submission names carry a word a position query starts (Mounted Crucifix Armbar, North-South
+  //      Choke, Kesa Gatame Arm Crush, Far Side Armbar, Triangle Choke Side, Kneebar x2, Can Opener); the head key keeps
+  //      an exact name first over all of them;
+  //   4. a TRANSITION with no "from <origin>" tail before the "from X" ones ("Knee Slice Pass" before "Knee Slice from
+  //      Half", "Scissor Sweep" before "Sweep from Saddle"). NOT for submissions (review D2): every family start is
+  //      titled "X from Y", so the key put the five stand-alone submissions above every family ("choke" opened on Buggy
+  //      Choke, importance 0, above Rear Naked Choke). Any technique's "from X" variant PRINTS its bare stem ("Sweep from
+  //      Electric Chair" prints "Sweep"), so it is never an exact name, only a match that starts the name;
+  //   5. exactness inside band 0: the name, an alias, the name starts with it, a later word does;
+  //   6. importance: how much of the game passes through it in THIS ruleset (`_searchWeights`);
+  //   7. the shorter title; 8. the folded title; 9. the id (unique, stable content: never the node index).
+  //   (A position family's hub before its members was tried as key 4 and dropped: every family-less position then
+  //   beat every member, so "mount" listed Reverse Mount (7.4) above High Mount (28.2), and "guard" put Open Guard,
+  //   the third most-occupied guard, behind seven family hubs. Importance orders positions on its own.)
+  //
+  // FOLDING: accents off, case off, and every run of anything that is not a letter or a digit is ONE word break, so
+  // "arm bar" finds Armbar, "x guard" finds X-Guard, "50/50" finds 50-50 Guard, "mata leao" finds Mata Leão. Every word
+  // of a multi-word query must match, in any order ("control side" finds Side Control). What the old substring test
+  // matched, this still matches (deleting the same characters from both strings keeps a substring a substring); the
+  // one narrowing is a query with no letter or digit at all ("-", "/"), which now lists nothing. KNOWN, AND NOTHING IS LOST
+  // TODAY: a letter outside a-z after the accent strip (ß, ø, CJK) folds to a word break, so such a query lists nothing
+  // where the old substring test matched it; the corpus's only non-ASCII letter is the "ã" of Mata Leão, which folds.
+  _rankFold(s) {
+    const t = this._foldSearch(s).replace(/[^a-z0-9]+/g, " ").trim();
+    const w = t ? t.split(" ") : [];
+    const starts = []; let c = "";
+    for (const x of w) { starts.push(c.length); c += x; }
+    return { w, c, starts };
+  }
+  /** How a query meets ONE name: 0 it IS the name · 1 the name starts with it · 2 every query word starts a word of
+   *  the name, in any order (or the query, spaces folded, starts at a word: "arm bar" in "Reverse Armbar") · 3 it is
+   *  inside a word · 9 no match. */
+  _rankField(f, q) {
+    if (!f || !f.c || !q.c) return 9;
+    if (f.c === q.c) return 0;
+    if (f.c.startsWith(q.c)) return 1;
+    if (q.w.every((x) => f.w.some((y) => y.startsWith(x)))) return 2;
+    for (let i = 1; i < f.starts.length; i++) if (f.c.startsWith(q.c, f.starts[i])) return 2;
+    return f.c.includes(q.c) ? 3 : 9;
+  }
+  /** ONE TYPO, the last band (opt-in): every query word of 4+ letters is within one edit (insert, delete, change, or
+   *  two neighbours swapped) of a word of the name or of that word's start; shorter words must start a word. */
+  _rankTypo(f, q) {
+    if (!f || !f.w.length || !q.w.some((x) => x.length >= 4)) return false;
+    const near = (a, b) => {           // optimal string alignment distance <= 1, linear
+      if (a === b) return true;
+      const la = a.length, lb = b.length; if (Math.abs(la - lb) > 1) return false;
+      let i = 0; while (i < la && i < lb && a[i] === b[i]) i++;
+      if (la === lb) return a.slice(i + 1) === b.slice(i + 1) || (a[i] === b[i + 1] && a[i + 1] === b[i] && a.slice(i + 2) === b.slice(i + 2));
+      return la > lb ? a.slice(i + 1) === b.slice(i) : a.slice(i) === b.slice(i + 1);
+    };
+    return q.w.every((x) => f.w.some((y) => x.length < 4 ? y.startsWith(x)
+      : near(x, y) || near(x, y.slice(0, x.length)) || near(x, y.slice(0, x.length + 1)) || near(x, y.slice(0, x.length - 1))));
+  }
+  /** The folded fields one node is ranked on, cached on the node and dropped when aliases land (`_ensureAliases`).
+   *  `m` the name a row prints (graphName: no role, no "from" tail) · `t` the whole title, origin included · `a` every
+   *  aka and alias · `v` 1 for a technique's "from X" variant · `canon` the same for a TRANSITION only (key 4). */
+  _rankKey(n) {
+    if (n._rk) return n._rk;
+    const m = this.graphName(n), sp = this.splitName(n.t);
+    const v = n.ty !== "positions" && sp.from ? 1 : 0, canon = n.ty === "transitions" ? v : 0;
+    const kind = n.ty === "submissions" ? 0 : n.ty === "positions" ? 1 : 2;
+    return (n._rk = { m: this._rankFold(m), t: sp.from ? this._rankFold(n.t) : null, v,
+      a: [n.aka, ...(n.aliases || [])].filter(Boolean).map((s) => this._rankFold(s)),
+      canon, kind, len: n.t.length, name: this._foldSearch(n.t), id: n.id });
+  }
+  /** `{band, ex}` for one ranked entry (`m` names, `a` aliases, `t` the whole title or null, `p` alias-like extras).
+   *  band 9 = not a result. `ex` orders band 0: 0 the name IS the query, 1 an alias is, 2 it starts the name, 3 a word. */
+  _rankTier(k, q, typo) {
+    const ms = Array.isArray(k.m) ? k.m : [k.m];
+    const m = Math.min(...ms.map((f) => this._rankField(f, q)));
+    if (m === 0 && !k.v) return { band: 0, ex: 0 };
+    if (k.a.some((f) => f.c === q.c)) return { band: 0, ex: 1 };
+    if (m <= 2) return { band: 0, ex: Math.max(2, m + 1) };
+    if (m === 3) return { band: 1, ex: 0 };
+    if (k.t && this._rankField(k.t, q) < 9) return { band: 2, ex: 0 };
+    if (k.a.concat(k.p || []).some((f) => this._rankField(f, q) < 9)) return { band: 3, ex: 0 };
+    if (typo && ms.concat(k.t ? [k.t] : [], k.a, k.p || []).some((f) => this._rankTypo(f, q))) return { band: 4, ex: 0 };
+    return { band: 9, ex: 0 };
+  }
+  /** IMPORTANCE = how much of the game passes through a site in the CURRENT ruleset, from the table `gameScore`
+   *  already sums (curriculum.json `scoreWeightsByOrd`, on the boot payload, so ranking fetches nothing): a position
+   *  is the stationary occupancy of its two seats added, a technique the visit rate of its attempt. The two are one
+   *  unit (`build_score_weights`), but this only ever compares like with like: kind sorts first.
+   *  Distinct values over the sites each ruleset allows, measured on the v1.256.2 wire: gi 1,026 over 1,419 sites
+   *  (1,400 non-zero), no-gi 964 over 1,276 (all non-zero); `tests/search_rank.test.mjs` floors it at 900.
+   *  ABSENT CURRICULUM IS SAID, NOT GUESSED (§6.6): every weight reads 0, so the order falls to length and name, and a
+   *  `search_rank_cold` beat fires once per frame so the fallback cannot pass as a ranking. */
+  _searchWeights() {
+    const fr = this._giMode === "nogi" ? "nogi" : "gi", W = this.scoreWeights(fr);
+    const memo = this._rankW;
+    if (memo && memo.fr === fr && memo.W === W && memo.n === this.nodes.length) return memo.v;
+    const v = new Float64Array(this.nodes.length);
+    if (W) {
+      for (const n of this.nodes) {
+        if (!n.rep || !this.rsAllows(n)) continue;   // the frame's own sites: the only rows `searchRank` reads
+        let x = W[this.deckKeyFor(n).key] || 0;
+        const p = n.ty === "positions" && n.pi >= 0 ? this.nodes[n.pi] : null;
+        if (p) x += W[this.deckKeyFor(p).key] || 0;
+        v[n.idx] = x;
+      }
+    } else if (!(this._rankCold || (this._rankCold = {}))[fr]) { this._rankCold[fr] = true; this.fx("search_rank_cold", { frame: fr }); }
+    this._rankW = { fr, W, n: this.nodes.length, v };
+    return v;
+  }
+  _rankCmp(a, b) {
+    return a.band - b.band || a.head - b.head || a.kind - b.kind || a.canon - b.canon || a.ex - b.ex || b.w - a.w ||
+      a.len - b.len || (a.name < b.name ? -1 : a.name > b.name ? 1 : 0) || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
+  }
+  /** THE ONE SEARCH (v1.257.0): every rep site this ruleset allows plus every System, in one strict total order.
+   *  `rows` are `{n}` (a node) or `{s}` (a System) with the rank fields beside. A System ranks as kind 3 on its title
+   *  and name; its aliases are aliases, and a product or an instructor ("danaher") counts as an alias in part.
+   *  `opts.typo` admits the one-typo band; `opts.systems === false` leaves Systems out. */
+  searchRank(raw, opts = {}) {
+    const q = this._rankFold(raw), rows = [];
+    if (!q.c) return { q, rows };
+    const W = this._searchWeights();
+    const push = (r, t, kind) => { r.band = t.band; r.ex = t.ex; r.kind = kind; r.head = t.band === 0 && t.ex <= 1 ? t.ex : 2; rows.push(r); };
+    for (const n of this.nodes) {
+      if (!n.rep || !this.rsAllows(n)) continue;
+      const k = this._rankKey(n), t = this._rankTier(k, q, opts.typo);
+      if (t.band < 9) push({ n, canon: k.canon, w: W[n.idx], len: k.len, name: k.name, id: k.id }, t, k.kind);
+    }
+    if (opts.systems !== false) for (const s of this.systems || []) {
+      if (!s._rk) s._rk = { m: [s.display_title, s.name].filter(Boolean).map((x) => this._rankFold(x)),
+        a: (s.aliases || []).map((x) => this._rankFold(x)), t: null,
+        p: (s.products || []).flatMap((p) => [p.name, p.instructor]).filter(Boolean).map((x) => this._rankFold(x)) };
+      const t = this._rankTier(s._rk, q, opts.typo), title = s.display_title || s.name || "";
+      if (t.band < 9) push({ s, canon: 0, w: 0, len: title.length, name: this._foldSearch(title), id: s.id }, t, 3);
+    }
+    rows.sort((a, b) => this._rankCmp(a, b));
+    return { q, rows };
+  }
   /** The shortest name that is still unambiguous: "Triangle from Back" when "Triangle" is shared
    *  by more than one node, plain "Gogoplata" when it is not. Compact surfaces only — the share
    *  surfaces, lists and dossier always render the FULL authored name by canon.
@@ -3688,7 +3841,7 @@ class Component extends DCLogic {
             if (!n) continue; // a cached graph may predate a newly authored site
             const aliases = [...meta.aka, ...(meta.family ? meta.family.aka : [])];
             for (const member of [n, this.nodes[n.pi]]) if (member) {
-              member.aliasMeta = meta; member.aliases = aliases; member._searchNames = null;
+              member.aliasMeta = meta; member.aliases = aliases; member._searchNames = null; member._rk = null;
             }
           }
           this._aliasesReady = true;
@@ -8172,19 +8325,12 @@ class Component extends DCLogic {
       const ki = this.listIdxs(keepList);
       if (ki.length) this.setFocusIdxSet(ki, true);
     }
-    // search mode: flat ranked results across all nodes
+    // search mode: ONE RANKED LIST (v1.257.0, `searchRank` orders it, `_renderSearch` lays it out)
     if (q) {
-      // SEARCH LISTS SITES TOO (v1.126.0). `buildExplorer` filters `rep`; this walks `this.nodes`
-      // DIRECTLY — a query renders flat ranked results before any section exists — so it never
-      // inherited that filter. Both halves of a pair carry the SAME title, so every hit was
-      // DOUBLED with nothing to tell the duplicates apart, and under the 120 cap that HALVED how
-      // many distinct techniques a search could ever reach: "guard" matches 320 sites and could
-      // only ever show 60 of them. `rep` is true for every unpaired node, so this is a no-op on
-      // the pre-split graph.
-      // …and the same argument applies to the RULESET filter, which `buildExplorer` applies and
-      // this path likewise never inherited (v1.153.0): searching "lapel" in no-gi returned a full
-      // page of results for states no no-gi session can enter.
-      const matches = this.nodes.filter((n) => n.rep && this.rsAllows(n) && this.nodeMatches(n, q)).slice(0, 120);
+      // SEARCH LISTS SITES TOO (v1.126.0), and only the ones this ruleset allows (v1.153.0). This path walks `this.nodes`
+      // directly, so it never inherited `buildExplorer`'s filters: both halves of a pair carry the SAME title, so every
+      // hit was DOUBLED, and "lapel" in no-gi listed states no no-gi session can enter. Both filters (`rep`, `rsAllows`)
+      // live in `searchRank` now, and tests/search_rank.test.mjs asserts every row passes them, in both rulesets.
       // escHTML(q), NOT q: `mk()` is `d.innerHTML = html`, so the raw query was PARSED as
       // markup here — proven live, an `<img src=x onerror=…>` typed into the search box ran
       // its handler in this origin (localStorage holds the Supabase session). `.toLowerCase()`
@@ -8198,27 +8344,16 @@ class Component extends DCLogic {
       // for a share link pasted onto any page. What IS true, and is what v1.158.1 bought, is that
       // after `?dual=` was deleted NO query parameter can change how the graph RENDERS: `?l=`
       // opens a shared list and can do nothing else, and it is validated by `nglValidCode`.)
-      // so there is no link-delivered and no stored vector. `hl(text, q)` is not a second sink:
-      // it slices the trusted title and uses q only for indexOf/length.
-      // Pinned by e2e/journeys/explore-search-escape.spec.ts (drop this call and it goes red).
+      // so there is no link-delivered and no stored vector. The empty state escapes the query and
+      // `_hlRank` escapes every slice of the name it marks, using the query only for offsets.
+      // Pinned by e2e/journeys/explore-search-escape.spec.ts (drop the escape and it goes red).
       this._ensureSystems();
       if (!(this.systems || []).length) this._renderSystemsStatus(list, mk);
-      const systems = (this.systems || []).filter((s) => [s.name, s.display_title, ...(s.aliases || []),
-        ...(s.products || []).flatMap((p) => [p.name, p.instructor])].filter(Boolean).join(" ").toLowerCase().includes(q));
-      for (const s of systems) {
-        const hit = mk('<span>' + this.escHTML(s.display_title || s.name) + '</span><small style="margin-left:auto;">System</small>', 12, () => this._readArticle("/" + s.id));
-        hit.setAttribute("data-system-row", s.id); hit.style.pointerEvents = "auto"; list.appendChild(hit);
-      }
-      if (!matches.length && systems.length) return;
-      if (!matches.length) { if (this._aliasesReady) list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match \u201c' + this.escHTML(q) + '\u201d</span>', 12)); return; }
-      list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
-      for (const n of matches) {
-        const cat = ({ positions: "Pos", transitions: "Trans", submissions: "Sub" })[n.ty];
-        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this._readArticle(this._nodeUrlPath(n.idx), true, true, "search"));
-        list.appendChild(this._withListAdd(hit, n, "explore"));
-      }
+      this._renderSearch(list, mk, this._exQ || "");
       return;
     }
+    // no query: the last search's pager stops and forgets its page (review D3: its observer outlived the cleared query)
+    if (this._searchPage) { this._searchPage.stop(); this._searchPage = null; this._searchUiQ = null; }
     // ── PRINCIPLES + LEARNING ── every authored concept, and a click that OPENS it.
     //
     // What was here until v1.152.0: `curatedMap`, ten hardcoded rows whose click handler wrote a
@@ -11171,6 +11306,200 @@ class Component extends DCLogic {
     if (!q) return text;
     const i = text.toLowerCase().indexOf(q); if (i < 0) return text;
     return text.slice(0, i) + '<span style="background:rgba(120,160,255,.32);border-radius:3px;padding:0 1px;">' + text.slice(i, i + q.length) + '</span>' + text.slice(i + q.length);
+  }
+  /** The ranked search's highlight: the part of `text` the FOLDED query met, so "arm bar" marks "Armbar" and
+   *  "control side" marks both words. Every slice of `text` is escaped and the query only supplies lengths and
+   *  offsets, so this is no sink for the query (explore-search-escape.spec.ts). */
+  _hlRank(text, q) {
+    const idx = [];
+    let c = "";
+    for (let i = 0; i < text.length; i++) for (const ch of this._foldSearch(text[i])) if (/[a-z0-9]/.test(ch)) { idx.push(i); c += ch; }
+    const start = (k) => k === 0 || idx[k] - idx[k - 1] > 1;
+    let spans = [];
+    const at = (k, len) => { if (k >= 0 && len > 0) spans.push([idx[k], idx[k + len - 1] + 1]); };
+    if (q.c && c.startsWith(q.c)) at(0, q.c.length);
+    else {
+      let k = -1;
+      for (let j = 1; j < c.length && k < 0; j++) if (start(j) && c.startsWith(q.c, j)) k = j;
+      if (k >= 0) at(k, q.c.length);
+      else if (q.w.every((w) => { for (let j = 0; j < c.length; j++) if (start(j) && c.startsWith(w, j)) { at(j, w.length); return true; } return false; })) { /* each word marked */ }
+      else { spans = []; at(c.indexOf(q.c), q.c.length); }
+    }
+    spans.sort((a, b) => a[0] - b[0]);
+    let out = "", p = 0;
+    for (const [a, b] of spans) {
+      if (a < p) continue;
+      out += this.escHTML(text.slice(p, a)) + '<span style="background:rgba(120,160,255,.32);border-radius:3px;padding:0 1px;">' + this.escHTML(text.slice(a, b)) + '</span>';
+      p = b;
+    }
+    return out + this.escHTML(text.slice(p));
+  }
+  /** A position's two seats as two presses, each opening that seat's page (the Top member is the row's own node). */
+  _seatPresses(n) {
+    const g = document.createElement("span");
+    g.style.cssText = "display:inline-flex;gap:4px;flex:none;";
+    for (const [label, idx] of [["Top", n.idx], ["Bottom", n.pi]]) {
+      if (idx == null || idx < 0) continue;
+      const b = document.createElement("button");
+      b.type = "button"; b.className = "ng-actchip"; b.textContent = label;
+      b.setAttribute("data-seat-press", label.toLowerCase());
+      b.setAttribute("aria-label", this.graphName(n) + ", " + label);
+      b.style.cssText = "width:auto;padding:0 8px;font-size:11px;pointer-events:auto;";
+      b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this._readArticle(this._nodeUrlPath(idx), true, true, "search"); });
+      g.appendChild(b);
+    }
+    return g;
+  }
+  /** RANKED SEARCH RESULTS (v1.257.0, owner's pick U132 c). `searchRank` decides the order; this lays it out as ONE
+   *  list in that order, with three things on top of it:
+   *  · EVERY SUBMISSION FAMILY IS ONE ROW ("Guillotine Choke · 5 starts"), at the rank of its best start. The top-ranked
+   *    family opens on its five most-travelled starts with "All N starts" under them; the others open on a press. "rnc"
+   *    is one row instead of 12, "armbar" one instead of 15, so the next distinct things come into view.
+   *  · EVERY POSITION ROW CARRIES ITS TWO SEATS as Top and Bottom presses, on a line of their own under the name (beside
+   *    it they squeezed "Side Control" onto two lines at 390). The row itself still opens the Top page, as before.
+   *  · ONE TYPO IS FORGIVEN as the last band (`_rankTypo`), always on. Known near-misses, kept LAST on purpose: "knee
+   *    slice" also lists the three "Knee Slide from …" at the bottom, and "crank" its two Crackhead Control rows.
+   *  FORTY ROWS FIRST, THE REST ON SCROLL. Drawing ~120 rows was what a keystroke cost (measured on this box, 390x844 at
+   *  4x CPU throttle: ~150 ms a keystroke, of which the ranking is 11-16 ms), so the first `NG_SEARCH_PAGE` rows draw on
+   *  the keystroke and the next batch draws when the end of the list comes within 600px of view (an IntersectionObserver
+   *  on a sentinel row), or when ↓ walks past the last drawn row. Nothing is capped any more: every result is reachable,
+   *  where the old list stopped at 120. A re-render (a family opened) keeps every block already drawn.
+   *  The ruleset and `rep` filters are `searchRank`'s; the query is escaped (`_hlRank`, the empty state). */
+  _renderSearch(list, mk, raw) {
+    const { q, rows } = this.searchRank(raw, { typo: true });
+    if (this._searchUiQ !== q.c) { this._searchUiQ = q.c; this._searchOpen = new Set(); this._searchDrawn = 0; }
+    if (this._searchPage) this._searchPage.stop();
+    this._searchPage = null;
+    const open = this._searchOpen;
+    const SHORT = ["Sub", "Pos", "Trans", "System"];
+    const rerender = (focusSel) => {
+      const sc = list.scrollTop; this.renderExplorer(); list.scrollTop = sc;
+      const f = focusSel && list.querySelector(focusSel); if (f) f.focus({ preventScroll: true });
+    };
+    const sysRow = (s) => {
+      const hit = mk('<span style="font-size:13px;color:#dbe2f0;">' + this._hlRank(s.display_title || s.name, q) + '</span><small style="margin-left:auto;font-size:10px;color:#7e8aa3;">System</small>', 12, () => this._readArticle("/" + s.id));
+      hit.setAttribute("data-system-row", s.id); hit.setAttribute("data-search-row", s.id); hit.style.pointerEvents = "auto";
+      return hit;
+    };
+    const nodeRow = (n, o = {}) => {
+      const k = this._rankKey(n), qual = o.text ? "" : this.nodeQual(n);
+      const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="min-width:0;font-size:13px;color:#dbe2f0;">' + this._hlRank(o.text || this.graphName(n), q) +
+        (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + '</span>' : "") + '</span><span style="margin-left:auto;flex:none;font-size:10px;color:#7e8aa3;">' + SHORT[k.kind] + '</span>',
+        o.pad || 12, () => this._readArticle(this._nodeUrlPath(n.idx), true, true, "search"));
+      hit.setAttribute("data-search-row", n.id);
+      const wrap = this._withListAdd(hit, n, "explore");
+      if (n.ty === "positions" && n.pi >= 0 && !o.text) {
+        const g = this._seatPresses(n);
+        wrap.style.flexWrap = "wrap";
+        g.style.flexBasis = "100%"; g.style.order = "3"; g.style.margin = "-6px 0 4px"; g.style.paddingLeft = "29px";
+        wrap.appendChild(g);
+      }
+      return wrap;
+    };
+    if (!rows.length) {
+      if (this._aliasesReady) list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match “' + this.escHTML(raw.trim()) + '”</span>', 12));
+      return;
+    }
+    list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + rows.length + ' result' + (rows.length === 1 ? "" : "s") + '</span>', 12));
+    // BLOCKS: one per result in rank order (a family and its open starts are one block); each appends its rows and
+    // returns how many it appended, so the page counts ROWS drawn, not results.
+    const famOf = (r) => { if (!r.n || r.n.ty !== "submissions") return null; const p = r.n.id.split("/"); return p.length === 3 ? p[1] : null; };
+    const fams = new Map();
+    for (const r of rows) { const f = famOf(r); if (f) { if (!fams.has(f)) fams.set(f, []); fams.get(f).push(r); } }
+    const blocks = [];
+    for (const r of rows) {
+      const f = famOf(r), mem = f && fams.get(f);
+      if (!(mem && mem.length > 1)) { blocks.push(() => { list.appendChild(r.s ? sysRow(r.s) : nodeRow(r.n)); return 1; }); continue; }
+      if (mem[0] !== r) continue;
+      const top = !blocks.length;
+      blocks.push(() => {
+        // the family's printed name: what most of its starts print ("Armbar" over "Reverse Armbar")
+        const tally = new Map();
+        for (const m of mem) { const g = this.graphName(m.n); tally.set(g, (tally.get(g) || 0) + 1); }
+        const fname = [...tally].sort((a, b) => b[1] - a[1] || a[0].length - b[0].length || (a[0] < b[0] ? -1 : 1))[0][0];
+        const isOpen = top !== open.has("f" + f);
+        const hit = mk(this.nodeGlyph("submissions", this.hex(r.n.col), 9) + '<span style="min-width:0;font-size:13px;color:#dbe2f0;">' + this._hlRank(fname, q) +
+          ' <span style="color:#6b7691;font-size:11px;">' + mem.length + ' starts</span></span><span style="margin-left:auto;flex:none;font-size:10px;color:#7e8aa3;">Sub</span><span style="flex:none;color:#5d6883;font-size:11px;">' + this._caretHTML(isOpen) + '</span>',
+          12, () => { if (open.has("f" + f)) open.delete("f" + f); else open.add("f" + f); rerender('[data-search-fam="' + f + '"]'); });
+        hit.setAttribute("data-search-fam", f); hit.setAttribute("aria-expanded", isOpen ? "true" : "false"); hit.style.pointerEvents = "auto";
+        // Enter in the search box opens the FIRST RESULT, and for a family that is its best start, never the fold:
+        // pressing the header toggles it, so Enter used to SHUT the open guillotine family and open nothing (review D1).
+        hit._ngOpenFirst = () => this._readArticle(this._nodeUrlPath(mem[0].n.idx), true, true, "search");
+        list.appendChild(hit);
+        let n = 1;
+        if (isOpen) {
+          const some = open.has("m" + f) ? mem : mem.slice(0, 5);
+          for (const m of some) {
+            const t = m.n.t, lead = fname + " from ";
+            list.appendChild(nodeRow(m.n, { pad: 26, text: t.indexOf(lead) === 0 ? "from " + t.slice(lead.length) : t })); n++;
+          }
+          if (some.length < mem.length) {
+            const more = mk('<span style="font-size:12px;color:#9ab0e0;">All ' + mem.length + ' starts</span>', 26, () => { open.add("m" + f); rerender('[data-search-row="' + CSS.escape(mem[5].n.id) + '"]'); });
+            more.setAttribute("data-search-more", "m" + f); more.style.pointerEvents = "auto";
+            list.appendChild(more); n++;
+          }
+        }
+        return n;
+      });
+    }
+    const sentinel = document.createElement("div");
+    sentinel.setAttribute("data-search-sentinel", ""); sentinel.setAttribute("aria-hidden", "true"); sentinel.style.cssText = "height:1px;flex:none;";
+    let bi = 0, io = null;
+    const page = { more: () => draw(NG_SEARCH_PAGE), left: () => blocks.length - bi, stop: () => { if (io) { io.disconnect(); io = null; } } };
+    // A PAGE DRAWS ONLY WHILE IT IS THE LIVE ONE (review D3). An IntersectionObserver entry already queued when the next
+    // keystroke re-renders can still be delivered after `stop()`; without this it appended the OLD query's rows to the
+    // new list and overwrote `_searchDrawn`. The same holds for any stale `more()`.
+    const draw = (want, minBlocks = 0) => {
+      if (this._searchPage !== page) { page.stop(); return 0; }
+      if (sentinel.parentNode) sentinel.parentNode.removeChild(sentinel);
+      let drawn = 0;
+      while (bi < blocks.length && (drawn < want || bi < minBlocks)) drawn += blocks[bi++]();
+      this._searchDrawn = bi;
+      if (bi < blocks.length) list.appendChild(sentinel);
+      return drawn;
+    };
+    this._searchPage = page;
+    draw(NG_SEARCH_PAGE, this._searchDrawn || 0);
+    if (bi < blocks.length && typeof IntersectionObserver === "function") {
+      io = new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting)) { draw(NG_SEARCH_PAGE); if (io && bi < blocks.length) { io.unobserve(sentinel); io.observe(sentinel); } else page.stop(); } },
+        { root: list, rootMargin: "0px 0px 600px 0px" });
+      io.observe(sentinel);
+    }
+    this._wireSearchKeys(list);
+  }
+  /** THE ARROWS WALK THE RESULTS IN THE ORDER SHOWN (v1.257.0). Before this, only Tab reached the rows (and the ▶/+
+   *  chips between them); the arrow keys did nothing in the list. ↓ from the box enters the first result, ↑/↓ move one
+   *  result (a row, a family row or an "All N starts"), ↓ past the last drawn row draws the next page, ↑ from the first
+   *  returns to the box, and Enter in the box opens the first result. Wired once per element; the rows are re-read on
+   *  every press, so a re-render cannot strand it. */
+  _wireSearchKeys(list) {
+    const items = () => [...list.querySelectorAll("[data-search-row],[data-search-fam],[data-search-more]")];
+    const inp = this.explorerSearchRef?.current;
+    if (inp && !inp._ngRankKeys) {
+      inp._ngRankKeys = true;
+      inp.addEventListener("keydown", (e) => {
+        if (!(this._exQ || "").trim()) return;
+        const it = items(); if (!it.length) return;
+        if (e.key === "ArrowDown") { e.preventDefault(); e.stopPropagation(); it[0].focus(); }
+        else if (e.key === "Enter") { e.preventDefault(); e.stopPropagation(); if (it[0]._ngOpenFirst) it[0]._ngOpenFirst(); else it[0].click(); }
+      });
+    }
+    if (!list._ngRankKeys) {
+      list._ngRankKeys = true;
+      list.addEventListener("keydown", (e) => {
+        if ((e.key !== "ArrowDown" && e.key !== "ArrowUp") || !(this._exQ || "").trim()) return;
+        let it = items();
+        const i = it.indexOf(document.activeElement);
+        if (i < 0) return;
+        e.preventDefault(); e.stopPropagation();
+        if (e.key === "ArrowDown") {
+          if (i + 1 >= it.length && this._searchPage && this._searchPage.left()) { this._searchPage.more(); it = items(); }
+          if (i + 1 < it.length) it[i + 1].focus();
+        }
+        else if (i > 0) it[i - 1].focus();
+        else if (inp) inp.focus();
+      });
+    }
   }
   /** ONE WAY INTO SEARCH (v1.254.0): the search icon beside the drawer button, "/" and Cmd/Ctrl+K open the drawer on its list
    *  with its search box focused. Phones too, unlike the drawer button: a search press asks for the keyboard. v1.254.1: the old
