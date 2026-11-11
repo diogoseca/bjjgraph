@@ -51,7 +51,7 @@ const NG_LIVE_ANSWER_ROOM = 514;
 // over NG_CARD_LIFT_MS: rise, set down, settle.
 const NG_CARD_LIFT = 1 / 12, NG_CARD_LIFT_MS = 440;
 // HIDDEN MOVES (v1.255.0, owner U115-U116). A hover turns a hidden card face up, and counts as a
-// peek, the moment the pointer is on it (v1.256.3: the 250 ms dwell, NG_PEEK_DWELL_MS, is gone —
+// peek, the moment the pointer is on it (v1.256.5: the 250 ms dwell, NG_PEEK_DWELL_MS, is gone —
 // owner, 11 Nov: "i'd like for it to be instant"; `_hideCard`). NG_HIDE_HINT says where "reveal" is offered:
 // "badge" turns the Suggested badge into "Hover to reveal" / "Tap to reveal" while its card is
 // down; "header" writes a hint beside "Your moves" instead (the owner chooses from screens of both).
@@ -59,7 +59,7 @@ const NG_CARD_LIFT = 1 / 12, NG_CARD_LIFT_MS = 440;
 // do not know yet; the No lives on a known move that is due ("Still got it?", HIDE1A, `_peek`).
 // NG_GRADE_ARM_MS (review R3): the strip's buttons answer only a press that BEGAN this long after the strip
 // appeared — it appears where the pointer already is (on the hover's first frame, or under the revealing tap), so an
-// earlier press was aimed at the card, not at a button the player had not seen yet. With the reveal instant (v1.256.3)
+// earlier press was aimed at the card, not at a button the player had not seen yet. With the reveal instant (v1.256.5)
 // this is the ONLY wait left on a hidden card, and it guards a press, never what the player sees.
 const NG_HIDE_HINT = "badge", NG_HIDE_GRADE_NO = false, NG_GRADE_ARM_MS = 500;
 // The videos row's fade, in units of the ONE token it is sized from: the card's side padding, measured
@@ -13443,7 +13443,7 @@ class Component extends DCLogic {
       list.forEach((o, i) => row.appendChild(this.buildOptionCard(o, pick, seconds, threat ? null : i + 1, escape && !threat ? "escape" : null)));
       group.appendChild(row); el.appendChild(group);
     };
-    // The row's title (owner, 11 Nov: "'Your move' (which should become 'Your moves')", v1.256.3): it heads every
+    // The row's title (owner, 11 Nov: "'Your move' (which should become 'Your moves')", v1.256.5): it heads every
     // move you can make. A sentence that means "it is your move" (the settings' clock line, the map's YOUR MOVE tag on
     // one orb) stays singular.
     add("Your moves", own, false);
@@ -13755,7 +13755,7 @@ class Component extends DCLogic {
   // ═══ HIDDEN MOVES (v1.255.0, owner U115 b + U116, 10 Nov) ═══
   // "Hide moves until I look" (Rolling settings, off by default) hides each dealt card's NAME and
   // FILM — Works % and Win % stay (U115 b) — and the map's names of the dealt moves until a card is
-  // face up. Hover a card (at once, v1.256.3) or tap it to turn it face up; the eye beside "Your moves"
+  // face up. Hover a card (at once, v1.256.5) or tap it to turn it face up; the eye beside "Your moves"
   // switches the whole mode from the row (U121); keys 1-9 still play blind. Face up, it asks "Did you get it?", and a Yes
   // files the move in `moves` as MASTERED (`_gradeMove`).
   // HIDING IS CSS ON AN ATTRIBUTE, NEVER A REBUILT FACE: every reader of this card — the docks,
@@ -13780,7 +13780,7 @@ class Component extends DCLogic {
     // hidden"). It was: the name was always in the DOM and the picture fetched at the deal
     // (`_drainChoiceMedia`, under the back); the only delay was a 250 ms dwell (NG_PEEK_DWELL_MS,
     // v1.255.0), kept so a pointer sweeping across the row to card 5 would not turn up cards 1 to 4.
-    // His words reverse that rule. What a sweep does now (measured, v1.256.3, docs/Changelog-Archive.md):
+    // His words reverse that rule. What a sweep does now (measured, v1.256.5, docs/Changelog-Archive.md):
     // each card it crosses turns up and back down as the pointer leaves — no grade, no save and no strip
     // left open (`_peek(card, false)` closes its "Did you get it?"), the strip's buttons still arm only
     // NG_GRADE_ARM_MS after it appears — and, as any peek, it touches the hand, so a hand swept before

@@ -8,7 +8,7 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  *
  * "Hide moves until I look" (Rolling settings, `hideMoves`, off by default) deals the row with each
  * card's NAME and FILM face down — Works % and Win % stay — and withholds the map's names of the
- * dealt moves. A hover (at once, v1.256.3) or a tap turns one card up and asks "Did you get
+ * dealt moves. A hover (at once, v1.256.5) or a tap turns one card up and asks "Did you get
  * it?"; a Yes files the move in the `moves` record as MASTERED and the card wears thin gold in every
  * row. The eye beside "Your moves" switches the mode from the row (U121); keys 1-9 still play blind.
  *
@@ -21,7 +21,7 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  * changes nothing a test can see, because the option row already keeps its presses from the map's input
  * (attachInput); the probe is live (its control counts a real map press). The eye's stop is a second guard.
  *
- * THE DWELL IS GONE, AND THREE ASSERTIONS CHANGED WITH IT (v1.256.3, owner, 11 Nov: "i'd like for it to be instant
+ * THE DWELL IS GONE, AND THREE ASSERTIONS CHANGED WITH IT (v1.256.5, owner, 11 Nov: "i'd like for it to be instant
  * to show it, what's taking it so long?"). v1.255.0 turned a hovered card up only after NG_PEEK_DWELL_MS (250 ms), so
  * a pointer sweeping along the row turned nothing up, and the hover test pinned exactly that. His words reverse the
  * rule, so the test now pins the opposite, and says so: "at 120ms ... still face down" became "on the FIRST frame
@@ -29,7 +29,7 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  * pointer crossed; "...and does not touch the hand" became touched, because every crossed card showed its name and a
  * hand must never re-sort under a name it showed. What a sweep still may not do is pinned beside them: every card
  * back down once the pointer has left, no strip left open, no grade, no play. NG_GRADE_ARM_MS's pin (review R3, the
- * two "before it could be seen" tests) is unchanged: it is now the only wait on a hidden card. Mutant (v1.256.3):
+ * two "before it could be seen" tests) is unchanged: it is now the only wait on a hidden card. Mutant (v1.256.5):
  * the reveal deferred again (`setTimeout(() => this._peek(card, true), 250)` in pointerenter) is killed by the hover
  * test's first-frame message; so is a one-frame deferral, because the test's own pointerenter listener runs first and
  * queues its frame ahead of the app's.
@@ -197,7 +197,7 @@ test("@curated hover: the card turns up the moment the pointer is on it, and a s
   await page.evaluate(() => { (window as W).__neural._handTouched = false })
   const boxes = () => page.evaluate(() => ["0", "2", "3"].map((i) => { const r = document.querySelector(`[data-hm="${i}"]`)!.getBoundingClientRect(); return [r.left, r.top, r.width, r.height].map((v) => Math.round(v * 10) / 10) }))
   const before = await boxes()
-  // the reveal is the pointer arriving: no dwell (it was NG_PEEK_DWELL_MS, 250 ms, until v1.256.3)
+  // the reveal is the pointer arriving: no dwell (it was NG_PEEK_DWELL_MS, 250 ms, until v1.256.5)
   const first = await firstFrame(page, hm(1), p)
   expect(first, "on the first frame after the pointer enters, the card stands out, its name and film are face up, and it asks (no wait, owner 11 Nov)")
     .toEqual({ hover: true, title: "visible", back: "none", up: true, asking: true })

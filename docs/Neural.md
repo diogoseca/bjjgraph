@@ -259,7 +259,7 @@ borrows the announcer. `tests/roll_execution.test.mjs` pins source behavior;
 threats, escapes — with its **name and film face down**; Works % and Win % stay, and the map names
 no dealt move until its card is up. Hiding is CSS on `data-hide`: the card's DOM and text never change.
 A hover stands the card out and turns it up at once (a transform, none under reduced motion; no dwell
-since v1.256.3); on touch a first tap turns it up, a second plays. The eye by "Your moves"
+since v1.256.5); on touch a first tap turns it up, a second plays. The eye by "Your moves"
 toggles it (U121); keys 1–9 play blind; the stand-in is always face up; a peek touches the hand. The film button
 animates on its own hover only. Face up, an unknown move asks "Did you get it?" (Yes only); a known
 move that is due asks "Still got it?" (Yes / No — No takes its gold away); a known move not due
