@@ -39,6 +39,9 @@ const NG_LAND_ANSWER_STEPS = Object.freeze([
 // The option tray's own horizontal inset, both ends (`updateUiShift` writes it; the pane's reserve is
 // added on the left only). The template's inline 24px is the same value for the first paint.
 const NG_TRAY_INSET = 24;
+// The drawer search draws its first 40 rows on a keystroke and the rest as the list scrolls (`_renderSearch`, v1.257.0).
+// Pinned by e2e/journeys/search-rank.spec.ts, which also holds the per-keystroke budget this was sized for.
+const NG_SEARCH_PAGE = 40;
 // U99 b (owner, 2026-11-06, over the first build's "never hiding"): a taller map, 43% at 900px tall, knowing that half of all
 // cards then need a scroll to reach their last answer. The room a live question needs under the map, from the map's bottom to the
 // window's, at the median: on 136 real cards from 16 pages (1440x900, real fonts) the bottom answer lands 486px below the map at
@@ -51,15 +54,17 @@ const NG_LIVE_ANSWER_ROOM = 514;
 // over NG_CARD_LIFT_MS: rise, set down, settle.
 const NG_CARD_LIFT = 1 / 12, NG_CARD_LIFT_MS = 440;
 // HIDDEN MOVES (v1.255.0, owner U115-U116). A hover turns a hidden card face up, and counts as a
-// peek, only after NG_PEEK_DWELL_MS on that card. NG_HIDE_HINT says where "reveal" is offered:
+// peek, the moment the pointer is on it (v1.256.7: the 250 ms dwell, NG_PEEK_DWELL_MS, is gone —
+// owner, 11 Nov: "i'd like for it to be instant"; `_hideCard`). NG_HIDE_HINT says where "reveal" is offered:
 // "badge" turns the Suggested badge into "Hover to reveal" / "Tap to reveal" while its card is
-// down; "header" writes a hint beside "Your move" instead (the owner chooses from screens of both).
+// down; "header" writes a hint beside "Your moves" instead (the owner chooses from screens of both).
 // NG_HIDE_GRADE_NO puts a No beside EVERY "Did you get it?" — off: he wrote Yes only for a move you
 // do not know yet; the No lives on a known move that is due ("Still got it?", HIDE1A, `_peek`).
 // NG_GRADE_ARM_MS (review R3): the strip's buttons answer only a press that BEGAN this long after the strip
-// appeared — it appears where the pointer already is (after the dwell, or under the revealing tap), so an earlier
-// press was aimed at the card, not at a button the player had not seen yet.
-const NG_PEEK_DWELL_MS = 250, NG_HIDE_HINT = "badge", NG_HIDE_GRADE_NO = false, NG_GRADE_ARM_MS = 500;
+// appeared — it appears where the pointer already is (on the hover's first frame, or under the revealing tap), so an
+// earlier press was aimed at the card, not at a button the player had not seen yet. With the reveal instant (v1.256.7)
+// this is the ONLY wait left on a hidden card, and it guards a press, never what the player sees.
+const NG_HIDE_HINT = "badge", NG_HIDE_GRADE_NO = false, NG_GRADE_ARM_MS = 500;
 // The videos row's fade, in units of the ONE token it is sized from: the card's side padding, measured
 // by `_dockLandFilm` (the end padding is 1 of the same unit). helmet.html `.ng-landfilm`.
 const NG_FILM_FADE_RATIO = 3;
@@ -1200,6 +1205,10 @@ class Component extends DCLogic {
       // Pinned by share-mobile's held Systems response during a native capture touch.
       let paneTouch = false;
       drill.addEventListener("pointerdown", (e) => { this._panePress = true; paneTouch = e.pointerType === "touch"; }, true);
+      // The pointer that last ENTERED the drawer, for `_afterPress`'s hover hold: a finger has no hover
+      // to protect (see there). pointerover fires for a touch before its pointerdown, and for a mouse
+      // or pen as it moves in, so a hybrid device's mouse gets its hold back the moment it returns.
+      drill.addEventListener("pointerover", (e) => { this._paneHoverTouch = e.pointerType === "touch"; }, true);
       const release = () => {
         if (!this._panePress) return;
         this._panePress = false;
@@ -2223,6 +2232,156 @@ class Component extends DCLogic {
     if (!n._searchNames) n._searchNames = [n.t, n.aka || "", ...(n.aliases || [])].filter(Boolean).map((s) => this._foldSearch(s));
     return n._searchNames.some((s) => s.includes(this._aliasQueryFold));
   }
+  // ── SEARCH RANKS ITS RESULTS (v1.257.0, owner, 11 Nov: "when i search for something like Side Control i was
+  // expecting to see matches according to their relevance ... instead they apear like as item n20 which makes it look
+  // too unsorted. also, when i search guillotine, the guillotine choke should show first"). Until this version the
+  // drawer's search was `nodes.filter(nodeMatches).slice(0, 120)`: NO order at all, node-array order, and the 120 cap
+  // cut in that order, so "guard" (320 sites) showed an arbitrary 120 (a cap over an unordered list is a random
+  // sample, CLAUDE.md §6.6). Side Control the position was row 17 of 56 under its own name.
+  //
+  // THE ORDER IS ONE STRICT TOTAL ORDER, ranked BEFORE any cap (`_rankCmp`), keys in this order:
+  //   1. band (`_rankTier`): 0 the NAME matches (it is the query, an alias is the query, it starts with it, or every
+  //      query word starts one of its words) · 1 the query is inside a word · 2 only together with where it starts
+  //      from ("Armbar from Side Control" for "side control") · 3 an alias matches in part · 4 one typo (opt-in);
+  //   2. head: an exact name leads band 0, then an exact nickname, of ANY kind (review D2b, v1.257.0: kind used to come
+  //      first, so "triangle escape" put Triangle Escape Position above the transition named exactly that);
+  //   3. kind: submission, position, transition, System. A finish before the place it is finished from, because the
+  //      corpus names its control positions after the finish ("Guillotine Control", "Armbar Control", "Triangle
+  //      Control"), and before its setups, whose bare names often EQUAL the query ("Guillotine from Turtle" is a
+  //      transition whose printed name is "Guillotine"). A player typing "guillotine" means the choke (owner's example).
+  //      Measured: 7 of 77 submission names carry a word a position query starts (Mounted Crucifix Armbar, North-South
+  //      Choke, Kesa Gatame Arm Crush, Far Side Armbar, Triangle Choke Side, Kneebar x2, Can Opener); the head key keeps
+  //      an exact name first over all of them;
+  //   4. a TRANSITION with no "from <origin>" tail before the "from X" ones ("Knee Slice Pass" before "Knee Slice from
+  //      Half", "Scissor Sweep" before "Sweep from Saddle"). NOT for submissions (review D2): every family start is
+  //      titled "X from Y", so the key put the five stand-alone submissions above every family ("choke" opened on Buggy
+  //      Choke, importance 0, above Rear Naked Choke). Any technique's "from X" variant PRINTS its bare stem ("Sweep from
+  //      Electric Chair" prints "Sweep"), so it is never an exact name, only a match that starts the name;
+  //   5. exactness inside band 0: the name, an alias, the name starts with it, a later word does;
+  //   6. importance: how much of the game passes through it in THIS ruleset (`_searchWeights`);
+  //   7. the shorter title; 8. the folded title; 9. the id (unique, stable content: never the node index).
+  //   (A position family's hub before its members was tried as key 4 and dropped: every family-less position then
+  //   beat every member, so "mount" listed Reverse Mount (7.4) above High Mount (28.2), and "guard" put Open Guard,
+  //   the third most-occupied guard, behind seven family hubs. Importance orders positions on its own.)
+  //
+  // FOLDING: accents off, case off, and every run of anything that is not a letter or a digit is ONE word break, so
+  // "arm bar" finds Armbar, "x guard" finds X-Guard, "50/50" finds 50-50 Guard, "mata leao" finds Mata Leão. Every word
+  // of a multi-word query must match, in any order ("control side" finds Side Control). What the old substring test
+  // matched, this still matches (deleting the same characters from both strings keeps a substring a substring); the
+  // one narrowing is a query with no letter or digit at all ("-", "/"), which now lists nothing. KNOWN, AND NOTHING IS LOST
+  // TODAY: a letter outside a-z after the accent strip (ß, ø, CJK) folds to a word break, so such a query lists nothing
+  // where the old substring test matched it; the corpus's only non-ASCII letter is the "ã" of Mata Leão, which folds.
+  _rankFold(s) {
+    const t = this._foldSearch(s).replace(/[^a-z0-9]+/g, " ").trim();
+    const w = t ? t.split(" ") : [];
+    const starts = []; let c = "";
+    for (const x of w) { starts.push(c.length); c += x; }
+    return { w, c, starts };
+  }
+  /** How a query meets ONE name: 0 it IS the name · 1 the name starts with it · 2 every query word starts a word of
+   *  the name, in any order (or the query, spaces folded, starts at a word: "arm bar" in "Reverse Armbar") · 3 it is
+   *  inside a word · 9 no match. */
+  _rankField(f, q) {
+    if (!f || !f.c || !q.c) return 9;
+    if (f.c === q.c) return 0;
+    if (f.c.startsWith(q.c)) return 1;
+    if (q.w.every((x) => f.w.some((y) => y.startsWith(x)))) return 2;
+    for (let i = 1; i < f.starts.length; i++) if (f.c.startsWith(q.c, f.starts[i])) return 2;
+    return f.c.includes(q.c) ? 3 : 9;
+  }
+  /** ONE TYPO, the last band (opt-in): every query word of 4+ letters is within one edit (insert, delete, change, or
+   *  two neighbours swapped) of a word of the name or of that word's start; shorter words must start a word. */
+  _rankTypo(f, q) {
+    if (!f || !f.w.length || !q.w.some((x) => x.length >= 4)) return false;
+    const near = (a, b) => {           // optimal string alignment distance <= 1, linear
+      if (a === b) return true;
+      const la = a.length, lb = b.length; if (Math.abs(la - lb) > 1) return false;
+      let i = 0; while (i < la && i < lb && a[i] === b[i]) i++;
+      if (la === lb) return a.slice(i + 1) === b.slice(i + 1) || (a[i] === b[i + 1] && a[i + 1] === b[i] && a.slice(i + 2) === b.slice(i + 2));
+      return la > lb ? a.slice(i + 1) === b.slice(i) : a.slice(i) === b.slice(i + 1);
+    };
+    return q.w.every((x) => f.w.some((y) => x.length < 4 ? y.startsWith(x)
+      : near(x, y) || near(x, y.slice(0, x.length)) || near(x, y.slice(0, x.length + 1)) || near(x, y.slice(0, x.length - 1))));
+  }
+  /** The folded fields one node is ranked on, cached on the node and dropped when aliases land (`_ensureAliases`).
+   *  `m` the name a row prints (graphName: no role, no "from" tail) · `t` the whole title, origin included · `a` every
+   *  aka and alias · `v` 1 for a technique's "from X" variant · `canon` the same for a TRANSITION only (key 4). */
+  _rankKey(n) {
+    if (n._rk) return n._rk;
+    const m = this.graphName(n), sp = this.splitName(n.t);
+    const v = n.ty !== "positions" && sp.from ? 1 : 0, canon = n.ty === "transitions" ? v : 0;
+    const kind = n.ty === "submissions" ? 0 : n.ty === "positions" ? 1 : 2;
+    return (n._rk = { m: this._rankFold(m), t: sp.from ? this._rankFold(n.t) : null, v,
+      a: [n.aka, ...(n.aliases || [])].filter(Boolean).map((s) => this._rankFold(s)),
+      canon, kind, len: n.t.length, name: this._foldSearch(n.t), id: n.id });
+  }
+  /** `{band, ex}` for one ranked entry (`m` names, `a` aliases, `t` the whole title or null, `p` alias-like extras).
+   *  band 9 = not a result. `ex` orders band 0: 0 the name IS the query, 1 an alias is, 2 it starts the name, 3 a word. */
+  _rankTier(k, q, typo) {
+    const ms = Array.isArray(k.m) ? k.m : [k.m];
+    const m = Math.min(...ms.map((f) => this._rankField(f, q)));
+    if (m === 0 && !k.v) return { band: 0, ex: 0 };
+    if (k.a.some((f) => f.c === q.c)) return { band: 0, ex: 1 };
+    if (m <= 2) return { band: 0, ex: Math.max(2, m + 1) };
+    if (m === 3) return { band: 1, ex: 0 };
+    if (k.t && this._rankField(k.t, q) < 9) return { band: 2, ex: 0 };
+    if (k.a.concat(k.p || []).some((f) => this._rankField(f, q) < 9)) return { band: 3, ex: 0 };
+    if (typo && ms.concat(k.t ? [k.t] : [], k.a, k.p || []).some((f) => this._rankTypo(f, q))) return { band: 4, ex: 0 };
+    return { band: 9, ex: 0 };
+  }
+  /** IMPORTANCE = how much of the game passes through a site in the CURRENT ruleset, from the table `gameScore`
+   *  already sums (curriculum.json `scoreWeightsByOrd`, on the boot payload, so ranking fetches nothing): a position
+   *  is the stationary occupancy of its two seats added, a technique the visit rate of its attempt. The two are one
+   *  unit (`build_score_weights`), but this only ever compares like with like: kind sorts first.
+   *  Distinct values over the sites each ruleset allows, measured on the v1.256.2 wire: gi 1,026 over 1,419 sites
+   *  (1,400 non-zero), no-gi 964 over 1,276 (all non-zero); `tests/search_rank.test.mjs` floors it at 900.
+   *  ABSENT CURRICULUM IS SAID, NOT GUESSED (§6.6): every weight reads 0, so the order falls to length and name, and a
+   *  `search_rank_cold` beat fires once per frame so the fallback cannot pass as a ranking. */
+  _searchWeights() {
+    const fr = this._giMode === "nogi" ? "nogi" : "gi", W = this.scoreWeights(fr);
+    const memo = this._rankW;
+    if (memo && memo.fr === fr && memo.W === W && memo.n === this.nodes.length) return memo.v;
+    const v = new Float64Array(this.nodes.length);
+    if (W) {
+      for (const n of this.nodes) {
+        if (!n.rep || !this.rsAllows(n)) continue;   // the frame's own sites: the only rows `searchRank` reads
+        let x = W[this.deckKeyFor(n).key] || 0;
+        const p = n.ty === "positions" && n.pi >= 0 ? this.nodes[n.pi] : null;
+        if (p) x += W[this.deckKeyFor(p).key] || 0;
+        v[n.idx] = x;
+      }
+    } else if (!(this._rankCold || (this._rankCold = {}))[fr]) { this._rankCold[fr] = true; this.fx("search_rank_cold", { frame: fr }); }
+    this._rankW = { fr, W, n: this.nodes.length, v };
+    return v;
+  }
+  _rankCmp(a, b) {
+    return a.band - b.band || a.head - b.head || a.kind - b.kind || a.canon - b.canon || a.ex - b.ex || b.w - a.w ||
+      a.len - b.len || (a.name < b.name ? -1 : a.name > b.name ? 1 : 0) || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
+  }
+  /** THE ONE SEARCH (v1.257.0): every rep site this ruleset allows plus every System, in one strict total order.
+   *  `rows` are `{n}` (a node) or `{s}` (a System) with the rank fields beside. A System ranks as kind 3 on its title
+   *  and name; its aliases are aliases, and a product or an instructor ("danaher") counts as an alias in part.
+   *  `opts.typo` admits the one-typo band; `opts.systems === false` leaves Systems out. */
+  searchRank(raw, opts = {}) {
+    const q = this._rankFold(raw), rows = [];
+    if (!q.c) return { q, rows };
+    const W = this._searchWeights();
+    const push = (r, t, kind) => { r.band = t.band; r.ex = t.ex; r.kind = kind; r.head = t.band === 0 && t.ex <= 1 ? t.ex : 2; rows.push(r); };
+    for (const n of this.nodes) {
+      if (!n.rep || !this.rsAllows(n)) continue;
+      const k = this._rankKey(n), t = this._rankTier(k, q, opts.typo);
+      if (t.band < 9) push({ n, canon: k.canon, w: W[n.idx], len: k.len, name: k.name, id: k.id }, t, k.kind);
+    }
+    if (opts.systems !== false) for (const s of this.systems || []) {
+      if (!s._rk) s._rk = { m: [s.display_title, s.name].filter(Boolean).map((x) => this._rankFold(x)),
+        a: (s.aliases || []).map((x) => this._rankFold(x)), t: null,
+        p: (s.products || []).flatMap((p) => [p.name, p.instructor]).filter(Boolean).map((x) => this._rankFold(x)) };
+      const t = this._rankTier(s._rk, q, opts.typo), title = s.display_title || s.name || "";
+      if (t.band < 9) push({ s, canon: 0, w: 0, len: title.length, name: this._foldSearch(title), id: s.id }, t, 3);
+    }
+    rows.sort((a, b) => this._rankCmp(a, b));
+    return { q, rows };
+  }
   /** The shortest name that is still unambiguous: "Triangle from Back" when "Triangle" is shared
    *  by more than one node, plain "Gogoplata" when it is not. Compact surfaces only — the share
    *  surfaces, lists and dossier always render the FULL authored name by canon.
@@ -2473,7 +2632,14 @@ class Component extends DCLogic {
     const mb = card.querySelector(".ngMuteBtn"); if (mb) mb.remove();
     const cx = card.querySelector(".ngClipX"); if (cx) cx.remove();
     if (card._outside) { document.removeEventListener("pointerdown", card._outside, true); card._outside = null; }
-    const glyph = card.querySelector(".ngPlay"); if (glyph) glyph.style.display = "";
+    // NO WRITE TO THE PLAY GLYPH HERE (v1.256.4, owner 2026-11-11: "after i click the play button and close it ...
+    // it seems floating a bit up"). The glyph is hidden and shown by its parent `[data-film-play]`'s `hidden` (above
+    // and in expandClip) and nothing else. Until v1.231.0 expandClip wrote `glyph.style.display = "none"` and this line
+    // undid it with `= ""`; v1.231.0 moved the hide to `launch.hidden`, and the orphaned `= ""` then only DELETED the
+    // `display:flex` the glyph is built with (filmStudyHTML), so after every close the triangle fell into inline
+    // flow, 6.5px above the circle's centre (CLAUDE.md §6.1: `style.color = ""` deletes, it does not restore). The
+    // hover pair in wireClips restores explicit values. Pinned by film-overlay-play.spec.ts, on the film and in a
+    // choice card's viewer, by mouse and by touch.
     if (card._bw) { card.style.setProperty("width", card._bw + "px", "important"); card.style.setProperty("height", card._bh + "px", "important"); }
     card.style.cursor = "pointer";
     card._expanded = false;
@@ -3675,7 +3841,7 @@ class Component extends DCLogic {
             if (!n) continue; // a cached graph may predate a newly authored site
             const aliases = [...meta.aka, ...(meta.family ? meta.family.aka : [])];
             for (const member of [n, this.nodes[n.pi]]) if (member) {
-              member.aliasMeta = meta; member.aliases = aliases; member._searchNames = null;
+              member.aliasMeta = meta; member.aliases = aliases; member._searchNames = null; member._rk = null;
             }
           }
           this._aliasesReady = true;
@@ -3814,10 +3980,20 @@ class Component extends DCLogic {
   // its target before pointerdown either. Each job re-asks its own active/connected condition;
   // a user input renders immediately, so typing/closing cannot resurrect an obsolete result.
   // Lifter: pointerleave re-enters this seam, preserving the press guard on a drag out.
+  // A FINGER DOES NOT HOVER (practicetap). After a tap Chrome keeps the list `:hover` for about 0.1 s
+  // (measured 88 to 115 ms at 390x844 and 768x1024), while the finger's own pointerleave has ALREADY
+  // fired, at its pointerup. Practice's plan is adopted through here about 100 ms after the tap (the
+  // click, then gameplan.js), so the hold waited for a leave that had happened, and the hover then
+  // cleared with no event at all: a tap on Practice got the cold one-deck queue and an empty count
+  // line for good, while a mouse recovered because its browser fires pointerleave when the list hides.
+  // Broken from v1.248.0 (Practice's adoption moved behind this seam) to v1.256.5, production
+  // included. The hold now applies only while the pointer that last entered the drawer can hover; a
+  // finger is still covered by `_panePress` above, which owes its jobs until the tap's click lands.
+  // Pinned by e2e/journeys/practice-tap-plan.spec.ts (a tap and a click must give the same plan).
   _afterPress(job) {
     const list = this.explorerListRef && this.explorerListRef.current;
     if (this._panePress) (this._paneOwed || (this._paneOwed = [])).push(job);
-    else if (list && list.matches(":hover"))
+    else if (list && !this._paneHoverTouch && list.matches(":hover"))
       list.addEventListener("pointerleave", () => this._afterPress(job), { once: true });
     else job();
   }
@@ -8205,19 +8381,12 @@ class Component extends DCLogic {
       const ki = this.listIdxs(keepList);
       if (ki.length) this.setFocusIdxSet(ki, true);
     }
-    // search mode: flat ranked results across all nodes
+    // search mode: ONE RANKED LIST (v1.257.0, `searchRank` orders it, `_renderSearch` lays it out)
     if (q) {
-      // SEARCH LISTS SITES TOO (v1.126.0). `buildExplorer` filters `rep`; this walks `this.nodes`
-      // DIRECTLY — a query renders flat ranked results before any section exists — so it never
-      // inherited that filter. Both halves of a pair carry the SAME title, so every hit was
-      // DOUBLED with nothing to tell the duplicates apart, and under the 120 cap that HALVED how
-      // many distinct techniques a search could ever reach: "guard" matches 320 sites and could
-      // only ever show 60 of them. `rep` is true for every unpaired node, so this is a no-op on
-      // the pre-split graph.
-      // …and the same argument applies to the RULESET filter, which `buildExplorer` applies and
-      // this path likewise never inherited (v1.153.0): searching "lapel" in no-gi returned a full
-      // page of results for states no no-gi session can enter.
-      const matches = this.nodes.filter((n) => n.rep && this.rsAllows(n) && this.nodeMatches(n, q)).slice(0, 120);
+      // SEARCH LISTS SITES TOO (v1.126.0), and only the ones this ruleset allows (v1.153.0). This path walks `this.nodes`
+      // directly, so it never inherited `buildExplorer`'s filters: both halves of a pair carry the SAME title, so every
+      // hit was DOUBLED, and "lapel" in no-gi listed states no no-gi session can enter. Both filters (`rep`, `rsAllows`)
+      // live in `searchRank` now, and tests/search_rank.test.mjs asserts every row passes them, in both rulesets.
       // escHTML(q), NOT q: `mk()` is `d.innerHTML = html`, so the raw query was PARSED as
       // markup here — proven live, an `<img src=x onerror=…>` typed into the search box ran
       // its handler in this origin (localStorage holds the Supabase session). `.toLowerCase()`
@@ -8231,27 +8400,16 @@ class Component extends DCLogic {
       // for a share link pasted onto any page. What IS true, and is what v1.158.1 bought, is that
       // after `?dual=` was deleted NO query parameter can change how the graph RENDERS: `?l=`
       // opens a shared list and can do nothing else, and it is validated by `nglValidCode`.)
-      // so there is no link-delivered and no stored vector. `hl(text, q)` is not a second sink:
-      // it slices the trusted title and uses q only for indexOf/length.
-      // Pinned by e2e/journeys/explore-search-escape.spec.ts (drop this call and it goes red).
+      // so there is no link-delivered and no stored vector. The empty state escapes the query and
+      // `_hlRank` escapes every slice of the name it marks, using the query only for offsets.
+      // Pinned by e2e/journeys/explore-search-escape.spec.ts (drop the escape and it goes red).
       this._ensureSystems();
       if (!(this.systems || []).length) this._renderSystemsStatus(list, mk);
-      const systems = (this.systems || []).filter((s) => [s.name, s.display_title, ...(s.aliases || []),
-        ...(s.products || []).flatMap((p) => [p.name, p.instructor])].filter(Boolean).join(" ").toLowerCase().includes(q));
-      for (const s of systems) {
-        const hit = mk('<span>' + this.escHTML(s.display_title || s.name) + '</span><small style="margin-left:auto;">System</small>', 12, () => this._readArticle("/" + s.id));
-        hit.setAttribute("data-system-row", s.id); hit.style.pointerEvents = "auto"; list.appendChild(hit);
-      }
-      if (!matches.length && systems.length) return;
-      if (!matches.length) { if (this._aliasesReady) list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match \u201c' + this.escHTML(q) + '\u201d</span>', 12)); return; }
-      list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
-      for (const n of matches) {
-        const cat = ({ positions: "Pos", transitions: "Trans", submissions: "Sub" })[n.ty];
-        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this._readArticle(this._nodeUrlPath(n.idx), true, true, "search"));
-        list.appendChild(this._withListAdd(hit, n, "explore"));
-      }
+      this._renderSearch(list, mk, this._exQ || "");
       return;
     }
+    // no query: the last search's pager stops and forgets its page (review D3: its observer outlived the cleared query)
+    if (this._searchPage) { this._searchPage.stop(); this._searchPage = null; this._searchUiQ = null; }
     // ── PRINCIPLES + LEARNING ── every authored concept, and a click that OPENS it.
     //
     // What was here until v1.152.0: `curatedMap`, ten hardcoded rows whose click handler wrote a
@@ -8525,6 +8683,9 @@ class Component extends DCLogic {
     this._closeRoll();
     this._endArrival();
     this._beltTest = null; this._staged = null; this._stagedCamFree = false;
+    // `_roam` here is the REFERENCE LAW's guard as well (U123, 2026-11-11): free roam puts the article away, and a page opened on
+    // purpose is not a place to roam from, so a background tap on it stops at `_enterRoam`'s first line and the page stays.
+    // Pinned by e2e/journeys/free-roam-article.spec.ts (the reference case).
     this._played = false; this._roam = true; this.endZoom = false;
     this.currentPos = null; this.focusIdx = -1; this.activeMove = null; this.pulse = null;
     this.trail = []; this.ripples = [];
@@ -11072,7 +11233,8 @@ class Component extends DCLogic {
   // close the card, clicking it again will deselect and zoom out a little." Click 1: the card
   // closes — the question declined, free, the hand stays. Click 2: FREE ROAM — the roll archives
   // (if played), the tray clears, and the camera pulls back centred on where you stood, using
-  // the whole screen (no card band to dodge). Clicking any node stages fresh, as always.
+  // the whole screen (no card band to dodge). Clicking any node stages fresh, as always. Since U123 (2026-11-11) click 2 also
+  // puts the article and its index away (`_enterRoam`): the map stands alone.
   // This replaces the v1.129.5 stand-down/restore latch pair (_standDown/_bgRestore/_bgDown):
   // a background tap now CLOSES rather than suppresses, so there is nothing to restore.
   _tapBackground() {
@@ -11117,6 +11279,11 @@ class Component extends DCLogic {
     this._closeRoll();
     this._played = false;
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
+    // ...AND THE ARTICLE GOES WITH THE NODE (owner, U123, 2026-11-10: "in free roam there wouldn't be any article to show, nor
+    // ToC"; 2026-11-11: "take care of it"). clearOptions took the card, the film and the hand; the reader kept the left node's
+    // article and its index on screen. Put away, not cleared: the next landing on this node shows it where it was read to.
+    // The latch and all its writers: `_putReaderAway`. A page never gets here (`_leaveRollForReference`).
+    this._putReaderAway(true);
     this.setPaused(true);
     this.focusIdx = -1; this.pulse = null; this.activeMove = null;
     // centred on where you stood, in the visible graph rect, pulled back a little
@@ -11195,6 +11362,200 @@ class Component extends DCLogic {
     if (!q) return text;
     const i = text.toLowerCase().indexOf(q); if (i < 0) return text;
     return text.slice(0, i) + '<span style="background:rgba(120,160,255,.32);border-radius:3px;padding:0 1px;">' + text.slice(i, i + q.length) + '</span>' + text.slice(i + q.length);
+  }
+  /** The ranked search's highlight: the part of `text` the FOLDED query met, so "arm bar" marks "Armbar" and
+   *  "control side" marks both words. Every slice of `text` is escaped and the query only supplies lengths and
+   *  offsets, so this is no sink for the query (explore-search-escape.spec.ts). */
+  _hlRank(text, q) {
+    const idx = [];
+    let c = "";
+    for (let i = 0; i < text.length; i++) for (const ch of this._foldSearch(text[i])) if (/[a-z0-9]/.test(ch)) { idx.push(i); c += ch; }
+    const start = (k) => k === 0 || idx[k] - idx[k - 1] > 1;
+    let spans = [];
+    const at = (k, len) => { if (k >= 0 && len > 0) spans.push([idx[k], idx[k + len - 1] + 1]); };
+    if (q.c && c.startsWith(q.c)) at(0, q.c.length);
+    else {
+      let k = -1;
+      for (let j = 1; j < c.length && k < 0; j++) if (start(j) && c.startsWith(q.c, j)) k = j;
+      if (k >= 0) at(k, q.c.length);
+      else if (q.w.every((w) => { for (let j = 0; j < c.length; j++) if (start(j) && c.startsWith(w, j)) { at(j, w.length); return true; } return false; })) { /* each word marked */ }
+      else { spans = []; at(c.indexOf(q.c), q.c.length); }
+    }
+    spans.sort((a, b) => a[0] - b[0]);
+    let out = "", p = 0;
+    for (const [a, b] of spans) {
+      if (a < p) continue;
+      out += this.escHTML(text.slice(p, a)) + '<span style="background:rgba(120,160,255,.32);border-radius:3px;padding:0 1px;">' + this.escHTML(text.slice(a, b)) + '</span>';
+      p = b;
+    }
+    return out + this.escHTML(text.slice(p));
+  }
+  /** A position's two seats as two presses, each opening that seat's page (the Top member is the row's own node). */
+  _seatPresses(n) {
+    const g = document.createElement("span");
+    g.style.cssText = "display:inline-flex;gap:4px;flex:none;";
+    for (const [label, idx] of [["Top", n.idx], ["Bottom", n.pi]]) {
+      if (idx == null || idx < 0) continue;
+      const b = document.createElement("button");
+      b.type = "button"; b.className = "ng-actchip"; b.textContent = label;
+      b.setAttribute("data-seat-press", label.toLowerCase());
+      b.setAttribute("aria-label", this.graphName(n) + ", " + label);
+      b.style.cssText = "width:auto;padding:0 8px;font-size:11px;pointer-events:auto;";
+      b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this._readArticle(this._nodeUrlPath(idx), true, true, "search"); });
+      g.appendChild(b);
+    }
+    return g;
+  }
+  /** RANKED SEARCH RESULTS (v1.257.0, owner's pick U132 c). `searchRank` decides the order; this lays it out as ONE
+   *  list in that order, with three things on top of it:
+   *  · EVERY SUBMISSION FAMILY IS ONE ROW ("Guillotine Choke · 5 starts"), at the rank of its best start. The top-ranked
+   *    family opens on its five most-travelled starts with "All N starts" under them; the others open on a press. "rnc"
+   *    is one row instead of 12, "armbar" one instead of 15, so the next distinct things come into view.
+   *  · EVERY POSITION ROW CARRIES ITS TWO SEATS as Top and Bottom presses, on a line of their own under the name (beside
+   *    it they squeezed "Side Control" onto two lines at 390). The row itself still opens the Top page, as before.
+   *  · ONE TYPO IS FORGIVEN as the last band (`_rankTypo`), always on. Known near-misses, kept LAST on purpose: "knee
+   *    slice" also lists the three "Knee Slide from …" at the bottom, and "crank" its two Crackhead Control rows.
+   *  FORTY ROWS FIRST, THE REST ON SCROLL. Drawing ~120 rows was what a keystroke cost (measured on this box, 390x844 at
+   *  4x CPU throttle: ~150 ms a keystroke, of which the ranking is 11-16 ms), so the first `NG_SEARCH_PAGE` rows draw on
+   *  the keystroke and the next batch draws when the end of the list comes within 600px of view (an IntersectionObserver
+   *  on a sentinel row), or when ↓ walks past the last drawn row. Nothing is capped any more: every result is reachable,
+   *  where the old list stopped at 120. A re-render (a family opened) keeps every block already drawn.
+   *  The ruleset and `rep` filters are `searchRank`'s; the query is escaped (`_hlRank`, the empty state). */
+  _renderSearch(list, mk, raw) {
+    const { q, rows } = this.searchRank(raw, { typo: true });
+    if (this._searchUiQ !== q.c) { this._searchUiQ = q.c; this._searchOpen = new Set(); this._searchDrawn = 0; }
+    if (this._searchPage) this._searchPage.stop();
+    this._searchPage = null;
+    const open = this._searchOpen;
+    const SHORT = ["Sub", "Pos", "Trans", "System"];
+    const rerender = (focusSel) => {
+      const sc = list.scrollTop; this.renderExplorer(); list.scrollTop = sc;
+      const f = focusSel && list.querySelector(focusSel); if (f) f.focus({ preventScroll: true });
+    };
+    const sysRow = (s) => {
+      const hit = mk('<span style="font-size:13px;color:#dbe2f0;">' + this._hlRank(s.display_title || s.name, q) + '</span><small style="margin-left:auto;font-size:10px;color:#7e8aa3;">System</small>', 12, () => this._readArticle("/" + s.id));
+      hit.setAttribute("data-system-row", s.id); hit.setAttribute("data-search-row", s.id); hit.style.pointerEvents = "auto";
+      return hit;
+    };
+    const nodeRow = (n, o = {}) => {
+      const k = this._rankKey(n), qual = o.text ? "" : this.nodeQual(n);
+      const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="min-width:0;font-size:13px;color:#dbe2f0;">' + this._hlRank(o.text || this.graphName(n), q) +
+        (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + '</span>' : "") + '</span><span style="margin-left:auto;flex:none;font-size:10px;color:#7e8aa3;">' + SHORT[k.kind] + '</span>',
+        o.pad || 12, () => this._readArticle(this._nodeUrlPath(n.idx), true, true, "search"));
+      hit.setAttribute("data-search-row", n.id);
+      const wrap = this._withListAdd(hit, n, "explore");
+      if (n.ty === "positions" && n.pi >= 0 && !o.text) {
+        const g = this._seatPresses(n);
+        wrap.style.flexWrap = "wrap";
+        g.style.flexBasis = "100%"; g.style.order = "3"; g.style.margin = "-6px 0 4px"; g.style.paddingLeft = "29px";
+        wrap.appendChild(g);
+      }
+      return wrap;
+    };
+    if (!rows.length) {
+      if (this._aliasesReady) list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match “' + this.escHTML(raw.trim()) + '”</span>', 12));
+      return;
+    }
+    list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + rows.length + ' result' + (rows.length === 1 ? "" : "s") + '</span>', 12));
+    // BLOCKS: one per result in rank order (a family and its open starts are one block); each appends its rows and
+    // returns how many it appended, so the page counts ROWS drawn, not results.
+    const famOf = (r) => { if (!r.n || r.n.ty !== "submissions") return null; const p = r.n.id.split("/"); return p.length === 3 ? p[1] : null; };
+    const fams = new Map();
+    for (const r of rows) { const f = famOf(r); if (f) { if (!fams.has(f)) fams.set(f, []); fams.get(f).push(r); } }
+    const blocks = [];
+    for (const r of rows) {
+      const f = famOf(r), mem = f && fams.get(f);
+      if (!(mem && mem.length > 1)) { blocks.push(() => { list.appendChild(r.s ? sysRow(r.s) : nodeRow(r.n)); return 1; }); continue; }
+      if (mem[0] !== r) continue;
+      const top = !blocks.length;
+      blocks.push(() => {
+        // the family's printed name: what most of its starts print ("Armbar" over "Reverse Armbar")
+        const tally = new Map();
+        for (const m of mem) { const g = this.graphName(m.n); tally.set(g, (tally.get(g) || 0) + 1); }
+        const fname = [...tally].sort((a, b) => b[1] - a[1] || a[0].length - b[0].length || (a[0] < b[0] ? -1 : 1))[0][0];
+        const isOpen = top !== open.has("f" + f);
+        const hit = mk(this.nodeGlyph("submissions", this.hex(r.n.col), 9) + '<span style="min-width:0;font-size:13px;color:#dbe2f0;">' + this._hlRank(fname, q) +
+          ' <span style="color:#6b7691;font-size:11px;">' + mem.length + ' starts</span></span><span style="margin-left:auto;flex:none;font-size:10px;color:#7e8aa3;">Sub</span><span style="flex:none;color:#5d6883;font-size:11px;">' + this._caretHTML(isOpen) + '</span>',
+          12, () => { if (open.has("f" + f)) open.delete("f" + f); else open.add("f" + f); rerender('[data-search-fam="' + f + '"]'); });
+        hit.setAttribute("data-search-fam", f); hit.setAttribute("aria-expanded", isOpen ? "true" : "false"); hit.style.pointerEvents = "auto";
+        // Enter in the search box opens the FIRST RESULT, and for a family that is its best start, never the fold:
+        // pressing the header toggles it, so Enter used to SHUT the open guillotine family and open nothing (review D1).
+        hit._ngOpenFirst = () => this._readArticle(this._nodeUrlPath(mem[0].n.idx), true, true, "search");
+        list.appendChild(hit);
+        let n = 1;
+        if (isOpen) {
+          const some = open.has("m" + f) ? mem : mem.slice(0, 5);
+          for (const m of some) {
+            const t = m.n.t, lead = fname + " from ";
+            list.appendChild(nodeRow(m.n, { pad: 26, text: t.indexOf(lead) === 0 ? "from " + t.slice(lead.length) : t })); n++;
+          }
+          if (some.length < mem.length) {
+            const more = mk('<span style="font-size:12px;color:#9ab0e0;">All ' + mem.length + ' starts</span>', 26, () => { open.add("m" + f); rerender('[data-search-row="' + CSS.escape(mem[5].n.id) + '"]'); });
+            more.setAttribute("data-search-more", "m" + f); more.style.pointerEvents = "auto";
+            list.appendChild(more); n++;
+          }
+        }
+        return n;
+      });
+    }
+    const sentinel = document.createElement("div");
+    sentinel.setAttribute("data-search-sentinel", ""); sentinel.setAttribute("aria-hidden", "true"); sentinel.style.cssText = "height:1px;flex:none;";
+    let bi = 0, io = null;
+    const page = { more: () => draw(NG_SEARCH_PAGE), left: () => blocks.length - bi, stop: () => { if (io) { io.disconnect(); io = null; } } };
+    // A PAGE DRAWS ONLY WHILE IT IS THE LIVE ONE (review D3). An IntersectionObserver entry already queued when the next
+    // keystroke re-renders can still be delivered after `stop()`; without this it appended the OLD query's rows to the
+    // new list and overwrote `_searchDrawn`. The same holds for any stale `more()`.
+    const draw = (want, minBlocks = 0) => {
+      if (this._searchPage !== page) { page.stop(); return 0; }
+      if (sentinel.parentNode) sentinel.parentNode.removeChild(sentinel);
+      let drawn = 0;
+      while (bi < blocks.length && (drawn < want || bi < minBlocks)) drawn += blocks[bi++]();
+      this._searchDrawn = bi;
+      if (bi < blocks.length) list.appendChild(sentinel);
+      return drawn;
+    };
+    this._searchPage = page;
+    draw(NG_SEARCH_PAGE, this._searchDrawn || 0);
+    if (bi < blocks.length && typeof IntersectionObserver === "function") {
+      io = new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting)) { draw(NG_SEARCH_PAGE); if (io && bi < blocks.length) { io.unobserve(sentinel); io.observe(sentinel); } else page.stop(); } },
+        { root: list, rootMargin: "0px 0px 600px 0px" });
+      io.observe(sentinel);
+    }
+    this._wireSearchKeys(list);
+  }
+  /** THE ARROWS WALK THE RESULTS IN THE ORDER SHOWN (v1.257.0). Before this, only Tab reached the rows (and the ▶/+
+   *  chips between them); the arrow keys did nothing in the list. ↓ from the box enters the first result, ↑/↓ move one
+   *  result (a row, a family row or an "All N starts"), ↓ past the last drawn row draws the next page, ↑ from the first
+   *  returns to the box, and Enter in the box opens the first result. Wired once per element; the rows are re-read on
+   *  every press, so a re-render cannot strand it. */
+  _wireSearchKeys(list) {
+    const items = () => [...list.querySelectorAll("[data-search-row],[data-search-fam],[data-search-more]")];
+    const inp = this.explorerSearchRef?.current;
+    if (inp && !inp._ngRankKeys) {
+      inp._ngRankKeys = true;
+      inp.addEventListener("keydown", (e) => {
+        if (!(this._exQ || "").trim()) return;
+        const it = items(); if (!it.length) return;
+        if (e.key === "ArrowDown") { e.preventDefault(); e.stopPropagation(); it[0].focus(); }
+        else if (e.key === "Enter") { e.preventDefault(); e.stopPropagation(); if (it[0]._ngOpenFirst) it[0]._ngOpenFirst(); else it[0].click(); }
+      });
+    }
+    if (!list._ngRankKeys) {
+      list._ngRankKeys = true;
+      list.addEventListener("keydown", (e) => {
+        if ((e.key !== "ArrowDown" && e.key !== "ArrowUp") || !(this._exQ || "").trim()) return;
+        let it = items();
+        const i = it.indexOf(document.activeElement);
+        if (i < 0) return;
+        e.preventDefault(); e.stopPropagation();
+        if (e.key === "ArrowDown") {
+          if (i + 1 >= it.length && this._searchPage && this._searchPage.left()) { this._searchPage.more(); it = items(); }
+          if (i + 1 < it.length) it[i + 1].focus();
+        }
+        else if (i > 0) it[i - 1].focus();
+        else if (inp) inp.focus();
+      });
+    }
   }
   /** ONE WAY INTO SEARCH (v1.254.0): the search icon beside the drawer button, "/" and Cmd/Ctrl+K open the drawer on its list
    *  with its search box focused. Phones too, unlike the drawer button: a search press asks for the keyboard. v1.254.1: the old
@@ -13362,16 +13723,8 @@ class Component extends DCLogic {
       const best = oc.card.querySelector("[data-choice-recommended]");
       if (best) best.textContent = view.recommended ? (view.recommendationLabel || "Recommended") : "";
     }
-    const row = this.optionsRef.current, status = row?.querySelector("[data-choice-value-status]");
-    if (status) status.textContent = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading" || this._readerAwaited()) ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "" : "Win chance unavailable";
-    const retry = row?.querySelector("[data-choice-value-retry]");
-    if (retry) retry.style.display = !/^live-graph-/.test(this._gameValueReason || "") && !["scheduled", "loading", "preparing"].includes(this._gameValueState) && (this._gameValueRetryable || (this._gameValueRuntime && ["unavailable", "error"].includes(snapshot?.status))) ? "inline-block" : "none";
-    const sort = row?.querySelector("[data-choice-value-sort]");
-    if (sort) {
-      const ids = (this._optionCards || []).filter(c => !c.opt.threat).map(c => (this._choiceValueBindings || []).find(b => b.opt === c.opt)?.actionId);
-      const order = this.choiceValueRuntime()?.ngChoiceValueOrder(ids, snapshot) || ids;
-      sort.style.display = ids.some((id, i) => id !== order[i]) ? "inline-block" : "none";
-    }
+    const title = this.optionsRef.current?.querySelector('[data-choice-group="you"] > div');
+    if (title) this._paintValueSlot(title, snapshot, updating);
     const complete = ["ready", "bounded"].includes(snapshot?.status) && (this._optionCards || []).some(c => !c.opt.threat)
       && (this._optionCards || []).every(c => c.opt.threat || ["ready", "bounded"].includes(this.choiceValueView(c.opt).status));
     this._paintWinThermometer(complete ? snapshot : null);
@@ -13424,6 +13777,36 @@ class Component extends DCLogic {
   // only hands its view on (§6.5). The film's seat row has asked for it since v1.231.0, and nothing defined it, so the row printed
   // "—" on every film until v1.253.0 (owner, 2026-11-09: "where's my Win% off of this state i'm in?").
   currentWinView() { return this._winView || { text: "—", handId: this._choiceHandId }; }
+  // THE ONE STATUS SLOT (v1.258.0, the owner's note on U130: "'calculating win chances' shouldn't come into conflict
+  // with 'sort by win chances' ... it should only show as a replacement for 'calculating win chances' and should say
+  // 'sorted by win chances'"; hidetoggle round 2, s2). Beside "Your moves" and its switch there is ONE line in the
+  // status's quiet type, and at most one press after it, in the same type with a dotted underline:
+  //   "Preparing…" / "Calculating…" / "Updating win chances…"   while a value is being worked out (as before)
+  //   "Sorted by win chance"                                     the hand stands in its win-chance ranking
+  //   "Sort by win chance" (a press)                             it does not: a hand touched before its values landed
+  //                                                              never re-sorts itself (§5), so this is the way back
+  //   "Win chance unavailable · Retry" (Retry a press)           a failed load
+  //   nothing                                                    values in, but the hand has no ranking to report
+  // The bold "Sort by win chance" and "Retry win chances" buttons are gone. "Sorted" is asked of
+  // ngChoiceValueOrder's `ranked` form (null for a hand with no ranking), never read off "the order came back
+  // unchanged": an unrankable hand returns its dealt order there, and the line would claim a sort that never happened. The status span stays the live region, so a hand
+  // sorting itself is announced; the press is its own button ("Sort by win chance", "Retry win chances").
+  _paintValueSlot(title, snapshot, updating) {
+    const status = title.querySelector("[data-choice-value-status]"), press = title.querySelector("[data-choice-value-press]");
+    if (!status || !press) return;
+    const said = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading" || this._readerAwaited()) ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "" : "Win chance unavailable";
+    const retryable = !/^live-graph-/.test(this._gameValueReason || "") && !["scheduled", "loading", "preparing"].includes(this._gameValueState) && (this._gameValueRetryable || (this._gameValueRuntime && ["unavailable", "error"].includes(snapshot?.status)));
+    const ids = (this._optionCards || []).filter(c => !c.opt.threat).map(c => (this._choiceValueBindings || []).find(b => b.opt === c.opt)?.actionId);
+    const ranked = said ? null : this.choiceValueRuntime()?.ngChoiceValueOrder(ids, snapshot, true) || null;
+    let text = said, act = null, word = "";
+    if (said === "Win chance unavailable" && retryable) { act = "retry"; word = "Retry"; }
+    else if (ranked) { if (ranked.every((id, i) => id === ids[i])) text = "Sorted by win chance"; else { act = "sort"; word = "Sort by win chance"; } }
+    if (status.textContent !== text) status.textContent = text;
+    press.innerHTML = word ? (text ? '<span aria-hidden="true">\u00a0·\u00a0</span>' : "") + '<span class="ng-value-press-word">' + word + "</span>" : "";
+    press.style.display = word ? "" : "none";
+    if (act) press.setAttribute("data-act", act); else press.removeAttribute("data-act");
+    if (act === "retry") press.setAttribute("aria-label", "Retry win chances"); else press.removeAttribute("aria-label");
+  }
   sortChoiceValues(auto = false) {
     // An explicit player action is a safe reorder boundary, and so is the ONE automatic sort when
     // values arrive on an untouched hand (paintChoiceValues). Keep the exact opt objects/pick
@@ -13478,26 +13861,28 @@ class Component extends DCLogic {
         status.setAttribute("role", "status");
         status.style.cssText = "margin-left:8px;font-weight:400;letter-spacing:0;overflow:hidden;text-overflow:ellipsis;min-width:0;";
         title.appendChild(status);
-        const sort = document.createElement("button");
-        sort.type = "button"; sort.textContent = "Sort by win chance";
-        sort.setAttribute("data-choice-value-sort", "1");
-        sort.style.cssText = "display:none;flex:none;pointer-events:auto;cursor:pointer;border:0;background:none;color:#bdcce4;font:inherit;font-size:10px;margin:-10px 0 -10px 8px;padding:0 4px;min-height:44px;";
-        sort.onclick = () => this.sortChoiceValues();
-        title.appendChild(sort);
-        const retry = document.createElement("button");
-        retry.type = "button"; retry.textContent = "Retry win chances";
-        retry.setAttribute("data-choice-value-retry", "1");
-        retry.style.cssText = sort.style.cssText;
-        retry.onclick = (e) => { e.stopPropagation(); this._retryGameValues(); };
-        title.appendChild(retry);
-        this._hideEye(title);
+        // the slot's one press (`_paintValueSlot`): "Sort by win chance" or "Retry"
+        const press = document.createElement("button");
+        press.type = "button"; press.className = "ng-value-press"; press.setAttribute("data-choice-value-press", "");
+        press.style.display = "none";
+        press.addEventListener("pointerdown", e => e.stopPropagation());
+        press.onclick = e => {
+          e.stopPropagation();
+          const act = press.getAttribute("data-act");
+          if (act === "retry") this._retryGameValues(); else if (act === "sort") this.sortChoiceValues();
+        };
+        title.appendChild(press);
+        this._hideSwitch(title);
       }
       const row = document.createElement("div");
       row.style.cssText = "display:flex;gap:9px;align-items:stretch;";
       list.forEach((o, i) => row.appendChild(this.buildOptionCard(o, pick, seconds, threat ? null : i + 1, escape && !threat ? "escape" : null)));
       group.appendChild(row); el.appendChild(group);
     };
-    add("Your move", own, false);
+    // The row's title (owner, 11 Nov: "'Your move' (which should become 'Your moves')", v1.256.7): it heads every
+    // move you can make. A sentence that means "it is your move" (the settings' clock line, the map's YOUR MOVE tag on
+    // one orb) stays singular.
+    add("Your moves", own, false);
     add("Opponent threats", threats, true);
     // THE DEALT ORDER IS THE VALUE REQUEST'S ORDER (v1.207.7). A sort (the automatic one, or the
     // button) reorders the tray, and the request is keyed by action order, so capturing in TRAY order
@@ -13508,9 +13893,13 @@ class Component extends DCLogic {
     // hand re-orders itself by it exactly once — unless the player has already reached into it
     // (pointer, key, wheel, focus, or an activate via a shortcut), because moving a card the player
     // is aiming at is the one thing a hand must never do (frozen deal order, CLAUDE.md §5). After
-    // that it never re-sorts; the "Sort by win chance" button stays for a hand that was touched.
+    // that it never re-sorts; the status slot offers "Sort by win chance" for a hand that was touched.
+    // A PRESS ON THE TITLE IS NOT A REACH INTO THE HAND (v1.258.0, hidetoggle round 2's finding): the switch and the
+    // slot's press (Retry) sit in the title row inside this tray, so their pointerdown, key and focus used to latch
+    // "touched" and a hand whose values had not landed yet never sorted itself, after nothing but a Hidden/Shown press
+    // or a Retry. Those three are skipped for the title's controls; a wheel anywhere still counts (it scrolls the hand).
     this._handTouched = false;
-    const touched = () => { this._handTouched = true; };
+    const touched = e => { if (e.type !== "wheel" && e.target?.closest?.("[data-hide-switch], [data-choice-value-press]")) return; this._handTouched = true; };
     for (const type of ["pointerdown", "keydown", "wheel", "touchstart", "focusin"]) el.addEventListener(type, touched, { capture: true, passive: true });
     this.fitChoiceTitles();
     this._observeChoiceMedia();
@@ -13806,7 +14195,7 @@ class Component extends DCLogic {
   // ═══ HIDDEN MOVES (v1.255.0, owner U115 b + U116, 10 Nov) ═══
   // "Hide moves until I look" (Rolling settings, off by default) hides each dealt card's NAME and
   // FILM — Works % and Win % stay (U115 b) — and the map's names of the dealt moves until a card is
-  // face up. Hover a card (NG_PEEK_DWELL_MS) or tap it to turn it face up; the eye beside "Your move"
+  // face up. Hover a card (at once, v1.256.7) or tap it to turn it face up; the switch beside "Your moves" (v1.258.0; the eye before it, U121)
   // switches the whole mode from the row (U121); keys 1-9 still play blind. Face up, it asks "Did you get it?", and a Yes
   // files the move in `moves` as MASTERED (`_gradeMove`).
   // HIDING IS CSS ON AN ATTRIBUTE, NEVER A REBUILT FACE: every reader of this card — the docks,
@@ -13825,23 +14214,30 @@ class Component extends DCLogic {
     back.innerHTML = this.choiceShape(card._choiceOpt.node);
     card.appendChild(back);
     card.addEventListener("pointerdown", e => { card._pt = e.pointerType; });
-    // The card stands out at once; it turns face up only after the dwell, so a pointer sweeping
-    // across the row to card 5 does not peek at cards 1 to 4.
+    // THE POINTER ON THE CARD IS THE LOOK: it stands out and turns face up in the same handler, so the
+    // first frame after pointerenter paints the name and the film's picture (owner, 11 Nov: "i'd like for
+    // it to be instant to show it, what's taking it so long? isn't it cached in and in the dom and just
+    // hidden"). It was: the name was always in the DOM and the picture fetched at the deal
+    // (`_drainChoiceMedia`, under the back); the only delay was a 250 ms dwell (NG_PEEK_DWELL_MS,
+    // v1.255.0), kept so a pointer sweeping across the row to card 5 would not turn up cards 1 to 4.
+    // His words reverse that rule. What a sweep does now (measured, v1.256.7, docs/Changelog-Archive.md):
+    // each card it crosses turns up and back down as the pointer leaves — no grade, no save and no strip
+    // left open (`_peek(card, false)` closes its "Did you get it?"), the strip's buttons still arm only
+    // NG_GRADE_ARM_MS after it appears — and, as any peek, it touches the hand, so a hand swept before
+    // its win chances land keeps its dealt order ("Sort by win chance" stays offered), and the move's
+    // `neural_move_picked` says peeked. Pinned by hidden-moves.spec.ts ("hover: the card turns up the moment the pointer is on it").
     card.addEventListener("pointerenter", e => {
       if (e.pointerType !== "mouse" || !card.hasAttribute("data-hide")) return;
       card.setAttribute("data-hover", "");
-      clearTimeout(card._dwell);
-      card._dwell = setTimeout(() => this._peek(card, true), NG_PEEK_DWELL_MS);
+      this._peek(card, true);
     });
     card.addEventListener("pointerleave", e => {
       if (e.pointerType !== "mouse") return;
-      clearTimeout(card._dwell);
       card.removeAttribute("data-hover");
       this._peek(card, false);
     });
   }
   _unhideCard(card) {
-    clearTimeout(card._dwell);
     for (const a of ["data-hide", "data-revealed", "data-hover", "data-asking"]) card.removeAttribute(a);
   }
   // "Hidden move N" until the card is face up; the painter's full label after (`_ngFull`).
@@ -13921,28 +14317,31 @@ class Component extends DCLogic {
     strip.innerHTML = '<span>' + (due ? "Still got it?" : "Did you get it?") + '</span><button type="button" data-grade="yes">Yes</button>' + (due || NG_HIDE_GRADE_NO ? '<button type="button" data-grade="no">No</button>' : "");
     card.setAttribute("data-asking", "");
   }
-  // THE EYE (owner U121, 10 Nov: "We don't say 'show all', but still show the icon"). Beside "Your move" on every
-  // dealt row, it switches hidden moves on and off from the row itself: the same `hideMoves` the Settings switch
-  // writes, in place under the dealt hand (`set` -> `_syncHideMoves`). Plain while the moves show; slashed and gold
-  // while they are hidden. A press is not a peek: it turns no card up and records nothing. Its own pointerdown stop
-  // keeps the press out of the map's input (attachInput, §6.1). Its 44px target rides negative margins, so the
-  // title's 24px line does not grow and "Your move" does not move. No transition, so reduced motion has nothing to
-  // remove. ("Show all" and its this-turn reveal, U115's first build, are gone with this: the eye is the one way.)
-  _hideEye(title) {
-    const eye = document.createElement("button");
-    eye.type = "button"; eye.className = "ng-hide-eye"; eye.setAttribute("data-hide-eye", "");
-    eye.setAttribute("aria-label", "Hide moves until I look"); eye.title = "Hide moves until I look";
-    eye.addEventListener("pointerdown", e => e.stopPropagation());
-    eye.onclick = e => { e.stopPropagation(); this._hideViaNext = "row"; this.set("hideMoves", !this._hideMoves()); };
-    title.insertBefore(eye, title.firstChild.nextSibling);
-    this._paintEye(title);
+  // THE SWITCH (v1.258.0, owner's pick d on U130, 11 Nov; it replaces U121's eye). After "Your moves" on every dealt
+  // row, one word says the state and a press flips it: "Your moves · Hidden" / "· Shown", in the title's own type at
+  // full strength (6.5:1 on the map at both widths, where a word at 50% measured 2.6:1 and at 75% 4.2:1, hidetoggle
+  // round 1), a dotted underline marking it as a press. The same `hideMoves` the Settings switch writes, in place under
+  // the dealt hand (`set` -> `_syncHideMoves`). A press is not a peek (it turns no card up and records nothing) and not
+  // a reach into the hand (the `touched` latch skips it, renderChoiceGroups). Its own pointerdown stop keeps the press
+  // out of the map's input (attachInput, §6.1). Its 40px target is the whole free band and rides negative margins, so
+  // the title's 24px line does not grow; the word's box reserves "Hidden", so a press moves nothing beside it. The
+  // state is in the NAME ("Moves hidden" / "Moves shown"), not in aria-pressed: a pressed "Shown" would read as a
+  // contradiction. No transition, so reduced motion has nothing to remove.
+  _hideSwitch(title) {
+    const sw = document.createElement("button");
+    sw.type = "button"; sw.className = "ng-hide-switch"; sw.setAttribute("data-hide-switch", "");
+    sw.addEventListener("pointerdown", e => e.stopPropagation());
+    sw.onclick = e => { e.stopPropagation(); this._hideViaNext = "row"; this.set("hideMoves", !this._hideMoves()); };
+    title.insertBefore(sw, title.firstChild.nextSibling);
+    this._paintHideSwitch(title);
   }
-  // the eye's state, and the header hint's (NG_HIDE_HINT = "header", not shipped)
-  _paintEye(title) {
-    const eye = title && title.querySelector("[data-hide-eye]"); if (!eye) return;
-    const on = this._hideMoves();
-    eye.setAttribute("aria-pressed", String(on));
-    eye.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>' + (on ? '<path d="M3 3l18 18"/>' : '') + '</svg>';
+  // the switch's word, and the header hint's (NG_HIDE_HINT = "header", not shipped)
+  _paintHideSwitch(title) {
+    const sw = title && title.querySelector("[data-hide-switch]"); if (!sw) return;
+    const on = this._hideMoves(), word = on ? "Hidden" : "Shown";
+    sw.setAttribute("aria-label", "Moves " + word.toLowerCase());
+    sw.title = on ? "Show moves" : "Hide moves until I look";
+    sw.innerHTML = '<span aria-hidden="true">\u00b7</span><span class="ng-hide-word"><span>' + word + '</span></span>';
     title.querySelector("[data-hide-hint]")?.remove();
     if (on && NG_HIDE_HINT === "header") {
       const hint = document.createElement("span");
@@ -13951,13 +14350,13 @@ class Component extends DCLogic {
       title.appendChild(hint);
     }
   }
-  // the setting switched under a dealt hand (the eye, Settings, a pull): hide or show the row in place, no redeal.
+  // the setting switched under a dealt hand (the switch, Settings, a pull): hide or show the row in place, no redeal.
   // The face-up set starts over: a card left face up before the switch must not leave its orb named after it.
   _syncHideMoves() {
     const on = this._hideMoves();
     this._hmLit = new Set();
     for (const c of this._optionCards || []) on ? this._hideCard(c.card) : (this._unhideCard(c.card), this._hideAria(c.card));
-    this._paintEye(this.optionsRef.current?.querySelector('[data-choice-group="you"] > div'));
+    this._paintHideSwitch(this.optionsRef.current?.querySelector('[data-choice-group="you"] > div'));
   }
   // ── THE `moves` RECORD (v1.255.0, owner U116) ──────────────────────────────────────────────
   // moves[state][move] = [due, ivl, last, ok]: the schedule row `srs` keeps (ngKnowledgeScheduleRow),
@@ -15186,6 +15585,26 @@ class Component extends DCLogic {
     const key = n.ty === "positions" ? this.deckKeyFor(n).key : n.t, C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
     return !Object.prototype.hasOwnProperty.call(C, key) && !!this._contentWaits?.[key];
   }
+  /** FREE ROAM PUTS THE ARTICLE AWAY (owner, U123, 2026-11-10: "in free roam there wouldn't be any article to show, nor ToC";
+   *  2026-11-11: "take care of it"). Until then free roam left the node's article and its index on screen: U114 a had retired
+   *  the one control that put them away. `_readerAway` is a latch, so all of its writers are named here (§6.5):
+   *   SET      by `_enterRoam` (the background tap's second step, or its first once the card is closed: the only way in).
+   *   LIFTED   by `_readArticle`, as each request reaches the reader: the next landing's own (`_queueReader`), or one asked for
+   *            on purpose (a row, a search hit, a link, a URL, Back/Forward). An automatic request that reaches the reader while
+   *            the board is still in free roam is the ended landing's, late (the module's first load) and keeps it away.
+   *   BACKSTOP `_readerHold`, on every reader layout: a landing that publishes is never hidden, even one that asked for no article
+   *            (that one shows what the reader holds, as before); while away it repaints, because a render builds a new index.
+   *  Visibility only on the reader: no box moves, so its place, the closed sections and every measurement hold, and the next
+   *  landing on the same node shows its article where it was left (the reader's same-path open keeps it). The index, outside the
+   *  reader, loses its box; `data-indexed` is left alone, since it reflows the article. `_mapAlone` reads the visibility, so the
+   *  key shows. A page (Principle, Learning, System) is never put away: `_leaveRollForReference` leaves `_roam` set, so
+   *  `_enterRoam` returns first. Here in the eager app, not in reader.src.js, because the deferred bundle's ceiling is exact. */
+  _putReaderAway(away) {
+    this._readerAway = away;
+    const r = this._reader; if (!r) return;
+    r.root.style.visibility = away ? "hidden" : "";
+    if (this._readerTocEl) this._readerTocEl.style.display = away ? "none" : "";
+  }
   _readerHold(r, W, H) {
     const q = this._readerQueued, pin = this._readerPin, card = this._landEl;
     // the landing's first layout: the hand is adopted and held (or not) by the time this layout returns, so the
@@ -15224,6 +15643,7 @@ class Component extends DCLogic {
     // hidden, so an activation that came while the hold kept it pending went idle with nothing to retry it:
     // the Win chance never started. Publication starts it (idempotent once loading, loaded or failed).
     if (held && hold <= 0) this._ensureGameValues();
+    if (this._readerAway) this._putReaderAway(hold > 0 || this._landIdx == null);   // the free-roam latch's backstop and repaint
     return hold;
   }
   /** D-351: a graded card (answered or expired) settles a pinned landing. A correct defense answer
@@ -15265,7 +15685,11 @@ class Component extends DCLogic {
         retry.setAttribute("data-reader-load-retry", ""); card.append(retry); this.openModal();
       });
     return this._readerLoad.then(() => {
-      if (!this.__ngDestroyed && request === this._readerRequest) return this._reader?.open(request);
+      if (this.__ngDestroyed || request !== this._readerRequest) return;
+      // The free-roam latch's lift (`_putReaderAway`). Outside free roam nothing is written: the ordinary path is as it was.
+      const away = !intent && !!this._roam;
+      if (away || this._readerAway) this._putReaderAway(away);
+      return this._reader?.open(request);
     });
   }
 
@@ -15596,8 +16020,10 @@ class Component extends DCLogic {
     return Math.round(bottom);
   }
   /** THE MAP ALONE (v1.254.0, owner, 2026-11-10): no node's landing card, film or article is on screen. The legend key's one answer
-   *  (updateUiShift). Read from the screen, not from game state: at "/" that is the boot before the first landing, and it lasts
-   *  only until then, because free roam keeps the last article on screen (U114 a retired the way to put it away). */
+   *  (updateUiShift). Read from the screen, not from game state: at "/" that is the boot before the first landing, and free roam,
+   *  which puts the left node's article and its index away (U123, `_putReaderAway`: hidden, not collapsed, so the article keeps its
+   *  box and only the computed visibility below tells) until the next landing or an article opened on purpose. A page (Principle,
+   *  Learning, System) is never put away, so the key stays away while one is open. */
   _mapAlone() {
     const H = this.H || window.innerHeight;
     return ![this._landEl, this._landFilmEl, this._reader?.articleEl].some((el) => {

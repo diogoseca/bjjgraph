@@ -461,7 +461,7 @@ for (const [width, height] of [[1440, 900], [1152, 864], [900, 900], [390, 844]]
       const label = a.optionsRef.current.querySelector('[data-choice-group]').firstChild, ask = a._landEl.querySelector('[data-land-ask-text]')
       return { name: label.firstChild.textContent, label: left(label.firstChild), ask: left(ask.firstChild), below: ask.getBoundingClientRect().top - a.optionsRef.current.querySelector('[data-tech]').getBoundingClientRect().bottom }
     })
-    expect(e.name, 'premise: the label above the choices').toBe('Your move')
+    expect(e.name, 'premise: the label above the choices').toBe('Your moves')
     expect(e.below, 'premise: the question sits below the choices').toBeGreaterThan(0)
     expect(Math.abs(e.ask - e.label), `the line starts at the label (${e.ask} vs ${e.label})`).toBeLessThanOrEqual(.5)
   })

@@ -91,7 +91,7 @@ stacks is one centred box, at most 496px. **U65 b: tiles end at their own
 content.** The only gap is below the shorter column at the article's end, where the map shows and the reader grid owns input. Closing a tile reflows only what follows it. **U90 a, U99 b:** on a
 desktop the map ends at half the window, or `NG_LIVE_ANSWER_ROOM` above its bottom if that is higher, never under
 144px; it reads the window alone, so nothing moves when a question opens. Half of all cards need a scroll for their last
-answer (his ruling). **U90 note:** the asking line's text starts on the "Your move" label's left edge. **U101 b, U103 a:** a position's How it works opens short, a hub on both text sections; Read more opens the rest in place, one way. Each tile's
+answer (his ruling). **U90 note:** the asking line's text starts on the "Your moves" label's left edge. **U101 b, U103 a:** a position's How it works opens short, a hub on both text sections; Read more opens the rest in place, one way. Each tile's
 text is a centred 46ch column, except an article holding a wide table.
 The media slot is outside the prose measure. The reader ends above the conditional share cue in the corner;
 the account badge lives in the drawer. When the grid's width changes (Explore
@@ -109,8 +109,8 @@ first ("Escaping Loop Choke from Half Guard"); the Moves tray ends short of it. 
 node above sections; scrolled prose covers it.
 `readerSection.*` defaults shown, merges per key, and is edited in Settings → Rolling.
 
-No control turns the article, Map or Feedback off; U114 a retired its ✕ and shelf (`readerBook`, `landMap`, `landFeedback`
-unread). The legend's key shows on the map alone (`_mapAlone`); the win bar yields 12px from Contents. `landFilm/Card/Hand` store
+No control turns the article, Map or Feedback off (U114 a: `readerBook`, `landMap`, `landFeedback`
+unread). The key shows on the map alone (`_mapAlone`); the win bar yields 12px from Contents. `landFilm/Card/Hand` store
 normal visibility; the film follows `readerSection.videos`.
 Hidden questions are not built; hidden hands stay dealt and untimed. Card and hand publish once
 the landing's article renders (≤800ms, D-351); late Videos or film never move them. The hand starts its Win
@@ -258,9 +258,9 @@ borrows the announcer. `tests/roll_execution.test.mjs` pins source behavior;
 "Hide moves until I look" (Rolling settings, `hideMoves`, off by default) deals every card — yours,
 threats, escapes — with its **name and film face down**; Works % and Win % stay, and the map names
 no dealt move until its card is up. Hiding is CSS on `data-hide`: the card's DOM and text never change.
-A hover stands the card out at once (a transform, none under reduced motion) and turns it up after
-`NG_PEEK_DWELL_MS`; on touch the first tap turns it up and the second plays. The eye by "Your move"
-toggles it (U121); keys 1–9 play blind; the stand-in is always face up; a peek touches the hand. The film button
+A hover stands the card out and turns it up at once (a transform, none under reduced motion); on
+touch a first tap turns it up, a second plays. The word by "Your moves" (Hidden/Shown)
+flips it; keys 1–9 play blind; the stand-in is always face up; a peek touches the hand. The film button
 animates on its own hover only. Face up, an unknown move asks "Did you get it?" (Yes only); a known
 move that is due asks "Still got it?" (Yes / No — No takes its gold away); a known move not due
 asks nothing. `moves[state][move] = [due, ivl, last, ok]` (state `<site ordinal>/<role>`,
@@ -336,7 +336,7 @@ after Space hides it or paging brings it back. The meter is 165×7px.
 countdown and mechanics. Reduced motion also suppresses frame-driven glow without changing
 the saved key. Pressure, settings, progress receipts and a cached motion-query change listener
 synchronize visuals only when the effective state changes; frame ticks still drive the clock.
-U36 (v1.232.0): a catch starts with one full-strength double beat in 1 second, then one
+U36: a catch starts with one full-strength double beat in 1 second, then one
 softer double beat every 30 seconds (peaks .4 and .296 opacity). The question clock cannot
 accelerate it. Reduced motion keeps a static .144-opacity cue. Sound/volume still govern
 caught and expiry cues; no heartbeat audio loops.
@@ -359,8 +359,8 @@ rows have no pause button. `setPaused` controls internal motion: staging pauses,
 unpauses, and an open pane freezes travel.
 
 Click empty sky once to decline the card freely while retaining the hand; click again to
-archive a played roll, clear the tray and enter free roam centred on the current position
-(`_enterRoam`, `roam_entered`). A node click stages fresh. This gesture affects only the current
+archive a played roll, clear the tray, hide the article and Contents (not a page; U123) and roam
+centred where you stood (`_enterRoam`, `roam_entered`). A node click stages fresh. This gesture affects only the current
 landing (`clearLandCard`); the layer ✕ handles persist preferences through `setLayer`.
 
 A staged technique's own option gets the action accent and commit verb ("Finish it" for a
@@ -381,8 +381,8 @@ player is already reaching into.
 Choice cards show a direct title, approved video, immediate chance and Win chance; the shortcut
 sits inside the same category shape used on the map. A threat card's colour is your win chance.
 
-U47 d + U52 b (v1.236.0): a landing, attempt or catch arrives **asking** — no card at all, only its question as a
-quiet line **immediately after the Your move row** (`_landAsk`, `[data-land-ask]`; on a stacked
+U47 d + U52 b: a landing, attempt or catch arrives **asking** — no card at all, only its question as a
+quiet line **immediately after the Your moves row** (`_landAsk`, `[data-land-ask]`; on a stacked
 phone stage the Videos card now follows the question), with **Answer for Points** inline at its
 end. No container, fill or border; a soft text shadow keeps it legible over the map. `_fitAskLine`
 trims the question with an ellipsis, never the link, to one line (two on a tall phone), so a 390×631
@@ -488,7 +488,7 @@ the stamp, and `clearOptions` drops the line only if the stamp still stands.
 
 ---
 
-## 4. Win chance — the number on every card (v1.207.0)
+## 4. Win chance — the number on every card
 
 **Win chance** is the chance you win this roll if you take this move and then keep choosing the
 best moves, against the game's own opponent, counting what you have studied: an MDP solved in a
@@ -499,12 +499,13 @@ value through ONE module (`knowledge-profile.src.js`), so a correct answer moves
 - **Card**: equal score columns under small labels **Move % / Works % / Submit % / Escape %** and
   **Win %**, with whole-number values and no repeated percent sign. Certified intervals and honest
   endpoint qualifiers stay intact. A stale value reads “52…” and is announced “…, updating”. A
-  submission entry still prints **Works**, the follow-up finish chance, never the certain step's
-  100% (v1.213.0). The best card is **Suggested** (certified) or **Recommended** (exact).
-  The tooltip retains the engine's decomposition
+  submission entry prints **Works**, the follow-up finish chance, never the certain step's
+  100%. The best card is **Suggested** (certified) or **Recommended** (exact).
+  The tooltip keeps the engine's decomposition
   `P(lands)·[win | lands] + P(misses)·[win | misses]`; a non-reconciling split is dropped.
 - **Order**: dealt by EDGE, **sorted once** by Win chance when every card has one unless touched
-  (`_handTouched`), never again; ties keep the dealt order.
+  (`_handTouched`; not the word or Retry), never again; ties keep dealt order. Then
+  "Sorted by win chance", or that sort offered.
 - **Threat cards**: YOUR win chance if the opponent tries that move now (threat probes,
   `threatIds`; on your submission, their escapes), most dangerous first. Defending: V(s).
 - **Current Win**: the map and current media footer consume chrome's `currentWinView()`
@@ -750,8 +751,7 @@ drawer on a session it would throw away (`_paneStudyActive`). A swipe is never a
 suppressor eats the click the browser synthesises at the end of one.
 
 **Explore** starts open; its six category sections start collapsed. Every fold persists in
-`exploreOpenSections`, including `Your lists` (absent means closed). Search precedes sections and
-filters to `rep`. Your lists follows Path with the shared three-rung indent. Opening the drawer
+`exploreOpenSections`, including `Your lists` (absent means closed). Search (`searchRank`) precedes sections. Your lists follows Path with the shared three-rung indent. Opening the drawer
 requests Systems and Concepts indexes, deferred until Explore. `_revealLists` opens Your lists
 for the session, without persisting its fold, when making, adding, restoring or lighting a shared
 class through arrival or its cue. Systems have counted topic branches and indented leaves.
