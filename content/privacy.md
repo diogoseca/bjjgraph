@@ -57,7 +57,7 @@ When you are signed in, the following data is synced to our database (the Supaba
 
 This data describes your learning activity only. Apart from the names you give your lists, it contains **no free-text or sensitive personal information**, and each record is restricted so that only your account can read or write it.
 
-If you signed in before late August 2026, your account may also still hold a copy of your flashcard state, settings, daily progress, streak, lifetime statistics and move votes saved by an earlier version of the app, which the app no longer reads or updates.
+If you signed in before late August 2026, your account may also still hold a copy of your flashcard state, settings and daily progress saved by an earlier version of the app, which the app no longer reads or updates.
 
 ### 3. Local-only data (everyone, including anonymous users)
 
@@ -72,7 +72,7 @@ We use **PostHog** to understand how the Service is used. PostHog collects, on o
 - **Page views and navigation** (which pages you visit, referrer)
 - **Device and browser information**
 - **Approximate location**, derived from your IP address (we do not store precise location)
-- **Interaction events**, such as picking a move, answering a flashcard, or clicking an affiliate link
+- **Interaction events**, such as picking a move, answering a flashcard, or clicking an affiliate link, and the text of any feedback you send
 
 These events describe behaviour and content interaction; they do not include sensitive personal information.
 
