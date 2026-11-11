@@ -78,7 +78,9 @@ for (const width of [1440, 390]) {
       .filter(card => (card.querySelector('[data-choice-recommended]')?.textContent || '') !== '')
       .map(card => card.querySelector('[data-choice-win]')?.textContent))
     expect(suggested, 'exactly one suggested card, printing V(s) under the percent heading').toEqual([legend!.replace(/%/g, '')])
-    await expect(own.locator('[data-choice-value-status]')).toBeEmpty()
+    // v1.257.0: the one status slot. Before, the status was EMPTY once the values landed; now the untouched hand,
+    // which sorted itself, says so. The claim is unchanged: nothing pending, nothing unavailable.
+    await expect(own.locator('[data-choice-value-status]'), 'values in, the untouched hand sorted itself, and the slot says so').toHaveText('Sorted by win chance')
     await expect(own.locator('[data-choice-execute]').first()).toBeEnabled()
     expect(errors).toEqual([])
     writeFileSync(info.outputPath('actual-game-value-receipt.json'), JSON.stringify(receipt, null, 2))
@@ -217,7 +219,10 @@ test('@curated failed shared-core startup retires its worker; explicit retry res
   expect(recovered.snapshot.actions.map((action: any) => action.actionId)).toEqual(recovered.snapshot.request.requestedActionIds)
   expect(recovered.snapshot.actions.length).toBe(failed.ids.length)
   expect(await own.locator('.ngodds').allTextContents()).toEqual(immediate)
-  await expect(own.locator('[data-choice-value-status]')).toBeEmpty()
+  // v1.257.0: before, the status was EMPTY after the recovery. Now it reads "Sorted by win chance": a press on Retry
+  // is a press on the title, not a reach into the hand, so the hand still sorted itself when the real values landed
+  // (before v1.257.0 the Retry press latched "touched" and this hand stayed in dealt order).
+  await expect(own.locator('[data-choice-value-status]'), 'after Retry the hand sorted itself, and the slot says so').toHaveText('Sorted by win chance')
   const displayed = await own.locator('[data-choice-win]').allTextContents()
   expect(displayed.every(value => value !== '—' && !/%/.test(value))).toBe(true)
   await expect(own.locator('.ng-choice-stat:last-child > span')).toHaveText(displayed.map(() => 'Win %'))
