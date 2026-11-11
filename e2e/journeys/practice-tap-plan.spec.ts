@@ -4,7 +4,7 @@ import { journey } from "../dsl";
 /** TAP1. A TAP on Practice gets the plan a CLICK gets: the same decks in the same order, and the
  * same count line ("N new across M techniques, weakest first"), which is not empty.
  *
- * The defect (v1.248.0 to v1.256.4, production included): `_afterPress` held Practice's plan while
+ * The defect (v1.248.0 to v1.256.5, production included): `_afterPress` held Practice's plan while
  * the drawer list matched `:hover`, waiting for a pointerleave. After a tap Chrome keeps `:hover` on
  * the list for about 0.1 s while the finger's pointerleave has already fired, so a tap got the cold
  * one-deck queue and an EMPTY count line for good. A click recovered: its browser fires pointerleave
@@ -18,7 +18,7 @@ import { journey } from "../dsl";
  * real planner's; dossiers are its empty stub, and no claim here reads one.
  *
  * Mutant (kills here): drop `!this._paneHoverTouch &&` from `_afterPress`, restoring the wait.
- * Both viewports go red at the tap's count line. Receipt: docs/Changelog-Archive.md, v1.256.5. */
+ * Both viewports go red at the tap's count line. Receipt: docs/Changelog-Archive.md, v1.256.6. */
 test.use({ hasTouch: true });
 
 const PRACTICE = '[data-explore-stats] [data-b="due"]';
