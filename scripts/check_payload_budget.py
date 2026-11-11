@@ -224,12 +224,10 @@ NEURAL_TARGET = {
     # search icon; a reader button's pointer click counts only if its own pointerdown was on it). v1.254.1: 504_376, +5 B (Retry keeps the
     # address's #section). The ledger is budget_site.json's note.
     # v1.255.0: 504_652, +276 B (hidden moves' settings row, settings-ui.js), on v1.254.1's 504_376.
-    # v1.259.0 (HIDESEC2, owner U131 b2): 511_065, exactly the build merged with #373 (v1.258.0, dev at v1.257.0), +5_420 B on 505_645:
-    # this PR's +5_322 (reader.js +4_050, reading.css +574, settings-ui.js +694: a closed part's message and its press rule, Settings at
-    # its switch, free roam taking it away, #372's review fixes) and #373's choice-values.js +98, which reached dev with the ceiling
-    # unmoved. The owner, 11 Nov 2026, briefing answer U134 b, approved up to 512_000 B for that day's fixes; 935 B of it are left. This target had lagged the
-    # committed ceiling since v1.255.0 (--update takes the min of the two), so it is set to the same figure here.
-    "deferred_raw_bytes": 511_065,
+    # v1.259.0 (HIDESEC2, owner U131 b2): 510_977, exactly the build merged with #373 (v1.258.0, f998a1473; 505_644 on its own), +5_333 B
+    # of this PR's (a closed part's message and its press rule, Settings at its switch, free roam taking it away, #372's review fixes).
+    # The owner, 11 Nov 2026, briefing answer U134 b, approved up to 512_000 B for that day's fixes; 1_023 B of it are left.
+    "deferred_raw_bytes": 510_977,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
