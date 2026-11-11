@@ -62,7 +62,12 @@ for (const [width, height, touch] of [[1440, 900, false], [768, 1024, true]] as 
       const landed = await key(page)
       expect(landed.card || landed.article, `premise: the node's card or article is on screen ${JSON.stringify(landed)}`).toBe(true)
       await expect(page.locator(".ng-legendkey"), "the key is hidden once a node is revealed").toBeHidden()
-      await expect(page.locator(".ng-winbar"), "the win bar stays").toBeVisible()
+      // WINBAR1 (owner, 2026-11-11): the bar stays where it is clear of the reader's grid (1440, beside the index) and is away where
+      // it falls under it (768), measured from the boxes. Was "the win bar stays" at both widths; winbar-fold.spec.ts pins the 768 half.
+      const under = await page.evaluate(() => { const b = document.querySelector(".ng-winbar")!.getBoundingClientRect(), g = document.querySelector("[data-reader-body]")!.getBoundingClientRect(); return b.left < g.right && b.right > g.left })
+      expect(under, "premise: the bar falls under the grid at 768 and not at 1440").toBe(width < 1000)
+      if (under) await expect(page.locator(".ng-winbar"), "under the column the win bar is away").toBeHidden()
+      else await expect(page.locator(".ng-winbar"), "the win bar stays").toBeVisible()
       // A patch earned at this landing shows its notice at the top; put it away first, so no tap below lands on it.
       const reward = await page.evaluate(() => { const b = document.querySelector("[data-reward-close]"), r = b?.getBoundingClientRect(); return r && r.width ? [r.left + r.width / 2, r.top + r.height / 2] as [number, number] : null })
       if (reward) { if (touch) await page.touchscreen.tap(...reward); else await page.mouse.click(...reward); await j.advance(600); await j.readerLayoutSettled() }

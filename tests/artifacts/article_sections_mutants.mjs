@@ -522,6 +522,10 @@ const mutants = [
   // #331's review (R1), v1.254.1: Retry reopens the address as asked, its #section included.
   ['retry-drops-fragment', 'tab-title.spec.ts', 'keeps its #section on Retry', s => replace(s, 'this.open({ path: url.href, intent, push })', 'this.open({ path, intent, push })')],
   ['ghost-press-reopens-card', 'legend-search.spec.ts', 'nowhere a node is revealed \\(768', s => replace(s, 'if (!event.detail || node.contains(downOn)) action(event);', 'action(event);')],
+  // WINBAR1 (2026-11-11): the reader's measured answer "the bar falls under the grid" is what puts the bar away (claim 1 of winbar-fold).
+  ['winbar-under-unpublished', 'winbar-fold.spec.ts', '574x760', s => replace(s, 'this.barUnder = !!bar && bar.left < lane.right && bar.right > lane.left;', 'this.barUnder = false;')],
+  // WINBAR1: something that clips the article leaves its last section out of reach although the column runs to the edge (claim 3).
+  ['winbar-last-section-clipped', 'winbar-fold.spec.ts', '768x1024', s => s, css => replace(css, '.ng-reader-article{position:relative;', '.ng-reader-article{max-height:2400px;overflow:hidden;position:relative;')],
 ]
 // D7-N1: controls whose claim IS the landSettled stall (land_publish_stalled). None today.
 const STALL_CLAIMS = new Set([])

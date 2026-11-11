@@ -20,7 +20,10 @@
 .ng-reader-game { position:relative;pointer-events:none;overflow-x:clip; }
 .ng-reader-game>:is([data-reader-game-part=card],[data-reader-game-part=hand],.ng-reader-closed-part) { pointer-events:auto; }
 .ng-reader-game>[data-reader-game-part=card] { touch-action:pan-y; }
-.ng-reader-article { position:relative;pointer-events:auto;color:#d6def0;font:16px/1.65 "Plus Jakarta Sans",sans-serif;padding-bottom:30px; }
+/* WINBAR1 (2026-11-11): the column now runs to the bottom edge on phones, so its end clears an iPhone's home indicator by the safe
+   area too. The page declares no viewport-fit=cover, so the term is 0 today and the browser keeps the viewport off the indicator;
+   it is here so the last line and control stay reachable the day the page goes edge to edge. */
+.ng-reader-article { position:relative;pointer-events:auto;color:#d6def0;font:16px/1.65 "Plus Jakarta Sans",sans-serif;padding-bottom:calc(30px + env(safe-area-inset-bottom, 0px)); }
 .ng-reader-head { box-sizing:border-box;position:relative;pointer-events:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;margin:0 0 6px;z-index:7;background:#1b2034;border:1px solid #414c68;border-radius:10px;padding:4px 8px; }
 .ng-reader>.ng-reader-head { position:absolute; }
 .ng-reader-head[data-bare] { margin:0;padding:0;border:0;background:none; }

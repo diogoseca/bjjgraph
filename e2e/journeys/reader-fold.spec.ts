@@ -8,9 +8,14 @@ import { journey } from "../dsl"
  * is hidden while the article shows: 20px at 1440x900. Where the win bar falls under the grid (no index), it reserved the bar's top
  * plus 8, then 8 again, with the bar standing 30px up: 72px at 1024x768, 69px at 390x844.
  *
+ * WINBAR1 (owner, 2026-11-11: "the win-lose bar shouldn't show for such screens"): where the bar falls under the grid it is now away
+ * and the reader runs to the fold. The claim "the reader ends one 8px gap above the win bar" is REPLACED, not loosened: it pinned the
+ * 41px cut-off the owner asked to remove. Its mutant (reader-end-double-gap) is now killed by "the reader runs to the fold" below.
+ * The owner's node, the four phone and tablet widths and the 1440 control are in winbar-fold.spec.ts.
+ *
  * THE CLAIMS, from the boxes the page emitted:
- *   - where the win bar falls under the grid (1100, 1024, 390): the legend docks 8px off the bottom, the reader ends one 8px gap above
- *     the bar, and the last tile, scrolled to, ends inside the reader;
+ *   - where the win bar falls under the grid (1100, 1024, 390): the legend docks 8px off the bottom, the bar is away (WINBAR1), the
+ *     reader runs to the fold, and the last tile, scrolled to, ends inside the reader;
  *   - where it does not (1440, beside the index): the legend keeps the template's 30px, and the reader runs to the fold (from the
  *     shelf's retirement, U114 a, which took its 12px floor).
  * Red-proof is at the foot of this file.
@@ -26,7 +31,7 @@ const measure = (page: Page) => page.evaluate(() => {
 })
 
 for (const [width, height, under] of [[1440, 900, false], [1100, 900, true], [1024, 768, true], [390, 844, true]] as const) {
-  test(`@curated v1.253.0: the article runs to the fold, or to one gap above the win bar under it (${width}x${height})`, async ({ page }) => {
+  test(`@curated v1.253.0: the article runs to the fold, and the win bar under it is away (WINBAR1) (${width}x${height})`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = journey(page)
     await j.boot(PATH)
@@ -39,12 +44,14 @@ for (const [width, height, under] of [[1440, 900, false], [1100, 900, true], [10
     expect(m.under, `premise: the win bar ${under ? "falls" : "does not fall"} under the grid`).toBe(under)
     if (under) {
       expect(m.H - m.barBottom, "the legend docks 8px off the bottom").toBeCloseTo(8, 0)
-      expect(m.barTop - m.rootBottom, "the reader ends one 8px gap above the win bar").toBeCloseTo(8, 0)
+      // The legend's writer runs on a pumped frame (test mode arms no rAF loop), and `visibility` turns 0.3s after `data-away`.
+      await j.advance(50)
+      await expect.poll(() => page.evaluate(() => getComputedStyle(document.querySelector(".ng-winbar")!).visibility), { message: "the win bar under the grid is away (WINBAR1)" }).toBe("hidden")
     } else {
       expect(m.H - m.barBottom, "the legend keeps the template's 30px").toBeCloseTo(30, 0)
-      // The retired shelf's 12px floor went with it (U114 a): nothing else reserves the bottom here.
-      expect(m.H - m.rootBottom, "the reader runs to the fold").toBeLessThanOrEqual(0.5)
     }
+    // The retired shelf's 12px floor went with it (U114 a), and WINBAR1 took the bar's 41px: nothing reserves the bottom here.
+    expect(m.H - m.rootBottom, "the reader runs to the fold").toBeLessThanOrEqual(0.5)
     expect(m.lastBottom, "the last tile ends inside the reader").toBeLessThanOrEqual(m.rootBottom + 0.5)
   })
 }
@@ -53,4 +60,5 @@ for (const [width, height, under] of [[1440, 900, false], [1100, 900, true], [10
 //   legend-restore-blank ... "" for the 30px (deletes the inline declaration) ... killed: the legend keeps the template's 30px
 //   legend-not-docked ...... the legend left 30px up under the grid .............. killed: the legend docks 8px off the bottom
 //   reader-end-double-gap .. the 8px gap counted twice again ...................... killed: the reader ends one 8px gap above the win bar
+//                            (WINBAR1: that claim is replaced; re-run on 2026-11-11 it is killed by "the reader runs to the fold")
 //   reader-reserve-shelf-floor (neural_app_mutants.mjs) the 12px floor back ....... killed: the reader runs to the fold
