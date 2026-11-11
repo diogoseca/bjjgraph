@@ -48,19 +48,22 @@ When you are signed in, the following data is synced to our database (the Supaba
 
 - **Flashcard / spaced-repetition state** (which techniques you are learning and when they are next due)
 - **Settings and preferences**
-- **Daily progress** (counts of techniques learned and reviewed per day)
-- **Streak data** (current and longest streak, last active date)
-- **Lifetime statistics** (totals such as rolls, victories, moves, and flashcard accuracy)
-- **Move votes** (your up/down adjustments to technique success rates)
-- **Explored pages** (which pages you have visited, with first-visit timestamps)
+- **Daily progress** (how many flashcards you answered correctly and how many rolls you played each day, for your last 30 days of activity)
+- **Roll history** (for each position, the moves you have tried there in the last 180 days and how often they worked)
+- **Explored positions** (which positions you have landed on in a roll)
+- **Game progress** (belts, badges, coins, challenges and tutorial steps)
+- **Your technique lists** (the techniques in each list, and the name you give it)
+- **Training-day email log**, recorded only while that setting is on (for each of your last 30 days of activity: the techniques you studied, your score, your belt and your weakest spots)
 
-This data describes your learning activity only. It contains **no free-text or sensitive personal information**, and each record is restricted so that only your account can read or write it.
+This data describes your learning activity only. Apart from the names you give your lists, it contains **no free-text or sensitive personal information**, and each record is restricted so that only your account can read or write it.
+
+If you signed in before late August 2026, your account may also still hold a copy of your flashcard state, settings, daily progress, streak, lifetime statistics and move votes saved by an earlier version of the app, which the app no longer reads or updates.
 
 ### 3. Local-only data (everyone, including anonymous users)
 
-Whether or not you sign in, the Service stores data in your browser's **local storage** to make the training and game features work. These keys include, among others: `bjj-srs-cards`, `bjj-settings`, `bjj-daily-progress`, `bjj-streak`, `bjj-explored`, `bjj-banned-flashcards`, `bjj-journey`, `bjj-known`, `bjj-lifetime-stats`, and `bjj-move-votes`.
+Whether or not you sign in, the Service stores data in your browser's **local storage** to make the training and game features work. These keys include, among others: `bjj-neural-owner:guest:progress` (your progress when you are not signed in), a `bjj-neural-owner:account:<your account ID>:progress` key for each account that has signed in on that browser (that account's progress, kept after you sign out), `bjj_view_mode`, and `bjj_gi_mode`.
 
-If you are **not** signed in, this data **stays on your device and is never transmitted to us**. If you sign in, a copy is synced as described above.
+If you are **not** signed in, this data **stays on your device and is never transmitted to us**. If you sign in, your progress from then on is synced as described above; progress you made before signing in is synced only if you choose to import it into your account.
 
 ### 4. Analytics data
 
@@ -69,7 +72,7 @@ We use **PostHog** to understand how the Service is used. PostHog collects, on o
 - **Page views and navigation** (which pages you visit, referrer)
 - **Device and browser information**
 - **Approximate location**, derived from your IP address (we do not store precise location)
-- **Interaction events**, such as voting on a move, skipping a flashcard, or clicking an affiliate link
+- **Interaction events**, such as picking a move, answering a flashcard, or clicking an affiliate link
 
 These events describe behaviour and content interaction; they do not include sensitive personal information.
 
