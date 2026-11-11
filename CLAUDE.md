@@ -342,7 +342,7 @@ carries its traps' trigger tokens.
 - …add, move or hide a fixed overlay, or touch `attachInput` → **§6.1** in
   `.claude/rules/traps-neural.md`: `setPointerCapture` · `opacity:0` · `_dockLandCard` ·
   `_dockLandFilm` · `_dockLandMore` · `_landDatum` · `_bandBot` · `position:fixed` · `z-index` ·
-  `style.color = ""`
+  `style.color = ""` · Quartz's bare `header` / `img` rules
 - …change the canvas draw path, a node coordinate, or the camera → **§6.2**, same file: `n.y` vs
   `LY(n)` / `pairMid(n)` · `camTarget` · `this.now` · `halfW(n)` vs `n.r * scale`
 - …write — or trust — a Playwright assertion → **§6.3** in `.claude/rules/traps-playwright.md`:
