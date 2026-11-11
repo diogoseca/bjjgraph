@@ -34,6 +34,8 @@ import { journey } from "../dsl"
  * against x1.92). Touch: the technique part on a tap · the seat stood in before the first landing (`moves_hand_failed`).
  * The effective count handed to the worker is killed at `settled`: with the worker's figure short of the card's own,
  * the value provider refuses the hand (`evaluation-failed`) and every card prints "—" (its exact claim is the unit's).
+ * Review round 1: the first build's own formula (the sum in the app, figure / 0.03 to the worker), restored exactly,
+ * is killed by "a seat known in part, below the cap" with its own message (every card refused, "—").
  * NOT COVERED here: the ruleset switch, the seat share and the cap (units), the study presenter's descriptor (unit).
  */
 
@@ -290,6 +292,12 @@ test("@curated a seat known in part, below the cap: every card's Win % prints, a
   const j = journey(page)
   await j.boot("/", { initialState: { v: 2, moves: { [ORD["Positions/Back-Control"] + "/top"]: Object.fromEntries(known.map((id) => [String(ORD[id]), [DAY + 3, 3, DAY - 1, 1]])) } } })
   await j.land("Back Control Top")
+  // the hand's values reach a final status: the claim is that it is a number, never "evaluation-failed" (which a one-
+  // card mismatch turns every card into)
+  await expect.poll(() => page.evaluate(() => { const a = (window as W).__neural, s = a._choiceValues?.snapshot()
+    return s && s.handId === a._choiceHandId && s.status !== "pending" && s.reason !== "preparing" && !a._choiceValueQueued && !a._residencyHold ? s.status : "waiting" }), { timeout: 180_000 }).not.toBe("waiting")
+  const status = await page.evaluate(() => (window as W).__neural._choiceValues.snapshot().status)   // "preparing" is the model still loading
+  expect(status, "the hand's Win % is computed, not refused (live-knowledge-probability-mismatch prints \"—\" on every card)").toMatch(/^(ready|bounded)$/)
   await settled(page)
   const r = await page.evaluate(() => {
     const a = (window as W).__neural, own = a._optionCards.filter((c: W) => !c.opt.threat)

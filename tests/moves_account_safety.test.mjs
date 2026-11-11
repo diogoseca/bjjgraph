@@ -51,8 +51,16 @@
 //   the cache blind to the ruleset             → a ruleset switch
 //   the line's total cached once for gi        → a ruleset switch
 //   the seat not stood in before landing       → before the first landing
-// ONE NON-KILL, a second guard: dropping the record's identity from `_movesIdx`'s cache key changes nothing here,
-// because every path that replaces the record (`_hydrateProgressBlob`) also publishes, which moves `_stageVer`.
+// REVIEW ROUND 1 MUTANTS (2026-11-11, STAGE2E/F, each turned the named test red):
+//   the first build's design, exactly (the sum in the app, figure / 0.03 to the worker)  → bit equality; on ESCAPES
+//   the index keyed on `_stageVer` again; `_movesRev` not bumped by a grade; the level never re-read; the record's
+//     identity out of the key (a non-kill in the first build, killed now)                → keyed on the record
+//   the comparison fall-through, the `oddsFull` flag, a filled deck counted missing     → comparison in hand
+//   the line without its graph guard; a partial count printed                           → prints nothing it cannot count
+//   an escape thickened                                                                  → gold level 2
+// ONE NON-KILL, EQUIVALENT ON THIS CORPUS: handing the law `mastery(k) / 0.03` while `mastery` is the law of the
+// count. The figure is a product (0.03 x count), which divides and multiplies back exactly on all 18,096 seat states;
+// the defect needed the first build's sum (0.03p + 0.15s). Bit equality would catch it the day a count stopped doing so.
 // NOT a gate here, by construction: dropping a field from `_progressBlob`'s explicit list survives, because the emit
 // spreads the loaded blob's own fields first (`_progressExtras`), so an old field rides through either way.
 import { test } from "node:test";

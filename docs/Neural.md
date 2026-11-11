@@ -270,11 +270,13 @@ Pinned by `e2e/journeys/hidden-moves.spec.ts`.
 
 **What a known move is worth (v1.256.0, U124 a, U122 a).** As much as a learned deck: +0.15 on its
 technique deck, and 0.15 × the share of its seat's dealt moves known on the seat's deck, under one
-0.15 cap with the flashcards (`mastery`). The worker reads the same figure (`_knowledgePrep`); a No
-takes it back. Practice and weak spots keep the flashcard-only figure (`_flashMastery`). Gold, on the
-card and the map (`_movesGold`): thin when known, twice as thick once the deck's flashcards are learned.
+0.15 cap with the flashcards: one count per deck (`_knowCount`), and the card (`mastery`) and the
+worker (`_knowledgePrep`) apply the law's own function to it, so they read one double; a No takes it
+back. Practice and weak spots keep the flashcard-only figure (`_flashMastery`); with a comparison in
+hand, a deck the moves fill keeps its weak-spots place (`oddsFull`). Gold, on the card and the map
+(`_movesGold`): thin when known, twice as thick once the deck's flashcards are learned.
 "Moves known N of M" sits under Mastered. A threat's Yes files under the opponent's seat; an escape
-gets gold, no odds. Pinned by `e2e/journeys/moves-mastery.spec.ts`, `tests/moves_account_safety.test.mjs`.
+gets thin gold, no odds. Pinned by `e2e/journeys/moves-mastery.spec.ts`, `tests/moves_account_safety.test.mjs`.
 
 ### The current node's media card
 
