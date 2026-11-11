@@ -6719,6 +6719,61 @@ class Component extends DCLogic {
     const name = (u.user_metadata && (u.user_metadata.full_name || u.user_metadata.name)) || (email ? email.split("@")[0] : "You");
     this.user = { name: name, initial: (name[0] || "Y").toUpperCase(), email: email }; // email feeds the account menu's identity row
     this.updateAccountUI();
+    // guestprog: once per mounted account, before its first pull (`_initAuth` awaits the pull after this returns), so an
+    // automatic merge rides the pull's merge and the first push
+    if (!this._guestJoinAsked) { this._guestJoinAsked = true; this._joinGuestPractice(); }
+  }
+  // GUEST PRACTICE AT SIGN-IN (guestprog, 2026-11-11, the owner: "i dont like that functionality. seems like AI slop/bloat
+  // pls fix"). Three variants, for him to pick from; the merge rule is the host's (progress-owner.src.js, `guestOffer`).
+  //   a  automatic: the practice is added; one line, once ("Practice saved").
+  //   b  one question, once: "Add the practice you did here before signing in to your account?" Add it / No thanks.
+  //   c  automatic when no other account has been signed in in this browser; the question otherwise.
+  // SHOOT-ONLY SELECTOR: `localStorage["bjj-guestprog-variant"]` picks a, b or c; anything else is today's app (the menu
+  // row and its dialog). The pick replaces this with a constant and deletes the other two.
+  _guestJoinVariant() {
+    try { const v = localStorage.getItem("bjj-guestprog-variant"); return v === "a" || v === "b" || v === "c" ? v : "today"; } catch (e) { return "today"; }
+  }
+  _joinGuestPractice() {
+    const v = this._guestJoinVariant(), host = this._progressHost;
+    if (v === "today" || !this._progressCurrent() || !host || !host.guestOffer) return;
+    const offer = host.guestOffer(this);
+    if (offer.status !== "offer") return;
+    if (v === "b" || (v === "c" && offer.otherAccount)) { this._askGuestPractice(offer); return; }
+    if (this._takeGuestPractice(offer)) {
+      this._announceArrival("Practice saved", "What you practised here before signing in is in your account now", "muted");
+      if (this._decision) this._sayArrivalIfPending();   // already landed: say it now, not at the next landing
+    }
+  }
+  _takeGuestPractice(offer) {
+    const r = this._progressHost.acceptGuest(this, offer);
+    if (r.status !== "ready") return false;
+    this._hydrateProgressBlob(r.blob);
+    this._applyLayers(); this._refreshChallengeEvidence();
+    this._saveProgress();   // persists; pushes once the pull has run (`_pushCloud` pulls first otherwise)
+    this.updateAccountUI();
+    return true;
+  }
+  _askGuestPractice(offer) {
+    this.openModal();
+    const card = this.modalCardRef.current; if (!card) return;
+    card.innerHTML = "";
+    const box = document.createElement("section");
+    box.setAttribute("data-guest-join", "1");
+    box.style.cssText = "padding:24px;color:#dbe2f0;line-height:1.5;font-size:15px";
+    const q = document.createElement("p"); q.style.cssText = "margin:0 0 18px;font-weight:600;color:#eef1f6";
+    q.textContent = "Add the practice you did here before signing in to your account?";
+    const btn = (label, primary, fn) => {
+      const b = document.createElement("button"); b.type = "button"; b.textContent = label;
+      b.style.cssText = "display:block;width:100%;min-height:44px;margin-top:10px;cursor:pointer;font:inherit;font-weight:600;border-radius:10px;" +
+        (primary ? "border:none;background:#4f7bd8;color:#fff;" : "border:1px solid rgba(150,170,210,.3);background:transparent;color:#cbd4e6;");
+      b.addEventListener("click", fn); return b;
+    };
+    // Closing it any other way decides nothing: the next sign-in on this device asks again.
+    const yes = btn("Add it", true, () => { this.closeModal(); if (this._progressCurrent()) this._takeGuestPractice(offer); });
+    yes.setAttribute("data-guest-join-yes", "1");
+    const no = btn("No thanks", false, () => { this.closeModal(); if (this._progressCurrent()) this._progressHost.declineGuest(this, offer); });
+    no.setAttribute("data-guest-join-no", "1");
+    box.append(q, yes, no); card.appendChild(box);
   }
   // merge-on-pull: per-key max for prep/days (monotonic counters), settings LWW by updatedAt.
   _mergeProgressBlobs(local, incoming) {
@@ -7105,7 +7160,8 @@ class Component extends DCLogic {
       auth.push(row("data-menu-create", "Create account", () => this.openAuth("create")), row("data-menu-login", "Log in", () => this.openAuth("login")));
     }
     // Owner removed the legacy row (2026-10-09); the data layer still supports legacy import.
-    const source = this._progressHost && this._progressHost.previewImport(this, "guest");
+    // guestprog: variants a/b/c have no menu row (the question, if any, is asked at sign-in)
+    const source = this._guestJoinVariant() === "today" && this._progressHost && this._progressHost.previewImport(this, "guest");
     if (source && source.status === "preview") m.appendChild(row("data-menu-import-guest", "Review guest progress", () => this.openProgressImport("guest")));
     if (this._progressStorageError) {
       const status = document.createElement("p"); status.setAttribute("role", "status");
