@@ -29,8 +29,11 @@ import { journey } from "../dsl"
  * itself, both orders, is pinned by tests/moves_account_safety.test.mjs.
  *
  * MUTANTS (v1.256.0), each run against the named test and killed with that claim's own message; the table is in
- * docs/Changelog-Archive.md (v1.256.0). Mouse: the technique part · the effective count handed to the worker · the
- * republish · the No · the card's level 2 · the map's outline · the account line. Touch: the technique part on a tap.
+ * docs/Changelog-Archive.md (v1.256.0). Mouse: the technique part · the republish · the No · the account line · the
+ * card's level 2 (the app's attribute, the CSS ring, the hand's repaint) · the map's outline · the map's level 2 (x1.10
+ * against x1.92). Touch: the technique part on a tap · the seat stood in before the first landing (`moves_hand_failed`).
+ * The effective count handed to the worker is killed at `settled`: with the worker's figure short of the card's own,
+ * the value provider refuses the hand (`evaluation-failed`) and every card prints "—" (its exact claim is the unit's).
  * NOT COVERED here: the ruleset switch, the seat share and the cap (units), the study presenter's descriptor (unit).
  */
 
@@ -61,6 +64,8 @@ async function seat(page: Page) {
   await j.boot("/", { initialState: seed })
   await j.land("Mount Top")
   await settled(page)
+  // the map draws the seat's gold from its first frame, before any landing: every hand it asked for was dealt
+  expect(await page.evaluate(() => ((window as W).__neural.beats || []).filter((b: W) => b.beat === "moves_hand_failed")), "no hand failed to deal (moves_hand_failed)").toEqual([])
   // by IDENTITY (§6.3): "y" is the best TRANSITION by Win % not yet known (its Works % is the move's own odds, so a
   // Yes adds exactly its deck's 15); "z" the seat's best move of all (the one its Win % rides on); "due" the seeded one
   const picked = await page.evaluate((due) => {
@@ -155,10 +160,12 @@ const mapGold = (page: Page, knownId: string, unknownId: string, alsoKnown: stri
     else elsewhere++
   }
   a.setPaused(false)
-  // the outline's mean colour: anti-aliased edges blend into the orb and the field, so a pixel-by-pixel hue test is
-  // stricter than the claim (§6.3); the mean of what the gold layer changed must read gold
-  const mean = sum.map((v) => Math.round(v / Math.max(1, near)))
-  return { near, mean, gold: mean[0] > mean[1] && mean[1] > mean[2] && mean[0] - mean[2] > 80, nearU, nearO, elsewhere, repeat, apart: Math.hypot(pk.x - pu.x, pk.y - pu.y) / dpr }
+  // the outline's mean colour: anti-aliased edges blend into the orb and the field, so a pixel-by-pixel test is
+  // stricter than the claim (§6.3), and so is a brightness cut (the mean read rgb(162,132,77) and rgb(155,127,76) on
+  // the same build). Its HUE is what stays: gold (240,192,90) is 41°, and the blend measured 38.7° and 38.8°
+  const mean = sum.map((v) => Math.round(v / Math.max(1, near))), [r, g, b] = mean
+  const hue = r > g && g >= b && r > b ? 60 * (g - b) / (r - b) : -1, sat = r > 0 ? (r - b) / r : 0
+  return { near, mean, hue: Math.round(hue), gold: hue >= 25 && hue <= 55 && sat > 0.35, nearU, nearO, elsewhere, repeat, apart: Math.hypot(pk.x - pu.x, pk.y - pu.y) / dpr }
 }, { knownId, unknownId, alsoKnown })
 
 test("@curated a Yes adds 15 to that card's Works % and sends the worker a new profile; a No takes it back; gold and the line follow", async ({ page }) => {
@@ -250,7 +257,7 @@ test("@curated gold, on the card and on the map: thin when known, twice as thick
   expect(m1.repeat, "the frame is deterministic (control)").toBe(0)
   expect(m1.apart, "the two orbs are far enough apart to tell apart").toBeGreaterThan(90)
   expect(m1.near, "level 1 on the map: an outline drawn on the known orb").toBeGreaterThan(20)
-  expect(m1.gold, `...in gold (its mean colour rgb(${m1.mean}))`).toBe(true)
+  expect(m1.gold, `...in gold (its mean colour rgb(${m1.mean}), hue ${m1.hue}°)`).toBe(true)
   expect([m1.nearU, m1.elsewhere], "...and nothing on the unknown orb at the same zoom, nor anywhere but the known orbs").toEqual([0, 0])
 
   // the deck's flashcards learned (a rail: every card to stage 3, then the app's own publish), no reload
@@ -265,7 +272,7 @@ test("@curated gold, on the card and on the map: thin when known, twice as thick
   await expect.poll(() => ring(page), { message: "level 2 on the card, without a reload: the border and a 2px ring, twice level 1's 1.5px" }).toEqual({ attr: "2", border: "1px rgba(232, 196, 106, 0.9)", ring: "2" })
   const m2 = await mapGold(page, ids.y, ids.u, [DUE])
   expect([m2.nearU, m2.elsewhere], "level 2: still nothing elsewhere").toEqual([0, 0])
-  expect(m2.gold, `...in gold (rgb(${m2.mean}))`).toBe(true)
+  expect(m2.gold, `...in gold (rgb(${m2.mean}), hue ${m2.hue}°)`).toBe(true)
   console.log(`[moves-mastery] map outline: level 1 ${m1.near} px rgb(${m1.mean}), level 2 ${m2.near} px rgb(${m2.mean})`)
   const ratio = m2.near / m1.near
   expect(ratio > 1.6 && ratio < 2.6, `the map's outline about doubles: ${m1.near} -> ${m2.near} px (x${ratio.toFixed(2)})`).toBe(true)

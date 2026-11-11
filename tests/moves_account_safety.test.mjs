@@ -34,6 +34,21 @@
 //   the emit re-keys `srs` (deck keys lower-cased)        → old blob: nothing rewritten
 //   `moves: {}` emitted for every account (review R4)     → old blob: no `moves` key, v1.254.0's keys in order
 //   a grade cuts the row to four cells (review R5)         → R4 / R5
+// STAGE 2 MUTANTS (2026-11-11, each turned the named test red; table in docs/Changelog-Archive.md, v1.256.0):
+//   no 0.15 cap                                → the worth; nothing drops
+//   the technique part 0.12                    → the worth
+//   any known move fills the seat              → the worth
+//   the worker handed the stored prep          → nothing drops (permanent = mastery)
+//   `_gradeMove` does not republish            → a No takes it back
+//   Practice's descriptor moves-aware          → Practice keeps the flashcard-only figure
+//   FLOW's mastery moves-aware                 → Practice keeps the flashcard-only figure
+//   the map's level 2 never set                → gold level 2
+//   known = ever graded (the No ignored)       → a No takes it back; nothing drops
+//   the cache blind to the ruleset             → a ruleset switch
+//   the line's total cached once for gi        → a ruleset switch
+//   the seat not stood in before landing       → before the first landing
+// ONE NON-KILL, a second guard: dropping the record's identity from `_movesIdx`'s cache key changes nothing here,
+// because every path that replaces the record (`_hydrateProgressBlob`) also publishes, which moves `_stageVer`.
 // NOT a gate here, by construction: dropping a field from `_progressBlob`'s explicit list survives, because the emit
 // spreads the loaded blob's own fields first (`_progressExtras`), so an old field rides through either way.
 import { test } from "node:test";
@@ -343,6 +358,18 @@ test("stage 2, gold level 2 = known and its flashcards learned, in either order;
   assert.equal(b._seatShare(seat.key), 1, "no-gi: the whole seat");
   assert.equal(b._movesGold().get(orb), 1, "no-gi: seat gold");
   assert.deepEqual(b._movesKnownLine(), { known: seat.dealt.length, total: PAIRS_NOGI });
+});
+
+test("stage 2, before the first landing: a seat's share is dealt with no position stood on, and says nothing failed", () => {
+  // the map draws the gold from its first frame, and `optionsFor` orders a hand by the opponent where the roll stands:
+  // before any landing nothing stands anywhere (`_dealtOrds` stands the seat in for its one call)
+  const probe = wireBoot({ v: 2 }), mount = seatsOf(probe).find((s) => s.key === "Mount|Top");
+  const a = wireBoot({ v: 2, moves: { [mount.st]: Object.fromEntries(mount.dealt.map((d) => [d, row(true)])) } });
+  a.currentPos = undefined; a._movesCache = null; a.beats = [];
+  assert.equal(a._seatShare("Mount|Top"), 1, "the whole seat known, with no position stood on");
+  assert.equal(a._movesGold().get(mount.i), 1, "...so its orb is gold on the first frame");
+  assert.equal(a.currentPos, undefined, "...and nothing was left standing");
+  assert.deepEqual(a.beats.filter((b) => b.beat === "moves_hand_failed"), [], "no hand failed to deal");
 });
 
 test("stage 2, Practice keeps the flashcard-only figure: every Mount Top move known, Mount|Top's cards are still offered as new", async () => {
