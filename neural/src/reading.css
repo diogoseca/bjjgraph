@@ -82,7 +82,7 @@
 .ng-hidesec-notice[data-at=top] { position:absolute;z-index:55;box-shadow:0 8px 24px #0009; }
 .ng-hidesec-notice[data-at=place] { width:100%;margin:0;background:#141b2b;box-shadow:var(--section-shadow); }
 .ng-hidesec-notice>span { flex:1;min-width:0;padding:6px 0; }
-.ng-reader .ng-hidesec-notice [data-hidesec-undo],.ng-hidesec-notice [data-hidesec-undo] { flex:none;min-height:42px;padding:0 12px;margin:0;border:0;border-radius:8px;background:none;color:#9fb4ff;font:600 13px "Plus Jakarta Sans",sans-serif;cursor:pointer;pointer-events:auto; }
+.ng-reader .ng-hidesec-notice [data-hidesec-undo],.ng-hidesec-notice [data-hidesec-undo] { flex:none;min-height:44px;padding:0 12px;margin:-1px 0;border:0;border-radius:8px;background:none;color:#9fb4ff;font:600 13px "Plus Jakarta Sans",sans-serif;cursor:pointer;pointer-events:auto; }
 .ng-hidesec-notice [data-hidesec-undo]:hover { background:#ffffff14;color:#c5d2ff; }
 .ng-section-card[data-notice] { background:none;box-shadow:none; }
 .ng-section-card[data-notice]>h2,.ng-reader-closed-part[data-notice] [data-game-open] { display:none; }
