@@ -3,7 +3,7 @@ import { existsSync, mkdirSync, writeFileSync } from "node:fs"
 import { resolve } from "node:path"
 import { journey } from "../../e2e/dsl"
 
-/** PEEK LATENCY PROBE (v1.256.5, movesrow). NOT a gate: evidence for the commit and the report. The gate is
+/** PEEK LATENCY PROBE (v1.256.7, movesrow). NOT a gate: evidence for the commit and the report. The gate is
  *  e2e/journeys/hidden-moves.spec.ts ("hover: the card turns up the moment the pointer is on it"). It answers,
  *  for ONE build at a time:
  *    1. pointer-enter -> the first frame that shows the name, the film's picture, its play button and the strip;
