@@ -121,7 +121,16 @@ export function computeCensus() {
     return scEv[lamAt][2 * i];
   };
 
+  // "Moves known N of M" (v1.256.0): M is the pairs dealt over every seat's own hand in each ruleset, counted by the
+  // app's own `_movesKnownLine` (deduped by site and role, as `_moveKey` files them), never a second dealer here.
+  // `optionsFor` reads the current state's opponent for its order, so a state is set; the set dealt does not move.
+  const pairsOf = (frame) => { a._giMode = frame; a.currentPos = positions[0].idx; a._movesTotals = null; return a._movesKnownLine().total; };
+  const movePairs = pairsOf("gi"), movePairsNogi = pairsOf("nogi");
+  a._giMode = savedMode; a.currentPos = savedPos;
+
   return {
+    movePairs,
+    movePairsNogi,
     negDecks,
     negDecksGi,
     edgeFrameDeficit: -e0Of("Frame from Side Control"),
