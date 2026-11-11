@@ -86,6 +86,7 @@
 .ng-hidesec-notice [data-hidesec-undo]:hover { background:#ffffff14;color:#c5d2ff; }
 .ng-section-card[data-notice] { background:none;box-shadow:none; }
 .ng-section-card[data-notice]>h2,.ng-reader-closed-part[data-notice] [data-game-open] { display:none; }
+.ng-reader-game>.ng-reader-closed-part[data-notice] { pointer-events:none; }
 .ng-sr-only { position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap; }
 @media(prefers-reduced-motion:reduce) { .ng-hidesec-notice { transition:none; } }
 /* U25 a: native, collapsed-by-default disclosure. Focus keeps its keyboard outline. */
