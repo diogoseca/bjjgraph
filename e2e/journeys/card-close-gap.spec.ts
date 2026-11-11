@@ -199,10 +199,12 @@ test.describe("390x844, Moves closed and reopened, a resize, then the film close
     await j.clickByMouse("[data-film-close]", "the film's ✕")
     await j.readerLayoutSettled()
     await page.locator('[data-reader-ready="true"]').evaluate(e => { e.scrollTop = 0 }); await j.readerLayoutSettled()
+    // #372's review: restored to the step's own strictness (the same step within half a pixel, nothing painted between), not a band.
     const shut = await stack(page)
     expect(shut.film, "the video's message stands in the film's place").not.toBeNull()
-    expect(shut.film!.top - shut.hand!.bottom, "one step under Moves, never a film's height").toBeLessThan(20)
-    expect(shut.film!.top - shut.hand!.bottom, "and never over it").toBeGreaterThanOrEqual(-0.5)
+    expect(shut.film!.top - shut.hand!.bottom, "the video's message is one step under Moves, the same step").toBeCloseTo(gap, 0)
+    const between = shut.painted.filter(b => b.name !== "hand" && b.name !== "film" && b.name !== "game:reader-card" && b.name !== "game:reader-hand" && b.bottom > shut.hand!.bottom + 0.5 && b.top < shut.film!.top - 0.5)
+    expect(between.map(b => b.name), "nothing painted lies between Moves and it").toEqual([])
   })
 })
 

@@ -58,8 +58,10 @@ for (const width of [320, 390]) {
     await j.clickByMouse('[data-reader-last-header]', 'phone sections have their own toggle')
     await expect(last).toHaveAttribute('aria-expanded', 'false')
     // WAS (D-482 / U25 a): closing moved focus to the "Hidden sections" summary; Enter opened it, Tab reached the SAME section's
-    // row, Enter reopened it. NOW (U131 b2): no fold; the section's message stands in its place in native keyboard order: Tab from
-    // its Settings reaches its Undo, and Enter there reopens the section and gives focus back to its close.
+    // row, Enter reopened it. NOW (U131 b2): no fold; a close by the mouse leaves focus on the reader itself (#372's review: asserted
+    // again), and the section's message stands in its place in native keyboard order: Tab from its Settings reaches its Undo, and
+    // Enter there reopens the section and gives focus back to its close.
+    await expect(page.locator('[data-reader]'), 'a close by the mouse leaves focus on the reader').toBeFocused()
     await page.locator('[data-hidesec-notice] [data-hidesec-settings]').focus()
     await page.keyboard.press('Tab')
     await expect(page.locator('[data-hidesec-notice] [data-hidesec-undo]'), "the message's Undo is next in native keyboard order").toBeFocused()

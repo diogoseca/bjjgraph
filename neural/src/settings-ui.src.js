@@ -313,7 +313,9 @@ renderSettings() {
         rb.innerHTML = on ? "✓" : "";
         rb.style.cssText = "flex:none;margin-top:2px;width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (on ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (on ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
         rb.addEventListener("click", () => {
-          if (film) { this.set("readerSection.videos", !on); this._reader.sync(); } // as the Article sections' Video box does
+          // #372's review (D2): turning the video back on is the player's own input, so it settles a pinned landing (D-354 N2), as the
+          // section's own reopen does; on a pinned landing the film's place stayed empty until the next grade.
+          if (film) { if (!on) this._readerGraded(); this.set("readerSection.videos", !on); this._reader.sync(); }
           else if (name === "film") { this.set("landFilm", !this.get("landFilm", true)); this._applyLayers(); }
           else this.setLayer(name, !this._layerOn(name), "settings");
           this.renderSettings();
@@ -330,7 +332,7 @@ renderSettings() {
         row.append(document.createTextNode(title)); input.type = "checkbox"; input.checked = sectionShown(this, type);
         input.setAttribute("data-section-setting", type); input.setAttribute("aria-label", "Show " + title);
         input.style.cssText = "width:20px;height:20px;cursor:pointer;";
-        input.addEventListener("change", () => { this.set("readerSection." + type, input.checked); this._reader?.sync(); });
+        input.addEventListener("change", () => { if (type === "videos" && input.checked) this._readerGraded(); this.set("readerSection." + type, input.checked); this._reader?.sync(); });
         row.append(input); sections.append(row);
       }
       body.appendChild(sections);

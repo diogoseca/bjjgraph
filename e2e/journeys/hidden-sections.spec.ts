@@ -89,6 +89,11 @@ for (const vp of VIEWPORTS) test.describe(`${vp.width}`, () => {
       const at = await box(page, msg)
       expect(at, `${p.name}: its message shows`).not.toBeNull()
       expect(Math.abs(at!.top - was!.top), `${p.name}: in place (its top within one step of the part's)`).toBeLessThanOrEqual(16)
+      // While it stands (the video's is raised over the article's body box), it covers no other tile. Control: hidesec2-video-message-no-height.
+      expect(await page.evaluate(sel => { const m = document.querySelector(sel)!, b = m.getBoundingClientRect(), own = m.closest(".ng-section-card")
+        return [...document.querySelectorAll("[data-reader-body]>.ng-section-card")].filter(t => t !== own && t.getClientRects().length).map(t => t.getBoundingClientRect())
+          .reduce((n, r) => n + Math.max(0, Math.min(b.right, r.right) - Math.max(b.left, r.left)) * Math.max(0, Math.min(b.bottom, r.bottom) - Math.max(b.top, r.top)), 0) }, msg),
+        `${p.name}: its message covers no other tile (px²)`).toBe(0)
       // WAS (D-338, U11): a closed Moves or Questions left a label with a slashed eye; a closed section moved to "Hidden sections".
       await expect(page.locator(`.ng-reader-closed-part [data-game-open="${p.key}"]`), `${p.name}: no label left behind`).toBeHidden()
       await expect(page.locator(".ng-reader-hidden"), "no Hidden sections fold").toBeHidden()
@@ -328,5 +333,146 @@ for (const vp of VIEWPORTS) test.describe(`${vp.width} roam`, () => {
     await j.readerLayoutSettled()
     await expect(page.locator("[data-hidesec-notice]"), "no message comes back").toHaveCount(0)
     await expect(page.locator('[data-game-open="card"]'), "and no label").toBeHidden()
+  })
+})
+
+// ── #372's review (D1 to D6 and the uncovered branches), one test each, each with its control in the mutant runner ──
+const notices = (page: Page) => page.evaluate(() => [...document.querySelectorAll("[data-hidesec-notice]")].map(b => (b as HTMLElement).dataset.hidesecNotice + ":" + (b as HTMLElement).dataset.phase))
+
+test.describe("1440 review", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+  // D1: Questions goes quiet while Moves' message is held; Moves' Undo then drops Moves, and Questions' place must close, not stand
+  // leaving for good (invisible, taking presses). Control: hidesec2-d1-stuck-leaving.
+  test("@curated D1: a message that went quiet first still closes when the one it waited for is undone (1440, by mouse)", async ({ page }) => {
+    const j = await boot(page)
+    await j.clickByMouse("[data-land-close]", "Questions' close")
+    await page.mouse.move(1432, 8); await page.waitForTimeout(1500)
+    await j.clickByMouse("[data-hand-close]", "Moves' close")   // the mouse now rests on Moves' message: it holds
+    await page.waitForFunction(() => (document.querySelector('[data-hidesec-notice="card"]') as HTMLElement)?.dataset.phase === "leaving", null, { timeout: 10000 })
+    await page.waitForTimeout(1200)   // past its fade and quiet: it asked to close, and Moves (held) said no
+    expect(await notices(page), "premise: Questions leaving, Moves held").toEqual(["hand:on", "card:leaving"])
+    await j.clickByMouse('[data-hidesec-notice="hand"] [data-hidesec-undo]', "Moves' Undo")
+    await expect.poll(() => notices(page), { message: "Questions' place closes too: no message stands, seen or unseen", timeout: 3000 }).toEqual([])
+    expect(await setting(page, "landHand"), "Moves is back").toBe(true)
+  })
+
+  // D2: on a pinned landing (the article held past the 800ms hold), the film closed by its ✕, then "Videos during play" turned back on
+  // through the message's Settings: the film comes back (the switch settles the pin, as the section's own reopen does).
+  test("@curated D2: Videos during play brings the film back on a pinned landing (1440, by mouse)", async ({ page }) => {
+    const j = journey(page)
+    await j.boot("/", { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", r => r.continue()) }, payloads: { "/Positions/Mount": { afterMs: 1500 } } })
+    await j.land("Mount Top")
+    await expect(page.locator(READY)).toBeVisible()
+    await expect(page.locator("[data-film-close]"), "premise: the film").toHaveCount(1, { timeout: 20000 })
+    await j.readerLayoutSettled()
+    await expect.poll(() => page.evaluate(() => !!(window as any).__neural._readerPin), { message: "premise: the landing published pinned" }).toBe(true)
+    await j.clickByMouse("[data-film-close]", "the film's ✕")
+    await j.readerLayoutSettled()
+    await j.clickByMouse('[data-hidesec-notice="videos"] [data-hidesec-settings]', "the video message's Settings")
+    await expect(page.locator('[data-settings-aimed] [data-layer-toggle="film"]'), "Settings opens at Videos during play").toHaveCount(1, { timeout: 10000 })
+    // The premise the claim needs, read just before the press: the pin still holds the film's place empty (it is what a turn back on
+    // must settle). Measured: 1 run in 2 under the mutant runner a pass had released it first, so the claim went untested.
+    expect(await page.evaluate(() => { const p = (window as any).__neural._readerPin; return !!p && !!p.hid && !p.graded }), "premise: the pinned landing holds the film's place empty").toBe(true)
+    await j.clickByMouse('[data-layer-toggle="film"]', "Videos during play")
+    await page.keyboard.press("Escape")
+    // Waits on the reader's own layout only: pumping the game clock here lets the landing's own events (a grade, an expiry) settle the
+    // pin, and the claim was then a lottery ticket (the mutant survived 2 runs in 4 that way).
+    await expect.poll(async () => { await j.readerLayoutSettled(); return page.evaluate(() => { const a = (window as any).__neural, f = a._landFilmEl, h = a._reader.mediaHome
+      return !!f && !f.hidden && !h.hidden && f.getBoundingClientRect().height > 100 }) }, { message: "the film is back in its place" }).toBe(true)
+  })
+
+  // D4: the shield's window listeners: a touch listener that is not passive holds every phone scroll. Control: hidesec2-d4-touch-not-passive.
+  test("@curated D4: the press window's touch listeners are passive (no phone scroll waits for them)", async ({ page }) => {
+    await boot(page)
+    const client = await page.context().newCDPSession(page)
+    const { result } = await client.send("Runtime.evaluate", { expression: "window" })
+    const { listeners } = await client.send("DOMDebugger.getEventListeners", { objectId: result.objectId! }) as any
+    // The shield is the one call site that puts exactly its seven events on the window, capturing (CDP gives each its script spot).
+    const at = (l: any) => [l.scriptId, l.lineNumber, l.columnNumber].join(":"), seven = "click mousedown mouseup pointerdown pointerup touchend touchstart"
+    const sites = new Map<string, string[]>()
+    for (const l of listeners.filter((l: any) => l.useCapture)) sites.set(at(l), [...(sites.get(at(l)) || []), l.type])
+    const site = [...sites].filter(([, types]) => [...types].sort().join(" ") === seven).map(([k]) => k)
+    expect(site.length, "premise: one call site registers the shield's seven events").toBe(1)
+    const mine = listeners.filter((l: any) => /^touch(start|end)$/.test(l.type) && at(l) === site[0])
+    expect(mine.length, "premise: the shield listens to touchstart and touchend on the window").toBe(2)
+    expect(mine.filter((l: any) => !l.passive).map((l: any) => l.type), "none of them blocks a scroll").toEqual([])
+  })
+
+  // D5: the live region is in the tree before the first message (a region inserted with its text is often missed). Control: hidesec2-d5-live-late.
+  test("@curated D5: the screen reader's live region exists before any message", async ({ page }) => {
+    await boot(page)
+    expect(await page.evaluate(() => [...document.querySelectorAll('.ng-sr-only[role="status"]')].map(e => e.textContent)), "one empty live region, before any close").toEqual([""])
+  })
+
+  // D6: /Systems has several "additional" tiles sharing one setting; closing a later one names it and stands in its place.
+  // Control: hidesec2-d6-first-tile.
+  test("@curated D6: on /Systems a closed tile's message names that tile and stands in its place (1440, by mouse)", async ({ page }) => {
+    // An index page opens in the reader through an article link or the drawer, never on arrival; the setup takes that same entry.
+    const j = await boot(page)
+    await page.evaluate(() => (window as any).__neural._readArticle("/Systems", true, true, "article_link"))
+    await expect(page.locator('[data-reader][data-reader-ready="true"][data-reader-path="/Systems"]')).toBeVisible({ timeout: 15000 }); await j.readerLayoutSettled()
+    const tiles = page.locator('[data-reader-body]>.ng-section-card[data-section-type="additional"]')
+    expect(await tiles.count(), "premise: several tiles share the additional setting").toBeGreaterThan(1)
+    const last = tiles.last()
+    const name = (await last.locator(".ng-section-title").textContent())!.trim()
+    await last.evaluate(e => e.setAttribute("data-hidesec-target", ""))
+    await page.locator("[data-hidesec-target] [data-section-toggle]").evaluate(e => e.scrollIntoView({ block: "center" })); await j.readerLayoutSettled()
+    await j.clickByMouse("[data-hidesec-target] [data-section-toggle]", "a later tile's close")
+    await j.readerLayoutSettled()
+    const msg = page.locator('[data-hidesec-notice="additional"]')
+    await expect(msg.locator("b"), "it names the tile that was closed").toHaveText(name)
+    // The tiles above it share its setting and close with it, so its place moves up with them: it stands IN the tile pressed.
+    await expect(page.locator('[data-hidesec-target] [data-hidesec-notice="additional"]'), "and stands in that tile").toHaveCount(1)
+  })
+
+  // A close by keyboard: focus goes to Undo, and while focus is there the message holds. Controls: hidesec2-key-no-undo-focus,
+  // hidesec2-key-focus-no-hold.
+  test("@curated a close by keyboard puts focus on Undo, and focus holds the message until it leaves (1440)", async ({ page }) => {
+    const j = await boot(page)
+    await reveal(page, j, PARTS[3])
+    await page.locator("[data-section-toggle=principles]").focus()
+    await page.keyboard.press("Enter")
+    await expect(page.locator('[data-hidesec-notice="principles"] [data-hidesec-undo]'), "focus goes to Undo").toBeFocused()
+    await page.waitForTimeout(6500)
+    expect(await phase(page, "principles"), "focus holds it past its five seconds").toBe("on")
+    await page.keyboard.press("Shift+Tab"); await page.keyboard.press("Shift+Tab")
+    await expect.poll(() => notices(page), { message: "focus gone, it leaves", timeout: 6000 }).toEqual([])
+  })
+})
+
+test.describe("390 review", () => {
+  test.use({ viewport: { width: 390, height: 844 }, hasTouch: true })
+  // D3: Moves' Undo turns on Moves only; a card a map tap took away for this landing stays away. Control: hidesec2-d3-undo-restores-landing.
+  test("@curated D3: Moves' Undo brings back Moves only, not a card the map tap took away (390, by touch)", async ({ page }) => {
+    const j = await boot(page)
+    await press(page, j, "[data-hand-close]", true, "Moves' close")
+    await j.readerLayoutSettled()
+    const tap = await bareMap(page, { left: 0, top: 70, width: 390, height: 150 })
+    expect(tap, "premise: bare map above the stage").not.toBeNull()
+    await page.touchscreen.tap(...tap!)
+    await j.advance(50); await j.readerLayoutSettled()
+    expect(await page.evaluate(() => !!(window as any).__neural._landEl), "premise: the map tap took the card away").toBe(false)
+    await press(page, j, '[data-hidesec-notice="hand"] [data-hidesec-undo]', true, "Moves' Undo")
+    await j.readerLayoutSettled()
+    expect({ hand: await setting(page, "landHand"), card: await page.evaluate(() => !!(window as any).__neural._landEl) },
+      "Moves comes back; the card stays where the map tap sent it").toEqual({ hand: true, card: false })
+  })
+
+  // D4: a touch that starts in a just-closed place and becomes a drag has no click; the swallow it started must not outlive it.
+  // Control: hidesec2-d4-swallow-forever.
+  test("@curated D4: a press swallowed in a closed place, which never clicks, leaves nothing armed (390, by touch)", async ({ page }) => {
+    await page.emulateMedia({ reducedMotion: "reduce" })
+    const j = await boot(page)
+    await press(page, j, "[data-land-close]", true, "Questions' close")
+    const undo = (await box(page, '[data-hidesec-notice="card"] [data-hidesec-undo]'))!
+    await page.waitForFunction(() => !document.querySelector('[data-hidesec-notice="card"]'), null, { polling: "raf", timeout: 12000 })
+    const client = await page.context().newCDPSession(page)
+    await client.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: [{ x: undo.x, y: undo.y }] })
+    for (let i = 1; i <= 4; i++) await client.send("Input.dispatchTouchEvent", { type: "touchMove", touchPoints: [{ x: undo.x, y: undo.y + 30 * i }] })
+    await client.send("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: [] })
+    await page.waitForTimeout(1000)
+    // A later click by a script (or a key) is nobody's press in that place: it must reach its control.
+    await page.evaluate(() => (document.querySelector("[data-hand-close]") as HTMLElement).click())
+    await expect.poll(() => setting(page, "landHand"), { message: "a later click is not swallowed" }).toBe(false)
   })
 })
