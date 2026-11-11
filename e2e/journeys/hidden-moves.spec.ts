@@ -287,6 +287,11 @@ test("@curated a mouse click on a face-up card plays it, seated where the card w
   const p = await pointOn(page, hm(1))
   await page.mouse.move(p.x, p.y)
   await expect.poll(async () => (await face(page, hm(1))).up).toBe(true)
+  // WAIT FOR THE STAND-OUT ITSELF, never for "face up" (RED367B, v1.256.7): while the dwell stood a card turned up only after
+  // the 250 ms dwell, by which time its 160 ms grow had finished, so "up" doubled as "standing out". Turned up on the
+  // first frame now, it is up while the grow has barely begun, and the precondition below read an unscaled card on
+  // two CI runs (#366 and #368, shard 2). The claim needs the card standing out when it is clicked: poll that.
+  await expect.poll(() => scaleOf(page, hm(1)), { message: "the hovered card has grown to stand out" }).toBeGreaterThan(1030)
   // the hovered card stands out (scaled about its centre): the stand-in still seats on its LAYOUT box
   const was = await page.evaluate(() => { const c = document.querySelector('[data-hm="1"]') as HTMLElement, r = c.getBoundingClientRect(); return { centre: r.left + r.width / 2, w: c.offsetWidth, scaled: Math.round(r.width) > c.offsetWidth } })
   expect(was.scaled, "precondition: the card is standing out when it is clicked").toBe(true)

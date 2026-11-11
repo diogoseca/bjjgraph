@@ -130,6 +130,15 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     // Posture up's authored destination is open guard, on top: a clean escape, so the result is "Escaped!"
     const title = await mark(page, "escape", "Posture up")
     await atRest(page)
+    // A STALE INSET IS NOT WHERE THE CARD IS (RED367, v1.256.7; CLAUDE.md §6.3 "clickByMouse before a layout settles").
+    // The row's left padding is the tray inset (24px) unless the reader's `trayFlush` (reader.src.js; true at 1440) takes
+    // it away, and the app writes that padding in `updateUiShift`, which under the harness runs only inside `advance()`.
+    // A reader layout landing after the seat's last advance therefore left the card painted 24px right of where the
+    // app's next padding write puts it, and the pick's own `_applyLayers` -> `updateUiShift(0)` is that write: PR #367's
+    // shard 1 read the card at x 260 and its stand-in at x 236. So: let the reader settle, give the app one frame to
+    // apply its decision, settle again, and only then read where the card is. Proven on dev's bundle and #367's, same
+    // count, by tests/artifacts/_escape_seat_probe.spec.ts (a forced late reader layout: 24px off before, 0 after).
+    await j.readerLayoutSettled(); await j.advance(17); await j.readerLayoutSettled()
     await j.rig("escape", [0])
     const before = await state(page)
     await j.clickByMouse("[data-cc-target] .ngchoice-title", `the escape "${title}"`)
