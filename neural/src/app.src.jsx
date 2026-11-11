@@ -6002,6 +6002,12 @@ class Component extends DCLogic {
   practiceGoal(v = this.get("dailyGoal", NG_PRACTICE_GOAL)) { v = Math.floor(Number(v)); return Number.isFinite(v) ? Math.max(5, Math.min(200, v)) : NG_PRACTICE_GOAL; }
   practiceToday() { return { done: ngGameplanReviewed(this.srs, this._epochDay()).length, goal: this.practiceGoal() }; }
   _practiceGoalText(t) { t = t || this.practiceToday(); return t.done + " of " + t.goal + " today" + (t.done >= t.goal ? " \u2713" : ""); }
+  // the order of today's new decks, for Practice's count line: the plan's own `newFrom` (gameplan.src.js), the same
+  // answer the summary line reads (v1.256.2, STAGE2H A a)
+  _newOrderText(plan) {
+    return plan.status === "weak-spots" || plan.newFrom === "weak-spots" ? "weakest first"
+      : plan.newFrom === "mixed" ? "ranked by your study comparison, then your weakest spots" : "ranked by your study comparison";
+  }
   /** Planner state and all comparison controls live below the active card. */
   _gameplanIntro(s) {
     const box = document.createElement("div"); box.setAttribute("data-gameplan-summary", "1");
@@ -6178,7 +6184,7 @@ class Component extends DCLogic {
     s.rows.style.setProperty("--practice-belt", NG_CHALLENGE_TRACK_COLORS[worn.id]);
     // Each half only when it has something to say (SIDE-R2 M6): no plan makes no claim about new work.
     s.count.textContent = [p.dueCards ? cards(p.dueCards) + " to review across " + techs(due.length) : "", s.plan?.fresh.length ? s.plan.newCards + " new across " + techs(s.plan.fresh.length) + ", " +
-      (s.plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") : ""].filter(Boolean).join(" \u00b7 ");
+      this._newOrderText(s.plan) : ""].filter(Boolean).join(" \u00b7 ");
     const more = s.more;
     more.disabled = !!s.plan && !s.plan.more.length;
     if (s.plan && !s.explanation.querySelector("[data-gameplan-refresh]")) s.explanation.replaceChildren(this._gameplanIntro(s));

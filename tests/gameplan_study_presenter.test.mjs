@@ -476,6 +476,16 @@ test("decks the known moves fill: the presenter withholds them, the planner keep
   assert.deepEqual(plan.fresh.map(r => [r.key, r.source]), keys.map(k => [k, "weak-spots"]), "both offered, from the weak spots");
   assert.deepEqual(plan.missing, [], "neither is counted missing a comparison");
   assert.notEqual(plan.status, "partial");
+  // (B) a (STAGE2H): the presenter says some compared material isn't in today's new cards; every withheld deck IS in
+  // them, so the plan drops the line. One withheld deck NOT offered today (no weak-spots row for it): the line stays.
+  const limited = "Some compared material isn't in today's new cards; its effect is not counted in this plan.";
+  assert.ok(p.assumptions.includes(limited), "the presenter's own line, for the withheld decks");
+  assert.ok(!plan.assumptions.includes(limited), "every withheld deck is in today's new cards: the line is dropped");
+  assert.deepEqual(plan.assumptions, p.assumptions.filter(a => a !== limited), "and nothing else changes");
+  const one = ngGameplanBuild({ day: 100, ruleset: "nogi", revision: 7, stamp: input.context.stamp, target: 20, decks, srs: {}, provider: p,
+    fallback: { rows: [fallback.rows[0]], assumptions: fallback.assumptions } });
+  assert.deepEqual(one.fresh.map(r => r.key), [keys[0]], "one withheld deck kept, the other not offered today");
+  assert.ok(one.assumptions.includes(limited), "...so the line stays: it is true of that deck");
   // the control: the same decks without the mark (the first build of v1.256.0) are missing, and not offered
   const unmarked = Object.fromEntries(Object.entries(decks).map(([k, d]) => [k, { ...d, oddsFull: undefined }]));
   const dev = ngGameplanBuild({ day: 100, ruleset: "nogi", revision: 7, stamp: input.context.stamp, target: 20, decks: unmarked, srs: {}, provider: p, fallback });

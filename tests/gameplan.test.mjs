@@ -292,8 +292,10 @@ test("D1: with no comparison the weak-spots ranking fills the plan, in order, an
 // ── v1.256.1 (STAGE2G): decks the known moves fill (`oddsFull`, stage 2) ─────────────────────────────────────────────
 // Mutants (2026-11-11), each red at the named test: the summary ignoring kept decks → "every new deck was kept";
 // a filled deck's unavailable row hidden (`if (d.oddsFull) continue`) → "comparison row is unavailable stays missing".
-// NOT PINNED, the owner's wording (STAGE2G item 4, sent to the orchestrator): a plan that MIXES ranked and kept decks
-// keeps the comparison's line ("ranked by your study comparison"), which is not true of the kept ones.
+// v1.256.2 (STAGE2H, the orchestrator's calls A a and B a), each mutant red at the named test: the summary's mixed
+// line dropped → "mixes ranked and kept decks"; Practice's count-line clause dropped → moves_account_safety "count line
+// reads the plan"; the presenter's limited line never dropped, or dropped when only SOME withheld deck is offered →
+// gameplan_study_presenter "decks the known moves fill".
 test("a plan whose every new deck was kept from the weak spots says so, never the comparison's 'nothing new worth adding'", () => {
   const decks = { "A|Top": deck(["a1", "a2"]), "B|Top": deck(["b1", "b2"], { oddsFull: true }) };
   const fallback = { rows: [{ key: "B|Top", reason: "w" }, { key: "A|Top", reason: "w" }], assumptions: ["f"] };
@@ -333,4 +335,56 @@ test("a deck the moves fill but whose comparison row is unavailable stays missin
     fallback: { rows: [{ key: "B|Top", reason: "w" }], assumptions: ["f"] } }));
   assert.deepEqual([p.status, p.missing], ["partial", ["B|Top"]]);
   assert.deepEqual(p.fresh.map((r) => r.key), ["A|Top", "B|Top"], "and B is still offered, after the ranked deck");
+});
+
+// ── v1.256.2 (STAGE2H A a): ranked decks THEN kept ones ──────────────────────────────────────────────────────────────
+// v1.256.0's `ngGameplanSummary` (origin/dev 649b2a1dc), verbatim: the dev-identical control.
+const devSummary = (plan) => {
+  const cards = (n) => n + (n === 1 ? " card" : " cards");
+  const source = {
+    "weak-spots": "New techniques are your weakest spots first.",
+    ready: "New techniques are ranked by your study comparison.",
+    partial: "New techniques are ranked by your study comparison. Some could not be compared, which does not mean you've mastered them.",
+    exhausted: "Your study comparison found nothing new worth adding. Reviews still count.",
+    unavailable: "There is no ranking for new techniques yet. Reviews still count.",
+    pending: "The ranking for new techniques is loading. Reviews still count.",
+    stale: "The ranking for new techniques is out of date: refresh the plan. Reviews still count.",
+  }[plan.status];
+  return "Your daily goal is " + cards(plan.target) +
+    (plan.reviewed.length ? "; the " + cards(plan.reviewed.length) + " you'd already answered today count toward it." : ".") +
+    (plan.overrun ? " Today's session runs " + cards(plan.overrun) + " over the goal." : "") +
+    (plan.fresh.some((r) => r.pending) ? " Card counts settle as decks load." : "") + " " + source;
+};
+
+test("a plan that mixes ranked and kept decks: 'ranked by your study comparison, then your weakest spots' (the partial status keeps its second sentence)", () => {
+  const decks = { "A|Top": deck(["a1", "a2"]), "B|Top": deck(["b1", "b2"], { oddsFull: true }), "C|Top": deck(["c1"]) };
+  const fallback = { rows: [{ key: "B|Top", reason: "w" }], assumptions: ["f"] };
+  const ready = build(input({ decks: { "A|Top": decks["A|Top"], "B|Top": decks["B|Top"] }, provider: provider([row("A|Top", 1)]), fallback }));
+  assert.deepEqual([ready.status, ready.newFrom, ready.fresh.map((r) => r.key)], ["ready", "mixed", ["A|Top", "B|Top"]]);
+  assert.ok(summary(ready).endsWith(" New techniques are ranked by your study comparison, then your weakest spots."), summary(ready));
+  // C has headroom and no comparison row: missing, so partial
+  const partial = build(input({ decks, provider: provider([row("A|Top", 1)]), fallback }));
+  assert.deepEqual([partial.status, partial.newFrom], ["partial", "mixed"]);
+  assert.ok(summary(partial).endsWith(" New techniques are ranked by your study comparison, then your weakest spots. Some could not be compared, which does not mean you've mastered them."), summary(partial));
+  // and the all-kept case keeps v1.256.1's weak-spots sentence
+  const all = build(input({ decks: { "B|Top": decks["B|Top"] }, provider: provider([]), fallback }));
+  assert.deepEqual([all.newFrom], ["weak-spots"]); assert.ok(summary(all).endsWith(" New techniques are your weakest spots first."));
+});
+
+test("with no deck the moves fill, every summary is byte-identical to v1.256.0's (seeded random plans)", () => {
+  let seed = 11; const rnd = () => ((seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0) / 2 ** 32);
+  const keys = Array.from({ length: 24 }, (_, i) => "Deck" + i + "|" + ["Top", "Bottom", "Attacker", "Defender"][i % 4]);
+  let n = 0;
+  for (let t = 0; t < 2000; t++) {
+    const decks = {};
+    for (const k of keys) if (rnd() < 0.8) decks[k] = deck(Array.from({ length: 1 + Math.floor(rnd() * 4) }, (_, j) => k + "q" + j), { headroom: rnd() < 0.2 ? 0 : 0.15 * rnd(), allowed: rnd() < 0.9 });
+    const prov = rnd() < 0.2 ? null : provider(keys.filter(() => rnd() < 0.4).map((key) => row(key, rnd() < 0.3 ? 0 : rnd(), { headroom: 0.15 * rnd() * 0.5 })), { status: ["ready", "pending", "unavailable"][Math.floor(rnd() * 3)] });
+    const fallback = rnd() < 0.1 ? undefined : { rows: keys.filter(() => rnd() < 0.5).map((key) => ({ key, reason: "w" })), assumptions: ["f"] };
+    const srs = {}; if (rnd() < 0.5) for (const k of Object.keys(decks)) if (rnd() < 0.2) srs[k] = { [k + "q0"]: [day - 1, 1, day - 2] };
+    const p = build(input({ decks, provider: prov, fallback, srs, target: 5 + Math.floor(rnd() * 20) }));
+    assert.equal(summary(p), devSummary(p), `plan ${t}`);
+    assert.notEqual(p.newFrom, "mixed");
+    n++;
+  }
+  assert.equal(n, 2000);
 });
