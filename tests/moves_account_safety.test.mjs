@@ -19,14 +19,18 @@
 // files, the seat's hand in this ruleset, the technique's deck. Claims, each over seeded random accounts in both
 // rulesets and the stored-account fixture above:
 //   5. NOTHING DROPS, EXACTLY: every deck's `knowledgeProfile().permanent` is at least the flashcard-only figure
-//      (`ngKnowledgeMastery(prep)`), equals the app's own `mastery(key)` (the dice and the card read the same number
-//      as the Win %), never exceeds 0.15; and an account with no known move gets the profile v1.255.2 built, byte for
-//      byte (v1.255.2's `knowledgeProfile` body is copied below, from origin/dev 6a5bfa27f). `permanent`, never the
-//      Win %: the worker's figure moves between identical boots (STAGE2D: the per-roll move cap).
+//      (`ngKnowledgeMastery(prep)`), IS the app's own `mastery(key)` (`Object.is`: the dice and the card read the same
+//      double as the Win %), never exceeds 0.15; and an account with no known move gets the profile v1.255.2 built,
+//      byte for byte (v1.255.2's `knowledgeProfile` body is copied below, from origin/dev 6a5bfa27f). `permanent`,
+//      never the Win %: the worker's figure moved between boots that were not rigged (STAGE2D: the per-roll move cap).
+//   5b. BIT EQUALITY, EXHAUSTIVELY (review STAGE2E): every dealt seat on the wire, both rulesets, k = 0..n of its moves
+//      known, prep 0..5, `permanent` is `mastery` and every card's live chance is the worker's explained chance under
+//      the provider's own `!==` (game-value-provider.src.js). NO TOLERANCE anywhere in these stage 2 units: the app
+//      compares exactly, so they do; the first build's 1e-12 is what let a one-ulp mismatch through.
 //   6. A NO TAKES IT BACK; a Yes and its republish; level 1 and 2 in either order; a ruleset switch; a pull.
 //   7. PRACTICE KEEPS THE FLASHCARD-ONLY FIGURE: with every Mount Top move known, Practice still offers Mount|Top's
 //      cards as new (FLOW's weak spots and the planner's gate both read `_flashMastery`), while the study presenter's
-//      descriptor (`_gameplanDecks()`) still equals the profile's headroom to 1e-12.
+//      descriptor (`_gameplanDecks()`) still equals the profile's headroom, exactly (the presenter allows 1e-12).
 // MUTANTS (2026-11-10, each turned the named test red):
 //   hydrate files `moves` into `srs`                     → old blob: every number unchanged, nothing rewritten
 //   `_gradeMove` also bumps `stage` for the state's deck → old blob: a full moves record moves no number
@@ -54,6 +58,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
+import { spawnSync } from "node:child_process";
 import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 
 const rd = (p) => readFileSync(new URL("../" + p, import.meta.url), "utf8");
@@ -70,7 +75,7 @@ const SOURCE = [
   rd("neural/src/challenge-ui.src.js"),
   strip(rd("neural/src/flow.src.js")),            // FLOW's weak spots rank Practice's new decks (claim 7)
 ].join("\n");
-const M = new Function("DCLogic", "React", SOURCE + "\nreturn { Component, ngKnowledgeBuildProfile, ngKnowledgeMastery, ngKnowledgeFingerprint };")(class DCLogic {}, { createRef: () => ({ current: null }) });
+const M = new Function("DCLogic", "React", SOURCE + "\nreturn { Component, ngKnowledgeBuildProfile, ngKnowledgeMastery, ngKnowledgeFingerprint, ngKnowledgeExplainMove, ngKnowledgeExplainEscape };")(class DCLogic {}, { createRef: () => ({ current: null }) });
 
 const DAY = 20402;
 // a fixed clock: `_epochDay` reads this, so due and "today" do not move with the calendar
@@ -261,8 +266,8 @@ test("stage 2, nothing drops, exactly: over seeded accounts in both rulesets, `p
       for (const k of keys) {
         const flash = M.ngKnowledgeMastery(a.prep[k] || 0), perm = P.permanent[k] || 0;
         assert.ok(perm >= flash, mode + " " + k + ": permanent " + perm + " fell below the flashcard figure " + flash);
-        assert.ok(Math.abs(perm - a.mastery(k)) <= 1e-12, mode + " " + k + ": the worker reads " + perm + ", the dice " + a.mastery(k));
-        assert.ok(perm <= 0.15 + 1e-12 && a.mastery(k) <= 0.15, k + ": the 0.15 cap");
+        assert.ok(Object.is(perm, a.mastery(k)), mode + " " + k + ": the worker reads " + perm + ", the dice " + a.mastery(k));
+        assert.ok(perm <= 0.15, k + ": the 0.15 cap");
         if (perm > flash) lifted++;
         checked++;
       }
@@ -279,6 +284,173 @@ test("stage 2, nothing drops, exactly: over seeded accounts in both rulesets, `p
   assert.equal(JSON.stringify(none.knowledgeProfile()), JSON.stringify(v1255Profile(none)), "the stored-account fixture, no `moves`: v1.255.2's profile");
 });
 
+test("stage 2, bit equality: every dealt seat, both rulesets, k = 0..n known, prep 0..5: the card's chance IS the worker's", (t) => {
+  let states = 0, cards = 0;
+  for (const mode of ["gi", "nogi"]) {
+    const a = wireBoot({ v: 2 }, mode);
+    a.aiSkill = 0.13; a._qMod = 0; a._combo = 0;
+    const seen = new Set();
+    for (const n of a.nodes) {
+      if (n.ty !== "positions" || !a.rsAllowsIdx(n.idx)) continue;
+      const o = a._ordById.get(a.siteIdOf(n.id));
+      for (const role of ["top", "bottom"]) {
+        if (seen.has(o + "/" + role)) continue; seen.add(o + "/" + role);
+        a.currentPos = a.canonicalState(n.idx, role); a.playerRole = role;
+        const here = a.nodes[a.currentPos], key = a.posFamily(here.t) + "|" + (role === "bottom" ? "Bottom" : "Top");
+        const dealt = a.optionsFor(a.currentPos, role);
+        if (!dealt.length) continue;
+        const ords = dealt.map((d) => String(a._ordById.get(a.siteIdOf(a.nodes[d.idx].id))));
+        for (let k = 0; k <= ords.length; k++) for (let p = 0; p <= 5; p++) {
+          // the record as a grade leaves it; a publish is what a grade or a pull does (it moves `_stageVer`)
+          a.prep = { [key]: p }; a.moves = k ? { [o + "/" + role]: Object.fromEntries(ords.slice(0, k).map((d) => [d, row(true)])) } : {};
+          a._stageVer = (a._stageVer || 0) + 1; a._posKey = key;
+          const P = a.knowledgeProfile();
+          assert.ok(Object.is(P.permanent[key], a.mastery(key)), `${mode} ${here.id} ${role} k ${k}/${ords.length} p ${p}: permanent ${P.permanent[key]} vs mastery ${a.mastery(key)}`);
+          assert.ok(P.permanent[key] >= M.ngKnowledgeMastery(p), `${mode} ${here.id} ${role} k ${k} p ${p}: below the flashcard figure`);
+          for (const d of dealt) {
+            // the provider's own comparison, as game-value-provider.src.js makes it: an entry is certain and is not
+            // compared; a transition (or a finish) compares `moveChance` with the explained chance by `!==`
+            if (d.action === "enter" || (!d.action && d.node.ty === "submissions") || d.action === "escape") continue;
+            const ctx = { ruleset: a._giMode, positionKey: a._posKey || null, noPositionBonus: a._posKey == null,
+              techniqueKey: a.deckKeyFor(d.node).key, opponentValue: a.oppVal(here), aiSkill: a.aiSkill, qMod: a._qMod || 0,
+              combo: a._combo || 0, arrivalAge: 0 };
+            const e = M.ngKnowledgeExplainMove(P, ctx, d.node), live = a.moveChance(d.node);
+            assert.equal(e.status, "ready", "the law explains it");
+            assert.ok(Number.isFinite(live) && live === e.chance, `${mode} ${here.id} ${role} k ${k}/${ords.length} p ${p}, ${d.node.id}: card ${live} vs worker ${e.chance} (live-knowledge-probability-mismatch)`);
+            cards++;
+          }
+          states++;
+        }
+      }
+    }
+  }
+  t.diagnostic(`${states} seat states, ${cards} cards compared, both rulesets`);
+  assert.ok(states > 15000 && cards > 100000, `positive coverage: ${states} seat states, ${cards} cards compared`);
+});
+
+test("stage 2, bit equality on ESCAPES: a defended submission from every partly known seat, its panic deck the seat's own", (t) => {
+  // review STAGE2F: when the Defender deck is not resident the panic key falls back to the seat's deck (`_posKey`,
+  // `enterDefense`), so an escape's chance carries the seat's partly known figure too. The provider compares
+  // `escapeChance` with `ngKnowledgeExplainEscape` by `!==`, as it does a move.
+  let states = 0, cards = 0;
+  for (const mode of ["gi", "nogi"]) {
+    const a = wireBoot({ v: 2 }, mode);
+    a.aiSkill = 0.13; a._qMod = 0; a._combo = 0;
+    const seen = new Set();
+    for (const n of a.nodes) {
+      if (n.ty !== "positions" || !a.rsAllowsIdx(n.idx)) continue;
+      const o = a._ordById.get(a.siteIdOf(n.id));
+      for (const role of ["top", "bottom"]) {
+        if (seen.has(o + "/" + role)) continue; seen.add(o + "/" + role);
+        const opp = role === "top" ? "bottom" : "top";
+        a.currentPos = a.canonicalState(n.idx, role); a.playerRole = role;
+        const here = a.nodes[a.currentPos], key = a.posFamily(here.t) + "|" + (role === "bottom" ? "Bottom" : "Top");
+        const dealt = a.optionsFor(a.currentPos, role);
+        const sub = a.optionsFor(a.canonicalState(n.idx, opp), opp).map((d) => d.node).find((x) => x.ty === "submissions");
+        if (!dealt.length || !sub) continue;
+        // its defenses arrive in their own chunk, as `loadSubmissionChoices` fetches them
+        const S = a.submissionNode(sub);
+        if (!S.cal.defenses) { const body = JSON.parse(rd("source/quartz/static/neural/submission-details/" + a.qhash(S.t) + ".json"))[S.t]; S.cal.defenses = body.choices; S._defenseDetails = body.details || []; }
+        a.currentPos = a.canonicalState(n.idx, role);
+        const escapes = a.submissionDefenses(sub);
+        if (!escapes.length) continue;
+        const ords = dealt.map((d) => String(a._ordById.get(a.siteIdOf(a.nodes[d.idx].id))));
+        for (let k = 0; k <= ords.length; k++) for (let p = 0; p <= 5; p++) {
+          a.prep = { [key]: p }; a.moves = k ? { [o + "/" + role]: Object.fromEntries(ords.slice(0, k).map((d) => [d, row(true)])) } : {};
+          a._stageVer = (a._stageVer || 0) + 1; a._posKey = key;
+          a._defendSub = sub.idx; a._panicKey = key;
+          const P = a.knowledgeProfile();
+          for (const e of escapes) {
+            // the provider's escape context, as game-value-provider.src.js builds it
+            const ctx = { ruleset: a._giMode, positionKey: a._posKey || null, noPositionBonus: a._posKey == null,
+              techniqueKey: a.deckKeyFor(e.node).key, opponentValue: a.oppVal(here), aiSkill: a.aiSkill, qMod: a._qMod || 0,
+              combo: a._combo || 0, arrivalAge: 0, defenderKey: a.defendKeyFor(sub), panicKey: a._panicKey || null,
+              submissionValue: a.myVal(sub), destinationValue: a.myVal(a.nodes[e.res] || e.node) };
+            const x = M.ngKnowledgeExplainEscape(P, ctx, sub), live = a.escapeChance(e);
+            assert.equal(x.status, "ready", "the law explains the escape");
+            assert.ok(Number.isFinite(live) && live === x.chance, `${mode} ${here.id} ${role} k ${k}/${ords.length} p ${p}, escape from ${sub.id}: card ${live} vs worker ${x.chance}`);
+            cards++;
+          }
+          states++;
+        }
+        a._defendSub = null; a._panicKey = null;
+      }
+    }
+  }
+  t.diagnostic(`${states} defended seat states, ${cards} escape cards compared, both rulesets`);
+  assert.ok(states > 5000 && cards > 10000, `positive coverage: ${states} states, ${cards} escape cards`);
+});
+
+test("stage 2, the moves index is keyed on the record: a grade and a pull refresh the share; a flashcard answer re-levels the gold without dealing a hand", () => {
+  // review STAGE2F: keyed on `_stageVer`, the index re-dealt every known seat's hand on the frame after every deck
+  // landing, move and grade. Keyed on the record (its identity, `_movesRev`) and the ruleset, only the gold's level
+  // follows `_stageVer`.
+  const a = wireBoot({ v: 2 }), mount = seatsOf(a).find((x) => x.key === "Mount|Top");
+  a.currentPos = mount.i; a.playerRole = "top";
+  const opts = a.optionsFor(mount.i, "top");
+  let deals = 0; const real = a.optionsFor; a.optionsFor = function (...x) { deals++; return real.apply(this, x); };
+  assert.equal(a._seatShare("Mount|Top"), 0, "nothing known");
+  a._gradeMove(opts[0], true, CARD());                              // the record mutates IN PLACE
+  assert.equal(a._seatShare("Mount|Top"), 1 / opts.length, "a grade refreshes the share (the revision moved)");
+  for (const o of opts.slice(1)) a._gradeMove(o, true, CARD());
+  assert.equal(a._movesGold().get(a.nodes.find((x) => x.id === "Positions/Mount" && x.role !== "bottom").idx), 1, "every move known: the seat's thin gold");
+  // a flashcard answer: the seat's deck learned and published, as a grade publishes. The level follows; no hand is dealt
+  a.flashcards = { decks: { "Mount|Top": { n: 1, cards: [{ q: "Mount q0", a: "x" }] } }, manifest: true };
+  a.stage = { "Mount|Top": { [a.qhash("Mount q0")]: 3 } };
+  a._publishKnowledge("test:flashcard");
+  deals = 0;
+  assert.equal(a._movesGold().get(a.nodes.find((x) => x.id === "Positions/Mount" && x.role !== "bottom").idx), 2, "the level moves to 2");
+  assert.equal(deals, 0, "...without dealing a hand");
+  a._publishKnowledge("test:deck-landed");                             // a deck landing, a move played: `_stageVer` moves
+  deals = 0; a._movesGold(); a._seatShare("Mount|Top"); a.mastery("Mount|Top");
+  assert.equal(deals, 0, "a stage bump alone re-deals nothing");
+  // a pull replaces the record (its identity), from another device's: one move known there
+  a._hydrateProgressBlob(a._mergeProgressBlobs({ v: 2 }, { v: 2, moves: { [mount.st]: { [mount.dealt[0]]: row(true) } } }));
+  assert.equal(a._seatShare("Mount|Top"), 1 / mount.dealt.length, "a pull refreshes the share");
+});
+
+test("stage 2, the Moves known line prints nothing it cannot count: before the graph is in, or when a hand fails to deal", () => {
+  const a = Object.create(M.Component.prototype);
+  a.moves = {}; a.nodes = undefined;
+  assert.equal(a._movesKnownLine(), null, "the menu can open before the graph: no line, no throw");
+  const b = wireBoot({ v: 2 });
+  assert.deepEqual(b._movesKnownLine(), { known: 0, total: PAIRS_GI });
+  const c = wireBoot({ v: 2 }), real = c.optionsFor;
+  let n = 0; c.optionsFor = function (...x) { if (++n === 40) throw new Error("a hand that cannot be dealt"); return real.apply(this, x); };
+  assert.equal(c._movesKnownLine(), null, "a hand failed to deal: no line (never a false 'Moves known 0 of ...')");
+  assert.ok(c.beats.some((x) => x.beat === "moves_hand_failed"), "...and the failure is named once");
+  c.optionsFor = real;
+  assert.deepEqual(c._movesKnownLine(), { known: 0, total: PAIRS_GI }, "the next open counts it whole: the partial count was never cached");
+});
+
+test("stage 2, M counted independently: the Python dealer (scripts/_mdp_mechanics.py) deals the same pairs over the same seats", () => {
+  // review STAGE2F: the census computes M through the app's own `_movesKnownLine`, so alone it catches a stale count,
+  // not a wrong definition. The Python twin of the dealer (the MDP metadata's `Projection.options`) is a second
+  // implementation; over its allowed position seats, deduped by site and role, it must agree with the app in both rulesets.
+  const py = [
+    "import json, sys", "sys.path.insert(0, 'scripts')", "import _mdp_mechanics as mm",
+    "wire = json.load(open('source/quartz/static/neural/graph-data.json'))", "out = {}",
+    "for rs in ('gi', 'nogi'):",
+    "    P = mm.Projection(wire, {}, rs); seen = set(); pairs = seats = 0",
+    "    for n in P.by_id.values():",
+    "        if n.get('ty') != 'positions' or not n.get('allowed'): continue",
+    "        for role in ('top', 'bottom'):",
+    "            if (n['posId'], role) in seen: continue",
+    "            seen.add((n['posId'], role)); o = P.options(n['id'], role)",
+    "            if o: seats += 1; pairs += len(o)",
+    "    out[rs] = {'pairs': pairs, 'seats': seats}",
+    "print(json.dumps(out))"].join("\n");
+  const r = spawnSync("python3", ["-c", py], { cwd: new URL("..", import.meta.url).pathname, encoding: "utf8" });
+  assert.equal(r.status, 0, "the Python dealer ran: " + r.stderr);
+  const got = JSON.parse(r.stdout);
+  for (const mode of ["gi", "nogi"]) {
+    const a = wireBoot({ v: 2 }, mode);
+    assert.equal(got[mode].pairs, a._movesKnownLine().total, mode + ": the two dealers count the same pairs");
+    assert.equal(got[mode].seats, seatsOf(a).filter((x) => a.rsAllowsIdx(x.i)).length, mode + ": over the same seats");
+  }
+  assert.deepEqual([got.gi.pairs, got.nogi.pairs], [PAIRS_GI, PAIRS_NOGI], "and the census literals");
+});
+
 test("stage 2, the worth: a known pair +0.15 on its deck, a seat 0.15 x the share known, one cap, no flashcard figure moves", () => {
   const plain = wireBoot(oldBlob(boot({ v: 2 }))), a0 = numbers(plain);
   const mount = seatsOf(plain).find((s) => s.key === "Mount|Top"), half = mount.dealt.slice(0, mount.dealt.length >> 1);
@@ -292,7 +464,7 @@ test("stage 2, the worth: a known pair +0.15 on its deck, a seat 0.15 x the shar
   assert.equal(a.mastery("Mount|Top"), Math.min(0.15, 0.09 + 0.15 * share), "prep 3 + the seat's share, under the cap");
   assert.equal(a.mastery("Mount|Top"), 0.15, "capped: the +30 ceiling (seat + move) stands");
   const third = wireBoot({ moves: { [mount.st]: Object.fromEntries(mount.dealt.slice(0, 3).map((d) => [d, row(true)])) }, v: 2 });
-  assert.ok(Math.abs(third.mastery("Mount|Top") - 0.15 * 3 / mount.dealt.length) < 1e-12, "no flashcards: exactly 0.15 x the share known");
+  assert.ok(Object.is(third.mastery("Mount|Top"), M.ngKnowledgeMastery(5 * (3 / mount.dealt.length))), "no flashcards: the law at 5 x the share known (0.15 x the share)");
   // nothing the flashcards own moves: Mastered, deck mastery, due, today's Practice count
   const n = numbers(a);
   for (const f of ["menu", "due", "today", "prep", "stage", "rec", "srs"]) assert.deepEqual(n[f], a0[f], f + " is the flashcards' and does not move");
@@ -343,6 +515,16 @@ test("stage 2, gold level 2 = known and its flashcards learned, in either order;
   assert.ok(!a._movesGold().has(opt2.node.idx), "learned flashcards alone draw no moves gold");
   a._gradeMove(opt2, true, card2);
   assert.equal(a._movesGold().get(opt2.node.idx), 2); assert.equal(card2.attrs["data-mastered"], "2");
+  // an ESCAPE stays thin (review STAGE2E): its `deckKeyFor(node)` is the submission's attacking half, not its own deck.
+  // Control: the same submission dealt as a move of its own, known, does thicken.
+  const sub = a.nodes.find((x) => x.id === "Submissions/Kimura/from-Mount" && x.role !== "defender"), skey = a.deckKeyFor(sub).key;
+  learn(skey);
+  const esc = { action: "escape", label: "Bridge and roll out of the Kimura", node: sub }, own = { node: sub, idx: sub.idx };
+  for (const o of [esc, own]) { const [st, mv] = a._moveKey(o); (a.moves[st] = a.moves[st] || {})[mv] = row(true); }
+  a._publishKnowledge("test");
+  const escCard = CARD(), ownCard = CARD();
+  a._goldCard(escCard, esc); a._goldCard(ownCard, own);
+  assert.deepEqual([escCard.attrs["data-mastered"], ownCard.attrs["data-mastered"]], ["", "2"], "a known escape stays thin; the known move on the same learned deck is double");
   // a ruleset switch: a seat whose gi hand has moves no-gi does not deal. Know exactly its no-gi hand.
   const gi = seatsOf(a), nogi = seatsOf(wireBoot({ v: 2 }, "nogi"));
   const seat = nogi.find((s) => { const g = gi.find((x) => x.st === s.st); return g && g.dealt.length > s.dealt.length && s.dealt.every((d) => g.dealt.includes(d)); });
@@ -358,6 +540,14 @@ test("stage 2, gold level 2 = known and its flashcards learned, in either order;
   assert.equal(b._seatShare(seat.key), 1, "no-gi: the whole seat");
   assert.equal(b._movesGold().get(orb), 1, "no-gi: seat gold");
   assert.deepEqual(b._movesKnownLine(), { known: seat.dealt.length, total: PAIRS_NOGI });
+  // the same switch through the app's own setter (review STAGE2F): it rebuilds the ruleset mask, which every reader takes
+  const c = wireBoot({ v: 2, moves: { [seat.st]: Object.fromEntries(seat.dealt.map((d) => [d, row(true)])) } }, "gi");
+  c.explorerListRef = { current: null };
+  assert.equal(c._movesGold().has(orb), false, "gi, before the setter: no seat gold");
+  c.setGiMode("nogi");
+  assert.deepEqual([c._seatShare(seat.key), c._movesGold().get(orb), c._movesKnownLine().total], [1, 1, PAIRS_NOGI], "setGiMode(\"nogi\"): share, gold and line follow");
+  c.setGiMode("gi");
+  assert.deepEqual([c._seatShare(seat.key), c._movesGold().has(orb), c._movesKnownLine().total], [seat.dealt.length / share.dealt.length, false, PAIRS_GI], "...and back");
 });
 
 test("stage 2, before the first landing: a seat's share is dealt with no position stood on, and says nothing failed", () => {
@@ -370,6 +560,35 @@ test("stage 2, before the first landing: a seat's share is dealt with no positio
   assert.equal(a._movesGold().get(mount.i), 1, "...so its orb is gold on the first frame");
   assert.equal(a.currentPos, undefined, "...and nothing was left standing");
   assert.deepEqual(a.beats.filter((b) => b.beat === "moves_hand_failed"), [], "no hand failed to deal");
+});
+
+test("stage 2, Practice with a study comparison in hand: a deck the moves fill keeps its weak-spots place, nothing lost", async () => {
+  // dev ranks a known pair's deck when a comparison is in hand (its game headroom is the flashcards'); this PR fills its
+  // game odds, so the presenter withholds it (`componentHeadroom.permanent` 0: gameplan-study-presenter.src.js `member`)
+  // and only the other decks come back ranked. The planner then gives it its weak-spots place after the ranked decks.
+  const G = await import("../neural/src/gameplan.src.js");
+  const setup = (moves) => {
+    const a = wireBoot({ v: 2, moves });
+    a._gameplanRuntime = G; a._gameStudyState = { phase: "ready" };
+    a.flashcards = { decks: {}, manifest: true };
+    for (const k of ["Mount|Top", "Side Control|Top"]) a.flashcards.decks[k] = { n: 4, cards: [0, 1, 2, 3].map((i) => ({ q: k + " q" + i, a: "x" })) };
+    return a;
+  };
+  const compare = (a, keys) => { a._gameplanProvider = { kind: "learning-opportunity", stamp: a._gameplanStamp(), status: "ready", assumptions: ["a comparison"],
+    rows: keys.map((key, i) => ({ key, status: "ready", score: 2 - i, exposure: 0.5, headroom: 0.15, role: key.split("|")[1], reason: "Practising this could win you more games." })) }; };
+  const dev = setup({}), mount = seatsOf(dev).find((x) => x.key === "Mount|Top");
+  compare(dev, ["Side Control|Top", "Mount|Top"]);                 // dev's view of this account: both decks ranked
+  const a = setup({ [mount.st]: Object.fromEntries(mount.dealt.map((d) => [d, row(true)])) });
+  assert.equal(a.mastery("Mount|Top"), 0.15, "every Mount Top move known: its game odds are full");
+  compare(a, ["Side Control|Top"]);                                // this PR: the comparison cannot rank Mount|Top
+  const p0 = dev.planSummary(), p1 = a.planSummary(), num = (n) => String(n);
+  assert.deepEqual(p0.fresh.map((r) => r.key), ["Side Control|Top", "Mount|Top"], "dev: both offered, in the comparison's order");
+  assert.deepEqual(p1.fresh.map((r) => r.key), ["Side Control|Top", "Mount|Top"], "this PR: both still offered, Mount|Top after the ranked deck");
+  assert.equal(p1.fresh[1].source, "weak-spots", "...in its weak-spots place, never passed off as a comparison result");
+  assert.deepEqual([dev._gameStudyStatText(p0, num), a._gameStudyStatText(p1, num)], ["2 new", "2 new"], "the Practice line reads the same");
+  assert.deepEqual([p0.newCards, p1.newCards], [8, 8], "the same new cards");
+  assert.deepEqual([p0.status, p1.status], ["ready", "ready"], "the comparison's status does not turn \"partial\" (review STAGE2F)");
+  assert.deepEqual([p0.missing, p1.missing], [[], []], "a deck the moves fill is not missing a comparison: it has nothing to rank");
 });
 
 test("stage 2, Practice keeps the flashcard-only figure: every Mount Top move known, Mount|Top's cards are still offered as new", async () => {
@@ -388,7 +607,7 @@ test("stage 2, Practice keeps the flashcard-only figure: every Mount Top move kn
   const fresh = a.planSummary().fresh.map((r) => r.key);
   assert.ok(fresh.includes("Mount|Top"), "Practice still offers Mount|Top as new: " + JSON.stringify(fresh));
   assert.ok(probe.planSummary().fresh.some((r) => r.key === "Mount|Top"), "control: offered with nothing known too");
-  // the study presenter's descriptor stays the profile's: 0.15 - permanent, to 1e-12 (gameplan-study-presenter.src.js)
+  // the study presenter's descriptor stays the profile's: 0.15 - permanent, exactly (the presenter itself allows 1e-12)
   const P = a.knowledgeProfile(), D = a._gameplanDecks();
-  for (const k of Object.keys(D)) assert.ok(Math.abs(D[k].headroom - (0.15 - (P.permanent[k] || 0))) <= 1e-12, k + ": the presenter's descriptor");
+  for (const k of Object.keys(D)) assert.ok(Object.is(D[k].headroom, Math.max(0, 0.15 - (P.permanent[k] || 0))), k + ": the presenter's descriptor");
 });

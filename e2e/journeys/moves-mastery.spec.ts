@@ -278,6 +278,29 @@ test("@curated gold, on the card and on the map: thin when known, twice as thick
   expect(ratio > 1.6 && ratio < 2.6, `the map's outline about doubles: ${m1.near} -> ${m2.near} px (x${ratio.toFixed(2)})`).toBe(true)
 })
 
+test("@curated a seat known in part, below the cap: every card's Win % prints, and the worker reads the card's own figure", async ({ page }) => {
+  // review STAGE2E/F: the provider compares the card's chance with the worker's by `!==` and one card that differs makes
+  // every card print "—". The first build differed by an ulp on 29 of 6,648 partly known gi seat states; this is one of
+  // them (Back Control Top, 7 of its 17 dealt moves known, no flashcards: app 0.06176470588235294, worker
+  // 0.06176470588235293), red on that build with `live-knowledge-probability-mismatch`. The cases above sit on the cap.
+  test.setTimeout(240_000)
+  const known = ["Submissions/Rear-Naked-Choke/from-Back-Control", "Submissions/Suloev-Stretch/from-Half-Guard",
+    "Transitions/Back-Control-to-Seat-Belt-Control-Back", "Submissions/Rear-Triangle-Choke/from-Back-Control",
+    "Submissions/Armbar/from-Back-with-Legs", "Submissions/Short-Choke/from-Back-Control", "Transitions/Gift-Wrap-from-Back"]
+  const j = journey(page)
+  await j.boot("/", { initialState: { v: 2, moves: { [ORD["Positions/Back-Control"] + "/top"]: Object.fromEntries(known.map((id) => [String(ORD[id]), [DAY + 3, 3, DAY - 1, 1]])) } } })
+  await j.land("Back Control Top")
+  await settled(page)
+  const r = await page.evaluate(() => {
+    const a = (window as W).__neural, own = a._optionCards.filter((c: W) => !c.opt.threat)
+    return { share: a._seatShare(a._posKey), m: a.mastery(a._posKey), perm: a.knowledgeProfile().permanent[a._posKey], n: own.length,
+      wins: own.map((c: W) => c.card.querySelector("[data-choice-win]")?.textContent || "") }
+  })
+  expect(r.share > 0 && r.share < 1 && r.m < 0.15, `a part of the seat known, below the cap (share ${r.share}, ${r.m})`).toBe(true)
+  expect(Object.is(r.perm, r.m), `the worker reads the card's own figure: ${r.perm} vs ${r.m}`).toBe(true)
+  expect(r.wins.filter((w: string) => !/^\d+$/.test(w)), `every one of the ${r.n} cards prints its Win %`).toEqual([])
+})
+
 test.describe("touch", () => {
   test.use({ hasTouch: true, isMobile: true, viewport: { width: 390, height: 844 } })
 

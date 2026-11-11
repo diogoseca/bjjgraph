@@ -34,6 +34,8 @@ export function ngGameplanRecommendations(provider, stamp, decks) {
   for (const [key, d] of Object.entries(decks)) {
     if (d.allowed === false || !d.count || !(d.headroom > 0)) continue;
     const r = byKey.get(key);
+    // a deck the known moves fill (stage 2) has nothing for a comparison to rank: not missing, so never "partial"
+    if (!r && d.oddsFull) continue;
     if (!r || r.status !== "ready" || !Number.isFinite(r.score) || !Number.isFinite(r.exposure) || r.exposure < 0 ||
         !Number.isFinite(r.headroom) || r.headroom <= 0 || r.headroom > d.headroom + 1e-9 ||
         typeof r.reason !== "string" || !r.reason.trim() || !r.role || r.role !== key.split("|")[1]) {
@@ -126,7 +128,7 @@ const NG_PRACTICE_REVIEWS_PER_NEW = 4;
 // cards and 77 owed the whole goal again). Goal 20: 20 new on a clear day, 4 once 16 or more are owed.
 const ngPracticeRoom = (left, due) => Math.max(0, Math.min(left, Math.max(left - due, Math.ceil(left / (NG_PRACTICE_REVIEWS_PER_NEW + 1)))));
 
-// Deck descriptors: {count, questions:[hash], exact, allowed, headroom}.
+// Deck descriptors: {count, questions:[hash], exact, allowed, headroom, oddsFull?}.
 // A manifest supplies shared hashes + stored SRS hashes before hydration. The
 // remainder is counted as pending, never treated as already reviewed.
 export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, decks = {}, srs = {}, provider, fallback }) {
@@ -135,6 +137,14 @@ export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, de
   let ranking = ngGameplanRecommendations(provider, stamp, decks);
   const comparison = ranking.status;
   if (fallback && ["unavailable", "pending", "stale"].includes(comparison)) ranking = ngGameplanWeakSpots(fallback, decks);
+  // STAGE 2 (v1.256.0, review STAGE2E): a deck whose game odds the known moves already fill (`oddsFull`) has no in-game
+  // headroom left for a comparison to rank (the presenter withholds it), while its flashcards are still new. It keeps
+  // its weak-spots place AFTER every deck the comparison ranked, so a comparison never takes away what Practice offers.
+  else if (fallback) {
+    const ranked = new Set(ranking.rows.map((r) => r.key));
+    const kept = ngGameplanWeakSpots(fallback, decks).rows.filter((r) => decks[r.key].oddsFull && !ranked.has(r.key));
+    if (kept.length) ranking = { ...ranking, rows: ranking.rows.concat(kept) };
+  }
   const budget = Math.max(0, Math.floor(Number.isFinite(target) ? target : 20)), left = budget - reviewed.length;
   const room = ngPracticeRoom(left, debt.count);
   const used = new Set([...reviewed, ...debt.questions]);
