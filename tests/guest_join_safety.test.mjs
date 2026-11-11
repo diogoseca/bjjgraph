@@ -18,10 +18,10 @@
 //      one-account browser and asks on a browser another account has used.
 // MUTANTS (2026-11-11, each turned the named test red):
 //   ngProgressGuestMoves returns `merged` unchanged          → 2 (known moves never drop: the account side)
-//   ngProgressGuestPart keeps `settings`                    → 3 (settings and consent stay the account's)
+//   ngProgressGuestPart keeps `settings`                    → 1 and 3 (the account's settings and consent are its own)
 //   guestOffer skips the "adds nothing" check               → 3 (an empty guest copy offers nothing)
 //   acceptGuest does not write the marker                   → 3 (offered once)
-//   otherAccount ignores other accounts' keys               → 4 (c asks on a shared browser)
+//   otherAccount ignores other accounts' keys               → 3 and 4 (c asks on a browser another account has used)
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
