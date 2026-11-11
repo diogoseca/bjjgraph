@@ -54,9 +54,12 @@ function expectCovered(o: Awaited<ReturnType<typeof overlay>>, phase: string) {
   }
 }
 
-/** The triangle's centre against the circle's centre, measured. */
-const triangle = (page: Page, scope: string) => page.evaluate((sel) => {
+/** The triangle's centre against the circle's centre, measured AT REST: the hover's 1.03 scale eases back over .16s
+ *  (wireClips), and the ✕ vanishing under a still pointer hands the card a mouseenter, so a reading taken while that
+ *  transition runs measured a 30.08px circle (first run, the viewer at 1440). */
+const triangle = (page: Page, scope: string) => page.evaluate(async (sel) => {
   const g = document.querySelector(sel + " .ngPlay")!, t = g.querySelector("polygon")!
+  await Promise.all(g.getAnimations().map((a) => a.finished))
   const c = g.getBoundingClientRect(), p = t.getBoundingClientRect()
   return { w: c.width, h: c.height, dx: p.left + p.width / 2 - (c.left + c.width / 2), dy: p.top + p.height / 2 - (c.top + c.height / 2) }
 }, scope)
