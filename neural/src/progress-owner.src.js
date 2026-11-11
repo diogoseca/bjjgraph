@@ -12,6 +12,28 @@ const NG_PROGRESS_LEGACY_FIELD_PREFIX = "bjj-neural-";
 
 function ngProgressObject(value) { return !!value && typeof value === "object" && !Array.isArray(value); }
 function ngProgressClone(value) { return JSON.parse(JSON.stringify(value)); }
+// v1.255.2: what a cloud write would store, for "has anything changed since the cloud last held this?". Two things are left out:
+// `updatedAt`, the one write-time stamp (`_progressBlob` sets it to the clock on every call, so two writes of the same progress always
+// differ there), and key order, at every depth (the database's JSONB reorders keys, and a merge may build them in another order).
+// Leaving `updatedAt` out is safe: only two merge steps read it, and neither needs a push that advances nothing else. Settings merge
+// per key on `settingsAt` and fall back to the blob's stamp only for keys older than per-key stamps; there a stamp-only push would make
+// an unchanged value look newer than another device's real edit. The white-challenge migration stamps what it migrates with it.
+// Three arrays are SETS (#360's review): the merge unions them, the local order first, so two devices hold one set in two orders
+// and, compared in order, pushed the whole blob on every pull. They are compared as sets here, in the key only (the stored blob keeps
+// its order): `explored`, each day's `dayLog[d].k`, and each list's `items` (nothing reorders a list; add and remove only). Every
+// other array is ORDERED and compared in order: the srs, moves and flow rows (positional tuples), `dayLog[d].b`, the belt
+// grandfather, and any array a setting holds (settings merge by whole value).
+export function ngProgressCloudKey(blob) {
+  const sorted = (v) => Array.isArray(v) ? v.map(sorted)
+    : ngProgressObject(v) ? Object.keys(v).sort().reduce((out, k) => { out[k] = sorted(v[k]); return out; }, {}) : v;
+  const set = (v) => Array.isArray(v) ? v.slice().sort() : v;
+  const each = (map, field) => ngProgressObject(map) ? Object.fromEntries(Object.entries(map).map(([k, e]) => [k, ngProgressObject(e) ? { ...e, [field]: set(e[field]) } : e])) : map;
+  const { updatedAt, ...rest } = ngProgressObject(blob) ? blob : {};
+  if ("explored" in rest) rest.explored = set(rest.explored);
+  if ("dayLog" in rest) rest.dayLog = each(rest.dayLog, "k");
+  if ("lists" in rest) rest.lists = each(rest.lists, "items");
+  return JSON.stringify(sorted(rest));
+}
 function ngProgressFreeze(value) {
   if (value && typeof value === "object") { Object.values(value).forEach(ngProgressFreeze); Object.freeze(value); }
   return value;

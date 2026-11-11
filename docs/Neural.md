@@ -135,8 +135,8 @@ focused mini-row first.
 **Recall comes with rank** (v1.133.0): from BLUE belt up (`_recallInPlayNow`; the WORN belt since
 v1.211.0, §8 — never a Game Knowledge band), a stage-2+ card
 asks as timed recall Q/A in play; below blue, recognition-first MC holds. **That rank gate prices
-a question asked against a running CLOCK, and only those.** The paused node study card takes
-`askFormat` instead: recognition below stage 2, recall at or above it, whatever the belt. The black-belt badge
+a question asked against a running CLOCK, and only those** (the paused node study card's own ladder went with the
+dossier, v1.255.1). The black-belt badge
 still force-enables the toggle early. `renderChallengeCue` only removes a stale cue card. **Win chance explains itself** in the score tooltip (§4).
 
 **Technique navigation** keeps the chosen node's camera (`camFocus`), URL (`_syncUrl`),
@@ -724,8 +724,7 @@ because several study entry points assign `deckOpen` directly. A hand-paused rol
 Closing Settings through its backdrop keeps the pause while the drawer is open, including during a catch.
 The catch-time drawer icon also owns its wheel input, so scrolling over it cannot zoom the map.
 
-Every pauser owns its own latch — `_paneAutoPaused`, `_replayAutoPaused`,
-`_dossierAutoPaused` — so releasing gives back only the pause you took, transferring it to any
+Every pauser owns its own latch — `_paneAutoPaused`, `_replayAutoPaused` — so releasing gives back only the pause you took, transferring it to any
 still-open pane or replay. Reading holds play until a move or landing-card answer.
 
 On a phone the pane is an 88vw drawer and **is** the screen, so closing it is how you look at the

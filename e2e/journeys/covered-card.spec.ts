@@ -491,10 +491,8 @@ test('@curated U35 every question builder segregates technique media', async ({ 
       add('mc-' + surface, a._mcBlock(card, key, () => {}, surface))
       add('recall-' + surface, a._recallBlock(card, key, () => {}, surface))
     }
-    const node = document.createElement('div')
-    a._renderNodeQuestion(a.nodes[a._landIdx], node)
-    if (!node.textContent) throw Error('Node question fixture is empty')
-    add('node-question', node)
+    // v1.255.1: the node dossier's question (`_renderNodeQuestion`) is retired with the dossier (§6.8); its builders' "node"
+    // surface above still renders through the shared _mcBlock/_recallBlock and stays audited.
     // renderDrill owns the full study/checkpoint face and its footer, beyond the
     // shared MC block. Clone its emitted DOM before the next format replaces it.
     for (const mode of ['classic', 'mc']) {
@@ -508,7 +506,7 @@ test('@curated U35 every question builder segregates technique media', async ({ 
     }
     return [...document.querySelectorAll('[data-question-surface]')].map(e => e.getAttribute('data-question-surface'))
   })
-  expect(builders).toHaveLength(16)
+  expect(builders).toHaveLength(15) // 16 until v1.255.1: the node dossier's question went with the dossier
   const violations = await page.locator('[data-question-surface]').evaluateAll(roots => roots.flatMap(root => {
     const controls = [...root.querySelectorAll('button,a,[role=button]')].filter(e => /watch|play (?:video|technique)|next video/i.test((e.textContent || '') + ' ' + e.getAttribute('aria-label')))
     const media = [...root.querySelectorAll('video,iframe,[poster],.ng-clip,.ngPlayerHost,[data-film-play],[data-choice-watch],img[src*="ytimg"],a[href*="youtu"]')]

@@ -34,6 +34,8 @@ const cssPath = process.env.NEURAL_MUTANT_CSS, cssOriginal = cssPath ? readFileS
 // u16-band-restoration-lost, slowclear, d355-flight-lift-ungated, d355-flight-lift-lost, flight-lift-fixed-margin,
 // flight-lift-tracking-lost, concept-fit-reveal-lost, u47-question-tap-dead, u47-desktop-offer-lost, reading-intent-blocks-digit.
 // They are left as they were, recorded, not counted as coverage until someone retargets them.
+// v1.255.1 (the dossier retired): the minifier renamed locals in four rows' functions; noahead-exchange-1440/-390, ask-fit-late
+// and film-none-close-back are retargeted (f -> m), and replay against the served bundle as before.
 const controls = [
   // D10-N1: a genuinely held deck manifest lands while Watch is open. Suppress only that backfill;
   // the new question-presence claim must fail, rather than passing on an already-mounted card.
@@ -95,9 +97,9 @@ const controls = [
     [['_liftForLanding(e,t){let s=this.nodes&&this.nodes[t];', '_liftForLanding(e,t){return e;let s=this.nodes&&this.nodes[t];']], 'ZERO overlap URL arrival @'],
   // noahead: `_viewRect` ignores `ahead`, so a landing's band is not predicted before its rows mount.
   ['noahead-exchange-1440', 'camera-continuity.spec.ts', '1440px camera continuity.*an exchange lands on a new current node',
-    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),f=!0)', '!1&&(a=this._predictBottom(e.ahead),f=!0)']], 'ZERO overlap exchange @'],
+    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),m=!0)', '!1&&(a=this._predictBottom(e.ahead),m=!0)']], 'ZERO overlap exchange @'],
   ['noahead-exchange-390', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange lands on a new current node',
-    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),f=!0)', '!1&&(a=this._predictBottom(e.ahead),f=!0)']], 'ZERO overlap exchange @'],
+    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),m=!0)', '!1&&(a=this._predictBottom(e.ahead),m=!0)']], 'ZERO overlap exchange @'],
   // D-433 (2026-10-26): migrate only the phone ordering/short-band premises.
   // U16's account, card spacing, scrolled input, handoff and restoration controls remain.
   // Run at 1cf59ba38 (answerpts round 2): all six killed at the claims named here.
@@ -271,9 +273,9 @@ const controls = [
   // NOT KILLED since v1.253.0: the tease spans the choices row, and no authored question (100 characters at most) needs fitting there,
   // so a late fit wraps nothing. Kept as the record; the fit's column path has no live claim.
   ['ask-fit-late', 'article-dashboard.spec.ts', 'other column \\(30% down\\)',
-    [['f.clientWidth!==f._fitW&&this._fitAskLine(f,f._fitW=f.clientWidth)}return', 'f.clientWidth}return']], 'the asking line stays one line on every pass'],
+    [['m.clientWidth!==m._fitW&&this._fitAskLine(m,m._fitW=m.clientWidth)}return', 'm.clientWidth}return']], 'the asking line stays one line on every pass'],
   ['film-none-close-back', 'film-suggest.spec.ts', 'about that move at 1440',
-    [['if(e.length){let f=document.createElement("button");f.type="button",f.setAttribute("data-film-close","1")', 'if(1){let f=document.createElement("button");f.type="button",f.setAttribute("data-film-close","1")']],
+    [['if(e.length){let m=document.createElement("button");m.type="button",m.setAttribute("data-film-close","1")', 'if(1){let m=document.createElement("button");m.type="button",m.setAttribute("data-film-close","1")']],
     'nothing to dismiss: no ✕'],
   // v1.254.0 (owner, 2026-11-10): the legend's key shows on the map alone (`_mapAlone`, read from the screen every frame).
   ['key-shows-over-article', 'legend-search.spec.ts', 'nowhere a node is revealed \\(1440',
@@ -315,6 +317,23 @@ const controls = [
     [['for(let s of t)this._afterPress(s)', 'for(let s of t);']], 'a family alias finds its site'],
   ['alias-retry-dead', 'alias-search.spec.ts', 'explicit Retry recovers',
     [['{this._aliasesFailed=!1,t()}', '{t()}']], 'Kosoto Gari'],
+  // v1.255.1: the dossier is retired; its close's one live line (the landing card's suppression lifted unless the tray holds it)
+  // moved into _tapBackground. NOT KILLED, recorded (both rows): EQUIVALENT, as expected: only _suppressTray and the fresh-card
+  // rule suppress the card, both while _traySup is true, when this line does not run. Kept as the record, not as coverage.
+  ['tap-unsuppress-lost-roll', 'roll-card.spec.ts', 'background taps',
+    [['_tapBackground(){var e;if(this._traySup||this._suppressLand(!1),this.closeDeckIfStudying(),', '_tapBackground(){var e;if(this.closeDeckIfStudying(),']], 'card'],
+  ['tap-unsuppress-lost-index', 'index-reveal.spec.ts', 'background tap',
+    [['_tapBackground(){var e;if(this._traySup||this._suppressLand(!1),this.closeDeckIfStudying(),', '_tapBackground(){var e;if(this.closeDeckIfStudying(),']], 'card'],
+  // v1.255.2: the Google button writes the sign-in intent its SIGNED_IN counts (tests/save_echo.test.mjs pins the counting rule).
+  ['google-intent-unwritten', 'signin-intent.spec.ts', 'Continue with Google writes the sign-in intent',
+    [['this._signinIntent("google",t),this.track("neural_signin_started"', 'this.track("neural_signin_started"']], 'the Google button writes the intent'],
+  // #360's review (E1, E5): Log in writes its intent too, and an attempt that fails in place removes it, either way.
+  ['email-intent-unwritten', 'signin-intent.spec.ts', 'Log in with an email writes the sign-in intent',
+    [['this._signinIntent("email",t),this.track("neural_signin_started"', 'this.track("neural_signin_started"']], 'Log in writes the intent'],
+  ['email-failure-keeps-intent', 'signin-intent.spec.ts', 'fails in place leaves no intent',
+    [['catch(p){this._signinAbandoned(),a(p&&p.message||"Sign-in failed', 'catch(p){a(p&&p.message||"Sign-in failed']], 'a failed attempt leaves no intent (email)'],
+  ['google-failure-keeps-intent', 'signin-intent.spec.ts', 'fails in place leaves no intent',
+    [['catch(f){this._signinAbandoned(),a(f&&f.message||"Google sign-in failed.', 'catch(f){a(f&&f.message||"Google sign-in failed.']], 'a failed attempt leaves no intent (Google)'],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')

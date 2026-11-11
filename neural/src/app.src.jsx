@@ -15,6 +15,9 @@ function ngAuthIsGuest(auth) {
 // rising above "Your options". true = variant B: the same hits plus a central bubble over the hand.
 // The owner chooses from the demo; both paths are the same seam (`_outcomeCause`).
 const NG_OUTCOME_BUBBLE = false;
+// v1.255.2: a sign-in this browser started (see _signinCompleted), and how long it may take to complete: 30 minutes for a log-in or
+// Google's round trip, 24 hours for a sign-up's email confirmation. One localStorage key per browser, never per account: no owner.
+const NG_SIGNIN_INTENT_KEY = "bjj-neural-signin-intent", NG_SIGNIN_INTENT_MS = 30 * 60 * 1000, NG_SIGNIN_CREATE_MS = 24 * 60 * 60 * 1000;
 // EVERY CARD ANSWERED IN ONE LANDING MOVES THIS EXCHANGE AGAIN, BY A SMALLER STEP (v1.221.0, owner
 // 2026-10-05: "answering more flashcards should increase/decrease choices proba further, it's not a 1
 // slot thing, but many"). Row k-1 is the k-th card RESOLVED in one landing (answered, or run out of
@@ -371,7 +374,6 @@ class Component extends DCLogic {
   optionsRef = React.createRef();
   fxRef = React.createRef();
   drillRef = React.createRef();
-  drillTitleRef = React.createRef();
   drillHeadRef = React.createRef();
   drillListRef = React.createRef();
   drillFootRef = React.createRef();
@@ -429,11 +431,9 @@ class Component extends DCLogic {
   explorerSearchWrapRef = React.createRef();
   explorerToolsRef = React.createRef();
   dossierRef = React.createRef();
-  dossierSheetRef = React.createRef();
   viewToggleRef = React.createRef();
   ghChipRef = React.createRef();
   _viewMode = "explore";   // the drawer's list: an open that names no view lands home (SIDE-R2 M8)
-  nodeCardRef = React.createRef();
   evCenterRef = React.createRef();
   evcKickerRef = React.createRef();
   evcTextRef = React.createRef();
@@ -444,16 +444,15 @@ class Component extends DCLogic {
       canvasRef: this.canvasRef, wrapRef: this.wrapRef, loaderRef: this.loaderRef,
       evRef: this.evRef, evKickerRef: this.evKickerRef, evTextRef: this.evTextRef,
       optionsRef: this.optionsRef, fxRef: this.fxRef,
-      drillRef: this.drillRef, drillTitleRef: this.drillTitleRef, drillHeadRef: this.drillHeadRef, drillListRef: this.drillListRef, drillFootRef: this.drillFootRef, drillCountRef: this.drillCountRef,
+      drillRef: this.drillRef, drillHeadRef: this.drillHeadRef, drillListRef: this.drillListRef, drillFootRef: this.drillFootRef, drillCountRef: this.drillCountRef,
       shareCueRef: this.shareCueRef,
       closeDeck: () => this.setDeckOpen(false), drawerHome: () => this.drawerHome(), openSignup: () => this.openAuth("create"),
-      statusRef: this.statusRef, legendMarkRef: this.legendMarkRef,
+      legendMarkRef: this.legendMarkRef,
       accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctMenuRef: this.acctMenuRef, acctCtaRef: this.acctCtaRef, toggleAccountMenu: () => this.toggleAccountMenu(),
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
-      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef,
+      explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef,  viewToggleRef: this.viewToggleRef,
       toggleExplorer: () => this.toggleExplorer(), openSearchPane: () => this.openSearchPane("icon"),
       legendPointRef: this.legendPointRef, legendRef: this.legendRef,
-      togglePause: () => this.setPaused(!this.paused), resetRoll: () => this.resetRoll(),
       evCenterRef: this.evCenterRef, evcKickerRef: this.evcKickerRef, evcTextRef: this.evcTextRef, evcSubRef: this.evcSubRef,
     };
   }
@@ -757,7 +756,7 @@ class Component extends DCLogic {
    * pane, and the stale latch resumes a roll the user had just paused by hand. The promise
    * inverted. A deliberate pause/resume clears the pane, dossier and background claims. */
   _clearPauseLatches() {
-    this._paneAutoPaused = false; this._dossierAutoPaused = false;
+    this._paneAutoPaused = false;
     this._bgAutoPaused = false;
   }
   setPaused(p) {
@@ -976,14 +975,8 @@ class Component extends DCLogic {
         if (this._expandedClip && this._expandedClip.closest("[data-concept-film]")) {
           e.preventDefault(); const clip = this._expandedClip; this.collapseClip(clip); clip.focus(); return;
         }
-        if (this.closeNodeDossier()) return; // in-node dossier open (desktop) — fly back out
         if (this.stopReplay("esc")) return;  // a film is ambient chrome: it stops before the pane closes
-        const sh = this.dossierSheetRef.current;
-        if (sh && sh.style.display === "block") { this.closeDossierSheet(); }
-        else if (this.deckShown) {
-          if (this._dossierIdx != null) this.showExplorerList();
-          else this.setDeckOpen(false);
-        }
+        if (this.deckShown) this.setDeckOpen(false);
       } else if (!typing && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         e.preventDefault();
         const f = (this._rollFocus == null ? (this.rollLog ? this.rollLog.length - 1 : 0) : this._rollFocus);
@@ -2202,13 +2195,6 @@ class Component extends DCLogic {
   }
   /** True for the "Top"/"Attacker" half of a deck key — the `primary` side seatWord() asks about. */
   seatIsPrimary(role) { const r = String(role || "").toLowerCase(); return r === "top" || r === "attacker"; }
-  advLabel(d) {
-    if (d >= 0.55) return "Dominant";
-    if (d >= 0.18) return "Winning";
-    if (d > -0.18) return "Even";
-    if (d > -0.55) return "Losing";
-    return "In trouble";
-  }
   // The legend marker is the current decision's WIN CHANCE (`_paintWinThermometer`, v1.207.0), not
   // this node's dominance. A landing only means the shown value belongs to the previous decision.
   setStatus(node) {
@@ -2271,14 +2257,14 @@ class Component extends DCLogic {
   // AND SO DOES THE DOM (v1.171.0). Owner, on the aka rows: "those trailing Top vs aka without
   // top is weird. actually the top shouldn't appear there trailing, only in those subtitles."
   // Every DOM surface printed `splitName(n.t).main`, which for a position IS the whole title —
-  // so the canvas said "Kesa Gatame", the node card said "Kesa Gatame" (it strips, and hands the
-  // seat to its badge — see openDossier), and the Explore row, the search row, the list drawer,
+  // so the canvas said "Kesa Gatame", the node card said "Kesa Gatame" (the node card is retired,
+  // v1.255.1), and the Explore row, the search row, the list drawer,
   // the systems row and every naming prose line said "Kesa Gatame Top". Two answers to one
   // question (§6.5), and the row's answer is WRONG twice over: `_deriveDualPairs` gives both pair
   // members the hub's title, so a BOTTOM seat's row read "Top" too, and Explore lists SITES
   // (`if (!n.rep) continue`), where no seat is being named at all.
-  // THIS IS THE ONE NAME, on every surface. A seat is named beside it, never inside it: the node
-  // card's badge, the systems/concept row's role chip, the canvas rich label's role word.
+  // THIS IS THE ONE NAME, on every surface. A seat is named beside it, never inside it: the
+  // systems/concept row's role chip, the canvas rich label's role word.
   graphName(n) { return n.ty === "positions" ? this.posFamily(n.t) : this.splitName(n.t).main; }
   // Binary-search the longest prefix that fits, then ellipsize. `ctx.font` must already be set —
   // the caller owns it, because every label site draws at its own size.
@@ -2318,27 +2304,6 @@ class Component extends DCLogic {
   }
   // ---------- drill deck (flashcards) + dominance flash ----------
   deckCat(node) { return node.ty === "positions" ? "Position" : (node.ty === "submissions" ? "Submission" : "Transition"); }
-  richContentFor(n) {
-    // A POSITION HAS NO RICH CONTENT, AND ASKING COST EVERY VISITOR A 404 (CLAUDE.md §6.2).
-    // This hashed `n.t` for every node type. Technique dossiers ARE keyed by the bare title, so
-    // those hit; position dossiers are keyed "<Family>|<Role>" — and all 136 position hub titles
-    // end "… Top" as an artifact of the visual collapse, so `qhash("Gogoplata Control Top")`
-    // (9395f3c1) named a chunk that does not exist while the real one is `qhash("Gogoplata
-    // Control|Top")` (2bcdc86d). Measured: 136 of 136 position nodes missed, 0 of 1,331 technique
-    // nodes did. `_ngc` FETCHES on a miss, so the first landing of every session pulled a 404 —
-    // 27,788 B decoded / ~5,708 B on the wire, served `no-store` so the browser cache never
-    // suppressed the repeat, and it sits on the critical path before the first hand.
-    //
-    // AND THE FETCH COULD NEVER HAVE PAID OFF. This returns non-null only when the dossier carries
-    // `perspectives`, and NO position dossier does — 0 of 272, against 1,326 of 1,326 technique
-    // dossiers (counted over all 1,598 entries in static/neural/content/). Fixing the KEY instead
-    // would have been worse: it would fetch a real 3.7 KB chunk and still return null here.
-    // So the honest fix is to stop asking. Two other callers (:1606, :10226) already spell the
-    // position key correctly for their own purposes and warm the cache themselves.
-    if (!n || n.ty === "positions") return null;
-    const rc = this._ngc(n.t);
-    return (rc && rc.perspectives) ? rc : null;
-  }
   fmtDur(s) { s = Math.max(0, Math.round(s)); return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); }
   /**
    * `compact` is the landing card's variant (v1.101.0). The full strip is 170px of thumbnail
@@ -3130,8 +3095,7 @@ class Component extends DCLogic {
     this._landPaneHid = !!open;
     // ── PANE LAW ── the pane showing STOPS the game; hiding it resumes ONLY if the pane is what
     // stopped it (a hand-paused roll stays paused when you close it). One latch for the whole
-    // merged pane (any tab, any study surface) — _dossierAutoPaused stays separate for the node
-    // dossier. Latched here, not in setDeckOpen, because study, session and checkpoint entry
+    // merged pane (any tab, any study surface). Latched here, not in setDeckOpen, because study, session and checkpoint entry
     // points also assign deckOpen directly.
     // _paneTransition: the open/close beats run challenge-evidence processing, whose refresh
     // tail re-renders the pane body — mid-transition that's a double render that eats one-shot
@@ -3326,7 +3290,6 @@ class Component extends DCLogic {
     if (latest) this._scrollFocusedDeck();
     this.lastInteract = this.now;
   }
-  closeMenu() { this.setDeckOpen(false); }
   _deckHasCards(key) { const d = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null; return !!(d && d.cards && d.cards.length); }
   // ONE accessor for a deck's cards. A deck entry can be PRESENT but not hydrated: the
   // on-demand chunk path boots from a manifest stub ({n} with no `cards`) and fills
@@ -3983,13 +3946,6 @@ class Component extends DCLogic {
       else if (dr.bottom > lr.bottom - 12) list.scrollTop += dr.bottom - (lr.bottom - 12);
     });
   }
-  menuBtn(label, active, onClick) {
-    const b = document.createElement("button");
-    b.textContent = label;
-    b.style.cssText = "flex:1;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:600;padding:7px 4px;border-radius:8px;transition:none;border:1px solid " + (active ? "rgba(150,180,255,.6)" : "rgba(150,170,210,.16)") + ";background:" + (active ? "rgba(74,108,255,.26)" : "rgba(255,255,255,.03)") + ";color:" + (active ? "#eef1f6" : "#aeb6c8") + ";";
-    b.addEventListener("click", onClick);
-    return b;
-  }
   applyFont() {
     const stack = "'Space Grotesk'";
     this._displayFam = stack;
@@ -4127,9 +4083,6 @@ class Component extends DCLogic {
     if (this.__ngDestroyed) return;
     const changed = keys == null ? null : (Array.isArray(keys) ? keys : [keys]);
     try {
-      const node = this.nodes && this.nodes[this._nodeCardIdx];
-      const key = node && (node.ty === "positions" ? this.deckKeyFor(node).key : node.t);
-      if (this._nodeCardOn && (!changed || changed.includes(key))) { this._nodeCardIdx = null; this.updateNodeCard(this.W / this.cam.vw); }
       this._refreshReadingContent(changed);
     } catch (e) { /* non-fatal */ }
   }
@@ -6601,7 +6554,7 @@ class Component extends DCLogic {
   }
   _invalidateCloudSync() {
     this._authEpoch = (this._authEpoch || 0) + 1;
-    this._pulled = false; this._pulledUserId = null; this._pullToken = null;
+    this._pulled = false; this._pulledUserId = null; this._pullToken = null; this._cloudSeen = null;
     clearTimeout(this._pushT); this._pushT = null;
   }
   _clearAuthUser() {
@@ -6627,7 +6580,7 @@ class Component extends DCLogic {
           if (this._authDisposed || revision !== this._authEventRevision) return;
           if (event === "SIGNED_IN" || !this._pulled) this._pullAndMerge();
         }, 0);
-        if (event === "SIGNED_IN") this.track("neural_signin_completed", { method: this._authMethod || "session" });
+        if (event === "SIGNED_IN") this._signinCompleted();
       });
     }
     const revision = this._authEventRevision || 0, epoch = this._authEpoch || 0;
@@ -6639,6 +6592,9 @@ class Component extends DCLogic {
       if (user === null) { this._clearAuthUser(); return; }
       if (user && typeof user.id === "string" && user.id) {
         this._applyUser(user);
+        // #360's review (E2): the tab that returns from Google may subscribe after auth-js has fired its start-up SIGNED_IN, so a
+        // verified identity here spends an intent too. The intent is taken once, so it never counts twice.
+        this._signinCompleted();
         await this._pullAndMerge();
       }
     } catch (e) {
@@ -6646,6 +6602,36 @@ class Component extends DCLogic {
       this._invalidateCloudSync(); this._cloudSyncError = "identity-unavailable";
     }
   }
+  // v1.255.2: ONE COUNT PER SIGN-IN. auth-js 2.119 fires SIGNED_IN on every page load that restores a stored session (_initialize ->
+  // _recoverAndRefresh), on every tab return (_onVisibilityChanged) and, re-sent over its BroadcastChannel, in every other open tab, so
+  // `neural_signin_completed` counted visits. It now counts the sign-ins this browser started: Log in, Create account and Google write
+  // an intent ({method, mode, at}) to localStorage, which outlives Google's redirect (a new page load) and reaches the tab an email
+  // confirmation opens. The first SIGNED_IN within 30 minutes counts it and removes it, so the other tabs find none. NOT COUNTED: a
+  // sign-up confirmed on another device, which has no intent. GoTrue's `last_sign_in_at` cannot stand in for one: it belongs to the user,
+  // not the session, and a refresh on any device returns the newest, so a second device would count the first one's sign-in.
+  _signinIntent(method, mode) {
+    try { localStorage.setItem(NG_SIGNIN_INTENT_KEY, JSON.stringify({ method, mode, at: Date.now() })); } catch (e) { /* private mode */ }
+  }
+  // #360's review: the read-and-remove runs under a Web Lock where the browser has one (E3: storage reaches another tab on its own
+  // path, so two tabs could both read the intent); `intent_at` rides the event so a double count can still be removed in analysis.
+  // The window is 24 hours for a sign-up, whose confirmation email may be opened much later, and 30 minutes otherwise (E4).
+  _signinCompleted() {
+    const take = () => {
+      let intent = null;
+      try {
+        intent = JSON.parse(localStorage.getItem(NG_SIGNIN_INTENT_KEY) || "null");
+        if (intent) localStorage.removeItem(NG_SIGNIN_INTENT_KEY);
+      } catch (e) { intent = null; }
+      const age = intent && Date.now() - intent.at;
+      if (!intent || !(age >= 0 && age < (intent.mode === "create" ? NG_SIGNIN_CREATE_MS : NG_SIGNIN_INTENT_MS))) return;
+      this.track("neural_signin_completed", { method: intent.method, mode: intent.mode, intent_at: intent.at });
+    };
+    const locks = typeof navigator !== "undefined" && navigator.locks;
+    if (!locks || typeof locks.request !== "function") { take(); return; }
+    let ran = false;
+    Promise.resolve().then(() => locks.request(NG_SIGNIN_INTENT_KEY, () => { ran = true; take(); })).catch(() => { if (!ran) take(); });
+  }
+  _signinAbandoned() { try { localStorage.removeItem(NG_SIGNIN_INTENT_KEY); } catch (e) { /* private mode */ } }
   _applyUser(u) {
     if (!u || typeof u.id !== "string" || !u.id || !this._progressCurrent()) return;
     const changed = this._progressHost.authenticate(this, u);
@@ -6813,6 +6799,9 @@ class Component extends DCLogic {
     // An older cached facade cannot distinguish a failed read from an empty account.
     if (!A || A.neuralSyncVersion !== 2 || !A.pullNeural || !userId || this._authDisposed || !this._progressCurrent() || this._pullToken || this._progressLocalOnly) return false;
     const token = { epoch: this._authEpoch || 0, userId };
+    // A push in flight at any moment of this pull (one already in flight, or one starting or finishing meanwhile) may land at the
+    // server after the read, so what this pull read is not what the cloud holds: record nothing then, and the save after it pushes.
+    const pushesAtStart = this._pushesInFlight ? -1 : (this._pushEvents || 0);
     this._pullToken = token; this._pulled = false; this._pulledUserId = null;
     clearTimeout(this._pushT); this._pushT = null;
     const current = () => this._progressCurrent() && !this._authDisposed && this._pullToken === token
@@ -6826,6 +6815,8 @@ class Component extends DCLogic {
       // payloads are not an empty account and must never be overwritten by this client.
       const empty = cloud === null || (cloud && typeof cloud === "object" && !Array.isArray(cloud) && Object.keys(cloud).length === 0);
       if (!empty && (!cloud || typeof cloud !== "object" || Array.isArray(cloud) || ![1, 2].includes(cloud.v))) throw new Error("Unsupported cloud progress");
+      // v1.255.2: what the cloud holds now, for _pushCloud's "nothing changed" test. An empty account holds nothing to match.
+      const seen = empty ? null : { userId, key: ngProgressCloudKey(cloud) };
       if (!empty) {
         const next = this._mergeProgressBlobs(this._progressBlob(), cloud);
         if (!current()) return false;
@@ -6834,9 +6825,10 @@ class Component extends DCLogic {
         this._refreshChallengeEvidence();
       }
       if (!current()) return false;
-      this._pulled = true; this._pulledUserId = userId;
+      this._pulled = true; this._pulledUserId = userId; this._pushSeq = (this._pushSeq || 0) + 1;
+      this._cloudSeen = pushesAtStart === (this._pushEvents || 0) ? seen : null;
       this._cloudSyncError = null;
-      this._saveProgress();         // persist verified merge; only then allow this account's push
+      this._saveProgress();         // persist verified merge; then push only if the merge differs from what the cloud gave
       return true;
     } catch (e) {
       if (current()) { this._pulled = false; this._pulledUserId = null; this._cloudSyncError = "pull-failed"; }
@@ -6861,10 +6853,25 @@ class Component extends DCLogic {
       if (!current()) return;
       try {
         if (!A.isAuthenticated()) return;
+        // v1.255.2: NO ECHO. auth-js answers every tab return with SIGNED_IN, every SIGNED_IN pulls, and every pull saved and pushed
+        // the merged blob back, changed or not (Supabase check, 2026-11-10: 18% or more of all saves). A blob equal, without its
+        // write stamp (ngProgressCloudKey), to the one this tab last pushed or pulled for this account is not sent. The record is
+        // what the cloud held WHEN THIS TAB LAST LOOKED, not what it holds: another device may have written since, and then this
+        // tab's unchanged blob waits for its next pull or change (a conditional push is the real fix; #360's report). Never while a
+        // push is in flight: that push may carry what was since undone here (a list added, then removed). Only a push that
+        // returned true and ran alone, start to finish, is remembered (`_pushSeq`, `_pushesInFlight`): two in flight could land at the
+        // server in either order, so after an overlap (or a pull meanwhile) nothing is trusted and the next save pushes. A failed push
+        // is remembered as nothing and, as before, forces a re-pull, which records what the cloud really holds.
+        const snap = this._progressHost.cloudSnapshot(this), key = ngProgressCloudKey(snap), seen = this._cloudSeen;
+        if (!this._pushesInFlight && seen && seen.userId === userId && seen.key === key) return;
+        const seq = this._pushSeq = (this._pushSeq || 0) + 1, solo = !this._pushesInFlight;
+        this._pushesInFlight = (this._pushesInFlight || 0) + 1; this._pushEvents = (this._pushEvents || 0) + 1;
+        let ok;
         // The facade pins this exact account at its awaited SDK/session boundary too.
-        if (!await A.pushNeural(this._progressHost.cloudSnapshot(this), userId) && current()) {
+        try { ok = await A.pushNeural(snap, userId); } finally { this._pushesInFlight--; this._pushEvents++; }
+        if (!ok && current()) {
           this._pulled = false; this._pulledUserId = null; this._cloudSyncError = "push-failed";
-        }
+        } else if (ok && current()) this._cloudSeen = solo && seq === this._pushSeq ? { userId, key } : null;
       } catch (e) {
         if (current()) { this._pulled = false; this._pulledUserId = null; this._cloudSyncError = "push-failed"; }
       }
@@ -7087,13 +7094,14 @@ class Component extends DCLogic {
       const email = inp.value.trim(), pass = pw.value;
       if (!email || !pass) { showErr("Enter your email and password."); return; }
       err.style.display = "none"; cont.disabled = true; const label = cont.textContent; cont.textContent = "\u2026";
-      this._authMethod = "email"; this.track("neural_signin_started", { method: "email", mode: mode });
+      this._signinIntent("email", mode); this.track("neural_signin_started", { method: "email", mode: mode });
       try {
         const result = mode === "create" ? await A.signUp(email, pass) : await A.signIn(email, pass);
         if (result && result.error) throw new Error(result.error);
         this.closeModal(); // SIGNED_IN handler applies identity + pulls; sign-up may require email confirm
         if (mode === "create") this.showCenter && this.showCenter("Check your inbox", "Confirm your email to finish creating the account", "", "muted", true);
       } catch (e2) {
+        this._signinAbandoned();   // #360's review (E5): an attempt that failed in place never completes
         showErr((e2 && e2.message) || "Sign-in failed \u2014 check your details and try again.");
         cont.disabled = false; cont.textContent = label;
       }
@@ -7110,8 +7118,8 @@ class Component extends DCLogic {
       sb.style.cssText = "width:100%;margin-bottom:9px;cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:600;padding:12px;border-radius:11px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.03);color:#dbe2f0;";
       sb.addEventListener("click", async () => {
         if (!A) { showErr("Accounts aren\u2019t available right now \u2014 your progress is saved on this device."); return; }
-        this._authMethod = "google"; this.track("neural_signin_started", { method: "google", mode: mode });
-        try { const result = await A.signInWithGoogle(); if (result && result.error) throw new Error(result.error); } catch (e2) { showErr((e2 && e2.message) || "Google sign-in failed."); } // PKCE redirect navigates away on success
+        this._signinIntent("google", mode); this.track("neural_signin_started", { method: "google", mode: mode });
+        try { const result = await A.signInWithGoogle(); if (result && result.error) throw new Error(result.error); } catch (e2) { this._signinAbandoned(); showErr((e2 && e2.message) || "Google sign-in failed."); } // PKCE redirect navigates away on success
       });
       b.appendChild(sb);
     }
@@ -7794,7 +7802,6 @@ class Component extends DCLogic {
   openPane(view) {
     if (this._paneStudyActive()) this._exitStudyTo(view || this._viewMode);
     else if (view) this.setViewMode(view);
-    { const sh = this.dossierSheetRef.current; if (sh && sh.style.display === "block") this.closeDossierSheet(); } // the pane replaces the mobile sheet
     // no _wirePaneControls here: applyDeckVisibility is the one wiring seam for every open path
     this._drillView = "home";
     this.deckReady = true; this.deckOpen = true;
@@ -7925,9 +7932,6 @@ class Component extends DCLogic {
   }
   rsAllowsIdx(i) { const n = this.nodes && this.nodes[i]; return !!n && this._rulesetMask()[i] === 1; }
   showExplorerList() {
-    const sh = this.dossierSheetRef.current;
-    if (sh && sh.style.display === "block") this.closeDossierSheet();
-    this._dossierIdx = null;
     const dos = this.dossierRef.current; if (dos) dos.style.display = "none";
     const list = this.explorerListRef.current; if (list) list.style.display = "block";
     this.renderExplorer();
@@ -9095,47 +9099,12 @@ class Component extends DCLogic {
     wrap.appendChild(this._listAddButton(node.id, surface));
     return wrap;
   }
-  /** Wire the .dsList row emitted by BOTH dossier renderers (pane/sheet and the in-node card). */
-  _wireDossierListButton(dos, n, surface) {
-    const lb = dos ? dos.querySelector(".dsList") : null; if (!lb) return;
-    lb.setAttribute("data-list-add", n.id);
-    lb.setAttribute("data-list-surface", surface || "dossier");
-    lb.style.pointerEvents = "auto"; // inherited property; the canvas hit-tests above anything that doesn't re-enable it
-    // set ONCE, beside the button \u2014 never inside paint(), which runs on every list mutation and
-    // would stomp aria-expanded to "false" under an open picker
-    lb.setAttribute("aria-haspopup", "menu");
-    if (!lb.hasAttribute("aria-expanded")) lb.setAttribute("aria-expanded", "false");
-    const paint = () => {
-      const c = this._captureCopy(n.id), on = c.on;
-      const g = lb.querySelector(".dsListGlyph"), t = lb.querySelector(".dsListTxt");
-      // THE SECOND GLYPH PAINTER, TRADED WITH THE FIRST (v1.129.8). This row is unreachable from
-      // the app (v1.101.5) but it is live code that `_refreshListSurfaces` dispatches to, so
-      // leaving it on `+`/`\u2713` would let the two painters drift.
-      if (g) { g.innerHTML = this._starHTML(on, 15); g.style.color = on ? "#a9c2ff" : "#9ab0e0"; }
-      // the VISIBLE words stay short and fixed-width. The destination goes in the accessible
-      // name, not into this row's text: the in-node dossier card is laid out at the node's own
-      // screen point, and a longer label grew it far enough to slide this control under the
-      // landing card's MC options — measured, and it cost the dossier capture entirely. The
-      // "Adding to <list>" line in the Lists head is where the destination is READ.
-      // ONE PROMISE PER CONTROL (v1.113.5): the visible words said "today's class list" while
-      // the title said "a class list" — two different promises on one button, and the picker
-      // has asked WHICH list since v1.102.0, so "today's" was never true anyway.
-      if (t) t.textContent = on ? "In a list" : "Add to a list";
-      // same split as _styleListAdd: no title OFF (it would duplicate the name), STATUS only ON
-      if (on) lb.title = c.status; else lb.removeAttribute("title");
-      lb.setAttribute("aria-label", c.label);
-    };
-    paint();
-    lb._ngPaint = paint; // the picker's refresh repaints this row too
-    lb.addEventListener("click", (e) => { e.stopPropagation(); this.captureNode(n.id, surface || "dossier", lb); });
-  }
   _refreshListSurfaces() {
     const root = this.__ngRoot || document;
     try {
       root.querySelectorAll("[data-list-add]").forEach((el) => {
-        // the dossier's .dsList row has its own painter (glyph + words in child spans); the
-        // plain buttons take _styleListAdd. One loop, so no surface can be left stale.
-        if (el._ngPaint) el._ngPaint(); else this._styleListAdd(el, el.getAttribute("data-list-add"));
+        // One loop, so no surface can be left stale (the dossier's own painter went with the dossier, v1.255.1).
+        this._styleListAdd(el, el.getAttribute("data-list-add"));
       });
     } catch (e) { /* non-fatal */ }
     // re-render the Explore body so the Lists section's counts follow the model. Safe while a
@@ -10926,63 +10895,13 @@ class Component extends DCLogic {
     // current node again (owner 2026-10-15, v1.227.0). Keeping the old position's
     // live engagement here let a sidebar/list restage inherit its prior roll.
     this.stageRollAt(idx);
-    this._dossierIdx = null;                   // no dossier opened; the standard landing surfaces mounted
     if (this.deckShown) this.setDeckOpen(false);
-    if (!this.paused) { this.setPaused(true); this._dossierAutoPaused = true; }
+    // v1.255.1: no latch of its own. `_dossierAutoPaused` was released only by the dossier's close, which no path reached,
+    // so it was written and never read; it went with the dossier. The pause itself is unchanged.
+    if (!this.paused) this.setPaused(true);
     this.lastInteract = this.now; this.flare(idx);
   }
-  /**
-   * Leave the desktop reading sheet: restore the camera it interrupted and resume the roll if
-   * opening it is what paused us. Since v1.101.0 there is no in-node card to dismiss, so this is
-   * simply "put the reading surface away" — but it keeps its name and its return value because
-   * the Esc ladder, the ✕ and the empty-canvas click all read it to decide whether they consumed
-   * the gesture.
-   */
-  closeNodeDossier() {
-    if (this.isMobile()) return false;
-    if (this._dossierIdx == null) return false;
-    this._dossierIdx = null;
-    this._clearNodeQ();
-    this.closeDossierSheet();
-    const cb = this._camBefore; this._camBefore = null;
-    this.releaseCamera();
-    if (cb) this.camTarget = cb;
-    if (this._dossierAutoPaused) { this.setPaused(false); this._dossierAutoPaused = false; }
-    this.lastInteract = this.now;
-    return true;
-  }
-  closeDossierSheet() {
-    const sh = this.dossierSheetRef.current;
-    this._dossierIdx = null;
-    this._clearNodeQ();
-    // ...and the landing card comes back with it — unless the in-node card is what owns the
-    // screen (`_traySup`), which happens on the desktop empty-canvas path where this runs
-    // alongside closeNodeDossier and would otherwise pop the card back over a still-visible node.
-    if (!this._traySup) this._suppressLand(false);
-    if (sh && sh.style.display === "block") {
-      sh.style.transform = "translateY(-102%)";
-      clearTimeout(this._shT);
-      this._shT = setTimeout(() => { if (this._dossierIdx == null) sh.style.display = "none"; }, 360);
-    }
-  }
-  /**
-   * RETIRED (v1.101.0): the in-node "fuller container". Zooming into a node used to mount the
-   * whole dossier inside the node's own shape; the standard timed card and independent article
-   * sibling now carry that material without either growing inside the graph. The method stays as
-   * the ONE place that guarantees the retired surface stays down — `draw()` calls it every frame,
-   * and a hidden element with a stale `_nodeCardOn` would keep the options tray faded and the canvas
-   * glyph crossfaded out with nothing drawn in their place.
-   */
-  updateNodeCard() {
-    const el = this.nodeCardRef && this.nodeCardRef.current;
-    if (el && el.style.display !== "none") { el.style.display = "none"; el.innerHTML = ""; }
-    if (this._nodeCardOn || this._nodeCardIdx != null || this._nodeCardO) {
-      this._nodeCardOn = false; this._nodeCardIdx = null; this._nodeCardO = 0;
-      this._suppressTray(false);
-    }
-  }
 
-  // keep the in-node dossier readable: fade the options tray under it while the card is up
   /** ── TAPPING EMPTY GRAPH IS A REAL GESTURE (v1.113.6) ──────────────────────────────────────
    *
    * Owner: "when I click the graph background and I'm not clicking any node it should close, and
@@ -11017,8 +10936,9 @@ class Component extends DCLogic {
   // This replaces the v1.129.5 stand-down/restore latch pair (_standDown/_bgRestore/_bgDown):
   // a background tap now CLOSES rather than suppresses, so there is nothing to restore.
   _tapBackground() {
-    this.closeNodeDossier();
-    this.closeDossierSheet();
+    // v1.255.1: the dossier sheet and the in-node card are retired (§6.8); this was the one live line of their close, and it
+    // stays: the landing card comes back with the tap, unless the tray's own suppression holds it.
+    if (!this._traySup) this._suppressLand(false);
     this.closeDeckIfStudying();        // mobile-only by design (the drawer owns the screen there)
     if (this._landEl) {
       const n = this._landIdx != null && this.nodes ? this.nodes[this._landIdx] : null;
@@ -11130,176 +11050,6 @@ class Component extends DCLogic {
       if (hide) { t.style.setProperty("opacity", "0", "important"); t.style.pointerEvents = "none"; t.style.setProperty("visibility", "hidden", "important"); }
       else { t.style.removeProperty("opacity"); t.style.pointerEvents = t._ngRestPointerEvents || ""; t.style.removeProperty("visibility"); }
     }
-  }
-  // role badge colored by the advantage the seat gives you (app's dominance model): blue = ahead, red = behind
-  badgePill(b, fs, pad) {
-    if (!b) return "";
-    const c = b.tone === "ahead" ? ["#7fb4ff", "rgba(90,155,240,.13)", "rgba(90,155,240,.34)"]
-      : b.tone === "behind" ? ["#ff9a8f", "rgba(242,104,95,.13)", "rgba(242,104,95,.34)"]
-      : ["#cfd6e4", "rgba(150,170,210,.12)", "rgba(150,170,210,.3)"];
-    return '<span data-dossier-badge title="blue = you\u2019re ahead \u00b7 red = you\u2019re behind" style="font-size:' + fs + 'px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:' + c[0] + ';background:' + c[1] + ';border:1px solid ' + c[2] + ';border-radius:999px;padding:' + pad + ';">' + b.label + '</span>';
-  }
-  _zoomOpenCheck(vw) {
-    if (!this.isMobile() || !this.nodes || !this.cam) return;
-    const deep = this.graphW * 0.05, rearm = this.graphW * 0.085;
-    if (vw > rearm) { this._zoomArmed = true; return; }
-    if (vw > deep || this._zoomArmed === false || this._dossierIdx != null) return;
-    let best = -1, bd = 1e9;
-    // the mobile zoom-open picks the nearest orb and opens its dossier — the same rule the pointer
-    // hit-test obeys: an orb the ruleset does not draw must not be pickable by proximity either.
-    for (const n of this.nodes) { if (!this.rsAllows(n)) continue; const d = Math.hypot(n.x - this.cam.cx, n.y - this.cam.cy); if (d < bd) { bd = d; best = n.idx; } }
-    if (best >= 0 && bd * (this.W / vw) < this.W * 0.5) { this._zoomArmed = false; this.openDossier(best, true); }
-  }
-  /**
-   * The reading surface for a node that is NOT the one you are standing in. Since v1.101.0 it is
-   * the dossier SHEET on every form factor (a top sheet on a phone, a right-docked reading column
-   * on a desktop) — the in-node container is retired, and `dossierRef` cannot be used because it
-   * is a child of the explorer pane, which pane law says only the user may open.
-   */
-  renderDossier(n) {
-    const mob = this.isMobile();
-    const dos = this.dossierSheetRef.current; if (!dos) return;
-    const sp = this.splitName(n.t), cat = this.deckCat(n), col = this.hex(n.col);
-    const rc = this.richContentFor(n);
-    // authored decks are keyed "Name|Role" — fall back across role variants so content always surfaces
-    const fam = n.ty === "positions" ? this.posFamily(n.t) : sp.main;
-    let legacy = null, legacyKey = "";
-    for (const k of [this.deckKeyFor(n).key, fam + "|Bottom", fam + "|Top", fam + "|Attacker", fam + "|Defender", fam, sp.main]) {
-      const cand = this._ngc(k);
-      if (cand) { legacy = cand; legacyKey = k; break; }
-    }
-    const persp = rc ? rc.perspectives.attacker : null;
-    const isCur = n.idx === this.currentPos;
-    // the dossier is shared by option/reference sheets, so it must not name the other side: for the
-    // state in play `playedRole` is the true side, and for anything else the title is all there is
-    let role = this.playedRole(n);
-    // authored copy is side-specific; if it came from the other side, don't contradict it with a badge
-    const lm = legacyKey.match(/\|(Top|Bottom)$/i);
-    if (role && lm && lm[1].toLowerCase() !== role.toLowerCase()) role = null;
-    // THE HEADLINE IS A NAME, never a statement about the side. Every one of the 136 collapsed
-    // position hubs is titled "… Top" by graph-data.json, so that suffix is a rendering artifact and
-    // comes off for EVERY position, whichever side is in play — naming the side is the badge's job.
-    // Stripping `role` instead coupled the two, and it only looked right while `role` was the (always
-    // "Top") title suffix: once it became the side actually being played, `\s+Bottom\s*$` could not
-    // match "Mount Top", so a bottom landing's dossier read "Mount Top" next to a "Bottom" badge —
-    // and the same hole opened whenever the badge was suppressed for other-side authored copy.
-    const title = this.graphName(n);
-    const dom0 = n.dom || 0;
-    const badge = n.ty === "positions"
-      ? (role ? { label: role, tone: dom0 >= 0.18 ? "ahead" : dom0 <= -0.18 ? "behind" : "even" } : null)
-      : (dom0 > 0.02 ? { label: "Attacking", tone: "ahead" } : dom0 < -0.02 ? { label: "Defending", tone: "behind" } : null);
-    const overview = (rc && rc.def) || (legacy && legacy.def) || "";
-    const clips = ((rc && rc.clips) || (legacy && legacy.clips) || []).slice(0, 3);
-    const principles = ((persp && persp.principles) || (legacy && legacy.principles) || []).slice(0, 4);
-    const defence = ((legacy && legacy.counters) || (persp && persp.counters) || []).slice(0, 3);
-    const adj = (this.adj && this.adj[n.idx]) || [];
-    const attacks = adj.filter((k) => this.nodes[k].ty !== "positions").slice(0, 4);
-    const relPos = adj.filter((k) => this.nodes[k].ty === "positions").slice(0, 4);
-    const mistakes = ((legacy && legacy.mistakes) || (persp && persp.mistakes) || []).slice(0, 3);
-    const secHead = (txt, c2) => '<div style="font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:' + (c2 || "#96a3bf") + ';margin-bottom:7px;">' + txt + '</div>';
-    const bullet = (txt, dot) => '<div style="display:flex;gap:8px;align-items:flex-start;font-size:12px;line-height:1.45;color:#c4cde0;margin-bottom:6px;"><span style="flex:none;width:5px;height:5px;border-radius:50%;background:' + dot + ';margin-top:6px;"></span><span>' + txt + '</span></div>';
-    const pct = (k) => { try { const nd = this.nodes[k]; const cs = this.calSuccess(nd); const p = cs != null ? Math.round(cs * 100) : Math.round(this.moveChance(nd) * 100); return isFinite(p) && p > 0 && p < 100 ? " \u00b7 " + p + "%" : ""; } catch (e) { return ""; } };
-
-    // the sheet is the reading surface on BOTH form factors now, so it always carries a way out
-    let h = '<div style="display:flex;align-items:center;padding:6px 16px 8px;">' +
-      (mob ? '<span class="dsBack" style="cursor:pointer;font-size:12px;font-weight:600;color:#8b97b0;padding:6px 0;">\u2039 All techniques</span>' : '') +
-      '<span class="dsClose" style="cursor:pointer;margin-left:auto;width:32px;height:32px;border-radius:10px;border:1px solid rgba(150,170,210,.2);background:rgba(255,255,255,.04);color:#8b97b0;font-size:16px;display:flex;align-items:center;justify-content:center;">\u00d7</span></div>';
-    h += '<div style="padding:2px 18px 22px;">';
-    h += '<div style="display:flex;align-items:center;gap:7px;">' +
-      (isCur
-        ? '<span style="width:8px;height:8px;border-radius:50%;background:#5a9bf0;box-shadow:0 0 8px rgba(90,155,240,.7);flex:none;"></span><span style="font-size:9px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#7fb4ff;">Your current position</span>'
-        : this.nodeGlyph(n.ty, col, 9) + '<span style="font-size:9px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#9fb0d8;">' + cat + '</span>') +
-      '</div>';
-    h += '<div style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:7px;">' +
-      '<span data-dossier-title style="font-family:\'Space Grotesk\',sans-serif;font-size:22px;font-weight:600;letter-spacing:-.01em;line-height:1.1;color:#eef1f6;">' + title + '</span>' +
-      this.badgePill(badge, 9.5, "2.5px 10px") +
-      // the phone reads a node here, so the familiarity counter belongs here too — same chip,
-      // same handle as the in-node card's plate (the two are never on screen together)
-      (mob ? this.familiarityChip(this.deckKeyFor(n).key, "data-node-count", { style: "margin-left:auto;" }).html : "") +
-      '</div>';
-    if (sp.from && (!role || sp.from.toLowerCase() !== role.toLowerCase())) h += '<div style="font-size:12px;color:#8b97b0;margin-top:3px;">' + sp.from + '</div>';
-    const pills = [["Overview", "ov"]];
-    if (clips.length) pills.push(["Film", "film"]);
-    if (principles.length) pills.push(["Principles", "pr"]);
-    if (defence.length) pills.push(["Defence", "df"]);
-    if (attacks.length) pills.push(["Attacks", "at"]);
-    h += '<div style="display:flex;gap:5px;flex-wrap:wrap;margin-top:12px;">' + pills.map((p, i) =>
-      '<span class="dsPill" data-t="' + p[1] + '" style="cursor:pointer;font-size:8.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:' + (i === 0 ? "#0e1630" : "#9aa6bd") + ';background:' + (i === 0 ? "#7fb4ff" : "rgba(150,170,210,.12)") + ';border-radius:999px;padding:3px 10px;">' + p[0] + '</span>').join("") + '</div>';
-    let ov = overview;
-    if (!ov) {
-      if (sp.from && !role) ov = 'A ' + cat.toLowerCase() + ' from ' + sp.from.replace(/^from\s+/i, '') + '.';
-      else {
-        const na = attacks.length, np = relPos.length, parts = [];
-        if (na) parts.push(na + ' attack' + (na > 1 ? 's' : ''));
-        if (np) parts.push(np + ' connected position' + (np > 1 ? 's' : ''));
-        ov = parts.length ? 'Links to ' + parts.join(' and ') + ' on the map.' : '';
-      }
-    }
-    if (ov) h += '<div data-ds="ov" style="margin-top:12px;"><p style="margin:0;font-size:12px;line-height:1.55;color:#9aa6bd;">' + ov + '</p></div>';
-    if (clips.length) {
-      h += '<div data-ds="film" style="display:flex;gap:6px;margin-top:12px;">' + clips.map((c) =>
-        '<a href="https://www.youtube.com/watch?v=' + c.id + (c.start ? '&t=' + c.start + 's' : '') + '" target="_blank" rel="noopener" title="' + (c.title || "") + '" style="position:relative;flex:1;aspect-ratio:16/10;border-radius:7px;overflow:hidden;border:1px solid rgba(150,170,210,.16);background:linear-gradient(135deg,#2b2336,#1b1b30);display:block;">' +
-          '<img src="https://i.ytimg.com/vi/' + c.id + '/hqdefault.jpg" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85;">' +
-          '<span style="position:absolute;top:50%;left:50%;transform:translate(-45%,-50%);width:0;height:0;border-left:8px solid rgba(255,255,255,.9);border-top:5px solid transparent;border-bottom:5px solid transparent;filter:drop-shadow(0 1px 3px rgba(0,0,0,.6));"></span>' +
-        '</a>').join("") + '</div>';
-    }
-    // ── THE PHONE GETS THE QUESTION ON THE SHEET, NOT IN THE NODE ──
-    // openDossier forks on isMobile(): a phone reads a node in the 70%-tall sheet, and the in-node
-    // card is a desktop object — 700-780 CSS px of shape, which the fit cap would squeeze to ~0.45
-    // on a 390x844 screen, turning 12px option rows into 5px ones. So the sheet carries it: same
-    // builder, same surface tag, same economy, in a scrollable column at full text size.
-    // the question host, on BOTH form factors — the sheet is the reading surface now (v1.101.0)
-    h += '<div data-node-q style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(150,170,210,.14);"></div>';
-    if (principles.length) h += '<div data-ds="pr" style="margin-top:15px;">' + secHead("Essential principles") + principles.map((p) => bullet(p, "#96a3bf")).join("") + '</div>';
-    if (defence.length) h += '<div data-ds="df" style="margin-top:13px;">' + secHead("Defence", "#7fb4ff") + defence.map((p) => bullet(p, "#5a9bf0")).join("") + '</div>';
-    if (attacks.length) {
-      h += '<div data-ds="at" style="margin-top:13px;">' + secHead("Attacks from here", "#ff8a7e") +
-        '<div style="display:flex;gap:5px;flex-wrap:wrap;">' + attacks.map((k) =>
-          '<span class="dsAtk" data-i="' + k + '" style="cursor:pointer;font-size:10px;font-weight:700;color:#ff8a7e;background:rgba(242,104,95,.14);border-radius:999px;padding:4px 10px;">' + this.graphName(this.nodes[k]) + pct(k) + '</span>').join("") + '</div></div>';
-    }
-    const hasFold = mistakes.length || relPos.length || (rc && rc.context);
-    if (hasFold) {
-      h += '<div class="dsSeam" style="cursor:pointer;display:flex;align-items:center;gap:8px;margin:16px -18px 0;padding:9px 18px;background:rgba(150,170,210,.05);border-top:1px dashed rgba(150,170,210,.26);border-bottom:1px dashed rgba(150,170,210,.26);white-space:nowrap;"><span class="dsSeamTxt" style="font-size:9.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#b8c2d8;">More details \u2193</span></div>';
-      h += '<div class="dsFold" style="display:none;padding-top:14px;">';
-      if (rc && rc.context) h += '<p style="margin:0 0 13px;font-size:11.5px;line-height:1.55;color:#9aa6bd;">' + rc.context + '</p>';
-      if (mistakes.length) h += '<div style="margin-bottom:13px;">' + secHead("Common mistakes", "#6b7691") + mistakes.map((m) => bullet('<b style="color:#dbe2f0;font-weight:600;">' + m.err + '</b> \u2014 ' + m.fix, "#8b97b0")).join("") + '</div>';
-      if (relPos.length) h += '<div>' + secHead("Related positions", "#6b7691") + '<div style="display:flex;gap:5px;flex-wrap:wrap;">' + relPos.map((k) =>
-        '<span class="dsAtk" data-i="' + k + '" style="cursor:pointer;font-size:10px;font-weight:600;color:#c4cde0;background:rgba(150,170,210,.12);border:1px solid rgba(150,170,210,.2);border-radius:7px;padding:4px 10px;">' + this.graphName(this.nodes[k]) + '</span>').join("") + '</div></div>';
-      h += '</div>';
-    }
-    h += '<div class="dsRoll" style="cursor:pointer;display:flex;align-items:center;gap:10px;margin-top:16px;background:linear-gradient(135deg,rgba(74,108,255,.18),rgba(74,108,255,.07));border:1px solid rgba(110,160,255,.35);border-radius:12px;padding:11px 14px;">' +
-      '<span style="flex:none;width:26px;height:26px;border-radius:8px;background:rgba(74,108,255,.22);color:#9ab0e0;display:flex;align-items:center;justify-content:center;"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>' +
-      '<div style="display:flex;flex-direction:column;gap:1px;"><span style="font-size:12.5px;font-weight:700;color:#eef1f6;">Roll from here</span><span style="font-size:10.5px;color:#9aa6bd;">make this the current state</span></div>' +
-      '<span style="margin-left:auto;font-size:13px;color:#9ab0e0;">\u2192</span></div>';
-    // add-to-a-list, right where a coach is already reading about the technique. This static
-    // markup is only the pre-paint frame \u2014 `_wireDossierListButton` overwrites both spans
-    // immediately \u2014 but it is traded with the rest so the two can never disagree, and the
-    // "today's class list" promise died with the picker's arrival (v1.102.0 asks WHICH list).
-    h += '<div class="dsList" style="cursor:pointer;display:flex;align-items:center;gap:10px;margin-top:8px;border:1px solid rgba(150,170,210,.2);border-radius:12px;padding:10px 14px;">' +
-      '<span class="dsListGlyph" style="flex:none;width:26px;height:26px;border-radius:8px;background:rgba(150,170,210,.14);color:#9ab0e0;display:flex;align-items:center;justify-content:center;line-height:1;">' + this._starHTML(false, 15) + '</span>' +
-      '<div style="display:flex;flex-direction:column;gap:1px;"><span class="dsListTxt" style="font-size:12.5px;font-weight:700;color:#eef1f6;">Add to a list</span><span style="font-size:10.5px;color:#9aa6bd;">share the class as one link</span></div></div>';
-    h += '</div>';
-    dos.innerHTML = h;
-    // clear only on a CHANGE of node: re-rendering the sheet for the node already open must not
-    // reset a question the reader has already answered (that is the freeze rule)
-    // the state's own question, on every form factor — the sheet is the reading surface now, and
-    // it was only ever gated on `mob` because the desktop read happened in the node instead
-    if (!this._nodeQ || this._nodeQ.idx !== n.idx) this._clearNodeQ();
-    this._renderNodeQuestion(n, dos.querySelector("[data-node-q]"));
-    this._wireDossierListButton(dos, n, "dossier");
-    const back = dos.querySelector(".dsBack"); if (back) back.addEventListener("click", () => { if (mob) { this.closeDossierSheet(); this.openExplorer(); this.showExplorerList(); } else this.showExplorerList(); });
-    const xb = dos.querySelector(".dsClose"); if (xb) xb.addEventListener("click", () => this.closeDossierSheet());
-    dos.querySelectorAll(".dsAtk").forEach((el) => el.addEventListener("click", () => this.openDossier(parseInt(el.getAttribute("data-i"), 10), false, "node_link")));
-    const seam = dos.querySelector(".dsSeam"), fold = dos.querySelector(".dsFold");
-    if (seam && fold) seam.addEventListener("click", () => { const open = fold.style.display !== "none"; fold.style.display = open ? "none" : "block"; seam.querySelector(".dsSeamTxt").innerHTML = open ? "More details \u2193" : "Less \u2191"; });
-    const roll = dos.querySelector(".dsRoll"); if (roll) roll.addEventListener("click", () => { if (mob) this.closeDossierSheet(); this.jumpToState(n.idx); });
-    const pillEls = dos.querySelectorAll(".dsPill");
-    pillEls.forEach((p) => p.addEventListener("click", () => {
-      pillEls.forEach((q) => { q.style.background = "rgba(150,170,210,.12)"; q.style.color = "#9aa6bd"; });
-      p.style.background = "#7fb4ff"; p.style.color = "#0e1630";
-      const sec = dos.querySelector('[data-ds="' + p.getAttribute("data-t") + '"]');
-      if (sec) dos.scrollTo({ top: Math.max(0, sec.offsetTop - 10), behavior: "smooth" });
-    }));
   }
   hl(text, q) {
     if (!q) return text;
@@ -11890,11 +11640,6 @@ class Component extends DCLogic {
     if (ty === "submissions") return '<span style="width:0;height:0;border-left:' + (s * .62) + 'px solid transparent;border-right:' + (s * .62) + 'px solid transparent;border-bottom:' + (s * 1.05) + 'px solid ' + col + ';flex:none;"></span>';
     return '<span style="width:' + (s * .82) + 'px;height:' + (s * .82) + 'px;background:' + col + ';transform:rotate(45deg);flex:none;margin:0 ' + (s * .09) + 'px;"></span>';
   }
-  drillGlyph(cat, col) {
-    if (cat === "Submission") return '<span style="width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-bottom:7px solid ' + col + ';flex:none;"></span>';
-    if (cat === "Transition") return '<span style="width:7px;height:7px;background:' + col + ';transform:rotate(45deg);flex:none;"></span>';
-    return '<span style="width:8px;height:8px;border-radius:50%;background:' + col + ';flex:none;"></span>';
-  }
   drillPrev() { if (this.deck && this.deckIdx > 0) { this.deckIdx--; this.revealed = false; this.renderDrill(); } }
   drillNext() { if (this.deck) { this.deckIdx++; this.revealed = false; this.renderDrill(); } }
   drillTechNav(dir) {
@@ -12185,7 +11930,7 @@ class Component extends DCLogic {
     // closures still answer mouse clicks; the pane keeps the shared keyboard slot.
     if ((truth.surface !== "land" && truth.surface !== "panic") || !this.deckShown) this._mc = truth;
     const wrap = document.createElement("div");
-    wrap.__ngMc = truth;   // so a surface that took the keyboard can hand it back (see _clearNodeQ)
+    wrap.__ngMc = truth;   // so a surface that took the keyboard can hand it back (see _handBackMc)
     wrap.setAttribute("role", "radiogroup");
     wrap.setAttribute("aria-label", "Answer options");
     wrap.style.cssText = "position:relative;display:flex;flex-direction:column;gap:7px;";
@@ -12417,10 +12162,9 @@ class Component extends DCLogic {
    * block still real?" is asked of the DOM rather than remembered. BE HONEST ABOUT WHAT THIS
    * BUYS: for `land` it is redundant — `_landHidden()` already covers teardown — and a mutant
    * that deletes it survives the suite. It earns its keep only on a surface with no such holder,
-   * which today means `_recallBlock`'s other caller, `_renderNodeQuestion`. That one is
-   * UNREACHABLE (§6.8, re-derived at v1.154.0: `_dossierIdx` is assigned null at four sites and a
-   * node index at none), so the clause is deliberate defence for a surface nobody can open yet,
-   * not a gated claim. Delete it the day that surface comes back with a holder of its own.
+   * which was `_recallBlock`'s other caller, the dossier's `_renderNodeQuestion`, retired with the
+   * dossier in v1.255.1 (it had been unreachable since v1.101.0). The clause is deliberate defence
+   * for any later surface without a holder of its own, not a gated claim.
    */
   _recallLive() {
     const r = this._recall;
@@ -14210,80 +13954,6 @@ class Component extends DCLogic {
     for (const c of cards) if (this.cardStage(key, c.q) < 2) return c;
     return null;
   }
-  // ═══════════════ THE NODE DOSSIER'S QUESTION (v1.100.0) ═══════════════
-  //
-  // The dossier is a state you WALKED INTO — on desktop by flying the camera into the node
-  // itself, on a phone by the sheet. So it asks. Three rules make it a study surface rather than
-  // a second landing card:
-  //
-  //  · IT KEEPS ASKING TO THE RECALL GATE. questionFor() stops at stage 2 because the landing
-  //    question is the in-play format and MC caps there. Here the ladder is the point: a card met
-  //    by recognition comes back as recall, which is the only route past 0.667 mastery.
-  //  · ITS ECONOMY IS STUDY-ONLY. See _renderNodeQuestion.
-  //  · IT IS NOT GATED BY `landQuestions`. That setting is "Questions while you roll" — it gates
-  //    the question that interrupts a TIMED decision. Opening a dossier stops the clock
-  //    (openDossier -> setPaused + _dossierAutoPaused); there is no decision to interrupt, and
-  //    silencing the surface a reader deliberately opened would delete a feature nobody
-  //    turned off.
-  //
-  // `skip` holds the qhashes already asked in THIS visit, so "Next card" advances instead of
-  // re-serving the card whose stage just moved from 0 to 1 (still under the gate, still first).
-  nodeQuestionFor(key, skip) {
-    const cards = this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key]);
-    if (!cards || !cards.length) return null;
-    for (const c of cards) {
-      if (skip && skip.has(this.qhash(c.q))) continue;
-      if (this._cardDue(key, c.q)) return c;               // due first (v1.105.0)
-    }
-    for (const c of cards) {
-      if (skip && skip.has(this.qhash(c.q))) continue;
-      if (this.cardStage(key, c.q) < 3) return c;
-    }
-    return null;
-  }
-  /**
-   * Recognition below the gate, recall at or above it.
-   *
-   * This is mcActive()'s `auto` branch stated explicitly, because the node card is deliberately
-   * NOT governed by `mcMode`: that setting chooses how the SIDEBAR reads a card back (default
-   * classic), and honouring it here would mean a default-settings user never meets a multiple
-   * choice on the one surface built to teach the ladder. The checkpoint quiz is MC always for
-   * the same kind of reason.
-   */
-  askFormat(key, card) { return this.cardStage(key, card.q) < 2 ? "mc" : "recall"; }
-  /** The live [data-node-q] host. The in-node card is retired (v1.101.0); this is the sheet. */
-  _nodeQHost() {
-    const card = this.nodeCardRef && this.nodeCardRef.current;
-    if (card && card.style.display !== "none") { const h = card.querySelector("[data-node-q]"); if (h) return h; }
-    const sh = this.dossierSheetRef && this.dossierSheetRef.current;
-    return sh && sh.style.display === "block" ? sh.querySelector("[data-node-q]") : null;
-  }
-  /** A payload this question needs is in flight — dock the question when it lands, once. */
-  _nodeWarm(n, fn) {
-    const idx = n.idx;
-    const p = Promise.resolve()
-      .then(fn)
-      .then(() => {
-        if (!this._nodeQ || this._nodeQ.idx !== idx || this._nodeQ.answered) return;
-        const host = this._nodeQHost();
-        if (host) this._renderNodeQuestion(this.nodes[idx], host);
-      })
-      .catch(() => {});
-    this._nodeWarmP = p;
-    p.then(() => { if (this._nodeWarmP === p) this._nodeWarmP = null; });
-  }
-  /** Is the node card's question settled — mounted, or definitively not coming? */
-  nodeQuestionReady() { return !this._nodeWarmP; }
-  /** Resolves once it is. Chases the chain (deck chunk → distractor pool → render). */
-  async nodeSettled() {
-    for (let i = 0; i < 8; i++) {
-      const p = this._nodeWarmP;
-      if (!p) return;
-      await p.catch(() => {});
-      if (this._nodeWarmP === p) return;
-    }
-  }
-  /** Forget this visit's question — a different node, or the card going away. */
   /**
    * A TEMPORARY SURFACE GIVES THE KEYBOARD BACK (§6.5 — a single-slot resource with many writers).
    *
@@ -14299,7 +13969,6 @@ class Component extends DCLogic {
    */
   _handBackMc(fromSurface, declinedOnEntry) {
     if (fromSurface === "pane") {
-      if (this._dossierIdx != null) return; // a temporary question still owns its keys
       const recall = this._landEl && this._landEl.querySelector("[data-land-recall]");
       const truth = recall && recall.__ngRecall;
       this._recall = truth && !truth.spent && !(this._landQ && this._landQ.revealed) ? truth : null;
@@ -14308,120 +13977,6 @@ class Component extends DCLogic {
     const back = opt && opt.parentNode ? opt.parentNode.__ngMc : null;
     const askable = declinedOnEntry || !(this._landQ && this._landQ.answered);
     this._mc = back && askable ? back : null;
-  }
-  _clearNodeQ() {
-    this._nodeQ = null; this._nodeAsked = null; this._nodeWarmP = null;
-    this._handBackMc("node");
-  }
-  /**
-   * Fill the dossier's question section.
-   *
-   * ECONOMY — deliberately NARROWER than the landing card's. Answering here mints the ORDINARY
-   * card credit and nothing else: stage (_bumpStage, MC capped at the recall gate), prep,
-   * sharpness, cross-deck credit and the daily counter, all via the shared _mcAnswer/gradeRecall
-   * paths. It does NOT call refundDecision (there is no clock — the dossier paused it),
-   * _comboUp (momentum is a roll mechanic, and a paused screen would farm it) or touch _qMod
-   * (that penalty prices an exchange that is not being taken). Those three are the landing
-   * question's own onDone (_landAnswered); this surface simply does not wire them.
-   *
-   * A SCORED QUESTION IS FROZEN. Re-mounting one would reshuffle it under the reader and hand out
-   * a second attempt at credit already given — so an answered card is restated read-only if the
-   * card around it is ever rebuilt, and never re-blocked.
-   */
-  _renderNodeQuestion(n, host) {
-    if (!host) return;
-    const key = this.deckKeyFor(n).key;
-    const qHead = (txt) => '<div data-node-qtext="1" style="font-size:1em;font-weight:600;color:#dbe2f0;line-height:1.35;margin-bottom:.6em;">' + txt + '</div>';
-    // A QUESTION ALREADY ON THE TABLE IS RE-PARENTED, NEVER REBUILT — the landing card's `reuse`
-    // rule, and for the same two reasons. Every render draws a fresh shuffle, so rebuilding moves
-    // the correct answer under the reader's cursor mid-read; and rebuilding a SCORED block hands
-    // out a second attempt at credit already given. The same element, the same closure, moved.
-    const prior = this._nodeQ;
-    if (prior && prior.idx === n.idx && prior.card && prior.el) {
-      if (host.contains(prior.el)) return;                    // still on screen — leave it alone
-      host.innerHTML = qHead(prior.card.q);
-      host.appendChild(prior.el);
-      if (prior.el.__ngMc && !prior.answered) this._mc = prior.el.__ngMc;   // A-D still grades it
-      return;
-    }
-    const say = (reason, txt) => {
-      host.innerHTML = '<div data-node-q-empty="' + reason + '" style="font-size:.95em;line-height:1.45;color:#8b97b0;">' + txt + '</div>';
-      this._nodeQ = { idx: n.idx, key: key, card: null, answered: false, format: null, reason: reason, el: null };
-      this.fx("node_q_skipped", { deckKey: key, reason: reason, node: n.t });
-    };
-    const wait = (txt) => {
-      host.innerHTML = '<div data-node-q-empty="loading" style="font-size:.95em;line-height:1.45;color:#8b97b0;">' + txt + '</div>';
-      this._nodeQ = { idx: n.idx, key: key, card: null, answered: false, format: null, reason: "loading", el: null };
-    };
-    const status = this.deckStatus(key);
-    // NAME THE GAP. A dossier that asks nothing is legitimate; a dossier that shows an empty
-    // section is a bug the reader has to guess at.
-    if (status === "missing" || status === "empty") return say("no_cards_authored", "No flashcards are written for this state yet.");
-    if (status === "failed") return say("deck_unavailable", "These cards could not be loaded — close and reopen to try again.");
-    if (status === "pending" || status === "loading") { wait("Loading this state’s cards…"); this._nodeWarm(n, () => this.hydrateDeck(key)); return; }
-    const card = this.nodeQuestionFor(key, this._nodeAsked);
-    if (!card) return say(this._nodeAsked && this._nodeAsked.size ? "visit_complete" : "deck_proven",
-      this._nodeAsked && this._nodeAsked.size ? "That’s every card this state still owed you." : "Every card here is recall-proven.");
-    const format = this.askFormat(key, card);
-    // MC RESIDENCY (v1.80.4 rule): the distractor pool must be resident before we draw, or which
-    // neighbour chunks happened to arrive would decide the options — and therefore the RNG stream.
-    if (format === "mc" && !this.mcPoolWarm(key, card)) { wait("Loading this state’s cards…"); this._nodeWarm(n, () => this._warmMcPool(card, key, "node")); return; }
-    host.innerHTML = qHead(card.q);
-    const done = (correct, tier) => {
-      const q = this._nodeQ;
-      if (q) q.answered = true;
-      (this._nodeAsked = this._nodeAsked || new Set()).add(this.qhash(card.q));
-      this.fx("node_q_answered", { deckKey: key, node: n.t, format: fmt, correct: !!correct, tier: tier || null });
-      this._refreshNodeCount();
-      // one deliberate step onward — the counter just moved, and a dead card is a dead surface
-      if (this.nodeQuestionFor(key, this._nodeAsked)) {
-        const nx = document.createElement("button");
-        nx.type = "button";
-        nx.setAttribute("data-node-next", "1");
-        nx.style.cssText = "align-self:center;margin-top:.7em;cursor:pointer;font-family:inherit;font-size:.9em;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.6em 1.2em;min-height:2.8em;border-radius:.66em;border:1px solid rgba(150,170,210,.26);background:rgba(255,255,255,.04);color:#9ab0e0;";
-        nx.textContent = "Next card ▸";
-        nx.addEventListener("click", () => { this._nodeQ = null; this._renderNodeQuestion(n, host); });
-        host.appendChild(nx);
-      }
-    };
-    // FALL BACK TO RECALL, DO NOT FALL SILENT. mcDistractors returns null when fewer than two
-    // usable distractors survive its length/similarity filters — routine for a long or unusual
-    // answer, and measured here on a submission node. The landing card can only skip in that case
-    // (multiple choice IS the in-play format), but recall is this surface's other native format
-    // and works for any card at all, so a state that cannot be recognised is still studied.
-    let fmt = format;
-    let block = fmt === "mc" ? this._mcBlock(card, key, done, "node") : null;
-    if (!block) { fmt = "recall"; block = this._recallBlock(card, key, done, "node"); }
-    if (!block) return say("no_question", "This card cannot be asked here yet.");
-    this._styleNodeBlock(block);
-    host.appendChild(block);
-    this._nodeQ = { idx: n.idx, key: key, card: card, answered: false, format: fmt, reason: null, el: block };
-    this.fx("node_q_shown", { deckKey: key, node: n.t, format: fmt, asked: format, stage: this.cardStage(key, card.q) });
-  }
-  /**
-   * _mcBlock styles its options in fixed px (it was written for the pane, which has one text
-   * size). The node card is em-driven — ONE root font-size scales every dimension with the shape
-   * — so a 12px option inside a triangle whose root em is 14.8px reads as fine print. Re-express
-   * the block's own sizes in em; nothing about its behaviour is touched.
-   */
-  _styleNodeBlock(block) {
-    block.style.gap = ".5em";
-    block.querySelectorAll("button").forEach((b) => {
-      b.style.fontSize = "1em";
-      b.style.lineHeight = "1.4";
-      if (b.hasAttribute("data-node-mc-opt")) { b.style.padding = ".6em .75em"; b.style.borderRadius = ".6em"; b.style.minHeight = "2.4em"; }
-    });
-  }
-  /** Repaint the header's familiarity chip in place — the count is what an answer just moved. */
-  _refreshNodeCount() {
-    const host = this.nodeCardRef && this.nodeCardRef.current;
-    const chip = host ? host.querySelector("[data-node-count]") : null;
-    if (!chip || this._nodeCardIdx == null || !this.nodes[this._nodeCardIdx]) return;
-    const key = this.deckKeyFor(this.nodes[this._nodeCardIdx]).key;
-    const box = document.createElement("div");
-    box.innerHTML = this.familiarityChip(key, "data-node-count", { fs: ".82em", gs: ".9em" }).html;
-    const fresh = box.firstChild;
-    if (fresh && chip.parentNode) chip.parentNode.replaceChild(fresh, chip);
   }
   // ○ new to you · ◐ met some · ● recall-proven — the "have you done this" marker
   seenGlyph(key) {
@@ -14471,17 +14026,6 @@ class Component extends DCLogic {
     const total = this._deckCardCount(deckD);
     const done = Math.min((this.prep && this.prep[key]) || 0, total);
     return { total: total, done: done, full: total > 0 && done >= total };
-  }
-  familiarityChip(key, attr, opts) {
-    const o = opts || {};
-    const glyph = this.seenGlyph(key);
-    const { total, done, full } = this._deckProgress(key);
-    const title = glyph[2] + (total ? " · " + done + " of " + total + " cards recall-proven" : "");
-    const html = '<span ' + attr + '="' + (total ? done + "/" + total : "") + '" title="' + title + '" role="img" aria-label="' + title + '" style="flex:none;' + (o.style || "") + 'display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);font-size:' + (o.fs || "10.5px") + ';font-weight:700;font-family:\'Space Grotesk\',sans-serif;color:' + (full ? "#7ee0a8" : "#9ab0e0") + ';">' +
-      '<span style="font-size:' + (o.gs || "11px") + ';line-height:1;color:' + glyph[1] + ';">' + glyph[0] + '</span>' +
-      (total ? '<span>' + done + "/" + total + '</span>' : '') +
-    '</span>';
-    return { html: html, total: total, done: done, glyph: glyph, full: full };
   }
   ngContentFor(node) {
     return this._ngc(node.ty === "positions" ? this.deckKeyFor(node).key : node.t);
@@ -15446,7 +14990,7 @@ class Component extends DCLogic {
     // clearance above the dealt choices.
     this._dockLandCard(el);
     // a fresh card born while the reading sheet owns the screen must not pop over it
-    if (this._traySup || this._dossierIdx != null) this._suppressLand(true);
+    if (this._traySup) this._suppressLand(true);
     return el;
   }
   // The deferred reader owns a page, never the question DOM. Automatic game arrivals
@@ -15736,25 +15280,6 @@ class Component extends DCLogic {
     el.addEventListener("touchcancel", end, { passive: true });
     el.addEventListener("click", (e) => { if (moved > 6) { e.stopPropagation(); e.preventDefault(); } moved = 0; }, true);
   }
-  /**
-   * The DEFINITION, with the page-title sentence taken off the front.
-   *
-   * 1144 of the 1598 authored `def` strings (72%) open with "Master <thing> in BJJ." — an SEO
-   * lead-in for the static page — and `mcClip` clips to the FIRST SENTENCE, so the reader was
-   * shown the marketing line and denied the definition behind it. In every one of those 1144 there
-   * IS content after it ("Deep underhook half guard variant with excellent sweeping and back-take
-   * options…"). Owner, on seeing "Master the Estima Lock Bottom Position in BJJ." under More:
-   * "this is kinda pointless info". It was — but the fix is to skip the lead-in, not to drop the
-   * field: the useful half was one sentence away the whole time.
-   */
-  definitionOf(raw) {
-    let t = String(raw == null ? "" : raw).trim();
-    if (!t) return "";
-    t = t.replace(/^\s*(?:master|learn|discover)\b[^.!?]{0,90}?\bin (?:bjj|brazilian jiu-?jitsu)\b[.!?]\s*/i, "");
-    t = t.trim();
-    if (!t) return "";                       // it was ONLY the lead-in: say nothing
-    return this.mcClip(t) || t.slice(0, 220);
-  }
   /** Article styles load on reading intent, or after the real
    * hand for a game preview. A failed fetch drops the promise so retry can work;
    * callers await this before painting prose to avoid an unstyled frame. */
@@ -15770,8 +15295,6 @@ class Component extends DCLogic {
       document.head.appendChild(l);
     }));
   }
-  /** Is the landing question settled — mounted, or definitively not coming? */
-  landQuestionReady() { return !this._landWarmP; }
   /**
    * Resolves once the landing question is settled. Chases the chain (deck fetch -> distractor
    * pool fetch -> render), so one await is enough however many hops the card needs. Safe to call
@@ -16694,10 +16217,7 @@ class Component extends DCLogic {
   }
 
   // ── CHALLENGES: permanent evidence tracks, separate from Game Knowledge ──
-  get CHALLENGE_TRACKS() { return NG_CHALLENGE_TRACKS; }
   get CHALLENGES() { return NG_CHALLENGES; }
-  get PATCHES() { return NG_BADGE_DEFINITIONS; }
-  get MAT_COINS() { return NG_MAT_COINS; }
   get TUTORIAL() {
     // Transitional test/API rail: older clients and journeys keep the same twenty IDs.
     return NG_WHITE_CHALLENGES.map((challenge) => ({
@@ -16713,18 +16233,6 @@ class Component extends DCLogic {
   }
   challengeTrackProgress(trackId) {
     return ngTrackSummary(this.challenges || {}, trackId);
-  }
-  challengeDoneCount(trackId) {
-    return this.challengeTrackProgress(trackId || "white").done;
-  }
-  challengeCurrent(trackId) {
-    const track = trackId || "white";
-    for (const definition of NG_CHALLENGES) {
-      if (definition.track === track && !this.challengeProgress(definition.id).done) {
-        return definition;
-      }
-    }
-    return null;
   }
   _challengeSnapshot() {
     let lessonCount = 0;
@@ -16867,15 +16375,6 @@ class Component extends DCLogic {
   }
   tutDoneCount() { const d = (this.tut && this.tut.done) || {}; let n = 0; for (const s of this.TUTORIAL) if (d[s.id]) n++; return n; }
   tutCurrent() { const d = (this.tut && this.tut.done) || {}; for (const s of this.TUTORIAL) if (!d[s.id]) return s; return null; }
-  noteTutorial(beat, props) {
-    if (this._inChallenges) return;
-    this._inChallenges = true;
-    try {
-      this.noteChallenges(beat, props || {});
-    } finally {
-      this._inChallenges = false;
-    }
-  }
   restartTutorial() {
     this.tut = { done: {} };
     this.challenges = ngResetWhiteChallenges(this.challenges);
@@ -18482,21 +17981,6 @@ class Component extends DCLogic {
   successOverride(act) {
     return ngKnowledgeOverride(this.userMods, act);
   }
-  // bump the player's success rate for this technique by dir*5, creating a modifier if none exists; persists + shows in Settings
-  bumpCardSuccess(node, dir) {
-    this.ensureMods();
-    let m = this.userMods.find((x) => x.name === node.t);
-    if (!m) {
-      const cat = node.ty === "submissions" ? "Submission" : node.ty === "transitions" ? "Transition" : "Position";
-      const cs = this.calSuccess(node); // seed from the calibrated (or raw base) rate — moveChance would fossilize transient sharpness/film/opponent modifiers into a permanent override
-      const seed = cs != null ? cs : Math.max(0.05, Math.min(0.95, (node.ty === "submissions" ? 0.36 : 0.56) + (node.dom || 0) * 0.1));
-      m = { name: node.t, cat: cat, pct: Math.round(seed * 100), on: true };
-      this.userMods.push(m);
-    }
-    m.on = true;
-    m.pct = Math.max(5, Math.min(95, Math.round(m.pct / 5) * 5 + dir * 5));
-    this._knowledgeModifiersChanged();
-  }
   // colour a signed value on the -100..100 scale: vivid red when negative, blue when positive,
   // neutral in the ±1 deadband. `sat` = the magnitude at which the palette tops out; EDGE passes
   // NG_EDGE_SAT because its values live an order of magnitude closer to zero (see the constant).
@@ -19769,7 +19253,7 @@ class Component extends DCLogic {
     // card top of 366, the node 5px INSIDE the card, permanently. A board that has never played
     // therefore keeps tracking — and the moment the user pans (`userActiveNow`), takes a lease,
     // or presses play, every one of the guards around this line takes the camera back.
-    if (this.introDone && (this.paused || this._dossierIdx != null) && !stagedIdle) tgt = null;
+    if (this.introDone && this.paused && !stagedIdle) tgt = null;
     // …and a live focus lease outranks every AUTOMATIC retarget there is — follow, overview, the
     // end-of-round zoom. This is the line the whole camera-ownership fix comes down to: without
     // it the follow-cam re-aims camTarget at the current roll node on the very next frame and the
@@ -19800,7 +19284,7 @@ class Component extends DCLogic {
       ctx.trackW = 3; ctx.dur = () => clamp(this._arriveWideUntil - 0.75 - this.now, 0.6, 1.6);
     } else if (arriveGlide) {
       ctx.trackW = 3; ctx.dur = () => clamp(this._arriveGlideUntil - 0.3 - this.now, 1.0, 4.0);
-    } else if (this._dossierIdx != null || execution) {
+    } else if (execution) {
       // an exchange: the camera keeps up with the attempt (it used to ease at tau 0.28s)
       ctx.trackW = 9; ctx.dur = (S) => clamp(0.35 + 0.15 * S, 0.45, 0.9);
     }
@@ -20146,31 +19630,6 @@ class Component extends DCLogic {
     if (t) t.style.fontSize = this.announcerPx() + "px";
   }
 
-  jumpToState(idx) {
-    const n = this.nodes[idx]; if (!n) return;
-    this.clearEngagement();
-    // resolve to a position: positions go directly; actions resolve to a connected position
-    let posIdx = idx;
-    if (n.ty !== "positions") {
-      let p = -1;
-      for (const k of this.adj[idx]) { if (this.nodes[k].ty === "positions" && this.rsAllowsIdx(k)) { p = k; break; } }
-      posIdx = p >= 0 ? p : -1;
-    }
-    if (posIdx < 0) return;
-    this.clearTimers(); this.clearOptions();
-    this._session = null; this._sessionNodes = null; this._inSession = false;
-    this.activeMove = null; this.pulse = null; this.ripples = [];
-    // keep role sensible: derive from the node's name if it encodes one
-    const t = (this.nodes[posIdx].t || "");
-    if (/\bbottom\b/i.test(t)) this.playerRole = "bottom"; else if (/\btop\b/i.test(t)) this.playerRole = "top";
-    this.currentPos = posIdx;
-    this.focusIdx = posIdx;
-    this.camFocus = this.pairMid(this.nodes[posIdx]);
-    this.flare(posIdx);
-    this.hideCenter();
-    this.setPaused(true);            // freeze with a fresh decision timer; Play resumes
-    this.enterLand(false);           // build options for the new state (no restart toast)
-  }
   // v1.253.0 (U114 a): the map can no longer be hidden, so only the film's theater turns graph input off.
   _graphInputOn() { return !this._filmTheater; }
   _updateHover(e) {
@@ -20227,29 +19686,10 @@ class Component extends DCLogic {
     const mid = () => { const a = [...ptrs.values()]; return { x: (a[0].x + a[1].x) / 2, y: (a[0].y + a[1].y) / 2 }; };
     el.addEventListener("pointerdown", (e) => {
       if (!this._graphInputOn()) { this._cancelGraphInput(); return; }
-      // ── the in-node dossier owns gestures that START inside it ──
-      // Below, pointerdown calls el.setPointerCapture(). Capture RETARGETS every later pointer
-      // event to `el`, so (a) pointerup's `inCard` guard saw the wrap div instead of the card
-      // and dismissed the dossier mid-gesture, and (b) the browser computed the click event's
-      // target from the down/up common ancestor — also the wrap div. Net effect: EVERY button
-      // inside the desktop in-node dossier ("Roll from here", the attack pills, and now "Add to
-      // today's class list") was visible, enabled, stable — and dead to the mouse. Keyboard and
-      // programmatic paths masked it, exactly like the retired coach's button in v1.69.1. Found by
-      // Playwright: pointerdown hit .dsListTxt, mouseup and click hit a DIV.
-      // Panning the graph from inside the card was never a gesture anyone wanted.
+      // A control inside an overlay must not hand its press to the capture below (§6.1): setPointerCapture retargets pointerup,
+      // the click resolves on the wrap, and the control is dead to the mouse while keys and scripts still work. v1.255.1: the
+      // in-node dossier card and the dossier sheet, the first two surfaces that taught this, are retired with the dossier.
       if (e.target && e.target.closest && e.target.closest("[data-seat-star]")) return;
-      const nc = this.nodeCardRef && this.nodeCardRef.current;
-      if (nc && nc.style.display !== "none" && e.target && nc.contains(e.target)) return;
-      // ...AND THE READING SHEET, which since v1.101.0 is a desktop surface too. Same bug, same
-      // shape: the sheet's "Add to today's class list" row was visible, enabled, hit-testable —
-      // `elementFromPoint` at its centre returned its own `.dsListTxt` — and its click listener
-      // never fired. Traced: `doc-down:dsListTxt` followed by `doc-click:` on an element with NO
-      // class, i.e. this wrap. The capture above retargets pointerup, the browser computes the
-      // click target from the down/up common ancestor, and the row's handler is skipped entirely.
-      // The mobile sheet was exposed to this all along; it only surfaced when the desktop read
-      // moved out of the node and into the sheet.
-      const dsh = this.dossierSheetRef && this.dossierSheetRef.current;
-      if (dsh && dsh.style.display === "block" && e.target && dsh.contains(e.target)) return;
       // ...AND EVERY GAME-CARD SIBLING. `_landSurfaces()` is the one list for the
       // timed card and film; a new sibling cannot fix suppression while remaining
       // dead to a real mouse. The option sheet, minimized-layer dock and hand ✕ complete the
@@ -20326,8 +19766,6 @@ class Component extends DCLogic {
       if (ptrs.size < 2) pinch = null;
       if (ptrs.size === 1) { const r = [...ptrs.values()][0]; dragging = true; lx = r.x; ly = r.y; moved = 99; }
       else if (ptrs.size === 0) {
-        const card = this.nodeCardRef && this.nodeCardRef.current;
-        const inCard = card && card.style.display !== "none" && e && card.contains(e.target);
         // ── A TAP IS ROUTED BY WHAT YOU TAPPED (v1.129.1) ──────────────────────────────────
         // Owner: "Can't seem to be able to click any submissions or transitions in the graph. When
         // I click it, it seems to always go to an adjacent or nearby position."
@@ -20343,9 +19781,9 @@ class Component extends DCLogic {
         // `openDossier` has carried the right three-way rule since v1.101.5 (technique -> the
         // "attempt" card; another position -> stage; your own node -> rebuild), so a TECHNIQUE
         // simply routes there. A POSITION deliberately keeps calling `stageRollAt` directly:
-        // going through `openDossier` would also unfold the card and take a `_dossierAutoPaused`
-        // latch on every roam, which is a different feature from the one being fixed.
-        if (dragging && moved < 5 && e && !inCard && !closing) {
+        // going through `openDossier` would also unfold the card and pause the roll on every roam,
+        // which is a different feature from the one being fixed.
+        if (dragging && moved < 5 && e && !closing) {
           this._updateHover(e);
           if (this._hover && this._hover.idx >= 0) {
             // ── TAPPING A NODE IS COMING BACK (v1.129.5) ─────────────────────────────────────
@@ -20376,8 +19814,7 @@ class Component extends DCLogic {
       const wx = this.cam.cx + (sx - this.W / 2) / sb, wy = this.cam.cy + (sy - this.H / 2) / sb;
       let vw = this.cam.vw * Math.exp(e.deltaY * 0.0012);
       // ONE zoom floor. The second one existed to stop a wheel overshooting past the in-node
-      // dossier's sweet spot; that surface was retired in v1.101.0 and `_dossierIdx` has only
-      // been assigned null since, so the branch has been dead — and reading a node by zooming
+      // dossier's sweet spot; that surface was retired in v1.101.0 (its last code in v1.255.1), so the branch had been dead — and reading a node by zooming
       // into it is exactly the behaviour v1.114.0 retired ("to see details on a node we click
       // on it. We don't zoom in anymore"). Zoom is a camera; it decides how many nodes you see.
       vw = Math.max(this.graphW * 0.006, Math.min(this.graphW * 2.6, vw));
@@ -20630,7 +20067,6 @@ class Component extends DCLogic {
       const NN = this.nodes.length;
       const lit = [];
       if (drawFocus >= 0) lit.push(drawFocus);
-      if (this._dossierIdx != null && this._dossierIdx !== drawFocus) lit.push(this._dossierIdx);
       for (const li of lit) {
         const cn = this.nodes[li]; if (!cn || !this.adj[li]) continue;
         const mw = (this._maxW && this._maxW[li]) || 0;
@@ -20943,7 +20379,6 @@ class Component extends DCLogic {
     }
     ctx.globalCompositeOperation = "source-over";
 
-    this.updateNodeCard(scale);
 
     // ── NOTHING IS WRITTEN INSIDE A NODE (v1.114.0) ──────────────────────────────────────────
     //

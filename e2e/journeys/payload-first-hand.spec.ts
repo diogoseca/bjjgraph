@@ -308,7 +308,7 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
   // that LOOKS like a real payload — so a doomed fetch reads as weight rather than as a mistake,
   // and removing one reads as an optimisation. Worse, the budget is a ceiling: whether a wasted
   // fetch turns the gate red depends entirely on how much headroom happens to exist that week.
-  // When `richContentFor` was hashing a position's display title (all 136 position hub titles end
+  // When `richContentFor` (retired with the dossier, v1.255.1) was hashing a position's display title (all 136 position hub titles end
   // "… Top", so the chunk key never resolved — §6.2), reverting the fix moved the total by 5,759 B
   // against 5,497 B of headroom: red by 262 B in CI and GREEN LOCALLY, inside this spec's own
   // documented ~1,060 B local-vs-CI gap. A gate whose mutant passes on the machine the work

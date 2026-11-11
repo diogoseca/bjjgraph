@@ -520,94 +520,10 @@ test("WIN 2 as a property: on every first-roll state, both sides, the graph and 
   ).toBeLessThanOrEqual(109);
 });
 
-/**
- * THE DOSSIER TITLE, ON BOTH SIDES.
- *
- * The dossier is the landing card's `More ▸`, so it inherits the same rule: name the side being
- * played, once, and never contradict it. Its headline is built by STRIPPING the role word out of the
- * node title — and the strip was written against the role it was about to print:
- *
- *     const title = role ? sp.main.replace(new RegExp("\\s+" + role + "\\s*$", "i"), "") : sp.main
- *
- * While `role` came off the (constant) title that was self-consistent: role was always "Top", every
- * position title ends in " Top", so the suffix always came off and the headline read "Mount". Making
- * `role` the side actually in play broke exactly that coupling: on a bottom landing role is "Bottom",
- * `\s+Bottom$` cannot match "Mount Top", so nothing is stripped and the headline reads "Mount Top"
- * with a "Bottom" badge beside it — the very contradiction the played-side work exists to remove,
- * reintroduced one surface over. The same hole opens whenever the badge is suppressed because the
- * authored copy came from the other side (`role = null`).
- *
- * The title is a NAME. It never depended on which side is in play, and it must not: strip the
- * collapsed hub's rendering artifact unconditionally for positions, leave technique titles alone.
- */
-test("the dossier headline is the position's name on both sides, never the other side's suffix", async ({
-  page,
-}) => {
-  const j = journey(page);
-  await j.boot("/", { keepTutorial: true });
-
-  const read = await page.evaluate(() => {
-    const a = (window as any).__neural;
-    const pos = a.nodes.findIndex(
-      (n: any) => n.ty === "positions" && n.t === "Mount Top",
-    );
-    // any technique reachable from here — the point is that its headline is side-agnostic
-    const tech = (a.adj[pos] || []).find(
-      (k: number) => a.nodes[k].ty !== "positions",
-    );
-    const out: any = { sides: {}, techTitle: null, techWanted: null };
-    const panel = () => {
-      const el = document.querySelector("[data-dossier-title]");
-      const badge = document.querySelector("[data-dossier-badge]");
-      return {
-        title: el ? (el.textContent || "").trim() : null,
-        badge: badge ? (badge.textContent || "").trim() : null,
-      };
-    };
-    for (const role of ["top", "bottom"]) {
-      a.playerRole = role;
-      a.currentPos = pos;
-      // both render modes: the panel (`More ▸`) and the in-node card share one title computation
-      // ONE renderer since v1.101.0: the in-node card is retired, so `renderDossier` no longer
-      // takes a target element and the reading sheet is the only surface it draws.
-      a.renderDossier(a.nodes[pos]);
-      const p = panel();
-      out.sides[role] = {
-        panelTitle: p.title,
-        panelBadge: p.badge,
-        nodeTitle: p.title,
-      };
-    }
-    // a technique node has no side in play and no role suffix — its title must be untouched
-    a.renderDossier(a.nodes[tech]);
-    out.techTitle = panel().title;
-    out.techWanted = a.splitName(a.nodes[tech].t).main;
-    return out;
-  });
-
-  for (const [role, want] of [
-    ["top", "Top"],
-    ["bottom", "Bottom"],
-  ] as const) {
-    const r = read.sides[role];
-    expect(
-      r.panelTitle,
-      `playing ${role}, the dossier headline is the position's NAME (got ${JSON.stringify(r.panelTitle)}, badge ${JSON.stringify(r.panelBadge)})`,
-    ).toBe("Mount");
-    expect(
-      r.nodeTitle,
-      `and the in-node card says the same thing (got ${JSON.stringify(r.nodeTitle)})`,
-    ).toBe("Mount");
-    expect(
-      r.panelBadge,
-      `with the side being played on the badge, not in the headline`,
-    ).toBe(want.toUpperCase() === "TOP" ? "Top" : "Bottom");
-  }
-  expect(
-    read.techTitle,
-    "and a technique's headline is untouched by any of this",
-  ).toBe(read.techWanted);
-});
+// RETIRED (v1.255.1): "the dossier headline is the position's name on both sides". Its only subject was `renderDossier`, the
+// node dossier, which nothing in the app had called since v1.101.0 (this test drove it through the test handle) and which is
+// now deleted with its subtree (CLAUDE.md §6.8). The rule it guarded, a name never carries a role, is pinned on the live
+// surfaces: seat-word-and-search.spec.ts ("one name, every naming seam") and graph-naming.spec.ts on the canvas.
 
 test("the role cannot be read off the node title — every pool entry is titled Top", async ({
   page,

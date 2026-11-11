@@ -125,7 +125,6 @@ function labelApp() {
   a.trail = [];
   a.ripples = [];
   a.anim = (_key, fallback) => fallback;
-  a.updateNodeCard = () => {};
   // This harness records canvas text without a DOM. Seat-star DOM placement and input
   // are covered by e2e/journeys/seat-star.spec.ts, while the canvas labels stay real here.
   a._syncSeatStars = () => {};
