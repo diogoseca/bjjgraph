@@ -56,6 +56,11 @@ const NG_CARD_LIFT = 1 / 12, NG_CARD_LIFT_MS = 440;
 // NG_GRADE_ARM_MS (review R3): the strip's buttons answer only a press that BEGAN this long after the strip
 // appeared — it appears where the pointer already is (after the dwell, or under the revealing tap), so an earlier
 // press was aimed at the card, not at a button the player had not seen yet.
+// STAGE 2 OF THE MASTERY REFORM (prep, OFF; nothing ships until the owner decides from the numbers). With
+// NG_MOVES_MASTERY on, `mastery(key)` adds what the moves record knows (U119 c: flashcards keep theirs, the moves add
+// theirs under the same 0.15 cap), and the Win % profile reads the same figure. NG_MOVES_GOLD draws U122's outlines.
+// NG_MOVES_KNOWN_LINE adds "Moves known N of M" under "Mastered N · X%". All false: every number is today's.
+const NG_MOVES_MASTERY = false, NG_MOVES_GOLD = false, NG_MOVES_KNOWN_LINE = false;
 const NG_PEEK_DWELL_MS = 250, NG_HIDE_HINT = "badge", NG_HIDE_GRADE_NO = false, NG_GRADE_ARM_MS = 500;
 // The videos row's fade, in units of the ONE token it is sized from: the card's side padding, measured
 // by `_dockLandFilm` (the end padding is 1 of the same unit). helmet.html `.ng-landfilm`.
@@ -2616,7 +2621,107 @@ class Component extends DCLogic {
   }
   // ── P3 economy: permanent mastery + decaying sharpness. Drilling stays valuable forever
   // (mastery), but recency matters (sharpness fades as the roll moves on). ──
-  mastery(key) { return key ? ngKnowledgeMastery((this.prep && this.prep[key]) || 0) : 0; }
+  mastery(key) {
+    if (!key) return 0;
+    const p = (this.prep && this.prep[key]) || 0;
+    // the proposal: + 0.15 for a known pair (a technique deck), + 0.15 x the share of a seat's dealt moves known (a
+    // position deck), under the same cap. It can only ADD: min(0.15, 0.03p + x) >= min(0.15, 0.03p) for x >= 0.
+    return NG_MOVES_MASTERY ? Math.min(0.15, 0.03 * p + this._movesPart(key)) : ngKnowledgeMastery(p);
+  }
+  // ── STAGE 2 (prep): what the `moves` record knows, per deck key ─────────────────────────────────────────────────
+  // A technique deck "<T>|Attacker" is known when any of its pairs' last answer was a Yes (a technique dealt from
+  // several seats through `alsoFrom` is ONE deck, so any seat counts). A position deck "<Fam>|Top" carries the share of
+  // that seat's dealt moves (this ruleset) that are known. Cached per moves version and ruleset; `optionsFor` sorts by
+  // moveChance -> mastery, so the share is computed with the moves part held at zero (`_movesBusy`), which cannot
+  // change WHICH moves are dealt, only their order.
+  _movesIdx() {
+    const sig = (this._movesVer || 0) + "|" + this._giMode + "|" + (this._stageVer || 0);
+    if (this._movesCache && this._movesCache.sig === sig) return this._movesCache;
+    const tech = new Set(), seats = new Map();
+    for (const st in this.moves || {}) for (const mv in this.moves[st]) {
+      const r = this.moves[st][mv];
+      if (!r || r[3] !== 1) continue;
+      (seats.get(st) || seats.set(st, new Set()).get(st)).add(mv);
+      const id = mv[0] === "e" ? null : this._ordToId && this._ordToId.get(+mv), i = id != null && this._idIndex ? this._idIndex.get(id) : null;
+      if (i != null) tech.add(this.deckKeyFor(this.nodes[i]).key);
+    }
+    return (this._movesCache = { sig, tech, seats, share: new Map() });
+  }
+  _seatShare(key) {
+    const c = this._movesIdx();
+    if (c.share.has(key)) return c.share.get(key);
+    const i = this.nodeForKey(key), role = /\|Bottom$/.test(key) ? "bottom" : "top";
+    let share = 0;
+    if (i >= 0 && this.nodes[i].ty === "positions") {
+      const o = this._ordById && this._ordById.get(this.siteIdOf(this.nodes[i].id)), known = c.seats.get(o + "/" + role);
+      if (known && known.size) {
+        this._movesBusy = true;
+        try {
+          const dealt = this.optionsFor(i, role);
+          const ord = (n) => this._ordById.get(this.siteIdOf(n.id));
+          share = dealt.length ? dealt.filter((d) => known.has(String(ord(this.nodes[d.idx])))).length / dealt.length : 0;
+        } finally { this._movesBusy = false; }
+      }
+    }
+    c.share.set(key, share);
+    return share;
+  }
+  // U122's gold (NG_MOVES_GOLD): 1 = known through the moves (a technique's pair; a seat's every dealt move),
+  // 2 = and its detail flashcards learned too (deckMastery 1). Defender halves have no moves of their own: 0.
+  _movesGold(n) {
+    const c = this._movesIdx(), g = c.gold || (c.gold = new Map());
+    if (g.has(n.idx)) return g.get(n.idx);
+    let lv = 0;
+    if (n.ty === "positions") {
+      const key = this.posFamily(n.t) + "|" + (n.role === "bottom" ? "Bottom" : "Top");
+      if (this._seatShare(key) >= 1) lv = this.deckMastery(key) >= 1 ? 2 : 1;
+    } else if (n.role !== "defender") {
+      const key = this.deckKeyFor(n).key;
+      if (c.tech.has(key)) lv = this.deckMastery(key) >= 1 ? 2 : 1;
+    }
+    g.set(n.idx, lv);
+    return lv;
+  }
+  // "Moves known N of M" (NG_MOVES_KNOWN_LINE): pairs dealt in this ruleset, over every seat's own hand
+  _movesKnownLine() {
+    const c = this._movesIdx();
+    if (c.line) return c.line;
+    let total = 0, known = 0;
+    const seen = new Set();
+    this._movesBusy = true;
+    try {
+      for (const n of this.nodes) {
+        if (n.ty !== "positions") continue;
+        const o = this._ordById && this._ordById.get(this.siteIdOf(n.id));
+        for (const role of ["top", "bottom"]) {
+          if (o == null || seen.has(o + "/" + role)) continue;
+          seen.add(o + "/" + role);
+          const k = c.seats.get(o + "/" + role);
+          for (const d of this.optionsFor(n.idx, role)) { total++; if (k && k.has(String(this._ordById.get(this.siteIdOf(this.nodes[d.idx].id))))) known++; }
+        }
+      }
+    } finally { this._movesBusy = false; }
+    return (c.line = { known, total });
+  }
+  _movesPart(key) {
+    if (this._movesBusy || !this.moves) return 0;
+    const c = this._movesIdx();
+    if (c.tech.has(key)) return 0.15;
+    return /\|(Top|Bottom)$/.test(key) ? 0.15 * this._seatShare(key) : 0;
+  }
+  // the worker's profile reads `prep` itself (ngKnowledgeBuildProfile, a law-hashed file): hand it the count that
+  // gives the same figure (`permanent = min(0.15, 0.03 x count)`), so the Win % moves with the dice and the card
+  _knowledgePrep() {
+    if (!NG_MOVES_MASTERY || !this.moves) return this.prep;
+    const c = this._movesIdx(), out = Object.assign({}, this.prep || {});
+    const keys = new Set([...Object.keys(out), ...c.tech]);
+    for (const st of c.seats.keys()) {
+      const [o, role] = st.split("/"), id = this._ordToId && this._ordToId.get(+o), i = id != null ? this._idIndex.get(id) : null;
+      if (i != null && this.nodes[i].ty === "positions") keys.add(this.posFamily(this.nodes[i].t) + "|" + (role === "bottom" ? "Bottom" : "Top"));
+    }
+    for (const k of keys) { const m = this.mastery(k); if (m > ngKnowledgeMastery(out[k] || 0)) out[k] = m / 0.03; }
+    return out;
+  }
   sharpness(key) { return (key && this._sharp && this._sharp[key]) || 0; }
   stateBonus(key) { return this.mastery(key) + this.sharpness(key); }
   bumpSharp(key) { if (key) { (this._sharp = this._sharp || {})[key] = 0.10; this._gameValueChanged("sharpness"); } }
@@ -2680,7 +2785,7 @@ class Component extends DCLogic {
     // No reference-only memo: imports and test rails can replace/mutate legacy maps.
     // The day and complete evidence fingerprint cover expiry/failure with unchanged odds.
     const day = this._checkKnowledgeDay();
-    return ngKnowledgeBuildProfile({ prep: this.prep, sharp: this._sharp, userMods: this.userMods,
+    return ngKnowledgeBuildProfile({ prep: this._knowledgePrep(), sharp: this._sharp, userMods: this.userMods,
       filmLook: this._filmLook, flowCounts: this.flowCounts(), revision: this._knowledgeRevision || 0,
       contentRevision: this._knowledgeContentRevision || "", day: day,
       evidenceRevision: ngKnowledgeFingerprint({ stage: this.stage || {}, rec: this.rec || {}, srs: this.srs || {} }) });
@@ -3933,7 +4038,7 @@ class Component extends DCLogic {
       // Rides the v2 blob without a version bump (the `lists` precedent); absent on old blobs.
       this.srs = Object.assign({}, p.srs || {});
       // the moves you recalled from each state (v1.255.0, `_gradeMove`); absent on older blobs
-      this.moves = Object.assign({}, p.moves || {});
+      this.moves = Object.assign({}, p.moves || {}); this._movesVer = (this._movesVer || 0) + 1;
       this.stage = Object.assign({}, p.stage || {});
       this.units = Object.assign({}, p.units || {});
       this.belts = Object.assign({ won: {} }, p.belts || {});
@@ -6935,6 +7040,7 @@ class Component extends DCLogic {
     // After opening, more detail is fine (U46 b): the Mastered figure the stat row printed leads it.
     const gs = this.gameScore(), mastered = row("data-menu-mastered", "Mastered " + this.masteredCount() + " \u00b7 " + Math.round((gs && gs.score ? gs.score : 0) * 100) + "%", () => this.openFlashBrowser("mastered", "Mastered"));
     m.insertBefore(mastered, sep);
+    if (NG_MOVES_KNOWN_LINE) { const l = this._movesKnownLine(); m.insertBefore(row("data-menu-moves", "Moves known " + l.known.toLocaleString("en") + " of " + l.total.toLocaleString("en"), null), sep); }
     m.appendChild(row("data-menu-settings", "Settings", () => this.openSettings()));
     m.appendChild(row("data-menu-feedback", "Feedback", () => this.openFeedback()));
     m.append(...auth);
@@ -13803,7 +13909,7 @@ class Component extends DCLogic {
       + '<span class="ng-choice-badge" data-choice-recommended></span>'
       + '<div class="ngbar"></div>';
     // A mastered move wears thin gold in every row, hidden or not (owner, U116).
-    if (this._moveMastered(opt)) card.setAttribute("data-mastered", "");
+    if (this._moveMastered(opt)) card.setAttribute("data-mastered", NG_MOVES_GOLD && this.deckMastery(this.deckKeyFor(opt.node).key) >= 1 ? "2" : "");
     if (this._hideMoves()) this._hideCard(card);
     // A HIDDEN CARD'S FIRST TOUCH REVEALS, ITS SECOND PLAYS. The gate sits HERE, in front of
     // activateOption, so keys 1-9 (which call activateOption directly) still play blind and the
@@ -14003,6 +14109,8 @@ class Component extends DCLogic {
     const prior = row[k[1]];   // cells a later build added after the fourth ride along (review R5)
     row[k[1]] = ngKnowledgeScheduleRow(prior, ok, this._epochDay()).concat(ok ? 1 : 0, prior && prior.length > 4 ? prior.slice(4) : []);
     card.toggleAttribute("data-mastered", ok);
+    this._movesVer = (this._movesVer || 0) + 1;
+    if (NG_MOVES_MASTERY || NG_MOVES_GOLD) this._publishKnowledge("moves");
     this.track("neural_move_recalled", { technique: opt.node.t, got: ok, threat: !!opt.threat, escape: opt.action === "escape", via: this._hideVia || "saved" });
     this._saveProgress();
   }
@@ -20692,6 +20800,15 @@ class Component extends DCLogic {
       const rD = rr * nodeK * bk;
       ctx.fillStyle = this.rgba(this._mapColor(n, true), 0.62 * A * dim * fogK * aK);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, ny, rD); ctx.fill();
+      // U122 (NG_MOVES_GOLD, off): a thin gold outline when known through the moves, double width with the flashcards too
+      if (NG_MOVES_GOLD && aK > 0.55) {
+        const g = this._movesGold(n);
+        if (g) {
+          ctx.strokeStyle = this.rgba({ r: 240, g: 192, b: 90 }, 0.95 * A * dim * fogK);
+          ctx.lineWidth = (g === 2 ? 3 : 1.5) / scale;
+          ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, ny, rD + ctx.lineWidth / 2 + 1 / scale); ctx.stroke();
+        }
+      }
       // one light direction for the whole scene — collected here, painted in a single batch below
       if (spec && rD * scale > 7 && aK > 0.55 && fogK > 0.5) spec.push(n.x - rD * 0.3, ny - rD * 0.3, rD * 0.4);
     }
@@ -20748,6 +20865,15 @@ class Component extends DCLogic {
       ctx.strokeStyle = this.rgba(this.lerpCol(pc, { r: 255, g: 255, b: 255 }, 0.55), 0.95 * A);
       ctx.lineWidth = 2 / scale;
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), rM); ctx.stroke();
+      // U122 (off): the focus mark is drawn over the base pass, so its outline is drawn again here, outside the rim
+      if (NG_MOVES_GOLD) {
+        const g = this._movesGold(n);
+        if (g) {
+          ctx.strokeStyle = this.rgba({ r: 240, g: 192, b: 90 }, 0.95 * A);
+          ctx.lineWidth = (g === 2 ? 3 : 1.5) / scale;
+          ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), rM + ctx.lineWidth / 2 + 2 / scale); ctx.stroke();
+        }
+      }
     }
 
     ctx.globalCompositeOperation = "lighter";
