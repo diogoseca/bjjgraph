@@ -3061,9 +3061,12 @@ class Component extends DCLogic {
   }
   setDrillHeader(title, sub, countText, role, roleColor) {
     const head = this.drillHeadRef.current; if (!head) return;
-    if (this._session?.practice && !this._checkpoint && !this.deck) {
+    if (this._practiceInDrawer()) { head.innerHTML = '<small data-practice-belt="1"></small>'; return; }   // the brand carries "‹ Practice"
+    if (this._practicePage()) {
+      const s = this._session;
       head.innerHTML = '<button type="button" class="ngBack" data-pane-back="1">‹ Back</button><b>Practice</b><small data-practice-belt="1"></small>';
-      head.querySelector(".ngBack").onclick = () => this._exitStudyTo();
+      // b: the wide page holds one card; its Back returns to the plan in the drawer
+      head.querySelector(".ngBack").onclick = () => this._practiceLook === "b" ? this._practiceToPlan(s) : this._exitStudyTo();
       return;
     }
     head.innerHTML =
@@ -3255,6 +3258,20 @@ class Component extends DCLogic {
   // post-hydration refresh ran buildDrillPanel and stomped the very surface the user opened —
   // the same class of bug as onFlashcardsReady's, one layer down.
   _paneStudyActive() { return !!(this.deck || this._session || this._checkpoint || this._studyOpen); }
+  // EXPLORATORY, NOT FOR MERGE (practicedrawer, PRACT1): which look Practice takes, so the owner can compare them side
+  // by side from one build. `?practice=a` in the drawer as Path is · `b` the plan in the drawer, a card on the wide page
+  // · `c` a wider drawer · anything else is today's wide page. Read once; the address keeps its query (`_writeUrl`).
+  get _practiceLook() {
+    if (this.__practiceLook == null) {
+      let v = ""; try { v = new URLSearchParams(location.search).get("practice") || ""; } catch (e) {}
+      this.__practiceLook = ["a", "b", "c"].includes(v) ? v : "today";
+    }
+    return this.__practiceLook;
+  }
+  _practicePage() { return !!this._session?.practice && !this._checkpoint && !this.deck; }
+  _practiceWide() { const look = this._practiceLook; return this._practicePage() && (look === "today" || (look === "b" && !!this._session.wide)); }
+  /** Practice is a view INSIDE the drawer, the way Path is: the brand reads "‹ Practice" and is the way back. */
+  _practiceInDrawer() { return this._practicePage() && !this._practiceWide(); }
   // Does a System or Concept detail view own the Explore body right now? The SAME predicate
   // renderExplorer branches on (a live query outranks either), kept here so the chrome above
   // the list and the list itself cannot disagree about what is showing.
@@ -3278,7 +3295,10 @@ class Component extends DCLogic {
     const study = this._paneStudyActive();
     if (study && !this._paneWasStudy) this._paneReturnTab = this._viewMode; // remember where ‹ Back goes
     this._paneWasStudy = study;
-    panel.toggleAttribute("data-practice-page", !!this._session?.practice && !this._checkpoint && !this.deck);
+    panel.toggleAttribute("data-practice-page", this._practicePage());
+    panel.toggleAttribute("data-practice-wide", this._practiceWide());
+    panel.toggleAttribute("data-practice-roomy", this._practicePage() && this._practiceLook === "c");
+    panel.toggleAttribute("data-practice-plan", this._practiceInDrawer() && this._practiceLook === "b");
     if (study) panel.setAttribute("data-pane-study", "1"); else panel.removeAttribute("data-pane-study");
     this._paintDrawerHead();
     this._syncExploreTools(study);
@@ -6148,7 +6168,8 @@ class Component extends DCLogic {
     };
     end.appendChild(more);
     this._practiceCorridor(); this._practiceRows(s);
-    this._sessionOpeners[Math.max(0, Math.min(s.keys.length - 1, s.idx || 0))]?.();
+    // b (exploratory): the drawer shows the plan, and no card opens until one is pressed
+    if (!(this._practiceLook === "b" && !s.wide)) this._sessionOpeners[Math.max(0, Math.min(s.keys.length - 1, s.idx || 0))]?.();
     if (!s.keys.length) {
       const empty = document.createElement("p"); empty.setAttribute("data-session-empty", "1");
       empty.textContent = s.plan ? "Nothing to practise here right now." : this._gameplanLoadState === "failed" ? "Open study plan to retry." : "Loading cards…";
@@ -6158,6 +6179,12 @@ class Component extends DCLogic {
     this._paintGameplanProgress(s);
   }
 
+  // b (exploratory): the wide page's Back returns to the plan in the drawer, the card closed
+  _practiceToPlan(s) {
+    if (this._session !== s) return;
+    s.wide = false; this._openMini?.close();
+    this.setDrillHeader("Practice", "", ""); this._layoutPane(); this._paintPractice(s);
+  }
   _practiceRows(s) {
     if (!s.rows?.isConnected) return;
     for (let i = this._sessionOpeners.length; i < s.keys.length; i++) {
@@ -6316,6 +6343,8 @@ class Component extends DCLogic {
       }
     };
     const open = () => {
+      // b (exploratory): starting a card from the plan moves the session onto the wide page
+      if (s.practice && this._practiceLook === "b" && !s.wide && this._session === s) { s.wide = true; this.setDrillHeader("Practice", "", ""); this._layoutPane(); }
       if (this._openMini && this._openMini.rid !== rid) this._openMini.close();  // accordion: one at a time
       if (!built || s.plan) { built = true; build(); }
       detail.style.display = "block";
@@ -7327,13 +7356,14 @@ class Component extends DCLogic {
   // lands: "explore" IS the home list, and Path / Last rolls open as views whose way back is the brand.
   styleViewToggle() { if (!this.viewToggleRef?.current) return; this._paintDrawerHead(); this._syncExploreTools(); }
   drawerHome() {
-    if (this._paneStudyActive()) this._exitStudyTo("explore");
+    if (this._practiceInDrawer()) this._exitStudyTo();   // "‹ Practice" is Practice's Back: it restores where Practice was opened from
+    else if (this._paneStudyActive()) this._exitStudyTo("explore");
     else if (this._viewMode !== "explore") this.setViewMode("explore");
     else this._exploreHome();
   }
   _paintDrawerHead() {
     const b = this.viewToggleRef?.current; if (!b) return;
-    const sub = !this._paneStudyActive() && { challenges: "Path", history: "Last rolls" }[this._viewMode];
+    const sub = this._practiceInDrawer() ? "Practice" : !this._paneStudyActive() && { challenges: "Path", history: "Last rolls" }[this._viewMode];
     const html = sub ? "\u2039 " + sub : NG_DRAWER_LOGO + "BJJGraph";
     if (b._ngHead !== html) { b._ngHead = html; b.innerHTML = html; }
     b.setAttribute("aria-label", sub ? "Back to the sidebar" : "BJJGraph: the top of the sidebar");

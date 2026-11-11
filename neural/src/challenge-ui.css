@@ -71,16 +71,41 @@
 /* P1: deliberate study uses the screen; the drawer remains its navigation.
    All answer content is in one scroller. No pinned account/goal/footer can
    cover a long question or an enlarged response control. */
+/* Practice is a reading surface in every look: opaque, because the drawer's 98.4% gradient lets the paused
+   game's bright text show through on a phone (measured: Path shows it too, under its own rows). */
 .ng-drill[data-practice-page] {
+  background: #111522 !important;
+}
+.ng-drill[data-practice-wide] {
   width: min(760px, 100vw) !important;
   left: 50% !important;
   transform: translateX(-50%);
-  background: #111522 !important;
 }
-.ng-drill[data-practice-page] .ng-drawer-head {
+.ng-drill[data-practice-wide] .ng-drawer-head {
   padding: 0 10px;
 }
-.ng-drill[data-practice-page] .ng-pane-drillhead {
+/* EXPLORATORY (practicedrawer): Practice inside the drawer, as Path is. The brand reads "‹ Practice",
+   so the drill head is the belt line alone. `c` widens the drawer itself (440px, the whole width on a phone); it
+   stays at the left edge. */
+.ng-drill[data-practice-roomy] {
+  width: min(440px, 100vw) !important;
+}
+.ng-drill[data-practice-page]:not([data-practice-wide]) .ng-pane-drillhead {
+  padding: 0 22px 6px !important;
+}
+.ng-drill[data-practice-page]:not([data-practice-wide]) .ng-pane-drillhead small {
+  display: block;
+  color: #a6b3ca;
+  font-size: 11px;
+}
+[data-practice-plan] [data-session] > div[hidden] {
+  display: block !important;
+}
+[data-practice-plan] .ng-practice-nav,
+[data-practice-plan] [data-practice-keys] {
+  display: none !important;
+}
+.ng-drill[data-practice-wide] .ng-pane-drillhead {
   display: grid !important;
   grid-template-columns: auto 1fr;
   align-items: center;
