@@ -212,6 +212,10 @@ export async function installReader(app) {
   const layer = app.setLayer;
   app.setLayer = function (name, on, src) {
     const result = layer.apply(this, arguments);
+    // D-351's own rule: closing the card settles a pinned landing. _readerHold's release asks for the card to still exist, which the ✕
+    // removes first, so the pin outlived the close and kept the closed card's old top: the message, then the film, stood 4px into
+    // Moves' band (card-close-gap.spec.ts's 1440 control, on a landing the hold had pinned). Measured: dev's run was simply unpinned.
+    if (result && name === "card" && on === false) this._readerPin = null;
     if (result && src === "x" && on === false) reader.notice(name === "film" ? "videos" : name);
     return result;
   };
