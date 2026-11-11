@@ -2239,17 +2239,20 @@ class Component extends DCLogic {
   //   1. band (`_rankTier`): 0 the NAME matches (it is the query, an alias is the query, it starts with it, or every
   //      query word starts one of its words) · 1 the query is inside a word · 2 only together with where it starts
   //      from ("Armbar from Side Control" for "side control") · 3 an alias matches in part · 4 one typo (opt-in);
-  //   2. head: an exact position or submission (its own name or an alias IS the query) leads band 0;
+  //   2. head: an exact name leads band 0, then an exact nickname, of ANY kind (review D2b, v1.257.0: kind used to come
+  //      first, so "triangle escape" put Triangle Escape Position above the transition named exactly that);
   //   3. kind: submission, position, transition, System. A finish before the place it is finished from, because the
   //      corpus names its control positions after the finish ("Guillotine Control", "Armbar Control", "Triangle
   //      Control"), and before its setups, whose bare names often EQUAL the query ("Guillotine from Turtle" is a
   //      transition whose printed name is "Guillotine"). A player typing "guillotine" means the choke (owner's example).
   //      Measured: 7 of 77 submission names carry a word a position query starts (Mounted Crucifix Armbar, North-South
   //      Choke, Kesa Gatame Arm Crush, Far Side Armbar, Triangle Choke Side, Kneebar x2, Can Opener); the head key keeps
-  //      an exact position first over all of them;
-  //   4. a technique with no "from <origin>" tail before its "from X" variants ("Knee Slice Pass" before "Knee Slice
-  //      from Half", "Scissor Sweep" before "Sweep from Saddle"). A variant's printed name is its bare stem, so
-  //      "Sweep from Electric Chair" PRINTS "Sweep": it is never an exact name, only a match that starts the name;
+  //      an exact name first over all of them;
+  //   4. a TRANSITION with no "from <origin>" tail before the "from X" ones ("Knee Slice Pass" before "Knee Slice from
+  //      Half", "Scissor Sweep" before "Sweep from Saddle"). NOT for submissions (review D2): every family start is
+  //      titled "X from Y", so the key put the five stand-alone submissions above every family ("choke" opened on Buggy
+  //      Choke, importance 0, above Rear Naked Choke). Any technique's "from X" variant PRINTS its bare stem ("Sweep from
+  //      Electric Chair" prints "Sweep"), so it is never an exact name, only a match that starts the name;
   //   5. exactness inside band 0: the name, an alias, the name starts with it, a later word does;
   //   6. importance: how much of the game passes through it in THIS ruleset (`_searchWeights`);
   //   7. the shorter title; 8. the folded title; 9. the id (unique, stable content: never the node index).
@@ -2261,7 +2264,9 @@ class Component extends DCLogic {
   // "arm bar" finds Armbar, "x guard" finds X-Guard, "50/50" finds 50-50 Guard, "mata leao" finds Mata Leão. Every word
   // of a multi-word query must match, in any order ("control side" finds Side Control). What the old substring test
   // matched, this still matches (deleting the same characters from both strings keeps a substring a substring); the
-  // one narrowing is a query with no letter or digit at all ("-", "/"), which now lists nothing.
+  // one narrowing is a query with no letter or digit at all ("-", "/"), which now lists nothing. KNOWN, AND NOTHING IS LOST
+  // TODAY: a letter outside a-z after the accent strip (ß, ø, CJK) folds to a word break, so such a query lists nothing
+  // where the old substring test matched it; the corpus's only non-ASCII letter is the "ã" of Mata Leão, which folds.
   _rankFold(s) {
     const t = this._foldSearch(s).replace(/[^a-z0-9]+/g, " ").trim();
     const w = t ? t.split(" ") : [];
@@ -2296,13 +2301,13 @@ class Component extends DCLogic {
   }
   /** The folded fields one node is ranked on, cached on the node and dropped when aliases land (`_ensureAliases`).
    *  `m` the name a row prints (graphName: no role, no "from" tail) · `t` the whole title, origin included · `a` every
-   *  aka and alias · `canon` 1 for a technique's "from X" variant, else 0. */
+   *  aka and alias · `v` 1 for a technique's "from X" variant · `canon` the same for a TRANSITION only (key 4). */
   _rankKey(n) {
     if (n._rk) return n._rk;
     const m = this.graphName(n), sp = this.splitName(n.t);
-    const canon = n.ty !== "positions" && sp.from ? 1 : 0;
+    const v = n.ty !== "positions" && sp.from ? 1 : 0, canon = n.ty === "transitions" ? v : 0;
     const kind = n.ty === "submissions" ? 0 : n.ty === "positions" ? 1 : 2;
-    return (n._rk = { m: this._rankFold(m), t: sp.from ? this._rankFold(n.t) : null, v: canon,
+    return (n._rk = { m: this._rankFold(m), t: sp.from ? this._rankFold(n.t) : null, v,
       a: [n.aka, ...(n.aliases || [])].filter(Boolean).map((s) => this._rankFold(s)),
       canon, kind, len: n.t.length, name: this._foldSearch(n.t), id: n.id });
   }
@@ -2357,7 +2362,7 @@ class Component extends DCLogic {
     const q = this._rankFold(raw), rows = [];
     if (!q.c) return { q, rows };
     const W = this._searchWeights();
-    const push = (r, t, kind) => { r.band = t.band; r.ex = t.ex; r.kind = kind; r.head = t.band === 0 && t.ex <= 1 && kind <= 1 ? 0 : 1; rows.push(r); };
+    const push = (r, t, kind) => { r.band = t.band; r.ex = t.ex; r.kind = kind; r.head = t.band === 0 && t.ex <= 1 ? t.ex : 2; rows.push(r); };
     for (const n of this.nodes) {
       if (!n.rep || !this.rsAllows(n)) continue;
       const k = this._rankKey(n), t = this._rankTier(k, q, opts.typo);
@@ -8333,6 +8338,8 @@ class Component extends DCLogic {
       this._renderSearch(list, mk, this._exQ || "");
       return;
     }
+    // no query: the last search's pager stops and forgets its page (review D3: its observer outlived the cleared query)
+    if (this._searchPage) { this._searchPage.stop(); this._searchPage = null; this._searchUiQ = null; }
     // ── PRINCIPLES + LEARNING ── every authored concept, and a click that OPENS it.
     //
     // What was here until v1.152.0: `curatedMap`, ten hardcoded rows whose click handler wrote a
@@ -11327,8 +11334,8 @@ class Component extends DCLogic {
    *    is one row instead of 12, "armbar" one instead of 15, so the next distinct things come into view.
    *  · EVERY POSITION ROW CARRIES ITS TWO SEATS as Top and Bottom presses, on a line of their own under the name (beside
    *    it they squeezed "Side Control" onto two lines at 390). The row itself still opens the Top page, as before.
-   *  · ONE TYPO IS FORGIVEN as the last band (`_rankTypo`). Known near-miss, kept LAST on purpose: "knee slice" also
-   *    lists "Knee Slide from Combat Base" at the bottom of its results.
+   *  · ONE TYPO IS FORGIVEN as the last band (`_rankTypo`), always on. Known near-misses, kept LAST on purpose: "knee
+   *    slice" also lists the three "Knee Slide from …" at the bottom, and "crank" its two Crackhead Control rows.
    *  FORTY ROWS FIRST, THE REST ON SCROLL. Drawing ~120 rows was what a keystroke cost (measured on this box, 390x844 at
    *  4x CPU throttle: ~150 ms a keystroke, of which the ranking is 11-16 ms), so the first `NG_SEARCH_PAGE` rows draw on
    *  the keystroke and the next batch draws when the end of the list comes within 600px of view (an IntersectionObserver
@@ -11392,6 +11399,9 @@ class Component extends DCLogic {
           ' <span style="color:#6b7691;font-size:11px;">' + mem.length + ' starts</span></span><span style="margin-left:auto;flex:none;font-size:10px;color:#7e8aa3;">Sub</span><span style="flex:none;color:#5d6883;font-size:11px;">' + this._caretHTML(isOpen) + '</span>',
           12, () => { if (open.has("f" + f)) open.delete("f" + f); else open.add("f" + f); rerender('[data-search-fam="' + f + '"]'); });
         hit.setAttribute("data-search-fam", f); hit.setAttribute("aria-expanded", isOpen ? "true" : "false"); hit.style.pointerEvents = "auto";
+        // Enter in the search box opens the FIRST RESULT, and for a family that is its best start, never the fold:
+        // pressing the header toggles it, so Enter used to SHUT the open guillotine family and open nothing (review D1).
+        hit._ngOpenFirst = () => this._readArticle(this._nodeUrlPath(mem[0].n.idx), true, true, "search");
         list.appendChild(hit);
         let n = 1;
         if (isOpen) {
@@ -11411,8 +11421,13 @@ class Component extends DCLogic {
     }
     const sentinel = document.createElement("div");
     sentinel.setAttribute("data-search-sentinel", ""); sentinel.setAttribute("aria-hidden", "true"); sentinel.style.cssText = "height:1px;flex:none;";
-    let bi = 0;
+    let bi = 0, io = null;
+    const page = { more: () => draw(NG_SEARCH_PAGE), left: () => blocks.length - bi, stop: () => { if (io) { io.disconnect(); io = null; } } };
+    // A PAGE DRAWS ONLY WHILE IT IS THE LIVE ONE (review D3). An IntersectionObserver entry already queued when the next
+    // keystroke re-renders can still be delivered after `stop()`; without this it appended the OLD query's rows to the
+    // new list and overwrote `_searchDrawn`. The same holds for any stale `more()`.
     const draw = (want, minBlocks = 0) => {
+      if (this._searchPage !== page) { page.stop(); return 0; }
       if (sentinel.parentNode) sentinel.parentNode.removeChild(sentinel);
       let drawn = 0;
       while (bi < blocks.length && (drawn < want || bi < minBlocks)) drawn += blocks[bi++]();
@@ -11420,14 +11435,13 @@ class Component extends DCLogic {
       if (bi < blocks.length) list.appendChild(sentinel);
       return drawn;
     };
+    this._searchPage = page;
     draw(NG_SEARCH_PAGE, this._searchDrawn || 0);
-    let io = null;
     if (bi < blocks.length && typeof IntersectionObserver === "function") {
-      io = new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting)) { draw(NG_SEARCH_PAGE); if (bi < blocks.length) { io.unobserve(sentinel); io.observe(sentinel); } else io.disconnect(); } },
+      io = new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting)) { draw(NG_SEARCH_PAGE); if (io && bi < blocks.length) { io.unobserve(sentinel); io.observe(sentinel); } else page.stop(); } },
         { root: list, rootMargin: "0px 0px 600px 0px" });
       io.observe(sentinel);
     }
-    this._searchPage = { more: () => draw(NG_SEARCH_PAGE), left: () => blocks.length - bi, stop: () => { if (io) io.disconnect(); } };
     this._wireSearchKeys(list);
   }
   /** THE ARROWS WALK THE RESULTS IN THE ORDER SHOWN (v1.257.0). Before this, only Tab reached the rows (and the ▶/+
@@ -11444,7 +11458,7 @@ class Component extends DCLogic {
         if (!(this._exQ || "").trim()) return;
         const it = items(); if (!it.length) return;
         if (e.key === "ArrowDown") { e.preventDefault(); e.stopPropagation(); it[0].focus(); }
-        else if (e.key === "Enter") { e.preventDefault(); e.stopPropagation(); it[0].click(); }
+        else if (e.key === "Enter") { e.preventDefault(); e.stopPropagation(); if (it[0]._ngOpenFirst) it[0]._ngOpenFirst(); else it[0].click(); }
       });
     }
     if (!list._ngRankKeys) {

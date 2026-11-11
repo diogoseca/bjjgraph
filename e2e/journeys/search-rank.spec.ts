@@ -120,6 +120,11 @@ test.describe("search, 1440x900 by mouse and keys", () => {
     await search(page, "side control");
     await j.clickByMouse(seat("top"), "Side Control's Top press");
     await expect.poll(() => pathOf(page), { message: "Top opens the top seat's page" }).toBe("/Positions/Side-Control/Top");
+    // …and on a second position row, not only the first (review: the seats were pinned on one row only)
+    await j.clickByMouse(".ng-search", "the search icon");
+    await search(page, "side control");
+    await j.clickByMouse('div:has(> [data-search-row="Positions/Twister-Control/Twister-Side-Control"]) [data-seat-press="bottom"]', "Twister Side Control's Bottom press");
+    await expect.poll(() => pathOf(page), { message: "a second position's Bottom opens its own bottom seat" }).toBe("/Positions/Twister-Control/Twister-Side-Control/Bottom");
   });
 
   test("a folded family opens by mouse, and an open one shows all its starts on a press", async ({ page }) => {
@@ -138,6 +143,14 @@ test.describe("search, 1440x900 by mouse and keys", () => {
     await j.clickByMouse('[data-search-more="mArmbar"]', "All 15 starts");
     await expect.poll(async () => (await drawn(page)).filter((x) => (x.row || "").startsWith("Submissions/Armbar/")).length, { message: "every start drawn" }).toBeGreaterThan(5);
     await expect(page.locator(INPUT), "the query survives").toHaveValue("armbar");
+
+    // the "N starts" label counts what "All N starts" then draws (review: the label text had no pin)
+    await search(page, "rnc");
+    const label = Number(((await page.locator('[data-search-fam="Rear-Naked-Choke"]').textContent()) || "").match(/(\d+) starts/)![1]);
+    expect(label, "premise: more starts than the five drawn").toBeGreaterThan(5);
+    await j.clickByMouse('[data-search-more="mRear-Naked-Choke"]', "All N starts");
+    await expect.poll(async () => (await drawn(page)).filter((x) => (x.row || "").startsWith("Submissions/Rear-Naked-Choke/")).length,
+      { message: "the label's count is the number of starts drawn" }).toBe(label);
   });
 
   test("the arrows walk the list in the order shown, and Enter opens the first result", async ({ page }) => {
@@ -163,6 +176,47 @@ test.describe("search, 1440x900 by mouse and keys", () => {
     await expect.poll(() => pathOf(page), { message: "Enter in the box opens row 1" }).toBe("/Positions/Side-Control/Top");
   });
 
+  test("Enter on a family-first result opens its best start and leaves the family open (review D1)", async ({ page }) => {
+    await openSearch(page);
+    await search(page, "guillotine");
+    const d = await drawn(page);
+    expect(d[0], "premise: the first result is the open choke family").toMatchObject({ fam: "Guillotine-Choke", open: "true" });
+    const best = d.find((x) => x.member)!.row!;
+    expect(best, "its best start is drawn first under it").toMatch(/^Submissions\/Guillotine-Choke\//);
+    await page.locator(INPUT).focus();
+    await page.keyboard.press("Enter");
+    await expect.poll(() => pathOf(page), { message: "Enter opens the best start" }).toBe("/" + best);
+    const fam = page.locator('[data-search-fam="Guillotine-Choke"]');
+    if (await fam.count()) await expect(fam, "…and did not shut the family").toHaveAttribute("aria-expanded", "true");
+  });
+
+  test("a ruleset switch with a query on screen leaves no stale rows", async ({ page }) => {
+    await openSearch(page);
+    await search(page, "lapel");
+    const gi = await drawn(page);
+    expect(gi.length, "premise: gi lists lapel results").toBeGreaterThan(3);
+    await page.evaluate(() => (window as unknown as W).__neural.setGiMode("nogi"));
+    const switched = await drawn(page);
+    const stale = await page.evaluate((ids) => { const a = (window as unknown as W).__neural; return ids.filter((id) => { const i = a._idIndex.get(id); return i != null && !a.rsAllowsIdx(i); }); }, switched.map((x) => x.row).filter(Boolean) as string[]);
+    expect(stale, "no row the no-gi ruleset excludes").toEqual([]);
+    await search(page, "lapel");
+    expect(await drawn(page), "the switched list is exactly what a fresh no-gi search draws").toEqual(switched);
+    await page.evaluate(() => (window as unknown as W).__neural.setGiMode("gi"));
+  });
+
+  test("a stale page draws nothing, and clearing the query stops the pager (review D3)", async ({ page }) => {
+    await openSearch(page);
+    await search(page, "e");
+    await page.evaluate(() => { (window as any).__oldPage = (window as unknown as W).__neural._searchPage; });
+    expect(await page.evaluate(() => !!(window as any).__oldPage && (window as any).__oldPage.left() > 0), "premise: the old page had more to draw").toBe(true);
+    await search(page, "side control");
+    const before = await drawn(page);
+    expect(await page.evaluate(() => (window as any).__oldPage.more()), "the old page draws nothing").toBe(0);
+    expect(await drawn(page), "the new list is untouched").toEqual(before);
+    await page.keyboard.press("Control+A"); await page.keyboard.press("Backspace");
+    expect(await page.evaluate(() => (window as unknown as W).__neural._searchPage), "no query, no pager").toBeNull();
+  });
+
   test("one typo is forgiven, and its near-miss stays last", async ({ page }) => {
     await openSearch(page);
     await search(page, "guilotine");
@@ -185,6 +239,20 @@ test.describe("search, 1440x900 by mouse and keys", () => {
     expect(first, "the first page").toBeLessThanOrEqual(47);
     await page.evaluate((sel) => { const l = document.querySelector(sel)!; l.scrollTop = l.scrollHeight; }, LIST);
     await expect.poll(async () => (await drawn(page)).length, { message: "scrolling to the end draws the next page" }).toBeGreaterThan(first);
+    // EVERY RESULT IS REACHABLE (review): keep scrolling until nothing is left to draw, then the rows drawn plus each
+    // family's "N starts" add up to the header's count, so no result is cut off however far down it ranks
+    for (let i = 0; i < 80 && await page.locator(LIST + " [data-search-sentinel]").count(); i++) {
+      await page.evaluate((sel) => { const l = document.querySelector(sel)!; l.scrollTop = l.scrollHeight; }, LIST);
+      await page.waitForTimeout(60);
+    }
+    expect(await page.locator(LIST + " [data-search-sentinel]").count(), "the last page was drawn").toBe(0);
+    const reach = await page.evaluate((sel) => {
+      const solo = [...document.querySelectorAll(sel + " [data-search-row]")].filter((el) => parseInt((el as HTMLElement).style.paddingLeft || "12", 10) <= 20).length;
+      const fams = [...document.querySelectorAll(sel + " [data-search-fam]")].map((el) => Number((el.textContent || "").match(/(\d+) starts/)![1]));
+      return { solo, inFamilies: fams.reduce((x, y) => x + y, 0), families: fams.length };
+    }, LIST);
+    expect(reach.families, "premise: families are folded in this list").toBeGreaterThan(1);
+    expect(reach.solo + reach.inFamilies, "every result is drawn or counted in its family's row").toBe(total);
 
     const cdp = await page.context().newCDPSession(page);
     await cdp.send("Emulation.setCPUThrottlingRate", { rate: 4 });

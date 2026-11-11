@@ -13,7 +13,7 @@ import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 // the ranking (CLAUDE.md §6.3). Each query names the row a person means by its permanent id, in both rulesets, and the
 // last test fails unless a positive number of those checks actually ran (§6.6).
 //
-// MUTANTS (v1.257.0) — 11 run against this file, 10 killed, each by the test named:
+// MUTANTS (v1.257.0) — 15 run against this file, 14 killed, each by the test named:
 //   M1 no sort in searchRank (node order back)         -> "the row a person means is first", and five more
 //   M2 kind order position before submission            -> "the row a person means is first" (triangle, guillotine)
 //   M3 importance dropped from the comparator           -> "importance orders like with like"
@@ -26,6 +26,11 @@ import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 //   M8 the ruleset filter dropped from searchRank       -> "every row is a rep site this ruleset allows"
 //   M10 the alias-exact tier dropped                    -> "the row a person means is first" (kob, rnc, dlr)
 //   M11 the head key dropped                            -> "the row a person means is first"
+// After the independent review (v1.257.0, D2 and D2b fixed), four more, each killed by the test named:
+//   U1 the canonical key back on submissions (stand-alone above every family)  -> "submissions follow importance …"
+//   U2 the head key for positions and submissions only (Triangle Escape)       -> "the row a person means is first"
+//   U3 the alias arrival keeps the old folded fields                           -> "aliases arriving late re-rank …"
+//   U4 the importance cache ignores the ruleset                                -> "a ruleset switch on the same app …"
 // NON-KILL, recorded so nobody reads this file as covering it: M9, the comparator's last key (the id), SURVIVES —
 // equivalent on this corpus, because no two results share kind, length and folded title. It stays because a future
 // duplicate title would otherwise hand the order back to the node index (CLAUDE.md §6.6).
@@ -77,6 +82,8 @@ const MEANT = {
   "kob": is("Positions/Knee-on-Belly"), "x guard": is("Positions/X-Guard"), "50/50": is("Positions/Ashi-Garami/50-50-Guard"),
   "de la riva": is("Positions/De-La-Riva-Guard"), "dlr": is("Positions/De-La-Riva-Guard"),
   "danaher": (r) => !!r.s && /Danaher/.test(r.s.display_title || r.s.name),
+  // review D2b: the exact name leads whatever its kind, so the transition beats "Triangle Escape Position"
+  "triangle escape": is("Transitions/Triangle-Escape"),
 };
 
 test("the row a person means is first, in both rulesets", () => {
@@ -143,6 +150,52 @@ test("absent curriculum is said, not guessed: weights read 0 and the cold beat f
   checked++;
 });
 
+test("submissions follow importance inside a tier: a stand-alone title no longer outranks every family (review D2)", () => {
+  // Every family start is titled "X from Y" and five submissions are not; the canonical key used to put those five above
+  // every family ("choke" opened on Invisible Collar Choke and Buggy Choke, importance 0, above Rear Naked Choke).
+  for (const frame of ["gi", "nogi"]) {
+    const a = APPS[frame];
+    for (const q of ["choke", "lock", "armbar", "triangle", ...(frame === "gi" ? ["collar"] : [])]) {   // collar chokes are gi
+      const subs = a.searchRank(q).rows.filter((r) => r.n && r.n.ty === "submissions");
+      assert.ok(subs.length > 3, `${frame} "${q}": premise, several submissions`);
+      for (let i = 1; i < subs.length; i++) {
+        const p = subs[i - 1], c = subs[i];
+        if (p.band === c.band && p.head === c.head && p.ex === c.ex)
+          assert.ok(p.w >= c.w, `${frame} "${q}": ${p.n.t} (${p.w}) above ${c.n.t} (${c.w}) in one tier`);
+      }
+      checked++;
+    }
+    const choke = a.searchRank("choke").rows.filter((r) => r.n && r.n.ty === "submissions");
+    assert.ok(!["Submissions/Buggy-Choke", "Submissions/Invisible-Collar-Choke"].includes(choke[0].n.id), `${frame}: "choke" opens on ${choke[0].n.id}`);
+  }
+});
+
+test("aliases arriving late re-rank: the folded fields are rebuilt, not kept from before", async () => {
+  const a = Object.create(Component.prototype);
+  a.settings = {}; a.beats = []; a.track = () => {}; a._saveProgress = () => {}; a.fx = (k, d) => a.beats.push([k, d]);
+  a.get = (_k, d) => d; a.set = () => {}; a._giMode = "gi";
+  a.ingest(JSON.parse(JSON.stringify(WIRE))); a._giMode = "gi"; a.curriculum = CUR; a._dataBase = () => "/static/neural/";
+  const before = a.searchRank("rnc").rows.filter((r) => r.n && r.n.id.startsWith("Submissions/Rear-Naked-Choke/"));
+  assert.equal(before.length, 0, "premise: before the aliases land, \"rnc\" is no Rear Naked Choke's name");
+  const real = globalThis.fetch;
+  globalThis.fetch = async () => ({ ok: true, json: async () => JSON.parse(JSON.stringify(ALIASES)) });
+  try { assert.equal(await a._ensureAliases(), true); } finally { globalThis.fetch = real; }
+  assert.equal(id(a.searchRank("rnc").rows[0]), "Submissions/Rear-Naked-Choke/from-Back-Control", "after they land, RNC leads");
+  checked++;
+});
+
+test("a ruleset switch on the same app re-ranks exactly as a fresh app in that ruleset", () => {
+  const a = APPS.gi;
+  for (const q of ["guard", "lapel", "choke", "sweep"]) {
+    a._giMode = "gi"; const gi = a.searchRank(q).rows.map(id);
+    a._giMode = "nogi"; const switched = a.searchRank(q).rows.map(id);
+    assert.deepEqual(switched, APPS.nogi.searchRank(q).rows.map(id), `"${q}" after gi -> no-gi`);
+    a._giMode = "gi";
+    assert.deepEqual(a.searchRank(q).rows.map(id), gi, `"${q}" back in gi`);
+    checked++;
+  }
+});
+
 test("one typo is a last band, and only when asked for", () => {
   for (const frame of ["gi", "nogi"]) {
     const a = APPS[frame];
@@ -181,7 +234,7 @@ test("a strict total order: no two rows tie, and the order does not depend on no
 });
 
 test("a positive number of query checks ran", () => {
-  // 2 frames x 22 meant rows + 2 + 2 + 2 + 1 + 2 + 2 x 29 + 2 x 4; a floor, so a MEANT row that silently stops
-  // iterating cannot pass as a clean run
-  assert.ok(checked >= 110, `only ${checked} checks ran`);
+  // 2 frames x 23 meant rows + 2 + 2 + 2 + 1 + 9 + 1 + 4 + 2 + 2 x 30 + 2 x 4; a floor, so a MEANT row that
+  // silently stops iterating cannot pass as a clean run
+  assert.ok(checked >= 130, `only ${checked} checks ran`);
 });

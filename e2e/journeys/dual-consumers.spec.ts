@@ -106,7 +106,10 @@ const HARVEST = () =>
               (el.parentElement.textContent || "").trim(),
             )
           : []
-        o[q] = { head: head.trim(), rows, dupes: titles.length - new Set(titles).size }
+        // the "N results" header, found by its own text (v1.257.0, review): the list's first child can be the Systems
+        // loading line, so `head` alone would compare a status line and never the count
+        const total = list ? ([...list.querySelectorAll("span")].map((el: Any) => (el.textContent || "").trim()).find((t: string) => /^\d+ results?$/.test(t)) || "") : ""
+        o[q] = { head: head.trim(), total, rows, dupes: titles.length - new Set(titles).size }
       }
       a._exQ = savedQ
       a._viewMode = savedV
@@ -221,6 +224,8 @@ test("@curated the hub keeps its identity: ordinals, Explore, deck keys, curricu
   // whole result, rows and head, equal to the pre-split graph's (`toEqual` above). Mutant D1 (v1.257.0,
   // `searchRank` without its `rep` filter, so every site drawn twice) turns this test red.
   expect(pair.search.guard.rows, "a broad query fills its first 40-row page with DISTINCT hits").toBeGreaterThanOrEqual(40)
+  for (const q of Object.keys(legacy.search))
+    expect(Number((pair.search[q].total.match(/^(\d+)/) || [])[1]), "“" + q + "” reports its count, whatever line comes first").toBeGreaterThan(0)
 
   // DECK KEYS, CURRICULUM FOG, LESSON NODES, THE FIRST-IMPRESSION DISTRIBUTION, QUALIFIED NAMES.
   expect(pair.deckKeys).toEqual(legacy.deckKeys)
