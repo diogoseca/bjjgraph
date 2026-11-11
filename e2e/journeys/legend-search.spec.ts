@@ -11,9 +11,11 @@ import { journey } from "../dsl"
  *
  * THE CLAIMS, by mouse and by touch:
  *  - the key shows on the map alone, and is hidden (visibility, out of the accessibility tree) while a node's card, film or article
- *    is on screen. Free roam closes the card and the film but keeps the article, so the key stays away there (`_mapAlone`, read
- *    from the screen); it comes back when the screen is the map alone again. No control puts an article away since U114 a, so
- *    that last half takes the reader off the screen in the DOM: the stand-in for a screen with no article on it.
+ *    is on screen (`_mapAlone`, read from the screen). Since U123 (owner, 2026-11-11) free roam closes the card and the film and
+ *    puts the article and its index away, so the screen is the map alone again and the key comes back there; a page (a Principle
+ *    by its URL) keeps its article, and the key stays away. Until U123 that half took the reader off the screen in the DOM, as a
+ *    stand-in for a screen with no article; free roam is that screen now, so the stand-in is gone (free-roam-article.spec.ts pins
+ *    the article's side).
  *  - the bar steps aside when its box meets the index's or comes within 12px of it (at 1440x806 the gap is 6px), and comes
  *    back when there is room (1440x900); the film's seat row keeps the figure; every index row stays reachable (1440x560 by
  *    wheel, 1366x768 by touch) and answers its press.
@@ -71,7 +73,7 @@ for (const [width, height, touch] of [[1440, 900, false], [768, 1024, true]] as 
       // A patch earned at this landing shows its notice at the top; put it away first, so no tap below lands on it.
       const reward = await page.evaluate(() => { const b = document.querySelector("[data-reward-close]"), r = b?.getBoundingClientRect(); return r && r.width ? [r.left + r.width / 2, r.top + r.height / 2] as [number, number] : null })
       if (reward) { if (touch) await page.touchscreen.tap(...reward); else await page.mouse.click(...reward); await j.advance(600); await j.readerLayoutSettled() }
-      // Free roam: the background ladder closes the card and the film, then roams; the article stays on screen.
+      // Free roam: the background ladder closes the card and the film, then roams, and the article goes with it (U123).
       for (let i = 0; i < 2; i++) {
         // picked afresh: closing the card moves the article up, over a point that was map before
         await j.advance(600)
@@ -84,15 +86,18 @@ for (const [width, height, touch] of [[1440, 900, false], [768, 1024, true]] as 
         if (touch) expect(await page.evaluate(() => (window as W).__tapClick), "premise: the tap's own click landed on the Questions label").toBe("card")
         expect((await key(page)).card, "the tap that closed the card does not reopen it through the label that took its place").toBe(false)
       }
+      // U123 (owner, 2026-11-11): free roam puts the article and its index away too, so it is the map alone, and the key is back.
       const roam = await key(page)
-      expect({ card: roam.card, film: roam.film, roam: roam.roam, article: roam.article }, "premise: free roam, the card and film closed, the article still on screen").toEqual({ card: false, film: false, roam: true, article: true })
-      await expect(page.locator(".ng-legendkey"), "an article on screen is a node revealed: the key stays away in free roam").toBeHidden()
-      // The screen with no article on it (the stand-in: no control puts the article away since U114 a).
-      await page.evaluate(() => { (window as W).__neural._reader.root.style.display = "none" })
+      expect({ card: roam.card, film: roam.film, roam: roam.roam, article: roam.article }, "premise: free roam, the card, the film and the article off the screen").toEqual({ card: false, film: false, roam: true, article: false })
       await expect.poll(async () => { await frame(j); const k = await key(page); return k.visibility + " " + k.opacity }, { message: "the key comes back when the map is alone again" }).toBe("visible 1")
-      await page.evaluate(() => { (window as W).__neural._reader.root.style.display = "" })
-      await frame(j)
-      await expect(page.locator(".ng-legendkey"), "and goes again when the article is back").toBeHidden()
+      // The article alone on screen, with no card or film: a page (a Principle with no videos, by its URL), which free roam never
+      // puts away. Not Base: its own film is on screen too, and a film alone already keeps the key away.
+      await j.boot("/Principles/Microing")
+      await expect(page.locator('[data-reader][data-reader-ready="true"]')).toHaveAttribute("data-reader-path", "/Principles/Microing")
+      await j.readerLayoutSettled(); await frame(j)
+      const read = await key(page)
+      expect({ card: read.card, film: read.film, article: read.article }, "premise: a page, its article alone on screen").toEqual({ card: false, film: false, article: true })
+      await expect(page.locator(".ng-legendkey"), "an article on screen is a node revealed: the key stays away on a page").toBeHidden()
     })
   })
 }
@@ -232,7 +237,7 @@ for (const [width, height, touch] of [[390, 631, true], [1440, 900, false]] as [
 
 // Red-proof (v1.254.0, on the served bundle against green baselines; each killed at the named claim):
 //   tests/artifacts/neural_app_mutants.mjs
-//     key-shows-over-article ... `_mapAlone` without the article ......... an article on screen is a node revealed
+//     key-shows-over-article ... `_mapAlone` without the article ......... an article on screen is a node revealed (U123: on a page)
 //     key-never-away / key-never-shown / key-away-sticks ................. hidden once a node is revealed / shows on the map alone /
 //                                                                            comes back when the map is alone again
 //     key-away-css-lost (neural.css, 768 by touch) ........................ the key is hidden once a node is revealed

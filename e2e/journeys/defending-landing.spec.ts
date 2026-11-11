@@ -774,9 +774,10 @@ test('D-354 N2: reopening Videos while pinned settles the pin and shows the film
   }), { message: 'premise: the answers published pinned with the film shown in the media home' }).toBe(true)
   await j.clickByMouse('.ng-landfilm [data-film-close]', 'hide the pinned film')
   await expect(page.locator(READY)).toHaveAttribute('data-reader-path', LOOP_DEFENDER)
-  // U11 (D-355): where the index shows, a closed section leaves no placeholder; its index row reopens it.
+  // U11 (D-355): where the index shows, its row reopens it. WAS (U25 a): elsewhere the Videos control reopened it. NOW (U131 b2): the
+  // video's message stands in the film's place, and its Undo reopens it (a player's own input, which settles the pin as before).
   const indexed = await page.locator('[data-reader][data-indexed]').count() > 0
-  const toggle = indexed ? '[data-toc-type="videos"] a' : '[data-section-toggle="videos"]'
+  const toggle = indexed ? '[data-toc-type="videos"] a' : '[data-hidesec-notice="videos"] [data-hidesec-undo]'
   if (!indexed) await page.evaluate((sel) => document.querySelector(sel)!.scrollIntoView({ block: 'center' }), toggle)
   await j.readerLayoutSettled()
   const closed = await page.evaluate(() => {

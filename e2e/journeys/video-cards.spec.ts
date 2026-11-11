@@ -85,7 +85,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     expect(circle!.width).toBe(44); expect(circle!.height).toBe(44)
     expect(circle!.x + 22).toBeCloseTo(media!.x + media!.width / 2, 0)
     expect(circle!.y + 22).toBeCloseTo(media!.y + media!.height / 2, 0)
-    await expect(page.locator('[data-choice-group="you"] > div').first()).toContainText("Your move")
+    await expect(page.locator('[data-choice-group="you"] > div').first()).toContainText("Your moves")
     const before = await state(page)
     await j.clickByMouse(`${CARD} [data-choice-watch]`, "Watch the approved front")
     await expect(page.locator("[data-choice-viewer]")).toBeVisible()

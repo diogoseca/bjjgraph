@@ -94,8 +94,8 @@ type View = "reading"
 const VIEWS: View[] = ["reading"]
 const bootIn = (j: any, _view: View) => j.boot("/")
 const docked = (_view: View, ..._parts: string[]): string[] => []
-// STALE SPEC (D-355, U11): where the index shows (1440x900 here) a closed part leaves no label in the content:
-// its index row carries the closed state and reopens it. Without the index the label reopens it, as before.
+// STALE SPEC (D-355, U11, U131 b2): where the index shows (1440x900 here) its row carries the closed state and reopens a part.
+// Without the index a closed part leaves no label (U131 b2): its message's Undo, then its Settings switch, reopen it.
 const indexed = (page: any) => page.locator(".ng-reader-toc").isVisible()
 const restore = async (page: any, j: any, view: View, part: "card" | "hand") => {
   // A catch can replace the article asynchronously. Choose its index/label only once that
@@ -103,8 +103,14 @@ const restore = async (page: any, j: any, view: View, part: "card" | "hand") => 
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await j.readerLayoutSettled()
   if (await indexed(page)) return j.clickByMouse(`[data-toc-type="${part}"] a`, `the closed ${part === "card" ? "Questions" : "Moves"} index row`)
-  await page.locator(`[data-game-open="${part}"]`).scrollIntoViewIfNeeded()
-  await j.clickByMouse(`[data-game-open="${part}"]`, `the closed ${part === "card" ? "Questions" : "Moves"} label`)
+  // WAS (D-338): the label the closed part left. NOW (U131 b2): no label is left; while its message stands its Undo brings it back,
+  // and after that its own Settings switch does.
+  const message = `[data-hidesec-notice="${part}"] [data-hidesec-undo]`
+  if (await page.locator(message).isVisible()) return j.clickByMouse(message, `the closed ${part === "card" ? "Questions" : "Moves"} message's Undo`)
+  await page.evaluate(() => (window as any).__neural.openSettings("rolling"))
+  await page.locator(`[data-layer-toggle="${part}"]`).scrollIntoViewIfNeeded()
+  await j.clickByMouse(`[data-layer-toggle="${part}"]`, `its Settings switch`)
+  await page.keyboard.press("Escape")
 }
 const viewTitle = (_view: View) => " (reading view: the closed label)"
 
@@ -178,7 +184,8 @@ test(`@curated the ✕ is sticky: the next landing builds no card and asks nothi
   expect(s1.beats, "the dismissal is named").toContain("land_dismissed")
   expect(s1.dock, "no dock glyph: the closed card's label or index row brings it back").toEqual(docked(view, "card"))
   if (await indexed(page)) await expect(page.locator('[data-toc-type="card"]'), "the closed card's index row shows it closed").toHaveAttribute("data-collapsed", "true")
-  else await expect(page.locator('[data-game-open="card"]'), "the closed card leaves its Questions label").toBeVisible()
+  // WAS (D-338): "the closed card leaves its Questions label". NOW (U131 b2): it leaves its message in that place, and no label.
+  else await expect(page.locator('[data-hidesec-notice="card"]'), "the closed card leaves its message").toBeVisible()
   expect(s1.landIdx, "the landing still knows its state (film + backfill invariant)").toBe(s1.cur)
 
   // ── the next landing: no card, a hand, the gap named ──

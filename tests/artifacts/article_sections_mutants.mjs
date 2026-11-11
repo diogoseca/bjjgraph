@@ -38,13 +38,16 @@ mkdirSync(out, { recursive: true })
 const served = resolve(process.env.SECTIONS_MUTANT_PUBLIC || resolve(root, 'source/public'))
 const readerPath = resolve(served, 'static/neural/app/reader.js')
 const cssPath = resolve(served, 'static/neural/app/reading.css')
+// HIDESEC2: a control may also mutate the BUILT Settings bundle as text (the sixth field). Only property names and string literals
+// are targeted there, which survive minification; a target that is gone throws, as every other target does.
+const settingsPath = resolve(served, 'static/neural/app/settings-ui.js')
 const source = readFileSync(resolve(root, 'neural/src/reader.src.js'), 'utf8')
-const originals = new Map([readerPath, cssPath].map(p => [p, readFileSync(p)]))
+const originals = new Map([readerPath, cssPath, settingsPath].map(p => [p, readFileSync(p)]))
 const replace = (text, from, to) => {
   if (!text.includes(from)) throw Error('Mutation target moved: ' + from)
   return text.replace(from, to)
 }
-const sections = 'article-sections.spec.ts', seam = 'reading-media-placement.spec.ts', contract = 'reading-contract.spec.ts'
+const sections = 'article-sections.spec.ts', seam = 'reading-media-placement.spec.ts', contract = 'reading-contract.spec.ts', hidesec = 'hidden-sections.spec.ts'
 // D-368 control: the pre-C integration. The game film goes to its Videos slot and the Videos section is lifted
 // column-wide above Moves again.
 const columnWideVideos = s => replace(replace(s,
@@ -94,13 +97,14 @@ const retiredGutter = `  frameCamera(target) {
 `;
 const mutants = [
   // D-501: restore the ancestor move that reloads a seatless reference player's document.
-  ['d501-card-insert-before', seam, 'published reference videos.*Learning/Position-Over-Submission 1440px.*native card moves',
-    s => replace(s, 'parent.moveBefore(s.card, parent.children[i] || null)', 'parent.insertBefore(s.card, parent.children[i] || null)')],
+  // U131 b2: no tile moves on a close any more (D-501's moveBefore went with the fold); the control is a close that moves one.
+  ['d501-card-moved', seam, 'published reference videos.*Learning/Position-Over-Submission 1440px.*native card moves',
+    s => replace(s, 'body.hidden = !shown; body.inert = !shown; s.card.hidden = !shown && !held;', 'body.hidden = !shown; body.inert = !shown; s.card.hidden = !shown && !held; if (!shown) this.body.insertBefore(s.card, null);')],
   // D-482: reach the claim through the approved U25 disclosure and actual inline-link fragments.
   ['d482-closed-anchor-hidden', sections, '390px unknown authored sections and cross-section anchors',
     s => replace(s, 'this.toggleSection(section.dataset.sectionType, true); this.layoutNow();', '/* mutant: leave the anchor target hidden */')],
-  ['d482-hidden-row-inert', 'reading-navigation.spec.ts', '390px native reading keys and section toggles',
-    s => replace(s, 'const opening = !sectionShown(this.app, group.type);', 'const opening = !sectionShown(this.app, group.type); if (opening) return;')],
+  // RETIRED (U131 b2, HIDESEC2): d482-hidden-row-inert. Its claim, a closed section's own toggle in Hidden sections reopening it by keyboard, has no
+  // subject: the fold is gone and a closed section's toggle leaves with it. The keyboard road is now its message's Undo: hidesec2-undo-dead-keyboard.
   ['content-loss', sections, 'semantic sections.*Mount/Bottom', s => replace(s, 'fragment.append(part.node);', 'part.node.querySelector?.("p")?.remove(); fragment.append(part.node);')],
   ['wrong-order', sections, 'semantic sections.*Knee-Slice-Pass/Attacker', s => replace(s, 'return rank(a) - rank(b);', 'return rank(b) - rank(a);')],
   ['settings-ignored', sections, 'section settings carry', s => replace(s, 'return app.get("readerSection." + type, true) !== false;', 'return true;')],
@@ -141,7 +145,8 @@ const mutants = [
   ['native-role-starts-game', sections, 'D-338 1440px', s => replace(s, 'if (reader.intent && node?.pi === this.focusIdx)', 'if (false)')],
   // D-355 (U11): where the index shows (1440, 1152) a closed part leaves no label in the content, so the label's
   // claims (it reopens, its contrast, it hides while open) are killed at 1024, the widest viewport without the index.
-  ['question-label-does-nothing', sections, 'D-338 1024px', s => replace(s, '() => this.toggle(part), { "data-game-open": part', '() => {}, { "data-game-open": part')],
+  // RETIRED (U131 b2, HIDESEC2): question-label-does-nothing. A ✕-closed part leaves no label now; the label left is a one-landing take-away's, pinned by
+  // index-reveal.spec.ts at 1152 (reads closed, and a press only ever opens).
   ['index-role-after-name', sections, 'D-338 1440px', s => replace(s, 'indexTitle.textContent = role + " " + this.app.graphName(node);', 'indexTitle.textContent = this.app.graphName(node) + " · " + role;')],
   ['section-x-repaint', sections, 'floating contents owns.*dark', s => replace(s, '      if (s.toggle.getAttribute("aria-expanded") !== String(shown)) {', '      if (!s.part) s.toggle.replaceChildren(...faces(s.type, s.title));\n      if (s.toggle.getAttribute("aria-expanded") !== String(shown)) {')],
   ['toc-shifts-column', sections, 'contents and header targets at 1440x900', s => replace(s, 'free.center - parseFloat(art.style.width) / 2', 'free.center - parseFloat(art.style.width) / 2 - 100')],
@@ -152,9 +157,9 @@ const mutants = [
   ['missing-gap', sections, '1366px choices precede', s => s, css => replace(css, '--section-gap:6px', '--section-gap:0px')],
   // U16B-S1: target the closed label itself. The first #a8b0c2 is the OPEN divider title.
   // U25 now carries that same control in its disclosure; the 7:1 claim must kill this override.
-  ['collapsed-contrast', sections, 'contents and header targets at 390x844', s => s,
-    css => css + '\n.ng-reader .ng-section-card[data-collapsed=true] [data-section-toggle]{color:#555b68!important}\n'],
-  ['game-collapsed-contrast', sections, 'D-338 1024px', s => s, css => css + '\n.ng-reader-closed-part [data-game-open]{color:#555b68!important}\n'],
+  // U131 b2: the closed section's contrast claim moved to its message.
+  ['collapsed-contrast', sections, 'contents and header targets at 390x844', s => s, css => css + '\n.ng-hidesec-notice{color:#555b68!important}\n'],
+  ['game-collapsed-contrast', sections, 'D-338 1024px', s => s, css => css + '\n.ng-hidesec-notice{color:#555b68!important}\n'],
   ['defender-hub-leak', contract, 'defender reading excludes.*Rear-Naked-Choke', s => replace(s, `shared.replaceChildren(...shared.querySelectorAll('[data-source-id="safety-considerations"]'));`, '/* mutant: keep the full attacker-rich hub */')],
   ['stale-response', contract, 'a late response cannot repaint', s => replace(replace(s, 'this.abort?.abort();', '/* mutant: no abort */'), 'if (serial !== this.renderSerial || this.app.__ngDestroyed) return;', 'if (this.app.__ngDestroyed) return;')],
   ['toc-current-targets', contract, 'a late response cannot repaint', s => replace(s, 'row.append(link, eyeOff()); contents.append(row);', 'if (section.type === "options") { link.textContent = "Decisions from bottom"; link.dataset.sectionLink = "stale-bottom"; } row.append(link, eyeOff()); contents.append(row);')],
@@ -196,14 +201,15 @@ const mutants = [
   // RETIRED (D-368, layout C): d338-video-not-lifted claimed the Videos section is lifted above Moves. Nothing is
   // lifted under C; the opposite is pinned by a-column-wide-videos-question and -catch.
   ['d338-questions-above-moves', sections, '1366px choices precede', s => replace(s, '        cardY = y;\n        if (column) cardX', '        cardY = (row ? parseFloat(row.style.top) : y) - cardHeight - step;\n        if (column) cardX')],
-  ['d338-open-part-keeps-header', sections, 'D-338 1024px', s => replace(s, 's.card.hidden = !closed || REFERENCE.test(this.path);', 's.card.hidden = REFERENCE.test(this.path);')],
+  ['d338-open-part-keeps-header', sections, 'D-338 1024px', s => replace(s, 's.card.hidden = !(held || closed && this.on(s.part)) || REFERENCE.test(this.path);', 's.card.hidden = REFERENCE.test(this.path);')],
   ['d338-focus-browse-retained', 'reading-mode.spec.ts', '1366px complete article, every close', s => replace(s, 'this.head.append(this.heading, this.tools); this.game.append(this.head);', 'this.tools.append(button("Focus on reading", () => {}, { "data-reading-focus": "" }), button("Browse", () => app.openPane("explore"), { "data-reader-browse": "" })); this.head.append(this.heading, this.tools); this.game.append(this.head);')],
   ['d338-saved-focus-read', 'reading-mode.spec.ts', 'reading perspectives and Back retain canonical content without gameplay$', s => replace(s, 'return !GAME_KEYS[part] || this.app.get(GAME_KEYS[part], true) !== false;', 'return !GAME_KEYS[part] || this.app.get((this.app.get("readingFocus", false) ? { card: "readingCard", hand: "readingHand" } : GAME_KEYS)[part], true) !== false;')],
   ['d338-index-eyes-retained', sections, 'contents and header targets at 1440x900', s => replace(s, 'row.append(link, eyeOff()); contents.append(row);', 'row.append(link, eyeOff(), button("", () => {}, { "data-toc-eye": section.type })); contents.append(row);')],
   ['d338-section-settings-retained', sections, 'contents and header targets at 1440x900', s => replace(s, '    contents.append(indexTitle);', '    contents.append(indexTitle, button("Section settings", () => this.app.openSettings("rolling"), { "data-section-settings": "" }));')],
   // U97 b took the index from 1152, so this claim lives at 1440.
   ['d338-tray-under-index', sections, 'D-338 1440px', s => replace(s, 'if (row) position(row, rowLeft, rowTop, flush ? grid + free.left : W);', 'if (row) position(row, 0, rowTop, W);')],
-  ['d338-closed-label-boxed', sections, 'contents and header targets at 390x844', s => s, css => css + '\n.ng-section-card[data-collapsed=true]{background:#1b2034!important;border-color:#414c68!important}\n'],
+  // RETIRED (U131 b2, HIDESEC2): d338-closed-label-boxed. A closed section is never painted once its message has gone, and while it stands the message is
+  // the box; there is no closed label to keep unboxed.
   ['d338-page-scrolls-flow-top', 'landcard-deck.spec.ts', '390px MC: deck pages', s => replace(s, 'root.scrollTop = Math.min(root.scrollTop, Math.max(0, top));', 'root.scrollTop = 0;')],
   // NOT KILLED SINCE U59 c (DASH-R4 measured; dev's reader kills it): the reader's bottom reserve now spans the full
   // width (the account pill), so opening the pane at 1024 no longer moves it, the scrollport never grows and the
@@ -359,7 +365,7 @@ const mutants = [
   ['columns-stale-height', 'article-dashboard.spec.ts', 'a tile that grows reorders', s => replace(s, '      this.tileSizer.observe(card);\n', '')],
   ['columns-close-waits-a-frame', 'article-dashboard.spec.ts', 'a close sorts the columns in its own task', s => replace(s, '        this.layoutNow();\n        if (opening) this.scrollTo(card, toggle);', '        if (opening) { this.layoutNow(); this.scrollTo(card, toggle); }')],
   // Closing a tile re-sorts the tiles before it, which is the one thing a close must not do.
-  ['columns-close-reorders', 'article-dashboard.spec.ts', 'closing a tile moves nothing', s => replace(s, '    for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {', '    if (closed.length) open.reverse();\n    for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {')],
+  ['columns-close-reorders', 'article-dashboard.spec.ts', 'closing a tile moves nothing', s => replace(s, 'body.hidden = !shown; body.inert = !shown; s.card.hidden = !shown && !held;', 'body.hidden = !shown; body.inert = !shown; s.card.hidden = !shown && !held; if (!shown && !held) this.body.prepend(this.body.lastElementChild);')],
   // The block first in the source, not the one nearest the reader's top: the source order no longer runs down the page.
   ['line-dom-first', 'article-dashboard.spec.ts', 'opening Explore keeps the line', s => replace(s, 'return y >= top - 0.5 && y < was ? (was = this.heldY = y, e) : line;', 'return y >= top - 0.5 && !line ? (was = this.heldY = y, e) : line;')],
   // The anchor on the grid's width again: the grid stands still through most of a slide while the stage grows.
@@ -381,8 +387,9 @@ const mutants = [
   ['training-head-padded', 'article-order.spec.ts', 'U100 a /Transitions/Knee-Slice-Pass/Attacker', s => s, css => replace(css, 'h2+.ng-section-body{padding-top:0}', '')],
   ['training-on-positions', 'article-order.spec.ts', 'U100 a a position keeps', s => replace(s, '(transition || submission) && group.type == "training"', 'group.type == "training"')],
   ['training-on-principles', 'article-order.spec.ts', 'U100 a a Principle keeps', s => replace(s, '(transition || submission) && group.type == "training"', '!position && group.type == "training"')],
-  ['training-closed-rows', 'article-dashboard.spec.ts', 'U100 a closing Training', s => replace(s, '(shown ? open : s.more ? [] : closed)', '(shown ? open : closed)')],
-  ['training-closed-stays', 'article-dashboard.spec.ts', 'U100 a closing Training', s => replace(s, 'if (s.more) s.card.hidden = !shown; ', '')],
+  // RETIRED (U131 b2, HIDESEC2): training-closed-rows. Training's phases closed into the hidden container now leave nothing visible either way, and one
+  // message per section is keyed by type (hidden-sections.spec.ts; article-dashboard's U100 a counts one message): no visible effect left.
+  ['training-closed-stays', 'article-dashboard.spec.ts', 'U100 a closing Training', s => replace(s, 's.card.hidden = !shown && !held;', 's.card.hidden = !shown && !held && !s.more;')],
   ['training-index-first', 'article-dashboard.spec.ts', 'U100 a the index row follows', s => replace(s, '[...this.sections.filter(x => x.title == s.title).map(x => x.card), s.type === "videos"', '[s.card, s.type === "videos"')],
   // #345's review: the row by type lights all 8 of /Systems's `additional` rows together, and the hold keeps a closed line.
   ['index-row-by-type', 'article-dashboard.spec.ts', 'the index follows each section of /Systems', s => replace(s, 'this.sections.filter(x => x.title == s.title)', 'this.sections.filter(x => x.type == s.type)')],
@@ -395,7 +402,7 @@ const mutants = [
   ['columns-end-apart', 'article-dashboard.spec.ts', 'U100 a at 1440x900 the phases fill', s => s, css => css + '\n[data-reader-body]>[data-section-type=training]:last-child{min-height:900px}\n'],
   ['training-one-tile-columns', 'article-dashboard.spec.ts', 'U100 a at 1440x900 the phases fill', s => replace(s, '(transition || submission) && group.type == "training"', 'false')],
   ['training-apart', 'article-order.spec.ts', 'U100 a /Submissions/Armbar/from-Mount/Attacker', s => replace(s, '      : group);\n    this.sections = []; this.mediaSlot = null;', '      : group).sort((a, b) => !!a.more - !!b.more);\n    this.sections = []; this.mediaSlot = null;')],
-  ['training-head-not-back', 'article-dashboard.spec.ts', 'U100 a closing Training.*moveBefore absent', s => replace(s, 's.card.prepend(s.closedRow.firstChild); s.closedRow.remove();', 's.closedRow.remove();')],
+  // RETIRED (U131 b2, HIDESEC2): training-head-not-back. The Safari/Firefox closed-row shell it broke is gone: nothing moves on a close.
   ['training-close-scrolls', 'article-dashboard.spec.ts', 'U100 a closing Training.*moveBefore present', s => replace(s, 'if (opening) this.scrollTo(card, toggle);', 'if (opening) this.scrollTo(card, toggle); else this.root.scrollTop -= 200;')],
   ['hub-seat-scrolls', 'article-dashboard.spec.ts', 'U103 a on a hub', s => replace(s, 'if (more.children[1]) wall.append(more);', 'if (more.children[1]) { wall.append(more); if (wall.closest("[data-reader-article=guide]")) more.addEventListener("toggle", () => { this.root.scrollTop += 40; }); }')],
   // v1.251.4: How it works once, each page's provenance once, and #overview still landing.
@@ -478,7 +485,7 @@ const mutants = [
   // Cobbler's gap check (v1.252.0): a reader table keeps Quartz's side and foot padding, not its top.
   ['table-top-padding-back', 'safety-risks-only.spec.ts', 'Armbar/from-Mount/Attacker', s => s, css => replace(css, 'margin:0;padding-top:0}', 'margin:0}')],
   // #346's review (v1.252.1). Finding 2: a tile sortColumns skips keeps neither of its column styles.
-  ['closed-tile-keeps-column-margin', 'article-dashboard.spec.ts', 'finding 2', s => replace(s, 'if (s.body.hidden || s.control) { css.marginTop = css.clear = ""; continue; }', 'if (s.body.hidden || s.control) continue;')],
+  // RETIRED (U131 b2, HIDESEC2): closed-tile-keeps-column-margin. Its journey (#346 finding 2) is retired with the Hidden sections fold it measured.
   // Finding 3: with Moves closed the film starts on the question.
   ['film-ask-step-without-moves', 'reading-media-placement.spec.ts', 'finding 3', s => replace(s, '(showHand && askStep != null ? step + 3 : 0)', '(askStep != null ? step + 3 : 0)')],
   // v1.253.0 (owner, 2026-11-09): the one-line tease spans the choices row, and the film keeps its place under it as the question opens.
@@ -525,6 +532,48 @@ const mutants = [
   ['winbar-under-unpublished', 'winbar-fold.spec.ts', '574x760', s => replace(s, 'this.barUnder = !!bar && bar.left < lane.right && bar.right > lane.left;', 'this.barUnder = false;')],
   // WINBAR1: something that clips the article leaves its last section out of reach although the column runs to the edge (claim 3).
   ['winbar-last-section-clipped', 'winbar-fold.spec.ts', '768x1024', s => s, css => replace(css, '.ng-reader-article{position:relative;', '.ng-reader-article{max-height:2400px;overflow:hidden;position:relative;')],
+  // HIDESEC2 (owner, U131 b2): one control per claim of hidden-sections.spec.ts, each red at its own assertion.
+  ['hidesec2-label-left', hidesec, 'every part closes.*390', s => replace(s, 's.card.hidden = !(held || closed && this.on(s.part)) || REFERENCE.test(this.path);', 's.card.hidden = !(held || closed) || REFERENCE.test(this.path);')],
+  // hidesec2-fold-back was dropped before it ran: the Hidden sections fold is deleted outright, so there is no code left to bring it back.
+  ['hidesec2-name-not-bold', hidesec, 'every part closes.*1440', s => s, css => replace(css, '.ng-hidesec-line b{color:#f4f6fb;font-weight:700}', '.ng-hidesec-line b{color:#f4f6fb;font-weight:inherit}')],
+  ['hidesec2-name-same-light', hidesec, 'every part closes.*390', s => s, css => replace(css, '.ng-hidesec-line b{color:#f4f6fb;font-weight:700}', '.ng-hidesec-line b{font-weight:700}')],
+  ['hidesec2-video-not-in-place', hidesec, 'every part closes.*1440', s => replace(s, 'if (key === "videos" && !this.ownsMedia()) return this.mediaHome;', '')],
+  ['hidesec2-video-under-article', hidesec, 'every part closes.*1440', s => s, css => replace(css, '.ng-hidesec-notice{position:relative;z-index:1;', '.ng-hidesec-notice{')],
+  ['hidesec2-undo-dead', hidesec, 'every part closes.*390', s => replace(s, 'button("Undo", () => this.undoNotice(key),', 'button("Undo", () => {},')],
+  ['hidesec2-settings-unaimed', hidesec, 'every part closes.*1440', s => replace(s, 'a._settingsAim = key; a.openSettings("rolling");', 'a.openSettings("rolling");')],
+  ['hidesec2-settings-aim-ignored', hidesec, 'every part closes.*390', s => s, null, t => replace(t, 'setAttribute("data-settings-aimed","")', 'removeAttribute("data-settings-aimed")')],
+  ['hidesec2-no-hover-hold', hidesec, 'press rule.*1440', s => replace(s, 'if (e.pointerType === "mouse") this.holdNotice(n, "over", true);', 'if (false) this.holdNotice(n, "over", true);')],
+  ['hidesec2-leaving-place-passes-presses', hidesec, 'press rule.*390', s => s, css => css + '\n.ng-hidesec-notice[data-phase=leaving]{pointer-events:none}\n'],
+  ['hidesec2-no-shield', hidesec, 'press rule.*390', s => replace(s, 'this.swallowing = this.shields.some(', 'this.swallowing = false && this.shields.some(')],
+  ['hidesec2-no-shield-mouse', hidesec, 'press rule.*1440', s => replace(s, 'this.swallowing = this.shields.some(', 'this.swallowing = false && this.shields.some(')],
+  ['hidesec2-touch-focus-holds', hidesec, 'press rule.*390', s => replace(s, 'listen(box, "focusin", () => { if (byKey) this.holdNotice(n, "focus", true); });', 'listen(box, "focusin", () => this.holdNotice(n, "focus", true));')],
+  ['hidesec2-places-close-apart', hidesec, 'several closed in a row', s => replace(s, '    const all = [...this.noticeMap.values()];\n    if (!all.length || all.some(n => n.box.dataset.phase !== "leaving" || !n.quiet || this.noticeHeld(n))) return;', '    const all = [...this.noticeMap.values()].filter(n => n.box.dataset.phase === "leaving" && n.quiet && !this.noticeHeld(n));\n    if (!all.length) return;')],
+  ['hidesec2-one-message-only', hidesec, 'several closed in a row', s => replace(s, '    this.dropNotice(key);\n    if (!home || !title) return;', '    for (const k of [...this.noticeMap.keys()]) this.dropNotice(k);\n    if (!home || !title) return;')],
+  ['hidesec2-dead-switch', hidesec, 'Videos during play now switches', s => s, null, t => replace(t, 'this.set("readerSection.videos",!', 'this.set("landFilm",!')],
+  // CARDGAP1 (v1.256.3, run by hand there): the deleted film-first line back. Red at "one step under Moves" wherever the stage stacks.
+  ['cardgap-film-first-line', 'card-close-gap.spec.ts', '390x844 by mouse', s => replace(s, '        const follows = homeMedia && !beside && showCard;\n', '        const follows = homeMedia && !beside && showCard;\n        if (homeMedia && !beside && !follows) { position(home, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight + 12; }\n')],
+  ['hidesec2-card-close-keeps-pin', 'card-close-gap.spec.ts', 'a pinned landing', s => replace(s, '    if (result && name === "card" && on === false) this._readerPin = null;\n', '')],
+  ['hidesec2-roam-keeps-message', hidesec, 'free roam takes a standing message.*1440', s => replace(s, '  if (putAway) app._putReaderAway = function (away) { if (away) reader.dropNotices(); return putAway.apply(this, arguments); };\n', '')],
+  // #372's review: one control per fix (D1 to D6) and per branch it found uncovered (the key's Undo focus and focus hold, the raised
+  // video message over the article).
+  ['hidesec2-d1-stuck-leaving', hidesec, 'D1: a message that went quiet first', s => replace(s, '      (s?.control ? a._landFilmEl?.querySelector("[data-film-close]") : s?.toggle)?.focus({ preventScroll: true });\n    }\n    this.closeNotices();\n', '      (s?.control ? a._landFilmEl?.querySelector("[data-film-close]") : s?.toggle)?.focus({ preventScroll: true });\n    }\n')],
+  ['hidesec2-d2-video-pin', hidesec, 'D2: Videos during play brings the film back', s => s, null, t => replace(t, 'this._readerGraded(),this.set("readerSection.videos"', '0,this.set("readerSection.videos"')],
+  ['hidesec2-d3-undo-restores-landing', hidesec, "D3: Moves' Undo", s => replace(s, 'a.setLayer(key, true, "undo"); this.interacting = false; this.sync(); this.layoutNow();', 'this.toggle(key); this.layoutNow();')],
+  ['hidesec2-d4-touch-not-passive', hidesec, "D4: the press window's touch listeners are passive", s => replace(s, '{ capture: true, passive: type.startsWith("touch") }', '{ capture: true, passive: false }')],
+  ['hidesec2-d4-swallow-forever', hidesec, 'D4: a press swallowed in a closed place', s => replace(s, 'if (!this.swallowing || performance.now() - this.swallowing > 800) { this.swallowing = 0; return; }', 'if (!this.swallowing) return;')],
+  ['hidesec2-d5-live-late', hidesec, "D5: the screen reader's live region", s => replace(replace(s, '    this.live = element("div", { role: "status", class: "ng-sr-only" });\n    app.wrapRef.current.append(this.live);', '    this.live = null;'), '    this.live.textContent = "";', '    if (!this.live) { this.live = element("div", { role: "status", class: "ng-sr-only" }); a.wrapRef.current.append(this.live); }\n    this.live.textContent = "";')],
+  ['hidesec2-d6-first-tile', hidesec, 'D6: on /Systems', s => replace(s, 'return tile || this.sections.find(s => s.type === key)?.card;', 'return this.sections.find(s => s.type === key)?.card;')],
+  ['hidesec2-key-no-undo-focus', hidesec, 'a close by keyboard', s => replace(s, '    if (byKey) undo.focus({ preventScroll: true });\n', '')],
+  ['hidesec2-key-focus-no-hold', hidesec, 'a close by keyboard', s => replace(s, 'listen(box, "focusin", () => { if (byKey) this.holdNotice(n, "focus", true); });', 'listen(box, "focusin", () => {});')],
+  ['hidesec2-video-message-no-height', hidesec, 'every part closes.*1440', s => replace(s, 'const filmHeight = () => note && !film ? rect(note).height :', 'const filmHeight = () => note && !film ? 0 :')],
+  ['hidesec2-undo-dead-keyboard', 'reading-navigation.spec.ts', '390px native reading keys and section toggles', s => replace(s, 'button("Undo", () => this.undoNotice(key),', 'button("Undo", () => {},')],
+  // RED4 (PR #372 shard 4): safety-line.spec.ts's closed-section claims, rewritten to b2. Its own 22 controls were run by hand
+  // (reports/safety-last.md); the two whose tests changed are ported here, and three controls are new, one per b2 claim.
+  ['safety-order-removed', 'safety-line.spec.ts', 'the guide is the last teaching section', s => replace(s, 'submission && x.type === "safety" ? 99 : ', '')],
+  ['safety-closed-content-stays', 'safety-line.spec.ts', 'the guide is the last teaching section.*Attacker$', s => replace(s, 'body.hidden = !shown; body.inert = !shown;', 'body.inert = !shown;')],
+  ['safety-closed-tile-stays', 'safety-line.spec.ts', 'the guide is the last teaching section.*Defender$', s => replace(s, 's.card.hidden = !shown && !held;', 's.card.hidden = false;')],
+  ['safety-anchor-no-reopen', 'safety-line.spec.ts', 'the line opens a closed guide', s => replace(s, '      this.toggleSection(section.dataset.sectionType, true); this.layoutNow();\n', '      this.layoutNow();\n')],
+  ['safety-reload-does-not-anchor', 'safety-line.spec.ts', 'the line opens a closed guide', s => replace(s, '      if (url.hash) this.anchor(url.hash);\n      else if (this.interacting)', '      if (this.interacting)')],
 ]
 // D7-N1: controls whose claim IS the landSettled stall (land_publish_stalled). None today.
 const STALL_CLAIMS = new Set([])
@@ -552,11 +601,12 @@ const baseline = (spec, grep) => {
   return baselines.get(key)
 }
 try {
-  for (const [name, spec, grep, mutate, css] of selected) {
+  for (const [name, spec, grep, mutate, css, settings] of selected) {
     const base = baseline(spec, grep)
     for (const [path, bytes] of originals) writeFileSync(path, bytes)
     await build({ stdin: { contents: mutate(source), sourcefile: 'reader.src.js', resolveDir: resolve(root, 'neural/src'), loader: 'js' }, bundle: true, format: 'esm', target: 'es2019', minify: true, legalComments: 'none', outfile: readerPath, logLevel: 'silent' })
     if (css) writeFileSync(cssPath, css(originals.get(cssPath).toString()))
+    if (settings) writeFileSync(settingsPath, settings(originals.get(settingsPath).toString()))
     const reportPath = resolve(out, name + '.json')
     const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, 'journeys/' + spec.replaceAll('.', '\\.'), '--grep', grep, '--max-failures=1', '--timeout=' + testTimeout, '--output', resolve(out, name + '-results'), '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: reportPath } })
     const log = (run.stdout || '') + (run.stderr || '')

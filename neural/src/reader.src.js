@@ -70,6 +70,23 @@ const POSITION_ORDER = "videos aka confused definition principles options safety
 // an eye with a slash, so people understand it is hidden.
 const EYE_OFF = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7zm7 0a3 3 0 1 0 6 0 3 3 0 1 0-6 0M3 3l18 18"/></svg>';
 function eyeOff() { const icon = element("span", { class: "ng-section-eye", "aria-hidden": "true" }); icon.innerHTML = EYE_OFF; return icon; }
+// HIDESEC2 (owner, U131, 2026-11-11: "b2, Settings own it, with the message in place"; his note: "This is also valid for other sections
+// that are closed ... and the name of the section should be bold or some other style to differentiate it from the other text in the
+// sentence"). A part's ✕ (Moves, Questions, the video, any article section) hides it and leaves nothing behind: no label, no "Hidden
+// sections" fold. Settings > Rolling owns the way back (Bottom of the screen; Article sections), and where the index shows (1440), its row
+// still reopens a part. In the part's own place a message says so for five seconds: the part's name in bold, "Settings" a press that opens
+// Settings at that part's switch, and Undo. A part a map tap took away for this landing keeps its label (paintPart): no switch can bring
+// a one-landing hide back.
+// THE PRESS RULE. HIDESEC1 measured b2's first build: when the message left, what stood under it moved up a line, and a press aimed at
+// Undo landed on the moved neighbour (a film button at 1440, prose at 390). The claim now is that a press aimed at a message never lands
+// on something else: (1) a message never leaves while a mouse is over it, a pointer is down on it, or it holds focus; (2) leaving, it
+// fades and its controls stop taking presses, but its place stays and takes a press itself, which brings the message back; (3) the places
+// close only once every message has left and gone quiet, so no message moves while one stands; (4) for SHIELD_MS after they close, a
+// press that starts inside a closed place is swallowed whole (shield). Several closed in a row: one message per part, each in its place.
+// Pinned by e2e/journeys/hidden-sections.spec.ts.
+const NOTICE_MS = 5000, AGAIN_MS = 2000, FADE_MS = 400, QUIET_MS = 400, SHIELD_MS = 400;
+// A message moves focus to its Undo only after a key press, so a mouse or a finger never sees a ring.
+let byKey = false;
 function faces(type, title) {
   const close = element("span", { class: "ng-section-x", "aria-hidden": "true" }, "✕");
   const label = element("span", { class: "ng-section-closed" });
@@ -191,6 +208,29 @@ export async function installReader(app) {
   app._readKey = function (event) { return reader.gameKey(event) || readKey.call(this, event); };
   // The reader's parts reopen from their own labels; a dock the app built before this module arrived goes.
   app._layerDockEl?.remove(); app._layerDockEl = null;
+  // HIDESEC1 b: a part's own ✕ is the one handle that asks for the message (src "x"); Settings and Undo do not.
+  const layer = app.setLayer;
+  app.setLayer = function (name, on, src) {
+    const result = layer.apply(this, arguments);
+    // D-351's own rule: closing the card settles a pinned landing. _readerHold's release asks for the card to still exist, which the ✕
+    // removes first, so the pin outlived the close and kept the closed card's old top: the message, then the film, stood 4px into
+    // Moves' band (card-close-gap.spec.ts's 1440 control, on a landing the hold had pinned). Measured: dev's run was simply unpinned.
+    if (result && name === "card" && on === false) this._readerPin = null;
+    if (result && src === "x" && on === false) reader.notice(name === "film" ? "videos" : name);
+    return result;
+  };
+  // HIDESEC2 with free roam (#370, v1.256.5): `_putReaderAway` hides the reader by visibility alone, so a message standing in it kept its
+  // timers, and when its place then closed, the press window (shield) would have swallowed a press on the map, visible again under it.
+  // Putting the article away takes every message with it, at once and with no window: nothing visible moves under a hidden reader.
+  const putAway = app._putReaderAway;
+  if (putAway) app._putReaderAway = function (away) { if (away) reader.dropNotices(); return putAway.apply(this, arguments); };
+  document.addEventListener("keydown", () => { byKey = true; }, true);
+  document.addEventListener("pointerdown", () => { byKey = false; }, true);
+  for (const type of ["pointerdown", "mousedown", "touchstart", "pointerup", "mouseup", "touchend", "click"]) {
+    // #372's review (D4): a window touch listener that is not passive holds every touch scroll on the page for the main thread. Only
+    // the click and the pointer's own events are cancelled; a touch event is stopped, never cancelled, so it can stay passive.
+    window.addEventListener(type, event => reader.shield(event), { capture: true, passive: type.startsWith("touch") });
+  }
   reader.hooked = true; reader.publishCard(app._landEl);
 }
 
@@ -198,6 +238,7 @@ class Reader {
   constructor(app) {
     this.app = app;
     this.cache = new Map();
+    this.noticeMap = new Map(); this.shields = [];
     this.renderSerial = 0;
     this.gamePage = app._landPage;
     this.interacting = false;
@@ -235,6 +276,10 @@ class Reader {
     this.gameHomes = new Map();
     this.sections = [];
     app.wrapRef.current.append(this.root);
+    // HIDESEC2 (#372's review, D5): the closed-part messages' one live region, in the tree before the first message, so a screen reader
+    // hears the first sentence too (a region inserted with its text is often missed).
+    this.live = element("div", { role: "status", class: "ng-sr-only" });
+    app.wrapRef.current.append(this.live);
     for (const type of ["wheel", "touchstart", "pointerdown", "focusin"]) {
       listen(this.root, type, (event) => {
         // Paging can replace the target before this event bubbles. Its original
@@ -500,12 +545,8 @@ class Reader {
       link.style.pointerEvents = "auto";
       row.append(link, eyeOff()); contents.append(row); section.row = row;
     }
-    // U25 a: native disclosure; the SAME closed controls live here, in source order.
-    // No rewritten content or replacement click targets during an observer/layout callback.
-    const hidden = this.hiddenSections = element("details", { class: "ng-reader-hidden" });
-    // Static markup only: same count, decorative chevron and list; no article HTML is interpolated.
-    hidden.innerHTML = '<summary><span></span><span aria-hidden="true">›</span></summary><div></div>';
-    this.articleEl.append(body, hidden);
+    // U131 b2 retired U25 a's "Hidden sections" disclosure: a closed section stays where it is, hidden (syncSections).
+    this.articleEl.append(body);
     this.app.wrapRef.current.append(contents);
     this.syncSections();
   }
@@ -617,6 +658,7 @@ class Reader {
       const toggle = button("", () => {
         const opening = !sectionShown(this.app, group.type);
         this.toggleSection(group.type);
+        if (!opening) this.notice(group.type, card);
         // A close too, in this task: the columns are layoutNow's, and until it runs the tiles after this one keep the old sides.
         this.layoutNow();
         if (opening) this.scrollTo(card, toggle);
@@ -658,8 +700,6 @@ class Reader {
     this.sync();
   }
   syncSections() {
-    const hidden = this.hiddenSections;
-    const open = [], closed = [];
     let focus;
     for (const s of [...this.gameSections, ...this.sections]) {
       const body = s.part ? this.partEl(s.part) : s.body;
@@ -670,38 +710,20 @@ class Reader {
       if (s.part || s.type === "videos") this.paintPart(s);
       if (!s.part) {
         s.card.dataset.collapsed = String(!shown);
-        // A phase's tile goes with Training's and leaves no label or Hidden sections row of its own.
-        body.hidden = !shown; body.inert = !shown; if (s.more) s.card.hidden = !shown; (shown ? open : s.more ? [] : closed).push(s);
+        // U131 b2: a closed tile stays where it is, hidden, unless its message stands in it; nothing moves, so no player reloads (D-501)
+        // and both of the old paths (moveBefore, and its absence in Safari and Firefox) are one. A phase goes with Training's first tile.
+        const held = this.noticeMap.get(s.type)?.home === s.card;
+        s.card.toggleAttribute("data-notice", held);
+        body.hidden = !shown; body.inert = !shown; s.card.hidden = !shown && !held;
         if (s.type !== "videos") s.row?.setAttribute("data-collapsed", String(!shown));
         if (s.toggle.getAttribute("aria-expanded") !== String(shown)) {
           s.toggle.setAttribute("aria-expanded", String(shown)); s.toggle.setAttribute("aria-label", (shown ? "Hide " : "Show ") + s.title);
         }
       }
       // U11: where the index shows, a closed section has no control in the content, so focus goes to its index row.
-      if (focused) focus = this.root.hasAttribute("data-indexed") && s.row?.querySelector("a") || (s.part ? s.toggle : hidden?.firstChild);
-    }
-    if (!hidden) { focus?.focus({ preventScroll: true }); return; }
-    hidden.hidden = !closed.length;
-    hidden.firstChild.firstChild.textContent = "Hidden sections (" + closed.length + ")";
-    if (!closed.length) hidden.open = false;
-    for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {
-      sections.forEach((s, i) => {
-        // D-501: moving an iframe's ancestor with insertBefore reloads its document.
-        // Without atomic moves, keep ALL bodies in source order and move only the
-        // existing heading/control into an empty closed-row shell. Never move media.
-        if (typeof parent.moveBefore === "function") {
-          if (parent.children[i] !== s.card) parent.moveBefore(s.card, parent.children[i] || null);
-        } else {
-          s.card.hidden = parent !== this.body;
-          if (s.card.hidden) {
-            s.closedRow ||= element("section", { class: "ng-section-card", "data-collapsed": "true" });
-            if (!s.closedRow.firstChild) s.closedRow.append(s.card.firstElementChild);
-            if (parent.children[i] !== s.closedRow) parent.insertBefore(s.closedRow, parent.children[i] || null);
-          } else if (s.closedRow?.firstChild) {
-            s.card.prepend(s.closedRow.firstChild); s.closedRow.remove();
-          }
-        }
-      });
+      // U131 b2: nothing is left where it was, so focus goes to its index row, else the reader (the message's Undo takes it only after a
+      // key, in notice()).
+      if (focused) focus = this.root.hasAttribute("data-indexed") && s.row?.querySelector("a") || this.root;
     }
     focus?.focus({ preventScroll: true });
   }
@@ -755,8 +777,8 @@ class Reader {
     if (!node) return;
     node.tabIndex = -1;
     const section = node.closest(".ng-section-card");
-    // D-482 / U25 a: a closed target now lives inside the hidden disclosure.
-    // Reveal it before measuring/focusing, just as an index link reveals its section.
+    // D-482: a closed target is hidden (U131 b2; inside U25 a's disclosure before). Reveal it before measuring/focusing, just as an
+    // index link reveals its section.
     if (section?.dataset.collapsed === "true") {
       this.toggleSection(section.dataset.sectionType, true); this.layoutNow();
     }
@@ -830,6 +852,123 @@ class Reader {
     const reopened = part === "card" ? a._landEl?.querySelector("[data-land-close]") : a._handCloseEl;
     (reopened || this.gameSections.find(s => s.part === part)?.toggle)?.focus({ preventScroll: true });
   }
+  // HIDESEC2: where a part's message stands. A game part's is its label slot; a game page's video is the film's home in the stage (it
+  // takes the film's width and column there, layoutNow); a section's, and a reference page's Video, is the section's own tile.
+  // #372's review (D6): on an index page several "additional" tiles share one setting, so a section's message takes the tile that was
+  // pressed (its own place, its own heading), never the first tile of its type.
+  noticeHome(key, tile) {
+    const part = this.gameSections.find(s => s.part === key);
+    if (part) return part.card;
+    if (key === "videos" && !this.ownsMedia()) return this.mediaHome;
+    return tile || this.sections.find(s => s.type === key)?.card;
+  }
+  notice(key, tile) {
+    const a = this.app, home = this.noticeHome(key, tile), part = this.gameSections.find(s => s.part === key);
+    const title = part ? part.title : key === "videos" ? "Video" : this.sections.find(s => s.card === home)?.title;
+    this.dropNotice(key);
+    if (!home || !title) return;
+    // A screen reader hears the plain sentence once, from one live region that is always in the tree; the painted copy is not live.
+    const said = title + " hidden. You can show it again in Settings.";
+    this.live.textContent = "";
+    requestAnimationFrame(() => { if (this.live) this.live.textContent = said; });
+    const box = element("div", { class: "ng-hidesec-notice", "data-hidesec-notice": key, "data-phase": "on" });
+    const line = element("span", { class: "ng-hidesec-line" });
+    line.append(element("b", {}, title), " hidden. You can show it again in ",
+      button("Settings", () => { a._settingsAim = key; a.openSettings("rolling"); }, { "data-hidesec-settings": key, "aria-label": "Open Settings at " + title }), ".");
+    const undo = button("Undo", () => this.undoNotice(key), { "data-hidesec-undo": key, "aria-label": "Undo: show " + title + " again" });
+    box.append(line, undo);
+    const n = { key, home, box, hold: {} };
+    this.noticeMap.set(key, n);
+    const up = () => this.holdNotice(n, "down", false);
+    listen(box, "pointerenter", e => { if (e.pointerType === "mouse") this.holdNotice(n, "over", true); });
+    listen(box, "pointerleave", e => { if (e.pointerType === "mouse") this.holdNotice(n, "over", false); });
+    listen(box, "pointerdown", () => {
+      this.holdNotice(n, "down", true);
+      for (const type of ["pointerup", "pointercancel"]) listen(document, type, up, { once: true });
+    });
+    // Focus holds it only when a key put it there: a tap's click focuses the button it lands on (measured: a tap on the leaving place
+    // focused Undo) and a finger never takes focus back, so that hold never lifted.
+    listen(box, "focusin", () => { if (byKey) this.holdNotice(n, "focus", true); });
+    listen(box, "focusout", e => { if (!box.contains(e.relatedTarget)) this.holdNotice(n, "focus", false); });
+    home.append(box);
+    this.sync(); this.layoutNow();
+    if (byKey) undo.focus({ preventScroll: true });
+    this.armNotice(n, NOTICE_MS);
+  }
+  armNotice(n, ms) { clearTimeout(n.timer); n.timer = setTimeout(() => this.leaveNotice(n), ms); }
+  noticeHeld(n) { return Object.values(n.hold).some(Boolean); }
+  holdNotice(n, why, on) {
+    n.hold[why] = on;
+    if (this.noticeMap.get(n.key) !== n) return;
+    if (this.noticeHeld(n)) {
+      clearTimeout(n.timer);
+      // A press on (or a mouse over) a leaving message's place is aimed at it: it comes back.
+      if (n.box.dataset.phase !== "on") { n.box.dataset.phase = "on"; n.quiet = false; for (const c of n.box.children) c.inert = false; }
+    } else this.armNotice(n, AGAIN_MS);
+  }
+  leaveNotice(n) {
+    if (this.noticeHeld(n) || this.noticeMap.get(n.key) !== n) return;
+    // Its controls stop taking presses at once; its place keeps its height and takes them (holdNotice) until the places close.
+    n.box.dataset.phase = "leaving";
+    for (const c of n.box.children) c.inert = true;
+    const fade = matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : FADE_MS;
+    clearTimeout(n.timer); n.timer = setTimeout(() => { n.quiet = true; this.closeNotices(); }, fade + QUIET_MS);
+  }
+  // The last message to go quiet closes every place at once, and a press starting inside one in the next SHIELD_MS is swallowed.
+  // #372's review (D1): it is also asked after any drop (an Undo, a part shown again, a page change), because the message that went
+  // quiet first returned here early and nothing asked again: it stood leaving for good, invisible and taking presses.
+  closeNotices() {
+    const all = [...this.noticeMap.values()];
+    if (!all.length || all.some(n => n.box.dataset.phase !== "leaving" || !n.quiet || this.noticeHeld(n))) return;
+    const until = performance.now() + SHIELD_MS;
+    this.shields = all.map(n => ({ r: rect(n.box), until }));
+    for (const n of all) { clearTimeout(n.timer); n.box.remove(); }
+    this.noticeMap.clear();
+    this.sync(); this.layoutNow();
+  }
+  dropNotice(key) {
+    const n = this.noticeMap.get(key);
+    if (!n) return;
+    clearTimeout(n.timer); n.box.remove(); this.noticeMap.delete(key);
+  }
+  dropNotices() {
+    if (!this.noticeMap.size && !this.shields.length) return;
+    for (const key of [...this.noticeMap.keys()]) this.dropNotice(key);
+    this.shields = [];
+    this.sync(); this.layoutNow();
+  }
+  undoNotice(key) {
+    const a = this.app, home = this.noticeMap.get(key)?.home;
+    this.dropNotice(key);
+    // #372's review (D3): a game part's Undo turns on its own part only. toggle() also restores a landing a map tap took away, so
+    // Moves' Undo brought back a card the player had sent away.
+    if (this.gameSections.some(s => s.part === key)) {
+      a.setLayer(key, true, "undo"); this.interacting = false; this.sync(); this.layoutNow();
+      (key === "card" ? a._landEl?.querySelector("[data-land-close]") : a._handCloseEl)?.focus({ preventScroll: true });
+    } else {
+      this.toggleSection(key, true); this.layoutNow();
+      // The part comes back where its message stood, in view, so nothing scrolls; focus goes to its own close, as a reopen from that
+      // close's twin did (U65: a game page's video focuses the film's ✕).
+      const s = this.sections.find(s => s.card === home) || this.sections.find(s => s.type === key);
+      (s?.control ? a._landFilmEl?.querySelector("[data-film-close]") : s?.toggle)?.focus({ preventScroll: true });
+    }
+    this.closeNotices();
+  }
+  // Window capture, ahead of every handler: a press that starts in a just-closed place is swallowed whole (down, up, the touch's own
+  // events and the click), so it cannot land on what moved there. A new press elsewhere starts clean.
+  shield(event) {
+    if (event.type === "pointerdown") {
+      const now = performance.now(), x = event.clientX, y = event.clientY;
+      this.shields = (this.shields || []).filter(s => now < s.until);
+      this.swallowing = this.shields.some(({ r }) => x >= r.left && x < r.right && y >= r.top && y < r.bottom) ? now : 0;
+    }
+    // #372's review (D4): one press, 800 ms at most: a press whose click never comes (a cancelled touch) cannot leave it armed for the
+    // next key or script click.
+    if (!this.swallowing || performance.now() - this.swallowing > 800) { this.swallowing = 0; return; }
+    event.stopImmediatePropagation();
+    if (event.cancelable && !event.type.startsWith("touch")) event.preventDefault();
+    if (event.type === "click") this.swallowing = 0;
+  }
   // ONE answer for a game part's look and the Video row's (#354's review, round 7 findings 1 and 6): closed by its preference, or taken
   // away with this landing by a background tap. The label, the index row, aria-expanded and the Hide/Show text all read it, and every
   // layout pass paints it, so none can go stale when the landing's state moves without a sync (roam, a commit). The Video tile itself
@@ -843,19 +982,28 @@ class Reader {
     s.row?.setAttribute("data-collapsed", String(closed));
     if (!s.part) return;
     s.card.dataset.collapsed = String(closed);
-    s.card.hidden = !closed || REFERENCE.test(this.path);
+    const held = this.noticeMap.has(s.part);
+    s.card.toggleAttribute("data-notice", held);
+    s.card.hidden = !(held || closed && this.on(s.part)) || REFERENCE.test(this.path);
     if (s.toggle.getAttribute("aria-expanded") !== String(!closed)) {
       s.toggle.setAttribute("aria-expanded", String(!closed)); s.toggle.setAttribute("aria-label", (closed ? "Show " : "Hide ") + s.title);
     }
   }
   sync() {
     const a = this.app, wrap = a.wrapRef.current;
+    // HIDESEC2: a message goes at once, with no gap left, when its part comes back by any road (Undo, Settings, the index row, another
+    // device) or its place goes (a new article replaces the tiles). The part itself takes the place, so nothing moves under a press.
+    let dropped = 0;
+    for (const n of [...this.noticeMap.values()]) {
+      if (!n.home.isConnected || (this.gameSections.some(s => s.part === n.key) ? this.on(n.key) : sectionShown(a, n.key))) { this.dropNotice(n.key); dropped++; }
+    }
     const expanded = !!(this.interacting && !this.selecting);
     this.root.toggleAttribute("data-reading-expanded", expanded);
     wrap.classList.toggle("ng-reader-dormant", !!this.intent);
     this.syncMedia();
     this.syncSections();
     this.publishCard(a._landEl);
+    if (dropped) this.closeNotices();
   }
   // D-338: the film's one home is its Videos section, first in the flow, under the section's one preference.
   // v1.253.0: the article can no longer be put away, so that is always so; the app still asks.
@@ -1244,8 +1392,10 @@ class Reader {
       // D-352 S2: a pinned landing keeps the media home it was pinned with, its film and its height:
       // any other film (a late chunk's, measuring 0 before its thumbnails load) waits hidden until
       // the parts settle, so nothing opens above or over the pinned rows.
-      let homeMedia = this.media?.parentElement === home && !this.media.hidden;
-      const filmHeight = () => a.currentFilmHeight?.() ?? rect(this.media).height;
+      let homeMedia = this.media?.parentElement === home && !this.media.hidden, film = homeMedia;
+      // HIDESEC2: the video's message holds the film's place while it stands: the film's home, width and column, at its own height.
+      const note = this.noticeMap.get("videos")?.home === home ? this.noticeMap.get("videos").box : null;
+      const filmHeight = () => note && !film ? rect(note).height : a.currentFilmHeight?.() ?? rect(this.media).height;
       if (pin) {
         const h = homeMedia ? filmHeight() : 0;
         if (!("film" in pin)) { pin.film = homeMedia && this.media; pin.mh = h; }
@@ -1253,6 +1403,8 @@ class Reader {
         homeMedia = homeMedia && !pin.hid && this.media === pin.film && h <= pin.mh;
         if (!homeMedia) pin.hid = true;
       }
+      film = homeMedia;
+      if (note) homeMedia = true;
       let start = Math.max(6, showCard || showHand || homeMedia ? this.gameTop ?? 64 : 0);
       if (chrome) start += chrome.offset;
       // Adopt the existing controls; the phone catch branch below also aligns Tab order.
@@ -1292,10 +1444,10 @@ class Reader {
       // phone). Measuring the shared host keeps its future renderer independent.
       // D-353: a film in the media home is observed like the Videos card, so its growth (a played
       // clip opens over frames) relays out the rows below it instead of covering them.
-      if (homeMedia) this.resize.observe(this.media);
+      if (film) this.resize.observe(this.media);
       // D-368: the film stays home under C, so place() never docks it again; its reel's edge arrows are
       // re-read here, after the home's width changes, or a stale data-off leaves Next dead to the mouse.
-      if (homeMedia) a._syncFilmEdges?.();
+      if (film) a._syncFilmEdges?.();
       const mediaHeight = homeMedia ? filmHeight() : 0;
       const cardHeight = showCard ? rect(card).height : 0, handHeight = showHand ? rect(row).height : 0;
       const handoff = a._executionDock()?.reader;
@@ -1319,7 +1471,8 @@ class Reader {
           if (pin) y = pin.rowTop || (pin.rowTop = y);
           const rowTop = handoff?.rowTop ?? y;
           if (row) position(row, rowLeft, rowTop, flush ? grid + free.left : W);
-          if (!label("hand").hidden) { position(label("hand"), left, y, width); y += rect(label("hand")).height + step; }
+          // Variant b: a label (a landing's take-away, or b2's message) takes the grid's edges, as the tiles do.
+          if (!label("hand").hidden) { position(label("hand"), free.center - grid / 2, y, grid); y += rect(label("hand")).height + step; }
           else y = rowTop + (handoff?.rowHeight ?? handHeight) + (askStep ?? step);
         };
         // D-433 (2026-10-26), D-370 adapted to U35: Answer for Points (U47 d) and all shown answers
@@ -1351,7 +1504,7 @@ class Reader {
         if (card) position(card, cardX, cardY);
         // The deck's backs peek 3px per remaining card below the face; the article clears them.
         if (showCard) y += cardHeight + 3 * (a._landStackEl?.childElementCount || 0);
-        else if (!label("card").hidden) { position(label("card"), left, y, width); y += rect(label("card")).height; }
+        else if (!label("card").hidden) { position(label("card"), free.center - grid / 2, y, grid); y += rect(label("card")).height; }
         if (questionFirst) { y += step; placeHand(); y -= step; }
         if (follows) { y += step; position(home, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight; }
         else if (homeMedia && !showCard && !beside) {
@@ -1431,7 +1584,8 @@ class Reader {
       // #346's review (finding 2): a tile this pass skips keeps neither, or a closed one carried its margin into "Hidden sections".
       // Only the skipped ones are written: rewriting an open tile would lay it out again on every pass.
       const css = s.card.style;
-      if (s.body.hidden || s.control) { css.marginTop = css.clear = ""; continue; }
+      // HIDESEC2: a closed tile holding its message keeps its place in its column until the message has gone.
+      if (s.body.hidden && !s.card.hasAttribute("data-notice") || s.control) { css.marginTop = css.clear = ""; continue; }
       // Within a pixel is a draw: a reader sees one line, and the left wins it.
       const right = l > r + 1, height = rect(s.card).height + 24, at = right ? r : l;
       s.card.toggleAttribute("data-right", right);
@@ -1445,6 +1599,8 @@ class Reader {
   }
   destroy() {
     cancelAnimationFrame(this.layoutFrame);
+    for (const n of this.noticeMap.values()) clearTimeout(n.timer);
+    this.live?.remove();
     this.place(this.mediaOrigin); this.restoreGame();
     this.abort?.abort(); this.resize.disconnect(); this.tileSizer.disconnect(); this.root.remove(); this.contents?.remove();
     this.app._readerTocEl = null;

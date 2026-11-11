@@ -8,7 +8,7 @@ import { journey } from "../dsl"
  * included, and Video on Knee Slice Pass too. Nothing reproduced, so this file is the by-mouse spec the brief asked for, not a fix.
  *
  * THE CLAIMS, by mouse: a part closed by its own ✕ (an article tile, Moves, the film), then its index row pressed, is shown again,
- * out of "Hidden sections", and starts at the reader's top (within 12px of it).
+ * and starts at the reader's top (within 12px of it). (WAS also: "out of Hidden sections"; U131 b2 retired that fold.)
  * HARNESS: real dossiers are routed, so the film exists to close. The index shows from 1,350px free (U97 b), so 1440 only.
  * Red-proof is at the foot of this file.
  */
@@ -39,8 +39,10 @@ for (const [type, close, what] of CASES) {
     const shown = () => page.evaluate(t => {
       const a = (window as any).__neural, r = a._reader
       const el = t === "hand" ? a.optionsRef.current : t === "videos" ? a._landFilmEl : document.querySelector(`[data-reader-body] > [data-section-type="${t}"]`)
-      const on = !!el && el.isConnected && el.getClientRects().length > 0 && getComputedStyle(el).visibility !== "hidden" && !el.closest("[hidden]")
-      return { on, hidden: !!document.querySelector(`.ng-reader-hidden [data-section-type="${t}"]`), top: el ? Math.round(el.getBoundingClientRect().top - r.root.getBoundingClientRect().top) : null }
+      // U131 b2: a closed tile holds its message in its place for five seconds, so a section reads open by its BODY, not its tile.
+      const seen = t === "hand" || t === "videos" ? el : el?.querySelector(".ng-section-body")
+      const on = !!seen && seen.isConnected && seen.getClientRects().length > 0 && getComputedStyle(seen).visibility !== "hidden" && !seen.closest("[hidden]")
+      return { on, top: el ? Math.round(el.getBoundingClientRect().top - r.root.getBoundingClientRect().top) : null }
     }, type)
     expect((await shown()).on, `premise: ${what} is closed`).toBe(false)
     const row = `.ng-reader-toc-row[data-toc-type="${type}"] a`
@@ -49,7 +51,8 @@ for (const [type, close, what] of CASES) {
     await j.readerLayoutSettled()
     const after = await shown()
     expect(after.on, "the index row shows it again").toBe(true)
-    expect(after.hidden, "out of Hidden sections").toBe(false)
+    // WAS: "out of Hidden sections". NOW (U131 b2): no fold exists; its message is gone with the reopen.
+    await expect(page.locator(`[data-hidesec-notice="${type}"]`), "its message goes").toHaveCount(0)
     expect(Math.abs(after.top!), `and it starts at the reader's top (${after.top}px)`).toBeLessThanOrEqual(12)
   })
 }
