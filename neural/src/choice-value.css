@@ -50,7 +50,12 @@
 /* One full clip + ten percent of the next. The header and score stay fixed;
    only this row scrolls. 400px -> 241px high; 358px -> 220px high. */
 .ng-landfilm.ng-current-card { padding:0!important; box-sizing:border-box; border:1px solid rgba(150,170,210,.28); border-radius:12px; background:#171d2e; overflow:hidden; color:#eef1f6; --film-fade:0px!important; }
-.ng-current-card .ng-current-title { position:absolute; top:0; left:0; right:0; z-index:3; display:flex; align-items:center; gap:7px; padding:10px 46px 12px 12px; font-size:14px; font-weight:600; background:linear-gradient(#101627e8,#101627a0,transparent); pointer-events:none; }
+/* margin:0 (v1.256.4, owner 2026-11-11: "doesn't go all the way to the top of the video card, leaving like the top
+   10% of the video without that dark transparent overlay"). Quartz's index.css styles every bare `header` with
+   `margin:2rem 0`, and an absolutely placed box still honours its margin, so `top:0` landed this band 32px down the
+   video: 18% of a 178px frame at 390, 14% of 236px at 1440, with the band's darkest edge drawn across the picture.
+   Same leak as U8's poster margin (D-338) and the footer's margin:0 below. Pinned by film-overlay-play.spec.ts. */
+.ng-current-card .ng-current-title { position:absolute; top:0; left:0; right:0; z-index:3; margin:0; display:flex; align-items:center; gap:7px; padding:10px 46px 12px 12px; font-size:14px; font-weight:600; background:linear-gradient(#101627e8,#101627a0,transparent); pointer-events:none; }
 .ng-landfilm.ng-current-card .ng-cliprow { padding:0!important; margin:0!important; gap:8px!important; scroll-snap-type:x mandatory; mask-image:none!important; -webkit-mask-image:none!important; }
 .ng-landfilm.ng-current-card .ng-cliprow .ng-clip { flex:0 0 calc(90.9090909% - 7.272727px); width:calc(90.9090909% - 7.272727px)!important; height:auto!important; aspect-ratio:16/9; border:0!important; border-radius:0; transition:none; }
 .ng-landfilm.ng-current-card[data-single-video] .ng-clip { flex-basis:100%; width:100%!important; }
