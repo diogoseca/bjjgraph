@@ -258,9 +258,9 @@ borrows the announcer. `tests/roll_execution.test.mjs` pins source behavior;
 "Hide moves until I look" (Rolling settings, `hideMoves`, off by default) deals every card — yours,
 threats, escapes — with its **name and film face down**; Works % and Win % stay, and the map names
 no dealt move until its card is up. Hiding is CSS on `data-hide`: the card's DOM and text never change.
-A hover stands the card out and turns it up at once (a transform, none under reduced motion; no dwell
-since v1.256.7); on touch a first tap turns it up, a second plays. The eye by "Your moves"
-toggles it (U121); keys 1–9 play blind; the stand-in is always face up; a peek touches the hand. The film button
+A hover stands the card out and turns it up at once (a transform, none under reduced motion); on
+touch a first tap turns it up, a second plays. The word by "Your moves" (Hidden/Shown)
+flips it; keys 1–9 play blind; the stand-in is always face up; a peek touches the hand. The film button
 animates on its own hover only. Face up, an unknown move asks "Did you get it?" (Yes only); a known
 move that is due asks "Still got it?" (Yes / No — No takes its gold away); a known move not due
 asks nothing. `moves[state][move] = [due, ivl, last, ok]` (state `<site ordinal>/<role>`,
@@ -336,7 +336,7 @@ after Space hides it or paging brings it back. The meter is 165×7px.
 countdown and mechanics. Reduced motion also suppresses frame-driven glow without changing
 the saved key. Pressure, settings, progress receipts and a cached motion-query change listener
 synchronize visuals only when the effective state changes; frame ticks still drive the clock.
-U36 (v1.232.0): a catch starts with one full-strength double beat in 1 second, then one
+U36: a catch starts with one full-strength double beat in 1 second, then one
 softer double beat every 30 seconds (peaks .4 and .296 opacity). The question clock cannot
 accelerate it. Reduced motion keeps a static .144-opacity cue. Sound/volume still govern
 caught and expiry cues; no heartbeat audio loops.
@@ -381,7 +381,7 @@ player is already reaching into.
 Choice cards show a direct title, approved video, immediate chance and Win chance; the shortcut
 sits inside the same category shape used on the map. A threat card's colour is your win chance.
 
-U47 d + U52 b (v1.236.0): a landing, attempt or catch arrives **asking** — no card at all, only its question as a
+U47 d + U52 b: a landing, attempt or catch arrives **asking** — no card at all, only its question as a
 quiet line **immediately after the Your moves row** (`_landAsk`, `[data-land-ask]`; on a stacked
 phone stage the Videos card now follows the question), with **Answer for Points** inline at its
 end. No container, fill or border; a soft text shadow keeps it legible over the map. `_fitAskLine`
@@ -488,7 +488,7 @@ the stamp, and `clearOptions` drops the line only if the stamp still stands.
 
 ---
 
-## 4. Win chance — the number on every card (v1.207.0)
+## 4. Win chance — the number on every card
 
 **Win chance** is the chance you win this roll if you take this move and then keep choosing the
 best moves, against the game's own opponent, counting what you have studied: an MDP solved in a
@@ -499,12 +499,13 @@ value through ONE module (`knowledge-profile.src.js`), so a correct answer moves
 - **Card**: equal score columns under small labels **Move % / Works % / Submit % / Escape %** and
   **Win %**, with whole-number values and no repeated percent sign. Certified intervals and honest
   endpoint qualifiers stay intact. A stale value reads “52…” and is announced “…, updating”. A
-  submission entry still prints **Works**, the follow-up finish chance, never the certain step's
-  100% (v1.213.0). The best card is **Suggested** (certified) or **Recommended** (exact).
-  The tooltip retains the engine's decomposition
+  submission entry prints **Works**, the follow-up finish chance, never the certain step's
+  100%. The best card is **Suggested** (certified) or **Recommended** (exact).
+  The tooltip keeps the engine's decomposition
   `P(lands)·[win | lands] + P(misses)·[win | misses]`; a non-reconciling split is dropped.
 - **Order**: dealt by EDGE, **sorted once** by Win chance when every card has one unless touched
-  (`_handTouched`), never again; ties keep the dealt order.
+  (`_handTouched`; not the word or Retry), never again; ties keep dealt order. Then
+  "Sorted by win chance", or that sort offered.
 - **Threat cards**: YOUR win chance if the opponent tries that move now (threat probes,
   `threatIds`; on your submission, their escapes), most dangerous first. Defending: V(s).
 - **Current Win**: the map and current media footer consume chrome's `currentWinView()`
