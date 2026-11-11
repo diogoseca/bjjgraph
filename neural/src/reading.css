@@ -74,21 +74,25 @@
 .ng-section-eye { display:none;line-height:0; }
 .ng-reader-closed-part .ng-section-eye,.ng-reader-toc-row[data-collapsed=true] .ng-section-eye { display:inline-block; }
 .ng-reader[data-indexed] :is(.ng-section-card[data-collapsed=true],.ng-reader-closed-part):not([data-notice]) { display:none!important; }
-/* HIDESEC1 variant b: the message. b1 floats at the top beside the drawer's button; b2 stands in the part's own place for its five
-   seconds. The box never takes a press (only Undo does), and fading out it is inert, then hidden: never opacity alone (§6.1). */
-.ng-hidesec-notice { box-sizing:border-box;display:flex;align-items:center;gap:2px;min-height:44px;padding:0 2px 0 12px;background:#1b2034f2;border:1px solid #414c68;border-radius:10px;color:#d6def0;font:13px/1.35 "Plus Jakarta Sans",sans-serif;pointer-events:none;opacity:0;transition:opacity .25s ease; }
-.ng-hidesec-notice[data-on] { opacity:1; }
-.ng-hidesec-notice[hidden] { display:none!important; }
-.ng-hidesec-notice[data-at=top] { position:absolute;z-index:55;box-shadow:0 8px 24px #0009; }
-.ng-hidesec-notice[data-at=place] { width:100%;margin:0;background:#141b2b;box-shadow:var(--section-shadow); }
-.ng-hidesec-notice>span { flex:1;min-width:0;padding:6px 0; }
-.ng-reader .ng-hidesec-notice [data-hidesec-undo],.ng-hidesec-notice [data-hidesec-undo] { flex:none;min-height:44px;padding:0 12px;margin:-1px 0;border:0;border-radius:8px;background:none;color:#9fb4ff;font:600 13px "Plus Jakarta Sans",sans-serif;cursor:pointer;pointer-events:auto; }
-.ng-hidesec-notice [data-hidesec-undo]:hover { background:#ffffff14;color:#c5d2ff; }
+/* HIDESEC2: a closed part's message, in the part's own place (reader.src.js, THE PRESS RULE). The message IS the place: it takes a
+   press itself (none passes through to the map under a game part's slot), its controls stop taking presses while it leaves, and it is
+   then removed, never left at opacity 0 (§6.1). The name stands out by weight and by light: the sentence in the label grey, the name
+   white and bold (owner's note on U131). "Settings" is a press inside the sentence: 44px tall by padding, the line no taller by the
+   same negative margin (.ng-lists-new pattern), clipped to the message so it reaches no neighbour. */
+/* Raised one step in the reader's plane: in columns the article's body box starts beside the stage and covered the video's message
+   in the film's cell (1440: the body took the Undo press), as the film itself is raised over it. */
+.ng-hidesec-notice { position:relative;z-index:1;box-sizing:border-box;display:flex;align-items:center;gap:4px;width:100%;min-height:44px;margin:0;padding:0 4px 0 var(--reader-unit);overflow:clip;background:#141b2b;border-radius:14px;box-shadow:var(--section-shadow);color:#a8b0c2;font:13px/1.4 "Plus Jakarta Sans",sans-serif;pointer-events:auto;transition:opacity .4s ease;animation:ng-hidesec-in .25s ease; }
+@keyframes ng-hidesec-in { from { opacity:0; } }
+.ng-hidesec-notice[data-phase=leaving] { opacity:0; }
+.ng-hidesec-line { flex:1;min-width:0;padding:6px 0; }
+.ng-hidesec-line b { color:#f4f6fb;font-weight:700; }
+.ng-hidesec-notice button { flex:none;min-height:44px;margin:0;padding:0 12px;border:0;border-radius:8px;background:none;box-shadow:none;color:#9fb4ff;font:600 13px/1 "Plus Jakarta Sans",sans-serif;cursor:pointer;pointer-events:auto; }
+.ng-hidesec-line button { display:inline-block;min-height:0;padding:13px 4px;margin:-13px -4px;font:inherit;font-weight:600;text-decoration:underline;text-underline-offset:3px; }
+.ng-hidesec-notice button:hover { background:#ffffff14;color:#c5d2ff; }
 .ng-section-card[data-notice] { background:none;box-shadow:none; }
 .ng-section-card[data-notice]>h2,.ng-reader-closed-part[data-notice] [data-game-open] { display:none; }
-.ng-reader-game>.ng-reader-closed-part[data-notice] { pointer-events:none; }
 .ng-sr-only { position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap; }
-@media(prefers-reduced-motion:reduce) { .ng-hidesec-notice { transition:none; } }
+@media(prefers-reduced-motion:reduce) { .ng-hidesec-notice { transition:none;animation:none; } }
 /* U25 a: native, collapsed-by-default disclosure. Focus keeps its keyboard outline. */
 .ng-reader-hidden { margin-top:calc(var(--section-gap)*3); }
 .ng-reader[data-indexed] .ng-reader-hidden { display:none; }

@@ -431,7 +431,8 @@ reader head and return `{headBottom, offset, bottomReserve?}`. Its measured bott
 reader's own top (`max(68, logo.bottom + 12)`); the node band and intra-flow gaps are unchanged.
 With Book shown, the band stays reserved and long controls scroll. Under it the flow stacks
 Videos (the lifted Videos section, or the film's game home without one), Moves, then Questions
-(D-338); a closed part keeps its place as its label, and the card below an escape's handoff
+(D-338); a closed part leaves its place to its message for five seconds, then to nothing (U131 b2; a part
+taken for one landing keeps its label), and the card below an escape's handoff
 stays put with the row (`rowHeight`). Game pages carry no toolbar since D-338 removed Focus and
 Browse: the head is bare (`data-bare`), so only its 6px gap stays in the flow. With Book off the
 existing fit clamp remains authoritative. Optional

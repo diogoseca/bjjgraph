@@ -38,13 +38,16 @@ mkdirSync(out, { recursive: true })
 const served = resolve(process.env.SECTIONS_MUTANT_PUBLIC || resolve(root, 'source/public'))
 const readerPath = resolve(served, 'static/neural/app/reader.js')
 const cssPath = resolve(served, 'static/neural/app/reading.css')
+// HIDESEC2: a control may also mutate the BUILT Settings bundle as text (the sixth field). Only property names and string literals
+// are targeted there, which survive minification; a target that is gone throws, as every other target does.
+const settingsPath = resolve(served, 'static/neural/app/settings-ui.js')
 const source = readFileSync(resolve(root, 'neural/src/reader.src.js'), 'utf8')
-const originals = new Map([readerPath, cssPath].map(p => [p, readFileSync(p)]))
+const originals = new Map([readerPath, cssPath, settingsPath].map(p => [p, readFileSync(p)]))
 const replace = (text, from, to) => {
   if (!text.includes(from)) throw Error('Mutation target moved: ' + from)
   return text.replace(from, to)
 }
-const sections = 'article-sections.spec.ts', seam = 'reading-media-placement.spec.ts', contract = 'reading-contract.spec.ts'
+const sections = 'article-sections.spec.ts', seam = 'reading-media-placement.spec.ts', contract = 'reading-contract.spec.ts', hidesec = 'hidden-sections.spec.ts'
 // D-368 control: the pre-C integration. The game film goes to its Videos slot and the Videos section is lifted
 // column-wide above Moves again.
 const columnWideVideos = s => replace(replace(s,
@@ -522,6 +525,24 @@ const mutants = [
   // #331's review (R1), v1.254.1: Retry reopens the address as asked, its #section included.
   ['retry-drops-fragment', 'tab-title.spec.ts', 'keeps its #section on Retry', s => replace(s, 'this.open({ path: url.href, intent, push })', 'this.open({ path, intent, push })')],
   ['ghost-press-reopens-card', 'legend-search.spec.ts', 'nowhere a node is revealed \\(768', s => replace(s, 'if (!event.detail || node.contains(downOn)) action(event);', 'action(event);')],
+  // HIDESEC2 (owner, U131 b2): one control per claim of hidden-sections.spec.ts, each red at its own assertion.
+  ['hidesec2-label-left', hidesec, 'every part closes.*390', s => replace(s, 's.card.hidden = !(held || closed && this.on(s.part)) || REFERENCE.test(this.path);', 's.card.hidden = !(held || closed) || REFERENCE.test(this.path);')],
+  ['hidesec2-fold-back', hidesec, 'every part closes.*390', s => replace(s, '    hidden.hidden = true;', '    hidden.hidden = !closed.length;')],
+  ['hidesec2-name-not-bold', hidesec, 'every part closes.*1440', s => s, css => replace(css, '.ng-hidesec-line b{color:#f4f6fb;font-weight:700}', '.ng-hidesec-line b{color:#f4f6fb;font-weight:inherit}')],
+  ['hidesec2-name-same-light', hidesec, 'every part closes.*390', s => s, css => replace(css, '.ng-hidesec-line b{color:#f4f6fb;font-weight:700}', '.ng-hidesec-line b{font-weight:700}')],
+  ['hidesec2-video-not-in-place', hidesec, 'every part closes.*1440', s => replace(s, 'if (key === "videos" && !this.ownsMedia()) return this.mediaHome;', '')],
+  ['hidesec2-video-under-article', hidesec, 'every part closes.*1440', s => s, css => replace(css, '.ng-hidesec-notice{position:relative;z-index:1;', '.ng-hidesec-notice{')],
+  ['hidesec2-undo-dead', hidesec, 'every part closes.*390', s => replace(s, 'button("Undo", () => this.undoNotice(key),', 'button("Undo", () => {},')],
+  ['hidesec2-settings-unaimed', hidesec, 'every part closes.*1440', s => replace(s, 'a._settingsAim = key; a.openSettings("rolling");', 'a.openSettings("rolling");')],
+  ['hidesec2-settings-aim-ignored', hidesec, 'every part closes.*390', s => s, null, t => replace(t, 'setAttribute("data-settings-aimed","")', 'removeAttribute("data-settings-aimed")')],
+  ['hidesec2-no-hover-hold', hidesec, 'press rule.*1440', s => replace(s, 'if (e.pointerType === "mouse") this.holdNotice(n, "over", true);', 'if (false) this.holdNotice(n, "over", true);')],
+  ['hidesec2-leaving-place-passes-presses', hidesec, 'press rule.*390', s => s, css => css + '\n.ng-hidesec-notice[data-phase=leaving]{pointer-events:none}\n'],
+  ['hidesec2-no-shield', hidesec, 'press rule.*390', s => replace(s, 'this.swallowing = this.shields.some(', 'this.swallowing = false && this.shields.some(')],
+  ['hidesec2-no-shield-mouse', hidesec, 'press rule.*1440', s => replace(s, 'this.swallowing = this.shields.some(', 'this.swallowing = false && this.shields.some(')],
+  ['hidesec2-touch-focus-holds', hidesec, 'press rule.*390', s => replace(s, 'listen(box, "focusin", () => { if (byKey) this.holdNotice(n, "focus", true); });', 'listen(box, "focusin", () => this.holdNotice(n, "focus", true));')],
+  ['hidesec2-places-close-apart', hidesec, 'several closed in a row', s => replace(s, '    const all = [...this.notices.values()];\n    if (all.some(n => n.box.dataset.phase !== "leaving" || this.held(n))) return;', '    const all = [...this.notices.values()].filter(n => n.box.dataset.phase === "leaving" && !this.held(n));')],
+  ['hidesec2-one-message-only', hidesec, 'several closed in a row', s => replace(s, '    this.dropNotice(key);\n    if (!home || !title) return;', '    for (const k of [...this.notices.keys()]) this.dropNotice(k);\n    if (!home || !title) return;')],
+  ['hidesec2-dead-switch', hidesec, 'Videos during play now switches', s => s, null, t => replace(t, 'this.set("readerSection.videos",!', 'this.set("landFilm",!')],
 ]
 // D7-N1: controls whose claim IS the landSettled stall (land_publish_stalled). None today.
 const STALL_CLAIMS = new Set([])
@@ -549,11 +570,12 @@ const baseline = (spec, grep) => {
   return baselines.get(key)
 }
 try {
-  for (const [name, spec, grep, mutate, css] of selected) {
+  for (const [name, spec, grep, mutate, css, settings] of selected) {
     const base = baseline(spec, grep)
     for (const [path, bytes] of originals) writeFileSync(path, bytes)
     await build({ stdin: { contents: mutate(source), sourcefile: 'reader.src.js', resolveDir: resolve(root, 'neural/src'), loader: 'js' }, bundle: true, format: 'esm', target: 'es2019', minify: true, legalComments: 'none', outfile: readerPath, logLevel: 'silent' })
     if (css) writeFileSync(cssPath, css(originals.get(cssPath).toString()))
+    if (settings) writeFileSync(settingsPath, settings(originals.get(settingsPath).toString()))
     const reportPath = resolve(out, name + '.json')
     const run = spawnSync(resolve(root, 'node_modules/.bin/playwright'), ['test', '-c', config, 'journeys/' + spec.replaceAll('.', '\\.'), '--grep', grep, '--max-failures=1', '--timeout=' + testTimeout, '--output', resolve(out, name + '-results'), '--reporter=list,json'], { cwd: root, encoding: 'utf8', timeout: 240000, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_FILE: reportPath } })
     const log = (run.stdout || '') + (run.stderr || '')

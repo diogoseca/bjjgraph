@@ -298,8 +298,9 @@ renderSettings() {
         ["hand", "Your moves", "The hand of moves, escapes included. Off = the roll waits until you show them."],
       ];
       for (const [name, title, sub] of LAYER_ROWS) {
-        // HIDESEC1: with the reader loaded, the film obeys the Video section's setting (landFilm is no longer read there),
-        // so this row reads and writes that one setting, the one the film's own control writes. No key is added.
+        // HIDESEC2: this row wrote landFilm, which nothing reads once the reader is up (D-338 moved the film under the Video section's
+        // setting), so it switched nothing (measured live, 2026-11-11: the film stayed). It now reads and writes that one setting, the
+        // one the film's ✕ writes, as the Article sections' Video box does. No key is added (§6.6: landFilm is kept, unread here).
         const film = name === "film" && this._reader;
         const on = film ? this.get("readerSection.videos", true) !== false : name === "film" ? this.get("landFilm", true) : this._layerOn(name);
         const r = document.createElement("div");
@@ -333,6 +334,16 @@ renderSettings() {
         row.append(input); sections.append(row);
       }
       body.appendChild(sections);
+      // HIDESEC2: a closed part's message (reader.src.js notice) opens Settings here, at that part's own switch: scrolled to the middle,
+      // focused and outlined. Read once, so the redraw a toggle makes does not jump back. The video's is Videos during play.
+      const aim = this._settingsAim; this._settingsAim = null;
+      const aimed = aim && (body.querySelector('[data-layer-toggle="' + (aim === "videos" ? "film" : aim) + '"]') || body.querySelector('[data-section-setting="' + aim + '"]'));
+      if (aimed) requestAnimationFrame(() => {
+        const row = aimed.closest("[data-layer-row],label");
+        row.setAttribute("data-settings-aimed", "");
+        row.style.outline = "2px solid rgba(110,160,255,.7)"; row.style.outlineOffset = "4px"; row.style.borderRadius = "8px";
+        aimed.scrollIntoView({ block: "center" }); aimed.focus({ preventScroll: true });
+      });
       body.appendChild(this.settingRow("Sound", "Synthesized feedback on every gameplay beat",
         [["On", "on"], ["Off", "off"]], "sound", "on"));
       body.appendChild(this.settingRow("Sound volume", "How loud the beats land",
