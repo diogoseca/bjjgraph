@@ -8,7 +8,7 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  *
  * "Hide moves until I look" (Rolling settings, `hideMoves`, off by default) deals the row with each
  * card's NAME and FILM face down — Works % and Win % stay — and withholds the map's names of the
- * dealt moves. A hover (at once, v1.256.3) or a tap turns one card up and asks "Did you get
+ * dealt moves. A hover (at once, v1.256.7) or a tap turns one card up and asks "Did you get
  * it?"; a Yes files the move in the `moves` record as MASTERED and the card wears thin gold in every
  * row. The word beside "Your moves" (· Hidden / · Shown, v1.257.0; U121's eye before it) switches the mode from the
  * row; keys 1-9 still play blind.
@@ -34,7 +34,7 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  * NEW (v1.257.0): a press on the word moves nothing beside it (its box reserves "Hidden"). The eye's six mutants were
  * re-run against the word, and each new claim has its own; table in docs/Changelog-Archive.md (v1.257.0).
  *
- * THE DWELL IS GONE, AND THREE ASSERTIONS CHANGED WITH IT (v1.256.3, owner, 11 Nov: "i'd like for it to be instant
+ * THE DWELL IS GONE, AND THREE ASSERTIONS CHANGED WITH IT (v1.256.7, owner, 11 Nov: "i'd like for it to be instant
  * to show it, what's taking it so long?"). v1.255.0 turned a hovered card up only after NG_PEEK_DWELL_MS (250 ms), so
  * a pointer sweeping along the row turned nothing up, and the hover test pinned exactly that. His words reverse the
  * rule, so the test now pins the opposite, and says so: "at 120ms ... still face down" became "on the FIRST frame
@@ -42,7 +42,7 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  * pointer crossed; "...and does not touch the hand" became touched, because every crossed card showed its name and a
  * hand must never re-sort under a name it showed. What a sweep still may not do is pinned beside them: every card
  * back down once the pointer has left, no strip left open, no grade, no play. NG_GRADE_ARM_MS's pin (review R3, the
- * two "before it could be seen" tests) is unchanged: it is now the only wait on a hidden card. Mutant (v1.256.3):
+ * two "before it could be seen" tests) is unchanged: it is now the only wait on a hidden card. Mutant (v1.256.7):
  * the reveal deferred again (`setTimeout(() => this._peek(card, true), 250)` in pointerenter) is killed by the hover
  * test's first-frame message; so is a one-frame deferral, because the test's own pointerenter listener runs first and
  * queues its frame ahead of the app's.
@@ -216,7 +216,7 @@ test("@curated hover: the card turns up the moment the pointer is on it, and a s
   await page.evaluate(() => { (window as W).__neural._handTouched = false })
   const boxes = () => page.evaluate(() => ["0", "2", "3"].map((i) => { const r = document.querySelector(`[data-hm="${i}"]`)!.getBoundingClientRect(); return [r.left, r.top, r.width, r.height].map((v) => Math.round(v * 10) / 10) }))
   const before = await boxes()
-  // the reveal is the pointer arriving: no dwell (it was NG_PEEK_DWELL_MS, 250 ms, until v1.256.3)
+  // the reveal is the pointer arriving: no dwell (it was NG_PEEK_DWELL_MS, 250 ms, until v1.256.7)
   const first = await firstFrame(page, hm(1), p)
   expect(first, "on the first frame after the pointer enters, the card stands out, its name and film are face up, and it asks (no wait, owner 11 Nov)")
     .toEqual({ hover: true, title: "visible", back: "none", up: true, asking: true })
@@ -306,6 +306,11 @@ test("@curated a mouse click on a face-up card plays it, seated where the card w
   const p = await pointOn(page, hm(1))
   await page.mouse.move(p.x, p.y)
   await expect.poll(async () => (await face(page, hm(1))).up).toBe(true)
+  // WAIT FOR THE STAND-OUT ITSELF, never for "face up" (RED367B, v1.256.7): while the dwell stood a card turned up only after
+  // the 250 ms dwell, by which time its 160 ms grow had finished, so "up" doubled as "standing out". Turned up on the
+  // first frame now, it is up while the grow has barely begun, and the precondition below read an unscaled card on
+  // two CI runs (#366 and #368, shard 2). The claim needs the card standing out when it is clicked: poll that.
+  await expect.poll(() => scaleOf(page, hm(1)), { message: "the hovered card has grown to stand out" }).toBeGreaterThan(1030)
   // the hovered card stands out (scaled about its centre): the stand-in still seats on its LAYOUT box
   const was = await page.evaluate(() => { const c = document.querySelector('[data-hm="1"]') as HTMLElement, r = c.getBoundingClientRect(); return { centre: r.left + r.width / 2, w: c.offsetWidth, scaled: Math.round(r.width) > c.offsetWidth } })
   expect(was.scaled, "precondition: the card is standing out when it is clicked").toBe(true)
