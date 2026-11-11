@@ -1200,6 +1200,10 @@ class Component extends DCLogic {
       // Pinned by share-mobile's held Systems response during a native capture touch.
       let paneTouch = false;
       drill.addEventListener("pointerdown", (e) => { this._panePress = true; paneTouch = e.pointerType === "touch"; }, true);
+      // The pointer that last ENTERED the drawer, for `_afterPress`'s hover hold: a finger has no hover
+      // to protect (see there). pointerover fires for a touch before its pointerdown, and for a mouse
+      // or pen as it moves in, so a hybrid device's mouse gets its hold back the moment it returns.
+      drill.addEventListener("pointerover", (e) => { this._paneHoverTouch = e.pointerType === "touch"; }, true);
       const release = () => {
         if (!this._panePress) return;
         this._panePress = false;
@@ -3821,10 +3825,20 @@ class Component extends DCLogic {
   // its target before pointerdown either. Each job re-asks its own active/connected condition;
   // a user input renders immediately, so typing/closing cannot resurrect an obsolete result.
   // Lifter: pointerleave re-enters this seam, preserving the press guard on a drag out.
+  // A FINGER DOES NOT HOVER (practicetap). After a tap Chrome keeps the list `:hover` for about 0.1 s
+  // (measured 88 to 115 ms at 390x844 and 768x1024), while the finger's own pointerleave has ALREADY
+  // fired, at its pointerup. Practice's plan is adopted through here about 100 ms after the tap (the
+  // click, then gameplan.js), so the hold waited for a leave that had happened, and the hover then
+  // cleared with no event at all: a tap on Practice got the cold one-deck queue and an empty count
+  // line for good, while a mouse recovered because its browser fires pointerleave when the list hides.
+  // Broken from v1.248.0 (Practice's adoption moved behind this seam) to v1.256.5, production
+  // included. The hold now applies only while the pointer that last entered the drawer can hover; a
+  // finger is still covered by `_panePress` above, which owes its jobs until the tap's click lands.
+  // Pinned by e2e/journeys/practice-tap-plan.spec.ts (a tap and a click must give the same plan).
   _afterPress(job) {
     const list = this.explorerListRef && this.explorerListRef.current;
     if (this._panePress) (this._paneOwed || (this._paneOwed = [])).push(job);
-    else if (list && list.matches(":hover"))
+    else if (list && !this._paneHoverTouch && list.matches(":hover"))
       list.addEventListener("pointerleave", () => this._afterPress(job), { once: true });
     else job();
   }
