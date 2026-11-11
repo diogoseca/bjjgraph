@@ -53,18 +53,16 @@ for (const width of [1440, 390]) {
     await j.clickByMouse(`${selector} [data-section-toggle]`, 'close the divider section')
     await expect(body).toBeHidden(); await expect(button).toHaveAttribute('aria-expanded', 'false')
     await j.readerLayoutSettled()
+    // WAS (U25 a, U11): at 390 the section left for "Hidden sections", its original closed control there a 44px line with "Show";
+    // at 1440 it left no placeholder. NOW (U131 b2, HIDESEC2): at both widths its message stands in its place and its own control
+    // has gone with it; at 390 the message's Undo (44px) reopens it, at 1440 its index row does.
+    const message = page.locator('[data-hidesec-notice=principles]')
+    await expect(message, 'its message stands in its place').toBeVisible()
+    await expect(button, 'its own control has gone with the section').toBeHidden()
     if (width === 390) {
-      await expect(section).toBeHidden()
-      await page.locator('.ng-reader-hidden>summary').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-      await j.clickByMouse('.ng-reader-hidden>summary', 'reveal closed sections')
-      await expect(section).toBeVisible()
-      expect(await button.evaluate(e => ({ height: e.getBoundingClientRect().height,
-        action: getComputedStyle(e.querySelector('.ng-section-closed')!, '::after').content })),
-      'U25 keeps the original closed control with a Show action').toEqual({ height: 44, action: '"Show"' })
-      await button.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-      await j.clickByMouse(`${selector} [data-section-toggle]`, 'reopen the compact phone line')
+      expect((await message.locator('[data-hidesec-undo]').boundingBox())!.height, 'Undo is a 44px target').toBeGreaterThanOrEqual(44)
+      await j.clickByMouse('[data-hidesec-notice=principles] [data-hidesec-undo]', 'reopen from its message')
     } else {
-      await expect(section, 'U11 leaves no desktop placeholder').toBeHidden()
       await expect(page.locator('[data-toc-type=principles]')).toHaveAttribute('data-collapsed', 'true')
       await expect(page.locator('[data-toc-type=principles] .ng-section-eye')).toBeVisible()
       await j.clickByMouse('[data-toc-type=principles] a', 'reopen from the index')

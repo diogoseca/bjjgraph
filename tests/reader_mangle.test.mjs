@@ -4,7 +4,7 @@
 //
 // Two tests, because the names are of two kinds. All but `held` are unique to the reader, so any use anywhere else is a read,
 // whatever object it comes through: `.name`, a quoted "name", or `name:` as a key or in a destructuring, which is how `closedRow`
-// is pinned although it lives on section objects, not on the reader. `held` is common (40-odd unrelated objects carry one), so it
+// was pinned although it lived on section objects, not on the reader (it left with the fold, HIDESEC2). `held` is common (40-odd unrelated objects carry one), so it
 // is read by its receiver: `_reader`, `reader`, `__seatReader` or `r`, with `?.`, `!.` and `(r as any).` all seen.
 // v1.251.3 (#348's review) widened it: a destructuring default (`{ placeTop = 0 }`), every script under e2e/ (not only .ts), scripts/,
 // forward/ and source/quartz, and the reader itself, where a listed name used as a dataset key or a data-* attribute would be renamed
@@ -73,7 +73,8 @@ test("the reader uses no listed name as a dataset key or a data-* attribute", ()
 
 test("the patterns catch each spelling, so the green above can fail", () => {
   // v1.253.0: bookScroll left the list with the article-away view (U114 a); placeTop stands in for it as a listed name.
-  for (const line of ["r.gameSections.find(f).closedRow", "a._reader!.syncIndex()", "(r as any).placeTop", "w.__seatReader.gamePage", "const {placeTop} = a._reader",
+  // HIDESEC2: closedRow left the list with the Hidden sections fold; leadCells stands in for a listed name reached through another object.
+  for (const line of ["r.gameSections.find(f).leadCells", "a._reader!.syncIndex()", "(r as any).placeTop", "w.__seatReader.gamePage", "const {placeTop} = a._reader",
     "const { placeTop, x } = r", "el['mediaNext']", "a._reader.heldAt", "a._reader!.held", "(r as any).held", "reader?.held", "w.__seatReader.held", "r.held"]) {
     assert.ok(reads(line).length, line);
   }

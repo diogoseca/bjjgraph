@@ -146,12 +146,10 @@ for (const [path, width, fixture] of [
       await indexLink.scrollIntoViewIfNeeded()
       await j.clickByMouse('[data-toc-type=videos] [data-section-link]', 'reopen Videos through the visible index')
     } else {
-      const summary = page.locator('.ng-reader-hidden>summary')
-      await summary.scrollIntoViewIfNeeded()
-      await j.clickByMouse('.ng-reader-hidden>summary', 'open Hidden sections before its Videos control')
-      await expect(page.locator('.ng-reader-hidden')).toHaveAttribute('open', '')
-      await page.locator('[data-section-toggle=videos]').scrollIntoViewIfNeeded()
-      await j.clickByMouse('[data-section-toggle=videos]', 'reopen the same Videos section')
+      // WAS (U25 a): opened "Hidden sections" and pressed the same Videos control there. NOW (U131 b2): the Video tile holds its
+      // message in its place, and its Undo reopens the same section (the player and its document untouched, below).
+      await page.locator('[data-hidesec-notice=videos] [data-hidesec-undo]').scrollIntoViewIfNeeded()
+      await j.clickByMouse('[data-hidesec-notice=videos] [data-hidesec-undo]', "reopen the same Videos section from its message's Undo")
     }
     await expect(page.locator('[data-section-toggle=videos]')).toHaveAttribute('aria-expanded', 'true')
     await expect(page.locator('[data-section-type=videos] .ng-section-body')).toBeVisible()

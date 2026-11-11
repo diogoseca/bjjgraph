@@ -166,6 +166,10 @@ for (const [width, height] of [[390, 631], [768, 900]] as const)
 test(`VIDEO3 at ${width}x${height} with the film closed the first tile's close keeps its presses`, async ({ page }) => {
   const j = await boot(page, width, height)
   await j.clickByMouse("[data-film-close]")
+  // U131 b2: the film's message holds its place for five seconds, between the question and the first tile; the corner this claims is
+  // there once that place closes, so it is sampled straight after (the mouse moved off first: a mouse over a message holds it).
+  await page.mouse.move(2, 2)
+  await page.waitForFunction(() => !document.querySelector('[data-hidesec-notice="videos"]'), null, { timeout: 15000 })
   for (let i = 0; i < 6; i++) await j.advance(100)
   await j.readerLayoutSettled()
   const g = await page.evaluate(() => {
@@ -189,7 +193,7 @@ test(`VIDEO3 at ${width}x${height} with the film closed the first tile's close k
   expect(g.height, "VIDEO3 the link keeps its 44px target").toBeGreaterThanOrEqual(44)
   // And a real press in that corner does what the ✕ does, not what the link does.
   await page.mouse.click(...g.corner!); await j.readerLayoutSettled()
-  // A closed tile moves to Hidden sections, so it is found by its type, wherever it went.
+  // A closed tile holds its message in its place (U131 b2; it moved to Hidden sections before), so it is found by its type.
   await expect(page.locator(`.ng-section-card[data-section-type="${g.type}"]`).first(), "a press in the shared corner closes the tile")
     .toHaveAttribute("data-collapsed", "true")
   await expect(page.locator(GO), "and does not take the question up").toHaveCount(1)

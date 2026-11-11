@@ -291,14 +291,18 @@ renderSettings() {
       // here so the state is discoverable when every handle is collapsed. Same ✓ box as above.
       const lay = document.createElement("div");
       lay.style.cssText = sectionStyle;
-      lay.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Bottom of the screen</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Each row has its own ✕ on the board; the small glyphs at the bottom bring one back. Your choice sticks across states and devices.</div>';
+      lay.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Bottom of the screen</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Each part has its own ✕ on the board, and this is where a hidden part comes back. Your choice sticks across states and devices.</div>';
       const LAYER_ROWS = [
         ["film", "Videos during play", "The current node's videos while playing."],
         ["card", "Question card", "Off = no card and no question. (Turning questions off above keeps the card.)"],
         ["hand", "Your moves", "The hand of moves, escapes included. Off = the roll waits until you show them."],
       ];
       for (const [name, title, sub] of LAYER_ROWS) {
-        const on = name === "film" ? this.get("landFilm", true) : this._layerOn(name);
+        // HIDESEC2: this row wrote landFilm, which nothing reads once the reader is up (D-338 moved the film under the Video section's
+        // setting), so it switched nothing (measured live, 2026-11-11: the film stayed). It now reads and writes that one setting, the
+        // one the film's ✕ writes, as the Article sections' Video box does. No key is added (§6.6: landFilm is kept, unread here).
+        const film = name === "film" && this._reader;
+        const on = film ? this.get("readerSection.videos", true) !== false : name === "film" ? this.get("landFilm", true) : this._layerOn(name);
         const r = document.createElement("div");
         r.setAttribute("data-layer-row", name);
         r.style.cssText = "display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-top:12px;";
@@ -309,7 +313,10 @@ renderSettings() {
         rb.innerHTML = on ? "✓" : "";
         rb.style.cssText = "flex:none;margin-top:2px;width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (on ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (on ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
         rb.addEventListener("click", () => {
-          if (name === "film") { this.set("landFilm", !this.get("landFilm", true)); this._applyLayers(); }
+          // #372's review (D2): turning the video back on is the player's own input, so it settles a pinned landing (D-354 N2), as the
+          // section's own reopen does; on a pinned landing the film's place stayed empty until the next grade.
+          if (film) { if (!on) this._readerGraded(); this.set("readerSection.videos", !on); this._reader.sync(); }
+          else if (name === "film") { this.set("landFilm", !this.get("landFilm", true)); this._applyLayers(); }
           else this.setLayer(name, !this._layerOn(name), "settings");
           this.renderSettings();
         });
@@ -318,17 +325,27 @@ renderSettings() {
       body.appendChild(lay);
       const sections = document.createElement("section");
       sections.setAttribute("data-section-settings", "");
-      sections.innerHTML = '<h3 style="font-size:15px;color:#eef1f6;margin:0 0 6px;">Article sections</h3><p style="font-size:12.5px;color:#b6c5df;">Shown where available. Your choices carry across pages and sync when signed in.</p>';
+      sections.innerHTML = '<h3 style="font-size:15px;color:#eef1f6;margin:0 0 6px;">Article sections</h3><p style="font-size:12.5px;color:#b6c5df;">Shown where available. A section you hide with its ✕ comes back here. Your choices carry across pages and sync when signed in.</p>';
       for (const [type, title] of SECTION_TYPES) {
         const row = document.createElement("label"), input = document.createElement("input");
         row.style.cssText = "display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:44px;color:#dfe5f1;font-size:13px;";
         row.append(document.createTextNode(title)); input.type = "checkbox"; input.checked = sectionShown(this, type);
         input.setAttribute("data-section-setting", type); input.setAttribute("aria-label", "Show " + title);
         input.style.cssText = "width:20px;height:20px;cursor:pointer;";
-        input.addEventListener("change", () => { this.set("readerSection." + type, input.checked); this._reader?.sync(); });
+        input.addEventListener("change", () => { if (type === "videos" && input.checked) this._readerGraded(); this.set("readerSection." + type, input.checked); this._reader?.sync(); });
         row.append(input); sections.append(row);
       }
       body.appendChild(sections);
+      // HIDESEC2: a closed part's message (reader.src.js notice) opens Settings here, at that part's own switch: scrolled to the middle,
+      // focused and outlined. Read once, so the redraw a toggle makes does not jump back. The video's is Videos during play.
+      const aim = this._settingsAim; this._settingsAim = null;
+      const aimed = aim && (body.querySelector('[data-layer-toggle="' + (aim === "videos" ? "film" : aim) + '"]') || body.querySelector('[data-section-setting="' + aim + '"]'));
+      if (aimed) requestAnimationFrame(() => {
+        const row = aimed.closest("[data-layer-row],label");
+        row.setAttribute("data-settings-aimed", "");
+        row.style.outline = "2px solid rgba(110,160,255,.7)"; row.style.outlineOffset = "4px"; row.style.borderRadius = "8px";
+        aimed.scrollIntoView({ block: "center" }); aimed.focus({ preventScroll: true });
+      });
       body.appendChild(this.settingRow("Sound", "Synthesized feedback on every gameplay beat",
         [["On", "on"], ["Off", "off"]], "sound", "on"));
       body.appendChild(this.settingRow("Sound volume", "How loud the beats land",

@@ -224,7 +224,10 @@ NEURAL_TARGET = {
     # search icon; a reader button's pointer click counts only if its own pointerdown was on it). v1.254.1: 504_376, +5 B (Retry keeps the
     # address's #section). The ledger is budget_site.json's note.
     # v1.255.0: 504_652, +276 B (hidden moves' settings row, settings-ui.js), on v1.254.1's 504_376.
-    "deferred_raw_bytes": 504_652,
+    # v1.259.0 (HIDESEC2, owner U131 b2): 510_977, exactly the build merged with #373 (v1.258.0, f998a1473; 505_644 on its own), +5_333 B
+    # of this PR's (a closed part's message and its press rule, Settings at its switch, free roam taking it away, #372's review fixes).
+    # The owner, 11 Nov 2026, briefing answer U134 b, approved up to 512_000 B for that day's fixes; 1_023 B of it are left.
+    "deferred_raw_bytes": 510_977,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
