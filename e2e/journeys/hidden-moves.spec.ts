@@ -8,9 +8,9 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  *
  * "Hide moves until I look" (Rolling settings, `hideMoves`, off by default) deals the row with each
  * card's NAME and FILM face down — Works % and Win % stay — and withholds the map's names of the
- * dealt moves. A hover (after NG_PEEK_DWELL_MS) or a tap turns one card up and asks "Did you get
+ * dealt moves. A hover (at once, v1.256.3) or a tap turns one card up and asks "Did you get
  * it?"; a Yes files the move in the `moves` record as MASTERED and the card wears thin gold in every
- * row. The eye beside "Your move" switches the mode from the row (U121); keys 1-9 still play blind.
+ * row. The eye beside "Your moves" switches the mode from the row (U121); keys 1-9 still play blind.
  *
  * "SHOW ALL" IS GONE, AND SO ARE ITS CASES (owner, U121, 10 Nov: "We don't say 'show all', but still show the
  * icon"): the eye replaced the control and its this-turn reveal, so the "Show all asks nothing / Hide all turns it
@@ -21,13 +21,26 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  * changes nothing a test can see, because the option row already keeps its presses from the map's input
  * (attachInput); the probe is live (its control counts a real map press). The eye's stop is a second guard.
  *
+ * THE DWELL IS GONE, AND THREE ASSERTIONS CHANGED WITH IT (v1.256.3, owner, 11 Nov: "i'd like for it to be instant
+ * to show it, what's taking it so long?"). v1.255.0 turned a hovered card up only after NG_PEEK_DWELL_MS (250 ms), so
+ * a pointer sweeping along the row turned nothing up, and the hover test pinned exactly that. His words reverse the
+ * rule, so the test now pins the opposite, and says so: "at 120ms ... still face down" became "on the FIRST frame
+ * after the pointer enters, face up and asking"; "a sweep counts no peek" (0) became four peeks, one per card the
+ * pointer crossed; "...and does not touch the hand" became touched, because every crossed card showed its name and a
+ * hand must never re-sort under a name it showed. What a sweep still may not do is pinned beside them: every card
+ * back down once the pointer has left, no strip left open, no grade, no play. NG_GRADE_ARM_MS's pin (review R3, the
+ * two "before it could be seen" tests) is unchanged: it is now the only wait on a hidden card. Mutant (v1.256.3):
+ * the reveal deferred again (`setTimeout(() => this._peek(card, true), 250)` in pointerenter) is killed by the hover
+ * test's first-frame message; so is a one-frame deferral, because the test's own pointerenter listener runs first and
+ * queues its frame ahead of the app's.
+ *
  * HIDDENNESS IS NEVER READ FROM TEXT. Hiding is CSS on an attribute, so a face-down card's
  * `textContent` still holds its name (every other reader of the card depends on that). Each claim
  * here reads computed visibility, the back's geometry against the film slot, or `elementFromPoint`.
  *
  * Mutants (v1.255.0): 26 app/CSS mutants, each run against the ONE test named for its claim, all
  * killed with that claim's own message; runner and table in docs/Changelog-Archive.md (v1.255.0).
- * Claims: the name's visibility:hidden · the dwell (peek on enter) · the first tap consumed · the
+ * Claims: the name's visibility:hidden · the reveal on the hover's first frame (it was the dwell, see below) · the first tap consumed · the
  * stand-in face up · `moves` in the blob · the map's label gate · (Show all asks nothing: retired, U121) · "Hidden move
  * N" · a peek touches the hand · the staged card face up · an escape filed by label · No takes the
  * gold away · No recorded as ok 0 · a due card offers No · known-and-not-due asks nothing · Yes only
@@ -112,7 +125,7 @@ const mapNames = async (page: Page) => {
 test("@curated off by default: the row is dealt as before, and the setting turns it face down in place", async ({ page }) => {
   await seatMount(page, false)
   expect(await page.locator("[data-hide], .ng-choice-back, [data-choice-grade]").count(), "no hidden-moves DOM on the cards while off").toBe(0)
-  expect(await page.locator("[data-hide-eye]").getAttribute("aria-pressed"), "...and the plain eye by Your move (U121)").toBe("false")
+  expect(await page.locator("[data-hide-eye]").getAttribute("aria-pressed"), "...and the plain eye by Your moves (U121)").toBe("false")
   const open = await face(page, hm(0))
   expect([open.title, open.stats, open.filmCovered]).toEqual(["visible", "visible", false])
   // the Rolling tab's row, by mouse, under a dealt hand: no redeal, the same cards go face down
@@ -163,42 +176,65 @@ test("@curated on: the name and the film are face down, the numbers stay, and th
   if (partner >= 0) expect(await pointAt(partner), "...nor at its pair partner").toEqual({ pair: false, single: false })
 })
 
-test("@curated hover: the card stands out at once, turns up only after the dwell, and a sweep peeks at nothing", async ({ page }) => {
-  await seatMount(page)
-  await page.evaluate(() => { (window as W).__neural._handTouched = false })
-  // a sweep across four cards, 60ms each, as a pointer travelling to a fifth would
-  const pts = []
-  for (let i = 0; i < 4; i++) pts.push(await pointOn(page, hm(i)))
-  await page.evaluate(() => { (window as W).__neural._handTouched = false })
-  for (const p of pts) { await page.mouse.move(p.x, p.y, { steps: 2 }); await page.waitForTimeout(60) }
-  await page.mouse.move(pts[3].x, pts[3].y - 140)
-  await page.waitForTimeout(350)
-  const swept = await appState(page)
-  expect(swept.peeks, "a sweep counts no peek").toBe(0)
-  for (let i = 0; i < 4; i++) expect((await face(page, hm(i))).title, `card ${i} stayed face down through the sweep`).toBe("hidden")
-  expect(swept.touched, "...and does not touch the hand").toBe(false)
+/** What the FIRST frame after the pointer enters `sel` shows. The listener is armed before the move, on the card, in
+ *  the capture phase, so it runs before the app's own pointerenter and queues its frame first: a reveal deferred by
+ *  even one frame reads face down here. Read in that frame, never after a wait. */
+async function firstFrame(page: Page, sel: string, at: { x: number; y: number }) {
+  await page.evaluate((sel) => {
+    const c = document.querySelector(sel) as HTMLElement
+    ;(window as W).__firstFrame = new Promise((done) => c.addEventListener("pointerenter", () => requestAnimationFrame(() => done({
+      hover: c.hasAttribute("data-hover"), title: getComputedStyle(c.querySelector(".ngchoice-title")!).visibility,
+      back: getComputedStyle(c.querySelector(".ng-choice-back")!).display, up: c.hasAttribute("data-revealed"), asking: c.hasAttribute("data-asking"),
+    })), { capture: true, once: true }))
+  }, sel)
+  await page.mouse.move(at.x, at.y)
+  return page.evaluate(() => (window as W).__firstFrame)
+}
 
+test("@curated hover: the card turns up the moment the pointer is on it, and a sweep turns each card back down as it leaves (owner, 11 Nov)", async ({ page }) => {
+  await seatMount(page)
   const p = await pointOn(page, hm(1))
   await page.evaluate(() => { (window as W).__neural._handTouched = false })
   const boxes = () => page.evaluate(() => ["0", "2", "3"].map((i) => { const r = document.querySelector(`[data-hm="${i}"]`)!.getBoundingClientRect(); return [r.left, r.top, r.width, r.height].map((v) => Math.round(v * 10) / 10) }))
   const before = await boxes()
-  await page.mouse.move(p.x, p.y)
-  await page.waitForTimeout(120)
-  const early = await page.evaluate(() => { const c = document.querySelector('[data-hm="1"]') as HTMLElement; return { hover: c.hasAttribute("data-hover"), title: getComputedStyle(c.querySelector(".ngchoice-title")!).visibility } })
-  expect(early, "at 120ms the card stands out and is still face down").toEqual({ hover: true, title: "hidden" })
+  // the reveal is the pointer arriving: no dwell (it was NG_PEEK_DWELL_MS, 250 ms, until v1.256.3)
+  const first = await firstFrame(page, hm(1), p)
+  expect(first, "on the first frame after the pointer enters, the card stands out, its name and film are face up, and it asks (no wait, owner 11 Nov)")
+    .toEqual({ hover: true, title: "visible", back: "none", up: true, asking: true })
   await expect.poll(() => page.evaluate(() => { const m = new DOMMatrix(getComputedStyle(document.querySelector('[data-hm="1"]')!).transform); return Math.round(m.a * 1000) }),
     { message: "it stands out by a transform on the card alone" }).toBeGreaterThan(1020)
-  await page.waitForTimeout(250)
   const up = await face(page, hm(1))
-  expect([up.title, up.filmCovered, up.up, up.asking], "after the dwell it is face up and asks").toEqual(["visible", false, true, true])
+  expect([up.title, up.filmCovered, up.up, up.asking], "it stays face up while the pointer rests on it").toEqual(["visible", false, true, true])
   expect([up.yes, up.no], 'Yes only: "Did you get it?" has no No').toEqual([1, 0])
   expect(up.aria, "face up, it is announced by name").toMatch(/^Attack /)
   const s = await appState(page)
   expect([s.peeks, s.touched], "one peek, and a peek touches the hand (it never re-sorts under a peek)").toEqual([1, true])
   expect(await boxes(), "no layout shift: the neighbours' boxes are where they were (review T1)").toEqual(before)
   await page.mouse.move(p.x, p.y - 160)
-  await page.waitForTimeout(250)
-  expect((await face(page, hm(1))).title, "leaving turns it back down").toBe("hidden")
+  await expect.poll(async () => (await face(page, hm(1))).title, { message: "leaving turns it back down" }).toBe("hidden")
+
+  // a sweep across four cards, 60ms each, as a pointer travelling to a fifth would: each card turns up under it and
+  // back down as it leaves; nothing is left open, graded or played
+  const pts = []
+  for (let i = 0; i < 4; i++) pts.push(await pointOn(page, hm(i)))
+  await page.mouse.move(pts[0].x, pts[0].y - 160)
+  await page.evaluate(() => {
+    const a = (window as W).__neural
+    a._handTouched = false
+    a.__sweptUp = new Set()
+    a.__sweepObs = new MutationObserver((ms) => { for (const m of ms) if ((m.target as HTMLElement).hasAttribute("data-revealed")) a.__sweptUp.add((m.target as HTMLElement).getAttribute("data-hm")) })
+    for (let i = 0; i < 4; i++) a.__sweepObs.observe(document.querySelector(`[data-hm="${i}"]`), { attributes: true, attributeFilter: ["data-revealed"] })
+  })
+  for (const q of pts) { await page.mouse.move(q.x, q.y, { steps: 2 }); await page.waitForTimeout(60) }
+  await page.mouse.move(pts[3].x, pts[3].y - 140)
+  await page.waitForTimeout(350)
+  const sweptUp = await page.evaluate(() => { const a = (window as W).__neural; a.__sweepObs.disconnect(); return [...a.__sweptUp].sort() })
+  expect(sweptUp, "every card the sweep crosses turns up under it").toEqual(["0", "1", "2", "3"])
+  for (let i = 0; i < 4; i++) expect((await face(page, hm(i))).title, `card ${i} is face down again once the pointer has left it`).toBe("hidden")
+  expect(await page.locator("[data-asking]").count(), 'no "Did you get it?" strip is left open behind the sweep').toBe(0)
+  const swept = await appState(page)
+  expect([await graded(page), swept.executing], "a sweep grades nothing and plays nothing").toEqual([0, false])
+  expect([swept.peeks, swept.touched], "each crossed card was a look: four peeks, and the hand is touched").toEqual([4, true])
 })
 
 test("@curated Yes files the move as mastered: gold in every row, kept across a reload, and never a play", async ({ page }) => {
@@ -292,7 +328,7 @@ test("@curated reduced motion: a hovered card is lit but does not grow", async (
   expect([r.hover, r.glow, await scaleOf(page, hm(1))], "lit by its glow, at its own size").toEqual([true, true, 1000])
 })
 
-test("@curated the eye by Your move switches hidden moves from the row, in place, and is not a peek (U121)", async ({ page }) => {
+test("@curated the eye by Your moves switches hidden moves from the row, in place, and is not a peek (U121)", async ({ page }) => {
   const j = await seatMount(page, false)
   const hand = () => page.evaluate(() => (window as W).__neural._optionCards.map((c: W) => c.opt.node.t).join("|"))
   const before = await hand()
@@ -431,7 +467,7 @@ test("@curated a press on a grade button that began before it could be seen does
   const j = await seatMount(page)
   const p = await pointOn(page, hm(1))
   const pt = await stripPoints(page, hm(1), () => page.mouse.move(p.x, p.y), () => page.mouse.move(p.x, p.y - 160))
-  // the pointer rests where Yes WILL appear; the dwell turns the card up and the strip arrives under it
+  // the pointer rests where Yes WILL appear; the card turns up at once and the strip arrives under it
   await page.mouse.move(pt.yes.x, pt.yes.y)
   await expect.poll(async () => (await face(page, hm(1))).asking, { message: "the strip arrives under the resting pointer" }).toBe(true)
   await page.mouse.click(pt.yes.x, pt.yes.y)
@@ -454,7 +490,8 @@ test("@curated a press on a grade button that began before it could be seen does
 
 test("@curated Enter on a focused card: face down it turns up, face up it plays, whatever pointer pressed last (review R7)", async ({ page }) => {
   await seatMount(page)
-  // a mouse press on card 2 that is not a click (down, away, up), quicker than the dwell: it was the last pointer
+  // a mouse press on card 2 that is not a click (down, away, up): it was the last pointer, and the card went back
+  // down as the pointer left it
   const p = await pointOn(page, hm(2))
   await page.mouse.move(p.x, p.y); await page.mouse.down(); await page.mouse.move(p.x, p.y - 160); await page.mouse.up()
   await page.waitForTimeout(300)
@@ -559,7 +596,7 @@ test.describe("touch", () => {
       { g: "yes", w: true, h: true, inside: true, edges: true }, { g: "no", w: true, h: true, inside: true, edges: true }])
   })
 
-  test("@curated touch: the eye's target is the whole free band (44 x 40), covers neither Your move, card 1 nor the hand's close, and a card left up stays unnamed after off and on (U121)", async ({ page }) => {
+  test("@curated touch: the eye's target is the whole free band (44 x 40), covers neither Your moves, card 1 nor the hand's close, and a card left up stays unnamed after off and on (U121)", async ({ page }) => {
     await seatMount(page)
     const g = await page.evaluate(() => {
       const e = document.querySelector("[data-hide-eye]") as HTMLElement, title = e.parentElement!, r = e.getBoundingClientRect()
@@ -575,7 +612,7 @@ test.describe("touch", () => {
     // 44 TALL IS NOT AVAILABLE HERE: the band between the row's clip and card 1's top is 40px (8 padding, 24 line, 8
     // gap). The eye takes all of it, edge to edge its own, and steals no press from the card (§6.1's padded-target trap).
     expect([g.w, g.h, g.inBand, g.edges], "44 wide, the full 40px band, inside it, edge to edge its own").toEqual([true, true, true, true])
-    expect([g.label, g.close, g.line], "it covers neither Your move nor the close, and the title's line stays 24px").toEqual([true, true, 24])
+    expect([g.label, g.close, g.line], "it covers neither Your moves nor the close, and the title's line stays 24px").toEqual([true, true, 24])
     expect(g.motion, "no transition to remove under reduced motion").toBe("0s")
     // a card left face up by a tap, then the eye off and on: the card is down again, and its orb unnamed
     const p = await pointOn(page, hm(1))
