@@ -63,7 +63,7 @@ If you signed in before late August 2026, your account may also still hold a cop
 
 Whether or not you sign in, the Service stores data in your browser's **local storage** to make the training and game features work. These keys include, among others: `bjj-neural-owner:guest:progress` (your progress when you are not signed in), a `bjj-neural-owner:account:<your account ID>:progress` key for each account that has signed in on that browser (that account's progress, kept after you sign out), `bjj_view_mode`, and `bjj_gi_mode`.
 
-If you are **not** signed in, this data **stays on your device and is never transmitted to us**. If you sign in, your progress from then on is synced as described above; progress you made before signing in is synced only if you choose to import it into your account.
+If you are **not** signed in, this data **stays on your device and is not transmitted to us** until someone signs in on that browser. If you sign in, progress made in that browser while signed out is added to your account, and your progress is then synced as described above.
 
 ### 4. Analytics data
 
