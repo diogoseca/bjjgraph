@@ -2621,7 +2621,14 @@ class Component extends DCLogic {
     const mb = card.querySelector(".ngMuteBtn"); if (mb) mb.remove();
     const cx = card.querySelector(".ngClipX"); if (cx) cx.remove();
     if (card._outside) { document.removeEventListener("pointerdown", card._outside, true); card._outside = null; }
-    const glyph = card.querySelector(".ngPlay"); if (glyph) glyph.style.display = "";
+    // NO WRITE TO THE PLAY GLYPH HERE (v1.256.4, owner 2026-11-11: "after i click the play button and close it ...
+    // it seems floating a bit up"). The glyph is hidden and shown by its parent `[data-film-play]`'s `hidden` (above
+    // and in expandClip) and nothing else. Until v1.231.0 expandClip wrote `glyph.style.display = "none"` and this line
+    // undid it with `= ""`; v1.231.0 moved the hide to `launch.hidden`, and the orphaned `= ""` then only DELETED the
+    // `display:flex` the glyph is built with (filmStudyHTML), so after every close the triangle fell into inline
+    // flow, 6.5px above the circle's centre (CLAUDE.md §6.1: `style.color = ""` deletes, it does not restore). The
+    // hover pair in wireClips restores explicit values. Pinned by film-overlay-play.spec.ts, on the film and in a
+    // choice card's viewer, by mouse and by touch.
     if (card._bw) { card.style.setProperty("width", card._bw + "px", "important"); card.style.setProperty("height", card._bh + "px", "important"); }
     card.style.cursor = "pointer";
     card._expanded = false;
