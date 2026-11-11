@@ -90,6 +90,9 @@ for (const [width, height, touch] of [[1440, 900, false], [768, 1024, true]] as 
       const roam = await key(page)
       expect({ card: roam.card, film: roam.film, roam: roam.roam, article: roam.article }, "premise: free roam, the card, the film and the article off the screen").toEqual({ card: false, film: false, roam: true, article: false })
       await expect.poll(async () => { await frame(j); const k = await key(page); return k.visibility + " " + k.opacity }, { message: "the key comes back when the map is alone again" }).toBe("visible 1")
+      // WINBAR1's other half (owner's pick U137 a): the bar is away only while the article's column is on screen, so the map alone
+      // has it back, at 768 too (where it was away under the column above).
+      await expect.poll(async () => { await frame(j); return page.evaluate(() => getComputedStyle(document.querySelector(".ng-winbar")!).visibility) }, { message: "the map alone keeps the win bar" }).toBe("visible")
       // The article alone on screen, with no card or film: a page (a Principle with no videos, by its URL), which free roam never
       // puts away. Not Base: its own film is on screen too, and a film alone already keeps the key away.
       await j.boot("/Principles/Microing")
