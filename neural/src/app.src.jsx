@@ -39,6 +39,9 @@ const NG_LAND_ANSWER_STEPS = Object.freeze([
 // The option tray's own horizontal inset, both ends (`updateUiShift` writes it; the pane's reserve is
 // added on the left only). The template's inline 24px is the same value for the first paint.
 const NG_TRAY_INSET = 24;
+// The drawer search draws its first 40 rows on a keystroke and the rest as the list scrolls (`_renderSearch`, v1.257.0).
+// Pinned by e2e/journeys/search-rank.spec.ts, which also holds the per-keystroke budget this was sized for.
+const NG_SEARCH_PAGE = 40;
 // U99 b (owner, 2026-11-06, over the first build's "never hiding"): a taller map, 43% at 900px tall, knowing that half of all
 // cards then need a scroll to reach their last answer. The room a live question needs under the map, from the map's bottom to the
 // window's, at the median: on 136 real cards from 16 pages (1440x900, real fonts) the bottom answer lands 486px below the map at
@@ -8294,18 +8297,12 @@ class Component extends DCLogic {
       const ki = this.listIdxs(keepList);
       if (ki.length) this.setFocusIdxSet(ki, true);
     }
-    // search mode: flat ranked results across all nodes
+    // search mode: ONE RANKED LIST (v1.257.0, `searchRank` orders it, `_renderSearch` lays it out)
     if (q) {
-      // SEARCH LISTS SITES TOO (v1.126.0). `buildExplorer` filters `rep`; this walks `this.nodes`
-      // DIRECTLY — a query renders flat ranked results before any section exists — so it never
-      // inherited that filter. Both halves of a pair carry the SAME title, so every hit was
-      // DOUBLED with nothing to tell the duplicates apart, and under the 120 cap that HALVED how
-      // many distinct techniques a search could ever reach: "guard" matches 320 sites and could
-      // only ever show 60 of them. `rep` is true for every unpaired node, so this is a no-op on
-      // the pre-split graph.
-      // …and the same argument applies to the RULESET filter, which `buildExplorer` applies and
-      // this path likewise never inherited (v1.153.0): searching "lapel" in no-gi returned a full
-      // page of results for states no no-gi session can enter.
+      // SEARCH LISTS SITES TOO (v1.126.0), and only the ones this ruleset allows (v1.153.0). This path walks `this.nodes`
+      // directly, so it never inherited `buildExplorer`'s filters: both halves of a pair carry the SAME title, so every
+      // hit was DOUBLED, and "lapel" in no-gi listed states no no-gi session can enter. Both filters (`rep`, `rsAllows`)
+      // live in `searchRank` now, and tests/search_rank.test.mjs asserts every row passes them, in both rulesets.
       // escHTML(q), NOT q: `mk()` is `d.innerHTML = html`, so the raw query was PARSED as
       // markup here — proven live, an `<img src=x onerror=…>` typed into the search box ran
       // its handler in this origin (localStorage holds the Supabase session). `.toLowerCase()`
@@ -8319,29 +8316,12 @@ class Component extends DCLogic {
       // for a share link pasted onto any page. What IS true, and is what v1.158.1 bought, is that
       // after `?dual=` was deleted NO query parameter can change how the graph RENDERS: `?l=`
       // opens a shared list and can do nothing else, and it is validated by `nglValidCode`.)
-      // so there is no link-delivered and no stored vector. `hl(text, q)` is not a second sink:
-      // it slices the trusted title and uses q only for indexOf/length.
-      // Pinned by e2e/journeys/explore-search-escape.spec.ts (drop this call and it goes red).
+      // so there is no link-delivered and no stored vector. The empty state escapes the query and
+      // `_hlRank` escapes every slice of the name it marks, using the query only for offsets.
+      // Pinned by e2e/journeys/explore-search-escape.spec.ts (drop the escape and it goes red).
       this._ensureSystems();
       if (!(this.systems || []).length) this._renderSystemsStatus(list, mk);
-      // VARIANTS FOR THE OWNER'S PICK (searchrank, 11 Nov): "today" is the unranked v1.256.2 path below, kept only so
-      // the before and after screens come from one build; a/b/c are `_renderSearch`. The pick ships alone.
-      if ((this._searchVariant || "c") !== "today") { this._renderSearch(list, mk, this._exQ || ""); return; }
-      const matches = this.nodes.filter((n) => n.rep && this.rsAllows(n) && this.nodeMatches(n, q)).slice(0, 120);
-      const systems = (this.systems || []).filter((s) => [s.name, s.display_title, ...(s.aliases || []),
-        ...(s.products || []).flatMap((p) => [p.name, p.instructor])].filter(Boolean).join(" ").toLowerCase().includes(q));
-      for (const s of systems) {
-        const hit = mk('<span>' + this.escHTML(s.display_title || s.name) + '</span><small style="margin-left:auto;">System</small>', 12, () => this._readArticle("/" + s.id));
-        hit.setAttribute("data-system-row", s.id); hit.style.pointerEvents = "auto"; list.appendChild(hit);
-      }
-      if (!matches.length && systems.length) return;
-      if (!matches.length) { if (this._aliasesReady) list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match \u201c' + this.escHTML(q) + '\u201d</span>', 12)); return; }
-      list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
-      for (const n of matches) {
-        const cat = ({ positions: "Pos", transitions: "Trans", submissions: "Sub" })[n.ty];
-        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this._readArticle(this._nodeUrlPath(n.idx), true, true, "search"));
-        list.appendChild(this._withListAdd(hit, n, "explore"));
-      }
+      this._renderSearch(list, mk, this._exQ || "");
       return;
     }
     // ── PRINCIPLES + LEARNING ── every authored concept, and a click that OPENS it.
@@ -11331,124 +11311,128 @@ class Component extends DCLogic {
     }
     return g;
   }
-  /** RANKED SEARCH RESULTS (v1.257.0). `searchRank` decides the order; this only lays it out, three ways for the
-   *  owner to pick from (searchrank brief): "a" one flat ranked list, "b" a Best match block over groups by kind with
-   *  a count and Show all, "c" a flat ranked list with each submission family folded into one row, both seats on
-   *  every position row, and the one-typo band. Every variant: the ruleset and `rep` filters (inside `searchRank`),
-   *  the escaped query, and rows the arrow keys walk in the order shown (`_wireSearchKeys`). */
+  /** RANKED SEARCH RESULTS (v1.257.0, owner's pick U132 c). `searchRank` decides the order; this lays it out as ONE
+   *  list in that order, with three things on top of it:
+   *  · EVERY SUBMISSION FAMILY IS ONE ROW ("Guillotine Choke · 5 starts"), at the rank of its best start. The top-ranked
+   *    family opens on its five most-travelled starts with "All N starts" under them; the others open on a press. "rnc"
+   *    is one row instead of 12, "armbar" one instead of 15, so the next distinct things come into view.
+   *  · EVERY POSITION ROW CARRIES ITS TWO SEATS as Top and Bottom presses, on a line of their own under the name (beside
+   *    it they squeezed "Side Control" onto two lines at 390). The row itself still opens the Top page, as before.
+   *  · ONE TYPO IS FORGIVEN as the last band (`_rankTypo`). Known near-miss, kept LAST on purpose: "knee slice" also
+   *    lists "Knee Slide from Combat Base" at the bottom of its results.
+   *  FORTY ROWS FIRST, THE REST ON SCROLL. Drawing ~120 rows was what a keystroke cost (measured on this box, 390x844 at
+   *  4x CPU throttle: ~150 ms a keystroke, of which the ranking is 11-16 ms), so the first `NG_SEARCH_PAGE` rows draw on
+   *  the keystroke and the next batch draws when the end of the list comes within 600px of view (an IntersectionObserver
+   *  on a sentinel row), or when ↓ walks past the last drawn row. Nothing is capped any more: every result is reachable,
+   *  where the old list stopped at 120. A re-render (a family opened) keeps every block already drawn.
+   *  The ruleset and `rep` filters are `searchRank`'s; the query is escaped (`_hlRank`, the empty state). */
   _renderSearch(list, mk, raw) {
-    const v = this._searchVariant || "c";
-    const { q, rows } = this.searchRank(raw, { typo: v === "c" });
-    if (this._searchUiQ !== q.c + "|" + v) { this._searchUiQ = q.c + "|" + v; this._searchOpen = new Set(); }
+    const { q, rows } = this.searchRank(raw, { typo: true });
+    if (this._searchUiQ !== q.c) { this._searchUiQ = q.c; this._searchOpen = new Set(); this._searchDrawn = 0; }
+    if (this._searchPage) this._searchPage.stop();
+    this._searchPage = null;
     const open = this._searchOpen;
-    const KIND = ["Submission", "Position", "Transition", "System"], SHORT = ["Sub", "Pos", "Trans", "System"];
+    const SHORT = ["Sub", "Pos", "Trans", "System"];
     const rerender = (focusSel) => {
       const sc = list.scrollTop; this.renderExplorer(); list.scrollTop = sc;
       const f = focusSel && list.querySelector(focusSel); if (f) f.focus({ preventScroll: true });
     };
-    const label = (text) => mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + text + '</span>', 12);
-    const sysRow = (s, o = {}) => {
-      const hit = mk('<span style="font-size:' + (o.big ? 15 : 13) + 'px;color:#dbe2f0;' + (o.big ? 'font-weight:600;' : '') + '">' + this._hlRank(s.display_title || s.name, q) + '</span><small style="margin-left:auto;font-size:10px;color:#7e8aa3;">System</small>', 12, () => this._readArticle("/" + s.id));
+    const sysRow = (s) => {
+      const hit = mk('<span style="font-size:13px;color:#dbe2f0;">' + this._hlRank(s.display_title || s.name, q) + '</span><small style="margin-left:auto;font-size:10px;color:#7e8aa3;">System</small>', 12, () => this._readArticle("/" + s.id));
       hit.setAttribute("data-system-row", s.id); hit.setAttribute("data-search-row", s.id); hit.style.pointerEvents = "auto";
       return hit;
     };
     const nodeRow = (n, o = {}) => {
       const k = this._rankKey(n), qual = o.text ? "" : this.nodeQual(n);
-      const name = o.text || this.graphName(n);
-      const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), o.big ? 11 : 9) + '<span style="min-width:0;font-size:' + (o.big ? 15 : 13) + 'px;color:#dbe2f0;' + (o.big ? 'font-weight:600;' : '') + '">' + this._hlRank(name, q) +
-        (qual ? ' <span style="color:#6b7691;font-size:11px;font-weight:400;">' + this.escHTML(qual) + '</span>' : "") + '</span><span style="margin-left:auto;flex:none;font-size:10px;color:#7e8aa3;">' + (o.big ? KIND[k.kind] : SHORT[k.kind]) + '</span>',
+      const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="min-width:0;font-size:13px;color:#dbe2f0;">' + this._hlRank(o.text || this.graphName(n), q) +
+        (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + '</span>' : "") + '</span><span style="margin-left:auto;flex:none;font-size:10px;color:#7e8aa3;">' + SHORT[k.kind] + '</span>',
         o.pad || 12, () => this._readArticle(this._nodeUrlPath(n.idx), true, true, "search"));
       hit.setAttribute("data-search-row", n.id);
       const wrap = this._withListAdd(hit, n, "explore");
-      // THE SEATS GET THEIR OWN LINE, under the name: beside it they squeezed "Side Control" onto two lines at 390.
-      if (o.seats && n.ty === "positions" && n.pi >= 0) {
+      if (n.ty === "positions" && n.pi >= 0 && !o.text) {
         const g = this._seatPresses(n);
         wrap.style.flexWrap = "wrap";
-        g.style.flexBasis = "100%"; g.style.order = "3"; g.style.margin = "-6px 0 4px"; g.style.paddingLeft = (o.big ? 33 : 29) + "px";
+        g.style.flexBasis = "100%"; g.style.order = "3"; g.style.margin = "-6px 0 4px"; g.style.paddingLeft = "29px";
         wrap.appendChild(g);
       }
       return wrap;
     };
-    const rowOf = (r, o) => r.s ? sysRow(r.s, o) : nodeRow(r.n, o);
     if (!rows.length) {
       if (this._aliasesReady) list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match “' + this.escHTML(raw.trim()) + '”</span>', 12));
       return;
     }
-    const count = rows.length + " result" + (rows.length === 1 ? "" : "s");
-    const CAP = 120;
-    if (v === "a") {
-      list.appendChild(label(count + (rows.length > CAP ? " · best " + CAP + " shown" : "")));
-      for (const r of rows.slice(0, CAP)) list.appendChild(rowOf(r, {}));
-    } else if (v === "b") {
-      let best = rows.filter((r) => r.head === 0).slice(0, 3);
-      if (!best.length && rows[0].band === 0) best = [rows[0]];
-      if (best.length) {
-        list.appendChild(label("Best match"));
-        for (const r of best) list.appendChild(rowOf(r, { big: true, seats: true }));
-      }
-      const rest = rows.filter((r) => !best.includes(r)), groups = new Map();
-      for (const r of rest) { if (!groups.has(r.kind)) groups.set(r.kind, []); groups.get(r.kind).push(r); }
-      for (const [kind, rs] of groups) {
-        const hdr = label(KIND[kind] + "s · " + rs.length);
-        hdr.style.marginTop = "6px"; list.appendChild(hdr);
-        const all = open.has("g" + kind), shown = all ? rs : rs.slice(0, 5);
-        for (const r of shown) list.appendChild(rowOf(r, {}));
-        if (rs.length > shown.length) {
-          const more = mk('<span style="font-size:12px;color:#9ab0e0;">Show all ' + rs.length + '</span>', 22, () => { open.add("g" + kind); rerender('[data-search-row="' + CSS.escape((rs[5].s || rs[5].n).id) + '"]'); });
-          more.setAttribute("data-search-more", String(kind)); more.style.pointerEvents = "auto";
-          list.appendChild(more);
-        }
-      }
-    } else {
-      list.appendChild(label(count + (rows.length > CAP ? " · best " + CAP + " shown" : "")));
-      const famOf = (r) => { if (!r.n || r.n.ty !== "submissions") return null; const p = r.n.id.split("/"); return p.length === 3 ? p[1] : null; };
-      const fams = new Map();
-      for (const r of rows) { const f = famOf(r); if (f) { if (!fams.has(f)) fams.set(f, []); fams.get(f).push(r); } }
-      let shown = 0, first = true;
-      for (const r of rows) {
-        if (shown >= CAP) break;
-        const f = famOf(r), mem = f && fams.get(f);
-        if (mem && mem.length > 1) {
-          if (mem[0] !== r) continue;
-          // the family's printed name: what most of its members print ("Armbar" over "Reverse Armbar")
-          const tally = new Map();
-          for (const m of mem) { const g = this.graphName(m.n); tally.set(g, (tally.get(g) || 0) + 1); }
-          const fname = [...tally].sort((a, b) => b[1] - a[1] || a[0].length - b[0].length || (a[0] < b[0] ? -1 : 1))[0][0];
-          const isOpen = first !== open.has("f" + f);
-          const hit = mk(this.nodeGlyph("submissions", this.hex(r.n.col), 9) + '<span style="min-width:0;font-size:13px;color:#dbe2f0;">' + this._hlRank(fname, q) +
-            ' <span style="color:#6b7691;font-size:11px;">' + mem.length + ' starts</span></span><span style="margin-left:auto;flex:none;font-size:10px;color:#7e8aa3;">Sub</span><span style="flex:none;color:#5d6883;font-size:11px;">' + this._caretHTML(isOpen) + '</span>',
-            12, () => { if (open.has("f" + f)) open.delete("f" + f); else open.add("f" + f); rerender('[data-search-fam="' + f + '"]'); });
-          hit.setAttribute("data-search-fam", f); hit.setAttribute("aria-expanded", isOpen ? "true" : "false"); hit.style.pointerEvents = "auto";
-          list.appendChild(hit); shown++;
-          if (isOpen) {
-            const every = open.has("m" + f), some = every ? mem : mem.slice(0, 5);
-            for (const m of some) {
-              const t = m.n.t, lead = fname + " from ";
-              list.appendChild(nodeRow(m.n, { pad: 26, text: t.indexOf(lead) === 0 ? "from " + t.slice(lead.length) : t }));
-            }
-            if (some.length < mem.length) {
-              const more = mk('<span style="font-size:12px;color:#9ab0e0;">All ' + mem.length + ' starts</span>', 26, () => { open.add("m" + f); rerender('[data-search-row="' + CSS.escape(mem[5].n.id) + '"]'); });
-              more.setAttribute("data-search-more", "m" + f); more.style.pointerEvents = "auto";
-              list.appendChild(more);
-            }
+    list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + rows.length + ' result' + (rows.length === 1 ? "" : "s") + '</span>', 12));
+    // BLOCKS: one per result in rank order (a family and its open starts are one block); each appends its rows and
+    // returns how many it appended, so the page counts ROWS drawn, not results.
+    const famOf = (r) => { if (!r.n || r.n.ty !== "submissions") return null; const p = r.n.id.split("/"); return p.length === 3 ? p[1] : null; };
+    const fams = new Map();
+    for (const r of rows) { const f = famOf(r); if (f) { if (!fams.has(f)) fams.set(f, []); fams.get(f).push(r); } }
+    const blocks = [];
+    for (const r of rows) {
+      const f = famOf(r), mem = f && fams.get(f);
+      if (!(mem && mem.length > 1)) { blocks.push(() => { list.appendChild(r.s ? sysRow(r.s) : nodeRow(r.n)); return 1; }); continue; }
+      if (mem[0] !== r) continue;
+      const top = !blocks.length;
+      blocks.push(() => {
+        // the family's printed name: what most of its starts print ("Armbar" over "Reverse Armbar")
+        const tally = new Map();
+        for (const m of mem) { const g = this.graphName(m.n); tally.set(g, (tally.get(g) || 0) + 1); }
+        const fname = [...tally].sort((a, b) => b[1] - a[1] || a[0].length - b[0].length || (a[0] < b[0] ? -1 : 1))[0][0];
+        const isOpen = top !== open.has("f" + f);
+        const hit = mk(this.nodeGlyph("submissions", this.hex(r.n.col), 9) + '<span style="min-width:0;font-size:13px;color:#dbe2f0;">' + this._hlRank(fname, q) +
+          ' <span style="color:#6b7691;font-size:11px;">' + mem.length + ' starts</span></span><span style="margin-left:auto;flex:none;font-size:10px;color:#7e8aa3;">Sub</span><span style="flex:none;color:#5d6883;font-size:11px;">' + this._caretHTML(isOpen) + '</span>',
+          12, () => { if (open.has("f" + f)) open.delete("f" + f); else open.add("f" + f); rerender('[data-search-fam="' + f + '"]'); });
+        hit.setAttribute("data-search-fam", f); hit.setAttribute("aria-expanded", isOpen ? "true" : "false"); hit.style.pointerEvents = "auto";
+        list.appendChild(hit);
+        let n = 1;
+        if (isOpen) {
+          const some = open.has("m" + f) ? mem : mem.slice(0, 5);
+          for (const m of some) {
+            const t = m.n.t, lead = fname + " from ";
+            list.appendChild(nodeRow(m.n, { pad: 26, text: t.indexOf(lead) === 0 ? "from " + t.slice(lead.length) : t })); n++;
           }
-        } else { list.appendChild(rowOf(r, { seats: true })); shown++; }
-        first = false;
-      }
+          if (some.length < mem.length) {
+            const more = mk('<span style="font-size:12px;color:#9ab0e0;">All ' + mem.length + ' starts</span>', 26, () => { open.add("m" + f); rerender('[data-search-row="' + CSS.escape(mem[5].n.id) + '"]'); });
+            more.setAttribute("data-search-more", "m" + f); more.style.pointerEvents = "auto";
+            list.appendChild(more); n++;
+          }
+        }
+        return n;
+      });
     }
+    const sentinel = document.createElement("div");
+    sentinel.setAttribute("data-search-sentinel", ""); sentinel.setAttribute("aria-hidden", "true"); sentinel.style.cssText = "height:1px;flex:none;";
+    let bi = 0;
+    const draw = (want, minBlocks = 0) => {
+      if (sentinel.parentNode) sentinel.parentNode.removeChild(sentinel);
+      let drawn = 0;
+      while (bi < blocks.length && (drawn < want || bi < minBlocks)) drawn += blocks[bi++]();
+      this._searchDrawn = bi;
+      if (bi < blocks.length) list.appendChild(sentinel);
+      return drawn;
+    };
+    draw(NG_SEARCH_PAGE, this._searchDrawn || 0);
+    let io = null;
+    if (bi < blocks.length && typeof IntersectionObserver === "function") {
+      io = new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting)) { draw(NG_SEARCH_PAGE); if (bi < blocks.length) { io.unobserve(sentinel); io.observe(sentinel); } else io.disconnect(); } },
+        { root: list, rootMargin: "0px 0px 600px 0px" });
+      io.observe(sentinel);
+    }
+    this._searchPage = { more: () => draw(NG_SEARCH_PAGE), left: () => blocks.length - bi, stop: () => { if (io) io.disconnect(); } };
     this._wireSearchKeys(list);
   }
   /** THE ARROWS WALK THE RESULTS IN THE ORDER SHOWN (v1.257.0). Before this, only Tab reached the rows (and the ▶/+
    *  chips between them); the arrow keys did nothing in the list. ↓ from the box enters the first result, ↑/↓ move one
-   *  result (a row, a family row or a Show all), ↑ from the first returns to the box, and Enter in the box opens the
-   *  first result. Wired once per element; the rows are re-read on every press, so a re-render cannot strand it. */
+   *  result (a row, a family row or an "All N starts"), ↓ past the last drawn row draws the next page, ↑ from the first
+   *  returns to the box, and Enter in the box opens the first result. Wired once per element; the rows are re-read on
+   *  every press, so a re-render cannot strand it. */
   _wireSearchKeys(list) {
     const items = () => [...list.querySelectorAll("[data-search-row],[data-search-fam],[data-search-more]")];
     const inp = this.explorerSearchRef?.current;
     if (inp && !inp._ngRankKeys) {
       inp._ngRankKeys = true;
       inp.addEventListener("keydown", (e) => {
-        if (!(this._exQ || "").trim() || (this._searchVariant || "c") === "today") return;
+        if (!(this._exQ || "").trim()) return;
         const it = items(); if (!it.length) return;
         if (e.key === "ArrowDown") { e.preventDefault(); e.stopPropagation(); it[0].focus(); }
         else if (e.key === "Enter") { e.preventDefault(); e.stopPropagation(); it[0].click(); }
@@ -11458,10 +11442,14 @@ class Component extends DCLogic {
       list._ngRankKeys = true;
       list.addEventListener("keydown", (e) => {
         if ((e.key !== "ArrowDown" && e.key !== "ArrowUp") || !(this._exQ || "").trim()) return;
-        const it = items(), i = it.indexOf(document.activeElement);
+        let it = items();
+        const i = it.indexOf(document.activeElement);
         if (i < 0) return;
         e.preventDefault(); e.stopPropagation();
-        if (e.key === "ArrowDown") { if (i + 1 < it.length) it[i + 1].focus(); }
+        if (e.key === "ArrowDown") {
+          if (i + 1 >= it.length && this._searchPage && this._searchPage.left()) { this._searchPage.more(); it = items(); }
+          if (i + 1 < it.length) it[i + 1].focus();
+        }
         else if (i > 0) it[i - 1].focus();
         else if (inp) inp.focus();
       });

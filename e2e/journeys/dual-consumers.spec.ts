@@ -215,7 +215,11 @@ test("@curated the hub keeps its identity: ordinals, Explore, deck keys, curricu
     expect(pair.search[q].dupes, "no duplicate row in the results for “" + q + "”").toBe(0)
     expect(pair.search[q].rows, "“" + q + "” returns results").toBeGreaterThan(0)
   }
-  expect(pair.search.guard.rows, "a broad query still fills its 120-row cap with 120 DISTINCT hits").toBe(120)
+  // v1.257.0: the 120-row cap is gone; the ranked search draws its first 40 rows and the rest on scroll
+  // (`NG_SEARCH_PAGE`). The claim this line carried, that doubled sites can no longer halve what a query
+  // reaches, now rests on the first page being full, every row in it distinct (`dupes` above), and the
+  // whole result, rows and head, equal to the pre-split graph's (`toEqual` above).
+  expect(pair.search.guard.rows, "a broad query fills its first 40-row page with DISTINCT hits").toBeGreaterThanOrEqual(40)
 
   // DECK KEYS, CURRICULUM FOG, LESSON NODES, THE FIRST-IMPRESSION DISTRIBUTION, QUALIFIED NAMES.
   expect(pair.deckKeys).toEqual(legacy.deckKeys)

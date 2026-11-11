@@ -751,7 +751,15 @@ suppressor eats the click the browser synthesises at the end of one.
 
 **Explore** starts open; its six category sections start collapsed. Every fold persists in
 `exploreOpenSections`, including `Your lists` (absent means closed). Search precedes sections and
-filters to `rep`. Your lists follows Path with the shared three-rung indent. Opening the drawer
+lists the sites (`rep`) the ruleset allows, plus Systems, in ONE ranked order (`searchRank`, v1.257.0, owner
+U132 c): the name match first (it is the query, a nickname is, it starts with it, or every word starts one
+of its words in any order; spaces, hyphens, slashes and accents fold), a finish before the position named
+after it and before its setups, a move before its "from X" variants, then how much of the game passes
+through it in this ruleset (the score table's occupancy and visit rate), shorter, name, id. Each
+submission family is one row with its starts under it (the top family open on five), every position row
+carries Top and Bottom presses, one typo is forgiven last (known near-miss: "Knee Slide" under "knee
+slice"), the first 40 rows draw on a keystroke and the rest as the list scrolls, and ↑/↓ and Enter walk
+it in the order shown (`search-rank.spec.ts`, `tests/search_rank.test.mjs`). Your lists follows Path with the shared three-rung indent. Opening the drawer
 requests Systems and Concepts indexes, deferred until Explore. `_revealLists` opens Your lists
 for the session, without persisting its fold, when making, adding, restoring or lighting a shared
 class through arrival or its cue. Systems have counted topic branches and indented leaves.

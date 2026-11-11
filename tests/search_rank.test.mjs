@@ -29,8 +29,8 @@ import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 // NON-KILL, recorded so nobody reads this file as covering it: M9, the comparator's last key (the id), SURVIVES —
 // equivalent on this corpus, because no two results share kind, length and folded title. It stays because a future
 // duplicate title would otherwise hand the order back to the node index (CLAUDE.md §6.6).
-// NOT COVERED here: the DOM (the layout, the seat presses, the arrow keys) belongs to a journey written once the owner
-// picks a layout; the one-typo band is pinned only for "guilotine".
+// NOT COVERED here: the DOM (the folded families, the seat presses, the 40-row page, the arrow keys, the keystroke
+// budget) is e2e/journeys/search-rank.spec.ts's subject; the one-typo band is pinned here only for "guilotine".
 //
 // Run: node --test tests/search_rank.test.mjs   (npm run test:units)
 import { test } from "node:test";
