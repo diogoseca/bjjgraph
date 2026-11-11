@@ -28,6 +28,9 @@
 //      the provider's own `!==` (game-value-provider.src.js). NO TOLERANCE anywhere in these stage 2 units: the app
 //      compares exactly, so they do; the first build's 1e-12 is what let a one-ulp mismatch through.
 //   6. A NO TAKES IT BACK; a Yes and its republish; level 1 and 2 in either order; a ruleset switch; a pull.
+//   (the presenter's half of claim 7, that it withholds a deck at its permanent cap, runs the REAL presenter in
+//   tests/gameplan_study_presenter.test.mjs, "decks the known moves fill"; the Practice unit here builds the
+//   comparison's rows by hand)
 //   7. PRACTICE KEEPS THE FLASHCARD-ONLY FIGURE: with every Mount Top move known, Practice still offers Mount|Top's
 //      cards as new (FLOW's weak spots and the planner's gate both read `_flashMastery`), while the study presenter's
 //      descriptor (`_gameplanDecks()`) still equals the profile's headroom, exactly (the presenter allows 1e-12).
@@ -58,6 +61,14 @@
 //   the comparison fall-through, the `oddsFull` flag, a filled deck counted missing     → comparison in hand
 //   the line without its graph guard; a partial count printed                           → prints nothing it cannot count
 //   an escape thickened                                                                  → gold level 2
+// v1.256.1 MUTANTS (STAGE2G, each turned the named test red; RED FIRST on dev 649b2a1dc for the first three):
+//   no index before the graph removed (the index built and cached on an empty graph) → before the graph
+//   both graph guards removed                                                      → the real boot order
+//   a failed deal's share cached; the gold kept through a failed deal                → fails to deal is never cached
+//   the line's known-seat loop skipping a failed hand (`continue`)                   → a known seat whose hand fails
+// ONE NON-KILL, A SECOND GUARD: the graph's map (`_ordToId`) in the cache key, alone. The index is never built before
+// the graph (the transient guard), and `ingest` runs once per instance (`app.src.jsx`, the boot's single call), so no
+// path replaces a graph under a live index today; the key holds if one ever does.
 // ONE NON-KILL, EQUIVALENT ON THIS CORPUS: handing the law `mastery(k) / 0.03` while `mastery` is the law of the
 // count. The figure is a product (0.03 x count), which divides and multiplies back exactly on all 18,096 seat states;
 // the defect needed the first build's sum (0.03p + 0.15s). Bit equality would catch it the day a count stopped doing so.
@@ -597,6 +608,68 @@ test("stage 2, Practice with a study comparison in hand: a deck the moves fill k
   assert.deepEqual([p0.newCards, p1.newCards], [8, 8], "the same new cards");
   assert.deepEqual([p0.status, p1.status], ["ready", "ready"], "the comparison's status does not turn \"partial\" (review STAGE2F)");
   assert.deepEqual([p0.missing, p1.missing], [[], []], "a deck the moves fill is not missing a comparison: it has nothing to rank");
+});
+
+// ── v1.256.1, the second review's hardenings (STAGE2G) ──────────────────────────────────────────────────────────────
+// The app's REAL order: progress hydrates at mount and the graph arrives later (`ingest`). `wireBoot` ingests first.
+function realBoot(blob, pre) {
+  const a = Object.create(M.Component.prototype);
+  Object.assign(a, { settings: {}, _settingsAt: {}, beats: [], viewToggleRef: { current: null }, explorerListRef: { current: null } });
+  for (const k of ["_saveProgress", "_flushSave", "track", "renderTutorial", "setEvent", "setDeckOpen", "_applyLayers", "_gameValueChanged", "_syncBelt"]) a[k] = () => {};
+  a._progressCurrent = () => true; a.get = (_k, d) => d; a.set = () => {}; a.curriculum = { belts: [], weights: {} };
+  a._hydrateProgressBlob(JSON.parse(JSON.stringify(blob)));
+  a._progressLoaded = true;
+  if (pre) pre(a);
+  a.ingest(JSON.parse(WIRE));
+  if (a._giMode == null) a._giMode = "gi";
+  a.playerRole = "top"; a.currentPos = a.nodes.find((n) => n.id === "Positions/Mount").idx;
+  return a;
+}
+
+test("v1.256.1, the real boot order: an index read before the graph arrives is rebuilt when it does", () => {
+  const probe = wireBoot({ v: 2 }), mount = seatsOf(probe).find((x) => x.key === "Mount|Top");
+  const tkey = techKey(probe, mount.dealt[0]), blob = { v: 2, moves: { [mount.st]: Object.fromEntries(mount.dealt.slice(0, 3).map((d) => [d, row(true)])) } };
+  const ref = wireBoot(blob);
+  // the ruleset is known before the graph (it is read from storage), and something reads the odds in between
+  // (a technique key and the worker's prep: a seat key before the graph is the next test's case)
+  const a = realBoot(blob, (x) => { x._giMode = "gi"; x.mastery(tkey); x._knowledgePrep(); });
+  assert.equal(a.mastery(tkey), 0.15, "a known technique, read once before the graph: still +0.15 after it");
+  assert.equal(a._seatShare("Mount|Top"), ref._seatShare("Mount|Top"), "the seat's share");
+  assert.deepEqual([...a._movesGold().keys()].sort(), [...ref._movesGold().keys()].sort(), "the gold");
+  assert.equal(a.knowledgeProfile().permanent[tkey], 0.15, "and the worker's profile");
+});
+
+test("v1.256.1, before the graph: mastery is the flashcard figure, nothing throws, nothing is cached", () => {
+  const probe = wireBoot({ v: 2 }), mount = seatsOf(probe).find((x) => x.key === "Mount|Top");
+  const a = Object.create(M.Component.prototype);
+  a.prep = { "Mount|Top": 2 }; a.moves = { [mount.st]: Object.fromEntries(mount.dealt.map((d) => [d, row(true)])) }; a._giMode = "gi";
+  assert.equal(a.mastery("Mount|Top"), M.ngKnowledgeMastery(2), "a seat key: the flashcard figure (dev's), no throw");
+  assert.equal(a.mastery(techKey(probe, mount.dealt[0])), 0, "a technique key: its flashcard figure");
+  assert.equal(a._knowledgePrep(), a.prep, "the worker is handed the stored prep");
+  assert.equal(a._movesCache, undefined, "and no index was cached on an empty graph");
+});
+
+test("v1.256.1, a hand that fails to deal is never cached: the next read recovers", () => {
+  const a = wireBoot({ v: 2 }), mount = seatsOf(a).find((x) => x.key === "Mount|Top");
+  a.moves = { [mount.st]: Object.fromEntries(mount.dealt.map((d) => [d, row(true)])) }; a._movesRev = (a._movesRev || 0) + 1;
+  const orb = a.nodes.find((x) => x.id === "Positions/Mount" && x.role !== "bottom").idx;
+  const real = a.optionsFor; let fail = true;
+  a.optionsFor = function (...x) { if (fail) { fail = false; throw new Error("a transient failure"); } return real.apply(this, x); };
+  assert.equal(a._seatShare("Mount|Top"), 0, "the failed deal reads as unknown, this once");
+  assert.equal(a._seatShare("Mount|Top"), 1, "the next read deals again and finds the whole seat known");
+  fail = true; a._movesRev++;
+  assert.equal(a._movesGold().has(orb), false, "the gold read through a failed deal has no seat gold");
+  assert.equal(a._movesGold().get(orb), 1, "...and the next read finds it: the failure was not kept");
+});
+
+test("v1.256.1, the line: a known seat whose hand fails to deal prints no line", () => {
+  const a = wireBoot({ v: 2 }), mount = seatsOf(a).find((x) => x.key === "Mount|Top");
+  a.moves = { [mount.st]: { [mount.dealt[0]]: row(true) } }; a._movesRev = (a._movesRev || 0) + 1;
+  assert.deepEqual(a._movesKnownLine(), { known: 1, total: PAIRS_GI }, "the total is counted and cached");
+  const real = a.optionsFor;
+  a.optionsFor = function () { throw new Error("the known seat's hand fails"); };
+  assert.equal(a._movesKnownLine(), null, "a known seat that cannot be dealt: no line, never a short count");
+  a.optionsFor = real;
 });
 
 test("stage 2, Practice keeps the flashcard-only figure: every Mount Top move known, Mount|Top's cards are still offered as new", async () => {
