@@ -135,8 +135,8 @@ const names = (page: Page) => page.locator('[data-choice-group="you"] [data-tech
 // What changed and what it claimed before: the explicit-sort test pressed the bold button ('[data-choice-value-sort]')
 // and now presses the slot's "Sort by win chance"; the re-solve test's "status empty" now also reads the press that
 // offers the sort; the native-failure test gains the slot's Retry and the clearance.
-// ONE NON-KILL, recorded so nobody reads it as covered: the slot asks ngChoiceValueRanked whether the hand stands in a
-// ranking; wiring it back to ngChoiceValueOrder ("the order came back unchanged") changes nothing these journeys can
+// ONE NON-KILL, recorded so nobody reads it as covered: the slot asks ngChoiceValueOrder(…, true) whether the hand stands in a
+// ranking; dropping the `true` ("the order came back unchanged") changes nothing these journeys can
 // see, because the only READY hand with no ranking is a certified value whose interval straddles a display bin, which
 // this fixture (exact-rational) cannot produce — a missing card makes the snapshot "partial", which reads "Win chance
 // unavailable". The helper itself is pinned by tests/choice_value.test.mjs (null for an ambiguous or partial hand).
