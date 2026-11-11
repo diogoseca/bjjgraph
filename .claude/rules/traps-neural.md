@@ -31,8 +31,11 @@ and references.
 - **The app wrap is `position:fixed` = its own stacking context, so a `z-index` inside it is trapped at plane 0.** A deliberate screen must PORTAL to the app root or ambient gameplay chrome paints over it (the pane at z:8 was buried by a root-plane landing card at z:5; the account menu needed z:46 on the root plane). Bands, documented in `neural/src/helmet.html`: **1-9 ambient state · 10-49 ambient fx · 50-79 coaching · 90-99 deliberate temporary screens.** Pick a band, never a loose number; Esc walks the ladder top-down, pane last.
   <br>_(4 (dossier under the transport pill; the pane under the landcard; the account menu; seat star))_
 
-- **`style.color = ""` DELETES an inline declaration; it does not restore one.** A disclosure toggle can inherit the browser default and become unreadable on a dark card. Restore its inline colour explicitly, using one shared constant at every write site. Related sizing rule: a 44px thumb target must not set a 24px row's layout box — shrink the box with a negative margin and keep the hit area (`.ng-lists-new` pattern).
-  <br>_(2)_
+- **`style.color = ""` DELETES an inline declaration; it does not restore one.** A disclosure toggle can inherit the browser default and become unreadable on a dark card. Restore its inline colour explicitly, using one shared constant at every write site. A reset left behind when its hide moved elsewhere is the same bug: `collapseClip`'s `.ngPlay` reset deleted `display:flex` and sank the triangle 6.5px (v1.256.4) — delete it. Related sizing rule: a 44px thumb target must not set a 24px row's layout box — shrink the box with a negative margin and keep the hit area (`.ng-lists-new` pattern).
+  <br>_(3)_
+
+- **Quartz's `index.css` styles BARE ELEMENT NAMES site-wide, and the app mounts inside that page.** `header { margin:2rem 0 }` put the video card's absolutely placed title band 32px down its video (an absolute box still honours its margin); an article-image margin shifted the posters (U8, D-338). **Do:** give an app `header`/`footer`/`img` its own margin (`neural/src/choice-value.css`) and assert the rendered rect. **UNGUARDED** in general; the choice viewer's in-flow `header` still carries both 32px margins.
+  <br>_(3)_
 
 
 ### 6.2 Before you touch the canvas draw path, a node coordinate, or the camera
