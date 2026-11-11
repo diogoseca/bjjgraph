@@ -57,16 +57,14 @@ for (const width of [320, 390]) {
     await last.scrollIntoViewIfNeeded()
     await j.clickByMouse('[data-reader-last-header]', 'phone sections have their own toggle')
     await expect(last).toHaveAttribute('aria-expanded', 'false')
-    // STALE SPEC (D-482 / U25 a): closing transfers focus to the aggregate disclosure.
-    // Enter opens that list; Tab reaches the SAME section's row; Enter reopens it.
-    await expect(page.locator('.ng-reader-hidden>summary')).toBeFocused()
-    await expect(page.locator('.ng-reader-hidden')).not.toHaveAttribute('open', '')
-    await page.keyboard.press('Enter')
-    await expect(page.locator('.ng-reader-hidden')).toHaveAttribute('open', '')
+    // WAS (D-482 / U25 a): closing moved focus to the "Hidden sections" summary; Enter opened it, Tab reached the SAME section's
+    // row, Enter reopened it. NOW (U131 b2): no fold; the section's message stands in its place in native keyboard order: Tab from
+    // its Settings reaches its Undo, and Enter there reopens the section and gives focus back to its close.
+    await page.locator('[data-hidesec-notice] [data-hidesec-settings]').focus()
     await page.keyboard.press('Tab')
-    await expect(last, 'the hidden row remains in native keyboard order').toBeFocused()
+    await expect(page.locator('[data-hidesec-notice] [data-hidesec-undo]'), "the message's Undo is next in native keyboard order").toBeFocused()
     await page.keyboard.press('Enter')
-    await expect(last, 'D-482: Enter on the revealed row reopens the section').toHaveAttribute('aria-expanded', 'true')
+    await expect(last, 'Enter on Undo reopens the section').toHaveAttribute('aria-expanded', 'true')
     await expect(last).toBeFocused()
     await expect(page.locator('.ng-reader-hidden')).toBeHidden()
     await expect(page.locator('[data-layer-hide]:visible,[data-layer-show]:visible'), 'no Book control in the article view').toHaveCount(0)

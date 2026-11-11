@@ -473,7 +473,10 @@ await build({
 // pay for U109 to U111: the last four were renamed from common words (serial, tiles, article, lead) so the gate can scan them.
 // mediaSlot (U113 b's label paid for): the two specs that read it take the slot by its data-reader-media-slot attribute now.
 // tests/artifacts/article_sections_mutants.mjs spells some of them, but it edits the source before this build, so that is not a read.
-const READER_ONLY_PROPS = /^(?:teaseDrop|mediaSlot|sortColumns|readingInteraction|gameHomes|renderSerial|tileSizer|pageArticle|leadCells|placeTop|gridW|gameKey|selecting|seating|extract|gameInput|closedRow|referenceClips|lightReference|highlightReference|syncSections|mediaOrigin|hiddenSections|gamePage|splitSections|syncIndex|mediaNext|readingOrder|chromeActive|partEl|roleLinks|ownsMedia|indexBest|held|heldAt|heldY)$/;
+// HIDESEC2 (U131 b2): closedRow and hiddenSections left with the Hidden sections fold; the closed-part message's eleven names (noticeMap
+// to shields) pay part of its own cost. Its method is noticeHeld, not held: `held` is the reader's held line, assigned in layoutNow, and
+// a method by that name was overwritten by it (measured: a message never left, "this.a is not a function").
+const READER_ONLY_PROPS = /^(?:teaseDrop|mediaSlot|sortColumns|readingInteraction|gameHomes|renderSerial|tileSizer|pageArticle|leadCells|placeTop|gridW|gameKey|selecting|seating|extract|gameInput|referenceClips|lightReference|highlightReference|syncSections|mediaOrigin|gamePage|splitSections|syncIndex|mediaNext|readingOrder|chromeActive|partEl|roleLinks|ownsMedia|indexBest|held|heldAt|heldY|noticeMap|noticeHome|noticeHeld|holdNotice|armNotice|leaveNotice|closeNotices|dropNotice|undoNotice|swallowing|shields)$/;
 await build({
   entryPoints: [R("src/reader.src.js")], bundle: true, format: "esm", target: "es2019",
   minify: true, mangleProps: READER_ONLY_PROPS, legalComments: "none", outfile: R("dist/reader.js"), logLevel: "info",

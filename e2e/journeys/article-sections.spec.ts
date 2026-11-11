@@ -326,54 +326,40 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
     await expect(header).toHaveAttribute('aria-expanded', 'false'); await expect(body).toBeHidden()
     expect(await header.getAttribute('aria-controls')).toBe(await body.getAttribute('id'))
     await expect(page.locator('.ng-reader .ng-section-glyph'), 'sections no longer have icons').toHaveCount(0)
+    // WAS (U25 a, D-338, D-475, U16B-S1): without the index, the closed section waited in "Hidden sections (1)" at the article's end
+    // as a light label (no box, no shadow, no border), one compact 44px line with "Show", at 7:1 contrast, reopened by Space.
+    // NOW (U131 b2, HIDESEC2): it leaves nothing; its message stands in its place for five seconds and Undo brings it back (the
+    // keyboard path here: focus Undo, Space). The 7:1 claim is carried to the message's sentence. hidden-sections.spec.ts pins the rest.
+    const message = page.locator('[data-hidesec-notice=principles]')
     if (!hasToc) {
       await expect(page.locator('.ng-reader-toc')).toBeHidden()
-      // U25 a supersedes the in-flow placeholder: reveal the SAME closed label in the disclosure.
       await expect(header).toBeHidden()
-      await expect(page.locator('.ng-reader-hidden>summary')).toHaveText('Hidden sections (1)›')
-      await page.locator('.ng-reader-hidden>summary').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-      await j.clickByMouse('.ng-reader-hidden>summary', 'reveal the closed labels')
-      await expect(header).toBeVisible()
-      await expect(body, 'revealing a closed label does not reveal its article body').toBeHidden()
-      // D-338 / D-475: a closed section is a light label with no box. A zero-width border
-      // draws nothing even when its computed color is currentColor; the open-card glow must vanish too.
-      const closed = await page.locator('[data-section-type=principles]').evaluate(e => {
-        const cs = getComputedStyle(e)
-        return { background: cs.backgroundColor, shadow: cs.boxShadow,
-          borders: ['top', 'right', 'bottom', 'left'].map(side => ({ side,
-            width: parseFloat(cs.getPropertyValue(`border-${side}-width`)),
-            color: cs.getPropertyValue(`border-${side}-color`) })) }
-      })
-      expect(closed.background, 'D-338: no background around a closed section').toBe('rgba(0, 0, 0, 0)')
-      expect(closed.shadow, 'D-475: no shadow around a closed section').toBe('none')
-      for (const { side, width, color } of closed.borders) {
-        const transparent = color === 'transparent' || /^rgba\(.+,\s*0(?:\.0+)?\s*\)$/.test(color)
-        expect(width === 0 || transparent, `D-338: no visible ${side} border around a closed section`).toBe(true)
-      }
-      const line = await header.evaluate(e => { const label = e.querySelector('.ng-section-closed')!, s = getComputedStyle(label)
-        return { height: Math.round(e.getBoundingClientRect().height), display: s.display, align: s.alignItems, action: getComputedStyle(label, '::after').content } })
-      expect(line, 'U25: one compact line, section name and Show action').toEqual({ height: 44, display: 'flex', align: 'center', action: '"Show"' })
-      // The resting label, not its hover: the mouse that closed it is still over it.
+      await expect(page.locator('.ng-reader-hidden'), 'no Hidden sections fold').toBeHidden()
+      await expect(message, 'its message stands in its place').toBeVisible()
+      await expect(body, 'and its body stays hidden').toBeHidden()
+      // The resting message, not its hover: the mouse that closed it is still over it.
       await page.mouse.move(viewport.width - 2, viewport.height - 2)
-      const contrast = await header.evaluate(e => {
+      const contrast = await message.evaluate(e => {
         const lum = (color: string) => { const c = color.match(/\d+/g)!.slice(0, 3).map(x => { const n = +x / 255; return n <= .04045 ? n / 12.92 : ((n + .055) / 1.055) ** 2.4 }); return c[0] * .2126 + c[1] * .7152 + c[2] * .0722 }
-        const fg = lum(getComputedStyle(e).color), bg = lum(getComputedStyle(e.closest('.ng-section-card')!).backgroundColor)
+        const fg = lum(getComputedStyle(e).color), bg = lum(getComputedStyle(e).backgroundColor)
         return (Math.max(fg, bg) + .05) / (Math.min(fg, bg) + .05)
       })
-      expect(contrast, 'U16B-S1: the closed section label retains 7:1 contrast').toBeGreaterThanOrEqual(7)
-      await header.focus(); await page.keyboard.press('Space')
+      expect(contrast, 'U16B-S1, carried to the message: its sentence keeps 7:1 contrast').toBeGreaterThanOrEqual(7)
+      await message.locator('[data-hidesec-undo]').focus(); await page.keyboard.press('Space')
     } else {
       await expect(page.locator('.ng-reader-toc')).toBeVisible()
       await expect(page.locator('.ng-reader-toc button')).toHaveCount(0)
       const toc = await page.locator('.ng-reader-toc').boundingBox()
       expect(column!.x - toc!.x - toc!.width, 'the index sits left of the column').toBeGreaterThanOrEqual(12)
       expect(toc!.x, 'at the 24px inset').toBe(24)
-      await expect(page.locator('[data-section-type=principles]'), 'no placeholder where the index carries it').toBeHidden()
+      // WAS (U11): "no placeholder where the index carries it". NOW (U131 b2): its message stands in its place for five seconds here too.
+      await expect(message, 'its message stands in its place').toBeVisible()
       await expect(page.locator('[data-toc-type=principles]'), 'the index shows the section closed').toHaveAttribute('data-collapsed', 'true')
       await expect(page.locator('[data-toc-type=principles] .ng-section-eye'), 'with its eye').toBeVisible()
       await page.locator(READY).evaluate(e => { e.scrollTop = 0 })
       await j.clickByMouse('[data-toc-type=principles] a', 'the index row reopens the closed section')
       await expect(header).toBeFocused()
+      await expect(message, 'and its message goes with it').toHaveCount(0)
     }
     await expect(body).toBeVisible(); await expect(header).toHaveAttribute('aria-expanded', 'true')
     const before = await state(page); await j.advance(20000); expect(await state(page)).toEqual(before)
@@ -524,27 +510,33 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
         if (part === 'card') await expect(page.locator('[data-landcard]'), 'the Questions row restores a visible card').toBeVisible()
         continue
       }
-      await expect(label).toBeVisible()
-      expect((await label.boundingBox())!.height, 'the label keeps a 44px target').toBeGreaterThanOrEqual(44)
-      const contrast = await label.evaluate(el => {
+      // WAS (D-338): a closed Moves or Questions left its label here (a 44px target, 7:1 contrast), which reopened it.
+      // NOW (U131 b2, HIDESEC2): no label is left; its message stands in its place, and its Undo (44px) reopens it.
+      const message = page.locator(`[data-hidesec-notice="${part}"]`)
+      await expect(label, 'no label left behind').toBeHidden()
+      await expect(message, 'its message stands in its place').toBeVisible()
+      expect((await message.locator('[data-hidesec-undo]').boundingBox())!.height, 'Undo keeps a 44px target').toBeGreaterThanOrEqual(44)
+      await page.mouse.move(viewport.width - 2, viewport.height - 2)
+      const contrast = await message.evaluate(el => {
         const luminance = (color: string) => {
           const c = color.match(/\d+/g)!.slice(0, 3).map(x => { const n = +x / 255; return n <= .04045 ? n / 12.92 : ((n + .055) / 1.055) ** 2.4 })
           return c[0] * .2126 + c[1] * .7152 + c[2] * .0722
         }
-        const fg = luminance(getComputedStyle(el).color), bg = luminance(getComputedStyle((window as any).__neural.wrapRef.current).backgroundColor)
+        const fg = luminance(getComputedStyle(el).color), bg = luminance(getComputedStyle(el).backgroundColor)
         return (Math.max(fg, bg) + .05) / (Math.min(fg, bg) + .05)
       })
-      expect(contrast, 'a closed game part leaves a legible label').toBeGreaterThanOrEqual(7)
+      expect(contrast, 'a closed game part leaves a legible message').toBeGreaterThanOrEqual(7)
       expect(await page.evaluate(part => {
         const a = (window as any).__neural
         return part === 'card' ? !a._landEl : getComputedStyle(a.optionsRef.current).visibility === 'hidden'
       }, part)).toBe(true)
-      // U104 (v1.252.0): at 1,024 to 1,349px the article once started at the closed question's old top and covered this label.
-      // Control: u104-label-under-article (tests/artifacts/article_sections_mutants.mjs), killed here at 1152px.
-      await j.clickByMouse(`[data-game-open="${part}"]`, `reopen ${part} from its label`)
+      // U104 (v1.252.0): at 1,024 to 1,349px the article once started at the closed question's old top and covered this place
+      // (then its label, now its message). Control: u104-label-under-article (tests/artifacts/article_sections_mutants.mjs).
+      await j.clickByMouse(`[data-hidesec-notice="${part}"] [data-hidesec-undo]`, `reopen ${part} from its message's Undo`)
+      await expect(message).toHaveCount(0)
       await expect(label).toBeHidden()
       // D-336: the restore half shows the card, not only the control's state (D-318's reader gate).
-      if (part === 'card') await expect(page.locator('[data-landcard]'), 'the Questions label restores a visible card').toBeVisible()
+      if (part === 'card') await expect(page.locator('[data-landcard]'), 'Undo restores a visible card').toBeVisible()
     }
     await page.locator(READY).evaluate(e => { e.scrollTop = 0 })
     await j.advance(6000)
@@ -748,8 +740,9 @@ for (const width of [1440, 390]) test(`@curated ${width}px unknown authored sect
   const body = page.locator('[data-section-type=additional] .ng-section-body')
   await body.evaluate(e => { (e as HTMLElement).tabIndex = 0; (e as HTMLElement).focus() })
   await page.evaluate(() => { const a = (window as any).__neural; a.set('readerSection.additional', false); a._applyLayers() })
-  // U11 / U25 a: closing moves focus to the index or the phone disclosure summary.
-  await expect(page.locator(width === 1440 ? '[data-toc-type=additional] a' : '.ng-reader-hidden>summary')).toBeFocused()
+  // WAS (U11 / U25 a): closing moved focus to the index row or the phone's "Hidden sections" summary.
+  // NOW (U131 b2): there is no fold, so on a phone focus goes to the reader itself; the index row still takes it at 1440.
+  await expect(page.locator(width === 1440 ? '[data-toc-type=additional] a' : '[data-reader]')).toBeFocused()
   await expect(body).toBeHidden()
   expect(await body.evaluate(e => (e as HTMLElement).inert)).toBe(true)
   // REAL BREAK (D-482): the old anchor path measured a closed, hidden control.

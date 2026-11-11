@@ -30,7 +30,7 @@
 .ng-reader-tools button { font:12px "Plus Jakarta Sans",sans-serif; }
 .ng-reader-game>.ng-reader-tools { pointer-events:auto; }
 /* Owner (2026-11-01): the grid stays centred on the free area at every width, sharing both edges with the choices row. */
-.ng-reader :is([data-reader-body],.ng-reader-hidden) { width:var(--article-width,100%);margin-left:calc((100% - var(--article-width,100%))/2); }
+.ng-reader [data-reader-body] { width:var(--article-width,100%);margin-left:calc((100% - var(--article-width,100%))/2); }
 /* Owner (2026-11-06, replacing U59 c's rows and U65 b's pairing): "instead of a grid, maybe just use two columns ... the
    vertical order is preserved without gaps". layoutNow names each tile's column from real heights (data-right); floats do
    the placing, so the DOM never changes and Tab, the index and the head tops down the page are one order: a float may not
@@ -64,16 +64,16 @@
 .ng-section-closed { display:none; }
 .ng-reader [data-collapsed=true] .ng-section-x { display:none; }
 .ng-reader [data-collapsed=true] .ng-section-closed { display:flex;align-items:center;gap:6px; }
-.ng-section-card[data-collapsed=true] { background:none;box-shadow:none; }
-.ng-section-card[data-collapsed=true]>h2 { justify-content:center;padding:0; }
-.ng-section-card:is([data-collapsed=true],[data-section-type=videos]) .ng-section-title { display:none; }
-.ng-reader :is(.ng-section-card[data-collapsed=true] [data-section-toggle],.ng-reader-closed-part [data-game-open]) { width:100%;height:auto;min-height:44px;padding:0 12px;color:#a8b0c2;font:var(--label); }
-.ng-reader :is(.ng-section-card[data-collapsed=true] [data-section-toggle],.ng-reader-closed-part [data-game-open]):hover { color:#dbe2f0; }
+/* U131 b2: a closed section is never painted (it is hidden in place, or holds its message), so only a game part's one-landing label
+   is styled closed here. */
+.ng-section-card[data-section-type=videos] .ng-section-title { display:none; }
+.ng-reader .ng-reader-closed-part [data-game-open] { width:100%;height:auto;min-height:44px;padding:0 12px;color:#a8b0c2;font:var(--label); }
+.ng-reader .ng-reader-closed-part [data-game-open]:hover { color:#dbe2f0; }
 /* U11 (owner): no section icons. A closed section is one compact line, its greyed name and then an eye with
    a slash; where the index shows (data-indexed), it leaves no placeholder at all and the index carries it. */
 .ng-section-eye { display:none;line-height:0; }
 .ng-reader-closed-part .ng-section-eye,.ng-reader-toc-row[data-collapsed=true] .ng-section-eye { display:inline-block; }
-.ng-reader[data-indexed] :is(.ng-section-card[data-collapsed=true],.ng-reader-closed-part):not([data-notice]) { display:none!important; }
+.ng-reader[data-indexed] .ng-reader-closed-part:not([data-notice]) { display:none!important; }
 /* HIDESEC2: a closed part's message, in the part's own place (reader.src.js, THE PRESS RULE). The message IS the place: it takes a
    press itself (none passes through to the map under a game part's slot), its controls stop taking presses while it leaves, and it is
    then removed, never left at opacity 0 (§6.1). The name stands out by weight and by light: the sentence in the label grey, the name
@@ -93,14 +93,6 @@
 .ng-section-card[data-notice]>h2,.ng-reader-closed-part[data-notice] [data-game-open] { display:none; }
 .ng-sr-only { position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap; }
 @media(prefers-reduced-motion:reduce) { .ng-hidesec-notice { transition:none;animation:none; } }
-/* U25 a: native, collapsed-by-default disclosure. Focus keeps its keyboard outline. */
-.ng-reader-hidden { margin-top:calc(var(--section-gap)*3); }
-.ng-reader[data-indexed] .ng-reader-hidden { display:none; }
-.ng-reader-hidden>summary { display:flex;align-items:center;gap:6px;min-height:48px;cursor:pointer;list-style:none; }
-.ng-reader-hidden>summary::-webkit-details-marker { display:none; }
-.ng-reader-hidden[open]>summary>span:last-child { transform:rotate(90deg); }
-.ng-reader-hidden .ng-section-closed { width:100%;justify-content:space-between; }
-.ng-reader-hidden .ng-section-closed::after { content:"Show"; }
 /* U12 a (owner): the article's own ✕ on its top row puts the article away. */
 /* U100 a: a phase of Training has no head above it, so only a body under one starts flush. */
 .ng-section-body { padding:var(--reader-unit); }

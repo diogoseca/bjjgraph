@@ -227,7 +227,7 @@ class Reader {
   constructor(app) {
     this.app = app;
     this.cache = new Map();
-    this.notices = new Map(); this.shields = [];
+    this.noticeMap = new Map(); this.shields = [];
     this.renderSerial = 0;
     this.gamePage = app._landPage;
     this.interacting = false;
@@ -530,12 +530,8 @@ class Reader {
       link.style.pointerEvents = "auto";
       row.append(link, eyeOff()); contents.append(row); section.row = row;
     }
-    // U25 a: native disclosure; the SAME closed controls live here, in source order.
-    // No rewritten content or replacement click targets during an observer/layout callback.
-    const hidden = this.hiddenSections = element("details", { class: "ng-reader-hidden" });
-    // Static markup only: same count, decorative chevron and list; no article HTML is interpolated.
-    hidden.innerHTML = '<summary><span></span><span aria-hidden="true">›</span></summary><div></div>';
-    this.articleEl.append(body, hidden);
+    // U131 b2 retired U25 a's "Hidden sections" disclosure: a closed section stays where it is, hidden (syncSections).
+    this.articleEl.append(body);
     this.app.wrapRef.current.append(contents);
     this.syncSections();
   }
@@ -689,8 +685,6 @@ class Reader {
     this.sync();
   }
   syncSections() {
-    const hidden = this.hiddenSections;
-    const open = [], closed = [];
     let focus;
     for (const s of [...this.gameSections, ...this.sections]) {
       const body = s.part ? this.partEl(s.part) : s.body;
@@ -701,10 +695,11 @@ class Reader {
       if (s.part || s.type === "videos") this.paintPart(s);
       if (!s.part) {
         s.card.dataset.collapsed = String(!shown);
-        // A phase's tile goes with Training's and leaves no label or Hidden sections row of its own.
-        const held = this.notices.get(s.type)?.home === s.card;
+        // U131 b2: a closed tile stays where it is, hidden, unless its message stands in it; nothing moves, so no player reloads (D-501)
+        // and both of the old paths (moveBefore, and its absence in Safari and Firefox) are one. A phase goes with Training's first tile.
+        const held = this.noticeMap.get(s.type)?.home === s.card;
         s.card.toggleAttribute("data-notice", held);
-        body.hidden = !shown; body.inert = !shown; if (s.more) s.card.hidden = !shown; (shown || held ? open : s.more ? [] : closed).push(s);
+        body.hidden = !shown; body.inert = !shown; s.card.hidden = !shown && !held;
         if (s.type !== "videos") s.row?.setAttribute("data-collapsed", String(!shown));
         if (s.toggle.getAttribute("aria-expanded") !== String(shown)) {
           s.toggle.setAttribute("aria-expanded", String(shown)); s.toggle.setAttribute("aria-label", (shown ? "Hide " : "Show ") + s.title);
@@ -713,29 +708,6 @@ class Reader {
       // U11: where the index shows, a closed section has no control in the content, so focus goes to its index row.
       // Variant b: nothing is left where it was, so focus goes to its index row, else the message's Undo, else the reader.
       if (focused) focus = this.root.hasAttribute("data-indexed") && s.row?.querySelector("a") || this.root;
-    }
-    if (!hidden) { focus?.focus({ preventScroll: true }); return; }
-    hidden.hidden = true;
-    hidden.firstChild.firstChild.textContent = "Hidden sections (" + closed.length + ")";
-    if (!closed.length) hidden.open = false;
-    for (const [parent, sections] of [[this.body, open], [hidden.lastChild, closed]]) {
-      sections.forEach((s, i) => {
-        // D-501: moving an iframe's ancestor with insertBefore reloads its document.
-        // Without atomic moves, keep ALL bodies in source order and move only the
-        // existing heading/control into an empty closed-row shell. Never move media.
-        if (typeof parent.moveBefore === "function") {
-          if (parent.children[i] !== s.card) parent.moveBefore(s.card, parent.children[i] || null);
-        } else {
-          s.card.hidden = parent !== this.body;
-          if (s.card.hidden) {
-            s.closedRow ||= element("section", { class: "ng-section-card", "data-collapsed": "true" });
-            if (!s.closedRow.firstChild) s.closedRow.append(s.card.firstElementChild);
-            if (parent.children[i] !== s.closedRow) parent.insertBefore(s.closedRow, parent.children[i] || null);
-          } else if (s.closedRow?.firstChild) {
-            s.card.prepend(s.closedRow.firstChild); s.closedRow.remove();
-          }
-        }
-      });
     }
     focus?.focus({ preventScroll: true });
   }
@@ -789,8 +761,8 @@ class Reader {
     if (!node) return;
     node.tabIndex = -1;
     const section = node.closest(".ng-section-card");
-    // D-482 / U25 a: a closed target now lives inside the hidden disclosure.
-    // Reveal it before measuring/focusing, just as an index link reveals its section.
+    // D-482: a closed target is hidden (U131 b2; inside U25 a's disclosure before). Reveal it before measuring/focusing, just as an
+    // index link reveals its section.
     if (section?.dataset.collapsed === "true") {
       this.toggleSection(section.dataset.sectionType, true); this.layoutNow();
     }
@@ -889,7 +861,7 @@ class Reader {
     const undo = button("Undo", () => this.undoNotice(key), { "data-hidesec-undo": key, "aria-label": "Undo: show " + title + " again" });
     box.append(line, undo);
     const n = { key, home, box, hold: {} };
-    this.notices.set(key, n);
+    this.noticeMap.set(key, n);
     const up = () => this.holdNotice(n, "down", false);
     listen(box, "pointerenter", e => { if (e.pointerType === "mouse") this.holdNotice(n, "over", true); });
     listen(box, "pointerleave", e => { if (e.pointerType === "mouse") this.holdNotice(n, "over", false); });
@@ -907,18 +879,18 @@ class Reader {
     this.armNotice(n, NOTICE_MS);
   }
   armNotice(n, ms) { clearTimeout(n.timer); n.timer = setTimeout(() => this.leaveNotice(n), ms); }
-  held(n) { return Object.values(n.hold).some(Boolean); }
+  noticeHeld(n) { return Object.values(n.hold).some(Boolean); }
   holdNotice(n, why, on) {
     n.hold[why] = on;
-    if (this.notices.get(n.key) !== n) return;
-    if (this.held(n)) {
+    if (this.noticeMap.get(n.key) !== n) return;
+    if (this.noticeHeld(n)) {
       clearTimeout(n.timer);
       // A press on (or a mouse over) a leaving message's place is aimed at it: it comes back.
       if (n.box.dataset.phase !== "on") { n.box.dataset.phase = "on"; for (const c of n.box.children) c.inert = false; }
     } else this.armNotice(n, AGAIN_MS);
   }
   leaveNotice(n) {
-    if (this.held(n) || this.notices.get(n.key) !== n) return;
+    if (this.noticeHeld(n) || this.noticeMap.get(n.key) !== n) return;
     // Its controls stop taking presses at once; its place keeps its height and takes them (holdNotice) until the places close.
     n.box.dataset.phase = "leaving";
     for (const c of n.box.children) c.inert = true;
@@ -927,23 +899,27 @@ class Reader {
   }
   // The last message to go quiet closes every place at once, and a press starting inside one in the next SHIELD_MS is swallowed.
   closeNotices() {
-    const all = [...this.notices.values()];
-    if (all.some(n => n.box.dataset.phase !== "leaving" || this.held(n))) return;
+    const all = [...this.noticeMap.values()];
+    if (all.some(n => n.box.dataset.phase !== "leaving" || this.noticeHeld(n))) return;
     const until = performance.now() + SHIELD_MS;
     this.shields = all.map(n => ({ r: rect(n.box), until }));
     for (const n of all) { clearTimeout(n.timer); n.box.remove(); }
-    this.notices.clear();
+    this.noticeMap.clear();
     this.sync(); this.layoutNow();
   }
   dropNotice(key) {
-    const n = this.notices.get(key);
+    const n = this.noticeMap.get(key);
     if (!n) return;
-    clearTimeout(n.timer); n.box.remove(); this.notices.delete(key);
+    clearTimeout(n.timer); n.box.remove(); this.noticeMap.delete(key);
   }
   undoNotice(key) {
     this.dropNotice(key);
-    if (this.gameSections.some(s => s.part === key)) this.toggle(key); else this.toggleSection(key, true);
-    this.layoutNow();
+    if (this.gameSections.some(s => s.part === key)) { this.toggle(key); this.layoutNow(); return; }
+    this.toggleSection(key, true); this.layoutNow();
+    // The part comes back where its message stood, in view, so nothing scrolls; focus goes to its own close, as a reopen from that
+    // close's twin did (U65: a game page's video focuses the film's ✕).
+    const s = this.sections.find(s => s.type === key);
+    (s?.control ? this.app._landFilmEl?.querySelector("[data-film-close]") : s?.toggle)?.focus({ preventScroll: true });
   }
   // Window capture, ahead of every handler: a press that starts in a just-closed place is swallowed whole (down, up, the touch's own
   // events and the click), so it cannot land on what moved there. A new press elsewhere starts clean.
@@ -971,7 +947,7 @@ class Reader {
     s.row?.setAttribute("data-collapsed", String(closed));
     if (!s.part) return;
     s.card.dataset.collapsed = String(closed);
-    const held = this.notices.has(s.part);
+    const held = this.noticeMap.has(s.part);
     s.card.toggleAttribute("data-notice", held);
     s.card.hidden = !(held || closed && this.on(s.part)) || REFERENCE.test(this.path);
     if (s.toggle.getAttribute("aria-expanded") !== String(!closed)) {
@@ -982,7 +958,7 @@ class Reader {
     const a = this.app, wrap = a.wrapRef.current;
     // HIDESEC2: a message goes at once, with no gap left, when its part comes back by any road (Undo, Settings, the index row, another
     // device) or its place goes (a new article replaces the tiles). The part itself takes the place, so nothing moves under a press.
-    for (const n of [...this.notices.values()]) {
+    for (const n of [...this.noticeMap.values()]) {
       if (!n.home.isConnected || (this.gameSections.some(s => s.part === n.key) ? this.on(n.key) : sectionShown(a, n.key))) this.dropNotice(n.key);
     }
     const expanded = !!(this.interacting && !this.selecting);
@@ -1376,7 +1352,7 @@ class Reader {
       // the parts settle, so nothing opens above or over the pinned rows.
       let homeMedia = this.media?.parentElement === home && !this.media.hidden, film = homeMedia;
       // HIDESEC2: the video's message holds the film's place while it stands: the film's home, width and column, at its own height.
-      const note = this.notices.get("videos")?.home === home ? this.notices.get("videos").box : null;
+      const note = this.noticeMap.get("videos")?.home === home ? this.noticeMap.get("videos").box : null;
       const filmHeight = () => note && !film ? rect(note).height : a.currentFilmHeight?.() ?? rect(this.media).height;
       if (pin) {
         const h = homeMedia ? filmHeight() : 0;
@@ -1581,7 +1557,7 @@ class Reader {
   }
   destroy() {
     cancelAnimationFrame(this.layoutFrame);
-    for (const n of this.notices.values()) clearTimeout(n.timer);
+    for (const n of this.noticeMap.values()) clearTimeout(n.timer);
     this.place(this.mediaOrigin); this.restoreGame();
     this.abort?.abort(); this.resize.disconnect(); this.tileSizer.disconnect(); this.root.remove(); this.contents?.remove();
     this.app._readerTocEl = null;

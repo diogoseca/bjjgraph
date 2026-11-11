@@ -155,8 +155,8 @@ test('@curated reading gestures, minimizing and article navigation never start p
   await page.mouse.move(box!.x + box!.width / 2, box!.y + box!.height - 18)
   await page.mouse.wheel(0, 500)
   await expect.poll(() => page.locator(READY).evaluate(e => e.scrollTop)).toBeGreaterThan(0)
-  // STALE CONTRACT (D-318 U1(1), D-338): Questions and Moves close through their own ✕ and
-  // reopen from the label each leaves. RETIRED (D-338, no View menu): Book, Map and Feedback have
+  // STALE CONTRACT (D-318 U1(1), D-338, U131 b2): Questions and Moves close through their own ✕ and
+  // reopen from their message's Undo (from the label each left, before U131 b2). RETIRED (D-338, no View menu): Book, Map and Feedback have
   // no control in the article view, so their minimize/restore steps go; the claim is their absence.
   // STALE SPEC (D-368, layout C): the hand's ✕ docks only beside a visible tray, and Moves lead the flow, so the tray is
   // brought into view before its ✕ is pressed or looked for; its own last rectangle is stale while hidden.
@@ -166,10 +166,12 @@ test('@curated reading gestures, minimizing and article navigation never start p
     await page.locator(close).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
     await j.clickByMouse(close, 'minimize ' + part)
     // STALE SPEC (D-355, U11): where the index shows, a closed part leaves no label; its index row reopens it.
+    // WAS (D-338): without the index, the label each part left reopened it. NOW (U131 b2): its message's Undo does; no label is left.
     if (await page.locator('.ng-reader-toc').isVisible()) await j.clickByMouse(`[data-toc-type="${part}"] a`, 'restore ' + part + ' from the index')
     else {
-      await page.locator(`[data-game-open="${part}"]`).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-      await j.clickByMouse(`[data-game-open="${part}"]`, 'restore ' + part)
+      await expect(page.locator(`[data-game-open="${part}"]`), 'no label left behind').toBeHidden()
+      await page.locator(`[data-hidesec-notice="${part}"] [data-hidesec-undo]`).scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+      await j.clickByMouse(`[data-hidesec-notice="${part}"] [data-hidesec-undo]`, 'restore ' + part + ' from its message')
     }
     await expect(page.locator(`[data-game-open="${part}"]`)).toBeHidden()
     if (part === 'hand') await tray()

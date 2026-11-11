@@ -48,7 +48,7 @@ import { journey } from '../dsl'
 //   read-more-focus-to-top Tab carries on past it (focus thrown back to the first tile)
 //   columns-end-apart      the columns end together (the last phase made tall, with the rule that places tiles untouched)
 //   training-one-tile-columns the phases stand in both columns (the split removed)
-//   training-closed-rows   one section closes as one (each phase listed in Hidden sections)
+//   training-closed-rows   one section closes as one (one message, one setting, one Settings box; U131 b2 retired its fold)
 //   training-close-scrolls closing leaves the reader where it is (the close writes a scroll)
 //   training-head-not-back reopening brings the head back without moveBefore (the closed row keeps it)
 //   training-closed-stays  a closed phase leaves no tile (an empty box per phase stays in the columns)
@@ -547,6 +547,14 @@ for (const path of ['/Transitions/Knee-Slice-Pass/Defender', '/Submissions/Ameri
   })
 }
 
+// U131 b2 (HIDESEC2): a closed part's message stands in its place for five seconds, then the place closes. Claims about what a close
+// leaves are read once it has gone: the mouse that pressed the ✕ is moved off it first, since a mouse over a message holds it.
+const messageGone = async (page: Page, j: any, type: string) => {
+  await page.mouse.move(2, 450)
+  await page.waitForFunction(t => !document.querySelector(`[data-hidesec-notice="${t}"]`), type, { timeout: 15000 })
+  await j.readerLayoutSettled()
+}
+
 // Closing a tile reflows only what follows it, because a tile's place depends only on the tiles before it, and those heads
 // all start at or above the closed tile's head: nothing above the reader's line moves. columns-close-reorders.
 test('closing a tile moves nothing before it, reflows what follows, and reopening restores the layout', async ({ page }) => {
@@ -558,7 +566,7 @@ test('closing a tile moves nothing before it, reflows what follows, and reopenin
   expect(at, 'premise: tiles sit on both sides of the closed one').toBeGreaterThan(2)
   expect(at, 'premise: tiles sit on both sides of the closed one').toBeLessThan(before.dom.length - 2)
   await j.clickByMouse('[data-section-toggle=mistakes]', 'the tile\'s own close')
-  await j.readerLayoutSettled()
+  await messageGone(page, j, 'mistakes')
   const after = await dashboard(page)
   expect(after.scrollTop, 'the reader stays where it was').toBe(before.scrollTop)
   expect(after.dom, 'the closed tile left, the order did not change').toEqual(before.dom.filter((_, i) => i !== at))
@@ -596,25 +604,30 @@ for (const atomic of [true, false]) {
     const j = await boot(page, 1024, 900, KNEE)
     await expect(page.locator(READY)).not.toHaveAttribute('data-indexed', '')
     expect(await page.evaluate(() => typeof (Element.prototype as any).moveBefore === 'function'), 'premise: the branch under test').toBe(atomic)
-    const close = page.locator('[data-section-toggle=training]'), summary = page.locator('.ng-reader-hidden>summary')
+    const close = page.locator('[data-section-toggle=training]')
     const before = await dashboard(page)
     expect(before.dom.filter(t => t === 'training').length, 'premise: six phases').toBe(6)
     await close.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
     const place = (await dashboard(page)).scrollTop
     await j.clickByMouse('[data-section-toggle=training]', 'the ✕ on the first tile')
     await j.readerLayoutSettled()
+    await expect(page.locator('[data-hidesec-notice]'), 'one message, for the one section').toHaveCount(1)
+    await messageGone(page, j, 'training')
     const after = await dashboard(page), end = await page.locator(READY).evaluate(e => e.scrollHeight - e.clientHeight)
     expect(after.dom.filter(t => t === 'training'), 'no phase stays, open or empty').toEqual([])
     // Training is this page's last section, so closing it can end the article above the place.
     expect(after.scrollTop, `the reader stays, up to the article's new end (${place}, end ${end})`).toBe(Math.min(place, end))
-    await expect(summary, 'one section').toHaveText('Hidden sections (1)›')
+    // WAS (U25 a): "one section" was its one row in "Hidden sections (1)", reopened from its one label there.
+    // NOW (U131 b2): no fold; one section is one saved setting and one Settings box, which brings every phase back.
+    await expect(page.locator('.ng-reader-hidden'), 'no Hidden sections fold').toBeHidden()
     expect(await page.evaluate(() => (window as any).__neural.get('readerSection.training', true)), 'one saved setting, by type').toBe(false)
     columns(after)
-    await summary.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-    await j.clickByMouse('.ng-reader-hidden>summary', 'reveal the closed label')
-    await expect(close, 'one label').toHaveCount(1)
-    await close.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-    await j.clickByMouse('[data-section-toggle=training]', 'reopen from the label')
+    await page.evaluate(() => (window as any).__neural.openSettings('rolling'))
+    const box = page.locator('[data-section-setting=training]')
+    await expect(box, 'one Settings box').toHaveCount(1)
+    await box.scrollIntoViewIfNeeded()
+    await j.clickByMouse('[data-section-setting=training]', 'reopen from its Settings box')
+    await page.keyboard.press('Escape')
     await j.readerLayoutSettled()
     const back = await dashboard(page)
     expect(back.dom, 'every phase is back, in order').toEqual(before.dom)
@@ -679,6 +692,8 @@ test('a held line whose tile closes is let go, and the pane closing leaves the r
   await j.clickByMouse('[data-section-toggle=training]', 'Training\'s ✕, with the pane open')
   await j.readerLayoutSettled()
   await expect(page.locator('[data-reader-body]>[data-section-type=training]:not([data-collapsed=true])'), 'premise: every phase closed').toHaveCount(0)
+  // U131 b2: Training's message holds its place for five seconds; the place is read once it has gone, before the pane closes.
+  await messageGone(page, j, 'training')
   const scrollTop = await page.locator(READY).evaluate(e => e.scrollTop)
   await j.clickByMouse('.ng-explorer-close', 'the pane\'s close button')
   for (let i = 0; i < 24; i++) await j.advance(60)
@@ -823,11 +838,10 @@ for (const [width, height] of [[1024, 900], [390, 844]]) test(`U65: native Video
   await page.locator('[data-film-close]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
   await j.clickByMouse('[data-film-close]', 'close the stage film')
   await expect(film).toBeHidden()
-  await page.locator('.ng-reader-hidden>summary').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-  await j.clickByMouse('.ng-reader-hidden>summary', 'open the native Hidden sections disclosure')
-  await expect(page.locator('.ng-reader-hidden')).toHaveAttribute('open', '')
-  await page.locator('[data-section-toggle=videos]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-  await j.clickByMouse('[data-section-toggle=videos]', 'reopen Videos from its surviving closed control')
+  // WAS (U25 a): reopened from the Videos row in the "Hidden sections" disclosure. NOW (U131 b2): the video's message stands in the
+  // film's place, and its Undo reopens it there.
+  await j.readerLayoutSettled()
+  await j.clickByMouse('[data-hidesec-notice=videos] [data-hidesec-undo]', 'reopen Videos from its message\'s Undo')
   // No helper scroll after reopening: visibility alone also passes with the film 14,000px above the reader.
   await j.readerLayoutSettled()
   const arrival = await film.evaluate(el => {
@@ -868,29 +882,9 @@ test('U65 b: the space below the shorter column remains reader input', async ({ 
   expect(await page.evaluate(() => ({ paused: (window as any).__neural.paused, reading: (window as any).__neural._reader.interacting, dragging: !!(window as any).__neural.dragging }))).toEqual({ paused: true, reading: true, dragging: false })
 })
 
-// #346's review, finding 2 (reproduced before the fix at 1152x900, Side Control Bottom: Position definition's 115.6px column margin and
-// clear:right rode into "Hidden sections", 116px under its summary). sortColumns now clears both on every tile it skips.
-// Control: closed-tile-keeps-column-margin (tests/artifacts/article_sections_mutants.mjs).
-test('#346 review, finding 2: a closed tile carries no column margin into "Hidden sections" (1152x900)', async ({ page }) => {
-  const j = await boot(page, 1152, 900, '/Positions/Side-Control/Bottom')
-  const type = await page.evaluate(() => ([...(window as any).__neural._reader.body.children] as HTMLElement[])
-    .find(c => c.getClientRects().length && parseFloat(c.style.marginTop) > 24)?.dataset.sectionType ?? null)
-  expect(type, 'premise: a tile starts under a stage cell, with a column margin').not.toBeNull()
-  const close = `[data-section-toggle="${type}"]`
-  await page.locator(close).evaluate(e => e.scrollIntoView({ block: 'center' })); await j.readerLayoutSettled()
-  await j.clickByMouse(close, `close ${type} with its own control`)
-  await j.readerLayoutSettled()
-  await page.locator('.ng-reader-hidden > summary').evaluate(e => e.scrollIntoView({ block: 'center' })); await j.readerLayoutSettled()
-  await j.clickByMouse('.ng-reader-hidden > summary', 'open "Hidden sections"')
-  const row = await page.evaluate(t => {
-    const h = document.querySelector('.ng-reader-hidden') as HTMLDetailsElement, card = h.querySelector(`[data-section-type="${t}"]`) as HTMLElement | null
-    return card && { open: h.open, gap: card.getBoundingClientRect().top - h.querySelector('summary')!.getBoundingClientRect().bottom, mt: card.style.marginTop, clear: card.style.clear }
-  }, type)
-  expect(row, 'the closed tile is listed in "Hidden sections"').not.toBeNull()
-  expect(row!.open, 'premise: the list is open').toBe(true)
-  expect([row!.mt, row!.clear], 'a closed tile keeps no column margin and no clear').toEqual(['', ''])
-  expect(row!.gap, 'its row sits under the summary at the list\'s own spacing').toBeLessThanOrEqual(24)
-})
+// RETIRED (U131 b2, HIDESEC2): "#346 review, finding 2: a closed tile carries no column margin into Hidden sections". Its subject, the
+// "Hidden sections" fold, is gone: a closed tile is never painted once its message has left, so no margin it keeps can show. Its control
+// closed-tile-keeps-column-margin is retired with it (tests/artifacts/article_sections_mutants.mjs).
 
 // DASH-R4 (review finding 5): without the index the grid is narrower and the columns are the same rule. U110 a (owner,
 // 2026-11-09) moved where that applies: the index shows from 1,350px free and the columns begin at 1,024px, so 1,024 to 1,349
