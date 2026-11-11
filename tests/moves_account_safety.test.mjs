@@ -191,10 +191,10 @@ test("two new devices: the app's merge gives the same `moves` in either order of
 
 // ── STAGE 2 (v1.256.0): what a known move is worth, on the real wire ──────────────────────────────────────────────────
 const WIRE = rd("source/quartz/static/neural/graph-data.json");
-// "Moves known N of M": the pairs dealt over every seat's own hand, per ruleset (tests/_census.mjs computes both from
+// "Moves known N of M": the pairs dealt over every position seat the ruleset deals, per ruleset (tests/_census.mjs computes both from
 // the app's own `_movesKnownLine`, so a content change rewrites them with `npm run census:update`)
-const PAIRS_GI = 1394;   // census:movePairs
-const PAIRS_NOGI = 1361;   // census:movePairsNogi
+const PAIRS_GI = 1350;   // census:movePairs
+const PAIRS_NOGI = 1206;   // census:movePairsNogi
 function wireBoot(blob, mode = "gi") {
   const a = Object.create(M.Component.prototype);
   Object.assign(a, { settings: {}, _settingsAt: {}, beats: [], viewToggleRef: { current: null }, explorerListRef: { current: null } });

@@ -2667,28 +2667,32 @@ class Component extends DCLogic {
     if (c.gold) return c.gold;
     const g = (c.gold = new Map());
     if (c.seats.size) for (const n of this.nodes) {
+      if (!this.rsAllowsIdx(n.idx)) continue;   // a node this ruleset cannot produce is never drawn
       const key = n.ty === "positions" ? this.posFamily(n.t) + "|" + (n.role === "bottom" ? "Bottom" : "Top") : n.role === "defender" ? null : this.deckKeyFor(n).key;
       if (key && (n.ty === "positions" ? this._seatShare(key) >= 1 : c.tech.has(key))) g.set(n.idx, this.deckMastery(key) >= 1 ? 2 : 1);
     }
     return g;
   }
-  // "Moves known N of M" (U124), under "Mastered N · X%": the pairs dealt in this ruleset over every seat's own hand,
-  // deduped by site and role as `_moveKey` files them, and how many of them your last answer was a Yes. M is counted
-  // once per ruleset (1,394 in gi, 1,361 in no-gi today: tests/_census.mjs `movePairs`, `movePairsNogi`).
+  // "Moves known N of M" (U124), under "Mastered N · X%": the pairs dealt in this ruleset over every position seat the
+  // ruleset can deal (`rsAllowsIdx`), deduped by site and role as `_moveKey` files them, and how many of them your last
+  // answer was a Yes. The mask leaves out the 12 stateAlias "…-Control" seats (their hand is the submission's, filed
+  // under the submission) and, in no-gi, the seats no no-gi roll reaches; counting them, as the prep did, gave 1,394 and
+  // 1,361. M is counted once per ruleset: 1,350 in gi, 1,206 in no-gi today (tests/_census.mjs `movePairs`,
+  // `movePairsNogi`). A submission's finish and its escapes are in neither N nor M.
   _movesKnownLine() {
     const c = this._movesIdx(), T = (this._movesTotals = this._movesTotals || {});
     if (!T[this._giMode]) {
       let total = 0, whole = true;
       const seen = new Set();
       for (const n of this.nodes) {
-        const o = n.ty === "positions" && this._ordById ? this._ordById.get(this.siteIdOf(n.id)) : null;
+        const o = n.ty === "positions" && this._ordById && this.rsAllowsIdx(n.idx) ? this._ordById.get(this.siteIdOf(n.id)) : null;
         if (o != null) for (const role of ["top", "bottom"]) if (!seen.has(o + "/" + role)) { seen.add(o + "/" + role); const d = this._dealtOrds(n.idx, role); if (d) total += d.length; else whole = false; }
       }
       if (!whole) return { known: 0, total };   // never cached: a count that missed a hand is not the corpus
       T[this._giMode] = total;
     }
     let known = 0;
-    for (const [st, set] of c.seats) { const s = this._seatOf(st); if (s) for (const d of this._dealtOrds(s.i, s.role) || []) if (set.has(d)) known++; }
+    for (const [st, set] of c.seats) { const s = this._seatOf(st); if (s && this.rsAllowsIdx(s.i)) for (const d of this._dealtOrds(s.i, s.role) || []) if (set.has(d)) known++; }
     return { known, total: T[this._giMode] };
   }
   // THE WIN % READS THE SAME FIGURE. The worker's profile computes `permanent` from `prep` itself

@@ -139,6 +139,18 @@
    "file": "neural/src/app.src.jsx",
    "snippet": "this._idIndex?.get(",
    "reason": "PAGE METADATA for the current URL, not a dealt or displayed game node. A published page keeps its exact built title even when the selected ruleset excludes its technique. Filtering here would leave the previous page title on valid links or history entries. scripts/check_page_titles.py compares every wire hub and both roles with the built HTML, including nodes excluded by either ruleset; gameplay seating remains guarded by the existing ruleset checks."
+  },
+  "neural/src/app.src.jsx::_movesIdx::this._idIndex.get(": {
+   "fn": "_movesIdx",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "this._idIndex.get(",
+   "reason": "THE PLAYER'S OWN RECORD, not dealt material: it maps the `moves` record's share ordinals back to the deck they file under. A move known in one ruleset stays known in the other, as a flashcard's credit does; what the ruleset decides is which hands are dealt, and the share (`_seatShare`), the gold (`_movesGold`) and the line (`_movesKnownLine`) read the dealt hand through `optionsFor` and `rsAllowsIdx`."
+  },
+  "neural/src/app.src.jsx::_seatOf::this._idIndex.get(": {
+   "fn": "_seatOf",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "this._idIndex.get(",
+   "reason": "THE PLAYER'S OWN RECORD, not dealt material: it maps the `moves` record's share ordinals back to the deck they file under. A move known in one ruleset stays known in the other, as a flashcard's credit does; what the ruleset decides is which hands are dealt, and the share (`_seatShare`), the gold (`_movesGold`) and the line (`_movesKnownLine`) read the dealt hand through `optionsFor` and `rsAllowsIdx`."
   }
  }
 }

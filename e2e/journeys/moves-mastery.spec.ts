@@ -41,8 +41,8 @@ type W = any
 const DAY = 20402
 const ORD = JSON.parse(readFileSync(resolve(__dirname, "../../node_ordinals.json"), "utf8")).ordinals as Record<string, number>
 const S = ORD["Positions/Mount"] + "/top"
-// every pair dealt in gi, over every seat's own hand (tests/_census.mjs computes it from the app's `_movesKnownLine`)
-const PAIRS_GI = 1394 // census:movePairs
+// every pair dealt in gi, over every position seat gi deals (tests/_census.mjs computes it from the app's `_movesKnownLine`)
+const PAIRS_GI = 1350 // census:movePairs
 // known and due at boot, so its face-up card asks "Still got it?" with a No: a low-value move, so the seat's best
 // move is free to be the one the journey grades Yes
 const DUE = "Transitions/Mount-to-Knee-on-Belly"
