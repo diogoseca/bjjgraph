@@ -1141,20 +1141,17 @@ class Reader {
       const grid = indexEdge ? free.width + 2 * (free.left - indexEdge) : Math.max(240, Math.min(cap || 902, free.width - 64));
       // U59 c: the share cue in the corner reserves
       // the bottom too: the reader ends above it and the cue never covers text or a link.
-      // v1.253.0 (owner, 2026-11-09: "cuts off its content 10 to 20 px before the fold"): where the win bar falls under the grid
-      // (no index: to 1,349px free, and a phone), the legend docks 8px off the bottom and the reader ends one 8px gap above the bar, so
-      // it reserved the bar's own height (41px on a phone, until WINBAR1 below put the bar away there and gave the 41px back).
-      // It stood 30px up and the gap was counted twice: 64 to 72px of article lost. Elsewhere it goes
-      // back to the template's inline 30px: writing "" would delete that declaration, not restore it (§6.1), and send it to the top.
+      // v1.253.0 (owner, 2026-11-09: "cuts off its content 10 to 20 px before the fold"): where the win bar fell under the grid the legend
+      // docked 8px off the bottom and the reader ended one 8px gap above the bar: 41px of article on every phone and tablet.
       // WINBAR1 (owner, 2026-11-11: "the win-lose bar shouldn't show for such screens"): "such screens" is this test, MEASURED, never
       // a width. Where the bar falls under the grid it is put away (updateUiShift, the legend's one writer, reads `barUnder`) and the
       // reader reserves nothing for it (`_readerReserve`), so the column runs to the bottom edge. A hidden bar keeps its box, so the
-      // answer cannot feed back into itself. Measured on v1.256.2: under at every width to 1,307px with the pane shut (390, 574, 768,
-      // 1024, 1152, 1280), not at 1,308 to 1,349 (the grid clears it) nor beside the index (from 1,350px free), and not with the
-      // pane open at 1440 (the column moves right; the bar sits under the drawer, as before).
-      const legend = a.wrapRef.current.querySelector(".ng-legend"), bar = rect(legend?.querySelector(".ng-winbar")), lane = { left: free.center - grid / 2, right: W };
+      // answer cannot feed back into itself. The 8px dock went with the reserve it existed to shrink (it now docked only a hidden bar,
+      // and left the map's key 8px off the edge after an article): the legend keeps its stylesheet's place. Measured on this build,
+      // pane shut: under at 390, 574, 768, 1024, 1152, 1280 and 1300; clear at 1320 and 1340 (the grid's edge computes to 1,308) and
+      // beside the index (from 1,350px free); and clear with the pane open at 1440 (the column moves right, the drawer covers the bar).
+      const bar = rect(a.wrapRef.current.querySelector(".ng-winbar")), lane = { left: free.center - grid / 2, right: W };
       this.barUnder = !!bar && bar.left < lane.right && bar.right > lane.left;
-      if (bar) { const under = this.barUnder; legend.style.setProperty("bottom", under ? "8px" : "30px", under ? "important" : ""); }
       // With the shelf retired (U114 a) nothing else reserves the bottom: the article runs to the fold (owner, 2026-11-09).
       const end = H - (chrome?.bottomReserve ?? a._readerReserve(lane));
       for (const [key, value] of Object.entries({ left: 0, top, width: W, height: Math.max(80, end - top) })) style(root, key, value);

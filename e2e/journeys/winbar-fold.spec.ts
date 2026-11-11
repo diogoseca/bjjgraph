@@ -138,6 +138,6 @@ test("@curated WINBAR1: a win bar that is away keeps today's number, and a resiz
 //   winbar-away-everywhere ....... the bar away wherever a column is on screen (1440x900) .. killed: the win bar shows
 //   winbar-paint-skips-away ...... `_paintWinThermometer` returns while the bar is away .... killed: and prints the current decision's
 //                                  number, not the one it went away with
-// Re-run with the change (reader-fold.spec.ts): legend-restore-blank, legend-not-docked, reader-end-double-gap (now killed by "the
-// reader runs to the fold") and reader-reserve-shelf-floor, all killed. NOT covered here: a real iPhone's home indicator (Chromium's
+// Re-run with the change (reader-fold.spec.ts): reader-end-double-gap (now killed by "the reader runs to the fold") and
+// reader-reserve-shelf-floor, both killed; legend-restore-blank and legend-not-docked retired with the 8px dock. NOT covered here: a real iPhone's home indicator (Chromium's
 // safe-area inset is 0; see the header).

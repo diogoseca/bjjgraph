@@ -14,8 +14,9 @@ import { journey } from "../dsl"
  * The owner's node, the four phone and tablet widths and the 1440 control are in winbar-fold.spec.ts.
  *
  * THE CLAIMS, from the boxes the page emitted:
- *   - where the win bar falls under the grid (1100, 1024, 390): the legend docks 8px off the bottom, the bar is away (WINBAR1), the
- *     reader runs to the fold, and the last tile, scrolled to, ends inside the reader;
+ *   - where the win bar falls under the grid (1100, 1024, 390): the bar is away (WINBAR1), the reader runs to the fold, and the last
+ *     tile, scrolled to, ends inside the reader. WINBAR1 also retired the 8px dock ("the legend docks 8px off the bottom"): it existed
+ *     to shrink the reserve, and docked only a hidden bar once the bar was away there;
  *   - where it does not (1440, beside the index): the legend keeps the template's 30px, and the reader runs to the fold (from the
  *     shelf's retirement, U114 a, which took its 12px floor).
  * Red-proof is at the foot of this file.
@@ -43,7 +44,6 @@ for (const [width, height, under] of [[1440, 900, false], [1100, 900, true], [10
     expect(m.atEnd, "premise: scrolled to the article's end").toBe(true)
     expect(m.under, `premise: the win bar ${under ? "falls" : "does not fall"} under the grid`).toBe(under)
     if (under) {
-      expect(m.H - m.barBottom, "the legend docks 8px off the bottom").toBeCloseTo(8, 0)
       // The legend's writer runs on a pumped frame (test mode arms no rAF loop), and `visibility` turns 0.3s after `data-away`.
       await j.advance(50)
       await expect.poll(() => page.evaluate(() => getComputedStyle(document.querySelector(".ng-winbar")!).visibility), { message: "the win bar under the grid is away (WINBAR1)" }).toBe("hidden")
@@ -59,6 +59,8 @@ for (const [width, height, under] of [[1440, 900, false], [1100, 900, true], [10
 // Red-proof (v1.253.0, tests/artifacts/article_sections_mutants.mjs on the served reader.js, against a green baseline):
 //   legend-restore-blank ... "" for the 30px (deletes the inline declaration) ... killed: the legend keeps the template's 30px
 //   legend-not-docked ...... the legend left 30px up under the grid .............. killed: the legend docks 8px off the bottom
+//                            (WINBAR1 RETIRED both with their subject: the reader no longer writes the legend's bottom, so the
+//                            1440 claim now reads the template's own value, and nothing docks)
 //   reader-end-double-gap .. the 8px gap counted twice again ...................... killed: the reader ends one 8px gap above the win bar
 //                            (WINBAR1: that claim is replaced; re-run on 2026-11-11 it is killed by "the reader runs to the fold")
 //   reader-reserve-shelf-floor (neural_app_mutants.mjs) the 12px floor back ....... killed: the reader runs to the fold

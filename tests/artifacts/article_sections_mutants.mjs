@@ -486,8 +486,7 @@ const mutants = [
   ['tease-drop-lost', 'tease-width.spec.ts', 'one-line tease spans.*1440', s => replace(s, 'const drop = showCard && showHand && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;', 'const drop = 0;')],
   ['tease-drop-asking-only', 'tease-width.spec.ts', 'one-line tease spans.*1440', s => replace(s, 'const drop = showCard && showHand && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;', 'const drop = askStep != null && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;')],
   // v1.253.0: the article runs to the fold, or to one gap above the win bar where the bar falls under the grid.
-  ['legend-restore-blank', 'reader-fold.spec.ts', '1440x900', s => replace(s, 'under ? "8px" : "30px"', 'under ? "8px" : ""')],
-  ['legend-not-docked', 'reader-fold.spec.ts', '1024x768', s => replace(s, 'under ? "8px" : "30px"', 'under ? "30px" : "30px"')],
+  // WINBAR1 RETIRED legend-restore-blank and legend-not-docked with their subject: the reader no longer writes the legend's bottom.
   ['reader-end-double-gap', 'reader-fold.spec.ts', '1024x768', s => replace(s, 'a._readerReserve(lane));', 'a._readerReserve(lane) + 8);')],
   // v1.253.0: an index row reopens its closed section (U11), checked by mouse.
   // v1.253.0: the line within half a pixel of the reader's top is the one held (the ✕'s 44px gone put a line at 73.86 against 74).
