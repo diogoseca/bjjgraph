@@ -76,7 +76,7 @@ function eyeOff() { const icon = element("span", { class: "ng-section-eye", "ari
 // Questions and Video; Article sections for every section), and where the index shows, its row still reopens one. A part a
 // background tap took away for this landing keeps its label: no switch can bring a one-landing hide back. One message says where to
 // look: b1 at the top, right of the drawer's open button and the search; b2 in place, where the part was. Undo costs one button.
-const NOTICE_AT = "top", NOTICE_MS = 5000;
+const NOTICE_AT = "place", NOTICE_MS = 5000;
 // The message moves focus to its Undo only after a key press, so a mouse or a finger never sees a ring.
 let byKey = false;
 function faces(type, title) {
