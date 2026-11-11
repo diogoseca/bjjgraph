@@ -219,6 +219,11 @@ export async function installReader(app) {
     if (result && src === "x" && on === false) reader.notice(name === "film" ? "videos" : name);
     return result;
   };
+  // HIDESEC2 with free roam (#370, v1.256.5): `_putReaderAway` hides the reader by visibility alone, so a message standing in it kept its
+  // timers, and when its place then closed, the press window (shield) would have swallowed a press on the map, visible again under it.
+  // Putting the article away takes every message with it, at once and with no window: nothing visible moves under a hidden reader.
+  const putAway = app._putReaderAway;
+  if (putAway) app._putReaderAway = function (away) { if (away) reader.dropNotices(); return putAway.apply(this, arguments); };
   document.addEventListener("keydown", () => { byKey = true; }, true);
   document.addEventListener("pointerdown", () => { byKey = false; }, true);
   for (const type of ["pointerdown", "mousedown", "touchstart", "pointerup", "mouseup", "touchend", "click"]) {
@@ -915,6 +920,12 @@ class Reader {
     const n = this.noticeMap.get(key);
     if (!n) return;
     clearTimeout(n.timer); n.box.remove(); this.noticeMap.delete(key);
+  }
+  dropNotices() {
+    if (!this.noticeMap.size && !this.shields.length) return;
+    for (const key of [...this.noticeMap.keys()]) this.dropNotice(key);
+    this.shields = [];
+    this.sync(); this.layoutNow();
   }
   undoNotice(key) {
     this.dropNotice(key);

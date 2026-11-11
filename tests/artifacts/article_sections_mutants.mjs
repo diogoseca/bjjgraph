@@ -550,6 +550,7 @@ const mutants = [
   // CARDGAP1 (v1.256.3, run by hand there): the deleted film-first line back. Red at "one step under Moves" wherever the stage stacks.
   ['cardgap-film-first-line', 'card-close-gap.spec.ts', '390x844 by mouse', s => replace(s, '        const follows = homeMedia && !beside && showCard;\n', '        const follows = homeMedia && !beside && showCard;\n        if (homeMedia && !beside && !follows) { position(home, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight + 12; }\n')],
   ['hidesec2-card-close-keeps-pin', 'card-close-gap.spec.ts', 'a pinned landing', s => replace(s, '    if (result && name === "card" && on === false) this._readerPin = null;\n', '')],
+  ['hidesec2-roam-keeps-message', hidesec, 'free roam takes a standing message.*1440', s => replace(s, '  if (putAway) app._putReaderAway = function (away) { if (away) reader.dropNotices(); return putAway.apply(this, arguments); };\n', '')],
   ['hidesec2-undo-dead-keyboard', 'reading-navigation.spec.ts', '390px native reading keys and section toggles', s => replace(s, 'button("Undo", () => this.undoNotice(key),', 'button("Undo", () => {},')],
 ]
 // D7-N1: controls whose claim IS the landSettled stall (land_publish_stalled). None today.

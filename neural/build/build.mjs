@@ -476,7 +476,7 @@ await build({
 // HIDESEC2 (U131 b2): closedRow and hiddenSections left with the Hidden sections fold; the closed-part message's eleven names (noticeMap
 // to shields) pay part of its own cost. Its method is noticeHeld, not held: `held` is the reader's held line, assigned in layoutNow, and
 // a method by that name was overwritten by it (measured: a message never left, "this.a is not a function").
-const READER_ONLY_PROPS = /^(?:teaseDrop|mediaSlot|sortColumns|readingInteraction|gameHomes|renderSerial|tileSizer|pageArticle|leadCells|placeTop|gridW|gameKey|selecting|seating|extract|gameInput|referenceClips|lightReference|highlightReference|syncSections|mediaOrigin|gamePage|splitSections|syncIndex|mediaNext|readingOrder|chromeActive|partEl|roleLinks|ownsMedia|indexBest|held|heldAt|heldY|noticeMap|noticeHome|noticeHeld|holdNotice|armNotice|leaveNotice|closeNotices|dropNotice|undoNotice|swallowing|shields)$/;
+const READER_ONLY_PROPS = /^(?:teaseDrop|mediaSlot|sortColumns|readingInteraction|gameHomes|renderSerial|tileSizer|pageArticle|leadCells|placeTop|gridW|gameKey|selecting|seating|extract|gameInput|referenceClips|lightReference|highlightReference|syncSections|mediaOrigin|gamePage|splitSections|syncIndex|mediaNext|readingOrder|chromeActive|partEl|roleLinks|ownsMedia|indexBest|held|heldAt|heldY|noticeMap|noticeHome|noticeHeld|holdNotice|armNotice|leaveNotice|closeNotices|dropNotice|undoNotice|dropNotices|swallowing|shields)$/;
 await build({
   entryPoints: [R("src/reader.src.js")], bundle: true, format: "esm", target: "es2019",
   minify: true, mangleProps: READER_ONLY_PROPS, legalComments: "none", outfile: R("dist/reader.js"), logLevel: "info",

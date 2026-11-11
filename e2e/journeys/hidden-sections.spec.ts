@@ -268,3 +268,65 @@ test("@curated Videos during play now switches the video: it writes the Video se
   await j.clickByMouse('[data-layer-toggle="film"]', "Videos during play, again")
   await expect.poll(film, { message: "and comes back" }).toBe(true)
 })
+
+// FREE ROAM (#370, v1.256.5) puts the article away by visibility alone (`_putReaderAway`), so a message standing in it would keep its
+// timers unseen, and when its place closed, the press window would swallow a press on the map, visible again under it. The rule: putting
+// the article away takes every message with it, at once and with no window. Entered as a player enters it: the card closed by its ✕,
+// then one tap on bare map. Control: hidesec2-roam-keeps-message (tests/artifacts/article_sections_mutants.mjs).
+/** A point of bare map inside `box`: the canvas owns it and the app's own picker finds no node there (free-roam-article.spec.ts's). */
+const bareMap = (page: Page, box: { left: number, top: number, width: number, height: number }) => page.evaluate((b) => {
+  const a = (window as any).__neural, was = a._hover
+  try {
+    for (let y = b.top + 4; y < b.top + b.height - 4; y += 7) for (let x = b.left + b.width - 6; x > b.left + 6; x -= 13) {
+      if (document.elementFromPoint(x, y)?.tagName !== "CANVAS") continue
+      a._hover = null; a._updateHover({ type: "pointerup", clientX: x, clientY: y })
+      if (!a._hover || a._hover.idx < 0) return [Math.round(x), Math.round(y)] as [number, number]
+    }
+    return null
+  } finally { a._hover = was }
+}, box)
+for (const vp of VIEWPORTS) test.describe(`${vp.width} roam`, () => {
+  test.use({ viewport: { width: vp.width, height: vp.height }, hasTouch: vp.touch })
+  test(`@curated free roam takes a standing message with the article, the map keeps its presses, and nothing comes back (${vp.width}, ${vp.touch ? "by touch" : "by mouse"})`, async ({ page }) => {
+    const j = journey(page)
+    await j.boot("/")
+    await j.land("Mount Top")
+    await expect(page.locator(READY)).toBeVisible()
+    await j.readerLayoutSettled()
+    await press(page, j, "[data-land-close]", vp.touch, "Questions' close")
+    await j.readerLayoutSettled()
+    const was = await box(page, '[data-hidesec-notice="card"]')
+    expect(was, "premise: its message stands").not.toBeNull()
+    if (!vp.touch) await page.mouse.move(vp.width - 8, 8)
+    // One tap on bare map: the card is closed, so this tap roams (free-roam-article.spec.ts's way in).
+    const away = await bareMap(page, { left: 0, top: 60, width: vp.width, height: Math.max(80, was!.top - 70) })
+    expect(away, "premise: bare map above the stage").not.toBeNull()
+    await tapOrClick(page, away![0], away![1], vp.touch)
+    await j.advance(50); await j.readerLayoutSettled()
+    expect(await page.evaluate(() => ({ roam: !!(window as any).__neural._roam, hidden: getComputedStyle((window as any).__neural._reader.root).visibility })),
+      "premise: free roam, the article put away").toEqual({ roam: true, hidden: "hidden" })
+    await expect(page.locator("[data-hidesec-notice]"), "the message goes with the article, at once").toHaveCount(0)
+    // A press where the message stood, on what is bare map now, reaches the map: no window swallows it.
+    const at = await bareMap(page, was!)
+    expect(at, "premise: bare map where the message stood").not.toBeNull()
+    await page.evaluate(() => { const w = window as any; w.__downs = []; document.addEventListener("pointerdown", e => w.__downs.push((e.target as Element).tagName), true) })
+    await tapOrClick(page, at![0], at![1], vp.touch)
+    expect(await page.evaluate(() => (window as any).__downs), "the press reaches the map").toEqual(["CANVAS"])
+    expect(await setting(page, "landCard"), "Questions stays closed (its setting is the player's)").toBe(false)
+    // Landing again (the node free roam left, pressed where it is drawn, as free-roam-article.spec.ts does) brings the article back
+    // with nothing in the question's place: no message, no label.
+    await j.advance(2500)
+    const node = await page.evaluate(() => {
+      const a = (window as any).__neural, n = a.nodes[a.currentPos], r = a.canvas.getBoundingClientRect(), s = a.W / a.cam.vw, was = a._hover
+      const x = r.left + a.W / 2 + (n.x - a.cam.cx) * s, y = r.top + a.H / 2 + ((a._LY ? a._LY(n) : n.y) - a.cam.cy) * s
+      try { a._hover = null; a._updateHover({ type: "pointerup", clientX: x, clientY: y }); return { x: Math.round(x), y: Math.round(y), ok: a._hover?.idx === n.idx && document.elementFromPoint(x, y)?.tagName === "CANVAS" } }
+      finally { a._hover = was }
+    })
+    expect(node.ok, "premise: the node free roam left is drawn and pressable").toBe(true)
+    await tapOrClick(page, node.x, node.y, vp.touch)
+    await expect.poll(async () => { await j.advance(50); return page.evaluate(() => getComputedStyle((window as any).__neural._reader.root).visibility) }, { message: "landing again: the article is back" }).toBe("visible")
+    await j.readerLayoutSettled()
+    await expect(page.locator("[data-hidesec-notice]"), "no message comes back").toHaveCount(0)
+    await expect(page.locator('[data-game-open="card"]'), "and no label").toBeHidden()
+  })
+})
