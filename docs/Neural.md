@@ -265,8 +265,16 @@ animates on its own hover only. Face up, an unknown move asks "Did you get it?" 
 move that is due asks "Still got it?" (Yes / No — No takes its gold away); a known move not due
 asks nothing. `moves[state][move] = [due, ivl, last, ok]` (state `<site ordinal>/<role>`,
 an escape `e` + qhash(label)) rides the blob beside `srs`, never inside `stage` or `srs`, and merges
-by `srs`'s rule (`ngProgressMergeMoves`). `ok = 1` is mastered — the last answer — and wears thin
-gold in every row; it moves no odds, score or map gold. Pinned by `e2e/journeys/hidden-moves.spec.ts`.
+by `srs`'s rule (`ngProgressMergeMoves`). `ok = 1` (the last answer a Yes) is a known move.
+Pinned by `e2e/journeys/hidden-moves.spec.ts`.
+
+**What a known move is worth (v1.256.0, U124 a, U122 a).** As much as a learned deck: +0.15 on its
+technique deck, and 0.15 × the share of its seat's dealt moves known on the seat's deck, under one
+0.15 cap with the flashcards (`mastery`). The worker reads the same figure (`_knowledgePrep`); a No
+takes it back. Practice and weak spots keep the flashcard-only figure (`_flashMastery`). Gold, on the
+card and the map (`_movesGold`): thin when known, twice as thick once the deck's flashcards are learned.
+"Moves known N of M" sits under Mastered. A threat's Yes files under the opponent's seat; an escape
+gets gold, no odds. Pinned by `e2e/journeys/moves-mastery.spec.ts`, `tests/moves_account_safety.test.mjs`.
 
 ### The current node's media card
 
