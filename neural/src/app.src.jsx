@@ -54,7 +54,7 @@ const NG_LIVE_ANSWER_ROOM = 514;
 // over NG_CARD_LIFT_MS: rise, set down, settle.
 const NG_CARD_LIFT = 1 / 12, NG_CARD_LIFT_MS = 440;
 // HIDDEN MOVES (v1.255.0, owner U115-U116). A hover turns a hidden card face up, and counts as a
-// peek, the moment the pointer is on it (v1.256.5: the 250 ms dwell, NG_PEEK_DWELL_MS, is gone —
+// peek, the moment the pointer is on it (v1.256.7: the 250 ms dwell, NG_PEEK_DWELL_MS, is gone —
 // owner, 11 Nov: "i'd like for it to be instant"; `_hideCard`). NG_HIDE_HINT says where "reveal" is offered:
 // "badge" turns the Suggested badge into "Hover to reveal" / "Tap to reveal" while its card is
 // down; "header" writes a hint beside "Your moves" instead (the owner chooses from screens of both).
@@ -62,7 +62,7 @@ const NG_CARD_LIFT = 1 / 12, NG_CARD_LIFT_MS = 440;
 // do not know yet; the No lives on a known move that is due ("Still got it?", HIDE1A, `_peek`).
 // NG_GRADE_ARM_MS (review R3): the strip's buttons answer only a press that BEGAN this long after the strip
 // appeared — it appears where the pointer already is (on the hover's first frame, or under the revealing tap), so an
-// earlier press was aimed at the card, not at a button the player had not seen yet. With the reveal instant (v1.256.5)
+// earlier press was aimed at the card, not at a button the player had not seen yet. With the reveal instant (v1.256.7)
 // this is the ONLY wait left on a hidden card, and it guards a press, never what the player sees.
 const NG_HIDE_HINT = "badge", NG_HIDE_GRADE_NO = false, NG_GRADE_ARM_MS = 500;
 // The videos row's fade, in units of the ONE token it is sized from: the card's side padding, measured
@@ -1205,6 +1205,10 @@ class Component extends DCLogic {
       // Pinned by share-mobile's held Systems response during a native capture touch.
       let paneTouch = false;
       drill.addEventListener("pointerdown", (e) => { this._panePress = true; paneTouch = e.pointerType === "touch"; }, true);
+      // The pointer that last ENTERED the drawer, for `_afterPress`'s hover hold: a finger has no hover
+      // to protect (see there). pointerover fires for a touch before its pointerdown, and for a mouse
+      // or pen as it moves in, so a hybrid device's mouse gets its hold back the moment it returns.
+      drill.addEventListener("pointerover", (e) => { this._paneHoverTouch = e.pointerType === "touch"; }, true);
       const release = () => {
         if (!this._panePress) return;
         this._panePress = false;
@@ -3976,10 +3980,20 @@ class Component extends DCLogic {
   // its target before pointerdown either. Each job re-asks its own active/connected condition;
   // a user input renders immediately, so typing/closing cannot resurrect an obsolete result.
   // Lifter: pointerleave re-enters this seam, preserving the press guard on a drag out.
+  // A FINGER DOES NOT HOVER (practicetap). After a tap Chrome keeps the list `:hover` for about 0.1 s
+  // (measured 88 to 115 ms at 390x844 and 768x1024), while the finger's own pointerleave has ALREADY
+  // fired, at its pointerup. Practice's plan is adopted through here about 100 ms after the tap (the
+  // click, then gameplan.js), so the hold waited for a leave that had happened, and the hover then
+  // cleared with no event at all: a tap on Practice got the cold one-deck queue and an empty count
+  // line for good, while a mouse recovered because its browser fires pointerleave when the list hides.
+  // Broken from v1.248.0 (Practice's adoption moved behind this seam) to v1.256.5, production
+  // included. The hold now applies only while the pointer that last entered the drawer can hover; a
+  // finger is still covered by `_panePress` above, which owes its jobs until the tap's click lands.
+  // Pinned by e2e/journeys/practice-tap-plan.spec.ts (a tap and a click must give the same plan).
   _afterPress(job) {
     const list = this.explorerListRef && this.explorerListRef.current;
     if (this._panePress) (this._paneOwed || (this._paneOwed = [])).push(job);
-    else if (list && list.matches(":hover"))
+    else if (list && !this._paneHoverTouch && list.matches(":hover"))
       list.addEventListener("pointerleave", () => this._afterPress(job), { once: true });
     else job();
   }
@@ -13788,7 +13802,7 @@ class Component extends DCLogic {
       list.forEach((o, i) => row.appendChild(this.buildOptionCard(o, pick, seconds, threat ? null : i + 1, escape && !threat ? "escape" : null)));
       group.appendChild(row); el.appendChild(group);
     };
-    // The row's title (owner, 11 Nov: "'Your move' (which should become 'Your moves')", v1.256.5): it heads every
+    // The row's title (owner, 11 Nov: "'Your move' (which should become 'Your moves')", v1.256.7): it heads every
     // move you can make. A sentence that means "it is your move" (the settings' clock line, the map's YOUR MOVE tag on
     // one orb) stays singular.
     add("Your moves", own, false);
@@ -14100,7 +14114,7 @@ class Component extends DCLogic {
   // ═══ HIDDEN MOVES (v1.255.0, owner U115 b + U116, 10 Nov) ═══
   // "Hide moves until I look" (Rolling settings, off by default) hides each dealt card's NAME and
   // FILM — Works % and Win % stay (U115 b) — and the map's names of the dealt moves until a card is
-  // face up. Hover a card (at once, v1.256.5) or tap it to turn it face up; the eye beside "Your moves"
+  // face up. Hover a card (at once, v1.256.7) or tap it to turn it face up; the eye beside "Your moves"
   // switches the whole mode from the row (U121); keys 1-9 still play blind. Face up, it asks "Did you get it?", and a Yes
   // files the move in `moves` as MASTERED (`_gradeMove`).
   // HIDING IS CSS ON AN ATTRIBUTE, NEVER A REBUILT FACE: every reader of this card — the docks,
@@ -14125,7 +14139,7 @@ class Component extends DCLogic {
     // hidden"). It was: the name was always in the DOM and the picture fetched at the deal
     // (`_drainChoiceMedia`, under the back); the only delay was a 250 ms dwell (NG_PEEK_DWELL_MS,
     // v1.255.0), kept so a pointer sweeping across the row to card 5 would not turn up cards 1 to 4.
-    // His words reverse that rule. What a sweep does now (measured, v1.256.5, docs/Changelog-Archive.md):
+    // His words reverse that rule. What a sweep does now (measured, v1.256.7, docs/Changelog-Archive.md):
     // each card it crosses turns up and back down as the pointer leaves — no grade, no save and no strip
     // left open (`_peek(card, false)` closes its "Did you get it?"), the strip's buttons still arm only
     // NG_GRADE_ARM_MS after it appears — and, as any peek, it touches the hand, so a hand swept before
