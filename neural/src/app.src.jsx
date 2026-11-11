@@ -8613,6 +8613,9 @@ class Component extends DCLogic {
     this._closeRoll();
     this._endArrival();
     this._beltTest = null; this._staged = null; this._stagedCamFree = false;
+    // `_roam` here is the REFERENCE LAW's guard as well (U123, 2026-11-11): free roam puts the article away, and a page opened on
+    // purpose is not a place to roam from, so a background tap on it stops at `_enterRoam`'s first line and the page stays.
+    // Pinned by e2e/journeys/free-roam-article.spec.ts (the reference case).
     this._played = false; this._roam = true; this.endZoom = false;
     this.currentPos = null; this.focusIdx = -1; this.activeMove = null; this.pulse = null;
     this.trail = []; this.ripples = [];
@@ -11160,7 +11163,8 @@ class Component extends DCLogic {
   // close the card, clicking it again will deselect and zoom out a little." Click 1: the card
   // closes — the question declined, free, the hand stays. Click 2: FREE ROAM — the roll archives
   // (if played), the tray clears, and the camera pulls back centred on where you stood, using
-  // the whole screen (no card band to dodge). Clicking any node stages fresh, as always.
+  // the whole screen (no card band to dodge). Clicking any node stages fresh, as always. Since U123 (2026-11-11) click 2 also
+  // puts the article and its index away (`_enterRoam`): the map stands alone.
   // This replaces the v1.129.5 stand-down/restore latch pair (_standDown/_bgRestore/_bgDown):
   // a background tap now CLOSES rather than suppresses, so there is nothing to restore.
   _tapBackground() {
@@ -11205,6 +11209,11 @@ class Component extends DCLogic {
     this._closeRoll();
     this._played = false;
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
+    // ...AND THE ARTICLE GOES WITH THE NODE (owner, U123, 2026-11-10: "in free roam there wouldn't be any article to show, nor
+    // ToC"; 2026-11-11: "take care of it"). clearOptions took the card, the film and the hand; the reader kept the left node's
+    // article and its index on screen. Put away, not cleared: the next landing on this node shows it where it was read to.
+    // The latch and all its writers: `_putReaderAway`. A page never gets here (`_leaveRollForReference`).
+    this._putReaderAway(true);
     this.setPaused(true);
     this.focusIdx = -1; this.pulse = null; this.activeMove = null;
     // centred on where you stood, in the visible graph rect, pulled back a little
@@ -15478,6 +15487,26 @@ class Component extends DCLogic {
     const key = n.ty === "positions" ? this.deckKeyFor(n).key : n.t, C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
     return !Object.prototype.hasOwnProperty.call(C, key) && !!this._contentWaits?.[key];
   }
+  /** FREE ROAM PUTS THE ARTICLE AWAY (owner, U123, 2026-11-10: "in free roam there wouldn't be any article to show, nor ToC";
+   *  2026-11-11: "take care of it"). Until then free roam left the node's article and its index on screen: U114 a had retired
+   *  the one control that put them away. `_readerAway` is a latch, so all of its writers are named here (§6.5):
+   *   SET      by `_enterRoam` (the background tap's second step, or its first once the card is closed: the only way in).
+   *   LIFTED   by `_readArticle`, as each request reaches the reader: the next landing's own (`_queueReader`), or one asked for
+   *            on purpose (a row, a search hit, a link, a URL, Back/Forward). An automatic request that reaches the reader while
+   *            the board is still in free roam is the ended landing's, late (the module's first load) and keeps it away.
+   *   BACKSTOP `_readerHold`, on every reader layout: a landing that publishes is never hidden, even one that asked for no article
+   *            (that one shows what the reader holds, as before); while away it repaints, because a render builds a new index.
+   *  Visibility only on the reader: no box moves, so its place, the closed sections and every measurement hold, and the next
+   *  landing on the same node shows its article where it was left (the reader's same-path open keeps it). The index, outside the
+   *  reader, loses its box; `data-indexed` is left alone, since it reflows the article. `_mapAlone` reads the visibility, so the
+   *  key shows. A page (Principle, Learning, System) is never put away: `_leaveRollForReference` leaves `_roam` set, so
+   *  `_enterRoam` returns first. Here in the eager app, not in reader.src.js, because the deferred bundle's ceiling is exact. */
+  _putReaderAway(away) {
+    this._readerAway = away;
+    const r = this._reader; if (!r) return;
+    r.root.style.visibility = away ? "hidden" : "";
+    if (this._readerTocEl) this._readerTocEl.style.display = away ? "none" : "";
+  }
   _readerHold(r, W, H) {
     const q = this._readerQueued, pin = this._readerPin, card = this._landEl;
     // the landing's first layout: the hand is adopted and held (or not) by the time this layout returns, so the
@@ -15516,6 +15545,7 @@ class Component extends DCLogic {
     // hidden, so an activation that came while the hold kept it pending went idle with nothing to retry it:
     // the Win chance never started. Publication starts it (idempotent once loading, loaded or failed).
     if (held && hold <= 0) this._ensureGameValues();
+    if (this._readerAway) this._putReaderAway(hold > 0 || this._landIdx == null);   // the free-roam latch's backstop and repaint
     return hold;
   }
   /** D-351: a graded card (answered or expired) settles a pinned landing. A correct defense answer
@@ -15557,7 +15587,11 @@ class Component extends DCLogic {
         retry.setAttribute("data-reader-load-retry", ""); card.append(retry); this.openModal();
       });
     return this._readerLoad.then(() => {
-      if (!this.__ngDestroyed && request === this._readerRequest) return this._reader?.open(request);
+      if (this.__ngDestroyed || request !== this._readerRequest) return;
+      // The free-roam latch's lift (`_putReaderAway`). Outside free roam nothing is written: the ordinary path is as it was.
+      const away = !intent && !!this._roam;
+      if (away || this._readerAway) this._putReaderAway(away);
+      return this._reader?.open(request);
     });
   }
 
@@ -15888,8 +15922,10 @@ class Component extends DCLogic {
     return Math.round(bottom);
   }
   /** THE MAP ALONE (v1.254.0, owner, 2026-11-10): no node's landing card, film or article is on screen. The legend key's one answer
-   *  (updateUiShift). Read from the screen, not from game state: at "/" that is the boot before the first landing, and it lasts
-   *  only until then, because free roam keeps the last article on screen (U114 a retired the way to put it away). */
+   *  (updateUiShift). Read from the screen, not from game state: at "/" that is the boot before the first landing, and free roam,
+   *  which puts the left node's article and its index away (U123, `_putReaderAway`: hidden, not collapsed, so the article keeps its
+   *  box and only the computed visibility below tells) until the next landing or an article opened on purpose. A page (Principle,
+   *  Learning, System) is never put away, so the key stays away while one is open. */
   _mapAlone() {
     const H = this.H || window.innerHeight;
     return ![this._landEl, this._landFilmEl, this._reader?.articleEl].some((el) => {
