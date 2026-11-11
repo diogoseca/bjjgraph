@@ -261,7 +261,7 @@ export function ngChoiceValueOrder(ids, snapshot) {
   return ngChoiceValueRanked(ids, snapshot) || [...ids];
 }
 
-// THE HAND'S WIN-CHANCE ORDER, OR null WHEN IT HAS NONE (v1.257.0). ngChoiceValueOrder hands back the
+// THE HAND'S WIN-CHANCE ORDER, OR null WHEN IT HAS NONE (v1.258.0). ngChoiceValueOrder hands back the
 // dealt order for a hand it cannot rank, which is the right thing to SORT by and the wrong thing to
 // REPORT: the status slot reads "Sorted by win chance" only when the hand stands in a real ranking, so
 // it asks this, not "did the order come back unchanged" (an unrankable hand would pass that and the

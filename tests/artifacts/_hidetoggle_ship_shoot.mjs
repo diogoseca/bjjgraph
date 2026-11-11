@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * THE SWITCH WORD + THE ONE STATUS SLOT, AS SHIPPED (v1.257.0; NOT a gate, NOT a test — the gates are the journeys).
+ * THE SWITCH WORD + THE ONE STATUS SLOT, AS SHIPPED (v1.258.0; NOT a gate, NOT a test — the gates are the journeys).
  *
  * Real dev server, real wall clock, one browser at a time, every state reached by real input:
  *   calculating  the first frames after the deal, shot the instant the status says it (kept only if it still does)

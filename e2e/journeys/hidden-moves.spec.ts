@@ -10,7 +10,7 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  * card's NAME and FILM face down — Works % and Win % stay — and withholds the map's names of the
  * dealt moves. A hover (at once, v1.256.7) or a tap turns one card up and asks "Did you get
  * it?"; a Yes files the move in the `moves` record as MASTERED and the card wears thin gold in every
- * row. The word beside "Your moves" (· Hidden / · Shown, v1.257.0; U121's eye before it) switches the mode from the
+ * row. The word beside "Your moves" (· Hidden / · Shown, v1.258.0; U121's eye before it) switches the mode from the
  * row; keys 1-9 still play blind.
  *
  * "SHOW ALL" IS GONE, AND SO ARE ITS CASES (owner, U121, 10 Nov: "We don't say 'show all', but still show the
@@ -22,7 +22,7 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  * changes nothing a test can see, because the option row already keeps its presses from the map's input
  * (attachInput); the probe is live (its control counts a real map press). The eye's stop is a second guard.
  *
- * THE EYE BECAME A WORD (v1.257.0, the owner's pick d on U130, 11 Nov), AND EVERY EYE CLAIM MOVED TO IT. What each
+ * THE EYE BECAME A WORD (v1.258.0, the owner's pick d on U130, 11 Nov), AND EVERY EYE CLAIM MOVED TO IT. What each
  * changed assertion claimed before, so none of them reads as dropped:
  *   off by default    was "the plain eye, aria-pressed false"      now "the word reads Shown, named 'Moves shown'"
  *   the switch test   was "on: pressed, named 'Hide moves until I look', slashed and gold; off: plain, unpressed"
@@ -31,8 +31,8 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  *   the pull (R9)     was "the eye pressed / not pressed"           now "the word Hidden / Shown"
  *   the touch target  was "the eye: 44 x 40, the free band"        now the same claim on the word, unchanged numbers
  *   the map's controls press the word where they pressed the eye.
- * NEW (v1.257.0): a press on the word moves nothing beside it (its box reserves "Hidden"). The eye's six mutants were
- * re-run against the word, and each new claim has its own; table in docs/Changelog-Archive.md (v1.257.0).
+ * NEW (v1.258.0): a press on the word moves nothing beside it (its box reserves "Hidden"). The eye's six mutants were
+ * re-run against the word, and each new claim has its own; table in docs/Changelog-Archive.md (v1.258.0).
  *
  * THE DWELL IS GONE, AND THREE ASSERTIONS CHANGED WITH IT (v1.256.7, owner, 11 Nov: "i'd like for it to be instant
  * to show it, what's taking it so long?"). v1.255.0 turned a hovered card up only after NG_PEEK_DWELL_MS (250 ms), so
@@ -129,7 +129,7 @@ const appState = (page: Page) => page.evaluate(() => {
   }
 })
 
-/** the word beside "Your moves" (v1.257.0): what it reads and the name it gives a screen reader */
+/** the word beside "Your moves" (v1.258.0): what it reads and the name it gives a screen reader */
 const switchWord = (page: Page) => page.evaluate(() => {
   const e = document.querySelector("[data-hide-switch]") as HTMLElement
   return { word: e.querySelector(".ng-hide-word > span")!.textContent, name: e.getAttribute("aria-label") }
@@ -144,7 +144,7 @@ const mapNames = async (page: Page) => {
 test("@curated off by default: the row is dealt as before, and the setting turns it face down in place", async ({ page }) => {
   await seatMount(page, false)
   expect(await page.locator("[data-hide], .ng-choice-back, [data-choice-grade]").count(), "no hidden-moves DOM on the cards while off").toBe(0)
-  expect(await switchWord(page), "...and the word by Your moves reads Shown, named for the state (v1.257.0)").toEqual({ word: "Shown", name: "Moves shown" })
+  expect(await switchWord(page), "...and the word by Your moves reads Shown, named for the state (v1.258.0)").toEqual({ word: "Shown", name: "Moves shown" })
   const open = await face(page, hm(0))
   expect([open.title, open.stats, open.filmCovered]).toEqual(["visible", "visible", false])
   // the Rolling tab's row, by mouse, under a dealt hand: no redeal, the same cards go face down
@@ -352,7 +352,7 @@ test("@curated reduced motion: a hovered card is lit but does not grow", async (
   expect([r.hover, r.glow, await scaleOf(page, hm(1))], "lit by its glow, at its own size").toEqual([true, true, 1000])
 })
 
-test("@curated the word by Your moves switches hidden moves from the row, in place, and is not a peek (v1.257.0; U121's eye before it)", async ({ page }) => {
+test("@curated the word by Your moves switches hidden moves from the row, in place, and is not a peek (v1.258.0; U121's eye before it)", async ({ page }) => {
   const j = await seatMount(page, false)
   const hand = () => page.evaluate(() => (window as W).__neural._optionCards.map((c: W) => c.opt.node.t).join("|"))
   const before = await hand()
@@ -379,7 +379,7 @@ test("@curated the word by Your moves switches hidden moves from the row, in pla
   expect(await page.evaluate(() => (window as W).__neural.__mapPresses), "control: a press on the map itself is counted").toBeGreaterThan(0)
 })
 
-test("@curated a press on the word moves nothing beside it: the status slot and the cards keep their places (v1.257.0)", async ({ page }) => {
+test("@curated a press on the word moves nothing beside it: the status slot and the cards keep their places (v1.258.0)", async ({ page }) => {
   const j = await seatMount(page, false)
   // what sits after the word, measured: the status slot's start, the word's own box, card 1's left edge
   const at = () => page.evaluate(() => {
@@ -639,7 +639,7 @@ test.describe("touch", () => {
       { g: "yes", w: true, h: true, inside: true, edges: true }, { g: "no", w: true, h: true, inside: true, edges: true }])
   })
 
-  test("@curated touch: the word's target is the whole free band (44 x 40), covers neither Your moves, card 1 nor the hand's close, and a card left up stays unnamed after off and on (v1.257.0; the eye's claim, U121)", async ({ page }) => {
+  test("@curated touch: the word's target is the whole free band (44 x 40), covers neither Your moves, card 1 nor the hand's close, and a card left up stays unnamed after off and on (v1.258.0; the eye's claim, U121)", async ({ page }) => {
     await seatMount(page)
     const g = await page.evaluate(() => {
       const e = document.querySelector("[data-hide-switch]") as HTMLElement, title = e.parentElement!, r = e.getBoundingClientRect()

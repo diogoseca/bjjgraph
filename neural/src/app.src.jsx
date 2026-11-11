@@ -13378,7 +13378,7 @@ class Component extends DCLogic {
   // only hands its view on (§6.5). The film's seat row has asked for it since v1.231.0, and nothing defined it, so the row printed
   // "—" on every film until v1.253.0 (owner, 2026-11-09: "where's my Win% off of this state i'm in?").
   currentWinView() { return this._winView || { text: "—", handId: this._choiceHandId }; }
-  // THE ONE STATUS SLOT (v1.257.0, the owner's note on U130: "'calculating win chances' shouldn't come into conflict
+  // THE ONE STATUS SLOT (v1.258.0, the owner's note on U130: "'calculating win chances' shouldn't come into conflict
   // with 'sort by win chances' ... it should only show as a replacement for 'calculating win chances' and should say
   // 'sorted by win chances'"; hidetoggle round 2, s2). Beside "Your moves" and its switch there is ONE line in the
   // status's quiet type, and at most one press after it, in the same type with a dotted underline:
@@ -13495,7 +13495,7 @@ class Component extends DCLogic {
     // (pointer, key, wheel, focus, or an activate via a shortcut), because moving a card the player
     // is aiming at is the one thing a hand must never do (frozen deal order, CLAUDE.md §5). After
     // that it never re-sorts; the status slot offers "Sort by win chance" for a hand that was touched.
-    // A PRESS ON THE TITLE IS NOT A REACH INTO THE HAND (v1.257.0, hidetoggle round 2's finding): the switch and the
+    // A PRESS ON THE TITLE IS NOT A REACH INTO THE HAND (v1.258.0, hidetoggle round 2's finding): the switch and the
     // slot's press (Retry) sit in the title row inside this tray, so their pointerdown, key and focus used to latch
     // "touched" and a hand whose values had not landed yet never sorted itself, after nothing but a Hidden/Shown press
     // or a Retry. Those three are skipped for the title's controls; a wheel anywhere still counts (it scrolls the hand).
@@ -13796,7 +13796,7 @@ class Component extends DCLogic {
   // ═══ HIDDEN MOVES (v1.255.0, owner U115 b + U116, 10 Nov) ═══
   // "Hide moves until I look" (Rolling settings, off by default) hides each dealt card's NAME and
   // FILM — Works % and Win % stay (U115 b) — and the map's names of the dealt moves until a card is
-  // face up. Hover a card (at once, v1.256.7) or tap it to turn it face up; the switch beside "Your moves" (v1.257.0; the eye before it, U121)
+  // face up. Hover a card (at once, v1.256.7) or tap it to turn it face up; the switch beside "Your moves" (v1.258.0; the eye before it, U121)
   // switches the whole mode from the row (U121); keys 1-9 still play blind. Face up, it asks "Did you get it?", and a Yes
   // files the move in `moves` as MASTERED (`_gradeMove`).
   // HIDING IS CSS ON AN ATTRIBUTE, NEVER A REBUILT FACE: every reader of this card — the docks,
@@ -13918,7 +13918,7 @@ class Component extends DCLogic {
     strip.innerHTML = '<span>' + (due ? "Still got it?" : "Did you get it?") + '</span><button type="button" data-grade="yes">Yes</button>' + (due || NG_HIDE_GRADE_NO ? '<button type="button" data-grade="no">No</button>' : "");
     card.setAttribute("data-asking", "");
   }
-  // THE SWITCH (v1.257.0, owner's pick d on U130, 11 Nov; it replaces U121's eye). After "Your moves" on every dealt
+  // THE SWITCH (v1.258.0, owner's pick d on U130, 11 Nov; it replaces U121's eye). After "Your moves" on every dealt
   // row, one word says the state and a press flips it: "Your moves · Hidden" / "· Shown", in the title's own type at
   // full strength (6.5:1 on the map at both widths, where a word at 50% measured 2.6:1 and at 75% 4.2:1, hidetoggle
   // round 1), a dotted underline marking it as a press. The same `hideMoves` the Settings switch writes, in place under

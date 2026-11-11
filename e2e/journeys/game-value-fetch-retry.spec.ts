@@ -82,7 +82,7 @@ test("a part that never arrives is retried a bounded number of times, and the he
   await page.waitForTimeout(1500)
   expect(attempts.get(target()!), "and nothing retries it after the bound").toBe(4)
   await expect(page.locator("[data-choice-value-status]").first()).toHaveText("Win chance unavailable")
-  // the slot's Retry (v1.257.0; before, the bold "Retry win chances" button)
+  // the slot's Retry (v1.258.0; before, the bold "Retry win chances" button)
   await expect(page.locator('[data-choice-value-press][data-act="retry"]').first(), "the player keeps a way out").toBeVisible()
 })
 

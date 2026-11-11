@@ -126,7 +126,7 @@ async function installControlledProvider(page: Page, fixedImmediate?: number, wa
 }
 
 const names = (page: Page) => page.locator('[data-choice-group="you"] [data-tech]').evaluateAll(cards => cards.map(c => c.getAttribute('data-tech')))
-// THE ONE STATUS SLOT (v1.257.0, the owner's note on U130, s2): the status line beside "Your moves" and its one press
+// THE ONE STATUS SLOT (v1.258.0, the owner's note on U130, s2): the status line beside "Your moves" and its one press
 // ("Sort by win chance" or "Retry"), which replaced the bold "Sort by win chance" / "Retry win chances" buttons. Read
 // off the DOM the player sees: its text, the press, and where the line ENDS against the hand's ✕ (and the screen
 // edge), with the title's line height. Every state that can be the widest is asserted clear of the ✕ at 390 below:
@@ -299,7 +299,7 @@ test('@curated a re-solve after an answer keeps each card\'s last Win chance, di
   expect(fresh.after, 'a current number has no ellipsis').toBe('none')
   expect(fresh.aria).not.toContain('updating')
   await expect(page.locator('[data-choice-value-status]')).toHaveText('')
-  // ...and the new best is OFFERED, not applied: the slot reads "Sort by win chance" (v1.257.0; before, the bold button)
+  // ...and the new best is OFFERED, not applied: the slot reads "Sort by win chance" (v1.258.0; before, the bold button)
   expect([(await slot(page)).press, (await slot(page)).act], 'a re-solve that changes the best offers the sort, it never applies it').toEqual(['Sort by win chance', 'sort'])
   expect(await names(page)).toEqual(sorted)
   // a new deal has no previous numbers: it starts from "—"
@@ -310,7 +310,7 @@ test('@curated a re-solve after an answer keeps each card\'s last Win chance, di
   await expect(stale).toHaveCount(0)
 })
 
-// A PRESS ON THE TITLE IS NOT A REACH INTO THE HAND (v1.257.0, hidetoggle round 2's finding). The word and the
+// A PRESS ON THE TITLE IS NOT A REACH INTO THE HAND (v1.258.0, hidetoggle round 2's finding). The word and the
 // slot's press sit in the title row inside the tray, whose pointerdown/key/focus latch "touched" and stop the hand
 // sorting itself when its values land. Before, two presses on the switch (Hidden, then Shown) before the values landed
 // left the hand in dealt order. The control is the explicit-sort test above: a FOCUSED card still freezes the hand.
