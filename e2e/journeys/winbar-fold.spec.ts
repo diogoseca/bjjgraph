@@ -75,8 +75,12 @@ test.describe("1440x900, by mouse (the control)", () => {
     await boot(page, j)
     const m = await fold(page)
     expect(m.under, `premise: the bar's box is clear of the grid ${JSON.stringify(m)}`).toBe(false)
+    // A bar being put away stays visible through its 0.3s transition, so `toBeVisible()` alone passes on a build that hides it (the
+    // winbar-away-everywhere mutant survived that way once): read the decision, then the visibility once the transition is over.
+    expect(await page.locator(".ng-winbar").getAttribute("data-away"), "the win bar shows (it is not put away)").toBeNull()
+    await page.waitForTimeout(400)
     await expect(page.locator(".ng-winbar"), "the win bar shows").toBeVisible()
-    expect(m.visibility).toBe("visible")
+    expect((await fold(page)).visibility, "the win bar shows (visibility, after the transition)").toBe("visible")
     expect(Math.abs(m.H - m.rootBottom), `the column is not cut ${JSON.stringify(m)}`).toBeLessThanOrEqual(0.5)
     await toEnd(page, j)
     const end = await fold(page)
@@ -135,7 +139,9 @@ test("@curated WINBAR1: a win bar that is away keeps today's number, and a resiz
 //                                  bottom is the viewport's bottom
 //   winbar-reserve-floor ......... a 41px floor in `_readerReserve` (390x631) ............. killed: the column's bottom is the viewport's bottom
 //   winbar-last-section-clipped .. the article clipped at 2,400px (768x1024) .............. killed: the last section's bottom is fully in view
-//   winbar-away-everywhere ....... the bar away wherever a column is on screen (1440x900) .. killed: the win bar shows
+//   winbar-away-everywhere ....... the bar away wherever a column is on screen (1440x900) .. killed: the win bar shows (it is not put
+//                                  away). It SURVIVED once on the merged build while this control read only toBeVisible(): a bar being
+//                                  put away is visible for 0.3s. The control now reads data-away, then visibility after the transition.
 //   winbar-paint-skips-away ...... `_paintWinThermometer` returns while the bar is away .... killed: and prints the current decision's
 //                                  number, not the one it went away with
 // Re-run with the change (reader-fold.spec.ts): reader-end-double-gap (now killed by "the reader runs to the fold") and
