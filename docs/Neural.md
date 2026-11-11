@@ -91,7 +91,7 @@ stacks is one centred box, at most 496px. **U65 b: tiles end at their own
 content.** The only gap is below the shorter column at the article's end, where the map shows and the reader grid owns input. Closing a tile reflows only what follows it. **U90 a, U99 b:** on a
 desktop the map ends at half the window, or `NG_LIVE_ANSWER_ROOM` above its bottom if that is higher, never under
 144px; it reads the window alone, so nothing moves when a question opens. Half of all cards need a scroll for their last
-answer (his ruling). **U90 note:** the asking line's text starts on the "Your move" label's left edge. **U101 b, U103 a:** a position's How it works opens short, a hub on both text sections; Read more opens the rest in place, one way. Each tile's
+answer (his ruling). **U90 note:** the asking line's text starts on the "Your moves" label's left edge. **U101 b, U103 a:** a position's How it works opens short, a hub on both text sections; Read more opens the rest in place, one way. Each tile's
 text is a centred 46ch column, except an article holding a wide table.
 The media slot is outside the prose measure. The reader ends above the conditional share cue in the corner;
 the account badge lives in the drawer. When the grid's width changes (Explore
@@ -258,8 +258,8 @@ borrows the announcer. `tests/roll_execution.test.mjs` pins source behavior;
 "Hide moves until I look" (Rolling settings, `hideMoves`, off by default) deals every card — yours,
 threats, escapes — with its **name and film face down**; Works % and Win % stay, and the map names
 no dealt move until its card is up. Hiding is CSS on `data-hide`: the card's DOM and text never change.
-A hover stands the card out at once (a transform, none under reduced motion) and turns it up after
-`NG_PEEK_DWELL_MS`; on touch the first tap turns it up and the second plays. The eye by "Your move"
+A hover stands the card out and turns it up at once (a transform, none under reduced motion; no dwell
+since v1.256.7); on touch a first tap turns it up, a second plays. The eye by "Your moves"
 toggles it (U121); keys 1–9 play blind; the stand-in is always face up; a peek touches the hand. The film button
 animates on its own hover only. Face up, an unknown move asks "Did you get it?" (Yes only); a known
 move that is due asks "Still got it?" (Yes / No — No takes its gold away); a known move not due
@@ -382,7 +382,7 @@ Choice cards show a direct title, approved video, immediate chance and Win chanc
 sits inside the same category shape used on the map. A threat card's colour is your win chance.
 
 U47 d + U52 b (v1.236.0): a landing, attempt or catch arrives **asking** — no card at all, only its question as a
-quiet line **immediately after the Your move row** (`_landAsk`, `[data-land-ask]`; on a stacked
+quiet line **immediately after the Your moves row** (`_landAsk`, `[data-land-ask]`; on a stacked
 phone stage the Videos card now follows the question), with **Answer for Points** inline at its
 end. No container, fill or border; a soft text shadow keeps it legible over the map. `_fitAskLine`
 trims the question with an ellipsis, never the link, to one line (two on a tall phone), so a 390×631
