@@ -25,9 +25,9 @@ const once = (text, from, to, name) => {
   return text.replace(from, to)
 }
 const spec = 'free-roam-article.spec.ts'
-// the minified forms (v1.256.2 + this change): the lift in _readArticle's then, the backstop in _readerHold, the set in _enterRoam
+// the minified forms (v1.256.5, on the build merged with #364 and #365): the lift in _readArticle's then, the backstop in _readerHold, the set in _enterRoam
 const SET = 'this.clearEngagement(),this._putReaderAway(!0),this.setPaused(!0)', UNSET = 'this.clearEngagement(),this.setPaused(!0)'
-const LIFT = 'return this._putReaderAway(!t&&!!this._roam),(r=this._reader)==null?void 0:r.open(n)', NOLIFT = 'return(r=this._reader)==null?void 0:r.open(n)'
+const LIFT = 'return(r||this._readerAway)&&this._putReaderAway(r),(o=this._reader)==null?void 0:o.open(n)', NOLIFT = 'return(o=this._reader)==null?void 0:o.open(n)'
 const BACKSTOP = ',this._readerAway&&this._putReaderAway(o>0||this._landIdx==null),o}'
 // [name, spec, grep, mutate(bundle), claim]
 const controls = [
@@ -59,7 +59,7 @@ const controls = [
   ['page-roams', spec, 'a page stays.*1440, by mouse\\)', s => once(s, 'this._played=!1,this._roam=!0,this.endZoom=!1', 'this._played=!1,this.endZoom=!1', 'page-roams'),
     'a page stays: the background tap leaves its article on screen'],
   // The late article: a request that reaches the reader in free roam shows the ended landing's article anyway.
-  ['late-article-shows', spec, 'arrives after free roam began', s => once(s, 'this._putReaderAway(!t&&!!this._roam)', 'this._putReaderAway(!1)', 'late-article-shows'),
+  ['late-article-shows', spec, 'arrives after free roam began', s => once(s, 'let r=!t&&!!this._roam;', 'let r=!1;', 'late-article-shows'),
     'free roam: the article is not on screen (a late article)'],
   // ...and a late render builds a new index, which only the backstop's repaint keeps away.
   ['repaint-lost', spec, 'arrives after free roam began', s => once(s, BACKSTOP, ',o}', 'repaint-lost'),
