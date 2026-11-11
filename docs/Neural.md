@@ -108,8 +108,8 @@ only its message, 5 s (bold name, Settings link, Undo; press rule in `reader.src
 width (U97 b); its rows navigate and dim what is closed, its heading reads role first ("Escaping Loop Choke from Half
 Guard"); the Moves tray ends short of it. Arrival centres the node above sections; scrolled prose covers it.
 
-No control turns the article, Map or Feedback off; U114 a retired its ✕ and shelf (`readerBook`, `landMap`, `landFeedback`
-unread). The legend's key shows on the map alone (`_mapAlone`); the win bar yields 12px from Contents. `landFilm/Card/Hand` store
+No control turns the article, Map or Feedback off (U114 a: `readerBook`, `landMap`, `landFeedback`
+unread). The key shows on the map alone (`_mapAlone`); the win bar yields 12px from Contents. `landFilm/Card/Hand` store
 normal visibility; the film follows `readerSection.videos`.
 Hidden questions are not built; hidden hands stay dealt and untimed. Card and hand publish once
 the landing's article renders (≤800ms, D-351); late Videos or film never move them. The hand starts its Win
@@ -358,8 +358,8 @@ rows have no pause button. `setPaused` controls internal motion: staging pauses,
 unpauses, and an open pane freezes travel.
 
 Click empty sky once to decline the card freely while retaining the hand; click again to
-archive a played roll, clear the tray and enter free roam centred on the current position
-(`_enterRoam`, `roam_entered`). A node click stages fresh. This gesture affects only the current
+archive a played roll, clear the tray, hide the article and Contents (not a page; U123) and roam
+centred where you stood (`_enterRoam`, `roam_entered`). A node click stages fresh. This gesture affects only the current
 landing (`clearLandCard`); the layer ✕ handles persist preferences through `setLayer`.
 
 A staged technique's own option gets the action accent and commit verb ("Finish it" for a
