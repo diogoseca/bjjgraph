@@ -13732,8 +13732,8 @@ class Component extends DCLogic {
   //   "Win chance unavailable · Retry" (Retry a press)           a failed load
   //   nothing                                                    values in, but the hand has no ranking to report
   // The bold "Sort by win chance" and "Retry win chances" buttons are gone. "Sorted" is asked of
-  // ngChoiceValueRanked, never read off "the order came back unchanged": an unrankable hand returns its dealt order
-  // there, and the line would claim a sort that never happened. The status span stays the live region, so a hand
+  // ngChoiceValueOrder's `ranked` form (null for a hand with no ranking), never read off "the order came back
+  // unchanged": an unrankable hand returns its dealt order there, and the line would claim a sort that never happened. The status span stays the live region, so a hand
   // sorting itself is announced; the press is its own button ("Sort by win chance", "Retry win chances").
   _paintValueSlot(title, snapshot, updating) {
     const status = title.querySelector("[data-choice-value-status]"), press = title.querySelector("[data-choice-value-press]");
@@ -13741,7 +13741,7 @@ class Component extends DCLogic {
     const said = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading" || this._readerAwaited()) ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "" : "Win chance unavailable";
     const retryable = !/^live-graph-/.test(this._gameValueReason || "") && !["scheduled", "loading", "preparing"].includes(this._gameValueState) && (this._gameValueRetryable || (this._gameValueRuntime && ["unavailable", "error"].includes(snapshot?.status)));
     const ids = (this._optionCards || []).filter(c => !c.opt.threat).map(c => (this._choiceValueBindings || []).find(b => b.opt === c.opt)?.actionId);
-    const ranked = said ? null : this.choiceValueRuntime()?.ngChoiceValueRanked?.(ids, snapshot) || null;
+    const ranked = said ? null : this.choiceValueRuntime()?.ngChoiceValueOrder(ids, snapshot, true) || null;
     let text = said, act = null, word = "";
     if (said === "Win chance unavailable" && retryable) { act = "retry"; word = "Retry"; }
     else if (ranked) { if (ranked.every((id, i) => id === ids[i])) text = "Sorted by win chance"; else { act = "sort"; word = "Sort by win chance"; } }
