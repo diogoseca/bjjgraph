@@ -1398,7 +1398,8 @@ class Reader {
           if (pin) y = pin.rowTop || (pin.rowTop = y);
           const rowTop = handoff?.rowTop ?? y;
           if (row) position(row, rowLeft, rowTop, flush ? grid + free.left : W);
-          if (!label("hand").hidden) { position(label("hand"), left, y, width); y += rect(label("hand")).height + step; }
+          // Variant b: a label (a landing's take-away, or b2's message) takes the grid's edges, as the tiles do.
+          if (!label("hand").hidden) { position(label("hand"), free.center - grid / 2, y, grid); y += rect(label("hand")).height + step; }
           else y = rowTop + (handoff?.rowHeight ?? handHeight) + (askStep ?? step);
         };
         // D-433 (2026-10-26), D-370 adapted to U35: Answer for Points (U47 d) and all shown answers
@@ -1430,7 +1431,7 @@ class Reader {
         if (card) position(card, cardX, cardY);
         // The deck's backs peek 3px per remaining card below the face; the article clears them.
         if (showCard) y += cardHeight + 3 * (a._landStackEl?.childElementCount || 0);
-        else if (!label("card").hidden) { position(label("card"), left, y, width); y += rect(label("card")).height; }
+        else if (!label("card").hidden) { position(label("card"), free.center - grid / 2, y, grid); y += rect(label("card")).height; }
         if (questionFirst) { y += step; placeHand(); y -= step; }
         if (follows) { y += step; position(home, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight; }
         else if (homeMedia && !showCard && !beside) {
