@@ -142,6 +142,8 @@ const NG_LAND_DECK_MIN_H = 236;
 // OWNERQ1: content URLs select their node with dormant game controls. A move or
 // landing-card answer starts play; reading and minimizing never arm the clock.
 const NG_READING_DEFAULT_ON_CONTENT_URL = true;
+// LEGAL3 (v1.264.0): the site's two legal pages, bare, with a slash or ".html". Arriving on one opens its box (openLegal).
+const NG_LEGAL_PAGE = /^\/(privacy|terms)(?:\.html|\/)?$/;
 const NG_LAYER_KEYS = { film: "landFilm", card: "landCard", hand: "landHand" };
 const NG_LAYER_ORDER = ["film", "card", "hand"];
 // THE CAMERA'S MOTION (v1.219.0; see `_camStep`). Module scope, so an app built without its
@@ -1307,6 +1309,8 @@ class Component extends DCLogic {
     this._initAuth();     // signed-in? real identity + merge-on-pull cloud sync (facade-gated)
     this.paused = false;
     this.applyFont();
+    // LEGAL3: on /privacy or /terms the box is the page. It opens here, from the article the server sent, before the graph is fetched.
+    { const k = NG_LEGAL_PAGE.exec(location.pathname); if (k) { this._legalHold = true; this.openLegal(k[1], { arrival: true, hash: location.hash }); } }
     let data = null, graphBytes = null;
     for (let attempt = 0; attempt < 5 && !data; attempt++) {
       try {
@@ -5298,7 +5302,7 @@ class Component extends DCLogic {
     empty.textContent = "No rolls yet — press play and your roll shows up here, state by state.";
     list.appendChild(empty);
   }
-  openModal() { this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); const m = this.modalRef.current; if (m) m.style.display = "flex"; this.lastInteract = this.now; }
+  openModal() { if (this._legal && !this._legalOpening) this._legalClosed(); this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); const m = this.modalRef.current; if (m) m.style.display = "flex"; this.lastInteract = this.now; }
   /**
    * FEEDBACK GOES TO POSTHOG (v1.105.5, owner: "using post hoc. It should not be done using
    * GitHub"). U67 a: one Feedback row and form for both kinds. An optional technique-request
@@ -5405,40 +5409,100 @@ class Component extends DCLogic {
         .catch(() => { /* plain link is the fallback state */ });
     } catch (e) { /* fetch unavailable — plain link */ }
   }
-  openLegal(kind) {
-    const card = this.modalCardRef.current; if (!card) return;
-    card.style.width = "min(520px,92vw)";
-    card.innerHTML = "";
-    const head = document.createElement("div");
-    head.style.cssText = "padding:20px 22px 0;";
-    const title = kind === "privacy" ? "Privacy Policy" : "Terms of Use";
-    head.innerHTML = '<div style="display:flex;align-items:center;justify-content:space-between;"><div style="font-size:20px;font-weight:700;color:#eef1f6;letter-spacing:-.01em;">' + title + '</div><span class="x" style="cursor:pointer;color:#8b97b0;font-size:20px;">&times;</span></div><div style="font-size:11.5px;color:#7e8aa8;margin-top:5px;">bjjgraph.org &middot; Last updated July 2026</div>';
-    head.querySelector(".x").addEventListener("click", () => this.closeModal());
-    card.appendChild(head);
-    const body = document.createElement("div");
-    body.style.cssText = "padding:16px 22px 22px;overflow-y:auto;max-height:min(62vh,540px);display:flex;flex-direction:column;gap:14px;";
-    const sec = (h, t) => '<div><div style="font-size:13px;font-weight:700;color:#dbe2f0;margin-bottom:5px;">' + h + '</div><div style="font-size:12.5px;line-height:1.6;color:#9aa6bd;">' + t + '</div></div>';
-    if (kind === "privacy") {
-      body.innerHTML =
-        sec("What we collect", "Your study progress (flashcards answered, techniques mastered, roll history) and, if you create an account, your email address. Guest progress is stored locally on your device.") +
-        sec("How we use it", "To sync your progress across devices, personalize which cards are surfaced, and improve the graph. We do not sell your data or share it with advertisers.") +
-        sec("Cookies & analytics", "We use minimal, privacy-respecting analytics to understand aggregate usage. No cross-site tracking.") +
-        sec("Your rights", "You can export or delete your account and all associated data at any time from Settings, or by contacting us.") +
-        sec("Contact", "Questions about this policy: privacy@bjjgraph.org");
-    } else {
-      body.innerHTML =
-        '<div style="border:1px solid rgba(232,116,107,.3);background:rgba(232,116,107,.07);border-radius:11px;padding:12px 14px;font-size:12.5px;line-height:1.6;color:#c4cde0;"><b style="color:#eda49c;">Safety first.</b> Brazilian Jiu-Jitsu is a contact sport with inherent risk of serious injury. bjjgraph.org is a study companion for practitioners who already train at an academy under qualified instruction. It is not a substitute for in-person coaching, and it is not a self-teaching program.</div>' +
-        sec("What this service is", "An interactive knowledge base and study tool: positions, transitions, submissions, flashcards, and a simulated \u201croll\u201d for reviewing decision-making. The simulation, including any success percentages or modifiers, is a gameplay estimate for study purposes only \u2014 it does not predict real outcomes.") +
-        sec("Assumption of risk", "Only practice techniques under the supervision of a qualified instructor, with a willing, informed partner, and at an intensity appropriate to your level. You assume all risk arising from your training. Never practice chokes or joint locks outside supervised training.") +
-        sec("No warranties", "Content is provided \u201cas is\u201d, without warranty of accuracy or completeness. Technique descriptions may contain errors, and what works varies by body type, skill, and context.") +
-        sec("Limitation of liability", "To the maximum extent permitted by law, bjjgraph.org and its contributors are not liable for any injury, loss, or damage arising from use of this service or from training decisions informed by it.") +
-        sec("Your account", "You are responsible for activity under your account. We may suspend accounts that abuse the service.") +
-        sec("Contact", "Questions about these terms: legal@bjjgraph.org");
-    }
-    card.appendChild(body);
-    this.openModal();
+  /** THE LEGAL BOXES (LEGAL3, v1.264.0). Owner, U140 b (12 Nov 2026): "i really much like the short versions. the /privacy page /
+   *  terms page should be viewed with a toggle that reads 'Extended version [chevron icon >]' ... that reveals the extended versions
+   *  with a click. users going to /privacy /terms land in the shortened version modal too with the bjjgraph as usual in the bg ... the
+   *  bjjgraph loading in the bg should load after the modal content which is the most important".
+   *  ONE SOURCE. The box carries no words of its own: until v1.263 they were typed here, apart from the pages, and drifted ("export or
+   *  delete ... from Settings", another contact address). It reads the PAGE: on the page itself (body[data-slug]) the <article> the
+   *  server sent, which is already in the DOM under the app (no request); anywhere else one fetch of the page's HTML, kept for the visit
+   *  (a failed fetch says so; pressing the entry again retries). The short part is the page's "In short" section; a page without one
+   *  (Terms on dev, until its own lands) shows its first section, never its opening, which names the operator. "Extended version" opens the rest of the
+   *  article in the box and folds it back. A link to the other legal page opens it in the box; any other link opens a new tab, so no
+   *  press inside the box can end a roll. tests/legal_boxes.test.mjs fails if a sentence of either page appears in neural/src, and
+   *  e2e/journeys/legal-pages.spec.ts owns the behaviour.
+   *  THE BOX NEVER TOUCHES THE PAUSE. Every way to it from a roll already holds the roll: the account menu lives in the drawer (pane
+   *  law), and Settings reached from a hidden part's message comes after a press on the article, which is reading, and reading pauses
+   *  (reader.src.js readingInteraction). A latch of its own was built and measured unreachable by any press, so it is not here. ON
+   *  ARRIVAL there is no roll yet: the box holds the intro's hand-over instead (`_legalHold`, read in updateCamera), so the map plays its opening behind it
+   *  and nothing is dealt; closing lets that same hand-over run, exactly as on "/", and the first landing PUSHES its address
+   *  (`_legalPushNext`, read in _syncUrl) so Back comes here again. Back itself needs nothing here: Quartz's router answers every
+   *  Back by fetching the page and morphing the body, which re-mounts the app, so Back onto /privacy is a fresh arrival (measured on dev:
+   *  a Back between two node pages also hands over a new instance). Their one lifter is `_legalClosed`: every close goes through
+   *  closeModal, and another surface taking the modal (openModal) ends the box the same way. */
+  openLegal(kind, opts = {}) {
+    const card = this.modalCardRef.current, m = this.modalRef.current; if (!card || !m || this.__ngDestroyed) return null;
+    const was = m.style.display === "flex" && this._legal;
+    const L = { kind, arrival: !!(opts.arrival || was?.arrival) };
+    if (!was) { this._legalOpening = true; this.openModal(); this._legalOpening = false; }
+    this._legal = L;
+    card.style.width = "min(560px,92vw)";
+    card.innerHTML = '<div class="ng-legal" role="dialog" aria-modal="true" aria-labelledby="ng-legal-h" data-legal="' + kind + '"><div data-legal-head><h2 id="ng-legal-h"></h2>' +
+      '<button type="button" aria-label="Close" data-legal-close>×</button></div><div data-legal-sub></div><div data-legal-body><div data-legal-short></div>' +
+      '<div id="ng-legal-ext" data-legal-ext hidden></div></div><div data-legal-foot hidden><button type="button" aria-expanded="false" aria-controls="ng-legal-ext" data-legal-more>' +
+      'Extended version <span aria-hidden="true">›</span></button></div></div>';
+    const q = (a) => card.querySelector("[data-legal-" + a + "]");
+    Object.assign(L, { box: card.firstChild, body: q("body"), short: q("short"), ext: q("ext"), foot: q("foot"), more: q("more"), title: card.querySelector("h2"), sub: q("sub") });
+    q("close").onclick = () => this.closeModal();
+    L.more.onclick = () => this._legalToggle(L);
+    L.body.onclick = (e) => { const a = e.target.closest("[data-legal-link]"); if (a) { e.preventDefault(); this.openLegal(a.dataset.legalLink, { hash: a.hash }); } };
+    const rec = this._legalRecs?.[kind] || document.body?.dataset.slug === kind && this._legalParse(document, kind);
+    if (rec) return this._legalFill(L, rec, opts.hash), L;
+    L.sub.textContent = "Loading…";
+    fetch("/" + kind, { credentials: "same-origin" }).then((r) => (r.ok ? r.text() : "")).catch(() => "").then((html) => {
+      const r = html && this._legalParse(new DOMParser().parseFromString(html, "text/html"), kind);
+      if (this._legal === L) r ? this._legalFill(L, r, opts.hash) : L.sub.textContent = "This page could not be loaded.";
+    });
+    return L;
   }
-  closeModal() { this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); const m = this.modalRef.current; if (m) m.style.display = "none"; }
+  // The page as the box shows it, from a CLONE of its article (the server's stays whole for crawlers and the no-JS page): its title,
+  // effective date, short part and the rest. Ids become data-legal-id, so the clone repeats no id the hidden article holds, and a link
+  // to a section (/privacy#your-rights) is found inside the box. Kept per page for the visit (`_legalRecs`).
+  _legalParse(doc, kind) {
+    const src = doc.querySelector("#quartz-root article") || doc.querySelector("article"); if (!src) return null;
+    const art = src.cloneNode(true), base = new URL("/" + kind, location.origin), at = (n) => n.textContent.trim();
+    art.querySelectorAll("script,style,svg,a[role=anchor]").forEach((n) => n.remove());
+    art.querySelectorAll("[id]").forEach((n) => { n.dataset.legalId = n.id; n.removeAttribute("id"); });
+    art.querySelectorAll("a[href]").forEach((a) => {
+      const u = new URL(a.getAttribute("href"), base), k = u.origin === location.origin && NG_LEGAL_PAGE.exec(u.pathname);
+      a.href = u.href; if (k) a.dataset.legalLink = k[1]; else if (u.protocol !== "mailto:") { a.target = "_blank"; a.rel = "noopener"; }
+    });
+    const kids = [...art.children], date = kids.find((n) => n.tagName === "P" && /^effective date/i.test(at(n)));
+    let i = kids.findIndex((n) => n.tagName === "H2" && /^in short$/i.test(at(n))), short = [];
+    if (i >= 0) { kids[i].remove(); while (kids[++i] && kids[i].tagName !== "H2") short.push(kids[i]); }
+    // no "In short" yet: the page's first section, heading and all. Never its opening paragraphs, which name the operator (the owner's
+    // note on U150, 12 Nov: the short box never prints that name or "an individual"; legal-pages.spec.ts derives the name and pins it)
+    else if ((i = kids.findIndex((n) => n.tagName === "H2")) >= 0) do short.push(kids[i]); while (kids[++i] && kids[i].tagName !== "H2");
+    // an item that OPENS with a bold phrase ("**What we keep.** ...") shows it as the item's heading; a bold word inside a sentence stays
+    short.forEach((n) => { n.remove(); n.querySelectorAll(":scope>li").forEach((li) => { const f = [...li.childNodes].find((c) => c.nodeType == 1 || at(c)); if (f?.tagName == "STRONG") f.dataset.lead = ""; }); });
+    date?.remove();
+    return (this._legalRecs = this._legalRecs || {})[kind] = { title: at(doc.querySelector("h1.article-title") || { textContent: doc.title }),
+      date: date ? at(date).replace(/^effective date:?\s*/i, "") : "", short, ext: [...art.children] };
+  }
+  _legalFill(L, rec, hash) {
+    L.title.textContent = rec.title;
+    L.sub.textContent = "bjjgraph.org" + (rec.date && " · Effective " + rec.date);
+    L.short.replaceChildren(...rec.short.map((n) => n.cloneNode(true)));
+    L.ext.replaceChildren(...rec.ext.map((n) => n.cloneNode(true)));
+    L.foot.hidden = !rec.ext.length;
+    // the arrival's box owns the address, and a link from one legal page to the other moves it along (Back returns, see _legalClosed)
+    if (L.arrival && location.pathname !== "/" + L.kind) this._writeUrl("/" + L.kind, { ngLegal: L.kind }, false, rec.title);
+    let id = (hash || "").slice(1); try { id = decodeURIComponent(id); } catch (e) { /* the raw spelling */ }
+    const t = id && L.ext.querySelector('[data-legal-id="' + CSS.escape(id) + '"]');
+    if (t) this._legalToggle(L, true, t);
+  }
+  // "Extended version": opens the rest of the page in the box, at its start or at a section; pressed again, folds it back
+  _legalToggle(L, open = L.ext.hidden, at = L.ext) {
+    L.ext.hidden = !open;
+    L.box.toggleAttribute("data-open", open);
+    L.more.setAttribute("aria-expanded", open);
+    L.body.scrollTop = open ? at.offsetTop - L.body.offsetTop - 8 : 0;
+  }
+  _legalClosed() {
+    const L = this._legal; this._legal = null;
+    if (L.arrival) { this._legalHold = false; this._legalPushNext = true; }
+  }
+  closeModal() { this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); const m = this.modalRef.current; if (m) m.style.display = "none"; if (this._legal) this._legalClosed(); }
   // Esc seam (v1.95.1): close the topmost deliberate screen and report. Pause state is
   // deliberately NOT touched here — if the pane (or the user's hand) froze the clock,
   // dismissing a modal ABOVE it must not resume anything (the backdrop-click path keeps
@@ -11696,6 +11760,7 @@ class Component extends DCLogic {
   }
   _syncUrl(idx, replace = false) {
     if (this._readerIntent || this._urlRestoring) return; // reader/popstate own their canonical entry
+    if (this._legalPushNext) { this._legalPushNext = false; replace = false; }   // LEGAL3: Back from the first landing returns to the page
     const path = this._nodeUrlPath(idx); if (!path) return;
     this._pushUrl(path, { ngNode: this.nodes[idx].id }, replace);
   }
@@ -11846,6 +11911,7 @@ class Component extends DCLogic {
    */
   _seedFromUrl() {
     if (/^\/l\//.test(location.pathname)) return false;
+    if (NG_LEGAL_PAGE.test(location.pathname)) return false;   // LEGAL3: the box owns this arrival (opened in boot, before the graph), not the reader
     if (/^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)\/?$/i.test(location.pathname))
       return this._seedPageFromUrl(location.pathname);
     const content = /^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)(?:\/|$)/i.test(location.pathname);
@@ -19941,7 +20007,8 @@ class Component extends DCLogic {
         // A URL ARRIVAL'S ROWS MOUNT WHEN THE INTRO HANDS OVER (3.2s, below). Make room for them
         // during the parting overview, so they mount over a node that is already clear (v1.219.0).
         if (this._urlSeeded && this._urlSeedIdx >= 0) tgt = this._liftForLanding(tgt, this._urlSeedIdx);
-        if (el > 3.2) {
+        // LEGAL3: while a legal page's box is up on arrival the intro does not hand over (nothing is dealt); closing it lets this run
+        if (el > 3.2 && !this._legalHold) {
           this.introDone = true;
           // HAND THE INTRO'S CAMERA TO A FLIGHT THAT WAS ASKED FOR DURING IT. A share link is
           // decoded at ingest — t=0, 3.2 seconds before this line — so its frameNodes() ran while

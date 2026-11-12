@@ -23,10 +23,11 @@ If you have any questions about this policy or your data, contact us at **[suppo
 
 ## In short
 
-- You can use almost all of BJJGraph **anonymously**. Your training progress is stored **on your own device**, in your browser, and is sent to us only when someone signs in on that browser.
-- If you **sign in** (with Google or email), we store your account details and sync your training progress so it follows you across devices.
-- We use **PostHog** for analytics to understand how the Service is used and to improve it.
-- We **do not sell** your personal data.
+- **What we keep.** Without an account, your progress stays in this browser, and it reaches us only if someone signs in on it. If you sign in (with Google, or with email and password), we keep your account details and sync your training progress to our database so it follows you.
+- **Analytics.** We use PostHog to see how the site is used: the pages you visit, what you click (with the text of what you clicked), anything you type into Feedback, your device and browser, and your IP address with an approximate location. It recognises a returning browser.
+- **Others who help run the site.** Supabase (accounts), Cloudflare (hosting and visit counts), Google (sign-in, fonts and YouTube videos), Bunny.net, jsDelivr and GitHub. The full policy below lists what each one receives.
+- **What we do not do.** We do not sell your personal data, and we do not use it for third-party advertising.
+- **Your rights.** To see, correct, export or delete your data, or to delete your account, email **[support@bjjgraph.org](mailto:support@bjjgraph.org)**.
 
 ## Who we are
 
