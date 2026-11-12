@@ -149,7 +149,7 @@ test('same-owner local re-read merges other-tab evidence before writing',async()
 });
 test('explicit legacy import strips consent and preserves its source bytes',async()=>{
   // v1.262.0: an (empty) guest copy exists, so the guest never adopted the legacy copy and the sign-in joins nothing
-  const h=harness();h.host.store.write(guest,blob({}));const legacy=JSON.stringify(blob({old:9},{settings:{emailMarketing:true},settingsAt:{emailMarketing:999}}));h.mem.rows.set('bjj-neural-progress',legacy);await h.boot();const a=h.switchTo('A');a.settings={emailMarketing:false};a._settingsAt={emailMarketing:1};
+  const h=harness();h.host.store.write(guest,blob({}));const legacy=JSON.stringify(blob({old:9},{settings:{emailMarketing:true},settingsAt:{emailMarketing:999}}));h.mem.rows.set('bjj-neural-progress',legacy);await h.boot();const a=h.switchTo('A');await a._pullAndMerge();a.settings={emailMarketing:false};a._settingsAt={emailMarketing:1};
   assert.deepEqual(a.prep,{});const preview=h.host.previewImport(a,'legacy');assert.equal(preview.status,'preview');assert.equal(h.host.confirmImport(a,preview).status,'ready');
   assert.equal(h.get().prep.old,9);assert.equal(h.get().settings.emailMarketing,false);assert.equal(h.mem.rows.get('bjj-neural-progress'),legacy);assert.equal(a.__ngDestroyed,true);
 });
@@ -160,8 +160,9 @@ test('guest practice joins at sign-in without an import, and another account is 
 });
 test('import preview cannot cross an identity change or changed source',async()=>{
   // v1.262.0: an (empty) guest copy exists, so the legacy copy is not adopted and joins nobody at sign-in
-  const h=harness();h.host.store.write(guest,blob({}));h.mem.rows.set('bjj-neural-progress',JSON.stringify(blob({old:9})));await h.boot();const a=h.switchTo('A');const old=h.host.previewImport(a,'legacy');const b=h.switchTo('B');
-  assert.equal(h.host.confirmImport(b,old).status,'unavailable');const fresh=h.host.previewImport(b,'legacy');h.mem.rows.set('bjj-neural-progress',JSON.stringify(blob({changed:4})));assert.equal(h.host.confirmImport(b,fresh).status,'unavailable');assert.deepEqual(b.prep,{});
+  const h=harness();h.host.store.write(guest,blob({}));h.mem.rows.set('bjj-neural-progress',JSON.stringify(blob({old:9})));await h.boot();const a=h.switchTo('A');await a._pullAndMerge();const old=h.host.previewImport(a,'legacy');const b=h.switchTo('B');await b._pullAndMerge();
+  // v1.262.0: each refusal's REASON is asserted, so a later refusal (not-pulled, ORDER1) cannot stand in for these
+  assert.deepEqual(h.host.confirmImport(b,old),{status:'unavailable',reason:'stale-import-target'});const fresh=h.host.previewImport(b,'legacy');h.mem.rows.set('bjj-neural-progress',JSON.stringify(blob({changed:4})));assert.deepEqual(h.host.confirmImport(b,fresh),{status:'unavailable',reason:'import-source-changed'});assert.deepEqual(b.prep,{});
 });
 test('corrupt incoming owner is preserved and transition shows recovery',async()=>{
   const h=harness();await h.boot();const a=h.switchTo('A');a.prep.a=7;const bad='unreadable';h.mem.rows.set(ngProgressLocalKey(ownerB),bad);a._applyUser({id:'B'});
@@ -263,7 +264,9 @@ test('local list deletion survives unrelated external prep across A to B to A',a
   });
 });
 test('confirmed import activates externally merged saved result before an ordinary save',async()=>{
-  const h=harness();h.mem.rows.set('bjj-neural-progress',JSON.stringify(blob({legacy:3})));await h.boot();const a=h.switchTo('A');a.prep.mine=2;a._flushSave();const preview=h.host.previewImport(a,'legacy');
+  // v1.262.0: an (empty) guest copy, so the legacy copy reaches the account only through this import; the import, like
+  // the join, needs the account's first pull
+  const h=harness();h.host.store.write(guest,blob({}));h.mem.rows.set('bjj-neural-progress',JSON.stringify(blob({legacy:3})));await h.boot();const a=h.switchTo('A');await a._pullAndMerge();a.prep.mine=2;a._flushSave();const preview=h.host.previewImport(a,'legacy');
   h.host.store.write(ownerA,blob({mine:2,otherTab:7}));assert.equal(h.host.confirmImport(a,preview).status,'ready');
   assert.deepEqual(h.get().prep,{mine:2,legacy:3,otherTab:7});h.get()._flushSave();assert.deepEqual(h.host.store.read(ownerA).blob.prep,{mine:2,legacy:3,otherTab:7});
 });

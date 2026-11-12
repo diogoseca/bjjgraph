@@ -135,10 +135,16 @@ export function ngProgressMergeMoves(local, cloud, today) {
 //      The account's own row is kept. It is the cloud's row ONLY because the join runs after a successful pull
 //      (`joinGuest`'s `not-pulled` refusal, `_pullAndMerge`): `live` then holds the cloud's rows, so the next pull,
 //      on this device or another, cannot undo it (ORDER1, tests/guest_join_safety.test.mjs 11).
+//   3. the guest's roll ledger never evicts one of the account's (`ngProgressGuestFlow`): the ledger keeps the 6 newest
+//      device partitions, so a guest partition added to an account already at 6 pushed its oldest out (the second
+//      reader: 60 rolls became 51). Below the cap the guest's partition is added as it is; at the cap it is folded into
+//      the account's newest partition, cell by cell, by MAX.
 // Every other field of that merge already only adds (prep/rec/stage/days MAX, belts.held MAX and won union,
-// badges/coins/explored/tut union, challenges MAX progress, lists add-wins, flow a new device partition, units and
-// unknown fields: the account's wins). `srs` keeps the pull's rule: a guest's later miss can bring a card back
-// sooner; no figure reads the schedule's interval, and today's count is a union. tests/guest_join_safety.test.mjs.
+// badges/coins/explored/tut union, challenges MAX progress, lists add-wins). Units, `belts.won` records, `dayLog.w` and
+// fields from later builds keep the account's value where it has one: the account's value AFTER the first pull, i.e.
+// the cloud's too, because the join runs only then (the second reader: "holds only against the local copy" was true of
+// the first build). `srs` keeps the pull's rule: a guest's later miss can bring a card back sooner; no figure reads the
+// schedule's interval, and today's count is a union. tests/guest_join_safety.test.mjs.
 function ngProgressGuestPart(blob) {
   const out = ngProgressClone(blob);
   delete out.settings; delete out.settingsAt; delete out.updatedAt;
@@ -173,9 +179,35 @@ export function ngProgressPracticeKey(blob) {
   if (ngProgressObject(b.challenges)) for (const id of NG_PROGRESS_TRAIL_CHALLENGES) delete b.challenges[id];
   return ngProgressCloudKey(b);
 }
-// THE RULE, in one place: what a guest copy adds to an account. `merge` is the app's `_mergeProgressBlobs`.
-export function ngProgressGuestMerge(merge, live, guestBlob) {
-  const combined = merge(live, ngProgressGuestPart(guestBlob));
+// The flow fold (rule 3). `cap` is the app's NG_FLOW_DEVICES (6; a unit pins the default equal to it). A guest partition
+// the account already holds (a re-join) stays itself, so MAX keeps the re-join idempotent; one more partition is added
+// only while there is room; past that, every remaining guest partition folds into the account's newest partition (the
+// one with the latest day, ties by id) by MAX per cell, which never lowers the account and may undercount the guest.
+export function ngProgressGuestFlow(account, guest, cap = 6) {
+  const acct = ngProgressObject(account) ? account : {}, out = {};
+  let room = cap - Object.keys(acct).length, target = null;
+  const newestDay = D => { let n = -1; for (const pk in D || {}) for (const o in D[pk] || {}) { const r = D[pk][o]; if (Array.isArray(r) && r[2] > n) n = r[2]; } return n; };
+  for (const dev of Object.keys(ngProgressObject(guest) ? guest : {}).sort()) {
+    const G = guest[dev];
+    if (!ngProgressObject(G)) continue;
+    if (dev in acct || room > 0) { if (!(dev in acct)) room--; out[dev] = ngProgressClone(G); continue; }
+    if (target === null) target = Object.keys(acct).sort().reduce((best, d) => best === null || newestDay(acct[d]) > newestDay(acct[best]) ? d : best, null);
+    const T = (out[target] = out[target] || {});
+    for (const pk in G) for (const o in G[pk] || {}) {
+      const g = G[pk][o];
+      if (!Array.isArray(g)) continue;
+      const P = (T[pk] = T[pk] || {}), t = P[o];
+      P[o] = Array.isArray(t) ? t.map((x, i) => Math.max(x || 0, g[i] || 0)) : g.slice();
+    }
+  }
+  return out;
+}
+// THE RULE, in one place: what a guest copy adds to an account. `merge` is the app's `_mergeProgressBlobs`; `flowCap` its
+// NG_FLOW_DEVICES. The explicit legacy import (`confirmImport`) goes through this too, so the two cannot differ.
+export function ngProgressGuestMerge(merge, live, guestBlob, flowCap = 6) {
+  const part = ngProgressGuestPart(guestBlob);
+  if (ngProgressObject(part.flow)) part.flow = ngProgressGuestFlow(live && live.flow, part.flow, flowCap);
+  const combined = merge(live, part);
   if (combined.moves) combined.moves = ngProgressGuestMoves(live.moves, combined.moves);
   return combined;
 }
@@ -226,8 +258,9 @@ export function ngProgressCreateStore(storage, now = Date.now) {
         return { status: "saved", raw };
       } catch { return ngProgressFailure("storage-unwritable"); }
     },
+    // v1.262.0: only the pre-v1.207 unowned copy. The guest kind is deleted with the dialog that used it: guest practice
+    // joins at sign-in (`joinGuest`), and the old path merged without the join's rule (it could lower known moves).
     importSource(kind) {
-      if (kind === "guest") return read(ngProgressOwner());
       if (kind !== "legacy") return ngProgressFailure("unsupported-import-source");
       const found = rawRead(NG_PROGRESS_LEGACY_KEY);
       if (found.status !== "ready") return found;
@@ -321,9 +354,10 @@ export function ngProgressCreateOwnerController({ store, initialOwner = ngProgre
       return pending?.outgoingBlob ? ngProgressClone(pending.outgoingBlob) : null;
     },
     previewImport(kind) {
-      // Guest progress imports into an account; so does unowned legacy progress, which a guest
-      // has already adopted automatically (store.adoptLegacyGuest), so it is never offered to one.
-      if (!active || ((kind === "guest" || kind === "legacy") && owner.kind !== "account")) return ngProgressFailure("import-not-available");
+      // Unowned legacy progress imports into an account; a guest has already adopted it automatically
+      // (store.adoptLegacyGuest), so it is never offered to one. No app surface calls this (v1.224.13 removed the row).
+      if (kind !== "legacy") return ngProgressFailure("unsupported-import-source");
+      if (!active || owner.kind !== "account") return ngProgressFailure("import-not-available");
       const source = store.importSource(kind);
       if (source.status !== "ready") return source;
       return ngProgressFreeze({ status: "preview", kind, owner: ngProgressClone(owner), epoch,
@@ -336,12 +370,10 @@ export function ngProgressCreateOwnerController({ store, initialOwner = ngProgre
       if (source.status !== "ready" || source.raw !== preview.sourceRaw) return ngProgressFailure("import-source-changed");
       if (!ngProgressBlob(liveBlob) || typeof merge !== "function") return ngProgressFailure("merge-unavailable");
       let combined;
-      try {
-        const incoming = ngProgressClone(source.blob);
-        // Email consent and other account settings cannot migrate with practice evidence.
-        delete incoming.settings; delete incoming.settingsAt; delete incoming.updatedAt;
-        combined = merge(ngProgressClone(liveBlob), incoming);
-      } catch { return ngProgressFailure("merge-failed"); }
+      // The join's rule (v1.262.0): settings and consent never move, a No never takes the account's Yes, the roll
+      // ledger never evicts. The host calls this only after a successful pull, so `liveBlob` holds the cloud's rows.
+      try { combined = ngProgressGuestMerge(merge, ngProgressClone(liveBlob), source.blob); }
+      catch { return ngProgressFailure("merge-failed"); }
       if (!ngProgressBlob(combined)) return ngProgressFailure("merge-failed");
       const saved = store.write(owner, combined);
       if (saved.status !== "saved") return saved;
@@ -365,7 +397,7 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
     if (!app || typeof app._mergeProgressBlobs !== "function") throw new Error("Progress merge is unavailable");
     return app._mergeProgressBlobs(local, incoming);
   };
-  const guestMerge = (live, guestBlob) => ngProgressGuestMerge(semanticMerge, live, guestBlob);
+  const guestMerge = (live, guestBlob) => ngProgressGuestMerge(semanticMerge, live, guestBlob, app && app.NG_FLOW_DEVICES);
   const guestKey = blob => ngProgressHash(ngProgressCloudKey(ngProgressGuestPart(blob)));
   const mergeExternal = (owner, live, saved) => {
     const raw = observed.get(ngProgressOwnerId(owner));
@@ -522,6 +554,8 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
     previewImport(inst, kind) { return host.current(inst) ? controller.previewImport(kind) : ngProgressFailure("stale-owner"); },
     confirmImport(inst, preview) {
       if (!host.current(inst)) return ngProgressFailure("stale-owner");
+      // as `joinGuest`: the rule must meet the cloud's rows, which this browser's copy holds only after a pull
+      if (inst._pulled !== true || inst._pulledUserId !== inst._progressOwner.id) return ngProgressFailure("not-pulled");
       recovery = { nextOwner: inst._progressOwner, blob: ngProgressClone(inst._progressBlob()) };
       const result = controller.confirmImport(preview, { confirmed: true, liveBlob: recovery.blob });
       if (result.status === "ready") recovery = null;
@@ -555,8 +589,10 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       if (!ngProgressBlob(combined)) return ngProgressFailure("merge-failed");
       const saved = preservingStore.write(inst._progressOwner, combined);
       if (saved.status !== "saved") { inst._progressStorageError = saved.reason; return saved; }   // nothing marked
-      // Marked only after the account's copy holds the practice. A mark that fails to write joins again next time,
-      // which adds nothing new (every merge step is idempotent) but says the line once more.
+      // Marked only after the account's copy holds the practice. A mark that fails to write (or is lost) is looked at
+      // again after the next pull: the account then already holds this practice, so the join finds nothing to add, is
+      // marked and stays silent; it says the line again only if the practice is in neither this browser's account copy
+      // nor the cloud (the push failed and the copy was lost). Every merge step is idempotent, so nothing counts twice.
       try { storage.setItem(mark, key); } catch { /* see above */ }
       return { status: "joined", blob: saved.blob || combined };
     },

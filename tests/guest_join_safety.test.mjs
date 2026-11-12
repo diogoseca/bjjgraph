@@ -229,7 +229,8 @@ function harness(mem = memory(), cloud = new Map()) {
   let current, identity = null;
   const facade = { resolveNeuralUser: async () => identity, neuralSyncVersion: 2, isAuthenticated: () => true,
     pullNeural: async (id) => ({ userId: id, blob: cloud.has(id) ? clone(cloud.get(id)) : null }),
-    pushNeural: async (b, id) => { cloud.set(id, clone(b)); return true; } };
+    pushNeural: async (b, id) => { pushes.push(id); cloud.set(id, clone(b)); return true; } };
+  const pushes = [];
   const said = [];
   const host = M.ngProgressCreateHost({ storage: mem, resolveUser: () => facade.resolveNeuralUser(), hold: () => {}, mount(b) {
     const inst = new M.Component({}); current = inst; host.bind(inst, b);
@@ -247,7 +248,7 @@ function harness(mem = memory(), cloud = new Map()) {
   const signIn = async (id) => { identity = { id, email: "player@example.com" }; get()._applyUser(identity); const a = get(); a._applyUser(identity); await a._pullAndMerge(); return get(); };
   const signOut = () => { identity = null; get()._clearAuthUser(); return get(); };
   const practise = (patch) => { const g = get(); Object.assign(g.prep, patch.prep || {}); if (patch.lists) g.lists = { ...g.lists, ...patch.lists }; g._flushSave(); };
-  return { mem, host, facade, cloud, get, signIn, signOut, practise, said, setIdentity: (u) => { identity = u; }, boot: () => host.bootstrap() };
+  return { mem, host, facade, cloud, pushes, get, signIn, signOut, practise, said, setIdentity: (u) => { identity = u; }, boot: () => host.bootstrap() };
 }
 const accountBlob = (h, o) => h.host.store.read(o).blob;
 // the trail a bare guest landing leaves, measured in the built app on 11 Nov (no answer, no roll)
@@ -431,4 +432,105 @@ test("13. ORDER1, srs: a guest's later miss meeting a cloud row the local copy l
   assert.ok(a.practiceToday().done >= 0 + (a.srs[dk][q][2] === DAY ? 1 : 0), "today's count is a union: it can only rise");
   // STATED, not hidden: the schedule follows the pull's rule, so the guest's later miss brings the card back sooner
   assert.deepEqual(a.srs[dk][q], [DAY + 1, 1, DAY], "the later review's schedule wins: due again tomorrow, not in a week");
+});
+
+// ── REVIEW375 (the second reader of PR #375): the missing tests it named, and the two rules it asked for ─────────────────
+const wait = (ms) => new Promise((r) => setTimeout(r, ms));          // `_pushCloud` pushes 500 ms after a save
+
+test("14. REVIEW375 M1, figures on the real wire: a returning player's known moves and boost survive a guest's later No (both rulesets)", async () => {
+  for (const mode of ["gi", "nogi"]) {
+    const probe = wireBoot({ v: 2 }, mode), mount = probe.nodes.find((n) => n.id === "Positions/Mount");
+    const st = probe._ordById.get(probe.siteIdOf(mount.id)) + "/top", dealt = probe._dealtOrds(mount.idx, "top"), key = probe.posFamily(mount.t) + "|Top";
+    assert.ok(dealt.length > 5, mode + ": Mount/top deals a hand (" + dealt.length + ")");
+    const yesAll = { [st]: Object.fromEntries(dealt.map((d) => [d, [DAY + 7, 7, DAY - 5, 1]])) };
+    const noAll = { [st]: Object.fromEntries(dealt.map((d) => [d, [DAY + 1, 1, DAY - 1, 0]])) };
+    const look = (moves) => { probe._hydrateProgressBlob({ v: 2, moves: clone(moves) }); const l = probe._movesKnownLine(); return { known: l && l.known, boost: probe.mastery(key) }; };
+    const before = look(yesAll);
+    assert.ok(before.known >= dealt.length && before.boost > 0, mode + ": the account knows the seat: " + JSON.stringify(before));
+    const cloud = new Map([["A", { v: 2, moves: yesAll }]]);
+    const h = harness(memory(), cloud);                                // a new phone: no account copy here
+    await h.boot();
+    const g = h.get(); g.moves = clone(noAll); g._flushSave();
+    const a = await h.signIn("A");
+    const after = look(h.host.cloudSnapshot(a).moves);                // exactly what is pushed
+    assert.deepEqual(after, before, mode + ": Moves known and the deck boost are the account's own after join, pull and push");
+  }
+});
+
+test("15. REVIEW375 F1: the guest's roll ledger never evicts one of the account's (at the cap it folds; below it, it is added)", async () => {
+  assert.equal(M.Component.prototype.NG_FLOW_DEVICES, 6, "the fold's default cap is the app's NG_FLOW_DEVICES");
+  const rolls = (flow) => { let n = 0; for (const d in flow || {}) for (const pk in flow[d]) for (const o in flow[d][pk]) n += flow[d][pk][o][0]; return n; };
+  const devices = (k) => Object.fromEntries(Array.from({ length: k }, (_, i) => ["dev" + i, { "Mount|Top": { "17": [10, 5, DAY - 10 - i] } }]));
+  for (const k of [6, 2]) {                                           // at the cap, and with room
+    const cloud = new Map([["A", { v: 2, flow: devices(k), prep: { "Side Control|Top": 1 } }]]);
+    const h = harness(memory(), cloud);
+    await h.boot();
+    const g = h.get(); g.flow = { dGUEST: { "Mount|Top": { "17": [3, 1, DAY], "23": [2, 2, DAY] } } }; g.prep["Mount|Top"] = 1; g._flushSave();
+    const a = await h.signIn("A"), joined = h.host.cloudSnapshot(a).flow;
+    for (let i = 0; i < k; i++) assert.ok(joined["dev" + i], "k=" + k + ": the account's partition dev" + i + " is kept");
+    assert.ok(Object.keys(joined).length <= 6, "k=" + k + ": within the cap");
+    if (k === 6) {
+      assert.equal(joined.dGUEST, undefined, "at the cap the guest's partition is folded, not added");
+      assert.equal(rolls(joined), 60 + 2, "the account's 60 rolls stay; the fold adds the guest's cell the account lacked (MAX on the shared cell)");
+    } else {
+      assert.deepEqual(joined.dGUEST, { "Mount|Top": { "17": [3, 1, DAY], "23": [2, 2, DAY] } }, "below the cap it is added as it is");
+      assert.equal(rolls(joined), 20 + 5, "and the totals add exactly");
+    }
+    // a re-join of the same guest copy (the mark lost) changes nothing
+    h.mem.rows.delete(markOf(A)); h.signOut(); const b = await h.signIn("A");
+    assert.equal(rolls(h.host.cloudSnapshot(b).flow), rolls(joined), "k=" + k + ": a re-join adds nothing");
+  }
+});
+
+test("16. REVIEW375 F2: a re-join with the mark lost (and with this browser's account copy lost too) changes no figure and pushes nothing new", async () => {
+  const cloud = new Map([["A", { v: 2, prep: { "Side Control|Top": 6 }, rec: { "Side Control|Top": 4 }, days: { "2026-11-10": 3 } }]]);
+  const h = harness(memory(), cloud);
+  await h.boot();
+  const g = h.get(); Object.assign(g.prep, { "Mount|Top": 4, "Closed Guard|Bottom": 2 }); g.rec = { "Mount|Top": 3 };
+  g.flow = { dGUEST: { "Mount|Top": { "17": [5, 2, DAY - 1] } } }; g.lists = { gl: { name: "Guest", t: 5, items: ["Positions/Mount"] } }; g._flushSave();
+  await h.signIn("A"); await wait(700);
+  const figures = () => { const c = cloud.get("A"); return JSON.stringify({ prep: c.prep, rec: c.rec, days: c.days, flow: c.flow, lists: Object.keys(c.lists || {}) }); };
+  const first = figures(), pushes = h.pushes.length;
+  assert.equal(h.said.length, 1); assert.ok(pushes >= 1, "the join was pushed");
+  for (const lose of [[markOf(A)], [markOf(A), M.ngProgressLocalKey(A)]]) {
+    h.signOut(); for (const k of lose) h.mem.rows.delete(k);
+    await h.signIn("A"); await wait(700);
+    assert.equal(figures(), first, "lost " + lose.length + " key(s): every figure is the same");
+  }
+  assert.equal(h.said.length, 1, "the line is not said again (the account already holds the practice after the pull)");
+  assert.equal(h.pushes.length, pushes, "nothing new is pushed");
+});
+
+test("17. REVIEW375 F3: an existing player restored at boot joins an unjoined guest copy once, and the next visit is silent", async () => {
+  const mem = memory(), cloud = new Map([["A", { v: 2, prep: { "Side Control|Top": 6 }, settings: { emailMarketing: false }, settingsAt: { emailMarketing: 1 } }]]);
+  mem.setItem(guestKey, envelope(GUEST, { v: 2, prep: { "Mount|Top": 4 } }));
+  mem.setItem(M.ngProgressLocalKey(A), envelope(A, { v: 2, prep: { "Side Control|Top": 6 } }));
+  const visit = async () => { const h = harness(mem, cloud); h.setIdentity({ id: "A", email: "player@example.com" }); await h.boot(); await h.get()._initAuth(); await wait(700); return h; };
+  const first = await visit();
+  assert.equal(cloud.get("A").prep["Mount|Top"], 4, "the guest practice reached the account (and the cloud)");
+  assert.equal(cloud.get("A").settings.emailMarketing, false, "the account's consent stays");
+  assert.deepEqual(first.said, [LINE], "the line, once"); assert.ok(mem.getItem(markOf(A)), "marked");
+  const second = await visit();
+  assert.deepEqual(second.said, [], "the next visit says nothing"); assert.equal(second.pushes.length, 0, "and pushes nothing");
+});
+
+test("18. REVIEW375 F5: the data layer's explicit legacy import goes through the same rule (a legacy No never takes the cloud's Yes; consent stays); the guest kind is gone", async () => {
+  const cloud = new Map([["A", { v: 2, moves: { [P]: { [X]: CLOUD_YES } }, settings: { emailMarketing: false }, settingsAt: { emailMarketing: 1 } }]]);
+  const h = harness(memory(), cloud);
+  h.mem.setItem(guestKey, envelope(GUEST, { v: 2 }));                // an empty guest copy: the legacy copy is not adopted
+  h.mem.setItem("bjj-neural-progress", JSON.stringify({ v: 2, prep: { "Mount|Top": 5 }, moves: { [P]: { [X]: [DAY + 1, 1, DAY, 0] } }, settings: { emailMarketing: true }, settingsAt: { emailMarketing: 9e12 } }));
+  await h.boot();
+  // like the join, the import needs the account's first pull: before it, it is refused
+  h.setIdentity({ id: "A", email: "player@example.com" }); h.get()._applyUser({ id: "A", email: "player@example.com" });
+  const early = h.get(); early._applyUser({ id: "A", email: "player@example.com" });
+  assert.deepEqual(h.host.confirmImport(early, h.host.previewImport(early, "legacy")), { status: "unavailable", reason: "not-pulled" }, "no import before the pull");
+  assert.equal(await early._pullAndMerge(), true);
+  const a = h.get();
+  assert.deepEqual(h.host.previewImport(a, "guest"), { status: "unavailable", reason: "unsupported-import-source" }, "the guest kind is gone");
+  const preview = h.host.previewImport(a, "legacy"); assert.equal(preview.status, "preview");
+  assert.equal(h.host.confirmImport(a, preview).status, "ready");
+  const b = h.get();
+  assert.equal(b.prep["Mount|Top"], 5, "the legacy practice joined");
+  assert.equal(b.moves[P][X][3], 1, "the cloud's Yes stands against the legacy copy's later No");
+  assert.equal(b.settings.emailMarketing, false, "consent stays the account's");
 });
