@@ -352,6 +352,11 @@ test("@curated the measured reader and shelf reserve the final paragraph's space
   await page.keyboard.press("Control+End")
   // STALE CONTRACT (D-318 U1(1)): with Book shown there is no shelf to reserve (the old claim's
   // rect measured 0x0). The flow ends clear of the bottom controls that share its column instead.
+  // WINBAR1 (owner, 2026-11-11): on a phone the win bar was the one such control, and it is now away under the column, so the
+  // premise "the phone has bottom controls under the column" and "the article ends above the screen's bottom" are REPLACED: any
+  // visible control under the column is still cleared, and with none the article runs to the bottom edge.
+  await j.advance(50)   // the legend's writer runs on a pumped frame; `visibility` turns 0.3s after `data-away`
+  await expect(page.locator(".ng-winbar"), "WINBAR1: under the column the win bar is away").toBeHidden()
   const boxes = await page.evaluate(() => {
     const a = (window as any).__neural, r = document.querySelector("[data-reader]")!.getBoundingClientRect()
     const col = document.querySelector(".ng-reader-article")!.getBoundingClientRect()
@@ -362,9 +367,8 @@ test("@curated the measured reader and shelf reserve the final paragraph's space
     return { articleBottom: r.bottom, shelf: document.querySelectorAll("[data-layer-dock]").length, controls, H: innerHeight }
   })
   expect(boxes.shelf, "no shelf (retired, U114 a)").toBe(0)
-  expect(boxes.controls.length, "the phone has bottom controls under the column").toBeGreaterThan(0)
   for (const c of boxes.controls) expect(boxes.articleBottom, JSON.stringify(boxes)).toBeLessThanOrEqual(c.top - 6)
-  expect(boxes.articleBottom).toBeLessThan(boxes.H)
+  if (!boxes.controls.length) expect(Math.abs(boxes.H - boxes.articleBottom), "nothing under the column: the article runs to the bottom edge " + JSON.stringify(boxes)).toBeLessThanOrEqual(0.5)
 })
 
 // v1.253.0 (U114 a, #354's review finding 4): the retired ✕ and shelf were the only writers of readerBook, landMap and landFeedback, and

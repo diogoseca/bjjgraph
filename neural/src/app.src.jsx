@@ -13006,11 +13006,15 @@ class Component extends DCLogic {
     // `_paintWinThermometer` stays its one writer, `_readerReserve` already skips a hidden bar, and the film's seat row keeps the
     // figure (`currentWinView`). Nothing here moves either box (the key keeps its place above the bar; the index's height is the
     // reader's), so the answer cannot feed back into itself.
-    const leg = this.legendRef.current, bar = this.legendMarkRef.current?.closest(".ng-winbar");
-    if (leg) leg.toggleAttribute("data-away", !this._mapAlone());
+    // WINBAR1 (owner, 2026-11-11): and where the bar falls under the reader's column (`barUnder`, measured by the reader's own layout)
+    // it is away too, so the column runs to the bottom edge. Only while that column is on screen: the map alone keeps the bar. Away is
+    // hidden, never unpainted: `_paintWinThermometer` writes it on every decision, so a resize that brings it back shows today's number.
+    const leg = this.legendRef.current, bar = this.legendMarkRef.current?.closest(".ng-winbar"), alone = this._mapAlone();
+    if (leg) leg.toggleAttribute("data-away", !alone);
     if (bar) {
       const toc = this._readerTocEl?.isConnected && this._readerTocEl.getBoundingClientRect(), b = bar.getBoundingClientRect();
-      bar.toggleAttribute("data-away", !!toc && toc.height > 0 && b.left < toc.right && b.right > toc.left && b.top < toc.bottom + 12);
+      bar.toggleAttribute("data-away", !!toc && toc.height > 0 && b.left < toc.right && b.right > toc.left && b.top < toc.bottom + 12
+        || !alone && !!this._reader?.barUnder);
     }
     // fade the key out only while option cards actually overlap it; fade back in otherwise
     if (leg && op) {
@@ -15972,11 +15976,16 @@ class Component extends DCLogic {
     const dock = this._execution?.card?._ngDock;
     return dock && dock.w === window.innerWidth && dock.h === window.innerHeight && !this._reader?.interacting ? dock : null;
   }
-  // What the bottom chrome takes from the reader's column: the share cue's or the win bar's top plus one 8px gap, where either falls
-  // under it, else nothing (v1.253.0: the 12px floor was the retired shelf's inset, and it cut the article 20px above the fold).
+  // What the bottom chrome takes from the reader's column: the share cue's top plus one 8px gap, where it falls under it, else nothing
+  // (v1.253.0: the 12px floor was the retired shelf's inset, and it cut the article 20px above the fold). WINBAR1 (owner, 2026-11-11:
+  // "why isnt the article content flowing all the way down? ... the win-lose bar shouldn't show for such screens"): the win bar no
+  // longer counts. It reserved its top plus 8 (41px on every phone and tablet) exactly where it fell under the column, and that is
+  // now exactly where it is put away (`barUnder`, reader.src.js; updateUiShift), so counting it could only ever cut the article. Its
+  // computed visibility was no guard: `.ng-winbar[data-away]` turns hidden 0.3s late, and a layout inside that delay kept the 41px.
+  // The share cue stays: it shows only on a shared link's arrival, and the column ends above it there.
   _readerReserve(horizontal) {
     let bottom = 0;
-    for (const el of [this.shareCueRef.current, this.wrapRef.current.querySelector(".ng-winbar")]) {
+    for (const el of [this.shareCueRef.current]) {
       if (!el || getComputedStyle(el).visibility === "hidden") continue;
       const box = el.getBoundingClientRect();
       if (box.height && box.top > 0 && box.left < horizontal.right && box.right > horizontal.left)
