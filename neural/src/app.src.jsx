@@ -3126,24 +3126,51 @@ class Component extends DCLogic {
   get NG_FLOW_DEVICES() { return 6; }    // LRU cap; a coach on a phone, a tablet and a laptop
   get NG_FLOW_DAYS() { return 180; }     // hard window, not decay — counters must stay monotone
   /**
-   * This browser's ledger partition. Minted once; a settings key can never be deleted (§6.6),
-   * which is exactly the durability this needs.
+   * This browser's ledger partition FOR THE OWNER WHOSE PROGRESS IS LIVE (v1.262.5, FLOW1).
+   *
+   * Until v1.262.4 this was the SETTING `flowDevice`, "minted once" and durable because a
+   * settings key can never be deleted (§6.6). That durability was the fault: settings sync
+   * per key, last writer wins, so the first pull on every other browser of the account
+   * handed it the same code, and every browser wrote ONE partition. MAX across a partition
+   * with several writers keeps only the larger tally (two browsers rolling one move between
+   * syncs read 11 for 12), which is the whole reason the ledger is partitioned. Production,
+   * 12 Nov: every one of the 48 accounts with a ledger had exactly one partition.
+   *
+   * Now the code lives in this browser, per owner, beside the owner's local copy and never in
+   * the blob (`flowDevice` in progress-owner.src.js keeps it). The rule, whole:
+   *   - minted at the owner's first roll in this browser, kept for good in its storage;
+   *   - never adopted from anywhere: not the old setting (several browsers hold it), and never
+   *     an id this owner's ledger already holds (the loop below);
+   *   - the setting `flowDevice` is DORMANT, read and written by nothing: still in old blobs,
+   *     re-added by every pull (no tombstone, §6.6), harmless. The partition filed under it
+   *     stays exactly as it is, never renamed, merged or dropped by this rule, and the sum
+   *     still counts it; nobody writes it again (a tab still on an older build does, until
+   *     reloaded, as before);
+   *   - a browser that loses its storage loses its code and mints another at its next roll:
+   *     one more partition toward NG_FLOW_DEVICES (the old one stays, frozen, and counts).
    *
    * NOT a raw random draw: `check_no_raw_random.sh` pins the app to exactly one, the passthrough
    * inside `rng()`, and a device id must not consume a tagged draw either — journeys rig those
-   * tags, so an id that moved the draw count would change replay behaviour. `qhash` (FNV-1a) over
-   * the clock plus whatever the environment happens to expose is enough: two devices colliding
-   * would need the same millisecond AND the same screen and agent string.
+   * tags, so an id that moved the draw count would change replay behaviour. Two `qhash`es
+   * (FNV-1a) over the clock, the page's own high-resolution clock and whatever the environment
+   * exposes give 64 bits; a collision needs the same instant to the microsecond on the same
+   * agent and screen, and even then the second mint steps past an id the ledger already holds.
    */
   _flowDevice() {
-    let d = this.get("flowDevice", null);
-    if (!d) {
+    if (this._flowDev) return this._flowDev;
+    const mint = () => {
       let ent = String(Date.now());
+      try { ent += "|" + performance.now(); } catch (e) { /* no high-resolution clock */ }
       try { ent += "|" + (navigator.userAgent || "") + "|" + screen.width + "x" + screen.height + "|" + new Date().getTimezoneOffset(); } catch (e) { /* non-browser */ }
-      d = "d" + this.qhash(ent);
-      this.set("flowDevice", d);
-    }
-    return d;
+      const held = this.flow || {};
+      for (let i = 0; ; i++) {
+        const d = "b" + this.qhash(ent + "|" + i) + this.qhash(i + "|" + ent);
+        if (!Object.prototype.hasOwnProperty.call(held, d)) return d;
+      }
+    };
+    const host = this._progressHost;
+    // the host answers null only for a stale instance or unreadable storage: this page keeps its own code then
+    return (this._flowDev = (host && host.flowDevice && host.flowDevice(this, mint)) || mint());
   }
   /**
    * Record one exchange. Called from `resolve()` — the ONLY point in the app where the

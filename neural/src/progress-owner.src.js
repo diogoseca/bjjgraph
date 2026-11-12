@@ -226,9 +226,14 @@ function ngProgressSameOwner(a, b) { return ngProgressOwnerId(a) === ngProgressO
 
 export function ngProgressLocalKey(owner, field = "progress") {
   // `guest` (v1.262.0): on an account, the hash of the guest copy it last took (or found nothing in) on this device
-  if (!["progress", "ladder", "firstroll", "coached", "guest"].includes(field)) throw new TypeError("Unknown account-owned local field");
+  // `device` (v1.262.5): this browser's code for the owner's roll-ledger partition (host `flowDevice`, below)
+  if (!["progress", "ladder", "firstroll", "coached", "guest", "device"].includes(field)) throw new TypeError("Unknown account-owned local field");
   return NG_PROGRESS_OWNER_PREFIX + ngProgressOwnerId(owner) + ":" + field;
 }
+// A stored roll-ledger code: `b` + 16 hex as minted since v1.262.5, or any later short id (tolerant on purpose: a later
+// format must not be re-minted). Anything else (absent, damaged) is not a code, and a new one is minted in its place:
+// one more partition, never a shared one.
+function ngProgressDeviceCode(value) { return typeof value === "string" && /^[A-Za-z0-9_-]{2,64}$/.test(value); }
 
 export function ngProgressCreateStore(storage, now = Date.now) {
   const rawRead = key => {
@@ -525,6 +530,30 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
         if (result.merged) inst._hydrateProgressBlob(result.blob);
       }
       return result;
+    },
+    // ── v1.262.5 (FLOW1): THIS BROWSER'S CODE FOR THE OWNER'S ROLL LEDGER ──
+    // The ledger is a G-counter, one partition per writer, merged per partition by MAX and read as the sum; MAX is exact
+    // only while a partition has ONE writer. Until v1.262.4 the code was the setting `flowDevice`, and settings sync per
+    // key (last writer wins), so every browser of an account converged on one code and wrote one partition from many
+    // places: two browsers rolling the same move between syncs kept only the larger of their two tallies. Now the code is
+    // kept HERE, in this browser's storage beside the owner's copy (`<owner>:device`), and never in the progress blob, so
+    // it never syncs and never joins. Per OWNER, not per browser: the guest copy joins every account on this browser
+    // under the guest's code (ngProgressGuestFlow: "a partition joins as itself, merges with itself by MAX"), so an
+    // account's code must never be the guest's, nor another account's. Minted once, at the owner's first roll here
+    // (`mint` is the app's); a code this browser loses (site data cleared, a private window) is gone with it, and the
+    // next roll mints another: one more partition, the old one kept and still counted (the cap's rule then applies,
+    // `_trimFlow`). Answers null when it cannot say (a stale instance, unreadable storage); the app then keeps a code
+    // for that instance only. tests/flow_device_per_browser.test.mjs.
+    flowDevice(inst, mint) {
+      if (!host.current(inst) || typeof mint !== "function") return null;
+      const key = ngProgressLocalKey(inst._progressOwner, "device");
+      let code;
+      try { code = storage.getItem(key); } catch { return null; }
+      if (ngProgressDeviceCode(code)) return code;
+      code = mint();
+      if (!ngProgressDeviceCode(code)) return null;
+      try { storage.setItem(key, code); } catch { /* this instance keeps it in memory; the next page mints again */ }
+      return code;
     },
     cloudSnapshot(inst) {
       if (!host.current(inst)) throw new Error("Stale progress owner");
