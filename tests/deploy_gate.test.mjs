@@ -408,6 +408,7 @@ test("e2e-full: nothing narrows the push-run: no path filter, no job or step con
   const upload = wf.jobs.build.steps.find((s) => s.id === "upload-site");
   assert.equal(wf.jobs.build.outputs?.site, "${{ steps.upload-site.outcome }}", "the output the shards wait on is the tested site's upload");
   assert.equal(upload?.if, "${{ !cancelled() && steps.site-build.outcome == 'success' }}");
+  assert.equal(upload?.with?.["if-no-files-found"], "error", "nothing packaged fails the upload, so outputs.site is not success and the shards skip (GATE7)");
   const shard = wf.jobs.test.steps.filter((s) => /npm test -- --shard=\$\{\{ matrix\.shard \}\}\/4/.test(s.run || ""));
   const gen = wf.jobs.gen.steps.filter((s) => /npm run e2e:gen/.test(s.run || ""));
   assert.equal(shard.length, 1, "each shard runs its quarter of the core suite");

@@ -182,6 +182,10 @@ jobs:
           name: complete-e2e-site
           path: complete-e2e-site.tgz
           retention-days: 1
+          # v1.263.4 (GATE7, the reviewer's new 6 on #392): a failed "Package tested site" leaves no tgz. The
+          # default `warn` would conclude this step success, set outputs.site, and let every shard fail at its
+          # download, the reds pointing at the wrong step. `error` fails HERE, so the shards and gen skip instead.
+          if-no-files-found: error
 
   test:
     name: E2E shard ${{ matrix.shard }}/4
