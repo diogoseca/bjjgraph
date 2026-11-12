@@ -11,10 +11,13 @@ import { journey } from "../dsl"
  * v1.252.0): a finger reaching from the card or the hand (what lies under the thumb when a card opens) declined nothing at
  * any size. A finger that started on the ARTICLE did: it was reading on touch-down, so a player who scrolled past the card
  * and dragged back from the article toward answers above the top edge lost the question's clock, paused the game and was
- * logged as having ignored it (land_q_declined:reading), since v1.236.0 (U47 d). Now (reader.src.js `readingInteraction`,
- * `reachLeft`; app.src.jsx `_landView`) such a scroll is reaching while the card is on screen and one of its answers is
+ * logged as having ignored it (land_q_declined:reading), since v1.236.0 (U47 d). Now (reader.src.js readingInteraction and
+ * reachLeft; app.src.jsx `_landView`) such a scroll is reaching while the card is on screen and one of its answers is
  * out of view; it is reading, with the old free decline, if it carries the card off the screen, and at once when every
  * answer is already in view (the reading rule, reading-mode.spec.ts, kept).
+ *
+ * The deploy gate (@curated) carries one journey, the 390x631 reach from the card: if it breaks, a short phone cannot answer at all.
+ * The rest run in the PR's full suite (CURATED36: the gate is near its 45-minute ceiling).
  *
  * Every gesture is a finger: CDP touchStart/touchMove/touchEnd, held still before the lift so no fling adds distance. The
  * start point is measured and asserted to lie on what the test claims (card, article). The press that answers is a touch
@@ -155,7 +158,7 @@ for (const size of SIZES) test.describe(`${size.width}x${size.height}, by touch`
 test.describe("390x631, by touch, from the article", () => {
   test.use({ viewport: { width: 390, height: 631 }, hasTouch: true })
 
-  test("@curated SHORT1: past the answers, a drag from the article back toward the answers is reaching: nothing declines, the clock runs, an answer scores", async ({ page }) => {
+  test("SHORT1: past the answers, a drag from the article back toward the answers is reaching: nothing declines, the clock runs, an answer scores", async ({ page }) => {
     const j = await arriveAndTakeUp(page)
     const { art } = await overshoot(page, j)
     await finger(page, art.x, art.y, -100)
@@ -172,7 +175,7 @@ test.describe("390x631, by touch, from the article", () => {
     await expect.poll(async () => (await state(page)).graded, "the answer scores").toBe(1)
   })
 
-  test("@curated SHORT1 control: with every answer in view, a drag from the article is reading: it declines the question, free, as before", async ({ page }) => {
+  test("SHORT1 control: with every answer in view, a drag from the article is reading: it declines the question, free, as before", async ({ page }) => {
     const j = await arriveAndTakeUp(page)
     // bring every answer into view with a finger on the card, until the article shows under the thumb
     for (let k = 0; k < 6; k++) {
@@ -195,7 +198,7 @@ test.describe("390x631, by touch, from the article", () => {
     expect((await state(page)).expired, "declined free: it never expires").toBe(0)
   })
 
-  test("@curated SHORT1: a reach from the article that carries the card off the screen is reading: declined, free, as a touch on the article was before", async ({ page }) => {
+  test("SHORT1: a reach from the article that carries the card off the screen is reading: declined, free, as a touch on the article was before", async ({ page }) => {
     const j = await arriveAndTakeUp(page)
     const { s: over } = await overshoot(page, j)
     const art = (await lowest(page, "article", over.bot - 12, over.bot - 200))!
@@ -209,7 +212,7 @@ test.describe("390x631, by touch, from the article", () => {
     expect((await state(page)).expired, "declined free: it never expires").toBe(0)
   })
 
-  test("@curated SHORT1: the escape drill's card: its answers are on screen, and past them a drag from the article back keeps its clock", async ({ page }) => {
+  test("SHORT1: the escape drill's card: its answers are on screen, and past them a drag from the article back keeps its clock", async ({ page }) => {
     const j = await arriveAndTakeUp(page)
     // get CAUGHT deterministically — rig every draw that can end the exchange early (CLAUDE.md §6.3)
     const options = await j.optionTitles()
