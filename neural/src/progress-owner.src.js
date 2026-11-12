@@ -135,10 +135,10 @@ export function ngProgressMergeMoves(local, cloud, today) {
 //      The account's own row is kept. It is the cloud's row ONLY because the join runs after a successful pull
 //      (`joinGuest`'s `not-pulled` refusal, `_pullAndMerge`): `live` then holds the cloud's rows, so the next pull,
 //      on this device or another, cannot undo it (ORDER1, tests/guest_join_safety.test.mjs 11).
-//   3. the guest's roll ledger never evicts one of the account's (`ngProgressGuestFlow`): the ledger keeps the 6 newest
-//      device partitions, so a guest partition added to an account already at 6 pushed its oldest out (the second
-//      reader: 60 rolls became 51). Below the cap the guest's partition is added as it is; at the cap it is folded into
-//      the account's newest partition, cell by cell, by MAX.
+//   3. the guest's roll ledger never evicts one of the account's and is never counted twice (`ngProgressGuestFlow`):
+//      the ledger keeps the 6 newest device partitions, so a guest partition added to an account already at 6 pushed
+//      its oldest out (the second reader: 60 rolls became 51). The guest's partition joins as itself while there is
+//      room or while the account already holds it; at the cap it is not joined (its rolls stay in the guest copy).
 // Every other field of that merge already only adds (prep/rec/stage/days MAX, belts.held MAX and won union,
 // badges/coins/explored/tut union, challenges MAX progress, lists add-wins). Units, `belts.won` records, `dayLog.w` and
 // fields from later builds keep the account's value where it has one: the account's value AFTER the first pull, i.e.
@@ -179,26 +179,27 @@ export function ngProgressPracticeKey(blob) {
   if (ngProgressObject(b.challenges)) for (const id of NG_PROGRESS_TRAIL_CHALLENGES) delete b.challenges[id];
   return ngProgressCloudKey(b);
 }
-// The flow fold (rule 3). `cap` is the app's NG_FLOW_DEVICES (6; a unit pins the default equal to it). A guest partition
-// the account already holds (a re-join) stays itself, so MAX keeps the re-join idempotent; one more partition is added
-// only while there is room; past that, every remaining guest partition folds into the account's newest partition (the
-// one with the latest day, ties by id) by MAX per cell, which never lowers the account and may undercount the guest.
+// Rule 3, the roll ledger (FOLD2, the second reader's re-check, 12 Nov). `cap` is the app's NG_FLOW_DEVICES (6; a unit
+// pins the default equal to it). A guest partition joins AS ITSELF, under its own device id, which never changes:
+//   - the account already holds it (an earlier join, the mark lost, or the guest copy changed): it merges with itself
+//     by MAX per cell, so a re-join can never count a roll twice;
+//   - the account has room (fewer than `cap` partitions): it is added, and the ledger sums it exactly at read;
+//   - the account is at the cap: it is NOT joined. Its rolls stay in the guest copy and the account does not count
+//     them: an undercount, which the owner's orchestrator accepted; a double count is not acceptable.
+// No memory, no choice that can drift. The first build of the fix folded the guest's rows into "the account's newest
+// partition", chosen again at every join; when another device became the newest between two joins of one guest copy,
+// the same rolls landed in a second partition and were summed twice (6 real rolls read 11, 5 read 10, and the line was
+// said again: tests/guest_join_safety.test.mjs 19). Known and kept (the reader's N2): a guest partition added below
+// the cap takes one of the six slots, so a later new device of the account evicts one of the account's partitions one
+// device sooner than it would have; that is the ledger's own cap rule (`_trimFlow`), reached one partition earlier.
 export function ngProgressGuestFlow(account, guest, cap = 6) {
   const acct = ngProgressObject(account) ? account : {}, out = {};
-  let room = cap - Object.keys(acct).length, target = null;
-  const newestDay = D => { let n = -1; for (const pk in D || {}) for (const o in D[pk] || {}) { const r = D[pk][o]; if (Array.isArray(r) && r[2] > n) n = r[2]; } return n; };
+  let room = cap - Object.keys(acct).length;
   for (const dev of Object.keys(ngProgressObject(guest) ? guest : {}).sort()) {
     const G = guest[dev];
     if (!ngProgressObject(G)) continue;
-    if (dev in acct || room > 0) { if (!(dev in acct)) room--; out[dev] = ngProgressClone(G); continue; }
-    if (target === null) target = Object.keys(acct).sort().reduce((best, d) => best === null || newestDay(acct[d]) > newestDay(acct[best]) ? d : best, null);
-    const T = (out[target] = out[target] || {});
-    for (const pk in G) for (const o in G[pk] || {}) {
-      const g = G[pk][o];
-      if (!Array.isArray(g)) continue;
-      const P = (T[pk] = T[pk] || {}), t = P[o];
-      P[o] = Array.isArray(t) ? t.map((x, i) => Math.max(x || 0, g[i] || 0)) : g.slice();
-    }
+    if (dev in acct) { out[dev] = ngProgressClone(G); continue; }
+    if (room > 0) { room--; out[dev] = ngProgressClone(G); }
   }
   return out;
 }

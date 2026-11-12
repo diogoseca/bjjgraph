@@ -23,11 +23,16 @@
 //   14-18. REVIEW375 (the second reader of PR #375): the reader's figure-level case on the real wire, both rulesets (14);
 //      the roll ledger at its 6-partition cap and below it (15); a re-join with the mark, then the local copy, lost (16);
 //      an existing player restored at boot (17); the explicit legacy import through the same rule, the guest kind gone (18).
+//   15, 19. FOLD2 (the reader's re-check of cb762c8b7): the first ledger fix folded the guest's rows into "the account's
+//      newest partition", chosen again at every join, so when the newest changed between two joins of one guest copy the
+//      same rolls were summed twice (6 read 11). Now a guest partition joins as itself (room, or already held) or not at
+//      all (at the cap): the reader's case in 15, its adv_5_fold scenario in 19; both red on cb762c8b7's fold.
 // MUTANTS (2026-11-12, REVIEW375, all 20 run against this green file; each turned the tests named red):
 //   ORDER1 fix reverted: the join in `_applyUser` before the pull, no not-pulled refusal  → 11, 12, 14, 15, 16
 //   ORDER1 call moved back to `_applyUser`, the host's refusal kept                      → 3-13, 15, 16, 17 (nothing joins)
 //   ORDER1 the join's not-pulled refusal removed (the call after the pull kept)           → 12 (a direct host call)
 //   F1 the guest's ledger partition added regardless of the cap                          → 15
+//   FOLD2 the first fix's fold back (into the account's newest partition, cb762c8b7)      → 15, 19 ("6 real rolls read 11")
 //   F2 prep summed in the merge instead of MAX                                           → 13, 16, 17
 //   F3 the join only after a sign-in in this tab, not on a restored session              → 9, 17
 //   F5 confirmImport back to the plain merge                                             → 18
@@ -466,8 +471,8 @@ test("14. REVIEW375 M1, figures on the real wire: a returning player's known mov
   }
 });
 
-test("15. REVIEW375 F1: the guest's roll ledger never evicts one of the account's (at the cap it folds; below it, it is added)", async () => {
-  assert.equal(M.Component.prototype.NG_FLOW_DEVICES, 6, "the fold's default cap is the app's NG_FLOW_DEVICES");
+test("15. REVIEW375 F1 + FOLD2: the guest's roll ledger never evicts the account's and is never counted twice (at the cap it is not joined; below it, it joins as itself)", async () => {
+  assert.equal(M.Component.prototype.NG_FLOW_DEVICES, 6, "the rule's default cap is the app's NG_FLOW_DEVICES");
   const rolls = (flow) => { let n = 0; for (const d in flow || {}) for (const pk in flow[d]) for (const o in flow[d][pk]) n += flow[d][pk][o][0]; return n; };
   const devices = (k) => Object.fromEntries(Array.from({ length: k }, (_, i) => ["dev" + i, { "Mount|Top": { "17": [10, 5, DAY - 10 - i] } }]));
   for (const k of [6, 2]) {                                           // at the cap, and with room
@@ -476,18 +481,22 @@ test("15. REVIEW375 F1: the guest's roll ledger never evicts one of the account'
     await h.boot();
     const g = h.get(); g.flow = { dGUEST: { "Mount|Top": { "17": [3, 1, DAY], "23": [2, 2, DAY] } } }; g.prep["Mount|Top"] = 1; g._flushSave();
     const a = await h.signIn("A"), joined = h.host.cloudSnapshot(a).flow;
-    for (let i = 0; i < k; i++) assert.ok(joined["dev" + i], "k=" + k + ": the account's partition dev" + i + " is kept");
+    for (let i = 0; i < k; i++) assert.deepEqual(joined["dev" + i], devices(k)["dev" + i], "k=" + k + ": the account's partition dev" + i + " is kept, unchanged");
     assert.ok(Object.keys(joined).length <= 6, "k=" + k + ": within the cap");
     if (k === 6) {
-      assert.equal(joined.dGUEST, undefined, "at the cap the guest's partition is folded, not added");
-      assert.equal(rolls(joined), 60 + 2, "the account's 60 rolls stay; the fold adds the guest's cell the account lacked (MAX on the shared cell)");
+      assert.equal(joined.dGUEST, undefined, "at the cap the guest's partition is not joined");
+      assert.equal(rolls(joined), 60, "the account's 60 rolls stay, and the guest's are not counted (an undercount, never a double)");
     } else {
-      assert.deepEqual(joined.dGUEST, { "Mount|Top": { "17": [3, 1, DAY], "23": [2, 2, DAY] } }, "below the cap it is added as it is");
+      assert.deepEqual(joined.dGUEST, { "Mount|Top": { "17": [3, 1, DAY], "23": [2, 2, DAY] } }, "below the cap it joins as itself");
       assert.equal(rolls(joined), 20 + 5, "and the totals add exactly");
     }
-    // a re-join of the same guest copy (the mark lost) changes nothing
+    cloud.set("A", clone(h.host.cloudSnapshot(a)));                   // what was pushed
+    // THE READER'S CASE: between two joins another device of the account rolls today, so the newest partition changes
+    cloud.get("A").flow.dev1["Mount|Top"]["17"] = [11, 6, DAY];
     h.mem.rows.delete(markOf(A)); h.signOut(); const b = await h.signIn("A");
-    assert.equal(rolls(h.host.cloudSnapshot(b).flow), rolls(joined), "k=" + k + ": a re-join adds nothing");
+    const again = h.host.cloudSnapshot(b).flow;
+    assert.equal(rolls(again), rolls(joined) + 1, "k=" + k + ": a re-join adds only the other device's one new roll, never the guest's again");
+    assert.ok(!again.dGUEST || JSON.stringify(again.dGUEST) === JSON.stringify(joined.dGUEST), "k=" + k + ": the guest's partition, if joined, is itself, once");
   }
 });
 
@@ -542,4 +551,32 @@ test("18. REVIEW375 F5: the data layer's explicit legacy import goes through the
   assert.equal(b.prep["Mount|Top"], 5, "the legacy practice joined");
   assert.equal(b.moves[P][X][3], 1, "the cloud's Yes stands against the legacy copy's later No");
   assert.equal(b.settings.emailMarketing, false, "consent stays the account's");
+});
+
+test("19. FOLD2 (the reader's adv_5_fold): at the ledger cap, whatever becomes the newest partition between two joins, the guest's rolls are never counted twice", async () => {
+  const tally = (flow, pk, o) => { let n = 0, k = 0; for (const d in flow || {}) { const r = flow[d] && flow[d][pk] && flow[d][pk][o]; if (r) { n += r[0]; k += r[1]; } } return [n, k]; };
+  const six = () => { const f = {}; for (let i = 0; i < 6; i++) f["d" + i] = { "Side|Top": { "9": [10, 5, DAY - 20 + (i === 0 ? 10 : 0) - i] } }; return f; };   // d0 newest
+  const G1 = { v: 2, prep: { "Mount|Top": 1 }, flow: { dG: { "Mount|Top": { "17": [5, 2, DAY - 1] } } }, settings: { flowDevice: "dG" }, settingsAt: { flowDevice: 1 } };
+  const G2flow = { dG: { "Mount|Top": { "17": [6, 2, DAY] } } };       // the guest played once more
+  const cases = [
+    { name: "A: another device becomes the newest; the guest plays once more", playMore: true },
+    { name: "B: another device becomes the newest; the mark is lost (the same guest copy)", playMore: false },
+  ];
+  for (const c of cases) {
+    const mem = memory(); mem.setItem(guestKey, envelope(GUEST, G1));
+    const cloud = new Map([["A", { v: 2, flow: six(), prep: { "Side|Top": 3 } }]]);
+    const h = harness(mem, cloud);
+    await h.boot(); await h.signIn("A"); await wait(700);
+    const t1 = tally(cloud.get("A").flow, "Mount|Top", "17");
+    cloud.get("A").flow.d3["Side|Top"]["9"] = [11, 6, DAY];          // another device rolls today: it becomes the newest
+    h.signOut();
+    if (c.playMore) { const g = h.get(); g.flow = clone(G2flow); g._flowVer = (g._flowVer || 0) + 1; g._flushSave(); }
+    else h.mem.rows.delete(markOf(A));
+    await h.signIn("A"); await wait(700);
+    const flow = cloud.get("A").flow, t2 = tally(flow, "Mount|Top", "17"), real = (c.playMore ? G2flow : G1.flow).dG["Mount|Top"]["17"];
+    assert.ok(t1[0] <= 5 && t2[0] <= real[0], c.name + ": the guest's " + real[0] + " real rolls read " + t2[0] + " (after join 1: " + t1[0] + "): never more");
+    for (let i = 0; i < 6; i++) assert.ok(flow["d" + i], c.name + ": the account's partition d" + i + " is kept");
+    assert.deepEqual(flow.d3["Side|Top"]["9"], [11, 6, DAY], c.name + ": the other device's tally is not lowered");
+    assert.equal(h.said.length, 1, c.name + ": the line is said once (join 1 brought the guest's answers)");
+  }
 });
