@@ -14942,6 +14942,7 @@ class Component extends DCLogic {
     const el = this._landEl, q = this._landQ;
     if (!this._landAsk || !el || !q || this._landHidden(true)) return;
     this._landAsk = false;
+    q.seen = true;                         // SHORT4: the tap that takes it up is on its card, so it faces the player (`_offTick`)
     this._landTakenAt = performance.now(); // opens the double-tap guard (_landTapGuard)
     this._landOptIn();                     // U52 b: later landings show the full card directly
     // The quiet line had `animation:none`; dropping it would replay the card's entry fade on the question just
@@ -18296,43 +18297,47 @@ class Component extends DCLogic {
   // time (since v1.236.0, U47 d; before it every question declined so). With every answer in view the same scroll is
   // reading and declines as before, "a free pause, not a loss" (reading-mode.spec.ts). Both the landing and a catch's
   // drill build their answers as the last child of `[data-land-q]`. No height = not laid out: SKIP, never a verdict.
-  _landView() {
+  // SHORT4: `answers` asks for `all` too; the per-frame check (`_offTick`) needs only `on`, two rects. `on` is any overlap
+  // beyond half a pixel (a sub-pixel sliver is not something a player can see).
+  _landView(answers) {
     const q = this._landQ, el = this._landEl;
     if (!q || q.answered || this._landAsk || this._readerIntent || !el || !el.isConnected || this._landHidden()) return null;
     const r = el.getBoundingClientRect();
     if (!(r.height > 0)) return { on: true, all: false };
     const v = this._reader ? this._reader.root.getBoundingClientRect() : null;
     const top = Math.max(0, v ? v.top : 0), bot = Math.min(innerHeight, v ? v.bottom : innerHeight);
+    const on = r.bottom > top + 0.5 && r.top < bot - 0.5;
+    if (!answers) return { on, all: false };
     const ans = [...(el.querySelector("[data-land-q]")?.lastElementChild?.querySelectorAll("button") || [])].filter((b) => b.getClientRects().length);
-    return { on: r.bottom > top && r.top < bot, all: ans.every((b) => { const a = b.getBoundingClientRect(); return a.top >= top - 0.5 && a.bottom <= bot + 0.5; }) };
+    return { on, all: ans.every((b) => { const a = b.getBoundingClientRect(); return a.top >= top - 0.5 && a.bottom <= bot + 0.5; }) };
   }
-  // SHORT1: the reader asks this (`_rch`) when a wheel, touch or pen scroll starts on the article. True = the player is reaching for
-  // an answer out of view on a card still on screen: not reading, so no decline, no pause, and the clock runs. The reach is
-  // then judged where it goes (`_reachTick`). A press on the game ends it: that is the player's own scroll, which never
-  // declines, so a reach can never turn a later scroll begun on the card into a decline. Its lifters: that press, the
-  // question resolving, a new question, and the card leaving the screen.
-  _rch() { // the reach; four letters because the reader's call of it is paid for in capped deferred bytes
-    const v = this._landView(), R = this._reader;
-    if (!v || !v.on || v.all) return false;
-    this._rq = this._landQ;
-    if (R && !this._rqLift) {
-      this._rqLift = true;
-      for (const t of ["touchstart", "pointerdown", "wheel"])
-        R.root.addEventListener(t, (e) => { if (e.composedPath().includes(R.game)) this._rq = null; }, { passive: true, capture: true });
-    }
-    return true;
+  // SHORT1: the reader asks this (`_rch`) when a wheel, touch or pen scroll starts on the article. True = the player is
+  // reaching for an answer out of view on a card still on screen: not reading, so no decline at touch-down, no pause, and
+  // the clock runs. Where that scroll then takes the card is `_offTick`'s to judge, as for every other scroll (SHORT4).
+  _rch() { // four letters because the reader's call of it is paid for in capped deferred bytes
+    const v = this._landView(true);
+    return !!v && v.on && !v.all;
   }
-  // Every frame (`_tickDecision`) while a reach is open: once its card has left the screen, the reach is the scroll a press on
-  // the article always was, and the question is declined, free, as before (a question that does not face you must not
-  // expire). The reader is not switched to reading mid-scroll: its layout would move under the finger; the next press on the
-  // article reads, as ever. A scroll begun on the game is untouched: it never declines, so a question it carries off the
-  // screen can still expire there (measured at 390x631 on v1.259.1 and production v1.252.0). That rule is not this fix's.
-  _reachTick() {
-    const q = this._rq;
-    if (q !== this._landQ || q.answered) { this._rq = null; return; }
-    if (this._landView()?.on) return;
-    this._rq = null;
-    this._declineLandQ("reading");
+  // SHORT4 (owner, U146 a, 2026-11-12: "One rule, however the scroll began: a question you can no longer see is put down
+  // without a miss. The same thing a scroll on the article already does."). Every frame (`_tickDecision`, before it writes
+  // the clock bar): a taken-up, open question whose card has been on screen and now has no part of its border box inside
+  // the reader's visible box is declined, free (`land_q_declined`, reason "off_screen"), whatever moved it: a finger on the
+  // card, on the moves or on the article, a wheel, a key, a scroll the app made for the player, the layout. "Wholly left"
+  // is 0 px of overlap (half a pixel of tolerance, `_landView`): a sliver still showing is the card the player can see, and
+  // a card partly off screen is untouched. "Has been on screen" (`q.seen`) keeps the app's own scroll to the top at a new
+  // landing, which can land a frame after the card mounts below a scrolled reader, from declining the question it brings.
+  // Until v1.262.12 a scroll begun on the game carried the card off with its clock running, and the question expired out
+  // of sight as a miss (measured at 390x631 on the preview, v1.259.1, and production, v1.252.0). The escape drill shares
+  // the check: its decline stops its clock (`_declineLandQ` keeps a drill un-pending), and `q.gone` makes that once. `seen` is
+  // set by a frame that finds the card on screen, or by the take-up tap (`_landReveal`), which is on the card.
+  // Coming back resurrects nothing: a declined question is answered for good, and a drill's clock stays down.
+  _offTick() {
+    const q = this._landQ, v = this._landView();
+    if (!v || q.gone) return;
+    if (v.on) { q.seen = true; return; }
+    if (!q.seen) return;
+    q.gone = true;
+    this._declineLandQ("off_screen");
   }
   _expireLandQ() {
     this._disarmLandClock();
@@ -18410,7 +18415,7 @@ class Component extends DCLogic {
   // sites and the ~5s frame-loop age-out — retired in v1.218.0: no outcome writes the announcer
   // any more, and a card hit cannot pin, it is gone in ~1.3s of wall clock.)
   _tickDecision(gdt) {
-    if (this._rq) this._reachTick(); // SHORT1
+    this._offTick(); // SHORT4: a taken-up question whose card has left the screen is put down, free
     if (this._readerIntent) return;
     // Only a scroll leaves the reader interacting with a question still pending: every other
     // reading gesture declined it as it happened (reader.src.js readingInteraction).
