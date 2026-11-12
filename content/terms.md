@@ -60,11 +60,11 @@ To the fullest extent permitted by law, we accept **no liability** for any injur
 
 ## 6. No professional advice; no warranty
 
-The Service is provided for general educational use. We make **no warranty** that the content is accurate, complete, current, or fit for any particular purpose. The Service does not provide medical, legal, or professional advice.
+The Service is provided for general educational use. We make **no warranty** that the content is accurate, complete, current, or fit for any particular purpose. The Service does not provide medical, legal, or professional advice. The simulated roll, including any success percentages or modifiers, is a gameplay estimate for study purposes only — it does not predict real outcomes.
 
 ## 7. Intellectual property
 
-The content of BJJGraph (text, data, and graph) is © Diogo Seca and is made available under the project's content licence (a [PolyForm](https://polyformproject.org/) licence). The underlying site generator (Quartz) is provided under its own open-source (MIT) licence. You agree to respect the terms of the applicable licences. The BJJGraph name and branding remain the property of their owner.
+The content of BJJGraph (text, data, and graph) is © Diogo Seca and is made available under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0). The underlying site generator (Quartz) is provided under its own open-source (MIT) licence. You agree to respect the terms of the applicable licences. The BJJGraph name and branding remain the property of their owner, and embedded videos and previews belong to their creators.
 
 ## 8. Affiliate disclosure
 
@@ -72,7 +72,7 @@ Some outbound links on the Service (for example, links to **BJJFanatics**) are *
 
 ## 9. User contributions
 
-The Service lets you contribute limited data, such as **votes** that nudge technique success rates and your **training progress**. By contributing, you grant us permission to store and process that data as needed to operate and improve the Service, as described in the [Privacy Policy](/privacy).
+The Service lets you contribute limited data, such as your **training progress**, the lists you make and any feedback you send. By contributing, you grant us permission to store and process that data as needed to operate and improve the Service, as described in the [Privacy Policy](/privacy).
 
 ## 10. Limitation of liability
 
