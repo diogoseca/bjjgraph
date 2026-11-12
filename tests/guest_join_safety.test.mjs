@@ -27,13 +27,13 @@
 //      newest partition", chosen again at every join, so when the newest changed between two joins of one guest copy the
 //      same rolls were summed twice (6 read 11). Now a guest partition joins as itself (room, or already held) or not at
 //      all (at the cap): the reader's case in 15, its adv_5_fold scenario in 19; both red on cb762c8b7's fold.
-// MUTANTS (2026-11-12, REVIEW375, all 20 run against this green file; each turned the tests named red):
-//   ORDER1 fix reverted: the join in `_applyUser` before the pull, no not-pulled refusal  → 11, 12, 14, 15, 16
-//   ORDER1 call moved back to `_applyUser`, the host's refusal kept                      → 3-13, 15, 16, 17 (nothing joins)
+// MUTANTS (2026-11-12, rerun after FOLD2: all 21 run against this green file; each turned the tests named red):
+//   ORDER1 fix reverted: the join in `_applyUser` before the pull, no not-pulled refusal  → 11, 12, 14, 15, 16, 19
+//   ORDER1 call moved back to `_applyUser`, the host's refusal kept                      → 3-13, 15-17, 19 (nothing joins)
 //   ORDER1 the join's not-pulled refusal removed (the call after the pull kept)           → 12 (a direct host call)
-//   F1 the guest's ledger partition added regardless of the cap                          → 15
+//   F1 the guest's ledger partition added regardless of the cap                          → 15, 19
 //   FOLD2 the first fix's fold back (into the account's newest partition, cb762c8b7)      → 15, 19 ("6 real rolls read 11")
-//   F2 prep summed in the merge instead of MAX                                           → 13, 16, 17
+//   F2 prep summed in the merge instead of MAX                                           → 13, 16, 17, 19
 //   F3 the join only after a sign-in in this tab, not on a restored session              → 9, 17
 //   F5 confirmImport back to the plain merge                                             → 18
 //   F5 the guest import kind restored                                                    → 18
