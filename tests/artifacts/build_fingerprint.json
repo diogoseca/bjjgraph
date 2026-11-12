@@ -1,26 +1,15 @@
 {
  "_meta": {
-  "app_provenance": {
-   "command": "npm run regenerate:neural",
-   "esbuild": "0.27.0",
-   "git_head": "79318e8e9cd9129942ad24ab0d4c94a2a35d5618",
-   "inputs": {
-    "tree": "d66cf9b8786f077981f6fb0f868d48ca3495a599"
-   },
-   "package_version": "1.265.0",
-   "rows_from": "neural/dist",
-   "schema": "app-assets-rebuild-v2"
-  },
-  "capture_tree": "/home/user/bjj-orchestrator/scratch/legal-boxes/capture/cap391-71c4d652a/pr-legal-boxes-71c4d652a",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/operator-once/capture/capu151-d1f0ae5b7/pr-operator-once-d1f0ae5b7",
   "content_provenance": {
-   "capture_git_head": "71c4d652a5458c5f9c2f0ccd765ac89ce7a70a72",
-   "capture_id": "6cdd5937ce5a42609eaf2b55036dc6b3",
+   "capture_git_head": "d1f0ae5b723be84062f91e803abb40882f886e25",
+   "capture_id": "cf8c543d0d3b492881b775bf4ae604e1",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6331,
    "content_md": 4549,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "e9495ea4eeb80358f9cf0203b214bde273b44905",
+   "content_tree": "32bf2aa69c480694d5eaf8634630cb92cfd7c4f1",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -45,11 +34,11 @@
    },
    "output_identity": {
     "files": 15828,
-    "sha256": "487f8ca9d6e7e67822faf33b230e36fde27ae88c5478852690987cb328ce870c"
+    "sha256": "f2bc42f14c6377c1c1714c9218e362d61497630447084d79fdce2a091b984176"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/legal-boxes/capture/cap391-71c4d652a/pr-legal-boxes-71c4d652a"
+    "/home/user/bjj-orchestrator/scratch/operator-once/capture/capu151-d1f0ae5b7/pr-operator-once-d1f0ae5b7"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -96,8 +85,8 @@
     "sha256": "d807ef6f5dc3649d41932f2145b6716a61bd9386a1459974180854ef1e10dbf2"
    },
    "static/neural/app/neural.css": {
-    "bytes": 55749,
-    "sha256": "8d4a22b4636aa5ef864460671b59b810c076f31df313899270e2472db91a7e8a"
+    "bytes": 55503,
+    "sha256": "ec5bd75167903cd04cb5bf3ca07eb664d2f2d90e7e5b82ce8a8561c497fbe472"
    },
    "static/neural/app/neural.js": {
     "bytes": 685384,
@@ -105,8 +94,8 @@
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
-    "bytes": 44842,
-    "sha256": "009cfa4d24ca3ecc623dd8cbeadaee1724ab46a32e55bfe2f29df1678613b4b3"
+    "bytes": 44879,
+    "sha256": "a7efbb2c9e56033564a6d058891bd5f6b04a5a0242c358d995f69ec1ec9e69dd"
    },
    "static/neural/app/reading.css": {
     "bytes": 10671,

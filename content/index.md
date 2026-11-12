@@ -90,5 +90,5 @@ simulated rolls help with study; they do not replace coached practice. The graph
 probabilities are model estimates, not measured success rates for you or guarantees
 about a real roll. Content is under active development and can contain errors.
 
-BJJ Graph is operated by Diogo Seca. You can report a content issue through the
+You can report a content issue through the
 [public project](https://github.com/diogoseca/bjjgraph/issues).
