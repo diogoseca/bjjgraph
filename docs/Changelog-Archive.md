@@ -16355,3 +16355,24 @@ lanes), and the arrows stand inside it, each 44px target over its 44px side padd
 foot stays 18 and the answers stand where they stood) and reaching 12px past its edge; an asking line
 keeps its own padding. Lanes stay only in the columns and in a flush row whose margins cannot hold a target. The 24 is the phone
 row's padding as a constant (measuring it cost 55 B); `card-section.spec.ts` pins the row's box and the face against each other.
+
+**The side padding is 44px, not the scratch builds' 36.** `landcard-deck.spec.ts:143` (the owner's "the foot is 1.5x the side gutter")
+went red at 390 with 36: the foot 18 against a side of 36. With the arrows inside the face, the side gutter is the padding less their
+32px lane: 44 - 32 = 12, the phone's gutter as before, so the foot stays 18, and the answers stand exactly where v1.264.1 put them (only
+the face's box widens to the moves). The phone pictures of p5 are re-shot from this build.
+
+**A red found and explained: `hidden-sections.spec.ts:211`** (390, touch), 2 of 2 red on p5 and 2 of 2 green on #390's build. After
+both messages close, a press starting inside where one stood is swallowed for SHIELD_MS (400ms, reader.src.js `shield`). On a phone
+Moves' message now spans the Moves row's width, over Moves' own close (362-386), and the test pressed that close inside the 400ms after
+a SCRIPTED restore no player can make that fast; on #390 the message stopped at 358 and the press won by geometry alone. p2's scratch
+build (the card wide, the grid not) was 4 of 4 green, which isolated the cause to the wider grid. The test now waits out the shield on
+its own removal stamps (the reader's fields are mangled in the bundle, `shields` -> `s`, so a first fix reading them never waited):
+5 of 5 green. No assertion changed.
+
+**Runs** (local, under the build lock unless said): `card-section` 20 of 20 on the 36px build and again on 44px; the 29 card files and
+11 reading and article files, 491 tests, 490 of 491 on 44px with `hidden-sections:211` the one red (fixed after, 5 of 5 on a private
+port); the re-pinned files on 44px, 132 of 133 (the same red). Mutants: 7 WIDTH4 rows killed at their claims; the CARDWIDTH and WIDTH2
+rows re-run against this build, killed, with `cardwidth-next-over-face` and `width4-arrows-outside-on-phone` retargeted (a moved line,
+a truer first claim) and `cardwidth-b-starts-early` an equivalent non-kill under WIDTH4; `prev-climbs-over-choices` the same non-kill.
+The app rows re-seeded (`neural.css` and `reader.js`; no app.src.jsx change, so `neural.js` and the game bundles keep dev's rows).
+`check_payload_budget.py` exit 0: reader 44,842 B (-37), deferred 510,944 of 510,981 B, so no ceiling moves.
