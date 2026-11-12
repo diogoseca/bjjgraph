@@ -50,18 +50,20 @@ test("arriving opens a box on exactly the two legal addresses", () => {
   assert.deepEqual(yes.map((p) => re.exec(p)[1]), ["privacy", "terms", "privacy", "terms", "privacy", "terms"]);
 });
 
-// The owner's note on U150 (12 Nov 2026): the short box never prints the operator's name or "an individual" while who operates the
-// project is undecided (U151). The box's short part is a page's "In short", so each one present is held to it; the name is read from
-// the page's own "operated by **...**", never typed here. Both pages carry one (the Terms "In short" came with the content commit).
-test('each "In short" section names no operator and says no "an individual"', () => {
+// The owner's note on U150 (12 Nov 2026): the short box never prints the operator's name or "an individual". The box's short part is
+// a page's "In short", so each one is held to it. The name is the one the privacy page gives as its data controller ("The data controller
+// is **...**", the owner's U151 a), read from the page, never typed here. Both pages carry an "In short".
+const controllerName = () => /The data controller is \*\*([^*]+)\*\*/.exec(readFileSync(new URL("content/privacy.md", root), "utf8"))?.[1];
+test('each "In short" section names no data controller and says no "an individual"', () => {
+  const name = controllerName();
+  assert.ok(name && name.trim().split(/\s+/).length >= 2, "premise: the privacy page names its data controller");
   let sections = 0;
   for (const page of PAGES) {
-    const md = readFileSync(new URL(page, root), "utf8"), operator = /operated by \*\*([^*]+)\*\*/.exec(md)?.[1];
-    // a page that names no operator (after U151's answer, perhaps) has no name to leak; "an individual" is checked either way
+    const md = readFileSync(new URL(page, root), "utf8");
     const section = /^## In short[ \t]*\n([\s\S]*?)(?=^## )/m.exec(md)?.[1];
     if (section == null) continue;
     sections++;
-    if (operator) assert.ok(!section.includes(operator), page + ': its "In short" names the operator');
+    assert.ok(!name.split(/\s+/).some((w) => new RegExp("\\b" + w + "\\b").test(section)), page + ': its "In short" names the data controller');
     assert.ok(!/an individual/i.test(section), page + ': its "In short" says "an individual"');
   }
   assert.equal(sections, 2, 'both pages carry an "In short" section');

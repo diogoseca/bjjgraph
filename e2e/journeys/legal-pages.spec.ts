@@ -10,8 +10,8 @@ import { journey, type Journey } from "../dsl"
  *
  *   1. ARRIVAL: /privacy and /terms open the page's own short box as the app starts, BEFORE the map's data has arrived (graph-data held),
  *      at 390x844, 390x631 and 1440x900. Its title, date and short words are the page's (read from the served HTML here, never typed): the
- *      "In short" section, or for a page without one its first section; its head and short part never print the operator's name or
- *      "an individual" (the owner's note on U150),
+ *      "In short" section, or for a page without one its first section; its head and short part never print the name the privacy page
+ *      gives as its data controller, or "an individual" (the owner's note on U150; since U151 a that line is the one place it is printed),
  *      the short words are DRAWN, every paragraph and list item of the page is in the box, the ✕ and the "Extended version" row are on
  *      screen and own their centres, and past the intro's hand-over nothing is dealt (the hold) on the page's own address and title.
  *   2. "Extended version" opens the rest of the page in the box (its first words drawn, the ✕ and the row still on screen), and pressed
@@ -49,7 +49,8 @@ const BOX = (kind: string) => `.ng-legal[data-legal="${kind}"]`
 const TICK = 1000 / 60 + 1
 
 /** The page as the server sent it, split the way the claim reads it: the "In short" section, else the page's first section (heading and
- *  all; never its opening, which names the operator). `operator` is the name the page itself prints after "operated by", never typed here. */
+ *  all). `controller` is the name the privacy page itself prints as its data controller ("The data controller is **...**", the owner's U151 a),
+ *  never typed here: the one name the short boxes must never print, on either page. */
 async function served(page: Page, path: string) {
   const html = await (await page.request.get(path)).text()
   return page.evaluate((html) => {
@@ -66,7 +67,7 @@ async function served(page: Page, path: string) {
     const words = (s: string) => s.split(" ").slice(0, 4).join(" ")
     return {
       title: norm(doc.querySelector("h1.article-title")?.textContent || ""), tab: doc.title,
-      operator: norm(/operated by <strong>([^<]+)<\/strong>/.exec(html)?.[1] || ""), saysOperated: /operated by/i.test(art.textContent || ""),
+      controller: norm(/The data controller is <strong>([^<]+)<\/strong>/.exec(html)?.[1] || ""),
       date: date ? norm(date.textContent!).replace(/^effective date:?\s*/i, "") : "",
       shortBlocks: blocks(short), allBlocks: blocks(kids.filter((n) => n !== date)),
       shortHeads: short.flatMap((e) => e.matches("h2,h3") ? [e] : [...e.querySelectorAll("h2,h3")]).map((h) => norm(h.textContent!)),
@@ -134,10 +135,11 @@ async function expectPageBox(page: Page, path: string, label: string) {
   await expect(box.locator("[data-legal-sub]"), `${label}: the page's own date`).toContainText(s.date)
   const text = await box.evaluate((e) => (e.textContent || "").replace(/\s+/g, " "))
   const shortText = await box.locator("[data-legal-short]").evaluate((e) => (e.textContent || "").replace(/\s+/g, " "))
-  // the owner's note on U150 (12 Nov): the short box never prints the operator's name or "an individual" (the extended text is the page)
-  if (s.saysOperated) expect(s.operator, `premise: ${path} says "operated by", so its operator's name was read`).not.toBe("")
+  // the owner's note on U150 (12 Nov): the short box never prints the data controller's name or "an individual" (the extended text is the page)
+  const name = path.startsWith("/privacy") ? s.controller : (await served(page, "/privacy")).controller
+  expect(name, `premise: the privacy page names its data controller, so the name was read`).not.toBe("")
   const shown = await box.evaluate((e) => [...e.querySelectorAll("[data-legal-head],[data-legal-sub],[data-legal-short]")].map((n) => n.textContent).join(" ").replace(/\s+/g, " "))
-  expect({ name: !!s.operator && shown.includes(s.operator), individual: /an individual/i.test(shown) }, `${label}: the box's head and short part never print the operator`).toEqual({ name: false, individual: false })
+  expect({ name: shown.includes(name), individual: /an individual/i.test(shown) }, `${label}: the box's head and short part never print the data controller's name`).toEqual({ name: false, individual: false })
   expect(s.shortBlocks.filter((b) => !shortText.includes(b)), `${label}: the short part is the page's own`).toEqual([])
   // ...and its headings too: none for an "In short" box (the section's own label is not shown), the section's title for the fallback
   expect(await box.locator("[data-legal-short]").evaluate((e) => [...e.querySelectorAll("h2,h3")].map((h) => (h.textContent || "").replace(/\s+/g, " ").trim())),
