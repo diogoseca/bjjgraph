@@ -705,8 +705,8 @@ Principles, Learning — the category folds below), **Practice**, then **Path** 
 header), **Your lists**, **Last rolls**, and the **badge** at the foot, which shows today ("Today: 12
 of 20 cards · 2 rolls"; the day's rolls persist as `rollDays`) before it is opened and opens a short menu (Settings, including Notifications,
 Feedback, sign in/out; Terms · Privacy · GitHub small). Practice opens the mixed
-session (§8), Path the Challenges corridor and Last rolls the roll history; the brand ("‹ Path")
-leads back. The view ids stay `explore` · `challenges` · `history`. A lit page fades the rest of the
+session (§8), Path the Challenges corridor and Last rolls the roll history, each in the drawer; the brand
+("‹ Practice", "‹ Path") leads back. The view ids stay `explore` · `challenges` · `history`. A lit page fades the rest of the
 map to 20%, easing on the wall clock. The icon stays reachable during a catch (U16 b, U66 a);
 opening the drawer pauses the roll through the same pane law.
 
@@ -871,12 +871,13 @@ graded questions, including mistakes, once per day. Reveal earns nothing. Automa
 uses `ngPracticeRoom`: new cards stay at least a fifth of the goal; reviews are never capped. Explicit “Keep practising” appends more eligible work to the same session,
 including after the goal and while reviews remain. Shared questions reserve one obligation.
 
-The compact head shows the worn belt, stripes, format and daily progress. “Practice details &
-session queue” retains reviewed counts, blocked debt, day notices, reasons, comparison controls
+Practice keeps the drawer's width (v1.261.0, U135 a). Under “‹ Practice”
+(its Back): belt, stripes, format, daily progress. “Practice details &
+session queue” keeps reviewed counts, blocked debt, day notices, reasons, comparison controls
 and loading/retry states. Planner arrival appends even after a reveal or grade; it never replaces
-an engaged card or an in-flight press. The drawer asks for the planner on opening. Comparison
-remains deliberate through Open study plan or Refresh plan. Back restores the originating view;
-Close/Esc retain the shared pane's pause ownership. Account controls remain in the drawer.
+an engaged card or an in-flight press. Opening asks for the planner. Comparison
+stays deliberate (Open study plan, Refresh plan). Back restores the originating view;
+Close/Esc keep the pane's pause ownership.
 
 **Wire.** `curriculum.scoreWeightsByOrd` is `{div, p:{o,r,gi,nogi}, t:{o,gi,nogi}}`: each seat
 once by node ordinal, per ruleset, with both technique seats in each `t` entry. `ngWireScoreWeights`
