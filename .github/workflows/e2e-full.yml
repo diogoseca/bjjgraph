@@ -3,6 +3,12 @@ name: Complete Playwright E2E
 on:
   pull_request:
     branches: ["main", "dev"]
+  # EVERY MERGED DEV TIP (v1.263.0, the owner's U147 a). The deploy gate runs only what a deploy can break plus one
+  # quick test per surface (tests/artifacts/deploy_gate.json), so two PRs that pass alone and break together would
+  # otherwise reach the preview untested. This run sits beside deploy-dev and blocks nothing; a promotion to
+  # production takes only a commit whose push-run here is green (CLAUDE.md, Shipping).
+  push:
+    branches: ["dev"]
   schedule:
     - cron: "0 3 * * 6"
   workflow_dispatch:
@@ -10,6 +16,8 @@ on:
 permissions:
   contents: read
 
+# A PR's runs share its number; pushes to dev share refs/heads/dev, so a burst of merges cancels the older runs and
+# costs one full run, of the newest tip.
 concurrency:
   group: complete-e2e-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
@@ -105,6 +113,14 @@ jobs:
       # On a deploy there is no such opportunity, so it would only ever be a tripwire.
       - name: Build shape (tier-0 floors + committed census)
         run: npm run validate:build-shape
+
+      # THE DEPLOY GATE'S LEDGER, TITLE FOR TITLE (v1.263.0, GATE5). Playwright's own `--list --grep @curated`, which is
+      # exactly what the deploy gate runs, must equal tests/artifacts/deploy_gate.json's rows. It runs here and not in
+      # ci-validate because 9 spec files read built files while Playwright collects them. test:units checks the same
+      # ledger from the sources, but cannot expand a parametrised title: this step is what catches a condition widened
+      # to tag more cases. Mechanism: scripts/deploy_gate.mjs.
+      - name: Deploy gate ledger matches the gate's own selection
+        run: node scripts/deploy_gate.mjs check --listed
 
       # THE KEYLESS HALF OF THE ANALYTICS CONTRACT, AND THE ONLY PLACE ON A PR IT CAN RUN.
       # `validate:analytics` grades the built site against the key its build ran with, and every

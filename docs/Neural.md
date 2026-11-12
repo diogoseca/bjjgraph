@@ -537,7 +537,7 @@ playable pool) and a wire with no playable standing-position both fall back to t
 and emit `start_from_fallback {want, have}`. The Settings note under "My weak spots" names the
 live spot — the crack, its seat, and where the roll opens — from the same window, and the opening
 toast reads "Your weak spot: &lt;crack&gt;". Pinned by `e2e/journeys/start-from.spec.ts`
-(10 journeys, 8 `@curated`).
+(10 journeys).
 
 **Honesty.** EDGE describes the corpus's opponent: `opponentDefend` never reads
 `attemptProbability` (from standing, no-gi, P(I finish) 0.35 vs the corpus's 0.72;

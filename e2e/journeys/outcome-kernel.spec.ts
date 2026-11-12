@@ -103,7 +103,7 @@ const SWEEP = (GRID: number) => {
   }
 }
 
-test("@curated every node's rolled outcome distribution IS its authored one, drawn inside the branch the gate chose", async ({ page }) => {
+test("every node's rolled outcome distribution IS its authored one, drawn inside the branch the gate chose", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
 
@@ -129,7 +129,7 @@ test("@curated every node's rolled outcome distribution IS its authored one, dra
   expect(r.tvOverGrid, "nodes whose kernel differs by more than grid resolution").toBe(0)
 })
 
-test("@curated the counter cells are rolled at their authored weight — 47.4% of that mass used to be drained into the first failure", async ({ page }) => {
+test("the counter cells are rolled at their authored weight — 47.4% of that mass used to be drained into the first failure", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
 

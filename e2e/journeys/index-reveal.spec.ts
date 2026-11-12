@@ -31,7 +31,7 @@ async function boot(page: Page) {
 }
 
 for (const [type, close, what] of CASES) {
-  test(`@curated v1.253.0: the index row reveals ${what} and goes to it (1440, by mouse)`, async ({ page }) => {
+  test(`v1.253.0: the index row reveals ${what} and goes to it (1440, by mouse)`, async ({ page }) => {
     const j = await boot(page)
     await page.locator(close).evaluate(e => e.scrollIntoView({ block: "center" })); await j.readerLayoutSettled()
     await j.clickByMouse(close, what)
@@ -65,7 +65,7 @@ const parts = (page: Page) => page.evaluate(() => {
   return { card: on(a._landEl), film: on(a._landFilmEl) }
 })
 for (const [type, what] of [["card", "Questions"], ["videos", "Video"]] as const) {
-  test(`@curated v1.253.0: after a background tap the ${what} index row brings this landing's card and film back (1440, by mouse)`, async ({ page }) => {
+  test(`v1.253.0: after a background tap the ${what} index row brings this landing's card and film back (1440, by mouse)`, async ({ page }) => {
     const j = await boot(page)
     const tap = await page.evaluate(() => { for (const [x, y] of [[1320, 160], [1300, 320], [1380, 640], [1260, 90], [1000, 120]]) { const e = document.elementFromPoint(x, y); if (e?.tagName === "CANVAS") return [x, y] as [number, number] } return null })
     expect(tap, "premise: an empty point on the map").not.toBeNull()
@@ -103,7 +103,7 @@ async function wheelThenTap(page: Page, j: any) {
   return tap!
 }
 for (const width of [1152, 1440]) {
-  test(`@curated v1.253.0: after a background tap the Questions control reads closed, and after a second (free roam) it reads open again (${width}, by mouse)`, async ({ page }) => {
+  test(`v1.253.0: after a background tap the Questions control reads closed, and after a second (free roam) it reads open again (${width}, by mouse)`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 })
     const j = journey(page)
     await j.boot(PATH, { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", route => route.continue()) } })
@@ -121,7 +121,7 @@ for (const width of [1152, 1440]) {
     if (width >= 1350) expect(roam.row, "and the row reads open").toBe("false")
   })
 }
-test("@curated v1.253.0: a press on a Questions label still reading closed never turns the card layer off (the rule)", async ({ page }) => {
+test("v1.253.0: a press on a Questions label still reading closed never turns the card layer off (the rule)", async ({ page }) => {
   await page.setViewportSize({ width: 1152, height: 900 })
   const j = journey(page)
   await j.boot(PATH, { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", route => route.continue()) } })
@@ -138,7 +138,7 @@ test("@curated v1.253.0: a press on a Questions label still reading closed never
 // Round 7's review (finding 3): a restore from the index row left the reader reading, so the question's clock never armed (and a live
 // question would be declined again on the next frame). The owner's rule: the question clock never pauses.
 // A played landing, not a URL arrival: a URL arrival is reading intent (_readerIntent), under which the clock never runs at all.
-test("@curated v1.253.0: after a row restore the question's clock runs and nothing is declined again (1440, by mouse)", async ({ page }) => {
+test("v1.253.0: after a row restore the question's clock runs and nothing is declined again (1440, by mouse)", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = journey(page)
   await j.boot("/", { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", route => route.continue()) } })

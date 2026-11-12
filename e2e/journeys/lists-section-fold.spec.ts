@@ -164,7 +164,7 @@ const ownsItsCentre = (page: Page, sel: string) =>
 
 // ─────────────────────────────────────────────── 1. the default, for everyone
 
-test("fresh boot: Your lists is a folded section like its neighbours — its header, an explicit (0), a live + and nothing else @curated", async ({
+test("fresh boot: Your lists is a folded section like its neighbours — its header, an explicit (0), a live + and nothing else", async ({
   page,
 }) => {
   const j = journey(page);
@@ -207,7 +207,7 @@ test("fresh boot: Your lists is a folded section like its neighbours — its hea
   await page.locator("[data-lists-section]").screenshot({ path: resolve(SHOTS, "lists-section-open-empty.png") });
 });
 
-test("an existing user's lists come back folded — rows absent from the DOM, and nothing folded eats a click @curated", async ({
+test("an existing user's lists come back folded — rows absent from the DOM, and nothing folded eats a click", async ({
   page,
 }) => {
   const j = journey(page);
@@ -320,7 +320,7 @@ test("the header is on the same focus ladder as its neighbours: Enter and Space 
 
 // ─────────────────────────────────────────────── 3. the older rule: see what you just added
 
-test("adding a technique opens the folded section so the addition is SEEN — for this session, never persisted @curated", async ({
+test("adding a technique opens the folded section so the addition is SEEN — for this session, never persisted", async ({
   page,
 }) => {
   const j = journey(page);

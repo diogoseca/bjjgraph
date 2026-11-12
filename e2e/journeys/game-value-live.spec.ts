@@ -23,7 +23,9 @@ test.beforeAll(async ({ request }) => {
 })
 
 for (const width of [1440, 390]) {
-  test(`@curated real MDP values reach the first playable hand at ${width}px`, async ({ page }, info) => {
+  // The deploy gate (@curated) runs ONE of these, 390px: one quick test per surface (U147 a, v1.263.0).
+  // Every case runs in e2e-full's core shards on each PR and each merge to dev; tests/artifacts/deploy_gate.json.
+  test(`${width === 390 ? '@curated ' : ''}real MDP values reach the first playable hand at ${width}px`, async ({ page }, info) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.addInitScript(() => {
       ;(window as any).__NEURAL_RIG = { 'start-pos': [0], role: [0], 'ai-skill': [0.5], 'max-moves': [0.5] }
@@ -138,7 +140,7 @@ for (const width of [1440, 390]) {
 
 // This case fails the actual importScripts dependency. It never replaces Worker,
 // the native provider, the profile, a worker reply, or a displayed model value.
-test('@curated failed shared-core startup retires its worker; explicit retry restores real values and usable controls', async ({ page }, info) => {
+test('failed shared-core startup retires its worker; explicit retry restores real values and usable controls', async ({ page }, info) => {
   const workers: { url: string; closed: boolean }[] = []
   const coreRequests: string[] = [], errors: { message: string; stack: string }[] = []
   let failCore = true

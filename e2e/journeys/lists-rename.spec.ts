@@ -73,7 +73,7 @@ const seedList = (page: Page, name: string) =>
 
 // ────────────────────────────────────────────── item 1: the + design pass
 
-test("the New list + is a house-styled chip: 44px hit area around a proportionate visual, with CSS states @curated", async ({
+test("the New list + is a house-styled chip: 44px hit area around a proportionate visual, with CSS states", async ({
   page,
 }) => {
   const j = journey(page);

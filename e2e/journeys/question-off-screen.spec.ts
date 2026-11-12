@@ -5,7 +5,7 @@ import { journey } from "../dsl"
  * SHORT4 (owner, U146 a, 2026-11-12: "One rule, however the scroll began: a question you can no longer see is put down without a
  * miss. The same thing a scroll on the article already does."). A taken-up, still open question whose card has wholly left the
  * reader's visible box (0 px of overlap, half a pixel of tolerance) is declined, free, at that moment: `land_q_declined` with reason
- * "off_screen", no "too slow", no miss (`_offTick`, app.src.jsx, every frame). Until v1.262.12 a scroll begun on the card or the
+ * "off_screen", no "too slow", no miss (`_offTick`, app.src.jsx, every frame). Until v1.263.1 a scroll begun on the card or the
  * moves carried the card off with its clock running, and the question expired out of sight as a miss (measured at 390x631 on the
  * preview v1.259.1 and production v1.252.0). What still holds: a card partly off screen is untouched; reaching for an answer never
  * declines (short-phone-answers.spec.ts); with every answer in view a scroll on the article is reading and declines at once; the

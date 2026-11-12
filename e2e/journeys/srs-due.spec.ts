@@ -38,7 +38,7 @@ const seeded = (page: any, extra: any = {}) =>
     return { day: a._epochDay(), srs: a.srs, stage: a.stage };
   });
 
-test("a due card is asked FIRST on landing — any stage, before new cards @curated", async ({
+test("a due card is asked FIRST on landing — any stage, before new cards", async ({
   page,
 }) => {
   const j = journey(page);
@@ -72,7 +72,7 @@ test("a due card is asked FIRST on landing — any stage, before new cards @cura
   expect(asked).not.toBe(plant!.firstQ);
 });
 
-test("grading moves the schedule: success climbs the ladder, failure resets — and the pool drains @curated", async ({
+test("grading moves the schedule: success climbs the ladder, failure resets — and the pool drains", async ({
   page,
 }) => {
   const j = journey(page);

@@ -18,7 +18,7 @@ import { journey } from "../dsl"
  * The staged-defender entry (tapping / arriving on the escaping orb) shares the same seam and has
  * NO travel window, so the deck is late-bound there — pinned by `landcard-modes.spec.ts` journey 6.
  */
-test("@curated the panic drill reaches the authored Defender deck, not your position deck", async ({ page }) => {
+test("the panic drill reaches the authored Defender deck, not your position deck", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")

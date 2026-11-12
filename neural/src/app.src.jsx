@@ -18354,7 +18354,7 @@ class Component extends DCLogic {
   // is 0 px of overlap (half a pixel of tolerance, `_landView`): a sliver still showing is the card the player can see, and
   // a card partly off screen is untouched. "Has been on screen" (`q.seen`) keeps the app's own scroll to the top at a new
   // landing, which can land a frame after the card mounts below a scrolled reader, from declining the question it brings.
-  // Until v1.262.12 a scroll begun on the game carried the card off with its clock running, and the question expired out
+  // Until v1.263.1 a scroll begun on the game carried the card off with its clock running, and the question expired out
   // of sight as a miss (measured at 390x631 on the preview, v1.259.1, and production, v1.252.0). The escape drill shares
   // the check: its decline stops its clock (`_declineLandQ` keeps a drill un-pending), and `q.gone` makes that once. `seen` is
   // set by a frame that finds the card on screen, or by the take-up tap (`_landReveal`), which is on the card.

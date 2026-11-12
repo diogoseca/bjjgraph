@@ -72,7 +72,7 @@ async function seat(page: Page, kind: Kind) {
 }
 
 for (const kind of ["transition", "entry", "finish", "escape"] as Kind[]) {
-  test(`@curated ${kind}: no Inspect or Read, and the card title executes`, async ({ page }) => {
+  test(`${kind}: no Inspect or Read, and the card title executes`, async ({ page }) => {
     const errors: string[] = []; page.on("pageerror", (e) => errors.push(e.message))
     const j = await seat(page, kind)
     const title = await mark(page, kind)
@@ -100,7 +100,7 @@ for (const kind of ["transition", "entry", "finish", "escape"] as Kind[]) {
   })
 }
 
-test("@curated a threat is the opponent's move: its title is inert and no execute or Read control exists", async ({ page }) => {
+test("a threat is the opponent's move: its title is inert and no execute or Read control exists", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Submissions/Triangle-Choke/from-Triangle-Control/Attacker")
   await j.advance(4000)
@@ -124,7 +124,7 @@ test("@curated a threat is the opponent's move: its title is inert and no execut
 })
 
 for (const [width, height] of [[1440, 900], [390, 844]]) {
-  test(`@curated a chosen escape stays on the table, where it was, until its result (${width}px)`, async ({ page }) => {
+  test(`a chosen escape stays on the table, where it was, until its result (${width}px)`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = await seat(page, "escape")
     // Posture up's authored destination is open guard, on top: a clean escape, so the result is "Escaped!"
@@ -164,7 +164,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
   })
 }
 
-test("@curated with the pane open the stand-in is where the clicked card was, not the pane's width to the right", async ({ page }) => {
+test("with the pane open the stand-in is where the clicked card was, not the pane's width to the right", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = await seat(page, "transition")
   await page.evaluate(() => (window as any).__neural.setDeckOpen(true))
@@ -182,7 +182,7 @@ test("@curated with the pane open the stand-in is where the clicked card was, no
   }
 })
 
-test("@curated a card scrolled into the row's left fade keeps its place when chosen", async ({ page }) => {
+test("a card scrolled into the row's left fade keeps its place when chosen", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = await seat(page, "transition")
   const title = await mark(page, "transition")

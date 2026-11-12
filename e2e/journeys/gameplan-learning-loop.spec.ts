@@ -78,7 +78,7 @@ async function hit(page: any, selector: string, touch: boolean) {
   if (touch) await page.touchscreen.tap(point.x, point.y); else await page.mouse.click(point.x, point.y);
 }
 
-test("dashboard and opened plan share counts, target overrun and keyboard-accessible reasons @curated", async ({ page, isMobile }) => {
+test("dashboard and opened plan share counts, target overrun and keyboard-accessible reasons", async ({ page, isMobile }) => {
   const { fixture } = await setup(page);
   await expect(page.locator('[data-explore-stats] [data-b="due"]')).toHaveAttribute("data-new", String(fixture.newCount));
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
@@ -111,7 +111,7 @@ test("dashboard and opened plan share counts, target overrun and keyboard-access
   expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true);
 });
 
-test("capped due deck requires real reviews, one failure clears today's debt and completion emits once @curated", async ({ page, isMobile }) => {
+test("capped due deck requires real reviews, one failure clears today's debt and completion emits once", async ({ page, isMobile }) => {
   const { fixture } = await setup(page, false);
   await noNewMaterial(page);
   await page.evaluate(() => {
@@ -140,7 +140,7 @@ test("capped due deck requires real reviews, one failure clears today's debt and
   await expect(page.locator('[data-gameplan-current]')).toContainText("A new day");
 });
 
-test("live debt changes without reranking; missing provider remains visible through refresh @curated", async ({ page, isMobile }) => {
+test("live debt changes without reranking; missing provider remains visible through refresh", async ({ page, isMobile }) => {
   await setup(page, false);
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
   // D1 (owner, 2026-09-30): with no comparison the plan is ranked by weak spots, and says so
@@ -158,7 +158,7 @@ test("live debt changes without reranking; missing provider remains visible thro
   await expect(page.locator('[data-session-complete]')).toHaveCount(0);
 });
 
-test("keyboard-only review advances real cards and earns completion through the shared grade path @curated", async ({ page, isMobile }) => {
+test("keyboard-only review advances real cards and earns completion through the shared grade path", async ({ page, isMobile }) => {
   await setup(page, false);
   await noNewMaterial(page);
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
@@ -172,7 +172,7 @@ test("keyboard-only review advances real cards and earns completion through the 
   expect(await page.evaluate(() => (window as any).__neural.dueCount())).toBe(0);
 });
 
-test("post-grade callback can complete a mounted plan through shared-question credit @curated", async ({ page, isMobile }) => {
+test("post-grade callback can complete a mounted plan through shared-question credit", async ({ page, isMobile }) => {
   await setup(page, false);
   await noNewMaterial(page);
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
@@ -188,7 +188,7 @@ test("post-grade callback can complete a mounted plan through shared-question cr
   await noDueHeader(page);
 });
 
-test("no-gi defender recommendations retain their actual role and reason @curated", async ({ page, isMobile }) => {
+test("no-gi defender recommendations retain their actual role and reason", async ({ page, isMobile }) => {
   await setup(page, false);
   const key = await page.evaluate(async () => {
     const a = (window as any).__neural;
@@ -212,7 +212,7 @@ test("no-gi defender recommendations retain their actual role and reason @curate
 
 // SIDE-R2 B1 (v1.242.0): the intent is now the drawer's OPENING — its Practice row is the one door — so
 // the planner is asked for there, never at boot; a queue graded before it lands is still never replaced.
-test("planner loads only on intent while eager reviews finish without queue replacement @curated", async ({ page, isMobile }) => {
+test("planner loads only on intent while eager reviews finish without queue replacement", async ({ page, isMobile }) => {
   let requests = 0, release!: () => void;
   page.on("request", (request) => { if (request.url().includes("/app/gameplan.js")) requests++; });
   const gate = new Promise<void>((resolve) => { release = resolve; });
@@ -240,7 +240,7 @@ test("planner loads only on intent while eager reviews finish without queue repl
 
 // SIDE-R2 B1: the drawer's opening asks first, and the Practice press asks again when that failed, so
 // both are aborted here; the retry under test is still the deliberate one, the button.
-test("failed planner load keeps due cards actionable and retries on deliberate intent @curated", async ({ page, isMobile }) => {
+test("failed planner load keeps due cards actionable and retries on deliberate intent", async ({ page, isMobile }) => {
   let requests = 0;
   await setup(page, false, false, async () => {
     await page.route("**/app/gameplan.js*", async (route) => { if (++requests <= 2) await route.abort(); else await route.continue(); });
@@ -288,7 +288,7 @@ test("failed planner load keeps due cards actionable and retries on deliberate i
 // opens a plan whose new rows are dealt from the app's OWN weak-spots ranking, in its order.
 // Mutant, recorded 2026-09-30: dropping the fallback in ngGameplanBuild leaves the new rows absent
 // and turns this red at its first assertion.
-test("D1: a new player with no comparison still gets a plan, dealt from the weak-spots ranking @curated", async ({ page, isMobile }) => {
+test("D1: a new player with no comparison still gets a plan, dealt from the weak-spots ranking", async ({ page, isMobile }) => {
   await setup(page, false);
   await page.evaluate(() => {
     const a = (window as any).__neural; a.srs = {}; a.prep = {}; a.settings.dailyGoal = 30;
@@ -321,7 +321,7 @@ test("D1: a new player with no comparison still gets a plan, dealt from the weak
 });
 
 // P1 deliberately replaces the old completion gate: more work belongs to the same visit.
-test("P1-C: completion celebrates the real ledger and continuation appends to the same session @curated", async ({ page, isMobile }) => {
+test("P1-C: completion celebrates the real ledger and continuation appends to the same session", async ({ page, isMobile }) => {
   await setup(page, false);
   await page.evaluate(() => { const a = (window as any).__neural; a.settings.dailyGoal = 5; a.renderExplorer(); });
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
@@ -353,7 +353,7 @@ test("P1-C: completion celebrates the real ledger and continuation appends to th
   await expect(page.locator('[data-session-complete]')).toHaveCount(0);
 });
 
-test("P1-B: White can study an advanced deck outside its locked progression section @curated", async ({ page }) => {
+test("P1-B: White can study an advanced deck outside its locked progression section", async ({ page }) => {
   const { j } = await setup(page, false);
   const key = await page.evaluate(() => {
     const a = (window as any).__neural;

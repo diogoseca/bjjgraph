@@ -170,7 +170,7 @@ const mapGold = (page: Page, knownId: string, unknownId: string, alsoKnown: stri
   return { near, mean, hue: Math.round(hue), gold: hue >= 25 && hue <= 55 && sat > 0.35, nearU, nearO, elsewhere, repeat, apart: Math.hypot(pk.x - pu.x, pk.y - pu.y) / dpr }
 }, { knownId, unknownId, alsoKnown })
 
-test("@curated a Yes adds 15 to that card's Works % and sends the worker a new profile; a No takes it back; gold and the line follow", async ({ page }) => {
+test("a Yes adds 15 to that card's Works % and sends the worker a new profile; a No takes it back; gold and the line follow", async ({ page }) => {
   test.setTimeout(300_000)
   const j = await seat(page)
   const r0 = await read(page), y0 = by(r0, "y"), due0 = by(r0, "due"), line0 = await line(page, j)
@@ -231,7 +231,7 @@ test("@curated a Yes adds 15 to that card's Works % and sends the worker a new p
   expect((await line(page, j)).known, "the line counts it down: two Yeses, one No").toBe(line0.known + 1)
 })
 
-test("@curated gold, on the card and on the map: thin when known, twice as thick with the flashcards learned, without a reload", async ({ page }) => {
+test("gold, on the card and on the map: thin when known, twice as thick with the flashcards learned, without a reload", async ({ page }) => {
   test.setTimeout(300_000)
   const j = await seat(page)
   const p = await pointOn(page, '[data-hk="y"]')
@@ -280,7 +280,7 @@ test("@curated gold, on the card and on the map: thin when known, twice as thick
   expect(ratio > 1.6 && ratio < 2.6, `the map's outline about doubles: ${m1.near} -> ${m2.near} px (x${ratio.toFixed(2)})`).toBe(true)
 })
 
-test("@curated a seat known in part, below the cap: every card's Win % prints, and the worker reads the card's own figure", async ({ page }) => {
+test("a seat known in part, below the cap: every card's Win % prints, and the worker reads the card's own figure", async ({ page }) => {
   // review STAGE2E/F: the provider compares the card's chance with the worker's by `!==` and one card that differs makes
   // every card print "—". The first build differed by an ulp on 29 of 6,648 partly known gi seat states; this is one of
   // them (Back Control Top, 7 of its 17 dealt moves known, no flashcards: app 0.06176470588235294, worker
@@ -312,7 +312,7 @@ test("@curated a seat known in part, below the cap: every card's Win % prints, a
 test.describe("touch", () => {
   test.use({ hasTouch: true, isMobile: true, viewport: { width: 390, height: 844 } })
 
-  test("@curated a tap on Yes adds 15 to that card's Works %, sends the new profile, and counts in the line", async ({ page }) => {
+  test("a tap on Yes adds 15 to that card's Works %, sends the new profile, and counts in the line", async ({ page }) => {
     test.setTimeout(300_000)
     const j = await seat(page)
     const r0 = await read(page), y0 = by(r0, "y")

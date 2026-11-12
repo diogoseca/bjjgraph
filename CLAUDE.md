@@ -75,6 +75,7 @@ npm run regenerate:build
 
 # neural app  (npm run build does NOT rebuild the bundle — a stale one makes
 #              journeys time out at 240s and look like contention. See §6.4)
+#              test:curated is the deploy smoke; the PR's e2e-full runs the whole suite
 npm run dev:neural:app && npm run test:curated
 
 # anything touching source/quartz
@@ -86,6 +87,9 @@ cd source && npm run check
 
 **Push is the owner's call.** Commit locally as much as you like; `git push origin dev` waits for
 their go-ahead — they test locally first, especially anything touching the app.
+
+**Promote to production only a commit whose push-run `e2e-full.yml` is green.** The deploy gate runs
+only what a deploy can break (`tests/artifacts/deploy_gate.json`), and no PR run sees main's tree.
 
 **End a delivery with the literal command to run it**, and say plainly what is blocked on them.
 
@@ -267,7 +271,8 @@ with the `<snapshot />` receiver).
 (**the one you want after editing `neural/src/*`**) · `dev:neural` also regenerates the payload ·
 `regenerate:neural` the full payload emit.
 
-**Test** — `test` full core suite · `test:curated` the `@curated` deployment gate (45-min ceiling) ·
+**Test** — `test` full core suite · `test:curated` the `@curated` deploy gate: what a deploy can break plus
+one smoke per surface, a row each in `tests/artifacts/deploy_gate.json` ·
 `test:units` pure node --test · `e2e:gen` generated suite · `npm run e2e -- --headed` for a visible
 browser (ports: §8). `pree2e` and both `test*` scripts run
 `scripts/check_no_raw_random.sh` first.
@@ -475,6 +480,7 @@ Numbers live where they are enforced, never in prose here — prose copies drift
 | `e2e/gen/ledger.json` | `scripts/check_gen_specs.sh`, `e2e/gen-ledger-reporter.ts` | one row per spec; `known-red` = tolerated |
 | `tests/artifacts/ruleset_availability.json` | `validate:availability` | DERIVED, never authored — regenerate, never hand-edit |
 | `tests/artifacts/ruleset_surfaces.json` | `validate:surfaces` | one row per enumeration that deliberately skips the mask, each with a REASON; a row matching nothing fails |
+| `tests/artifacts/deploy_gate.json` | `tests/deploy_gate.test.mjs`, e2e-full's listing step | one row per `@curated` test, with its tier and reason: a tag with no row fails, a row with no test fails; `tests/artifacts/deploy_gate_budget.json` holds the line, which both deploys' tripwire reads after the upload |
 | `tests/artifacts/wikilink_ambiguity_baseline.json` | `regenerate:md` | bare names no family decides; a new one fails, a cleared one fails `--all`; move with `--accept-ambiguity --reason` |
 
 **Suites own dedicated ports** (core :8133, gen :8127, share :8129, replay :8151), all with
@@ -497,9 +503,9 @@ content are inputs to what the bots write, and a change here changes their outpu
 | workflow | trigger | what it does |
 |---|---|---|
 | `ci-validate.yml` | PR, push to dev | schemas, units, ordinals, MC viability, graph ratchet, **this file's budget + refs** |
-| `e2e-full.yml` | PR, weekly, manual | the core suite in four shards, plus `e2e:gen` vs its ledger |
+| `e2e-full.yml` | PR, push to dev, weekly, manual | the core suite in four shards, plus `e2e:gen` vs its ledger |
 | `e2e-gen.yml` | weekly, manual | `e2e:gen` on **dev**, judged by its ledger |
-| `deploy.yaml` / `deploy-dev.yaml` | push | build, stamp deploy-time values, all gates, Cloudflare Pages, Lighthouse, IndexNow |
+| `deploy.yaml` / `deploy-dev.yaml` | push | build, stamp deploy-time values, all gates, Cloudflare Pages, the gate's time, Lighthouse, IndexNow |
 | `content-improvement-bot.yml` † | Sat 18:00 UTC | improves 2 content files: select by git age → validate → Claude fills TODOs → revalidate (3 tries) → regenerate → PR |
 | `analytics-content-improvement.yml` † | Sun 06:00 UTC | PostHog-driven content work |
 | `proofread-bot.yml` | Sun 18:00 UTC | LLM audit of graph edges and probabilities |

@@ -76,7 +76,7 @@ const guideInView = (page: Page) => page.evaluate(() => {
 })
 
 for (const path of [ATTACKER, DEFENDER, HUB, FAMILY]) {
-  test(`@curated the guide is the last teaching section, in the page and its index: ${path}`, async ({ page }) => {
+  test(`the guide is the last teaching section, in the page and its index: ${path}`, async ({ page }) => {
     const j = await open(page, path, 1440)
     guideIsLast(await openTypes(page), 'page')
     guideIsLast(await indexTypes(page), 'index')
@@ -95,7 +95,7 @@ for (const path of [ATTACKER, DEFENDER, HUB, FAMILY]) {
   })
 }
 
-test('@curated a transition shares the section id and keeps its guide in place', async ({ page }) => {
+test('a transition shares the section id and keeps its guide in place', async ({ page }) => {
   await open(page, '/Transitions/Knee-Slice-Pass/Attacker', 1440)
   const types = await openTypes(page)
   expect(types).toEqual(expect.arrayContaining(['options', 'safety', 'mistakes']))
@@ -104,7 +104,7 @@ test('@curated a transition shares the section id and keeps its guide in place',
 })
 
 for (const width of [390, 1440]) {
-  test(`@curated neither top notice survives and the seat's line sits on its steps at ${width}`, async ({ page }) => {
+  test(`neither top notice survives and the seat's line sits on its steps at ${width}`, async ({ page }) => {
     await open(page, ATTACKER, width)
     const seat = () => page.locator(BODY).evaluate(body => {
       const quotes = [...body.querySelectorAll('blockquote')].filter(q => !q.closest('[data-source-id="safety-considerations"]'))
@@ -131,7 +131,7 @@ for (const width of [390, 1440]) {
   })
 }
 
-test('@curated the hub carries each seat\'s line, and a family carries none', async ({ page }) => {
+test('the hub carries each seat\'s line, and a family carries none', async ({ page }) => {
   await open(page, HUB, 1440)
   const hub = await page.locator(BODY + ' blockquote').evaluateAll(quotes => quotes.filter(q => !q.closest('[data-source-id="safety-considerations"]')).map(q => ({
     text: (q.textContent || '').trim(), next: q.nextElementSibling?.getAttribute('data-source-id'),
@@ -156,7 +156,7 @@ test('@curated the hub carries each seat\'s line, and a family carries none', as
 })
 
 for (const width of [360, 390, 1440]) for (const path of [ATTACKER, DEFENDER]) {
-  test(`@curated the line's real click reaches the guide and keeps the seat at ${width}: ${path}`, async ({ page }) => {
+  test(`the line's real click reaches the guide and keeps the seat at ${width}: ${path}`, async ({ page }) => {
     const j = await open(page, path, width, width === 390 ? 631 : 900)
     const before = await page.evaluate(() => history.length)
     await clickOwnBox(page, j, GUIDE_LINK)
@@ -171,7 +171,7 @@ for (const width of [360, 390, 1440]) for (const path of [ATTACKER, DEFENDER]) {
   })
 }
 
-test('@curated the line opens a closed guide, and a reload lands on it', async ({ page }) => {
+test('the line opens a closed guide, and a reload lands on it', async ({ page }) => {
   const j = await open(page, ATTACKER, 1440)
   const close = page.locator('[data-section-toggle="safety"]')
   await close.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
@@ -203,7 +203,7 @@ test('@curated the line opens a closed guide, and a reload lands on it', async (
 // Three lines show on a hub. The first is the Attacker fragment's, whose link names the hub. The other two are the
 // hub's own, in-page links, the only ones the no-JS hub has.
 for (const [line, section] of [['guide fragment', 'options'], ['own attacker', 'attacker-summary'], ['own defender', 'defender-summary']] as const) {
-  test(`@curated the hub's ${line} line reaches the guide`, async ({ page }) => {
+  test(`the hub's ${line} line reaches the guide`, async ({ page }) => {
     const j = await open(page, HUB, 390, 631)
     await clickOwnBox(page, j, `${BODY} [data-section-type="${section}"] blockquote a[data-reader-anchor]`)
     await expect.poll(() => new URL(page.url()).hash).toBe('#safety-considerations')
@@ -222,7 +222,7 @@ const lineBoxes = (page: Page) => page.locator(BODY + ' blockquote').first().eva
     linkBoxes: a.getClientRects().length, hyphens: [getComputedStyle(p).hyphens, getComputedStyle(a).hyphens] }
 })
 
-test('@curated a wrapped line never hyphenates and keeps its link whole', async ({ page }) => {
+test('a wrapped line never hyphenates and keeps its link whole', async ({ page }) => {
   // The reader floors its text box at 198px, so 240 wraps both lines in any face. One box means the label never broke.
   for (const [path, text] of [[ATTACKER, ATTACKER_LINE], [DEFENDER, DEFENDER_LINE]]) {
     await open(page, path, 240, 631)
@@ -251,7 +251,7 @@ test('in the real font the lines take the shape the owner chose', async ({ page 
 })
 
 for (const path of [ATTACKER, DEFENDER]) {
-  test(`@curated without the app the seat's link still reaches the hub's guide: ${path}`, async ({ page }) => {
+  test(`without the app the seat's link still reaches the hub's guide: ${path}`, async ({ page }) => {
     await open(page, path, 1440)
     const proof = await page.evaluate(async path => {
       const load = async (p: string) => { const r = await fetch(p); if (r.status !== 200) throw new Error(p + ': ' + r.status); return new DOMParser().parseFromString(await r.text(), 'text/html') }

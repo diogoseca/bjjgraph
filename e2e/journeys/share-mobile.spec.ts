@@ -126,7 +126,7 @@ const reach = (page: Page, selector: string) =>
 
 // ══════════════════════════════════════════════════ 1. THE BLOCKER: the lit graph is the end state
 
-test("a WhatsApp link opened on a phone ends on the LIT GRAPH, not a covering drawer @curated", async ({
+test("a WhatsApp link opened on a phone ends on the LIT GRAPH, not a covering drawer", async ({
   page,
 }) => {
   const j = journey(page);
@@ -202,7 +202,7 @@ test("a WhatsApp link opened on a phone ends on the LIT GRAPH, not a covering dr
   ).toMatchObject({ shown: true, view: "explore" });
 });
 
-test("dismissing the drawer on a phone leaves the class lit, and re-lighting never needs the drawer @curated", async ({
+test("dismissing the drawer on a phone leaves the class lit, and re-lighting never needs the drawer", async ({
   page,
 }) => {
   const j = journey(page);
@@ -258,7 +258,7 @@ test("dismissing the drawer on a phone leaves the class lit, and re-lighting nev
 
 // ══════════════════════════════════════════════════ 1b. the sentence has to be READABLE
 
-test("the sentence explaining the arrival waits until there is a settled screen to read it on @curated", async ({
+test("the sentence explaining the arrival waits until there is a settled screen to read it on", async ({
   page,
 }) => {
   const j = journey(page);
@@ -320,9 +320,9 @@ test("the sentence explaining the arrival waits until there is a settled screen 
 // The ordinary case now measures a settled query. The held-response case deliberately does NOT:
 // it pins the separate APP RACE where pointerup's timer repainted before a native touch click.
 for (const mode of ['ready', 'hydrate', 'cancel']) test(
-  mode === 'cancel' ? 'a cancelled native capture touch releases Systems hydration @curated' :
+  mode === 'cancel' ? 'a cancelled native capture touch releases Systems hydration' :
     "a coach captures a TECHNIQUE from the live hand with a real tap at real coordinates" +
-    (mode === 'hydrate' ? " while Systems hydrates during touch" : "") + " @curated", async ({ page }) => {
+    (mode === 'hydrate' ? " while Systems hydrates during touch" : ""), async ({ page }) => {
   const lateSystems = mode !== 'ready';
   const j = journey(page);
   await j.boot("/", lateSystems ? { payloads: { "systems-index.json": { never: true } } } : {});
@@ -451,7 +451,7 @@ for (const mode of ['ready', 'hydrate', 'cancel']) test(
 
 // ══════════════════════════════════════════════════ 3. a saved link whose list is gone
 
-test("a saved class the recipient later DELETED is offered again, not answered with silence @curated", async ({
+test("a saved class the recipient later DELETED is offered again, not answered with silence", async ({
   page,
 }) => {
   const j = journey(page);
@@ -514,11 +514,11 @@ test("a saved class the recipient later DELETED is offered again, not answered w
 
 // ══════════════════════════════════════════════════ 4. a clipped link SAYS SO — and only a clip
 
-/** THE CURATED REPRESENTATIVE. The exhaustive every-offset walk below boots the app 22 times in
+/** THE REPRESENTATIVE (the deploy gate's until v1.263.0, U147 a). The exhaustive every-offset walk below boots the app 22 times in
  *  one test; that belongs in the full suite, not in a 12-minute deployment gate. This is the same
  *  contract in two boots: a real code cut in half says "incomplete", and a string that was never
  *  one of our codes is NOT blamed on the coach. */
-test("a clipped link says it is incomplete; a string that was never our link says something else @curated", async ({
+test("a clipped link says it is incomplete; a string that was never our link says something else", async ({
   page,
 }) => {
   const j = journey(page);
@@ -682,7 +682,7 @@ test("a link clipped anywhere in transit tells the recipient it is incomplete", 
 
 // ══════════════════════════════════════════════════ 5. thumb-sized targets on the arrival surface
 
-test("the arrival surface has no thumb trap: dismiss is nowhere near Save @curated", async ({
+test("the arrival surface has no thumb trap: dismiss is nowhere near Save", async ({
   page,
 }) => {
   const j = journey(page);
