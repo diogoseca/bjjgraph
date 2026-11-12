@@ -15,7 +15,7 @@ description: The terms governing your use of BJJGraph.
 }
 </script>
 
-**Effective date: 22 June 2026**
+**Effective date: 12 November 2026**
 
 These Terms of Service ("Terms") govern your use of the website at [bjjgraph.org](https://bjjgraph.org) (the "Service"), an educational Brazilian Jiu-Jitsu knowledge graph and training tool operated by **Diogo Seca** ("we", "us"). By accessing or using the Service, you agree to these Terms. If you do not agree, please do not use the Service.
 
