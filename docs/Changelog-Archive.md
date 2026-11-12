@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.264.0** — [The legal boxes read their pages: /privacy and /terms open the page's own short box before the map](#v12640--the-legal-boxes-read-their-pages-privacy-and-terms-open-the-pages-own-short-box-before-the-map-owner-u140-b-legal3-2026-11-12)
 - **v1.263.0** — [The deploy gate runs what a deploy can break, plus one smoke per surface](#v12630--the-deploy-gate-runs-what-a-deploy-can-break-plus-one-smoke-per-surface-gate5-2026-11-12)
 - **v1.262.11** — [Each browser keeps its own roll-ledger code](#v126211--each-browser-keeps-its-own-roll-ledger-code-flow1-and-flow2-2026-11-12)
 - **v1.262.9** — [Four journeys wait on their own claims, not on a sleep](#v12629--four-journeys-wait-on-their-own-claims-not-on-a-sleep-flaky1-2026-11-12)
@@ -16002,3 +16003,42 @@ with no row").
 
 **Expected on the first deploy after the merge:** a gate of about 2.7 minutes on a slow runner and about 2 on a fast
 one, against 33.6–36.8 before, and the tripwire's notice saying so.
+
+## v1.264.0 — The legal boxes read their pages: /privacy and /terms open the page's own short box before the map (owner U140 b, LEGAL3, 2026-11-12)
+
+**The ask.** Owner, U140 b (12 Nov 2026, 12:40): "i really much like the short versions. the /privacy page / terms page should be viewed with a toggle that reads 'Extended version [chevron icon >]' or something that reveals the extended versions with a click. users going to /privacy /terms land in the shortened version modal too with the bjjgraph as usual in the bg ... the bjjgraph loading in the bg should load after the modal content which is the most important ... this should be SEO appropriate". The plan (LEGAL2) was accepted with picks 1 a (the extended text opens inside the box), 2 a (the server page stays as it is), 3 a (the box opens when the app starts), and closing starts the game. This is part 1, the app; part 2, an "In short" on each page, waits for the wording PR (#374) and a guarded capture.
+
+**One source.** The boxes' words lived in `app.src.jsx`, apart from the pages, and drifted (export or delete "from Settings", `privacy@`/`legal@` addresses the pages never used, "minimal ... aggregate" analytics). `openLegal` now carries no words: on the page itself (`body[data-slug]`) it reads a clone of the `<article>` the server sent, already in the DOM under the app (no request); from the menu or Settings it fetches the page once per visit (privacy 49,249 B, terms 40,605 B raw). The short part is the page's "In short"; **a page without one (Terms on dev) shows its first section, heading and all.** The orchestrator suggested its opening paragraphs, and that was built first; then the owner's note on U150 (12 Nov, 15:35) asked that the short box never print the operator's name or "an individual" while who operates the project is undecided (U151), and Terms' opening paragraph names him. The journey reads the name from the page itself ("operated by **...**", never typed) and pins the box's head and short part against it and "an individual"; `tests/legal_boxes.test.mjs` holds each "In short" section to the same rule. The extended text is the page itself and still names him until U151's answer edits those sentences (in the content commit). "Extended version ›" opens the rest of the article in the box and folds it back; a link to a section (`/privacy#your-rights`) opens it there. A link to the other legal page opens it in the box; every other link opens a new tab, so no press inside the box can end a roll. `tests/legal_boxes.test.mjs` fails if any sentence of either page (117 scanned) appears in any of the 58 build inputs under `neural/src`.
+
+**Arrival and the hold.** The box opens in `boot()`, before the graph fetch: measured on a slow phone (slow 4G, 4× CPU) the app starts at about 2.6 s and the map is drawn at about 5.7 s (LEGAL2's table). While it is up, `_legalHold` stops the intro's hand-over in `updateCamera`: the map plays its opening, nothing is dealt. Closing (every close goes through `closeModal`) lifts it, so the SAME hand-over runs as on "/" (round 1 measured that calling the roll start from a page's posture leaves a paused board with no hand), and `_legalPushNext` makes the first landing push its address instead of replacing it, so Back returns to `/privacy`. **Back needs nothing else, and the dead code for it was removed:** Quartz's router answers every Back by fetching the page and morphing the body, which drops `#neural-root` and re-mounts the app (measured on dev's own paths: a Back between two node pages hands over a new instance), so Back onto `/privacy` is a fresh arrival. That re-mount on every Back is a standing fact of the whole app, not of this change.
+
+**The pause rule: the box never touches it.** Every way to the box from a roll is already held before it opens: the account menu lives in the drawer (pane law), and Settings reached from a hidden section's message comes after a press on the article, which is reading, and reading pauses (`readingInteraction`). A latch of the box's own (pause what it covers, give back only what it took) was built first and measured unreachable: no press opens the box over a running roll, and over a roll waiting for a pick nothing ticks anyway. It was removed rather than kept as code that looks alive. The journeys pin the other half: the pause, the node, the hand and the clocks are what they were when the box closes, on both paths.
+
+**Crawlers.** No file under `source/`, `content/`, `templates/` or `scripts/` changes. Compared with the live dev preview's HTML: title, canonical, description, the 9 og and 5 twitter tags, both JSON-LD blocks, and the article text (7,798 and 5,143 characters) are identical on both pages.
+
+**Analytics.** The box prints only the page's own text (its title, its date, its article); nothing of the signed-in player, so nothing in it needs `ph-no-capture`.
+
+**Bytes**, against dev's own sources built the same way: `neural.js` +663 B raw / +303 B gzip, `neural.css` +1,818 B raw / +426 B gzip (the box's styles; dev v1.263.0, 8844ed6ee, built the same way in a scratch copy); deferred unchanged (no deferred file is touched); the payload gate passes (eager gzip +4,302 B since its baseline, most of it dev's own drift, under the 5,000 B cap); the first-hand core measured locally 372,404 B against 371,107 B, +1,297 B under its 6,000 B cap (the report it rewrites was restored, no baseline moved). The old boxes' typed words were 3,248 B of `neural.js`; the box that reads the page, with its arrival, hold and history, costs a little more than they did, so this is not the net cut the brief hoped for. A first draft was +2,381 B; a compact rewrite (one HTML template, data attributes instead of classes, no retry button, the dead Back hook and the unreachable pause latch removed) brought it to the figure above. No ceiling or baseline moved.
+
+**3 b, not built:** let the page's opening through the head script's hide rule on these two pages so the short text paints from the server HTML before the app. Measured gain on the slow phone: the text at about 1.0 s instead of 2.6 s; on a laptop 0.08 s instead of 0.19 s. Needs `variant.inline.ts` and a stylesheet (a capture).
+
+**Red-proof** (each mutant built into the bundle, then only its named test run against it; sources restored after each, and the clean bundle rebuilt and hash-checked equal at the end; 14 of 14 killed, no survivor):
+
+| mutant | named test (legal-pages.spec.ts unless said) | red at |
+|---|---|---|
+| no box on arrival (the boot line deleted) | arriving on /privacy and /terms … (3 sizes) | "the box is up" |
+| the box opened at the graph's ingest instead of in boot | the same | "the box is up" (graph-data held) |
+| no hold (`&& !this._legalHold` dropped) | the same | "the hold: nothing dealt, no question clock" |
+| "In short" never found | the same | "the short part is the page's own" |
+| a page sentence typed into app.src.jsx | tests/legal_boxes.test.mjs | "no sentence of either legal page is copied" |
+| "Extended version" never opens | "Extended version" opens the rest … | "the rest of the page opens in the box" |
+| it never folds back | the same | "pressed again, it folds back" |
+| closing keeps the hold | closing the box on arrival starts the game … | the dealt hand never comes |
+| the first landing replaces the address | the same | "Back brings the box back" |
+| a section link ignored | a link to a section … | "the box opens extended" |
+| the box from the menu moves the address | from the menu during a roll … | "the address does not change" |
+| opening the box resumes the game | the same | "same address, node, hand and pause" |
+| closing the box resumes the game | from Settings reached through a hidden section's message … | "the roll is where it was, still held by the reading press" |
+| the text no longer scrolls between head and footer | "Extended version" opens the rest … | "[data-legal-more] still on screen" |
+
+**Runs (local, Playwright under the build lock, `BUILD_PEAK_MIB=4000`).** The new spec 15/15 on each tree it met (four locked attempts went red first, each on the spec, never the app: a title locator that also matched the extended text's h2s, a class the compact rewrite dropped, the card's 0.28 s entry fade read as half-transparent, and a "live roll" premise that no press can reach, which is what removed the latch). The 14 mutants on the v1.263.0 merge, then M4 again and M15 after the operator rule; 12 area specs 125/125 (legal-pages, account-menu, sidebar, pane-chrome, settings-lazy, settings-tabs, hidden-sections, url-arrival, concepts-surface, keyboard, feedback-modal, payload-first-hand); the six box specs 62/62 after the operator rule. App rows re-seeded with `validate:build-shape:app` on each merge. Units: `tests/legal_boxes.test.mjs` 4/4 (and 3 unit mutants killed), `tests/settings_presentation.test.mjs`, `tests/deploy_gate.test.mjs`. No @curated tag: nothing here depends on a deploy's stamps.
