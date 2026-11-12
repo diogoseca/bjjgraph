@@ -141,9 +141,10 @@ for (const run of RUNS) test.describe(name(run), () => {
   })
 })
 
-// Not at 390x631: there the opened card's answers lie under the reader's bottom edge (measured on a roll from "/": the card
-// 514-754 on a 631-tall screen, the first answer's centre resolves to the map), so a player scrolls to reach one, and that scroll
-// declines a taken-up question (_tickDecision). Both ✕ presses are pinned at 390x631 above; the answer's reach is not this PR's.
+// Not at 390x631: there the opened card runs below the screen (measured on a roll from "/", merged with v1.259.1: the card 514-754
+// on a 631-tall screen; the first answer reachable, the second and third below the edge; before v1.259.1 the first resolved to the
+// map), so a player scrolls to reach an answer, and that scroll declines a taken-up question (_tickDecision). Both ✕ presses are
+// pinned at 390x631 above; the answers' reach is not this PR's.
 for (const run of [RUNS[0], RUNS[4]]) test.describe(name(run), () => {
   test.use({ viewport: { width: run.width, height: run.height }, hasTouch: run.touch })
   test(`@curated FOLD1: an answered card hides on the first ✕, with its message (${name(run)})`, async ({ page }) => {
