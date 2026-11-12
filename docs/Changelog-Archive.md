@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.262.12** — [A taken-up question whose card leaves the screen is put down free, however the scroll began](#v126212--a-taken-up-question-whose-card-leaves-the-screen-is-put-down-free-however-the-scroll-began-owner-u146-a-short4-2026-11-12)
 - **v1.262.11** — [Each browser keeps its own roll-ledger code](#v126211--each-browser-keeps-its-own-roll-ledger-code-flow1-and-flow2-2026-11-12)
 - **v1.262.9** — [Four journeys wait on their own claims, not on a sleep](#v12629--four-journeys-wait-on-their-own-claims-not-on-a-sleep-flaky1-2026-11-12)
 - **v1.262.7** — [`advanceUntil` asks for its beat in the page](#v12627--advanceuntil-asks-for-its-beat-in-the-page-gate3-2026-11-12)
@@ -15938,3 +15939,75 @@ pass beside the journeys at load 10 lost `verify_clips`'s 0.1 s deadline test, u
 the lock, 58 of 58 (9.1 min), and `payload-first-hand`, core 371,717 B, +610 B over the checkpointed 371,107;
 `check_payload_budget.py` exit 0 (deferred 510,981 of 510,981 B; eager gzip 352,291 B). The full core suite and
 `e2e:gen` run on the PR.
+
+## v1.262.12 — A taken-up question whose card leaves the screen is put down free, however the scroll began (owner U146 a, SHORT4, 2026-11-12)
+
+**His answer.** U146, a question carried off the screen by a drag on the card: **a**, "Decline it, free, the moment the card leaves the
+screen." The option he read: "One rule, however the scroll began: a question you can no longer see is put down without a miss. The
+same thing a scroll on the article already does." (U145, bringing the answers into view at take-up: **c**, "No, leave it". Nothing built.)
+
+**What it was.** SHORT1 (v1.262.3) measured that a scroll begun on the card or the moves which carried a taken-up question's card off
+the screen left its clock running, and the question expired out of sight as a miss: 15 s after it left, at 390x631, on the preview
+(v1.259.1) and production (v1.252.0). A scroll begun on the article declined it, free; since v1.262.3 only once the card had left
+(`_reachTick`, a reach). So one gesture, two outcomes, by where the finger landed.
+
+**What ships.** `_offTick` (app.src.jsx), every frame from `_tickDecision` before it writes the clock bar: a taken-up, still open
+question (landing or drill; `_landView` returns null for an asking line, an answered question, a reading arrival or a hidden card)
+whose card has been on screen and now has no part of its border box inside the reader's visible box is declined, free:
+`_declineLandQ("off_screen")`, `land_q_declined` with reason "off_screen" (the funnel's `question_ignored`, as every decline). "Wholly
+left" is 0 px of overlap, with half a pixel of tolerance for sub-pixel rects: a sliver still showing is the card the player can see, and a
+card partly off screen is untouched (`on` in `_landView`). "Has been on screen" (`q.seen`) is set by a frame that finds the card on
+screen or by the take-up tap (`_landReveal`, which is on the card); it keeps the app's own scroll to the top at a new landing, which can
+run a frame after the card mounts below a scrolled reader, from putting down the question it brings. The drill shares the check: its
+decline stops its clock (a drill is never `_landPending`), and `q.gone` makes it once. Coming back resurrects nothing: a declined landing
+question is answered for good, and a drill's clock stays down. The generalisation is `_reachTick` without its `_rq` gate: the reach
+(`_rch`) now only keeps a scroll begun on the article from being reading at touch-down while an answer is out of view, so its record and
+its lifter (a capture listener that ended a reach on a press on the game) retire. `reader.js` is unchanged (44,875 B).
+
+**Kept.** Reaching for an answer never declines (short-phone-answers.spec.ts); with every answer in view a scroll on the article is
+reading and declines at once ("reading"); the reading arrival runs no clock and is untouched; the asking line is untouched.
+
+**Not pinnable, measured.** A landing card carried off FROM THE MOVES. On a phone the moves sit above the card, so a drag begun on them
+runs out before the card leaves unless the finger flicks, and headless Chromium gives a CDP touch no momentum (a flick stopped dead at
+265 px; `Input.synthesizeScrollGesture` did not scroll the reader). At 1440 the moves row turns a vertical wheel into its own horizontal
+scroll, so a wheel over it never moves the reader. The rule reads only the card's rect; the drill journey carries its card off from ITS
+moves, which sit below it on a phone (D-433).
+
+**Pins.** New `e2e/journeys/question-off-screen.spec.ts`, 6 journeys, no `@curated` (the gate is being trimmed): at 390x631 by finger,
+carried off from the card, put down free, and coming back does not resurrect it; partly off screen, untouched, its clock runs; the escape
+drill carried off by its own moves, put down free, never runs out unseen; a new landing reached with the reader scrolled far down does not
+decline the question it brings; at 1440x900 by wheel, carried off over the card, put down free; the reading rule, declined at once by a
+wheel over the article with every answer in view. `short-phone-answers.spec.ts`: the carried-off-from-the-article journey now reads
+"off_screen"; "a press on the game ends an article reach, so a drag on the card that carries it off declines nothing" is REMOVED, its
+claim reversed by U146 a (not loosened), and its mutant (reach-lift-off) with the lifter it pinned.
+
+**Mutants** (`tests/artifacts/question_off_screen_mutants.mjs`, on the served bundle, inside the lock, a kill only at the named claim):
+off-never-declines (3 runs: from the card, by the wheel, the drill), half-off-declines, park-not-decline, drill-excluded and
+reach-ignores-view: 7 of 8 killed. seen-guard-off SURVIVES, a recorded non-kill: the reader returns to the top synchronously at the start
+of `open()`, so no judging frame falls between a new landing's mount and its reset here; the guard stays because it is what "has left the
+screen" means, and the new-landing journey pins the claim against any order that would break it. The runner reports it and does not fail
+on it. `tests/artifacts/short_phone_mutants.mjs` (SHORT1's), retargeted: off-never-declines replaces reach-never-leaves, reach-lift-off
+goes with its lifter: 7 of 7 killed. Open edge, measured nowhere: a card that mounts outside the visible box and is never scrolled to is
+never judged, so its clock can still run out; it needs a landing on the same page path (no reset) after the player scrolled the game part
+away during the move.
+
+**Survey** (CLAUDE.md §6.7, `wc -l` first): 168 scroll lines (`mouse.wheel`, `dispatchTouchEvent`, `scrollTop =`, `scrollBy`, `scrollTo`,
+`scrollIntoView(`) in 57 core journey files; none in `e2e/gen` or `e2e/quarantine`. A rule about a TAKEN-UP question can only touch a
+file that also takes one up (each test is a fresh tab, so nothing opens taken up before a take-up): 23 files besides this change's two,
+71 lines, each read. None scrolls a live question's card off the screen on purpose. Wheels over the map (announcer-coherence,
+graph-naming) zoom it; wheels over the moves (option-overflow) turn the tray; wheels in Browse or over the drawer icon
+(defending-arrivals, defending-landing D3); reading arrivals run no clock (reading-contract, deck-arrows-index, pane-layout's URL
+arrival); the pane declines first (pane-layout); a key on the article is reading and declines first (pane-layout's Control+End);
+`scrollIntoView` calls bring a card or an answer INTO view. One can carry a card off in passing: landcard-deck "long recall answers grow
+the card and scroll with the whole column" wheels 6,000 px over a taken-up recall card at 320x568; the question is now put down free when
+the card leaves, and the journey asserts only geometry and then presses Got it, which still answers a declined card. No assertion
+changes. Run on the final code: the 23 files, 314 of 314.
+
+**Runs.** LOCAL, under the build lock (`BUILD_PEAK_MIB=4000`). On the final code merged with dev v1.262.11 (b43c4c075): the two specs 13 of
+13 (2.9 to 8.7 s each), the mutant runs above. On the final code before that merge (v1.262.10): the 23 surveyed files 314 of 314
+(20.8 min). `npm run ci:validate` on the merged tree. Not run locally: the full core suite and `e2e:gen`; the PR's e2e-full is the full gate.
+
+**Bytes.** `check_payload_budget.py` exit 0: deferred 510,981 of 510,981 B (`reader.js` unchanged, so dev's own figure); eager raw 1,395,966
+of 1,600,000 B; eager gzip 352,223 B, over its 300,000 B target and under its 400,000 B action line, as dev already was. `neural.js`
+685,036 to 684,813 B (-223). App rows re-seeded with `validate:build-shape:app`, no capture.
+
