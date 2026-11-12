@@ -388,8 +388,8 @@ trims the question with an ellipsis, never the link, to one line (two on a tall 
 phone shows both at arrival. Its text sits one `--section-gap` under the cards at every width; with
 1024px of free pane it is a hint inside the choices row's bottom band and takes no row of its own,
 the panic drill included. The card's answers are built but inert, so no key, click or
-paging gesture acts on them, letters a/b/c included, and no clock runs. The ✕ stays: it is the
-Questions layer's handle. Answer for Points (Tab + Enter too), or a tap on the question, calls
+paging gesture acts on them, letters a/b/c included, and no clock runs. Its ✕ hides Questions;
+an open card's ✕ folds to it (U136). Answer for Points (Tab + Enter too), or a tap on the question, calls
 `_landReveal`: the card opens in place as today's card (multiple choice, or the recall flashcard)
 for the rest of that landing; paging and backfill keep it shown, each card keeps its own window.
 A take-up moves nothing above the card: the line keeps the deck's step (only its width differs) and the
@@ -871,12 +871,12 @@ uses `ngPracticeRoom`: new cards stay at least a fifth of the goal; reviews are 
 including after the goal and while reviews remain. Shared questions reserve one obligation.
 
 Practice keeps the drawer's width (v1.261.0, U135 a). Under “‹ Practice”
-(its Back): belt, stripes, format, daily progress. “Practice details &
+(its Back): belt, stripes, format, progress. “Practice details &
 session queue” keeps reviewed counts, blocked debt, day notices, reasons, comparison controls
 and loading/retry states. Planner arrival appends even after a reveal or grade; it never replaces
 an engaged card or an in-flight press. Opening asks for the planner. Comparison
 stays deliberate (Open study plan, Refresh plan). Back restores the originating view;
-Close/Esc keep the pane's pause ownership.
+Close/Esc keep the pane's pause owner.
 
 **Wire.** `curriculum.scoreWeightsByOrd` is `{div, p:{o,r,gi,nogi}, t:{o,gi,nogi}}`: each seat
 once by node ordinal, per ruleset, with both technique seats in each `t` entry. `ngWireScoreWeights`
