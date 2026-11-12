@@ -156,6 +156,19 @@ for (const width of [1440, 390]) {
 // appeared under the second tap. U52 b moved the link inline, so the second tap now lands wherever
 // the card puts answer A; these put it there on purpose, inside NG_LAND_TAP_GUARD_MS, which is the
 // claim the guard exists for. Each first proves the second tap really lands on an answer.
+// KNOWN RUNNER BOUND, NOT FIXED HERE (FLAKY1, v1.262.9). `wait > 0` asks the first tap's round trip to
+// finish inside `gap - 40` (140 ms at 180) of Node time; under a 4x CPU throttle, the app untouched,
+// it went red 4 of 20 (round trips of 141-153 ms), and 15 of 20 at 6x with the 500 ms line below. It
+// is left as it is because the bound the claim really rests on is the app's: `_landTapGuard` compares
+// the time a click is HANDLED with the take-up stamp, so on a page slow enough that the take-up's own
+// work fills most of 500 ms, no second tap fits, whoever sends it. A version timed by the page instead
+// (the premises read from the page's clock) still went red 11 of 80 at 4x and 16 of 80 at 6x, every
+// time with the second click handled 507-1,183 ms after the stamp, and a player's two taps sent
+// 180-350 ms apart without waiting were handled as late. Measuring the guard on the tap's own time
+// is the app's change to make; the archive's v1.262.9 entry has the numbers.
+// NON-KILL, recorded so nobody reads coverage into it: the catch's double click (1440) stays GREEN
+// with the guard off and with it cut to 150 ms, although its second click lands on answer A. Its
+// "grades nothing" does not rest on `_landTapGuard`; not traced. The three landing tests go red.
 const secondTapOnAnswer = async (page: any, go: string, tap: (x: number, y: number) => Promise<void>, gap: number) => {
   const at = await centre(page, go)
   expect(at, 'premise: Answer for Points is hit-testable where it sits').toMatchObject({ hit: true, inView: true })
