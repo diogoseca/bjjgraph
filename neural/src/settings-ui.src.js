@@ -9,17 +9,20 @@ export async function ngInstallSettingsPresentation(target, dependencies) {
   const attempt = target._settingsPresentationAttempt;
   const { SECTION_TYPES, sectionShown } = await import(target._appAsset("reader.js") + (attempt > 1 ? "&retry=" + attempt : ""));
   if (target.__ngDestroyed || !target._progressCurrent()) throw new Error("Settings owner changed");
-  const { NG_SETTINGS_TABS, NG_START_FROM } = dependencies;
+  // The tab list is `this._settingsTabs`, chosen by `openSettings` for each opening (NG_DIGEST_LIVE,
+  // app.src.jsx). renderSettings reads it once and hands the same list to the row's arrow keys, so
+  // the keys walk exactly the tabs that were drawn and never land on one this opening hides.
+  const { NG_START_FROM, NG_DIGEST_LIVE } = dependencies;
   const sectionStyle = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
   const methods = {
-_settingsTabRow(row, tab, refocus) {
+_settingsTabRow(row, tab, refocus, tabs) {
     const go = (id) => { if (id !== this._settingsTab) { this._settingsTab = id; this.renderSettings(); } };
     row.addEventListener("click", (e) => { const b = e.target.closest("[data-settings-tab]"); if (b) go(b.getAttribute("data-settings-tab")); });
     row.addEventListener("keydown", (e) => {
-      const n = NG_SETTINGS_TABS.length, at = NG_SETTINGS_TABS.findIndex((t) => t[0] === tab);
+      const n = tabs.length, at = tabs.findIndex((t) => t[0] === tab);
       const to = { ArrowRight: at + 1, ArrowLeft: at + n - 1, Home: 0, End: n - 1 }[e.key];
       if (to === undefined) return;
-      e.preventDefault(); e.stopPropagation(); go(NG_SETTINGS_TABS[to % n][0]);
+      e.preventDefault(); e.stopPropagation(); go(tabs[to % n][0]);
     });
     row.addEventListener("wheel", (e) => {
       if (row.scrollWidth <= row.clientWidth || Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
@@ -47,7 +50,7 @@ _settingsTabRow(row, tab, refocus) {
 renderSettings() {
     const card = this.modalCardRef.current; if (!card) return;
     card.style.width = "min(440px,92vw)";
-    const tab = this._settingsTab || "flashcards";
+    const tab = this._settingsTab || "flashcards", tabs = this._settingsTabs;
     // A bottom-row toggle must stay under the pointer after its full-card repaint.
     // A different tab starts at its own top; only the same panel keeps its scroll.
     const previous = card.querySelector('[role="tabpanel"]');
@@ -71,11 +74,11 @@ renderSettings() {
       // past the labels (helmet.html `.ng-stabs`). The mask would fade a hairline drawn on the row
       // itself, so the line lives one level up.
       '<div style="margin-top:2px;border-bottom:1px solid rgba(150,170,210,.12);"><div class="ng-stabs" role="tablist" aria-label="Settings sections" data-settings-tabs>' +
-        NG_SETTINGS_TABS.map(([id, label]) => '<button type="button" role="tab" class="ng-stab" id="ng-stab-' + id + '" data-settings-tab="' + id + '" aria-controls="ng-stab-panel" aria-selected="' + (id === tab) + '" tabindex="' + (id === tab ? 0 : -1) + '" style="pointer-events:auto;"><span>' + label + '</span></button>').join("") +
+        tabs.map(([id, label]) => '<button type="button" role="tab" class="ng-stab" id="ng-stab-' + id + '" data-settings-tab="' + id + '" aria-controls="ng-stab-panel" aria-selected="' + (id === tab) + '" tabindex="' + (id === tab ? 0 : -1) + '" style="pointer-events:auto;"><span>' + label + '</span></button>').join("") +
       '</div></div>';
     head.querySelector(".x").addEventListener("click", () => this.closeModal());
     card.appendChild(head);
-    this._settingsTabRow(head.querySelector("[data-settings-tabs]"), tab, refocus);
+    this._settingsTabRow(head.querySelector("[data-settings-tabs]"), tab, refocus, tabs);
 
     const body = document.createElement("div");
     body.id = "ng-stab-panel"; body.setAttribute("role", "tabpanel"); body.setAttribute("aria-labelledby", "ng-stab-" + tab);
@@ -150,9 +153,12 @@ renderSettings() {
         // The KEY MUST STAY `emailDigest` — the digest Worker selects rows on
         // `neural->settings->>emailDigest=eq.true`, so renaming it here would read to every
         // opted-in user as a silent unsubscribe, with nothing anywhere going red.
+        // NOT LIVE YET (NG_DIGEST_LIVE, app.src.jsx; owner U139 a): a signed-in player reaches this
+        // row only with the setting already on, and the row says, in plain words, that nothing is
+        // mailed. The sentence goes with the flag; flipped, the row reads as it did in v1.259.1.
         const wrap = document.createElement("div");
         wrap.setAttribute("data-digest-setting", "1");
-        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to " + (this.user.email || "your account email") + ".",
+        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to " + (this.user.email || "your account email") + "." + (NG_DIGEST_LIVE ? "" : " No email is being sent yet."),
           [["On", true], ["Off", false]], "emailDigest", false));
         const beta = document.createElement("span");
         beta.textContent = "Beta";
@@ -161,7 +167,9 @@ renderSettings() {
         wrap.appendChild(beta);
         body.appendChild(wrap);
       } else {
-        // an empty tab reads as broken; a dead toggle reads as a lie. One line of why.
+        // an empty tab reads as broken; a dead toggle reads as a lie. One line of why. Reached only
+        // while the email is live (NG_DIGEST_LIVE): until then a guest gets no Notifications tab, since
+        // this line would send them to sign in for a switch that signing in does not offer.
         const note = document.createElement("div");
         note.setAttribute("data-notif-signedout", "1");
         note.style.cssText = "font-size:12.5px;line-height:1.6;color:#93a0bd;padding:2px 0 4px;";

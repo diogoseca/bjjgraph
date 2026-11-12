@@ -326,7 +326,8 @@ const NG_DRAWER_LOGO = '<svg aria-hidden="true" width="22" height="22" viewBox="
 // gold off. Opposite technique poles therefore share a purple-grey site colour.
 const NG_MIX_SITES_BY_DEFAULT = true;
 // THE SETTINGS TABS, IN ROW ORDER: [id, label]. The row, its one click handler and its arrow keys
-// all read this, and nothing else names a tab (v1.196.1). It replaced five hand-built spans with
+// all read this, through `_settingsTabs` (the part of it one opening shows, NG_DIGEST_LIVE below),
+// and nothing else names a tab (v1.196.1). It replaced five hand-built spans with
 // five class names (.t-fc .t-rl .t-md .t-nt .t-kb) and five listeners, i.e. the same list written
 // three times. The id is what `openSettings(tab)` takes and what `_settingsTab` holds, so a
 // deep link such as the account menu's "Keyboard shortcuts" row keeps working through a rename
@@ -334,6 +335,31 @@ const NG_MIX_SITES_BY_DEFAULT = true;
 // `.ng-stabs`), and settings-tabs.spec.ts's ">= 768 all fit" assertion goes red on purpose so that
 // somebody looks at the desktop row before it ships.
 const NG_SETTINGS_TABS = [["flashcards", "Flashcards"], ["rolling", "Rolling"], ["modifiers", "Modifiers"], ["notifications", "Notifications"], ["shortcuts", "Shortcuts"]];
+// IS THE TRAINING-DAY EMAIL LIVE? Not yet (v1.261.1). Owner, 12 Nov 2026, briefing answer U139 a:
+// "Hide it while the digest is off." The digest cannot send: the owner decided on 11 Nov 2026 that it
+// stays off, and its two tables, `digest_sent` and `digest_suppress` (supabase/digest_v1.sql), do not
+// exist in production (supabase/schema.sql's header). Turning the switch on sent nothing; it only
+// started recording the per-day `dayLog` that syncs with the account. A read-only check of production
+// on 12 Nov found no account with `emailDigest` on and none with a day log.
+// WHILE THIS IS false, `openSettings` draws the Notifications tab in exactly ONE case: a signed-in
+// account whose stored `emailDigest` is on, so it can turn it off (the row then says no email is being
+// sent yet). Everyone else gets no tab: a signed-in player with it off would find an empty tab, and a
+// guest's one line ("Sign in … to turn it on") would send them to sign in for a switch that is not there
+// (the orchestrator's round-2 correction, DIGEST2: a guest included, whatever is stored on the device).
+// The decision is made ONCE PER OPENING, so pressing Off leaves the row where it is until Settings
+// closes and it is gone from the next opening on; a deep link to the hidden tab opens the first tab.
+// NOTHING STORED CHANGES: nothing here writes, renames or deletes `emailDigest` (the digest worker
+// selects on that key, and a settings key can never be deleted, CLAUDE.md §6.6), and `noteCardDone`
+// still records the day log by the stored setting alone, exactly as before.
+// BEFORE ANYONE FLIPS THIS TO true, all three must hold:
+//   1. both tables exist in production (digest_v1.sql applied, and schema.sql's header says so);
+//   2. the digest worker (workers/digest) is deployed and has sent a real digest;
+//   3. the privacy page (content/privacy.md) describes the training-day email. On 12 Nov 2026 it says
+//      nothing about it: its email lines are about signing in only.
+// Flipped to true, Settings is v1.259.1's to the letter: five tabs for everyone, the row for every
+// signed-in player, the guest's line, no "not sent yet" words (tests/settings_presentation.test.mjs,
+// "flipped", and the DIGEST1 differential in docs/Changelog-Archive.md).
+const NG_DIGEST_LIVE = false;
 // THE FOLD-MAP KEY FOR EXPLORE'S "YOUR LISTS" SECTION (v1.196.1), and its header's
 // `data-explore-section` handle — the same label-is-key-is-handle rule the other six follow. A
 // settings key can never be deleted (CLAUDE.md §6.6), so once written this string is permanent:
@@ -5367,7 +5393,13 @@ class Component extends DCLogic {
   }
   openSettings(tab) {
     if (this.__ngDestroyed || !this._progressCurrent()) return false;
-    this._settingsTab = tab || "flashcards"; this._settingsRowX = null;
+    // The tabs this opening shows, decided once here (NG_DIGEST_LIVE). The truthiness is noteCardDone's,
+    // so an ACCOUNT whose setting is recording a day log always sees the switch that stops it (a guest's
+    // device-only setting mails nobody, and its switch would need the sign-in the line asks for). Every
+    // write of `_settingsTab` after this one is a press on a tab the row drew, so it never names a hidden tab.
+    const notif = NG_DIGEST_LIVE || !!this.user && !!this.get("emailDigest", false);
+    this._settingsTabs = notif ? NG_SETTINGS_TABS : NG_SETTINGS_TABS.filter((t) => t[0] !== "notifications");
+    this._settingsTab = tab && (notif || tab !== "notifications") ? tab : "flashcards"; this._settingsRowX = null;
     this.track("neural_settings_opened", { tab: this._settingsTab }); this.openModal();
     this._settingsIntent = { owner: this._progressOwnerStamp, modal: this._modalGeneration,
       card: this.modalCardRef.current, focus: true };
@@ -5404,7 +5436,7 @@ class Component extends DCLogic {
           if (this.__ngDestroyed || !this._progressCurrent()) throw new Error("Settings owner changed");
           return runtime.ngInstallSettingsPresentation(this, {
             expectedBuild: NG_SETTINGS_UI_BUILD,
-            NG_SETTINGS_TABS, NG_START_FROM,
+            NG_START_FROM, NG_DIGEST_LIVE,
           });
         }).catch((error) => { this._settingsPresentationLoad = null; throw error; });
     }

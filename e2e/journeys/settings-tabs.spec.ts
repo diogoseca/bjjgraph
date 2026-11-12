@@ -54,8 +54,20 @@ const WIDTHS: [number, number][] = [
   [1440, 900],
 ];
 
+/**
+ * THE LONGEST ROW THE APP DRAWS. From v1.261.1 (owner U139 a, DIGEST1/2) Notifications is drawn, while
+ * the training-day email is not live, only for an account whose stored switch is on, so a guest sees
+ * four tabs. This spec's subject is the longest row (its tripwire is "the shipped five fit"), so every
+ * opening here seats that one case first: an identity the way `_applyUser` would, and the switch stored
+ * on. Which tabs each player sees is notifications-tab.spec.ts's claim, not this one's.
+ */
 const openSettings = (page: Page, tab?: string) =>
-  page.evaluate((t) => (window as any).__neural.openSettings(t), tab);
+  page.evaluate((t) => {
+    const a = (window as any).__neural;
+    a.user = a.user || { name: "Player", initial: "P", email: "player@example.com" };
+    a.settings.emailDigest = true;
+    return a.openSettings(t);
+  }, tab);
 
 type Box = { l: number; r: number; t: number; b: number };
 type Geo = {
