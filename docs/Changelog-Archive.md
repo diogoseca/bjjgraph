@@ -30,6 +30,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 ## Index A — by version
 
 - **v1.263.0** — [The deploy gate runs what a deploy can break, plus one smoke per surface](#v12630--the-deploy-gate-runs-what-a-deploy-can-break-plus-one-smoke-per-surface-gate5-2026-11-12)
+- **v1.262.11** — [Each browser keeps its own roll-ledger code](#v126211--each-browser-keeps-its-own-roll-ledger-code-flow1-and-flow2-2026-11-12)
 - **v1.262.9** — [Four journeys wait on their own claims, not on a sleep](#v12629--four-journeys-wait-on-their-own-claims-not-on-a-sleep-flaky1-2026-11-12)
 - **v1.262.7** — [`advanceUntil` asks for its beat in the page](#v12627--advanceuntil-asks-for-its-beat-in-the-page-gate3-2026-11-12)
 - **v1.262.4** — [The harness loads every deck in one trip](#v12624--the-harness-loads-every-deck-in-one-trip-gate2-2026-11-12)
@@ -15836,6 +15837,108 @@ moves. The ceiling moves to exactly 510,981 B (`budget_site.json` and `NEURAL_TA
 on v1.262.9 and at 1.262.10 (1 of 1 each), the five sandbox rebuilds and nine emit-only ones. `npm run ci:validate`
 on the merged tree. The PR's e2e-full runs the full core suite and `e2e:gen`, with `payload-first-hand` a few bytes
 over the new baseline (the version string).
+
+## v1.262.11 — Each browser keeps its own roll-ledger code (FLOW1 and FLOW2, 2026-11-12)
+
+**The fault** (another seat's M14, 11 Nov; verified from the code first). The roll ledger (v1.137.0,
+`flow[code][state][move] = [tries, worked, lastDay]`) is a G-counter: one partition per writer, MAX per partition on
+merge, read as the SUM. MAX is exact only while a partition has one writer. The code was the SETTING `flowDevice`,
+minted at a browser's first roll, and settings sync per key, last writer wins; a browser's sign-in pull runs before its
+first roll, so every browser of an account took one code and wrote ONE partition. Production, read-only, 12 Nov: of
+109 accounts, 61 had no ledger and 48 exactly one partition. The code makes one partition the expected count for any
+number of browsers, so that count cannot tell one device from five.
+
+**What the ledger is for.** Only `flowCounts()` reads it: `flowScore` → `ngFlowPersonal` → `weakSpots()`, which orders
+the Weak session, Practice's plan when no study comparison exists, "start from my weak spots" and the training-day
+email's weak-spot line, and the knowledge profile's fingerprint. No screen prints a ledger total.
+
+**What the convergence cost.** An undercount, never an overcount, on a move two browsers both rolled while one held a
+copy older than the cloud's (both open at once; offline; a failed pull). Sequential play lost nothing. In the test's
+model (both browsers signed in, one roll each, every order of roll, push and pull) 1,344 of 1,440 orders lost a roll
+under the old rule and 0 now: concurrent use, an upper bound, not a rate. A MAX loss leaves no trace in stored data.
+
+**The rule, as shipped.** The code lives in the browser, per OWNER, under `ngProgressLocalKey(owner, "device")`, never
+in the blob (`flowDevice` in progress-owner.src.js); `_flowDevice` mints `b` + 16 hex at the owner's first roll there,
+steps past any id the ledger holds, never adopts the old setting, and a failed store is retried at the next good save
+(F4). The setting `flowDevice` is dormant (no tombstone, CLAUDE.md §6.6). One set of ledger rules in progress-owner.src.js
+serves the app's trim, its read and the guest join's room: `ngFlowTrim`, `ngFlowWindowView`, `ngFlowSlotted`,
+`NG_FLOW_CAP`. (1) The window is the CELL's: a row counts and is kept while any partition rolled that (state, move)
+within 180 days (M1), the old single partition's rule. (2) The cap counts only `b` + 16 hex partitions; an older id
+(the shared partition, an old guest code, an old-build tab's mint) is never evicted and takes no slot (M2). (3) The cap
+is 32 (was 6; the orchestrator's ruling). (4) Ties go by id (F1). (5) An emptied partition is deleted and takes no slot
+(F2). The read applies (1) by handing `ngKnowledgeFlowCounts` a view whose rows carry their cell's newest day:
+knowledge-profile.src.js is a pinned law (mdp-exposure holds its sha256), so its bytes were left alone.
+
+**FLOW2, the second reader** (`reports/review-pr384.md`, DO NOT MERGE YET on a8bf58d8e): FLOW1 alone made two drops the
+old rule never made. (a) Nothing wrote the shared partition again, so each of its rows expired 180 days after its last
+pre-change roll even on a move rolled daily (S2: 456 of 456 read 356 at day +178), on all 48 accounts. (b) Frozen, it
+became the least recently touched partition, so the first eviction took the account's whole history (S1b: 125 read 30
+at a sixth private session). FLOW1's "its rows age out on the window as before" was wrong. M1 and M2 fix both.
+
+**Walked, as true now.** The shared partition (all 48 accounts): never renamed, merged or evicted, no slot, counting while
+its moves are rolled. A new device, a second account, a guest: each its own code. At the switch each browser's guest
+mints too, so a guest who plays again brings two partitions to its next join (the old one outside the cap); a private
+session that rolls as a guest and then signs in takes two slots. Storage cleared: a new code and a slot; the old
+partition stays, counting as above, the first the cap evicts. Two tabs of one browser still share its code (F5, known);
+an eviction reaches no analytics (F7, known); a tab on an older build trims by the old rule until it reloads.
+
+**Before and after** (the reader's scenarios through the test file's harness, three trees):
+
+| scenario | old rule (3b0d973eb) | FLOW1 (a8bf58d8e) | now |
+|---|---|---|---|
+| S1b: private window every time, 100 earlier rolls, 10 sessions × 5 | 150 / 150 | 30 / 150 | 150 / 150 |
+| S1c: the same, 2 rolls as a guest first | 140 / 150 | 18 / 150 | 150 / 150 |
+| 60 daily private sessions × 5 | 400 / 400 | 30 / 400 | 260 / 400 (the last 32 sessions) |
+| S2: two browsers, lasting storage, one roll each a day; read at +177 / +178 / +200 | 106, 108, 110 of the same | 106, 8, 10 | 106, 108, 110 |
+| S5: a tie at the cap in 3 key orders | 3 kept sets | 3 | 1 |
+| S7b: the code's first store fails, 8 page loads | 8 of 8 | 8 of 8, 2 partitions | 8 of 8, 1 |
+| S7b: every store fails | 8 of 8 | 6 of 18 (the shared 10 evicted) | 8 of 8, 8 partitions |
+| S4: eviction, then an older copy merges | n/a | 1/21 → 2/22 → 21/22 | the same, at 33 partitions |
+
+**FLOW3, the re-check** (MERGE WITH FOLLOW-UPS on 604f70f6d). Stated, not ramped (A6): a tab opened before this
+deploy and never reloaded still runs the old trim, six partitions over all ids by each row's own day, so any ledger it
+pulls it trims to six, the shared partition first, and pushes that. It is permanent only for an account with more than
+six partitions whose other browsers all lose their storage; a lasting browser on the new build still holds every
+partition and puts them back at its next sync; never above the truth. A ramp (the cap held at 6 less the old ids until a
+date) would trade it for a certain loss: every player who churns storage losing post-change sessions meanwhile. Stated
+(A1): the join reads a guest copy untrimmed, so a copy unloaded for over 180 days counts its old rows again when the
+account rolled that move recently: real rolls, the shared partition's own rule; trimming the guest part first needs the
+day and the window, which the join's callers do not carry. Changed (A4b): the join's room goes to the guest partition
+rolled most recently, ties by id, the order the trim keeps; by id alone an expired one could take the last slot and be
+trimmed away while a live one stayed out (test 18, mutant N14). `ngFlowCapped` notes that a later id format must be
+added there.
+
+**Tests.** `tests/flow_device_per_browser.test.mjs`, 18, the real class and owner host against a cloud holding an
+account's rolls under one shared code: FLOW1's 1-8, then 9 the one cap, 10 M1 (S2), 11 M2 (the shared partition survives
+a 33rd), 12 S1b and S1c (stated: 60 daily sessions keep 32), 13 F1 (S5), 14 F2, 15 the join's room is the trim's, 16 F4
+(S7b, never over another tab's stored code), 17 S4 (stated), 18 A4b. The guest file's 15 and 19 now use minted ids and the cap,
+claims unchanged; three harnesses (flow, knowledge_profile, knowledge_profile_cache) get progress-owner.src.js, which the
+bundle has; save_echo dates its roll today (a 1970 roll is now trimmed with its emptied partition, so it changed nothing).
+
+**Mutants** (22, each against the green file and guest_join_safety.test.mjs; red tests): MA the setting rule 1-8, 10-12,
+15, 16 · MB one code per browser 5, 6, 15 · MC never read back 3, 6, 16 · MC2 never stored 1-8, 11, 15, 16 · MD no held-id
+check 8 · ME writes the setting 2 · MF adopts the setting 1-8, 10, 12, 16 · MG merge sums 1, 3, 4, 6, 8, 10, 16, 17 and
+guest 15, 16, 19 · N1 trim by row day 10 · N2 read by row day 10 · N3 old partitions slotted 11, 12, 14, 15, 18 · N4 room counts
+all 14, 15, 18 · N5 old guest needs room 15 · N6 no tie-break 13 · N7 emptied kept 14 · N8 empty takes room 14 · N9 cap 6 9, 12,
+guest 15 · N10 guest default 6 9, 14 · N11 merge default 6 9 · N12 no retry 16 · N13 retry overwrites 16 · N14 join by id 18.
+
+**Bytes.** neural.js +1,797 B raw, +626 B gzip-9 over dev (FLOW2's +1,674 and +564, then FLOW3's join order; measured
+against a dev bundle, the version string normalised); the deferred set unchanged at its ceiling. Worst case at the
+new cap: a partition holding every state-move cell is 62 KB (67 KB at four-digit tallies), 32 of them about 2.0 MB.
+
+**Privacy page.** True now: "Roll history (how often you chose each move from each position, and how often it worked),
+recorded separately for each browser you use, under a code generated in that browser." The Settings line's "(including
+a code generated in your browser, under which your roll history is recorded)" stops being true for new rolls; accounts
+that rolled before still carry the old code in their settings, unused.
+
+**Runs.** LOCAL. FLOW1: units 1,491 of 1,491; `ci:validate` 25 of 25 replayed steps (pinned actionlint, `--keep-going`;
+an earlier replay stopped on `verify_clips`'s 0.1 s deadline test at load 8.0, 5 of 5 green alone); the account and
+ledger journeys under the lock, 53 of 53, then 55 of 55 merged with dev v1.262.4. FLOW2, on the head merged with dev v1.262.7 (5619059fb): units 1,499 of 1,499 and `ci:validate` 25 of 25 replayed steps; the account and ledger journeys plus dev's two harness specs under the lock (`BUILD_PEAK_MIB=4000`), 58 of 58 (7.2 min) on 6b176c28f; `check_payload_budget.py` exit 0 (deferred 510,977 of 510,977 B; eager gzip 352,250 B, over its 300,000 B target and under the 400,000 B action).
+FLOW3, merged with dev v1.262.10 (260b666f0) as v1.262.11: both ledger files 37 of 37; units 1,500 of 1,500 (a first
+pass beside the journeys at load 10 lost `verify_clips`'s 0.1 s deadline test, untouched here); the same 58 journeys under
+the lock, 58 of 58 (9.1 min), and `payload-first-hand`, core 371,717 B, +610 B over the checkpointed 371,107;
+`check_payload_budget.py` exit 0 (deferred 510,981 of 510,981 B; eager gzip 352,291 B). The full core suite and
+`e2e:gen` run on the PR.
 
 ## v1.263.0 — The deploy gate runs what a deploy can break, plus one smoke per surface (GATE5, 2026-11-12)
 

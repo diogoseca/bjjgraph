@@ -558,7 +558,7 @@ per state. Start: uniform for Anywhere/My weak spots, both Standing seats otherw
 An adjoint sweep estimates derivatives; the displayed shortlist is re-solved exactly.
 Negative gain is a backfiring class. Tiers share current recoverable value; mastered decks
 score zero. Personalisation shrinks to the prior (`pseudo_count = 8`); `resolve()` records
-per-device G-Counters. Game Knowledge weights attackers, defenders and positions.
+per-browser G-Counters. Game Knowledge weights attackers, defenders and positions.
 
 History: [archive](Changelog-Archive.md), v1.138.0, v1.145.13, v1.209.0.
 
