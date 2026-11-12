@@ -71,7 +71,7 @@ We use **PostHog** to understand how the Service is used. PostHog collects, on o
 
 - **Page views and navigation** (which pages you visit, referrer)
 - **Device and browser information**
-- **Approximate location**, derived from your IP address (we do not store precise location)
+- **Your IP address** and the **approximate location** derived from it (we do not store precise location)
 - **Interaction events**, such as picking a move, answering a flashcard, or clicking an affiliate link, and the text of any feedback you send
 - **Clicks on the page**, recorded automatically, with the text of what was clicked
 
@@ -119,7 +119,7 @@ We rely on the following service providers, which may process limited data on ou
 | **jsDelivr (CDN)** | Delivers the authentication SDK to your browser | IP address and user-agent |
 | **Bunny.net** | Course preview videos on System pages | IP address and user-agent |
 | **GitHub** | The star count shown in the account menu | IP address and user-agent |
-| **PostHog** | Product analytics | Usage events, device/browser, approximate location |
+| **PostHog** | Product analytics | Usage events, device/browser, IP address and approximate location |
 
 Some outbound links on the Service (for example to **BJJFanatics**) are affiliate links; clicking them takes you to a third-party site governed by its own privacy policy.
 
