@@ -317,7 +317,8 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
     return {
       session: !!s, practice: !!s.practice, anchor: s && s.anchor, keys: s && s.keys,
       review: s && s.review && { count: s.review.count, rows: s.review.rows.map((x: any) => [x.key, x.count]) },
-      header: a.drillHeadRef.current.innerText as string,
+      // v1.261.0 (owner U135 a): Practice is a view in the drawer, so the brand names it ("‹ Practice"), as it names Path
+      header: (document.querySelector(".ng-drawer-brand") as HTMLElement).innerText as string,
     };
   });
   expect(queue, "the queue is the review debt, and its rows are the cover").toEqual({
@@ -325,7 +326,7 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
     review: { count: 2, rows: [[r.other, 2]] },
   });
   // the RENDERED header repeats the cell's number in the cell's unit, and the foot counts progress
-  expect(header).toContain("Practice");
+  expect(header).toBe("‹ Practice");
   await expect(page.locator("[data-practice-section]"), "P1-F: first review section repeats the drawer debt").toHaveText("Due reviews · 2 cards");
   await expect(page.locator("[data-plan-goal-progress]"), "the compact goal counts the same cards").toHaveText("Reviewed 0/2");
   // ...and the one row is narrowed to what is OWED — both cards, not its whole deck. Read off
