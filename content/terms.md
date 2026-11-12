@@ -19,6 +19,14 @@ description: The terms governing your use of BJJGraph.
 
 These Terms of Service ("Terms") govern your use of the website at [bjjgraph.org](https://bjjgraph.org) (the "Service"), an educational Brazilian Jiu-Jitsu knowledge graph and training tool operated by **Diogo Seca** ("we", "us"). By accessing or using the Service, you agree to these Terms. If you do not agree, please do not use the Service.
 
+## In short
+
+- **Safety first.** Brazilian Jiu-Jitsu carries an inherent risk of serious injury. BJJGraph is for study only: it is not instruction or coaching. Always train under a qualified instructor, with a willing and properly prepared partner. You assume all risk of practising what you read here.
+- **What the service is.** A free, educational knowledge graph and training tool, in beta, provided **"as is" and "as available"**. The simulated roll and its percentages are a gameplay estimate for study; they do not predict real outcomes.
+- **Your account.** An account is optional. You are responsible for what happens under it, and we may suspend accounts that break these Terms.
+- **Liability.** To the fullest extent permitted by law, we accept **no liability** for any injury, loss, or damage resulting from your use of, or reliance on, the content of the Service.
+- **Contact.** **[support@bjjgraph.org](mailto:support@bjjgraph.org)**
+
 ## 1. Acceptance of terms
 
 By accessing or using BJJGraph, you confirm that you have read, understood, and agree to be bound by these Terms and by our [Privacy Policy](/privacy).

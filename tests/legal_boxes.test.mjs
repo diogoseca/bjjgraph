@@ -52,8 +52,7 @@ test("arriving opens a box on exactly the two legal addresses", () => {
 
 // The owner's note on U150 (12 Nov 2026): the short box never prints the operator's name or "an individual" while who operates the
 // project is undecided (U151). The box's short part is a page's "In short", so each one present is held to it; the name is read from
-// the page's own "operated by **...**", never typed here. Today only the privacy page has one; the Terms "In short" joins with the content
-// commit, and the count then reads 2.
+// the page's own "operated by **...**", never typed here. Both pages carry one (the Terms "In short" came with the content commit).
 test('each "In short" section names no operator and says no "an individual"', () => {
   let sections = 0;
   for (const page of PAGES) {
@@ -65,5 +64,5 @@ test('each "In short" section names no operator and says no "an individual"', ()
     if (operator) assert.ok(!section.includes(operator), page + ': its "In short" names the operator');
     assert.ok(!/an individual/i.test(section), page + ': its "In short" says "an individual"');
   }
-  assert.ok(sections >= 1, 'no "In short" section was read');
+  assert.equal(sections, 2, 'both pages carry an "In short" section');
 });
