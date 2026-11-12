@@ -15580,17 +15580,17 @@ view it is a reach too); scroll-declines holds that claim instead.
 leaves two of three below the edge; the proposal scrolls the reader just enough for the last answer and never past the card's top
 (screens 06 and 07 in the owner's briefing).
 
-**Runs.** LOCAL, under the build lock (`BUILD_PEAK_MIB=4000`), on this branch merged with dev v1.261.0 (#377). On the final code:
-the spec 8 of 8 (each 2.6 to 9.4 s; the @curated one 2.9 s), the 8 mutant runs 8 of 8 killed, and the 11 nearest card and reader
-files 168 of 168 (reading-mode, covered-card, card-fold, article-order, reading-contract, reading-navigation, land-layers,
-landcard-deck, panic-card, landing-reveal, roll-card). On the first cut (the same rule, its logic in the reader) 20 card, reader and
-pane files ran 335 of 335; the 9 not rerun on the final code (article-dashboard, article-sections, defending-landing, deck-boundary,
-index-reveal, momentum, pane-keyboard, pane-law, pane-layout) are the PR's to run. `npm run ci:validate` 25 of 25. Not run locally:
-the full core suite and `e2e:gen`; the PR's e2e-full is the full gate.
+**Runs.** LOCAL, under the build lock (`BUILD_PEAK_MIB=4000`). On the final code, merged with dev v1.262.0 (4b3562ffa): the spec
+8 of 8 (each 2.7 to 9.5 s; the @curated one 2.9 s) and the 8 mutant runs 8 of 8 killed; with the folded hook, the 5 files that run its
+already-reading branch 102 of 102 (reading-mode, reading-contract, covered-card, article-order, card-fold). On the same design with the
+hook on its own line, merged with v1.261.0: the 11 nearest card and reader files 168 of 168. On the first cut (the same rule, its logic
+in the reader): 20 card, reader and pane files 335 of 335. `npm run ci:validate` 25 of 25. Not run locally: the full core suite and
+`e2e:gen`; the PR's e2e-full is the full gate.
 
-**Bytes.** `check_payload_budget.py` exit 0: deferred 510,940 of 510,977 B; eager raw 1,392,397 of 1,600,000 B; eager gzip 350,935 B,
-over its 300,000 B target and under its 400,000 B action line, as dev already was. `neural.js` 680,157 to 681,297 B (+1,140), `reader.js`
-+29. No ceiling or baseline moved. App rows re-seeded with `validate:build-shape:app`, no capture.
+**Bytes.** `check_payload_budget.py` exit 0: deferred 510,977 of 510,977 B, exactly at the ceiling, which did not move; eager raw
+1,394,386 of 1,600,000 B; eager gzip 351,662 B, over its 300,000 B target and under its 400,000 B action line, as dev already was.
+Against dev v1.262.0's rows: `neural.js` 682,101 to 683,239 B (+1,138), `reader.js` 44,855 to 44,875 B (+20). App rows re-seeded with
+`validate:build-shape:app`, no capture.
 
 **Screens** (390x631, the owner's briefing, `shortphone/`): the card as it opens with the thumb on it, the answers reached from the
 card, past the answers with the thumb on the article, the drag back before (the timer bar gone) and after (the bar running), and the
