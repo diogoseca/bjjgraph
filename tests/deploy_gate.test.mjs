@@ -53,7 +53,7 @@ import { tmpdir } from "node:os";
 import {
   ROOT, BUDGET, MANIFEST, check, scanSites, checkStatic, checkBudget, checkListed, flattenListing,
   evaluateTripwire, parseGateLog, lineLiterals, loadJson, flattenResults, checkRan, RESULTS,
-  promotionTarget, evaluatePromotion, TESTED_ONLY_DIFF,
+  judgePromotion, evaluatePromotion, TESTED_ONLY_DIFF,
 } from "../scripts/deploy_gate.mjs";
 
 const budget = loadJson(ROOT, BUDGET);
@@ -179,22 +179,54 @@ test("RAN is wired: the curated script's post hook counts the config's own JSON 
   assert.equal(RESULTS, "e2e/test-results/results.json", "the config's outputDir-relative report, as the count reads it");
 });
 
-test("PROMOTION: which commit vouches for a push to main, for every shape of push", () => {
-  const H = "a".repeat(40), M = "b".repeat(40), D = "c".repeat(40);
-  // the --no-ff promotion merge: its dev parent, when main's tree is that parent's plus only the keepalive file
-  assert.equal(promotionTarget({ head: H, parents: [M, D], diff: () => [...TESTED_ONLY_DIFF] }).tested, D, "a promotion merge is vouched for by its DEV parent, the second");
-  assert.equal(promotionTarget({ head: H, parents: [M, D], diff: () => [] }).tested, D, "...with or without the keepalive difference");
-  const drifted = promotionTarget({ head: H, parents: [M, D], diff: () => [".github/keepalive.txt", "neural/src/app.src.jsx"] });
-  assert.ok(drifted.error && !drifted.tested, "a merge whose tree differs from its dev parent's beyond keepalive fails closed");
-  assert.match(drifted.error, /main's tree is not the tree that was tested: .* in 1 file\(s\) beyond .*neural\/src\/app\.src\.jsx/);
-  // a non-merge push: the pushed commit itself must carry the green run
-  assert.equal(promotionTarget({ head: H, parents: [M] }).tested, H);
-  // anything else fails closed
-  for (const parents of [[M, D, "d".repeat(40)], []]) {
-    const t = promotionTarget({ head: H, parents });
-    assert.ok(t.error && !t.tested, `a head with ${parents.length} parents is no promotion shape: it fails closed`);
-    assert.match(t.error, new RegExp(`${parents.length} parents cannot be traced`));
-  }
+// A fixture commit graph for judgePromotion: each commit has parents and a tree (path -> content); runs are by sha.
+function graph(commits, runs = {}) {
+  const tree = (sha) => commits[sha].tree;
+  return {
+    parentsOf: (sha) => commits[sha].parents,
+    diff: (a, b) => [...new Set([...Object.keys(tree(a)), ...Object.keys(tree(b))])].filter((f) => tree(a)[f] !== tree(b)[f]).sort(),
+    runsOf: async (sha) => (runs[sha] || []).map((r, i) => ({ id: i + 1, head_sha: sha, status: "completed", ...r })),
+  };
+}
+const sha = (c) => c.repeat(40);
+const T = { "app.js": "v1", ".github/keepalive.txt": "dev" };
+const KEEP = { ...T, ".github/keepalive.txt": "main, week 2" };
+const GREEN = [{ event: "push", conclusion: "success" }];
+
+test("PROMOTION: a head with its own green run passes on it first; only then the second parent and the tree check", async () => {
+  // dev's tip D is a PR merge (parents: dev's previous tip P and the PR head R); R has only a pull_request run
+  const base = { [sha("p")]: { parents: [], tree: T }, [sha("r")]: { parents: [sha("p")], tree: T },
+    [sha("d")]: { parents: [sha("p"), sha("r")], tree: T } };
+  const prRun = { [sha("r")]: [{ event: "pull_request", conclusion: "success" }] };
+  // FAST-FORWARD of main onto D, which has its own green push-run: passes on D itself (FFDEV / FF8844 on #392 failed here)
+  let v = await judgePromotion({ head: sha("d"), ...graph(base, { ...prRun, [sha("d")]: GREEN }) });
+  assert.equal(v.ok, true, "a fast-forward of main onto a dev tip with a green push-run passes on that tip");
+  assert.equal(v.tested, sha("d"), "...and the commit that vouches is the pushed commit itself, not its second parent");
+  // the --no-ff promotion M (parents: main's tip, D): M has no run of its own, so the second parent D vouches
+  const promo = { ...base, [sha("m")]: { parents: [sha("p"), sha("d")], tree: KEEP } };
+  v = await judgePromotion({ head: sha("m"), ...graph(promo, { ...prRun, [sha("d")]: GREEN }) });
+  assert.equal(v.ok, true, "a --no-ff promotion with no run of its own falls back to its dev parent");
+  assert.equal(v.tested, sha("d"), "...the second parent");
+  // the order matters: a merge with its OWN green run passes even when its second parent has none
+  v = await judgePromotion({ head: sha("m"), ...graph(promo, { [sha("m")]: [{ event: "workflow_dispatch", conclusion: "success" }] }) });
+  assert.equal(v.tested, sha("m"), "the pushed commit's own green run is looked at before its second parent");
+  // a fast-forward onto a dev tip WITHOUT a green run falls back to the PR head, which has only a pull_request run: fails
+  v = await judgePromotion({ head: sha("d"), ...graph(base, prRun) });
+  assert.equal(v.ok, false, "a two-parent head with no green run of its own or of its second parent fails");
+  assert.match(v.message, new RegExp(`neither ${sha("d").slice(0, 9)} .* nor its dev parent has a counted green run`));
+  // the tree check still guards the fallback
+  const drift = { ...promo, [sha("m")]: { parents: [sha("p"), sha("d")], tree: { ...KEEP, "app.js": "v2" } } };
+  v = await judgePromotion({ head: sha("m"), ...graph(drift, { [sha("d")]: GREEN }) });
+  assert.ok(!v.ok && /main's tree is not the tree that was tested: .* in 1 file\(s\) beyond .*app\.js/.test(v.message), "a merge whose tree differs from its dev parent's beyond keepalive fails closed");
+});
+
+test("PROMOTION: no parents and an octopus fail closed", async () => {
+  let v = await judgePromotion({ head: sha("r"), ...graph({ [sha("r")]: { parents: [], tree: T } }) });
+  assert.ok(!v.ok && /has no parents: it cannot be traced/.test(v.message), "a head with no parents fails closed");
+  const octo = { [sha("a")]: { parents: [], tree: T }, [sha("b")]: { parents: [], tree: T }, [sha("c")]: { parents: [], tree: T },
+    [sha("o")]: { parents: [sha("a"), sha("b"), sha("c")], tree: T } };
+  v = await judgePromotion({ head: sha("o"), ...graph(octo) });
+  assert.ok(!v.ok && /3 parents: an octopus merge/.test(v.message), "an octopus merge fails closed");
 });
 
 test("PROMOTION: only a green push or dispatch run of e2e-full on that commit vouches for it", () => {

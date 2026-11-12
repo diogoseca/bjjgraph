@@ -287,17 +287,21 @@ function ran(root, args) {
   return r.errors.length ? 1 : 0;
 }
 
-// ── the promotion rule, enforced (v1.263.3, GATE6; the reviewer's finding 1 on #388) ──────────────
+// ── the promotion rule, enforced (v1.263.3, GATE6; the reviewer's finding 1 on #388; refined v1.263.4, GATE7) ───────
 // Production runs only the deploy gate, so the full suite must already have passed on the exact tree it ships. A
 // promotion is a `--no-ff` merge of a preview-verified dev commit, pushed straight to main with no PR, so no PR run ever
 // sees main's tree; the only full run of it is that dev commit's push-run of e2e-full. `promotion` (the first gate in
-// deploy.yaml, before the build) resolves which commit vouches for this push and fails unless an e2e-full run on THAT
-// commit concluded success:
-//   a merge (two parents)  the dev side, the second parent; and main's tree must equal its tree except for the files
-//                          only main carries (TESTED_ONLY_DIFF: the keepalive workflow commits to main alone, [skip ci]);
-//   one parent             the pushed commit itself: a fast-forward of main onto a tested dev commit passes, a commit
-//                          made on main fails, because nothing ran the full suite on it;
-//   anything else          fails closed: an octopus merge or a root commit is no promotion shape this repo makes.
+// deploy.yaml, before the build) finds the commit that vouches for this push and fails unless an e2e-full run on THAT
+// commit concluded success. At the pushed commit it looks, in this order, at:
+//   its own runs           a counted green run on the commit itself vouches for it. That is how a FAST-FORWARD of main
+//                          onto a dev tip passes: dev's tips are PR merge commits (two parents) whose push-run is
+//                          theirs alone, so judging them by their second parent would ask the PR branch's head, which
+//                          has only pull_request runs (GATE7, the reviewer's new 1 on #392: FFDEV and FF8844 failed so);
+//   two parents            then the second parent, the dev side of a `--no-ff` promotion; main's tree must equal its tree
+//                          except for the files only main carries (TESTED_ONLY_DIFF);
+//   one parent             nothing but its own run vouches for it: a commit made on main (or a keepalive commit, until
+//                          the walk below exists) fails, and the message gives the branch-and-dispatch recipe;
+//   anything else          fails closed: no parents, or an octopus merge, is no promotion shape this repo makes.
 // Which runs count: event push (dev's merges) or workflow_dispatch (the way to get one by hand), conclusion success.
 // A pull_request run tested a merge ref, not this commit, so it never counts. ONE RUN PER BURST, deliberately: dev's
 // push-runs share a concurrency group with cancel-in-progress, so a commit followed by another merge before its run
@@ -306,18 +310,12 @@ function ran(root, args) {
 export const TESTED_ONLY_DIFF = [".github/keepalive.txt"];
 const COUNTED_EVENTS = ["push", "workflow_dispatch"];
 
-/** Which commit's full-suite run vouches for a push to main, from HEAD's parents and the tree diff to that commit. */
-export function promotionTarget({ head, parents, diff = () => [] }) {
-  if (parents.length === 2) {
-    const tested = parents[1];
-    const extra = diff(tested).filter((f) => !TESTED_ONLY_DIFF.includes(f));
-    if (extra.length)
-      return { error: `main's tree is not the tree that was tested: ${head.slice(0, 9)} differs from its dev parent ${tested.slice(0, 9)} in ${extra.length} file(s) beyond ${TESTED_ONLY_DIFF.join(", ")}: ${extra.slice(0, 10).join(", ")}${extra.length > 10 ? ", ..." : ""}` };
-    return { tested, shape: "a --no-ff promotion merge; its dev parent" };
-  }
-  if (parents.length === 1) return { tested: head, shape: "a single-parent push; the pushed commit itself" };
-  return { error: `a push to main whose head has ${parents.length} parents cannot be traced to one tested commit (fails closed)` };
-}
+const recipe = (sha) => {
+  const short = sha.slice(0, 9);
+  return `To get a green run for ${short} itself, while it is dev's tip and no merge is in flight: gh workflow run e2e-full.yml ` +
+    `--ref dev; otherwise give it a branch of its own, which cancels nothing on dev: git push origin ${sha}:refs/heads/verify-${short} ` +
+    `&& gh workflow run e2e-full.yml --ref verify-${short}. Then re-run this deploy.`;
+};
 
 /** The e2e-full runs on one commit: does any counted run vouch for it? */
 export function evaluatePromotion(runs, sha) {
@@ -330,9 +328,39 @@ export function evaluatePromotion(runs, sha) {
   return { ok: false, runs: list, message:
     `no e2e-full run on ${short} concluded success (runs found: ${list}); production would ship a tree the full suite never passed. ` +
     `Promote the newest dev commit whose push-run of e2e-full is green: a burst of merges keeps one run, for its newest tip, and ` +
-    `cancels the rest by design. To get a green run for ${short} itself, while it is dev's tip and no merge is in flight: ` +
-    `gh workflow run e2e-full.yml --ref dev; otherwise give it a branch of its own, which cancels nothing on dev: ` +
-    `git push origin ${sha}:refs/heads/verify-${short} && gh workflow run e2e-full.yml --ref verify-${short}. Then re-run this deploy.` };
+    `cancels the rest by design. ${recipe(sha)}` };
+}
+
+/** Which commit vouches for a push to main, walking from the head as the header says. `parentsOf(sha)` and
+ *  `diff(a, b)` (changed paths) read git; `runsOf(sha)` reads the runs API. `steps` records every commit looked at. */
+export async function judgePromotion({ head, parentsOf, diff, runsOf }) {
+  const steps = [];
+  const look = async (sha, role) => {
+    const v = evaluatePromotion(await runsOf(sha), sha);
+    steps.push(`${sha.slice(0, 9)} (${role}): e2e-full runs ${v.runs}`);
+    return v;
+  };
+  let at = head, walked = 0;
+  for (;;) {
+    const role = at === head ? "the pushed commit" : `beneath ${walked} commit(s)`;
+    const own = await look(at, role);
+    if (own.ok) return { ok: true, tested: at, shape: `${role}, on its own run`, message: own.message, steps };
+    const parents = parentsOf(at);
+    if (parents.length === 2) {
+      const tested = parents[1];
+      const extra = diff(tested, head).filter((f) => !TESTED_ONLY_DIFF.includes(f));
+      if (extra.length)
+        return { ok: false, tested, steps, message: `main's tree is not the tree that was tested: ${head.slice(0, 9)} differs from ${tested.slice(0, 9)}, the dev parent of ${at.slice(0, 9)}, in ${extra.length} file(s) beyond ${TESTED_ONLY_DIFF.join(", ")}: ${extra.slice(0, 10).join(", ")}${extra.length > 10 ? ", ..." : ""}` };
+      const v = await look(tested, `the dev parent of ${at.slice(0, 9)}`);
+      if (v.ok) return { ok: true, tested, shape: `the --no-ff promotion merge ${at.slice(0, 9)}'s dev parent`, message: v.message, steps };
+      return { ok: false, tested, steps, message: `neither ${at.slice(0, 9)} (${role}) nor its dev parent has a counted green run. For the dev parent: ${v.message} For ${at.slice(0, 9)} itself, the same recipe applies to its own sha.` };
+    }
+    if (parents.length === 1)
+      return { ok: false, tested: at, steps, message: `${at.slice(0, 9)} (${role}) is a single-parent commit with no counted green run of its own, so nothing vouches for it. ${own.message}` };
+    if (parents.length === 0)
+      return { ok: false, steps, message: `${at.slice(0, 9)} has no parents: it cannot be traced to one tested commit (fails closed)` };
+    return { ok: false, steps, message: `${at.slice(0, 9)} has ${parents.length} parents: an octopus merge is no promotion shape this repo makes; it fails closed` };
+  }
 }
 
 const git = (root, ...a) => {
@@ -356,19 +384,27 @@ async function e2eFullRuns(sha) {
 
 async function promotion(root, args) {
   try {
-    let tested, shape;
-    if (args.includes("--commit")) { tested = args[args.indexOf("--commit") + 1]; shape = "named on the command line (a dry run of the run check)"; }
-    else {
-      const at = args.includes("--head") ? args[args.indexOf("--head") + 1] : "HEAD"; // --head: a dry run of the whole rule
-      const head = git(root, "rev-parse", at);
-      const parents = git(root, "rev-list", "--parents", "-n", "1", head).split(" ").slice(1);
-      const t = promotionTarget({ head, parents, diff: (other) => git(root, "diff", "--name-only", other, head).split("\n").filter(Boolean) });
-      if (t.error) { console.log(`::error title=Promotion rule::${t.error}`); return 1; }
-      ({ tested, shape } = t);
+    if (args.includes("--commit")) { // a dry run of the run check alone, on one named commit
+      const sha = args[args.indexOf("--commit") + 1];
+      if (!/^[0-9a-f]{40}$/.test(sha || "")) { console.log(`::error title=Promotion rule::not a full commit sha: ${sha}`); return 1; }
+      const v = evaluatePromotion(await e2eFullRuns(sha), sha);
+      console.log(`promotion --commit ${sha}: e2e-full runs on it: ${v.runs}`);
+      console.log((v.ok ? "::notice title=Promotion rule::" : "::error title=Promotion rule::") + v.message);
+      return v.ok ? 0 : 1;
     }
-    if (!/^[0-9a-f]{40}$/.test(tested || "")) { console.log(`::error title=Promotion rule::not a full commit sha: ${tested}`); return 1; }
-    const v = evaluatePromotion(await e2eFullRuns(tested), tested);
-    console.log(`promotion: the commit that vouches for this push is ${tested} (${shape}); e2e-full runs on it: ${v.runs}`);
+    const at = args.includes("--head") ? args[args.indexOf("--head") + 1] : "HEAD"; // --head: a dry run of the whole rule
+    const head = git(root, "rev-parse", at);
+    const v = await judgePromotion({
+      head,
+      parentsOf: (sha) => git(root, "rev-list", "--parents", "-n", "1", sha).split(" ").slice(1),
+      diff: (a, b) => git(root, "diff", "--name-only", a, b).split("\n").filter(Boolean),
+      runsOf: async (sha) => {
+        if (!/^[0-9a-f]{40}$/.test(sha)) throw new Error(`not a full commit sha: ${sha}`);
+        return e2eFullRuns(sha);
+      },
+    });
+    for (const step of v.steps) console.log(`promotion: looked at ${step}`);
+    if (v.ok) console.log(`promotion: the commit that vouches for ${head} is ${v.tested} (${v.shape})`);
     console.log((v.ok ? "::notice title=Promotion rule::" : "::error title=Promotion rule::") + v.message);
     return v.ok ? 0 : 1;
   } catch (e) { console.log(`::error title=Promotion rule::the rule could not be checked (${e.message}); it fails closed`); return 1; }
