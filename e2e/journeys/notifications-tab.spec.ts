@@ -35,11 +35,12 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  * must never reach the preview broken: an account with it off has nothing written, and an account with
  * it on can turn it off. The rest run in the PR's e2e-full.
  *
- * MUTANTS (v1.261.1, DIGEST1 and DIGEST2; the table and the exact rows are in docs/Changelog-Archive.md): 12 of 12
+ * MUTANTS (v1.261.1, DIGEST1 and DIGEST2; the table and the exact rows are in docs/Changelog-Archive.md): 13 of 13
  * killed here on the served bundle (the tab always drawn, the stored setting ignored, no deep-link
  * fallback, the keys walking the full list, the sentence missing or shown when live, the per-opening
- * choice never resetting or made on every render, opening Settings writing the key, a guest losing the
- * tab, the flag ignored, u60-notifications-lost), with a green control. Non-kills: none.
+ * choice never resetting or made on every render, opening Settings writing the key, a guest keeping the
+ * tab, a guest with it stored on seeing it, the flag ignored, u60-notifications-lost), with a green
+ * control. Non-kills: none.
  *
  * NOT covered here: anything about sending (the worker's own tests), the cloud merge of the setting
  * across devices (per-key LWW, unchanged), and the visual placement of the "Beta" badge.
