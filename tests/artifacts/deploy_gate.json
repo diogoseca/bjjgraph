@@ -249,7 +249,7 @@
     },
     {
       "file": "legal-pages.spec.ts",
-      "title": "@curated arriving on /privacy and /terms opens the page's own short box before the map loads, and holds the roll (390x844)",
+      "title": "390x844 › @curated arriving on /privacy and /terms opens the page's own short box before the map loads, and holds the roll (390x844)",
       "tier": "S",
       "reason": "smoke, the legal pages read: /privacy and /terms open their own short box over the map and start nothing (390x844); unreadable on production for four months and nothing noticed",
       "ci_s": 1.9
