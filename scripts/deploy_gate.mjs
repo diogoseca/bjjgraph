@@ -326,7 +326,8 @@ export const tripwireExit = (time, count) => (time.level === "error" || !count.o
 //                          has only pull_request runs (GATE7, the reviewer's new 1 on #392: FFDEV and FF8844 failed so);
 //   two parents            then the second parent, the dev side of a `--no-ff` promotion; main's tree must equal its tree
 //                          except for the files only main carries (TESTED_ONLY_DIFF);
-//   one parent             if the commit changes nothing but TESTED_ONLY_DIFF from its parent (a keepalive commit: the
+//   one parent             if the commit is EMPTY (its tree hash is its parent's) or changes nothing but
+//                          TESTED_ONLY_DIFF from its parent (a keepalive commit: the
 //                          weekly workflow commits to main alone, [skip ci]), step back to the parent and look again, so
 //                          a manual redeploy after a keepalive passes on the promotion beneath it (the reviewer's new 2);
 //                          any other single-parent commit was made on main and nothing ran the suite on it: it fails,
@@ -384,7 +385,7 @@ export async function judgePromotion({ head, parentsOf, diff, runsOf, sameTree =
   };
   let at = head, walked = 0;
   for (;;) {
-    const role = at === head ? "the pushed commit" : `beneath ${walked} keepalive commit(s)`;
+    const role = at === head ? "the pushed commit" : `beneath ${walked} keepalive or empty commit(s)`;
     const own = await look(at, role);
     if (own.ok) {
       // the backstop (GATE8): whatever the walk stepped over, main's tree must be this commit's tree but for
@@ -405,9 +406,12 @@ export async function judgePromotion({ head, parentsOf, diff, runsOf, sameTree =
       return { ok: false, tested, steps, message: `neither ${at.slice(0, 9)} (${role}) nor its dev parent has a counted green run. For the dev parent: ${v.message} For ${at.slice(0, 9)} itself, the same recipe applies to its own sha.` };
     }
     if (parents.length === 1) {
-      const changed = diff(parents[0], at);
-      if (changed.length && changed.every((f) => TESTED_ONLY_DIFF.includes(f))) {
-        if (++walked > KEEPALIVE_WALK) return { ok: false, steps, message: `more than ${KEEPALIVE_WALK} keepalive-only commits on main with no promotion beneath them: fails closed` };
+      // an EMPTY commit (GATE8, the reviewer's new 4 on #393) is stepped over too: its tree is its parent's, byte for
+      // byte, so whatever vouches for the parent vouches for it. Decided by TREE HASH, never by an empty listing, so a
+      // listing that under-reports cannot pass a real change off as empty.
+      const changed = sameTree(parents[0], at) ? [] : diff(parents[0], at);
+      if (sameTree(parents[0], at) || (changed.length && changed.every((f) => TESTED_ONLY_DIFF.includes(f)))) {
+        if (++walked > KEEPALIVE_WALK) return { ok: false, steps, message: `more than ${KEEPALIVE_WALK} keepalive-only or empty commits on main with no promotion beneath them: fails closed` };
         at = parents[0];
         continue;
       }

@@ -363,7 +363,7 @@ test("PROMOTION choices: the walk stops at twenty keepalive commits, and schedul
   const at = (n) => `k${String(n).padStart(2, "0")}`.padEnd(40, "0");
   assert.equal((await judgePromotion({ head: at(20), ...graph(commits, { [sha("d")]: GREEN }) })).ok, true, "twenty keepalive commits are walked back through");
   const v = await judgePromotion({ head: at(21), ...graph(commits, { [sha("d")]: GREEN }) });
-  assert.ok(!v.ok && /more than 20 keepalive-only commits/.test(v.message), "the twenty-first fails closed: a choice, written at KEEPALIVE_WALK");
+  assert.ok(!v.ok && /more than 20 keepalive-only or empty commits/.test(v.message), "the twenty-first fails closed: a choice, written at KEEPALIVE_WALK");
   const D = sha("d");
   assert.equal(evaluatePromotion([{ id: 9, head_sha: D, event: "schedule", status: "completed", conclusion: "success" }], D).ok, false, "a green schedule run does not vouch: a choice, written at COUNTED_EVENTS");
 });
@@ -385,6 +385,30 @@ test("TRIPWIRE judgment: it reads the count file from the tree, so neither the c
     writeFileSync(join(root, COUNT), JSON.stringify({ total: 1, passed: 1, skipped: 0, rows: 1, errors: 0 }));
     assert.equal(tripwireJudge(root, jobs).exit, 1, "a count file that is not the ledger's is read, and turns it red");
   } finally { rmSync(root, { recursive: true, force: true }); }
+});
+
+test("PROMOTION: an empty commit is stepped over by its tree hash, never by an empty listing (GATE8, the reviewer's new 4)", async () => {
+  const commits = { [sha("p")]: { parents: [], tree: T }, [sha("d")]: { parents: [sha("p")], tree: T },
+    [sha("m")]: { parents: [sha("p"), sha("d")], tree: KEEP },
+    [sha("e")]: { parents: [sha("m")], tree: { ...KEEP } },
+    [sha("x")]: { parents: [sha("m")], tree: { ...KEEP, "app.js": "v2" } } };
+  const g = graph(commits, { [sha("d")]: GREEN });
+  const same = (a, b) => JSON.stringify(commits[a].tree) === JSON.stringify(commits[b].tree);
+  let v = await judgePromotion({ head: sha("e"), ...g, sameTree: same });
+  assert.deepEqual([v.ok, v.tested], [true, sha("d")], "an empty commit on a promotion passes on the promotion's dev parent");
+  // a listing that says "nothing changed" for a commit whose tree differs: it is NOT empty, and it is not keepalive-only
+  const lying = { ...g, sameTree: same, diff: (a, b) => (a === sha("m") && b === sha("x") ? [] : g.diff(a, b)) };
+  v = await judgePromotion({ head: sha("x"), ...lying });
+  assert.equal(v.ok, false, "emptiness is decided by tree hash, so an empty listing cannot pass a real change off as empty");
+  assert.match(v.message, /is a single-parent commit that changes more than/, "...the walk stops AT that commit, before any backstop has to catch it");
+  // the same on real git: a commit object with its parent's tree, which git itself would call --allow-empty
+  const r = gitRepo();
+  try {
+    const B = r.commit([], { ".github/keepalive.txt": "k0", "a.txt": "a\n" });
+    const E = r.commit([B], {});
+    v = await judgePromotion({ head: E, ...gitAccess(r.dir), runsOf: async (s) => (s === B ? [{ id: 1, head_sha: B, event: "push", status: "completed", conclusion: "success" }] : []) });
+    assert.deepEqual([v.ok, v.tested], [true, B], "a real empty commit is stepped over to the commit that vouches");
+  } finally { r.done(); }
 });
 
 test("PROMOTION: no parents names the checkout depth, an octopus fails closed", async () => {
