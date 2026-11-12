@@ -33,7 +33,7 @@ import { join } from "node:path";
 import { tmpdir } from "node:os";
 import {
   ROOT, BUDGET, MANIFEST, check, scanSites, checkStatic, checkBudget, checkListed, flattenListing,
-  evaluateTripwire, parseGateLog, lineLiterals, loadJson,
+  evaluateTripwire, parseGateLog, lineLiterals, loadJson, flattenResults, checkRan, RESULTS,
 } from "../scripts/deploy_gate.mjs";
 
 const budget = loadJson(ROOT, BUDGET);
@@ -132,6 +132,31 @@ test("LISTED: Playwright's selection must equal the rows, and zero listed fails"
   const errs = checkListed(listed, { tests: [row("x.spec.ts", "@curated a"), row("x.spec.ts", "gone")] });
   assert.ok(errs.some((e) => /runs a test with no row: x\.spec\.ts › D › @curated b/.test(e)) && errs.some((e) => /does not run: x\.spec\.ts › gone/.test(e)));
   assert.ok(checkListed([], { tests: [] }).some((e) => /ZERO/.test(e)));
+});
+
+test("RAN: the tests that ran and passed must be exactly the rows, none skipped, and more than zero", () => {
+  const rows = { tests: [row("a.spec.ts", "@curated one"), row("a.spec.ts", "D › @curated two")] };
+  const t = (status = "expected", result = "passed") => ({ status, results: [{ status: result }] });
+  const report = (one, two, extra = []) => ({ suites: [{ title: "a.spec.ts", file: "a.spec.ts", specs: [...(one ? [{ title: "@curated one", file: "a.spec.ts", tests: [one] }] : []), ...extra],
+    suites: two ? [{ title: "D", file: "a.spec.ts", specs: [{ title: "@curated two", file: "a.spec.ts", tests: [two] }] }] : [] }] });
+  const at = (json) => checkRan(flattenResults(json), rows);
+  let r = at(report(t(), t()));
+  assert.deepEqual([r.errors, r.passed, r.skipped, r.rows], [[], 2, 0, 2]);
+  r = at(report(t(), t("skipped", "skipped")));
+  assert.deepEqual([r.passed, r.skipped], [1, 1]);
+  assert.match(r.errors.join("\n"), /skipped in the gate, so its surface went unchecked: a\.spec\.ts › D › @curated two/);
+  assert.match(at(report(t(), null)).errors.join("\n"), /a row the gate did not run: a\.spec\.ts › D › @curated two/);
+  assert.match(at({ suites: [] }).errors.join("\n"), /ZERO tests/);
+  assert.match(at(report(t(), t("unexpected", "failed"))).errors.join("\n"), /did not pass in the gate \(unexpected, failed\)/);
+  assert.match(at(report(t(), t(), [{ title: "@curated three", file: "a.spec.ts", tests: [t()] }])).errors.join("\n"), /ran in the gate with no row: a\.spec\.ts › @curated three/);
+});
+
+test("RAN is wired: the curated script's post hook counts the config's own JSON report", () => {
+  const pkg = JSON.parse(readFileSync(join(ROOT, "package.json"), "utf8"));
+  assert.equal(pkg.scripts["posttest:curated"], "node scripts/deploy_gate.mjs ran", "npm runs the count after every green curated run");
+  const config = readFileSync(join(ROOT, "e2e/playwright.config.ts"), "utf8");
+  assert.match(config, /\["json", \{ outputFile: "test-results\/results\.json" \}\]/, "the core config writes the report the count reads");
+  assert.equal(RESULTS, "e2e/test-results/results.json", "the config's outputDir-relative report, as the count reads it");
 });
 
 test("TRIPWIRE: exactly one completed gate step; ok, warning and error by the budget; absence is an error", () => {

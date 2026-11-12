@@ -28,6 +28,8 @@
 //                    collects them, so the listing cannot run in ci-validate): Playwright's own
 //                    `--list --grep @curated`, the gate's exact selection, must equal the rows, title for title.
 //                    That is what catches a parametrised condition widened to tag more cases.
+//   ran              (posttest:curated, so in both deploys before the Pages upload, and on every local curated run):
+//                    the tests that ran and passed must be exactly the rows, none skipped, more than zero.
 //   tripwire         (both deploys, AFTER the Pages upload and the live checks): reads the gate step's start and end
 //                    from this run attempt's own jobs API, requires exactly one step of that name (zero or two must
 //                    not read as fast), warns over the target and fails over the line. It runs after the upload on
@@ -38,6 +40,7 @@
 //
 // Usage:
 //   node scripts/deploy_gate.mjs check [--listed]
+//   node scripts/deploy_gate.mjs ran [--report <file>]          (npm runs it after `npm run test:curated`)
 //   node scripts/deploy_gate.mjs tripwire                      (in a workflow: GH_TOKEN and the GITHUB_* variables)
 //   node scripts/deploy_gate.mjs refresh --log <gate log> --run <run id>
 //       (gh run view <id> --log > gate.log; rows the log does not name keep their seconds and are listed)
@@ -220,6 +223,61 @@ export function checkListed(listed, manifest) {
   return errors;
 }
 
+// ── the count of what RAN (v1.263.1, GATE6; the reviewer's finding 6 on #388) ─────────────────────
+// `--grep @curated` failing on zero matches is Playwright's default, but a kept test that SKIPS at run time passes the
+// gate silently, and with ~60 tests each one is a surface. `posttest:curated` (package.json) runs `ran` after a green
+// curated run, before the Pages upload in both deploys (scripts/check_build_chains.py expands the hook as part of the
+// curated gate, so it is required in both): the tests that ran and passed must be exactly the rows, none skipped, and
+// more than zero. It reads the JSON reporter's file from e2e/playwright.config.ts, which lands in an outputDir that
+// Playwright wipes at the start of every run, so it can only ever count this run.
+export const RESULTS = "e2e/test-results/results.json";
+
+/** Flatten Playwright's JSON report into { file, title, status, result } (status: expected|unexpected|flaky|skipped). */
+export function flattenResults(json) {
+  const out = [];
+  const walk = (suite, titles) => {
+    const t = suite.title && !suite.title.endsWith(".spec.ts") ? [...titles, suite.title] : titles;
+    for (const spec of suite.specs || []) for (const test of spec.tests || []) {
+      const last = (test.results || []).at(-1);
+      out.push({ file: spec.file, title: [...t, spec.title].join(SEP), status: test.status, result: last ? last.status : null });
+    }
+    for (const child of suite.suites || []) walk(child, t);
+  };
+  for (const s of json.suites || []) walk(s, []);
+  return out;
+}
+
+export function checkRan(results, manifest) {
+  const errors = [];
+  const key = (x) => x.file + SEP + x.title;
+  const want = new Set((manifest.tests || []).map(key));
+  const seen = new Map();
+  let passed = 0, skipped = 0;
+  if (results.length === 0) errors.push("the gate's report holds ZERO tests: nothing ran, which must not read as a pass");
+  for (const r of results) {
+    const k = key(r);
+    seen.set(k, (seen.get(k) || 0) + 1);
+    if (r.status === "skipped" || r.result === "skipped") { skipped++; errors.push(`skipped in the gate, so its surface went unchecked: ${k}`); }
+    else if (r.result !== "passed" || r.status !== "expected") errors.push(`did not pass in the gate (${r.status}, ${r.result}): ${k}`);
+    else passed++;
+    if (!want.has(k)) errors.push(`ran in the gate with no row: ${k}`);
+  }
+  for (const [k, n] of seen) if (n > 1) errors.push(`ran ${n} times under one title: ${k}`);
+  for (const k of want) if (!seen.has(k)) errors.push(`a row the gate did not run: ${k}`);
+  return { errors, passed, skipped, rows: want.size, total: results.length };
+}
+
+function ran(root, args) {
+  const file = args.includes("--report") ? args[args.indexOf("--report") + 1] : RESULTS;
+  let json;
+  try { json = JSON.parse(readFileSync(resolve(root, file), "utf8")); }
+  catch (e) { console.log(`FAIL the gate's report ${file} cannot be read (${e.code || e.message}): what ran cannot be counted, so the gate is red`); return 1; }
+  const r = checkRan(flattenResults(json), loadJson(root, MANIFEST));
+  console.log(`deploy gate ran ${r.total} tests: ${r.passed} passed of ${r.rows} rows, ${r.skipped} skipped`);
+  for (const e of r.errors) console.log("FAIL " + e);
+  return r.errors.length ? 1 : 0;
+}
+
 // ── the tripwire ──────────────────────────────────────────────────────────────────────────────
 /** One step of the gate's name in this run attempt, completed: its minutes and the verdict against the budget. */
 export function evaluateTripwire(jobs, budget) {
@@ -322,6 +380,7 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
     for (const e of r.errors) console.log("FAIL " + e);
     process.exit(r.errors.length ? 1 : 0);
   } else if (cmd === "tripwire") process.exit(await tripwire(ROOT));
+  else if (cmd === "ran") process.exit(ran(ROOT, args));
   else if (cmd === "refresh") process.exit(refresh(ROOT, args));
-  else { console.error("usage: node scripts/deploy_gate.mjs check [--listed] | tripwire | refresh --log <file> --run <id>"); process.exit(2); }
+  else { console.error("usage: node scripts/deploy_gate.mjs check [--listed] | ran [--report <file>] | tripwire | refresh --log <file> --run <id>"); process.exit(2); }
 }
