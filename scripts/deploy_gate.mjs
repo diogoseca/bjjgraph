@@ -5,9 +5,10 @@
 // workflows, after the keyed build and before the Pages upload. Until v1.263.0 the tag meant "a fast representative
 // sample", and it grew from 427 tests on 1 Oct to 914 on 12 Nov: 33.6 to 36.8 minutes of a 45-minute step timeout,
 // about 2.6 minutes more every day (the GATE1 plan, `reports/gatetime.md`, outside the repo). The owner's answer: "only what a deploy can break,
-// plus one quick test per surface". 56 tests at v1.263.0, about 3 minutes; the tiers as v1.263.3 states them:
-//   D  a test that reads what only a deploy build has: the keyed Supabase and PostHog config in postscript.js (and the
-//      build stamp it carries), or this checkout's own history (publication dates);
+// plus one quick test per surface". 56 tests at v1.263.0, about 3 minutes; the tiers as v1.263.4 states them:
+//   D  a test that reads what only a deploy build has: the keyed Supabase and PostHog config in postscript.js, or this
+//      checkout's own history (publication dates). NOT the build stamp: NeuralMount.tsx writes window.__NEURAL_BUILD on
+//      every build, keyed or not (v1.263.4 moved bundle-version's two rows to S; the reviewer's new 5 on #392);
 //   S  re-run on the exact tree that ships, reading nothing a PR build lacks: one quick test per surface, plus the
 //      sign-in and account seams the owner's answer kept whole.
 //   v1.263.0 called 41 rows D. The reviewer of #388 (finding 4) showed 28 of them cannot see a deploy-only input (their

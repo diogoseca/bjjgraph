@@ -284,8 +284,8 @@ jobs:
 
       # THE DEPLOY GATE: WHAT ONLY A DEPLOY CAN BREAK, PLUS ONE QUICK TEST PER SURFACE (v1.263.0, the owner's
       # U147 a). Every `@curated` journey has one row in tests/artifacts/deploy_gate.json with its reason: tier D, a
-      # test that reads what only a deploy build has (the keyed config in postscript.js and its build stamp, or this
-      # checkout's own history); tier S, re-run on the exact tree that ships while reading nothing a PR build lacks
+      # test that reads what only a deploy build has (the keyed config in postscript.js, or this checkout's own
+      # history; not the build stamp, which every build writes); tier S, re-run on the exact tree that ships while reading nothing a PR build lacks
       # (one quick test per surface, plus the sign-in and account seams kept whole). v1.263.3 moved 28 rows from D to
       # S and dropped "the affiliate stamp" from D, which no row reads. The rest of the suite does not run here: it
       # runs in e2e-full.yml on every PR and every push to dev, and a promotion takes only a commit whose push-run
