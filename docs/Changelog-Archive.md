@@ -15921,7 +15921,8 @@ guest 15, 16, 19 · N1 trim by row day 10 · N2 read by row day 10 · N3 old par
 all 14, 15, 18 · N5 old guest needs room 15 · N6 no tie-break 13 · N7 emptied kept 14 · N8 empty takes room 14 · N9 cap 6 9, 12,
 guest 15 · N10 guest default 6 9, 14 · N11 merge default 6 9 · N12 no retry 16 · N13 retry overwrites 16 · N14 join by id 18.
 
-**Bytes.** neural.js +1,674 B raw, +564 B gzip-9 over dev; the deferred set unchanged at its ceiling. Worst case at the
+**Bytes.** neural.js +1,797 B raw, +626 B gzip-9 over dev (FLOW2's +1,674 and +564, then FLOW3's join order; measured
+against a dev bundle, the version string normalised); the deferred set unchanged at its ceiling. Worst case at the
 new cap: a partition holding every state-move cell is 62 KB (67 KB at four-digit tallies), 32 of them about 2.0 MB.
 
 **Privacy page.** True now: "Roll history (how often you chose each move from each position, and how often it worked),
@@ -15931,4 +15932,9 @@ that rolled before still carry the old code in their settings, unused.
 
 **Runs.** LOCAL. FLOW1: units 1,491 of 1,491; `ci:validate` 25 of 25 replayed steps (pinned actionlint, `--keep-going`;
 an earlier replay stopped on `verify_clips`'s 0.1 s deadline test at load 8.0, 5 of 5 green alone); the account and
-ledger journeys under the lock, 53 of 53, then 55 of 55 merged with dev v1.262.4. FLOW2, on the head merged with dev v1.262.7 (5619059fb): units 1,499 of 1,499 and `ci:validate` 25 of 25 replayed steps; the account and ledger journeys plus dev's two harness specs under the lock (`BUILD_PEAK_MIB=4000`), 58 of 58 (7.2 min) on 6b176c28f; `check_payload_budget.py` exit 0 (deferred 510,977 of 510,977 B; eager gzip 352,250 B, over its 300,000 B target and under the 400,000 B action). The full core suite and `e2e:gen` run on the PR.
+ledger journeys under the lock, 53 of 53, then 55 of 55 merged with dev v1.262.4. FLOW2, on the head merged with dev v1.262.7 (5619059fb): units 1,499 of 1,499 and `ci:validate` 25 of 25 replayed steps; the account and ledger journeys plus dev's two harness specs under the lock (`BUILD_PEAK_MIB=4000`), 58 of 58 (7.2 min) on 6b176c28f; `check_payload_budget.py` exit 0 (deferred 510,977 of 510,977 B; eager gzip 352,250 B, over its 300,000 B target and under the 400,000 B action).
+FLOW3, merged with dev v1.262.10 (260b666f0) as v1.262.11: both ledger files 37 of 37; units 1,500 of 1,500 (a first
+pass beside the journeys at load 10 lost `verify_clips`'s 0.1 s deadline test, untouched here); the same 58 journeys under
+the lock, 58 of 58 (9.1 min), and `payload-first-hand`, core 371,717 B, +610 B over the checkpointed 371,107;
+`check_payload_budget.py` exit 0 (deferred 510,981 of 510,981 B; eager gzip 352,291 B). The full core suite and
+`e2e:gen` run on the PR.
