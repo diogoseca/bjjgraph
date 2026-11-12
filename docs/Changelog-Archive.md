@@ -16075,11 +16075,13 @@ the card and scroll with the whole column" wheels 6,000 px over a taken-up recal
 the card leaves, and the journey asserts only geometry and then presses Got it, which still answers a declined card. No assertion
 changes. Run on the final code: the 23 files, 314 of 314.
 
-**Runs.** LOCAL, under the build lock (`BUILD_PEAK_MIB=4000`). On the final code merged with dev v1.262.11 (b43c4c075): the two specs 13 of
-13 (2.9 to 8.7 s each), the mutant runs above. On the final code before that merge (v1.262.10): the 23 surveyed files 314 of 314
-(20.8 min). `npm run ci:validate` on the merged tree. Not run locally: the full core suite and `e2e:gen`; the PR's e2e-full is the full gate.
+**Runs.** LOCAL, under the build lock (`BUILD_PEAK_MIB=4000`). On the final code merged with dev v1.263.0 (8844ed6ee): the two specs
+16 of 16 (2.1 to 8.3 s each; question-off-screen now 9, with 768x1024 by finger and 1024x768 by wheel added in SHORT5 because the
+review's count found 4 take-up tests at 768 and 6 at 1024 and none carrying a card off), the mutant runs above (9 of 10 killed with the
+768 run, plus the recorded non-kill). On the final code before that merge (v1.262.10): the 23 surveyed files 314 of 314 (20.8 min).
+`npm run ci:validate` 25 of 25. Not run locally: the full core suite and `e2e:gen`; the PR's e2e-full is the full gate.
 
-**Bytes.** `check_payload_budget.py` exit 0: deferred 510,981 of 510,981 B (`reader.js` unchanged, so dev's own figure); eager raw 1,395,966
-of 1,600,000 B; eager gzip 352,223 B, over its 300,000 B target and under its 400,000 B action line, as dev already was. `neural.js`
-685,036 to 684,813 B (-223). App rows re-seeded with `validate:build-shape:app`, no capture.
+**Bytes.** `check_payload_budget.py` exit 0: deferred 510,977 of 510,981 B (`reader.js` unchanged, so dev's own figure); eager raw 1,395,976
+of 1,600,000 B; eager gzip 352,234 B, over its 300,000 B target and under its 400,000 B action line, as dev already was. `neural.js`
+685,036 to 684,829 B (-207). App rows re-seeded with `validate:build-shape:app`, no capture.
 
