@@ -9,7 +9,9 @@ import { journey, type Journey } from "../dsl"
  * were unreadable with JavaScript (a roll started on top of them). The claims, one per test:
  *
  *   1. ARRIVAL: /privacy and /terms open the page's own short box as the app starts, BEFORE the map's data has arrived (graph-data held),
- *      at 390x844, 390x631 and 1440x900. Its title, date and short words are the page's (read from the served HTML here, never typed),
+ *      at 390x844, 390x631 and 1440x900. Its title, date and short words are the page's (read from the served HTML here, never typed): the
+ *      "In short" section, or for a page without one its first section; its head and short part never print the operator's name or
+ *      "an individual" (the owner's note on U150),
  *      the short words are DRAWN, every paragraph and list item of the page is in the box, the ✕ and the "Extended version" row are on
  *      screen and own their centres, and past the intro's hand-over nothing is dealt (the hold) on the page's own address and title.
  *   2. "Extended version" opens the rest of the page in the box (its first words drawn, the ✕ and the row still on screen), and pressed
@@ -43,7 +45,8 @@ const VIEWPORTS = [
 const BOX = (kind: string) => `.ng-legal[data-legal="${kind}"]`
 const TICK = 1000 / 60 + 1
 
-/** The page as the server sent it, split the way the claim reads it: the "In short" section, else the opening before the first section. */
+/** The page as the server sent it, split the way the claim reads it: the "In short" section, else the page's first section (heading and
+ *  all; never its opening, which names the operator). `operator` is the name the page itself prints after "operated by", never typed here. */
 async function served(page: Page, path: string) {
   const html = await (await page.request.get(path)).text()
   return page.evaluate((html) => {
@@ -54,12 +57,13 @@ async function served(page: Page, path: string) {
     const at = kids.findIndex((n) => n.tagName === "H2" && /^in short$/i.test(norm(n.textContent!)))
     const short: Element[] = []
     if (at >= 0) for (let i = at + 1; kids[i] && kids[i].tagName !== "H2"; i++) short.push(kids[i])
-    else for (const n of kids) { if (n.tagName === "H2") break; if (n !== date) short.push(n) }
+    else { let i = kids.findIndex((n) => n.tagName === "H2"); if (i >= 0) do short.push(kids[i]); while (kids[++i] && kids[i].tagName !== "H2") }
     const blocks = (els: Element[]) => els.flatMap((e) => e.matches("p,li") ? [e] : [...e.querySelectorAll("p,li")]).map((e) => norm(e.textContent!)).filter(Boolean)
     const rest = kids.filter((n) => n !== date && !short.includes(n) && !(at >= 0 && n === kids[at]))
     const words = (s: string) => s.split(" ").slice(0, 4).join(" ")
     return {
       title: norm(doc.querySelector("h1.article-title")?.textContent || ""), tab: doc.title,
+      operator: norm(/operated by <strong>([^<]+)<\/strong>/.exec(html)?.[1] || ""), saysOperated: /operated by/i.test(art.textContent || ""),
       date: date ? norm(date.textContent!).replace(/^effective date:?\s*/i, "") : "",
       shortBlocks: blocks(short), allBlocks: blocks(kids.filter((n) => n !== date)),
       shortFirst: words(blocks(short)[0] || ""), restFirst: words(blocks(rest)[0] || ""),
@@ -126,6 +130,10 @@ async function expectPageBox(page: Page, path: string, label: string) {
   await expect(box.locator("[data-legal-sub]"), `${label}: the page's own date`).toContainText(s.date)
   const text = await box.evaluate((e) => (e.textContent || "").replace(/\s+/g, " "))
   const shortText = await box.locator("[data-legal-short]").evaluate((e) => (e.textContent || "").replace(/\s+/g, " "))
+  // the owner's note on U150 (12 Nov): the short box never prints the operator's name or "an individual" (the extended text is the page)
+  if (s.saysOperated) expect(s.operator, `premise: ${path} says "operated by", so its operator's name was read`).not.toBe("")
+  const shown = await box.evaluate((e) => [...e.querySelectorAll("[data-legal-head],[data-legal-sub],[data-legal-short]")].map((n) => n.textContent).join(" ").replace(/\s+/g, " "))
+  expect({ name: !!s.operator && shown.includes(s.operator), individual: /an individual/i.test(shown) }, `${label}: the box's head and short part never print the operator`).toEqual({ name: false, individual: false })
   expect(s.shortBlocks.filter((b) => !shortText.includes(b)), `${label}: the short part is the page's own`).toEqual([])
   expect(s.allBlocks.filter((b) => !text.includes(b)), `${label}: every paragraph and list item of the page is in the box`).toEqual([])
   await expect.poll(() => drawn(page, s.shortFirst, BOX(kind) + " [data-legal-short]"), { message: `${label}: "${s.shortFirst}" is drawn`, timeout: 5000 }).toBe("")

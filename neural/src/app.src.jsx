@@ -5417,7 +5417,7 @@ class Component extends DCLogic {
    *  delete ... from Settings", another contact address). It reads the PAGE: on the page itself (body[data-slug]) the <article> the
    *  server sent, which is already in the DOM under the app (no request); anywhere else one fetch of the page's HTML, kept for the visit
    *  (a failed fetch says so; pressing the entry again retries). The short part is the page's "In short" section; a page without one
-   *  (Terms on dev, until its own lands) shows its opening paragraphs up to its first section. "Extended version" opens the rest of the
+   *  (Terms on dev, until its own lands) shows its first section, never its opening, which names the operator. "Extended version" opens the rest of the
    *  article in the box and folds it back. A link to the other legal page opens it in the box; any other link opens a new tab, so no
    *  press inside the box can end a roll. tests/legal_boxes.test.mjs fails if a sentence of either page appears in neural/src, and
    *  e2e/journeys/legal-pages.spec.ts owns the behaviour.
@@ -5470,7 +5470,9 @@ class Component extends DCLogic {
     const kids = [...art.children], date = kids.find((n) => n.tagName === "P" && /^effective date/i.test(at(n)));
     let i = kids.findIndex((n) => n.tagName === "H2" && /^in short$/i.test(at(n))), short = [];
     if (i >= 0) { kids[i].remove(); while (kids[++i] && kids[i].tagName !== "H2") short.push(kids[i]); }
-    else for (const n of kids) { if (n.tagName === "H2") break; if (n !== date) short.push(n); }
+    // no "In short" yet: the page's first section, heading and all. Never its opening paragraphs, which name the operator (the owner's
+    // note on U150, 12 Nov: the short box never prints that name or "an individual"; legal-pages.spec.ts derives the name and pins it)
+    else if ((i = kids.findIndex((n) => n.tagName === "H2")) >= 0) do short.push(kids[i]); while (kids[++i] && kids[i].tagName !== "H2");
     // an item that OPENS with a bold phrase ("**What we keep.** ...") shows it as the item's heading; a bold word inside a sentence stays
     short.forEach((n) => { n.remove(); n.querySelectorAll(":scope>li").forEach((li) => { const f = [...li.childNodes].find((c) => c.nodeType == 1 || at(c)); if (f?.tagName == "STRONG") f.dataset.lead = ""; }); });
     date?.remove();
