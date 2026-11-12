@@ -2432,7 +2432,10 @@ class Component extends DCLogic {
     }
     return lo > 0 ? text.slice(0, lo).replace(/\s+$/, "") + "\u2026" : "";
   }
-  setEvent(kicker, text, tone, owner) {
+  // `whole` (v1.262.0): the text is a SENTENCE, printed as it is. Without it the text is read as a node's name and cut at
+  // " from " into a name and a dim origin line ("Kimura" / "from Mount"), which is right for every name and wrong for a
+  // sentence: "Your practice from before you signed in is saved" printed as a title "Your practice" over a dim line.
+  setEvent(kicker, text, tone, owner, whole) {
     // A live attempt owns this sentence until its result, handoff or teardown. A replay
     // temporarily borrows the slot and restores it; it must not consume the live stamp.
     if (this._execution && this._evExecution === this._execution && owner !== this._execution && !this._replay) return;
@@ -2445,7 +2448,7 @@ class Component extends DCLogic {
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
     if (k) { k.textContent = kicker; k.style.color = this.toneColor(tone); }
     if (t) {
-      const sp = this.splitName(text);
+      const sp = whole ? { main: text, from: "" } : this.splitName(text);
       t.innerHTML = sp.from
         // .72em, not .66em (v1.138.0): this row is em-relative so it tracked the parent down from
         // 22px, and at the phone's 15px announcer .66em is 9.9px at weight 500 and 60% opacity —
@@ -6920,7 +6923,7 @@ class Component extends DCLogic {
     this._saveProgress();   // persists; pushes once the pull has run (`_pushCloud` pulls first otherwise)
     this.updateAccountUI();
     if (this._arrivalSay) return;
-    this._announceArrival("\u00a0", "Your practice from before you signed in is saved", "muted");
+    this._announceArrival("\u00a0", "Your practice from before you signed in is saved", "muted", true);   // whole: a sentence
     if (this._decision) this._sayArrivalIfPending();   // already landed: say it now, not at the next landing
   }
   // merge-on-pull: per-key max for prep/days (monotonic counters), settings LWW by updatedAt.
@@ -10374,11 +10377,11 @@ class Component extends DCLogic {
    * A timer cannot do this job: `startRoll()` calls `clearTimers()` at the end of the intro, so
    * an `after()` scheduled at t=0 for t=5 is dropped at t=3.2 without ever firing.
    */
-  _announceArrival(kicker, text, tone) { this._arrivalSay = { k: kicker, t: text, tone: tone }; }
+  _announceArrival(kicker, text, tone, whole) { this._arrivalSay = { k: kicker, t: text, tone: tone, whole: !!whole }; }
   _sayArrivalIfPending() {
     const s = this._arrivalSay; if (!s) return;
     this._arrivalSay = null;
-    this.setEvent(s.k, s.t, s.tone);
+    this.setEvent(s.k, s.t, s.tone, undefined, s.whole);
   }
   /**
    * Present an arrival. THE VIEWPORT DECIDES THE TERMINAL STATE, and it is the one design rule

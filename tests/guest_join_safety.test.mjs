@@ -229,7 +229,7 @@ function harness(mem = memory()) {
     inst._auth = () => facade; inst.isTest = () => true;
     // the announcer: what the line would print, as the app's own `_announceArrival` holds it (the slot is kept real)
     const hold = inst._announceArrival.bind(inst);
-    inst._announceArrival = (k, t, tone) => { said.push(t); hold(k, t, tone); };
+    inst._announceArrival = (...args) => { said.push(args[1]); hold(...args); };
     inst.destroy = () => { if (inst.__ngDestroyed) return; inst.__ngDestroyed = true; inst._authDisposed = true; inst._invalidateCloudSync(); };
     inst._loadProgress();
   } });
@@ -339,7 +339,8 @@ test("10. the line: its words, held for the landing, once; it never overwrites a
   h.practise({ prep: { "Mount|Top": 3 } });
   const a = h.signIn("A"), u = { id: "A", email: "player@example.com" };
   assert.deepEqual(h.said, [LINE]);
-  assert.deepEqual([a._arrivalSay.k, a._arrivalSay.t], ["\u00a0", LINE], "held for the landing, under a blank kicker (it keeps the sentence below the phone's top icons)");
+  assert.deepEqual([a._arrivalSay.k, a._arrivalSay.t, a._arrivalSay.whole], ["\u00a0", LINE, true],
+    "held for the landing, under a blank kicker (it keeps the sentence below the phone's top icons), printed whole");
   // new guest practice, and a shared link's sentence already held when the account mounts: the join stays silent
   h.signOut(); h.practise({ prep: { "Side Control|Top": 1 } });
   const keep = { k: "Shared list", t: "A coach's class", tone: "good" };

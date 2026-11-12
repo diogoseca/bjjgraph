@@ -21,6 +21,8 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *     row of the top-left drawer and search icons)
  *   the menu row restored                                      → both widths, "no import row"
  *   the join run on every visit (the mark never read)           → both widths, "once"
+ *   the line printed through the name splitter (no `whole`)     → both widths, the line's text ("Your practice" over a
+ *     dim "from before you signed in is saved": the first build of v1.262.0 did exactly this, caught by its own shoot)
  */
 
 const LINE = "Your practice from before you signed in is saved"
@@ -80,6 +82,8 @@ async function story(page: Page, touch: boolean) {
 
   // 1. the sign-in joins the practice, and the line says so where it covers nothing
   await signInNeuralAuthSDK(page, "guest-join-a", { email: "player@example.com", name: "Player" })
+  // test mode starts no intro roll, so the remounted app lands only when asked; the line is held for that landing
+  await j.land("Mount Top")
   expect(await held(page), "the account holds the guest practice").toBe(3)
   expect(await page.evaluate(() => Object.values((window as any).__neural.lists).map((l: any) => l.name)), "and the guest's list").toContain("Guest list")
   await expect.poll(async () => (await lineCover(page)).text, { timeout: 30_000 }).toBe(LINE)
@@ -98,10 +102,11 @@ async function story(page: Page, touch: boolean) {
   // 2. once: the same account again, from a fresh page load, keeps the practice and is told nothing
   await j.boot("/", { preserveStorage: true, beforeNavigate: async (p) => { await p.route(/\/app\/game-values\.js(?:\?|$)/, (r) => r.abort("failed")) } })
   await waitNeuralAuthOwner(page, "guest-join-a")
-  await expect.poll(() => page.evaluate(() => !!(window as any).__neural._decision), { timeout: 30_000 }).toBe(true)
+  await j.land("Mount Top")
   expect(await held(page), "the practice stayed with the account").toBe(3)
   await page.waitForTimeout(1500)
   expect((await lineCover(page)).text, "once").not.toBe(LINE)
+  expect(await page.evaluate(() => (window as any).__neural._arrivalSay), "and nothing held for later").toBeFalsy()
 
   // 3. a second account on the same browser receives it too (the owner's pick), and is told once
   await openMenu(page, touch)
@@ -109,6 +114,7 @@ async function story(page: Page, touch: boolean) {
   await waitNeuralAuthOwner(page, null)
   expect(await held(page), "signing out plays the guest copy, still there").toBe(3)
   await signInNeuralAuthSDK(page, "guest-join-b", { email: "player@example.com", name: "Player" })
+  await j.land("Mount Top")
   expect(await held(page), "a second account receives the guest practice too").toBe(3)
   await expect.poll(async () => (await lineCover(page)).text, { timeout: 30_000 }).toBe(LINE)
 }
