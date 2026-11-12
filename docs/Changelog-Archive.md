@@ -15717,3 +15717,50 @@ roll-execution: 36 tests, the old body then the new, same tree), 36 of 36 green 
 the pump, which this change does not touch, also fell (180.9 -> 158.2 s), so the box was busier during the old arm.
 The full core suite and `e2e:gen` run on the
 PR (e2e-full), and its shard logs give the before and after against e2e-full run 43181633418 (#383).
+
+## v1.262.8 — The first-hand baseline is checkpointed at dev v1.262.7's own level (PAYBASE1, 2026-11-12)
+
+**Why.** `first_hand_gzip_bytes`' delta cap (6,000 B, measured on the first-hand CORE) reads growth since the last
+ACCEPTED baseline: 365,296 B, v1.221.0 (3d1b7552a), 7 Oct. Dev 5619059fb (v1.262.7) measured 371,107 B on its own
+deploy (Deploy to Preview run 43196894885, verdict warn): +5,811 B, 189 B of room. PR #384 (+572 B on top of dev)
+went red on `payload-first-hand.spec.ts:117` at +6,383 B, and so would the next PR of any size. The owner's
+standing rule for exactly this (5 Nov, PR #336; precedents 35bdbf6ba, fa246f4bd): the baseline is checkpointed at
+DEV's own level, never at a branch's. Target 365,000, action 465,000 and delta_cap 6,000 do not move; nor do the
+eager set's baseline or the deferred ceiling.
+
+**Reproduced, to the byte.** `payload-first-hand.spec.ts` on this tree's own emit and bundle (dev 5619059fb's
+sources), over a borrowed Quartz page build (v1.256.2): start K-Guard Top, 11 requests, core 371,107 B, as the
+deploy measured. Of the eleven requests only `/postscript.js` differs in bytes (77,140 raw here, 79,594 on the
+deploy: the PostHog snippet the deploy bakes in, +1,063 B gzip), and it is excluded from the core; the other ten
+sum to the same raw bytes as the deploy's. The `?v=1.256.2` on `neural.js` and `neural.css` in the committed
+`tests/artifacts/first_hand_payload.json` is the borrowed page's query string; the bytes served are this tree's.
+
+**Accepted with the script** (`check_payload_budget.py --accept-baseline first_hand_gzip_bytes --reason …`), before
+the version bump, so it stamped `v1.262.7 (5619059fb)` itself; nothing was corrected by hand.
+
+**Where the 5,811 B came from**, gzip -9 per file, as the spec gzips. The neural files were rebuilt from clean
+exports of dev at each checkpoint (emitter, MDP shards, bundle). The v1.221.0 row's rebuild of 3c1e3cc9b plus the
+v1.216.0 page bytes (`/` 7,594, `index.css` 10,113, `prescript.js` 1,297) sums to exactly 365,296 B, so the start
+point is the baseline as measured. "data" is `graph-data.json` + `curriculum.json` + `flashcards/_index.json`.
+
+| dev, by period | neural.js | neural.css | data | net | what moved it |
+|---|---|---|---|---|---|
+| 7-19 Oct, v1.222.0-v1.227.8 | +848 | −82 | −73 | +693 | landing-deck answers (#272, +409 on its own PR), the reading-first way, mastery gold |
+| 21-28 Oct, v1.229.0-v1.240.1 | −1,547 | +1,115 | −3,318 | −3,750 | the graph restructure (#315), −3,174 of the data; article sections (#307), the directed opening |
+| 30 Oct-6 Nov, v1.241.0-v1.251.1 | +2,661 | +657 | +2,628 | +5,946 | the 52 missing moves (#343) +1,727 and Demi Guard (#328) +787 of the data; the drawer, Practice's new look, the video theater |
+| 9-10 Nov, v1.251.2-v1.255.2 | −3,999 | +796 | 0 | −3,203 | the node dossier retired (v1.255.1, −6,405); hidden moves (v1.255.0, +2,491 eager) |
+| 11-12 Nov, v1.256.0-v1.262.7 | +6,247 | +76 | 0 | +6,323 | ranked search (v1.257.0, +2,871); moves mastery stage 2, guest practice |
+| the home page `/` | | | | −198 | `index.css` and `prescript.js` unchanged |
+| **v1.221.0 -> v1.262.7** | **+4,210** | **+2,562** | **−763** | **+5,811** | core 365,296 -> 371,107 |
+
+The last two days alone added more than the cap (+6,323 B over 21 versions, none over it on its own); the dossier
+retirement on 10 Nov is what kept the total under it until today. The whole first load is 405,219 B gzip on the
+deploy (404,156 locally, the PostHog snippet the difference): 40,219 B over the 365,000 B target, 59,781 B under
+the 465,000 B action line. Checkpoints: 557c57d14, f63049013, 4b84d6cd3, 6a5bfa27f, then 5619059fb. The data
+column's three named merges were measured by emitting the tree just before and just after each (c87c80401 ->
+753b26df8, f63049013 -> 8e1b9845d, 917191cc9 -> c108e4646); the app work is named from what touched
+`app.src.jsx` and the stylesheets in each span, with a figure only where its own PR recorded one.
+
+**Runs.** LOCAL, under the build lock: the bundle (`dev:neural:app`) and `payload-first-hand.spec.ts` (1 of 1), and
+the five sandbox rebuilds. `npm run ci:validate`. The PR's e2e-full runs the full core suite and `e2e:gen`, with
+`payload-first-hand` at +0 against the new baseline.
