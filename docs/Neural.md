@@ -399,9 +399,9 @@ Explore) is always the full card. Study keeps its own arrows: ↑/↓ the node (
 technique), ←/→ the card. In a roll the take-up starts the question clock; a reading (URL) arrival
 stays dormant "as it already works" — the answer starts play. For 500 ms after a take-up, clicks
 on land/panic answers are ignored (`NG_LAND_TAP_GUARD_MS`). Each take-up emits `land_q_taken_up`
-(funnel side mark `question_taken_up`). As on dev, an asking question is pending: committing past
+(funnel side mark `question_taken_up`). An asking question is pending: committing past
 it emits `land_q_ignored`, and an article link, Learn, the pane, ✕ or a background tap decline it
-(`land_q_declined`); only a wheel or touch scroll does not decline a question not yet taken up.
+(`land_q_declined`); a wheel or touch scroll never does, nor one reaching a taken-up card's hidden answer.
 Phone catch answers use 5px top/bottom padding instead of 9px.
 D-433 (D-370 adapted to U35, 2026-10-26): the live phone catch puts the question before
 the same native Moves row. The asking question, its Answer for Points and every shown answer
