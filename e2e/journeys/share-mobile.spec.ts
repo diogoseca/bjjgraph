@@ -126,7 +126,7 @@ const reach = (page: Page, selector: string) =>
 
 // ══════════════════════════════════════════════════ 1. THE BLOCKER: the lit graph is the end state
 
-test("a WhatsApp link opened on a phone ends on the LIT GRAPH, not a covering drawer", async ({
+test("a WhatsApp link opened on a phone ends on the LIT GRAPH, not a covering drawer @curated", async ({
   page,
 }) => {
   const j = journey(page);

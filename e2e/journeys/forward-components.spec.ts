@@ -420,7 +420,7 @@ test.describe("Forward Components development library", () => {
     );
   });
 
-  test("the dev hub links all four libraries and the production sound lab", async ({
+  test("@curated the dev hub links all four libraries and the production sound lab", async ({
     page,
   }) => {
     await page.goto("/dev/");

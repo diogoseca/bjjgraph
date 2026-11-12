@@ -29,7 +29,7 @@ test("@curated publication provenance survives clones and worktrees in the real 
   expect(output).toContain("# fail 0");
 });
 
-test("served publication metadata matches authored or followed Git evidence", async ({
+test("@curated served publication metadata matches authored or followed Git evidence", async ({
   request,
 }) => {
   // THE ORACLE NEEDS THE WHOLE HISTORY (v1.198.2). On a shallow repository `--follow` stops at the
