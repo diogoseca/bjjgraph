@@ -59,6 +59,19 @@ jobs:
         with:
           node-version: "22"
 
+      # THE PROMOTION RULE, ENFORCED (v1.263.1, GATE6; the reviewer's finding 1 on #388). This deploy runs only the
+      # deploy gate (what a deploy can break, plus one smoke per surface), so the full suite must already have passed on
+      # the exact tree it ships. A promotion is a --no-ff merge of a preview-verified dev commit with no PR, so the only
+      # full run of that tree is the dev commit's push-run of e2e-full. This fails unless an e2e-full run (push or manual
+      # dispatch) on the commit that vouches for this push concluded success: the merge's dev parent, whose tree must be
+      # main's except for .github/keepalive.txt; for a single-parent push, the pushed commit itself; any other shape
+      # fails closed. Before the build on purpose: a refusal costs a minute, not the 46-minute job. Production-only
+      # (named in scripts/check_build_chains.py); the mechanism and the burst caveat are in scripts/deploy_gate.mjs.
+      - name: Promoted commit passed the full suite (gate)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/deploy_gate.mjs promotion
+
       - name: Setup Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
         with:

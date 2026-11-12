@@ -13,6 +13,7 @@ import { join, resolve } from 'node:path'
 import { spawnSync } from 'node:child_process'
 
 const gate = resolve('scripts/check_build_chains.py')
+const PROMOTION = 'node scripts/deploy_gate.mjs promotion'
 const shared = ['node emit.mjs', 'node forward.mjs', 'node share.mjs', 'python3 scripts/apply_affiliate_ref.py', 'python3 scripts/regenerate_agent_discovery.py', 'python3 scripts/apply_affiliate_ref.py', 'python3 scripts/check_payload_budget.py']
 const extras = ['cd source && python3 ../scripts/check_seo_parity.py --artifact-only && cd ..', 'python3 scripts/check_systems_payload.py', 'python3 scripts/check_affiliate_surface.py --built', 'python3 scripts/check_analytics_surface.py', 'node scripts/check_analytics_nokey.mjs', 'npm run test:curated']
 function fixture(fn) {
@@ -25,6 +26,8 @@ function fixture(fn) {
   }
   const pkg = { scripts: { build: shared.join(' && '), 'test:curated': 'node curated.mjs' } }
   const workflows = Object.fromEntries(['deploy.yaml', 'deploy-dev.yaml'].map(name => [name, { jobs: { deploy: { steps: [
+    // production-only, before the build: the promotion rule (PRODUCTION_ONLY in the gate, v1.263.1)
+    ...(name === 'deploy.yaml' ? [{ name: 'Promoted commit passed the full suite (gate)', run: PROMOTION }] : []),
     { name: 'Build Quartz', run: [...shared, ...extras].join('\n') },
     { uses: 'cloudflare/wrangler-action@pinned', with: { command: 'pages deploy source/public' } },
   ] } } }]))
@@ -36,7 +39,7 @@ function fixture(fn) {
   }
   try { fn({ pkg, workflows, run }) } finally { rmSync(root, { recursive: true, force: true }) }
 }
-const step = (w, name) => w[name].jobs.deploy.steps[0]
+const step = (w, name) => w[name].jobs.deploy.steps.find(s => s.name === 'Build Quartz')
 function red(r, pattern) { assert.equal(r.status, 1, r.output); assert.match(r.output, pattern) }
 // Authored fixture: seven shared commands and six single-command deploy gates.
 // Compare complete lines so 70 cannot satisfy an expected count of 7.
@@ -51,6 +54,28 @@ function assertChainFixtureCounts(output) {
 test('matching expanded chains report exact counts for BOTH deploys', () => fixture(({run}) => {
   const r = run(); assert.equal(r.status, 0, r.output)
   assertChainFixtureCounts(r.output)
+}))
+// THE PROMOTION RULE IS PRODUCTION-ONLY, AND BEFORE THE BUILD (v1.263.1, GATE6): exactly once in deploy.yaml, as written,
+// unconditional; never in deploy-dev.yaml, which has nothing to promote.
+const promo = (w) => w['deploy.yaml'].jobs.deploy.steps[0]
+test('deploy.yaml: the promotion rule before the build passes, and is named', () => fixture(({run}) => {
+  const r = run(); assert.equal(r.status, 0, r.output)
+  assert.match(r.output, /deploy\.yaml: production-only gate before the build: node scripts\/deploy_gate\.mjs promotion/)
+}))
+test('deploy.yaml: without the promotion rule is red', () => fixture(({workflows,run}) => {
+  workflows['deploy.yaml'].jobs.deploy.steps.shift(); red(run(), /production-only gate 'node scripts\/deploy_gate\.mjs promotion' must run exactly once.*found 0/)
+}))
+test('deploy.yaml: the promotion rule twice is red', () => fixture(({workflows,run}) => {
+  workflows['deploy.yaml'].jobs.deploy.steps.unshift({ name: 'again', run: PROMOTION }); red(run(), /found 2/)
+}))
+for (const [what, change] of [['conditional', s => { s.if = 'false' }], ['ignored', s => { s['continue-on-error'] = true }], ['weakened', s => { s.run = PROMOTION + ' || true' }]]) {
+  test(`deploy.yaml: a ${what} promotion rule is red`, () => fixture(({workflows,run}) => {
+    change(promo(workflows)); red(run(), /unreviewed preparation command before Build Quartz|unsupported shell/)
+  }))
+}
+test('deploy-dev.yaml: the promotion rule there is red (a preview has nothing to promote)', () => fixture(({workflows,run}) => {
+  workflows['deploy-dev.yaml'].jobs.deploy.steps.unshift({ name: 'Promoted commit passed the full suite (gate)', run: PROMOTION })
+  red(run(), /deploy-dev\.yaml: unreviewed preparation command before Build Quartz/)
 }))
 test('chain count control rejects deficient, excess and duplicate summaries', () => {
   const output = fixtureChainSummaries.join('\n')
@@ -287,7 +312,8 @@ test('deployment gates must observe final output', () => fixture(f => {
 }))
 test('npm install lifecycle hooks cannot add an invisible post-build emitter', () => fixture(f => {
   f.pkg.scripts.postinstall='node forgotten.mjs'
-  f.workflows['deploy.yaml'].jobs.deploy.steps.splice(1,0,{name:'Install root dependencies (Playwright test runner)',run:'npm install'})
+  const steps = f.workflows['deploy.yaml'].jobs.deploy.steps
+  steps.splice(steps.findIndex(s => s.name === 'Build Quartz') + 1,0,{name:'Install root dependencies (Playwright test runner)',run:'npm install'})
   red(f.run(),/forgotten/)
 }))
 

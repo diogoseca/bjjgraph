@@ -34,6 +34,7 @@ import { tmpdir } from "node:os";
 import {
   ROOT, BUDGET, MANIFEST, check, scanSites, checkStatic, checkBudget, checkListed, flattenListing,
   evaluateTripwire, parseGateLog, lineLiterals, loadJson, flattenResults, checkRan, RESULTS,
+  promotionTarget, evaluatePromotion, TESTED_ONLY_DIFF,
 } from "../scripts/deploy_gate.mjs";
 
 const budget = loadJson(ROOT, BUDGET);
@@ -159,6 +160,36 @@ test("RAN is wired: the curated script's post hook counts the config's own JSON 
   assert.equal(RESULTS, "e2e/test-results/results.json", "the config's outputDir-relative report, as the count reads it");
 });
 
+test("PROMOTION: which commit vouches for a push to main, for every shape of push", () => {
+  const H = "a".repeat(40), M = "b".repeat(40), D = "c".repeat(40);
+  // the --no-ff promotion merge: its dev parent, when main's tree is that parent's plus only the keepalive file
+  assert.deepEqual(promotionTarget({ head: H, parents: [M, D], diff: () => [...TESTED_ONLY_DIFF] }).tested, D);
+  assert.deepEqual(promotionTarget({ head: H, parents: [M, D], diff: () => [] }).tested, D);
+  assert.match(promotionTarget({ head: H, parents: [M, D], diff: () => [".github/keepalive.txt", "neural/src/app.src.jsx"] }).error,
+    /main's tree is not the tree that was tested: .* in 1 file\(s\) beyond .*neural\/src\/app\.src\.jsx/);
+  // a non-merge push: the pushed commit itself must carry the green run
+  assert.equal(promotionTarget({ head: H, parents: [M] }).tested, H);
+  // anything else fails closed
+  assert.match(promotionTarget({ head: H, parents: [M, D, "d".repeat(40)] }).error, /3 parents cannot be traced/);
+  assert.match(promotionTarget({ head: H, parents: [] }).error, /0 parents cannot be traced/);
+});
+
+test("PROMOTION: only a green push or dispatch run of e2e-full on that commit vouches for it", () => {
+  const D = "c".repeat(40);
+  const run = (id, event, conclusion, status = "completed", head_sha = D) => ({ id, event, conclusion, status, head_sha });
+  assert.equal(evaluatePromotion([run(1, "push", "success")], D).ok, true, "a green push-run");
+  const cancelled = evaluatePromotion([run(2, "push", "cancelled")], D);
+  assert.equal(cancelled.ok, false, "a cancelled run (a burst of merges) does not vouch");
+  assert.match(cancelled.message, /runs found: run 2 \(push, cancelled\)/);
+  assert.match(cancelled.message, /Promote the newest dev commit whose push-run of e2e-full is green: a burst of merges keeps one run/);
+  assert.match(cancelled.message, /gh workflow run e2e-full\.yml --ref dev;.*git push origin c{40}:refs\/heads\/verify-c{9} && gh workflow run e2e-full\.yml --ref verify-c{9}/);
+  assert.match(evaluatePromotion([], D).message, /runs found: none/, "no run at all");
+  assert.equal(evaluatePromotion([run(3, "push", "failure"), run(4, "workflow_dispatch", "success")], D).ok, true, "a red run next to a green dispatched re-run");
+  assert.equal(evaluatePromotion([run(5, "pull_request", "success")], D).ok, false, "a PR run tested a merge ref, not this commit");
+  assert.equal(evaluatePromotion([run(6, "push", null, "in_progress")], D).ok, false, "a run still going vouches for nothing yet");
+  assert.equal(evaluatePromotion([run(7, "push", "success", "completed", "e".repeat(40))], D).ok, false, "another commit's green run");
+});
+
 test("TRIPWIRE: exactly one completed gate step; ok, warning and error by the budget; absence is an error", () => {
   const step = (min, over = {}) => ({ name: budget.step, status: "completed", conclusion: "success", started_at: "2026-11-12T10:00:00Z", completed_at: new Date(Date.parse("2026-11-12T10:00:00Z") + min * 60000).toISOString().replace(".000", ""), ...over });
   const jobs = (...steps) => ({ jobs: [{ name: "deploy", steps: [{ name: "Set up job", status: "completed" }, ...steps] }] });
@@ -213,6 +244,16 @@ test("both deploys: the gate step at the budget's timeout, then the tripwire aft
     assert.ok(cf > g.i && w.i > cf, `${name}: gate, then the Pages upload, then the tripwire`);
     assert.equal(w.s.env?.GH_TOKEN, "${{ github.token }}", `${name}: the tripwire reads the jobs API with the run's token`);
     assert.equal(w.job.permissions?.actions, "read", `${name}: the job may read its own run's jobs`);
+    const promo = Object.values(wf.jobs).flatMap((j) => j.steps || []).filter((s) => /deploy_gate\.mjs promotion/.test(s.run || ""));
+    if (name === "deploy.yaml") {
+      assert.equal(promo.length, 1, "deploy.yaml: the promotion rule runs once");
+      const steps = g.job.steps, at = steps.indexOf(promo[0]);
+      assert.ok(at >= 0 && at < steps.findIndex((s) => s.name === "Build Quartz"), "deploy.yaml: in the deploy job, before the build");
+      assert.equal(promo[0].run, "node scripts/deploy_gate.mjs promotion");
+      assert.ok(!("if" in promo[0]) && !promo[0]["continue-on-error"], "deploy.yaml: the promotion rule is unconditional and blocking");
+      assert.equal(promo[0].env?.GH_TOKEN, "${{ github.token }}");
+      assert.equal(steps[0].with?.["fetch-depth"], 0, "deploy.yaml: full history, so the merge's parents and their trees are there");
+    } else assert.equal(promo.length, 0, "deploy-dev.yaml: a preview has nothing to promote");
     if (name === "deploy.yaml") {
       assert.equal(w.s["continue-on-error"], true, "deploy.yaml: a slow gate must not cancel Lighthouse, IndexNow or the release");
       assert.ok(w.s.id, "deploy.yaml: the tripwire has an id");
