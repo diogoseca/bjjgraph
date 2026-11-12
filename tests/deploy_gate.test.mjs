@@ -220,6 +220,24 @@ test("PROMOTION: a head with its own green run passes on it first; only then the
   assert.ok(!v.ok && /main's tree is not the tree that was tested: .* in 1 file\(s\) beyond .*app\.js/.test(v.message), "a merge whose tree differs from its dev parent's beyond keepalive fails closed");
 });
 
+test("PROMOTION: keepalive commits on main are walked back through; any other single-parent tip fails with a recipe", async () => {
+  const base = { [sha("p")]: { parents: [], tree: T }, [sha("d")]: { parents: [sha("p")], tree: T },
+    [sha("m")]: { parents: [sha("p"), sha("d")], tree: KEEP },
+    [sha("k")]: { parents: [sha("m")], tree: { ...KEEP, ".github/keepalive.txt": "main, week 3" } },
+    [sha("j")]: { parents: [sha("k")], tree: { ...KEEP, ".github/keepalive.txt": "main, week 4" } },
+    [sha("x")]: { parents: [sha("m")], tree: { ...KEEP, "app.js": "hotfix" } } };
+  const runs = { [sha("d")]: GREEN };
+  let v = await judgePromotion({ head: sha("k"), ...graph(base, runs) });
+  assert.equal(v.ok, true, "a keepalive on top of a promotion passes");
+  assert.equal(v.tested, sha("d"), "...on the commit that vouched for the promotion");
+  v = await judgePromotion({ head: sha("j"), ...graph(base, runs) });
+  assert.deepEqual([v.ok, v.tested], [true, sha("d")], "two keepalives in a row are both walked back through");
+  v = await judgePromotion({ head: sha("x"), ...graph(base, runs) });
+  assert.equal(v.ok, false, "a real commit on top of a promotion fails: nothing ran the suite on its tree");
+  assert.match(v.message, /is a single-parent commit that changes more than \.github\/keepalive\.txt/);
+  assert.match(v.message, new RegExp(`git push origin ${sha("x")}:refs/heads/verify-${sha("x").slice(0, 9)} && gh workflow run e2e-full\\.yml --ref verify-`), "...and its message gives the branch-and-dispatch recipe for that commit");
+});
+
 test("PROMOTION: no parents and an octopus fail closed", async () => {
   let v = await judgePromotion({ head: sha("r"), ...graph({ [sha("r")]: { parents: [], tree: T } }) });
   assert.ok(!v.ok && /has no parents: it cannot be traced/.test(v.message), "a head with no parents fails closed");

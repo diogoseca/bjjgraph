@@ -292,15 +292,18 @@ function ran(root, args) {
 // promotion is a `--no-ff` merge of a preview-verified dev commit, pushed straight to main with no PR, so no PR run ever
 // sees main's tree; the only full run of it is that dev commit's push-run of e2e-full. `promotion` (the first gate in
 // deploy.yaml, before the build) finds the commit that vouches for this push and fails unless an e2e-full run on THAT
-// commit concluded success. At the pushed commit it looks, in this order, at:
+// commit concluded success. It walks from the pushed commit, and at each commit it looks at, in this order:
 //   its own runs           a counted green run on the commit itself vouches for it. That is how a FAST-FORWARD of main
 //                          onto a dev tip passes: dev's tips are PR merge commits (two parents) whose push-run is
 //                          theirs alone, so judging them by their second parent would ask the PR branch's head, which
 //                          has only pull_request runs (GATE7, the reviewer's new 1 on #392: FFDEV and FF8844 failed so);
 //   two parents            then the second parent, the dev side of a `--no-ff` promotion; main's tree must equal its tree
 //                          except for the files only main carries (TESTED_ONLY_DIFF);
-//   one parent             nothing but its own run vouches for it: a commit made on main (or a keepalive commit, until
-//                          the walk below exists) fails, and the message gives the branch-and-dispatch recipe;
+//   one parent             if the commit changes nothing but TESTED_ONLY_DIFF from its parent (a keepalive commit: the
+//                          weekly workflow commits to main alone, [skip ci]), step back to the parent and look again, so
+//                          a manual redeploy after a keepalive passes on the promotion beneath it (the reviewer's new 2);
+//                          any other single-parent commit was made on main and nothing ran the suite on it: it fails,
+//                          and the message gives the branch-and-dispatch recipe for that commit;
 //   anything else          fails closed: no parents, or an octopus merge, is no promotion shape this repo makes.
 // Which runs count: event push (dev's merges) or workflow_dispatch (the way to get one by hand), conclusion success.
 // A pull_request run tested a merge ref, not this commit, so it never counts. ONE RUN PER BURST, deliberately: dev's
@@ -309,6 +312,7 @@ function ran(root, args) {
 // says how to get one for any other commit. One full run per merge instead would queue six jobs behind every merge.
 export const TESTED_ONLY_DIFF = [".github/keepalive.txt"];
 const COUNTED_EVENTS = ["push", "workflow_dispatch"];
+const KEEPALIVE_WALK = 20; // twenty weeks of keepalive commits with no promotion in between; past that, fail closed
 
 const recipe = (sha) => {
   const short = sha.slice(0, 9);
@@ -342,7 +346,7 @@ export async function judgePromotion({ head, parentsOf, diff, runsOf }) {
   };
   let at = head, walked = 0;
   for (;;) {
-    const role = at === head ? "the pushed commit" : `beneath ${walked} commit(s)`;
+    const role = at === head ? "the pushed commit" : `beneath ${walked} keepalive commit(s)`;
     const own = await look(at, role);
     if (own.ok) return { ok: true, tested: at, shape: `${role}, on its own run`, message: own.message, steps };
     const parents = parentsOf(at);
@@ -355,8 +359,15 @@ export async function judgePromotion({ head, parentsOf, diff, runsOf }) {
       if (v.ok) return { ok: true, tested, shape: `the --no-ff promotion merge ${at.slice(0, 9)}'s dev parent`, message: v.message, steps };
       return { ok: false, tested, steps, message: `neither ${at.slice(0, 9)} (${role}) nor its dev parent has a counted green run. For the dev parent: ${v.message} For ${at.slice(0, 9)} itself, the same recipe applies to its own sha.` };
     }
-    if (parents.length === 1)
-      return { ok: false, tested: at, steps, message: `${at.slice(0, 9)} (${role}) is a single-parent commit with no counted green run of its own, so nothing vouches for it. ${own.message}` };
+    if (parents.length === 1) {
+      const changed = diff(parents[0], at);
+      if (changed.length && changed.every((f) => TESTED_ONLY_DIFF.includes(f))) {
+        if (++walked > KEEPALIVE_WALK) return { ok: false, steps, message: `more than ${KEEPALIVE_WALK} keepalive-only commits on main with no promotion beneath them: fails closed` };
+        at = parents[0];
+        continue;
+      }
+      return { ok: false, tested: at, steps, message: `${at.slice(0, 9)} (${role}) is a single-parent commit that changes more than ${TESTED_ONLY_DIFF.join(", ")}, so it was made on main and no promotion vouches for it. ${own.message}` };
+    }
     if (parents.length === 0)
       return { ok: false, steps, message: `${at.slice(0, 9)} has no parents: it cannot be traced to one tested commit (fails closed)` };
     return { ok: false, steps, message: `${at.slice(0, 9)} has ${parents.length} parents: an octopus merge is no promotion shape this repo makes; it fails closed` };
