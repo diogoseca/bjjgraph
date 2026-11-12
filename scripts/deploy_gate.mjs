@@ -337,8 +337,12 @@ export const tripwireExit = (time, count) => (time.level === "error" || !count.o
 // finishes keeps a CANCELLED run. The rule then takes the newest dev commit with a green run, and the failure message
 // says how to get one for any other commit. One full run per merge instead would queue six jobs behind every merge.
 export const TESTED_ONLY_DIFF = [".github/keepalive.txt"];
+// A CHOICE, not a hole: `schedule` runs are not counted. One checks out main's exact tip, so counting it would be sound,
+// but the weekly run is usually older than a keepalive tip, so it would rarely vouch; the keepalive walk is the remedy.
 const COUNTED_EVENTS = ["push", "workflow_dispatch"];
-const KEEPALIVE_WALK = 20; // twenty weeks of keepalive commits with no promotion in between; past that, fail closed
+// A CHOICE: twenty weeks of keepalive commits with no promotion in between; past that the rule fails closed rather
+// than walk an unbounded history (a promotion resets it).
+const KEEPALIVE_WALK = 20;
 
 const recipe = (sha) => {
   const short = sha.slice(0, 9);
@@ -521,14 +525,23 @@ async function tripwire(root) {
     if (!verdict.retry) break;
     if (attempt < 5) await new Promise((r) => setTimeout(r, 6000));
   }
-  const line = { error: "::error title=Deploy gate time::", warning: "::warning title=Deploy gate time::", ok: "::notice title=Deploy gate time::" }[verdict.level];
-  console.log(line + verdict.message);
+  const r = tripwireJudge(root, verdict);
+  for (const l of r.lines) console.log(l);
+  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### Deploy gate time\n${r.time.message}\n\n${r.count.message}\n`);
+  return r.exit;
+}
+
+/** The tripwire's whole judgment once the jobs API has answered (GATE8, the reviewer's new 2 on #393: split out so a test
+ *  feeds it a jobs JSON and a root holding, or lacking, the count file). `time` is a jobs JSON or an evaluateTripwire
+ *  verdict; the count is READ from `root` here, never passed in, so the call site cannot skip it. */
+export function tripwireJudge(root, time) {
+  const verdict = time && time.level ? time : evaluateTripwire(time, loadJson(root, BUDGET));
   let count = null;
   try { count = JSON.parse(readFileSync(resolve(root, COUNT), "utf8")); } catch { count = null; }
   const c = evaluateCount(count, loadJson(root, MANIFEST).tests.length);
-  console.log((c.ok ? "::notice title=Deploy gate count::" : "::error title=Deploy gate count::") + c.message);
-  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### Deploy gate time\n${verdict.message}\n\n${c.message}\n`);
-  return tripwireExit(verdict, c);
+  const line = { error: "::error title=Deploy gate time::", warning: "::warning title=Deploy gate time::", ok: "::notice title=Deploy gate time::" }[verdict.level];
+  return { exit: tripwireExit(verdict, c), time: verdict, count: c,
+    lines: [line + verdict.message, (c.ok ? "::notice title=Deploy gate count::" : "::error title=Deploy gate count::") + c.message] };
 }
 
 // ── refresh, by hand ──────────────────────────────────────────────────────────────────────────

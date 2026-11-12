@@ -67,7 +67,7 @@ import { tmpdir } from "node:os";
 import {
   ROOT, BUDGET, MANIFEST, check, scanSites, checkStatic, checkBudget, checkListed, flattenListing,
   evaluateTripwire, parseGateLog, lineLiterals, loadJson, flattenResults, checkRan, RESULTS,
-  judgePromotion, evaluatePromotion, TESTED_ONLY_DIFF, ran, COUNT, evaluateCount, tripwireExit, gitAccess,
+  judgePromotion, evaluatePromotion, TESTED_ONLY_DIFF, ran, COUNT, evaluateCount, tripwireExit, gitAccess, tripwireJudge,
 } from "../scripts/deploy_gate.mjs";
 
 const budget = loadJson(ROOT, BUDGET);
@@ -327,6 +327,64 @@ test("PROMOTION backstop: a walk step whose listing under-reports cannot carry a
   const v = await judgePromotion({ head: sha("2"), ...lying });
   assert.equal(v.ok, false, "the head is compared with the commit whose own run vouched, whatever the steps' listings said");
   assert.match(v.message, /main's tree is not the tree that was tested: .* whose own run vouched, in 1 file\(s\) beyond .*app\.js/);
+});
+
+// GATE8 (the reviewer's new 2 on #393): four guards the code had right and no test held.
+test("PROMOTION guards: a keepalive commit that also changes another file is not stepped over, nor anything beneath it", async () => {
+  const commits = { [sha("p")]: { parents: [], tree: T }, [sha("d")]: { parents: [sha("p")], tree: T },
+    [sha("m")]: { parents: [sha("p"), sha("d")], tree: KEEP },
+    [sha("x")]: { parents: [sha("m")], tree: { ...KEEP, ".github/keepalive.txt": "week 3", "app.js": "v2" } },
+    [sha("y")]: { parents: [sha("x")], tree: { ...KEEP, ".github/keepalive.txt": "week 4", "app.js": "v2" } } };
+  let v = await judgePromotion({ head: sha("x"), ...graph(commits, { [sha("d")]: GREEN }) });
+  assert.equal(v.ok, false, "a keepalive edit plus another file is not keepalive-only: the walk stops there");
+  v = await judgePromotion({ head: sha("y"), ...graph(commits, { [sha("d")]: GREEN }) });
+  assert.equal(v.ok, false, "a keepalive on top of it steps back to it and stops there too");
+  assert.match(v.steps.at(-1), new RegExp(`^${sha("x").slice(0, 9)} `), "...the last commit looked at is the mixed one");
+});
+
+test("PROMOTION guards: the merge path compares the dev parent with the HEAD's tree, not the merge's", async () => {
+  // K1 on top of the promotion merge really changes app.js, but its step's listing LIES; only the head comparison sees it
+  const commits = { [sha("p")]: { parents: [], tree: T }, [sha("d")]: { parents: [sha("p")], tree: T },
+    [sha("m")]: { parents: [sha("p"), sha("d")], tree: KEEP },
+    [sha("1")]: { parents: [sha("m")], tree: { ...KEEP, "app.js": "v2" } },
+    [sha("2")]: { parents: [sha("1")], tree: { ...KEEP, "app.js": "v2", ".github/keepalive.txt": "week 3" } } };
+  const g = graph(commits, { [sha("d")]: GREEN });
+  const lying = { ...g, diff: (a, b) => (a === sha("m") && b === sha("1") ? [".github/keepalive.txt"] : g.diff(a, b)) };
+  const v = await judgePromotion({ head: sha("2"), ...lying });
+  assert.equal(v.ok, false, "the tree check on the merge path is against the head, so a lying step cannot carry app.js past it");
+  assert.match(v.message, /main's tree is not the tree that was tested: .* the dev parent of .* app\.js/);
+});
+
+test("PROMOTION choices: the walk stops at twenty keepalive commits, and schedule runs do not count", async () => {
+  const commits = { [sha("p")]: { parents: [], tree: T }, [sha("d")]: { parents: [sha("p")], tree: T },
+    [sha("m")]: { parents: [sha("p"), sha("d")], tree: KEEP } };
+  let prev = sha("m");
+  for (let i = 1; i <= 21; i++) { const c = `k${String(i).padStart(2, "0")}`.padEnd(40, "0"); commits[c] = { parents: [prev], tree: { ...KEEP, ".github/keepalive.txt": `week ${i}` } }; prev = c; }
+  const at = (n) => `k${String(n).padStart(2, "0")}`.padEnd(40, "0");
+  assert.equal((await judgePromotion({ head: at(20), ...graph(commits, { [sha("d")]: GREEN }) })).ok, true, "twenty keepalive commits are walked back through");
+  const v = await judgePromotion({ head: at(21), ...graph(commits, { [sha("d")]: GREEN }) });
+  assert.ok(!v.ok && /more than 20 keepalive-only commits/.test(v.message), "the twenty-first fails closed: a choice, written at KEEPALIVE_WALK");
+  const D = sha("d");
+  assert.equal(evaluatePromotion([{ id: 9, head_sha: D, event: "schedule", status: "completed", conclusion: "success" }], D).ok, false, "a green schedule run does not vouch: a choice, written at COUNTED_EVENTS");
+});
+
+test("TRIPWIRE judgment: it reads the count file from the tree, so neither the call site nor a constant can skip it", () => {
+  const root = mkdtempSync(join(tmpdir(), "deploy-gate-trip-"));
+  try {
+    mkdirSync(join(root, "tests/artifacts"), { recursive: true });
+    writeFileSync(join(root, MANIFEST), JSON.stringify({ tests: [row("a.spec.ts", "@curated one"), row("a.spec.ts", "@curated two")] }));
+    writeFileSync(join(root, BUDGET), JSON.stringify(budget));
+    const jobs = { jobs: [{ name: "deploy", steps: [{ name: budget.step, status: "completed", conclusion: "success", started_at: "2026-11-12T10:00:00Z", completed_at: "2026-11-12T10:02:00Z" }] }] };
+    let r = tripwireJudge(root, jobs);
+    assert.equal(r.exit, 1, "no count file in the tree: the tripwire is red though the time is fine");
+    assert.match(r.lines[1], /::error title=Deploy gate count::the gate's count is missing/);
+    mkdirSync(join(root, "e2e/test-results"), { recursive: true });
+    writeFileSync(join(root, COUNT), JSON.stringify({ total: 2, passed: 2, skipped: 0, rows: 2, errors: 0 }));
+    r = tripwireJudge(root, jobs);
+    assert.deepEqual([r.exit, r.time.level, r.count.ok], [0, "ok", true], "the count file equal to the ledger, and the time inside the target: green");
+    writeFileSync(join(root, COUNT), JSON.stringify({ total: 1, passed: 1, skipped: 0, rows: 1, errors: 0 }));
+    assert.equal(tripwireJudge(root, jobs).exit, 1, "a count file that is not the ledger's is read, and turns it red");
+  } finally { rmSync(root, { recursive: true, force: true }); }
 });
 
 test("PROMOTION: no parents names the checkout depth, an octopus fails closed", async () => {
