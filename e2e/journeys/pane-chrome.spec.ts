@@ -134,7 +134,7 @@ test("settings carries Terms · Privacy — the Learn More submenu that never wa
   // "the real terms, not a stub" is its title and opening, as the server sends them.
   const served = await (await page.request.get("/terms")).text()
   const title = /<h1 class="article-title">([^<]*)<\/h1>/.exec(served)![1]
-  await expect(page.locator('.ng-legal[data-legal="terms"] h2'), "the real terms, not a stub").toHaveText(title)
+  await expect(page.locator('.ng-legal[data-legal="terms"] #ng-legal-h'), "the real terms, not a stub").toHaveText(title)
   await expect(page.locator('.ng-legal[data-legal="terms"] [data-legal-short]')).not.toBeEmpty()
 })
 
