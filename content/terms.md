@@ -17,7 +17,7 @@ description: The terms governing your use of BJJGraph.
 
 **Effective date: 12 November 2026**
 
-These Terms of Service ("Terms") govern your use of the website at [bjjgraph.org](https://bjjgraph.org) (the "Service"), an educational Brazilian Jiu-Jitsu knowledge graph and training tool operated by **Diogo Seca** ("we", "us"). By accessing or using the Service, you agree to these Terms. If you do not agree, please do not use the Service.
+These Terms of Service ("Terms") govern your use of the website at [bjjgraph.org](https://bjjgraph.org) (the "Service"), an educational Brazilian Jiu-Jitsu knowledge graph and training tool operated by **BJJGraph** ("we", "us"). By accessing or using the Service, you agree to these Terms. If you do not agree, please do not use the Service.
 
 ## In short
 
@@ -72,7 +72,7 @@ The Service is provided for general educational use. We make **no warranty** tha
 
 ## 7. Intellectual property
 
-The content of BJJGraph (text, data, and graph) is © Diogo Seca and is made available under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0). The underlying site generator (Quartz) is provided under its own open-source (MIT) licence. You agree to respect the terms of the applicable licences. The BJJGraph name and branding remain the property of their owner, and embedded videos and previews belong to their creators.
+The content of BJJGraph (text, data, and graph) is made available under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0). The underlying site generator (Quartz) is provided under its own open-source (MIT) licence. You agree to respect the terms of the applicable licences. The BJJGraph name and branding remain the property of their owner, and embedded videos and previews belong to their creators.
 
 ## 8. Affiliate disclosure
 
