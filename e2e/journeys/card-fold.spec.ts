@@ -147,7 +147,7 @@ for (const run of RUNS) test.describe(name(run), () => {
 // lies under the thumb there), declines nothing and the clock runs: measured on the preview (v1.259.1) and production (v1.252.0) at
 // 390x631, 360x640, 375x667 and 390x844. `_tickDecision` declines only while the reader is reading, which a press, scroll or key on
 // the article starts, never one on the game; the article lies below the card, so it is under the thumb only once the card has been
-// scrolled up. A drag back from there toward answers above the top edge did decline (since v1.236.0); since v1.262.1 it does not.
+// scrolled up. A drag back from there toward answers above the top edge did decline (since v1.236.0); since v1.262.3 it does not.
 // Pinned by touch in short-phone-answers.spec.ts. Both ✕ presses are pinned at 390x631 above.
 for (const run of [RUNS[0], RUNS[4]]) test.describe(name(run), () => {
   test.use({ viewport: { width: run.width, height: run.height }, hasTouch: run.touch })

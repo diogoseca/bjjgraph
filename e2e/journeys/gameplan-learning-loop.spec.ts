@@ -248,15 +248,39 @@ test("failed planner load keeps due cards actionable and retries on deliberate i
   await expect.poll(() => requests, { message: "the drawer's opening asked, and failed" }).toBe(1);
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
   await expect(page.locator('[data-gameplan-loading]')).toContainText("could not load");
+  // A plain read is sound HERE: the line above shows the press's own failure only after the route has
+  // counted and aborted it. (The press first renders the drawer's older failure, but a 0 ms timer it
+  // queues repaints that "Loading" before the press returns; with request 2 counted 300 ms late this
+  // never lost, 40 of 40.)
   expect(requests, "the press asked again, and failed").toBe(2);
   await dueHeader(page, "Practice \u00b7 2 reviews");
   await expect(page.locator('[data-mini-reveal]')).toBeVisible();
   expect(await page.locator('[data-explore-stats] [data-b="due"]').getAttribute("data-new")).toBeNull();
+  await page.evaluate(() => { (window as any).__retryQueue = (window as any).__neural._session; });
+  expect(requests, "nothing retried on its own before the button").toBe(2);
   await hit(page, '[data-gameplan-load]', isMobile);
-  // the retry lands, and the queue it reopened, untouched, becomes the plan (SIDE-R2 B1); the reviews lead it
-  await expect(page.locator('[data-session-section="Practice"]')).toBeVisible();
-  expect(requests).toBe(3);
+  // EACH LINE BELOW WAITS ON ITS OWN CLAIM (v1.262.2). They used to read `requests` straight after a
+  // toBeVisible() on the Practice line, which hit() had just shown by opening its fold, so the wait
+  // waited for nothing and the deploy of v1.261.1 read 2: the press's import had not reached the route
+  // yet. That wait was also true only BEFORE the plan lands (landing re-renders the fold closed), and
+  // nothing proved the retry landed at all: with the third request aborted too, the old lines passed.
+  // Control arms and mutants: docs/Changelog-Archive.md, v1.262.2.
+  await expect.poll(() => requests, { message: "the retry is the deliberate one: the button asked a third time" }).toBe(3);
+  // the retry lands: "Open study plan" becomes "Refresh plan", which _gameplanIntro builds only for a plan
+  await expect(page.locator("[data-gameplan-refresh]"), "the retry lands: the plan is built").toHaveCount(1);
+  await expect(page.locator("[data-gameplan-load], [data-gameplan-loading]"), "and the failure line is gone").toHaveCount(0);
+  // and the queue it reopened, untouched, becomes the plan (SIDE-R2 B1): the same session, now planned
+  expect(await page.evaluate(() => {
+    const s = (window as any).__neural._session; return { same: s === (window as any).__retryQueue, plan: !!s.plan, review: !!s.review };
+  }), "the reopened queue itself becomes the plan").toEqual({ same: true, plan: true, review: false });
+  // the reviews lead it: the queue's first row and the open card are the review, still answerable, and
+  // the plan's own count line (its "new" half exists only once the plan has landed) names them first
+  await expect(page.locator('[data-session-row][data-session-idx="0"]'), "the first row is the review").toHaveAttribute("data-practice-kind", "due");
+  await expect(page.locator("[data-practice-section]"), "the open card is the review").toHaveText("Due reviews \u00b7 2 cards");
+  await expect(page.locator('[data-mini-reveal]')).toBeVisible();
   await dueHeader(page, "Practice \u00b7 2 reviews");
+  await expect(page.locator('[data-session-section="Practice"]'), "the reviews lead the plan's count line")
+    .toHaveText(/^2 cards to review across 1 technique \u00b7 \d+ new across \d+ techniques?, /);
 });
 
 // D1 (owner, 2026-09-30): "when no study comparison exists, fall back to the weak-spots ranking so

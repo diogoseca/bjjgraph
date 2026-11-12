@@ -804,7 +804,7 @@ class Reader {
     // a pane that paused first can resume the game on close while the reader is still reading.
     // SHORT1: with a taken-up question's card on the screen and one of its answers out of view, a scroll is the player reaching
     // for it, not reading (the owner: reaching for an answer must never decline it), so it returns here untouched (`!scroll`
-    // keeps the decline out). Until v1.262.1 it declined on touch-down. The app owns the rest (`_rch`, app.src.jsx): this file's
+    // keeps the decline out). Until v1.262.3 it declined on touch-down. The app owns the rest (`_rch`, app.src.jsx): this file's
     // bytes are deferred and capped to the byte, the app's are not; folded into this line it costs 20 B.
     if (scroll && this.app._rch() || this.interacting && this.app.paused) { if (!scroll && !this.intent) this.app._declineLandQ("reading"); return; }
     this.interacting = true;

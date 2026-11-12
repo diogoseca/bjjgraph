@@ -29,7 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
-- **v1.262.1** — [A scroll that reaches for a taken-up question's answers no longer declines it](#v12621--a-scroll-that-reaches-for-a-taken-up-questions-answers-no-longer-declines-it-short1-2026-11-12)
+- **v1.262.3** — [A scroll that reaches for a taken-up question's answers no longer declines it](#v12623--a-scroll-that-reaches-for-a-taken-up-questions-answers-no-longer-declines-it-short1-2026-11-12)
+- **v1.262.2** — [The planner retry test waits on its own claims](#v12622--the-planner-retry-test-waits-on-its-own-claims-race1-2026-11-12)
 - **v1.261.2** — [A signed-in player's name, initial and address never reach analytics](#v12612--a-signed-in-players-name-initial-and-address-never-reach-analytics-mask1-to-mask3-2026-11-12)
 - **v1.261.0** — [Practice opens inside the drawer, at the drawer's width, as Path does](#v12610--practice-opens-inside-the-drawer-at-the-drawers-width-as-path-does-owner-u135-a-pract1-and-pract2-2026-11-12)
 - **v1.260.0** — [The first ✕ on an open question folds it back to its one line](#v12600--the-first--on-an-open-question-folds-it-back-to-its-one-line-owner-u136-a-fold1-2026-11-11)
@@ -15507,7 +15508,31 @@ Screens: `artifacts/briefing/img/practicedrawer/` (PRACT1: 00 to 40; PRACT2: 50 
 
 **Where it was checked** (this box, under the build lock where a browser or a build ran). `ci:validate` 25 of 25 run steps, 1,469 of 1,469 units, on c32e3b56a. The account journeys (guest-join, account-menu, auth-owner, auth-redirect-back, signin-intent, sidebar, feedback-modal, challenges-engine) 59 of 60 on the v1.259.1 merge, the one red the 390 line above; after the fix, guest-join, account-menu and auth-owner 18 of 18. The full suites are the PR's e2e-full. Screens: `artifacts/briefing/img/guestprog/10-row-390.jpg` and `10-row-1440.jpg` (before on dev v1.259.0, after on this branch; only address player@example.com).
 
-## v1.262.1 — A scroll that reaches for a taken-up question's answers no longer declines it (SHORT1, 2026-11-12)
+## v1.262.2 — The planner retry test waits on its own claims (RACE1, 2026-11-12)
+
+**What went red.** The deploy of dev `30e3fec23` (v1.261.1), 05:44 UTC on 12 Nov: 912 passed, 1 failed. `e2e/journeys/gameplan-learning-loop.spec.ts:243`, "failed planner load keeps due cards actionable and retries on deliberate intent", `expect(requests).toBe(3)` at line 258 received 2. The same test passed in that commit's PR run and in the earlier deploys.
+
+**Why: the test, not the app.** After the retry press the test awaited `toBeVisible()` on `[data-session-section="Practice"]`, which `hit()` had just shown by opening the fold it sits in, so the wait returned at once; then it read the route's counter synchronously. It is 3 only if the press's `import()` of `gameplan.js` has already reached the route handler. Two more defects sat in the same three lines. (1) That wait is true only BEFORE the plan lands: `_practiceAppend` re-renders the untouched queue, and the fold comes back closed, so the old test needed the request early and the plan late. (2) Nothing proved the retry landed: with the third request aborted too, the old lines passed.
+
+**Control** (a scratch spec, deleted: the test's own body plus one knob each, core config, this box, under the lock):
+
+| arm | result |
+|---|---|
+| request 3 counted 300 ms late | red at line 258, received 2 |
+| no delay | green, 100 of 100 (before the dev merge; 95% upper bound for a loss about 3%) |
+| request 2 counted 300 ms late (could line 250 match the drawer's older failure text?) | green, 40 of 40 |
+| line 257 reached after the plan has landed | red: the Practice line is hidden |
+| the retry ALSO fails | green: the old test's blind spot |
+
+**Ships, spec only.** After the press: `expect.poll` until the route has seen the third request; `[data-gameplan-refresh]` exists ("Refresh plan", which `_gameplanIntro` builds only for a plan) and `[data-gameplan-load]` / `[data-gameplan-loading]` are gone; the session after the press is the very object the press reopened, now with `plan` set and `review` cleared; the first queue row is the review (`data-practice-kind="due"`), the open card reads "Due reviews · 2 cards" and can still be revealed; the count line still says 2 cards to review and, after them, the plan's own "N new across" half. Before the press, a plain read that nothing retried on its own. Line 251's plain read stays, with the reason at the code. No @curated tag moved; no app, gate or baseline changed.
+
+**Mutants** (injected just before the press), against the new lines and the old: the retry fails too, red at "the retry lands" (old: green); the plan never adopted (`_practiceAppend` does nothing), same (old: green); the retry builds a new session, red at "the reopened queue itself becomes the plan" (old: red, but only because the new session re-renders the fold closed); the new deck queued ahead of the review, red at "the first row is the review" (old: green). The new lines with every request counted 300 ms late, or request 3 counted 2,000 ms late: green.
+
+**Survey of `e2e/`.** 127 synchronous reads of a counter or list that a page, route or request handler fills, in 65 files: 72 are "no page errors" ends and 15 more claim nothing happened, which cannot lose this race; of the other 40, each wait is caused by the request or its answer, or the read comes many awaited steps after the request (the star request in `account-menu.spec.ts`, the aliases at `alias-search.spec.ts:48`); line 258 here had neither. Its neighbour at line 251 waits on the press's own failure, bar a window this box never hit (40 of 40 above). Then 44 waits on a locator the test had already asserted, each followed by a synchronous read: none is this race (each wait is caused by what the next line reads, or the read claims only that nothing changed). The full table is in the seat report.
+
+**Runs**, local, under the lock, on dev `4b3562ffa` merged: the spec file 11 of 11; the one test 20 of 20 (`--repeat-each 20`); the gameplan config's desktop and phone projects 22 of 22 (touch taps); the control and mutant arms as above.
+
+## v1.262.3 — A scroll that reaches for a taken-up question's answers no longer declines it (SHORT1, 2026-11-12)
 
 **The question.** cardgap (#376) wrote in `card-fold.spec.ts`, as found and not changed: at 390x631 an opened card runs below the
 screen, "so a player scrolls to reach an answer, and that scroll declines a taken-up question (`_tickDecision`)". If true, one phone
