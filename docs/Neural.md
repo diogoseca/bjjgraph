@@ -422,7 +422,7 @@ once the player has engaged; with the pane open (study) it does not run (`_clock
 highlighted, a failed SRS review, −4% and momentum broken (a later card: its smaller step) — and
 the hand stays
 live: the player still picks, untimed. Committing past an open question is a FREE SKIP, and so is
-anything that puts the question away — the ✕, a background tap, the pane, the video viewer or its card going off screen — all
+anything that puts the question away — the ✕, a background tap, the pane, the video viewer or its card leaving view — all
 DECLINE it (`land_q_declined`, mapped to the same funnel side-mark; momentum untouched). The
 penalty exists only for letting it expire while it faces you. **The question clock never
 pauses** (v1.134.0) — it drains on the real game frame,

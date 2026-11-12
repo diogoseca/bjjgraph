@@ -28,7 +28,9 @@ import { journey } from "../dsl"
  *   park-not-decline (the clock stops, the question stays live) → red at "coming back does not resurrect it"
  *   drill-excluded (the check skips a catch's drill)   → red at "the drill is put down free"
  *   reach-ignores-view (a scroll on the article is a reach even with every answer in view) → red at "the reading rule"
- *   seen-guard-off: see the new-landing journey's own note.
+ *   seen-guard-off (a card never yet on screen can be declined) → SURVIVES: a recorded NON-KILL, not coverage. The reader returns to
+ *   the top synchronously at the start of `open()`, so no judging frame falls between a new landing's mount and the reset here. The
+ *   guard stays (it is what "has left" means); the new-landing journey pins the claim against any order that would break it.
  */
 
 type Any = any
@@ -182,9 +184,9 @@ test.describe("390x631, by touch", () => {
     expect((await state(page)).expired, "the drill is put down free: it never runs out unseen").toBe(0)
   })
 
-  // NOTE (seen-guard-off): `q.seen` keeps a card that mounts below a scrolled reader, a frame before the app scrolls it to the
-  // top, from being declined. If its mutant survives here, the reset runs before the first judging frame in this harness and the
-  // guard is defensive; the journey still pins the claim against any order that would decline the question a landing brings.
+  // NOTE (seen-guard-off, a recorded non-kill): `q.seen` keeps a card that mounts below a scrolled reader, a frame before the app
+  // scrolls it to the top, from being declined. Its mutant survives: the reset runs before the first judging frame in this harness.
+  // This journey still pins the claim against any order that would decline the question a landing brings.
   test("SHORT4: a new landing reached with the reader scrolled far down does not decline the question it brings", async ({ page }) => {
     const j = await arrive(page, true)
     const s0 = await state(page)
