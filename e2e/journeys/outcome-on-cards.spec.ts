@@ -30,7 +30,11 @@ import { journey } from "../dsl";
  * what it compared. Mutants: the pairing returning nothing is red at each test's floor; an expiry
  * costing 5 (app `_qMod -= 0.05`) is red at "−4 on expiry".
  * CSS runs on the browser's wall clock regardless of the DSL's frame pump, so the motion checks use
- * real waits; the frame pump only drives the repaint that moves the numbers.
+ * real waits; the frame pump only drives the repaint that moves the numbers. FLAKY1 (v1.262.9): the
+ * first test's rise is read on the animation's own clock and its removal by page timers, both from each
+ * float's mount (`watchFloats`), not by Node sleeps after a late baseline. Its mutants, red by name: no rise and a 3 px rise ("the cause
+ * rises"); the cause never removed, removed 500 ms late, removed on the game clock, and a pop never
+ * removed or removed 600 ms late ("each float is gone 1.6 s after it mounted").
  */
 
 const VIEWS = [
@@ -98,6 +102,46 @@ const pops = (page: Page) =>
       return { text: (e.querySelector("b")?.textContent || "").trim(), word: (e.querySelector("span")?.textContent || "").trim(), d: e.getAttribute("data-hit-pop"), top: r.top, eats: !!(under && under.closest(".ng-hitpop")) };
     }),
   );
+// EACH FLOAT IS TIMED BY THE PAGE, FROM ITS OWN MOUNT (FLAKY1, v1.262.9). The rise and the removal run
+// on the browser's wall clock (CSS animation, setTimeout). The old checks raced them with Node sleeps
+// after a baseline read several round trips late (a click, a frame pump and four evaluates). The rise
+// runs on the compositor, so a main thread stalled 500 ms just after its first frame left the reads
+// late and the rise early: the baseline landed late on the 1.3 s ease-out, where 450 ms more rises
+// under 4 px (red 10 of 10 at "the cause rises"; 5 of 17 under a 6x CPU throttle). With the page's long
+// timers 800 ms late the removal lost its ~150 ms margin (red 18 of 18 at "the cause is gone by
+// ~1.6 s"). The app was untouched both times. Now a
+// MutationObserver sees each .ng-cause / .ng-hitpop mount and measures it there, on two clocks:
+//   - THE RISE, ON THE ANIMATION'S OWN CLOCK. A CSS animation starts at the first frame after its
+//     element mounts, and a starved page can paint that frame late: under the same 6x throttle a
+//     450 ms wall-clock timer from the mount found the cause not yet started (risen 0 px). So each
+//     frame reads `ngRise`'s currentTime, and once it is 450 ms or more, how far the cause has risen
+//     above the rect it mounted at (the 0% keyframe). The curve only climbs, so a late reading can
+//     only show more rise. A cause removed before its animation reaches 450 ms says so, and is red.
+//   - THE REMOVAL, ON THE PAGE'S TIMERS. At 1,600 ms a page timer checks the float is gone. Page
+//     timers run in deadline order however late the page runs, so the app's own 1,450 ms (cause) and
+//     1,250 ms (pop) removals always come before this check.
+const watchFloats = (page: Page) =>
+  page.evaluate(() => {
+    const w = window as any, log: any[] = (w.__floats = []);
+    new MutationObserver((recs) => {
+      for (const r of recs) for (const n of Array.from(r.addedNodes)) {
+        if (!(n instanceof HTMLElement) || !n.matches(".ng-cause,.ng-hitpop")) continue;
+        const f: any = { kind: n.matches(".ng-cause") ? "cause" : "pop", text: (n.textContent || "").trim(), top0: n.getBoundingClientRect().top, rose: null, at: null, gone: null };
+        log.push(f);
+        if (f.kind === "cause") {
+          const look = () => {
+            const rise = n.getAnimations().find((a: any) => a.animationName === "ngRise");
+            f.at = rise ? rise.currentTime : null;
+            if (!n.isConnected) { f.rose = `removed at animation time ${f.at == null ? "none" : Math.round(f.at) + " ms"}`; return; }
+            if (f.at != null && f.at >= 450) { f.rose = f.top0 - n.getBoundingClientRect().top; return; }
+            requestAnimationFrame(look);
+          };
+          requestAnimationFrame(look);
+        }
+        setTimeout(() => { f.gone = !n.isConnected; }, 1600);
+      }
+    }).observe(document.documentElement, { childList: true, subtree: true });
+  });
 const labelRect = (page: Page) =>
   page.evaluate(() => {
     const el = document.querySelector('[data-choice-group="you"] > div');
@@ -143,6 +187,7 @@ for (const vp of VIEWS) {
     const label = await labelRect(page);
     expect(label, '"Your options" label measured').not.toBeNull();
 
+    await watchFloats(page); // before the answer, so every float is timed from its own mount
     await answer(page, "wrong");
     await j.advance(100); // the repaint that moves the numbers
     const you = await cards(page, "you");
@@ -189,11 +234,16 @@ for (const vp of VIEWS) {
       "Missed: your chances on these moves drop 4 points.",
     );
 
-    // IT RISES, AND IT IS GONE: wall clock, not the game clock
-    await page.waitForTimeout(450);
-    const c1 = await causes(page);
-    expect(c1[0].top, "the cause rises").toBeLessThan(c0[0].top - 4);
-    await page.waitForTimeout(1150);
+    // IT RISES, AND IT IS GONE: wall clock, not the game clock. Timed by the page from each float's
+    // mount (watchFloats); nothing here advances the game clock, so a removal on it never comes.
+    await expect.poll(() => page.evaluate(() => (window as any).__floats.filter((f: any) => f.gone === null).length),
+      { message: "every float's 1.6 s check has run", timeout: 15_000 }).toBe(0);
+    const floats: any[] = await page.evaluate(() => (window as any).__floats);
+    const cause = floats.filter((f) => f.kind === "cause");
+    expect(cause.map((f) => f.text), "the page watched the one cause").toEqual(["missed"]);
+    expect(floats.filter((f) => f.kind === "pop").length, "…and every pop").toBeGreaterThanOrEqual(p0.length);
+    expect(cause[0].rose, "the cause rises: more than 4 px above the rect it mounted at, 450 ms into its animation").toBeGreaterThan(4);
+    expect(floats.filter((f) => !f.gone).map((f) => f.kind + " " + f.text), "each float is gone 1.6 s after it mounted, by the page's clock").toEqual([]);
     expect(await causes(page), "the cause is gone by ~1.6 s").toEqual([]);
     expect(await pops(page), "the pops are gone by ~1.6 s").toEqual([]);
   });
