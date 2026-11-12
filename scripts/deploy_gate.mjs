@@ -5,13 +5,13 @@
 // workflows, after the keyed build and before the Pages upload. Until v1.263.0 the tag meant "a fast representative
 // sample", and it grew from 427 tests on 1 Oct to 914 on 12 Nov: 33.6 to 36.8 minutes of a 45-minute step timeout,
 // about 2.6 minutes more every day (the GATE1 plan, `reports/gatetime.md`, outside the repo). The owner's answer: "only what a deploy can break,
-// plus one quick test per surface". 56 tests at v1.263.0, about 3 minutes; the tiers as v1.263.2 states them:
+// plus one quick test per surface". 56 tests at v1.263.0, about 3 minutes; the tiers as v1.263.3 states them:
 //   D  a test that reads what only a deploy build has: the keyed Supabase and PostHog config in postscript.js (and the
 //      build stamp it carries), or this checkout's own history (publication dates);
 //   S  re-run on the exact tree that ships, reading nothing a PR build lacks: one quick test per surface, plus the
 //      sign-in and account seams the owner's answer kept whole.
 //   v1.263.0 called 41 rows D. The reviewer of #388 (finding 4) showed 28 of them cannot see a deploy-only input (their
-//   fixture supplies the Supabase config, or they stub PostHog after boot), so v1.263.2 moved them to S with reasons
+//   fixture supplies the Supabase config, or they stub PostHog after boot), so v1.263.3 moved them to S with reasons
 //   that say what they check, and dropped "the affiliate stamp" from D: no row reads a stamped link, which the static
 //   deploy gates (check_affiliate_surface.py --built, check_systems_payload.py) check instead.
 // Every other journey still runs, unchanged, in e2e-full.yml's four core shards: on every PR into dev and main, and
@@ -232,7 +232,7 @@ export function checkListed(listed, manifest) {
   return errors;
 }
 
-// ── the count of what RAN (v1.263.2, GATE6; the reviewer's finding 6 on #388) ─────────────────────
+// ── the count of what RAN (v1.263.3, GATE6; the reviewer's finding 6 on #388) ─────────────────────
 // `--grep @curated` failing on zero matches is Playwright's default, but a kept test that SKIPS at run time passes the
 // gate silently, and with ~60 tests each one is a surface. `posttest:curated` (package.json) runs `ran` after a green
 // curated run, before the Pages upload in both deploys (scripts/check_build_chains.py expands the hook as part of the
@@ -287,7 +287,7 @@ function ran(root, args) {
   return r.errors.length ? 1 : 0;
 }
 
-// ── the promotion rule, enforced (v1.263.2, GATE6; the reviewer's finding 1 on #388) ──────────────
+// ── the promotion rule, enforced (v1.263.3, GATE6; the reviewer's finding 1 on #388) ──────────────
 // Production runs only the deploy gate, so the full suite must already have passed on the exact tree it ships. A
 // promotion is a `--no-ff` merge of a preview-verified dev commit, pushed straight to main with no PR, so no PR run ever
 // sees main's tree; the only full run of it is that dev commit's push-run of e2e-full. `promotion` (the first gate in

@@ -26,7 +26,7 @@ function fixture(fn) {
   }
   const pkg = { scripts: { build: shared.join(' && '), 'test:curated': 'node curated.mjs' } }
   const workflows = Object.fromEntries(['deploy.yaml', 'deploy-dev.yaml'].map(name => [name, { jobs: { deploy: { steps: [
-    // production-only, before the build: the promotion rule (PRODUCTION_ONLY in the gate, v1.263.2)
+    // production-only, before the build: the promotion rule (PRODUCTION_ONLY in the gate, v1.263.3)
     ...(name === 'deploy.yaml' ? [{ name: 'Promoted commit passed the full suite (gate)', run: PROMOTION }] : []),
     { name: 'Build Quartz', run: [...shared, ...extras].join('\n') },
     { uses: 'cloudflare/wrangler-action@pinned', with: { command: 'pages deploy source/public' } },
@@ -55,7 +55,7 @@ test('matching expanded chains report exact counts for BOTH deploys', () => fixt
   const r = run(); assert.equal(r.status, 0, r.output)
   assertChainFixtureCounts(r.output)
 }))
-// THE PROMOTION RULE IS PRODUCTION-ONLY, AND BEFORE THE BUILD (v1.263.2, GATE6): exactly once in deploy.yaml, as written,
+// THE PROMOTION RULE IS PRODUCTION-ONLY, AND BEFORE THE BUILD (v1.263.3, GATE6): exactly once in deploy.yaml, as written,
 // unconditional; never in deploy-dev.yaml, which has nothing to promote.
 const promo = (w) => w['deploy.yaml'].jobs.deploy.steps[0]
 test('deploy.yaml: the promotion rule before the build passes, and is named', () => fixture(({run}) => {
