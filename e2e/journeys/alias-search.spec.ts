@@ -26,7 +26,7 @@ const openSearch = async (page: Page, j: ReturnType<typeof journey>) => {
 };
 const retype = async (page: Page, text: string) => { await page.keyboard.press("Control+A"); await page.keyboard.type(text); };
 
-test("@curated delayed aliases refresh the drawer's search without replacing its input", async ({ page }) => {
+test("delayed aliases refresh the drawer's search without replacing its input", async ({ page }) => {
   let calls = 0;
   page.on("request", (r) => { if (ALIASES.test(r.url())) calls++; });
   const j = journey(page);
@@ -65,7 +65,7 @@ test("@curated delayed aliases refresh the drawer's search without replacing its
   expect(calls).toBe(1);
 });
 
-test("@curated an alias response cannot reopen a closed search or replace a newer modal", async ({ page }) => {
+test("an alias response cannot reopen a closed search or replace a newer modal", async ({ page }) => {
   const j = journey(page);
   await j.boot();
   const aliases = await fixture(page);
@@ -98,7 +98,7 @@ test("@curated an alias response cannot reopen a closed search or replace a newe
   expect(await page.evaluate(() => !!(window as any).__neural.deckShown), "and did not reopen the closed search").toBe(false);
 });
 
-test("@curated alias failures stop after three attempts and explicit Retry recovers", async ({ page }) => {
+test("alias failures stop after three attempts and explicit Retry recovers", async ({ page }) => {
   const j = journey(page);
   await j.boot();
   const aliases = await fixture(page);
@@ -127,7 +127,7 @@ test("@curated alias failures stop after three attempts and explicit Retry recov
   expect(calls).toBe(4);
 });
 
-test("@curated singleton browsing fetches no dossiers and keeps its scroll and folds on alias arrival", async ({ page }) => {
+test("singleton browsing fetches no dossiers and keeps its scroll and folds on alias arrival", async ({ page }) => {
   const j = journey(page);
   await j.boot();
   const aliases = await fixture(page);

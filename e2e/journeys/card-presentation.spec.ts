@@ -58,7 +58,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
   test.describe(`at ${width}px`, () => {
     test.use({ viewport: { width, height } })
 
-    test("@curated equal score columns, direct title and fixed media space on every card", async ({ page }) => {
+    test("equal score columns, direct title and fixed media space on every card", async ({ page }) => {
       let own = 0, threats = 0
       for (const where of ["Mount Top", "Attacker", "Defender"] as const) {
         await seat(page, where)
@@ -74,7 +74,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
       expect(threats).toBeGreaterThan(1)
     })
 
-    test("@curated item 4: the chosen card rises a twelfth of its height and settles, its rectangle never moves", async ({ page }) => {
+    test("item 4: the chosen card rises a twelfth of its height and settles, its rectangle never moves", async ({ page }) => {
       const j = await seat(page, "Mount Top")
       // a submission ENTRY: certain, no roll, and the one path whose next deal follows the stand-in
       // with no clearOptions between (choice-row-centre's case), so only the deal can restore the row
@@ -118,7 +118,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
       expect(await a(page, "(() => { const s = getComputedStyle(window.__neural.optionsRef.current); return s.overflowX + '/' + s.overflowY })()"), "the next deal restores the row's scrolling").toBe("auto/hidden")
     })
 
-    test("@curated item 4: under reduced motion the chosen card does not rise", async ({ page }) => {
+    test("item 4: under reduced motion the chosen card does not rise", async ({ page }) => {
       await page.emulateMedia({ reducedMotion: "reduce" })
       const j = await seat(page, "Mount Top")
       const title = await mark(page, "transition")
@@ -129,7 +129,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
       expect(["none", "matrix(1, 0, 0, 1, 0, 0)"]).toContain(still.tf)
     })
 
-    test("@curated all four choice roles keep their shape, without Read or a footer", async ({ page }) => {
+    test("all four choice roles keep their shape, without Read or a footer", async ({ page }) => {
       for (const [where, kind] of [["Mount Top", "transition"], ["Mount Top", "entry"], ["Defender", "escape"], ["Attacker", "threat"]] as const) {
         const j = await seat(page, where)
         await mark(page, kind)

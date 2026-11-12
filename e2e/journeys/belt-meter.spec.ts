@@ -30,7 +30,7 @@ const openTab = async (page: Page, view: string) => {
   await expect(page.locator(".ng-drawer-head")).toBeVisible();
 };
 
-test.describe("Score belt retired @curated", () => {
+test.describe("Score belt retired", () => {
   test("no score-belt visual on any tab; the score lives in the Explore subtitle alone", async ({
     page,
   }) => {

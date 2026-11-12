@@ -104,7 +104,7 @@ const exploreAddFor = async (page: Page, tech: { id: string; name: string }) => 
 
 // ─────────────────────────────────────── 1. the bug, and its regression proof
 
-test("with two lists the star asks WHERE — and the list you choose is the one that gets it @curated", async ({
+test("with two lists the star asks WHERE — and the list you choose is the one that gets it", async ({
   page,
 }) => {
   const j = journey(page);
@@ -170,7 +170,7 @@ test("with two lists the star asks WHERE — and the list you choose is the one 
 
 // ─────────────────────────────────────── 2. the check doubles as remove
 
-test("the picker's checks mirror real membership, and tapping a checked row removes @curated", async ({
+test("the picker's checks mirror real membership, and tapping a checked row removes", async ({
   page,
 }) => {
   const j = journey(page);
@@ -240,7 +240,7 @@ test("the picker's checks mirror real membership, and tapping a checked row remo
 
 // ─────────────────────────────────────── 3. inline create
 
-test("New list names and files in one action — the YouTube 'new playlist' row @curated", async ({
+test("New list names and files in one action — the YouTube 'new playlist' row", async ({
   page,
 }) => {
   const j = journey(page);
@@ -285,7 +285,7 @@ test("New list names and files in one action — the YouTube 'new playlist' row 
 
 // ─────────────────────────────────────── 4. zero and one list still ask
 
-test("the star ALWAYS asks — nothing is filed into a list the reader did not choose @curated", async ({
+test("the star ALWAYS asks — nothing is filed into a list the reader did not choose", async ({
   page,
 }) => {
   const j = journey(page);
@@ -367,7 +367,7 @@ test("the star ALWAYS asks — nothing is filed into a list the reader did not c
 
 // ─────────────────────────────────────── 5. the clock
 
-test("the picker never stops the clock, and never sits over the option hand past a decision @curated", async ({
+test("the picker never stops the clock, and never sits over the option hand past a decision", async ({
   page,
 }) => {
   const j = journey(page);
@@ -447,7 +447,7 @@ const pickerRows = (page: Page) =>
   );
 const paintsNothing = (after: string) => after === "none" || after === "normal";
 
-test("no list is the default — the picker's rows are the Lists panel's recency order, and nothing files until one is picked @curated", async ({
+test("no list is the default — the picker's rows are the Lists panel's recency order, and nothing files until one is picked", async ({
   page,
 }) => {
   const j = journey(page);

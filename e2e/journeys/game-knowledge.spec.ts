@@ -68,7 +68,7 @@ const setMastery = (page: any, key: string, stage: number) =>
     [key, stage] as const,
   );
 
-test.describe("Game Knowledge @curated", () => {
+test.describe("Game Knowledge", () => {
   test("the score is frequency-weighted mastery from zero to full recall", async ({
     page,
   }) => {

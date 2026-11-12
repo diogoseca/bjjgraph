@@ -78,7 +78,7 @@ function gestureWheel(page: Page) {
 
 for (const width of [1440, 390]) {
   for (const recall of [false, true]) {
-    test(`@curated ${width}px ${recall ? "recall" : "MC"}: deck pages with stable docking and readable faces`, async ({ page }) => {
+    test(`${width}px ${recall ? "recall" : "MC"}: deck pages with stable docking and readable faces`, async ({ page }) => {
       await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
       const { j, total } = await setup(page, recall)
       await expect(page.locator("[data-land-count]")).toHaveText(`1/${total}`)
@@ -140,7 +140,7 @@ for (const width of [1440, 390]) {
   // STALE CONTRACT (D-338): Questions follows Moves in the article view, so the deck sits tight
   // UNDER the tray (the one 16px deck gap) and its backs, which peek 3px per remaining card below
   // the face, stay clear of the article that follows. The face's own claims are unchanged.
-  test(`@curated ${width}px: the deck face keeps its 1.5x foot and sits tight under the choices`, async ({ page }) => {
+  test(`${width}px: the deck face keeps its 1.5x foot and sits tight under the choices`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await setup(page)
     const m = await page.evaluate(() => {
@@ -198,7 +198,7 @@ for (const width of [1440, 390]) {
   })
 }
 
-test("@curated wheel momentum advances once; a fresh gesture advances again", async ({ page }) => {
+test("wheel momentum advances once; a fresh gesture advances again", async ({ page }) => {
   await setup(page)
   const wheel = gestureWheel(page)
   const card = await page.locator("[data-landcard]").boundingBox()
@@ -213,7 +213,7 @@ test("@curated wheel momentum advances once; a fresh gesture advances again", as
   expect(await page.evaluate(() => !!(window as any).__neural._reader.interacting), "paging a replaced face remains game input").toBe(false)
 })
 
-test("@curated answering the entire deck celebrates once, without paying extra roll rewards", async ({ page }) => {
+test("answering the entire deck celebrates once, without paying extra roll rewards", async ({ page }) => {
   const { j, total } = await setup(page)
   for (let index = 0; index < total; index++) {
     const correct = await page.evaluate(() => (window as any).__neural._mc.correct)
@@ -250,7 +250,7 @@ test("recall keeps its keyboard controls when revisited, including with reduced 
 // Mutant, recorded 2026-09-29: without the film strip's ResizeObserver re-dock (`_renderLandFilm`,
 // v1.207.7) this goes red 3 of 3 on the landscape rotation — the resize dock reads the strip
 // mid-transition, clamps it and parks it 4px inside the (18px taller) hand, 121 > 110.
-test("@curated responsive deck stays readable in the shared scrollport and rotates back", async ({ page }) => {
+test("responsive deck stays readable in the shared scrollport and rotates back", async ({ page }) => {
   const { j } = await setup(page)
   // Resize the SAME mounted deck: rotation must release the landscape column and keep the
   // selected card, rather than accidentally passing by rebuilding a fresh screen each time.
@@ -316,7 +316,7 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
 test.describe("phone input", () => {
   test.use({ hasTouch: true })
 
-  test("@curated long mobile choices remain readable without an internal scrollport", async ({ page }) => {
+  test("long mobile choices remain readable without an internal scrollport", async ({ page }) => {
     await page.setViewportSize({ width: 320, height: 568 })
     const { j } = await setup(page)
     await page.evaluate(() => {
@@ -378,7 +378,7 @@ test.describe("phone input", () => {
 
 
 for (const target of ["[data-land-q]>div:first-child", "[data-land-mc-opt='0']"]) {
-  test(`@curated three quick horizontal scrolls work without moving the cursor over ${target}`, async ({ page }) => {
+  test(`three quick horizontal scrolls work without moving the cursor over ${target}`, async ({ page }) => {
     const { j, total } = await setup(page)
     const wheel = gestureWheel(page)
     const box = await page.locator(target).boundingBox()
@@ -421,7 +421,7 @@ test("sustained horizontal scrolling keeps advancing with a stationary cursor", 
 })
 
 for (const recall of [false, true]) {
-  test(`@curated paging resets the ${recall ? "recall" : "MC"} countdown and clears the old warning`, async ({ page }) => {
+  test(`paging resets the ${recall ? "recall" : "MC"} countdown and clears the old warning`, async ({ page }) => {
     const { j } = await setup(page, recall)
     if (recall) await page.evaluate(() => {
       const a = (window as any).__neural
@@ -481,7 +481,7 @@ for (const recall of [false, true]) {
   })
 }
 
-test("@curated loading the next card pauses expiry, then starts its full countdown", async ({ page }) => {
+test("loading the next card pauses expiry, then starts its full countdown", async ({ page }) => {
   const { j } = await setup(page)
   await j.engage()
   await page.evaluate(() => {
@@ -524,7 +524,7 @@ test("a gentle second scroll can build gradually out of the previous momentum ta
 for (const width of [1440, 390, 320]) {
   // v1.253.0 (owner, 2026-11-09): at a deck boundary an arrow stays, disabled; hidden, a second press there reached the map and
   // closed the card and the film. deck-boundary.spec.ts pins what that press does.
-  test(`@curated ${width}px chevrons are clickable, keep focus, and stand disabled at deck boundaries`, async ({ page }) => {
+  test(`${width}px chevrons are clickable, keep focus, and stand disabled at deck boundaries`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     const { j, total } = await setup(page)
     const prev = page.locator("[data-land-prev]"), next = page.locator("[data-land-next]")
@@ -584,7 +584,7 @@ for (const width of [1440, 390, 320]) {
   })
 }
 
-test("@curated long recall answers grow the card and scroll with the whole column", async ({ page }) => {
+test("long recall answers grow the card and scroll with the whole column", async ({ page }) => {
   await page.setViewportSize({ width: 320, height: 568 })
   const { j } = await setup(page, true)
   await page.evaluate(() => {

@@ -65,7 +65,7 @@ const geo = (page: any) =>
 
 // STALE CONTRACT (D-338, CI 11e7f83ff): "above the escape hand" was the pre-D-338 order; the claim kept is
 // that the drill is a landing card clear of the escape hand, in whichever order the view stacks them.
-test("the panic drill is a landing card, clear of the escape hand @curated", async ({ page }) => {
+test("the panic drill is a landing card, clear of the escape hand", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.hydrateAll();

@@ -71,7 +71,7 @@ const layout = (page: Page) => page.evaluate(() => {
 })
 
 for (const [width, height] of [[390, 631], [390, 844], [768, 1024], [1024, 768], [1152, 900], [1440, 900]]) {
-  test(`@curated VIDEO1 gap and card width ${width}x${height}`, async ({ page }) => {
+  test(`VIDEO1 gap and card width ${width}x${height}`, async ({ page }) => {
     await page.setViewportSize({ width, height }); await boot(page)
     const g = await layout(page)
     // U104 and U110 a (owner, 2026-11-09): under 1,024px free everything stacks in one box of at most 496px; from 1,024px the
@@ -97,7 +97,7 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 1024], [1024, 768],
 }
 
 for (const [width, height, vertical] of [[390, 631, false], [390, 844, false], [768, 1024, false], [1440, 900, false], [1440, 900, true]] as const) {
-  test(`@curated VIDEO1 width-first 95% fit and rectangle zoom ${width}x${height}${vertical ? " portrait" : ""}`, async ({ page }) => {
+  test(`VIDEO1 width-first 95% fit and rectangle zoom ${width}x${height}${vertical ? " portrait" : ""}`, async ({ page }) => {
     await page.setViewportSize({ width, height }); const j = await boot(page, vertical)
     await page.locator(PLAY).first().scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
     const before = await page.locator(FILM + " .ng-clip").first().boundingBox()
@@ -140,7 +140,7 @@ for (const [width, height, vertical] of [[390, 631, false], [390, 844, false], [
   })
 }
 
-test("@curated VIDEO1 click loads autoplay and dims everything by 60 percent", async ({ page }) => {
+test("VIDEO1 click loads autoplay and dims everything by 60 percent", async ({ page }) => {
   const j = await boot(page, false, true)
   expect(await page.locator('#yt-iframe-api').count(), "VIDEO1 API does not load before Play").toBe(0)
   await j.clickByMouse(PLAY)
@@ -159,7 +159,7 @@ test("@curated VIDEO1 click loads autoplay and dims everything by 60 percent", a
 })
 
 for (const exit of ["Escape", "dim", "close"] as const) {
-  test(`@curated VIDEO1 ${exit} exits and restores play focus`, async ({ page }) => {
+  test(`VIDEO1 ${exit} exits and restores play focus`, async ({ page }) => {
     const j = await boot(page); await j.clickByMouse(PLAY)
     const close = page.locator(THEATER + " .ngClipX")
     await expect(close, "VIDEO1 focus enters the theater").toBeFocused()
@@ -179,7 +179,7 @@ for (const exit of ["Escape", "dim", "close"] as const) {
   })
 }
 
-test("@curated VIDEO1 map gets no pointer wheel or keyboard input during playback", async ({ page }) => {
+test("VIDEO1 map gets no pointer wheel or keyboard input during playback", async ({ page }) => {
   const j = await boot(page); await j.clickByMouse(PLAY)
   await expect(page.locator(THEATER + " iframe")).toBeVisible()
   const state = () => page.evaluate(() => {
@@ -253,7 +253,7 @@ test("VIDEO1 a blocked provider says so, and a later Play retries it", async ({ 
   await expect.poll(() => page.evaluate(() => (window as any).__players?.[0]?.play), { message: "VIDEO1 the retried player plays" }).toBe(1)
 })
 
-test("@curated VIDEO1 reduced motion opens instantly without a zoom", async ({ page }) => {
+test("VIDEO1 reduced motion opens instantly without a zoom", async ({ page }) => {
   await page.emulateMedia({ reducedMotion: "reduce" })
   const j = await boot(page)
   expect(await page.evaluate(() => matchMedia("(prefers-reduced-motion: reduce)").matches)).toBe(true)

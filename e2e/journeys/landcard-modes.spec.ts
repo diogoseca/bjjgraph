@@ -127,7 +127,7 @@ const answerCorrect = async (page: any) => {
 }
 
 // ── 1. paging (keys) + the one-per-landing economy ───────────────────────────────────────────
-test("arrows page the deck; only the first answer pays; commit fires no ignore @curated", async ({
+test("arrows page the deck; only the first answer pays; commit fires no ignore", async ({
   page,
 }) => {
   const j = journey(page)
@@ -377,7 +377,7 @@ test("the generic defending card pages its own deck with the same arrows", async
 })
 
 // ── 5. a technique URL lands ON the technique ────────────────────────────────────────────────
-test("a technique page keeps its URL and stages the exchange, card standard @curated", async ({
+test("a technique page keeps its URL and stages the exchange, card standard", async ({
   page,
 }) => {
   const j = journey(page)
@@ -562,7 +562,7 @@ test("from blue belt up, a proven card asks as recall in play — below, MC hold
 // on BOTH 79f7e09c4 and bd87d42d4; reversing the fetch order passes it on both. Neither head
 // changes that assignment. Check both orders, the authored question, the mounted MC truth,
 // and the real mouse grade. Never warm everything to conceal a wrong-deck race.
-for (const cold of [true, false]) test(`a defender content arrival stays calm after an answer (${cold ? "cold" : "warm"} deck) @curated`, async ({ page }) => {
+for (const cold of [true, false]) test(`a defender content arrival stays calm after an answer (${cold ? "cold" : "warm"} deck)`, async ({ page }) => {
   const j = journey(page)
   const key = "Kimura from Knee on Belly|Defender"
   // Emitted qhash(key) chunk, served by the DSL's real per-deck residency path.
@@ -705,7 +705,7 @@ for (const cold of [true, false]) test(`a defender content arrival stays calm af
  * The camera half reads the node through `pairMid` (§6.2) and requires it ABOVE the docked
  * card's top edge — the differential the owner saw, not a camTarget read.
  */
-test("arriving on a TRANSITION's defending side is a calm staged landing — no rush, state above the card @curated", async ({ page }) => {
+test("arriving on a TRANSITION's defending side is a calm staged landing — no rush, state above the card", async ({ page }) => {
   const j = journey(page)
   // `Kuzure Kesa Gatame to Kesa Gatame`, the same node the owner reported as `Modified Scarf to
   // Kesa Gatame` — its position was one of three filed twice and collapsed onto the judo name
@@ -757,7 +757,7 @@ test("arriving on a TRANSITION's defending side is a calm staged landing — no 
 })
 
 // ── 7. the finishing side = Finish it, in the hand ───────────────────────────────────────────
-test("a staged technique's own card is the go — highlighted, then committed in place @curated", async ({
+test("a staged technique's own card is the go — highlighted, then committed in place", async ({
   page,
 }) => {
   const j = journey(page)
@@ -822,7 +822,7 @@ test("a family-hub URL lands on the family, not on a random weighted start", asy
  * (3) The last three seconds pulse the card itself — ng-clock-hot goes on at ≤3s
  *     and comes off with the disarm. Kills: dropping the hot-class add.
  */
-test("@curated the meter mirrors Win-left, and the clock drains through pause into the hot pulse", async ({
+test("the meter mirrors Win-left, and the clock drains through pause into the hot pulse", async ({
   page,
 }) => {
   const j = journey(page)

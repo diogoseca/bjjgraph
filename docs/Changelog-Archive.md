@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.263.0** — [The deploy gate runs what a deploy can break, plus one smoke per surface](#v12630--the-deploy-gate-runs-what-a-deploy-can-break-plus-one-smoke-per-surface-gate5-2026-11-12)
 - **v1.262.11** — [Each browser keeps its own roll-ledger code](#v126211--each-browser-keeps-its-own-roll-ledger-code-flow1-and-flow2-2026-11-12)
 - **v1.262.9** — [Four journeys wait on their own claims, not on a sleep](#v12629--four-journeys-wait-on-their-own-claims-not-on-a-sleep-flaky1-2026-11-12)
 - **v1.262.7** — [`advanceUntil` asks for its beat in the page](#v12627--advanceuntil-asks-for-its-beat-in-the-page-gate3-2026-11-12)
@@ -15938,6 +15939,69 @@ pass beside the journeys at load 10 lost `verify_clips`'s 0.1 s deadline test, u
 the lock, 58 of 58 (9.1 min), and `payload-first-hand`, core 371,717 B, +610 B over the checkpointed 371,107;
 `check_payload_budget.py` exit 0 (deferred 510,981 of 510,981 B; eager gzip 352,291 B). The full core suite and
 `e2e:gen` run on the PR.
+
+## v1.263.0 — The deploy gate runs what a deploy can break, plus one smoke per surface (GATE5, 2026-11-12)
+
+**The owner's answer, U147 a (12 Nov, 12:40):** "Only what a deploy can break, plus one quick test per surface." The
+orchestrator's sub-decisions: e2e-full on push to dev; target 5 min, line 10, step timeout 20; both deploy files in
+one PR; the four keyed sign-in details (challenges-engine ×3, feedback-modal ×1) stay. The `@curated` tag had meant
+"a fast representative gate" since it was introduced and grew with every spec: 250 tests, 427 on 1 Oct, 914 on 12 Nov,
+at 33.6–36.8 minutes of a 45-minute step timeout on the slow runner, about 2.6 minutes more a day. The plan and its
+measurements are GATE1 (`reports/gatetime.md`, outside the repo); the two speed-ups it also proposed shipped as
+v1.262.4 and v1.262.7 above.
+
+**The tags, recomputed on dev 260b666f0 (v1.262.10).** Playwright listed 914 `@curated` and 1,474 core tests. Against
+the plan's list of 913, nothing was renamed and one test was new: `short-phone-answers` SHORT1 (#381), which is app
+behaviour, not deploy-dependent, so it is untagged. **56 keep the tag, 858 lose it.** After the change Playwright lists
+exactly the 56 (set-equal to the plan's keep list) and still 1,474 core tests, set-equal to before once the tag is
+removed from the titles, so every untagged test is still collected by `npm test` and runs in `e2e-full.yml`'s four
+core shards. D, 41 tests: the deploy build differs (the keyed Supabase and PostHog config only deploys carry, the
+affiliate stamp, the checkout's own history for publication dates, the static shells crawlers read). S, 15 tests: one
+smoke per surface on the exact merged tree. 498 title lines lost the tag mechanically; 6 describe blocks lost it; two
+describe-level tags that kept part of their tests (Challenge engine 3 of 8, White Challenges 1 of 5) moved onto those
+tests; six parametrised loops keep exactly one case through a condition in the title (article-sections
+`/Positions/Mount`, reading-media-placement `/Systems/` at 1440 with native moves, film-overlay-play 390x844,
+game-value-live 390, settings-lazy 1440, practice-page 390×844 warm new); three tag tables (card-fold,
+short-phone-answers, free-roam-article) and share-mobile's two-line title lost theirs. Comments that called a block
+`@curated` were brought to the truth (graph-naming, dual-pair, announcer-coherence, roll-card, replay-digest,
+url-arrival, sidebar, harness-resolution, share-mobile).
+
+**The ledger.** `tests/artifacts/deploy_gate.json`: one row per tagged test (file, Playwright's full title, tier,
+reason, last CI seconds from deploy-dev run 43210168114, v1.262.9, 914 passed in 33.6 min, a slow runner at 0.95 of
+run 43196894885). `tests/artifacts/deploy_gate_budget.json`: target 5, line 10, timeout 20, start-up 10 s (8 s from the
+step's start to the first test on both runs, then 0.016–0.021 s between tests). The 56 rows sum to 151 s, so 2.7 min
+with the start-up. Two halves check it, because 9 spec files read built files while Playwright collects them and
+ci-validate never builds:
+- `tests/deploy_gate.test.mjs` (`test:units`): every `@curated` in code must sit in ONE title literal on one line that
+  a row matches (a template literal is a wildcard per `${…}`); every row must match exactly one site; the rows'
+  seconds, a new row counted at the measured p90, plus the start-up, must fit under the line; zero rows or zero
+  measurements fail. It also reads both deploys and e2e-full through PyYAML: the gate step once, at the budget's
+  timeout; the tripwire once, after the Pages upload, with the run's token and `actions: read`; in `deploy.yaml`
+  `continue-on-error` with its outcome a job output that exactly one verdict job reads; e2e-full on push to dev with
+  its concurrency group, and its listing step.
+- `node scripts/deploy_gate.mjs check --listed` (e2e-full's build job, after the site is built): Playwright's own
+  `--list --grep @curated` must equal the rows, title for title. It is what sees a parametrised condition widened.
+
+**The tripwire.** A step after the Pages upload and the live checks in both deploys: it reads this run attempt's jobs
+API (finished steps carry their times while the job still runs, checked on deploy-dev run 43220297439), requires
+exactly one step named "Curated journey gate (Playwright E2E)" that concluded success (zero, two or a failure is red:
+absence must not read as fast), and prints a notice, a warning over the target or an error over the line. It runs
+after the upload so a slow but green gate still ships. In `deploy.yaml` it is `continue-on-error`, and the
+`deployed-console` verdict (renamed to "...and the gate's time are clean") fails on it, so Lighthouse, IndexNow and the
+release still run.
+
+**Mutants** (in the unit's header; applied to a scratch copy of the tree, the unit run, reverted): a 57th tag →
+"a tagged test with no row"; a row deleted → the same, naming golden-path; a kept test renamed → "row matches no
+tagged test"; one row at 900 s → "sum to 1061 s, over its 10-min line"; deploy-dev's timeout back to 45, deploy.yaml's
+tripwire without `continue-on-error`, e2e-full without its push trigger → each its wiring case. game-value-live's
+condition widened to every width SURVIVES the unit by design and is killed by `check --listed` ("the gate runs a test
+with no row").
+
+**Also:** CLAUDE.md Shipping gains the promotion rule (promote only a commit whose push-run e2e-full is green), §4's
+`test:curated` line and §8's rows say what the gate is now; `docs/Neural.md` no longer counts start-from's tags.
+
+**Expected on the first deploy after the merge:** a gate of about 2.7 minutes on a slow runner and about 2 on a fast
+one, against 33.6–36.8 before, and the tripwire's notice saying so.
 
 ## v1.263.1 — The question card's section is as wide as the Moves row, its arrows tight in their lanes (WIDTH1, 2026-11-12)
 

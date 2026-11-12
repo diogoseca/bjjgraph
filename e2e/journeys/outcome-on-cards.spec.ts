@@ -179,7 +179,7 @@ async function answer(page: Page, which: "wrong" | "trap" | "correct") {
 }
 
 for (const vp of VIEWS) {
-  test(`@curated a wrong answer hits every own card by its real delta, and no threat (${vp.name})`, async ({ page }) => {
+  test(`a wrong answer hits every own card by its real delta, and no threat (${vp.name})`, async ({ page }) => {
     const j = await setup(page, vp.width, vp.height);
     const youBefore = await cards(page, "you");
     const themBefore = await cards(page, "opponent");

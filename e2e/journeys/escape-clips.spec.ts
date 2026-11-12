@@ -86,7 +86,7 @@ async function bootEscapes(page: Page, role: "Attacker" | "Defender", kind: Case
 }
 
 for (const [role, title] of [["Defender", "own cards"], ["Attacker", "opponent threats"]] as const) {
-  test(`@curated escape clips: ${title} show the exact first clip and watch its start`, async ({ page }) => {
+  test(`escape clips: ${title} show the exact first clip and watch its start`, async ({ page }) => {
     const { j, group, card, errors } = await bootEscapes(page, role)
     const before = await page.evaluate(() => {
       const a = (window as any).__neural
@@ -119,7 +119,7 @@ for (const [role, title] of [["Defender", "own cards"], ["Attacker", "opponent t
 }
 
 for (const kind of ["no escapes", "no label entry", "unapproved first", "approved later", "truthy front"] as const) {
-  test(`@curated escape clips: ${kind} keeps the placeholder, never the defender reel`, async ({ page }) => {
+  test(`escape clips: ${kind} keeps the placeholder, never the defender reel`, async ({ page }) => {
     const { card, errors } = await bootEscapes(page, "Defender", kind)
     const choice = card(POSTURE)
     await expect(choice).toHaveCount(1)

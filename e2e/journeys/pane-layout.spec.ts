@@ -89,7 +89,7 @@ const geometry = (page: Page) => page.evaluate(() => {
 })
 
 for (const width of [1440, 1024]) {
-  test(`@curated ${width}px pane moves film, card, article and the projected current node together`, async ({ page }) => {
+  test(`${width}px pane moves film, card, article and the projected current node together`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 })
     const j = await setup(page)
     await j.clickByMouse("[data-land-next]", "next flashcard before opening the pane")
@@ -157,7 +157,7 @@ for (const width of [1440, 1024]) {
 for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 }]) {
   // D-338: Browse and Focus are gone; the logo's pane is the one Browse opened, and focusing the
   // prose is the reading interaction that Focus used to stand in for.
-  test(`@curated ${viewport.width}px the pane overlays the article and preserves its place`, async ({ page }) => {
+  test(`${viewport.width}px the pane overlays the article and preserves its place`, async ({ page }) => {
     await page.setViewportSize(viewport)
     const j = await setup(page)
     await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
@@ -211,7 +211,7 @@ async function articleEnd(page: Page, path: string) {
 }
 const readerTop = (page: Page) => page.locator("[data-reader]").evaluate(e => e.scrollTop)
 for (const path of ["/Positions/Mount/Top", "/Transitions/50-50-Entry/Attacker"]) {
-  test(`@curated 768px the pane opened and closed at the end of ${path} restores the reader's place`, async ({ page }) => {
+  test(`768px the pane opened and closed at the end of ${path} restores the reader's place`, async ({ page }) => {
     const j = await articleEnd(page, path)
     const before = await readerTop(page)
     await openPane(page, j)
@@ -313,7 +313,7 @@ test("1440px a small wheel while the pane is open is the reader's new place, and
   expect(Math.abs(now - held), `the line the wheel left keeps its place (${held} -> ${now}, moved ${moved})`).toBeLessThanOrEqual(8)
 })
 
-test("@curated exposed cards, videos and reading take real mouse input while the pane is open", async ({ page }) => {
+test("exposed cards, videos and reading take real mouse input while the pane is open", async ({ page }) => {
   await page.setViewportSize({ width: 1024, height: 900 })
   const j = await setup(page)
   // D-338: Questions follows Videos and Moves and can start below the fold: scroll to it first.
@@ -399,7 +399,7 @@ test("@curated exposed cards, videos and reading take real mouse input while the
   expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true)
 })
 
-test("@curated resizing an open pane preserves the card through the stacked landscape flow", async ({ page }) => {
+test("resizing an open pane preserves the card through the stacked landscape flow", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = await setup(page)
   await j.clickByMouse("[data-land-next]")

@@ -22,7 +22,7 @@ const state = (page: Page) => page.evaluate(() => {
 // image styles. A standalone specimen omitted that stylesheet and hid the
 // vertical margin leak. The oracle is equal visible insets, not a CSS value.
 for (const width of [320, 390, 768, 1024, 1440]) for (const currentClips of [1, 2] as const) {
-  test(`@curated U8 posters stay centered inside every film frame (${width}px, ${currentClips} current clips)`, async ({ page }) => {
+  test(`U8 posters stay centered inside every film frame (${width}px, ${currentClips} current clips)`, async ({ page }) => {
     await page.setViewportSize({ width, height: width < 700 ? 844 : 900 })
     await boot(page, "approved", { currentClips })
     const images = page.locator(`${CARD} img, [data-land-film] img`)
@@ -68,7 +68,7 @@ for (const width of [320, 390, 768, 1024, 1440]) for (const currentClips of [1, 
 }
 
 for (const [width, height] of [[1440, 900], [390, 844]]) {
-  test(`@curated video choice: only the play circle watches, the card commits (${width}px)`, async ({ page }) => {
+  test(`video choice: only the play circle watches, the card commits (${width}px)`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const errors: string[] = []; page.on("pageerror", e => errors.push(e.message))
     const j = await boot(page)
@@ -112,7 +112,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     expect(errors).toEqual([])
   })
 
-  test(`@curated current card: one full video plus a ten percent peek, title and Win fixed (${width}px)`, async ({ page }) => {
+  test(`current card: one full video plus a ten percent peek, title and Win fixed (${width}px)`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = await boot(page)
     const frame = page.locator("[data-land-film]")
@@ -138,7 +138,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     await expect(page.locator("[data-land-film]")).toHaveCount(1)
   })
 
-  test(`@curated A uses the measured media height and preserves the outside deck arrows (${width}px)`, async ({ page }) => {
+  test(`A uses the measured media height and preserves the outside deck arrows (${width}px)`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const errors: string[] = []; page.on("pageerror", e => errors.push(e.message))
     const j = await boot(page, "approved", { revealChoice: false })
@@ -183,7 +183,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
   })
 }
 
-test("@curated keyboard can leave cross-origin playback and close the modal without reaching the page", async ({ page }) => {
+test("keyboard can leave cross-origin playback and close the modal without reaching the page", async ({ page }) => {
   const errors: string[] = []; page.on("pageerror", e => errors.push(e.message))
   await boot(page, "approved", { crossOriginPlayer: true })
   const watch = page.locator(`${CARD} [data-choice-watch]`)
@@ -230,7 +230,7 @@ test("@curated keyboard can leave cross-origin playback and close the modal with
 })
 
 for (const front of ["later", "opposite", "none"] as const) {
-  test(`@curated an ${front} front is suppressed, and its empty media still commits the card`, async ({ page }) => {
+  test(`an ${front} front is suppressed, and its empty media still commits the card`, async ({ page }) => {
     const j = await boot(page, front)
     await expect(page.locator(`${CARD} [data-choice-watch], ${CARD} img`)).toHaveCount(0)
     const before = await state(page)
@@ -242,7 +242,7 @@ for (const front of ["later", "opposite", "none"] as const) {
 }
 
 for (const region of ["poster", "statistics", "border"] as const) {
-  test(`@curated clicking the ${region} outside Play commits exactly once`, async ({ page }) => {
+  test(`clicking the ${region} outside Play commits exactly once`, async ({ page }) => {
     await boot(page)
     // This is a card interaction check, not the integrated first-view fold check.
     // Expose the selected card at the rail's start, clear of the legacy dock.
@@ -262,7 +262,7 @@ for (const region of ["poster", "statistics", "border"] as const) {
   })
 }
 
-test("@curated dragging the hand across a card never commits or opens its video", async ({ page }) => {
+test("dragging the hand across a card never commits or opens its video", async ({ page }) => {
   await boot(page)
   const before = await state(page), r = (await page.locator(`${CARD} .ngchoice-title`).boundingBox())!
   await page.mouse.move(r.x + r.width / 2, r.y + r.height / 2)

@@ -49,7 +49,7 @@ const toEnd = async (page: Page, j: J) => {
 for (const [width, height, touch] of [[390, 844, true], [390, 631, true], [574, 760, false], [768, 1024, true]] as [number, number, boolean][]) {
   test.describe(`${width}x${height}, by ${touch ? "touch" : "mouse"}`, () => {
     test.use({ viewport: { width, height }, hasTouch: touch, isMobile: touch })
-    test(`@curated WINBAR1: under the column the win bar is away and the article runs to the bottom edge (${width}x${height})`, async ({ page }) => {
+    test(`WINBAR1: under the column the win bar is away and the article runs to the bottom edge (${width}x${height})`, async ({ page }) => {
       const j = journey(page)
       await boot(page, j)
       const m = await fold(page)
@@ -70,7 +70,7 @@ for (const [width, height, touch] of [[390, 844, true], [390, 631, true], [574, 
 
 test.describe("1440x900, by mouse (the control)", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
-  test("@curated WINBAR1: beside the index the win bar shows and the column is not cut (1440x900)", async ({ page }) => {
+  test("WINBAR1: beside the index the win bar shows and the column is not cut (1440x900)", async ({ page }) => {
     const j = journey(page)
     await boot(page, j)
     const m = await fold(page)
@@ -97,7 +97,7 @@ const figures = (page: Page) => page.evaluate(() => {
     at: a.nodes[a.currentPos]?.t }
 })
 
-test("@curated WINBAR1: a win bar that is away keeps today's number, and a resize that brings it back shows it", async ({ page }) => {
+test("WINBAR1: a win bar that is away keeps today's number, and a resize that brings it back shows it", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = journey(page)
   await j.boot("/")

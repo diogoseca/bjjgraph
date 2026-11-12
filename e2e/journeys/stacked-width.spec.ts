@@ -47,7 +47,7 @@ async function opened(page: Page, width: number) {
 }
 
 for (const width of [600, 768, 900, 1000]) {
-  test(`@curated U110 a: stacked at ${width}px, the card, the film and the tiles are one 496px box, centred`, async ({ page }) => {
+  test(`U110 a: stacked at ${width}px, the card, the film and the tiles are one 496px box, centred`, async ({ page }) => {
     const m = await opened(page, width)
     expect(m.layout, "under 1,024px the stage stacks").toBe("stacked")
     const [l, r] = m.film!
@@ -62,7 +62,7 @@ for (const width of [600, 768, 900, 1000]) {
   })
 }
 
-test("@curated U110 a: at 1,024px the columns begin and the cap ends", async ({ page }) => {
+test("U110 a: at 1,024px the columns begin and the cap ends", async ({ page }) => {
   const m = await opened(page, 1024)
   expect(m.layout, "side by side from 1,024px").toBe("side-by-side")
   expect(m.grid![1] - m.grid![0], "the grid is wider than the stacked cap").toBeGreaterThan(496)

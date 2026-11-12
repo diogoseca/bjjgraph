@@ -47,7 +47,7 @@ const answerOne = (page: any, i = 0) =>
     a.gradeRecall(key, card, true);
   }, i);
 
-test("locked below black; a black SCORE unlocks nothing; proving every unit to black mints the badge and auto-flips the toggle ON @curated", async ({
+test("locked below black; a black SCORE unlocks nothing; proving every unit to black mints the badge and auto-flips the toggle ON", async ({
   page,
 }) => {
   const j = journey(page);

@@ -92,7 +92,7 @@ const FIRST: Array<[string, { row?: string; fam?: string; sys?: RegExp }]> = [
 ];
 
 test.describe("search, 1440x900 by mouse and keys", () => {
-  test("@curated the row a person means is row 1, for his two examples and a spread of queries", async ({ page }) => {
+  test("the row a person means is row 1, for his two examples and a spread of queries", async ({ page }) => {
     await openSearch(page);
     let checked = 0;
     for (const [q, want] of FIRST) {
@@ -118,7 +118,7 @@ test.describe("search, 1440x900 by mouse and keys", () => {
     expect(setup, "…after every guillotine finish").toBeGreaterThan(lastGuillotine);
   });
 
-  test("@curated the seats open their own pages, pressed by mouse where they sit", async ({ page }) => {
+  test("the seats open their own pages, pressed by mouse where they sit", async ({ page }) => {
     const j = await openSearch(page);
     await search(page, "side control");
     const seat = (s: string) => `div:has(> [data-search-row="Positions/Side-Control"]) [data-seat-press="${s}"]`;

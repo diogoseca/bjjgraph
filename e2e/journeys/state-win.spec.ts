@@ -12,7 +12,7 @@ import { journey } from "../dsl"
  */
 
 for (const path of ["/Positions/Mount/Top", "/Transitions/Knee-Slice-Pass/Attacker"]) {
-  test(`@curated v1.253.0: the film's seat row prints the win bar's own number: ${path}`, async ({ page }) => {
+  test(`v1.253.0: the film's seat row prints the win bar's own number: ${path}`, async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 })
     const j = journey(page)
     await j.boot(path, { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", route => route.continue()) } })

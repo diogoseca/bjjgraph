@@ -46,7 +46,7 @@ const face = (page: any) => page.evaluate(() => {
 })
 
 for (const width of [1440, 390]) {
-  test(`@curated U47 d a landing asks with its question alone; Answer for Points shows today's card (${width})`, async ({ page }) => {
+  test(`U47 d a landing asks with its question alone; Answer for Points shows today's card (${width})`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     const j = journey(page)
     await j.boot('/', { seedRolls: coveredRolls })
@@ -105,7 +105,7 @@ for (const width of [1440, 390]) {
     expect((await state(page)).grades).toBe(1)
   })
 
-  test(`@curated U47 d tapping the question itself shows the card (${width})`, async ({ page }) => {
+  test(`U47 d tapping the question itself shows the card (${width})`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     const j = journey(page)
     await j.boot('/', { seedRolls: coveredRolls })
@@ -187,7 +187,7 @@ const secondTapOnAnswer = async (page: any, go: string, tap: (x: number, y: numb
 test.describe('touch', () => {
   test.use({ hasTouch: true })
   for (const gap of [180, 350]) {
-    test(`@curated U47 d a double tap on Answer for Points grades nothing (touch, ${gap} ms)`, async ({ page }) => {
+    test(`U47 d a double tap on Answer for Points grades nothing (touch, ${gap} ms)`, async ({ page }) => {
       await page.setViewportSize({ width: 390, height: 844 })
       const j = journey(page)
       await j.boot('/', { seedRolls: coveredRolls })
@@ -200,7 +200,7 @@ test.describe('touch', () => {
   }
 })
 
-test('@curated U47 d a double click on Answer for Points grades nothing (390 landing)', async ({ page }) => {
+test('U47 d a double click on Answer for Points grades nothing (390 landing)', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
   const j = journey(page)
   await j.boot('/', { seedRolls: coveredRolls })
@@ -211,7 +211,7 @@ test('@curated U47 d a double click on Answer for Points grades nothing (390 lan
   expect(await state(page), 'a double click on Answer for Points grades nothing').toMatchObject({ asking: false, grades: 0, takenUp: 1 })
 })
 
-test("@curated U47 d a double click on the catch's Answer for Points grades nothing (1440)", async ({ page }) => {
+test("U47 d a double click on the catch's Answer for Points grades nothing (1440)", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   await coveredCatch(page)
   await secondTapOnAnswer(page, '[data-landcard=defense] [data-land-ask-go]', (x, y) => page.mouse.click(x, y), 180)
@@ -220,7 +220,7 @@ test("@curated U47 d a double click on the catch's Answer for Points grades noth
 
 // U47 d review: only a wheel or touch scroll spares an asking question. Following an article link is
 // leaving the question for the article: it declines, with dev's beat and funnel mark.
-test('@curated U47 d following an article link declines an asking question, as on dev', async ({ page }) => {
+test('U47 d following an article link declines an asking question, as on dev', async ({ page }) => {
   const j = journey(page)
   await j.boot('/', { seedRolls: coveredRolls })
   await j.land('Mount Top')
@@ -244,7 +244,7 @@ test('@curated U47 d following an article link declines an asking question, as o
 // line and the link shares it. At 1cf59ba38 the link sat on the second line, at y 540.5-554.5, under the reader's
 // end at 541. Real questions: Mount Top (59 characters) and Twister Control Top (99).
 for (const [label, at] of [['short', 'Mount Top'], ['long', 'Twister Control Top']] as const) {
-  test(`@curated U52 b at 390x631 Answer for Points is on screen at arrival (${label} question)`, async ({ page }) => {
+  test(`U52 b at 390x631 Answer for Points is on screen at arrival (${label} question)`, async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 631 })
     const j = journey(page)
     await j.boot('/', { seedRolls: coveredRolls })
@@ -269,7 +269,7 @@ for (const [label, at] of [['short', 'Mount Top'], ['long', 'Twister Control Top
 // CDP touch drag over the article, then a take-up that must get its clock.
 test.describe('touch', () => {
   test.use({ hasTouch: true })
-  test('@curated U52 b a touch scroll over the article does not decline an asking question (390)', async ({ page }) => {
+  test('U52 b a touch scroll over the article does not decline an asking question (390)', async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 })
     const j = journey(page)
     await j.boot('/', { seedRolls: coveredRolls })
@@ -305,7 +305,7 @@ test.describe('touch', () => {
 
 // U52 b (a): after one take-up, later landings in this tab show the full card (NG_LAND_ASK_MEMORY "session",
 // `_landOptedIn`). The next landing comes through the app's own staging seam, as roll-execution's sweep restages.
-test('@curated U52 b after one take-up, later landings show the full card (1440)', async ({ page }) => {
+test('U52 b after one take-up, later landings show the full card (1440)', async ({ page }) => {
   const j = journey(page)
   await j.boot('/', { seedRolls: coveredRolls })
   await j.land('Mount Top')
@@ -324,7 +324,7 @@ test('@curated U52 b after one take-up, later landings show the full card (1440)
 // U52 b (b): a landing rendered while the pane is open (Study, Challenges, Last rolls) shows the full card. A study
 // arrow renders ANOTHER node's landing through renderLandCard, so this does too. APTS-R4 (5): when the next landing
 // asks, keyboard focus on the old card's deck arrow moves to Answer for Points instead of dropping to the page.
-test('@curated U52 b a landing rendered with the pane open shows the full card; focus survives the next asking landing (1440)', async ({ page }) => {
+test('U52 b a landing rendered with the pane open shows the full card; focus survives the next asking landing (1440)', async ({ page }) => {
   const j = journey(page)
   await j.boot('/', { seedRolls: coveredRolls })
   await j.land('Mount Top')
@@ -358,7 +358,7 @@ test('@curated U52 b a landing rendered with the pane open shows the full card; 
 // with the complete question restored on reveal. desktop-ask-fit-disabled now kills
 // this real-content desktop case as well as the three choices-band widths.
 for (const viewport of [{ width: 390, height: 844 }, { width: 1440, height: 900 }]) {
-  test(`@curated U47 d a long question is cut to two lines on a phone and one on desktop (${viewport.width}x${viewport.height})`, async ({ page }) => {
+  test(`U47 d a long question is cut to two lines on a phone and one on desktop (${viewport.width}x${viewport.height})`, async ({ page }) => {
     const measure = () => page.evaluate(() => {
       const el = (window as any).__neural._landEl, q = el.querySelector('[data-land-q]').firstElementChild
       const tx = el.querySelector('[data-land-ask-text]'), go = el.querySelector('[data-land-ask-go]')
@@ -396,7 +396,7 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 1440, height: 900 
 // need user scroll; their subtree, dimensions, untimed lifetime and real escape after
 // expiry remain guarded.
 for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }, { width: 390, height: 631 }]) {
-  test(`@curated U35 D-433 the asking question and Answer for Points need no scroll${viewport.width <= 640 ? ', nor do the answers' : ''}; native Moves stay untimed (${viewport.width}x${viewport.height})`, async ({ page }, info) => {
+  test(`U35 D-433 the asking question and Answer for Points need no scroll${viewport.width <= 640 ? ', nor do the answers' : ''}; native Moves stay untimed (${viewport.width}x${viewport.height})`, async ({ page }, info) => {
     await page.setViewportSize(viewport)
     const j = await coveredCatch(page)
     await watchQuestionScroll(page)
@@ -487,7 +487,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
   })
 }
 
-test('@curated U35 every question builder segregates technique media', async ({ page }) => {
+test('U35 every question builder segregates technique media', async ({ page }) => {
   const j = await coveredCatch(page)
   await expect(page.locator('.ng-landfilm .ng-clip')).toHaveCount(1)
   const builders = await page.evaluate(() => {
@@ -531,7 +531,7 @@ test('@curated U35 every question builder segregates technique media', async ({ 
   expect((await j.beats()).some(b => b.beat === 'caught')).toBe(true)
 })
 
-test('@curated U36 one active double beat then soft 30-second rhythm; reduced motion is static', async ({ page }) => {
+test('U36 one active double beat then soft 30-second rhythm; reduced motion is static', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'no-preference' })
   const j = await coveredCatch(page, true)
   const timing = await page.locator('.ng-vignette').evaluate(el => {

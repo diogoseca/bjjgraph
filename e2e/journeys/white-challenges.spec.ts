@@ -5,12 +5,13 @@ import { journey } from "../dsl";
 const whiteProgress = (page: any) =>
   page.evaluate(() => (window as any).__neural.challengeTrackProgress("white"));
 
-test.describe("White Challenges @curated", () => {
+test.describe("White Challenges", () => {
+  // @curated on the first test only: one quick test per surface (U147 a, v1.263.0). The rest run in e2e-full.
   // v1.104.0: the 3-panel first-roll coach is DELETED (owner). Its three White objectives were
   // not deleted with it — they were re-keyed to the actions they are NAMED for, so White stays at
   // 20 and the evidence got stricter: "Preview a move" now needs a move sheet actually opened,
   // where the coach ticked it for pressing Next on a tooltip.
-  test("the first roll feeds the permanent White Challenge cue — on real actions now", async ({
+  test("@curated the first roll feeds the permanent White Challenge cue — on real actions now", async ({
     page,
   }) => {
     const j = journey(page);
