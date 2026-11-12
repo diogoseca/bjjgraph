@@ -94,8 +94,10 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     for (const part of ["book", "map", "feedback", "film", "card", "hand"]) {
       await expect(page.locator(`[data-layer-hide="${part}"],[data-layer-show="${part}"]`), `no View control offers ${part}`).toBeHidden()
     }
-    // D-338: each part has its own ✕. U25 a moves the closed Videos label into Hidden sections;
-    // Questions/Moves retain their own labels. Neither closing nor reopening starts play.
+    // D-338: each part has its own ✕. Neither closing nor reopening starts play.
+    // WAS (U25 a, D-338): without the index the closed Videos label moved into Hidden sections and Questions/Moves kept their own
+    // labels, each reopening its part. NOW (U131 b2): none leaves a label; each leaves its message in its place, whose Undo reopens it.
+    const undo = { film: '[data-hidesec-notice="videos"] [data-hidesec-undo]', card: '[data-hidesec-notice="card"] [data-hidesec-undo]', hand: '[data-hidesec-notice="hand"] [data-hidesec-undo]' } as Record<string, string>
     const close = { film: '[data-film-close]', card: '[data-land-close]', hand: '[data-hand-close]' } as Record<string, string>
     const open = { film: '[data-section-toggle="videos"]', card: '[data-game-open="card"]', hand: '[data-game-open="hand"]' } as Record<string, string>
     // STALE SPEC (D-368, layout C): Moves lead the flow, so reopening a part can scroll the tray out of view, and the
@@ -112,7 +114,7 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
       await press(close[part], `close ${part}`)
       if (indexed) await expect(page.locator(row[part]), `a closed ${part} shows closed in the index`).toHaveAttribute("data-collapsed", "true")
       else if (part === "film") await expect(page.locator(open.film)).toHaveAttribute("aria-expanded", "false")
-      else await expect(page.locator(open[part]), `a closed ${part} leaves its label`).toBeVisible()
+      else { await expect(page.locator(open[part]), `a closed ${part} leaves no label`).toBeHidden(); await expect(page.locator(undo[part]), `but its message`).toBeVisible() }
       expect((await state(page)).deals, "closing never deals or starts play").toBe(0)
       if (indexed) {
         await j.clickByMouse(`${row[part]} a`, `reopen ${part} from the index`)
@@ -121,35 +123,30 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
         if (part !== "film") expect(await page.evaluate(part => { const a = (window as any).__neural, el = part === "card" ? a._landEl : a.optionsRef.current
           const b = el?.getBoundingClientRect(), v = a._reader.root.getBoundingClientRect(); return !!b && b.top >= v.top - 1 && b.top < v.bottom }, part), `the index row shows the reopened ${part}`).toBe(true)
       }
-      else {
-        if (part === 'film') {
-          // STALE SPEC (D-482): a rectangle under a closed disclosure is not a reachable control.
-          await expect(page.locator('.ng-reader-hidden')).not.toHaveAttribute('open', '')
-          await press('.ng-reader-hidden>summary', 'reveal the hidden Videos control')
-          await expect(page.locator('.ng-reader-hidden')).toHaveAttribute('open', '')
-        }
-        await press(open[part], `reopen ${part}`)
-      }
+      else await press(undo[part], `reopen ${part} from its message's Undo`)
       if (part === "film") await expect(page.locator(open.film)).toHaveAttribute("aria-expanded", "true")
       else { await expect(page.locator(open[part])).toBeHidden(); if (part === "hand") await tray(); await expect(page.locator(close[part]).first()).toBeVisible() }
       expect((await state(page)).deals, "reopening never deals or starts play").toBe(0)
     }
     await press(close.card, "close the question")
     await press(close.hand, "close the moves")
-    // Closed parts are saved: a reload keeps both closed (their labels, or their index rows) and still deals nothing.
+    // Closed parts are saved: a reload keeps both closed (their index rows; WAS also their labels, NOW nothing in the flow, U131 b2)
+    // and still deals nothing.
     await j.boot(KNEE, { preserveStorage: true })
     await j.advance(5000)
     await expect(page.locator(READY)).toBeVisible()
     for (const part of ["card", "hand"]) {
       if (indexed) await expect(page.locator(row[part])).toHaveAttribute("data-collapsed", "true")
-      else await expect(page.locator(open[part])).toBeVisible()
+      else { await expect(page.locator(open[part]), 'no label after the reload').toBeHidden(); await expect(page.locator(undo[part]), 'and no message: nothing was pressed').toHaveCount(0) }
     }
     expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, deals: 0 })
-    // The label (or the index link) is a real control: the keyboard reopens it too.
-    await page.locator(indexed ? `${row.card} a` : open.card).focus()
+    // The index link (WAS also the label; NOW, without the index, its Settings switch) is a real control: the keyboard reopens it too.
+    if (indexed) await page.locator(`${row.card} a`).focus()
+    else { await page.evaluate(() => (window as any).__neural.openSettings("rolling")); await page.locator('[data-layer-toggle="card"]').focus() }
     await page.keyboard.press("Enter")
+    if (!indexed) await page.keyboard.press("Escape")
     if (indexed) await expect(page.locator(row.card)).toHaveAttribute("data-collapsed", "false")
-    else await expect(page.locator(open.card)).toBeHidden()
+    else expect(await page.evaluate(() => (window as any).__neural.get("landCard", true)), "the keyboard brought it back").toBe(true)
     expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, deals: 0 })
   })
 }

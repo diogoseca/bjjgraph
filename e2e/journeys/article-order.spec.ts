@@ -239,16 +239,17 @@ for (const [path, seats] of [['/Positions/Mount', ['From the top', 'From the bot
 }
 
 // The names follow through every place that lists sections, and a saved choice survives them: settings are stored by type.
-test('@curated a saved closed section survives the new name, in the index, Settings and Hidden sections', async ({ page }) => {
+test('@curated a saved closed section survives the new name, in the index and Settings', async ({ page }) => {
   await page.setViewportSize({ width: 1024, height: 900 })
   await page.emulateMedia({ colorScheme: 'dark', reducedMotion: 'reduce' })
   const j = journey(page)
   await j.boot(SCB, { initialState: { v: 2, settings: { 'readerSection.overview': false }, settingsAt: {} }, beforeNavigate: async () => { await page.route('**/static/neural/content/*.json', r => r.continue()) } })
   await expect(page.locator(READY)).toBeVisible(); await j.readerLayoutSettled()
   expect(await page.locator('[data-section-toggle=overview]').getAttribute('aria-expanded'), 'the saved choice still closes it').toBe('false')
-  // 1024 has no index, so Hidden sections carries it. 1440 has one, and the index row does.
-  await expect(page.locator('.ng-reader-hidden>summary'), 'it is listed as hidden').toContainText('Hidden sections (1)')
-  await expect(page.locator('.ng-reader-hidden [data-section-toggle=overview] .ng-section-closed'), 'under its new name').toContainText('How it works')
+  // WAS (U25 a): at 1024, with no index, "Hidden sections (1)" listed it under its new name. NOW (U131 b2): a saved closed section leaves
+  // nothing in the flow (and no message: nothing was pressed here), so the index (1440) and Settings carry its new name.
+  await expect(page.locator('.ng-reader-hidden'), 'no Hidden sections fold').toBeHidden()
+  await expect(page.locator('[data-section-type=overview]'), 'nothing of it in the flow').toBeHidden()
   await page.setViewportSize({ width: 1440, height: 900 }); await j.readerLayoutSettled()
   const row = page.locator('.ng-reader-toc-row[data-toc-type=overview]')
   await expect(row, 'the index carries it under its new name').toHaveText('How it works')

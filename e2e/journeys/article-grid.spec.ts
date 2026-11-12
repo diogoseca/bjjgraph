@@ -112,25 +112,22 @@ for (const width of [1440, 390]) test(`@curated article grid ${width}px preserve
     await expect(page.locator('[data-reward-close]')).toBeHidden({ timeout: 15000 })
     await j.clickByMouse(selector)
     await expect(page.locator(selector)).toHaveAttribute('aria-expanded', 'false')
+    // WAS (U25 a, the owner's frames hidden-collapsed-390 and hidden-expanded-390): at 390 the three waited in "Hidden sections (3)",
+    // a 48px summary with no border or shadow and its arrow 6px after its text, opened to reopen each from its label.
+    // NOW (U131 b2, HIDESEC2): no fold; each closed section's message stands in its place, and at 390 its Undo reopens it here.
+    await expect(page.locator(`[data-hidesec-notice=${type}]`), `${type}: its message stands in its place`).toBeVisible()
+    if (width === 390) {
+      await j.clickByMouse(`[data-hidesec-notice=${type}] [data-hidesec-undo]`, `${type}'s Undo`)
+      await expect(page.locator(selector)).toHaveAttribute('aria-expanded', 'true')
+      await expect(page.locator(selector), 'Undo gives focus back to its close').toBeFocused()
+    }
   }
-  const summary = page.locator('.ng-reader-hidden>summary')
-  if (width === 390) {
-    await summary.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-    await expect(summary).toHaveText('Hidden sections (3)›')
-    const style = await summary.evaluate(el => { const s = getComputedStyle(el), [text, arrow] = [...el.children].map(e => e.getBoundingClientRect()); return { border: s.borderWidth, shadow: s.boxShadow, gap: arrow.left - text.right, height: el.getBoundingClientRect().height } })
-    expect(style.border).toBe('0px'); expect(style.shadow).toBe('none'); expect(style.gap).toBe(6); expect(style.height).toBeGreaterThanOrEqual(48)
-    await ownerFrame(page, 'hidden-collapsed-390')
-    await j.clickByMouse('.ng-reader-hidden>summary', 'open hidden sections')
-    await expect(page.locator('.ng-reader-hidden')).toHaveAttribute('open', '')
-    await page.locator(READY).evaluate(el => el.scrollTop = el.scrollHeight); await j.readerLayoutSettled()
-    await ownerFrame(page, 'hidden-expanded-390')
-  } else await expect(summary).toBeHidden()
-  for (const type of ['principles', 'prerequisites', 'mistakes']) {
-    const selector = width === 390 ? `[data-section-toggle=${type}]` : `[data-toc-type=${type}] a`
+  await expect(page.locator('.ng-reader-hidden'), 'no Hidden sections fold').toBeHidden()
+  if (width !== 390) for (const type of ['principles', 'prerequisites', 'mistakes']) {
+    const selector = `[data-toc-type=${type}] a`
     await page.locator(selector).scrollIntoViewIfNeeded(); await j.readerLayoutSettled(); await j.clickByMouse(selector)
     await expect(page.locator(`[data-section-toggle=${type}]`)).toHaveAttribute('aria-expanded', 'true')
     await expect(page.locator(`[data-section-toggle=${type}]`)).toBeFocused()
   }
-  await expect(summary).toBeHidden()
   expect(await page.locator('[data-reader-body]').textContent(), 'full source text and order return unchanged').toBe(original)
 })
