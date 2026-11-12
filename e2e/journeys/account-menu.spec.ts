@@ -15,7 +15,7 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *      Sign out; no import row (v1.262.0: guest practice joins at sign-in, guest-join.spec.ts). Sign out flips the badge.
  *   4. Rows open the real surfaces: the auth modal, Settings (U60 b; its Notifications tab is not drawn for an account whose
  *      training-day email is off while the email is not live, U139 a, notifications-tab.spec.ts), the merged Feedback form
- *      (U67 a), the legal modals, the Mastered list.
+ *      (U67 a), the legal boxes (LEGAL3: the page's own short version, read from /terms and /privacy; legal-pages.spec.ts owns them), the Mastered list.
  *   5. Esc closes the menu FIRST, then the drawer; an outside tap closes the menu too.
  *   6. On a 390x844 phone the badge and its menu sit in thumb reach and on screen; the main rows are
  *      44px targets, the small line's at least 24px.
@@ -152,8 +152,9 @@ test("rows open the real surfaces", async ({ page }) => {
   await via("[data-menu-settings]", "Settings")
   expect(await page.evaluate(() => (window as any).__neural._settingsTab), "plain Settings opens its first tab").toBe("flashcards"); await close()
   await via("[data-menu-feedback]", "Feedback"); await expect(page.locator("[data-feedback-title]")).toHaveText("Feedback"); await close()
-  await via("[data-menu-terms]", "Terms"); await expect(page.locator("body")).toContainText("Terms of Use"); await close()
-  await via("[data-menu-privacy]", "Privacy"); await expect(page.locator("body")).toContainText("Privacy Policy"); await close()
+  // LEGAL3 (v1.264.0): these showed the typed boxes' "Terms of Use" / "Privacy Policy"; the box now shows its page's own short version
+  await via("[data-menu-terms]", "Terms"); await expect(page.locator('.ng-legal[data-legal="terms"] [data-legal-short]')).not.toBeEmpty(); await close()
+  await via("[data-menu-privacy]", "Privacy"); await expect(page.locator('.ng-legal[data-legal="privacy"] [data-legal-short]')).not.toBeEmpty(); await close()
   await via("[data-menu-mastered]", "Mastered"); await expect(page.locator(".ng-modal")).toContainText("Mastered"); await close()
   await j.openAccountMenu()
   await expect(page.locator("[data-gh-chip]")).toHaveAttribute("href", "https://github.com/diogoseca/bjjgraph")

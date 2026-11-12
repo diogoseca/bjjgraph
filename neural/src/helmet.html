@@ -99,6 +99,32 @@
   .ngSignupCta:hover{background:rgba(110,140,255,.22);}
   /* the badge's menu, portaled to the root above the badge; the small line carries the secondary links */
   .ng-account-menu{position:absolute;right:0;bottom:calc(100% + 10px);width:236px;flex-direction:column;background:linear-gradient(180deg,rgba(26,30,52,.99),rgba(18,21,38,.99));border:1px solid rgba(130,150,190,.22);border-radius:14px;box-shadow:0 14px 44px rgba(0,0,0,.55);padding:5px;animation:ngCardIn .18s ease both;}
+  /* LEGAL3 (v1.264.0): the legal boxes (openLegal). Head, text, footer: the text scrolls between them, so "Extended version" and the
+     close stay on screen on any phone (390x631 pinned). Every rule names its element under .ng-legal, because Quartz styles bare
+     h2/p/ul/table site-wide (CLAUDE.md 6.1) and these come from the page's own article. */
+  .ng-legal{display:flex;flex-direction:column;max-height:min(calc(100dvh - 24px),820px);color:#9aa6bd;font-size:12.5px;line-height:1.6;}
+  .ng-legal[data-open]{height:min(calc(100dvh - 24px),820px);}
+  [data-legal-head]{display:flex;justify-content:space-between;padding:14px 8px 0 22px;}
+  [data-legal-head] h2{margin:8px 0 0;font-size:20px;color:#eef1f6;}
+  .ng-legal button{border:0;background:none;font:inherit;cursor:pointer;}
+  [data-legal-close]{flex:none;width:44px;height:44px;color:#8b97b0;font-size:22px!important;}
+  [data-legal-sub]{padding:0 22px;font-size:11.5px;color:#7e8aa8;}
+  [data-legal-body]{flex:1;min-height:0;overflow-y:auto;padding:14px 22px 16px;}
+  [data-legal-body] :is(p,li,td,th){color:inherit;font-size:inherit;line-height:inherit;}
+  [data-legal-body] :is(p,ul,ol,table,blockquote){margin:0 0 12px;}
+  [data-legal-body] strong{color:#c4cde0;}
+  [data-legal-body] a{color:#a9b8ff;}
+  [data-legal-short]>ul{list-style:none;padding:0;display:grid;gap:14px;}
+  [data-lead]{display:block;margin-bottom:5px;font-size:13px;color:#dbe2f0!important;}
+  [data-legal=terms] [data-legal-short]>ul>li:first-child{border:1px solid #e8746b4d;background:#e8746b12;border-radius:11px;padding:12px 14px;}
+  [data-legal-ext] :is(h2,h3){margin:18px 0 6px;font-size:14px;color:#dbe2f0;}
+  [data-legal-ext] table{display:block;overflow-x:auto;font-size:12px;}
+  [data-legal-ext] blockquote{padding-left:12px;border-left:2px solid #e8746b73;}
+  [data-legal-foot]{display:flex;padding:0 22px;border-top:1px solid #96aad224;}
+  [data-legal-foot][hidden]{display:none;}
+  [data-legal-more]{min-height:48px;color:#a9b8ff;font-weight:600!important;}
+  [data-legal-more] span{display:inline-block;transition:transform .15s;}
+  .ng-legal[data-open] [data-legal-more] span{transform:rotate(90deg);}
   .ng-menu-small{display:flex;flex-wrap:wrap;gap:0 12px;padding:6px 13px 7px;border-top:1px solid rgba(150,170,210,.1);margin-top:4px;}
   .ng-menu-small>*{min-height:30px;padding:0;border:0;background:none;cursor:pointer;font:600 11px/30px "Plus Jakarta Sans",sans-serif;color:#7e8aa3;text-decoration:none;}
   .ng-menu-small>*:hover{color:#cbd4e6;}
