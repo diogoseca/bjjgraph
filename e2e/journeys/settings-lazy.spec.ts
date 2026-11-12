@@ -75,9 +75,11 @@ for (const width of [1440, 390]) {
     try {
       await page.evaluate(() => { void (window as any).__neural.openSettings(); });
       await expect(page.locator('[data-settings-load="loading"]')).toBeVisible();
+      // LEGAL3 (v1.264.0): the box now reads its page (one fetch from here), so the snapshot waits for it to fill
+      await page.evaluate(() => { (window as any).__neural.openLegal('privacy'); });
+      await expect(page.locator('.ng-legal[data-legal="privacy"] [data-legal-short]')).not.toBeEmpty();
       const before = await page.evaluate(() => {
         const app = (window as any).__neural;
-        app.openLegal('privacy');
         return { html: app.modalCardRef.current.innerHTML, generation: app._modalGeneration };
       });
       expect(before.html).toMatch(/Privacy/i);

@@ -130,8 +130,12 @@ test("settings carries Terms · Privacy — the Learn More submenu that never wa
   await j.clickByMouse("[data-menu-settings]", "Settings, from the badge")
   await expect(page.locator("[data-settings-legal]"), "legal links in the first overlay").toBeVisible()
   await j.clickByMouse('[data-settings-legal] [data-legal="terms"]', "the Terms link")
-  await expect(page.locator("body")).toContainText("Terms of Use")
-  await expect(page.locator("body"), "the real terms, not a stub").toContainText("Safety first")
+  // LEGAL3 (v1.264.0): this found the typed box's "Terms of Use" and its "Safety first". The box now reads the Terms page itself:
+  // "the real terms, not a stub" is its title and opening, as the server sends them.
+  const served = await (await page.request.get("/terms")).text()
+  const title = /<h1 class="article-title">([^<]*)<\/h1>/.exec(served)![1]
+  await expect(page.locator('.ng-legal[data-legal="terms"] #ng-legal-h'), "the real terms, not a stub").toHaveText(title)
+  await expect(page.locator('.ng-legal[data-legal="terms"] [data-legal-short]')).not.toBeEmpty()
 })
 
 test("the drill pill is GONE on every form factor; the share cue renders only with a cue", async ({
@@ -233,7 +237,8 @@ test.describe("deliberate screens outrank ambient overlays", () => {
     // for the control to exist; the reachability claim itself is unchanged.
     await expect(page.locator('[data-settings-legal] [data-legal="terms"]'), "Settings has rendered").toBeVisible()
     await j.clickByMouse('[data-settings-legal] [data-legal="terms"]', "Terms inside Settings")
-    await expect(page.locator("body")).toContainText("Terms of Use")
+    // LEGAL3 (v1.264.0): the typed box's "Terms of Use" -> the Terms page's own box
+    await expect(page.locator('.ng-legal[data-legal="terms"] [data-legal-short]')).not.toBeEmpty()
     hit = await hitReport(page)
     expect(hit.inLandcard, "same rule under the Terms screen").toBe(false)
     expect(hit.inModal).toBe(true)
