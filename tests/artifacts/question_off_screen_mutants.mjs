@@ -41,7 +41,7 @@ const MUTANTS = [
     edit: t => once(t, /(_rch\(\)\{[^}]*?\.on)&&![\w$]+\.all/, "$1", "reach-ignores-view"),
     tests: [["the reading rule holds", "the reading rule: declined at once, free"]] },
   { name: "skip-counts-as-seen", file: "neural.js", why: "a frame that cannot see the card (no height) marks it as having been on screen (SHORT5)",
-    edit: t => once(t, /\|\|([\w$]+)\.skip\)return;/, ")return;", "skip-counts-as-seen"),
+    edit: t => once(t, /\|\|[\w$]+\.skip\)/, ")", "skip-counts-as-seen"), // either shape esbuild emits: `if(!(…||t.skip)){` or `if(…||t.skip)return;`
     tests: [["a frame that cannot see the card never counts it as seen", "a frame that cannot see the card never counts it as seen"]] },
   // RECORDED NON-KILL, not coverage (SHORT4, measured): the reader returns to the top synchronously at the start of `open()`, so no
   // judging frame falls between a new landing's mount and the reset in this harness, and the journey stays green without the guard.
