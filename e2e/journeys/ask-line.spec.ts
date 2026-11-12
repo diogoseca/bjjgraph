@@ -57,7 +57,7 @@ async function geometry(page: Page) {
 }
 
 for (const width of [1024, 1440, 1920]) {
-  test(`@curated VIDEO3 at ${width}px the collapsed question is one hint line inside the choices band`, async ({ page }) => {
+  test(`VIDEO3 at ${width}px the collapsed question is one hint line inside the choices band`, async ({ page }) => {
     const j = await boot(page, width), g = await geometry(page)
     await test.info().attach("collapsed-question", { body: JSON.stringify(g), contentType: "application/json" })
     expect(g.lines, "VIDEO3 the collapsed question and Answer for Points occupy one line").toHaveLength(1)
@@ -199,7 +199,7 @@ test(`VIDEO3 at ${width}x${height} with the film closed the first tile's close k
   await expect(page.locator(GO), "and does not take the question up").toHaveCount(1)
 })
 
-test("@curated VIDEO3 resize and reveal restore the choices row's original padding", async ({ page }) => {
+test("VIDEO3 resize and reveal restore the choices row's original padding", async ({ page }) => {
   const j = await boot(page, 900)
   const padding = () => page.evaluate(() => getComputedStyle((window as any).__neural.optionsRef.current).paddingBottom)
   const original = await padding()

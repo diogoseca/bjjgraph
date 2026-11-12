@@ -58,7 +58,7 @@ async function ownerFrame(page: Page, name: string) {
   writeFileSync(join(out, name + '.json'), JSON.stringify({ name, legend: await page.locator('[data-legend-win]').textContent(), styles }, null, 2) + '\n')
 }
 
-for (const width of [1440, 390]) test(`@curated article grid ${width}px preserves content, packing and hidden-section controls`, async ({ page }) => {
+for (const width of [1440, 390]) test(`article grid ${width}px preserves content, packing and hidden-section controls`, async ({ page }) => {
   await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
   await page.emulateMedia({ colorScheme: 'dark', reducedMotion: 'reduce' })
   const j = journey(page)

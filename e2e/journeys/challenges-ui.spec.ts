@@ -29,7 +29,7 @@ async function earnedTracks(page: any) {
   });
 }
 
-test.describe("Challenges UI @curated", () => {
+test.describe("Challenges UI", () => {
   test("earned content tracks and lessons open while capstones still require evidence", async ({
     page,
   }) => {

@@ -1,0 +1,405 @@
+{
+  "note": "THE DEPLOY GATE, ONE ROW PER @curated TEST (v1.263.0, GATE5; the owner's U147 a, 12 Nov 2026: \"only what a deploy can break, plus one quick test per surface\"). Tier D: the deploy build differs here (the keyed Supabase and PostHog config, the affiliate stamp, the checkout's own history, the static shells crawlers read). Tier S: one smoke per surface on the exact merged tree. Every other journey runs in e2e-full.yml's core shards on every PR and every push to dev; a promotion takes only a commit whose push-run e2e-full is green. Until v1.263.0 the tag meant 'a fast representative sample' and grew from 427 tests (1 Oct) to 914 (12 Nov), 33.6 to 36.8 min of a 45-min step timeout; this trim kept 56 and untagged 858, each of which still runs unchanged in e2e-full (the GATE1 plan, reports/gatetime.md outside the repo, has the per-file keep table). TO ADD A TEST to the gate, tag it AND add its row: file (relative to e2e/journeys), Playwright's full title as the list reporter prints it (describe › test), tier, the reason a deploy can break it and a PR run cannot see it, and ci_s null until a deploy measures it (it counts at the measured rows' p90 meanwhile). Checked by tests/deploy_gate.test.mjs in test:units (tag sites against rows, the budget in deploy_gate_budget.json) and by `node scripts/deploy_gate.mjs check --listed` in e2e-full's build job (Playwright's own selection, title for title). Seconds move only by hand: `node scripts/deploy_gate.mjs refresh --log <gate log> --run <id>`.",
+  "measured": {
+    "run": 43210168114,
+    "workflow": "deploy-dev.yaml",
+    "sha": "fa41f1523",
+    "version": "1.262.9",
+    "gate": "914 passed (33.6m), step 33:40",
+    "runner": "slow: 0.95 of run 43196894885 (35.2 min), test by test"
+  },
+  "tests": [
+    {
+      "file": "article-sections.spec.ts",
+      "title": "@curated semantic sections preserve every published source block: /Positions/Mount",
+      "tier": "S",
+      "reason": "smoke, an article renders its sections (/Positions/Mount)",
+      "ci_s": 0.624
+    },
+    {
+      "file": "auth-owner.spec.ts",
+      "title": "@curated a signed-out guest on a keyed config never creates an SDK client",
+      "tier": "D",
+      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "ci_s": 0.438
+    },
+    {
+      "file": "auth-owner.spec.ts",
+      "title": "@curated a guest meeting a cached v1 facade boots the app, never the hold screen",
+      "tier": "D",
+      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "ci_s": 0.424
+    },
+    {
+      "file": "auth-owner.spec.ts",
+      "title": "@curated guest boots through the real facade and persists only a guest-owned cache",
+      "tier": "D",
+      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "ci_s": 0.45
+    },
+    {
+      "file": "auth-owner.spec.ts",
+      "title": "@curated A to B to signout: each account keeps its own lists, both receive the guest practice, neither the other's",
+      "tier": "D",
+      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "ci_s": 4.3
+    },
+    {
+      "file": "auth-owner.spec.ts",
+      "title": "@curated same-account SDK refresh preserves the real mounted hand and options",
+      "tier": "D",
+      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "ci_s": 1.5
+    },
+    {
+      "file": "auth-owner.spec.ts",
+      "title": "@curated failed real-facade pull blocks upload until a successful account-pinned read",
+      "tier": "D",
+      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "ci_s": 2.1
+    },
+    {
+      "file": "auth-owner.spec.ts",
+      "title": "@curated real identity-read failure keeps recovery visible and progress untouched until successful Retry",
+      "tier": "D",
+      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "ci_s": 0.835
+    },
+    {
+      "file": "auth-owner.spec.ts",
+      "title": "@curated local-only: an unreachable SDK plays on this device, pushes nothing, and merges before the first push",
+      "tier": "D",
+      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "ci_s": 4.2
+    },
+    {
+      "file": "auth-owner.spec.ts",
+      "title": "@curated local-only D3: a failed session check plays on this device and merges before the first push",
+      "tier": "D",
+      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "ci_s": 4.2
+    },
+    {
+      "file": "auth-redirect-back.spec.ts",
+      "title": "@curated a redirect-back arrival creates the Supabase client and a plain arrival does not",
+      "tier": "D",
+      "reason": "the keyed redirect-back direction: no PR build emits window.__SUPABASE_URL, so only a deploy runs the code that finishes a Google sign-in",
+      "ci_s": 4.3
+    },
+    {
+      "file": "auth-redirect-back.spec.ts",
+      "title": "@curated all three redirect-back shapes are recognised, not just ?code=",
+      "tier": "D",
+      "reason": "the keyed redirect-back direction: no PR build emits window.__SUPABASE_URL, so only a deploy runs the code that finishes a Google sign-in",
+      "ci_s": 8.6
+    },
+    {
+      "file": "auth-redirect-back.spec.ts",
+      "title": "@curated two callers inside the SDK-loading window still create ONE client, on every shape",
+      "tier": "D",
+      "reason": "the keyed redirect-back direction: no PR build emits window.__SUPABASE_URL, so only a deploy runs the code that finishes a Google sign-in",
+      "ci_s": 6.5
+    },
+    {
+      "file": "auth-redirect-back.spec.ts",
+      "title": "@curated a failed SDK load leaves no stale client promise: the next call retries and creates exactly one",
+      "tier": "D",
+      "reason": "the keyed redirect-back direction: no PR build emits window.__SUPABASE_URL, so only a deploy runs the code that finishes a Google sign-in",
+      "ci_s": 3.2
+    },
+    {
+      "file": "auth-redirect-back.spec.ts",
+      "title": "@curated an already-signed-in visitor still gets a client with no neural bundle",
+      "tier": "D",
+      "reason": "the keyed redirect-back direction: no PR build emits window.__SUPABASE_URL, so only a deploy runs the code that finishes a Google sign-in",
+      "ci_s": 2.1
+    },
+    {
+      "file": "bundle-version.spec.ts",
+      "title": "@curated the loader requests the bundle under the deploy's build stamp, never the fixed URL",
+      "tier": "D",
+      "reason": "the bundle loads under the deploy's own build stamp",
+      "ci_s": 1.1
+    },
+    {
+      "file": "bundle-version.spec.ts",
+      "title": "@curated the app's deferred reference sheet is keyed on the bundle's own version",
+      "tier": "D",
+      "reason": "the bundle loads under the deploy's own build stamp",
+      "ci_s": 1.7
+    },
+    {
+      "file": "category-nav.spec.ts",
+      "title": "@curated the category nav is emitted, sits outside <article>, and lays out at desktop",
+      "tier": "D",
+      "reason": "the static nav no SEO gate reads (CLAUDE.md 6.8), as this build emits it",
+      "ci_s": 1.1
+    },
+    {
+      "file": "category-nav.spec.ts",
+      "title": "@curated the nav carries all six categories, in order, and they are the page's out-of-article link scaffold",
+      "tier": "D",
+      "reason": "the static nav no SEO gate reads (CLAUDE.md 6.8), as this build emits it",
+      "ci_s": 0.994
+    },
+    {
+      "file": "category-nav.spec.ts",
+      "title": "@curated every category link resolves from the depth it is rendered at",
+      "tier": "D",
+      "reason": "the static nav no SEO gate reads (CLAUDE.md 6.8), as this build emits it",
+      "ci_s": 1.1
+    },
+    {
+      "file": "challenges-engine.spec.ts",
+      "title": "Challenge engine › @curated cloud merge uses MAX, OR, and UNION without dropping local proof",
+      "tier": "D",
+      "reason": "cloud merge and first pull through the real facade on the keyed config: no account loses progress",
+      "ci_s": 0.917
+    },
+    {
+      "file": "challenges-engine.spec.ts",
+      "title": "Challenge engine › @curated a fresh device pulls collectibles before its first cloud push",
+      "tier": "D",
+      "reason": "cloud merge and first pull through the real facade on the keyed config: no account loses progress",
+      "ci_s": 1.0
+    },
+    {
+      "file": "challenges-engine.spec.ts",
+      "title": "Challenge engine › @curated cloud-only mastery evidence recomputes snapshot challenges before push",
+      "tier": "D",
+      "reason": "cloud merge and first pull through the real facade on the keyed config: no account loses progress",
+      "ci_s": 0.989
+    },
+    {
+      "file": "console-clean.spec.ts",
+      "title": "@curated a client-side navigation leaves no broken URL, console error or CSP violation",
+      "tier": "D",
+      "reason": "CSP and broken URLs with the keyed PostHog loader in the page",
+      "ci_s": 1.6
+    },
+    {
+      "file": "feedback-modal.spec.ts",
+      "title": "both feedback events carry signed_in true after the session user is applied @curated",
+      "tier": "D",
+      "reason": "feedback events carry signed_in after a sign-in on the keyed config",
+      "ci_s": 2.5
+    },
+    {
+      "file": "film-overlay-play.spec.ts",
+      "title": "@curated FILMFIX the film's overlay covers the video and its triangle stays centred, by mouse (390x844, 2 clips)",
+      "tier": "S",
+      "reason": "smoke, a film plays (390x844)",
+      "ci_s": 1.7
+    },
+    {
+      "file": "footer-feedback.spec.ts",
+      "title": "one Feedback row is reachable on every tab, and both kinds reach PostHog @curated",
+      "tier": "D",
+      "reason": "feedback reaches PostHog on the keyed build",
+      "ci_s": 3.1
+    },
+    {
+      "file": "game-value-live.spec.ts",
+      "title": "@curated real MDP values reach the first playable hand at 390px",
+      "tier": "S",
+      "reason": "smoke, real win values reach the first hand (390px)",
+      "ci_s": 12.5
+    },
+    {
+      "file": "golden-path.spec.ts",
+      "title": "golden path: land → read → drill → pick → hit @curated",
+      "tier": "S",
+      "reason": "smoke, a move: land, read, drill, pick, hit",
+      "ci_s": 1.6
+    },
+    {
+      "file": "hidden-moves.spec.ts",
+      "title": "@curated Yes files the move as mastered: gold in every row, kept across a reload, and never a play",
+      "tier": "S",
+      "reason": "smoke, a save: a Yes is kept across a reload",
+      "ci_s": 4.2
+    },
+    {
+      "file": "landing-priority.spec.ts",
+      "title": "the landing shows film, then the question — in that order @curated",
+      "tier": "S",
+      "reason": "smoke, the first landing: film, then the question",
+      "ci_s": 1.2
+    },
+    {
+      "file": "legacy-gone.spec.ts",
+      "title": "@curated legacy surface is gone AND the __bjjAuth seam still works on the default variant",
+      "tier": "D",
+      "reason": "the app owns the screen and window.__bjjAuth still installs on the deployed build (CLAUDE.md 6.8: looks deletable, is not)",
+      "ci_s": 0.982
+    },
+    {
+      "file": "legacy-gone.spec.ts",
+      "title": "@curated the Neural app still boots and owns the screen after the excision",
+      "tier": "D",
+      "reason": "the app owns the screen and window.__bjjAuth still installs on the deployed build (CLAUDE.md 6.8: looks deletable, is not)",
+      "ci_s": 0.517
+    },
+    {
+      "file": "legacy-gone.spec.ts",
+      "title": "@curated ?variant=legacy no longer resurrects the deleted UI",
+      "tier": "D",
+      "reason": "the app owns the screen and window.__bjjAuth still installs on the deployed build (CLAUDE.md 6.8: looks deletable, is not)",
+      "ci_s": 0.876
+    },
+    {
+      "file": "notifications-tab.spec.ts",
+      "title": "U139 a: signed in with the email off, Settings has no Notifications tab and nothing is written @curated",
+      "tier": "D",
+      "reason": "signed-in Settings on the keyed config; CURATED36 chose these two for the deploy",
+      "ci_s": 2.5
+    },
+    {
+      "file": "notifications-tab.spec.ts",
+      "title": "U139 a: an account with the email stored on keeps the tab and row to turn it off, and Off hides them from the next opening @curated",
+      "tier": "D",
+      "reason": "signed-in Settings on the keyed config; CURATED36 chose these two for the deploy",
+      "ci_s": 2.5
+    },
+    {
+      "file": "path-visit-telemetry.spec.ts",
+      "title": "Path telemetry: fresh preference counts only visible visits @curated",
+      "tier": "D",
+      "reason": "the real PostHog queue on a keyed build: the keyed-only red of 4 Nov",
+      "ci_s": 1.5
+    },
+    {
+      "file": "path-visit-telemetry.spec.ts",
+      "title": "Path telemetry: saved preference counts only visible visits @curated",
+      "tier": "D",
+      "reason": "the real PostHog queue on a keyed build: the keyed-only red of 4 Nov",
+      "ci_s": 1.4
+    },
+    {
+      "file": "payload-first-hand.spec.ts",
+      "title": "@curated a first-time visitor reaches a playable hand inside the payload budget",
+      "tier": "D",
+      "reason": "the first-hand byte budget on the keyed postscript.js, which only deploys carry",
+      "ci_s": 8.3
+    },
+    {
+      "file": "practice-page.spec.ts",
+      "title": "P1-A: 390×844 warm new opens on an operable question @curated",
+      "tier": "S",
+      "reason": "smoke, Practice opens on a question (390x844)",
+      "ci_s": 1.4
+    },
+    {
+      "file": "published-time.spec.ts",
+      "title": "@curated publication provenance survives clones and worktrees in the real renderer",
+      "tier": "D",
+      "reason": "publication provenance in the real renderer, on the deploy's own checkout",
+      "ci_s": 1.7
+    },
+    {
+      "file": "published-time.spec.ts",
+      "title": "@curated publication AND modification dates retain corpus-wide temporal spread",
+      "tier": "D",
+      "reason": "dates from the deploy's own checkout: a shallow checkout would collapse every date, and only this test's spread check sees it",
+      "ci_s": 30.6
+    },
+    {
+      "file": "reading-media-placement.spec.ts",
+      "title": "@curated published reference videos remain playable without a seat: /Systems/Danaher-Pin-Escape-Fundamentals-System 1440px (video fixture) (native card moves)",
+      "tier": "S",
+      "reason": "smoke, a Systems page from the stamped build plays its reference video (1440px)",
+      "ci_s": 1.4
+    },
+    {
+      "file": "restart-hygiene.spec.ts",
+      "title": "restart mid-defense: no ghost tap, no ladder drop, defense state fully disarmed @curated",
+      "tier": "S",
+      "reason": "smoke, a catch, then a restart",
+      "ci_s": 2.3
+    },
+    {
+      "file": "roll-execution.spec.ts",
+      "title": "@curated submission entry retains its printed odds and reaches Finish without a resolution draw",
+      "tier": "S",
+      "reason": "smoke, a finish reaches the end of the roll",
+      "ci_s": 2.5
+    },
+    {
+      "file": "search-rank.spec.ts",
+      "title": "search, 390x844 by touch › @curated Side Control is row 1 with its name on one line, and its Top press opens the top seat",
+      "tier": "S",
+      "reason": "smoke, search finds a position, by touch (390x844)",
+      "ci_s": 1.2
+    },
+    {
+      "file": "settings-lazy.spec.ts",
+      "title": "@curated Settings imports only on intent and a late module cannot reopen Close at 1440px",
+      "tier": "S",
+      "reason": "smoke, Settings loads its own chunk (1440px)",
+      "ci_s": 1.0
+    },
+    {
+      "file": "share-lists.spec.ts",
+      "title": "a student opens the WhatsApp link with NO Function deployed and the graph lights up @curated",
+      "tier": "D",
+      "reason": "the /l share shell with no Function deployed, as this build emits it",
+      "ci_s": 2.2
+    },
+    {
+      "file": "share-lists.spec.ts",
+      "title": "/l leaks into NOTHING a crawler reads: not the sitemap, not llms.txt, not the index @curated",
+      "tier": "D",
+      "reason": "/l in nothing a crawler reads (sitemap, llms.txt, the index) of the stamped build",
+      "ci_s": 0.311
+    },
+    {
+      "file": "sidebar.spec.ts",
+      "title": "the drawer lists Search, Explore, Practice, Path, your lists and Last rolls, in that order @curated",
+      "tier": "S",
+      "reason": "smoke, the drawer lists its views in order",
+      "ci_s": 0.893
+    },
+    {
+      "file": "signin-intent.spec.ts",
+      "title": "@curated v1.255.2: Continue with Google writes the sign-in intent its SIGNED_IN will count (1440, by mouse)",
+      "tier": "D",
+      "reason": "the sign-in intent its SIGNED_IN counts, on keyed auth plus analytics",
+      "ci_s": 1.1
+    },
+    {
+      "file": "signin-intent.spec.ts",
+      "title": "@curated v1.255.2: Log in with an email writes the sign-in intent (1440, by mouse)",
+      "tier": "D",
+      "reason": "the sign-in intent its SIGNED_IN counts, on keyed auth plus analytics",
+      "ci_s": 1.0
+    },
+    {
+      "file": "signin-intent.spec.ts",
+      "title": "@curated v1.255.2: a sign-in attempt that fails in place leaves no intent, email or Google (1440, by mouse)",
+      "tier": "D",
+      "reason": "the sign-in intent its SIGNED_IN counts, on keyed auth plus analytics",
+      "ci_s": 1.1
+    },
+    {
+      "file": "static-article-layout.spec.ts",
+      "title": "@curated the static article fills its shell with JS disabled (desktop)",
+      "tier": "D",
+      "reason": "the no-JS article that crawlers and failed bundles get, as this build emits it",
+      "ci_s": 0.519
+    },
+    {
+      "file": "url-arrival.spec.ts",
+      "title": "@curated a role page sets the board on THAT side, paused, and starts no roll",
+      "tier": "S",
+      "reason": "smoke, a deep link to a role page (every search arrival)",
+      "ci_s": 0.859
+    },
+    {
+      "file": "white-challenges.spec.ts",
+      "title": "White Challenges › @curated the first roll feeds the permanent White Challenge cue — on real actions now",
+      "tier": "S",
+      "reason": "smoke, Challenges count a roll",
+      "ci_s": 1.7
+    }
+  ]
+}

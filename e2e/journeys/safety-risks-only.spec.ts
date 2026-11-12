@@ -69,7 +69,7 @@ for (const [path, hub] of [
   ["/Submissions/Americana/from-Side-Control", "/Submissions/Americana/from-Side-Control"],
   ["/Submissions/Americana", "/Submissions/Americana"],
 ] as const) {
-  test(`@curated U111, U112 a: a submission's guide is its injury risks, then one closing line, on the page and in the reader: ${path}`, async ({ page }) => {
+  test(`U111, U112 a: a submission's guide is its injury risks, then one closing line, on the page and in the reader: ${path}`, async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 })
     const m = await read(page, path, hub)
     expect(m.builtRows.length, "control: the built hub has an injury table").toBeGreaterThan(2)
@@ -88,7 +88,7 @@ for (const [path, hub] of [
   })
 }
 
-test("@curated U111: a transition keeps its whole guide and gets no closing line", async ({ page }) => {
+test("U111: a transition keeps its whole guide and gets no closing line", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const path = "/Transitions/Knee-Slice-Pass/Attacker"
   const m = await read(page, path, path) // a transition's guide is on its seat's own page
@@ -101,7 +101,7 @@ test("@curated U111: a transition keeps its whole guide and gets no closing line
 
 // No position page authors a safety section today (0 of the corpus), so the position case is a fixture: Mount Top's own page with one
 // authored section, read by the reader's real code. It pins the label, not the corpus.
-test("@curated U113 b: a position's safety section keeps \"Safety guides\", tile and index", async ({ page }) => {
+test("U113 b: a position's safety section keeps \"Safety guides\", tile and index", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const path = "/Positions/Mount/Top"
   const j = journey(page)

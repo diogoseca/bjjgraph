@@ -42,7 +42,7 @@ const setup = async (page: Page) => {
 };
 
 for (const width of [1440, 390]) {
-  test(`Learning is complete, expandable, and readable at ${width}px @curated`, async ({ page }) => {
+  test(`Learning is complete, expandable, and readable at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     const errors: string[] = [];
     page.on("pageerror", e => errors.push(e.message));
@@ -107,7 +107,7 @@ for (const width of [1440, 390]) {
   });
 }
 
-test("Learning explains a failed load and retries the complete article @curated", async ({ page }) => {
+test("Learning explains a failed load and retries the complete article", async ({ page }) => {
   const j = await setup(page);
   let serve = false;
   let requests = 0;
@@ -188,7 +188,7 @@ test("Learning escapes new reading fields and rejects executable source URLs", a
   expect(await page.evaluate(() => (window as any).learningUnsafe)).toBeUndefined();
 });
 
-test("all 26 authored Learning articles are reachable with complete bodies @curated", async ({ page }) => {
+test("all 26 authored Learning articles are reachable with complete bodies", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await page.route("**/static/neural/content/*.json", r => {

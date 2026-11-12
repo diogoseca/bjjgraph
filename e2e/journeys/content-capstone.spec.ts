@@ -105,7 +105,7 @@ async function playToTap(j: any, page: any, maxMoves = 8): Promise<boolean> {
   return false;
 }
 
-test.describe("Content capstones @curated", () => {
+test.describe("Content capstones", () => {
   test("capstones require their own checkpoint evidence, never a previous track", async ({
     page,
   }) => {

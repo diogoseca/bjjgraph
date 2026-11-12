@@ -76,7 +76,7 @@ const tiles = (page: Page) => page.evaluate(() => {
       return { type: c.dataset.sectionType!, title: c.querySelector('.ng-section-title')?.textContent, text: (c.querySelector('.ng-section-body') as HTMLElement).innerText.replace(/\s+/g, ' ').trim(), width: b.width, beta: s?.content === '"Beta"' } }) }
 })
 
-test('@curated a position reads in the owner\'s order, with a tile for each relation and for the definition', async ({ page }) => {
+test('a position reads in the owner\'s order, with a tile for each relation and for the definition', async ({ page }) => {
   await boot(page, 1440, 900)
   const d = await tiles(page), kinds = [...new Set(d.open.map(t => t.type))]
   expect(kinds).toEqual(['aka', 'confused', 'definition', 'principles', 'options', 'mistakes', 'statistics', 'overview', 'prerequisites', 'training', 'related'])
@@ -101,7 +101,7 @@ test('@curated a position reads in the owner\'s order, with a tile for each rela
 // Rewritten from "several short tiles that keep every sentence" by U101 b and U102 a: one section, one name, and the same words.
 // Every position role page was swept once at v1.251.0: 266 of 266 equal to the source, 0 with a block that is not a paragraph.
 for (const path of [SCB, '/Positions/Rubber-Guard/New-York/Bottom']) {
-  test(`@curated ${path}: one tile named How it works, a short opening, one index row, and every word of the source`, async ({ page }) => {
+  test(`${path}: one tile named How it works, a short opening, one index row, and every word of the source`, async ({ page }) => {
     await boot(page, 1440, 900, path)
     const d = await tiles(page), section = d.open.filter(t => t.type === 'overview')
     expect(section.map(t => t.title), 'one section, one name').toEqual(['How it works'])
@@ -124,7 +124,7 @@ for (const path of [SCB, '/Positions/Rubber-Guard/New-York/Bottom']) {
 // U103 a (owner, 2026-11-06): a bare hub too, on both text sections, and its role links stay above them. Every position page was swept
 // once at v1.251.1 through the app's own reader: 266 role pages with 1 Read more, 133 hubs with 2, and the 8 lowercase-path role pages with 1.
 for (const path of ['/Positions/Mount', '/Positions/Side-Control']) {
-  test(`@curated U103 a ${path}: a hub opens short on both text sections, and every word of both sources stays`, async ({ page }) => {
+  test(`U103 a ${path}: a hub opens short on both text sections, and every word of both sources stays`, async ({ page }) => {
     await boot(page, 1440, 900, path)
     const d = await page.evaluate(async path => {
       const t = (window as any).__neural._reader.body.querySelector('[data-section-type=overview]'), squeeze = (s: string) => s.replace(/\s+/g, '')
@@ -154,7 +154,7 @@ for (const path of ['/Positions/Mount', '/Positions/Side-Control']) {
 // head is invented: "Training 2" is the "1, 2, or 3 overviews" of his U96 note. Every seat page with the section was swept once at
 // v1.251.1 through the app's own reader: 2,598 of 2,598 with one tile a phase, one head, one index row and the source's text, in order.
 for (const [path, phases] of [['/Transitions/Knee-Slice-Pass/Attacker', 6], ['/Submissions/Armbar/from-Mount/Attacker', 4]] as const) {
-  test(`@curated U100 a ${path}: each phase of Training is its own tile, with every word of the source and no invented head`, async ({ page }) => {
+  test(`U100 a ${path}: each phase of Training is its own tile, with every word of the source and no invented head`, async ({ page }) => {
     await boot(page, 1440, 900, path)
     const d = await page.evaluate(async path => {
       const r = (window as any).__neural._reader, squeeze = (s: string) => s.replace(/\s+/g, ''), all = [...r.body.children] as HTMLElement[]
@@ -180,7 +180,7 @@ for (const [path, phases] of [['/Transitions/Knee-Slice-Pass/Attacker', 6], ['/S
 // "Transitions and Submissions only": it measured worse on a position, and a Principle's practice is not phases. Microing has three
 // paragraphs there, so the broad split reaches it. No Learning page can show this: 0 of 26 hold a paragraph the split would take.
 for (const [path, claim] of [['/Positions/Mount/Top', 'a position'], ['/Principles/Microing', 'a Principle']] as const) {
-  test(`@curated U100 a ${claim} keeps its Training whole`, async ({ page }) => {
+  test(`U100 a ${claim} keeps its Training whole`, async ({ page }) => {
     await boot(page, 1440, 900, path)
     expect((await tiles(page)).open.filter(t => t.type === 'training').length, 'one tile').toBe(1)
   })
@@ -192,7 +192,7 @@ for (const [path, claim] of [['/Positions/Mount/Top', 'a position'], ['/Principl
 // seats); after, 1 on every page, with section order, index rows and words unchanged. hub-heading-injected, provenance-every-part.
 for (const [path, said] of [['/Positions/Mount', ['For both sides', 'Top perspective']], ['/Transitions/Knee-Slice-Pass', ['For both sides', 'Attacker perspective']],
   ['/Submissions/Armbar/from-Mount', ['For both sides', 'Attacker perspective']], ['/Systems/10th-Planet-Half-Guard-Bottom-System', []], ['/Learning/Double-Down-on-Strengths', []]] as const) {
-  test(`@curated ${path}: How it works says its name once, and each page's provenance once`, async ({ page }) => {
+  test(`${path}: How it works says its name once, and each page's provenance once`, async ({ page }) => {
     await boot(page, 1440, 900, path)
     const d = await page.evaluate(() => {
       const t = document.querySelector('[data-reader-body]>[data-section-type=overview]')!, vis = (e: Element) => e.getClientRects().length > 0
@@ -208,7 +208,7 @@ for (const [path, said] of [['/Positions/Mount', ['For both sides', 'Top perspec
 // #overview, typed or shared. No page links to it (0 hrefs in the build), so a URL is the only way in, and the injected heading carried
 // the same id. Both arms land on the section, measured on 7 pages at 1440 and 390. anchor-lost.
 for (const path of ['/Positions/Mount', '/Positions/Mount/Top']) {
-  test(`@curated ${path}#overview lands on its section`, async ({ page }) => {
+  test(`${path}#overview lands on its section`, async ({ page }) => {
     await boot(page, 1440, 900, path + '#overview')
     await expect.poll(() => page.evaluate(() => (window as any).__neural._reader.root.scrollTop), { message: 'the reader goes to it' }).toBeGreaterThan(500)
     await page.waitForTimeout(400)
@@ -225,7 +225,7 @@ for (const path of ['/Positions/Mount', '/Positions/Mount/Top']) {
 
 // The names a reader sees on a hub. The prose may use the word; a label may not.
 for (const [path, seats] of [['/Positions/Mount', ['From the top', 'From the bottom']], ['/Transitions/Knee-Slice-Pass', ['As the attacker', 'As the defender']]] as const) {
-  test(`@curated ${path}: the seats take their new names, and no label says overview`, async ({ page }) => {
+  test(`${path}: the seats take their new names, and no label says overview`, async ({ page }) => {
     await boot(page, 1440, 900, path)
     const d = await page.evaluate(() => { const r = (window as any).__neural._reader; return {
       titles: [...r.body.querySelectorAll('.ng-section-title')].map((e: any) => e.textContent),
@@ -239,7 +239,7 @@ for (const [path, seats] of [['/Positions/Mount', ['From the top', 'From the bot
 }
 
 // The names follow through every place that lists sections, and a saved choice survives them: settings are stored by type.
-test('@curated a saved closed section survives the new name, in the index and Settings', async ({ page }) => {
+test('a saved closed section survives the new name, in the index and Settings', async ({ page }) => {
   await page.setViewportSize({ width: 1024, height: 900 })
   await page.emulateMedia({ colorScheme: 'dark', reducedMotion: 'reduce' })
   const j = journey(page)
@@ -262,14 +262,14 @@ test('@curated a saved closed section survives the new name, in the index and Se
 })
 
 // Learning, Systems and Submission family pages publish their own <details>. Opening one must leave its question in place.
-test('@curated a page\'s own disclosures keep their summaries when opened', async ({ page }) => {
+test('a page\'s own disclosures keep their summaries when opened', async ({ page }) => {
   await boot(page, 1440, 900, '/Learning/Asymmetric-Warfare')
   const d = await page.evaluate(() => { const own = [...document.querySelectorAll('[data-reader-body] article details')] as HTMLDetailsElement[]; own.forEach(x => { x.open = true }); return { own: own.length, shown: own.filter(x => x.querySelector('summary')?.getClientRects().length).length } })
   expect(d.own, 'premise: the page publishes its own').toBeGreaterThan(0)
   expect(d.shown, 'every summary stays').toBe(d.own)
 })
 
-test('@curated every other page keeps today\'s order, and safety stays where it sorts', async ({ page }) => {
+test('every other page keeps today\'s order, and safety stays where it sorts', async ({ page }) => {
   await boot(page, 1440, 900, '/Transitions/Knee-Slice-Pass/Attacker')
   const d = await tiles(page), kinds = [...new Set(d.open.map(t => t.type))]
   expect(kinds.slice(0, 7), 'a transition reads as it did').toEqual(['overview', 'principles', 'setup', 'options', 'safety', 'mistakes', 'outcomes'])
@@ -283,7 +283,7 @@ test('@curated every other page keeps today\'s order, and safety stays where it 
 // (an empty assessment-metrics) and Training on two positions (a *-decision-tree id), so each is here. beta-suffix.
 for (const [path, id, marked] of [[SCB, 'decision-tree', ['options', 'statistics']], ['/Positions/Leg-Drag-Control/Top', 'leg-drag-decision-tree', ['options', 'statistics']],
   ['/Systems/10th-Planet-No-Gi-Guard-System', 'assessment-metrics', []]] as const) {
-  test(`@curated only a position's Statistics and Decisions carry the Beta mark: ${path}`, async ({ page }) => {
+  test(`only a position's Statistics and Decisions carry the Beta mark: ${path}`, async ({ page }) => {
     await boot(page, 1440, 900, path)
     const d = await tiles(page)
     expect(await page.locator(`[data-reader-body] [data-source-id="${id}"]`).count(), `premise: the page carries ${id}`).toBeGreaterThan(0)
@@ -293,7 +293,7 @@ for (const [path, id, marked] of [[SCB, 'decision-tree', ['options', 'statistics
 
 // The tile's title says "Also known as", so a position drops those words from its own line. A transition's and a submission's relations
 // sit in one block with no such title, where the words are the only label. relations-label-unscoped, relations-label-shown.
-test('@curated a transition keeps the words Also known as, which only a position\'s own tile can drop', async ({ page }) => {
+test('a transition keeps the words Also known as, which only a position\'s own tile can drop', async ({ page }) => {
   await boot(page, 1440, 900, '/Transitions/Half-Guard-to-Leg-Weave/Defender')
   const label = page.locator('[data-reader-body] .also-known-as>em').first()
   await expect(label, 'the words are the label here').toBeVisible()
@@ -303,7 +303,7 @@ test('@curated a transition keeps the words Also known as, which only a position
 // Measured before this change at 1408: grid 236-1384, row 236-1172, first card 260. Sweep from the brief: 1024 to 1920 by 64.
 const widths: number[] = [1349, 1350]
 for (let w = 1024; w <= 1920; w += 64) widths.push(w)
-test('@curated the choices row and the grid share both edges and stay centred, 1024 to 1920', async ({ page }) => {
+test('the choices row and the grid share both edges and stay centred, 1024 to 1920', async ({ page }) => {
   test.setTimeout(240000)
   const seen: number[] = []
   for (const width of widths) {
@@ -329,7 +329,7 @@ test('@curated the choices row and the grid share both edges and stay centred, 1
 // pages, real fonts). The harness's fallback fonts cannot measure characters, so the claim here is the widths that carry it:
 // a 387px text column at the threshold, and the 902px grid just below it, which is what keeps the seam small.
 for (const [width, index, grid] of [[1349, false, 902], [1350, true, 878]] as const) {
-  test(`@curated U97 at ${width}px the index is ${index ? 'shown' : 'hidden'} and the grid is ${grid}px`, async ({ page }) => {
+  test(`U97 at ${width}px the index is ${index ? 'shown' : 'hidden'} and the grid is ${grid}px`, async ({ page }) => {
     await boot(page, width, 900)
     const e = await page.evaluate(() => {
       const r = (window as any).__neural._reader, tile = r.body.querySelector(':scope>:not([data-media-control])')
@@ -355,7 +355,7 @@ for (const [width, height] of [[1152, 864], [1440, 900], [1920, 1080]] as const)
 // floor below: every answer of every card can be reached by a real scroll. The map ends at half the window, or NG_LIVE_ANSWER_ROOM
 // (514, the median card) above the window's bottom if that is higher, and it reads the window alone.
 for (const [width, height, bottom, note] of [[1440, 900, 386, '43%'], [1152, 864, 350, 'capped'], [1920, 1400, 700, 'exactly half']] as const) {
-  test(`@curated U90 at ${width}x${height} the map ends at ${bottom}px (${note}), and nothing moves when a question opens`, async ({ page }) => {
+  test(`U90 at ${width}x${height} the map ends at ${bottom}px (${note}), and nothing moves when a question opens`, async ({ page }) => {
     const j = await boot(page, width, height)
     const stage = () => page.evaluate(() => {
       const a = (window as any).__neural, r = a._reader
@@ -384,7 +384,7 @@ const answersOf = (page: Page) => page.evaluate(() => {
 // decline at all, so a journey from one passes with the mutant in. 640 tall, because this fixture's card fits at 900. u99-wheel-declines.
 // A wheel with the pointer over the ARTICLE does decline a live question, by design (covered-card.spec.ts): the clock stops, the game
 // pauses, the answers stay pressable and a later press still scores. Measured at v1.251.0; a free pause, not a loss. UNGUARDED at 900.
-test('@curated U99 at 1440x640 the last answer of a live question, reached by the wheel, scores, and the wheel declines nothing', async ({ page }) => {
+test('U99 at 1440x640 the last answer of a live question, reached by the wheel, scores, and the wheel declines nothing', async ({ page }) => {
   test.setTimeout(120000)
   await page.setViewportSize({ width: 1440, height: 640 })
   await page.emulateMedia({ colorScheme: 'dark', reducedMotion: 'reduce' })
@@ -416,7 +416,7 @@ test('@curated U99 at 1440x640 the last answer of a live question, reached by th
 })
 
 for (const [width, height] of [[1440, 900], [1152, 864]] as const) {
-  test(`@curated U99 at ${width}x${height} every answer of every card on the longest deck is reached by a real scroll`, async ({ page }) => {
+  test(`U99 at ${width}x${height} every answer of every card on the longest deck is reached by a real scroll`, async ({ page }) => {
     test.setTimeout(180000)
     const j = await boot(page, width, height, '/Submissions/Americana/from-Side-Control/Attacker')
     await j.openQuestion()
@@ -455,7 +455,7 @@ for (const [width, height] of [[1440, 900], [1152, 864]] as const) {
 // U90 note: "the question below the choices should be left aligned, aligned with the left start of Your choices/moves label".
 // Text against text, because the label and the line each sit inside their own box.
 for (const [width, height] of [[1440, 900], [1152, 864], [900, 900], [390, 844]] as const) {
-  test(`@curated U90 at ${width}x${height} the question line starts at the left edge of the label above the choices`, async ({ page }) => {
+  test(`U90 at ${width}x${height} the question line starts at the left edge of the label above the choices`, async ({ page }) => {
     await boot(page, width, height)
     const e = await page.evaluate(() => {
       const a = (window as any).__neural, left = (n: Node) => { const r = document.createRange(); r.selectNodeContents(n); return r.getBoundingClientRect().left }

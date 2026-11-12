@@ -153,7 +153,7 @@ for (const book of ["on"] as const) {
 test.describe(`the directed arrival, Book ${book}`, () => {
   test.use({ viewport: { width: 390, height: 844 }, hasTouch: true });
 
-  test(`first opening (Book ${book}): the zoom runs from the first frames, the node holds until the board, rises with it, lands softly @curated`, async ({ page }) => {
+  test(`first opening (Book ${book}): the zoom runs from the first frames, the node holds until the board, rises with it, lands softly`, async ({ page }) => {
     await bootTo(page, "Mount Top", book);
     const S = await record(page, 613);   // the first app frame to the landing (9.2s) + 1s
     const pick = S.find((f) => f.pick != null)?.pick;
@@ -201,7 +201,7 @@ test.describe(`the directed arrival, Book ${book}`, () => {
     expect(S.at(-1)!.open, "premise: nothing of the board's state outlives the arrival").toBe("");
   });
 
-  test(`a restart (Book ${book}) breathes out, holds the old article while it fades, and lands inside the bounds @curated`, async ({ page }) => {
+  test(`a restart (Book ${book}) breathes out, holds the old article while it fades, and lands inside the bounds`, async ({ page }) => {
     await bootTo(page, "Side Control Top", book);
     const settled = (await record(page, 630)).at(-1)!;   // the first opening, settled: where the article sits
     await rigStart(page, "Mount Top");
@@ -226,7 +226,7 @@ test.describe(`the directed arrival, Book ${book}`, () => {
     expect(S.at(-1)!.open, "premise: nothing of the board's state outlives the arrival").toBe("");
   });
 
-  test(`reduced motion (Book ${book}): the view cuts twice, the overview then the landing, and the board is never styled @curated`, async ({ page }) => {
+  test(`reduced motion (Book ${book}): the view cuts twice, the overview then the landing, and the board is never styled`, async ({ page }) => {
     await page.emulateMedia({ reducedMotion: "reduce" });
     await bootTo(page, "Mount Top", book);
     expect(await page.evaluate(() => matchMedia("(prefers-reduced-motion: reduce)").matches), "premise: reduced motion is emulated").toBe(true);
@@ -247,7 +247,7 @@ test.describe(`the directed arrival, Book ${book}`, () => {
 test.describe("the directed arrival: what it hands back", () => {
   test.use({ viewport: { width: 390, height: 844 }, hasTouch: true });
 
-  test("a clock that stops while the board is faint leaves no row hidden @curated", async ({ page }) => {
+  test("a clock that stops while the board is faint leaves no row hidden", async ({ page }) => {
     await bootTo(page, "Mount Top");
     const S = await record(page, 318);   // the reveal (pick + 2.0s, ~5.22s) and a few frames: faint
     expect(S.at(-1)!.open, "premise: the board is faint when the clock stops").toBe("faint");
@@ -260,7 +260,7 @@ test.describe("the directed arrival: what it hands back", () => {
     expect(hidden, "STALL: no board row is left hidden when nothing advances the opening").toBe(0);
   });
 
-  test("a camera lease mid-arrival still takes the heading down @curated", async ({ page }) => {
+  test("a camera lease mid-arrival still takes the heading down", async ({ page }) => {
     await bootTo(page, "Mount Top");
     const before = await record(page, 255);   // ~4.25s: pick + 1.0, the heading names the node
     expect(before.at(-1)!.headO, "premise: the heading is up").toBeGreaterThan(0.9);
@@ -276,7 +276,7 @@ test.describe("the directed arrival: what it hands back", () => {
       { message: "HEADING: ...and the heading's fade settles within its own 1.8 s transition (+0.7 s)", timeout: 2500, intervals: [25] }).toBeLessThan(0.05);
   });
 
-  test("a pause during the arrival does not freeze the camera @curated", async ({ page }) => {
+  test("a pause during the arrival does not freeze the camera", async ({ page }) => {
     await bootTo(page, "Mount Top");
     await record(page, 255);   // pick + 1.0
     await page.evaluate(() => (window as any).__neural.setPaused(true));   // the pane opens
@@ -288,7 +288,7 @@ test.describe("the directed arrival: what it hands back", () => {
     expect(end.node && end.node.y >= band.top && end.node.y <= band.bottom, `PAUSE: the camera frames the node in the band after the pause (node ${end.node?.y.toFixed(1)}, band ${band.top}-${band.bottom})`).toBe(true);
   });
 
-  test("rows whose reveal timer fires before the clock reaches the reveal are styled at once, never shown unstyled @curated", async ({ page }) => {
+  test("rows whose reveal timer fires before the clock reaches the reveal are styled at once, never shown unstyled", async ({ page }) => {
     await bootTo(page, "Mount Top");
     await record(page, 310);   // ~5.17s: the pick (~3.22s) + 1.95, a few frames short of the reveal
     const r = await page.evaluate(() => {
@@ -305,7 +305,7 @@ test.describe("the directed arrival: what it hands back", () => {
     expect([r!.open, r!.visible], "MOUNT: rows mounted before the reveal are styled at once: faint, and hidden").toEqual(["faint", 0]);
   });
 
-  test("a pause between the pick and the reveal runs no wide zoom-out @curated", async ({ page }) => {
+  test("a pause between the pick and the reveal runs no wide zoom-out", async ({ page }) => {
     await bootTo(page, "Mount Top");
     await record(page, 225);   // ~3.75s: the pick + 0.5, before the reveal
     expect(await page.evaluate(() => (window as any).__neural._camOpen?.pick != null), "premise: the arrival has picked").toBe(true);
@@ -317,7 +317,7 @@ test.describe("the directed arrival: what it hands back", () => {
     expect(widest, "PAUSE-EARLY: after the pause the view never widens (beat 1's zoom-out-and-back is retired with the arrival)").toBeLessThan(1.002);
   });
 
-  test("two quick restarts do not pop the old board back to full @curated", async ({ page }) => {
+  test("two quick restarts do not pop the old board back to full", async ({ page }) => {
     await bootTo(page, "Side Control Top");
     await record(page, 630);
     await rigStart(page, "Mount Top");
@@ -336,7 +336,7 @@ test.describe("the directed arrival: what it hands back", () => {
 test.describe("the directed arrival on desktop", () => {
   test.use({ viewport: { width: 1440, height: 900 } });
 
-  test("a 2px drag while the node is named takes the camera at once, and nothing takes it back @curated", async ({ page }) => {
+  test("a 2px drag while the node is named takes the camera at once, and nothing takes it back", async ({ page }) => {
     await bootTo(page, "Mount Top");
     await record(page, 240);   // 4.0s: the node is named and the zoom is running
     await page.mouse.move(900, 600); await page.mouse.down(); await page.mouse.move(902, 600);
@@ -349,7 +349,7 @@ test.describe("the directed arrival on desktop", () => {
     expect(moved.length, "INPUT: after the drag the camera never moves on its own").toBe(0);
   });
 
-  test("a drag mid-rise releases the board in 0.2s and leaves no state or transition behind @curated", async ({ page }) => {
+  test("a drag mid-rise releases the board in 0.2s and leaves no state or transition behind", async ({ page }) => {
     await bootTo(page, "Mount Top");
     const S = await record(page, 345);   // ~5.75s: 0.5s into the rise
     expect(S.at(-1)!.open, "premise: the board is mid-rise").toBe("board");
@@ -391,7 +391,7 @@ for (const book of ["on"] as const) {
 test.describe(`the directed arrival with a Videos row, Book ${book}`, () => {
   test.use({ viewport: { width: 390, height: 844 }, hasTouch: true });
 
-  test(`the film fades and rides once, with the section, and is hidden while faint (Book ${book}) @curated`, async ({ page }) => {
+  test(`the film fades and rides once, with the section, and is hidden while faint (Book ${book})`, async ({ page }) => {
     await bootTo(page, "Mount Top", book);
     expect((await withFilm(page, "Mount Top")).length, "premise: the content is authored").toBeGreaterThan(0);
     const S = await record(page, 613);

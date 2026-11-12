@@ -37,6 +37,7 @@ jobs:
       console: ${{ steps.console.outcome }}
       stamp: ${{ steps.stamp.outcome }}
       redirects: ${{ steps.redirects.outcome }}
+      gatetime: ${{ steps.gatetime.outcome }}
     env:
       POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
       POSTHOG_API_HOST: ${{ secrets.POSTHOG_API_HOST }}
@@ -45,6 +46,8 @@ jobs:
     permissions:
       contents: read
       deployments: write
+      # the gate-time tripwire reads this run's own jobs API (scripts/deploy_gate.mjs)
+      actions: read
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
@@ -266,14 +269,19 @@ jobs:
         if: steps.pw-cache.outputs.cache-hit == 'true'
         run: npx playwright install-deps chromium
 
-      # Fast representative gate. The complete suite runs sharded before merges to main.
+      # THE DEPLOY GATE: WHAT ONLY A DEPLOY CAN BREAK, PLUS ONE QUICK TEST PER SURFACE (v1.263.0, the owner's
+      # U147 a). `@curated` now tags 56 journeys, one row each in tests/artifacts/deploy_gate.json with its reason:
+      # tier D, the 41 that depend on THIS build (the keyed Supabase and PostHog config, the affiliate stamp, this
+      # checkout's own history, the static shells crawlers read); tier S, 15 smoke tests, one per surface. The rest
+      # of the suite does not run here: it runs in e2e-full.yml on every PR and every push to dev, and a promotion
+      # takes only a commit whose push-run e2e-full is green (CLAUDE.md, Shipping), because no PR run sees main's
+      # tree. History: until v1.263.0 "a fast representative gate", 250 tests, then 427 (timeout 20 -> 30 at
+      # v1.208.3, run 36813354975), then 914 at 33.6-36.8 minutes of a 45-minute timeout on 12 Nov
+      # (the GATE1 plan, outside the repo). The timeout only bounds a hang; the time is judged by the tripwire after the live
+      # checks, against tests/artifacts/deploy_gate_budget.json, whose timeout_min this value must equal
+      # (tests/deploy_gate.test.mjs). Match the other deploy workflow: both re-list this step (CLAUDE.md §6.7).
       - name: Curated journey gate (Playwright E2E)
-        # Match preview: the 250-test serial suite needs more than 12 minutes.
-        # Raised 20 -> 30 (v1.208.3): 427 tests on one worker. The first full-game deploy
-        # (run 36813354975, dev 55c238ade) timed out at test 401 of 427 with all 401 green, after
-        # 20m05s; the suite was 381 tests in 18m15s before. The 26 remaining run ~1 min more.
-        # Match the other deploy workflow: both re-list this step (CLAUDE.md §6.7).
-        timeout-minutes: 45
+        timeout-minutes: 20
         run: npm run test:curated
 
       - name: Upload journey artifacts (on failure)
@@ -340,6 +348,16 @@ jobs:
         continue-on-error: true
         run: python3 scripts/check_headers_cache.py --live https://bjjgraph.org
 
+      # THE GATE'S OWN TIME (v1.263.0, GATE5): see deploy-dev.yaml's step of the same purpose and
+      # scripts/deploy_gate.mjs. Like console, the site is already live, so it does not fail this job (Lighthouse,
+      # IndexNow and the release still run); its verdict turns `deployed-console` red when the gate passed its line.
+      - name: Deploy gate time (tripwire)
+        id: gatetime
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/deploy_gate.mjs tripwire
+
       # ── Training-day digest (v1.105.7): the Worker + its secrets, and the unsubscribe
       #    Function's Pages secrets — ALL flowing from GitHub secrets, so there is exactly one
       #    place a credential lives. Skips loudly (never fails the deploy) until the owner adds
@@ -373,7 +391,7 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Deployed console, stamp cache header and live redirects are clean (gate)
+      - name: Deployed console, stamp cache header, live redirects and the gate's time are clean (gate)
         run: |
           if [ "${{ needs.deploy.outputs.console }}" != "success" ]; then
             echo "::error::The deployed console check did not pass (outcome: ${{ needs.deploy.outputs.console }}). Its offenders are in the deploy job's 'Deployed console check' step and summary."
@@ -390,6 +408,11 @@ jobs:
             exit 1
           fi
           echo "live redirects answer"
+          if [ "${{ needs.deploy.outputs.gatetime }}" != "success" ]; then
+            echo "::error::The curated gate passed its line, or its time could not be read (outcome: ${{ needs.deploy.outputs.gatetime }}). See the deploy job's 'Deploy gate time (tripwire)' step; the budget is tests/artifacts/deploy_gate_budget.json."
+            exit 1
+          fi
+          echo "the curated gate's time is inside its line"
 
   lighthouse-ci:
     needs: deploy

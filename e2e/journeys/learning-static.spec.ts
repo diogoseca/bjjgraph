@@ -8,7 +8,7 @@ const related = JSON.parse(readFileSync(resolve(__dirname, "../../content/Learni
 const normalize = (text: string) => text.replace(/\s+/g, " ").trim();
 
 for (const width of [1440, 390]) {
-  test(`Learning native disclosures work without JavaScript at ${width}px @curated`, async ({ browser, baseURL }) => {
+  test(`Learning native disclosures work without JavaScript at ${width}px`, async ({ browser, baseURL }) => {
     const context = await browser.newContext({ baseURL, javaScriptEnabled: false, viewport: { width, height: 900 } });
     try {
       const page = await context.newPage();

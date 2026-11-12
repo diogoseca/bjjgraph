@@ -59,7 +59,7 @@ async function openPractice(page: Page, how: "tap" | "click") {
 }
 
 for (const viewport of [{ width: 390, height: 844 }, { width: 768, height: 1024 }]) {
-  test(`TAP1: ${viewport.width}×${viewport.height} a tap on Practice gets the plan a click gets @curated`, async ({ page }) => {
+  test(`TAP1: ${viewport.width}×${viewport.height} a tap on Practice gets the plan a click gets`, async ({ page }) => {
     await page.setViewportSize(viewport);
     const tapped = await openPractice(page, "tap");
     const clicked = await openPractice(page, "click");

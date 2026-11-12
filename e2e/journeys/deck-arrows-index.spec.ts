@@ -20,7 +20,7 @@ const box = (page: Page, sel: string) => page.locator(sel).first().evaluate(e =>
   const r = e.getBoundingClientRect(); return { left: r.left, right: r.right, top: r.top, bottom: r.bottom }
 })
 
-test("@curated #346 review, finding 1: with the index beside the grid, the deck's arrows stay clear of it after paging and scrolling (1440)", async ({ page }) => {
+test("#346 review, finding 1: with the index beside the grid, the deck's arrows stay clear of it after paging and scrolling (1440)", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = journey(page)
   await j.boot("/Positions/Mount/Top")
@@ -53,7 +53,7 @@ test("@curated #346 review, finding 1: with the index beside the grid, the deck'
 // #354's review (finding 5): on a short screen with the index beside the grid, little of the face is in view, and Previous (one target
 // above Next) climbed over the choices: 3px of the cards' bottoms at 1440x560, 23px at 1440x520. Its top now stays on the face.
 for (const height of [560, 520]) {
-  test(`@curated v1.253.0: at 1440x${height}, beside the index, Previous stays on the face and off the choices`, async ({ page }) => {
+  test(`v1.253.0: at 1440x${height}, beside the index, Previous stays on the face and off the choices`, async ({ page }) => {
     await page.setViewportSize({ width: 1440, height })
     const j = journey(page)
     await j.boot("/Positions/Mount/Top")

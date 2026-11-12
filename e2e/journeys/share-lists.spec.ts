@@ -133,7 +133,7 @@ const pickClassNodes = (page: Page, n: number) =>
 
 // ────────────────────────────────────────────────────────────── 1. the coach builds a list
 
-test("a coach collects today's class into a list from the surfaces they are already using @curated", async ({
+test("a coach collects today's class into a list from the surfaces they are already using", async ({
   page,
 }) => {
   const j = journey(page);
@@ -284,7 +284,7 @@ test("a coach collects today's class into a list from the surfaces they are alre
  * locator.click(), with `document.elementFromPoint` asserted separately so a failure names the
  * thief — with both the live question and its independent article on screen.
  */
-test("the in-roll capture flow survives REAL mouse clicks on a landing card and article @curated", async ({
+test("the in-roll capture flow survives REAL mouse clicks on a landing card and article", async ({
   page,
 }) => {
   const j = journey(page);
@@ -351,7 +351,7 @@ test("the in-roll capture flow survives REAL mouse clicks on a landing card and 
 
 // ────────────────────────────────────────────────────────────── 2. sharing it
 
-test("sharing produces a canonical, WhatsApp-short link that decodes back to the same class @curated", async ({
+test("sharing produces a canonical, WhatsApp-short link that decodes back to the same class", async ({
   page,
 }) => {
   const j = journey(page);
@@ -567,7 +567,7 @@ const codeFor = (page: Page, ids: string[]) =>
 
 // ─────────────── 3b. what the recipient can READ, RE-LIGHT and be asked only once
 
-test("a received technique is named the way a coach named it: WITH the position it comes from @curated", async ({
+test("a received technique is named the way a coach named it: WITH the position it comes from", async ({
   page,
 }) => {
   const j = journey(page);
@@ -617,7 +617,7 @@ test("a received technique is named the way a coach named it: WITH the position 
   expect(toast, "no phantom default list in the copy").not.toMatch(/today/i);
 });
 
-test("the recipient can re-light the received class on the graph after the fog clears @curated", async ({
+test("the recipient can re-light the received class on the graph after the fog clears", async ({
   page,
 }) => {
   const j = journey(page);
@@ -659,7 +659,7 @@ test("the recipient can re-light the received class on the graph after the fog c
   expect(await litIds(page), "a search keystroke does not drop the re-lit selection").toEqual(want);
 });
 
-test("a saved or dismissed link stops asking: a reload is not a fresh offer @curated", async ({
+test("a saved or dismissed link stops asking: a reload is not a fresh offer", async ({
   page,
 }) => {
   const j = journey(page);
@@ -707,7 +707,7 @@ test("a saved or dismissed link stops asking: a reload is not a fresh offer @cur
   ).toEqual(picks.map((p) => p.id).sort());
 });
 
-test("Lists never contradicts itself in front of a first-time recipient @curated", async ({
+test("Lists never contradicts itself in front of a first-time recipient", async ({
   page,
 }) => {
   const j = journey(page);
@@ -747,7 +747,7 @@ test("Lists never contradicts itself in front of a first-time recipient @curated
   ).toMatch(/Your lists\s*\(0\)/);
 });
 
-test("deleting a list asks first, and can be taken back @curated", async ({ page }) => {
+test("deleting a list asks first, and can be taken back", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
@@ -999,7 +999,7 @@ test("/l leaks into NOTHING a crawler reads: not the sitemap, not llms.txt, not 
 
 // ────────────────────────────────────────────── the header + : how a list is born (v1.97.0)
 
-test("the + beside Your lists creates a class list — the one deliberate creation control @curated", async ({
+test("the + beside Your lists creates a class list — the one deliberate creation control", async ({
   page,
 }) => {
   const j = journey(page);

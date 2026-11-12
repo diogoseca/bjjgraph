@@ -151,7 +151,7 @@ async function catchLoop(page: Page, legacy = false, cold = false, before?: () =
 
 // STALE SPEC (PR 305, owner D-307): link, reload and dormant answer keep the generic five-card defender landing calm.
 // Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
-test('@curated link, reload and dormant answer keep the generic five-card defender landing calm', async ({ page }) => {
+test('link, reload and dormant answer keep the generic five-card defender landing calm', async ({ page }) => {
   const j = journey(page)
   await j.boot(LOOP + '/Defender', { beforeNavigate: realContent })
   await calm(page)
@@ -173,7 +173,7 @@ test('@curated link, reload and dormant answer keep the generic five-card defend
 
 // STALE SPEC (PR 305, owner D-307): an orb arrival never retains the warm attacker deck.
 // Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
-test('@curated an orb arrival never retains the warm attacker deck', async ({ page }) => {
+test('an orb arrival never retains the warm attacker deck', async ({ page }) => {
   const j = journey(page)
   await j.boot(LOOP + '/Attacker', { beforeNavigate: realContent })
   await expect(page.locator(READY)).toBeVisible()
@@ -199,7 +199,7 @@ test('@curated an orb arrival never retains the warm attacker deck', async ({ pa
 // request, then observe publication AND the real content refresh returning before
 // checking absence. Fixed: 10/10; a delayed one-clip response fails the exact IDs
 // assertion after this barrier. An empty DOM before the response is not the oracle.
-test('@curated the curated empty transition defender mounts no reel on the first render', async ({ page }) => {
+test('the curated empty transition defender mounts no reel on the first render', async ({ page }) => {
   const j = journey(page)
   const dossierKey = 'Kuzure Kesa Gatame to Kesa Gatame'
   let release!: () => void
@@ -245,7 +245,7 @@ test('@curated the curated empty transition defender mounts no reel on the first
 
 // STALE SPEC (PR 305, owner D-307): each Knee Slice Pass half mounts its own clips, including the reader perspective link.
 // Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
-test('@curated each Knee Slice Pass half mounts its own clips, including the reader perspective link', async ({ page }) => {
+test('each Knee Slice Pass half mounts its own clips, including the reader perspective link', async ({ page }) => {
   const j = journey(page)
   await j.boot('/Transitions/Knee-Slice-Pass/Attacker', { beforeNavigate: realContent })
   await expect(page.locator(READY)).toBeVisible()
@@ -420,7 +420,7 @@ for (const paged of [false, true]) {
 
 // STALE SPEC (PR 305, owner D-307): a real catch keeps its generic stack and own films while danger is active.
 // Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
-test('@curated a real catch keeps its generic stack and own films while danger is active', async ({ page }) => {
+test('a real catch keeps its generic stack and own films while danger is active', async ({ page }) => {
   const j = await catchLoop(page)
   await settled(page)
   expect(await state(page)).toMatchObject({ pressure: true, vignette: true, key: KEY, cards: 5, caught: 1 })
@@ -455,7 +455,7 @@ async function dangerSettings(page: Page) {
 
 for (const width of [390, 1440]) test.describe(`catch drawer ${width}`, () => {
   test.use({ viewport: { width, height: width === 390 ? 844 : 900 }, hasTouch: width === 390 })
-  test("U16 b / U66 a: the drawer icon stays reachable in a catch and opening it pauses the roll @curated", async ({ page }) => {
+  test("U16 b / U66 a: the drawer icon stays reachable in a catch and opening it pauses the roll", async ({ page }) => {
     const j = await catchLoop(page)
     await page.emulateMedia({ reducedMotion: 'no-preference' })
     await settled(page)
@@ -497,7 +497,7 @@ for (const width of [390, 1440]) test.describe(`catch drawer ${width}`, () => {
     expect(await page.evaluate(() => (window as any).__neural.__catchTimerFired), 'the held roll timer resumes after closing').toBe(true)
   })
 
-  test('D3: wheel over the catch drawer icon cannot zoom the map @curated', async ({ page }) => {
+  test('D3: wheel over the catch drawer icon cannot zoom the map', async ({ page }) => {
     const j = await catchLoop(page)
     await page.emulateMedia({ reducedMotion: 'no-preference' })
     await settled(page)
@@ -536,7 +536,7 @@ for (const width of [390, 1440]) test.describe(`catch drawer ${width}`, () => {
 
 // STALE SPEC (PR 305, owner D-307): Danger animation toggles live visuals only and survives a reload.
 // Curated IDs/counts are fixed below; the Knee Slice pair remains a nonempty wrong-role control.
-test('@curated Danger animation toggles live visuals only and survives a reload', async ({ page }) => {
+test('Danger animation toggles live visuals only and survives a reload', async ({ page }) => {
   const j = await catchLoop(page)
   await page.emulateMedia({ reducedMotion: 'no-preference' })
   await j.advance(11000)
@@ -575,7 +575,7 @@ test('@curated Danger animation toggles live visuals only and survives a reload'
 // advance(20) cannot establish that the real change handler has run. Delayed native
 // delivery reproduces the immediate-assert race on base and head; waiting for the
 // visible outcome passes while removing the real listener must still fail.
-test('@curated reduced motion keeps a static cue and suppresses frame-driven danger without changing the saved setting', async ({ page }) => {
+test('reduced motion keeps a static cue and suppresses frame-driven danger without changing the saved setting', async ({ page }) => {
   const j = await catchLoop(page)
   expect((await state(page)).vignette).toBe(true)
   await page.emulateMedia({ reducedMotion: 'reduce' })

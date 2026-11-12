@@ -106,7 +106,7 @@ const seedList = (page: Page, name: string, ids: string[]) =>
 
 // ─────────────────────────────────────────────── 1. the disclosure itself
 
-test("a list's techniques live behind its count line — the chevron opens them in place @curated", async ({
+test("a list's techniques live behind its count line — the chevron opens them in place", async ({
   page,
 }) => {
   const j = journey(page);
@@ -194,7 +194,7 @@ test("a list's techniques live behind its count line — the chevron opens them 
 
 // ─────────────────────────────────────────────── 2. the name a coach used
 
-test("an expanded item is named the way a coach named it: WITH the position it comes from @curated", async ({
+test("an expanded item is named the way a coach named it: WITH the position it comes from", async ({
   page,
 }) => {
   const j = journey(page);
@@ -268,7 +268,7 @@ test("clicking a listed technique opens its dossier — the same move as a share
 
 // ─────────────────────────────────────────────── 4. removing one
 
-test("× removes that technique from THAT list: count, storage and the lit graph all follow @curated", async ({
+test("× removes that technique from THAT list: count, storage and the lit graph all follow", async ({
   page,
 }) => {
   const j = journey(page);
@@ -328,7 +328,7 @@ test("× removes that technique from THAT list: count, storage and the lit graph
 
 // ─────────────────────────────────────────────── 5. auto-expand: the actual ask
 
-test("the list you just made, and the list you just added to, are already open @curated", async ({
+test("the list you just made, and the list you just added to, are already open", async ({
   page,
 }) => {
   const j = journey(page);

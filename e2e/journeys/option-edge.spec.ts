@@ -73,7 +73,7 @@ async function landBottom(j: any, page: any, position: string) {
   });
 }
 
-test("@curated at the authored odds the card IS the published value — the worked examples, Frame and Escape", async ({
+test("at the authored odds the card IS the published value — the worked examples, Frame and Escape", async ({
   page,
 }) => {
   const j = journey(page);
@@ -165,7 +165,7 @@ test("@curated at the authored odds the card IS the published value — the work
   ).not.toBeCloseTo(anchor!.cal!, 6);
 });
 
-test("@curated the baseline moves with the hand: EDGE stays a DIFFERENCE at live odds", async ({
+test("the baseline moves with the hand: EDGE stays a DIFFERENCE at live odds", async ({
   page,
 }) => {
   const j = journey(page);
@@ -230,7 +230,7 @@ test("the card face names future win and immediate chance separately", async ({ 
   }
 });
 
-test("@curated the submissions constant is gone: the hand is ranked, not alphabetical", async ({
+test("the submissions constant is gone: the hand is ranked, not alphabetical", async ({
   page,
 }) => {
   const j = journey(page);
@@ -289,7 +289,7 @@ test("@curated the submissions constant is gone: the hand is ranked, not alphabe
   );
 });
 
-test("@curated a study grade updates immediate chance without moving card or keyboard identity", async ({ page }) => {
+test("a study grade updates immediate chance without moving card or keyboard identity", async ({ page }) => {
   const j = journey(page);
   await j.boot("/"); await j.land("Mount Top"); await j.decksSettled();
   const before = await cardEdges(page);
@@ -443,7 +443,7 @@ const outOfOrder = (hands: any[]) =>
     h.print.some((v: number, i: number) => i > 0 && v > h.print[i - 1]),
   );
 
-test("@curated a saved cardOrder=popularity cannot rank the hand — the setting is retired", async ({
+test("a saved cardOrder=popularity cannot rank the hand — the setting is retired", async ({
   page,
 }) => {
   const j = journey(page);
@@ -568,7 +568,7 @@ test("Settings no longer offers an ordering it does not use", async ({
 // The retired Inspect shell's category banner, enlarged glyph, explanation and behind-sheet
 // dimming were v1.136/v1.137 contracts, reversed by the approved v1.230 design. The replacement
 // Watch modal's pointer/keyboard isolation and restoration live in video-cards.spec.ts.
-test("@curated the direct choice keeps its own name and digit without a category or sheet", async ({ page }) => {
+test("the direct choice keeps its own name and digit without a category or sheet", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Side-Control/Bottom")
   await j.advance(6000)

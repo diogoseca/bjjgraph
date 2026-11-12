@@ -57,7 +57,9 @@ for (const [path, width, fixture] of [
   ['/Learning/Position-Over-Submission', 1440, true], ['/Learning/Position-Over-Submission', 390, true],
   ['/Systems/Danaher-Pin-Escape-Fundamentals-System', 1440, true], ['/Systems/Danaher-Pin-Escape-Fundamentals-System', 390, true],
 ] as const) for (const native of fixture ? [true, false] : [true]) {
-  test(`@curated published reference videos remain playable without a seat: ${path} ${width}px${fixture ? ' (video fixture)' : ''} (${native ? 'native card moves' : 'stationary fallback'})`, async ({ page }) => {
+  // The deploy gate (@curated) runs ONE of these, the /Systems/ page at 1440px with native card moves: one quick test per surface (U147 a, v1.263.0).
+  // Every case runs in e2e-full's core shards on each PR and each merge to dev; tests/artifacts/deploy_gate.json.
+  test(`${path.startsWith('/Systems/') && width === 1440 && native ? '@curated ' : ''}published reference videos remain playable without a seat: ${path} ${width}px${fixture ? ' (video fixture)' : ''} (${native ? 'native card moves' : 'stationary fallback'})`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     const j = journey(page)
     await j.boot(path, { keepTutorial: true, initialState: QUIET, beforeNavigate: async () => {
@@ -209,7 +211,7 @@ for (const [path, width, fixture] of [
 // the contract: Videos closed and reopened around a live player, Resume pressed by mouse and,
 // with no moveBefore, the pause-before-append move that rebinds only on Resume.
 for (const width of [1366, 390]) for (const native of [true, false]) {
-  test(`@curated ${width}px theater preserves the player across resize (${native ? 'native move support' : 'no move support'})`, async ({ page }) => {
+  test(`${width}px theater preserves the player across resize (${native ? 'native move support' : 'no move support'})`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 768 })
     const j = journey(page)
     await j.boot(PATH, { beforeNavigate: async () => {
@@ -249,7 +251,7 @@ for (const width of [1366, 390]) for (const native of [true, false]) {
   })
 }
 
-test('@curated pauseLandFilm pauses every owner player without destroying or collapsing', async ({ page }) => {
+test('pauseLandFilm pauses every owner player without destroying or collapsing', async ({ page }) => {
   const j = journey(page)
   await j.boot(PATH, { initialState: QUIET, beforeNavigate: async () => {
     await page.route('**/static/neural/content/*.json', route => route.continue())
@@ -276,7 +278,7 @@ test('@curated pauseLandFilm pauses every owner player without destroying or col
   expect(proof).toEqual({ count: 2, pauses: 2, destroys: 0, collapses: 0, same: true, stopped: true })
 })
 
-test('@curated same-seat hydration retains the host; a role change retires it', async ({ page }) => {
+test('same-seat hydration retains the host; a role change retires it', async ({ page }) => {
   const j = journey(page)
   await j.boot(PATH, { initialState: QUIET, beforeNavigate: async () => {
       await page.route('**/static/neural/content/*.json', route => route.continue())
@@ -335,7 +337,7 @@ test('#346 review, finding 3: with Moves closed, taking the question up moves th
 })
 
 for (const width of [1366, 390]) {
-  test(`@curated ${width}px the current card sits in the game's stage without fixed overlap or resize loops`, async ({ page }) => {
+  test(`${width}px the current card sits in the game's stage without fixed overlap or resize loops`, async ({ page }) => {
     const errors: string[] = []
     page.on('pageerror', e => errors.push(e.message))
     // STALE SPEC (deploy 40079406126): keyed pages request PostHog's loader, which
@@ -457,7 +459,7 @@ for (const width of [1366, 390]) {
 // 800ms ceiling, so the question publishes with its film in place; past the ceiling the parts publish pinned and the
 // late film waits for the player's own input (D-352 S2). Control: d370-late-film-unheld (app runner).
 for (const [label, delay] of [['400ms', 400], ['2.6s, past the ceiling', 2600]] as const) for (const [width, height] of [[390, 844], [1440, 900]] as const) {
-  test(`@curated ${width}px a film chunk landing after ${label} never moves the published answers`, async ({ page }) => {
+  test(`${width}px a film chunk landing after ${label} never moves the published answers`, async ({ page }) => {
     test.setTimeout(90_000)
     await page.setViewportSize({ width, height })
     await page.addInitScript(() => {
