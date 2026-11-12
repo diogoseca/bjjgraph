@@ -32,7 +32,7 @@ const measure = (page: Page) => page.evaluate(() => {
 })
 
 for (const [width, height, under] of [[1440, 900, false], [1100, 900, true], [1024, 768, true], [390, 844, true]] as const) {
-  test(`@curated v1.253.0: the article runs to the fold, and the win bar under it is away (WINBAR1) (${width}x${height})`, async ({ page }) => {
+  test(`v1.253.0: the article runs to the fold, and the win bar under it is away (WINBAR1) (${width}x${height})`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = journey(page)
     await j.boot(PATH)

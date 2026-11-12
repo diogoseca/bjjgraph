@@ -51,7 +51,7 @@ const same = (a: number | undefined, b: number | undefined, what: string) => {
 
 
 for (const width of [1440, 1024]) {
-  test(`@curated ${width}px a replay started from the open pane plays under the column, clear of the pane`, async ({ page }) => {
+  test(`${width}px a replay started from the open pane plays under the column, clear of the pane`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 })
     const j = journey(page)
     await j.boot("/")

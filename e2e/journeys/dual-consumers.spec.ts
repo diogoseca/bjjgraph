@@ -140,7 +140,7 @@ const harvest = (page: Page) => page.evaluate(HARVEST)
 // ══════════════════════════════════════════════════════════════════════════════════════════
 // 1. THE EDGE INDEX JOIN
 // ══════════════════════════════════════════════════════════════════════════════════════════
-test("@curated the EDGE node-index join survives the split: every card prints the same number", async ({
+test("the EDGE node-index join survives the split: every card prints the same number", async ({
   page,
 }) => {
   const j = journey(page)
@@ -187,7 +187,7 @@ test("@curated the EDGE node-index join survives the split: every card prints th
 // ══════════════════════════════════════════════════════════════════════════════════════════
 // 2. THE HUB KEEPS ITS IDENTITY
 // ══════════════════════════════════════════════════════════════════════════════════════════
-test("@curated the hub keeps its identity: ordinals, Explore, deck keys, curriculum, names", async ({
+test("the hub keeps its identity: ordinals, Explore, deck keys, curriculum, names", async ({
   page,
 }) => {
   const j = journey(page)
@@ -301,7 +301,7 @@ test("a share code minted on the hub graph opens the same class on the paired on
 // ══════════════════════════════════════════════════════════════════════════════════════════
 // 3b. …AND A LINK MINTED AFTER IT, FROM THE LOWER HALF
 // ══════════════════════════════════════════════════════════════════════════════════════════
-test("@curated capturing while you play bottom still produces a shareable class", async ({
+test("capturing while you play bottom still produces a shareable class", async ({
   page,
 }) => {
   const j = journey(page)
@@ -392,7 +392,7 @@ test("the hand is identical from either half of a site", async ({ page }) => {
 // ══════════════════════════════════════════════════════════════════════════════════════════
 // 5. ORIGIN METADATA AND PLAYABLE SUBMISSION STATES
 // ══════════════════════════════════════════════════════════════════════════════════════════
-test("@curated every technique retains its origin metadata, and submission states offer their own finish", async ({
+test("every technique retains its origin metadata, and submission states offer their own finish", async ({
   page,
 }) => {
   const j = journey(page)

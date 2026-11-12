@@ -164,7 +164,7 @@ const seedFilm = (page: any) =>
   })
 
 for (const view of VIEWS)
-test(`@curated the ✕ is sticky: the next landing builds no card and asks nothing, and the dock brings it back mid-landing${viewTitle(view)}`, async ({ page }) => {
+test(`the ✕ is sticky: the next landing builds no card and asks nothing, and the dock brings it back mid-landing${viewTitle(view)}`, async ({ page }) => {
   const j = journey(page)
   await bootIn(j, view)
   await j.land("Mount Top")
@@ -317,7 +317,7 @@ test(`the layers are independent: the film's ✕ keeps the card; the hand's ✕ 
 
 // Reading view by nature (the article shown). D-318 U1(1), D-338: the videos, Questions and Moves
 // close through their own ✕ (the shelf is gone with Book shown) and reopen from their labels.
-test("@curated the article survives minimizing the question, videos and moves", async ({ page }) => {
+test("the article survives minimizing the question, videos and moves", async ({ page }) => {
   const j = journey(page)
   await j.boot("/"); await j.land("Mount Top"); await read(page)
   await seedFilm(page); await j.advance(400)
@@ -342,7 +342,7 @@ test("@curated the article survives minimizing the question, videos and moves", 
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
 })
 
-test("@curated the measured reader and shelf reserve the final paragraph's space", async ({ page }) => {
+test("the measured reader and shelf reserve the final paragraph's space", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
   const j = journey(page)
   await j.boot("/"); await j.land("Mount Top"); await read(page)
@@ -374,7 +374,7 @@ test("@curated the measured reader and shelf reserve the final paragraph's space
 // v1.253.0 (U114 a, #354's review finding 4): the retired ✕ and shelf were the only writers of readerBook, landMap and landFeedback, and
 // the app reads none of the three now, so a returning player who saved any of them "off" is stranded nowhere. NOTE for every spec
 // whose quiet fixture still carries landFeedback:false: it quiets nothing any more; toasts and the win bar show in those runs.
-test("@curated a saved \"off\" for the retired controls strands nobody: the article, the map and the win bar all show", async ({ page }) => {
+test("a saved \"off\" for the retired controls strands nobody: the article, the map and the win bar all show", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = journey(page)
   await j.boot("/Positions/Mount/Top", { initialState: { v: 2, settings: { readerBook: false, landMap: false, landFeedback: false }, settingsAt: {} } })

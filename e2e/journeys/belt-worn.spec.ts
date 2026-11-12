@@ -54,7 +54,7 @@ async function prove(page: Page, belts: string[], opts: { frame?: string; checkp
   }, { belts, frame: opts.frame, checkpoints: opts.checkpoints })
 }
 
-test("a finished player wears black with four stripes — never the corridor's white @curated", async ({ page }) => {
+test("a finished player wears black with four stripes — never the corridor's white", async ({ page }) => {
   const j = journey(page)
   await j.boot("/", { initialState: multiBeltEndgame() })
   await migrated(page)

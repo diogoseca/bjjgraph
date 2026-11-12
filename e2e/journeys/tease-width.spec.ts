@@ -21,7 +21,7 @@ const box = (page: Page) => page.evaluate(() => {
 })
 
 for (const [width, height] of [[1440, 900], [1100, 900], [1024, 768]] as const) {
-  test(`@curated v1.253.0: the one-line tease spans the choices row, and opened takes the left column with the film still (${width}x${height})`, async ({ page }) => {
+  test(`v1.253.0: the one-line tease spans the choices row, and opened takes the left column with the film still (${width}x${height})`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = journey(page)
     await j.boot(PATH, { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", route => route.continue()) } })
@@ -43,7 +43,7 @@ for (const [width, height] of [[1440, 900], [1100, 900], [1024, 768]] as const) 
 
 // #354's review (finding 7): the tease's drop applied whenever this card had once asked under an open Moves row, so with Moves closed
 // the same asking state put the film at two heights (22.5px apart at 1440). Now the drop applies only while Moves is open.
-test("@curated v1.253.0: with Moves closed after the tease, the asking film starts on the question, whatever Moves did before (1440)", async ({ page }) => {
+test("v1.253.0: with Moves closed after the tease, the asking film starts on the question, whatever Moves did before (1440)", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = journey(page)
   await j.boot(PATH, { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", route => route.continue()) } })

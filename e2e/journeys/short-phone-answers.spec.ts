@@ -16,8 +16,8 @@ import { journey } from "../dsl"
  * out of view; if it carries the card off the screen the question is declined, free, as before, on the next frame; with every
  * answer already in view it is reading at once (the reading rule, reading-mode.spec.ts, kept). A press on the game ends a reach.
  *
- * The deploy gate (@curated) carries one journey, the 390x631 reach from the card: if it breaks, a short phone cannot answer at all.
- * The rest run in the PR's full suite (CURATED36: the gate is near its 45-minute ceiling).
+ * Not in the deploy gate (v1.263.0, U147 a: it runs what a deploy can break, plus one quick test per surface): every case
+ * runs in e2e-full, on every PR and every merge to dev. It shipped carrying the 390x631 reach from the card under @curated.
  *
  * Every gesture is a finger: CDP touchStart/touchMove/touchEnd, held still before the lift so no fling adds distance. The
  * start point is measured and asserted to lie on what the test claims (card, article). The press that answers is a touch
@@ -123,15 +123,15 @@ async function overshoot(page: Page, j: Any) {
 }
 
 const SIZES = [
-  { width: 390, height: 631, tag: "@curated " },
-  { width: 360, height: 640, tag: "" },
-  { width: 375, height: 667, tag: "" },
+  { width: 390, height: 631 },
+  { width: 360, height: 640 },
+  { width: 375, height: 667 },
 ]
 
 for (const size of SIZES) test.describe(`${size.width}x${size.height}, by touch`, () => {
   test.use({ viewport: { width: size.width, height: size.height }, hasTouch: true })
 
-  test(`${size.tag}SHORT1: a finger on the card reaches every answer of a taken-up question; nothing declines, the clock runs, the last answer scores (${size.width}x${size.height})`, async ({ page }) => {
+  test(`SHORT1: a finger on the card reaches every answer of a taken-up question; nothing declines, the clock runs, the last answer scores (${size.width}x${size.height})`, async ({ page }) => {
     const j = await arriveAndTakeUp(page)
     const open = await state(page)
     expect(open.answers.length, "premise: a multiple-choice question").toBeGreaterThanOrEqual(3)

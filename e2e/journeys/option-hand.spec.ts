@@ -95,7 +95,7 @@ const HANDS = `(() => {
 
 const sweep = (page: any) => page.evaluate(HANDS)
 
-test("@curated every legal move is dealt — the hand IS the pool", async ({ page }) => {
+test("every legal move is dealt — the hand IS the pool", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   const hands = await sweep(page)
@@ -140,7 +140,7 @@ test("@curated every legal move is dealt — the hand IS the pool", async ({ pag
   expect(stand.cards.length, "standing-position/top — the largest hand there is").toBe(36)
 })
 
-test("@curated the hand is ranked by EDGE, under a total order that is not node index", async ({ page }) => {
+test("the hand is ranked by EDGE, under a total order that is not node index", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   const hands = await sweep(page)
@@ -170,7 +170,7 @@ test("@curated the hand is ranked by EDGE, under a total order that is not node 
   expect(numericTies, "pairs that tie on EDGE, odds AND attempt% — what the name break decides").toBeGreaterThan(10)
 })
 
-test("@curated the printed number is the number the hand was ranked by", async ({ page }) => {
+test("the printed number is the number the hand was ranked by", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   const hands = await sweep(page)
@@ -242,7 +242,7 @@ test("@curated the printed number is the number the hand was ranked by", async (
   expect(printTies, "and so do rounding neighbours").toBeGreaterThan(exactTies)
 })
 
-test("@curated a mid-decision JIT grade moves every number and no card", async ({ page }) => {
+test("a mid-decision JIT grade moves every number and no card", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -301,7 +301,7 @@ test("@curated a mid-decision JIT grade moves every number and no card", async (
   // in choice-value.spec.ts; this legacy fixture exercises the live immediate odds only.
 })
 
-test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback", async ({ page }) => {
+test("a submission's odds are its AUTHORED rate, not the 45.6% fallback", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
 

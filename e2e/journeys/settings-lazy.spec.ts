@@ -14,7 +14,9 @@ test.beforeAll(async ({ request }) => {
 });
 
 for (const width of [1440, 390]) {
-  test(`@curated Settings imports only on intent and a late module cannot reopen Close at ${width}px`, async ({ page }) => {
+  // The deploy gate (@curated) runs ONE of these, 1440px: one quick test per surface (U147 a, v1.263.0).
+  // Every case runs in e2e-full's core shards on each PR and each merge to dev; tests/artifacts/deploy_gate.json.
+  test(`${width === 1440 ? '@curated ' : ''}Settings imports only on intent and a late module cannot reopen Close at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 });
     const requested: string[] = [];
     let release!: () => void;
@@ -40,7 +42,7 @@ for (const width of [1440, 390]) {
     } finally { release(); }
   });
 
-  test(`@curated Settings failed import retries the real module and preserves the selected tab at ${width}px`, async ({ page }) => {
+  test(`Settings failed import retries the real module and preserves the selected tab at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 });
     const requested: string[] = [];
     await journey(page).boot('/', { beforeNavigate: async () => {
@@ -63,7 +65,7 @@ for (const width of [1440, 390]) {
     await expect(page.locator('[data-settings-load]')).toHaveCount(0);
   });
 
-  test(`@curated Settings late completion cannot replace a real Legal modal at ${width}px`, async ({ page }) => {
+  test(`Settings late completion cannot replace a real Legal modal at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 });
     let release!: () => void;
     const gate = new Promise<void>(resolve => { release = resolve; });

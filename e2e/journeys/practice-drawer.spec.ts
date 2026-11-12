@@ -84,7 +84,7 @@ async function openPractice(page: Page, j: any) {
 }
 
 for (const vp of [{ width: 390, height: 844 }, { width: 768, height: 1024 }, { width: 1440, height: 900 }]) {
-  test(`PD1: ${vp.width}×${vp.height} Practice opens inside the drawer, at the width Path and the list have @curated`, async ({ page }) => {
+  test(`PD1: ${vp.width}×${vp.height} Practice opens inside the drawer, at the width Path and the list have`, async ({ page }) => {
     await page.setViewportSize(vp);
     const j = journey(page); await j.boot("/");
     await page.waitForFunction(() => !!(window as any).__neural.curriculum);
@@ -110,7 +110,7 @@ for (const vp of [{ width: 390, height: 844 }, { width: 768, height: 1024 }, { w
   });
 }
 
-test("PD2: 1440×900 each card's technique is flown to the free map beside the drawer, uncovered @curated", async ({ page }) => {
+test("PD2: 1440×900 each card's technique is flown to the free map beside the drawer, uncovered", async ({ page }) => {
   const j = journey(page); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await j.land("Mount Top");   // a landed board: on a bare boot, advance() starts the roll that retires the session
@@ -154,7 +154,7 @@ test("PD2: 1440×900 each card's technique is flown to the free map beside the d
   await expect.poll(() => page.evaluate(() => (window as any).__neural._session.idx), { message: "Previous technique pages back" }).toBe(0);
 });
 
-test("PD3: ‹ Practice is Practice's one Back; a deck study keeps its own @curated", async ({ page }) => {
+test("PD3: ‹ Practice is Practice's one Back; a deck study keeps its own", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   const j = journey(page); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
@@ -219,7 +219,7 @@ const LONGEST = [
   { key: "Front Headlock to Guillotine|Attacker", q: "What is the upper body sequence for the front headlock" },
 ];
 for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { width: 1440, height: 900 }]) {
-  test(`PD4: ${vp.width}×${vp.height} every answer button is 44 px, in the drawer and on screen with the longest cards @curated`, async ({ page }) => {
+  test(`PD4: ${vp.width}×${vp.height} every answer button is 44 px, in the drawer and on screen with the longest cards`, async ({ page }) => {
     await page.setViewportSize(vp);
     const j = journey(page); await j.boot("/");
     await page.waitForFunction(() => !!(window as any).__neural.curriculum);
@@ -244,7 +244,7 @@ for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { wi
     }
   });
 
-  test(`PD4: ${vp.width}×${vp.height} a recognition card's choices are 44 px, in the drawer and on screen @curated`, async ({ page }) => {
+  test(`PD4: ${vp.width}×${vp.height} a recognition card's choices are 44 px, in the drawer and on screen`, async ({ page }) => {
     await page.setViewportSize(vp);
     const j = journey(page); await j.boot("/");
     await page.waitForFunction(() => !!(window as any).__neural.curriculum);
@@ -266,7 +266,7 @@ for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { wi
   });
 }
 
-test("PD5: Practice keeps its own solid background, and the badge stays hidden while practising @curated", async ({ page }) => {
+test("PD5: Practice keeps its own solid background, and the badge stays hidden while practising", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   const j = journey(page); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);

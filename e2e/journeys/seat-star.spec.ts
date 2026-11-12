@@ -13,7 +13,7 @@ for (const mobile of [false, true]) {
   test.describe(mobile ? "phone seat star" : "desktop seat star", () => {
     test.use({ viewport: mobile ? { width: 390, height: 844 } : { width: 1440, height: 900 }, hasTouch: mobile })
 
-    test("both seats of each node type carry their star beside the role @curated", async ({ page }) => {
+    test("both seats of each node type carry their star beside the role", async ({ page }) => {
       const j = journey(page)
       await j.boot("/Positions/Mount/Top")
       // Graph ingest precedes the deferred reader that seats this URL. Simulation
@@ -59,7 +59,7 @@ for (const mobile of [false, true]) {
       }
     })
 
-    test("gold means saved; the seat star works after hiding the flashcard @curated", async ({ page }) => {
+    test("gold means saved; the seat star works after hiding the flashcard", async ({ page }) => {
       const j = journey(page)
       await j.boot("/Positions/Mount/Bottom")
       await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })

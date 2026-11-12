@@ -22,7 +22,7 @@ type W = Window & { __neural: any }
  *  · A non-triviality floor sits in front of both, because a sample of one submission satisfies
  *    "not constant" vacuously.
  */
-test("@curated escape odds read the submission's own rate, and fall as it rises", async ({ page }) => {
+test("escape odds read the submission's own rate, and fall as it rises", async ({ page }) => {
   const j = journey(page)
   await j.boot()
 

@@ -27,6 +27,8 @@ jobs:
     permissions:
       contents: read
       deployments: write
+      # the gate-time tripwire reads this run's own jobs API (scripts/deploy_gate.mjs)
+      actions: read
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
@@ -246,15 +248,20 @@ jobs:
         if: steps.pw-cache.outputs.cache-hit == 'true'
         run: npx playwright install-deps chromium
 
-      # Fast representative gate. The complete suite runs sharded before merges to main.
+      # THE DEPLOY GATE: WHAT ONLY A DEPLOY CAN BREAK, PLUS ONE QUICK TEST PER SURFACE (v1.263.0, the owner's
+      # U147 a). `@curated` now tags 56 journeys, one row each in tests/artifacts/deploy_gate.json with its reason:
+      # tier D, the 41 that depend on THIS build (the keyed Supabase and PostHog config only deploys carry, the
+      # affiliate stamp, this checkout's own history, the static shells crawlers read); tier S, 15 smoke tests, one
+      # per surface, on the exact merged tree. Every other journey runs in e2e-full.yml, on every PR and on every
+      # push to dev beside this deploy; a promotion takes only a commit whose push-run e2e-full is green.
+      # History. Until v1.263.0 this was "a fast representative gate" and the tag grew with every spec: 250 tests
+      # (229 reached in 12 minutes), 427 (timeout 20 -> 30 at v1.208.3, after run 36813354975 timed out at test 401
+      # of 427, all green), 914 by 12 Nov at 33.6-36.8 minutes of a 45-minute timeout, about 2.6 minutes more a day
+      # (the GATE1 plan, outside the repo). The timeout only bounds a hang now; the time itself is judged by the tripwire at the
+      # end of this job against tests/artifacts/deploy_gate_budget.json, whose timeout_min this value must equal
+      # (tests/deploy_gate.test.mjs). Match the other deploy workflow: both re-list this step (CLAUDE.md §6.7).
       - name: Curated journey gate (Playwright E2E)
-        # The 250-test serial suite reached only 229 tests in 12 minutes on CI.
-        # Keep every test and the single worker; allow the full suite to finish.
-        # Raised 20 -> 30 (v1.208.3): 427 tests on one worker. The first full-game deploy
-        # (run 36813354975, dev 55c238ade) timed out at test 401 of 427 with all 401 green, after
-        # 20m05s; the suite was 381 tests in 18m15s before. The 26 remaining run ~1 min more.
-        # Match the other deploy workflow: both re-list this step (CLAUDE.md §6.7).
-        timeout-minutes: 45
+        timeout-minutes: 20
         run: npm run test:curated
 
       - name: Upload journey artifacts (on failure)
@@ -296,3 +303,14 @@ jobs:
       # unseen. It retries a fresh deployment for a minute and fails on zero probes.
       - name: Live redirects answer (gate)
         run: python3 scripts/check_redirect_limits.py --probe "${{ steps.cf.outputs.deployment-url }}"
+
+      # THE GATE'S OWN TIME (v1.263.0, GATE5). Reads the curated step's start and end from this run attempt's jobs
+      # API, requires exactly one step of that name (zero or two must not read as fast), warns over the budget's
+      # target and goes red over its line (tests/artifacts/deploy_gate_budget.json). It sits AFTER the deploy on
+      # purpose: a slow but green gate still ships the preview, and this red says the gate needs trimming. It reads
+      # the API rather than timing the gate's own command because scripts/check_build_chains.py compares every step
+      # before the Pages boundary across both deploys. Mechanism and history: scripts/deploy_gate.mjs.
+      - name: Deploy gate time (tripwire)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/deploy_gate.mjs tripwire

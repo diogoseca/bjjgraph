@@ -26,13 +26,14 @@ import { journey } from "../dsl"
 
 const SENTENCE = "Questions hidden. You can show it again in Settings."
 const NOTICE = '[data-hidesec-notice="card"]'
-// The deploy gate (@curated) carries the short phone by touch and 1440 by mouse; the other three runs are the full suite's.
+// Not in the deploy gate since v1.263.0 (U147 a: the gate runs what a deploy can break, plus one quick test per
+// surface); all five runs are e2e-full's, on every PR and every merge to dev. Until then it carried 390x631 by touch and 1440 by mouse.
 const RUNS = [
-  { width: 390, height: 844, touch: true, tag: "" },
-  { width: 390, height: 844, touch: false, tag: "" },
-  { width: 390, height: 631, touch: true, tag: "@curated " },
-  { width: 390, height: 631, touch: false, tag: "" },
-  { width: 1440, height: 900, touch: false, tag: "@curated " },
+  { width: 390, height: 844, touch: true },
+  { width: 390, height: 844, touch: false },
+  { width: 390, height: 631, touch: true },
+  { width: 390, height: 631, touch: false },
+  { width: 1440, height: 900, touch: false },
 ]
 const name = (r: { width: number, height: number, touch: boolean }) => `${r.width}x${r.height}, ${r.touch ? "by touch" : "by mouse"}`
 
@@ -84,7 +85,7 @@ async function arrive(page: Page) {
 for (const run of RUNS) test.describe(name(run), () => {
   test.use({ viewport: { width: run.width, height: run.height }, hasTouch: run.touch })
 
-  test(`${run.tag}FOLD1: the first ✕ folds an opened card to its line, with no message, and its clock resumes (${name(run)})`, async ({ page }) => {
+  test(`FOLD1: the first ✕ folds an opened card to its line, with no message, and its clock resumes (${name(run)})`, async ({ page }) => {
     const j = await arrive(page)
     await takeUp(page, j, run.touch)
     await j.advance(3000)
@@ -108,7 +109,7 @@ for (const run of RUNS) test.describe(name(run), () => {
     expect(Math.abs(again.remaining! - folded.left!), `a second take-up resumes the window (${again.remaining} of ${again.total}, ${folded.left} kept)`).toBeLessThan(250)
   })
 
-  test(`${run.tag}FOLD1: the second ✕, on the line, hides Questions with its message where the line was; Undo brings back the line and its window (${name(run)})`, async ({ page }) => {
+  test(`FOLD1: the second ✕, on the line, hides Questions with its message where the line was; Undo brings back the line and its window (${name(run)})`, async ({ page }) => {
     const j = await arrive(page)
     await takeUp(page, j, run.touch)
     await j.advance(2500)
@@ -151,7 +152,7 @@ for (const run of RUNS) test.describe(name(run), () => {
 // Pinned by touch in short-phone-answers.spec.ts. Both ✕ presses are pinned at 390x631 above.
 for (const run of [RUNS[0], RUNS[4]]) test.describe(name(run), () => {
   test.use({ viewport: { width: run.width, height: run.height }, hasTouch: run.touch })
-  test(`@curated FOLD1: an answered card hides on the first ✕, with its message (${name(run)})`, async ({ page }) => {
+  test(`FOLD1: an answered card hides on the first ✕, with its message (${name(run)})`, async ({ page }) => {
     const j = await arrive(page)
     await takeUp(page, j, run.touch)
     await press(page, j, "[data-land-mc-opt]", run.touch, "an answer")
@@ -165,7 +166,7 @@ for (const run of [RUNS[0], RUNS[4]]) test.describe(name(run), () => {
 
 test.describe("390x844, by mouse, the next landing", () => {
   test.use({ viewport: { width: 390, height: 844 } })
-  test("@curated FOLD1: after a fold the next landing asks with the line again", async ({ page }) => {
+  test("FOLD1: after a fold the next landing asks with the line again", async ({ page }) => {
     const j = await arrive(page)
     await takeUp(page, j, false)
     await press(page, j, "[data-land-close]", false, "the opened card's ✕")

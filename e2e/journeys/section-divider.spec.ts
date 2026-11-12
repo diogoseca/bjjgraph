@@ -8,7 +8,7 @@ const READY = '[data-reader][data-reader-ready="true"]'
 const QUIET = { v: 2, settings: { landCard: false, landHand: false, landFeedback: false }, settingsAt: {} }
 
 for (const width of [1440, 390]) {
-  test(`@curated U31 a: ${width}px divider titles are centred, legible and retain closing`, async ({ page }) => {
+  test(`U31 a: ${width}px divider titles are centred, legible and retain closing`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     const j = journey(page)
     await j.boot('/Transitions/Knee-Slice-Pass/Attacker', { initialState: QUIET })

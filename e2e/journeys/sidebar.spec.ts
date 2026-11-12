@@ -30,7 +30,8 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *      press aimed before the index lands still opens it (phone touch and desktop mouse).
  *  14. SIDE-R3 N3: a finger opens the badge without moving focus into its menu.
  *  10 also covers N2: closing the drawer leaves a replay running; a subsequent graph input stops it.
- * Claims 2, 3, 4 and 7 are @curated, so the deploy gate covers the drawer.
+ * Claim 2 is @curated: the deploy gate's one quick test of the drawer (U147 a, v1.263.0). Claims 3, 4 and 7 were too,
+ * until then; every claim runs in e2e-full, on each PR and each merge to dev.
  *
  * Harness: the DSL serves `{}` for dossier chunks; no claim here reads one. Systems and concepts
  * payloads are real, so the six categories are awaited, not assumed. No gameplay rng branch is
@@ -43,7 +44,7 @@ const drawer = (page: Page) => page.evaluate(() => !!(window as W).__neural.deck
 
 for (const width of [390, 1440]) test.describe(`index landing ${width}`, () => {
   test.use({ viewport: { width, height: width === 390 ? 844 : 900 }, hasTouch: width === 390 })
-  test("Practice stays under the arriving press when concepts land (SIDE-R3 N1) @curated", async ({ page }) => {
+  test("Practice stays under the arriving press when concepts land (SIDE-R3 N1)", async ({ page }) => {
     const j = journey(page)
     await j.boot("/")
     let release!: () => void, held = 0
@@ -159,7 +160,7 @@ test("the drawer lists Search, Explore, Practice, Path, your lists and Last roll
   await expect(cats).toHaveCount(6)
 })
 
-test("the drawer draws over the map and the legend, and the legend never moves @curated", async ({ page }) => {
+test("the drawer draws over the map and the legend, and the legend never moves", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -171,7 +172,7 @@ test("the drawer draws over the map and the legend, and the legend never moves @
   expect(covered, "the drawer is on top of the legend").toBe(true)
 })
 
-test("the badge shows today's cards and rolls before it is opened, a real grade moves it, and the rolls survive a reload @curated", async ({ page }) => {
+test("the badge shows today's cards and rolls before it is opened, a real grade moves it, and the rolls survive a reload", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await page.evaluate(async () => {
@@ -302,7 +303,7 @@ test("a principle lights its places and fades the rest of the map to ~20%, smoot
   expect(levels[levels.length - 1], "and settles at ~20%").toBeCloseTo(0.2, 2)
 })
 
-test("keyboard: Tab reaches the badge, Enter opens its menu with focus inside it, the arrows walk it, and its links work by key @curated", async ({ page }) => {
+test("keyboard: Tab reaches the badge, Enter opens its menu with focus inside it, the arrows walk it, and its links work by key", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await openDrawer(j, page)
@@ -571,7 +572,7 @@ test.describe("phone 390x844", () => {
     expect(await page.evaluate(() => !!(window as W).__neural._replay), "a subsequent graph input still stops the replay").toBe(false)
   })
 
-  for (const gesture of ["mouse pan", "touch pan", "touch pinch"]) test(`D2: a continuous closing ${gesture} stops replay @curated`, async ({ page }) => {
+  for (const gesture of ["mouse pan", "touch pan", "touch pinch"]) test(`D2: a continuous closing ${gesture} stops replay`, async ({ page }) => {
     const j = journey(page)
     await j.boot("/")
     await j.land("Mount Top")

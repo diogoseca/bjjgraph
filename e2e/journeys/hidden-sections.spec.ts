@@ -75,7 +75,7 @@ const phase = (page: Page, key: string) => page.evaluate(k => (document.querySel
 for (const vp of VIEWPORTS) test.describe(`${vp.width}`, () => {
   test.use({ viewport: { width: vp.width, height: vp.height }, hasTouch: vp.touch })
   const how = vp.touch ? "by touch" : "by mouse"
-  test(`@curated every part closes into its message in place, bold name, and returns by Undo and by Settings (${vp.width}, ${how})`, async ({ page }) => {
+  test(`every part closes into its message in place, bold name, and returns by Undo and by Settings (${vp.width}, ${how})`, async ({ page }) => {
     const j = await boot(page)
     for (const p of PARTS) {
       // 1. Close it: nothing is left in its place but the message, which stands where the part stood.
@@ -155,7 +155,7 @@ for (const vp of VIEWPORTS) test.describe(`${vp.width}`, () => {
     }
   })
 
-  test(`@curated the press rule: a press aimed at the message never lands on something else (${vp.width}, ${how})`, async ({ page }) => {
+  test(`the press rule: a press aimed at the message never lands on something else (${vp.width}, ${how})`, async ({ page }) => {
     // The phone runs without motion (no fade), the desktop with it: both paths of leaving.
     await page.emulateMedia({ reducedMotion: vp.touch ? "reduce" : "no-preference" })
     const j = await boot(page)
@@ -208,7 +208,7 @@ for (const vp of VIEWPORTS) test.describe(`${vp.width}`, () => {
 
 test.describe("390 several", () => {
 test.use({ viewport: { width: 390, height: 844 }, hasTouch: true })
-test("@curated several closed in a row: one message per part, in place, and none moves while another stands (390, by touch)", async ({ page }) => {
+test("several closed in a row: one message per part, in place, and none moves while another stands (390, by touch)", async ({ page }) => {
   const j = await boot(page)
   // Each message's removal, stamped as it happens.
   await page.evaluate(() => {
@@ -256,7 +256,7 @@ test("@curated several closed in a row: one message per part, in place, and none
 })
 })
 
-test("@curated Videos during play now switches the video: it writes the Video section's own setting (1440, by mouse)", async ({ page }) => {
+test("Videos during play now switches the video: it writes the Video section's own setting (1440, by mouse)", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = await boot(page)
   const film = () => page.evaluate(() => { const f = (window as any).__neural._landFilmEl; return !!f && !f.hidden && f.getClientRects().length > 0 })
@@ -292,7 +292,7 @@ const bareMap = (page: Page, box: { left: number, top: number, width: number, he
 }, box)
 for (const vp of VIEWPORTS) test.describe(`${vp.width} roam`, () => {
   test.use({ viewport: { width: vp.width, height: vp.height }, hasTouch: vp.touch })
-  test(`@curated free roam takes a standing message with the article, the map keeps its presses, and nothing comes back (${vp.width}, ${vp.touch ? "by touch" : "by mouse"})`, async ({ page }) => {
+  test(`free roam takes a standing message with the article, the map keeps its presses, and nothing comes back (${vp.width}, ${vp.touch ? "by touch" : "by mouse"})`, async ({ page }) => {
     const j = journey(page)
     await j.boot("/")
     await j.land("Mount Top")
@@ -343,7 +343,7 @@ test.describe("1440 review", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
   // D1: Questions goes quiet while Moves' message is held; Moves' Undo then drops Moves, and Questions' place must close, not stand
   // leaving for good (invisible, taking presses). Control: hidesec2-d1-stuck-leaving.
-  test("@curated D1: a message that went quiet first still closes when the one it waited for is undone (1440, by mouse)", async ({ page }) => {
+  test("D1: a message that went quiet first still closes when the one it waited for is undone (1440, by mouse)", async ({ page }) => {
     const j = await boot(page)
     await j.clickByMouse("[data-land-close]", "Questions' close")
     await page.mouse.move(1432, 8); await page.waitForTimeout(1500)
@@ -358,7 +358,7 @@ test.describe("1440 review", () => {
 
   // D2: on a pinned landing (the article held past the 800ms hold), the film closed by its ✕, then "Videos during play" turned back on
   // through the message's Settings: the film comes back (the switch settles the pin, as the section's own reopen does).
-  test("@curated D2: Videos during play brings the film back on a pinned landing (1440, by mouse)", async ({ page }) => {
+  test("D2: Videos during play brings the film back on a pinned landing (1440, by mouse)", async ({ page }) => {
     const j = journey(page)
     await j.boot("/", { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", r => r.continue()) }, payloads: { "/Positions/Mount": { afterMs: 1500 } } })
     await j.land("Mount Top")
@@ -382,7 +382,7 @@ test.describe("1440 review", () => {
   })
 
   // D4: the shield's window listeners: a touch listener that is not passive holds every phone scroll. Control: hidesec2-d4-touch-not-passive.
-  test("@curated D4: the press window's touch listeners are passive (no phone scroll waits for them)", async ({ page }) => {
+  test("D4: the press window's touch listeners are passive (no phone scroll waits for them)", async ({ page }) => {
     await boot(page)
     const client = await page.context().newCDPSession(page)
     const { result } = await client.send("Runtime.evaluate", { expression: "window" })
@@ -399,14 +399,14 @@ test.describe("1440 review", () => {
   })
 
   // D5: the live region is in the tree before the first message (a region inserted with its text is often missed). Control: hidesec2-d5-live-late.
-  test("@curated D5: the screen reader's live region exists before any message", async ({ page }) => {
+  test("D5: the screen reader's live region exists before any message", async ({ page }) => {
     await boot(page)
     expect(await page.evaluate(() => [...document.querySelectorAll('.ng-sr-only[role="status"]')].map(e => e.textContent)), "one empty live region, before any close").toEqual([""])
   })
 
   // D6: /Systems has several "additional" tiles sharing one setting; closing a later one names it and stands in its place.
   // Control: hidesec2-d6-first-tile.
-  test("@curated D6: on /Systems a closed tile's message names that tile and stands in its place (1440, by mouse)", async ({ page }) => {
+  test("D6: on /Systems a closed tile's message names that tile and stands in its place (1440, by mouse)", async ({ page }) => {
     // An index page opens in the reader through an article link or the drawer, never on arrival; the setup takes that same entry.
     const j = await boot(page)
     await page.evaluate(() => (window as any).__neural._readArticle("/Systems", true, true, "article_link"))
@@ -427,7 +427,7 @@ test.describe("1440 review", () => {
 
   // A close by keyboard: focus goes to Undo, and while focus is there the message holds. Controls: hidesec2-key-no-undo-focus,
   // hidesec2-key-focus-no-hold.
-  test("@curated a close by keyboard puts focus on Undo, and focus holds the message until it leaves (1440)", async ({ page }) => {
+  test("a close by keyboard puts focus on Undo, and focus holds the message until it leaves (1440)", async ({ page }) => {
     const j = await boot(page)
     await reveal(page, j, PARTS[3])
     await page.locator("[data-section-toggle=principles]").focus()
@@ -443,7 +443,7 @@ test.describe("1440 review", () => {
 test.describe("390 review", () => {
   test.use({ viewport: { width: 390, height: 844 }, hasTouch: true })
   // D3: Moves' Undo turns on Moves only; a card a map tap took away for this landing stays away. Control: hidesec2-d3-undo-restores-landing.
-  test("@curated D3: Moves' Undo brings back Moves only, not a card the map tap took away (390, by touch)", async ({ page }) => {
+  test("D3: Moves' Undo brings back Moves only, not a card the map tap took away (390, by touch)", async ({ page }) => {
     const j = await boot(page)
     await press(page, j, "[data-hand-close]", true, "Moves' close")
     await j.readerLayoutSettled()
@@ -460,7 +460,7 @@ test.describe("390 review", () => {
 
   // D4: a touch that starts in a just-closed place and becomes a drag has no click; the swallow it started must not outlive it.
   // Control: hidesec2-d4-swallow-forever.
-  test("@curated D4: a press swallowed in a closed place, which never clicks, leaves nothing armed (390, by touch)", async ({ page }) => {
+  test("D4: a press swallowed in a closed place, which never clicks, leaves nothing armed (390, by touch)", async ({ page }) => {
     await page.emulateMedia({ reducedMotion: "reduce" })
     const j = await boot(page)
     await press(page, j, "[data-land-close]", true, "Questions' close")

@@ -324,7 +324,7 @@ test("the camera frames the space the card WILL occupy, not the gap while it reb
 })
 
 /**
- * THE FIRST FLIGHT AIMS AT THE CARD'S BAND, NOT THE MIDDLE OF THE SCREEN (v1.129.6). @curated
+ * THE FIRST FLIGHT AIMS AT THE CARD'S BAND, NOT THE MIDDLE OF THE SCREEN (v1.129.6).
  *
  * Owner: "correct the position of the graph shift since it initially centers to the screen, not the
  * available space above the landcard as it's should in the first animation."
@@ -350,7 +350,7 @@ test("the camera frames the space the card WILL occupy, not the gap while it reb
 // base8aa-opening-verified,d318-cpu4-proof}. The original ungated case and its
 // <3 bound remain; the second case pins the real delivery that exposes the bug.
 for (const lateDeck of [false, true]) {
-test(`@curated the opening flight aims once, at the landing, and the aim never drifts under it${lateDeck ? ' with the landing deck held' : ''}`, async ({
+test(`the opening flight aims once, at the landing, and the aim never drifts under it${lateDeck ? ' with the landing deck held' : ''}`, async ({
   page,
 }) => {
   const j = journey(page)

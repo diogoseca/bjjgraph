@@ -125,7 +125,7 @@ const reloadKeepingStorage = async (page: Page) => {
   await page.evaluate(() => (window as any).__neural.advance(1200));
 };
 
-test("fresh boot: every Explore section starts collapsed — no rows leak below a folded header @curated", async ({
+test("fresh boot: every Explore section starts collapsed — no rows leak below a folded header", async ({
   page,
 }) => {
   const j = journey(page);

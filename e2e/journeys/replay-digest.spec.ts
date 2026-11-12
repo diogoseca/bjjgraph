@@ -6,7 +6,7 @@ import { resolve } from "node:path"
 
 /**
  * REPLAY DIGEST — the observable of a scripted roll, written to disk so consecutive runs can be
- * compared byte for byte. @curated
+ * compared byte for byte.
  *
  * The four determinism journeys (golden-path, jit-loop, mc-flashcards, landing-card) assert on
  * exact values, so a drift fails them. This spec adds the thing those assertions cannot give:
@@ -25,7 +25,7 @@ import { resolve } from "node:path"
 const DIR = resolve(__dirname, "../../tests/artifacts/replay")
 const RUN = process.env.REPLAY_RUN || "1"
 
-test("@curated a scripted roll produces a byte-identical replay digest", async ({ page }) => {
+test("a scripted roll produces a byte-identical replay digest", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
