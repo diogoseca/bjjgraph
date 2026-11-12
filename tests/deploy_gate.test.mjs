@@ -44,10 +44,24 @@
 //              `if: github.event_name == 'pull_request'` → "test runs whenever the site built, and on nothing else"; gen
 //              without its condition → "gen runs whenever…"; an `if:` on the shard command → "the suite commands
 //              themselves are unconditional and blocking". (The reviewer's two survivors on #388 are the first two.)
+//
+// GATE7 (v1.263.4, the reviewer's new 1-3, 6 and 7 on #392), each mutant applied alone to a scratch copy, killed at:
+//   PROMOTION  the head's own run not looked at first → "a fast-forward of main onto a dev tip with a green push-run
+//              passes on that tip"; the second parent's run not looked at → "a --no-ff promotion with no run of its own
+//              falls back to its dev parent"; no keepalive walk → "a keepalive on top of a promotion passes"; every
+//              single-parent commit walked → /is a single-parent commit that changes more than/; the recipe dropped from
+//              that failure → "...and its message gives the branch-and-dispatch recipe for that commit".
+//   COUNT      ran leaving no count → "ran leaves what it counted beside the report, for the tripwire"; a missing count
+//              passing → "a missing count (the hook never ran) fails the tripwire"; the tripwire ignoring the count → "a
+//              missing or wrong count turns the tripwire red even when the time is fine"; a tracked .npmrc with
+//              ignore-scripts=true → ".npmrc sets ignore-scripts…"; npm_config_ignore_scripts on deploy.yaml's gate
+//              step → "deploy.yaml sets npm_config_ignore_scripts…".
+//   PUSH-RUN   the tested-site upload without if-no-files-found → "nothing packaged fails the upload…"; an `if:` on the
+//              shards' "Download tested site" (the reviewer's M7c, which survived #392) → "…carries the condition …".
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
-import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, rmSync } from "node:fs";
+import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, rmSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
 import {
@@ -273,12 +287,15 @@ test("COUNT: ran leaves what it counted; the tripwire fails when the count is mi
     writeFileSync(join(root, RESULTS), JSON.stringify({ suites: [{ title: "a.spec.ts", file: "a.spec.ts", specs: [
       { title: "@curated one", file: "a.spec.ts", tests: [t] }, { title: "@curated two", file: "a.spec.ts", tests: [t] }] }] }));
     assert.equal(ran(root, []), 0, "a report equal to the rows counts green");
+    assert.ok(existsSync(join(root, COUNT)), "ran leaves what it counted beside the report, for the tripwire");
     const count = JSON.parse(readFileSync(join(root, COUNT), "utf8"));
     assert.deepEqual(count, { total: 2, passed: 2, skipped: 0, rows: 2, errors: 0 }, "ran leaves what it counted beside the report");
     assert.equal(evaluateCount(count, 2).ok, true, "a count equal to the ledger passes the tripwire");
   } finally { rmSync(root, { recursive: true, force: true }); }
   const ok = { total: 2, passed: 2, skipped: 0, rows: 2, errors: 0 };
-  assert.match(evaluateCount(null, 2).message, /count is missing .*posttest:curated did not run\. npm skips post-hooks under ignore-scripts/, "a missing count (the hook never ran) is named");
+  const missing = evaluateCount(null, 2);
+  assert.equal(missing.ok, false, "a missing count (the hook never ran) fails the tripwire");
+  assert.match(missing.message, /count is missing .*posttest:curated did not run\. npm skips post-hooks under ignore-scripts/, "...and is named");
   assert.equal(evaluateCount({ ...ok, passed: 1, errors: 1 }, 2).ok, false, "a short count fails");
   assert.equal(evaluateCount({ ...ok, skipped: 1, passed: 1 }, 2).ok, false, "a skip fails");
   assert.equal(evaluateCount(ok, 3).ok, false, "a ledger that differs from what was counted fails");
