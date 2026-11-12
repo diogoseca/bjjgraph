@@ -15438,3 +15438,25 @@ Screens: `artifacts/briefing/img/practicedrawer/` (PRACT1: 00 to 40; PRACT2: 50 
 | U11 the flag ignored | flipped ("every signed-in player sees five tabs") |
 | U12 u60-notifications-lost | stored-on, guest, flipped |
 
+**Browser mutants** (the served bundle, one region regex per row that must match exactly once, `node --check`, the whole notifications-tab spec per row, the original bytes restored after each and sha-checked at the end; control `E0` green, 12 of 12 killed; run on the build merged with dev v1.261.0):
+
+| mutant | killed by (notifications-tab.spec) |
+|---|---|
+| E1 the tab always drawn | off ("four tabs: Notifications is not drawn"), stored-on ("reopened: the tab is gone"), both 390 tests |
+| E2 the stored setting ignored | stored-on ("five tabs while it is stored on"), the 390 stored-on test |
+| E3 no deep-link fallback | off (the link opens `flashcards`; none was selected) |
+| E4 the keys walk the full list | off ("ArrowRight from Modifiers skips the hidden tab") |
+| E5 no not-sent sentence | stored-on ("the row says no email is sent yet"), the 390 stored-on test |
+| E6 the sentence even when live | flipped ("the row's words are v1.259.1's") |
+| E7 the per-opening choice never resets | stored-on ("reopened: the tab is gone"), 390 ("reopened on the phone: no tab") |
+| E8 decided on every render | stored-on (the tab still drawn after Off), flipped ("five tabs, setting off") |
+| E9 opening Settings writes the key | off (no value and no stamp after opening, pressing every tab and closing) |
+| E10 a guest loses the tab | guest ("a guest keeps all five tabs") |
+| E11 the flag ignored | flipped ("five tabs, setting off") |
+| E12 u60-notifications-lost | stored-on, guest, flipped, the 390 stored-on test |
+
+**Bytes**, on the build merged with dev v1.261.0: `settings-ui.js` 22,082 → 22,146 B (+64; the list read once per render and handed to the row's keys, +25, and the sentence, +36), `neural.js` +150 B raw; deferred set 510,975 B under its exact 510,977 B ceiling (510,911 B without this change's 64; 2 B are left after it); eager gzip 350,591 B, +1,903 B over the accepted 348,688 B (cap 5,000). The first cut read `this._settingsTabs` in both places and was 8 B over the ceiling; passing the drawn list into `_settingsTabRow` is both smaller and the cleaner seam. The constant and the choice live in the eager app because the deferred set had 66 B of room. No ceiling or baseline moved; app rows re-seeded with `validate:build-shape:app` on each dev merge (v1.260.0, then v1.261.0, both by merge, conflicts only in the version files).
+
+**Runs, all local, under the build lock.** notifications-tab + account-menu + settings-tabs + settings-lazy: 28 of 28 on each merge. Ten Settings journeys (settings-tabs, settings-lazy, keyboard, start-from, hidden-moves, hidden-sections, mastery-gold, recall-badge, loss-aversion, legacy-gone) on the pre-merge build: 85 of 86; the red, `mastery-gold` "mouse toggle … at 1440px" (its press on On right after a 150 ms wheel scroll landed on a `<div>`), passed 4 of 4 rerun on the same build, and a guest's Settings, the state it runs in, are byte-identical to v1.259.1's: a timing flake in that step, not this change. `npm run ci:validate` 25 of 25 on the merged head. The full core suite and the generated suite are the PR's e2e-full.
+
+**Screens** (`artifacts/briefing/img/digesthide/`, all from Mount Top, signed in as player@example.com): 01/06 before and 02/07 after on Flashcards (the tab row), 03/08 before on Notifications, 04/09 the row an account with it on sees, 05/10 a guest (unchanged), at 1440 and 390. "Before" is this build with the one constant flipped, which renders v1.259.1's Settings byte for byte (above), so each pair differs only in the rule.

@@ -29,9 +29,11 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  * tests/settings_presentation.test.mjs (the U139 a and "flipped" tests), including a check that the
  * flipped row's words are v1.259.1's to the letter.
  *
- * MUTANTS (v1.262.1, each killed a named test here; exact patches and the run in
- * docs/Changelog-Archive.md, DIGEST1): see that entry. Non-kills, so nobody reads them as coverage:
- * none recorded.
+ * MUTANTS (v1.262.1, DIGEST1; the table and the exact rows are in docs/Changelog-Archive.md): 12 of 12
+ * killed here on the served bundle (the tab always drawn, the stored setting ignored, no deep-link
+ * fallback, the keys walking the full list, the sentence missing or shown when live, the per-opening
+ * choice never resetting or made on every render, opening Settings writing the key, a guest losing the
+ * tab, the flag ignored, u60-notifications-lost), with a green control. Non-kills: none.
  *
  * NOT covered here: anything about sending (the worker's own tests), the cloud merge of the setting
  * across devices (per-key LWW, unchanged), and the visual placement of the "Beta" badge.
