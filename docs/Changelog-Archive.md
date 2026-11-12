@@ -16085,7 +16085,7 @@ review's count found 4 take-up tests at 768 and 6 at 1024 and none carrying a ca
 of 1,600,000 B; eager gzip 352,234 B, over its 300,000 B target and under its 400,000 B action line, as dev already was. `neural.js`
 685,036 to 684,829 B (-207). App rows re-seeded with `validate:build-shape:app`, no capture.
 
-## v1.263.1 — The question card's section is as wide as the Moves row, its arrows tight in their lanes (WIDTH1, 2026-11-12)
+## (version set at landing) — The question card's section is as wide as the Moves row, its arrows tight in their lanes (WIDTH1, WIDTH2, 2026-11-12)
 
 **The owner's words** (12 Nov, a note on a 390x631 phone screenshot of a taken-up question): "wow, i see that landcard section isn't
 going the same width as the choices row container! pls fix that, the left and right arrwos on each side should tightly fit whatever
@@ -16165,3 +16165,27 @@ always show more of the face than an arrow's height, so the floor never binds.
 **On the merged tree** (origin/dev b43c4c075, v1.262.11, by merge): `validate:build-shape:app` re-seeded eight app rows (three by
 bytes, five hash-only game bundles that embed the gameplay manifest); `card-section` and the five re-pinned files, 76 of 76, under the
 lock; `check_payload_budget.py` exit 0 (deferred 510,958 B of 510,981; eager gzip 352,261 B, -30 B against v1.262.11).
+
+**WIDTH2 (the orchestrator's build of U152 b while the owner looks; a is one revert of its own commit).** Where both margins beside the
+card's section hold a 44px target, from 600px free up to the two columns, the face is the section itself and each arrow abuts it
+from outside, its glyph 16px from the face as in a phone's lane (so the arrows look alike at every width; the scratch b in the
+pictures centred the glyph in its target, 22px from the face). Phones (a 12px margin) and the columns (a 24px gap before the film)
+keep a. Built, 768x1024: face 136-632, targets 92-136 and 632-676; 600x760 outside, 599x760 inside; 1023x768 outside, 1024x768
+inside. `card-section.spec.ts` carries an `outside` claim per size and one width each side of each switch (18 tests);
+`stacked-width.spec.ts` is back to U110 a's "the card shares the film's two edges"; `pane-layout.spec.ts`'s stacked case follows the
+margin rule. The two 32px lanes are counted as one 64px value (`arrowLanes`) so the reader fits: `reader.js` 44,879 B, the deferred
+set exactly its 510,981 B ceiling, 0 B left; `check_payload_budget.py` exits 0. Mutants, under the lock, each against a green
+baseline: 22 of 23 killed at their claims (five new rows pin the switch from both sides); `prev-climbs-over-choices` the same recorded
+non-kill. Runs, local, under the lock: `card-section` 18 of 18 and the other 28 card files 359 of 360 on `90c094b1b`; the one red,
+`defending-landing.spec.ts:682`, failed on its timing PREMISE ("frames with the film present while pinned": 1, needs more than 3; it
+holds an article 1.5s and the chunk 2.6s on real timers), at 1440, where a and b lay out the same; rerun on its own after the
+DEV389 merge (below). Merged origin/dev b43c4c075 was followed by 8844ed6ee (DEV388) and b62bc67c9 (DEV389), each by merge; the app
+rows were re-seeded on the last merge head.
+
+**The video under the card was NOT built** (the orchestrator's stop rule: it moves other things). A scratch build giving it the moves
+row's width on phones: at 390 the video goes 358 x 220 -> 366 x 224 (16:9 kept), so the article and all below move down 4px (nothing
+above the fold at 390x631); at 574 it goes 496 x 291 -> 550 x 318, all below moves down 28px, and the video is then 54px wider than
+the article under it. Pictures: `04-video-before-*`, `05-video-after-*`, `00-video-row-*` in the cardwidth briefing folder.
+On that head (`217b2297b`, under the lock): `card-section`, the five re-pinned files, `short-phone-answers` (DEV389 changed it),
+`covered-card` and `card-fold`, 125 of 125; `defending-landing.spec.ts:682` on its own three times, 3 of 3; `check_payload_budget.py`
+exit 0.

@@ -178,13 +178,19 @@ for (const size of SIZES) {
 // tests/artifacts/article_sections_mutants.mjs, stylesheet rows in tests/artifacts/neural_app_mutants.mjs):
 //   cardwidth-old-face ............. dev's width line back, 390x631 ........ killed: each lane is 32px (face 52..338 in 12..378)
 //   cardwidth-section-free ......... section from the free width, 390x844 .. killed: each lane is 32px (face 48..342 in 12..378)
-//   cardwidth-tablet-lanes-lost .... no lanes where the row is flush, 768 .. killed: each lane is 32px (face 136..632 in 136..632)
+//   cardwidth-tablet-lanes-lost .... RETIRED in WIDTH2 with its subject (at 768 the lanes are gone by design)
 //   cardwidth-column-offset-lost ... the face on the grid's edge, 1440 ..... killed: the face is centred in the section (lanes 0 / 64)
+//   WIDTH2 (U152 b), the switch, from both sides:
+//   cardwidth-b-lost ............... lanes everywhere (a), 768 ............. killed: the face is the section, edge for edge (168..600 in 136..632)
+//   cardwidth-b-in-columns ......... outside in the columns too, 1024x768 .. killed: each lane is 32px (face 61..500 in 61..500)
+//   cardwidth-b-margin-too-strict .. 120px of margin asked for, 600x760 ... killed: the face is the section, edge for edge (84..516 in 52..548)
+//   cardwidth-b-starts-early ....... the row flush from 590px, 599x760 ..... killed: each lane is 32px (face 51.5..547.5 in 51.5..547.5)
+//   cardwidth-b-gap-back ........... Previous 8px clear outside, 768 ....... killed: Previous abuts the face
 //   cardwidth-nodeck-old ........... no deck keeps free - 32, 390x844 ...... killed: the face starts on the section's edge (16 / 12)
 //   cardwidth-nodeck-column-old .... no deck keeps column - 52, 1440 ....... killed: the face ends on the section's edge (656 / 708)
 //   cardwidth-arrow-gap-back ....... Previous 8px clear again, 390x844 ..... killed: Previous abuts the face (36 / 44)
 //   cardwidth-glyph-in-target ...... the glyph centred in its target, 390x631 killed: Previous's glyph is centred in its lane (22 / 28)
-//   cardwidth-next-glyph-in-target . Next's glyph pushed out, 768 .......... killed: Next's glyph is centred in its lane (628 / 616)
+//   cardwidth-next-glyph-in-target . Next's glyph pushed out, 768 .......... killed: Next's glyph stands 16px from the face (WIDTH2)
 //   cardwidth-arrows-in-moves-band . the arrows up at top:-60px, 1440 ...... killed: Previous stands beside the face, not above it
 // Control: this whole file against dev v1.262.10's own bundle, 9 of 10 red at these claims; the 768 no-deck test green (that face
 // already spanned the row). NOT KILLED, recorded: nothing here can see the 12px reach go to a neighbour's press, because no control
