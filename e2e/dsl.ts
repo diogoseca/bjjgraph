@@ -1124,17 +1124,40 @@ export class Journey {
     throw new Error(`next hand not dealt within ${capMs}ms of sim time`);
   }
 
-  /** Pump sim time in small steps until a beat appears — for sequences whose exact duration
-   *  varies (travel legs, opponent turns) but whose expiry would fire under one long advance. */
+  /**
+   * Pump `stepMs` at a time until `beat` has been emitted since boot, at most `capMs` of sim time: for
+   * sequences whose exact duration varies (travel legs, opponent turns) but whose expiry would fire under
+   * one long advance.
+   *
+   * THE CHECK IS ASKED IN THE PAGE (v1.262.7, GATE3). It used to be `(await this.beats()).some(...)`,
+   * which copies the whole beat log (up to 4,000 entries, `fx()` trims at 4,000) back to Node on EVERY
+   * step: 31 ms a call against 4.3 ms for an empty evaluate on the dev box, 1,777 calls and 54.9 s in
+   * GATE1's 138-test sample of the deploy gate (reports/gatetime.md, c2). `sawBeat()` runs the same
+   * predicate where the log lives and returns one boolean.
+   * DELIBERATELY STILL TWO ROUND TRIPS PER STEP (advance, then the check), as before: folding the
+   * check into advance()'s evaluate would read the log in the same task as the pump, so a beat that
+   * lands in a microtask or a network callback between the two would be seen one step LATER, and the
+   * journey would stop 400 ms further on. Same steps, same order, same predicate; only the copy is gone.
+   * Measured in an A/B on the same tree: the check fell from 26.6-51.5 ms a call to 17.4-25.7 ms.
+   * Pinned by harness-advance-until.spec.ts: it returns right after the step that brought the beat; it
+   * throws at the cap having pumped exactly the cap; it reads the log since boot, after one step.
+   */
   async advanceUntil(beat: string, capMs = 16000, stepMs = 400) {
     let spent = 0;
     while (spent < capMs) {
       await this.advance(stepMs);
       spent += stepMs;
-      const bs = await this.beats();
-      if (bs.some((b) => b.beat === beat)) return this;
+      if (await this.sawBeat(beat)) return this;
     }
     throw new Error(`beat "${beat}" not seen within ${capMs}ms of sim time`);
+  }
+
+  /** Has `beat` been emitted since boot? Asked in the page, so the beat log never crosses to Node. */
+  async sawBeat(beat: string): Promise<boolean> {
+    return this.page.evaluate(
+      (b) => ((window as W).__neural.beats || []).some((x: { beat: string }) => x.beat === b),
+      beat,
+    );
   }
 
   /** The visible option cards (bottom tray), by title. */
