@@ -74,11 +74,12 @@ test('an account never adopts unowned legacy automatically; the data layer retai
 // v1.262.0 (owner U138 a): guest practice joins EVERY account that signs in on the browser, so A and B both get
 // `guest: 3`; the claim kept is that A's own practice never reaches B (was: B restored with no guest state at all).
 test('A to B saves A only: B never receives A practice (both receive the guest practice, U138 a)',async()=>{
-  const h=harness();h.host.store.write(ownerB,blob({b:7}));await h.boot();h.get().prep.guest=3;const a=h.switchTo('A');a.prep.a=8;const b=h.switchTo('B');
+  // ORDER1: guest practice joins after the account's first successful pull, so each sign-in here is followed by it
+  const h=harness();h.host.store.write(ownerB,blob({b:7}));await h.boot();h.get().prep.guest=3;const a=h.switchTo('A');await a._pullAndMerge();a.prep.a=8;const b=h.switchTo('B');await b._pullAndMerge();
   assert.deepEqual(b.prep,{b:7,guest:3});assert.deepEqual(h.host.store.read(ownerA).blob.prep,{a:8,guest:3});assert.deepEqual(h.host.store.read(guest).blob.prep,{guest:3});assert.equal(a.__ngDestroyed,true);
 });
 test('signout restores guest rather than relabeling account practice',async()=>{
-  const h=harness();await h.boot();h.get().prep.guest=4;const a=h.switchTo('A');a.prep.a=9;a._clearAuthUser();
+  const h=harness();await h.boot();h.get().prep.guest=4;const a=h.switchTo('A');await a._pullAndMerge();a.prep.a=9;a._clearAuthUser();
   // v1.262.0: A's copy also holds the guest practice it joined at sign-in; the guest copy is never relabelled with A's
   assert.deepEqual(h.get().prep,{guest:4});assert.deepEqual(h.host.store.read(ownerA).blob.prep,{a:9,guest:4});assert.equal(h.get().user,undefined);
 });
@@ -98,7 +99,7 @@ for (const existingGuest of [false,true]) {
     const expected=existingGuest?{guest:2}:{legacy:5};
     assert.equal(h.get()._progressOwner.kind,'guest');assert.deepEqual(h.get().prep,expected);
     // v1.262.0: signing back in joins the guest copy by itself (was: an explicit, confirmed import)
-    h.switchTo('A');assert.deepEqual(h.get().prep,expected,'the guest copy joined at sign-in');
+    h.switchTo('A');await h.get()._pullAndMerge();assert.deepEqual(h.get().prep,expected,'the guest copy joined after the first pull');
     for (const [key,value] of Object.entries(legacy)) assert.equal(h.mem.rows.get(key),value,key+' stays byte-identical');
   });
 }
@@ -154,7 +155,7 @@ test('explicit legacy import strips consent and preserves its source bytes',asyn
 });
 // v1.262.0 (owner U138 a): was "guest import is explicit"; guest practice now joins at sign-in, with no import step.
 test('guest practice joins at sign-in without an import, and another account is never offered',async()=>{
-  const h=harness();await h.boot();h.get().prep.guest=3;const a=h.switchTo('A');assert.deepEqual(a.prep,{guest:3});assert.equal(h.host.previewImport(a,'account:B').status,'unavailable');
+  const h=harness();await h.boot();h.get().prep.guest=3;const a=h.switchTo('A');assert.deepEqual(a.prep,{},'nothing before the first pull (ORDER1)');await a._pullAndMerge();assert.deepEqual(a.prep,{guest:3});assert.equal(h.host.previewImport(a,'account:B').status,'unavailable');
   assert.equal(h.host.store.read(ownerA).blob.prep.guest,3);assert.equal(h.host.store.read(guest).blob.prep.guest,3);
 });
 test('import preview cannot cross an identity change or changed source',async()=>{

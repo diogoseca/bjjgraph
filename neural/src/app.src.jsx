@@ -6922,14 +6922,11 @@ class Component extends DCLogic {
     const name = (u.user_metadata && (u.user_metadata.full_name || u.user_metadata.name)) || (email ? email.split("@")[0] : "You");
     this.user = { name: name, initial: (name[0] || "Y").toUpperCase(), email: email }; // email feeds the account menu's identity row
     this.updateAccountUI();
-    // v1.262.0: once per mounted account, on its VERIFIED identity (never on a mount alone, so a local-only account joins
-    // nothing), and before its first pull (`_initAuth` awaits the pull after this returns): the join rides the pull's
-    // merge and the first push.
-    if (!this._guestJoinTried) { this._guestJoinTried = true; this._joinGuestPractice(); }
   }
   // GUEST PRACTICE JOINS THE ACCOUNT AT SIGN-IN (v1.262.0, owner U138 a, "Always automatic"; the rule and its reasons are
   // in progress-owner.src.js above `ngProgressGuestMerge`). It replaces the menu row "Review guest progress" and its
   // Import dialog, which every signed-in player saw for good (the owner, 11 Nov: "seems like AI slop/bloat pls fix").
+  // WHEN: at the end of the account's first SUCCESSFUL pull (`_pullAndMerge`), never before it (ORDER1, above there).
   // THE LINE, once per guest copy and account: the announcer, which is `pointer-events:none` and sits at the top centre
   // (`.ng-evtoast`), printed WHOLE (never cut at its " from " like a node's name) and stepped below any control its lines
   // meet (`_evStepBelowControls`: at 390 the top-left icons; e2e/journeys/guest-join.spec.ts pins "covers no control"
@@ -6939,8 +6936,10 @@ class Component extends DCLogic {
   // is silent.
   _joinGuestPractice() {
     const host = this._progressHost;
-    if (!this._progressCurrent() || !host || !host.joinGuest) return;
+    if (this._guestJoinTried || !this._progressCurrent() || !host || !host.joinGuest) return;
     const r = host.joinGuest(this);
+    // once per mounted account: a definite answer ends it; a refusal (a failure) leaves it for the next pull
+    if (r.status !== "unavailable") this._guestJoinTried = true;
     if (r.status !== "joined") return;
     this._hydrateProgressBlob(r.blob);
     this._applyLayers(); this._refreshChallengeEvidence();
@@ -7135,6 +7134,12 @@ class Component extends DCLogic {
       this._pulled = true; this._pulledUserId = userId; this._pushSeq = (this._pushSeq || 0) + 1;
       this._cloudSeen = pushesAtStart === (this._pushEvents || 0) ? seen : null;
       this._cloudSyncError = null;
+      // v1.262.0 (ORDER1): guest practice joins only HERE, after a successful pull, so the rule meets the CLOUD's rows
+      // and not only this browser's copy. Joined before the pull, a guest's later or same-day "No" went in unprotected
+      // on a browser whose copy lacked the cloud's "Yes", then beat that Yes in this very merge and was pushed
+      // (tests/guest_join_safety.test.mjs 11). A failed or offline pull therefore joins nothing, marks nothing and
+      // pushes nothing of the guest's; the next successful pull joins. Below: the push carries the joined practice.
+      this._joinGuestPractice();
       this._saveProgress();         // persist verified merge; then push only if the merge differs from what the cloud gave
       return true;
     } catch (e) {

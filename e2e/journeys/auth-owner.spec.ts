@@ -175,11 +175,12 @@ test('@curated A to B to signout: each account keeps its own lists, both receive
   await page.evaluate(() => { (window as any).__outgoingOwner = (window as any).__neural })
   await emitOwner(page, A)
   expect(await page.evaluate(() => (window as any).__outgoingOwner.__ngDestroyed)).toBe(true)
-  expect(await names(page)).toEqual(['Guest practice'])
+  // ORDER1: the guest practice joins at the end of the account's first successful pull, which waitOwner does not await
+  await expect.poll(() => names(page)).toEqual(['Guest practice'])
   await addList(page, 'A practice')
   await expect.poll(async () => (await fixture(page)).writes.filter((r: any) => r.user_id === A).length).toBeGreaterThan(0)
   await emitOwner(page, B)
-  expect(await names(page)).toEqual(['Guest practice'])
+  await expect.poll(() => names(page)).toEqual(['Guest practice'])
   await addList(page, 'B practice')
   await expect.poll(async () => (await fixture(page)).writes.filter((r: any) => r.user_id === B).length).toBeGreaterThan(0)
   await j.land('Mount Top')
@@ -207,7 +208,7 @@ test('@curated A to B to signout: each account keeps its own lists, both receive
   for (const id of [A, B]) expect(writes.some((r: any) => r.user_id === id && Object.values(r.neural.lists || {}).some((l: any) => l.name === 'Guest practice')),
     id + ' received the guest practice in the cloud').toBe(true)
   await emitOwner(page, A)
-  expect(await names(page)).toEqual(['A practice', 'Guest practice'])
+  await expect.poll(() => names(page)).toEqual(['A practice', 'Guest practice'])
 })
 
 test('@curated same-account SDK refresh preserves the real mounted hand and options', async ({ page }) => {

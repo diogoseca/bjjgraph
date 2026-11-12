@@ -132,7 +132,9 @@ export function ngProgressMergeMoves(local, cloud, today) {
 //   2. a guest's No never takes an account's Yes (`ngProgressGuestMoves`). The pull's `moves` order lets the later
 //      answer win, so a guest's later "Still got it? No" took the account's gold, its +15 and a "Moves known" point
 //      through the old Import (U125 b's rule, right inside one account and across its devices, where it still holds).
-//      The account's own row is kept: it is already the cloud's row, so the next pull cannot undo it.
+//      The account's own row is kept. It is the cloud's row ONLY because the join runs after a successful pull
+//      (`joinGuest`'s `not-pulled` refusal, `_pullAndMerge`): `live` then holds the cloud's rows, so the next pull,
+//      on this device or another, cannot undo it (ORDER1, tests/guest_join_safety.test.mjs 11).
 // Every other field of that merge already only adds (prep/rec/stage/days MAX, belts.held MAX and won union,
 // badges/coins/explored/tut union, challenges MAX progress, lists add-wins, flow a new device partition, units and
 // unknown fields: the account's wins). `srs` keeps the pull's rule: a guest's later miss can bring a card back
@@ -528,13 +530,16 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       return result;
     },
     // ── v1.262.0: the guest copy joins the account (see ngProgressGuestMerge) ──
-    // Called once per mounted account, from its verified identity (`_applyUser`), never from a mount alone: a local-only
-    // account (identity unverified) and a held switch join nothing and mark nothing. Statuses: `joined` (with the blob
-    // to hydrate), `none` (no guest copy), `seen` (this guest copy already taken here), `nothing` (no practice in it:
-    // marked, silent), or a failure (nothing written, nothing marked).
+    // Called by the app at the end of the account's first SUCCESSFUL pull (`_pullAndMerge`), never before it: the rule
+    // must meet the cloud's rows, and the local copy holds them only after a pull (ORDER1: joined before the pull, a
+    // guest's later "No" beat a "Yes" only the cloud held). So a local-only account (identity unverified), a held switch
+    // and an account whose pull has not succeeded join nothing and mark nothing; this refuses them too, a second guard.
+    // Statuses: `joined` (with the blob to hydrate), `none` (no guest copy), `seen` (this guest copy already taken here),
+    // `nothing` (no practice in it: marked, silent), or a failure (nothing written, nothing marked).
     joinGuest(inst) {
       if (!host.current(inst) || inst._progressOwner?.kind !== "account") return ngProgressFailure("not-an-account");
       if (inst._progressLocalOnly) return ngProgressFailure("identity-unverified");
+      if (inst._pulled !== true || inst._pulledUserId !== inst._progressOwner.id) return ngProgressFailure("not-pulled");
       const found = store.read(ngProgressOwner());
       if (found.status === "empty") return { status: "none" };
       if (found.status !== "ready") return found;

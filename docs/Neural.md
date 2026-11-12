@@ -838,7 +838,7 @@ on its own latch and never touches the pane.
 ## 8. Progress
 
 **Progress is stored per owner**: `bjj-neural-owner:<guest|account:id>:*`. A guest's first load
-adopts the old unowned `bjj-neural-progress` once, keeping its bytes. **A verified sign-in joins the
+adopts the old unowned `bjj-neural-progress` once, keeping its bytes. **A sign-in's first successful pull joins the
 guest copy's practice to the account** once, saying so (`joinGuest`): it only adds, and the guest
 copy stays. **Local-only**: a device whose SDK cannot load, or cannot check its session, plays the
 account's local copy under a banner, never syncs, and on re-verify merges before a push.
