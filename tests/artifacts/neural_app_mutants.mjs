@@ -334,6 +334,23 @@ const controls = [
     [['catch(p){this._signinAbandoned(),a(p&&p.message||"Sign-in failed', 'catch(p){a(p&&p.message||"Sign-in failed']], 'a failed attempt leaves no intent (email)'],
   ['google-failure-keeps-intent', 'signin-intent.spec.ts', 'fails in place leaves no intent',
     [['catch(f){this._signinAbandoned(),a(f&&f.message||"Google sign-in failed.', 'catch(f){a(f&&f.message||"Google sign-in failed.']], 'a failed attempt leaves no intent (Google)'],
+  // WINBAR1 (owner, 2026-11-11: "the win-lose bar shouldn't show for such screens"): where the bar falls under the reader's grid it is
+  // away, the reserve no longer counts it, and the one painter keeps writing it while away. One control per claim of winbar-fold.spec.ts.
+  ['winbar-under-shown', 'winbar-fold.spec.ts', '574x760',
+    [['||!o&&!!((u=this._reader)!=null&&u.barUnder))', ')']], 'the win bar is not visible'],
+  ['winbar-reserve-bar-back', 'winbar-fold.spec.ts', '574x760',
+    [['for(let s of[this.shareCueRef.current]){', 'for(let s of[this.shareCueRef.current,this.wrapRef.current.querySelector(".ng-winbar")]){']], "the column's bottom is the viewport's bottom"],
+  ['winbar-reserve-floor', 'winbar-fold.spec.ts', '390x631',
+    [['_readerReserve(e){let t=0;', '_readerReserve(e){let t=41;']], "the column's bottom is the viewport's bottom"],
+  ['winbar-away-everywhere', 'winbar-fold.spec.ts', '1440x900',
+    [['||!o&&!!((u=this._reader)!=null&&u.barUnder))', '||!o)']], 'the win bar shows'],
+  // WINBAR2 (owner's pick U137 a): the other half of the rule, the bar is away only while the column is on screen; free roam is the
+  // map alone and has it back (legend-search at 768, where it was away under the column).
+  ['winbar-away-on-map-alone', 'legend-search.spec.ts', '768, by touch',
+    [['||!o&&!!((u=this._reader)!=null&&u.barUnder))', '||!!((u=this._reader)!=null&&u.barUnder))']], 'the map alone keeps the win bar'],
+  ['winbar-paint-skips-away', 'winbar-fold.spec.ts', 'keeps today',
+    [['_paintWinThermometer(e){if(!this.adv)return;', '_paintWinThermometer(e){if(!this.adv||this.legendMarkRef.current?.closest(".ng-winbar")?.hasAttribute("data-away"))return;']],
+    'not the one it went away with'],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')
