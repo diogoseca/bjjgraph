@@ -15773,3 +15773,65 @@ One wait had to be revised: the first `reading-navigation` form took the first `
 **Not in scope, noted:** `outcome-on-cards` :296 ("still clear mid-flight") and :335 ("does not rise") read after fixed sleeps too; both are absence-shaped, and on a page that starts the animation late they can pass before it has begun.
 
 **Runs.** LOCAL, under the build lock (`BUILD_PEAK_MIB=4000`, `TMPDIR=/home/user/tmp-pw`), core config, this box with eight other seats on it. On the final tree (dev `5619059fb`, v1.262.7, merged; bundle rebuilt with `dev:neural:app` at 1.262.9): the four spec files in full, 3 + 16 + 12 + 21 of 52; the three changed tests `--repeat-each 20` unthrottled, 20 + 40 + 20 of 80; each new form `--repeat-each 20` under the control that broke its old form (above), and each old form 3 to 5 times under it. Earlier, on dev `efc021a84` and `3b0d973eb`: the mutant table, the first 20-fold arms, the probes. The controls are scratch copies generated from each spec's own text plus a runner knob (CDP `Emulation.setCPUThrottlingRate`, a delayed `requestAnimationFrame`, a late `setTimeout`, the GPU process stopped by its PID from `SystemInfo.getProcessInfo`, a held route, a main-thread stall), and the mutants are string patches of the served bundle; none is in the tree. The full core suite and `e2e:gen` run on the PR (e2e-full). No gate, baseline or ceiling moved; no `@curated` tag added or removed; spec-only, so no build fingerprint row moves.
+
+## v1.262.10 — The first-hand baseline is checkpointed at dev v1.262.7's own level (PAYBASE1, 2026-11-12)
+
+**Why.** `first_hand_gzip_bytes`' delta cap (6,000 B, measured on the first-hand CORE) reads growth since the last
+ACCEPTED baseline: 365,296 B, v1.221.0 (3d1b7552a), 7 Oct. Dev 5619059fb (v1.262.7) measured 371,107 B on its own
+deploy (Deploy to Preview run 43196894885, verdict warn): +5,811 B, 189 B of room. PR #384 (+572 B on top of dev)
+went red on `payload-first-hand.spec.ts:117` at +6,383 B, and so would the next PR of any size. The owner's
+standing rule for exactly this (5 Nov, PR #336; precedents 35bdbf6ba, fa246f4bd): the baseline is checkpointed at
+DEV's own level, never at a branch's. Target 365,000, action 465,000 and delta_cap 6,000 do not move; nor do the
+eager set's baseline or the deferred ceiling.
+
+**Reproduced, to the byte.** `payload-first-hand.spec.ts` on this tree's own emit and bundle (dev 5619059fb's
+sources), over a borrowed Quartz page build (v1.256.2): start K-Guard Top, 11 requests, core 371,107 B, as the
+deploy measured. Of the eleven requests only `/postscript.js` differs in bytes (77,140 raw here, 79,594 on the
+deploy: the PostHog snippet the deploy bakes in, +1,063 B gzip), and it is excluded from the core; the other ten
+sum to the same raw bytes as the deploy's. The `?v=1.256.2` on `neural.js` and `neural.css` in the committed
+`tests/artifacts/first_hand_payload.json` is the borrowed page's query string; the bytes served are this tree's.
+
+**Accepted with the script** (`check_payload_budget.py --accept-baseline first_hand_gzip_bytes --reason …`), before
+the version bump, so it stamped `v1.262.7 (5619059fb)` itself; nothing was corrected by hand.
+
+**Synced with dev v1.262.9 (fa41f1523) before landing, the checkpoint kept at v1.262.7** (the orchestrator's call,
+PAYBASE2): v1.262.9 changed test files only, so v1.262.7's level IS dev's. Measured here on v1.262.9's own tree
+(1.262.9 baked into the bundle): core 371,107 B again, to the byte. This PR's own bundle bakes 1.262.10, one
+character longer in six places: 371,110 B locally, +3 B against the new baseline, its own visible delta. The
+version is 1.262.10 because v1.262.8 was this PR's number before the sync and v1.262.9 is dev's.
+
+**Where the 5,811 B came from**, gzip -9 per file, as the spec gzips. The neural files were rebuilt from clean
+exports of dev at each checkpoint (emitter, MDP shards, bundle). The v1.221.0 row's rebuild of 3c1e3cc9b plus the
+v1.216.0 page bytes (`/` 7,594, `index.css` 10,113, `prescript.js` 1,297) sums to exactly 365,296 B, so the start
+point is the baseline as measured. "data" is `graph-data.json` + `curriculum.json` + `flashcards/_index.json`.
+
+| dev, by period | neural.js | neural.css | data | net | what moved it |
+|---|---|---|---|---|---|
+| 7-19 Oct, v1.222.0-v1.227.8 | +848 | −82 | −73 | +693 | landing-deck answers (#272, +409 on its own PR), the reading-first way, mastery gold |
+| 21-28 Oct, v1.229.0-v1.240.1 | −1,547 | +1,115 | −3,318 | −3,750 | the graph restructure (#315), −3,174 of the data; article sections (#307), the directed opening |
+| 30 Oct-6 Nov, v1.241.0-v1.251.1 | +2,661 | +657 | +2,628 | +5,946 | the 52 missing moves (#343) +1,727 and Demi Guard (#328) +787 of the data; the drawer, Practice's new look, the video theater |
+| 9-10 Nov, v1.251.2-v1.255.2 | −3,999 | +796 | 0 | −3,203 | the node dossier retired (v1.255.1, −6,405); hidden moves (v1.255.0, +2,491 eager) |
+| 11-12 Nov, v1.256.0-v1.262.7 | +6,247 | +76 | 0 | +6,323 | ranked search (v1.257.0, +2,871); moves mastery stage 2, guest practice |
+| the home page `/` | | | | −198 | `index.css` and `prescript.js` unchanged |
+| **v1.221.0 -> v1.262.7** | **+4,210** | **+2,562** | **−763** | **+5,811** | core 365,296 -> 371,107 |
+
+The last two days alone added more than the cap (+6,323 B over 21 versions, none over it on its own); the dossier
+retirement on 10 Nov is what kept the total under it until today. The whole first load is 405,219 B gzip on the
+deploy (404,156 locally, the PostHog snippet the difference): 40,219 B over the 365,000 B target, 59,781 B under
+the 465,000 B action line. Checkpoints: 557c57d14, f63049013, 4b84d6cd3, 6a5bfa27f, then 5619059fb. The data
+column's three named merges were measured by emitting the tree just before and just after each (c87c80401 ->
+753b26df8, f63049013 -> 8e1b9845d, 917191cc9 -> c108e4646); the app work is named from what touched
+`app.src.jsx` and the stylesheets in each span, with a figure only where its own PR recorded one.
+
+**And the deferred ceiling, +4 B, in its own commit** (PAYBASE3, the orchestrator's authorisation under the owner's
+U134 b). The merged build went red on `deferred payloads (raw): 510,981 B exceeds ceiling 510,977 B`: dev's deferred
+set had stood exactly at its ceiling since v1.259.0, and "1.262.10" is one character longer than "1.262.9". Built
+both ways from the same sources, `game-study.js`, `game-study.worker.js`, `game-values.js` and `settings-ui.js` each
+grow by 1 B, and each is byte-identical to the 1.262.9 build once the version is swapped back; no other deferred file
+moves. The ceiling moves to exactly 510,981 B (`budget_site.json` and `NEURAL_TARGET`), leaving 1,019 B of the owner's
+512,000 B; at v1.263.0 the set is 4 B smaller again. `check_payload_budget.py` exits 0 on this build.
+
+**Runs.** LOCAL, under the build lock: the bundle (`dev:neural:app`) and `payload-first-hand.spec.ts` on v1.262.7,
+on v1.262.9 and at 1.262.10 (1 of 1 each), the five sandbox rebuilds and nine emit-only ones. `npm run ci:validate`
+on the merged tree. The PR's e2e-full runs the full core suite and `e2e:gen`, with `payload-first-hand` a few bytes
+over the new baseline (the version string).
