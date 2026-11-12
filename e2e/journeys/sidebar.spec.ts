@@ -64,7 +64,8 @@ for (const width of [390, 1440]) test.describe(`index landing ${width}`, () => {
       const x = before.x + before.width / 2, y = before.y + before.height / 2
       if (width === 390) await page.touchscreen.tap(x, y)
       else await page.mouse.click(x, y)
-      await expect(page.locator(".ng-pane-drillhead"), "the press aimed before landing opens Practice").toContainText("Practice")
+      // v1.261.0 (owner U135 a): Practice is a view in the drawer and the brand names it, as it names Path
+      await expect(page.locator(".ng-drawer-brand"), "the press aimed before landing opens Practice").toHaveText("‹ Practice")
     } finally { release() }
   })
 })
@@ -236,17 +237,18 @@ test("Practice, Path and Last rolls open their views, and the brand leads back",
   await j.clickByMouse(".ng-drawer-brand", "‹ Last rolls, home")
 
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice")
-  // titled by what it holds: v1.248.0's compact head carries the belt, so the owed reviews head the card
-  // section instead (practice-mix.spec pins the mix)
-  await expect(page.locator(".ng-pane-drillhead"), "Practice opens the session").toContainText("Practice")
+  // titled by what it holds: the compact head carries the belt, so the owed reviews head the card
+  // section instead (practice-mix.spec pins the mix). v1.261.0 (owner U135 a): Practice is a view in the
+  // drawer, as Path is, so "Practice" is in the brand ("‹ Practice"), no longer in the study head.
+  await expect(page.locator(".ng-drawer-brand"), "Practice opens the session").toHaveText("‹ Practice")
   await expect(page.locator("[data-practice-section]"), "titled by the owed reviews").toHaveText("Due reviews \u00b7 2 cards")
-  // the study head's ‹ Back is a real button (SIDE-R2 P2): it takes focus, and Enter takes it home
+  // Practice's ‹ Back is the brand, a real button (SIDE-R2 P2): it takes focus, and Enter takes it home
   await page.locator("[data-pane-back]").focus()
   expect(await page.evaluate(() => document.activeElement?.getAttribute("data-pane-back")), "‹ Back takes focus").toBe("1")
   await page.keyboard.press("Enter")
   await expect(page.locator("[data-drawer-explore]"), "Enter on ‹ Back leaves the session").toBeVisible()
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice, again")
-  await expect(page.locator(".ng-pane-drillhead")).toContainText("Practice")
+  await expect(page.locator(".ng-drawer-brand")).toHaveText("‹ Practice")
   await j.clickByMouse(".ng-drawer-brand", "the brand, out of the session")
   await expect(page.locator("[data-drawer-explore]")).toBeVisible()
 })
@@ -269,7 +271,7 @@ test("a repaint between pressing Practice and releasing it does not swallow the 
   await page.mouse.down()
   await page.evaluate(() => (window as W).__neural._paintTrain())
   await page.mouse.up()
-  await expect(page.locator(".ng-pane-drillhead"), "the press opened Practice").toContainText("Practice")
+  await expect(page.locator(".ng-drawer-brand"), "the press opened Practice").toHaveText("‹ Practice") // v1.261.0: the brand names Practice
 })
 
 test("a principle lights its places and fades the rest of the map to ~20%, smoothly", async ({ page }) => {

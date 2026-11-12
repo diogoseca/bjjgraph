@@ -68,33 +68,23 @@
   padding: 4px 24px 16px !important;
 }
 
-/* P1: deliberate study uses the screen; the drawer remains its navigation.
-   All answer content is in one scroller. No pinned account/goal/footer can
-   cover a long question or an enlarged response control. */
+/* Practice is a view INSIDE the drawer, at the drawer's width, as Path is (owner U135 a, v1.261.0); from v1.248.0 to
+   v1.260.0 it was a 760px page centred over the map, which hid the map that follows each card (app.src.jsx,
+   `_practiceInDrawer`). All answer content is in one scroller. No pinned account/goal/footer can cover a long
+   question or an enlarged response control.
+   Opaque: the drawer's own 98.4% gradient lets the paused game's bright text show through on a phone (measured in
+   PRACT1; Path shows it too, under its rows), and Practice is a reading surface. */
 .ng-drill[data-practice-page] {
-  width: min(760px, 100vw) !important;
-  left: 50% !important;
-  transform: translateX(-50%);
   background: #111522 !important;
 }
-.ng-drill[data-practice-page] .ng-drawer-head {
-  padding: 0 10px;
-}
+/* The brand reads "‹ Practice" and is the way back, so the drill head is the belt line alone. */
 .ng-drill[data-practice-page] .ng-pane-drillhead {
-  display: grid !important;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  gap: 5px 12px;
-  padding: 4px 16px 10px !important;
+  padding: 0 22px 6px !important;
 }
 [data-practice-page] .ng-pane-drillhead small {
-  grid-column: 2;
+  display: block;
   color: #a6b3ca;
   font-size: 11px;
-}
-[data-practice-page] .ng-pane-drillhead .ngBack {
-  grid-row: span 2;
-  color: #cbd5e8;
 }
 [data-practice-page] .ng-pane-drillhead + div {
   padding: 10px 16px 24px !important;
@@ -139,8 +129,7 @@
   flex-direction: column;
 }
 [data-practice-queue] button,
-.ng-earlier-belts,
-[data-practice-page] .ngBack {
+.ng-earlier-belts {
   font: inherit;
   border: 0;
   background: transparent;
