@@ -27,7 +27,7 @@ jobs:
     name: Build tested site
     runs-on: ubuntu-latest
     timeout-minutes: 25
-    # THE SHARDS RUN WHENEVER THE SITE BUILT (v1.263.1, GATE6; the reviewer's finding 2 on #388). `test` and `gen`
+    # THE SHARDS RUN WHENEVER THE SITE BUILT (v1.263.2, GATE6; the reviewer's finding 2 on #388). `test` and `gen`
     # wait on this output, the tested site's upload, not on the job's success: a red in a post-build gate below (the
     # postprocessor contract, the census, the deploy-gate ledger, the keyless analytics fixture) keeps THIS job red
     # and no longer skips the 1,474 core journeys and the generated suite. That matters most on a push to dev, whose

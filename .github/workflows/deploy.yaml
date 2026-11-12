@@ -59,7 +59,7 @@ jobs:
         with:
           node-version: "22"
 
-      # THE PROMOTION RULE, ENFORCED (v1.263.1, GATE6; the reviewer's finding 1 on #388). This deploy runs only the
+      # THE PROMOTION RULE, ENFORCED (v1.263.2, GATE6; the reviewer's finding 1 on #388). This deploy runs only the
       # deploy gate (what a deploy can break, plus one smoke per surface), so the full suite must already have passed on
       # the exact tree it ships. A promotion is a --no-ff merge of a preview-verified dev commit with no PR, so the only
       # full run of that tree is the dev commit's push-run of e2e-full. This fails unless an e2e-full run (push or manual
@@ -286,7 +286,7 @@ jobs:
       # U147 a). Every `@curated` journey has one row in tests/artifacts/deploy_gate.json with its reason: tier D, a
       # test that reads what only a deploy build has (the keyed config in postscript.js and its build stamp, or this
       # checkout's own history); tier S, re-run on the exact tree that ships while reading nothing a PR build lacks
-      # (one quick test per surface, plus the sign-in and account seams kept whole). v1.263.1 moved 28 rows from D to
+      # (one quick test per surface, plus the sign-in and account seams kept whole). v1.263.2 moved 28 rows from D to
       # S and dropped "the affiliate stamp" from D, which no row reads. The rest of the suite does not run here: it
       # runs in e2e-full.yml on every PR and every push to dev, and a promotion takes only a commit whose push-run
       # e2e-full is green, which the first gate of this job enforces, because no PR run sees main's tree. History: until v1.263.0 "a fast representative gate", 250 tests, then 427 (timeout 20 -> 30 at

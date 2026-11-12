@@ -26,7 +26,7 @@
 //   game-value-live's condition widened to every width       → NOT killed here, by design (see above); killed by
 //                                                              `check --listed`: "the gate runs a test with no row"
 //
-// GATE6 (v1.263.1, the reviewer's findings 1, 5 and 6 on #388), each mutant applied alone to a scratch copy, this file
+// GATE6 (v1.263.2, the reviewer's findings 1, 5 and 6 on #388), each mutant applied alone to a scratch copy, this file
 // run, reverted; every one killed at the named assertion:
 //   RAN        posttest:curated removed → "npm runs the count after every green curated run"; the config's JSON reporter
 //              removed → "the core config writes the report the count reads"; a skipped test counted as passed → "a
@@ -300,7 +300,7 @@ test("e2e-full: every push to dev runs the full suite, one run per burst, and ch
   assert.equal(listed.length, 1, "exactly one step checks Playwright's own selection against the rows");
 });
 
-// v1.263.1 (GATE6 part 5, the reviewer's finding 5 on #388): the promotion rule relies on the push-run being the WHOLE
+// v1.263.2 (GATE6 part 5, the reviewer's finding 5 on #388): the promotion rule relies on the push-run being the WHOLE
 // suite, so nothing may narrow it: no path filter on either trigger, and no condition that could skip a job beyond
 // the one part 4 adds (the shards and gen wait on the tested site's upload, not on the build job's other gates).
 test("e2e-full: nothing narrows the push-run: no path filter, no job or step condition beyond 'the site built'", () => {

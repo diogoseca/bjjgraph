@@ -54,7 +54,7 @@ DEPLOY_ONLY = {
     ('python3', 'scripts/check_analytics_surface.py'): 'deploy PostHog environment',
     ('node', 'scripts/check_analytics_nokey.mjs'): 'independent keyless fixture',
 }
-# Production only, and BEFORE the build (v1.263.1, GATE6): the promotion rule. deploy.yaml runs only the deploy gate,
+# Production only, and BEFORE the build (v1.263.2, GATE6): the promotion rule. deploy.yaml runs only the deploy gate,
 # so the commit that vouches for a push to main must already have a green full-suite run (scripts/deploy_gate.mjs
 # promotion). It reads the runs API, not the built tree, so it is no part of the build chain; a preview has nothing to
 # promote, so deploy-dev.yaml must NOT carry it. Exactly once in deploy.yaml, unconditional, as written here.

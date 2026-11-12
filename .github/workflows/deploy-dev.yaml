@@ -253,7 +253,7 @@ jobs:
       # test that reads what only a deploy build has (the keyed Supabase and PostHog config in postscript.js and the
       # build stamp it carries, or this checkout's own history); tier S, re-run on the exact tree that ships while
       # reading nothing a PR build lacks (one quick test per surface, plus the sign-in and account seams kept whole).
-      # v1.263.1 moved 28 rows from D to S whose fixtures supply the config or stub PostHog, and dropped "the
+      # v1.263.2 moved 28 rows from D to S whose fixtures supply the config or stub PostHog, and dropped "the
       # affiliate stamp" from D: no row reads a stamped link (the static gates above check the stamp). Every other
       # journey runs in e2e-full.yml, on every PR and on every push to dev beside this deploy; a promotion takes only
       # a commit whose push-run e2e-full is green, and deploy.yaml now enforces that.
