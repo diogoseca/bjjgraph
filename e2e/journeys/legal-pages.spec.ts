@@ -30,8 +30,9 @@ import { journey, type Journey } from "../dsl"
  * appears reads it half transparent (measured: opacity 0.51). The claim is about the box once it has settled.
  * Presses are a player's: a real touch tap at measured centres at 390 (elementFromPoint must name the control), the mouse at 1440.
  * What the harness does NOT serve: off-origin requests are aborted, and node dossier chunks are "{}" (claim 6 needs only the article
- * sections, which come from the page HTML). No @curated tag: nothing here depends on what a deploy stamps (tests/artifacts/
- * deploy_gate.json, U147 a); the PR's e2e-full runs it all.
+ * sections, which come from the page HTML). @curated: claim 1 at 390x844 only, the legal pages' one smoke test in the deploy gate
+ * (tests/artifacts/deploy_gate.json, tier S): these pages were unreadable on production for four months and nothing noticed. The
+ * rest runs in the PR's e2e-full.
  *
  * Red-proof: see docs/Changelog-Archive.md (LEGAL3): one mutant per claim, each red at its named assertion. Survivors: none recorded
  * (one, "In short" never found, survived the first-section fallback on the privacy page, whose first section IS "In short"; the
@@ -152,7 +153,8 @@ for (const vp of VIEWPORTS) {
   test.describe(`${vp.width}x${vp.height}`, () => {
     test.use({ viewport: { width: vp.width, height: vp.height }, ...(vp.touch ? { hasTouch: true } : {}) })
 
-    test(`arriving on /privacy and /terms opens the page's own short box before the map loads, and holds the roll (${vp.width}x${vp.height})`, async ({ page }) => {
+    // the deploy gate (@curated) runs ONE of these, 390x844: the legal pages' smoke test (tests/artifacts/deploy_gate.json, tier S)
+    test(`${vp.width === 390 && vp.height === 844 ? '@curated ' : ''}arriving on /privacy and /terms opens the page's own short box before the map loads, and holds the roll (${vp.width}x${vp.height})`, async ({ page }) => {
       const errors: string[] = []; page.on("pageerror", (e) => errors.push(String(e)))
       const j = journey(page)
       for (const path of ["/privacy", "/terms"]) {
