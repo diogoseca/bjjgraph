@@ -166,17 +166,21 @@ test('@curated guest boots through the real facade and persists only a guest-own
   expect((await fixture(page)).writes).toEqual([])
 })
 
-test('@curated A to B to signout restores separate caches and publishes only each account own lists', async ({ page }) => {
+// v1.262.0 (owner U138 a, "Always automatic"): guest practice joins EVERY account that signs in on the browser, so A and B
+// both receive "Guest practice" (was: no write ever carried it). What still never happens: one account's own list
+// reaching the other account, or an account's list reaching the guest copy.
+test('@curated A to B to signout: each account keeps its own lists, both receive the guest practice, neither the other\'s', async ({ page }) => {
   const j = await bootOwner(page)
   await addList(page, 'Guest practice')
   await page.evaluate(() => { (window as any).__outgoingOwner = (window as any).__neural })
   await emitOwner(page, A)
   expect(await page.evaluate(() => (window as any).__outgoingOwner.__ngDestroyed)).toBe(true)
-  expect(await names(page)).toEqual([])
+  // ORDER1: the guest practice joins at the end of the account's first successful pull, which waitOwner does not await
+  await expect.poll(() => names(page)).toEqual(['Guest practice'])
   await addList(page, 'A practice')
   await expect.poll(async () => (await fixture(page)).writes.filter((r: any) => r.user_id === A).length).toBeGreaterThan(0)
   await emitOwner(page, B)
-  expect(await names(page)).toEqual([])
+  await expect.poll(() => names(page)).toEqual(['Guest practice'])
   await addList(page, 'B practice')
   await expect.poll(async () => (await fixture(page)).writes.filter((r: any) => r.user_id === B).length).toBeGreaterThan(0)
   await j.land('Mount Top')
@@ -192,17 +196,19 @@ test('@curated A to B to signout restores separate caches and publishes only eac
     [A, 'bjj-neural-owner:account:' + encodeURIComponent(A) + ':progress'],
     [B, 'bjj-neural-owner:account:' + encodeURIComponent(B) + ':progress'],
   ].map(([id, key]) => ({ id, envelope: JSON.parse(localStorage.getItem(key)!) })), { A, B })
-  expect(caches.map(row => ({ id: row.id, names: Object.values(row.envelope.blob.lists).map((l: any) => l.name) }))).toEqual([
-    { id: 'guest', names: ['Guest practice'] }, { id: A, names: ['A practice'] }, { id: B, names: ['B practice'] },
+  expect(caches.map(row => ({ id: row.id, names: Object.values(row.envelope.blob.lists).map((l: any) => l.name).sort() }))).toEqual([
+    { id: 'guest', names: ['Guest practice'] }, { id: A, names: ['A practice', 'Guest practice'] }, { id: B, names: ['B practice', 'Guest practice'] },
   ])
-  for (const row of (await fixture(page)).writes) {
+  const writes = (await fixture(page)).writes
+  for (const row of writes) {
     const listNames = Object.values(row.neural.lists || {}).map((l: any) => l.name)
-    expect(listNames).not.toContain('Guest practice')
     expect(listNames).not.toContain(row.user_id === A ? 'B practice' : 'A practice')
     expect([A, B]).toContain(row.user_id)
   }
+  for (const id of [A, B]) expect(writes.some((r: any) => r.user_id === id && Object.values(r.neural.lists || {}).some((l: any) => l.name === 'Guest practice')),
+    id + ' received the guest practice in the cloud').toBe(true)
   await emitOwner(page, A)
-  expect(await names(page)).toEqual(['A practice'])
+  await expect.poll(() => names(page)).toEqual(['A practice', 'Guest practice'])
 })
 
 test('@curated same-account SDK refresh preserves the real mounted hand and options', async ({ page }) => {
