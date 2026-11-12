@@ -802,7 +802,11 @@ class Reader {
     const scroll = type === "wheel" || type === "touchstart" || type === "pointerdown" && event.pointerType !== "mouse";
     // Reading stops the game every time it is running: since D-338 a Videos clip is reading too, so
     // a pane that paused first can resume the game on close while the reader is still reading.
-    if (this.interacting && this.app.paused) { if (!scroll && !this.intent) this.app._declineLandQ("reading"); return; }
+    // SHORT1: with a taken-up question's card on the screen and one of its answers out of view, a scroll is the player reaching
+    // for it, not reading (the owner: reaching for an answer must never decline it), so it returns here untouched (`!scroll`
+    // keeps the decline out). Until v1.262.3 it declined on touch-down. The app owns the rest (`_rch`, app.src.jsx): this file's
+    // bytes are deferred and capped to the byte, the app's are not; folded into this line it costs 20 B.
+    if (scroll && this.app._rch() || this.interacting && this.app.paused) { if (!scroll && !this.intent) this.app._declineLandQ("reading"); return; }
     this.interacting = true;
     if (!this.intent) this.app._declineLandQ("reading", scroll);
     this.app.setPaused(true);

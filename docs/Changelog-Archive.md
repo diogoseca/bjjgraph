@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.262.3** — [A scroll that reaches for a taken-up question's answers no longer declines it](#v12623--a-scroll-that-reaches-for-a-taken-up-questions-answers-no-longer-declines-it-short1-2026-11-12)
 - **v1.262.2** — [The planner retry test waits on its own claims](#v12622--the-planner-retry-test-waits-on-its-own-claims-race1-2026-11-12)
 - **v1.261.2** — [A signed-in player's name, initial and address never reach analytics](#v12612--a-signed-in-players-name-initial-and-address-never-reach-analytics-mask1-to-mask3-2026-11-12)
 - **v1.261.0** — [Practice opens inside the drawer, at the drawer's width, as Path does](#v12610--practice-opens-inside-the-drawer-at-the-drawers-width-as-path-does-owner-u135-a-pract1-and-pract2-2026-11-12)
@@ -15530,3 +15531,93 @@ Screens: `artifacts/briefing/img/practicedrawer/` (PRACT1: 00 to 40; PRACT2: 50 
 **Survey of `e2e/`.** 127 synchronous reads of a counter or list that a page, route or request handler fills, in 65 files: 72 are "no page errors" ends and 15 more claim nothing happened, which cannot lose this race; of the other 40, each wait is caused by the request or its answer, or the read comes many awaited steps after the request (the star request in `account-menu.spec.ts`, the aliases at `alias-search.spec.ts:48`); line 258 here had neither. Its neighbour at line 251 waits on the press's own failure, bar a window this box never hit (40 of 40 above). Then 44 waits on a locator the test had already asserted, each followed by a synchronous read: none is this race (each wait is caused by what the next line reads, or the read claims only that nothing changed). The full table is in the seat report.
 
 **Runs**, local, under the lock, on dev `4b3562ffa` merged: the spec file 11 of 11; the one test 20 of 20 (`--repeat-each 20`); the gameplan config's desktop and phone projects 22 of 22 (touch taps); the control and mutant arms as above.
+
+## v1.262.3 — A scroll that reaches for a taken-up question's answers no longer declines it (SHORT1, 2026-11-12)
+
+**The question.** cardgap (#376) wrote in `card-fold.spec.ts`, as found and not changed: at 390x631 an opened card runs below the
+screen, "so a player scrolls to reach an answer, and that scroll declines a taken-up question (`_tickDecision`)". If true, one phone
+in ten could not answer two of three choices without losing the question. The rule to hold (owner, earlier rulings): half of all cards
+need a scroll for their last answer; only a question facing you can expire; reaching for an answer by scrolling must never decline,
+expire or skip a taken-up question, and every answer must be reachable by an ordinary scroll on a short phone.
+
+**Measured, before any change**, on a real roll from "/" (no harness, guest, off-origin requests aborted), CDP touch, on the preview
+(v1.259.1) and production (v1.252.0), at 390x631, 360x640, 375x667 and 390x844 (probes in `~/tmp-pw/short1/`, outside the repo):
+- The landing card at take-up stands at 496-514 from the top; at 390x631 its bottom is 736-932 by question length. The first answer's
+  centre is on screen and takes a tap; the second and third are below the edge (a tall card, Kimura from Mount: 514-932, two of three
+  below). 360x640 and 375x667 the same; 390x844 holds all three of an ordinary card. Every new landing resets the reader to the top and
+  opens its card already taken up with the clock running (U52 b), so "where the game leaves it" is the same place.
+- Under the thumb at that moment: the card at the bottom, the hand above it, the map at the sides and top. All are game input
+  (`gameInput`) or the map. A 200 px finger drag from the card scrolled 185 px: all three answers on screen and hittable, nothing
+  declined, the clock ran, the game kept playing, the last answer scored. The same from the hand and from the map beside the card,
+  at every size, on both builds. cardgap's sentence was a reading of `_tickDecision` (it declines while the reader is reading), not a
+  measurement: its archive entry records no scroll.
+- The escape drill (a catch rigged from a real roll): D-433 places it high (168-503 at 390x631), all three answers on screen at all
+  four sizes; a drag from the escape tray below it declines nothing.
+- What does decline is a drag that STARTS ON THE ARTICLE: `readingInteraction` made it reading at touch-down, and `_declineLandQ`
+  exempted a scroll only while the question was still asking (U47 d, v1.236.0; before that every question declined so, v1.134.0).
+  The article lies below the card and the Videos part, so it is under the thumb only once the card has been scrolled up. Reproduced on
+  both builds at every size: overshoot until the first answer is above the top edge and the article fills the bottom, drag back down
+  from the article toward the answers: `land_q_declined:reading`, the clock gone, the game paused, the funnel's `question_ignored`. The
+  question was not lost in points: its answers stayed pressable and a press still scored, as article-order.spec.ts recorded ("a free
+  pause, not a loss"). At 390x844 on the preview a 185 px scroll was enough to put the article's first section under the thumb (v1.259.1
+  runs the article to the bottom edge); production had the Win/Lose bar there.
+- A scroll that carries the card off the screen. Begun on the game: nothing; the clock ran on and the question expired off screen
+  15 s later (390x631, preview), so "only a question facing you can expire" does not hold for it today. Begun on the article: declined
+  at touch-down, free. Reported, not changed: the brief keeps that rule.
+
+**Not changed, by an owner rule.** With every answer already in view, a scroll from the article is reading and declines the question
+for free (Neural.md's reading paragraph; reading-mode.spec.ts "mixed wheel declines the live question without scoring a miss", @curated
+at 1440x1400). A first cut that made every article scroll with the card on screen a non-reading would have broken that on desktop; the
+shipped rule asks whether the player is REACHING, that is, whether an answer is out of view.
+
+**What ships.** `_landView()` (app.src.jsx): null without a taken-up open question (asking, answered, a reading arrival, a hidden
+card), else `on` (the card meets the reader's visible box) and `all` (every answer button of `[data-land-q]`'s block lies wholly in it;
+a card with no height is SKIP, never a verdict). The reader changes one line: `readingInteraction`'s existing early return now also
+returns when a wheel, touch or pen scroll asks the app's `_rch()` and it answers yes (`on && !all`); `!scroll` keeps that branch's
+decline out, so the scroll is not reading, declines nothing, pauses nothing, and the clock runs. `_rch` records the question (`_rq`); `_tickDecision` calls `_reachTick` every frame while one is open, and once its card has left the screen the question
+is declined, free, as the touch on the article always did; the reader is not switched to reading mid-scroll (its layout would move
+under the finger), the next press on the article reads as ever. A capture listener on the reader's root ends a reach when a press or a
+wheel lands on the game, so a later scroll begun on the card keeps today's rule (nothing declines). The drill shares the seam (its
+answers are the same block). Why the app and not the reader: the first cut lived in the reader and cost `reader.js` 333 B, while the
+deferred set had 66 B of room under its 510,977 B ceiling (`check_payload_budget.py` exit 1 at 511,244). A separate line costs 29 B;
+merged with dev v1.261.1 (#378 grew `settings-ui.js` 64 B, then v1.262.0 gave 18 back) that was 9 B over. Folded into the existing
+return and called `_rch` it costs 20 B (measured in memory with esbuild: 29, 22 as `_reach`, 20 as `_rch`), and the build merged with
+v1.262.0 lands exactly on the ceiling. The orchestrator had approved setting the ceiling to the measured build (U134 b, up to
+512,000 B); the measured build IS the ceiling, so nothing moved, and 1,023 B of the approved 512,000 stay unused.
+
+**Pins.** New `e2e/journeys/short-phone-answers.spec.ts`, 8 journeys, every gesture a CDP finger drag held still before the lift, every
+start point asserted to lie on what it claims, every answer pressed by a touch tap at a measured centre: a finger on the card reaches
+every answer, nothing declines, the clock runs, the last answer scores (390x631 @curated, 360x640, 375x667); past the answers, a drag
+from the article back toward them is reaching; with every answer in view it is reading and declines free (the control); carried off the
+screen it is declined; a press on the game ends a reach; the drill keeps its clock. One @curated journey, not five (CURATED36):
+2.9 s locally.
+
+**Mutants** (`tests/artifacts/short_phone_mutants.mjs`, on the served bundle, inside the lock, a kill only at the named assertion):
+reach-off (2 runs), reach-ignores-view, reach-never-leaves, reach-lift-off, scroll-declines, card-eats-touch, drill-excluded: 8 of 8
+killed.
+Recorded non-kill: a press on the game falling through to the reader survives the card journey by construction (with an answer out of
+view it is a reach too); scroll-declines holds that claim instead.
+
+**Changed elsewhere.** `card-fold.spec.ts`'s 390x631 note corrected (no assertion touched); Neural.md's decline sentence (char-neutral,
+74,016 of 74,017). No assertion removed or loosened.
+
+**Asked, not built.** Should taking a question up on a short screen also scroll its answers into view? Today at 390x631 the take-up
+leaves two of three below the edge; the proposal scrolls the reader just enough for the last answer and never past the card's top
+(screens 06 and 07 in the owner's briefing).
+
+**Runs.** LOCAL, under the build lock (`BUILD_PEAK_MIB=4000`). On the final code, merged with dev v1.262.0 (4b3562ffa) and #382 (v1.262.2): the spec
+8 of 8 (each 2.7 to 9.5 s; the @curated one 2.9 s) and the 8 mutant runs 8 of 8 killed; with the folded hook, the 5 files that run its
+already-reading branch 102 of 102 (reading-mode, reading-contract, covered-card, article-order, card-fold). On the same design with the
+hook on its own line, merged with v1.261.0: the 11 nearest card and reader files 168 of 168. On the first cut (the same rule, its logic
+in the reader): 20 card, reader and pane files 335 of 335. `npm run ci:validate` 25 of 25. Not run locally: the full core suite and
+`e2e:gen`; the PR's e2e-full is the full gate.
+
+**Bytes.** `check_payload_budget.py` exit 0: deferred 510,977 of 510,977 B, exactly at the ceiling, which did not move; eager raw
+1,394,386 of 1,600,000 B; eager gzip 351,663 B, over its 300,000 B target and under its 400,000 B action line, as dev already was.
+Against dev v1.262.0's rows: `neural.js` 682,101 to 683,239 B (+1,138), `reader.js` 44,855 to 44,875 B (+20). App rows re-seeded with
+`validate:build-shape:app`, no capture.
+
+**Screens** (390x631, the owner's briefing, `shortphone/`): the card as it opens with the thumb on it, the answers reached from the
+card, past the answers with the thumb on the article, the drag back before (the timer bar gone) and after (the bar running), and the
+take-up today against the proposal. The before frame is this build with `_landView` stubbed to null, which is exactly the old path;
+the preview's own build gave the same outcome on the same gesture.

@@ -141,10 +141,14 @@ for (const run of RUNS) test.describe(name(run), () => {
   })
 })
 
-// Not at 390x631: there the opened card runs below the screen (measured on a roll from "/", merged with v1.259.1: the card 514-754
+// Not at 390x631, where the opened card runs below the screen (measured on a roll from "/", merged with v1.259.1: the card 514-754
 // on a 631-tall screen; the first answer reachable, the second and third below the edge; before v1.259.1 the first resolved to the
-// map), so a player scrolls to reach an answer, and that scroll declines a taken-up question (_tickDecision). Both ✕ presses are
-// pinned at 390x631 above; the answers' reach is not this PR's.
+// map). SHORT1 corrected what this note said next. The scroll a player makes to reach them, a finger on the card or the hand (what
+// lies under the thumb there), declines nothing and the clock runs: measured on the preview (v1.259.1) and production (v1.252.0) at
+// 390x631, 360x640, 375x667 and 390x844. `_tickDecision` declines only while the reader is reading, which a press, scroll or key on
+// the article starts, never one on the game; the article lies below the card, so it is under the thumb only once the card has been
+// scrolled up. A drag back from there toward answers above the top edge did decline (since v1.236.0); since v1.262.3 it does not.
+// Pinned by touch in short-phone-answers.spec.ts. Both ✕ presses are pinned at 390x631 above.
 for (const run of [RUNS[0], RUNS[4]]) test.describe(name(run), () => {
   test.use({ viewport: { width: run.width, height: run.height }, hasTouch: run.touch })
   test(`@curated FOLD1: an answered card hides on the first ✕, with its message (${name(run)})`, async ({ page }) => {
