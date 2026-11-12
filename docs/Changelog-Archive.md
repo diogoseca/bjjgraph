@@ -16218,3 +16218,11 @@ against the real API:
 - a scratch `--no-ff` merge of bfcce42df onto main passes on it;
 - one and two scratch keepalives on top of that merge pass on it;
 - a scratch real commit on top fails, with the recipe.
+
+**GATE8, before it merged (the reader's third report).** One false pass: porcelain `git diff --name-only` lists only a
+rename's destination, so a commit renaming a page onto `.github/keepalive.txt` was stepped over and the own-run path
+never compared the head. The rule now reads git as plumbing: `diff-tree -r -z --no-renames --ignore-submodules=none`,
+replace objects off. A gitlink bump under `ignore = all` was hidden too. An own-run pass beneath stepped commits checks
+the head against the vouching commit. An empty commit is stepped over by tree hash. The reader's six surviving mutants
+are killed, and the tripwire's judgment, split out, reads the count file. Real-git fixtures cover the rename, the
+submodule, a newline-led name, a mode change and a symlink swap.

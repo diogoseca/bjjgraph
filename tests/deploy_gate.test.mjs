@@ -58,6 +58,22 @@
 //              step → "deploy.yaml sets npm_config_ignore_scripts…".
 //   PUSH-RUN   the tested-site upload without if-no-files-found → "nothing packaged fails the upload…"; an `if:` on the
 //              shards' "Download tested site" (the reviewer's M7c, which survived #392) → "…carries the condition …".
+//
+// GATE8 (the reviewer's new 1-4 on #393), each mutant applied alone to a scratch copy, killed at:
+//   LISTING    the old porcelain `git diff --name-only` (renames on), and diff-tree with -M → "R2 stops the walk itself:
+//              the listing sees both paths of the rename, before any backstop"; diff-tree without
+//              --ignore-submodules=none → "a submodule bump beside a keepalive edit is a real change, even under
+//              ignore = all"; the head backstop removed → "the head is compared with the commit whose own run vouched,
+//              whatever the steps' listings said". NOT KILLED, by design: diff-tree without -z. git quotes any name
+//              holding a control character, so a newline-led name can never split into a keepalive line; -z stays for
+//              exact raw paths.
+//   GUARDS     (the reviewer's six survivors on #393) every→some in the walk → "a keepalive edit plus another file is
+//              not keepalive-only"; the judgment ignoring the count, and a constant count → "no count file in the tree:
+//              the tripwire is red though the time is fine"; the merge path's tree check against the merge → "the tree
+//              check on the merge path is against the head…"; the walk limit removed → "the twenty-first fails closed";
+//              schedule runs counted → "a green schedule run does not vouch".
+//   EMPTY      no empty-commit step → "an empty commit on a promotion passes on the promotion's dev parent"; emptiness
+//              decided by the listing → "...the walk stops AT that commit, before any backstop has to catch it".
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
