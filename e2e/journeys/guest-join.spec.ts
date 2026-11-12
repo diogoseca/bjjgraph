@@ -13,6 +13,8 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *   2. ONCE: a reload of the same account keeps the practice and says nothing;
  *   3. a SECOND account signing in on the same browser receives the guest practice too, and is told once (the owner's
  *      pick, knowing it: not a leak to "fix").
+ *   4. (REVIEW375 F4) a guest who only LOOKED (landed, met the first coach step, the tutorial state real) signs in and
+ *      is told nothing: the trail a bare visit leaves is measured here in the built app, not assumed.
  * The guest copy is seeded through the harness's `initialState` (a guest copy on the device); the sign-in goes through
  * the real facade with a stub SDK (e2e/fixtures/neural-auth-sdk.ts). The harness serves `{}` for dossier chunks, so no
  * film or article content shows; nothing here depends on either.
@@ -131,4 +133,21 @@ test.describe("phone 390x844, by touch", () => {
   test("a guest who practised signs in at 390: the practice joins, one line that covers no control, no menu row, once, a second account too", async ({ page }) => {
     await story(page, true)
   })
+})
+
+// REVIEW375 F4: the bare visit's trail, measured in the built app. `keepTutorial` keeps the real tutorial state: without
+// it the harness marks the 20 White objectives done, which IS challenge progress and would rightly join.
+test("a guest who only looked signs in at 1440: nothing joins and no line is said", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/", { beforeNavigate: beforeNeuralAuthNavigate, keepTutorial: true })
+  await waitNeuralAuthOwner(page, null)
+  await j.land("Mount Top")
+  const trail = await page.evaluate(() => { const a = (window as any).__neural; a._flushSave(); return JSON.parse(localStorage.getItem("bjj-neural-owner:guest:progress")!).blob })
+  expect(trail.explored.length, "the bare visit left its trail (a visited state)").toBeGreaterThan(0)
+  await signInNeuralAuthSDK(page, "guest-join-bare", { email: "player@example.com", name: "Player" })
+  await j.land("Mount Top")
+  await page.waitForTimeout(1500)
+  expect((await lineCover(page)).text, "no line").not.toBe(LINE)
+  expect(await page.evaluate(() => (window as any).__neural._arrivalSay), "and nothing held for later").toBeFalsy()
+  expect(await page.evaluate(() => localStorage.getItem("bjj-neural-owner:account:guest-join-bare:guest")), "looked at once, and marked").toBeTruthy()
 })

@@ -20,21 +20,30 @@
 //      cloud held (11, through join, pull, push and a second device's pull; red on a0a8c6cfd in 3 of its 4 cases);
 //      an offline or failed first pull joins, marks and pushes nothing of the guest's (12, red on a0a8c6cfd); and a
 //      guest's later srs miss meeting a cloud row lowers no figure, though the card comes due sooner (13, stated).
-// MUTANTS (2026-11-12, after ORDER1, each run against this green file; every one turned the tests named red):
-//   ORDER1, the fix reverted: the join in `_applyUser` (before the pull), no `not-pulled` refusal  → 11, 12
-//   ORDER1, the call moved back to `_applyUser`, the host's refusal kept                         → 3-13 (nothing joins)
-//   ORDER1, the host's `not-pulled` refusal removed (the call after the pull kept)                 → 12 (a direct call)
-//   ngProgressGuestMoves returns `merged` unchanged                                                → 2, 11, 12
-//   ngProgressGuestPart keeps `settings`                                                          → 1, 7
-//   ngProgressPracticeKey counts the trail (= the cloud key)                                       → 3
-//   NG_PROGRESS_TRAIL_CHALLENGES loses "white.coach3"                                              → 3, 4
-//   joinGuest writes no mark                                                                      → 5, 12
-//   the mark compared by presence, not by the copy's hash (`if (seen)`)                            → 6, 10
-//   joinGuest also writes the joined blob back to the guest copy                                    → 5, 7
-//   the mark kept per browser, not per account                                                    → 8, 12
-//   joinGuest without its refusal of an unverified (local-only) account                            → 9 (a direct call)
-//   the mark written before the account's copy is saved                                            → 9
-//   the line overwrites a held arrival sentence                                                    → 10
+//   14-18. REVIEW375 (the second reader of PR #375): the reader's figure-level case on the real wire, both rulesets (14);
+//      the roll ledger at its 6-partition cap and below it (15); a re-join with the mark, then the local copy, lost (16);
+//      an existing player restored at boot (17); the explicit legacy import through the same rule, the guest kind gone (18).
+// MUTANTS (2026-11-12, REVIEW375, all 20 run against this green file; each turned the tests named red):
+//   ORDER1 fix reverted: the join in `_applyUser` before the pull, no not-pulled refusal  → 11, 12, 14, 15, 16
+//   ORDER1 call moved back to `_applyUser`, the host's refusal kept                      → 3-13, 15, 16, 17 (nothing joins)
+//   ORDER1 the join's not-pulled refusal removed (the call after the pull kept)           → 12 (a direct host call)
+//   F1 the guest's ledger partition added regardless of the cap                          → 15
+//   F2 prep summed in the merge instead of MAX                                           → 13, 16, 17
+//   F3 the join only after a sign-in in this tab, not on a restored session              → 9, 17
+//   F5 confirmImport back to the plain merge                                             → 18
+//   F5 the guest import kind restored                                                    → 18
+//   F5 confirmImport without its not-pulled refusal                                       → 18
+//   ngProgressGuestMoves returns `merged` unchanged                                       → 2, 11, 12, 14, 18
+//   ngProgressGuestPart keeps `settings`                                                 → 1, 7, 18
+//   ngProgressPracticeKey counts the trail (= the cloud key)                              → 3
+//   NG_PROGRESS_TRAIL_CHALLENGES loses "white.coach3"                                     → 3, 4
+//   joinGuest writes no mark                                                             → 5, 12, 17
+//   the mark compared by presence, not by the copy's hash (`if (seen)`)                   → 6, 10
+//   joinGuest also writes the joined blob back to the guest copy                           → 5, 7
+//   the mark kept per browser, not per account                                           → 8, 12, 17
+//   joinGuest without its refusal of an unverified (local-only) account                   → 9 (a direct call)
+//   the mark written before the account's copy is saved                                   → 9
+//   the line overwrites a held arrival sentence                                           → 10
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";

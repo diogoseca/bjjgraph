@@ -120,7 +120,7 @@ UNGUARDED rows were unguarded before this build and are untouched by it.
 | 101 | "Log out" [S] | kept, renamed | "Sign out" (owner U46 b's word) | account-menu.spec.ts ("Sign out" flips the badge) |
 | 102 | "Create account" [G] | kept | unchanged | account-menu.spec.ts |
 | 103 | "Log in" [G] | kept | unchanged | account-menu.spec.ts |
-| 104 | "Review guest progress": "Import saved practice" modal ("Keep separate" / "Import into <email>") [S, only when guest … | kept | unchanged | account-menu.spec.ts; tests/progress_owner.integration.test.mjs |
+| 104 | "Review guest progress": "Import saved practice" modal ("Keep separate" / "Import into <email>") [S, only when guest … | retired (v1.262.0, owner U138 a "Always automatic") | guest practice joins the account at its first successful pull after sign-in, with one line ("Your practice from before you signed in is saved"); no row, no dialog | guest-join.spec.ts (no row, the line, by mouse and touch); tests/guest_join_safety.test.mjs (the join only adds) |
 | 105 | "Progress could not be saved on this device…" (only on storage error) | kept | unchanged | account-menu.spec.ts "signed out: a short menu…" (the storage-error line, added) |
 | 106 | "Settings": Settings on Flashcards | kept | unchanged | account-menu.spec.ts |
 | 107 | "Keyboard shortcuts": Settings on Shortcuts | moved | Settings → Shortcuts tab (the menu is short, U46 b) | settings-tabs.spec.ts (Shortcuts tab by mouse); account-menu.spec.ts (row gone from the menu) |
