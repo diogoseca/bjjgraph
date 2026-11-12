@@ -28,7 +28,7 @@ const NG_SIGNIN_INTENT_KEY = "bjj-neural-signin-intent", NG_SIGNIN_INTENT_MS = 3
 // recorded as an empty box (its class and size, no children, no later text or attribute mutation). So every element that prints the
 // identity carries this class, set BEFORE the identity is written, and holds it in its own text (or its own `title`) only, never in an
 // ancestor's attribute. A mark INSIDE a control is also `pointer-events:none` (helmet.html, `.ngAcctChip .ph-no-capture`), so a press on
-// the name lands on the control and is still counted, without the name. settings-ui.src.js writes the same literal for its address line.
+// the name lands on the control and is still counted, without the name. Settings' address line takes its span from `_addressMarkup`.
 // Pinned by e2e/journeys/no-identity-in-analytics.spec.ts, whose mirror of autocapture is transcribed from that version.
 const NG_NO_CAPTURE = "ph-no-capture";
 // EVERY CARD ANSWERED IN ONE LANDING MOVES THIS EXCHANGE AGAIN, BY A SMALLER STEP (v1.221.0, owner
@@ -7210,6 +7210,10 @@ class Component extends DCLogic {
       this.renderExplorer();
     }
   }
+  /** Settings' training-day line names the address inside the analytics mark (NG_NO_CAPTURE). The markup is built HERE, in the
+   *  eager app, because the deferred Settings presentation sits at its byte ceiling (#378 left it 2 B of room, and the span cost
+   *  33 B there); Settings carries only this call. HTML, because settingRow writes its line as HTML, as it always has for the address. */
+  _addressMarkup() { return "<span class=" + NG_NO_CAPTURE + ">" + ((this.user && this.user.email) || "your account email") + "</span>"; }
   // ── account menu (v1.94.0) ── compact chrome anchored above the bottom-right chip. It is
   // CHROME, not gameplay: opening it never opens/closes the pane, never touches the pause
   // latch, never freezes the roll clock. Esc closes it FIRST (before any gameplay overlay),

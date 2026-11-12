@@ -158,11 +158,11 @@ renderSettings() {
         // mailed. The sentence goes with the flag; flipped, the row reads as it did in v1.259.1.
         const wrap = document.createElement("div");
         wrap.setAttribute("data-digest-setting", "1");
-        // THE ADDRESS IS MARKED (v1.261.2): the app's NG_NO_CAPTURE note (app.src.jsx) says why. It sits in its own `ph-no-capture`
-        // span, so the line around it stays readable to analytics and the replay records the address as an empty box. The span rides
-        // the line's markup, as the address always has (settingRow writes `sub` as HTML; the auth server validates the address):
-        // a DOM-built span cost 105 B of the deferred set, which had 66 B of room under its ceiling, and this costs 33.
-        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to <span class=ph-no-capture>" + (this.user.email || "your account email") + "</span>." + (NG_DIGEST_LIVE ? "" : " No email is being sent yet."),
+        // THE ADDRESS IS MARKED (v1.261.2): the app's NG_NO_CAPTURE note (app.src.jsx) says why. `_addressMarkup` (eager, app.src.jsx)
+        // puts it in its own `ph-no-capture` span, so the line around it stays readable to analytics and the replay records the address
+        // as an empty box. It is built in the app, not here: this deferred set is at its ceiling, and the call is shorter than the address
+        // expression it replaces.
+        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to " + this._addressMarkup() + "." + (NG_DIGEST_LIVE ? "" : " No email is being sent yet."),
           [["On", true], ["Off", false]], "emailDigest", false));
         const beta = document.createElement("span");
         beta.textContent = "Beta";
