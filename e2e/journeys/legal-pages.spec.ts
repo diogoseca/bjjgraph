@@ -33,7 +33,9 @@ import { journey, type Journey } from "../dsl"
  * sections, which come from the page HTML). No @curated tag: nothing here depends on what a deploy stamps (tests/artifacts/
  * deploy_gate.json, U147 a); the PR's e2e-full runs it all.
  *
- * Red-proof: see docs/Changelog-Archive.md (LEGAL3): one mutant per claim, each red at its named assertion. Survivors: none recorded.
+ * Red-proof: see docs/Changelog-Archive.md (LEGAL3): one mutant per claim, each red at its named assertion. Survivors: none recorded
+ * (one, "In short" never found, survived the first-section fallback on the privacy page, whose first section IS "In short"; the
+ * headings check below was added for it and kills it).
  */
 
 type W = Window & { __neural: any }
@@ -66,6 +68,7 @@ async function served(page: Page, path: string) {
       operator: norm(/operated by <strong>([^<]+)<\/strong>/.exec(html)?.[1] || ""), saysOperated: /operated by/i.test(art.textContent || ""),
       date: date ? norm(date.textContent!).replace(/^effective date:?\s*/i, "") : "",
       shortBlocks: blocks(short), allBlocks: blocks(kids.filter((n) => n !== date)),
+      shortHeads: short.flatMap((e) => e.matches("h2,h3") ? [e] : [...e.querySelectorAll("h2,h3")]).map((h) => norm(h.textContent!)),
       shortFirst: words(blocks(short)[0] || ""), restFirst: words(blocks(rest)[0] || ""),
       h2: Object.fromEntries([...art.querySelectorAll("h2[id]")].map((h) => [h.id, norm(h.textContent!)])),
     }
@@ -135,6 +138,9 @@ async function expectPageBox(page: Page, path: string, label: string) {
   const shown = await box.evaluate((e) => [...e.querySelectorAll("[data-legal-head],[data-legal-sub],[data-legal-short]")].map((n) => n.textContent).join(" ").replace(/\s+/g, " "))
   expect({ name: !!s.operator && shown.includes(s.operator), individual: /an individual/i.test(shown) }, `${label}: the box's head and short part never print the operator`).toEqual({ name: false, individual: false })
   expect(s.shortBlocks.filter((b) => !shortText.includes(b)), `${label}: the short part is the page's own`).toEqual([])
+  // ...and its headings too: none for an "In short" box (the section's own label is not shown), the section's title for the fallback
+  expect(await box.locator("[data-legal-short]").evaluate((e) => [...e.querySelectorAll("h2,h3")].map((h) => (h.textContent || "").replace(/\s+/g, " ").trim())),
+    `${label}: the short part's headings are the page's (no "In short" label)`).toEqual(s.shortHeads)
   expect(s.allBlocks.filter((b) => !text.includes(b)), `${label}: every paragraph and list item of the page is in the box`).toEqual([])
   await expect.poll(() => drawn(page, s.shortFirst, BOX(kind) + " [data-legal-short]"), { message: `${label}: "${s.shortFirst}" is drawn`, timeout: 5000 }).toBe("")
   for (const [sel, what] of [["[data-legal-close]", "the ✕"], ["[data-legal-more]", "Extended version"]])
