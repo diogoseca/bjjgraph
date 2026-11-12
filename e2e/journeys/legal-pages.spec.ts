@@ -22,6 +22,9 @@ import { journey, type Journey } from "../dsl"
  * owns the wording. What the harness does NOT serve: off-origin requests are aborted (the popup's too, by the context route
  * below), and the popup runs without __NEURAL_TEST__, on the real clock, as a visitor's new tab does.
  *
+ * @curated (the deploy gate) only on claim 1: these are the pages the Google sign-in consent screen links to, and it costs about
+ * 1.2 s per width. Claims 2 to 4 run in the PR's e2e-full (the menu test is ~9.5 s per input).
+ *
  * Red-proof (each mutant against this build, the named test red, the rest of this file green; see docs/Changelog-Archive.md,
  * LEGAL1): the arrival line in `_seedFromUrl` deleted (claim 1, both widths); the reader root at opacity 0 on a legal page
  * (claim 1's drawn check alone: the DOM checks stay green); `SITE.test(this.path) ||` dropped from syncSections, `.more = 1`
@@ -161,7 +164,7 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 1440, height: 900 
   })
 }
 
-test("@curated nothing on a legal page can be closed, and a saved closed section hides none of it", async ({ page }) => {
+test("nothing on a legal page can be closed, and a saved closed section hides none of it", async ({ page }) => {
   const j = journey(page)
   for (const path of PAGES) {
     // the two section types a legal page is made of, closed by this player elsewhere (a Learning page's ✕ writes the same keys)
@@ -187,7 +190,7 @@ for (const input of ["mouse", "touch"] as const) {
   test.describe(`the account menu by ${input} at ${viewport.width}`, () => {
     test.use({ viewport, ...(input === "touch" ? { hasTouch: true } : {}) })
 
-    test(`@curated Terms and Privacy open their pages in a new tab; the roll here is untouched (${input})`, async ({ page, context }) => {
+    test(`Terms and Privacy open their pages in a new tab; the roll here is untouched (${input})`, async ({ page, context }) => {
       const j = journey(page)
       await j.boot("/")
       await j.land("Mount Top")
