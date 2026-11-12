@@ -17,8 +17,8 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  * the real facade with a stub SDK (e2e/fixtures/neural-auth-sdk.ts). The harness serves `{}` for dossier chunks, so no
  * film or article content shows; nothing here depends on either.
  * MUTANTS (2026-11-12, each turned the claim named red; see the archive entry for v1.262.0):
- *   the kicker an empty string instead of a non-breaking space → 390 "covers no control" (the sentence rises onto the
- *     row of the top-left drawer and search icons)
+ *   no step below the controls (`_evStepBelowControls` returns at once) → 390 "covers no control" (the sentence's first
+ *     line on the top-left "Open the sidebar" and "Search" targets; the first build of v1.262.0 did exactly this)
  *   the menu row restored                                      → both widths, "no import row"
  *   the join run on every visit (the mark never read)           → both widths, "once"
  *   the line printed through the name splitter (no `whole`)     → both widths, the line's text ("Your practice" over a

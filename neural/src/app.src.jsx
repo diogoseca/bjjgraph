@@ -2456,8 +2456,30 @@ class Component extends DCLogic {
         // "Kimura". .72em holds it at 13px desktop / 10.8px phone.
         ? sp.main + '<div style="opacity:.6;font-weight:500;font-size:.72em;letter-spacing:0;margin-top:3px;">' + sp.from + '</div>'
         : sp.main;
+      t.style.marginTop = "";            // a whole sentence's step (below) belongs to that sentence only
+      if (whole) this._evStepBelowControls(t);
     }
     if (box) box.style.opacity = "1";
+  }
+  // A WHOLE SENTENCE IS WIDE (v1.262.0). A node's name is short and centred; "Your practice from before you signed in is
+  // saved" is not, and at 390 its first line (x 48-342, y 49-66) sat on the phone's top-left "Open the sidebar" and
+  // "Search" targets (x 10-54 and 60-104, y 16-60), measured the same at 360 and 430. Docked off MEASURED rects, never a
+  // constant (CLAUDE.md §6.1): the sentence steps down below the lowest control its lines meet (to y 64 there), and the
+  // next sentence clears the step. Pinned by e2e/journeys/guest-join.spec.ts ("covers no control", 390 by touch).
+  _evStepBelowControls(t) {
+    try {
+      const range = document.createRange(); range.selectNodeContents(t);
+      const lines = [...range.getClientRects()].filter((r) => r.width > 0 && r.height > 0);
+      if (!lines.length) return;
+      const top = Math.min(...lines.map((r) => r.top)), box = this.evRef.current;
+      let low = -Infinity;
+      for (const el of document.querySelectorAll('button, a[href], [role="button"], [role="menuitem"], [role="tab"], input, select, textarea')) {
+        if (box && box.contains(el)) continue;
+        const b = el.getBoundingClientRect();
+        if (b.width > 0 && b.height > 0 && lines.some((r) => r.left < b.right && r.right > b.left && r.top < b.bottom && r.bottom > b.top)) low = Math.max(low, b.bottom);
+      }
+      if (low > top) t.style.marginTop = Math.ceil(low - top + 4) + "px";
+    } catch (e) { /* no layout (unit harness): the sentence stays where it is */ }
   }
   // ---------- drill deck (flashcards) + dominance flash ----------
   deckCat(node) { return node.ty === "positions" ? "Position" : (node.ty === "submissions" ? "Submission" : "Transition"); }
@@ -6907,9 +6929,9 @@ class Component extends DCLogic {
   // in progress-owner.src.js above `ngProgressGuestMerge`). It replaces the menu row "Review guest progress" and its
   // Import dialog, which every signed-in player saw for good (the owner, 11 Nov: "seems like AI slop/bloat pls fix").
   // THE LINE, once per guest copy and account: the announcer, which is `pointer-events:none` and sits at the top centre
-  // (`.ng-evtoast`). Its kicker is a non-breaking space ON PURPOSE: an empty kicker lifts the sentence onto the row of
-  // the 390 phone's top-left icons, and the sentence is wide enough to reach the search icon (measured;
-  // e2e/journeys/guest-join.spec.ts pins "covers no control" at 390 and 1440). It is HELD for the landing
+  // (`.ng-evtoast`), printed WHOLE (never cut at its " from " like a node's name) and stepped below any control its lines
+  // meet (`_evStepBelowControls`: at 390 the top-left icons; e2e/journeys/guest-join.spec.ts pins "covers no control"
+  // at 390 by touch and 1440 by mouse). No kicker: one line. It is HELD for the landing
   // (`_announceArrival`) and stays until the board's next sentence replaces it: the player's next move, the next
   // landing or the roll's end. It never overwrites another held arrival sentence (a shared link's): that visit's join
   // is silent.
@@ -6923,7 +6945,7 @@ class Component extends DCLogic {
     this._saveProgress();   // persists; pushes once the pull has run (`_pushCloud` pulls first otherwise)
     this.updateAccountUI();
     if (this._arrivalSay) return;
-    this._announceArrival("\u00a0", "Your practice from before you signed in is saved", "muted", true);   // whole: a sentence
+    this._announceArrival("", "Your practice from before you signed in is saved", "muted", true);   // whole: a sentence
     if (this._decision) this._sayArrivalIfPending();   // already landed: say it now, not at the next landing
   }
   // merge-on-pull: per-key max for prep/days (monotonic counters), settings LWW by updatedAt.
@@ -17164,13 +17186,13 @@ class Component extends DCLogic {
   /** The one announcer slot, saved and put back — a film borrows it, it does not own it. */
   _evSnapshot() {
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
-    return { k: k ? k.textContent : "", col: k ? k.style.color : "", html: t ? t.innerHTML : "", op: box ? box.style.opacity : "" };
+    return { k: k ? k.textContent : "", col: k ? k.style.color : "", html: t ? t.innerHTML : "", mt: t ? t.style.marginTop : "", op: box ? box.style.opacity : "" };
   }
   _restoreEvent(s) {
     if (!s) return;
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
     if (k) { k.textContent = s.k; k.style.color = s.col; }
-    if (t) t.innerHTML = s.html;
+    if (t) { t.innerHTML = s.html; t.style.marginTop = s.mt || ""; }
     if (box) box.style.opacity = s.op;
   }
   /**
