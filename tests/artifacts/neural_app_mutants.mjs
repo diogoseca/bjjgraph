@@ -265,14 +265,18 @@ const controls = [
     'Previous abuts the face', [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% + 8px)}']]],
   // The two strict inequalities landcard-deck.spec.ts relaxed to >= / <= (the targets abut the face now) still fail on a target over it.
   ['cardwidth-next-over-face', 'landcard-deck.spec.ts', '1440px chevrons are clickable', [],
-    540, [['.ng-landnav [data-land-next]{left:100%}', '.ng-landnav [data-land-next]{left:calc(100% - 8px)}']]],
+    543, [['.ng-landnav [data-land-next]{left:100%}', '.ng-landnav [data-land-next]{left:calc(100% - 8px)}']]],
   ['cardwidth-prev-over-face', 'landcard-deck.spec.ts', '1440px chevrons are clickable', [],
     "Previous in the face's left lane", [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% - 8px)}']]],
   // WIDTH4 (p5, owner 2026-11-12 18:18): on a phone the arrows stand inside the face's own 36px side padding; an asking line keeps its own.
   ['width4-padding-lost', 'card-section.spec.ts', 'at its edges \\(390x631', [],
     'runs under neither arrow', [['[data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){padding-left:44px!important;padding-right:44px!important}', '[data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){padding-left:12px!important;padding-right:12px!important}']]],
   ['width4-arrows-outside-on-phone', 'card-section.spec.ts', 'at its edges \\(390x844', [],
-    'Previous stands 32px inside the face', [['.ng-landnav [data-land-prev]{right:auto;left:-12px}', '.ng-landnav [data-land-prev]{}']]],
+    'Previous is on screen', [['.ng-landnav [data-land-prev]{right:auto;left:-12px}', '.ng-landnav [data-land-prev]{}']]],
+  // The phone/tablet switch at 600px is the stylesheet's own query (the reader's flush switch is equivalent there: at 599 the cap binds
+  // on both sides of it, so cardwidth-b-starts-early is a recorded non-kill under WIDTH4).
+  ['width4-switch-media-early', 'card-section.spec.ts', 'at its edges \\(599x760', [],
+    'Previous stands 32px inside the face', [['@media(max-width:599px){[data-landcard]', '@media(max-width:589px){[data-landcard]']]],
   ['width4-asking-padded', 'article-order.spec.ts', 'U90 at 390x844 the question line', [],
     'the line starts at the label', [['[data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){', '[data-landcard].ng-landcard.ng-land-deck{']]],
   ['cardwidth-arrows-in-moves-band', 'card-section.spec.ts', 'section spans.*1440x900', [],

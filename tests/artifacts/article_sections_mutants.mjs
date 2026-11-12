@@ -540,6 +540,8 @@ const mutants = [
   ['cardwidth-b-lost', 'card-section.spec.ts', 'outside the face \\(768x1024', s => replace(s, 'const arrowLanes = arrows && (column || flush && free.width - grid < 88) ? 64 : 0;', 'const arrowLanes = arrows ? 64 : 0;')],
   ['cardwidth-b-in-columns', 'card-section.spec.ts', 'in their lanes \\(1024x768', s => replace(s, 'const arrowLanes = arrows && (column || flush && free.width - grid < 88) ? 64 : 0;', 'const arrowLanes = arrows && flush && free.width - grid < 88 ? 64 : 0;')],
   ['cardwidth-b-margin-too-strict', 'card-section.spec.ts', 'outside the face \\(600x760', s => replace(s, 'const arrowLanes = arrows && (column || flush && free.width - grid < 88) ? 64 : 0;', 'const arrowLanes = arrows && (column || flush && free.width - grid < 120) ? 64 : 0;')],
+  // NON-KILL under WIDTH4 (v1.265.0), recorded: at 599px the cap binds on both sides of the reader's flush switch, so the box is the
+  // same either way; the switch a player sees is the stylesheet's phone query (width4-switch-media-early, tests/artifacts/neural_app_mutants.mjs).
   ['cardwidth-b-starts-early', 'card-section.spec.ts', 'at its edges \\(599x760', s => replace(s, 'this.trayFlush = W > 640 || free.width >= 600', 'this.trayFlush = W > 640 || free.width >= 590')],
   ['cardwidth-column-offset-lost', 'card-section.spec.ts', 'section spans.*1440x900', s => replace(s, 'if (column) cardX = free.center - grid / 2 + arrowLanes / 2;', 'if (column) cardX = free.center - grid / 2;')],
   ['cardwidth-nodeck-old', 'card-section.spec.ts', 'no deck.*390x844', s => replace(s, ' : asking ? Math.min(cap || 520, free.width - 32)', ' : asking || !arrows ? Math.min(cap || 520, free.width - 32)')],
