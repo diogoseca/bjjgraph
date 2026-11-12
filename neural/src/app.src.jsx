@@ -18,6 +18,19 @@ const NG_OUTCOME_BUBBLE = false;
 // v1.255.2: a sign-in this browser started (see _signinCompleted), and how long it may take to complete: 30 minutes for a log-in or
 // Google's round trip, 24 hours for a sign-up's email confirmation. One localStorage key per browser, never per account: no owner.
 const NG_SIGNIN_INTENT_KEY = "bjj-neural-signin-intent", NG_SIGNIN_INTENT_MS = 30 * 60 * 1000, NG_SIGNIN_CREATE_MS = 24 * 60 * 60 * 1000;
+// THE SIGNED-IN NAME, ITS INITIAL AND THE ADDRESS NEVER REACH ANALYTICS (v1.261.2). The app never calls identify(), but it PRINTS the
+// identity, and PostHog's autocapture and session replay read what is printed. posthog-js 1.447.12, as the site loads it: a click's
+// target and every ancestor to <body> go into `$elements_chain` with ALL their attributes (`attr__title`, `attr__aria-label`, data-*)
+// and, for a/button/label/form/input, their text: a button's text is its own text nodes plus its nested <span>s' (getNestedSpanText),
+// which is how the avatar's initial rode every badge click; a press ON the name made the <b> the target, and its text went in as
+// `$el_text`. getSafeText returns "" under an ancestor with this class, and a chain holding it drops the whole click
+// (explicitNoCapture), as dead clicks and rage clicks do. The replay's rrweb runs with blockClass 'ph-no-capture': a blocked element is
+// recorded as an empty box (its class and size, no children, no later text or attribute mutation). So every element that prints the
+// identity carries this class, set BEFORE the identity is written, and holds it in its own text (or its own `title`) only, never in an
+// ancestor's attribute. A mark INSIDE a control is also `pointer-events:none` (helmet.html, `.ngAcctChip .ph-no-capture`), so a press on
+// the name lands on the control and is still counted, without the name. Settings' address line takes its span from `_addressMarkup`.
+// Pinned by e2e/journeys/no-identity-in-analytics.spec.ts, whose mirror of autocapture is transcribed from that version.
+const NG_NO_CAPTURE = "ph-no-capture";
 // EVERY CARD ANSWERED IN ONE LANDING MOVES THIS EXCHANGE AGAIN, BY A SMALLER STEP (v1.221.0, owner
 // 2026-10-05: "answering more flashcards should increase/decrease choices proba further, it's not a 1
 // slot thing, but many"). Row k-1 is the k-th card RESOLVED in one landing (answered, or run out of
@@ -326,7 +339,8 @@ const NG_DRAWER_LOGO = '<svg aria-hidden="true" width="22" height="22" viewBox="
 // gold off. Opposite technique poles therefore share a purple-grey site colour.
 const NG_MIX_SITES_BY_DEFAULT = true;
 // THE SETTINGS TABS, IN ROW ORDER: [id, label]. The row, its one click handler and its arrow keys
-// all read this, and nothing else names a tab (v1.196.1). It replaced five hand-built spans with
+// all read this, through `_settingsTabs` (the part of it one opening shows, NG_DIGEST_LIVE below),
+// and nothing else names a tab (v1.196.1). It replaced five hand-built spans with
 // five class names (.t-fc .t-rl .t-md .t-nt .t-kb) and five listeners, i.e. the same list written
 // three times. The id is what `openSettings(tab)` takes and what `_settingsTab` holds, so a
 // deep link such as the account menu's "Keyboard shortcuts" row keeps working through a rename
@@ -334,6 +348,31 @@ const NG_MIX_SITES_BY_DEFAULT = true;
 // `.ng-stabs`), and settings-tabs.spec.ts's ">= 768 all fit" assertion goes red on purpose so that
 // somebody looks at the desktop row before it ships.
 const NG_SETTINGS_TABS = [["flashcards", "Flashcards"], ["rolling", "Rolling"], ["modifiers", "Modifiers"], ["notifications", "Notifications"], ["shortcuts", "Shortcuts"]];
+// IS THE TRAINING-DAY EMAIL LIVE? Not yet (v1.261.1). Owner, 12 Nov 2026, briefing answer U139 a:
+// "Hide it while the digest is off." The digest cannot send: the owner decided on 11 Nov 2026 that it
+// stays off, and its two tables, `digest_sent` and `digest_suppress` (supabase/digest_v1.sql), do not
+// exist in production (supabase/schema.sql's header). Turning the switch on sent nothing; it only
+// started recording the per-day `dayLog` that syncs with the account. A read-only check of production
+// on 12 Nov found no account with `emailDigest` on and none with a day log.
+// WHILE THIS IS false, `openSettings` draws the Notifications tab in exactly ONE case: a signed-in
+// account whose stored `emailDigest` is on, so it can turn it off (the row then says no email is being
+// sent yet). Everyone else gets no tab: a signed-in player with it off would find an empty tab, and a
+// guest's one line ("Sign in … to turn it on") would send them to sign in for a switch that is not there
+// (the orchestrator's round-2 correction, DIGEST2: a guest included, whatever is stored on the device).
+// The decision is made ONCE PER OPENING, so pressing Off leaves the row where it is until Settings
+// closes and it is gone from the next opening on; a deep link to the hidden tab opens the first tab.
+// NOTHING STORED CHANGES: nothing here writes, renames or deletes `emailDigest` (the digest worker
+// selects on that key, and a settings key can never be deleted, CLAUDE.md §6.6), and `noteCardDone`
+// still records the day log by the stored setting alone, exactly as before.
+// BEFORE ANYONE FLIPS THIS TO true, all three must hold:
+//   1. both tables exist in production (digest_v1.sql applied, and schema.sql's header says so);
+//   2. the digest worker (workers/digest) is deployed and has sent a real digest;
+//   3. the privacy page (content/privacy.md) describes the training-day email. On 12 Nov 2026 it says
+//      nothing about it: its email lines are about signing in only.
+// Flipped to true, Settings is v1.259.1's to the letter: five tabs for everyone, the row for every
+// signed-in player, the guest's line, no "not sent yet" words (tests/settings_presentation.test.mjs,
+// "flipped", and the DIGEST1 differential in docs/Changelog-Archive.md).
+const NG_DIGEST_LIVE = false;
 // THE FOLD-MAP KEY FOR EXPLORE'S "YOUR LISTS" SECTION (v1.196.1), and its header's
 // `data-explore-section` handle — the same label-is-key-is-handle rule the other six follow. A
 // settings key can never be deleted (CLAUDE.md §6.6), so once written this string is permanent:
@@ -5394,7 +5433,13 @@ class Component extends DCLogic {
   }
   openSettings(tab) {
     if (this.__ngDestroyed || !this._progressCurrent()) return false;
-    this._settingsTab = tab || "flashcards"; this._settingsRowX = null;
+    // The tabs this opening shows, decided once here (NG_DIGEST_LIVE). The truthiness is noteCardDone's,
+    // so an ACCOUNT whose setting is recording a day log always sees the switch that stops it (a guest's
+    // device-only setting mails nobody, and its switch would need the sign-in the line asks for). Every
+    // write of `_settingsTab` after this one is a press on a tab the row drew, so it never names a hidden tab.
+    const notif = NG_DIGEST_LIVE || !!this.user && !!this.get("emailDigest", false);
+    this._settingsTabs = notif ? NG_SETTINGS_TABS : NG_SETTINGS_TABS.filter((t) => t[0] !== "notifications");
+    this._settingsTab = tab && (notif || tab !== "notifications") ? tab : "flashcards"; this._settingsRowX = null;
     this.track("neural_settings_opened", { tab: this._settingsTab }); this.openModal();
     this._settingsIntent = { owner: this._progressOwnerStamp, modal: this._modalGeneration,
       card: this.modalCardRef.current, focus: true };
@@ -5431,7 +5476,7 @@ class Component extends DCLogic {
           if (this.__ngDestroyed || !this._progressCurrent()) throw new Error("Settings owner changed");
           return runtime.ngInstallSettingsPresentation(this, {
             expectedBuild: NG_SETTINGS_UI_BUILD,
-            NG_SETTINGS_TABS, NG_START_FROM,
+            NG_START_FROM, NG_DIGEST_LIVE,
           });
         }).catch((error) => { this._settingsPresentationLoad = null; throw error; });
     }
@@ -7204,6 +7249,8 @@ class Component extends DCLogic {
     const name = chip.querySelector("b"), av = chip.querySelector(".ng-badge-av");
     // An account's progress, played unverified: never "Guest", and no create-account nudge.
     const offline = !this.user && this._progressLocalOnly;
+    // marked while they print the identity, BEFORE it is written (NG_NO_CAPTURE); "Guest" and "Offline" stay readable to analytics
+    name.classList.toggle(NG_NO_CAPTURE, !!this.user); av.classList.toggle(NG_NO_CAPTURE, !!this.user);
     name.textContent = offline ? "Offline" : this.user ? this.user.name : "Guest";
     av.textContent = offline ? "!" : this.user ? this.user.initial : "G";
     av.style.background = this.user ? "linear-gradient(135deg,#1f8a5b,#2a6fdb)" : "";
@@ -7222,6 +7269,10 @@ class Component extends DCLogic {
       this.renderExplorer();
     }
   }
+  /** Settings' training-day line names the address inside the analytics mark (NG_NO_CAPTURE). The markup is built HERE, in the
+   *  eager app, because the deferred Settings presentation sits at its byte ceiling (#378 left it 2 B of room, and the span cost
+   *  33 B there); Settings carries only this call. HTML, because settingRow writes its line as HTML, as it always has for the address. */
+  _addressMarkup() { return "<span class=" + NG_NO_CAPTURE + ">" + ((this.user && this.user.email) || "your account email") + "</span>"; }
   // ── account menu (v1.94.0) ── compact chrome anchored above the bottom-right chip. It is
   // CHROME, not gameplay: opening it never opens/closes the pane, never touches the pause
   // latch, never freezes the roll clock. Esc closes it FIRST (before any gameplay overlay),
@@ -7300,6 +7351,9 @@ class Component extends DCLogic {
       // the signed-in identity, readable but not a control
       const em = document.createElement("div");
       em.setAttribute("data-menu-email", "1");
+      // the identity in its own text and its own tooltip only, under the mark (NG_NO_CAPTURE): no ancestor carries it, and a click on
+      // the row, which is not a control, is dropped by autocapture rather than counted with the address
+      em.className = NG_NO_CAPTURE;
       em.textContent = this.user.email || this.user.name;
       em.title = this.user.email || this.user.name;
       em.style.cssText = "min-height:44px;display:flex;align-items:center;padding:0 13px;font-size:12px;font-weight:600;color:#8b97b0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:default;";
