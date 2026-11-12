@@ -478,7 +478,8 @@ const mutants = [
   // U104 (v1.252.0): a closed question's label is a row across the grid, so both columns start under it.
   ['u104-label-under-article', sections, 'D-338 1152px Questions and Moves close', s => replace(s, 'const filmEnd = (showCard ? cardY : y) + ', 'const filmEnd = cardY + ')],
   // U104: each column carries on under its own stage cell.
-  ['u104-no-lead', 'article-dashboard.spec.ts', '@curated at 1440x900 the article is two columns', s => replace(s, 'this.sortColumns(...this.leadCells);', 'this.sortColumns();')],
+  ['u104-no-lead', 'article-dashboard.spec.ts', 'at 1440x900 the article is two columns', // the title lost @curated at v1.263.0 (GATE6 fixed the grep)
+    s => replace(s, 'this.sortColumns(...this.leadCells);', 'this.sortColumns();')],
   // U112 a: the reader shows the page's guide whole; the old reader cut would drop the closing line with the four parts.
   ['u111-reader-cut-back', 'safety-risks-only.spec.ts', 'Armbar/from-Mount/Attacker', s => replace(s, "    // U111, U112 a (owner, 2026-11-09): a submission's guide is cut in its template",
     '    submission && buckets.get("safety")?.parts[0].node.querySelectorAll(":scope>.table-container~*").forEach(n => n.remove());\n    // U111, U112 a (owner, 2026-11-09): a submission\'s guide is cut in its template')],
