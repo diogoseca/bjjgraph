@@ -5,9 +5,10 @@
 // workflows, after the keyed build and before the Pages upload. Until v1.263.0 the tag meant "a fast representative
 // sample", and it grew from 427 tests on 1 Oct to 914 on 12 Nov: 33.6 to 36.8 minutes of a 45-minute step timeout,
 // about 2.6 minutes more every day (the GATE1 plan, `reports/gatetime.md`, outside the repo). The owner's answer: "only what a deploy can break,
-// plus one quick test per surface". 56 tests at v1.263.0, about 3 minutes; the tiers as v1.263.3 states them:
-//   D  a test that reads what only a deploy build has: the keyed Supabase and PostHog config in postscript.js (and the
-//      build stamp it carries), or this checkout's own history (publication dates);
+// plus one quick test per surface". 56 tests at v1.263.0, about 3 minutes; the tiers as v1.264.2 states them:
+//   D  a test that reads what only a deploy build has: the keyed Supabase and PostHog config in postscript.js, or this
+//      checkout's own history (publication dates). NOT the build stamp: NeuralMount.tsx writes window.__NEURAL_BUILD on
+//      every build, keyed or not (v1.264.2 moved bundle-version's two rows to S; the reviewer's new 5 on #392);
 //   S  re-run on the exact tree that ships, reading nothing a PR build lacks: one quick test per surface, plus the
 //      sign-in and account seams the owner's answer kept whole.
 //   v1.263.0 called 41 rows D. The reviewer of #388 (finding 4) showed 28 of them cannot see a deploy-only input (their
@@ -37,7 +38,11 @@
 //                    the tests that ran and passed must be exactly the rows, none skipped, more than zero.
 //   promotion        (deploy.yaml only, its first gate, before the build): the commit that vouches for a push to main
 //                    must have a green e2e-full run (push or dispatch); see its section below for every push shape.
-//   tripwire         (both deploys, AFTER the Pages upload and the live checks): reads the gate step's start and end
+//   tripwire         (both deploys, AFTER the Pages upload and the live checks; since v1.264.2 it also fails when the
+//                    count `ran` leaves in e2e/test-results is missing or differs from the ledger. So a count switched
+//                    off by ignore-scripts is caught AFTER the upload: the site already serves the build, the run (or
+//                    deploy.yaml's deployed-console verdict) goes red, and nothing is blocked or rolled back; the count
+//                    blocks before the upload whenever the hook runs, every deploy today): reads the gate step's start and end
 //                    from this run attempt's own jobs API, requires exactly one step of that name (zero or two must
 //                    not read as fast), warns over the target and fails over the line. It runs after the upload on
 //                    purpose: a slow but green gate still ships, and a deploy blocked at the line would only move the
@@ -53,7 +58,7 @@
 //   node scripts/deploy_gate.mjs tripwire                      (in a workflow: GH_TOKEN and the GITHUB_* variables)
 //   node scripts/deploy_gate.mjs refresh --log <gate log> --run <run id>
 //       (gh run view <id> --log > gate.log; rows the log does not name keep their seconds and are listed)
-import { readFileSync, readdirSync, statSync, writeFileSync, appendFileSync } from "node:fs";
+import { readFileSync, readdirSync, statSync, writeFileSync, appendFileSync, mkdirSync } from "node:fs";
 import { join, relative, resolve, dirname } from "node:path";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
@@ -240,6 +245,14 @@ export function checkListed(listed, manifest) {
 // more than zero. It reads the JSON reporter's file from e2e/playwright.config.ts, which lands in an outputDir that
 // Playwright wipes at the start of every run, so it can only ever count this run.
 export const RESULTS = "e2e/test-results/results.json";
+// What `ran` counted, for the tripwire (v1.264.2, GATE7; the reviewer's new 3 on #392). The count runs as an npm
+// post-hook, and npm skips pre and post hooks under `ignore-scripts` (an .npmrc line, or npm_config_ignore_scripts in the
+// environment) while still running the main script green: the count would be switched off with nothing red. So `ran`
+// leaves its count here, beside the report, in the outputDir Playwright wipes at every run's start (so it can only be
+// this run's), and the tripwire, later in the same job, fails unless it is there and equals the ledger. The tripwire
+// cannot read the gate step's LOG instead: the job-logs API serves a job's log only after the whole job completes (it
+// answered 404 BlobNotFound for deploy-dev run 43274512974's job while it ran), and the tripwire is a step of that job.
+export const COUNT = "e2e/test-results/gate-count.json";
 
 /** Flatten Playwright's JSON report into { file, title, status, result } (status: expected|unexpected|flaky|skipped). */
 export function flattenResults(json) {
@@ -276,7 +289,7 @@ export function checkRan(results, manifest) {
   return { errors, passed, skipped, rows: want.size, total: results.length };
 }
 
-function ran(root, args) {
+export function ran(root, args) {
   const file = args.includes("--report") ? args[args.indexOf("--report") + 1] : RESULTS;
   let json;
   try { json = JSON.parse(readFileSync(resolve(root, file), "utf8")); }
@@ -284,42 +297,70 @@ function ran(root, args) {
   const r = checkRan(flattenResults(json), loadJson(root, MANIFEST));
   console.log(`deploy gate ran ${r.total} tests: ${r.passed} passed of ${r.rows} rows, ${r.skipped} skipped`);
   for (const e of r.errors) console.log("FAIL " + e);
+  mkdirSync(dirname(resolve(root, COUNT)), { recursive: true });
+  writeFileSync(resolve(root, COUNT), JSON.stringify({ total: r.total, passed: r.passed, skipped: r.skipped, rows: r.rows, errors: r.errors.length }) + "\n");
   return r.errors.length ? 1 : 0;
 }
 
-// ── the promotion rule, enforced (v1.263.3, GATE6; the reviewer's finding 1 on #388) ──────────────
+/** The tripwire's second question: did the count run, and did it count exactly the ledger? `count` is COUNT's JSON or null. */
+export function evaluateCount(count, rows) {
+  if (!count) return { ok: false, message: `the gate's count is missing (${COUNT}): posttest:curated did not run. npm skips post-hooks under ignore-scripts (an .npmrc line or npm_config_ignore_scripts); the tests that ran were never compared with the ledger` };
+  const { total, passed, skipped, errors } = count;
+  if (!(rows > 0 && count.rows === rows && total === rows && passed === rows && skipped === 0 && errors === 0))
+    return { ok: false, message: `the gate's count does not equal the ledger: ran ${total}, passed ${passed}, skipped ${skipped}, errors ${errors}, against ${count.rows} rows counted and ${rows} in the ledger now` };
+  return { ok: true, message: `the gate's count: ${passed} passed of ${rows} rows, 0 skipped` };
+}
+
+/** The tripwire's exit: red when the gate passed its line (or its time could not be read), or when the count is wrong. */
+export const tripwireExit = (time, count) => (time.level === "error" || !count.ok ? 1 : 0);
+
+// ── the promotion rule, enforced (v1.263.3, GATE6; the reviewer's finding 1 on #388; refined v1.264.2, GATE7) ───────
 // Production runs only the deploy gate, so the full suite must already have passed on the exact tree it ships. A
 // promotion is a `--no-ff` merge of a preview-verified dev commit, pushed straight to main with no PR, so no PR run ever
 // sees main's tree; the only full run of it is that dev commit's push-run of e2e-full. `promotion` (the first gate in
-// deploy.yaml, before the build) resolves which commit vouches for this push and fails unless an e2e-full run on THAT
-// commit concluded success:
-//   a merge (two parents)  the dev side, the second parent; and main's tree must equal its tree except for the files
-//                          only main carries (TESTED_ONLY_DIFF: the keepalive workflow commits to main alone, [skip ci]);
-//   one parent             the pushed commit itself: a fast-forward of main onto a tested dev commit passes, a commit
-//                          made on main fails, because nothing ran the full suite on it;
-//   anything else          fails closed: an octopus merge or a root commit is no promotion shape this repo makes.
+// deploy.yaml, before the build) finds the commit that vouches for this push and fails unless an e2e-full run on THAT
+// commit concluded success. It walks from the pushed commit, and at each commit it looks at, in this order:
+//   its own runs           a counted green run on the commit itself vouches for it. That is how a FAST-FORWARD of main
+//                          onto a dev tip passes: dev's tips are PR merge commits (two parents) whose push-run is
+//                          theirs alone, so judging them by their second parent would ask the PR branch's head, which
+//                          has only pull_request runs (GATE7, the reviewer's new 1 on #392: FFDEV and FF8844 failed so);
+//   two parents            then the second parent, the dev side of a `--no-ff` promotion; main's tree must equal its tree
+//                          except for the files only main carries (TESTED_ONLY_DIFF);
+//   one parent             if the commit is EMPTY (its tree hash is its parent's) or changes nothing but
+//                          TESTED_ONLY_DIFF from its parent (a keepalive commit: the
+//                          weekly workflow commits to main alone, [skip ci]), step back to the parent and look again, so
+//                          a manual redeploy after a keepalive passes on the promotion beneath it (the reviewer's new 2);
+//                          any other single-parent commit was made on main and nothing ran the suite on it: it fails,
+//                          and the message gives the branch-and-dispatch recipe for that commit;
+//   no parents             fails closed, and says why it usually happens: a SHALLOW checkout (deploy.yaml checks out
+//                          with fetch-depth: 0, which is what lets the rule see a merge's parents); an octopus merge
+//                          fails closed too: no promotion shape this repo makes.
 // Which runs count: event push (dev's merges) or workflow_dispatch (the way to get one by hand), conclusion success.
 // A pull_request run tested a merge ref, not this commit, so it never counts. ONE RUN PER BURST, deliberately: dev's
 // push-runs share a concurrency group with cancel-in-progress, so a commit followed by another merge before its run
 // finishes keeps a CANCELLED run. The rule then takes the newest dev commit with a green run, and the failure message
 // says how to get one for any other commit. One full run per merge instead would queue six jobs behind every merge.
 export const TESTED_ONLY_DIFF = [".github/keepalive.txt"];
+// A CHOICE, not a hole: `schedule` runs are not counted. One checks out main's exact tip, so counting it would be sound,
+// but the weekly run is usually older than a keepalive tip, so it would rarely vouch; the keepalive walk is the remedy.
 const COUNTED_EVENTS = ["push", "workflow_dispatch"];
+// A CHOICE: twenty weeks of keepalive commits with no promotion in between; past that the rule fails closed rather
+// than walk an unbounded history (a promotion resets it).
+const KEEPALIVE_WALK = 20;
 
-/** Which commit's full-suite run vouches for a push to main, from HEAD's parents and the tree diff to that commit. */
-export function promotionTarget({ head, parents, diff = () => [] }) {
-  if (parents.length === 2) {
-    const tested = parents[1];
-    const extra = diff(tested).filter((f) => !TESTED_ONLY_DIFF.includes(f));
-    if (extra.length)
-      return { error: `main's tree is not the tree that was tested: ${head.slice(0, 9)} differs from its dev parent ${tested.slice(0, 9)} in ${extra.length} file(s) beyond ${TESTED_ONLY_DIFF.join(", ")}: ${extra.slice(0, 10).join(", ")}${extra.length > 10 ? ", ..." : ""}` };
-    return { tested, shape: "a --no-ff promotion merge; its dev parent" };
-  }
-  if (parents.length === 1) return { tested: head, shape: "a single-parent push; the pushed commit itself" };
-  return { error: `a push to main whose head has ${parents.length} parents cannot be traced to one tested commit (fails closed)` };
-}
+const recipe = (sha) => {
+  const short = sha.slice(0, 9);
+  return `To get a green run for ${short} itself, while it is dev's tip and no merge is in flight: gh workflow run e2e-full.yml ` +
+    `--ref dev; otherwise give it a branch of its own, which cancels nothing on dev: git push origin ${sha}:refs/heads/verify-${short} ` +
+    `&& gh workflow run e2e-full.yml --ref verify-${short}. Then re-run this deploy.`;
+};
 
-/** The e2e-full runs on one commit: does any counted run vouch for it? */
+/** The e2e-full runs on one commit: does any counted run vouch for it?
+ *  ANY counted green run vouches, and a later red run on the same commit does not revoke it: the tree passed the whole
+ *  suite once, so a later red on that same tree is a flake or an environment fault, which the deploy gate and the next
+ *  push-run judge for themselves; the suite is deterministic by design (retries: 0), so this tolerates nothing it should
+ *  catch. A RE-RUN attempt is different: the API reports a run's latest attempt, so green then red on a re-run of the
+ *  same run reads as red, and red then green as green. (GATE7, the reviewer's new 8 on #392.) */
 export function evaluatePromotion(runs, sha) {
   const mine = (runs || []).filter((r) => r.head_sha === sha);
   const counted = mine.filter((r) => COUNTED_EVENTS.includes(r.event));
@@ -330,16 +371,88 @@ export function evaluatePromotion(runs, sha) {
   return { ok: false, runs: list, message:
     `no e2e-full run on ${short} concluded success (runs found: ${list}); production would ship a tree the full suite never passed. ` +
     `Promote the newest dev commit whose push-run of e2e-full is green: a burst of merges keeps one run, for its newest tip, and ` +
-    `cancels the rest by design. To get a green run for ${short} itself, while it is dev's tip and no merge is in flight: ` +
-    `gh workflow run e2e-full.yml --ref dev; otherwise give it a branch of its own, which cancels nothing on dev: ` +
-    `git push origin ${sha}:refs/heads/verify-${short} && gh workflow run e2e-full.yml --ref verify-${short}. Then re-run this deploy.` };
+    `cancels the rest by design. ${recipe(sha)}` };
+}
+
+/** Which commit vouches for a push to main, walking from the head as the header says. `parentsOf(sha)` and
+ *  `diff(a, b)` (changed paths) read git; `runsOf(sha)` reads the runs API. `steps` records every commit looked at. */
+export async function judgePromotion({ head, parentsOf, diff, runsOf, sameTree = (a, b) => diff(a, b).length === 0 }) {
+  const steps = [];
+  const look = async (sha, role) => {
+    const v = evaluatePromotion(await runsOf(sha), sha);
+    steps.push(`${sha.slice(0, 9)} (${role}): e2e-full runs ${v.runs}`);
+    return v;
+  };
+  let at = head, walked = 0;
+  for (;;) {
+    const role = at === head ? "the pushed commit" : `beneath ${walked} keepalive or empty commit(s)`;
+    const own = await look(at, role);
+    if (own.ok) {
+      // the backstop (GATE8): whatever the walk stepped over, main's tree must be this commit's tree but for
+      // TESTED_ONLY_DIFF, compared HEAD to it directly, so a step whose listing under-reported cannot carry a change in
+      const drift = at === head ? [] : diff(at, head).filter((f) => !TESTED_ONLY_DIFF.includes(f));
+      if (drift.length)
+        return { ok: false, tested: at, steps, message: `main's tree is not the tree that was tested: ${head.slice(0, 9)} differs from ${at.slice(0, 9)}, whose own run vouched, in ${drift.length} file(s) beyond ${TESTED_ONLY_DIFF.join(", ")}: ${drift.slice(0, 10).join(", ")}${drift.length > 10 ? ", ..." : ""}; it fails closed` };
+      return { ok: true, tested: at, shape: `${role}, on its own run`, message: own.message, steps };
+    }
+    const parents = parentsOf(at);
+    if (parents.length === 2) {
+      const tested = parents[1];
+      const extra = diff(tested, head).filter((f) => !TESTED_ONLY_DIFF.includes(f));
+      if (extra.length)
+        return { ok: false, tested, steps, message: `main's tree is not the tree that was tested: ${head.slice(0, 9)} differs from ${tested.slice(0, 9)}, the dev parent of ${at.slice(0, 9)}, in ${extra.length} file(s) beyond ${TESTED_ONLY_DIFF.join(", ")}: ${extra.slice(0, 10).join(", ")}${extra.length > 10 ? ", ..." : ""}` };
+      const v = await look(tested, `the dev parent of ${at.slice(0, 9)}`);
+      if (v.ok) return { ok: true, tested, shape: `the --no-ff promotion merge ${at.slice(0, 9)}'s dev parent`, message: v.message, steps };
+      return { ok: false, tested, steps, message: `neither ${at.slice(0, 9)} (${role}) nor its dev parent has a counted green run. For the dev parent: ${v.message} For ${at.slice(0, 9)} itself, the same recipe applies to its own sha.` };
+    }
+    if (parents.length === 1) {
+      // an EMPTY commit (GATE8, the reviewer's new 4 on #393) is stepped over too: its tree is its parent's, byte for
+      // byte, so whatever vouches for the parent vouches for it. Decided by TREE HASH, never by an empty listing, so a
+      // listing that under-reports cannot pass a real change off as empty.
+      const changed = sameTree(parents[0], at) ? [] : diff(parents[0], at);
+      if (sameTree(parents[0], at) || (changed.length && changed.every((f) => TESTED_ONLY_DIFF.includes(f)))) {
+        if (++walked > KEEPALIVE_WALK) return { ok: false, steps, message: `more than ${KEEPALIVE_WALK} keepalive-only or empty commits on main with no promotion beneath them: fails closed` };
+        at = parents[0];
+        continue;
+      }
+      return { ok: false, tested: at, steps, message: `${at.slice(0, 9)} (${role}) is a single-parent commit that changes more than ${TESTED_ONLY_DIFF.join(", ")}, so it was made on main and no promotion vouches for it. ${own.message}` };
+    }
+    if (parents.length === 0)
+      return { ok: false, steps, message: `${at.slice(0, 9)} has no parents in this checkout: the repository's root commit, or, far more likely, a SHALLOW checkout. deploy.yaml must check out with fetch-depth: 0 so the rule can see a merge's parents; it fails closed` };
+    return { ok: false, steps, message: `${at.slice(0, 9)} has ${parents.length} parents: an octopus merge is no promotion shape this repo makes; it fails closed` };
+  }
 }
 
 const git = (root, ...a) => {
-  const r = spawnSync("git", a, { cwd: root, encoding: "utf8" });
+  const r = spawnSync("git", a, { cwd: root, encoding: "utf8", env: { ...process.env, GIT_NO_REPLACE_OBJECTS: "1" } });
   if (r.status !== 0) throw new Error(`git ${a.join(" ")}: ${(r.stderr || "").trim()}`);
-  return r.stdout.trim();
+  return r.stdout;
 };
+
+/** git as the promotion rule reads it (v1.264.2, GATE8; the reviewer's new 1 on #393). A diff LISTING can under-report,
+ *  and an under-reported change is exactly what would let the keepalive walk step over a real one. Measured in a scratch
+ *  repo, each case and what closes it:
+ *    a rename        porcelain `git diff --name-only` prints only a rename's DESTINATION, so a commit renaming
+ *                    content/terms.md onto .github/keepalive.txt read as keepalive-only and was stepped over: the
+ *                    reader's R1/R2 false pass. Closed by plumbing `diff-tree` with `--no-renames` (and it ignores
+ *                    diff.renames from any config);
+ *    a submodule     a gitlink bump is hidden from BOTH porcelain and plumbing when .gitmodules says `ignore = all`.
+ *                    Closed by `--ignore-submodules=none`;
+ *    a subdirectory  porcelain with diff.relative=true lists only paths under the working directory; diff-tree lists
+ *                    full paths from anywhere;
+ *    odd names       a non-ASCII or newline-bearing name is quoted (never split, so a name like "\n.github/keepalive.txt"
+ *                    cannot pose as the keepalive path); `-z` takes the raw bytes, one NUL-separated entry each;
+ *    replace refs    `refs/replace/*` can swap a commit's parents or tree; GIT_NO_REPLACE_OBJECTS=1 reads the real ones;
+ *    no change       an empty listing is not trusted to mean "nothing changed": `sameTree` compares tree hashes.
+ *  Listed correctly already, so nothing to close: a mode change, a symlink swap, a path that only starts with the
+ *  keepalive name (it is its own entry, and the match is exact). */
+export function gitAccess(root) {
+  return {
+    parentsOf: (sha) => git(root, "rev-list", "--parents", "-n", "1", sha).trim().split(" ").slice(1),
+    diff: (a, b) => git(root, "diff-tree", "-r", "-z", "--name-only", "--no-renames", "--ignore-submodules=none", "--no-commit-id", a, b).split("\0").filter(Boolean),
+    sameTree: (a, b) => git(root, "rev-parse", `${a}^{tree}`).trim() === git(root, "rev-parse", `${b}^{tree}`).trim(),
+  };
+}
 
 async function e2eFullRuns(sha) {
   const { GITHUB_API_URL = "https://api.github.com", GITHUB_REPOSITORY = "diogoseca/bjjgraph", GH_TOKEN } = process.env;
@@ -356,19 +469,26 @@ async function e2eFullRuns(sha) {
 
 async function promotion(root, args) {
   try {
-    let tested, shape;
-    if (args.includes("--commit")) { tested = args[args.indexOf("--commit") + 1]; shape = "named on the command line (a dry run of the run check)"; }
-    else {
-      const at = args.includes("--head") ? args[args.indexOf("--head") + 1] : "HEAD"; // --head: a dry run of the whole rule
-      const head = git(root, "rev-parse", at);
-      const parents = git(root, "rev-list", "--parents", "-n", "1", head).split(" ").slice(1);
-      const t = promotionTarget({ head, parents, diff: (other) => git(root, "diff", "--name-only", other, head).split("\n").filter(Boolean) });
-      if (t.error) { console.log(`::error title=Promotion rule::${t.error}`); return 1; }
-      ({ tested, shape } = t);
+    if (args.includes("--commit")) { // a dry run of the run check alone, on one named commit
+      const sha = args[args.indexOf("--commit") + 1];
+      if (!/^[0-9a-f]{40}$/.test(sha || "")) { console.log(`::error title=Promotion rule::not a full commit sha: ${sha}`); return 1; }
+      const v = evaluatePromotion(await e2eFullRuns(sha), sha);
+      console.log(`promotion --commit ${sha}: e2e-full runs on it: ${v.runs}`);
+      console.log((v.ok ? "::notice title=Promotion rule::" : "::error title=Promotion rule::") + v.message);
+      return v.ok ? 0 : 1;
     }
-    if (!/^[0-9a-f]{40}$/.test(tested || "")) { console.log(`::error title=Promotion rule::not a full commit sha: ${tested}`); return 1; }
-    const v = evaluatePromotion(await e2eFullRuns(tested), tested);
-    console.log(`promotion: the commit that vouches for this push is ${tested} (${shape}); e2e-full runs on it: ${v.runs}`);
+    const at = args.includes("--head") ? args[args.indexOf("--head") + 1] : "HEAD"; // --head: a dry run of the whole rule
+    const head = git(root, "rev-parse", at).trim();
+    const v = await judgePromotion({
+      head,
+      ...gitAccess(root),
+      runsOf: async (sha) => {
+        if (!/^[0-9a-f]{40}$/.test(sha)) throw new Error(`not a full commit sha: ${sha}`);
+        return e2eFullRuns(sha);
+      },
+    });
+    for (const step of v.steps) console.log(`promotion: looked at ${step}`);
+    if (v.ok) console.log(`promotion: the commit that vouches for ${head} is ${v.tested} (${v.shape})`);
     console.log((v.ok ? "::notice title=Promotion rule::" : "::error title=Promotion rule::") + v.message);
     return v.ok ? 0 : 1;
   } catch (e) { console.log(`::error title=Promotion rule::the rule could not be checked (${e.message}); it fails closed`); return 1; }
@@ -412,10 +532,23 @@ async function tripwire(root) {
     if (!verdict.retry) break;
     if (attempt < 5) await new Promise((r) => setTimeout(r, 6000));
   }
+  const r = tripwireJudge(root, verdict);
+  for (const l of r.lines) console.log(l);
+  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### Deploy gate time\n${r.time.message}\n\n${r.count.message}\n`);
+  return r.exit;
+}
+
+/** The tripwire's whole judgment once the jobs API has answered (GATE8, the reviewer's new 2 on #393: split out so a test
+ *  feeds it a jobs JSON and a root holding, or lacking, the count file). `time` is a jobs JSON or an evaluateTripwire
+ *  verdict; the count is READ from `root` here, never passed in, so the call site cannot skip it. */
+export function tripwireJudge(root, time) {
+  const verdict = time && time.level ? time : evaluateTripwire(time, loadJson(root, BUDGET));
+  let count = null;
+  try { count = JSON.parse(readFileSync(resolve(root, COUNT), "utf8")); } catch { count = null; }
+  const c = evaluateCount(count, loadJson(root, MANIFEST).tests.length);
   const line = { error: "::error title=Deploy gate time::", warning: "::warning title=Deploy gate time::", ok: "::notice title=Deploy gate time::" }[verdict.level];
-  console.log(line + verdict.message);
-  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### Deploy gate time\n${verdict.message}\n`);
-  return verdict.level === "error" ? 1 : 0;
+  return { exit: tripwireExit(verdict, c), time: verdict, count: c,
+    lines: [line + verdict.message, (c.ok ? "::notice title=Deploy gate count::" : "::error title=Deploy gate count::") + c.message] };
 }
 
 // ── refresh, by hand ──────────────────────────────────────────────────────────────────────────
