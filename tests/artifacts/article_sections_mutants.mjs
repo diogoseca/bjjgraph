@@ -1,3 +1,6 @@
+// v1.263.1 (CARDWIDTH) recorded NON-KILL, not coverage: prev-climbs-over-choices, retargeted onto the guide's 22px floor once the
+// 70px one beside the index went. Previous now stands level with Next on its own side, and at 1440x560 and 1440x520 enough of the face
+// shows that the floor never binds. u110-card-uncapped is RETIRED with its target (the open face has no cap of its own).
 // v1.253.0 RETIRED with their subject (U114 a, the article's ✕ and the shelf): reading-shelf-retained and u110-close-on-article-edge.
 // Their source is gone, so no build can carry them. So is u59r4-reopen-ungated (#354's review, finding 2): its journey, putting the article
 // away and back, went with them. u59-pill-covers and reader-end-double-gap were retargeted onto _readerReserve's lane

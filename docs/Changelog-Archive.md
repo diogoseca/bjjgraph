@@ -16007,3 +16007,15 @@ journeys (29 files, 352 tests, core config :8133): 352 passed in 23.9 minutes. `
 control): 9 of 10 red, each at its claim (the lane 40 not 32 on the phones, 0 at 768; lanes 0 and 52 at 1440; the no-deck face 4px and
 27px inside the section), the 768 no-deck test green as it should be (that face already spanned the row). `npm run ci:validate`: 28 of
 28 before this entry. `check_payload_budget.py`: exit 0. The PR's e2e-full runs the full core suite and `e2e:gen`.
+
+**Red-proof** (under the build lock, a private server, each control against a green baseline of the same test, the served files
+restored byte for byte after): all ten `card-section.spec.ts` rows killed at their claims (the table is in the spec's foot); the two
+rows for the relaxed `landcard-deck` inequalities (an arrow 8px over the face, each side) killed at those lines; the replacement for
+the retired index-lane rows, Previous pushed back over the index, killed at "lies right of the index"; the U110 rows re-run against
+the re-pinned `stacked-width.spec.ts`, all five killed. One NON-KILL, recorded in `deck-arrows-index.spec.ts` and the harness, not
+coverage: `prev-climbs-over-choices`, retargeted onto the guide's 22px floor; with Previous level with Next, the short screens there
+always show more of the face than an arrow's height, so the floor never binds.
+
+**On the merged tree** (origin/dev b43c4c075, v1.262.11, by merge): `validate:build-shape:app` re-seeded eight app rows (three by
+bytes, five hash-only game bundles that embed the gameplay manifest); `card-section` and the five re-pinned files, 76 of 76, under the
+lock; `check_payload_budget.py` exit 0 (deferred 510,958 B of 510,981; eager gzip 352,261 B, -30 B against v1.262.11).

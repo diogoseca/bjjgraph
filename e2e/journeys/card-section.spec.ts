@@ -154,5 +154,18 @@ for (const size of SIZES) {
   })
 }
 
-// Red-proof (v1.263.1, each against a green baseline of this file; rows in tests/artifacts/article_sections_mutants.mjs (reader.js) and
-// tests/artifacts/neural_app_mutants.mjs (neural.css)): filled in by the run recorded in docs/Changelog-Archive.md.
+// Red-proof (v1.263.1, under the build lock on a private server, each against a green baseline of the same test; reader rows in
+// tests/artifacts/article_sections_mutants.mjs, stylesheet rows in tests/artifacts/neural_app_mutants.mjs):
+//   cardwidth-old-face ............. dev's width line back, 390x631 ........ killed: each lane is 32px (face 52..338 in 12..378)
+//   cardwidth-section-free ......... section from the free width, 390x844 .. killed: each lane is 32px (face 48..342 in 12..378)
+//   cardwidth-tablet-lanes-lost .... no lanes where the row is flush, 768 .. killed: each lane is 32px (face 136..632 in 136..632)
+//   cardwidth-column-offset-lost ... the face on the grid's edge, 1440 ..... killed: the face is centred in the section (lanes 0 / 64)
+//   cardwidth-nodeck-old ........... no deck keeps free - 32, 390x844 ...... killed: the face starts on the section's edge (16 / 12)
+//   cardwidth-nodeck-column-old .... no deck keeps column - 52, 1440 ....... killed: the face ends on the section's edge (656 / 708)
+//   cardwidth-arrow-gap-back ....... Previous 8px clear again, 390x844 ..... killed: Previous abuts the face (36 / 44)
+//   cardwidth-glyph-in-target ...... the glyph centred in its target, 390x631 killed: Previous's glyph is centred in its lane (22 / 28)
+//   cardwidth-next-glyph-in-target . Next's glyph pushed out, 768 .......... killed: Next's glyph is centred in its lane (628 / 616)
+//   cardwidth-arrows-in-moves-band . the arrows up at top:-60px, 1440 ...... killed: Previous stands beside the face, not above it
+// Control: this whole file against dev v1.262.10's own bundle, 9 of 10 red at these claims; the 768 no-deck test green (that face
+// already spanned the row). NOT KILLED, recorded: nothing here can see the 12px reach go to a neighbour's press, because no control
+// stands in a phone's 12px gutter or the index's 12px clearance today; the press samples would catch one that did.

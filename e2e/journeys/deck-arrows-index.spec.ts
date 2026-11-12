@@ -81,6 +81,8 @@ for (const height of [560, 520]) {
 // Red-proof (v1.252.1, tests/artifacts/neural_app_mutants.mjs on the served neural.css and neural.js, against a green baseline):
 //   deck-prev-home-rule-lost ... the stylesheet rule unmatched ............ killed: [data-land-prev] lies right of the index at the top
 //   deck-prev-home-flag-lost ... the app never sets data-index ............ killed: [data-land-prev] lies right of the index at the top
-// Both RETIRED in v1.263.1 with their subject (CARDWIDTH: the rule and the flag are gone). Their replacements, same harness, are
-// recorded in docs/Changelog-Archive.md (v1.263.1): Previous back outside the face's left edge into the index (its old 8px gap and
-// no lane) must turn "lies right of the index" red; the face back on the grid's edge must turn "the face's left lane" red.
+// Both RETIRED in v1.263.1 with their subject (CARDWIDTH: the rule and the flag are gone). Replacement, same harness, v1.263.1:
+//   cardwidth-prev-over-index ... Previous pushed 32px out past its lane, over the index ... killed: [data-land-prev] lies right of the index at the top
+// NOT KILLED (v1.263.1), recorded, not coverage: prev-climbs-over-choices (tests/artifacts/article_sections_mutants.mjs), the guide's 22px
+// floor removed. With Previous level with Next on its own side, neither short screen here shows less of the face than an arrow's
+// height, so the floor never binds; "Previous stays on the face" holds without it. The floor stays; no journey reaches its case.
