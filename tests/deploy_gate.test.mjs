@@ -74,6 +74,9 @@
 //              schedule runs counted → "a green schedule run does not vouch".
 //   EMPTY      no empty-commit step → "an empty commit on a promotion passes on the promotion's dev parent"; emptiness
 //              decided by the listing → "...the walk stops AT that commit, before any backstop has to catch it".
+//
+// v1.264.5 (the reader's last nit on #393): tripwire()'s own return made to ignore the count → "a fine time but no
+// count file: tripwire() itself returns red".
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
@@ -83,7 +86,7 @@ import { tmpdir } from "node:os";
 import {
   ROOT, BUDGET, MANIFEST, check, scanSites, checkStatic, checkBudget, checkListed, flattenListing,
   evaluateTripwire, parseGateLog, lineLiterals, loadJson, flattenResults, checkRan, RESULTS,
-  judgePromotion, evaluatePromotion, TESTED_ONLY_DIFF, ran, COUNT, evaluateCount, tripwireExit, gitAccess, tripwireJudge,
+  judgePromotion, evaluatePromotion, TESTED_ONLY_DIFF, ran, COUNT, evaluateCount, tripwireExit, gitAccess, tripwireJudge, tripwire,
 } from "../scripts/deploy_gate.mjs";
 
 const budget = loadJson(ROOT, BUDGET);
@@ -494,6 +497,31 @@ test("COUNT cannot be switched off unseen: no tracked .npmrc sets ignore-scripts
     for (const m of maps) for (const k of Object.keys(m)) assert.notEqual(k.toLowerCase(), "npm_config_ignore_scripts", `${name} sets ${k}, which skips posttest:curated`);
   }
   assert.ok(envs > 0, "positive coverage: the deploys' env maps were found and read");
+});
+
+test("TRIPWIRE end to end: tripwire() fetches the jobs, retries a failed answer, and RETURNS red without the count (v1.264.5)", async () => {
+  const root = mkdtempSync(join(tmpdir(), "deploy-gate-tripwire-"));
+  const log = console.log;
+  try {
+    mkdirSync(join(root, "tests/artifacts"), { recursive: true });
+    writeFileSync(join(root, MANIFEST), JSON.stringify({ tests: [row("a.spec.ts", "@curated one"), row("a.spec.ts", "@curated two")] }));
+    writeFileSync(join(root, BUDGET), JSON.stringify(budget));
+    const jobs = { jobs: [{ name: "deploy", steps: [{ name: budget.step, status: "completed", conclusion: "success", started_at: "2026-11-12T10:00:00Z", completed_at: "2026-11-12T10:02:00Z" }] }] };
+    const urls = [];
+    const fake = (answers) => { let i = 0; return async (url) => { urls.push(url); const a = answers[Math.min(i++, answers.length - 1)]; return a; }; };
+    const okJobs = { ok: true, status: 200, json: async () => jobs };
+    const env = { GITHUB_REPOSITORY: "owner/repo", GITHUB_RUN_ID: "77", GITHUB_RUN_ATTEMPT: "2", GITHUB_API_URL: "https://api.example.invalid" };
+    const opts = (answers) => ({ fetchImpl: fake(answers), env, wait: async () => {} });
+    console.log = () => {};
+    assert.equal(await tripwire(root, opts([{ ok: false, status: 502 }, okJobs])), 1, "a fine time but no count file: tripwire() itself returns red");
+    assert.equal(urls[0], "https://api.example.invalid/repos/owner/repo/actions/runs/77/attempts/2/jobs?per_page=100", "it reads this run attempt's jobs");
+    assert.equal(urls.length, 2, "a failed answer is retried");
+    mkdirSync(join(root, "e2e/test-results"), { recursive: true });
+    writeFileSync(join(root, COUNT), JSON.stringify({ total: 2, passed: 2, skipped: 0, rows: 2, errors: 0 }));
+    assert.equal(await tripwire(root, opts([okJobs])), 0, "the count equal to the ledger and the time inside the target: tripwire() returns green");
+    const slow = { ok: true, status: 200, json: async () => ({ jobs: [{ steps: [{ ...jobs.jobs[0].steps[0], completed_at: "2026-11-12T10:11:00Z" }] }] }) };
+    assert.equal(await tripwire(root, opts([slow])), 1, "over the line: tripwire() returns red with the count right");
+  } finally { console.log = log; rmSync(root, { recursive: true, force: true }); }
 });
 
 test("TRIPWIRE: exactly one completed gate step; ok, warning and error by the budget; absence is an error", () => {

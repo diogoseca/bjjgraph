@@ -517,24 +517,26 @@ export function evaluateTripwire(jobs, budget) {
   return { level: "ok", retry: false, seconds, message: `the curated gate took ${min} min (${limits})` };
 }
 
-async function tripwire(root) {
+/** The tripwire step. `fetchImpl`, `env` and `wait` are injectable so a test drives it end to end with a fake jobs
+ *  response (v1.264.5; the reader's last nit on #393: its own return was unpinned). */
+export async function tripwire(root, { fetchImpl = fetch, env = process.env, wait = (ms) => new Promise((r) => setTimeout(r, ms)) } = {}) {
   const budget = loadJson(root, BUDGET);
-  const { GITHUB_API_URL = "https://api.github.com", GITHUB_REPOSITORY, GITHUB_RUN_ID, GITHUB_RUN_ATTEMPT = "1", GH_TOKEN } = process.env;
+  const { GITHUB_API_URL = "https://api.github.com", GITHUB_REPOSITORY, GITHUB_RUN_ID, GITHUB_RUN_ATTEMPT = "1", GH_TOKEN } = env;
   if (!GITHUB_REPOSITORY || !GITHUB_RUN_ID) { console.log(`::error::tripwire: GITHUB_REPOSITORY and GITHUB_RUN_ID are required`); return 1; }
   const url = `${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/attempts/${GITHUB_RUN_ATTEMPT}/jobs?per_page=100`;
   let verdict = null;
   for (let attempt = 1; attempt <= 5; attempt++) {
     try {
-      const res = await fetch(url, { headers: { Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", ...(GH_TOKEN ? { Authorization: `Bearer ${GH_TOKEN}` } : {}) } });
+      const res = await fetchImpl(url, { headers: { Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", ...(GH_TOKEN ? { Authorization: `Bearer ${GH_TOKEN}` } : {}) } });
       if (!res.ok) verdict = { level: "error", retry: true, message: `the jobs API answered ${res.status}` };
       else verdict = evaluateTripwire(await res.json(), budget);
     } catch (e) { verdict = { level: "error", retry: true, message: `the jobs API could not be read: ${e.message}` }; }
     if (!verdict.retry) break;
-    if (attempt < 5) await new Promise((r) => setTimeout(r, 6000));
+    if (attempt < 5) await wait(6000);
   }
   const r = tripwireJudge(root, verdict);
   for (const l of r.lines) console.log(l);
-  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### Deploy gate time\n${r.time.message}\n\n${r.count.message}\n`);
+  if (env.GITHUB_STEP_SUMMARY) appendFileSync(env.GITHUB_STEP_SUMMARY, `### Deploy gate time\n${r.time.message}\n\n${r.count.message}\n`);
   return r.exit;
 }
 
