@@ -146,7 +146,7 @@ const nothingCommitted = async (page: Page, pos: number) => {
 };
 
 for (const vp of VIEWS) {
-  test(`@curated card 1, and card 3 reached by the next chevron in a fresh landing, get the same hit in the same bound (${vp.name})`, async ({ page }) => {
+  test(`card 1, and card 3 reached by the next chevron in a fresh landing, get the same hit in the same bound (${vp.name})`, async ({ page }) => {
     const seen: Array<{ page: number; causes: string[]; d: Array<{ t: string; d: number }>; hits: Card[]; pops: string[]; said: string }> = [];
     for (const skips of [0, 2]) {
       const j = await setup(page, vp.width, vp.height); // a fresh boot: a fresh landing, a fresh profile

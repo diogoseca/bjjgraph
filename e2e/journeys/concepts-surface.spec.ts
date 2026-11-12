@@ -294,7 +294,7 @@ const principleStudyState = (page: Page) => page.evaluate(() => {
   };
 });
 
-test("opening a reference before the landing prefetch runs leaves the roll retired @curated", async ({ page }) => {
+test("opening a reference before the landing prefetch runs leaves the roll retired", async ({ page }) => {
   const errors = watchErrors(page);
   const j = journey(page);
   await j.boot("/");
@@ -366,7 +366,7 @@ async function readerStudyTools(page: Page, j: ReturnType<typeof journey>) {
   await j.clickByMouse("[data-reader-study]", "open the page's related practice");
 }
 
-test("Explore lists every authored principle, and opening one opens content — never a search @curated", async ({
+test("Explore lists every authored principle, and opening one opens content — never a search", async ({
   page,
 }) => {
   const errors = watchErrors(page);
@@ -600,7 +600,7 @@ test("Explore lists every authored Learning entry, and opening one opens content
   expect(errors, "no page error across the journey").toEqual([]);
 });
 
-test("arriving on a principle's own page opens it and starts NOTHING @curated", async ({
+test("arriving on a principle's own page opens it and starts NOTHING", async ({
   page,
 }) => {
   const errors = watchErrors(page);
@@ -764,7 +764,7 @@ for (const viewport of [
   { width: 1440, height: 700 },
   { width: 390, height: 844 },
 ]) {
-  test(`principle film study hydrates, plays on request, and stops on leaving at ${viewport.width}px @curated`, async ({ page }) => {
+  test(`principle film study hydrates, plays on request, and stops on leaving at ${viewport.width}px`, async ({ page }) => {
     await page.setViewportSize(viewport);
     const errors = watchErrors(page);
     const j = journey(page);
@@ -937,7 +937,7 @@ for (const viewport of [
     expect(errors).toEqual([]);
   });
 
-  test(`principle sections expand independently and keep related concepts first at ${viewport.width}px @curated`, async ({ page }) => {
+  test(`principle sections expand independently and keep related concepts first at ${viewport.width}px`, async ({ page }) => {
     await page.setViewportSize(viewport);
     const j = journey(page);
     const errors = watchErrors(page);
@@ -1042,7 +1042,7 @@ for (const viewport of [
     expect(errors).toEqual([]);
   });
 
-  test(`principle overview fits the whole map and highlights both roles at ${viewport.width}px @curated`, async ({
+  test(`principle overview fits the whole map and highlights both roles at ${viewport.width}px`, async ({
     page,
   }) => {
     await page.setViewportSize(viewport);
@@ -1149,7 +1149,7 @@ for (const viewport of [
 // published videos. Classification: /home/user/bjj-orchestrator/scratch/article-sections/
 // ci-e26/reference-retirement-classification.md (old host disconnected before new host).
 for (const [category, reference] of [["Principles", null], ["Systems", null], ["Learning", null], ["Principles", "Principles/Microing"]] as const) {
-  test(`clicking ${reference || category} retires the current node and its surfaces @curated`, async ({ page }) => {
+  test(`clicking ${reference || category} retires the current node and its surfaces`, async ({ page }) => {
     const errors = watchErrors(page);
     const j = journey(page);
     await j.boot("/");
@@ -1263,7 +1263,7 @@ for (const [category, reference] of [["Principles", null], ["Systems", null], ["
  * NOT COVERED, declared: the address bar. Like ‹ Back, going home leaves the page path where the
  * page put it; a reload reopens the page. The swipe path is untouched and not re-asserted here.
  */
-test("clicking the pressed Explore tab returns a drilled Principle, then a System, to the Explore root @curated", async ({ page }) => {
+test("clicking the pressed Explore tab returns a drilled Principle, then a System, to the Explore root", async ({ page }) => {
   const errors = watchErrors(page);
   const principles = of("Principle");
   const j = journey(page);

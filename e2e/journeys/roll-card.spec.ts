@@ -202,7 +202,7 @@ test("the landing card does not repeat what the graph already says", async ({ pa
  * The fixture still authors films; prose comes from the real published page.
  * D-318 retires the reading shelf: Questions now hides through its section eye.
  * The article lifetime and real mouse assertions remain unchanged. */
-test("the complete article renders automatically and survives the question lifetime @curated", async ({ page }) => {
+test("the complete article renders automatically and survives the question lifetime", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
   const j = journey(page)
   await j.boot("/")
@@ -509,7 +509,7 @@ for (const height of [900, 720]) {
  * the technique's origin position (the engine's states are positions), staged and paused. Play
  * ran the exchange (retired with the transport in v1.134.0 — the staged card itself is the go).
  */
-test("@curated tapping a transition navigates to it — URL, focus and a standard staged card", async ({
+test("tapping a transition navigates to it — URL, focus and a standard staged card", async ({
   page,
 }) => {
   const j = journey(page)
@@ -576,7 +576,7 @@ test("@curated tapping a transition navigates to it — URL, focus and a standar
 })
 
 /**
- * A MOUSE CAN DRAG THE HAND (v1.129.1). @curated
+ * A MOUSE CAN DRAG THE HAND (v1.129.1).
  *
  * Owner: "Seems like I'm not able to scroll the options horizontally anymore. Either dragging or
  * horizontally scrolling is not working."
@@ -588,7 +588,7 @@ test("@curated tapping a transition navigates to it — URL, focus and a standar
  * natively, so its own mutants could not kill its test. Mouse is the case that is really broken and
  * really testable.
  */
-test("@curated a mouse can drag the option row, and a drag is not a pick", async ({ page }) => {
+test("a mouse can drag the option row, and a drag is not a pick", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Side Control Top")
@@ -645,7 +645,7 @@ test("@curated a mouse can drag the option row, and a drag is not a pick", async
  * those choices using the latest odds. M17 restores the old card-only branch and
  * fails the fresh-journey assertion below.
  */
-test("@curated background taps: close the card, then free roam — and a node click stages fresh", async ({
+test("background taps: close the card, then free roam — and a node click stages fresh", async ({
   page,
 }) => {
   const j = journey(page)
@@ -756,7 +756,7 @@ test("@curated background taps: close the card, then free roam — and a node cl
  * somewhere else is a decision" case), so the follow-cam tracks the travel from frame one.
  * Mutant that must die: dropping the releaseCamera + lastInteract aging from enterAttempt.
  */
-test("@curated the commit hands the camera to the roll", async ({ page }) => {
+test("the commit hands the camera to the roll", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Side-Control/Bottom")
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()

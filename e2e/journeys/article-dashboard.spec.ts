@@ -247,7 +247,7 @@ function measure(d: Dash, wide: boolean) {
 
 // Owner (2026-11-01): the grid is centred and shares both edges with the choices row, so it no longer runs to the right edge.
 for (const [width, height, wide] of [[1440, 900, false], [1920, 1080, true], [1600, 900, true], [1366, 768, false], [1152, 900, false]] as const) {
-  test(`${width === 1440 ? '@curated ' : ''}at ${width}x${height} the article is two columns, shows every tile whole and keeps the node band clear`, async ({ page }) => {
+  test(`${width === 1440 ? '' : ''}at ${width}x${height} the article is two columns, shows every tile whole and keeps the node band clear`, async ({ page }) => {
     const j = await boot(page, width, height)
     await page.evaluate(() => {
       const a = (window as any).__neural, id = a.newList()
@@ -940,7 +940,7 @@ test('at 1920x1080 an article that arrives under a held press still shows two la
   columns(await dashboard(page))
 })
 
-test('@curated U55 b: at 1440x900 a click on a section tile does nothing; its links and its close still work', async ({ page }) => {
+test('U55 b: at 1440x900 a click on a section tile does nothing; its links and its close still work', async ({ page }) => {
   const j = await boot(page, 1440, 900)
   // This fixture's pre-completed track can mint a temporary reward over the right lane's title
   // as well as its close. Wait for its ordinary lifetime before measuring either mouse target.

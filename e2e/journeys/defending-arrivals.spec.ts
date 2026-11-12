@@ -96,7 +96,7 @@ async function defenderLink(page: Page) {
 
 // STALE SPEC (PR 305, owner D-307): sidebar search and perspective links end an already active journey.
 // Repin the curated one-clip defender reel; retain every navigation/pressure assertion.
-test('@curated sidebar search and perspective links end an already active journey', async ({ page }) => {
+test('sidebar search and perspective links end an already active journey', async ({ page }) => {
   const { j, previous } = await caught(page)
   await explore(page)
   await page.locator('.ng-explorer-search input').fill('Loop Choke')
@@ -109,7 +109,7 @@ test('@curated sidebar search and perspective links end an already active journe
 
 // STALE SPEC (PR 305, owner D-307): Browse category navigation clears a catch before opening the defender page.
 // Repin the curated one-clip defender reel; retain every navigation/pressure assertion.
-test('@curated Browse category navigation clears a catch before opening the defender page', async ({ page }) => {
+test('Browse category navigation clears a catch before opening the defender page', async ({ page }) => {
   const { j, previous } = await caught(page)
   await explore(page)
   const scroll = '.ng-learning-list'
@@ -127,7 +127,7 @@ test('@curated Browse category navigation clears a catch before opening the defe
 
 // STALE SPEC (PR 305, owner D-307): a saved list item starts a fresh journey before its defender link.
 // Repin the curated one-clip defender reel; retain every navigation/pressure assertion.
-test('@curated a saved list item starts a fresh journey before its defender link', async ({ page }) => {
+test('a saved list item starts a fresh journey before its defender link', async ({ page }) => {
   const { j, previous } = await caught(page)
   const list = await page.evaluate(id => {
     const a = (window as any).__neural, list = a.newList('Escape study')
@@ -146,7 +146,7 @@ test('@curated a saved list item starts a fresh journey before its defender link
 
 // STALE SPEC (PR 305, owner D-307): clicking the caught defender orb manually restages a calm journey.
 // Repin the curated one-clip defender reel; retain every navigation/pressure assertion.
-test('@curated clicking the caught defender orb manually restages a calm journey', async ({ page }) => {
+test('clicking the caught defender orb manually restages a calm journey', async ({ page }) => {
   const { j, previous } = await caught(page)
   await j.advance(4000)
   const locate = () => page.evaluate(() => {
@@ -223,7 +223,7 @@ test('a list click on the current position also ends its old journey', async ({ 
 
 // STALE SPEC (PR 305, owner D-307): a shared list link opens its defending item without a catch.
 // Repin the curated one-clip defender reel; retain every navigation/pressure assertion.
-test('@curated a shared list link opens its defending item without a catch', async ({ page }) => {
+test('a shared list link opens its defending item without a catch', async ({ page }) => {
   const j = journey(page)
   await j.boot('/Positions/Mount/Top', { beforeNavigate: content })
   const code = await page.evaluate(id => {
@@ -248,7 +248,7 @@ test('@curated a shared list link opens its defending item without a catch', asy
 // naturally empty event stream before the landing card arrives. Reverting the
 // nullish empty-stream read reproduces beats.filter on unchanged base 45cf.
 // A new journey and cleared pressure are required BEFORE releasing the payload.
-test('@curated article links, Back and Forward start fresh journeys after a catch', async ({ page }) => {
+test('article links, Back and Forward start fresh journeys after a catch', async ({ page }) => {
   const { j, previous } = await caught(page)
   await expect(page.locator(READY)).toHaveAttribute('data-reader-path', '/' + ID + '/Defender')
   await j.readerLayoutSettled()

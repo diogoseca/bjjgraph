@@ -51,7 +51,7 @@ const emptyMap = (page: Page) => page.evaluate(() => {
 for (const [width, height, touch] of [[1440, 900, false], [768, 1024, true]] as [number, number, boolean][]) {
   test.describe(`${width}x${height}, by ${touch ? "touch" : "mouse"}`, () => {
     test.use({ viewport: { width, height }, hasTouch: touch })
-    test(`@curated v1.254.0: the legend's key shows on the map alone and nowhere a node is revealed (${width}, by ${touch ? "touch" : "mouse"})`, async ({ page }) => {
+    test(`v1.254.0: the legend's key shows on the map alone and nowhere a node is revealed (${width}, by ${touch ? "touch" : "mouse"})`, async ({ page }) => {
       const j = journey(page)
       await j.boot("/")
       await frame(j)
@@ -136,7 +136,7 @@ const sectionAt = (page: Page, type: string) => page.evaluate(t => {
 
 test.describe("1440, by mouse", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
-  test("@curated v1.254.0: the win bar steps aside for the index, comes back when there is room, and every index row stays reachable (1440, by mouse)", async ({ page }) => {
+  test("v1.254.0: the win bar steps aside for the index, comes back when there is room, and every index row stays reachable (1440, by mouse)", async ({ page }) => {
     const j = journey(page)
     await toc(page, j)
     const tall = await bar(page)
@@ -170,7 +170,7 @@ test.describe("1440, by mouse", () => {
 
 test.describe("1366x768, by touch", () => {
   test.use({ viewport: { width: 1366, height: 768 }, hasTouch: true })
-  test("@curated v1.254.0: on a short laptop screen the bar gives way to the index, and its last row answers a tap (1366x768, by touch)", async ({ page }) => {
+  test("v1.254.0: on a short laptop screen the bar gives way to the index, and its last row answers a tap (1366x768, by touch)", async ({ page }) => {
     const j = journey(page)
     await toc(page, j)
     const b = await bar(page)
@@ -209,7 +209,7 @@ const opened = (page: Page) => page.evaluate(() => {
 for (const [width, height, touch] of [[390, 631, true], [1440, 900, false]] as [number, number, boolean][]) {
   test.describe(`search ${width}x${height}`, () => {
     test.use({ viewport: { width, height }, hasTouch: touch, isMobile: touch })
-    test(`@curated v1.254.0: the search icon beside the drawer button opens search (${width}x${height}, by ${touch ? "touch" : "mouse"})`, async ({ page }) => {
+    test(`v1.254.0: the search icon beside the drawer button opens search (${width}x${height}, by ${touch ? "touch" : "mouse"})`, async ({ page }) => {
       const j = journey(page)
       await j.boot("/Positions/Mount/Top")
       await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible()

@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-test.describe("Forward Components development library @curated", () => {
+test.describe("Forward Components development library", () => {
   test("components expose reusable variants and device frames", async ({
     page,
   }) => {

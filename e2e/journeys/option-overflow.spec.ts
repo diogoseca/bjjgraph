@@ -53,7 +53,7 @@ const CLOCKS = `(async () => {
 })()`
 
 
-test("@curated the hand never expires — the clock belongs to the question (v1.133.0)", async ({ page }) => {
+test("the hand never expires — the clock belongs to the question (v1.133.0)", async ({ page }) => {
   // v1.123.0's Hick's-law knee is retired with the hand clock it shaped. The owner's inversion:
   // "pressure should not be on the choices … the choices are fun to click." Two claims, both
   // corpus-wide and both mutant-killable:
@@ -86,7 +86,7 @@ test("@curated the hand never expires — the clock belongs to the question (v1.
   expect(after.beats).not.toContain("hesitated")
 })
 
-test("@curated the hand uncapped; the deck warm-up did not", async ({ page }) => {
+test("the hand uncapped; the deck warm-up did not", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   const hands: any[] = await page.evaluate(CLOCKS)
@@ -148,7 +148,7 @@ const TRAY_TRACE = `(() => {
 test.describe("reaching the folded cards", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
 
-  test("@curated a wheel over the hand scrolls it to the last card", async ({ page }) => {
+  test("a wheel over the hand scrolls it to the last card", async ({ page }) => {
     const j = journey(page)
     await j.boot("/")
     await j.land("Standing Position Top") // finish the arrival before rendering the tray

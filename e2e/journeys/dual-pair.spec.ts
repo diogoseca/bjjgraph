@@ -203,7 +203,7 @@ const strips = (page: Page, midY: number, x: number, fromDrawnName = false) =>
   )
 
 /**
- * ONE LABEL GROUP, ANCHORED TO THE PAIR (v1.114.3). @curated
+ * ONE LABEL GROUP, ANCHORED TO THE PAIR (v1.114.3).
  *
  * Owner: "above the videos we should see the two circles … the position should be rather centered
  * on the middle of the two icons, not the actual icon that's active, so that both icons appear …
@@ -216,7 +216,7 @@ const strips = (page: Page, midY: number, x: number, fromDrawnName = false) =>
  * at a member's STORED `y` and at the MEMBER rather than the pair, which put the Top orb at screen
  * y=5 — off the top edge — while the band the roll frames into was 76..268.
  */
-test("@curated the pair reads as one state: both halves framed, the name on the midline", async ({
+test("the pair reads as one state: both halves framed, the name on the midline", async ({
   page,
 }) => {
   const j = journey(page)
@@ -275,7 +275,7 @@ test("@curated the pair reads as one state: both halves framed, the name on the 
 })
 
 /**
- * THE ORB YOU CLICK IS THE ORB YOU SEE (v1.114.3). @curated
+ * THE ORB YOU CLICK IS THE ORB YOU SEE (v1.114.3).
  *
  * `LY` lifts each member off the shared ground point, so `n.y` is NOT where the circle is drawn.
  * `_updateHover` compared against `n.y` against a 28px pick radius — and the TAP handler runs
@@ -288,7 +288,7 @@ test("@curated the pair reads as one state: both halves framed, the name on the 
  * points would coincide, every claim below would pass on a build with the bug restored, and this
  * journey would be decoration.
  */
-test("@curated the hit-test reads where the orb is drawn, not where it is stored", async ({
+test("the hit-test reads where the orb is drawn, not where it is stored", async ({
   page,
 }) => {
   const j = journey(page)
@@ -542,7 +542,7 @@ const otherPair = (page: Page) =>
   })
 
 /**
- * A PAIR YOU POINT AT NAMES ITSELF THE WAY THE ONE YOU STAND IN DOES (v1.128.0). @curated
+ * A PAIR YOU POINT AT NAMES ITSELF THE WAY THE ONE YOU STAND IN DOES (v1.128.0).
  *
  * Owner, having lived with v1.114.3: "that works very well for the current node … when I hover over
  * other techniques which have this duality as well, for example another position which is Front
@@ -565,7 +565,7 @@ const otherPair = (page: Page) =>
 // NON-KILL, not coverage (measured in PR #320's review on dev ae3c8c347's own bundle and on v1.237.0 alike):
 // d355-flight-lift-ungated (tests/artifacts/neural_app_mutants.mjs, the band hold engaged for every flight) no longer
 // turns this journey red; read it as no coverage of D-355's hover-flight gate.
-test("@curated hovering any pair names it once, on the midline, with the role on the hovered side", async ({
+test("hovering any pair names it once, on the midline, with the role on the hovered side", async ({
   page,
 }) => {
   // Every fillText on the graph canvas since the frame's own full clear: the actual draws.
@@ -741,7 +741,7 @@ test("zoomed out, a pair is one site again and the group stands down", async ({ 
 })
 
 /**
- * ON A PHONE, THE CAMERA CENTRES THE LABEL, NOT THE ORB (v1.128.1). @curated
+ * ON A PHONE, THE CAMERA CENTRES THE LABEL, NOT THE ORB (v1.128.1).
  *
  * Owner: "i think the position in mobile should center not to the node but to the label of the
  * node(s)."
@@ -759,7 +759,7 @@ test("zoomed out, a pair is one site again and the group stands down", async ({ 
  * Desktop is deliberately untouched: there is room to the right either way, and 44% is the reading
  * bias ("every name hanging off a node runs left-to-right FROM it") which nothing here overturns.
  */
-test("@curated the phone frames the orb AND its name, centred together", async ({ page }) => {
+test("the phone frames the orb AND its name, centred together", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
   const j = journey(page)
   await bootContent(page, j, AT)
@@ -806,7 +806,7 @@ test("@curated the phone frames the orb AND its name, centred together", async (
 })
 
 /**
- * THE ORB NEVER HUGS THE LEFT EDGE (v1.129.0). @curated
+ * THE ORB NEVER HUGS THE LEFT EDGE (v1.129.0).
  *
  * Owner: "we want the node to be on the left of the centered label BUT not so close to the edge
  * (at least like 50px distance from the left edge i guess)."
@@ -821,7 +821,7 @@ test("@curated the phone frames the orb AND its name, centred together", async (
  * pure centring wins. A floor that engages only when it is needed, which is what makes it a floor
  * and not a constant.
  */
-test("@curated on a narrow phone the clamp holds the orb off the edge, and the name still fits", async ({
+test("on a narrow phone the clamp holds the orb off the edge, and the name still fits", async ({
   page,
 }) => {
   const j = journey(page)
@@ -868,7 +868,7 @@ test("@curated on a narrow phone the clamp holds the orb off the edge, and the n
 // v1.253.0 (U114 a): "desktop framing is untouched — the orb stays at the reading bias" asserted the MAP view's framing, retired.
 
 /**
- * THE ROLE WORD IS THE ONE ITS CATEGORY ACTUALLY USES (v1.129.4). @curated
+ * THE ROLE WORD IS THE ONE ITS CATEGORY ACTUALLY USES (v1.129.4).
  *
  * Owner: "wrt submission escaping/finishing — implement escaping/finishing roles top/bottom".
  *
@@ -886,7 +886,7 @@ test("@curated on a narrow phone the clamp holds the orb off the edge, and the n
  * side of the exchange you are pointing at. They sit on opposite sides of the name for exactly that
  * reason. Both are asserted here so a future change cannot quietly merge them.
  */
-test("@curated a submission finishes and escapes; a transition attempts and defends", async ({
+test("a submission finishes and escapes; a transition attempts and defends", async ({
   page,
 }) => {
   const j = journey(page)
@@ -972,7 +972,7 @@ test("@curated a submission finishes and escapes; a transition attempts and defe
 })
 
 /**
- * A TWO-ROW LABEL STRADDLES THE MIDLINE (v1.129.4). @curated
+ * A TWO-ROW LABEL STRADDLES THE MIDLINE (v1.129.4).
  *
  * Owner: "those from wtv position look poorly aligned. rule is when those extra subtitles show,
  * the label shouldnt be aligned at the center, but rather the label and the 'from subtitle' rows
@@ -988,7 +988,7 @@ test("@curated a submission finishes and escapes; a transition attempts and defe
  * it is what stops "with qualifier" and "without" becoming two layouts that drift apart — and it
  * is asserted below rather than assumed.
  */
-test("@curated the name and its qualifier centre on the pair, and the one-row case is unchanged", async ({
+test("the name and its qualifier centre on the pair, and the one-row case is unchanged", async ({
   page,
 }) => {
   const j = journey(page)
@@ -1053,7 +1053,7 @@ test("@curated the name and its qualifier centre on the pair, and the one-row ca
 })
 
 /**
- * THE ROLE WORD RIDES ITS ORB (v1.135.0). @curated
+ * THE ROLE WORD RIDES ITS ORB (v1.135.0).
  *
  * Owner: "why does top mount look red like i'm going to lose?" — at roll zoom the pair label
  * anchored everything at the pair MIDLINE, which left "TOP" floating 33px from the blue orb it
@@ -1064,7 +1064,7 @@ test("@curated the name and its qualifier centre on the pair, and the one-row ca
  * ambiguity existed. Asserted from `_lastPairLabel.subY`, the render's own published output.
  * Mutant that must die: reverting subY to the bare `nameY - 18` offset.
  */
-test("@curated at a wide split the role word sits at its orb, not the midline", async ({ page }) => {
+test("at a wide split the role word sits at its orb, not the midline", async ({ page }) => {
   const j = journey(page)
   await bootContent(page, j, "/Positions/Mount/Top")
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()

@@ -49,7 +49,9 @@ for (const path of [
   '/Principles/Frames', '/Learning/Position-Over-Submission',
   '/Systems/Danaher-Pin-Escape-Fundamentals-System',
 ]) {
-  test(`@curated semantic sections preserve every published source block: ${path}`, async ({ page }) => {
+  // The deploy gate (@curated) runs ONE of these, the first route, /Positions/Mount: one quick test per surface (U147 a, v1.263.0).
+  // Every case runs in e2e-full's core shards on each PR and each merge to dev; tests/artifacts/deploy_gate.json.
+  test(`${path === '/Positions/Mount' ? '@curated ' : ''}semantic sections preserve every published source block: ${path}`, async ({ page }) => {
     const j = journey(page)
     await j.boot(path, { initialState: QUIET })
     await expect(page.locator(READY)).toBeVisible()
@@ -105,7 +107,7 @@ for (const width of [1366, 390]) {
   // STALE CONTRACT (D-368, layout C): nothing is lifted above Moves any more. Moves lead the flow at the
   // parts' own step after the node band; the current card, when a film exists, sits in the stage beside
   // or above the question, and the Videos section reads with the article.
-  test(`@curated ${width}px choices precede section cards and preserve the six-pixel token`, async ({ page }) => {
+  test(`${width}px choices precede section cards and preserve the six-pixel token`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 768 })
     const j = journey(page)
     await j.boot(LOOP)
@@ -195,7 +197,7 @@ for (const width of [1366, 390]) {
   })
 }
 
-test('@curated optional chrome frame preserves the node band and every flow gap', async ({ page }) => {
+test('optional chrome frame preserves the node band and every flow gap', async ({ page }) => {
   await page.setViewportSize({ width: 1366, height: 1600 })
   const j = journey(page)
   await j.boot(LOOP)
@@ -274,7 +276,7 @@ test('@curated optional chrome frame preserves the node band and every flow gap'
 })
 
 for (const width of [1366, 390]) {
-  test(`@curated ${width}px chrome keeps the same controls in their approved homes`, async ({ page }) => {
+  test(`${width}px chrome keeps the same controls in their approved homes`, async ({ page }) => {
     await page.setViewportSize({ width, height: 1000 })
     const j = journey(page)
     await j.boot(LOOP)
@@ -304,7 +306,7 @@ for (const width of [1366, 390]) {
 }
 
 for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768 }, { width: 1152, height: 900 }, { width: 1151, height: 900 }, { width: 1024, height: 768 }, { width: 768, height: 1024 }, { width: 641, height: 844 }, { width: 640, height: 844 }, { width: 390, height: 844 }, { width: 844, height: 390 }]) {
-  test(`@curated contents and header targets at ${viewport.width}x${viewport.height}`, async ({ page }) => {
+  test(`contents and header targets at ${viewport.width}x${viewport.height}`, async ({ page }) => {
     await page.setViewportSize(viewport); await page.emulateMedia({ reducedMotion: 'reduce' })
     const j = journey(page)
     await j.boot(KNEE + '/Attacker', { initialState: QUIET })
@@ -402,7 +404,7 @@ const tocCanvasGeometry = (page: Page) => page.evaluate(() => {
 
 // STALE CONTRACT: D-318 U4a replaces the free-gutter correction with centred
 // arrival and native occlusion. Restoring that correction must fail this claim.
-test('@curated current node stays centred while the native article crosses it at every width', async ({ page }) => {
+test('current node stays centred while the native article crosses it at every width', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   await page.emulateMedia({ reducedMotion: 'reduce' })
   const j = journey(page)
@@ -457,7 +459,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
   // STALE CONTRACT (D-355, U9 b and U11): the index sits LEFT of the column; where it shows, a closed part
   // leaves no label in the content and its index row (closed, with its eye) reopens it. Without the index
   // the compact label keeps its 44px target, its contrast and the surface it names.
-  test(`@curated D-338 ${viewport.width}px Questions and Moves close with their own ✕ and the other node half changes role`, async ({ page }) => {
+  test(`D-338 ${viewport.width}px Questions and Moves close with their own ✕ and the other node half changes role`, async ({ page }) => {
     await page.setViewportSize(viewport)
     const j = journey(page); await j.boot(LOOP)
     await expect(page.locator(READY)).toBeVisible()
@@ -570,7 +572,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
 // A normal cold run exposed this missing ID, but the old sync-only writer can
 // pass when its network ordering differs. Deliver the real backfill after the
 // reader has published; assert its new shell and unchanged question together.
-test('@curated a late question backfill retains the closed label\'s target', async ({ page }) => {
+test('a late question backfill retains the closed label\'s target', async ({ page }) => {
   const j = journey(page)
   await j.boot('/Positions/Mount/Top')
   await expect(page.locator(READY)).toBeVisible()
@@ -586,7 +588,7 @@ test('@curated a late question backfill retains the closed label\'s target', asy
 })
 
 for (const theme of ['light', 'dark'] as const) {
-  test(`@curated floating contents owns real mouse input and preserves the centred article in ${theme}`, async ({ page }) => {
+  test(`floating contents owns real mouse input and preserves the centred article in ${theme}`, async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 })
     await page.emulateMedia({ colorScheme: theme, reducedMotion: 'reduce' })
     const j = journey(page)
@@ -660,7 +662,7 @@ for (const theme of ['light', 'dark'] as const) {
   })
 }
 
-test('@curated section settings carry to another type, reload and the Settings editor', async ({ page }) => {
+test('section settings carry to another type, reload and the Settings editor', async ({ page }) => {
   const j = journey(page); await j.boot(KNEE + '/Attacker', { initialState: QUIET })
   await expect(page.locator(READY)).toBeVisible()
   await page.locator('[data-section-toggle=principles]').scrollIntoViewIfNeeded(); await j.clickByMouse('[data-section-toggle=principles]')
@@ -678,7 +680,7 @@ test('@curated section settings carry to another type, reload and the Settings e
 })
 
 
-test('@curated independent section preferences merge per key and preserve stale keys', async ({ page }) => {
+test('independent section preferences merge per key and preserve stale keys', async ({ page }) => {
   const j = journey(page); await j.boot(KNEE + '/Attacker', { initialState: QUIET })
   await expect(page.locator(READY)).toBeVisible()
   await page.locator('[data-section-toggle=principles]').scrollIntoViewIfNeeded()
@@ -700,7 +702,7 @@ test('@curated independent section preferences merge per key and preserve stale 
 
 // VIDEO2 CI control `drop-reader-anchor-url` in title_ci_mutants.json is killed
 // at #legacy-notes at BOTH widths; the camera control remains green.
-for (const width of [1440, 390]) test(`@curated ${width}px unknown authored sections and cross-section anchors survive regrouping`, async ({ page }) => {
+for (const width of [1440, 390]) test(`${width}px unknown authored sections and cross-section anchors survive regrouping`, async ({ page }) => {
   await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
   const j = journey(page)
   await j.boot(KNEE + '/Attacker', { initialState: QUIET })

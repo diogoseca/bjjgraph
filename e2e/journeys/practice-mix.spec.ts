@@ -79,7 +79,7 @@ async function readQueue(page: any) {
   return rows;
 }
 
-test("Practice: a fresh player's session is new gap cards from the weak-spots ranking @curated", async ({ page }) => {
+test("Practice: a fresh player's session is new gap cards from the weak-spots ranking", async ({ page }) => {
   const { j, fx } = await setup(page, { due: 0, answered: 0 });
   expect(fx.goal, "the default daily goal is 20 cards").toBe(20);
   await openPractice(j);
@@ -105,7 +105,7 @@ function expectInterleaved(rows: { key: string, kind: string }[], dueKeys: strin
   expect(firstNew, "a new technique after every few reviews: four one-card reviews come first").toBe(4);
 }
 
-test("Practice (2b): pressed cold, before the planner has landed, the session becomes the mix once it does @curated", async ({ page }) => {
+test("Practice (2b): pressed cold, before the planner has landed, the session becomes the mix once it does", async ({ page }) => {
   // THE PLAYER'S DEFAULT PATH (SIDE-R2 B1): nothing preloads the planner. Its chunk is held, so the press
   // provably lands first and deals the owed reviews alone; releasing it must upgrade that untouched queue.
   let requests = 0, release!: () => void;
@@ -130,7 +130,7 @@ test("Practice (2b): pressed cold, before the planner has landed, the session be
   } finally { release(); }
 });
 
-test("Practice (2a): a player with due cards gets reviews and new decks, interleaved @curated", async ({ page }) => {
+test("Practice (2a): a player with due cards gets reviews and new decks, interleaved", async ({ page }) => {
   const { j, fx } = await setup(page, { due: 8, answered: 0 });
   await openPractice(j);
   const rows = await readQueue(page);
@@ -165,7 +165,7 @@ test("Practice (2c): a revealed ungraded answer survives the cold planner landin
   } finally { release(); }
 });
 
-test("Practice: the daily goal shows progress and never blocks a review @curated", async ({ page }) => {
+test("Practice: the daily goal shows progress and never blocks a review", async ({ page }) => {
   const { j } = await setup(page, { due: 3, answered: 19 });
   await openPractice(j);
   await readQueue(page);

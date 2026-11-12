@@ -333,7 +333,7 @@ for (const viewport of VIEWPORTS) {
   test.describe(`${W}px camera continuity`, () => {
     test.use({ viewport, ...(W === 390 ? { hasTouch: true } : {}) });
 
-    test("roll start: the intro and the staged arrival glide, every frame within the bounds @curated", async ({ page }) => {
+    test("roll start: the intro and the staged arrival glide, every frame within the bounds", async ({ page }) => {
       const j = journey(page);
       await j.boot("/");
       await j.rig("ai-skill", [0.5]); await j.rig("role", [0]); await j.rig("max-moves", [0.5]);
