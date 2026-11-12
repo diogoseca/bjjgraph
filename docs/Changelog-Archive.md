@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.264.3** — [The passive-boot fixpoint spec pins both arrival orders](#v12643--the-passive-boot-fixpoint-spec-pins-both-arrival-orders-genrace1-2026-11-12)
 - **v1.264.2** — [The deploy gate's second follow-ups: fast-forwards, keepalive tips, the count's own tripwire](#v12642--the-deploy-gates-second-follow-ups-fast-forwards-keepalive-tips-the-counts-own-tripwire-gate7-2026-11-12)
 - **v1.264.0** — [The legal boxes read their pages: /privacy and /terms open the page's own short box before the map](#v12640--the-legal-boxes-read-their-pages-privacy-and-terms-open-the-pages-own-short-box-before-the-map-owner-u140-b-legal3-2026-11-12)
 - **v1.263.3** — [The deploy gate's follow-ups: a smoke per surface, the count of what ran, the promotion rule enforced](#v12633--the-deploy-gates-follow-ups-a-smoke-per-surface-the-count-of-what-ran-the-promotion-rule-enforced-gate6-2026-11-12)
@@ -16373,3 +16374,17 @@ replace objects off. A gitlink bump under `ignore = all` was hidden too. An own-
 the head against the vouching commit. An empty commit is stepped over by tree hash. The reader's six surviving mutants
 are killed, and the tripwire's judgment, split out, reads the count file. Real-git fixtures cover the rename, the
 submodule, a newline-led name, a mode change and a symlink swap.
+
+## v1.264.3 — The passive-boot fixpoint spec pins both arrival orders (GENRACE1, 2026-11-12)
+
+**What went red.** dev `bf006e700`'s push-run e2e-full (43274514779) failed one generated test, `holder-passive-boot-blob-fixpoint` at its line 130: the stored blob had `belts.held` blue and no `belts.gf`. The job's re-run passed on the same commit. The same spec went red once before, filed under v1.129.0 as a load-sensitive flake.
+
+**Classified before fixing.** Boot fetches the deck manifest and `curriculum.json` in parallel, in no promised order. `_syncBelt`'s one-time grandfather saves a raised belt at once, but sets the mark only once the manifest is resident and lets it ride the next save. A scratch copy of the old spec (its assertions unchanged) held one payload until the other was resident in the app: manifest first, 10 of 10 green (4 writes, the mark stored with the raise); curriculum first, 10 of 10 red at line 130 with the CI diff exactly (3 writes, the mark live only). A spec assuming an order, not an app break.
+
+**Safe for a player, in both orders.** With the curriculum first, the next real save carries the mark: on a reload, the old page's unload flush (`pagehide` → `_flushSave`), with the same timestamp. With the unload listeners removed (a killed tab), reloads re-run the grandfather, raise nothing, fire no second `belt_promoted` and write nothing; the first settings save carries the mark. Other real saves that would: any grade, challenge evidence (`noteChallenges`), a checkpoint. Nothing is lost or counted twice.
+
+**The fix, spec only.** One test became three: manifest first; curriculum first; curriculum first with the tab killed before its unload save. A route holds the second payload until the first is resident (never a timer) and every boot checks that it fired. Each write is now named. Boot 1, manifest first, 4: seed, the manifest's evidence pass, the curriculum's pass, the marked raise. Boot 1, curriculum first, 3: seed, the curriculum's pass, the unmarked raise, and nothing after the manifest. Reload 1: exactly 1 (the white-foundations badge for the harness's own tutorial step). Reload 2: 0. The old test allowed up to 1 on each reload, and its header put the two evidence writes at "load time and post-ingest", which was wrong: the passes that write are the manifest's and the curriculum's, and with the curriculum first only one of them writes. Each old assertion's new home is listed in the spec's header.
+
+**Mutants** (the served bundle, all three tests each): the mark never set; the mark forcing a save (manifest-first cannot see it, because there the raise saves anyway); the guard ignored; the mark dropped on load; the raise re-firing; the raised belt not saved at once. All six were killed, each at a named assertion (the table is in the header). Control: the old test with the curriculum first rigged is red.
+
+**Gates (local, this box, under the lock):** the new spec 15 of 15 on the clean app; the whole generated suite on this build on a private port, 103 of 103 with the ledger reporter's PASS (101 tests before, plus the two new ones); `npm run ci:validate` on the stacked tree (on #393's head): 25 of 25 replayed steps green, 1,537 of 1,537 unit tests. An earlier run before the merges had one red, `tests/verify_clips_test.py`'s 0.1 s deadline case. It is a real-time deadline that a loaded box can miss, this change does not touch it, and it was 6 of 6 green alone. Found, not fixed. Spec only: no file under `neural/src/` and no app row moves. The PR's e2e-full is the full gate.
