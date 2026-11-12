@@ -245,11 +245,12 @@ test("several closed in a row: one message per part, in place, and none moves wh
   // Each Undo brings back its own part only.
   await page.evaluate(() => { const a = (window as any).__neural; a.set("landHand", true); a.set("landCard", true); a._applyLayers() })
   await j.readerLayoutSettled()
-  // WIDTH4 (v1.265.0): the places closed a moment ago, and for SHIELD_MS (400ms, reader.src.js `shield`) a press starting inside one is
-  // swallowed. On a phone Moves' message now spans the Moves row's width, over Moves' own close (362-386 at 390), so this scripted
-  // restore, faster than any player's, waits the shield out before pressing. WAS: the message 32-358, the close outside it, so the
-  // press here raced the shield and won by geometry alone. No assertion changes.
-  await page.waitForFunction(() => { const r = (window as any).__neural._reader; return !(r.shields || []).some((s: any) => performance.now() < s.until) })
+  // WIDTH4 (v1.265.0): the places closed together a moment ago (`gone`, stamped above), and for SHIELD_MS (400ms, reader.src.js `shield`)
+  // a press starting inside one is swallowed. On a phone Moves' message now spans the Moves row's width, over Moves' own close
+  // (362-386 at 390), so this scripted restore, faster than any player's, waits the shield out on the page's clock before pressing.
+  // WAS: the message 32-358, the close outside it, so the press here raced the shield and won by geometry alone. No assertion changes.
+  // (The shield's own fields are mangled in the bundle, so the wait reads the test's stamps, not the reader.)
+  await page.waitForFunction(() => { const g = (window as any).__gone; return performance.now() > Math.max(g.hand, g.card) + 400 + 50 })
   await press(page, j, "[data-land-close]", true, "Questions' close")
   await j.readerLayoutSettled()
   await press(page, j, "[data-hand-close]", true, "Moves' close")

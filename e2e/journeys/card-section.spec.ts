@@ -227,6 +227,15 @@ for (const size of SIZES) {
 //   cardwidth-glyph-in-target ...... the glyph centred in its target, 390x631 killed: Previous's glyph is centred in its lane (22 / 28)
 //   cardwidth-next-glyph-in-target . Next's glyph pushed out, 768 .......... killed: Next's glyph stands 16px from the face (WIDTH2)
 //   cardwidth-arrows-in-moves-band . the arrows up at top:-60px, 1440 ...... killed: Previous stands beside the face, not above it
-// Control: this whole file against dev v1.262.10's own bundle, 9 of 10 red at these claims; the 768 no-deck test green (that face
+// WIDTH4 (v1.265.0, p5), under the build lock, each against a green baseline:
+//   width4-grid-phone-gutter-lost .. the grid back to free - 64, 390x844 .. killed: the section is the Moves row's box (32..358 / 12..378)
+//   width4-phone-lanes-back ........ the 32px lanes back on a phone, 390x631 killed: the face is the section (face 44..346 in 12..378)
+//   width4-film-phone-lost ......... the film back to filmLayout's, 360x740 . killed: the film shares the face's two edges (16..344)
+//   width4-padding-lost ............ the face's 44px padding gone, 390x631 .. killed: an answer runs under neither arrow
+//   width4-arrows-outside-on-phone . the phone arrow rule gone, 390x844 ..... killed: Previous is on screen
+//   width4-switch-media-early ...... the phone query at 589px, 599x760 ..... killed: Previous stands 32px inside the face
+//   width4-asking-padded ........... the padding on the asking line too ..... killed in article-order.spec.ts: the line starts at the label
+//   cardwidth-b-starts-early ....... NON-KILL under WIDTH4, equivalent: at 599px the cap binds on both sides of the reader's switch
+// Control (v1.263.1): this whole file against dev v1.262.10's own bundle, 9 of 10 red at these claims; the 768 no-deck test green (that face
 // already spanned the row). NOT KILLED, recorded: nothing here can see the 12px reach go to a neighbour's press, because no control
 // stands in a phone's 12px gutter or the index's 12px clearance today; the press samples would catch one that did.
