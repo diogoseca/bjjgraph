@@ -45,7 +45,7 @@
 //              without its condition → "gen runs whenever…"; an `if:` on the shard command → "the suite commands
 //              themselves are unconditional and blocking". (The reviewer's two survivors on #388 are the first two.)
 //
-// GATE7 (v1.263.4, the reviewer's new 1-3, 6 and 7 on #392), each mutant applied alone to a scratch copy, killed at:
+// GATE7 (v1.264.2, the reviewer's new 1-3, 6 and 7 on #392), each mutant applied alone to a scratch copy, killed at:
 //   PROMOTION  the head's own run not looked at first → "a fast-forward of main onto a dev tip with a green push-run
 //              passes on that tip"; the second parent's run not looked at → "a --no-ff promotion with no run of its own
 //              falls back to its dev parent"; no keepalive walk → "a keepalive on top of a promotion passes"; every
@@ -586,7 +586,7 @@ test("e2e-full: every push to dev runs the full suite, one run per burst, and ch
 // v1.263.3 (GATE6 part 5, the reviewer's finding 5 on #388): the promotion rule relies on the push-run being the WHOLE
 // suite, so nothing may narrow it: no path filter on either trigger, and no condition that could skip a job beyond
 // the one part 4 adds (the shards and gen wait on the tested site's upload, not on the build job's other gates).
-// v1.263.4 (GATE7, the reviewer's new 7 on #392): the title said "no job or step condition" while only the suite commands
+// v1.264.2 (GATE7, the reviewer's new 7 on #392): the title said "no job or step condition" while only the suite commands
 // were pinned, so an `if:` on "Download tested site" passed. Every step of `test` and `gen` is pinned now: its only
 // conditions are the browser-cache choice of how to install Chromium, and the failure-artifact upload.
 test("e2e-full: nothing narrows the push-run: no path filter, no job condition beyond 'the site built', no step condition beyond the browser-cache choice and the failure upload", () => {

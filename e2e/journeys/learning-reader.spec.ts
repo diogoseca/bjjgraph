@@ -218,7 +218,7 @@ test("all 26 authored Learning articles are reachable with complete bodies", asy
 
 for (const slug of ["BJJ-For-Beginners-Roadmap", "BJJ-Guard-Types-Explained", "BJJ-Position-Hierarchy-Explained"]) {
   // The deploy gate (@curated) runs ONE of these, the first slug: the Learning smoke reads a BUILT Learning page here
-  // (v1.263.4, GATE7; the reviewer's new 4 on #392). It replaced the 390px case above, which feeds the reader an in-file
+  // (v1.264.2, GATE7; the reviewer's new 4 on #392). It replaced the 390px case above, which feeds the reader an in-file
   // fixture and so proves on a deploy nothing a PR run does not. All cases run in e2e-full; tests/artifacts/deploy_gate.json.
   test(`${slug === "BJJ-For-Beginners-Roadmap" ? "@curated " : ""}existing ${slug} URL opens its Learning entry`, async ({ page }) => {
     const j = journey(page);

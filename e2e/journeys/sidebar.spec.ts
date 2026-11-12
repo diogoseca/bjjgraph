@@ -343,7 +343,8 @@ test("keyboard: Tab reaches the badge, Enter opens its menu with focus inside it
   await page.keyboard.press("End"); await page.keyboard.press("ArrowUp"); await page.keyboard.press("ArrowUp")
   expect(await focused()).toBe("data-menu-terms")
   await page.keyboard.press("Enter")
-  await expect(page.locator("body")).toContainText("Terms of Use")
+  // LEGAL3 (v1.264.0): this found the typed box's "Terms of Use"; the box now shows the Terms page's own short version
+  await expect(page.locator('.ng-legal[data-legal="terms"] [data-legal-short]')).not.toBeEmpty()
 })
 
 test("a guest's badge offers to save; a signed-in player gets neither it nor the save toast", async ({ page }) => {

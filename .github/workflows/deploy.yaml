@@ -365,7 +365,7 @@ jobs:
       # THE GATE'S OWN TIME (v1.263.0, GATE5): see deploy-dev.yaml's step of the same purpose and
       # scripts/deploy_gate.mjs. Like console, the site is already live, so it does not fail this job (Lighthouse,
       # IndexNow and the release still run); its verdict turns `deployed-console` red when the gate passed its line,
-      # or (v1.263.4, GATE7) when the count posttest:curated leaves is missing or differs from the ledger. PLAINLY
+      # or (v1.264.2, GATE7) when the count posttest:curated leaves is missing or differs from the ledger. PLAINLY
       # (GATE8): a switched-off count is caught only after the upload. Production is already serving the build when
       # this goes red; it blocks nothing and rolls nothing back, and Lighthouse, IndexNow and the release still run.
       # What blocks before the upload is the count itself, whenever the hook runs: every deploy today.

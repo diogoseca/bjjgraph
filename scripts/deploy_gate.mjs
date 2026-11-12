@@ -5,10 +5,10 @@
 // workflows, after the keyed build and before the Pages upload. Until v1.263.0 the tag meant "a fast representative
 // sample", and it grew from 427 tests on 1 Oct to 914 on 12 Nov: 33.6 to 36.8 minutes of a 45-minute step timeout,
 // about 2.6 minutes more every day (the GATE1 plan, `reports/gatetime.md`, outside the repo). The owner's answer: "only what a deploy can break,
-// plus one quick test per surface". 56 tests at v1.263.0, about 3 minutes; the tiers as v1.263.4 states them:
+// plus one quick test per surface". 56 tests at v1.263.0, about 3 minutes; the tiers as v1.264.2 states them:
 //   D  a test that reads what only a deploy build has: the keyed Supabase and PostHog config in postscript.js, or this
 //      checkout's own history (publication dates). NOT the build stamp: NeuralMount.tsx writes window.__NEURAL_BUILD on
-//      every build, keyed or not (v1.263.4 moved bundle-version's two rows to S; the reviewer's new 5 on #392);
+//      every build, keyed or not (v1.264.2 moved bundle-version's two rows to S; the reviewer's new 5 on #392);
 //   S  re-run on the exact tree that ships, reading nothing a PR build lacks: one quick test per surface, plus the
 //      sign-in and account seams the owner's answer kept whole.
 //   v1.263.0 called 41 rows D. The reviewer of #388 (finding 4) showed 28 of them cannot see a deploy-only input (their
@@ -38,7 +38,7 @@
 //                    the tests that ran and passed must be exactly the rows, none skipped, more than zero.
 //   promotion        (deploy.yaml only, its first gate, before the build): the commit that vouches for a push to main
 //                    must have a green e2e-full run (push or dispatch); see its section below for every push shape.
-//   tripwire         (both deploys, AFTER the Pages upload and the live checks; since v1.263.4 it also fails when the
+//   tripwire         (both deploys, AFTER the Pages upload and the live checks; since v1.264.2 it also fails when the
 //                    count `ran` leaves in e2e/test-results is missing or differs from the ledger. So a count switched
 //                    off by ignore-scripts is caught AFTER the upload: the site already serves the build, the run (or
 //                    deploy.yaml's deployed-console verdict) goes red, and nothing is blocked or rolled back; the count
@@ -245,7 +245,7 @@ export function checkListed(listed, manifest) {
 // more than zero. It reads the JSON reporter's file from e2e/playwright.config.ts, which lands in an outputDir that
 // Playwright wipes at the start of every run, so it can only ever count this run.
 export const RESULTS = "e2e/test-results/results.json";
-// What `ran` counted, for the tripwire (v1.263.4, GATE7; the reviewer's new 3 on #392). The count runs as an npm
+// What `ran` counted, for the tripwire (v1.264.2, GATE7; the reviewer's new 3 on #392). The count runs as an npm
 // post-hook, and npm skips pre and post hooks under `ignore-scripts` (an .npmrc line, or npm_config_ignore_scripts in the
 // environment) while still running the main script green: the count would be switched off with nothing red. So `ran`
 // leaves its count here, beside the report, in the outputDir Playwright wipes at every run's start (so it can only be
@@ -314,7 +314,7 @@ export function evaluateCount(count, rows) {
 /** The tripwire's exit: red when the gate passed its line (or its time could not be read), or when the count is wrong. */
 export const tripwireExit = (time, count) => (time.level === "error" || !count.ok ? 1 : 0);
 
-// ── the promotion rule, enforced (v1.263.3, GATE6; the reviewer's finding 1 on #388; refined v1.263.4, GATE7) ───────
+// ── the promotion rule, enforced (v1.263.3, GATE6; the reviewer's finding 1 on #388; refined v1.264.2, GATE7) ───────
 // Production runs only the deploy gate, so the full suite must already have passed on the exact tree it ships. A
 // promotion is a `--no-ff` merge of a preview-verified dev commit, pushed straight to main with no PR, so no PR run ever
 // sees main's tree; the only full run of it is that dev commit's push-run of e2e-full. `promotion` (the first gate in
@@ -429,7 +429,7 @@ const git = (root, ...a) => {
   return r.stdout;
 };
 
-/** git as the promotion rule reads it (v1.263.4, GATE8; the reviewer's new 1 on #393). A diff LISTING can under-report,
+/** git as the promotion rule reads it (v1.264.2, GATE8; the reviewer's new 1 on #393). A diff LISTING can under-report,
  *  and an under-reported change is exactly what would let the keepalive walk step over a real one. Measured in a scratch
  *  repo, each case and what closes it:
  *    a rename        porcelain `git diff --name-only` prints only a rename's DESTINATION, so a commit renaming
