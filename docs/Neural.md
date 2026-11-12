@@ -98,16 +98,15 @@ the account badge lives in the drawer. When the grid's width changes (Explore
 opening, a resize) and the article has scrolled above the reader's top, `layoutNow` keeps the text block nearest the
 reader's top, in either column, in place; at the arrival the stage holds still. A tile click does nothing; the node band, Moves and question
 keep their places; ≤640px keeps its stacked geometry. **U65 note:** game pages omit the duplicate Videos credits
-tile; the film remains in the stage above. Videos keeps its index entry and closed
-disclosure control; either brings the film into view and focuses its close button when reopened.
+tile; the film remains in the stage above. Videos keeps its index entry; reopened, it shows the film and
+focuses its close button.
 Reference pages keep their Videos tile and player.
 
-One close icon (D-338): the card's and hand's ghost ✕, on every section's corner. A closed
-part leaves a light label (glyph above name, no box) that reopens it. Contents floats at the left, taking no layout
-space. It hides at height ≤500px or under 1,350px of free width (U97 b). Its rows only navigate and dim what is closed; its heading reads role
-first ("Escaping Loop Choke from Half Guard"); the Moves tray ends short of it. Arrival centres the
-node above sections; scrolled prose covers it.
-`readerSection.*` defaults shown, merges per key, and is edited in Settings → Rolling.
+One close icon (D-338): the card's and hand's ghost ✕, on every section's corner. **U131 b2:** a closed part leaves
+only its message, 5 s (bold name, Settings link, Undo; press rule in `reader.src.js`); Settings → Rolling
+(`readerSection.*`, per key) or its Contents row restores it; a one-landing tap keeps its label. Contents floats left, taking no space, hidden at height ≤500px or under 1,350px free
+width (U97 b); its rows navigate and dim what is closed, its heading reads role first ("Escaping Loop Choke from Half
+Guard"); the Moves tray ends short of it. Arrival centres the node above sections; scrolled prose covers it.
 
 No control turns the article, Map or Feedback off (U114 a: `readerBook`, `landMap`, `landFeedback`
 unread). The key shows on the map alone (`_mapAlone`); the win bar yields 12px from Contents. `landFilm/Card/Hand` store
