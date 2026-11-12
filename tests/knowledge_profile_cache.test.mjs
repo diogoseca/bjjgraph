@@ -6,7 +6,7 @@ import { ngFlowBuild, ngFlowScore } from "../neural/src/flow.src.js";
 const read = p => readFileSync(new URL("../" + p, import.meta.url), "utf8");
 const source = read("neural/src/app.src.jsx");
 const flowSource = read("neural/src/flow.src.js");
-// the roll ledger's window, cap and trim live in the blob module since v1.262.5 (`ngFlowTrim`, `ngFlowWindowView`), as in the bundle
+// the roll ledger's window, cap and trim live in the blob module since v1.262.8 (`ngFlowTrim`, `ngFlowWindowView`), as in the bundle
 const ownerSource = read("neural/src/progress-owner.src.js").replace(/^export (function|const|let|var|class) /gm, "$1 ");
 const C = new Function("DCLogic", "React", knowledgeSource + "\n" + ownerSource + "\n" + source + "\nreturn Component;")(class {}, { createRef: () => ({ current: null }) });
 function app() {

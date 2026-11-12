@@ -21,7 +21,7 @@
 //      an offline or failed first pull joins, marks and pushes nothing of the guest's (12, red on a0a8c6cfd); and a
 //      guest's later srs miss meeting a cloud row lowers no figure, though the card comes due sooner (13, stated).
 //   14-18. REVIEW375 (the second reader of PR #375): the reader's figure-level case on the real wire, both rulesets (14);
-//      the roll ledger at its cap (6 then, 32 since v1.262.5) and below it (15); a re-join with the mark, then the local copy, lost (16);
+//      the roll ledger at its cap (6 then, 32 since v1.262.8) and below it (15); a re-join with the mark, then the local copy, lost (16);
 //      an existing player restored at boot (17); the explicit legacy import through the same rule, the guest kind gone (18).
 //   15, 19. FOLD2 (the reader's re-check of cb762c8b7): the first ledger fix folded the guest's rows into "the account's
 //      newest partition", chosen again at every join, so when the newest changed between two joins of one guest copy the
@@ -471,11 +471,11 @@ test("14. REVIEW375 M1, figures on the real wire: a returning player's known mov
   }
 });
 
-// minted roll-ledger ids (v1.262.5, `b` + 16 hex): the cap counts only these (progress-owner `ngFlowCapped`)
+// minted roll-ledger ids (v1.262.8, `b` + 16 hex): the cap counts only these (progress-owner `ngFlowCapped`)
 const ID = (i) => "b" + i.toString(16).padStart(16, "0"), GID = ID(0xfeed);
 
 test("15. REVIEW375 F1 + FOLD2: the guest's roll ledger never evicts the account's and is never counted twice (at the cap it is not joined; below it, it joins as itself)", async () => {
-  // v1.262.5 (FLOW2): the cap is 32 (was 6) and counts only partitions minted since then (`b` + 16 hex; an older id
+  // v1.262.8 (FLOW2): the cap is 32 (was 6) and counts only partitions minted since then (`b` + 16 hex; an older id
   // joins outside it), so the fixtures use minted ids and the cap itself, and the claims are unchanged
   const CAP = M.Component.prototype.NG_FLOW_DEVICES;
   assert.equal(CAP, 32, "the rule's default cap is the app's NG_FLOW_DEVICES (NG_FLOW_CAP)");
@@ -561,7 +561,7 @@ test("18. REVIEW375 F5: the data layer's explicit legacy import goes through the
 
 test("19. FOLD2 (the reader's adv_5_fold): at the ledger cap, whatever becomes the newest partition between two joins, the guest's rolls are never counted twice", async () => {
   const tally = (flow, pk, o) => { let n = 0, k = 0; for (const d in flow || {}) { const r = flow[d] && flow[d][pk] && flow[d][pk][o]; if (r) { n += r[0]; k += r[1]; } } return [n, k]; };
-  const CAP = M.Component.prototype.NG_FLOW_DEVICES;   // v1.262.5: 32, and minted ids (see 15)
+  const CAP = M.Component.prototype.NG_FLOW_DEVICES;   // v1.262.8: 32, and minted ids (see 15)
   const full = () => { const f = {}; for (let i = 0; i < CAP; i++) f[ID(i)] = { "Side|Top": { "9": [10, 5, DAY - 20 + (i === 0 ? 10 : 0) - i] } }; return f; };   // ID(0) newest
   const G1 = { v: 2, prep: { "Mount|Top": 1 }, flow: { [GID]: { "Mount|Top": { "17": [5, 2, DAY - 1] } } }, settings: { flowDevice: "dG" }, settingsAt: { flowDevice: 1 } };
   const G2flow = { [GID]: { "Mount|Top": { "17": [6, 2, DAY] } } };       // the guest played once more

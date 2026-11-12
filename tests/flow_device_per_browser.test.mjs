@@ -1,12 +1,12 @@
-// EACH BROWSER KEEPS ITS OWN ROLL-LEDGER CODE (v1.262.5, FLOW1, 12 Nov). The roll ledger is a G-counter:
+// EACH BROWSER KEEPS ITS OWN ROLL-LEDGER CODE (v1.262.8, FLOW1, 12 Nov). The roll ledger is a G-counter:
 // `flow[code][state][move] = [tries, worked, lastDay]`, one partition per writer, merged per partition by MAX and read as
 // the SUM (app.src.jsx `_noteFlow`, `_mergeProgressFields`, knowledge-profile `ngKnowledgeFlowCounts`). MAX is exact only
-// when a partition has ONE writer. Until v1.262.4 the code was the setting `flowDevice`, and settings sync per key, last
+// when a partition has ONE writer. Until v1.262.7 the code was the setting `flowDevice`, and settings sync per key, last
 // writer wins, so every browser of an account converged on one code and wrote ONE partition from many places: two
 // browsers that rolled the same move between syncs kept only the larger of their two tallies (the found fault, M14).
 // Now the code is kept in the browser, per owner (progress-owner `flowDevice`, local key `<owner>:device`), never in the
 // progress blob, so it never syncs. FLOW2 (the second reader of PR #384, reports/review-pr384.md) added the rest of the
-// rule: the window is the CELL's, the cap counts only partitions minted since v1.262.5 and is 32, ties go by id, empty
+// rule: the window is the CELL's, the cap counts only partitions minted since v1.262.8 and is 32, ties go by id, empty
 // partitions go, and a code that could not be stored is stored at the next good save (progress-owner `ngFlowTrim`,
 // `ngFlowWindowView`, `ngFlowSlotted`, `NG_FLOW_CAP`). These tests drive the REAL class and the REAL owner host against a
 // fake cloud that HOLDS an account's rolls already, filed under one shared code "L" (what each of production's 48 ledgers
@@ -40,7 +40,7 @@
 // MUTANTS (2026-11-12, FLOW2 code; each run, in a scratch mirror, against this green file and
 // tests/guest_join_safety.test.mjs, 36 of 36 green; each turned exactly the tests named red, the guest file's 19 green
 // unless named):
-//   MA `_flowDevice` back to the v1.262.4 rule (read and mint the `flowDevice` setting)   → 1-8, 10-12, 15, 16
+//   MA `_flowDevice` back to the v1.262.7 rule (read and mint the `flowDevice` setting)   → 1-8, 10-12, 15, 16
 //   MB one code per browser for every owner (a browser-wide key)                         → 5, 6, 15
 //   MC the host never reads a stored code back (a new code every page)                   → 3, 6, 16
 //   MC2 the host never stores the code                                                   → 1-8, 11, 15, 16
@@ -50,7 +50,7 @@
 //   MG the ledger merge SUMS a partition instead of MAX (a re-pull counts twice)          → 1, 3, 4, 6, 8, 10, 16, 17; guest 15, 16, 19
 //   N1 the trim by the row's own day (M1 off in the trim)                                → 10
 //   N2 the read by the row's own day (M1 off in the read)                                → 10
-//   N3 pre-v1.262.5 partitions take slots (M2 off)                                        → 11, 12, 14, 15
+//   N3 pre-v1.262.8 partitions take slots (M2 off)                                        → 11, 12, 14, 15
 //   N4 the join's room counts every account partition                                    → 14, 15
 //   N5 an old guest partition needs room                                                 → 15
 //   N6 no tie-break by id                                                                → 13
@@ -305,7 +305,7 @@ test("8. a mint never takes a partition id the account already holds (a forced c
 
 
 // ── FLOW2: the second reader of PR #384 (reports/review-pr384.md): the window, the cap and the trim ─────────────────────
-const NEW = (i) => "b" + i.toString(16).padStart(16, "0");            // a partition id in the v1.262.5 form
+const NEW = (i) => "b" + i.toString(16).padStart(16, "0");            // a partition id in the v1.262.8 form
 const atDay = (d) => { globalThis.window.__NG_EPOCH_DAY__ = d; };
 
 test("9. one cap, 32: the app's NG_FLOW_DEVICES, the blob module's NG_FLOW_CAP and both guest-join defaults are one number", () => {
@@ -415,7 +415,7 @@ test("15. M2 at the guest join: the room is the trim's, so a join never adds wha
   assert.deepEqual(tally(f), [16, 8], "10 shared, 2 as the guest now, 4 as the guest before: each once");
   x.roll(); await x.push();                                            // the account's own first roll here: a 33rd slot
   f = cloud.get("A").flow;
-  assert.ok(!f[NEW(0)] && f.L && f.dOLDGUEST && f[x.code(GUEST)] && f[x.code(A)], "the least recently touched minted partition goes, never a pre-v1.262.5 one");
+  assert.ok(!f[NEW(0)] && f.L && f.dOLDGUEST && f[x.code(GUEST)] && f[x.code(A)], "the least recently touched minted partition goes, never a pre-v1.262.8 one");
 });
 
 test("16. F4, the reader's S7b: when storing the code fails, it is stored at the next good save, so eight page loads write ONE partition", async () => {

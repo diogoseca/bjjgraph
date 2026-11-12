@@ -29,7 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
-- **v1.262.5** — [Each browser keeps its own roll-ledger code](#v12625--each-browser-keeps-its-own-roll-ledger-code-flow1-2026-11-12)
+- **v1.262.8** — [Each browser keeps its own roll-ledger code](#v12628--each-browser-keeps-its-own-roll-ledger-code-flow1-and-flow2-2026-11-12)
+- **v1.262.7** — [`advanceUntil` asks for its beat in the page](#v12627--advanceuntil-asks-for-its-beat-in-the-page-gate3-2026-11-12)
 - **v1.262.4** — [The harness loads every deck in one trip](#v12624--the-harness-loads-every-deck-in-one-trip-gate2-2026-11-12)
 - **v1.262.3** — [A scroll that reaches for a taken-up question's answers no longer declines it](#v12623--a-scroll-that-reaches-for-a-taken-up-questions-answers-no-longer-declines-it-short1-2026-11-12)
 - **v1.262.2** — [The planner retry test waits on its own claims](#v12622--the-planner-retry-test-waits-on-its-own-claims-race1-2026-11-12)
@@ -15675,7 +15676,50 @@ plus this change, bundle rebuilt with `dev:neural:app` (1.262.4): the new spec 2
 against 399.8 s in GATE1's local batches on v1.262.2 (same box, same step reporter). The full core suite and `e2e:gen` run on the PR (e2e-full); the 26 callers'
 seconds from its shard logs are in `reports/gatetime.md` (GATE2).
 
-## v1.262.5 — Each browser keeps its own roll-ledger code (FLOW1, 2026-11-12)
+
+## v1.262.7 — `advanceUntil` asks for its beat in the page (GATE3, 2026-11-12)
+
+**Why.** `j.advanceUntil(beat, cap, step)` pumps a step and then asks whether `beat` is in the log. It asked by
+`(await this.beats()).some(...)`, which copies the whole beat log back to Node on every step: up to 4,000 entries
+(`fx()` trims there), 31 ms a call against 4.3 ms for an empty evaluate on the dev box, 1,777 calls and 54.9 s in GATE1's
+138-test sample of the deploy gate (`reports/gatetime.md`, c2). It has 105 call sites in 53 files.
+
+**Ships, harness only.** A new `j.sawBeat(beat)` runs the same predicate in the page and returns one boolean;
+`advanceUntil` calls it where it called `beats()`. **Deliberately still two round trips per step, advance then the
+check:** folding the check into `advance()`'s evaluate would read the log in the same task as the pump, so a beat landing
+in a microtask or a network callback between the two would be seen one step later and the journey would stop further on.
+Same steps, same order, same predicate. `nextHand()` copies the log the same way, twice a step (24 files); it is not
+changed here.
+
+**Proof: `e2e/journeys/harness-advance-until.spec.ts`** (3 tests, not @curated), whose claims are the OLD body's
+semantics, so the old body is its control (green, 3 of 3):
+- FIRST STEP: it returns right after the pumped step that brought the beat into the log. The test counts the pump in
+  the page, because a catch holds the game clock.
+- CAP: a beat that never comes throws at the cap, having pumped exactly the cap.
+- SINCE BOOT: the log is read since boot after at least one step, so a beat already there ends it after exactly one
+  step.
+
+**Mutants** (each patched into `e2e/dsl.ts` alone, under the build lock, then reverted):
+
+| mutant | killed at |
+|---|---|
+| `sawBeat` always false | FIRST STEP and SINCE BOOT (the beat is "not seen within" the cap) |
+| `sawBeat` always true | "the beat is there, once" and CAP |
+| returns on the second sighting, one step late | FIRST STEP and SINCE BOOT |
+| checks before it advances | SINCE BOOT only, by design: with the beat arriving mid-loop both orders stop on the same step |
+
+The first version of FIRST STEP read the beat's age on the game clock (`a.now - t <= step`). It let "one step late"
+through, because a catch holds that clock, so the test was rewritten to count the pump.
+
+**Runs.** LOCAL, under the build lock, on dev efc021a84 (v1.262.4) plus this change: the spec 9 of 9
+(`--repeat-each 3`), the old body 3 of 3, the mutants as above; and an A/B of four `advanceUntil`-heavy files (content-capstone, restart-hygiene, stakes-impact,
+roll-execution: 36 tests, the old body then the new, same tree), 36 of 36 green both ways. The beat check fell from
+26.6-51.5 ms a call (the copy) to 17.4-25.7 ms (in the page). The file totals (486.9 -> 408.6 s) are NOT the saving:
+the pump, which this change does not touch, also fell (180.9 -> 158.2 s), so the box was busier during the old arm.
+The full core suite and `e2e:gen` run on the
+PR (e2e-full), and its shard logs give the before and after against e2e-full run 43181633418 (#383).
+
+## v1.262.8 — Each browser keeps its own roll-ledger code (FLOW1 and FLOW2, 2026-11-12)
 
 **The fault** (another seat's M14, 11 Nov; verified from the code before it was believed). The roll ledger (v1.137.0,
 `flow[code][state][move] = [tries, worked, lastDay]`) is a G-counter: one partition per writer, merged per partition by
@@ -15755,4 +15799,4 @@ it worked), recorded separately for each browser you use, under a code generated
 the code is no longer a setting. Accounts that rolled before this change still carry the old code in their settings, no
 longer used.
 
-**Runs.** LOCAL. Units 1,491 of 1,491 before the merge with dev v1.262.4 and 1,491 of 1,491 inside `ci:validate` after it. `ci:validate` (the orchestrator's pinned actionlint 1.7.7 via `ACTIONLINT=`, `--keep-going`) on the merged tree: 25 of 25 replayed steps green. The first replay had stopped at the unit step on `verify_clips`'s deadline test (`checked_unique_ids` 0 for 1: a 0.1 s wall-clock deadline against a 0.15 s sleep, the box at load 8.0); it passed 5 of 5 alone and in the second replay, and nothing here touches clips. Journeys under the build lock (`BUILD_PEAK_MIB=4000`, :8133), bundle rebuilt with `dev:neural:app`: auth-owner, auth-redirect-back, guest-join, signin-intent, account-menu, legacy-gone, weak-spots-acceptance and roll-execution, 53 of 53 on 0d1a00eac (6.8 min); after the merge (7f9adb319) the same plus dev's harness-deck-trip, 55 of 55 (7.5 min). `check_payload_budget.py` exit 0 on the final tree (eager gzip 351,836 B, over its 300,000 B target and under the 400,000 B action, as on dev plus this change's 132 B). The full core suite and `e2e:gen` run on the PR.
+**Runs.** LOCAL. Units 1,491 of 1,491 before the merge with dev v1.262.7 and 1,491 of 1,491 inside `ci:validate` after it. `ci:validate` (the orchestrator's pinned actionlint 1.7.7 via `ACTIONLINT=`, `--keep-going`) on the merged tree: 25 of 25 replayed steps green. The first replay had stopped at the unit step on `verify_clips`'s deadline test (`checked_unique_ids` 0 for 1: a 0.1 s wall-clock deadline against a 0.15 s sleep, the box at load 8.0); it passed 5 of 5 alone and in the second replay, and nothing here touches clips. Journeys under the build lock (`BUILD_PEAK_MIB=4000`, :8133), bundle rebuilt with `dev:neural:app`: auth-owner, auth-redirect-back, guest-join, signin-intent, account-menu, legacy-gone, weak-spots-acceptance and roll-execution, 53 of 53 on 0d1a00eac (6.8 min); after the merge (7f9adb319) the same plus dev's harness-deck-trip, 55 of 55 (7.5 min). `check_payload_budget.py` exit 0 on the final tree (eager gzip 351,836 B, over its 300,000 B target and under the 400,000 B action, as on dev plus this change's 132 B). The full core suite and `e2e:gen` run on the PR.

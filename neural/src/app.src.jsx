@@ -3123,14 +3123,14 @@ class Component extends DCLogic {
   // `regenerate_graph.py` walks an unsorted rglob, so one new content file renumbers every
   // index and an index-keyed ledger would silently re-point at a different technique
   // (§6.6, the same reason `node_ordinals.json` exists).
-  // LRU cap on the partitions minted since v1.262.5 (one per browser and owner, a new one per storage lifetime); the
-  // number lives in progress-owner.src.js (`NG_FLOW_CAP`, 32 since v1.262.5, was 6), beside the guest join that uses it
+  // LRU cap on the partitions minted since v1.262.8 (one per browser and owner, a new one per storage lifetime); the
+  // number lives in progress-owner.src.js (`NG_FLOW_CAP`, 32 since v1.262.8, was 6), beside the guest join that uses it
   get NG_FLOW_DEVICES() { return NG_FLOW_CAP; }
   get NG_FLOW_DAYS() { return 180; }     // hard window, not decay — counters must stay monotone
   /**
-   * This browser's ledger partition FOR THE OWNER WHOSE PROGRESS IS LIVE (v1.262.5, FLOW1).
+   * This browser's ledger partition FOR THE OWNER WHOSE PROGRESS IS LIVE (v1.262.8, FLOW1).
    *
-   * Until v1.262.4 this was the SETTING `flowDevice`, "minted once" and durable because a
+   * Until v1.262.7 this was the SETTING `flowDevice`, "minted once" and durable because a
    * settings key can never be deleted (§6.6). That durability was the fault: settings sync
    * per key, last writer wins, so the first pull on every other browser of the account
    * handed it the same code, and every browser wrote ONE partition. MAX across a partition
@@ -3246,7 +3246,7 @@ class Component extends DCLogic {
   }
   /**
    * Trim, in place: rows whose (state, move) no partition rolled within NG_FLOW_DAYS, empty
-   * partitions, and the partitions minted since v1.262.5 beyond the NG_FLOW_DEVICES newest
+   * partitions, and the partitions minted since v1.262.8 beyond the NG_FLOW_DEVICES newest
    * (ties by id). A partition from before (the account's old shared one) is never evicted.
    * The rule is `ngFlowTrim` (progress-owner.src.js), the one the guest join's room count
    * uses too. A hard window rather than a decay, so every surviving counter stays monotone
