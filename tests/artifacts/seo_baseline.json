@@ -1625,14 +1625,14 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "71c4d652a5458c5f9c2f0ccd765ac89ce7a70a72",
-   "capture_id": "6cdd5937ce5a42609eaf2b55036dc6b3",
+   "capture_git_head": "d1f0ae5b723be84062f91e803abb40882f886e25",
+   "capture_id": "cf8c543d0d3b492881b775bf4ae604e1",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6331,
    "content_md": 4549,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "e9495ea4eeb80358f9cf0203b214bde273b44905",
+   "content_tree": "32bf2aa69c480694d5eaf8634630cb92cfd7c4f1",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -1657,11 +1657,11 @@
    },
    "output_identity": {
     "files": 15828,
-    "sha256": "487f8ca9d6e7e67822faf33b230e36fde27ae88c5478852690987cb328ce870c"
+    "sha256": "f2bc42f14c6377c1c1714c9218e362d61497630447084d79fdce2a091b984176"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/legal-boxes/capture/cap391-71c4d652a/pr-legal-boxes-71c4d652a"
+    "/home/user/bjj-orchestrator/scratch/operator-once/capture/capu151-d1f0ae5b7/pr-operator-once-d1f0ae5b7"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -1692,8 +1692,8 @@
  "index.html": {
   "canonical": "https://bjjgraph.org/",
   "content_floor": 2227,
-  "content_hash": "cd9bbbdf83197b226e18442f99c66598aa4ecb8bcce1b08f84a51756b05caebe",
-  "content_len": 2620,
+  "content_hash": "7e21d9f69a8235727558b93c0304f30002bce3047d377bb66b75abfe5e7874a6",
+  "content_len": 2583,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@id\": \"https://bjjgraph.org/#app\", \"@type\": \"WebApplication\", \"alternateName\": \"BJJGraph\", \"applicationCategory\": \"EducationalApplication\", \"description\": \"Free Brazilian jiu-jitsu study app with a technique map, flashcards, and simulated rolls for reviewing what you learn in class.\", \"featureList\": [\"Interactive BJJ technique map\", \"Position and escape guides\", \"Study flashcards\", \"Simulated rolls\", \"Optional progress sync\"], \"isAccessibleForFree\": true, \"name\": \"BJJ Graph\", \"offers\": {\"@type\": \"Offer\", \"price\": \"0\", \"priceCurrency\": \"USD\"}, \"operatingSystem\": \"Web browser\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org/\"}, \"url\": \"https://bjjgraph.org/\"}",
    "{\"@context\": \"https://schema.org\", \"@id\": \"https://bjjgraph.org/#website\", \"@type\": \"WebSite\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls for learning between classes\", \"name\": \"BJJ Graph\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"url\": \"https://bjjgraph.org\"}",

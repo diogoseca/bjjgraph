@@ -145,8 +145,8 @@ export function accountBubble({ signedIn = false, open = false } = {}) {
   return `<div class="account-bubble ng-acctwrap ${open ? "is-open" : ""}" data-production-selector=".ng-acctwrap">
     ${menu}
     <button class="ng-account-chip ngAcctChip" type="button" aria-haspopup="menu" aria-expanded="${open}">
-      <span>${signedIn ? "Diogo" : "Guest"}</span>
-      <span class="account-avatar">${signedIn ? "DS" : "G"}</span>
+      <span>${signedIn ? "Player" : "Guest"}</span>
+      <span class="account-avatar">${signedIn ? "P" : "G"}</span>
     </button>
   </div>`;
 }

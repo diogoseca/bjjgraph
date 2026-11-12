@@ -17,7 +17,7 @@ description: How BJJGraph collects, uses, stores, and protects your data.
 
 **Effective date: 12 November 2026**
 
-This Privacy Policy explains how **BJJGraph** ("BJJGraph", "we", "us") collects, uses, stores, and shares information when you use the website at [bjjgraph.org](https://bjjgraph.org) (the "Service"). BJJGraph is an educational Brazilian Jiu-Jitsu knowledge graph and training tool operated by Diogo Seca as an individual. The Service is currently in **beta** and under active development.
+This Privacy Policy explains how **BJJGraph** ("BJJGraph", "we", "us") collects, uses, stores, and shares information when you use the website at [bjjgraph.org](https://bjjgraph.org) (the "Service"). BJJGraph is an educational Brazilian Jiu-Jitsu knowledge graph and training tool. The Service is currently in **beta** and under active development.
 
 If you have any questions about this policy or your data, contact us at **[support@bjjgraph.org](mailto:support@bjjgraph.org)**.
 
@@ -31,7 +31,7 @@ If you have any questions about this policy or your data, contact us at **[suppo
 
 ## Who we are
 
-The Service is operated by **Diogo Seca**, an individual, at the domain **bjjgraph.org**. For any privacy request or question, the data controller can be reached at **[support@bjjgraph.org](mailto:support@bjjgraph.org)**.
+The data controller is **Diogo Seca**, reachable at **[support@bjjgraph.org](mailto:support@bjjgraph.org)**. Write to that address with any privacy request or question about the Service at **bjjgraph.org**.
 
 ## Data we collect
 
