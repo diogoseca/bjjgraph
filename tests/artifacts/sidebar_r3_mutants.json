@@ -58,9 +58,9 @@
     "file": "neural/src/app.src.jsx",
     "a": "[\"notifications\", \"Notifications\"], ",
     "b": "",
-    "spec": "journeys/account-menu\\.spec",
-    "grep": "signed in with legacy progress",
-    "claim": "ng-stab-notifications"
+    "spec": "journeys/notifications-tab\\.spec",
+    "grep": "an account with the email stored on keeps the tab",
+    "claim": "five tabs while it is stored on"
   },
   {
     "name": "u66-icon-hidden",

@@ -4,7 +4,7 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
 import { installAutocaptureMirror, mirrorEvents, POSTHOG_JS_MIRRORED } from "../fixtures/posthog-autocapture-mirror";
 
 /**
- * A SIGNED-IN PLAYER'S NAME OR ADDRESS NEVER REACHES ANALYTICS (v1.262.3). The privacy page says analytics are not told who you are,
+ * A SIGNED-IN PLAYER'S NAME OR ADDRESS NEVER REACHES ANALYTICS (v1.261.2). The privacy page says analytics are not told who you are,
  * and the app never calls identify(); but it PRINTS the name, its initial and the address, and PostHog's autocapture and session
  * replay read what is printed (the NG_NO_CAPTURE note in neural/src/app.src.jsx has the mechanism, quoted from posthog-js 1.447.12).
  *
