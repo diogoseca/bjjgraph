@@ -2471,7 +2471,10 @@ class Component extends DCLogic {
     }
     return lo > 0 ? text.slice(0, lo).replace(/\s+$/, "") + "\u2026" : "";
   }
-  setEvent(kicker, text, tone, owner) {
+  // `whole` (v1.262.0): the text is a SENTENCE, printed as it is. Without it the text is read as a node's name and cut at
+  // " from " into a name and a dim origin line ("Kimura" / "from Mount"), which is right for every name and wrong for a
+  // sentence: "Your practice from before you signed in is saved" printed as a title "Your practice" over a dim line.
+  setEvent(kicker, text, tone, owner, whole) {
     // A live attempt owns this sentence until its result, handoff or teardown. A replay
     // temporarily borrows the slot and restores it; it must not consume the live stamp.
     if (this._execution && this._evExecution === this._execution && owner !== this._execution && !this._replay) return;
@@ -2484,7 +2487,7 @@ class Component extends DCLogic {
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
     if (k) { k.textContent = kicker; k.style.color = this.toneColor(tone); }
     if (t) {
-      const sp = this.splitName(text);
+      const sp = whole ? { main: text, from: "" } : this.splitName(text);
       t.innerHTML = sp.from
         // .72em, not .66em (v1.138.0): this row is em-relative so it tracked the parent down from
         // 22px, and at the phone's 15px announcer .66em is 9.9px at weight 500 and 60% opacity —
@@ -2492,8 +2495,32 @@ class Component extends DCLogic {
         // "Kimura". .72em holds it at 13px desktop / 10.8px phone.
         ? sp.main + '<div style="opacity:.6;font-weight:500;font-size:.72em;letter-spacing:0;margin-top:3px;">' + sp.from + '</div>'
         : sp.main;
+      if (t.style && t.style.paddingTop) t.style.paddingTop = "";   // a whole sentence's step (below) is that sentence's only
+      if (whole) this._evStepBelowControls(t);
     }
     if (box) box.style.opacity = "1";
+  }
+  // A WHOLE SENTENCE IS WIDE (v1.262.0). A node's name is short and centred; "Your practice from before you signed in is
+  // saved" is not, and at 390 its first line (x 48-342, y 49-66) sat on the phone's top-left "Open the sidebar" and
+  // "Search" targets (x 10-54 and 60-104, y 16-60), measured the same at 360 and 430. Docked off MEASURED rects, never a
+  // constant (CLAUDE.md §6.1): the sentence steps down below the lowest control its lines meet (to y 64 there), and the
+  // next sentence clears the step. Pinned by e2e/journeys/guest-join.spec.ts ("covers no control", 390 by touch).
+  _evStepBelowControls(t) {
+    try {
+      const range = document.createRange(); range.selectNodeContents(t);
+      const lines = [...range.getClientRects()].filter((r) => r.width > 0 && r.height > 0);
+      if (!lines.length) return;
+      const top = Math.min(...lines.map((r) => r.top)), box = this.evRef.current;
+      let low = -Infinity;
+      for (const el of document.querySelectorAll('button, a[href], [role="button"], [role="menuitem"], [role="tab"], input, select, textarea')) {
+        if (box && box.contains(el)) continue;
+        const b = el.getBoundingClientRect();
+        if (b.width > 0 && b.height > 0 && lines.some((r) => r.left < b.right && r.right > b.left && r.top < b.bottom && r.bottom > b.top)) low = Math.max(low, b.bottom);
+      }
+      // PADDING, not margin: a margin collapses with the kicker's 7px margin-bottom, and the first build stepped the
+      // sentence 8px for a 15px ask, leaving it 3px over the targets (measured at 360, 390 and 430)
+      if (low > top) t.style.paddingTop = Math.ceil(low - top + 4) + "px";
+    } catch (e) { /* no layout (unit harness): the sentence stays where it is */ }
   }
   // ---------- drill deck (flashcards) + dominance flash ----------
   deckCat(node) { return node.ty === "positions" ? "Position" : (node.ty === "submissions" ? "Submission" : "Transition"); }
@@ -6949,6 +6976,32 @@ class Component extends DCLogic {
     this.user = { name: name, initial: (name[0] || "Y").toUpperCase(), email: email }; // email feeds the account menu's identity row
     this.updateAccountUI();
   }
+  // GUEST PRACTICE JOINS THE ACCOUNT AT SIGN-IN (v1.262.0, owner U138 a, "Always automatic"; the rule and its reasons are
+  // in progress-owner.src.js above `ngProgressGuestMerge`). It replaces the menu row "Review guest progress" and its
+  // Import dialog, which every signed-in player saw for good (the owner, 11 Nov: "seems like AI slop/bloat pls fix").
+  // WHEN: at the end of the account's first SUCCESSFUL pull (`_pullAndMerge`), never before it (ORDER1, above there).
+  // THE LINE, once per guest copy and account: the announcer, which is `pointer-events:none` and sits at the top centre
+  // (`.ng-evtoast`), printed WHOLE (never cut at its " from " like a node's name) and stepped below any control its lines
+  // meet (`_evStepBelowControls`: at 390 the top-left icons; e2e/journeys/guest-join.spec.ts pins "covers no control"
+  // at 390 by touch and 1440 by mouse). No kicker: one line. It is HELD for the landing
+  // (`_announceArrival`) and stays until the board's next sentence replaces it: the player's next move, the next
+  // landing or the roll's end. It never overwrites another held arrival sentence (a shared link's): that visit's join
+  // is silent.
+  _joinGuestPractice() {
+    const host = this._progressHost;
+    if (this._guestJoinTried || !this._progressCurrent() || !host || !host.joinGuest) return;
+    const r = host.joinGuest(this);
+    // once per mounted account: a definite answer ends it; a refusal (a failure) leaves it for the next pull
+    if (r.status !== "unavailable") this._guestJoinTried = true;
+    if (r.status !== "joined") return;
+    this._hydrateProgressBlob(r.blob);
+    this._applyLayers(); this._refreshChallengeEvidence();
+    this._saveProgress();   // persists; pushes once the pull has run (`_pushCloud` pulls first otherwise)
+    this.updateAccountUI();
+    if (this._arrivalSay) return;
+    this._announceArrival("", "Your practice from before you signed in is saved", "muted", true);   // whole: a sentence
+    if (this._decision) this._sayArrivalIfPending();   // already landed: say it now, not at the next landing
+  }
   // merge-on-pull: per-key max for prep/days (monotonic counters), settings LWW by updatedAt.
   _mergeProgressBlobs(local, incoming) {
     ngProgressValidateBlob(local); ngProgressValidateBlob(incoming);
@@ -7134,6 +7187,12 @@ class Component extends DCLogic {
       this._pulled = true; this._pulledUserId = userId; this._pushSeq = (this._pushSeq || 0) + 1;
       this._cloudSeen = pushesAtStart === (this._pushEvents || 0) ? seen : null;
       this._cloudSyncError = null;
+      // v1.262.0 (ORDER1): guest practice joins only HERE, after a successful pull, so the rule meets the CLOUD's rows
+      // and not only this browser's copy. Joined before the pull, a guest's later or same-day "No" went in unprotected
+      // on a browser whose copy lacked the cloud's "Yes", then beat that Yes in this very merge and was pushed
+      // (tests/guest_join_safety.test.mjs 11). A failed or offline pull therefore joins nothing, marks nothing and
+      // pushes nothing of the guest's; the next successful pull joins. Below: the push carries the joined practice.
+      this._joinGuestPractice();
       this._saveProgress();         // persist verified merge; then push only if the merge differs from what the cloud gave
       return true;
     } catch (e) {
@@ -7274,36 +7333,6 @@ class Component extends DCLogic {
     if (this._acctMenuAway) { document.removeEventListener("pointerdown", this._acctMenuAway, true); this._acctMenuAway = null; }
     return true;
   }
-  openProgressImport(kind) {
-    if (!this._progressCurrent()) return;
-    const host = this._progressHost, preview = host.previewImport(this, kind);
-    if (preview.status !== "preview") return;
-    this.openModal();
-    const card = this.modalCardRef.current; if (!card) return;
-    card.innerHTML = "";
-    const box = document.createElement("section");
-    box.style.cssText = "padding:24px;color:#dbe2f0;line-height:1.5";
-    box.setAttribute("data-progress-import", kind);
-    const title = document.createElement("h2"); title.textContent = "Import saved practice";
-    const target = this._progressOwner.kind === "account" ? (this.user && this.user.email) : "guest progress on this device";
-    // A verified account without display email is not a sufficiently clear import target.
-    if (!target) { this.closeModal(); return; }
-    const detail = document.createElement("p");
-    detail.textContent = "Guest progress is kept separately. " +
-      "Import practice evidence, saved lists and achievements into " + target + "? Account settings and email consent stay unchanged. The original copy is kept.";
-    const error = document.createElement("p"); error.setAttribute("role", "status");
-    const cancel = document.createElement("button"); cancel.type = "button"; cancel.textContent = "Keep separate";
-    cancel.onclick = () => this.closeModal();
-    const confirm = document.createElement("button"); confirm.type = "button"; confirm.textContent = "Import into " + target;
-    confirm.setAttribute("data-progress-import-confirm", "1");
-    confirm.onclick = () => {
-      if (!this._progressCurrent()) return;
-      const result = host.confirmImport(this, preview);
-      if (result.status !== "ready" && result.status !== "held") error.textContent = "Import could not be completed. Nothing was replaced. Close this review and try again.";
-    };
-    for (const button of [cancel, confirm]) button.style.cssText = "display:block;width:100%;min-height:44px;margin-top:12px;cursor:pointer";
-    box.append(title, detail, error, cancel, confirm); card.appendChild(box);
-  }
   renderAccountMenu() {
     const m = this.acctMenuRef.current; if (!m) return;
     m.innerHTML = "";
@@ -7342,9 +7371,8 @@ class Component extends DCLogic {
     } else {
       auth.push(row("data-menu-create", "Create account", () => this.openAuth("create")), row("data-menu-login", "Log in", () => this.openAuth("login")));
     }
-    // Owner removed the legacy row (2026-10-09); the data layer still supports legacy import.
-    const source = this._progressHost && this._progressHost.previewImport(this, "guest");
-    if (source && source.status === "preview") m.appendChild(row("data-menu-import-guest", "Review guest progress", () => this.openProgressImport("guest")));
+    // NO IMPORT ROW: the owner removed "Review older saved progress" (2026-10-09) and "Review guest progress" (v1.262.0);
+    // guest practice joins at sign-in (`_joinGuestPractice`). The data layer keeps its explicit legacy import, unused.
     if (this._progressStorageError) {
       const status = document.createElement("p"); status.setAttribute("role", "status");
       status.textContent = "Progress could not be saved on this device. Keep this page open and free some browser storage.";
@@ -10444,11 +10472,11 @@ class Component extends DCLogic {
    * A timer cannot do this job: `startRoll()` calls `clearTimers()` at the end of the intro, so
    * an `after()` scheduled at t=0 for t=5 is dropped at t=3.2 without ever firing.
    */
-  _announceArrival(kicker, text, tone) { this._arrivalSay = { k: kicker, t: text, tone: tone }; }
+  _announceArrival(kicker, text, tone, whole) { this._arrivalSay = { k: kicker, t: text, tone: tone, whole: !!whole }; }
   _sayArrivalIfPending() {
     const s = this._arrivalSay; if (!s) return;
     this._arrivalSay = null;
-    this.setEvent(s.k, s.t, s.tone);
+    this.setEvent(s.k, s.t, s.tone, undefined, s.whole);
   }
   /**
    * Present an arrival. THE VIEWPORT DECIDES THE TERMINAL STATE, and it is the one design rule
@@ -17300,13 +17328,13 @@ class Component extends DCLogic {
   /** The one announcer slot, saved and put back — a film borrows it, it does not own it. */
   _evSnapshot() {
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
-    return { k: k ? k.textContent : "", col: k ? k.style.color : "", html: t ? t.innerHTML : "", op: box ? box.style.opacity : "" };
+    return { k: k ? k.textContent : "", col: k ? k.style.color : "", html: t ? t.innerHTML : "", pt: t && t.style ? t.style.paddingTop : "", op: box ? box.style.opacity : "" };
   }
   _restoreEvent(s) {
     if (!s) return;
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
     if (k) { k.textContent = s.k; k.style.color = s.col; }
-    if (t) t.innerHTML = s.html;
+    if (t) { t.innerHTML = s.html; if (t.style) t.style.paddingTop = s.pt || ""; }
     if (box) box.style.opacity = s.op;
   }
   /**

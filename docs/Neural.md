@@ -837,11 +837,11 @@ on its own latch and never touches the pane.
 
 ## 8. Progress
 
-**Progress is stored per owner** (v1.207.0): `bjj-neural-owner:<guest|account:id>:*`. A guest's
-first load adopts the old unowned `bjj-neural-progress` and its markers once, keeping the bytes; an
-account imports it only on request (`progress-owner.src.js`). **Local-only** (v1.207.8+): a signed-in
-device whose SDK cannot load, or cannot check its session, plays that account's local copy under a
-banner, never pulls or pushes, and on re-verify merges before a push (`_renderLocalOnly`).
+**Progress is stored per owner**: `bjj-neural-owner:<guest|account:id>:*`. A guest's first load
+adopts the old unowned `bjj-neural-progress` once, bytes kept. **A sign-in's first successful pull joins the
+guest copy's practice to the account** once, saying so (`joinGuest`): it only adds; the guest
+copy stays. **Local-only**: a device whose SDK cannot load, or cannot check its session, plays the
+account's local copy under a banner, never syncs, and on re-verify merges before a push.
 
 **Game Knowledge is the one skill score:** `score = Σ (weight_i × mastery_i)`, weights summing to 1.
 `weight_i` is how often a roll actually passes through technique *i* — the stationary distribution
