@@ -64,7 +64,12 @@ for (const [width, height, touch] of [[1440, 900, false], [768, 1024, true]] as 
       const landed = await key(page)
       expect(landed.card || landed.article, `premise: the node's card or article is on screen ${JSON.stringify(landed)}`).toBe(true)
       await expect(page.locator(".ng-legendkey"), "the key is hidden once a node is revealed").toBeHidden()
-      await expect(page.locator(".ng-winbar"), "the win bar stays").toBeVisible()
+      // WINBAR1 (owner, 2026-11-11): the bar stays where it is clear of the reader's grid (1440, beside the index) and is away where
+      // it falls under it (768), measured from the boxes. Was "the win bar stays" at both widths; winbar-fold.spec.ts pins the 768 half.
+      const under = await page.evaluate(() => { const b = document.querySelector(".ng-winbar")!.getBoundingClientRect(), g = document.querySelector("[data-reader-body]")!.getBoundingClientRect(); return b.left < g.right && b.right > g.left })
+      expect(under, "premise: the bar falls under the grid at 768 and not at 1440").toBe(width < 1000)
+      if (under) await expect(page.locator(".ng-winbar"), "under the column the win bar is away").toBeHidden()
+      else await expect(page.locator(".ng-winbar"), "the win bar stays").toBeVisible()
       // A patch earned at this landing shows its notice at the top; put it away first, so no tap below lands on it.
       const reward = await page.evaluate(() => { const b = document.querySelector("[data-reward-close]"), r = b?.getBoundingClientRect(); return r && r.width ? [r.left + r.width / 2, r.top + r.height / 2] as [number, number] : null })
       if (reward) { if (touch) await page.touchscreen.tap(...reward); else await page.mouse.click(...reward); await j.advance(600); await j.readerLayoutSettled() }
@@ -85,6 +90,9 @@ for (const [width, height, touch] of [[1440, 900, false], [768, 1024, true]] as 
       const roam = await key(page)
       expect({ card: roam.card, film: roam.film, roam: roam.roam, article: roam.article }, "premise: free roam, the card, the film and the article off the screen").toEqual({ card: false, film: false, roam: true, article: false })
       await expect.poll(async () => { await frame(j); const k = await key(page); return k.visibility + " " + k.opacity }, { message: "the key comes back when the map is alone again" }).toBe("visible 1")
+      // WINBAR1's other half (owner's pick U137 a): the bar is away only while the article's column is on screen, so the map alone
+      // has it back, at 768 too (where it was away under the column above).
+      await expect.poll(async () => { await frame(j); return page.evaluate(() => getComputedStyle(document.querySelector(".ng-winbar")!).visibility) }, { message: "the map alone keeps the win bar" }).toBe("visible")
       // The article alone on screen, with no card or film: a page (a Principle with no videos, by its URL), which free roam never
       // puts away. Not Base: its own film is on screen too, and a film alone already keeps the key away.
       await j.boot("/Principles/Microing")
@@ -243,6 +251,7 @@ for (const [width, height, touch] of [[390, 631, true], [1440, 900, false]] as [
 //     search-icon-over-drawer / search-no-focus (390 by touch) ............. a press opens the drawer
 //     slash-own-path ("/" off the seam) .................................... "/" takes the same seam
 //     search-phone-seat-lost (neural.css) .................................. 6px right of the drawer button
+//     winbar-away-on-map-alone (WINBAR2: the bar away under a column not on screen, 768) .. the map alone keeps the win bar
 //   tests/artifacts/article_sections_mutants.mjs
 //     ghost-press-reopens-card (the button guard removed, 768 by touch) .... the tap that closed the card does not reopen it
 // UNGUARDED: reader.src.js's execution-label occupied list naming `.ng-search` (no journey frames a travelling name there).

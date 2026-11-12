@@ -94,8 +94,8 @@ type View = "reading"
 const VIEWS: View[] = ["reading"]
 const bootIn = (j: any, _view: View) => j.boot("/")
 const docked = (_view: View, ..._parts: string[]): string[] => []
-// STALE SPEC (D-355, U11): where the index shows (1440x900 here) a closed part leaves no label in the content:
-// its index row carries the closed state and reopens it. Without the index the label reopens it, as before.
+// STALE SPEC (D-355, U11, U131 b2): where the index shows (1440x900 here) its row carries the closed state and reopens a part.
+// Without the index a closed part leaves no label (U131 b2): its message's Undo, then its Settings switch, reopen it.
 const indexed = (page: any) => page.locator(".ng-reader-toc").isVisible()
 const restore = async (page: any, j: any, view: View, part: "card" | "hand") => {
   // A catch can replace the article asynchronously. Choose its index/label only once that
@@ -103,8 +103,14 @@ const restore = async (page: any, j: any, view: View, part: "card" | "hand") => 
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await j.readerLayoutSettled()
   if (await indexed(page)) return j.clickByMouse(`[data-toc-type="${part}"] a`, `the closed ${part === "card" ? "Questions" : "Moves"} index row`)
-  await page.locator(`[data-game-open="${part}"]`).scrollIntoViewIfNeeded()
-  await j.clickByMouse(`[data-game-open="${part}"]`, `the closed ${part === "card" ? "Questions" : "Moves"} label`)
+  // WAS (D-338): the label the closed part left. NOW (U131 b2): no label is left; while its message stands its Undo brings it back,
+  // and after that its own Settings switch does.
+  const message = `[data-hidesec-notice="${part}"] [data-hidesec-undo]`
+  if (await page.locator(message).isVisible()) return j.clickByMouse(message, `the closed ${part === "card" ? "Questions" : "Moves"} message's Undo`)
+  await page.evaluate(() => (window as any).__neural.openSettings("rolling"))
+  await page.locator(`[data-layer-toggle="${part}"]`).scrollIntoViewIfNeeded()
+  await j.clickByMouse(`[data-layer-toggle="${part}"]`, `its Settings switch`)
+  await page.keyboard.press("Escape")
 }
 const viewTitle = (_view: View) => " (reading view: the closed label)"
 
@@ -178,7 +184,8 @@ test(`@curated the ✕ is sticky: the next landing builds no card and asks nothi
   expect(s1.beats, "the dismissal is named").toContain("land_dismissed")
   expect(s1.dock, "no dock glyph: the closed card's label or index row brings it back").toEqual(docked(view, "card"))
   if (await indexed(page)) await expect(page.locator('[data-toc-type="card"]'), "the closed card's index row shows it closed").toHaveAttribute("data-collapsed", "true")
-  else await expect(page.locator('[data-game-open="card"]'), "the closed card leaves its Questions label").toBeVisible()
+  // WAS (D-338): "the closed card leaves its Questions label". NOW (U131 b2): it leaves its message in that place, and no label.
+  else await expect(page.locator('[data-hidesec-notice="card"]'), "the closed card leaves its message").toBeVisible()
   expect(s1.landIdx, "the landing still knows its state (film + backfill invariant)").toBe(s1.cur)
 
   // ── the next landing: no card, a hand, the gap named ──
@@ -345,6 +352,11 @@ test("@curated the measured reader and shelf reserve the final paragraph's space
   await page.keyboard.press("Control+End")
   // STALE CONTRACT (D-318 U1(1)): with Book shown there is no shelf to reserve (the old claim's
   // rect measured 0x0). The flow ends clear of the bottom controls that share its column instead.
+  // WINBAR1 (owner, 2026-11-11): on a phone the win bar was the one such control, and it is now away under the column, so the
+  // premise "the phone has bottom controls under the column" and "the article ends above the screen's bottom" are REPLACED: any
+  // visible control under the column is still cleared, and with none the article runs to the bottom edge.
+  await j.advance(50)   // the legend's writer runs on a pumped frame; `visibility` turns 0.3s after `data-away`
+  await expect(page.locator(".ng-winbar"), "WINBAR1: under the column the win bar is away").toBeHidden()
   const boxes = await page.evaluate(() => {
     const a = (window as any).__neural, r = document.querySelector("[data-reader]")!.getBoundingClientRect()
     const col = document.querySelector(".ng-reader-article")!.getBoundingClientRect()
@@ -355,9 +367,8 @@ test("@curated the measured reader and shelf reserve the final paragraph's space
     return { articleBottom: r.bottom, shelf: document.querySelectorAll("[data-layer-dock]").length, controls, H: innerHeight }
   })
   expect(boxes.shelf, "no shelf (retired, U114 a)").toBe(0)
-  expect(boxes.controls.length, "the phone has bottom controls under the column").toBeGreaterThan(0)
   for (const c of boxes.controls) expect(boxes.articleBottom, JSON.stringify(boxes)).toBeLessThanOrEqual(c.top - 6)
-  expect(boxes.articleBottom).toBeLessThan(boxes.H)
+  if (!boxes.controls.length) expect(Math.abs(boxes.H - boxes.articleBottom), "nothing under the column: the article runs to the bottom edge " + JSON.stringify(boxes)).toBeLessThanOrEqual(0.5)
 })
 
 // v1.253.0 (U114 a, #354's review finding 4): the retired ✕ and shelf were the only writers of readerBook, landMap and landFeedback, and

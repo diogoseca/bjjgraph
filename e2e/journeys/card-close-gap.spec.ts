@@ -29,6 +29,12 @@ import { journey } from "../dsl"
  * step under Moves" (240 vs 8 at 390, 311 vs 8 at 574); the 1440 control stays green.
  * NOT PINNED HERE: the label's look, its 44px target and its contrast (article-sections.spec.ts); the column layouts from 1024px
  * (article-sections.spec.ts measures the label under the article there, not its gap).
+ *
+ * U131 b2 (HIDESEC2, merged after this file): a ✕ leaves no label now. WAS: the closed card's Questions label one step under Moves.
+ * NOW: its message stands in that place for five seconds, one step under Moves with the film one step under it, and once it has gone
+ * (and after a reload, and on the next landing) the film takes the place, one step under Moves: never a film's height. The same holds
+ * for Moves' message and the video's (which stands in the film's place). The mutant above is now a row of
+ * tests/artifacts/article_sections_mutants.mjs (cardgap-film-first-line).
  */
 
 const CLIPS = [{ id: "ddddddddddd", title: "Authored clip one", duration: 600 }, { id: "eeeeeeeeeee", title: "Authored clip two", duration: 20 }]
@@ -61,28 +67,38 @@ const stack = (page: Page) => page.evaluate(() => {
   return {
     hand: box(a.optionsRef.current, "hand"), moves: box(document.getElementById("reader-hand"), "moves label"),
     label: box(document.getElementById("reader-card"), "questions label"), film: box(r.mediaHome, "film"), painted,
+    message: !!document.querySelector('[data-hidesec-notice="card"]'), columns: r.game.dataset.mediaLayout === "side-by-side",
     card: !!a._landEl, landCard: a.get("landCard", true), indexed: r.root.hasAttribute("data-indexed"),
   }
 })
 
-/** The claim: the label is one step under what is above it (Moves, or Moves' own label), the step it keeps from the part below. */
+/** The claim: what takes the closed question's place (its message while it stands, else the film) is one step under what is above it
+ *  (Moves, or Moves' own message), the step it keeps from the part below; nothing painted lies between. WAS (v1.256.3): the label. */
 const expectNoGap = async (page: Page, when: string, { film = true }: { film?: boolean } = {}) => {
   const s = await stack(page)
   expect(s.card, when + ": the card is closed").toBe(false)
-  expect(s.label, when + ": the closed card leaves its Questions label").not.toBeNull()
   const above = s.hand || s.moves
-  expect(above, when + ": Moves, or its closed label, is painted").not.toBeNull()
+  expect(above, when + ": Moves, or its closed place, is painted").not.toBeNull()
   if (film) expect(s.film?.height ?? 0, when + ": the film is painted (the gap the claim is about is its height)").toBeGreaterThan(100)
-  else expect(s.film, when + ": the film is closed").toBeNull()
-  const gapAbove = s.label!.top - above!.bottom, gapBelow = film ? s.film!.top - s.label!.bottom : NaN
-  // Under the label the film keeps the parts' step (the article's first tile keeps its own smaller margin, so only the film can
-  // measure it); with the film closed, the step above is compared to the one measured with it shown.
-  if (film) expect(Math.abs(gapAbove - gapBelow), `${when}: the label sits one step under Moves (above ${gapAbove.toFixed(1)}, under it ${gapBelow.toFixed(1)})`).toBeLessThan(1)
-  expect(gapAbove, when + ": the label never overlaps Moves").toBeGreaterThanOrEqual(-0.5)
-  expect(gapAbove, when + ": the label is one step under Moves, never a film's height").toBeLessThan(20)
-  const between = s.painted.filter(b => b.name !== above!.name && b.name !== "game:reader-card" && b.name !== "game:reader-hand" && b.bottom > above!.bottom + 0.5 && b.top < s.label!.top - 0.5)
-  expect(between.map(b => b.name), when + ": nothing painted lies between Moves and the label").toEqual([])
-  return { gap: gapAbove, step: film ? gapBelow : null }
+  // U131 b2: while the question's message stands, its place is the closed card's slot; once it has gone, the film's top is the place.
+  const place = s.message ? s.label : s.film
+  expect(place, when + (s.message ? ": the question's message stands in its place" : ": the film takes the question's place")).not.toBeNull()
+  // In columns (1440) the film is a cell under the message's row, flush, as it was under the label at 1,024 to 1,349px: the step below
+  // is the stacked stage's claim only.
+  const stacked = film && s.message && !s.columns
+  const gapAbove = place!.top - above!.bottom, gapBelow = stacked ? s.film!.top - s.label!.bottom : NaN
+  if (stacked) expect(Math.abs(gapAbove - gapBelow), `${when}: the message sits one step under Moves (above ${gapAbove.toFixed(1)}, under it ${gapBelow.toFixed(1)})`).toBeLessThan(1)
+  expect(gapAbove, when + ": it never overlaps Moves").toBeGreaterThanOrEqual(-0.5)
+  expect(gapAbove, when + ": it is one step under Moves, never a film's height").toBeLessThan(20)
+  const between = s.painted.filter(b => b.name !== above!.name && b.name !== "game:reader-card" && b.name !== "game:reader-hand" && b.bottom > above!.bottom + 0.5 && b.top < place!.top - 0.5)
+  expect(between.map(b => b.name), when + ": nothing painted lies between Moves and it").toEqual([])
+  return { gap: gapAbove, step: stacked ? gapBelow : null }
+}
+/** The question's message has gone (a mouse is moved off first: a mouse over a message holds it). */
+const messageGone = async (page: Page, j: ReturnType<typeof journey>, key = "card") => {
+  await page.mouse.move(2, 2)
+  await page.waitForFunction(k => !document.querySelector(`[data-hidesec-notice="${k}"]`), key, { timeout: 15000 })
+  await j.readerLayoutSettled()
 }
 
 /** A touch tap at the control's measured centre, refused when anything else owns the point (clickByMouse's rule). */
@@ -131,7 +147,10 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 390, height: 631 }
       if (input === "touch") await tapByTouch(page, "[data-land-close]", "the card's ✕")
       else await j.clickByMouse("[data-land-close]", "the card's ✕")
       await j.readerLayoutSettled()
-      const first = await expectNoGap(page, "after the ✕")
+      const first = await expectNoGap(page, "after the ✕ (its message)")
+      await messageGone(page, j)
+      const gone = await expectNoGap(page, "once its message has gone (the film)")
+      expect(gone.gap, "the film takes the place at the same step").toBeCloseTo(first.gap, 0)
       await j.advance(1200) // > the 400ms save debounce: the ✕ is a setting
       expect((await stack(page)).landCard, "the ✕ is saved").toBe(false)
 
@@ -140,6 +159,9 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 390, height: 631 }
       expect(reloaded.gap, "the same step after a reload").toBeCloseTo(first.gap, 0)
 
       await hop(page, j)
+      // HIDESEC2: the next landing's hand can still be inside D-351's hold (published pending, hidden) when the layout settles; measured
+      // 1 run in 3 at 574x760 by mouse on a loaded box. Its publication is the moment the claim is about.
+      await expect.poll(() => page.evaluate(() => { const r = (window as any).__neural.optionsRef.current; return !!r && !r.hasAttribute("data-reader-pending") }), { message: "the next hand is published" }).toBe(true)
       await j.readerLayoutSettled()
       const next = await expectNoGap(page, "after the next landing")
       expect(next.gap, "the same step after the next landing").toBeCloseTo(first.gap, 0)
@@ -159,8 +181,9 @@ test.describe("390x844, Moves closed and reopened, a resize, then the film close
     await j.clickByMouse("[data-hand-close]", "Moves' ✕")
     await j.readerLayoutSettled()
     expect((await stack(page)).hand, "Moves closed").toBeNull()
-    expect((await expectNoGap(page, "Moves closed")).gap, "the Questions label is one step under Moves' label").toBeCloseTo(gap, 0)
-    await j.clickByMouse('[data-game-open="hand"]', "reopen Moves from its label")
+    expect((await expectNoGap(page, "Moves closed")).gap, "what stands in the question's place is one step under Moves' message").toBeCloseTo(gap, 0)
+    // WAS: reopened from Moves' label. NOW (U131 b2): from its message's Undo.
+    await j.clickByMouse('[data-hidesec-notice="hand"] [data-hidesec-undo]', "reopen Moves from its message's Undo")
     await j.readerLayoutSettled()
     expect((await expectNoGap(page, "Moves reopened")).gap, "the same step with Moves back").toBeCloseTo(gap, 0)
 
@@ -169,12 +192,19 @@ test.describe("390x844, Moves closed and reopened, a resize, then the film close
     await page.setViewportSize({ width: 390, height: 844 }); await j.readerLayoutSettled()
     expect((await expectNoGap(page, "resized back to 390x844")).gap, "the same step after the resize").toBeCloseTo(gap, 0)
 
-    // Last: a closed film's own label goes to the article's Hidden sections fold, so reopening it is not this journey's subject.
+    // Last: the film's ✕. WAS: the Questions label kept its step with the film closed. NOW (U131 b2): the video's message stands in the
+    // film's place, and whatever stands in the question's place is still one step under Moves.
+    await messageGone(page, j)
     await page.locator("[data-film-close]").scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
     await j.clickByMouse("[data-film-close]", "the film's ✕")
     await j.readerLayoutSettled()
     await page.locator('[data-reader-ready="true"]').evaluate(e => { e.scrollTop = 0 }); await j.readerLayoutSettled()
-    expect((await expectNoGap(page, "the film closed", { film: false })).gap, "the same step with the film closed").toBeCloseTo(gap, 0)
+    // #372's review: restored to the step's own strictness (the same step within half a pixel, nothing painted between), not a band.
+    const shut = await stack(page)
+    expect(shut.film, "the video's message stands in the film's place").not.toBeNull()
+    expect(shut.film!.top - shut.hand!.bottom, "the video's message is one step under Moves, the same step").toBeCloseTo(gap, 0)
+    const between = shut.painted.filter(b => b.name !== "hand" && b.name !== "film" && b.name !== "game:reader-card" && b.name !== "game:reader-hand" && b.bottom > shut.hand!.bottom + 0.5 && b.top < shut.film!.top - 0.5)
+    expect(between.map(b => b.name), "nothing painted lies between Moves and it").toEqual([])
   })
 })
 
@@ -185,6 +215,8 @@ test.describe("1440x900 control", () => {
     await arrive(page, j)
     await j.clickByMouse("[data-land-close]", "the card's ✕")
     await j.readerLayoutSettled()
+    // U131 b2: the question's message stands in its place for five seconds; the control is read once it has gone.
+    await messageGone(page, j)
     const s = await stack(page)
     expect(s.indexed, "the index shows at this width").toBe(true)
     expect(s.label, "no label in the content where the index carries the closed part").toBeNull()
@@ -197,3 +229,27 @@ test.describe("1440x900 control", () => {
     await expect(page.locator("[data-landcard]"), "the index row restores a visible card").toBeVisible()
   })
 })
+
+// HIDESEC2: a PINNED landing (D-351: its article came after the 800ms hold, so its parts publish pinned) whose card is then closed by
+// its ✕. _readerHold released a pin on "the card closed" only while the card still existed, which the ✕ removes first, so the pin
+// outlived the close and kept the closed card's old top: the message, then the film, stood 4px into Moves' band (seen at 1440 above on a
+// run the hold happened to pin). The ✕ settles the pin now (reader.src.js). Pinned here by holding the article back, not by luck.
+// Control: hidesec2-card-close-keeps-pin (tests/artifacts/article_sections_mutants.mjs).
+test.describe("1440x900 pinned", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+  test("@curated HIDESEC2 a pinned landing's card ✕ settles the pin: its message, then the film, one step under Moves", async ({ page }) => {
+    const j = journey(page)
+    await j.boot("/", { beforeNavigate: withFilm, payloads: { "/Positions/Mount": { afterMs: 1500 } } })
+    await j.land("Mount Top")
+    await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+    await j.readerLayoutSettled()
+    await expect.poll(() => page.evaluate(() => !!(window as any).__neural._readerPin), { message: "premise: the landing published pinned" }).toBe(true)
+    await j.clickByMouse("[data-land-close]", "the card's ✕")
+    await j.readerLayoutSettled()
+    expect(await page.evaluate(() => !!(window as any).__neural._readerPin), "the card's ✕ settles the pin").toBe(false)
+    await expectNoGap(page, "after the ✕ (its message)")
+    await messageGone(page, j)
+    await expectNoGap(page, "once its message has gone (the film)")
+  })
+})
+

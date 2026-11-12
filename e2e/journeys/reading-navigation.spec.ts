@@ -57,16 +57,16 @@ for (const width of [320, 390]) {
     await last.scrollIntoViewIfNeeded()
     await j.clickByMouse('[data-reader-last-header]', 'phone sections have their own toggle')
     await expect(last).toHaveAttribute('aria-expanded', 'false')
-    // STALE SPEC (D-482 / U25 a): closing transfers focus to the aggregate disclosure.
-    // Enter opens that list; Tab reaches the SAME section's row; Enter reopens it.
-    await expect(page.locator('.ng-reader-hidden>summary')).toBeFocused()
-    await expect(page.locator('.ng-reader-hidden')).not.toHaveAttribute('open', '')
-    await page.keyboard.press('Enter')
-    await expect(page.locator('.ng-reader-hidden')).toHaveAttribute('open', '')
+    // WAS (D-482 / U25 a): closing moved focus to the "Hidden sections" summary; Enter opened it, Tab reached the SAME section's
+    // row, Enter reopened it. NOW (U131 b2): no fold; a close by the mouse leaves focus on the reader itself (#372's review: asserted
+    // again), and the section's message stands in its place in native keyboard order: Tab from its Settings reaches its Undo, and
+    // Enter there reopens the section and gives focus back to its close.
+    await expect(page.locator('[data-reader]'), 'a close by the mouse leaves focus on the reader').toBeFocused()
+    await page.locator('[data-hidesec-notice] [data-hidesec-settings]').focus()
     await page.keyboard.press('Tab')
-    await expect(last, 'the hidden row remains in native keyboard order').toBeFocused()
+    await expect(page.locator('[data-hidesec-notice] [data-hidesec-undo]'), "the message's Undo is next in native keyboard order").toBeFocused()
     await page.keyboard.press('Enter')
-    await expect(last, 'D-482: Enter on the revealed row reopens the section').toHaveAttribute('aria-expanded', 'true')
+    await expect(last, 'Enter on Undo reopens the section').toHaveAttribute('aria-expanded', 'true')
     await expect(last).toBeFocused()
     await expect(page.locator('.ng-reader-hidden')).toBeHidden()
     await expect(page.locator('[data-layer-hide]:visible,[data-layer-show]:visible'), 'no Book control in the article view').toHaveCount(0)
@@ -302,9 +302,32 @@ test('@curated a late real dossier preserves reader focus, scroll and the answer
   await j.readerLayoutSettled()
   await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`)
   await page.locator('[data-reader-body]').focus()
+  // THE KEY'S OWN SCROLL, AT REST (FLAKY1, v1.262.9). This used to poll `scrollTop > 0`, which the
+  // answer's scrollIntoView had already made true (574 px), then sleep a fixed 400 ms for Chromium's
+  // smooth scroll. With the GPU process descheduled 700 ms after the key (a loaded runner) and the
+  // dossier answered 600 ms late, the snapshot below read the start of the motion and the delivery
+  // read its end: red 11 of 11, the app untouched. And with PageDown eaten by the reader it stayed GREEN,
+  // so it never checked that the key moved anything. Now the browser's own `scrollend`, armed by the
+  // key itself so an earlier scroll's end cannot count, says the motion is over. Not the first one:
+  // with the compositor stalled, Chromium can end the key's injected scroll gesture before its
+  // animation starts and fire a scrollend at the START offset, then a second when the motion really
+  // ends (3 of 20 under the stall above, and the first version of this wait went red 2 of 20 on it).
+  // So the end that counts is one past where the key found the reader, with the reader still there.
+  // Mutants: PageDown eaten (red at this wait); the late dossier resetting the reader to the top (red
+  // at the toEqual below, as before).
+  const from = await page.evaluate(() => {
+    const w = window as any, el = w.__neural._readerEl
+    const pd = w.__pageDown = { from: el.scrollTop, armed: false, ends: [] as number[] }
+    document.addEventListener('keydown', e => { if (e.key === 'PageDown') pd.armed = true }, true)
+    el.addEventListener('scrollend', () => { if (pd.armed) pd.ends.push(el.scrollTop) })
+    return pd.from
+  })
   await page.keyboard.press('PageDown')
-  await expect.poll(() => page.locator(READY).evaluate(e => e.scrollTop)).toBeGreaterThan(0)
-  await page.waitForTimeout(400) // native PageDown motion must finish before the delivery snapshot
+  await expect.poll(() => page.evaluate(() => {
+    const w = window as any, pd = w.__pageDown, last = pd.ends[pd.ends.length - 1]
+    return pd.ends.some((top: number) => top > pd.from) && w.__neural._readerEl.scrollTop === last
+  }), { message: 'native PageDown motion has come to rest: a scrollend past where the key found the reader, and the reader still there', timeout: 15_000 }).toBe(true)
+  expect(await page.locator(READY).evaluate(e => e.scrollTop), 'PageDown moved the reader down from where the key found it').toBeGreaterThan(from)
   const before = await page.evaluate(() => {
     const w = window as any, a = w.__neural, n = a.nodes[a._landIdx]
     w.__dossierReader = a._readerEl; w.__dossierBody = a._readerEl.querySelector('[data-reader-body]'); w.__dossierQuestion = document.querySelector('[data-land-q]'); w.__dossierFocus = document.activeElement

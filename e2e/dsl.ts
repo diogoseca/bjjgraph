@@ -127,6 +127,9 @@ type PageState = {
   navs: NavEvent[];
   /** navigations a journey declared it causes on purpose (`allowNavigation`) */
   navAllow: Array<{ re: RegExp; why: string }>;
+  /** the last one-trip hydrateAll(): decks asked for, files planned, carried in the trip and left to a payload rule; then, by
+   *  file name, those answered in the page, and what the answer met: cold, already in flight, or landed since the plan */
+  lastDeckTrip: { keys: number; files: number; carried: number; ruled: number; served: string[]; cold: string[]; inflight: string[]; landed: string[] } | null;
 };
 
 /** One navigation the PAGE started (never the harness's own goto/reload), as the page saw it. */
@@ -149,6 +152,7 @@ export class Journey {
         noCurriculum: false,
         navs: [],
         navAllow: [],
+        lastDeckTrip: null,
       } as PageState));
   }
 
@@ -549,13 +553,103 @@ export class Journey {
     );
     return this;
   }
-  /** Full residency, for journeys whose subject is not residency (a deck scan, a corpus pick). */
-  async hydrateAll() {
-    const keys = await this.page.evaluate(() =>
-      Object.keys(((window as W).__neural.flashcards || {}).decks || {}),
+  /**
+   * Full residency, for journeys whose subject is not residency (a deck scan, a corpus pick).
+   *
+   * ONE TRIP (v1.262.4, GATE2). This used to be `hydrate(every key)`: 2,862 one-deck fetches, each
+   * crossing the browser's network stack and the routes above, at 10.2 s a call on the dev box
+   * (12.8-16.6 s in a scratch probe; about 6 s on a CI runner). 26 @curated tests call it, so it was
+   * about 2.6 of the deploy gate's 36.7 minutes (reports/gatetime.md, measured on deploy-dev run
+   * 43165143504). Now the chunks travel in ONE evaluate, from the same per-worker buffers the deck
+   * route serves, and an in-page `fetch` answers the app's own request for each file from them.
+   *
+   * WHAT STILL RUNS, unchanged: `a.hydrateDecks(keys)` → `hydrateDeck` for every key: its own file
+   * name (`d.file || qhash(key) + ".json"` under `_dataBase()`, read back from the app below, never
+   * re-derived here), its `fetch`, `r.json()`, the fill in place, `_pruneStaleGrades` and
+   * `_onDeckHydrated`. Pinned by harness-deck-trip.spec.ts: every deck's cards hash the same both ways,
+   * `_onDeckHydrated` runs once per filled deck, and no deck the trip fetches reaches the route.
+   * WHAT NO LONGER HAPPENS for these calls: the chunks of the decks the trip itself fetches never cross
+   * the network stack or this harness's routes. A deck the app was ALREADY fetching on its own (a dealt
+   * option's prefetch) is joined by hydrateDeck, not asked again, so it still travels the wire as
+   * before: 10 beside 2,851 answered in the page on the first run. The normal path is still every boot's own landing deck and every deck the app
+   * asks for by itself; url-arrival.spec.ts's held-deck case (@curated) proves such a fetch crosses
+   * the delay layer, and harness-deck-trip.spec.ts's `via: "route"` control proves it reaches the route.
+   * LEFT ON THE ROUTE, so nothing changes for them: a chunk under an armed payload rule (it keeps its
+   * timing) and a chunk the buffers do not hold (the route's 404). A spec that routes deck chunks
+   * ITSELF must pass `{ via: "route" }`: an in-page fetch never reaches its handler. None does today
+   * (checked: every caller of hydrateAll in e2e/, 2026-11-12).
+   */
+  async hydrateAll(opts: { via?: "trip" | "route" } = {}) {
+    const plan = await this.page.evaluate(() => {
+      const a = (window as W).__neural;
+      const decks = ((a.flashcards || {}).decks || {}) as Record<string, any>;
+      const keys = Object.keys(decks);
+      const files = keys
+        .filter((k) => !a._cardsOf(decks[k]))
+        .map((k) => decks[k].file || a.qhash(k) + ".json");
+      return {
+        keys,
+        files: [...new Set(files)] as string[],
+        base: new URL(a._dataBase() + "flashcards/", location.href).href,
+      };
+    });
+    if (opts.via === "route") {
+      this.st.lastDeckTrip = null;
+      return this.hydrate(plan.keys);
+    }
+    const bodies: Record<string, string> = {};
+    let ruled = 0;
+    for (const f of plan.files) {
+      if (this.ruleFor(plan.base + f)) { ruled++; continue; }
+      try {
+        bodies[f] = payload("flashcards/" + f).toString("utf8");
+      } catch {} // not in the buffers: the route answers it (404), exactly as before
+    }
+    const trip = await this.page.evaluate(
+      async ({ keys, base, bodies }) => {
+        const a = (window as W).__neural, real = window.fetch;
+        const decks = a.flashcards.decks, waits = a._deckWaits || {};
+        const fileOf = (k: string) => decks[k].file || a.qhash(k) + ".json";
+        // The app keeps fetching on its own (a dealt option's deck, the landing's prefetch), so decks the
+        // plan saw as cold can be in flight, or landed, by now. hydrateDeck joins an in-flight fetch
+        // instead of asking again, so only the COLD ones below can reach the answer; the split is
+        // returned so harness-deck-trip.spec.ts can account for every file.
+        const cold = new Set<string>(), inflight = new Set<string>(), landed = new Set<string>();
+        for (const k of keys) {
+          if (a._cardsOf(decks[k])) { if (Object.prototype.hasOwnProperty.call(bodies, fileOf(k))) landed.add(fileOf(k)); }
+          else if (waits[k]) inflight.add(fileOf(k));
+          else cold.add(fileOf(k));
+        }
+        const hits: string[] = [];
+        window.fetch = function (input: RequestInfo | URL, init?: RequestInit) {
+          const url = new URL(input instanceof Request ? input.url : String(input), location.href).href;
+          const file = url.startsWith(base) ? url.slice(base.length) : "";
+          if (file && Object.prototype.hasOwnProperty.call(bodies, file)) {
+            hits.push(file);
+            return Promise.resolve(
+              new Response(bodies[file], { status: 200, headers: { "content-type": "application/json" } }),
+            );
+          }
+          return real.call(window, input, init);
+        } as typeof fetch;
+        try {
+          await a.hydrateDecks(keys);
+        } finally {
+          window.fetch = real;
+        }
+        return { served: hits, cold: [...cold], inflight: [...inflight], landed: [...landed] };
+      },
+      { keys: plan.keys, base: plan.base, bodies },
     );
-    await this.hydrate(keys);
+    this.st.lastDeckTrip = {
+      keys: plan.keys.length, files: plan.files.length, carried: Object.keys(bodies).length, ruled,
+      served: trip.served, cold: trip.cold, inflight: trip.inflight, landed: trip.landed,
+    };
     return this;
+  }
+  /** What the last one-trip `hydrateAll()` on this page did (null after a `via: "route"` call or none). */
+  get lastDeckTrip() {
+    return this.st.lastDeckTrip;
   }
   /**
    * Wait until the LANDING QUESTION HAS STOPPED MOVING — mounted, or definitively not coming.
@@ -1030,17 +1124,40 @@ export class Journey {
     throw new Error(`next hand not dealt within ${capMs}ms of sim time`);
   }
 
-  /** Pump sim time in small steps until a beat appears — for sequences whose exact duration
-   *  varies (travel legs, opponent turns) but whose expiry would fire under one long advance. */
+  /**
+   * Pump `stepMs` at a time until `beat` has been emitted since boot, at most `capMs` of sim time: for
+   * sequences whose exact duration varies (travel legs, opponent turns) but whose expiry would fire under
+   * one long advance.
+   *
+   * THE CHECK IS ASKED IN THE PAGE (v1.262.7, GATE3). It used to be `(await this.beats()).some(...)`,
+   * which copies the whole beat log (up to 4,000 entries, `fx()` trims at 4,000) back to Node on EVERY
+   * step: 31 ms a call against 4.3 ms for an empty evaluate on the dev box, 1,777 calls and 54.9 s in
+   * GATE1's 138-test sample of the deploy gate (reports/gatetime.md, c2). `sawBeat()` runs the same
+   * predicate where the log lives and returns one boolean.
+   * DELIBERATELY STILL TWO ROUND TRIPS PER STEP (advance, then the check), as before: folding the
+   * check into advance()'s evaluate would read the log in the same task as the pump, so a beat that
+   * lands in a microtask or a network callback between the two would be seen one step LATER, and the
+   * journey would stop 400 ms further on. Same steps, same order, same predicate; only the copy is gone.
+   * Measured in an A/B on the same tree: the check fell from 26.6-51.5 ms a call to 17.4-25.7 ms.
+   * Pinned by harness-advance-until.spec.ts: it returns right after the step that brought the beat; it
+   * throws at the cap having pumped exactly the cap; it reads the log since boot, after one step.
+   */
   async advanceUntil(beat: string, capMs = 16000, stepMs = 400) {
     let spent = 0;
     while (spent < capMs) {
       await this.advance(stepMs);
       spent += stepMs;
-      const bs = await this.beats();
-      if (bs.some((b) => b.beat === beat)) return this;
+      if (await this.sawBeat(beat)) return this;
     }
     throw new Error(`beat "${beat}" not seen within ${capMs}ms of sim time`);
+  }
+
+  /** Has `beat` been emitted since boot? Asked in the page, so the beat log never crosses to Node. */
+  async sawBeat(beat: string): Promise<boolean> {
+    return this.page.evaluate(
+      (b) => ((window as W).__neural.beats || []).some((x: { beat: string }) => x.beat === b),
+      beat,
+    );
   }
 
   /** The visible option cards (bottom tray), by title. */

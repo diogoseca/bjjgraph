@@ -12,8 +12,10 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *   2. The menu is short. Signed out: Mastered (the detail, after opening) │ Settings · Feedback ·
  *      Create account · Log in, and one small line: Terms · Privacy · GitHub (U67 a).
  *   3. Signed in: the email (not a control) · Mastered │ Settings · Feedback ·
- *      Sign out (+ Review guest progress when an owned guest cache exists). Sign out flips the badge.
- *   4. Rows open the real surfaces: the auth modal, Settings (including its Notifications tab, U60 b), the merged Feedback form (U67 a), the legal modals, the Mastered list.
+ *      Sign out; no import row (v1.262.0: guest practice joins at sign-in, guest-join.spec.ts). Sign out flips the badge.
+ *   4. Rows open the real surfaces: the auth modal, Settings (U60 b; its Notifications tab is not drawn for an account whose
+ *      training-day email is off while the email is not live, U139 a, notifications-tab.spec.ts), the merged Feedback form
+ *      (U67 a), the legal modals, the Mastered list.
  *   5. Esc closes the menu FIRST, then the drawer; an outside tap closes the menu too.
  *   6. On a 390x844 phone the badge and its menu sit in thumb reach and on screen; the main rows are
  *      44px targets, the small line's at least 24px.
@@ -109,15 +111,20 @@ test("signed in with legacy progress: email, Settings, Sign out; sign out flips 
   await expect(menu.locator("[data-menu-create]"), "no create row when signed in").toHaveCount(0)
   await expect(menu.locator("[data-menu-login]"), "no login row when signed in").toHaveCount(0)
   await expect(menu.locator("[data-menu-sep]"), "still ONE separator").toHaveCount(1)
-  await expect(menu.locator("[data-menu-import-guest]")).toHaveText("Review guest progress")
-  await expect(menu.locator("button")).toHaveCount(7)
-  // U60 b: Account preferences is folded into Settings; Notifications is still reachable there.
+  // v1.262.0 (owner U138 a): the "Review guest progress" row is gone; guest practice joins at sign-in
+  await expect(menu.locator("[data-menu-import-guest]"), "no import row").toHaveCount(0)
+  await expect(menu.locator("button")).toHaveCount(6)
+  // U60 b: Account preferences is folded into Settings. U139 a (v1.261.1): this account never turned the
+  // training-day email on, so while the email is not live its Notifications tab is not drawn (the tab and
+  // the switch, for an account that has it on, are notifications-tab.spec.ts's claims). Until v1.261.1
+  // this pressed Notifications; the press that proves Settings' tabs answer the mouse is now Shortcuts.
   await j.clickByMouse("[data-menu-settings]", "Settings")
-  await expect(page.locator("#ng-stab-notifications")).toBeVisible()
-  await j.clickByMouse("#ng-stab-notifications", "Notifications in Settings")
-  await expect(page.locator("#ng-stab-notifications"), "Settings opened on Notifications").toHaveAttribute("aria-selected", "true")
-  await expect(page.locator('[role="tabpanel"]')).toHaveAttribute("aria-labelledby", "ng-stab-notifications")
-  expect(await page.evaluate(() => (window as any).__neural._settingsTab)).toBe("notifications")
+  await expect(page.locator("#ng-stab-shortcuts")).toBeVisible()
+  await expect(page.locator("#ng-stab-notifications"), "U139 a: no Notifications tab while the email is off").toHaveCount(0)
+  await j.clickByMouse("#ng-stab-shortcuts", "Shortcuts in Settings")
+  await expect(page.locator("#ng-stab-shortcuts"), "Settings opened on Shortcuts").toHaveAttribute("aria-selected", "true")
+  await expect(page.locator('[role="tabpanel"]')).toHaveAttribute("aria-labelledby", "ng-stab-shortcuts")
+  expect(await page.evaluate(() => (window as any).__neural._settingsTab)).toBe("shortcuts")
   await page.evaluate(() => (window as any).__neural.closeModal())
   await j.openAccountMenu("the signed-in badge, again")
 

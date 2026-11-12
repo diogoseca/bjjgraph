@@ -18,6 +18,19 @@ const NG_OUTCOME_BUBBLE = false;
 // v1.255.2: a sign-in this browser started (see _signinCompleted), and how long it may take to complete: 30 minutes for a log-in or
 // Google's round trip, 24 hours for a sign-up's email confirmation. One localStorage key per browser, never per account: no owner.
 const NG_SIGNIN_INTENT_KEY = "bjj-neural-signin-intent", NG_SIGNIN_INTENT_MS = 30 * 60 * 1000, NG_SIGNIN_CREATE_MS = 24 * 60 * 60 * 1000;
+// THE SIGNED-IN NAME, ITS INITIAL AND THE ADDRESS NEVER REACH ANALYTICS (v1.261.2). The app never calls identify(), but it PRINTS the
+// identity, and PostHog's autocapture and session replay read what is printed. posthog-js 1.447.12, as the site loads it: a click's
+// target and every ancestor to <body> go into `$elements_chain` with ALL their attributes (`attr__title`, `attr__aria-label`, data-*)
+// and, for a/button/label/form/input, their text: a button's text is its own text nodes plus its nested <span>s' (getNestedSpanText),
+// which is how the avatar's initial rode every badge click; a press ON the name made the <b> the target, and its text went in as
+// `$el_text`. getSafeText returns "" under an ancestor with this class, and a chain holding it drops the whole click
+// (explicitNoCapture), as dead clicks and rage clicks do. The replay's rrweb runs with blockClass 'ph-no-capture': a blocked element is
+// recorded as an empty box (its class and size, no children, no later text or attribute mutation). So every element that prints the
+// identity carries this class, set BEFORE the identity is written, and holds it in its own text (or its own `title`) only, never in an
+// ancestor's attribute. A mark INSIDE a control is also `pointer-events:none` (helmet.html, `.ngAcctChip .ph-no-capture`), so a press on
+// the name lands on the control and is still counted, without the name. Settings' address line takes its span from `_addressMarkup`.
+// Pinned by e2e/journeys/no-identity-in-analytics.spec.ts, whose mirror of autocapture is transcribed from that version.
+const NG_NO_CAPTURE = "ph-no-capture";
 // EVERY CARD ANSWERED IN ONE LANDING MOVES THIS EXCHANGE AGAIN, BY A SMALLER STEP (v1.221.0, owner
 // 2026-10-05: "answering more flashcards should increase/decrease choices proba further, it's not a 1
 // slot thing, but many"). Row k-1 is the k-th card RESOLVED in one landing (answered, or run out of
@@ -326,7 +339,8 @@ const NG_DRAWER_LOGO = '<svg aria-hidden="true" width="22" height="22" viewBox="
 // gold off. Opposite technique poles therefore share a purple-grey site colour.
 const NG_MIX_SITES_BY_DEFAULT = true;
 // THE SETTINGS TABS, IN ROW ORDER: [id, label]. The row, its one click handler and its arrow keys
-// all read this, and nothing else names a tab (v1.196.1). It replaced five hand-built spans with
+// all read this, through `_settingsTabs` (the part of it one opening shows, NG_DIGEST_LIVE below),
+// and nothing else names a tab (v1.196.1). It replaced five hand-built spans with
 // five class names (.t-fc .t-rl .t-md .t-nt .t-kb) and five listeners, i.e. the same list written
 // three times. The id is what `openSettings(tab)` takes and what `_settingsTab` holds, so a
 // deep link such as the account menu's "Keyboard shortcuts" row keeps working through a rename
@@ -334,6 +348,31 @@ const NG_MIX_SITES_BY_DEFAULT = true;
 // `.ng-stabs`), and settings-tabs.spec.ts's ">= 768 all fit" assertion goes red on purpose so that
 // somebody looks at the desktop row before it ships.
 const NG_SETTINGS_TABS = [["flashcards", "Flashcards"], ["rolling", "Rolling"], ["modifiers", "Modifiers"], ["notifications", "Notifications"], ["shortcuts", "Shortcuts"]];
+// IS THE TRAINING-DAY EMAIL LIVE? Not yet (v1.261.1). Owner, 12 Nov 2026, briefing answer U139 a:
+// "Hide it while the digest is off." The digest cannot send: the owner decided on 11 Nov 2026 that it
+// stays off, and its two tables, `digest_sent` and `digest_suppress` (supabase/digest_v1.sql), do not
+// exist in production (supabase/schema.sql's header). Turning the switch on sent nothing; it only
+// started recording the per-day `dayLog` that syncs with the account. A read-only check of production
+// on 12 Nov found no account with `emailDigest` on and none with a day log.
+// WHILE THIS IS false, `openSettings` draws the Notifications tab in exactly ONE case: a signed-in
+// account whose stored `emailDigest` is on, so it can turn it off (the row then says no email is being
+// sent yet). Everyone else gets no tab: a signed-in player with it off would find an empty tab, and a
+// guest's one line ("Sign in … to turn it on") would send them to sign in for a switch that is not there
+// (the orchestrator's round-2 correction, DIGEST2: a guest included, whatever is stored on the device).
+// The decision is made ONCE PER OPENING, so pressing Off leaves the row where it is until Settings
+// closes and it is gone from the next opening on; a deep link to the hidden tab opens the first tab.
+// NOTHING STORED CHANGES: nothing here writes, renames or deletes `emailDigest` (the digest worker
+// selects on that key, and a settings key can never be deleted, CLAUDE.md §6.6), and `noteCardDone`
+// still records the day log by the stored setting alone, exactly as before.
+// BEFORE ANYONE FLIPS THIS TO true, all three must hold:
+//   1. both tables exist in production (digest_v1.sql applied, and schema.sql's header says so);
+//   2. the digest worker (workers/digest) is deployed and has sent a real digest;
+//   3. the privacy page (content/privacy.md) describes the training-day email. On 12 Nov 2026 it says
+//      nothing about it: its email lines are about signing in only.
+// Flipped to true, Settings is v1.259.1's to the letter: five tabs for everyone, the row for every
+// signed-in player, the guest's line, no "not sent yet" words (tests/settings_presentation.test.mjs,
+// "flipped", and the DIGEST1 differential in docs/Changelog-Archive.md).
+const NG_DIGEST_LIVE = false;
 // THE FOLD-MAP KEY FOR EXPLORE'S "YOUR LISTS" SECTION (v1.196.1), and its header's
 // `data-explore-section` handle — the same label-is-key-is-handle rule the other six follow. A
 // settings key can never be deleted (CLAUDE.md §6.6), so once written this string is permanent:
@@ -2432,7 +2471,10 @@ class Component extends DCLogic {
     }
     return lo > 0 ? text.slice(0, lo).replace(/\s+$/, "") + "\u2026" : "";
   }
-  setEvent(kicker, text, tone, owner) {
+  // `whole` (v1.262.0): the text is a SENTENCE, printed as it is. Without it the text is read as a node's name and cut at
+  // " from " into a name and a dim origin line ("Kimura" / "from Mount"), which is right for every name and wrong for a
+  // sentence: "Your practice from before you signed in is saved" printed as a title "Your practice" over a dim line.
+  setEvent(kicker, text, tone, owner, whole) {
     // A live attempt owns this sentence until its result, handoff or teardown. A replay
     // temporarily borrows the slot and restores it; it must not consume the live stamp.
     if (this._execution && this._evExecution === this._execution && owner !== this._execution && !this._replay) return;
@@ -2445,7 +2487,7 @@ class Component extends DCLogic {
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
     if (k) { k.textContent = kicker; k.style.color = this.toneColor(tone); }
     if (t) {
-      const sp = this.splitName(text);
+      const sp = whole ? { main: text, from: "" } : this.splitName(text);
       t.innerHTML = sp.from
         // .72em, not .66em (v1.138.0): this row is em-relative so it tracked the parent down from
         // 22px, and at the phone's 15px announcer .66em is 9.9px at weight 500 and 60% opacity —
@@ -2453,8 +2495,32 @@ class Component extends DCLogic {
         // "Kimura". .72em holds it at 13px desktop / 10.8px phone.
         ? sp.main + '<div style="opacity:.6;font-weight:500;font-size:.72em;letter-spacing:0;margin-top:3px;">' + sp.from + '</div>'
         : sp.main;
+      if (t.style && t.style.paddingTop) t.style.paddingTop = "";   // a whole sentence's step (below) is that sentence's only
+      if (whole) this._evStepBelowControls(t);
     }
     if (box) box.style.opacity = "1";
+  }
+  // A WHOLE SENTENCE IS WIDE (v1.262.0). A node's name is short and centred; "Your practice from before you signed in is
+  // saved" is not, and at 390 its first line (x 48-342, y 49-66) sat on the phone's top-left "Open the sidebar" and
+  // "Search" targets (x 10-54 and 60-104, y 16-60), measured the same at 360 and 430. Docked off MEASURED rects, never a
+  // constant (CLAUDE.md §6.1): the sentence steps down below the lowest control its lines meet (to y 64 there), and the
+  // next sentence clears the step. Pinned by e2e/journeys/guest-join.spec.ts ("covers no control", 390 by touch).
+  _evStepBelowControls(t) {
+    try {
+      const range = document.createRange(); range.selectNodeContents(t);
+      const lines = [...range.getClientRects()].filter((r) => r.width > 0 && r.height > 0);
+      if (!lines.length) return;
+      const top = Math.min(...lines.map((r) => r.top)), box = this.evRef.current;
+      let low = -Infinity;
+      for (const el of document.querySelectorAll('button, a[href], [role="button"], [role="menuitem"], [role="tab"], input, select, textarea')) {
+        if (box && box.contains(el)) continue;
+        const b = el.getBoundingClientRect();
+        if (b.width > 0 && b.height > 0 && lines.some((r) => r.left < b.right && r.right > b.left && r.top < b.bottom && r.bottom > b.top)) low = Math.max(low, b.bottom);
+      }
+      // PADDING, not margin: a margin collapses with the kicker's 7px margin-bottom, and the first build stepped the
+      // sentence 8px for a 15px ask, leaving it 3px over the targets (measured at 360, 390 and 430)
+      if (low > top) t.style.paddingTop = Math.ceil(low - top + 4) + "px";
+    } catch (e) { /* no layout (unit harness): the sentence stays where it is */ }
   }
   // ---------- drill deck (flashcards) + dominance flash ----------
   deckCat(node) { return node.ty === "positions" ? "Position" : (node.ty === "submissions" ? "Submission" : "Transition"); }
@@ -3227,11 +3293,8 @@ class Component extends DCLogic {
   }
   setDrillHeader(title, sub, countText, role, roleColor) {
     const head = this.drillHeadRef.current; if (!head) return;
-    if (this._session?.practice && !this._checkpoint && !this.deck) {
-      head.innerHTML = '<button type="button" class="ngBack" data-pane-back="1">‹ Back</button><b>Practice</b><small data-practice-belt="1"></small>';
-      head.querySelector(".ngBack").onclick = () => this._exitStudyTo();
-      return;
-    }
+    // Practice's way back is the brand, "‹ Practice" (`_paintDrawerHead`), as Path's is, so its head is the belt line alone
+    if (this._practiceInDrawer()) { head.innerHTML = '<small data-practice-belt="1"></small>'; return; }
     head.innerHTML =
       '<div style="display:flex;align-items:center;height:40px;margin-bottom:12px;">' +
         // a real button (SIDE-R2 P2): Tab reaches it and Enter or Space takes it, as every drawer row does
@@ -3421,6 +3484,17 @@ class Component extends DCLogic {
   // post-hydration refresh ran buildDrillPanel and stomped the very surface the user opened —
   // the same class of bug as onFlashcardsReady's, one layer down.
   _paneStudyActive() { return !!(this.deck || this._session || this._checkpoint || this._studyOpen); }
+  // PRACTICE IS A VIEW INSIDE THE DRAWER, AT THE DRAWER'S WIDTH, AS PATH IS (owner U135 a, v1.261.0). The brand reads
+  // "‹ Practice" and is the way back (`drawerHome`), the map stays beside the drawer, and each card's technique is
+  // flown to the free map with its ring. From v1.248.0 (PR #336) to v1.260.0 Practice was its own 760 px page centred
+  // over the map: the 11-04 build plan's "readable study column instead of remaining a narrow map-side drawer", which
+  // nobody asked for. It hid the map that follows each card (the card's technique was flown under the page, to a
+  // 340 px strip at the right edge) and went against the owner's own words when the inline session was built
+  // (v1.137.0): "the idea isn't for the whole technique to take up the entire space of the sidebar". Owner, 11 Nov:
+  // it "changes the page completely, hiding the graph instead of opening that up inside the drawer as Path does".
+  // The card's text is 283 px wide in the 360 px drawer (266 px on a phone), about what a phone always showed.
+  // Pinned by e2e/journeys/practice-drawer.spec.ts (the width, the technique beside it, the Back, the 44 px answers).
+  _practiceInDrawer() { return !!this._session?.practice && !this._checkpoint && !this.deck; }
   // Does a System or Concept detail view own the Explore body right now? The SAME predicate
   // renderExplorer branches on (a live query outranks either), kept here so the chrome above
   // the list and the list itself cannot disagree about what is showing.
@@ -3444,7 +3518,7 @@ class Component extends DCLogic {
     const study = this._paneStudyActive();
     if (study && !this._paneWasStudy) this._paneReturnTab = this._viewMode; // remember where ‹ Back goes
     this._paneWasStudy = study;
-    panel.toggleAttribute("data-practice-page", !!this._session?.practice && !this._checkpoint && !this.deck);
+    panel.toggleAttribute("data-practice-page", this._practiceInDrawer());   // the marker every Practice spec waits on
     if (study) panel.setAttribute("data-pane-study", "1"); else panel.removeAttribute("data-pane-study");
     this._paintDrawerHead();
     this._syncExploreTools(study);
@@ -5359,7 +5433,13 @@ class Component extends DCLogic {
   }
   openSettings(tab) {
     if (this.__ngDestroyed || !this._progressCurrent()) return false;
-    this._settingsTab = tab || "flashcards"; this._settingsRowX = null;
+    // The tabs this opening shows, decided once here (NG_DIGEST_LIVE). The truthiness is noteCardDone's,
+    // so an ACCOUNT whose setting is recording a day log always sees the switch that stops it (a guest's
+    // device-only setting mails nobody, and its switch would need the sign-in the line asks for). Every
+    // write of `_settingsTab` after this one is a press on a tab the row drew, so it never names a hidden tab.
+    const notif = NG_DIGEST_LIVE || !!this.user && !!this.get("emailDigest", false);
+    this._settingsTabs = notif ? NG_SETTINGS_TABS : NG_SETTINGS_TABS.filter((t) => t[0] !== "notifications");
+    this._settingsTab = tab && (notif || tab !== "notifications") ? tab : "flashcards"; this._settingsRowX = null;
     this.track("neural_settings_opened", { tab: this._settingsTab }); this.openModal();
     this._settingsIntent = { owner: this._progressOwnerStamp, modal: this._modalGeneration,
       card: this.modalCardRef.current, focus: true };
@@ -5396,7 +5476,7 @@ class Component extends DCLogic {
           if (this.__ngDestroyed || !this._progressCurrent()) throw new Error("Settings owner changed");
           return runtime.ngInstallSettingsPresentation(this, {
             expectedBuild: NG_SETTINGS_UI_BUILD,
-            NG_SETTINGS_TABS, NG_START_FROM,
+            NG_START_FROM, NG_DIGEST_LIVE,
           });
         }).catch((error) => { this._settingsPresentationLoad = null; throw error; });
     }
@@ -6896,6 +6976,32 @@ class Component extends DCLogic {
     this.user = { name: name, initial: (name[0] || "Y").toUpperCase(), email: email }; // email feeds the account menu's identity row
     this.updateAccountUI();
   }
+  // GUEST PRACTICE JOINS THE ACCOUNT AT SIGN-IN (v1.262.0, owner U138 a, "Always automatic"; the rule and its reasons are
+  // in progress-owner.src.js above `ngProgressGuestMerge`). It replaces the menu row "Review guest progress" and its
+  // Import dialog, which every signed-in player saw for good (the owner, 11 Nov: "seems like AI slop/bloat pls fix").
+  // WHEN: at the end of the account's first SUCCESSFUL pull (`_pullAndMerge`), never before it (ORDER1, above there).
+  // THE LINE, once per guest copy and account: the announcer, which is `pointer-events:none` and sits at the top centre
+  // (`.ng-evtoast`), printed WHOLE (never cut at its " from " like a node's name) and stepped below any control its lines
+  // meet (`_evStepBelowControls`: at 390 the top-left icons; e2e/journeys/guest-join.spec.ts pins "covers no control"
+  // at 390 by touch and 1440 by mouse). No kicker: one line. It is HELD for the landing
+  // (`_announceArrival`) and stays until the board's next sentence replaces it: the player's next move, the next
+  // landing or the roll's end. It never overwrites another held arrival sentence (a shared link's): that visit's join
+  // is silent.
+  _joinGuestPractice() {
+    const host = this._progressHost;
+    if (this._guestJoinTried || !this._progressCurrent() || !host || !host.joinGuest) return;
+    const r = host.joinGuest(this);
+    // once per mounted account: a definite answer ends it; a refusal (a failure) leaves it for the next pull
+    if (r.status !== "unavailable") this._guestJoinTried = true;
+    if (r.status !== "joined") return;
+    this._hydrateProgressBlob(r.blob);
+    this._applyLayers(); this._refreshChallengeEvidence();
+    this._saveProgress();   // persists; pushes once the pull has run (`_pushCloud` pulls first otherwise)
+    this.updateAccountUI();
+    if (this._arrivalSay) return;
+    this._announceArrival("", "Your practice from before you signed in is saved", "muted", true);   // whole: a sentence
+    if (this._decision) this._sayArrivalIfPending();   // already landed: say it now, not at the next landing
+  }
   // merge-on-pull: per-key max for prep/days (monotonic counters), settings LWW by updatedAt.
   _mergeProgressBlobs(local, incoming) {
     ngProgressValidateBlob(local); ngProgressValidateBlob(incoming);
@@ -7081,6 +7187,12 @@ class Component extends DCLogic {
       this._pulled = true; this._pulledUserId = userId; this._pushSeq = (this._pushSeq || 0) + 1;
       this._cloudSeen = pushesAtStart === (this._pushEvents || 0) ? seen : null;
       this._cloudSyncError = null;
+      // v1.262.0 (ORDER1): guest practice joins only HERE, after a successful pull, so the rule meets the CLOUD's rows
+      // and not only this browser's copy. Joined before the pull, a guest's later or same-day "No" went in unprotected
+      // on a browser whose copy lacked the cloud's "Yes", then beat that Yes in this very merge and was pushed
+      // (tests/guest_join_safety.test.mjs 11). A failed or offline pull therefore joins nothing, marks nothing and
+      // pushes nothing of the guest's; the next successful pull joins. Below: the push carries the joined practice.
+      this._joinGuestPractice();
       this._saveProgress();         // persist verified merge; then push only if the merge differs from what the cloud gave
       return true;
     } catch (e) {
@@ -7137,6 +7249,8 @@ class Component extends DCLogic {
     const name = chip.querySelector("b"), av = chip.querySelector(".ng-badge-av");
     // An account's progress, played unverified: never "Guest", and no create-account nudge.
     const offline = !this.user && this._progressLocalOnly;
+    // marked while they print the identity, BEFORE it is written (NG_NO_CAPTURE); "Guest" and "Offline" stay readable to analytics
+    name.classList.toggle(NG_NO_CAPTURE, !!this.user); av.classList.toggle(NG_NO_CAPTURE, !!this.user);
     name.textContent = offline ? "Offline" : this.user ? this.user.name : "Guest";
     av.textContent = offline ? "!" : this.user ? this.user.initial : "G";
     av.style.background = this.user ? "linear-gradient(135deg,#1f8a5b,#2a6fdb)" : "";
@@ -7155,6 +7269,10 @@ class Component extends DCLogic {
       this.renderExplorer();
     }
   }
+  /** Settings' training-day line names the address inside the analytics mark (NG_NO_CAPTURE). The markup is built HERE, in the
+   *  eager app, because the deferred Settings presentation sits at its byte ceiling (#378 left it 2 B of room, and the span cost
+   *  33 B there); Settings carries only this call. HTML, because settingRow writes its line as HTML, as it always has for the address. */
+  _addressMarkup() { return "<span class=" + NG_NO_CAPTURE + ">" + ((this.user && this.user.email) || "your account email") + "</span>"; }
   // ── account menu (v1.94.0) ── compact chrome anchored above the bottom-right chip. It is
   // CHROME, not gameplay: opening it never opens/closes the pane, never touches the pause
   // latch, never freezes the roll clock. Esc closes it FIRST (before any gameplay overlay),
@@ -7215,36 +7333,6 @@ class Component extends DCLogic {
     if (this._acctMenuAway) { document.removeEventListener("pointerdown", this._acctMenuAway, true); this._acctMenuAway = null; }
     return true;
   }
-  openProgressImport(kind) {
-    if (!this._progressCurrent()) return;
-    const host = this._progressHost, preview = host.previewImport(this, kind);
-    if (preview.status !== "preview") return;
-    this.openModal();
-    const card = this.modalCardRef.current; if (!card) return;
-    card.innerHTML = "";
-    const box = document.createElement("section");
-    box.style.cssText = "padding:24px;color:#dbe2f0;line-height:1.5";
-    box.setAttribute("data-progress-import", kind);
-    const title = document.createElement("h2"); title.textContent = "Import saved practice";
-    const target = this._progressOwner.kind === "account" ? (this.user && this.user.email) : "guest progress on this device";
-    // A verified account without display email is not a sufficiently clear import target.
-    if (!target) { this.closeModal(); return; }
-    const detail = document.createElement("p");
-    detail.textContent = "Guest progress is kept separately. " +
-      "Import practice evidence, saved lists and achievements into " + target + "? Account settings and email consent stay unchanged. The original copy is kept.";
-    const error = document.createElement("p"); error.setAttribute("role", "status");
-    const cancel = document.createElement("button"); cancel.type = "button"; cancel.textContent = "Keep separate";
-    cancel.onclick = () => this.closeModal();
-    const confirm = document.createElement("button"); confirm.type = "button"; confirm.textContent = "Import into " + target;
-    confirm.setAttribute("data-progress-import-confirm", "1");
-    confirm.onclick = () => {
-      if (!this._progressCurrent()) return;
-      const result = host.confirmImport(this, preview);
-      if (result.status !== "ready" && result.status !== "held") error.textContent = "Import could not be completed. Nothing was replaced. Close this review and try again.";
-    };
-    for (const button of [cancel, confirm]) button.style.cssText = "display:block;width:100%;min-height:44px;margin-top:12px;cursor:pointer";
-    box.append(title, detail, error, cancel, confirm); card.appendChild(box);
-  }
   renderAccountMenu() {
     const m = this.acctMenuRef.current; if (!m) return;
     m.innerHTML = "";
@@ -7263,6 +7351,9 @@ class Component extends DCLogic {
       // the signed-in identity, readable but not a control
       const em = document.createElement("div");
       em.setAttribute("data-menu-email", "1");
+      // the identity in its own text and its own tooltip only, under the mark (NG_NO_CAPTURE): no ancestor carries it, and a click on
+      // the row, which is not a control, is dropped by autocapture rather than counted with the address
+      em.className = NG_NO_CAPTURE;
       em.textContent = this.user.email || this.user.name;
       em.title = this.user.email || this.user.name;
       em.style.cssText = "min-height:44px;display:flex;align-items:center;padding:0 13px;font-size:12px;font-weight:600;color:#8b97b0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:default;";
@@ -7280,9 +7371,8 @@ class Component extends DCLogic {
     } else {
       auth.push(row("data-menu-create", "Create account", () => this.openAuth("create")), row("data-menu-login", "Log in", () => this.openAuth("login")));
     }
-    // Owner removed the legacy row (2026-10-09); the data layer still supports legacy import.
-    const source = this._progressHost && this._progressHost.previewImport(this, "guest");
-    if (source && source.status === "preview") m.appendChild(row("data-menu-import-guest", "Review guest progress", () => this.openProgressImport("guest")));
+    // NO IMPORT ROW: the owner removed "Review older saved progress" (2026-10-09) and "Review guest progress" (v1.262.0);
+    // guest practice joins at sign-in (`_joinGuestPractice`). The data layer keeps its explicit legacy import, unused.
     if (this._progressStorageError) {
       const status = document.createElement("p"); status.setAttribute("role", "status");
       status.textContent = "Progress could not be saved on this device. Keep this page open and free some browser storage.";
@@ -7503,16 +7593,20 @@ class Component extends DCLogic {
   // lands: "explore" IS the home list, and Path / Last rolls open as views whose way back is the brand.
   styleViewToggle() { if (!this.viewToggleRef?.current) return; this._paintDrawerHead(); this._syncExploreTools(); }
   drawerHome() {
-    if (this._paneStudyActive()) this._exitStudyTo("explore");
+    if (this._practiceInDrawer()) this._exitStudyTo();   // "‹ Practice" is Practice's Back: it restores where Practice was opened from (address, title, the map's selection, the opener's focus)
+    else if (this._paneStudyActive()) this._exitStudyTo("explore");
     else if (this._viewMode !== "explore") this.setViewMode("explore");
     else this._exploreHome();
   }
   _paintDrawerHead() {
     const b = this.viewToggleRef?.current; if (!b) return;
-    const sub = !this._paneStudyActive() && { challenges: "Path", history: "Last rolls" }[this._viewMode];
+    const sub = this._practiceInDrawer() ? "Practice" : !this._paneStudyActive() && { challenges: "Path", history: "Last rolls" }[this._viewMode];
     const html = sub ? "\u2039 " + sub : NG_DRAWER_LOGO + "BJJGraph";
     if (b._ngHead !== html) { b._ngHead = html; b.innerHTML = html; }
     b.setAttribute("aria-label", sub ? "Back to the sidebar" : "BJJGraph: the top of the sidebar");
+    // Practice's only Back is this brand, so it carries the study Back's marker while Practice is open: one
+    // `[data-pane-back]` on screen either way (a deck's or a checkpoint's own ‹ Back sits in the drill head).
+    if (sub === "Practice") b.setAttribute("data-pane-back", "1"); else b.removeAttribute("data-pane-back");
   }
   _drawerRow(icon, label, tail, onClick) {
     const b = document.createElement("button"); b.type = "button"; b.className = "ng-dr-row";
@@ -10378,11 +10472,11 @@ class Component extends DCLogic {
    * A timer cannot do this job: `startRoll()` calls `clearTimers()` at the end of the intro, so
    * an `after()` scheduled at t=0 for t=5 is dropped at t=3.2 without ever firing.
    */
-  _announceArrival(kicker, text, tone) { this._arrivalSay = { k: kicker, t: text, tone: tone }; }
+  _announceArrival(kicker, text, tone, whole) { this._arrivalSay = { k: kicker, t: text, tone: tone, whole: !!whole }; }
   _sayArrivalIfPending() {
     const s = this._arrivalSay; if (!s) return;
     this._arrivalSay = null;
-    this.setEvent(s.k, s.t, s.tone);
+    this.setEvent(s.k, s.t, s.tone, undefined, s.whole);
   }
   /**
    * Present an arrival. THE VIEWPORT DECIDES THE TERMINAL STATE, and it is the one design rule
@@ -12895,8 +12989,9 @@ class Component extends DCLogic {
   _paneLayout(target = false) {
     const W = this.W || window.innerWidth;
     const panel = this.drillRef && this.drillRef.current;
-    // Its RIGHT EDGE, which is its width while it is docked left: Practice's page stands centred, and the
-    // graph the camera aims at is what shows beside it.
+    // Its RIGHT EDGE, which is its width while it is docked left: the graph the camera aims at is what shows
+    // beside it. (It read the edge for Practice's centred 760 px page, v1.248.0 to v1.260.0; Practice is in the
+    // drawer now, and the edge is still the honest measure for any panel that is not.)
     if (panel && panel.offsetWidth) this._paneWidth = panel.getBoundingClientRect().right;
     const progress = target ? (this.deckShown ? 1 : 0) : (this.uiShift || 0);
     const left = this.isMobile() ? 0 : Math.min(W, this._paneWidth || this.sbOffset()) * progress;
@@ -12985,11 +13080,15 @@ class Component extends DCLogic {
     // `_paintWinThermometer` stays its one writer, `_readerReserve` already skips a hidden bar, and the film's seat row keeps the
     // figure (`currentWinView`). Nothing here moves either box (the key keeps its place above the bar; the index's height is the
     // reader's), so the answer cannot feed back into itself.
-    const leg = this.legendRef.current, bar = this.legendMarkRef.current?.closest(".ng-winbar");
-    if (leg) leg.toggleAttribute("data-away", !this._mapAlone());
+    // WINBAR1 (owner, 2026-11-11): and where the bar falls under the reader's column (`barUnder`, measured by the reader's own layout)
+    // it is away too, so the column runs to the bottom edge. Only while that column is on screen: the map alone keeps the bar. Away is
+    // hidden, never unpainted: `_paintWinThermometer` writes it on every decision, so a resize that brings it back shows today's number.
+    const leg = this.legendRef.current, bar = this.legendMarkRef.current?.closest(".ng-winbar"), alone = this._mapAlone();
+    if (leg) leg.toggleAttribute("data-away", !alone);
     if (bar) {
       const toc = this._readerTocEl?.isConnected && this._readerTocEl.getBoundingClientRect(), b = bar.getBoundingClientRect();
-      bar.toggleAttribute("data-away", !!toc && toc.height > 0 && b.left < toc.right && b.right > toc.left && b.top < toc.bottom + 12);
+      bar.toggleAttribute("data-away", !!toc && toc.height > 0 && b.left < toc.right && b.right > toc.left && b.top < toc.bottom + 12
+        || !alone && !!this._reader?.barUnder);
     }
     // fade the key out only while option cards actually overlap it; fade back in otherwise
     if (leg && op) {
@@ -13667,16 +13766,8 @@ class Component extends DCLogic {
       const best = oc.card.querySelector("[data-choice-recommended]");
       if (best) best.textContent = view.recommended ? (view.recommendationLabel || "Recommended") : "";
     }
-    const row = this.optionsRef.current, status = row?.querySelector("[data-choice-value-status]");
-    if (status) status.textContent = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading" || this._readerAwaited()) ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "" : "Win chance unavailable";
-    const retry = row?.querySelector("[data-choice-value-retry]");
-    if (retry) retry.style.display = !/^live-graph-/.test(this._gameValueReason || "") && !["scheduled", "loading", "preparing"].includes(this._gameValueState) && (this._gameValueRetryable || (this._gameValueRuntime && ["unavailable", "error"].includes(snapshot?.status))) ? "inline-block" : "none";
-    const sort = row?.querySelector("[data-choice-value-sort]");
-    if (sort) {
-      const ids = (this._optionCards || []).filter(c => !c.opt.threat).map(c => (this._choiceValueBindings || []).find(b => b.opt === c.opt)?.actionId);
-      const order = this.choiceValueRuntime()?.ngChoiceValueOrder(ids, snapshot) || ids;
-      sort.style.display = ids.some((id, i) => id !== order[i]) ? "inline-block" : "none";
-    }
+    const title = this.optionsRef.current?.querySelector('[data-choice-group="you"] > div');
+    if (title) this._paintValueSlot(title, snapshot, updating);
     const complete = ["ready", "bounded"].includes(snapshot?.status) && (this._optionCards || []).some(c => !c.opt.threat)
       && (this._optionCards || []).every(c => c.opt.threat || ["ready", "bounded"].includes(this.choiceValueView(c.opt).status));
     this._paintWinThermometer(complete ? snapshot : null);
@@ -13729,6 +13820,36 @@ class Component extends DCLogic {
   // only hands its view on (§6.5). The film's seat row has asked for it since v1.231.0, and nothing defined it, so the row printed
   // "—" on every film until v1.253.0 (owner, 2026-11-09: "where's my Win% off of this state i'm in?").
   currentWinView() { return this._winView || { text: "—", handId: this._choiceHandId }; }
+  // THE ONE STATUS SLOT (v1.258.0, the owner's note on U130: "'calculating win chances' shouldn't come into conflict
+  // with 'sort by win chances' ... it should only show as a replacement for 'calculating win chances' and should say
+  // 'sorted by win chances'"; hidetoggle round 2, s2). Beside "Your moves" and its switch there is ONE line in the
+  // status's quiet type, and at most one press after it, in the same type with a dotted underline:
+  //   "Preparing…" / "Calculating…" / "Updating win chances…"   while a value is being worked out (as before)
+  //   "Sorted by win chance"                                     the hand stands in its win-chance ranking
+  //   "Sort by win chance" (a press)                             it does not: a hand touched before its values landed
+  //                                                              never re-sorts itself (§5), so this is the way back
+  //   "Win chance unavailable · Retry" (Retry a press)           a failed load
+  //   nothing                                                    values in, but the hand has no ranking to report
+  // The bold "Sort by win chance" and "Retry win chances" buttons are gone. "Sorted" is asked of
+  // ngChoiceValueOrder's `ranked` form (null for a hand with no ranking), never read off "the order came back
+  // unchanged": an unrankable hand returns its dealt order there, and the line would claim a sort that never happened. The status span stays the live region, so a hand
+  // sorting itself is announced; the press is its own button ("Sort by win chance", "Retry win chances").
+  _paintValueSlot(title, snapshot, updating) {
+    const status = title.querySelector("[data-choice-value-status]"), press = title.querySelector("[data-choice-value-press]");
+    if (!status || !press) return;
+    const said = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading" || this._readerAwaited()) ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "" : "Win chance unavailable";
+    const retryable = !/^live-graph-/.test(this._gameValueReason || "") && !["scheduled", "loading", "preparing"].includes(this._gameValueState) && (this._gameValueRetryable || (this._gameValueRuntime && ["unavailable", "error"].includes(snapshot?.status)));
+    const ids = (this._optionCards || []).filter(c => !c.opt.threat).map(c => (this._choiceValueBindings || []).find(b => b.opt === c.opt)?.actionId);
+    const ranked = said ? null : this.choiceValueRuntime()?.ngChoiceValueOrder(ids, snapshot, true) || null;
+    let text = said, act = null, word = "";
+    if (said === "Win chance unavailable" && retryable) { act = "retry"; word = "Retry"; }
+    else if (ranked) { if (ranked.every((id, i) => id === ids[i])) text = "Sorted by win chance"; else { act = "sort"; word = "Sort by win chance"; } }
+    if (status.textContent !== text) status.textContent = text;
+    press.innerHTML = word ? (text ? '<span aria-hidden="true">\u00a0·\u00a0</span>' : "") + '<span class="ng-value-press-word">' + word + "</span>" : "";
+    press.style.display = word ? "" : "none";
+    if (act) press.setAttribute("data-act", act); else press.removeAttribute("data-act");
+    if (act === "retry") press.setAttribute("aria-label", "Retry win chances"); else press.removeAttribute("aria-label");
+  }
   sortChoiceValues(auto = false) {
     // An explicit player action is a safe reorder boundary, and so is the ONE automatic sort when
     // values arrive on an untouched hand (paintChoiceValues). Keep the exact opt objects/pick
@@ -13783,19 +13904,18 @@ class Component extends DCLogic {
         status.setAttribute("role", "status");
         status.style.cssText = "margin-left:8px;font-weight:400;letter-spacing:0;overflow:hidden;text-overflow:ellipsis;min-width:0;";
         title.appendChild(status);
-        const sort = document.createElement("button");
-        sort.type = "button"; sort.textContent = "Sort by win chance";
-        sort.setAttribute("data-choice-value-sort", "1");
-        sort.style.cssText = "display:none;flex:none;pointer-events:auto;cursor:pointer;border:0;background:none;color:#bdcce4;font:inherit;font-size:10px;margin:-10px 0 -10px 8px;padding:0 4px;min-height:44px;";
-        sort.onclick = () => this.sortChoiceValues();
-        title.appendChild(sort);
-        const retry = document.createElement("button");
-        retry.type = "button"; retry.textContent = "Retry win chances";
-        retry.setAttribute("data-choice-value-retry", "1");
-        retry.style.cssText = sort.style.cssText;
-        retry.onclick = (e) => { e.stopPropagation(); this._retryGameValues(); };
-        title.appendChild(retry);
-        this._hideEye(title);
+        // the slot's one press (`_paintValueSlot`): "Sort by win chance" or "Retry"
+        const press = document.createElement("button");
+        press.type = "button"; press.className = "ng-value-press"; press.setAttribute("data-choice-value-press", "");
+        press.style.display = "none";
+        press.addEventListener("pointerdown", e => e.stopPropagation());
+        press.onclick = e => {
+          e.stopPropagation();
+          const act = press.getAttribute("data-act");
+          if (act === "retry") this._retryGameValues(); else if (act === "sort") this.sortChoiceValues();
+        };
+        title.appendChild(press);
+        this._hideSwitch(title);
       }
       const row = document.createElement("div");
       row.style.cssText = "display:flex;gap:9px;align-items:stretch;";
@@ -13816,9 +13936,13 @@ class Component extends DCLogic {
     // hand re-orders itself by it exactly once — unless the player has already reached into it
     // (pointer, key, wheel, focus, or an activate via a shortcut), because moving a card the player
     // is aiming at is the one thing a hand must never do (frozen deal order, CLAUDE.md §5). After
-    // that it never re-sorts; the "Sort by win chance" button stays for a hand that was touched.
+    // that it never re-sorts; the status slot offers "Sort by win chance" for a hand that was touched.
+    // A PRESS ON THE TITLE IS NOT A REACH INTO THE HAND (v1.258.0, hidetoggle round 2's finding): the switch and the
+    // slot's press (Retry) sit in the title row inside this tray, so their pointerdown, key and focus used to latch
+    // "touched" and a hand whose values had not landed yet never sorted itself, after nothing but a Hidden/Shown press
+    // or a Retry. Those three are skipped for the title's controls; a wheel anywhere still counts (it scrolls the hand).
     this._handTouched = false;
-    const touched = () => { this._handTouched = true; };
+    const touched = e => { if (e.type !== "wheel" && e.target?.closest?.("[data-hide-switch], [data-choice-value-press]")) return; this._handTouched = true; };
     for (const type of ["pointerdown", "keydown", "wheel", "touchstart", "focusin"]) el.addEventListener(type, touched, { capture: true, passive: true });
     this.fitChoiceTitles();
     this._observeChoiceMedia();
@@ -14114,7 +14238,7 @@ class Component extends DCLogic {
   // ═══ HIDDEN MOVES (v1.255.0, owner U115 b + U116, 10 Nov) ═══
   // "Hide moves until I look" (Rolling settings, off by default) hides each dealt card's NAME and
   // FILM — Works % and Win % stay (U115 b) — and the map's names of the dealt moves until a card is
-  // face up. Hover a card (at once, v1.256.7) or tap it to turn it face up; the eye beside "Your moves"
+  // face up. Hover a card (at once, v1.256.7) or tap it to turn it face up; the switch beside "Your moves" (v1.258.0; the eye before it, U121)
   // switches the whole mode from the row (U121); keys 1-9 still play blind. Face up, it asks "Did you get it?", and a Yes
   // files the move in `moves` as MASTERED (`_gradeMove`).
   // HIDING IS CSS ON AN ATTRIBUTE, NEVER A REBUILT FACE: every reader of this card — the docks,
@@ -14236,28 +14360,31 @@ class Component extends DCLogic {
     strip.innerHTML = '<span>' + (due ? "Still got it?" : "Did you get it?") + '</span><button type="button" data-grade="yes">Yes</button>' + (due || NG_HIDE_GRADE_NO ? '<button type="button" data-grade="no">No</button>' : "");
     card.setAttribute("data-asking", "");
   }
-  // THE EYE (owner U121, 10 Nov: "We don't say 'show all', but still show the icon"). Beside "Your moves" on every
-  // dealt row, it switches hidden moves on and off from the row itself: the same `hideMoves` the Settings switch
-  // writes, in place under the dealt hand (`set` -> `_syncHideMoves`). Plain while the moves show; slashed and gold
-  // while they are hidden. A press is not a peek: it turns no card up and records nothing. Its own pointerdown stop
-  // keeps the press out of the map's input (attachInput, §6.1). Its 44px target rides negative margins, so the
-  // title's 24px line does not grow and "Your moves" does not move. No transition, so reduced motion has nothing to
-  // remove. ("Show all" and its this-turn reveal, U115's first build, are gone with this: the eye is the one way.)
-  _hideEye(title) {
-    const eye = document.createElement("button");
-    eye.type = "button"; eye.className = "ng-hide-eye"; eye.setAttribute("data-hide-eye", "");
-    eye.setAttribute("aria-label", "Hide moves until I look"); eye.title = "Hide moves until I look";
-    eye.addEventListener("pointerdown", e => e.stopPropagation());
-    eye.onclick = e => { e.stopPropagation(); this._hideViaNext = "row"; this.set("hideMoves", !this._hideMoves()); };
-    title.insertBefore(eye, title.firstChild.nextSibling);
-    this._paintEye(title);
+  // THE SWITCH (v1.258.0, owner's pick d on U130, 11 Nov; it replaces U121's eye). After "Your moves" on every dealt
+  // row, one word says the state and a press flips it: "Your moves · Hidden" / "· Shown", in the title's own type at
+  // full strength (6.5:1 on the map at both widths, where a word at 50% measured 2.6:1 and at 75% 4.2:1, hidetoggle
+  // round 1), a dotted underline marking it as a press. The same `hideMoves` the Settings switch writes, in place under
+  // the dealt hand (`set` -> `_syncHideMoves`). A press is not a peek (it turns no card up and records nothing) and not
+  // a reach into the hand (the `touched` latch skips it, renderChoiceGroups). Its own pointerdown stop keeps the press
+  // out of the map's input (attachInput, §6.1). Its 40px target is the whole free band and rides negative margins, so
+  // the title's 24px line does not grow; the word's box reserves "Hidden", so a press moves nothing beside it. The
+  // state is in the NAME ("Moves hidden" / "Moves shown"), not in aria-pressed: a pressed "Shown" would read as a
+  // contradiction. No transition, so reduced motion has nothing to remove.
+  _hideSwitch(title) {
+    const sw = document.createElement("button");
+    sw.type = "button"; sw.className = "ng-hide-switch"; sw.setAttribute("data-hide-switch", "");
+    sw.addEventListener("pointerdown", e => e.stopPropagation());
+    sw.onclick = e => { e.stopPropagation(); this._hideViaNext = "row"; this.set("hideMoves", !this._hideMoves()); };
+    title.insertBefore(sw, title.firstChild.nextSibling);
+    this._paintHideSwitch(title);
   }
-  // the eye's state, and the header hint's (NG_HIDE_HINT = "header", not shipped)
-  _paintEye(title) {
-    const eye = title && title.querySelector("[data-hide-eye]"); if (!eye) return;
-    const on = this._hideMoves();
-    eye.setAttribute("aria-pressed", String(on));
-    eye.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>' + (on ? '<path d="M3 3l18 18"/>' : '') + '</svg>';
+  // the switch's word, and the header hint's (NG_HIDE_HINT = "header", not shipped)
+  _paintHideSwitch(title) {
+    const sw = title && title.querySelector("[data-hide-switch]"); if (!sw) return;
+    const on = this._hideMoves(), word = on ? "Hidden" : "Shown";
+    sw.setAttribute("aria-label", "Moves " + word.toLowerCase());
+    sw.title = on ? "Show moves" : "Hide moves until I look";
+    sw.innerHTML = '<span aria-hidden="true">\u00b7</span><span class="ng-hide-word"><span>' + word + '</span></span>';
     title.querySelector("[data-hide-hint]")?.remove();
     if (on && NG_HIDE_HINT === "header") {
       const hint = document.createElement("span");
@@ -14266,13 +14393,13 @@ class Component extends DCLogic {
       title.appendChild(hint);
     }
   }
-  // the setting switched under a dealt hand (the eye, Settings, a pull): hide or show the row in place, no redeal.
+  // the setting switched under a dealt hand (the switch, Settings, a pull): hide or show the row in place, no redeal.
   // The face-up set starts over: a card left face up before the switch must not leave its orb named after it.
   _syncHideMoves() {
     const on = this._hideMoves();
     this._hmLit = new Set();
     for (const c of this._optionCards || []) on ? this._hideCard(c.card) : (this._unhideCard(c.card), this._hideAria(c.card));
-    this._paintEye(this.optionsRef.current?.querySelector('[data-choice-group="you"] > div'));
+    this._paintHideSwitch(this.optionsRef.current?.querySelector('[data-choice-group="you"] > div'));
   }
   // ── THE `moves` RECORD (v1.255.0, owner U116) ──────────────────────────────────────────────
   // moves[state][move] = [due, ivl, last, ok]: the schedule row `srs` keeps (ngKnowledgeScheduleRow),
@@ -14865,6 +14992,52 @@ class Component extends DCLogic {
       if (qt.getBoundingClientRect().height <= max) lo = mid; else hi = mid - 1;
     }
     tx.textContent = full.slice(0, lo).trimEnd() + "\u2026";
+  }
+  /** FOLD1 (owner, U136 a, 2026-11-11: "Yes: the first ✕ folds it back to the one-line question"; his report that started it,
+   *  CARDGAP1: "i was expecting it to go back into being a question"). The ✕ on an OPENED card whose question is still open
+   *  folds it back to the one-line question, "Answer for Points" and all; returns false where there is nothing to fold (the
+   *  line itself, an answered or timed-out question, no question), and the ✕ then hides Questions as b2 does (U131 b2:
+   *  setLayer's "x", the message in place, reader.src.js notice). A fold hides nothing, so it raises no message. Nothing is
+   *  declined and nothing is graded: the question stays on the table, its clock parks with what is left (q.left, paging's
+   *  rule, so taking it up again resumes that window, never a fresh one; a hide and its Undo keep it too, _applyLayers), and
+   *  later landings ask with the line again (the take-up memory is cleared). The line is built as _mountLandQ builds it;
+   *  that block is pinned by minified-source mutants (neural_app_mutants.mjs), so it is copied here, not shared.
+   *  Pinned by e2e/journeys/card-fold.spec.ts. */
+  _landFold() {
+    const el = this._landEl, q = this._landQ, qw = el && el.querySelector("[data-land-q]");
+    if (!el || !q || !qw || this._landAsk || q.answered || q.revealed || this._landHidden(true)) return false;
+    const d = this._decision;
+    if (d && d.remaining != null) q.left = d.remaining;
+    this._disarmLandClock();
+    this._landAsk = true;
+    this._landOpted = false;
+    try { sessionStorage.removeItem(NG_LAND_ASK_KEY); } catch (e) { /* page-long, then */ }
+    const qt = qw.firstElementChild, block = qw.lastElementChild;
+    block.inert = true;
+    qt.textContent = "";
+    const tx = document.createElement("span");
+    tx.setAttribute("data-land-ask-text", "");
+    tx.textContent = q.card.q;
+    const go = document.createElement("button");
+    go.type = "button";
+    go.setAttribute("data-land-ask-go", "");
+    go.textContent = "Answer for Points";
+    go.style.pointerEvents = "auto";
+    qt.append(tx, " ", go);
+    if (!qt._ngFold) { qt._ngFold = true; qt.addEventListener("click", () => this._landReveal()); }
+    const ro = new ResizeObserver(() => {
+      if (!qt.isConnected || !this._landAsk) { ro.disconnect(); return; }
+      if (qt.clientWidth !== ro.w) { ro.w = qt.clientWidth; this._fitAskLine(qt); }
+    });
+    ro.observe(qt);
+    el.style.animation = "none";
+    el.setAttribute("data-land-ask", "");
+    this.fx("land_q_folded", { deckKey: q.key || null, mode: this._landMode || "land" });
+    this._updateLandDeck();
+    this._reader?.layoutNow();
+    this._dockLandCard(el);
+    go.focus({ preventScroll: true });
+    return true;
   }
   _landOptedIn() {
     if (NG_LAND_ASK_MEMORY === "never") return false;
@@ -15632,7 +15805,9 @@ class Component extends DCLogic {
     // collapsed". `setLayer` declines this question (free), names the dismissal, takes the card
     // (film stays: its own layer) and persists the choice; the dock brings it back. On the panic
     // drill — same chrome, same seam — it hides the drill and the escapes stay dealt.
-    xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("card", false, "x"); });
+    // FOLD1 (owner, U136 a): on an opened card whose question is still open the ✕ folds it back to its one line (_landFold); on the
+    // line, or once answered, it hides Questions with b2's message (U131 b2).
+    xb.addEventListener("click", (e) => { e.stopPropagation(); if (!this._landFold()) this.setLayer("card", false, "x"); });
     btns.appendChild(xb);
     corner.appendChild(btns);
     // ── THE DECK COUNT, UNDER THE BUTTONS (v1.175.0, owner) ── "kept only as gray text under
@@ -15862,6 +16037,12 @@ class Component extends DCLogic {
     const n = this._landIdx != null && this.nodes ? this.nodes[this._landIdx] : null;
     if (!this._layerOn("card")) {
       if (this._landEl) {
+        // FOLD1 (owner, U136 a, 2026-11-11: "the timer pauses with the time left and carries on when you open it again"). A folded
+        // question's parked window (q.left, _landFold) goes away with the card and comes back with it when Undo or Settings rebuilds
+        // this landing's card below, or ✕-then-Undo would buy a fresh window. Kept for THIS landing only: the page cache is replaced
+        // at every new landing (renderLandCard), so a kept window from an earlier one never matches.
+        const q = this._landQ;
+        this._landKept = q && !q.answered && q.left != null ? { cache: this._landPageCache, q: q.card.q, left: q.left } : null;
         this._declineLandQ("collapsed");
         this.fx("land_dismissed", { node: n ? n.t : null, answered: !!(this._landQ && this._landQ.answered) });
         this._clearLandCardOnly();
@@ -15872,6 +16053,11 @@ class Component extends DCLogic {
       // was put away grades the fresh one as extra (the economy law), an unanswered landing is
       // scored on this one and re-arms the clock through `_mountLandQ`.
       this.renderLandCard(n, this._landMode, null, { el: null });
+      // FOLD1: the same question back on the same landing carries on from what was left. It comes back as its one line, as it went:
+      // the reuse path keeps _landAsk, and the fold cleared the take-up memory.
+      const k = this._landKept, q = this._landQ;
+      this._landKept = null;
+      if (k && q && !q.answered && k.cache === this._landPageCache && k.q === q.card.q) q.left = k.left;
     }
     if (!this._layerOn("film")) {
       if (this._reader && this._landFilmEl) { this.pauseLandFilm(); this._landFilmEl.hidden = true; }
@@ -15923,11 +16109,16 @@ class Component extends DCLogic {
     const dock = this._execution?.card?._ngDock;
     return dock && dock.w === window.innerWidth && dock.h === window.innerHeight && !this._reader?.interacting ? dock : null;
   }
-  // What the bottom chrome takes from the reader's column: the share cue's or the win bar's top plus one 8px gap, where either falls
-  // under it, else nothing (v1.253.0: the 12px floor was the retired shelf's inset, and it cut the article 20px above the fold).
+  // What the bottom chrome takes from the reader's column: the share cue's top plus one 8px gap, where it falls under it, else nothing
+  // (v1.253.0: the 12px floor was the retired shelf's inset, and it cut the article 20px above the fold). WINBAR1 (owner, 2026-11-11:
+  // "why isnt the article content flowing all the way down? ... the win-lose bar shouldn't show for such screens"): the win bar no
+  // longer counts. It reserved its top plus 8 (41px on every phone and tablet) exactly where it fell under the column, and that is
+  // now exactly where it is put away (`barUnder`, reader.src.js; updateUiShift), so counting it could only ever cut the article. Its
+  // computed visibility was no guard: `.ng-winbar[data-away]` turns hidden 0.3s late, and a layout inside that delay kept the 41px.
+  // The share cue stays: it shows only on a shared link's arrival, and the column ends above it there.
   _readerReserve(horizontal) {
     let bottom = 0;
-    for (const el of [this.shareCueRef.current, this.wrapRef.current.querySelector(".ng-winbar")]) {
+    for (const el of [this.shareCueRef.current]) {
       if (!el || getComputedStyle(el).visibility === "hidden") continue;
       const box = el.getBoundingClientRect();
       if (box.height && box.top > 0 && box.left < horizontal.right && box.right > horizontal.left)
@@ -17137,13 +17328,13 @@ class Component extends DCLogic {
   /** The one announcer slot, saved and put back — a film borrows it, it does not own it. */
   _evSnapshot() {
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
-    return { k: k ? k.textContent : "", col: k ? k.style.color : "", html: t ? t.innerHTML : "", op: box ? box.style.opacity : "" };
+    return { k: k ? k.textContent : "", col: k ? k.style.color : "", html: t ? t.innerHTML : "", pt: t && t.style ? t.style.paddingTop : "", op: box ? box.style.opacity : "" };
   }
   _restoreEvent(s) {
     if (!s) return;
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
     if (k) { k.textContent = s.k; k.style.color = s.col; }
-    if (t) t.innerHTML = s.html;
+    if (t) { t.innerHTML = s.html; if (t.style) t.style.paddingTop = s.pt || ""; }
     if (box) box.style.opacity = s.op;
   }
   /**
@@ -18093,6 +18284,56 @@ class Component extends DCLogic {
     this._landPending = false;
     this.fx("land_q_declined", { deckKey: q.key || null, reason: reason || null });
   }
+  // SHORT1 (owner, 11 Nov: half of all cards need a scroll for their last answer, and reaching for an answer by scrolling
+  // must never decline, expire or skip a question the player has taken up). Where does a TAKEN-UP, still open question
+  // stand? null when there is none (asking, answered, a reading arrival, a hidden card); else `on` (its card meets the
+  // reader's visible box) and `all` (every answer it shows lies wholly inside it). The reader asks this when a finger or
+  // a wheel starts a scroll on the ARTICLE (reader.src.js, readingInteraction): with the card on screen and an answer
+  // out of view, that scroll is the player reaching for it, not reading. Until v1.262.3 it was reading at touch-down,
+  // so it declined the question, dropped its clock and paused the game. Measured on a real roll from "/", by touch, on
+  // the preview (v1.259.1) and production (v1.252.0) at 390x631, 360x640, 375x667 and 390x844: overshoot the card so its
+  // first answers go above the top and the article fills the bottom, then drag back from the article: declined every
+  // time (since v1.236.0, U47 d; before it every question declined so). With every answer in view the same scroll is
+  // reading and declines as before, "a free pause, not a loss" (reading-mode.spec.ts). Both the landing and a catch's
+  // drill build their answers as the last child of `[data-land-q]`. No height = not laid out: SKIP, never a verdict.
+  _landView() {
+    const q = this._landQ, el = this._landEl;
+    if (!q || q.answered || this._landAsk || this._readerIntent || !el || !el.isConnected || this._landHidden()) return null;
+    const r = el.getBoundingClientRect();
+    if (!(r.height > 0)) return { on: true, all: false };
+    const v = this._reader ? this._reader.root.getBoundingClientRect() : null;
+    const top = Math.max(0, v ? v.top : 0), bot = Math.min(innerHeight, v ? v.bottom : innerHeight);
+    const ans = [...(el.querySelector("[data-land-q]")?.lastElementChild?.querySelectorAll("button") || [])].filter((b) => b.getClientRects().length);
+    return { on: r.bottom > top && r.top < bot, all: ans.every((b) => { const a = b.getBoundingClientRect(); return a.top >= top - 0.5 && a.bottom <= bot + 0.5; }) };
+  }
+  // SHORT1: the reader asks this (`_rch`) when a wheel, touch or pen scroll starts on the article. True = the player is reaching for
+  // an answer out of view on a card still on screen: not reading, so no decline, no pause, and the clock runs. The reach is
+  // then judged where it goes (`_reachTick`). A press on the game ends it: that is the player's own scroll, which never
+  // declines, so a reach can never turn a later scroll begun on the card into a decline. Its lifters: that press, the
+  // question resolving, a new question, and the card leaving the screen.
+  _rch() { // the reach; four letters because the reader's call of it is paid for in capped deferred bytes
+    const v = this._landView(), R = this._reader;
+    if (!v || !v.on || v.all) return false;
+    this._rq = this._landQ;
+    if (R && !this._rqLift) {
+      this._rqLift = true;
+      for (const t of ["touchstart", "pointerdown", "wheel"])
+        R.root.addEventListener(t, (e) => { if (e.composedPath().includes(R.game)) this._rq = null; }, { passive: true, capture: true });
+    }
+    return true;
+  }
+  // Every frame (`_tickDecision`) while a reach is open: once its card has left the screen, the reach is the scroll a press on
+  // the article always was, and the question is declined, free, as before (a question that does not face you must not
+  // expire). The reader is not switched to reading mid-scroll: its layout would move under the finger; the next press on the
+  // article reads, as ever. A scroll begun on the game is untouched: it never declines, so a question it carries off the
+  // screen can still expire there (measured at 390x631 on v1.259.1 and production v1.252.0). That rule is not this fix's.
+  _reachTick() {
+    const q = this._rq;
+    if (q !== this._landQ || q.answered) { this._rq = null; return; }
+    if (this._landView()?.on) return;
+    this._rq = null;
+    this._declineLandQ("reading");
+  }
   _expireLandQ() {
     this._disarmLandClock();
     this._readerGraded();
@@ -18169,6 +18410,7 @@ class Component extends DCLogic {
   // sites and the ~5s frame-loop age-out — retired in v1.218.0: no outcome writes the announcer
   // any more, and a card hit cannot pin, it is gone in ~1.3s of wall clock.)
   _tickDecision(gdt) {
+    if (this._rq) this._reachTick(); // SHORT1
     if (this._readerIntent) return;
     // Only a scroll leaves the reader interacting with a question still pending: every other
     // reading gesture declined it as it happened (reader.src.js readingInteraction).

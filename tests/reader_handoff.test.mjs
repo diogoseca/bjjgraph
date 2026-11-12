@@ -102,7 +102,8 @@ function fixture(adopted = true) {
   globalThis.window = { innerWidth: 390, innerHeight: 844 };
   globalThis.getComputedStyle = el => el.style;
   const a = new Component({}), r = a._reader = Object.create(Reader.prototype);
-  Object.assign(r, { app: a, path: "/Positions/Mount/Bottom", gameTop: 180, gameHomes: new Map(),
+  // HIDESEC2: noticeMap is a constructor field (a closed part's messages), so a reader built without its constructor names it, as gameHomes.
+  Object.assign(r, { app: a, path: "/Positions/Mount/Bottom", gameTop: 180, gameHomes: new Map(), noticeMap: new Map(),
     resize: { observe() {}, unobserve() {} }, on: part => part !== "book" });
   r.root = node({ top: "68px", height: "682px" }); r.root.scrollTop = 50;
   r.root.getBoundingClientRect = () => ({ top: +parseFloat(r.root.style.top), bottom: 750 });

@@ -9,17 +9,20 @@ export async function ngInstallSettingsPresentation(target, dependencies) {
   const attempt = target._settingsPresentationAttempt;
   const { SECTION_TYPES, sectionShown } = await import(target._appAsset("reader.js") + (attempt > 1 ? "&retry=" + attempt : ""));
   if (target.__ngDestroyed || !target._progressCurrent()) throw new Error("Settings owner changed");
-  const { NG_SETTINGS_TABS, NG_START_FROM } = dependencies;
+  // The tab list is `this._settingsTabs`, chosen by `openSettings` for each opening (NG_DIGEST_LIVE,
+  // app.src.jsx). renderSettings reads it once and hands the same list to the row's arrow keys, so
+  // the keys walk exactly the tabs that were drawn and never land on one this opening hides.
+  const { NG_START_FROM, NG_DIGEST_LIVE } = dependencies;
   const sectionStyle = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
   const methods = {
-_settingsTabRow(row, tab, refocus) {
+_settingsTabRow(row, tab, refocus, tabs) {
     const go = (id) => { if (id !== this._settingsTab) { this._settingsTab = id; this.renderSettings(); } };
     row.addEventListener("click", (e) => { const b = e.target.closest("[data-settings-tab]"); if (b) go(b.getAttribute("data-settings-tab")); });
     row.addEventListener("keydown", (e) => {
-      const n = NG_SETTINGS_TABS.length, at = NG_SETTINGS_TABS.findIndex((t) => t[0] === tab);
+      const n = tabs.length, at = tabs.findIndex((t) => t[0] === tab);
       const to = { ArrowRight: at + 1, ArrowLeft: at + n - 1, Home: 0, End: n - 1 }[e.key];
       if (to === undefined) return;
-      e.preventDefault(); e.stopPropagation(); go(NG_SETTINGS_TABS[to % n][0]);
+      e.preventDefault(); e.stopPropagation(); go(tabs[to % n][0]);
     });
     row.addEventListener("wheel", (e) => {
       if (row.scrollWidth <= row.clientWidth || Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
@@ -47,7 +50,7 @@ _settingsTabRow(row, tab, refocus) {
 renderSettings() {
     const card = this.modalCardRef.current; if (!card) return;
     card.style.width = "min(440px,92vw)";
-    const tab = this._settingsTab || "flashcards";
+    const tab = this._settingsTab || "flashcards", tabs = this._settingsTabs;
     // A bottom-row toggle must stay under the pointer after its full-card repaint.
     // A different tab starts at its own top; only the same panel keeps its scroll.
     const previous = card.querySelector('[role="tabpanel"]');
@@ -71,11 +74,11 @@ renderSettings() {
       // past the labels (helmet.html `.ng-stabs`). The mask would fade a hairline drawn on the row
       // itself, so the line lives one level up.
       '<div style="margin-top:2px;border-bottom:1px solid rgba(150,170,210,.12);"><div class="ng-stabs" role="tablist" aria-label="Settings sections" data-settings-tabs>' +
-        NG_SETTINGS_TABS.map(([id, label]) => '<button type="button" role="tab" class="ng-stab" id="ng-stab-' + id + '" data-settings-tab="' + id + '" aria-controls="ng-stab-panel" aria-selected="' + (id === tab) + '" tabindex="' + (id === tab ? 0 : -1) + '" style="pointer-events:auto;"><span>' + label + '</span></button>').join("") +
+        tabs.map(([id, label]) => '<button type="button" role="tab" class="ng-stab" id="ng-stab-' + id + '" data-settings-tab="' + id + '" aria-controls="ng-stab-panel" aria-selected="' + (id === tab) + '" tabindex="' + (id === tab ? 0 : -1) + '" style="pointer-events:auto;"><span>' + label + '</span></button>').join("") +
       '</div></div>';
     head.querySelector(".x").addEventListener("click", () => this.closeModal());
     card.appendChild(head);
-    this._settingsTabRow(head.querySelector("[data-settings-tabs]"), tab, refocus);
+    this._settingsTabRow(head.querySelector("[data-settings-tabs]"), tab, refocus, tabs);
 
     const body = document.createElement("div");
     body.id = "ng-stab-panel"; body.setAttribute("role", "tabpanel"); body.setAttribute("aria-labelledby", "ng-stab-" + tab);
@@ -150,9 +153,16 @@ renderSettings() {
         // The KEY MUST STAY `emailDigest` — the digest Worker selects rows on
         // `neural->settings->>emailDigest=eq.true`, so renaming it here would read to every
         // opted-in user as a silent unsubscribe, with nothing anywhere going red.
+        // NOT LIVE YET (NG_DIGEST_LIVE, app.src.jsx; owner U139 a): a signed-in player reaches this
+        // row only with the setting already on, and the row says, in plain words, that nothing is
+        // mailed. The sentence goes with the flag; flipped, the row reads as it did in v1.259.1.
         const wrap = document.createElement("div");
         wrap.setAttribute("data-digest-setting", "1");
-        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to " + (this.user.email || "your account email") + ".",
+        // THE ADDRESS IS MARKED (v1.261.2): the app's NG_NO_CAPTURE note (app.src.jsx) says why. `_addressMarkup` (eager, app.src.jsx)
+        // puts it in its own `ph-no-capture` span, so the line around it stays readable to analytics and the replay records the address
+        // as an empty box. It is built in the app, not here: this deferred set is at its ceiling, and the call is shorter than the address
+        // expression it replaces.
+        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to " + this._addressMarkup() + "." + (NG_DIGEST_LIVE ? "" : " No email is being sent yet."),
           [["On", true], ["Off", false]], "emailDigest", false));
         const beta = document.createElement("span");
         beta.textContent = "Beta";
@@ -161,7 +171,9 @@ renderSettings() {
         wrap.appendChild(beta);
         body.appendChild(wrap);
       } else {
-        // an empty tab reads as broken; a dead toggle reads as a lie. One line of why.
+        // an empty tab reads as broken; a dead toggle reads as a lie. One line of why. Reached only
+        // while the email is live (NG_DIGEST_LIVE): until then a guest gets no Notifications tab, since
+        // this line would send them to sign in for a switch that signing in does not offer.
         const note = document.createElement("div");
         note.setAttribute("data-notif-signedout", "1");
         note.style.cssText = "font-size:12.5px;line-height:1.6;color:#93a0bd;padding:2px 0 4px;";
@@ -291,14 +303,18 @@ renderSettings() {
       // here so the state is discoverable when every handle is collapsed. Same ✓ box as above.
       const lay = document.createElement("div");
       lay.style.cssText = sectionStyle;
-      lay.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Bottom of the screen</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Each row has its own ✕ on the board; the small glyphs at the bottom bring one back. Your choice sticks across states and devices.</div>';
+      lay.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Bottom of the screen</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Each part has its own ✕ on the board, and this is where a hidden part comes back. Your choice sticks across states and devices.</div>';
       const LAYER_ROWS = [
         ["film", "Videos during play", "The current node's videos while playing."],
         ["card", "Question card", "Off = no card and no question. (Turning questions off above keeps the card.)"],
         ["hand", "Your moves", "The hand of moves, escapes included. Off = the roll waits until you show them."],
       ];
       for (const [name, title, sub] of LAYER_ROWS) {
-        const on = name === "film" ? this.get("landFilm", true) : this._layerOn(name);
+        // HIDESEC2: this row wrote landFilm, which nothing reads once the reader is up (D-338 moved the film under the Video section's
+        // setting), so it switched nothing (measured live, 2026-11-11: the film stayed). It now reads and writes that one setting, the
+        // one the film's ✕ writes, as the Article sections' Video box does. No key is added (§6.6: landFilm is kept, unread here).
+        const film = name === "film" && this._reader;
+        const on = film ? this.get("readerSection.videos", true) !== false : name === "film" ? this.get("landFilm", true) : this._layerOn(name);
         const r = document.createElement("div");
         r.setAttribute("data-layer-row", name);
         r.style.cssText = "display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-top:12px;";
@@ -309,7 +325,10 @@ renderSettings() {
         rb.innerHTML = on ? "✓" : "";
         rb.style.cssText = "flex:none;margin-top:2px;width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (on ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (on ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
         rb.addEventListener("click", () => {
-          if (name === "film") { this.set("landFilm", !this.get("landFilm", true)); this._applyLayers(); }
+          // #372's review (D2): turning the video back on is the player's own input, so it settles a pinned landing (D-354 N2), as the
+          // section's own reopen does; on a pinned landing the film's place stayed empty until the next grade.
+          if (film) { if (!on) this._readerGraded(); this.set("readerSection.videos", !on); this._reader.sync(); }
+          else if (name === "film") { this.set("landFilm", !this.get("landFilm", true)); this._applyLayers(); }
           else this.setLayer(name, !this._layerOn(name), "settings");
           this.renderSettings();
         });
@@ -318,17 +337,27 @@ renderSettings() {
       body.appendChild(lay);
       const sections = document.createElement("section");
       sections.setAttribute("data-section-settings", "");
-      sections.innerHTML = '<h3 style="font-size:15px;color:#eef1f6;margin:0 0 6px;">Article sections</h3><p style="font-size:12.5px;color:#b6c5df;">Shown where available. Your choices carry across pages and sync when signed in.</p>';
+      sections.innerHTML = '<h3 style="font-size:15px;color:#eef1f6;margin:0 0 6px;">Article sections</h3><p style="font-size:12.5px;color:#b6c5df;">Shown where available. A section you hide with its ✕ comes back here. Your choices carry across pages and sync when signed in.</p>';
       for (const [type, title] of SECTION_TYPES) {
         const row = document.createElement("label"), input = document.createElement("input");
         row.style.cssText = "display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:44px;color:#dfe5f1;font-size:13px;";
         row.append(document.createTextNode(title)); input.type = "checkbox"; input.checked = sectionShown(this, type);
         input.setAttribute("data-section-setting", type); input.setAttribute("aria-label", "Show " + title);
         input.style.cssText = "width:20px;height:20px;cursor:pointer;";
-        input.addEventListener("change", () => { this.set("readerSection." + type, input.checked); this._reader?.sync(); });
+        input.addEventListener("change", () => { if (type === "videos" && input.checked) this._readerGraded(); this.set("readerSection." + type, input.checked); this._reader?.sync(); });
         row.append(input); sections.append(row);
       }
       body.appendChild(sections);
+      // HIDESEC2: a closed part's message (reader.src.js notice) opens Settings here, at that part's own switch: scrolled to the middle,
+      // focused and outlined. Read once, so the redraw a toggle makes does not jump back. The video's is Videos during play.
+      const aim = this._settingsAim; this._settingsAim = null;
+      const aimed = aim && (body.querySelector('[data-layer-toggle="' + (aim === "videos" ? "film" : aim) + '"]') || body.querySelector('[data-section-setting="' + aim + '"]'));
+      if (aimed) requestAnimationFrame(() => {
+        const row = aimed.closest("[data-layer-row],label");
+        row.setAttribute("data-settings-aimed", "");
+        row.style.outline = "2px solid rgba(110,160,255,.7)"; row.style.outlineOffset = "4px"; row.style.borderRadius = "8px";
+        aimed.scrollIntoView({ block: "center" }); aimed.focus({ preventScroll: true });
+      });
       body.appendChild(this.settingRow("Sound", "Synthesized feedback on every gameplay beat",
         [["On", "on"], ["Off", "off"]], "sound", "on"));
       body.appendChild(this.settingRow("Sound volume", "How loud the beats land",

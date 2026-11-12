@@ -110,11 +110,19 @@
 .ng-choice-card[data-asking] .ng-choice-watch { top:46px; }
 /* touch: the strip grows to a 44px target and the film button steps up out of its way */
 @media (pointer:coarse) { .ng-choice-grade { top:86px; height:44px; gap:4px; padding:0 4px 0 7px; font-size:10px; } .ng-choice-grade > span { min-width:0; overflow:hidden; text-overflow:ellipsis; } .ng-choice-card .ng-choice-grade button { height:44px; min-width:44px; padding:7px 4px; background-clip:content-box; } .ng-choice-card[data-asking] .ng-choice-watch { top:40px; } }
-/* the eye beside "Your moves" (U121): 44 wide and 40 tall — the whole free band, the row's 8px padding above the 24px
-   line and the 8px gap below it. Taller would be clipped by the row above or would sit over card 1's top edge (a
-   press stolen from the card). Negative margins keep the line at 24px. No transition; gold and slashed while hidden. */
-.ng-hide-eye { pointer-events:auto; cursor:pointer; border:0; background:none; color:#bdcce4; display:inline-grid; place-items:center; flex:none; min-width:44px; min-height:40px; margin:-8px 0 -8px 2px; padding:0; }
-.ng-hide-eye[aria-pressed=true] { color:#e8c46a; }
-.ng-hide-eye:focus-visible { outline:2px solid #c5d6ff; outline-offset:-8px; }
+/* THE SWITCH beside "Your moves" (v1.258.0, the owner's pick d; U121's eye before it): one word, "· Hidden" / "· Shown",
+   in the title's own type at full strength, a dotted underline marking it as a press. 40px tall: the whole free band,
+   the row's 8px padding above the 24px line and the 8px gap below it; taller would be clipped by the row above or sit
+   over card 1's top edge (a press stolen from the card). Negative margins keep the line at 24px. The word's box reserves
+   "Hidden" (::after, height 0), the wider word, so a press moves nothing beside it; the underline is on the word alone.
+   No transition. */
+.ng-hide-switch { pointer-events:auto; cursor:pointer; border:0; background:none; font:inherit; letter-spacing:inherit; color:inherit; display:inline-flex; align-items:center; gap:4px; flex:none; min-width:44px; min-height:40px; margin:-8px 0; padding:0 4px; }
+.ng-hide-word { display:inline-flex; flex-direction:column; }
+.ng-hide-word::after { content:"Hidden"; height:0; overflow:hidden; visibility:hidden; }
+.ng-hide-word > span, .ng-value-press-word { text-decoration:underline dotted color-mix(in srgb, currentColor 60%, transparent); text-underline-offset:3px; }
+/* THE STATUS SLOT's one press (v1.258.0, s2): "Sort by win chance" or "Retry" after the status, in the status's own quiet
+   type (regular, no tracking), the same dotted underline; the same 40px band and negative margins as the switch. */
+.ng-value-press { pointer-events:auto; cursor:pointer; border:0; background:none; flex:none; font:inherit; font-weight:400; letter-spacing:0; color:inherit; white-space:nowrap; min-width:44px; min-height:40px; margin:-8px 0 -8px -4px; padding:0 4px; }
+.ng-hide-switch:focus-visible, .ng-value-press:focus-visible { outline:2px solid #c5d6ff; outline-offset:-8px; }
 .ng-hide-hint { margin-left:8px; font-weight:400; letter-spacing:0; color:#8f9cba; }
 @media (prefers-reduced-motion:reduce) { .ng-choice-card[data-hide], .ng-choice-card[data-hide] .ng-choice-watch { transition:none; } .ng-choice-card[data-hover], .ng-choice-card[data-hide] .ng-choice-watch:hover { transform:none; } }

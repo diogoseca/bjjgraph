@@ -29,6 +29,14 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.262.9** — [Four journeys wait on their own claims, not on a sleep](#v12629--four-journeys-wait-on-their-own-claims-not-on-a-sleep-flaky1-2026-11-12)
+- **v1.262.7** — [`advanceUntil` asks for its beat in the page](#v12627--advanceuntil-asks-for-its-beat-in-the-page-gate3-2026-11-12)
+- **v1.262.4** — [The harness loads every deck in one trip](#v12624--the-harness-loads-every-deck-in-one-trip-gate2-2026-11-12)
+- **v1.262.3** — [A scroll that reaches for a taken-up question's answers no longer declines it](#v12623--a-scroll-that-reaches-for-a-taken-up-questions-answers-no-longer-declines-it-short1-2026-11-12)
+- **v1.262.2** — [The planner retry test waits on its own claims](#v12622--the-planner-retry-test-waits-on-its-own-claims-race1-2026-11-12)
+- **v1.261.2** — [A signed-in player's name, initial and address never reach analytics](#v12612--a-signed-in-players-name-initial-and-address-never-reach-analytics-mask1-to-mask3-2026-11-12)
+- **v1.261.0** — [Practice opens inside the drawer, at the drawer's width, as Path does](#v12610--practice-opens-inside-the-drawer-at-the-drawers-width-as-path-does-owner-u135-a-pract1-and-pract2-2026-11-12)
+- **v1.260.0** — [The first ✕ on an open question folds it back to its one line](#v12600--the-first--on-an-open-question-folds-it-back-to-its-one-line-owner-u136-a-fold1-2026-11-11)
 - **v1.257.0** — [Search shows the best match first](#v12570--search-shows-the-best-match-first-one-ranked-list-each-submission-family-one-row-both-seats-on-every-position-owner-u132-c-search1-and-search2-2026-11-11)
 - **v1.256.7** — [A hidden move turns up the moment the pointer is on it, and the row is titled "Your moves"](#v12567--a-hidden-move-turns-up-the-moment-the-pointer-is-on-it-and-the-row-is-titled-your-moves-owner-2026-11-11-moves1)
 - **v1.256.6** — [A tap on Practice gets its plan](#v12566--a-tap-on-practice-gets-its-plan-the-press-guard-no-longer-waits-on-a-finger-practicetap-tap1-2026-11-11)
@@ -15269,6 +15277,564 @@ Medians over 10 entries on "Americana from Mount" (card 2 of 18; 8 of the 18 own
 **The independent review** (read-only, at cc156e002: merge with follow-ups, four before merge). **D1:** Enter in the box pressed the first result, and when that is a folded family the press TOGGLES it, so "guillotine" (and armbar, triangle, kimura, rnc) shut the open family and opened nothing; the family header now carries its best start and Enter opens that. **D2:** the canonical key ("no from-tail first") ran across every submission, and every family start is titled "X from Y", so the five stand-alone submissions outranked every family ("choke" opened on Invisible Collar Choke and Buggy Choke, importance 0, above Rear Naked Choke; "lock" on Wrist Lock and Carni Shoulder Lock); the key is now for transitions only, where it means a named move before the generic "X from Y". **D2b:** kind came before exactness, so "triangle escape" put Triangle Escape Position above the transition named exactly that; an exact name of any kind now leads band 0, then an exact nickname. The fuller reading, every exactness tier before kind, was not taken: "guard" would then list "Guard Pull" and "Guard Retention" above Half Guard and Closed Guard. **D3:** an IntersectionObserver entry queued before a keystroke could still append the old query's rows; a page now draws only while it is the live one, and a cleared query stops it. Also said at the code: typo matching is always on ("crank" lists two Crackhead Control rows last), and a letter outside a–z after the accent strip (ß, ø, CJK) folds to a break (the corpus has only the ã of Mata Leão, which folds). Tests the review listed: Enter on a family-first result; stand-alone against family submissions; an exact transition against a longer position; a ruleset switch (unit and journey); late aliases; every result reachable (rows drawn plus each family's count equal the header after scrolling to the end); the "N starts" count; seats on a second position; the dual-consumers count read from the header, not the first child. Unit mutants U1–U4 killed; the journey's mutants are in its header.
 
 **Bytes.** `neural.js` +8,352 B raw, +2,871 B gzip over dev's own. Eager set 349,940 B gzip (+2,946 over dev's v1.256.2 level of 346,994; +1,252 over the accepted 348,688, cap 5,000); first-hand core 369,302 B (+4,006 over the accepted 365,296, cap 6,000); both in the warn band, as on dev. No baseline moved; the build fingerprint's app rows re-seeded (app-only, no capture).
+
+## v1.258.0 — "Your moves · Hidden": the switch is a word, and the status is one quiet slot (the owner's pick d on U130 and his note on it; the orchestrator's call d + s2, TOGGLE3, 2026-11-11)
+
+**What he asked.** Of the eye beside "Your moves" (U121, v1.255.0): "i want to see variants for this button … maybe have it be a (Hidden | Revealed) with 50% transparency and same font, size, color as 'Your move' … please suggest." Then, on the variants: "'calculating win chances' shouldn't come into conflict with 'sort by win chances' … It should only show as a replacement for 'calculating win chances' and should say 'sorted by win chances'." He picked d; the orchestrator chose s2 for the slot under the owner's design rule.
+
+**The switch (d).** One word after the title, "· Hidden" / "· Shown", in the title's own type at full strength with a dotted underline as its press cue. Measured on the real map (hidetoggle round 1, ink composited over the pixels behind it, median background #1a1a2e): the title colour is 6.5:1; the same colour at 75% is 4.2:1 and at 50% 2.6:1, both below 4.5:1 for 10 px text — which is why the owner's "Hidden | Revealed" at 50% was shot and not shipped. The word's box reserves "Hidden" (`::after`), so a press moves nothing beside it (Shown is 2.6 px narrower). The state is in the name ("Moves hidden" / "Moves shown"), not in aria-pressed. Renamed with it: `_hideEye` → `_hideSwitch`, `_paintEye` → `_paintHideSwitch`, `data-hide-eye` → `data-hide-switch`, `.ng-hide-eye` → `.ng-hide-switch` (surveyed in full: the app, its CSS and 11 spec references, nothing in docs).
+
+**The slot (s2).** `_paintValueSlot`: "Preparing…" / "Calculating…" / "Updating win chances…", then "Sorted by win chance" when the hand stands in its ranking, a "Sort by win chance" press when it does not, and "Win chance unavailable · Retry" for a failed load. The bold "Sort by win chance" and "Retry win chances" buttons are gone. "Sorted" is asked of `ngChoiceValueOrder`'s `ranked` flag (the ranking or null), never read off "the order came back unchanged": `ngChoiceValueOrder` returns the dealt order for a hand it cannot rank, and the slot would have stated a sort that never happened. Wording: "Sorted by win chance", singular (you sort by one measure) beside "Calculating win chances…" (plural numbers).
+
+**What the code showed before the change.** Sort and "Calculating…" could never show together: while anything is pending every card is pending, so no order exists. The round-1 strip that showed them side by side was staged on purpose to measure the worst width (and said so only afterwards). Sort showed only after the values landed on a hand the player had touched first.
+
+**The finding fixed here.** The switch and Retry sit in the title row inside the tray, whose capture listeners latch `_handTouched` on pointerdown, key, focus and wheel — so a Hidden/Shown press or a Retry before the values landed stopped the hand sorting itself (measured by real taps in round 2). The latch now skips those three event kinds on `[data-hide-switch]` and `[data-choice-value-press]`; a wheel anywhere still counts, and any press in the hand still freezes it.
+
+**Where it appears.** Mount, the escape tray (two cards, a 357 px row) and a submission's hand all read "Your moves · Shown", then "Sorted by win chance". At 390 the widest slot ("Win chance unavailable · Retry") ends at 289 px against the ✕ at 362; at 1440 by 513 against 1176.
+
+**Specs moved.** Every eye and bold-button claim moved to the word and the slot; each changed assertion says, at its spec, what it claimed before (`hidden-moves`, `choice-value`, `game-value-live`, `game-value-fetch-retry`). New: no shift on a press; the 390 row clear of the ✕ in every widest slot state; a word press before the values land leaves the hand sorting itself; the screen-reader names; the unit `ranked` flag.
+
+**Mutants, 13, all killed at their named tests with the claim's own message.** The eye's six, re-aimed at the word: not wired · not repainted on a switch · a 24px target · a 44px target over card 1's edge · a transition · the face-up set kept across off and on. New: no reserved width (the slot moves) · the slot under the ✕ at 390 · a title press freezing the hand again · the word unnamed · Retry not named in full · s1's shape (no sort offered, "Sorted" said of an unsorted hand) · the `ranked` flag handing back the dealt order (unit). One was first run too weak and is recorded so nobody reads its first verdict: the slot pushed +84 px landed exactly on the ✕'s edge in the harness (its Retry line ends at 278 px there, 289 in the real app), 362 <= 362, touching and not overlapping; +100 px is red (378 against 362). **Non-kills, recorded at the specs:** the word's own pointerdown stop (as the eye's: the row already keeps its presses from the map); the app asking without the `ranked` flag, which no journey can see because the only ready-but-unrankable hand is a certified value straddling a display bin and the fixture is exact-rational (the helper itself is pinned by the unit test).
+
+**Neural.md's ceiling, kept.** dev sat at 74,013 of 74,017 characters, so the doc's new lines (the word, the touch exception, the slot) paid for themselves by moving history into this entry: "no dwell since v1.256.7" (the hover paragraph), and the version tags v1.207.0 (§4's heading), v1.213.0 (the Works print), v1.232.0 (U36) and v1.236.0 (U47 d + U52 b). No ceiling moved.
+
+**Bytes.** Eager 347,137 B (−1,551 B against 348,688; dev v1.256.2 measured 346,994, so movesrow's change and this one add 143 B together). First-hand core 366,549 B (+1,253 B against 365,296, cap 6,000). Deferred 505,644 of 505,645 B: the ranking first cost choice-values.js 98 B as its own export (PR #373 red); as a flag it costs 10. App rows re-seeded twice (`validate:build-shape:app`), on the builds merged with dev 3ef5f0757 and 9cc438017: neural.js +46 B and neural.css +546 B raw against dev's rows, choice-values.js +98 B. No baseline moved.
+
+**Where it was checked.** Real input on the dev server at 390 and 1440, shown and hidden (`tests/artifacts/_hidetoggle_ship_shoot.mjs`): every slot state, a word press before the values land (the hand still sorts itself), a real Retry (likewise). Screens `artifacts/briefing/img/hidetoggle/60-…` to `66-…`.
+
+## v1.259.0 — A closed part leaves only its message, in place (owner U131 b2, HIDESEC1-2, 2026-11-11)
+
+**The ask.** The owner, on the dev preview right after reporting the empty space under a closed question: "it should rather be instead of an eye or eye slahed icon a toggle like an expandable toggle [+] or [-] ... or have them in the settings (and show a fading message in the top, right of the open drawer icon or inplace like section hidden - you will be able to show it again in the settings) ... show me the UI/UX of variants". HIDESEC1 built four for real on local branches (a: [−]/[+] header lines; b1: Settings own it, the message at the top; b2: the same, the message in place; c not built, since Settings already shares each part's setting with its control) and shot them at 390, 574 and 1440. I recommended a; he picked b2 (U131), with a note: "This is also valid for other sections that are closed, by the way, not just questions, and the name of the section should be bold or some other style to differentiate it from the other text in the sentence otherwise it looks weird sometimes."
+
+**Two corrections the inventory found.** No dock glyph exists at any width once the reader loads (`_renderLayerDock` returns early); the index row does that job at 1440. And Settings' "Videos during play" wrote `landFilm`, which the reader stopped reading at D-338, so it switched nothing (measured live: the film stayed). It now writes `readerSection.videos`, the setting the film's ✕ writes; no key is added (§6.6).
+
+**What ships.** Moves, Questions, the video and every article section close with their own ✕ and leave nothing: no label, no "Hidden sections" fold. For five seconds a message stands in the part's place ("**Questions** hidden. You can show it again in Settings.": the name bold and white in a label-grey sentence, "Settings" a press that opens Settings > Rolling at that part's own switch, scrolled to the middle, focused and outlined, and Undo). One message per part, each in its own place; the video's message holds the film's place in the stage (`layoutNow`: the film's home, width and column, at the message's height). A part a background tap took away for one landing keeps its label, since no switch brings a one-landing hide back. At 1440 the index row still reopens a part. The fold's code is deleted: a closed section stays where it is, hidden, so nothing moves on a close; that also retires the Safari/Firefox closed-row fallback and the D-501 concern (a moved iframe ancestor reloads its player).
+
+**The press rule.** HIDESEC1 measured b2's first build: when the message left, what stood under it moved up a line, and a press aimed at Undo landed on the moved neighbour (the film's ✕ at both widths). The claim now: a press aimed at a message never lands on something else. (1) A message never leaves while a mouse is over it, a pointer is down on it, or a key put focus in it. (2) Leaving, it fades (none under reduced motion) and its controls go inert, but its place keeps its height and takes a press itself, which brings it back. (3) The places close only once every message has gone quiet, in one step, so no message moves while another stands. (4) For 400 ms after they close, a press starting inside a closed place is swallowed whole at window capture (down, up, the touch's own events and the click). Measured by the spec at each moment, by mouse at 1440 and by touch at 390 (reduced motion): at the leave moment the press lands on the message; just after the places close it reaches nothing; 700 ms later the same press reaches what moved there (the control).
+
+**Two defects the journeys found.** A method named `held` (is a message held?) was overwritten by the reader's held line, `this.held`, assigned during a pane slide; minified, every leave threw "this.a is not a function" and a message stood forever with Explore open. Renamed `noticeHeld`. And a tap's click lands on the button under it, so a tap on a leaving message's place focused Undo (whose action the ghost-press guard correctly refused), and the focus hold never lifted on a phone. Focus holds only when a key put it there now.
+
+**Journeys.** New `e2e/journeys/hidden-sections.spec.ts`, 6 tests. Rewritten to the new rule, each changed assertion with a WAS/NOW note at the code: article-sections (the closed label's 44px "Show" line and 7:1 contrast carried to the message; the phone focus after a close is the reader), index-reveal (a section reads closed by its body: its tile holds the message), article-dashboard (claims about what a close leaves are read once the message has gone; Training reopens from its one Settings box; the film from its message's Undo), article-grid, article-order, reading-navigation (the keyboard road is Settings, Tab, Undo, Enter), reading-media-placement, reading-mode (after a reload nothing is left in the flow; the keyboard reopens from the Settings switch), section-divider, reading-contract, land-layers, ask-line, defending-landing. Retired with its subject: "#346 review, finding 2" (column margins carried into Hidden sections).
+
+**Mutants** (`tests/artifacts/article_sections_mutants.mjs`, private config, after a heavy-advisory GO, each against a green baseline of its own spec and grep): 41 run, 41 killed at their own assertion (the two card-close-gap rows, the free-roam row and the review's ten are named below; the review's D2 control survived 2 runs in 4 until its journey stopped pumping the game clock while it waited, then was killed 3 runs in 3). New, one per claim: hidesec2-label-left, -name-not-bold, -name-same-light, -video-not-in-place, -video-under-article, -undo-dead, -undo-dead-keyboard, -settings-unaimed, -settings-aim-ignored (the Settings bundle, as text: a sixth field the runner now takes), -no-hover-hold, -leaving-place-passes-presses, -no-shield (touch), -no-shield-mouse, -touch-focus-holds, -places-close-apart, -one-message-only, -dead-switch. Retargeted and killed: d338-open-part-keeps-header, collapsed-contrast and game-collapsed-contrast (to the message), d501-card-moved (was d501-card-insert-before: no tile moves on a close now), columns-close-reorders, training-closed-stays, hold-closed-line; still killed unchanged: collapsed-body-still-visible, game-label-control-broken, index-reveal-lost, u104-label-under-article. Three first passes did not count and were fixed in the spec, not the runner: -touch-focus-holds and -places-close-apart failed only as a timeout or a TypeError, and u104 was masked by the message's raised plane (now a no-overlap check). Retired with their subjects, as comments that say why: d482-hidden-row-inert, question-label-does-nothing, d338-closed-label-boxed, closed-tile-keeps-column-margin, training-closed-rows, training-head-not-back; hidesec2-fold-back was dropped before it ran (the fold is deleted).
+
+**One claim loosened, stated at the code.** article-dashboard's "a held line whose tile closes is let go": with the fold gone the place sat at the article's very end, and the held line (U59 c) put the reader 29px above the new end with that line 0.03px from where it was. The claim now takes the held line as an alternative to the scroll position; hold-closed-line still kills it (reader thrown to 522).
+
+**The pin the close found.** Rewriting card-close-gap (merged as v1.256.3 while this was in review) found a latent D-351 pin: _readerHold settles a pinned landing on "the card closed" only while the card still exists, and the ✕ removes it first, so on a landing the hold had pinned (the article later than 800ms) the pin kept the old card top and the message, then the film, stood 4px into Moves' band at 1440. The card's ✕ settles the pin now (reader.src.js, in the setLayer hook); card-close-gap's new "pinned" journey holds the article 1.5s to pin the landing on purpose; hidesec2-card-close-keeps-pin and cardgap-film-first-line (cardgap's hand-run mutant, now a runner row) are both killed. Its next-landing step waits for the hand's publication: it measured inside D-351's hold 1 run in 3 at 574x760 by mouse.
+
+**Free roam (#370, merged while this was in review).** `_putReaderAway` hides the reader by visibility alone, so a message standing in it kept its timers unseen, and when its place closed the press window would have swallowed a press on the map, visible again under it. The reader wraps `_putReaderAway`: putting the article away drops every message and clears any window. hidden-sections.spec.ts's free-roam journey (390 by touch, 1440 by mouse) pins it; hidesec2-roam-keeps-message is killed at its claim.
+
+**#372's independent review (merge with follow-ups), all fixed before the merge.** D1: a message that went quiet while another stood was never asked again once that other one went (an Undo, a part shown again, a page change), so it stood leaving for good, invisible and taking presses; each message now records its own quiet, and any drop asks the places to close. D2: on a pinned landing, "Videos during play" (and the Article sections' Video box) turned back on left the film's place empty until the next grade; turning the video on now settles the pin, as the section's own reopen does (D-354 N2). D3: Moves' Undo went through `toggle()`, which also restores a landing a map tap took away, so it brought back a card the player had sent away; a game part's Undo now turns on its own layer only. D4: the window's touch listeners were not passive, which made every touch scroll on the page wait for the main thread; they are passive now (a touch event is stopped, never cancelled), and a swallowed press lasts 800 ms at most, so a press whose click never comes (a drag) cannot leave the window armed. D5: the live region is created with the reader, before the first message. D6: on an index page opened in the reader (/Systems, /Positions) several "additional" tiles share one setting; the message took the first tile's name and place, and now takes the pressed tile's. The comment that promised focus to Undo after a mouse close now says what the code does (Undo takes focus only after a key). The two weakened assertions are restored: card-close-gap's film-closed step is the same step within half a pixel with nothing painted between, and reading-navigation asserts again where a mouse close leaves focus (the reader). New journeys, each with a control: the D1 sequence, D2 on a pinned landing, D3 with a map-taken card, D4's passive listeners (read through CDP's listener list) and a swallowed drag, D5, D6 on /Systems, a close by keyboard (Undo focused, focus holding), and no other tile under a standing message (the raised video message's five seconds).
+
+**Bytes.** Boot bundle +0 B (neural.js unchanged by this PR). Deferred set exactly 510,977 B on the build merged with #373 (v1.258.0, f998a1473, which measures 505,644 B on its own): +5,333 B of this PR's (reader.js, reading.css and settings-ui.js; the review's fixes took about 535 B of it). Before the cut it was +6,583 (b2 as prototyped); deleting the fold's code and mangling the message's eleven reader-only names paid part of it (closedRow and hiddenSections left the list; a method named held was renamed noticeHeld, since held is the reader's held line). No honest b2 fit the 507,117 B the owner had approved: measured cumulatively, dropping Settings-at-its-switch, the swallow window, the screen-reader line and the video's place in the stage still left it 1,346 B over, and the next cut was the press rule itself. The owner (11 Nov 2026, briefing answer U134 b) approved up to 512,000 B for the day's fixes; the ceiling (budget_site.json, and NEURAL_TARGET in check_payload_budget.py, which had lagged since v1.255.0) is set to 510,977 B; 1,023 B of the 512,000 are left. The first-hand gate is untouched (nothing new on the boot path).
+
+**RED4: the safety line's two closed-section tests (PR #372, shard 4).** On efb53ed8f `E2E shard 4/4` failed five @curated tests in `safety-line.spec.ts`: "the guide is the last teaching section" on four pages, and "the line opens a closed guide". Stale spec, measured on the own bundle, not read off the diff: the press does close the part. At the failing line the tile holds only its 44px message ("How it works hidden…", "Injury risks hidden…"), and once the message has gone the tile is hidden at 0px. But it never leaves `[data-reader-body]`, and the spec's `openTypes` counted every tile directly in the body, which meant "not in the fold" while a close MOVED its tile into "Hidden sections" (dev's `moveBefore`). Now a tile is open when it and its content are rendered. Both b2 moments are asserted: the content leaves at once, and nothing is left once the message has gone. The guide stays last at each, and the line reopens a guide whose tile is hidden. Under the old form that reopen could not be told from a hidden tile. Five controls in `article_sections_mutants.mjs`, each killed at its own assertion against a green baseline: two of the spec's hand-run controls ported (order-removed, reload-does-not-anchor) and three new (the content stays, the tile stays, the anchor does not reopen). My earlier local runs missed the file because it was not among the area journeys. The survey since: every `e2e/` file that closes or opens a part (the section toggles, the three part ✕s, the Settings switches, `setLayer(`, `readerSection.`, `openTypes`, the retired eye and fold names, the message's own attributes) is 31 journeys and 0 gen specs, 482 tests. Run under the lock on this build: 481 passed. The one red was `legend-search.spec.ts`'s ghost-press premise at 768 by touch. It did not come back in 25 runs alone, and b2 changes nothing on its path: `sync()`'s message code is inert with no message, `app.src.jsx` is dev's, and the touch listeners are passive. In 20 instrumented runs the tap's click reached the Questions label even though the label measures 650px from the tap afterwards, so the premise rides on the click being hit-tested before the reader's next layout frame. Named, not touched.
+
+Screens: `artifacts/briefing/img/hidesec/60-…` onward.
+
+## v1.259.1 — WINBAR1: no Win/Lose bar under the article, and the article runs to the bottom edge (owner, 2026-11-11)
+
+**The report** (dev preview v1.256.2, a window about 574 px wide): "why isnt the article content flowing all the way down? what's the cut off? it seems to have increased! also the win-lose bar shouldn't show for such screens". The cut-off was `_readerReserve`: the bar's top plus one 8 px gap wherever the bar fell under the reader's grid, 41 px at 390x844, 390x631, 574x760 and 768x1024 (the orchestrator's measurement; production v1.252.0 cut 68 to 71 px there, so it had shrunk, not grown, since v1.253.0 dropped the 12 px floor).
+
+**"Such screens", measured, never a width.** The reader publishes `barUnder` from the lane it lays out (the bar's box against the grid's left edge to the right edge); `updateUiShift`, the legend's one writer, puts the bar away (`data-away`, `visibility:hidden`) there while a column is on screen (the map alone keeps it). Measured on this build, pane shut: under at 390, 574, 768, 1024, 1152, 1280 and 1300; clear at 1320 and 1340 (the grid's edge computes to 1,308) and beside the index (from 1,350 px free, where v1.254.0's step-aside for the index is unchanged); clear with the pane open at 1440 (the column moves right; the open drawer covers the bar, as before).
+
+**The reserve no longer counts the bar.** It counted it exactly where the bar is now away, so it could only ever cut. Its computed-visibility guard was no guard: `.ng-winbar[data-away]` turns hidden 0.3 s late, the reader lays out before that and nothing lays it out again — the mutant that puts the bar back in the reserve keeps the 41 px (killed by `winbar-fold`). The share cue stays in the reserve: it shows only on a shared link's arrival.
+
+**The 8 px dock retired** with the reserve it existed to shrink: it docked only a hidden bar, and left the map's key 8 px off the edge after an article. Its two mutants (legend-restore-blank, legend-not-docked) retire with it. It also paid for the new bytes under the deferred ceiling, which v1.256.2 set to dev's exact size.
+
+**The one painter.** `_paintWinThermometer` still paints the bar while it is away, so a resize brings it back with the current decision's number (and `currentWinView`, the film's seat row, keeps reading the same view). Pinned with a move made while away.
+
+**Safe area.** The article's end padding is `calc(30px + env(safe-area-inset-bottom, 0px))`. The page declares no `viewport-fit=cover`, so the inset is 0 today and the browser keeps the page off the home indicator; the term is there for the day the page goes edge to edge. Checked in Chromium only.
+
+**Variants for the owner** (local branches stacked on a, not in the PR): b puts "· 78% win" beside the current node's name on the map while the bar is away (the approved tidier-frame design of 2026-10-16, which was never built); c keeps the bar floating over the article with nothing reserved (one screen, to show why not).
+
+**Contracts replaced, not loosened.** `reader-fold`: "the reader ends one 8 px gap above the win bar" and "the legend docks 8 px off the bottom" become "the bar is away" and "the reader runs to the fold" at 1100, 1024 and 390. `legend-search` at 768: "the win bar stays" becomes "away under the column", measured. `land-layers` (phone): "the phone has bottom controls under the column" and "the article ends above the screen's bottom" become "any visible control under the column is cleared, and with none the article runs to the edge".
+
+**WINBAR2 (the owner's pick, U137 a, 2026-11-11 23:29: "Nothing replaces it; the page runs to the bottom edge").** As built: a laptop between about 1,024 and 1,300 px loses the bar too, and with the drawer open on a desktop the bar stays where it is; b and c stay local branches. Merged #372 (`feat-hidden-sections-b2`, v1.259.0) by merge before it reached dev: conflicts only in the version files, this archive, `article_sections_mutants.mjs` (both sides' rows kept) and `build_fingerprint.json` (#372's, then the app rows re-seeded); `reader.src.js`, `app.src.jsx`, `reading.css` and the shared specs merged clean, and read by hand, nothing of mine asserts a closed part or a label. Free roam (U123, #370) now puts the article away, so the screen is the map alone and the bar comes back there: that half of the rule is now pinned (`legend-search` at 768, control `winbar-away-on-map-alone`, killed). Against #372's own build: `neural.js` +1 B, `reader.js` −106 B, `reading.css` +40 B; deferred 510,911 B under its 510,977 B ceiling, eager gzip 350,325 B; no ceiling or baseline moved.
+
+## v1.260.0 — The first ✕ on an open question folds it back to its one line (owner U136 a, FOLD1, 2026-11-11)
+
+**His answer.** U136 a, 23:29: "Yes: the first ✕ folds it back to the one-line question". The option he read: "A second ✕, on that line, hides Questions with the b2 message. The timer pauses with the time left and carries on when you open it again. An answered card, and every other part, still hides on the first ✕." No note, so a fold pauses the timer (it is not a skip) and later landings start as the one line again. It began as his CARDGAP1 report ("i was expecting it to go back into being a question"), built then as variant b of v1.256.3, a local branch, before b2 (v1.259.0) existed; its two commits were carried over onto a branch from b2.
+
+**What the ✕ does now** (`_landFold`, and the ✕ handler in `_landCardChrome`, app.src.jsx). On an opened card whose question is still open, the ✕ folds it back to the one line, Answer for Points and all. Nothing is declined or graded (`land_q_folded`, no `land_q_declined`); the clock parks with what is left (`q.left`, paging's rule since v1.221.0) and a second take-up resumes that window; the take-up memory (U52 b, `ng-land-opted-in`) is cleared, so later landings ask with the line. A fold hides nothing, so b2's message is not raised: the fold never calls `setLayer`, and b2 raises its message from `setLayer`'s "x". On the line, on an answered or timed-out card, or with no question, `_landFold` returns false and the ✕ is b2's hide, unchanged: the message stands where the line was, with Settings and Undo. No other part's ✕ reaches `_landFold`. A catch's drill shares the card and its ✕: after a right answer it deals its next question on the same card (`_defenseAnswered`), open and unanswered, so the first ✕ folds that question too.
+
+**Undo after the second ✕.** It brings back the one line, not the opened card. Nothing new makes it so: `renderLandCard`'s reuse path (the rebuild `_applyLayers` asks for) keeps `_landAsk`, and the fold has already cleared the take-up memory. What is new is the time. b2's hide declines the question and drops the card, and `q.left` with it, so the rebuilt line opened on a fresh window. Measured on the first build, real time at 390x844 by mouse: folded with 10.97 s of 13.5 left, then ✕, Undo and Answer for Points opened 13.18 s. ✕-then-Undo would have bought a fresh window, which paging's rule forbids ("paging back and forth can never buy a card more time"). `_applyLayers` now keeps a folded question's window as the card goes (`_landKept`: the landing's page cache, the question, what was left) and gives it back when Undo or Settings rebuilds the same question on the same landing; the page cache is replaced at every new landing, so a window never crosses landings. Measured after: folded with 10.90 s, ✕, Undo, then 10.58 s at the take-up 0.3 s later.
+
+**Pinned** by `e2e/journeys/card-fold.spec.ts`, 13 tests. The first ✕ (fold, no message, clock parked and resumed) and the second ✕ (b2's message within 16 px of where the line was, its sentence, Undo bringing back the line and its window) each run at 390x844 and 390x631 by touch and by mouse, and at 1440x900 by mouse, every press at a measured centre that elementFromPoint resolves to the control. An answered card hides on the first ✕ (390x844 by touch, 1440 by mouse), and the next landing after a fold asks with the line (390x844). The deploy gate carries six of them (390x631 by touch and 1440 for the first two, the other two). Not at 390x631 for the answered card: there an opened card's answers lie under the reader's bottom edge (measured on a roll from "/" before #369: the card 514-754 on a 631-tall screen, the first answer's centre resolving to the map), so a player scrolls to reach one, and a scroll declines a taken-up question (`_tickDecision`); reported, not changed here. On the build merged with #369 (v1.259.1) the first answer is reachable there (its centre resolves to the button), and the second and third (640-735) still lie below the screen's bottom edge.
+
+**Mutants**, on the served neural.js, each turning ONE named test red at its claim: fold-off (`_landFold` returns false) at "the first ✕ folds the opened card to its line"; left-lost (q.left not kept) at "what was left is kept"; optin-kept (the take-up memory kept) at "the next landing asks with the line again"; fold-notice (the fold calls the reader's notice) at "the fold raises no hidden message"; line-refolds (the line folds again) at "the second ✕ hides Questions with its message"; answered-folds at "an answered card hides on the first ✕"; undo-opens (the rebuild opens the card) at "Undo brings back the one line, not the opened card"; kept-lost (the window not given back) at "and its parked window". All eight were killed on the build before the merge with #369 and again on the merged build, 8 of 8 each time: each row runs one test selected by -g, parses the mutated bundle first (node --check), counts a kill only when the first failure is its claim, and restores the served bytes, hash-checked.
+
+**Assertions changed, and what they claimed before.** `landcard-deck.spec.ts` (four runs: 1440 and 390, MC and recall) paged a deck without answering and pressed ✕, expecting the stack and the arrows gone; now the first ✕ is asserted to fold (no backs, the arrows hidden, Answer for Points offered) and the second removes stack and arrows. `landcard-modes.spec.ts` ("a defender content arrival stays calm after an answer", cold and warm) answered the drill and pressed ✕, expecting the drill gone; the answer had dealt the next, open question, so the first ✕ now folds it (asserted: still caught, escapes dealt) and the second hides the drill. Both were red on the first local run at exactly that step, 6 of 211; nothing else in the card and reader area moved.
+
+**Runs.** Local, under the build lock, on this worktree's own build: run 1, card-fold.spec.ts 12 of 13 (the answered-card run at 390x631 could not reach an answer, moved to 1440) and 15 card and reader journeys 205 of 211 (the 6 above); run 2, the three changed specs 48 of 48; run 3, on the build merged with #369, those three, the 15 and dev's winbar-fold and reader-fold, 234 of 234. `npm run ci:validate` 25 of 25. Not run locally: the full core suite and `e2e:gen`; the PR's e2e-full is the full gate.
+
+**Bytes** (caps: tests/artifacts/payload_policy.json). Eager: neural.js +1,476 B raw and +308 B gzip (level 9, against #372's build); the gate's eager gzip is 350,605 B, over the 300,000 B target and under the 400,000 B action line, +1,917 B since the v1.251.4 checkpoint against its 5,000 B delta cap; raw 1,391,570 of 1,600,000 B. Deferred: reader.js, reading.css and neural.css are byte-identical to dev, so the set stays at dev's 510,911 of 510,977 B; this change uses none of it. `check_payload_budget.py` exit 0. The app rows re-seeded by `validate:build-shape:app` on the merged build: neural.js alone moved.
+
+## v1.261.0 — Practice opens inside the drawer, at the drawer's width, as Path does (owner U135 a, PRACT1 and PRACT2, 2026-11-12)
+
+**His words** (11 Nov): Practice in the drawer "opens a different model or changes the page completly, hidding the graph instead of… opening that up inside the drawer as 'Path' does. please fix". Shown today's look and three variants built for real side by side (PRACT1: a, inside the drawer; b, the plan in the drawer and the card on the wide page; c, a 440 px drawer), he picked **a**, "Inside the drawer, at the drawer's width", with no note: the phone keeps its strip of map (not c's full width) and the badge stays hidden while practising, as before.
+
+**What it was.** From v1.248.0 (PR #336) Practice was its own page: `[data-practice-page]` made the drawer 760 px wide, centred and opaque. At 1440×900 it covered x 340 to 1100, the map showed in two 340 px strips, the card's technique was flown to the right one (x 1230 to 1270), and the paused game's moves and video were cut at the screen edge. At 390 it took the full width, where the drawer and Path take 343 px. The width came from the 11-04 build plan ("on desktop it gets a readable study column instead of remaining a narrow map-side drawer"), not from U76 ("look like challenges page", "keep the same practice UI we love"), and it ran against his words when the inline session was built (v1.137.0): "the idea isn't for the whole technique to take up the entire space of the sidebar." Path never had the rule because it is a view, not a study screen.
+
+**What ships.** One predicate, `_practiceInDrawer`, sets `[data-practice-page]`, and nothing widens the drawer. The brand reads "‹ Practice" and is Practice's one Back: `drawerHome` calls `_exitStudyTo()`, which restores where Practice was opened from (address, title, the map's selection, the opener's focus), exactly as the wide page's ‹ Back did. While Practice is open the brand carries the study Back's `data-pane-back` marker, so the journeys that press Back find it and exactly one marker is on screen; a deck or a checkpoint keeps its own ‹ Back in the drill head. The drill head is the belt line alone. Practice keeps its own solid background (#111522: the drawer's 98.4% gradient lets the paused game's bright text show through on a phone, measured in PRACT1, under Path's rows too) and its 44 px floor. Removed: the `?practice=` viewing switch and every line of looks b and c, and the prototype's screenshot scripts. `_paneLayout` still reads the panel's right edge, which is now its width.
+
+**Measured on a (PRACT1, 390×844 and 1440×900).** Card text is 283 px wide in the 360 px drawer and 266 px on a phone (the wide page gave 683 and 313). The corpus's longest answer (160 characters, the ceiling `mcClip` allows a choice) takes 5 lines, as it does on a phone today. Choices are 315 / 298 px wide and 44 px tall. At 1440×900 the card's technique lands in the middle of the free map (x 858 for the shots' first card, Mount top; 860 to 900 across PRACT1's) with its ring; at 390×631 the first question and its Reveal fit without scrolling. On a phone the technique is flown to the screen's centre, under the drawer, exactly as Path's lit techniques are; the strip of map at the right is 47 px.
+
+**Pins.** New `e2e/journeys/practice-drawer.spec.ts`, 12 tests, @curated, every press `j.clickByMouse` (the touch tap is TAP1's):
+- PD1 (390×844, 768×1024, 1440×900): the drawer's rect with Practice open, and after paging a technique, equals the home list's and Path's; docked at x 0; at least 40 px of map beside it on a phone, 300 px on wider screens.
+- PD2 (1440×900): for two cards in turn (the second by the "Next technique" button), the technique's orb, projected through `draw()`'s transform and `_LY` after 3.5 s of pumped game clock, is on screen, right of the drawer, within a tenth of the free map's width of its middle, ringed, and `elementFromPoint` there is the map canvas; "‹ Previous technique" pages back.
+- PD3: one `[data-pane-back]` on screen and it is the brand, "‹ Practice"; pressing it returns to the list with the opener focused and gives the marker back; a deck study's ‹ Back is its own; Esc closes Practice with the drawer and the game gets back only the pause the drawer took.
+- PD4 (390×631, 390×844, 1440×900): with the longest answer and the longest explanation (1,013 characters) due, every visible button of the open card, before Reveal and answered, is at least 44 px tall and inside the drawer, a press at its centre lands on it, and the Reveal / Got it / Review again buttons are on screen once the drawer is scrolled to them; the same for a recognition card's three choices.
+- PD5 (390×844): Practice's background is rgb(17, 21, 34); the badge is hidden while practising and back with the list.
+
+**Assertions changed in the journeys that open Practice** (none removed): `sidebar.spec.ts` ×3 ("Practice opens the session", "the press aimed before landing opens Practice", "the press opened Practice") and `srs-due.spec.ts` ×1 (the maintenance surfaces' header) read "Practice" in the study head; in the drawer it is in the brand, so each now reads `.ng-drawer-brand` as "‹ Practice". Same claim, the title moved. The three Back presses in `practice-page.spec.ts` and the one in `weak-spots-acceptance.spec.ts` are unchanged and land on the brand; `pane-chrome.spec.ts`'s is a deck study's, unchanged.
+
+**Mutants** (each against the pristine merged source, bundle rebuilt, its named tests run; source restored by hash and rebuilt after): 9 run, 9 killed, each at its own message.
+
+| mutant | red |
+|---|---|
+| M1 the 760 px centred page restored | PD1 ×3, "Practice opens in the drawer at its width" |
+| M2a the card's camera flight dropped (`locateNode` in the session row) | PD2, "on screen vertically" (the orb at 2134, 2085) |
+| M2b the camera ignores the drawer (`_paneLayout` inset 0) | PD2, "in the middle of the free map (900)" (the orb at x 720) |
+| M3a the brand without the Back marker | PD3 and practice-page's P1-F and both P1-E Back tests |
+| M3b the brand's Back goes to the list, not the origin | practice-page "P1-E: Back restores keyboard focus to Path's maintenance opener" |
+| M4 the 44 px floor lowered to 40 px | PD4 ×6, "is at least 44 px tall" |
+| M5 the solid background dropped | PD5, "Practice is opaque" |
+| M6 the badge shown while practising | PD5, "the badge is hidden while practising" |
+| M7 PR #371's touch hover hold restored | practice-tap-plan TAP1 at 390×844 and 768×1024, "after a tap, Practice's count line is written by the plan" |
+
+**The touch tap (PR #371, v1.256.6) inside the drawer.** TAP1 is unchanged and green at 390×844 and 768×1024: a touchscreen tap at the measured centre and a mouse click give the same count line and the same decks in the same order; its mutant is M7 above.
+
+**Runs.** LOCAL, under the build lock (`BUILD_PEAK_MIB=4000`). On this branch merged with dev v1.259.0 (#372, hidden sections b2): the spec 12 of 12, 112 tests in the 11 area files, and the 9 mutants. Merged again with dev v1.259.1 (#369, the winbar fix, which touches `app.src.jsx` but none of the mutated lines): the spec 12 of 12 and 122 tests in 13 files, all green (practice-page 30, sidebar 22, hidden-sections 16, gameplan-learning-loop 11, pane-chrome 11, srs-due 7, winbar-fold 6, practice-mix 5, reader-fold 4, gameplan-study-live 4, practice-tap-plan 2, session-scroll 2, weak-spots-acceptance 2); `npm run ci:validate`; `check_payload_budget.py` (exit 0). Stacked on #376 (v1.260.0, fa7515dc8, STACK376), which lands just before this: the spec 12 of 12 and the 9 Practice journeys, 85 tests, all green; app rows re-seeded there (`neural.js` 680,135 → 680,157 B, `neural.css` 54,029 → 53,694 B). Not run locally: the full core and generated suites, which the PR's e2e-full runs.
+
+**Bytes.** Against dev v1.259.1's own app, built here from its commit with the same script and payload (v1.259.0 gave the same four figures): `neural.js` +22 B raw / +6 B gzip, `neural.css` −335 B raw / −85 B gzip (the wide page's width, centring and grid head out; the belt line and the solid background in), so the eager set is 79 B lighter than dev's. Eager gzip 350,246 B on the dev v1.259.1 merge, and 350,526 B stacked on #376 (v1.260.0, whose fold is the difference): in the warn band, +1,838 B over the accepted 348,688 B (v1.251.4), cap 5,000 B. Deferred set 510,911 B under the 510,977 B ceiling, exactly dev's: this change adds nothing deferred. App rows re-seeded with `validate:build-shape:app`; the four game bundles keep their size and change hash (they embed the MDP manifest, which pins the app source's hash). No baseline, ceiling or gate moved.
+
+Screens: `artifacts/briefing/img/practicedrawer/` (PRACT1: 00 to 40; PRACT2: 50 to 53 and the rows `60-before-after-390.jpg`, `60-before-after-1440.jpg`).
+
+## v1.261.1 — The training-day email switch hides while the digest is off (owner U139 a, DIGEST1 and DIGEST2, 2026-11-12)
+
+**The decision** (owner, 12 Nov 2026, briefing answer U139 a, "Hide it while the digest is off"; the option he read: "The row and its empty Notifications tab are not shown. The stored setting is kept, an account that somehow has it on still sees the row so it can turn it off, and the row comes back the day you switch the digest on."). The digest cannot send: it stays off by the owner's call of 11 Nov, and `digest_sent` and `digest_suppress` (`supabase/digest_v1.sql`) are not in production (`supabase/schema.sql`'s header). Turning the switch on sent nothing; it only started recording `dayLog`. A read-only check of production on 12 Nov found no account with `emailDigest` on and none with a day log.
+
+**As built.** `NG_DIGEST_LIVE` (`app.src.jsx`, beside `NG_SETTINGS_TABS`) is `false`, with the three things that must be true before anyone flips it in its comment (both tables in production, the worker deployed and sending, `content/privacy.md` describing the email; on 12 Nov that page's email lines are about signing in only). `openSettings` decides ONCE PER OPENING which tabs are drawn and keeps them in `_settingsTabs`: while the email is not live, Notifications is drawn in exactly one case, a signed-in account whose stored `emailDigest` is on (truthiness as `noteCardDone` reads it), so it can turn it off; the row then adds "No email is being sent yet." Everyone else gets four tabs: a signed-in player with it off, and every guest, whatever the device stored. A deep link to the hidden tab (or any saved `_settingsTab` naming it; every later write is a press on a drawn tab) opens Flashcards. `settings-ui.js` reads the list once per render and hands the same list to the row's arrow keys, so they walk exactly the drawn tabs. Off stores `false` and the row stays for the rest of that opening (so the press visibly took); the tab is gone from the next opening on. No remote flag, no network call. A side effect, seen on the screens: four tabs fit a 390 phone, so the row no longer scrolls there for most players.
+
+**Round 2 (DIGEST2, the orchestrator correcting his own brief).** The first cut kept a guest's tab "as today", as briefed, and its line reads "The training-day email needs a signed-in account … Sign in from the badge at the foot of the sidebar to turn it on": a visitor who followed it would sign in and find the tab gone. The owner's pick was "the row and its empty Notifications tab are not shown", so the guest loses it too (`!this.user ||` became `!!this.user &&`). Flipped, the guest's line is back, to the letter. The version went from the provisional 1.262.1 to 1.261.1, landing before guest progress (v1.262.0).
+
+**Nothing stored changes.** No code path here writes, renames or deletes `emailDigest` (the worker selects `neural->settings->>emailDigest=eq.true`; a settings key can never be deleted, CLAUDE.md §6.6), no `settingsAt` stamp moves, the day log is untouched and still recorded by the stored setting alone, and `functions/unsubscribe.js` and `workers/digest` are not touched.
+
+**Inventory, from v1.259.1's source, ticked.** The tab button: kept for an account with it on; hidden while not live for everyone else (a signed-in player with it off, every guest). Pressing it (mouse, touch) and the arrow/Home/End keys: kept wherever it is drawn; the keys skip it where it is not. The row's scroll and fade at 390: kept (five tabs scroll; four fit). `openSettings("notifications")` (no caller in the app since U60 b; tests use it): kept where drawn, else the first tab. `neural_settings_opened {tab}`: kept, and it names the tab actually opened. The row (title, Beta, the words with the account's address, On/Off on `emailDigest`): kept for an account with it on, plus the not-sent sentence. The guest's line: hidden while not live (it advertised a switch that is not there), back when live. What the setting drives (`dayLog`, its sync and merge, the worker's selection and re-subscription stamp, the unsubscribe write): untouched. Gone: nothing; everything hidden comes back when the constant flips.
+
+**"To the letter", measured.** The Settings unit harness rendered every state (guest and signed in × stored unset, false, true × opened on each of the five tabs and none, then every arrow key, a press on Notifications and on On) with v1.259.1's own `app.src.jsx` and `settings-ui.src.js` (`git show ca4b75c0e`) and with this branch's sources with only `NG_DIGEST_LIVE` flipped: 234 rows, 2,113,163 B of serialized DOM, byte-identical, on the first cut and again on round 2's sources. On the shipped sources the same harness is the control and differs from v1.259.1 exactly where intended: every guest and signed-in-off row (the four-tab row), and for an account with it on only the Notifications panel (its sentence); its 27 other rows are identical.
+
+**Tests.** `tests/settings_presentation.test.mjs`: four new tests (signed in, off; stored on; guest, whatever stored, with the link falling back and the keys skipping; flipped, against v1.259.1's literal words, the guest's line included), on the real app and Settings sources, the flipped one built by swapping the one constant line, which must match exactly once. `e2e/journeys/notifications-tab.spec.ts`, rewritten, seven tests: signing in through the real auth facade fixture, the "on" account seeded as its stored cloud blob; Settings opened from the badge's menu by mouse; tabs pressed by mouse at 1440 and by a real touch tap at 390 (at the measured centre of the part on screen, ownership proven first); a guest, and a guest whose device stored it on; no write to the account names `emailDigest`; a flipped test that serves this build's `neural.js` with the minified constant rewritten and fails unless the rewrite matched exactly once. `@curated` (CURATED36) is on two of the seven only: an account with it off has nothing written (3.2–3.3 s) and an account with it on can turn it off (3.1–3.4 s), measured in two local runs.
+
+**Assertions changed, said out loud.** `settings_presentation` test 6 pressed On for a signed-in player with it off; that player has no switch now, so it seeds the setting on and presses Off (On moved to the flipped test). Its test 4 (the latest Settings intent wins a shared import) opened a guest on Notifications; it now names Shortcuts, since the claim is which intent wins. `account-menu`'s signed-in test pressed Notifications; that account never turned the email on, so it now asserts the tab is absent and presses Shortcuts. `settings-tabs` measures the longest row the app draws (its tripwire is "the shipped five fit"), so its helper now seats the one five-tab case (an identity and the switch stored on) before each opening; which tabs a player sees is notifications-tab's claim. The old `notifications-tab` tests are folded into the new ones. Each changed test ran green against this change before it was committed. The hand-run registry's `u60-notifications-lost` row (`sidebar_r3_mutants.json`) now names notifications-tab.spec.
+
+**Unit mutants** (exact source patches through the test file's `BJJ_SETTINGS_*_SOURCE` overrides; control `U0` green, 13 of 13 killed at their assertions, on the round-2 source):
+
+| mutant | killed by |
+|---|---|
+| U1 the tab always drawn | off ("four tabs"), stored-on ("reopened"), guest |
+| U2 the stored setting ignored | stored-on ("five tabs"), test 6 |
+| U3 no deep-link fallback | off (`flashcards` expected, `notifications` actual), stored-on, guest |
+| U4 the keys walk the full list | off and guest ("Modifiers → Shortcuts") |
+| U5 no not-sent sentence | stored-on (the row's words) |
+| U6 the sentence even when live | flipped (v1.259.1's words) |
+| U7 the per-opening choice never resets | stored-on ("reopened: no Notifications tab") |
+| U8 decided on every render | stored-on (five tabs after Off), flipped |
+| U9 opening Settings writes the key | off (`emailDigest` in settings), tests 1 and 2 |
+| U10 a guest keeps the tab (round 1's rule) | guest ("a guest sees four tabs") |
+| U13 a guest with it stored on sees the tab | guest (stored true) |
+| U11 the flag ignored | flipped ("every signed-in player sees five tabs") |
+| U12 u60-notifications-lost | stored-on, flipped |
+
+**Browser mutants** (the served bundle, one region regex per row that must match exactly once, `node --check`, the whole notifications-tab spec per row, the original bytes restored after each and sha-checked at the end; control `E0` green, 13 of 13 killed; on the round-2 build, merged with dev v1.261.0):
+
+| mutant | killed by (notifications-tab.spec) |
+|---|---|
+| E1 the tab always drawn | off ("four tabs: Notifications is not drawn"), stored-on, both guests, both 390 tests |
+| E2 the stored setting ignored | stored-on ("five tabs while it is stored on"), the 390 stored-on test |
+| E3 no deep-link fallback | off, guest ("the link opens the first tab") |
+| E4 the keys walk the full list | off, guest ("ArrowRight from Modifiers skips the hidden tab") |
+| E5 no not-sent sentence | stored-on ("the row says no email is sent yet"), the 390 stored-on test |
+| E6 the sentence even when live | flipped ("the row's words are v1.259.1's") |
+| E7 the per-opening choice never resets | stored-on ("reopened: the tab is gone"), 390 ("reopened on the phone: no tab") |
+| E8 decided on every render | stored-on (the tab still drawn after Off), flipped ("five tabs, setting off") |
+| E9 opening Settings writes the key | off (no value, no stamp), the stored-on guest ("and nothing stored changes") |
+| E10 a guest keeps the tab (round 1's rule) | both guests ("a guest sees four tabs …", "still four tabs …") |
+| E13 a guest with it stored on sees the tab | the stored-on guest ("still four tabs: only an account sees the switch") |
+| E11 the flag ignored | flipped ("five tabs, setting off") |
+| E12 u60-notifications-lost | stored-on, flipped, the 390 stored-on test |
+
+**Bytes**, on the round-2 build merged with dev v1.261.0: `settings-ui.js` 22,082 → 22,146 B (+64; the list read once per render and handed to the row's keys, and the sentence), `neural.js` 680,157 → 680,308 B; deferred set 510,975 B under its exact 510,977 B ceiling (510,911 B without this change; 2 B are left after it); eager gzip 350,590 B, +1,902 B over the accepted 348,688 B (cap 5,000). The first cut read `this._settingsTabs` in both places and was 8 B over the ceiling; passing the drawn list into `_settingsTabRow` is both smaller and the cleaner seam. The constant and the choice live in the eager app because the deferred set had 66 B of room. No ceiling or baseline moved; app rows re-seeded with `validate:build-shape:app` on each dev merge (v1.260.0, v1.261.0, both by merge, conflicts only in the version files) and on round 2.
+
+**Runs, all local, under the build lock.** notifications-tab + account-menu + settings-tabs + settings-lazy: 28 of 28 on each dev merge, 29 of 29 on round 2 (notifications-tab grew to seven). Ten Settings journeys (settings-tabs, settings-lazy, keyboard, start-from, hidden-moves, hidden-sections, mastery-gold, recall-badge, loss-aversion, legacy-gone) on the first cut: 85 of 86; the red, `mastery-gold` "mouse toggle … at 1440px" (its press on On right after a 150 ms wheel scroll landed on a `<div>`), passed 4 of 4 rerun on the same build, where a guest's Settings were byte-identical to v1.259.1's: a timing flake in that step, not this change. `npm run ci:validate` 25 of 25 on the merged head. The full core suite and the generated suite are the PR's e2e-full.
+
+**Screens** (`artifacts/briefing/img/digesthide/`, all from Mount Top, signed in as player@example.com unless a guest): 01/06 before and 02/07 after on Flashcards (the tab row), 03/08 before on Notifications, 04/09 the row an account with it on sees, 05/10 a guest before and after (the link to Notifications), at 1440 and 390. "Before" is this build with the one constant flipped, which renders v1.259.1's Settings byte for byte (above), so each pair differs only in the rule.
+
+## v1.261.2 — A signed-in player's name, initial and address never reach analytics (MASK1 to MASK3, 2026-11-12)
+
+**Wrong.** The app never calls `identify()` but printed the identity, and PostHog's autocapture and replay read it (orchestrator, PostHog, 30 days: 193 badge clicks; 14 signed-in ones with a clicked text over one character; 1 event with an "@"). posthog-js 1.447.12 (the site's `array.js`): every chain element's attributes go in, a button's nested `<span>` text too (the avatar's letter rode every badge click), and a pressed element's own text is `$el_text` (the name). Mechanism and quotes: the `NG_NO_CAPTURE` note, app.src.jsx.
+
+**Ships.** Each element printing the identity carries `ph-no-capture` before the identity is written: the badge's name and letter (toggled with `this.user`; inside the badge `pointer-events:none`, so a press on the name still counts as a badge click), the menu's top row (its tooltip kept), and Settings' address (a span from the eager `_addressMarkup()`: the deferred set is at its ceiling). Nothing a player sees or hears changes.
+
+**Pins.** `e2e/journeys/no-identity-in-analytics.spec.ts`, 4 tests: rrweb's rule on badge, menu and Settings; `e2e/fixtures/posthog-autocapture-mirror.ts` (1.447.12's click path) on real mouse presses and 390x631 touch taps, the badge press still counted; an email-only account (`{ name: null }`). A local probe ran the real `array.js` beside the mirror: `$elements_chain` and `$el_text` equal on 5 presses, on the fix and on dev's code ("Player Example", "P").
+
+**Mutants**, 7 of 7 killed at the leak: dev's code (all 4); badge unmarked (all 4); letter unmarked (all 4, "P"); mark not inert ((b), (c), touch: "the click is still counted"); menu row unmarked ((a), (c), touch); Settings address unmarked ((a), on dev and on the #378 merge); the address on the menu's `aria-label` (all 4).
+
+**Runs**, local, under the lock: the spec 4/4 on each build; area journeys 66/66, then 92/92 on the #378 merge; units 1,464/1,464; `ci:validate` green but one load flake (`verify_clips` deadline, 3/3 alone).
+
+**Bytes**, against #378 (90f2655b3): `neural.js` +210, `neural.css` +47, `settings-ui.js` −18; eager gzip 350,687 B (+97; +1,999 of the 5,000 cap); deferred 510,957 of 510,977 B. Gate exit 0. Rows re-seeded (`validate:build-shape:app`). No ceiling moved: this entry was cut to fit the archive's own (3,236 characters of room after #378).
+
+## v1.262.0 — Guest practice joins the account at sign-in; "Review guest progress" and its dialog are gone (owner U138 a, GUEST1 and GUEST2, 2026-11-11/12)
+
+**What he said.** On the dev preview, signed in (11 Nov): "What's this 'Review guess progress' i see in the user badge options? wtf is 'Guest progress is kept separately. Import practice evidence, saved lists and achievements into [his address]? Account settings and email consent stay unchanged. The original copy is kept.' i dont like that functionality. seems like AI slop/bloat pls fix". Shown three variants built for real (a automatic; b one question; c automatic unless another account has used the browser, recommended), he picked **a, "Always automatic"** (23:29), knowing that on a shared browser whoever signs in next receives what someone practised signed out. With no note, the orchestrator's three defaults stood: the line "Your practice from before you signed in is saved"; players who already have guest practice in their browser get it on their next visit; a guest's later "No" never takes an account's "Yes".
+
+**What the row was.** It came with account-scoped progress in the Codex full-game work (rescue commit `86e40365a`, v1.207.0). Per-owner storage fixed a real leak: before it, one unowned copy served everyone on a browser, so a sign-out left the account's progress for the next visitor and the next account to sign in received it. The guest-to-account step was made manual on top of that, with no written reason (only test names: "guest import is explicit"); the rebase report carried it over ("keep the explicit import only for moving guest progress into an account"). Its condition was "a readable guest copy exists", and the sign-in itself writes one, so every signed-in player saw the row on every browser they signed in from, and Import kept the guest copy, so it never went away. Import also used the cloud's own `moves` order, where the later answer wins: a guest's later "No" took an account's "Yes" with its gold and its +15.
+
+**What a player meets now.** At a verified sign-in on a browser holding guest practice, the practice is added to the account once (per guest copy and account, a hash mark beside the account's copy), the board says the line once, and nothing else changes: no row, no dialog, no question. The guest copy stays byte for byte, so signing out still plays it. Practice done signed out later joins at the next sign-in. A second account signing in there receives it too (his pick, named in a test). An unverified (local-only) account, a held switch or a full storage joins nothing and marks nothing.
+
+**The merge rule (one function, `ngProgressGuestMerge`).** The pull's own `_mergeProgressBlobs` (MAX, union, add-wins) with two changes that make it only add: the guest's settings never move (consent, ruleset, goal), and a guest's "No" never replaces an account's "Yes" (the account's row is kept; it is already the cloud's, so the next pull cannot undo it; U125 b still holds inside one account and across its devices). `srs` keeps the pull's rule: a guest's later miss can bring a card back sooner; no figure reads the interval. Known consequence, the lists' own add-wins rule: a list the account deleted can return if a later, changed guest copy still holds it.
+
+**What counts as practice.** Measured on a bare guest landing in the built app: the guest copy already holds one visited state, the first coach step (`tut.done.coach3`, mirrored as `white.coach3`) and the belt grandfather stamp. Counting those, every new account would be told its practice was saved after doing none. So the join, and the line, need practice: answers, schedules, known moves, rolls, lists, belts, achievements, any challenge other than the three coach steps (`NG_PROGRESS_TRAIL_CHALLENGES`, pinned equal to the white track's coach challenges). The trail rides along when practice joins.
+
+**The line.** The announcer at the top centre (`pointer-events:none`), no kicker, held for the landing, until the board's next sentence replaces it (the next move, landing or roll end; nothing fades it on a timer). It never overwrites a held shared-link sentence (that visit's join is silent). Three faults, each found by this branch's own screens or journey and each now pinned by a killed mutant: (1) `setEvent` reads every text as a node's name and cut the sentence at " from " into a title "Your practice" over a dim "from before you signed in is saved", so `setEvent` and `_announceArrival` take an optional `whole`, set only here; (2) at 390 the whole sentence's first line (x 48-342, y 49-66) sat on the top-left "Open the sidebar" and "Search" targets (x 10-104, y 16-60; the same at 360 and 430), which a short centred name never reaches, so a whole sentence steps below the lowest control its lines meet, measured (`_evStepBelowControls`), and the next sentence clears the step (a film's borrow-and-restore carries it); (3) the step was first a margin, which collapsed with the kicker's 7px margin and moved the sentence 8px for a 15px ask, still 3px over the targets: it is padding. Measured after: 390 lines at y 64-81 and 82-99 (the next control starts at y 126), 1440 one line at y 37-57, x 516-924. A non-breaking-space kicker tried first is dropped: the measured step subsumes it. The guard `if (t.style …)` exists because the roll-execution unit harness stubs the text node without a style (`ci:validate` caught the unguarded write: 3 reds).
+
+**Pinned.** `tests/guest_join_safety.test.mjs`, 10 tests, the real class on the real wire in both rulesets: 120 seeded account and guest pairs never lower a figure on either side; 40 accounts per ruleset never lose a known move, a boost or a "Moves known" point, with the old Import as the CONTROL (it loses known moves on 38 of 40 in gi and 40 of 40 in no-gi of the same seeded accounts, which were built so both copies answered the same moves); then the join's claims one by one. 12 unit mutants, all killed, table in the file's header. `e2e/journeys/guest-join.spec.ts` (1440 by mouse, `@curated`; 390 by touch): the practice joins, the line covers no control (its text rects against every visible control's rect), no row, once, a second account too. Journey mutants, each built and served alone on the green spec: no step (390 red), the row restored (both red), no `whole` (both red); one named non-kill, the join on every visit (re-joining an unchanged guest copy adds nothing, so nothing is said; unit test 5 kills it). Specs moved, each saying at the spec what it claimed before: `account-menu` (the row's presence → its absence; 7 buttons → 6), `auth-owner` "A to B to signout" (no write carried the guest's list → both accounts receive it, neither the other's), eight `progress_owner.integration` cases (an explicit import → the join); its dialog-UI case is deleted with the dialog.
+
+**Bytes.** `neural.js` on dev v1.259.0's base: dev's own build 211,929 B gzip, this branch 212,065 B (+136 B, +433 B raw), measured before the measured-step function was added; the final build on v1.259.1 is 679,759 B raw, 212,404 B gzip (dev v1.259.1's own was not built here). `check_payload_budget.py` exits 0: eager 350,772 B, in the warn band as dev is, +2,084 B over the accepted 348,688 B (cap 5,000). The first-hand figure is the PR's `payload-first-hand` run. No baseline moved; the app rows re-seeded (`validate:build-shape:app`), app-only, no capture; the archive needed no cap raise (#372's +50,000).
+
+**ORDER1, the orchestrator's blocking read (12 Nov).** The first build joined in `_applyUser`, before `_initAuth`'s first pull, so `ngProgressGuestMoves` protected only the rows of the browser's own account copy. Where that copy lacked the cloud's Yes (a new device, or one not used lately: the most common real case), a guest's later or same-day No went in unprotected, beat the cloud's Yes in the pull's own order (later `last`; a same-day tie to the No) and was pushed. The 40-account unit seeded the account copy locally and could not see it. Test-first: `tests/guest_join_safety.test.mjs` 11 runs the real order (mount, sign-in, the first pull, what `_pushCloud` sends, another device's pull of it) and was red on a0a8c6cfd in 3 of its 4 cases (an empty local copy with a later No, with a same-day No; a stale copy holding an older No; a stale copy holding an older Yes was already protected); 12 (a failed first pull joins, marks and pushes nothing) was red too. The fix: `_pullAndMerge` joins at the end of a successful pull, before its save and push, so `live` holds the cloud's rows; `joinGuest` refuses an account that has not pulled. Offline, the guest copy waits on the device, unjoined and unmarked, until a pull succeeds. `srs` was checked the same way (13): a guest's later miss meeting a cloud row brings the card back sooner, and no figure drops (stage MAX, today's count a union). Mutants: the fix reverted → 11, 12; the call moved back with the refusal kept → 3-13; the refusal removed → 12. The integration cases and auth-owner's A-to-B journey now wait for that pull. After the fix: the eight account journeys 60 of 60, payload exit 0 (eager 350,796 B), `neural.js` +28 B gzip for the move.
+
+**REVIEW375, the second reader (12 Nov).** Verdict DO NOT MERGE YET: the same fault as ORDER1, found independently on the real sign-in path with a cloud ("Moves known" 14 to 0, the boost 0.15 to 0, pushed), plus follow-ups, all taken in this PR. Its six probes, run against the fixed head: the Yes kept in every case, Mount/top 16 known and 0.15 before and after, re-joins identical with one line and one push, an existing player joined once and silent on reload, a failed pull now writing, marking and pushing nothing. F1, the roll ledger: the guest's partition was added as a seventh and the 6-partition cap evicted the account's oldest (60 rolls became 51); below the cap it is still added as it is, at the cap it folds into the account's newest partition by MAX per cell (`ngProgressGuestFlow`), so no account partition is ever evicted (the ledger feeds the weak spots and the flow score; no screen prints its total). F5, the unused import path: the guest kind of `previewImport`/`confirmImport` (the old merge, which could lower known moves) is deleted with no player capability lost; the data layer's legacy import goes through `ngProgressGuestMerge` and, like the join, refuses an account that has not pulled. F2/F3/F4: tests for a re-join with the mark (and the local copy) lost, an existing player at boot, and a journey where a guest who only looked signs in and is told nothing (the trail measured in the built app). F6: the lost-mark comment now says the line is said again only if the practice is in neither this browser's account copy nor the cloud. F7: `sidebar_capabilities.md` row 104 retired. The reader's note that "the account's value wins" for units and unknown fields held only against the local copy is true of the first build; the join now runs after the pull, so it holds against the cloud's too, and the comment says so. Unit tests 14-18 added (on a0a8c6cfd: 11, 12, 14, 15, 16 and 18 red; 17 green there too, as the reader found); 20 unit mutants, all killed.
+
+**FOLD2, the reader's re-check of cb762c8b7 (12 Nov).** The join order: fixed and proven under attack (a brand-new account, a pulled flag that cannot carry to another account, sign-out or a switch mid-pull, a failed then successful pull, two tabs, the guest copy changing during the pull, a second device, the mark lost). One new must-fix, introduced by the ledger fix: at the 6-partition cap the guest's rows folded into "the account's newest partition", chosen again at every join, so when another device became the newest between two joins of one guest copy, the same rolls were summed twice (6 real rolls read 11, 5 read 10, and the line was said again). The reader proposed remembering the target; a rule with no memory replaced the fold instead: a guest partition joins as itself (it never changes id) while there is room or while the account already holds it, and at the cap it is not joined at all, so its rolls stay in the guest copy (an undercount, accepted; on production no account has more than one partition, 12 Nov). Tests 15 (the reader's case: the newest partition changes between two joins) and 19 (its `adv_5_fold` scenario) are red on cb762c8b7's fold, which is also the named mutant. Kept, said at the code: a guest partition added below the cap takes one of the six slots, so a later new device of the account evicts one of its partitions one device sooner (the ledger's own cap rule).
+
+**Where it was checked** (this box, under the build lock where a browser or a build ran). `ci:validate` 25 of 25 run steps, 1,469 of 1,469 units, on c32e3b56a. The account journeys (guest-join, account-menu, auth-owner, auth-redirect-back, signin-intent, sidebar, feedback-modal, challenges-engine) 59 of 60 on the v1.259.1 merge, the one red the 390 line above; after the fix, guest-join, account-menu and auth-owner 18 of 18. The full suites are the PR's e2e-full. Screens: `artifacts/briefing/img/guestprog/10-row-390.jpg` and `10-row-1440.jpg` (before on dev v1.259.0, after on this branch; only address player@example.com).
+
+## v1.262.2 — The planner retry test waits on its own claims (RACE1, 2026-11-12)
+
+**What went red.** The deploy of dev `30e3fec23` (v1.261.1), 05:44 UTC on 12 Nov: 912 passed, 1 failed. `e2e/journeys/gameplan-learning-loop.spec.ts:243`, "failed planner load keeps due cards actionable and retries on deliberate intent", `expect(requests).toBe(3)` at line 258 received 2. The same test passed in that commit's PR run and in the earlier deploys.
+
+**Why: the test, not the app.** After the retry press the test awaited `toBeVisible()` on `[data-session-section="Practice"]`, which `hit()` had just shown by opening the fold it sits in, so the wait returned at once; then it read the route's counter synchronously. It is 3 only if the press's `import()` of `gameplan.js` has already reached the route handler. Two more defects sat in the same three lines. (1) That wait is true only BEFORE the plan lands: `_practiceAppend` re-renders the untouched queue, and the fold comes back closed, so the old test needed the request early and the plan late. (2) Nothing proved the retry landed: with the third request aborted too, the old lines passed.
+
+**Control** (a scratch spec, deleted: the test's own body plus one knob each, core config, this box, under the lock):
+
+| arm | result |
+|---|---|
+| request 3 counted 300 ms late | red at line 258, received 2 |
+| no delay | green, 100 of 100 (before the dev merge; 95% upper bound for a loss about 3%) |
+| request 2 counted 300 ms late (could line 250 match the drawer's older failure text?) | green, 40 of 40 |
+| line 257 reached after the plan has landed | red: the Practice line is hidden |
+| the retry ALSO fails | green: the old test's blind spot |
+
+**Ships, spec only.** After the press: `expect.poll` until the route has seen the third request; `[data-gameplan-refresh]` exists ("Refresh plan", which `_gameplanIntro` builds only for a plan) and `[data-gameplan-load]` / `[data-gameplan-loading]` are gone; the session after the press is the very object the press reopened, now with `plan` set and `review` cleared; the first queue row is the review (`data-practice-kind="due"`), the open card reads "Due reviews · 2 cards" and can still be revealed; the count line still says 2 cards to review and, after them, the plan's own "N new across" half. Before the press, a plain read that nothing retried on its own. Line 251's plain read stays, with the reason at the code. No @curated tag moved; no app, gate or baseline changed.
+
+**Mutants** (injected just before the press), against the new lines and the old: the retry fails too, red at "the retry lands" (old: green); the plan never adopted (`_practiceAppend` does nothing), same (old: green); the retry builds a new session, red at "the reopened queue itself becomes the plan" (old: red, but only because the new session re-renders the fold closed); the new deck queued ahead of the review, red at "the first row is the review" (old: green). The new lines with every request counted 300 ms late, or request 3 counted 2,000 ms late: green.
+
+**Survey of `e2e/`.** 127 synchronous reads of a counter or list that a page, route or request handler fills, in 65 files: 72 are "no page errors" ends and 15 more claim nothing happened, which cannot lose this race; of the other 40, each wait is caused by the request or its answer, or the read comes many awaited steps after the request (the star request in `account-menu.spec.ts`, the aliases at `alias-search.spec.ts:48`); line 258 here had neither. Its neighbour at line 251 waits on the press's own failure, bar a window this box never hit (40 of 40 above). Then 44 waits on a locator the test had already asserted, each followed by a synchronous read: none is this race (each wait is caused by what the next line reads, or the read claims only that nothing changed). The full table is in the seat report.
+
+**Runs**, local, under the lock, on dev `4b3562ffa` merged: the spec file 11 of 11; the one test 20 of 20 (`--repeat-each 20`); the gameplan config's desktop and phone projects 22 of 22 (touch taps); the control and mutant arms as above.
+
+## v1.262.3 — A scroll that reaches for a taken-up question's answers no longer declines it (SHORT1, 2026-11-12)
+
+**The question.** cardgap (#376) wrote in `card-fold.spec.ts`, as found and not changed: at 390x631 an opened card runs below the
+screen, "so a player scrolls to reach an answer, and that scroll declines a taken-up question (`_tickDecision`)". If true, one phone
+in ten could not answer two of three choices without losing the question. The rule to hold (owner, earlier rulings): half of all cards
+need a scroll for their last answer; only a question facing you can expire; reaching for an answer by scrolling must never decline,
+expire or skip a taken-up question, and every answer must be reachable by an ordinary scroll on a short phone.
+
+**Measured, before any change**, on a real roll from "/" (no harness, guest, off-origin requests aborted), CDP touch, on the preview
+(v1.259.1) and production (v1.252.0), at 390x631, 360x640, 375x667 and 390x844 (probes in `~/tmp-pw/short1/`, outside the repo):
+- The landing card at take-up stands at 496-514 from the top; at 390x631 its bottom is 736-932 by question length. The first answer's
+  centre is on screen and takes a tap; the second and third are below the edge (a tall card, Kimura from Mount: 514-932, two of three
+  below). 360x640 and 375x667 the same; 390x844 holds all three of an ordinary card. Every new landing resets the reader to the top and
+  opens its card already taken up with the clock running (U52 b), so "where the game leaves it" is the same place.
+- Under the thumb at that moment: the card at the bottom, the hand above it, the map at the sides and top. All are game input
+  (`gameInput`) or the map. A 200 px finger drag from the card scrolled 185 px: all three answers on screen and hittable, nothing
+  declined, the clock ran, the game kept playing, the last answer scored. The same from the hand and from the map beside the card,
+  at every size, on both builds. cardgap's sentence was a reading of `_tickDecision` (it declines while the reader is reading), not a
+  measurement: its archive entry records no scroll.
+- The escape drill (a catch rigged from a real roll): D-433 places it high (168-503 at 390x631), all three answers on screen at all
+  four sizes; a drag from the escape tray below it declines nothing.
+- What does decline is a drag that STARTS ON THE ARTICLE: `readingInteraction` made it reading at touch-down, and `_declineLandQ`
+  exempted a scroll only while the question was still asking (U47 d, v1.236.0; before that every question declined so, v1.134.0).
+  The article lies below the card and the Videos part, so it is under the thumb only once the card has been scrolled up. Reproduced on
+  both builds at every size: overshoot until the first answer is above the top edge and the article fills the bottom, drag back down
+  from the article toward the answers: `land_q_declined:reading`, the clock gone, the game paused, the funnel's `question_ignored`. The
+  question was not lost in points: its answers stayed pressable and a press still scored, as article-order.spec.ts recorded ("a free
+  pause, not a loss"). At 390x844 on the preview a 185 px scroll was enough to put the article's first section under the thumb (v1.259.1
+  runs the article to the bottom edge); production had the Win/Lose bar there.
+- A scroll that carries the card off the screen. Begun on the game: nothing; the clock ran on and the question expired off screen
+  15 s later (390x631, preview), so "only a question facing you can expire" does not hold for it today. Begun on the article: declined
+  at touch-down, free. Reported, not changed: the brief keeps that rule.
+
+**Not changed, by an owner rule.** With every answer already in view, a scroll from the article is reading and declines the question
+for free (Neural.md's reading paragraph; reading-mode.spec.ts "mixed wheel declines the live question without scoring a miss", @curated
+at 1440x1400). A first cut that made every article scroll with the card on screen a non-reading would have broken that on desktop; the
+shipped rule asks whether the player is REACHING, that is, whether an answer is out of view.
+
+**What ships.** `_landView()` (app.src.jsx): null without a taken-up open question (asking, answered, a reading arrival, a hidden
+card), else `on` (the card meets the reader's visible box) and `all` (every answer button of `[data-land-q]`'s block lies wholly in it;
+a card with no height is SKIP, never a verdict). The reader changes one line: `readingInteraction`'s existing early return now also
+returns when a wheel, touch or pen scroll asks the app's `_rch()` and it answers yes (`on && !all`); `!scroll` keeps that branch's
+decline out, so the scroll is not reading, declines nothing, pauses nothing, and the clock runs. `_rch` records the question (`_rq`); `_tickDecision` calls `_reachTick` every frame while one is open, and once its card has left the screen the question
+is declined, free, as the touch on the article always did; the reader is not switched to reading mid-scroll (its layout would move
+under the finger), the next press on the article reads as ever. A capture listener on the reader's root ends a reach when a press or a
+wheel lands on the game, so a later scroll begun on the card keeps today's rule (nothing declines). The drill shares the seam (its
+answers are the same block). Why the app and not the reader: the first cut lived in the reader and cost `reader.js` 333 B, while the
+deferred set had 66 B of room under its 510,977 B ceiling (`check_payload_budget.py` exit 1 at 511,244). A separate line costs 29 B;
+merged with dev v1.261.1 (#378 grew `settings-ui.js` 64 B, then v1.262.0 gave 18 back) that was 9 B over. Folded into the existing
+return and called `_rch` it costs 20 B (measured in memory with esbuild: 29, 22 as `_reach`, 20 as `_rch`), and the build merged with
+v1.262.0 lands exactly on the ceiling. The orchestrator had approved setting the ceiling to the measured build (U134 b, up to
+512,000 B); the measured build IS the ceiling, so nothing moved, and 1,023 B of the approved 512,000 stay unused.
+
+**Pins.** New `e2e/journeys/short-phone-answers.spec.ts`, 8 journeys, every gesture a CDP finger drag held still before the lift, every
+start point asserted to lie on what it claims, every answer pressed by a touch tap at a measured centre: a finger on the card reaches
+every answer, nothing declines, the clock runs, the last answer scores (390x631 @curated, 360x640, 375x667); past the answers, a drag
+from the article back toward them is reaching; with every answer in view it is reading and declines free (the control); carried off the
+screen it is declined; a press on the game ends a reach; the drill keeps its clock. One @curated journey, not five (CURATED36):
+2.9 s locally.
+
+**Mutants** (`tests/artifacts/short_phone_mutants.mjs`, on the served bundle, inside the lock, a kill only at the named assertion):
+reach-off (2 runs), reach-ignores-view, reach-never-leaves, reach-lift-off, scroll-declines, card-eats-touch, drill-excluded: 8 of 8
+killed.
+Recorded non-kill: a press on the game falling through to the reader survives the card journey by construction (with an answer out of
+view it is a reach too); scroll-declines holds that claim instead.
+
+**Changed elsewhere.** `card-fold.spec.ts`'s 390x631 note corrected (no assertion touched); Neural.md's decline sentence (char-neutral,
+74,016 of 74,017). No assertion removed or loosened.
+
+**Asked, not built.** Should taking a question up on a short screen also scroll its answers into view? Today at 390x631 the take-up
+leaves two of three below the edge; the proposal scrolls the reader just enough for the last answer and never past the card's top
+(screens 06 and 07 in the owner's briefing).
+
+**Runs.** LOCAL, under the build lock (`BUILD_PEAK_MIB=4000`). On the final code, merged with dev v1.262.0 (4b3562ffa) and #382 (v1.262.2): the spec
+8 of 8 (each 2.7 to 9.5 s; the @curated one 2.9 s) and the 8 mutant runs 8 of 8 killed; with the folded hook, the 5 files that run its
+already-reading branch 102 of 102 (reading-mode, reading-contract, covered-card, article-order, card-fold). On the same design with the
+hook on its own line, merged with v1.261.0: the 11 nearest card and reader files 168 of 168. On the first cut (the same rule, its logic
+in the reader): 20 card, reader and pane files 335 of 335. `npm run ci:validate` 25 of 25. Not run locally: the full core suite and
+`e2e:gen`; the PR's e2e-full is the full gate.
+
+**Bytes.** `check_payload_budget.py` exit 0: deferred 510,977 of 510,977 B, exactly at the ceiling, which did not move; eager raw
+1,394,386 of 1,600,000 B; eager gzip 351,663 B, over its 300,000 B target and under its 400,000 B action line, as dev already was.
+Against dev v1.262.0's rows: `neural.js` 682,101 to 683,239 B (+1,138), `reader.js` 44,855 to 44,875 B (+20). App rows re-seeded with
+`validate:build-shape:app`, no capture.
+
+**Screens** (390x631, the owner's briefing, `shortphone/`): the card as it opens with the thumb on it, the answers reached from the
+card, past the answers with the thumb on the article, the drag back before (the timer bar gone) and after (the bar running), and the
+take-up today against the proposal. The before frame is this build with `_landView` stubbed to null, which is exactly the old path;
+the preview's own build gave the same outcome on the same gesture.
+
+
+## v1.262.4 — The harness loads every deck in one trip (GATE2, 2026-11-12)
+
+**Why.** The deploy gate (`npm run test:curated`) took 36.7 of its 45 minutes on deploy-dev run 43165143504, and the
+plan for it (`reports/gatetime.md`, outside the repo, GATE1) measured one harness helper as the largest single cost
+that needs no decision: `j.hydrateAll()`, "full residency, for journeys whose subject is not residency". It was
+`hydrate(every key)`, i.e. 2,862 one-deck fetches, each crossing the browser's network stack and the harness's routes:
+10.2 s a call on the dev box across 26 @curated tests (12.8 and 16.6 s in a scratch probe), about 6 s on a CI runner.
+On PR shards the 26 callers summed 272.0 s (e2e-full run 43170420182) and 214.7 s (43168370806); the gap between those
+two runs is the runner, not the tests (the other tests of shard 2 ran at a median 0.82 of the first run's time).
+
+**Ships, harness only** (no app code, no bundle row). `hydrateAll()` asks the app which decks are not resident and the
+file each one fetches (`d.file || qhash(key) + ".json"` under `_dataBase()`, read back from the app, never re-derived),
+carries those chunks in ONE `page.evaluate` from the per-worker buffers the deck route already serves, and installs an
+in-page `fetch` that answers exactly those URLs while `a.hydrateDecks(keys)` runs as shipped; `window.fetch` is restored
+in a `finally`. Left on the route, unchanged: a chunk under an armed payload rule (it keeps its timing), a chunk the
+buffers lack (the route's 404), and anything else the page fetches meanwhile. `{ via: "route" }` keeps the old body,
+as the control, and for any spec that routes deck chunks itself (none does: every caller in e2e/ was checked).
+
+**What no longer crosses the network stack or the harness route:** the chunks of the decks the trip itself fetches.
+The app keeps prefetching on its own (a dealt option's deck), and `hydrateDeck` joins such an in-flight fetch instead
+of asking again, so those still travel the wire: the first run found 10 of them beside 2,851 answered in the page,
+which is why the spec accounts for every file by state (cold, in flight, landed) instead of asserting "zero
+requests". The normal path is still every boot's landing deck and every deck the app asks for by itself;
+`url-arrival.spec.ts`'s held-deck case (@curated) proves such a fetch crosses the delay layer, and the new spec's
+`via: "route"` control proves it reaches the route (more than 100 chunk requests).
+
+**Proof: `e2e/journeys/harness-deck-trip.spec.ts`** (two tests, not @curated). Against the route as control, on the
+same node: every deck's cards, category, role and error count hash identically (SHA-256 over all 2,862); the card
+total is the same; `_onDeckHydrated` fired once per deck the call filled (resident before + fired = every deck); every
+cold deck's fetch was answered in the page exactly once and none of them crossed the network stack; `window.fetch` is
+native again afterwards; a chunk under a 400 ms payload rule is not carried, crosses the route once and keeps its delay.
+
+**Mutants** (each patched into `hydrateAll` alone, under the build lock, then reverted; all six killed, each at its
+own claim):
+
+| mutant | killed at |
+|---|---|
+| the app's fill bypassed: the trip writes `cards`/`cat`/`role` itself | "OWN PATH: `_onDeckHydrated` fired once for every deck…" (the hash still matched, so equal bytes alone could not have caught it) |
+| `window.fetch` left as the trip's answer | "RESTORED: window.fetch is the browser's own again" |
+| one chunk's last card dropped | "the same number of cards" |
+| one chunk's first card changed by one space, same count | "SAME: every deck's cards, category, role and errors hash identically both ways" |
+| payload rules ignored | "RULES: the held file was left to the route" |
+| the answer matches no URL (a silent fall back to the wire, the old 10 s) | "NO WIRE: the page answered the trip's decks…", the only line in the suite that turns this red rather than slower |
+
+**Runs.** LOCAL, under the build lock (`BUILD_PEAK_MIB=4000`, `TMPDIR=/home/user/tmp-pw`), on dev 3b0d973eb (v1.262.3)
+plus this change, bundle rebuilt with `dev:neural:app` (1.262.4): the new spec 2 of 2, then 6 of 6 with `--repeat-each 3`; every test in the twelve files that call `hydrateAll`,
+119 of 119 (11.6 min). There 59 tests call it, at 2.1-2.8 s a call now, and the 26 @curated callers took 210.6 s
+against 399.8 s in GATE1's local batches on v1.262.2 (same box, same step reporter). The full core suite and `e2e:gen` run on the PR (e2e-full); the 26 callers'
+seconds from its shard logs are in `reports/gatetime.md` (GATE2).
+
+
+## v1.262.7 — `advanceUntil` asks for its beat in the page (GATE3, 2026-11-12)
+
+**Why.** `j.advanceUntil(beat, cap, step)` pumps a step and then asks whether `beat` is in the log. It asked by
+`(await this.beats()).some(...)`, which copies the whole beat log back to Node on every step: up to 4,000 entries
+(`fx()` trims there), 31 ms a call against 4.3 ms for an empty evaluate on the dev box, 1,777 calls and 54.9 s in GATE1's
+138-test sample of the deploy gate (`reports/gatetime.md`, c2). It has 105 call sites in 53 files.
+
+**Ships, harness only.** A new `j.sawBeat(beat)` runs the same predicate in the page and returns one boolean;
+`advanceUntil` calls it where it called `beats()`. **Deliberately still two round trips per step, advance then the
+check:** folding the check into `advance()`'s evaluate would read the log in the same task as the pump, so a beat landing
+in a microtask or a network callback between the two would be seen one step later and the journey would stop further on.
+Same steps, same order, same predicate. `nextHand()` copies the log the same way, twice a step (24 files); it is not
+changed here.
+
+**Proof: `e2e/journeys/harness-advance-until.spec.ts`** (3 tests, not @curated), whose claims are the OLD body's
+semantics, so the old body is its control (green, 3 of 3):
+- FIRST STEP: it returns right after the pumped step that brought the beat into the log. The test counts the pump in
+  the page, because a catch holds the game clock.
+- CAP: a beat that never comes throws at the cap, having pumped exactly the cap.
+- SINCE BOOT: the log is read since boot after at least one step, so a beat already there ends it after exactly one
+  step.
+
+**Mutants** (each patched into `e2e/dsl.ts` alone, under the build lock, then reverted):
+
+| mutant | killed at |
+|---|---|
+| `sawBeat` always false | FIRST STEP and SINCE BOOT (the beat is "not seen within" the cap) |
+| `sawBeat` always true | "the beat is there, once" and CAP |
+| returns on the second sighting, one step late | FIRST STEP and SINCE BOOT |
+| checks before it advances | SINCE BOOT only, by design: with the beat arriving mid-loop both orders stop on the same step |
+
+The first version of FIRST STEP read the beat's age on the game clock (`a.now - t <= step`). It let "one step late"
+through, because a catch holds that clock, so the test was rewritten to count the pump.
+
+**Runs.** LOCAL, under the build lock, on dev efc021a84 (v1.262.4) plus this change: the spec 9 of 9
+(`--repeat-each 3`), the old body 3 of 3, the mutants as above; and an A/B of four `advanceUntil`-heavy files (content-capstone, restart-hygiene, stakes-impact,
+roll-execution: 36 tests, the old body then the new, same tree), 36 of 36 green both ways. The beat check fell from
+26.6-51.5 ms a call (the copy) to 17.4-25.7 ms (in the page). The file totals (486.9 -> 408.6 s) are NOT the saving:
+the pump, which this change does not touch, also fell (180.9 -> 158.2 s), so the box was busier during the old arm.
+The full core suite and `e2e:gen` run on the
+PR (e2e-full), and its shard logs give the before and after against e2e-full run 43181633418 (#383).
+
+## v1.262.9 — Four journeys wait on their own claims, not on a sleep (FLAKY1, 2026-11-12)
+
+**Where it comes from.** GATE1 (`reports/gatetime.md`, section 4) found 50 "fixed sleep, then a plain read" sites in the curated specs, eleven of which can lose on a slow runner with the app right. This fixes the four worst the way v1.262.2 fixed the planner retry: a control that makes the test as written lose with the app untouched, an assertion that waits on what its claim needs, then mutants of the app's behaviour. The fifth site, the tightest wall-clock bound (`covered-card`), turned out to rest on an app limit and is recorded at the code, not changed. Spec, archive and version only.
+
+**The controls** (scratch copies of each spec: its own text, unchanged, plus one runner knob; core config, this box, under the lock). Old form = dev's text; new = this change.
+
+| site | control (the app untouched) | old form | new form |
+|---|---|---|---|
+| `option-overflow` :144/:149, the wheel glide | every frame callback delayed 60 ms (about 16 fps) | red 9 of 9 at "the last card is reachable" (112–211 px short) | green 20 of 20, twice |
+| `outcome-on-cards` :193, the rise | the main thread stalled 500 ms just after the cause's first frame (the rise runs on the compositor; the test's reads wait) | red 10 of 10 at "the cause rises" (2.3–3.3 px in its 450 ms) | green 40 of 40 (20 at each width) |
+| the same, probabilistic | 6x CPU throttle from the landing on | red 5 of 17 (twice at "the cause rises"; three times the cause was already gone at the second read) | green 40 of 40, twice |
+| `outcome-on-cards` :196, the removal | every page timer of 1 s or more fires 800 ms late | red 18 of 18 at "the cause is gone by ~1.6 s" | green 40 of 40, twice |
+| `reading-navigation` :307, PageDown | the GPU process stopped for 700 ms after the key, and the dossier answered 600 ms late | red 11 of 11 at the delivery's `toEqual` (scroll 592 → 1296) | green 20 of 20, twice (after one revision, below) |
+| `covered-card` :165/:171, the double tap | 4x and 6x CPU throttle from the landing on | red 4 of 20 at 4x, all at "the second tap still falls inside the gap" (round trips 141–153 ms); 15 of 20 at 6x | NOT CHANGED: a page-timed version was red 11 of 80 at 4x and 16 of 80 at 6x, on the app's own window (below) |
+
+Controls that did NOT break the old forms, so nobody repeats them: #1 under 6x CPU (the glide's frames kept up); #2 with the main thread stalled 500 ms AT the mount (the animation then starts late too, 10 of 10 green); #3 with timers 400 ms late (the late baseline was margin); #4 under 6x and 20x CPU, delayed frames, a 700 ms main-thread stall at the first scroll, `ImpulseScrollAnimations` and `WindowsScrollingPersonality` (the scroll ends about 155 ms after the key either way), and a GPU stall alone of 470, 600 or 2,000 ms (both reads then fell inside it; it needs the late dossier to land the second read after it). A CDP evaluate does not interrupt a long task (1,449 ms round trip behind a 1,500 ms one).
+
+**What each line claimed, and claims now.**
+
+| line | before | now |
+|---|---|---|
+| `option-overflow` :144–145 | past 100 px, 250 ms of Node sleep after a 600 px wheel | past 100 px, polled; within 15 frames of the wheel's own frame (250 ms at 60 fps); the page saw that one wheel |
+| `option-overflow` :148–154 | within 4 px of the end after 12 × 60 ms + 200 ms | the glide is polled until it stops (no frame running, no target pending); within 4 px of the end, and ON it (under 1 px, v1.213.2's landing); within 40 frames of the wheel that sent its target to the end (what the sleeps allowed at 60 fps; it lands in 23–26) |
+| `outcome-on-cards` :193–195 | 4 px higher than a baseline taken a click, a frame pump and four evaluates after the answer, 450 ms of Node sleep later | more than 4 px above the rect it mounted at, once `ngRise`'s own currentTime is 450 ms (a starved page starts the animation late: a 450 ms wall-clock timer from the mount once read 0 px under the 6x throttle) |
+| `outcome-on-cards` :196–198 | no cause and no pop in the DOM 1,600 ms of Node sleep after that baseline | every float the observer saw mount (the cause and at least the pops counted earlier) is disconnected when a 1,600 ms PAGE timer started at its own mount fires (page timers run in deadline order, so the app's 1,450 and 1,250 ms removals always precede it); then none in the DOM |
+| `reading-navigation` :305–307 | `scrollTop > 0` (already true: the answer's scrollIntoView left it at 574) and 400 ms | a `scrollend` after the key at an offset past where the key found the reader, with the reader still there; then the offset is past it |
+
+One wait had to be revised: the first `reading-navigation` form took the first `scrollend` after the key and went red 2 of 20 under the stall. With the compositor stopped, Chromium can end the key's injected scroll gesture before its animation starts and fire a `scrollend` at the start offset, then a second one at the end (3 of 20 in a probe that logged every event).
+
+**Mutants** (patched into the served bundle, minified text, a missing `from` throws):
+
+| mutant | new | old |
+|---|---|---|
+| wheel handler removed | red, "a wheel over the hand scrolls the hand" | red |
+| the v1.213.2 creep (no landing branch) | red, "the glide finishes" | **green** |
+| steps shrink to 2.2% (creeps short) | red, "the glide finishes" | red, 1,242 px short |
+| a glide four times slower that still lands | red, "lands within 40 frames" (98) | red, 189 px short |
+| target 60 px short of the end | red, "reachable" | red |
+| no rise (it still scales in) | red, "the cause rises" (1.36 px) | red |
+| a 3 px rise | red (3.87 px) | red |
+| the cause never removed / 500 ms late / on the game clock | red, "each float is gone 1.6 s after it mounted" | red |
+| pops never removed | red, same | red |
+| pops removed 600 ms late (1,850 ms) | red, same | **green** |
+| PageDown eaten by the reader | red, at the rest wait | **green** |
+| the late dossier resets the reader to the top | red, at the `toEqual` | red |
+| the tap guard off / cut to 150 ms | (page-timed version, not shipped) red, "grades nothing", in the three landing tests | red in the same three (some at the old Node premise, 505–799 ms) |
+
+**Non-kill, recorded in the spec:** the catch's double click (1440) stays green under both guard mutants, in the old form too, although the page record says its second click landed on answer A. Its "grades nothing" does not rest on `_landTapGuard`; not traced.
+
+**`covered-card`: an app limit, so stopped there.** The brief's question was whether its 140 ms bound fails only when the app is wrong; it also fails when the runner is slow (above). But the bound the claim rests on is the guard's own 500 ms window, and the app measures it when the click is handled. A version with every premise read from the page (the second tap aimed `gap` after `_landTakenAt` by the page's clock, a slow round trip only spending the wait; both taps seen, the second on answer A, handled within 500 ms of the stamp) was green unthrottled and killed both guard mutants, yet stayed red 11 of 80 at 4x and 16 of 80 at 6x: the take-up's own work alone ran to 741–914 ms (median 121–325), and the second click was handled 507–1,183 ms after the stamp. No test that sends its taps one after the other can fit inside a window the page has already spent, so the spec keeps dev's lines, with the finding at the code. `_landTapGuard` compares `performance.now()` when the click is HANDLED with the take-up stamp, not the time of the tap. A probe sent a player's two taps 180–350 ms apart over CDP without waiting for the page, as a finger does: under 4–6x CPU the second click was handled 409–1,194 ms after the stamp, 5 of 9 past the 500 ms window, though its input came well inside it. At one point, which since U52 b is no longer answer A at 390, so nothing graded (13 of 13); where the layout does put answer A under a second tap, a slow device can grade it. Comparing the click's `timeStamp` with the take-up event's would hold. Once the guard measures the tap's own time, the page-timed premises can read input times too, and the test stops depending on the page's speed.
+
+**Not in scope, noted:** `outcome-on-cards` :296 ("still clear mid-flight") and :335 ("does not rise") read after fixed sleeps too; both are absence-shaped, and on a page that starts the animation late they can pass before it has begun.
+
+**Runs.** LOCAL, under the build lock (`BUILD_PEAK_MIB=4000`, `TMPDIR=/home/user/tmp-pw`), core config, this box with eight other seats on it. On the final tree (dev `5619059fb`, v1.262.7, merged; bundle rebuilt with `dev:neural:app` at 1.262.9): the four spec files in full, 3 + 16 + 12 + 21 of 52; the three changed tests `--repeat-each 20` unthrottled, 20 + 40 + 20 of 80; each new form `--repeat-each 20` under the control that broke its old form (above), and each old form 3 to 5 times under it. Earlier, on dev `efc021a84` and `3b0d973eb`: the mutant table, the first 20-fold arms, the probes. The controls are scratch copies generated from each spec's own text plus a runner knob (CDP `Emulation.setCPUThrottlingRate`, a delayed `requestAnimationFrame`, a late `setTimeout`, the GPU process stopped by its PID from `SystemInfo.getProcessInfo`, a held route, a main-thread stall), and the mutants are string patches of the served bundle; none is in the tree. The full core suite and `e2e:gen` run on the PR (e2e-full). No gate, baseline or ceiling moved; no `@curated` tag added or removed; spec-only, so no build fingerprint row moves.
+
+## v1.262.10 — The first-hand baseline is checkpointed at dev v1.262.7's own level (PAYBASE1, 2026-11-12)
+
+**Why.** `first_hand_gzip_bytes`' delta cap (6,000 B, measured on the first-hand CORE) reads growth since the last
+ACCEPTED baseline: 365,296 B, v1.221.0 (3d1b7552a), 7 Oct. Dev 5619059fb (v1.262.7) measured 371,107 B on its own
+deploy (Deploy to Preview run 43196894885, verdict warn): +5,811 B, 189 B of room. PR #384 (+572 B on top of dev)
+went red on `payload-first-hand.spec.ts:117` at +6,383 B, and so would the next PR of any size. The owner's
+standing rule for exactly this (5 Nov, PR #336; precedents 35bdbf6ba, fa246f4bd): the baseline is checkpointed at
+DEV's own level, never at a branch's. Target 365,000, action 465,000 and delta_cap 6,000 do not move; nor do the
+eager set's baseline or the deferred ceiling.
+
+**Reproduced, to the byte.** `payload-first-hand.spec.ts` on this tree's own emit and bundle (dev 5619059fb's
+sources), over a borrowed Quartz page build (v1.256.2): start K-Guard Top, 11 requests, core 371,107 B, as the
+deploy measured. Of the eleven requests only `/postscript.js` differs in bytes (77,140 raw here, 79,594 on the
+deploy: the PostHog snippet the deploy bakes in, +1,063 B gzip), and it is excluded from the core; the other ten
+sum to the same raw bytes as the deploy's. The `?v=1.256.2` on `neural.js` and `neural.css` in the committed
+`tests/artifacts/first_hand_payload.json` is the borrowed page's query string; the bytes served are this tree's.
+
+**Accepted with the script** (`check_payload_budget.py --accept-baseline first_hand_gzip_bytes --reason …`), before
+the version bump, so it stamped `v1.262.7 (5619059fb)` itself; nothing was corrected by hand.
+
+**Synced with dev v1.262.9 (fa41f1523) before landing, the checkpoint kept at v1.262.7** (the orchestrator's call,
+PAYBASE2): v1.262.9 changed test files only, so v1.262.7's level IS dev's. Measured here on v1.262.9's own tree
+(1.262.9 baked into the bundle): core 371,107 B again, to the byte. This PR's own bundle bakes 1.262.10, one
+character longer in six places: 371,110 B locally, +3 B against the new baseline, its own visible delta. The
+version is 1.262.10 because v1.262.8 was this PR's number before the sync and v1.262.9 is dev's.
+
+**Where the 5,811 B came from**, gzip -9 per file, as the spec gzips. The neural files were rebuilt from clean
+exports of dev at each checkpoint (emitter, MDP shards, bundle). The v1.221.0 row's rebuild of 3c1e3cc9b plus the
+v1.216.0 page bytes (`/` 7,594, `index.css` 10,113, `prescript.js` 1,297) sums to exactly 365,296 B, so the start
+point is the baseline as measured. "data" is `graph-data.json` + `curriculum.json` + `flashcards/_index.json`.
+
+| dev, by period | neural.js | neural.css | data | net | what moved it |
+|---|---|---|---|---|---|
+| 7-19 Oct, v1.222.0-v1.227.8 | +848 | −82 | −73 | +693 | landing-deck answers (#272, +409 on its own PR), the reading-first way, mastery gold |
+| 21-28 Oct, v1.229.0-v1.240.1 | −1,547 | +1,115 | −3,318 | −3,750 | the graph restructure (#315), −3,174 of the data; article sections (#307), the directed opening |
+| 30 Oct-6 Nov, v1.241.0-v1.251.1 | +2,661 | +657 | +2,628 | +5,946 | the 52 missing moves (#343) +1,727 and Demi Guard (#328) +787 of the data; the drawer, Practice's new look, the video theater |
+| 9-10 Nov, v1.251.2-v1.255.2 | −3,999 | +796 | 0 | −3,203 | the node dossier retired (v1.255.1, −6,405); hidden moves (v1.255.0, +2,491 eager) |
+| 11-12 Nov, v1.256.0-v1.262.7 | +6,247 | +76 | 0 | +6,323 | ranked search (v1.257.0, +2,871); moves mastery stage 2, guest practice |
+| the home page `/` | | | | −198 | `index.css` and `prescript.js` unchanged |
+| **v1.221.0 -> v1.262.7** | **+4,210** | **+2,562** | **−763** | **+5,811** | core 365,296 -> 371,107 |
+
+The last two days alone added more than the cap (+6,323 B over 21 versions, none over it on its own); the dossier
+retirement on 10 Nov is what kept the total under it until today. The whole first load is 405,219 B gzip on the
+deploy (404,156 locally, the PostHog snippet the difference): 40,219 B over the 365,000 B target, 59,781 B under
+the 465,000 B action line. Checkpoints: 557c57d14, f63049013, 4b84d6cd3, 6a5bfa27f, then 5619059fb. The data
+column's three named merges were measured by emitting the tree just before and just after each (c87c80401 ->
+753b26df8, f63049013 -> 8e1b9845d, 917191cc9 -> c108e4646); the app work is named from what touched
+`app.src.jsx` and the stylesheets in each span, with a figure only where its own PR recorded one.
+
+**And the deferred ceiling, +4 B, in its own commit** (PAYBASE3, the orchestrator's authorisation under the owner's
+U134 b). The merged build went red on `deferred payloads (raw): 510,981 B exceeds ceiling 510,977 B`: dev's deferred
+set had stood exactly at its ceiling since v1.259.0, and "1.262.10" is one character longer than "1.262.9". Built
+both ways from the same sources, `game-study.js`, `game-study.worker.js`, `game-values.js` and `settings-ui.js` each
+grow by 1 B, and each is byte-identical to the 1.262.9 build once the version is swapped back; no other deferred file
+moves. The ceiling moves to exactly 510,981 B (`budget_site.json` and `NEURAL_TARGET`), leaving 1,019 B of the owner's
+512,000 B; at v1.263.0 the set is 4 B smaller again. `check_payload_budget.py` exits 0 on this build.
+
+**Runs.** LOCAL, under the build lock: the bundle (`dev:neural:app`) and `payload-first-hand.spec.ts` on v1.262.7,
+on v1.262.9 and at 1.262.10 (1 of 1 each), the five sandbox rebuilds and nine emit-only ones. `npm run ci:validate`
+on the merged tree. The PR's e2e-full runs the full core suite and `e2e:gen`, with `payload-first-hand` a few bytes
+over the new baseline (the version string).
 
 ## v1.262.1 — The privacy page says what the Service really collects and syncs (orchestrator, PRIV1 to PRIV4, 2026-11-11 and 12)
 
