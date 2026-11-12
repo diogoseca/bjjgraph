@@ -37,7 +37,8 @@
 //                    the tests that ran and passed must be exactly the rows, none skipped, more than zero.
 //   promotion        (deploy.yaml only, its first gate, before the build): the commit that vouches for a push to main
 //                    must have a green e2e-full run (push or dispatch); see its section below for every push shape.
-//   tripwire         (both deploys, AFTER the Pages upload and the live checks): reads the gate step's start and end
+//   tripwire         (both deploys, AFTER the Pages upload and the live checks; since v1.263.4 it also fails when the
+//                    count `ran` leaves in e2e/test-results is missing or differs from the ledger): reads the gate step's start and end
 //                    from this run attempt's own jobs API, requires exactly one step of that name (zero or two must
 //                    not read as fast), warns over the target and fails over the line. It runs after the upload on
 //                    purpose: a slow but green gate still ships, and a deploy blocked at the line would only move the
@@ -53,7 +54,7 @@
 //   node scripts/deploy_gate.mjs tripwire                      (in a workflow: GH_TOKEN and the GITHUB_* variables)
 //   node scripts/deploy_gate.mjs refresh --log <gate log> --run <run id>
 //       (gh run view <id> --log > gate.log; rows the log does not name keep their seconds and are listed)
-import { readFileSync, readdirSync, statSync, writeFileSync, appendFileSync } from "node:fs";
+import { readFileSync, readdirSync, statSync, writeFileSync, appendFileSync, mkdirSync } from "node:fs";
 import { join, relative, resolve, dirname } from "node:path";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
@@ -240,6 +241,14 @@ export function checkListed(listed, manifest) {
 // more than zero. It reads the JSON reporter's file from e2e/playwright.config.ts, which lands in an outputDir that
 // Playwright wipes at the start of every run, so it can only ever count this run.
 export const RESULTS = "e2e/test-results/results.json";
+// What `ran` counted, for the tripwire (v1.263.4, GATE7; the reviewer's new 3 on #392). The count runs as an npm
+// post-hook, and npm skips pre and post hooks under `ignore-scripts` (an .npmrc line, or npm_config_ignore_scripts in the
+// environment) while still running the main script green: the count would be switched off with nothing red. So `ran`
+// leaves its count here, beside the report, in the outputDir Playwright wipes at every run's start (so it can only be
+// this run's), and the tripwire, later in the same job, fails unless it is there and equals the ledger. The tripwire
+// cannot read the gate step's LOG instead: the job-logs API serves a job's log only after the whole job completes (it
+// answered 404 BlobNotFound for deploy-dev run 43274512974's job while it ran), and the tripwire is a step of that job.
+export const COUNT = "e2e/test-results/gate-count.json";
 
 /** Flatten Playwright's JSON report into { file, title, status, result } (status: expected|unexpected|flaky|skipped). */
 export function flattenResults(json) {
@@ -276,7 +285,7 @@ export function checkRan(results, manifest) {
   return { errors, passed, skipped, rows: want.size, total: results.length };
 }
 
-function ran(root, args) {
+export function ran(root, args) {
   const file = args.includes("--report") ? args[args.indexOf("--report") + 1] : RESULTS;
   let json;
   try { json = JSON.parse(readFileSync(resolve(root, file), "utf8")); }
@@ -284,8 +293,22 @@ function ran(root, args) {
   const r = checkRan(flattenResults(json), loadJson(root, MANIFEST));
   console.log(`deploy gate ran ${r.total} tests: ${r.passed} passed of ${r.rows} rows, ${r.skipped} skipped`);
   for (const e of r.errors) console.log("FAIL " + e);
+  mkdirSync(dirname(resolve(root, COUNT)), { recursive: true });
+  writeFileSync(resolve(root, COUNT), JSON.stringify({ total: r.total, passed: r.passed, skipped: r.skipped, rows: r.rows, errors: r.errors.length }) + "\n");
   return r.errors.length ? 1 : 0;
 }
+
+/** The tripwire's second question: did the count run, and did it count exactly the ledger? `count` is COUNT's JSON or null. */
+export function evaluateCount(count, rows) {
+  if (!count) return { ok: false, message: `the gate's count is missing (${COUNT}): posttest:curated did not run. npm skips post-hooks under ignore-scripts (an .npmrc line or npm_config_ignore_scripts); the tests that ran were never compared with the ledger` };
+  const { total, passed, skipped, errors } = count;
+  if (!(rows > 0 && count.rows === rows && total === rows && passed === rows && skipped === 0 && errors === 0))
+    return { ok: false, message: `the gate's count does not equal the ledger: ran ${total}, passed ${passed}, skipped ${skipped}, errors ${errors}, against ${count.rows} rows counted and ${rows} in the ledger now` };
+  return { ok: true, message: `the gate's count: ${passed} passed of ${rows} rows, 0 skipped` };
+}
+
+/** The tripwire's exit: red when the gate passed its line (or its time could not be read), or when the count is wrong. */
+export const tripwireExit = (time, count) => (time.level === "error" || !count.ok ? 1 : 0);
 
 // ── the promotion rule, enforced (v1.263.3, GATE6; the reviewer's finding 1 on #388; refined v1.263.4, GATE7) ───────
 // Production runs only the deploy gate, so the full suite must already have passed on the exact tree it ships. A
@@ -461,8 +484,12 @@ async function tripwire(root) {
   }
   const line = { error: "::error title=Deploy gate time::", warning: "::warning title=Deploy gate time::", ok: "::notice title=Deploy gate time::" }[verdict.level];
   console.log(line + verdict.message);
-  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### Deploy gate time\n${verdict.message}\n`);
-  return verdict.level === "error" ? 1 : 0;
+  let count = null;
+  try { count = JSON.parse(readFileSync(resolve(root, COUNT), "utf8")); } catch { count = null; }
+  const c = evaluateCount(count, loadJson(root, MANIFEST).tests.length);
+  console.log((c.ok ? "::notice title=Deploy gate count::" : "::error title=Deploy gate count::") + c.message);
+  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### Deploy gate time\n${verdict.message}\n\n${c.message}\n`);
+  return tripwireExit(verdict, c);
 }
 
 // ── refresh, by hand ──────────────────────────────────────────────────────────────────────────

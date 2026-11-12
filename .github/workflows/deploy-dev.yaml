@@ -313,7 +313,11 @@ jobs:
       # purpose: a slow but green gate still ships the preview, and this red says the gate needs trimming. It reads
       # the API rather than timing the gate's own command because scripts/check_build_chains.py compares every step
       # before the Pages boundary across both deploys. Mechanism and history: scripts/deploy_gate.mjs.
-      - name: Deploy gate time (tripwire)
+      # AND THE GATE'S COUNT (v1.263.4, GATE7): it also goes red when the count `posttest:curated` leaves in
+      # e2e/test-results is missing (npm skips post-hooks under ignore-scripts, so the count could be switched off
+      # with the gate still green) or differs from the ledger. It reads that file, not the gate step's log: the
+      # job-logs API serves a job's log only after the whole job completes, and this step is part of that job.
+      - name: Deploy gate time and count (tripwire)
         env:
           GH_TOKEN: ${{ github.token }}
         run: node scripts/deploy_gate.mjs tripwire

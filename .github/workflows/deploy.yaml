@@ -364,8 +364,9 @@ jobs:
 
       # THE GATE'S OWN TIME (v1.263.0, GATE5): see deploy-dev.yaml's step of the same purpose and
       # scripts/deploy_gate.mjs. Like console, the site is already live, so it does not fail this job (Lighthouse,
-      # IndexNow and the release still run); its verdict turns `deployed-console` red when the gate passed its line.
-      - name: Deploy gate time (tripwire)
+      # IndexNow and the release still run); its verdict turns `deployed-console` red when the gate passed its line,
+      # or (v1.263.4, GATE7) when the count posttest:curated leaves is missing or differs from the ledger.
+      - name: Deploy gate time and count (tripwire)
         id: gatetime
         continue-on-error: true
         env:
@@ -423,10 +424,10 @@ jobs:
           fi
           echo "live redirects answer"
           if [ "${{ needs.deploy.outputs.gatetime }}" != "success" ]; then
-            echo "::error::The curated gate passed its line, or its time could not be read (outcome: ${{ needs.deploy.outputs.gatetime }}). See the deploy job's 'Deploy gate time (tripwire)' step; the budget is tests/artifacts/deploy_gate_budget.json."
+            echo "::error::The curated gate passed its line, its time could not be read, or its count is missing or differs from the ledger (outcome: ${{ needs.deploy.outputs.gatetime }}). See the deploy job's 'Deploy gate time and count (tripwire)' step; the budget is tests/artifacts/deploy_gate_budget.json."
             exit 1
           fi
-          echo "the curated gate's time is inside its line"
+          echo "the curated gate's time is inside its line, and its count equals the ledger"
 
   lighthouse-ci:
     needs: deploy

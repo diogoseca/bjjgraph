@@ -53,7 +53,7 @@ import { tmpdir } from "node:os";
 import {
   ROOT, BUDGET, MANIFEST, check, scanSites, checkStatic, checkBudget, checkListed, flattenListing,
   evaluateTripwire, parseGateLog, lineLiterals, loadJson, flattenResults, checkRan, RESULTS,
-  judgePromotion, evaluatePromotion, TESTED_ONLY_DIFF,
+  judgePromotion, evaluatePromotion, TESTED_ONLY_DIFF, ran, COUNT, evaluateCount, tripwireExit,
 } from "../scripts/deploy_gate.mjs";
 
 const budget = loadJson(ROOT, BUDGET);
@@ -261,6 +261,47 @@ test("PROMOTION: only a green push or dispatch run of e2e-full on that commit vo
   assert.equal(evaluatePromotion([run(5, "pull_request", "success")], D).ok, false, "a PR run tested a merge ref, not this commit");
   assert.equal(evaluatePromotion([run(6, "push", null, "in_progress")], D).ok, false, "a run still going vouches for nothing yet");
   assert.equal(evaluatePromotion([run(7, "push", "success", "completed", "e".repeat(40))], D).ok, false, "another commit's green run");
+});
+
+test("COUNT: ran leaves what it counted; the tripwire fails when the count is missing or is not the ledger", () => {
+  const root = mkdtempSync(join(tmpdir(), "deploy-gate-count-"));
+  try {
+    mkdirSync(join(root, "tests/artifacts"), { recursive: true });
+    mkdirSync(join(root, "e2e/test-results"), { recursive: true });
+    writeFileSync(join(root, MANIFEST), JSON.stringify({ tests: [row("a.spec.ts", "@curated one"), row("a.spec.ts", "@curated two")] }));
+    const t = { status: "expected", results: [{ status: "passed" }] };
+    writeFileSync(join(root, RESULTS), JSON.stringify({ suites: [{ title: "a.spec.ts", file: "a.spec.ts", specs: [
+      { title: "@curated one", file: "a.spec.ts", tests: [t] }, { title: "@curated two", file: "a.spec.ts", tests: [t] }] }] }));
+    assert.equal(ran(root, []), 0, "a report equal to the rows counts green");
+    const count = JSON.parse(readFileSync(join(root, COUNT), "utf8"));
+    assert.deepEqual(count, { total: 2, passed: 2, skipped: 0, rows: 2, errors: 0 }, "ran leaves what it counted beside the report");
+    assert.equal(evaluateCount(count, 2).ok, true, "a count equal to the ledger passes the tripwire");
+  } finally { rmSync(root, { recursive: true, force: true }); }
+  const ok = { total: 2, passed: 2, skipped: 0, rows: 2, errors: 0 };
+  assert.match(evaluateCount(null, 2).message, /count is missing .*posttest:curated did not run\. npm skips post-hooks under ignore-scripts/, "a missing count (the hook never ran) is named");
+  assert.equal(evaluateCount({ ...ok, passed: 1, errors: 1 }, 2).ok, false, "a short count fails");
+  assert.equal(evaluateCount({ ...ok, skipped: 1, passed: 1 }, 2).ok, false, "a skip fails");
+  assert.equal(evaluateCount(ok, 3).ok, false, "a ledger that differs from what was counted fails");
+  assert.equal(evaluateCount({ ...ok, total: 0, passed: 0, rows: 0 }, 0).ok, false, "zero is never a count");
+  assert.equal(tripwireExit({ level: "ok" }, { ok: false }), 1, "a missing or wrong count turns the tripwire red even when the time is fine");
+  assert.equal(tripwireExit({ level: "warning" }, { ok: true }), 0, "over the target but under the line, with the count right, stays green");
+  assert.equal(tripwireExit({ level: "error" }, { ok: true }), 1, "over the line is red whatever the count");
+});
+
+test("COUNT cannot be switched off unseen: no tracked .npmrc sets ignore-scripts, and no deploy sets npm_config_ignore_scripts", () => {
+  const r = spawnSync("git", ["ls-files", "--", ".npmrc", "*.npmrc", "**/.npmrc"], { cwd: ROOT, encoding: "utf8" });
+  assert.equal(r.status, 0, r.stderr);
+  const npmrcs = r.stdout.split("\n").filter(Boolean);
+  console.log(`# tracked .npmrc files scanned: ${npmrcs.length}`);
+  for (const f of npmrcs) assert.doesNotMatch(readFileSync(join(ROOT, f), "utf8"), /^\s*ignore-scripts\s*=\s*true/mi, `${f} sets ignore-scripts, which skips posttest:curated: the count would never run`);
+  let envs = 0;
+  for (const name of ["deploy-dev.yaml", "deploy.yaml"]) {
+    const wf = workflow(name);
+    const maps = [wf.env, ...Object.values(wf.jobs).flatMap((j) => [j.env, ...(j.steps || []).map((s) => s.env)])].filter(Boolean);
+    envs += maps.length;
+    for (const m of maps) for (const k of Object.keys(m)) assert.notEqual(k.toLowerCase(), "npm_config_ignore_scripts", `${name} sets ${k}, which skips posttest:curated`);
+  }
+  assert.ok(envs > 0, "positive coverage: the deploys' env maps were found and read");
 });
 
 test("TRIPWIRE: exactly one completed gate step; ok, warning and error by the budget; absence is an error", () => {
