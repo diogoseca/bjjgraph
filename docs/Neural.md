@@ -388,8 +388,8 @@ trims the question with an ellipsis, never the link, to one line (two on a tall 
 phone shows both at arrival. Its text sits one `--section-gap` under the cards at every width; with
 1024px of free pane it is a hint inside the choices row's bottom band and takes no row of its own,
 the panic drill included. The card's answers are built but inert, so no key, click or
-paging gesture acts on them, letters a/b/c included, and no clock runs. The ✕ stays: it is the
-Questions layer's handle. Answer for Points (Tab + Enter too), or a tap on the question, calls
+paging gesture acts on them, letters a/b/c included, and no clock runs. Its ✕ hides Questions;
+an open card's ✕ folds to it (U136). Answer for Points (Tab + Enter too), or a tap on the question, calls
 `_landReveal`: the card opens in place as today's card (multiple choice, or the recall flashcard)
 for the rest of that landing; paging and backfill keep it shown, each card keeps its own window.
 A take-up moves nothing above the card: the line keeps the deck's step (only its width differs) and the
@@ -838,8 +838,8 @@ on its own latch and never touches the pane.
 ## 8. Progress
 
 **Progress is stored per owner**: `bjj-neural-owner:<guest|account:id>:*`. A guest's first load
-adopts the old unowned `bjj-neural-progress` once, keeping its bytes. **A sign-in's first successful pull joins the
-guest copy's practice to the account** once, saying so (`joinGuest`): it only adds, and the guest
+adopts the old unowned `bjj-neural-progress` once, bytes kept. **A sign-in's first successful pull joins the
+guest copy's practice to the account** once, saying so (`joinGuest`): it only adds; the guest
 copy stays. **Local-only**: a device whose SDK cannot load, or cannot check its session, plays the
 account's local copy under a banner, never syncs, and on re-verify merges before a push.
 
