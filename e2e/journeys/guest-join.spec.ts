@@ -16,13 +16,16 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  * The guest copy is seeded through the harness's `initialState` (a guest copy on the device); the sign-in goes through
  * the real facade with a stub SDK (e2e/fixtures/neural-auth-sdk.ts). The harness serves `{}` for dossier chunks, so no
  * film or article content shows; nothing here depends on either.
- * MUTANTS (2026-11-12, each turned the claim named red; see the archive entry for v1.262.0):
- *   no step below the controls (`_evStepBelowControls` returns at once) → 390 "covers no control" (the sentence's first
- *     line on the top-left "Open the sidebar" and "Search" targets; the first build of v1.262.0 did exactly this)
- *   the menu row restored                                      → both widths, "no import row"
- *   the join run on every visit (the mark never read)           → both widths, "once"
- *   the line printed through the name splitter (no `whole`)     → both widths, the line's text ("Your practice" over a
- *     dim "from before you signed in is saved": the first build of v1.262.0 did exactly this, caught by its own shoot)
+ * MUTANTS (2026-11-12, run under the build lock on this green spec, each built and served alone):
+ *   no step below the controls (`_evStepBelowControls` returns at once) → 390 red, "covers no control" (the sentence's
+ *     first line on the top-left "Open the sidebar" and "Search" targets; the first build of v1.262.0 did exactly this)
+ *   the menu row restored                                       → both widths red, "no import row"
+ *   the line printed through the name splitter (no `whole`)      → both widths red, the line's text ("Your practice" over
+ *     a dim "from before you signed in is saved": the first build of v1.262.0 did exactly this, caught by its own shoot)
+ * NON-KILL, named: the join run on every visit (the mark never read) passes here. Re-joining an UNCHANGED guest copy
+ *   adds nothing (every merge step is idempotent), so nothing is said and "once" holds without the mark. What the mark
+ *   is for, a list the account deleted staying deleted, is pinned by tests/guest_join_safety.test.mjs test 5, which
+ *   this mutant turns red.
  */
 
 const LINE = "Your practice from before you signed in is saved"
