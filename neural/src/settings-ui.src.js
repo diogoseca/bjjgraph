@@ -158,7 +158,11 @@ renderSettings() {
         // mailed. The sentence goes with the flag; flipped, the row reads as it did in v1.259.1.
         const wrap = document.createElement("div");
         wrap.setAttribute("data-digest-setting", "1");
-        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to " + (this.user.email || "your account email") + "." + (NG_DIGEST_LIVE ? "" : " No email is being sent yet."),
+        // THE ADDRESS IS MARKED (v1.261.2): the app's NG_NO_CAPTURE note (app.src.jsx) says why. `_addressMarkup` (eager, app.src.jsx)
+        // puts it in its own `ph-no-capture` span, so the line around it stays readable to analytics and the replay records the address
+        // as an empty box. It is built in the app, not here: this deferred set is at its ceiling, and the call is shorter than the address
+        // expression it replaces.
+        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to " + this._addressMarkup() + "." + (NG_DIGEST_LIVE ? "" : " No email is being sent yet."),
           [["On", true], ["Off", false]], "emailDigest", false));
         const beta = document.createElement("span");
         beta.textContent = "Beta";

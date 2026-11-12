@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.261.2** — [A signed-in player's name, initial and address never reach analytics](#v12612--a-signed-in-players-name-initial-and-address-never-reach-analytics-mask1-to-mask3-2026-11-12)
 - **v1.261.0** — [Practice opens inside the drawer, at the drawer's width, as Path does](#v12610--practice-opens-inside-the-drawer-at-the-drawers-width-as-path-does-owner-u135-a-pract1-and-pract2-2026-11-12)
 - **v1.260.0** — [The first ✕ on an open question folds it back to its one line](#v12600--the-first--on-an-open-question-folds-it-back-to-its-one-line-owner-u136-a-fold1-2026-11-11)
 - **v1.257.0** — [Search shows the best match first](#v12570--search-shows-the-best-match-first-one-ranked-list-each-submission-family-one-row-both-seats-on-every-position-owner-u132-c-search1-and-search2-2026-11-11)
@@ -15464,3 +15465,17 @@ Screens: `artifacts/briefing/img/practicedrawer/` (PRACT1: 00 to 40; PRACT2: 50 
 **Runs, all local, under the build lock.** notifications-tab + account-menu + settings-tabs + settings-lazy: 28 of 28 on each dev merge, 29 of 29 on round 2 (notifications-tab grew to seven). Ten Settings journeys (settings-tabs, settings-lazy, keyboard, start-from, hidden-moves, hidden-sections, mastery-gold, recall-badge, loss-aversion, legacy-gone) on the first cut: 85 of 86; the red, `mastery-gold` "mouse toggle … at 1440px" (its press on On right after a 150 ms wheel scroll landed on a `<div>`), passed 4 of 4 rerun on the same build, where a guest's Settings were byte-identical to v1.259.1's: a timing flake in that step, not this change. `npm run ci:validate` 25 of 25 on the merged head. The full core suite and the generated suite are the PR's e2e-full.
 
 **Screens** (`artifacts/briefing/img/digesthide/`, all from Mount Top, signed in as player@example.com unless a guest): 01/06 before and 02/07 after on Flashcards (the tab row), 03/08 before on Notifications, 04/09 the row an account with it on sees, 05/10 a guest before and after (the link to Notifications), at 1440 and 390. "Before" is this build with the one constant flipped, which renders v1.259.1's Settings byte for byte (above), so each pair differs only in the rule.
+
+## v1.261.2 — A signed-in player's name, initial and address never reach analytics (MASK1 to MASK3, 2026-11-12)
+
+**Wrong.** The app never calls `identify()` but printed the identity, and PostHog's autocapture and replay read it (orchestrator, PostHog, 30 days: 193 badge clicks; 14 signed-in ones with a clicked text over one character; 1 event with an "@"). posthog-js 1.447.12 (the site's `array.js`): every chain element's attributes go in, a button's nested `<span>` text too (the avatar's letter rode every badge click), and a pressed element's own text is `$el_text` (the name). Mechanism and quotes: the `NG_NO_CAPTURE` note, app.src.jsx.
+
+**Ships.** Each element printing the identity carries `ph-no-capture` before the identity is written: the badge's name and letter (toggled with `this.user`; inside the badge `pointer-events:none`, so a press on the name still counts as a badge click), the menu's top row (its tooltip kept), and Settings' address (a span from the eager `_addressMarkup()`: the deferred set is at its ceiling). Nothing a player sees or hears changes.
+
+**Pins.** `e2e/journeys/no-identity-in-analytics.spec.ts`, 4 tests: rrweb's rule on badge, menu and Settings; `e2e/fixtures/posthog-autocapture-mirror.ts` (1.447.12's click path) on real mouse presses and 390x631 touch taps, the badge press still counted; an email-only account (`{ name: null }`). A local probe ran the real `array.js` beside the mirror: `$elements_chain` and `$el_text` equal on 5 presses, on the fix and on dev's code ("Player Example", "P").
+
+**Mutants**, 7 of 7 killed at the leak: dev's code (all 4); badge unmarked (all 4); letter unmarked (all 4, "P"); mark not inert ((b), (c), touch: "the click is still counted"); menu row unmarked ((a), (c), touch); Settings address unmarked ((a), on dev and on the #378 merge); the address on the menu's `aria-label` (all 4).
+
+**Runs**, local, under the lock: the spec 4/4 on each build; area journeys 66/66, then 92/92 on the #378 merge; units 1,464/1,464; `ci:validate` green but one load flake (`verify_clips` deadline, 3/3 alone).
+
+**Bytes**, against #378 (90f2655b3): `neural.js` +210, `neural.css` +47, `settings-ui.js` −18; eager gzip 350,687 B (+97; +1,999 of the 5,000 cap); deferred 510,957 of 510,977 B. Gate exit 0. Rows re-seeded (`validate:build-shape:app`). No ceiling moved: this entry was cut to fit the archive's own (3,236 characters of room after #378).

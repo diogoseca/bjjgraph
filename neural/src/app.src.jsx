@@ -18,6 +18,19 @@ const NG_OUTCOME_BUBBLE = false;
 // v1.255.2: a sign-in this browser started (see _signinCompleted), and how long it may take to complete: 30 minutes for a log-in or
 // Google's round trip, 24 hours for a sign-up's email confirmation. One localStorage key per browser, never per account: no owner.
 const NG_SIGNIN_INTENT_KEY = "bjj-neural-signin-intent", NG_SIGNIN_INTENT_MS = 30 * 60 * 1000, NG_SIGNIN_CREATE_MS = 24 * 60 * 60 * 1000;
+// THE SIGNED-IN NAME, ITS INITIAL AND THE ADDRESS NEVER REACH ANALYTICS (v1.261.2). The app never calls identify(), but it PRINTS the
+// identity, and PostHog's autocapture and session replay read what is printed. posthog-js 1.447.12, as the site loads it: a click's
+// target and every ancestor to <body> go into `$elements_chain` with ALL their attributes (`attr__title`, `attr__aria-label`, data-*)
+// and, for a/button/label/form/input, their text: a button's text is its own text nodes plus its nested <span>s' (getNestedSpanText),
+// which is how the avatar's initial rode every badge click; a press ON the name made the <b> the target, and its text went in as
+// `$el_text`. getSafeText returns "" under an ancestor with this class, and a chain holding it drops the whole click
+// (explicitNoCapture), as dead clicks and rage clicks do. The replay's rrweb runs with blockClass 'ph-no-capture': a blocked element is
+// recorded as an empty box (its class and size, no children, no later text or attribute mutation). So every element that prints the
+// identity carries this class, set BEFORE the identity is written, and holds it in its own text (or its own `title`) only, never in an
+// ancestor's attribute. A mark INSIDE a control is also `pointer-events:none` (helmet.html, `.ngAcctChip .ph-no-capture`), so a press on
+// the name lands on the control and is still counted, without the name. Settings' address line takes its span from `_addressMarkup`.
+// Pinned by e2e/journeys/no-identity-in-analytics.spec.ts, whose mirror of autocapture is transcribed from that version.
+const NG_NO_CAPTURE = "ph-no-capture";
 // EVERY CARD ANSWERED IN ONE LANDING MOVES THIS EXCHANGE AGAIN, BY A SMALLER STEP (v1.221.0, owner
 // 2026-10-05: "answering more flashcards should increase/decrease choices proba further, it's not a 1
 // slot thing, but many"). Row k-1 is the k-th card RESOLVED in one landing (answered, or run out of
@@ -7177,6 +7190,8 @@ class Component extends DCLogic {
     const name = chip.querySelector("b"), av = chip.querySelector(".ng-badge-av");
     // An account's progress, played unverified: never "Guest", and no create-account nudge.
     const offline = !this.user && this._progressLocalOnly;
+    // marked while they print the identity, BEFORE it is written (NG_NO_CAPTURE); "Guest" and "Offline" stay readable to analytics
+    name.classList.toggle(NG_NO_CAPTURE, !!this.user); av.classList.toggle(NG_NO_CAPTURE, !!this.user);
     name.textContent = offline ? "Offline" : this.user ? this.user.name : "Guest";
     av.textContent = offline ? "!" : this.user ? this.user.initial : "G";
     av.style.background = this.user ? "linear-gradient(135deg,#1f8a5b,#2a6fdb)" : "";
@@ -7195,6 +7210,10 @@ class Component extends DCLogic {
       this.renderExplorer();
     }
   }
+  /** Settings' training-day line names the address inside the analytics mark (NG_NO_CAPTURE). The markup is built HERE, in the
+   *  eager app, because the deferred Settings presentation sits at its byte ceiling (#378 left it 2 B of room, and the span cost
+   *  33 B there); Settings carries only this call. HTML, because settingRow writes its line as HTML, as it always has for the address. */
+  _addressMarkup() { return "<span class=" + NG_NO_CAPTURE + ">" + ((this.user && this.user.email) || "your account email") + "</span>"; }
   // ── account menu (v1.94.0) ── compact chrome anchored above the bottom-right chip. It is
   // CHROME, not gameplay: opening it never opens/closes the pane, never touches the pause
   // latch, never freezes the roll clock. Esc closes it FIRST (before any gameplay overlay),
@@ -7303,6 +7322,9 @@ class Component extends DCLogic {
       // the signed-in identity, readable but not a control
       const em = document.createElement("div");
       em.setAttribute("data-menu-email", "1");
+      // the identity in its own text and its own tooltip only, under the mark (NG_NO_CAPTURE): no ancestor carries it, and a click on
+      // the row, which is not a control, is dropped by autocapture rather than counted with the address
+      em.className = NG_NO_CAPTURE;
       em.textContent = this.user.email || this.user.name;
       em.title = this.user.email || this.user.name;
       em.style.cssText = "min-height:44px;display:flex;align-items:center;padding:0 13px;font-size:12px;font-weight:600;color:#8b97b0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:default;";
