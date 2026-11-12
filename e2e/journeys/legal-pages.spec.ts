@@ -27,8 +27,9 @@ import { journey, type Journey } from "../dsl"
  *
  * Red-proof (each mutant against this build, the named test red, the rest of this file green; see docs/Changelog-Archive.md,
  * LEGAL1): the arrival line in `_seedFromUrl` deleted (claim 1, both widths); the reader root at opacity 0 on a legal page
- * (claim 1's drawn check alone: the DOM checks stay green); `SITE.test(this.path) ||` dropped from syncSections, `.more = 1`
- * dropped, the ✕ put back (claim 2, one each); "Start rolling" made a no-op (claim 3); the menu link's `target` emptied, and its
+ * (claim 1's drawn check alone: the DOM checks stay green); the legal pages taken out of the reader's REFERENCE (claim 1, the
+ * heading is not drawn); `SITE.test(this.path) ||` dropped where the reader decides a section is shown, the opening
+ * titled, the ✕ put back (claim 2, one each); "Start rolling" made a no-op (claim 3); the menu link's `target` emptied, and its
  * close listener dropped (claim 4, mouse and finger).
  */
 
