@@ -396,18 +396,16 @@ renderSettings() {
     body.scrollTop = panelY;
     // legal links live HERE too (v1.93.0): the first Settings overlay carries Terms · Privacy,
     // so the account surface never needs a "Learn More" submenu (Shortcuts is already a tab).
+    // LEGAL1 (v1.263.0): they open the site's own pages in a new tab (`_sitePageLink`), never a box; Settings stays open here.
     const legal = document.createElement("div");
     legal.setAttribute("data-settings-legal", "1");
     legal.style.cssText = "display:flex;justify-content:center;align-items:center;gap:14px;padding:10px 22px 14px;border-top:1px solid rgba(150,170,210,.1);";
     const mkLegal = (label, kind) => {
-      const a = document.createElement("button");
-      a.type = "button";
+      const a = this._sitePageLink(label);
       a.setAttribute("data-legal", kind);
-      a.textContent = label;
-      a.style.cssText = "cursor:pointer;font-family:inherit;border:none;background:transparent;font-size:10.5px;color:#5d6883;letter-spacing:.02em;padding:8px 6px;min-height:32px;";
+      a.style.cssText = "text-decoration:none;font-size:10.5px;color:#5d6883;letter-spacing:.02em;padding:8px 6px;min-height:32px;";
       a.addEventListener("mouseenter", () => a.style.color = "#9aa6bd");
       a.addEventListener("mouseleave", () => a.style.color = "#5d6883");
-      a.addEventListener("click", () => this.openLegal(kind));
       return a;
     };
     legal.appendChild(mkLegal("Terms", "terms"));

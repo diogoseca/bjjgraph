@@ -9,7 +9,8 @@ import { journey, type Journey } from "../dsl"
  *   2. The score belt is RETIRED as a visual: no .ng-knowledge-header, no [data-knowledge], no
  *      meter anywhere; the score's one exposure is the badge menu's "Mastered" line.
  *   3. A study takeover owns the drawer body; its ‹ Back hands the list back.
- *   4. Settings (from the badge's menu) carries Terms · Privacy, and is the GI/NO-GI choice's one home.
+ *   4. Settings (from the badge's menu) carries Terms · Privacy (links to the site's own pages, in a new tab, LEGAL1 v1.263.0),
+ *      and is the GI/NO-GI choice's one home.
  *   5. The drill pill stays DELETED; the share cue is a standalone conditional control.
  *   6. The drawer anchors the LEFT edge, and no account chip sits on the map: the badge is in the drawer.
  *   7. THE Z LADDER: deliberate temporary screens (the modal, the account menu) render above ambient
@@ -120,6 +121,7 @@ test("no score belt anywhere: the drawer opens on its list, nothing else on top"
 
 test("settings carries Terms · Privacy — the Learn More submenu that never was", async ({
   page,
+  context,
 }) => {
   const j = journey(page)
   await j.boot("/")
@@ -129,9 +131,18 @@ test("settings carries Terms · Privacy — the Learn More submenu that never wa
   await j.openAccountMenu()
   await j.clickByMouse("[data-menu-settings]", "Settings, from the badge")
   await expect(page.locator("[data-settings-legal]"), "legal links in the first overlay").toBeVisible()
+  // LEGAL1 (v1.263.0): this opened the "Terms of Use" box and asserted its "Safety first" paragraph ("the real terms, not a
+  // stub"). The box is deleted: the link opens the site's own /terms in a new tab, and that tab reads the page the server sent.
+  await context.route("**/*", (r) => (/^(http:\/\/localhost|data:|blob:|about:)/.test(r.request().url()) ? r.continue() : r.abort()))
+  const served = await (await page.request.get("/terms")).text()
+  const popup = context.waitForEvent("page")
   await j.clickByMouse('[data-settings-legal] [data-legal="terms"]', "the Terms link")
-  await expect(page.locator("body")).toContainText("Terms of Use")
-  await expect(page.locator("body"), "the real terms, not a stub").toContainText("Safety first")
+  const tab = await popup
+  await tab.waitForURL((u) => u.pathname === "/terms")
+  await expect(tab.locator('[data-reader-ready="true"]'), "the real terms, not a stub").toHaveAttribute("data-reader-path", "/terms", { timeout: 60_000 })
+  expect(await tab.title(), "the server's own title").toBe(/<title>([^<]*)<\/title>/.exec(served)![1])
+  await tab.close()
+  await expect(page.locator("[data-settings-legal]"), "Settings is still open here").toBeVisible()
 })
 
 test("the drill pill is GONE on every form factor; the share cue renders only with a cue", async ({
@@ -208,8 +219,9 @@ test.describe("deliberate screens outrank ambient overlays", () => {
       }
     })
 
-  test("Settings covers the landing card: the card is not hit-testable, the modal is — same for Terms", async ({
+  test("Settings covers the landing card: the card is not hit-testable, the modal is — still after Terms opens its page", async ({
     page,
+    context,
   }) => {
     const j = journey(page)
     await j.boot("/")
@@ -232,10 +244,14 @@ test.describe("deliberate screens outrank ambient overlays", () => {
     // renders lazily (v1.207.0: "Loading settings…" first), and clickByMouse does not wait, so wait
     // for the control to exist; the reachability claim itself is unchanged.
     await expect(page.locator('[data-settings-legal] [data-legal="terms"]'), "Settings has rendered").toBeVisible()
+    // LEGAL1 (v1.263.0): pressing Terms here opened the "Terms of Use" box, and the rule was asserted again under it. The box is
+    // deleted: Terms opens the site's page in a new tab, so the press leaves THIS tab's Settings up, and the rule holds under it.
+    await context.route("**/*", (r) => (/^(http:\/\/localhost|data:|blob:|about:)/.test(r.request().url()) ? r.continue() : r.abort()))
+    const popup = context.waitForEvent("page")
     await j.clickByMouse('[data-settings-legal] [data-legal="terms"]', "Terms inside Settings")
-    await expect(page.locator("body")).toContainText("Terms of Use")
+    await (await popup).close()
     hit = await hitReport(page)
-    expect(hit.inLandcard, "same rule under the Terms screen").toBe(false)
+    expect(hit.inLandcard, "same rule after Terms opened its page in a new tab").toBe(false)
     expect(hit.inModal).toBe(true)
   })
 

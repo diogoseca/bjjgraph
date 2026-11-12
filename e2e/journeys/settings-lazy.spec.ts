@@ -63,7 +63,9 @@ for (const width of [1440, 390]) {
     await expect(page.locator('[data-settings-load]')).toHaveCount(0);
   });
 
-  test(`@curated Settings late completion cannot replace a real Legal modal at ${width}px`, async ({ page }) => {
+  // LEGAL1 (v1.263.0): the competing modal was the Privacy box (`openLegal`), deleted with its strings; Feedback is a real modal
+  // the badge's menu opens the same way, so the claim (a late Settings import never replaces another surface's modal) is unchanged.
+  test(`@curated Settings late completion cannot replace a real Feedback modal at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 });
     let release!: () => void;
     const gate = new Promise<void>(resolve => { release = resolve; });
@@ -75,10 +77,10 @@ for (const width of [1440, 390]) {
       await expect(page.locator('[data-settings-load="loading"]')).toBeVisible();
       const before = await page.evaluate(() => {
         const app = (window as any).__neural;
-        app.openLegal('privacy');
+        app.openFeedback();
         return { html: app.modalCardRef.current.innerHTML, generation: app._modalGeneration };
       });
-      expect(before.html).toMatch(/Privacy/i);
+      expect(before.html).toMatch(/data-feedback-title/);
       release();
       await page.evaluate(() => (window as any).__neural._settingsPresentationLoad);
       expect(await page.evaluate(() => {

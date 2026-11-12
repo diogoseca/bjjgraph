@@ -102,11 +102,12 @@ test("load failure has real Retry; explicit retry uses fresh attempt and real co
 });
 
 test("close, competing modal, owner change, replaced card and unmount reject late rendering", async () => {
-  for (const kind of ["close","legal","owner","not-current","card","unmount"]) {
+  // LEGAL1 (v1.263.0): "feedback" was "legal", the Privacy box (openLegal), deleted; any real competing modal makes the claim.
+  for (const kind of ["close","feedback","owner","not-current","card","unmount"]) {
     const {app,card,modal} = fixture(), gate = deferred(); app._fetchSettingsPresentation=()=>gate.promise;
     const pending=app.openSettings("rolling"); await flush();
     if(kind==="close") app.closeModal();
-    if(kind==="legal") app.openLegal("privacy");
+    if(kind==="feedback") app.openFeedback();
     if(kind==="owner") app._progressOwnerStamp={};
     if(kind==="not-current") app._progressCurrent=()=>false;
     if(kind==="card") app.modalCardRef.current=new Element();
@@ -117,7 +118,7 @@ test("close, competing modal, owner change, replaced card and unmount reject lat
     const before=card.textContent; gate.resolve(runtime); assert.equal(await pending,false,kind);
     assert.equal(card.textContent,before,kind); assert.equal(card.querySelector('[role="tab"]'),null,kind);
     if(kind==="close") assert.equal(modal.style.display,"none");
-    if(kind==="legal") assert.match(card.textContent,/Privacy Policy/);
+    if(kind==="feedback") assert.ok(card.querySelector("[data-feedback-title]"),"the Feedback modal stays");
   }
 });
 
@@ -128,8 +129,8 @@ test("latest Settings tab intent wins shared import; dismissed error Retry is in
   assert.equal(card.querySelector('[role="tabpanel"]').getAttribute("aria-labelledby"),"ng-stab-notifications");
   assert.match(card.textContent,/signed-in account/);
   const failed=fixture(); failed.app._fetchSettingsPresentation=()=>Promise.reject(Error("offline")); await failed.app.openSettings();
-  const retry=failed.card.querySelector("[data-settings-retry]"); failed.app.openLegal("terms"); const before=failed.card.textContent;
-  retry.click(); await flush(); assert.equal(failed.card.textContent,before); assert.match(before,/Terms of Use/);
+  const retry=failed.card.querySelector("[data-settings-retry]"); failed.app.openFeedback(); const before=failed.card.textContent;
+  retry.click(); await flush(); assert.equal(failed.card.textContent,before); assert.ok(failed.card.querySelector("[data-feedback-title]"));
 });
 
 test("installer rejects wrong build without changing target; app offers retry", async () => {

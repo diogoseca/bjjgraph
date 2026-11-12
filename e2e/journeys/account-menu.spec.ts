@@ -13,7 +13,8 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *      Create account · Log in, and one small line: Terms · Privacy · GitHub (U67 a).
  *   3. Signed in: the email (not a control) · Mastered │ Settings · Feedback ·
  *      Sign out (+ Review guest progress when an owned guest cache exists). Sign out flips the badge.
- *   4. Rows open the real surfaces: the auth modal, Settings (including its Notifications tab, U60 b), the merged Feedback form (U67 a), the legal modals, the Mastered list.
+ *   4. Rows open the real surfaces: the auth modal, Settings (including its Notifications tab, U60 b), the merged Feedback form (U67 a), the Mastered list; Terms and Privacy are links to the site's
+ *      own pages, opened in a new tab (LEGAL1, v1.263.0: the two boxes they opened are deleted; legal-pages.spec.ts owns the pages).
  *   5. Esc closes the menu FIRST, then the drawer; an outside tap closes the menu too.
  *   6. On a 390x844 phone the badge and its menu sit in thumb reach and on screen; the main rows are
  *      44px targets, the small line's at least 24px.
@@ -70,7 +71,10 @@ test("signed out: a short menu and one small line", async ({ page }) => {
   await expect(menu.locator("[data-menu-shortcuts]"), "Keyboard shortcuts are Settings' own tab").toHaveCount(0)
   const small = menu.locator(".ng-menu-small > *")
   await expect(small).toHaveText(["Terms", "Privacy", /GitHub|★/])
-  await expect(menu.locator("button")).toHaveCount(7)
+  // LEGAL1: Terms and Privacy left the buttons for links (they were 7 buttons, these two included); the same eight items
+  await expect(menu.locator("button")).toHaveCount(5)
+  await expect(menu.locator("a")).toHaveCount(3)
+  await expect(menu.locator('[role="menuitem"]')).toHaveCount(8)
   await expect(menu.locator("[data-menu-email]")).toHaveCount(0)
   await expect(menu.locator("[data-menu-logout]")).toHaveCount(0)
   // a storage failure says so in the menu, and only then (inventory row 105)
@@ -110,7 +114,7 @@ test("signed in with legacy progress: email, Settings, Sign out; sign out flips 
   await expect(menu.locator("[data-menu-login]"), "no login row when signed in").toHaveCount(0)
   await expect(menu.locator("[data-menu-sep]"), "still ONE separator").toHaveCount(1)
   await expect(menu.locator("[data-menu-import-guest]")).toHaveText("Review guest progress")
-  await expect(menu.locator("button")).toHaveCount(7)
+  await expect(menu.locator("button"), "LEGAL1: 7 before, Terms and Privacy included; they are links now").toHaveCount(5)
   // U60 b: Account preferences is folded into Settings; Notifications is still reachable there.
   await j.clickByMouse("[data-menu-settings]", "Settings")
   await expect(page.locator("#ng-stab-notifications")).toBeVisible()
@@ -129,7 +133,7 @@ test("signed in with legacy progress: email, Settings, Sign out; sign out flips 
     "sign-in, menu use and sign-out preserve every legacy byte").toEqual(legacy)
 })
 
-test("rows open the real surfaces", async ({ page }) => {
+test("rows open the real surfaces", async ({ page, context }) => {
   const j = journey(page)
   // the star count is asked for once per page, however often the menu renders (SIDE-R2 M5); the harness
   // aborts the request, the miss every first visit, 403 or offline player meets
@@ -145,8 +149,18 @@ test("rows open the real surfaces", async ({ page }) => {
   await via("[data-menu-settings]", "Settings")
   expect(await page.evaluate(() => (window as any).__neural._settingsTab), "plain Settings opens its first tab").toBe("flashcards"); await close()
   await via("[data-menu-feedback]", "Feedback"); await expect(page.locator("[data-feedback-title]")).toHaveText("Feedback"); await close()
-  await via("[data-menu-terms]", "Terms"); await expect(page.locator("body")).toContainText("Terms of Use"); await close()
-  await via("[data-menu-privacy]", "Privacy"); await expect(page.locator("body")).toContainText("Privacy Policy"); await close()
+  // LEGAL1 (v1.263.0): these opened two boxes ("Terms of Use", "Privacy Policy"); they open the site's own pages in a new tab
+  // now, and this tab keeps its roll. What the new tab shows is legal-pages.spec.ts's claim; here, only where it goes.
+  await context.route("**/*", (r) => (/^(http:\/\/localhost|data:|blob:|about:)/.test(r.request().url()) ? r.continue() : r.abort()))
+  const here = new URL(page.url()).pathname
+  for (const [sel, what, path] of [["[data-menu-terms]", "Terms", "/terms"], ["[data-menu-privacy]", "Privacy", "/privacy"]]) {
+    const popup = context.waitForEvent("page")
+    await via(sel, what)
+    const tab = await popup
+    await tab.waitForURL((u) => u.pathname === path)
+    await tab.close()
+    expect(new URL(page.url()).pathname, what + ": this tab stays where the roll is").toBe(here)
+  }
   await via("[data-menu-mastered]", "Mastered"); await expect(page.locator(".ng-modal")).toContainText("Mastered"); await close()
   await j.openAccountMenu()
   await expect(page.locator("[data-gh-chip]")).toHaveAttribute("href", "https://github.com/diogoseca/bjjgraph")

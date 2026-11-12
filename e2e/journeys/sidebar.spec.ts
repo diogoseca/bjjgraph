@@ -300,7 +300,7 @@ test("a principle lights its places and fades the rest of the map to ~20%, smoot
   expect(levels[levels.length - 1], "and settles at ~20%").toBeCloseTo(0.2, 2)
 })
 
-test("keyboard: Tab reaches the badge, Enter opens its menu with focus inside it, the arrows walk it, and its links work by key @curated", async ({ page }) => {
+test("keyboard: Tab reaches the badge, Enter opens its menu with focus inside it, the arrows walk it, and its links work by key @curated", async ({ page, context }) => {
   const j = journey(page)
   await j.boot("/")
   await openDrawer(j, page)
@@ -339,8 +339,14 @@ test("keyboard: Tab reaches the badge, Enter opens its menu with focus inside it
   await page.keyboard.press("Enter")
   await page.keyboard.press("End"); await page.keyboard.press("ArrowUp"); await page.keyboard.press("ArrowUp")
   expect(await focused()).toBe("data-menu-terms")
+  // LEGAL1 (v1.263.0): Enter on Terms opened the "Terms of Use" box; it is a link now, and Enter opens the site's own /terms in a
+  // new tab (legal-pages.spec.ts owns what that tab shows)
+  await context.route("**/*", (r) => (/^(http:\/\/localhost|data:|blob:|about:)/.test(r.request().url()) ? r.continue() : r.abort()))
+  const popup = context.waitForEvent("page")
   await page.keyboard.press("Enter")
-  await expect(page.locator("body")).toContainText("Terms of Use")
+  const tab = await popup
+  await tab.waitForURL((u) => u.pathname === "/terms")
+  await tab.close()
 })
 
 test("a guest's badge offers to save; a signed-in player gets neither it nor the save toast", async ({ page }) => {

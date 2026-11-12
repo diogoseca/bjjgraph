@@ -9,7 +9,12 @@
 const GAME_KEYS = { film: "landFilm", card: "landCard", hand: "landHand" };
 const CONTENT = /^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)(?:\/|$)/i;
 const ROLES = /\/(Top|Bottom|Attacker|Defender)$/i;
-const REFERENCE = /^\/(Principles|Learning|Systems)\//;
+// LEGAL1 (v1.263.0): the site's two legal pages read as reference pages (no game stage, no seat) that can lose no word. SITE is
+// the app's NG_SITE_PAGE after cleanPath; tests/legal_pages.test.mjs pins the two equal. Their sections have no ✕ and show whatever
+// a player closed elsewhere: their h2s are "additional", the type Learning and Systems pages share, so one ✕ would hide the rest
+// of the policy and a saved "off" would cut it.
+const SITE = /^\/(privacy|terms)$/;
+const REFERENCE = /^\/(Principles|Learning|Systems)\/|^\/(privacy|terms)$/;
 const cleanPath = (path) => decodeURI(new URL(path, location.href).pathname).replace(/\.html$/, "").replace(/\/$/, "") || "/";
 const pathRole = path => (path.split("/").pop() || "Guide") + " perspective";
 
@@ -491,8 +496,12 @@ class Reader {
     this.articleEl.replaceChildren(...(this.head.parentElement === this.articleEl ? [this.head] : []));
     const tools = this.tools;
     this.heading.textContent = title;
-    tools.querySelector("[data-reader-study]")?.remove();
-    if (REFERENCE.test(this.path)) {
+    tools.replaceChildren();   // the slot holds only what this render puts in it (LEGAL1: one of two buttons, or none)
+    // LEGAL1: a legal page has nothing to study and nothing lit, so its slot holds the way into the game: the front door, where a
+    // roll starts by itself. A whole load, on purpose: a page left the roll behind (`_leaveRollForReference`), and "/" is the one
+    // start that owes nothing to what came before.
+    if (SITE.test(this.path)) tools.append(button("Start rolling", () => location.assign("/"), { "data-reader-play": "" }));
+    else if (REFERENCE.test(this.path)) {
       tools.append(button("Study tools", async () => {
         const id = this.path.slice(1);
         if (id.startsWith("Systems/")) this.app.openSystem(id);
@@ -605,6 +614,8 @@ class Reader {
       buckets.get(key).parts.push(part);
     }
     if (this.referenceClips.length && !buckets.has("videos")) buckets.set("videos", { type: "videos", title: "Video", parts: [] });
+    // LEGAL1: a legal page's opening (its effective date and first paragraphs) is not "How it works": no title, no index row.
+    const opening = buckets.get("overview"); if (opening) opening.more = SITE.test(path);
     // U101 b, U102 a (owner, 2026-11-06, replacing the split into tiles): "there should only be one overview, and it shouldn't be
     // called 'overview.'" A position's section opens with its first sentences and "Read more" opens the rest in place, one way, so
     // the label goes with the opening. Every word stays in the DOM. The class, because Learning, Systems and Submission family
@@ -663,7 +674,7 @@ class Reader {
         this.layoutNow();
         if (opening) this.scrollTo(card, toggle);
       }, { "data-section-toggle": group.type, "aria-controls": id + "-body" });
-      toggle.append(...faces(group.type, group.title)); heading.append(element("span", { class: "ng-section-title" }, group.title), toggle);
+      toggle.append(...faces(group.type, group.title)); heading.append(element("span", { class: "ng-section-title" }, group.title), ...SITE.test(path) ? [] : [toggle]);
       const content = element("div", { class: "ng-section-body", id: id + "-body" });
       if (group.type === "videos") { this.mediaSlot = element("div", { "data-reader-media-slot": "" }); content.append(this.mediaSlot); }
       for (const part of control ? [] : group.parts) {
@@ -703,7 +714,7 @@ class Reader {
     let focus;
     for (const s of [...this.gameSections, ...this.sections]) {
       const body = s.part ? this.partEl(s.part) : s.body;
-      const shown = s.part ? this.on(s.part) : sectionShown(this.app, s.type), focused = !shown && (body?.contains(document.activeElement) || !s.part && s.card.dataset.collapsed !== "true" && s.card.contains(document.activeElement));
+      const shown = s.part ? this.on(s.part) : SITE.test(this.path) || sectionShown(this.app, s.type), focused = !shown && (body?.contains(document.activeElement) || !s.part && s.card.dataset.collapsed !== "true" && s.card.contains(document.activeElement));
       if (s.type === "videos" && !shown && !body.hidden) this.app.pauseLandFilm();
       // A game part's label, row and aria, and the Video row, read paintPart's one answer (an open part shows itself and its own ✕;
       // only a closed one, or one taken away with its landing, leaves its label). A tile's own look keeps its preference.

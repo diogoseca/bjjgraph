@@ -129,6 +129,14 @@ const NG_LAND_DECK_MIN_H = 236;
 // OWNERQ1: content URLs select their node with dormant game controls. A move or
 // landing-card answer starts play; reading and minimizing never arm the clock.
 const NG_READING_DEFAULT_ON_CONTENT_URL = true;
+// LEGAL1 (v1.263.0, owner 2026-11-12: "either build a privacy page and a terms page at once, or explain why this is necessary").
+// The site's two legal pages are READ, like a Principle: no seat, no hand, no roll. Until now `_seedFromUrl` knew only the six
+// content prefixes, so /privacy and /terms fell through to the intro's front-door draw: since v1.54.0 the app hid their text under
+// a roll, since v1.104.5 the address followed that roll to /Positions/…, since v1.241.1 the title did too. These are the pages the
+// Google sign-in consent screen links to. The reader's own SITE (reader.src.js) is this set, spelled after its cleanPath, and
+// tests/legal_pages.test.mjs pins the two equal. Not /Tree, /tags, /Game-Over or /404: the same fall-through, and still the
+// front door (the report lists them); a page joins here only on the owner's word.
+const NG_SITE_PAGE = /^\/(?:privacy|terms)(?:\.html|\/)?$/;
 const NG_LAYER_KEYS = { film: "landFilm", card: "landCard", hand: "landHand" };
 const NG_LAYER_ORDER = ["film", "card", "hand"];
 // THE CAMERA'S MOTION (v1.219.0; see `_camStep`). Module scope, so an app built without its
@@ -5305,38 +5313,12 @@ class Component extends DCLogic {
         .catch(() => { /* plain link is the fallback state */ });
     } catch (e) { /* fetch unavailable — plain link */ }
   }
-  openLegal(kind) {
-    const card = this.modalCardRef.current; if (!card) return;
-    card.style.width = "min(520px,92vw)";
-    card.innerHTML = "";
-    const head = document.createElement("div");
-    head.style.cssText = "padding:20px 22px 0;";
-    const title = kind === "privacy" ? "Privacy Policy" : "Terms of Use";
-    head.innerHTML = '<div style="display:flex;align-items:center;justify-content:space-between;"><div style="font-size:20px;font-weight:700;color:#eef1f6;letter-spacing:-.01em;">' + title + '</div><span class="x" style="cursor:pointer;color:#8b97b0;font-size:20px;">&times;</span></div><div style="font-size:11.5px;color:#7e8aa8;margin-top:5px;">bjjgraph.org &middot; Last updated July 2026</div>';
-    head.querySelector(".x").addEventListener("click", () => this.closeModal());
-    card.appendChild(head);
-    const body = document.createElement("div");
-    body.style.cssText = "padding:16px 22px 22px;overflow-y:auto;max-height:min(62vh,540px);display:flex;flex-direction:column;gap:14px;";
-    const sec = (h, t) => '<div><div style="font-size:13px;font-weight:700;color:#dbe2f0;margin-bottom:5px;">' + h + '</div><div style="font-size:12.5px;line-height:1.6;color:#9aa6bd;">' + t + '</div></div>';
-    if (kind === "privacy") {
-      body.innerHTML =
-        sec("What we collect", "Your study progress (flashcards answered, techniques mastered, roll history) and, if you create an account, your email address. Guest progress is stored locally on your device.") +
-        sec("How we use it", "To sync your progress across devices, personalize which cards are surfaced, and improve the graph. We do not sell your data or share it with advertisers.") +
-        sec("Cookies & analytics", "We use minimal, privacy-respecting analytics to understand aggregate usage. No cross-site tracking.") +
-        sec("Your rights", "You can export or delete your account and all associated data at any time from Settings, or by contacting us.") +
-        sec("Contact", "Questions about this policy: privacy@bjjgraph.org");
-    } else {
-      body.innerHTML =
-        '<div style="border:1px solid rgba(232,116,107,.3);background:rgba(232,116,107,.07);border-radius:11px;padding:12px 14px;font-size:12.5px;line-height:1.6;color:#c4cde0;"><b style="color:#eda49c;">Safety first.</b> Brazilian Jiu-Jitsu is a contact sport with inherent risk of serious injury. bjjgraph.org is a study companion for practitioners who already train at an academy under qualified instruction. It is not a substitute for in-person coaching, and it is not a self-teaching program.</div>' +
-        sec("What this service is", "An interactive knowledge base and study tool: positions, transitions, submissions, flashcards, and a simulated \u201croll\u201d for reviewing decision-making. The simulation, including any success percentages or modifiers, is a gameplay estimate for study purposes only \u2014 it does not predict real outcomes.") +
-        sec("Assumption of risk", "Only practice techniques under the supervision of a qualified instructor, with a willing, informed partner, and at an intensity appropriate to your level. You assume all risk arising from your training. Never practice chokes or joint locks outside supervised training.") +
-        sec("No warranties", "Content is provided \u201cas is\u201d, without warranty of accuracy or completeness. Technique descriptions may contain errors, and what works varies by body type, skill, and context.") +
-        sec("Limitation of liability", "To the maximum extent permitted by law, bjjgraph.org and its contributors are not liable for any injury, loss, or damage arising from use of this service or from training decisions informed by it.") +
-        sec("Your account", "You are responsible for activity under your account. We may suspend accounts that abuse the service.") +
-        sec("Contact", "Questions about these terms: legal@bjjgraph.org");
-    }
-    card.appendChild(body);
-    this.openModal();
+  /** LEGAL1 (v1.263.0): "Terms" or "Privacy" as a link to that page of the site, opened in a new tab: the account menu's small line
+   *  and the Settings footer (settings-ui.src.js). The two boxes this replaces (`openLegal`) are deleted with every string of them. */
+  _sitePageLink(label) {
+    const a = document.createElement("a");
+    a.href = "/" + label.toLowerCase(); a.target = "_blank"; a.rel = "noopener"; a.textContent = label;
+    return a;
   }
   closeModal() { this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); const m = this.modalRef.current; if (m) m.style.display = "none"; }
   // Esc seam (v1.95.1): close the topmost deliberate screen and report. Pause state is
@@ -7312,9 +7294,16 @@ class Component extends DCLogic {
     m.appendChild(row("data-menu-feedback", "Feedback", () => this.openFeedback()));
     m.append(...auth);
     const small = document.createElement("div"); small.className = "ng-menu-small";
-    const sb = (attr, label, fn) => { const b = row(attr, label, fn); b.style.cssText = ""; return b; };
-    small.append(sb("data-menu-terms", "Terms", () => this.openLegal("terms")),
-      sb("data-menu-privacy", "Privacy", () => this.openLegal("privacy")));
+    // LEGAL1 (v1.263.0): Terms and Privacy open the site's own pages (NG_SITE_PAGE), IN A NEW TAB, as GitHub beside them does.
+    // In place, reading a page ends the roll in progress (`_leaveRollForReference`), and here one almost always is: the front door
+    // starts one by itself. A new tab leaves this one exactly as it was. They replace the two boxes (`openLegal`) that were written
+    // apart from the pages and said things the pages do not (export or delete "from Settings", another contact address).
+    const legal = (attr, label) => {
+      const a = this._sitePageLink(label); a.setAttribute(attr, "1"); a.setAttribute("role", "menuitem");
+      a.addEventListener("click", () => this.closeAccountMenu());
+      return a;
+    };
+    small.append(legal("data-menu-terms", "Terms"), legal("data-menu-privacy", "Privacy"));
     const gh = document.createElement("a"); gh.href = "https://github.com/diogoseca/bjjgraph"; gh.target = "_blank"; gh.rel = "noopener";
     gh.setAttribute("data-gh-chip", "1"); gh.setAttribute("role", "menuitem"); gh.innerHTML = '<span data-gh-label="1">GitHub</span>';
     small.appendChild(gh); m.appendChild(small);
@@ -11726,6 +11715,9 @@ class Component extends DCLogic {
    */
   _seedFromUrl() {
     if (/^\/l\//.test(location.pathname)) return false;
+    // LEGAL1: a legal page is read, never played (NG_SITE_PAGE). The same reading arrival as a Principle's below: the reader
+    // shows the page's own article, `_leaveRollForReference` holds the intro off `startRoll()`, and the address and title stay.
+    if (NG_SITE_PAGE.test(location.pathname)) { this._readArticle(location.pathname + location.hash, true, false); return true; }
     if (/^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)\/?$/i.test(location.pathname))
       return this._seedPageFromUrl(location.pathname);
     const content = /^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)(?:\/|$)/i.test(location.pathname);
