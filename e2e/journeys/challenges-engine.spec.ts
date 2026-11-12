@@ -44,8 +44,9 @@ const progressBlob = (overrides: Record<string, unknown> = {}) => ({
 });
 
 test.describe("Challenge engine", () => {
-  // @curated on three tests only, the cloud merge and first pull through the real facade: a keyed build is where they
-  // can differ (U147 a, v1.263.0, tier D in tests/artifacts/deploy_gate.json). The rest run in e2e-full on every PR and merge.
+  // @curated on three tests only, the cloud merge and first pull through the real facade, re-run on the tree that ships
+  // (U147 a, v1.263.0; tier S since v1.263.3: the fixture supplies the Supabase config, so no deploy key is read here).
+  // The rest run in e2e-full on every PR and merge.
   test("a legacy 7/20 user migrates exactly and keeps the v2 compatibility write", async ({
     page,
   }) => {

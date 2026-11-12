@@ -16,7 +16,7 @@
 // `serve` resolves BOTH to the folder copy, and its stock `cleanUrls` 301s `/X.html` back to the
 // bare form — so under the harness the flat document was unreachable at EVERY url, not merely
 // tested at the wrong one. Re-derived from the tree at v1.195.0: 21 navigation sites across
-// eleven spec files fetch one of NINE duplicated routes bare, nine of those tests @curated.
+// eleven spec files fetch one of NINE duplicated routes bare, nine of those tests @curated then.
 //
 // `scripts/dev-serve.mjs` is NOT the fix and must not be cited as one: its `resolveHtml()`
 // does implement production's rule, but its only call site

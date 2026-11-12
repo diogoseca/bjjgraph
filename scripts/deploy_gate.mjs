@@ -5,10 +5,15 @@
 // workflows, after the keyed build and before the Pages upload. Until v1.263.0 the tag meant "a fast representative
 // sample", and it grew from 427 tests on 1 Oct to 914 on 12 Nov: 33.6 to 36.8 minutes of a 45-minute step timeout,
 // about 2.6 minutes more every day (the GATE1 plan, `reports/gatetime.md`, outside the repo). The owner's answer: "only what a deploy can break,
-// plus one quick test per surface". 56 tests, about 3 minutes:
-//   D  the 41 that depend on the deployed build: the keyed Supabase and PostHog config only deploys carry, the
-//      affiliate stamp, the checkout's own history (publication dates), the static shells crawlers read;
-//   S  15 smoke tests, one per surface, proving each still opens on the exact merged tree.
+// plus one quick test per surface". 56 tests at v1.263.0, about 3 minutes; the tiers as v1.263.3 states them:
+//   D  a test that reads what only a deploy build has: the keyed Supabase and PostHog config in postscript.js (and the
+//      build stamp it carries), or this checkout's own history (publication dates);
+//   S  re-run on the exact tree that ships, reading nothing a PR build lacks: one quick test per surface, plus the
+//      sign-in and account seams the owner's answer kept whole.
+//   v1.263.0 called 41 rows D. The reviewer of #388 (finding 4) showed 28 of them cannot see a deploy-only input (their
+//   fixture supplies the Supabase config, or they stub PostHog after boot), so v1.263.3 moved them to S with reasons
+//   that say what they check, and dropped "the affiliate stamp" from D: no row reads a stamped link, which the static
+//   deploy gates (check_affiliate_surface.py --built, check_systems_payload.py) check instead.
 // Every other journey still runs, unchanged, in e2e-full.yml's four core shards: on every PR into dev and main, and
 // since this change on every push to dev (one concurrency group, so a burst of merges costs one run). A promotion
 // to production takes only a commit whose push-run e2e-full is green (CLAUDE.md, Shipping).
@@ -28,6 +33,10 @@
 //                    collects them, so the listing cannot run in ci-validate): Playwright's own
 //                    `--list --grep @curated`, the gate's exact selection, must equal the rows, title for title.
 //                    That is what catches a parametrised condition widened to tag more cases.
+//   ran              (posttest:curated, so in both deploys before the Pages upload, and on every local curated run):
+//                    the tests that ran and passed must be exactly the rows, none skipped, more than zero.
+//   promotion        (deploy.yaml only, its first gate, before the build): the commit that vouches for a push to main
+//                    must have a green e2e-full run (push or dispatch); see its section below for every push shape.
 //   tripwire         (both deploys, AFTER the Pages upload and the live checks): reads the gate step's start and end
 //                    from this run attempt's own jobs API, requires exactly one step of that name (zero or two must
 //                    not read as fast), warns over the target and fails over the line. It runs after the upload on
@@ -38,6 +47,9 @@
 //
 // Usage:
 //   node scripts/deploy_gate.mjs check [--listed]
+//   node scripts/deploy_gate.mjs ran [--report <file>]          (npm runs it after `npm run test:curated`)
+//   node scripts/deploy_gate.mjs promotion [--commit <sha> | --head <sha>]
+//       (deploy.yaml, on HEAD; --head runs the whole rule on another commit, --commit only the run check on one)
 //   node scripts/deploy_gate.mjs tripwire                      (in a workflow: GH_TOKEN and the GITHUB_* variables)
 //   node scripts/deploy_gate.mjs refresh --log <gate log> --run <run id>
 //       (gh run view <id> --log > gate.log; rows the log does not name keep their seconds and are listed)
@@ -165,7 +177,7 @@ export function checkBudget(manifest, budget) {
     const key = r.file + SEP + r.title;
     if (keys.has(key)) errors.push(`duplicate row: ${key}`);
     keys.add(key);
-    if (!["D", "S"].includes(r.tier)) errors.push(`tier must be D (the deploy build differs) or S (one smoke per surface): ${key}`);
+    if (!["D", "S"].includes(r.tier)) errors.push(`tier must be D (reads what only a deploy build has) or S (re-run on the tree that ships): ${key}`);
     if (typeof r.reason !== "string" || r.reason.trim().length < 10) errors.push(`a row needs its reason: ${key}`);
     if (!(r.ci_s === null || (typeof r.ci_s === "number" && r.ci_s > 0))) errors.push(`ci_s must be a positive number or null: ${key}`);
   }
@@ -218,6 +230,148 @@ export function checkListed(listed, manifest) {
   for (const [k, n] of have) if (!want.has(k)) errors.push(`the gate runs a test with no row: ${k}`); else if (n !== 1) errors.push(`the gate lists ${n} tests with one title: ${k}`);
   for (const k of want.keys()) if (!have.has(k)) errors.push(`row names a test the gate does not run: ${k}`);
   return errors;
+}
+
+// ── the count of what RAN (v1.263.3, GATE6; the reviewer's finding 6 on #388) ─────────────────────
+// `--grep @curated` failing on zero matches is Playwright's default, but a kept test that SKIPS at run time passes the
+// gate silently, and with ~60 tests each one is a surface. `posttest:curated` (package.json) runs `ran` after a green
+// curated run, before the Pages upload in both deploys (scripts/check_build_chains.py expands the hook as part of the
+// curated gate, so it is required in both): the tests that ran and passed must be exactly the rows, none skipped, and
+// more than zero. It reads the JSON reporter's file from e2e/playwright.config.ts, which lands in an outputDir that
+// Playwright wipes at the start of every run, so it can only ever count this run.
+export const RESULTS = "e2e/test-results/results.json";
+
+/** Flatten Playwright's JSON report into { file, title, status, result } (status: expected|unexpected|flaky|skipped). */
+export function flattenResults(json) {
+  const out = [];
+  const walk = (suite, titles) => {
+    const t = suite.title && !suite.title.endsWith(".spec.ts") ? [...titles, suite.title] : titles;
+    for (const spec of suite.specs || []) for (const test of spec.tests || []) {
+      const last = (test.results || []).at(-1);
+      out.push({ file: spec.file, title: [...t, spec.title].join(SEP), status: test.status, result: last ? last.status : null });
+    }
+    for (const child of suite.suites || []) walk(child, t);
+  };
+  for (const s of json.suites || []) walk(s, []);
+  return out;
+}
+
+export function checkRan(results, manifest) {
+  const errors = [];
+  const key = (x) => x.file + SEP + x.title;
+  const want = new Set((manifest.tests || []).map(key));
+  const seen = new Map();
+  let passed = 0, skipped = 0;
+  if (results.length === 0) errors.push("the gate's report holds ZERO tests: nothing ran, which must not read as a pass");
+  for (const r of results) {
+    const k = key(r);
+    seen.set(k, (seen.get(k) || 0) + 1);
+    if (r.status === "skipped" || r.result === "skipped") { skipped++; errors.push(`skipped in the gate, so its surface went unchecked: ${k}`); }
+    else if (r.result !== "passed" || r.status !== "expected") errors.push(`did not pass in the gate (${r.status}, ${r.result}): ${k}`);
+    else passed++;
+    if (!want.has(k)) errors.push(`ran in the gate with no row: ${k}`);
+  }
+  for (const [k, n] of seen) if (n > 1) errors.push(`ran ${n} times under one title: ${k}`);
+  for (const k of want) if (!seen.has(k)) errors.push(`a row the gate did not run: ${k}`);
+  return { errors, passed, skipped, rows: want.size, total: results.length };
+}
+
+function ran(root, args) {
+  const file = args.includes("--report") ? args[args.indexOf("--report") + 1] : RESULTS;
+  let json;
+  try { json = JSON.parse(readFileSync(resolve(root, file), "utf8")); }
+  catch (e) { console.log(`FAIL the gate's report ${file} cannot be read (${e.code || e.message}): what ran cannot be counted, so the gate is red`); return 1; }
+  const r = checkRan(flattenResults(json), loadJson(root, MANIFEST));
+  console.log(`deploy gate ran ${r.total} tests: ${r.passed} passed of ${r.rows} rows, ${r.skipped} skipped`);
+  for (const e of r.errors) console.log("FAIL " + e);
+  return r.errors.length ? 1 : 0;
+}
+
+// ── the promotion rule, enforced (v1.263.3, GATE6; the reviewer's finding 1 on #388) ──────────────
+// Production runs only the deploy gate, so the full suite must already have passed on the exact tree it ships. A
+// promotion is a `--no-ff` merge of a preview-verified dev commit, pushed straight to main with no PR, so no PR run ever
+// sees main's tree; the only full run of it is that dev commit's push-run of e2e-full. `promotion` (the first gate in
+// deploy.yaml, before the build) resolves which commit vouches for this push and fails unless an e2e-full run on THAT
+// commit concluded success:
+//   a merge (two parents)  the dev side, the second parent; and main's tree must equal its tree except for the files
+//                          only main carries (TESTED_ONLY_DIFF: the keepalive workflow commits to main alone, [skip ci]);
+//   one parent             the pushed commit itself: a fast-forward of main onto a tested dev commit passes, a commit
+//                          made on main fails, because nothing ran the full suite on it;
+//   anything else          fails closed: an octopus merge or a root commit is no promotion shape this repo makes.
+// Which runs count: event push (dev's merges) or workflow_dispatch (the way to get one by hand), conclusion success.
+// A pull_request run tested a merge ref, not this commit, so it never counts. ONE RUN PER BURST, deliberately: dev's
+// push-runs share a concurrency group with cancel-in-progress, so a commit followed by another merge before its run
+// finishes keeps a CANCELLED run. The rule then takes the newest dev commit with a green run, and the failure message
+// says how to get one for any other commit. One full run per merge instead would queue six jobs behind every merge.
+export const TESTED_ONLY_DIFF = [".github/keepalive.txt"];
+const COUNTED_EVENTS = ["push", "workflow_dispatch"];
+
+/** Which commit's full-suite run vouches for a push to main, from HEAD's parents and the tree diff to that commit. */
+export function promotionTarget({ head, parents, diff = () => [] }) {
+  if (parents.length === 2) {
+    const tested = parents[1];
+    const extra = diff(tested).filter((f) => !TESTED_ONLY_DIFF.includes(f));
+    if (extra.length)
+      return { error: `main's tree is not the tree that was tested: ${head.slice(0, 9)} differs from its dev parent ${tested.slice(0, 9)} in ${extra.length} file(s) beyond ${TESTED_ONLY_DIFF.join(", ")}: ${extra.slice(0, 10).join(", ")}${extra.length > 10 ? ", ..." : ""}` };
+    return { tested, shape: "a --no-ff promotion merge; its dev parent" };
+  }
+  if (parents.length === 1) return { tested: head, shape: "a single-parent push; the pushed commit itself" };
+  return { error: `a push to main whose head has ${parents.length} parents cannot be traced to one tested commit (fails closed)` };
+}
+
+/** The e2e-full runs on one commit: does any counted run vouch for it? */
+export function evaluatePromotion(runs, sha) {
+  const mine = (runs || []).filter((r) => r.head_sha === sha);
+  const counted = mine.filter((r) => COUNTED_EVENTS.includes(r.event));
+  const green = counted.filter((r) => r.status === "completed" && r.conclusion === "success");
+  const list = mine.map((r) => `run ${r.id} (${r.event}, ${r.status === "completed" ? r.conclusion : r.status})`).join("; ") || "none";
+  const short = sha.slice(0, 9);
+  if (green.length) return { ok: true, runs: list, message: `${short} passed the full suite: ${green.map((r) => `run ${r.id} (${r.event})`).join(", ")}` };
+  return { ok: false, runs: list, message:
+    `no e2e-full run on ${short} concluded success (runs found: ${list}); production would ship a tree the full suite never passed. ` +
+    `Promote the newest dev commit whose push-run of e2e-full is green: a burst of merges keeps one run, for its newest tip, and ` +
+    `cancels the rest by design. To get a green run for ${short} itself, while it is dev's tip and no merge is in flight: ` +
+    `gh workflow run e2e-full.yml --ref dev; otherwise give it a branch of its own, which cancels nothing on dev: ` +
+    `git push origin ${sha}:refs/heads/verify-${short} && gh workflow run e2e-full.yml --ref verify-${short}. Then re-run this deploy.` };
+}
+
+const git = (root, ...a) => {
+  const r = spawnSync("git", a, { cwd: root, encoding: "utf8" });
+  if (r.status !== 0) throw new Error(`git ${a.join(" ")}: ${(r.stderr || "").trim()}`);
+  return r.stdout.trim();
+};
+
+async function e2eFullRuns(sha) {
+  const { GITHUB_API_URL = "https://api.github.com", GITHUB_REPOSITORY = "diogoseca/bjjgraph", GH_TOKEN } = process.env;
+  const url = `${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/actions/workflows/e2e-full.yml/runs?head_sha=${sha}&per_page=100`;
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const res = await fetch(url, { headers: { Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", ...(GH_TOKEN ? { Authorization: `Bearer ${GH_TOKEN}` } : {}) } });
+      if (res.ok) return (await res.json()).workflow_runs || [];
+      if (attempt >= 3) throw new Error(`the runs API answered ${res.status}`);
+    } catch (e) { if (attempt >= 3) throw e; }
+    await new Promise((r) => setTimeout(r, 5000));
+  }
+}
+
+async function promotion(root, args) {
+  try {
+    let tested, shape;
+    if (args.includes("--commit")) { tested = args[args.indexOf("--commit") + 1]; shape = "named on the command line (a dry run of the run check)"; }
+    else {
+      const at = args.includes("--head") ? args[args.indexOf("--head") + 1] : "HEAD"; // --head: a dry run of the whole rule
+      const head = git(root, "rev-parse", at);
+      const parents = git(root, "rev-list", "--parents", "-n", "1", head).split(" ").slice(1);
+      const t = promotionTarget({ head, parents, diff: (other) => git(root, "diff", "--name-only", other, head).split("\n").filter(Boolean) });
+      if (t.error) { console.log(`::error title=Promotion rule::${t.error}`); return 1; }
+      ({ tested, shape } = t);
+    }
+    if (!/^[0-9a-f]{40}$/.test(tested || "")) { console.log(`::error title=Promotion rule::not a full commit sha: ${tested}`); return 1; }
+    const v = evaluatePromotion(await e2eFullRuns(tested), tested);
+    console.log(`promotion: the commit that vouches for this push is ${tested} (${shape}); e2e-full runs on it: ${v.runs}`);
+    console.log((v.ok ? "::notice title=Promotion rule::" : "::error title=Promotion rule::") + v.message);
+    return v.ok ? 0 : 1;
+  } catch (e) { console.log(`::error title=Promotion rule::the rule could not be checked (${e.message}); it fails closed`); return 1; }
 }
 
 // ── the tripwire ──────────────────────────────────────────────────────────────────────────────
@@ -322,6 +476,8 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
     for (const e of r.errors) console.log("FAIL " + e);
     process.exit(r.errors.length ? 1 : 0);
   } else if (cmd === "tripwire") process.exit(await tripwire(ROOT));
+  else if (cmd === "ran") process.exit(ran(ROOT, args));
+  else if (cmd === "promotion") process.exit(await promotion(ROOT, args));
   else if (cmd === "refresh") process.exit(refresh(ROOT, args));
-  else { console.error("usage: node scripts/deploy_gate.mjs check [--listed] | tripwire | refresh --log <file> --run <id>"); process.exit(2); }
+  else { console.error("usage: node scripts/deploy_gate.mjs check [--listed] | ran [--report <file>] | promotion [--commit <sha> | --head <sha>] | tripwire | refresh --log <file> --run <id>"); process.exit(2); }
 }

@@ -2,7 +2,7 @@
  * WHAT THE GRAPH'S NAME LABEL MAY WEIGH, measured — the recompute script for NG_NAME_PX* .
  *
  * CLAUDE.md 6.9: a canon number nobody can reproduce is worse than no number. The focused pair
- * label's size is bounded by ONE thing — `dual-pair.spec.ts`'s @curated `labelRight < W` at
+ * label's size is bounded by ONE thing — `dual-pair.spec.ts`'s `labelRight < W` (e2e-full) at
  * 320/360/390, which reads the UNTRIMMED `_labelWidthPx`, so the gate fails before a user ever
  * sees an ellipsis. This prints, per viewport, the largest font size that still fits.
  *

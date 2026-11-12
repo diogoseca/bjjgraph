@@ -30,6 +30,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 ## Index A — by version
 
 - **v1.264.0** — [The legal boxes read their pages: /privacy and /terms open the page's own short box before the map](#v12640--the-legal-boxes-read-their-pages-privacy-and-terms-open-the-pages-own-short-box-before-the-map-owner-u140-b-legal3-2026-11-12)
+- **v1.263.3** — [The deploy gate's follow-ups: a smoke per surface, the count of what ran, the promotion rule enforced](#v12633--the-deploy-gates-follow-ups-a-smoke-per-surface-the-count-of-what-ran-the-promotion-rule-enforced-gate6-2026-11-12)
 - **v1.263.1** — [A taken-up question whose card leaves the screen is put down free, however the scroll began](#v12631--a-taken-up-question-whose-card-leaves-the-screen-is-put-down-free-however-the-scroll-began-owner-u146-a-short4-2026-11-12)
 - **v1.263.0** — [The deploy gate runs what a deploy can break, plus one smoke per surface](#v12630--the-deploy-gate-runs-what-a-deploy-can-break-plus-one-smoke-per-surface-gate5-2026-11-12)
 - **v1.262.11** — [Each browser keeps its own roll-ledger code](#v126211--each-browser-keeps-its-own-roll-ledger-code-flow1-and-flow2-2026-11-12)
@@ -16109,6 +16110,81 @@ of 1,600,000 B; eager gzip 352,234 B, over its 300,000 B target and under its 40
 **Runs.** `npm run ci:validate` locally. No site build, by the brief: the build census is red on the PR until the orchestrator's guarded capture re-seeds it, in two places with one cause: `validate:build-shape` (Build tested site) and ci-validate's unit suite, where `tests/quartz_dates_contract.test.mjs` "GOLDEN CENSUS" reads `DRIFTED` against `build_fingerprint.json`'s capture `0ac2538d1` (dev's content equals that capture; this page is the only drift).
 
 **Terms (PRIV4, its own commit so it can be dropped whole).** `content/terms.md` (hand-authored, unchanged since `b950baec8`, 2026-06-22), three facts from the second reader, each re-checked: section 9 offered "votes that nudge technique success rates", and no build input has a voting control or sends `move_vote` (`regenerate_votes.py:336-343` still folds past events), so it now names training progress, the lists you make and any feedback you send; section 7 named "a PolyForm licence" with a link to the site's home, and the repo has one licence, PolyForm Noncommercial 1.0.0 (`LICENSE.md:1-3`), now named and linked, plus one clause that embedded videos and previews belong to their creators; section 6 gains the line that until now only the app's Terms box carried (`app.src.jsx:5331`): the simulated roll and its percentages are a gameplay estimate and do not predict real outcomes. "The simulation" became "The simulated roll", because the page never introduces the simulation. Section 8 (the product-link disclosure) is byte-identical. The page is a second drift for the build census, cleared by the same capture. PRIV6 (its own commit, dropped with this one: revert both): the Effective date is the merge day, 12 November 2026 (U141 a), and no minimum age is added (U144 b).
+
+## v1.263.3 — The deploy gate's follow-ups: a smoke per surface, the count of what ran, the promotion rule enforced (GATE6, 2026-11-12)
+
+**Why.** PR #388 (v1.263.0) merged after an independent reader's verdict MERGE WITH FOLLOW-UPS (8 findings, none
+shipping a broken deploy green). The orchestrator's GATE6 brief took all eight, each its own commit.
+
+**The first run of the new gate** (deploy-dev 43245302604, dev 8844ed6ee): 56 passed (2.0m), step 15:17:43 → 15:19:45;
+the tripwire printed `the curated gate took 2.0 min (target 5, line 10, timeout 20)`; the deploy-dev job took 8m05s
+(it was about 46). The 56 tests summed 115.0 s against 151.4 s for the same tests on run 43210168114, a runner ratio of
+0.76 (median 0.68): a fast runner, so about 2.7 min on a slow one, which was the estimate. **The first push-run of
+e2e-full** (43245302409, the same commit): green, 25.5 min wall, 1,469 passed and 5 skipped across the four shards,
+gen green, and its ledger step "56 rows … set-equal to the rows: true".
+
+**Part 1, a smoke for every surface (finding 3).** Tier S, one quick existing test each:
+- the drawer's views: sidebar's "Practice, Path and Last rolls open their views, and the brand leads back" (never
+  measured by a deploy, 1.6 s in a PR shard; it counts at the p90 until one does);
+- opening content from Explore: concepts-surface "Explore lists every authored principle…" (2.4 s);
+- a Learning reader: learning-reader "complete, expandable, and readable" at 390px (0.8 s);
+- creating a List: share-lists "the + beside Your lists creates a class list" (2.0 s);
+- the phone share arrival: share-mobile "a WhatsApp link opened on a phone ends on the LIT GRAPH" (1.6 s);
+- the /dev hub: forward-components "the dev hub links all four libraries and the production sound lab" (0.4 s).
+Every surface the reader named had a quick test; none was left out for speed.
+
+**Part 2, the count of what ran (finding 6).** `posttest:curated` runs `node scripts/deploy_gate.mjs ran` after every
+green curated run: the tests that ran and passed must be exactly the ledger's rows, none skipped, more than zero. It
+reads a JSON report the core config now writes to `e2e/test-results/results.json`, an outputDir Playwright wipes at each
+run's start. `check_build_chains.py` expands the hook as part of the curated gate, so it is required in both deploys
+before the Pages upload (8 expanded commands, was 7). Proven on real reports: a local run of all 62 counted "62 tests:
+61 passed of 62 rows, 0 skipped" and named the one red (bundle-version, whose stamp this worktree's donor Quartz build
+carries as 1.256.2: an environment fault, not the change); golden-path given a `test.skip` counted "skipped in the
+gate, so its surface went unchecked".
+
+**Part 3, the promotion rule enforced (finding 1).** `deploy.yaml`'s first gate, before the build:
+`node scripts/deploy_gate.mjs promotion`. A two-parent push (the `--no-ff` promotion) is vouched for by its dev parent,
+and main's tree must equal it except `.github/keepalive.txt` (keepalive commits to main carry `[skip ci]`, so they never
+run this); a single-parent push is judged on itself; any other shape fails closed. Only a green e2e-full run of event
+push or workflow_dispatch counts; a pull_request run tested a merge ref. **Concurrency, settled:** one run per burst
+stays. The rule takes the newest dev commit with a green run, and the failure message says how to get one for any other:
+dispatch on dev while it is the tip, or push the commit to a `verify-<sha>` branch and dispatch there, which cancels
+nothing on dev. Production-only in `check_build_chains.py` (`PRODUCTION_ONLY`, exactly once in deploy.yaml,
+unconditional; refused in deploy-dev.yaml), pinned in `tests/build_chains.test.mjs`. Dry runs against the real API: a
+scratch, unreferenced `--no-ff` merge of 8844ed6ee onto main b7a7c5b42 passes ("run 43245302409 (push)"); a merge whose
+tree is b43c4c075's fails ("138 file(s) beyond .github/keepalive.txt"); 8844ed6ee passes, b43c4c075 and fa41f1523 fail
+("runs found: none": they predate the push trigger).
+
+**Part 4, the shards run whenever the site built (finding 2).** `test` and `gen` wait on the tested site's upload
+(`needs.build.outputs.site`), not on the build job's post-build gates, which stay red and each run whenever the site
+built. None of them writes the tree the shards download. A content PR now sees its full suite before its capture.
+
+**Part 5 (finding 5).** The unit pins no path filter on e2e-full's triggers and no job or step condition beyond "the site
+built"; the reader's two surviving mutants are killed.
+
+**Part 6, the ledger says only what a row proves (finding 4).** Tier D is a test that reads what only a deploy build has
+(the keyed config in postscript.js and its stamp, or the checkout's history): 13 rows (auth-redirect-back ×5,
+path-visit-telemetry ×2, payload-first-hand, console-clean, bundle-version ×2, published-time ×2). The 28 whose fixtures
+supply the Supabase config or stub PostHog after boot moved to S, "re-run on the tree that ships", with reasons that say
+so. "The affiliate stamp" left the definition everywhere: no row reads a stamped link.
+
+**Part 7 (finding 8).** published-time's per-page oracle joins the gate, tier D, 7.5 s on the slow runner.
+
+**Part 8 (finding 7).** The u104-no-lead mutant's grep selects its test again; article-dashboard's degenerate ternary
+is gone; the comments in the unit, the probe, `e2e-serve.mjs` and `dsl.ts` that still called dual-pair and
+url-arrival's held-deck case `@curated` say where they run. **Left as it was: `neural/src/app.src.jsx:754`**, which
+still calls dual-pair's bound a deploy gate. Rewording it was measured, not assumed: `neural.js` stayed byte-identical,
+but four deferred bundles (`game-model.worker.js`, `game-study.js`, `game-study.worker.js`, `game-values.js`) changed
+bytes at the same length, because the minifier's short names (`le` became `ce`) follow the source text, comments
+included. A comment there is free on the payload bill and not free for `validate:build-shape`'s app rows; the
+reverted build matched the original hashes exactly.
+
+**The gate now:** 63 rows (14 D, 49 S), 62 measured and one at the p90, 3.0 min against the 5-minute target on the slow
+runner's seconds.
+
+**Mutants.** 16, each applied alone to a scratch copy, each killed at a named assertion of `tests/deploy_gate.test.mjs`
+(the table is in its header), plus the build-chain cases in `tests/build_chains.test.mjs`.
+
 ## v1.264.0 — The legal boxes read their pages: /privacy and /terms open the page's own short box before the map (owner U140 b, LEGAL3, 2026-11-12)
 
 **The ask.** Owner, U140 b (12 Nov 2026, 12:40): "i really much like the short versions. the /privacy page / terms page should be viewed with a toggle that reads 'Extended version [chevron icon >]' or something that reveals the extended versions with a click. users going to /privacy /terms land in the shortened version modal too with the bjjgraph as usual in the bg ... the bjjgraph loading in the bg should load after the modal content which is the most important ... this should be SEO appropriate". The plan (LEGAL2) was accepted with picks 1 a (the extended text opens inside the box), 2 a (the server page stays as it is), 3 a (the box opens when the app starts), and closing starts the game. This is part 1, the app; part 2, an "In short" on each page, waits for the wording PR (#374) and a guarded capture.

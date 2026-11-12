@@ -30,8 +30,8 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *      press aimed before the index lands still opens it (phone touch and desktop mouse).
  *  14. SIDE-R3 N3: a finger opens the badge without moving focus into its menu.
  *  10 also covers N2: closing the drawer leaves a replay running; a subsequent graph input stops it.
- * Claim 2 is @curated: the deploy gate's one quick test of the drawer (U147 a, v1.263.0). Claims 3, 4 and 7 were too,
- * until then; every claim runs in e2e-full, on each PR and each merge to dev.
+ * Claims 2 and 5 are @curated: the deploy gate's quick tests of the drawer and of the views it opens (U147 a, v1.263.0;
+ * claim 5 since GATE6). Claims 3, 4 and 7 were too until v1.263.0; every claim runs in e2e-full, on each PR and each merge to dev.
  *
  * Harness: the DSL serves `{}` for dossier chunks; no claim here reads one. Systems and concepts
  * payloads are real, so the six categories are awaited, not assumed. No gameplay rng branch is
@@ -208,7 +208,7 @@ test("the badge shows today's cards and rolls before it is opened, a real grade 
   await expect(today, "the day's roll survived the reload").toHaveText(/ · 1 roll$/)
 })
 
-test("Practice, Path and Last rolls open their views, and the brand leads back", async ({ page }) => {
+test("@curated Practice, Path and Last rolls open their views, and the brand leads back", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await page.evaluate(async () => {

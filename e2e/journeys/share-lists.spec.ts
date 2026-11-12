@@ -999,7 +999,7 @@ test("/l leaks into NOTHING a crawler reads: not the sitemap, not llms.txt, not 
 
 // ────────────────────────────────────────────── the header + : how a list is born (v1.97.0)
 
-test("the + beside Your lists creates a class list — the one deliberate creation control", async ({
+test("the + beside Your lists creates a class list — the one deliberate creation control @curated", async ({
   page,
 }) => {
   const j = journey(page);
