@@ -328,7 +328,9 @@ export const tripwireExit = (time, count) => (time.level === "error" || !count.o
 //                          a manual redeploy after a keepalive passes on the promotion beneath it (the reviewer's new 2);
 //                          any other single-parent commit was made on main and nothing ran the suite on it: it fails,
 //                          and the message gives the branch-and-dispatch recipe for that commit;
-//   anything else          fails closed: no parents, or an octopus merge, is no promotion shape this repo makes.
+//   no parents             fails closed, and says why it usually happens: a SHALLOW checkout (deploy.yaml checks out
+//                          with fetch-depth: 0, which is what lets the rule see a merge's parents); an octopus merge
+//                          fails closed too: no promotion shape this repo makes.
 // Which runs count: event push (dev's merges) or workflow_dispatch (the way to get one by hand), conclusion success.
 // A pull_request run tested a merge ref, not this commit, so it never counts. ONE RUN PER BURST, deliberately: dev's
 // push-runs share a concurrency group with cancel-in-progress, so a commit followed by another merge before its run
@@ -345,7 +347,12 @@ const recipe = (sha) => {
     `&& gh workflow run e2e-full.yml --ref verify-${short}. Then re-run this deploy.`;
 };
 
-/** The e2e-full runs on one commit: does any counted run vouch for it? */
+/** The e2e-full runs on one commit: does any counted run vouch for it?
+ *  ANY counted green run vouches, and a later red run on the same commit does not revoke it: the tree passed the whole
+ *  suite once, so a later red on that same tree is a flake or an environment fault, which the deploy gate and the next
+ *  push-run judge for themselves; the suite is deterministic by design (retries: 0), so this tolerates nothing it should
+ *  catch. A RE-RUN attempt is different: the API reports a run's latest attempt, so green then red on a re-run of the
+ *  same run reads as red, and red then green as green. (GATE7, the reviewer's new 8 on #392.) */
 export function evaluatePromotion(runs, sha) {
   const mine = (runs || []).filter((r) => r.head_sha === sha);
   const counted = mine.filter((r) => COUNTED_EVENTS.includes(r.event));
@@ -393,7 +400,7 @@ export async function judgePromotion({ head, parentsOf, diff, runsOf }) {
       return { ok: false, tested: at, steps, message: `${at.slice(0, 9)} (${role}) is a single-parent commit that changes more than ${TESTED_ONLY_DIFF.join(", ")}, so it was made on main and no promotion vouches for it. ${own.message}` };
     }
     if (parents.length === 0)
-      return { ok: false, steps, message: `${at.slice(0, 9)} has no parents: it cannot be traced to one tested commit (fails closed)` };
+      return { ok: false, steps, message: `${at.slice(0, 9)} has no parents in this checkout: the repository's root commit, or, far more likely, a SHALLOW checkout. deploy.yaml must check out with fetch-depth: 0 so the rule can see a merge's parents; it fails closed` };
     return { ok: false, steps, message: `${at.slice(0, 9)} has ${parents.length} parents: an octopus merge is no promotion shape this repo makes; it fails closed` };
   }
 }

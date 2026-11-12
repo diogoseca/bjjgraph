@@ -238,9 +238,9 @@ test("PROMOTION: keepalive commits on main are walked back through; any other si
   assert.match(v.message, new RegExp(`git push origin ${sha("x")}:refs/heads/verify-${sha("x").slice(0, 9)} && gh workflow run e2e-full\\.yml --ref verify-`), "...and its message gives the branch-and-dispatch recipe for that commit");
 });
 
-test("PROMOTION: no parents and an octopus fail closed", async () => {
+test("PROMOTION: no parents names the checkout depth, an octopus fails closed", async () => {
   let v = await judgePromotion({ head: sha("r"), ...graph({ [sha("r")]: { parents: [], tree: T } }) });
-  assert.ok(!v.ok && /has no parents: it cannot be traced/.test(v.message), "a head with no parents fails closed");
+  assert.ok(!v.ok && /SHALLOW checkout\. deploy\.yaml must check out with fetch-depth: 0/.test(v.message), "a head with no parents fails closed and names the checkout depth");
   const octo = { [sha("a")]: { parents: [], tree: T }, [sha("b")]: { parents: [], tree: T }, [sha("c")]: { parents: [], tree: T },
     [sha("o")]: { parents: [sha("a"), sha("b"), sha("c")], tree: T } };
   v = await judgePromotion({ head: sha("o"), ...graph(octo) });
@@ -394,7 +394,10 @@ test("e2e-full: every push to dev runs the full suite, one run per burst, and ch
 // v1.263.3 (GATE6 part 5, the reviewer's finding 5 on #388): the promotion rule relies on the push-run being the WHOLE
 // suite, so nothing may narrow it: no path filter on either trigger, and no condition that could skip a job beyond
 // the one part 4 adds (the shards and gen wait on the tested site's upload, not on the build job's other gates).
-test("e2e-full: nothing narrows the push-run: no path filter, no job or step condition beyond 'the site built'", () => {
+// v1.263.4 (GATE7, the reviewer's new 7 on #392): the title said "no job or step condition" while only the suite commands
+// were pinned, so an `if:` on "Download tested site" passed. Every step of `test` and `gen` is pinned now: its only
+// conditions are the browser-cache choice of how to install Chromium, and the failure-artifact upload.
+test("e2e-full: nothing narrows the push-run: no path filter, no job condition beyond 'the site built', no step condition beyond the browser-cache choice and the failure upload", () => {
   const wf = workflow("e2e-full.yml");
   for (const ev of ["push", "pull_request"]) for (const k of ["paths", "paths-ignore", "branches-ignore", "tags", "tags-ignore"])
     assert.ok(!(k in (wf.on[ev] || {})), `e2e-full's ${ev} trigger carries no ${k}`);
@@ -414,5 +417,13 @@ test("e2e-full: nothing narrows the push-run: no path filter, no job or step con
   assert.equal(shard.length, 1, "each shard runs its quarter of the core suite");
   assert.equal(gen.length, 1, "gen runs the generated suite");
   assert.ok(![...shard, ...gen].some((s) => "if" in s || s["continue-on-error"]), "the suite commands themselves are unconditional and blocking");
+  const ALLOWED = { "steps.pw-cache.outputs.cache-hit != 'true'": "Install Chromium", "steps.pw-cache.outputs.cache-hit == 'true'": "Install Chromium OS deps (cache hit)", "failure()": "Upload failure artifacts" };
+  let pinned = 0;
+  for (const j of ["test", "gen"]) for (const st of wf.jobs[j].steps) {
+    pinned++;
+    assert.ok(!st["continue-on-error"], `${j}: "${st.name || st.uses}" is blocking`);
+    if ("if" in st) assert.equal(ALLOWED[st.if], st.name, `${j}: "${st.name || st.uses}" carries the condition ${st.if}, which could skip it on a push`);
+  }
+  assert.ok(pinned >= 20, `positive coverage: every step of test and gen was read (${pinned})`);
   assert.deepEqual(wf.jobs.test.strategy?.matrix?.shard, [1, 2, 3, 4], "all four shards");
 });
