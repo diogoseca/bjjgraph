@@ -36,7 +36,7 @@ const dismissals = (page: Page, from: number) => page.evaluate(n => ((window as 
   .filter((b: string) => b === "land_dismissed" || b === "land_q_declined"), from)
 
 for (const [width, height] of [[1440, 900], [390, 844]] as const) {
-  test(`@curated v1.253.0: a press past either end of the deck changes nothing (${width}x${height})`, async ({ page }) => {
+  test(`v1.253.0: a press past either end of the deck changes nothing (${width}x${height})`, async ({ page }) => {
     const j = await boot(page, width, height)
     const first = await state(page)
     expect(first, "premise: a deck of several cards, its question card and its film shown").toMatchObject({ card: true, film: true, page: 0 })

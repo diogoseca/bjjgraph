@@ -28,7 +28,7 @@ async function openChallenges(page: any) {
   await expect(page.locator(".ng-track-card").first()).toBeVisible();
 }
 
-test.describe("Challenge curriculum @curated", () => {
+test.describe("Challenge curriculum", () => {
   // v1.242.0 (owner A5 / E1 / T-b): the tabs became one drawer list, so there is no "default tab" any
   // more. The drawer always opens on its list; Path (the old Challenges tab) is one row away, and the
   // stat band's cells moved to the Practice row and the badge's menu (sidebar.spec.ts pins those).

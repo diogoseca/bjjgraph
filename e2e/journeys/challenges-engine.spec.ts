@@ -43,7 +43,9 @@ const progressBlob = (overrides: Record<string, unknown> = {}) => ({
   ...overrides,
 });
 
-test.describe("Challenge engine @curated", () => {
+test.describe("Challenge engine", () => {
+  // @curated on three tests only, the cloud merge and first pull through the real facade: a keyed build is where they
+  // can differ (U147 a, v1.263.0, tier D in tests/artifacts/deploy_gate.json). The rest run in e2e-full on every PR and merge.
   test("a legacy 7/20 user migrates exactly and keeps the v2 compatibility write", async ({
     page,
   }) => {
@@ -152,7 +154,7 @@ test.describe("Challenge engine @curated", () => {
       .toEqual({ recall: true, checkpoints: true });
   });
 
-  test("cloud merge uses MAX, OR, and UNION without dropping local proof", async ({
+  test("@curated cloud merge uses MAX, OR, and UNION without dropping local proof", async ({
     page,
   }) => {
     const j = journey(page);
@@ -204,7 +206,7 @@ test.describe("Challenge engine @curated", () => {
     expect(merged.accepted).toBe(true);
   });
 
-  test("a fresh device pulls collectibles before its first cloud push", async ({
+  test("@curated a fresh device pulls collectibles before its first cloud push", async ({
     page,
   }) => {
     const j = journey(page);
@@ -231,7 +233,7 @@ test.describe("Challenge engine @curated", () => {
     expect(state.coins).toEqual(["houdini"]);
   });
 
-  test("cloud-only mastery evidence recomputes snapshot challenges before push", async ({
+  test("@curated cloud-only mastery evidence recomputes snapshot challenges before push", async ({
     page,
   }) => {
     const j = journey(page);

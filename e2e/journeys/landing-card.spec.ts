@@ -236,7 +236,7 @@ test("the corner shows card position as bare text that opens nothing", async ({ 
  * revealed-only on purpose: a DECLINED question (sheet, pane, bg) is un-revealed, and answering
  * it after backing out still pays — keyboard.spec.ts pins that.
  */
-test("@curated a timed-out question is spent — a late click grades nothing", async ({ page }) => {
+test("a timed-out question is spent — a late click grades nothing", async ({ page }) => {
   const j = journey(page)
   await gameBoard(page, j)
   await j.advance(6000)
@@ -334,7 +334,7 @@ test("@curated a timed-out question is spent — a late click grades nothing", a
  * the base color it was armed with.
  * Mutants that must die: dropping the JS pulse write; snapping the bar (no transition).
  */
-test("@curated expiry is fluid — no re-entry replay, the bar eases home", async ({ page }) => {
+test("expiry is fluid — no re-entry replay, the bar eases home", async ({ page }) => {
   const j = journey(page)
   await gameBoard(page, j)
   await j.advance(6000)
@@ -393,7 +393,7 @@ test("@curated expiry is fluid — no re-entry replay, the bar eases home", asyn
  * Mutants that must die: arming immediately (gate dropped); the 1.5× grace dropped; the
  * document-level latch removed (a real mouse move must arm it).
  */
-test("@curated no clock before Answer for Points — engagement alone is free; taking it up keeps new-user grace", async ({
+test("no clock before Answer for Points — engagement alone is free; taking it up keeps new-user grace", async ({
   page,
 }) => {
   const j = journey(page)

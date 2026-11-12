@@ -141,7 +141,7 @@ const mapNames = async (page: Page) => {
   return page.evaluate(() => { const a = (window as W).__neural; return (a._lastOptLabels || []).map((i: number) => a.nodes[i].t) })
 }
 
-test("@curated off by default: the row is dealt as before, and the setting turns it face down in place", async ({ page }) => {
+test("off by default: the row is dealt as before, and the setting turns it face down in place", async ({ page }) => {
   await seatMount(page, false)
   expect(await page.locator("[data-hide], .ng-choice-back, [data-choice-grade]").count(), "no hidden-moves DOM on the cards while off").toBe(0)
   expect(await switchWord(page), "...and the word by Your moves reads Shown, named for the state (v1.258.0)").toEqual({ word: "Shown", name: "Moves shown" })
@@ -161,7 +161,7 @@ test("@curated off by default: the row is dealt as before, and the setting turns
   expect([down.title, down.stats, down.filmCovered], "switched on under a dealt hand, the same card goes face down in place").toEqual(["hidden", "visible", true])
 })
 
-test("@curated on: the name and the film are face down, the numbers stay, and the map withholds the names", async ({ page }) => {
+test("on: the name and the film are face down, the numbers stay, and the map withholds the names", async ({ page }) => {
   await seatMount(page)
   const n = await page.locator(OWN).count()
   expect(n, "Mount Top deals past nine cards (the printed digit stops at 9)").toBeGreaterThan(9)
@@ -210,7 +210,7 @@ async function firstFrame(page: Page, sel: string, at: { x: number; y: number })
   return page.evaluate(() => (window as W).__firstFrame)
 }
 
-test("@curated hover: the card turns up the moment the pointer is on it, and a sweep turns each card back down as it leaves (owner, 11 Nov)", async ({ page }) => {
+test("hover: the card turns up the moment the pointer is on it, and a sweep turns each card back down as it leaves (owner, 11 Nov)", async ({ page }) => {
   await seatMount(page)
   const p = await pointOn(page, hm(1))
   await page.evaluate(() => { (window as W).__neural._handTouched = false })
@@ -293,7 +293,7 @@ test("@curated Yes files the move as mastered: gold in every row, kept across a 
   expect(open, "gold in the face-up row too").toEqual({ title: "visible", border: "rgba(232, 196, 106, 0.9)" })
 })
 
-test("@curated keys play blind, and the stand-in shows the move it played", async ({ page }) => {
+test("keys play blind, and the stand-in shows the move it played", async ({ page }) => {
   await seatMount(page)
   await page.keyboard.press("3")
   const s = await appState(page)
@@ -301,7 +301,7 @@ test("@curated keys play blind, and the stand-in shows the move it played", asyn
   expect(s.stand && [s.stand.hidden, s.stand.title], "the executing stand-in is face up").toEqual([false, "visible"])
 })
 
-test("@curated a mouse click on a face-up card plays it, seated where the card was", async ({ page }) => {
+test("a mouse click on a face-up card plays it, seated where the card was", async ({ page }) => {
   const j = await seatMount(page)
   const p = await pointOn(page, hm(1))
   await page.mouse.move(p.x, p.y)
@@ -323,7 +323,7 @@ test("@curated a mouse click on a face-up card plays it, seated where the card w
 
 const scaleOf = (page: Page, sel: string) => page.evaluate((sel) => Math.round(new DOMMatrix(getComputedStyle(document.querySelector(sel)!).transform).a * 1000), sel)
 
-test("@curated the film button has its own animation: the card's hover leaves it still, its own hover lifts it", async ({ page }) => {
+test("the film button has its own animation: the card's hover leaves it still, its own hover lifts it", async ({ page }) => {
   // a real approved front, served through the real dossier fetch (the fixture video-cards.spec.ts uses)
   await bootVideoCards(page, "approved")
   await page.evaluate(() => (window as W).__neural.set("hideMoves", true))
@@ -342,7 +342,7 @@ test("@curated the film button has its own animation: the card's hover leaves it
   expect([lit, await scaleOf(page, CARD) > 1020], "...while the card stays lit: the pointer is still inside it").toEqual([true, true])
 })
 
-test("@curated reduced motion: a hovered card is lit but does not grow", async ({ page }) => {
+test("reduced motion: a hovered card is lit but does not grow", async ({ page }) => {
   await page.emulateMedia({ reducedMotion: "reduce" })   // test.use({ reducedMotion }) leaves matchMedia false here (§6.4)
   await seatMount(page)
   const p = await pointOn(page, hm(1))
@@ -352,7 +352,7 @@ test("@curated reduced motion: a hovered card is lit but does not grow", async (
   expect([r.hover, r.glow, await scaleOf(page, hm(1))], "lit by its glow, at its own size").toEqual([true, true, 1000])
 })
 
-test("@curated the word by Your moves switches hidden moves from the row, in place, and is not a peek (v1.258.0; U121's eye before it)", async ({ page }) => {
+test("the word by Your moves switches hidden moves from the row, in place, and is not a peek (v1.258.0; U121's eye before it)", async ({ page }) => {
   const j = await seatMount(page, false)
   const hand = () => page.evaluate(() => (window as W).__neural._optionCards.map((c: W) => c.opt.node.t).join("|"))
   const before = await hand()
@@ -379,7 +379,7 @@ test("@curated the word by Your moves switches hidden moves from the row, in pla
   expect(await page.evaluate(() => (window as W).__neural.__mapPresses), "control: a press on the map itself is counted").toBeGreaterThan(0)
 })
 
-test("@curated a press on the word moves nothing beside it: the status slot and the cards keep their places (v1.258.0)", async ({ page }) => {
+test("a press on the word moves nothing beside it: the status slot and the cards keep their places (v1.258.0)", async ({ page }) => {
   const j = await seatMount(page, false)
   // what sits after the word, measured: the status slot's start, the word's own box, card 1's left edge
   const at = () => page.evaluate(() => {
@@ -395,7 +395,7 @@ test("@curated a press on the word moves nothing beside it: the status slot and 
   expect(await at()).toEqual(shown)
 })
 
-test("@curated the staged card: an orb tapped on the map is a move you named, so its card is face up", async ({ page }) => {
+test("the staged card: an orb tapped on the map is a move you named, so its card is face up", async ({ page }) => {
   const j = journey(page)
   await j.boot("/", { initialState: seed })
   await j.land("Mount Top")
@@ -411,7 +411,7 @@ test("@curated the staged card: an orb tapped on the map is a move you named, so
   expect(new Set(others), "...and only that one").toEqual(new Set(["hidden"]))
 })
 
-test("@curated the escape tray is face down too, and an escape files by its own name", async ({ page }) => {
+test("the escape tray is face down too, and an escape files by its own name", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Submissions/Triangle-Choke/from-Triangle-Control/Defender", { initialState: seed })
   await j.advance(4000)
@@ -441,7 +441,7 @@ test("@curated the escape tray is face down too, and an escape files by its own 
 const ORD = JSON.parse(readFileSync(resolve(__dirname, "../../node_ordinals.json"), "utf8")).ordinals as Record<string, number>
 const DAY = 20000
 
-test("@curated what a face-up card asks: unknown Yes only, known and due Still got it Yes / No, known and not due nothing", async ({ page }) => {
+test("what a face-up card asks: unknown Yes only, known and due Still got it Yes / No, known and not due nothing", async ({ page }) => {
   const S = ORD["Positions/Mount"] + "/top"
   const id = { due: "Submissions/Kimura/from-Mount", dueYes: "Submissions/Ezekiel-Choke/from-Mount", fresh: "Submissions/Americana/from-Mount", unknown: "Submissions/Armbar/from-Mount" }
   const moves = { [S]: {
@@ -506,7 +506,7 @@ async function stripPoints(page: Page, sel: string, open: () => Promise<void>, c
 }
 const graded = (page: Page) => page.evaluate(() => Object.values((window as W).__neural.moves || {}).reduce((n: number, r: any) => n + Object.keys(r).length, 0))
 
-test("@curated a press on a grade button that began before it could be seen does nothing; armed, it grades; the strip's text plays", async ({ page }) => {
+test("a press on a grade button that began before it could be seen does nothing; armed, it grades; the strip's text plays", async ({ page }) => {
   const j = await seatMount(page)
   const p = await pointOn(page, hm(1))
   const pt = await stripPoints(page, hm(1), () => page.mouse.move(p.x, p.y), () => page.mouse.move(p.x, p.y - 160))
@@ -531,7 +531,7 @@ test("@curated a press on a grade button that began before it could be seen does
   expect([s.executing, s.stand && s.stand.hidden], "the strip's text is not a button: the press plays the card").toEqual([true, false])
 })
 
-test("@curated Enter on a focused card: face down it turns up, face up it plays, whatever pointer pressed last (review R7)", async ({ page }) => {
+test("Enter on a focused card: face down it turns up, face up it plays, whatever pointer pressed last (review R7)", async ({ page }) => {
   await seatMount(page)
   // a mouse press on card 2 that is not a click (down, away, up): it was the last pointer, and the card went back
   // down as the pointer left it
@@ -551,7 +551,7 @@ test("@curated Enter on a focused card: face down it turns up, face up it plays,
   }
 })
 
-test("@curated a pull that flips the setting mid-hand re-syncs the row and the map (review R9)", async ({ page }) => {
+test("a pull that flips the setting mid-hand re-syncs the row and the map (review R9)", async ({ page }) => {
   await seatMount(page, false)
   // the live receipt path: `_pullAndMerge` and another tab's write both land through `_hydrateProgressBlob`
   const pull = (on: boolean) => page.evaluate((on) => {
@@ -571,7 +571,7 @@ test("@curated a pull that flips the setting mid-hand re-syncs the row and the m
 test.describe("touch", () => {
   test.use({ hasTouch: true, isMobile: true, viewport: { width: 390, height: 844 } })
 
-  test("@curated a first tap turns the card up and plays nothing; Yes is a 44px target; a second tap plays", async ({ page }) => {
+  test("a first tap turns the card up and plays nothing; Yes is a 44px target; a second tap plays", async ({ page }) => {
     await seatMount(page)
     const p = await pointOn(page, hm(1))
     await page.touchscreen.tap(p.x, p.y)
@@ -601,7 +601,7 @@ test.describe("touch", () => {
     expect(s.stand && s.stand.hidden).toBe(false)
   })
 
-  test("@curated touch: a second tap where Yes appeared does nothing until the button is armed (review R3)", async ({ page }) => {
+  test("touch: a second tap where Yes appeared does nothing until the button is armed (review R3)", async ({ page }) => {
     await seatMount(page)
     const p = await pointOn(page, hm(1)), o = await pointOn(page, hm(0))
     const pt = await stripPoints(page, hm(1), () => page.touchscreen.tap(p.x, p.y), () => page.touchscreen.tap(o.x, o.y))
@@ -617,7 +617,7 @@ test.describe("touch", () => {
     expect([await graded(page), s.executing], "armed, a tap on Yes grades and plays nothing").toEqual([1, false])
   })
 
-  test("@curated Still got it on touch: Yes and No are both 44px targets, whole inside the card", async ({ page }) => {
+  test("Still got it on touch: Yes and No are both 44px targets, whole inside the card", async ({ page }) => {
     const S = ORD["Positions/Mount"] + "/top", due = "Submissions/Americana/from-Mount"
     await page.addInitScript((d) => { (window as W).__NG_EPOCH_DAY__ = d }, DAY)
     const j = journey(page)
@@ -639,7 +639,7 @@ test.describe("touch", () => {
       { g: "yes", w: true, h: true, inside: true, edges: true }, { g: "no", w: true, h: true, inside: true, edges: true }])
   })
 
-  test("@curated touch: the word's target is the whole free band (44 x 40), covers neither Your moves, card 1 nor the hand's close, and a card left up stays unnamed after off and on (v1.258.0; the eye's claim, U121)", async ({ page }) => {
+  test("touch: the word's target is the whole free band (44 x 40), covers neither Your moves, card 1 nor the hand's close, and a card left up stays unnamed after off and on (v1.258.0; the eye's claim, U121)", async ({ page }) => {
     await seatMount(page)
     const g = await page.evaluate(() => {
       const e = document.querySelector("[data-hide-switch]") as HTMLElement, title = e.parentElement!, r = e.getBoundingClientRect()
@@ -670,7 +670,7 @@ test.describe("touch", () => {
     expect(named, "...and its orb is not named on the map").toBe(false)
   })
 
-  test("@curated the badge reads Tap to reveal on the Suggested card while it is down", async ({ page }) => {
+  test("the badge reads Tap to reveal on the Suggested card while it is down", async ({ page }) => {
     await seatMount(page)
     await expect.poll(() => page.evaluate(() => [...document.querySelectorAll("[data-choice-recommended]")].some((b) => (b.textContent || "").length > 0)), { timeout: 30000 }).toBe(true)
     const badge = await page.evaluate(() => {

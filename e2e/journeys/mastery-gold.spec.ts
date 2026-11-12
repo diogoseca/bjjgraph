@@ -111,7 +111,7 @@ async function renderedOff(page: Page, info: TestInfo, phase: string) {
   expect(rows.filter(r=>r.different>0||!r.perspectiveFill),"rendered Off focus and resting glow preserve historical pixels").toEqual([]);
 }
 
-test("@curated rendered Off focus and resting glow preserve the player perspective", async ({page},info) => {
+test("rendered Off focus and resting glow preserve the player perspective", async ({page},info) => {
   const j=journey(page); await j.boot("/"); await j.land("Mount Top"); await ready(page);
   await renderedOff(page,info,"default-off");
   await openSettings(page,j); await choose(j,true); await choose(j,false);
@@ -119,7 +119,7 @@ test("@curated rendered Off focus and resting glow preserve the player perspecti
   await renderedOff(page,info,"on-then-off");
 });
 
-test("@curated overview mixes both halves without ever opening Settings", async ({ page }) => {
+test("overview mixes both halves without ever opening Settings", async ({ page }) => {
   // Real boot, no journey rails: this visitor has never touched the gold setting.
   // Hold only the deferred palette to observe the unchanged fallback before it lands.
   let release!:()=>void;
@@ -189,7 +189,7 @@ test("@curated overview mixes both halves without ever opening Settings", async 
 });
 
 for (const width of [1440, 390]) {
-  test(`@curated mastery gold mouse toggle, own-half paint, Off restoration and reload at ${width}px`, async ({ page }) => {
+  test(`mastery gold mouse toggle, own-half paint, Off restoration and reload at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 });
     const j = journey(page), requests: string[] = [];
     page.on("request", r => { if (moduleURL.test(r.url())) requests.push(r.url()); });
@@ -235,7 +235,7 @@ for (const width of [1440, 390]) {
   });
 }
 
-test("@curated a real landing-card grade updates map paint without reload", async ({ page }) => {
+test("a real landing-card grade updates map paint without reload", async ({ page }) => {
   const j=journey(page);
   await j.boot("/",{beforeNavigate:async()=>{
     await page.addInitScript(()=>{

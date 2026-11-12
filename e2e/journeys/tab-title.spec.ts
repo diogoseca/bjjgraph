@@ -38,7 +38,7 @@ async function clickNode(page: Page, j: ReturnType<typeof journey>, id: string) 
 }
 
 // v1.253.0 (U114 a): the reader open/close steps went with the article's ✕ and the shelf's Book button.
-test("@curated VIDEO2 native map click, Back/Forward and the dual pair keep exact titles", async ({ page }) => {
+test("VIDEO2 native map click, Back/Forward and the dual pair keep exact titles", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Mount", { initialState: QUIET })
   await expect(page.locator(READY)).toHaveCount(1); await j.advance(8000)
@@ -59,7 +59,7 @@ test("@curated VIDEO2 native map click, Back/Forward and the dual pair keep exac
   console.log("VIDEO2 native navigation: 6 exact built titles asserted")
 })
 
-test("@curated VIDEO2 dual pair titles name the selected role, never the hub", async ({ page }) => {
+test("VIDEO2 dual pair titles name the selected role, never the hub", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Half-Guard/Bottom", { initialState: QUIET })
   await expect(page.locator(READY)).toHaveCount(1)

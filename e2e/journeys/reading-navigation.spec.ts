@@ -17,7 +17,7 @@ const QUIET = { v: 2, settings: { landCard: false, landHand: false, landFeedback
 for (const width of [320, 390]) {
   // RETIRED in part (D-338, no View menu): the article view has no Book toggle, so its hide/restore
   // steps and their ghost-hit and scroll claims go. Keys, section toggles and no play remain.
-  test(`@curated ${width}px native reading keys and section toggles preserve the complete document`, async ({ page }) => {
+  test(`${width}px native reading keys and section toggles preserve the complete document`, async ({ page }) => {
     await page.setViewportSize({ width, height: 844 })
     const j = journey(page)
     await j.boot(KNEE + '/Attacker', { initialState: QUIET })
@@ -81,7 +81,7 @@ for (const width of [320, 390]) {
   })
 }
 
-test('@curated a late full article preserves the answered question and never pays twice', async ({ page }) => {
+test('a late full article preserves the answered question and never pays twice', async ({ page }) => {
   const j = journey(page)
   let release!: () => void, requested = false
   const held = new Promise<void>(resolve => { release = resolve })
@@ -116,7 +116,7 @@ test('@curated a late full article preserves the answered question and never pay
 // layout, then deliver it between the original measurement and native click.
 // New-question publication must have positioned the controls synchronously;
 // waiting for reader readiness here would hide the defect instead of fixing it.
-test('@curated the first queued reader layout cannot move a published answer before its first click', async ({ page }) => {
+test('the first queued reader layout cannot move a published answer before its first click', async ({ page }) => {
   await page.addInitScript(() => {
     const w = window as any, prior = Object.getOwnPropertyDescriptor(w, '__neural'); let app: any
     Object.defineProperty(w, '__neural', { configurable: true, get: () => app, set: a => {
@@ -177,7 +177,7 @@ test('@curated the first queued reader layout cannot move a published answer bef
 // Native moveBefore also failed: preserving DOM identity cannot preserve a
 // moving hit target. Force that ordering against the actual installed reader.
 for (const width of [390, 1440]) {
-  test(`@curated ${width}px reader adoption during a mouse press preserves the first answer`, async ({ page }) => {
+  test(`${width}px reader adoption during a mouse press preserves the first answer`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     const j = journey(page)
     await j.boot(KNEE)
@@ -216,7 +216,7 @@ for (const width of [390, 1440]) {
 }
 
 // v1.253.0 (U114 a): the Book restore this also pressed is retired with the shelf; the reuse claim stays, in the article view.
-test('@curated successful article responses are reused across seat navigation', async ({ page }) => {
+test('successful article responses are reused across seat navigation', async ({ page }) => {
   const j = journey(page), requests: string[] = []
   page.on('request', r => { if (r.resourceType() === 'fetch' && /Knee-Slice-Pass\/(Attacker|Defender)$/.test(new URL(r.url()).pathname)) requests.push(new URL(r.url()).pathname) })
   await j.boot(KNEE + '/Attacker', { initialState: QUIET })
@@ -231,7 +231,7 @@ test('@curated successful article responses are reused across seat navigation', 
 })
 
 for (const first of ['pane', 'reading']) {
-  test(`@curated closing ${first} first never resumes reading without a game action`, async ({ page }) => {
+  test(`closing ${first} first never resumes reading without a game action`, async ({ page }) => {
     // STALE CONTRACT (D-338): Focus, which set reading intent, is gone. A content URL arrival sets
     // the same intent; the pane opens from the logo, before or after reading the prose.
     const j = journey(page)
@@ -250,7 +250,7 @@ for (const first of ['pane', 'reading']) {
 
 // STALE CONTRACT (D-338): Focus and Browse are gone. A content URL arrival sets the reading intent
 // Focus set (its seat's landing is the one-state history), and the logo opens the pane.
-test('@curated ending a replay after the pane closes preserves reading intent', async ({ page }) => {
+test('ending a replay after the pane closes preserves reading intent', async ({ page }) => {
   const j = journey(page)
   await j.boot(KNEE)
   await expect(page.locator(READY)).toBeVisible()
@@ -274,7 +274,7 @@ test('@curated ending a replay after the pane closes preserves reading intent', 
   })).toEqual({ reading: true, paused: true, replay: false, clock: null })
 })
 
-test('@curated a complete structured step keeps its long description and plain sibling', async ({ page }) => {
+test('a complete structured step keeps its long description and plain sibling', async ({ page }) => {
   const j = journey(page)
   const long = 'Extend the hips progressively '.padEnd(44, '-') + 'X'.repeat(760)
   await j.boot(KNEE, { initialState: QUIET, beforeNavigate: async () => {
@@ -290,7 +290,7 @@ test('@curated a complete structured step keeps its long description and plain s
   expect(await guide.locator('p').first().evaluate(e => e.textContent!.length)).toBe(804)
 })
 
-test('@curated a late real dossier preserves reader focus, scroll and the answered question', async ({ page }) => {
+test('a late real dossier preserves reader focus, scroll and the answered question', async ({ page }) => {
   const j = journey(page)
   await j.boot(KNEE)
   await expect(page.locator(READY)).toBeVisible()

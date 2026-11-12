@@ -137,10 +137,10 @@ async function roamed(page: Page, j: ReturnType<typeof journey>, touch: boolean,
 }
 
 for (const [width, height, touch] of [[390, 844, false], [390, 844, true], [1440, 900, false], [1440, 900, true]] as [number, number, boolean][]) {
-  const wide = width >= 1440, by = touch ? "touch" : "mouse", curated = (wide && !touch) || (!wide && touch) ? "@curated " : ""
+  const wide = width >= 1440, by = touch ? "touch" : "mouse"
   test.describe(`${width}x${height}, by ${by}`, () => {
     test.use({ viewport: { width, height }, hasTouch: touch, isMobile: touch && !wide })
-    test(`${curated}U123: free roam puts the article and its index away, each way in, and a landing or a page opened on purpose brings them back (${width}, by ${by})`, async ({ page }) => {
+    test(`U123: free roam puts the article and its index away, each way in, and a landing or a page opened on purpose brings them back (${width}, by ${by})`, async ({ page }) => {
       const j = journey(page)
       await j.boot("/")
       await j.land("Mount Top")

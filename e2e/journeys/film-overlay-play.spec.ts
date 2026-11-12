@@ -97,7 +97,9 @@ async function filmInView(page: Page) {
 const PLAY = FILM + ' .ng-clip[data-i="0"] [data-film-play]'
 
 for (const [width, height, clips] of [[390, 844, 2], [574, 760, 2], [1440, 900, 2], [1440, 900, 1]] as const) {
-  test(`@curated FILMFIX the film's overlay covers the video and its triangle stays centred, by mouse (${width}x${height}, ${clips} clip${clips > 1 ? "s" : ""})`, async ({ page }) => {
+  // The deploy gate (@curated) runs ONE of these, 390x844 with 2 clips: one quick test per surface (U147 a, v1.263.0).
+  // Every case runs in e2e-full's core shards on each PR and each merge to dev; tests/artifacts/deploy_gate.json.
+  test(`${width === 390 && height === 844 ? '@curated ' : ''}FILMFIX the film's overlay covers the video and its triangle stays centred, by mouse (${width}x${height}, ${clips} clip${clips > 1 ? "s" : ""})`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = await boot(page, "approved", { currentClips: clips })
     await filmInView(page)
@@ -114,7 +116,7 @@ for (const [width, height, clips] of [[390, 844, 2], [574, 760, 2], [1440, 900, 
   })
 }
 
-test("@curated FILMFIX a choice card's viewer: the triangle stays centred after its player is closed, by mouse (1440x900)", async ({ page }) => {
+test("FILMFIX a choice card's viewer: the triangle stays centred after its player is closed, by mouse (1440x900)", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = await boot(page)
   await filmInView(page)
@@ -132,7 +134,7 @@ test("@curated FILMFIX a choice card's viewer: the triangle stays centred after 
 test.describe("touch", () => {
   test.use({ hasTouch: true, isMobile: true, viewport: { width: 390, height: 844 } })
 
-  test("@curated FILMFIX the film's overlay covers the video and its triangle stays centred, by touch (390x844)", async ({ page }) => {
+  test("FILMFIX the film's overlay covers the video and its triangle stays centred, by touch (390x844)", async ({ page }) => {
     await boot(page)
     await filmInView(page)
     expectCovered(await overlay(page), "fresh")
@@ -145,7 +147,7 @@ test.describe("touch", () => {
     expectCentred(await triangle(page, FILM + ' .ng-clip[data-i="0"]'), fresh, "the film after play-and-close by touch")
   })
 
-  test("@curated FILMFIX a choice card's viewer: the triangle stays centred after its player is closed, by touch (390x844)", async ({ page }) => {
+  test("FILMFIX a choice card's viewer: the triangle stays centred after its player is closed, by touch (390x844)", async ({ page }) => {
     const j = await boot(page)
     await filmInView(page)
     const fresh = await triangle(page, FILM + ' .ng-clip[data-i="0"]')

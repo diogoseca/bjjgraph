@@ -46,7 +46,7 @@ const activity = (page: Page) => page.evaluate(() => {
 // STALE SPEC (PR 305, owner D-307): short desktop title clearance over real built videos.
 // Knee Slice now has one clip. Use the curated two-clip Kneebar entry attack
 // to retain the real multi-video layout stress and every finite-baseline/clearance bound.
-test('@curated a short desktop arrival keeps the node title clear of real built videos', async ({ page }) => {
+test('a short desktop arrival keeps the node title clear of real built videos', async ({ page }) => {
   await page.setViewportSize({ width: 1366, height: 768 })
   const j = journey(page)
   await j.boot('/Transitions/Kneebar-entry/Attacker', { beforeNavigate: async () => {
@@ -87,7 +87,7 @@ test('@curated a short desktop arrival keeps the node title clear of real built 
 })
 
 for (const width of [1366, 390]) {
-  test(`@curated ${width}px reading-first arrival is dormant until a real outcome click`, async ({ page }) => {
+  test(`${width}px reading-first arrival is dormant until a real outcome click`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     const j = journey(page)
     await j.boot('/Positions/Mount/Top')
@@ -110,7 +110,7 @@ for (const width of [1366, 390]) {
     await expect(page.locator('[data-executing-tech]')).toBeVisible()
   })
 
-  test(`@curated ${width}px a real landing-card answer starts the dormant game once`, async ({ page }) => {
+  test(`${width}px a real landing-card answer starts the dormant game once`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     const j = journey(page)
     await j.boot('/Positions/Mount/Top')
@@ -138,7 +138,7 @@ for (const width of [1366, 390]) {
   })
 }
 
-test('@curated reading gestures, minimizing and article navigation never start play', async ({ page }) => {
+test('reading gestures, minimizing and article navigation never start play', async ({ page }) => {
   const j = journey(page)
   await j.boot(KNEE)
   await expect(page.locator(READY)).toBeVisible()
@@ -191,7 +191,7 @@ test('@curated reading gestures, minimizing and article navigation never start p
 })
 
 for (const path of [KNEE, RNC]) {
-  test(`@curated defender reading excludes attacker rules and preserves real safety: ${path}`, async ({ page }) => {
+  test(`defender reading excludes attacker rules and preserves real safety: ${path}`, async ({ page }) => {
     const j = journey(page)
     await j.boot(path + '/Defender', { initialState: QUIET })
     await expect(page.locator(READY)).toBeVisible()
@@ -224,7 +224,7 @@ for (const path of [KNEE, RNC]) {
   })
 }
 
-test('@curated an unauthored defender never falls back to the attacker hub', async ({ page }) => {
+test('an unauthored defender never falls back to the attacker hub', async ({ page }) => {
   const j = journey(page)
   // Explicit missing-author fixture; the hub remains the real built attacker-rich page.
   await j.boot(KNEE, { initialState: QUIET, beforeNavigate: async () => {
@@ -239,7 +239,7 @@ test('@curated an unauthored defender never falls back to the attacker hub', asy
 })
 
 for (const width of [1366, 390]) {
-  test(`@curated ${width}px reader rhythm scales as a ratio and divider labels preserve the prose hierarchy`, async ({ page }) => {
+  test(`${width}px reader rhythm scales as a ratio and divider labels preserve the prose hierarchy`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 })
     const j = journey(page)
     await j.boot(RNC + '/Defender', { initialState: QUIET })
@@ -275,7 +275,7 @@ for (const width of [1366, 390]) {
   })
 }
 
-test('@curated a late response cannot repaint the opposite seat in the same reader', async ({ page }) => {
+test('a late response cannot repaint the opposite seat in the same reader', async ({ page }) => {
   const j = journey(page)
   await j.boot('/Positions/Mount', { initialState: QUIET })
   await expect(page.locator(READY)).toBeVisible()
@@ -324,7 +324,7 @@ test('@curated a late response cannot repaint the opposite seat in the same read
 
 for (const path of [RNC, '/Submissions/Triangle-Choke/from-Triangle-Control']) {
   for (const action of ['escape', 'answer']) {
-    test(`@curated dormant defender ${action} starts play directly: ${path}`, async ({ page }) => {
+    test(`dormant defender ${action} starts play directly: ${path}`, async ({ page }) => {
       const j = journey(page)
       await j.boot(path + '/Defender')
       await expect(page.locator(READY)).toBeVisible()

@@ -35,7 +35,7 @@ const graphVerb = (page: any) =>
     return a.activeMove ? { verb: a.activeMove.verb, idx: a.activeMove.idx } : null;
   });
 
-test("when YOU act: announcer says you go for it, graph says attacking @curated", async ({
+test("when YOU act: announcer says you go for it, graph says attacking", async ({
   page,
 }) => {
   const j = journey(page);
@@ -60,7 +60,7 @@ test("when YOU act: announcer says you go for it, graph says attacking @curated"
   expect(gv!.verb, "your posture toward your own move").toBe("Attacking");
 });
 
-test("when the OPPONENT acts: announcer says they go for it, graph says defending @curated", async ({
+test("when the OPPONENT acts: announcer says they go for it, graph says defending", async ({
   page,
 }) => {
   const j = journey(page);
@@ -110,7 +110,7 @@ test("BOTH opponent branches use the same verb — a submission attempt is not y
 });
 
 /**
- * "DECIDE 1…" IS THE HAND'S SENTENCE AND CANNOT OUTLIVE THE HAND (v1.128.1). @curated
+ * "DECIDE 1…" IS THE HAND'S SENTENCE AND CANNOT OUTLIVE THE HAND (v1.128.1).
  *
  * Owner: "when i click another node amid a 'Decide 3/2/1' the Decide number (in this case '1...')
  * gets stuck there, even tho i navigated to another node and the time bars are now back full at
@@ -125,7 +125,7 @@ test("BOTH opponent branches use the same verb — a submission attempt is not y
  * the stamp (so "Time's up" is untouched — it reaches `setEvent` too), and `clearOptions` drops
  * the line if the stamp is still standing when the hand is torn down.
  */
-test("@curated a Decide countdown does not survive staging another node", async ({ page }) => {
+test("a Decide countdown does not survive staging another node", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   // THE START IS RIGGED (v1.198.2, §6.3). Left to `rng("start-pos")` this journey opened somewhere
@@ -328,7 +328,7 @@ test("the sentences after an expiry survive the hand being torn down", async ({ 
 });
 
 /**
- * THE CLOCK BELONGS TO THE QUESTION (v1.133.0, owner). @curated
+ * THE CLOCK BELONGS TO THE QUESTION (v1.133.0, owner).
  *
  * v1.129.0's hesitation branch ("you freeze, they move first") is retired with the hand clock it
  * rode on. "Pressure should not be on the choices … the choices are fun to click. When the clock
@@ -337,7 +337,7 @@ test("the sentences after an expiry survive the hand being torn down", async ({ 
  * effect: "too slow" is named the moment it happens — over your options since v1.218.0, the cards
  * taking the hit beneath it — with the hand untouched.
  */
-test("@curated the clock running out reveals the answer, says so, and steals nothing", async ({
+test("the clock running out reveals the answer, says so, and steals nothing", async ({
   page,
 }) => {
   const j = journey(page);
@@ -407,7 +407,7 @@ test("a timed-out question costs the answer, not the exchange", async ({ page })
 });
 
 /**
- * THE ANNOUNCER NEVER OUTRANKS THE STATE IT DESCRIBES (v1.138.0). @curated
+ * THE ANNOUNCER NEVER OUTRANKS THE STATE IT DESCRIBES (v1.138.0).
  *
  * Owner: "the announcement ... is larger than the current label of the current node, and it
  * shouldn't be the case. The current node is the fucking URL of the page ... it should be
@@ -446,7 +446,7 @@ for (const vp of [
   { name: "desktop", width: 1280, height: 800 },
   { name: "phone", width: 390, height: 844 },
 ]) {
-  test(`@curated on ${vp.name} the state's name reads larger than the announcer`, async ({ page }) => {
+  test(`on ${vp.name} the state's name reads larger than the announcer`, async ({ page }) => {
     await page.setViewportSize({ width: vp.width, height: vp.height });
     const j = journey(page);
     await j.boot("/Positions/Mount/Top");
@@ -505,7 +505,7 @@ for (const vp of [
  * within ~1.6 s of WALL clock even while the roll is PAUSED (a game-clock removal would pin it).
  * Mutants that must die: the cause removed on the game clock; the announcer written again.
  */
-test("@curated an expiry never pins — off the announcer, and gone in ~1.6 s even when paused", async ({
+test("an expiry never pins — off the announcer, and gone in ~1.6 s even when paused", async ({
   page,
 }) => {
   const j = journey(page);

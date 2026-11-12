@@ -164,7 +164,7 @@ const parkOn = async (page: Page, idx: number, vwFrac: number) =>
     { idx, vwFrac },
   );
 
-test("@curated nothing is written inside a node, however far you zoom in", async ({
+test("nothing is written inside a node, however far you zoom in", async ({
   page,
 }) => {
   const j = journey(page);
@@ -521,7 +521,7 @@ test("the option bars never drain, and the question bar cannot disagree with its
 })
 
 /**
- * THE GRAPH NEVER BAKES A ROLE INTO A NAME (v1.128.1). @curated
+ * THE GRAPH NEVER BAKES A ROLE INTO A NAME (v1.128.1).
  *
  * Owner: "when i'm zoomed out i often see 'Turtle Top' instead of 'Turtle' (roleless in the
  * further zoomed out state). pls fix that too so it says Turtle? or wtv without the role like top
@@ -538,7 +538,7 @@ test("the option bars never drain, and the question bar cannot disagree with its
  * canvas label paths (the fading recent-node labels, the active-move label during travel, and the
  * hover label), so the graph answers "what is this" exactly one way at every zoom.
  */
-test("@curated no position label the graph draws carries its role", async ({ page }) => {
+test("no position label the graph draws carries its role", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Side-Control/Bottom")
   await j.advance(6000)
@@ -644,7 +644,7 @@ test("@curated no position label the graph draws carries its role", async ({ pag
 })
 
 /**
- * THE QUALIFIER IS ITS OWN LINE (v1.129.0). @curated
+ * THE QUALIFIER IS ITS OWN LINE (v1.129.0).
  *
  * Owner, on names running off a phone: "probably a great idea to do wrapping in that case".
  *
@@ -658,7 +658,7 @@ test("@curated no position label the graph draws carries its role", async ({ pag
  * of 1034 have no "from" at all — those are handled by `_fitText`, which ellipsizes to the room
  * actually available rather than running off the screen.
  */
-test("@curated a qualified technique name is drawn as two lines, not one long one", async ({
+test("a qualified technique name is drawn as two lines, not one long one", async ({
   page,
 }) => {
   const j = journey(page)
@@ -854,7 +854,7 @@ test("@curated a qualified technique name is drawn as two lines, not one long on
 })
 
 /**
- * THE FOCUS KICKER NAMES THE SIDE, NOT THE CATEGORY (v1.129.1). @curated
+ * THE FOCUS KICKER NAMES THE SIDE, NOT THE CATEGORY (v1.129.1).
  *
  * Owner, zoomed out: "the subtitle instead of saying 'top', it says 'position: top', and that
  * position is irrelevant. I mean, it's saying that it's a position before saying 'top'."
@@ -867,7 +867,7 @@ test("@curated a qualified technique name is drawn as two lines, not one long on
  * This only shows at MERGE scale, where `pairGroup` stands down (v1.128.0) and the focus falls
  * through to `richLabel` — which is exactly the state the owner was looking at.
  */
-test("@curated zoomed out, the focus label says the side and not the category", async ({ page }) => {
+test("zoomed out, the focus label says the side and not the category", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Side-Control/Bottom")
   await j.advance(6000)
@@ -900,7 +900,7 @@ test("@curated zoomed out, the focus label says the side and not the category", 
 })
 
 /**
- * A QUALIFIER STAYS A SUBTITLE AT EVERY LOD (v1.173.2). @curated
+ * A QUALIFIER STAYS A SUBTITLE AT EVERY LOD (v1.173.2).
  *
  * Owner, on `Trap and Roll from Mount / DEFENDING`: the lower role could follow its orb far enough
  * away that the two subtitle rows stopped reading as one group. At merge scale `pairGroup` stands
@@ -911,7 +911,7 @@ test("@curated zoomed out, the focus label says the side and not the category", 
  * publishes and draws the short headline plus its separate qualifier; zoom changes geometry, not
  * naming structure.
  */
-test("@curated a qualified focus keeps a compact subtitle stack when zooming out", async ({
+test("a qualified focus keeps a compact subtitle stack when zooming out", async ({
   page,
 }) => {
   const j = journey(page)

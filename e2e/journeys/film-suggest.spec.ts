@@ -53,7 +53,7 @@ const box = (page: Page, selector: string) => page.locator(selector).first().eva
 })
 
 for (const vp of [{ width: 1440, height: 900 }, { width: 390, height: 844 }]) {
-  test(`@curated U109 b: a move with no video asks for one at a one-clip card's size, and the ask is Feedback about that move at ${vp.width}`, async ({ page }) => {
+  test(`U109 b: a move with no video asks for one at a one-clip card's size, and the ask is Feedback about that move at ${vp.width}`, async ({ page }) => {
     await page.setViewportSize(vp)
     const control = await (async () => {
       await landMount(page, 1)

@@ -49,7 +49,7 @@ const CASES: Array<{ key: string; word: string; what: string }> = [
   { key: "Mount|Bottom", word: "BOTTOM", what: "a position's bottom seat" },
 ]
 
-test("@curated the drill header names the DECK's seat, and the roll cannot move it", async ({ page }) => {
+test("the drill header names the DECK's seat, and the roll cannot move it", async ({ page }) => {
   const j = journey(page)
   await j.boot()
   await j.hydrate(CASES.map((c) => c.key))
@@ -93,7 +93,7 @@ test("@curated the drill header names the DECK's seat, and the roll cannot move 
 // in for it. The drawer has filtered `rep` since before this claim existed; this pins that it still does.
 test.describe("the drawer's search, 390x631 by touch", () => {
   test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true })
-  test("@curated the drawer's search names each site once", async ({ page }) => {
+  test("the drawer's search names each site once", async ({ page }) => {
     const j = journey(page)
     await j.boot()
     const icon = await page.evaluate(() => { const r = document.querySelector(".ng-search")!.getBoundingClientRect(); return [r.left + r.width / 2, r.top + r.height / 2] as [number, number] })
@@ -144,7 +144,7 @@ test.describe("the drawer's search, 390x631 by touch", () => {
  * NON-KILL, recorded: this does not cover the CANVAS label paths (pinned by graph-naming.spec.ts)
  * nor the list/share drawer's own rows, which take the same seam but are not read here.
  */
-test("@curated a row names the position and lets the alias ride beside it", async ({ page }) => {
+test("a row names the position and lets the alias ride beside it", async ({ page }) => {
   const j = journey(page)
   await j.boot()
 

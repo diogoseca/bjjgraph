@@ -138,7 +138,7 @@ const arrive = async (page: Page, j: ReturnType<typeof journey>, preserveStorage
 for (const viewport of [{ width: 390, height: 844 }, { width: 390, height: 631 }, { width: 574, height: 760 }]) for (const input of ["mouse", "touch"] as const) {
   test.describe(`${viewport.width}x${viewport.height} by ${input}`, () => {
     test.use(input === "touch" ? { viewport, hasTouch: true, isMobile: true } : { viewport })
-    test(`@curated CARDGAP1 after the card's ✕ the Questions label sits one step under Moves, through a reload and the next landing (${viewport.width}x${viewport.height}, ${input})`, async ({ page }) => {
+    test(`CARDGAP1 after the card's ✕ the Questions label sits one step under Moves, through a reload and the next landing (${viewport.width}x${viewport.height}, ${input})`, async ({ page }) => {
       const j = journey(page)
       await arrive(page, j)
       const open = await stack(page)
@@ -171,7 +171,7 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 390, height: 631 }
 
 test.describe("390x844, Moves closed and reopened, a resize, then the film closed", () => {
   test.use({ viewport: { width: 390, height: 844 } })
-  test("@curated CARDGAP1 the Questions label keeps one step under Moves with Moves or the film closed, and across a resize", async ({ page }) => {
+  test("CARDGAP1 the Questions label keeps one step under Moves with Moves or the film closed, and across a resize", async ({ page }) => {
     const j = journey(page)
     await arrive(page, j)
     await j.clickByMouse("[data-land-close]", "the card's ✕")
@@ -210,7 +210,7 @@ test.describe("390x844, Moves closed and reopened, a resize, then the film close
 
 test.describe("1440x900 control", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
-  test("@curated CARDGAP1 control: at 1440 the index carries the closed card and the film follows Moves at one step", async ({ page }) => {
+  test("CARDGAP1 control: at 1440 the index carries the closed card and the film follows Moves at one step", async ({ page }) => {
     const j = journey(page)
     await arrive(page, j)
     await j.clickByMouse("[data-land-close]", "the card's ✕")
@@ -237,7 +237,7 @@ test.describe("1440x900 control", () => {
 // Control: hidesec2-card-close-keeps-pin (tests/artifacts/article_sections_mutants.mjs).
 test.describe("1440x900 pinned", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
-  test("@curated HIDESEC2 a pinned landing's card ✕ settles the pin: its message, then the film, one step under Moves", async ({ page }) => {
+  test("HIDESEC2 a pinned landing's card ✕ settles the pin: its message, then the film, one step under Moves", async ({ page }) => {
     const j = journey(page)
     await j.boot("/", { beforeNavigate: withFilm, payloads: { "/Positions/Mount": { afterMs: 1500 } } })
     await j.land("Mount Top")

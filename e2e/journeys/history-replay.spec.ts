@@ -132,7 +132,7 @@ const progress = (page: Page) =>
     }
   })
 
-test("@curated a past roll's ⟲ walks its exchanges on the graph, and both row controls take a real mouse", async ({ page }) => {
+test("a past roll's ⟲ walks its exchanges on the graph, and both row controls take a real mouse", async ({ page }) => {
   const j = journey(page)
   const past = await archivedRoll(j, page)
   await openHistory(page)
@@ -189,7 +189,7 @@ test("@curated a past roll's ⟲ walks its exchanges on the graph, and both row 
   expect(after.held, "the film's camera lease died with it").toBe(false)
 })
 
-test("@curated a replay credits nothing — no stage, no srs, no score, no challenge evidence", async ({ page }) => {
+test("a replay credits nothing — no stage, no srs, no score, no challenge evidence", async ({ page }) => {
   const j = journey(page)
   const past = await archivedRoll(j, page)
   await openHistory(page)
@@ -267,7 +267,7 @@ test("the clock is held for the whole film, and a hand on the graph ends it", as
   expect(await page.evaluate(() => !!(window as any).__neural.deckShown), "...and does NOT close the pane in the same press (pane law: the pane is last)").toBe(true)
 })
 
-test("@curated ▶ asks first, then stages that roll's opening state — clock held, on the side you played", async ({ page }) => {
+test("▶ asks first, then stages that roll's opening state — clock held, on the side you played", async ({ page }) => {
   const j = journey(page)
   const past = await archivedRoll(j, page)
   await openHistory(page)

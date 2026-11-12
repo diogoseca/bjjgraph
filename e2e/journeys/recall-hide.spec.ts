@@ -85,7 +85,7 @@ const pressSpace = async (page: Page) => {
 }
 
 // ── 1. Hide puts the answer back ───────────────────────────────────────────────────────────────
-test("a revealed answer can be hidden again, and Show comes back @curated", async ({ page }) => {
+test("a revealed answer can be hidden again, and Show comes back", async ({ page }) => {
   const j = journey(page)
   await landOnRecall(j, page)
 
@@ -107,7 +107,7 @@ test("a revealed answer can be hidden again, and Show comes back @curated", asyn
 })
 
 // ── 2. Space toggles it ────────────────────────────────────────────────────────────────────────
-test("Space reveals and conceals the live recall block @curated", async ({ page }) => {
+test("Space reveals and conceals the live recall block", async ({ page }) => {
   const j = journey(page)
   await landOnRecall(j, page)
 

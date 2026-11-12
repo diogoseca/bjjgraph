@@ -71,7 +71,7 @@ const state = (page: Page) => page.evaluate(() => {
 })
 
 for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 }]) {
-  test(`@curated ${viewport.width}px complete article, every close and reopen, and reload`, async ({ page }) => {
+  test(`${viewport.width}px complete article, every close and reopen, and reload`, async ({ page }) => {
     await page.setViewportSize(viewport)
     await page.emulateMedia({ reducedMotion: "reduce" })
     const j = journey(page)
@@ -151,7 +151,7 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
   })
 }
 
-test("@curated reading interaction waits past the question window without a miss", async ({ page }) => {
+test("reading interaction waits past the question window without a miss", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -205,7 +205,7 @@ async function replacementReadingSnapshot(page: Page) {
   return snapshot
 }
 
-for (const forced of [false, true]) test("@curated reading perspectives and Back retain canonical content without gameplay" + (forced ? " with HTML then graph held" : ""), async ({ page }) => {
+for (const forced of [false, true]) test("reading perspectives and Back retain canonical content without gameplay" + (forced ? " with HTML then graph held" : ""), async ({ page }) => {
   const j = journey(page)
   // A Focus saved before D-338 stays in storage and is inert: nothing reads it or its overrides
   // (§6.6), so the question and the moves it hid are shown as the game layers say.
@@ -271,7 +271,7 @@ for (const forced of [false, true]) test("@curated reading perspectives and Back
   }
 })
 
-test("@curated an automatic game article follows the bottom player's perspective", async ({ page }) => {
+test("an automatic game article follows the bottom player's perspective", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -283,7 +283,7 @@ test("@curated an automatic game article follows the bottom player's perspective
   expect((await state(page)).intent).toBe(false)
 })
 
-test("@curated a technique outside the active game ruleset remains readable on direct arrival", async ({ page }) => {
+test("a technique outside the active game ruleset remains readable on direct arrival", async ({ page }) => {
   const j = journey(page), path = "/Submissions/Cross-Collar-Choke/from-High-Mount/Attacker"
   await j.boot(path, { beforeNavigate: async () => { await page.addInitScript(() => localStorage.setItem("bjj_gi_mode", "nogi")) } })
   await j.advance(5000)
@@ -294,7 +294,7 @@ test("@curated a technique outside the active game ruleset remains readable on d
 })
 
 for (const action of ["wheel", "selection"] as const) {
-  test(`@curated mixed ${action} declines the live question without scoring a miss`, async ({ page }) => {
+  test(`mixed ${action} declines the live question without scoring a miss`, async ({ page }) => {
     // U99 b (owner, 2026-11-06): the taller map puts the first tile below the fold at 900, and this wheel needs a tile to land on.
     await page.setViewportSize({ width: 1440, height: 1400 })
     const j = journey(page)
@@ -345,7 +345,7 @@ async function explore(page: Page, j: ReturnType<typeof journey>) {
   await j.clickByMouse(".ng-logo", "the logo opens the pane, as Browse did")
   if (await page.evaluate(() => (window as any).__neural._viewMode !== "explore")) await j.clickByMouse('[data-view="explore"]', "the Explore tab")
 }
-test("@curated the logo and linked content keep reading intent through positions, techniques and principles", async ({ page }) => {
+test("the logo and linked content keep reading intent through positions, techniques and principles", async ({ page }) => {
   const j = journey(page)
   await j.boot(KNEE, { initialState: { v: 2, settings: { landFeedback: false }, settingsAt: {} } })
   await expect(page.locator(READY)).toBeVisible()
@@ -381,7 +381,7 @@ test("@curated the logo and linked content keep reading intent through positions
 // STALE CONTRACT (D-338): the article can no longer be minimized from the article view, and saved
 // Focus is not read. The question starts closed through its own saved layer and reopens from its
 // label in the article; answering it still starts play, the claim this journey keeps.
-test("@curated heading links focus the cloned article and a reopened question starts play", async ({ page }) => {
+test("heading links focus the cloned article and a reopened question starts play", async ({ page }) => {
   const j = journey(page)
   await j.boot(KNEE, { initialState: { v: 2, settings: { landCard: false, landHand: false, landFeedback: false }, settingsAt: {} } })
   await expect(page.locator(READY)).toBeVisible()
