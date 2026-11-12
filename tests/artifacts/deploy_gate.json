@@ -400,6 +400,48 @@
       "tier": "S",
       "reason": "smoke, Challenges count a roll",
       "ci_s": 1.7
+    },
+    {
+      "file": "sidebar.spec.ts",
+      "title": "@curated Practice, Path and Last rolls open their views, and the brand leads back",
+      "tier": "S",
+      "reason": "smoke, Practice, Path and Last rolls open their views from the drawer, and the brand leads back",
+      "ci_s": null
+    },
+    {
+      "file": "concepts-surface.spec.ts",
+      "title": "@curated Explore lists every authored principle, and opening one opens content — never a search",
+      "tier": "S",
+      "reason": "smoke, opening content from Explore: a principle opens its page, never a search",
+      "ci_s": 2.4
+    },
+    {
+      "file": "learning-reader.spec.ts",
+      "title": "@curated Learning is complete, expandable, and readable at 390px",
+      "tier": "S",
+      "reason": "smoke, a Learning reader opens complete and readable (390px)",
+      "ci_s": 0.8
+    },
+    {
+      "file": "share-lists.spec.ts",
+      "title": "the + beside Your lists creates a class list — the one deliberate creation control @curated",
+      "tier": "S",
+      "reason": "smoke, creating a List: the + beside Your lists makes one",
+      "ci_s": 2.0
+    },
+    {
+      "file": "share-mobile.spec.ts",
+      "title": "a WhatsApp link opened on a phone ends on the LIT GRAPH, not a covering drawer @curated",
+      "tier": "S",
+      "reason": "smoke, the phone share arrival: a received link ends on the lit graph",
+      "ci_s": 1.6
+    },
+    {
+      "file": "forward-components.spec.ts",
+      "title": "Forward Components development library › @curated the dev hub links all four libraries and the production sound lab",
+      "tier": "S",
+      "reason": "smoke, the /dev catalog the deploys build: its hub links all four libraries and the sound lab",
+      "ci_s": 0.4
     }
   ]
 }

@@ -42,7 +42,9 @@ const setup = async (page: Page) => {
 };
 
 for (const width of [1440, 390]) {
-  test(`Learning is complete, expandable, and readable at ${width}px`, async ({ page }) => {
+  // The deploy gate (@curated) runs ONE of these, 390px: the Learning reader's smoke (GATE6, the reviewer's finding 3 on #388).
+  // Both widths run in e2e-full on every PR and every merge to dev; tests/artifacts/deploy_gate.json.
+  test(`${width === 390 ? '@curated ' : ''}Learning is complete, expandable, and readable at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     const errors: string[] = [];
     page.on("pageerror", e => errors.push(e.message));
