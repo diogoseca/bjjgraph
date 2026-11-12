@@ -16405,3 +16405,12 @@ submodule, a newline-led name, a mode change and a symlink swap.
 **Runs (own build of the candidate's tree, keyless and UTC, under the build lock, after the merge of dev v1.264.1).** Before the merge of dev v1.264.1 (PR #390) and again after it, on the candidate's own tree (it differs from the built tree only in this file): `regenerate:neural` and `npm run build`, `validate:payload` OK (eager gzip 352,905 B), `validate:page-titles` 4,465 of 4,465, `validate:forward` OK; units 1,529 of 1,530 (the one red is the golden-provenance guard, which the capture clears); journeys 109 of 109: the eight that open the legal box or the account menu or read the pages' text, and the five that read the home page's article text (crawlable-homepage, static-article-layout, category-nav, url-arrival, landing-reveal); the share journeys 24 of 24 on their own config (`/l/` boots `l.html`); `e2e:gen` 101 of 101 before the merge. After it, the first full run was 100 of 101: `endgame-spa-nav-sheds-chip`'s second life logged two extra `land_q_skipped` beats on a soft-nav landing (the deck not yet in, then asked late). That spec reads none of the three pages; it went 5 of 5 alone on the same build, and dev's CI ran the suite green on this app code twice. A full rerun was 101 of 101, ledger PASS. Classified as load timing at the end of a long run, not proven.
 
 **Capture.** The three pages move the census and SEO baselines' content provenance, so they come from a guarded capture (CAP_U151, CAP391's accepted tree as its base); the home page is one of the 20 sampled SEO routes and its text is one sentence shorter, above its floor, which stays.
+
+## v1.264.5 — The deploy gate's last two pins: tripwire()'s own return and the replace-ref switch (2026-11-12)
+
+The reader's fourth pass on #393 gave the verdict MERGE and left two nits. Each now has a test that turns red without
+it. `tripwire()` takes an injected `fetch`, `env` and `wait`. A test drives it with fake jobs answers: it reads this run
+attempt's jobs, retries a 502, and returns red without the count file or over the line. A real-git fixture uses
+`git replace` to make a commit that changes `app.js` look keepalive-only. With `GIT_NO_REPLACE_OBJECTS=1` the rule
+reads the real tree and stops there. Each mutant (the return ignoring the count, the switch dropped) is killed at its
+named assertion. Unit 28 of 28.
