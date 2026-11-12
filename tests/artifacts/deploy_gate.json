@@ -1,5 +1,5 @@
 {
-  "note": "THE DEPLOY GATE, ONE ROW PER @curated TEST (v1.263.0, GATE5; the owner's U147 a, 12 Nov 2026: \"only what a deploy can break, plus one quick test per surface\"). Tier D: the deploy build differs here (the keyed Supabase and PostHog config, the affiliate stamp, the checkout's own history, the static shells crawlers read). Tier S: one smoke per surface on the exact merged tree. Every other journey runs in e2e-full.yml's core shards on every PR and every push to dev; a promotion takes only a commit whose push-run e2e-full is green. Until v1.263.0 the tag meant 'a fast representative sample' and grew from 427 tests (1 Oct) to 914 (12 Nov), 33.6 to 36.8 min of a 45-min step timeout; this trim kept 56 and untagged 858, each of which still runs unchanged in e2e-full (the GATE1 plan, reports/gatetime.md outside the repo, has the per-file keep table). TO ADD A TEST to the gate, tag it AND add its row: file (relative to e2e/journeys), Playwright's full title as the list reporter prints it (describe › test), tier, the reason a deploy can break it and a PR run cannot see it, and ci_s null until a deploy measures it (it counts at the measured rows' p90 meanwhile). Checked by tests/deploy_gate.test.mjs in test:units (tag sites against rows, the budget in deploy_gate_budget.json) and by `node scripts/deploy_gate.mjs check --listed` in e2e-full's build job (Playwright's own selection, title for title). Seconds move only by hand: `node scripts/deploy_gate.mjs refresh --log <gate log> --run <id>`.",
+  "note": "THE DEPLOY GATE, ONE ROW PER @curated TEST (v1.263.0, GATE5; the owner's U147 a, 12 Nov 2026: \"only what a deploy can break, plus one quick test per surface\"). Tier D: the test reads what only a deploy build has (the keyed Supabase and PostHog config in postscript.js and the build stamp it carries, or this checkout's own history). Tier S: re-run on the exact tree that ships while reading nothing a PR build lacks (one quick test per surface, plus the sign-in and account seams kept whole). v1.263.1 (GATE6, the reviewer's finding 4 on #388) moved 28 rows from D to S, whose fixtures supply the Supabase config or stub PostHog after boot, and dropped 'the affiliate stamp' from D: no row reads a stamped link (check_affiliate_surface.py --built and check_systems_payload.py check it in both deploys). Every other journey runs in e2e-full.yml's core shards on every PR and every push to dev; a promotion takes only a commit whose push-run e2e-full is green. Until v1.263.0 the tag meant 'a fast representative sample' and grew from 427 tests (1 Oct) to 914 (12 Nov), 33.6 to 36.8 min of a 45-min step timeout; this trim kept 56 and untagged 858, each of which still runs unchanged in e2e-full (the GATE1 plan, reports/gatetime.md outside the repo, has the per-file keep table). TO ADD A TEST to the gate, tag it AND add its row: file (relative to e2e/journeys), Playwright's full title as the list reporter prints it (describe › test), tier, the reason a deploy can break it and a PR run cannot see it, and ci_s null until a deploy measures it (it counts at the measured rows' p90 meanwhile). Checked by tests/deploy_gate.test.mjs in test:units (tag sites against rows, the budget in deploy_gate_budget.json) and by `node scripts/deploy_gate.mjs check --listed` in e2e-full's build job (Playwright's own selection, title for title). Seconds move only by hand: `node scripts/deploy_gate.mjs refresh --log <gate log> --run <id>`.",
   "measured": {
     "run": 43210168114,
     "workflow": "deploy-dev.yaml",
@@ -19,64 +19,64 @@
     {
       "file": "auth-owner.spec.ts",
       "title": "@curated a signed-out guest on a keyed config never creates an SDK client",
-      "tier": "D",
-      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "tier": "S",
+      "reason": "the sign-in seam through the real facade (guest, account switch, local-only), re-run on the tree that ships; its fixture supplies the Supabase config, so it reads no deploy key",
       "ci_s": 0.438
     },
     {
       "file": "auth-owner.spec.ts",
       "title": "@curated a guest meeting a cached v1 facade boots the app, never the hold screen",
-      "tier": "D",
-      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "tier": "S",
+      "reason": "the sign-in seam through the real facade (guest, account switch, local-only), re-run on the tree that ships; its fixture supplies the Supabase config, so it reads no deploy key",
       "ci_s": 0.424
     },
     {
       "file": "auth-owner.spec.ts",
       "title": "@curated guest boots through the real facade and persists only a guest-owned cache",
-      "tier": "D",
-      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "tier": "S",
+      "reason": "the sign-in seam through the real facade (guest, account switch, local-only), re-run on the tree that ships; its fixture supplies the Supabase config, so it reads no deploy key",
       "ci_s": 0.45
     },
     {
       "file": "auth-owner.spec.ts",
       "title": "@curated A to B to signout: each account keeps its own lists, both receive the guest practice, neither the other's",
-      "tier": "D",
-      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "tier": "S",
+      "reason": "the sign-in seam through the real facade (guest, account switch, local-only), re-run on the tree that ships; its fixture supplies the Supabase config, so it reads no deploy key",
       "ci_s": 4.3
     },
     {
       "file": "auth-owner.spec.ts",
       "title": "@curated same-account SDK refresh preserves the real mounted hand and options",
-      "tier": "D",
-      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "tier": "S",
+      "reason": "the sign-in seam through the real facade (guest, account switch, local-only), re-run on the tree that ships; its fixture supplies the Supabase config, so it reads no deploy key",
       "ci_s": 1.5
     },
     {
       "file": "auth-owner.spec.ts",
       "title": "@curated failed real-facade pull blocks upload until a successful account-pinned read",
-      "tier": "D",
-      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "tier": "S",
+      "reason": "the sign-in seam through the real facade (guest, account switch, local-only), re-run on the tree that ships; its fixture supplies the Supabase config, so it reads no deploy key",
       "ci_s": 2.1
     },
     {
       "file": "auth-owner.spec.ts",
       "title": "@curated real identity-read failure keeps recovery visible and progress untouched until successful Retry",
-      "tier": "D",
-      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "tier": "S",
+      "reason": "the sign-in seam through the real facade (guest, account switch, local-only), re-run on the tree that ships; its fixture supplies the Supabase config, so it reads no deploy key",
       "ci_s": 0.835
     },
     {
       "file": "auth-owner.spec.ts",
       "title": "@curated local-only: an unreachable SDK plays on this device, pushes nothing, and merges before the first push",
-      "tier": "D",
-      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "tier": "S",
+      "reason": "the sign-in seam through the real facade (guest, account switch, local-only), re-run on the tree that ships; its fixture supplies the Supabase config, so it reads no deploy key",
       "ci_s": 4.2
     },
     {
       "file": "auth-owner.spec.ts",
       "title": "@curated local-only D3: a failed session check plays on this device and merges before the first push",
-      "tier": "D",
-      "reason": "sign-in through the real Supabase facade on the keyed config only deploys carry: a PR build has no Supabase URL or anon key",
+      "tier": "S",
+      "reason": "the sign-in seam through the real facade (guest, account switch, local-only), re-run on the tree that ships; its fixture supplies the Supabase config, so it reads no deploy key",
       "ci_s": 4.2
     },
     {
@@ -118,56 +118,56 @@
       "file": "bundle-version.spec.ts",
       "title": "@curated the loader requests the bundle under the deploy's build stamp, never the fixed URL",
       "tier": "D",
-      "reason": "the bundle loads under the deploy's own build stamp",
+      "reason": "reads the build stamp from the keyed postscript.js only deploys emit, and the bundle URL it keys",
       "ci_s": 1.1
     },
     {
       "file": "bundle-version.spec.ts",
       "title": "@curated the app's deferred reference sheet is keyed on the bundle's own version",
       "tier": "D",
-      "reason": "the bundle loads under the deploy's own build stamp",
+      "reason": "reads the build stamp from the keyed postscript.js only deploys emit, and the bundle URL it keys",
       "ci_s": 1.7
     },
     {
       "file": "category-nav.spec.ts",
       "title": "@curated the category nav is emitted, sits outside <article>, and lays out at desktop",
-      "tier": "D",
-      "reason": "the static nav no SEO gate reads (CLAUDE.md 6.8), as this build emits it",
+      "tier": "S",
+      "reason": "the static nav no SEO gate reads (CLAUDE.md 6.8), re-run on the tree that ships",
       "ci_s": 1.1
     },
     {
       "file": "category-nav.spec.ts",
       "title": "@curated the nav carries all six categories, in order, and they are the page's out-of-article link scaffold",
-      "tier": "D",
-      "reason": "the static nav no SEO gate reads (CLAUDE.md 6.8), as this build emits it",
+      "tier": "S",
+      "reason": "the static nav no SEO gate reads (CLAUDE.md 6.8), re-run on the tree that ships",
       "ci_s": 0.994
     },
     {
       "file": "category-nav.spec.ts",
       "title": "@curated every category link resolves from the depth it is rendered at",
-      "tier": "D",
-      "reason": "the static nav no SEO gate reads (CLAUDE.md 6.8), as this build emits it",
+      "tier": "S",
+      "reason": "the static nav no SEO gate reads (CLAUDE.md 6.8), re-run on the tree that ships",
       "ci_s": 1.1
     },
     {
       "file": "challenges-engine.spec.ts",
       "title": "Challenge engine › @curated cloud merge uses MAX, OR, and UNION without dropping local proof",
-      "tier": "D",
-      "reason": "cloud merge and first pull through the real facade on the keyed config: no account loses progress",
+      "tier": "S",
+      "reason": "cloud merge and first pull through the real facade, re-run on the tree that ships (fixture config): no account loses progress",
       "ci_s": 0.917
     },
     {
       "file": "challenges-engine.spec.ts",
       "title": "Challenge engine › @curated a fresh device pulls collectibles before its first cloud push",
-      "tier": "D",
-      "reason": "cloud merge and first pull through the real facade on the keyed config: no account loses progress",
+      "tier": "S",
+      "reason": "cloud merge and first pull through the real facade, re-run on the tree that ships (fixture config): no account loses progress",
       "ci_s": 1.0
     },
     {
       "file": "challenges-engine.spec.ts",
       "title": "Challenge engine › @curated cloud-only mastery evidence recomputes snapshot challenges before push",
-      "tier": "D",
-      "reason": "cloud merge and first pull through the real facade on the keyed config: no account loses progress",
+      "tier": "S",
+      "reason": "cloud merge and first pull through the real facade, re-run on the tree that ships (fixture config): no account loses progress",
       "ci_s": 0.989
     },
     {
@@ -180,8 +180,8 @@
     {
       "file": "feedback-modal.spec.ts",
       "title": "both feedback events carry signed_in true after the session user is applied @curated",
-      "tier": "D",
-      "reason": "feedback events carry signed_in after a sign-in on the keyed config",
+      "tier": "S",
+      "reason": "feedback events carry signed_in after a sign-in, re-run on the tree that ships (fixture config; PostHog is a stub here)",
       "ci_s": 2.5
     },
     {
@@ -194,8 +194,8 @@
     {
       "file": "footer-feedback.spec.ts",
       "title": "one Feedback row is reachable on every tab, and both kinds reach PostHog @curated",
-      "tier": "D",
-      "reason": "feedback reaches PostHog on the keyed build",
+      "tier": "S",
+      "reason": "one Feedback row on every tab, re-run on the tree that ships (PostHog is a stub here)",
       "ci_s": 3.1
     },
     {
@@ -229,36 +229,36 @@
     {
       "file": "legacy-gone.spec.ts",
       "title": "@curated legacy surface is gone AND the __bjjAuth seam still works on the default variant",
-      "tier": "D",
-      "reason": "the app owns the screen and window.__bjjAuth still installs on the deployed build (CLAUDE.md 6.8: looks deletable, is not)",
+      "tier": "S",
+      "reason": "the app owns the screen and window.__bjjAuth still installs, re-run on the tree that ships (CLAUDE.md 6.8: looks deletable, is not)",
       "ci_s": 0.982
     },
     {
       "file": "legacy-gone.spec.ts",
       "title": "@curated the Neural app still boots and owns the screen after the excision",
-      "tier": "D",
-      "reason": "the app owns the screen and window.__bjjAuth still installs on the deployed build (CLAUDE.md 6.8: looks deletable, is not)",
+      "tier": "S",
+      "reason": "the app owns the screen and window.__bjjAuth still installs, re-run on the tree that ships (CLAUDE.md 6.8: looks deletable, is not)",
       "ci_s": 0.517
     },
     {
       "file": "legacy-gone.spec.ts",
       "title": "@curated ?variant=legacy no longer resurrects the deleted UI",
-      "tier": "D",
-      "reason": "the app owns the screen and window.__bjjAuth still installs on the deployed build (CLAUDE.md 6.8: looks deletable, is not)",
+      "tier": "S",
+      "reason": "the app owns the screen and window.__bjjAuth still installs, re-run on the tree that ships (CLAUDE.md 6.8: looks deletable, is not)",
       "ci_s": 0.876
     },
     {
       "file": "notifications-tab.spec.ts",
       "title": "U139 a: signed in with the email off, Settings has no Notifications tab and nothing is written @curated",
-      "tier": "D",
-      "reason": "signed-in Settings on the keyed config; CURATED36 chose these two for the deploy",
+      "tier": "S",
+      "reason": "signed-in Settings, re-run on the tree that ships (fixture config); CURATED36 chose these two",
       "ci_s": 2.5
     },
     {
       "file": "notifications-tab.spec.ts",
       "title": "U139 a: an account with the email stored on keeps the tab and row to turn it off, and Off hides them from the next opening @curated",
-      "tier": "D",
-      "reason": "signed-in Settings on the keyed config; CURATED36 chose these two for the deploy",
+      "tier": "S",
+      "reason": "signed-in Settings, re-run on the tree that ships (fixture config); CURATED36 chose these two",
       "ci_s": 2.5
     },
     {
@@ -341,15 +341,15 @@
     {
       "file": "share-lists.spec.ts",
       "title": "a student opens the WhatsApp link with NO Function deployed and the graph lights up @curated",
-      "tier": "D",
-      "reason": "the /l share shell with no Function deployed, as this build emits it",
+      "tier": "S",
+      "reason": "the /l share shell with no Function deployed, re-run on the tree that ships",
       "ci_s": 2.2
     },
     {
       "file": "share-lists.spec.ts",
       "title": "/l leaks into NOTHING a crawler reads: not the sitemap, not llms.txt, not the index @curated",
-      "tier": "D",
-      "reason": "/l in nothing a crawler reads (sitemap, llms.txt, the index) of the stamped build",
+      "tier": "S",
+      "reason": "/l in nothing a crawler reads (sitemap, llms.txt, the index), re-run on the tree that ships",
       "ci_s": 0.311
     },
     {
@@ -362,29 +362,29 @@
     {
       "file": "signin-intent.spec.ts",
       "title": "@curated v1.255.2: Continue with Google writes the sign-in intent its SIGNED_IN will count (1440, by mouse)",
-      "tier": "D",
-      "reason": "the sign-in intent its SIGNED_IN counts, on keyed auth plus analytics",
+      "tier": "S",
+      "reason": "the sign-in intent its SIGNED_IN counts, re-run on the tree that ships (the facade's sign-in and PostHog are stubbed)",
       "ci_s": 1.1
     },
     {
       "file": "signin-intent.spec.ts",
       "title": "@curated v1.255.2: Log in with an email writes the sign-in intent (1440, by mouse)",
-      "tier": "D",
-      "reason": "the sign-in intent its SIGNED_IN counts, on keyed auth plus analytics",
+      "tier": "S",
+      "reason": "the sign-in intent its SIGNED_IN counts, re-run on the tree that ships (the facade's sign-in and PostHog are stubbed)",
       "ci_s": 1.0
     },
     {
       "file": "signin-intent.spec.ts",
       "title": "@curated v1.255.2: a sign-in attempt that fails in place leaves no intent, email or Google (1440, by mouse)",
-      "tier": "D",
-      "reason": "the sign-in intent its SIGNED_IN counts, on keyed auth plus analytics",
+      "tier": "S",
+      "reason": "the sign-in intent its SIGNED_IN counts, re-run on the tree that ships (the facade's sign-in and PostHog are stubbed)",
       "ci_s": 1.1
     },
     {
       "file": "static-article-layout.spec.ts",
       "title": "@curated the static article fills its shell with JS disabled (desktop)",
-      "tier": "D",
-      "reason": "the no-JS article that crawlers and failed bundles get, as this build emits it",
+      "tier": "S",
+      "reason": "the no-JS article that crawlers and failed bundles get, re-run on the tree that ships",
       "ci_s": 0.519
     },
     {

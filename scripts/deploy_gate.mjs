@@ -5,10 +5,15 @@
 // workflows, after the keyed build and before the Pages upload. Until v1.263.0 the tag meant "a fast representative
 // sample", and it grew from 427 tests on 1 Oct to 914 on 12 Nov: 33.6 to 36.8 minutes of a 45-minute step timeout,
 // about 2.6 minutes more every day (the GATE1 plan, `reports/gatetime.md`, outside the repo). The owner's answer: "only what a deploy can break,
-// plus one quick test per surface". 56 tests, about 3 minutes:
-//   D  the 41 that depend on the deployed build: the keyed Supabase and PostHog config only deploys carry, the
-//      affiliate stamp, the checkout's own history (publication dates), the static shells crawlers read;
-//   S  15 smoke tests, one per surface, proving each still opens on the exact merged tree.
+// plus one quick test per surface". 56 tests at v1.263.0, about 3 minutes; the tiers as v1.263.1 states them:
+//   D  a test that reads what only a deploy build has: the keyed Supabase and PostHog config in postscript.js (and the
+//      build stamp it carries), or this checkout's own history (publication dates);
+//   S  re-run on the exact tree that ships, reading nothing a PR build lacks: one quick test per surface, plus the
+//      sign-in and account seams the owner's answer kept whole.
+//   v1.263.0 called 41 rows D. The reviewer of #388 (finding 4) showed 28 of them cannot see a deploy-only input (their
+//   fixture supplies the Supabase config, or they stub PostHog after boot), so v1.263.1 moved them to S with reasons
+//   that say what they check, and dropped "the affiliate stamp" from D: no row reads a stamped link, which the static
+//   deploy gates (check_affiliate_surface.py --built, check_systems_payload.py) check instead.
 // Every other journey still runs, unchanged, in e2e-full.yml's four core shards: on every PR into dev and main, and
 // since this change on every push to dev (one concurrency group, so a burst of merges costs one run). A promotion
 // to production takes only a commit whose push-run e2e-full is green (CLAUDE.md, Shipping).
@@ -172,7 +177,7 @@ export function checkBudget(manifest, budget) {
     const key = r.file + SEP + r.title;
     if (keys.has(key)) errors.push(`duplicate row: ${key}`);
     keys.add(key);
-    if (!["D", "S"].includes(r.tier)) errors.push(`tier must be D (the deploy build differs) or S (one smoke per surface): ${key}`);
+    if (!["D", "S"].includes(r.tier)) errors.push(`tier must be D (reads what only a deploy build has) or S (re-run on the tree that ships): ${key}`);
     if (typeof r.reason !== "string" || r.reason.trim().length < 10) errors.push(`a row needs its reason: ${key}`);
     if (!(r.ci_s === null || (typeof r.ci_s === "number" && r.ci_s > 0))) errors.push(`ci_s must be a positive number or null: ${key}`);
   }

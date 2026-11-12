@@ -283,12 +283,13 @@ jobs:
         run: npx playwright install-deps chromium
 
       # THE DEPLOY GATE: WHAT ONLY A DEPLOY CAN BREAK, PLUS ONE QUICK TEST PER SURFACE (v1.263.0, the owner's
-      # U147 a). `@curated` now tags 56 journeys, one row each in tests/artifacts/deploy_gate.json with its reason:
-      # tier D, the 41 that depend on THIS build (the keyed Supabase and PostHog config, the affiliate stamp, this
-      # checkout's own history, the static shells crawlers read); tier S, 15 smoke tests, one per surface. The rest
-      # of the suite does not run here: it runs in e2e-full.yml on every PR and every push to dev, and a promotion
-      # takes only a commit whose push-run e2e-full is green (CLAUDE.md, Shipping), because no PR run sees main's
-      # tree. History: until v1.263.0 "a fast representative gate", 250 tests, then 427 (timeout 20 -> 30 at
+      # U147 a). Every `@curated` journey has one row in tests/artifacts/deploy_gate.json with its reason: tier D, a
+      # test that reads what only a deploy build has (the keyed config in postscript.js and its build stamp, or this
+      # checkout's own history); tier S, re-run on the exact tree that ships while reading nothing a PR build lacks
+      # (one quick test per surface, plus the sign-in and account seams kept whole). v1.263.1 moved 28 rows from D to
+      # S and dropped "the affiliate stamp" from D, which no row reads. The rest of the suite does not run here: it
+      # runs in e2e-full.yml on every PR and every push to dev, and a promotion takes only a commit whose push-run
+      # e2e-full is green, which the first gate of this job enforces, because no PR run sees main's tree. History: until v1.263.0 "a fast representative gate", 250 tests, then 427 (timeout 20 -> 30 at
       # v1.208.3, run 36813354975), then 914 at 33.6-36.8 minutes of a 45-minute timeout on 12 Nov
       # (the GATE1 plan, outside the repo). The timeout only bounds a hang; the time is judged by the tripwire after the live
       # checks, against tests/artifacts/deploy_gate_budget.json, whose timeout_min this value must equal
