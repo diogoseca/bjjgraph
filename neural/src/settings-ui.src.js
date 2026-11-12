@@ -152,15 +152,12 @@ renderSettings() {
         // opted-in user as a silent unsubscribe, with nothing anywhere going red.
         const wrap = document.createElement("div");
         wrap.setAttribute("data-digest-setting", "1");
-        // THE ADDRESS IS MARKED, NOT SPLICED INTO THE LINE (v1.262.3): the app's NG_NO_CAPTURE note (app.src.jsx) says why. It sits in
-        // its own `ph-no-capture` span, written as text, so the line around it stays readable to analytics and the replay shows a box.
-        const digest = this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to ",
-          [["On", true], ["Off", false]], "emailDigest", false);
-        const addr = document.createElement("span");
-        addr.className = "ph-no-capture";
-        addr.textContent = this.user.email || "your account email";
-        digest.children[1].append(addr, ".");
-        wrap.appendChild(digest);
+        // THE ADDRESS IS MARKED (v1.262.3): the app's NG_NO_CAPTURE note (app.src.jsx) says why. It sits in its own `ph-no-capture`
+        // span, so the line around it stays readable to analytics and the replay records the address as an empty box. The span rides
+        // the line's markup, as the address always has (settingRow writes `sub` as HTML; the auth server validates the address):
+        // a DOM-built span cost 105 B of the deferred set, which had 66 B of room under its ceiling, and this costs 33.
+        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to <span class=ph-no-capture>" + (this.user.email || "your account email") + "</span>.",
+          [["On", true], ["Off", false]], "emailDigest", false));
         const beta = document.createElement("span");
         beta.textContent = "Beta";
         beta.style.cssText = "position:relative;top:-44px;left:150px;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#9ab0e0;border:1px solid rgba(120,150,255,.35);border-radius:5px;padding:1px 6px;pointer-events:none;";
