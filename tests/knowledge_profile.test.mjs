@@ -8,7 +8,9 @@ const prior = JSON.parse(readFileSync(new URL("./artifacts/knowledge_profile_pri
 // The old writer closes over its OWN captured declaration, never the new module's ladder.
 const old = new Function(prior.declarations.NG_SRS_IVLS + "\nreturn {" + Object.values(prior.methods).join(",\n") + "};")();
 const appSource = readFileSync(new URL("../neural/src/app.src.jsx", import.meta.url), "utf8");
-const Component = new Function("DCLogic", "React", knowledgeSource + "\n" + appSource + "\nreturn Component;")(class {}, { createRef: () => ({ current: null }) });
+// the roll ledger's window, cap and trim live in the blob module since v1.262.5 (`ngFlowTrim`, `ngFlowWindowView`), as in the bundle
+const ownerSource = readFileSync(new URL("../neural/src/progress-owner.src.js", import.meta.url), "utf8").replace(/^export (function|const|let|var|class) /gm, "$1 ");
+const Component = new Function("DCLogic", "React", knowledgeSource + "\n" + ownerSource + "\n" + appSource + "\nreturn Component;")(class {}, { createRef: () => ({ current: null }) });
 const close = (a, b) => assert.ok(Math.abs(a - b) < 1e-14, `${a} != ${b}`);
 
 test("independent arithmetic: two deck bonuses once, resistance, film, penalty, momentum and both clamps", () => {
@@ -146,7 +148,7 @@ test("destroyed app drops queued evidence and planner callbacks", async () => {
 });
 
 function reportingComponent(warnings) {
-  return new Function("DCLogic", "React", "console", knowledgeSource + "\n" + appSource + "\nreturn Component;")
+  return new Function("DCLogic", "React", "console", knowledgeSource + "\n" + ownerSource + "\n" + appSource + "\nreturn Component;")
     (class {}, { createRef: () => ({ current: null }) }, { warn: (...args) => warnings.push(args) });
 }
 function evidenceOf(a) {

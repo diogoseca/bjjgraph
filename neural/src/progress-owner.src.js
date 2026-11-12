@@ -136,8 +136,8 @@ export function ngProgressMergeMoves(local, cloud, today) {
 //      (`joinGuest`'s `not-pulled` refusal, `_pullAndMerge`): `live` then holds the cloud's rows, so the next pull,
 //      on this device or another, cannot undo it (ORDER1, tests/guest_join_safety.test.mjs 11).
 //   3. the guest's roll ledger never evicts one of the account's and is never counted twice (`ngProgressGuestFlow`):
-//      the ledger keeps the 6 newest device partitions, so a guest partition added to an account already at 6 pushed
-//      its oldest out (the second reader: 60 rolls became 51). The guest's partition joins as itself while there is
+//      the ledger then kept the 6 newest device partitions (NG_FLOW_CAP, 32 since v1.262.5), so a guest partition added
+//      to an account already at the cap pushed its oldest out (the second reader: 60 rolls became 51). The guest's partition joins as itself while there is
 //      room or while the account already holds it; at the cap it is not joined (its rolls stay in the guest copy).
 // Every other field of that merge already only adds (prep/rec/stage/days MAX, belts.held MAX and won union,
 // badges/coins/explored/tut union, challenges MAX progress, lists add-wins). Units, `belts.won` records, `dayLog.w` and
@@ -179,8 +179,93 @@ export function ngProgressPracticeKey(blob) {
   if (ngProgressObject(b.challenges)) for (const id of NG_PROGRESS_TRAIL_CHALLENGES) delete b.challenges[id];
   return ngProgressCloudKey(b);
 }
-// Rule 3, the roll ledger (FOLD2, the second reader's re-check, 12 Nov). `cap` is the app's NG_FLOW_DEVICES (6; a unit
-// pins the default equal to it). A guest partition joins AS ITSELF, under its own device id, which never changes:
+// ═══ THE ROLL LEDGER'S PARTITIONS: the window, the cap and the trim (v1.262.5, FLOW1 + FLOW2) ═══════════════════════
+// `flow[code][state][move] = [tries, worked, lastDay]`: a G-counter, one partition per writer, MAX per partition on
+// merge, read as the sum. Since v1.262.5 a writer is (browser, owner) and its code is `b` + 16 hex, kept in that
+// browser (the host's `flowDevice` below); before, every browser of an account shared the synced setting's code. The
+// app's `_trimFlow`, its read (`flowCounts`) and the guest join's room count (`ngProgressGuestFlow`) all go through
+// these, so the three agree by construction. tests/flow_device_per_browser.test.mjs.
+//
+// THE CAP COUNTS ONLY PARTITIONS MINTED SINCE v1.262.5 (M2, the second reader of PR #384). Every other id is from before:
+// the account's shared partition (the old setting's code), a guest copy's old code, a code an older build minted in a
+// tab not yet reloaded. Those are frozen and few, and the shared one holds the account's whole history to that day, so
+// they are never evicted and take no slot. Counted like the others, the shared partition was the FIRST one any eviction
+// removed: once frozen it is the least recently touched (the reader's S1b: 125 rolls read 30 at a sixth private session).
+export const NG_FLOW_CAP = 32;   // the app's NG_FLOW_DEVICES; one source. Was 6 (owner's orchestrator, FLOW2: at 6 a player
+// whose browser loses its storage weekly, as Safari's seven-day cap does to a site not visited, lost rolls within two
+// months). Worst case, a partition holds every state-move cell: 2,417 at v1.262.5, 62 KB at three-digit tallies (67 KB
+// at four), so 32 of them about 2.0 MB in the synced row and in each owner's local copy, plus the few uncapped ones. A
+// storage lifetime's real partition is a handful of cells, about 100 B.
+export function ngFlowCapped(id) { return /^b[0-9a-f]{16}$/.test(id); }
+// THE WINDOW IS THE CELL'S, NOT THE ROW'S (M1). A (state, move) counts, in every partition, while ANY partition rolled it
+// within the window: the old single partition's rule, where each roll refreshed the cell's one row. By its own row's
+// day alone, a frozen partition's tally on a move still rolled every day expired 180 days after the switch (the
+// reader's S2: 456 rolls read 356 at day +178).
+function ngFlowCellKey(pk, ord) { return pk + "\u0000" + ord; }
+export function ngFlowCellNewest(flow) {
+  const out = new Map();
+  for (const D of Object.values(ngProgressObject(flow) ? flow : {})) for (const pk of Object.keys(ngProgressObject(D) ? D : {})) {
+    const P = D[pk];
+    for (const ord of Object.keys(ngProgressObject(P) ? P : {})) {
+      const k = ngFlowCellKey(pk, ord), d = (Array.isArray(P[ord]) && P[ord][2]) || 0;
+      if (!(out.get(k) >= d)) out.set(k, d);
+    }
+  }
+  return out;
+}
+// The read's view: every row carries its CELL's newest day, so the summing law's own per-row window (knowledge-profile
+// `ngKnowledgeFlowCounts`, whose bytes are a pinned law: mdp-exposure) is exactly the cell window. Never stored.
+export function ngFlowWindowView(flow) {
+  const cell = ngFlowCellNewest(flow), out = {};
+  for (const dev of Object.keys(ngProgressObject(flow) ? flow : {})) {
+    const D = flow[dev], V = (out[dev] = {});
+    for (const pk of Object.keys(ngProgressObject(D) ? D : {})) {
+      const P = D[pk], W = (V[pk] = {});
+      for (const ord of Object.keys(ngProgressObject(P) ? P : {})) { const r = P[ord]; W[ord] = [r[0], r[1], cell.get(ngFlowCellKey(pk, ord))]; }
+    }
+  }
+  return out;
+}
+// The partitions that take a slot: minted since v1.262.5 and not empty. The trim keeps `cap` of them; the guest join's
+// room is `cap` less their count. One definition, so the two can never disagree.
+export function ngFlowSlotted(flow) {
+  return Object.keys(ngProgressObject(flow) ? flow : {}).filter(dev => ngFlowCapped(dev) && ngProgressObject(flow[dev]) && Object.keys(flow[dev]).length > 0);
+}
+// THE TRIM, in place; answers how many rows and partitions it dropped (the app's `flow_trimmed` beat). In order:
+//   1. a row goes when its CELL was rolled by no partition within the window (M1);
+//   2. a partition left empty goes, and takes no slot (F2; empty shells used to count toward the cap and the join's room);
+//   3. of the slotted partitions, the `cap` with the newest row stay; ties go by id, so every device evicts the SAME one
+//      (F1: by key order alone, two devices holding one ledger in two key orders kept different sets, the reader's S5);
+//   4. a pre-v1.262.5 partition is never evicted (M2, above).
+// What eviction still costs (stated, not fixed here): a device whose copy predates an eviction brings the partition back
+// by MAX, so after one the read depends on the order of syncs, though never above the truth (the reader's S4); and the
+// beat stays in the page, no eviction reaches analytics (F7).
+export function ngFlowTrim(flow, day, windowDays, cap = NG_FLOW_CAP) {
+  if (!ngProgressObject(flow)) return 0;
+  const cut = day - windowDays, cell = ngFlowCellNewest(flow), newest = new Map();
+  let dropped = 0;
+  for (const dev of Object.keys(flow)) {
+    const D = flow[dev];
+    if (!ngProgressObject(D)) continue;
+    let top = 0;
+    for (const pk of Object.keys(D)) {
+      const P = D[pk];
+      if (!ngProgressObject(P)) continue;
+      for (const ord of Object.keys(P)) {
+        if ((cell.get(ngFlowCellKey(pk, ord)) || 0) < cut) { delete P[ord]; dropped++; continue; }
+        if ((P[ord][2] || 0) > top) top = P[ord][2];
+      }
+      if (!Object.keys(P).length) delete D[pk];
+    }
+    if (!Object.keys(D).length) { delete flow[dev]; continue; }
+    newest.set(dev, top);
+  }
+  const ranked = ngFlowSlotted(flow).sort((a, b) => newest.get(b) - newest.get(a) || (a < b ? -1 : a > b ? 1 : 0));
+  for (const dev of ranked.slice(Math.max(0, cap))) { delete flow[dev]; dropped++; }
+  return dropped;
+}
+// Rule 3, the roll ledger (FOLD2, the second reader's re-check, 12 Nov). `cap` is NG_FLOW_CAP, the app's NG_FLOW_DEVICES
+// (one source since v1.262.5). A guest partition joins AS ITSELF, under its own device id, which never changes:
 //   - the account already holds it (an earlier join, the mark lost, or the guest copy changed): it merges with itself
 //     by MAX per cell, so a re-join can never count a roll twice;
 //   - the account has room (fewer than `cap` partitions): it is added, and the ledger sums it exactly at read;
@@ -190,22 +275,27 @@ export function ngProgressPracticeKey(blob) {
 // partition", chosen again at every join; when another device became the newest between two joins of one guest copy,
 // the same rolls landed in a second partition and were summed twice (6 real rolls read 11, 5 read 10, and the line was
 // said again: tests/guest_join_safety.test.mjs 19). Known and kept (the reader's N2): a guest partition added below
-// the cap takes one of the six slots, so a later new device of the account evicts one of the account's partitions one
-// device sooner than it would have; that is the ledger's own cap rule (`_trimFlow`), reached one partition earlier.
-export function ngProgressGuestFlow(account, guest, cap = 6) {
+// the cap takes one of the slots, so a later new device of the account evicts one of the account's partitions one
+// device sooner than it would have; that is the ledger's own cap rule (`ngFlowTrim`), reached one partition earlier.
+// THE ROOM IS THE TRIM'S (v1.262.5, M2): `cap` less the account's SLOTTED partitions (`ngFlowSlotted`: minted since
+// v1.262.5, not empty), the very set `ngFlowTrim` keeps `cap` of, so a join can never add what the next trim evicts.
+// A guest partition from before v1.262.5 (an old guest code) joins outside the cap, as the trim keeps it outside: at
+// the switch each browser's guest mints a new code too, so a guest who plays again afterwards brings TWO partitions to
+// its next join, the old one (frozen, no slot) and the new one (a slot).
+export function ngProgressGuestFlow(account, guest, cap = NG_FLOW_CAP) {
   const acct = ngProgressObject(account) ? account : {}, out = {};
-  let room = cap - Object.keys(acct).length;
+  let room = cap - ngFlowSlotted(acct).length;
   for (const dev of Object.keys(ngProgressObject(guest) ? guest : {}).sort()) {
     const G = guest[dev];
-    if (!ngProgressObject(G)) continue;
-    if (dev in acct) { out[dev] = ngProgressClone(G); continue; }
+    if (!ngProgressObject(G) || !Object.keys(G).length) continue;
+    if (dev in acct || !ngFlowCapped(dev)) { out[dev] = ngProgressClone(G); continue; }
     if (room > 0) { room--; out[dev] = ngProgressClone(G); }
   }
   return out;
 }
 // THE RULE, in one place: what a guest copy adds to an account. `merge` is the app's `_mergeProgressBlobs`; `flowCap` its
 // NG_FLOW_DEVICES. The explicit legacy import (`confirmImport`) goes through this too, so the two cannot differ.
-export function ngProgressGuestMerge(merge, live, guestBlob, flowCap = 6) {
+export function ngProgressGuestMerge(merge, live, guestBlob, flowCap = NG_FLOW_CAP) {
   const part = ngProgressGuestPart(guestBlob);
   if (ngProgressObject(part.flow)) part.flow = ngProgressGuestFlow(live && live.flow, part.flow, flowCap);
   const combined = merge(live, part);
@@ -398,6 +488,16 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
   const store = ngProgressCreateStore(storage);
   // `localOnly`: the owner this host restored WITHOUT verified identity (see resume's catch).
   let app = null, recovery = null, resolving = null, resolutionRevision = 0, host, localOnly = null;
+  // FLOW2 F4: an instance whose ledger code could not be stored (`flowDevice`) -> that code, stored at its next good save
+  const unstoredCode = new WeakMap();
+  const storeCode = (inst, code) => {
+    const key = ngProgressLocalKey(inst._progressOwner, "device");
+    try {
+      // never over a code another tab of this browser stored meanwhile: that one is the browser's from its next page on
+      if (!ngProgressDeviceCode(storage.getItem(key))) storage.setItem(key, code);
+      unstoredCode.delete(inst);
+    } catch { unstoredCode.set(inst, code); }
+  };
   const observed = new Map();
   const semanticMerge = (local, incoming) => {
     if (!app || typeof app._mergeProgressBlobs !== "function") throw new Error("Progress merge is unavailable");
@@ -528,6 +628,7 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       else {
         inst._progressStorageError = null;
         if (result.merged) inst._hydrateProgressBlob(result.blob);
+        if (unstoredCode.has(inst)) storeCode(inst, unstoredCode.get(inst));   // F4: the code the mint could not store
       }
       return result;
     },
@@ -540,10 +641,13 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
     // it never syncs and never joins. Per OWNER, not per browser: the guest copy joins every account on this browser
     // under the guest's code (ngProgressGuestFlow: "a partition joins as itself, merges with itself by MAX"), so an
     // account's code must never be the guest's, nor another account's. Minted once, at the owner's first roll here
-    // (`mint` is the app's); a code this browser loses (site data cleared, a private window) is gone with it, and the
-    // next roll mints another: one more partition, the old one kept and still counted (the cap's rule then applies,
-    // `_trimFlow`). Answers null when it cannot say (a stale instance, unreadable storage); the app then keeps a code
-    // for that instance only. tests/flow_device_per_browser.test.mjs.
+    // (`mint` is the app's). A code this browser loses (site data cleared, a private window, Safari's seven-day cap) is
+    // gone with it, and the next roll mints another: one more partition, which takes a slot of NG_FLOW_CAP; the old one
+    // stays, frozen, counting while its moves are rolled within the window by any partition (`ngFlowTrim`), and is the
+    // first the cap evicts. Answers null when it cannot say (a stale instance, unreadable storage); the app then keeps a
+    // code for that instance only. KNOWN, NOT FIXED HERE (F5): two tabs of one browser share this one code, as they share
+    // its local copy, and `mergeExternal` merges their two copies by MAX, so the two tabs rolling one move each keep the
+    // larger tally (so before v1.262.5 too). tests/flow_device_per_browser.test.mjs.
     flowDevice(inst, mint) {
       if (!host.current(inst) || typeof mint !== "function") return null;
       const key = ngProgressLocalKey(inst._progressOwner, "device");
@@ -552,7 +656,10 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       if (ngProgressDeviceCode(code)) return code;
       code = mint();
       if (!ngProgressDeviceCode(code)) return null;
-      try { storage.setItem(key, code); } catch { /* this instance keeps it in memory; the next page mints again */ }
+      // F4 (FLOW2): a write that fails (a full storage) is tried again at this instance's next good save (`persist`), so
+      // a browser does not mint a partition per page load while its progress still saves (the reader's S7b: 8 page loads,
+      // 8 partitions). Until it is stored, this instance keeps the code in memory.
+      storeCode(inst, code);
       return code;
     },
     cloudSnapshot(inst) {

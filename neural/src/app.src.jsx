@@ -3123,7 +3123,9 @@ class Component extends DCLogic {
   // `regenerate_graph.py` walks an unsorted rglob, so one new content file renumbers every
   // index and an index-keyed ledger would silently re-point at a different technique
   // (§6.6, the same reason `node_ordinals.json` exists).
-  get NG_FLOW_DEVICES() { return 6; }    // LRU cap; a coach on a phone, a tablet and a laptop
+  // LRU cap on the partitions minted since v1.262.5 (one per browser and owner, a new one per storage lifetime); the
+  // number lives in progress-owner.src.js (`NG_FLOW_CAP`, 32 since v1.262.5, was 6), beside the guest join that uses it
+  get NG_FLOW_DEVICES() { return NG_FLOW_CAP; }
   get NG_FLOW_DAYS() { return 180; }     // hard window, not decay — counters must stay monotone
   /**
    * This browser's ledger partition FOR THE OWNER WHOSE PROGRESS IS LIVE (v1.262.5, FLOW1).
@@ -3142,12 +3144,19 @@ class Component extends DCLogic {
    *   - never adopted from anywhere: not the old setting (several browsers hold it), and never
    *     an id this owner's ledger already holds (the loop below);
    *   - the setting `flowDevice` is DORMANT, read and written by nothing: still in old blobs,
-   *     re-added by every pull (no tombstone, §6.6), harmless. The partition filed under it
-   *     stays exactly as it is, never renamed, merged or dropped by this rule, and the sum
-   *     still counts it; nobody writes it again (a tab still on an older build does, until
-   *     reloaded, as before);
+   *     re-added by every pull (no tombstone, §6.6), harmless. The partition filed under it is
+   *     never renamed or merged, is never evicted by the cap and takes no slot (it is not a
+   *     `b` + 16 hex id: `ngFlowCapped`), and each of its rows counts while ANY partition rolls
+   *     that move within NG_FLOW_DAYS (`ngFlowTrim`, `ngFlowWindowView`): what the old rule gave
+   *     it, where every roll refreshed its one row. Only a move nobody rolls for NG_FLOW_DAYS
+   *     drops, as before. Nobody writes it again (a tab still on an older build does, until
+   *     reloaded; such a tab also trims by the old rule, cap 6 by row, until then);
    *   - a browser that loses its storage loses its code and mints another at its next roll:
-   *     one more partition toward NG_FLOW_DEVICES (the old one stays, frozen, and counts).
+   *     one more slot of NG_FLOW_DEVICES; the old partition stays, frozen, counting as above,
+   *     and is the first the cap evicts. At the switch each browser's GUEST mints a code too,
+   *     so a guest who plays again brings two partitions to its next join (its old one takes
+   *     no slot, its new one does); a private session that rolls as a guest and then signs in
+   *     takes two slots, the guest's and the account's.
    *
    * NOT a raw random draw: `check_no_raw_random.sh` pins the app to exactly one, the passthrough
    * inside `rng()`, and a device id must not consume a tagged draw either — journeys rig those
@@ -3222,7 +3231,9 @@ class Component extends DCLogic {
   flowCounts() {
     const ver = this._flowVer || 0, day = this._epochDay(), source = this.flow;
     if (this._flowCache && this._flowCache.v === ver && this._flowCache.day === day && this._flowCache.source === source) return this._flowCache.out;
-    const out = ngKnowledgeFlowCounts(source, day, this.NG_FLOW_DAYS);
+    // the window is the CELL's (FLOW2 M1, `ngFlowWindowView`): a frozen partition's row counts while any partition
+    // rolls that move. An empty ledger never reaches the view (harnesses without the blob module boot with one).
+    const out = ngKnowledgeFlowCounts(source && Object.keys(source).length ? ngFlowWindowView(source) : source, day, this.NG_FLOW_DAYS);
     this._flowCache = { v: ver, day: day, source: source, out: out };
     return out;
   }
@@ -3234,29 +3245,17 @@ class Component extends DCLogic {
     return n;
   }
   /**
-   * Trim: newest NG_FLOW_DEVICES partitions, rows touched within NG_FLOW_DAYS. A hard
-   * window rather than a decay, so every surviving counter stays monotone and MAX-mergeable.
-   * Eviction PRINTS — a silent trim reads exactly like "you never rolled there" (§6.6).
+   * Trim, in place: rows whose (state, move) no partition rolled within NG_FLOW_DAYS, empty
+   * partitions, and the partitions minted since v1.262.5 beyond the NG_FLOW_DEVICES newest
+   * (ties by id). A partition from before (the account's old shared one) is never evicted.
+   * The rule is `ngFlowTrim` (progress-owner.src.js), the one the guest join's room count
+   * uses too. A hard window rather than a decay, so every surviving counter stays monotone
+   * and MAX-mergeable. Eviction PRINTS — a silent trim reads exactly like "you never rolled
+   * there" (§6.6) — though only in this page: it reaches no analytics (F7, known).
    */
   _trimFlow(f) {
-    const cut = this._epochDay() - this.NG_FLOW_DAYS;
-    const seen = [];
-    let dropped = 0;
-    for (const dev in f) {
-      let newest = 0;
-      const D = f[dev];
-      for (const pk in D) {
-        const P = D[pk];
-        for (const ord in P) {
-          if ((P[ord][2] || 0) < cut) { delete P[ord]; dropped++; continue; }
-          if (P[ord][2] > newest) newest = P[ord][2];
-        }
-        if (!Object.keys(P).length) delete D[pk];
-      }
-      seen.push([dev, newest]);
-    }
-    seen.sort((a, b) => b[1] - a[1]);
-    for (const [dev] of seen.slice(this.NG_FLOW_DEVICES)) { delete f[dev]; dropped++; }
+    if (!f || !Object.keys(f).length) return f;
+    const dropped = ngFlowTrim(f, this._epochDay(), this.NG_FLOW_DAYS, this.NG_FLOW_DEVICES);
     if (dropped) this.fx("flow_trimmed", { dropped: dropped, devices: Object.keys(f).length });
     return f;
   }

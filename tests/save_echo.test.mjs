@@ -92,7 +92,8 @@ test('every kind of local change still pushes', () => fakeTimers(async ({ flush 
     'a move graded': () => { a.moves = { 'Mount|Top': { kimura: [1, 1, 1, 1] } }; },
     'a setting': () => { a.set('landFilm', false); return true; },
     'a list': () => { a.lists = { ...a.lists, l1: { name: 'Class', items: ['Positions/Mount'] } }; },
-    'the roll ledger': () => { a.flow = { ...(a.flow || {}), dev1: { 'Mount|Top': { kimura: [1, 1, 1] } } }; },
+    // a roll dated today: since v1.262.5 a row its cell's window has passed is trimmed with its emptied partition (F2), which is no change
+    'the roll ledger': () => { a.flow = { ...(a.flow || {}), dev1: { 'Mount|Top': { kimura: [1, 1, a._epochDay()] } } }; },
     'a belt': () => { a.belts = { won: { ...(a.belts?.won || {}), blue: 1 } }; },
   };
   for (const [what, change] of Object.entries(changes)) {

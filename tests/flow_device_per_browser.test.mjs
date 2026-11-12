@@ -5,8 +5,12 @@
 // writer wins, so every browser of an account converged on one code and wrote ONE partition from many places: two
 // browsers that rolled the same move between syncs kept only the larger of their two tallies (the found fault, M14).
 // Now the code is kept in the browser, per owner (progress-owner `flowDevice`, local key `<owner>:device`), never in the
-// progress blob, so it never syncs. These tests drive the REAL class and the REAL owner host against a fake cloud that
-// HOLDS an account's rolls already, filed under one shared code "L" (what every one of production's 48 ledgers holds):
+// progress blob, so it never syncs. FLOW2 (the second reader of PR #384, reports/review-pr384.md) added the rest of the
+// rule: the window is the CELL's, the cap counts only partitions minted since v1.262.5 and is 32, ties go by id, empty
+// partitions go, and a code that could not be stored is stored at the next good save (progress-owner `ngFlowTrim`,
+// `ngFlowWindowView`, `ngFlowSlotted`, `NG_FLOW_CAP`). These tests drive the REAL class and the REAL owner host against a
+// fake cloud that HOLDS an account's rolls already, filed under one shared code "L" (what each of production's 48 ledgers
+// holds):
 //   1. two browsers of one account, every order of roll / push / pull for each (6 x 6 x 20 interleavings, both sign-in
 //      orders): two new partitions, exact tallies on both browsers and in the cloud, "L" byte for byte as it was;
 //   2. the code never travels: the setting is never written, the stored `flowDevice` stays readable and unchanged, and an
@@ -17,24 +21,51 @@
 //   6. the guest's code is not the account's on the same browser: the guest partition joins as itself, re-joins by MAX
 //      with itself (never counted twice), and the account never writes into it (the rule of ngProgressGuestFlow);
 //   7. a browser whose storage is cleared mints a new code; the old partition stays, frozen, and still counts (STATED:
-//      one more slot toward NG_FLOW_DEVICES);
+//      one more slot);
 //   8. a mint never takes a partition id the account already holds (a forced collision: the same clock and agent);
-//   9. STATED, the cap: a seventh partition evicts the least recently touched one, named by the `flow_trimmed` beat.
-// MUTANTS (2026-11-12; each run, in a scratch mirror, against this green file and tests/guest_join_safety.test.mjs; each
-// turned exactly the tests named red, guest_join_safety's 19 staying green unless named):
-//   MA `_flowDevice` back to the v1.262.4 rule (read and mint the `flowDevice` setting)          → 1-9 (1 on its tally: 11 for 12)
-//   MB one code per browser for every owner (a browser-wide key, mirrored under each owner's)      → 5, 6
-//   MC the host never reads a stored code back (a new code every page)                           → 3, 6
-//   MC2 the host never stores the code                                                          → 1-9
-//   MD the mint skips its check against the partitions the account already holds                 → 8
-//   ME the mint also writes the code into settings (`this.set("flowDevice", d)`)                  → 2
-//   MF the mint adopts the stored `flowDevice` when there is one (the tempting "keep the old code") → 1-8
-//   MG the ledger merge SUMS a partition instead of MAX (a re-pull counts twice)                  → 1, 3, 4, 6, 8; guest 15, 16, 19
+//   9. one cap, 32, from one source: the app's NG_FLOW_DEVICES and both guest-join defaults;
+//  10. M1 (the reader's S2): a frozen partition's row counts, and is kept, past day +180 while another partition rolls that
+//      move; a move nobody rolls for 180 days drops, as before;
+//  11. M2: the shared partition is never evicted and takes no slot (it survives a 33rd minted partition);
+//  12. the reader's S1b and S1c (a private window every time, with and without guest rolls first): every roll counts;
+//      STATED, where the cap still bites (60 daily private sessions keep the last 32);
+//  13. F1 (S5): ties at the cap go by id, the same partition evicted in every key order, in the pure trim and the app's;
+//  14. F2: a partition whose rows all expired is deleted and takes no slot, in the trim or the guest join's room;
+//  15. M2 at the join: the guest's room is the trim's (a join never adds what the next trim evicts), and an old guest
+//      partition joins outside the cap;
+//  16. F4 (S7b): a code whose storing failed is stored at the next good save (8 page loads, one partition), never over a
+//      code another tab stored meanwhile;
+//  17. STATED (S4): after an eviction a device whose older copy brings the partition back by MAX absorbs the newer roll;
+//      never above the truth.
+// MUTANTS (2026-11-12, FLOW2 code; each run, in a scratch mirror, against this green file and
+// tests/guest_join_safety.test.mjs, 36 of 36 green; each turned exactly the tests named red, the guest file's 19 green
+// unless named):
+//   MA `_flowDevice` back to the v1.262.4 rule (read and mint the `flowDevice` setting)   → 1-8, 10-12, 15, 16
+//   MB one code per browser for every owner (a browser-wide key)                         → 5, 6, 15
+//   MC the host never reads a stored code back (a new code every page)                   → 3, 6, 16
+//   MC2 the host never stores the code                                                   → 1-8, 11, 15, 16
+//   MD the mint skips its check against the partitions the account already holds          → 8
+//   ME the mint also writes the code into settings (`this.set("flowDevice", d)`)          → 2
+//   MF the mint adopts the stored `flowDevice` when there is one                          → 1-8, 10, 12, 16
+//   MG the ledger merge SUMS a partition instead of MAX (a re-pull counts twice)          → 1, 3, 4, 6, 8, 10, 16, 17; guest 15, 16, 19
+//   N1 the trim by the row's own day (M1 off in the trim)                                → 10
+//   N2 the read by the row's own day (M1 off in the read)                                → 10
+//   N3 pre-v1.262.5 partitions take slots (M2 off)                                        → 11, 12, 14, 15
+//   N4 the join's room counts every account partition                                    → 14, 15
+//   N5 an old guest partition needs room                                                 → 15
+//   N6 no tie-break by id                                                                → 13
+//   N7 an emptied partition is kept as {}                                                → 14
+//   N8 an empty partition takes a slot in the join's room                                → 14
+//   N9 NG_FLOW_CAP back to 6                                                             → 9, 12; guest 15
+//   N10 ngProgressGuestFlow's default back to 6                                          → 9, 14
+//   N11 ngProgressGuestMerge's default back to 6                                         → 9
+//   N12 no retry of a failed store                                                       → 16
+//   N13 the retry writes over another tab's stored code                                  → 16
 // THE OLD RULE'S COST, measured with this file's harness (1's orders, the old `_flowDevice`): 1,344 of the 1,440 orders
 // lose one of the two rolls; 0 do under the new rule. Both browsers are signed in throughout: concurrent use, an upper
 // bound, not a production rate.
 // NOT CLAIMED: two TABS of one browser share the browser's code, as they share its local copy (the local store merges
-// them by MAX, `mergeExternal`); that is unchanged by this rule and no test here says otherwise.
+// them by MAX, `mergeExternal`); that is unchanged by this rule (the reader's F5, known) and no test here says otherwise.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -54,7 +85,7 @@ const SOURCE = [
   rd("neural/src/challenge-ui.src.js"),
   strip(rd("neural/src/flow.src.js")),
 ].join("\n");
-const M = new Function("DCLogic", "React", SOURCE + "\nreturn { Component, ngProgressCreateHost, ngProgressOwner, ngProgressLocalKey };")(class DCLogic {}, { createRef: () => ({ current: null }) });
+const M = new Function("DCLogic", "React", SOURCE + "\nreturn { Component, ngProgressCreateHost, ngProgressOwner, ngProgressLocalKey, ngProgressGuestFlow, ngProgressGuestMerge, NG_FLOW_CAP, ngFlowTrim, ngFlowCapped, ngFlowSlotted };")(class DCLogic {}, { createRef: () => ({ current: null }) });
 
 const DAY = 20402;
 globalThis.window = globalThis.window || {};
@@ -272,17 +303,162 @@ test("8. a mint never takes a partition id the account already holds (a forced c
   } finally { Date.now = realNow; performance.now = realPerf; }
 });
 
-test("9. STATED, the cap: a seventh partition (here a cleared browser's) evicts the least recently touched one, and the beat names the drop", async () => {
-  assert.equal(M.Component.prototype.NG_FLOW_DEVICES, 6);
-  const six = {};
-  for (let i = 0; i < 6; i++) six["p" + i] = { [PK]: { [ORD]: [5, 2, DAY - 1 - i] } };   // p5 is the least recently touched
-  const cloud = new Map([["A", { v: 2, flow: six }]]);
+
+// ── FLOW2: the second reader of PR #384 (reports/review-pr384.md): the window, the cap and the trim ─────────────────────
+const NEW = (i) => "b" + i.toString(16).padStart(16, "0");            // a partition id in the v1.262.5 form
+const atDay = (d) => { globalThis.window.__NG_EPOCH_DAY__ = d; };
+
+test("9. one cap, 32: the app's NG_FLOW_DEVICES, the blob module's NG_FLOW_CAP and both guest-join defaults are one number", () => {
+  assert.equal(M.NG_FLOW_CAP, 32);
+  assert.equal(M.Component.prototype.NG_FLOW_DEVICES, M.NG_FLOW_CAP, "the app reads the blob module's number");
+  const guest = {};
+  for (let i = 0; i < M.NG_FLOW_CAP + 3; i++) guest[NEW(1000 + i)] = { [PK]: { [ORD]: [1, 1, DAY] } };
+  assert.equal(Object.keys(M.ngProgressGuestFlow({}, guest)).length, M.NG_FLOW_CAP, "ngProgressGuestFlow's default joins exactly the cap");
+  const merged = M.ngProgressGuestMerge((live, part) => part, { v: 2 }, { v: 2, flow: guest });
+  assert.equal(Object.keys(merged.flow).length, M.NG_FLOW_CAP, "and ngProgressGuestMerge's default (the legacy import's path) is the same cap");
+});
+
+test("10. M1, the reader's S2: the window is the cell's: a frozen partition's row still counts, and is kept, past day +180 while another partition rolls that move; a move nobody rolls for 180 days drops, as before", async () => {
+  try {
+    atDay(DAY);
+    const cloud = new Map([["A", sharedAccount()]]);
+    const x = browser(cloud), y = browser(cloud);
+    await x.boot(); await y.boot(); await x.signIn("A"); await y.signIn("A");
+    let rolls = 0;
+    for (const d of [DAY, DAY + 90, DAY + 177, DAY + 178, DAY + 200]) {    // both browsers, one after the other
+      atDay(d);
+      await x.pull(); x.roll(); await x.push(); await y.pull(); y.roll(); await y.push(); await x.pull();
+      rolls += 2;
+      assert.deepEqual(seen(x.get()), [10 + rolls, 4 + rolls], "day +" + (d - DAY) + ": the read counts every roll, the frozen partition's 10 included");
+      assert.deepEqual(tally(cloud.get("A").flow), [10 + rolls, 4 + rolls], "day +" + (d - DAY) + ": and the cloud keeps them (the trim kept the row)");
+    }
+    const L = cloud.get("A").flow.L;
+    assert.deepEqual(L[PK][ORD], L_ROWS[PK][ORD], "the frozen row is unchanged, still dated three days before the switch: its cell keeps it");
+    assert.ok(!L["Side Control|Top"], "the frozen partition's other move, which nobody rolled for 180 days, dropped (the old rule's own window)");
+    assert.ok(x.beats.some(([n]) => n === "flow_trimmed"), "and the drop is named");
+  } finally { atDay(DAY); }
+});
+
+test("11. M2: the account's shared partition is never evicted and takes no slot: with 32 partitions minted already, a 33rd evicts the least recently touched of THOSE, and the shared one, older than all, stays", async () => {
+  const flow = { L: clone(L_ROWS) };
+  for (let i = 0; i < M.NG_FLOW_CAP; i++) flow[NEW(i)] = { "Side Control|Top": { "9": [1, 1, DAY - 40 + i] } };   // NEW(0) the least recent
+  const cloud = new Map([["A", { v: 2, flow }]]);
   const x = browser(cloud);
   await x.boot(); await x.signIn("A"); x.roll(); await x.push();
-  const flow = cloud.get("A").flow;
-  assert.equal(Object.keys(flow).length, 6, "the cap holds");
-  assert.ok(flow[x.code(A)] && !flow.p5, "the new partition is kept and the least recently touched one (p5) went");
-  for (let i = 0; i < 5; i++) assert.deepEqual(flow["p" + i], six["p" + i], "p" + i + " is kept as it was");
-  assert.deepEqual(tally(flow), [26, 11], "30 rolls, less p5's 5, plus the new one: the eviction is a loss, and it is the cap's rule");
-  assert.ok(x.beats.some(([n, d]) => n === "flow_trimmed" && d.dropped >= 1), "the drop is named (flow_trimmed)");
+  const f = cloud.get("A").flow;
+  assert.deepEqual(f.L, L_ROWS, "the shared partition stays, byte for byte, though it is older than every other");
+  assert.ok(!f[NEW(0)] && f[x.code(A)], "the least recently touched minted partition went, and the new one stays");
+  for (let i = 1; i < M.NG_FLOW_CAP; i++) assert.ok(f[NEW(i)], NEW(i) + " is kept");
+  assert.equal(M.ngFlowSlotted(f).length, M.NG_FLOW_CAP, "32 slots, the shared partition not among them");
+  assert.deepEqual(tally(f), [11, 5], "the shared 10 and the new roll");
+  assert.ok(x.beats.some(([n, d]) => n === "flow_trimmed" && d.dropped === 1), "the one eviction is named");
+});
+
+test("12. the reader's S1b and S1c: a private window every time on an account with history: every session's rolls count, with or without rolls as a guest first; STATED, where the cap still bites (a daily private window, 60 sessions)", async () => {
+  const history = () => ({ v: 2, flow: { L: { [PK]: { [ORD]: [100, 50, DAY - 3] } } }, settings: { flowDevice: "L" }, settingsAt: { flowDevice: SET_AT } });
+  try {
+    for (const [name, sessions, guestFirst, want] of [["S1b", 10, false, 150], ["S1c", 10, true, 150], ["60 daily sessions", 60, false, 100 + 5 * M.NG_FLOW_CAP]]) {
+      const cloud = new Map([["A", history()]]);
+      for (let s = 0; s < sessions; s++) {
+        atDay(DAY + s);
+        const w = browser(cloud);                                 // a private window: new storage each time
+        await w.boot();
+        if (guestFirst) { w.roll(); w.roll(); }                   // two rolls as a guest, then sign in
+        await w.signIn("A");
+        for (let r = guestFirst ? 2 : 0; r < 5; r++) w.roll();
+        await w.push();
+      }
+      const f = cloud.get("A").flow;
+      assert.deepEqual(f.L, history().flow.L, name + ": the history stays");
+      assert.equal(tally(f)[0], want, name + ": reads " + tally(f)[0] + " of " + (100 + 5 * sessions));
+    }
+  } finally { atDay(DAY); }
+});
+
+test("13. F1, the reader's S5: a tie at the cap goes by id, so every device evicts the same partition whatever its key order", async () => {
+  const ids = Array.from({ length: M.NG_FLOW_CAP + 2 }, (_, i) => i);
+  const make = (order) => { const f = {}; for (const i of order) f[NEW(i)] = { [PK]: { [ORD]: [1, 1, DAY] } }; return f; };
+  const orders = [ids, ids.slice().reverse(), ids.slice(7).concat(ids.slice(0, 7))];
+  const pure = orders.map((o) => { const f = make(o); M.ngFlowTrim(f, DAY, 180, M.NG_FLOW_CAP); return Object.keys(f).sort().join(","); });
+  assert.equal(new Set(pure).size, 1, "three key orders, one kept set");
+  assert.equal(pure[0].split(",").length, M.NG_FLOW_CAP);
+  const x = browser(new Map()); await x.boot();
+  const app = orders.map((o) => Object.keys(x.get()._trimFlow(make(o))).sort().join(","));
+  assert.deepEqual(app, pure, "the app's own trim keeps the same set");
+});
+
+test("14. F2: a partition whose rows have all expired is deleted, and takes no slot in the trim or in the guest join's room", () => {
+  const f = { L: clone(L_ROWS) };
+  for (let i = 0; i < M.NG_FLOW_CAP - 1; i++) f[NEW(i)] = { [PK]: { [ORD]: [1, 1, DAY - 1] } };
+  f[NEW(99)] = { "Closed Guard|Bottom": { "5": [3, 1, DAY - 200] } };   // nobody rolled that move for 200 days
+  M.ngFlowTrim(f, DAY, 180, M.NG_FLOW_CAP);
+  assert.ok(!(NEW(99) in f), "its row expired, and the partition left empty is gone, not kept as {}");
+  const shell = { ...clone(f), [NEW(98)]: {} };
+  const joined = M.ngProgressGuestFlow(shell, { [NEW(500)]: { [PK]: { [ORD]: [2, 1, DAY] } } });
+  assert.ok(joined[NEW(500)], "with 31 slotted partitions and an empty shell, the guest's partition finds the 32nd slot");
+});
+
+test("15. M2 at the guest join: the room is the trim's, so a join never adds what the next trim evicts; an old guest partition joins outside the cap", async () => {
+  const flow = { L: clone(L_ROWS) };
+  for (let i = 0; i < M.NG_FLOW_CAP - 1; i++) flow[NEW(i)] = { "Side Control|Top": { "9": [1, 1, DAY - 40 + i] } };
+  const cloud = new Map([["A", { v: 2, flow }]]);
+  const x = browser(cloud);
+  await x.boot(); x.roll(); x.roll();                                  // the guest mints its new code
+  const g = x.get();                                                   // and still holds its old code's partition from before the switch
+  g.flow = { ...g.flow, dOLDGUEST: { [PK]: { [ORD]: [4, 2, DAY - 2] } } }; g._flowVer = (g._flowVer || 0) + 1; g._flushSave();
+  await x.signIn("A"); await x.push();
+  let f = cloud.get("A").flow;
+  assert.ok(f[x.code(GUEST)], "the guest's new partition took the one slot left");
+  assert.deepEqual(f.dOLDGUEST, { [PK]: { [ORD]: [4, 2, DAY - 2] } }, "its old partition joined too, outside the cap");
+  assert.equal(M.ngFlowSlotted(f).length, M.NG_FLOW_CAP, "exactly at the cap, and the trim after the join evicted nothing");
+  for (let i = 0; i < M.NG_FLOW_CAP - 1; i++) assert.ok(f[NEW(i)], NEW(i) + " is kept");
+  assert.deepEqual(tally(f), [16, 8], "10 shared, 2 as the guest now, 4 as the guest before: each once");
+  x.roll(); await x.push();                                            // the account's own first roll here: a 33rd slot
+  f = cloud.get("A").flow;
+  assert.ok(!f[NEW(0)] && f.L && f.dOLDGUEST && f[x.code(GUEST)] && f[x.code(A)], "the least recently touched minted partition goes, never a pre-v1.262.5 one");
+});
+
+test("16. F4, the reader's S7b: when storing the code fails, it is stored at the next good save, so eight page loads write ONE partition", async () => {
+  const mem = memory(), set = mem.setItem;
+  let fail = 1;
+  mem.setItem = (k, v) => { if (k.endsWith(":device") && fail > 0) { fail--; throw new Error("quota"); } set(k, v); };
+  const cloud = new Map([["A", sharedAccount()]]);
+  for (let p = 0; p < 8; p++) {
+    const page = browser(cloud, mem);
+    if (p) page.setIdentity({ id: "A", email: "player@example.com" });
+    await page.boot(); await page.signIn("A"); page.roll(); await page.push();
+  }
+  const f = cloud.get("A").flow, ids = newIds(f, { L: 1 });
+  assert.equal(fail, 0, "the first write did fail");
+  assert.deepEqual(ids, [mem.getItem(M.ngProgressLocalKey(A, "device"))], "one partition, under the code stored at the first page's save");
+  assert.deepEqual(tally(f), [18, 12], "the shared 10 and the eight page loads' rolls");
+  // and the retry never writes over a code another tab of this browser stored meanwhile: that one is the browser's now
+  const mem2 = memory(), set2 = mem2.setItem, key = M.ngProgressLocalKey(A, "device"), theirs = "b" + "1".repeat(16);
+  let fail2 = 1;
+  mem2.setItem = (k, v) => { if (k.endsWith(":device") && fail2 > 0) { fail2--; throw new Error("quota"); } set2(k, v); };
+  const tab = browser(new Map([["A", sharedAccount()]]), mem2);
+  await tab.boot(); await tab.signIn("A");
+  const mine = tab.get()._flowDevice();                                  // minted; storing it failed
+  set2(key, theirs);                                                     // the other tab stores its own
+  tab.roll(); await tab.push();
+  assert.equal(mem2.getItem(key), theirs, "the other tab's code stays stored");
+  assert.ok(mine !== theirs && tab.cloud.get("A").flow[mine], "this page's rolls stay under its own code");
+});
+
+test("17. STATED, the reader's S4: after an eviction a device whose copy predates it brings the partition back by MAX; the read then depends on the order of syncs, but is never above the truth", async () => {
+  const T = NEW(777), flow = { [T]: { [PK]: { [ORD]: [20, 20, DAY - 50] } } };   // a tablet's 20 rolls, its least recent partition
+  for (let i = 0; i < M.NG_FLOW_CAP - 1; i++) flow[NEW(i)] = { "Side Control|Top": { "9": [1, 1, DAY - 40 + i] } };
+  const cloud = new Map([["A", { v: 2, flow }]]);
+  const laptop = browser(cloud), tablet = browser(cloud), fresh = browser(cloud);
+  tablet.mem.setItem(M.ngProgressLocalKey(A, "device"), T);
+  for (const b of [laptop, tablet, fresh]) { await b.boot(); await b.signIn("A"); }
+  let truth = 20;
+  const check = (label) => { const n = tally(cloud.get("A").flow)[0]; assert.ok(n <= truth, label + ": the cloud reads " + n + " of " + truth); return n; };
+  fresh.roll(); truth++; await fresh.push();
+  assert.equal(check("a 33rd partition"), 1, "the tablet's partition is the one evicted (its 20 are gone from the cloud)");
+  await tablet.pull(); tablet.roll(); truth++; await tablet.push();
+  check("the tablet rolls again");
+  await laptop.pull(); await laptop.push();
+  const end = check("the laptop's older copy merges");
+  assert.ok(end < truth, "STATED: " + end + " of " + truth + " (an eviction is a loss, and the copy that brings it back absorbs the newer roll)");
 });
