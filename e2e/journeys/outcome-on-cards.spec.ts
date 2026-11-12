@@ -104,10 +104,12 @@ const pops = (page: Page) =>
   );
 // EACH FLOAT IS TIMED BY THE PAGE, FROM ITS OWN MOUNT (FLAKY1, v1.262.9). The rise and the removal run
 // on the browser's wall clock (CSS animation, setTimeout). The old checks raced them with Node sleeps
-// after a baseline read several round trips late (a click, a frame pump and four evaluates): under a 6x
-// CPU throttle that baseline landed late on the 1.3 s ease-out, where 450 ms more rises under 4 px (red
-// at "the cause rises", 1.4 px), and with the page's long timers 800 ms late the removal lost its
-// ~150 ms margin (red at "the cause is gone by ~1.6 s"), the app untouched both times. Now a
+// after a baseline read several round trips late (a click, a frame pump and four evaluates). The rise
+// runs on the compositor, so a main thread stalled 500 ms just after its first frame left the reads
+// late and the rise early: the baseline landed late on the 1.3 s ease-out, where 450 ms more rises
+// under 4 px (red 10 of 10 at "the cause rises"; 5 of 17 under a 6x CPU throttle). With the page's long
+// timers 800 ms late the removal lost its ~150 ms margin (red 18 of 18 at "the cause is gone by
+// ~1.6 s"). The app was untouched both times. Now a
 // MutationObserver sees each .ng-cause / .ng-hitpop mount and measures it there, on two clocks:
 //   - THE RISE, ON THE ANIMATION'S OWN CLOCK. A CSS animation starts at the first frame after its
 //     element mounts, and a starved page can paint that frame late: under the same 6x throttle a

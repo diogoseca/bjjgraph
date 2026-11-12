@@ -306,7 +306,7 @@ test('@curated a late real dossier preserves reader focus, scroll and the answer
   // answer's scrollIntoView had already made true (574 px), then sleep a fixed 400 ms for Chromium's
   // smooth scroll. With the GPU process descheduled 700 ms after the key (a loaded runner) and the
   // dossier answered 600 ms late, the snapshot below read the start of the motion and the delivery
-  // read its end: red 3 of 3, the app untouched. And with PageDown eaten by the reader it stayed GREEN,
+  // read its end: red 11 of 11, the app untouched. And with PageDown eaten by the reader it stayed GREEN,
   // so it never checked that the key moved anything. Now the browser's own `scrollend`, armed by the
   // key itself so an earlier scroll's end cannot count, says the motion is over. Not the first one:
   // with the compositor stalled, Chromium can end the key's injected scroll gesture before its

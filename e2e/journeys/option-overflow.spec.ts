@@ -119,7 +119,7 @@ test("@curated the hand uncapped; the deck warm-up did not", async ({ page }) =>
 // 22% of the gap on each animation frame, so a slow runner slows it down WITH its frame rate. This
 // test used to give it fixed sleeps instead: 250 ms to pass 100 px, then 12 × 60 ms + 200 ms to land.
 // With every frame callback delayed 60 ms (about 16 fps), the app untouched, the old form went red at
-// "the last card is reachable" (156 px short). Now the page counts its own frames: a sampler records
+// "the last card is reachable" (9 of 9, 112-211 px short). Now the page counts its own frames: a sampler records
 // the tray each frame and the frame of each wheel, the spec POLLS the glide to its end, and the pace
 // is asserted in frames, which is what the old sleeps allowed at 60 fps (15 frames for the first
 // 100 px, 40 frames from the wheel that sends the target to the end until the glide stops).
