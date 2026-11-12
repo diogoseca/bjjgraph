@@ -24,6 +24,8 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *   the menu row restored                                       → both widths red, "no import row"
  *   the line printed through the name splitter (no `whole`)      → both widths red, the line's text ("Your practice" over
  *     a dim "from before you signed in is saved": the first build of v1.262.0 did exactly this, caught by its own shoot)
+ *   the practice key counting the trail (REVIEW375 F4, on the v1.260.0 merge) → "a guest who only looked" red at "no line":
+ *     the trail a bare visit leaves, measured here in the built app, would otherwise say the line
  * NON-KILL, named: the join run on every visit (the mark never read) passes here. Re-joining an UNCHANGED guest copy
  *   adds nothing (every merge step is idempotent), so nothing is said and "once" holds without the mark. What the mark
  *   is for, a list the account deleted staying deleted, is pinned by tests/guest_join_safety.test.mjs test 5, which
