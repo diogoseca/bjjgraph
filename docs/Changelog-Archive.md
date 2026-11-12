@@ -15964,6 +15964,14 @@ question is answered for good, and a drill's clock stays down. The generalisatio
 (`_rch`) now only keeps a scroll begun on the article from being reading at touch-down while an answer is out of view, so its record and
 its lifter (a capture listener that ended a reach on a press on the game) retire. `reader.js` is unchanged (44,875 B).
 
+**SHORT5 (the orchestrator's review of #389).** `_landView` answered `{ on: true }` for a card with no height (not laid out: SKIP,
+never a verdict), and `_offTick` then set `q.seen`, so a frame that could not see the card counted it as seen; if layout then came
+back with the card wholly outside the visible box, the next frame declined a question no frame ever saw. Now a no-height frame
+carries `skip`, and `_offTick` returns on it: skip stays skip, never seen and never gone. The reach keeps reading such a card as on
+(no decline at touch-down). Pinned by a journey whose frame sequence is built by hand (the harness cannot raise a real zero-height
+frame on demand): the seen mark cleared, one display:none frame, then the card laid out wholly above the visible box; nothing is
+declined. Its mutant, skip-counts-as-seen, is killed at "a frame that cannot see the card never counts it as seen". `neural.js` +16 B.
+
 **Kept.** Reaching for an answer never declines (short-phone-answers.spec.ts); with every answer in view a scroll on the article is
 reading and declines at once ("reading"); the reading arrival runs no clock and is untouched; the asking line is untouched.
 
@@ -15982,8 +15990,8 @@ wheel over the article with every answer in view. `short-phone-answers.spec.ts`:
 claim reversed by U146 a (not loosened), and its mutant (reach-lift-off) with the lifter it pinned.
 
 **Mutants** (`tests/artifacts/question_off_screen_mutants.mjs`, on the served bundle, inside the lock, a kill only at the named claim):
-off-never-declines (3 runs: from the card, by the wheel, the drill), half-off-declines, park-not-decline, drill-excluded and
-reach-ignores-view: 7 of 8 killed. seen-guard-off SURVIVES, a recorded non-kill: the reader returns to the top synchronously at the start
+off-never-declines (3 runs: from the card, by the wheel, the drill), half-off-declines, park-not-decline, drill-excluded,
+reach-ignores-view and skip-counts-as-seen (SHORT5): 8 of 9 killed. seen-guard-off SURVIVES, a recorded non-kill: the reader returns to the top synchronously at the start
 of `open()`, so no judging frame falls between a new landing's mount and its reset here; the guard stays because it is what "has left the
 screen" means, and the new-landing journey pins the claim against any order that would break it. The runner reports it and does not fail
 on it. `tests/artifacts/short_phone_mutants.mjs` (SHORT1's), retargeted: off-never-declines replaces reach-never-leaves, reach-lift-off
