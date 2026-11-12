@@ -16388,3 +16388,12 @@ submodule, a newline-led name, a mode change and a symlink swap.
 **Mutants** (the served bundle, all three tests each): the mark never set; the mark forcing a save (manifest-first cannot see it, because there the raise saves anyway); the guard ignored; the mark dropped on load; the raise re-firing; the raised belt not saved at once. All six were killed, each at a named assertion (the table is in the header). Control: the old test with the curriculum first rigged is red.
 
 **Gates (local, this box, under the lock):** the new spec 15 of 15 on the clean app; the whole generated suite on this build on a private port, 103 of 103 with the ledger reporter's PASS (101 tests before, plus the two new ones); `npm run ci:validate` on the stacked tree (on #393's head): 25 of 25 replayed steps green, 1,537 of 1,537 unit tests. An earlier run before the merges had one red, `tests/verify_clips_test.py`'s 0.1 s deadline case. It is a real-time deadline that a loaded box can miss, this change does not touch it, and it was 6 of 6 green alone. Found, not fixed. Spec only: no file under `neural/src/` and no app row moves. The PR's e2e-full is the full gate.
+
+## v1.264.5 — The deploy gate's last two pins: tripwire()'s own return and the replace-ref switch (2026-11-12)
+
+The reader's fourth pass on #393 gave the verdict MERGE and left two nits. Each now has a test that turns red without
+it. `tripwire()` takes an injected `fetch`, `env` and `wait`. A test drives it with fake jobs answers: it reads this run
+attempt's jobs, retries a 502, and returns red without the count file or over the line. A real-git fixture uses
+`git replace` to make a commit that changes `app.js` look keepalive-only. With `GIT_NO_REPLACE_OBJECTS=1` the rule
+reads the real tree and stops there. Each mutant (the return ignoring the count, the switch dropped) is killed at its
+named assertion. Unit 28 of 28.
