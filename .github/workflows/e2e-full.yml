@@ -27,6 +27,17 @@ jobs:
     name: Build tested site
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    # THE SHARDS RUN WHENEVER THE SITE BUILT (v1.263.3, GATE6; the reviewer's finding 2 on #388). `test` and `gen`
+    # wait on this output, the tested site's upload, not on the job's success: a red in a post-build gate below (the
+    # postprocessor contract, the census, the deploy-gate ledger, the keyless analytics fixture) keeps THIS job red
+    # and no longer skips the 1,474 core journeys and the generated suite. That matters most on a push to dev, whose
+    # run is what a promotion relies on and which has no PR to fix the drift in first. None of those gates writes
+    # into the tree the shards download (build-shape writes only under --update, the keyless check builds in a temp
+    # dir, the other two only read), so a shard never tests a file a red gate refused. A content PR therefore sees its
+    # full suite before its capture: the census stays red until the re-seed, the journeys report on their own. Each
+    # post-build gate also runs whenever the site built, so one red no longer hides the next.
+    outputs:
+      site: ${{ steps.upload-site.outcome }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
@@ -62,6 +73,7 @@ jobs:
         run: npm run build
 
       - name: Postprocessor input contract
+        if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
         # Exit 2 is pending only with the exact completed-verdict marker.
         # Python also exits 2 before execution (missing file/bad arguments).
         run: |
@@ -112,6 +124,7 @@ jobs:
       # contract tests/corpus_census.test.mjs already has with `npm run census:update`.
       # On a deploy there is no such opportunity, so it would only ever be a tripwire.
       - name: Build shape (tier-0 floors + committed census)
+        if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
         run: npm run validate:build-shape
 
       # THE DEPLOY GATE'S LEDGER, TITLE FOR TITLE (v1.263.0, GATE5). Playwright's own `--list --grep @curated`, which is
@@ -120,6 +133,7 @@ jobs:
       # ledger from the sources, but cannot expand a parametrised title: this step is what catches a condition widened
       # to tag more cases. Mechanism: scripts/deploy_gate.mjs.
       - name: Deploy gate ledger matches the gate's own selection
+        if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
         run: node scripts/deploy_gate.mjs check --listed
 
       # THE KEYLESS HALF OF THE ANALYTICS CONTRACT, AND THE ONLY PLACE ON A PR IT CAN RUN.
@@ -131,6 +145,7 @@ jobs:
       # This step builds its own one-file fixture with the key REMOVED (~1s, not the 10-min corpus)
       # and grades that, so the mutant turns this job red on the PR that introduces it.
       - name: Analytics surface — the keyless direction (fixture build)
+        if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
         run: npm run validate:analytics:nokey
 
       - name: Package tested site
@@ -160,6 +175,7 @@ jobs:
           tar -czf complete-e2e-site.tgz source/public neural/dist source/quartz/static/neural/graph-data.json source/quartz/.neural-internal/systems.json
 
       - name: Upload tested site
+        id: upload-site
         if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
         with:
@@ -170,6 +186,8 @@ jobs:
   test:
     name: E2E shard ${{ matrix.shard }}/4
     needs: build
+    # whenever the site built and uploaded, even if a post-build gate is red (the build job's comment)
+    if: ${{ !cancelled() && needs.build.outputs.site == 'success' }}
     runs-on: ubuntu-latest
     # History, at 25; the limit today and its reason are at the end of this comment.
     # Ceiling lowered 45 -> 25 so a hung shard fails in under half an hour instead of
@@ -311,6 +329,8 @@ jobs:
   gen:
     name: Generated suite (e2e:gen vs its ledger)
     needs: build
+    # whenever the site built and uploaded, even if a post-build gate is red (the build job's comment)
+    if: ${{ !cancelled() && needs.build.outputs.site == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:

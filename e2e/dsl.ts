@@ -572,7 +572,7 @@ export class Journey {
    * the network stack or this harness's routes. A deck the app was ALREADY fetching on its own (a dealt
    * option's prefetch) is joined by hydrateDeck, not asked again, so it still travels the wire as
    * before: 10 beside 2,851 answered in the page on the first run. The normal path is still every boot's own landing deck and every deck the app
-   * asks for by itself; url-arrival.spec.ts's held-deck case (@curated) proves such a fetch crosses
+   * asks for by itself; url-arrival.spec.ts's held-deck case proves such a fetch crosses
    * the delay layer, and harness-deck-trip.spec.ts's `via: "route"` control proves it reaches the route.
    * LEFT ON THE ROUTE, so nothing changes for them: a chunk under an armed payload rule (it keeps its
    * timing) and a chunk the buffers do not hold (the route's 404). A spec that routes deck chunks

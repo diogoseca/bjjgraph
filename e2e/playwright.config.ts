@@ -20,7 +20,12 @@ export default defineConfig({
   timeout: 240_000, // per-test ceiling; sim time is pumped, so real time only covers boots + evaluates (CI runners run ~4x slower than the dev box)
   retries: 0, // journeys are deterministic by design — a retry hides a rails bug
   workers: 1, // measured: workers=2 is only ~20% faster locally (CPU-bound frame pumps) and risks re-introducing boot timeouts on 2-core CI runners
-  reporter: [["list"], ["html", { outputFolder: "report", open: "never" }]],
+  // results.json is what the deploy gate COUNTS (v1.263.3, GATE6): `posttest:curated` runs
+  // `node scripts/deploy_gate.mjs ran`, which fails unless the tests that ran and passed are exactly the rows of
+  // tests/artifacts/deploy_gate.json, none skipped. It lands in this config's outputDir (e2e/test-results), which
+  // Playwright wipes at the start of every run, so a stale report can never be counted. A --reporter on the command
+  // line replaces all three, and the count then fails loudly for want of a report.
+  reporter: [["list"], ["html", { outputFolder: "report", open: "never" }], ["json", { outputFile: "test-results/results.json" }]],
   // NO GIT DIFF CAPTURE — IT MAKES THE CHECKOUT SHALLOW (v1.198.2). Left undefined, Playwright's
   // git-commit-info plugin captures a diff on CI, and on a GitHub `pull_request` event it first runs
   // `git fetch origin <pull_request.base.sha> --depth=1` IN THIS REPOSITORY. A depth-1 fetch into a

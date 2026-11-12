@@ -366,7 +366,7 @@ async function readerStudyTools(page: Page, j: ReturnType<typeof journey>) {
   await j.clickByMouse("[data-reader-study]", "open the page's related practice");
 }
 
-test("Explore lists every authored principle, and opening one opens content — never a search", async ({
+test("@curated Explore lists every authored principle, and opening one opens content — never a search", async ({
   page,
 }) => {
   const errors = watchErrors(page);

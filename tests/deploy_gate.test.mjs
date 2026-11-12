@@ -25,6 +25,25 @@
 //   e2e-full's push trigger removed                          → "e2e-full" (WIRING)
 //   game-value-live's condition widened to every width       → NOT killed here, by design (see above); killed by
 //                                                              `check --listed`: "the gate runs a test with no row"
+//
+// GATE6 (v1.263.3, the reviewer's findings 1, 5 and 6 on #388), each mutant applied alone to a scratch copy, this file
+// run, reverted; every one killed at the named assertion:
+//   RAN        posttest:curated removed → "npm runs the count after every green curated run"; the config's JSON reporter
+//              removed → "the core config writes the report the count reads"; a skipped test counted as passed → "a
+//              skipped test is counted as skipped, never as passed"; a row that did not run unreported → "a row the gate
+//              did not run"; an empty report passing → /ZERO tests/. On a REAL report (golden-path's kept test given a
+//              test.skip): "skipped in the gate, so its surface went unchecked: golden-path.spec.ts › …".
+//   PROMOTION  pull_request runs counted → "a PR run tested a merge ref, not this commit"; a cancelled run vouching →
+//              "a cancelled run (a burst of merges) does not vouch"; the merge's MAIN parent taken → "a promotion merge
+//              is vouched for by its DEV parent, the second"; the tree check dropped → "a merge whose tree differs from
+//              its dev parent's beyond keepalive fails closed"; an octopus traced to its second parent → "a head with 3
+//              parents is no promotion shape"; deploy.yaml without the step → "the promotion rule runs once"; the step
+//              made continue-on-error → "the promotion rule is unconditional and blocking" (check_build_chains.py also
+//              refuses both; tests/build_chains.test.mjs pins those).
+//   PUSH-RUN   `paths: ["docs/**"]` on the push trigger → "e2e-full's push trigger carries no paths"; the shard job
+//              `if: github.event_name == 'pull_request'` → "test runs whenever the site built, and on nothing else"; gen
+//              without its condition → "gen runs whenever…"; an `if:` on the shard command → "the suite commands
+//              themselves are unconditional and blocking". (The reviewer's two survivors on #388 are the first two.)
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
@@ -33,7 +52,8 @@ import { join } from "node:path";
 import { tmpdir } from "node:os";
 import {
   ROOT, BUDGET, MANIFEST, check, scanSites, checkStatic, checkBudget, checkListed, flattenListing,
-  evaluateTripwire, parseGateLog, lineLiterals, loadJson,
+  evaluateTripwire, parseGateLog, lineLiterals, loadJson, flattenResults, checkRan, RESULTS,
+  promotionTarget, evaluatePromotion, TESTED_ONLY_DIFF,
 } from "../scripts/deploy_gate.mjs";
 
 const budget = loadJson(ROOT, BUDGET);
@@ -134,6 +154,65 @@ test("LISTED: Playwright's selection must equal the rows, and zero listed fails"
   assert.ok(checkListed([], { tests: [] }).some((e) => /ZERO/.test(e)));
 });
 
+test("RAN: the tests that ran and passed must be exactly the rows, none skipped, and more than zero", () => {
+  const rows = { tests: [row("a.spec.ts", "@curated one"), row("a.spec.ts", "D › @curated two")] };
+  const t = (status = "expected", result = "passed") => ({ status, results: [{ status: result }] });
+  const report = (one, two, extra = []) => ({ suites: [{ title: "a.spec.ts", file: "a.spec.ts", specs: [...(one ? [{ title: "@curated one", file: "a.spec.ts", tests: [one] }] : []), ...extra],
+    suites: two ? [{ title: "D", file: "a.spec.ts", specs: [{ title: "@curated two", file: "a.spec.ts", tests: [two] }] }] : [] }] });
+  const at = (json) => checkRan(flattenResults(json), rows);
+  let r = at(report(t(), t()));
+  assert.deepEqual([r.errors, r.passed, r.skipped, r.rows], [[], 2, 0, 2], "every row ran and passed: no error");
+  r = at(report(t(), t("skipped", "skipped")));
+  assert.deepEqual([r.passed, r.skipped], [1, 1], "a skipped test is counted as skipped, never as passed");
+  assert.match(r.errors.join("\n"), /skipped in the gate, so its surface went unchecked: a\.spec\.ts › D › @curated two/);
+  assert.match(at(report(t(), null)).errors.join("\n"), /a row the gate did not run: a\.spec\.ts › D › @curated two/);
+  assert.match(at({ suites: [] }).errors.join("\n"), /ZERO tests/);
+  assert.match(at(report(t(), t("unexpected", "failed"))).errors.join("\n"), /did not pass in the gate \(unexpected, failed\)/);
+  assert.match(at(report(t(), t(), [{ title: "@curated three", file: "a.spec.ts", tests: [t()] }])).errors.join("\n"), /ran in the gate with no row: a\.spec\.ts › @curated three/);
+});
+
+test("RAN is wired: the curated script's post hook counts the config's own JSON report", () => {
+  const pkg = JSON.parse(readFileSync(join(ROOT, "package.json"), "utf8"));
+  assert.equal(pkg.scripts["posttest:curated"], "node scripts/deploy_gate.mjs ran", "npm runs the count after every green curated run");
+  const config = readFileSync(join(ROOT, "e2e/playwright.config.ts"), "utf8");
+  assert.match(config, /\["json", \{ outputFile: "test-results\/results\.json" \}\]/, "the core config writes the report the count reads");
+  assert.equal(RESULTS, "e2e/test-results/results.json", "the config's outputDir-relative report, as the count reads it");
+});
+
+test("PROMOTION: which commit vouches for a push to main, for every shape of push", () => {
+  const H = "a".repeat(40), M = "b".repeat(40), D = "c".repeat(40);
+  // the --no-ff promotion merge: its dev parent, when main's tree is that parent's plus only the keepalive file
+  assert.equal(promotionTarget({ head: H, parents: [M, D], diff: () => [...TESTED_ONLY_DIFF] }).tested, D, "a promotion merge is vouched for by its DEV parent, the second");
+  assert.equal(promotionTarget({ head: H, parents: [M, D], diff: () => [] }).tested, D, "...with or without the keepalive difference");
+  const drifted = promotionTarget({ head: H, parents: [M, D], diff: () => [".github/keepalive.txt", "neural/src/app.src.jsx"] });
+  assert.ok(drifted.error && !drifted.tested, "a merge whose tree differs from its dev parent's beyond keepalive fails closed");
+  assert.match(drifted.error, /main's tree is not the tree that was tested: .* in 1 file\(s\) beyond .*neural\/src\/app\.src\.jsx/);
+  // a non-merge push: the pushed commit itself must carry the green run
+  assert.equal(promotionTarget({ head: H, parents: [M] }).tested, H);
+  // anything else fails closed
+  for (const parents of [[M, D, "d".repeat(40)], []]) {
+    const t = promotionTarget({ head: H, parents });
+    assert.ok(t.error && !t.tested, `a head with ${parents.length} parents is no promotion shape: it fails closed`);
+    assert.match(t.error, new RegExp(`${parents.length} parents cannot be traced`));
+  }
+});
+
+test("PROMOTION: only a green push or dispatch run of e2e-full on that commit vouches for it", () => {
+  const D = "c".repeat(40);
+  const run = (id, event, conclusion, status = "completed", head_sha = D) => ({ id, event, conclusion, status, head_sha });
+  assert.equal(evaluatePromotion([run(1, "push", "success")], D).ok, true, "a green push-run");
+  const cancelled = evaluatePromotion([run(2, "push", "cancelled")], D);
+  assert.equal(cancelled.ok, false, "a cancelled run (a burst of merges) does not vouch");
+  assert.match(cancelled.message, /runs found: run 2 \(push, cancelled\)/);
+  assert.match(cancelled.message, /Promote the newest dev commit whose push-run of e2e-full is green: a burst of merges keeps one run/);
+  assert.match(cancelled.message, /gh workflow run e2e-full\.yml --ref dev;.*git push origin c{40}:refs\/heads\/verify-c{9} && gh workflow run e2e-full\.yml --ref verify-c{9}/);
+  assert.match(evaluatePromotion([], D).message, /runs found: none/, "no run at all");
+  assert.equal(evaluatePromotion([run(3, "push", "failure"), run(4, "workflow_dispatch", "success")], D).ok, true, "a red run next to a green dispatched re-run");
+  assert.equal(evaluatePromotion([run(5, "pull_request", "success")], D).ok, false, "a PR run tested a merge ref, not this commit");
+  assert.equal(evaluatePromotion([run(6, "push", null, "in_progress")], D).ok, false, "a run still going vouches for nothing yet");
+  assert.equal(evaluatePromotion([run(7, "push", "success", "completed", "e".repeat(40))], D).ok, false, "another commit's green run");
+});
+
 test("TRIPWIRE: exactly one completed gate step; ok, warning and error by the budget; absence is an error", () => {
   const step = (min, over = {}) => ({ name: budget.step, status: "completed", conclusion: "success", started_at: "2026-11-12T10:00:00Z", completed_at: new Date(Date.parse("2026-11-12T10:00:00Z") + min * 60000).toISOString().replace(".000", ""), ...over });
   const jobs = (...steps) => ({ jobs: [{ name: "deploy", steps: [{ name: "Set up job", status: "completed" }, ...steps] }] });
@@ -188,6 +267,16 @@ test("both deploys: the gate step at the budget's timeout, then the tripwire aft
     assert.ok(cf > g.i && w.i > cf, `${name}: gate, then the Pages upload, then the tripwire`);
     assert.equal(w.s.env?.GH_TOKEN, "${{ github.token }}", `${name}: the tripwire reads the jobs API with the run's token`);
     assert.equal(w.job.permissions?.actions, "read", `${name}: the job may read its own run's jobs`);
+    const promo = Object.values(wf.jobs).flatMap((j) => j.steps || []).filter((s) => /deploy_gate\.mjs promotion/.test(s.run || ""));
+    if (name === "deploy.yaml") {
+      assert.equal(promo.length, 1, "deploy.yaml: the promotion rule runs once");
+      const steps = g.job.steps, at = steps.indexOf(promo[0]);
+      assert.ok(at >= 0 && at < steps.findIndex((s) => s.name === "Build Quartz"), "deploy.yaml: in the deploy job, before the build");
+      assert.equal(promo[0].run, "node scripts/deploy_gate.mjs promotion");
+      assert.ok(!("if" in promo[0]) && !promo[0]["continue-on-error"], "deploy.yaml: the promotion rule is unconditional and blocking");
+      assert.equal(promo[0].env?.GH_TOKEN, "${{ github.token }}");
+      assert.equal(steps[0].with?.["fetch-depth"], 0, "deploy.yaml: full history, so the merge's parents and their trees are there");
+    } else assert.equal(promo.length, 0, "deploy-dev.yaml: a preview has nothing to promote");
     if (name === "deploy.yaml") {
       assert.equal(w.s["continue-on-error"], true, "deploy.yaml: a slow gate must not cancel Lighthouse, IndexNow or the release");
       assert.ok(w.s.id, "deploy.yaml: the tripwire has an id");
@@ -209,4 +298,29 @@ test("e2e-full: every push to dev runs the full suite, one run per burst, and ch
   assert.match(wf.concurrency.group, /github\.ref/);
   const listed = Object.values(wf.jobs).flatMap((j) => j.steps || []).filter((s) => /node scripts\/deploy_gate\.mjs check --listed/.test(s.run || ""));
   assert.equal(listed.length, 1, "exactly one step checks Playwright's own selection against the rows");
+});
+
+// v1.263.3 (GATE6 part 5, the reviewer's finding 5 on #388): the promotion rule relies on the push-run being the WHOLE
+// suite, so nothing may narrow it: no path filter on either trigger, and no condition that could skip a job beyond
+// the one part 4 adds (the shards and gen wait on the tested site's upload, not on the build job's other gates).
+test("e2e-full: nothing narrows the push-run: no path filter, no job or step condition beyond 'the site built'", () => {
+  const wf = workflow("e2e-full.yml");
+  for (const ev of ["push", "pull_request"]) for (const k of ["paths", "paths-ignore", "branches-ignore", "tags", "tags-ignore"])
+    assert.ok(!(k in (wf.on[ev] || {})), `e2e-full's ${ev} trigger carries no ${k}`);
+  assert.deepEqual(Object.keys(wf.jobs).sort(), ["build", "gen", "test"], "the three jobs, and no fourth one to hide a condition in");
+  assert.ok(!("if" in wf.jobs.build), "the build job always runs");
+  const SITE = "${{ !cancelled() && needs.build.outputs.site == 'success' }}";
+  for (const j of ["test", "gen"]) {
+    assert.equal(wf.jobs[j].if, SITE, `${j} runs whenever the site built, and on nothing else`);
+    assert.equal(wf.jobs[j].needs, "build");
+  }
+  const upload = wf.jobs.build.steps.find((s) => s.id === "upload-site");
+  assert.equal(wf.jobs.build.outputs?.site, "${{ steps.upload-site.outcome }}", "the output the shards wait on is the tested site's upload");
+  assert.equal(upload?.if, "${{ !cancelled() && steps.site-build.outcome == 'success' }}");
+  const shard = wf.jobs.test.steps.filter((s) => /npm test -- --shard=\$\{\{ matrix\.shard \}\}\/4/.test(s.run || ""));
+  const gen = wf.jobs.gen.steps.filter((s) => /npm run e2e:gen/.test(s.run || ""));
+  assert.equal(shard.length, 1, "each shard runs its quarter of the core suite");
+  assert.equal(gen.length, 1, "gen runs the generated suite");
+  assert.ok(![...shard, ...gen].some((s) => "if" in s || s["continue-on-error"]), "the suite commands themselves are unconditional and blocking");
+  assert.deepEqual(wf.jobs.test.strategy?.matrix?.shard, [1, 2, 3, 4], "all four shards");
 });

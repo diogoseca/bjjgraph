@@ -90,6 +90,7 @@ their go-ahead — they test locally first, especially anything touching the app
 
 **Promote to production only a commit whose push-run `e2e-full.yml` is green.** The deploy gate runs
 only what a deploy can break (`tests/artifacts/deploy_gate.json`), and no PR run sees main's tree.
+`deploy.yaml`'s first gate refuses any other; its message says how to get a run for an older commit.
 
 **End a delivery with the literal command to run it**, and say plainly what is blocked on them.
 
@@ -480,7 +481,7 @@ Numbers live where they are enforced, never in prose here — prose copies drift
 | `e2e/gen/ledger.json` | `scripts/check_gen_specs.sh`, `e2e/gen-ledger-reporter.ts` | one row per spec; `known-red` = tolerated |
 | `tests/artifacts/ruleset_availability.json` | `validate:availability` | DERIVED, never authored — regenerate, never hand-edit |
 | `tests/artifacts/ruleset_surfaces.json` | `validate:surfaces` | one row per enumeration that deliberately skips the mask, each with a REASON; a row matching nothing fails |
-| `tests/artifacts/deploy_gate.json` | `tests/deploy_gate.test.mjs`, e2e-full's listing step | one row per `@curated` test, with its tier and reason: a tag with no row fails, a row with no test fails; `tests/artifacts/deploy_gate_budget.json` holds the line, which both deploys' tripwire reads after the upload |
+| `tests/artifacts/deploy_gate.json` | `tests/deploy_gate.test.mjs`, e2e-full's listing step, `posttest:curated` | one row per `@curated` test, with its tier and reason: a tag with no row fails, a row with no test fails, and so does a gate run whose passed tests are not exactly the rows; `tests/artifacts/deploy_gate_budget.json` holds the line, which both deploys' tripwire reads after the upload |
 | `tests/artifacts/wikilink_ambiguity_baseline.json` | `regenerate:md` | bare names no family decides; a new one fails, a cleared one fails `--all`; move with `--accept-ambiguity --reason` |
 
 **Suites own dedicated ports** (core :8133, gen :8127, share :8129, replay :8151), all with

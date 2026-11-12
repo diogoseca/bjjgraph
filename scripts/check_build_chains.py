@@ -54,6 +54,13 @@ DEPLOY_ONLY = {
     ('python3', 'scripts/check_analytics_surface.py'): 'deploy PostHog environment',
     ('node', 'scripts/check_analytics_nokey.mjs'): 'independent keyless fixture',
 }
+# Production only, and BEFORE the build (v1.263.3, GATE6): the promotion rule. deploy.yaml runs only the deploy gate,
+# so the commit that vouches for a push to main must already have a green full-suite run (scripts/deploy_gate.mjs
+# promotion). It reads the runs API, not the built tree, so it is no part of the build chain; a preview has nothing to
+# promote, so deploy-dev.yaml must NOT carry it. Exactly once in deploy.yaml, unconditional, as written here.
+PRODUCTION_ONLY = {
+    'node scripts/deploy_gate.mjs promotion': 'the promotion rule: the full suite passed on the commit that vouches for this push to main',
+}
 GATE = ('python3', 'scripts/check_build_chains.py')
 AFFILIATE = ('python3', 'scripts/apply_affiliate_ref.py')
 DISCOVERY = ('python3', 'scripts/regenerate_agent_discovery.py')
@@ -170,6 +177,7 @@ def deploy_commands(root, path):
     default_cwd = run_defaults.get('working-directory', '.')
     started = False
     result = []
+    production_only = Counter()
     for step in job['steps'][:boundary]:
         if step.get('name') == 'Build Quartz':
             if started:
@@ -195,6 +203,9 @@ def deploy_commands(root, path):
                 continue
             if body.strip() == 'python3 scripts/check_build_chains.py' and cwd == '.' and 'if' not in step and not step.get('continue-on-error'):
                 continue
+            if body.strip() in PRODUCTION_ONLY and path.name == 'deploy.yaml' and cwd == '.' and 'if' not in step and not step.get('continue-on-error'):
+                production_only[body.strip()] += 1
+                continue
             raise ContractError(f'{path.name}: unreviewed preparation command before Build Quartz: {step.get("name")}')
         if body.strip() in ('npx playwright install --with-deps chromium', 'npx playwright install-deps chromium') and cwd == '.':
             continue
@@ -207,6 +218,11 @@ def deploy_commands(root, path):
         result.extend(commands(root, body, cwd))
     if not started or not result:
         raise ContractError(f'{path.name}: empty/zero build chain')
+    if path.name == 'deploy.yaml':
+        for body, reason in PRODUCTION_ONLY.items():
+            if production_only[body] != 1:
+                raise ContractError(f'{path.name}: production-only gate {body!r} must run exactly once, unconditionally, before Build Quartz; found {production_only[body]}')
+            print(f'{path.name}: production-only gate before the build: {body} ({reason})')
     return result
 
 
