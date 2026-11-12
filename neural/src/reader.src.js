@@ -242,6 +242,7 @@ class Reader {
     this.renderSerial = 0;
     this.gamePage = app._landPage;
     this.interacting = false;
+    this.reachQ = null; // SHORT1: the taken-up question an article scroll is reaching for (`reachLeft`)
     this.trayBottom = 84;
     // _pushUrl changes the address without replacing Quartz's DOM. Only data-slug
     // identifies this cached article; location.pathname would reuse the wrong page.
@@ -285,7 +286,8 @@ class Reader {
         // Paging can replace the target before this event bubbles. Its original
         // path still identifies game input, even after that target is detached.
         // The Videos section lives in the game flow (D-338) but is reading, not play.
-        if (this.gameInput(event)) return;
+        // SHORT1: a press or wheel on the game is the player's own scroll, so it ends an article reach (below).
+        if (this.gameInput(event)) { if (type !== "focusin") this.reachQ = null; return; }
         // Toolbar activation has its own intent. Native text selection and prose
         // focus count as reading before the question clock gets another frame.
         if (type === "wheel" || type === "touchstart" || !event.target.closest(".ng-reader-tools")) this.readingInteraction(type, event);
@@ -308,6 +310,7 @@ class Reader {
       const r = this.root, end = r.scrollHeight - r.clientHeight;
       if (!(r.scrollTop >= end - 1 && this.placeTop > end + 1)) this.placeTop = r.scrollTop;
       this.layout();
+      if (this.reachQ) this.reachLeft();
     }, { passive: true });
     this.resize = new ResizeObserver(() => this.layout());
     // A tile's height decides where the next one goes: a font swap or a late player changes it with no other layout.
@@ -800,6 +803,12 @@ class Reader {
     // pointerdown BEFORE touchstart, so that press counts as a scroll too; a link still declines on its click
     // (sections and anchors below come back here with no type, articles through _readArticle).
     const scroll = type === "wheel" || type === "touchstart" || type === "pointerdown" && event.pointerType !== "mouse";
+    // SHORT1: with a taken-up question's card on the screen and one of its answers out of view, that scroll is the player
+    // reaching for it, so it is not reading yet (the owner: reaching for an answer must never decline it). It becomes
+    // reading, with today's decline, if it takes the card off the screen (`reachLeft`). Until v1.260.0 it declined on
+    // touch-down. With every answer in view it is reading at once, as before (`_landView`, app.src.jsx).
+    const view = scroll ? this.app._landView() : null;
+    if (view && view.on && !view.all) { this.reachQ = this.app._landQ; return; }
     // Reading stops the game every time it is running: since D-338 a Videos clip is reading too, so
     // a pane that paused first can resume the game on close while the reader is still reading.
     if (this.interacting && this.app.paused) { if (!scroll && !this.intent) this.app._declineLandQ("reading"); return; }
@@ -814,6 +823,19 @@ class Reader {
       listen(document, "pointerup", this.selectionEnd, { once: true });
     }
     this.sync();
+  }
+  // SHORT1: an article reach (`readingInteraction`) is judged where it goes. While the question's card stays on the
+  // screen nothing happens, even once its answers are all in view: the clock runs and the game plays, as for a scroll
+  // begun on the card. If the card leaves the screen the scroll is reading, exactly as a touch on the article was before:
+  // declined, free, the game paused. The next press on the article is judged afresh. A scroll begun on the game part is
+  // untouched: it never declines, so a question it carries off the screen can still expire there (measured at 390x631 on
+  // v1.259.1: expired 15 s after it left). That rule is not this fix's.
+  reachLeft() {
+    const a = this.app, q = this.reachQ;
+    if (q !== a._landQ || q.answered) { this.reachQ = null; return; }
+    if (a._landView()?.on) return;
+    this.reachQ = null;
+    this.readingInteraction();
   }
   leaveReading() {
     document.removeEventListener("pointerup", this.selectionEnd);

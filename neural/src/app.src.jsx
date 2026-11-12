@@ -18189,6 +18189,28 @@ class Component extends DCLogic {
     this._landPending = false;
     this.fx("land_q_declined", { deckKey: q.key || null, reason: reason || null });
   }
+  // SHORT1 (owner, 11 Nov: half of all cards need a scroll for their last answer, and reaching for an answer by scrolling
+  // must never decline, expire or skip a question the player has taken up). Where does a TAKEN-UP, still open question
+  // stand? null when there is none (asking, answered, a reading arrival, a hidden card); else `on` (its card meets the
+  // reader's visible box) and `all` (every answer it shows lies wholly inside it). The reader asks this when a finger or
+  // a wheel starts a scroll on the ARTICLE (reader.src.js `readingInteraction`): with the card on screen and an answer
+  // out of view, that scroll is the player reaching for it, not reading. Until v1.260.0 it was reading at touch-down,
+  // so it declined the question, dropped its clock and paused the game. Measured on a real roll from "/", by touch, on
+  // the preview (v1.259.1) and production (v1.252.0) at 390x631, 360x640, 375x667 and 390x844: overshoot the card so its
+  // first answers go above the top and the article fills the bottom, then drag back from the article: declined every
+  // time (since v1.236.0, U47 d; before it every question declined so). With every answer in view the same scroll is
+  // reading and declines as before, "a free pause, not a loss" (reading-mode.spec.ts). Both the landing and a catch's
+  // drill build their answers as the last child of `[data-land-q]`. No height = not laid out: SKIP, never a verdict.
+  _landView() {
+    const q = this._landQ, el = this._landEl;
+    if (!q || q.answered || this._landAsk || this._readerIntent || !el || !el.isConnected || this._landHidden()) return null;
+    const r = el.getBoundingClientRect();
+    if (!(r.height > 0)) return { on: true, all: false };
+    const v = this._reader ? this._reader.root.getBoundingClientRect() : null;
+    const top = Math.max(0, v ? v.top : 0), bot = Math.min(innerHeight, v ? v.bottom : innerHeight);
+    const ans = [...(el.querySelector("[data-land-q]")?.lastElementChild?.querySelectorAll("button") || [])].filter((b) => b.getClientRects().length);
+    return { on: r.bottom > top && r.top < bot, all: ans.every((b) => { const a = b.getBoundingClientRect(); return a.top >= top - 0.5 && a.bottom <= bot + 0.5; }) };
+  }
   _expireLandQ() {
     this._disarmLandClock();
     this._readerGraded();
