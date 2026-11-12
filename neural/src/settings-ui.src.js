@@ -167,7 +167,9 @@ renderSettings() {
         wrap.appendChild(beta);
         body.appendChild(wrap);
       } else {
-        // an empty tab reads as broken; a dead toggle reads as a lie. One line of why.
+        // an empty tab reads as broken; a dead toggle reads as a lie. One line of why. Reached only
+        // while the email is live (NG_DIGEST_LIVE): until then a guest gets no Notifications tab, since
+        // this line would send them to sign in for a switch that signing in does not offer.
         const note = document.createElement("div");
         note.setAttribute("data-notif-signedout", "1");
         note.style.cssText = "font-size:12.5px;line-height:1.6;color:#93a0bd;padding:2px 0 4px;";

@@ -113,9 +113,9 @@ test("signed in with legacy progress: email, Settings, Sign out; sign out flips 
   await expect(menu.locator("[data-menu-sep]"), "still ONE separator").toHaveCount(1)
   await expect(menu.locator("[data-menu-import-guest]")).toHaveText("Review guest progress")
   await expect(menu.locator("button")).toHaveCount(7)
-  // U60 b: Account preferences is folded into Settings. U139 a (v1.262.1): this account never turned the
+  // U60 b: Account preferences is folded into Settings. U139 a (v1.261.1): this account never turned the
   // training-day email on, so while the email is not live its Notifications tab is not drawn (the tab and
-  // the switch, for an account that has it on, are notifications-tab.spec.ts's claims). Until v1.262.1
+  // the switch, for an account that has it on, are notifications-tab.spec.ts's claims). Until v1.261.1
   // this pressed Notifications; the press that proves Settings' tabs answer the mouse is now Shortcuts.
   await j.clickByMouse("[data-menu-settings]", "Settings")
   await expect(page.locator("#ng-stab-shortcuts")).toBeVisible()

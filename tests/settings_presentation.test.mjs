@@ -129,10 +129,12 @@ test("close, competing modal, owner change, replaced card and unmount reject lat
 
 test("latest Settings tab intent wins shared import; dismissed error Retry is inert", async () => {
   const {app,card,calls} = fixture(), gate=deferred(); app._fetchSettingsPresentation=attempt=>{calls.loads.push(attempt);return gate.promise;};
-  const first=app.openSettings("flashcards"); await flush(); const second=app.openSettings("notifications");
+  // v1.261.1 (U139 a, DIGEST2): a guest has no Notifications tab while the email is not live, so the second,
+  // winning intent names Shortcuts; the claim is which intent wins, not which tab.
+  const first=app.openSettings("flashcards"); await flush(); const second=app.openSettings("shortcuts");
   gate.resolve(runtime); assert.equal(await first,false); assert.equal(await second,true); assert.deepEqual(calls.loads,[1]);
-  assert.equal(card.querySelector('[role="tabpanel"]').getAttribute("aria-labelledby"),"ng-stab-notifications");
-  assert.match(card.textContent,/signed-in account/);
+  assert.equal(card.querySelector('[role="tabpanel"]').getAttribute("aria-labelledby"),"ng-stab-shortcuts");
+  assert.match(card.textContent,/Pan the graph/);
   const failed=fixture(); failed.app._fetchSettingsPresentation=()=>Promise.reject(Error("offline")); await failed.app.openSettings();
   const retry=failed.card.querySelector("[data-settings-retry]"); failed.app.openLegal("terms"); const before=failed.card.textContent;
   retry.click(); await flush(); assert.equal(failed.card.textContent,before); assert.match(before,/Terms of Use/);
@@ -160,7 +162,7 @@ test("unchanged real controls retain settings keys, effects, direct tabs and key
   const row=card.querySelector('[role="tablist"]'), event=row.fire("keydown",{key:"End"});
   assert.equal(event.stopped,true); assert.equal(event.defaultPrevented,true); assert.equal(app._settingsTab,"shortcuts"); assert.equal(document.activeElement.getAttribute("data-settings-tab"),"shortcuts");
   const current=card.querySelector('[role="tablist"]'); current.fire("keydown",{key:"ArrowRight"}); assert.equal(app._settingsTab,"flashcards");
-  // U139 a (v1.262.1): a signed-in player reaches the email switch only while it is stored on, so this
+  // U139 a (v1.261.1): a signed-in player reaches the email switch only while it is stored on, so this
   // presses Off; pressing On is the flipped tests' claim below (the email live, v1.259.1's Settings).
   app.user={email:"test@example.invalid"}; app.settings.emailDigest=true; assert.equal(app.openSettings("notifications"),true); clickText(card,"Off"); assert.equal(app.get("emailDigest"),false);
   assert.equal(app.openSettings("modifiers"),true); assert.match(card.textContent,/No modifiers yet/);
@@ -195,9 +197,9 @@ test("actual build loader pins URL identity and retry, and rejects cross-origin 
 
 // ── THE TRAINING-DAY EMAIL WHILE IT IS NOT LIVE (owner U139 a, 12 Nov 2026: "Hide it while the digest is off").
 // NG_DIGEST_LIVE (app.src.jsx) is false: `openSettings` drops Notifications for a signed-in player whose stored
-// `emailDigest` is off; an account with it on keeps the tab and the row (saying no email is sent yet) so it can
-// turn it off, and the choice is made once per opening; a guest keeps v1.259.1's tab and line. The browser half,
-// pressed by mouse and by a touch tap at 390, is e2e/journeys/notifications-tab.spec.ts.
+// `emailDigest` is off, and for every guest (DIGEST2); an account with it on keeps the tab and the row (saying no
+// email is sent yet) so it can turn it off, and the choice is made once per opening. The browser half, pressed
+// by mouse and by a touch tap at 390, is e2e/journeys/notifications-tab.spec.ts.
 const tabIds = (card) => card.querySelectorAll('[role="tab"]').map((t) => t.getAttribute("data-settings-tab"));
 const selectedTab = (card) => card.querySelector('[role="tab"][aria-selected="true"]').getAttribute("data-settings-tab");
 const panelOf = (card) => card.querySelector('[role="tabpanel"]').getAttribute("aria-labelledby");
@@ -249,14 +251,19 @@ test("U139 a: an account with the email stored on keeps the tab and the row, is 
   assert.equal(card.querySelector("[data-digest-setting]"), null);
 });
 
-test("U139 a: a guest's Settings are v1.259.1's: five tabs and the one line, whatever the stored setting", async () => {
+test("U139 a: a guest has no Notifications tab, whatever this device stored, and a link to it opens the first tab", async () => {
+  // DIGEST2: the guest's line ("Sign in … to turn it on") would send them to sign in for a switch that is not
+  // there, so while the email is not live the tab shows for ONE case only, an account with it stored on.
   for (const stored of [undefined, false, true]) {
-    const { app, card } = fixture();
+    const { app, card, calls } = fixture();
     if (stored !== undefined) app.settings.emailDigest = stored;
-    assert.equal(await app.openSettings("notifications"), true, String(stored));
-    assert.deepEqual(tabIds(card), FIVE, String(stored)); assert.equal(selectedTab(card), "notifications", String(stored));
-    assert.equal(card.querySelector("[data-notif-signedout]").textContent, V1259_GUEST, String(stored));
-    assert.equal(card.querySelector("[data-digest-setting]"), null, String(stored));
+    assert.equal(await app.openSettings(), true, String(stored));
+    assert.deepEqual(tabIds(card), FOUR, "a guest sees four tabs, stored " + stored);
+    assert.equal(app.openSettings("notifications"), true);
+    assert.equal(selectedTab(card), "flashcards", "the link opens the first tab, stored " + stored); assert.equal(panelOf(card), "ng-stab-flashcards");
+    assert.equal(card.querySelector("[data-notif-signedout]"), null, String(stored)); assert.equal(card.querySelector("[data-digest-setting]"), null, String(stored));
+    app.openSettings("modifiers"); key(card, "ArrowRight"); assert.equal(app._settingsTab, "shortcuts", "the keys skip it, stored " + stored);
+    assert.equal(app.settings.emailDigest, stored, "nothing stored changes"); assert.equal(calls.saved, 0);
   }
 });
 

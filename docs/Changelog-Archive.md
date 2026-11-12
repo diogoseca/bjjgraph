@@ -15405,7 +15405,7 @@ Screens: `artifacts/briefing/img/hidesec/60-…` onward.
 
 Screens: `artifacts/briefing/img/practicedrawer/` (PRACT1: 00 to 40; PRACT2: 50 to 53 and the rows `60-before-after-390.jpg`, `60-before-after-1440.jpg`).
 
-## v1.262.1 — The training-day email switch hides while the digest is off (owner U139 a, DIGEST1, 2026-11-12)
+## v1.261.1 — The training-day email switch hides while the digest is off (owner U139 a, DIGEST1, 2026-11-12)
 
 **The decision** (owner, 12 Nov 2026, briefing answer U139 a, "Hide it while the digest is off"; the option he read: "The row and its empty Notifications tab are not shown. The stored setting is kept, an account that somehow has it on still sees the row so it can turn it off, and the row comes back the day you switch the digest on."). The digest cannot send: it stays off by the owner's call of 11 Nov, and `digest_sent` and `digest_suppress` (`supabase/digest_v1.sql`) are not in production (`supabase/schema.sql`'s header). Turning the switch on sent nothing; it only started recording `dayLog`. A read-only check of production on 12 Nov found no account with `emailDigest` on and none with a day log.
 

@@ -137,10 +137,10 @@ The source and served bundle were restored after every control (bundle SHA-256
 | flight-lift-fixed-margin | KILLED (1 test ran, 1 stopped after failure) | camera-continuity: ZERO overlap URL arrival at 1440×720; band 74..218, label bottom 235.82, required <232 |
 | concept-fit-reveal-lost | KILLED (1 test ran) | concepts-surface: the expanded portrait and its close button fit inside the reading pane at 1440×700 |
 
-v1.262.1 (DIGEST1, owner U139 a): account-menu's signed-in account never turned the training-day email on, so while the email
+v1.261.1 (DIGEST1, owner U139 a): account-menu's signed-in account never turned the training-day email on, so while the email
 is not live its Settings have no Notifications tab and that journey now asserts the absence. The `u60-notifications-lost`
 patch in `sidebar_r3_mutants.json` therefore names notifications-tab.spec ("an account with the email stored on keeps the
-tab…", claim "five tabs while it is stored on"); re-run on v1.262.1, it is KILLED there and by that spec's guest and
+tab…", claim "five tabs while it is stored on"); re-run on v1.261.1, it is KILLED there and by that spec's guest and
 flipped tests (docs/Changelog-Archive.md, DIGEST1). Its row in the table above is the 29 October measurement, kept as it was.
 
 N7's historical non-kills at 1440×900 remain documented in the spec and runner headers. The new

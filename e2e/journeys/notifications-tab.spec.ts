@@ -20,7 +20,9 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *     Off stores false (the key the digest worker reads), the row stays for the rest of this opening,
  *     and the tab is gone from the next opening on. Pressed by mouse at 1440 and by a real touch tap
  *     at 390.
- *  3. Signed out: as in v1.259.1. The tab is there, with its one line and no switch.
+ *  3. Signed out (DIGEST2, the orchestrator's correction of his own brief): no tab either. The guest's
+ *     line, "Sign in … to turn it on", would send them to sign in for a switch that is not there; a link
+ *     to the tab opens the first one. The tab shows for exactly one case: an account with it stored on.
  *  4. Flipped (the constant true, served by rewriting the built bundle): v1.259.1's Settings. Five
  *     tabs for a signed-in player with the setting off, the row without the not-sent sentence, and On
  *     stores true. The rewrite must match exactly once, or the test fails naming it.
@@ -29,7 +31,11 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  * tests/settings_presentation.test.mjs (the U139 a and "flipped" tests), including a check that the
  * flipped row's words are v1.259.1's to the letter.
  *
- * MUTANTS (v1.262.1, DIGEST1; the table and the exact rows are in docs/Changelog-Archive.md): 12 of 12
+ * @curated (CURATED36: the deploy gate is near its ceiling) is on two tests only, the ones that guard what
+ * must never reach the preview broken: an account with it off has nothing written, and an account with
+ * it on can turn it off. The rest run in the PR's e2e-full.
+ *
+ * MUTANTS (v1.261.1, DIGEST1 and DIGEST2; the table and the exact rows are in docs/Changelog-Archive.md): 12 of 12
  * killed here on the served bundle (the tab always drawn, the stored setting ignored, no deep-link
  * fallback, the keys walking the full list, the sentence missing or shown when live, the per-opening
  * choice never resetting or made on every render, opening Settings writing the key, a guest losing the
@@ -194,7 +200,7 @@ test("U139 a: an account with the email stored on keeps the tab and row to turn 
 test.describe("at 390, by touch", () => {
   test.use({ viewport: { width: 390, height: 844 }, hasTouch: true });
 
-  test("U139 a: a phone with the email stored on taps Notifications and Off; the next opening has no tab @curated", async ({ page }) => {
+  test("U139 a: a phone with the email stored on taps Notifications and Off; the next opening has no tab", async ({ page }) => {
     const j = await bootSignedIn(page, "digest-on-phone", true);
     await openSettingsFromMenu(page, j);
     expect(await tabIds(page)).toEqual(["flashcards", "rolling", "modifiers", "notifications", "shortcuts"]);
@@ -211,7 +217,7 @@ test.describe("at 390, by touch", () => {
     expect(await tabIds(page), "reopened on the phone: no tab").toEqual(["flashcards", "rolling", "modifiers", "shortcuts"]);
   });
 
-  test("U139 a: a phone signed in with the email off sees four tabs and no switch @curated", async ({ page }) => {
+  test("U139 a: a phone signed in with the email off sees four tabs and no switch", async ({ page }) => {
     const j = await bootSignedIn(page, "digest-off-phone");
     await openSettingsFromMenu(page, j);
     expect(await tabIds(page)).toEqual(["flashcards", "rolling", "modifiers", "shortcuts"]);
@@ -221,22 +227,38 @@ test.describe("at 390, by touch", () => {
   });
 });
 
-test("signed out, Notifications is as before: the one line and no switch @curated", async ({ page }) => {
+test("U139 a: a guest has no Notifications tab, and a link to it opens the first tab", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
   await openSettingsFromMenu(page, j, "the guest badge");
-  expect(await tabIds(page), "a guest keeps all five tabs").toEqual(["flashcards", "rolling", "modifiers", "notifications", "shortcuts"]);
-  await j.clickByMouse("#ng-stab-notifications", "Notifications");
-  // no control that cannot work
+  expect(await tabIds(page), "a guest sees four tabs while the email is not live").toEqual(["flashcards", "rolling", "modifiers", "shortcuts"]);
+  await expect(page.locator("#ng-stab-notifications")).toHaveCount(0);
+  // the arrow keys walk the four drawn tabs
+  await j.clickByMouse("#ng-stab-modifiers", "Modifiers");
+  await page.keyboard.press("ArrowRight");
+  expect(await selected(page), "ArrowRight from Modifiers skips the hidden tab").toBe("shortcuts");
+  await closeSettings(page);
+  // a link to the hidden tab opens the first tab, and no line sends the guest to sign in for a switch
+  await page.evaluate(() => (window as any).__neural.openSettings("notifications"));
+  await expect(page.locator('[role="tablist"][data-settings-tabs]')).toBeVisible();
+  expect(await selected(page), "the link opens the first tab").toBe("flashcards");
+  await expect(page.locator('[role="tabpanel"]')).toHaveAttribute("aria-labelledby", "ng-stab-flashcards");
+  await expect(page.locator("[data-notif-signedout]")).toHaveCount(0);
   await expect(page.locator(ROW)).toHaveCount(0);
-  // but not a blank tab either: one honest line saying why
-  const note = page.locator("[data-notif-signedout]");
-  await expect(note).toBeVisible();
-  expect((await note.innerText()).trim().length).toBeGreaterThan(20);
 });
 
-test("flipped: with NG_DIGEST_LIVE true, a signed-in player's Settings are v1.259.1's @curated", async ({ page }) => {
+test("U139 a: a guest whose device stored the switch on gets no tab either", async ({ page }) => {
+  const j = journey(page);
+  await j.boot("/", { initialState: { v: 2, settings: { emailDigest: true }, settingsAt: {} } });
+  await j.land("Mount Top");
+  expect((await stored(page)).value, "this device stored it on").toBe(true);
+  await openSettingsFromMenu(page, j, "the guest badge");
+  expect(await tabIds(page), "still four tabs: only an account sees the switch").toEqual(["flashcards", "rolling", "modifiers", "shortcuts"]);
+  expect((await stored(page)).value, "and nothing stored changes").toBe(true);
+});
+
+test("flipped: with NG_DIGEST_LIVE true, a signed-in player's Settings are v1.259.1's", async ({ page }) => {
   // Serve this build's own bundle with the one constant flipped. The pattern is the minified
   // `NG_DIGEST_LIVE = false` that follows the tab list; it must match exactly once, or this test is
   // about the shipped constant and would pass on nothing.
