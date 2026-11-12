@@ -22,6 +22,8 @@ import { journey, type Journey } from "../dsl"
  *   6. Over a LIVE roll (Settings reached from a hidden section's message, drawer shut), the box takes its own pause and gives it back:
  *      the clocks hold while it is up and run again once it closes (control).
  *
+ * DRAWN and OWNS are polled for up to 5 s: the modal card enters with a 0.28 s fade (ngCardIn), and a single sample taken as the box
+ * appears reads it half transparent (measured: opacity 0.51). The claim is about the box once it has settled.
  * Presses are a player's: a real touch tap at measured centres at 390 (elementFromPoint must name the control), the mouse at 1440.
  * What the harness does NOT serve: off-origin requests are aborted, and node dossier chunks are "{}" (claim 6 needs only the article
  * sections, which come from the page HTML). @curated: claim 1 only (about 1 s per viewport); the rest runs in e2e-full.
@@ -106,7 +108,8 @@ const roll = (page: Page) => page.evaluate(() => {
   const a = (window as W).__neural
   return { path: location.pathname, title: document.title, pos: a.currentPos ?? null, hold: !!a._legalHold, introDone: !!a.introDone, paused: !!a.paused,
     hand: [...document.querySelectorAll("[data-tech]")].map((e) => e.getAttribute("data-tech")).join("|"), landCard: !!a._landEl,
-    timers: (a._timers || []).map((t: any) => t.remaining), decision: a._decision?.remaining ?? null, box: !!document.querySelector(".ng-modal .ng-legal") && a.modalRef.current.style.display === "flex" }
+    // the roll's own timers: an ignorePause timer (UI, by design) runs behind any pause, so it says nothing about the hold
+    timers: (a._timers || []).filter((t: any) => !t.ignorePause).map((t: any) => t.remaining), decision: a._decision?.remaining ?? null, box: !!document.querySelector(".ng-modal .ng-legal") && a.modalRef.current.style.display === "flex" }
 })
 const sameClocks = (a: { timers: number[], decision: number | null }, b: { timers: number[], decision: number | null }) =>
   a.timers.length === b.timers.length && a.timers.every((t, i) => Math.abs(t - b.timers[i]) <= TICK) && (a.decision == null ? b.decision == null : Math.abs(a.decision - b.decision!) <= TICK)
@@ -122,9 +125,9 @@ async function expectPageBox(page: Page, path: string, label: string) {
   const shortText = await box.locator("[data-legal-short]").evaluate((e) => (e.textContent || "").replace(/\s+/g, " "))
   expect(s.shortBlocks.filter((b) => !shortText.includes(b)), `${label}: the short part is the page's own`).toEqual([])
   expect(s.allBlocks.filter((b) => !text.includes(b)), `${label}: every paragraph and list item of the page is in the box`).toEqual([])
-  expect(await drawn(page, s.shortFirst, BOX(kind) + " [data-legal-short]"), `${label}: "${s.shortFirst}" is drawn`).toBe("")
+  await expect.poll(() => drawn(page, s.shortFirst, BOX(kind) + " [data-legal-short]"), { message: `${label}: "${s.shortFirst}" is drawn`, timeout: 5000 }).toBe("")
   for (const [sel, what] of [["[data-legal-close]", "the ✕"], ["[data-legal-more]", "Extended version"]])
-    expect((await owns(page, BOX(kind) + " " + sel)).why, `${label}: ${what} is on screen and owns its centre`).toBe("")
+    await expect.poll(async () => (await owns(page, BOX(kind) + " " + sel)).why, { message: `${label}: ${what} is on screen and owns its centre`, timeout: 5000 }).toBe("")
   return s
 }
 
@@ -161,12 +164,12 @@ for (const vp of VIEWPORTS) {
       await press(page, j, "[data-legal-more]", vp.touch, "Extended version")
       await expect(ext, "the rest of the page opens in the box").toBeVisible()
       await expect(page.locator("[data-legal-more]")).toHaveAttribute("aria-expanded", "true")
-      expect(await drawn(page, s.restFirst, BOX("privacy") + " [data-legal-ext]"), `the rest starts on screen: "${s.restFirst}"`).toBe("")
-      for (const sel of ["[data-legal-close]", "[data-legal-more]"]) expect((await owns(page, sel)).why, `${sel} still on screen, owning its centre`).toBe("")
+      await expect.poll(() => drawn(page, s.restFirst, BOX("privacy") + " [data-legal-ext]"), { message: `the rest starts on screen: "${s.restFirst}"`, timeout: 5000 }).toBe("")
+      for (const sel of ["[data-legal-close]", "[data-legal-more]"]) await expect.poll(async () => (await owns(page, sel)).why, { message: `${sel} still on screen, owning its centre`, timeout: 5000 }).toBe("")
       await press(page, j, "[data-legal-more]", vp.touch, "Extended version, again")
       await expect(ext, "pressed again, it folds back").toBeHidden()
       await expect(page.locator("[data-legal-more]")).toHaveAttribute("aria-expanded", "false")
-      expect(await drawn(page, s.shortFirst, BOX("privacy") + " [data-legal-short]"), "the short part is back on screen").toBe("")
+      await expect.poll(() => drawn(page, s.shortFirst, BOX("privacy") + " [data-legal-short]"), { message: "the short part is back on screen", timeout: 5000 }).toBe("")
     })
 
     test(`closing the box on arrival starts the game as the home page does, and Back brings the box back (${vp.width}x${vp.height})`, async ({ page }) => {
@@ -213,7 +216,7 @@ test.describe("390x631, a link to a section", () => {
     const s = await served(page, "/privacy")
     expect(s.h2["your-rights"], "premise: the page has that section").toBeTruthy()
     await expect(page.locator(BOX("privacy")), "the box opens extended").toHaveAttribute("data-open", "")
-    expect(await drawn(page, s.h2["your-rights"], BOX("privacy") + " [data-legal-ext]"), `"${s.h2["your-rights"]}" is drawn in the box`).toBe("")
+    await expect.poll(() => drawn(page, s.h2["your-rights"], BOX("privacy") + " [data-legal-ext]"), { message: `"${s.h2["your-rights"]}" is drawn in the box`, timeout: 5000 }).toBe("")
     const inBody = await page.evaluate(() => { const b = document.querySelector("[data-legal-body]")!.getBoundingClientRect(), h = document.querySelector('[data-legal-ext] [data-legal-id="your-rights"]')!.getBoundingClientRect()
       return h.top >= b.top && h.bottom <= b.bottom })
     expect(inBody, "inside the box's own scrolling text").toBe(true)
