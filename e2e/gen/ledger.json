@@ -1773,12 +1773,13 @@
    "L": "white-belt-holder",
    "F": "persistence-reload",
    "B": "idempotence",
-   "invariant": "A passive boot is read-only on the unlock economy: the challenge-evidence reconciliation may write, but every write is a content-fixpoint \u2014 across two preserveStorage reloads the blob's economy subset stays deep-equal to the seed, write churn is bounded (<=1 per idle reload), and updatedAt proves genuine re-serialization.",
+   "invariant": "A passive boot is read-only on the unlock economy in EITHER arrival order of the deck manifest and the curriculum (each order rigged, one test each): boot 1 raises the held belt to blue and saves it at once, with the mark belts.gf in the same write when the manifest is already resident, otherwise unmarked with the mark set live and carried by the next real save (the unload flush; when the tab is killed first, a third test shows the unmarked reloads promote and write nothing and the first in-session save carries it); across two preserveStorage reloads the economy subset stays deep-equal, there is no second belt_promoted, the mark is never re-minted, and writes are exactly 1 (a harness badge) then 0.",
    "origin": "auto",
    "status": "accepted",
    "wave": 4,
    "evidence": {
-    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger",
+    "rewritten": "v1.264.3 (2026-11-12): one test became three, the arrival order rigged in each; the old test lost whenever the curriculum landed first (dev run 43274514779)"
    }
   },
   {

@@ -42,9 +42,7 @@ const setup = async (page: Page) => {
 };
 
 for (const width of [1440, 390]) {
-  // The deploy gate (@curated) runs ONE of these, 390px: the Learning reader's smoke (GATE6, the reviewer's finding 3 on #388).
-  // Both widths run in e2e-full on every PR and every merge to dev; tests/artifacts/deploy_gate.json.
-  test(`${width === 390 ? '@curated ' : ''}Learning is complete, expandable, and readable at ${width}px`, async ({ page }) => {
+  test(`Learning is complete, expandable, and readable at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     const errors: string[] = [];
     page.on("pageerror", e => errors.push(e.message));
@@ -219,7 +217,10 @@ test("all 26 authored Learning articles are reachable with complete bodies", asy
 });
 
 for (const slug of ["BJJ-For-Beginners-Roadmap", "BJJ-Guard-Types-Explained", "BJJ-Position-Hierarchy-Explained"]) {
-  test(`existing ${slug} URL opens its Learning entry`, async ({ page }) => {
+  // The deploy gate (@curated) runs ONE of these, the first slug: the Learning smoke reads a BUILT Learning page here
+  // (v1.264.2, GATE7; the reviewer's new 4 on #392). It replaced the 390px case above, which feeds the reader an in-file
+  // fixture and so proves on a deploy nothing a PR run does not. All cases run in e2e-full; tests/artifacts/deploy_gate.json.
+  test(`${slug === "BJJ-For-Beginners-Roadmap" ? "@curated " : ""}existing ${slug} URL opens its Learning entry`, async ({ page }) => {
     const j = journey(page);
     await j.boot("/Learning/" + slug);
     await expect(page.locator(`[data-reader-ready="true"][data-reader-path="/Learning/${slug}"]`)).toBeVisible();
