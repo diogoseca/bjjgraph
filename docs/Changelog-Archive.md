@@ -29,7 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
-- **v1.262.8** — [Each browser keeps its own roll-ledger code](#v12628--each-browser-keeps-its-own-roll-ledger-code-flow1-and-flow2-2026-11-12)
+- **v1.262.11** — [Each browser keeps its own roll-ledger code](#v126211--each-browser-keeps-its-own-roll-ledger-code-flow1-and-flow2-2026-11-12)
+- **v1.262.9** — [Four journeys wait on their own claims, not on a sleep](#v12629--four-journeys-wait-on-their-own-claims-not-on-a-sleep-flaky1-2026-11-12)
 - **v1.262.7** — [`advanceUntil` asks for its beat in the page](#v12627--advanceuntil-asks-for-its-beat-in-the-page-gate3-2026-11-12)
 - **v1.262.4** — [The harness loads every deck in one trip](#v12624--the-harness-loads-every-deck-in-one-trip-gate2-2026-11-12)
 - **v1.262.3** — [A scroll that reaches for a taken-up question's answers no longer declines it](#v12623--a-scroll-that-reaches-for-a-taken-up-questions-answers-no-longer-declines-it-short1-2026-11-12)
@@ -15719,7 +15720,124 @@ the pump, which this change does not touch, also fell (180.9 -> 158.2 s), so the
 The full core suite and `e2e:gen` run on the
 PR (e2e-full), and its shard logs give the before and after against e2e-full run 43181633418 (#383).
 
-## v1.262.8 — Each browser keeps its own roll-ledger code (FLOW1 and FLOW2, 2026-11-12)
+## v1.262.9 — Four journeys wait on their own claims, not on a sleep (FLAKY1, 2026-11-12)
+
+**Where it comes from.** GATE1 (`reports/gatetime.md`, section 4) found 50 "fixed sleep, then a plain read" sites in the curated specs, eleven of which can lose on a slow runner with the app right. This fixes the four worst the way v1.262.2 fixed the planner retry: a control that makes the test as written lose with the app untouched, an assertion that waits on what its claim needs, then mutants of the app's behaviour. The fifth site, the tightest wall-clock bound (`covered-card`), turned out to rest on an app limit and is recorded at the code, not changed. Spec, archive and version only.
+
+**The controls** (scratch copies of each spec: its own text, unchanged, plus one runner knob; core config, this box, under the lock). Old form = dev's text; new = this change.
+
+| site | control (the app untouched) | old form | new form |
+|---|---|---|---|
+| `option-overflow` :144/:149, the wheel glide | every frame callback delayed 60 ms (about 16 fps) | red 9 of 9 at "the last card is reachable" (112–211 px short) | green 20 of 20, twice |
+| `outcome-on-cards` :193, the rise | the main thread stalled 500 ms just after the cause's first frame (the rise runs on the compositor; the test's reads wait) | red 10 of 10 at "the cause rises" (2.3–3.3 px in its 450 ms) | green 40 of 40 (20 at each width) |
+| the same, probabilistic | 6x CPU throttle from the landing on | red 5 of 17 (twice at "the cause rises"; three times the cause was already gone at the second read) | green 40 of 40, twice |
+| `outcome-on-cards` :196, the removal | every page timer of 1 s or more fires 800 ms late | red 18 of 18 at "the cause is gone by ~1.6 s" | green 40 of 40, twice |
+| `reading-navigation` :307, PageDown | the GPU process stopped for 700 ms after the key, and the dossier answered 600 ms late | red 11 of 11 at the delivery's `toEqual` (scroll 592 → 1296) | green 20 of 20, twice (after one revision, below) |
+| `covered-card` :165/:171, the double tap | 4x and 6x CPU throttle from the landing on | red 4 of 20 at 4x, all at "the second tap still falls inside the gap" (round trips 141–153 ms); 15 of 20 at 6x | NOT CHANGED: a page-timed version was red 11 of 80 at 4x and 16 of 80 at 6x, on the app's own window (below) |
+
+Controls that did NOT break the old forms, so nobody repeats them: #1 under 6x CPU (the glide's frames kept up); #2 with the main thread stalled 500 ms AT the mount (the animation then starts late too, 10 of 10 green); #3 with timers 400 ms late (the late baseline was margin); #4 under 6x and 20x CPU, delayed frames, a 700 ms main-thread stall at the first scroll, `ImpulseScrollAnimations` and `WindowsScrollingPersonality` (the scroll ends about 155 ms after the key either way), and a GPU stall alone of 470, 600 or 2,000 ms (both reads then fell inside it; it needs the late dossier to land the second read after it). A CDP evaluate does not interrupt a long task (1,449 ms round trip behind a 1,500 ms one).
+
+**What each line claimed, and claims now.**
+
+| line | before | now |
+|---|---|---|
+| `option-overflow` :144–145 | past 100 px, 250 ms of Node sleep after a 600 px wheel | past 100 px, polled; within 15 frames of the wheel's own frame (250 ms at 60 fps); the page saw that one wheel |
+| `option-overflow` :148–154 | within 4 px of the end after 12 × 60 ms + 200 ms | the glide is polled until it stops (no frame running, no target pending); within 4 px of the end, and ON it (under 1 px, v1.213.2's landing); within 40 frames of the wheel that sent its target to the end (what the sleeps allowed at 60 fps; it lands in 23–26) |
+| `outcome-on-cards` :193–195 | 4 px higher than a baseline taken a click, a frame pump and four evaluates after the answer, 450 ms of Node sleep later | more than 4 px above the rect it mounted at, once `ngRise`'s own currentTime is 450 ms (a starved page starts the animation late: a 450 ms wall-clock timer from the mount once read 0 px under the 6x throttle) |
+| `outcome-on-cards` :196–198 | no cause and no pop in the DOM 1,600 ms of Node sleep after that baseline | every float the observer saw mount (the cause and at least the pops counted earlier) is disconnected when a 1,600 ms PAGE timer started at its own mount fires (page timers run in deadline order, so the app's 1,450 and 1,250 ms removals always precede it); then none in the DOM |
+| `reading-navigation` :305–307 | `scrollTop > 0` (already true: the answer's scrollIntoView left it at 574) and 400 ms | a `scrollend` after the key at an offset past where the key found the reader, with the reader still there; then the offset is past it |
+
+One wait had to be revised: the first `reading-navigation` form took the first `scrollend` after the key and went red 2 of 20 under the stall. With the compositor stopped, Chromium can end the key's injected scroll gesture before its animation starts and fire a `scrollend` at the start offset, then a second one at the end (3 of 20 in a probe that logged every event).
+
+**Mutants** (patched into the served bundle, minified text, a missing `from` throws):
+
+| mutant | new | old |
+|---|---|---|
+| wheel handler removed | red, "a wheel over the hand scrolls the hand" | red |
+| the v1.213.2 creep (no landing branch) | red, "the glide finishes" | **green** |
+| steps shrink to 2.2% (creeps short) | red, "the glide finishes" | red, 1,242 px short |
+| a glide four times slower that still lands | red, "lands within 40 frames" (98) | red, 189 px short |
+| target 60 px short of the end | red, "reachable" | red |
+| no rise (it still scales in) | red, "the cause rises" (1.36 px) | red |
+| a 3 px rise | red (3.87 px) | red |
+| the cause never removed / 500 ms late / on the game clock | red, "each float is gone 1.6 s after it mounted" | red |
+| pops never removed | red, same | red |
+| pops removed 600 ms late (1,850 ms) | red, same | **green** |
+| PageDown eaten by the reader | red, at the rest wait | **green** |
+| the late dossier resets the reader to the top | red, at the `toEqual` | red |
+| the tap guard off / cut to 150 ms | (page-timed version, not shipped) red, "grades nothing", in the three landing tests | red in the same three (some at the old Node premise, 505–799 ms) |
+
+**Non-kill, recorded in the spec:** the catch's double click (1440) stays green under both guard mutants, in the old form too, although the page record says its second click landed on answer A. Its "grades nothing" does not rest on `_landTapGuard`; not traced.
+
+**`covered-card`: an app limit, so stopped there.** The brief's question was whether its 140 ms bound fails only when the app is wrong; it also fails when the runner is slow (above). But the bound the claim rests on is the guard's own 500 ms window, and the app measures it when the click is handled. A version with every premise read from the page (the second tap aimed `gap` after `_landTakenAt` by the page's clock, a slow round trip only spending the wait; both taps seen, the second on answer A, handled within 500 ms of the stamp) was green unthrottled and killed both guard mutants, yet stayed red 11 of 80 at 4x and 16 of 80 at 6x: the take-up's own work alone ran to 741–914 ms (median 121–325), and the second click was handled 507–1,183 ms after the stamp. No test that sends its taps one after the other can fit inside a window the page has already spent, so the spec keeps dev's lines, with the finding at the code. `_landTapGuard` compares `performance.now()` when the click is HANDLED with the take-up stamp, not the time of the tap. A probe sent a player's two taps 180–350 ms apart over CDP without waiting for the page, as a finger does: under 4–6x CPU the second click was handled 409–1,194 ms after the stamp, 5 of 9 past the 500 ms window, though its input came well inside it. At one point, which since U52 b is no longer answer A at 390, so nothing graded (13 of 13); where the layout does put answer A under a second tap, a slow device can grade it. Comparing the click's `timeStamp` with the take-up event's would hold. Once the guard measures the tap's own time, the page-timed premises can read input times too, and the test stops depending on the page's speed.
+
+**Not in scope, noted:** `outcome-on-cards` :296 ("still clear mid-flight") and :335 ("does not rise") read after fixed sleeps too; both are absence-shaped, and on a page that starts the animation late they can pass before it has begun.
+
+**Runs.** LOCAL, under the build lock (`BUILD_PEAK_MIB=4000`, `TMPDIR=/home/user/tmp-pw`), core config, this box with eight other seats on it. On the final tree (dev `5619059fb`, v1.262.7, merged; bundle rebuilt with `dev:neural:app` at 1.262.9): the four spec files in full, 3 + 16 + 12 + 21 of 52; the three changed tests `--repeat-each 20` unthrottled, 20 + 40 + 20 of 80; each new form `--repeat-each 20` under the control that broke its old form (above), and each old form 3 to 5 times under it. Earlier, on dev `efc021a84` and `3b0d973eb`: the mutant table, the first 20-fold arms, the probes. The controls are scratch copies generated from each spec's own text plus a runner knob (CDP `Emulation.setCPUThrottlingRate`, a delayed `requestAnimationFrame`, a late `setTimeout`, the GPU process stopped by its PID from `SystemInfo.getProcessInfo`, a held route, a main-thread stall), and the mutants are string patches of the served bundle; none is in the tree. The full core suite and `e2e:gen` run on the PR (e2e-full). No gate, baseline or ceiling moved; no `@curated` tag added or removed; spec-only, so no build fingerprint row moves.
+
+## v1.262.10 — The first-hand baseline is checkpointed at dev v1.262.7's own level (PAYBASE1, 2026-11-12)
+
+**Why.** `first_hand_gzip_bytes`' delta cap (6,000 B, measured on the first-hand CORE) reads growth since the last
+ACCEPTED baseline: 365,296 B, v1.221.0 (3d1b7552a), 7 Oct. Dev 5619059fb (v1.262.7) measured 371,107 B on its own
+deploy (Deploy to Preview run 43196894885, verdict warn): +5,811 B, 189 B of room. PR #384 (+572 B on top of dev)
+went red on `payload-first-hand.spec.ts:117` at +6,383 B, and so would the next PR of any size. The owner's
+standing rule for exactly this (5 Nov, PR #336; precedents 35bdbf6ba, fa246f4bd): the baseline is checkpointed at
+DEV's own level, never at a branch's. Target 365,000, action 465,000 and delta_cap 6,000 do not move; nor do the
+eager set's baseline or the deferred ceiling.
+
+**Reproduced, to the byte.** `payload-first-hand.spec.ts` on this tree's own emit and bundle (dev 5619059fb's
+sources), over a borrowed Quartz page build (v1.256.2): start K-Guard Top, 11 requests, core 371,107 B, as the
+deploy measured. Of the eleven requests only `/postscript.js` differs in bytes (77,140 raw here, 79,594 on the
+deploy: the PostHog snippet the deploy bakes in, +1,063 B gzip), and it is excluded from the core; the other ten
+sum to the same raw bytes as the deploy's. The `?v=1.256.2` on `neural.js` and `neural.css` in the committed
+`tests/artifacts/first_hand_payload.json` is the borrowed page's query string; the bytes served are this tree's.
+
+**Accepted with the script** (`check_payload_budget.py --accept-baseline first_hand_gzip_bytes --reason …`), before
+the version bump, so it stamped `v1.262.7 (5619059fb)` itself; nothing was corrected by hand.
+
+**Synced with dev v1.262.9 (fa41f1523) before landing, the checkpoint kept at v1.262.7** (the orchestrator's call,
+PAYBASE2): v1.262.9 changed test files only, so v1.262.7's level IS dev's. Measured here on v1.262.9's own tree
+(1.262.9 baked into the bundle): core 371,107 B again, to the byte. This PR's own bundle bakes 1.262.10, one
+character longer in six places: 371,110 B locally, +3 B against the new baseline, its own visible delta. The
+version is 1.262.10 because v1.262.8 was this PR's number before the sync and v1.262.9 is dev's.
+
+**Where the 5,811 B came from**, gzip -9 per file, as the spec gzips. The neural files were rebuilt from clean
+exports of dev at each checkpoint (emitter, MDP shards, bundle). The v1.221.0 row's rebuild of 3c1e3cc9b plus the
+v1.216.0 page bytes (`/` 7,594, `index.css` 10,113, `prescript.js` 1,297) sums to exactly 365,296 B, so the start
+point is the baseline as measured. "data" is `graph-data.json` + `curriculum.json` + `flashcards/_index.json`.
+
+| dev, by period | neural.js | neural.css | data | net | what moved it |
+|---|---|---|---|---|---|
+| 7-19 Oct, v1.222.0-v1.227.8 | +848 | −82 | −73 | +693 | landing-deck answers (#272, +409 on its own PR), the reading-first way, mastery gold |
+| 21-28 Oct, v1.229.0-v1.240.1 | −1,547 | +1,115 | −3,318 | −3,750 | the graph restructure (#315), −3,174 of the data; article sections (#307), the directed opening |
+| 30 Oct-6 Nov, v1.241.0-v1.251.1 | +2,661 | +657 | +2,628 | +5,946 | the 52 missing moves (#343) +1,727 and Demi Guard (#328) +787 of the data; the drawer, Practice's new look, the video theater |
+| 9-10 Nov, v1.251.2-v1.255.2 | −3,999 | +796 | 0 | −3,203 | the node dossier retired (v1.255.1, −6,405); hidden moves (v1.255.0, +2,491 eager) |
+| 11-12 Nov, v1.256.0-v1.262.7 | +6,247 | +76 | 0 | +6,323 | ranked search (v1.257.0, +2,871); moves mastery stage 2, guest practice |
+| the home page `/` | | | | −198 | `index.css` and `prescript.js` unchanged |
+| **v1.221.0 -> v1.262.7** | **+4,210** | **+2,562** | **−763** | **+5,811** | core 365,296 -> 371,107 |
+
+The last two days alone added more than the cap (+6,323 B over 21 versions, none over it on its own); the dossier
+retirement on 10 Nov is what kept the total under it until today. The whole first load is 405,219 B gzip on the
+deploy (404,156 locally, the PostHog snippet the difference): 40,219 B over the 365,000 B target, 59,781 B under
+the 465,000 B action line. Checkpoints: 557c57d14, f63049013, 4b84d6cd3, 6a5bfa27f, then 5619059fb. The data
+column's three named merges were measured by emitting the tree just before and just after each (c87c80401 ->
+753b26df8, f63049013 -> 8e1b9845d, 917191cc9 -> c108e4646); the app work is named from what touched
+`app.src.jsx` and the stylesheets in each span, with a figure only where its own PR recorded one.
+
+**And the deferred ceiling, +4 B, in its own commit** (PAYBASE3, the orchestrator's authorisation under the owner's
+U134 b). The merged build went red on `deferred payloads (raw): 510,981 B exceeds ceiling 510,977 B`: dev's deferred
+set had stood exactly at its ceiling since v1.259.0, and "1.262.10" is one character longer than "1.262.9". Built
+both ways from the same sources, `game-study.js`, `game-study.worker.js`, `game-values.js` and `settings-ui.js` each
+grow by 1 B, and each is byte-identical to the 1.262.9 build once the version is swapped back; no other deferred file
+moves. The ceiling moves to exactly 510,981 B (`budget_site.json` and `NEURAL_TARGET`), leaving 1,019 B of the owner's
+512,000 B; at v1.263.0 the set is 4 B smaller again. `check_payload_budget.py` exits 0 on this build.
+
+**Runs.** LOCAL, under the build lock: the bundle (`dev:neural:app`) and `payload-first-hand.spec.ts` on v1.262.7,
+on v1.262.9 and at 1.262.10 (1 of 1 each), the five sandbox rebuilds and nine emit-only ones. `npm run ci:validate`
+on the merged tree. The PR's e2e-full runs the full core suite and `e2e:gen`, with `payload-first-hand` a few bytes
+over the new baseline (the version string).
+
+## v1.262.11 — Each browser keeps its own roll-ledger code (FLOW1 and FLOW2, 2026-11-12)
 
 **The fault** (another seat's M14, 11 Nov; verified from the code first). The roll ledger (v1.137.0,
 `flow[code][state][move] = [tries, worked, lastDay]`) is a G-counter: one partition per writer, MAX per partition on
