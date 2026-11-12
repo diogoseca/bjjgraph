@@ -21,7 +21,7 @@
 //      an offline or failed first pull joins, marks and pushes nothing of the guest's (12, red on a0a8c6cfd); and a
 //      guest's later srs miss meeting a cloud row lowers no figure, though the card comes due sooner (13, stated).
 //   14-18. REVIEW375 (the second reader of PR #375): the reader's figure-level case on the real wire, both rulesets (14);
-//      the roll ledger at its 6-partition cap and below it (15); a re-join with the mark, then the local copy, lost (16);
+//      the roll ledger at its cap (6 then, 32 since v1.262.11) and below it (15); a re-join with the mark, then the local copy, lost (16);
 //      an existing player restored at boot (17); the explicit legacy import through the same rule, the guest kind gone (18).
 //   15, 19. FOLD2 (the reader's re-check of cb762c8b7): the first ledger fix folded the guest's rows into "the account's
 //      newest partition", chosen again at every join, so when the newest changed between two joins of one guest copy the
@@ -471,32 +471,38 @@ test("14. REVIEW375 M1, figures on the real wire: a returning player's known mov
   }
 });
 
+// minted roll-ledger ids (v1.262.11, `b` + 16 hex): the cap counts only these (progress-owner `ngFlowCapped`)
+const ID = (i) => "b" + i.toString(16).padStart(16, "0"), GID = ID(0xfeed);
+
 test("15. REVIEW375 F1 + FOLD2: the guest's roll ledger never evicts the account's and is never counted twice (at the cap it is not joined; below it, it joins as itself)", async () => {
-  assert.equal(M.Component.prototype.NG_FLOW_DEVICES, 6, "the rule's default cap is the app's NG_FLOW_DEVICES");
+  // v1.262.11 (FLOW2): the cap is 32 (was 6) and counts only partitions minted since then (`b` + 16 hex; an older id
+  // joins outside it), so the fixtures use minted ids and the cap itself, and the claims are unchanged
+  const CAP = M.Component.prototype.NG_FLOW_DEVICES;
+  assert.equal(CAP, 32, "the rule's default cap is the app's NG_FLOW_DEVICES (NG_FLOW_CAP)");
   const rolls = (flow) => { let n = 0; for (const d in flow || {}) for (const pk in flow[d]) for (const o in flow[d][pk]) n += flow[d][pk][o][0]; return n; };
-  const devices = (k) => Object.fromEntries(Array.from({ length: k }, (_, i) => ["dev" + i, { "Mount|Top": { "17": [10, 5, DAY - 10 - i] } }]));
-  for (const k of [6, 2]) {                                           // at the cap, and with room
+  const devices = (k) => Object.fromEntries(Array.from({ length: k }, (_, i) => [ID(i), { "Mount|Top": { "17": [10, 5, DAY - 10 - i] } }]));
+  for (const k of [CAP, 2]) {                                           // at the cap, and with room
     const cloud = new Map([["A", { v: 2, flow: devices(k), prep: { "Side Control|Top": 1 } }]]);
     const h = harness(memory(), cloud);
     await h.boot();
-    const g = h.get(); g.flow = { dGUEST: { "Mount|Top": { "17": [3, 1, DAY], "23": [2, 2, DAY] } } }; g.prep["Mount|Top"] = 1; g._flushSave();
+    const g = h.get(); g.flow = { [GID]: { "Mount|Top": { "17": [3, 1, DAY], "23": [2, 2, DAY] } } }; g.prep["Mount|Top"] = 1; g._flushSave();
     const a = await h.signIn("A"), joined = h.host.cloudSnapshot(a).flow;
-    for (let i = 0; i < k; i++) assert.deepEqual(joined["dev" + i], devices(k)["dev" + i], "k=" + k + ": the account's partition dev" + i + " is kept, unchanged");
-    assert.ok(Object.keys(joined).length <= 6, "k=" + k + ": within the cap");
-    if (k === 6) {
-      assert.equal(joined.dGUEST, undefined, "at the cap the guest's partition is not joined");
-      assert.equal(rolls(joined), 60, "the account's 60 rolls stay, and the guest's are not counted (an undercount, never a double)");
+    for (let i = 0; i < k; i++) assert.deepEqual(joined[ID(i)], devices(k)[ID(i)], "k=" + k + ": the account's partition " + ID(i) + " is kept, unchanged");
+    assert.ok(Object.keys(joined).length <= CAP, "k=" + k + ": within the cap");
+    if (k === CAP) {
+      assert.equal(joined[GID], undefined, "at the cap the guest's partition is not joined");
+      assert.equal(rolls(joined), CAP * 10, "the account's " + CAP * 10 + " rolls stay, and the guest's are not counted (an undercount, never a double)");
     } else {
-      assert.deepEqual(joined.dGUEST, { "Mount|Top": { "17": [3, 1, DAY], "23": [2, 2, DAY] } }, "below the cap it joins as itself");
+      assert.deepEqual(joined[GID], { "Mount|Top": { "17": [3, 1, DAY], "23": [2, 2, DAY] } }, "below the cap it joins as itself");
       assert.equal(rolls(joined), 20 + 5, "and the totals add exactly");
     }
     cloud.set("A", clone(h.host.cloudSnapshot(a)));                   // what was pushed
     // THE READER'S CASE: between two joins another device of the account rolls today, so the newest partition changes
-    cloud.get("A").flow.dev1["Mount|Top"]["17"] = [11, 6, DAY];
+    cloud.get("A").flow[ID(1)]["Mount|Top"]["17"] = [11, 6, DAY];
     h.mem.rows.delete(markOf(A)); h.signOut(); const b = await h.signIn("A");
     const again = h.host.cloudSnapshot(b).flow;
     assert.equal(rolls(again), rolls(joined) + 1, "k=" + k + ": a re-join adds only the other device's one new roll, never the guest's again");
-    assert.ok(!again.dGUEST || JSON.stringify(again.dGUEST) === JSON.stringify(joined.dGUEST), "k=" + k + ": the guest's partition, if joined, is itself, once");
+    assert.ok(!again[GID] || JSON.stringify(again[GID]) === JSON.stringify(joined[GID]), "k=" + k + ": the guest's partition, if joined, is itself, once");
   }
 });
 
@@ -555,28 +561,29 @@ test("18. REVIEW375 F5: the data layer's explicit legacy import goes through the
 
 test("19. FOLD2 (the reader's adv_5_fold): at the ledger cap, whatever becomes the newest partition between two joins, the guest's rolls are never counted twice", async () => {
   const tally = (flow, pk, o) => { let n = 0, k = 0; for (const d in flow || {}) { const r = flow[d] && flow[d][pk] && flow[d][pk][o]; if (r) { n += r[0]; k += r[1]; } } return [n, k]; };
-  const six = () => { const f = {}; for (let i = 0; i < 6; i++) f["d" + i] = { "Side|Top": { "9": [10, 5, DAY - 20 + (i === 0 ? 10 : 0) - i] } }; return f; };   // d0 newest
-  const G1 = { v: 2, prep: { "Mount|Top": 1 }, flow: { dG: { "Mount|Top": { "17": [5, 2, DAY - 1] } } }, settings: { flowDevice: "dG" }, settingsAt: { flowDevice: 1 } };
-  const G2flow = { dG: { "Mount|Top": { "17": [6, 2, DAY] } } };       // the guest played once more
+  const CAP = M.Component.prototype.NG_FLOW_DEVICES;   // v1.262.11: 32, and minted ids (see 15)
+  const full = () => { const f = {}; for (let i = 0; i < CAP; i++) f[ID(i)] = { "Side|Top": { "9": [10, 5, DAY - 20 + (i === 0 ? 10 : 0) - i] } }; return f; };   // ID(0) newest
+  const G1 = { v: 2, prep: { "Mount|Top": 1 }, flow: { [GID]: { "Mount|Top": { "17": [5, 2, DAY - 1] } } }, settings: { flowDevice: "dG" }, settingsAt: { flowDevice: 1 } };
+  const G2flow = { [GID]: { "Mount|Top": { "17": [6, 2, DAY] } } };       // the guest played once more
   const cases = [
     { name: "A: another device becomes the newest; the guest plays once more", playMore: true },
     { name: "B: another device becomes the newest; the mark is lost (the same guest copy)", playMore: false },
   ];
   for (const c of cases) {
     const mem = memory(); mem.setItem(guestKey, envelope(GUEST, G1));
-    const cloud = new Map([["A", { v: 2, flow: six(), prep: { "Side|Top": 3 } }]]);
+    const cloud = new Map([["A", { v: 2, flow: full(), prep: { "Side|Top": 3 } }]]);
     const h = harness(mem, cloud);
     await h.boot(); await h.signIn("A"); await wait(700);
     const t1 = tally(cloud.get("A").flow, "Mount|Top", "17");
-    cloud.get("A").flow.d3["Side|Top"]["9"] = [11, 6, DAY];          // another device rolls today: it becomes the newest
+    cloud.get("A").flow[ID(3)]["Side|Top"]["9"] = [11, 6, DAY];          // another device rolls today: it becomes the newest
     h.signOut();
     if (c.playMore) { const g = h.get(); g.flow = clone(G2flow); g._flowVer = (g._flowVer || 0) + 1; g._flushSave(); }
     else h.mem.rows.delete(markOf(A));
     await h.signIn("A"); await wait(700);
-    const flow = cloud.get("A").flow, t2 = tally(flow, "Mount|Top", "17"), real = (c.playMore ? G2flow : G1.flow).dG["Mount|Top"]["17"];
+    const flow = cloud.get("A").flow, t2 = tally(flow, "Mount|Top", "17"), real = (c.playMore ? G2flow : G1.flow)[GID]["Mount|Top"]["17"];
     assert.ok(t1[0] <= 5 && t2[0] <= real[0], c.name + ": the guest's " + real[0] + " real rolls read " + t2[0] + " (after join 1: " + t1[0] + "): never more");
-    for (let i = 0; i < 6; i++) assert.ok(flow["d" + i], c.name + ": the account's partition d" + i + " is kept");
-    assert.deepEqual(flow.d3["Side|Top"]["9"], [11, 6, DAY], c.name + ": the other device's tally is not lowered");
+    for (let i = 0; i < CAP; i++) assert.ok(flow[ID(i)], c.name + ": the account's partition " + ID(i) + " is kept");
+    assert.deepEqual(flow[ID(3)]["Side|Top"]["9"], [11, 6, DAY], c.name + ": the other device's tally is not lowered");
     assert.equal(h.said.length, 1, c.name + ": the line is said once (join 1 brought the guest's answers)");
   }
 });
