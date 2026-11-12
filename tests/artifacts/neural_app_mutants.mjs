@@ -257,8 +257,11 @@ const controls = [
     'Previous abuts the face', [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% + 8px)}']]],
   ['cardwidth-glyph-in-target', 'card-section.spec.ts', 'section spans.*390x631', [],
     "Previous's glyph is centred in its lane", [['.ng-landnav svg{translate:6px}', '.ng-landnav svg{translate:0}']]],
+  // WIDTH2 (U152 b): at 768 the arrows stand outside the face; the same two rules hold there.
   ['cardwidth-next-glyph-in-target', 'card-section.spec.ts', 'section spans.*768x1024', [],
-    "Next's glyph is centred in its lane", [['.ng-landnav [data-land-next] svg{translate:-6px}', '.ng-landnav [data-land-next] svg{translate:6px}']]],
+    "Next's glyph stands 16px from the face", [['.ng-landnav [data-land-next] svg{translate:-6px}', '.ng-landnav [data-land-next] svg{translate:6px}']]],
+  ['cardwidth-b-gap-back', 'card-section.spec.ts', 'section spans.*768x1024', [],
+    'Previous abuts the face', [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% + 8px)}']]],
   // The two strict inequalities landcard-deck.spec.ts relaxed to >= / <= (the targets abut the face now) still fail on a target over it.
   ['cardwidth-next-over-face', 'landcard-deck.spec.ts', '390px chevrons are clickable', [],
     538, [['.ng-landnav [data-land-next]{left:100%}', '.ng-landnav [data-land-next]{left:calc(100% - 8px)}']]],

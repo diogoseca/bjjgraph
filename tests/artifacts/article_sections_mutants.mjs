@@ -528,12 +528,17 @@ const mutants = [
   // U110 a: the Moves row takes the column wherever the stacked box binds, 600 to 640px included (cobbler's check, 2026-11-09).
   ['u110-tray-phone-flush', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'this.trayFlush = W > 640 || free.width >= 600', 'this.trayFlush = W > 640')],
   // CARDWIDTH (owner, 2026-11-12, v1.263.1): the card's section spans the Moves row's box, the face less a 32px lane per arrow.
-  ['cardwidth-old-face', 'card-section.spec.ts', 'section spans.*390x631', s => replace(s, 'if (card) style(card, "width", column ? asking ? tease : column - 2 * arrowLane : asking ? Math.min(cap || 520, free.width - 32)\n        : (flush ? grid : W - 2 * parseFloat(getComputedStyle(row).paddingLeft)) - 2 * arrowLane, "important");', 'if (card) style(card, "width", Math.min(column ? asking ? tease : column - 52 : cap || (arrows ? 560 : 520), free.width - (arrows ? 104 : 32)), "important");')],
+  ['cardwidth-old-face', 'card-section.spec.ts', 'section spans.*390x631', s => replace(s, 'if (card) style(card, "width", column ? asking ? tease : column - arrowLanes : asking ? Math.min(cap || 520, free.width - 32) : span - arrowLanes, "important");', 'if (card) style(card, "width", Math.min(column ? asking ? tease : column - 52 : cap || (arrows ? 560 : 520), free.width - (arrows ? 104 : 32)), "important");')],
   ['cardwidth-section-free', 'card-section.spec.ts', 'section spans.*390x844', s => replace(s, 'W - 2 * parseFloat(getComputedStyle(row).paddingLeft)', 'free.width - 32')],
-  ['cardwidth-tablet-lanes-lost', 'card-section.spec.ts', 'section spans.*768x1024', s => replace(s, 'arrowLane = arrows ? 32 : 0;', 'arrowLane = arrows && !flush ? 32 : 0;')],
-  ['cardwidth-column-offset-lost', 'card-section.spec.ts', 'section spans.*1440x900', s => replace(s, 'if (column) cardX = free.center - grid / 2 + arrowLane;', 'if (column) cardX = free.center - grid / 2;')],
+  // WIDTH2 (U152 b): outside where both margins hold a target, from 600px free up to the columns; each switch pinned from both sides.
+  // (cardwidth-tablet-lanes-lost RETIRED with its subject: at 768 the lanes are gone by design now.)
+  ['cardwidth-b-lost', 'card-section.spec.ts', 'outside the face \\(768x1024', s => replace(s, 'const arrowLanes = arrows && (column || free.width - span < 88) ? 64 : 0;', 'const arrowLanes = arrows ? 64 : 0;')],
+  ['cardwidth-b-in-columns', 'card-section.spec.ts', 'in their lanes \\(1024x768', s => replace(s, 'const arrowLanes = arrows && (column || free.width - span < 88) ? 64 : 0;', 'const arrowLanes = arrows && free.width - span < 88 ? 64 : 0;')],
+  ['cardwidth-b-margin-too-strict', 'card-section.spec.ts', 'outside the face \\(600x760', s => replace(s, 'const arrowLanes = arrows && (column || free.width - span < 88) ? 64 : 0;', 'const arrowLanes = arrows && (column || free.width - span < 120) ? 64 : 0;')],
+  ['cardwidth-b-starts-early', 'card-section.spec.ts', 'in their lanes \\(599x760', s => replace(s, 'this.trayFlush = W > 640 || free.width >= 600', 'this.trayFlush = W > 640 || free.width >= 590')],
+  ['cardwidth-column-offset-lost', 'card-section.spec.ts', 'section spans.*1440x900', s => replace(s, 'if (column) cardX = free.center - grid / 2 + arrowLanes / 2;', 'if (column) cardX = free.center - grid / 2;')],
   ['cardwidth-nodeck-old', 'card-section.spec.ts', 'no deck.*390x844', s => replace(s, ' : asking ? Math.min(cap || 520, free.width - 32)', ' : asking || !arrows ? Math.min(cap || 520, free.width - 32)')],
-  ['cardwidth-nodeck-column-old', 'card-section.spec.ts', 'no deck.*1440x900', s => replace(s, 'column ? asking ? tease : column - 2 * arrowLane :', 'column ? asking ? tease : column - 52 :')],
+  ['cardwidth-nodeck-column-old', 'card-section.spec.ts', 'no deck.*1440x900', s => replace(s, 'column ? asking ? tease : column - arrowLanes :', 'column ? asking ? tease : column - 52 :')],
   // #346's review, finding 6: stacked, the article's ✕ ends on the column's right edge.
   ['u110-cap-past-columns', 'stacked-width.spec.ts', 'at 1,024px the columns begin', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = free.width < 1100 && 496;')],
   // v1.254.0: a reader button's pointer click counts only if its own pointerdown was on it, so the click ending a background tap on

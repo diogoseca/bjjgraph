@@ -9,19 +9,24 @@ import { journey } from "../dsl"
  * WAS (to v1.262.10): the open face was the column less 104px and each deck arrow stood in a 52px lane OUTSIDE it, 8px clear. At 390 the
  * face ran 52-338 under a Moves row whose cards start at 12, its arrows on the screen's edges (0-44, 346-390); at 768 the face was the
  * row's 496px and its arrows hung outside the row; at 1440, beside the index, Previous was stacked over Next in the right lane.
- * NOW (variant a): the card's SECTION, the face and its two arrows, spans the Moves row's own box: the row less its phone gutter under
- * 600px free, the grid where the row is flush, the left column in columns. The face takes all of it but one 32px lane per arrow; each
- * arrow's 44px target abuts the face and reaches 12px past the section's edge; its glyph stands in the middle of its lane. With no deck,
- * the face alone spans the section. (reader.src.js, `arrowLane`; helmet.html, `.ng-landnav`.)
+ * NOW: the card's SECTION, the face and its two arrows, spans the Moves row's own box: the row less its phone gutter under 600px free,
+ * the grid where the row is flush, the left column in columns. INSIDE (variant a: phones, and the columns): the face takes all of it but
+ * one 32px lane per arrow; each arrow's 44px target abuts the face and reaches 12px past the section's edge; its glyph stands in the
+ * middle of its lane. OUTSIDE (WIDTH2, U152 b, built while the owner looks: from 600px free up to the columns, where both margins hold a
+ * 44px target): the face IS the section, and each target abuts it from outside, the glyph the same 16px from the face. With no deck,
+ * the face alone spans the section either way. (reader.src.js, `arrowLanes`; helmet.html, `.ng-landnav`.)
  *
- * THE CLAIMS, at 390x844, 390x631 (the real p10 phone), 574x760, 768x1024 and 1440x900, each box read from the page, never recomputed:
- *   1. the face stands one lane in from each edge of the section, the same lane on both sides: 32px, the 44px target less the 12px it
- *      reaches past the section's edge;
+ * THE CLAIMS, at 390x844, 390x631 (the real p10 phone), 574x760, 768x1024 and 1440x900, and one width each side of each switch
+ * (599 | 600: the row turns flush; 1023 | 1024: the columns begin), each box read from the page, never recomputed:
+ *   1. INSIDE: the face stands one lane in from each edge of the section, the same lane on both sides: 32px, the 44px target less the
+ *      12px it reaches past the section's edge. OUTSIDE: the face is the section, edge for edge, and each margin holds a target;
  *   2. each arrow's target is 44 x 44, abuts the face, lies on screen and within the face's height (so it stands beside the face and
  *      never in the Moves band above it);
- *   3. each glyph's centre is the middle of its lane, between the section's edge and the face;
- *   4. every point of a target is the arrow's, its reach past the section included, and 1px inside the face's edge is the face's;
- *      Next pages by mouse at its centre, and Previous pages back pressed in its reach (by mouse; by touch at 390x844 and 390x631);
+ *   3. INSIDE: each glyph's centre is the middle of its lane, between the section's edge and the face. OUTSIDE: 16px from the face, as
+ *      inside;
+ *   4. every point of a target is the arrow's (inside, its reach past the section included), and 1px inside the face's edge is the
+ *      face's; Next pages by mouse at its centre, and Previous pages back pressed in its outer part (by mouse; by touch at 390x844 and
+ *      390x631);
  *   5. no deck (questions off): the face alone spans the section.
  * THE SECTION, measured: stacked, the Moves row's box less its computed padding; in columns, the grid's left edge to the film's width
  * past it (the two columns are one width, `mediaWidth` is `column`).
@@ -31,12 +36,17 @@ import { journey } from "../dsl"
  * Red-proof is recorded at the foot of this file.
  */
 
+// `outside` is the claim: which side of the face the arrows stand, at this size.
 const SIZES = [
-  { width: 390, height: 844, touch: true },
-  { width: 390, height: 631, touch: true },
-  { width: 574, height: 760, touch: false },
-  { width: 768, height: 1024, touch: false },
-  { width: 1440, height: 900, touch: false },
+  { width: 390, height: 844, touch: true, outside: false },
+  { width: 390, height: 631, touch: true, outside: false },
+  { width: 574, height: 760, touch: false, outside: false },
+  { width: 599, height: 760, touch: false, outside: false },
+  { width: 600, height: 760, touch: false, outside: true },
+  { width: 768, height: 1024, touch: false, outside: true },
+  { width: 1023, height: 768, touch: false, outside: true },
+  { width: 1024, height: 768, touch: false, outside: false },
+  { width: 1440, height: 900, touch: false, outside: false },
 ]
 
 const realChunks = async (page: Page) => { await page.route("**/static/neural/content/*.json", r => r.continue()) }
@@ -89,7 +99,7 @@ for (const size of SIZES) {
   test.describe(`${size.width}x${size.height}`, () => {
     test.use(size.touch ? { viewport: { width: size.width, height: size.height }, hasTouch: true, isMobile: true } : { viewport: { width: size.width, height: size.height } })
 
-    test(`CARDWIDTH: the card's section spans the Moves row's box, its arrows tight in their lanes (${size.width}x${size.height})`, async ({ page }) => {
+    test(`CARDWIDTH: the card's section spans the Moves row's box, its arrows tight ${size.outside ? "outside the face" : "in their lanes"} (${size.width}x${size.height})`, async ({ page }) => {
       const j = await opened(page)
       const g = await geometry(page)
       expect(g.layout, "premise: the film is served and placed").toBe(size.width >= 1024 ? "side-by-side" : "stacked")
@@ -97,10 +107,15 @@ for (const size of SIZES) {
       const { section: s, face: f, prev: p, next: n } = g
       expect(f && p && n && g.prevGlyph && g.nextGlyph, "premise: the face, both arrows and both glyphs are painted").toBeTruthy()
 
-      // 1. One lane each side, 32px: the face takes the section less the two lanes.
+      // 1. INSIDE, one lane each side, 32px: the face takes the section less the two lanes. OUTSIDE, the face is the section.
       const left = f!.l - s.l, right = s.r - f!.r
-      expect(Math.abs(left - right), `the face is centred in the section [${s.l}, ${s.r}]: lanes ${left} / ${right}`).toBeLessThanOrEqual(0.5)
-      expect(left, `each lane is 32px, the target less its 12px reach (face ${f!.l}..${f!.r} in ${s.l}..${s.r})`).toBeCloseTo(32, 0)
+      if (size.outside) {
+        expect([left, right].map(x => Math.round(x)), `the face is the section, edge for edge (face ${f!.l}..${f!.r} in ${s.l}..${s.r})`).toEqual([0, 0])
+        expect(Math.min(s.l, g.W - s.r), `premise: each margin beside the section holds a 44px target (${s.l} / ${g.W - s.r})`).toBeGreaterThanOrEqual(44)
+      } else {
+        expect(Math.abs(left - right), `the face is centred in the section [${s.l}, ${s.r}]: lanes ${left} / ${right}`).toBeLessThanOrEqual(0.5)
+        expect(left, `each lane is 32px, the target less its 12px reach (face ${f!.l}..${f!.r} in ${s.l}..${s.r})`).toBeCloseTo(32, 0)
+      }
 
       // 2. The targets: 44 x 44, abutting the face, on screen, within the face's height.
       for (const [name, t] of [["Previous", p!], ["Next", n!]] as const) {
@@ -113,13 +128,18 @@ for (const size of SIZES) {
       expect(Math.abs(n!.l - f!.r), `Next abuts the face (${n!.l} / ${f!.r})`).toBeLessThanOrEqual(0.5)
       expect(p!.l, "Previous is on screen").toBeGreaterThanOrEqual(-0.5)
       expect(n!.r, "Next is on screen").toBeLessThanOrEqual(g.W + 0.5)
-      expect(s.l - p!.l, "Previous reaches 12px past the section's edge").toBeCloseTo(12, 0)
-      expect(n!.r - s.r, "Next reaches 12px past the section's edge").toBeCloseTo(12, 0)
-
-      // 3. Each glyph stands in the middle of its lane.
       const mid = (b: Box) => (b.l + b.r) / 2
-      expect(Math.abs(mid(g.prevGlyph!) - (s.l + f!.l) / 2), `Previous's glyph is centred in its lane (${mid(g.prevGlyph!)} / ${(s.l + f!.l) / 2})`).toBeLessThanOrEqual(0.5)
-      expect(Math.abs(mid(g.nextGlyph!) - (f!.r + s.r) / 2), `Next's glyph is centred in its lane (${mid(g.nextGlyph!)} / ${(f!.r + s.r) / 2})`).toBeLessThanOrEqual(0.5)
+      if (size.outside) {
+        // 3. OUTSIDE: each glyph 16px from the face, as it stands in a phone's lane.
+        expect(f!.l - mid(g.prevGlyph!), `Previous's glyph stands 16px from the face (${mid(g.prevGlyph!)} / ${f!.l})`).toBeCloseTo(16, 0)
+        expect(mid(g.nextGlyph!) - f!.r, `Next's glyph stands 16px from the face (${mid(g.nextGlyph!)} / ${f!.r})`).toBeCloseTo(16, 0)
+      } else {
+        expect(s.l - p!.l, "Previous reaches 12px past the section's edge").toBeCloseTo(12, 0)
+        expect(n!.r - s.r, "Next reaches 12px past the section's edge").toBeCloseTo(12, 0)
+        // 3. INSIDE: each glyph stands in the middle of its lane.
+        expect(Math.abs(mid(g.prevGlyph!) - (s.l + f!.l) / 2), `Previous's glyph is centred in its lane (${mid(g.prevGlyph!)} / ${(s.l + f!.l) / 2})`).toBeLessThanOrEqual(0.5)
+        expect(Math.abs(mid(g.nextGlyph!) - (f!.r + s.r) / 2), `Next's glyph is centred in its lane (${mid(g.nextGlyph!)} / ${(f!.r + s.r) / 2})`).toBeLessThanOrEqual(0.5)
+      }
 
       // 4. Presses: every point of each target is the arrow's, 1px inside the face's edge is the face's, the moves keep their card.
       const grid = (t: Box): [number, number][] => [t.l + 1, t.l + 6, (t.l + t.r) / 2, t.r - 6, t.r - 1].flatMap(x => [t.t + 1, (t.t + t.b) / 2, t.b - 1].map(y => [x, y] as [number, number]))
@@ -133,9 +153,9 @@ for (const size of SIZES) {
       await expect(page.locator("[data-land-count]"), "Next pages the deck").toHaveText(`2/${total}`)
       await j.readerLayoutSettled()
       const back = (await geometry(page)).prev!, reach: [number, number] = [back.l + 4, (back.t + back.b) / 2]
-      expect(await owners(page, "[data-land-prev]", [reach]), "Previous owns its reach past the section's edge").toEqual([])
+      expect(await owners(page, "[data-land-prev]", [reach]), "Previous owns its outer part (inside, its reach past the section's edge)").toEqual([])
       if (size.touch) await page.touchscreen.tap(...reach); else await page.mouse.click(...reach)
-      await expect(page.locator("[data-land-count]"), `Previous pages back, ${size.touch ? "tapped" : "clicked"} in its reach`).toHaveText(`1/${total}`)
+      await expect(page.locator("[data-land-count]"), `Previous pages back, ${size.touch ? "tapped" : "clicked"} in its outer part`).toHaveText(`1/${total}`)
     })
 
     test(`CARDWIDTH: with no deck the face alone spans the section (${size.width}x${size.height})`, async ({ page }) => {

@@ -1441,7 +1441,11 @@ class Reader {
       if (game.dataset.mediaLayout !== mediaLayout) game.dataset.mediaLayout = mediaLayout;
       // U110 a: the Moves row shares the column's edges wherever the stacked box binds, from 600px free (the cap), so on a
       // phone-sized screen from 600 to 640px too. Under 600px a phone keeps its full-width tray.
-      const flush = this.trayFlush = W > 640 || free.width >= 600, arrowLane = arrows ? 32 : 0;
+      const flush = this.trayFlush = W > 640 || free.width >= 600, span = flush ? grid : W - 2 * parseFloat(getComputedStyle(row).paddingLeft);
+      // WIDTH2 (U152 b, the orchestrator's build while the owner looks; a is one revert): where both margins beside the section hold a
+      // 44px target, from 600px free up to the columns, the face is the section's own width and each arrow stands tight outside it.
+      // A phone's margin is the row's 12px and the columns' gap is 24px, so there it stays a: the face less its two 32px lanes.
+      const arrowLanes = arrows && (column || free.width - span < 88) ? 64 : 0;
       // CARDWIDTH (owner, 2026-11-12, a note on a 390x631 phone): "landcard section isn't going the same width as the choices row
       // container! ... the left and right arrows on each side should tightly fit ... centered on whatever space there is left on the
       // left and right". The SECTION, the face and its two arrows, spans the Moves row's own box: the grid where the row is flush,
@@ -1454,8 +1458,7 @@ class Reader {
       // Unchanged: an asking line keeps its own width (U52 b). Gone: the 390px face beside its film outside the columns, which no
       // window reaches: the film goes beside the question only from 1,152px free on a window over 500px tall, and there the grid
       // (902px, or 878px and more beside the 200px index) always takes columns.
-      if (card) style(card, "width", column ? asking ? tease : column - 2 * arrowLane : asking ? Math.min(cap || 520, free.width - 32)
-        : (flush ? grid : W - 2 * parseFloat(getComputedStyle(row).paddingLeft)) - 2 * arrowLane, "important");
+      if (card) style(card, "width", column ? asking ? tease : column - arrowLanes : asking ? Math.min(cap || 520, free.width - 32) : span - arrowLanes, "important");
       const cardWidth = rect(card)?.width || 0;
       style(home, "width", mediaWidth, "important");
       // Videos supplies its natural content height (A: ~241px desktop, ~220px
@@ -1511,7 +1514,7 @@ class Reader {
         const follows = homeMedia && !beside && showCard;
         if (pin) y = pin.cardY || (pin.cardY = y);
         cardY = y;
-        if (column) cardX = free.center - grid / 2 + arrowLane;
+        if (column) cardX = free.center - grid / 2 + arrowLanes / 2;
         // Owner (2026-11-06, U90): "the question below the choices should be left aligned, aligned with the left start of
         // Your choices/moves label". The label is its group's first line, 3px inside it, and the line's text sits 4px inside
         // the card. offsetLeft, because a scrolled tray or Inspect's slide moves the label and must not take the line along.

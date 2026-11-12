@@ -13,9 +13,9 @@ import { journey } from "../dsl"
  * THE CLAIMS, from what the page EMITTED (each box read from the DOM, never recomputed):
  *   - at 600, 768, 900 and 1,000px, opened, the stage is stacked and the film, the grid and its first tile share one left edge and
  *     one right edge, 496px apart, centred in the free area, and the Moves row shares them at all four;
- *   - CARDWIDTH (owner, 2026-11-12, v1.263.1): the question's SECTION, its face and the deck's two arrows, is that same box: the face
- *     stands one 32px lane in from each edge (card-section.spec.ts pins the lanes and the arrows at every size). WAS: the face itself
- *     was the 496px box and its arrows hung outside it, in the margins;
+ *   - and the question's face is that same box: WIDTH2 (U152 b) keeps U110 a's card here, its arrows tight outside it in the margins
+ *     (card-section.spec.ts pins them, and the switch at 600 and 1,024px). Under CARDWIDTH's variant a alone the face stood one 32px
+ *     lane in from each edge;
  *   - at 1,024px the stage is side by side and the grid is wider than the cap: the cap ends where the columns begin.
  * HARNESS: the real dossier chunks are served (`route.continue()`), so Side Control Bottom has its real film; the DSL's `{}`
  * would show no film and leave the film's edge unasserted. UNCOVERED: the 70-character measure in the real font (the DSL
@@ -56,8 +56,8 @@ for (const width of [600, 768, 900, 1000]) {
     // The hand too, at every width here: from 600 to 640px the app is in its phone mode, and the Moves row still takes the column.
     const shared = { grid: m.grid, tile: m.tile, hand: m.hand }
     for (const [name, e] of Object.entries(shared)) expect(e, `the ${name} shares the film's two edges`).toEqual(m.film)
-    // CARDWIDTH: the question's section is the box; its face stands one 32px lane in from each edge, one per deck arrow.
-    expect([m.card![0] - l, r - m.card![1]], `the question's face is the box less a 32px lane each side (${m.card} in ${l}..${r})`).toEqual([32, 32])
+    // WIDTH2 (U152 b): the question's face is the box too; its arrows stand outside it, in the margins.
+    expect(m.card, `the question's face shares the film's two edges (${m.card} in ${l}..${r})`).toEqual(m.film)
     // #346's review, finding 6 (v1.252.1) put the article's own ✕ on the column's edge; v1.253.0 retired that ✕ (U114 a).
   })
 }

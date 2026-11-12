@@ -347,8 +347,10 @@
   @media(hover:hover){.ng-chev:hover{color:#e0e9ff;}}
   .ng-landnav button{position:absolute;top:calc(var(--guide-y,50%) - 22px);}
   /* CARDWIDTH (owner, 2026-11-12): each arrow's 44px target abuts the face, and its glyph rides 6px toward it, to the middle of
-     the 32px lane the reader leaves it inside the card's section (reader.src.js, `arrowLane`); the target's other 12px reach past the
-     section's edge. WAS: 8px clear of the face, glyph centred in the target. The index's own lane rule went with it (#346's review,
+     the 32px lane the reader leaves it inside the card's section (reader.src.js, `arrowLanes`); the target's other 12px reach past the
+     section's edge. WIDTH2 (U152 b): where the margins hold the target the face is the section and the arrows stand outside it,
+     the same 44px against the face and the glyph the same 16px from it, so the arrows look alike at every width. WAS: 8px clear
+     of the face, glyph centred in the target. The index's own lane rule went with it (#346's review,
      finding 1, kept Previous out of the index column by stacking it over Next): Previous is inside the grid now, on its own side. */
   .ng-landnav [data-land-prev]{right:100%;}
   .ng-landnav [data-land-next]{left:100%;}
