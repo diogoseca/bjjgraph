@@ -28,6 +28,7 @@ import { journey } from "../dsl"
  *   park-not-decline (the clock stops, the question stays live) → red at "coming back does not resurrect it"
  *   drill-excluded (the check skips a catch's drill)   → red at "the drill is put down free"
  *   reach-ignores-view (a scroll on the article is a reach even with every answer in view) → red at "the reading rule"
+ *   skip-counts-as-seen (a frame with no height marks the card seen) → red at "a frame that cannot see the card never counts it as seen"
  *   seen-guard-off (a card never yet on screen can be declined) → SURVIVES: a recorded NON-KILL, not coverage. The reader returns to
  *   the top synchronously at the start of `open()`, so no judging frame falls between a new landing's mount and the reset here. The
  *   guard stays (it is what "has left" means); the new-landing journey pins the claim against any order that would break it.
@@ -182,6 +183,29 @@ test.describe("390x631, by touch", () => {
     expect(off.remaining, "the drill is put down free: its clock stops").toBeNull()
     await j.advance(20000)
     expect((await state(page)).expired, "the drill is put down free: it never runs out unseen").toBe(0)
+  })
+
+  // SHORT5 (review of #389): a frame that cannot see the card (no height: not laid out) judges nothing, so it never marks the card
+  // as having been on screen. The harness cannot raise a real zero-height frame on demand, so the sequence is built by hand on a
+  // taken-up question: its seen mark cleared (the state of a card shown open on arrival, U52 b, before any frame has judged it), one
+  // frame with the card at display:none, then the card laid out again wholly above the visible box in one task. No frame ever saw it.
+  test("SHORT5: a frame that cannot see the card never counts it as seen, so laid out off screen afterwards it is not put down", async ({ page }) => {
+    const j = await arrive(page, true)
+    await page.evaluate(() => { const a = (window as Any).__neural; a._landQ.seen = false; a._landEl.style.display = "none" })
+    await j.advance(100)
+    expect(await page.evaluate(() => (window as Any).__neural._landEl.getBoundingClientRect().height), "premise: one frame with no height").toBe(0)
+    const off = await page.evaluate(() => {
+      const a = (window as Any).__neural, el = a._landEl, root = a._reader.root
+      el.style.display = ""
+      const r = el.getBoundingClientRect(), v = root.getBoundingClientRect()
+      root.scrollTop += r.bottom - Math.max(0, v.top) + 40
+      const r2 = el.getBoundingClientRect()
+      return { bottom: Math.round(r2.bottom), top: Math.round(Math.max(0, v.top)), height: r2.height }
+    })
+    expect(off.height > 0 && off.bottom <= off.top, `premise: laid out again, wholly above the visible box (bottom ${off.bottom}, top ${off.top})`).toBe(true)
+    await j.advance(100)
+    const s = await state(page)
+    expect([s.declined, s.answered], "a frame that cannot see the card never counts it as seen").toEqual([[], false])
   })
 
   // NOTE (seen-guard-off, a recorded non-kill): `q.seen` keeps a card that mounts below a scrolled reader, a frame before the app

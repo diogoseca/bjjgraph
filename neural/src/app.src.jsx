@@ -18329,7 +18329,9 @@ class Component extends DCLogic {
     const q = this._landQ, el = this._landEl;
     if (!q || q.answered || this._landAsk || this._readerIntent || !el || !el.isConnected || this._landHidden()) return null;
     const r = el.getBoundingClientRect();
-    if (!(r.height > 0)) return { on: true, all: false };
+    // SHORT5 (review of #389): no height = not laid out, and that frame judges nothing. `skip` lets `_offTick` tell it from a
+    // card it saw; `on: true` keeps the reach's old reading (a card it cannot see is not a reason to decline at touch-down).
+    if (!(r.height > 0)) return { on: true, all: false, skip: true };
     const v = this._reader ? this._reader.root.getBoundingClientRect() : null;
     const top = Math.max(0, v ? v.top : 0), bot = Math.min(innerHeight, v ? v.bottom : innerHeight);
     const on = r.bottom > top + 0.5 && r.top < bot - 0.5;
@@ -18359,7 +18361,7 @@ class Component extends DCLogic {
   // Coming back resurrects nothing: a declined question is answered for good, and a drill's clock stays down.
   _offTick() {
     const q = this._landQ, v = this._landView();
-    if (!v || q.gone) return;
+    if (!v || q.gone || v.skip) return; // SHORT5: a frame that cannot see the card never counts it as seen, nor as gone
     if (v.on) { q.seen = true; return; }
     if (!q.seen) return;
     q.gone = true;
