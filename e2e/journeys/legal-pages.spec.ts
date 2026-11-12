@@ -18,15 +18,18 @@ import { journey, type Journey } from "../dsl"
  *      back on /privacy.
  *   4. A link to a section (/privacy#your-rights) opens the box extended, with that section's heading drawn inside it.
  *   5. From the account menu during a roll, the box opens in place over the paused game, the address does not change, and when it closes
- *      the roll is exactly where it was: same node, same hand, same clock readings within a tick (nothing archived or discarded).
- *   6. Over a LIVE roll (Settings reached from a hidden section's message, drawer shut), the box takes its own pause and gives it back:
- *      the clocks hold while it is up and run again once it closes (control).
+ *      the roll is exactly where it was: same node, same hand, same pause, same clock readings within a tick (nothing archived or
+ *      discarded).
+ *   6. From Settings reached through a hidden section's message (drawer shut), the box changes nothing about the roll either, its pause
+ *      included: that press on the article is reading, and reading already holds the roll. Every way to the box from a roll is held
+ *      before the box opens, so the box has no pause of its own (one was built and could not be reached by any press).
  *
  * DRAWN and OWNS are polled for up to 5 s: the modal card enters with a 0.28 s fade (ngCardIn), and a single sample taken as the box
  * appears reads it half transparent (measured: opacity 0.51). The claim is about the box once it has settled.
  * Presses are a player's: a real touch tap at measured centres at 390 (elementFromPoint must name the control), the mouse at 1440.
  * What the harness does NOT serve: off-origin requests are aborted, and node dossier chunks are "{}" (claim 6 needs only the article
- * sections, which come from the page HTML). @curated: claim 1 only (about 1 s per viewport); the rest runs in e2e-full.
+ * sections, which come from the page HTML). No @curated tag: nothing here depends on what a deploy stamps (tests/artifacts/
+ * deploy_gate.json, U147 a); the PR's e2e-full runs it all.
  *
  * Red-proof: see docs/Changelog-Archive.md (LEGAL3): one mutant per claim, each red at its named assertion. Survivors: none recorded.
  */
@@ -135,7 +138,7 @@ for (const vp of VIEWPORTS) {
   test.describe(`${vp.width}x${vp.height}`, () => {
     test.use({ viewport: { width: vp.width, height: vp.height }, ...(vp.touch ? { hasTouch: true } : {}) })
 
-    test(`@curated arriving on /privacy and /terms opens the page's own short box before the map loads, and holds the roll (${vp.width}x${vp.height})`, async ({ page }) => {
+    test(`arriving on /privacy and /terms opens the page's own short box before the map loads, and holds the roll (${vp.width}x${vp.height})`, async ({ page }) => {
       const errors: string[] = []; page.on("pageerror", (e) => errors.push(String(e)))
       const j = journey(page)
       for (const path of ["/privacy", "/terms"]) {
@@ -200,7 +203,8 @@ for (const vp of VIEWPORTS) {
         await j.advance(3000)
         await press(page, j, "[data-legal-close]", vp.touch, "the ✕")
         const after = await roll(page)
-        expect({ path: after.path, pos: after.pos, hand: after.hand }, `${kind}: same address, node and hand`).toEqual({ path: before.path, pos: before.pos, hand: before.hand })
+        expect({ path: after.path, pos: after.pos, hand: after.hand, paused: after.paused }, `${kind}: same address, node, hand and pause`)
+          .toEqual({ path: before.path, pos: before.pos, hand: before.hand, paused: before.paused })
         expect(sameClocks(before, after), `${kind}: the same clock readings within a tick (${JSON.stringify([before.timers, before.decision])} -> ${JSON.stringify([after.timers, after.decision])})`).toBe(true)
       }
       expect((await j.beats()).slice(beats0).map((b) => b.beat).filter((b) => b === "roll_archived" || b === "roll_discarded"), "nothing archived or discarded").toEqual([])
@@ -224,9 +228,9 @@ test.describe("390x631, a link to a section", () => {
 })
 
 for (const vp of [VIEWPORTS[0], VIEWPORTS[2]]) {
-  test.describe(`${vp.width}x${vp.height}, over a live roll`, () => {
+  test.describe(`${vp.width}x${vp.height}, from Settings`, () => {
     test.use({ viewport: { width: vp.width, height: vp.height }, ...(vp.touch ? { hasTouch: true } : {}) })
-    test(`over a live roll the box takes its own pause and gives it back (${vp.width}x${vp.height})`, async ({ page }) => {
+    test(`from Settings reached through a hidden section's message, the box changes nothing about the roll (${vp.width}x${vp.height})`, async ({ page }) => {
       const j = journey(page)
       await j.boot("/"); await j.land("Mount Top")
       await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible({ timeout: 20_000 })
@@ -234,26 +238,21 @@ for (const vp of [VIEWPORTS[0], VIEWPORTS[2]]) {
       await page.evaluate((sel) => { const root = document.querySelector("[data-reader]") as HTMLElement, el = document.querySelector(sel) as HTMLElement
         root.scrollTop += el.getBoundingClientRect().top - root.getBoundingClientRect().top - 140 }, close)
       await j.readerLayoutSettled()
-      expect((await roll(page)).paused, "premise: the roll is live (not paused)").toBe(false)
       await press(page, j, close, vp.touch, "a section's ✕")
       await j.readerLayoutSettled()
       await press(page, j, '[data-hidesec-notice="principles"] [data-hidesec-settings]', vp.touch, "its message's Settings")
       await expect(page.locator('[data-settings-legal] [data-legal="terms"]'), "Settings is up").toBeVisible({ timeout: 10_000 })
-      expect(await page.evaluate(() => !!(window as W).__neural.deckShown), "premise: the drawer is shut (nothing else holds the roll)").toBe(false)
+      expect(await page.evaluate(() => !!(window as W).__neural.deckShown), "premise: the drawer is shut").toBe(false)
+      const before = await roll(page)
+      expect({ pos: before.pos != null, paused: before.paused }, "premise: a roll stands, held by the reading press").toEqual({ pos: true, paused: true })
       await press(page, j, '[data-settings-legal] [data-legal="terms"]', vp.touch, "Terms in Settings")
-      await expectPageBox(page, "/terms", "terms over a live roll")
-      const held = await roll(page)
-      expect(held.timers.length, "premise: the roll has a clock to hold").toBeGreaterThan(0)
+      await expectPageBox(page, "/terms", "terms from Settings")
       await j.advance(3000)
-      const still = await roll(page)
-      expect({ paused: still.paused, pos: still.pos, hand: still.hand }, "the box holds the roll").toEqual({ paused: true, pos: held.pos, hand: held.hand })
-      expect(sameClocks(held, still), "its clocks hold while the box is up").toBe(true)
       await press(page, j, "[data-legal-close]", vp.touch, "the ✕")
-      expect((await roll(page)).paused, "closing gives the pause back").toBe(false)
-      const t0 = (await roll(page)).timers
-      await j.advance(500)
-      const t1 = (await roll(page)).timers
-      expect(t0.some((t, i) => t1[i] === undefined || t1[i] < t - 400), `control: the clock runs again (${JSON.stringify(t0)} -> ${JSON.stringify(t1)})`).toBe(true)
+      const after = await roll(page)
+      expect({ path: after.path, pos: after.pos, hand: after.hand, paused: after.paused }, "the roll is where it was, still held by the reading press")
+        .toEqual({ path: before.path, pos: before.pos, hand: before.hand, paused: true })
+      expect(sameClocks(before, after), "same clock readings within a tick").toBe(true)
     })
   })
 }

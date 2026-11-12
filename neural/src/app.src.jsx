@@ -5421,9 +5421,10 @@ class Component extends DCLogic {
    *  article in the box and folds it back. A link to the other legal page opens it in the box; any other link opens a new tab, so no
    *  press inside the box can end a roll. tests/legal_boxes.test.mjs fails if a sentence of either page appears in neural/src, and
    *  e2e/journeys/legal-pages.spec.ts owns the behaviour.
-   *  THE BOX PAUSES WHAT IT COVERS and gives back only the pause it took (`paused`, the latch rule of §6.5): from the menu the drawer
-   *  already holds the roll; over a live roll (Settings from a hidden part's message) the box takes the pause itself. ON ARRIVAL there is
-   *  no roll yet: the box holds the intro's hand-over instead (`_legalHold`, read in updateCamera), so the map plays its opening behind it
+   *  THE BOX NEVER TOUCHES THE PAUSE. Every way to it from a roll already holds the roll: the account menu lives in the drawer (pane
+   *  law), and Settings reached from a hidden part's message comes after a press on the article, which is reading, and reading pauses
+   *  (reader.src.js readingInteraction). A latch of its own was built and measured unreachable by any press, so it is not here. ON
+   *  ARRIVAL there is no roll yet: the box holds the intro's hand-over instead (`_legalHold`, read in updateCamera), so the map plays its opening behind it
    *  and nothing is dealt; closing lets that same hand-over run, exactly as on "/", and the first landing PUSHES its address
    *  (`_legalPushNext`, read in _syncUrl) so Back comes here again. Back itself needs nothing here: Quartz's router answers every
    *  Back by fetching the page and morphing the body, which re-mounts the app, so Back onto /privacy is a fresh arrival (measured on dev:
@@ -5432,11 +5433,8 @@ class Component extends DCLogic {
   openLegal(kind, opts = {}) {
     const card = this.modalCardRef.current, m = this.modalRef.current; if (!card || !m || this.__ngDestroyed) return null;
     const was = m.style.display === "flex" && this._legal;
-    const L = { kind, arrival: !!(opts.arrival || was?.arrival), paused: !!was?.paused };
-    if (!was) {
-      this._legalOpening = true; this.openModal(); this._legalOpening = false;
-      if (!L.arrival && !this.paused) { this.setPaused(true); L.paused = true; }
-    }
+    const L = { kind, arrival: !!(opts.arrival || was?.arrival) };
+    if (!was) { this._legalOpening = true; this.openModal(); this._legalOpening = false; }
     this._legal = L;
     card.style.width = "min(560px,92vw)";
     card.innerHTML = '<div class="ng-legal" role="dialog" aria-modal="true" aria-labelledby="ng-legal-h" data-legal="' + kind + '"><div data-legal-head><h2 id="ng-legal-h"></h2>' +
@@ -5500,7 +5498,6 @@ class Component extends DCLogic {
   }
   _legalClosed() {
     const L = this._legal; this._legal = null;
-    if (L.paused && this.paused) this.setPaused(false);
     if (L.arrival) { this._legalHold = false; this._legalPushNext = true; }
   }
   closeModal() { this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); const m = this.modalRef.current; if (m) m.style.display = "none"; if (this._legal) this._legalClosed(); }
