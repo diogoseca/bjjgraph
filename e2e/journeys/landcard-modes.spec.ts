@@ -672,8 +672,18 @@ for (const cold of [true, false]) test(`a defender content arrival stays calm af
     return { reading: a._readerIntent, paused: a.paused, vignette: !!document.querySelector('.ng-vignette'), catches: a.beats.filter((b: any) => b.beat === 'defend_start').length }
   })).toEqual({ reading: false, paused: false, vignette: false, catches: 0 })
   // the ✕ hides the drill by MOUSE (§6.1: the card is a fixed overlay under attachInput's
-  // capture) — the catch stays live and the escapes stay dealt
-  await j.clickByMouse("[data-land-close]")
+  // capture) — the catch stays live and the escapes stay dealt.
+  // FOLD1 (owner U136 a): the right answer dealt the drill's next question on the same card (_defenseAnswered), open and
+  // unanswered, so the first ✕ folds it back to its one line; the second hides the drill. WAS: one ✕ hid it.
+  await j.clickByMouse("[data-land-close]", "the drill's ✕ on its next, open question")
+  const folded = await page.evaluate(() => {
+    const a = (window as W).__neural
+    return { card: !!document.querySelector('[data-landcard="defense"][data-land-ask]'), defense: a._defendSub != null, escapes: (a.optionIdxs || []).length }
+  })
+  expect([folded.card, folded.defense], "the first ✕ folds the drill's open question to its line, still caught").toEqual([true, true])
+  expect(folded.escapes, "…and the escapes stay dealt").toBeGreaterThan(0)
+  await j.readerLayoutSettled()
+  await j.clickByMouse("[data-land-close]", "the drill's line's ✕")
   const closed = await page.evaluate(() => {
     const a = (window as W).__neural
     return { card: !!document.querySelector('[data-landcard="defense"]'), defense: a._defendSub != null, escapes: (a.optionIdxs || []).length }
