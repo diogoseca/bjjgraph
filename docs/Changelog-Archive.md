@@ -29,6 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.264.3** — [The passive-boot fixpoint spec pins both arrival orders](#v12643--the-passive-boot-fixpoint-spec-pins-both-arrival-orders-genrace1-2026-11-12)
+- **v1.264.2** — [The deploy gate's second follow-ups: fast-forwards, keepalive tips, the count's own tripwire](#v12642--the-deploy-gates-second-follow-ups-fast-forwards-keepalive-tips-the-counts-own-tripwire-gate7-2026-11-12)
 - **v1.264.0** — [The legal boxes read their pages: /privacy and /terms open the page's own short box before the map](#v12640--the-legal-boxes-read-their-pages-privacy-and-terms-open-the-pages-own-short-box-before-the-map-owner-u140-b-legal3-2026-11-12)
 - **v1.263.3** — [The deploy gate's follow-ups: a smoke per surface, the count of what ran, the promotion rule enforced](#v12633--the-deploy-gates-follow-ups-a-smoke-per-surface-the-count-of-what-ran-the-promotion-rule-enforced-gate6-2026-11-12)
 - **v1.263.1** — [A taken-up question whose card leaves the screen is put down free, however the scroll began](#v12631--a-taken-up-question-whose-card-leaves-the-screen-is-put-down-free-however-the-scroll-began-owner-u146-a-short4-2026-11-12)
@@ -16330,6 +16332,62 @@ the article under it. Pictures: `04-video-before-*`, `05-video-after-*`, `00-vid
 On that head (`217b2297b`, under the lock): `card-section`, the five re-pinned files, `short-phone-answers` (DEV389 changed it),
 `covered-card` and `card-fold`, 125 of 125; `defending-landing.spec.ts:682` on its own three times, 3 of 3; `check_payload_budget.py`
 exit 0.
+
+## v1.264.2 — The deploy gate's second follow-ups: fast-forwards, keepalive tips, the count's own tripwire (GATE7, 2026-11-12)
+
+**Why.** The same reader's second report on #392 (MERGE WITH FOLLOW-UPS) found no false pass. What it did find were
+false failures that fail closed, one hole the code could not see, and ledger text that was still not true.
+
+**The first CI run of the count** (deploy-dev 43274512974, dev bf006e700): "63 passed (2.4m)", then "deploy gate ran 63
+tests: 63 passed of 63 rows, 0 skipped". The tripwire said "the curated gate took 2.4 min". The runner was at 0.81 of
+the slow one, so about 3.0 on a slow runner, matching the ledger's sum.
+
+**What changed, one commit per finding.**
+- **New 1.** The promotion rule looks at the pushed commit's own runs first. A fast-forward of main onto a dev tip (a PR
+  merge commit) passes on that tip's own push-run. The second parent and the tree check come after.
+- **New 2.** A single-parent commit that changes only `.github/keepalive.txt` hands the question to its parent (up to 20
+  in a row). Any other single-parent tip fails, and its message gives the branch-and-dispatch recipe.
+- **New 3.** `ran` leaves `e2e/test-results/gate-count.json`, and the tripwire, later in the same job, fails unless it is
+  there and equals the ledger. That catches npm's `ignore-scripts`, which skips post-hooks while the main script stays
+  green. It reads that file, not the gate step's log: the job-logs API served 404 BlobNotFound for that deploy's job
+  while it ran. The unit asserts no tracked `.npmrc` sets `ignore-scripts` (the one tracked, `source/.npmrc`, sets
+  `engine-strict`) and no deploy sets `npm_config_ignore_scripts`.
+- **New 4.** The Learning smoke is now "existing BJJ-For-Beginners-Roadmap URL opens its Learning entry", a built page,
+  0.6 s. It replaces the 390px fixture case.
+- **New 5.** bundle-version's two rows move to S: every build writes `window.__NEURAL_BUILD`. The build stamp leaves
+  tier D's definition. D is 12 rows, S 51. reading-media-placement's reason names its spliced-in fixture.
+- **New 6.** `if-no-files-found: error` on the tested-site upload.
+- **New 7 and 8.** The unit pins every step of `test` and `gen`. The rule writes down why any green run counts and a
+  later red does not revoke it. A head with no parents names the checkout depth.
+
+**Proof.** Unit 19 of 19, with 12 mutants each killed at a named assertion (the table is in its header). Dry runs
+against the real API:
+- FFDEV (bfcce42df) and FF8844 (8844ed6ee) pass on their own push-runs;
+- a scratch `--no-ff` merge of bfcce42df onto main passes on it;
+- one and two scratch keepalives on top of that merge pass on it;
+- a scratch real commit on top fails, with the recipe.
+
+**GATE8, before it merged (the reader's third report).** One false pass: porcelain `git diff --name-only` lists only a
+rename's destination, so a commit renaming a page onto `.github/keepalive.txt` was stepped over and the own-run path
+never compared the head. The rule now reads git as plumbing: `diff-tree -r -z --no-renames --ignore-submodules=none`,
+replace objects off. A gitlink bump under `ignore = all` was hidden too. An own-run pass beneath stepped commits checks
+the head against the vouching commit. An empty commit is stepped over by tree hash. The reader's six surviving mutants
+are killed, and the tripwire's judgment, split out, reads the count file. Real-git fixtures cover the rename, the
+submodule, a newline-led name, a mode change and a symlink swap.
+
+## v1.264.3 — The passive-boot fixpoint spec pins both arrival orders (GENRACE1, 2026-11-12)
+
+**What went red.** dev `bf006e700`'s push-run e2e-full (43274514779) failed one generated test, `holder-passive-boot-blob-fixpoint` at its line 130: the stored blob had `belts.held` blue and no `belts.gf`. The job's re-run passed on the same commit. The same spec went red once before, filed under v1.129.0 as a load-sensitive flake.
+
+**Classified before fixing.** Boot fetches the deck manifest and `curriculum.json` in parallel, in no promised order. `_syncBelt`'s one-time grandfather saves a raised belt at once, but sets the mark only once the manifest is resident and lets it ride the next save. A scratch copy of the old spec (its assertions unchanged) held one payload until the other was resident in the app: manifest first, 10 of 10 green (4 writes, the mark stored with the raise); curriculum first, 10 of 10 red at line 130 with the CI diff exactly (3 writes, the mark live only). A spec assuming an order, not an app break.
+
+**Safe for a player, in both orders.** With the curriculum first, the next real save carries the mark: on a reload, the old page's unload flush (`pagehide` → `_flushSave`), with the same timestamp. With the unload listeners removed (a killed tab), reloads re-run the grandfather, raise nothing, fire no second `belt_promoted` and write nothing; the first settings save carries the mark. Other real saves that would: any grade, challenge evidence (`noteChallenges`), a checkpoint. Nothing is lost or counted twice.
+
+**The fix, spec only.** One test became three: manifest first; curriculum first; curriculum first with the tab killed before its unload save. A route holds the second payload until the first is resident (never a timer) and every boot checks that it fired. Each write is now named. Boot 1, manifest first, 4: seed, the manifest's evidence pass, the curriculum's pass, the marked raise. Boot 1, curriculum first, 3: seed, the curriculum's pass, the unmarked raise, and nothing after the manifest. Reload 1: exactly 1 (the white-foundations badge for the harness's own tutorial step). Reload 2: 0. The old test allowed up to 1 on each reload, and its header put the two evidence writes at "load time and post-ingest", which was wrong: the passes that write are the manifest's and the curriculum's, and with the curriculum first only one of them writes. Each old assertion's new home is listed in the spec's header.
+
+**Mutants** (the served bundle, all three tests each): the mark never set; the mark forcing a save (manifest-first cannot see it, because there the raise saves anyway); the guard ignored; the mark dropped on load; the raise re-firing; the raised belt not saved at once. All six were killed, each at a named assertion (the table is in the header). Control: the old test with the curriculum first rigged is red.
+
+**Gates (local, this box, under the lock):** the new spec 15 of 15 on the clean app; the whole generated suite on this build on a private port, 103 of 103 with the ledger reporter's PASS (101 tests before, plus the two new ones); `npm run ci:validate` on the stacked tree (on #393's head): 25 of 25 replayed steps green, 1,537 of 1,537 unit tests. An earlier run before the merges had one red, `tests/verify_clips_test.py`'s 0.1 s deadline case. It is a real-time deadline that a loaded box can miss, this change does not touch it, and it was 6 of 6 green alone. Found, not fixed. Spec only: no file under `neural/src/` and no app row moves. The PR's e2e-full is the full gate.
 
 ## v1.265.0 (provisional) — On a phone the question card, the film and the article's sections are as wide as the Moves row (WIDTH4, p5, 2026-11-12)
 
