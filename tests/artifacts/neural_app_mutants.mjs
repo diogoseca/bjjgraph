@@ -247,11 +247,25 @@ const controls = [
   ['film-suggest-kind-lost', 'film-suggest.spec.ts', 'about that move at 1440',
     [['...e&&{kind:"video",seat:t}}),this.closeModal(', '}),this.closeModal(']], 'a video suggestion about the shown move'],
   // #346's review (v1.252.1). Finding 1: the Previous arrow's home beside the index, by its rule and by the attribute the app sets.
-  ['deck-prev-home-rule-lost', 'deck-arrows-index.spec.ts', 'finding 1', [],
-    '[data-land-prev] lies right of the index at the top', [['.ng-landnav[data-index] [data-land-prev]{', '.ng-landnav[data-index-off] [data-land-prev]{']]],
-  ['deck-prev-home-flag-lost', 'deck-arrows-index.spec.ts', 'finding 1',
-    [['.toggleAttribute("data-index",!!this._readerTocEl&&!this._readerTocEl.hidden)', '.toggleAttribute("data-index",!1)']],
-    '[data-land-prev] lies right of the index at the top'],
+  // Both RETIRED in v1.263.1 with their targets (CARDWIDTH: Previous sits in the face's left lane, inside the grid, so the right-lane
+  // rule and its flag are gone). Their claim, Previous never over the index, keeps a control: Previous pushed back out past the lane.
+  ['cardwidth-prev-over-index', 'deck-arrows-index.spec.ts', 'finding 1', [],
+    '[data-land-prev] lies right of the index at the top', [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% + 32px)}']]],
+  // CARDWIDTH (owner, 2026-11-12, v1.263.1): the arrows' stylesheet half. Each target abuts the face, its glyph rides to its lane's
+  // middle, and the targets stand beside the face (never up in the Moves band).
+  ['cardwidth-arrow-gap-back', 'card-section.spec.ts', 'section spans.*390x844', [],
+    'Previous abuts the face', [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% + 8px)}']]],
+  ['cardwidth-glyph-in-target', 'card-section.spec.ts', 'section spans.*390x631', [],
+    "Previous's glyph is centred in its lane", [['.ng-landnav svg{translate:6px}', '.ng-landnav svg{translate:0}']]],
+  ['cardwidth-next-glyph-in-target', 'card-section.spec.ts', 'section spans.*768x1024', [],
+    "Next's glyph is centred in its lane", [['.ng-landnav [data-land-next] svg{translate:-6px}', '.ng-landnav [data-land-next] svg{translate:6px}']]],
+  // The two strict inequalities landcard-deck.spec.ts relaxed to >= / <= (the targets abut the face now) still fail on a target over it.
+  ['cardwidth-next-over-face', 'landcard-deck.spec.ts', '390px chevrons are clickable', [],
+    538, [['.ng-landnav [data-land-next]{left:100%}', '.ng-landnav [data-land-next]{left:calc(100% - 8px)}']]],
+  ['cardwidth-prev-over-face', 'landcard-deck.spec.ts', '390px chevrons are clickable', [],
+    558, [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% - 8px)}']]],
+  ['cardwidth-arrows-in-moves-band', 'card-section.spec.ts', 'section spans.*1440x900', [],
+    'Previous stands beside the face, not above it', [['.ng-landnav button{position:absolute;top:calc(var(--guide-y,50%) - 22px)}', '.ng-landnav button{position:absolute;top:-60px}']]],
   // Finding 4: the video suggestion names its half.
   ['video-suggestion-seat-lost', 'film-suggest.spec.ts', 'about that move at 1440',
     [['...e&&{kind:"video",seat:t}}),this.closeModal(', '...e&&{kind:"video"}}),this.closeModal(']], 'a video suggestion about the shown move'],

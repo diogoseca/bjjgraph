@@ -346,12 +346,14 @@
   .ng-chev:focus-visible{outline:2px solid #9cbcff;outline-offset:-4px;border-radius:8px;}
   @media(hover:hover){.ng-chev:hover{color:#e0e9ff;}}
   .ng-landnav button{position:absolute;top:calc(var(--guide-y,50%) - 22px);}
-  .ng-landnav [data-land-prev]{right:calc(100% + 8px);}
-  .ng-landnav [data-land-next]{left:calc(100% + 8px);}
-  /* #346's review (finding 1): from 1,350px free the index stands 12px left of the grid, and the face stays on the grid's left edge,
-     so the Previous arrow's outside home (right:100% + 8px) lay 40px inside the index column. There it takes the right lane too,
-     stacked one target above Next, which the open face's 52px lane holds. */
-  .ng-landnav[data-index] [data-land-prev]{right:auto;left:calc(100% + 8px);top:calc(var(--guide-y,50%) - 70px);}
+  /* CARDWIDTH (owner, 2026-11-12): each arrow's 44px target abuts the face, and its glyph rides 6px toward it, to the middle of
+     the 32px lane the reader leaves it inside the card's section (reader.src.js, `arrowLane`); the target's other 12px reach past the
+     section's edge. WAS: 8px clear of the face, glyph centred in the target. The index's own lane rule went with it (#346's review,
+     finding 1, kept Previous out of the index column by stacking it over Next): Previous is inside the grid now, on its own side. */
+  .ng-landnav [data-land-prev]{right:100%;}
+  .ng-landnav [data-land-next]{left:100%;}
+  .ng-landnav svg{translate:6px;}
+  .ng-landnav [data-land-next] svg{translate:-6px;}
   .ng-landnav button[hidden]{display:none;}
   .ng-landnav [aria-disabled=true]{opacity:.3;cursor:default;color:#8797b3;}
   .ng-land-deck [data-land-q]>div:first-child{font-size:14px!important;line-height:1.4!important;}

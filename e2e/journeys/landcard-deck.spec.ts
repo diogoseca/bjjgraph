@@ -301,9 +301,10 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
     expect(stageTop - layout.hand.bottom, 'the stage follows Moves at the parts\' step').toBeCloseTo(16, 0)
     if (layout.beside) {
       // U104, U108 a (owner, 2026-11-09, replacing the film 60px left of the face): the question left and the video right, each a
-      // column of the article grid, so the film starts past the open face's 52px arrow lane and is that face and lane wide.
+      // column of the article grid, so the film starts past the open face's arrow lane and is as wide as that face and its lanes.
+      // CARDWIDTH (v1.263.1): one 32px lane each side of the face, inside its column (WAS one 52px lane on its right).
       expect(layout.film.left - layout.card.right, 'beside: the film is right of the face, past its arrows\' lane').toBeGreaterThanOrEqual(52)
-      expect(layout.film.width - layout.card.width, 'beside: equal columns, the face and its arrows\' lane').toBeCloseTo(52, 0)
+      expect(layout.film.width - layout.card.width, 'beside: equal columns, the face and its arrows\' two lanes').toBeCloseTo(64, 0)
       // v1.253.0 (owner, 2026-11-09): the one-line tease spans the row and the film starts under it, where it stays as the question
       // opens (tease-width.spec.ts pins that it does not move): beside the opened face it starts one tease line lower, never above it.
       expect(layout.film.top - layout.card.top, 'beside: the film starts within one tease line under the question\'s top').toBeGreaterThanOrEqual(0)
@@ -533,7 +534,8 @@ for (const width of [1440, 390, 320]) {
     await expect(page.locator("[data-landcard] [data-land-nav]")).toHaveCount(0)
     const box = await next.boundingBox()
     const face = await page.locator("[data-landcard]").boundingBox()
-    expect(box!.x).toBeGreaterThan(face!.x + face!.width)
+    // CARDWIDTH (v1.263.1): the target abuts the face (WAS 8px clear of it, so this read toBeGreaterThan), never over it.
+    expect(box!.x).toBeGreaterThanOrEqual(face!.x + face!.width - 0.5)
     expect(box!.x + box!.width).toBeLessThanOrEqual(width)
     expect(box!.y + box!.height / 2).toBeCloseTo(face!.y + face!.height / 2, 0)
     expect(box!.width).toBeGreaterThanOrEqual(44)
@@ -543,14 +545,17 @@ for (const width of [1440, 390, 320]) {
     const left = await prev.boundingBox()
     if (width === 1440) {
       // v1.252.1, #346's review (finding 1): from 1,350px free the reader's index holds the margin left of the face, and Previous sat
-      // 40px inside it. While the index stands beside the grid, Previous takes the right lane, one target above Next.
+      // 40px inside it; it then took the right lane, one target above Next. CARDWIDTH (v1.263.1): the face stands one lane inside the
+      // grid, so Previous is back on its own side, in that lane, clear of the index (deck-arrows-index.spec.ts).
       await expect(page.locator(".ng-reader-toc"), "premise: the index stands beside the grid at 1440").toBeVisible()
-      expect(left!.x, "Previous in the face's right lane").toBeGreaterThan(face!.x + face!.width)
-      expect(left!.x + left!.width).toBeLessThanOrEqual(width)
-      expect(left!.y + left!.height, "Previous stands above Next, clear of it").toBeLessThanOrEqual(box!.y)
+      const toc = await page.locator(".ng-reader-toc").boundingBox()
+      expect(left!.x, "Previous right of the index").toBeGreaterThanOrEqual(toc!.x + toc!.width - 0.5)
+      expect(left!.x + left!.width, "Previous in the face's left lane").toBeLessThanOrEqual(face!.x + 0.5)
+      expect(left!.y, "Previous level with Next").toBeCloseTo(box!.y, 0)
     } else {
       expect(left!.x).toBeGreaterThanOrEqual(0)
-      expect(left!.x + left!.width).toBeLessThan(face!.x)
+      // CARDWIDTH: abutting the face (WAS toBeLessThan, 8px clear).
+      expect(left!.x + left!.width).toBeLessThanOrEqual(face!.x + 0.5)
     }
     await expect(page.locator("[data-land-position]")).toHaveAttribute("data-land-position", `2/${total}`)
     await j.clickByMouse("[data-land-prev]")

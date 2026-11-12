@@ -1430,8 +1430,6 @@ class Reader {
       if (home.hidden !== !homeMedia) home.hidden = !homeMedia;
       // D-368 (layout C): the current film sits in the game's stage. U65 removes the duplicate article
       // credits; the retained Videos control still governs the film.
-      // Keep the deck's 44px outside arrows plus 8px clearance. The left arrow
-      // lives in the 60px media gap; the right arrow also fits inside the pane.
       // U104 (owner, 2026-11-06): the question is the left column's first row and the current technique's video card the right's,
       // asking or open. Under an 800px grid a column is too narrow for a card and its arrow (288px at 768), so they stack, question first.
       const column = grid > 800 && H > 500 ? (grid - 24) / 2 : 0;
@@ -1441,7 +1439,23 @@ class Reader {
       const [beside, mediaWidth, askStep] = a.filmLayout(cap ? Math.min(free.width, cap + 32) : free.width, H, homeMedia && (showCard || column), card, row, column, tease);
       const mediaLayout = homeMedia ? beside ? "side-by-side" : "stacked" : "none";
       if (game.dataset.mediaLayout !== mediaLayout) game.dataset.mediaLayout = mediaLayout;
-      if (card) style(card, "width", Math.min(column ? asking ? tease : column - 52 : beside ? 390 : cap || (arrows ? 560 : 520), free.width - (arrows && !beside ? 104 : 32)), "important");
+      // U110 a: the Moves row shares the column's edges wherever the stacked box binds, from 600px free (the cap), so on a
+      // phone-sized screen from 600 to 640px too. Under 600px a phone keeps its full-width tray.
+      const flush = this.trayFlush = W > 640 || free.width >= 600, arrowLane = arrows ? 32 : 0;
+      // CARDWIDTH (owner, 2026-11-12, a note on a 390x631 phone): "landcard section isn't going the same width as the choices row
+      // container! ... the left and right arrows on each side should tightly fit ... centered on whatever space there is left on the
+      // left and right". The SECTION, the face and its two arrows, spans the Moves row's own box: the grid where the row is flush,
+      // the row less its phone gutter under 600px free, and in columns the left column. The face takes all of it but a 32px lane
+      // per arrow; the arrow's 44px target abuts the face and reaches 12px past the section's edge, into the gutter beside it, and its
+      // glyph rides 6px toward the face, the middle of its lane (helmet.html, .ng-landnav). No deck, the face alone spans it.
+      // WAS (to v1.262.10): the column less 104, a 52px lane per arrow OUTSIDE the face, so at 390 the face was 286px with its arrows
+      // on the screen's edges, 40px in from the Moves row's 12px gutter on each side; at 768 the face was the row's 496px and its
+      // arrows hung outside the row; in columns the face was the column less 52, Previous outside the grid or stacked over Next.
+      // Unchanged: an asking line keeps its own width (U52 b). Gone: the 390px face beside its film outside the columns, which no
+      // window reaches: the film goes beside the question only from 1,152px free on a window over 500px tall, and there the grid
+      // (902px, or 878px and more beside the 200px index) always takes columns.
+      if (card) style(card, "width", column ? asking ? tease : column - 2 * arrowLane : asking ? Math.min(cap || 520, free.width - 32)
+        : (flush ? grid : W - 2 * parseFloat(getComputedStyle(row).paddingLeft)) - 2 * arrowLane, "important");
       const cardWidth = rect(card)?.width || 0;
       style(home, "width", mediaWidth, "important");
       // Videos supplies its natural content height (A: ~241px desktop, ~220px
@@ -1455,10 +1469,8 @@ class Reader {
       const mediaHeight = homeMedia ? filmHeight() : 0;
       const cardHeight = showCard ? rect(card).height : 0, handHeight = showHand ? rect(row).height : 0;
       const handoff = a._executionDock()?.reader;
-      let cardX = Math.max(a.isMobile() ? 10 : 16, free.center - cardWidth / 2), cardY, gameHeight;
-      // U110 a: the Moves row shares the column's edges wherever the stacked box binds, from 600px free (the cap and the card's
-      // 104px arrow lane), so on a phone-sized screen from 600 to 640px too. Under 600px a phone keeps its full-width tray.
-      const flush = this.trayFlush = W > 640 || free.width >= 600;
+      // Centred on the free area. (Its 10px/16px floor went with CARDWIDTH: every width above is at most the free width less 24.)
+      let cardX = free.center - cardWidth / 2, cardY, gameHeight;
       {
         // D-338 (owner): Video, Moves, Questions, then the article, under the node band.
         // No header names a part; a closed one keeps its place as its label. An escape's
@@ -1499,7 +1511,7 @@ class Reader {
         const follows = homeMedia && !beside && showCard;
         if (pin) y = pin.cardY || (pin.cardY = y);
         cardY = y;
-        if (column) cardX = free.center - grid / 2;
+        if (column) cardX = free.center - grid / 2 + arrowLane;
         // Owner (2026-11-06, U90): "the question below the choices should be left aligned, aligned with the left start of
         // Your choices/moves label". The label is its group's first line, 3px inside it, and the line's text sits 4px inside
         // the card. offsetLeft, because a scrolled tray or Inspect's slide moves the label and must not take the line along.
@@ -1547,9 +1559,9 @@ class Reader {
         // Long answers keep their outside arrows beside the visible face.
         const cardTop = top + cardY - root.scrollTop;
         const middle = (Math.max(top, cardTop) + Math.min(end, cardTop + cardHeight)) / 2 - cardTop;
-        // #354's review (finding 5): beside the index Previous stands one target above Next (helmet.html), so with little of the face
-        // in view it climbed over the choices (23px of their bottoms at 1440x520). There the guide keeps Previous's top on the face.
-        style(a._landNavEl, "--guide-y", Math.max(a._landNavEl.hasAttribute("data-index") ? 70 : 22, Math.min(cardHeight - 22, middle)));
+        // #354's review (finding 5): with little of the face in view the guide keeps each arrow's top on the face, off the choices.
+        // CARDWIDTH retired the 70 it kept beside the index, where Previous stood one target above Next: it is back on its own side.
+        style(a._landNavEl, "--guide-y", Math.max(22, Math.min(cardHeight - 22, middle)));
       }
       style(game, "height", gameHeight);
       style(art, "margin-top", 6);

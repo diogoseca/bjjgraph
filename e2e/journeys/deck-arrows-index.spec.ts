@@ -3,17 +3,17 @@ import { journey } from "../dsl"
 
 /**
  * #346's review, finding 1 (reproduced at 1440x900 before the fix: the Previous arrow at x 184-228, 40 of its 44px inside the index
- * column, 24-224). From 1,350px free the reader's index stands 12px left of the grid, and the open face stays on the grid's left edge
- * (video-cards.spec.ts pins that), so the deck's Previous arrow has no room on the face's left. While the index is beside the grid it
- * takes the right lane, stacked one target above Next (helmet.html, `.ng-landnav[data-index]`, set by the app from the index's own
- * `hidden`).
+ * column, 24-224). From 1,350px free the reader's index stands 12px left of the grid. Until v1.262.10 the open face stood on the grid's
+ * left edge with Previous outside it, so beside the index Previous took the right lane, stacked one target above Next.
+ * CARDWIDTH (owner, 2026-11-12, v1.263.1) put each arrow INSIDE the card's section, in a 32px lane beside the face, its 44px target
+ * reaching 12px past the section's edge: on the left that is exactly the index's 12px clearance. So Previous is back on its own side,
+ * and the right-lane rule (`.ng-landnav[data-index]`, and the flag the app set for it) is retired.
  *
  * THE CLAIMS, from the boxes the page emitted, after paging to card 2 and at two scroll positions (the top, and the last answer):
  *   - both deck arrows lie right of the index's box, never over it;
- *   - both sit in the face's right lane, past its right edge;
+ *   - Previous sits in the face's left lane, Next in its right lane;
  *   - Previous, pressed by mouse where it sits, pages back.
- * UNCOVERED: under 1,350px free the Previous arrow keeps its outside-left home in the margin, which no index occupies; this file
- * does not pin that home. Red-proof is at the foot of this file.
+ * card-section.spec.ts pins the lanes themselves at 1440 (and at four narrower sizes). Red-proof is at the foot of this file.
  */
 
 const box = (page: Page, sel: string) => page.locator(sel).first().evaluate(e => {
@@ -42,8 +42,10 @@ test("@curated #346 review, finding 1: with the index beside the grid, the deck'
     const toc = await box(page, ".ng-reader-toc"), face = await box(page, "[data-landcard]")
     for (const sel of ["[data-land-prev]", "[data-land-next]"]) {
       const a = await box(page, sel)
-      expect(a.left, `${sel} lies right of the index ${at}`).toBeGreaterThanOrEqual(toc.right)
-      expect(a.left, `${sel} sits in the face's right lane ${at}`).toBeGreaterThanOrEqual(face.right)
+      expect(a.left, `${sel} lies right of the index ${at}`).toBeGreaterThanOrEqual(toc.right - 0.5)
+      // CARDWIDTH (v1.263.1): each on its own side of the face, abutting it (WAS both past the face's right edge).
+      if (sel === "[data-land-prev]") expect(a.right, `${sel} sits in the face's left lane ${at}`).toBeLessThanOrEqual(face.left + 0.5)
+      else expect(a.left, `${sel} sits in the face's right lane ${at}`).toBeGreaterThanOrEqual(face.right - 0.5)
     }
   }
   await j.clickByMouse("[data-land-prev]", "Previous, by mouse where it sits")
@@ -79,3 +81,6 @@ for (const height of [560, 520]) {
 // Red-proof (v1.252.1, tests/artifacts/neural_app_mutants.mjs on the served neural.css and neural.js, against a green baseline):
 //   deck-prev-home-rule-lost ... the stylesheet rule unmatched ............ killed: [data-land-prev] lies right of the index at the top
 //   deck-prev-home-flag-lost ... the app never sets data-index ............ killed: [data-land-prev] lies right of the index at the top
+// Both RETIRED in v1.263.1 with their subject (CARDWIDTH: the rule and the flag are gone). Their replacements, same harness, are
+// recorded in docs/Changelog-Archive.md (v1.263.1): Previous back outside the face's left edge into the index (its old 8px gap and
+// no lane) must turn "lies right of the index" red; the face back on the grid's edge must turn "the face's left lane" red.
