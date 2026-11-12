@@ -368,7 +368,7 @@ export function evaluatePromotion(runs, sha) {
 
 /** Which commit vouches for a push to main, walking from the head as the header says. `parentsOf(sha)` and
  *  `diff(a, b)` (changed paths) read git; `runsOf(sha)` reads the runs API. `steps` records every commit looked at. */
-export async function judgePromotion({ head, parentsOf, diff, runsOf }) {
+export async function judgePromotion({ head, parentsOf, diff, runsOf, sameTree = (a, b) => diff(a, b).length === 0 }) {
   const steps = [];
   const look = async (sha, role) => {
     const v = evaluatePromotion(await runsOf(sha), sha);
@@ -379,7 +379,14 @@ export async function judgePromotion({ head, parentsOf, diff, runsOf }) {
   for (;;) {
     const role = at === head ? "the pushed commit" : `beneath ${walked} keepalive commit(s)`;
     const own = await look(at, role);
-    if (own.ok) return { ok: true, tested: at, shape: `${role}, on its own run`, message: own.message, steps };
+    if (own.ok) {
+      // the backstop (GATE8): whatever the walk stepped over, main's tree must be this commit's tree but for
+      // TESTED_ONLY_DIFF, compared HEAD to it directly, so a step whose listing under-reported cannot carry a change in
+      const drift = at === head ? [] : diff(at, head).filter((f) => !TESTED_ONLY_DIFF.includes(f));
+      if (drift.length)
+        return { ok: false, tested: at, steps, message: `main's tree is not the tree that was tested: ${head.slice(0, 9)} differs from ${at.slice(0, 9)}, whose own run vouched, in ${drift.length} file(s) beyond ${TESTED_ONLY_DIFF.join(", ")}: ${drift.slice(0, 10).join(", ")}${drift.length > 10 ? ", ..." : ""}; it fails closed` };
+      return { ok: true, tested: at, shape: `${role}, on its own run`, message: own.message, steps };
+    }
     const parents = parentsOf(at);
     if (parents.length === 2) {
       const tested = parents[1];
@@ -406,10 +413,35 @@ export async function judgePromotion({ head, parentsOf, diff, runsOf }) {
 }
 
 const git = (root, ...a) => {
-  const r = spawnSync("git", a, { cwd: root, encoding: "utf8" });
+  const r = spawnSync("git", a, { cwd: root, encoding: "utf8", env: { ...process.env, GIT_NO_REPLACE_OBJECTS: "1" } });
   if (r.status !== 0) throw new Error(`git ${a.join(" ")}: ${(r.stderr || "").trim()}`);
-  return r.stdout.trim();
+  return r.stdout;
 };
+
+/** git as the promotion rule reads it (v1.263.4, GATE8; the reviewer's new 1 on #393). A diff LISTING can under-report,
+ *  and an under-reported change is exactly what would let the keepalive walk step over a real one. Measured in a scratch
+ *  repo, each case and what closes it:
+ *    a rename        porcelain `git diff --name-only` prints only a rename's DESTINATION, so a commit renaming
+ *                    content/terms.md onto .github/keepalive.txt read as keepalive-only and was stepped over: the
+ *                    reader's R1/R2 false pass. Closed by plumbing `diff-tree` with `--no-renames` (and it ignores
+ *                    diff.renames from any config);
+ *    a submodule     a gitlink bump is hidden from BOTH porcelain and plumbing when .gitmodules says `ignore = all`.
+ *                    Closed by `--ignore-submodules=none`;
+ *    a subdirectory  porcelain with diff.relative=true lists only paths under the working directory; diff-tree lists
+ *                    full paths from anywhere;
+ *    odd names       a non-ASCII or newline-bearing name is quoted (never split, so a name like "\n.github/keepalive.txt"
+ *                    cannot pose as the keepalive path); `-z` takes the raw bytes, one NUL-separated entry each;
+ *    replace refs    `refs/replace/*` can swap a commit's parents or tree; GIT_NO_REPLACE_OBJECTS=1 reads the real ones;
+ *    no change       an empty listing is not trusted to mean "nothing changed": `sameTree` compares tree hashes.
+ *  Listed correctly already, so nothing to close: a mode change, a symlink swap, a path that only starts with the
+ *  keepalive name (it is its own entry, and the match is exact). */
+export function gitAccess(root) {
+  return {
+    parentsOf: (sha) => git(root, "rev-list", "--parents", "-n", "1", sha).trim().split(" ").slice(1),
+    diff: (a, b) => git(root, "diff-tree", "-r", "-z", "--name-only", "--no-renames", "--ignore-submodules=none", "--no-commit-id", a, b).split("\0").filter(Boolean),
+    sameTree: (a, b) => git(root, "rev-parse", `${a}^{tree}`).trim() === git(root, "rev-parse", `${b}^{tree}`).trim(),
+  };
+}
 
 async function e2eFullRuns(sha) {
   const { GITHUB_API_URL = "https://api.github.com", GITHUB_REPOSITORY = "diogoseca/bjjgraph", GH_TOKEN } = process.env;
@@ -435,11 +467,10 @@ async function promotion(root, args) {
       return v.ok ? 0 : 1;
     }
     const at = args.includes("--head") ? args[args.indexOf("--head") + 1] : "HEAD"; // --head: a dry run of the whole rule
-    const head = git(root, "rev-parse", at);
+    const head = git(root, "rev-parse", at).trim();
     const v = await judgePromotion({
       head,
-      parentsOf: (sha) => git(root, "rev-list", "--parents", "-n", "1", sha).split(" ").slice(1),
-      diff: (a, b) => git(root, "diff", "--name-only", a, b).split("\n").filter(Boolean),
+      ...gitAccess(root),
       runsOf: async (sha) => {
         if (!/^[0-9a-f]{40}$/.test(sha)) throw new Error(`not a full commit sha: ${sha}`);
         return e2eFullRuns(sha);

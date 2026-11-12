@@ -67,7 +67,7 @@ import { tmpdir } from "node:os";
 import {
   ROOT, BUDGET, MANIFEST, check, scanSites, checkStatic, checkBudget, checkListed, flattenListing,
   evaluateTripwire, parseGateLog, lineLiterals, loadJson, flattenResults, checkRan, RESULTS,
-  judgePromotion, evaluatePromotion, TESTED_ONLY_DIFF, ran, COUNT, evaluateCount, tripwireExit,
+  judgePromotion, evaluatePromotion, TESTED_ONLY_DIFF, ran, COUNT, evaluateCount, tripwireExit, gitAccess,
 } from "../scripts/deploy_gate.mjs";
 
 const budget = loadJson(ROOT, BUDGET);
@@ -250,6 +250,83 @@ test("PROMOTION: keepalive commits on main are walked back through; any other si
   assert.equal(v.ok, false, "a real commit on top of a promotion fails: nothing ran the suite on its tree");
   assert.match(v.message, /is a single-parent commit that changes more than \.github\/keepalive\.txt/);
   assert.match(v.message, new RegExp(`git push origin ${sha("x")}:refs/heads/verify-${sha("x").slice(0, 9)} && gh workflow run e2e-full\\.yml --ref verify-`), "...and its message gives the branch-and-dispatch recipe for that commit");
+});
+
+// A REAL git repository for the cases a path-by-path tree fixture cannot express (a rename, a gitlink, a raw name).
+// Commits are built with plumbing (a private index, hash-object, commit-tree) under the identity "fixture <>", with no
+// global or system git config, so nothing on the machine running the test can change what git lists.
+function gitRepo() {
+  const dir = mkdtempSync(join(tmpdir(), "deploy-gate-git-"));
+  const env = { ...process.env, HOME: dir, GIT_CONFIG_NOSYSTEM: "1", GIT_CONFIG_GLOBAL: "/dev/null", GIT_INDEX_FILE: join(dir, "fixture.index"),
+    GIT_AUTHOR_NAME: "fixture", GIT_AUTHOR_EMAIL: "", GIT_COMMITTER_NAME: "fixture", GIT_COMMITTER_EMAIL: "" };
+  const g = (args, input) => {
+    const r = spawnSync("git", args, { cwd: dir, env, encoding: "utf8", input });
+    assert.equal(r.status, 0, `git ${args.join(" ")}: ${r.stderr}`);
+    return r.stdout.trim();
+  };
+  g(["init", "-q", "."]);
+  // files: path -> text (100644), { text, mode } (100755), { link } (a symlink), { gitlink: sha }, or null (removed)
+  const commit = (parents, files) => {
+    g(parents.length ? ["read-tree", parents[0]] : ["read-tree", "--empty"]);
+    for (const [path, f] of Object.entries(files)) {
+      if (f === null) { g(["update-index", "--force-remove", "--", path]); continue; }
+      if (f.gitlink) { g(["update-index", "--add", "--cacheinfo", `160000,${f.gitlink},${path}`]); continue; }
+      const plain = typeof f === "string"; // (a string has a .link: String.prototype.link, so test the type first)
+      const text = plain ? f : f.text ?? f.link;
+      const mode = plain ? "100644" : typeof f.link === "string" ? "120000" : f.mode || "100644";
+      const blob = g(["hash-object", "-w", "--stdin"], text);
+      g(["update-index", "--add", "--cacheinfo", `${mode},${blob},${path}`]);
+    }
+    const tree = g(["write-tree"]);
+    return g(["commit-tree", tree, ...parents.flatMap((p) => ["-p", p]), "-m", "fixture"]);
+  };
+  return { dir, commit, done: () => rmSync(dir, { recursive: true, force: true }) };
+}
+
+test("PROMOTION on real git: no listing trick lets the keepalive walk step over a real change (the reader's R1/R2 and past it)", async () => {
+  const r = gitRepo();
+  try {
+    const K = ".github/keepalive.txt";
+    const B = r.commit([], { [K]: "k0", "content/terms.md": "the terms page\n", "a.txt": "a\n" });
+    const runs = async (sha) => (sha === B ? [{ id: 1, head_sha: B, event: "push", status: "completed", conclusion: "success" }] : []);
+    const judge = (head) => judgePromotion({ head, ...gitAccess(r.dir), runsOf: runs });
+    // the control: a keepalive-only commit on B passes on B's own run
+    assert.equal((await judge(r.commit([B], { [K]: "k1" }))).tested, B, "control: a keepalive-only commit is stepped over to B, which vouches");
+    // R1 deletes the keepalive file; R2 RENAMES content/terms.md onto it: main would ship without the terms page
+    const R1 = r.commit([B], { [K]: null });
+    const R2 = r.commit([R1], { "content/terms.md": null, [K]: "the terms page\n" });
+    let v = await judge(R2);
+    assert.equal(v.ok, false, "R2: a commit that renames another file onto the keepalive path is not keepalive-only (the reader's false pass on #393)");
+    assert.match(v.message, /single-parent commit that changes more than/, "R2 stops the walk itself: the listing sees both paths of the rename, before any backstop");
+    // past the reader: a gitlink bumped beside a keepalive edit, with .gitmodules saying ignore = all (written in the
+    // worktree too, where git reads it): porcelain AND plumbing hide the bump without --ignore-submodules=none
+    writeFileSync(join(r.dir, ".gitmodules"), '[submodule "sub"]\n\tpath = sub\n\turl = ./sub\n\tignore = all\n');
+    const S1 = r.commit([B], { ".gitmodules": '[submodule "sub"]\n\tpath = sub\n\turl = ./sub\n\tignore = all\n', sub: { gitlink: B } });
+    const S2 = r.commit([S1], { [K]: "k2", sub: { gitlink: R1 } });
+    const subRuns = async (sha) => (sha === S1 ? [{ id: 2, head_sha: S1, event: "push", status: "completed", conclusion: "success" }] : []);
+    v = await judgePromotion({ head: S2, ...gitAccess(r.dir), runsOf: subRuns });
+    assert.equal(v.ok, false, "a submodule bump beside a keepalive edit is a real change, even under ignore = all");
+    // a name that starts with a newline and then reads as the keepalive path: one raw entry, never a keepalive line
+    v = await judge(r.commit([B], { [K]: "k3", "\n.github/keepalive.txt": "x\n" }));
+    assert.equal(v.ok, false, "a name like \"\\n.github/keepalive.txt\" is its own file, not the keepalive path");
+    // listed correctly already, pinned so it stays so: a mode change and a symlink swap beside a keepalive edit
+    v = await judge(r.commit([B], { [K]: "k4", "a.txt": { text: "a\n", mode: "100755" } }));
+    assert.equal(v.ok, false, "a mode change beside a keepalive edit stops the walk");
+    v = await judge(r.commit([B], { [K]: "k5", "a.txt": { link: "content/terms.md" } }));
+    assert.equal(v.ok, false, "a symlink swap beside a keepalive edit stops the walk");
+  } finally { r.done(); }
+});
+
+test("PROMOTION backstop: a walk step whose listing under-reports cannot carry a change past an own-run pass", async () => {
+  // K1 really changes app.js, but its step's listing LIES (keepalive only), as a rename did before GATE8. K2 is an honest
+  // keepalive. The walk steps over both to B, whose own run vouches; only comparing the HEAD with B catches it.
+  const commits = { [sha("b")]: { parents: [], tree: T }, [sha("1")]: { parents: [sha("b")], tree: { ...KEEP, "app.js": "v2" } },
+    [sha("2")]: { parents: [sha("1")], tree: { ...KEEP, "app.js": "v2", ".github/keepalive.txt": "week 3" } } };
+  const g = graph(commits, { [sha("b")]: GREEN });
+  const lying = { ...g, diff: (a, b) => (a === sha("b") && b === sha("1") ? [".github/keepalive.txt"] : g.diff(a, b)) };
+  const v = await judgePromotion({ head: sha("2"), ...lying });
+  assert.equal(v.ok, false, "the head is compared with the commit whose own run vouched, whatever the steps' listings said");
+  assert.match(v.message, /main's tree is not the tree that was tested: .* whose own run vouched, in 1 file\(s\) beyond .*app\.js/);
 });
 
 test("PROMOTION: no parents names the checkout depth, an octopus fails closed", async () => {
