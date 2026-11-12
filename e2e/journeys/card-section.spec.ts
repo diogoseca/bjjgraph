@@ -17,7 +17,7 @@ import { journey } from "../dsl"
  * the face alone spans the section either way. (reader.src.js, `arrowLanes`; helmet.html, `.ng-landnav`.)
  * WIDTH4 (owner, 2026-11-12 18:18, "on mobile it still doesnt look as wide as the choices row and as other sections in the article"),
  * p5: on a phone (under 600px free) the face is the whole section, the grid's box, which there is the Moves row's own content box up to
- * the 496px cap, and the film and the article's sections share it; the arrows stand INSIDE the face, each target over its 36px side
+ * the 496px cap, and the film and the article's sections share it; the arrows stand INSIDE the face, each target over its 44px side
  * padding and reaching 12px past its edge, the glyph 16px in, the answers clear of both. Mode "phone" below; "lanes" is now the
  * columns only.
  *

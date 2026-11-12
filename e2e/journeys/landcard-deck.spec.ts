@@ -165,7 +165,10 @@ for (const width of [1440, 390]) {
       }
     })
     expect(m.sizing, "the floor below is a BORDER-box height").toBe("border-box")
-    expect(m.foot, "the foot is 1.5x the side gutter").toBeCloseTo(m.side * 1.5, 1)
+    // WIDTH4 (p5): on a phone the arrows stand inside the face, in a 32px lane of its side padding, so the side GUTTER (the owner's
+    // word: the edge beside the text) is the padding less that lane: 44 - 32 = 12, the phone's gutter as before, and the foot still 18.
+    const gutter = width < 600 ? m.side - 32 : m.side
+    expect(m.foot, "the foot is 1.5x the side gutter").toBeCloseTo(gutter * 1.5, 1)
     // The face is its content plus its own padding, floored only by NG_LAND_DECK_MIN_H — which
     // an MC face always clears. Raising that floor back towards the retired fixed height, or
     // reintroducing any other reserved band under the answers, moves this by ~20px.

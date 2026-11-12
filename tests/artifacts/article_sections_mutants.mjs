@@ -525,7 +525,7 @@ const mutants = [
   // u110-card-uncapped RETIRED in v1.263.1 with its target (CARDWIDTH): the open face has no cap of its own any more, it is the
   // grid's box (capped, u110-grid-uncapped) less its two arrow lanes, which stacked-width.spec.ts pins as [32, 32].
   ['u110-film-uncapped', 'stacked-width.spec.ts', 'stacked at 900px', s => replace(s, 'a.filmLayout(cap ? Math.min(free.width, cap + 32) : free.width,', 'a.filmLayout(free.width,')],
-  ['u110-grid-uncapped', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'Math.min(cap || 902, free.width - 64)', 'Math.min(902, free.width - 64)')],
+  ['u110-grid-uncapped', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'Math.min(cap || 902, free.width - (flush ? 64 : 24))', 'Math.min(902, free.width - (flush ? 64 : 24))')],
   // U110 a: the Moves row takes the column wherever the stacked box binds, 600 to 640px included (cobbler's check, 2026-11-09).
   ['u110-tray-phone-flush', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'this.trayFlush = W > 640 || free.width >= 600', 'this.trayFlush = W > 640')],
   // CARDWIDTH (owner, 2026-11-12, v1.263.1): the card's section spans the Moves row's box, the face less a 32px lane per arrow.

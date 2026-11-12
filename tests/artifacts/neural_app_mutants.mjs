@@ -270,7 +270,7 @@ const controls = [
     "Previous in the face's left lane", [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% - 8px)}']]],
   // WIDTH4 (p5, owner 2026-11-12 18:18): on a phone the arrows stand inside the face's own 36px side padding; an asking line keeps its own.
   ['width4-padding-lost', 'card-section.spec.ts', 'at its edges \\(390x631', [],
-    'runs under neither arrow', [['[data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){padding-left:36px!important;padding-right:36px!important}', '[data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){padding-left:12px!important;padding-right:12px!important}']]],
+    'runs under neither arrow', [['[data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){padding-left:44px!important;padding-right:44px!important}', '[data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){padding-left:12px!important;padding-right:12px!important}']]],
   ['width4-arrows-outside-on-phone', 'card-section.spec.ts', 'at its edges \\(390x844', [],
     'Previous stands 32px inside the face', [['.ng-landnav [data-land-prev]{right:auto;left:-12px}', '.ng-landnav [data-land-prev]{}']]],
   ['width4-asking-padded', 'article-order.spec.ts', 'U90 at 390x844 the question line', [],

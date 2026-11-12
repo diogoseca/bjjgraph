@@ -1453,7 +1453,7 @@ class Reader {
       if (!flush) mediaWidth = grid;
       // WIDTH2 (U152 b): where both margins beside the section hold a 44px target, from 600px free up to the columns, the face is the
       // section's own width and each arrow stands tight outside it. WIDTH4 (p5): on a phone too the face is the whole section, and the
-      // arrows stand INSIDE it, in its own 36px side padding (helmet.html, the phone rule under .ng-landnav). Only the columns (a 24px
+      // arrows stand INSIDE it, in its own 44px side padding (helmet.html, the phone rule under .ng-landnav). Only the columns (a 24px
       // gap before the film) and a flush row whose margins cannot hold a target (a narrow window beside the pane) keep the face less
       // two 32px lanes.
       const arrowLanes = arrows && (column || flush && free.width - grid < 88) ? 64 : 0;

@@ -16351,6 +16351,7 @@ change, nothing to press; p5 (built) p2 plus the article's sections and the film
 **Built (p5).** Under 600px free the grid is the viewport less the row's 12px gutters (WAS less 64), under the same 496px cap, and
 the film takes the grid's box too: at 390 and 360 the moves, the card, the film and the sections share one box; where the cap binds
 (528 to 599px) the card, the film and the sections share U110 a's box, the moves wider. The face is the whole section on a phone (no
-lanes), and the arrows stand inside it, each 44px target over its 36px side padding and reaching 12px past its edge; an asking line
+lanes), and the arrows stand inside it, each 44px target over its 44px side padding (its 32px lane, then the phone's 12px gutter, so the 1.5x
+foot stays 18 and the answers stand where they stood) and reaching 12px past its edge; an asking line
 keeps its own padding. Lanes stay only in the columns and in a flush row whose margins cannot hold a target. The 24 is the phone
 row's padding as a constant (measuring it cost 55 B); `card-section.spec.ts` pins the row's box and the face against each other.
