@@ -1,3 +1,6 @@
+// v1.263.1 (CARDWIDTH) recorded NON-KILL, not coverage: prev-climbs-over-choices, retargeted onto the guide's 22px floor once the
+// 70px one beside the index went. Previous now stands level with Next on its own side, and at 1440x560 and 1440x520 enough of the face
+// shows that the floor never binds. u110-card-uncapped is RETIRED with its target (the open face has no cap of its own).
 // v1.253.0 RETIRED with their subject (U114 a, the article's ✕ and the shelf): reading-shelf-retained and u110-close-on-article-edge.
 // Their source is gone, so no build can carry them. So is u59r4-reopen-ungated (#354's review, finding 2): its journey, putting the article
 // away and back, went with them. u59-pill-covers and reader-end-double-gap were retargeted onto _readerReserve's lane
@@ -507,7 +510,9 @@ const mutants = [
   ['tile-close-over-card-close', 'land-layers.spec.ts', 'the article survives minimizing the question', s => replace(s, 's.toggle.style.zIndex = meets(go, b) && !meets(shut, b) ? 6 : "";', 's.toggle.style.zIndex = meets(go, b) ? 6 : "";')],
   // v1.253.0 (#354's review, finding 5): beside the index the guide keeps Previous's top on the face. Finding 7: the film's drop only
   // while Moves is open.
-  ['prev-climbs-over-choices', 'deck-arrows-index.spec.ts', 'Previous stays on the face', s => replace(s, 'Math.max(a._landNavEl.hasAttribute("data-index") ? 70 : 22, Math.min(cardHeight - 22, middle))', 'Math.max(22, Math.min(cardHeight - 22, middle))')],
+  // v1.263.1 (CARDWIDTH): the 70 beside the index went with the right-lane rule (Previous is on its own side), so the guard is the
+  // 22 floor for both arrows now; retargeted onto it.
+  ['prev-climbs-over-choices', 'deck-arrows-index.spec.ts', 'Previous stays on the face', s => replace(s, 'Math.max(22, Math.min(cardHeight - 22, middle))', 'Math.min(cardHeight - 22, middle)')],
   ['tease-drop-moves-closed', 'tease-width.spec.ts', 'Moves closed', s => replace(s, 'const drop = showCard && showHand && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;', 'const drop = showCard && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;')],
   // #354's review, round 7 (finding 1): a closed control only ever opens, and the parts' look is painted on every layout pass.
   ['stale-label-turns-off', 'index-reveal.spec.ts', 'never turns the card layer off', s => replace(s, 'const back = a.restoreLanding?.();\n    if (!this.on(part)) a.setLayer(part, true, "reader");\n    else if (!back) { this.sync(); return; }', 'a.restoreLanding?.();\n    a.setLayer(part, !this.on(part), "reader");')],
@@ -517,11 +522,24 @@ const mutants = [
   ['index-reveal-lost', 'index-reveal.spec.ts', 'an article tile', s => replace(s, 'if (section.part) this.toggle(section.part); else this.toggleSection(section.type, true);', '')],
   ['video-title-plural', 'reading-contract.spec.ts', 'cannot repaint the opposite seat', s => replace(s, '["videos", "Video"], ["aka"', '["videos", "Videos"], ["aka"')],
   ['u110-cap-lost', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = 0;')],
-  ['u110-card-uncapped', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'beside ? 390 : cap || (arrows ? 560 : 520)', 'beside ? 390 : arrows ? 560 : 520')],
+  // u110-card-uncapped RETIRED in v1.263.1 with its target (CARDWIDTH): the open face has no cap of its own any more, it is the
+  // grid's box (capped, u110-grid-uncapped) less its two arrow lanes, which stacked-width.spec.ts pins as [32, 32].
   ['u110-film-uncapped', 'stacked-width.spec.ts', 'stacked at 900px', s => replace(s, 'a.filmLayout(cap ? Math.min(free.width, cap + 32) : free.width,', 'a.filmLayout(free.width,')],
   ['u110-grid-uncapped', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'Math.min(cap || 902, free.width - 64)', 'Math.min(902, free.width - 64)')],
   // U110 a: the Moves row takes the column wherever the stacked box binds, 600 to 640px included (cobbler's check, 2026-11-09).
   ['u110-tray-phone-flush', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'this.trayFlush = W > 640 || free.width >= 600', 'this.trayFlush = W > 640')],
+  // CARDWIDTH (owner, 2026-11-12, v1.263.1): the card's section spans the Moves row's box, the face less a 32px lane per arrow.
+  ['cardwidth-old-face', 'card-section.spec.ts', 'section spans.*390x631', s => replace(s, 'if (card) style(card, "width", column ? asking ? tease : column - arrowLanes : asking ? Math.min(cap || 520, free.width - 32) : span - arrowLanes, "important");', 'if (card) style(card, "width", Math.min(column ? asking ? tease : column - 52 : cap || (arrows ? 560 : 520), free.width - (arrows ? 104 : 32)), "important");')],
+  ['cardwidth-section-free', 'card-section.spec.ts', 'section spans.*390x844', s => replace(s, 'W - 2 * parseFloat(getComputedStyle(row).paddingLeft)', 'free.width - 32')],
+  // WIDTH2 (U152 b): outside where both margins hold a target, from 600px free up to the columns; each switch pinned from both sides.
+  // (cardwidth-tablet-lanes-lost RETIRED with its subject: at 768 the lanes are gone by design now.)
+  ['cardwidth-b-lost', 'card-section.spec.ts', 'outside the face \\(768x1024', s => replace(s, 'const arrowLanes = arrows && (column || free.width - span < 88) ? 64 : 0;', 'const arrowLanes = arrows ? 64 : 0;')],
+  ['cardwidth-b-in-columns', 'card-section.spec.ts', 'in their lanes \\(1024x768', s => replace(s, 'const arrowLanes = arrows && (column || free.width - span < 88) ? 64 : 0;', 'const arrowLanes = arrows && free.width - span < 88 ? 64 : 0;')],
+  ['cardwidth-b-margin-too-strict', 'card-section.spec.ts', 'outside the face \\(600x760', s => replace(s, 'const arrowLanes = arrows && (column || free.width - span < 88) ? 64 : 0;', 'const arrowLanes = arrows && (column || free.width - span < 120) ? 64 : 0;')],
+  ['cardwidth-b-starts-early', 'card-section.spec.ts', 'in their lanes \\(599x760', s => replace(s, 'this.trayFlush = W > 640 || free.width >= 600', 'this.trayFlush = W > 640 || free.width >= 590')],
+  ['cardwidth-column-offset-lost', 'card-section.spec.ts', 'section spans.*1440x900', s => replace(s, 'if (column) cardX = free.center - grid / 2 + arrowLanes / 2;', 'if (column) cardX = free.center - grid / 2;')],
+  ['cardwidth-nodeck-old', 'card-section.spec.ts', 'no deck.*390x844', s => replace(s, ' : asking ? Math.min(cap || 520, free.width - 32)', ' : asking || !arrows ? Math.min(cap || 520, free.width - 32)')],
+  ['cardwidth-nodeck-column-old', 'card-section.spec.ts', 'no deck.*1440x900', s => replace(s, 'column ? asking ? tease : column - arrowLanes :', 'column ? asking ? tease : column - 52 :')],
   // #346's review, finding 6: stacked, the article's ✕ ends on the column's right edge.
   ['u110-cap-past-columns', 'stacked-width.spec.ts', 'at 1,024px the columns begin', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = free.width < 1100 && 496;')],
   // v1.254.0: a reader button's pointer click counts only if its own pointerdown was on it, so the click ending a background tap on

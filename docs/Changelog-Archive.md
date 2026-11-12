@@ -16227,6 +16227,111 @@ runner's seconds.
 
 **Part 2, the content (LEGAL5, the same PR).** PR #374's head (`2e893aa7f`, the wording) merged in first, then dev after it (`bfcce42df`, no file change). `content/privacy.md`'s "In short" is replaced and `content/terms.md` gains one, with the owner's U150 words (five bold-lead points each) and two precision edits checked against the pages: "third-party advertising" (the page's own words), and "The full policy below lists ..." (the sentence is also read without JavaScript, where there is no toggle). Nothing about recordings (U148 b), the children sentence untouched (U149 a), and neither section names the operator or says "an individual" (`tests/legal_boxes.test.mjs` now asserts both sections exist). The five operator sentences (U151) are not answered and not in this change. The box needed no code: it reads what the pages say. One deploy-gate row (`tests/artifacts/deploy_gate.json`, tier S, 1.9 s locally): the /privacy arrival at 390x844, the only test tagged `@curated`, because these two pages were unreadable on production for four months and nothing noticed. The pages move three census fields (Terms' new heading, its anchor and table-of-contents links, and the email link in each new section), so the census and SEO baselines come from a guarded capture (CAP391), which also holds the six app rows the box moves.
 
+## v1.264.1 — The question card's section is as wide as the Moves row, its arrows tight in their lanes (WIDTH1, WIDTH2, 2026-11-12)
+
+**The owner's words** (12 Nov, a note on a 390x631 phone screenshot of a taken-up question): "wow, i see that landcard section isn't
+going the same width as the choices row container! pls fix that, the left and right arrwos on each side should tightly fit whatever
+centered on whatever space there is left on the left and right respectfully".
+
+**Measured before any change**, on the real bundle and payload of dev v1.262.10 with the real dossier chunks served (the film where it
+stands in play), Mount Top, the question taken up by mouse; left and right edges in CSS px:
+
+| size | Moves row's box | face | Previous's target | Next's target | glyph centres | no-deck card | film |
+|---|---|---|---|---|---|---|---|
+| 390x844, 390x631 | 12-378 | 52-338 (286) | 0-44 | 346-390 | 22, 368 | 16-374 | 16-374 |
+| 574x760 | 12-562 | 52-522 (470) | 0-44 | 530-574 | 22, 552 | 39-535 | 39-535 |
+| 768x1024 | 136-632 | 136-632 (496) | 84-128 | 640-684 | 106, 662 | 136-632 | 136-632 |
+| 1440x900 (columns, index) | 236-1204; left column 236-708 | 236-656 (420) | 664-708 (over Next) | 664-708 | 686, 686 | 236-656 | 732-1204 |
+
+Where they came from: one line of `reader.src.js`'s `layoutNow`, `min(column ? column - 52 : cap || 560, free.width - 104)` for a deck,
+centred (a 52px lane per arrow OUTSIDE the face: 44px target plus 8px), and helmet.html's `.ng-landnav` rules (`right:calc(100% + 8px)`
+and its mirror, the glyph centred in the target). Beside the index (from 1,350px free) `.ng-landnav[data-index]` stacked Previous over
+Next in the right lane (#346's review, finding 1), with a 70px guide floor for it in the reader. The app's own `_dockLandCard` /
+`_layoutLandHorizontal` path (the CSS `calc(100vw - 104px)` and a 52px gutter) only lays the card out when the reader module fails to
+load; a card waiting for the reader is `visibility:hidden` (`data-reader-pending`). The no-deck case is a card with no question
+(`landQuestions` off, or a deck with no cards): a 23px strip with its ✕.
+
+**Built, variant a** (`arrowLane`): the SECTION, the face and its two arrows, spans the Moves row's own box: the row less its computed
+phone padding under 600px free, the grid where the row is flush, the left column in columns. The face is that less one 32px lane per
+arrow; each arrow's 44px target abuts the face and reaches 12px past the section's edge (on a phone that is the row's own 12px gutter
+to the screen edge, the same target as before); its glyph rides 6px toward the face (`translate`), the middle of its lane. No deck, the
+face alone spans the section. An asking line keeps its width (U52 b). The right-lane rule beside the index, its `data-index` flag in
+`_layoutLandHorizontal` and the reader's 70px guide floor are retired: Previous sits inside the grid on its own side, its reach ending
+exactly on the index's 12px clearance. Two dead pieces of the old line went with it: the 390px face "beside its film outside the
+columns" (unreachable: the film goes beside only from 1,152px free on a window over 500px, where the grid is 902px, or 878px and more
+beside the 200px index, so always columns) and the 10px/16px floor on `cardX` (every width is at most the free width less 24).
+
+| size | face, a | targets, a | glyphs, a | no-deck, a | face, b |
+|---|---|---|---|---|---|
+| 390 (both heights) | 44-346 (302, +16) | 0-44, 346-390 | 28, 362 | 12-378 | = a |
+| 574x760 | 44-530 (486, +16) | 0-44, 530-574 | 28, 546 | 12-562 | = a |
+| 768x1024 | 168-600 (432, -64) | 124-168, 600-644 | 152, 616 | 136-632 | 136-632 (496), targets 92-136, 632-676 |
+| 1440x900 | 268-676 (408, -12) | 224-268, 676-720 | 252, 692 | 236-708 | = a |
+
+**Variant b** (screens only, not in the PR): the face as wide as the section and the arrows outside it, where both margins hold a
+44px target. It differs from a only where the stage stacks on a wide screen (from 600px free to the columns: 768 here), because a phone's
+margin is 12px and in columns the gap between the question and the film is 24px. At 768 b is today's layout with the arrows 8px closer.
+Under a, U110 a's "the card is as wide as the other stacked boxes" (stacked-width.spec.ts) becomes "the card's SECTION is"; b keeps it.
+
+**Bytes.** `reader.js` 44,875 -> 44,856 B (-19); deferred set 510,958 B of its 510,981 ceiling (version -4 included); `neural.css`
+-56 B, `neural.js` -114 B; eager gzip 351,630 B (-35). `check_payload_budget.py` exits 0.
+
+**Specs.** New: `card-section.spec.ts`, 10 tests (5 sizes x {deck, no deck}); claims and red-proof in its header and foot. Changed,
+each run green against the fix first: `stacked-width` (the box is read from the film; the face is the box less [32, 32]: WAS the face
+was the box), `video-cards` (columns: the face starts 32px in, the film is the face plus 64: WAS on the edge, plus 52; phone face 302:
+WAS 286), `pane-layout` (columns: film minus face 64: WAS 52; stacked: the grid less 64: WAS free less 104), `landcard-deck` (the film
+is the face plus 64; Next's target abuts the face, `toBeGreaterThan` -> `>=` with 0.5px; at 1440 Previous is in the face's left lane,
+right of the index and level with Next: WAS in the right lane above Next; at 390/320 Previous abuts: `toBeLessThan` -> `<=`),
+`deck-arrows-index` (Previous in the face's left lane, Next in its right: WAS both in the right lane). Loosened, and why: the two
+strict inequalities became `>=`/`<=` because the targets now abut the face by design (0px, was 8px); their red-proof is the new
+`cardwidth-arrow-gap-back` row turned the other way (a target over the face fails `card-section`'s abut and press claims).
+
+**Screens** (`~/bjj-orchestrator/artifacts/briefing/img/cardwidth/`, the real app on a private server, no harness, one fixed
+`Math.random` seed, so the same landing, question and answer order in every shot): today, a and, at 768, b, at each of the five sizes,
+with one side-by-side row per size.
+
+**Runs.** LOCAL, under the build lock: the bundle (`dev:neural:app`), `card-section.spec.ts` with the five changed files and the 23 card
+journeys (29 files, 352 tests, core config :8133): 352 passed in 23.9 minutes. `card-section.spec.ts` against dev's own bundle (the
+control): 9 of 10 red, each at its claim (the lane 40 not 32 on the phones, 0 at 768; lanes 0 and 52 at 1440; the no-deck face 4px and
+27px inside the section), the 768 no-deck test green as it should be (that face already spanned the row). `npm run ci:validate`: 28 of
+28 before this entry. `check_payload_budget.py`: exit 0. The PR's e2e-full runs the full core suite and `e2e:gen`.
+
+**Red-proof** (under the build lock, a private server, each control against a green baseline of the same test, the served files
+restored byte for byte after): all ten `card-section.spec.ts` rows killed at their claims (the table is in the spec's foot); the two
+rows for the relaxed `landcard-deck` inequalities (an arrow 8px over the face, each side) killed at those lines; the replacement for
+the retired index-lane rows, Previous pushed back over the index, killed at "lies right of the index"; the U110 rows re-run against
+the re-pinned `stacked-width.spec.ts`, all five killed. One NON-KILL, recorded in `deck-arrows-index.spec.ts` and the harness, not
+coverage: `prev-climbs-over-choices`, retargeted onto the guide's 22px floor; with Previous level with Next, the short screens there
+always show more of the face than an arrow's height, so the floor never binds.
+
+**On the merged tree** (origin/dev b43c4c075, v1.262.11, by merge): `validate:build-shape:app` re-seeded eight app rows (three by
+bytes, five hash-only game bundles that embed the gameplay manifest); `card-section` and the five re-pinned files, 76 of 76, under the
+lock; `check_payload_budget.py` exit 0 (deferred 510,958 B of 510,981; eager gzip 352,261 B, -30 B against v1.262.11).
+
+**WIDTH2 (the orchestrator's build of U152 b while the owner looks; a is one revert of its own commit).** Where both margins beside the
+card's section hold a 44px target, from 600px free up to the two columns, the face is the section itself and each arrow abuts it
+from outside, its glyph 16px from the face as in a phone's lane (so the arrows look alike at every width; the scratch b in the
+pictures centred the glyph in its target, 22px from the face). Phones (a 12px margin) and the columns (a 24px gap before the film)
+keep a. Built, 768x1024: face 136-632, targets 92-136 and 632-676; 600x760 outside, 599x760 inside; 1023x768 outside, 1024x768
+inside. `card-section.spec.ts` carries an `outside` claim per size and one width each side of each switch (18 tests);
+`stacked-width.spec.ts` is back to U110 a's "the card shares the film's two edges"; `pane-layout.spec.ts`'s stacked case follows the
+margin rule. The two 32px lanes are counted as one 64px value (`arrowLanes`) so the reader fits: `reader.js` 44,879 B, the deferred
+set exactly its 510,981 B ceiling, 0 B left; `check_payload_budget.py` exits 0. Mutants, under the lock, each against a green
+baseline: 22 of 23 killed at their claims (five new rows pin the switch from both sides); `prev-climbs-over-choices` the same recorded
+non-kill. Runs, local, under the lock: `card-section` 18 of 18 and the other 28 card files 359 of 360 on `90c094b1b`; the one red,
+`defending-landing.spec.ts:682`, failed on its timing PREMISE ("frames with the film present while pinned": 1, needs more than 3; it
+holds an article 1.5s and the chunk 2.6s on real timers), at 1440, where a and b lay out the same; rerun on its own after the
+DEV389 merge (below). Merged origin/dev b43c4c075 was followed by 8844ed6ee (DEV388) and b62bc67c9 (DEV389), each by merge; the app
+rows were re-seeded on the last merge head.
+
+**The video under the card was NOT built** (the orchestrator's stop rule: it moves other things). A scratch build giving it the moves
+row's width on phones: at 390 the video goes 358 x 220 -> 366 x 224 (16:9 kept), so the article and all below move down 4px (nothing
+above the fold at 390x631); at 574 it goes 496 x 291 -> 550 x 318, all below moves down 28px, and the video is then 54px wider than
+the article under it. Pictures: `04-video-before-*`, `05-video-after-*`, `00-video-row-*` in the cardwidth briefing folder.
+On that head (`217b2297b`, under the lock): `card-section`, the five re-pinned files, `short-phone-answers` (DEV389 changed it),
+`covered-card` and `card-fold`, 125 of 125; `defending-landing.spec.ts:682` on its own three times, 3 of 3; `check_payload_budget.py`
+exit 0.
+
 ## v1.264.2 — The deploy gate's second follow-ups: fast-forwards, keepalive tips, the count's own tripwire (GATE7, 2026-11-12)
 
 **Why.** The same reader's second report on #392 (MERGE WITH FOLLOW-UPS) found no false pass. What it did find were
