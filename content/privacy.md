@@ -23,7 +23,7 @@ If you have any questions about this policy or your data, contact us at **[suppo
 
 ## In short
 
-- You can use almost all of BJJGraph **anonymously**. Your training progress is stored **on your own device** and never leaves it unless you choose to create an account.
+- You can use almost all of BJJGraph **anonymously**. Your training progress is stored **on your own device**, in your browser, and is sent to us only when someone signs in on that browser.
 - If you **sign in** (with Google or email), we store your account details and sync your training progress so it follows you across devices.
 - We use **PostHog** for privacy-conscious analytics to understand how the Service is used and to improve it.
 - We **do not sell** your personal data.
@@ -38,8 +38,8 @@ The Service is operated by **Diogo Seca**, an individual, at the domain **bjjgra
 
 Signing in is optional. We offer sign-in with **Google (SSO)** and with **email and password**, handled through our authentication provider, [Supabase](https://supabase.com).
 
-- **If you sign in with Google**, we receive from your Google account: your **email address**, your **name**, your **profile picture**, and your **Google account identifier**. We use these only to identify your account and display your name and avatar in the interface.
-- **If you sign in with email and password**, Supabase stores your **email address** and a securely hashed password. We never see or store your password in plain text.
+- **If you sign in with Google**, we receive from your Google account: your **email address**, your **name**, your **profile picture**, and your **Google account identifier**. We use these only to identify your account and display your name in the interface; your profile picture is received and stored with your account, but it is not shown.
+- **If you sign in with email and password**, Supabase stores your **email address** and a securely hashed password, and sends the email that confirms your address when you create an account. We never see or store your password in plain text.
 - In all cases, Supabase assigns your account a **unique user identifier (UUID)**, which we use as the key to store and sync your data.
 
 ### 2. Training and progress data (synced only when signed in)
@@ -47,7 +47,7 @@ Signing in is optional. We offer sign-in with **Google (SSO)** and with **email 
 When you are signed in, the following data is synced to our database (the Supabase `user_training_data` table) so it is available across your devices:
 
 - **Flashcard / spaced-repetition state** (which techniques you are learning and when they are next due)
-- **Settings and preferences**
+- **Settings and preferences** (including a code generated in your browser, under which your roll history is recorded)
 - **Daily progress** (how many flashcards you answered correctly and how many rolls you played each day, for your last 30 days of activity)
 - **Roll history** (for each position, the moves you have tried there in the last 180 days and how often they worked)
 - **Explored positions** (which positions you have landed on in a roll)
@@ -55,7 +55,7 @@ When you are signed in, the following data is synced to our database (the Supaba
 - **Your technique lists** (the techniques in each list, and the name you give it)
 - **Training-day email log**, recorded only while that setting is on (for each of your last 30 days of activity: the techniques you studied, your score, your belt and your weakest spots)
 
-This data describes your learning activity only. Apart from the names you give your lists, it contains **no free-text or sensitive personal information**, and each record is restricted so that only your account can read or write it.
+This data describes your learning activity only. Apart from the names you give your lists, it contains **no free-text or sensitive personal information**, and each record is restricted so that no other user can read or write it.
 
 If you signed in before late August 2026, your account may also still hold a copy of your flashcard state, settings and daily progress saved by an earlier version of the app, which the app no longer reads or updates.
 
@@ -63,7 +63,7 @@ If you signed in before late August 2026, your account may also still hold a cop
 
 Whether or not you sign in, the Service stores data in your browser's **local storage** to make the training and game features work. These keys include, among others: `bjj-neural-owner:guest:progress` (your progress when you are not signed in), a `bjj-neural-owner:account:<your account ID>:progress` key for each account that has signed in on that browser (that account's progress, kept after you sign out), `bjj_view_mode`, and `bjj_gi_mode`.
 
-If you are **not** signed in, this data **stays on your device and is not transmitted to us** until someone signs in on that browser. If you sign in, progress made in that browser while signed out is added to your account, and your progress is then synced as described above.
+If you are **not** signed in, this data **stays on your device and is not transmitted to us** until someone signs in on that browser. When someone signs in, the progress made in that browser while signed out (but not its settings) is added to their account, and their progress is then synced as described above. The signed-out copy stays in the browser, so it is also added to any other account that signs in there later.
 
 ### 4. Analytics data
 
@@ -73,14 +73,17 @@ We use **PostHog** to understand how the Service is used. PostHog collects, on o
 - **Device and browser information**
 - **Approximate location**, derived from your IP address (we do not store precise location)
 - **Interaction events**, such as picking a move, answering a flashcard, or clicking an affiliate link, and the text of any feedback you send
+- **Clicks on the page**, recorded automatically, with the text of what was clicked
 
-These events describe behaviour and content interaction; they do not include sensitive personal information.
+These events describe behaviour and content interaction; apart from anything you type into a feedback message, they do not include sensitive personal information.
+
+We also use **Cloudflare Web Analytics** to count visits.
 
 ## Cookies and local storage
 
 - **Analytics cookies:** PostHog sets cookies to recognise returning visitors and measure usage.
 - **Local storage:** Your authentication session (if signed in) and your training data are kept in your browser's local storage rather than in cookies.
-- **Third-party cookies:** Google may set cookies on its own domains when you sign in with Google or when Google Fonts are loaded.
+- **Third-party cookies:** Google may set cookies on its own domains when you sign in with Google, when Google Fonts are loaded, or when a YouTube video loads.
 
 You can clear cookies and local storage at any time through your browser settings. Doing so will sign you out and remove locally stored training data (synced data remains in your account until deleted).
 
@@ -110,9 +113,12 @@ We rely on the following service providers, which may process limited data on ou
 | Provider | Purpose | Data involved |
 |----------|---------|---------------|
 | **Supabase** | Authentication and database (account + training-data sync) | Account details, training/progress data |
-| **Cloudflare Pages** | Website hosting and delivery | IP address and request metadata |
+| **Cloudflare** | Website hosting and delivery (Cloudflare Pages), and visit counts (Cloudflare Web Analytics) | IP address and request metadata |
 | **Google** | Sign-in (OAuth SSO) and web fonts | Email, name, profile picture, Google ID (sign-in); IP/user-agent (fonts) |
+| **YouTube (Google)** | Technique videos and their preview images | IP address and user-agent; YouTube may set cookies when a video loads |
 | **jsDelivr (CDN)** | Delivers the authentication SDK to your browser | IP address and user-agent |
+| **Bunny.net** | Course preview videos on System pages | IP address and user-agent |
+| **GitHub** | The star count shown in the account menu | IP address and user-agent |
 | **PostHog** | Product analytics | Usage events, device/browser, approximate location |
 
 Some outbound links on the Service (for example to **BJJFanatics**) are affiliate links; clicking them takes you to a third-party site governed by its own privacy policy.
