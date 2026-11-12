@@ -3,6 +3,9 @@ import { journey } from "../dsl"
 import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } from "../fixtures/neural-auth-sdk"
 
 /**
+ * NOT @curated (CURATED36, 12 Nov: the deploy gate is near its ceiling). What must never reach the preview broken, the
+ * join only adding, is pinned by tests/guest_join_safety.test.mjs on every push, and the join through the real facade is
+ * already in the curated gate (auth-owner.spec.ts "A to B to signout"). These run in the PR's e2e-full.
  * GUEST PRACTICE JOINS THE ACCOUNT AT SIGN-IN (v1.262.0, the owner U138 a, 11 Nov: "Always automatic"). It replaces the
  * badge menu's "Review guest progress" row and its Import dialog. The merge rule and its units are in
  * tests/guest_join_safety.test.mjs; this journey is what a player meets, in the built app, at 1440 by mouse and at
@@ -126,7 +129,7 @@ async function story(page: Page, touch: boolean) {
   await expect.poll(async () => (await lineCover(page)).text, { timeout: 30_000 }).toBe(LINE)
 }
 
-test("@curated a guest who practised signs in at 1440: the practice joins, one line that covers no control, no menu row, once, a second account too", async ({ page }) => {
+test("a guest who practised signs in at 1440: the practice joins, one line that covers no control, no menu row, once, a second account too", async ({ page }) => {
   await story(page, false)
 })
 
