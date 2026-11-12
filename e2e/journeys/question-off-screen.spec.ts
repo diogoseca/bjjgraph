@@ -242,10 +242,24 @@ test.describe("390x631, by touch", () => {
   })
 })
 
-test.describe("1440x900, by wheel", () => {
-  test.use({ viewport: { width: 1440, height: 900 } })
+// SHORT5 (the review's count): the rule reads every frame of every layout, so the tablet widths carry a card off too, not only the
+// phone and 1440 (before this, 3 tests took a question up at 768 and 5 at 1024, and none carried a card off).
+test.describe("768x1024, by touch", () => {
+  test.use({ viewport: { width: 768, height: 1024 }, hasTouch: true })
+  test("SHORT5: at 768x1024, carried off from the card, a taken-up question is put down free", async ({ page }) => {
+    const j = await arrive(page, true)
+    await carryOff(page, j, "card")
+    await j.advance(100)
+    const off = await state(page)
+    expect(off.card!.bottom, "premise: the card has wholly left the screen").toBeLessThanOrEqual(off.top)
+    expect([off.declined, off.answered, off.remaining], "at 768x1024, carried off from the card, it is put down free").toEqual([["off_screen"], true, null])
+  })
+})
 
-  test("SHORT4: carried off by the wheel over the card, a taken-up question is put down free", async ({ page }) => {
+for (const vp of [{ width: 1440, height: 900 }, { width: 1024, height: 768 }]) test.describe(`${vp.width}x${vp.height}, by wheel`, () => {
+  test.use({ viewport: vp })
+
+  test(`SHORT4: carried off by the wheel over the card, a taken-up question is put down free (${vp.width}x${vp.height})`, async ({ page }) => {
     const j = await arrive(page, false)
     for (let k = 0; k < 12; k++) {
       const s = await state(page)
@@ -263,6 +277,11 @@ test.describe("1440x900, by wheel", () => {
     await j.advance(20000)
     expect((await state(page)).expired, "and it never runs out unseen").toBe(0)
   })
+
+})
+
+test.describe("1440x900, the reading rule", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
 
   test("SHORT4: the reading rule holds: with every answer in view, a wheel over the article declines at once, free", async ({ page }) => {
     const j = await arrive(page, false)
