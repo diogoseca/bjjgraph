@@ -702,7 +702,7 @@ drawer icon with no label (an amber dot while reviews are owed). It is ONE list,
 order: Search, **Explore** (an expandable list: Positions, Transitions, Submissions, Systems,
 Principles, Learning — the category folds below), **Practice**, then **Path** (U60 b: no Train
 header), **Your lists**, **Last rolls**, and the **badge** at the foot, which shows today ("Today: 12
-of 20 cards · 2 rolls"; the day's rolls persist as `rollDays`) before it is opened and opens a short menu (Settings, including Notifications,
+of 20 cards · 2 rolls"; the day's rolls persist as `rollDays`) before it is opened and opens a short menu (Settings,
 Feedback, sign in/out; Terms · Privacy · GitHub small). Practice opens the mixed
 session (§8), Path the Challenges corridor and Last rolls the roll history; the brand ("‹ Path")
 leads back. The view ids stay `explore` · `challenges` · `history`. A lit page fades the rest of the
