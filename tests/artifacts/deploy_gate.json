@@ -424,10 +424,10 @@
     },
     {
       "file": "learning-reader.spec.ts",
-      "title": "@curated Learning is complete, expandable, and readable at 390px",
+      "title": "@curated existing BJJ-For-Beginners-Roadmap URL opens its Learning entry",
       "tier": "S",
-      "reason": "smoke, a Learning reader opens complete and readable (390px)",
-      "ci_s": 0.8
+      "reason": "smoke, a built Learning page opens in the reader (/Learning/BJJ-For-Beginners-Roadmap): ready on that path, a body, no roll",
+      "ci_s": null
     },
     {
       "file": "share-lists.spec.ts",
