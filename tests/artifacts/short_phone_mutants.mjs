@@ -28,11 +28,11 @@ const once = (text, re, to, name) => {
 }
 const MUTANTS = [
   { name: "reach-off", file: "reader.js", why: "the article reach never starts: a press on the article is reading at once (the old rule)",
-    edit: t => once(t, /[\w$]+&&this\.app\._reach\(\)/, "!1", "reach-off"),
+    edit: t => once(t, /[\w$]+&&this\.app\._rch\(\)/, "!1", "reach-off"),
     tests: [["past the answers, a drag from the article back", "a drag from the article back toward the answers is reaching"],
             ["the escape drill's card", "the drill keeps its clock"]] },
   { name: "reach-ignores-view", file: "neural.js", why: "a press on the article is a reach even with every answer in view",
-    edit: t => once(t, /(_reach\(\)\{[^}]*?if\(!([\w$]+)\|\|!\2\.on)\|\|\2\.all\)/, "$1)", "reach-ignores-view"),
+    edit: t => once(t, /(_rch\(\)\{[^}]*?if\(!([\w$]+)\|\|!\2\.on)\|\|\2\.all\)/, "$1)", "reach-ignores-view"),
     tests: [["control: with every answer in view", "with every answer in view, a drag from the article is reading"]] },
   { name: "reach-never-leaves", file: "neural.js", why: "a reach that carries the card off the screen is never declined",
     edit: t => once(t, /_reachTick\(\)\{/, "_reachTick(){return;", "reach-never-leaves"),

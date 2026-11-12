@@ -12,7 +12,7 @@ import { journey } from "../dsl"
  * any size. A finger that started on the ARTICLE did: it was reading on touch-down, so a player who scrolled past the card
  * and dragged back from the article toward answers above the top edge lost the question's clock, paused the game and was
  * logged as having ignored it (land_q_declined:reading), since v1.236.0 (U47 d). Now (reader.src.js readingInteraction asks
- * app.src.jsx `_reach`, `_landView`, `_reachTick`) such a scroll is reaching while the card is on screen and one of its answers is
+ * app.src.jsx `_rch`, `_landView`, `_reachTick`) such a scroll is reaching while the card is on screen and one of its answers is
  * out of view; if it carries the card off the screen the question is declined, free, as before, on the next frame; with every
  * answer already in view it is reading at once (the reading rule, reading-mode.spec.ts, kept). A press on the game ends a reach.
  *

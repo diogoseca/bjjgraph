@@ -18306,12 +18306,12 @@ class Component extends DCLogic {
     const ans = [...(el.querySelector("[data-land-q]")?.lastElementChild?.querySelectorAll("button") || [])].filter((b) => b.getClientRects().length);
     return { on: r.bottom > top && r.top < bot, all: ans.every((b) => { const a = b.getBoundingClientRect(); return a.top >= top - 0.5 && a.bottom <= bot + 0.5; }) };
   }
-  // SHORT1: the reader asks this when a wheel, touch or pen scroll starts on the article. True = the player is reaching for
+  // SHORT1: the reader asks this (`_rch`) when a wheel, touch or pen scroll starts on the article. True = the player is reaching for
   // an answer out of view on a card still on screen: not reading, so no decline, no pause, and the clock runs. The reach is
   // then judged where it goes (`_reachTick`). A press on the game ends it: that is the player's own scroll, which never
   // declines, so a reach can never turn a later scroll begun on the card into a decline. Its lifters: that press, the
   // question resolving, a new question, and the card leaving the screen.
-  _reach() {
+  _rch() { // the reach; four letters because the reader's call of it is paid for in capped deferred bytes
     const v = this._landView(), R = this._reader;
     if (!v || !v.on || v.all) return false;
     this._rq = this._landQ;
