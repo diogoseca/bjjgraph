@@ -28,8 +28,10 @@ import { journey } from "../dsl"
  *   reach-off (the article reach never starts)            → red at "a drag from the article back toward the answers is reaching"
  *                                                          and at "the drill keeps its clock"
  *   reach-ignores-view (a reach even with every answer in view) → red at "with every answer in view, a drag from the article is reading"
- *   reach-never-leaves (a reach that carries the card off is never declined) → red at "carried off the screen, it is declined"
- *   reach-lift-off (a press on the game does not end a reach)   → red at "a press on the game ends the reach"
+ *   off-never-declines (a card carried off is never declined) → red at "carried off the screen, it is declined"
+ * SHORT4 (U146 a) retired "a press on the game ends an article reach, so a drag on the card that carries it off declines nothing":
+ * the owner made carrying the card off a free decline however the scroll began (question-off-screen.spec.ts), so its claim is
+ * reversed, not loosened, and its mutant (reach-lift-off) went with the lifter it pinned.
  *   scroll-declines (every scroll of the reader declines)  → red at "a finger on the card declines nothing"
  *   card-eats-touch (the card refuses to scroll the reader: touch-action none) → red at "every answer comes into view"
  *   drill-excluded (the seam ignores a catch's drill)      → red at "the drill keeps its clock"
@@ -199,7 +201,7 @@ test.describe("390x631, by touch, from the article", () => {
     expect((await state(page)).expired, "declined free: it never expires").toBe(0)
   })
 
-  test("SHORT1: a reach from the article that carries the card off the screen declines the question, free, as a touch on the article did before", async ({ page }) => {
+  test("SHORT1: a reach from the article that carries the card off the screen declines the question, free (SHORT4: the one off-screen rule)", async ({ page }) => {
     const j = await arriveAndTakeUp(page)
     const { s: over } = await overshoot(page, j)
     const art = (await lowest(page, "article", over.bot - 12, over.bot - 200))!
@@ -209,29 +211,10 @@ test.describe("390x631, by touch, from the article", () => {
     await j.advance(100) // the app judges a reach on its frame (`_reachTick`)
     const s = await state(page)
     expect(s.card!.bottom, "premise: the card has left the screen").toBeLessThanOrEqual(s.top)
-    expect([s.declined, s.answered], "carried off the screen, it is declined").toEqual([["reading"], true])
+    expect([s.declined, s.answered], "carried off the screen, it is declined").toEqual([["off_screen"], true])
     expect(s.interacting, "and the reader is not switched to reading mid-scroll").toBe(false)
     await j.advance(20000)
     expect((await state(page)).expired, "declined free: it never expires").toBe(0)
-  })
-
-  test("SHORT1: a press on the game ends an article reach, so a drag on the card that carries it off declines nothing, as before", async ({ page }) => {
-    const j = await arriveAndTakeUp(page)
-    const { art } = await overshoot(page, j)
-    await finger(page, art.x, art.y, -100) // a reach: the card comes down and stays on screen
-    await j.readerLayoutSettled()
-    await j.advance(100)
-    const reached = await state(page)
-    expect([reached.declined, reached.answered, reached.card!.bottom > reached.top], "premise: a reach, the card still on screen").toEqual([[], false, true])
-    const from = await lowest(page, "card", reached.card!.bottom - 4, reached.top + 4)
-    expect(from, "premise: a point on the card").not.toBeNull()
-    // a thumb may carry on past the reader's top edge: the scroll is the gesture's, wherever the finger ends
-    await finger(page, from!.x, from!.y, Math.min(from!.y - 4, reached.card!.bottom - reached.top + 40))
-    await j.readerLayoutSettled()
-    await j.advance(100)
-    const s = await state(page)
-    expect(s.card!.bottom, "premise: the card has left the screen").toBeLessThanOrEqual(s.top)
-    expect([s.declined, s.answered, s.remaining != null], "a press on the game ends the reach: nothing declines and the clock runs, as for any scroll begun on the card").toEqual([[], false, true])
   })
 
   test("SHORT1: the escape drill's card: its answers are on screen, and past them a drag from the article back keeps its clock", async ({ page }) => {
