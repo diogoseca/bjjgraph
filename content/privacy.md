@@ -15,7 +15,7 @@ description: How BJJGraph collects, uses, stores, and protects your data.
 }
 </script>
 
-**Effective date: 22 June 2026**
+**Effective date: 12 November 2026**
 
 This Privacy Policy explains how **BJJGraph** ("BJJGraph", "we", "us") collects, uses, stores, and shares information when you use the website at [bjjgraph.org](https://bjjgraph.org) (the "Service"). BJJGraph is an educational Brazilian Jiu-Jitsu knowledge graph and training tool operated by Diogo Seca as an individual. The Service is currently in **beta** and under active development.
 
@@ -25,7 +25,7 @@ If you have any questions about this policy or your data, contact us at **[suppo
 
 - You can use almost all of BJJGraph **anonymously**. Your training progress is stored **on your own device**, in your browser, and is sent to us only when someone signs in on that browser.
 - If you **sign in** (with Google or email), we store your account details and sync your training progress so it follows you across devices.
-- We use **PostHog** for privacy-conscious analytics to understand how the Service is used and to improve it.
+- We use **PostHog** for analytics to understand how the Service is used and to improve it.
 - We **do not sell** your personal data.
 
 ## Who we are
@@ -47,9 +47,9 @@ Signing in is optional. We offer sign-in with **Google (SSO)** and with **email 
 When you are signed in, the following data is synced to our database (the Supabase `user_training_data` table) so it is available across your devices:
 
 - **Flashcard / spaced-repetition state** (which techniques you are learning and when they are next due)
-- **Settings and preferences** (including a code generated in your browser, under which your roll history is recorded)
+- **Settings and preferences**
 - **Daily progress** (how many flashcards you answered correctly and how many rolls you played each day, for your last 30 days of activity)
-- **Roll history** (for each position, the moves you have tried there in the last 180 days and how often they worked)
+- **Roll history** (how often you chose each move from each position, and how often it worked), recorded separately for each browser you use, under a code generated in that browser
 - **Explored positions** (which positions you have landed on in a roll)
 - **Game progress** (belts, badges, coins, challenges and tutorial steps)
 - **Your technique lists** (the techniques in each list, and the name you give it)
@@ -103,12 +103,11 @@ We **do not sell** your personal data, and we do not use it for third-party adve
 Where the EU General Data Protection Regulation applies, we rely on the following legal bases:
 
 - **Performance of a service** — to operate your account and sync your training data when you sign in.
-- **Consent** — for analytics; you may withhold or withdraw it (for example, by using browser controls or clearing analytics cookies).
 - **Legitimate interests** — to keep the Service secure and to understand and improve how it is used, balanced against your rights.
 
 ## Third parties and sub-processors
 
-We rely on the following service providers, which may process limited data on our behalf:
+We rely on the following service providers, which may process data on our behalf:
 
 | Provider | Purpose | Data involved |
 |----------|---------|---------------|
@@ -142,7 +141,6 @@ Subject to applicable law (including the GDPR), you have the right to:
 - **Erase** your data ("right to be forgotten")
 - **Port** your data to another service
 - **Restrict** or **object** to certain processing
-- **Withdraw consent** to analytics at any time
 - **Lodge a complaint** with your local data-protection supervisory authority
 
 To exercise any of these rights, email **[support@bjjgraph.org](mailto:support@bjjgraph.org)**.
