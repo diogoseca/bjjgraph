@@ -2456,7 +2456,7 @@ class Component extends DCLogic {
         // "Kimura". .72em holds it at 13px desktop / 10.8px phone.
         ? sp.main + '<div style="opacity:.6;font-weight:500;font-size:.72em;letter-spacing:0;margin-top:3px;">' + sp.from + '</div>'
         : sp.main;
-      t.style.marginTop = "";            // a whole sentence's step (below) belongs to that sentence only
+      t.style.paddingTop = "";           // a whole sentence's step (below) belongs to that sentence only
       if (whole) this._evStepBelowControls(t);
     }
     if (box) box.style.opacity = "1";
@@ -2478,7 +2478,9 @@ class Component extends DCLogic {
         const b = el.getBoundingClientRect();
         if (b.width > 0 && b.height > 0 && lines.some((r) => r.left < b.right && r.right > b.left && r.top < b.bottom && r.bottom > b.top)) low = Math.max(low, b.bottom);
       }
-      if (low > top) t.style.marginTop = Math.ceil(low - top + 4) + "px";
+      // PADDING, not margin: a margin collapses with the kicker's 7px margin-bottom, and the first build stepped the
+      // sentence 8px for a 15px ask, leaving it 3px over the targets (measured at 360, 390 and 430)
+      if (low > top) t.style.paddingTop = Math.ceil(low - top + 4) + "px";
     } catch (e) { /* no layout (unit harness): the sentence stays where it is */ }
   }
   // ---------- drill deck (flashcards) + dominance flash ----------
@@ -17195,13 +17197,13 @@ class Component extends DCLogic {
   /** The one announcer slot, saved and put back — a film borrows it, it does not own it. */
   _evSnapshot() {
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
-    return { k: k ? k.textContent : "", col: k ? k.style.color : "", html: t ? t.innerHTML : "", mt: t ? t.style.marginTop : "", op: box ? box.style.opacity : "" };
+    return { k: k ? k.textContent : "", col: k ? k.style.color : "", html: t ? t.innerHTML : "", pt: t ? t.style.paddingTop : "", op: box ? box.style.opacity : "" };
   }
   _restoreEvent(s) {
     if (!s) return;
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
     if (k) { k.textContent = s.k; k.style.color = s.col; }
-    if (t) { t.innerHTML = s.html; t.style.marginTop = s.mt || ""; }
+    if (t) { t.innerHTML = s.html; t.style.paddingTop = s.pt || ""; }
     if (box) box.style.opacity = s.op;
   }
   /**
