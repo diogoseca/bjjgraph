@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.263.4** — [The deploy gate's second follow-ups: fast-forwards, keepalive tips, the count's own tripwire](#v12634--the-deploy-gates-second-follow-ups-fast-forwards-keepalive-tips-the-counts-own-tripwire-gate7-2026-11-12)
 - **v1.263.3** — [The deploy gate's follow-ups: a smoke per surface, the count of what ran, the promotion rule enforced](#v12633--the-deploy-gates-follow-ups-a-smoke-per-surface-the-count-of-what-ran-the-promotion-rule-enforced-gate6-2026-11-12)
 - **v1.263.1** — [A taken-up question whose card leaves the screen is put down free, however the scroll began](#v12631--a-taken-up-question-whose-card-leaves-the-screen-is-put-down-free-however-the-scroll-began-owner-u146-a-short4-2026-11-12)
 - **v1.263.0** — [The deploy gate runs what a deploy can break, plus one smoke per surface](#v12630--the-deploy-gate-runs-what-a-deploy-can-break-plus-one-smoke-per-surface-gate5-2026-11-12)
@@ -16183,3 +16184,37 @@ runner's seconds.
 
 **Mutants.** 16, each applied alone to a scratch copy, each killed at a named assertion of `tests/deploy_gate.test.mjs`
 (the table is in its header), plus the build-chain cases in `tests/build_chains.test.mjs`.
+
+## v1.263.4 — The deploy gate's second follow-ups: fast-forwards, keepalive tips, the count's own tripwire (GATE7, 2026-11-12)
+
+**Why.** The same reader's second report on #392 (MERGE WITH FOLLOW-UPS) found no false pass. What it did find were
+false failures that fail closed, one hole the code could not see, and ledger text that was still not true.
+
+**The first CI run of the count** (deploy-dev 43274512974, dev bf006e700): "63 passed (2.4m)", then "deploy gate ran 63
+tests: 63 passed of 63 rows, 0 skipped". The tripwire said "the curated gate took 2.4 min". The runner was at 0.81 of
+the slow one, so about 3.0 on a slow runner, matching the ledger's sum.
+
+**What changed, one commit per finding.**
+- **New 1.** The promotion rule looks at the pushed commit's own runs first. A fast-forward of main onto a dev tip (a PR
+  merge commit) passes on that tip's own push-run. The second parent and the tree check come after.
+- **New 2.** A single-parent commit that changes only `.github/keepalive.txt` hands the question to its parent (up to 20
+  in a row). Any other single-parent tip fails, and its message gives the branch-and-dispatch recipe.
+- **New 3.** `ran` leaves `e2e/test-results/gate-count.json`, and the tripwire, later in the same job, fails unless it is
+  there and equals the ledger. That catches npm's `ignore-scripts`, which skips post-hooks while the main script stays
+  green. It reads that file, not the gate step's log: the job-logs API served 404 BlobNotFound for that deploy's job
+  while it ran. The unit asserts no tracked `.npmrc` sets `ignore-scripts` (the one tracked, `source/.npmrc`, sets
+  `engine-strict`) and no deploy sets `npm_config_ignore_scripts`.
+- **New 4.** The Learning smoke is now "existing BJJ-For-Beginners-Roadmap URL opens its Learning entry", a built page,
+  0.6 s. It replaces the 390px fixture case.
+- **New 5.** bundle-version's two rows move to S: every build writes `window.__NEURAL_BUILD`. The build stamp leaves
+  tier D's definition. D is 12 rows, S 51. reading-media-placement's reason names its spliced-in fixture.
+- **New 6.** `if-no-files-found: error` on the tested-site upload.
+- **New 7 and 8.** The unit pins every step of `test` and `gen`. The rule writes down why any green run counts and a
+  later red does not revoke it. A head with no parents names the checkout depth.
+
+**Proof.** Unit 19 of 19, with 12 mutants each killed at a named assertion (the table is in its header). Dry runs
+against the real API:
+- FFDEV (bfcce42df) and FF8844 (8844ed6ee) pass on their own push-runs;
+- a scratch `--no-ff` merge of bfcce42df onto main passes on it;
+- one and two scratch keepalives on top of that merge pass on it;
+- a scratch real commit on top fails, with the recipe.
