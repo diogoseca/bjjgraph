@@ -29,7 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
-- **v1.262.2** — [A scroll that reaches for a taken-up question's answers no longer declines it](#v12622--a-scroll-that-reaches-for-a-taken-up-questions-answers-no-longer-declines-it-short1-2026-11-12)
+- **v1.262.1** — [A scroll that reaches for a taken-up question's answers no longer declines it](#v12621--a-scroll-that-reaches-for-a-taken-up-questions-answers-no-longer-declines-it-short1-2026-11-12)
 - **v1.261.2** — [A signed-in player's name, initial and address never reach analytics](#v12612--a-signed-in-players-name-initial-and-address-never-reach-analytics-mask1-to-mask3-2026-11-12)
 - **v1.261.0** — [Practice opens inside the drawer, at the drawer's width, as Path does](#v12610--practice-opens-inside-the-drawer-at-the-drawers-width-as-path-does-owner-u135-a-pract1-and-pract2-2026-11-12)
 - **v1.260.0** — [The first ✕ on an open question folds it back to its one line](#v12600--the-first--on-an-open-question-folds-it-back-to-its-one-line-owner-u136-a-fold1-2026-11-11)
@@ -15507,7 +15507,7 @@ Screens: `artifacts/briefing/img/practicedrawer/` (PRACT1: 00 to 40; PRACT2: 50 
 
 **Where it was checked** (this box, under the build lock where a browser or a build ran). `ci:validate` 25 of 25 run steps, 1,469 of 1,469 units, on c32e3b56a. The account journeys (guest-join, account-menu, auth-owner, auth-redirect-back, signin-intent, sidebar, feedback-modal, challenges-engine) 59 of 60 on the v1.259.1 merge, the one red the 390 line above; after the fix, guest-join, account-menu and auth-owner 18 of 18. The full suites are the PR's e2e-full. Screens: `artifacts/briefing/img/guestprog/10-row-390.jpg` and `10-row-1440.jpg` (before on dev v1.259.0, after on this branch; only address player@example.com).
 
-## v1.262.2 — A scroll that reaches for a taken-up question's answers no longer declines it (SHORT1, 2026-11-12)
+## v1.262.1 — A scroll that reaches for a taken-up question's answers no longer declines it (SHORT1, 2026-11-12)
 
 **The question.** cardgap (#376) wrote in `card-fold.spec.ts`, as found and not changed: at 390x631 an opened card runs below the
 screen, "so a player scrolls to reach an answer, and that scroll declines a taken-up question (`_tickDecision`)". If true, one phone
@@ -15547,15 +15547,18 @@ shipped rule asks whether the player is REACHING, that is, whether an answer is 
 
 **What ships.** `_landView()` (app.src.jsx): null without a taken-up open question (asking, answered, a reading arrival, a hidden
 card), else `on` (the card meets the reader's visible box) and `all` (every answer button of `[data-land-q]`'s block lies wholly in it;
-a card with no height is SKIP, never a verdict). The reader keeps one line: in `readingInteraction`, a wheel, touch or pen scroll asks
-`_reach()`, and with `on && !all` returns before anything else: not reading, no decline, no pause, the clock runs. `_reach` records the
-question (`_rq`); `_tickDecision` calls `_reachTick` every frame while one is open, and once its card has left the screen the question
+a card with no height is SKIP, never a verdict). The reader changes one line: `readingInteraction`'s existing early return now also
+returns when a wheel, touch or pen scroll asks the app's `_rch()` and it answers yes (`on && !all`); `!scroll` keeps that branch's
+decline out, so the scroll is not reading, declines nothing, pauses nothing, and the clock runs. `_rch` records the question (`_rq`); `_tickDecision` calls `_reachTick` every frame while one is open, and once its card has left the screen the question
 is declined, free, as the touch on the article always did; the reader is not switched to reading mid-scroll (its layout would move
 under the finger), the next press on the article reads as ever. A capture listener on the reader's root ends a reach when a press or a
 wheel lands on the game, so a later scroll begun on the card keeps today's rule (nothing declines). The drill shares the seam (its
 answers are the same block). Why the app and not the reader: the first cut lived in the reader and cost `reader.js` 333 B, while the
-deferred set had 66 B of room under its 510,977 B ceiling (`check_payload_budget.py` exit 1 at 511,244); no ceiling is this fix's to
-move. The one line left costs the reader 29 B (44,855 to 44,884): deferred 510,940 of 510,977.
+deferred set had 66 B of room under its 510,977 B ceiling (`check_payload_budget.py` exit 1 at 511,244). A separate line costs 29 B;
+merged with dev v1.261.1 (#378 grew `settings-ui.js` 64 B, then v1.262.0 gave 18 back) that was 9 B over. Folded into the existing
+return and called `_rch` it costs 20 B (measured in memory with esbuild: 29, 22 as `_reach`, 20 as `_rch`), and the build merged with
+v1.262.0 lands exactly on the ceiling. The orchestrator had approved setting the ceiling to the measured build (U134 b, up to
+512,000 B); the measured build IS the ceiling, so nothing moved, and 1,023 B of the approved 512,000 stay unused.
 
 **Pins.** New `e2e/journeys/short-phone-answers.spec.ts`, 8 journeys, every gesture a CDP finger drag held still before the lift, every
 start point asserted to lie on what it claims, every answer pressed by a touch tap at a measured centre: a finger on the card reaches

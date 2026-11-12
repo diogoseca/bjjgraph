@@ -18289,7 +18289,7 @@ class Component extends DCLogic {
   // stand? null when there is none (asking, answered, a reading arrival, a hidden card); else `on` (its card meets the
   // reader's visible box) and `all` (every answer it shows lies wholly inside it). The reader asks this when a finger or
   // a wheel starts a scroll on the ARTICLE (reader.src.js, readingInteraction): with the card on screen and an answer
-  // out of view, that scroll is the player reaching for it, not reading. Until v1.260.0 it was reading at touch-down,
+  // out of view, that scroll is the player reaching for it, not reading. Until v1.262.1 it was reading at touch-down,
   // so it declined the question, dropped its clock and paused the game. Measured on a real roll from "/", by touch, on
   // the preview (v1.259.1) and production (v1.252.0) at 390x631, 360x640, 375x667 and 390x844: overshoot the card so its
   // first answers go above the top and the article fills the bottom, then drag back from the article: declined every
