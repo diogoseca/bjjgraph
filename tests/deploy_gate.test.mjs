@@ -75,8 +75,9 @@
 //   EMPTY      no empty-commit step → "an empty commit on a promotion passes on the promotion's dev parent"; emptiness
 //              decided by the listing → "...the walk stops AT that commit, before any backstop has to catch it".
 //
-// v1.264.5 (the reader's last nit on #393): tripwire()'s own return made to ignore the count → "a fine time but no
-// count file: tripwire() itself returns red".
+// v1.264.5 (the reader's last two nits on #393): tripwire()'s own return made to ignore the count → "a fine time but
+// no count file: tripwire() itself returns red"; GIT_NO_REPLACE_OBJECTS dropped → "with GIT_NO_REPLACE_OBJECTS=1 the
+// rule reads X's real tree, so its app.js change stops the walk".
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
@@ -299,8 +300,23 @@ function gitRepo() {
     const tree = g(["write-tree"]);
     return g(["commit-tree", tree, ...parents.flatMap((p) => ["-p", p]), "-m", "fixture"]);
   };
-  return { dir, commit, done: () => rmSync(dir, { recursive: true, force: true }) };
+  return { dir, commit, replace: (a, b) => g(["replace", a, b]), done: () => rmSync(dir, { recursive: true, force: true }) };
 }
+
+test("PROMOTION on real git: a replace ref cannot pose a real change as keepalive-only (v1.264.5, the reader's last nit on #393)", async () => {
+  const r = gitRepo();
+  try {
+    const K = ".github/keepalive.txt";
+    const B = r.commit([], { [K]: "k0", "app.js": "v1\n" });
+    const X = r.commit([B], { [K]: "k1", "app.js": "v2\n" }); // the real commit: a keepalive edit AND app.js
+    const Y = r.commit([B], { [K]: "k1" });                     // a keepalive-only look-alike
+    r.replace(X, Y); // refs/replace/<X> -> Y: git, unless told otherwise, now reads Y's tree wherever X is named
+    const runs = async (sha) => (sha === B ? [{ id: 1, head_sha: B, event: "push", status: "completed", conclusion: "success" }] : []);
+    const v = await judgePromotion({ head: X, ...gitAccess(r.dir), runsOf: runs });
+    assert.equal(v.ok, false, "with GIT_NO_REPLACE_OBJECTS=1 the rule reads X's real tree, so its app.js change stops the walk");
+    assert.match(v.message, /single-parent commit that changes more than/, "...at X itself, not past it");
+  } finally { r.done(); }
+});
 
 test("PROMOTION on real git: no listing trick lets the keepalive walk step over a real change (the reader's R1/R2 and past it)", async () => {
   const r = gitRepo();
