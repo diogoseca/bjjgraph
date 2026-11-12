@@ -118,7 +118,7 @@ chance only after the reader has laid its landing out once (`_readerAwaited`, D-
 
 Content URLs and links prepare dormant controls (`NG_READING_DEFAULT_ON_CONTENT_URL`).
 A move or answer starts play, without a Practice gate, prior clock or miss.
-Principle, Learning, System, legal and content-only pages have no seat. Automatic articles never pause
+Principle, Learning, System and content-only pages have no seat. Automatic articles never pause
 a move; scrolling, selection or prose focus declines the live question and pauses without a
 miss. Reading keys, links, minimizing and Escape never start play or discard the
 article. See [Reading delivery](Architecture.md#reading-delivery) for source and media ownership.
