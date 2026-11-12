@@ -298,6 +298,13 @@
     },
     {
       "file": "published-time.spec.ts",
+      "title": "@curated served publication metadata matches authored or followed Git evidence",
+      "tier": "D",
+      "reason": "each page's served published and modified time against git log --follow on the deploy's own checkout: the per-page oracle (7.5 s on run 43210168114; GATE6, the reviewer's finding 8 on #388)",
+      "ci_s": 7.5
+    },
+    {
+      "file": "published-time.spec.ts",
       "title": "@curated publication AND modification dates retain corpus-wide temporal spread",
       "tier": "D",
       "reason": "dates from the deploy's own checkout: a shallow checkout would collapse every date, and only this test's spread check sees it",
