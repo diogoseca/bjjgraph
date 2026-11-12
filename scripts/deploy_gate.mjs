@@ -39,7 +39,10 @@
 //   promotion        (deploy.yaml only, its first gate, before the build): the commit that vouches for a push to main
 //                    must have a green e2e-full run (push or dispatch); see its section below for every push shape.
 //   tripwire         (both deploys, AFTER the Pages upload and the live checks; since v1.263.4 it also fails when the
-//                    count `ran` leaves in e2e/test-results is missing or differs from the ledger): reads the gate step's start and end
+//                    count `ran` leaves in e2e/test-results is missing or differs from the ledger. So a count switched
+//                    off by ignore-scripts is caught AFTER the upload: the site already serves the build, the run (or
+//                    deploy.yaml's deployed-console verdict) goes red, and nothing is blocked or rolled back; the count
+//                    blocks before the upload whenever the hook runs, every deploy today): reads the gate step's start and end
 //                    from this run attempt's own jobs API, requires exactly one step of that name (zero or two must
 //                    not read as fast), warns over the target and fails over the line. It runs after the upload on
 //                    purpose: a slow but green gate still ships, and a deploy blocked at the line would only move the

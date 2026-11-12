@@ -317,6 +317,10 @@ jobs:
       # e2e/test-results is missing (npm skips post-hooks under ignore-scripts, so the count could be switched off
       # with the gate still green) or differs from the ledger. It reads that file, not the gate step's log: the
       # job-logs API serves a job's log only after the whole job completes, and this step is part of that job.
+      # WHAT THAT CATCHES, AND WHEN (GATE8): a switched-off count is caught HERE, after the upload. The preview is
+      # already serving the build; this run goes red and names it; nothing is rolled back. What blocks before the
+      # upload is the count itself, whenever the hook runs, which is every deploy today (tests/deploy_gate.test.mjs
+      # pins that no tracked .npmrc and no deploy env sets ignore-scripts).
       - name: Deploy gate time and count (tripwire)
         env:
           GH_TOKEN: ${{ github.token }}
