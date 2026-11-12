@@ -127,6 +127,9 @@ type PageState = {
   navs: NavEvent[];
   /** navigations a journey declared it causes on purpose (`allowNavigation`) */
   navAllow: Array<{ re: RegExp; why: string }>;
+  /** the last one-trip hydrateAll(): decks asked for, files planned, carried in the trip and left to a payload rule; then, by
+   *  file name, those answered in the page, and what the answer met: cold, already in flight, or landed since the plan */
+  lastDeckTrip: { keys: number; files: number; carried: number; ruled: number; served: string[]; cold: string[]; inflight: string[]; landed: string[] } | null;
 };
 
 /** One navigation the PAGE started (never the harness's own goto/reload), as the page saw it. */
@@ -149,6 +152,7 @@ export class Journey {
         noCurriculum: false,
         navs: [],
         navAllow: [],
+        lastDeckTrip: null,
       } as PageState));
   }
 
@@ -549,13 +553,103 @@ export class Journey {
     );
     return this;
   }
-  /** Full residency, for journeys whose subject is not residency (a deck scan, a corpus pick). */
-  async hydrateAll() {
-    const keys = await this.page.evaluate(() =>
-      Object.keys(((window as W).__neural.flashcards || {}).decks || {}),
+  /**
+   * Full residency, for journeys whose subject is not residency (a deck scan, a corpus pick).
+   *
+   * ONE TRIP (v1.262.4, GATE2). This used to be `hydrate(every key)`: 2,862 one-deck fetches, each
+   * crossing the browser's network stack and the routes above, at 10.2 s a call on the dev box
+   * (12.8-16.6 s in a scratch probe; about 6 s on a CI runner). 26 @curated tests call it, so it was
+   * about 2.6 of the deploy gate's 36.7 minutes (reports/gatetime.md, measured on deploy-dev run
+   * 43165143504). Now the chunks travel in ONE evaluate, from the same per-worker buffers the deck
+   * route serves, and an in-page `fetch` answers the app's own request for each file from them.
+   *
+   * WHAT STILL RUNS, unchanged: `a.hydrateDecks(keys)` → `hydrateDeck` for every key: its own file
+   * name (`d.file || qhash(key) + ".json"` under `_dataBase()`, read back from the app below, never
+   * re-derived here), its `fetch`, `r.json()`, the fill in place, `_pruneStaleGrades` and
+   * `_onDeckHydrated`. Pinned by harness-deck-trip.spec.ts: every deck's cards hash the same both ways,
+   * `_onDeckHydrated` runs once per filled deck, and no deck the trip fetches reaches the route.
+   * WHAT NO LONGER HAPPENS for these calls: the chunks of the decks the trip itself fetches never cross
+   * the network stack or this harness's routes. A deck the app was ALREADY fetching on its own (a dealt
+   * option's prefetch) is joined by hydrateDeck, not asked again, so it still travels the wire as
+   * before: 10 beside 2,851 answered in the page on the first run. The normal path is still every boot's own landing deck and every deck the app
+   * asks for by itself; url-arrival.spec.ts's held-deck case (@curated) proves such a fetch crosses
+   * the delay layer, and harness-deck-trip.spec.ts's `via: "route"` control proves it reaches the route.
+   * LEFT ON THE ROUTE, so nothing changes for them: a chunk under an armed payload rule (it keeps its
+   * timing) and a chunk the buffers do not hold (the route's 404). A spec that routes deck chunks
+   * ITSELF must pass `{ via: "route" }`: an in-page fetch never reaches its handler. None does today
+   * (checked: every caller of hydrateAll in e2e/, 2026-11-12).
+   */
+  async hydrateAll(opts: { via?: "trip" | "route" } = {}) {
+    const plan = await this.page.evaluate(() => {
+      const a = (window as W).__neural;
+      const decks = ((a.flashcards || {}).decks || {}) as Record<string, any>;
+      const keys = Object.keys(decks);
+      const files = keys
+        .filter((k) => !a._cardsOf(decks[k]))
+        .map((k) => decks[k].file || a.qhash(k) + ".json");
+      return {
+        keys,
+        files: [...new Set(files)] as string[],
+        base: new URL(a._dataBase() + "flashcards/", location.href).href,
+      };
+    });
+    if (opts.via === "route") {
+      this.st.lastDeckTrip = null;
+      return this.hydrate(plan.keys);
+    }
+    const bodies: Record<string, string> = {};
+    let ruled = 0;
+    for (const f of plan.files) {
+      if (this.ruleFor(plan.base + f)) { ruled++; continue; }
+      try {
+        bodies[f] = payload("flashcards/" + f).toString("utf8");
+      } catch {} // not in the buffers: the route answers it (404), exactly as before
+    }
+    const trip = await this.page.evaluate(
+      async ({ keys, base, bodies }) => {
+        const a = (window as W).__neural, real = window.fetch;
+        const decks = a.flashcards.decks, waits = a._deckWaits || {};
+        const fileOf = (k: string) => decks[k].file || a.qhash(k) + ".json";
+        // The app keeps fetching on its own (a dealt option's deck, the landing's prefetch), so decks the
+        // plan saw as cold can be in flight, or landed, by now. hydrateDeck joins an in-flight fetch
+        // instead of asking again, so only the COLD ones below can reach the answer; the split is
+        // returned so harness-deck-trip.spec.ts can account for every file.
+        const cold = new Set<string>(), inflight = new Set<string>(), landed = new Set<string>();
+        for (const k of keys) {
+          if (a._cardsOf(decks[k])) { if (Object.prototype.hasOwnProperty.call(bodies, fileOf(k))) landed.add(fileOf(k)); }
+          else if (waits[k]) inflight.add(fileOf(k));
+          else cold.add(fileOf(k));
+        }
+        const hits: string[] = [];
+        window.fetch = function (input: RequestInfo | URL, init?: RequestInit) {
+          const url = new URL(input instanceof Request ? input.url : String(input), location.href).href;
+          const file = url.startsWith(base) ? url.slice(base.length) : "";
+          if (file && Object.prototype.hasOwnProperty.call(bodies, file)) {
+            hits.push(file);
+            return Promise.resolve(
+              new Response(bodies[file], { status: 200, headers: { "content-type": "application/json" } }),
+            );
+          }
+          return real.call(window, input, init);
+        } as typeof fetch;
+        try {
+          await a.hydrateDecks(keys);
+        } finally {
+          window.fetch = real;
+        }
+        return { served: hits, cold: [...cold], inflight: [...inflight], landed: [...landed] };
+      },
+      { keys: plan.keys, base: plan.base, bodies },
     );
-    await this.hydrate(keys);
+    this.st.lastDeckTrip = {
+      keys: plan.keys.length, files: plan.files.length, carried: Object.keys(bodies).length, ruled,
+      served: trip.served, cold: trip.cold, inflight: trip.inflight, landed: trip.landed,
+    };
     return this;
+  }
+  /** What the last one-trip `hydrateAll()` on this page did (null after a `via: "route"` call or none). */
+  get lastDeckTrip() {
+    return this.st.lastDeckTrip;
   }
   /**
    * Wait until the LANDING QUESTION HAS STOPPED MOVING — mounted, or definitively not coming.

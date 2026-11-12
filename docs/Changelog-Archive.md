@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.262.4** — [The harness loads every deck in one trip](#v12624--the-harness-loads-every-deck-in-one-trip-gate2-2026-11-12)
 - **v1.262.3** — [A scroll that reaches for a taken-up question's answers no longer declines it](#v12623--a-scroll-that-reaches-for-a-taken-up-questions-answers-no-longer-declines-it-short1-2026-11-12)
 - **v1.262.2** — [The planner retry test waits on its own claims](#v12622--the-planner-retry-test-waits-on-its-own-claims-race1-2026-11-12)
 - **v1.261.2** — [A signed-in player's name, initial and address never reach analytics](#v12612--a-signed-in-players-name-initial-and-address-never-reach-analytics-mask1-to-mask3-2026-11-12)
@@ -15621,3 +15622,54 @@ Against dev v1.262.0's rows: `neural.js` 682,101 to 683,239 B (+1,138), `reader.
 card, past the answers with the thumb on the article, the drag back before (the timer bar gone) and after (the bar running), and the
 take-up today against the proposal. The before frame is this build with `_landView` stubbed to null, which is exactly the old path;
 the preview's own build gave the same outcome on the same gesture.
+
+
+## v1.262.4 — The harness loads every deck in one trip (GATE2, 2026-11-12)
+
+**Why.** The deploy gate (`npm run test:curated`) took 36.7 of its 45 minutes on deploy-dev run 43165143504, and the
+plan for it (`reports/gatetime.md`, outside the repo, GATE1) measured one harness helper as the largest single cost
+that needs no decision: `j.hydrateAll()`, "full residency, for journeys whose subject is not residency". It was
+`hydrate(every key)`, i.e. 2,862 one-deck fetches, each crossing the browser's network stack and the harness's routes:
+10.2 s a call on the dev box across 26 @curated tests (12.8 and 16.6 s in a scratch probe), about 6 s on a CI runner.
+On PR shards the 26 callers summed 272.0 s (e2e-full run 43170420182) and 214.7 s (43168370806); the gap between those
+two runs is the runner, not the tests (the other tests of shard 2 ran at a median 0.82 of the first run's time).
+
+**Ships, harness only** (no app code, no bundle row). `hydrateAll()` asks the app which decks are not resident and the
+file each one fetches (`d.file || qhash(key) + ".json"` under `_dataBase()`, read back from the app, never re-derived),
+carries those chunks in ONE `page.evaluate` from the per-worker buffers the deck route already serves, and installs an
+in-page `fetch` that answers exactly those URLs while `a.hydrateDecks(keys)` runs as shipped; `window.fetch` is restored
+in a `finally`. Left on the route, unchanged: a chunk under an armed payload rule (it keeps its timing), a chunk the
+buffers lack (the route's 404), and anything else the page fetches meanwhile. `{ via: "route" }` keeps the old body,
+as the control, and for any spec that routes deck chunks itself (none does: every caller in e2e/ was checked).
+
+**What no longer crosses the network stack or the harness route:** the chunks of the decks the trip itself fetches.
+The app keeps prefetching on its own (a dealt option's deck), and `hydrateDeck` joins such an in-flight fetch instead
+of asking again, so those still travel the wire: the first run found 10 of them beside 2,851 answered in the page,
+which is why the spec accounts for every file by state (cold, in flight, landed) instead of asserting "zero
+requests". The normal path is still every boot's landing deck and every deck the app asks for by itself;
+`url-arrival.spec.ts`'s held-deck case (@curated) proves such a fetch crosses the delay layer, and the new spec's
+`via: "route"` control proves it reaches the route (more than 100 chunk requests).
+
+**Proof: `e2e/journeys/harness-deck-trip.spec.ts`** (two tests, not @curated). Against the route as control, on the
+same node: every deck's cards, category, role and error count hash identically (SHA-256 over all 2,862); the card
+total is the same; `_onDeckHydrated` fired once per deck the call filled (resident before + fired = every deck); every
+cold deck's fetch was answered in the page exactly once and none of them crossed the network stack; `window.fetch` is
+native again afterwards; a chunk under a 400 ms payload rule is not carried, crosses the route once and keeps its delay.
+
+**Mutants** (each patched into `hydrateAll` alone, under the build lock, then reverted; all six killed, each at its
+own claim):
+
+| mutant | killed at |
+|---|---|
+| the app's fill bypassed: the trip writes `cards`/`cat`/`role` itself | "OWN PATH: `_onDeckHydrated` fired once for every deck…" (the hash still matched, so equal bytes alone could not have caught it) |
+| `window.fetch` left as the trip's answer | "RESTORED: window.fetch is the browser's own again" |
+| one chunk's last card dropped | "the same number of cards" |
+| one chunk's first card changed by one space, same count | "SAME: every deck's cards, category, role and errors hash identically both ways" |
+| payload rules ignored | "RULES: the held file was left to the route" |
+| the answer matches no URL (a silent fall back to the wire, the old 10 s) | "NO WIRE: the page answered the trip's decks…", the only line in the suite that turns this red rather than slower |
+
+**Runs.** LOCAL, under the build lock (`BUILD_PEAK_MIB=4000`, `TMPDIR=/home/user/tmp-pw`), on dev 3b0d973eb (v1.262.3)
+plus this change, bundle rebuilt with `dev:neural:app` (1.262.4): the new spec 2 of 2, then 6 of 6 with `--repeat-each 3`; every test in the twelve files that call `hydrateAll`,
+119 of 119 (11.6 min). There 59 tests call it, at 2.1-2.8 s a call now, and the 26 @curated callers took 210.6 s
+against 399.8 s in GATE1's local batches on v1.262.2 (same box, same step reporter). The full core suite and `e2e:gen` run on the PR (e2e-full); the 26 callers'
+seconds from its shard logs are in `reports/gatetime.md` (GATE2).
