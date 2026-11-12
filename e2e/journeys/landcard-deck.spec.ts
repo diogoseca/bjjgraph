@@ -117,7 +117,14 @@ for (const width of [1440, 390]) {
       // Backwards navigation restores the real cached card and its stack.
       await page.keyboard.press("ArrowLeft")
       await expect(page.locator("[data-land-back]")).toHaveCount(1)
-      await j.clickByMouse("[data-land-close]")
+      // FOLD1 (owner U136 a): this card is open and unanswered, so the first ✕ folds it back to its one line, as a fresh landing
+      // asks: no backs, the arrows hidden. WAS: one ✕ put the card away, stack and arrows with it; that is now the second ✕.
+      await j.clickByMouse("[data-land-close]", "the open card's ✕")
+      await expect(page.locator("[data-land-ask-go]"), "the first ✕ folds it to its line").toBeVisible()
+      await expect(page.locator("[data-land-back]"), "no backs under the line").toHaveCount(0)
+      await expect(page.locator("[data-land-next]"), "no arrows on the line").toBeHidden()
+      await j.readerLayoutSettled()
+      await j.clickByMouse("[data-land-close]", "the line's ✕")
       await expect(page.locator(".ng-landstack")).toHaveCount(0)
       await expect(page.locator("[data-land-nav]")).toHaveCount(0)
     })

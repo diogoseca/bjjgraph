@@ -14890,6 +14890,52 @@ class Component extends DCLogic {
     }
     tx.textContent = full.slice(0, lo).trimEnd() + "\u2026";
   }
+  /** FOLD1 (owner, U136 a, 2026-11-11: "Yes: the first ✕ folds it back to the one-line question"; his report that started it,
+   *  CARDGAP1: "i was expecting it to go back into being a question"). The ✕ on an OPENED card whose question is still open
+   *  folds it back to the one-line question, "Answer for Points" and all; returns false where there is nothing to fold (the
+   *  line itself, an answered or timed-out question, no question), and the ✕ then hides Questions as b2 does (U131 b2:
+   *  setLayer's "x", the message in place, reader.src.js notice). A fold hides nothing, so it raises no message. Nothing is
+   *  declined and nothing is graded: the question stays on the table, its clock parks with what is left (q.left, paging's
+   *  rule, so taking it up again resumes that window, never a fresh one; a hide and its Undo keep it too, _applyLayers), and
+   *  later landings ask with the line again (the take-up memory is cleared). The line is built as _mountLandQ builds it;
+   *  that block is pinned by minified-source mutants (neural_app_mutants.mjs), so it is copied here, not shared.
+   *  Pinned by e2e/journeys/card-fold.spec.ts. */
+  _landFold() {
+    const el = this._landEl, q = this._landQ, qw = el && el.querySelector("[data-land-q]");
+    if (!el || !q || !qw || this._landAsk || q.answered || q.revealed || this._landHidden(true)) return false;
+    const d = this._decision;
+    if (d && d.remaining != null) q.left = d.remaining;
+    this._disarmLandClock();
+    this._landAsk = true;
+    this._landOpted = false;
+    try { sessionStorage.removeItem(NG_LAND_ASK_KEY); } catch (e) { /* page-long, then */ }
+    const qt = qw.firstElementChild, block = qw.lastElementChild;
+    block.inert = true;
+    qt.textContent = "";
+    const tx = document.createElement("span");
+    tx.setAttribute("data-land-ask-text", "");
+    tx.textContent = q.card.q;
+    const go = document.createElement("button");
+    go.type = "button";
+    go.setAttribute("data-land-ask-go", "");
+    go.textContent = "Answer for Points";
+    go.style.pointerEvents = "auto";
+    qt.append(tx, " ", go);
+    if (!qt._ngFold) { qt._ngFold = true; qt.addEventListener("click", () => this._landReveal()); }
+    const ro = new ResizeObserver(() => {
+      if (!qt.isConnected || !this._landAsk) { ro.disconnect(); return; }
+      if (qt.clientWidth !== ro.w) { ro.w = qt.clientWidth; this._fitAskLine(qt); }
+    });
+    ro.observe(qt);
+    el.style.animation = "none";
+    el.setAttribute("data-land-ask", "");
+    this.fx("land_q_folded", { deckKey: q.key || null, mode: this._landMode || "land" });
+    this._updateLandDeck();
+    this._reader?.layoutNow();
+    this._dockLandCard(el);
+    go.focus({ preventScroll: true });
+    return true;
+  }
   _landOptedIn() {
     if (NG_LAND_ASK_MEMORY === "never") return false;
     if (this._landOpted) return true;
@@ -15656,7 +15702,9 @@ class Component extends DCLogic {
     // collapsed". `setLayer` declines this question (free), names the dismissal, takes the card
     // (film stays: its own layer) and persists the choice; the dock brings it back. On the panic
     // drill — same chrome, same seam — it hides the drill and the escapes stay dealt.
-    xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("card", false, "x"); });
+    // FOLD1 (owner, U136 a): on an opened card whose question is still open the ✕ folds it back to its one line (_landFold); on the
+    // line, or once answered, it hides Questions with b2's message (U131 b2).
+    xb.addEventListener("click", (e) => { e.stopPropagation(); if (!this._landFold()) this.setLayer("card", false, "x"); });
     btns.appendChild(xb);
     corner.appendChild(btns);
     // ── THE DECK COUNT, UNDER THE BUTTONS (v1.175.0, owner) ── "kept only as gray text under
@@ -15886,6 +15934,12 @@ class Component extends DCLogic {
     const n = this._landIdx != null && this.nodes ? this.nodes[this._landIdx] : null;
     if (!this._layerOn("card")) {
       if (this._landEl) {
+        // FOLD1 (owner, U136 a, 2026-11-11: "the timer pauses with the time left and carries on when you open it again"). A folded
+        // question's parked window (q.left, _landFold) goes away with the card and comes back with it when Undo or Settings rebuilds
+        // this landing's card below, or ✕-then-Undo would buy a fresh window. Kept for THIS landing only: the page cache is replaced
+        // at every new landing (renderLandCard), so a kept window from an earlier one never matches.
+        const q = this._landQ;
+        this._landKept = q && !q.answered && q.left != null ? { cache: this._landPageCache, q: q.card.q, left: q.left } : null;
         this._declineLandQ("collapsed");
         this.fx("land_dismissed", { node: n ? n.t : null, answered: !!(this._landQ && this._landQ.answered) });
         this._clearLandCardOnly();
@@ -15896,6 +15950,11 @@ class Component extends DCLogic {
       // was put away grades the fresh one as extra (the economy law), an unanswered landing is
       // scored on this one and re-arms the clock through `_mountLandQ`.
       this.renderLandCard(n, this._landMode, null, { el: null });
+      // FOLD1: the same question back on the same landing carries on from what was left. It comes back as its one line, as it went:
+      // the reuse path keeps _landAsk, and the fold cleared the take-up memory.
+      const k = this._landKept, q = this._landQ;
+      this._landKept = null;
+      if (k && q && !q.answered && k.cache === this._landPageCache && k.q === q.card.q) q.left = k.left;
     }
     if (!this._layerOn("film")) {
       if (this._reader && this._landFilmEl) { this.pauseLandFilm(); this._landFilmEl.hidden = true; }

@@ -388,8 +388,8 @@ trims the question with an ellipsis, never the link, to one line (two on a tall 
 phone shows both at arrival. Its text sits one `--section-gap` under the cards at every width; with
 1024px of free pane it is a hint inside the choices row's bottom band and takes no row of its own,
 the panic drill included. The card's answers are built but inert, so no key, click or
-paging gesture acts on them, letters a/b/c included, and no clock runs. The ✕ stays: it is the
-Questions layer's handle. Answer for Points (Tab + Enter too), or a tap on the question, calls
+paging gesture acts on them, letters a/b/c included, and no clock runs. Its ✕ hides Questions;
+an open card's ✕ folds to it (U136). Answer for Points (Tab + Enter too), or a tap on the question, calls
 `_landReveal`: the card opens in place as today's card (multiple choice, or the recall flashcard)
 for the rest of that landing; paging and backfill keep it shown, each card keeps its own window.
 A take-up moves nothing above the card: the line keeps the deck's step (only its width differs) and the
