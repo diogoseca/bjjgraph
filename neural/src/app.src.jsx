@@ -2456,7 +2456,7 @@ class Component extends DCLogic {
         // "Kimura". .72em holds it at 13px desktop / 10.8px phone.
         ? sp.main + '<div style="opacity:.6;font-weight:500;font-size:.72em;letter-spacing:0;margin-top:3px;">' + sp.from + '</div>'
         : sp.main;
-      t.style.paddingTop = "";           // a whole sentence's step (below) belongs to that sentence only
+      if (t.style && t.style.paddingTop) t.style.paddingTop = "";   // a whole sentence's step (below) is that sentence's only
       if (whole) this._evStepBelowControls(t);
     }
     if (box) box.style.opacity = "1";
@@ -17197,13 +17197,13 @@ class Component extends DCLogic {
   /** The one announcer slot, saved and put back — a film borrows it, it does not own it. */
   _evSnapshot() {
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
-    return { k: k ? k.textContent : "", col: k ? k.style.color : "", html: t ? t.innerHTML : "", pt: t ? t.style.paddingTop : "", op: box ? box.style.opacity : "" };
+    return { k: k ? k.textContent : "", col: k ? k.style.color : "", html: t ? t.innerHTML : "", pt: t && t.style ? t.style.paddingTop : "", op: box ? box.style.opacity : "" };
   }
   _restoreEvent(s) {
     if (!s) return;
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
     if (k) { k.textContent = s.k; k.style.color = s.col; }
-    if (t) { t.innerHTML = s.html; t.style.paddingTop = s.pt || ""; }
+    if (t) { t.innerHTML = s.html; if (t.style) t.style.paddingTop = s.pt || ""; }
     if (box) box.style.opacity = s.op;
   }
   /**
