@@ -227,7 +227,10 @@ NEURAL_TARGET = {
     # v1.259.0 (HIDESEC2, owner U131 b2): 510_977, exactly the build merged with #373 (v1.258.0, f998a1473; 505_644 on its own), +5_333 B
     # of this PR's (a closed part's message and its press rule, Settings at its switch, free roam taking it away, #372's review fixes).
     # The owner, 11 Nov 2026, briefing answer U134 b, approved up to 512_000 B for that day's fixes; 1_023 B of it are left.
-    "deferred_raw_bytes": 510_977,
+    # v1.262.10 (PAYBASE3): 510_981, +4 B: one more character of the version in 4 deferred files (game-study.js,
+    # game-study.worker.js, game-values.js, settings-ui.js, +1 B each), no code. Under U134 b's 512_000, 1_019 B remain;
+    # at v1.263.0 the set is 4 B smaller again.
+    "deferred_raw_bytes": 510_981,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one

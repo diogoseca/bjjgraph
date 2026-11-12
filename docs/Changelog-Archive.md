@@ -15823,6 +15823,14 @@ column's three named merges were measured by emitting the tree just before and j
 753b26df8, f63049013 -> 8e1b9845d, 917191cc9 -> c108e4646); the app work is named from what touched
 `app.src.jsx` and the stylesheets in each span, with a figure only where its own PR recorded one.
 
+**And the deferred ceiling, +4 B, in its own commit** (PAYBASE3, the orchestrator's authorisation under the owner's
+U134 b). The merged build went red on `deferred payloads (raw): 510,981 B exceeds ceiling 510,977 B`: dev's deferred
+set had stood exactly at its ceiling since v1.259.0, and "1.262.10" is one character longer than "1.262.9". Built
+both ways from the same sources, `game-study.js`, `game-study.worker.js`, `game-values.js` and `settings-ui.js` each
+grow by 1 B, and each is byte-identical to the 1.262.9 build once the version is swapped back; no other deferred file
+moves. The ceiling moves to exactly 510,981 B (`budget_site.json` and `NEURAL_TARGET`), leaving 1,019 B of the owner's
+512,000 B; at v1.263.0 the set is 4 B smaller again. `check_payload_budget.py` exits 0 on this build.
+
 **Runs.** LOCAL, under the build lock: the bundle (`dev:neural:app`) and `payload-first-hand.spec.ts` on v1.262.7,
 on v1.262.9 and at 1.262.10 (1 of 1 each), the five sandbox rebuilds and nine emit-only ones. `npm run ci:validate`
 on the merged tree. The PR's e2e-full runs the full core suite and `e2e:gen`, with `payload-first-hand` a few bytes
