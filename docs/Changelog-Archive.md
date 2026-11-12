@@ -15776,19 +15776,32 @@ an eviction reaches no analytics (F7, known); a tab on an older build trims by t
 | S7b: every store fails | 8 of 8 | 6 of 18 (the shared 10 evicted) | 8 of 8, 8 partitions |
 | S4: eviction, then an older copy merges | n/a | 1/21 → 2/22 → 21/22 | the same, at 33 partitions |
 
-**Tests.** `tests/flow_device_per_browser.test.mjs`, 17, the real class and owner host against a cloud holding an
+**FLOW3, the re-check** (MERGE WITH FOLLOW-UPS on 604f70f6d). Stated, not ramped (A6): a tab opened before this
+deploy and never reloaded still runs the old trim, six partitions over all ids by each row's own day, so any ledger it
+pulls it trims to six, the shared partition first, and pushes that. It is permanent only for an account with more than
+six partitions whose other browsers all lose their storage; a lasting browser on the new build still holds every
+partition and puts them back at its next sync; never above the truth. A ramp (the cap held at 6 less the old ids until a
+date) would trade it for a certain loss: every player who churns storage losing post-change sessions meanwhile. Stated
+(A1): the join reads a guest copy untrimmed, so a copy unloaded for over 180 days counts its old rows again when the
+account rolled that move recently: real rolls, the shared partition's own rule; trimming the guest part first needs the
+day and the window, which the join's callers do not carry. Changed (A4b): the join's room goes to the guest partition
+rolled most recently, ties by id, the order the trim keeps; by id alone an expired one could take the last slot and be
+trimmed away while a live one stayed out (test 18, mutant N14). `ngFlowCapped` notes that a later id format must be
+added there.
+
+**Tests.** `tests/flow_device_per_browser.test.mjs`, 18, the real class and owner host against a cloud holding an
 account's rolls under one shared code: FLOW1's 1-8, then 9 the one cap, 10 M1 (S2), 11 M2 (the shared partition survives
 a 33rd), 12 S1b and S1c (stated: 60 daily sessions keep 32), 13 F1 (S5), 14 F2, 15 the join's room is the trim's, 16 F4
-(S7b, never over another tab's stored code), 17 S4 (stated). The guest file's 15 and 19 now use minted ids and the cap,
+(S7b, never over another tab's stored code), 17 S4 (stated), 18 A4b. The guest file's 15 and 19 now use minted ids and the cap,
 claims unchanged; three harnesses (flow, knowledge_profile, knowledge_profile_cache) get progress-owner.src.js, which the
 bundle has; save_echo dates its roll today (a 1970 roll is now trimmed with its emptied partition, so it changed nothing).
 
-**Mutants** (21, each against the green file and guest_join_safety.test.mjs; red tests): MA the setting rule 1-8, 10-12,
+**Mutants** (22, each against the green file and guest_join_safety.test.mjs; red tests): MA the setting rule 1-8, 10-12,
 15, 16 · MB one code per browser 5, 6, 15 · MC never read back 3, 6, 16 · MC2 never stored 1-8, 11, 15, 16 · MD no held-id
 check 8 · ME writes the setting 2 · MF adopts the setting 1-8, 10, 12, 16 · MG merge sums 1, 3, 4, 6, 8, 10, 16, 17 and
-guest 15, 16, 19 · N1 trim by row day 10 · N2 read by row day 10 · N3 old partitions slotted 11, 12, 14, 15 · N4 room counts
-all 14, 15 · N5 old guest needs room 15 · N6 no tie-break 13 · N7 emptied kept 14 · N8 empty takes room 14 · N9 cap 6 9, 12,
-guest 15 · N10 guest default 6 9, 14 · N11 merge default 6 9 · N12 no retry 16 · N13 retry overwrites 16.
+guest 15, 16, 19 · N1 trim by row day 10 · N2 read by row day 10 · N3 old partitions slotted 11, 12, 14, 15, 18 · N4 room counts
+all 14, 15, 18 · N5 old guest needs room 15 · N6 no tie-break 13 · N7 emptied kept 14 · N8 empty takes room 14 · N9 cap 6 9, 12,
+guest 15 · N10 guest default 6 9, 14 · N11 merge default 6 9 · N12 no retry 16 · N13 retry overwrites 16 · N14 join by id 18.
 
 **Bytes.** neural.js +1,674 B raw, +564 B gzip-9 over dev; the deferred set unchanged at its ceiling. Worst case at the
 new cap: a partition holding every state-move cell is 62 KB (67 KB at four-digit tallies), 32 of them about 2.0 MB.

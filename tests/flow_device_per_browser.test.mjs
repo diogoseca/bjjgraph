@@ -36,9 +36,11 @@
 //  16. F4 (S7b): a code whose storing failed is stored at the next good save (8 page loads, one partition), never over a
 //      code another tab stored meanwhile;
 //  17. STATED (S4): after an eviction a device whose older copy brings the partition back by MAX absorbs the newer roll;
-//      never above the truth.
-// MUTANTS (2026-11-12, FLOW2 code; each run, in a scratch mirror, against this green file and
-// tests/guest_join_safety.test.mjs, 36 of 36 green; each turned exactly the tests named red, the guest file's 19 green
+//      never above the truth;
+//  18. FLOW3 (A4b): the join's last slot goes to the guest partition rolled most recently, not to one whose rows all
+//      expired (first by id, it took the slot and was trimmed away, and the live one stayed out).
+// MUTANTS (2026-11-12, FLOW3 code; each run, in a scratch mirror, against this green file and
+// tests/guest_join_safety.test.mjs, 37 of 37 green; each turned exactly the tests named red, the guest file's 19 green
 // unless named):
 //   MA `_flowDevice` back to the v1.262.7 rule (read and mint the `flowDevice` setting)   → 1-8, 10-12, 15, 16
 //   MB one code per browser for every owner (a browser-wide key)                         → 5, 6, 15
@@ -50,8 +52,8 @@
 //   MG the ledger merge SUMS a partition instead of MAX (a re-pull counts twice)          → 1, 3, 4, 6, 8, 10, 16, 17; guest 15, 16, 19
 //   N1 the trim by the row's own day (M1 off in the trim)                                → 10
 //   N2 the read by the row's own day (M1 off in the read)                                → 10
-//   N3 pre-v1.262.8 partitions take slots (M2 off)                                        → 11, 12, 14, 15
-//   N4 the join's room counts every account partition                                    → 14, 15
+//   N3 pre-v1.262.8 partitions take slots (M2 off)                                        → 11, 12, 14, 15, 18
+//   N4 the join's room counts every account partition                                    → 14, 15, 18
 //   N5 an old guest partition needs room                                                 → 15
 //   N6 no tie-break by id                                                                → 13
 //   N7 an emptied partition is kept as {}                                                → 14
@@ -61,6 +63,7 @@
 //   N11 ngProgressGuestMerge's default back to 6                                         → 9
 //   N12 no retry of a failed store                                                       → 16
 //   N13 the retry writes over another tab's stored code                                  → 16
+//   N14 the join spends its room by id alone (FLOW3 off)                                  → 18
 // THE OLD RULE'S COST, measured with this file's harness (1's orders, the old `_flowDevice`): 1,344 of the 1,440 orders
 // lose one of the two rolls; 0 do under the new rule. Both browsers are signed in throughout: concurrent use, an upper
 // bound, not a production rate.
@@ -461,4 +464,24 @@ test("17. STATED, the reader's S4: after an eviction a device whose copy predate
   await laptop.pull(); await laptop.push();
   const end = check("the laptop's older copy merges");
   assert.ok(end < truth, "STATED: " + end + " of " + truth + " (an eviction is a loss, and the copy that brings it back absorbs the newer roll)");
+});
+
+test("18. FLOW3, the reader's A4b: at the join's last slot the guest partition rolled most recently goes first, so one whose rows have all expired cannot take the slot from one still rolled (it did, first by id)", async () => {
+  const dead = NEW(1), live = NEW(2);                                  // `dead` sorts first by id
+  const flow = { L: clone(L_ROWS) };
+  for (let i = 0; i < M.NG_FLOW_CAP - 1; i++) flow[NEW(100 + i)] = { "Side Control|Top": { "9": [1, 1, DAY - 40 + i] } };
+  const cloud = new Map([["A", { v: 2, flow, prep: { "Side Control|Top": 1 } }]]);
+  const mem = memory();
+  // a guest copy as stored, never loaded since (an existing player restored at boot reads it raw): one partition whose
+  // only move nobody has rolled for 200 days, one rolled today
+  const guestBlob = { v: 2, prep: { "Mount|Top": 1 }, flow: { [dead]: { "Closed Guard|Bottom": { "5": [6, 3, DAY - 200] } }, [live]: { [PK]: { [ORD]: [5, 4, DAY] } } } };
+  mem.setItem(M.ngProgressLocalKey(GUEST), JSON.stringify({ format: "bjj-progress-owner-v1", owner: GUEST, blob: guestBlob, savedAt: 1 }));
+  const x = browser(cloud, mem);
+  x.setIdentity({ id: "A", email: "player@example.com" });
+  await x.boot(); await x.signIn("A"); await x.push();
+  const f = cloud.get("A").flow;
+  assert.deepEqual(f[live], guestBlob.flow[live], "the guest partition rolled today took the last slot");
+  assert.ok(!(dead in f), "the one whose rows have all expired did not (and would have been trimmed away had it joined)");
+  assert.equal(M.ngFlowSlotted(f).length, M.NG_FLOW_CAP, "at the cap, nothing of the account's evicted");
+  assert.deepEqual(tally(f), [15, 8], "the shared 10 and the guest's 5, each once");
 });

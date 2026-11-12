@@ -196,6 +196,14 @@ export const NG_FLOW_CAP = 32;   // the app's NG_FLOW_DEVICES; one source. Was 6
 // months). Worst case, a partition holds every state-move cell: 2,417 at v1.262.8, 62 KB at three-digit tallies (67 KB
 // at four), so 32 of them about 2.0 MB in the synced row and in each owner's local copy, plus the few uncapped ones. A
 // storage lifetime's real partition is a handful of cells, about 100 B.
+// KNOWN, NOT RAMPED (the reader's A6, FLOW3): a tab opened before v1.262.8 and never reloaded still runs the old trim, six
+// partitions over all ids, by each row's own day. Any ledger it pulls it trims to its six newest, the shared partition
+// first, and pushes that. It is permanent only for an account with more than six partitions whose other browsers all
+// lose their storage (private windows, cleared data); a lasting browser on this build still holds every partition and
+// puts them back at its next sync. Never above the truth. A ramp (the slotted cap held at 6 less the old ids until a
+// date) would avoid it only by making every player who churns storage lose post-change sessions meanwhile: a certain
+// loss traded for this narrow one, so the cap is 32 from the start (the orchestrator's call, on the reader's numbers).
+// A LATER ID FORMAT MUST BE ADDED HERE, or its partitions read as pre-v1.262.8 ones: never evicted, taking no slot.
 export function ngFlowCapped(id) { return /^b[0-9a-f]{16}$/.test(id); }
 // THE WINDOW IS THE CELL'S, NOT THE ROW'S (M1). A (state, move) counts, in every partition, while ANY partition rolled it
 // within the window: the old single partition's rule, where each roll refreshed the cell's one row. By its own row's
@@ -282,10 +290,18 @@ export function ngFlowTrim(flow, day, windowDays, cap = NG_FLOW_CAP) {
 // A guest partition from before v1.262.8 (an old guest code) joins outside the cap, as the trim keeps it outside: at
 // the switch each browser's guest mints a new code too, so a guest who plays again afterwards brings TWO partitions to
 // its next join, the old one (frozen, no slot) and the new one (a slot).
+// KNOWN (the reader's A1, FLOW3): the join reads the guest copy as stored, untrimmed. A copy not loaded for over 180 days
+// can hold rows past the window, and the cell window keeps them counting when the account rolled that move recently:
+// real rolls, never above the truth, the same rule the shared partition gets. Trimming the guest part first would need
+// the day and the window here, which the join's callers (the legacy import's included) do not carry.
 export function ngProgressGuestFlow(account, guest, cap = NG_FLOW_CAP) {
-  const acct = ngProgressObject(account) ? account : {}, out = {};
+  const acct = ngProgressObject(account) ? account : {}, out = {}, g = ngProgressObject(guest) ? guest : {};
   let room = cap - ngFlowSlotted(acct).length;
-  for (const dev of Object.keys(ngProgressObject(guest) ? guest : {}).sort()) {
+  // FLOW3 (the reader's A4b): the room goes to the partition rolled most recently first, ties by id, the order
+  // `ngFlowTrim` keeps partitions in. By id alone a partition whose rows had all expired could take the last slot, be
+  // trimmed away at once, and leave a partition still rolled outside (its rolls stayed in the guest copy).
+  const top = new Map(Object.keys(g).map(dev => [dev, Math.max(0, ...ngFlowCellNewest({ [dev]: g[dev] }).values())]));
+  for (const dev of Object.keys(g).sort((a, b) => top.get(b) - top.get(a) || (a < b ? -1 : a > b ? 1 : 0))) {
     const G = guest[dev];
     if (!ngProgressObject(G) || !Object.keys(G).length) continue;
     if (dev in acct || !ngFlowCapped(dev)) { out[dev] = ngProgressClone(G); continue; }
