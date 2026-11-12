@@ -13110,10 +13110,8 @@ class Component extends DCLogic {
   // instead, which is the viewport's centre whenever the pane is shut, i.e. where they were.
   // Pinned by `e2e/journeys/layer-dock-centre.spec.ts`.
   _layoutLandHorizontal() {
-    // #346's review (finding 1): the deck's Previous arrow takes the right lane while the reader's index stands beside the grid
-    // (helmet.html, .ng-landnav[data-index]). Here, not in the frame loop alone, so a card rendered or paged has it at once; a no-op
-    // whenever it does not change.
-    this._landNavEl?.toggleAttribute("data-index", !!this._readerTocEl && !this._readerTocEl.hidden);
+    // (CARDWIDTH retired the deck nav's `data-index` flag that stood here: Previous no longer moves to the right lane beside the
+    // index, because it sits inside the grid on its own side now; helmet.html, .ng-landnav.)
     // The native article has one coalesced layout writer (its shelf is retired, U114 a). The
     // fixed replay bar still follows this frame's legacy column geometry.
     this._reader?.layout();

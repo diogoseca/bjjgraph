@@ -115,19 +115,23 @@ for (const width of [1440, 1024]) {
       expect(open[surface].right).toBeLessThanOrEqual(width)
       if (!reflow) {
         // U104, U108 a (owner, 2026-11-09, replacing a fixed 390px face beside a 400px film): in columns the question and the
-        // film are the article grid's two columns, so the pane narrows both with the grid. The open face keeps its 52px lane
-        // for the deck's arrows, the film stays right of it, and each keeps its vertical dock.
+        // film are the article grid's two columns, so the pane narrows both with the grid. The open face keeps a 32px lane each
+        // side for the deck's arrows (CARDWIDTH, v1.263.1; WAS one 52px lane), the film stays right of it, and each keeps its
+        // vertical dock.
         if (surface === "card") {
-          expect(open.film.width - open.card.width, "equal columns: the film is the face and its arrows' lane").toBeCloseTo(52, 0)
+          expect(open.film.width - open.card.width, "equal columns: the film is the face and its arrows' two lanes").toBeCloseTo(64, 0)
           expect(open.film.x, 'the film stays right of the question').toBeGreaterThan(open.card.right)
         }
         expect(open[surface].y, `${surface} keeps its vertical dock`).toBeCloseTo(before[surface].y, 0)
       }
     }
     if (open.layout === 'stacked') {
-      // U110 a: stacked, the film and the card share one box of at most 496px.
-      expect(open.film.width).toBe(Math.min(496, width - open.pane.width - 32))
-      expect(open.card.width).toBe(Math.min(496, width - open.pane.width - 104))
+      // U110 a: stacked, the film and the card's section share one box of at most 496px, the grid. CARDWIDTH (v1.263.1) and WIDTH2
+      // (U152 b): where both margins beside the grid hold a 44px arrow the face is the grid, its arrows outside; where they do not,
+      // the face is the grid less a 32px lane per arrow (WAS the free width less 104, its arrows outside).
+      const free = width - open.pane.width, grid = Math.min(496, free - 64)
+      expect(open.film.width).toBe(Math.min(496, free - 32))
+      expect(open.card.width).toBe(free - grid >= 88 ? grid : grid - 64)
       expect(open.card.y - open.hand.bottom, 'the question follows Moves at the deck gap').toBeCloseTo(16, 0)
       expect(open.film.y - (open.card.bottom + 3 * open.backs), "the current card follows the question's backs at the deck gap").toBeCloseTo(16, 0)
     }

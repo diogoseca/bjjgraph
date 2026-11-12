@@ -162,14 +162,16 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     expect(g.reportedHeight, "the reader is told the film's measured height").toBe(g.mediaHeight)
     if (width > 640) {
       // U104, U108 a (owner, 2026-11-09, replacing the film-left stage and its 400px film): the question left and the video right,
-      // each in a column of the article's grid. The open face keeps a 52px lane for the deck's outside arrows, so the film is
-      // the face and that lane, and the two span the grid.
-      expect(Math.abs(g.faceLeft - g.gridLeft), "the face starts on the grid's left edge").toBeLessThanOrEqual(1)
+      // each in a column of the article's grid, and the two span the grid. CARDWIDTH (owner, 2026-11-12, v1.263.1): the question's
+      // column is its section, the face with one 32px lane per deck arrow inside it, so the film is the face and its two lanes.
+      // WAS: the face started on the grid's edge and kept one 52px lane on its right (card-section.spec.ts pins the lanes).
+      expect(Math.abs(g.faceLeft - 32 - g.gridLeft), "the face starts one arrow's lane in from the grid's left edge").toBeLessThanOrEqual(1)
       expect(Math.abs(g.mediaRight - g.gridRight), "the film ends on the grid's right edge").toBeLessThanOrEqual(1)
-      expect(g.mediaWidth, "equal columns: the film is the face and its arrows' lane").toBeCloseTo(g.faceWidth + 52, 0)
+      expect(g.mediaWidth, "equal columns: the film is the face and its arrows' two lanes").toBeCloseTo(g.faceWidth + 64, 0)
     } else {
       expect(g.mediaWidth).toBe(358)
-      expect(g.faceWidth).toBe(286)
+      // CARDWIDTH: the Moves row's 366px less two 32px lanes (WAS 286, the viewport less 104).
+      expect(g.faceWidth).toBe(302)
       expect(g.mediaHeight).toBeCloseTo(219.94, 0)
       expect(g.followGap, "stacked: the current card follows the question at the parts' step").toBeCloseTo(g.step, 0)
     }
