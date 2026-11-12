@@ -16330,3 +16330,27 @@ the article under it. Pictures: `04-video-before-*`, `05-video-after-*`, `00-vid
 On that head (`217b2297b`, under the lock): `card-section`, the five re-pinned files, `short-phone-answers` (DEV389 changed it),
 `covered-card` and `card-fold`, 125 of 125; `defending-landing.spec.ts:682` on its own three times, 3 of 3; `check_payload_budget.py`
 exit 0.
+
+## v1.265.0 (provisional) — On a phone the question card, the film and the article's sections are as wide as the Moves row (WIDTH4, p5, 2026-11-12)
+
+**The owner's words** (12 Nov, 18:18, with U152 b): "on mobile it still doesnt look as wise [wide] as the choices row and as other
+sections in the article - pls fix".
+
+**Measured first** (real app, no harness, Mount Top, the question taken up; edges in CSS px). At 390 (both heights): the Moves row's
+content box 12-378 (its first card starts at 12), the film 16-374, the article's sections 32-358, the card 52-338 before #390 and
+44-346 after it. At 360x740: 12-348, 16-344, 32-328, card 44-316. At 574x760: the row 12-562, the film and the sections 39-535 (the
+stacked 496px cap), the card 44-530. So "as wide as the choices row and as other sections" could not both hold: the sections stood
+20px inside the moves on each side at 390 and 360 (27px at 574), and the film 4px inside them.
+
+**Variants**, each a real scratch build, the same landing and question (pictures `10-phone-row-*`, `11-*` in the cardwidth briefing
+folder): p1 the arrows in a header row beside the count ("‹ 1/8 ›"): the card 26px taller at 390x631 and its answers 41px lower; p2 the
+arrows inside the card's own side padding at mid-height: no height change, the answers 16px wider than #390's and clear of the arrows;
+p3 a pager row under the answers: 29px taller, the pager under the fold at 390x631; p4 no arrows, the card's own swipe: no height
+change, nothing to press; p5 (built) p2 plus the article's sections and the film on the same box.
+
+**Built (p5).** Under 600px free the grid is the viewport less the row's 12px gutters (WAS less 64), under the same 496px cap, and
+the film takes the grid's box too: at 390 and 360 the moves, the card, the film and the sections share one box; where the cap binds
+(528 to 599px) the card, the film and the sections share U110 a's box, the moves wider. The face is the whole section on a phone (no
+lanes), and the arrows stand inside it, each 44px target over its 36px side padding and reaching 12px past its edge; an asking line
+keeps its own padding. Lanes stay only in the columns and in a flush row whose margins cannot hold a target. The 24 is the phone
+row's padding as a constant (measuring it cost 55 B); `card-section.spec.ts` pins the row's box and the face against each other.

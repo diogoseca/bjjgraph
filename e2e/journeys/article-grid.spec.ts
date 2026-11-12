@@ -90,7 +90,10 @@ for (const width of [1440, 390]) test(`article grid ${width}px preserves content
     expect(card.filter).toBe('none'); expect(card.backdrop).toBe('none')
     expect(card.webkit, 'missing WebKit support is explicit, never an ignored field').toBe(card.webkitSupported ? 'none' : '')
     expect(card.overflow, card.type + ' has no horizontal overflow').toBeLessThanOrEqual(1)
-    expect(card.left).toBeGreaterThanOrEqual(24); expect(card.right).toBeLessThanOrEqual(width - 24)
+    // WIDTH4 (owner, 2026-11-12 18:18): on a phone the sections take the Moves row's width, its 12px gutters (WAS 24px in; card-section.spec.ts
+    // pins the edges themselves).
+    const gutter = width < 600 ? 12 : 24
+    expect(card.left).toBeGreaterThanOrEqual(gutter); expect(card.right).toBeLessThanOrEqual(width - gutter)
     if (i) expect(card.top).toBeGreaterThanOrEqual(geometry[i - 1].top - 1)
     for (const other of geometry.slice(0, i)) expect(card.left >= other.right - 1 || card.right <= other.left + 1 || card.top >= other.bottom - 1, 'cards never overlap').toBe(true)
   }

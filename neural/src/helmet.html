@@ -383,6 +383,16 @@
   .ng-landnav [data-land-next]{left:100%;}
   .ng-landnav svg{translate:6px;}
   .ng-landnav [data-land-next] svg{translate:-6px;}
+  /* WIDTH4 (owner, 2026-11-12 18:18, p5): on a phone the face is the Moves row's whole width and the arrows stand INSIDE it, each
+     44px target over the face's own 36px side padding (a 32px lane and 4px of air before the answers) and reaching 12px past its
+     edge into the row's gutter; the glyph keeps its 16px from the face's edge. The answers never run under a target. An asking line
+     keeps its own padding (it carries the deck class too). 599px is the reader's flush threshold (`flush`, 600px free) on a phone,
+     where the free width is the viewport's. WAS (v1.264.1): the face was the row less two 32px lanes, the arrows outside it. */
+  @media(max-width:599px){
+    [data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){padding-left:36px!important;padding-right:36px!important;}
+    .ng-landnav [data-land-prev]{right:auto;left:-12px;}
+    .ng-landnav [data-land-next]{left:auto;right:-12px;}
+  }
   .ng-landnav button[hidden]{display:none;}
   .ng-landnav [aria-disabled=true]{opacity:.3;cursor:default;color:#8797b3;}
   .ng-land-deck [data-land-q]>div:first-child{font-size:14px!important;line-height:1.4!important;}

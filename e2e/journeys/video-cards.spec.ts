@@ -169,10 +169,12 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
       expect(Math.abs(g.mediaRight - g.gridRight), "the film ends on the grid's right edge").toBeLessThanOrEqual(1)
       expect(g.mediaWidth, "equal columns: the film is the face and its arrows' two lanes").toBeCloseTo(g.faceWidth + 64, 0)
     } else {
-      expect(g.mediaWidth).toBe(358)
-      // CARDWIDTH: the Moves row's 366px less two 32px lanes (WAS 286, the viewport less 104).
-      expect(g.faceWidth).toBe(302)
-      expect(g.mediaHeight).toBeCloseTo(219.94, 0)
+      // WIDTH4 (p5, owner 2026-11-12 18:18): on a phone the film and the face are the Moves row's 366px (WAS 358, and the face 302
+      // with two 32px lanes; 286 before CARDWIDTH).
+      expect(g.mediaWidth).toBe(366)
+      expect(g.faceWidth).toBe(366)
+      // WIDTH4: the film 8px wider keeps its 16:9 poster, so it is about 4px taller (WAS 219.94 at 358px).
+      expect(g.mediaHeight).toBeCloseTo(224.0, 0)
       expect(g.followGap, "stacked: the current card follows the question at the parts' step").toBeCloseTo(g.step, 0)
     }
     // The unchanged landcard-deck journeys pin the 44px arrow hit targets.
