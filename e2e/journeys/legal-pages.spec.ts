@@ -117,7 +117,7 @@ async function expectPageBox(page: Page, path: string, label: string) {
   expect(s.allBlocks.length, `premise: ${path} has paragraphs`).toBeGreaterThan(5)
   const box = page.locator(BOX(kind))
   await expect(box.locator("#ng-legal-h"), `${label}: the page's own title (the box head; the extended text has h2s of its own)`).toHaveText(s.title, { timeout: 30_000 })
-  await expect(box.locator(".ng-legal-sub"), `${label}: the page's own date`).toContainText(s.date)
+  await expect(box.locator("[data-legal-sub]"), `${label}: the page's own date`).toContainText(s.date)
   const text = await box.evaluate((e) => (e.textContent || "").replace(/\s+/g, " "))
   const shortText = await box.locator("[data-legal-short]").evaluate((e) => (e.textContent || "").replace(/\s+/g, " "))
   expect(s.shortBlocks.filter((b) => !shortText.includes(b)), `${label}: the short part is the page's own`).toEqual([])
