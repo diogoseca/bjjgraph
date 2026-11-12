@@ -7,9 +7,10 @@ import { journey } from "../dsl";
  *  PD1  the drawer keeps its width while Practice is open (the home list's, Path's), and a strip of map stays at the
  *       right on a phone
  *  PD2  at 1440x900 each card's technique is flown to the free map beside the drawer: on screen, right of the drawer,
- *       in the middle of the free map, and the topmost thing at its centre is the map itself
+ *       in the middle of the free map, and the topmost thing at its centre is the map itself; Next and Previous
+ *       technique, by mouse, page the session
  *  PD3  "‹ Practice" (the brand) is Practice's one Back and carries the study Back's marker; a deck study's own ‹ Back
- *       keeps it; pressing it by mouse returns to the opener
+ *       keeps it; pressing it by mouse returns to the opener; Esc closes the drawer and gives the game back its pause
  *  PD4  every answer button is at least 44 px tall, inside the drawer and on screen with the corpus's longest answer
  *       (160 characters, the ceiling `mcClip` allows a choice) and its longest explanation, at 390x631 too; and the
  *       choices of a recognition card
@@ -148,6 +149,9 @@ test("PD2: 1440×900 each card's technique is flown to the free map beside the d
     expect(at.map, `PD2: the topmost thing at the orb is the map itself ${where}`).toBe(true);
     expect(at.ringed, "PD2: the technique carries the session's ring").toBe(true);
   }
+  await page.locator(".ng-practice-nav button:first-child").scrollIntoViewIfNeeded();
+  await j.clickByMouse(".ng-practice-nav button:first-child", "‹ Previous technique");
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._session.idx), { message: "Previous technique pages back" }).toBe(0);
 });
 
 test("PD3: ‹ Practice is Practice's one Back; a deck study keeps its own @curated", async ({ page }) => {
@@ -170,6 +174,16 @@ test("PD3: ‹ Practice is Practice's one Back; a deck study keeps its own @cura
   expect(await backs(), "PD3: a deck study's ‹ Back is its own, in its head").toEqual([{ brand: false, text: "‹Back", shown: true }]);
   await j.clickByMouse("[data-pane-back]", "the deck's ‹ Back");
   await expect(page.locator("[data-drawer-explore]")).toBeVisible();
+  // Esc closes the drawer from inside Practice, and the game gets back only the pause the drawer took
+  await j.clickByMouse(".ng-explorer-close", "close the drawer");
+  await expect(page.locator(".ng-drill")).toBeHidden();
+  await page.evaluate(() => (window as any).__neural.setPaused(false));
+  await j.clickByMouse(".ng-logo", "open the drawer, the game running");
+  await openPractice(page, j);
+  expect(await page.evaluate(() => (window as any).__neural.paused), "the open drawer stops the game").toBe(true);
+  await page.keyboard.press("Escape");
+  await expect(page.locator(".ng-drill"), "PD3: Esc closes Practice with the drawer").toBeHidden();
+  expect(await page.evaluate(() => (window as any).__neural.paused), "PD3: and the game resumes").toBe(false);
 });
 
 /** Every visible button of the open card: its box, whether it sits inside the drawer and the viewport, and whether a
