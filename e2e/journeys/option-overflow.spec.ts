@@ -115,6 +115,33 @@ test("@curated the hand uncapped; the deck warm-up did not", async ({ page }) =>
   expect(stand.warmed, "11 decks warmed").toBe(11)
 })
 
+// THE GLIDE IS PACED BY FRAMES, SO IT IS MEASURED IN FRAMES (FLAKY1, v1.262.9). `_trayGlideBy` closes
+// 22% of the gap on each animation frame, so a slow runner slows it down WITH its frame rate. This
+// test used to give it fixed sleeps instead: 250 ms to pass 100 px, then 12 × 60 ms + 200 ms to land.
+// With every frame callback delayed 60 ms (about 16 fps), the app untouched, the old form went red at
+// "the last card is reachable" (156 px short). Now the page counts its own frames: a sampler records
+// the tray each frame and the frame of each wheel, the spec POLLS the glide to its end, and the pace
+// is asserted in frames, which is what the old sleeps allowed at 60 fps (15 frames for the first
+// 100 px, 40 frames from the wheel that sends the target to the end until the glide stops).
+// Mutants, red here by name: the wheel handler removed ("a wheel over the hand scrolls the hand"); the
+// v1.213.2 creep, no landing branch, so the rAF runs forever a few px short ("the glide finishes"; the
+// old form passed it); a glide whose steps shrink to 2.2%, which creeps short the same way ("the glide
+// finishes"); a glide four times slower that still lands ("lands within 40 frames"); a target 60 px
+// short of the end ("the last card is reachable").
+const TRAY_TRACE = `(() => {
+  const w = window, a = w.__neural, el = a.optionsRef.current;
+  const t = w.__trayTrace = { f: 0, on: true, wheels: [], samples: [] };
+  // registered after the app's own wheel listener on the same row, so it reads the target that wheel set
+  el.addEventListener("wheel", () => t.wheels.push({ f: t.f, to: a._trayTo }), { passive: true });
+  const tick = () => {
+    if (!t.on) return;
+    t.f++;
+    t.samples.push({ f: t.f, l: el.scrollLeft, gliding: !!a._trayRaf || a._trayTo != null });
+    requestAnimationFrame(tick);
+  };
+  requestAnimationFrame(tick);
+})()`
+
 // (the three "overflow hint" describes that lived here — above the hand, click+wheel, not on a
 // phone, not in landscape — went with the hint itself in v1.171.1, owner: "it's too much on
 // screen to have the see more and the x". The wheel half of the reach test survives below.)
@@ -139,18 +166,34 @@ test.describe("reaching the folded cards", () => {
       const r = (window as any).__neural.optionsRef.current.getBoundingClientRect()
       return { x: r.left + r.width / 2, y: r.top + r.height / 2 }
     })
+    await page.evaluate(TRAY_TRACE) // the page's frame count, from before the first wheel
     await page.mouse.move(box.x, box.y)
     await page.mouse.wheel(0, 600)
-    await page.waitForTimeout(250)
-    expect(await left(), "a wheel over the hand scrolls the hand").toBeGreaterThan(100)
+    await expect.poll(() => page.evaluate(() => (window as any).__trayTrace.samples.some((s: any) => s.l > 100)),
+      { message: "a wheel over the hand scrolls the hand", timeout: 15_000 }).toBe(true)
+    const first = await page.evaluate(() => {
+      const t = (window as any).__trayTrace
+      return { wheels: t.wheels.length, at: t.wheels[0]?.f, past: t.samples.find((s: any) => s.l > 100)?.f }
+    })
+    expect(first.wheels, "the page saw the one wheel").toBe(1)
+    expect(first.past - first.at, "…and the tray passed 100 px within 15 frames of it (250 ms at 60 fps)").toBeLessThanOrEqual(15)
 
     // the far end is reachable: keep wheeling and the tray bottoms out at its full extent
     for (let i = 0; i < 12; i++) { await page.mouse.wheel(0, 900); await page.waitForTimeout(60) }
-    await page.waitForTimeout(200)
+    // poll the glide to its end: no frame left running and no target pending, however slow the frames
+    await expect.poll(() => page.evaluate(() => { const a = (window as any).__neural; return !a._trayRaf && a._trayTo == null }),
+      { message: "the glide finishes", timeout: 15_000 }).toBe(true)
     const end = await page.evaluate(() => {
-      const el = (window as any).__neural.optionsRef.current
-      return { l: el.scrollLeft, max: el.scrollWidth - el.clientWidth }
+      const w = window as any, el = w.__neural.optionsRef.current, t = w.__trayTrace, max = el.scrollWidth - el.clientWidth
+      t.on = false
+      const sent = t.wheels.find((x: any) => x.to === max) // the wheel that sent the glide's target to the end
+      const landed = sent && t.samples.find((s: any) => s.f > sent.f && !s.gliding)
+      return { l: el.scrollLeft, max, sent: sent ? sent.f : null, landed: landed ? landed.f : null }
     })
     expect(end.max - end.l, "the last card is reachable").toBeLessThan(4)
+    expect(end.max - end.l, "…and the glide lands ON the end, not 1-2 px short of it (v1.213.2)").toBeLessThan(1)
+    expect(end.sent, "a wheel sent the glide's target to the end").not.toBeNull()
+    expect(end.landed, "the page saw the glide stop after that wheel").not.toBeNull()
+    expect(end.landed! - end.sent!, "the glide lands within 40 frames of being sent to the end (what the old sleeps allowed at 60 fps)").toBeLessThanOrEqual(40)
   })
 })
