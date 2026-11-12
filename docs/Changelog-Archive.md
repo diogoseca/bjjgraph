@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.262.5** — [Each browser keeps its own roll-ledger code](#v12625--each-browser-keeps-its-own-roll-ledger-code-flow1-2026-11-12)
 - **v1.262.4** — [The harness loads every deck in one trip](#v12624--the-harness-loads-every-deck-in-one-trip-gate2-2026-11-12)
 - **v1.262.3** — [A scroll that reaches for a taken-up question's answers no longer declines it](#v12623--a-scroll-that-reaches-for-a-taken-up-questions-answers-no-longer-declines-it-short1-2026-11-12)
 - **v1.262.2** — [The planner retry test waits on its own claims](#v12622--the-planner-retry-test-waits-on-its-own-claims-race1-2026-11-12)
@@ -15673,3 +15674,85 @@ plus this change, bundle rebuilt with `dev:neural:app` (1.262.4): the new spec 2
 119 of 119 (11.6 min). There 59 tests call it, at 2.1-2.8 s a call now, and the 26 @curated callers took 210.6 s
 against 399.8 s in GATE1's local batches on v1.262.2 (same box, same step reporter). The full core suite and `e2e:gen` run on the PR (e2e-full); the 26 callers'
 seconds from its shard logs are in `reports/gatetime.md` (GATE2).
+
+## v1.262.5 — Each browser keeps its own roll-ledger code (FLOW1, 2026-11-12)
+
+**The fault** (another seat's M14, 11 Nov; verified from the code before it was believed). The roll ledger (v1.137.0,
+`flow[code][state][move] = [tries, worked, lastDay]`) is a G-counter: one partition per writer, merged per partition by
+MAX, read as the SUM (`ngKnowledgeFlowCounts`). MAX is exact only while a partition has one writer. The code was the
+SETTING `flowDevice` (`_flowDevice`), minted at a browser's first roll, and settings sync per key, last writer wins
+(`_mergeProgressFields`). A browser's sign-in pull runs before its first roll, so a second browser took the account's code
+and never minted one: every browser of an account wrote ONE partition. Production, read-only, 12 Nov: of 109 accounts, 61
+had no ledger and 48 exactly one partition, none more. The code makes one partition the expected count for ANY number of
+browsers (a second appears only when a browser rolls before its first successful pull, and then the later mint wins the
+setting and the earlier partition freezes), so that count cannot tell one device from five. Counting distinct agents per
+account in the auth sessions would; not done here.
+
+**What the ledger is for.** Only `flowCounts()` reads it. It feeds `flowScore` → `ngFlowPersonal` (your choices per state,
+shrunk to the corpus prior with pseudo-count 8; an execution offset; per-technique success rates) and through it
+`weakSpots()`: the Weak session, Practice's plan when no study comparison exists (`_gameplanWeakFallback`), "start from my
+weak spots" (`_weakStates`) and the training-day email's weak-spot line (`dayLog[d].w`). It also enters the knowledge
+profile's fingerprint. No screen prints a ledger total (the badge's rolls today is `rollDays`, a separate per-day MAX).
+
+**What the convergence cost.** An undercount, never an overcount, on a (state, move) that two browsers both rolled while
+one of them held a copy older than the cloud's: two browsers open at once (a push never pulls first, so a tab left open
+writes on its old copy), play offline or after a failed pull. Sequential play, where each browser pulls first (sign-in,
+each tab return), lost nothing. In the new test's model (both browsers signed in, one roll each, every order of roll, push
+and pull for each, both sign-in orders) 1,344 of 1,440 orders lost one of the two rolls under the old rule, 0 under the
+new. That model is concurrent use, an upper bound and not a production rate; the stored ledger cannot show the real one,
+because a MAX loss leaves no trace. A lost tally makes the ranking less the player's own (it leans back to the corpus),
+never visibly wrong.
+
+**The rule.** The code lives in the browser, per OWNER: the host's `flowDevice(inst, mint)` (progress-owner.src.js) keeps
+it under `ngProgressLocalKey(owner, "device")`, beside the owner's local copy and never in the blob, so it never syncs and
+never joins. `_flowDevice` mints it at the owner's first roll there (`b` + two FNV-1a hashes over the clock,
+`performance.now()` and the environment; no `rng()` draw) and steps past any id the ledger already holds. The setting
+`flowDevice` is dormant: read and written by nothing, kept (no tombstone, CLAUDE.md §6.6). The partition filed under it
+stays byte for byte and still counts; nothing writes it again, except a tab still on an older build until it reloads.
+
+**Walked.** An account whose browsers share one code (all 48): that partition stays; each browser mints its own at its next
+roll, so one slot plus one per browser. A new device: its own partition. A second account on the same browser: its own
+code. The guest: its own code, never an account's on the same browser, so `ngProgressGuestFlow`'s premise (a partition
+joins as itself, merges with itself by MAX, is not joined at the cap) now holds by construction; before, a guest copy
+adopted from the pre-v1.207 unowned blob could carry the account's own synced code. Storage cleared: a new code, the old
+partition kept and counted, ONE MORE SLOT, where under the old rule the first pull handed the code back. At the cap (6
+partitions with rows in the 180-day window) `_trimFlow` evicts the least recently touched partition and says so
+(`flow_trimmed`): an account needs seven storage lifetimes that rolled within 180 days to reach it (a browser that clears
+site data after days away, private windows). A partition is at most 2,417 state-move cells, about 60 KB, if one browser
+rolled every move in the corpus. The cap itself is left for the orchestrator: keep 6 and count partitions per account after
+the deploy, or raise it. Two tabs of one browser still share its code, as they share its local copy; unchanged, not claimed.
+
+**Tests.** `tests/flow_device_per_browser.test.mjs`, 9 tests on the real class and owner host, against a fake cloud that
+holds an account's rolls under one shared code: (1) two browsers, 1,440 orders, two new partitions, exact tallies in the
+cloud and on both browsers, the shared partition as it was; (2) the setting never written, its stored value and stamp
+unchanged, never gained by an account without it; (3) one code across a reload, a sign-out and a sign-in; (4) a new device
+touches no other partition; (5) a second account, its own code; (6) the guest's code is not the account's, joins as
+itself, re-joins by MAX (3 rolls, not 5); (7) storage cleared: a new code, the old partition kept (stated: one more slot);
+(8) a forced collision (same clock and agent) steps past the held id and loses nothing; (9) stated: at the cap the least
+recently touched partition goes, named by the beat. On 3b0d973eb's code, 1 fails on its tally (11 for 12) and every other
+on its claim.
+
+**Mutants** (each run against the green file and tests/guest_join_safety.test.mjs, in a scratch mirror):
+
+| mutant | red |
+|---|---|
+| MA `_flowDevice` back to the setting rule | 1-9 |
+| MB one code per browser for every owner | 5, 6 |
+| MC the host never reads a stored code back | 3, 6 |
+| MC2 the host never stores the code | 1-9 |
+| MD the mint skips its held-id check | 8 |
+| ME the mint also writes the setting | 2 |
+| MF the mint adopts the stored `flowDevice` | 1-8 |
+| MG the flow merge sums instead of MAX | 1, 3, 4, 6, 8 + guest 15, 16, 19 |
+
+**Bytes.** neural.js +527 B raw, +132 B gzip-9. The deferred set stays 510,977 of 510,977 B; nothing moved a ceiling.
+App rows re-seeded app-only (`validate:build-shape:app`); four model bundles move at the same size because the MDP
+manifest's `gameplayHash` digests app.src.jsx.
+
+**Privacy page.** True after this change: "Roll history (how often you chose each move from each position, and how often
+it worked), recorded separately for each browser you use, under a code generated in that browser." The Settings line's
+"(including a code generated in your browser, under which your roll history is recorded)" stops being true for new rolls:
+the code is no longer a setting. Accounts that rolled before this change still carry the old code in their settings, no
+longer used.
+
+**Runs.** LOCAL. Units 1,491 of 1,491 before the merge with dev v1.262.4 and 1,491 of 1,491 inside `ci:validate` after it. `ci:validate` (the orchestrator's pinned actionlint 1.7.7 via `ACTIONLINT=`, `--keep-going`) on the merged tree: 25 of 25 replayed steps green. The first replay had stopped at the unit step on `verify_clips`'s deadline test (`checked_unique_ids` 0 for 1: a 0.1 s wall-clock deadline against a 0.15 s sleep, the box at load 8.0); it passed 5 of 5 alone and in the second replay, and nothing here touches clips. Journeys under the build lock (`BUILD_PEAK_MIB=4000`, :8133), bundle rebuilt with `dev:neural:app`: auth-owner, auth-redirect-back, guest-join, signin-intent, account-menu, legacy-gone, weak-spots-acceptance and roll-execution, 53 of 53 on 0d1a00eac (6.8 min); after the merge (7f9adb319) the same plus dev's harness-deck-trip, 55 of 55 (7.5 min). `check_payload_budget.py` exit 0 on the final tree (eager gzip 351,836 B, over its 300,000 B target and under the 400,000 B action, as on dev plus this change's 132 B). The full core suite and `e2e:gen` run on the PR.

@@ -20,14 +20,19 @@
 //      one more slot toward NG_FLOW_DEVICES);
 //   8. a mint never takes a partition id the account already holds (a forced collision: the same clock and agent);
 //   9. STATED, the cap: a seventh partition evicts the least recently touched one, named by the `flow_trimmed` beat.
-// MUTANTS (2026-11-12; each run against this green file and the existing tests/guest_join_safety.test.mjs; each turned
-// the tests named red; the count of failing orders in 1 is the measured cost of the old rule):
-//   MA `_flowDevice` back to the v1.262.4 rule (read and mint the `flowDevice` setting)               → 1, 2, 7, 8
-//   MB the host's code kept per browser, one key for every owner                                       → 5, 6
-//   MC the host mints but never stores the code                                                       → 3, 7
-//   MD the mint skips its check against the partitions the account already holds                      → 8
-//   ME the mint also writes the code into settings (`this.set("flowDevice", d)`)                       → 2
-//   MF the mint adopts the stored `flowDevice` when there is one (the tempting "keep the old code")      → 1, 2
+// MUTANTS (2026-11-12; each run, in a scratch mirror, against this green file and tests/guest_join_safety.test.mjs; each
+// turned exactly the tests named red, guest_join_safety's 19 staying green unless named):
+//   MA `_flowDevice` back to the v1.262.4 rule (read and mint the `flowDevice` setting)          → 1-9 (1 on its tally: 11 for 12)
+//   MB one code per browser for every owner (a browser-wide key, mirrored under each owner's)      → 5, 6
+//   MC the host never reads a stored code back (a new code every page)                           → 3, 6
+//   MC2 the host never stores the code                                                          → 1-9
+//   MD the mint skips its check against the partitions the account already holds                 → 8
+//   ME the mint also writes the code into settings (`this.set("flowDevice", d)`)                  → 2
+//   MF the mint adopts the stored `flowDevice` when there is one (the tempting "keep the old code") → 1-8
+//   MG the ledger merge SUMS a partition instead of MAX (a re-pull counts twice)                  → 1, 3, 4, 6, 8; guest 15, 16, 19
+// THE OLD RULE'S COST, measured with this file's harness (1's orders, the old `_flowDevice`): 1,344 of the 1,440 orders
+// lose one of the two rolls; 0 do under the new rule. Both browsers are signed in throughout: concurrent use, an upper
+// bound, not a production rate.
 // NOT CLAIMED: two TABS of one browser share the browser's code, as they share its local copy (the local store merges
 // them by MAX, `mergeExternal`); that is unchanged by this rule and no test here says otherwise.
 import { test } from "node:test";
