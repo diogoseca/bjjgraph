@@ -28,7 +28,7 @@ const once = (text, re, to, name) => {
 }
 const MUTANTS = [
   { name: "reach-off", file: "reader.js", why: "the article reach never starts: a press on the article is reading at once (the old rule)",
-    edit: t => once(t, /if\(([\w$]+)&&this\.app\._reach\(\)\)return;/, "if(!1)return;", "reach-off"),
+    edit: t => once(t, /[\w$]+&&this\.app\._reach\(\)/, "!1", "reach-off"),
     tests: [["past the answers, a drag from the article back", "a drag from the article back toward the answers is reaching"],
             ["the escape drill's card", "the drill keeps its clock"]] },
   { name: "reach-ignores-view", file: "neural.js", why: "a press on the article is a reach even with every answer in view",

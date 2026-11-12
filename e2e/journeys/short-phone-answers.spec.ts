@@ -218,14 +218,15 @@ test.describe("390x631, by touch, from the article", () => {
   test("SHORT1: a press on the game ends an article reach, so a drag on the card that carries it off declines nothing, as before", async ({ page }) => {
     const j = await arriveAndTakeUp(page)
     const { art } = await overshoot(page, j)
-    await finger(page, art.x, art.y, -40) // a reach: the card stays on screen
+    await finger(page, art.x, art.y, -100) // a reach: the card comes down and stays on screen
     await j.readerLayoutSettled()
     await j.advance(100)
     const reached = await state(page)
     expect([reached.declined, reached.answered, reached.card!.bottom > reached.top], "premise: a reach, the card still on screen").toEqual([[], false, true])
     const from = await lowest(page, "card", reached.card!.bottom - 4, reached.top + 4)
     expect(from, "premise: a point on the card").not.toBeNull()
-    await finger(page, from!.x, from!.y, Math.min(from!.y - reached.top - 4, reached.card!.bottom - reached.top + 40))
+    // a thumb may carry on past the reader's top edge: the scroll is the gesture's, wherever the finger ends
+    await finger(page, from!.x, from!.y, Math.min(from!.y - 4, reached.card!.bottom - reached.top + 40))
     await j.readerLayoutSettled()
     await j.advance(100)
     const s = await state(page)
