@@ -230,7 +230,10 @@ NEURAL_TARGET = {
     # v1.262.10 (PAYBASE3): 510_981, +4 B: one more character of the version in 4 deferred files (game-study.js,
     # game-study.worker.js, game-values.js, settings-ui.js, +1 B each), no code. Under U134 b's 512_000, 1_019 B remain;
     # at v1.263.0 the set is 4 B smaller again.
-    "deferred_raw_bytes": 510_981,
+    # v1.266.0 (knownshown, the owner's must of 13 Nov): 511_007, +44 B on dev v1.265.2's 510_963: Settings' hidden-moves
+    # line says a move you know stays face up until it is due (settings-ui.js only, 22_113 -> 22_157 B); under the
+    # standing 512_000 B ruling (U134 b), 993 B remain.
+    "deferred_raw_bytes": 511_007,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
