@@ -2880,11 +2880,17 @@ class Component extends DCLogic {
   // every frame for an account with a known move until the seat stood in for this one synchronous call
   // (moves-mastery.spec.ts). A hand that cannot be dealt says so once (`moves_hand_failed`) and counts as unknown.
   _dealtOrds(i, role) {
+    return this._dealtOpts(i, role, (d) => String(this._ordById.get(this.siteIdOf(this.nodes[d.idx].id))));
+  }
+  // the dealt hand itself (or `map` over it), under the same guard: the rating (`_ratingGame`) prices each card by its
+  // node index from the ruleset's own hand table, and must deal exactly the hand the moves record is filed against
+  _dealtOpts(i, role, map) {
     const at = this.currentPos;
     this._movesBusy = true;
     try {
       if (!this.nodes[at]) this.currentPos = i;
-      return this.optionsFor(i, role).map((d) => String(this._ordById.get(this.siteIdOf(this.nodes[d.idx].id))));
+      const opts = this.optionsFor(i, role);
+      return map ? opts.map(map) : opts;
     } catch (e) {
       if (!this._movesHandBeat) { this._movesHandBeat = 1; this.fx("moves_hand_failed", { seat: this.nodes[i] && this.nodes[i].id, role, error: String(e && e.message) }); }
       return null;
@@ -2972,6 +2978,68 @@ class Component extends DCLogic {
       for (const o of d) if (set.has(o)) known++;
     }
     return { known, total: T[this._giMode] };
+  }
+  // THE RATING (v1.267.0, owner 13 Nov: method C, table a, the top at 2000) — STAGE 1: computed, cached, shown
+  // NOWHERE. No setting, no storage, no paint; `window.__neural.rating()` is how a spec (rating-reader.spec.ts) and a
+  // person read it on a built page. The law is neural/src/rating.src.js (pure, shared with the unit suite); this is
+  // its ONE reader in the app, and all it adds is the join to this app's own state:
+  //   · the game (`_ratingGame`): the manifest's decks and card counts, `scoreWeights(frame)`, the shared-question
+  //     index, and every seat this ruleset deals with its DEALT hand (`_dealtOpts`, the hand the moves record is
+  //     filed against) priced from the ruleset's OWN hand table: `_evGi` in gi, `_ev` in no-gi (the table FLOW reads;
+  //     a card's `ev` is the no-gi EDGE row in both rulesets and would price a gi-only move at nothing). Seats are
+  //     deduped by site ordinal and role exactly as `_movesKnownLine` counts them, and the walk asks `rsAllowsIdx`.
+  //     Rebuilt only when the graph, the manifest, the weights or the shared index is replaced, or the ruleset flips;
+  //     a hand that fails to deal makes it "hand-failed" and is never kept (a game short one seat is not the game).
+  //   · the record: `srs`, `stage` and `moves` AS STORED, read and never written — no row is touched, no save is
+  //     asked for. Cached on those three objects, the moves and knowledge revisions, `_stageVer`, the day and the
+  //     game, so a grade, a pull or a new day recomputes and a repaint does not.
+  // Before the graph, the manifest or the weights are in, the answer is a status with `points: null`, never 1000.
+  rating() {
+    const frame = this._giMode === "nogi" ? "nogi" : "gi", day = this._epochDay();
+    const game = this._ratingGame(frame);
+    const c = this._ratingCache;
+    if (c && c.game === game && c.day === day && c.srs === this.srs && c.stage === this.stage && c.moves === this.moves
+      && c.mrev === this._movesRev && c.krev === this._knowledgeRevision && c.sv === this._stageVer) return c.out;
+    const r = ngRatingShare(game, { srs: this.srs, stage: this.stage, moves: this.moves }, day);
+    const out = Object.freeze(Object.assign({ frame, day }, r, { counts: Object.freeze(r.counts) }));
+    if (game.status === "ok") this._ratingCache = { game, day, srs: this.srs, stage: this.stage, moves: this.moves,
+      mrev: this._movesRev, krev: this._knowledgeRevision, sv: this._stageVer, out };
+    return out;
+  }
+  _ratingGame(frame) {
+    const decks = this.flashcards && this.flashcards.decks, weights = this.scoreWeights(frame);
+    const c = this._ratingGameCache;
+    if (c && c.frame === frame && c.nodes === this.nodes && c.ord === this._ordToId && c.decks === decks
+      && c.weights === weights && c.shared === this._sharedQ) return c.game;
+    // a game that could not be read is a STATUS, kept nowhere: `ngRatingShare` turns it into `points: null`
+    const fail = (status) => ({ status, total: 0, counts: {} });
+    if (!this.nodes || !this.nodes.length || !this._ordById) return fail("no-graph");
+    if (!decks || !Object.keys(decks).length) return fail("no-manifest");
+    if (!weights || !Object.keys(weights).length) return fail("no-weights");
+    const tab = frame === "gi" ? this._evGi : this._ev;
+    const seats = {};
+    let whole = true;
+    if (tab && tab.size) for (const n of this.nodes) {
+      const o = n.ty === "positions" && this.rsAllowsIdx(n.idx) ? this._ordById.get(this.siteIdOf(n.id)) : null;
+      if (o == null) continue;
+      for (const role of ["top", "bottom"]) {
+        const st = o + "/" + role;
+        if (seats[st]) continue;
+        const opts = this._dealtOpts(n.idx, role);
+        if (!opts) { whole = false; continue; }
+        const key = this.posFamily(n.t) + "|" + (role === "bottom" ? "Bottom" : "Top");
+        const rows = tab.get(this.canonicalState(n.idx, role) + "/" + role), hand = {};
+        for (const d of opts) {
+          const r = rows && rows.get(d.idx);
+          hand[String(this._ordById.get(this.siteIdOf(this.nodes[d.idx].id)))] = r && typeof r.att === "number" ? r.att : null;
+        }
+        seats[st] = { w: Object.prototype.hasOwnProperty.call(weights, key) ? weights[key] : 0, hand };
+      }
+    }
+    if (!whole) return fail("hand-failed");
+    const game = ngRatingUniverse({ decks, weights, shared: this._sharedQ, seats });
+    this._ratingGameCache = { frame, nodes: this.nodes, ord: this._ordToId, decks, weights, shared: this._sharedQ, game };
+    return game;
   }
   // THE WIN % READS THE SAME FIGURE. The worker's profile computes `permanent` from `prep` itself
   // (`ngKnowledgeBuildProfile` in knowledge-profile.src.js, a law-hashed file pinned by worker-core.mjs, game-bundles.mjs

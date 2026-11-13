@@ -101,6 +101,9 @@ const systemsDemand = stripExports("systems-demand.src.js");
 // merge. A real module for the codec's reason: the unit suite and the digest Worker (which names
 // the next belt in the training-day email) import the identical source.
 const beltRule = stripExports("belt.src.js");
+// rating.src.js (v1.267.0): the ONE definition of the rating — the share of the game recalled now, its points and
+// the belt lines (table a). Pure and shared like the belt rule: the unit suite imports the identical source.
+const ratingRule = stripExports("rating.src.js");
 {
   // EVERY top-level binding form, not just function/const: two `let NGL_FOO` in one scope is
   // the same SyntaxError, and it would delete the same whole app. (The guard used to scan
@@ -111,7 +114,7 @@ const beltRule = stripExports("belt.src.js");
         (m) => m[1],
       ),
     );
-  const groups = [["lists-codec.src.js", listsCodec], ["lists.src.js", listsStore], ["flow.src.js", flowKernel], ["wire-keys.src.js", wireKeys], ["knowledge-profile.src.js", knowledgeProfile], ["gameplan-debt.src.js", gameplanDebt], ["progress-owner.src.js", progressOwner], ["systems-demand.src.js", systemsDemand], ["belt.src.js", beltRule]];
+  const groups = [["lists-codec.src.js", listsCodec], ["lists.src.js", listsStore], ["flow.src.js", flowKernel], ["wire-keys.src.js", wireKeys], ["knowledge-profile.src.js", knowledgeProfile], ["gameplan-debt.src.js", gameplanDebt], ["progress-owner.src.js", progressOwner], ["systems-demand.src.js", systemsDemand], ["belt.src.js", beltRule], ["rating.src.js", ratingRule]];
   const clash = [];
   for (let a = 0; a < groups.length; a++) {
     for (let b = a + 1; b < groups.length; b++) {
@@ -274,6 +277,10 @@ ${gameplanDebt}
 /* ---- begin belt.src.js (the belt a player wears: rule, stripes, cross-device merge) ---- */
 ${beltRule}
 /* ---- end belt.src.js ---- */
+
+/* ---- begin rating.src.js (the rating: share of the game recalled now, points, belt lines) ---- */
+${ratingRule}
+/* ---- end rating.src.js ---- */
 
 /* ---- begin challenge definitions + pure engine ---- */
 ${challengeDefinitions}
