@@ -72,9 +72,10 @@ import { journey } from "../dsl"
  * NOT COVERED here: the hover words' TOOLTIP itself (a browser tooltip cannot be read; its `title` is asserted, and the
  * pointer meets the seal); the light/dark poster frames (the pictures, tests/artifacts/_seal_shoot.mjs; the spec checks
  * the seal is lit or dark INSIDE, whatever the poster); a known escape's or threat's seal (the units: escape; the same
- * `_sealCard` paints every dealt card). The map: the pair label, hover label and lit labels are drawn AFTER the dots
- * (over them), and only the option names steer a dot (`_lastOptBoxes`); a dot whose four shoulders are all covered by
- * names stays up-right. The map's dot under mastery gold, and on the focus mark, are in the pictures, not asserted.
+ * `_sealCard` paints every dealt card). The map: since v1.275.0 (map-names.spec.ts) every name is written BEFORE the dots
+ * and every name steers a dot (`_lastNameBoxes`: the position's, the pointer's, the moves', the lit trail's), so the
+ * check below against the option names (`_lastOptBoxes`) is a subset of what holds; a dot whose four shoulders are all
+ * covered by names stays up-right. The map's dot under mastery gold, and on the focus mark, are in the pictures, not asserted.
  */
 
 type W = any
