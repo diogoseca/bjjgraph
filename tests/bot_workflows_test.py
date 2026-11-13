@@ -255,6 +255,103 @@ class WorkflowTests(unittest.TestCase):
         self.assertGreater(checked, 500)
         print(f"Checked {checked} workflow strings for npx --yes and MCP servers")
 
+    # THE MODEL BOTS' TOOLS ARE THEIR JOBS (v1.265.3). Every claude-code-action step has a row here, and its
+    # --allowedTools / --disallowedTools are exactly that row. The three agent-mode bots that edit or write hold: reads
+    # outside the tree only of the folder their prefetch writes, edits only under paths their commit stages, no Write
+    # where they only edit, no Bash at all (validation and dates come from the steps around them), and `.git` denied,
+    # since the action writes its own token into .git/config's remote while it runs. A job whose later step sets its own
+    # authenticated remote checks out with persist-credentials: false. Mutants, each applied alone, killed here:
+    #   analytics: bare `Edit` back; `Bash(cat:*)` back; `Bash(python3 scripts/validate_json.py:*)` back; bare `Read`
+    #     back; `Bash` dropped from the deny list; `Read(.git/**)` dropped; `Write` dropped; the old "run the validator"
+    #     prompt step back.
+    #   seo-monitor: bare `Write` back; `Bash(mkdir:*)` back; `Edit(scripts/**)` added; `Read(//tmp/**)` widened.
+    #   content bot: bare `Edit` back; `Bash(date:*)` back; `Edit(.github/**)` added.
+    #   any bot: persist-credentials: false removed (votes-refresh); a sixth Claude action step with no row.
+    GRANTS = {
+        ("analytics-content-improvement.yml", "improve_content"): (
+            {"Read(//tmp/analytics/**)", "Edit(content/**/*.json)", "Glob", "Grep"}, {"Bash", "Write", "Read(.git/**)"}),
+        ("seo-monitor.yml", "seo_report"): (
+            {"Read(//tmp/seo/**)", "Edit(tests/artifacts/seo_trends.md)"}, {"Bash", "Read(.git/**)"}),
+        ("content-improvement-bot.yml", "improve_content"): (
+            {"Read(//tmp/preprocessing/**)", "Edit(content/**)", "Edit(tests/artifacts/suggested_new_files.csv)"},
+            {"Bash", "Write", "Read(.git/**)"}),
+        # read-only bots: the action's own mode decides the rest (tag mode adds its own tools); pinned as reviewed
+        ("claude.yml", "claude"): (
+            {"Read", "Grep", "Glob", "Bash(gh pr view:*)", "Bash(gh pr diff:*)", "Bash(gh pr list:*)", "Bash(gh pr comment:*)",
+             "Bash(gh issue view:*)", "Bash(gh issue list:*)", "Bash(gh issue comment:*)", "Bash(gh search:*)"}, set()),
+        ("claude-code-review.yml", "claude-review"): (
+            {"Bash(gh issue view:*)", "Bash(gh search:*)", "Bash(gh issue list:*)", "Bash(gh pr comment:*)",
+             "Bash(gh pr diff:*)", "Bash(gh pr view:*)", "Bash(gh pr list:*)"}, set()),
+    }
+
+    @staticmethod
+    def _tool_flags(claude_args):
+        import shlex
+        text = "\n".join(line for line in claude_args.splitlines() if not line.strip().startswith("#"))
+        text = re.sub(r"\$\{\{.*?\}\}", "expr", text)
+        words, flags, current = shlex.split(text), {"allow": [], "deny": []}, None
+        for word in words:
+            if word.startswith("--"):
+                current = {"--allowedTools": "allow", "--allowed-tools": "allow",
+                           "--disallowedTools": "deny", "--disallowed-tools": "deny"}.get(word)
+                continue
+            if current:
+                flags[current] += [t.strip() for t in word.split(",") if t.strip()]
+        return set(flags["allow"]), set(flags["deny"])
+
+    def test_model_bots_hold_only_their_jobs_tools(self):
+        seen = set()
+        for workflow_name, workflow in self._workflows():
+            for job in workflow["jobs"].values():
+                steps = job.get("steps", [])
+                for i, step in enumerate(steps):
+                    if not str(step.get("uses", "")).startswith("anthropics/claude-code-action@"):
+                        continue
+                    key = (workflow_name, step.get("id"))
+                    self.assertIn(key, self.GRANTS, f"{key}: a Claude action step with no reviewed grant")
+                    seen.add(key)
+                    allow, deny = self._tool_flags(step.get("with", {}).get("claude_args", ""))
+                    want_allow, want_deny = self.GRANTS[key]
+                    self.assertEqual(allow, want_allow, f"{key}: --allowedTools")
+                    self.assertEqual(deny, want_deny, f"{key}: --disallowedTools")
+                    edits = [t for t in allow if t.startswith(("Edit", "Write", "MultiEdit", "NotebookEdit"))]
+                    if not edits:
+                        continue
+                    # an editing bot: path-scoped edits inside what its commit stages, scoped outside reads, no shell
+                    for tool in allow:
+                        self.assertNotIn(tool, {"Read", "Edit", "Write", "MultiEdit", "NotebookEdit"}, f"{key}: {tool} is not scoped")
+                        self.assertFalse(tool.startswith("Bash"), f"{key}: {tool}: no shell for an editing bot")
+                    self.assertTrue({"Bash", "Read(.git/**)"} <= deny, f"{key}: Bash and .git denied")
+                    later = "\n".join(s.get("run", "") for s in steps[i + 1:])
+                    staged = re.findall(r"^\s*(?:git add|cp \S+) (.+)$", later, re.M)
+                    for tool in edits:
+                        path = re.fullmatch(r"Edit\(([^)]+)\)", tool).group(1)
+                        self.assertTrue(any(path.startswith(t.rstrip("/").split()[0].rstrip("/")) or t.strip().endswith(path)
+                                            for line in staged for t in line.split()),
+                                        f"{key}: {path} is not a path a later step stages")
+                    for tool in allow:
+                        m = re.fullmatch(r"Read\(//(tmp/[a-z]+)/\*\*\)", tool)
+                        if tool.startswith("Read("):
+                            self.assertIsNotNone(m, f"{key}: {tool}: an outside read is one prefetch folder")
+                            self.assertIn(f"/{m.group(1)}/", "\n".join(s.get("run", "") for s in steps[:i]),
+                                          f"{key}: {tool}: no earlier step writes that folder")
+                    prompt = step["with"].get("prompt", "")
+                    self.assertNotIn("```bash", prompt, f"{key}: the prompt asks a shell-less agent to run a command")
+                    self.assertNotRegex(prompt, r"\(run `", f"{key}: the prompt asks a shell-less agent to run a command")
+        self.assertEqual(seen, set(self.GRANTS), "every reviewed row is a real step")
+        remotes = 0
+        for workflow_name, workflow in self._workflows():
+            for name, job in workflow["jobs"].items():
+                steps = job.get("steps", [])
+                if not any("git remote set-url origin https://x-access-token:" in s.get("run", "") for s in steps):
+                    continue
+                remotes += 1
+                checkout = next(s for s in steps if str(s.get("uses", "")).startswith("actions/checkout@"))
+                self.assertIs(checkout.get("with", {}).get("persist-credentials"), False,
+                              f"{workflow_name} {name}: a later step sets its own remote, so the checkout keeps no token")
+        self.assertEqual(remotes, 6)
+        print(f"Checked {len(seen)} Claude action grants and {remotes} checkouts that keep no token")
+
     def test_every_workflow_declares_permissions(self):
         declared = 0
         for workflow_name, workflow in self._workflows():

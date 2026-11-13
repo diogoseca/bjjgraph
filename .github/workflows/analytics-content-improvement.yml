@@ -32,6 +32,8 @@ jobs:
         with:
           ref: dev
           fetch-depth: 0
+          # The PR step sets its own authenticated remote; no step before it pushes or fetches.
+          persist-credentials: false
 
       - name: Setup Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
@@ -62,6 +64,8 @@ jobs:
           MODEL=$(python3 scripts/_model.py --print default)
           test -n "$MODEL"
           echo "model=$MODEL" >> "$GITHUB_OUTPUT"
+          # the date the prompt hands the agent, which has no shell
+          echo "today=$(date -u +%F)" >> "$GITHUB_OUTPUT"
 
       - name: Prefetch analytics + content catalog
         if: steps.queue.outputs.proceed == 'true'
@@ -140,38 +144,39 @@ jobs:
                - Improve flashcards (clear, specific, practical Q&A pairs)
                - Ensure success rates: beginner <= intermediate <= advanced
                - In the JSON SOURCE (not the generated .md), set a top-level
-                 `bot_metadata` object with `last_improved` = today's date YYYY-MM-DD
-                 (and `last_improved_by: "analytics-bot"`). The schema allows it; it
+                 `bot_metadata` object with `last_improved` = "${{ steps.model.outputs.today }}"
+                 (today) and `last_improved_by: "analytics-bot"`. The schema allows it; it
                  lets the selector skip recently-improved files.
             4. Focus improvements on what analytics suggest is weak:
                - High bounce rate → improve overview/first paragraph (this is what users see first)
                - Low session duration → add depth to key_principles and decision_tree sections
                - Search entry page → ensure description and overview answer the search query directly
 
-            # Step 5: Validate
+            # Step 5: Keep to the schema
 
-            Run validation for each improved file:
-            ```bash
-            python3 scripts/validate_json.py --file <file>
-            ```
-
-            Fix any validation errors. Retry up to 3 times if needed.
+            You have no shell. The step after you validates every JSON file you changed
+            (`scripts/validate_json.py`), and a file that fails is left out of the PR. Read the
+            schema for each file's category in `templates/` (`templates/Positions.json` for
+            `content/Positions/…`) and keep every edit within it. You can edit only
+            `content/**/*.json`.
 
             # Step 6: Summarize
 
             In your final message, summarize which pages you selected and why (traffic /
             bounce / session-duration), what you changed, and a before/after quality note.
 
-          # SECURITY: no `Write` and no unrestricted `Bash(python3:*)` — both would let an
-          # injected analytics string run arbitrary code / write arbitrary files and
-          # exfiltrate this job's CLAUDE_CODE_OAUTH_TOKEN. The agent only Edits existing
-          # content, reads prefetched analytics, and may run the validator. python3 is
-          # restricted to that validator; the post-step re-validates and the commit is
-          # scoped to content/ below. No PostHog key is set on this step (prefetched).
+          # THE AGENT'S TOOLS ARE ITS JOB (v1.265.3). It reads the repository (reads inside the working directory need no
+          # rule) and the prefetched files under /tmp/analytics, and edits existing content/**/*.json files, nothing else:
+          # no Write (a path-scoped `Edit(...)` rule would let Write create files under it), and the rest of the tree, .git
+          # included, is outside the rule. It has no Bash: the validator runs in the next steps, not as its tool, so no edit
+          # it makes can become a program it runs. `Read(.git/**)` is denied because the action writes
+          # its own token (revoked when the step ends) into .git/config's remote; the checkout keeps none. No PostHog key
+          # is set on this step (prefetched). Pinned by tests/bot_workflows_test.py (test_model_bots_hold_only_their_jobs_tools).
           claude_args: |
             --model "${{ steps.model.outputs.model }}"
             --effort xhigh
-            --allowedTools 'Read,Edit,Bash(date:*),Bash(cat:*),Bash(python3 scripts/validate_json.py:*),Glob,Grep'
+            --allowedTools 'Read(//tmp/analytics/**),Edit(content/**/*.json),Glob,Grep'
+            --disallowedTools 'Bash,Write,Read(.git/**)'
 
       - name: Check Claude execution (improve_content)
         if: steps.queue.outputs.proceed == 'true' && steps.improve_content.outcome == 'success'

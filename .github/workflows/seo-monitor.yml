@@ -37,6 +37,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          # The publish step sets its own authenticated remote; the prior-report fetch reads a public branch.
+          persist-credentials: false
 
       # Every other workflow pins Python; this one ran python3 at two steps on whatever the
       # runner image happened to carry. Pinned to match the fleet (3.11).
@@ -76,20 +79,26 @@ jobs:
           MODEL=$(python3 scripts/_model.py --print default)
           test -n "$MODEL"
           echo "model=$MODEL" >> "$GITHUB_OUTPUT"
+          # the date the prompt hands the agent, which has no shell
+          echo "today=$(date -u +%F)" >> "$GITHUB_OUTPUT"
 
       - name: Generate SEO trend report
         id: seo_report
         uses: anthropics/claude-code-action@51705da45eecce209d4700538bf8377d5b5fc695 # v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          # SECURITY: no backend secret in this step's env; no unrestricted Bash(python3:*)
-          # (arbitrary code-exec an injected string could abuse); no MCP server (v1.265.1,
-          # see the header). The agent reads prefetched PostHog JSON and only Writes the
-          # report (commit is scoped to seo_trends.md below).
+          # THE AGENT'S TOOLS ARE ITS JOB (v1.265.3). It reads the repository (reads inside the working directory need no
+          # rule) and the prefetched /tmp/seo, and writes exactly one file, the report (`Edit(path)` is the rule Write is
+          # checked against). Nothing else in the tree, so no later step (`bot_run.py`, the publish step's `git commit`)
+          # runs a file it wrote. No Bash: the date comes in the prompt and tests/artifacts already exists. `Read(.git/**)`
+          # is denied because the action writes its own token (revoked when the step ends) into .git/config's remote. No
+          # backend secret in this step's env; no MCP server (v1.265.1, see the header). Pinned by
+          # tests/bot_workflows_test.py (test_model_bots_hold_only_their_jobs_tools).
           claude_args: |
             --model "${{ steps.model.outputs.model }}"
             --effort xhigh
-            --allowedTools 'Read,Write,Bash(mkdir:*),Bash(date:*)'
+            --allowedTools 'Read(//tmp/seo/**),Edit(tests/artifacts/seo_trends.md)'
+            --disallowedTools 'Bash,Read(.git/**)'
           prompt: |
             You are an SEO analyst tracking the BJJGraph synonym/alias program. Produce a
             leading-indicator trend report. Read-only: do NOT edit any site content under content/.
@@ -110,14 +119,15 @@ jobs:
 
             # Step 3 — Append the report
             Read tests/artifacts/seo_trends.md if it exists (create with an "# SEO Trends"
-            header if not). APPEND a new section titled with today's date (run `date -u +%F`),
+            header if not). APPEND a new section titled with today's date, ${{ steps.model.outputs.today }},
             containing:
             - the line "SERP rank: not measured"
             - the PostHog search-entry top-10
             - an **Anomalies** list: any page that left the search-entry top 10, or a
               variant/role page (a path ending /Top, /Bottom, /Attacker or /Defender) that
               entered it (compare against the most recent prior section in the file).
-            Keep the whole new section under ~150 lines. Write the file with the Write tool.
+            Keep the whole new section under ~150 lines. Write the file with the Write tool:
+            `tests/artifacts/seo_trends.md` is the one file you can write.
 
       - name: Check Claude execution
         id: execution

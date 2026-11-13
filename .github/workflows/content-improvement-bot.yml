@@ -32,6 +32,8 @@ jobs:
         with:
           ref: dev
           fetch-depth: 0  # Full history for git log
+          # The PR step sets its own authenticated remote; no step before it pushes or fetches.
+          persist-credentials: false
 
       - name: Setup Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
@@ -55,6 +57,8 @@ jobs:
           MODEL=$(python3 scripts/_model.py --print default)
           test -n "$MODEL"
           echo "model=$MODEL" >> "$GITHUB_OUTPUT"
+          # the date the prompt hands the agent, which has no shell
+          echo "today=$(date -u +%F)" >> "$GITHUB_OUTPUT"
 
       - name: Select oldest files
         if: steps.queue.outputs.proceed == 'true'
@@ -369,10 +373,10 @@ jobs:
             - Incomplete sentences or "..." trails
 
             **ADD if missing — to the JSON SOURCE file you are editing (NOT the generated .md):**
-            - A top-level `bot_metadata` object (the schema now allows it). Use today's date:
+            - A top-level `bot_metadata` object (the schema now allows it). Today is ${{ steps.model.outputs.today }}:
               ```json
               "bot_metadata": {
-                "last_improved": "<today YYYY-MM-DD>",
+                "last_improved": "${{ steps.model.outputs.today }}",
                 "optimization_pass": "ai_seo_v1"
               }
               ```
@@ -399,15 +403,18 @@ jobs:
                f. Save updated file
 
             Begin optimization now. Make every article a top AI search result.
-          # SECURITY: NO `Write` tool. PAA/SERP data fed to this agent is external and
-          # attacker-influenceable (prompt injection); `Write` would let injected text
-          # create arbitrary files (e.g. a malicious .github/workflows/*.yml) that the
-          # commit step would then push. `Edit` only touches files that already exist,
-          # and the commit step is scoped to content/ + tests/artifacts/ below.
+          # THE AGENT'S TOOLS ARE ITS JOB (v1.265.3). It reads the repository (reads inside the working directory need no
+          # rule) and the prepared /tmp/preprocessing, and edits existing files under content/ (the prompt names which) and
+          # the one suggestions file. Nothing else in the tree, so no later step runs a file it changed. No Write: `Edit`
+          # touches only files that exist, and a path-scoped `Edit(...)` rule would let Write create files under it. No
+          # Bash: the date comes in the prompt, and `cat` is what Read does. `Read(.git/**)` is denied because the action writes its own token (revoked
+          # when the step ends) into .git/config's remote. The commit step is scoped to content/ + tests/artifacts/ below.
+          # Pinned by tests/bot_workflows_test.py (test_model_bots_hold_only_their_jobs_tools).
           claude_args: |
             --model "${{ steps.model.outputs.model }}"
             --effort xhigh
-            --allowedTools 'Read,Edit,Bash(date:*),Bash(cat:*)'
+            --allowedTools 'Read(//tmp/preprocessing/**),Edit(content/**),Edit(tests/artifacts/suggested_new_files.csv)'
+            --disallowedTools 'Bash,Write,Read(.git/**)'
 
       - name: Check Claude execution (improve_content)
         if: steps.queue.outputs.proceed == 'true' && steps.improve_content.outcome == 'success'
