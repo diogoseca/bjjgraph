@@ -76,6 +76,7 @@ jobs:
       # digest Worker there. Here it is the tool the Pages step publishes the preview with. Same text in both deploys
       # (scripts/check_build_chains.py pins it; tests/bot_workflows_test.py checks the pin agrees everywhere).
       - name: Install Wrangler (pinned)
+        id: wrangler
         run: |
           (cd .github/tools/wrangler && npm ci --ignore-scripts)
           .github/tools/wrangler/node_modules/.bin/wrangler --version

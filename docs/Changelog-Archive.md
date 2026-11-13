@@ -16594,7 +16594,8 @@ action probes `npx --no-install wrangler --version` in the repository root and i
 only when that finds no copy of exactly that version; the step before it links the installed copy into the root's
 `node_modules/.bin` and runs the same probe, and `wranglerVersion: "4.159.0"` names the lockfile's version, so the
 action installs nothing. In production the digest Worker step calls the binary by its path (`$WRANGLER`), so it has
-the tool under `if: always()` whatever failed after the install. Nothing in the tree needs its install script:
+the tool under `if: always()` whatever failed after the install, and is skipped when the install itself did not
+succeed (`steps.wrangler.outcome`), so a refusal before it deploys no Worker; INSTALLS pins that condition. Nothing in the tree needs its install script:
 esbuild and workerd ship their binaries as platform packages, and their scripts only check them.
 `scripts/check_build_chains.py` pins both new programs by hash (`tests/build_chains.test.mjs`, four cases; four
 mutants killed), and INSTALLS counts three trees. How to move the pin is written at the install step.
@@ -16624,21 +16625,24 @@ signatures verified. `scripts/e2e-serve.mjs` on the v1.265.1 modules and on thes
 the flat-first rewrite, the folder copy, the `.html` 301, two ranges, two conditional 304s, a 404, a traversal 400,
 the `%` page, a query string), and both still serving after 50 premature closes each. A control (the new copy with
 `etag` off) differs in 21 of 24, so the comparison can see a difference. `tests/server_imports.test.mjs`: both suite
-servers import only Node builtins and direct root dependencies; three mutants killed. The probe that told a reader to
+servers import only Node builtins and direct root dependencies, read through static and dynamic imports, `export … from`,
+`require` and `createRequire`, and an import it cannot read fails; nine mutants killed. The probe that told a reader to
 run `npx serve` runs the suites' own server.
 
-**No workflow runs a package outside a lockfile.** `tests/bot_workflows_test.py`
-(`test_no_workflow_runs_a_package_outside_a_lockfile`, which replaces the narrower `test_no_npx_yes_or_mcp_server`)
-reads every run block (heredoc bodies aside; `$(…)`, backticks, `<(…)`, `bash -c` strings and the npm scripts a step
-runs, with their hooks, read as commands of their own) and every `uses:` step. `npx`/`npm exec` resolves only a bin a
+**No npm package outside a lockfile, no unreviewed or unpinned action.** `tests/bot_workflows_test.py`
+(`test_no_npm_package_outside_a_lockfile_and_no_unpinned_action`, which replaces the narrower
+`test_no_npx_yes_or_mcp_server`) reads every run block (`$(…)`, backticks, `<(…)`, `bash -c` and `eval` strings, the
+body of a heredoc a shell reads, and the npm scripts a step runs, with their hooks, all read as commands), every
+`uses:` step and every job. `npx`/`npm exec` resolves only a bin a
 lockfile installed earlier in the same job provides to that directory, never in a step that runs after a failure;
 `npm install` in any form, pnpm, yarn, bun, deno, pipx, uv, gem, cargo, go, brew, corepack, docker, podman and wget
-fail; a download goes to stdout or /dev/null and never into an interpreter; a program named by a path into
-`node_modules`, or by a variable whose value is one, must sit in a tree installed earlier in the job; every action is
-a reviewed row; the Pages action names the lockfile's version and follows the link; no MCP server anywhere. It counts
-what it read (246 steps, 64 of them `uses:`, 822 commands, 14 `npx` resolved, 11 `node_modules` paths, 60 npm scripts)
-and fails under its floors. Mutants killed, one per form: 23 shell forms and 11 deploy shapes, with a resolvable `npx`
-as the control.
+fail; a download goes to stdout or /dev/null, never into a file (`-o`, `--output=`, `>`, `tee`) and never into an
+interpreter; a program named by a path into `node_modules`, or by a variable whose value is one, must sit in a tree
+installed earlier in the job; every action is pinned to a 40-hex commit and is a reviewed row, and a local `./` action
+or a job-level reusable workflow fails; the Pages action names the lockfile's version and follows the link; no MCP
+server anywhere. It counts what it read (246 steps, 64 of them `uses:`, 828 commands, 14 `npx` resolved, 11
+`node_modules` paths, 60 npm scripts) and fails under its floors. Mutants killed, one per form: 30 shell forms and 15
+action and deploy shapes, with a resolvable `npx` and a heredoc no shell reads as the controls.
 
 **The model bots hold only their jobs' tools.** The analytics and content agents edit existing files under `content/`
 (the content bot also its one suggestions file) and have no Write, since a path-scoped `Edit(…)` rule lets Write create
@@ -16647,10 +16651,13 @@ writes, none has Bash (the date comes in the prompt; validation runs in the step
 denied to all three. The six jobs whose later step sets the remote it pushes with check out with
 `persist-credentials: false`. `test_model_bots_hold_only_their_jobs_tools` holds every Claude action step to a reviewed
 row and checks the editing rows' shape; 22 mutants killed (18 on a workflow alone, 4 on the workflow and its row
-together). The narrowed grants, run headless with the CLI build the action installs (2.1.183) in a throwaway
+together). The narrowed grants, run headless with the CLI build the action installs, in a throwaway
 repository: content edits and the prefetch file pass; an edit of a repo script, a new file, a read or search under
 `.git`, a read outside the tree and every shell command are refused; the report path is the one file the SEO grant
-writes. A real run of these jobs is what will show the agents finishing their work with these tools.
+writes. A real run of these jobs is what will show the agents finishing their work with these tools. Validation runs in
+the step after the analytics agent, and a file that fails it is put back before the PR step stages `content/`, so
+that prompt's "left out of the PR" is true; `test_analytics_puts_back_a_file_that_fails_validation` runs the real step
+in a throwaway repository (names with spaces included).
 
 **Small ones.** `supabase-keepalive.yml` passes its two values through `env:`, and
 `test_secrets_reach_shells_only_through_env` holds every run block to that (182 read). The selector case the reader

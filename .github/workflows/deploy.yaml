@@ -103,11 +103,13 @@ jobs:
       # installs. It publishes the site (the Pages step, through the link made before it) and the digest Worker with its
       # secrets (called by its path), so both run the bytes the lockfile names and no step fetches a CLI of its own.
       # No package in that tree needs its install script: esbuild and workerd ship their binaries as platform packages,
-      # and their scripts only check them. Before the build, so the digest step (if: always()) has it whatever fails later.
+      # and their scripts only check them. Before the build, so the digest step has it whatever fails later; the digest
+      # step runs only when this step succeeded (steps.wrangler.outcome), so a refusal before it skips the Worker cleanly.
       # MOVING THE PIN: set the version in .github/tools/wrangler/package.json and in `wranglerVersion` on the Pages
       # step of both deploys, run (cd .github/tools/wrangler && npm install --package-lock-only --ignore-scripts), and
       # commit both files. tests/bot_workflows_test.py checks that they agree; scripts/check_build_chains.py pins this text.
       - name: Install Wrangler (pinned)
+        id: wrangler
         run: |
           (cd .github/tools/wrangler && npm ci --ignore-scripts)
           .github/tools/wrangler/node_modules/.bin/wrangler --version
@@ -402,9 +404,12 @@ jobs:
       #    Function's Pages secrets — ALL flowing from GitHub secrets, so there is exactly one
       #    place a credential lives. Skips loudly (never fails the deploy) until the owner adds
       #    SUPABASE_SERVICE_ROLE_KEY; UNSUB_HMAC_SECRET was generated and set 2026-08-17.
-      #    The CLI is the pinned Wrangler ("Install Wrangler (pinned)", before the build), called by its path.
+      #    The CLI is the pinned Wrangler ("Install Wrangler (pinned)", before the build), called by its path. It runs
+      #    whatever failed after that install (always()), and is skipped when the install itself did not succeed, so a
+      #    refusal before it (the promotion rule, validation, the chain contract) deploys no Worker. Pinned by
+      #    tests/deploy_gate.test.mjs (INSTALLS).
       - name: Deploy digest Worker + sync secrets
-        if: always()
+        if: always() && steps.wrangler.outcome == 'success'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

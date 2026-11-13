@@ -566,6 +566,15 @@ test("INSTALLS: both deploys install with `npm ci --ignore-scripts` on the comma
     const [tool, src, rootInstall] = installs;
     const at = (n) => src.steps.findIndex((s) => s.name === n);
     assert.ok(tool.at < src.at, `${name}: the publishing tool is installed first, before the build`);
+    // v1.266.1: the steps that run the tool after a failure run only when its install succeeded, so a refusal before
+    // the install (promotion rule, validation, chain contract) skips them instead of running them with no tool.
+    const toolStep = tool.steps[tool.at];
+    assert.ok(toolStep.id, `${name}: the tool's install step has an id`);
+    const users = tool.steps.filter((s) => typeof s.run === "string" && /\.github\/tools\/wrangler\/node_modules|"\$WRANGLER"/.test(s.run + JSON.stringify(s.env || {})) && s !== toolStep);
+    for (const s of users.filter((u) => /always\(\)|failure\(\)|cancelled\(\)/.test(String(u.if || "")))) {
+      assert.equal(s.if, `always() && steps.${toolStep.id}.outcome == 'success'`, `${name} › ${s.name}: runs after a failure only when the tool's install succeeded`);
+    }
+    if (name === "deploy.yaml") assert.ok(users.some((u) => u.name === "Deploy digest Worker + sync secrets"), "the digest step is read");
     assert.ok(src.at < at("Build Quartz"), `${name}: source/ is installed before Build Quartz`);
     assert.ok(rootInstall.at > at("Build Quartz") && rootInstall.at < at(budget.step), `${name}: the root is installed after the build and before the curated gate`);
     console.log(`# ${name}: ${lines} run lines read; installs: the publishing tool at step ${tool.at}, source/ at step ${src.at}, root at step ${rootInstall.at}`);

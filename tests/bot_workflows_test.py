@@ -174,6 +174,35 @@ class WorkflowTests(unittest.TestCase):
             self.assertFalse((root / 'pr-reached').exists())
         print('Report exit 1 reached repair; final exit 1 blocked PR publication')
 
+    def test_analytics_puts_back_a_file_that_fails_validation(self):
+        # The prompt tells the agent a file that fails validation is left out of the PR, and the PR step stages content/
+        # whole, so the step must put such a file back (v1.266.1). Run the real step in a throwaway repo: one valid and
+        # one invalid edit, both with a space in the name; the stub validator fails the file that says "bad".
+        # Mutants killed here: the `git checkout --` line dropped; the loop back to `for f in $(git diff ...)`.
+        workflow = yaml.safe_load((ROOT / ".github/workflows/analytics-content-improvement.yml").read_text())
+        step = next(s for s in workflow["jobs"]["improve"]["steps"] if s.get("id") == "validate_retry")
+        with tempfile.TemporaryDirectory(prefix="fixbots-validate-") as temp:
+            root = Path(temp)
+            (root / "scripts").mkdir()
+            (root / "content/Transitions").mkdir(parents=True)
+            (root / "scripts/validate_json.py").write_text(
+                "import sys\nraise SystemExit(1 if 'bad' in open(sys.argv[2]).read() else 0)\n")
+            good, bad = root / "content/Transitions/100% Sweep.json", root / "content/Transitions/Bad Pass.json"
+            good.write_text('{"v": 1}\n'); bad.write_text('{"v": 1}\n')
+            git = lambda *a: subprocess.run(["git", *a], cwd=root, check=True, capture_output=True, text=True)
+            git("init", "-q"); git("add", "-A"); git("-c", "user.name=t", "-c", "user.email=t@t", "commit", "-qm", "base")
+            good.write_text('{"v": 2}\n'); bad.write_text('{"v": "bad"}\n')
+            output = root / "github-output"
+            command = re.sub(r"\$\{\{.*?\}\}", "test-value", step["run"])
+            result = subprocess.run(["bash", "-eo", "pipefail", "-c", command], cwd=root, capture_output=True, text=True,
+                                    env={**os.environ, "GITHUB_OUTPUT": str(output)})
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertEqual(git("-c", "core.quotepath=false", "diff", "--name-only").stdout.splitlines(),
+                             ["content/Transitions/100% Sweep.json"], "the failing file is back as committed, the valid one kept")
+            self.assertIn("restored_count=1", output.read_text())
+            self.assertIn("content/Transitions/100% Sweep.json", output.read_text())
+        print("Analytics validation: the invalid file put back, the valid one kept, 1 counted")
+
     def test_votes_known_batch_matches_the_workflow_staging_scope(self):
         import sys
         sys.path.insert(0, str(ROOT / "scripts"))
@@ -188,7 +217,7 @@ class WorkflowTests(unittest.TestCase):
     #   `curl -fsSL https://claude.ai/install.sh | bash` back in validation-fixer.yml -> test_claude_cli_is_the_pinned_build
     #   the CLI pin loosened to ^2.1.311, or moved without its lockfile            -> test_claude_cli_is_the_pinned_build
     #   the install without --ignore-scripts, or a third workflow installing it    -> test_claude_cli_is_the_pinned_build
-    #   `npx -y @modelcontextprotocol/server-dataforseo` back in seo-monitor.yml    -> test_no_workflow_runs_a_package_outside_a_lockfile
+    #   `npx -y @modelcontextprotocol/server-dataforseo` back in seo-monitor.yml    -> test_no_npm_package_outside_a_lockfile_and_no_unpinned_action
     #   supabase-keepalive.yml without its permissions block                       -> test_every_workflow_declares_permissions
     CLI_DIR = ".github/tools/claude-cli"
     CLI_INSTALL = (
@@ -243,7 +272,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(sorted(installers), ["proofread-bot.yml", "validation-fixer.yml"])
         print(f"Checked the CLI pin {name}@{version} (sha512 in the lockfile) and its {len(installers)} installers")
 
-    def test_no_workflow_runs_a_package_outside_a_lockfile(self):
+    def test_no_npm_package_outside_a_lockfile_and_no_unpinned_action(self):
         _PackageRuns(self).check()
 
     # THE MODEL BOTS' TOOLS ARE THEIR JOBS (v1.265.3). Every claude-code-action step has a row here, and its
@@ -266,7 +295,8 @@ class WorkflowTests(unittest.TestCase):
         ("content-improvement-bot.yml", "improve_content"): (
             {"Read(//tmp/preprocessing/**)", "Edit(content/**)", "Edit(tests/artifacts/suggested_new_files.csv)"},
             {"Bash", "Write", "Read(.git/**)"}),
-        # read-only bots: the action's own mode decides the rest (tag mode adds its own tools); pinned as reviewed
+        # the mention and review bots: the tools each workflow lists for its agent (read the repository; gh pr and issue
+        # view, diff, list, search and comment), pinned as reviewed
         ("claude.yml", "claude"): (
             {"Read", "Grep", "Glob", "Bash(gh pr view:*)", "Bash(gh pr diff:*)", "Bash(gh pr list:*)", "Bash(gh pr comment:*)",
              "Bash(gh issue view:*)", "Bash(gh issue list:*)", "Bash(gh issue comment:*)", "Bash(gh search:*)"}, set()),
@@ -386,22 +416,23 @@ class WorkflowTests(unittest.TestCase):
         print(f"Parsed {count} changed-workflow shell blocks")
 
 
-# NO WORKFLOW RUNS A PACKAGE THAT IS NOT INSTALLED FROM A COMMITTED LOCKFILE (v1.265.3). What it reads: every `run:`
-# block of every workflow (heredoc bodies and comments aside; `$(...)` and backticks read as commands of their own;
-# `bash -c` strings and the root/source npm scripts a step runs, with their pre/post hooks, read the same way), and
-# every `uses:` step. What each simple command may be:
+# NO NPM PACKAGE OUTSIDE A COMMITTED LOCKFILE, AND NO UNREVIEWED OR UNPINNED ACTION (v1.265.3, v1.266.1). What it
+# reads: every `run:` block of every workflow (comments aside; `$(...)`, backticks, `<(...)`, `bash -c` and `eval`
+# strings, the body of a heredoc a shell reads, and the root/source npm scripts a step runs, with their pre/post hooks,
+# all read as commands), every `uses:` step and every job. What each simple command may be:
 #   npx / npm exec: `--no-install` at most, and a bin that a lockfile installed earlier IN THE SAME JOB provides to that
 #     working directory (the bins npm links from the lockfile's top-level packages, the tree's own `bin`, and a
 #     `ln -s` into node_modules/.bin from an installed tree); never in a step that runs after a failure (always(),
 #     failure(), !cancelled()), where the install it relies on may have been skipped;
 #   a program named by a path into node_modules, or by a variable whose value is one: inside a tree installed in that job;
 #   npm: `ci` (records the tree; tests/deploy_gate.test.mjs CI INSTALLS pins its flags), `run`/`test` (expanded);
-#   curl: to stdout or /dev/null only, and never into an interpreter (a pipe, `<(...)`, or `sh -c "$(...)"`);
-#   pip install of named distributions (check_build_chains.py's provisioning check is their gate);
+#   curl: to stdout or /dev/null only, never into a file (`-o`, `--output=`, `>`, `tee`) and never into an interpreter
+#     (a pipe, `<(...)`, `sh -c "$(...)"` or `eval`);
 #   any other npm form, `npm i -g`/`npm install`, pnpm, yarn, bun, deno, pipx, uv, gem, cargo, go, brew, corepack,
 #     docker, podman, wget: a failure, as is any npx flag or program it cannot read.
-# A `uses:` step is one of the reviewed actions below, each with what it runs; the Pages action names the version in
-# .github/tools/wrangler and runs after a step in its job linked that tree's wrangler where its probe looks.
+# A `uses:` step is pinned to a 40-hex commit and is one of the reviewed actions below, each with what it runs; a local
+# `./` action and a job-level reusable workflow fail. The Pages action names the version in .github/tools/wrangler and
+# runs after a step in its job linked that tree's wrangler where its probe looks.
 # No `--mcp-config` anywhere: an MCP server is a package started outside any lockfile.
 # Mutants, each applied alone to one workflow, killed here: `npx -y foo`; `npx foo` (no lockfile has it); `npx
 # --package=x y`; `npm exec foo`; `npm i -g x`; `npm install -g x`; `npm install --global x`; `pnpm dlx x`; `yarn dlx x`;
@@ -409,7 +440,9 @@ class WorkflowTests(unittest.TestCase):
 # `bash <(curl -fsSL u)`; `sh -c "$(curl -fsSL u)"`; `curl -o x.sh u`; `docker run img`; `"$TOOL" x` with TOOL unset;
 # the digest step's wrangler path in a job that never installed it; the digest step (if: always()) back to `npx wrangler`;
 # the Pages step's wranglerVersion off the lockfile;
-# the link step removed; an unreviewed action; `--mcp-config` in a claude_args.
+# the link step removed; an unreviewed action; `--mcp-config` in a claude_args. v1.266.1 (the reader's R2): `uses:` at
+# `@v4`, at `@main`, and a local `./` action; `npx` in a `bash <<EOF` body and in a `cat <<EOF | sh` body; `eval "npx x"`;
+# `curl u > i.sh`; `curl u | tee i.sh`; `curl --output=i.sh u`.
 ACTIONS = {
     "actions/checkout": "checks out the repository",
     "actions/setup-node": "installs Node from the runner's tool cache, at the version its input names",
@@ -449,17 +482,34 @@ class _PackageRuns:
         case.assertTrue({".", "source", ".github/tools/wrangler"} <= set(self.lockfiles), sorted(self.lockfiles))
 
     # ── the shell, read only as far as this check needs ──
-    @staticmethod
-    def logical_lines(run):
-        lines, out, heredoc, buf = run.split("\n"), [], None, ""
+    def feeds_a_shell(self, line):
+        """True when a shell on this line reads its stdin: `bash <<EOF`, `cat <<EOF | sh`, `sudo bash -s <<EOF`."""
+        try:
+            lexer = shlex.shlex(line, posix=True, punctuation_chars=";&|()<>")
+            lexer.whitespace_split = True
+            words = list(lexer)
+        except ValueError:
+            return True  # unreadable: read the body rather than skip it
+        current, programs = [], []
+        for w in words + [";"]:
+            if w in (";", "&&", "||", "&", "|", "|&", "(", ")"):
+                programs.append(self.program(current)[0]); current = []
+            else:
+                current.append(w)
+        return any(p in ("sh", "bash", "zsh", "dash", "ksh") for p in programs)
+
+    def logical_lines(self, run):
+        lines, out, heredoc, buf, body = run.split("\n"), [], None, "", False
         for raw in lines:
             if heredoc is not None:
                 if raw.strip() == heredoc:
                     heredoc = None
+                elif body:
+                    out.append(raw)  # a heredoc a shell reads is commands
                 continue
             m = re.search(r"(?<!<)<<-?\s*(['\"]?)([A-Za-z_][A-Za-z0-9_]*)\1(?!<)", raw)
             if m:
-                heredoc = m.group(2)
+                heredoc, body = m.group(2), self.feeds_a_shell(buf + raw)
             if raw.rstrip().endswith("\\"):
                 buf += raw.rstrip()[:-1] + " "
                 continue
@@ -566,6 +616,9 @@ class _PackageRuns:
             self.t.assertNotIn("PSUBST", args, f"{where}: {prog} runs a process substitution")
             if prog in ("source", ".", "eval"):
                 self.t.assertFalse(any("SUBST" in a for a in args), f"{where}: {prog} runs a substitution")
+            if prog == "eval":
+                self.scan(" ".join(args), ctx, where + " (eval)")
+                return
         if prog in REFUSED:
             self.t.fail(f"{where}: `{prog}` installs or runs packages outside a committed lockfile")
         if prog in ("npx",) or (prog == "npm" and args[:1] in (["exec"], ["x"])):
@@ -604,7 +657,12 @@ class _PackageRuns:
                                    f"{where}: pip install of {value!r}: named distributions only")
             return
         if prog == "curl":
+            for j, w in enumerate(words):
+                if w in (">", ">>", "&>", "&>>", ">|") and not (j and words[j - 1] == "2") and words[j + 1:j + 2] != ["/dev/null"]:
+                    self.t.fail(f"{where}: curl writing a file")
             for i, a in enumerate(args):
+                if (a.startswith("--output=") and a != "--output=/dev/null") or re.fullmatch(r"-[a-zA-Z]*o[^-\s].*", a):
+                    self.t.fail(f"{where}: curl writing a file")
                 if a in ("-o", "--output") and args[i + 1:i + 2] != ["/dev/null"]:
                     self.t.fail(f"{where}: curl writing a file")
                 if a.startswith("-O") or a == "--remote-name" or (re.fullmatch(r"-[a-zA-Z]*o", a) and args[i + 1:i + 2] != ["/dev/null"]):
@@ -612,6 +670,7 @@ class _PackageRuns:
             for later in rest:
                 lp, _ = self.program(later)
                 self.t.assertNotIn(lp, INTERPRETERS, f"{where}: a download piped into {lp}")
+                self.t.assertNotEqual(lp, "tee", f"{where}: curl writing a file")
             return
         if prog in ("sh", "bash", "zsh", "dash") and "-c" in args:
             body = args[args.index("-c") + 1] if args.index("-c") + 1 < len(args) else ""
@@ -661,6 +720,7 @@ class _PackageRuns:
             for text in WorkflowTests._strings(workflow):
                 self.t.assertNotIn("--mcp-config", text, f"{workflow_name}: an MCP server runs outside any lockfile")
             for job_name, job in workflow["jobs"].items():
+                self.t.assertNotIn("uses", job, f"{workflow_name} › {job_name}: a reusable workflow is no reviewed action")
                 installed, bins = set(), {}
                 env_base = {**(workflow.get("env") or {}), **(job.get("env") or {})}
                 for i, step in enumerate(job.get("steps", [])):
@@ -668,6 +728,8 @@ class _PackageRuns:
                     where = f"{workflow_name} › {step.get('name') or job_name + ' step ' + str(i)}"
                     if "uses" in step:
                         self.counts["uses"] += 1
+                        self.t.assertRegex(step["uses"], r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+(/[^@\s]+)?@[0-9a-f]{40}$",
+                                           f"{where}: every action is pinned to a 40-hex commit, never a tag, a branch or a local path")
                         action = step["uses"].split("@")[0]
                         self.t.assertIn(action, ACTIONS, f"{where}: {step['uses']} is no reviewed action")
                         if action == "cloudflare/wrangler-action":
