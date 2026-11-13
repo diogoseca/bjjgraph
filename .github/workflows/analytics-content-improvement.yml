@@ -165,7 +165,7 @@ jobs:
             In your final message, summarize which pages you selected and why (traffic /
             bounce / session-duration), what you changed, and a before/after quality note.
 
-          # THE AGENT'S TOOLS ARE ITS JOB (v1.265.3). It reads the repository (reads inside the working directory need no
+          # THE AGENT'S TOOLS ARE ITS JOB (v1.266.1). It reads the repository (reads inside the working directory need no
           # rule) and the prefetched files under /tmp/analytics, and edits existing content/**/*.json files, nothing else:
           # no Write (a path-scoped `Edit(...)` rule would let Write create files under it), and the rest of the tree, .git
           # included, is outside the rule. It has no Bash: the validator runs in the next steps, not as its tool, so no edit

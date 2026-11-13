@@ -98,7 +98,7 @@ jobs:
       - name: Build-chain and Python provisioning contract
         run: python3 scripts/check_build_chains.py
 
-      # THE PUBLISHING TOOL, FROM A LOCKFILE (v1.265.3): Wrangler, one exact version, from
+      # THE PUBLISHING TOOL, FROM A LOCKFILE (v1.266.1): Wrangler, one exact version, from
       # .github/tools/wrangler/package-lock.json, installed with `npm ci --ignore-scripts` like every tree this deploy
       # installs. It publishes the site (the Pages step, through the link made before it) and the digest Worker with its
       # secrets (called by its path), so both run the bytes the lockfile names and no step fetches a CLI of its own.

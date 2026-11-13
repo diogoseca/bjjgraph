@@ -1,4 +1,4 @@
-// The suites' static servers import only what the root package.json declares (v1.265.3).
+// The suites' static servers import only what the root package.json declares (v1.266.1).
 //
 // scripts/e2e-serve.mjs (every Playwright config's webServer) and scripts/dev-serve.mjs (`npm run serve`) run from the
 // root tree, which CI and both deploys install with `npm ci --ignore-scripts` from the root lockfile. A package one of

@@ -72,7 +72,7 @@ jobs:
       - name: Build-chain and Python provisioning contract
         run: python3 scripts/check_build_chains.py
 
-      # THE PUBLISHING TOOL, FROM A LOCKFILE (v1.265.3): see deploy.yaml's step of the same name, which also serves the
+      # THE PUBLISHING TOOL, FROM A LOCKFILE (v1.266.1): see deploy.yaml's step of the same name, which also serves the
       # digest Worker there. Here it is the tool the Pages step publishes the preview with. Same text in both deploys
       # (scripts/check_build_chains.py pins it; tests/bot_workflows_test.py checks the pin agrees everywhere).
       - name: Install Wrangler (pinned)

@@ -239,11 +239,11 @@ def deploy_commands(root, path):
 
 # Exact non-build preparation: validation inputs, the Neural payload prelude, and the publishing tool's install. The
 # prelude's text moved at v1.265.1 (`(cd source && npm ci --ignore-scripts)`, was `npm install`); re-review it, never
-# re-hash it blind. The Wrangler install (v1.265.3) writes only under .github/tools/wrangler, never the site.
+# re-hash it blind. The Wrangler install (v1.266.1) writes only under .github/tools/wrangler, never the site.
 PREPARATION_PROGRAMS = {'cbed484932482deabbebdc48fa4e12a52fa5ae870bfbf3675fffb436a5864c32': 'Validate content (gate)', '6e23a8c0adf6efb44dc4f21a811daeee575bb4e144e4706331dc83b68061ebc3': 'Regenerate Neural app + data', '87dc8163fec316c6cca050c49a3dc1068598afccfb04d3bf0cef993c6a564b3a': 'Install Wrangler (pinned)'}
 
 PLAYWRIGHT_VERSION_SHA = 'eeadbffb36217d7c3108123efcb99d54a10ce62592f9102a5de400c83ea6433a'
-# After the build, before the upload (v1.265.3): the link that puts the pinned Wrangler where the Pages action's probe
+# After the build, before the upload (v1.266.1): the link that puts the pinned Wrangler where the Pages action's probe
 # looks, and the probe itself. It writes one symlink under node_modules/.bin and nothing under source/public, so it is
 # no part of the build chain; its program is pinned in full, by name and hash, like the browser provisioning above.
 WRANGLER_LINK = ('Link the pinned Wrangler for the Pages action', '90420b09d70302ef3f55550f0a17fac6065adc25e6cb0a89d0c89fcfa59b79c0')

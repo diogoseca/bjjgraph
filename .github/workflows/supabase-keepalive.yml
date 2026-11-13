@@ -16,7 +16,7 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      # The two values reach the script as environment variables (v1.265.3), never pasted into its text, so no byte of
+      # The two values reach the script as environment variables (v1.266.1), never pasted into its text, so no byte of
       # either is ever read as shell. Pinned by tests/bot_workflows_test.py (test_secrets_reach_shells_only_through_env).
       - name: Ping Supabase
         env:

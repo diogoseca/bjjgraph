@@ -525,7 +525,7 @@ test("COUNT cannot be switched off unseen: no tracked .npmrc sets ignore-scripts
 // source/ once before Build Quartz and the root once after it, both as exactly `npm ci --ignore-scripts`. The flag lives on
 // those two command lines and nowhere else: in a run line or an env value it would reach `npm run` too, and npm skips
 // `posttest:curated` (the gate's count) under it. Every run line is read, shell comments aside; zero installs found is red.
-// v1.265.3: a third tree, the publishing tool (.github/tools/wrangler), installed the same way before the build, first.
+// v1.266.1: a third tree, the publishing tool (.github/tools/wrangler), installed the same way before the build, first.
 test("INSTALLS: both deploys install with `npm ci --ignore-scripts` on the command line, and only there", () => {
   for (const name of ["deploy-dev.yaml", "deploy.yaml"]) {
     const wf = workflow(name);
@@ -581,7 +581,7 @@ test("INSTALLS: both deploys install with `npm ci --ignore-scripts` on the comma
   }
 });
 
-// CI INSTALLS (v1.265.3). The jobs that build and test a PR install the way the deploys do: each tree once per job, as
+// CI INSTALLS (v1.266.1). The jobs that build and test a PR install the way the deploys do: each tree once per job, as
 // exactly `npm ci --ignore-scripts`, so a PR's build runs no package's install script, as the shipped one does. The
 // root's `postinstall` (`cd source && npm install`) is skipped by the flag, so a job that builds installs source/ itself,
 // before the build; a job that runs Playwright installs Chromium by its own step first. Across EVERY workflow: no

@@ -19,7 +19,7 @@ Mutants, each applied alone, killed at:
   fetch_posthog_search.py writing a results-less answer as an empty list  -> test_search_answer_without_results_is_unavailable
   fetch_posthog_analytics.py not counting a results-less answer as an error -> test_analytics_answer_without_results_is_an_error
   _site_routes.py hyphenating spaces only, not Quartz's sluggify           -> test_the_percent_page_is_kept_at_its_served_path
-  bot_run.py keying its sources by the raw stem, not the served path      -> test_the_selector_finds_the_percent_page (v1.265.3)
+  bot_run.py keying its sources by the raw stem, not the served path      -> test_the_selector_finds_the_percent_page (v1.266.1)
 Not killed, by design: the host is not checked (selection never read it, and what is written is our path, not it).
 """
 from contextlib import contextmanager

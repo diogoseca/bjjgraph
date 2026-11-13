@@ -61,7 +61,7 @@ jobs:
       - name: Build-chain and Python provisioning contract
         run: python3 scripts/check_build_chains.py
 
-      # INSTALLS, THE DEPLOYS' RULE (v1.265.3): each tree once, as `npm ci --ignore-scripts` with the flag on the command
+      # INSTALLS, THE DEPLOYS' RULE (v1.266.1): each tree once, as `npm ci --ignore-scripts` with the flag on the command
       # line, so the lockfile decides every package and no package's install script runs. source/ is installed explicitly
       # because the flag also skips the root's own `postinstall` (`cd source && npm install`, which a contributor's
       # `npm install` still runs). Chromium is installed by its own step wherever a job runs a browser. Pinned by

@@ -391,7 +391,7 @@ test('Python provisioning: unsupported npm prefix does not silently disappear', 
   red(run(),/unsupported npm prefix/)
 }))
 
-// v1.265.3: the publishing tool. Its install runs before the build (PREPARATION_PROGRAMS) and the link that puts it where
+// v1.266.1: the publishing tool. Its install runs before the build (PREPARATION_PROGRAMS) and the link that puts it where
 // the Pages action looks runs after it (WRANGLER_LINK); both programs are pinned in full by hash, so they add nothing to
 // the chain and a changed one fails closed. Mutants: drop the link's entry from the gate -> the first goes red; accept
 // any link body -> the third goes red; accept a conditional link -> the fourth goes red.

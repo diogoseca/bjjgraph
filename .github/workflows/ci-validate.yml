@@ -98,7 +98,7 @@ on:
       - ".github/tools/**"
       - "source/package.json"
       - "**/*.py"
-      # THE REST OF WHAT THIS JOB READS (v1.265.3), derived, not guessed: the job replayed (`npm run ci:validate`) under
+      # THE REST OF WHAT THIS JOB READS (v1.266.1), derived, not guessed: the job replayed (`npm run ci:validate`) under
       # `strace -f -z -y -e trace=openat`, and every TRACKED file its steps opened matched against this list. 7,386
       # tracked files were opened; these lines take in the 418 that the lines above did not: the e2e specs, fixtures and
       # configs the unit suites scan, the Forward catalog, the digest Worker, calibration anchors, baselines under

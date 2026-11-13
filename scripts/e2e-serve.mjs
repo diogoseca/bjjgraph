@@ -39,7 +39,7 @@
 // measured at +12ms each (p50 3.1ms -> 15.3ms for neural.js, interleaved) — a tax on a 20-minute gate.
 //
 // Everything else is the request pipeline `serve` 14 runs (its build/main.js), from the same two
-// libraries, which the root package.json declares directly (v1.265.3; `serve` itself is not a
+// libraries, which the root package.json declares directly (v1.266.1; `serve` itself is not a
 // dependency, nothing runs its CLI): `compress(req, res)` then `handler(req, res, config)` with
 // `etag: true`. Byte-for-byte parity matters here — `payload-first-hand.spec.ts` weighs the boot.
 import http from "node:http"

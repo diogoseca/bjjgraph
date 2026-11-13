@@ -403,7 +403,7 @@ jobs:
                f. Save updated file
 
             Begin optimization now. Make every article a top AI search result.
-          # THE AGENT'S TOOLS ARE ITS JOB (v1.265.3). It reads the repository (reads inside the working directory need no
+          # THE AGENT'S TOOLS ARE ITS JOB (v1.266.1). It reads the repository (reads inside the working directory need no
           # rule) and the prepared /tmp/preprocessing, and edits existing files under content/ (the prompt names which) and
           # the one suggestions file. Nothing else in the tree, so no later step runs a file it changed. No Write: `Edit`
           # touches only files that exist, and a path-scoped `Edit(...)` rule would let Write create files under it. No

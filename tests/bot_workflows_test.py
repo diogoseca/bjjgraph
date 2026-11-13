@@ -275,7 +275,7 @@ class WorkflowTests(unittest.TestCase):
     def test_no_npm_package_outside_a_lockfile_and_no_unpinned_action(self):
         _PackageRuns(self).check()
 
-    # THE MODEL BOTS' TOOLS ARE THEIR JOBS (v1.265.3). Every claude-code-action step has a row here, and its
+    # THE MODEL BOTS' TOOLS ARE THEIR JOBS (v1.266.1). Every claude-code-action step has a row here, and its
     # --allowedTools / --disallowedTools are exactly that row. The three agent-mode bots that edit or write hold: reads
     # outside the tree only of the folder their prefetch writes, edits only under paths their commit stages, no Write
     # where they only edit, no Bash at all (validation and dates come from the steps around them), and `.git` denied.
@@ -375,7 +375,7 @@ class WorkflowTests(unittest.TestCase):
 
     def test_secrets_reach_shells_only_through_env(self):
         # A `${{ secrets.X }}` inside a run block is pasted into the script's text before the shell parses it, so a value
-        # holding a quote or `$(` becomes shell. Secrets reach a run step only through its env: mapping (v1.265.3).
+        # holding a quote or `$(` becomes shell. Secrets reach a run step only through its env: mapping (v1.266.1).
         # Mutant: supabase-keepalive.yml's URL back in its script text -> red.
         runs = 0
         for workflow_name, workflow in self._workflows():
@@ -416,7 +416,7 @@ class WorkflowTests(unittest.TestCase):
         print(f"Parsed {count} changed-workflow shell blocks")
 
 
-# NO NPM PACKAGE OUTSIDE A COMMITTED LOCKFILE, AND NO UNREVIEWED OR UNPINNED ACTION (v1.265.3, v1.266.1). What it
+# NO NPM PACKAGE OUTSIDE A COMMITTED LOCKFILE, AND NO UNREVIEWED OR UNPINNED ACTION (v1.266.1). What it
 # reads: every `run:` block of every workflow (comments aside; `$(...)`, backticks, `<(...)`, `bash -c` and `eval`
 # strings, the body of a heredoc a shell reads, and the root/source npm scripts a step runs, with their pre/post hooks,
 # all read as commands), every `uses:` step and every job. What each simple command may be:
@@ -744,7 +744,7 @@ class _PackageRuns:
                            "after_failure": bool(re.search(r"always\(\)|failure\(\)|cancelled\(\)", str(step.get("if", ""))))}
                     self.scan(run, ctx, where)
         c = self.counts
-        # positive coverage, floors under the counts measured at v1.265.3 (246 steps, 64 uses:, 822 commands, 14 npx,
+        # positive coverage, floors under the counts measured at v1.266.1 (246 steps, 64 uses:, 828 commands, 14 npx,
         # 11 node_modules paths, 60 npm scripts): a reader that stopped reading cannot pass by finding nothing
         self.t.assertGreater(c["steps"], 200)
         self.t.assertGreater(c["uses"], 50)

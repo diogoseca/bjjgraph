@@ -262,7 +262,7 @@ touch a first tap turns it up, a second plays. The word by "Your moves" (Hidden/
 flips it; keys 1–9 play blind; the stand-in is always face up; a peek touches the hand. The film button
 animates on its own hover only. Face up, an unknown move asks "Did you get it?" (Yes only); a known
 move that is due asks "Still got it?" (Yes / No — No takes its gold away); a known move not due
-asks nothing. `moves[state][move] = [due, ivl, last, ok]` (state `<site ordinal>/<role>`,
+stays face up (v1.266.0). `moves[state][move] = [due, ivl, last, ok]` (state `<site ordinal>/<role>`,
 an escape `e` + qhash(label)) rides the blob beside `srs`, never inside `stage` or `srs`, and merges
 by `srs`'s rule (`ngProgressMergeMoves`). `ok = 1` (the last answer a Yes) is a known move.
 Pinned by `e2e/journeys/hidden-moves.spec.ts`.
