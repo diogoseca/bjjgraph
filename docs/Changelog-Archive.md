@@ -17243,3 +17243,84 @@ deferred raw 510,269 → 519,911, all `gameplan.js` (ceiling moved to exactly th
 **Seen in the pictures.** Early sessions are mostly new cards: a never-answered card shared by many decks outweighs one
 missed card of a single deck in the rating's arithmetic (the seeded player: 3 reviews, 17 new). The simulation settles at
 about 4 new a day over a year.
+
+**After the independent read (STAGE3-R1, then the delta read's small items, STAGE3-R2).** The order stood; the page around it
+moved:
+- Practice opens on the plan's first position unless the player had moved (the cold queue's first deck is the oldest debt,
+  never chosen); measured by the reader, 240 of 240 records, against 221 of 240 before.
+- A row "More new cards" adds has no position: it is named apart in the queue and its heading, and counted apart.
+- A second plan landing on a session in progress changes none of its rows (only "More new cards" and the summary).
+- "Keep practising" on the completion card deals the next round by worth into the same session. **Its positions are
+  numbered without a gap** (R2 a): a deck has one row in a session (its key is the row), so a next round's cards of a deck
+  already on the page join that row, under its heading; a position left with no row of its own is neither shown nor counted.
+  The reader's probe read "1 … 6, 8, 9".
+- "Everything owed, oldest first · N cards", inside "Practice details & session queue": dev's own order over the whole owed
+  pile, the 38 decks the gi table does not price included. It sends `neural_practice_opened` with `surface: "owed"` (R2 e),
+  documented in docs/SEO.md beside the page's `practice`.
+- **The day's floor of 4 new counts a card the first time it is answered, right or wrong, on any surface** (R2 b). The first
+  push read `_days[today]`, which counts every question first answered RIGHT in a page session, owed ones included: 4 owed
+  cards right in a roll left no floor at all. The stored record cannot tell a first answer from a miss (both leave
+  [today + 1, 1, today]), so the day's set is kept in memory, fed by the two writers of a first row (`_gradeKnowledge`,
+  `_schedule`); nothing is stored, and a reload starts the set again, which can only give more new cards, never fewer than 4.
+  The simulation counts the same thing (`firstDay`, the day a thing got its first row); its one session a day comes before
+  its rolls, so the count is 0 there and parity and the year runs are unchanged: gi a year 530/530 (and cards only), no-gi
+  two years 1,050/1,050, the golden byte-identical.
+- A Path lesson opened into Practice is named "From the Path" and counted apart ("; N from the Path"), not "More new cards,
+  weakest first" (R2 d).
+- The dot and the Path's band light only while cards are owed and today's goal is not met (R2 c: stands).
+
+**Kill table, the page** (`tests/practice_page.test.mjs`, the real `_practiceAppend`, `_practiceRows`, `_practiceNextRound`,
+`_practiceLesson`, `_openOwedPractice`, `_gradeKnowledge` and `_schedule` on the real wire):
+
+| mutant | red at |
+|---|---|
+| S1 the cold queue's open deck kept, moved or not | "Practice opens on the plan's first position…" |
+| S2 a second plan merged into a session in progress | "a second plan changes none of the rows in front of the player" |
+| S3 the next round numbered from 0 again | "Keep practising deals the next round into the same session…" |
+| S4 a visit-less row labelled by its missing number | "the session queue names an appended row apart…" |
+| S5 the owed session built from the worth plan | "Everything owed is the whole owed pile…" |
+| S6 the floor read off `_days[today]` again | "an owed card answered right is not a new card" |
+| S6b a card revealed unanswered not counted | "a new card revealed unanswered on a roll's landing is met too" |
+| S6c every graded card counted as new | "an owed card answered right is not a new card" |
+| S6d the grade path's note removed | "a new card answered WRONG is a new card met" |
+| S7 the next round not renumbered | "every position counted is a position shown, numbered 1 to 9" |
+| S8 a lesson row not marked as one | the queue's last label is "From the Path" |
+| S9 a lesson counted under "More new cards" | "; N from the Path" |
+| S10 the door's visit sent as the page's | "one Practice visit, from the door" |
+
+**Kill table, the built page after the read** (`e2e/journeys/practice-order.spec.ts`, each mutant built into the bundle,
+touch 390x631 and mouse 1440x900):
+
+| mutant | red at |
+|---|---|
+| S1 the cold queue's open deck kept though the player never moved | "Practice opens on the plan's first row, not on the oldest debt's deck" |
+| S4 a row "More new cards" adds labelled by its missing number | "the added rows under their own name", and the NaN net |
+| A1 no "Keep practising" on the completion card | "the completion card offers to keep going" |
+| B1 the owed session built from the worth plan | "a deck the order never prices is here" |
+| B2 the band shown while owed, the goal ignored | "the Path's band: gone at the goal, owed or not" |
+| S7 the next round not renumbered | NOT KILLED here, 2 of 2 green: this player's next round merges no position, so there is no gap to make (recorded in the spec's header); the unit's twelve-deck record kills it |
+
+**Runs, STAGE3-R2** (local, under the lock, 13 Nov; times from `date`): the parity re-run at 16:29 exact (gi a year 530/530,
+cards only 530/530, no-gi two years 1,050/1,050), the golden byte-identical, the simulation's year runs byte-identical;
+16:38-17:11 `test:units` 1,621/1,621 and 56 journey files, the 26 that drive Practice and 30 that grade or reveal a card
+(the floor's count sits in the grade path): 655 passed, 4 skipped (coldstart-probe's probes), 0 failed; 17:32-17:44 the
+S7 bundle mutant, the bytes with PR #405, the app rows, `ci:validate` 25/25.
+
+**Bytes, STAGE3-R2** ("alone" is this branch with dev v1.272.0 merged in; "with #405" is this branch with
+`feat-rating-live-questions` at 2a671f7df merged locally and uncommitted, on its own emit, measured and thrown away):
+
+| figure | cap | alone | this round | with #405 |
+|---|---|---|---|---|
+| eager gzip | delta 5,000 on 352,966 | 357,391 (+4,425) | +311 | 358,730 (+5,764: 764 over) |
+| first-hand core | delta 6,000 on 371,107 | 376,808 (+5,701) | +316 | 378,165 (+7,058: 1,058 over) |
+| deferred raw | its measured use (U170 a) | 520,258 (`gameplan.js` 19,705) | +109 | 520,300 (+42: `gameplan.js` bundles `rating.src.js`) |
+
+No baseline moved: a checkpoint at dev's own level is the orchestrator's to order when the first of the two lands.
+
+**With the owner (U179), not built.** The reader measured the order at exactly 20 answers a day for a year: about half of
+what a player owes on day 1 is never asked, and the 4 new cards come after the 20th, so a player who stops at 20 meets 5 to
+8% new. The question is now his Anki rule (U179: only what Practice studies comes due; rolls keep feeding the pile, longest
+due first; or 16 due and 4 new every day, the 14 most valuable due and the 2 longest due). Nothing of it is built.
+
+**Not covered, by decision:** no stored field for the day's new cards met. After a reload the floor counts only the new
+cards met since that page loaded, so a player who met 4 and reloads is handed up to 4 more that day; "at least 4" allows it.

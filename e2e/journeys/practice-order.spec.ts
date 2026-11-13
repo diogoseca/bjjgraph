@@ -30,6 +30,11 @@ import { journey } from "../dsl"
  *   A1 no "Keep practising" on the completion card (finding 5)                           → "the completion card offers to keep going"
  *   B1 the owed session built from the worth plan (finding 1's door)                     → "a deck the order never prices is here"
  *   B2 the band shown while owed, the goal ignored                                       → "the Path's band: gone at the goal, owed or not"
+ * NON-KILL (STAGE3-R2, recorded so this file is not read as covering it): S7, the next round's positions not renumbered,
+ * leaves "the queue's position numbers, after the next round" GREEN here, 2 of 2 (17:32, 13 Nov): this player's next round
+ * brings no position whose decks the first round already holds, so there is no gap to make. The claim is pinned by
+ * tests/practice_page.test.mjs ("Keep practising numbers the positions the player sees without a gap"), on the reader's
+ * twelve-deck record, where S7 is red; the assertion here stays as a net on the built page.
  * NOT COVERED here: the order's arithmetic (the unit suite and its 15 mutants), no-gi on a page (the unit reads both
  * rulesets; a ruleset flip writes a setting, so it cannot share the byte-identity claim), and answering (grading writes the
  * record by design; the planner's completion rule is the unit suite's).
