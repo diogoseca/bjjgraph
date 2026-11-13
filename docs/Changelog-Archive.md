@@ -16934,5 +16934,10 @@ memoised. F3: the reader's five surviving mutants are pinned; 29 mutants now, ea
 Bytes: neural.js +406 raw; the eager set reads 355,124 B, +2,158 of 5,000 since the checkpoint (dev +168, this PR +1,990);
 the deferred set is unchanged at 511,007 of 511,007.
 
+**After merging dev v1.268.0 (c7d6d26b6, PR #403; DEV403): this PR lands as 1.269.0.** The checkpoint stays at e7766cbc6's
+level. The eager set reads 355,298 B, +2,332 of 5,000 since it: dev's own drift +344 (its bundle alone, 14 of 14 of its
+committed app rows reproduced, reads 353,310 B) plus this PR's +1,988. The deferred set reads 511,043 of its 511,043 B
+ceiling, the same figure with dev's bundle alone.
+
 **Not covered:** a retired question read as a live one (above); whether this weighting is the right one (the owner's, from
 the simulation); any painted surface (none); a browser timing of the first call (node: 45 to 54 ms).
