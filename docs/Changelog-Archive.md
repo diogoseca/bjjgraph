@@ -16406,6 +16406,15 @@ submodule, a newline-led name, a mode change and a symlink swap.
 
 **Capture.** The three pages move the census and SEO baselines' content provenance, so they come from a guarded capture (CAP_U151, CAP391's accepted tree as its base); the home page is one of the 20 sampled SEO routes and its text is one sentence shorter, above its floor, which stays.
 
+## v1.264.5 — The deploy gate's last two pins: tripwire()'s own return and the replace-ref switch (2026-11-12)
+
+The reader's fourth pass on #393 gave the verdict MERGE and left two nits. Each now has a test that turns red without
+it. `tripwire()` takes an injected `fetch`, `env` and `wait`. A test drives it with fake jobs answers: it reads this run
+attempt's jobs, retries a 502, and returns red without the count file or over the line. A real-git fixture uses
+`git replace` to make a commit that changes `app.js` look keepalive-only. With `GIT_NO_REPLACE_OBJECTS=1` the rule
+reads the real tree and stops there. Each mutant (the return ignoring the count, the switch dropped) is killed at its
+named assertion. Unit 28 of 28.
+
 ## v1.265.0 (provisional) — On a phone the question card, the film and the article's sections are as wide as the Moves row (WIDTH4, p5, 2026-11-12)
 
 **The owner's words** (12 Nov, 18:18, with U152 b): "on mobile it still doesnt look as wise [wide] as the choices row and as other
