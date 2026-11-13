@@ -1625,8 +1625,8 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "d1f0ae5b723be84062f91e803abb40882f886e25",
-   "capture_id": "cf8c543d0d3b492881b775bf4ae604e1",
+   "capture_git_head": "2a671f7df4f281549d9f3326f98a04748efa79f1",
+   "capture_id": "c3066b5e86294b9fa8241bed4d967af4",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6331,
@@ -1656,12 +1656,12 @@
     }
    },
    "output_identity": {
-    "files": 15828,
-    "sha256": "f2bc42f14c6377c1c1714c9218e362d61497630447084d79fdce2a091b984176"
+    "files": 15830,
+    "sha256": "1ee83984708fcea7c1dc3115c9accc9eb46d9ccfb2af0769d0204a5e56c3431b"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/operator-once/capture/capu151-d1f0ae5b7/pr-operator-once-d1f0ae5b7"
+    "/home/user/bjj-orchestrator/scratch/rating-live/capture/caplive1-2a671f7df/pr-rating-live-2a671f7df"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
