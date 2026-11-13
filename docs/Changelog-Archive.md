@@ -16777,6 +16777,10 @@ D-327): dev's bundle built from a clean export of e7766cbc6 after its own `regen
 to dev's fingerprint (version normalised), the three wire files byte-identical to that export's emit. After it: eager 354,804 B,
 +1,838 of 5,000 (warn: over the 300,000 target, 45,196 B under the 400,000 action line). First-hand core 374,241 B, +3,134 of
 6,000 since 371,107 (dev alone +1,275), untouched. Deferred 510,963 of 510,981 B, unchanged.
+**After merging dev v1.266.0 (5f2510f71, PR #401; DEV401).** The checkpoint stays at e7766cbc6's level. The eager set
+reads 354,973 B, +2,007 of 5,000 since it: dev's own drift +168 (its bundle alone, 14 of 14 of its committed app rows
+reproduced, reads 353,134 B) plus this PR's +1,839. The deferred set reads 511,007 of its new 511,007 B ceiling, the same
+figure with dev's bundle alone: this PR adds nothing there.
 
 **Not covered:** whether this weighting is the right one (the owner's, from the simulation); any painted surface (none); a
 browser timing of the first call (node: 50 ms).
