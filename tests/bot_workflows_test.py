@@ -260,7 +260,7 @@ class WorkflowTests(unittest.TestCase):
             jobs = workflow["jobs"].values()
             with self.subTest(workflow=workflow_name):
                 self.assertTrue("permissions" in workflow or all("permissions" in job for job in jobs),
-                                "every workflow declares the token scope it needs; the default is write")
+                                "every workflow declares the token scope it needs, instead of inheriting the repository's default")
                 declared += 1
         print(f"Checked {declared} workflows declare their permissions")
 

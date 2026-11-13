@@ -16414,3 +16414,65 @@ attempt's jobs, retries a 502, and returns red without the count file or over th
 `git replace` to make a commit that changes `app.js` look keepalive-only. With `GIT_NO_REPLACE_OBJECTS=1` the rule
 reads the real tree and stops there. Each mutant (the return ignoring the count, the switch dropped) is killed at its
 named assertion. Unit 28 of 28.
+
+## v1.264.6 — Supply chain and CI: the lockfile is the promise, a pinned CLI, least privilege, and analytics rows as our own paths (SEC1, 2026-11-13)
+
+**Seven advisories, the smallest moves.** Root (`npm audit`, 13 Nov): `brace-expansion` 1.1.18, `compression` 1.8.1 and
+`serve` (high; `serve` only because it carries `compression`), `fast-uri` 3.1.8 (moderate). `source/`: `glob` 13.0.6,
+`minimatch` 10.2.5 and `rimraf` 6.1.3 (moderate; `rimraf` carries the other two). Root: `brace-expansion` 1.1.21,
+`fast-uri` 3.1.9, `compression` 1.8.2 (one new dependency, `destroy` 1.2.0). `compression` comes through an `overrides`
+entry scoped to `serve`, because `serve` 14.2.6 and its newest release, 14.2.7, both pin `compression` 1.8.1 exactly;
+drop the entry when a `serve` release depends on 1.8.2 or later. `source/`: `rimraf` ^6.1.4, which brings `glob`
+14.0.3, `minimatch` 11.0.4, `path-scurry` 3.0.0 and `@isaacs/nonrecursive-glob-match` 1.0.3; `lru-cache` stays at
+11.2.7. Every lockfile entry was resolved from registry.npmjs.org with nothing published after 2026-11-04, so no
+release younger than the fix itself came in. After: 0 advisories in both trees; `npm audit signatures` verified 89
+root and 337 `source/` packages, none missing or invalid; the packages with an install script are the same before
+and after (root `fsevents`; `source/` `@parcel/watcher`, `esbuild`, `fsevents`, `tsx`'s `esbuild`).
+
+**The suites' server is unchanged.** `scripts/e2e-serve.mjs` is what serves every suite, through `serve-handler`
+and `compression`. The same script on the old modules and on the new, side by side on one built tree, answered 24
+of 24 requests identically (status, every header, raw body bytes): plain, gzip and brotli, HEAD, the flat-first
+rewrite, the trailing-slash folder copy, the `.html` 301, a range request, conditional GETs, a 404, a traversal 400,
+and 50 premature closes each (the bug the `compression` fix is about) with both still serving after.
+
+**Deploys install with `npm ci --ignore-scripts`, the flag on the install's command line only.** Both deploys
+used `npm install` three times: `source/` twice (the second inside Build Quartz) and the root once, whose own
+`postinstall` (`cd source && npm install`) re-resolved `source/` after the build. Now `source/` is installed once
+before the build and the root once after it, each with exactly `npm ci --ignore-scripts`. Never `.npmrc`, never
+`npm_config_ignore_scripts`: those reach `npm run` too, and npm skips `posttest:curated` (the deploy gate's count)
+under them. `scripts/check_build_chains.py` reads `npm ci` now: bare, it expands the same hooks as `npm install`;
+with `--ignore-scripts` as its only argument it adds nothing; any other argument fails closed. The Neural prelude's
+reviewed text is re-pinned. `tests/deploy_gate.test.mjs` (INSTALLS) reads every run line of both deploys and every
+env value; nine mutants each went red there, and four more in `tests/build_chains.test.mjs`.
+Proof that nothing needs its install script: a fresh clone, `npm ci --ignore-scripts` in `source/` (336 packages)
+and in the root (89), then `regenerate:neural` and `npm run build` under the build lock: 6,142 pages, page titles
+4,465 of 4,465, the payload budget OK (eager gzip 352,905 B, dev's own figure), and `validate:build-shape` equal on
+every count, marker and type, with the 3 root bundles and 14 app assets byte for byte. esbuild runs through its
+platform package (its script only swaps the launcher for the native binary); `@parcel/watcher` loads its prebuilt
+binding. The snapshot receiver on that build answers its ping and writes its pair.
+
+**Bots.** `proofread-bot.yml` and `validation-fixer.yml` piped `https://claude.ai/install.sh` into bash, which ran
+whatever that script and the newest build were on the day. They now install `@anthropic-ai/claude-code-linux-x64`
+2.1.311 (the vendor's stable channel) from `.github/tools/claude-cli`, whose lockfile holds its sha512, with
+`npm ci --ignore-scripts`, and set `DISABLE_AUTOUPDATER`. The platform package is the native binary: no
+dependencies, no install script. How to move the pin is written at proofread-bot's step.
+`seo-monitor.yml` and `content-improvement-bot.yml` launched `npx -y @modelcontextprotocol/server-dataforseo`, which
+the npm registry answers with 404, so the tool never started in any run (the name came in on 2025-10-22 and was
+copied into the SEO monitor on 2026-05-31). DataForSEO's own server is `dataforseo-mcp-server`, traced to the
+vendor's verified GitHub organisation and published with provenance, but its current line has no per-endpoint
+SERP tool (one generic `api_request`), and neither 3.1.3 nor 3.0.1 installs without high advisories in its tree. So
+the tool left both jobs: the SEO report writes "SERP rank: not measured", and the content bot's PAA step and its
+input went. How to restore either without handing a model search-result text is written at each workflow.
+`supabase-keepalive.yml` declares `permissions: {}`, and `deploy.yaml`'s `deployed-console` (`{}`) and
+`lighthouse-ci` (`contents: read`) jobs declare theirs; every workflow now does.
+
+**Analytics rows reach a model only as the site's own paths.** PostHog's `$current_url` is whatever a browser sent
+with the public key. `scripts/_site_routes.py` maps each row to one of the site's 8,339 routes (every page under
+`content/`, role pages included) and writes our canonical path, never the visitor's string; a row naming no page, a
+URL over 2,048 characters or a value that is not a number is dropped and counted. Both prefetch scripts use it,
+`bot_run.py`'s selector shares its key, and both prompts say the rows are data. `tests/bot_inputs_test.py` plants
+one marker in every visitor-written field and requires that it never reaches either file; selection over raw rows
+and over filtered rows picks the same ten files.
+
+**Coverage counts moved, with the reason beside them.** `tests/bot_workflows_test.py`: Claude action invocations
+6 -> 5 and model/output contracts 4 -> 3, both the deleted PAA step.
