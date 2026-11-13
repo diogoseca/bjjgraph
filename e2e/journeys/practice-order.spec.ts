@@ -22,6 +22,7 @@ import { journey } from "../dsl"
  *   P1 the cold oldest-first queue kept in front of the worth plan (`_practiceAppend`)   → "the session is the plan's queue"
  *   P2 the "N due" pill back on the row                                                  → "the row: today's count, no due"
  *   P3 oldest first restored in the law                                                  → "Practice opens on the planner's first position"
+ *   F1 the plan's re-render forgetting the fold the player opened (FOLD1)               → "FOLD1: the fold is still open after the plan lands"
  * NOT COVERED here: the order's arithmetic (the unit suite and its 15 mutants), no-gi on a page (the unit reads both
  * rulesets; a ruleset flip writes a setting, so it cannot share the byte-identity claim), and answering (grading writes the
  * record by design; the planner's completion rule is the unit suite's).
@@ -133,6 +134,33 @@ for (const touch of [true, false]) {
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session.keys.length)).toBe(s.keys.length + more)
       await page.waitForTimeout(2_500)
       expect(await storage(page), "every localStorage key and value is byte-identical after opening, paging and Keep practising").toBe(before)
+    })
+
+    // FOLD1 (v1.273.0, the orchestrator's check on the preview): on a slow connection a player can open "Practice details &
+    // session queue" while the eager queue shows; the plan landing re-rendered the queue and the fold snapped shut under
+    // them. The planner's file is held here as srs-due.spec.ts holds it; the fold is opened by a real tap or click; released,
+    // the plan lands, and the fold is still open and shows the plan's rows. Opening the fold is reading, not answering, so
+    // the queue still counts as untouched and the plan replaces it (the player sees the better order, in the fold they opened).
+    test(`a fold opened before the plan lands stays open, and shows the plan's rows (FOLD1, ${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      const { orderFixture } = await import("../../tests/_practice_order_fixture.mjs")
+      const fx = orderFixture(SERVED)
+      await boot(page, fx.day, fx.blob)
+      let release!: () => void
+      const gate = new Promise<void>((resolve) => { release = resolve })
+      await page.route("**/app/gameplan.js*", async (route) => { await gate; await route.continue() })
+      try {
+        await press(page, ".ng-logo", "open the drawer", touch)
+        await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
+        await expect(page.locator("[data-session-row]").first(), "the eager queue shows").toBeVisible()
+        expect(await page.evaluate(() => !!(window as W).__neural._session.plan), "premise: the plan has not landed").toBe(false)
+        await press(page, "[data-practice-details] > summary", "Practice details & session queue", touch)
+        await expect(page.locator("[data-practice-details]"), "the fold opens").toHaveAttribute("open", "")
+        release()
+        await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the plan lands" }).toBe("worth")
+        await expect(page.locator("[data-practice-details]"), "FOLD1: the fold is still open after the plan lands").toHaveAttribute("open", "")
+        const queue = await page.evaluate(() => (window as W).__neural._session.plan.queue.slice())
+        await expect(page.locator("[data-practice-queue] button"), "and it shows the plan's rows").toHaveText(queue.map((k: string) => dot(k)))
+      } finally { release() }
     })
 
     test(`a record with no answer is today's order, and says so once (${touch ? "touch" : "mouse"})`, async ({ page }) => {

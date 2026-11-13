@@ -6590,11 +6590,15 @@ class Component extends DCLogic {
 
   _renderPractice(s, list) {
     s.started ??= this.practiceToday().done;
+    // FOLD1 (v1.273.0): a plan that lands late re-renders an untouched queue (`_practiceAppend`), and that rebuilt "Practice
+    // details & session queue" shut under a player who had opened it in the meantime; it keeps what the player left
+    const kept = s.support?.firstChild?.open;
     this._gameplanProgress(s);
     this.setDrillHeader("Practice", "", "");
     // This fixed skeleton is owned by the page; the shared card renderer fills its first section.
     list.innerHTML = '<div data-plan-goal="1" style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;font-size:11.5px;font-weight:600"><span data-plan-goal-progress="1" aria-live="polite" style="color:#9ab0e0;white-space:nowrap"></span><span data-practice-goal="1"></span></div><section data-session="1" class="ng-practice-cards"><div data-practice-section="1"></div></section><div class="ng-practice-nav"></div><div data-practice-keys="1"></div><div data-practice-end="1"><div></div></div><div></div><div><details data-practice-details="1"><summary>Practice details &amp; session queue</summary><div data-practice-queue="1"></div><p data-session-section="Practice"></p><div></div></details></div>';
     const [goal, wrap, nav, keys, end, corridor, support] = list.children, details = support.firstChild;
+    if (kept) details.open = true;
     s.goal = goal; s.rows = wrap; s.heading = wrap.firstChild; s.corridor = corridor; s.support = support; s.end = end;
     s.queue = details.children[1]; s.count = details.children[2]; s.explanation = details.children[3]; s.completion = end.firstChild; s.visitShown = null;
     keys.innerHTML = this._keyLegend();

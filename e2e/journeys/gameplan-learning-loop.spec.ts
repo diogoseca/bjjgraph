@@ -341,7 +341,8 @@ test("failed planner load keeps due cards actionable and retries on deliberate i
   // EACH LINE BELOW WAITS ON ITS OWN CLAIM (v1.262.2). They used to read `requests` straight after a
   // toBeVisible() on the Practice line, which hit() had just shown by opening its fold, so the wait
   // waited for nothing and the deploy of v1.261.1 read 2: the press's import had not reached the route
-  // yet. That wait was also true only BEFORE the plan lands (landing re-renders the fold closed), and
+  // yet. That wait was also true only BEFORE the plan lands (until v1.273.0 landing re-rendered the fold closed; since FOLD1
+  // it keeps the fold the player opened, asserted below), and
   // nothing proved the retry landed at all: with the third request aborted too, the old lines passed.
   // Control arms and mutants: docs/Changelog-Archive.md, v1.262.2.
   await expect.poll(() => requests, { message: "the retry is the deliberate one: the button asked a third time" }).toBe(3);
@@ -361,7 +362,9 @@ test("failed planner load keeps due cards actionable and retries on deliberate i
     return (r.seat ? r.seat.replace("|", " \u00b7 ") : "Other cards") + " \u00b7 position " + (r.visit + 1) + " of " + s.plan.visits.length });
   await expect(page.locator("[data-practice-section]"), "the open card is titled by its position").toHaveText(open);
   await expect(page.locator('[data-mini-reveal]')).toBeVisible();
-  await hit(page, "[data-practice-details] > summary", isMobile);
+  // FOLD1 (v1.273.0): the player opened "Practice details & session queue" to press "Open study plan"; the plan's arrival
+  // re-rendered the queue, and the fold is still open (until then it snapped shut, and this step had to open it again)
+  await expect(page.locator("[data-practice-details]"), "FOLD1: the fold the player opened is still open").toHaveAttribute("open", "");
   await worthLine(page, plan);
 });
 

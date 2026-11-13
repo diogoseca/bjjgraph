@@ -352,8 +352,10 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   // (`_paintPractice` counts `s.review.rows` when there is no plan), so its wait was met before the
   // released chunk had even arrived, and the read under it took `_session.plan` once. PR #406's
   // shard 4 read `plan: false`; holding the chunk 400 ms after `release()` made that 10 of 10.
-  // The wait goes BEFORE the fold is opened: the plan's arrival re-renders the untouched queue,
-  // and the re-render closes the fold (gameplan-learning-loop.spec.ts says the same). Measured on the dev
+  // The wait goes BEFORE the fold is opened: the plan's arrival re-renders the untouched queue, and until v1.273.0 the
+  // re-render closed the fold. Since FOLD1 it keeps the fold as the player left it (practice-order.spec.ts pins that by a
+  // real tap and click), so the order is no longer needed for the fold; it stays because what this test reads below is the
+  // PLAN, and a fold opened first would show the eager queue's line until it lands. Measured on the dev
   // box, release to plan is about 1 s, network ~30 ms of it, and 3.7 to 5.7 s at 4x CPU, past the 5 s
   // default, hence the bound practice-drawer.spec.ts uses.
   // Until v1.273.0 the plan's review rows were the same whole cover ([other], 2 cards) and its count line read "2 cards to
