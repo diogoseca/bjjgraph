@@ -165,7 +165,10 @@ for (const width of [1440, 390]) {
       }
     })
     expect(m.sizing, "the floor below is a BORDER-box height").toBe("border-box")
-    expect(m.foot, "the foot is 1.5x the side gutter").toBeCloseTo(m.side * 1.5, 1)
+    // WIDTH4 (p5): on a phone the arrows stand inside the face, in a 32px lane of its side padding, so the side GUTTER (the owner's
+    // word: the edge beside the text) is the padding less that lane: 44 - 32 = 12, the phone's gutter as before, and the foot still 18.
+    const gutter = width < 600 ? m.side - 32 : m.side
+    expect(m.foot, "the foot is 1.5x the side gutter").toBeCloseTo(gutter * 1.5, 1)
     // The face is its content plus its own padding, floored only by NG_LAND_DECK_MIN_H — which
     // an MC face always clears. Raising that floor back towards the retired fixed height, or
     // reintroducing any other reserved band under the answers, moves this by ~20px.
@@ -534,8 +537,10 @@ for (const width of [1440, 390, 320]) {
     await expect(page.locator("[data-landcard] [data-land-nav]")).toHaveCount(0)
     const box = await next.boundingBox()
     const face = await page.locator("[data-landcard]").boundingBox()
-    // CARDWIDTH (v1.263.1): the target abuts the face (WAS 8px clear of it, so this read toBeGreaterThan), never over it.
-    expect(box!.x).toBeGreaterThanOrEqual(face!.x + face!.width - 0.5)
+    // CARDWIDTH (v1.263.1): the target abuts the face (WAS 8px clear of it, so this read toBeGreaterThan), never over it. WIDTH4
+    // (p5): on a phone it stands over the face's own right padding, its outer 12px past the edge (card-section.spec.ts pins the rest).
+    if (width < 600) expect(box!.x + box!.width - (face!.x + face!.width), "phone: Next reaches 12px past the face's right edge").toBeCloseTo(12, 0)
+    else expect(box!.x).toBeGreaterThanOrEqual(face!.x + face!.width - 0.5)
     expect(box!.x + box!.width).toBeLessThanOrEqual(width)
     expect(box!.y + box!.height / 2).toBeCloseTo(face!.y + face!.height / 2, 0)
     expect(box!.width).toBeGreaterThanOrEqual(44)
@@ -554,8 +559,8 @@ for (const width of [1440, 390, 320]) {
       expect(left!.y, "Previous level with Next").toBeCloseTo(box!.y, 0)
     } else {
       expect(left!.x).toBeGreaterThanOrEqual(0)
-      // CARDWIDTH: abutting the face (WAS toBeLessThan, 8px clear).
-      expect(left!.x + left!.width).toBeLessThanOrEqual(face!.x + 0.5)
+      // CARDWIDTH: abutting the face (WAS toBeLessThan, 8px clear). WIDTH4 (p5): on a phone over the face's left padding, 12px out.
+      expect(face!.x - left!.x, "phone: Previous reaches 12px past the face's left edge").toBeCloseTo(12, 0)
     }
     await expect(page.locator("[data-land-position]")).toHaveAttribute("data-land-position", `2/${total}`)
     await j.clickByMouse("[data-land-prev]")

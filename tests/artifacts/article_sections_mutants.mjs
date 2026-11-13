@@ -525,18 +525,32 @@ const mutants = [
   // u110-card-uncapped RETIRED in v1.263.1 with its target (CARDWIDTH): the open face has no cap of its own any more, it is the
   // grid's box (capped, u110-grid-uncapped) less its two arrow lanes, which stacked-width.spec.ts pins as [32, 32].
   ['u110-film-uncapped', 'stacked-width.spec.ts', 'stacked at 900px', s => replace(s, 'a.filmLayout(cap ? Math.min(free.width, cap + 32) : free.width,', 'a.filmLayout(free.width,')],
-  ['u110-grid-uncapped', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'Math.min(cap || 902, free.width - 64)', 'Math.min(902, free.width - 64)')],
+  ['u110-grid-uncapped', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'Math.min(cap || 902, free.width - (flush ? 64 : 24))', 'Math.min(902, free.width - (flush ? 64 : 24))')],
   // U110 a: the Moves row takes the column wherever the stacked box binds, 600 to 640px included (cobbler's check, 2026-11-09).
   ['u110-tray-phone-flush', 'stacked-width.spec.ts', 'stacked at 600px', s => replace(s, 'this.trayFlush = W > 640 || free.width >= 600', 'this.trayFlush = W > 640')],
   // CARDWIDTH (owner, 2026-11-12, v1.263.1): the card's section spans the Moves row's box, the face less a 32px lane per arrow.
-  ['cardwidth-old-face', 'card-section.spec.ts', 'section spans.*390x631', s => replace(s, 'if (card) style(card, "width", column ? asking ? tease : column - arrowLanes : asking ? Math.min(cap || 520, free.width - 32) : span - arrowLanes, "important");', 'if (card) style(card, "width", Math.min(column ? asking ? tease : column - 52 : cap || (arrows ? 560 : 520), free.width - (arrows ? 104 : 32)), "important");')],
-  ['cardwidth-section-free', 'card-section.spec.ts', 'section spans.*390x844', s => replace(s, 'W - 2 * parseFloat(getComputedStyle(row).paddingLeft)', 'free.width - 32')],
+  ['cardwidth-old-face', 'card-section.spec.ts', 'section spans.*390x631', s => replace(s, 'if (card) style(card, "width", column ? asking ? tease : column - arrowLanes : asking ? Math.min(cap || 520, free.width - 32) : grid - arrowLanes, "important");', 'if (card) style(card, "width", Math.min(column ? asking ? tease : column - 52 : cap || (arrows ? 560 : 520), free.width - (arrows ? 104 : 32)), "important");')],
+  // WIDTH4 (p5, owner 2026-11-12 18:18): on a phone the grid, the film and the face share the Moves row's box; the arrows sit inside the face.
+  // (cardwidth-section-free RETIRED with its target: the section on a phone is the grid now, not the row less its measured padding.)
+  ['width4-grid-phone-gutter-lost', 'card-section.spec.ts', 'at its edges \\(390x844', s => replace(s, 'free.width - (flush ? 64 : 24)', 'free.width - 64')],
+  ['width4-phone-lanes-back', 'card-section.spec.ts', 'at its edges \\(390x631', s => replace(s, '(column || flush && free.width - grid < 88)', '(column || !flush || free.width - grid < 88)')],
+  ['width4-film-phone-lost', 'card-section.spec.ts', 'at its edges \\(360x740', s => replace(s, '      if (!flush) mediaWidth = grid;\n', '')],
+  // WIDTH5 (the owner's U154 e, 13 Nov 2026): the specs p5 moves beyond the card, each re-pinned to p5 and each new claim's control.
+  ['width5-safety-line-gutter-lost', 'safety-line.spec.ts', 'in the real font', s => replace(s, 'free.width - (flush ? 64 : 24)', 'free.width - 64')],
+  ['width5-theater-film-lost-631', 'video-theater.spec.ts', 'VIDEO1 gap and card width 390x631', s => replace(s, '      if (!flush) mediaWidth = grid;\n', '')],
+  ['width5-theater-film-lost-844', 'video-theater.spec.ts', 'VIDEO1 gap and card width 390x844', s => replace(s, '      if (!flush) mediaWidth = grid;\n', '')],
+  ['width5-cards-film-lost', 'video-cards.spec.ts', 'measured media height.*\\(390px', s => replace(s, '      if (!flush) mediaWidth = grid;\n', '')],
+  ['width5-article-grid-gutter-lost', 'article-grid.spec.ts', 'article grid 390px', s => replace(s, 'free.width - (flush ? 64 : 24)', 'free.width - 64')],
+  // WIDTH5: a part shown again ends the press window, so Moves' close, back inside the place its wider message stood, takes a tap at once.
+  ['width5-shield-outlives-show', hidesec, 'several closed in a row', s => replace(s, '    else if (result && on !== false) reader.shields = [];\n', '')],
   // WIDTH2 (U152 b): outside where both margins hold a target, from 600px free up to the columns; each switch pinned from both sides.
   // (cardwidth-tablet-lanes-lost RETIRED with its subject: at 768 the lanes are gone by design now.)
-  ['cardwidth-b-lost', 'card-section.spec.ts', 'outside the face \\(768x1024', s => replace(s, 'const arrowLanes = arrows && (column || free.width - span < 88) ? 64 : 0;', 'const arrowLanes = arrows ? 64 : 0;')],
-  ['cardwidth-b-in-columns', 'card-section.spec.ts', 'in their lanes \\(1024x768', s => replace(s, 'const arrowLanes = arrows && (column || free.width - span < 88) ? 64 : 0;', 'const arrowLanes = arrows && free.width - span < 88 ? 64 : 0;')],
-  ['cardwidth-b-margin-too-strict', 'card-section.spec.ts', 'outside the face \\(600x760', s => replace(s, 'const arrowLanes = arrows && (column || free.width - span < 88) ? 64 : 0;', 'const arrowLanes = arrows && (column || free.width - span < 120) ? 64 : 0;')],
-  ['cardwidth-b-starts-early', 'card-section.spec.ts', 'in their lanes \\(599x760', s => replace(s, 'this.trayFlush = W > 640 || free.width >= 600', 'this.trayFlush = W > 640 || free.width >= 590')],
+  ['cardwidth-b-lost', 'card-section.spec.ts', 'outside the face \\(768x1024', s => replace(s, 'const arrowLanes = arrows && (column || flush && free.width - grid < 88) ? 64 : 0;', 'const arrowLanes = arrows ? 64 : 0;')],
+  ['cardwidth-b-in-columns', 'card-section.spec.ts', 'in their lanes \\(1024x768', s => replace(s, 'const arrowLanes = arrows && (column || flush && free.width - grid < 88) ? 64 : 0;', 'const arrowLanes = arrows && flush && free.width - grid < 88 ? 64 : 0;')],
+  ['cardwidth-b-margin-too-strict', 'card-section.spec.ts', 'outside the face \\(600x760', s => replace(s, 'const arrowLanes = arrows && (column || flush && free.width - grid < 88) ? 64 : 0;', 'const arrowLanes = arrows && (column || flush && free.width - grid < 120) ? 64 : 0;')],
+  // NON-KILL under WIDTH4 (v1.265.0), recorded: at 599px the cap binds on both sides of the reader's flush switch, so the box is the
+  // same either way; the switch a player sees is the stylesheet's phone query (width4-switch-media-early, tests/artifacts/neural_app_mutants.mjs).
+  ['cardwidth-b-starts-early', 'card-section.spec.ts', 'at its edges \\(599x760', s => replace(s, 'this.trayFlush = W > 640 || free.width >= 600', 'this.trayFlush = W > 640 || free.width >= 590')],
   ['cardwidth-column-offset-lost', 'card-section.spec.ts', 'section spans.*1440x900', s => replace(s, 'if (column) cardX = free.center - grid / 2 + arrowLanes / 2;', 'if (column) cardX = free.center - grid / 2;')],
   ['cardwidth-nodeck-old', 'card-section.spec.ts', 'no deck.*390x844', s => replace(s, ' : asking ? Math.min(cap || 520, free.width - 32)', ' : asking || !arrows ? Math.min(cap || 520, free.width - 32)')],
   ['cardwidth-nodeck-column-old', 'card-section.spec.ts', 'no deck.*1440x900', s => replace(s, 'column ? asking ? tease : column - arrowLanes :', 'column ? asking ? tease : column - 52 :')],

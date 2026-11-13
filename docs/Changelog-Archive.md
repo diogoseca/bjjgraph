@@ -16414,3 +16414,99 @@ attempt's jobs, retries a 502, and returns red without the count file or over th
 `git replace` to make a commit that changes `app.js` look keepalive-only. With `GIT_NO_REPLACE_OBJECTS=1` the rule
 reads the real tree and stops there. Each mutant (the return ignoring the count, the switch dropped) is killed at its
 named assertion. Unit 28 of 28.
+
+## v1.265.0 — On a phone the question card, the film and the article's sections are as wide as the Moves row, the arrows centred in the card's free space (WIDTH4 p5, WIDTH5: the owner's U154 e, 2026-11-12/13)
+
+**The owner's words** (12 Nov, 18:18, with U152 b): "on mobile it still doesnt look as wise [wide] as the choices row and as other
+sections in the article - pls fix".
+
+**Measured first** (real app, no harness, Mount Top, the question taken up; edges in CSS px). At 390 (both heights): the Moves row's
+content box 12-378 (its first card starts at 12), the film 16-374, the article's sections 32-358, the card 52-338 before #390 and
+44-346 after it. At 360x740: 12-348, 16-344, 32-328, card 44-316. At 574x760: the row 12-562, the film and the sections 39-535 (the
+stacked 496px cap), the card 44-530. So "as wide as the choices row and as other sections" could not both hold: the sections stood
+20px inside the moves on each side at 390 and 360 (27px at 574), and the film 4px inside them.
+
+**Variants**, each a real scratch build, the same landing and question (pictures `10-phone-row-*`, `11-*` in the cardwidth briefing
+folder): p1 the arrows in a header row beside the count ("‹ 1/8 ›"): the card 26px taller at 390x631 and its answers 41px lower; p2 the
+arrows inside the card's own side padding at mid-height: no height change, the answers 16px wider than #390's and clear of the arrows;
+p3 a pager row under the answers: 29px taller, the pager under the fold at 390x631; p4 no arrows, the card's own swipe: no height
+change, nothing to press; p5 (built) p2 plus the article's sections and the film on the same box.
+
+**Built (p5).** Under 600px free the grid is the viewport less the row's 12px gutters (WAS less 64), under the same 496px cap, and
+the film takes the grid's box too: at 390 and 360 the moves, the card, the film and the sections share one box; where the cap binds
+(528 to 599px) the card, the film and the sections share U110 a's box, the moves wider. The face is the whole section on a phone (no
+lanes), and the arrows stand inside it, each 44px target over its 44px side padding (its 32px lane, then the phone's 12px gutter, so the 1.5x
+foot stays 18 and the answers stand where they stood) and reaching 12px past its edge; an asking line
+keeps its own padding. Lanes stay only in the columns and in a flush row whose margins cannot hold a target. The 24 is the phone
+row's padding as a constant (measuring it cost 55 B); `card-section.spec.ts` pins the row's box and the face against each other.
+
+**The side padding is 44px, not the scratch builds' 36.** `landcard-deck.spec.ts:143` (the owner's "the foot is 1.5x the side gutter")
+went red at 390 with 36: the foot 18 against a side of 36. With the arrows inside the face, the side gutter is the padding less their
+32px lane: 44 - 32 = 12, the phone's gutter as before, so the foot stays 18, and the answers stand exactly where v1.264.1 put them (only
+the face's box widens to the moves). The phone pictures of p5 are re-shot from this build.
+
+**A red found and explained: `hidden-sections.spec.ts:211`** (390, touch), 2 of 2 red on p5 and 2 of 2 green on #390's build. After
+both messages close, a press starting inside where one stood is swallowed for SHIELD_MS (400ms, reader.src.js `shield`). On a phone
+Moves' message now spans the Moves row's width, over Moves' own close (362-386), and the test pressed that close inside the 400ms after
+a SCRIPTED restore no player can make that fast; on #390 the message stopped at 358 and the press won by geometry alone. p2's scratch
+build (the card wide, the grid not) was 4 of 4 green, which isolated the cause to the wider grid. The test now waits out the shield on
+its own removal stamps (the reader's fields are mangled in the bundle, `shields` -> `s`, so a first fix reading them never waited):
+5 of 5 green. No assertion changed.
+
+**Runs** (local, under the build lock unless said): `card-section` 20 of 20 on the 36px build and again on 44px; the 29 card files and
+11 reading and article files, 491 tests, 490 of 491 on 44px with `hidden-sections:211` the one red (fixed after, 5 of 5 on a private
+port); the re-pinned files on 44px, 132 of 133 (the same red). Mutants: 7 WIDTH4 rows killed at their claims; the CARDWIDTH and WIDTH2
+rows re-run against this build, killed, with `cardwidth-next-over-face` and `width4-arrows-outside-on-phone` retargeted (a moved line,
+a truer first claim) and `cardwidth-b-starts-early` an equivalent non-kill under WIDTH4; `prev-climbs-over-choices` the same non-kill.
+The app rows re-seeded (`neural.css` and `reader.js`; no app.src.jsx change, so `neural.js` and the game bundles keep dev's rows).
+`check_payload_budget.py` exit 0: reader 44,842 B (-37), deferred 510,944 of 510,981 B, so no ceiling moves.
+
+**WIDTH5: the owner's answer, U154 e (13 Nov 2026, 00:48).** "e, As b, and the video and the article's sections take the same width",
+with the note "just make sure the left and right arrows are centered in the left available and right available space inside the card.
+it seems well positioned in p2 but not in p5 landcard strangely, i'm sure that's just a small fix". He chose p5 knowing what it moves (the
+RED396 list was in his question; the orchestrator had recommended p2).
+
+**The arrows, measured first** (real app, no harness, Mount Top, the question taken up; p2's scratch build as he saw it, 36px padding,
+and the built p5, 44px): at 390x844, 390x631, 360x740 and 574x760 both builds put the glyph 16px in from the face's edge, the lane's
+place, while the answers start at the face's 1px border plus its padding, 37px (p2) or 45px (p5) in. So the middle of the free space
+is 18.5 or 22.5px in: p2's glyph sat 2.5px outward of it (it read as centred), p5's 6.5px, at every size, on both sides. The orchestrator's
+guess (p5's 44px padding against p2's 36 with the glyph placed for the old lane) holds, with the 1px border added. **Fixed** in the
+phone query: each glyph rides 12.5px from its target's centre toward the answers (WAS 6px), so its 14px box is on the middle exactly and
+the drawn chevron 0.29px off it (its path stands that far off its box's centre). The 44px targets do not move, 13px clear of the
+answers; tablets and desktop keep the 6px ride (WIDTH3). Pictures, the card only, p5 as he saw it beside the fix:
+`13-arrows-centred-<size>.jpg`. `card-section.spec.ts` replaces "the glyph stands 16px inside the face" with "the glyph is centred in
+the free space on its side" (the path's box against the face's edge and the answers' outermost edge, within 0.5px, both sides, at
+390x844, 390x631, 360x740, 574x760 and 599x760) and "the glyph stays inside its own 44px target".
+
+**The closed-part message over Moves' close.** Measured first: no control lies under any message while it stands (Moves' close is hidden
+while Moves is closed), and at 390 no player path brings Moves back inside the 400ms press window after the places close (the reader
+shows no layer dock; Undo drops its message with no window; Settings' switch lies outside the place and Settings must be closed before
+Moves' close can be pressed). Only the spec's scripted restore met it. **Fixed in the shield, not the message:** a part shown again
+(Settings, Undo, the index row) ends the press window, in reader.src.js's setLayer wrapper. The window keeps a press aimed at a message
+that has just gone from landing on what MOVED into its place; a part the player brings back is their own act. +19 B reader.
+`hidden-sections.spec.ts` "several closed in a row" restores through Settings' own path and taps Moves' close straight after, with the
+premise that the tap fell inside the 400ms window; this PR's earlier 450ms wait is dropped.
+
+**The five specs p5 moves beyond the card, re-pinned** (each says what it claimed before and cites U154 e): `safety-line.spec.ts:235` the
+defender's line at 360 is one line (WAS two; the text box 242 -> 282px); `video-theater.spec.ts:75` under 600px free the film shares the
+Moves row's two edges (WAS min(496, free - 32), 358px at 390; from 600px unchanged); `video-cards.spec.ts:141` the film and the face are
+366px, the film about 224px tall (WAS 358 x 219.94, a 302px face); `article-grid.spec.ts:61` at 390 every section shares the Moves row's
+two edges (WAS at least 24px in, 32..358; the draft's 12px bound, which the old grid still met, is replaced by the equality; from 600px
+unchanged, at least 24px in); `hidden-sections.spec.ts:211` (above).
+
+**Controls**, under the build lock on a private copy of this build, each against a green baseline of the same test: stylesheet 16 of 16
+killed at their claims (four WIDTH5 rows: one glyph 4px off at 390x631, 360x740 and 390x844, the lane's 6px put back at 574x760;
+`cardwidth-glyph-in-target` retargeted to 768, where the base rule still rides the glyph); reader 26 of 27 (six WIDTH5 rows: each re-pin's
+p5 line put back, and the press window not ended by a part shown again; every CARDWIDTH, WIDTH2, WIDTH4 row and the press-rule and
+several-in-a-row HIDESEC2 rows re-run on this build), `cardwidth-b-starts-early` the recorded equivalent non-kill.
+
+**Merge, bytes, runs.** origin/dev 858fca4f1 (v1.264.5) merged by merge; the version stays 1.265.0 (now final, the orchestrator's).
+Reader 44,861 B (+19, the shield line): the deferred set 510,963 of its 510,981 B ceiling, no ceiling move; `neural.css` 55,833 B (+84,
+the two glyph rules); `check_payload_budget.py` exit 0; `payload-first-hand.spec.ts` green (core +1,259 B since its v1.262.7 baseline).
+Local, under the build lock, on a private copy of this build: the six touched spec files 103 of 103; the RED396 survey's 65 files once
+more, 785 of 795 with 1 skipped and 9 red, none of them p5's: 8 `legal-pages.spec.ts` reds failed at their premise ("the privacy page
+names its data controller") because this worktree's built site dated from 10 Nov, before #395's privacy text; rebuilt from this branch's
+content, `legal-pages` 15 of 15 and `landcard-deck` whole green. The ninth, `landcard-deck.spec.ts:530` at 320 (a Next press in its
+walk to the deck's end does not page, so its wait runs out), is PRE-EXISTING: 1 of 8 red on this build and 1 of 8 on #390's own build
+with dev's own spec, the same line both times (RED396's long run met it once too). Not this PR's; recorded for a follow-up.
+The app rows re-seeded (`validate:build-shape:app`: `neural.css` and `reader.js`).
