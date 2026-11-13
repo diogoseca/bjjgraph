@@ -18,8 +18,11 @@ import { journey } from "../dsl"
  * WIDTH4 (owner, 2026-11-12 18:18, "on mobile it still doesnt look as wide as the choices row and as other sections in the article"),
  * p5: on a phone (under 600px free) the face is the whole section, the grid's box, which there is the Moves row's own content box up to
  * the 496px cap, and the film and the article's sections share it; the arrows stand INSIDE the face, each target over its 44px side
- * padding and reaching 12px past its edge, the glyph 16px in, the answers clear of both. Mode "phone" below; "lanes" is now the
- * columns only.
+ * padding and reaching 12px past its edge, the answers clear of both. Mode "phone" below; "lanes" is now the columns only.
+ * WIDTH5 (the owner's U154 e, 13 Nov 2026: "make sure the left and right arrows are centered in the left available and right available
+ * space inside the card. it seems well positioned in p2 but not in p5"): on a phone each glyph stands in the middle of the space free on
+ * its side inside the face, between the face's edge and the answers' edge. WAS (p5 as he saw it): 16px in, the lane's place, 6.5px
+ * short of that middle once the padding grew to 44px (p2's shot had 36px: 2.5px short, which read as centred).
  *
  * THE CLAIMS, at 390x844, 390x631 (the real p10 phone), 574x760, 768x1024 and 1440x900, and one width each side of each switch
  * (599 | 600: the row turns flush; 1023 | 1024: the columns begin), each box read from the page, never recomputed:
@@ -27,8 +30,8 @@ import { journey } from "../dsl"
  *      12px it reaches past the section's edge. OUTSIDE: the face is the section, edge for edge, and each margin holds a target;
  *   2. each arrow's target is 44 x 44, abuts the face, lies on screen and within the face's height (so it stands beside the face and
  *      never in the Moves band above it);
- *   3. INSIDE: each glyph's centre is the middle of its lane, between the section's edge and the face. OUTSIDE: 16px from the face, as
- *      inside;
+ *   3. LANES: each glyph's centre is the middle of its lane, between the section's edge and the face. OUTSIDE: 16px from the face.
+ *      PHONE (WIDTH5): the drawn chevron's centre is the middle of the free space inside the face on its side, within half a pixel;
  *   4. every point of a target is the arrow's (inside, its reach past the section included), and 1px inside the face's edge is the
  *      face's; Next pages by mouse at its centre, and Previous pages back pressed in its outer part (by mouse; by touch at 390x844 and
  *      390x631);
@@ -80,6 +83,8 @@ const geometry = (page: Page) => page.evaluate(() => {
   return { W: innerWidth, H: innerHeight, layout, section, rowContent: { l: rb.left + parseFloat(cs.paddingLeft), r: rb.right - parseFloat(cs.paddingRight) },
     face: box(a._landEl), deck: !!a._landEl?.classList.contains("ng-land-deck"), asking: !!a._landEl?.hasAttribute("data-land-ask"),
     prev: box(prev), next: box(next), prevGlyph: box(prev?.querySelector("svg")), nextGlyph: box(next?.querySelector("svg")), tile: box(tile),
+    // WIDTH5: the chevron as drawn, its path's own box (it stands 0.29px off its 14px box's centre: M15 5l-7 7 7 7 in a 24 box)
+    prevInk: box(prev?.querySelector("path")), nextInk: box(next?.querySelector("path")),
     film: box(a._landFilmEl), firstSection: box(firstSection),
     answers: ([...(a._landEl?.querySelectorAll("[data-land-mc-opt]") || [])] as Element[]).filter(e => e.getClientRects().length).map(e => ({ ...box(e)!, v: e.getAttribute("data-land-mc-opt") })),
     count: (a._landEl?.querySelector("[data-land-count]") as HTMLElement | null)?.textContent || "" }
@@ -148,13 +153,19 @@ for (const size of SIZES) {
       expect(n!.r, "Next is on screen").toBeLessThanOrEqual(g.W + 0.5)
       const mid = (b: Box) => (b.l + b.r) / 2
       if (size.mode === "phone") {
-        // PHONE: each target over the face's own edge, 32px inside it and 12px past it; the glyph 16px in; the answers clear of both.
+        // PHONE: each target over the face's own edge, 32px inside it and 12px past it; the answers clear of both.
         expect([p!.r - f!.l, f!.l - p!.l].map(r), `Previous stands 32px inside the face and reaches 12px past its edge (${p!.l}..${p!.r} / ${f!.l})`).toEqual([32, 12])
         expect([f!.r - n!.l, n!.r - f!.r].map(r), `Next stands 32px inside the face and reaches 12px past its edge (${n!.l}..${n!.r} / ${f!.r})`).toEqual([32, 12])
-        expect(mid(g.prevGlyph!) - f!.l, `Previous's glyph stands 16px inside the face (${mid(g.prevGlyph!)} / ${f!.l})`).toBeCloseTo(16, 0)
-        expect(f!.r - mid(g.nextGlyph!), `Next's glyph stands 16px inside the face (${mid(g.nextGlyph!)} / ${f!.r})`).toBeCloseTo(16, 0)
         expect(g.answers.length, "premise: the answers are painted").toBeGreaterThan(1)
         for (const a of g.answers) expect([a.l >= p!.r - 0.5, a.r <= n!.l + 0.5], `an answer (${a.l}..${a.r}) runs under neither arrow (${p!.r} / ${n!.l})`).toEqual([true, true])
+        // 3. PHONE (WIDTH5, U154 e): each drawn chevron in the middle of the space free on its side inside the face: from the face's edge
+        // to the answers' (WAS: 16px in, 6.5px short of it). Both read from the page, the answers' outermost edges.
+        expect(g.prevInk && g.nextInk, "premise: both chevrons are drawn").toBeTruthy()
+        const ansL = Math.min(...g.answers.map(a => a.l)), ansR = Math.max(...g.answers.map(a => a.r))
+        expect(Math.abs(mid(g.prevInk!) - (f!.l + ansL) / 2), `Previous's glyph is centred in the free space on its side (${mid(g.prevInk!)} / ${(f!.l + ansL) / 2}, from ${f!.l} to ${ansL})`).toBeLessThanOrEqual(0.5)
+        expect(Math.abs(mid(g.nextInk!) - (ansR + f!.r) / 2), `Next's glyph is centred in the free space on its side (${mid(g.nextInk!)} / ${(ansR + f!.r) / 2}, from ${ansR} to ${f!.r})`).toBeLessThanOrEqual(0.5)
+        for (const [name, ink, t] of [["Previous", g.prevInk!, p!], ["Next", g.nextInk!, n!]] as const)
+          expect(ink.l >= t.l && ink.r <= t.r, `${name}'s glyph stays inside its own 44px target (${ink.l}..${ink.r} in ${t.l}..${t.r})`).toBe(true)
       } else {
         expect(Math.abs(p!.r - f!.l), `Previous abuts the face (${p!.r} / ${f!.l})`).toBeLessThanOrEqual(0.5)
         expect(Math.abs(n!.l - f!.r), `Next abuts the face (${n!.l} / ${f!.r})`).toBeLessThanOrEqual(0.5)

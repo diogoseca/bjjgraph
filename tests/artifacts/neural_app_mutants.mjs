@@ -256,8 +256,9 @@ const controls = [
   // WIDTH4: on a phone the phone rule places the arrows, so the abutment rows run where the stylesheet's own rule does (1440).
   ['cardwidth-arrow-gap-back', 'card-section.spec.ts', 'section spans.*1440x900', [],
     'Previous abuts the face', [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% + 8px)}']]],
-  ['cardwidth-glyph-in-target', 'card-section.spec.ts', 'section spans.*390x631', [],
-    "Previous's glyph stands 16px inside the face", [['.ng-landnav svg{translate:6px}', '.ng-landnav svg{translate:0}']]],
+  // WIDTH5: on a phone the phone rule rides the glyph now, so this row runs where the base rule does (768, outside).
+  ['cardwidth-glyph-in-target', 'card-section.spec.ts', 'section spans.*768x1024', [],
+    "Previous's glyph stands 16px from the face", [['.ng-landnav svg{translate:6px}', '.ng-landnav svg{translate:0}']]],
   // WIDTH2 (U152 b): at 768 the arrows stand outside the face; the same two rules hold there.
   ['cardwidth-next-glyph-in-target', 'card-section.spec.ts', 'section spans.*768x1024', [],
     "Next's glyph stands 16px from the face", [['.ng-landnav [data-land-next] svg{translate:-6px}', '.ng-landnav [data-land-next] svg{translate:6px}']]],
@@ -277,6 +278,16 @@ const controls = [
   // on both sides of it, so cardwidth-b-starts-early is a recorded non-kill under WIDTH4).
   ['width4-switch-media-early', 'card-section.spec.ts', 'at its edges \\(599x760', [],
     'Previous stands 32px inside the face', [['@media(max-width:599px){[data-landcard]', '@media(max-width:589px){[data-landcard]']]],
+  // WIDTH5 (the owner's U154 e, 13 Nov 2026): each phone glyph in the middle of the free space on its side inside the face. Each row moves
+  // one glyph 4px, or puts back the lane's 6px ride p5 shipped with (the build he saw), at one phone size each.
+  ['width5-glyph-4px', 'card-section.spec.ts', 'at its edges \\(390x631', [],
+    "Previous's glyph is centred in the free space on its side", [['.ng-landnav svg{translate:12.5px}', '.ng-landnav svg{translate:8.5px}']]],
+  ['width5-next-glyph-4px', 'card-section.spec.ts', 'at its edges \\(360x740', [],
+    "Next's glyph is centred in the free space on its side", [['.ng-landnav [data-land-next] svg{translate:-12.5px}', '.ng-landnav [data-land-next] svg{translate:-8.5px}']]],
+  ['width5-glyph-as-he-saw-it', 'card-section.spec.ts', 'at its edges \\(574x760', [],
+    "Previous's glyph is centred in the free space on its side", [['.ng-landnav svg{translate:12.5px}.ng-landnav [data-land-next] svg{translate:-12.5px}', '']]],
+  ['width5-glyph-4px-844', 'card-section.spec.ts', 'at its edges \\(390x844', [],
+    "Next's glyph is centred in the free space on its side", [['.ng-landnav [data-land-next] svg{translate:-12.5px}', '.ng-landnav [data-land-next] svg{translate:-16.5px}']]],
   ['width4-asking-padded', 'article-order.spec.ts', 'U90 at 390x844 the question line', [],
     'the line starts at the label', [['[data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){', '[data-landcard].ng-landcard.ng-land-deck{']]],
   ['cardwidth-arrows-in-moves-band', 'card-section.spec.ts', 'section spans.*1440x900', [],

@@ -385,14 +385,21 @@
   .ng-landnav [data-land-next] svg{translate:-6px;}
   /* WIDTH4 (owner, 2026-11-12 18:18, p5): on a phone the face is the Moves row's whole width and the arrows stand INSIDE it, each
      44px target over the face's own 44px side padding (its 32px lane, then the phone's 12px gutter before the text, so the 1.5x foot
-     stays 18) and reaching 12px past its edge into the row's gutter; the glyph keeps its 16px from the face's edge. The answers stand
-     exactly where they stood in v1.264.1, 12px clear of each target; only the face's box widens to the moves. An asking line
+     stays 18) and reaching 12px past its edge into the row's gutter; its glyph centred in the free space (WIDTH5, below). The answers stand
+     exactly where they stood in v1.264.1, 13px clear of each target (the 12px gutter and the face's 1px border); only the face's box widens to the moves. An asking line
      keeps its own padding (it carries the deck class too). 599px is the reader's flush threshold (`flush`, 600px free) on a phone,
-     where the free width is the viewport's. WAS (v1.264.1): the face was the row less two 32px lanes, the arrows outside it. */
+     where the free width is the viewport's. WAS (v1.264.1): the face was the row less two 32px lanes, the arrows outside it.
+     WIDTH5 (the owner's U154 e, 13 Nov 2026: "make sure the left and right arrows are centered in the left available and right
+     available space inside the card"): each glyph stands in the middle of the space free on its side inside the face, from the face's
+     edge to the answers', which is its 1px border and 44px padding, so 22.5px in; the target's centre is 10px in (-12 to 32), so the glyph
+     rides 12.5px toward the answers. WAS 6px, the lane's ride: 16px in, 6.5px off that middle (p2's shot had 36px of padding, 2.5px off).
+     Pinned by card-section.spec.ts, the drawn chevron against the midpoint, both sides, each phone size. */
   @media(max-width:599px){
     [data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){padding-left:44px!important;padding-right:44px!important;}
     .ng-landnav [data-land-prev]{right:auto;left:-12px;}
     .ng-landnav [data-land-next]{left:auto;right:-12px;}
+    .ng-landnav svg{translate:12.5px;}
+    .ng-landnav [data-land-next] svg{translate:-12.5px;}
   }
   .ng-landnav button[hidden]{display:none;}
   .ng-landnav [aria-disabled=true]{opacity:.3;cursor:default;color:#8797b3;}
