@@ -17302,6 +17302,32 @@ manifest it reads is dev's own bytes.
 The module's 0.17 for everything known is now 0.160: 6% of the 21,269 known rows times the card-weighted mean
 wrong-accept rate per retired row, 1.2512e-4 (the reader's definition; the first figure counted the retired rows as 6% of
 all rows after adding them, 6/94 of the known); the year shape, the same way, 0.022. Bytes after the move: measured on dev v1.272.0 (3bef94e14), whose own bundle reproduces its committed `neural.js` row: the eager set 357,181 B, +4,215 of 5,000 since the checkpoint (dev alone 355,846, this change +1,335); the first-hand core 376,564 B, +5,457 of 6,000 since 371,107 (dev alone 375,247 with its own payload served, this change +1,317), the same 11 boot requests and no live file among them; the deferred set 510,269 of 511,043, unchanged; the largest on-demand chunk 39,000.
+
+
+## v1.273.1 — Both payload baselines are checkpointed at dev v1.273.0's own level (PAY2, 2026-11-13)
+
+**Why.** Each delta cap reads growth since its last accepted baseline, and both were reading dev's drift.
+- **Eager set:** +4,215 B over 352,966 since v1.265.2 (e7766cbc6), over nine dev merges (PR #400 to #408), with 785 B of its 5,000 B cap left.
+- **First-hand core:** +5,457 B over 371,107 since v1.262.7 (5619059fb), over 25 dev merges, with 543 B of its 6,000 B cap left.
+
+Two PRs about to land (the Practice order, names on the map) would each have gone red on that drift rather than on their own size. The orchestrator's call (PAY2) applies the owner's Q7 rule (D-327; precedents PR #336, PAYBASE1, and ELOPAY1 in PR #402): checkpoint at DEV's own level, in its own PR. Targets, action lines and caps do not move.
+
+**Dev's bytes, proved.** Dev's tree comes from a clean export of 8f8b765b4, built there by its own `npm run regenerate:neural`: the emit, `regenerate:mdp` and the bundle, with nothing pinned by hand.
+- All 14 app files are sha-equal to dev's committed `build_fingerprint.json` `app_assets` rows, version token normalised.
+- All 5,056 files of its `static/neural` are byte-identical to the tree served here. The served tree also held 51 stale MDP files from earlier builds; the swap removed them, so the measured tree was exactly dev's.
+- The swap ran under the build lock, and the served tree was restored afterwards to its recorded hashes.
+- The page build's `/`, `/index.css` and `/prescript.js` are byte-identical to the accepted guarded capture of PR #405's head.
+
+**Measured, to the byte against CI's build of the same tree (de95661a4).**
+- **Eager:** 357,181 B.
+- **First-hand:** K-Guard Top, 11 requests; core 376,564 B, raw 1,583,733 B, gzip 409,612 B.
+
+**Accepted with the script, before the version bump,** so it stamped `v1.273.0 (8f8b765b4)` itself.
+- **What moves:** per metric, only `baseline`, `previous_baseline`, `baseline_ref` and `baseline_reason`. `baseline_at` also moves for the first-hand metric; the eager one was already 13 Nov.
+- **The first-hand report:** the first-hand `baseline_source` is the script's own record of the report it read, and `tests/artifacts/first_hand_payload.json` is that report.
+- **Untouched:** `budget_neural.json` and `budget_site.json`. Neither reads these baselines: they hold their own raw-byte and count ceilings (first-hand raw 1,900,000, boot chunk requests 12, eager raw 1,600,000, deferred 511,043, chunk 40,000).
+
+**After it, still on dev's bytes:** `check_payload_budget.py` exits 0 at +0 B since 357,181, and `payload-first-hand.spec.ts` passes at +0 B since 376,564; both still warn over their targets, as before. This PR's own bundle bakes 1.273.1, the same length as 1.273.0, and moves each versioned file by 0 or 1 B under gzip -9. No app input, so no app rows.
 ## v1.275.0 — Names on the map never sit on each other, are never cut by the screen, never run under a control (LABELS1, 2026-11-13)
 
 The owner, 13 Nov, looking at the map pulled back: "dunno why in the graph there are many techniques showing but they are
