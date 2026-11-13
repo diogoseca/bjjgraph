@@ -587,3 +587,41 @@ test("19. FOLD2 (the reader's adv_5_fold): at the ledger cap, whatever becomes t
     assert.equal(h.said.length, 1, c.name + ": the line is said once (join 1 brought the guest's answers)");
   }
 });
+
+// ── 20-21. THE OPEN RULE'S VALUES (v1.270.0, U163 c): `openAt` and `recallCarry` at the join ──────────────────────────────
+// PR #404's first build added `openAt` to every blob that saves and missed it in `ngProgressPracticeKey`, so a guest who
+// only looked read as having practised and every new account was told its practice was saved (its CI: guest-join.spec.ts).
+// This file's bare landing (3) was written by hand, so it could not see a key the build adds: 20 builds the copy through
+// the app's own belt sync and save, so the next key a bare landing writes fails here, not in CI.
+// Mutants: OPEN-M15 (the guest part keeps `openAt`) -> 20 "says nothing", 21 "stays its own"; OPEN-M16 (the guest part
+// drops `recallCarry`) -> 21 "the guest's carry joins". Not built: the practice key keeping `recallCarry` (it implies
+// `belts.held`, which counts as practice on its own, so no guest copy holds it alone).
+test("20. a guest who only looked, as THIS build writes the copy (the app's own belt sync and save), joins nothing and says nothing", async () => {
+  const h = harness(); await h.boot();
+  const g = h.get();
+  // the curriculum and the deck manifest land: the app's own belt sync writes what a bare landing writes
+  g.curriculum = { belts: [{ id: "white", units: [] }] }; g.flashcards = { decks: clone(DECKS), manifest: true };
+  g._syncBelt("curriculum");
+  Object.assign(g, { _exploredKeys: new Set(TRAIL.explored), tut: clone(TRAIL.tut), challenges: clone(TRAIL.challenges) });
+  g._flushSave();
+  const copy = h.host.store.read(GUEST).blob;
+  assert.ok(copy.openAt > 0 && copy.belts.gf > 0, "precondition: this build's bare landing writes the open rule's stamp and the grandfather's mark");
+  await h.signIn("A");
+  assert.deepEqual(h.said, [], "OPEN-M15: a bare visit's copy, as this build writes it, says nothing");
+  assert.equal((accountBlob(h, A) || {}).openAt, undefined, "and the guest's stamp does not join: the account stamps its own");
+});
+
+test("21. at a join, the account's open-rule stamp stays its own, and a guest's carried belt brings its carry", async () => {
+  const guest = { v: 2, prep: { "Mount|Top": 1 }, openAt: 1000, recallCarry: true, belts: { won: {}, gf: 5, held: { id: "blue", t: 500 } } };
+  for (const [name, accountStamp] of [["an account that ran the rule later", 9000], ["an account that never ran it", undefined]]) {
+    const mem = memory(); mem.setItem(guestKey, envelope(GUEST, guest));
+    const cloud = new Map([["A", { v: 2, prep: { "Side|Top": 3 }, belts: { won: {}, gf: 5 }, ...(accountStamp ? { openAt: accountStamp } : {}) }]]);
+    const h = harness(mem, cloud); await h.boot(); await h.signIn("A"); await wait(700);
+    const acc = accountBlob(h, A);
+    assert.deepEqual(h.said, [LINE], name + ": real practice joins");
+    assert.equal(acc.openAt, accountStamp, name + ": OPEN-M15: the account's stamp stays its own (a guest's earlier one neither lowers nor seeds it)");
+    assert.equal(acc.recallCarry, true, name + ": OPEN-M16: the guest's carry joins with the belt it came from");
+    assert.equal(acc.belts.held.id, "blue", name + ": and that belt joins (MAX)");
+    assert.equal(cloud.get("A").openAt, accountStamp, name + ": nor is a guest's stamp pushed");
+  }
+});
