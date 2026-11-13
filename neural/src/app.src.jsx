@@ -3799,9 +3799,11 @@ class Component extends DCLogic {
     // (`ngWireDeckIndex`), never of the raw file: the Gameplan study producer recomputes the same
     // value from verified bytes, and a raw fingerprint would change with the wire format alone.
     this._knowledgeContentRevision = ngKnowledgeFingerprint(ngWireDeckIndex(dec, j && j.shared));
-    // `live` (v1.271.0): the fingerprint of the rating's live-question files this manifest was emitted with; `ratingCheck()`
-    // asks for them under it and refuses any other build's (rating.src.js). Absent on an older manifest: "no-fingerprint".
-    this.flashcards = { decks: decks, manifest: true, live: j && typeof j.live === "string" ? j.live : null };
+    // `_meta.live` (v1.271.0): the fingerprint of the rating's live-question files this manifest was emitted with;
+    // `ratingCheck()` asks for them under it and refuses any other build's (rating.src.js). Absent on an older manifest:
+    // "no-fingerprint". In `_meta`, never top-level: the study worker refuses an unknown top-level key (the emitter says why).
+    const lfp = j && j._meta && j._meta.live;
+    this.flashcards = { decks: decks, manifest: true, live: typeof lfp === "string" ? lfp : null };
     this._deckWaits = {};
     this._qkDecks = null;
     // CROSS-DECK CREDIT, RESIDENCY-INDEPENDENT (v1.80.5). The blended hierarchy duplicates one

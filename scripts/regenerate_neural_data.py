@@ -24,7 +24,7 @@ generated+committed static asset):
   - flashcards/<slug>.json : one file PER DECK ({cat,role,cards:[{q,a}]}) — the full
     calibrated decks from graph.json, chunked so the app fetches only the deck it opens
     (the monolith was 13.5 MB; each deck is a few KB).
-  - flashcards/_index.json : manifest format 4 {_meta:{format}, deckOrd:{o, n}, shared} — every
+  - flashcards/_index.json : manifest format 4 {_meta:{format, live}, deckOrd:{o, n}, shared} — every
     deck and its card count (the "what decks exist" list), keyed by its node's permanent share
     ORDINAL rather than spelled "<Name>|<Role>" (v1.204.3; see write_flashcards). The reader
     derives the key from the node the ordinal names, and the chunk address from the key.
@@ -1565,8 +1565,12 @@ def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int]
     reproduce every deck's key, category, card count AND position in the name order `shared`
     indexes into — or nothing is written. The coverage line prints every run.
 
-    `_meta` is `{format}` and nothing else: its prose used to ride the boot path (486 B gzip) and
-    nothing ever read it. The documentation lives here, where it costs nothing."""
+    `_meta` is `{format, live}` and nothing else: its prose used to ride the boot path (486 B gzip) and
+    nothing ever read it. The documentation lives here, where it costs nothing. `live` sits IN `_meta`, never beside it:
+    the study worker (`neural/src/knowledge-scenario-manifest.src.js`, inside the game bundles) refuses any top-level key
+    it does not know, deliberately, and tolerates `_meta` extras (both pinned by tests/knowledge_scenario_manifest.test.mjs).
+    A top-level `live` made every player's study plan "unavailable" (`invalid-deck-index`), caught before any push by
+    tests/knowledge_scenario_manifest_corpus.test.mjs, which runs that worker on this very file."""
     fc_dir = out_dir / "flashcards"
     # clean stale chunks so removed decks don't linger
     if fc_dir.exists():
@@ -1613,17 +1617,16 @@ def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int]
     # a hash collision shares a file instead of losing a deck). `shared` is fnv1a32(question) ->
     # indexes into the decks in NAME order, for every question carried by 2+ decks — the blended
     # hierarchy's shared cards; it makes cross-deck credit residency-independent (noteCardDone).
-    # the live questions (below) are built first, because the manifest carries their fingerprint (`live`): the app refuses
+    # the live questions (below) are built first, because the manifest carries their fingerprint (`_meta.live`): the app refuses
     # any live file whose own data does not hash to it, and asks for the files under it, so a browser holding this manifest
     # can never be handed another build's copy (v1.271.0, LIVE2 F1). A question is left out of them only when it is shared
     # the APP's way, by two or more DISTINCT decks (F2): one repeated inside one deck is listed in `shared` with that one
     # deck, which the app ignores, so it must stay in the live data or it would be in neither.
     live = _live_question_bodies(decks, _shared_the_apps_way(shared))
     out = {
-        "_meta": {"format": 4},
+        "_meta": {"format": 4, "live": live["fp"]},
         "deckOrd": _encode_deck_manifest(decks, nodes),
         "shared": {h: shared[h] for h in sorted(shared)},
-        "live": live["fp"],
     }
     import _neural_decks as ND
     back, unresolved = ND.decode_manifest(out, nodes)

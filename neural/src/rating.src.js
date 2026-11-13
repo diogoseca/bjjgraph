@@ -45,7 +45,7 @@
 // year at 20 a day, 0.17 for everything known (21,269). Two live cards of one deck sharing a 16-bit value is harmless (2 decks
 // of 2,862 have one). A cut to 8 bits would raise these ~256-fold, and a unit pins the 16.
 // ANOTHER BUILD'S FILE IS NEVER READ (LIVE2 F1). The manifest carries the fingerprint of the live data it was emitted
-// with (`live`); the app asks for the files under it (`live-<i>.json?live=<fingerprint>`, so no cache can hand it another
+// with (`_meta.live`); the app asks for the files under it (`live-<i>.json?live=<fingerprint>`, so no cache can hand it another
 // build's copy) and refuses any file set whose own data does not hash to it, or that was built for another deck list:
 // every row `unchecked`, reason "stale-live", never priced. A manifest from before the live files has no fingerprint:
 // "no-fingerprint", nothing fetched.
@@ -268,13 +268,13 @@ export function ngRatingLiveRev(deckList) {
   return ngRatingFnv((deckList || []).map(([k, n]) => k + "\t" + n).join("\n"));
 }
 /** The fingerprint of the live DATA: fnv1a32 over every file's `n` and `q` strings, "n0|q0|n1|q1…" in file order.
- *  The manifest carries the emitter's (`live`); the app computes it again from the files it was handed. */
+ *  The manifest carries the emitter's (`_meta.live`); the app computes it again from the files it was handed. */
 export function ngRatingLiveFp(files) {
   return ngRatingFnv([...files].sort((a, b) => a.file - b.file).map((f) => f.n + "|" + f.q).join("|"));
 }
 /**
  * Read the live files against the manifest the app booted with: its deck list ([[deckKey, n], …] in NAME order) and
- * its `live` fingerprint.
+ * its `_meta.live` fingerprint.
  * Returns {status: "ok", rev, decks: Map<deckKey, Set<16-bit key>>, counts: {files, decks, entries}}, or
  * {status: "unchecked", reason} — "no-fingerprint" (a manifest from before the live files, as a cached boot can hold),
  * "fetch-failed" (a file missing), "stale-live" (another build's file: built for another deck list, or with other

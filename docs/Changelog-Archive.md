@@ -17176,7 +17176,7 @@ alone.
 **The independent reader's findings on #405 (LIVE2).** F1, another build's live file read as truth: the fingerprint covered
 the deck list and the counts, not the questions, so a browser holding the manifest of one deploy and the live files of another
 (the same `/static/*` cache tier, fixed URLs, cards reworded weekly) read "ok" with a live row counted retired. Now the manifest
-carries the fingerprint of the live data it was emitted with (`live` in `flashcards/_index.json`), the app asks for the files
+carries the fingerprint of the live data it was emitted with (`_meta.live` in `flashcards/_index.json`), the app asks for the files
 under it (`live-<i>.json?live=<fingerprint>`) and refuses any file set whose own data does not hash to it ("stale-live"); a
 manifest without it reads "no-fingerprint" and fetches nothing. The query is stripped by the suites' server and ignored by
 Cloudflare's `_headers` and redirect matching; it keys the browser and edge caches, so the files a manifest asks for are the
@@ -17194,10 +17194,26 @@ file's process running with parent 1. The runner now runs each test in its own p
 reports a hang as HUNG (never a kill) and fails if any `rating.test` process outlives a run; a control mutant that loops forever
 is reported HUNG with nothing left behind. L8 is red at "16 bits a card, not 8" since the test computes its own keys.
 
-**LIVE2 proof and bytes.** `tests/rating.test.mjs`: 29 tests; 55 mutants, each applied alone in its own process group, each
-killed by the test it names (V1-V12 new: another build's file, a manifest without its fingerprint, a fetch without one, a
-constant query, a retired row priced, the five guards, the reader following any file count, the decoder's cap); the
-emitter's one-deck rule is killed by `tests/live_questions_test.py`. The journey: 6 named mutants (J6: another build under the
-same list and counts), clean control green. Bytes on dev v1.270.0: the eager set 356,579 B, +3,613 of 5,000 since the
-checkpoint (this change +1,285); the first-hand core 375,956 B, +4,849 of 6,000 (this change +1,224); the deferred set 510,269
-of 511,043, unchanged; the manifest grows by the fingerprint.
+**LIVE2 proof and bytes.** `tests/rating.test.mjs`: 29 tests; 56 mutants, each applied alone in its own process group, each
+killed by the test it names (V1-V13 new: another build's file, a manifest without its fingerprint, a fetch without one, a
+constant query, a retired row priced, the five guards, the reader following any file count, the decoder's cap, the fingerprint
+read from the top level); V14, the emitter writing it at the top level, below; the emitter's one-deck rule is killed by
+`tests/live_questions_test.py`. The journey: 6 named mutants (J6: another build under the same list and counts), clean control
+green. Bytes on dev v1.270.0 (re-read after merging v1.270.1, PR #406, which moves no app input): the eager set 356,585 B,
++3,619 of 5,000 since the checkpoint (this change +1,291); the first-hand core 375,960 B, +4,853 of 6,000 (this change +1,228),
+the same 11 boot requests and no live file among them; the deferred set 510,269 of 511,043, unchanged; the manifest grows by
+the fingerprint.
+
+**Caught before the push: the study worker's strict top level.** The first LIVE2 build put the fingerprint beside `_meta`,
+`deckOrd` and `shared`, at the manifest's top level. `npm run ci:validate` went red at one unit of 1,599:
+`tests/knowledge_scenario_manifest_corpus.test.mjs`, which runs the study worker (`neural/src/knowledge-scenario-manifest.src.js`,
+inside the game bundles) on the emitted manifest. That worker refuses any top-level key it does not know (its own
+`f.index.extra = 1` case) and tolerates extras in `_meta` (its `_meta.extra` case reads "ready"), so every player's study plan
+would have read "unavailable" (`invalid-deck-index`). The fingerprint now rides `_meta.live`; the study law file is untouched
+and the live files are byte-identical. `tests/rating.test.mjs` pins the manifest's top level as exactly `_meta`, `deckOrd` and
+`shared`, with `_meta.live` eight hex digits. V13 (the app reads the top level) is killed by the reader's live check; V14 (the
+emitter writes the top level, re-emitted in place and then restored, the restored emit byte-identical to the clean one over
+5,101 files) by that pin and by the corpus test. The mutant runner's leftover check also matched another seat's full unit
+run, whose argument list names every test file, and then the control's own shell; it now matches a node process by its real
+argv and its working directory, and a control shows it finds a fake orphan here and ignores one elsewhere. Bytes after the
+move: the eager set +6 B (356,579 to 356,585), the first-hand core +4 B (375,956 to 375,960); `neural.js` and the four game rows re-seeded in their own commit.

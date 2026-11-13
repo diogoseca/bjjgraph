@@ -59,6 +59,10 @@
 //   V10 a check's result used for a replaced manifest (F4)              → "the reader's live check: never at a plain read, …"
 //   V11 the reader follows any file count (F5)                          → "the reader's live check: never at a plain read, …"
 //   V12 the decoder's file cap removed (F5)                             → "the live files decode against the deck list they were built for"
+//   V13 the app reads the fingerprint from the manifest's top level      → "the reader's live check: never at a plain read, …"
+//   V14 the EMITTER writes it at the top level (re-emitted in place)     → "the emitter's live rules are the app's", and
+//       tests/knowledge_scenario_manifest_corpus.test.mjs (the study worker refuses an unknown top-level key: every study
+//       plan "unavailable"; caught by ci:validate before the push, v1.271.0)
 //   (the emitter's one-deck rule, F2, is tests/live_questions_test.py's, through tests/live_questions_py.test.mjs)
 // LIVE1 (the live check, v1.271.0):
 //   L1  a retired row counted (any row in a checked deck read as live)  → "a retired row is not priced, and is counted"
@@ -386,7 +390,7 @@ const retiredFor = (dk, n) => {
   return out;
 };
 const LIVE = ratingLiveFiles(DIR);
-const MAN_FP = JSON.parse(readFileSync(resolve(DIR, "flashcards/_index.json"), "utf8")).live;
+const MAN_FP = JSON.parse(readFileSync(resolve(DIR, "flashcards/_index.json"), "utf8"))._meta.live;
 const seeded = (frame) => { const a = ratingApp(DIR, frame); a.srs = FIX.blob.srs; a.stage = FIX.blob.stage; a.moves = FIX.blob.moves; return a; };
 // the ruleset's own hand table read straight off the RAW wire, keyed by node ID — never through `_ev`/`_evGi`'s indexes
 const rawHands = (frame) => {
@@ -728,7 +732,7 @@ test("the reader's live check: never at a plain read, two requests once, a retry
     claim = 0;
     // a manifest from before the live files: nothing fetched, named, no number (LIVE2 F1)
     const old = ratingApp(DIR, "gi", { live: false }); old.srs = FIX.blob.srs;
-    const m0 = JSON.parse(readFileSync(resolve(DIR, "flashcards/_index.json"), "utf8")); delete m0.live; old._ingestDeckManifest(m0);
+    const m0 = JSON.parse(readFileSync(resolve(DIR, "flashcards/_index.json"), "utf8")); delete m0._meta.live; old._ingestDeckManifest(m0);
     asked.length = 0;
     const none = await old.ratingCheck();
     assert.deepEqual([none.status, none.reason, none.points, asked.length], ["unchecked", "no-fingerprint", null, 0]);
@@ -744,4 +748,9 @@ test("the emitter's live rules are the app's", () => {
   const shared = JSON.parse(readFileSync(resolve(DIR, "flashcards/_index.json"), "utf8")).shared, entries = Object.values(shared);
   assert.ok(entries.length > 300, `looked at ${entries.length} shared entries`);
   assert.equal(entries.filter((v) => new Set(v).size < 2).length, 0, "none names fewer than two decks today");
+  // the fingerprint rides `_meta`, never the top level: the study worker inside the game bundles refuses any top-level key it
+  // does not know (knowledge-scenario-manifest.src.js), so a top-level `live` read every player's study plan "unavailable"
+  const man = JSON.parse(readFileSync(resolve(DIR, "flashcards/_index.json"), "utf8"));
+  assert.deepEqual(Object.keys(man).sort(), ["_meta", "deckOrd", "shared"], "the manifest's top level is the study worker's");
+  assert.match(man._meta.live, /^[0-9a-f]{8}$/, "and its _meta carries the live fingerprint");
 });

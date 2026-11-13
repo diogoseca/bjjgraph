@@ -103,7 +103,7 @@ test("the page's rating is the unit's number for the same record, once checked, 
   // asked: exactly the two files, then final and node's number
   await page.evaluate(() => (window as W).__neural.ratingCheck())
   expect(asked.map((u) => u.split("?")[0].split("/").pop()).sort(), "exactly two requests").toEqual(["live-0.json", "live-1.json"])
-  const fp = JSON.parse(readFileSync(resolve(SERVED, "flashcards/_index.json"), "utf8")).live
+  const fp = JSON.parse(readFileSync(resolve(SERVED, "flashcards/_index.json"), "utf8"))._meta.live
   expect(asked.every((u) => new URL(u).searchParams.get("live") === fp), `asked under the manifest's fingerprint ${fp}`).toBe(true)
   const got = await read(page, fx.day)
   expect(got.frame, "the page boots in gi").toBe("gi")
