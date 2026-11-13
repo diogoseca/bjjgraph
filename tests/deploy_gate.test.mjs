@@ -525,6 +525,7 @@ test("COUNT cannot be switched off unseen: no tracked .npmrc sets ignore-scripts
 // source/ once before Build Quartz and the root once after it, both as exactly `npm ci --ignore-scripts`. The flag lives on
 // those two command lines and nowhere else: in a run line or an env value it would reach `npm run` too, and npm skips
 // `posttest:curated` (the gate's count) under it. Every run line is read, shell comments aside; zero installs found is red.
+// v1.265.3: a third tree, the publishing tool (.github/tools/wrangler), installed the same way before the build, first.
 test("INSTALLS: both deploys install with `npm ci --ignore-scripts` on the command line, and only there", () => {
   for (const name of ["deploy-dev.yaml", "deploy.yaml"]) {
     const wf = workflow(name);
@@ -561,12 +562,13 @@ test("INSTALLS: both deploys install with `npm ci --ignore-scripts` on the comma
       assert.doesNotMatch(`${k}=${v}`, /ignore[-_]scripts/i, `${name} ${where} env ${k}: ignore-scripts in an environment reaches npm run and skips posttest:curated`);
     }
     assert.ok(lines > 20, `${name}: positive coverage, ${lines} run lines read`);
-    assert.deepEqual(installs.map((x) => x.cwd), ["source", "."], `${name}: exactly two installs, source/ then the root`);
-    const [src, rootInstall] = installs;
+    assert.deepEqual(installs.map((x) => x.cwd), [".github/tools/wrangler", "source", "."], `${name}: exactly three installs, the publishing tool, source/, then the root`);
+    const [tool, src, rootInstall] = installs;
     const at = (n) => src.steps.findIndex((s) => s.name === n);
+    assert.ok(tool.at < src.at, `${name}: the publishing tool is installed first, before the build`);
     assert.ok(src.at < at("Build Quartz"), `${name}: source/ is installed before Build Quartz`);
     assert.ok(rootInstall.at > at("Build Quartz") && rootInstall.at < at(budget.step), `${name}: the root is installed after the build and before the curated gate`);
-    console.log(`# ${name}: ${lines} run lines read; installs: source/ at step ${src.at}, root at step ${rootInstall.at}`);
+    console.log(`# ${name}: ${lines} run lines read; installs: the publishing tool at step ${tool.at}, source/ at step ${src.at}, root at step ${rootInstall.at}`);
   }
 });
 

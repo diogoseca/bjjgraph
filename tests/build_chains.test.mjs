@@ -390,3 +390,30 @@ test('Python provisioning: unsupported npm prefix does not silently disappear', 
   workflow.jobs.check.steps[1].run='npm --prefix source run check'
   red(run(),/unsupported npm prefix/)
 }))
+
+// v1.265.3: the publishing tool. Its install runs before the build (PREPARATION_PROGRAMS) and the link that puts it where
+// the Pages action looks runs after it (WRANGLER_LINK); both programs are pinned in full by hash, so they add nothing to
+// the chain and a changed one fails closed. Mutants: drop the link's entry from the gate -> the first goes red; accept
+// any link body -> the third goes red; accept a conditional link -> the fourth goes red.
+const WRANGLER_INSTALL = '(cd .github/tools/wrangler && npm ci --ignore-scripts)\n.github/tools/wrangler/node_modules/.bin/wrangler --version\n'
+const WRANGLER_LINK = 'ln -sfn ../../.github/tools/wrangler/node_modules/wrangler/bin/wrangler.js node_modules/.bin/wrangler\nnpx --no-install wrangler --version\n'
+function withWrangler(f, { install = WRANGLER_INSTALL, link = WRANGLER_LINK, linkStep = {} } = {}) {
+  for (const name of Object.keys(f.workflows)) {
+    const steps = f.workflows[name].jobs.deploy.steps
+    steps.splice(steps.findIndex(s => s.name === 'Build Quartz'), 0, { name: 'Install Wrangler (pinned)', run: install })
+    steps.splice(steps.findIndex(s => String(s.uses || '').startsWith('cloudflare/wrangler-action@')), 0,
+      { name: 'Link the pinned Wrangler for the Pages action', run: link, ...linkStep })
+  }
+}
+test('the pinned publishing tool: its install before the build and its link after it add nothing to the chain', () => fixture(f => {
+  withWrangler(f); const r = f.run(); assert.equal(r.status, 0, r.output); assertChainFixtureCounts(r.output)
+}))
+test('the publishing tool install with one more command is an unreviewed preparation', () => fixture(f => {
+  withWrangler(f, { install: WRANGLER_INSTALL + 'node forgotten.mjs\n' }); red(f.run(), /unreviewed preparation command before Build Quartz: Install Wrangler/)
+}))
+test('the publishing tool link with one more command fails as a changed program', () => fixture(f => {
+  withWrangler(f, { link: WRANGLER_LINK + 'node forgotten.mjs\n' }); red(f.run(), /changed publishing-tool link program/)
+}))
+test('the publishing tool link made conditional fails as a changed program', () => fixture(f => {
+  withWrangler(f, { linkStep: { if: 'always()' } }); red(f.run(), /changed publishing-tool link program/)
+}))

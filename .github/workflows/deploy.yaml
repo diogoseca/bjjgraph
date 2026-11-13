@@ -98,6 +98,20 @@ jobs:
       - name: Build-chain and Python provisioning contract
         run: python3 scripts/check_build_chains.py
 
+      # THE PUBLISHING TOOL, FROM A LOCKFILE (v1.265.3): Wrangler, one exact version, from
+      # .github/tools/wrangler/package-lock.json, installed with `npm ci --ignore-scripts` like every tree this deploy
+      # installs. It publishes the site (the Pages step, through the link made before it) and the digest Worker with its
+      # secrets (called by its path), so both run the bytes the lockfile names and no step fetches a CLI of its own.
+      # No package in that tree needs its install script: esbuild and workerd ship their binaries as platform packages,
+      # and their scripts only check them. Before the build, so the digest step (if: always()) has it whatever fails later.
+      # MOVING THE PIN: set the version in .github/tools/wrangler/package.json and in `wranglerVersion` on the Pages
+      # step of both deploys, run (cd .github/tools/wrangler && npm install --package-lock-only --ignore-scripts), and
+      # commit both files. tests/bot_workflows_test.py checks that they agree; scripts/check_build_chains.py pins this text.
+      - name: Install Wrangler (pinned)
+        run: |
+          (cd .github/tools/wrangler && npm ci --ignore-scripts)
+          .github/tools/wrangler/node_modules/.bin/wrangler --version
+
       # The Neural app bundle + its data payloads live under source/quartz/static/neural/,
       # which is GITIGNORED (build artifacts, 13.5MB+ payloads). Without this step the built
       # site — and therefore production AND the journey gate — contains no Neural front-end
@@ -317,27 +331,26 @@ jobs:
             test-results/
           if-no-files-found: ignore
 
-      # wrangler-action v3 never got a Node-24 build, so retiring the Node-20 runtime
-      # warning here REQUIRES the v4 major, and v4's one behaviour change is that the
-      # Wrangler CLI it installs defaults to v4 (`latest`) instead of v3. `pages deploy`
-      # itself is unchanged across that major.
-      #
-      # THIS IS THE ONE REAL BEHAVIOUR CHANGE IN THE ACTION SWEEP, AND IT IS UNVERIFIED
-      # HERE. An earlier draft of this comment claimed the `npx wrangler` steps below
-      # "already run the v4 CLI against this account", which reads as evidence and is not:
-      # nothing in this repo pins a wrangler version (no dependency in either package.json),
-      # so those steps resolve whatever npm's `latest` dist-tag serves at run time. That is
-      # very likely the v4 line today, but it is an inference about npm's registry state on
-      # some future morning, not a fact this repo controls or can gate (CLAUDE.md 6.9).
-      # If a Pages deploy starts failing right after this pin moved, suspect the CLI major
-      # first: the v4.0.0 notes give the escape hatch, set `wranglerVersion` on this step
-      # (their example is "3.90.0") to hold the CLI on the v3 line.
+      # The Pages action runs the Wrangler its probe finds (`npx --no-install wrangler --version`, in the repository root),
+      # and installs `wrangler@<wranglerVersion>` itself only when that probe finds no copy of exactly that version. This
+      # step links the copy installed from the lockfile above into the root's node_modules/.bin, where the probe looks, and
+      # runs the probe first: it prints the pinned version, or the step fails. Here and not with the install: the root's
+      # `npm ci` above starts from an empty node_modules. Same text in both deploys (scripts/check_build_chains.py).
+      - name: Link the pinned Wrangler for the Pages action
+        run: |
+          ln -sfn ../../.github/tools/wrangler/node_modules/wrangler/bin/wrangler.js node_modules/.bin/wrangler
+          npx --no-install wrangler --version
+
+      # wrangler-action v3 never got a Node-24 build, so this is the v4 major. `wranglerVersion` is the version in
+      # .github/tools/wrangler/package.json (tests/bot_workflows_test.py), so the step above satisfies the action's probe
+      # and the action installs nothing.
       - name: Deploy to Cloudflare Pages
         id: cf
         uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4.159.0"
           command: pages deploy source/public --project-name=bjjgraph
 
       # THE DEPLOYED PAGE, IN A REAL BROWSER (CONSOLE0, 2026-10-05): see deploy-dev.yaml's step of
@@ -389,6 +402,7 @@ jobs:
       #    Function's Pages secrets — ALL flowing from GitHub secrets, so there is exactly one
       #    place a credential lives. Skips loudly (never fails the deploy) until the owner adds
       #    SUPABASE_SERVICE_ROLE_KEY; UNSUB_HMAC_SECRET was generated and set 2026-08-17.
+      #    The CLI is the pinned Wrangler ("Install Wrangler (pinned)", before the build), called by its path.
       - name: Deploy digest Worker + sync secrets
         if: always()
         env:
@@ -397,21 +411,22 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           UNSUB_HMAC_SECRET: ${{ secrets.UNSUB_HMAC_SECRET }}
+          WRANGLER: ${{ github.workspace }}/.github/tools/wrangler/node_modules/.bin/wrangler
         run: |
           if [ -z "$SUPABASE_SERVICE_ROLE_KEY" ] || [ -z "$UNSUB_HMAC_SECRET" ]; then
             echo "::notice::digest Worker NOT deployed — add SUPABASE_SERVICE_ROLE_KEY (and UNSUB_HMAC_SECRET) to repo secrets to enable"
             exit 0
           fi
           cd workers/digest
-          npx wrangler deploy
-          printf '%s' "$SUPABASE_URL"              | npx wrangler secret put SUPABASE_URL
-          printf '%s' "$SUPABASE_SERVICE_ROLE_KEY" | npx wrangler secret put SUPABASE_SERVICE_ROLE_KEY
-          printf '%s' "$UNSUB_HMAC_SECRET"         | npx wrangler secret put UNSUB_HMAC_SECRET
+          "$WRANGLER" deploy
+          printf '%s' "$SUPABASE_URL"              | "$WRANGLER" secret put SUPABASE_URL
+          printf '%s' "$SUPABASE_SERVICE_ROLE_KEY" | "$WRANGLER" secret put SUPABASE_SERVICE_ROLE_KEY
+          printf '%s' "$UNSUB_HMAC_SECRET"         | "$WRANGLER" secret put UNSUB_HMAC_SECRET
           cd ../..
           # the unsubscribe Pages Function reads the SAME three from the Pages project
-          printf '%s' "$SUPABASE_URL"              | npx wrangler pages secret put SUPABASE_URL --project-name=bjjgraph
-          printf '%s' "$SUPABASE_SERVICE_ROLE_KEY" | npx wrangler pages secret put SUPABASE_SERVICE_ROLE_KEY --project-name=bjjgraph
-          printf '%s' "$UNSUB_HMAC_SECRET"         | npx wrangler pages secret put UNSUB_HMAC_SECRET --project-name=bjjgraph
+          printf '%s' "$SUPABASE_URL"              | "$WRANGLER" pages secret put SUPABASE_URL --project-name=bjjgraph
+          printf '%s' "$SUPABASE_SERVICE_ROLE_KEY" | "$WRANGLER" pages secret put SUPABASE_SERVICE_ROLE_KEY --project-name=bjjgraph
+          printf '%s' "$UNSUB_HMAC_SECRET"         | "$WRANGLER" pages secret put UNSUB_HMAC_SECRET --project-name=bjjgraph
 
   # Post-deploy verdicts get their own red; observations are in the corresponding deploy steps.
   deployed-console:
