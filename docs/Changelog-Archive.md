@@ -17172,3 +17172,32 @@ After merging dev v1.270.0 (df19ddedc, PR #404; DEV404): the eager set reads 356
 355,294 B, reproducing 14 of 14 of its committed app rows; this change +1,164); the first-hand core 375,852 B, +4,745 of
 6,000 since 371,107 (dev alone 374,732; this change +1,120); the deferred set 510,269 of 511,043, the same with dev's bundle
 alone.
+
+**The independent reader's findings on #405 (LIVE2).** F1, another build's live file read as truth: the fingerprint covered
+the deck list and the counts, not the questions, so a browser holding the manifest of one deploy and the live files of another
+(the same `/static/*` cache tier, fixed URLs, cards reworded weekly) read "ok" with a live row counted retired. Now the manifest
+carries the fingerprint of the live data it was emitted with (`live` in `flashcards/_index.json`), the app asks for the files
+under it (`live-<i>.json?live=<fingerprint>`) and refuses any file set whose own data does not hash to it ("stale-live"); a
+manifest without it reads "no-fingerprint" and fetches nothing. The query is stripped by the suites' server and ignored by
+Cloudflare's `_headers` and redirect matching; it keys the browser and edge caches, so the files a manifest asks for are the
+ones it was built with, and the reader's F7 (a returning player reading stale for hours) is left only for a manifest itself
+stale in the cache, when the cards are stale too. F2, a question repeated inside one deck would read retired: the live writer
+now leaves out only what the app treats as shared, two or more distinct decks (none such today; the emit is byte-identical).
+F3, one rule: a row counts where the app's own scheduler would find it; a question is priced only from its live rows. F4, five
+guards (the file count, a deck's live count over its cards, trailing bytes, every deck covered, a result kept for a replaced
+manifest) each have a case. F5, a file set may claim at most 8 files, the emitter's own cap, pinned equal. F6, the retired-row
+test parameter is a round 6%; a ruleset flip is pinned at two requests.
+
+**The mutant runner.** Two runs of L8 (the check cut to 8 bits), before the test was fixed, hung the old test (its search loop
+used the module's key, so it never found a near match) and `subprocess.run(timeout=)` killed only `node --test`, leaving each
+file's process running with parent 1. The runner now runs each test in its own process group, kills the group on a timeout,
+reports a hang as HUNG (never a kill) and fails if any `rating.test` process outlives a run; a control mutant that loops forever
+is reported HUNG with nothing left behind. L8 is red at "16 bits a card, not 8" since the test computes its own keys.
+
+**LIVE2 proof and bytes.** `tests/rating.test.mjs`: 29 tests; 55 mutants, each applied alone in its own process group, each
+killed by the test it names (V1-V12 new: another build's file, a manifest without its fingerprint, a fetch without one, a
+constant query, a retired row priced, the five guards, the reader following any file count, the decoder's cap); the
+emitter's one-deck rule is killed by `tests/live_questions_test.py`. The journey: 6 named mutants (J6: another build under the
+same list and counts), clean control green. Bytes on dev v1.270.0: the eager set 356,579 B, +3,613 of 5,000 since the
+checkpoint (this change +1,285); the first-hand core 375,956 B, +4,849 of 6,000 (this change +1,224); the deferred set 510,269
+of 511,043, unchanged; the manifest grows by the fingerprint.
