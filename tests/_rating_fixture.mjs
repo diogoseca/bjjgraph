@@ -17,6 +17,11 @@
 //   unknown   a row in a deck the manifest does not have · bad: a row with interval 0 · stageOnly: a stage, no schedule
 //   moves     Mount Top: two moves dealt in both rulesets answered Yes, one answered No, a move no seat deals there,
 //             and an escape
+//   retired   two rows in the own deck for questions it does not hold (a reworded or removed card), and one row of a
+//             shared question in a deck its index does not list (retired there, live in its own decks) (v1.273.0)
+//
+// `ratingApp` loads the LIVE CHECK from the same directory (`live-<i>.json`, decoded through the app's own
+// `_ratingLiveFrom`, the path its fetch takes), unless asked not to: `{live: false}` is an app that never asked.
 import { readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
@@ -31,8 +36,15 @@ function readDir(dir) {
   return { wire: j("graph-data.json"), curriculum: j("curriculum.json"), manifest: j("flashcards/_index.json") };
 }
 
-/** The app class, built the census way, with this payload's manifest and curriculum in. */
-export function ratingApp(dir, frame = "gi") {
+/** The live files of a payload directory, parsed, in file order (`live-0.json`, `live-1.json`, …). */
+export function ratingLiveFiles(dir) {
+  return readdirSync(resolve(dir, "flashcards")).filter((f) => /^live-\d+\.json$/.test(f))
+    .sort((a, b) => parseInt(a.slice(5), 10) - parseInt(b.slice(5), 10))
+    .map((f) => JSON.parse(readFileSync(resolve(dir, "flashcards", f), "utf8")));
+}
+
+/** The app class, built the census way, with this payload's manifest and curriculum in (and its live check). */
+export function ratingApp(dir, frame = "gi", opts = {}) {
   const { wire, curriculum, manifest } = readDir(dir);
   const Component = new Function("DCLogic", "React", `${knowledgeSource}\n${readFileSync(SRC, "utf8")}\nreturn Component;`)(
     class DCLogic {}, { createRef: () => ({ current: null }) });
@@ -45,6 +57,7 @@ export function ratingApp(dir, frame = "gi") {
   a._ingestDeckManifest(JSON.parse(JSON.stringify(manifest)));
   a.srs = {}; a.stage = {}; a.moves = {};
   a._epochDay = () => RATING_DAY;
+  if (opts.live !== false) a._ratingLiveFrom(ratingLiveFiles(dir));
   return a;
 }
 
@@ -55,7 +68,7 @@ export function ratingFixture(dir) {
   const decks = ngWireDecks(manifest, wire.nodes).decks, keys = Object.keys(decks);
   const gi = ngWireScoreWeights(curriculum, "gi", wire.nodes).w, nogi = ngWireScoreWeights(curriculum, "nogi", wire.nodes).w;
   const cards = {};
-  for (const f of readdirSync(resolve(dir, "flashcards")).sort()) if (f !== "_index.json") Object.assign(cards, JSON.parse(readFileSync(resolve(dir, "flashcards", f), "utf8")));
+  for (const f of readdirSync(resolve(dir, "flashcards")).sort()) if (f !== "_index.json" && !f.startsWith("live-")) Object.assign(cards, JSON.parse(readFileSync(resolve(dir, "flashcards", f), "utf8")));
   const sharedQ = Object.keys(manifest.shared || {}).sort()
     .map((qh) => [qh, [...new Set(manifest.shared[qh].map((i) => keys[i]).filter(Boolean))]])
     .filter(([, l]) => l.length > 1 && l.every((k) => gi[k] > 0 && nogi[k] > 0));
@@ -79,6 +92,16 @@ export function ratingFixture(dir) {
   put(srs, giOnlyDeck, parts.giOnly[1], [D + 30, 30, D]); put(stage, giOnlyDeck, parts.giOnly[1], 3);
   put(srs, "No Such Deck|Top", "00000000", [D + 3, 3, D]);
   put(srs, ownDeck, "0badc0de", [D, 0, D]);
+  // RETIRED (v1.273.0): questions this deck does not hold (chosen so their low 16 bits match none of its live cards), and
+  // a shared question filed in a deck its index does not list
+  const live16 = new Set((cards[ownDeck] ? cards[ownDeck].cards : []).map((c) => parseInt(ngKnowledgeQuestionHash(c.q), 16) & 0xffff));
+  const retired = [];
+  for (let i = 0; retired.length < 2; i++) { const qh = ngKnowledgeQuestionHash("a card this deck no longer holds " + i); if (!live16.has(parseInt(qh, 16) & 0xffff)) retired.push(qh); }
+  for (const qh of retired) { put(srs, ownDeck, qh, [D + 30, 30, D]); put(stage, ownDeck, qh, 3); }
+  const [sharedQh, sharedList] = parts.shared[0];
+  const elsewhere = [ownDeck, ...keys].find((k) => !sharedList.includes(k) && gi[k] > 0 && nogi[k] > 0);
+  put(srs, elsewhere, sharedQh, [D + 20, 30, D - 10]);
+  parts.retired = retired; parts.sharedElsewhere = [sharedQh, elsewhere];
   put(stage, ownDeck, "5ca1ab1e", 2);
   // moves: Mount Top's dealt hand in BOTH rulesets, first three in deal order
   const aGi = ratingApp(dir, "gi"), aNo = ratingApp(dir, "nogi");

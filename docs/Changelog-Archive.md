@@ -17159,3 +17159,146 @@ baseline (cap 5,000), first-hand core +4,145 (cap 6,000). The archive's ceiling 
 **Not covered.** The browser tooltip itself (its `title` is asserted); the poster's light and dark frames (pictures
 only; the spec reads the light inside the seal); the map's dot under mastery gold and on the focus mark (pictures);
 the pair, hover and lit labels are drawn over the dots and do not steer them.
+
+## v1.273.0 — The rating tells a live question from a retired one: checked against a small on-demand file, final only when checked (LIVE1, 2026-11-13)
+
+**The gap.** Stored rows are never pruned, and the deck manifest carries a card COUNT per deck, not its questions, so
+Stage 1 priced a row for a card reworded or removed since as a live card; the deck cap (v1.269.0) only stopped a deck
+reading as more than fully known. Now a stored card row counts only while its deck holds its question.
+
+**Two shapes, measured on this wire (2,862 decks, 21,269 cards, 7.4 a deck on average, 33 at most), and the pick.**
+(c) checking each row against its deck's own chunk costs one request per deck, ~2.1 KB gzip each: 21 KB for 10 decks,
+210 KB for 100, 631 KB for 300, 2.1 MB for 1,000 (a simulated month at 20 a day touches 282 decks, a year ~1,144). (e) a
+small file fetched on demand costs the same for everyone: 2 requests, 40.9 KB gzip, once per content change. (e) is
+cheaper for anyone past ~20 decks, and (c) would also have needed a second chunk path, because `hydrateDeck` prunes
+`stage` and saves (`_pruneStaleGrades`), which a reader that writes nothing cannot call. Built: (e).
+
+**The files.** `flashcards/live-0.json` and `live-1.json`, emitted by `scripts/regenerate_neural_data.py`
+(`_write_live_questions`, right after `_index.json`): the low 16 bits of fnv1a32(question) for every card whose question
+the manifest's `shared` index does not list (20,350), in the manifest's NAME order, with one byte a deck saying how many;
+at least two files, each at most 40,000 B (29,147 and 29,122 B today), refused above 255 unshared cards a deck. Each
+carries `rev`, fnv1a32 over "<deck key>\t<card count>" per deck: the app computes the same string from the manifest it
+booted with. The plain name (no leading underscore) in a chunk directory makes them ON-DEMAND chunks for
+`check_payload_budget.py`: no eager, deferred or first-hand byte. Every workflow that builds emits them through the same
+script: `ci-validate.yml` (`regenerate_neural_data.py`), `e2e-full.yml`, `e2e-gen.yml`, `deploy-dev.yaml` and
+`deploy.yaml` (`npm run regenerate:neural`). `/static/*` in `_headers` gives them the chunks' cache tier; no redirect is
+involved. The build census moves by the two files (+2 static, +2 JSON), re-seeded from a guarded capture.
+
+**The rule.** A shared question is live in exactly the decks its index lists (the boot wire is current, so it needs no
+file); its knowledge is its latest row wherever filed, and a row filed in a deck the index does not list is retired
+there. Any other question is live in each of its rows' decks whose live set holds its 16 bits. A row whose liveness cannot
+be known yet is `unchecked`, never counted as known and never dropped; while any is, the answer is NOT FINAL
+(`final: false`, status "checking" or "unchecked" with a `reason`: "not-asked", "fetch-failed", "stale-live",
+"bad-live") and carries no number, so no surface can show one that moves by itself. The counts say how many card rows
+were `checked`, how many of those `retired`, and how many are `unchecked`. A file built for another deck list (a content
+deploy between the app's boot and the fetch that changed the list or a count) is never read: every row unchecked,
+"stale-live". A deploy that only rewords cards keeps both, so the fetched file is the newer content's truth. The deck cap
+stays as a second line: with the check it fires only on a 16-bit wrong accept in a deck already fully known.
+
+**The reader.** `rating()` never fetches. `ratingCheck()` fetches both files at once (the files say how many there are;
+more than two would be fetched after), once per deck manifest, coalesced, and resolves to `rating()`; a failure leaves a
+named status and the next call retries. The decoded sets live in memory only (`_ratingLive`, ~20,000 numbers): losing them
+loses nothing. Nothing is stored, deleted, rewritten or marked. `_pruneStaleGrades` is untouched: on a deck's chunk
+arriving it still deletes that deck's `stage` entries for questions it no longer holds (guarded on the chunk matching
+`n`), never `srs`; the live check reads the same decks without loading their chunks.
+
+**What 16 bits cannot see (NOT COVERED, measured).** A retired row whose low 16 bits equal a live card's of its deck is
+kept: per retired row 5.7e-5 in decks of 1-4 cards, 8.9e-5 in 5-8, 1.5e-4 in 9-16, 3.2e-4 in 17-33 (the worst deck
+5.0e-4). Two decks hold two live unshared cards with one 16-bit value (harmless). A unit pins 16 bits against 8.
+
+**The five stored-progress shapes of ELO1, each given 6% retired card rows** (a round test parameter; median of 15 seeds;
+the simulation's own records, gi): a week 1,078.46 without the retired rows, 1,082.80 with them priced as live, 1,078.46
+with the check; a month 1,125.60 / 1,131.30 / 1,125.60; a year 1,214.12 / 1,219.11 / 1,214.12 (85 decks capped before);
+everything mastered 1,948.68 / 1,964.30 / 1,948.68 (1,028 capped). Rows expected to be wrongly kept: 0.023 a year, 0.17
+everything mastered.
+Parity with the simulation holds with the check loaded: 2.0e-11 (gi), 2.5e-11 (no-gi); every record final.
+
+**Proof.** `tests/rating.test.mjs`: 27 tests; 43 mutants, each alone, each killed by the test it names, the twelve new ones
+L1-L12: a retired row counted, a live row dropped, a shared question checked against the files or read live everywhere,
+an unchecked row counted as known, "final" said while rows wait, the check skipped entirely, 8 bits, a stale file
+accepted, a fetch on a plain read, a second fetch, the cache not keyed on the check. `e2e/journeys/rating-reader.spec.ts`:
+a page that never asks fetches zero live files and is not final; asking fetches exactly two, and the page's number and
+counts equal node's; storage byte-identical; a stale file reads "unchecked", "stale-live", no number.
+`tests/neural_wire_keys.test.mjs` skips the live files when it reads the chunks as decks. Bytes: the eager set reads
+356,459 B, +3,493 of 5,000 since the checkpoint (dev v1.269.0 at 355,304; this change +1,155, code only); deferred
+511,043 of 511,043, unchanged; the largest on-demand chunk stays 39,000 of 40,000.
+After merging dev v1.270.0 (df19ddedc, PR #404; DEV404): the eager set reads 356,458 B, +3,492 of 5,000 (dev alone
+355,294 B, reproducing 14 of 14 of its committed app rows; this change +1,164); the first-hand core 375,852 B, +4,745 of
+6,000 since 371,107 (dev alone 374,732; this change +1,120); the deferred set 510,269 of 511,043, the same with dev's bundle
+alone.
+
+**The independent reader's findings on #405 (LIVE2).** F1, another build's live file read as truth: the fingerprint covered
+the deck list and the counts, not the questions, so a browser holding the manifest of one deploy and the live files of another
+(the same `/static/*` cache tier, fixed URLs, cards reworded weekly) read "ok" with a live row counted retired. Now the manifest
+carries the fingerprint of the live data it was emitted with (`_meta.live` in `flashcards/_index.json`), the app asks for the files
+under it (`live-<i>.json?live=<fingerprint>`) and refuses any file set whose own data does not hash to it ("stale-live"); a
+manifest without it reads "no-fingerprint" and fetches nothing. The query is stripped by the suites' server and ignored by
+Cloudflare's `_headers` and redirect matching; it keys the browser and edge caches, so the files a manifest asks for are the
+ones it was built with, and the reader's F7 (a returning player reading stale for hours) is left only for a manifest itself
+stale in the cache, when the cards are stale too. F2, a question repeated inside one deck would read retired: the live writer
+now leaves out only what the app treats as shared, two or more distinct decks (none such today; the emit is byte-identical).
+F3, one rule: a row counts where the app's own scheduler would find it; a question is priced only from its live rows. F4, five
+guards (the file count, a deck's live count over its cards, trailing bytes, every deck covered, a result kept for a replaced
+manifest) each have a case. F5, a file set may claim at most 8 files, the emitter's own cap, pinned equal. F6, the retired-row
+test parameter is a round 6%; a ruleset flip is pinned at two requests.
+
+**The mutant runner.** Two runs of L8 (the check cut to 8 bits), before the test was fixed, hung the old test (its search loop
+used the module's key, so it never found a near match) and `subprocess.run(timeout=)` killed only `node --test`, leaving each
+file's process running with parent 1. The runner now runs each test in its own process group, kills the group on a timeout,
+reports a hang as HUNG (never a kill) and fails if any `rating.test` process outlives a run; a control mutant that loops forever
+is reported HUNG with nothing left behind. L8 is red at "16 bits a card, not 8" since the test computes its own keys.
+
+**LIVE2 proof and bytes.** `tests/rating.test.mjs`: 29 tests; 56 mutants, each applied alone in its own process group, each
+killed by the test it names (V1-V13 new: another build's file, a manifest without its fingerprint, a fetch without one, a
+constant query, a retired row priced, the five guards, the reader following any file count, the decoder's cap, the fingerprint
+read from the top level); V14, the emitter writing it at the top level, below; the emitter's one-deck rule is killed by
+`tests/live_questions_test.py`. The journey: 6 named mutants (J6: another build under the same list and counts), clean control
+green. Bytes on dev v1.270.0 (re-read after merging v1.270.1, PR #406, which moves no app input): the eager set 356,585 B,
++3,619 of 5,000 since the checkpoint (this change +1,291); the first-hand core 375,960 B, +4,853 of 6,000 (this change +1,228),
+the same 11 boot requests and no live file among them; the deferred set 510,269 of 511,043, unchanged; the manifest grows by
+the fingerprint.
+
+**Caught before the push: the study worker's strict top level.** The first LIVE2 build put the fingerprint beside `_meta`,
+`deckOrd` and `shared`, at the manifest's top level. `npm run ci:validate` went red at one unit of 1,599:
+`tests/knowledge_scenario_manifest_corpus.test.mjs`, which runs the study worker (`neural/src/knowledge-scenario-manifest.src.js`,
+inside the game bundles) on the emitted manifest. That worker refuses any top-level key it does not know (its own
+`f.index.extra = 1` case) and tolerates extras in `_meta` (its `_meta.extra` case reads "ready"), so every player's study plan
+would have read "unavailable" (`invalid-deck-index`). The fingerprint now rides `_meta.live`; the study law file is untouched
+and the live files are byte-identical. `tests/rating.test.mjs` pins the manifest's top level as exactly `_meta`, `deckOrd` and
+`shared`, with `_meta.live` eight hex digits. V13 (the app reads the top level) is killed by the reader's live check; V14 (the
+emitter writes the top level, re-emitted in place and then restored, the restored emit byte-identical to the clean one over
+5,101 files) by that pin and by the corpus test. The mutant runner's leftover check also matched another seat's full unit
+run, whose argument list names every test file, and then the control's own shell; it now matches a node process by its real
+argv and its working directory, and a control shows it finds a fake orphan here and ignores one elsewhere. Bytes after the
+move: the eager set +6 B (356,579 to 356,585), the first-hand core +4 B (375,956 to 375,960); `neural.js` and the four game rows re-seeded in their own commit.
+
+**LIVE3: the stamp leaves the deck manifest (the orchestrator's call on the reader's G1).** The study bundles pin
+`flashcards/_index.json` byte for byte (`neural/build/study-bundles.mjs` embeds its sha256; the study worker refuses
+`index-sha256-mismatch`), and the stamp moves whenever an unshared card is reworded. In `_meta` it would have added every
+rewording deploy to the window in which a returning player still holding the older manifest (four hours fresh under
+`/static/*`) loses the study plan. It now rides `curriculum.json` as `ratingLive`: eager already, and nothing pins it.
+Surveyed (98 lines naming the file, then every reader of the parsed object): the app reads `belts` and
+`scoreWeightsByOrd` by name, challenge-ui `belts`, the MC scripts `belts`, the specs named keys; no bundle or build step
+hashes it (`build.mjs` rewrites its fetch URL only); the payload gate counts it inside the eager total only; the digest
+worker and the Functions never read it. `_index.json` is byte-identical to dev 3bef94e14's own emit (sha256
+10d303d88a89f244...); of the 4,974 emitted files both hold, only `curriculum.json` differs, by `ratingLive` alone (+24 B
+raw), and only the two live files are new. The app keys a kept check on the manifest AND the stamp, so a check made before
+`curriculum.json` lands fetches nothing and keeps nothing. `tests/live_questions_test.py` pins the property on a synthetic
+pair of emits that differ only in one unshared card's wording: the manifest byte-identical (the same study index hash), the
+live files and the stamp different, `curriculum.json` different by the stamp alone. Mutants: V15 (the stamp read from the
+manifest), V16 (the emitter putting it back into `_meta`: killed by the pair test), V17 to V19 (the kept result keyed on
+the manifest only; an ok check reused under another stamp; a check before the curriculum kept as no-fingerprint); V13 and
+V14 retired with their lines. The reader's F1 scripts, re-pointed at this head with the stamp read from the new carrier (22
+diff lines), read as before: another build's file, older or newer, "stale-live" with no number; no stamp, "no-fingerprint"
+after 0 requests; both requests under the stamp; the reader's own decoder agrees with the module.
+Mixed caches. A new `curriculum.json` with older live files: the files are asked for under the new stamp, so no cache hands
+back the old copies by that URL; if the origin itself served old files they would hash to the old stamp: "stale-live".
+An older `curriculum.json` with new live files: they are asked for under the old stamp; a copy cached under that URL is the
+old build's own and agrees with it (a consistent old reading, in the same cache window as the old deck chunks), and a fresh
+fetch of the new files hashes to the new stamp: "stale-live" until the carrier refreshes (and if the deck list moved too,
+the old files' `rev` refuses them). A new app with a `curriculum.json` from before this PR: "no-fingerprint", 0 requests.
+An older app with the new `curriculum.json`: it reads `belts` and `scoreWeightsByOrd` and never sees `ratingLive`; and the
+manifest it reads is dev's own bytes.
+The module's 0.17 for everything known is now 0.160: 6% of the 21,269 known rows times the card-weighted mean
+wrong-accept rate per retired row, 1.2512e-4 (the reader's definition; the first figure counted the retired rows as 6% of
+all rows after adding them, 6/94 of the known); the year shape, the same way, 0.022. Bytes after the move: measured on dev v1.272.0 (3bef94e14), whose own bundle reproduces its committed `neural.js` row: the eager set 357,181 B, +4,215 of 5,000 since the checkpoint (dev alone 355,846, this change +1,335); the first-hand core 376,564 B, +5,457 of 6,000 since 371,107 (dev alone 375,247 with its own payload served, this change +1,317), the same 11 boot requests and no live file among them; the deferred set 510,269 of 511,043, unchanged; the largest on-demand chunk 39,000.
