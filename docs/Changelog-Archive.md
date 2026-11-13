@@ -17159,3 +17159,7 @@ counts equal node's; storage byte-identical; a stale file reads "unchecked", "st
 `tests/neural_wire_keys.test.mjs` skips the live files when it reads the chunks as decks. Bytes: the eager set reads
 356,459 B, +3,493 of 5,000 since the checkpoint (dev v1.269.0 at 355,304; this change +1,155, code only); deferred
 511,043 of 511,043, unchanged; the largest on-demand chunk stays 39,000 of 40,000.
+After merging dev v1.270.0 (df19ddedc, PR #404; DEV404): the eager set reads 356,458 B, +3,492 of 5,000 (dev alone
+355,294 B, reproducing 14 of 14 of its committed app rows; this change +1,164); the first-hand core 375,852 B, +4,745 of
+6,000 since 371,107 (dev alone 374,732; this change +1,120); the deferred set 510,269 of 511,043, the same with dev's bundle
+alone.
