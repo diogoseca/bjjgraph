@@ -90,28 +90,37 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }
       }
       await firstAnswer(page, j);
       expect(await page.evaluate(() => (window as any).__neural.practiceToday().done), "P1-C: reveal earns no grade").toBe(0);
-      await expect(page.locator("[data-belt-locked]")).toHaveCount(4);
-      await expect(page.locator("[data-belt-locked] button, [data-belt-locked] [data-lesson]")).toHaveCount(0);
+      // Until v1.269.0: `[data-belt-locked]` x4, with no button or lesson in them (the white belt's four later sections were
+      // locked). U163 c ("everything opens", owner, 13 Nov): all five sections are ordinary ones, each with its fold toggle.
+      await expect(page.locator(".ng-belt-section [data-belt-toggle]")).toHaveCount(5);
       await expect(page.locator("[data-session] iframe, [data-session] video")).toHaveCount(0);
       if (process.env.PRACTICE_SCREENS) await page.screenshot({ path: `${process.env.PRACTICE_SCREENS}/${viewport.width}x${viewport.height}-${cold ? "cold" : "warm"}.png` });
     } finally { release(); }
   });
 }
 
-test("P1-B: only earned belt sections open; earlier work is revealable; direct selection cannot unlock", async ({ page }) => {
+// Until v1.269.0 this was "P1-B: only earned belt sections open; earlier work is revealable; direct selection cannot unlock":
+// on a blue belt it asserted three locked sections and that selecting Black and unfolding it were refused. U163 c (owner,
+// 13 Nov, "everything opens") reverses that half: every later section is open, selectable and unfoldable. The other half
+// stands as it was: Practice's corridor starts at the belt you wear, earlier belts are one press away, and a hidden lesson
+// takes no input.
+test("U163 c: every belt section is open; earlier work is revealable; a later belt can be selected and unfolded", async ({ page }) => {
   const j = journey(page); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 1, 0, "blue"); await door(page, j);
   await expect(page.locator('[data-belt="white"]')).toHaveCount(0);
   await expect(page.locator('[data-belt="blue"] [data-track="blue"]')).toHaveCount(1);
-  await expect(page.locator('[data-belt-locked]')).toHaveCount(3);
+  await expect(page.locator(".ng-belt-section [data-belt-toggle]"), "U163 c: blue and the three after it, every one open").toHaveCount(4);
+  await page.locator('[data-belt-toggle="black"]').scrollIntoViewIfNeeded();
+  await j.clickByMouse('[data-belt-toggle="black"]', "unfold Black");
+  await expect(page.locator('[data-belt="black"]'), "U163 c: a later belt unfolds").toHaveAttribute("data-collapsed", "false");
   const guard = await page.evaluate(() => {
-    const a = (window as any).__neural, before = a.selectedChallengeTrack();
-    a.selectChallengeTrack("black"); a._setBeltSectionOpen("black", true);
-    return { before, after: a.selectedChallengeTrack(), open: a._beltSectionOpen("black"), worn: a.wornBelt().id };
+    const a = (window as any).__neural;
+    a.selectChallengeTrack("black");
+    return { after: a.selectedChallengeTrack(), open: a._beltSectionOpen("black"), worn: a.wornBelt().id };
   });
-  expect(guard.after, "P1-B: action-level unlock guard").toBe(guard.before);
-  expect(guard.open).toBe(false); expect(guard.worn).toBe("blue");
+  expect(guard.after, "U163 c: a later belt can be selected").toBe("black");
+  expect(guard.open).toBe(true); expect(guard.worn, "the belt itself is untouched").toBe("blue");
   await page.locator("[data-earlier-belts]").scrollIntoViewIfNeeded();
   await j.clickByMouse("[data-earlier-belts]", "show earlier belts");
   await expect(page.locator('[data-belt="white"] [data-track="white"]')).toHaveCount(1);

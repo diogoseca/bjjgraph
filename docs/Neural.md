@@ -131,12 +131,11 @@ the screen or is inert behind the pane or video viewer (`_recallLive`). An open 
 shortcuts; exposed landing controls still accept pointers. Grading releases the key. Space goes to a study surface and a
 focused mini-row first.
 
-**Recall comes with rank** (v1.133.0): from BLUE belt up (`_recallInPlayNow`; the WORN belt since
-v1.211.0, §8 — never a Game Knowledge band), a stage-2+ card
-asks as timed recall Q/A in play; below blue, recognition-first MC holds. **That rank gate prices
-a question asked against a running CLOCK, and only those** (the paused node study card's own ladder went with the
-dossier, v1.255.1). The black-belt badge
-still force-enables the toggle early. `renderChallengeCue` only removes a stale cue card. **Win chance explains itself** in the score tooltip (§4).
+**Recall Mode is a switch** (U163 c, v1.269.0): with `recallInPlay` on (`_recallInPlayNow`) a stage-2+
+card asks as timed recall Q/A in play; off, recognition-first MC. It prices only a question asked
+against a running CLOCK. No belt turns it on (until v1.269.0 the worn belt did from blue, and the
+black patch's mint flipped it); a belt held before the open rule ran keeps it (`_recallCarried`,
+`openAt`). `renderChallengeCue` only removes a stale cue card. **Win chance explains itself** in the score tooltip (§4).
 
 **Technique navigation** keeps the chosen node's camera (`camFocus`), URL (`_syncUrl`),
 focus, flare and card; the roll's seat remains its origin position. `_stagedTech = {idx, side}`
@@ -789,10 +788,9 @@ through the same persisted `exploreOpenSections` map a header click uses (neighb
 folds), and starts nothing. The deferred sections render expanded when their payload lands,
 because the map is written before their first render asks.
 
-**Path and Practice belt sections** (v1.248.0, owner U76/U87). The existing kept belt and
-its grandfathered entitlement determine which sections open. Current and earned earlier belts
-are clickable; future sections are inert. In Practice, earlier belts sit behind “Show earlier
-belts” at the end. Saved folds and selection cannot grant access. The worn belt drives default
+**Path and Practice belt sections** (v1.248.0, U76; U163 c, v1.269.0). Every section is open:
+the belt only shows (until v1.269.0 future sections were inert, U87). In Practice, earlier belts
+sit behind “Show earlier belts” at the end. The worn belt drives default
 opening and Path arrival; lesson progress still drives the next-lesson highlight. All material
 remains available through reference, lists and gameplay, and all due reviews remain eligible.
 Path keeps its original corridor temporarily as the owner's UI reference (U86).
@@ -863,7 +861,7 @@ are shown*), never in what a deck is *worth*.
 
 **Practice is one mixed session** (v1.248.0, owner U56 e). Its active flashcard comes first,
 with due reviews ahead of new work and the belt corridor below. The planner (`gameplan.src.js`)
-interleaves new decks from the current belt after every few reviews, using the existing weak-spots
+interleaves new decks from every family (U163 c) after every few reviews, using the existing weak-spots
 or study-comparison order. All due reviews remain eligible, including higher-belt material.
 The default goal is 20 (`dailyGoal` overrides, read through `practiceGoal()`); it counts distinct
 graded questions, including mistakes, once per day. Reveal earns nothing. Automatic new allocation
@@ -893,8 +891,8 @@ said "nothing is gated by the score". They now decide nothing; the grandfather r
 you wear the belt AFTER the last belt, in an unbroken run from white, whose units are all proven
 (live lessons done + checkpoint); clearing black leaves you black, four stripes. Stripes are the
 worn belt's proven units, 0–4; the capstone stays an optional patch. Readers, all of them: the tab
-belt, recall in play from blue, the Recall Mode patch and Settings lock at black, and the email's
-"Next belt" line (`dayLog[day].b`, read by `workers/digest`).
+belt, the Recall Mode patch at black and the email's "Next belt" line (`dayLog[day].b`, read
+by `workers/digest`). It opens nothing (U163 c).
 
 **It never falls.** `belts.held` (v2 blob) is a high-water mark that `_syncBelt` raises at every
 evidence seam (`_publishKnowledge`, a checkpoint pass, curriculum and manifest arrival, both sides

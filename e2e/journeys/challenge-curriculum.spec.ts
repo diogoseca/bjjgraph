@@ -480,6 +480,8 @@ test.describe("Challenge curriculum", () => {
       "Curriculum is unavailable right now",
     );
     await expect(page.locator(".ng-belt-section")).toHaveCount(5);
-    await expect(page.locator("[data-belt-locked]")).toHaveCount(4);
+    // Until v1.269.0 this asserted `[data-belt-locked]` x4: the four belts above white were locked. U163 c (owner, 13 Nov,
+    // "everything opens") opened them, so every section is an ordinary one with its own fold toggle.
+    await expect(page.locator(".ng-belt-section [data-belt-toggle]")).toHaveCount(5);
   });
 });

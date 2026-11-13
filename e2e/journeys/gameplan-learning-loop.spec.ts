@@ -353,7 +353,7 @@ test("P1-C: completion celebrates the real ledger and continuation appends to th
   await expect(page.locator('[data-session-complete]')).toHaveCount(0);
 });
 
-test("P1-B: White can study an advanced deck outside its locked progression section", async ({ page }) => {
+test("P1-B: White can study an advanced deck (its section was locked until U163 c, v1.269.0; the study never was)", async ({ page }) => {
   const { j } = await setup(page, false);
   const key = await page.evaluate(() => {
     const a = (window as any).__neural;
