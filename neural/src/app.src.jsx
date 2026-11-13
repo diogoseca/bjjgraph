@@ -900,7 +900,6 @@ class Component extends DCLogic {
     this._ro = new ResizeObserver(() => this.resize());
     this._ro.observe(this.wrapRef.current);
     this._onChoiceFonts = () => { this._inkM = this._nm = null; this.fitChoiceTitles(); };   // a font that lands changes every map name's width (`_planNames`)
-    this.wrapRef.current.addEventListener("scroll", () => { this._nbDirty = true; }, { capture: true, passive: true });   // a scrolled column moves controls over the map (`_nameBlocks`)
     document.fonts.addEventListener("loadingdone", this._onChoiceFonts);
     this._onWinResize = () => this.resize();
     window.addEventListener("resize", this._onWinResize);
@@ -20972,8 +20971,8 @@ class Component extends DCLogic {
   // 1, and the hover label), a tap stages it as before, and its card in the row carries its name as before.
   // Published: `_lastNameBoxes`, every box written this frame in order of claim (`g` its label, so the claim's sequence,
   // `w` its kind: position, travel, hover, star, move, lit; `i` its node).
-  _planNames(pass, ctx, cands, claims, orbs, sig, admit) {
-    const nm = this._nm || (this._nm = {}), memo = nm[pass] || (nm[pass] = { prev: new Map() }), A = this._nameBlocks();
+  _planNames(pass, ctx, cands, claims, orbs, sig, admit, A) {
+    const nm = this._nm || (this._nm = {}), memo = nm[pass] || (nm[pass] = { prev: new Map() });
     sig += A.v + A.l;
     if (memo.sig !== sig) {
       const plan = new Map(), prev = memo.prev, G = claims.length, K24 = [...Array(24).keys()], K = K24.slice(0, 8);
@@ -21018,21 +21017,18 @@ class Component extends DCLogic {
   // 5% opacity (a layer at rest), read from its INLINE opacity first: that is where it is going, so the arrival's centre block,
   // fading out over NG_ARRIVE_HANDOFF on the wall clock, hands the band to the names as the canvas label takes it, and a pumped
   // clock never meets a stale fade. The phone's drawer is opaque and covers the map, so it refuses every name.
-  // Re-measured at most every 250 ms, and at once on a new size or drawer state or when the reading column scrolls (`_nbDirty`);
-  // `v` changes whenever a box does, so a plan keyed on it (`_planNames`) is redone exactly then and not otherwise.
+  // MEASURED ONCE PER DRAWN FRAME (`draw()` hands the one answer to both passes and the pointer's label), never on a timer:
+  // a 250 ms memo let two draws in one task see two different sets after a pause had moved the DOM, and a name sit under a
+  // control that had just appeared. About twenty box reads on a clean layout. `v` is the boxes to the pixel, so a plan keyed
+  // on it (`_planNames`) is redone exactly when a control moves and not otherwise.
   _nameBlocks() {
-    const m = this._nb, t = performance.now(), key = this.W + "," + this.H + "," + this.deckShown, wrap = this.wrapRef.current, root = this.__ngRoot, rd = this._reader;
-    if (!m || this._nbDirty || t - m.t > 250 || m.key !== key) {
-      this._nbDirty = false;
-      const cv = this.canvas.getBoundingClientRect(), blocks = [];
-      for (const el of [...wrap.children, ...(root && root !== wrap ? root.children : []), ...(rd && this._readerEl?.isConnected ? [...rd.game.children, rd.articleEl, ...rd.articleEl.children] : [])]) {
-        if (el === this.canvas || el === this._readerEl || el === wrap || el.hidden || el.hasAttribute("data-seat-star")) continue;
-        const r = el.getBoundingClientRect(), cs = getComputedStyle(el);
-        if (r.width > 0 && r.height > 0 && cs.display !== "none" && cs.visibility !== "hidden" && (el.style.opacity || cs.opacity) >= 0.05) blocks.push({ l: r.left - cv.left, r: r.right - cv.left, t: r.top - cv.top, b: r.bottom - cv.top });
-      }
-      this._nb = { t, key, blocks, v: blocks.map((b) => [b.l, b.t, b.r, b.b].map(Math.round)).join(";") };
+    const wrap = this.wrapRef.current, root = this.__ngRoot, rd = this._reader, cv = this.canvas.getBoundingClientRect(), blocks = [];
+    for (const el of [...wrap.children, ...(root && root !== wrap ? root.children : []), ...(rd && this._readerEl?.isConnected ? [...rd.game.children, rd.articleEl, ...rd.articleEl.children] : [])]) {
+      if (el === this.canvas || el === this._readerEl || el === wrap || el.hidden || el.hasAttribute("data-seat-star")) continue;
+      const r = el.getBoundingClientRect(), cs = getComputedStyle(el);
+      if (r.width > 0 && r.height > 0 && cs.display !== "none" && cs.visibility !== "hidden" && (el.style.opacity || cs.opacity) >= 0.05) blocks.push({ l: r.left - cv.left, r: r.right - cv.left, t: r.top - cv.top, b: r.bottom - cv.top });
     }
-    return { ...this._nb, l: this._paneLayout().left, r: this.W, b: this.H };
+    return { blocks, l: this._paneLayout().left, r: this.W, b: this.H, v: blocks.map((b) => [b.l, b.t, b.r, b.b].map(Math.round)).join(";") };
   }
 
   shapePath(ctx, ty, x, y, r) {
@@ -21935,7 +21931,7 @@ class Component extends DCLogic {
       // plan one pass (`_planNames`, keyed on everything its answer depends on) and write what it placed
       const write = (pass, cands, col) => {
         ctx.textBaseline = "bottom"; ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
-        const plan = this._planNames(pass, ctx, cands, claims, orbs, [Math.round(zk * 1e3), Math.round(this.cam.cx * scale * 2), Math.round(this.cam.cy * scale * 2), W, H, orbs.length, drawFocus, still || pass, cands.map((c) => c.i + (c.act ? "*" : "")), claims.map((q) => [q.l, q.t, q.r].map(Math.round))].join("|"), still || pass === "lit");
+        const plan = this._planNames(pass, ctx, cands, claims, orbs, [Math.round(zk * 1e3), Math.round(this.cam.cx * scale * 2), Math.round(this.cam.cy * scale * 2), W, H, orbs.length, drawFocus, still || pass, cands.map((c) => c.i + (c.act ? "*" : "")), claims.map((q) => [q.l, q.t, q.r].map(Math.round))].join("|"), still || pass === "lit", NB);
         ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
         for (const c of cands) { const b = plan.get(c.i); if (b) { ctx.fillStyle = col(c); ctx.fillText(c.s, b.x, b.y); } }
         ctx.shadowBlur = 0;

@@ -19,7 +19,29 @@ import { journey } from "../dsl"
  * The camera moves the way the app's zoom does: a `wheel` on the canvas at the position's drawn point (the handler zooms
  * about the pointer), from the follow camera's settled framing.
  *
- * MUTANTS (each against this spec, green on the build; table in docs/Changelog-Archive.md, v1.275.0): filled in below.
+ * MUTANTS, each one exact replacement in app.src.jsx, rebuilt and this spec run in full (the brief's six first):
+ *   M1  the test removed (`fits` always true)                red 4 tests, first at "no name off the map" (Mount x1)
+ *   M2  the order of claim reversed (the row read backwards) red 2, at "the moves claimed their room in the row's order"
+ *   M3  the edge check removed                               red 3, at "no name off the map"
+ *   M4  the pointer's single label dropped                   red 1, at "merged: the orb under the mouse is named by the
+ *                                                            single label" (survived until the merged check was added)
+ *   M4c both pointer labels dropped (pair group and single)  red 1, at "the orb under the mouse is named"
+ *   M5  `n.y` for `LY(n)` (a move's anchor)                  red 2, at "every name starts just beyond its own orb's drawn width"
+ *   M6  widths from `n.r * scale`, not `halfW`               red 2, at the same assertion
+ *   M7  what is acted on not first                           red 2, at "the card under the mouse names its orb" and "the map
+ *                                                            names the card just turned up"
+ *   M8  written names treated as new (no incumbency)         red 2, at "moves are still named": a frame right after the
+ *                                                            wheel's jump deals nothing new and keeps nothing
+ *   M9  the controls ignored                                 red 2, at "no name under a control"
+ *   M10 no plan reused                                       red 2, at "60 held frames reuse one plan"
+ *   M11 names under the phone's open drawer                  red 1, at "nothing is written on the map under the drawer"
+ *   M12 other dealt orbs ignored                             red 2, at "no move's name across another dealt orb" (survived
+ *                                                            until that assertion was added)
+ * NON-KILLS, so nobody reads them as covered: M4b, the pointer's PAIR GROUP alone dropped, is the designed fallback (the
+ * single label names the orb instead: `_hovPairDrawn` false); M8b, a written name needing 6 px like a new one (no 3 px
+ * stay margin), changes nothing a recorded ease here can see: the camera-state rule (no new name while the zoom moves) and
+ * the reused plan at rest hold the names, and the stay margin only decides a name sitting between 3 and 6 px of a neighbour
+ * at rest. Table and run times in docs/Changelog-Archive.md (v1.275.0).
  */
 
 type W = any
