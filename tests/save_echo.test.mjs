@@ -26,7 +26,8 @@ import { readFileSync } from 'node:fs';
 
 const read = rel => readFileSync(new URL(rel, import.meta.url), 'utf8');
 const strip = text => text.replace(/^export (function|const|let|var|class) /gm, '$1 ');
-const dependencies = ['lists-codec', 'lists', 'belt', 'challenge-definitions', 'challenge-engine'].map(name => strip(read('../neural/src/' + name + '.src.js'))).join('\n');
+// rating.src.js (v1.276.0) rides along: the merge's `belts.lvl` line calls it, and the bundle concatenates it too
+const dependencies = ['lists-codec', 'lists', 'belt', 'rating', 'challenge-definitions', 'challenge-engine'].map(name => strip(read('../neural/src/' + name + '.src.js'))).join('\n');
 const ownerSource = strip(read('../neural/src/progress-owner.src.js'));
 const source = read('../neural/src/app.src.jsx');
 const Component = new Function('DCLogic', 'React', ownerSource + '\n' + dependencies + '\n' + source + '\nreturn { Component, ngProgressCreateHost, ngProgressCloudKey };')(class {}, { createRef: () => ({ current: null }) });
