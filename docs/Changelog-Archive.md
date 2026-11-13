@@ -17106,6 +17106,12 @@ Proven: the wait at 0 failed 10 of 10 on the unchanged app (`elementFromPoint(54
 `scrollSettled` (same rect and own scrollTop on three frames running); with it, 10 of 10 green at wait 0. Same use in
 defending-arrivals `wheelTo` and defending-landing's Rolling loop. No app change.
 
+## v1.270.2 — The Practice plan is read after it lands (SRS1, 2026-11-13)
+
+srs-due.spec.ts:249 waited for a line the eager queue also prints, then read `_session.plan` once: red on PR #406
+(`plan: false`). It now polls the plan between `release()` and the fold. Chunk held 400 ms: 10/10 red, then 10/10
+green. Release to plan ~1 s, 4-6 s at 4x CPU. The other held-planner sites already poll the plan or read before it.
+
 ## v1.272.0 — A known move wears a gold seal, not a gold outline (the owner's pick a, SEAL1 and SEAL2, 2026-11-13)
 
 The owner: "The mastered cards show up with a golden outline, and this is confusing. It seems like this is the selected
