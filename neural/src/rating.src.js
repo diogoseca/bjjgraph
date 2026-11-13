@@ -1,4 +1,4 @@
-// THE RATING (v1.267.0, owner 13 Nov 2026: "a, What you can recall right now"; "a, Even belts"; black = the top of
+// THE RATING (v1.269.0, owner 13 Nov 2026: "a, What you can recall right now"; "a, Even belts"; black = the top of
 // our own scale) — pure, stateless and shared like belt.src.js: concatenated into the bundle by
 // neural/build/build.mjs (exports stripped), imported as a module by the unit suite, importable by the digest Worker.
 // STAGE 1: computed and tested, shown nowhere. Nothing here writes storage, and nothing in the app paints it yet.
@@ -61,7 +61,7 @@
 // The NUMBER may fall; the belt never does — holding it is the caller's (`belts.held`), so `ngRatingNext` takes the
 // held level and measures the goal from max(held, the number's own level).
 //
-// research: docs/Changelog-Archive.md (v1.267.0); the simulation this module was matched to is the seat's, kept outside
+// research: docs/Changelog-Archive.md (v1.269.0); the simulation this module was matched to is the seat's, kept outside
 // the repo (the parity statement and its limits are in tests/rating.test.mjs's header).
 
 /** The points scale's ends: nothing recalled, everything recalled. */

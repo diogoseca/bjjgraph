@@ -1,4 +1,4 @@
-// THE RATING'S SHARED FIXTURE (v1.267.0) — read by tests/rating.test.mjs and e2e/journeys/rating-reader.spec.ts, so
+// THE RATING'S SHARED FIXTURE (v1.269.0) — read by tests/rating.test.mjs and e2e/journeys/rating-reader.spec.ts, so
 // the number a built page prints for the seeded record and the number the unit computes come from ONE record and ONE
 // construction of the app. Not a test file: `node --test tests/*.test.mjs` does not collect it.
 //

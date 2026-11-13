@@ -1,4 +1,4 @@
-// THE RATING (v1.267.0, Stage 1) — neural/src/rating.src.js and its one reader in the app, `rating()`.
+// THE RATING (v1.269.0, Stage 1) — neural/src/rating.src.js and its one reader in the app, `rating()`.
 //
 // The owner's rule (13 Nov 2026): the number is what you can recall RIGHT NOW (method C of the seat's simulation, as C0:
 // nothing credited for what you knew before the app), on a points scale from 1000 (nothing) to 2000 (everything);
@@ -10,8 +10,8 @@
 // cache, and that it writes nothing. The shared record (tests/_rating_fixture.mjs) is the one the journey
 // (e2e/journeys/rating-reader.spec.ts) seeds into a built page, so the page and this suite read one record.
 //
-// MUTANTS (v1.267.0), each applied alone and run against this file; each turned the NAMED test red and nothing else
-// was needed to see it (the run log is in docs/Changelog-Archive.md, v1.267.0):
+// MUTANTS (v1.269.0), each applied alone and run against this file; each turned the NAMED test red and nothing else
+// was needed to see it (the run log is in docs/Changelog-Archive.md, v1.269.0):
 //   M1  forgetting removed (a right row reads 1 however old)            → "a right answer fades 10% per interval"
 //   M2  a shared question counted once per deck instead of once         → "a question shared by several decks is ONE question"
 //   M3a a zero-traffic deck given a floor weight (as a sampler would)   → "zero traffic weighs nothing"

@@ -2979,7 +2979,7 @@ class Component extends DCLogic {
     }
     return { known, total: T[this._giMode] };
   }
-  // THE RATING (v1.267.0, owner 13 Nov: method C, table a, the top at 2000) — STAGE 1: computed, cached, shown
+  // THE RATING (v1.269.0, owner 13 Nov: method C, table a, the top at 2000) — STAGE 1: computed, cached, shown
   // NOWHERE. No setting, no storage, no paint; `window.__neural.rating()` is how a spec (rating-reader.spec.ts) and a
   // person read it on a built page. The law is neural/src/rating.src.js (pure, shared with the unit suite); this is
   // its ONE reader in the app, and all it adds is the join to this app's own state:

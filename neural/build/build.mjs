@@ -101,7 +101,7 @@ const systemsDemand = stripExports("systems-demand.src.js");
 // merge. A real module for the codec's reason: the unit suite and the digest Worker (which names
 // the next belt in the training-day email) import the identical source.
 const beltRule = stripExports("belt.src.js");
-// rating.src.js (v1.267.0): the ONE definition of the rating — the share of the game recalled now, its points and
+// rating.src.js (v1.269.0): the ONE definition of the rating — the share of the game recalled now, its points and
 // the belt lines (table a). Pure and shared like the belt rule: the unit suite imports the identical source.
 const ratingRule = stripExports("rating.src.js");
 {

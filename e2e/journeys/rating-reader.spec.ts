@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test"
 import { resolve } from "node:path"
 import { journey } from "../dsl"
 
-/** THE RATING ON A BUILT PAGE (v1.267.0, Stage 1: computed, shown nowhere).
+/** THE RATING ON A BUILT PAGE (v1.269.0, Stage 1: computed, shown nowhere).
  *
  * The owner's rule (13 Nov 2026): the number is what you can recall right now, 1000 + 1000 × the share of the game,
  * table a's belt lines. Stage 1 paints nothing, so a spec and a person read it the one way there is:
@@ -19,8 +19,8 @@ import { journey } from "../dsl"
  * writes none. Every localStorage key and value, snapshotted once the boot has stopped writing, is byte-identical after
  * the reader has run on two days (the second 120 days on, which must fade the number).
  *
- * MUTANTS (v1.267.0), each built into the bundle (`npm run dev:neural:app`) and run against this file under the lock;
- * the table is in docs/Changelog-Archive.md (v1.267.0):
+ * MUTANTS (v1.269.0), each built into the bundle (`npm run dev:neural:app`) and run against this file under the lock;
+ * the table is in docs/Changelog-Archive.md (v1.269.0):
  *   J1 the reader stores its level (`belts.lvl`) and saves          → "the reader writes nothing" (storage differs)
  *   J2 the module left out of the bundle (build.mjs)                → the page's rating() throws
  *   J3 the load path drops the moves record                         → the page's counts differ from node's

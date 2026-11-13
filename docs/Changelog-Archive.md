@@ -16847,7 +16847,7 @@ Mutants on the served bundle, the neutral control green in all ten:
 (cap 5,000; dev's own drift is +4,446 of it). Deferred 511,043 B, +36 B (settings-ui.js only); the ceiling moved to exactly
 that in its own commit, under U134 b's 512,000 B, 957 B left.
 
-## v1.267.0 — The rating, Stage 1: what you can recall right now, computed and tested, shown nowhere (ELO2, ELOPAY1, 2026-11-13)
+## v1.269.0 — The rating, Stage 1: what you can recall right now, computed and tested, shown nowhere (ELO2, ELOPAY1, 2026-11-13)
 
 **The owner's answers (13 Nov, 04:50).** The number comes from "a, What you can recall right now" (method C of the ELO1
 report, here as C0: nothing credited yet for what a player knew before the app); the lines are "a, Even belts" (white's
