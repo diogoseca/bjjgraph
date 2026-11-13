@@ -186,6 +186,15 @@ Pinned by `tests/analytics_exploration.test.mjs`: production input callbacks, ro
 classification, single capture, quiet lifecycle paths, opt-out and keyless consumers.
 Built SDK absence remains the separate `validate:analytics:nokey` gate above.
 
+### Practice visits
+
+| Event | When | `surface` |
+|-------|------|-----------|
+| `neural_practice_opened` | Once per deliberate visit that starts a Practice session (`openPlanSession`, `_openOwedPractice` in `app.src.jsx`); a refresh or a plan landing on the open session sends nothing | `practice`: the Practice page, from any of its entries (the drawer's row, a due or new-cards bucket) · `owed` (v1.274.0): "Everything owed, oldest first", the door inside "Practice details & session queue" that opens the whole owed pile |
+
+It carries no deck key, card or count. Pinned by `e2e/journeys/practice-page.spec.ts` (P1-F: one event per visit, the
+page's `practice`) and `tests/practice_page.test.mjs` (the door's `owed`).
+
 ### Cold-start funnel (v1.82.0)
 
 The first-visit path is measured by an OBSERVER of the `fx()` beat stream (`_cs*` in

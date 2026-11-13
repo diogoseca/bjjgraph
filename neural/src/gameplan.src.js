@@ -271,13 +271,16 @@ function ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, r
 export function ngGameplanLines(plan, live, key) {
   if (!plan || plan.order !== "worth") return null;
   const rows = plan.due.concat(plan.fresh), row = rows.find((r) => r.key === key), n = plan.visits.length;
-  const placed = (r) => typeof r.visit === "number" && r.visit >= 0;
-  const extra = rows.filter((r) => !placed(r)).reduce((k, r) => k + r.count - (r.owed ? r.owed.length : 0), 0);
+  const placed = (r) => typeof r.visit === "number" && r.visit >= 0, lesson = (r) => r.source === "lesson";
+  // a Path lesson the player opened rides in the session apart from "More new cards" (STAGE3-R2 d): named and counted by how it came
+  const apart = (keep) => rows.filter((r) => !placed(r) && keep(r)).reduce((k, r) => k + r.count - (r.owed ? r.owed.length : 0), 0);
+  const extra = apart((r) => !lesson(r)), path = apart(lesson);
   const cards = (k) => k + (k === 1 ? " card" : " cards"), name = (seat) => (seat ? seat.replace("|", " \u00b7 ") : "Other cards");
-  return { heading: !row ? "Practice" : placed(row) ? name(row.seat) + " \u00b7 position " + (row.visit + 1) + " of " + n : "More new cards",
+  return { heading: !row ? "Practice" : placed(row) ? name(row.seat) + " \u00b7 position " + (row.visit + 1) + " of " + n : lesson(row) ? "From the Path" : "More new cards",
     count: n + (n === 1 ? " position" : " positions") + ": " + (live.dueCards ? cards(live.dueCards) + " to review \u00b7 " : "") +
-      (plan.newCards - extra) + " new, by how often they come up in your rolls and how close you are to forgetting them" +
-      (extra ? "; " + extra + " more new, " + (plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") : "") };
+      (plan.newCards - extra - path) + " new, by how often they come up in your rolls and how close you are to forgetting them" +
+      (extra ? "; " + extra + " more new, " + (plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") : "") +
+      (path ? "; " + path + " from the Path" : "") };
 }
 
 // Hydration binds unknown question identities without reranking the plan. Known

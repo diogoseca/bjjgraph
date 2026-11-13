@@ -3133,8 +3133,23 @@ class Component extends DCLogic {
       contentRevision: this._knowledgeContentRevision || "", day: day,
       evidenceRevision: ngKnowledgeFingerprint({ stage: this.stage || {}, rec: this.rec || {}, srs: this.srs || {} }) });
   }
+  // THE NEW CARDS MET TODAY (STAGE3-R2 b): the day's floor of 4 new counts a card the first time it is answered, right or
+  // wrong, on any surface (a roll's landing card, Practice, the Path), the orchestrator's reading of "at least 4 new a day".
+  // Until v1.274.0's R2 the planner read `_days[today]`, which counts every question first answered RIGHT in a page session,
+  // owed ones included: 4 owed cards right in a roll left no floor at all. The stored record cannot tell this (a first answer
+  // and a miss of an old card leave the same row, [today + 1, 1, today]), so the day's set is kept in memory, fed by the two
+  // writers of a first row (`_gradeKnowledge`, `_schedule`); nothing is stored. A reload starts the set again, so it can only
+  // err towards more new cards, never below the owner's 4.
+  _noteNewMet(qh) {
+    const day = this._epochDay();
+    if (!this._newMet || this._newMet.day !== day) this._newMet = { day, qs: new Set() };
+    for (const dk in this.srs || {}) if (this.srs[dk] && this.srs[dk][qh]) return false;
+    return true;
+  }
+  _newMetToday() { const m = this._newMet; return m && m.day === this._epochDay() ? m.qs.size : 0; }
   _gradeKnowledge(key, card, correct, mode, tier, attemptId, surface) {
     if (!this._progressCurrent()) return { status: "rejected", reason: "stale-owner" };
+    const metQ = card && card.q ? this.qhash(card.q) : null, met = metQ != null && this._noteNewMet(metQ);
     const id = attemptId || "grade:" + (this._knowledgeAttempt = (this._knowledgeAttempt || 0) + 1);
     const evidence = ngKnowledgeBuildEvidence({ revision: this._knowledgeRevision || 0,
       prep: this.prep, stage: this.stage, rec: this.rec, srs: this.srs, sharp: this._sharp,
@@ -3143,6 +3158,7 @@ class Component extends DCLogic {
       correct: correct, mode: mode, tier: tier, surface: surface, dayKey: this._dayKey() },
       { decks: (this.flashcards && this.flashcards.decks) || {}, shared: this._sharedQ }, this._epochDay());
     if (result.status !== "applied") return result;
+    if (met) this._newMet.qs.add(metQ);
     // Mutable legacy host maps remain compatible with cloud merge and older rails.
     const next = JSON.parse(JSON.stringify(result.evidence));
     this.prep = next.prep; this.stage = next.stage; this.rec = next.rec; this.srs = next.srs;
@@ -5930,7 +5946,7 @@ class Component extends DCLogic {
       revision: this._knowledgeRevision || this._stageVer || 0, stamp,
       target: this.practiceGoal(), decks: this._gameplanDecks(true), srs: this.srs,
       provider: this._gameplanProvider, fallback: this._gameplanWeakFallback(),
-      worth: { game, seats: this._practiceSeats(game), stage: this.stage, newToday: (this._days || {})[this._dayKey()] || 0 } });
+      worth: { game, seats: this._practiceSeats(game), stage: this.stage, newToday: this._newMetToday() } });
     if (plan.orderStatus !== "ok" && this._orderBeat !== plan.orderStatus) { this._orderBeat = plan.orderStatus; this.fx("practice_order_fallback", { reason: plan.orderStatus }); }
     return plan;
   }
@@ -6378,12 +6394,24 @@ class Component extends DCLogic {
       questions.forEach(q => used.add(q));
       fresh.push({ ...r, kind: "new", questions, count: questions.length + r.pending });
     }
+    // THE PAGE NUMBERS WHAT IT SHOWS (STAGE3-R2 a, the reader's "1 … 6, 8, 9"). A deck has one row in a session (its key is the
+    // row), so a next round's cards of a deck already on the page join that row, under its heading; a position of the round
+    // left with no row of its own is not shown, so it is not counted either, and the rest are numbered on without a gap,
+    // the queue's labels and the open card's "position N of M" alike
+    let visits = round && old ? old.visits.concat(incoming.visits) : incoming.visits;
+    if (round && old) {
+      const shown = [...new Set(due.concat(fresh).map(r => r.visit).filter(v => typeof v === "number"))].sort((x, y) => x - y);
+      const rank = new Map(shown.map((v, i) => [v, i]));
+      const renum = (r) => (rank.has(r.visit) && rank.get(r.visit) !== r.visit ? { ...r, visit: rank.get(r.visit) } : r);
+      due.splice(0, due.length, ...due.map(renum)); fresh.splice(0, fresh.length, ...fresh.map(renum));
+      visits = visits.filter((_, i) => rank.has(i));
+    }
     // a worth plan's review row lists its owed cards (`owed`); a new card of the same deck rides in it and counts as new
     const dueQuestions = [...new Set(due.flatMap(r => r.owed || r.questions))];
     const newCards = fresh.concat(due).reduce((n, r) => n + (r.owed ? r.count - r.owed.length : r.kind === "due" ? 0 : r.count), 0);
     s.plan = { ...incoming, due, fresh, dueQuestions,
       dueCards: dueQuestions.length, newCards, total: dueQuestions.length + newCards,
-      more: incoming.more.filter(r => !keys.has(r.key)), visits: round && old ? old.visits.concat(incoming.visits) : incoming.visits };
+      more: incoming.more.filter(r => !keys.has(r.key)), visits };
     s.review = null;
     // Untouched cold queues can take the normal interleaving. Once a card has been
     // used, append at the end without moving any existing opener or focus handle.
@@ -6442,7 +6470,7 @@ class Component extends DCLogic {
       if (!s.keys.includes(key)) {
         const d = this._gameplanDecks()[key], planner = !!this._gameplanRuntime;
         if (planner && d?.allowed && d.count) {
-          const row = { key, questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length), reason: "Practice this lesson." };
+          const row = { key, questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length), reason: "Practice this lesson.", source: "lesson" };
           this._practiceAppend(s, s.plan || this.planSummary(), [row]);
         } else this.fx("practice_lesson_unplanned", { deckKey: key, planner });   // §6.6: it still opens, outside the session's ledger
         // Already graded/shared lessons remain readable without a second obligation.
@@ -6684,13 +6712,14 @@ class Component extends DCLogic {
       const key = s.keys[i], row = this._sessionRow(key, i, s, this.flashcards?.decks || {});
       s.rows.appendChild(row.el); this._sessionOpeners.push(row.open);
       // a worth plan's queue names each position before its decks (U171 a: position by position)
-      // a row "More new cards" or a Path lesson appended has no position (STAGE3-R1, finding 3: it read "NaN · Other cards")
+      // a row "More new cards" or a Path lesson appended has no position (STAGE3-R1, finding 3: it read "NaN · Other cards"),
+      // and each is named by how it came (STAGE3-R2 d: a lesson the player opened from the Path is not "More new cards")
       const v = s.plan?.order === "worth" && s.plan.due.concat(s.plan.fresh).find((r) => r.key === key);
-      const pos = v && (typeof v.visit === "number" ? v.visit : "more");
+      const pos = v && (typeof v.visit === "number" ? v.visit : v.source === "lesson" ? "lesson" : "more");
       if (v && pos !== s.visitShown) {
         s.visitShown = pos;
         const at = document.createElement("p"); at.setAttribute("data-practice-visit", pos);
-        at.textContent = pos === "more" ? "More new cards" : pos + 1 + " \u00b7 " + (v.seat ? v.seat.replace("|", " \u00b7 ") : "Other cards"); s.queue.appendChild(at);
+        at.textContent = pos === "more" ? "More new cards" : pos === "lesson" ? "From the Path" : pos + 1 + " \u00b7 " + (v.seat ? v.seat.replace("|", " \u00b7 ") : "Other cards"); s.queue.appendChild(at);
       }
       const jump = document.createElement("button"); jump.type = "button";
       jump.textContent = key.replace("|", " · ");
@@ -12536,7 +12565,8 @@ class Component extends DCLogic {
    * the harness's drill rail writes prep directly and must keep an empty srs.
    */
   _schedule(key, q, ok) {
-    const today = this._epochDay();
+    const today = this._epochDay(), metQ = this.qhash(q);
+    if (this._noteNewMet(metQ)) this._newMet.qs.add(metQ);   // a card revealed unanswered is met (STAGE3-R2 b)
     const write = (dk) => {
       const m = (this.srs[dk] = this.srs[dk] || {});
       const qh = this.qhash(q);

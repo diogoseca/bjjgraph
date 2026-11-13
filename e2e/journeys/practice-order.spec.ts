@@ -243,6 +243,10 @@ for (const touch of [true, false]) {
       expect(next.keys, "with the next round's rows").toBeGreaterThan(first.keys)
       expect(next.visit, "the open card is the next round's, numbered on").toBeGreaterThanOrEqual(first.visits)
       await expect(page.locator("[data-practice-section]")).toHaveText(`${next.seat ? dot(next.seat) : "Other cards"} · position ${next.visit + 1} of ${next.visits}`)
+      // STAGE3-R2 a: the queue numbers the positions it shows, 1 to N without a gap, and N is the heading's "of N"
+      const numbers = await page.locator("[data-practice-queue] [data-practice-visit]").evaluateAll((els) =>
+        els.map((e) => e.textContent || "").filter((t) => /^\d+ · /.test(t)).map((t) => parseInt(t, 10)))
+      expect(numbers, "the queue's position numbers, after the next round").toEqual(Array.from({ length: next.visits }, (_, i) => i + 1))
       await clean(page, "Keep practising")
       await answerOne(page, touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural.practiceToday().done), { message: "today's count keeps counting" }).toBe(first.done + 1)
