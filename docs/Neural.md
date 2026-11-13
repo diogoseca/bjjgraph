@@ -192,9 +192,9 @@ deduplicated by video ID.
 makes every display answer one-line-comparable (word-boundary ≤150 + ellipsis, full text in `d`),
 so every deck in the corpus builds a real MC. The recall block survives only as a last-resort safety net (a deliberately-opened card
 is never chrome-only) with no live trigger in this corpus; authored `answer_line` (Phase B)
-remains the quality upgrade over truncation. Map names (`_planNames`, v1.275.0) go only where they
-clear every name, control, edge and dealt orb; claims: position, pointer, row. A staged option is
-the focus: named once.
+remains the quality upgrade over truncation. Dealt, lit names (`_planNames`, v1.275.0)
+clear every name, control, edge, orb (acted-on may cross an orb); claims: flight or position,
+pointer, acted-on, kept, row, trail. Pointer's label mirrors once, may trim.
 
 **Three options, and the trap is always one of them** (v1.148.0). `MC_DISTRACTORS = 2`
 (`app.src.jsx`, mirrored in `scripts/audit_mc_viability.py`) is the one seam, read by `_mcBlock`

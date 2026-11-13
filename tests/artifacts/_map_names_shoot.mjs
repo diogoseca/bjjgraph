@@ -51,7 +51,9 @@ for (const s of SHOTS) {
     document.querySelectorAll("[data-reward]").forEach((e) => e.remove())
     a._handTouched = true; a.advance(200)
     if (f > 1) { const m = a.pairMid(a.nodes[a.focusIdx]), sc = a.W / a.cam.vw, r = a.canvas.getBoundingClientRect(); a.canvas.dispatchEvent(new WheelEvent("wheel", { deltaY: Math.log(f) / 0.0012, clientX: (m.x - a.cam.cx) * sc + a.W / 2 + r.left, clientY: (m.y - a.cam.cy) * sc + a.H / 2 + r.top, bubbles: true, cancelable: true })) }
-    a.advance(34)
+    // two drawn frames: `advance` draws once per call, and the first frame after the wheel is the jump (names only leave
+    // while the zoom moves); the second is the camera at rest, where they are dealt (Q410A: the first pictures showed the jump)
+    a.advance(17); a.advance(17); a.advance(520)   // ...and half a second at rest: a name the jump dropped waits that long (v1.275.0 R1)
   }, s.f)
   const file = path.join(OUT, `${s.name}-${TAG}-${s.w}.png`)
   await page.screenshot({ path: file })

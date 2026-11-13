@@ -2096,7 +2096,9 @@ class Component extends DCLogic {
     this.pulse = { path, seg: 0, t: 0, onArrive, done: false, t0: this.now, tint: this.activeMove ? this.activeMove.col : null };
   }
   /** `amp` scales the bloom this node gets; the places the roll STOPS pass ARRIVE_BLOOM. */
-  flare(idx, amp) { const n = this.nodes[idx]; if (n) { n.lit = this.now; n.litK = amp || 1; } }
+  // `trail` (v1.275.0): one of MANY lit together (a path, a cascade, a wide replay beat, the ripple): its name is best effort.
+  // Without it the node is the one the player was sent to or shown, and the map names it as acted on (`draw()`, LIT NODES).
+  flare(idx, amp, trail) { const n = this.nodes[idx]; if (n) { n.lit = this.now; n.litK = amp || 1; n.litT = !!trail; } }
   /**
    * WHERE THE PULSE IS, IN THE COORDINATES IT IS DRAWN IN (v1.129.7).
    *
@@ -2153,7 +2155,7 @@ class Component extends DCLogic {
         // passed through. The arrival bloom belongs where the roll STOPS: `enterLand`, and the
         // submission that ends a round. (Measured: without this, "Sweep from Meathook" bloomed
         // as hard as the position it swept you into.)
-        this.flare(p.path[p.seg + 1]); p.seg++;
+        this.flare(p.path[p.seg + 1], 0, 1); p.seg++;
       } else { p.t += advance / segTime; advance = 0; }
     }
     const h = this.headPos(); this.camFocus = { x: h.x, y: h.y };
@@ -13514,7 +13516,7 @@ class Component extends DCLogic {
       // victory cascade: flares hop the roll trail 110ms apart, hard-capped at 1.5s total
       const rows = (this.rollLog || []).slice(-13);
       const hops = Math.max(1, rows.length);
-      for (let ci = 0; ci < rows.length; ci++) { const cidx = rows[ci].idx; this.after(ci * 0.11, () => this.flare(cidx)); }
+      for (let ci = 0; ci < rows.length; ci++) { const cidx = rows[ci].idx; this.after(ci * 0.11, () => this.flare(cidx, 0, 1)); }
       this.fx("victory_cascade", { hops: hops, durMs: hops * 110 });
       this.ladderMove(1);
     } else if (kind === "lose") {
@@ -17893,7 +17895,7 @@ class Component extends DCLogic {
       dur = R.reduced ? 0.8 : 1.4;
       this._replayAim(s.nodes, dur);
       this.setEvent("Replay", s.name, "info");
-      for (const k of s.nodes) this.flare(k);
+      for (const k of s.nodes) this.flare(k, 0, 1);
     } else if (s.kind === "land") {
       dur = R.reduced ? 0.85 : 1.15;
       this.focusIdx = s.to;
@@ -18391,7 +18393,7 @@ class Component extends DCLogic {
   updateRipples() {
     if (!this.ripples || !this.ripples.length) return;
     for (const r of this.ripples) {
-      if (!r.done && this.now >= r.t0 + r.dur) { r.done = true; this.flare(r.b); }
+      if (!r.done && this.now >= r.t0 + r.dur) { r.done = true; this.flare(r.b, 0, 1); }
     }
     const last = this.ripples[this.ripples.length - 1];
     if (this.now - (last.t0 + last.dur) > 1.9) this.ripples = [];
@@ -20773,6 +20775,11 @@ class Component extends DCLogic {
   // v1.253.0 (U114 a): the map can no longer be hidden, so only the film's theater turns graph input off.
   _graphInputOn() { return !this._filmTheater; }
   _updateHover(e) {
+    // TWO ANSWERS TO "IS THE POINTER ON THE MAP?", KNOWN (R1 finding 11): this asks the hit-test target; the names ask
+    // `_nameBlocks`' boxes (an opacity floor, no pointer-events test). They differ on pointer-events:none chrome (the legend,
+    // the landing stack and nav: no name there, but the hover passes) and on a control under 5% opacity (names allowed, no
+    // hover). And the pointer's own label has its own fit (`draw()`'s `clear`: no orb test) and keeps its usual place,
+    // under a control or trimmed at the edge, when neither side is clear.
     // ...and a MOVE hovers only when the pointer is ON the map: over a card, the row or any control it is not (v1.275.0; it
     // used to hover the node under a card and name it under the card). A seat star belongs to its label and hovers its pair
     // itself. Never the tap's pointerup: the wrap holds the pointer captured then, so its target is the wrap (attachInput).
@@ -21014,34 +21021,43 @@ class Component extends DCLogic {
   // pulled back 9 times at 390x844 the map wrote names on top of each other in hundreds of pairs, and at the usual zoom names
   // ran off the screen and under the "Your moves" row.
   //
-  // THE RULE: a name is written only where it can be read. In ORDER OF CLAIM, each candidate takes the first of its places
-  // whose ink box, grown by its air, touches none of: a name already written this frame (the position's own name and side and
-  // its star come first, then whatever the pointer names, `draw()`); a control over the map (`_nameBlocks`); the map's edge;
-  // the orb of another dealt move or of the position's pair, with that orb's shoulders where a gold dot can sit (every dealt
-  // orb, known or not, so a grade never moves a name). No place passes: the name is not written. The places are `_nameAt`'s.
-  //   1. the moves the player is ACTING ON: the card under the pointer, the card holding keyboard focus, a card turned up
-  //      by touch. Before any other move's name, at 24 places (`_nameAt`), and as a last resort across another orb: what is
-  //      acted on is named unless every place is on the position's name, under a control or off the map.
+  // THE RULE: a name is written only where it can be read. In ORDER OF CLAIM (`draw()`): the move in flight's label during a
+  // move, else the position's own label (both are never moved or refused); the pointer's label (its usual place, or the
+  // mirror side of its orb when that place is not clear: `side`, its own fit, below); then, through this planner, a node the
+  // player was just pointed at (`flare` without `trail`, pass "point"); the dealt moves (pass "move"); the lit trail (pass
+  // "lit", best effort). Each candidate takes the first of its places whose ink box, grown by its air, touches none of: a
+  // name already claimed this frame (one box per label); a control over the map (`_nameBlocks`); the map's edge; the orb of
+  // another dealt move or of the position's pair, with that orb's shoulders where a gold dot can sit (every dealt orb,
+  // known or not, so a grade never moves a name). No place passes: the name is not written. The places are `_nameAt`'s.
+  // Only an orb whose silhouette is on the canvas is a candidate. Within a pass:
+  //   1. what the player is ACTING ON (the card under the pointer, the card holding keyboard focus, a card turned up by
+  //      touch; every "point" node): 24 places, and as a last resort across another orb. Named unless every place is on a
+  //      name claimed before it, under a control or off the map.
   //   2. the names WRITTEN LAST TIME, in the row's order, each at its old place first: they keep it down to 3 px of air.
   //   3. the rest, in the row's order (the cards left to right, as the player reads them, `draw()`), with 6 px of air,
   //      and only a move whose orb stands 6 px clear of every other dealt orb (3 px to keep a name): a name must belong to
   //      ONE orb (the designer's rule 5, practice-r6 section 4).
   // A DECISION PER CAMERA STATE, NOT A RE-DEAL EVERY FRAME (the brief's "names must not blink while the camera eases"): a
-  // written name is tested first, at its old place first, with less air than a newcomer, so it is never bumped by a
-  // neighbour whose turn came first and cannot toggle at a boundary (it leaves at 3 px, comes back only at 6); and while the
-  // zoom moves (`admit` false, `draw()`), names only LEAVE when they no longer fit and none comes in but what is acted on:
-  // the rest are dealt once it rests. Measured without that: an ease from 4 times out re-dealt names every frame, and one
-  // left and came back within 3 frames on another side. A frame whose inputs are unchanged (camera, hand, cards, pointer,
-  // controls, the names before it) reuses the last plan: no layout work.
-  // The pointer's own label (the hover pair group or single label, `draw()`'s `side`) is not planned here: it claims right
-  // after the position's, at its usual place or, when that is not clear, mirrored to the other side of its orb.
+  // written name is tested first, with less air than a newcomer, so it is never bumped by a neighbour whose turn came first
+  // and cannot toggle at a boundary (it leaves at 3 px, comes back only at 6); and while the camera MOVES (pan or zoom, per
+  // second: `admit` false, `draw()`), a written name keeps its own place or leaves, never changes side, and a name that left
+  // comes back only at rest and no sooner than half a second after it left; a newcomer (an orb sliding into view) may come
+  // in while it moves. Measured: an ease from 4
+  // times out re-dealt names every frame without this, one leaving and coming back within 3 frames on another side; a slow
+  // drag, 2 to 7. Measured over 12 recorded drags (240 frames, 3 px a frame) against "nothing comes in until rest": the same
+  // 0 returns and 0 changes of side, and more names on screen while moving (1440 dragging down: 7.4 a frame against 3.4,
+  // never under 3 against down to none); docs/Changelog-Archive.md v1.275.0 R1. A frame whose inputs are
+  // unchanged (camera, hand, cards, pointer, controls, the names before it) reuses the last plan: no layout work.
+  // The trail ("lit") is admitted while moving (the camera follows a travelling move) and may change place: best effort.
   // Nothing is lost: a move whose name is not written is named the moment the pointer is on its orb or on its card (step
   // 1, and the hover label), a tap stages it as before, and its card in the row carries its name as before.
   // Published: `_lastNameBoxes`, every box written this frame in order of claim (`g` its label, so the claim's sequence,
-  // `w` its kind: position, travel, hover, star, move, lit; `i` its node).
+  // `w` its kind: position, travel, hover, star, point, move, lit; `i` its node; `k` a planned name's place).
   _planNames(pass, ctx, cands, claims, orbs, sig, admit, A) {
-    const nm = this._nm || (this._nm = {}), memo = nm[pass] || (nm[pass] = { prev: new Map() });
-    sig += A.v + A.l;
+    const nm = this._nm || (this._nm = {}), memo = nm[pass] || (nm[pass] = { prev: new Map(), gone: new Map() }), gone = memo.gone, t = this.now;
+    // a name that LEFT waits: while the camera moves until it rests, and at rest until half a second has passed (R1: no name
+    // leaves and comes back within half a second); the live waits are in the key, so a held camera re-plans as one ends
+    sig += A.v + A.l + "|" + [...gone.values()].filter((g) => t - g < 0.5).length;
     if (memo.sig !== sig) {
       const plan = new Map(), prev = memo.prev, G = claims.length, K24 = [...Array(24).keys()], K = K24.slice(0, 8);
       // the box may be written with air `m`: inside the map, clear of every claim and control, and (`o`) of other orbs
@@ -21055,9 +21071,11 @@ class Component extends DCLogic {
         const inc = prev.has(c.i); let b;
         if (step !== (c.act ? 0 : inc ? 1 : 2)) continue;
         if (!step) b = place(c, K24, 6, 1) || place(c, K24, 3, 1) || place(c, K24, 3, 0);
-        else if ((inc || admit) && room(c) >= (inc ? 3 : 6)) b = place(c, inc ? [prev.get(c.i)].concat(K) : K, inc ? 3 : 6, 1);
+        else if ((inc || !(admit ? t - gone.get(c.i) < 0.5 : gone.has(c.i))) && room(c) >= (inc ? 3 : 6)) b = place(c, inc ? [prev.get(c.i)].concat(admit ? K : []) : K, inc ? 3 : 6, 1);
         if (b) { b.g = G + plan.size; b.w = pass; b.i = c.i; claims.push(b); plan.set(c.i, b); }
       }
+      for (const i of prev.keys()) if (!plan.has(i)) gone.set(i, t);
+      if (admit) for (const [i, g] of gone) if (t - g >= 0.5) gone.delete(i);
       memo.prev = new Map([...plan].map(([i, b]) => [i, b.k]));
       memo.sig = sig; memo.plan = plan;
     } else for (const b of memo.plan.values()) claims.push(b);
@@ -21990,12 +22008,20 @@ class Component extends DCLogic {
         const r = this._nodeHalfW(n, scale, nodeK, kLOD, true), [R, up, down] = this._sealGeo(n, r);
         orbs.push({ i, x: (n.x - this.cam.cx) * scale + W / 2, y: (LY(n) - this.cam.cy) * scale + H / 2, r, reach: Math.max(r, Math.max(up, down) * 1.4142 + R) + 1 });
       }
-      // A DECISION PER CAMERA STATE, not per frame: while the zoom moves (more than 0.2% since the last frame), names only
-      // leave, when they no longer fit; new ones come in when it rests (`_planNames`' `admit`). Measured before this, an ease
-      // from 4 times out re-dealt names every frame: one left and came back within 3 frames, on another side.
-      const zk = Math.log(this.cam.vw), still = Math.abs(zk - (this._zPrev ?? zk)) < 0.002;
-      this._zPrev = zk;
+      // THE CAMERA MOVES OR RESTS, PER SECOND of the frame clock (v1.275.0; R1 findings 7 and 9). Moving: the zoom changing
+      // faster than 0.12 (log units) a second, or the map sliding faster than 30 px a second, since the last drawn frame
+      // (0.2% and 0.5 px at 60 Hz, so 30 Hz and 120 Hz screens agree). While it moves a written name keeps ITS place or
+      // leaves (`_planNames`' `admit`). A pan
+      // counts, not only a zoom: on a slow drag 4 times out the zoom-only rule let 2 to 7 names leave and come back within
+      // half a second, and at the usual zoom names hopped side 5 to 53 times as the chrome came near. A name that left during
+      // the motion comes back only at rest; an orb that slides into view may be named while it moves (`_planNames`).
+      const zk = Math.log(this.cam.vw), cp = this._camPrev, dtD = cp ? this.now - cp.t : 0;
+      const still = !cp || Math.abs(zk - cp.z) <= 0.12 * dtD && Math.hypot(this.cam.cx - cp.x, this.cam.cy - cp.y) * scale <= 30 * dtD;
+      this._camPrev = { z: zk, x: this.cam.cx, y: this.cam.cy, t: this.now }; this._camStill = still;   // published: the frame's own call
       const cand = (n, sx, sy, extra) => ({ i: n.idx, n, sx, sy, hw: halfW(n), r: this._nodeHalfW(n, scale, nodeK, kLOD, true), s: this.graphName(n), ...extra });
+      // a name only for an orb whose own silhouette is on the canvas (R1 finding 5: a far-side place could name an orb
+      // drawn wholly off the screen, at the edge, where it reads as the name of whatever orb is nearest)
+      const on = (c) => c.sx + c.r > 0 && c.sx - c.r < W && c.sy + c.r > 0 && c.sy - c.r < H;
       // plan one pass (`_planNames`, keyed on everything its answer depends on) and write what it placed
       const write = (pass, cands, col) => {
         ctx.textBaseline = "bottom"; ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
@@ -22005,6 +22031,23 @@ class Component extends DCLogic {
         ctx.shadowBlur = 0;
         return plan;
       };
+      // LIT NODES (`flare`). ONE node the player was just sent to or shown (a locate, the move just played and its
+      // outcome, a replay's outcome, the submission that caught you, the opponent's move) is ACTED ON: named before the
+      // dealt moves, at 24 places (R1 finding 4, the owner's rule "a redesign keeps every capability": a node the player
+      // was pointed at is named). A TRAIL of many (`flare(…, …, true)`: the travel path, the end-of-round cascade, a replay's
+      // wide beat, the ripple to the dealt orbs) is best effort and named last: writing every name of a trail is the
+      // pile-up the owner asked us to end. Never a dealt move (named below) nor a face-down move's pair partner, which
+      // carries the hidden move's name (R1 finding 10, an old leak in this loop).
+      const point = [], trail = [], litCol = (c) => this.rgba({ r: 238, g: 241, b: 246 }, 0.8 * c.k * A);
+      for (const n of this.nodes) {
+        if (!rsOk[n.idx]) continue;
+        const age = this.now - n.lit; if (age > 3.2 || n.idx === drawFocus) continue;
+        if (this.activeMove && n.idx === this.activeMove.idx) continue;
+        if (this.optionIdxs.indexOf(n.idx) >= 0 || (hmDown && hmDown.has(n.idx))) continue;
+        const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { k: Math.max(0, 1 - age / 3.2), act: !n.litT });
+        if (on(c)) (c.act ? point : trail).push(c);
+      }
+      if (point.length) write("point", point, litCol);
       // persistent labels on the outgoing option nodes while a decision is open
       this._lastOptLabels = null; // published like _lastPairLabel: "what did THIS frame draw"
       this._lastOptBoxes = null;  // ...and where (CSS px), so the seal's dot is held off every name (v1.272.0)
@@ -22026,27 +22069,15 @@ class Component extends DCLogic {
           if (idx === drawFocus || (drawFocus >= 0 && n.pairId && this.nodes[drawFocus].pairId === n.pairId)) continue;
           // ...and the same for the orb the pointer names (it used to be printed twice, the option's name under the hover's)
           if (_hovNode && (idx === _hovNode.idx || n.pi === _hovNode.idx) && claims.some((q) => q.w === "hover")) continue;
-          const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
-          if (sx < -60 || sx > W + 60 || sy < -20 || sy > H + 20) continue;
-          cands.push(cand(n, sx, sy, { act: acted.has(idx) }));
+          const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { act: acted.has(idx) });
+          if (on(c)) cands.push(c);
         }
         const plan = write("move", cands, (c) => this.rgba(c.n.col, 0.95 * A));
         this._lastOptLabels = cands.filter((c) => plan.has(c.i)).map((c) => c.i);
         // the name's INK box, not a guessed pad
         this._lastOptBoxes = this._lastOptLabels.map((idx) => { const b = plan.get(idx); return { idx, l: b.l, r: b.r, t: b.t, b: b.b }; });
       }
-      // transient names on recently-lit nodes (excluding the focus, which gets a rich label): the last claim
-      const lit = [];
-      for (const n of this.nodes) {
-        if (!rsOk[n.idx]) continue;
-        const age = this.now - n.lit; if (age > 3.2 || n.idx === drawFocus) continue;
-        if (this.activeMove && n.idx === this.activeMove.idx) continue;
-        if (this.optionIdxs.indexOf(n.idx) >= 0) continue; // outgoing nodes get persistent labels above
-        const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
-        if (sx < -60 || sx > W + 60 || sy < 0 || sy > H + 20) continue;
-        lit.push(cand(n, sx, sy, { k: Math.max(0, 1 - age / 3.2) }));
-      }
-      if (lit.length) write("lit", lit, (c) => this.rgba({ r: 238, g: 241, b: 246 }, 0.8 * c.k * A));
+      if (trail.length) write("lit", trail, litCol);
       this._lastNameBoxes = claims;
       // THE SEALS (v1.272.0): over every orb, the scene's highlight and the focus mark, and laid out with every name this
       // frame wrote (v1.275.0: all of them, the position's and the pointer's too, which are now written first), so a dot

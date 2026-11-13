@@ -22,7 +22,9 @@
  *   crossOrb   labels crossing the drawn orb of another dealt move or of the position's pair (not their own)
  *   crossSeal  labels crossing a gold dot that is not their own (`_lastMapSeals`)
  *   crossBg    labels crossing any other orb drawn on screen (the cloud: reported, not a target)
- * and how many labels were written, by kind (the position's own, dealt moves, other), so "zero overlaps" can never be
+ * and how many labels were written, by kind (the position's own, dealt moves, other), ON THE FRAME AT REST (each case draws
+ * the wheel's own frame, where new names wait for rest, and records the next; `jump` counts the moves named on the first),
+ * so "zero overlaps" can never be
  * bought by writing nothing, beside how many dealt orbs were on the canvas (`inView`) and in the FREE map, their centre
  * under no control (`inMap`: the moves a name could be written beside at all). Orb radii here are the silhouette (`shapePath`'s widening of the type, the mitosis
  * radius, `nodeK`) recomputed from draw()'s formulas; that is a re-implementation and is why this is a survey.
@@ -110,6 +112,7 @@ async function measure(page) {
     // one frame after the wheel's jump, then the one recorded: the frame of a jump is a moving camera (v1.275.0 deals new
     // names only at rest), and the bundle before keeps no state between frames, so the extra 17 ms changes nothing there
     a.advance(17)
+    const jump = (a._lastOptLabels || []).length   // move names on the wheel's own frame (v1.275.0 deals new ones only at rest)
     window.__ngTextLog = []; window.__ngTextRec = true
     a.advance(17)
     window.__ngTextRec = false
@@ -221,6 +224,7 @@ async function measure(page) {
       if (orbs.some((o) => !o.hand && !own(o) && circ(L.box, o, o.R))) out.crossBg++
     }
     out.hand = (a.optionIdxs || []).length
+    out.jump = jump
     out.inView = (a.optionIdxs || []).filter((i) => orbs.some((o) => o.idx === i && o.x > 0 && o.x < W && o.y > 0 && o.y < H)).length
     // ...and in the FREE map: the orb's centre on the canvas and under no painted control (what a name could be written beside)
     out.inMap = (a.optionIdxs || []).filter((i) => orbs.some((o) => o.idx === i && o.x > 0 && o.x < W && o.y > 0 && o.y < H && !painted.some((p) => o.x >= p.l && o.x <= p.r && o.y >= p.t && o.y <= p.b))).length
@@ -333,14 +337,14 @@ const rows = new Map()
 for (const c of result.cases) {
   if (c.error) continue
   const k = c.vp + " " + c.drawer + " x" + c.zoom
-  const r = rows.get(k) || { cases: 0, positionNames: 0, moveNames: 0, otherNames: 0, overlaps: 0, near: 0, cut: 0, trimmed: 0, under: 0, crossOrb: 0, crossSeal: 0, crossBg: 0, inView: 0, inMap: 0, hand: 0 }
-  r.cases++; r.positionNames += c.written.position; r.moveNames += c.written.move; r.otherNames += c.written.other
+  const r = rows.get(k) || { cases: 0, jumpNames: 0, positionNames: 0, moveNames: 0, otherNames: 0, overlaps: 0, near: 0, cut: 0, trimmed: 0, under: 0, crossOrb: 0, crossSeal: 0, crossBg: 0, inView: 0, inMap: 0, hand: 0 }
+  r.cases++; r.jumpNames += c.jump || 0; r.positionNames += c.written.position; r.moveNames += c.written.move; r.otherNames += c.written.other
   for (const f of ["overlaps", "near", "cut", "trimmed", "under", "crossOrb", "crossSeal", "crossBg", "inView", "inMap", "hand"]) r[f] += c[f]
   rows.set(k, r)
 }
 result.table = Object.fromEntries(rows)
 fs.mkdirSync(path.dirname(path.resolve(OUT)), { recursive: true })
 fs.writeFileSync(OUT, JSON.stringify(result, null, 1))
-console.log("case                     n  posN moveN othN | overlap near  cut trim under | xOrb xSeal  xBg | inView inMap hand")
-for (const [k, r] of rows) console.log(k.padEnd(24), String(r.cases).padStart(2), String(r.positionNames).padStart(5), String(r.moveNames).padStart(5), String(r.otherNames).padStart(4), "|", String(r.overlaps).padStart(7), String(r.near).padStart(4), String(r.cut).padStart(4), String(r.trimmed).padStart(4), String(r.under).padStart(5), "|", String(r.crossOrb).padStart(4), String(r.crossSeal).padStart(5), String(r.crossBg).padStart(4), "|", String(r.inView).padStart(6), String(r.inMap).padStart(5), String(r.hand).padStart(4))
+console.log("case (counts on the frame AT REST: one drawn frame after the wheel, then the one recorded)   n  posN moveN(rest) othN jumpN | overlap near  cut trim under | xOrb xSeal  xBg | inView inMap hand")
+for (const [k, r] of rows) console.log(k.padEnd(24), String(r.cases).padStart(2), String(r.positionNames).padStart(5), String(r.moveNames).padStart(5), String(r.otherNames).padStart(4), String(r.jumpNames).padStart(5), "|", String(r.overlaps).padStart(7), String(r.near).padStart(4), String(r.cut).padStart(4), String(r.trimmed).padStart(4), String(r.under).padStart(5), "|", String(r.crossOrb).padStart(4), String(r.crossSeal).padStart(5), String(r.crossBg).padStart(4), "|", String(r.inView).padStart(6), String(r.inMap).padStart(5), String(r.hand).padStart(4))
 console.log("errors:", (result.errors || []).length, "failed seats:", result.cases.filter((c) => c.error).length)
