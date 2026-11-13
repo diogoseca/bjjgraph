@@ -1645,7 +1645,63 @@ def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int]
           f"and name order")
     if collisions:
         print(f"flashcards/: {collisions} deck(s) sharing a hashed chunk file")
+    _write_live_questions(decks, set(shared), fc_dir)
     return len(decks), sum(len(d["cards"]) for d in decks.values())
+
+
+# THE LIVE QUESTIONS (v1.271.0): which questions each deck holds NOW, so the rating (neural/src/rating.src.js) can tell
+# a stored row for a live card from one for a card that was reworded or removed since (rows are never pruned). Fetched
+# ON DEMAND only, when something asks for the rating to be checked (`ratingCheck()`), never at boot.
+#   · 16 bits a card: the low 16 bits of fnv1a32(question), for every card whose question is NOT in the manifest's
+#     `shared` index (a shared question's decks are already on the boot wire, current, so they cost nothing here).
+#   · in the manifest's NAME order, which is the order the app decodes `_index.json` into; `n` carries how many entries
+#     each deck has (one byte a deck: refused above 255), so the file aligns itself and never leans on a derivation.
+#   · `rev` = fnv1a32 over "<deck key>\t<card count>" per deck, newline-joined, in that order: the app computes the same
+#     string from the manifest it booted with, and a file built for another deck list is refused ("stale-live").
+#   · at least TWO files, each at most CHUNK_LIMIT bytes (check_payload_budget.py's largest on-demand chunk), named
+#     live-<i>.json: a name with no leading underscore in this chunk directory is an ON-DEMAND chunk, never eager.
+# What 16 bits cost, and what they cannot see, is measured and stated in the module's header (NOT COVERED).
+LIVE_CHUNK_LIMIT = 40_000
+
+
+def _write_live_questions(decks: dict, shared_hashes: set, fc_dir: Path) -> None:
+    import base64
+    from _neural_content import fnv1a32
+    keys = sorted(decks)
+    rev = fnv1a32("\n".join(f"{k}\t{len(decks[k]['cards'])}" for k in keys))
+    per_deck = []
+    for k in keys:
+        vals = [int(fnv1a32(c["q"]), 16) & 0xFFFF for c in decks[k]["cards"] if fnv1a32(c["q"]) not in shared_hashes]
+        if len(vals) > 255:
+            raise SystemExit(f"[neural] live questions REFUSING TO EMIT: deck {k!r} has {len(vals)} unshared cards, over the one-byte count")
+        per_deck.append(vals)
+    total = sum(len(v) for v in per_deck)
+
+    def files_for(count: int) -> list[str]:
+        out, start, target = [], 0, -(-total // count)
+        for i in range(count):
+            end, got = start, 0
+            while end < len(keys) and (got < target or i == count - 1):
+                got += len(per_deck[end]); end += 1
+            q = b"".join(v.to_bytes(2, "little") for vals in per_deck[start:end] for v in vals)
+            body = {"format": 1, "rev": rev, "file": i, "files": count, "from": start, "to": end, "bits": 16,
+                    "n": base64.b64encode(bytes(len(v) for v in per_deck[start:end])).decode(),
+                    "q": base64.b64encode(q).decode()}
+            out.append(json.dumps(body, separators=(",", ":")))
+            start = end
+        if start != len(keys):
+            raise SystemExit(f"[neural] live questions: {len(keys) - start} deck(s) left out of {count} files")
+        return out
+
+    count = 2
+    bodies = files_for(count)
+    while max(len(b.encode()) for b in bodies) > LIVE_CHUNK_LIMIT:
+        count += 1
+        bodies = files_for(count)
+    for i, body in enumerate(bodies):
+        (fc_dir / f"live-{i}.json").write_text(body)
+    print(f"  live questions: {total} unshared cards of {len(keys)} decks in {count} files "
+          f"({', '.join(f'{len(b.encode()):,} B' for b in bodies)}), rev {rev}")
 
 
 def deck_name(key: str) -> str:

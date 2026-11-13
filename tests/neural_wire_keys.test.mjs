@@ -82,7 +82,8 @@ function chunkManifest() {
   const found = {};
   let files = 0;
   for (const f of readdirSync(FC)) {
-    if (f === "_index.json" || !f.endsWith(".json")) continue;
+    // `live-<i>.json` is the rating's live-questions file (v1.271.0, neural/src/rating.src.js), not a deck chunk
+    if (f === "_index.json" || /^live-\d+\.json$/.test(f) || !f.endsWith(".json")) continue;
     files++;
     const blob = JSON.parse(readFileSync(resolve(FC, f), "utf8"));
     for (const k in blob) found[k] = [blob[k].cat, blob[k].cards.length];

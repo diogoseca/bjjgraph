@@ -16951,3 +16951,65 @@ hand, and says so. 20 tests, 31 mutants, each killed by its named test. Final by
 
 **Not covered:** answers from the other ruleset classed two ways (above); a retired question read as a live one (above); whether this weighting is the right one (the owner's, from
 the simulation); any painted surface (none); a browser timing of the first call (node: 45 to 54 ms).
+
+## v1.271.0 — The rating tells a live question from a retired one: checked against a small on-demand file, final only when checked (LIVE1, 2026-11-13)
+
+**The gap.** Stored rows are never pruned, and the deck manifest carries a card COUNT per deck, not its questions, so
+Stage 1 priced a row for a card reworded or removed since as a live card; the deck cap (v1.269.0) only stopped a deck
+reading as more than fully known. Now a stored card row counts only while its deck holds its question.
+
+**Two shapes, measured on this wire (2,862 decks, 21,269 cards, 7.4 a deck on average, 33 at most), and the pick.**
+(c) checking each row against its deck's own chunk costs one request per deck, ~2.1 KB gzip each: 21 KB for 10 decks,
+210 KB for 100, 631 KB for 300, 2.1 MB for 1,000 (a simulated month at 20 a day touches 282 decks, a year ~1,144). (e) a
+small file fetched on demand costs the same for everyone: 2 requests, 40.9 KB gzip, once per content change. (e) is
+cheaper for anyone past ~20 decks, and (c) would also have needed a second chunk path, because `hydrateDeck` prunes
+`stage` and saves (`_pruneStaleGrades`), which a reader that writes nothing cannot call. Built: (e).
+
+**The files.** `flashcards/live-0.json` and `live-1.json`, emitted by `scripts/regenerate_neural_data.py`
+(`_write_live_questions`, right after `_index.json`): the low 16 bits of fnv1a32(question) for every card whose question
+the manifest's `shared` index does not list (20,350), in the manifest's NAME order, with one byte a deck saying how many;
+at least two files, each at most 40,000 B (29,147 and 29,122 B today), refused above 255 unshared cards a deck. Each
+carries `rev`, fnv1a32 over "<deck key>\t<card count>" per deck: the app computes the same string from the manifest it
+booted with. The plain name (no leading underscore) in a chunk directory makes them ON-DEMAND chunks for
+`check_payload_budget.py`: no eager, deferred or first-hand byte. Every workflow that builds emits them through the same
+script: `ci-validate.yml` (`regenerate_neural_data.py`), `e2e-full.yml`, `e2e-gen.yml`, `deploy-dev.yaml` and
+`deploy.yaml` (`npm run regenerate:neural`). `/static/*` in `_headers` gives them the chunks' cache tier; no redirect is
+involved. The build census moves by the two files (+2 static, +2 JSON), re-seeded from a guarded capture.
+
+**The rule.** A shared question is live in exactly the decks its index lists (the boot wire is current, so it needs no
+file); its knowledge is its latest row wherever filed, and a row filed in a deck the index does not list is retired
+there. Any other question is live in each of its rows' decks whose live set holds its 16 bits. A row whose liveness cannot
+be known yet is `unchecked`, never counted as known and never dropped; while any is, the answer is NOT FINAL
+(`final: false`, status "checking" or "unchecked" with a `reason`: "not-asked", "fetch-failed", "stale-live",
+"bad-live") and carries no number, so no surface can show one that moves by itself. The counts say how many card rows
+were `checked`, how many of those `retired`, and how many are `unchecked`. A file built for another deck list (a content
+deploy between the app's boot and the fetch that changed the list or a count) is never read: every row unchecked,
+"stale-live". A deploy that only rewords cards keeps both, so the fetched file is the newer content's truth. The deck cap
+stays as a second line: with the check it fires only on a 16-bit wrong accept in a deck already fully known.
+
+**The reader.** `rating()` never fetches. `ratingCheck()` fetches both files at once (the files say how many there are;
+more than two would be fetched after), once per deck manifest, coalesced, and resolves to `rating()`; a failure leaves a
+named status and the next call retries. The decoded sets live in memory only (`_ratingLive`, ~20,000 numbers): losing them
+loses nothing. Nothing is stored, deleted, rewritten or marked. `_pruneStaleGrades` is untouched: on a deck's chunk
+arriving it still deletes that deck's `stage` entries for questions it no longer holds (guarded on the chunk matching
+`n`), never `srs`; the live check reads the same decks without loading their chunks.
+
+**What 16 bits cannot see (NOT COVERED, measured).** A retired row whose low 16 bits equal a live card's of its deck is
+kept: per retired row 5.7e-5 in decks of 1-4 cards, 8.9e-5 in 5-8, 1.5e-4 in 9-16, 3.2e-4 in 17-33 (the worst deck
+5.0e-4). Two decks hold two live unshared cards with one 16-bit value (harmless). A unit pins 16 bits against 8.
+
+**The five stored-progress shapes of ELO1, each with 5.8% of its card rows retired** (median of 15 seeds; the simulation's
+own records, gi): a week 1,078.46 without the retired rows, 1,082.80 with them priced as live, 1,078.46 with the check; a
+month 1,125.60 / 1,130.90 / 1,125.60; a year 1,214.12 / 1,218.73 / 1,214.12 (84 decks capped before); everything mastered
+1,948.68 / 1,964.17 / 1,948.68 (1,002 capped). Rows expected to be wrongly kept: 0.023 a year, 0.17 everything mastered.
+Parity with the simulation holds with the check loaded: 2.0e-11 (gi), 2.5e-11 (no-gi); every record final.
+
+**Proof.** `tests/rating.test.mjs`: 27 tests; 43 mutants, each alone, each killed by the test it names, the twelve new ones
+L1-L12: a retired row counted, a live row dropped, a shared question checked against the files or read live everywhere,
+an unchecked row counted as known, "final" said while rows wait, the check skipped entirely, 8 bits, a stale file
+accepted, a fetch on a plain read, a second fetch, the cache not keyed on the check. `e2e/journeys/rating-reader.spec.ts`:
+a page that never asks fetches zero live files and is not final; asking fetches exactly two, and the page's number and
+counts equal node's; storage byte-identical; a stale file reads "unchecked", "stale-live", no number.
+`tests/neural_wire_keys.test.mjs` skips the live files when it reads the chunks as decks. Bytes: the eager set reads
+356,459 B, +3,493 of 5,000 since the checkpoint (dev v1.269.0 at 355,304; this change +1,155, code only); deferred
+511,043 of 511,043, unchanged; the largest on-demand chunk stays 39,000 of 40,000.

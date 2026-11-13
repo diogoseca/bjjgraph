@@ -35,11 +35,19 @@
 //   Nothing credits a card you have never answered: this is C0 of the seat's simulation (ELO1, kept outside the repo):
 //   no credit yet for what you knew before the app — that needs a first-answer record, a later stage.
 //
-// NOT COVERED — A RETIRED QUESTION READS AS A LIVE ONE. The manifest carries a card COUNT per deck, not its questions,
-// so this module cannot tell a row for a question the deck still holds from a row for one that was rewritten or removed
-// (and stored rows are never pruned). A deck with retired rows can therefore read as fully known when it is not; the cap
-// above stops it reading as MORE than known, and `decksOver` / `rowsOver` show it happened, but they cannot see a deck
-// whose live and retired rows together stay under its count. This must be settled before any surface shows the number.
+// A RETIRED QUESTION IS NOT PRICED (v1.271.0, the live check below): a stored row counts only while its deck holds its
+// question now. A row that cannot be checked yet is never counted as known and never dropped: it is `unchecked`, and the
+// whole answer is then not final (`final: false`, no number), so no surface can show a number that moves by itself.
+// NOT COVERED — WHAT 16 BITS CANNOT SEE. The live files carry 16 bits a card, so a retired row is wrongly read as live
+// when its low 16 bits equal one of its deck's live cards'. Measured on this wire (v1.271.0), per retired row: 5.7e-5 in
+// decks of 1-4 cards, 8.9e-5 in 5-8, 1.5e-4 in 9-16, 3.2e-4 in 17-33 (the worst deck 5.0e-4). On the seat's simulated
+// records with 5.8% of their card rows retired, the rows expected to be wrongly kept: 0.023 for a year at 20 a day (3,305
+// card rows), 0.17 for everything known (21,269). Two live cards of one deck sharing a 16-bit value is harmless (2 decks
+// of 2,862 have one). A cut to 8 bits would raise these ~256-fold, and a unit pins the 16.
+// NOT COVERED — A REWORDED QUESTION BETWEEN BOOT AND FETCH. The files carry a fingerprint of the deck list and each
+// deck's card count. A content deploy that rewords a card keeps both, so the fetched file is the newer content's truth:
+// a row for the old wording reads retired, one for the new wording live. A deploy that changes the list or a count
+// makes the fingerprint differ: every row is `unchecked`, reason "stale-live", never priced.
 // NOT COVERED EITHER — ANSWERS FROM THE OTHER RULESET ARE CLASSED TWO WAYS (GO402 D2): a flashcard on a deck only the
 // other ruleset weighs counts as `outside` (a record of nothing else reads "ok", 1000), while a move at a seat only the
 // other ruleset deals counts as `unknownSeat` (a record of nothing else reads "unmatched", null), because the game handed
@@ -222,33 +230,110 @@ export function ngRatingUniverse(input) {
   return out;
 }
 
+// ── THE LIVE CHECK (v1.271.0) ─────────────────────────────────────────────────────────────────────────────────────
+// A stored row counts only while its deck holds its question NOW. Rows are never pruned, so a card reworded or removed
+// since leaves a row behind; the manifest carries a card COUNT per deck, not its questions. The live files
+// (flashcards/live-<i>.json, emitted by scripts/regenerate_neural_data.py `_write_live_questions`, fetched on demand by
+// the app's `ratingCheck()`, never at boot) carry 16 bits a card for every card whose question the manifest's `shared`
+// index does not list. A shared question's decks ARE that index (boot wire, current), so it is checked there for free.
+export const NG_RATING_LIVE_FORMAT = 1;
+/** A card's live key is the low 16 bits of its question hash: the files carry 16 bits a card. */
+export const NG_RATING_LIVE_MASK = 0xffff;
+/** What a reader hands `ngRatingShare` while the live files are in flight: one object, so a cache can key on it. */
+export const NG_RATING_CHECKING = Object.freeze({ status: "checking" });
+
+function ngRatingFnv(s) {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; }
+  return ("0000000" + h.toString(16)).slice(-8);
+}
+function ngRatingB64(s) {
+  if (typeof s !== "string") return null;
+  try { const b = atob(s), out = new Uint8Array(b.length); for (let i = 0; i < b.length; i++) out[i] = b.charCodeAt(i); return out; }
+  catch (e) { return null; }
+}
+/** The 16-bit live key of a stored question hash (8 lowercase hex digits, as `ngKnowledgeQuestionHash` writes it). */
+export function ngRatingQ16(qh) {
+  return typeof qh === "string" && /^[0-9a-f]{8}$/.test(qh) ? parseInt(qh, 16) & NG_RATING_LIVE_MASK : null;
+}
+/** The fingerprint a live file is built for: each deck's key and card count, in the manifest's NAME order. */
+export function ngRatingLiveRev(deckList) {
+  return ngRatingFnv((deckList || []).map(([k, n]) => k + "\t" + n).join("\n"));
+}
+/**
+ * Read the live files against the deck list the app booted with ([[deckKey, n], …] in NAME order).
+ * Returns {status: "ok", rev, decks: Map<deckKey, Set<16-bit key>>, counts: {files, decks, entries}}, or
+ * {status: "unchecked", reason} — "fetch-failed" (a file missing), "stale-live" (built for another deck list: a
+ * content deploy between the app's boot and the fetch), "bad-live" (malformed, or not covering every deck once).
+ * Nothing partial is ever "ok": a file that cannot be read leaves EVERY row unchecked, never some.
+ */
+export function ngRatingLiveDecode(files, deckList) {
+  const fail = (reason) => ({ status: "unchecked", reason, decks: null });
+  if (!Array.isArray(deckList) || !deckList.length) return fail("no-manifest");
+  if (!Array.isArray(files) || !files.length || files.some((f) => !f || typeof f !== "object")) return fail("fetch-failed");
+  const rev = ngRatingLiveRev(deckList), decks = new Map(), seen = new Set();
+  let entries = 0;
+  for (const f of files) {
+    if (f.format !== NG_RATING_LIVE_FORMAT || f.bits !== 16) return fail("bad-live");
+    if (f.rev !== rev) return fail("stale-live");
+    if (f.files !== files.length || !Number.isInteger(f.file) || seen.has(f.file) || f.file < 0 || f.file >= files.length) return fail("bad-live");
+    seen.add(f.file);
+    if (!Number.isInteger(f.from) || !Number.isInteger(f.to) || f.from < 0 || f.to > deckList.length || f.from >= f.to) return fail("bad-live");
+    const n = ngRatingB64(f.n), q = ngRatingB64(f.q);
+    if (!n || !q || n.length !== f.to - f.from) return fail("bad-live");
+    let at = 0;
+    for (let i = 0; i < n.length; i++) {
+      const [key, cards] = deckList[f.from + i];
+      if (decks.has(key) || n[i] > cards || at + 2 * n[i] > q.length) return fail("bad-live");
+      const set = new Set();
+      for (let j = 0; j < n[i]; j++, at += 2) set.add((q[at] | (q[at + 1] << 8)) & NG_RATING_LIVE_MASK);
+      decks.set(key, set);
+      entries += n[i];
+    }
+    if (at !== q.length) return fail("bad-live");
+  }
+  if (decks.size !== deckList.length) return fail("bad-live");
+  return { status: "ok", rev, decks, counts: { files: files.length, decks: decks.size, entries } };
+}
+
 /**
  * THE SHARE OF THE GAME RECALLED NOW, and its number.
  *   universe  an `ngRatingUniverse` result
  *   record    {srs: {deckKey: {qh: row}}, stage: {deckKey: {qh: 0..4}}, moves: {"<posOrd>/<role>": {mv: row}}}
  *   day       today's epoch day
- * Returns {status, share, points, level, counts}. "ok" carries a number when at least one row met the game (priced,
- * or known to be outside this ruleset's game). "unscheduled" carries the number the definition gives (1000) for a
- * record made only of stages with no schedule, so a caller must choose to show it. Every other status carries
- * `share`, `points` and `level` null: the game's own ("no-manifest", "no-weights", "no-hands"), "no-day", "empty"
- * (not one answer stored, and no stage either) or "unmatched" (rows, but every one malformed or in an unknown deck).
+ *   live      an `ngRatingLiveDecode` result, {status: "checking"} while it is being fetched, or absent (not asked)
+ * Returns {status, final, share, points, level, counts}. `final` is false ONLY for "checking" (the check is in flight)
+ * and "unchecked" (not asked, or it could not run: `reason` names why): then `share`, `points` and `level` are null, so
+ * no number can be shown and then move by itself. "ok" carries a number when at least one row met the game (priced, known
+ * to be outside this ruleset's game, or checked and found retired). "unscheduled" carries the number the definition
+ * gives (1000) for a record made only of stages with no schedule, so a caller must choose to show it. Every other status
+ * carries no number: the game's own ("no-manifest", "no-weights", "no-hands"), "no-day", "empty" or "unmatched".
  * counts (the game's, plus): `rows` read, `questions` and `moves` they make, `weighted` (each one priced, possibly at
- * 0), and every row left out, by reason — `outside` (its deck or move is not in this ruleset's game: no weight, a
- * null cell, a move this seat does not deal, an escape), `unknownDeck` (a deck the manifest does not have),
- * `unknownSeat` (a seat this ruleset does not deal), `badRow` (malformed), `stageOnly` (a stage with no schedule); and `decksOver` / `rowsOver`, decks priced for more
- * questions than they have cards and the questions beyond (their worth is capped at the deck's own).
+ * 0); the live check's `checked` (card rows whose deck's questions were known), `retired` (of those, rows whose deck no
+ * longer holds the question) and `unchecked` (card rows that could not be checked yet); and every row left out, by
+ * reason — `outside` (not in this ruleset's game), `unknownDeck`, `unknownSeat`, `badRow`, `stageOnly`; and
+ * `decksOver` / `rowsOver`, decks priced for more questions than they have cards (a second line of defence: with the
+ * check it fires only on a 16-bit wrong accept in a deck already fully known).
  */
-export function ngRatingShare(universe, record, day) {
+export function ngRatingShare(universe, record, day, live) {
   const U = universe || {};
-  const counts = Object.assign({ rows: 0, questions: 0, moves: 0, weighted: 0, outside: 0, unknownDeck: 0, badRow: 0, stageOnly: 0,
-    unknownSeat: 0, decksOver: 0, rowsOver: 0 }, U.counts || {});
-  const none = (status) => ({ status, share: null, points: null, level: null, counts });
+  const counts = Object.assign({ rows: 0, questions: 0, moves: 0, weighted: 0, checked: 0, retired: 0, unchecked: 0, outside: 0,
+    unknownDeck: 0, badRow: 0, stageOnly: 0, unknownSeat: 0, decksOver: 0, rowsOver: 0 }, U.counts || {});
+  const none = (status) => ({ status, final: true, share: null, points: null, level: null, counts });
   if (U.status !== "ok" || !(U.total > 0)) return none(U.status && U.status !== "ok" ? U.status : "no-weights");
   if (!ngRatingNum(day)) return none("no-day");
+  const L = live && live.status === "ok" && live.decks instanceof Map ? live : null;
+  // a stored card row is live (true), retired (false) or not yet known (null). A shared question's current decks are
+  // the boot manifest's index; any other question is looked up in its deck's live set (absent: not checked yet)
+  const isLive = (dk, qh, S) => {
+    if (S) return S.includes(dk);
+    if (!L) return null;
+    const set = L.decks.get(dk);
+    return set ? set.has(ngRatingQ16(qh)) : null;
+  };
   const rec = record || {}, srs = rec.srs || {}, stage = rec.stage || {}, moves = rec.moves || {};
-  // QUESTIONS: one per question hash, whichever decks its rows sit in. Its decks are the shared index's list when the
-  // question is shared, else the decks holding a row for it. Its row is the latest (`last`), the same-day tie going to
-  // the smaller interval (the cloud merge's own rule); its stage is the highest any of its decks holds.
+  // QUESTIONS: one per question hash, whichever decks its rows sit in. Its row is the latest (`last`), the same-day tie
+  // going to the smaller interval (the cloud merge's own rule); its stage is the highest any of its decks holds.
   const byQ = new Map();
   for (const dk of Object.keys(srs)) {
     const rows = srs[dk];
@@ -256,7 +341,7 @@ export function ngRatingShare(universe, record, day) {
     for (const qh of Object.keys(rows)) {
       counts.rows++;
       const r = rows[qh];
-      if (!Array.isArray(r) || r.length < 3 || !ngRatingNum(r[1]) || !ngRatingNum(r[2]) || r[1] <= 0) { counts.badRow++; continue; }
+      if (ngRatingQ16(qh) == null || !Array.isArray(r) || r.length < 3 || !ngRatingNum(r[1]) || !ngRatingNum(r[2]) || r[1] <= 0) { counts.badRow++; continue; }
       let q = byQ.get(qh);
       if (!q) byQ.set(qh, (q = { row: r, decks: new Set() }));
       else if (r[2] > q.row[2] || (r[2] === q.row[2] && r[1] < q.row[1])) q.row = r;
@@ -268,23 +353,35 @@ export function ngRatingShare(universe, record, day) {
     if (!rows || typeof rows !== "object") continue;
     for (const qh of Object.keys(rows)) if (!byQ.has(qh) && ngRatingNum(rows[qh]) && rows[qh] > 0) counts.stageOnly++;
   }
-  // each question's worth is booked to the decks it is priced in, and a deck is capped at its own full worth (F2)
+  // each question is priced in the decks that hold it NOW: a shared question in its index's decks (the knowledge is the
+  // question's, wherever its latest row is filed), any other in the decks of its rows that the live check confirms.
+  // Its worth is booked to those decks, and a deck is capped at its own full worth (F2).
   const perDeck = new Map();
   for (const [qh, q] of byQ) {
-    const decks = U.shared.get(qh) || [...q.decks];
-    let priced = false, inManifest = false, st = 0;
-    for (const dk of decks) {
-      if (U.deckUnit.has(dk)) priced = true;
-      if (U.decks.has(dk)) inManifest = true;
+    const S = U.shared.get(qh) || null;
+    counts.questions++;
+    let inManifest = false, unchecked = false, st = 0;
+    for (const dk of q.decks) {
+      if (!U.decks.has(dk)) continue;
+      inManifest = true;
+      const v = isLive(dk, qh, S);
+      if (v === null) { counts.unchecked++; unchecked = true; }
+      else { counts.checked++; if (!v) counts.retired++; }
+    }
+    for (const dk of S ? new Set([...S, ...q.decks]) : q.decks) {
       const s = stage[dk] && stage[dk][qh];
       if (ngRatingNum(s) && s > st) st = s;
     }
-    counts.questions++;
-    if (!priced) { if (inManifest) counts.outside++; else counts.unknownDeck++; continue; }
+    const liveDecks = S ? S.filter((dk) => U.decks.has(dk)) : [...q.decks].filter((dk) => U.decks.has(dk) && isLive(dk, qh, S) === true);
+    if (!liveDecks.length) {
+      if (!inManifest) counts.unknownDeck++;   // retired and unchecked rows are counted above, row by row
+      continue;
+    }
+    const priced = liveDecks.filter((dk) => U.deckUnit.has(dk));
+    if (!priced.length) { counts.outside++; continue; }
     counts.weighted++;
     const k = ngRatingRecall(q.row, q.row[1] > 1 || st > 0, day);
-    for (const dk of decks) {
-      if (!U.deckUnit.has(dk)) continue;
+    for (const dk of priced) {
       const d = perDeck.get(dk) || perDeck.set(dk, { k: 0, rows: 0 }).get(dk);
       d.k += k; d.rows++;
     }
@@ -295,7 +392,8 @@ export function ngRatingShare(universe, record, day) {
     if (d.rows > n) { counts.decksOver++; counts.rowsOver += d.rows - n; }
     got += U.deckUnit.get(dk) * Math.min(d.k, n);
   }
-  // MOVES: one per seat and move, priced by its share of that seat's dealt hand in this ruleset.
+  // MOVES: one per seat and move, priced by its share of that seat's dealt hand in this ruleset (the hands are this
+  // build's graph, so a move needs no live check).
   for (const st of Object.keys(moves)) {
     const rows = moves[st];
     if (!rows || typeof rows !== "object") continue;
@@ -312,10 +410,16 @@ export function ngRatingShare(universe, record, day) {
       got += v * ngRatingRecall(r, r[3] === 1, day);
     }
   }
-  // a number only when a row MET the game (READ402 F1): rows that are all malformed or all in unknown decks are not
-  // "nothing known", they are "nothing read", and a record of stages alone is its own case (F5)
-  if (!counts.weighted && !counts.outside) {
-    if (counts.stageOnly) return { status: "unscheduled", share: 0, points: NG_RATING_FLOOR, level: 0, counts };
+  // NOT FINAL while any card row is unchecked: no number at all, so nothing can appear and then move by itself
+  if (counts.unchecked) {
+    const checking = !L && live && live.status === "checking";
+    return { status: checking ? "checking" : "unchecked", reason: checking ? null : (live && live.reason) || "not-asked",
+      final: false, share: null, points: null, level: null, counts };
+  }
+  // a number only when a row MET the game (READ402 F1): rows that are all malformed, in unknown decks or at undealt seats
+  // are "nothing read", not "nothing known"; a record of stages alone is its own case (F5)
+  if (!counts.weighted && !counts.outside && !counts.retired) {
+    if (counts.stageOnly) return { status: "unscheduled", final: true, share: 0, points: NG_RATING_FLOOR, level: 0, counts };
     return none(counts.rows ? "unmatched" : "empty");
   }
   // EVERYTHING KNOWN READS EXACTLY 2000 (GO402 D1). The capped sum adds deck by deck in another order than the
@@ -325,5 +429,5 @@ export function ngRatingShare(universe, record, day) {
   const raw = got / U.total;
   const share = raw > 1 - 1e-9 ? 1 : Math.max(0, Math.min(1, raw));
   const points = ngRatingPoints(share);
-  return { status: "ok", share, points, level: ngRatingLevel(points), counts };
+  return { status: "ok", final: true, share, points, level: ngRatingLevel(points), counts };
 }

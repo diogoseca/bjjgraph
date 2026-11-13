@@ -2991,20 +2991,71 @@ class Component extends DCLogic {
   //     Rebuilt only when the graph, the manifest, the weights or the shared index is replaced, or the ruleset flips;
   //     a hand that fails to deal makes it "hand-failed" and is never kept (a game short one seat is not the game).
   //   · the record: `srs`, `stage` and `moves` AS STORED, read and never written — no row is touched, no save is
-  //     asked for. Cached on those three objects, the moves and knowledge revisions, `_stageVer`, the day and the
-  //     game, so a grade, a pull or a new day recomputes and a repaint does not.
+  //     asked for. Cached on those three objects, the moves and knowledge revisions, `_stageVer`, the day, the game
+  //     and the live check, so a grade, a pull, a new day or the check landing recomputes and a repaint does not.
+  //   · THE LIVE CHECK (v1.271.0): a card row counts only while its deck still holds its question. `rating()` never
+  //     fetches; `ratingCheck()` does, once per deck manifest: both `flashcards/live-<i>.json` at once (the files say
+  //     how many there are; more than two are fetched after), decoded by `ngRatingLiveDecode` into a derived set per
+  //     deck kept in memory only (`_ratingLive`, ~20,000 small numbers; losing it loses nothing, the next check
+  //     rebuilds it). Until it lands, or if it cannot (offline, a failed file, a file built for another deck list),
+  //     every card row that needs it is `unchecked` and the answer is `final: false` with no number.
   // Before the graph, the manifest or the weights are in, the answer is a status with `points: null`, never 1000.
   rating() {
     const frame = this._giMode === "nogi" ? "nogi" : "gi", day = this._epochDay();
     const game = this._ratingGame(frame);
+    const live = this._ratingLiveNow();
     const c = this._ratingCache;
     if (c && c.game === game && c.day === day && c.srs === this.srs && c.stage === this.stage && c.moves === this.moves
-      && c.mrev === this._movesRev && c.krev === this._knowledgeRevision && c.sv === this._stageVer) return c.out;
-    const r = ngRatingShare(game, { srs: this.srs, stage: this.stage, moves: this.moves }, day);
+      && c.mrev === this._movesRev && c.krev === this._knowledgeRevision && c.sv === this._stageVer && c.live === live) return c.out;
+    const r = ngRatingShare(game, { srs: this.srs, stage: this.stage, moves: this.moves }, day, live);
     const out = Object.freeze(Object.assign({ frame, day }, r, { counts: Object.freeze(r.counts) }));
     if (game.status === "ok") this._ratingCache = { game, day, srs: this.srs, stage: this.stage, moves: this.moves,
-      mrev: this._movesRev, krev: this._knowledgeRevision, sv: this._stageVer, out };
+      mrev: this._movesRev, krev: this._knowledgeRevision, sv: this._stageVer, live, out };
     return out;
+  }
+  // the deck list the live files must match: every manifest deck and its card count, in the manifest's NAME order (the
+  // order `_ingestDeckManifest` builds `flashcards.decks` in, and the one `shared` indexes into)
+  _ratingDeckList() {
+    const decks = this.flashcards && this.flashcards.decks;
+    return decks ? Object.keys(decks).map((k) => [k, decks[k].n || 0]) : [];
+  }
+  // what the live check knows now, for THIS manifest: its decoded result, {status: "checking"} while in flight, or
+  // undefined (never asked). A result for an older manifest is not used (the manifest object is part of the key).
+  _ratingLiveNow() {
+    const L = this._ratingLive, decks = this.flashcards && this.flashcards.decks;
+    if (this._ratingLiveP && this._ratingLiveP.manifest === decks) return NG_RATING_CHECKING;   // a retry in flight beats an old failure
+    return L && L.manifest === decks ? L.result : undefined;
+  }
+  // decode files already in hand (the fetch below, or a unit's own read of the payload) and keep the result
+  _ratingLiveFrom(files) {
+    const decks = this.flashcards && this.flashcards.decks;
+    const result = Object.freeze(ngRatingLiveDecode(files, this._ratingDeckList()));
+    this._ratingLive = { manifest: decks, result };
+    return result;
+  }
+  /** Start the live check (one fetch per manifest, coalesced) and resolve to `rating()` once it has landed or failed. */
+  ratingCheck() {
+    const decks = this.flashcards && this.flashcards.decks;
+    if (!decks) return Promise.resolve(this.rating());
+    const L = this._ratingLive;
+    if (L && L.manifest === decks && L.result.status === "ok") return Promise.resolve(this.rating());
+    if (this._ratingLiveP && this._ratingLiveP.manifest === decks) return this._ratingLiveP;
+    const get = (i) => fetch(this._dataBase() + "flashcards/live-" + i + ".json")
+      .then((r) => (r.ok ? r.json() : null)).catch(() => null);
+    const p = Promise.all([get(0), get(1)])
+      .then((two) => {
+        const n = two[0] && Number.isInteger(two[0].files) ? two[0].files : 2;
+        if (n <= 2) return two;
+        const rest = [];
+        for (let i = 2; i < n; i++) rest.push(get(i));
+        return Promise.all(rest).then((more) => two.concat(more));
+      })
+      .then((files) => { this._ratingLiveFrom(files); })
+      .finally(() => { if (this._ratingLiveP === p) this._ratingLiveP = null; })
+      .then(() => this.rating());
+    p.manifest = decks;
+    this._ratingLiveP = p;
+    return p;
   }
   _ratingGame(frame) {
     // a game that could not be read is a STATUS, kept nowhere: `ngRatingShare` turns it into `points: null`. The graph

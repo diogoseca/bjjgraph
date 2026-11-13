@@ -46,13 +46,28 @@
 // GO402 (the reader's delta read):
 //   M22 the snap of a share within 1e-9 of 1 removed (D1)               → "everything known reads exactly 2000"
 //   M23 a card on a deck only the other ruleset weighs read as unknown  → "answers from the other ruleset: classed as today"
+// LIVE1 (the live check, v1.271.0):
+//   L1  a retired row counted (any row in a checked deck read as live)  → "a retired row is not priced, and is counted"
+//   L2  a live row dropped (every row in a checked deck read as retired) → "a retired row is not priced, and is counted"
+//   L3  a shared question checked against the files, not its index     → "a shared question is live where its index lists it, retired elsewhere"
+//   L4  a shared question read as live in every deck                    → "a shared question is live where its index lists it, retired elsewhere"
+//   L5  an unchecked row counted as known (a deck with no live set)     → "an unchecked row is never known, and the answer is not final"
+//   L6  "final" said while rows are unchecked                           → "an unchecked row is never known, and the answer is not final"
+//   L7  the check skipped entirely (no live check read as all live)     → "not asked, checking, and what the boot manifest can check alone"
+//   L8  the check cut to 8 bits                                         → "16 bits a card, not 8"
+//   L9  a file built for another deck list accepted                     → "the live files decode against the deck list they were built for"
+//   L10 the reader fetches on a plain read                              → "the reader's live check: never at a plain read, …"
+//   L11 the reader fetches again once the check has landed              → "the reader's live check: never at a plain read, …"
+//   L12 the cache not keyed on the live check                           → "the reader's live check: never at a plain read, …"
+//   (the gi table read in no-gi stays M5a and M5b)
 //
 // NOT COVERED here:
-//   · A RETIRED QUESTION READS AS A LIVE ONE. The manifest carries a card count per deck, not its questions, so the
-//     module cannot tell a row for a question its deck still holds from a row for one rewritten or removed since (rows
-//     are never pruned). A deck with retired rows can read as fully known when it is not. The cap stops a deck reading
-//     as more than fully known and `decksOver` / `rowsOver` count that it happened, but nothing sees a deck whose live
-//     and retired rows together stay under its count. This must be settled before any surface shows the number.
+//   · WHAT 16 BITS CANNOT SEE (v1.271.0). The live check keeps a retired row when its low 16 bits equal one of its deck's
+//     live cards'. Measured on this wire, per retired row: 5.7e-5 in decks of 1-4 cards, 8.9e-5 in 5-8, 1.5e-4 in
+//     9-16, 3.2e-4 in 17-33 (the worst deck 5.0e-4). "16 bits a card, not 8" pins the width; the rate itself is not
+//     asserted (it is a property of the content). Two live cards of one deck sharing a value is harmless (2 decks).
+//   · A REWORDED QUESTION BETWEEN BOOT AND FETCH keeps the deck list and the counts, so the fetched file is the newer
+//     content's truth; only a changed list or count is caught ("stale-live", pinned).
 //   · PARITY WITH THE SIMULATION IS NOT TESTED HERE. It rests on the seat's simulation scripts, kept outside the repo
 //     with the orchestrator: the module through this reader matched the simulation's C0, computed by the simulation's
 //     own code, to 2.2e-11 points on 588 seeded records, with the simulation's gi moves re-priced from the gi table
@@ -71,13 +86,13 @@ import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import {
-  NG_RATING_TABLE, NG_RATING_FLOOR, NG_RATING_TOP, NG_RATING_BLACK,
+  NG_RATING_TABLE, NG_RATING_FLOOR, NG_RATING_TOP, NG_RATING_BLACK, NG_RATING_CHECKING,
   ngRatingPoints, ngRatingLevel, ngRatingLevelFloor, ngRatingBeltOf, ngRatingNext, ngRatingRecall,
-  ngRatingUniverse, ngRatingShare,
+  ngRatingUniverse, ngRatingShare, ngRatingQ16, ngRatingLiveRev, ngRatingLiveDecode,
 } from "../neural/src/rating.src.js";
 import { ngWireScoreWeights } from "../neural/src/wire-keys.src.js";
 import { ngKnowledgeQuestionHash } from "../neural/src/knowledge-profile.src.js";
-import { ratingApp, ratingFixture, RATING_DAY } from "./_rating_fixture.mjs";
+import { ratingApp, ratingFixture, ratingLiveFiles, RATING_DAY } from "./_rating_fixture.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const DIR = resolve(HERE, "../source/quartz/static/neural");
@@ -91,10 +106,21 @@ const close = (a, b, msg, eps = 1e-12) => assert.ok(Math.abs(a - b) <= eps, `${m
 const tiny = () => ngRatingUniverse({
   decks: { "A|Top": { n: 2 }, "B|Top": { n: 4 }, "Z|Attacker": { n: 1 }, "N|Attacker": { n: 1 }, "G|Attacker": { n: 1 } },
   weights: { "A|Top": 0.6, "B|Top": 0.2, "Z|Attacker": 0, "N|Attacker": null },
-  shared: new Map([["qs", ["A|Top", "B|Top"]]]),
+  shared: new Map([[H("qs"), ["A|Top", "B|Top"]]]),
   seats: { "1/top": { w: 0.6, hand: { 10: 50, 11: 30, 12: null, 13: 20 } }, "2/bottom": { w: null, hand: { 20: 100 } } },
 });
 const fresh = (ivl = 7) => [D + ivl, ivl, D];
+// Stored question hashes are 8 hex digits (`ngKnowledgeQuestionHash`); the hand-sized records name their questions and
+// `R` turns each name into its real hash. `everyLive` is the live check of a world where every stored row's card is
+// still in its deck; `S` reads a record against it unless a test hands its own live check (v1.271.0).
+const H = (name) => ngKnowledgeQuestionHash(name);
+const hx = (m) => Object.fromEntries(Object.entries(m || {}).map(([dk, rows]) => [dk,
+  rows && typeof rows === "object" ? Object.fromEntries(Object.entries(rows).map(([k, v]) => [H(k), v])) : rows]));
+const R = (rec) => (rec ? { ...rec, srs: hx(rec.srs), stage: hx(rec.stage) } : rec);
+const liveOf = (decks) => ({ status: "ok", decks: new Map(Object.entries(decks).map(([dk, names]) => [dk, new Set(names.map((n) => ngRatingQ16(H(n))))])) });
+const everyLive = (rec) => ({ status: "ok", decks: new Map(Object.entries((rec && rec.srs) || {}).map(([dk, rows]) =>
+  [dk, new Set(Object.keys(rows || {}).map(ngRatingQ16).filter((k) => k != null))])) });
+const S = (U, rec, day, live) => { const r = R(rec); return ngRatingShare(U, r, day, live === undefined ? everyLive(r) : live); };
 
 test("the belt lines are table a", () => {
   assert.deepEqual(NG_RATING_TABLE.map((r) => [r.from, r.step]), [[1160, 32], [1320, 32], [1480, 32], [1640, 40], [1840, 0]]);
@@ -134,33 +160,33 @@ test("a right answer fades 10% per interval", () => {
   assert.equal(ngRatingRecall([D, 0, D], true, D), null, "interval 0 is malformed");
   // and in the share: the same record, a year on, reads lower
   const U = tiny(), rec = { srs: { "A|Top": { a1: fresh(30) } }, stage: { "A|Top": { a1: 4 } } };
-  close(ngRatingShare(U, rec, D).share, 0.3 / 1.4, "fresh");
-  close(ngRatingShare(U, rec, D + 365).share, (0.3 / 1.4) * 0.9 ** (365 / 30), "a year on");
+  close(S(U, rec, D).share, 0.3 / 1.4, "fresh");
+  close(S(U, rec, D + 365).share, (0.3 / 1.4) * 0.9 ** (365 / 30), "a year on");
 });
 
 test("a question shared by several decks is ONE question", () => {
   const U = tiny();
   // filed in both decks (as ngKnowledgeApplyGrade files a shared question), its stage in A only
-  const r = ngRatingShare(U, { srs: { "A|Top": { qs: fresh() }, "B|Top": { qs: fresh() } }, stage: { "A|Top": { qs: 3 } } }, D);
+  const r = S(U, { srs: { "A|Top": { qs: fresh() }, "B|Top": { qs: fresh() } }, stage: { "A|Top": { qs: 3 } } }, D);
   close(r.share, 0.35 / 1.4, "worth A's share plus B's, once");
   assert.equal(r.counts.questions, 1); assert.equal(r.counts.rows, 2);
   // filed in ONE deck only (an older blob): still the shared question's whole worth
-  close(ngRatingShare(U, { srs: { "B|Top": { qs: fresh() } }, stage: {} }, D).share, 0.35 / 1.4, "its decks are the index's, not the rows'");
+  close(S(U, { srs: { "B|Top": { qs: fresh() } }, stage: {} }, D).share, 0.35 / 1.4, "its decks are the index's, not the rows'");
   // an interval-1 row whose stage sits in its OTHER deck: the stage is the highest of its decks, so it reads right
   const u = { srs: { "A|Top": { qs: [D + 1, 1, D] }, "B|Top": { qs: [D + 1, 1, D] } }, stage: { "B|Top": { qs: 1 } } };
-  close(ngRatingShare(U, u, D).share, (0.35 * 0.9) / 1.4, "a stage in any of its decks");
+  close(S(U, u, D).share, (0.35 * 0.9) / 1.4, "a stage in any of its decks");
   // the latest row wins, the same-day tie going to the smaller interval (the cloud merge's rule)
   const late = { srs: { "A|Top": { qs: [D + 120, 120, D - 200] }, "B|Top": { qs: [D + 1, 1, D] } }, stage: {} };
-  assert.equal(ngRatingShare(U, late, D).share, 0, "the later row, a reset with no stage, is a miss");
+  assert.equal(S(U, late, D).share, 0, "the later row, a reset with no stage, is a miss");
   // ...and on the SAME day the smaller interval wins, whichever deck holds it (READ402 X15)
   const tieA = { srs: { "A|Top": { qs: [D + 30, 30, D] }, "B|Top": { qs: [D + 1, 1, D] } }, stage: {} };
   const tieB = { srs: { "A|Top": { qs: [D + 1, 1, D] }, "B|Top": { qs: [D + 30, 30, D] } }, stage: {} };
-  assert.equal(ngRatingShare(U, tieA, D).share, 0, "a same-day reset beats the longer interval (it sits in B)");
-  assert.equal(ngRatingShare(U, tieB, D).share, 0, "a same-day reset beats the longer interval (it sits in A)");
+  assert.equal(S(U, tieA, D).share, 0, "a same-day reset beats the longer interval (it sits in B)");
+  assert.equal(S(U, tieB, D).share, 0, "a same-day reset beats the longer interval (it sits in A)");
   // everything known, fresh: exactly the whole game
   const all = { srs: { "A|Top": { qs: fresh(), a1: fresh() }, "B|Top": { qs: fresh(), b1: fresh(), b2: fresh(), b3: fresh() } }, stage: {},
     moves: { "1/top": { 10: [D + 7, 7, D, 1], 11: [D + 7, 7, D, 1], 13: [D + 7, 7, D, 1] } } };
-  const whole = ngRatingShare(U, all, D);
+  const whole = S(U, all, D);
   close(whole.share, 1, "every question and every move"); assert.equal(whole.points, NG_RATING_TOP);
 });
 
@@ -168,7 +194,7 @@ test("zero traffic weighs nothing", () => {
   const U = tiny();
   assert.equal(U.counts.zeroWeight, 1, "Z is a real zero: counted");
   close(U.total, 1.4, "the game's total is its traffic, nothing for Z or G");
-  const r = ngRatingShare(U, { srs: { "Z|Attacker": { z1: fresh(30) }, "G|Attacker": { g1: fresh(30) } }, stage: { "Z|Attacker": { z1: 4 }, "G|Attacker": { g1: 4 } } }, D);
+  const r = S(U, { srs: { "Z|Attacker": { z1: fresh(30) }, "G|Attacker": { g1: fresh(30) } }, stage: { "Z|Attacker": { z1: 4 }, "G|Attacker": { g1: 4 } } }, D);
   assert.equal(r.status, "ok");
   assert.equal(r.share, 0, "known, and worth nothing");
   assert.equal(r.points, NG_RATING_FLOOR);
@@ -177,53 +203,102 @@ test("zero traffic weighs nothing", () => {
 
 test("a move counts by its share of the seat's hand", () => {
   const U = tiny();
-  close(ngRatingShare(U, { moves: { "1/top": { 10: [D + 7, 7, D, 1] } } }, D).share, (0.6 * 0.5) / 1.4, "a Yes on 10");
-  close(ngRatingShare(U, { moves: { "1/top": { 13: [D + 1, 1, D, 1] } } }, D).share, (0.6 * 0.2 * 0.9) / 1.4, "a first Yes (interval 1) at 0.9");
-  const r = ngRatingShare(U, { moves: { "1/top": { 11: [D + 1, 1, D, 0], 99: [D + 7, 7, D, 1], e00ff: [D + 7, 7, D, 1] }, "7/top": { 10: [D + 7, 7, D, 1] } } }, D);
+  close(S(U, { moves: { "1/top": { 10: [D + 7, 7, D, 1] } } }, D).share, (0.6 * 0.5) / 1.4, "a Yes on 10");
+  close(S(U, { moves: { "1/top": { 13: [D + 1, 1, D, 1] } } }, D).share, (0.6 * 0.2 * 0.9) / 1.4, "a first Yes (interval 1) at 0.9");
+  const r = S(U, { moves: { "1/top": { 11: [D + 1, 1, D, 0], 99: [D + 7, 7, D, 1], e00ff: [D + 7, 7, D, 1] }, "7/top": { 10: [D + 7, 7, D, 1] } } }, D);
   assert.equal(r.share, 0, "a No, a move this seat does not deal, an escape, a seat this ruleset does not deal");
   assert.deepEqual([r.counts.moves, r.counts.weighted, r.counts.outside, r.counts.unknownSeat], [4, 1, 2, 1]);
 });
 
 test("a deck never counts for more than its own full worth", () => {
   const U = tiny();
-  // A has 2 cards; rows for 3 of its questions (one retired since, but nothing here can tell which)
+  // A has 2 cards; a live check that wrongly holds a THIRD (a 16-bit wrong accept in a deck already fully known: the
+  // one way the cap can still fire once the check exists) — the cap is the second line of defence
   const three = { srs: { "A|Top": { a1: fresh(), a2: fresh(), a3: fresh() } }, stage: {} };
-  const r = ngRatingShare(U, three, D);
+  const r = S(U, three, D);
   close(r.share, 0.6 / 1.4, "capped at A's whole worth, not 1.5 times it");
   assert.deepEqual([r.counts.decksOver, r.counts.rowsOver], [1, 1], "and the cut is counted, deck and rows");
   // a cap on value, not on rows: three faded rows under A's worth are not cut, but still counted
   const faded = { srs: { "A|Top": { a1: [D, 30, D - 300], a2: [D, 30, D - 300], a3: [D, 30, D - 300] } }, stage: {} };
-  const f = ngRatingShare(U, faded, D);
+  const f = S(U, faded, D);
   close(f.share, (0.3 * 3 * 0.9 ** 10) / 1.4, "under the cap: each row at its own worth");
   assert.deepEqual([f.counts.decksOver, f.counts.rowsOver], [1, 1]);
   // a shared question is booked to each of its decks: A full (qs + a1) is not over, B is not touched beyond its 4
-  const ok = ngRatingShare(U, { srs: { "A|Top": { qs: fresh(), a1: fresh() }, "B|Top": { qs: fresh() } }, stage: {} }, D);
+  const ok = S(U, { srs: { "A|Top": { qs: fresh(), a1: fresh() }, "B|Top": { qs: fresh() } }, stage: {} }, D);
   assert.deepEqual([ok.counts.decksOver, ok.counts.rowsOver], [0, 0]);
-  // on the real wire: a deck answered in full plus as many rows again reads as the deck in full, and says so
-  const a = seeded("gi"), dk = FIX.parts.ownDeck, n = a.flashcards.decks[dk].n;
+  // on the real wire, with the live check: a deck answered in full plus as many retired rows again reads as the deck in
+  // full, the retired rows are counted, and the cap has nothing to cut
+  const dk = FIX.parts.ownDeck, cards = deckCards(dk), n = cards.length;
   const only = (rows) => { const b = ratingApp(DIR, "gi"); b.srs = { [dk]: rows }; b.stage = {}; b.moves = {}; return b.rating(); };
-  const live = {}, more = {};
-  for (let i = 0; i < n; i++) live["live" + i] = [RATING_DAY + 30, 30, RATING_DAY];
-  for (let i = 0; i < n; i++) more["gone" + i] = [RATING_DAY + 30, 30, RATING_DAY];
+  const live = Object.fromEntries(cards.map((qh) => [qh, [RATING_DAY + 30, 30, RATING_DAY]]));
+  const more = Object.fromEntries(retiredFor(dk, n).map((qh) => [qh, [RATING_DAY + 30, 30, RATING_DAY]]));
   const full = only(live), doubled = only({ ...live, ...more });
-  assert.equal(doubled.points, full.points, "twice the rows, the same worth");
-  assert.deepEqual([doubled.counts.decksOver, doubled.counts.rowsOver, full.counts.decksOver], [1, n, 0]);
+  assert.equal(doubled.points, full.points, "twice the rows, the same worth: the retired half is not priced");
+  assert.deepEqual([doubled.counts.retired, doubled.counts.decksOver, full.counts.retired, full.counts.decksOver], [n, 0, 0, 0]);
   assert.ok(full.points > 1000, "a real deck, a real worth");
+});
+
+test("a retired row is not priced, and is counted", () => {
+  const U = tiny();
+  const rec = { srs: { "A|Top": { a1: fresh(30), a9: fresh(30) } }, stage: {} };
+  const r = S(U, rec, D, liveOf({ "A|Top": ["a1", "a2"], "B|Top": [] }));
+  close(r.share, 0.3 / 1.4, "a1 is A's; a9 is no longer A's card");
+  assert.deepEqual([r.status, r.final, r.counts.checked, r.counts.retired, r.counts.unchecked], ["ok", true, 2, 1, 0]);
+  // and a record of nothing but retired rows met the game: a number (the floor), not "unmatched"
+  const gone = S(U, { srs: { "A|Top": { a9: fresh(30) } }, stage: {} }, D, liveOf({ "A|Top": ["a1", "a2"] }));
+  assert.deepEqual([gone.status, gone.points, gone.counts.retired], ["ok", NG_RATING_FLOOR, 1]);
+});
+
+test("a shared question is live where its index lists it, retired elsewhere", () => {
+  // the rule: a question in the manifest's shared index is live in exactly the decks the index lists (the boot wire is
+  // current), whatever the live files say; its knowledge is its latest row wherever that row is filed
+  const U = tiny();
+  const rec = { srs: { "A|Top": { qs: fresh(30) }, "Z|Attacker": { qs: fresh(30) } }, stage: {} };
+  const r = S(U, rec, D, liveOf({ "A|Top": [], "B|Top": [], "Z|Attacker": [] }));
+  close(r.share, 0.35 / 1.4, "priced once, at A's and B's worth: the index says so, not the live files");
+  assert.deepEqual([r.counts.checked, r.counts.retired], [2, 1], "its row in Z, a deck the index does not list, is retired there");
+  const onlyThere = S(U, { srs: { "Z|Attacker": { qs: [D + 30, 30, D] } }, stage: {} }, D, liveOf({ "Z|Attacker": [] }));
+  close(onlyThere.share, 0.35 / 1.4, "filed only in a retired deck, the question is still live in its own decks");
+});
+
+test("an unchecked row is never known, and the answer is not final", () => {
+  const U = tiny();
+  const rec = { srs: { "A|Top": { a1: fresh(30) }, "B|Top": { b1: fresh(30) } }, stage: {} };
+  const half = S(U, rec, D, liveOf({ "A|Top": ["a1"] }));   // the check knows A, not B
+  assert.deepEqual([half.status, half.final, half.points, half.share, half.level], ["unchecked", false, null, null, null], "no number while any row waits");
+  assert.deepEqual([half.counts.checked, half.counts.unchecked], [1, 1]);
+});
+
+test("not asked, checking, and what the boot manifest can check alone", () => {
+  const U = tiny();
+  const rec = { srs: { "A|Top": { a1: fresh(30) } }, stage: {} };
+  const notAsked = S(U, rec, D, null);
+  assert.deepEqual([notAsked.status, notAsked.reason, notAsked.final, notAsked.points], ["unchecked", "not-asked", false, null]);
+  const checking = S(U, rec, D, NG_RATING_CHECKING);
+  assert.deepEqual([checking.status, checking.reason, checking.final, checking.points], ["checking", null, false, null]);
+  const failed = S(U, rec, D, { status: "unchecked", reason: "stale-live", decks: null });
+  assert.deepEqual([failed.status, failed.reason, failed.final, failed.points], ["unchecked", "stale-live", false, null]);
+  // a record whose card rows are all shared questions, or that has only moves, needs no file: final as it stands
+  const shared = S(U, { srs: { "A|Top": { qs: fresh(30) } }, stage: {} }, D, null);
+  assert.deepEqual([shared.status, shared.final, shared.counts.checked, shared.counts.unchecked], ["ok", true, 1, 0]);
+  close(shared.share, 0.35 / 1.4, "the index alone checked it");
+  const moves = S(U, { moves: { "1/top": { 10: [D + 7, 7, D, 1] } } }, D, null);
+  assert.deepEqual([moves.status, moves.final], ["ok", true]);
 });
 
 test("a record of stages alone is unscheduled", () => {
   const U = tiny();
-  const old = ngRatingShare(U, { stage: { "A|Top": { a1: 3 }, "B|Top": { b1: 4 } } }, D);
+  const old = S(U, { stage: { "A|Top": { a1: 3 }, "B|Top": { b1: 4 } } }, D);
   assert.equal(old.status, "unscheduled", "not ok: a surface must choose to show it");
   assert.deepEqual([old.points, old.share, old.level, old.counts.stageOnly], [NG_RATING_FLOOR, 0, 0, 2], "the number the definition gives");
-  const mixed = ngRatingShare(U, { srs: { "A|Top": { a1: fresh() } }, stage: { "A|Top": { a1: 2 }, "B|Top": { b1: 4 } } }, D);
+  const mixed = S(U, { srs: { "A|Top": { a1: fresh() } }, stage: { "A|Top": { a1: 2 }, "B|Top": { b1: 4 } } }, D);
   assert.equal(mixed.status, "ok", "with one scheduled row it is an ordinary number");
   assert.equal(mixed.counts.stageOnly, 1);
 });
 
 test("a miss is worth nothing", () => {
   const U = tiny();
-  const r = ngRatingShare(U, { srs: { "A|Top": { a1: [D + 1, 1, D] } }, stage: { "A|Top": { a1: 0 } }, moves: { "1/top": { 10: [D + 1, 1, D, 0] } } }, D);
+  const r = S(U, { srs: { "A|Top": { a1: [D + 1, 1, D] } }, stage: { "A|Top": { a1: 0 } }, moves: { "1/top": { 10: [D + 1, 1, D, 0] } } }, D);
   assert.equal(r.status, "ok", "answered: a number");
   assert.equal(r.share, 0); assert.equal(r.points, NG_RATING_FLOOR); assert.equal(r.level, 0);
   assert.equal(r.counts.weighted, 2, "both priced, both at 0");
@@ -236,7 +311,7 @@ test("a null cell is dropped and counted", () => {
   assert.equal(U.counts.zeroWeight, 1, "a null is not a zero");
   assert.ok(!U.deckUnit.has("N|Attacker"), "a null deck is not priced at all");
   assert.equal(U.seats.get("1/top").get("12"), null, "a null share stays null");
-  const r = ngRatingShare(U, { srs: { "N|Attacker": { n1: fresh(30) } }, stage: { "N|Attacker": { n1: 4 } }, moves: { "1/top": { 12: [D + 7, 7, D, 1] }, "2/bottom": { 20: [D + 7, 7, D, 1] } } }, D);
+  const r = S(U, { srs: { "N|Attacker": { n1: fresh(30) } }, stage: { "N|Attacker": { n1: 4 } }, moves: { "1/top": { 12: [D + 7, 7, D, 1] }, "2/bottom": { 20: [D + 7, 7, D, 1] } } }, D);
   assert.equal(r.share, 0);
   assert.deepEqual([r.counts.weighted, r.counts.outside], [0, 3], "dropped, and counted as outside the game");
 });
@@ -248,20 +323,20 @@ test("never looked is not a number (the law)", () => {
     assert.notEqual(r.points, NG_RATING_FLOOR);
   };
   const game = { decks: { "A|Top": { n: 2 } }, weights: { "A|Top": 1 }, seats: { "1/top": { w: 1, hand: { 10: 100 } } } };
-  none(ngRatingShare(ngRatingUniverse({ ...game, decks: null }), { srs: { "A|Top": { a: fresh() } } }, D), "no-manifest");
-  none(ngRatingShare(ngRatingUniverse({ ...game, decks: {} }), { srs: { "A|Top": { a: fresh() } } }, D), "no-manifest");
-  none(ngRatingShare(ngRatingUniverse({ ...game, weights: {} }), { srs: { "A|Top": { a: fresh() } } }, D), "no-weights");
-  none(ngRatingShare(ngRatingUniverse({ ...game, seats: {} }), { srs: { "A|Top": { a: fresh() } } }, D), "no-hands");
-  none(ngRatingShare(ngRatingUniverse({ ...game, weights: { "A|Top": 0 }, seats: { "1/top": { w: 0, hand: { 10: 0 } } } }), { srs: { "A|Top": { a: fresh() } } }, D), "no-weights");
-  none(ngRatingShare(null, { srs: { "A|Top": { a: fresh() } } }, D), "no-weights");
+  none(S(ngRatingUniverse({ ...game, decks: null }), { srs: { "A|Top": { a: fresh() } } }, D), "no-manifest");
+  none(S(ngRatingUniverse({ ...game, decks: {} }), { srs: { "A|Top": { a: fresh() } } }, D), "no-manifest");
+  none(S(ngRatingUniverse({ ...game, weights: {} }), { srs: { "A|Top": { a: fresh() } } }, D), "no-weights");
+  none(S(ngRatingUniverse({ ...game, seats: {} }), { srs: { "A|Top": { a: fresh() } } }, D), "no-hands");
+  none(S(ngRatingUniverse({ ...game, weights: { "A|Top": 0 }, seats: { "1/top": { w: 0, hand: { 10: 0 } } } }), { srs: { "A|Top": { a: fresh() } } }, D), "no-weights");
+  none(S(null, { srs: { "A|Top": { a: fresh() } } }, D), "no-weights");
   const U = ngRatingUniverse(game);
-  none(ngRatingShare(U, {}, D), "empty");
-  none(ngRatingShare(U, { srs: {}, stage: {}, moves: {} }, D), "empty");
-  none(ngRatingShare(U, { srs: { "A|Top": { a: fresh() } } }, undefined), "no-day");
+  none(S(U, {}, D), "empty");
+  none(S(U, { srs: {}, stage: {}, moves: {} }, D), "empty");
+  none(S(U, { srs: { "A|Top": { a: fresh() } } }, undefined), "no-day");
   // rows that met nothing are "nothing read", not "nothing known" (READ402 F1)
-  none(ngRatingShare(U, { srs: { "A|Top": { a: [D, 0, D], b: "x" } }, moves: { "1/top": { 10: [D, 3] } } }, D), "unmatched");
-  none(ngRatingShare(U, { srs: { "No Such|Top": { a: fresh(), b: fresh() } }, moves: { "9/top": { 10: [D + 7, 7, D, 1] } } }, D), "unmatched");
-  const un = ngRatingShare(U, { srs: { "No Such|Top": { a: fresh() } }, moves: { "9/top": { 10: [D + 7, 7, D, 1] } } }, D);
+  none(S(U, { srs: { "A|Top": { a: [D, 0, D], b: "x" } }, moves: { "1/top": { 10: [D, 3] } } }, D), "unmatched");
+  none(S(U, { srs: { "No Such|Top": { a: fresh(), b: fresh() } }, moves: { "9/top": { 10: [D + 7, 7, D, 1] } } }, D), "unmatched");
+  const un = S(U, { srs: { "No Such|Top": { a: fresh() } }, moves: { "9/top": { 10: [D + 7, 7, D, 1] } } }, D);
   assert.deepEqual([un.counts.unknownDeck, un.counts.unknownSeat, un.counts.weighted], [1, 1, 0], "and the reasons are counted");
 });
 
@@ -270,6 +345,17 @@ const RAW = JSON.parse(readFileSync(resolve(DIR, "graph-data.json"), "utf8"));
 const CUR = JSON.parse(readFileSync(resolve(DIR, "curriculum.json"), "utf8"));
 const FIX = ratingFixture(DIR);
 const APP = { gi: ratingApp(DIR, "gi"), nogi: ratingApp(DIR, "nogi") };
+// a real deck's live question hashes, from its own chunk, and n hashes it does NOT hold whose low 16 bits match none of its
+const deckCards = (dk) => JSON.parse(readFileSync(resolve(DIR, "flashcards", ngKnowledgeQuestionHash(dk) + ".json"), "utf8"))[dk].cards.map((c) => ngKnowledgeQuestionHash(c.q));
+// the test's own 16-bit key, never the module's (a mutated mask must not change what the test asks for)
+const k16 = (qh) => parseInt(qh, 16) & 0xffff;
+const retiredFor = (dk, n) => {
+  const live16 = new Set(deckCards(dk).map(k16)), out = [];
+  for (let i = 0; out.length < n && i < 100000; i++) { const qh = ngKnowledgeQuestionHash(dk + " retired " + i); if (!live16.has(k16(qh))) out.push(qh); }
+  assert.equal(out.length, n, "found the retired hashes");
+  return out;
+};
+const LIVE = ratingLiveFiles(DIR);
 const seeded = (frame) => { const a = ratingApp(DIR, frame); a.srs = FIX.blob.srs; a.stage = FIX.blob.stage; a.moves = FIX.blob.moves; return a; };
 // the ruleset's own hand table read straight off the RAW wire, keyed by node ID — never through `_ev`/`_evGi`'s indexes
 const rawHands = (frame) => {
@@ -332,7 +418,15 @@ test("the fixture's number, and each part of it", () => {
     assert.ok(r.points > 1000 && r.points < 1100, `${frame}: ${r.points} — a handful of questions, a little above the floor`);
     assert.deepEqual([r.counts.unknownDeck, r.counts.badRow, r.counts.stageOnly], [1, 1, 1], frame);
     assert.equal(r.counts.moves, 5, frame);
-    assert.equal(r.counts.questions, 12, frame);
+    assert.equal(r.counts.questions, 14, frame);
+    assert.equal(r.final, true, frame);
+    assert.deepEqual([r.counts.retired, r.counts.unchecked], [3, 0], `${frame}: two retired cards and a shared question filed elsewhere`);
+    assert.ok(r.counts.checked > 20, `${frame}: the check ran on ${r.counts.checked} rows (a check that never ran is not a pass)`);
+  }
+  // a retired row is worth nothing: remove it and the number does not move
+  for (const qh of FIX.parts.retired) {
+    const b = seeded("gi"); b.srs = JSON.parse(JSON.stringify(b.srs)); delete b.srs[FIX.parts.ownDeck][qh];
+    assert.equal(b.rating().points, seeded("gi").rating().points, "a retired row removed");
   }
   // each own-deck row read as the law says: remove it and the share drops by exactly its weight × its recall
   const a = seeded("gi"), G = a._ratingGame("gi"), base = a.rating(), u = G.deckUnit.get(FIX.parts.ownDeck);
@@ -437,7 +531,7 @@ test("a hand that fails to deal fails the game", () => {
 const complete = (frame) => {
   const a = ratingApp(DIR, frame), srs = {}, moves = {};
   for (const f of readdirSync(resolve(DIR, "flashcards"))) {
-    if (f === "_index.json") continue;
+    if (f === "_index.json" || f.startsWith("live-")) continue;
     const decks = JSON.parse(readFileSync(resolve(DIR, "flashcards", f), "utf8"));
     for (const [dk, d] of Object.entries(decks)) for (const c of d.cards) (srs[dk] = srs[dk] || {})[ngKnowledgeQuestionHash(c.q)] = [RATING_DAY + 30, 30, RATING_DAY];
   }
@@ -471,4 +565,76 @@ test("answers from the other ruleset: classed as today", () => {
   const onlyGiCards = ratingApp(DIR, "nogi"); onlyGiCards.srs = { [deck]: { [qh]: [RATING_DAY + 30, 30, RATING_DAY] } }; onlyGiCards.stage = { [deck]: { [qh]: 3 } };
   const c = onlyGiCards.rating();
   assert.deepEqual([c.status, c.points, c.counts.outside, c.counts.unknownDeck], ["ok", 1000, 1, 0], "flashcards on a gi-only deck, read in no-gi");
+});
+
+test("the live files decode against the deck list they were built for", () => {
+  const a = APP.gi, list = a._ratingDeckList();
+  const ok = ngRatingLiveDecode(LIVE, list);
+  assert.equal(ok.status, "ok");
+  assert.equal(ok.rev, ngRatingLiveRev(list), "built for this manifest's decks and counts");
+  assert.equal(ok.counts.decks, list.length, "every deck, once");
+  // the entries are exactly the unshared cards, counted from the chunks themselves
+  const shared = new Set(a._sharedQ.keys());
+  let unshared = 0;
+  for (const [dk] of list) unshared += deckCards(dk).filter((qh) => !shared.has(qh)).length;
+  assert.equal(ok.counts.entries, unshared);
+  assert.ok(LIVE.length >= 2 && LIVE.every((f) => JSON.stringify(f).length <= 40000), "two or more files, each a chunk under 40,000 B");
+  // a file built for another deck list (a content deploy between boot and fetch) is never read (LIVE1-GO 3)
+  const stale = LIVE.map((f) => ({ ...f, rev: "00000000" }));
+  assert.deepEqual([ngRatingLiveDecode(stale, list).status, ngRatingLiveDecode(stale, list).reason], ["unchecked", "stale-live"]);
+  const counted = list.map(([k, n], i) => (i === 0 ? [k, n + 1] : [k, n]));
+  assert.equal(ngRatingLiveDecode(LIVE, counted).reason, "stale-live", "one deck's count changed: stale");
+  assert.equal(ngRatingLiveDecode([LIVE[0], null], list).reason, "fetch-failed", "a file missing leaves everything unchecked");
+  assert.equal(ngRatingLiveDecode([LIVE[0], LIVE[0]], list).reason, "bad-live", "the same file twice does not cover every deck");
+  assert.equal(ngRatingLiveDecode(LIVE.map((f) => ({ ...f, bits: 8 })), list).reason, "bad-live");
+  // and through the reader: a stale file leaves every row unchecked, named, never priced
+  const b = seeded("gi"); b._ratingLiveFrom(stale);
+  const r = b.rating();
+  assert.deepEqual([r.status, r.reason, r.final, r.points], ["unchecked", "stale-live", false, null]);
+});
+
+test("16 bits a card, not 8", () => {
+  // a question this deck does not hold whose LOW 8 bits equal a live card's but whose 16 do not: with 16 bits it is
+  // retired; cut the check to 8 bits and it would read as live (LIVE1-GO 1)
+  const dk = FIX.parts.ownDeck, cards = deckCards(dk), low8 = new Set(cards.map((qh) => k16(qh) & 0xff)), live16 = new Set(cards.map(k16));
+  let qh = null;
+  for (let i = 0; !qh && i < 100000; i++) { const h = ngKnowledgeQuestionHash(dk + " near " + i); if (low8.has(k16(h) & 0xff) && !live16.has(k16(h))) qh = h; }
+  assert.ok(qh, "found a near match");
+  const b = ratingApp(DIR, "gi"); b.srs = { [dk]: { [qh]: [RATING_DAY + 30, 30, RATING_DAY] } }; b.stage = {}; b.moves = {};
+  const r = b.rating();
+  assert.deepEqual([r.status, r.counts.retired, r.points], ["ok", 1, NG_RATING_FLOOR], "an 8-bit match is not a live card");
+  const dec = ngRatingLiveDecode(LIVE, APP.gi._ratingDeckList());
+  assert.ok([...dec.decks.values()].some((set) => [...set].some((k) => k > 0xff)), "the files carry 16 bits");
+});
+
+test("the reader's live check: never at a plain read, two requests once, a retry after a failure", async () => {
+  const realFetch = globalThis.fetch, asked = [];
+  let fail = false;
+  globalThis.fetch = async (url) => {
+    asked.push(String(url));
+    const m = /flashcards\/(live-\d+)\.json$/.exec(String(url));
+    if (fail || !m) return { ok: false, status: 404, json: async () => null };
+    return { ok: true, status: 200, json: async () => JSON.parse(readFileSync(resolve(DIR, "flashcards", m[1] + ".json"), "utf8")) };
+  };
+  try {
+    const a = ratingApp(DIR, "gi", { live: false });
+    a.srs = FIX.blob.srs; a.stage = FIX.blob.stage; a.moves = FIX.blob.moves;
+    for (let i = 0; i < 3; i++) a.rating();
+    assert.equal(asked.length, 0, "a plain read fetches nothing (LIVE1-GO 2)");
+    assert.deepEqual([a.rating().status, a.rating().reason, a.rating().final], ["unchecked", "not-asked", false]);
+    fail = true;
+    const r0 = await a.ratingCheck();
+    assert.deepEqual([r0.status, r0.reason, r0.points], ["unchecked", "fetch-failed", null], "offline: named, no number");
+    fail = false; asked.length = 0;
+    const p = a.ratingCheck();
+    assert.equal(a.rating().status, "checking", "in flight: checking, still no number");
+    assert.equal(a.ratingCheck(), p, "coalesced");
+    const r = await p;
+    assert.deepEqual([r.status, r.final], ["ok", true]);
+    assert.deepEqual(asked.map((u) => u.split("/").pop()), ["live-0.json", "live-1.json"], "exactly the two files");
+    const fixtureNumber = seeded("gi").rating().points;
+    assert.equal(r.points, fixtureNumber, "the same number as the files read in hand");
+    await a.ratingCheck(); a.rating();
+    assert.equal(asked.length, 2, "and never again for this manifest");
+  } finally { globalThis.fetch = realFetch; }
 });
