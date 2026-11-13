@@ -9,7 +9,7 @@
  * It measures the CORPUS, not just the widest position: `pairGroup` draws `posFamily(t)` for a
  * position and `splitName(t).main` for a technique, and nothing had ever checked the second set.
  *
- * Run:  npx serve source/public -l 8134 --no-clipboard   (then)
+ * Run:  node scripts/e2e-serve.mjs source/public -l 8134   (then)
  *       node tests/artifacts/_label_size_probe.mjs
  */
 import { chromium } from "@playwright/test"

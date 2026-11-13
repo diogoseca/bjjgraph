@@ -72,6 +72,15 @@ jobs:
       - name: Build-chain and Python provisioning contract
         run: python3 scripts/check_build_chains.py
 
+      # THE PUBLISHING TOOL, FROM A LOCKFILE (v1.266.1): see deploy.yaml's step of the same name, which also serves the
+      # digest Worker there. Here it is the tool the Pages step publishes the preview with. Same text in both deploys
+      # (scripts/check_build_chains.py pins it; tests/bot_workflows_test.py checks the pin agrees everywhere).
+      - name: Install Wrangler (pinned)
+        id: wrangler
+        run: |
+          (cd .github/tools/wrangler && npm ci --ignore-scripts)
+          .github/tools/wrangler/node_modules/.bin/wrangler --version
+
       # The Neural app bundle + its data payloads live under source/quartz/static/neural/,
       # which is GITIGNORED (build artifacts, 13.5MB+ payloads). Without this step the built
       # site — and therefore the deployed preview AND the journey gate — contains no Neural
@@ -286,16 +295,26 @@ jobs:
             test-results/
           if-no-files-found: ignore
 
-      # v4 is the first wrangler-action major that runs on Node 24 (v3 got no backport).
-      # Its one behaviour change: the Wrangler CLI it installs defaults to v4 (`latest`)
-      # instead of v3. Same note as deploy.yaml — pin with `wranglerVersion:` if needed.
-      # This preview deploy is the FIRST place a Wrangler-v4 regression would surface.
+      # The Pages action runs the Wrangler its probe finds (`npx --no-install wrangler --version`, in the repository root),
+      # and installs `wrangler@<wranglerVersion>` itself only when that probe finds no copy of exactly that version. This
+      # step links the copy installed from the lockfile above into the root's node_modules/.bin, where the probe looks, and
+      # runs the probe first: it prints the pinned version, or the step fails. Here and not with the install: the root's
+      # `npm ci` above starts from an empty node_modules. Same text in both deploys (scripts/check_build_chains.py).
+      - name: Link the pinned Wrangler for the Pages action
+        run: |
+          ln -sfn ../../.github/tools/wrangler/node_modules/wrangler/bin/wrangler.js node_modules/.bin/wrangler
+          npx --no-install wrangler --version
+
+      # v4 is the first wrangler-action major that runs on Node 24 (v3 got no backport). `wranglerVersion` is the
+      # version in .github/tools/wrangler/package.json (tests/bot_workflows_test.py), so the step above satisfies the
+      # action's probe and the action installs nothing.
       - name: Deploy to Cloudflare Pages (preview)
         id: cf
         uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4.159.0"
           command: pages deploy source/public --project-name=bjjgraph --branch=dev
 
       # THE DEPLOYED PAGE, IN A REAL BROWSER (CONSOLE0, 2026-10-05). Every gate above runs against a

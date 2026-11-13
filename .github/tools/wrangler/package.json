@@ -1,0 +1,8 @@
+{
+  "name": "bjjgraph-wrangler",
+  "private": true,
+  "description": "The Wrangler CLI both deploys publish with: the Pages upload (deploy-dev.yaml, deploy.yaml) and the digest Worker with its secrets (deploy.yaml). One exact version, installed with npm ci --ignore-scripts so the lockfile decides every package. How to move the pin: the comment on the Install Wrangler step in deploy.yaml.",
+  "dependencies": {
+    "wrangler": "4.159.0"
+  }
+}
