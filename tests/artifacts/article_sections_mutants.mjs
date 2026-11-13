@@ -535,7 +535,13 @@ const mutants = [
   ['width4-grid-phone-gutter-lost', 'card-section.spec.ts', 'at its edges \\(390x844', s => replace(s, 'free.width - (flush ? 64 : 24)', 'free.width - 64')],
   ['width4-phone-lanes-back', 'card-section.spec.ts', 'at its edges \\(390x631', s => replace(s, '(column || flush && free.width - grid < 88)', '(column || !flush || free.width - grid < 88)')],
   ['width4-film-phone-lost', 'card-section.spec.ts', 'at its edges \\(360x740', s => replace(s, '      if (!flush) mediaWidth = grid;\n', '')],
-  // Item 3: a part shown again ends the press window, so Moves' close, back inside the place its wider message stood, takes a tap at once.
+  // WIDTH5 (the owner's U154 e, 13 Nov 2026): the specs p5 moves beyond the card, each re-pinned to p5 and each new claim's control.
+  ['width5-safety-line-gutter-lost', 'safety-line.spec.ts', 'in the real font', s => replace(s, 'free.width - (flush ? 64 : 24)', 'free.width - 64')],
+  ['width5-theater-film-lost-631', 'video-theater.spec.ts', 'VIDEO1 gap and card width 390x631', s => replace(s, '      if (!flush) mediaWidth = grid;\n', '')],
+  ['width5-theater-film-lost-844', 'video-theater.spec.ts', 'VIDEO1 gap and card width 390x844', s => replace(s, '      if (!flush) mediaWidth = grid;\n', '')],
+  ['width5-cards-film-lost', 'video-cards.spec.ts', 'measured media height.*\\(390px', s => replace(s, '      if (!flush) mediaWidth = grid;\n', '')],
+  ['width5-article-grid-gutter-lost', 'article-grid.spec.ts', 'article grid 390px', s => replace(s, 'free.width - (flush ? 64 : 24)', 'free.width - 64')],
+  // WIDTH5: a part shown again ends the press window, so Moves' close, back inside the place its wider message stood, takes a tap at once.
   ['width5-shield-outlives-show', hidesec, 'several closed in a row', s => replace(s, '    else if (result && on !== false) reader.shields = [];\n', '')],
   // WIDTH2 (U152 b): outside where both margins hold a target, from 600px free up to the columns; each switch pinned from both sides.
   // (cardwidth-tablet-lanes-lost RETIRED with its subject: at 768 the lanes are gone by design now.)

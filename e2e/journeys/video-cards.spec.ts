@@ -169,12 +169,12 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
       expect(Math.abs(g.mediaRight - g.gridRight), "the film ends on the grid's right edge").toBeLessThanOrEqual(1)
       expect(g.mediaWidth, "equal columns: the film is the face and its arrows' two lanes").toBeCloseTo(g.faceWidth + 64, 0)
     } else {
-      // WIDTH4 (p5, owner 2026-11-12 18:18): on a phone the film and the face are the Moves row's 366px (WAS 358, and the face 302
-      // with two 32px lanes; 286 before CARDWIDTH).
-      expect(g.mediaWidth).toBe(366)
-      expect(g.faceWidth).toBe(366)
-      // WIDTH4: the film 8px wider keeps its 16:9 poster, so it is about 4px taller (WAS 219.94 at 358px).
-      expect(g.mediaHeight).toBeCloseTo(224.0, 0)
+      // The owner's U154 e (13 Nov 2026, WIDTH4's p5): on a phone the film and the face are the Moves row's 366px at 390.
+      // WAS (to v1.264.5): the film 358px (min(496, free - 32)) and the face 302 (the row less two 32px arrow lanes; 286 before CARDWIDTH).
+      expect(g.mediaWidth, "U154 e: on a phone the film is the Moves row's 366px").toBe(366)
+      expect(g.faceWidth, "U154 e: on a phone the face is the Moves row's 366px").toBe(366)
+      // The film 8px wider keeps its 16:9 poster, so it is about 4px taller. WAS 219.94 at 358px.
+      expect(g.mediaHeight, "U154 e: the 366px film keeps its 16:9 poster").toBeCloseTo(224.0, 0)
       expect(g.followGap, "stacked: the current card follows the question at the parts' step").toBeCloseTo(g.step, 0)
     }
     // The unchanged landcard-deck journeys pin the 44px arrow hit targets.

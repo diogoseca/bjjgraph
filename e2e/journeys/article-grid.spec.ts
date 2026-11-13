@@ -81,6 +81,14 @@ for (const width of [1440, 390]) test(`article grid ${width}px preserves content
       overflow: card.scrollWidth - card.clientWidth }
   }))
   expect(geometry.length).toBeGreaterThan(4)
+  // The Moves row's content box, the box the article's sections share on a phone (U154 e, below).
+  const row = await page.evaluate(() => {
+    const r = (window as any).__neural.optionsRef.current as HTMLElement | null
+    if (!r || !r.getClientRects().length) return null
+    const b = r.getBoundingClientRect(), s = getComputedStyle(r)
+    return { l: b.left + parseFloat(s.paddingLeft), r: b.right - parseFloat(s.paddingRight) }
+  })
+  if (width < 600) expect(row, "premise: the Moves row is laid out").not.toBeNull()
   for (const [i, card] of geometry.entries()) {
     expect(card.rendered, card.type + ': every open content section is rendered').toBe(true)
     expect(card.fill).toBe('rgb(20, 27, 43)'); expect(card.border).toBe('0px')
@@ -90,10 +98,11 @@ for (const width of [1440, 390]) test(`article grid ${width}px preserves content
     expect(card.filter).toBe('none'); expect(card.backdrop).toBe('none')
     expect(card.webkit, 'missing WebKit support is explicit, never an ignored field').toBe(card.webkitSupported ? 'none' : '')
     expect(card.overflow, card.type + ' has no horizontal overflow').toBeLessThanOrEqual(1)
-    // WIDTH4 (owner, 2026-11-12 18:18): on a phone the sections take the Moves row's width, its 12px gutters (WAS 24px in; card-section.spec.ts
-    // pins the edges themselves).
-    const gutter = width < 600 ? 12 : 24
-    expect(card.left).toBeGreaterThanOrEqual(gutter); expect(card.right).toBeLessThanOrEqual(width - gutter)
+    // The owner's U154 e (13 Nov 2026, WIDTH4's p5): on a phone (under 600px) every open section shares the Moves row's two edges, 12..378
+    // at 390. WAS (to v1.264.5): every section at least 24px inside the screen, 32..358 at 390. From 600px up the rule is unchanged: at
+    // least 24px inside the screen (1440: the grid's two lanes).
+    if (width < 600) expect([card.left - row!.l, card.right - row!.r].map(Math.round), `${card.type} shares the Moves row's two edges (${card.left}..${card.right} / ${row!.l}..${row!.r})`).toEqual([0, 0])
+    else { expect(card.left).toBeGreaterThanOrEqual(24); expect(card.right).toBeLessThanOrEqual(width - 24) }
     if (i) expect(card.top).toBeGreaterThanOrEqual(geometry[i - 1].top - 1)
     for (const other of geometry.slice(0, i)) expect(card.left >= other.right - 1 || card.right <= other.left + 1 || card.top >= other.bottom - 1, 'cards never overlap').toBe(true)
   }
