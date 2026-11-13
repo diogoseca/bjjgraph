@@ -260,7 +260,7 @@ A hover stands the card out and turns it up at once (a transform, none under red
 touch a first tap turns it up, a second plays. The word by "Your moves" (Hidden/Shown)
 flips it; keys 1–9 play blind; the stand-in is always face up; a peek touches the hand. The film button
 animates on its own hover only. Face up, an unknown move asks "Did you get it?" (Yes only); a known
-move that is due asks "Still got it?" (Yes / No — No takes its gold away); a known move not due
+move that is due asks "Still got it?" (Yes / No); a known move not due
 stays face up (v1.266.0). `moves[state][move] = [due, ivl, last, ok]` (state `<site ordinal>/<role>`,
 an escape `e` + qhash(label)) rides the blob beside `srs`, never inside `stage` or `srs`, and merges
 by `srs`'s rule (`ngProgressMergeMoves`). `ok = 1` (the last answer a Yes) is a known move.
@@ -271,10 +271,11 @@ technique deck, and 0.15 × the share of its seat's dealt moves known on the sea
 0.15 cap with the flashcards: one count per deck (`_knowCount`), and the card (`mastery`) and the
 worker (`_knowledgePrep`) apply the law's own function to it, so they read one double; a No takes it
 back. Practice and weak spots keep the flashcard-only figure (`_flashMastery`); with a comparison in
-hand, a deck the moves fill keeps its weak-spots place (`oddsFull`). Gold, on the card and the map
-(`_movesGold`): thin when known, twice as thick once the deck's flashcards are learned.
+hand, a deck the moves fill keeps its weak-spots place (`oddsFull`). A known move's
+orb wears a gold dot (`_mapSeal`, one state). A card wears a seal
+(`_sealCard`): filled = a Yes, face up; hollow = unanswered, deck learned.
 "Moves known N of M" sits under Mastered. A threat's Yes files under the opponent's seat; an escape
-gets thin gold, no odds. Pinned by `e2e/journeys/moves-mastery.spec.ts`, `tests/moves_account_safety.test.mjs`.
+gets the seal, no odds. Pinned by `e2e/journeys/moves-mastery.spec.ts`, `tests/moves_account_safety.test.mjs`.
 
 ### The current node's media card
 

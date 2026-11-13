@@ -89,17 +89,28 @@
 /* the card under the pointer stands out: a transform on the card alone (no layout shift), a faint cool glow kept inside the row's 8px padding */
 .ng-choice-card[data-hide] { transition:transform .16s ease-out, box-shadow .16s ease-out; }
 .ng-choice-card[data-hover] { z-index:1; transform:scale(1.035); border-color:rgba(197,214,255,.55); box-shadow:0 0 7px rgba(150,185,255,.3); }
+/* THE CARD BEING ASKED wears that same outline, by touch too (v1.272.0): a tap turns a card up with no hover, so on a
+   phone the asked card had no outline at all. The owner's frame for the seal: "the move being asked is the only thing
+   with a strong outline". No scale (a tapped card does not stand out from under a finger). */
+.ng-choice-card[data-asking] { border-color:rgba(197,214,255,.55); box-shadow:0 0 7px rgba(150,185,255,.3); }
 /* the film button's OWN animation: it lifts and rings, the card does not; hovering the card leaves it still */
 .ng-choice-card[data-hide] .ng-choice-watch { transition:transform .14s ease-out, box-shadow .14s ease-out; }
 .ng-choice-card[data-hide] .ng-choice-watch:hover { transform:scale(1.14); box-shadow:0 0 0 4px rgba(179,198,234,.22); }
 .ng-choice-card[data-hide] .ng-choice-watch:active { transform:scale(.94); }
-/* a MASTERED move (a Yes in "Did you get it?"): thin gold and a faint warm light, in every row */
-.ng-choice-card[data-mastered] { border-color:rgba(232,196,106,.9); box-shadow:0 0 0 .5px rgba(232,196,106,.6), 0 0 6px rgba(255,214,128,.22); }
-/* U122 a: a pair you know AND its deck's flashcards learned: twice as thick (`_goldCard`). Level 1 is the 1px gold
-   border and a .5px ring, 1.5px; level 2 is the border and a 2px ring, 3px, as the map's 1.5px and 3px outlines */
-.ng-choice-card[data-mastered="2"] { box-shadow:0 0 0 2px rgba(232,196,106,.95), 0 0 7px rgba(255,214,128,.28); }
-.ng-choice-card[data-mastered][data-hover] { box-shadow:0 0 0 .5px rgba(232,196,106,.6), 0 0 7px rgba(150,185,255,.3); }
-.ng-choice-card[data-mastered="2"][data-hover] { box-shadow:0 0 0 2px rgba(232,196,106,.95), 0 0 7px rgba(150,185,255,.3); }
+/* THE SEAL (v1.272.0, the owner's pick a: "A small filled seal: you answered Yes here. A hollow one: its flashcards are
+   learned"; `_sealCard`). It replaces the thin/thick gold outline (U116, U122 a), which read as the selected card: the
+   card keeps its ordinary border. Sized and placed in the card's own unit, its 9px side padding (the title's and the
+   numbers'): 2 units across, 1 unit in from the right edge, 1 unit below the 44px title band, so it sits in the film's
+   top corner, clear of the title (0-44), the play circle (65-109 across), the grade strip (86/96 down) and the numbers
+   (130 down) at every width (the card is 174 x 176 everywhere). A dark rim keeps it legible on a light poster frame.
+   Filled = a gold disc (a struck coin: a lit face, a fine engraved grain) with a dark tick; hollow = a gold ring and
+   tick on dark. The shape differs, not only the colour. pointer-events: its words show on hover (`title`). */
+.ng-choice-seal { position:absolute; top:53px; right:9px; width:18px; height:18px; box-sizing:border-box; border-radius:50%; pointer-events:auto; box-shadow:0 0 0 1.5px rgba(8,10,16,.85), 0 1px 3px rgba(0,0,0,.6); }
+.ng-choice-seal::after { content:""; position:absolute; left:6px; top:3.5px; width:3.5px; height:7.5px; border:solid; border-width:0 2px 2px 0; transform:rotate(40deg); }
+[data-seal=known] > .ng-choice-seal { background:repeating-radial-gradient(circle,rgba(255,244,210,.13) 0 .6px,transparent .6px 1.6px), radial-gradient(circle at 34% 28%,#fff0c4,#efcb75 34%,#c8973a 76%,#8e6220); }
+[data-seal=known] > .ng-choice-seal::after { border-color:#2a1c05; }
+[data-seal=learned] > .ng-choice-seal { background:rgba(8,10,16,.85); box-shadow:inset 0 0 0 1.5px #e8c46a, 0 0 0 1.5px rgba(8,10,16,.85), 0 1px 3px rgba(0,0,0,.6); }
+[data-seal=learned] > .ng-choice-seal::after { border-color:#e8c46a; }
 /* the strip takes no press (review R3): its text and background pass the press to the card; only its buttons answer */
 .ng-choice-grade { pointer-events:none; position:absolute; left:0; right:0; top:96px; height:34px; display:none; align-items:center; gap:6px; padding:0 6px 0 9px; box-sizing:border-box; background:rgba(10,13,22,.9); font-size:10.5px; color:#dbe2f0; }
 .ng-choice-card[data-asking] .ng-choice-grade { display:flex; }

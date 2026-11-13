@@ -149,8 +149,13 @@ function boot(blob) {
   a.curriculum = { belts: [], weights: Object.fromEntries(Object.keys(DECKS).map((k) => [k, 1])) };
   return a;
 }
-// a stand-in for an option card: records the gold attribute `_goldCard` writes
-const CARD = () => ({ attrs: {}, setAttribute(k, v) { this.attrs[k] = v; }, removeAttribute(k) { delete this.attrs[k]; } });
+// a stand-in for an option card: records the seal `_sealCard` writes, its attribute and its one child element (v1.272.0;
+// it recorded `_goldCard`'s `data-mastered` before). No [data-choice-execute] inside, so `_cardAria` has nothing to name.
+const CARD = () => ({ attrs: {}, kids: [], setAttribute(k, v) { this.attrs[k] = v; }, removeAttribute(k) { delete this.attrs[k]; },
+  getAttribute(k) { return k in this.attrs ? this.attrs[k] : null; }, hasAttribute(k) { return k in this.attrs; },
+  querySelector(sel) { return sel === "[data-choice-seal]" ? this.kids[0] || null : null; },
+  appendChild(el) { this.kids.push(el); el.remove = () => { this.kids = this.kids.filter((x) => x !== el); }; },
+  ownerDocument: { createElement: () => ({ setAttribute() {}, className: "", title: "" }) } });
 const V1254_ORDER = ["v", "prep", "rec", "stage", "srs", "dayLog", "rollDays", "units", "belts", "tut", "challenges", "badges", "coins", "lists", "flow", "explored", "days", "settings", "settingsAt", "updatedAt"];
 const numbers = (a) => {
   const gs = a.gameScore();
@@ -400,10 +405,10 @@ test("stage 2, bit equality on ESCAPES: a defended submission from every partly 
   assert.ok(states > 5000 && cards > 10000, `positive coverage: ${states} states, ${cards} escape cards`);
 });
 
-test("stage 2, the moves index is keyed on the record: a grade and a pull refresh the share; a flashcard answer re-levels the gold without dealing a hand", () => {
+test("stage 2, the moves index is keyed on the record: a grade and a pull refresh the share; a flashcard answer deals no hand and leaves the map's one state", () => {
   // review STAGE2F: keyed on `_stageVer`, the index re-dealt every known seat's hand on the frame after every deck
-  // landing, move and grade. Keyed on the record (its identity, `_movesRev`) and the ruleset, only the gold's level
-  // follows `_stageVer`.
+  // landing, move and grade. Keyed on the record (its identity, `_movesRev`) and the ruleset. Until v1.272.0 the gold's
+  // level followed `_stageVer`; the map's seal has one state, so nothing does (the title said "re-levels the gold").
   const a = wireBoot({ v: 2 }), mount = seatsOf(a).find((x) => x.key === "Mount|Top");
   a.currentPos = mount.i; a.playerRole = "top";
   const opts = a.optionsFor(mount.i, "top");
@@ -418,7 +423,8 @@ test("stage 2, the moves index is keyed on the record: a grade and a pull refres
   a.stage = { "Mount|Top": { [a.qhash("Mount q0")]: 3 } };
   a._publishKnowledge("test:flashcard");
   deals = 0;
-  assert.equal(a._movesGold().get(a.nodes.find((x) => x.id === "Positions/Mount" && x.role !== "bottom").idx), 2, "the level moves to 2");
+  // v1.272.0 (the map's seal: one state, U122 a's level 2 gone with the outline): was 2, "the level moves to 2"
+  assert.equal(a._movesGold().get(a.nodes.find((x) => x.id === "Positions/Mount" && x.role !== "bottom").idx), 1, "the deck learned changes nothing on the map: one state");
   assert.equal(deals, 0, "...without dealing a hand");
   a._publishKnowledge("test:deck-landed");                             // a deck landing, a move played: `_stageVer` moves
   deals = 0; a._movesGold(); a._seatShare("Mount|Top"); a.mastery("Mount|Top");
@@ -500,13 +506,15 @@ test("stage 2, a No takes it back; a grade republishes; a pull brings a Yes in w
   assert.equal(a.mastery(key), 0.15, "a Yes: +0.15 on " + key);
   assert.ok(a._knowledgeRevision > rev0, "a grade republishes the knowledge (the worker re-solves)");
   assert.equal(a.knowledgeProfile().permanent[key], 0.15, "…and the profile carries it");
-  assert.equal(card.attrs["data-mastered"], "", "the card's thin gold");
+  // v1.272.0 (the owner's seal): was data-mastered "", "the card's thin gold"
+  assert.deepEqual([card.attrs["data-seal"], card.kids.length], ["known", 1], "the card's filled seal");
   assert.equal(a._movesGold().get(opt.node.idx), 1, "the map's thin gold");
   assert.equal(a._movesKnownLine().known, 1);
   a._gradeMove(opt, false, card);
   assert.equal(a.mastery(key), 0, "a No: the move's +0.15 is gone until the next Yes");
   assert.equal(a.knowledgeProfile().permanent[key] || 0, 0, "…in the profile too");
-  assert.ok(!("data-mastered" in card.attrs) && !a._movesGold().has(opt.node.idx), "…and its gold");
+  // v1.272.0: was !("data-mastered" in card.attrs), "…and its gold"
+  assert.ok(!("data-seal" in card.attrs) && !card.kids.length && !a._movesGold().has(opt.node.idx), "…and its seal, and the map's gold");
   assert.equal(a._movesKnownLine().known, 0);
   // a pull: the cloud holds a Yes from another device; the merge and the hydrate are the app's own (`_pullAndMerge`)
   const cloud = { v: 2, moves: { [mount.st]: { [mount.dealt[1]]: [DAY + 3, 3, DAY, 1] } } };
@@ -516,34 +524,44 @@ test("stage 2, a No takes it back; a grade republishes; a pull brings a Yes in w
   assert.equal(a.knowledgeProfile().permanent[techKey(a, mount.dealt[1])], 0.15, "…in the worker's profile");
 });
 
-test("stage 2, gold level 2 = known and its flashcards learned, in either order; a ruleset switch recomputes share, gold and line", () => {
+test("stage 2, known and its flashcards learned in either order: the map's one state, the card's seal; a ruleset switch recomputes share, gold and line", () => {
   const a = wireBoot({ v: 2 }), mount = seatsOf(a).find((s) => s.key === "Mount|Top");
   const opt = a.optionsFor(mount.i, "top")[0], key = a.deckKeyFor(opt.node).key, card = CARD();
   const learn = (k) => { a.flashcards.decks[k] = { n: 2, cards: [{ q: k + " q0", a: "x" }, { q: k + " q1", a: "y" }] }; a.stage[k] = { [a.qhash(k + " q0")]: 3, [a.qhash(k + " q1")]: 3 }; a._publishKnowledge("test"); };
   a.flashcards = { decks: {}, manifest: true };
   a._gradeMove(opt, true, card);
-  assert.equal(a._movesGold().get(opt.node.idx), 1); assert.equal(card.attrs["data-mastered"], "");
+  assert.equal(a._movesGold().get(opt.node.idx), 1); assert.equal(card.attrs["data-seal"], "known");   // v1.272.0: was data-mastered ""
   learn(key);                                                     // the deck's last detail card learned, no reload
   assert.equal(a.deckMastery(key), 1);
-  assert.equal(a._movesGold().get(opt.node.idx), 2, "the map thickens");
-  a._paintHandGold.call({ _optionCards: [{ card, opt }], _goldCard: a._goldCard.bind(a) });
-  assert.equal(card.attrs["data-mastered"], "2", "the card thickens");
+  assert.equal(a._movesGold().get(opt.node.idx), 1, "the map does not thicken: one state (v1.272.0; was 2, \"the map thickens\")");
+  // v1.272.0: was `_paintHandGold` and data-mastered "2", "the card thickens". The seal has two kinds, and a move both
+  // answered Yes and learned is "known" (the row rules): the hand's repaint keeps the filled seal, one child, no level
+  card._choiceOpt = opt;
+  a._paintHand.call({ _optionCards: [{ card, opt }], _paintCard: a._paintCard.bind(a) });
+  assert.deepEqual([card.attrs["data-seal"], card.kids.length], ["known", 1], "the card keeps its filled seal: no second level");
   // the reverse order: flashcards first, then the Yes
   const opt2 = a.optionsFor(mount.i, "top")[1], key2 = a.deckKeyFor(opt2.node).key, card2 = CARD();
   learn(key2);
   assert.ok(!a._movesGold().has(opt2.node.idx), "learned flashcards alone draw no moves gold");
+  // v1.272.0: the flashcards alone are the HOLLOW seal on the card (never answered, deck learned, none due)
+  card2._choiceOpt = opt2; a._paintCard(card2);
+  assert.equal(card2.attrs["data-seal"], "learned", "flashcards first: the hollow seal");
   a._gradeMove(opt2, true, card2);
-  assert.equal(a._movesGold().get(opt2.node.idx), 2); assert.equal(card2.attrs["data-mastered"], "2");
-  // an ESCAPE stays thin (review STAGE2E): its `deckKeyFor(node)` is the submission's attacking half, not its own deck.
-  // Control: the same submission dealt as a move of its own, known, does thicken.
+  // v1.272.0: was data-mastered "2"; the Yes fills the hollow seal, the same element
+  assert.equal(a._movesGold().get(opt2.node.idx), 1); assert.deepEqual([card2.attrs["data-seal"], card2.kids.length], ["known", 1], "then the Yes: the seal fills");
+  // an ESCAPE (review STAGE2E): its `deckKeyFor(node)` is the submission's attacking half, not its own deck. v1.272.0:
+  // it stayed thin while the own move thickened; the level is gone, so both wear the filled seal, and the escape's
+  // deck is never read: an unanswered escape on that learned deck is "new", never "learned" (no hollow seal).
   const sub = a.nodes.find((x) => x.id === "Submissions/Kimura/from-Mount" && x.role !== "defender"), skey = a.deckKeyFor(sub).key;
   learn(skey);
   const esc = { action: "escape", label: "Bridge and roll out of the Kimura", node: sub }, own = { node: sub, idx: sub.idx };
   for (const o of [esc, own]) { const [st, mv] = a._moveKey(o); (a.moves[st] = a.moves[st] || {})[mv] = row(true); }
   a._publishKnowledge("test");
   const escCard = CARD(), ownCard = CARD();
-  a._goldCard(escCard, esc); a._goldCard(ownCard, own);
-  assert.deepEqual([escCard.attrs["data-mastered"], ownCard.attrs["data-mastered"]], ["", "2"], "a known escape stays thin; the known move on the same learned deck is double");
+  a._sealCard(escCard, a._moveState(esc)); a._sealCard(ownCard, a._moveState(own));
+  // v1.272.0: was ["", "2"], "a known escape stays thin; the known move on the same learned deck is double"
+  assert.deepEqual([escCard.attrs["data-seal"], ownCard.attrs["data-seal"]], ["known", "known"], "a known escape and the known move: the filled seal both");
+  assert.equal(a._moveState({ action: "escape", label: "Some other way out of the Kimura", node: sub }), "new", "an unanswered escape on a learned deck: new, never learned");
   // a ruleset switch: a seat whose gi hand has moves no-gi does not deal. Know exactly its no-gi hand.
   const gi = seatsOf(a), nogi = seatsOf(wireBoot({ v: 2 }, "nogi"));
   const seat = nogi.find((s) => { const g = gi.find((x) => x.st === s.st); return g && g.dealt.length > s.dealt.length && s.dealt.every((d) => g.dealt.includes(d)); });
