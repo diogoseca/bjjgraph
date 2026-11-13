@@ -25,6 +25,10 @@ const T = {
   promo: "a promotion by the number: once, saved, one silent beat and one analytics line; nothing on a merge",
   reopen: "a reopen: nothing fetched after a check that landed; one more try after a failed one",
   early: "a drawer opened before the game is in waits, and reads once it lands; a failed check does not ask at a grade",
+  flipPaint: "a reading taken in the other ruleset is never painted: the row wears the belt held and waits",
+  flipAsk: "a ruleset flip with the drawer shown asks again: the new ruleset's number, never the old one's",
+  tabs: "two tabs: a level another tab already saved fires nothing (the stored copy every tab saves to)",
+  account: "an account before its first pull: raised, nothing fires until the pull merged; then only if the cloud did not bring it",
 };
 const MUTANTS = [
   { id: "BELT-M1", what: "the held level's merge keeps the LOCAL value", file: ROW, test: T.merge,
@@ -48,7 +52,7 @@ const MUTANTS = [
   { id: "BELT-M10", what: "the row wears the Path's level alone", file: ROW, test: T.flip,
     edits: [[APP, "const level = Math.max(0, this._heldLevel(), this._pathLevel())", "const level = Math.max(0, this._pathLevel())"]] },
   { id: "BELT-M11", what: "the row repaints from a live read, not the reading it asked for", file: ROW, test: T.still,
-    edits: [[APP, "const v = ngRatingRow(this.beltWorn().level, this._beltReading);", "const v = ngRatingRow(this.beltWorn().level, this.rating());"]] },
+    edits: [[APP, "const r = this._beltReading, frame = this._giMode === \"nogi\" ? \"nogi\" : \"gi\";", "const r = this.rating(), frame = this._giMode === \"nogi\" ? \"nogi\" : \"gi\";"]] },
   { id: "BELT-M12", what: "the promotion fires above the HELD level, not above what is worn", file: ROW, test: T.promo,
     edits: [[APP, "const L = ngRatingLevel(r.points), was = this.beltWorn().level;", "const L = ngRatingLevel(r.points), was = this._heldLevel();"]] },
   { id: "BELT-M13", what: "a reopen fetches again after a check that landed (both guards dropped)", file: ROW, test: T.reopen,
@@ -58,6 +62,19 @@ const MUTANTS = [
     edits: [[APP, "if (L && L.manifest === decks && L.fp === fp && L.result.status === \"ok\") return", "if (L && L.manifest === decks && L.fp === fp) return"]] },
   { id: "BELT-M15", what: "a drawer opened before the game was in never asks again", file: ROW, test: T.early,
     edits: [[APP, "    if (this._beltAskLater && this.deckShown) { this._beltAskLater = false; this._askBeltRow(); }", ""]] },
+  // R1, the independent read of PR #412
+  { id: "BELT-M16", what: "the row paints a reading taken in the other ruleset", file: ROW, test: T.flipPaint,
+    edits: [[APP, "const v = ngRatingRow(this.beltWorn().level, r && r.frame === frame ? r : null);", "const v = ngRatingRow(this.beltWorn().level, r);"]] },
+  { id: "BELT-M17", what: "a ruleset flip with the drawer shown does not ask again", file: ROW, test: T.flipAsk,
+    edits: [[APP, "    if (this.deckShown) this._askBeltRow();\n    const concept = this._conceptsById", "    const concept = this._conceptsById"]] },
+  { id: "BELT-M18", what: "a level another tab already saved fires again", file: ROW, test: T.tabs,
+    edits: [[APP, "const fresh = L > this._storedLevel(), o = this._progressOwner;", "const fresh = true, o = this._progressOwner;"]] },
+  { id: "BELT-M19", what: "an account fires before its first pull", file: ROW, test: T.account,
+    edits: [[APP, "const early = !!o && o.kind === \"account\"", "const early = false && !!o && o.kind === \"account\""]] },
+  { id: "BELT-M20", what: "after the pull it fires though the cloud brought the level", file: ROW, test: T.account,
+    edits: [[APP, "if (ev && ev.level > (h ? h.n : -1)) this._fireLevel(ev);", "if (ev) this._fireLevel(ev);"]] },
+  { id: "BELT-M21", what: "the pull never fires a held-back promotion (its call dropped)", file: ROW, test: T.account,
+    edits: [[APP, "      this._afterPullLevel(empty ? null : cloud);   // a promotion held back for this pull (`_noteRatingLevel`)\n", ""]] },
 ];
 
 const sha = (p) => createHash("sha256").update(readFileSync(ROOT + p)).digest("hex");

@@ -28,6 +28,12 @@
 //            `ratingCheck`'s ok guard; either alone holds the claim, so each alone survives by design) → "a reopen"
 //   BELT-M14 a reopen after a failed check never tries again (`ratingCheck` reuses a kept failure) → "a reopen"
 //   BELT-M15 a drawer opened before the game was in never asks again (`_syncBelt`'s ask dropped) → "a drawer opened before"
+//   BELT-M16 the row paints a reading taken in the other ruleset (R1, finding 1)          → "a reading taken in the other ruleset"
+//   BELT-M17 a gi/no-gi flip with the drawer shown does not ask again (R1, finding 1)      → "a ruleset flip with the drawer shown"
+//   BELT-M18 a level another tab already saved fires again (R1, finding 2a)                → "two tabs"
+//   BELT-M19 an account fires before its first pull (R1, finding 2b)                       → "an account before its first pull"
+//   BELT-M20 after the pull it fires though the cloud brought the level (R1, finding 2b)   → "an account before its first pull"
+//   BELT-M21 the pull never fires a held-back promotion (`_pullAndMerge`'s call dropped)  → "an account before its first pull"
 //
 // Run: node --test tests/belt_row.test.mjs
 import { test } from "node:test";
@@ -94,7 +100,7 @@ function boot({ blob = {}, frame = "gi", Mod = M, reading = null } = {}) {
   Object.assign(a, { settings: {}, _settingsAt: {}, _giMode: frame, beats: [], saves: 0, tracked: [],
     viewToggleRef: { current: null }, explorerListRef: { current: null } });
   a._saveProgress = () => { a.saves++; };
-  a._flushSave = () => {};
+  a._flushSave = () => { a.flushes = (a.flushes || 0) + 1; };
   a.track = (e, p) => { a.tracked.push([e, p]); };
   a.renderTutorial = () => {};
   a.renderChallengeCue = null;
@@ -115,7 +121,7 @@ function boot({ blob = {}, frame = "gi", Mod = M, reading = null } = {}) {
 }
 /** the reading the row asks for: `rating()` answers it, `ratingCheck()` lands it (the law is pinned by rating.test.mjs) */
 function setReading(a, r) { a.rating = () => r; a.ratingCheck = () => Promise.resolve(r); }
-const ok = (points) => ({ status: "ok", final: true, points });
+const ok = (points, frame = "gi") => ({ status: "ok", final: true, points, frame });
 /** units proven, raw evidence: every lesson live in `frame` done and each named unit's checkpoint passed */
 function prove(a, beltId, frame, units) {
   const belt = a.curriculum.belts.find((b) => b.id === beltId);
@@ -194,7 +200,7 @@ test("the number is shown only when final, rounded DOWN; until then the belt hel
   const p = a._askBeltRow();
   const w = row(a);
   assert.deepEqual([w.state, w.number, w.belt, w.stripes, w.lines], ["wait", "", "blue", "2", []], "BELT-M5: waiting: the belt held, no number, no line");
-  land({ status: "ok", final: true, points: 1412.97 });
+  land({ status: "ok", final: true, points: 1412.97, frame: "gi" });
   await p;
   const r = row(a);
   assert.deepEqual([r.state, r.number], ["ok", "1412"], "BELT-M6: rounded DOWN (1412.97 shows 1412)");
@@ -230,7 +236,7 @@ test("the dip's second line: only below the floor of what is worn, never at it",
 });
 
 test("rows for a brand-new visitor and the top of the scale", async () => {
-  const a = boot({ reading: { status: "empty", final: true, points: null } });
+  const a = boot({ reading: { status: "empty", final: true, points: null, frame: "gi" } });
   await a._askBeltRow();
   const r = row(a);
   assert.deepEqual([r.state, r.belt, r.stripes, r.number, r.lines], ["none", "white", "0", "", ["Answer a few cards to get your number"]]);
@@ -246,12 +252,12 @@ test("rows for a brand-new visitor and the top of the scale", async () => {
 
 test("a promotion by the number: once, saved, one silent beat and one analytics line; nothing on a merge", async () => {
   const a = boot({ blob: { belts: { won: {}, lvl: { n: 7, t: 3 } } }, reading: ok(1416.4) });
-  const saves = a.saves;
+  const flushes = a.flushes || 0;
   await a._askBeltRow();
   assert.equal(a.belts.lvl.n, 8, "raised to blue, three stripes");
   assert.deepEqual(beats(a, "level_reached").map((b) => [b.level, b.belt, b.stripes, b.from, b.rating]), [[8, "blue", 3, 7, 1416]]);
   assert.deepEqual(a.tracked.filter(([e]) => e === "neural_level_reached"), [["neural_level_reached", { belt: "blue", stripes: 3, rating: 1416 }]]);
-  assert.equal(a.saves, saves + 1, "saved at once, with the level");
+  assert.equal(a.flushes, flushes + 1, "written at once, with the level (R1: a flush, so another tab reads it at once)");
   await a._askBeltRow(); await a._askBeltRow();
   assert.equal(beats(a, "level_reached").length, 1, "BELT-M12: never twice for one level");
   // a level that arrives by a merge fires nothing, and neither does the next read below it
@@ -362,7 +368,7 @@ test("a drawer opened before the game is in waits, and reads once it lands; a fa
   a.deckShown = true;
   await a._askBeltRow();
   assert.deepEqual([row(a).state, row(a).number, asked], ["wait", "", 0], "the game not in: waiting, nothing asked of the live check");
-  r = { status: "ok", final: true, points: 1240 };
+  r = { status: "ok", final: true, points: 1240, frame: "gi" };
   a._syncBelt("manifest");   // the manifest lands: the belt sync asks once more
   await Promise.resolve();
   assert.deepEqual([row(a).state, row(a).number], ["ok", "1240"], "BELT-M15: read once the game is in");
@@ -373,6 +379,72 @@ test("a drawer opened before the game is in waits, and reads once it lands; a fa
   await b._askBeltRow();
   b._syncBelt("grade:test"); b._syncBelt("grade:test");
   assert.equal(bAsked, 1, "one ask at the open, none at a grade");
+});
+
+// ── R1 (the independent read of PR #412): the ruleset flip, and one promotion per level across tabs and devices ──
+test("a reading taken in the other ruleset is never painted: the row wears the belt held and waits", async () => {
+  const a = boot({ reading: ok(1300, "gi") });
+  await a._askBeltRow();
+  assert.equal(row(a).number, "1300");
+  a._giMode = "nogi";   // the ruleset changed and nothing has asked yet
+  assert.deepEqual([row(a).state, row(a).number, row(a).belt], ["wait", "", "white"], "BELT-M16: the gi number is not painted in no-gi");
+});
+
+test("a ruleset flip with the drawer shown asks again: the new ruleset's number, never the old one's", async () => {
+  const a = boot({ frame: "gi" });
+  a.rating = () => (a._giMode === "nogi" ? ok(1100, "nogi") : ok(1300, "gi"));
+  let asked = 0; a.ratingCheck = () => { asked++; return Promise.resolve(a.rating()); };
+  a.deckShown = true;
+  await a._askBeltRow();
+  assert.equal(row(a).number, "1300");
+  a.setGiMode("nogi");
+  assert.deepEqual([row(a).state, row(a).number, asked], ["ok", "1100", 0], "BELT-M17: the no-gi number, read at the flip; nothing fetched");
+  a.setGiMode("gi");
+  assert.equal(row(a).number, "1300", "and back");
+});
+
+test("two tabs: a level another tab already saved fires nothing (the stored copy every tab saves to)", async () => {
+  let stored = null;
+  const host = { store: { read: () => (stored ? { status: "ready", blob: stored } : { status: "empty", blob: null }) } };
+  const tab = () => {
+    const t = boot({ blob: { belts: { won: {}, lvl: { n: 7, t: 3 } } }, reading: ok(1416.4) });
+    Object.assign(t, { _progressHost: host, _progressOwner: { kind: "guest" } });
+    t._flushSave = () => { stored = JSON.parse(JSON.stringify(t._progressBlob())); };
+    return t;
+  };
+  const A = tab(), B = tab();   // both loaded the same copy, before either raised it
+  await A._askBeltRow();
+  assert.deepEqual([stored.belts.lvl.n, beats(A, "level_reached").length], [8, 1], "tab A: raised, written, fired once");
+  await B._askBeltRow();
+  assert.deepEqual([B.belts.lvl.n, beats(B, "level_reached").length, B.tracked.filter(([e]) => e === "neural_level_reached").length], [8, 0, 0],
+    "BELT-M18: tab B raises its own copy and fires nothing");
+});
+
+test("an account before its first pull: raised, nothing fires until the pull merged; then only if the cloud did not bring it", async () => {
+  const acct = (cloudN) => {
+    const a = boot({ blob: { belts: { won: {}, lvl: { n: 7, t: 3 } } }, reading: ok(1416.4) });
+    const cloud = { v: 2, belts: { won: {}, lvl: { n: cloudN, t: 1 } } };
+    // ONE facade object: the pull checks it is still the same one when its answer lands
+    const facade = { neuralSyncVersion: 2, pullNeural: async (id) => ({ userId: id, blob: clone(cloud) }) };
+    Object.assign(a, { _progressOwner: { kind: "account", id: "A" }, _authUserId: "A", _authDisposed: false, _progressLocalOnly: false,
+      _auth: () => facade });
+    return a;
+  };
+  const a = acct(5);
+  await a._askBeltRow();
+  assert.deepEqual([a.belts.lvl.n, beats(a, "level_reached").length], [8, 0], "BELT-M19: raised before the pull, nothing fired");
+  assert.equal(await a._pullAndMerge(), true, "the first pull lands (the real _pullAndMerge, a fake facade)");
+  assert.deepEqual([a.belts.lvl.n, beats(a, "level_reached").length, a.tracked.filter(([e]) => e === "neural_level_reached").length], [8, 1, 1],
+    "BELT-M21: the cloud held less: it fires once, after the pull");
+  await a._pullAndMerge(); await a._askBeltRow();
+  assert.equal(beats(a, "level_reached").length, 1, "and never again");
+  const b = acct(8);
+  await b._askBeltRow();
+  await b._pullAndMerge();
+  assert.deepEqual([b.belts.lvl.n, beats(b, "level_reached").length], [8, 0], "BELT-M20: the cloud brought it: nothing fires");
+  const c = acct(12);
+  await c._askBeltRow(); await c._pullAndMerge();
+  assert.deepEqual([c.belts.lvl.n, beats(c, "level_reached").length], [12, 0], "the cloud brought more: nothing fires, the higher is held");
 });
 
 // ── THE LIVE CHECK AT THE DRAWER: a reopen (the real `ratingCheck`, on this worktree's emitted payload) ──

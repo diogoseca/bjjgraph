@@ -7466,6 +7466,7 @@ class Component extends DCLogic {
       }
       if (!current()) return false;
       this._pulled = true; this._pulledUserId = userId; this._pushSeq = (this._pushSeq || 0) + 1;
+      this._afterPullLevel(empty ? null : cloud);   // a promotion held back for this pull (`_noteRatingLevel`)
       this._cloudSeen = pushesAtStart === (this._pushEvents || 0) ? seen : null;
       this._cloudSyncError = null;
       // v1.262.0 (ORDER1): guest practice joins only HERE, after a successful pull, so the rule meets the CLOUD's rows
@@ -8081,15 +8082,38 @@ class Component extends DCLogic {
    * device whose own number raised it: a level that arrives by a merge (`_mergeProgressFields`) or from the Path
    * (`_syncBelt`) fires nothing.
    */
+  // ONCE PER LEVEL ACROSS TABS AND BEFORE THE FIRST PULL (R1, finding 2): the level is always raised (it is monotone) and
+  // written at once, but nothing fires when the STORED copy, which every tab of this browser saves to, already holds it
+  // (another tab got there first), and on an account nothing fires until this session's first pull has merged: then it
+  // fires only if the cloud did not bring it (`_afterPullLevel`). NOT COVERED: after an older client lowered the cloud, a
+  // fresh device can fire a level again.
   _noteRatingLevel(r) {
     if (!this._progressLoaded || !this.belts || !r || r.final !== true || r.status !== "ok") return false;
     const L = ngRatingLevel(r.points), was = this.beltWorn().level;
-    if (L == null || L <= was || !this._raiseLevel(L)) return false;
-    const b = ngRatingBeltOf(L), rating = Math.floor(r.points);
-    this.fx("level_reached", { level: L, belt: NG_BELT_IDS[b.belt], stripes: b.stripes, from: was, rating: rating });
-    this.track("neural_level_reached", { belt: NG_BELT_IDS[b.belt], stripes: b.stripes, rating: rating });
-    this._saveProgress();
+    if (L == null || L <= was) return false;
+    const fresh = L > this._storedLevel(), o = this._progressOwner;
+    const early = !!o && o.kind === "account" && !this._progressLocalOnly && !(this._pulled === true && this._pulledUserId === o.id);
+    if (!this._raiseLevel(L)) return false;
+    this._flushSave();
+    const b = ngRatingBeltOf(L), ev = { level: L, belt: NG_BELT_IDS[b.belt], stripes: b.stripes, from: was, rating: Math.floor(r.points) };
+    if (!fresh) return false;
+    if (early) { this._levelPending = ev; return false; }
+    this._fireLevel(ev);
     return true;
+  }
+  _storedLevel() {
+    try { const f = this._progressHost && this._progressHost.store.read(this._progressOwner), h = ngRatingHeld(f && f.blob && f.blob.belts && f.blob.belts.lvl); return h ? h.n : -1; }
+    catch (e) { return -1; }
+  }
+  _fireLevel(ev) {
+    this.fx("level_reached", ev);
+    this.track("neural_level_reached", { belt: ev.belt, stripes: ev.stripes, rating: ev.rating });
+  }
+  /** after this session's first successful pull: a promotion held back for it fires only if the merge did not bring it */
+  _afterPullLevel(cloud) {
+    const ev = this._levelPending, h = ngRatingHeld(cloud && cloud.belts && cloud.belts.lvl);
+    this._levelPending = null;
+    if (ev && ev.level > (h ? h.n : -1)) this._fireLevel(ev);
   }
   /**
    * THE ROW'S READING. Opening the drawer asks (`applyDeckVisibility`), and so does coming back to the list
@@ -8123,7 +8147,9 @@ class Component extends DCLogic {
   _paintBeltRow(box) {
     box = box || this.drillRef?.current?.querySelector("[data-explore-stats]");
     const el = box && box.querySelector("[data-belt-row]"); if (!el) return;
-    const v = ngRatingRow(this.beltWorn().level, this._beltReading);
+    // a reading taken in the other ruleset is never painted: the row wears the belt held and waits (R1, finding 1)
+    const r = this._beltReading, frame = this._giMode === "nogi" ? "nogi" : "gi";
+    const v = ngRatingRow(this.beltWorn().level, r && r.frame === frame ? r : null);
     el.setAttribute("data-belt-state", v.state);
     const html = this._beltRowHTML(v);
     // written only when it changed (SIDE-R2 M10, as the row's tail): a rewrite under a pointer swallows a press
@@ -8634,6 +8660,9 @@ class Component extends DCLogic {
     this._flowScoreCache = null;
     this._rebuildRulesetMask();
     this._syncBelt("ruleset");
+    // the drawer's number is per ruleset: a flip (Settings is a modal over the open drawer) asks again; the live check is
+    // the same for both rulesets, so this fetches nothing once it has landed (v1.276.0 R1, finding 1)
+    if (this.deckShown) this._askBeltRow();
     const concept = this._conceptsById && this._conceptsById[this._conceptId];
     if (concept) this.focusConcept(concept, true);
     // NOT released, each for a reason, so the next reader sees this was checked not forgotten:

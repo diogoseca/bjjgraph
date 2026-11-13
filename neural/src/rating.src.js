@@ -179,6 +179,8 @@ export function ngRatingNext(points, heldLevel) {
 // only rises, so no stamp and no order of pulls can race it, and a stale copy can never lower it on a current client.
 
 /** A stored held level, validated: {n: 0..20 integer, t: stamp or 0}; null for anything else (never a guess). */
+// A malformed stored level is no value: it loses every merge and the next raise replaces it (R1, finding 6). No client
+// writes one; a later table with more than 20 levels would need its own key, or this build would replace its value.
 export function ngRatingHeld(v) {
   if (!v || typeof v !== "object" || Array.isArray(v)) return null;
   if (!Number.isInteger(v.n) || v.n < 0 || v.n > NG_RATING_BLACK) return null;
