@@ -237,6 +237,7 @@ test('in the real font the lines take the shape the owner chose', async ({ page 
   // grows 242 -> 282px and the defender's line, "Tap early and often. Injury risks ↓", fits on one. WAS (S2 b's widths, to v1.264.5):
   // [360, 2, 2]: the defender's line in two at 360. The form he chose (the plain rule, only the label a link, kept whole) is unchanged;
   // the attacker's stays two lines at 360 and 390, the defender's one at 390 (it had about 3px to spare there), both one at 1440.
+  // Control: width5-safety-line-gutter-lost (tests/artifacts/article_sections_mutants.mjs, p5's grid line put back), killed at Defender at 360.
   for (const [width, attacker, defender] of [[360, 2, 1], [390, 2, 1], [1440, 1, 1]] as const) {
     for (const [path, text, lines] of [[ATTACKER, ATTACKER_LINE, attacker], [DEFENDER, DEFENDER_LINE, defender]] as const) {
       await open(page, path, width, 640)

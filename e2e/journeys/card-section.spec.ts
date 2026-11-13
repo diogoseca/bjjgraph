@@ -247,6 +247,14 @@ for (const size of SIZES) {
 //   width4-switch-media-early ...... the phone query at 589px, 599x760 ..... killed: Previous stands 32px inside the face
 //   width4-asking-padded ........... the padding on the asking line too ..... killed in article-order.spec.ts: the line starts at the label
 //   cardwidth-b-starts-early ....... NON-KILL under WIDTH4, equivalent: at 599px the cap binds on both sides of the reader's switch
+// WIDTH5 (v1.265.0, the owner's U154 e, 13 Nov 2026), under the build lock on a private tree, each against a green baseline:
+//   width5-glyph-4px ............... Previous's glyph 4px out, 390x631 ..... killed: Previous's glyph is centred in the free space (30.2 / 34.5)
+//   width5-next-glyph-4px .......... Next's glyph 4px out, 360x740 ......... killed: Next's glyph is centred in the free space (329.8 / 325.5)
+//   width5-glyph-4px-844 ........... Next's glyph 4px in, 390x844 .......... killed: Next's glyph is centred in the free space (351.8 / 355.5)
+//   width5-glyph-as-he-saw-it ...... the lane's 6px ride back, 574x760 ..... killed: Previous's glyph is centred in the free space (54.7 / 61.5)
+//   cardwidth-glyph-in-target ...... retargeted to 768 (the phone rule rides the glyph now): killed, Previous's glyph stands 16px from the face
+// The WIDTH4 assertion "Previous's/Next's glyph stands 16px inside the face" is REPLACED by the free-space claim above (WIDTH5); every
+// CARDWIDTH, WIDTH2 and WIDTH4 row above re-run on this build: killed, but cardwidth-b-starts-early (the same recorded non-kill).
 // Control (v1.263.1): this whole file against dev v1.262.10's own bundle, 9 of 10 red at these claims; the 768 no-deck test green (that face
 // already spanned the row). NOT KILLED, recorded: nothing here can see the 12px reach go to a neighbour's press, because no control
 // stands in a phone's 12px gutter or the index's 12px clearance today; the press samples would catch one that did.

@@ -100,7 +100,7 @@ for (const width of [1440, 390]) test(`article grid ${width}px preserves content
     expect(card.overflow, card.type + ' has no horizontal overflow').toBeLessThanOrEqual(1)
     // The owner's U154 e (13 Nov 2026, WIDTH4's p5): on a phone (under 600px) every open section shares the Moves row's two edges, 12..378
     // at 390. WAS (to v1.264.5): every section at least 24px inside the screen, 32..358 at 390. From 600px up the rule is unchanged: at
-    // least 24px inside the screen (1440: the grid's two lanes).
+    // least 24px inside the screen (1440: the grid's two lanes). Control: width5-article-grid-gutter-lost (article_sections_mutants.mjs), killed here.
     if (width < 600) expect([card.left - row!.l, card.right - row!.r].map(Math.round), `${card.type} shares the Moves row's two edges (${card.left}..${card.right} / ${row!.l}..${row!.r})`).toEqual([0, 0])
     else { expect(card.left).toBeGreaterThanOrEqual(24); expect(card.right).toBeLessThanOrEqual(width - 24) }
     if (i) expect(card.top).toBeGreaterThanOrEqual(geometry[i - 1].top - 1)

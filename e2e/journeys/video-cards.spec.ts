@@ -171,6 +171,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     } else {
       // The owner's U154 e (13 Nov 2026, WIDTH4's p5): on a phone the film and the face are the Moves row's 366px at 390.
       // WAS (to v1.264.5): the film 358px (min(496, free - 32)) and the face 302 (the row less two 32px arrow lanes; 286 before CARDWIDTH).
+      // Control: width5-cards-film-lost (tests/artifacts/article_sections_mutants.mjs), killed at the film's 366px.
       expect(g.mediaWidth, "U154 e: on a phone the film is the Moves row's 366px").toBe(366)
       expect(g.faceWidth, "U154 e: on a phone the face is the Moves row's 366px").toBe(366)
       // The film 8px wider keeps its 16:9 poster, so it is about 4px taller. WAS 219.94 at 358px.

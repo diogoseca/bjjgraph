@@ -84,7 +84,7 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 1024], [1024, 768],
       if (g.free < 600) {
         // The owner's U154 e (13 Nov 2026): on a phone (under 600px free) the film takes the Moves row's own box, as the question card
         // and the article's sections do: at 390 the row's content box, 12..378, so 366px. WAS (U110 a, to v1.264.5): min(496, free - 32),
-        // 358px at 390, 4px inside the row on each side.
+        // 358px at 390, 4px inside the row on each side. Controls: width5-theater-film-lost-631 and -844 (article_sections_mutants.mjs), killed here.
         expect([g.film.left - g.row.l, g.film.right - g.row.r].map(Math.round), `on a phone the film shares the Moves row's two edges (${g.film.left}..${g.film.right} / ${g.row.l}..${g.row.r})`).toEqual([0, 0])
       } else {
         // From 600px free, unchanged (U110 a): the film fills the stacked column, min(496, free - 32).

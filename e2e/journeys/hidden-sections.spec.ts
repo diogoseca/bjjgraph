@@ -19,6 +19,8 @@ import { journey } from "../dsl"
  * Harness: the DSL serves {} for dossier chunks, so there is no film; these journeys route the real chunks, as reading-mode does.
  *
  * MUTANTS: tests/artifacts/article_sections_mutants.mjs, the hidesec2-* rows (one per claim, each red at its own assertion).
+ * WIDTH5 (13 Nov 2026): width5-shield-outlives-show (the press window not ended by a part shown again) is killed at "a tap on Moves'
+ * close straight after the places close closes Moves"; the press-rule and several-in-a-row rows re-run on that build, all killed.
  */
 const NODE = "/Positions/Mount/Top"
 const READY = '[data-reader][data-reader-ready="true"]'
