@@ -16584,3 +16584,73 @@ Five rules under `permissions.deny` refuse `git push` with `--force`, `--force-w
 `*` matches any text, and a Bash deny applies to every subcommand of a compound command.
 `tests/claude_settings.test.mjs` pins that the file is tracked, that its top-level keys are known ones, and that
 `permissions.deny` holds each force-push rule; each of its three mutants is killed by name.
+
+## v1.265.2 — The 320px deck walk aims at the page the reader has laid out: the red was the spec's timing (DECK1, DECK3, 2026-11-13)
+
+**The red.** `landcard-deck.spec.ts`, "320px chevrons are clickable, keep focus, and stand disabled at deck boundaries", timed
+out at the walk's `waitForFunction(_landPage === index)`: 1 of 8 in each of seat cardwidth's two crossings on 13 Nov (this build
+with this spec, #390's build with dev's spec, both at repeat 2 of 8), once in the 795-test phone survey, and here 0 of 24 and
+0 of 16 unrigged, 1 of 100 with a recorder on (load average 1 to 4.6). CI runs `retries: 0`, so it could turn any PR or push red.
+
+**Ruled out first, with counts.** (1) A dropped async mount: every walk press takes `_landPageTo`'s cold-pool path
+(`_warmMcPool(...).then(mount)`), and that mount is skipped if a backfill swaps `_landEl` meanwhile (`renderLandCard` builds a new
+element even on a `reuse` backfill). But Mount Top's pools never ask for a cold deck: 0 of 7,200 sampled dry passes (8 cards x
+300 fresh draws x 3 boots), and no hydration, backfill or `_landEl` swap in any recorded walk. That path is real but this test
+cannot reach it. (2) The card's clock: in test mode the game clock moves only on `advance()`, which this test never calls.
+(3) The tree: cardwidth's served tree has the same bundle, `Mount/Top.html` and data as this one (md5); 16 of 16 green on it here.
+
+**What the lost press hit (caught unrigged, run 79 of 100).** Next pressed on page 1 (Next's top 621) at 2705.1 ms; page 2 mounts
+in the click's own task at 2705.7. Playwright's `waitForFunction` tests its predicate once before any frame (`next()` runs before
+the first `requestAnimationFrame`), so the walk's wait passed at once. `clickByMouse` measured at 2720.2, with
+`_reader.layoutFrame` still pending and Next still at 621. The reader's `layoutNow` ran at 2722.0 and moved Next to 646: it writes
+the nav's height and `--guide-y`, the middle of the visible face, and the third card's tall draw has the taller face. The
+pointerdown at (298, 642.9) at 2732.3 landed on `div.ng-landcard`, 3px above Next. Page 3 never came. The aim was taken 14.5 ms
+after the page changed; the press came 27.2 ms after the press before. Over those 100 runs (496 presses), 16 aims came before the
+new card's layout, and in every one the layout landed before the press. Only the +25px move missed; the 15 others moved 8 to 17px,
+under Next's 22px half-height, and still hit. The tall draw shows up on page 2 in about half the runs (13 of 32 recorded, 17 of 30
+sampled), and in the draws seen the 621 -> 646 step is the only move in this deck larger than 22px.
+
+**The same red in CI, the same night (DECK3).** Dev's push-run 43361724381 (9bb64a83e, v1.265.1), shard 2, timed out at line 581
+after passing on its PR run. Its page snapshot shows "Card 3 of 8": the press for page 3 was lost. The card's answers were
+"Top sits tall, weight off them", "Hip connection decides control", "Upright posture decides the pin". That is the tall draw:
+in 30 unrigged runs here, every draw carrying "Upright posture decides the pin" (17) moved Next 621 -> 646 (face 307px), and
+every other one (13) moved it 621 -> 638 (face 292px). The screenshot shows the third answer on two lines, and Next centred
+near y 667, where the settled card puts it; y 643 is the card's right padding beside answer A.
+
+**Proved both ways, ten of ten.** A scratch copy of the walk held the reader's layout pass after each Next press and released it
+at a named instant, with every `land-mc-*` draw pinned (0.8 gives the tall page 2, 0.2 the short one):
+
+| the held layout pass lands | draws | runs | result | the page-3 press |
+|---|---|---|---|---|
+| right after `clickByMouse`'s measure | tall | 10 | 10 red, "press for page 3 lost" | measured Next at 621, Next at 646 at mousedown, y 643 -> `div.ng-landcard` |
+| right before the measure | tall | 10 | 10 green | measured at 646, y 668 -> Next |
+| right after the measure (control) | short | 10 | 10 green | measured at 621, Next at 638 at mousedown, y 643 -> Next |
+
+Then the real spec file, old and fixed, each copied with only rig lines added (49 lines, diffed; the import path is a folder
+deeper). The rig is a late frame: the pass is held with `layoutFrame` visibly pending, as a late frame leaves it, and lands right
+after the next measure if one comes first, else after 200 ms. Old spec: 10 of 10 red at its line 581, every miss the same press
+on the card at y 643. Fixed spec: 10 of 10 green, all 60 held passes released by the late frame because the settle waited, all 70
+presses on their arrow.
+
+**Verdict: the spec, for this red.** The lost press was aimed at a spot no frame ever painted for the new card, 27 ms after the
+press before; a press aimed at the arrow a frame shows always pages (all 70 under the late-frame rig once settled). The fix waits
+on what the walk claims, the laid-out page, not on time: `j.readerLayoutSettled()` before each aim that follows a page (the walk's
+Next presses, the Previous press after the first page and its geometry read, the Previous press after the walk). No assertion
+added, removed or changed. This is CLAUDE.md §6.3's last trap, "clickByMouse measures, then presses", met in a spec it does not
+list.
+
+**An app observation for the owner, not fixed here (a design call).** At 320 the tall draw of the third card moves the arrows 25px
+down from the second card. A thumb that taps Next twice at ONE spot without re-aiming (a scratch journey: the first tap at Next's
+centre on the second card, the second at the same point 150 or 300 ms later) gets no page on the tall draw, 12 of 12 (mouse and
+touch, 3 runs each): the second tap lands on the card at y 642.9, Next now 646 to 690. On the short draw it pages, 12 of 12.
+Playwright's tap is a point; a phone's touch adjustment might rescue a 3px miss, which was not measured on a device. This is not
+the lost press the spec met, which was a stale aim. It is where the arrows stand: they follow the middle of the visible face, so
+they move whenever two cards differ in height. Whether they should hold still while paging is the owner's call, from screens; no
+spec pins it either way.
+
+**Runs on the final tree** (dev 9bb64a83e merged by fast-forward, the bundle rebuilt; version-normalised it is byte-identical to
+the build the red came from): the 320 case 40 of 40 unrigged; the whole file three times, 66 of 66 (all 22 tests, every width);
+the chevron tests with the widths reversed (320, 390, 1440) 15 of 15; the fixed spec under the late-frame rig 40 of 40 at the tall
+draw (the rig that turns the old spec red 10 of 10), plus 10 of 10 at draw 0.2 and 10 of 10 unpinned. Load average 0.8 to 3.4
+during them. Bytes: none, a spec-only change; the deferred set stays 510,963 of 510,981 B. The archive ceiling moved +50,000 in
+its own commit first (DECK2).
