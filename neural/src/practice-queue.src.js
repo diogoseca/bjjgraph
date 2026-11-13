@@ -15,10 +15,12 @@
 //     stored row still promises (`ngRatingRecall`, the rating's own reading of a row). New (no row at all): 0.75.
 //     That product is exactly what a right answer adds to "what you can recall right now", so the order spends the day's
 //     answers where the number the belt reads rises most.
-//   · THE GUARD: the 2 owed things due longest (by due day, then the input's order) are asked in every session whatever
-//     their worth, so a light card cannot wait forever behind heavy ones. The reader measured it: with worth alone, 144 of
-//     267 cards owed on day 1 were never asked in a year; with the two longest-due, none (the archive, v1.274.0, has the
-//     re-measure under this rule).
+//   · THE GUARD: the 3 owed things due longest (by due day, then the input's order) are asked in every session whatever
+//     their worth, so a light card cannot wait forever behind heavy ones. The reader measured the first push: with worth
+//     alone, 144 of 267 cards owed on day 1 were never asked in a year; with the two longest-due, none. Under this rule,
+//     re-measured (the archive, v1.274.0): two still ask every one for a player with 300 cards stored, but leave 93 to 128
+//     of 1,288 never asked in a year for one with 1,500; three is the smallest guard that leaves none for both, at no
+//     measurable cost to the level (within 5 points of two's either way); four costs 6 to 11.
 //   · WHAT IS DUE FIRST. A POSITION (a seat: a position and a role) is scored by the sum of its six best owed worths;
 //     every position that owes anything is visited, best first. At a position: its guarded things, its owed moves by
 //     worth, then its owed cards by worth, at most 6 a visit. The last places of the goal are kept for guarded things not
@@ -53,7 +55,7 @@ const NG_PQ_CAP = 6;          // things asked at one position in a visit, at mos
 const NG_PQ_EACH = 2;         // a visit's new moves at most; its new things, moves and cards, at most twice that
 const NG_PQ_BEST = 6;         // a position's owed worth is its six best
 const NG_PQ_NEW = 0.75;       // what an answer to a never-answered thing brings back
-const NG_PQ_GUARD = 2;        // the owed things due longest, asked every session whatever their worth
+const NG_PQ_GUARD = 3;        // the owed things due longest, asked every session whatever their worth
 const NG_PQ_SLOTS = 4;        // new cards a deck can give in one day: its visit's 4
 
 function ngPqNum(v) { return typeof v === "number" && Number.isFinite(v); }

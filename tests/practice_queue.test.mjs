@@ -5,18 +5,22 @@
 // The owner's rule, as the option he picked put it: what comes up most in rolls and what you are closest to forgetting,
 // position by position; at most 6 per position; every answer counts 1 toward 20; the "N due" count leaves the drawer. And
 // the day, in his words (ANKI1): "we only add new cards if there's no due cards left to be reviewed according to the space
-// repetition algo." So the 20 are due cards, worth most first, with the 2 due longest always asked; a new card comes only
+// repetition algo." So the 20 are due cards, worth most first, with the 3 due longest always asked; a new card comes only
 // when nothing is due. Until ANKI1 the law kept a floor of 4 new a day (its tests and mutants Q2, Q9 and Q18 went with it).
 //
 // Part 1 pins the law on worlds small enough to price by hand, one claim per test. Part 2 replays the simulation's own days
 // (tests/artifacts/practice_queue_parity.json). Part 3 pins the builder and the planner. Part 4 reads the real wire.
 //
 // PARITY WITH THE SIMULATION (the plan's, qsim.mjs, kept outside the repo as the rating's is). The owner's Anki rule is the
-// simulation's policy A (`queueA`), written there from the rule, not from the law: the guard (the 2 due longest, by due day
+// simulation's policy A (`queueA`), written there from the rule, not from the law: the guard (the 3 due longest, by due day
 // then world order), every position that owes anything by its six best owed worths, a visit's 6, the positions visited again
 // until nothing is due, the last places kept for the guard, and new things only when nothing is due. Ties are content order
 // (positions by their first askable thing, owed things by traffic order) and the fade is 0.9 ** x (the rating's arithmetic),
-// as the first push had it. @@PARITY@@ Part 2 is that check frozen: 40 days of a small world, 443 asks, regenerated only
+// as the first push had it. On the real wire the law asked exactly what the simulation asks on every day sampled: gi, a year,
+// 10 players, every 7th day: 530 of 530 days (10,600 asks, the guard's three the same on each); two years, every 14th day:
+// 530 of 530 each for gi cards only, no-gi, and no-gi cards only. Those players roll, so their pile never empties and only
+// their first day holds a new card (10 days of 530); with rolls opening no rows (the simulation's `rollsNoNew`), 214 days
+// (gi cards only) and 201 (no-gi) of 530 hold one, and 530 of 530 are equal again. Part 2 is that check frozen: 40 days of a small world, 431 asks, regenerated only
 // from the simulation.
 //
 // MUTANTS (v1.274.0), each applied alone to a clean tree and run against this file; each turned the NAMED test red (the run
@@ -24,8 +28,8 @@
 //   Q1  oldest first restored (positions by their oldest owed card)        → "worth, not age, decides which position comes first"
 //   A1  a new card while something is due (new things ride in a position's visit, as the first push asked them)
 //                                                                          → "a new card only when nothing is due"
-//   A2  the guard removed (no place for the cards due longest)              → "the two cards due longest are asked whatever their worth"
-//   A3  the guard's places not kept (the goal fills before its position)    → "the two cards due longest are asked whatever their worth"
+//   A2  the guard removed (no place for the cards due longest)              → "the three cards due longest are asked whatever their worth"
+//   A3  the guard's places not kept (the goal fills before its position)    → "the three cards due longest are asked whatever their worth"
 //   A4  a position visited once (what is due past its 6 left for new cards)  → "at most 6 a visit; what is due is asked again past 6"
 //   A5  new things take a position past 6 in the day                         → "new things never take a position past 6 in the day"
 //   Q3  the per-position cap ignored                                        → "at most 6 at a position"
@@ -117,7 +121,7 @@ test("moves first at a position, then cards; at most 2 new moves, and 4 new thin
   // one visit, ["m1", "nm1", "nm2", "g1", "nc1", "nc2"]: a new thing rode in beside a due one
   const r = law(items, { guard: 0 });
   assert.deepEqual(r.visits.map((v) => v.ids), [["m1", "g1"], ["nm1", "nm2", "nc1", "nc2"]]);
-  // the guard puts the two due longest first at their position (here both, tied on their due day: the input's order)
+  // the guard puts the cards due longest first at their position (here both, tied on their due day: the input's order)
   assert.deepEqual(law(items).visits[0].ids, ["g1", "m1"]);
 });
 
@@ -150,18 +154,20 @@ test("a new card only when nothing is due", () => {
   assert.deepEqual(loose.asked, ["x0", "loose", "i"]);
 });
 
-test("the two cards due longest are asked whatever their worth", () => {
-  // four heavy positions owe 24 cards due 2 days ago; three light cards have waited longer (due 40, 30 and 20 days ago) at
-  // positions worth least, the two longest-due at the LAST position. Worth alone would ask 20 heavy cards and none of them
+test("the three cards due longest are asked whatever their worth", () => {
+  // four heavy positions owe 24 cards due 2 days ago; four light cards have waited longer (due 40, 30, 20 and 10 days ago)
+  // at the positions worth least. Worth alone would ask 20 heavy cards and none of them. The guard is three (ANKI1, measured:
+  // two left 93 to 128 of 1,288 cards never asked in a year for a player with 1,500 stored; three, none)
   const heavy = [];
   for (let s = 0; s < 4; s++) for (let i = 0; i < 6; i++) heavy.push(card("s" + s + "c" + i, "S" + s + "|Top", 9 - s, ago(5, 3)));
-  const light = [card("old40", "L|Top", 0.01, ago(47, 7)), card("old30", "L|Top", 0.01, ago(37, 7)), card("old20", "M|Top", 0.02, ago(27, 7))];
+  const light = [card("old40", "L|Top", 0.01, ago(47, 7)), card("old30", "L|Top", 0.01, ago(37, 7)),
+    card("old20", "M|Top", 0.02, ago(27, 7)), card("old10", "M|Top", 0.02, ago(17, 7))];
   const r = law([...heavy, ...light]);
   assert.equal(r.n, 20);
-  assert.deepEqual(r.guard, ["old40", "old30"], "the two due longest");
-  assert.ok(r.asked.includes("old40") && r.asked.includes("old30"), "both asked, though the goal was full of heavier cards");
-  assert.ok(!r.asked.includes("old20"), "the third waits: the guard is two");
-  assert.deepEqual(r.visits.at(-1), { seat: "L|Top", ids: ["old40", "old30"] }, "their position comes last; its places were kept");
+  assert.deepEqual(r.guard, ["old40", "old30", "old20"], "the three due longest");
+  for (const id of r.guard) assert.ok(r.asked.includes(id), id + " asked, though the goal was full of heavier cards");
+  assert.ok(!r.asked.includes("old10"), "the fourth waits: the guard is three");
+  assert.ok(r.visits.slice(-2).every((v) => v.ids.every((id) => id.startsWith("old"))), "their positions come last, holding only guarded cards: their places were kept");
   // with no guard, worth alone: none of them
   assert.ok(!law([...heavy, ...light], { guard: 0 }).asked.some((id) => id.startsWith("old")));
 });
@@ -224,7 +230,7 @@ test("the law asks what the simulation asks, on its own days", () => {
     const r = ngPracticeVisits({ items, day: rec.day, goal: rec.goal, cap: 6 });
     assert.deepEqual(r.asked, rec.asked, `seed ${rec.seed}, day ${rec.day}: the same things in the same order`);
     assert.deepEqual(r.visits.map((v) => [v.seat, v.ids]), rec.visits, `seed ${rec.seed}, day ${rec.day}: the same visits`);
-    assert.deepEqual(r.guard, rec.guard, `seed ${rec.seed}, day ${rec.day}: the same two due longest`);
+    assert.deepEqual(r.guard, rec.guard, `seed ${rec.seed}, day ${rec.day}: the same three due longest`);
     assert.equal(r.fresh, rec.fresh, `seed ${rec.seed}, day ${rec.day}: the same new things`);
     days++; asks += r.asked.length; guarded += r.guard.length; if (r.fresh) withNew++; moves += r.asked.filter((i) => P.world[i][0] === "move").length;
   }

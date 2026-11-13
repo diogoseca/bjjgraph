@@ -259,7 +259,7 @@ function ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, r
     visits: order.visits, counts: order.counts, missing: ranking.missing, room: newCards, newCards, dueCards: dueQuestions.length,
     total, overrun: Math.max(0, reviewed.length + total - budget),
     why: "Practice asks the cards that are due first, position by position, starting where it is worth most: what comes up most in " +
-      "your rolls and what you are closest to forgetting. At each position it asks at most 6. The two cards due longest come every day, " +
+      "your rolls and what you are closest to forgetting. At each position it asks at most 6. The three cards due longest come every day, " +
       "so none waits forever. New cards come only when nothing is due. Correct answers make your moves more likely to work in the game; " +
       "that is not a measure of real grappling. A question two decks share counts once. \u201cKeep practising\u201d adds whole new " +
       "techniques: " + ranking.assumptions.join(" "),

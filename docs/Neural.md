@@ -862,7 +862,7 @@ are shown*), never in what a deck is *worth*.
 
 **Practice is one session** (v1.274.0, owner U171 a and his Anki rule). Its active flashcard comes first,
 the belt corridor below. It asks what is due first, position by position, worth most first (`practice-queue.src.js`:
-traffic × what an answer brings back), at most 6 a visit; the 2 due longest come every session. A new card comes only
+traffic × what an answer brings back), at most 6 a visit; the 3 due longest come every session. A new card comes only
 when nothing is due. The default goal is 20 (`dailyGoal` overrides, read through `practiceGoal()`); it counts distinct
 graded questions, including mistakes, once per day. Reveal earns nothing. With no game or no answer yet, today's order
 serves (`ngPracticeRoom`) and says so. “Everything owed, oldest first” is in “Practice details”. Explicit “Keep

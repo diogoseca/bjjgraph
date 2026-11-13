@@ -5,7 +5,7 @@ import { journey } from "../dsl"
 /** WHAT IS WORTH MOST (v1.274.0, the owner, 13 Nov 2026, U171 a): "what comes up most in rolls and what you are closest to
  * forgetting, position by position … at most 6 per position; every answer counts 1 toward 20 … the 'N due' count leaves the
  * drawer, today's count out of 20 stays." And his Anki rule (ANKI1): "we only add new cards if there's no due cards left to
- * be reviewed": the 20 are due cards, worth most first, the 2 due longest always among them; a new card only when nothing
+ * be reviewed": the 20 are due cards, worth most first, the 3 due longest always among them; a new card only when nothing
  * is due. (Until ANKI1 this read "at least 4 new things a day", and the session held at least 4 new.)
  *
  * The law and its parity with the simulation are tests/practice_queue.test.mjs. This journey is the BUILT page: one player
