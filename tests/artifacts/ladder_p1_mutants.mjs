@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 // Run under the shared build lock. Concrete source mutations; positive counts,
 // named assertion failures, and clean baselines are required. Always restore source.
+// v1.270.0 (U163 c, everything opens) removed the code row B-enabled-locked-chevron names (`locked.innerHTML`); B-selection-guard
+// and B-global-advanced-lock still apply, but mutate a guard (`beltUnlocked`) that no longer refuses a real belt. A replay
+// fails or proves nothing for those three rows; the record stands as history.
 import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";

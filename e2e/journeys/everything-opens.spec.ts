@@ -10,21 +10,23 @@ import { journey } from "../dsl"
  * `elementFromPoint` confirms are the control; a scroll first where a player would scroll):
  *   1. opens the Black section of the Path, opens one of its lessons inline and, with that unit's lessons done, starts its
  *      checkpoint. Until v1.270.0 the Black section was "Locked · progress through the earlier belts", with no button.
- *   2. gets a card from a later family in Practice: the session's new decks come from every family. Until v1.270.0 they
+ *   2. gets a card from a family outside White's lessons in Practice (a later belt's, or one in no belt's lessons): the
+ *      session's new decks come from every family. Until v1.270.0 they
  *      came only from the worn belt's families.
  *   3. turns Recall Mode on in Settings. Until v1.270.0 the row was a locked teaser until black.
  * And 4: a blue belt held before the open rule keeps timed recall (the carry-over), Settings shows it On, and Off sticks
  * across a reload. The carry's rules in full, and the merge, are unit-tested (tests/belt_worn.test.mjs).
  *
  * CONTROL: dev's own bundle (v1.266.0, 5f2510f71) fails all 7 tests at their first open-rule assertion: "the Black section
- * has a fold toggle" (both), "a new deck from a later family" (both), "the Recall Mode row is a switch" (both), "the carried
- * blue keeps timed recall, written down at the rule's start".
+ * has a fold toggle" (both), "a new deck from a family outside White's lessons" (both), "the Recall Mode row is a switch"
+ * (both), "the carried blue keeps timed recall as the account's fact…".
  * MUTANTS, each alone on this branch's sources rebuilt into the served bundle, each red at the named assertion and green
  * elsewhere (table in docs/Changelog-Archive.md, v1.270.0): OPEN-M1 `beltUnlocked` back to the worn rank -> "the Path draws
  * the Black section" (both: the locked branch is gone, so a closed belt is not drawn at all); OPEN-M7 the family filter back
- * in `planSummary` -> "a new deck from a later family" (both); OPEN-M8 the Settings lock back -> "the Recall Mode row is a
- * switch" (both) and "the carried blue's Settings row is a switch"; OPEN-M4 no carry-over -> "the carried blue keeps timed
- * recall, written down at the rule's start". OPEN-M2, M3, M5 and M6 are killed in tests/belt_worn.test.mjs.
+ * in `planSummary` -> "a new deck from a family outside White's lessons" (both); OPEN-M8 the Settings lock back -> "the
+ * Recall Mode row is a switch" (both) and "the carried blue's Settings row is a switch"; OPEN-M4 no carry-over and OPEN-M9
+ * the carry writing the switch again -> "the carried blue keeps timed recall as the account's fact…". The other mutants are
+ * killed in tests/belt_worn.test.mjs and tests/gameplan_runtime.test.mjs.
  * NOT COVERED here: the capstone of a later belt (it needs every unit of that belt proven; tests/belt_worn.test.mjs starts
  * one on a blue belt) and a roll's question asking as timed recall (landcard-modes.spec.ts, "with Recall Mode on…").
  */
@@ -94,7 +96,7 @@ for (const touch of [false, true]) {
       expect(await worn(page), "the belt itself is untouched").toBe("white")
     })
 
-    test(`a white belt gets a card from a later family in Practice (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+    test(`a white belt gets a card from a family outside White's lessons in Practice (${touch ? "touch" : "mouse"})`, async ({ page }) => {
       await boot(page)
       await press(page, ".ng-logo", "open the drawer", touch)
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
@@ -106,7 +108,7 @@ for (const touch of [false, true]) {
         const fresh = a._session.plan.fresh.map((r: W) => r.key)
         return fresh.find((k: string) => !white.includes(k.split("|")[0])) || null
       }, [...WHITE_FAMILIES])
-      expect(later, "a new deck from a later family").not.toBeNull()
+      expect(later, "a new deck from a family outside White's lessons").not.toBeNull()
       // reach it the way the page offers: the session queue, under "Practice details & session queue"
       await press(page, "[data-practice-details] > summary", "Practice details & session queue", touch)
       const jump = await page.evaluate((key) => {
@@ -143,8 +145,11 @@ test("a blue belt held before the open rule keeps timed recall: Settings shows i
   // blue, first earned at t=1000 by an older version of the app: this account has never run the open rule (no `openAt`)
   const j = await boot(page, { v: 2, belts: { won: {}, gf: 5, held: { id: "blue", t: 1000 } } })
   expect(await worn(page)).toBe("blue")
-  const carried = await page.evaluate(() => { const a = (window as W).__neural; return { on: a._recallInPlayNow(), stored: a.settings.recallInPlay, at: a._settingsAt.recallInPlay === a._openAt && a._openAt > 1000 } })
-  expect(carried, "the carried blue keeps timed recall, written down at the rule's start").toEqual({ on: true, stored: true, at: true })
+  // OPEN2: the carry is the account's fact (`recallCarry`) and never writes the switch; until then this line asserted the
+  // switch written at the rule's start (`at: _settingsAt.recallInPlay === _openAt`), the stamp that let a stale device's
+  // carry beat another device's Off (the read of PR #404, finding 1)
+  const carried = await page.evaluate(() => { const a = (window as W).__neural; return { on: a._recallInPlayNow(), stored: a.settings.recallInPlay ?? null, fact: a._recallCarry === true, stamped: a._openAt > 1000 } })
+  expect(carried, "the carried blue keeps timed recall as the account's fact, and no switch is written").toEqual({ on: true, stored: null, fact: true, stamped: true })
   await page.evaluate(() => (window as W).__neural.openSettings("flashcards"))
   await expect(page.locator("[data-recall-mode]"), "the carried blue's Settings row is a switch").toHaveCount(1)
   const on = page.locator("[data-recall-mode] button").first(), off = page.locator("[data-recall-mode] button").nth(1)

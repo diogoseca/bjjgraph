@@ -96,8 +96,12 @@ test("curriculum-mid: unselected blue lesson's node sits INSIDE the fog set; mem
   expect(await blueCard.count(), "U163 c: Blue has its header").toBe(1)
   await expect(blueCard, "…unselected").toHaveAttribute("aria-pressed", "false")
   await expect(page.locator(`[data-belt="${BLUE.id}"]`), "…and folded").toHaveAttribute("data-collapsed", "true")
-  expect(await page.locator(`[data-track-curriculum="${BLUE.id}"] [data-lesson="${TARGET.l.deckKey}"]`).first().isVisible(),
-    "its lesson is out of sight; its graph membership still survives below").toBe(false)
+  // two claims, told apart (the read of PR #404, finding 6): the row EXISTS (the old claim was that it did not), and it is
+  // out of sight (folded)
+  const blueLesson = page.locator(`[data-track-curriculum="${BLUE.id}"] [data-lesson="${TARGET.l.deckKey}"]`)
+  expect(await blueLesson.count(), "U163 c: its lesson row is in the DOM (until v1.270.0 there was none)").toBeGreaterThan(0)
+  expect(await blueLesson.first().isVisible(),
+    "…and out of sight, folded; its graph membership still survives below").toBe(false)
 
   // ── the four membership claims, read off the live instance the way the fog draw does ──
   const verdict = await page.evaluate(

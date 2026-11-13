@@ -29,12 +29,15 @@
 //   M13 the dayLog merge drops the email's belt line                → the dayLog merge carries it
 //   M14 setGiMode loses its POST-flip sync                           → flip (reload after a no-gi promotion)
 //   M15 setGiMode loses its PRE-flip sync                            → flip (gi promotion arriving in no-gi)
-//   OPEN-M1..M6 (U163 c, v1.270.0): beltUnlocked back to the worn rank · timed recall from the worn belt again · the
-//       patch's mint flips the switch again · no carry-over · the carry overwrites a stored value · `openAt` merged
-//       local-wins — each named at the assertion it turns red (the four tests at the end of this file)
-// NON-KILL, recorded so nobody reads this file as covering it: the Settings lock is gated in e2e
-// (recall-badge.spec.ts — its lock read from `gameScore().belt` again turns that journey red), not
-// here: it renders through settings-ui.src.js and a DOM.
+//   OPEN-M1..M14 (U163 c, v1.270.0): beltUnlocked back to the worn rank (M1) or to `rank >= worn` (M14) · timed recall
+//       from the worn belt again (M2) · the patch's mint flips the switch again (M3) · no carry-over (M4) · `openAt`
+//       merged local-wins (M6) · the carry writes the switch again (M9, the bug of the read of PR #404) · a stored value
+//       read only when a carry exists (M10) · the save drops the carry's fact (M11) · the fact not consulted (M12) · no
+//       clamp of a future held stamp (M13) — each named at the assertion it turns red (the tests at the end of this
+//       file). M5 (the carry overwrites a stored value) has no code left to mutate since OPEN2: the carry writes no value.
+// NON-KILL, recorded so nobody reads this file as covering it: the Settings row renders through settings-ui.src.js and a
+// DOM, so it is gated in e2e, not here. Until v1.270.0 that row was a lock (recall-badge.spec.ts); since U163 c it is a
+// switch for everyone, gated by e2e/journeys/everything-opens.spec.ts (OPEN-M8) and recall-badge.spec.ts.
 //
 // Run: node --test tests/belt_worn.test.mjs
 import { test } from "node:test";
@@ -406,6 +409,9 @@ test("U163 c: every section, lesson, checkpoint and capstone is open, whatever b
   a.startBeltTest("black");
   assert.equal(a._beltTest && a._beltTest.beltId, "black", "with every unit proven, the black capstone starts on a blue belt");
   assert.equal(a.beltUnlocked("plaid"), false, "a name that is not a belt opens nothing");
+  // the old P1-B's lower bound, kept: a belt below the one worn stays reachable (mutant OPEN-M14, `rank >= worn`, red here)
+  a.selectChallengeTrack("white");
+  assert.equal(a.selectedChallengeTrack(), "white", "earlier earned sections remain reachable");
   assert.equal(a.wornBelt().id, "blue", "the belt itself is untouched: black's units proven out of order promote nothing");
 });
 
@@ -433,55 +439,129 @@ test("timed recall: the switch decides, and a belt earned under the open rule sw
   assert.equal(c._recallInPlayNow(), false);
 });
 
-// THE CARRY-OVER (the orchestrator's OPEN1 brief): a player whose roll questions were timed recall because of their belt
-// keeps that, additively. Mutants: OPEN-M4 (no carry) and OPEN-M5 (the carry overwrites a stored value) each turn a named
-// assertion here red; OPEN-M6 (`openAt` merged local-wins instead of the earlier) turns the merge test below red.
-test("the carry-over: a belt held before the open rule keeps timed recall, written once as an added setting", () => {
+// THE CARRY-OVER (OPEN1, rebuilt in OPEN2): a player whose roll questions were timed recall because of their belt keeps
+// that, as the account's own fact (`recallCarry`, OR across devices), and NOTHING but the player's press writes the switch.
+// Until OPEN2 the carry wrote `recallInPlay: true` stamped at this device's `openAt`, and this test pinned that stamp
+// ("stamped at the rule's start, so any later choice wins the merge"): the line that pinned the bug, since a device that
+// stamped before its pull beat another device's later Off (the read of PR #404, finding 1). It is replaced by "the carry
+// never writes the switch" and by the two-device test below, whose fake cloud holds the Off.
+// Mutants: OPEN-M4 (no carry) and OPEN-M9 (the carry writes the switch again, stamped at this device's `openAt`), M10 (a
+// stored value read only when a carry exists), M11 (the save drops the fact), M12 (the fact not consulted: live only),
+// M13 (no clamp of a future held stamp) each turn a named assertion below red.
+test("the carry-over: a belt held before the open rule keeps timed recall as the account's fact; the switch is never written", () => {
   // blue earned at t=1000, before this account ever ran the open rule (no `openAt` stored)
   const a = boot({ blob: { belts: { won: {}, gf: 5, held: { id: "blue", t: 1000 } } } });
   assert.ok(a._openAt > 1000, "the rule's first run is stamped on this account");
   assert.equal(a._recallInPlayNow(), true, "OPEN-M4: their roll questions stay timed recall");
-  assert.equal(a.settings.recallInPlay, true, "written down as the switch, so Settings shows it");
-  assert.equal(a._settingsAt.recallInPlay, a._openAt, "stamped at the rule's start, so any later choice wins the merge");
-  assert.equal(a.saves, 0, "a passive boot saves nothing: the stamp and the carry ride the next save");
+  assert.equal(a._recallCarry, true, "kept as the account's fact");
+  assert.equal(a.settings.recallInPlay, undefined, "OPEN-M9: the carry never writes the switch: only a press does");
+  assert.equal(a.saves, 0, "a passive boot saves nothing: the stamp and the fact ride the next save");
   const blob = a._progressBlob();
-  assert.deepEqual([blob.openAt, blob.settings.recallInPlay], [a._openAt, true], "and the next save carries both");
-  // turning it off sticks: the carry never comes back over a choice
+  assert.deepEqual([blob.openAt, blob.recallCarry, blob.settings.recallInPlay], [a._openAt, true, undefined], "the next save carries both, and no switch");
+  // a promotion under the rule re-stamps the held belt; the fact keeps the carry (the rule began at 5000 on this account)
+  const p = boot({ blob: { openAt: 5000, belts: { won: {}, gf: 5, held: { id: "blue", t: 1000 } } } });
+  assert.equal(p._recallCarry, true, "precondition: carried at its first sync");
+  for (const id of ["white", "blue"]) evidence(p, id);
+  p._publishKnowledge("grade:test");
+  assert.equal(p.belts.held.id, "purple");
+  assert.ok(p.belts.held.t > p._openAt, "precondition: the held stamp is now after the rule began");
+  assert.equal(p._recallInPlayNow(), true, "OPEN-M12: a promotion under the rule cannot take the carry back");
+  // turning it off sticks, and a press is the switch's only writer
   a.set("recallInPlay", false);
   a._syncBelt("test");
   assert.equal(a._recallInPlayNow(), false, "off stays off");
   assert.equal(a.settings.recallInPlay, false);
-  // a stored value is the player's own and is never rewritten (a black-patch holder who had turned it off, or on)
+  // a stored value is the player's own and decides, either way (a black-patch holder who had turned it off, or on)
   for (const v of [false, true]) {
     const h = boot({ blob: { settings: { recallInPlay: v }, settingsAt: { recallInPlay: 500 }, belts: { won: {}, gf: 5, held: { id: "black", t: 1000 } } } });
-    assert.equal(h.settings.recallInPlay, v, "OPEN-M5: the stored " + v + " is kept");
+    assert.equal(h.settings.recallInPlay, v, "the stored " + v + " is kept");
     assert.equal(h._settingsAt.recallInPlay, 500, "and its stamp");
-    assert.equal(h._recallInPlayNow(), v);
+    assert.equal(h._recallInPlayNow(), v, "the stored " + v + " decides");
   }
+  // a stored On on a belt with no carry is never lowered
+  const on = boot({ blob: { settings: { recallInPlay: true }, settingsAt: { recallInPlay: 500 }, belts: { won: {}, gf: 5, held: { id: "white", t: 1000 } } } });
+  assert.equal(on._recallInPlayNow(), true, "OPEN-M10: a stored On is never lowered");
   // a white belt carries nothing
   const w = boot({ blob: { belts: { won: {}, gf: 5, held: { id: "white", t: 1000 } } } });
   assert.equal(w._recallInPlayNow(), false);
-  assert.equal(w.settings.recallInPlay, undefined);
+  assert.equal(w._recallCarry, false);
 });
 
-test("openAt merges as the earlier of two devices; a belt the cloud held before it is carried", async () => {
-  async function pull(local, cloud) {
-    const a = boot({ blob: local });
-    const facade = { neuralSyncVersion: 2, pullNeural: async (id) => ({ userId: id, blob: cloud }) };
+test("the carry-over's clock: a held stamp in this device's future is clamped to its now before the comparison", () => {
+  // the belt was earned on a device whose clock ran ahead; this device's first run of the rule stamps its own now
+  const a = boot({ blob: { belts: { won: {}, gf: 5, held: { id: "blue", t: Date.now() + 1e9 } } } });
+  assert.ok(a._openAt > 0 && a._openAt < a.belts.held.t, "precondition: the stamp lies after this device's openAt");
+  assert.equal(a._recallInPlayNow(), true, "OPEN-M13: clamped to now, the belt predates the rule here");
+  assert.equal(a._recallCarry, true);
+  // named edge, not fixable from stamps: a fast-clock stamp on an account whose rule began earlier still reads as after it
+  const b = boot({ blob: { openAt: 4000, belts: { won: {}, gf: 5, held: { id: "blue", t: Date.now() + 1e9 } } } });
+  assert.equal(b._recallInPlayNow(), false);
+});
+
+test("two devices: a stale device that syncs before its pull never brings Recall Mode back over the Off chosen on the other", async () => {
+  async function pull(a, cloud) {
+    const facade = { neuralSyncVersion: 2, pullNeural: async (id) => ({ userId: id, blob: JSON.parse(JSON.stringify(cloud)) }) };
     Object.assign(a, { _auth: () => facade, _authUserId: "u1", _authEpoch: 0, _authDisposed: false, _progressLocalOnly: false });
     assert.equal(await a._pullAndMerge(), true);
     a._syncBelt("test");
     return a;
   }
-  // a NEW device stamped the rule before its first pull; the cloud holds blue from before any device ran it
-  let a = await pull({ openAt: 9000, belts: { won: {}, gf: 5 } }, { v: 2, belts: { won: {}, gf: 5, held: { id: "blue", t: 4000 } } });
-  assert.equal(a._openAt, 9000);
-  assert.equal(a._recallInPlayNow(), true, "the cloud's older blue is carried on the new device");
-  assert.equal(a.settings.recallInPlay, true);
-  // the cloud says the rule began at 3000 and blue came at 4000, under it: nothing is carried, whatever this device stamped
-  a = await pull({ openAt: 9000, belts: { won: {}, gf: 5 } }, { v: 2, openAt: 3000, belts: { won: {}, gf: 5, held: { id: "blue", t: 4000 } } });
-  assert.equal(a._openAt, 3000, "OPEN-M6: the earlier stamp wins, never local-wins");
-  assert.equal(a._recallInPlayNow(), false);
-  assert.equal(a._progressBlob().openAt, 3000, "and the earlier stamp is what gets pushed back");
+  // device A: blue since t=1000, ran the rule at openAt 10,000, carried, then the player turned it Off (stamped now, after 10,000)
+  const A = boot({ blob: { openAt: 10000, belts: { won: {}, gf: 5, held: { id: "blue", t: 1000 } } } });
+  assert.equal(A._recallInPlayNow(), true, "precondition: A carried it");
+  A.set("recallInPlay", false);
+  const cloudA = A._progressBlob();
+  assert.ok(cloudA.settingsAt.recallInPlay > cloudA.openAt, "precondition: the cloud holds Off, stamped after the cloud's openAt");
+  // device B: the phone, used before the update: its local copy holds the same blue and nothing else; it runs `_syncBelt`
+  // (curriculum and manifest land) BEFORE its pull resolves, as a real boot does
+  const B = boot({ blob: { belts: { won: {}, gf: 5, held: { id: "blue", t: 1000 } } } });
+  assert.ok(B._openAt >= cloudA.settingsAt.recallInPlay, "precondition: B's own stamp is later than A's Off");
+  assert.equal(B.settings.recallInPlay, undefined, "B before its pull wrote no switch");
+  // order 1: B pulls A
+  await pull(B, cloudA);
+  assert.equal(B._openAt, 10000, "B learns the account's earlier stamp");
+  assert.deepEqual([B.settings.recallInPlay, B._recallInPlayNow()], [false, false], "OPEN-M9: B after pulling A's Off: Off");
+  // then A pulls B's push
+  await pull(A, B._progressBlob());
+  assert.deepEqual([A.settings.recallInPlay, A._recallInPlayNow()], [false, false], "OPEN-M9: A after pulling B: still Off");
+  // order 2: B's stale copy reaches A first (a copy saved before B's pull), then B pulls the result
+  const B2 = boot({ blob: { belts: { won: {}, gf: 5, held: { id: "blue", t: 1000 } } } });
+  const A2 = boot({ blob: cloudA });
+  await pull(A2, B2._progressBlob());
+  assert.deepEqual([A2.settings.recallInPlay, A2._recallInPlayNow()], [false, false], "A after pulling B's stale copy: Off");
+  await pull(B2, A2._progressBlob());
+  assert.deepEqual([B2.settings.recallInPlay, B2._recallInPlayNow()], [false, false], "B after pulling that: Off");
+  // a stored On on the cloud is never lowered by a device with no carry and no choice
+  const onCloud = { v: 2, openAt: 10000, settings: { recallInPlay: true }, settingsAt: { recallInPlay: 20000 }, belts: { won: {}, gf: 5, held: { id: "white", t: 1000 } } };
+  const W = await pull(boot({ blob: { belts: { won: {}, gf: 5, held: { id: "white", t: 1000 } } } }), onCloud);
+  assert.deepEqual([W.settings.recallInPlay, W._recallInPlayNow()], [true, true], "a stored On survives a device that never chose");
+});
+
+test("the carry's fact travels: an offline first run meets the cloud later, OR across devices, and openAt merges as the earlier", async () => {
+  async function pull(a, cloud) {
+    const facade = { neuralSyncVersion: 2, pullNeural: async (id) => ({ userId: id, blob: JSON.parse(JSON.stringify(cloud)) }) };
+    Object.assign(a, { _auth: () => facade, _authUserId: "u1", _authEpoch: 0, _authDisposed: false, _progressLocalOnly: false });
+    assert.equal(await a._pullAndMerge(), true);
+    a._syncBelt("test");
+    return a;
+  }
+  // B played offline on the old version and earned blue at t=3000 on its own clock; its first run of the rule, offline,
+  // carries it. The account's rule had begun at 2000 on device A (white there), so A's live reading says "after the rule".
+  const B = boot({ blob: { belts: { won: {}, gf: 5, held: { id: "blue", t: 3000 } } } });
+  assert.equal(B._recallCarry, true, "precondition: B's offline first run established the fact");
+  const A = boot({ blob: { openAt: 2000, belts: { won: {}, gf: 5, held: { id: "white", t: 1 } } } });
+  await pull(A, B._progressBlob());
+  assert.equal(A._openAt, 2000, "openAt merges as the earlier stamp");
+  assert.equal(A._recallCarryLive(), false, "precondition: A's live reading alone would not carry it");
+  assert.deepEqual([A._recallCarry, A._recallInPlayNow(), A.settings.recallInPlay], [true, true, undefined], "OPEN-M11: the fact travels to A, and no switch is written");
+  // the same offline B meets a cloud that already holds the player's Off: Off
+  const cloudOff = { v: 2, openAt: 2000, settings: { recallInPlay: false }, settingsAt: { recallInPlay: 2500 }, belts: { won: {}, gf: 5, held: { id: "white", t: 1 } } };
+  const B2 = await pull(boot({ blob: { belts: { won: {}, gf: 5, held: { id: "blue", t: 3000 } } } }), cloudOff);
+  assert.deepEqual([B2.settings.recallInPlay, B2._recallInPlayNow()], [false, false], "an Off already on the cloud decides on the offline device");
+  // the earlier stamp is what gets pushed back, and the helper's own cases
+  const C = await pull(boot({ blob: { openAt: 9000, belts: { won: {}, gf: 5 } } }), { v: 2, openAt: 3000, belts: { won: {}, gf: 5, held: { id: "blue", t: 4000 } } });
+  assert.equal(C._openAt, 3000, "OPEN-M6: the earlier stamp wins, never local-wins");
+  assert.equal(C._recallInPlayNow(), false, "blue earned at 4000, under the rule begun at 3000: not carried");
+  assert.equal(C._progressBlob().openAt, 3000);
   assert.deepEqual([ngMergeOpenAt(0, 5), ngMergeOpenAt(7, 5), ngMergeOpenAt("x", 5), ngMergeOpenAt(0, 0)], [5, 5, 5, 0]);
 });

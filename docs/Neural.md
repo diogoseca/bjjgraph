@@ -134,8 +134,8 @@ focused mini-row first.
 **Recall Mode is a switch** (U163 c, v1.270.0): with `recallInPlay` on (`_recallInPlayNow`) a stage-2+
 card asks as timed recall Q/A in play; off, recognition-first MC. It prices only a question asked
 against a running CLOCK. No belt turns it on (until v1.270.0 the worn belt did from blue, and the
-black patch's mint flipped it); a belt held before the open rule ran keeps it (`_recallCarried`,
-`openAt`). `renderChallengeCue` only removes a stale cue card. **Win chance explains itself** in the score tooltip (§4).
+black patch's mint flipped it); a belt held before the open rule ran keeps it until the player
+chooses (`_recallCarried`, `openAt`, the fact `recallCarry`; never written into the switch). `renderChallengeCue` only removes a stale cue card. **Win chance explains itself** in the score tooltip (§4).
 
 **Technique navigation** keeps the chosen node's camera (`camFocus`), URL (`_syncUrl`),
 focus, flare and card; the roll's seat remains its origin position. `_stagedTech = {idx, side}`
@@ -891,8 +891,9 @@ said "nothing is gated by the score". They now decide nothing; the grandfather r
 you wear the belt AFTER the last belt, in an unbroken run from white, whose units are all proven
 (live lessons done + checkpoint); clearing black leaves you black, four stripes. Stripes are the
 worn belt's proven units, 0–4; the capstone stays an optional patch. Readers, all of them: the tab
-belt, the Recall Mode patch at black and the email's "Next belt" line (`dayLog[day].b`, read
-by `workers/digest`). It opens nothing (U163 c).
+belt, the Recall Mode patch at black, the email's "Next belt" line (`dayLog[day].b`, read
+by `workers/digest`) and, through `belts.held`, timed recall's carry-over (`_recallCarried`).
+It opens nothing (U163 c).
 
 **It never falls.** `belts.held` (v2 blob) is a high-water mark that `_syncBelt` raises at every
 evidence seam (`_publishKnowledge`, a checkpoint pass, curriculum and manifest arrival, both sides
