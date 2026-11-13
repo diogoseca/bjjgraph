@@ -69,7 +69,9 @@ async function worthLine(page: any, plan: any) {
   const cards = (n: number) => n + (n === 1 ? " card" : " cards");
   await expect(page.locator('[data-session-section="Practice"]'), "the count line prints the plan's own figures").toHaveText(
     plan.positions + (plan.positions === 1 ? " position: " : " positions: ") + (plan.dueCards ? cards(plan.dueCards) + " to review \u00b7 " : "") +
-    plan.newCards + " new, by how often they come up in your rolls and how close you are to forgetting them");
+    // ANKI1: new cards only when nothing is due, and a day of reviews says so; until then "N new, by how often they come up in
+    // your rolls and how close you are to forgetting them"
+    (plan.newCards ? plan.newCards + " new, by how often they come up in your rolls" : "new cards come when nothing is due"));
 }
 // answer every card the session holds, through its own controls: Reveal, then Got it (or Review again for the first, when
 // `again`), the deck's next card, and the queue's own walk to the next unfinished row (`_sessionGraded`, 520 ms). ONE action

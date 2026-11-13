@@ -3201,23 +3201,8 @@ class Component extends DCLogic {
       contentRevision: this._knowledgeContentRevision || "", day: day,
       evidenceRevision: ngKnowledgeFingerprint({ stage: this.stage || {}, rec: this.rec || {}, srs: this.srs || {} }) });
   }
-  // THE NEW CARDS MET TODAY (STAGE3-R2 b): the day's floor of 4 new counts a card the first time it is answered, right or
-  // wrong, on any surface (a roll's landing card, Practice, the Path), the orchestrator's reading of "at least 4 new a day".
-  // Until v1.274.0's R2 the planner read `_days[today]`, which counts every question first answered RIGHT in a page session,
-  // owed ones included: 4 owed cards right in a roll left no floor at all. The stored record cannot tell this (a first answer
-  // and a miss of an old card leave the same row, [today + 1, 1, today]), so the day's set is kept in memory, fed by the two
-  // writers of a first row (`_gradeKnowledge`, `_schedule`); nothing is stored. A reload starts the set again, so it can only
-  // err towards more new cards, never below the owner's 4.
-  _noteNewMet(qh) {
-    const day = this._epochDay();
-    if (!this._newMet || this._newMet.day !== day) this._newMet = { day, qs: new Set() };
-    for (const dk in this.srs || {}) if (this.srs[dk] && this.srs[dk][qh]) return false;
-    return true;
-  }
-  _newMetToday() { const m = this._newMet; return m && m.day === this._epochDay() ? m.qs.size : 0; }
   _gradeKnowledge(key, card, correct, mode, tier, attemptId, surface) {
     if (!this._progressCurrent()) return { status: "rejected", reason: "stale-owner" };
-    const metQ = card && card.q ? this.qhash(card.q) : null, met = metQ != null && this._noteNewMet(metQ);
     const id = attemptId || "grade:" + (this._knowledgeAttempt = (this._knowledgeAttempt || 0) + 1);
     const evidence = ngKnowledgeBuildEvidence({ revision: this._knowledgeRevision || 0,
       prep: this.prep, stage: this.stage, rec: this.rec, srs: this.srs, sharp: this._sharp,
@@ -3226,7 +3211,6 @@ class Component extends DCLogic {
       correct: correct, mode: mode, tier: tier, surface: surface, dayKey: this._dayKey() },
       { decks: (this.flashcards && this.flashcards.decks) || {}, shared: this._sharedQ }, this._epochDay());
     if (result.status !== "applied") return result;
-    if (met) this._newMet.qs.add(metQ);
     // Mutable legacy host maps remain compatible with cloud merge and older rails.
     const next = JSON.parse(JSON.stringify(result.evidence));
     this.prep = next.prep; this.stage = next.stage; this.rec = next.rec; this.srs = next.srs;
@@ -6007,14 +5991,15 @@ class Component extends DCLogic {
     // belt now only shows. e2e/journeys/everything-opens.spec.ts and tests/gameplan_runtime.test.mjs pin it.
     // WHAT IS WORTH MOST (U171 a, v1.274.0): the order is neural/src/practice-queue.src.js (deferred, in gameplan.js); it
     // prices every question with the rating's own game (`_ratingGame`: one table, one answer) and asks it at the position
-    // its deck belongs to. A plan that could not use it (no game yet, a record with no answer) is today's order, and says
-    // so once per reason (`practice_order_fallback`), never as a worth plan.
+    // its deck belongs to: what is due first, and a new card only when nothing is due (the owner's Anki rule, ANKI1). A plan
+    // that could not use it (no game yet, a record with no answer) is today's order, and says so once per reason
+    // (`practice_order_fallback`), never as a worth plan.
     const stamp = this._gameplanStamp(), game = this._ratingGame(this._giMode === "nogi" ? "nogi" : "gi");
     const plan = this._gameplanRuntime.ngGameplanBuild({ day: this._epochDay(), ruleset: this._giMode || "gi",
       revision: this._knowledgeRevision || this._stageVer || 0, stamp,
       target: this.practiceGoal(), decks: this._gameplanDecks(true), srs: this.srs,
       provider: this._gameplanProvider, fallback: this._gameplanWeakFallback(),
-      worth: { game, seats: this._practiceSeats(game), stage: this.stage, newToday: this._newMetToday() } });
+      worth: { game, seats: this._practiceSeats(game), stage: this.stage } });
     if (plan.orderStatus !== "ok" && this._orderBeat !== plan.orderStatus) { this._orderBeat = plan.orderStatus; this.fx("practice_order_fallback", { reason: plan.orderStatus }); }
     return plan;
   }
@@ -12633,8 +12618,7 @@ class Component extends DCLogic {
    * the harness's drill rail writes prep directly and must keep an empty srs.
    */
   _schedule(key, q, ok) {
-    const today = this._epochDay(), metQ = this.qhash(q);
-    if (this._noteNewMet(metQ)) this._newMet.qs.add(metQ);   // a card revealed unanswered is met (STAGE3-R2 b)
+    const today = this._epochDay();
     const write = (dk) => {
       const m = (this.srs[dk] = this.srs[dk] || {});
       const qh = this.qhash(q);

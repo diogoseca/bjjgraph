@@ -3,8 +3,10 @@ import { resolve } from "node:path"
 import { journey } from "../dsl"
 
 /** WHAT IS WORTH MOST (v1.274.0, the owner, 13 Nov 2026, U171 a): "what comes up most in rolls and what you are closest to
- * forgetting, position by position … at most 6 per position; every answer counts 1 toward 20; at least 4 new things a day;
- * the 'N due' count leaves the drawer, today's count out of 20 stays."
+ * forgetting, position by position … at most 6 per position; every answer counts 1 toward 20 … the 'N due' count leaves the
+ * drawer, today's count out of 20 stays." And his Anki rule (ANKI1): "we only add new cards if there's no due cards left to
+ * be reviewed": the 20 are due cards, worth most first, the 2 due longest always among them; a new card only when nothing
+ * is due. (Until ANKI1 this read "at least 4 new things a day", and the session held at least 4 new.)
  *
  * The law and its parity with the simulation are tests/practice_queue.test.mjs. This journey is the BUILT page: one player
  * chosen from the served wire by rule (tests/_practice_order_fixture.mjs: owed cards due today in the 4 position decks the
@@ -13,7 +15,8 @@ import { journey } from "../dsl"
  *   · the drawer's Practice row carries today's count against the goal and no due count, on the row or in its tooltip;
  *   · Practice opens on the planner's first position (never on the oldest debt), its heading names that position, and the
  *     session is exactly the plan's queue (no oldest-first debt left in front of it), in visit order, at most 6 cards a
- *     position, at least 4 new;
+ *     position; this player owes 24, so the 20 are due cards and none is new;
+ *   · one answer short of the goal, the one card left is the one due longest, not the position worth most (the guard);
  *   · paging the queue and "Keep practising" without answering store NOTHING: every localStorage key and value is
  *     byte-identical (the pattern of rating-reader.spec.ts);
  *   · a record with no answer in it is never read as a worth session: today's order serves it, and says so once.
@@ -30,6 +33,9 @@ import { journey } from "../dsl"
  *   A1 no "Keep practising" on the completion card (finding 5)                           → "the completion card offers to keep going"
  *   B1 the owed session built from the worth plan (finding 1's door)                     → "a deck the order never prices is here"
  *   B2 the band shown while owed, the goal ignored                                       → "the Path's band: gone at the goal, owed or not"
+ * ANKI1 (the owner's Anki rule), built the same way:
+ *   A1 a new card while something is due (new cards ride in a position's visit again)   → "24 cards are due: the 20 are due cards, none new"
+ *   A2 the guard removed (worth alone)                                                   → "the one card left is the one due longest"
  * NON-KILL (STAGE3-R2, recorded so this file is not read as covering it): S7, the next round's positions not renumbered,
  * leaves "the queue's position numbers, after the next round" GREEN here, 2 of 2 (17:32, 13 Nov): this player's next round
  * brings no position whose decks the first round already holds, so there is no gap to make. The claim is pinned by
@@ -140,7 +146,8 @@ for (const touch of [true, false]) {
         const n = s.rows.filter((r: W) => v.keys.includes(r.key)).reduce((m: number, r: W) => m + r.count, 0)
         expect(n, `${v.seat}: at most 6 cards at a position`).toBeLessThanOrEqual(6)
       }
-      expect(s.newCards, "at least 4 new").toBeGreaterThanOrEqual(4)
+      // ANKI1: 24 are due, so the 20 are due cards and no new card comes (until ANKI1: "at least 4 new")
+      expect([s.rows.reduce((m: number, r: W) => m + r.owed, 0), s.newCards], "24 cards are due: the 20 are due cards, none new").toEqual([20, 0])
       // Practice opens on the planner's first position, not on the oldest debt: the light decks' cards are a month overdue
       // (oldest first would open there), and worth asks them after positions the game weighs more (the arithmetic is the
       // unit suite's; this page must only play it)
@@ -311,7 +318,12 @@ for (const touch of [true, false]) {
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
       const open = '[data-session-row][aria-expanded="true"] + div'
-      // answer every card the session holds (the goal's last answer, and the floor's new card if the first was a review)
+      // the guard (ANKI1): one answer is left of the goal, and it goes to the card due longest (a light deck's, a month
+      // overdue), not to the position worth most; and no new card rides with it (until ANKI1 the floor added one)
+      const one = await page.evaluate(() => { const p = (window as W).__neural._session.plan; return { due: p.dueQuestions.length, keys: p.due.map((r: W) => r.key), newCards: p.newCards } })
+      expect([one.due, one.keys.length, one.newCards], "one card, due, and nothing new").toEqual([1, 1, 0])
+      expect(fx.light, "the one card left is the one due longest").toContain(one.keys[0])
+      // answer every card the session holds (the goal's last answer)
       for (let i = 0; i < 6 && !(await page.locator("[data-session-complete]").count()); i++) {
         await expect(page.locator(open + " [data-mini-reveal]:visible")).toHaveCount(1, { timeout: 10_000 })
         await press(page, open + " [data-mini-reveal]", "Reveal", touch)

@@ -10,8 +10,10 @@
 //   · finding 3: a row appended by "More new cards" is named apart in the session queue, never numbered (no "NaN");
 //   · finding 1's door: "Everything owed, oldest first" is the eager cover over the whole owed pile, a deck the gi table gives
 //     no weight included, and no plan lands on it;
-//   · STAGE3-R2: the next round's positions numbered without a gap (a), the day's floor counting a new card the first time it
-//     is answered, right or wrong, on any surface (b), and a Path lesson named and counted as one (d).
+//   · STAGE3-R2: the next round's positions numbered without a gap (a) and a Path lesson named and counted as one (d). Item b
+//     (the day's floor of 4 new counting a card the first time it is answered, kept in memory by the two writers of a first
+//     row) left with the floor it counted for: under the owner's Anki rule (ANKI1) no place is kept for new cards, so the
+//     law reads no count of them; its test and its mutants S6 to S6d went with it.
 //
 // MUTANTS (v1.274.0), each alone on a clean tree, the diff hash checked after:
 //   S1 the cold queue's open deck kept whether or not the player moved (finding 2)  → "Practice opens on the plan's first position"
@@ -19,19 +21,11 @@
 //   S3 the next round numbered from 0 again                                        → "Keep practising deals the next round into the same session"
 //   S4 a visit-less row labelled by its (missing) number                           → "the session queue names an appended row apart"
 //   S5 the owed session built from the worth plan (the door to the order again)    → "Everything owed is the whole owed pile, priced or not"
-// STAGE3-R2 (the reader's delta read, items a, b and d):
-//   S6  the floor read off `_days[today]` again (every first-RIGHT answer, owed included) → "an owed card answered right is not a new card"
-//   S6b a card revealed unanswered (`_schedule`) not counted as met                       → "…revealed unanswered on a roll's landing is met too"
-//   S6c every graded card counted as new (no row check)                                    → "an owed card answered right is not a new card"
-//   S6d the grade path's note removed (only a reveal counts)                             → "a new card answered WRONG is a new card met"
+// STAGE3-R2 (the reader's delta read, items a and d):
 //   S7  the next round's positions not renumbered (the reader's 1 … 6, 8, 9)               → "every position counted is a position shown"
 //   S8  a Path lesson's row not marked as one                                              → the queue's last label is "From the Path"
 //   S9  the count line counting a lesson under "More new cards"                            → "; N from the Path"
 //   S10 the door's visit sent as the page's (`surface: "practice"`)                        → "one Practice visit, from the door"
-// NOT COVERED, by decision (the orchestrator, STAGE3-HOLD2: no new stored field for it): the day's set of new cards met lives
-// in the page, not in the record, because the record cannot tell a first answer from a miss. After a reload the floor counts
-// only the new cards met since that page loaded, so a player who met 4 new cards and reloads is handed up to 4 more by the
-// floor that day, and again after each later reload. "At least 4 new a day" allows it; nothing here pins a reload.
 //
 // Run: node --test tests/practice_page.test.mjs
 import { test } from "node:test";
@@ -263,28 +257,3 @@ test("a Path lesson opened into Practice is named and counted as one, not as Mor
   assert.ok(more > 0 && L.count.includes("; " + more + " more new, "), "More new cards counted without the lesson: " + L.count);
 });
 
-test("the day's floor counts a new card the first time it is answered, right or wrong, on any surface (STAGE3-R2 b)", () => {
-  const { day, blob } = oldestInPlan();
-  const { a } = page(blob, day);
-  Object.assign(a, { _progressCurrent: () => true, _publishKnowledge: () => {}, _knowledgeEffect: () => {} });
-  const seen = [];
-  a._gameplanRuntime = { ...G, ngGameplanBuild: (x) => { seen.push(x.worth.newToday); return G.ngGameplanBuild(x); } };
-  const card = (dk, qh) => CARDS[dk].cards.find((c) => ngKnowledgeQuestionHash(c.q) === qh);
-  const rowOf = (qh) => Object.values(a.srs).some((m) => m && m[qh]);
-  const owedKey = Object.keys(blob.srs).sort().find((dk) => CARDS[dk] && Object.entries(blob.srs[dk]).some(([qh, r]) => r[0] <= day && r[2] < day && card(dk, qh)));
-  const owedQ = Object.entries(blob.srs[owedKey]).find(([qh, r]) => r[0] <= day && r[2] < day && card(owedKey, qh))[0];
-  const freshKey = Object.keys(CARDS).sort().find((dk) => a.flashcards.decks[dk] && CARDS[dk].cards.length >= 2 && CARDS[dk].cards.every((c) => !rowOf(ngKnowledgeQuestionHash(c.q))));
-  const [n1, n2] = CARDS[freshKey].cards;
-  const plan = () => { a.planSummary(); return seen[seen.length - 1]; };
-  assert.equal(plan(), 0, "nothing met yet today");
-  assert.equal(a._gradeKnowledge(owedKey, card(owedKey, owedQ), true, "recall", null, "t1", "practice").status, "applied");
-  assert.equal(plan(), 0, "an owed card answered right is not a new card (v1.274.0's first push counted it)");
-  a._gradeKnowledge(freshKey, n1, false, "recall", null, "t2", "practice");
-  assert.equal(plan(), 1, "a new card answered WRONG is a new card met");
-  a._schedule(freshKey, n2.q, false);
-  assert.equal(plan(), 2, "a new card revealed unanswered on a roll's landing is met too");
-  a._gradeKnowledge(freshKey, n1, true, "mc", null, "t3", "land");
-  assert.equal(plan(), 2, "the same card met again is not a second new card");
-  a._epochDay = () => day + 1;
-  assert.equal(plan(), 0, "a new day starts again");
-});

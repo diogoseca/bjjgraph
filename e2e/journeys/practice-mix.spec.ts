@@ -11,7 +11,8 @@ import { journey } from "../dsl";
  *      (2b, SIDE-R2 B1): the drawer's opening asks for the planner, and a queue pressed before it lands is upgraded
  *      to the plan once it does; a revealed, ungraded card stays put (2c, SIDE-R3 N4), even when the planner lands
  *      late. Until v1.274.0 that queue was "reviews first, every owed deck, a new deck after four reviews"; since the
- *      owner's U171 a ("what is worth most … position by position … at least 4 new things a day") it is the worth
+ *      owner's U171 a ("what is worth most … position by position", and since ANKI1 his Anki rule: due cards first, a new
+ *      card only when nothing is due) it is the worth
  *      plan, position by position, the arithmetic pinned by tests/practice_queue.test.mjs;
  *   3. the 20-card goal shows progress and never blocks: past the goal, Practice still deals and grades. Until
  *      v1.274.0 the same session dealt the next owed review; since U171 a the day's session is what is worth most up
@@ -98,15 +99,18 @@ test("Practice: a fresh player's session is new gap cards from the weak-spots ra
 });
 
 /** Claim 2's shape, read off the mounted rows against the plan the session holds: the rows ARE its queue, in its order,
- *  each marked review or new as the plan files it, with at least 4 new cards (U171 a). Until v1.274.0 this read "every
- *  owed deck, the most overdue first, the first new deck after four one-card reviews and before the last one". */
+ *  each marked review or new as the plan files it, and a new card only when nothing is due (the owner's Anki rule, ANKI1:
+ *  until then "at least 4 new cards", U171 a). Until v1.274.0 this read "every owed deck, the most overdue first, the
+ *  first new deck after four one-card reviews and before the last one". */
 async function expectPlanned(page: any, rows: { key: string, kind: string }[]) {
   const plan = await page.evaluate(() => { const p = (window as any).__neural._session.plan;
-    return { order: p.order, queue: p.queue.slice(), due: p.due.map((r: any) => r.key), newCards: p.newCards, dueCards: p.dueCards } });
+    return { order: p.order, queue: p.queue.slice(), due: p.due.map((r: any) => r.key), newCards: p.newCards, dueCards: p.dueCards, target: p.target, reviewed: p.reviewed.length } });
   expect(plan.order, "the worth plan").toBe("worth");
   expect(rows.map((r) => r.key), "the rows are the plan's queue, in its order").toEqual(plan.queue);
   expect(rows.map((r) => r.kind), "each marked as the plan files it").toEqual(plan.queue.map((k: string) => plan.due.includes(k) ? "due" : "new"));
-  expect(plan.newCards, "at least 4 new a day").toBeGreaterThanOrEqual(4);
+  // new cards fill only what the due cards leave of the day's goal (a full round once it is met); while the due fill it, none
+  const goal = plan.target - plan.reviewed > 0 ? plan.target - plan.reviewed : plan.target;
+  expect(plan.newCards, "a new card only when nothing is due").toBe(Math.max(0, goal - plan.dueCards));
   return plan;
 }
 

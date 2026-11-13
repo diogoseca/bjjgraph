@@ -1,29 +1,33 @@
-// THE ORDER PRACTICE ASKS IN (v1.274.0, owner U171 a, 13 Nov 2026: "What is worth most") — neural/src/practice-queue.src.js,
-// the planner that plays it (neural/src/gameplan.src.js) and the app's two joins to it (`planSummary`, `_practiceSeats`).
+// THE ORDER PRACTICE ASKS IN (v1.274.0, owner U171 a, 13 Nov 2026: "What is worth most", and his Anki rule, ANKI1) —
+// neural/src/practice-queue.src.js, the planner that plays it (neural/src/gameplan.src.js) and the app's two joins to it
+// (`planSummary`, `_practiceSeats`).
 //
 // The owner's rule, as the option he picked put it: what comes up most in rolls and what you are closest to forgetting,
-// position by position; about 4 positions a session, at each about 2 hidden moves and then about 3 question cards, at most 6
-// per position; every answer counts 1 toward 20; at least 4 new things a day; the "N due" count leaves the drawer.
+// position by position; at most 6 per position; every answer counts 1 toward 20; the "N due" count leaves the drawer. And
+// the day, in his words (ANKI1): "we only add new cards if there's no due cards left to be reviewed according to the space
+// repetition algo." So the 20 are due cards, worth most first, with the 2 due longest always asked; a new card comes only
+// when nothing is due. Until ANKI1 the law kept a floor of 4 new a day (its tests and mutants Q2, Q9 and Q18 went with it).
 //
 // Part 1 pins the law on worlds small enough to price by hand, one claim per test. Part 2 replays the simulation's own days
 // (tests/artifacts/practice_queue_parity.json). Part 3 pins the builder and the planner. Part 4 reads the real wire.
 //
-// PARITY WITH THE SIMULATION (the plan's, qsim.mjs, kept outside the repo as the rating's is). The simulation's day was
-// factored into one function (unchanged in effect: its year reruns byte-identical), and four rules the law states were
-// made explicit in both: ties broken by content order (positions by their heaviest item, owed things by traffic order), the
-// floor never taking a position past 6, up to 4 new things a position (a position's unused move slots go to cards), and the
-// fade computed as 0.9 ** x (the rating's arithmetic; the simulation had exp(ln 0.9 · x)). Each was re-measured there and
-// moved a year's level by under 2 points. On the real wire, the law then asked exactly what the simulation asks on every day
-// sampled: gi, a year, 10 players, every 7th day: 530 of 530 days (12,244 asks); two years: 1,050 of 1,050 each (gi cards
-// only, 24,990 asks; no-gi, 24,675; no-gi cards only, 25,020); the simulation without the 4-new rule, as a control, differs
-// on 2 of 530. THE LARGEST DIFFERENCE, before the fade was aligned: 3 days of 530 (cards only) on which two near-tied cards
-// (equal to ~1e-16) came in the other order. Part 2 is that check frozen: 40 days of a small world, 469 asks, regenerated
-// only from the simulation.
+// PARITY WITH THE SIMULATION (the plan's, qsim.mjs, kept outside the repo as the rating's is). The owner's Anki rule is the
+// simulation's policy A (`queueA`), written there from the rule, not from the law: the guard (the 2 due longest, by due day
+// then world order), every position that owes anything by its six best owed worths, a visit's 6, the positions visited again
+// until nothing is due, the last places kept for the guard, and new things only when nothing is due. Ties are content order
+// (positions by their first askable thing, owed things by traffic order) and the fade is 0.9 ** x (the rating's arithmetic),
+// as the first push had it. @@PARITY@@ Part 2 is that check frozen: 40 days of a small world, 443 asks, regenerated only
+// from the simulation.
 //
 // MUTANTS (v1.274.0), each applied alone to a clean tree and run against this file; each turned the NAMED test red (the run
 // log is in docs/Changelog-Archive.md, v1.274.0):
 //   Q1  oldest first restored (positions by their oldest owed card)        → "worth, not age, decides which position comes first"
-//   Q2  the floor of 4 new removed                                          → "at least 4 new a day"
+//   A1  a new card while something is due (new things ride in a position's visit, as the first push asked them)
+//                                                                          → "a new card only when nothing is due"
+//   A2  the guard removed (no place for the cards due longest)              → "the two cards due longest are asked whatever their worth"
+//   A3  the guard's places not kept (the goal fills before its position)    → "the two cards due longest are asked whatever their worth"
+//   A4  a position visited once (what is due past its 6 left for new cards)  → "at most 6 a visit; what is due is asked again past 6"
+//   A5  new things take a position past 6 in the day                         → "new things never take a position past 6 in the day"
 //   Q3  the per-position cap ignored                                        → "at most 6 at a position"
 //   Q4  worth without forgetting (an owed thing worth its traffic alone)    → "forgetting counts"
 //   Q5a a shared question built once per deck (one thing per deck row)       → "one question is asked once, worth all its decks"
@@ -31,14 +35,12 @@
 //   Q6  a null cell read as zero (a deck this ruleset has not, priced at 0) → "a null cell is dropped and counted"
 //   Q7  never looked read as a session (an empty record built as worth)     → "never looked is not a session"
 //   Q8  a worth plan done only when the whole owed pile is                  → "a worth plan is done when what it asked is answered"
-//   Q9  the floor takes a full position to 7                                → "the floor never takes a position past 6"
 //   Q10 a placeholder binds a card already answered                         → "placeholders bind the deck's first unanswered cards"
 //   Q11 the defending half filed at its attacker's seat                     → "the seat map is the wire's, read twice"
 //   Q12 planSummary prices the order with the other ruleset's game          → "the planner prices with this ruleset's game"
 //   Q13 a fallback that never says it fired (the beat removed)              → "the planner prices with this ruleset's game"
 //   Q16 a met goal deals nothing (the round past the goal removed)          → "a goal, never a cap"
 //   Q17 a position's unused move slots kept from its cards (2 new cards)    → "a position with no new move to ask gives its slots to cards"
-//   Q18 the floor counted per plan, today's new cards ignored (STAGE3-R1)    → "the floor of 4 is a day's…"
 //   Q19 the memo key without the knowledge revision (the reader's R9)       → "the order is kept for its inputs…"
 //   Q20 a visit-less row numbered (the reader's finding 3: "NaN")           → "a row the order did not place is named apart…"
 //
@@ -49,8 +51,8 @@
 //   · Moves. Stage 3's page cannot ask a hidden move, so the app hands the law cards only; the law's move handling is pinned
 //     by Parts 1 and 2 for Stage 4.
 //   · SEATLESS AND UNPRICED DECKS. 214 gi decks (346 no-gi) are priced but no seat claims them (the "…-Control" seats among
-//     them): their owed cards are asked only in the one "Other cards" visit, scored by owed worth alone, and their new cards
-//     never fill the floor. 38 gi decks (293 cards) are allowed in gi but carry no gi weight (Buggy Choke, the heel hooks):
+//     them): their owed cards are asked in the one "Other cards" position, scored by owed worth like any other, and their new
+//     cards come, like any, only when nothing is due. 38 gi decks (293 cards) are allowed in gi but carry no gi weight (Buggy Choke, the heel hooks):
 //     the order never asks them; "Everything owed, oldest first" (the eager cover) does. The reader's counts, 13 Nov.
 //
 // Run: node --test tests/practice_queue.test.mjs
@@ -72,7 +74,7 @@ const card = (id, seat, w, row = null, stage = 1) => ({ id, kind: "card", seat, 
 const move = (id, seat, w, row = null) => ({ id, kind: "move", seat, w, row });
 // a row answered `since` days ago at interval `ivl` (due `ivl` days after it was answered)
 const ago = (since, ivl) => [D - since + ivl, ivl, D - since];
-const law = (items, o = {}) => ngPracticeVisits({ items, day: D, goal: 20, floor: 4, cap: 6, ...o });
+const law = (items, o = {}) => ngPracticeVisits({ items, day: D, goal: 20, cap: 6, ...o });
 
 // ── Part 1: the law, by hand ──────────────────────────────────────────────────────────────────────────────────────────
 
@@ -93,20 +95,30 @@ test("forgetting counts", () => {
   assert.deepEqual(m.visits.map((v) => v.seat), ["N|Top", "Y|Top"]);
 });
 
-test("at most 6 at a position", () => {
+test("at most 6 a visit; what is due is asked again past 6 while the goal has room", () => {
   const E = Array.from({ length: 9 }, (_, i) => card("e" + i, "E|Top", 1, ago(10 + i, 3)));
-  const r = law([...E, card("f0", "F|Top", 0.5, ago(10, 3)), card("f1", "F|Top", 0.5, ago(11, 3))]);
-  assert.deepEqual(r.visits.map((v) => [v.seat, v.ids.length]), [["E|Top", 6], ["F|Top", 2]]);
-  assert.equal(r.asked.length, 8, "the three left wait for another day");
-  // the six asked are E's six worth most (the most forgotten: answered longest ago)
+  const items = [...E, card("f0", "F|Top", 0.5, ago(10, 3)), card("f1", "F|Top", 0.5, ago(11, 3))];
+  // ANKI1: nothing due is left for a new card, so E comes again for its three left. Until ANKI1 this read [E 6, F 2], 8 asked,
+  // "the three left wait for another day" (the visit's 6 was the position's day)
+  const r = law(items);
+  assert.deepEqual(r.visits.map((v) => [v.seat, v.ids.length]), [["E|Top", 6], ["F|Top", 2], ["E|Top", 3]]);
+  assert.equal(r.asked.length, 11, "everything due is asked");
+  // the six of the first visit are E's six worth most (the most forgotten: answered longest ago)
   assert.deepEqual(r.visits[0].ids, ["e8", "e7", "e6", "e5", "e4", "e3"]);
+  // with the goal at 8 the first visits fill it: the three left wait for another day
+  assert.deepEqual(law(items, { goal: 8 }).visits.map((v) => [v.seat, v.ids.length]), [["E|Top", 6], ["F|Top", 2]]);
 });
 
 test("moves first at a position, then cards; at most 2 new moves, and 4 new things in all", () => {
-  const r = law([card("g1", "G|Top", 5, ago(20, 3)), move("m1", "G|Top", 0.1, [...ago(20, 3), 0]),
+  const items = [card("g1", "G|Top", 5, ago(20, 3)), move("m1", "G|Top", 0.1, [...ago(20, 3), 0]),
     move("nm1", "G|Top", 0.3), move("nm2", "G|Top", 0.2), move("nm3", "G|Top", 0.1),
-    card("nc1", "G|Top", 0.3), card("nc2", "G|Top", 0.2), card("nc3", "G|Top", 0.1)]);
-  assert.deepEqual(r.visits[0].ids, ["m1", "nm1", "nm2", "g1", "nc1", "nc2"]);
+    card("nc1", "G|Top", 0.3), card("nc2", "G|Top", 0.2), card("nc3", "G|Top", 0.1)];
+  // what is due first, its moves before its cards; the new things after, once nothing is due (ANKI1). Until ANKI1 this was
+  // one visit, ["m1", "nm1", "nm2", "g1", "nc1", "nc2"]: a new thing rode in beside a due one
+  const r = law(items, { guard: 0 });
+  assert.deepEqual(r.visits.map((v) => v.ids), [["m1", "g1"], ["nm1", "nm2", "nc1", "nc2"]]);
+  // the guard puts the two due longest first at their position (here both, tied on their due day: the input's order)
+  assert.deepEqual(law(items).visits[0].ids, ["g1", "m1"]);
 });
 
 test("a position with no new move to ask gives its slots to cards", () => {
@@ -118,24 +130,48 @@ test("a position with no new move to ask gives its slots to cards", () => {
   assert.equal(r.n, 20);
 });
 
-test("at least 4 new a day", () => {
-  // goal 6: H's six owed cards fill the day, and its visit has no room for new; the floor then asks the first new thing of
-  // each position in traffic order (I, J, K, L), never a loose one
-  const H = Array.from({ length: 6 }, (_, i) => card("h" + i, "H|Top", 5, ago(30, 3)));
-  const items = [...H, card("loose", null, 0.9), card("i", "I|Top", 0.4), card("j", "J|Top", 0.3), card("k", "K|Top", 0.2),
-    card("l", "L|Top", 0.1), card("m", "M|Top", 0.05)];
-  const r = law(items, { goal: 6 });
-  assert.equal(r.visits.length, 1);
-  assert.deepEqual(r.floor, ["i", "j", "k", "l"]);
-  assert.equal(r.fresh, 4);
-  assert.equal(r.n, 10, "the floor is on top of the goal: a goal, never a cap");
+test("a new card only when nothing is due", () => {
+  // ANKI1, the owner: "we only add new cards if there's no due cards left to be reviewed". H owes 2 cards and has 3 heavy new
+  // ones, and comes first; K owes 6. Until ANKI1 H's visit asked its new cards beside its due ones, so K's last three waited
+  // (and a floor of 4 new topped the day up past the goal: "at least 4 new a day", 10 asked at a goal of 6)
+  const items = [card("hn1", "H|Top", 5), card("hn2", "H|Top", 5), card("hn3", "H|Top", 5),
+    card("h0", "H|Top", 4, ago(30, 3)), card("h1", "H|Top", 4, ago(30, 3)),
+    ...Array.from({ length: 6 }, (_, i) => card("k" + i, "K|Top", 1, ago(30, 3)))];
+  const r = law(items, { goal: 8 });
+  assert.equal(r.n, 8);
+  assert.deepEqual(r.visits.map((v) => v.seat), ["H|Top", "K|Top"], "H first");
+  assert.equal(r.fresh, 0, "8 due fill a goal of 8: no new card");
+  assert.deepEqual(r.asked.slice().sort(), ["h0", "h1", "k0", "k1", "k2", "k3", "k4", "k5"]);
+  // with room left once everything due is asked, the new cards come: H's three, the heaviest
+  const all = law(items, { goal: 11 });
+  assert.deepEqual(all.asked.slice(8), ["hn1", "hn2", "hn3"]);
+  // and the loose things are a position like any: a loose new card comes too (until ANKI1 one never filled the floor)
+  const loose = law([card("x0", "X|Top", 5, ago(30, 3)), card("loose", null, 0.9), card("i", "I|Top", 0.4)], { goal: 3 });
+  assert.deepEqual(loose.asked, ["x0", "loose", "i"]);
 });
 
-test("the floor never takes a position past 6", () => {
-  // P's visit asks its 6 owed; P still has a new card, heavier than Q's: the floor skips P (full) and asks Q's
-  const P = Array.from({ length: 6 }, (_, i) => card("p" + i, "P|Top", 5, ago(30, 3)));
-  const r = law([...P, card("pn", "P|Top", 4), card("qn", "Q|Top", 0.1)], { goal: 6, floor: 1 });
-  assert.deepEqual(r.floor, ["qn"]);
+test("the two cards due longest are asked whatever their worth", () => {
+  // four heavy positions owe 24 cards due 2 days ago; three light cards have waited longer (due 40, 30 and 20 days ago) at
+  // positions worth least, the two longest-due at the LAST position. Worth alone would ask 20 heavy cards and none of them
+  const heavy = [];
+  for (let s = 0; s < 4; s++) for (let i = 0; i < 6; i++) heavy.push(card("s" + s + "c" + i, "S" + s + "|Top", 9 - s, ago(5, 3)));
+  const light = [card("old40", "L|Top", 0.01, ago(47, 7)), card("old30", "L|Top", 0.01, ago(37, 7)), card("old20", "M|Top", 0.02, ago(27, 7))];
+  const r = law([...heavy, ...light]);
+  assert.equal(r.n, 20);
+  assert.deepEqual(r.guard, ["old40", "old30"], "the two due longest");
+  assert.ok(r.asked.includes("old40") && r.asked.includes("old30"), "both asked, though the goal was full of heavier cards");
+  assert.ok(!r.asked.includes("old20"), "the third waits: the guard is two");
+  assert.deepEqual(r.visits.at(-1), { seat: "L|Top", ids: ["old40", "old30"] }, "their position comes last; its places were kept");
+  // with no guard, worth alone: none of them
+  assert.ok(!law([...heavy, ...light], { guard: 0 }).asked.some((id) => id.startsWith("old")));
+});
+
+test("new things never take a position past 6 in the day", () => {
+  // P asks its 4 due; its new cards (heavier than Q's) then fill only its 2 places left; Q's comes after. Until ANKI1 the
+  // floor obeyed the same 6 ("the floor never takes a position past 6")
+  const P = Array.from({ length: 4 }, (_, i) => card("p" + i, "P|Top", 5, ago(30, 3)));
+  const r = law([...P, card("pn1", "P|Top", 4), card("pn2", "P|Top", 4), card("pn3", "P|Top", 4), card("qn", "Q|Top", 0.1)]);
+  assert.deepEqual(r.visits.map((v) => [v.seat, v.ids]), [["P|Top", ["p0", "p1", "p2", "p3"]], ["P|Top", ["pn1", "pn2"]], ["Q|Top", ["qn"]]]);
 });
 
 test("every answer counts 1 toward the goal, and the day stops there", () => {
@@ -143,8 +179,8 @@ test("every answer counts 1 toward the goal, and the day stops there", () => {
   for (let s = 0; s < 8; s++) for (let i = 0; i < 6; i++) items.push(card("s" + s + "c" + i, "S" + s + "|Top", 8 - s, i < 3 ? ago(20, 7) : null));
   const r = law(items);
   assert.equal(r.n, 20); assert.equal(r.asked.length, 20);
-  assert.ok(r.fresh >= 4, "the visits held 4 new, so the floor added none");
-  assert.deepEqual(r.floor, []);
+  // 24 due fill the 20: no new card (ANKI1; until then the visits held 4 new beside the due)
+  assert.equal(r.fresh, 0);
   assert.equal(new Set(r.asked).size, 20, "each thing once");
 });
 
@@ -162,16 +198,19 @@ test("a thing handed in twice is asked once, and counted", () => {
 });
 
 test("a weight that is not a number is dropped and counted, never priced", () => {
-  const r = law([card("n", "N|Top", null, ago(9, 3)), card("u", "N|Top", undefined, ago(9, 3)), card("z", "N|Top", 0, ago(9, 3)), card("o", "N|Top", 1, ago(9, 3))]);
+  const items = [card("n", "N|Top", null, ago(9, 3)), card("u", "N|Top", undefined, ago(9, 3)), card("z", "N|Top", 0, ago(9, 3)), card("o", "N|Top", 1, ago(9, 3))];
+  const r = law(items, { guard: 0 });
   assert.equal(r.counts.outside, 2);
   assert.deepEqual(r.asked, ["o", "z"], "a zero weight is a real 'exists, never attempted': kept, priced at 0, asked last");
+  // and it is due, so it is asked: with the guard it comes first (it and o tie on their due day: the input's order)
+  assert.deepEqual(law(items).asked, ["z", "o"]);
 });
 
 // ── Part 2: the simulation's own days, frozen ────────────────────────────────────────────────────────────────────────
 
 test("the law asks what the simulation asks, on its own days", () => {
   const P = JSON.parse(readFileSync(resolve(HERE, "artifacts/practice_queue_parity.json"), "utf8"));
-  let days = 0, asks = 0, floors = 0, moves = 0;
+  let days = 0, asks = 0, guarded = 0, withNew = 0, moves = 0;
   for (const rec of P.records) {
     const state = new Map(rec.state.map((s) => [s[0], s]));
     const items = [];
@@ -182,14 +221,16 @@ test("the law asks what the simulation asks, on its own days", () => {
       const row = !s ? null : s[1] === "seen" ? "seen" : kind === "move" ? [s[1], s[2], s[3], s[4]] : [s[1], s[2], s[3]];
       items.push({ id: i, kind, seat, w, row, stage: kind === "move" || !s ? undefined : s[4] });
     });
-    const r = ngPracticeVisits({ items, day: rec.day, goal: rec.goal, floor: rec.floor, cap: 6 });
+    const r = ngPracticeVisits({ items, day: rec.day, goal: rec.goal, cap: 6 });
     assert.deepEqual(r.asked, rec.asked, `seed ${rec.seed}, day ${rec.day}: the same things in the same order`);
     assert.deepEqual(r.visits.map((v) => [v.seat, v.ids]), rec.visits, `seed ${rec.seed}, day ${rec.day}: the same visits`);
-    assert.deepEqual(r.floor, rec.floorAsked, `seed ${rec.seed}, day ${rec.day}: the same floor`);
-    days++; asks += r.asked.length; if (r.floor.length) floors++; moves += r.asked.filter((i) => P.world[i][0] === "move").length;
+    assert.deepEqual(r.guard, rec.guard, `seed ${rec.seed}, day ${rec.day}: the same two due longest`);
+    assert.equal(r.fresh, rec.fresh, `seed ${rec.seed}, day ${rec.day}: the same new things`);
+    days++; asks += r.asked.length; guarded += r.guard.length; if (r.fresh) withNew++; moves += r.asked.filter((i) => P.world[i][0] === "move").length;
   }
-  // a replay that compared nothing must not pass (traps-wire.md, "a CHECK THAT NEVER RAN")
-  assert.ok(days >= 40 && asks >= 400 && floors >= 10 && moves >= 50, JSON.stringify({ days, asks, floors, moves }));
+  // a replay that compared nothing must not pass (traps-wire.md, "a CHECK THAT NEVER RAN"): it holds days with and without a
+  // new thing, guarded cards and moves
+  assert.ok(days >= 40 && asks >= 400 && guarded >= 40 && withNew >= 5 && withNew < days && moves >= 40, JSON.stringify({ days, asks, guarded, withNew, moves }));
 });
 
 // ── Part 3: the builder and the planner ──────────────────────────────────────────────────────────────────────────────
@@ -210,7 +251,7 @@ const DECKS = () => ({
   "Z|Attacker": { count: 2, questions: ["qz"], exact: false, allowed: true, headroom: 0.15 },
 });
 const SRS = () => ({ "A|Top": { q1: ago(20, 7), qs: ago(9, 3) }, "S|Attacker": { qs: ago(9, 3) }, "B|Top": { q2: ago(3, 3) }, "Z|Attacker": { qz: ago(9, 3) } });
-const order = (o = {}) => ngPracticeOrder({ day: D, goal: 20, floor: 4, srs: SRS(), stage: {}, decks: DECKS(), game: tiny(), seats: SEATS, ...o });
+const order = (o = {}) => ngPracticeOrder({ day: D, goal: 20, srs: SRS(), stage: {}, decks: DECKS(), game: tiny(), seats: SEATS, ...o });
 
 test("one question is asked once, worth all its decks", () => {
   const built = ngPracticeItems({ day: D, srs: SRS(), stage: {}, decks: DECKS(), game: tiny(), seats: SEATS });
@@ -252,9 +293,11 @@ test("the worth plan plays as today's page plays it", () => {
   const plan = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 20, decks: DECKS(), srs: SRS(),
     fallback: { rows: [{ key: "B|Top", reason: "r" }], assumptions: ["a"] }, worth: { game: tiny(), seats: SEATS, stage: {} } });
   assert.equal(plan.order, "worth");
-  // B|Top (10 a card, due today: 1.0 + its new card's 7.5) before A|Top (q1 and qs owed, two new); B and A gave 3 new, so
-  // the floor's fourth is the next new card at A|Top, which is S|Attacker's (A|Top's two placeholders came first by id)
+  // what is due first: B|Top (10 a card, due today: worth 1.0) before A|Top (q1 and qs owed: 0.26 + 0.54); with nothing
+  // due left, the new cards: B|Top's (7.5) then A|Top's three (0.75 each: its two placeholders, then S|Attacker's, by id).
+  // Until ANKI1 the same 7 came another way (B's visit 2 with its new card, A's 4, then the floor's fourth from S|Attacker)
   assert.deepEqual(plan.visits.map((v) => v.seat), ["B|Top", "A|Top"]);
+  assert.deepEqual([plan.counts.asked, plan.counts.askedNew], [7, 4]);
   assert.deepEqual(plan.queue, ["B|Top", "A|Top", "S|Attacker"]);
   assert.deepEqual(plan.fresh.map((r) => [r.key, r.count, r.visit]), [["S|Attacker", 1, 1]]);
   const [b, a] = plan.due;
@@ -266,17 +309,22 @@ test("the worth plan plays as today's page plays it", () => {
   assert.ok(plan.more.every((r) => !plan.queue.includes(r.key)), "Keep practising adds what the day did not hold");
   assert.match(G.ngGameplanSummary(plan), /Positions come in order of what is worth most/);
   assert.deepEqual(G.ngGameplanLines(plan, { dueCards: 3 }, "A|Top"),
-    { heading: "A · Top · position 2 of 2", count: "2 positions: 3 cards to review · 4 new, by how often they come up in your rolls and how close you are to forgetting them" });
+    { heading: "A · Top · position 2 of 2", count: "2 positions: 3 cards to review · 4 new, by how often they come up in your rolls" });
+  // a day of reviews says new cards come when nothing is due (ANKI1), never "0 new"; until ANKI1 the line read "N new, by how
+  // often they come up in your rolls and how close you are to forgetting them" (forgetting is the reviews', not the new cards')
+  assert.equal(G.ngGameplanLines({ ...plan, newCards: 0, fresh: [] }, { dueCards: 3 }, "A|Top").count,
+    "2 positions: 3 cards to review · new cards come when nothing is due");
   assert.equal(G.ngGameplanLines({ order: "oldest" }, {}, "A|Top"), null, "today's order keeps today's lines");
 });
 
 test("a worth plan is done when what it asked is answered", () => {
-  // nine owed cards at one position: the day asks six; the three left are not the day's debt
+  // nine owed cards at one position and a goal of 6: the day asks six; the three left are not the day's debt (until ANKI1 the
+  // goal was 20 and a position's one visit of 6 left the three; now a position is visited again while the goal has room)
   const nine = Object.fromEntries(Array.from({ length: 9 }, (_, i) => ["c" + i, ago(20 + i, 7)]));
   const decks = { "A|Top": { count: 9, questions: Object.keys(nine), exact: true, allowed: true, headroom: 0.15 } };
   const game = ngRatingUniverse({ decks: { "A|Top": { n: 9 } }, weights: { "A|Top": 9 }, shared: new Map(), seats: { "1/top": { w: 9, hand: {} } } });
   const srs = { "A|Top": { ...nine } };
-  const plan = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 20, decks, srs, worth: { game, seats: { "A|Top": "A|Top" }, stage: {} } });
+  const plan = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 6, decks, srs, worth: { game, seats: { "A|Top": "A|Top" }, stage: {} } });
   assert.equal(plan.dueQuestions.length, 6);
   for (const q of plan.dueQuestions) srs["A|Top"][q] = [D + 7, 7, D];
   const p = G.ngGameplanProgress(plan, { srs, day: D, decks });
@@ -295,23 +343,6 @@ test("a goal, never a cap: with today's goal met, Practice deals another round b
   assert.deepEqual(plan.dueQuestions.slice().sort(), ["q1", "q2", "qs"], "the owed cards are still offered");
   assert.equal(plan.overrun, plan.total, "and the summary says the round runs past the goal");
   assert.match(G.ngGameplanSummary(plan), /runs \d+ cards over the goal/);
-});
-
-test("the floor of 4 is a day's: new cards first answered earlier today count toward it", () => {
-  // a heavy position with 6 owed cards fills a goal of 6, so only the floor brings new cards in, one from each of the next
-  // positions (STAGE3-R1, finding 6)
-  const nine = Object.fromEntries(Array.from({ length: 6 }, (_, i) => ["h" + i, ago(30, 3)]));
-  const light = ["N1|Top", "N2|Top", "N3|Top", "N4|Top", "N5|Top"];
-  const decks = { "H|Top": { count: 6, questions: Object.keys(nine), exact: true, allowed: true },
-    ...Object.fromEntries(light.map((k) => [k, { count: 8, questions: [], exact: false, allowed: true }])) };
-  const game = ngRatingUniverse({ decks: { "H|Top": { n: 6 }, ...Object.fromEntries(light.map((k) => [k, { n: 8 }])) },
-    weights: { "H|Top": 600, ...Object.fromEntries(light.map((k) => [k, 1])) }, shared: new Map(), seats: { "1/top": { w: 1, hand: {} } } });
-  const seats = Object.fromEntries(Object.keys(decks).map((k) => [k, k]));
-  const run = (newToday) => ngPracticeOrder({ day: D, goal: 6, floor: 4, newToday, srs: { "H|Top": { ...nine } }, stage: {}, decks, game, seats });
-  assert.equal(run(0).counts.askedNew, 4, "nothing new yet today: the floor's 4");
-  assert.equal(run(3).counts.askedNew, 1, "3 learned earlier today: 1 more");
-  assert.equal(run(4).counts.askedNew, 0, "4 learned today: none forced");
-  assert.equal(run(9).counts.askedNew, 0, "never below none");
 });
 
 test("the order is kept for its inputs, and the knowledge revision is one of them", () => {
@@ -334,7 +365,7 @@ test("a row the order did not place is named apart, never numbered", () => {
   const withExtra = { ...plan, fresh: plan.fresh.concat([extra]), newCards: plan.newCards + 3, status: "weak-spots" };
   const L = G.ngGameplanLines(withExtra, { dueCards: 3 }, "X|Attacker");
   assert.equal(L.heading, "More new cards");
-  assert.match(L.count, /: 3 cards to review · 4 new, by how often they come up in your rolls and how close you are to forgetting them; 3 more new, weakest first$/);
+  assert.match(L.count, /: 3 cards to review · 4 new, by how often they come up in your rolls; 3 more new, weakest first$/);
   for (const k of withExtra.queue.concat(["X|Attacker"])) {
     const t = G.ngGameplanLines(withExtra, { dueCards: 0 }, k);
     assert.doesNotMatch(t.heading + " " + t.count, /NaN|undefined/, k);
@@ -428,7 +459,11 @@ test("the planner prices with this ruleset's game, and writes nothing", () => {
       assert.ok(n >= 1 && n <= 6, `${frame} ${v.seat}: ${n} cards at one position`);
     }
     assert.ok(plan.visits.length >= 3, `${frame}: ${plan.visits.length} positions`);
-    assert.ok(plan.newCards >= 4, `${frame}: ${plan.newCards} new`);
+    // the fixture owes fewer than what is left of the goal (20 less the 7 it answered today), so every due card is asked and
+    // new cards fill the rest (ANKI1; until then "at least 4 new")
+    const left = plan.target - plan.reviewed.length;
+    assert.ok(plan.dueQuestions.length > 0 && plan.dueQuestions.length < left, `${frame}: ${plan.dueQuestions.length} due of ${left}`);
+    assert.equal(plan.dueQuestions.length + plan.newCards, left, `${frame}: ${plan.dueQuestions.length} due, ${plan.newCards} new`);
     // the heavy seat comes first, its four missed cards are asked, the shared one ONCE though it sits in several decks
     const planned = rows.flatMap((r) => r.questions);
     assert.equal(plan.visits[0].seat, H.dk, frame + ": the position worth most first");

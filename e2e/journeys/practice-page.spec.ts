@@ -539,7 +539,7 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 1440, height: 900 
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   // Until v1.274.0: 20 answered today and one owed card, so grading that card finished the session. With the goal met,
   // Practice now deals another round by worth (U171 a: a goal, never a cap), so the day here has ONE card left of its
-  // goal: the session is that card (and the floor's one new card if it was a review), each graded through its controls
+  // goal: the session is that card (until ANKI1 also the floor's one new card if it was a review), graded through its controls
   await seed(page, 1, 19); await door(page, j);
   await expect.poll(() => page.evaluate(() => (window as any).__neural._session?.plan?.order || null)).toBe("worth");
   const held = await page.evaluate(() => (window as any).__neural._session.plan.total);
@@ -595,8 +595,10 @@ test("P1-F: one owed card, one stripe and an unplanned visit read as plain count
     // the untouched queue now becomes the worth plan whole (U171 a), and its count line prints the plan's own figures
     await expect.poll(() => page.evaluate(() => (window as any).__neural._session?.plan?.order || null)).toBe("worth");
     const p = await page.evaluate(() => { const p = (window as any).__neural._session.plan; return { n: p.visits.length, due: p.dueCards, fresh: p.newCards }; });
+    // ANKI1: new cards only when nothing is due (until then "N new, by how often they come up in your rolls and how close you are
+    // to forgetting them")
     await expect(count).toHaveText(p.n + (p.n === 1 ? " position: " : " positions: ") + (p.due ? p.due + (p.due === 1 ? " card" : " cards") + " to review \u00b7 " : "") +
-      p.fresh + " new, by how often they come up in your rolls and how close you are to forgetting them");
+      (p.fresh ? p.fresh + " new, by how often they come up in your rolls" : "new cards come when nothing is due"));
   } finally { release(); }
 });
 

@@ -149,10 +149,11 @@ export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, de
     if (kept.length) ranking = { ...ranking, rows: ranking.rows.concat(kept) };
   }
   const budget = Math.max(0, Math.floor(Number.isFinite(target) ? target : 20)), left = budget - reviewed.length;
-  // WHAT IS WORTH MOST (U171 a, v1.274.0): the day's rows come from practice-queue.src.js when the app hands it the game.
+  // WHAT IS WORTH MOST (U171 a, v1.274.0): the day's rows come from practice-queue.src.js when the app hands it the game:
+  // what is due first, worth most first, and a new card only when nothing is due (the owner's Anki rule, ANKI1).
   // Anything else (no game, no seat map, a record with no answer) is today's order below, and the plan says why.
   // a goal, never a cap: with nothing left of today's goal, Practice deals another round of the goal's size, by worth
-  const order = worth ? ngGameplanOrder({ day, goal: left > 0 ? left : budget, floor: Math.ceil(budget / (NG_PRACTICE_REVIEWS_PER_NEW + 1)), srs, decks, revision, ...worth }) : null;
+  const order = worth ? ngGameplanOrder({ day, goal: left > 0 ? left : budget, srs, decks, revision, ...worth }) : null;
   if (order && order.status === "ok") return ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, reviewed, ranking, comparison, order });
   const room = ngPracticeRoom(left, debt.count);
   const used = new Set([...reviewed, ...debt.questions]);
@@ -215,13 +216,13 @@ export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, de
 // THE ORDER, KEPT FOR ITS INPUTS. The drawer's Practice row asks for a plan on every refresh (a grade, a payload), and the
 // order walks every deck: ~20 ms a call where today's plan takes ~6. A grade or a pull replaces `srs` and `stage` and bumps
 // the knowledge revision; a deck that loads flips `exact`; a ruleset flip or a new manifest is a new game. Any of them, or a
-// new day, goal or count of new cards learned today, builds it again; nothing else can change what it holds. THE REVISION
+// new day or goal, builds it again; nothing else can change what it holds. THE REVISION
 // IS LOAD-BEARING: `_schedule` (the reveal-unanswered path) edits `srs` IN PLACE, so the object alone would serve a stale
 // order (the reader's R9; pinned in tests/practice_queue.test.mjs).
 let ngGameplanOrderAt = null;
 function ngGameplanOrder(input) {
   const exact = Object.values(input.decks).reduce((n, d) => n + (d.exact ? 1 : 0), 0);
-  const key = [input.srs, input.stage, input.game, input.seats, input.day, input.goal, input.floor, input.newToday, input.revision, exact];
+  const key = [input.srs, input.stage, input.game, input.seats, input.day, input.goal, input.revision, exact];
   const c = ngGameplanOrderAt;
   if (c && c.key.every((v, i) => v === key[i])) return c.order;
   const order = ngPracticeOrder(input);
@@ -257,10 +258,11 @@ function ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, r
     assumptions: ranking.assumptions, newFrom: "worth", order: "worth", orderStatus: "ok",
     visits: order.visits, counts: order.counts, missing: ranking.missing, room: newCards, newCards, dueCards: dueQuestions.length,
     total, overrun: Math.max(0, reviewed.length + total - budget),
-    why: "Practice goes position by position, starting where it is worth most: what comes up most in your rolls and what you are " +
-      "closest to forgetting. At each position it asks at most 6 cards, the ones you are closest to forgetting first, then a couple of new " +
-      "ones, and at least 4 a day are new. Correct answers make your moves more likely to work in the game; that is not a measure of real " +
-      "grappling. A question two decks share counts once. \u201cKeep practising\u201d adds whole new techniques: " + ranking.assumptions.join(" "),
+    why: "Practice asks the cards that are due first, position by position, starting where it is worth most: what comes up most in " +
+      "your rolls and what you are closest to forgetting. At each position it asks at most 6. The two cards due longest come every day, " +
+      "so none waits forever. New cards come only when nothing is due. Correct answers make your moves more likely to work in the game; " +
+      "that is not a measure of real grappling. A question two decks share counts once. \u201cKeep practising\u201d adds whole new " +
+      "techniques: " + ranking.assumptions.join(" "),
   });
 }
 
@@ -276,9 +278,11 @@ export function ngGameplanLines(plan, live, key) {
   const apart = (keep) => rows.filter((r) => !placed(r) && keep(r)).reduce((k, r) => k + r.count - (r.owed ? r.owed.length : 0), 0);
   const extra = apart((r) => !lesson(r)), path = apart(lesson);
   const cards = (k) => k + (k === 1 ? " card" : " cards"), name = (seat) => (seat ? seat.replace("|", " \u00b7 ") : "Other cards");
+  // new cards only when nothing is due (ANKI1): a day of reviews says so instead of "0 new"
+  const fresh = plan.newCards - extra - path;
   return { heading: !row ? "Practice" : placed(row) ? name(row.seat) + " \u00b7 position " + (row.visit + 1) + " of " + n : lesson(row) ? "From the Path" : "More new cards",
     count: n + (n === 1 ? " position" : " positions") + ": " + (live.dueCards ? cards(live.dueCards) + " to review \u00b7 " : "") +
-      (plan.newCards - extra - path) + " new, by how often they come up in your rolls and how close you are to forgetting them" +
+      (fresh ? fresh + " new, by how often they come up in your rolls" : "new cards come when nothing is due") +
       (extra ? "; " + extra + " more new, " + (plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") : "") +
       (path ? "; " + path + " from the Path" : "") };
 }

@@ -1,35 +1,42 @@
-// THE ORDER PRACTICE ASKS IN (v1.274.0, owner U171 a, 13 Nov 2026: "What is worth most") — pure and stateless: no clock,
-// no DOM, no storage, no rng. Bundled into the deferred planner (gameplan.js, fetched when the drawer opens: U170 a) through
+// THE ORDER PRACTICE ASKS IN (v1.274.0, owner U171 a and his Anki rule, 13 Nov 2026) — pure and stateless: no clock, no
+// DOM, no storage, no rng. Bundled into the deferred planner (gameplan.js, fetched when the drawer opens: U170 a) through
 // gameplan.src.js, and imported as a module by the unit suite (tests/practice_queue.test.mjs).
 //
-// THE OWNER'S RULE, as the option he picked put it: what comes up most in rolls and what you are closest to forgetting,
-// position by position; about 4 positions a session, at each about 2 hidden moves and then about 3 question cards, at most 6
-// per position; every answer counts 1 toward 20; at least 4 new things a day, so the 80/20 blend stays.
+// THE OWNER'S RULE. The order (U171 a): what comes up most in rolls and what you are closest to forgetting, position by
+// position, at most 6 per position, every answer counting 1 toward 20. The day (his words, ANKI1): "we only add new cards if
+// there's no due cards left to be reviewed according to the space repetition algo." So the 20 are the cards that are due,
+// the ones worth most first; a new card comes only when nothing due is left. No place in the 20 is kept for new cards (the
+// floor of 4 new the first push had, and the "16 due and 4 new" asked of him, are gone).
 //
-// THE LAW (`ngPracticeVisits`), step by step the simulation's policy V that the plan measured (the Practice simulation,
-// qsim.mjs, kept outside the repo as the rating's is; its frozen records and the parity statement are in the unit suite):
+// THE LAW (`ngPracticeVisits`), step by step; the Practice simulation (qsim.mjs, policy A, kept outside the repo as the
+// rating's is) plays the same day, and the unit suite replays its frozen records:
 //   · every askable thing has a WORTH: its share of the game (the rating's own weight, how often it comes up in a roll) ×
 //     what an answer would bring back. Owed (its schedule says it is due and it was not answered today): 1 − the recall its
 //     stored row still promises (`ngRatingRecall`, the rating's own reading of a row). New (no row at all): 0.75.
 //     That product is exactly what a right answer adds to "what you can recall right now", so the order spends the day's
 //     answers where the number the belt reads rises most.
-//   · a POSITION (a seat: a position and a role) is scored by the sum of its six best owed worths, plus its next new move's
-//     and its next new card's. Positions are visited best first; a position scoring nothing is not visited.
-//   · AT A POSITION: its owed moves (by worth), up to 2 new moves, its owed cards (by worth), then new cards up to 4 new
-//     things in all (a position that has no new move to ask gives its slots to cards: in Stage 3 a new player's 20 is 5
-//     positions, not 10) — at most 6 things. Things with no position ("loose") are one more visit, scored by their owed
-//     worth alone.
-//   · every answer counts 1 toward the goal; the visits stop when the goal is reached.
-//   · AT LEAST `floor` NEW THINGS (a fifth of the goal: 4 of 20): if the visits asked fewer, the first new thing of each
-//     position, positions in traffic order, tops the day up, never taking a position past 6 (both are the owner's numbers,
-//     so neither may break the other; the simulation's floor could make a full position 7, now the same rule there too).
-//     Loose things never fill the floor.
+//   · THE GUARD: the 2 owed things due longest (by due day, then the input's order) are asked in every session whatever
+//     their worth, so a light card cannot wait forever behind heavy ones. The reader measured it: with worth alone, 144 of
+//     267 cards owed on day 1 were never asked in a year; with the two longest-due, none (the archive, v1.274.0, has the
+//     re-measure under this rule).
+//   · WHAT IS DUE FIRST. A POSITION (a seat: a position and a role) is scored by the sum of its six best owed worths;
+//     every position that owes anything is visited, best first. At a position: its guarded things, its owed moves by
+//     worth, then its owed cards by worth, at most 6 a visit. The last places of the goal are kept for guarded things not
+//     yet asked. When every position has had its visit and the goal is not reached, the positions with owed things left
+//     are visited again, in the same order, until nothing is due or the goal is reached. Things with no position
+//     ("loose") are one more position.
+//   · NEW ONLY WHEN NOTHING IS DUE. With every owed thing asked and the goal not reached, positions are scored by their
+//     next new move's and next new card's worth and visited best first: up to 2 new moves, then new cards up to 4 new
+//     things in all (a position with no new move to ask gives its slots to cards), never taking a position past 6 in the
+//     day.
+//   · every answer counts 1 toward the goal; the day stops there.
 //   · ties are broken by the input's own order (the caller hands things in traffic order, a strict total order whose last
 //     key is content), never by an index the content can renumber (CLAUDE.md §6.6, traps-wire.md).
 //
 // NOTHING IS GUESSED, NOTHING IS SILENT (traps-wire.md, "a CHECK THAT NEVER RAN"):
 //   · a weight that is not a number means "this does not exist in this ruleset" (CLAUDE.md §3: null is not zero): the thing is
-//     DROPPED and COUNTED (`outside`), never priced. A weight of 0 is a real "exists, never attempted": priced at 0, kept.
+//     DROPPED and COUNTED (`outside`), never priced. A weight of 0 is a real "exists, never attempted": priced at 0, kept,
+//     and still asked when due (it is due; it comes last).
 //   · NEVER LOOKED IS NOT A SESSION. With no game (no manifest, no weights, no dealt hands), no seat map, or a record with no
 //     answer in it, `ngPracticeOrder` returns a `status` naming why and no rows; the planner then builds today's order
 //     (oldest first, new decks by the comparison or the weak spots) and says so (`plan.order`, `plan.orderStatus`).
@@ -42,11 +49,12 @@
 // research: docs/Changelog-Archive.md (v1.274.0).
 import { ngRatingRecall } from "./rating.src.js";
 
-const NG_PQ_CAP = 6;          // things asked at one position, at most (U171 a)
+const NG_PQ_CAP = 6;          // things asked at one position in a visit, at most (U171 a)
 const NG_PQ_EACH = 2;         // a visit's new moves at most; its new things, moves and cards, at most twice that
 const NG_PQ_BEST = 6;         // a position's owed worth is its six best
 const NG_PQ_NEW = 0.75;       // what an answer to a never-answered thing brings back
-const NG_PQ_SLOTS = 5;        // new cards a deck can give in one day: 4 in its visit, 1 to the floor
+const NG_PQ_GUARD = 2;        // the owed things due longest, asked every session whatever their worth
+const NG_PQ_SLOTS = 4;        // new cards a deck can give in one day: its visit's 4
 
 function ngPqNum(v) { return typeof v === "number" && Number.isFinite(v); }
 function ngPqRow(r) { return Array.isArray(r) && r.length >= 3 && ngPqNum(r[0]) && ngPqNum(r[1]) && ngPqNum(r[2]) && r[1] > 0; }
@@ -56,11 +64,13 @@ function ngPqRow(r) { return Array.isArray(r) && r.length >= 3 && ngPqNum(r[0]) 
  *   w      the thing's share of the game; not a number = not in this ruleset (dropped, counted)
  *   row    its stored schedule row [due, interval, last day, (a move's answer)], or null for never answered
  *   stage  a card's highest stage (a row of interval 1 with a stage is read as right, the rating's rule)
- * Returns {visits: [{seat, ids}], floor: [ids], asked: [ids in order], counts}. `goal` is what is left of the day's goal.
+ * Returns {visits: [{seat, ids}], guard: [ids], asked: [ids in order], counts, n, fresh}. `goal` is what is left of the
+ * day's goal. A position can have more than one visit (what is due, asked again past its 6; its new things).
  */
-export function ngPracticeVisits({ items = [], day, goal = 20, floor = 4, cap = NG_PQ_CAP } = {}) {
+export function ngPracticeVisits({ items = [], day, goal = 20, guard = NG_PQ_GUARD, cap = NG_PQ_CAP } = {}) {
   const counts = { items: 0, owed: 0, fresh: 0, outside: 0, today: 0, later: 0, badRow: 0, twice: 0 };
   const seatIx = new Map(), seatList = [], seatItems = [], worth = new Map(), owed = new Map(), isNew = new Set(), seen = new Set();
+  const owedList = [];
   for (const it of items) {
     if (!it) continue;
     if (seen.has(it.id)) { counts.twice++; continue; }   // one thing, asked once
@@ -77,46 +87,62 @@ export function ngPracticeVisits({ items = [], day, goal = 20, floor = 4, cap = 
     if (r[0] > day) { counts.later++; continue; }     // not due yet
     const right = it.kind === "move" ? r[3] === 1 : r[1] > 1 || (ngPqNum(it.stage) && it.stage > 0);
     worth.set(it.id, it.w * (1 - ngRatingRecall(r, right, day)));
-    counts.owed++;
+    counts.owed++; owedList.push(it);
     (owed.get(k) || owed.set(k, []).get(k)).push(it);
   }
   const W = (it) => worth.get(it.id), byWorth = (a, b) => W(b) - W(a);
-  const firstNew = (k, kind, asked) => seatItems[k].find((it) => isNew.has(it.id) && !asked.has(it.id) && (kind == null || it.kind === kind));
-  const none = new Set(), score = new Map();
+  // THE GUARD: the owed things due longest, by due day, then the input's order
+  const kept = new Map(owedList.map((it, i) => [it, i]).sort((a, b) => a[0].row[0] - b[0].row[0] || a[1] - b[1])
+    .slice(0, Math.max(0, Math.min(guard, goal))).map((e, i) => [e[0].id, i]));
+  const visits = [], out = [], at = new Map();
+  let n = 0, fresh = 0, left = kept.size;
+  const ask = (it, k) => { out.push(it.id); n++; at.set(k, (at.get(k) || 0) + 1); if (isNew.has(it.id)) fresh++; };
+  // 1. WHAT IS DUE: every position that owes anything, best first, at most `cap` a visit, again until nothing is due
+  const score = new Map();
   for (const [k, L] of owed) score.set(k, L.map(W).sort((a, b) => b - a).slice(0, NG_PQ_BEST).reduce((x, y) => x + y, 0));
-  for (let k = 0; k < seatList.length; k++) {
-    if (seatList[k] === "") continue;
-    const m = firstNew(k, "move", none), c = firstNew(k, "card", none);
-    score.set(k, (score.get(k) || 0) + ((m ? W(m) : 0) + (c ? W(c) : 0)));
-  }
-  const order = [...score.entries()].filter((e) => e[1] > 0).sort((a, b) => b[1] - a[1] || a[0] - b[0]).map((e) => e[0]);
-  const visits = [], asked = new Set(), out = [], at = new Map();
-  let n = 0, fresh = 0;
-  const ask = (it, k) => { asked.add(it.id); out.push(it.id); n++; at.set(k, (at.get(k) || 0) + 1); if (isNew.has(it.id)) fresh++; };
-  for (const k of order) {
-    if (n >= goal) break;
-    const L = owed.get(k) || [];
-    const mv = L.filter((it) => it.kind === "move").sort(byWorth), cd = L.filter((it) => it.kind !== "move").sort(byWorth);
-    const newM = [], newC = [];
-    for (const it of seatItems[k]) {
-      if (!isNew.has(it.id)) continue;
-      if (it.kind === "move") { if (newM.length < NG_PQ_EACH) newM.push(it); } else if (newC.length < 2 * NG_PQ_EACH) newC.push(it);
-      if (newM.length >= NG_PQ_EACH && newC.length >= 2 * NG_PQ_EACH) break;
+  const order = [...score.entries()].sort((a, b) => b[1] - a[1] || a[0] - b[0]).map((e) => e[0]);
+  const plans = new Map(order.map((k) => {
+    const L = owed.get(k), g = L.filter((it) => kept.has(it.id)).sort((a, b) => kept.get(a.id) - kept.get(b.id));
+    const rest = L.filter((it) => !kept.has(it.id));
+    return [k, [...g, ...rest.filter((it) => it.kind === "move").sort(byWorth), ...rest.filter((it) => it.kind !== "move").sort(byWorth)]];
+  }));
+  for (let more = true; more && n < goal;) {
+    more = false;
+    for (const k of order) {
+      if (n >= goal) break;
+      const L = plans.get(k), ids = [];
+      while (L.length && ids.length < cap && n < goal) {
+        const it = L.shift(), g = kept.has(it.id);
+        if (!g && n + left >= goal) continue;           // the last places are the guard's
+        ask(it, k); ids.push(it.id); if (g) left--;
+      }
+      if (ids.length) { visits.push({ seat: seatList[k] || null, ids }); more = true; }
     }
-    newC.splice(2 * NG_PQ_EACH - newM.length);
-    const plan = [...mv, ...newM, ...cd, ...newC].slice(0, cap);
-    if (!plan.length) continue;
-    const ids = [];
-    for (const it of plan) { if (n >= goal) break; ask(it, k); ids.push(it.id); }
-    visits.push({ seat: seatList[k] || null, ids });
   }
-  const extra = [];
-  for (let k = 0; k < seatList.length && fresh < floor; k++) {
-    if (seatList[k] === "" || (at.get(k) || 0) >= cap) continue;
-    const it = firstNew(k, null, asked);
-    if (it) { ask(it, k); extra.push(it.id); }
+  // 2. NEW, ONLY WHEN NOTHING IS DUE: positions by their next new move's and next new card's worth
+  if (n < goal) {
+    const firstNew = (k, kind) => seatItems[k].find((it) => isNew.has(it.id) && it.kind === kind);
+    const fresh0 = [];
+    for (let k = 0; k < seatList.length; k++) {
+      const m = firstNew(k, "move"), c = firstNew(k, "card"), v = (m ? W(m) : 0) + (c ? W(c) : 0);
+      if (v > 0) fresh0.push([k, v]);
+    }
+    fresh0.sort((a, b) => b[1] - a[1] || a[0] - b[0]);
+    for (const [k] of fresh0) {
+      if (n >= goal) break;
+      const newM = [], newC = [];
+      for (const it of seatItems[k]) {
+        if (!isNew.has(it.id)) continue;
+        if (it.kind === "move") { if (newM.length < NG_PQ_EACH) newM.push(it); } else if (newC.length < 2 * NG_PQ_EACH) newC.push(it);
+        if (newM.length >= NG_PQ_EACH && newC.length >= 2 * NG_PQ_EACH) break;
+      }
+      newC.splice(2 * NG_PQ_EACH - newM.length);
+      const plan = [...newM, ...newC].slice(0, Math.max(0, cap - (at.get(k) || 0))), ids = [];
+      for (const it of plan) { if (n >= goal) break; ask(it, k); ids.push(it.id); }
+      if (ids.length) visits.push({ seat: seatList[k] || null, ids });
+    }
   }
-  return { visits, floor: extra, asked: out, counts, n, fresh };
+  return { visits, guard: [...kept.keys()], asked: out, counts, n, fresh };
 }
 
 /**
@@ -201,15 +227,13 @@ export function ngPracticeItems({ day, srs, stage, decks, game, seats } = {}) {
 /**
  * THE DAY'S ROWS, in the shape today's Practice page already plays (one row per deck, in visit order). Pure.
  * Returns {status, rows, visits, counts, law}: `rows` [{key, seat, visit, questions, owed, pending, count}], `visits`
- * [{seat, keys}], `counts` {built: the builder's, law: the law's, asked, askedNew}.
+ * [{seat, keys}], one a position (a position the law visited twice is one position on the page, its rows together),
+ * `counts` {built: the builder's, law: the law's, asked, askedNew}.
  */
-export function ngPracticeOrder({ day, goal, floor, newToday = 0, srs, stage, decks, game, seats } = {}) {
+export function ngPracticeOrder({ day, goal, srs, stage, decks, game, seats } = {}) {
   const built = ngPracticeItems({ day, srs, stage, decks, game, seats });
   if (built.status !== "ok") return { status: built.status, rows: [], visits: [], counts: { built: built.counts } };
-  // the floor is a DAY's (STAGE3-R1, the reader's finding 6): new cards first answered earlier today count toward it, so a
-  // player who opens Practice three times is not handed 4 new each time
-  const fl = Math.max(0, floor - (newToday > 0 ? newToday : 0));
-  const law = ngPracticeVisits({ items: built.items, day, goal: Math.max(0, goal), floor: goal > 0 ? Math.min(fl, goal) : 0 });
+  const law = ngPracticeVisits({ items: built.items, day, goal: Math.max(0, goal) });
   const byId = new Map(built.items.map((it) => [it.id, it]));
   const visits = [], seatVisit = new Map(), rows = new Map();
   const put = (id, v) => {
@@ -221,14 +245,8 @@ export function ngPracticeOrder({ day, goal, floor, newToday = 0, srs, stage, de
     if (!visits[r.visit].keys.includes(r.key)) visits[r.visit].keys.push(r.key);
   };
   for (const v of law.visits) {
-    const at = visits.push({ seat: v.seat, keys: [] }) - 1;
-    seatVisit.set(v.seat, at);
-    for (const id of v.ids) put(id, at);
-  }
-  for (const id of law.floor) {
-    const seat = byId.get(id).seat;
-    if (!seatVisit.has(seat)) seatVisit.set(seat, visits.push({ seat, keys: [] }) - 1);
-    put(id, seatVisit.get(seat));
+    if (!seatVisit.has(v.seat)) seatVisit.set(v.seat, visits.push({ seat: v.seat, keys: [] }) - 1);
+    for (const id of v.ids) put(id, seatVisit.get(v.seat));
   }
   const list = [...rows.values()].sort((a, b) => a.visit - b.visit || a.at - b.at)
     .map(({ at, ...r }) => ({ ...r, count: r.questions.length + r.pending }));

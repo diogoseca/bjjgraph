@@ -377,7 +377,9 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   const cards = (n: number) => n + (n === 1 ? " card" : " cards");
   await expect(page.locator('[data-session-section="Practice"]'), "and the count line prints those CARD counts").toHaveText(
     plan.positions + (plan.positions === 1 ? " position: " : " positions: ") + (plan.dueCards ? cards(plan.dueCards) + " to review \u00b7 " : "") +
-    plan.newCards + " new, by how often they come up in your rolls and how close you are to forgetting them");
+    // ANKI1: new cards only when nothing is due (until then "N new, by how often they come up in your rolls and how close you
+    // are to forgetting them")
+    (plan.newCards ? plan.newCards + " new, by how often they come up in your rolls" : "new cards come when nothing is due"));
   await expect(page.locator("[data-plan-goal-progress]"), "the session heading counts cards too").toContainText("Reviewed 0/");
 
   // and the Challenges band is there while something is owed; until v1.274.0 it printed the same owed count ("2 cards
