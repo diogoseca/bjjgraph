@@ -111,7 +111,14 @@ def commands(root, body, cwd='.', stack=()):
                     raise ContractError('unsupported shell: cd arguments')
                 cwd = rel(cwd, args[1])
                 continue
-            if args == ['npm', 'install']:
+            if args == ['npm', 'install'] or args[:2] == ['npm', 'ci']:
+                # `npm ci` runs the same lifecycle hooks as `npm install`, so it expands them the same way, unless
+                # --ignore-scripts is ON ITS COMMAND LINE: then no hook runs and it adds no command (v1.265.1, both
+                # deploys install that way). Any other npm ci argument fails closed rather than being guessed at.
+                if args[1] == 'ci' and args[2:] not in ([], ['--ignore-scripts']):
+                    raise ContractError(f'unsupported shell: npm ci arguments {args[2:]}')
+                if args[2:] == ['--ignore-scripts']:
+                    continue
                 key = (cwd, '<install>')
                 if key in stack:
                     raise ContractError('npm install lifecycle cycle')
@@ -226,8 +233,9 @@ def deploy_commands(root, path):
     return result
 
 
-# Exact non-build preparation: validation inputs and Neural payload prelude.
-PREPARATION_PROGRAMS = {'cbed484932482deabbebdc48fa4e12a52fa5ae870bfbf3675fffb436a5864c32': 'Validate content (gate)', 'f7948a7f40ea7738ffd03b6c79c7ffe06c0c804d95c27d4f2c0780ed0dfc9be0': 'Regenerate Neural app + data'}
+# Exact non-build preparation: validation inputs and Neural payload prelude. The prelude's text moved at v1.265.1
+# (`(cd source && npm ci --ignore-scripts)`, was `npm install`); re-review it, never re-hash it blind.
+PREPARATION_PROGRAMS = {'cbed484932482deabbebdc48fa4e12a52fa5ae870bfbf3675fffb436a5864c32': 'Validate content (gate)', '6e23a8c0adf6efb44dc4f21a811daeee575bb4e144e4706331dc83b68061ebc3': 'Regenerate Neural app + data'}
 
 PLAYWRIGHT_VERSION_SHA = 'eeadbffb36217d7c3108123efcb99d54a10ce62592f9102a5de400c83ea6433a'
 

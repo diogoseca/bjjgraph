@@ -89,8 +89,13 @@ on:
       # The path-scoped half of the canon (v1.224.3): both gates read every file here, so a PR
       # that edits only a rules file must still run them.
       - ".claude/rules/**"
+      # The project's permission rules (v1.265.1): tests/claude_settings.test.mjs reads this file.
+      - ".claude/settings.json"
       # The chain/provisioning gate reads every workflow and reachable Python input.
       - ".github/workflows/**"
+      # The bots' pinned tools (v1.265.1): tests/bot_workflows_test.py reads each package.json against its lockfile, so a
+      # PR that only moves a pin must still run it.
+      - ".github/tools/**"
       - "source/package.json"
       - "**/*.py"
   push:

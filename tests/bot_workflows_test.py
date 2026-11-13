@@ -1,5 +1,6 @@
 """Derive the producer/action inventory from every workflow, then check its gates."""
 from pathlib import Path
+import json
 import os
 import re
 import subprocess
@@ -52,7 +53,8 @@ class WorkflowTests(unittest.TestCase):
                     with self.subTest(workflow=path.name, job=name):
                         permissions = job.get("permissions", workflow.get("permissions", {}))
                         self.assertEqual(permissions.get("id-token"), "write")
-        self.assertEqual(actions, 6)
+        # 6 -> 5 at v1.265.1: the content bot's PAA step went (its tool never existed on npm).
+        self.assertEqual(actions, 5)
         print(f"Checked OIDC permission on all {actions} Claude action invocations")
 
     def test_proofread_auth_failure_blocks_following_steps_but_partial_failure_does_not(self):
@@ -126,7 +128,8 @@ class WorkflowTests(unittest.TestCase):
                         self.assertIn("check-execution", following["run"])
                         self.assertIn(f"steps.{step['id']}.outputs.execution_file", following["env"]["EXECUTION_FILE"])
                         self.assertFalse(following.get("continue-on-error", False))
-        self.assertEqual(actions, 4)
+        # 4 -> 3 at v1.265.1: the content bot's PAA step went (its tool never existed on npm).
+        self.assertEqual(actions, 3)
         self.assertGreaterEqual(parsed, 16)
         print(f"Parsed {parsed} workflows; checked {actions} model/output contracts")
 
@@ -179,6 +182,88 @@ class WorkflowTests(unittest.TestCase):
         staged = re.findall(r'^git add (.+)$', creates, re.M)
         self.assertEqual(len(staged), 1)
         self.assertEqual(set(staged[0].split()), set(KNOWN_BATCHES['votes-refresh']))
+
+    # SUPPLY CHAIN (v1.265.1). Mutants, each applied alone, killed at the named case:
+    #   `curl -fsSL https://claude.ai/install.sh | bash` back in validation-fixer.yml -> test_claude_cli_is_the_pinned_build
+    #   the CLI pin loosened to ^2.1.311, or moved without its lockfile            -> test_claude_cli_is_the_pinned_build
+    #   the install without --ignore-scripts, or a third workflow installing it    -> test_claude_cli_is_the_pinned_build
+    #   `npx -y @modelcontextprotocol/server-dataforseo` back in seo-monitor.yml    -> test_no_npx_yes_or_mcp_server
+    #   supabase-keepalive.yml without its permissions block                       -> test_every_workflow_declares_permissions
+    CLI_DIR = ".github/tools/claude-cli"
+    CLI_INSTALL = (
+        "npm ci --ignore-scripts --no-audit --no-fund --prefix .github/tools/claude-cli\n"
+        'echo "$GITHUB_WORKSPACE/.github/tools/claude-cli/node_modules/@anthropic-ai/claude-code-linux-x64" >> "$GITHUB_PATH"\n'
+        'echo "DISABLE_AUTOUPDATER=1" >> "$GITHUB_ENV"\n'
+        ".github/tools/claude-cli/node_modules/@anthropic-ai/claude-code-linux-x64/claude --version\n"
+    )
+
+    @staticmethod
+    def _strings(node):
+        if isinstance(node, str):
+            yield node
+        elif isinstance(node, dict):
+            for key, value in node.items():
+                yield from WorkflowTests._strings(key)
+                yield from WorkflowTests._strings(value)
+        elif isinstance(node, list):
+            for value in node:
+                yield from WorkflowTests._strings(value)
+
+    def _workflows(self):
+        paths = sorted((ROOT / ".github/workflows").glob("*.y*ml"))
+        self.assertGreaterEqual(len(paths), 16)
+        return [(path.name, yaml.safe_load(path.read_text())) for path in paths]
+
+    def test_claude_cli_is_the_pinned_build(self):
+        # The raw CLI comes from one exact build whose sha512 the committed lockfile holds, installed with no script.
+        pkg = json.loads((ROOT / self.CLI_DIR / "package.json").read_text())
+        lock = json.loads((ROOT / self.CLI_DIR / "package-lock.json").read_text())
+        (name, version), = pkg["dependencies"].items()
+        self.assertEqual(name, "@anthropic-ai/claude-code-linux-x64")
+        self.assertRegex(version, r"^\d+\.\d+\.\d+$", "an exact version, never a range")
+        self.assertEqual(set(lock["packages"]), {"", f"node_modules/{name}"}, "the native build has no dependencies")
+        self.assertEqual(lock["packages"][""]["dependencies"], pkg["dependencies"], "the lockfile was made from this pin")
+        entry = lock["packages"][f"node_modules/{name}"]
+        self.assertEqual(entry["version"], version)
+        self.assertTrue(entry["resolved"].startswith(f"https://registry.npmjs.org/{name}/-/"), entry["resolved"])
+        self.assertRegex(entry["integrity"], r"^sha512-[A-Za-z0-9+/]{86}==$")
+        self.assertNotIn("hasInstallScript", entry)
+        installers = []
+        for workflow_name, workflow in self._workflows():
+            for job in workflow["jobs"].values():
+                for step in job.get("steps", []):
+                    run = step.get("run", "")
+                    for line in run.splitlines():
+                        self.assertNotRegex(line, r"\b(curl|wget)\b[^#]*\|\s*(sudo\s+)?(ba|z|da)?sh\b",
+                                            f"{workflow_name}: a download piped into a shell runs whatever it serves today")
+                    if step.get("name") == "Install Claude CLI" or self.CLI_DIR in run:
+                        installers.append(workflow_name)
+                        self.assertEqual(run, self.CLI_INSTALL, f"{workflow_name}: the pinned install, exactly")
+        self.assertEqual(sorted(installers), ["proofread-bot.yml", "validation-fixer.yml"])
+        print(f"Checked the CLI pin {name}@{version} (sha512 in the lockfile) and its {len(installers)} installers")
+
+    def test_no_npx_yes_or_mcp_server(self):
+        # What it checks, and only that: no `npx -y|--yes`, no `--mcp-config` and no server-dataforseo in any workflow
+        # string. `npx -y <pkg>` installs whatever the registry holds that day, scripts and all; an MCP server starts that way.
+        checked = 0
+        for workflow_name, workflow in self._workflows():
+            for text in self._strings(workflow):
+                checked += 1
+                self.assertNotRegex(text, r"\bnpx\b[^\n]*\s(-y|--yes)\b", f"{workflow_name}: {text[:120]}")
+                self.assertNotIn("--mcp-config", text, f"{workflow_name}: an MCP server runs outside any lockfile")
+                self.assertNotIn("server-dataforseo", text, f"{workflow_name}: that package does not exist on npm")
+        self.assertGreater(checked, 500)
+        print(f"Checked {checked} workflow strings for npx --yes and MCP servers")
+
+    def test_every_workflow_declares_permissions(self):
+        declared = 0
+        for workflow_name, workflow in self._workflows():
+            jobs = workflow["jobs"].values()
+            with self.subTest(workflow=workflow_name):
+                self.assertTrue("permissions" in workflow or all("permissions" in job for job in jobs),
+                                "every workflow declares the token scope it needs, instead of inheriting the repository's default")
+                declared += 1
+        print(f"Checked {declared} workflows declare their permissions")
 
     def test_changed_workflow_shell_blocks_parse(self):
         count = 0

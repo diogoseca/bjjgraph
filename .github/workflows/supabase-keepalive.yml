@@ -8,6 +8,10 @@ on:
     - cron: '0 12 */5 * *'
   workflow_dispatch:
 
+# Least privilege (v1.265.1): the job checks out nothing and calls no GitHub API (one curl to Supabase), so its
+# GITHUB_TOKEN gets no scope at all. Every workflow declares its permissions (tests/bot_workflows_test.py).
+permissions: {}
+
 jobs:
   ping:
     runs-on: ubuntu-latest

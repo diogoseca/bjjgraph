@@ -58,11 +58,22 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/bot_queue.py --bot proofread-bot
 
+      # THE CLI, PINNED (v1.265.1). One exact build of Claude Code from the npm registry, its sha512 in the committed
+      # .github/tools/claude-cli/package-lock.json, installed with `npm ci --ignore-scripts`, the rule both deploys install by.
+      # It replaces `curl -fsSL https://claude.ai/install.sh | bash`, which ran whatever that script and the newest build
+      # were on the day. The platform package IS the native binary (no dependencies, no install script), and
+      # DISABLE_AUTOUPDATER keeps the run on it. The action-based bots get the CLI inside
+      # anthropics/claude-code-action, whose commit pin fixes their version.
+      # MOVING THE PIN: set the new version in .github/tools/claude-cli/package.json, then run
+      #   (cd .github/tools/claude-cli && npm install --package-lock-only --ignore-scripts)
+      # and commit both files; tests/bot_workflows_test.py checks they agree and that both bots install this way.
       - name: Install Claude CLI
         if: steps.queue.outputs.proceed == 'true'
         run: |
-          curl -fsSL https://claude.ai/install.sh | bash
-          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          npm ci --ignore-scripts --no-audit --no-fund --prefix .github/tools/claude-cli
+          echo "$GITHUB_WORKSPACE/.github/tools/claude-cli/node_modules/@anthropic-ai/claude-code-linux-x64" >> "$GITHUB_PATH"
+          echo "DISABLE_AUTOUPDATER=1" >> "$GITHUB_ENV"
+          .github/tools/claude-cli/node_modules/@anthropic-ai/claude-code-linux-x64/claude --version
 
       - name: Determine category (rotation pointer)
         if: steps.queue.outputs.proceed == 'true'

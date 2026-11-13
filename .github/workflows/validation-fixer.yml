@@ -54,11 +54,14 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/bot_queue.py --bot validation-fixer
 
+      # THE CLI, PINNED (v1.265.1): the same install as proofread-bot.yml, where the comment says how the pin moves.
       - name: Install Claude CLI
         if: steps.queue.outputs.proceed == 'true'
         run: |
-          curl -fsSL https://claude.ai/install.sh | bash
-          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          npm ci --ignore-scripts --no-audit --no-fund --prefix .github/tools/claude-cli
+          echo "$GITHUB_WORKSPACE/.github/tools/claude-cli/node_modules/@anthropic-ai/claude-code-linux-x64" >> "$GITHUB_PATH"
+          echo "DISABLE_AUTOUPDATER=1" >> "$GITHUB_ENV"
+          .github/tools/claude-cli/node_modules/@anthropic-ai/claude-code-linux-x64/claude --version
 
       - name: Deterministic from_position fixes (no Claude)
         if: steps.queue.outputs.proceed == 'true'

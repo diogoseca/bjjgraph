@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.265.0",
+  "version": "1.265.1",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -95,5 +95,10 @@
     "@playwright/test": "^1.61.1",
     "serve": "^14.2.6",
     "serve-handler": "^6.1.6"
+  },
+  "overrides": {
+    "serve": {
+      "compression": "1.8.2"
+    }
   }
 }
