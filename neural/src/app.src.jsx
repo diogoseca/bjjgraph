@@ -4348,6 +4348,8 @@ class Component extends DCLogic {
       this.units = Object.assign({}, p.units || {});
       this.belts = Object.assign({ won: {} }, p.belts || {});
       this.belts.won = Object.assign({}, (p.belts || {}).won || {});
+      // when the open rule (U163 c) first ran for this account; absent on older blobs (`_syncBelt`, `_recallCarried`)
+      this._openAt = ngOpenAt(p.openAt);
       this.tut = { done: Object.assign({}, (p.tut || {}).done || {}) };
       this.challenges = Object.assign({}, p.challenges || {});
       this.badges = Object.assign({}, p.badges || {});
@@ -4390,6 +4392,8 @@ class Component extends DCLogic {
     // `moves` (v1.255.0) is written only once it holds a cell (review R4): an account that never graded a move
     // saves exactly the blob v1.254.0 saves, and an open older tab is never handed a `moves` copy to push back.
     if (Object.values(this.moves || {}).some(row => row && Object.keys(row).length)) out.moves = this.moves; else delete out.moves;
+    // `openAt` (v1.269.0, U163 c) once stamped; an older client keeps it through `_progressExtras`
+    if (this._openAt > 0) out.openAt = this._openAt;
     return out;
   }
   _saveProgress() {
@@ -5838,16 +5842,13 @@ class Component extends DCLogic {
   }
   planSummary() {
     if (!this._gameplanRuntime) return null;
-    const stamp = this._gameplanStamp(), belt = this.curriculum?.belts.find(b => b.id === this.wornBelt().id);
-    const families = new Set(belt?.units.flatMap(u => u.lessons.map(l => l.deckKey.split("|")[0])));
-    // §6.6: with no curriculum there is no belt to scope new cards by, so they come from every belt. That
-    // is the right offer on a 404, and it says so, once per outage. Lifter: the next plan that has a belt.
-    if (belt) this._planUnscoped = false;
-    else if (!this._planUnscoped) { this._planUnscoped = true; this.fx("practice_belt_unfiltered", {}); }
+    // EVERYTHING OPENS (U163 c, owner, 13 Nov): new cards come from every family. Until v1.269.0 a deck outside the worn
+    // belt's families got no headroom (and a plan built with no curriculum said so once, `practice_belt_unfiltered`); the
+    // belt now only shows. e2e/journeys/everything-opens.spec.ts and tests/gameplan_runtime.test.mjs pin it.
+    const stamp = this._gameplanStamp();
     return this._gameplanRuntime.ngGameplanBuild({ day: this._epochDay(), ruleset: this._giMode || "gi",
       revision: this._knowledgeRevision || this._stageVer || 0, stamp,
-      target: this.practiceGoal(), decks: Object.fromEntries(Object.entries(this._gameplanDecks(true)).map(([key, d]) =>
-        [key, belt && !families.has(key.split("|")[0]) ? { ...d, headroom: 0 } : d])), srs: this.srs,
+      target: this.practiceGoal(), decks: this._gameplanDecks(true), srs: this.srs,
       provider: this._gameplanProvider, fallback: this._gameplanWeakFallback() });
   }
   /**
@@ -6197,6 +6198,8 @@ class Component extends DCLogic {
       const review = { ...ngGameplanDebt({ srs: this.srs, day: this._epochDay(), decks: this._gameplanDecks() }), day: this._epochDay() };
       const keys = review.rows.map(r => r.key);
       if (!keys.length) {
+        // a STARTING POINT, not a gate (U163 c kept it): with nothing owed and the planner not here yet, the first open
+        // lesson of the belt you wear; the planner then appends new cards from every family (`planSummary`)
         const belt = this.curriculum?.belts.find(b => b.id === this.wornBelt().id);
         const lesson = belt?.units.flatMap(u => u.lessons).find(l => this._lessonLive(l) && !this.lessonDone(l.deckKey));
         if (lesson) keys.push(lesson.deckKey);
@@ -7214,6 +7217,8 @@ class Component extends DCLogic {
         this.belts = Object.assign({ won: {} }, this.belts || {}, { won: won, attempts: att });
         if (held) this.belts.held = held; else delete this.belts.held;
         if (gf) this.belts.gf = gf; else delete this.belts.gf;
+        // the open rule began when it first ran on ANY device (U163 c): the earlier stamp, never local-wins
+        this._openAt = ngMergeOpenAt(this._openAt, cloud.openAt);
         const tutDone = Object.assign(
           {},
           ((cloud.tut || {}).done || {}),
@@ -7827,8 +7832,8 @@ class Component extends DCLogic {
   // cross-device merge live in neural/src/belt.src.js; this is the app's half: reading the
   // Challenges evidence into it, persisting the high-water mark, and the one-time grandfather.
   // READERS — every one of them, so a new reader is added here or not at all: the Challenges tab
-  // belt (`renderTabSubtitles`), timed recall in play from blue (`_recallInPlayNow`), the Recall
-  // Mode patch at black (`_noteBlackBelt`), the Settings lock (settings-ui.src.js) and the
+  // belt (`renderTabSubtitles`), the Recall Mode patch at black (`_noteBlackBelt`), the carry-over of timed recall
+  // (`_recallCarried`, which reads the HELD belt and decides nothing new) and the
   // training-day email's belt line (`dayLog e.b`, read by workers/digest). Game Knowledge —
   // `gameScore()` — decides none of them any more; its bands are read once, by the grandfather.
   _beltCleared(belt) {
@@ -7891,6 +7896,16 @@ class Component extends DCLogic {
       this.belts.held = { id: NG_BELT_IDS[target], t: Date.now() };
       dirty = true;
       this.fx("belt_promoted", { belt: NG_BELT_IDS[target], from: NG_BELT_IDS[before], via: via });
+    }
+    // EVERYTHING OPENS (U163 c, v1.269.0). `openAt` is the moment the open rule first ran for this account: stamped once
+    // the grandfather has run and AFTER any promotion this call made (that belt's evidence is older than the rule), merged
+    // as the EARLIER of two devices (`_mergeProgressFields`), and it rides the next save as the grandfather's mark does.
+    if (this.belts.gf && !(this._openAt > 0)) this._openAt = Date.now();
+    // The carry-over, written down: an ADDED `recallInPlay: true` (never over a value already there), stamped at `openAt`
+    // rather than now, so a choice made on any device after the rule began wins the per-key merge. See `_recallCarried`.
+    if (this._openAt > 0 && this._recallCarried()) {
+      (this.settings = this.settings || {}).recallInPlay = true;
+      (this._settingsAt = this._settingsAt || {}).recallInPlay = this._openAt;
     }
     if (dirty) {
       this._saveProgress();
@@ -14738,15 +14753,25 @@ class Component extends DCLogic {
    * Glyph-only when nothing is authored yet; `total` reads the manifest `n` until the chunk lands,
    * so an unhydrated deck reports the user's real progress instead of "no cards".
    */
-  // ── RECALL COMES WITH RANK (v1.133.0, owner) ── "for blue belts at least the technique
-  // should have a limited time to answer in flashcard Q/A, not MC." From BLUE up, a stage-2+
-  // card asks as timed recall in play; below blue (or below stage 2) recognition-first MC holds.
-  // The black-belt badge still force-enables the toggle (a floor-lowerer, no longer the only gate).
+  // ── TIMED RECALL IN A ROLL IS A SWITCH (U163 c, owner, 13 Nov: "the belt only shows; timed recall and Recall Mode become
+  // settings anyone can turn on"). With it on, a stage-2+ card asks as timed recall in play; off, recognition-first MC.
+  // Until v1.269.0 the worn belt switched it on from blue (v1.133.0 "recall comes with rank", the worn belt since v1.211.0)
+  // and the black-belt patch flipped the setting on as it minted; neither does any more. No belt switches it on.
+  // e2e/journeys/everything-opens.spec.ts and tests/belt_worn.test.mjs ("timed recall: the switch decides…") pin it.
   _recallInPlayNow() {
-    if (this.get("recallInPlay", false)) return true;
-    // the WORN belt since v1.211.0 (owner): "from blue" means blue in the Challenges, never a
-    // Game Knowledge band — see wornBelt()
-    try { return this.wornBelt().rank >= 1; } catch (e) { return false; }
+    return this.get("recallInPlay", false) === true || this._recallCarried();
+  }
+  // THE CARRY-OVER: a player whose roll questions were timed recall because of their belt keeps them. Carried = the switch
+  // was never set on this account (any value stored is the player's own and decides) AND the belt held (`belts.held`, MAX
+  // across devices, its stamp the moment it was first earned) is blue or above AND was earned no later than the moment the
+  // open rule first ran for this account (`openAt`; not stamped yet means the rule has not run, so anything held predates
+  // it). A belt earned after `openAt` switches nothing on. `_syncBelt` writes the carry down as an added `recallInPlay`, so
+  // the Settings switch shows it and turning it off sticks. Additive only: nothing stored is rewritten. tests/belt_worn.test.mjs.
+  _recallCarried() {
+    if (this.settings && this.settings.recallInPlay != null) return false;
+    const h = this.belts && this.belts.held, at = this._openAt || 0;
+    if (!h || ngBeltRank(h.id) < 1) return false;
+    return !(at > 0 && (Number(h.t) || 0) > at);
   }
   /** done/total for one deck, the manifest `n` standing in until the chunk lands (see above).
    *  ONE reader for the node card's chip and the landing card's corner count (v1.175.0). */
@@ -15503,8 +15528,8 @@ class Component extends DCLogic {
     //   · cards here, MC in play  -> warm the distractor pool first, so the options are not a
     //                                function of which neighbour chunks happened to arrive
     // THE IN-PLAY FORMAT (v1.105.1). MC by design, whatever mcMode says (that setting governs
-    // the sidebar) — EXCEPT under the black-belt badge: `recallInPlay` (a reward toggle, locked
-    // until the knowledge band reaches black) renders a stage-2+ card as the classic
+    // the sidebar) — EXCEPT with Recall Mode on: `recallInPlay` (a switch anyone turns on since U163 c,
+    // v1.269.0; `_recallInPlayNow` carries over a belt that had it) renders a stage-2+ card as the classic
     // reveal/self-grade block instead. Per-card, exactly as the owner specified: "after the
     // player gets the multiple choice right, the second time we show the card... Q and A, and we
     // hide the answer." A stage-0/1 card stays MC even with the badge on — recognition first.
@@ -17161,10 +17186,10 @@ class Component extends DCLogic {
         if (trackId === "white") this.fx("tutorial_done", {});
       }
       for (const id of rewards.newBadges) {
-        // THE AUTO-FLIP LIVES HERE AND NOWHERE ELSE (v1.105.1): flipping on the MINT (a
-        // once-per-account event) means turning the toggle off later STICKS — a flip driven by
-        // "belt is black" would re-enable recall on every device forever through settings LWW.
-        if (id === "recall-in-play") this.set("recallInPlay", true);
+        // NO AUTO-FLIP ANY MORE (U163 c, v1.269.0). From v1.105.1 the Recall Mode patch's mint set `recallInPlay` on here
+        // (once per account, so turning it off stuck). Recall Mode is now a switch anyone turns on and no belt switches it
+        // on, so the patch still mints at black and leaves the switch where the player put it. A player who already has
+        // the patch keeps it and the setting it gave them (nothing stored is touched). tests/belt_worn.test.mjs pins it.
         this.fx("patch_earned", { id });
         this.track("neural_patch_earned", { patch_id: id });
         if (this.queueChallengeReward) this.queueChallengeReward("patch", id);

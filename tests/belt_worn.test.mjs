@@ -29,6 +29,9 @@
 //   M13 the dayLog merge drops the email's belt line                → the dayLog merge carries it
 //   M14 setGiMode loses its POST-flip sync                           → flip (reload after a no-gi promotion)
 //   M15 setGiMode loses its PRE-flip sync                            → flip (gi promotion arriving in no-gi)
+//   OPEN-M1..M6 (U163 c, v1.269.0): beltUnlocked back to the worn rank · timed recall from the worn belt again · the
+//       patch's mint flips the switch again · no carry-over · the carry overwrites a stored value · `openAt` merged
+//       local-wins — each named at the assertion it turns red (the four tests at the end of this file)
 // NON-KILL, recorded so nobody reads this file as covering it: the Settings lock is gated in e2e
 // (recall-badge.spec.ts — its lock read from `gameScore().belt` again turns that journey red), not
 // here: it renders through settings-ui.src.js and a DOM.
@@ -38,7 +41,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
-import { NG_BELT_IDS, ngWornBelt, ngMergeHeldBelt, ngMergeBeltGrandfather, ngBeltLineAhead } from "../neural/src/belt.src.js";
+import { NG_BELT_IDS, ngWornBelt, ngMergeHeldBelt, ngMergeBeltGrandfather, ngBeltLineAhead, ngMergeOpenAt } from "../neural/src/belt.src.js";
 
 const rd = (p) => readFileSync(new URL("../" + p, import.meta.url), "utf8");
 const strip = (t) => t.replace(/^export (function|const|let|var|class) /gm, "$1 ");
@@ -337,16 +340,19 @@ test("the readers follow the worn belt, never the score", () => {
   a._noteKnowledgeCredit("white-a|Attacker");
   const day = a.dayLog[a._dayKey()];
   assert.deepEqual(day.b, ["white", 0, 2], "the email's belt line names the worn belt");
-  // a blue belt with no score at all: recall in play is on
+  // a blue belt with no score at all: recall in play is on (since U163 c, v1.269.0, by the carry-over: this blue was held
+  // before the open rule ran on the account — see "the carry-over" below)
   const b = boot({ blob: { belts: { won: {}, gf: 5, held: { id: "blue", t: 1 } } } });
   assert.equal(b.gameScore().score, 0);
   assert.equal(b._recallInPlayNow(), true);
-  // promoted to black through the Challenges: the patch mints at once and flips its toggle on
-  const c = boot();
+  // promoted to black through the Challenges: the patch mints at once. Until v1.269.0 it also flipped its toggle on
+  // (`get("recallInPlay")` was asserted true here); since U163 c it leaves the switch alone (the rule's start is seeded at
+  // 1000 so this promotion is unambiguously under it)
+  const c = boot({ blob: { openAt: 1000 } });
   for (const id of NG_BELT_IDS) evidence(c, id);
   c._publishKnowledge("grade:test");
   assert.ok((c.badges || {})["recall-in-play"], "the Recall Mode patch minted at the promotion");
-  assert.equal(c.get("recallInPlay", false), true);
+  assert.equal(c.get("recallInPlay", false), false, "U163 c: the mint switches nothing on");
   // the email's line rides the dayLog merge: the higher line is the later one
   assert.equal(ngBeltLineAhead(["blue", 0, 2], ["white", 2, 2]), true);
   assert.equal(ngBeltLineAhead(["white", 2, 2], ["blue", 0, 2]), false);
@@ -364,27 +370,118 @@ test("the dayLog merge carries the email's belt line", async () => {
   assert.equal(a.dayLog[today].s, 10, "the score keeps its own rule");
 });
 
-// P1-B: existing held/grandfathered rank is the progression boundary. Reference
-// study is intentionally outside these guards (browser practice-page verifies it).
-test("P1-B: future progression actions cannot use selected/folded tracks as an entitlement", () => {
+// EVERYTHING OPENS (U163 c, owner, 13 Nov; v1.269.0). Until then this test was P1-B, "future progression actions cannot
+// use selected/folded tracks as an entitlement": on a blue belt it asserted that a stored black selection fell back to
+// blue, a stored black fold stayed shut, and selecting purple, folding brown open and starting a black lesson, checkpoint
+// or capstone were all refused. The owner's rule reverses each of those: the belt only shows. The Path's own evidence
+// gates are not belt locks and still hold (a checkpoint needs its lessons, a capstone its checkpoints).
+// Mutant OPEN-M1 (beltUnlocked back to `rank <= wornBelt().rank`) turns this test red at its first assertion.
+test("U163 c: every section, lesson, checkpoint and capstone is open, whatever belt you wear", () => {
   const a = boot({ blob: { belts: { held: { id: "blue", t: 1 }, gf: 1, won: {} } } });
-  a.renderExplorer = () => {};
+  a.renderExplorer = () => {}; a.showCenter = () => {}; a.rollFromPosition = () => {}; a._seatMember = (i) => i;
+  a.studyFromSession = () => {}; a.locateNode = () => {}; a.hydrateDecks = () => Promise.resolve();
+  a.nodeForKey = () => -1; a._lessonNodeIdx = () => -1; a.nodes = []; a._checkpointShow = () => {};
   a.settings.challengeSelectedTrack = "black";
   a.settings.challengeOpenSections = { black: true };
-  assert.equal(a.selectedChallengeTrack(), "blue");
-  assert.equal(a._beltSectionOpen("black"), false, "P1-B stored fold cannot unlock");
+  assert.equal(a.selectedChallengeTrack(), "black", "a stored later selection stands");
+  assert.equal(a._beltSectionOpen("black"), true, "a stored later fold stands");
+  assert.equal(a._beltSectionOpen("brown"), false, "a section never opened is folded (presentation, not a lock)");
   a.selectChallengeTrack("purple");
-  assert.equal(a.settings.challengeSelectedTrack, "black", "P1-B direct selection rejected");
+  assert.equal(a.settings.challengeSelectedTrack, "purple", "a later belt can be selected");
   a._setBeltSectionOpen("brown", true);
-  assert.equal(a.settings.challengeOpenSections.brown, undefined, "P1-B direct fold rejected");
-  const unit = a.curriculum.belts[4].units[0];
-  a.openLessonStudy(unit.lessons[0], unit, a.curriculum.belts[4]);
-  assert.equal(a._session, undefined, "P1-B direct future lesson rejected");
+  assert.equal(a.settings.challengeOpenSections.brown, true, "a later belt can be unfolded");
+  const black = a.curriculum.belts[4], unit = black.units[0];
+  a.openLessonStudy(unit.lessons[0], unit, black);
+  assert.ok(a._session && a._session.keys.includes(unit.lessons[0].deckKey), "a black lesson opens on a blue belt");
   a.startCheckpoint("black", unit);
-  assert.equal(a._checkpoint, undefined, "P1-B direct future checkpoint rejected");
+  assert.equal(a._checkpoint, undefined, "its own evidence gate stands: the unit's lessons first");
+  for (const l of unit.lessons) a.prep[l.deckKey] = 3;
+  a.startCheckpoint("black", unit);
+  assert.equal(a._checkpoint && a._checkpoint.uk, "black/u1", "with its lessons done, a black checkpoint starts on a blue belt");
+  a._checkpoint = null;
+  black.test = { startNodeId: "x", maxMoves: 9 };
   a.startBeltTest("black");
-  assert.equal(a._beltTest, undefined, "P1-B direct future capstone rejected");
-  a.selectChallengeTrack("white");
-  assert.equal(a.selectedChallengeTrack(), "white", "earlier earned sections remain reachable");
-  assert.equal(a.wornBelt().id, "blue", "selection cannot change the worn rank");
+  assert.equal(a._beltTest, undefined, "its own evidence gate stands: every unit first");
+  evidence(a, "black");
+  a.startBeltTest("black");
+  assert.equal(a._beltTest && a._beltTest.beltId, "black", "with every unit proven, the black capstone starts on a blue belt");
+  assert.equal(a.beltUnlocked("plaid"), false, "a name that is not a belt opens nothing");
+  assert.equal(a.wornBelt().id, "blue", "the belt itself is untouched: black's units proven out of order promote nothing");
+});
+
+// TIMED RECALL IN A ROLL IS A SWITCH (U163 c): no belt switches it on, the patch at black included. Mutants: OPEN-M2
+// (`_recallInPlayNow` reads the worn belt from blue again) and OPEN-M3 (the mint flips the switch on again) each turn a
+// named assertion here red.
+test("timed recall: the switch decides, and a belt earned under the open rule switches nothing on", () => {
+  const w = boot();
+  assert.equal(w._recallInPlayNow(), false, "a white belt: off");
+  w.set("recallInPlay", true);
+  assert.equal(w._recallInPlayNow(), true, "anyone can turn it on");
+  w.set("recallInPlay", false);
+  assert.equal(w._recallInPlayNow(), false, "and off");
+  // blue earned AFTER the rule began on this account
+  const b = boot({ blob: { openAt: 1000, belts: { won: {}, gf: 5, held: { id: "blue", t: 5000 } } } });
+  assert.equal(b._recallInPlayNow(), false, "OPEN-M2: a blue belt earned under the open rule does not switch it on");
+  assert.equal(b.settings.recallInPlay, undefined, "and nothing is written for it");
+  // black reached through the Challenges under the open rule: the patch mints, the switch stays where it was
+  const c = boot({ blob: { openAt: 1000 } });
+  for (const id of NG_BELT_IDS) evidence(c, id);
+  c._publishKnowledge("grade:test");
+  assert.equal(c.wornBelt().id, "black");
+  assert.ok((c.badges || {})["recall-in-play"], "the Recall Mode patch still mints at black");
+  assert.equal(c.settings.recallInPlay, undefined, "OPEN-M3: the mint no longer flips the switch on");
+  assert.equal(c._recallInPlayNow(), false);
+});
+
+// THE CARRY-OVER (the orchestrator's OPEN1 brief): a player whose roll questions were timed recall because of their belt
+// keeps that, additively. Mutants: OPEN-M4 (no carry) and OPEN-M5 (the carry overwrites a stored value) each turn a named
+// assertion here red; OPEN-M6 (`openAt` merged local-wins instead of the earlier) turns the merge test below red.
+test("the carry-over: a belt held before the open rule keeps timed recall, written once as an added setting", () => {
+  // blue earned at t=1000, before this account ever ran the open rule (no `openAt` stored)
+  const a = boot({ blob: { belts: { won: {}, gf: 5, held: { id: "blue", t: 1000 } } } });
+  assert.ok(a._openAt > 1000, "the rule's first run is stamped on this account");
+  assert.equal(a._recallInPlayNow(), true, "OPEN-M4: their roll questions stay timed recall");
+  assert.equal(a.settings.recallInPlay, true, "written down as the switch, so Settings shows it");
+  assert.equal(a._settingsAt.recallInPlay, a._openAt, "stamped at the rule's start, so any later choice wins the merge");
+  assert.equal(a.saves, 0, "a passive boot saves nothing: the stamp and the carry ride the next save");
+  const blob = a._progressBlob();
+  assert.deepEqual([blob.openAt, blob.settings.recallInPlay], [a._openAt, true], "and the next save carries both");
+  // turning it off sticks: the carry never comes back over a choice
+  a.set("recallInPlay", false);
+  a._syncBelt("test");
+  assert.equal(a._recallInPlayNow(), false, "off stays off");
+  assert.equal(a.settings.recallInPlay, false);
+  // a stored value is the player's own and is never rewritten (a black-patch holder who had turned it off, or on)
+  for (const v of [false, true]) {
+    const h = boot({ blob: { settings: { recallInPlay: v }, settingsAt: { recallInPlay: 500 }, belts: { won: {}, gf: 5, held: { id: "black", t: 1000 } } } });
+    assert.equal(h.settings.recallInPlay, v, "OPEN-M5: the stored " + v + " is kept");
+    assert.equal(h._settingsAt.recallInPlay, 500, "and its stamp");
+    assert.equal(h._recallInPlayNow(), v);
+  }
+  // a white belt carries nothing
+  const w = boot({ blob: { belts: { won: {}, gf: 5, held: { id: "white", t: 1000 } } } });
+  assert.equal(w._recallInPlayNow(), false);
+  assert.equal(w.settings.recallInPlay, undefined);
+});
+
+test("openAt merges as the earlier of two devices; a belt the cloud held before it is carried", async () => {
+  async function pull(local, cloud) {
+    const a = boot({ blob: local });
+    const facade = { neuralSyncVersion: 2, pullNeural: async (id) => ({ userId: id, blob: cloud }) };
+    Object.assign(a, { _auth: () => facade, _authUserId: "u1", _authEpoch: 0, _authDisposed: false, _progressLocalOnly: false });
+    assert.equal(await a._pullAndMerge(), true);
+    a._syncBelt("test");
+    return a;
+  }
+  // a NEW device stamped the rule before its first pull; the cloud holds blue from before any device ran it
+  let a = await pull({ openAt: 9000, belts: { won: {}, gf: 5 } }, { v: 2, belts: { won: {}, gf: 5, held: { id: "blue", t: 4000 } } });
+  assert.equal(a._openAt, 9000);
+  assert.equal(a._recallInPlayNow(), true, "the cloud's older blue is carried on the new device");
+  assert.equal(a.settings.recallInPlay, true);
+  // the cloud says the rule began at 3000 and blue came at 4000, under it: nothing is carried, whatever this device stamped
+  a = await pull({ openAt: 9000, belts: { won: {}, gf: 5 } }, { v: 2, openAt: 3000, belts: { won: {}, gf: 5, held: { id: "blue", t: 4000 } } });
+  assert.equal(a._openAt, 3000, "OPEN-M6: the earlier stamp wins, never local-wins");
+  assert.equal(a._recallInPlayNow(), false);
+  assert.equal(a._progressBlob().openAt, 3000, "and the earlier stamp is what gets pushed back");
+  assert.deepEqual([ngMergeOpenAt(0, 5), ngMergeOpenAt(7, 5), ngMergeOpenAt("x", 5), ngMergeOpenAt(0, 0)], [5, 5, 5, 0]);
 });
