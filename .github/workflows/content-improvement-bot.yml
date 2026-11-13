@@ -11,12 +11,6 @@ on:
         default: '5'
         type: choice
         options: ['1', '2', '5', '10', '20']
-      enable_paa:
-        description: 'Fetch PAA data for AI SEO optimization (costs DataForSEO credits)'
-        required: false
-        default: 'true'
-        type: choice
-        options: ['true', 'false']
 
 jobs:
   improve-content:
@@ -233,94 +227,13 @@ jobs:
           echo "$CLAUDE_FILES" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
-      - name: Prepare PAA context with Claude
-        if: steps.queue.outputs.proceed == 'true' && steps.preprocess.outputs.claude_files != '' && (github.event.inputs.enable_paa == 'true' || github.event_name == 'schedule')
-        id: prepare_paa
-        uses: anthropics/claude-code-action@51705da45eecce209d4700538bf8377d5b5fc695 # v1
-        with:
-          base_branch: dev
-          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          prompt: |
-            You are a BJJ SEO analyst preparing "People Also Ask" (PAA) context for AI search optimization.
-
-            # Your Mission
-            Fetch PAA data from Google SERP for each article and prepare structured AI SEO guidance.
-
-            # Selected Articles
-            ${{ steps.preprocess.outputs.claude_files }}
-
-            # Process for Each Article
-
-            1. **Extract Seed Keyword**
-               - Read the file (.md or .json)
-               - For .json: use `name` field
-               - For .md: use `title` from YAML frontmatter
-               - Clean: remove "| BJJ Graph", "| BJJ Submission", etc.
-               - Fallback: use filename
-
-            2. **Fetch PAA Data**
-               Use `mcp__dataforseo__serp_organic_live_advanced`:
-               ```
-               keyword: <extracted_keyword>
-               location_name: "United States"
-               language_code: "en"
-               device: "desktop"
-               people_also_ask_click_depth: 2
-               depth: 50
-               ```
-
-            3. **Build AI SEO Context**
-               For each article, create `/tmp/paa_output/<filename>_paa.json`:
-               ```json
-               {
-                 "article_path": "content/...",
-                 "seed_keyword": "extracted keyword",
-                 "paa_questions": [
-                   {
-                     "question": "What is...",
-                     "answer_snippet": "...",
-                     "source_url": "...",
-                     "priority": "high|medium|low",
-                     "integration_strategy": "dedicated_faq|improve_heading|add_section"
-                   }
-                 ],
-                 "heading_optimizations": [
-                   {
-                     "current": "Mount Position",
-                     "suggested": "What is Mount Position in BJJ?",
-                     "rationale": "Matches conversational query pattern"
-                   }
-                 ],
-                 "missing_content_opportunities": [
-                   "Add section: When to Use Mount",
-                   "Add section: Common Mount Mistakes"
-                 ]
-               }
-               ```
-
-            4. **Create Summary**
-               Create `/tmp/paa_output/summary.txt`:
-               - Total PAA questions found
-               - High-priority questions (direct answers needed)
-               - Content gap analysis
-               - Suggested new articles
-
-            5. **Ensure CSV exists**
-               Check `tests/artifacts/suggested_new_files.csv` - create if missing with headers: `relative_path,plan`
-
-            Begin processing. Focus on high-intent questions that match user search behavior.
-          claude_args: |
-            --model "${{ steps.model.outputs.model }}"
-            --effort xhigh
-            --mcp-config '{"mcpServers":{"dataforseo":{"command":"npx","args":["-y","@modelcontextprotocol/server-dataforseo"],"env":{"DATAFORSEO_LOGIN":"${{ secrets.DATAFORSEO_LOGIN }}","DATAFORSEO_PASSWORD":"${{ secrets.DATAFORSEO_PASSWORD }}"}}}}'
-            --allowedTools 'Read,Write,Glob,Bash(mkdir:*),Bash(ls:*),mcp__dataforseo__serp_organic_live_advanced'
-
-      - name: Check Claude execution (prepare_paa)
-        if: steps.queue.outputs.proceed == 'true' && steps.prepare_paa.outcome == 'success'
-        env:
-          EXECUTION_FILE: ${{ steps.prepare_paa.outputs.execution_file }}
-        run: python3 scripts/bot_run.py check-execution "$EXECUTION_FILE"
-
+      # NO PAA STEP SINCE v1.264.6. "Prepare PAA context with Claude" gave an agent (Read, Write, Glob) the tool
+      # `mcp__dataforseo__serp_organic_live_advanced` from `npx -y @modelcontextprotocol/server-dataforseo`, a name the
+      # npm registry answers with 404, so it never fetched anything; the prompt below already reads PAA files only "if
+      # available". DataForSEO's own server (`dataforseo-mcp-server`) has no such tool any more, only a generic
+      # `api_request`, and neither 3.1.3 nor 3.0.1 (13 Nov) installs without high advisories in its tree. To restore
+      # PAA: fetch it in a step with NO model from a pinned lockfile (as .github/tools/claude-cli does), and treat the
+      # questions as outside text: data for the agent, never instructions.
       - name: Improve content with AI SEO optimization
         if: steps.queue.outputs.proceed == 'true' && steps.preprocess.outputs.claude_files != ''
         id: improve_content
@@ -369,7 +282,7 @@ jobs:
 
             ## 4. PAA Data (if available)
 
-            ${{ (github.event.inputs.enable_paa == 'true' || github.event_name == 'schedule') && 'Check `/tmp/paa_output/<filename>_paa.json` for each file. Use PAA insights to guide content optimization.' || 'PAA data not available this run.' }}
+            PAA data not available this run.
 
             # Files to Process
             ${{ steps.preprocess.outputs.claude_files }}
@@ -635,7 +548,7 @@ jobs:
           - Conversational query headings
           - Entity consistency (canonical names)
           - 8-15 step execution sequences
-          - PAA FAQ integration: ${{ (github.event.inputs.enable_paa == 'true' || github.event_name == 'schedule') && 'enabled' || 'disabled' }}
+          - PAA FAQ integration: disabled
           - [[Wikilink]] validation
           - JSON schema validation
 
@@ -658,7 +571,7 @@ jobs:
           - **JSON files**: ${{ steps.check_changes.outputs.json_count }}
           - **Markdown files**: ${{ steps.check_changes.outputs.md_count }}
           - **Total changes**: ${{ steps.check_changes.outputs.changes_count }} files
-          - **PAA data**: ${{ (github.event.inputs.enable_paa == 'true' || github.event_name == 'schedule') && '✅ Enabled (DataForSEO)' || '❌ Disabled' }}
+          - **PAA data**: ❌ Not fetched
           - **Auto-fixed**: ${{ steps.validate_retry.outputs.fixed_json_files != '' && 'Yes (validation retry loop)' || 'None needed' }}
 
           ### 🎯 AI SEO Optimizations Applied
@@ -677,7 +590,7 @@ jobs:
           - Each step = one atomic action
           - Sub-steps for complex movements
 
-          **PAA Integration** ${{ (github.event.inputs.enable_paa == 'true' || github.event_name == 'schedule') && '(Enabled)' || '(Disabled)' }}:
+          **PAA Integration** (Disabled):
           - Dedicated FAQ sections at article end
           - 5-10 questions from Google PAA data
           - High-priority questions woven into content

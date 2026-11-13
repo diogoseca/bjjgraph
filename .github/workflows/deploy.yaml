@@ -417,6 +417,9 @@ jobs:
   deployed-console:
     needs: deploy
     runs-on: ubuntu-latest
+    # Least privilege (v1.264.6): it reads only the deploy job's outputs, so its token gets no scope. Until then this job
+    # and lighthouse-ci declared none and ran on the repository's default token.
+    permissions: {}
     steps:
       - name: Deployed console, stamp cache header, live redirects and the gate's time are clean (gate)
         run: |
@@ -444,6 +447,9 @@ jobs:
   lighthouse-ci:
     needs: deploy
     runs-on: ubuntu-latest
+    # Least privilege (v1.264.6): a checkout and a public Lighthouse upload; nothing writes to the repository.
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:

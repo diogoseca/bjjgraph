@@ -91,6 +91,9 @@ on:
       - ".claude/rules/**"
       # The chain/provisioning gate reads every workflow and reachable Python input.
       - ".github/workflows/**"
+      # The bots' pinned tools (v1.264.6): tests/bot_workflows_test.py reads each package.json against its lockfile, so a
+      # PR that only moves a pin must still run it.
+      - ".github/tools/**"
       - "source/package.json"
       - "**/*.py"
   push:

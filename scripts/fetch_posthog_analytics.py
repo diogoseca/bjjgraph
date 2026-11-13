@@ -4,10 +4,13 @@
 SECURITY: runs in a NON-agent CI step so neither the PostHog key nor the step's
 CLAUDE_CODE_OAUTH_TOKEN is reachable by the Claude agent (which improves content and
 must not be able to run arbitrary code to exfiltrate secrets). The agent only reads
-the JSON this writes.
+the JSON this writes. Every row's URL is visitor-written text, so each is reduced to
+one of the site's own routes before it is written, and rows naming no page are
+dropped and counted (scripts/_site_routes.py, v1.264.6): the agent reads only our paths.
 
-Writes {available, pageviews, session_duration, bounce_rate, search_entry} as JSON.
-Never raises — degrades to {"available": false, "note": ...}.
+Writes {available, pageviews, session_duration, bounce_rate, search_entry, dropped} as
+JSON, each metric a list of [site path, number]. Never raises — degrades to
+{"available": false, "note": ...}.
 
 Env:
   POSTHOG_PERSONAL_API_KEY  PostHog personal key (phx_) — the Query API rejects the
@@ -24,6 +27,10 @@ import json
 import os
 import sys
 import urllib.request
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _site_routes import clean_rows, route_index  # noqa: E402
 
 QUERIES = {
     "pageviews": (
@@ -76,13 +83,20 @@ def main() -> None:
         write({"available": False, "note": "PostHog unavailable (POSTHOG_PERSONAL_API_KEY not set)"})
         return
 
-    result: dict = {"available": True}
+    routes = route_index()
+    if not routes:
+        # Fail closed: with no routes to match, every row would be dropped, or worse, a later edit would pass them raw.
+        write({"available": False, "note": "PostHog unavailable (no site routes found under content/)"})
+        return
+    result: dict = {"available": True, "dropped": {}}
     for name, hogql in QUERIES.items():
         try:
-            result[name] = run_query(pid, key, hogql)
+            rows = run_query(pid, key, hogql)
         except Exception as e:  # noqa: BLE001 — degrade per-query, never fail the job
-            result[name] = []
+            rows = []
             result.setdefault("errors", {})[name] = str(e)
+        result[name], result["dropped"][name] = clean_rows(rows, routes)
+        print(f"{name}: kept {len(result[name])} rows naming a site page, dropped {result['dropped'][name]}")
     write(result)
 
 

@@ -1,0 +1,8 @@
+{
+  "name": "bjjgraph-claude-cli",
+  "private": true,
+  "description": "The Claude Code CLI that proofread-bot.yml and validation-fixer.yml run: one exact build, installed with npm ci --ignore-scripts so the lockfile's hash decides the bytes. How to move the pin: the comment on proofread-bot.yml's Install Claude CLI step.",
+  "dependencies": {
+    "@anthropic-ai/claude-code-linux-x64": "2.1.311"
+  }
+}

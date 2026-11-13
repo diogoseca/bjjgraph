@@ -7,8 +7,9 @@ import os
 from pathlib import Path
 import subprocess
 import sys
-from urllib.parse import unquote, urlsplit
+from urllib.parse import urlsplit
 
+from _site_routes import route_key
 from bot_queue import filter_candidates, read_state
 
 
@@ -43,8 +44,8 @@ def select_analytics(analytics, count, output):
     state["skipped"] += len(candidates) - len(allowed)
     Path(os.environ["BOT_QUEUE_STATE"]).write_text(json.dumps(state) + "\n")
 
-    def key(path):
-        return unquote(path).strip("/").removesuffix(".html").replace(" ", "-").lower()
+    # One key for selection and for the prefetch that sanitises these rows (scripts/_site_routes.py, v1.264.6).
+    key = route_key
 
     sources = {}
     data = {}
