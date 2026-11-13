@@ -19,7 +19,16 @@
  *   08 focused                moves shown: the known card focused from the keyboard (its focus ring) with its seal
  *   09 played                 moves shown: the known card just played (the stand-in, as it rises)
  *
- *   node tests/artifacts/_seal_shoot.mjs <outDir> <baseDist>        SHOOT_BASE (default http://localhost:8197)
+ * THE MAP (`map` as the third argument): the same player, plus Cross Collar Choke answered Yes with its flashcards
+ * learned (dev: the THICK outline, U122 a's level 2); Americana and Kimura known (dev: the thin one). The camera is
+ * framed on Mount and those three orbs the app's own way (`_fitView`), the roll paused, the same frame per width:
+ *   10 before / 11 after      the map: thin and thick outlines (dev) against the dots
+ *   10z / 11z                 the same frames, the orbs' part enlarged 3x (pixels repeated, nothing redrawn)
+ *   12 focus                  every move dealt at Mount Top known, so the seat itself is known: the focus mark wears a
+ *                             dot beside dotted option orbs
+ *   13 mastery gold           "Turn what you know gold" on: the flashcards' colour on the orbs, and the dots
+ *
+ *   node tests/artifacts/_seal_shoot.mjs <outDir> <baseDist> [map]        SHOOT_BASE (default http://localhost:8197)
  */
 import { chromium } from "playwright"
 import fs from "node:fs"
@@ -107,7 +116,60 @@ try {
     console.log("  learned deck", key, qh.length, "cards")
     BLOB = { v: 2, moves: MOVES, stage: { [key]: Object.fromEntries(qh.map((q) => [q, 3])) }, srs: { [key]: Object.fromEntries(qh.map((q) => [q, [TODAY + 30, 30, TODAY - 2]])) } }
   }
-  for (const vp of VPS) {
+  if (ONLY === "map") {
+    // Cross Collar Choke: a Yes too, so its deck learned makes dev's outline THICK; read the seat's dealt ordinals once
+    const b0 = await boot(browser, VPS[1], {})
+    const dealt = await b0.page.evaluate(() => { const a = window.__neural, i = a.nodes.findIndex((n) => n.id === "Positions/Mount" && n.role !== "bottom"); return a._dealtOrds(i, "top") })
+    await b0.ctx.close()
+    const yes = [TODAY + 9, 14, TODAY - 5, 1]
+    BLOB = { ...BLOB, moves: { [S]: { ...MOVES[S], [ORD[ID.learned]]: yes } } }
+    const ALL = { ...BLOB, moves: { [S]: Object.fromEntries(dealt.map((o) => [o, yes])) } }
+    const frame = async (page, ids) => {
+      await page.evaluate((ids) => {
+        const a = window.__neural, idx = ids.map((id) => a.nodes.findIndex((n) => n.id === id && n.role !== "defender" && n.role !== "bottom"))
+        a.setPaused(true)
+        const t = a._fitView(idx, { minW: 0 })
+        a.cam = { ...a.cam, cx: t.cx, cy: t.cy, vw: t.vw, lvw: Math.log(t.vw) }; a.camTarget = { ...a.camTarget, cx: t.cx, cy: t.cy, vw: t.vw }
+        a.holdCamera()   // the app's own lease on the camera (frameNodes does the same), so the follow-cam leaves it
+      }, ids)
+      await sleep(700)
+    }
+    const IDS = ["Positions/Mount", ID.known, ID.due, ID.learned]
+    const seals = (page) => page.evaluate(() => (window.__neural._lastMapSeals || []).map((d) => window.__neural.nodes[d.idx].t + " @" + Math.round(d.x) + "," + Math.round(d.y) + " r" + d.r.toFixed(1)))
+    for (const vp of VPS) {
+      let box = null
+      for (const [name, dev, blob, gold] of [["10-map-before", true, BLOB, false], ["11-map-after", false, BLOB, false], ["12-map-focus", false, ALL, false], ["13-map-mastery-gold", false, BLOB, true]]) {
+        const keep = BLOB; BLOB = { ...blob, settings: undefined }
+        const b = await boot(browser, vp, { dev, hidden: false })
+        BLOB = keep
+        if (gold) { await b.page.evaluate(() => window.__neural.set("masteryGold", true)); await sleep(1500) }
+        await b.page.mouse.move(2, 2)
+        await frame(b.page, IDS)
+        await shot(b.page, name, vp, (dev ? "dev: " : "this build: ") + name)
+        log[log.length - 1].dots = dev ? null : await seals(b.page)
+        console.log("   dots:", JSON.stringify(log[log.length - 1].dots))
+        if (name === "10-map-before" || name === "11-map-after") {
+          // the three move orbs' part of the frame, 3x, the same box in both
+          if (!box) box = await b.page.evaluate((ids) => {
+            const a = window.__neural, sc = a.W / a.cam.vw, pts = ids.slice(1).map((id) => { const n = a.nodes.find((x) => x.id === id && x.role !== "defender"); return [a.W / 2 + (n.x - a.cam.cx) * sc, a.H / 2 + (a._LY(n) - a.cam.cy) * sc] })
+            const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]), cx = (Math.min(...xs) + Math.max(...xs)) / 2, cy = (Math.min(...ys) + Math.max(...ys)) / 2
+            const w = Math.min(a.W, Math.max(120, Math.max(...xs) - Math.min(...xs) + 80)), h = Math.min(a.H, Math.max(90, Math.max(...ys) - Math.min(...ys) + 80))
+            return { x: Math.max(0, Math.round(cx - w / 2)), y: Math.max(0, Math.round(cy - h / 2)), width: Math.round(w), height: Math.round(h) }
+          }, IDS)
+          const buf = await b.page.screenshot({ clip: box, type: "png" })
+          const z = await b.page.evaluate(async ([b64, k]) => {
+            const img = new Image(); img.src = "data:image/png;base64," + b64; await img.decode()
+            const c = document.createElement("canvas"); c.width = img.width * k; c.height = img.height * k
+            const x = c.getContext("2d"); x.imageSmoothingEnabled = false; x.drawImage(img, 0, 0, c.width, c.height)
+            return c.toDataURL("image/jpeg", 0.9).split(",")[1]
+          }, [buf.toString("base64"), 3])
+          fs.writeFileSync(path.join(OUT, `${name.replace("-map-", "z-map-")}-zoom-${vp.w}.jpg`), Buffer.from(z, "base64"))
+        }
+        if (b.errors.length) log[log.length - 1].errors = b.errors
+        await b.ctx.close()
+      }
+    }
+  } else for (const vp of VPS) {
     for (const [nb, na, hidden, at, what] of [["01-before", "02-after", true, "known", "moves hidden"], ["03-before-shown", "04-after-shown", false, "known", "moves shown"], ["05-before-due-and-new", "06-after-due-and-new", true, "due", "moves hidden, at the due card"]]) {
       for (const [name, dev] of [[nb, true], [na, false]]) {
         const b = await boot(browser, vp, { dev, hidden })

@@ -17104,3 +17104,5 @@ by `set`); the carry across a real cloud pull in a browser (the merge is unit-te
 known and not due, a hollow one for one never answered whose flashcards are learned, none on a due card
 (`_sealCard`, from the `_moveState` read that turns the face). A card asked by touch wears the hover's outline.
 Mutants M0-M7 and their kills: the header of e2e/journeys/known-move-seal.spec.ts. neural.js +164 B, neural.css +508 B.
+The map (its own commit): the orb's outline is a gold dot on a shoulder no name covers, up-right first (`_mapSeal`), one
+state; U122 a's thick level is gone. The frame publishes `_lastMapSeals`, `_lastOptBoxes`; M8-M10. neural.js +567 B.

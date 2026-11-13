@@ -386,3 +386,101 @@ test.describe("touch 320x631, moves shown, the long row", () => {
     expect(played, "at least one sealed card at 320 was measured against its play circle (the check ran)").toBeGreaterThan(0)
   })
 })
+
+// ── THE MAP (v1.272.0, its own commit): the gold outline round a known move's orb became the seal's dot ───────────
+
+/** One paused frame, read off what `draw()` PUBLISHED (§6.3): every dot, every option name's box, each orb's drawn
+ *  centre through the frame's own lift (`_LY`, §6.2), and the paint, against a CONTROL frame with the known set
+ *  emptied: everything the map draws anyway subtracts to zero, and what is left is the dots' own paint. */
+const mapFrame = (page: Page) => page.evaluate((ids) => {
+  const a = (window as W).__neural, live = a.ctx
+  a.setPaused(true)
+  // the camera on the two known orbs, framed the app's own way (`_fitView`, which keeps them clear of the bottom
+  // chrome), tight (no zoom-out floor): close enough that pairs are split and lifted at 390 too (§6.2), with the
+  // dealt neighbours (unknown) around them
+  const seeded = a._optionCards.filter((c: W) => !c.opt.threat && ids.includes(c.opt.node.id)).map((c: W) => c.opt.idx)
+  const t = a._fitView(seeded, { minW: 0 })
+  a.cam = { ...a.cam, cx: t.cx, cy: t.cy, vw: t.vw, lvw: Math.log(t.vw) }
+  a.draw()
+  const dpr = a.dpr || 1, scale = a.W / a.cam.vw
+  const snap = () => {
+    const c = document.createElement("canvas"); c.width = live.canvas.width; c.height = live.canvas.height
+    const ctx = c.getContext("2d", { willReadFrequently: true })!
+    a.ctx = ctx; ctx.save()
+    try { a.draw() } finally { a.ctx = live; ctx.restore() }
+    return { px: ctx.getImageData(0, 0, c.width, c.height).data, w: c.width }
+  }
+  const real = snap(), seals = (a._lastMapSeals || []).map((s: W) => ({ ...s })), boxes = (a._lastOptBoxes || []).map((b: W) => ({ ...b }))
+  const known = [...a._movesGold().keys()]
+  a._movesGold = () => new Map()
+  let control: W
+  try { control = snap() } finally { delete a._movesGold }
+  a.setPaused(false)
+  const orb = (i: number) => { const n = a.nodes[i]; return { x: a.W / 2 + (n.x - a.cam.cx) * scale, y: a.H / 2 + (a._LY(n) - a.cam.cy) * scale, stored: a.H / 2 + (n.y - a.cam.cy) * scale,
+    r: n.r * scale * Math.max(0.4, Math.min(1, a.cam.vw / (a.graphW * 0.5))) } }
+  // every pixel the dots changed, and whether it lies inside a published dot (2px of anti-aliasing allowed)
+  let changed = 0, outside = 0
+  const perDot = seals.map(() => ({ n: 0, gold: 0 }))
+  for (let i = 0; i < real.px.length; i += 4) {
+    const d = Math.abs(real.px[i] - control.px[i]) + Math.abs(real.px[i + 1] - control.px[i + 1]) + Math.abs(real.px[i + 2] - control.px[i + 2])
+    if (d < 24) continue
+    changed++
+    const p = i / 4, x = (p % real.w) / dpr, y = ((p / real.w) | 0) / dpr
+    const k = seals.findIndex((s: W) => Math.hypot(x - s.x, y - s.y) <= s.r + 2)
+    if (k < 0) { outside++; continue }
+    if (Math.hypot(x - seals[k].x, y - seals[k].y) <= seals[k].r - 1) {
+      perDot[k].n++
+      const r = real.px[i], g = real.px[i + 1], b = real.px[i + 2]
+      if (r > g && g > b && (r - b) / r > 0.35) perDot[k].gold++
+    }
+  }
+  return { W: a.W, H: a.H, known, seals, boxes, changed, outside, perDot,
+    orbs: Object.fromEntries([...new Set([...known, ...a.optionIdxs])].map((i: number) => [i, orb(i)])),
+    options: [...a.optionIdxs], id: Object.fromEntries([...a.optionIdxs].map((i: number) => [i, a.nodes[i].id])) }
+}, [ID.known, ID.due])
+
+async function mapClaims(page: Page, where: string) {
+  const f = await mapFrame(page)
+  const inView = (o: W) => o.x > 20 && o.x < f.W - 20 && o.y > 20 && o.y < f.H - 20
+  const knownInView = f.known.filter((i: number) => f.orbs[i] && inView(f.orbs[i]))
+  console.log(`[known-move-seal] map ${where}: ${f.known.length} known nodes, ${knownInView.length} in view, ${f.seals.length} dots drawn, ${f.boxes.length} option names, ${f.changed} px changed`)
+  expect(knownInView.length, `${where}: at least one known move's orb is in view (the check runs)`).toBeGreaterThan(0)
+  const dotted = new Set(f.seals.map((s: W) => s.idx))
+  expect(knownInView.filter((i: number) => !dotted.has(i)), `${where}: a dot on every known move's orb in view`).toEqual([])
+  expect(f.seals.filter((s: W) => !f.known.includes(s.idx)).map((s: W) => s.idx), `${where}: no dot on any node the moves record does not know`).toEqual([])
+  for (const k of ["fresh", "learned"]) {
+    const i = f.options.find((x: number) => f.id[x] === (ID as W)[k])
+    if (i != null) expect(dotted.has(i), `${where}: ${k} (${(ID as W)[k]}): no dot`).toBe(false)
+  }
+  let lifted = 0, upRight = 0
+  for (const s of f.seals.filter((s: W) => inView(f.orbs[s.idx]))) {
+    const o = f.orbs[s.idx], dx = s.x - o.x, dy = s.y - o.y
+    if (Math.abs(o.y - o.stored) > 3 * s.r) lifted++
+    // a SHOULDER, not "the upper right": a name over that shoulder moves the dot to the next free one (`_mapSeal`). The
+    // bound is the triangle's farthest (its base corner, 1.37r along the diagonal) plus the dot; the orb's radius here
+    // is n.r x scale x nodeK, without the pair's LOD, so it is a bound, never the placement recomputed (§6.3)
+    expect(Math.abs(dx) > 0.2 * o.r && Math.abs(dy) > 0.2 * o.r && Math.hypot(dx, dy) <= 1.45 * o.r + s.r, `${where}: dot ${s.idx} sits on a shoulder of its orb, where the frame drew the orb (LY): offset ${dx.toFixed(1)}, ${dy.toFixed(1)} against r ${o.r.toFixed(1)}`).toBe(true)
+    if (dx > 0 && dy < 0) upRight++
+    expect(s.x - s.r >= 0 && s.x + s.r <= f.W && s.y - s.r >= 0 && s.y + s.r <= f.H, `${where}: dot ${s.idx} inside the viewport`).toBe(true)
+    const hit = f.boxes.filter((b: W) => s.x + s.r > b.l && s.x - s.r < b.r && s.y + s.r > b.t && s.y - s.r < b.b)
+    const near = f.boxes.filter((b: W) => b.r > o.x - 40 && b.l < o.x + 40 && b.b > o.y - 40 && b.t < o.y + 40).map((b: W) => `${b.idx} [${b.l.toFixed(0)},${b.t.toFixed(0)} - ${b.r.toFixed(0)},${b.b.toFixed(0)}]`)
+    expect(hit.map((b: W) => b.idx), `${where}: dot ${s.idx} at (${s.x.toFixed(1)}, ${s.y.toFixed(1)}) r ${s.r.toFixed(1)}, orb at (${o.x.toFixed(1)}, ${o.y.toFixed(1)}) r ${o.r.toFixed(1)}, is off every option name the frame drew; names near: ${near.join(" ")}`).toEqual([])
+    const k = f.seals.indexOf(s)
+    expect(f.perDot[k].n > 0 && f.perDot[k].gold / f.perDot[k].n >= 0.6, `${where}: dot ${s.idx} is painted where it is published, in gold, not covered (${f.perDot[k].gold} of ${f.perDot[k].n} px gold)`).toBe(true)
+  }
+  expect(lifted, `${where}: at least one dotted orb is lifted off its stored point (so LY against n.y is tested)`).toBeGreaterThan(0)
+  console.log(`[known-move-seal] map ${where}: ${upRight} of ${f.seals.length} dots at the up-right shoulder (the others moved off a name)`)
+  expect(f.outside, `${where}: no gold outline left: every pixel the known set changes lies inside a published dot (${f.changed} changed)`).toBe(0)
+}
+
+for (const vp of [{ width: 1440, height: 900, touch: false }, { width: 390, height: 631, touch: true }]) {
+  test.describe(`the map ${vp.width}x${vp.height}`, () => {
+    test.use({ viewport: { width: vp.width, height: vp.height }, hasTouch: vp.touch, isMobile: vp.touch })
+
+    test(`the map: a dot on each known move's orb, none on an unknown one, no outline, off the names (${vp.width})`, async ({ page }) => {
+      test.setTimeout(240_000)
+      await seat(page, false)
+      await mapClaims(page, `${vp.width}`)
+    })
+  })
+}

@@ -405,10 +405,10 @@ test("stage 2, bit equality on ESCAPES: a defended submission from every partly 
   assert.ok(states > 5000 && cards > 10000, `positive coverage: ${states} states, ${cards} escape cards`);
 });
 
-test("stage 2, the moves index is keyed on the record: a grade and a pull refresh the share; a flashcard answer re-levels the gold without dealing a hand", () => {
+test("stage 2, the moves index is keyed on the record: a grade and a pull refresh the share; a flashcard answer deals no hand and leaves the map's one state", () => {
   // review STAGE2F: keyed on `_stageVer`, the index re-dealt every known seat's hand on the frame after every deck
-  // landing, move and grade. Keyed on the record (its identity, `_movesRev`) and the ruleset, only the gold's level
-  // follows `_stageVer`.
+  // landing, move and grade. Keyed on the record (its identity, `_movesRev`) and the ruleset. Until v1.272.0 the gold's
+  // level followed `_stageVer`; the map's seal has one state, so nothing does (the title said "re-levels the gold").
   const a = wireBoot({ v: 2 }), mount = seatsOf(a).find((x) => x.key === "Mount|Top");
   a.currentPos = mount.i; a.playerRole = "top";
   const opts = a.optionsFor(mount.i, "top");
@@ -423,7 +423,8 @@ test("stage 2, the moves index is keyed on the record: a grade and a pull refres
   a.stage = { "Mount|Top": { [a.qhash("Mount q0")]: 3 } };
   a._publishKnowledge("test:flashcard");
   deals = 0;
-  assert.equal(a._movesGold().get(a.nodes.find((x) => x.id === "Positions/Mount" && x.role !== "bottom").idx), 2, "the level moves to 2");
+  // v1.272.0 (the map's seal: one state, U122 a's level 2 gone with the outline): was 2, "the level moves to 2"
+  assert.equal(a._movesGold().get(a.nodes.find((x) => x.id === "Positions/Mount" && x.role !== "bottom").idx), 1, "the deck learned changes nothing on the map: one state");
   assert.equal(deals, 0, "...without dealing a hand");
   a._publishKnowledge("test:deck-landed");                             // a deck landing, a move played: `_stageVer` moves
   deals = 0; a._movesGold(); a._seatShare("Mount|Top"); a.mastery("Mount|Top");
@@ -523,7 +524,7 @@ test("stage 2, a No takes it back; a grade republishes; a pull brings a Yes in w
   assert.equal(a.knowledgeProfile().permanent[techKey(a, mount.dealt[1])], 0.15, "…in the worker's profile");
 });
 
-test("stage 2, known and its flashcards learned in either order: the map's level 2, the card's seal; a ruleset switch recomputes share, gold and line", () => {
+test("stage 2, known and its flashcards learned in either order: the map's one state, the card's seal; a ruleset switch recomputes share, gold and line", () => {
   const a = wireBoot({ v: 2 }), mount = seatsOf(a).find((s) => s.key === "Mount|Top");
   const opt = a.optionsFor(mount.i, "top")[0], key = a.deckKeyFor(opt.node).key, card = CARD();
   const learn = (k) => { a.flashcards.decks[k] = { n: 2, cards: [{ q: k + " q0", a: "x" }, { q: k + " q1", a: "y" }] }; a.stage[k] = { [a.qhash(k + " q0")]: 3, [a.qhash(k + " q1")]: 3 }; a._publishKnowledge("test"); };
@@ -532,7 +533,7 @@ test("stage 2, known and its flashcards learned in either order: the map's level
   assert.equal(a._movesGold().get(opt.node.idx), 1); assert.equal(card.attrs["data-seal"], "known");   // v1.272.0: was data-mastered ""
   learn(key);                                                     // the deck's last detail card learned, no reload
   assert.equal(a.deckMastery(key), 1);
-  assert.equal(a._movesGold().get(opt.node.idx), 2, "the map thickens");
+  assert.equal(a._movesGold().get(opt.node.idx), 1, "the map does not thicken: one state (v1.272.0; was 2, \"the map thickens\")");
   // v1.272.0: was `_paintHandGold` and data-mastered "2", "the card thickens". The seal has two kinds, and a move both
   // answered Yes and learned is "known" (the row rules): the hand's repaint keeps the filled seal, one child, no level
   card._choiceOpt = opt;
@@ -547,7 +548,7 @@ test("stage 2, known and its flashcards learned in either order: the map's level
   assert.equal(card2.attrs["data-seal"], "learned", "flashcards first: the hollow seal");
   a._gradeMove(opt2, true, card2);
   // v1.272.0: was data-mastered "2"; the Yes fills the hollow seal, the same element
-  assert.equal(a._movesGold().get(opt2.node.idx), 2); assert.deepEqual([card2.attrs["data-seal"], card2.kids.length], ["known", 1], "then the Yes: the seal fills");
+  assert.equal(a._movesGold().get(opt2.node.idx), 1); assert.deepEqual([card2.attrs["data-seal"], card2.kids.length], ["known", 1], "then the Yes: the seal fills");
   // an ESCAPE (review STAGE2E): its `deckKeyFor(node)` is the submission's attacking half, not its own deck. v1.272.0:
   // it stayed thin while the own move thickened; the level is gone, so both wear the filled seal, and the escape's
   // deck is never read: an unanswered escape on that learned deck is "new", never "learned" (no hollow seal).

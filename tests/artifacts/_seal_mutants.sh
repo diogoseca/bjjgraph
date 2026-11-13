@@ -51,6 +51,15 @@ append neural.css '@media (max-width:330px){.ng-choice-seal{top:20px}}' && run "
 
 append neural.css '.ng-choice-card[data-asking]:not([data-hover]){border-color:rgba(150,170,210,.25);box-shadow:none}' && run "M7 the card asked by touch wears no outline (as on dev)"; restore
 
+# THE MAP (its own commit). The base pass's anchor uses the bundle's minified names (J the known set, W the pair's LOD
+# alpha, P the node, V its lifted y, ie its drawn radius, Q its fog, oe the dots, r the scale, e the context, m A, y dim):
+# re-read them from a fresh build before running (grep 'oe.push' in neural.js) if the mutate step reports 0 matches.
+mutate neural.js 'J.size&&W>.55&&J.has(P.idx)&&oe.push([P,V,ie,Q])' 'J.size&&W>.55&&J.has(P.idx)&&(oe.push([P,V,ie,Q]),e.strokeStyle=this.rgba({r:240,g:192,b:90},.95*m*y*Q),e.lineWidth=1.5/r,e.beginPath(),this.shapePath(e,P.ty,P.x,V,ie+e.lineWidth/2+1/r),e.stroke())' && node --check "$APP/neural.js" && run "M8 the map's gold outline back (dev's own stroke, beside the dot)"; restore
+
+mutate neural.js 'J.size&&W>.55&&J.has(P.idx)&&oe.push([P,V,ie,Q])' 'W>.55&&(J.has(P.idx)||(this.optionIdxs||[]).includes(P.idx))&&oe.push([P,V,ie,Q])' && node --check "$APP/neural.js" && run "M9 a dot on every dealt move's orb, known or not"; restore
+
+mutate neural.js 'J.size&&W>.55&&J.has(P.idx)&&oe.push([P,V,ie,Q])' 'J.size&&W>.55&&J.has(P.idx)&&oe.push([P,P.y,ie,Q])' && node --check "$APP/neural.js" && run "M10 the dot at the node's stored y (n.y), not where the frame lifts it (LY)"; restore
+
 if [ -n "${1:-}" ]; then
   cp "$1"/* "$APP/" && run "dev's own bundle ($1, every file)"; restore
 fi

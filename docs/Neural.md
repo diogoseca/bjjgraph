@@ -271,8 +271,8 @@ technique deck, and 0.15 × the share of its seat's dealt moves known on the sea
 0.15 cap with the flashcards: one count per deck (`_knowCount`), and the card (`mastery`) and the
 worker (`_knowledgePrep`) apply the law's own function to it, so they read one double; a No takes it
 back. Practice and weak spots keep the flashcard-only figure (`_flashMastery`); with a comparison in
-hand, a deck the moves fill keeps its weak-spots place (`oddsFull`). Map gold
-(`_movesGold`): thin if known, thick with its deck learned. A card wears a seal
+hand, a deck the moves fill keeps its weak-spots place (`oddsFull`). A known move's
+orb wears a gold dot (`_mapSeal`, one state). A card wears a seal
 (`_sealCard`): filled = known, not due; hollow = unanswered, deck learned.
 "Moves known N of M" sits under Mastered. A threat's Yes files under the opponent's seat; an escape
 gets the seal, no odds. Pinned by `e2e/journeys/moves-mastery.spec.ts`, `tests/moves_account_safety.test.mjs`.

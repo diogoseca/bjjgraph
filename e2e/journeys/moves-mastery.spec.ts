@@ -49,6 +49,15 @@ import { journey } from "../dsl"
  *                          now the filled seal on the ordinary border, before AND after the deck is learned: the seal
  *                          has two kinds, and a move both answered Yes and learned is "known" (the row rules)
  * The seal's geometry, its kinds and its mutants are pinned by known-move-seal.spec.ts.
+ *
+ * AND THE MAP'S OUTLINE BECAME THE SEAL'S DOT (v1.272.0, its own commit; the owner's option: "It reads as a stamp on the
+ * card, and shrinks to a dot beside the name on the map"). The same pixel differential reads it, and each map claim
+ * says what it claimed before:
+ *   level 1 on the map  was "an outline drawn on the known orb"   now "the seal's dot drawn at the known orb"
+ *   level 2 on the map  was "the map's outline about doubles" (x1.6 to x2.6)
+ *                       now "the dot does not grow" (x0.8 to x1.25): the map's mark has ONE state; a deck learned on
+ *                       top of a known move changes nothing there (its flashcards show through "Turn what you know gold")
+ * The dot's place, its publication and its mutants are pinned by known-move-seal.spec.ts ("the map ...").
  */
 
 type W = any
@@ -277,7 +286,8 @@ test("the card's seal and the map's gold: known, then the flashcards learned too
   const m1 = await mapGold(page, ids.y, ids.u, [DUE])
   expect(m1.repeat, "the frame is deterministic (control)").toBe(0)
   expect(m1.apart, "the two orbs are far enough apart to tell apart").toBeGreaterThan(90)
-  expect(m1.near, "level 1 on the map: an outline drawn on the known orb").toBeGreaterThan(20)
+  // v1.272.0: was "level 1 on the map: an outline drawn on the known orb"
+  expect(m1.near, "on the map: the seal's dot drawn at the known orb").toBeGreaterThan(20)
   expect(m1.gold, `...in gold (its mean colour rgb(${m1.mean}), hue ${m1.hue}°)`).toBe(true)
   expect([m1.nearU, m1.elsewhere], "...and nothing on the unknown orb at the same zoom, nor anywhere but the known orbs").toEqual([0, 0])
 
@@ -294,11 +304,12 @@ test("the card's seal and the map's gold: known, then the flashcards learned too
   // ({ attr: "2", ... ring: "2" }); the seal has two kinds, and a Yes with its flashcards learned is still "known"
   await expect.poll(() => ring(page), { message: "the deck learned too: still the filled seal, still the ordinary border (the row rules)" }).toEqual({ seal: "known", disc: true, border: "ordinary" })
   const m2 = await mapGold(page, ids.y, ids.u, [DUE])
-  expect([m2.nearU, m2.elsewhere], "level 2: still nothing elsewhere").toEqual([0, 0])
+  expect([m2.nearU, m2.elsewhere], "the deck learned too: still nothing elsewhere").toEqual([0, 0])
   expect(m2.gold, `...in gold (rgb(${m2.mean}), hue ${m2.hue}°)`).toBe(true)
-  console.log(`[moves-mastery] map outline: level 1 ${m1.near} px rgb(${m1.mean}), level 2 ${m2.near} px rgb(${m2.mean})`)
+  console.log(`[moves-mastery] map dot: known ${m1.near} px rgb(${m1.mean}), the deck learned too ${m2.near} px rgb(${m2.mean})`)
   const ratio = m2.near / m1.near
-  expect(ratio > 1.6 && ratio < 2.6, `the map's outline about doubles: ${m1.near} -> ${m2.near} px (x${ratio.toFixed(2)})`).toBe(true)
+  // v1.272.0: was ratio 1.6 to 2.6, "the map's outline about doubles" (U122 a's level 2); the dot has one state
+  expect(ratio > 0.8 && ratio < 1.25, `the map's dot does not grow when the deck is learned too: ${m1.near} -> ${m2.near} px (x${ratio.toFixed(2)})`).toBe(true)
 })
 
 test("a seat known in part, below the cap: every card's Win % prints, and the worker reads the card's own figure", async ({ page }) => {
