@@ -1,7 +1,9 @@
 // THE RATING (v1.269.0, owner 13 Nov 2026: "a, What you can recall right now"; "a, Even belts"; black = the top of
 // our own scale) — pure, stateless and shared like belt.src.js: concatenated into the bundle by
 // neural/build/build.mjs (exports stripped), imported as a module by the unit suite, importable by the digest Worker.
-// STAGE 1: computed and tested, shown nowhere. Nothing here writes storage, and nothing in the app paints it yet.
+// STAGE 1 computed and tested it, shown nowhere. STAGE 2 (v1.276.0) shows it: the drawer's "Master the game" row wears
+// the belt and prints the number (`ngRatingRow`, and the held level's rules below `ngRatingNext`). Nothing here writes
+// storage: the app holds the level (`belts.lvl`) and paints the row.
 //
 // THE NUMBER is the share of the game you can recall NOW, put on a points scale:
 //
@@ -164,6 +166,78 @@ export function ngRatingNext(points, heldLevel) {
   const next = held >= NG_RATING_BLACK ? null : held + 1;
   const at = next == null ? NG_RATING_TOP : ngRatingLevelFloor(next);
   return { level, held, next, at, toNext: Math.max(0, at - points), toHeld: Math.max(0, ngRatingLevelFloor(held) - points) };
+}
+
+// ── STAGE 2 (v1.276.0): THE BELT IN THE DRAWER ROW (owner U159 a, U162 a; the orchestrator's rulings STAGE2-GO) ──
+// THE HELD LEVEL is one value in the progress blob, `belts.lvl = {n, t}`: n is a level on table a (0..20, a belt and its
+// stripes), t the moment it was first reached (ms). It is the high-water mark of what the player has WORN: it rises to the
+// higher of itself, the Path's own level as read now (`ngRatingPathLevel`) and the number's level, and it never falls.
+// So neither a ruleset flip (the Path's stripes are recounted per ruleset; `belts.held` keeps only its BELT) nor a
+// curriculum edit nor a dip in the number lowers what the drawer row wears. ONE value for both rulesets: one person wears
+// one belt, and in the ruleset where the number is lower the row's second line says so.
+// MERGED AS THE HIGHER n, WHATEVER THE STAMPS (a tie keeps the earlier stamp, the moment it was first reached): the value
+// only rises, so no stamp and no order of pulls can race it, and a stale copy can never lower it on a current client.
+
+/** A stored held level, validated: {n: 0..20 integer, t: stamp or 0}; null for anything else (never a guess). */
+export function ngRatingHeld(v) {
+  if (!v || typeof v !== "object" || Array.isArray(v)) return null;
+  if (!Number.isInteger(v.n) || v.n < 0 || v.n > NG_RATING_BLACK) return null;
+  return { n: v.n, t: ngRatingNum(v.t) && v.t > 0 ? v.t : 0 };
+}
+
+/** The merge for `belts.lvl`: the HIGHER level whatever the stamps; a tie keeps the earlier stamp. undefined when neither
+ *  side holds a valid one, so the caller leaves the key absent rather than write an empty one. */
+export function ngRatingMergeHeld(a, b) {
+  const x = ngRatingHeld(a), y = ngRatingHeld(b);
+  if (!x || !y) return x || y || undefined;
+  if (x.n !== y.n) return x.n > y.n ? x : y;
+  const ts = [x.t, y.t].filter((t) => t > 0);
+  return { n: x.n, t: ts.length ? Math.min(...ts) : 0 };
+}
+
+/** The level the Path's own belt and stripes make (belt rank 0..4, stripes 0..4): black is 20 whatever its stripes.
+ *  -1 for anything that is not a belt. */
+export function ngRatingPathLevel(rank, stripes) {
+  if (!Number.isInteger(rank) || rank < 0 || rank > 4) return -1;
+  if (rank === 4) return NG_RATING_BLACK;
+  return 5 * rank + (Number.isInteger(stripes) ? Math.max(0, Math.min(4, stripes)) : 0);
+}
+
+/**
+ * WHAT THE DRAWER ROW SAYS, for the level worn and a reading (an `ngRatingShare` result). Pure: the app writes the words.
+ *   worn     the level the player wears (0..20): the held level, already raised to the Path's
+ *   reading  {status, final, points}
+ * Returns {state, level, belt, stripes, number, next, belt2, top, dip}:
+ *   state   "wait" (not final: a check in flight, not asked, or failed): the belt held, NO number;
+ *           "none" (final, but the status carries no number: "empty", "unmatched", "unscheduled", the game's own): no number;
+ *           "ok"   the number, ROUNDED DOWN (`number`), and the distances from it
+ *   level, belt, stripes  what the row wears: max(worn, the number's own level), so a number above the held level is
+ *           never drawn below itself (the app raises the held level from the same reading)
+ *   next    {level, to}: the next level above what is worn and the points from the number to it (null at black)
+ *   belt2   {belt, to}: the next BELT when `next` is a stripe (null when `next` is itself a belt, or at black)
+ *   top     {to}: at black, the points to the top of the scale (0 at 2000)
+ *   dip     {to, level}: the number sits `to` points BELOW the floor of what is worn (null when it does not)
+ * Every distance is measured from the shown (rounded-down) number, so the figures on the row add up as printed.
+ */
+export function ngRatingRow(worn, reading) {
+  const w = ngRatingNum(worn) ? Math.max(0, Math.min(NG_RATING_BLACK, Math.floor(worn))) : 0;
+  const r = reading || {};
+  const at = (L) => ({ level: L, belt: ngRatingBeltOf(L).belt, stripes: ngRatingBeltOf(L).stripes });
+  if (r.final !== true) return Object.assign({ state: "wait", number: null, next: null, belt2: null, top: null, dip: null }, at(w));
+  if (r.status !== "ok" || !ngRatingNum(r.points)) return Object.assign({ state: "none", number: null, next: null, belt2: null, top: null, dip: null }, at(w));
+  const number = Math.floor(r.points);
+  const N = ngRatingNext(number, w);
+  const out = Object.assign({ state: "ok", number, next: null, belt2: null, top: null, dip: null }, at(N.held));
+  if (N.next == null) out.top = { to: Math.max(0, NG_RATING_TOP - number) };
+  else {
+    out.next = { level: N.next, to: N.toNext };
+    if (N.next % 5 !== 0) {
+      const b = Math.floor(N.next / 5) + 1;   // the next belt: its floor is level 5b (black: 20)
+      out.belt2 = { belt: b, to: ngRatingLevelFloor(Math.min(NG_RATING_BLACK, 5 * b)) - number };
+    }
+  }
+  if (N.toHeld > 0) out.dip = { to: N.toHeld, level: N.held };
+  return out;
 }
 
 /**

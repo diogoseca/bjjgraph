@@ -253,6 +253,15 @@ const NG_SRS_IVLS = [1, 3, 7, 14, 30, 60, 120];
 // (NG_PRACTICE_REVIEWS_PER_NEW in gameplan.src.js has the ratio and the reasoning). The `dailyGoal`
 // setting overrides it; Settings' own default repeats the 20.
 const NG_PRACTICE_GOAL = 20;
+// THE FEATURE'S NAME (owner U169 c, 13 Nov; v1.276.0): the drawer row, its view's title and back, and its aria say
+// "Master the game", and the row's tooltip and aria say what it does, "Start today's session". ONLY the words: nothing
+// stored, no analytics event id, no selector and no URL is renamed (`data-session-section="Practice"` is a VALUE that
+// 14 spec lines select on, and `neural_practice_opened` an event id), and identifiers keep "practice".
+const NG_PRACTICE_NAME = "Master the game";
+const NG_PRACTICE_START = "Start today's session";
+// The drawer row's belt colours (v1.276.0): the drawn belt's (its blue is the design's #2c5299), deeper than the Path's
+// UI tints (NG_CHALLENGE_TRACK_COLORS), under the same woven texture (helmet.html `.ng-belt`). Black wears a red bar.
+const NG_BELT_ROW_COLORS = Object.freeze({ white: "#e6e2d6", blue: "#2c5299", purple: "#673c98", brown: "#77492b", black: "#1d1d22" });
 // How long a landing question may be "still settling" before readers stop waiting on it. A stalled
 // deck fetch must not make the app look hung; the fetch itself is never cancelled. See v1.104.8.
 const NG_LAND_WARM_CEILING_MS = 8000;
@@ -3583,6 +3592,9 @@ class Component extends DCLogic {
       // fetched when the drawer opens, the moment its Practice row is in front of the player, so the
       // press deals the interleaved queue rather than the owed reviews alone. Never on the boot path.
       void this._ensureGameplanRuntime();
+      // THE BELT ROW READS ON OPEN (v1.276.0): the rating's live check is asked here, never on the boot path, and a check
+      // that landed is never fetched again (`_askBeltRow`, `ratingCheck`)
+      this._askBeltRow();
       // arrival positioning (v1.98.1): opening the pane onto Challenges lands the corridor
       // where the person is — renderChallenges consumes this once, instantly
       if (this._viewMode === "challenges") this._challengeScrollPending = true;
@@ -6629,9 +6641,9 @@ class Component extends DCLogic {
   _renderPractice(s, list) {
     s.started ??= this.practiceToday().done;
     this._gameplanProgress(s);
-    this.setDrillHeader("Practice", "", "");
+    this.setDrillHeader(NG_PRACTICE_NAME, "", "");
     // This fixed skeleton is owned by the page; the shared card renderer fills its first section.
-    list.innerHTML = '<div data-plan-goal="1" style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;font-size:11.5px;font-weight:600"><span data-plan-goal-progress="1" aria-live="polite" style="color:#9ab0e0;white-space:nowrap"></span><span data-practice-goal="1"></span></div><section data-session="1" class="ng-practice-cards"><div data-practice-section="1"></div></section><div class="ng-practice-nav"></div><div data-practice-keys="1"></div><div data-practice-end="1"><div></div></div><div></div><div><details data-practice-details="1"><summary>Practice details &amp; session queue</summary><div data-practice-queue="1"></div><p data-session-section="Practice"></p><div></div></details></div>';
+    list.innerHTML = '<div data-plan-goal="1" style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;font-size:11.5px;font-weight:600"><span data-plan-goal-progress="1" aria-live="polite" style="color:#9ab0e0;white-space:nowrap"></span><span data-practice-goal="1"></span></div><section data-session="1" class="ng-practice-cards"><div data-practice-section="1"></div></section><div class="ng-practice-nav"></div><div data-practice-keys="1"></div><div data-practice-end="1"><div></div></div><div></div><div><details data-practice-details="1"><summary>Session details &amp; queue</summary><div data-practice-queue="1"></div><p data-session-section="Practice"></p><div></div></details></div>';
     const [goal, wrap, nav, keys, end, corridor, support] = list.children, details = support.firstChild;
     s.goal = goal; s.rows = wrap; s.heading = wrap.firstChild; s.corridor = corridor; s.support = support; s.end = end;
     s.queue = details.children[1]; s.count = details.children[2]; s.explanation = details.children[3]; s.completion = end.firstChild;
@@ -6682,7 +6694,7 @@ class Component extends DCLogic {
     goal.style.color = today.done >= today.goal ? "#7ee0a8" : "#7e8aa3";
     progress.textContent = p.total ? "Reviewed " + p.completed + "/" + p.total : "Nothing left to review";
     const due = s.plan ? s.plan.due : s.review.rows, row = due.find(r => r.key === s.keys[s.idx]);
-    const label = row ? "Due reviews · " + cards(p.dueCards) : ngBeltDisplayName(worn.id) + " practice";
+    const label = row ? "Due reviews · " + cards(p.dueCards) : ngBeltDisplayName(worn.id) + " lessons";
     s.heading.textContent = label;
     s.rows.style.setProperty("--practice-belt", NG_CHALLENGE_TRACK_COLORS[worn.id]);
     // Each half only when it has something to say (SIDE-R2 M6): no plan makes no claim about new work.
@@ -6693,7 +6705,10 @@ class Component extends DCLogic {
     if (s.plan && !s.explanation.querySelector("[data-gameplan-refresh]")) s.explanation.replaceChildren(this._gameplanIntro(s));
     if (s.plan) s.explanation.firstChild.firstChild.textContent = this._gameplanRuntime.ngGameplanSummary(s.plan);
     const title = this.drillHeadRef.current.querySelector("[data-practice-belt]");
-    if (title) title.textContent = ngBeltDisplayName(worn.id) + " · " + count(worn.stripes, "stripe") + " · " + (this._giMode === "nogi" ? "No-gi" : "Gi");
+    // the belt you wear, as the drawer row wears it (v1.276.0: `beltWorn()`, the one function); the lesson heading and its
+    // colour above stay the Path's own (`wornBelt()`): they name the course the lesson belongs to
+    const bw = this.beltWorn();
+    if (title) title.textContent = ngBeltDisplayName(bw.id) + (bw.id === "black" ? "" : " · " + count(bw.stripes, "stripe")) + " · " + (this._giMode === "nogi" ? "No-gi" : "Gi");
   }
 
   _practiceCorridor() {
@@ -7362,9 +7377,16 @@ class Component extends DCLogic {
         // it; see ngMergeBeltGrandfather.
         const held = ngMergeHeldBelt((this.belts || {}).held, (cloud.belts || {}).held);
         const gf = ngMergeBeltGrandfather((this.belts || {}).gf, (cloud.belts || {}).gf);
+        // THE HELD LEVEL (v1.276.0): the HIGHER of the two, whatever the stamps (a tie keeps the earlier stamp). Load-bearing
+        // for the same reason as `held`: the assign below keeps only LOCAL keys of `belts`. It is monotone, so no stamp and
+        // no order of pulls can race it: nothing is written from a stale copy. The guest join runs this merge too, so a
+        // guest's level joins the account as the higher one. An OLDER client has no line here: its merge keeps its local
+        // copy's value (dropping or lowering the cloud's) and pushes that, until a current device pulls and MAXes it back.
+        const lvl = ngRatingMergeHeld((this.belts || {}).lvl, (cloud.belts || {}).lvl);
         this.belts = Object.assign({ won: {} }, this.belts || {}, { won: won, attempts: att });
         if (held) this.belts.held = held; else delete this.belts.held;
         if (gf) this.belts.gf = gf; else delete this.belts.gf;
+        if (lvl) this.belts.lvl = lvl; else delete this.belts.lvl;
         // the open rule began when it first ran on ANY device (U163 c): the earlier stamp, never local-wins. An OLDER client
         // merges top-level fields local-wins (`_progressExtras` above), so one holding a later `openAt` in its own copy can
         // push it back; the next new client's MIN repairs it, and a belt earned between the two stamps may be carried (a
@@ -7852,20 +7874,21 @@ class Component extends DCLogic {
   // lands: "explore" IS the home list, and Path / Last rolls open as views whose way back is the brand.
   styleViewToggle() { if (!this.viewToggleRef?.current) return; this._paintDrawerHead(); this._syncExploreTools(); }
   drawerHome() {
-    if (this._practiceInDrawer()) this._exitStudyTo();   // "‹ Practice" is Practice's Back: it restores where Practice was opened from (address, title, the map's selection, the opener's focus)
+    if (this.deckShown) this._askBeltRow();   // back to the list: the row reads again (`_askBeltRow`)
+    if (this._practiceInDrawer()) this._exitStudyTo();   // "‹ Master the game" is its view's Back: it restores where Practice was opened from (address, title, the map's selection, the opener's focus)
     else if (this._paneStudyActive()) this._exitStudyTo("explore");
     else if (this._viewMode !== "explore") this.setViewMode("explore");
     else this._exploreHome();
   }
   _paintDrawerHead() {
     const b = this.viewToggleRef?.current; if (!b) return;
-    const sub = this._practiceInDrawer() ? "Practice" : !this._paneStudyActive() && { challenges: "Path", history: "Last rolls" }[this._viewMode];
+    const sub = this._practiceInDrawer() ? NG_PRACTICE_NAME : !this._paneStudyActive() && { challenges: "Path", history: "Last rolls" }[this._viewMode];
     const html = sub ? "\u2039 " + sub : NG_DRAWER_LOGO + "BJJGraph";
     if (b._ngHead !== html) { b._ngHead = html; b.innerHTML = html; }
     b.setAttribute("aria-label", sub ? "Back to the sidebar" : "BJJGraph: the top of the sidebar");
     // Practice's only Back is this brand, so it carries the study Back's marker while Practice is open: one
     // `[data-pane-back]` on screen either way (a deck's or a checkpoint's own ‹ Back sits in the drill head).
-    if (sub === "Practice") b.setAttribute("data-pane-back", "1"); else b.removeAttribute("data-pane-back");
+    if (sub === NG_PRACTICE_NAME) b.setAttribute("data-pane-back", "1"); else b.removeAttribute("data-pane-back");
   }
   _drawerRow(icon, label, tail, onClick) {
     const b = document.createElement("button"); b.type = "button"; b.className = "ng-dr-row";
@@ -7889,15 +7912,18 @@ class Component extends DCLogic {
       // comparison (SIDE-R2 M9, measured at 390x844 under a 4x CPU throttle: asking fetched game-study.js,
       // 78,719 B, and added one or two long tasks, ~160 ms, while the comparison had not started 8 s later,
       // so the first session ranked new cards by weak spots either way). "Open study plan" still asks.
-      const pr = this._drawerRow(ngIcon(NG_IC.practice), "Practice", "", () => this.openPlanSession("due"));
+      const pr = this._drawerRow(ngIcon(NG_IC.practice), NG_PRACTICE_NAME, "", () => this.openPlanSession("due"));
       pr.className += " ngStat"; pr.setAttribute("data-b", "due");
+      // THE BELT YOU WEAR (v1.276.0): under the row, beside it in the list and not inside it, so the row's hit target and
+      // what a tap opens are unchanged. The Path's own woven bar went (ruled, STAGE2-GO 3: one belt in the drawer).
+      const rank = document.createElement("div"); rank.className = "ng-dr-rank"; rank.setAttribute("data-belt-row", "1");
       const path = this._drawerRow(ngIcon(NG_IC.path), "Path", '<small data-tab-sub="challenges"></small>', () => this.setViewMode("challenges"));
       path.setAttribute("data-view", "challenges");
-      const belt = document.createElement("div"); belt.className = "ng-dr-belt"; belt.setAttribute("data-path-belt", "1");
-      box.append(pr, path, belt);
+      box.append(pr, rank, path);
     }
     list.appendChild(box);
     this._paintTrain(box);
+    this._paintBeltRow(box);
     this.renderTabSubtitles();
   }
   // PAINTED IN PLACE (FGD13's rule for the stat row this replaces): `_refreshGameplanUI` lands whenever
@@ -7915,7 +7941,9 @@ class Component extends DCLogic {
     // the stat cells' tooltip, kept whole: what is owed, what was answered, and the plan's new count or state
     const tip = due + (due === 1 ? " card" : " cards") + " due \u00b7 " + techs + (techs === 1 ? " technique" : " techniques") + " \u00b7 " +
       t.done + " answered today \u00b7 " + this._gameStudyStatText(plan, (v) => v);
-    pr.title = tip; pr.setAttribute("aria-label", "Practice, daily goal " + this._practiceGoalText(t) + ": " + tip);
+    // the row says what a tap does (ruled, STAGE2-GO 7): "Start today's session", then what it always said
+    pr.title = NG_PRACTICE_START + " \u00b7 " + tip;
+    pr.setAttribute("aria-label", NG_PRACTICE_NAME + ": " + NG_PRACTICE_START + ", daily goal " + this._practiceGoalText(t) + ": " + tip);
     // WRITTEN ONLY WHEN IT CHANGED (SIDE-R2 M10): a residency refresh rewrote the pill under a pointer,
     // and a press whose target is replaced before its release dispatches no click (FGD13's class).
     const tail = pr.querySelector(".ng-dr-tail"), html = (due ? '<span class="ng-dr-pill">' + due + ' due</span>' : '') +
@@ -8012,6 +8040,123 @@ class Component extends DCLogic {
     if (belt) for (const u of belt.units) if (this.unitComplete(belt.id, u)) done += 1;
     return { id: w.id, rank: w.rank, done: done, total: total, stripes: ngBeltStripes(done, total) };
   }
+  // ── THE BELT YOU WEAR IN THE DRAWER (v1.276.0, STAGE2; owner U159 a, U160 a, U162 a, U169 c; rulings STAGE2-GO) ──
+  // ONE belt in the drawer: the "Master the game" row wears it, the view's belt heading reads it, and the Path row says its
+  // course's progress in words (the woven bar under it went: two identical belts 40 px apart read as a fault). What it
+  // wears is `beltWorn()`: the HELD LEVEL (`belts.lvl = {n, t}`, rating.src.js's rules), which rises to the higher of itself,
+  // the Path's own level as read now and the number's level, and never falls; one value for both rulesets.
+  // `wornBelt()` above stays the PATH's own: its navigation, the Recall Mode patch at black (`_noteBlackBelt`) and the
+  // email's belt line read it, so the number reaching black mints no patch: the Path awards exactly as it did.
+  // READERS of `beltWorn()`, every one: `_paintBeltRow` (the row) and `_paintPractice` (the view's title).
+  _heldLevel() {
+    const h = ngRatingHeld(this.belts && this.belts.lvl);
+    return h ? h.n : -1;
+  }
+  _pathLevel() {
+    const w = this.wornBelt();
+    return ngRatingPathLevel(w.rank, w.stripes);
+  }
+  /** The belt the drawer row wears: the held level, never below the Path's own level as read now. */
+  beltWorn() {
+    const level = Math.max(0, this._heldLevel(), this._pathLevel()), b = ngRatingBeltOf(level);
+    return { level: level, rank: b.belt, id: NG_BELT_IDS[b.belt], stripes: b.stripes };
+  }
+  /**
+   * RAISE THE HELD LEVEL to `n` (never lower it). The first run SEEDS it, at 0 too: from then on the value exists, and
+   * everything that enumerates the blob (`ngProgressPracticeKey`, the merge, the guest join) meets it on every account.
+   * Writes memory only: the caller decides whether this saves (a raise from the Path rides the next save, as `belts.gf`
+   * does, so a passive boot writes nothing it did not change; a raise by the number saves at once with its beat).
+   */
+  _raiseLevel(n) {
+    if (!this.belts || !Number.isInteger(n) || n < 0) return false;
+    const L = Math.min(NG_RATING_BLACK, n);
+    if (this._heldLevel() >= L) return false;   // -1 when absent or malformed, so the first run seeds
+    this.belts.lvl = { n: L, t: Date.now() };
+    return true;
+  }
+  /**
+   * A PROMOTION BY THE NUMBER (ruled, STAGE2-GO 4): when a FINAL reading's own level is above everything worn, the held
+   * level rises to it, saved at once with ONE silent beat (`level_reached`; no sound: a sound or a celebration is a later
+   * design job) and one analytics line, written with the level, so it never fires twice for one level. Only here, on the
+   * device whose own number raised it: a level that arrives by a merge (`_mergeProgressFields`) or from the Path
+   * (`_syncBelt`) fires nothing.
+   */
+  _noteRatingLevel(r) {
+    if (!this._progressLoaded || !this.belts || !r || r.final !== true || r.status !== "ok") return false;
+    const L = ngRatingLevel(r.points), was = this.beltWorn().level;
+    if (L == null || L <= was || !this._raiseLevel(L)) return false;
+    const b = ngRatingBeltOf(L), rating = Math.floor(r.points);
+    this.fx("level_reached", { level: L, belt: NG_BELT_IDS[b.belt], stripes: b.stripes, from: was, rating: rating });
+    this.track("neural_level_reached", { belt: NG_BELT_IDS[b.belt], stripes: b.stripes, rating: rating });
+    this._saveProgress();
+    return true;
+  }
+  /**
+   * THE ROW'S READING. Opening the drawer asks (`applyDeckVisibility`), and so does coming back to the list
+   * (`drawerHome`); nothing else moves it, so the number on screen never moves by itself. The number is shown only when
+   * the reading is FINAL (`ratingCheck()`, the live check of v1.273.0): until then the row wears the belt held and a quiet
+   * placeholder of the number's width. A reading in hand is used at once (a check that landed is never fetched again);
+   * otherwise the row waits, asks, and paints what lands. A check that failed (offline) is asked once more at the next
+   * open, by `ratingCheck()`'s own rule. A reading asked for and then superseded by a newer ask is dropped.
+   */
+  _askBeltRow() {
+    const now = this.rating();
+    const seq = (this._beltAsk = (this._beltAsk || 0) + 1);
+    // THE GAME NOT IN YET (a drawer opened before the deck manifest, the weights or the curriculum landed: "no-manifest",
+    // "no-weights", "no-hands", "hand-failed", "no-day") is not an answer: the row waits, and the belt sync that runs when
+    // those land (`_syncBelt`) asks once more while the drawer is shown. A failed live check is NOT this: it waits for the
+    // next open (`ratingCheck`'s rule), so no grade can turn into a fetch.
+    const early = (r) => !!r && r.final === true && r.points == null && (/^no-/.test(r.status) || r.status === "hand-failed");
+    this._beltAskLater = early(now);
+    if (now.final && !this._beltAskLater) { this._beltReading = now; this._noteRatingLevel(now); this._paintBeltRow(); return Promise.resolve(now); }
+    this._beltReading = null; this._paintBeltRow();
+    if (this._beltAskLater) return Promise.resolve(now);
+    return this.ratingCheck().then((r) => {
+      if (seq !== this._beltAsk) return r;
+      if (early(r)) { this._beltAskLater = true; return r; }
+      this._beltReading = r && r.final ? r : null;
+      this._noteRatingLevel(this._beltReading);
+      this._paintBeltRow();
+      return r;
+    }, () => null);
+  }
+  _paintBeltRow(box) {
+    box = box || this.drillRef?.current?.querySelector("[data-explore-stats]");
+    const el = box && box.querySelector("[data-belt-row]"); if (!el) return;
+    const v = ngRatingRow(this.beltWorn().level, this._beltReading);
+    el.setAttribute("data-belt-state", v.state);
+    const html = this._beltRowHTML(v);
+    // written only when it changed (SIDE-R2 M10, as the row's tail): a rewrite under a pointer swallows a press
+    if (el._ngHtml !== html) { el._ngHtml = html; el.innerHTML = html; }
+  }
+  /** The row's markup for an `ngRatingRow` result: the belt, its stripes, the next slot, the number, the line(s). */
+  _beltRowHTML(v) {
+    const id = NG_BELT_IDS[v.belt], nth = ["1st", "2nd", "3rd", "4th"], b = (n) => "<b>" + n + "</b>";
+    const name = id.charAt(0).toUpperCase() + id.slice(1) + " belt" + (id === "black" ? "" : ", " + v.stripes + (v.stripes === 1 ? " stripe" : " stripes"));
+    // the sleeve: earned stripes, then the next one as an empty slot (none on black, which has no stripes)
+    let bar = "";
+    if (id !== "black") for (let i = 0; i < 4; i++) bar += i < v.stripes ? "<b></b>" : i === v.stripes ? "<s></s>" : "<u></u>";
+    const belt = '<i class="ng-belt" role="img" aria-label="' + name + '" data-belt="' + id + '" data-stripes="' + v.stripes +
+      '" style="--belt:' + NG_BELT_ROW_COLORS[id] + ';"><span>' + bar + "</span><em></em></i>";
+    // no number yet: an INVISIBLE "0000" in the same font and tabular figures holds the box at exactly a number's width (every
+    // number is four digits, 1000..2000), so nothing jumps when one lands. `min-width: 4ch` measured the plain "0", 1 px
+    // narrower than four tabular digits at 14px: e2e/journeys/belt-row.spec.ts caught the belt moving by that pixel.
+    const num = '<span class="ng-belt-num" data-belt-number="' + (v.number == null ? "" : v.number) + '"' +
+      (v.number == null ? ' aria-hidden="true">0000</span>' : ">" + v.number + "</span>");
+    const lines = [];
+    if (v.state === "ok") {
+      if (v.top) lines.push(v.top.to > 0 ? b(v.top.to) + " to the top of the scale" : "The top of the scale");
+      else if (v.next.level % 5) lines.push(b(v.next.to) + " to your " + nth[(v.next.level % 5) - 1] + " stripe" + (v.belt2 ? " · " + b(v.belt2.to) + " to " + NG_BELT_IDS[v.belt2.belt] : ""));
+      else lines.push(b(v.next.to) + " to " + NG_BELT_IDS[Math.min(4, v.next.level / 5)]);
+      // THE DIP (ruled, STAGE2-GO 5): any number below the floor of what is worn prints the second line
+      if (v.dip) {
+        const k = v.dip.level % 5;
+        lines.push(b(v.dip.to) + " under " + (v.dip.level < NG_RATING_BLACK && k ? "your " + nth[k - 1] + " stripe · stripes stay" : NG_BELT_IDS[Math.floor(v.dip.level / 5)] + " · your belt stays"));
+      }
+    } else if (v.state === "none" && this._beltReading && this._beltReading.status === "empty") lines.push("Answer a few cards to get your number");
+    return '<div class="ng-dr-rank-top">' + belt + num + '</div><div class="ng-dr-rank-line" data-belt-line="1">' +
+      (lines.length ? lines.map((l, i) => "<div" + (i ? ' data-belt-dip="1"' : "") + ">" + l + "</div>").join("") : "<div> </div>") + "</div>";
+  }
   /**
    * PERSIST A PROMOTION THE MOMENT THE EVIDENCE SHOWS IT, so nothing computed later can lower what
    * the player has seen. Called from every seam that moves the evidence: `_publishKnowledge` (every
@@ -8061,10 +8206,19 @@ class Component extends DCLogic {
     // that ran this before its pull then beat another device's later Off and pushed it back: the read of PR #404, finding
     // 1, OPEN2.) It rides the next save, as the stamp above does. See `_recallCarried`.
     if (!this._recallCarry && this._openAt > 0 && this._recallCarryLive()) this._recallCarry = true;
+    // THE HELD LEVEL RISES TO THE PATH'S (v1.276.0, ruled STAGE2-GO 1), read now, AFTER any belt raised above: so a
+    // stripe the Path gives today is held, and neither a ruleset flip nor a curriculum edit lowers what the drawer row
+    // wears. It seeds the value on the first run and RIDES THE NEXT SAVE, as `gf` does (a passive boot writes nothing it
+    // did not change: e2e/gen/holder-passive-boot-blob-fixpoint.spec.ts); a belt raised above saves at once and carries it.
+    // It fires nothing: only the number's own rise is a promotion (`_noteRatingLevel`).
+    const lifted = this._raiseLevel(this._pathLevel());
+    // the drawer opened before the game was in: it asks once more now that an input landed (`_askBeltRow`)
+    if (this._beltAskLater && this.deckShown) { this._beltAskLater = false; this._askBeltRow(); }
     if (dirty) {
       this._saveProgress();
       if (this.renderTabSubtitles) this.renderTabSubtitles();
     }
+    if (lifted) this._paintBeltRow();
     this._noteBlackBelt();
   }
   /**
