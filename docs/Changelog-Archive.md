@@ -17144,10 +17144,11 @@ arriving it still deletes that deck's `stage` entries for questions it no longer
 kept: per retired row 5.7e-5 in decks of 1-4 cards, 8.9e-5 in 5-8, 1.5e-4 in 9-16, 3.2e-4 in 17-33 (the worst deck
 5.0e-4). Two decks hold two live unshared cards with one 16-bit value (harmless). A unit pins 16 bits against 8.
 
-**The five stored-progress shapes of ELO1, each with 5.8% of its card rows retired** (median of 15 seeds; the simulation's
-own records, gi): a week 1,078.46 without the retired rows, 1,082.80 with them priced as live, 1,078.46 with the check; a
-month 1,125.60 / 1,130.90 / 1,125.60; a year 1,214.12 / 1,218.73 / 1,214.12 (84 decks capped before); everything mastered
-1,948.68 / 1,964.17 / 1,948.68 (1,002 capped). Rows expected to be wrongly kept: 0.023 a year, 0.17 everything mastered.
+**The five stored-progress shapes of ELO1, each given 6% retired card rows** (a round test parameter; median of 15 seeds;
+the simulation's own records, gi): a week 1,078.46 without the retired rows, 1,082.80 with them priced as live, 1,078.46
+with the check; a month 1,125.60 / 1,131.30 / 1,125.60; a year 1,214.12 / 1,219.11 / 1,214.12 (85 decks capped before);
+everything mastered 1,948.68 / 1,964.30 / 1,948.68 (1,028 capped). Rows expected to be wrongly kept: 0.023 a year, 0.17
+everything mastered.
 Parity with the simulation holds with the check loaded: 2.0e-11 (gi), 2.5e-11 (no-gi); every record final.
 
 **Proof.** `tests/rating.test.mjs`: 27 tests; 43 mutants, each alone, each killed by the test it names, the twelve new ones
