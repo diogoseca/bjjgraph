@@ -59,11 +59,13 @@ function recordAt(lo, hi) {
 }
 const white2 = recordAt(1230, 1250)
 const all = {}
-// the top: everything answered TODAY (a day's fade would read 1996), as the unit's "everything known" builds it;
-// so this one frame's daily count is the seeded record's
-for (const [dk, d] of Object.entries(decks)) for (const c of d.cards) (all[dk] = all[dk] || {})[ngKnowledgeQuestionHash(c.q)] = [D + 30, 30, D]
+// the top: everything known, answered the day before like every other record here. It reads 1996, black, "4 to the top
+// of the scale": exactly 2000 needs every answer dated TODAY (a day's fade is 0.9^(1/30) a card), and today's answers ARE
+// the daily count, so a 2000 picture would show every seeded card as answered today. The exact-2000 words ("The top of the
+// scale") are pinned by tests/belt_row.test.mjs.
+for (const [dk, d] of Object.entries(decks)) for (const c of d.cards) (all[dk] = all[dk] || {})[ngKnowledgeQuestionHash(c.q)] = [D + 29, 30, D - 1]
 const moves = {}
-for (const [st, shares] of app._ratingGame("gi").seats) for (const mv of shares.keys()) (moves[st] = moves[st] || {})[mv] = [D + 30, 30, D, 1]
+for (const [st, shares] of app._ratingGame("gi").seats) for (const mv of shares.keys()) (moves[st] = moves[st] || {})[mv] = [D + 29, 30, D - 1, 1]
 const top = read(all, moves)
 const STATES = {
   white2: { blob: { v: 2, srs: white2.srs }, number: white2.r.points },
@@ -113,6 +115,8 @@ const row = (page) => page.evaluate(() => {
     belt: el.querySelector(".ng-belt")?.getAttribute("aria-label") } : null
 })
 const pathWords = (page) => page.evaluate(() => document.querySelector("[data-tab-sub='challenges']")?.textContent || "")
+const today = (page) => page.evaluate(() => ({ tail: document.querySelector('[data-explore-stats] [data-b="due"] .ng-dr-tail')?.textContent || "",
+  badge: document.querySelector("[data-badge-today]")?.textContent || "" }))
 
 const PHONE = { w: 390, h: 631, mobile: true }, DESK = { w: 1440, h: 900, mobile: false }
 const ONLY = process.env.SHOOT_ONLY ? process.env.SHOOT_ONLY.split(",") : null
@@ -134,11 +138,11 @@ for (const [name, vp] of SHOTS) {
     n++
     const file = String(n).padStart(2, "0") + "-" + name + "-" + tag + "-" + vp.w + ".jpg"
     await page.screenshot({ path: path.join(OUT, file), type: "jpeg", quality: 84 })
-    log.push({ file, state: name, tag, vp: vp.w, record: st.number, row: dev ? null : await row(page), path: await pathWords(page), errors })
+    log.push({ file, state: name, tag, vp: vp.w, record: st.number, row: dev ? null : await row(page), path: await pathWords(page), today: await today(page), errors })
     release()
     await ctx.close()
   }
 }
 await browser.close()
 fs.writeFileSync(path.join(OUT, "shoot-log.json"), JSON.stringify(log, null, 1))
-console.log(JSON.stringify(log.map((l) => [l.file, l.record && Math.floor(l.record), l.row && [l.row.state, l.row.number, l.row.belt, l.row.lines], l.path, l.errors.length])))
+console.log(JSON.stringify(log.map((l) => [l.file, l.record && Math.floor(l.record), l.row && [l.row.state, l.row.number, l.row.belt, l.row.lines], l.path, l.today, l.errors.length])))
