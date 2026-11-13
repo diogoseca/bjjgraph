@@ -16739,13 +16739,16 @@ over 242 seats (18 dealt moves have no gi-table row), no-gi 2,706, 1,206 and 218
 no-gi. Building the gi game deals every seat once: 50 ms in node.
 
 **A correction to the ELO1 simulation.** It priced moves by a card's `ev.att`, which is the no-gi EDGE row in BOTH rulesets
-(`_evRowsFor` reads `_ev`), so in gi the 91 dealt moves no no-gi table values weighed nothing. The reader prices from the ruleset's
-own table (`_evGi` in gi, as FLOW does; `_ev` in no-gi), leaving 18 unpriced. On the same stored records the two weightings
-differ by at most 3.38 points (gi); no-gi is identical. No conclusion of the report moves.
+(`_evRowsFor` reads `_ev`), so every gi move was priced at its no-gi share. The reader prices from the ruleset's own table
+(`_evGi` in gi, as FLOW does; `_ev` in no-gi). That changes the weight of 1,026 of the 1,350 gi moves, not only the gi-only
+ones: 508 get heavier (88 of those weighed nothing in ELO1), 518 lighter, and the total gi move weight goes from 0.311765 to
+0.314336. On the same stored records the two pricings differ by at most 3.38 points on the seat's 311 gi records, and by -8.16
+to +1.73 points on the independent reader's 86 (READ402 F4): a quarter of a stripe at most. No-gi is identical. Re-pricing
+the simulation's gi moves from the gi table brings the difference to 9.5e-12. No conclusion of the owner's decision moves.
 
-**Parity with the simulation** (scratch, `/home/user/bjj-orchestrator/elo-sim/elo2/`): the module through the real reader
-against `sim.mjs`'s C0 on the same stored state, epoch days offset by 20,000, items rebuilt from this wire by ELO1's own
-arithmetic with each ruleset's own move table.
+**Parity with the simulation** (the seat's simulation scripts, kept outside the repo; the units do not test parity): the
+module through the real reader against the simulation's own C0 code on the same stored state, epoch days offset by 20,000,
+items rebuilt from this wire by ELO1's arithmetic with gi moves re-priced from the gi table.
 
 | records | gi: with a number | gi: largest diff | no-gi: with a number | no-gi: largest diff |
 |---|---|---|---|---|
@@ -16782,5 +16785,20 @@ reads 354,973 B, +2,007 of 5,000 since it: dev's own drift +168 (its bundle alon
 reproduced, reads 353,134 B) plus this PR's +1,839. The deferred set reads 511,007 of its new 511,007 B ceiling, the same
 figure with dev's bundle alone: this PR adds nothing there.
 
-**Not covered:** whether this weighting is the right one (the owner's, from the simulation); any painted surface (none); a
-browser timing of the first call (node: 50 ms).
+**The independent reader's findings (READ402).** F1: "never looked is never 1000" failed for a record of only malformed
+rows, or only rows in decks the manifest lacks: it read "ok", 1000, because `rows` was counted before a row was checked. Now a
+number needs a row that met the game; otherwise "unmatched" and null (a move at a seat this ruleset does not deal is counted
+`unknownSeat` and meets nothing). F2: a row for a question its deck no longer holds is priced as a live card (the manifest
+carries a count per deck, not its questions; a deck of 12 read 1.917 times its worth with 11 retired rows beside its 12 live
+ones). For now a deck is capped at its own full worth and `decksOver` / `rowsOver` count the cut; the gap is written under NOT
+COVERED and must be settled before any surface shows the number. F5: a record of stages alone reads "unscheduled", 1000, not
+"ok" (0 of the 622 parity records are such; the fixture holds one stage-only row inside a scheduled record). F6: the level
+helpers return null for a non-number. F7: `_ratingGame` checks the graph before the score weights, so no empty table is
+memoised. F3: the reader's five surviving mutants are pinned; 29 mutants now, each alone, each killed by its named test
+(M15-M21 and X9, X11, X12, X15, X18 added). F8: ingest turns a null attempt cell into 0 (`att[k] || 0` in the `cal.ev` and
+`cal.evGi` expansions); the wire has none, the loader is left alone. Parity after the changes: 2.0e-11 (gi), 2.5e-11 (no-gi).
+Bytes: neural.js +406 raw; the eager set reads 355,124 B, +2,158 of 5,000 since the checkpoint (dev +168, this PR +1,990);
+the deferred set is unchanged at 511,007 of 511,007.
+
+**Not covered:** a retired question read as a live one (above); whether this weighting is the right one (the owner's, from
+the simulation); any painted surface (none); a browser timing of the first call (node: 45 to 54 ms).
