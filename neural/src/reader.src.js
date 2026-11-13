@@ -217,6 +217,11 @@ export async function installReader(app) {
     // Moves' band (card-close-gap.spec.ts's 1440 control, on a landing the hold had pinned). Measured: dev's run was simply unpinned.
     if (result && name === "card" && on === false) this._readerPin = null;
     if (result && src === "x" && on === false) reader.notice(name === "film" ? "videos" : name);
+    // WIDTH5 (13 Nov 2026): a part shown again ends the press window (`shield`). The window keeps a press aimed at a message that has just
+    // gone from landing on what moved into its place; a part brought back by Settings or Undo is the player's own act, not something that
+    // moved, and it comes back where its message stood: under p5's wider message, Moves' close (362-386 at 390) is inside that place, so
+    // a tap on it within the window was swallowed (hidden-sections.spec.ts, "several closed in a row"). WAS: the window ran its 400ms out.
+    else if (result && on !== false) reader.shields = [];
     return result;
   };
   // HIDESEC2 with free roam (#370, v1.256.5): `_putReaderAway` hides the reader by visibility alone, so a message standing in it kept its
@@ -1290,7 +1295,17 @@ class Reader {
       // deck's outside arrows have exactly their 52px. Each keeps its own phone width under the cap, so a phone is unchanged. The cap
       // also keeps the grid under 660px, so the article is one column and the stage stacks until 1,024px, where nothing changes.
       const cap = free.width < 1024 && 496;
-      const grid = indexEdge ? free.width + 2 * (free.left - indexEdge) : Math.max(240, Math.min(cap || 902, free.width - 64));
+      // U110 a: the Moves row shares the column's edges wherever the stacked box binds, from 600px free (the cap), so on a
+      // phone-sized screen from 600 to 640px too. Under 600px a phone keeps its full-width tray.
+      const flush = this.trayFlush = W > 640 || free.width >= 600;
+      // WIDTH4 (owner, 2026-11-12 18:18, on a phone: "it still doesnt look as wide as the choices row and as other sections in the
+      // article"): under 600px free the grid takes the Moves row's width, the viewport less the row's own 12px gutters, under the same
+      // cap, so on a phone the moves, the question, the film and the article's tiles share one box (12-378 at 390), and where the cap
+      // binds (528 to 599px) the question, the film and the tiles share U110 a's 496px box. WAS: the viewport less 64 (32-358 at 390,
+      // 20px inside the moves on each side). The 24 is the phone stylesheet's `.ng-optionrow:not([data-flush])` padding, 12px a side,
+      // as a constant: reading it costs 55B the deferred set does not have. card-section.spec.ts measures the row's content box and the
+      // face against each other at 390 and 360, so the two cannot part silently.
+      const grid = indexEdge ? free.width + 2 * (free.left - indexEdge) : Math.max(240, Math.min(cap || 902, free.width - (flush ? 64 : 24)));
       // U59 c: the share cue in the corner reserves
       // the bottom too: the reader ends above it and the cue never covers text or a link.
       // v1.253.0 (owner, 2026-11-09: "cuts off its content 10 to 20 px before the fold"): where the win bar fell under the grid the legend
@@ -1436,20 +1451,21 @@ class Reader {
       // v1.253.0 (owner, 2026-11-09): "when it's just a one liner tease it should appear under the choices row" and take "as much width as
       // the choices row does": in columns, under an open Moves row, the asking line is the grid's width; opened, it takes the left column.
       const tease = column && asking && showHand ? grid : column;
-      const [beside, mediaWidth, askStep] = a.filmLayout(cap ? Math.min(free.width, cap + 32) : free.width, H, homeMedia && (showCard || column), card, row, column, tease);
+      let [beside, mediaWidth, askStep] = a.filmLayout(cap ? Math.min(free.width, cap + 32) : free.width, H, homeMedia && (showCard || column), card, row, column, tease);
       const mediaLayout = homeMedia ? beside ? "side-by-side" : "stacked" : "none";
       if (game.dataset.mediaLayout !== mediaLayout) game.dataset.mediaLayout = mediaLayout;
-      // U110 a: the Moves row shares the column's edges wherever the stacked box binds, from 600px free (the cap), so on a
-      // phone-sized screen from 600 to 640px too. Under 600px a phone keeps its full-width tray.
-      const flush = this.trayFlush = W > 640 || free.width >= 600, span = flush ? grid : W - 2 * parseFloat(getComputedStyle(row).paddingLeft);
-      // WIDTH2 (U152 b, the orchestrator's build while the owner looks; a is one revert): where both margins beside the section hold a
-      // 44px target, from 600px free up to the columns, the face is the section's own width and each arrow stands tight outside it.
-      // A phone's margin is the row's 12px and the columns' gap is 24px, so there it stays a: the face less its two 32px lanes.
-      const arrowLanes = arrows && (column || free.width - span < 88) ? 64 : 0;
+      // WIDTH4: on a phone the film takes the grid's box too (WAS the viewport less 32, 4px inside the moves on each side at 390).
+      if (!flush) mediaWidth = grid;
+      // WIDTH2 (U152 b): where both margins beside the section hold a 44px target, from 600px free up to the columns, the face is the
+      // section's own width and each arrow stands tight outside it. WIDTH4 (p5): on a phone too the face is the whole section, and the
+      // arrows stand INSIDE it, in its own 44px side padding (helmet.html, the phone rule under .ng-landnav). Only the columns (a 24px
+      // gap before the film) and a flush row whose margins cannot hold a target (a narrow window beside the pane) keep the face less
+      // two 32px lanes.
+      const arrowLanes = arrows && (column || flush && free.width - grid < 88) ? 64 : 0;
       // CARDWIDTH (owner, 2026-11-12, a note on a 390x631 phone): "landcard section isn't going the same width as the choices row
       // container! ... the left and right arrows on each side should tightly fit ... centered on whatever space there is left on the
-      // left and right". The SECTION, the face and its two arrows, spans the Moves row's own box: the grid where the row is flush,
-      // the row less its phone gutter under 600px free, and in columns the left column. The face takes all of it but a 32px lane
+      // left and right". The SECTION, the face and its two arrows, spans the Moves row's own box: the grid (which under 600px free is
+      // the row less its phone gutters, WIDTH4), and in columns the left column. Where lanes are kept the face takes all of it but a 32px lane
       // per arrow; the arrow's 44px target abuts the face and reaches 12px past the section's edge, into the gutter beside it, and its
       // glyph rides 6px toward the face, the middle of its lane (helmet.html, .ng-landnav). No deck, the face alone spans it.
       // WAS (to v1.262.10): the column less 104, a 52px lane per arrow OUTSIDE the face, so at 390 the face was 286px with its arrows
@@ -1458,7 +1474,7 @@ class Reader {
       // Unchanged: an asking line keeps its own width (U52 b). Gone: the 390px face beside its film outside the columns, which no
       // window reaches: the film goes beside the question only from 1,152px free on a window over 500px tall, and there the grid
       // (902px, or 878px and more beside the 200px index) always takes columns.
-      if (card) style(card, "width", column ? asking ? tease : column - arrowLanes : asking ? Math.min(cap || 520, free.width - 32) : span - arrowLanes, "important");
+      if (card) style(card, "width", column ? asking ? tease : column - arrowLanes : asking ? Math.min(cap || 520, free.width - 32) : grid - arrowLanes, "important");
       const cardWidth = rect(card)?.width || 0;
       style(home, "width", mediaWidth, "important");
       // Videos supplies its natural content height (A: ~241px desktop, ~220px

@@ -67,7 +67,8 @@ const layout = (page: Page) => page.evaluate(() => {
   const text = ask.getBoundingClientRect(), media = film.getBoundingClientRect()
   return { gap: text.top - Math.max(...cards.map((r: DOMRect) => r.bottom)), film: media.toJSON(), askBottom: text.bottom,
     padding: getComputedStyle(a._landEl).padding, free: a._paneLayout().width, layout: a._reader.game.dataset.mediaLayout, cardWidth: a._landEl.getBoundingClientRect().width, gridWidth: (document.querySelector("[data-reader-body]") as HTMLElement).getBoundingClientRect().width,
-    nested: !!film.closest(".ng-landcard,[data-land-q]"), token: parseFloat(getComputedStyle(ask).getPropertyValue("--section-gap")) }
+    nested: !!film.closest(".ng-landcard,[data-land-q]"), token: parseFloat(getComputedStyle(ask).getPropertyValue("--section-gap")),
+    row: (() => { const r = a.optionsRef.current as HTMLElement, b = r.getBoundingClientRect(), s = getComputedStyle(r); return { l: b.left + parseFloat(s.paddingLeft), r: b.right - parseFloat(s.paddingRight) } })() }
 })
 
 for (const [width, height] of [[390, 631], [390, 844], [768, 1024], [1024, 768], [1152, 900], [1440, 900]]) {
@@ -80,7 +81,15 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 1024], [1024, 768],
       expect(g.gap, "VIDEO1 ask gap is 5–6px below the visible Moves cards").toBeGreaterThanOrEqual(5)
       expect(g.gap, "VIDEO1 ask gap is 5–6px below the visible Moves cards").toBeLessThanOrEqual(6.1)
       expect(g.gap, "VIDEO1 gap uses the existing section spacing token").toBeCloseTo(g.token, 1)
-      expect(g.film.width, "VIDEO1 mobile/tablet film fills the column").toBeCloseTo(Math.min(496, g.free - 32), 1)
+      if (g.free < 600) {
+        // The owner's U154 e (13 Nov 2026): on a phone (under 600px free) the film takes the Moves row's own box, as the question card
+        // and the article's sections do: at 390 the row's content box, 12..378, so 366px. WAS (U110 a, to v1.264.5): min(496, free - 32),
+        // 358px at 390, 4px inside the row on each side. Controls: width5-theater-film-lost-631 and -844 (article_sections_mutants.mjs), killed here.
+        expect([g.film.left - g.row.l, g.film.right - g.row.r].map(Math.round), `on a phone the film shares the Moves row's two edges (${g.film.left}..${g.film.right} / ${g.row.l}..${g.row.r})`).toEqual([0, 0])
+      } else {
+        // From 600px free, unchanged (U110 a): the film fills the stacked column, min(496, free - 32).
+        expect(g.film.width, "VIDEO1 mobile/tablet film fills the column").toBeCloseTo(Math.min(496, g.free - 32), 1)
+      }
       expect(g.film.top, "VIDEO1 own film follows the ask").toBeGreaterThan(g.askBottom)
       expect(g.layout).toBe("stacked")
     } else {

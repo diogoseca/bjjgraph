@@ -1,5 +1,16 @@
 {
  "_meta": {
+  "app_provenance": {
+   "command": "npm run regenerate:neural",
+   "esbuild": "0.27.0",
+   "git_head": "8fab068723769b5811e807db42db3c44f2920b50",
+   "inputs": {
+    "tree": "5067ad802bb6317f9205ef9b4fe2b5b8520b2e82"
+   },
+   "package_version": "1.265.0",
+   "rows_from": "neural/dist",
+   "schema": "app-assets-rebuild-v2"
+  },
   "capture_tree": "/home/user/bjj-orchestrator/scratch/operator-once/capture/capu151-d1f0ae5b7/pr-operator-once-d1f0ae5b7",
   "content_provenance": {
    "capture_git_head": "d1f0ae5b723be84062f91e803abb40882f886e25",
@@ -85,8 +96,8 @@
     "sha256": "d807ef6f5dc3649d41932f2145b6716a61bd9386a1459974180854ef1e10dbf2"
    },
    "static/neural/app/neural.css": {
-    "bytes": 55503,
-    "sha256": "ec5bd75167903cd04cb5bf3ca07eb664d2f2d90e7e5b82ce8a8561c497fbe472"
+    "bytes": 55833,
+    "sha256": "b2539cddf2bfefe1f26ec4fc47c8f48bb3443b29aa2d12f16124e5eb5f207a56"
    },
    "static/neural/app/neural.js": {
     "bytes": 685384,
@@ -94,8 +105,8 @@
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
-    "bytes": 44879,
-    "sha256": "a7efbb2c9e56033564a6d058891bd5f6b04a5a0242c358d995f69ec1ec9e69dd"
+    "bytes": 44861,
+    "sha256": "e749f0d52c31569494d0b26b3524064e8f378d3fcfb9e1920694fe1ddfa5cc6f"
    },
    "static/neural/app/reading.css": {
     "bytes": 10671,

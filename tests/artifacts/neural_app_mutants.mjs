@@ -253,20 +253,43 @@ const controls = [
     '[data-land-prev] lies right of the index at the top', [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% + 32px)}']]],
   // CARDWIDTH (owner, 2026-11-12, v1.263.1): the arrows' stylesheet half. Each target abuts the face, its glyph rides to its lane's
   // middle, and the targets stand beside the face (never up in the Moves band).
-  ['cardwidth-arrow-gap-back', 'card-section.spec.ts', 'section spans.*390x844', [],
+  // WIDTH4: on a phone the phone rule places the arrows, so the abutment rows run where the stylesheet's own rule does (1440).
+  ['cardwidth-arrow-gap-back', 'card-section.spec.ts', 'section spans.*1440x900', [],
     'Previous abuts the face', [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% + 8px)}']]],
-  ['cardwidth-glyph-in-target', 'card-section.spec.ts', 'section spans.*390x631', [],
-    "Previous's glyph is centred in its lane", [['.ng-landnav svg{translate:6px}', '.ng-landnav svg{translate:0}']]],
+  // WIDTH5: on a phone the phone rule rides the glyph now, so this row runs where the base rule does (768, outside).
+  ['cardwidth-glyph-in-target', 'card-section.spec.ts', 'section spans.*768x1024', [],
+    "Previous's glyph stands 16px from the face", [['.ng-landnav svg{translate:6px}', '.ng-landnav svg{translate:0}']]],
   // WIDTH2 (U152 b): at 768 the arrows stand outside the face; the same two rules hold there.
   ['cardwidth-next-glyph-in-target', 'card-section.spec.ts', 'section spans.*768x1024', [],
     "Next's glyph stands 16px from the face", [['.ng-landnav [data-land-next] svg{translate:-6px}', '.ng-landnav [data-land-next] svg{translate:6px}']]],
   ['cardwidth-b-gap-back', 'card-section.spec.ts', 'section spans.*768x1024', [],
     'Previous abuts the face', [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% + 8px)}']]],
   // The two strict inequalities landcard-deck.spec.ts relaxed to >= / <= (the targets abut the face now) still fail on a target over it.
-  ['cardwidth-next-over-face', 'landcard-deck.spec.ts', '390px chevrons are clickable', [],
-    538, [['.ng-landnav [data-land-next]{left:100%}', '.ng-landnav [data-land-next]{left:calc(100% - 8px)}']]],
-  ['cardwidth-prev-over-face', 'landcard-deck.spec.ts', '390px chevrons are clickable', [],
-    558, [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% - 8px)}']]],
+  ['cardwidth-next-over-face', 'landcard-deck.spec.ts', '1440px chevrons are clickable', [],
+    543, [['.ng-landnav [data-land-next]{left:100%}', '.ng-landnav [data-land-next]{left:calc(100% - 8px)}']]],
+  ['cardwidth-prev-over-face', 'landcard-deck.spec.ts', '1440px chevrons are clickable', [],
+    "Previous in the face's left lane", [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% - 8px)}']]],
+  // WIDTH4 (p5, owner 2026-11-12 18:18): on a phone the arrows stand inside the face's own 36px side padding; an asking line keeps its own.
+  ['width4-padding-lost', 'card-section.spec.ts', 'at its edges \\(390x631', [],
+    'runs under neither arrow', [['[data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){padding-left:44px!important;padding-right:44px!important}', '[data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){padding-left:12px!important;padding-right:12px!important}']]],
+  ['width4-arrows-outside-on-phone', 'card-section.spec.ts', 'at its edges \\(390x844', [],
+    'Previous is on screen', [['.ng-landnav [data-land-prev]{right:auto;left:-12px}', '.ng-landnav [data-land-prev]{}']]],
+  // The phone/tablet switch at 600px is the stylesheet's own query (the reader's flush switch is equivalent there: at 599 the cap binds
+  // on both sides of it, so cardwidth-b-starts-early is a recorded non-kill under WIDTH4).
+  ['width4-switch-media-early', 'card-section.spec.ts', 'at its edges \\(599x760', [],
+    'Previous stands 32px inside the face', [['@media(max-width:599px){[data-landcard]', '@media(max-width:589px){[data-landcard]']]],
+  // WIDTH5 (the owner's U154 e, 13 Nov 2026): each phone glyph in the middle of the free space on its side inside the face. Each row moves
+  // one glyph 4px, or puts back the lane's 6px ride p5 shipped with (the build he saw), at one phone size each.
+  ['width5-glyph-4px', 'card-section.spec.ts', 'at its edges \\(390x631', [],
+    "Previous's glyph is centred in the free space on its side", [['.ng-landnav svg{translate:12.5px}', '.ng-landnav svg{translate:8.5px}']]],
+  ['width5-next-glyph-4px', 'card-section.spec.ts', 'at its edges \\(360x740', [],
+    "Next's glyph is centred in the free space on its side", [['.ng-landnav [data-land-next] svg{translate:-12.5px}', '.ng-landnav [data-land-next] svg{translate:-8.5px}']]],
+  ['width5-glyph-as-he-saw-it', 'card-section.spec.ts', 'at its edges \\(574x760', [],
+    "Previous's glyph is centred in the free space on its side", [['.ng-landnav svg{translate:12.5px}.ng-landnav [data-land-next] svg{translate:-12.5px}', '']]],
+  ['width5-glyph-4px-844', 'card-section.spec.ts', 'at its edges \\(390x844', [],
+    "Next's glyph is centred in the free space on its side", [['.ng-landnav [data-land-next] svg{translate:-12.5px}', '.ng-landnav [data-land-next] svg{translate:-16.5px}']]],
+  ['width4-asking-padded', 'article-order.spec.ts', 'U90 at 390x844 the question line', [],
+    'the line starts at the label', [['[data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){', '[data-landcard].ng-landcard.ng-land-deck{']]],
   ['cardwidth-arrows-in-moves-band', 'card-section.spec.ts', 'section spans.*1440x900', [],
     'Previous stands beside the face, not above it', [['.ng-landnav button{position:absolute;top:calc(var(--guide-y,50%) - 22px)}', '.ng-landnav button{position:absolute;top:-60px}']]],
   // Finding 4: the video suggestion names its half.
