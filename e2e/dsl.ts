@@ -703,6 +703,28 @@ export class Journey {
     return this;
   }
 
+  /** A WHEEL'S SCROLL CAN STILL BE MOVING WHEN A FIXED WAIT ENDS (FLAKE1, v1.270.1): mastery-gold.spec.ts:282 wheeled 800 px in
+   *  Settings, waited 150 ms and pressed at a measured point, and once in 247 the press measured the row before the scroll had
+   *  moved it, over the modal's foot. Shortening that wait to 0 failed it 10 of 10 on the unchanged app. Press only once the
+   *  target holds still: the same rect AND the same own scrollTop on three animation frames in a row (the way
+   *  `readerLayoutSettled` waits for a layout), so a row inside the scroller and the scroller itself both work as targets.
+   *  A target that is absent or never holds still within ~10 s is an error, never a silent pass. */
+  async scrollSettled(selector: string) {
+    await this.page.evaluate(async (sel) => {
+      let previous = "", still = 0;
+      for (let n = 0; n < 600; n++) {
+        await new Promise(requestAnimationFrame);
+        const el = document.querySelector(sel);
+        const now = el ? JSON.stringify([el.getBoundingClientRect().toJSON(), el.scrollTop]) : "";
+        still = now && now === previous ? still + 1 : 0;
+        previous = now;
+        if (still >= 2) return;
+      }
+      throw Error("scrollSettled: " + sel + " never held still");
+    }, selector);
+    return this;
+  }
+
   /** The live LANDING question's MC truth, once its block has settled (see landSettled).
    *  Returns null if this state asks nothing (a fully proven deck legitimately does). */
   async landQuestion(): Promise<{ correct: number; n: number } | null> {

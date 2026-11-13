@@ -78,6 +78,8 @@ async function explore(page: Page) {
 }
 async function wheelTo(page: Page, selector: string, scroller: string) {
   for (let i = 0; i < 35; i++) {
+    // FLAKE1 (v1.270.1): measure a still target, never one a previous wheel is still moving (the caller presses right after)
+    if (i) await journey(page).scrollSettled(scroller)
     const r = await page.locator(selector).boundingBox(), box = (await page.locator(scroller).boundingBox())!
     if (r && r.y >= box.y && r.y + r.height <= Math.min(box.y + box.height, 900)) return
     await page.mouse.move(box.x + box.width / 2, Math.max(70, Math.min(800, box.y + box.height / 2)))
