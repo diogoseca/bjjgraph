@@ -28,8 +28,10 @@
 //   S8  a Path lesson's row not marked as one                                              → the queue's last label is "From the Path"
 //   S9  the count line counting a lesson under "More new cards"                            → "; N from the Path"
 //   S10 the door's visit sent as the page's (`surface: "practice"`)                        → "one Practice visit, from the door"
-// NOT COVERED here: a reload restarts the day's set of new cards met (it is kept in memory, by design: the stored record
-// cannot tell a first answer from a miss); nothing pins that a reload gives at most 4 more, because nothing can.
+// NOT COVERED, by decision (the orchestrator, STAGE3-HOLD2: no new stored field for it): the day's set of new cards met lives
+// in the page, not in the record, because the record cannot tell a first answer from a miss. After a reload the floor counts
+// only the new cards met since that page loaded, so a player who met 4 new cards and reloads is handed up to 4 more by the
+// floor that day, and again after each later reload. "At least 4 new a day" allows it; nothing here pins a reload.
 //
 // Run: node --test tests/practice_page.test.mjs
 import { test } from "node:test";
