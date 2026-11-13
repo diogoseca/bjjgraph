@@ -17084,13 +17084,15 @@ the carry writes no value):
 
 The area, run locally: before the merges of dev, 29 journey files (232 tests) and the 24 generated specs that walk the
 corridor or read the belt (25 tests); at the pushed head, 43 journey files (401 tests) and 39 generated specs (42 tests), all green: the area plus every spec that reaches timed
-recall through a belt, reads a saved blob's keys or reads the guest join (OPEN2B's survey). `npm run test:units`: 1,585 of 1,585. The full suites are the
+recall through a belt, reads a saved blob's keys or reads the guest join (OPEN2B's survey); OPEN3 re-ran the 24 journey
+files and 20 generated specs that touch the join, the carry or a saved blob (one red in 247, mastery-gold:282, a press
+measured 150 ms after a wheel; 24 of 24 green on repeat). `npm run test:units`: 1,585 of 1,585. The full suites are the
 PR's e2e-full.
 
-**Bytes, measured at the pushed head.** Against dev v1.269.0's committed rows: neural.js 692,544 -> 692,402 raw (-142), neural.css 55,833 ->
-55,686 (-147), settings-ui.js (deferred) 22,208 -> 21,434 (-774). Eager set 355,245 B gzip (+2,279 on the 352,966 baseline
-PR #402 checkpointed; cap 5,000); first-visit core 374,679 B (+3,572 on 371,107, cap 6,000; total 407,728); deferred
-510,269 of the committed 511,043; eager raw 1,405,494 of 1,600,000. No ceiling or baseline moved.
+**Bytes, measured at the pushed head.** Against dev v1.269.0's committed rows: neural.js 692,544 -> 692,624 raw (+80),
+neural.css 55,833 -> 55,686 (-147), settings-ui.js (deferred) 22,208 -> 21,434 (-774). Eager set 355,294 B gzip (+2,328 on
+the 352,966 baseline PR #402 checkpointed; cap 5,000); first-visit core 374,732 B (+3,625 on 371,107, cap 6,000); deferred
+510,269 of the committed 511,043; eager raw 1,405,716 of 1,600,000. No ceiling or baseline moved.
 
 **Not covered.** The capstone of a later belt by a press (it needs every unit of that belt proven; the unit test starts one
 on a blue belt); a roll's question asking as timed recall after the press in Settings (landcard-modes 5c covers the switch
