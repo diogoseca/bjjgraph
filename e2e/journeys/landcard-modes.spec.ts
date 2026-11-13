@@ -506,8 +506,12 @@ test("the owner's Americana page asks MULTIPLE CHOICE — recognition first, alw
   expect(s.recall, "no stage-0 recall — flashcards are the earned graduation").toBe(false)
 })
 
-// ── 5c. recall comes with rank (v1.133.0) ────────────────────────────────────────────────────
-test("from blue belt up, a proven card asks as recall in play — below, MC holds", async ({
+// ── 5c. timed recall is a switch (U163 c, v1.270.0) ───────────────────────────────────────────
+// Until v1.270.0: "from blue belt up, a proven card asks as recall in play — below, MC holds" (v1.133.0, "recall comes with
+// rank"): a blue belt switched timed recall on. The owner's U163 c (13 Nov, "everything opens") makes it Recall Mode's
+// switch alone, so the second half now proves both directions: a blue belt earned now leaves MC in place, and the switch,
+// on a white belt, turns the proven card into timed recall. (A belt held before the rule carries over: belt_worn.test.mjs.)
+test("with Recall Mode on, a proven card asks as timed recall in play — a belt alone leaves MC", async ({
   page,
 }) => {
   const j = journey(page)
@@ -535,12 +539,24 @@ test("from blue belt up, a proven card asks as recall in play — below, MC hold
   expect(white.mc, "below blue, a proven card still asks MC").toBe(true)
   expect(white.recall).toBe(false)
 
-  // the same card under a BLUE belt: the in-play format graduates to timed recall Q/A
-  // ("for blue belts at least … flashcard Q/A, not MC" — owner). The rank is the WORN belt since
-  // v1.211.0 (earned in the Challenges, never a Game Knowledge band): seed its high-water mark.
+  // the same card under a BLUE belt earned now, under the open rule: the belt switches nothing on, MC holds
   await page.evaluate(() => {
     const a = (window as W).__neural
     a.belts.held = { id: "blue", t: Date.now() }
+    a._landQ = null
+    a.renderLandCard(a.nodes[a.currentPos], "land", null)
+  })
+  await j.landQuestion()
+  const belt = await page.evaluate(() => ({
+    mc: !!document.querySelector("[data-land-mc-opt]"),
+    recall: !!document.querySelector("[data-land-recall]"),
+  }))
+  expect(belt, "U163 c: a blue belt alone leaves the proven card MC").toEqual({ mc: true, recall: false })
+
+  // the switch on: the in-play format graduates to timed recall Q/A
+  await page.evaluate(() => {
+    const a = (window as W).__neural
+    a.set("recallInPlay", true)
     a._landQ = null
     a.renderLandCard(a.nodes[a.currentPos], "land", null)
   })
@@ -551,7 +567,7 @@ test("from blue belt up, a proven card asks as recall in play — below, MC hold
     recall: !!document.querySelector("[data-land-recall]"),
     armed: (window as W).__neural._decision?.remaining != null,
   }))
-  expect(blue.recall, "blue belt: the proven card asks as recall").toBe(true)
+  expect(blue.recall, "Recall Mode on: the proven card asks as recall").toBe(true)
   expect(blue.mc).toBe(false)
   expect(blue.armed, "…and the recall question is on the clock").toBe(true)
 })

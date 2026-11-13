@@ -482,10 +482,11 @@ test("the reader writes nothing", () => {
     a.settings = deep({ hideMoves: true }); a._settingsAt = deep({ hideMoves: 1 });
     // EVERY field `_progressBlob()` saves (it cannot run in this harness: it needs the challenge sources), so a write
     // that is never saved — a setting set in memory — is caught here, where storage cannot see it (READ402 X9).
-    // THIS LIST IS BY HAND (GO402 D3): it matched `_progressBlob()` in app.src.jsx at v1.269.0. A field added to that
+    // THIS LIST IS BY HAND (GO402 D3): it matched `_progressBlob()` in app.src.jsx at v1.271.0. A field added to that
     // blob must be added HERE too, or this test stops watching it (CLAUDE.md §6.7, the hand-maintained list).
     const SAVED = ["_progressExtras", "prep", "rec", "stage", "srs", "dayLog", "_rollDays", "units", "belts", "tut", "challenges",
-      "badges", "coins", "lists", "flow", "_exploredKeys", "_days", "settings", "_settingsAt", "moves", "cardDone", "_progressAt"];
+      "badges", "coins", "lists", "flow", "_exploredKeys", "_days", "settings", "_settingsAt", "moves", "cardDone", "_progressAt",
+      "_openAt", "_recallCarry"];   // the last two: v1.270.0 (U163 c), saved as `openAt` / `recallCarry` once set
     const snap = () => JSON.stringify(SAVED.map((k) => [k, a[k] instanceof Set ? [...a[k]] : a[k] === undefined ? null : a[k]]));
     const before = snap(), ids = SAVED.map((k) => a[k]);
     a.rating(); a._epochDay = () => RATING_DAY + 400; a.rating();

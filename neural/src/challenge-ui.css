@@ -139,17 +139,7 @@
   text-align: left;
   color: #cbd5e8;
 }
-.ng-belt-locked {
-  padding: 14px 12px;
-  color: var(--ng-track);
-  opacity: .7;
-}
-.ng-belt-locked small {
-  display: block;
-  color: #a2abc0;
-  font-size: 11px;
-  margin-top: 5px;
-}
+/* .ng-belt-locked (the locked section's line) went with U163 c, v1.270.0: no section is locked */
 .ng-earlier-belts {
   display: block;
   margin: 8px auto 0;

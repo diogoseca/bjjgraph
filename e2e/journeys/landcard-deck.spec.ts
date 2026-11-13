@@ -25,8 +25,10 @@ async function setup(page: Page, recall = false) {
       // A due, proven deck is the production recall entry.
       for (const c of cards) a._bumpStage(key, c.q, 2, 2)
       a._cardDue = () => true
-      // a BLUE belt — the worn belt since v1.211.0, seeded as its persisted high-water mark
-      a.belts.held = { id: "blue", t: Date.now() }
+      // Recall Mode on, stored as the app stores a press (`set`). Until v1.270.0 the entry here was a BLUE belt
+      // (`a.belts.held = { id: "blue", t: Date.now() }`), which switched timed recall on; under the owner's U163 c
+      // ("everything opens", 13 Nov) a belt earned after the open rule began switches nothing on, so the entry is the switch.
+      a.set("recallInPlay", true)
       a._landQ = null
       a.renderLandCard(a.nodes[a.currentPos], "land", null)
     }
