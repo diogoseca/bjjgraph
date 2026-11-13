@@ -17098,6 +17098,14 @@ the 352,966 baseline PR #402 checkpointed; cap 5,000); first-visit core 374,732 
 on a blue belt); a roll's question asking as timed recall after the press in Settings (landcard-modes 5c covers the switch
 by `set`); the carry across a real cloud pull in a browser (the merge is unit-tested through the real `_pullAndMerge`).
 
+## v1.270.1 — A press after a wheel waits for the scroll to hold still (FLAKE1, 2026-11-13)
+
+mastery-gold.spec.ts:282 went red once in 247: it wheeled 800 px in Settings, waited 150 ms and pressed at a measured
+point; the Flashcards tab is taller since v1.270.0, and the press measured the row before the scroll had moved it.
+Proven: the wait at 0 failed 10 of 10 on the unchanged app (`elementFromPoint(547,830) is <div>`). New DSL step
+`scrollSettled` (same rect and own scrollTop on three frames running); with it, 10 of 10 green at wait 0. Same use in
+defending-arrivals `wheelTo` and defending-landing's Rolling loop. No app change.
+
 ## v1.271.0 — The rating tells a live question from a retired one: checked against a small on-demand file, final only when checked (LIVE1, 2026-11-13)
 
 **The gap.** Stored rows are never pruned, and the deck manifest carries a card COUNT per deck, not its questions, so
