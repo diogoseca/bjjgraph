@@ -286,12 +286,13 @@ jobs:
       # run 35577916246 on dev failed 2 of 303 files with a bare `Cannot find module
       # 'tsx/esm/api'`, and the third file caught the same absence and printed a SKIP line —
       # green, its libgit2 assertion never made. Three merges cited local "units 314/314".
-      # `npm ci`, never `npm install`: the lockfile is the promise. Removing or reordering this
+      # `npm ci --ignore-scripts`, never `npm install`: the lockfile is the promise, and no package's install script runs
+      # (the deploys' rule; tests/deploy_gate.test.mjs, CI INSTALLS). Removing or reordering this
       # step does not bring the skip back — tests/_deps_promised.mjs reads CI (set on every
       # GitHub Actions step, and pinned on the next step so the contract is visible here) and
       # FAILS each guarded file with the name of this step.
       - name: Install source/ dependencies (promised to the unit suites)
-        run: npm ci --no-audit --no-fund
+        run: npm ci --ignore-scripts
         working-directory: source
 
       - name: Pure unit suites
