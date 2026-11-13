@@ -6896,13 +6896,14 @@ class Component extends DCLogic {
     done.style.cssText = "margin-top:auto;background:rgba(28,46,38,.5);border:1px solid rgba(110,224,168,.35);border-radius:12px;padding:20px 16px;text-align:center;animation:ngCardIn .3s ease both;";
     // Completion describes this obligation. Practice keeps its separate continuation
     // control available before and after completion, including beyond the daily goal.
-    const due = this.dueCount();
+    // It names no owed count: "N cards are due now" left this card with the drawer's count (the orchestrator's decision,
+    // 13 Nov, after the owner's U171 a): the owed pile is no longer the day's debt, and a figure that only grows tells the
+    // player nothing. What the card says is what was done today; "Keep practising" under it says what comes next.
     done.innerHTML =
       '<div style="font-size:26px;margin-bottom:10px;">\uD83C\uDF89</div>' +
       '<div data-session-done-title="1" style="font-size:15px;font-weight:700;color:#bff0d2;margin-bottom:6px;">' + (!valid ? 'Reviews still need attention' : 'Session complete') + '</div>' +
       '<div style="font-size:11.5px;color:#9ab3a4;line-height:1.5;margin-bottom:14px;">' +
-      (!live ? 'The lesson goals in this session are complete. ' : live.total ? 'You reviewed ' + live.completed + ' of ' + live.total + ' cards today. ' : "You've met today's goal. ") +
-      (due ? due + (due === 1 ? ' card is' : ' cards are') + ' due now.' : '') + '</div>';
+      (!live ? 'The lesson goals in this session are complete.' : live.total ? 'You reviewed ' + live.completed + ' of ' + live.total + ' cards today.' : "You've met today's goal.") + '</div>';
     // 7-day progress sparkline — REAL history from the persisted daily counts
     const dk7 = []; for (let i = 6; i >= 0; i--) { const d = new Date(); d.setDate(d.getDate() - i); dk7.push(d); }
     const week = dk7.map((d) => (this._days || {})[this._dayKey(d)] || 0);
@@ -7918,7 +7919,11 @@ class Component extends DCLogic {
    * THE BADGE SHOWS TODAY BEFORE IT IS OPENED (owner U46 b: "before I even click on my badge, I want to
    * see my progress today… 12 out of 20 cards, 2 rolls"). Cards are the goal's own count; rolls are the
    * day's, kept per local day beside `days` (`_rollDays`, SIDE-R2 M4), plus the roll in progress. The closed
-   * drawer's dot is the same refresh: lit while reviews are owed.
+   * drawer's dot is the same refresh: lit while there is practice left for today, i.e. cards are owed AND today's goal
+   * is not met (the orchestrator's decision, 13 Nov, after the owner's U171 a took the "N due" count out of the drawer: a
+   * dot lit while anything is owed would be lit nearly always, the same growing figure with no number). With the goal met
+   * it goes out, owed cards or not; Practice still opens and deals (goals, never limits). A player with nothing stored
+   * owes nothing, so it stays dark, as before.
    */
   _paintBadge() {
     const chip = this.acctChipRef?.current; if (!chip) return;
@@ -7927,7 +7932,7 @@ class Component extends DCLogic {
     const line = chip.querySelector("[data-badge-today]");
     if (line) line.textContent = "Today: " + t.done + " of " + t.goal + " cards \u00b7 " + rolls + (rolls === 1 ? " roll" : " rolls");
     const dot = this.wrapRef?.current?.querySelector("[data-drawer-dot]");
-    if (dot) dot.style.display = this.dueCount() ? "block" : "none";
+    if (dot) dot.style.display = t.done < t.goal && this.dueCount() ? "block" : "none";
   }
 
   // A deck's lesson goal is min(3, its card count) — and the manifest's `n` is that count even

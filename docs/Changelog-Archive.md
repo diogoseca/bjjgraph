@@ -17160,27 +17160,86 @@ baseline (cap 5,000), first-hand core +4,145 (cap 6,000). The archive's ceiling 
 only; the spec reads the light inside the seal); the map's dot under mastery gold and on the focus mark (pictures);
 the pair, hover and lit labels are drawn over the dots and do not steer them.
 
-## v1.274.0 — Practice asks what is worth most, position by position (U171 a, FOLD1; 2026-11-13)
+## v1.274.0 — Practice asks what is worth most, position by position (U171 a; FOLD1; the dot and the end card; 2026-11-13)
 
-What changed. Today's Practice page, a new order under it. `neural/src/practice-queue.src.js` (pure, in the deferred
-planner, `gameplan.js`) prices every card with the rating's own game (`_ratingGame`; owed = weight × (1 − the recall its
-row still promises, `ngRatingRecall`), new = weight × 0.75), scores a position by its six best owed worths plus its next new
-card's, and visits positions best first: at each, owed cards by worth then new cards up to 4 new things, at most 6; at least
-4 new a day, the top-up never past 6; every answer counts 1; with the goal met, another round. No game, no seat map or a
-record with no answer is today's order, named (`plan.orderStatus`, beat `practice_order_fallback`). The drawer's "N due"
-pill and tooltip count are gone; the Path's band says today's count. Nothing stored changes (byte-identical on a built page).
-FOLD1: the fold a player opened stays open when a late plan re-renders the queue.
+**What changed.** Today's Practice page, today's cards, a new order underneath (Stage 3 of the Practice plan; Stage 4 asks
+hidden moves on the map). `neural/src/practice-queue.src.js`, pure, in the deferred planner (`gameplan.js`, fetched when the
+drawer opens, U170 a):
+- worth = a card's share of the game, priced with the rating's own game (`_ratingGame`: `deckUnit`, `shared`; a question is
+  worth the sum of its decks' units), × what an answer brings back: owed 1 − `ngRatingRecall(row)`, new 0.75;
+- a position scores its six best owed worths + its next new card's; positions best first; at each, owed cards by worth then
+  new cards up to 4 new things, at most 6; at least 4 new a day, the top-up never past 6; every answer counts 1; with the goal
+  met, another round (a goal, never a cap);
+- no game, no seat map, or a record with no answer: today's order, named (`plan.orderStatus`, beat `practice_order_fallback`);
+- seats: `_practiceSeats(game)` off the rating's dealt hands (a deck at the seat that deals it, a defending half at the other
+  seat, the 12 stateAlias seats claim nothing), equal to an independent `optionsFor` walk in both rulesets;
+- the drawer's "N due" pill and its tooltip count are gone; the Path's band says "N of 20 today"; nothing stored changes.
+FOLD1: a late plan's re-render of an untouched queue kept "Practice details & session queue" shut under a player who had
+opened it; it now keeps the fold. Opening it is reading, not answering: the queue still gives way to the plan.
+Decided 13 Nov by the orchestrator after U171 a: the closed drawer's amber dot is lit while cards are owed AND today's goal
+is not met (a player with nothing stored: dark, as before); "N cards are due now" left the session-complete card.
 
-Parity. The simulation's by-worth day factored out (its year reruns byte-identical), four rules made explicit in both (ties by
-content order, the top-up never past 6, up to 4 new things a position, the fade as 0.9^x), each moving a year's level by
-under 2 points. The law then asked exactly what the simulation asks: gi a year 530/530 days; two years 1,050/1,050 each for gi
-cards only, no-gi, no-gi cards only; the control without the 4-new rule differs on 2/530. Largest difference before the fade
-was aligned: 3 days in 530, two near-tied cards (~1e-16) swapped. Frozen: tests/artifacts/practice_queue_parity.json.
+**Parity with the plan's simulation** (qsim.mjs, kept outside the repo as the rating's is). Its by-worth day factored into
+one function (the year reruns byte-identical); four rules made explicit in both, each re-measured there (gi, 10 players,
+true level at a year): ties by content order 1,398.9 (plan's 1,397.3), the top-up never past 6 1,396.9, up to 4 new things a
+position 1,397.7 (cards only 1,379.3 vs 1,378.5; a new player's 20 is 5 positions, not 10), the fade as 0.9^x (was
+exp(ln 0.9·x)). The law then asked exactly what the simulation asks, every 7th day, 10 players:
 
-Measured (simulation, gi, 10 players, 20 a day; true level year 1 / year 2): today's queue 1,301.5 / 1,324.6; Stage 3 (cards
-only) 1,379.3 / 1,441.0; with Stage 4's moves 1,397.7. No-gi year 1: 1,303.3 → 1,386.0.
+| run | days | asks | equal |
+|---|---|---|---|
+| gi, a year | 530 | 12,244 | 530 |
+| gi cards only, two years | 1,050 | 24,990 | 1,050 |
+| no-gi, two years | 1,050 | 24,675 | 1,050 |
+| no-gi cards only, two years | 1,050 | 25,020 | 1,050 |
+| control: the simulation without the 4-new rule | 530 | 12,242 | 528 |
 
-Proof. 17 unit mutants (Q1–Q17) each red at its named test (tests/practice_queue.test.mjs header); 4 bundle mutants (P1 the
-cold queue kept, P2 the pill back, P3 oldest first, F1 the fold forgotten) red at their named assertions in
-e2e/journeys/practice-order.spec.ts. 23 tests in 9 spec files re-pinned to U171 a, each saying what it claimed before. Bytes:
-eager gzip +560 (FOLD1 +42), deferred raw 510,269 → 519,911 (all gameplan.js; ceiling moved to exactly that, U170 a).
+Largest difference before the fade was aligned: 3 days in 530 (cards only), two near-tied cards (~1e-16) swapped. Frozen for
+CI: `tests/artifacts/practice_queue_parity.json` (40 days of a small world, 469 asks).
+
+Simulated (gi, 10 typical players, 20 a day; true level year 1 / year 2, rating year 1): today's queue 1,301.5 / 1,324.6,
+1,214.5; Stage 3 (cards only) 1,379.3 / 1,441.0, 1,304.6, 4 positions a session, 5.0 cards each; with Stage 4's moves 1,397.7.
+No-gi year 1: 1,303.3 → 1,386.0.
+
+**Kill table, units** (`tests/practice_queue.test.mjs`; each mutant alone on a clean tree, the diff hash checked after):
+
+| mutant | red at |
+|---|---|
+| Q1 oldest first restored | "worth, not age, decides which position comes first" (+3) |
+| Q2 the floor of 4 removed | "at least 4 new a day" (+2) |
+| Q3 the per-position cap ignored | "at most 6 at a position" (+3) |
+| Q4 worth without forgetting | "forgetting counts" (+2) |
+| Q5a a shared question built once per deck | "one question is asked once, worth all its decks" (+1) |
+| Q5b the law's guard against a thing handed twice removed | "a thing handed in twice is asked once, and counted" |
+| Q6 a null cell read as zero | "a null cell is dropped and counted" (+2) |
+| Q7 never looked read as a session | "never looked is not a session" |
+| Q8 done only when the whole owed pile is | "a worth plan is done when what it asked is answered" |
+| Q9 the floor takes a full position to 7 | "the floor never takes a position past 6" (+1) |
+| Q10 a placeholder binds an answered card | "placeholders bind the deck's first unanswered cards…" |
+| Q11 the defending half at its attacker's seat | "the seat map is the wire's, read twice" |
+| Q12 priced with the other ruleset's game | "the planner prices with this ruleset's game…" (survived the first test; sharpened with the gi-only card) |
+| Q13 the fallback beat removed | same |
+| Q14 the "N due" pill back | both drawer-row tests (`gameplan_stats_repaint.test.mjs`) |
+| Q16 a met goal deals nothing | "a goal, never a cap…" |
+| Q17 a position's unused move slots kept from cards | "a position with no new move to ask gives its slots to cards" (+1) |
+
+**Kill table, bundle** (`e2e/journeys/practice-order.spec.ts`, built in, touch 390x631 and mouse 1440x900):
+
+| mutant | red at |
+|---|---|
+| P1 the cold oldest-first queue kept in front | "the session holds exactly the plan's rows…", FOLD1's "and it shows the plan's rows" |
+| P2 the pill back | "no due pill on the row" |
+| P3 oldest first in the law | "a month overdue, but light: not first" |
+| F1 the re-render forgetting the fold | "FOLD1: the fold is still open after the plan lands" |
+| D1 the dot lit while anything is owed | "the dot: out at the goal, with cards still owed" (and sidebar's "the goal met: no dot") |
+| D2 the end card's owed line back | "the end card names no owed count" |
+
+**Specs.** The grep (56 + 12 files) found 23 tests in 9 spec files and 2 unit tests that encoded oldest first, the pill or
+the old composition; each re-pinned assertion says what it claimed before and cites U171 a. Runs on the merged head (dev
+v1.272.0 + this PR): the 26 journey files 271/271, `e2e:gen` 103/103, units 1,610/1,610, `ci:validate` 25/25.
+
+**Bytes** (mine alone, against dev v1.272.0's own app files built in the same tree): eager gzip +565 (FOLD1 +42), raw +1,245;
+deferred raw 510,269 → 519,911, all `gameplan.js` (ceiling moved to exactly that in its own commit, U170 a: up to ~550,000).
+
+**Seen in the pictures.** Early sessions are mostly new cards: a never-answered card shared by many decks outweighs one
+missed card of a single deck in the rating's arithmetic (the seeded player: 3 reviews, 17 new). The simulation settles at
+about 4 new a day over a year.

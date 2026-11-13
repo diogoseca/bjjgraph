@@ -23,6 +23,8 @@ import { journey } from "../dsl"
  *   P2 the "N due" pill back on the row                                                  → "the row: today's count, no due"
  *   P3 oldest first restored in the law                                                  → "Practice opens on the planner's first position"
  *   F1 the plan's re-render forgetting the fold the player opened (FOLD1)               → "FOLD1: the fold is still open after the plan lands"
+ *   D1 the dot lit while anything is owed, the goal ignored (its reading until 13 Nov)   → "the dot: out at the goal, with cards still owed"
+ *   D2 "N cards are due now" back on the session-complete card                           → "the end card names no owed count"
  * NOT COVERED here: the order's arithmetic (the unit suite and its 15 mutants), no-gi on a page (the unit reads both
  * rulesets; a ruleset flip writes a setting, so it cannot share the byte-identity claim), and answering (grading writes the
  * record by design; the planner's completion rule is the unit suite's).
@@ -161,6 +163,48 @@ for (const touch of [true, false]) {
         const queue = await page.evaluate(() => (window as W).__neural._session.plan.queue.slice())
         await expect(page.locator("[data-practice-queue] button"), "and it shows the plan's rows").toHaveText(queue.map((k: string) => dot(k)))
       } finally { release() }
+    })
+
+    // THE DOT AND THE END CARD (the orchestrator's decision, 13 Nov, after the owner's U171 a took the "N due" count out of
+    // the drawer): the closed drawer's amber dot is lit while there is practice left for today (cards owed AND the goal
+    // not met) and goes out at the goal, owed cards or not; the session-complete card names no owed count. The player:
+    // the journey's seeded record (24 owed cards) and 19 answers already today, so one answer is the goal's edge.
+    test(`the dot is lit one answer short of the goal and out at it; the end card names no owed count (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      const { orderFixture } = await import("../../tests/_practice_order_fixture.mjs")
+      const fx = orderFixture(SERVED)
+      const blob = JSON.parse(JSON.stringify(fx.blob))
+      blob.srs["Seed|Top"] = Object.fromEntries(Array.from({ length: 19 }, (_, i) => ["today" + i, [fx.day + 1, 1, fx.day]]))
+      await boot(page, fx.day, blob)
+      const dot = page.locator(".ng-logo [data-drawer-dot]")
+      const state = () => page.evaluate(() => { const a = (window as W).__neural, el = document.querySelector(".ng-logo [data-drawer-dot]") as HTMLElement;
+        return { done: a.practiceToday().done, owed: a.dueCount(), shown: !!el && getComputedStyle(el).display !== "none" } })
+      expect(await state(), "premise: 19 of 20 today, cards owed").toMatchObject({ done: 19 })
+      expect((await state()).owed, "premise: cards owed").toBeGreaterThan(0)
+      await expect(dot, "the dot: lit one answer short of the goal").toBeVisible()
+      await press(page, ".ng-logo", "open the drawer", touch)
+      await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
+      await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      const open = '[data-session-row][aria-expanded="true"] + div'
+      // answer every card the session holds (the goal's last answer, and the floor's new card if the first was a review)
+      for (let i = 0; i < 6 && !(await page.locator("[data-session-complete]").count()); i++) {
+        await expect(page.locator(open + " [data-mini-reveal]:visible")).toHaveCount(1, { timeout: 10_000 })
+        await press(page, open + " [data-mini-reveal]", "Reveal", touch)
+        await press(page, open + " [data-mini-got]", "Got it", touch)
+        if (i === 0) {
+          await expect.poll(async () => (await state()).done, { message: "the goal's last answer counts" }).toBe(20)
+          const at = await state()
+          expect(at.owed, "premise: cards still owed at the goal").toBeGreaterThan(0)
+          expect(at.shown, "the dot: out at the goal, with cards still owed").toBe(false)
+        }
+        await page.waitForTimeout(700)
+      }
+      await expect(page.locator("[data-session-complete]"), "the session completes").toHaveCount(1)
+      expect((await state()).owed, "premise: cards still owed at the end").toBeGreaterThan(0)
+      await expect(page.locator("[data-session-complete]"), "the end card names what was done today").toContainText(/You reviewed \d+ of \d+ cards today\./)
+      await expect(page.locator("[data-session-complete]"), "the end card names no owed count").not.toContainText(/due/)
+      await press(page, ".ng-explorer-close", "close the drawer", touch)
+      await expect(page.locator(".ng-logo"), "the drawer is closed").toBeVisible()
+      await expect(dot, "and the closed drawer's icon wears no dot past the goal").toBeHidden()
     })
 
     test(`a record with no answer is today's order, and says so once (${touch ? "touch" : "mouse"})`, async ({ page }) => {

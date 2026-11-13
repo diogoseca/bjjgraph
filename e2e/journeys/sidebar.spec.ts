@@ -24,7 +24,9 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *      guards, re-pinned on the gesture that replaced it).
  *  10. On a phone, the tap on the exposed strip that closes the drawer does only that: over a node it
  *      stages nothing, over the background it dismisses nothing (SIDE-R2 P1).
- *  11. The closed drawer's icon wears an amber dot while reviews are owed, and none when nothing is.
+ *  11. The closed drawer's icon wears an amber dot while reviews are owed and today's goal is not met, and none when
+ *      nothing is owed or the goal is met (until 13 Nov: "while reviews are owed", the goal not read; the orchestrator's
+ *      decision, 13 Nov, after the owner's U171 a).
  *  12. Explore's fold survives a reload.
  *  13. SIDE-R3 N1: held concept headers reserve their height; Practice stays within 1px and a
  *      press aimed before the index lands still opens it (phone touch and desktop mouse).
@@ -629,7 +631,7 @@ test.describe("phone 390x844", () => {
     expect((await j.beats()).filter((b: any) => b.beat === "roll_replay_end")).toHaveLength(1)
   })
 
-  test("the closed drawer's icon wears an amber dot while reviews are owed, and none when nothing is", async ({ page }) => {
+  test("the closed drawer's icon wears an amber dot while reviews are owed and the goal is not met, and none otherwise", async ({ page }) => {
     const j = journey(page)
     await j.boot("/")
     const dot = page.locator(".ng-logo [data-drawer-dot]")
@@ -644,6 +646,16 @@ test.describe("phone 390x844", () => {
     await expect(dot, "a review owed: the dot").toBeVisible()
     const [r, g, bl] = (await dot.evaluate((el) => getComputedStyle(el).backgroundColor)).match(/\d+/g)!.map(Number)
     expect(r > 200 && r > g && g > bl + 40, "amber: warm, red over green over blue").toBe(true)
+    // the goal met (20 answered today), the review still owed: no dot. Until 13 Nov it stayed lit while anything was owed;
+    // the orchestrator's decision, after the owner's U171 a, is "lit until today's goal is met" (practice-order.spec.ts pins
+    // the edge, one answer short and at the goal, by real presses)
+    await page.evaluate(() => {
+      const a = (window as W).__neural, day = a._epochDay()
+      a.srs["Seed|Top"] = Object.fromEntries(Array.from({ length: 20 }, (_, i) => ["today" + i, [day + 1, 1, day]]))
+      a.updateAccountUI()
+    })
+    expect(await page.evaluate(() => (window as W).__neural.dueCount()), "premise: the review is still owed").toBeGreaterThan(0)
+    await expect(dot, "the goal met: no dot, owed or not").toBeHidden()
     await page.evaluate(() => { const a = (window as W).__neural; a.srs = {}; a.updateAccountUI() })
     await expect(dot, "paid off: gone").toBeHidden()
   })
