@@ -17098,11 +17098,16 @@ the 352,966 baseline PR #402 checkpointed; cap 5,000); first-visit core 374,732 
 on a blue belt); a roll's question asking as timed recall after the press in Settings (landcard-modes 5c covers the switch
 by `set`); the carry across a real cloud pull in a browser (the merge is unit-tested through the real `_pullAndMerge`).
 
-## v1.272.0 — A move you know wears a gold seal, not a gold outline (the owner's pick a, SEAL1, 2026-11-13)
+## v1.270.1 — A press after a wheel waits for the scroll to hold still (FLAKE1, 2026-11-13)
 
-"It seems like this is the selected technique." The card's outline (U116, U122 a) is gone: a filled seal for a move
-known and not due, a hollow one for one never answered whose flashcards are learned, none on a due card
-(`_sealCard`, from the `_moveState` read that turns the face). A card asked by touch wears the hover's outline.
-Mutants M0-M7 and their kills: the header of e2e/journeys/known-move-seal.spec.ts. neural.js +164 B, neural.css +508 B.
-The map (its own commit): the orb's outline is a gold dot on a shoulder no name covers, up-right first (`_mapSeal`), one
-state; U122 a's thick level is gone. The frame publishes `_lastMapSeals`, `_lastOptBoxes`; M8-M10. neural.js +567 B.
+mastery-gold.spec.ts:282 went red once in 247: it wheeled 800 px in Settings, waited 150 ms and pressed at a measured
+point; the Flashcards tab is taller since v1.270.0, and the press measured the row before the scroll had moved it.
+Proven: the wait at 0 failed 10 of 10 on the unchanged app (`elementFromPoint(547,830) is <div>`). New DSL step
+`scrollSettled` (same rect and own scrollTop on three frames running); with it, 10 of 10 green at wait 0. Same use in
+defending-arrivals `wheelTo` and defending-landing's Rolling loop. No app change.
+
+## v1.272.0 — A known move wears a gold seal, not a gold outline (the owner's pick a, SEAL1, 2026-11-13)
+
+The card's outline (U116, U122 a) became a seal from `_moveState`: filled = known, not due; hollow = flashcards
+learned, unanswered. The map's orb outline became a gold dot off the names (`_mapSeal`), one state. Mutants M0-M10:
+the header of e2e/journeys/known-move-seal.spec.ts.
