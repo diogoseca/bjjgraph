@@ -112,7 +112,18 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
     const over = painted.filter((p) => hit(b, p) && !(p.star && (b.w === "position" || b.w === "hover")))
     if (over.length) under.push(name(b) + " under " + over.slice(0, 2).map((p) => p.what).join(", "))
   }
-  return { close, outside, under, moves: labels.filter((b: W) => b.w === "move").length, position: labels.filter((b: W) => b.w === "position").length, W: W_, H: H_ }
+  // a move's name across ANOTHER dealt orb (or the position's pair), as the frame drew it: the silhouette from the app's own
+  // `_nodeHalfW` (bare) with the frame's published `_nodeK` / `_lodK`, at `_LY`; a pair's twin counts once split (`_lodK` 0.5)
+  const s = W_ / a.cam.vw, f = a.focusIdx, hand = new Set((a.optionIdxs || []).concat(f >= 0 ? [f, a.nodes[f].pi] : []))
+  const orbs = [...hand].map((i: number) => a.nodes[i]).filter((n: W) => n && !(n.z && !n.rep && a._lodK < 0.5))
+    .map((n: W) => ({ i: n.idx, x: (n.x - a.cam.cx) * s + W_ / 2, y: (a._LY(n) - a.cam.cy) * s + H_ / 2, R: a._nodeHalfW(n, s, a._nodeK, a._lodK, true) }))
+  const crossing: string[] = []
+  for (const b of labels.filter((b: W) => b.w === "move")) for (const o of orbs) {
+    if (o.i === b.i || o.i === a.nodes[b.i].pi) continue
+    const dx = Math.max(b.l - o.x, 0, o.x - b.r), dy = Math.max(b.t - o.y, 0, o.y - b.b)
+    if (dx * dx + dy * dy < o.R * o.R) crossing.push(name(b) + " across " + a.graphName(a.nodes[o.i]))
+  }
+  return { close, outside, under, crossing, moves: labels.filter((b: W) => b.w === "move").length, position: labels.filter((b: W) => b.w === "position").length, W: W_, H: H_ }
 }, NO_GAP)
 
 const VPS = [{ width: 390, height: 631, touch: true }, { width: 1440, height: 900, touch: false }]
@@ -136,6 +147,7 @@ for (const vp of VPS) {
           expect(r.close, `${where}: no two names closer than ${NO_GAP} px`).toEqual([])
           expect(r.outside, `${where}: no name off the map`).toEqual([])
           expect(r.under, `${where}: no name under a control`).toEqual([])
+          expect(r.crossing, `${where}: no move's name across another dealt orb`).toEqual([])
           written += r.moves
         }
       }
@@ -268,6 +280,21 @@ test.describe("what the pointer is on is named (1440x900)", () => {
     const r1 = await audit(page)
     expect(r1.close, "...and the other names keep clear of it").toEqual([])
     await page.mouse.move(4, 4); await journey(page).advance(600)   // the hover lapses (0.5 s)
+    // ...and pulled back until the pairs merge (`_lodK` under 0.5), where the pointer's label is the single one (YOUR MOVE, name)
+    let merged = false
+    for (const f of [9, 12, 16, 20]) { await pullBack(page, f, cam0); if (await page.evaluate(() => (window as W).__neural._lodK < 0.5)) { merged = true; break } }
+    expect(merged, "pulled back far enough that the pairs merge").toBe(true)
+    let single: W = null
+    for (const o of await pick(false)) {
+      await page.mouse.move(o.x, o.y)
+      await journey(page).advance(34)
+      if (await page.evaluate((idx) => { const a = (window as W).__neural; return !!a._hover && (a._hover.idx === idx || a._hover.idx === a.nodes[idx].pi) }, o.idx)) { single = o; break }
+    }
+    expect(single, "the pointer resolves to a dealt orb the merged map left unnamed").not.toBeNull()
+    expect(await page.evaluate((idx) => { const a = (window as W).__neural, h = a._lastHoverLabel; return !!h && (h.idx === idx || h.idx === a.nodes[idx].pi) }, single.idx), "merged: the orb under the mouse is named by the single label").toBe(true)
+    expect((await audit(page)).close, "...and the other names keep clear of it").toEqual([])
+    await page.mouse.move(4, 4); await journey(page).advance(600)
+    await pullBack(page, 4, cam0)
     const card = (await pick(true))[0]
     expect(card, "a dealt move left unnamed by the full map, its orb in the free map and its card on screen").toBeTruthy()
     await page.mouse.move(card.card.x, card.card.y)

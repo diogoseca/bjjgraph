@@ -20956,7 +20956,7 @@ class Component extends DCLogic {
   //      by touch. Before any other move's name, at 24 places (`_nameAt`), and as a last resort across another orb: what is
   //      acted on is named unless every place is on the position's name, under a control or off the map.
   //   2. the names WRITTEN LAST TIME, in the row's order, each at its old place first: they keep it down to 3 px of air.
-  //   3. the rest, in the row's order (`_rowOrder`: the cards left to right, as the player reads them), with 6 px of air,
+  //   3. the rest, in the row's order (the cards left to right, as the player reads them, `draw()`), with 6 px of air,
   //      and only a move whose orb stands 6 px clear of every other dealt orb (3 px to keep a name): a name must belong to
   //      ONE orb (the designer's rule 5, practice-r6 section 4).
   // A DECISION PER CAMERA STATE, NOT A RE-DEAL EVERY FRAME (the brief's "names must not blink while the camera eases"): a
@@ -20966,8 +20966,10 @@ class Component extends DCLogic {
   // the rest are dealt once it rests. Measured without that: an ease from 4 times out re-dealt names every frame, and one
   // left and came back within 3 frames on another side. A frame whose inputs are unchanged (camera, hand, cards, pointer,
   // controls, the names before it) reuses the last plan: no layout work.
+  // The pointer's own label (the hover pair group or single label, `draw()`'s `side`) is not planned here: it claims right
+  // after the position's, at its usual place or, when that is not clear, mirrored to the other side of its orb.
   // Nothing is lost: a move whose name is not written is named the moment the pointer is on its orb or on its card (step
-  // 1, and the hover label above), and its card in the row carries its name as before.
+  // 1, and the hover label), a tap stages it as before, and its card in the row carries its name as before.
   // Published: `_lastNameBoxes`, every box written this frame in order of claim (`g` its label, so the claim's sequence,
   // `w` its kind: position, travel, hover, star, move, lit; `i` its node).
   _planNames(pass, ctx, cands, claims, orbs, sig, admit) {
