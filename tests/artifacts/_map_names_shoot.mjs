@@ -46,18 +46,20 @@ for (const s of SHOTS) {
   await page.evaluate(([t, role]) => { const a = window.__neural; if (a.TUTORIAL) { a.tut = { done: {} }; for (const s of a.TUTORIAL) a.tut.done[s.id] = 1; a._syncWhiteChallengeCompatibility(Date.now()); a.tutHidden = true; a.renderTutorial() } a.rig("ai-skill", [0.5]); a.rig("role", [role === "bottom" ? 0.9 : 0]); a.rig("max-moves", [0.5]); a.rigStart(a.nodes.findIndex((n) => n.ty === "positions" && n.t === t)) }, [s.t, s.role])
   for (let i = 0; i < 16; i++) { await page.evaluate(() => window.__neural.advance(1000)); if (await page.evaluate(() => (window.__neural.optionIdxs || []).length > 0 && window.__neural._arriveGlideUntil == null)) break }
   await page.evaluate(() => window.__neural.advance(3000)); await new Promise((r) => setTimeout(r, 1800))
-  await page.evaluate((f) => {
-    const a = window.__neural
+  const n = await page.evaluate((f) => {
+    const a = window.__neural, k = () => (a._lastOptLabels || []).length
     document.querySelectorAll("[data-reward]").forEach((e) => e.remove())
     a._handTouched = true; a.advance(200)
     if (f > 1) { const m = a.pairMid(a.nodes[a.focusIdx]), sc = a.W / a.cam.vw, r = a.canvas.getBoundingClientRect(); a.canvas.dispatchEvent(new WheelEvent("wheel", { deltaY: Math.log(f) / 0.0012, clientX: (m.x - a.cam.cx) * sc + a.W / 2 + r.left, clientY: (m.y - a.cam.cy) * sc + a.H / 2 + r.top, bubbles: true, cancelable: true })) }
     // two drawn frames: `advance` draws once per call, and the first frame after the wheel is the jump (names only leave
     // while the zoom moves); the second is the camera at rest, where they are dealt (Q410A: the first pictures showed the jump)
-    a.advance(17); a.advance(17); a.advance(520)   // ...and half a second at rest: a name the jump dropped waits that long (v1.275.0 R1)
+    // the move names on each of the three frames: the wheel's own, the first at rest, half a second later (the picture)
+    a.advance(17); const jump = k(); a.advance(17); const rest = k(); a.advance(520)   // a name the jump dropped waits that long (v1.275.0 R1)
+    return [jump, rest, k()]
   }, s.f)
   const file = path.join(OUT, `${s.name}-${TAG}-${s.w}.png`)
   await page.screenshot({ path: file })
-  console.log(file)
+  console.log(file, "move names: wheel's frame " + n[0] + ", first at rest " + n[1] + ", pictured " + n[2])
   await ctx.close()
 }
 await browser.close()

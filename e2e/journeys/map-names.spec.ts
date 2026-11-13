@@ -19,7 +19,8 @@ import { journey } from "../dsl"
  * The camera moves the way the app's zoom does: a `wheel` on the canvas at the position's drawn point (the handler zooms
  * about the pointer), from the follow camera's settled framing.
  *
- * MUTANTS, each one exact replacement in app.src.jsx, rebuilt and this spec run in full (27 runs after R1, 13 Nov 20:17):
+ * MUTANTS, each one exact replacement in app.src.jsx, rebuilt and this spec run in full (27 runs after R1, 13 Nov 20:17;
+ * after R2, 13 Nov 22:18 to 22:45, the eleven whose assertion or anchor moved, M8 M17 M19 M21 to M28):
  *   M1  the test removed (`fits` always true)              red, first at "the wheel's frame: no name off the map"
  *   M2  the order of claim reversed                        red at "the moves claimed their room in the row's order"
  *   M3  the edge check removed                             red at "no name off the map"
@@ -45,8 +46,19 @@ import { journey } from "../dsl"
  *   M21 a pan not counted as motion (the zoom-only rule)   red at "the drag moved the camera on (almost) every frame": the
  *                                                          frame calls a pure pan rest
  *   M22 a written name may change side while moving        red at "while the camera moves a written name keeps its place"
- *   M23 no half-second wait at rest                        red at "the drag: no name leaves and comes back within half a second"
- *   M24 a name that left may come back while moving        red at "a name that left while the camera moved comes back only at rest"
+ *   M23 no half-second wait at rest                        red at "ease at 120 Hz: a name the layout refused is back no sooner
+ *                                                          than half a second after it left"
+ *   M24 a name that left may come back while moving        red at "a name the layout refused comes back only at rest" (the
+ *                                                          ease and the drag)
+ *   M25 a returning name given -20 px of air (R2 D1)       red at "Mount Top (top) x2, settled: no two names closer than 3 px"
+ *   M26 a refused name's wait cleared when its orb         red at "the drag: a name the layout refused comes back only at rest"
+ *       leaves the canvas (R2 D2)
+ *   M27 a lit node under the pointer named again (R2 D3)   red at "the located node under the mouse is inked once"
+ *   M28 an orb wholly under a control or the open drawer   red at "no name for an orb wholly under the drawer, while dragging
+ *       a candidate again (`on(c)` as in R1; R2 D4)        under it" and the main drag's "...or wholly under a control"
+ *                                                          (an orb slid under the row); the drawer test's audits at rest
+ *                                                          pass under it (no fresh-booted camera leaves an orb under the
+ *                                                          drawer: the drag in that test is what reaches the case)
  * NON-KILLS, so nobody reads them as covered: M4b, the pointer's PAIR GROUP alone dropped, is the designed fallback (the
  * single label names the orb instead); M8b, a written name needing 6 px like a new one, changes nothing these recordings
  * see (the camera rule and the reused plan hold the names; the stay margin only decides a name between 3 and 6 px of a
@@ -196,12 +208,15 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
   const s = W_ / a.cam.vw, f = a.focusIdx, hand = new Set((a.optionIdxs || []).concat(f >= 0 ? [f, a.nodes[f].pi] : []))
   const orbs = [...hand].map((i: number) => a.nodes[i]).filter((n: W) => n && !(n.z && !n.rep && a._lodK < 0.5))
     .map((n: W) => ({ i: n.idx, x: (n.x - a.cam.cx) * s + W_ / 2, y: (a._LY(n) - a.cam.cy) * s + H_ / 2, R: a._nodeHalfW(n, s, a._nodeK, a._lodK, true) }))
-  const crossing: string[] = [], offOrb: string[] = [], inkOff: string[] = [], crowded: string[] = [], gaps: number[] = []
+  const crossing: string[] = [], offOrb: string[] = [], hidOrb: string[] = [], inkOff: string[] = [], crowded: string[] = [], gaps: number[] = []
   const ink = (window as W).__mnInk || []
   for (const b of labels.filter((b: W) => b.w === "move" || b.w === "lit" || b.w === "point")) {
     const node = a.nodes[b.i], x = (node.x - a.cam.cx) * s + W_ / 2, y = (a._LY(node) - a.cam.cy) * s + H_ / 2, R = a._nodeHalfW(node, s, a._nodeK, a._lodK, true)
     // R1 finding 5: a name only for an orb whose own silhouette is on the canvas
     if (x + R < 0 || x - R > W_ || y + R < 0 || y - R > H_) offOrb.push(name(b) + ` (orb at ${x.toFixed(0)}, ${y.toFixed(0)})`)
+    // R2 D4: ...nor for an orb whose silhouette lies wholly under one painted control (an open drawer, a card): no visible orb
+    const over = painted.find((p) => !p.star && p.l <= x - R && p.r >= x + R && p.t <= y - R && p.b >= y + R)
+    if (over) hidOrb.push(name(b) + ` (orb at ${x.toFixed(0)}, ${y.toFixed(0)} under ${over.what})`)
     // R1 finding 6: the name is INKED where it is published (the browser's own box for that fillText, within half a pixel)
     const s2 = a.graphName(node)
     if (!ink.some((q: W) => q.s === s2 && Math.abs(q.l - b.l) < 0.5 && Math.abs(q.r - b.r) < 0.5 && Math.abs(q.t - b.t) < 0.5 && Math.abs(q.b - b.b) < 0.5)) inkOff.push(name(b))
@@ -216,7 +231,8 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
     // a name belongs to ONE orb: its orb stands clear of every other dealt orb (3 px for a name kept, 6 for a new one)
     if (b.w === "move") { gaps.push(gap); if (gap < 3 - 0.01) crowded.push(name(b) + ` (${gap.toFixed(1)} px)`) }
   }
-  return { close, outside, under, crossing, offOrb, inkOff, crowded, gaps, inked: ink.length, moves: labels.filter((b: W) => b.w === "move").length, position: labels.filter((b: W) => b.w === "position").length, W: W_, H: H_ }
+  const hidden = orbs.filter((o: W) => painted.some((p) => !p.star && p.l <= o.x - o.R && p.r >= o.x + o.R && p.t <= o.y - o.R && p.b >= o.y + o.R)).length
+  return { close, outside, under, crossing, offOrb, hidOrb, hidden, inkOff, crowded, gaps, inked: ink.length, moves: labels.filter((b: W) => b.w === "move").length, position: labels.filter((b: W) => b.w === "position").length, W: W_, H: H_ }
 }, NO_GAP)
 
 const VPS = [{ width: 390, height: 631, touch: true }, { width: 1440, height: 900, touch: false }]
@@ -230,34 +246,54 @@ function checkFrame(r: W, where: string) {
   expect(r.under, `${where}: no name under a control`).toEqual([])
   expect(r.crossing, `${where}: no move's name across another dealt orb`).toEqual([])
   expect(r.offOrb, `${where}: no name for an orb drawn off the canvas`).toEqual([])
+  expect(r.hidOrb, `${where}: no name for an orb wholly under a control`).toEqual([])
   expect(r.inkOff, `${where}: every name is inked where it is published`).toEqual([])
   expect(r.crowded, `${where}: every named orb stands clear of every other dealt orb`).toEqual([])
 }
 
-/** Names written frame by frame, with their places and the frame's own call (moving or at rest): a name that left while the
- *  camera moves comes back only at rest, a written name keeps its place while it moves, and none is back within half a
- *  second (30 frames at 60 Hz; measured in time, so a 30 Hz recording is judged by the same half second). */
-function holdCheck(rec: Array<{ still: boolean; on: Array<[number, number]> }>, where: string, stepMs = 1000 / 60) {
+/** Names written frame by frame, with their places, the frame's own call (moving or at rest), its clock (`t`, s) and the
+ *  moves it handed the planner (`c`). THE RULE AS RULED (R2 D2): a name the LAYOUT refused (its orb still a candidate on the
+ *  frame its name left) comes back only at rest, and no sooner than half a second after it LEFT (timed by the frame clock,
+ *  so 30 Hz and 120 Hz recordings are judged alike); a name whose orb left the canvas, or went under a control, follows the
+ *  orb back and is only counted; while the camera moves a written name keeps its place. */
+type Frame = { still: boolean; t: number; c: number[]; on: Array<[number, number]> }
+function holdCheck(rec: Frame[], where: string) {
   const back: string[] = [], side: string[] = [], flick: string[] = []
-  const gone = new Set<number>(), left = new Map<number, number>()
+  const refused = new Map<number, number>(), followed = new Set<number>(), n = { refused: 0, followed: 0, followedBackMoving: 0 }
   for (let k = 1; k < rec.length; k++) {
-    const was = new Map(rec[k - 1].on), now = new Map(rec[k].on)
-    if (rec[k].still) gone.clear()
+    const was = new Map(rec[k - 1].on), now = new Map(rec[k].on), f = rec[k]
     for (const [i, p] of now) {
-      if (!was.has(i)) { if (gone.has(i)) back.push(`frame ${k}: ${i}`); if (left.has(i) && (k - left.get(i)!) * stepMs < 500) flick.push(`${i}: left at ${left.get(i)}, back at ${k}`) }
-      else if (!rec[k].still && was.get(i) !== p) side.push(`frame ${k}: ${i} place ${was.get(i)} -> ${p}`)
+      if (!was.has(i)) {
+        const g = refused.get(i)
+        if (g != null) {
+          if (!f.still) back.push(`frame ${k}: ${i}, refused at ${g.toFixed(3)} s`)
+          if (f.t - g < 0.5 - 1e-6) flick.push(`${i}: refused at ${g.toFixed(3)} s, back at ${f.t.toFixed(3)} s`)
+          refused.delete(i)
+        } else if (followed.delete(i) && !f.still) n.followedBackMoving++
+      } else if (!f.still && was.get(i) !== p) side.push(`frame ${k}: ${i} place ${was.get(i)} -> ${p}`)
     }
-    for (const i of was.keys()) if (!now.has(i)) { left.set(i, k); if (!rec[k].still) gone.add(i) }
+    for (const i of was.keys()) if (!now.has(i)) { if (f.c.includes(i)) { refused.set(i, f.t); n.refused++ } else { followed.add(i); n.followed++ } }
+    // at rest half a second after it left, a refused name's wait is over: from then on it is a newcomer like any other
+    if (f.still) for (const [i, g] of refused) if (f.t - g >= 0.5) refused.delete(i)
   }
-  expect(back, `${where}: a name that left while the camera moved comes back only at rest`).toEqual([])
+  expect(back, `${where}: a name the layout refused comes back only at rest`).toEqual([])
   expect(side, `${where}: while the camera moves a written name keeps its place`).toEqual([])
-  expect(flick, `${where}: no name leaves and comes back within half a second`).toEqual([])
+  expect(flick, `${where}: a name the layout refused is back no sooner than half a second after it left`).toEqual([])
+  return n
 }
 
-/** One drawn frame, recorded: the frame's own call (moving or at rest), the camera, and the moves' names with their places. */
+/** From now on, the moves each drawn frame hands the planner (`__mnCands`): the instance's `_planNames` wraps the
+ *  prototype's, which still decides; a frame with no move pass hands none. */
+const watchCands = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural, proto = Object.getPrototypeOf(a)
+  a._planNames = function (pass: string, ctx: W, cands: W[], ...rest: W[]) { if (pass === "move") a.__mnCands = cands.map((c: W) => c.i); return proto._planNames.call(this, pass, ctx, cands, ...rest) }
+})
+
+/** One drawn frame, recorded: the frame's own call (moving or at rest), its clock, the camera, the moves handed the planner,
+ *  and the moves' names with their places. */
 const recFrame = (page: Page, step = 17) => page.evaluate((step) => {
-  const a = (window as W).__neural; a.advance(step)
-  return { still: !!a._camStill, vw: a.cam.vw, cx: a.cam.cx, cy: a.cam.cy, on: (a._lastNameBoxes || []).filter((b: W) => b.w === "move").map((b: W) => [b.i, b.k]) }
+  const a = (window as W).__neural; a.__mnCands = []; a.advance(step)
+  return { still: !!a._camStill, t: a.now, c: a.__mnCands, vw: a.cam.vw, cx: a.cam.cx, cy: a.cam.cy, on: (a._lastNameBoxes || []).filter((b: W) => b.w === "move").map((b: W) => [b.i, b.k]) }
 }, step)
 
 for (const vp of VPS) {
@@ -286,6 +322,10 @@ for (const vp of VPS) {
           expect(u.admit, `${where}: the camera rests (new names are dealt)`).toBe(true)
           expect(u.missed, `${where}: at rest no dealt move with a free place is left unnamed`).toEqual([])
           refused += u.refused
+          // ...and that frame, where the names the jump dropped come BACK, holds every claim too (R2 D1: the settled,
+          // pulled-back map is the owner's own case; its names are the ones a mutant can misplace while every earlier frame
+          // stays clean)
+          checkFrame(await audit(page), `${where}, settled`)
         }
       }
       console.log(`[map-names] ${vp.width}: ${written} move names written at rest over 3 seats x 4 zooms`)
@@ -344,17 +384,18 @@ for (const vp of VPS) {
 
     // R1 findings 7 and 9: the follow camera's ease back from 4 times out, recorded frame by frame at three frame steps (a
     // 120 Hz, 60 Hz and 30 Hz screen: `advance(step)` draws once per call), held against the rule per SECOND
-    for (const step of [1000 / 120, 1000 / 60, 1000 / 30]) test(`names hold through an ease at a ${Math.round(1000 / step)} Hz step: none back before rest, none changes side while moving, the frame's call per second (${vp.width})`, async ({ page }) => {
+    for (const step of [1000 / 120, 1000 / 60, 1000 / 30]) test(`names hold through an ease at a ${Math.round(1000 / step)} Hz step: a name the layout refused is back only at rest, none changes side while moving, the frame's call per second (${vp.width})`, async ({ page }) => {
       test.setTimeout(240_000)
       await seat(page, "Standing Position Top", "top")
       const cam0 = await camOf(page)
       await pullBack(page, 4, cam0)
       // no input for 4 s of game time: the follow camera takes the map back and eases in. Every frame recorded.
+      await watchCands(page)
       const rec = await page.evaluate((step) => {
         const a = (window as W).__neural, frames: W[] = []
         for (let k = 0; k < Math.round(6800 / step); k++) {
-          a.advance(step)
-          frames.push({ still: !!a._camStill, vw: a.cam.vw, cx: a.cam.cx, cy: a.cam.cy, on: (a._lastNameBoxes || []).filter((b: W) => b.w === "move").map((b: W) => [b.i, b.k]) })
+          a.__mnCands = []; a.advance(step)
+          frames.push({ still: !!a._camStill, t: a.now, c: a.__mnCands, vw: a.cam.vw, cx: a.cam.cx, cy: a.cam.cy, on: (a._lastNameBoxes || []).filter((b: W) => b.w === "move").map((b: W) => [b.i, b.k]) })
         }
         return frames
       }, step)
@@ -369,7 +410,7 @@ for (const vp of VPS) {
         if (z < 0.096 && pan < 24 && !rec[k].still) wrong.push(`frame ${k}: resting (${z.toFixed(3)}/s, ${pan.toFixed(1)} px/s) called moving`)
       }
       expect(wrong, "the frame calls the camera moving or at rest per second, whatever the frame rate").toEqual([])
-      holdCheck(rec, `ease at ${Math.round(1000 / step)} Hz`, step)
+      holdCheck(rec, `ease at ${Math.round(1000 / step)} Hz`)
       expect(rec[rec.length - 1].on.length, "names are dealt again once the camera rests").toBeGreaterThan(2)
       if (step === 1000 / 60) {
         // held: the same camera, frame after frame, reuses the last plan (the same object)
@@ -446,6 +487,44 @@ test.describe("what the pointer is on is named (1440x900)", () => {
   })
 })
 
+test.describe("a lit node under the mouse is named once (1440x900)", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+
+  test("a located node with the mouse on it: the pointer's label names it and nothing names it again (R2 D3)", async ({ page }) => {
+    test.setTimeout(240_000)
+    await seat(page, "Standing Position Top", "top")
+    // nodes not dealt and not the position's pair, whose name no dealt move and not the position shares (so one string is one node)
+    const cands: number[] = await page.evaluate(() => {
+      const a = (window as W).__neural, f = a.focusIdx, taken = new Set([...a.optionIdxs, f, a.nodes[f].pi].filter((i: number) => i >= 0).map((i: number) => a.graphName(a.nodes[i])))
+      return a.nodes.filter((n: W) => n.rep && !a.optionIdxs.includes(n.idx) && n.idx !== f && n.idx !== a.nodes[f].pi && !taken.has(a.graphName(n))).map((n: W) => n.idx).slice(0, 40)
+    })
+    // the ink of one name, the pointer's label perhaps trimmed by the fitter ("Name…")
+    const inked = (name: string) => page.evaluate((name) => (((window as W).__mnInk || []) as W[]).filter((q) => q.s === name || (q.s.endsWith("…") && name.startsWith(q.s.slice(0, -1)))).length, name)
+    let done: W = null
+    for (const i of cands) {
+      await page.mouse.move(4, 4)
+      await page.evaluate((i) => (window as W).__neural.locateNode(i), i)
+      for (let k = 0; k < 5; k++) await journey(page).advance(200)   // the flight settles; the light lasts 3.2 s
+      const o = await page.evaluate((i) => {
+        const a = (window as W).__neural, s = a.W / a.cam.vw, n = a.nodes[i], x = (n.x - a.cam.cx) * s + a.W / 2, y = (a._LY(n) - a.cam.cy) * s + a.H / 2
+        const r = a.canvas.getBoundingClientRect()
+        return { x: x + r.left, y: y + r.top, name: a.graphName(n), map: document.elementFromPoint(x + r.left, y + r.top) === a.canvas, named: (a._lastNameBoxes || []).some((b: W) => b.i === i && b.w === "point") }
+      }, i)
+      if (!o.map || !o.named) continue   // the light names it before the pointer comes (the case the lit pass would repeat)
+      expect(await inked(o.name), `${o.name}: lit and located, named once by its light`).toBe(1)
+      await page.mouse.move(o.x, o.y)
+      await journey(page).advance(34)
+      const h = await page.evaluate((i) => { const a = (window as W).__neural, n = a.nodes[i], h = a._lastHoverLabel, p = a._lastPairLabel; return { on: !!a._hover && (a._hover.idx === i || a._hover.idx === n.pi), named: !!((h && (h.idx === i || h.idx === n.pi)) || (p && (p.idx === i || p.idx === n.pi))), lit: a.now - n.lit < 3.2 } }, i)
+      if (!h.on) continue   // a nearer node won the pick
+      done = { ...o, ...h, count: await inked(o.name) }
+      break
+    }
+    expect(done, "a located node, named by its light, the mouse then on its orb").not.toBeNull()
+    expect([done.named, done.lit], `${done.name}: the pointer's label names it, its light still on`).toEqual([true, true])
+    expect(done.count, `${done.name}: the located node under the mouse is inked once`).toBe(1)
+  })
+})
+
 test.describe("a card turned up by touch names its orb (390x631)", () => {
   test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true })
 
@@ -483,31 +562,85 @@ test.describe("a card turned up by touch names its orb (390x631)", () => {
   })
 })
 
+test.describe("the drawer open on a desktop (1440x900)", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+
+  test("no name for an orb under the open drawer or wholly under a control, and the map beside it still named (R2 D4)", async ({ page }) => {
+    test.setTimeout(240_000)
+    let written = 0, last: W = null
+    // Ushiro Ashi-Garami top first: the seat where the survey found it, three names beside orbs under the open drawer (an orb
+    // at x 328 to 351, the drawer's edge near 360; head 130b654f5, the usual zoom and pulled back 2 times)
+    for (const [title, role] of ([["Ushiro Ashi-Garami Top", "top"]] as Array<[string, "top" | "bottom"]>).concat(SEATS)) {
+      const j = await seat(page, title, role)
+      await j.clickByMouse(".ng-logo", "open the drawer")
+      await j.advance(600)
+      expect(await page.evaluate(() => !!(window as W).__neural.deckShown), `${title}: the drawer is open`).toBe(true)
+      const cam0 = last = await camOf(page)
+      for (const f of [1, 2, 4]) {
+        const where = `${title} (${role}) drawer open x${f}`
+        await pullBack(page, f, cam0)
+        checkFrame(await audit(page), `${where}, at rest`)
+        await j.advance(520)
+        const r = await audit(page)
+        checkFrame(r, `${where}, settled`)
+        written += r.moves
+      }
+    }
+    console.log(`[map-names] drawer open at 1440: ${written} move names settled over 4 seats x 3 zooms`)
+    expect(written, "the map beside the open drawer is still named").toBeGreaterThan(20)
+    // ...and the map dragged left under the open drawer, 5 px a frame (Standing top, the usual zoom): a written name keeps its
+    // place while the camera moves, so an orb sliding wholly under the drawer must take its name with it
+    await pullBack(page, 1, last)
+    const at = { x: 1100, y: 300 }
+    expect(await page.evaluate((p) => document.elementFromPoint(p.x, p.y) === (window as W).__neural.canvas, at), "the drag starts on the map beside the drawer").toBe(true)
+    await page.mouse.move(at.x, at.y); await page.mouse.down()
+    const hid: string[] = []
+    let slid = 0
+    for (let k = 1; k <= 80; k++) {
+      await page.mouse.move(at.x - 5 * k, at.y)
+      await journey(page).advance(17)
+      if (k % 2) continue
+      const r = await audit(page)
+      hid.push(...r.hidOrb.map((x: string) => `step ${k}: ${x}`)); slid = Math.max(slid, r.hidden)
+    }
+    await page.mouse.up()
+    expect(slid, "dealt orbs slid wholly under the drawer during the drag").toBeGreaterThan(0)
+    expect(hid, "no name for an orb wholly under the drawer, while dragging under it").toEqual([])
+  })
+})
+
 test.describe("a drag (1440x900)", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
 
-  test("a mouse drag across the map: names never come back before the camera rests, never change side while it moves, none for an orb off the canvas", async ({ page }) => {
+  test("a mouse drag across the map and back: a name the layout refused never comes back before the camera rests, a name follows its orb off the canvas and back, none changes side while it moves, none for an orb off the canvas", async ({ page }) => {
     test.setTimeout(240_000)
     await seat(page, "Standing Position Top", "top")
     const cam0 = await camOf(page)
     await pullBack(page, 2, cam0)
-    // pressed on the open map above the row, then 240 moves of 3 px left and 1 px down, one drawn frame each (R1 finding 7)
+    await watchCands(page)
+    // pressed on the open map above the row, then 120 moves of 6 px left and 2 px down and 120 straight back, one drawn
+    // frame each (R1 finding 7; R2 D2: a drag that REVERSES brings back orbs that left the canvas, with their names)
     const at = { x: 1300, y: 330 }
     expect(await page.evaluate((p) => document.elementFromPoint(p.x, p.y) === (window as W).__neural.canvas, at), "the drag starts on the map").toBe(true)
     await page.mouse.move(at.x, at.y); await page.mouse.down()
     const rec: W[] = [], off: string[] = []
     for (let k = 1; k <= 240; k++) {
-      await page.mouse.move(at.x - 3 * k, at.y + k)
+      const d = k <= 120 ? k : 240 - k
+      await page.mouse.move(at.x - 6 * d, at.y + 2 * d)
       const f = await recFrame(page)
       rec.push(f)
-      if (k % 20 === 0) off.push(...(await audit(page)).offOrb.map((x: string) => `step ${k}: ${x}`))
+      if (k % 20 === 0) { const r = await audit(page); off.push(...r.offOrb.concat(r.hidOrb).map((x: string) => `step ${k}: ${x}`)) }
     }
     await page.mouse.up()
     const rest = await recFrame(page)
     expect(rec.filter((f) => !f.still).length, "the drag moved the camera on (almost) every frame").toBeGreaterThan(200)
     expect(Math.max(...rec.map((f) => f.on.length)), "names were written during the drag").toBeGreaterThan(3)
-    holdCheck(rec.concat([rest]), "the drag")
-    expect(off, "no name for an orb drawn off the canvas, while dragging").toEqual([])
+    const n = holdCheck(rec.concat([rest]), "the drag")
+    console.log(`[map-names] the drag: ${n.refused} names the layout refused, ${n.followed} left with their orb, ${n.followedBackMoving} of those back with it while moving`)
+    // NON-TRIVIAL: both halves of the rule had subjects in this recording
+    expect(n.refused, "the layout refused names while the camera moved (the rule above had names to judge)").toBeGreaterThan(0)
+    expect(n.followedBackMoving, "a name whose orb left the canvas came back with it while the camera still moved").toBeGreaterThan(0)
+    expect(off, "no name for an orb drawn off the canvas or wholly under a control, while dragging").toEqual([])
     expect(rest.still, "released, the camera rests").toBe(true)
   })
 })

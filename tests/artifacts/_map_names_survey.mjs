@@ -22,6 +22,7 @@
  *   crossOrb   labels crossing the drawn orb of another dealt move or of the position's pair (not their own)
  *   crossSeal  labels crossing a gold dot that is not their own (`_lastMapSeals`)
  *   crossBg    labels crossing any other orb drawn on screen (the cloud: reported, not a target)
+ *   hidOrb     move names whose own orb lies wholly inside one painted control box (an open desktop drawer, a card)
  * and how many labels were written, by kind (the position's own, dealt moves, other), ON THE SETTLED FRAME: each case settles
  * half a second at the usual zoom, wheels, and records half a second after the camera rests (a name the jump dropped waits
  * that long before it may come back); `jump` counts the moves named on the wheel's own frame, `rest1` on the first at rest,
@@ -227,6 +228,14 @@ async function measure(page) {
       if (seals.some((s) => !own(s) && circ(L.box, s, s.r))) { out.crossSeal++; out.faults.push(["crossSeal", L.text]) }
       if (orbs.some((o) => !o.hand && !own(o) && circ(L.box, o, o.R))) out.crossBg++
     }
+    // a move named beside an orb that lies WHOLLY under one painted control (the desktop drawer, a card): a name with no
+    // visible orb (R2 D4; `on(c)` in draw() now refuses one against `_nameBlocks`' own boxes and the free edge)
+    out.hidOrb = 0
+    for (const L of labels) {
+      if (!/move/.test(L.kind)) continue
+      const o = orbs.find((o) => o.idx === L.idx)
+      if (o && painted.some((p) => !p.star && p.l <= o.x - o.R && p.r >= o.x + o.R && p.t <= o.y - o.R && p.b >= o.y + o.R)) { out.hidOrb++; out.faults.push(["hidOrb", L.text, [o.x | 0, o.y | 0, o.R | 0]]) }
+    }
     out.hand = (a.optionIdxs || []).length
     out.jump = jump; out.rest1 = rest1
     out.inView = (a.optionIdxs || []).filter((i) => orbs.some((o) => o.idx === i && o.x > 0 && o.x < W && o.y > 0 && o.y < H)).length
@@ -341,14 +350,14 @@ const rows = new Map()
 for (const c of result.cases) {
   if (c.error) continue
   const k = c.vp + " " + c.drawer + " x" + c.zoom
-  const r = rows.get(k) || { cases: 0, jumpNames: 0, rest1Names: 0, positionNames: 0, moveNames: 0, otherNames: 0, overlaps: 0, near: 0, cut: 0, trimmed: 0, under: 0, crossOrb: 0, crossSeal: 0, crossBg: 0, inView: 0, inMap: 0, hand: 0 }
+  const r = rows.get(k) || { cases: 0, jumpNames: 0, rest1Names: 0, positionNames: 0, moveNames: 0, otherNames: 0, overlaps: 0, near: 0, cut: 0, trimmed: 0, under: 0, crossOrb: 0, crossSeal: 0, crossBg: 0, hidOrb: 0, inView: 0, inMap: 0, hand: 0 }
   r.cases++; r.jumpNames += c.jump || 0; r.rest1Names += c.rest1 || 0; r.positionNames += c.written.position; r.moveNames += c.written.move; r.otherNames += c.written.other
-  for (const f of ["overlaps", "near", "cut", "trimmed", "under", "crossOrb", "crossSeal", "crossBg", "inView", "inMap", "hand"]) r[f] += c[f]
+  for (const f of ["overlaps", "near", "cut", "trimmed", "under", "crossOrb", "crossSeal", "crossBg", "hidOrb", "inView", "inMap", "hand"]) r[f] += c[f] || 0
   rows.set(k, r)
 }
 result.table = Object.fromEntries(rows)
 fs.mkdirSync(path.dirname(path.resolve(OUT)), { recursive: true })
 fs.writeFileSync(OUT, JSON.stringify(result, null, 1))
-console.log("case (counts on the frame SETTLED, half a second at rest after the wheel; jumpN the wheel's own frame, rest1N the first frame at rest)   n  posN moveN othN jumpN rest1N | overlap near  cut trim under | xOrb xSeal  xBg | inView inMap hand")
-for (const [k, r] of rows) console.log(k.padEnd(24), String(r.cases).padStart(2), String(r.positionNames).padStart(5), String(r.moveNames).padStart(5), String(r.otherNames).padStart(4), String(r.jumpNames).padStart(5), String(r.rest1Names).padStart(6), "|", String(r.overlaps).padStart(7), String(r.near).padStart(4), String(r.cut).padStart(4), String(r.trimmed).padStart(4), String(r.under).padStart(5), "|", String(r.crossOrb).padStart(4), String(r.crossSeal).padStart(5), String(r.crossBg).padStart(4), "|", String(r.inView).padStart(6), String(r.inMap).padStart(5), String(r.hand).padStart(4))
+console.log("case (counts on the frame SETTLED, half a second at rest after the wheel; jumpN the wheel's own frame, rest1N the first frame at rest)   n  posN moveN othN jumpN rest1N | overlap near  cut trim under | xOrb xSeal  xBg hidOrb | inView inMap hand")
+for (const [k, r] of rows) console.log(k.padEnd(24), String(r.cases).padStart(2), String(r.positionNames).padStart(5), String(r.moveNames).padStart(5), String(r.otherNames).padStart(4), String(r.jumpNames).padStart(5), String(r.rest1Names).padStart(6), "|", String(r.overlaps).padStart(7), String(r.near).padStart(4), String(r.cut).padStart(4), String(r.trimmed).padStart(4), String(r.under).padStart(5), "|", String(r.crossOrb).padStart(4), String(r.crossSeal).padStart(5), String(r.crossBg).padStart(4), String(r.hidOrb).padStart(6), "|", String(r.inView).padStart(6), String(r.inMap).padStart(5), String(r.hand).padStart(4))
 console.log("errors:", (result.errors || []).length, "failed seats:", result.cases.filter((c) => c.error).length)

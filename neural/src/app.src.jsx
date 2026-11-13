@@ -21040,9 +21040,9 @@ class Component extends DCLogic {
   // A DECISION PER CAMERA STATE, NOT A RE-DEAL EVERY FRAME (the brief's "names must not blink while the camera eases"): a
   // written name is tested first, with less air than a newcomer, so it is never bumped by a neighbour whose turn came first
   // and cannot toggle at a boundary (it leaves at 3 px, comes back only at 6); and while the camera MOVES (pan or zoom, per
-  // second: `admit` false, `draw()`), a written name keeps its own place or leaves, never changes side, and a name that left
-  // comes back only at rest and no sooner than half a second after it left; a newcomer (an orb sliding into view) may come
-  // in while it moves. Measured: an ease from 4
+  // second: `admit` false, `draw()`), a written name keeps its own place or leaves, never changes side, and a name the layout
+  // refused comes back only at rest and no sooner than half a second after it left (one whose orb left the canvas follows
+  // the orb back: R2 D2, as ruled); a newcomer (an orb sliding into view) may come in while it moves. Measured: an ease from 4
   // times out re-dealt names every frame without this, one leaving and coming back within 3 frames on another side; a slow
   // drag, 2 to 7. Measured over 12 recorded drags (240 frames, 3 px a frame) against "nothing comes in until rest": the same
   // 0 returns and 0 changes of side, and more names on screen while moving (1440 dragging down: 7.4 a frame against 3.4,
@@ -21055,8 +21055,9 @@ class Component extends DCLogic {
   // `w` its kind: position, travel, hover, star, point, move, lit; `i` its node; `k` a planned name's place).
   _planNames(pass, ctx, cands, claims, orbs, sig, admit, A) {
     const nm = this._nm || (this._nm = {}), memo = nm[pass] || (nm[pass] = { prev: new Map(), gone: new Map() }), gone = memo.gone, t = this.now;
-    // a name that LEFT waits: while the camera moves until it rests, and at rest until half a second has passed (R1: no name
-    // leaves and comes back within half a second); the live waits are in the key, so a held camera re-plans as one ends
+    // a name the layout REFUSED waits: while the camera moves until it rests, and at rest until half a second after it left
+    // (R1: no such name leaves and comes back within half a second); the live waits are in the key, so a held camera
+    // re-plans as one ends
     sig += A.v + A.l + "|" + [...gone.values()].filter((g) => t - g < 0.5).length;
     if (memo.sig !== sig) {
       const plan = new Map(), prev = memo.prev, G = claims.length, K24 = [...Array(24).keys()], K = K24.slice(0, 8);
@@ -22015,15 +22016,22 @@ class Component extends DCLogic {
       // (0.2% and 0.5 px at 60 Hz, so 30 Hz and 120 Hz screens agree). While it moves a written name keeps ITS place or
       // leaves (`_planNames`' `admit`). A pan
       // counts, not only a zoom: on a slow drag 4 times out the zoom-only rule let 2 to 7 names leave and come back within
-      // half a second, and at the usual zoom names hopped side 5 to 53 times as the chrome came near. A name that left during
-      // the motion comes back only at rest; an orb that slides into view may be named while it moves (`_planNames`).
+      // half a second, and at the usual zoom names hopped side 5 to 53 times as the chrome came near. A name the LAYOUT
+      // refused comes back only at rest, and no sooner than half a second after it left; a name whose orb left the canvas
+      // (or went under a control) follows its orb back, and an orb that slides into view may be named while it moves.
       const zk = Math.log(this.cam.vw), cp = this._camPrev, dtD = cp ? this.now - cp.t : 0;
       const still = !cp || Math.abs(zk - cp.z) <= 0.12 * dtD && Math.hypot(this.cam.cx - cp.x, this.cam.cy - cp.y) * scale <= 30 * dtD;
       this._camPrev = { z: zk, x: this.cam.cx, y: this.cam.cy, t: this.now }; this._camStill = still;   // published: the frame's own call
       const cand = (n, sx, sy, extra) => ({ i: n.idx, n, sx, sy, hw: halfW(n), r: this._nodeHalfW(n, scale, nodeK, kLOD, true), s: this.graphName(n), ...extra });
       // a name only for an orb whose own silhouette is on the canvas (R1 finding 5: a far-side place could name an orb
-      // drawn wholly off the screen, at the edge, where it reads as the name of whatever orb is nearest)
-      const on = (c) => c.sx + c.r > 0 && c.sx - c.r < W && c.sy + c.r > 0 && c.sy - c.r < H;
+      // drawn wholly off the screen, at the edge, where it reads as the name of whatever orb is nearest), and neither wholly
+      // left of the map's free edge nor wholly inside one control (R2 D4: an open desktop drawer, the row): the same boxes
+      // the names clear (`NB`), no second measure
+      const on = (c) => c.sx + c.r > NB.l && c.sx - c.r < W && c.sy + c.r > 0 && c.sy - c.r < H
+        && !NB.blocks.some((q) => c.sx - c.r >= q.l && c.sx + c.r <= q.r && c.sy - c.r >= q.t && c.sy + c.r <= q.b);
+      // the node the pointer's label names (or its pair partner, which carries the same name) is named once (R2 D3: a lit
+      // node under the pointer was written by the pointer's label and again by the lit pass; dealt moves are skipped alike)
+      const hovd = (n) => _hovNode && (n.idx === _hovNode.idx || n.pi === _hovNode.idx) && claims.some((q) => q.w === "hover");
       // plan one pass (`_planNames`, keyed on everything its answer depends on) and write what it placed
       const write = (pass, cands, col) => {
         ctx.textBaseline = "bottom"; ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
@@ -22039,13 +22047,16 @@ class Component extends DCLogic {
       // was pointed at is named). A TRAIL of many (`flare(…, …, true)`: the travel path, the end-of-round cascade, a replay's
       // wide beat, the ripple to the dealt orbs) is best effort and named last: writing every name of a trail is the
       // pile-up the owner asked us to end. Never a dealt move (named below) nor a face-down move's pair partner, which
-      // carries the hidden move's name (R1 finding 10, an old leak in this loop).
+      // carries the hidden move's name (R1 finding 10, an old leak in this loop), nor the node the pointer names.
+      // A pointed node claims BEFORE the dealt moves, so for its 3.2 s of light it can push a written move's name off; when
+      // the light fades that name comes back at its old place if it still has 3 px of air, else it is a newcomer needing 6
+      // (measured at 1440 x4: 5 of 15 pointed nodes pushed one name each, 4 came back, 1 stayed off; R2 D5, as ruled).
       const point = [], trail = [], litCol = (c) => this.rgba({ r: 238, g: 241, b: 246 }, 0.8 * c.k * A);
       for (const n of this.nodes) {
         if (!rsOk[n.idx]) continue;
         const age = this.now - n.lit; if (age > 3.2 || n.idx === drawFocus) continue;
         if (this.activeMove && n.idx === this.activeMove.idx) continue;
-        if (this.optionIdxs.indexOf(n.idx) >= 0 || (hmDown && hmDown.has(n.idx))) continue;
+        if (this.optionIdxs.indexOf(n.idx) >= 0 || (hmDown && hmDown.has(n.idx)) || hovd(n)) continue;
         const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { k: Math.max(0, 1 - age / 3.2), act: !n.litT });
         if (on(c)) (c.act ? point : trail).push(c);
       }
@@ -22070,7 +22081,7 @@ class Component extends DCLogic {
           // in-node pass was deleted for. Never possible before: an option was never the focus.
           if (idx === drawFocus || (drawFocus >= 0 && n.pairId && this.nodes[drawFocus].pairId === n.pairId)) continue;
           // ...and the same for the orb the pointer names (it used to be printed twice, the option's name under the hover's)
-          if (_hovNode && (idx === _hovNode.idx || n.pi === _hovNode.idx) && claims.some((q) => q.w === "hover")) continue;
+          if (hovd(n)) continue;
           const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { act: acted.has(idx) });
           if (on(c)) cands.push(c);
         }
