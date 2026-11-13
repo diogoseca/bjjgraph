@@ -444,6 +444,8 @@ async function dangerSettings(page: Page) {
   await j.clickByMouse('#ng-stab-rolling', 'open Rolling settings')
   // Scroll the real panel; clickByMouse never scrolls an off-screen control for us.
   for (let i = 0; i < 8; i++) {
+    // FLAKE1 (v1.270.1): measure a still row, never one a previous wheel is still moving (the caller presses right after)
+    if (i) await j.scrollSettled('[data-danger-animation]')
     const row = await page.locator('[data-danger-animation]').boundingBox()
     const panel = (await page.locator('[role="tabpanel"]').boundingBox())!
     if (row && row.y + row.height < panel.y + panel.height && row.y >= panel.y) break

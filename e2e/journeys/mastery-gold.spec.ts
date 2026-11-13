@@ -45,6 +45,9 @@ async function openSettings(page: Page, j: ReturnType<typeof journey>) {
   await page.mouse.move(panel!.x + panel!.width / 2, panel!.y + panel!.height / 2);
   await page.mouse.wheel(0, 800);
   await page.waitForTimeout(150);
+  // FLAKE1 (v1.270.1): the fixed wait alone let a press measure the row before the scroll had moved it (1 in 247; 10 of 10
+  // with the wait at 0). Every press below waits for the row to hold still.
+  await j.scrollSettled("[data-mastery-gold]");
 }
 const choose = (j: ReturnType<typeof journey>, on: boolean) =>
   j.clickByMouse(`[data-mastery-gold] button:nth-child(${on ? 1 : 2})`, on ? "mastery gold On" : "mastery gold Off");
