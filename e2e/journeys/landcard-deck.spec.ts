@@ -547,6 +547,8 @@ for (const width of [1440, 390, 320]) {
     expect(box!.height).toBeGreaterThanOrEqual(44)
     await j.clickByMouse("[data-land-next]")
     await expect(prev).toHaveAttribute("aria-disabled", "false")
+    // DECK1 (v1.265.2): every aim that follows a page waits for the reader to lay that page out (see the walk below).
+    await j.readerLayoutSettled()
     const left = await prev.boundingBox()
     if (width === 1440) {
       // v1.252.1, #346's review (finding 1): from 1,350px free the reader's index holds the margin left of the face, and Previous sat
@@ -576,13 +578,26 @@ for (const width of [1440, 390, 320]) {
       return el.contains(document.elementFromPoint(b.x + b.width / 2, b.y + b.height / 2))
     })).toBe(false)
     await page.evaluate(() => (window as any).__neural._suppressLand(false))
+    // DECK1 (v1.265.2): AIM AT THE PAGE THAT IS LAID OUT. A Next press mounts the new card in its own task, so the wait below passes
+    // at once (waitForFunction tests before any frame), while the arrows' place for that card (the nav's height and --guide-y) is
+    // written by the reader's NEXT frame (reader.src.js layoutNow). Without the settle, clickByMouse could measure Next where the
+    // previous card had it and press after that frame moved it: CLAUDE.md §6.3, "a spot no frame ever paints". At 320 the third card
+    // (the tall draw of its unrigged answers) puts Next's top at 646 against the second card's 621, 25px, more than half its 44px, so
+    // the press at y 643 landed on the card, 3px above Next, and the wait for page 3 ran out. Recorded over 100 unrigged runs (496
+    // presses): 16 aims came before the new card's layout, the layout always landed before the press, and only the +25px one missed
+    // (aimed 14.5ms after the page changed, pressed 27ms after the press before); the 15 others moved 8 to 17px and still hit. 2 of 16
+    // runs on 13 Nov. Rigged (the pass held, released right after the measure, the draws pinned to the tall card): 10 of 10 red here,
+    // always the card at y 643; released right before it, 10 of 10 green. A finger aims at what a frame painted, so this is the
+    // spec's timing, not the app's.
     for (let index = 2; index < total; index++) {
+      await j.readerLayoutSettled()
       await j.clickByMouse("[data-land-next]")
       await page.waitForFunction((index) => (window as any).__neural._landPage === index, index)
     }
     await expect(next).toHaveAttribute("aria-disabled", "true")
     await expect(prev).toHaveAttribute("aria-disabled", "false")
     await expect(prev).toBeFocused()
+    await j.readerLayoutSettled()
     await j.clickByMouse("[data-land-prev]")
     await expect(next).toHaveAttribute("aria-disabled", "false")
     expect((await j.beats()).filter(b => b.beat === "land_q_answered")).toHaveLength(0)
