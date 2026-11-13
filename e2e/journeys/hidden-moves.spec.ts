@@ -68,8 +68,9 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  *                     gold border), now "the filled seal again" / "the filled seal, the ordinary border"
  *   what a card asks  was "a move you do not know yet: ... gold: false"  now seal null (the field renamed, same claim)
  *                     was "known and not due: ... gold: true"           now seal "known" (filled)
- *                     was "known and due: Still got it? ... gold: true"  now seal null: a due move wears NO seal (the
- *                     seal is the state "known", a Yes not due; a card being asked never wears one)
+ *                     was "known and due: Still got it? ... gold: true"  now seal null: a FACE-DOWN card wears no seal,
+ *                     revealed or not, so a card being asked never wears one (face up, moves shown, the same due move
+ *                     wears the filled seal: SEAL2, pinned by known-move-seal.spec.ts)
  *                     was "No takes the gold away"                       now "a No: still no seal" (it had none)
  *                     was "Yes keeps it gold"                            now "Yes gives it the filled seal"
  *   touch, one up     was `.mastered` true after the tap on Yes           now seal "known"
@@ -513,7 +514,8 @@ test("what a face-up card asks: unknown Yes only, known and due Still got it Yes
   await away(f.p)
 
   const d = await ask("due")
-  // v1.272.0: was gold: true ("still gold" while asked); a due move wears no seal, so a card being asked never says "you know it"
+  // v1.272.0: was gold: true ("still gold" while asked); a face-down card wears no seal, revealed or not, so a card being
+  // asked never says "you know it" (face up, moves shown, the same move wears the filled seal: SEAL2, known-move-seal.spec.ts)
   expect(d.r, "known and due: Still got it? Yes / No, and no seal").toEqual({ asking: true, q: "Still got it?", yes: 1, no: 1, seal: null, up: true })
   await page.waitForTimeout(ARM)
   await j.clickByMouse('[data-hk="due"] [data-grade="no"]', '"No"')

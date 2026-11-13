@@ -17106,8 +17106,50 @@ Proven: the wait at 0 failed 10 of 10 on the unchanged app (`elementFromPoint(54
 `scrollSettled` (same rect and own scrollTop on three frames running); with it, 10 of 10 green at wait 0. Same use in
 defending-arrivals `wheelTo` and defending-landing's Rolling loop. No app change.
 
-## v1.272.0 — A known move wears a gold seal, not a gold outline (the owner's pick a, SEAL1, 2026-11-13)
+## v1.272.0 — A known move wears a gold seal, not a gold outline (the owner's pick a, SEAL1 and SEAL2, 2026-11-13)
 
-The card's outline (U116, U122 a) became a seal from `_moveState`: filled = known, not due; hollow = flashcards
-learned, unanswered. The map's orb outline became a gold dot off the names (`_mapSeal`), one state. Mutants M0-M10:
-the header of e2e/journeys/known-move-seal.spec.ts.
+The owner: "The mastered cards show up with a golden outline, and this is confusing. It seems like this is the selected
+technique, and we're trying to guess this technique." His pick, "a, A gold seal in the corner": "A small filled seal:
+you answered Yes here. A hollow one: its flashcards are learned. It reads as a stamp on the card, and shrinks to a dot
+beside the name on the map", replacing "the gold outline everywhere a move wears it today".
+
+**Inventory (dev df19ddedc).** A known move wore gold in exactly two places: the row's card (`_goldCard`, CSS
+`data-mastered` "" / "2", thin / thick) and the map's orb (`_movesGold`, an outline in the base pass and again round
+the focus mark). Not this mark, left alone: "Turn what you know gold" (`masteryGold`, the orb's fill by flashcards),
+the reader, the index, the legend, the landing card, Settings (no sample card), the /dev catalog mock.
+
+**The card.** `_paintCard` reads `_moveState` once; `_applyHide` sets the face from it, then `_sealCard` reads the same
+state AND that face. A FACE-UP card whose row's last answer is a Yes (known or due) wears a FILLED seal (a gold coin,
+dark tick); a face-up card never answered whose flashcards are all learned, none due, a HOLLOW one (a gold ring on
+dark); a FACE-DOWN card (moves hidden: due, new; revealed or not) wears none, so a card being asked never says "you
+know this". Placed in the card's own unit (its title's 9 px side padding): 2 across, 1 in from the inner edge, 1 below
+the title band; measured card-relative (146, 54)-(164, 72) at 1440, 390 and 320, off the title band (to 45), the name,
+the play circle (65-109 across), the numbers (from 131) and the badge. Words "You know this move" / "Flashcards
+learned": its hover, and after the move's name in the card's accessible name (`_cardAria`). No gold border; the
+level-2 thick outline has no seal of its own (a Yes with its deck learned is "known"). A card asked by touch had no
+outline at all (a tap sets no hover): it now wears the hover's outline.
+
+**SEAL2.** The brief's first rule ("filled = a Yes, not due") faded every seal with moves SHOWN, where nothing ever asks
+"Still got it?": a due face-up card lost its mark (dev kept its gold). Corrected by the orchestrator: a Yes on a face-up
+card is sealed due or not; only the face takes it off. `_syncHideMoves` repaints the card, not the face alone.
+
+**The map (its own commit).** The outline round a known orb became a gold dot with a dark rim on the silhouette's edge
+(`_mapSeal`, from `shapePath`'s numbers), painted in the screen pass right after the option names: the up-right
+shoulder unless a name's ink box covers it, then the first free shoulder (at 390 a neighbour's name crossed one). One
+state on the same nodes (`_movesGold`, its level gone): U122 a's thick outline is gone, the flashcards side shows
+through mastery gold. The frame publishes `_lastMapSeals` and the option names' boxes `_lastOptBoxes`.
+
+**Proof.** e2e/journeys/known-move-seal.spec.ts, 6 tests (mouse 1440 hidden and shown, touch 390, touch 320 on Closed
+Guard bottom's 31-card row, the map at 1440 and 390), real dossier chunks served so play circles exist. Mutants on the
+served bundle (tests/artifacts/_seal_mutants.sh), each red at a named assertion, table in the spec's header: the outline
+back, the hollow seal despite a due flashcard, a seal on a due face-down card, a due face-up card unsealed (SEAL2's
+regression), the seal painted once, filled and hollow swapped, the seal over the title at 320, the touch-asked card
+bare, the setting flip repainting the face alone, and on the map the outline back, a dot on unknown orbs, the dot at
+`n.y`. Changed assertions in hidden-moves, known-moves-shown, moves-mastery and two units say what they claimed before.
+
+**Bytes.** neural.js +164 B (card) and +567 B (map) raw on dev's rows, neural.css +508 B; eager gzip +2,868 on its
+baseline (cap 5,000), first-hand core +4,145 (cap 6,000). The archive's ceiling rose by +50,000 in its own commit.
+
+**Not covered.** The browser tooltip itself (its `title` is asserted); the poster's light and dark frames (pictures
+only; the spec reads the light inside the seal); the map's dot under mastery gold and on the focus mark (pictures);
+the pair, hover and lit labels are drawn over the dots and do not steer them.

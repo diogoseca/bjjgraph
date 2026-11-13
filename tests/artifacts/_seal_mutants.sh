@@ -39,13 +39,18 @@ mutate neural.js '[neural] mastery gold unavailable' '[neural] mastery gold unav
 
 append neural.css '.ng-choice-card[data-seal]{border-color:rgba(232,196,106,.9);box-shadow:0 0 0 .5px rgba(232,196,106,.6),0 0 6px rgba(255,214,128,.22)}' && run "M1 the gold outline back (dev's own rule, on a sealed card)"; restore
 
-mutate neural.js 'let s=t==="known"||t==="learned"?t:null,' 'let s=t==="known"||t==="learned"?t:t==="new"&&!this._moveRow(e._choiceOpt)&&e._choiceOpt.action!=="escape"&&this.deckMastery(this.deckKeyFor(e._choiceOpt.node).key)>=1?"learned":null,' && node --check "$APP/neural.js" && run "M2 the hollow seal on a move with a due flashcard (deck learned, its due card ignored)"; restore
+# SEAL2 (the painter reads the state AND the face): the filled seal is any Yes on a FACE-UP card, due or not
+mutate neural.js 'let s=e.hasAttribute("data-hide")?null:t==="known"||t==="due"?"known":t==="learned"?"learned":null,' 'let s=e.hasAttribute("data-hide")?null:t==="known"||t==="due"?"known":t==="learned"||t==="new"&&!this._moveRow(e._choiceOpt)&&e._choiceOpt.action!=="escape"&&this.deckMastery(this.deckKeyFor(e._choiceOpt.node).key)>=1?"learned":null,' && node --check "$APP/neural.js" && run "M2 the hollow seal on a move with a due flashcard (deck learned, its due card ignored)"; restore
 
-mutate neural.js 'let s=t==="known"||t==="learned"?t:null,' 'let s=t==="due"?"known":t==="known"||t==="learned"?t:null,' && node --check "$APP/neural.js" && run "M3 the filled seal on a due move"; restore
+mutate neural.js 'let s=e.hasAttribute("data-hide")?null:t==="known"||t==="due"?"known":t==="learned"?"learned":null,' 'let s=t==="known"||t==="due"?"known":t==="learned"?"learned":null,' && node --check "$APP/neural.js" && run "M3a a seal on a due FACE-DOWN card (the face not read)"; restore
 
-mutate neural.js '_paintCard(e){let t=this._moveState(e._choiceOpt);this._sealCard(e,t),this._applyHide(e,t)}' '_paintCard(e){let t=this._moveState(e._choiceOpt);e._sealed||(e._sealed=1,this._sealCard(e,t)),this._applyHide(e,t)}' && node --check "$APP/neural.js" && run "M4 the seal on a face-down card (painted at the deal only, the face repainted alone)"; restore
+mutate neural.js 'let s=e.hasAttribute("data-hide")?null:t==="known"||t==="due"?"known":t==="learned"?"learned":null,' 'let s=e.hasAttribute("data-hide")?null:t==="known"?"known":t==="learned"?"learned":null,' && node --check "$APP/neural.js" && run "M3b a due FACE-UP card loses its seal (the first build, the regression SEAL2 fixed)"; restore
 
-mutate neural.js 'let s=t==="known"||t==="learned"?t:null,' 'let s=t==="known"?"learned":t==="learned"?"known":null,' && node --check "$APP/neural.js" && run "M5 filled and hollow swapped"; restore
+mutate neural.js '_paintCard(e){let t=this._moveState(e._choiceOpt);this._applyHide(e,t),this._sealCard(e,t)}' '_paintCard(e){let t=this._moveState(e._choiceOpt);this._applyHide(e,t),e._sealed||(e._sealed=1,this._sealCard(e,t))}' && node --check "$APP/neural.js" && run "M4 the seal on a face-down card (painted at the deal only, the face repainted alone)"; restore
+
+mutate neural.js 'let s=e.hasAttribute("data-hide")?null:t==="known"||t==="due"?"known":t==="learned"?"learned":null,' 'let s=e.hasAttribute("data-hide")?null:t==="known"||t==="due"?"learned":t==="learned"?"known":null,' && node --check "$APP/neural.js" && run "M5 filled and hollow swapped"; restore
+
+mutate neural.js 'for(let t of this._optionCards||[])t.card&&t.opt&&this._paintCard(t.card);this._paintHideSwitch(' 'for(let t of this._optionCards||[])t.card&&t.opt&&this._applyHide(t.card);this._paintHideSwitch(' && node --check "$APP/neural.js" && run "M11 the setting flipped repaints the face alone (as before SEAL2): a face-down card keeps its seal"; restore
 
 append neural.css '@media (max-width:330px){.ng-choice-seal{top:20px}}' && run "M6 the seal over the title, at 320 wide only"; restore
 

@@ -42,7 +42,7 @@ import { journey } from "../dsl"
  * this is confusing. It seems like this is the selected technique"; his pick "a, A gold seal in the corner": "A small
  * filled seal: you answered Yes here. A hollow one: its flashcards are learned"). The card's claims moved from
  * `data-mastered` ("" thin, "2" thick) to `data-seal`, and each says what it claimed before:
- *   the seeded known move  was "wears thin gold" ("")      it is DUE, so now "no seal" (a due move wears none)
+ *   the seeded known move  was "wears thin gold" ("")      it is DUE and FACE DOWN (moves hidden), so now "no seal"
  *   a Yes, mouse and touch was "thin gold on the card" ("") now the filled seal ("known")
  *   the No                 was "the No takes the gold away" now "no seal" (it had none: it was due)
  *   the gold test, card    was level 1 "the 1px gold border and a .5px ring", level 2 "the border and a 2px ring"
@@ -196,7 +196,8 @@ test("a Yes adds 15 to that card's Works % and sends the worker a new profile; a
   const j = await seat(page)
   const r0 = await read(page), y0 = by(r0, "y"), due0 = by(r0, "due"), line0 = await line(page, j)
   expect(line0, "one move known at boot, of every pair dealt in gi").toEqual({ known: 1, total: PAIRS_GI })
-  // v1.272.0: was "the seeded known move wears thin gold" (""); it is due, and a due move wears no seal
+  // v1.272.0: was "the seeded known move wears thin gold" (""); it is due and face down (moves hidden): no seal. Face up
+  // (moves shown) a due move wears the filled seal (SEAL2), pinned by known-move-seal.spec.ts
   expect(due0.seal, "the seeded known move is due: no seal").toBeNull()
   expect(y0.seal, "the move to grade is not known yet: no seal").toBeNull()
   expect(r0.permanent[y0.key] || 0, "...and its deck holds no permanent bonus").toBe(0)

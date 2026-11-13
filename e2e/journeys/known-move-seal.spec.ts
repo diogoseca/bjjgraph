@@ -14,9 +14,13 @@ import { journey } from "../dsl"
  * THE RULE, one state per move (`_moveState`, the same read that decides the face with moves hidden):
  *   known    a Yes in the row, not due                     data-seal="known"    a FILLED gold disc
  *   learned  never answered, its flashcards learned, none due data-seal="learned" a HOLLOW gold ring
- *   due      a Yes in the row, due                          no seal (it is the card asked "Still got it?")
+ *   due      a Yes in the row, due                          FACE UP (moves shown): the filled seal, as known;
+ *                                                           FACE DOWN (moves hidden, the card asked "Still got it?"): none
  *   new      never met (or a No)                            no seal
- * The card's border is the ordinary one in every state.
+ * The card's border is the ordinary one in every state. SEAL2 (the orchestrator's correction of its own brief): the
+ * filled seal is today's gold moved off the border, a Yes DUE OR NOT ("you answered Yes here"); only a FACE-DOWN card
+ * wears none. The first build sealed "known" only, and with moves shown, where nothing asks "Still got it?", every seal
+ * faded as its interval ran out; test 2 pinned that ("the due card face UP and unsealed") and now pins the opposite.
  *
  * THE SEAT: Mount Top, five dealt moves seeded by their permanent share ordinals (node_ordinals.json), the seeds of
  * known-moves-shown.spec.ts: known Americana (a Yes, due in 9 days) · due Kimura (a Yes, due yesterday) · fresh Armbar
@@ -236,6 +240,9 @@ async function fourKinds(page: Page, hidden: boolean, where: string) {
     await into(page, card(k))
     const L = await look(page, card(k))
     if (k === "known" || k === "learned") { sealed(L, k, `${where}, ${k}`); expect(L.down, `${where}, ${k}: face up`).toBe(false) }
+    // SEAL2: the due move, a Yes in the row, is face up with moves shown and wears the FILLED seal (today's gold, due or
+    // not); with moves hidden it is face down, to be asked, and wears none
+    else if (k === "due" && !hidden) { sealed(L, "known", `${where}, due, face up: the filled seal, due or not`); expect(L.down, `${where}, due: face up (moves shown)`).toBe(false) }
     else { bare(L, `${where}, ${k}`); expect(L.down, `${where}, ${k}: ${hidden ? "face down" : "face up (moves shown)"}`).toBe(hidden) }
   }
   const lit = { known: await inside(page, card("known")), learned: await inside(page, card("learned")) }
@@ -302,9 +309,9 @@ test.describe("mouse 1440x900, moves hidden", () => {
 test.describe("mouse 1440x900, moves shown", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
 
-  test("moves shown: the due card is face up and wears no seal; the focused card's outline is not gold; a pull fills and empties a seal in place", async ({ page }) => {
+  test("moves shown: the due card is face up and wears the filled seal; a known move coming due keeps it; hiding takes it off a face-down card; focus; a pull fills and empties a seal in place", async ({ page }) => {
     test.setTimeout(240_000)
-    await seat(page, false)
+    const j = await seat(page, false)
     await page.mouse.move(2, 2)
     expect(await page.locator("[data-hide]").count(), "moves shown: nothing face down").toBe(0)
     await fourKinds(page, false, "1440 shown")
@@ -318,6 +325,28 @@ test.describe("mouse 1440x900, moves shown", () => {
     expect(f.ring.startsWith("solid") && !/232, 196, 106|240, 192, 90/.test(f.ring), `the focused card's ring is the focus colour, not gold (${f.ring})`).toBe(true)
     await sealedAt(page, "known", "known", "the focused known card")
     await page.evaluate(() => (document.activeElement as HTMLElement)?.blur())
+    // SEAL2, the regression the first build had: a new day makes the known move due; moves shown, nothing asks, and the
+    // card is face up, so it KEEPS its filled seal (and its words in the accessible name)
+    await comeBack(page, NEXT)
+    await page.waitForTimeout(300)
+    await sealedAt(page, "known", "known", "the known move, now due, face up with moves shown: it keeps the filled seal")
+    // hiding moves from the row's own word, by mouse: the two due moves turn face down and their seals go with the face
+    // (`_syncHideMoves` repaints the card, not only its face); the learned move stays face up and hollow
+    await page.mouse.move(2, 2)
+    await into(page, "[data-hide-switch]")   // the word rides the row's scroll
+    await j.clickByMouse("[data-hide-switch]", "the row's Hidden / Shown word")
+    for (const k of ["known", "due"]) {
+      await expect.poll(async () => (await look(page, card(k))).down, { message: `hidden: ${k} (due) face down` }).toBe(true)
+      bare(await look(page, card(k)), `moves hidden: ${k}, due and face down`)
+    }
+    await sealedAt(page, "learned", "learned", "moves hidden: the learned move stays face up and hollow")
+    await page.mouse.move(2, 2)
+    await into(page, "[data-hide-switch]")   // the word rides the row's scroll
+    await j.clickByMouse("[data-hide-switch]", "the row's Hidden / Shown word, again")
+    for (const k of ["known", "due"]) {
+      await expect.poll(async () => (await look(page, card(k))).down, { message: `shown again: ${k} face up` }).toBe(false)
+      await sealedAt(page, k, "known", `moves shown again: ${k}, due and face up, the filled seal again`)
+    }
     // another device answers: its Yes fills the hollow seal in place, its No takes the filled one away
     await pull(page, "learned", [DAY + 3, 3, DAY, 1])
     await sealedAt(page, "learned", "known", "another device's Yes on the learned move: the seal fills")

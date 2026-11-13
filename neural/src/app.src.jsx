@@ -14455,10 +14455,12 @@ class Component extends DCLogic {
   //   "new"    no row, or the last answer a No     face down; face up it asks "Did you get it?"   no seal
   //   "known"  the last answer a Yes, not due      FACE UP with moves hidden; asks nothing        FILLED seal
   //   "due"    the last answer a Yes, due today or before and not answered today
-  //                                                face down; face up it asks "Still got it?"     no seal
-  // His two words were ONE fact here: a card was gold exactly when its row's last answer was a Yes, and "up for review"
-  // is that same row's due date. So "gold and not up for review" is "known". Since v1.272.0 the mark IS that state
-  // (`_sealCard`): a due card wears no seal, so nothing on a card being asked says "you know this".
+  //                                                face down; face up it asks "Still got it?"     FILLED seal when face
+  //                                                                                                up (moves shown), none
+  //                                                                                                face down (`_sealCard`)
+  // His two words are ONE fact here: a card is gold (since v1.272.0, sealed) when its row's last answer is a Yes, and "up
+  // for review" is that same row's due date. So "gold and not up for review" is "known", and a due card goes face down
+  // to be asked; face down it wears no seal, so nothing on a card being asked says "you know this".
   // AND A MOVE WHOSE FLASHCARDS ARE ALL LEARNED (v1.268.0, KS2: he chose the other reading too, 13 Nov 05:47: "b, Also
   // a move whose flashcards are all learned"):
   //   "learned" no row, its deck learned, none of its cards due   FACE UP with moves hidden; asks nothing   HOLLOW seal
@@ -14509,11 +14511,17 @@ class Component extends DCLogic {
   // guess this technique."). His option read: "A small filled seal: you answered Yes here. A hollow one: its flashcards
   // are learned. It reads as a stamp on the card"; the question: "Whatever you pick replaces the gold outline
   // everywhere a move wears it today" and "the move being asked is the only thing with a strong outline".
-  //   "known"   (a Yes, not due)                     data-seal="known"    a FILLED gold disc with a dark tick
-  //   "learned" (no row, flashcards learned, none due) data-seal="learned"  a gold RING with a gold tick, dark inside
-  //   "new", "due"                                    no seal, no attribute
-  // So the seal is exactly the face-up reason with moves hidden: a sealed card is never face down, and a card that is
-  // asked ("Did you get it?" / "Still got it?") never wears one. Filled against hollow is a SHAPE (a disc against a
+  //   a FACE-UP card whose row's last answer is a Yes ("known" or "due")   data-seal="known"    a FILLED gold disc
+  //   a face-up card never answered, flashcards learned, none due         data-seal="learned"  a gold RING, dark inside
+  //   any FACE-DOWN card (`data-hide`, revealed or not), "new"            no seal, no attribute
+  // SEAL2 (v1.272.0, the orchestrator's correction of its own brief, 13 Nov): the filled seal is TODAY'S GOLD moved from
+  // the border, a Yes DUE OR NOT ("A small filled seal: you answered Yes here"; his standing rule: a redesign never takes
+  // away what an account earned). The first build sealed "known" only, so with moves SHOWN, where nothing ever asks
+  // "Still got it?", every seal faded as its interval ran out. The FACE is what takes it off: with moves hidden a due
+  // card is face down (to be asked), and a face-down card wears none, revealed or not, so a card being asked never says
+  // "you know this"; after a Yes it is face up and filled, after a No it is "new" and bare.
+  // ONE QUESTION, ONE ANSWER: `_paintCard` reads `_moveState` once, `_applyHide` sets the face from it, and the seal
+  // reads that state AND the face `_applyHide` just set (the card's `data-hide`); nothing else decides either. Filled against hollow is a SHAPE (a disc against a
   // ring), never only a colour. It is a real element, so a pointer over it gets its words (`title`) and the card's
   // accessible name says them after the move's name (`_cardAria`). The card's border stays its ordinary one: the
   // strong outlines in the row are the card under the pointer ([data-hover]), the focused one (:focus-visible) and a
@@ -14521,7 +14529,7 @@ class Component extends DCLogic {
   // U122 a: `data-mastered`, "" or "2") is gone with it: the seal has two kinds, and a move both answered Yes and
   // learned is "known" (the row rules). Nothing stored changes; this is paint over the one state above.
   _sealCard(card, st) {
-    const kind = st === "known" || st === "learned" ? st : null;
+    const kind = card.hasAttribute("data-hide") ? null : st === "known" || st === "due" ? "known" : st === "learned" ? "learned" : null;
     let el = card.querySelector("[data-choice-seal]");
     if (kind === card.getAttribute("data-seal") && (!kind || el)) return;
     if (kind) {
@@ -14531,13 +14539,14 @@ class Component extends DCLogic {
     } else { card.removeAttribute("data-seal"); el?.remove(); }
     this._cardAria(card);
   }
-  // THE CARD'S ONE READ: its seal and its face from a single `_moveState`, so the two cannot disagree (a card turned
-  // down by a new day loses its seal in the same call). At the deal, on every knowledge publish ("moves-card"), and
-  // when the tab comes back to the front (`_onVisHide`). Moves shown, `_applyHide` finds nothing to turn.
+  // THE CARD'S ONE READ: its face, then its seal, from a single `_moveState`, so the two cannot disagree (a card turned
+  // down by a new day loses its seal in the same call). At the deal, on every knowledge publish ("moves-card"), when the
+  // tab comes back to the front (`_onVisHide`) and when the setting flips under a hand (`_syncHideMoves`). Moves shown,
+  // `_applyHide` finds nothing to turn.
   _paintCard(card) {
     const st = this._moveState(card._choiceOpt);
-    this._sealCard(card, st);
     this._applyHide(card, st);
+    this._sealCard(card, st);
   }
   _paintHand() { for (const oc of this._optionCards || []) if (oc.card && oc.opt) this._paintCard(oc.card); }
   _hideCard(card) {
@@ -14694,7 +14703,7 @@ class Component extends DCLogic {
   // The face-up set starts over: a card left face up before the switch must not leave its orb named after it.
   _syncHideMoves() {
     this._hmLit = new Set();
-    for (const c of this._optionCards || []) this._applyHide(c.card);
+    for (const c of this._optionCards || []) if (c.card && c.opt) this._paintCard(c.card);   // the face, and the seal it allows (SEAL2)
     this._paintHideSwitch(this.optionsRef.current?.querySelector('[data-choice-group="you"] > div'));
   }
   // ── THE `moves` RECORD (v1.255.0, owner U116) ──────────────────────────────────────────────

@@ -75,8 +75,8 @@ import { journey } from "../dsl"
  * seal: you answered Yes here. A hollow one: its flashcards are learned"). This file's `gold` (`data-mastered`) became
  * `seal` (`data-seal`: "known" filled, "learned" hollow, null none). What each changed assertion claimed before:
  *   the three faces     was "gold: the two Yeses (due too), not the new one" [true, true, false]
- *                       now "the filled seal on the known move only" ["known", null, null]: a due move wears no seal
- *   coming back (mouse) was "...still gold (the last answer was a Yes)"   now "...and its seal gone (it is due now)"
+ *                       now "the filled seal on the known move only" ["known", null, null]: a due move FACE DOWN wears none
+ *   coming back (mouse) was "...still gold (the last answer was a Yes)"   now "...and its seal gone (it is due and face down)"
  *   the pull's No / Yes was "its gold gone" / "gold again"               now no seal / the filled seal
  *   learned (4 places)  was "face up, no gold"                           now "face up, the HOLLOW seal"
  *   learnedDue          was "face down, no gold"                         now "face down, no seal"
@@ -218,7 +218,7 @@ for (const vp of [{ width: 1440, height: 900 }, { width: 390, height: 631 }]) {
       await comeBack(page, NEXT)
       await expect.poll(async () => ({ ...(await face(page, "known")), seal: undefined }), { message: "coming back the next day: it is face down, as every move to recall" }).toEqual({ ...DOWN, seal: undefined })
       // v1.272.0: was true, "...still gold (the last answer was a Yes)"
-      expect((await face(page, "known")).seal, "...and its seal gone: it is due, and a card to be asked wears none").toBeNull()
+      expect((await face(page, "known")).seal, "...and its seal gone: due and face down, a card to be asked wears none").toBeNull()
       expect(await named(page, "known"), "...and the map no longer names it").toBe(false)
 
       const q = await pointOn(page, "known")
