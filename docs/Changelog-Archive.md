@@ -17159,3 +17159,89 @@ baseline (cap 5,000), first-hand core +4,145 (cap 6,000). The archive's ceiling 
 **Not covered.** The browser tooltip itself (its `title` is asserted); the poster's light and dark frames (pictures
 only; the spec reads the light inside the seal); the map's dot under mastery gold and on the focus mark (pictures);
 the pair, hover and lit labels are drawn over the dots and do not steer them.
+
+## v1.275.0 — Names on the map never sit on each other, are never cut by the screen, never run under a control (LABELS1, 2026-11-13)
+
+The owner, 13 Nov, looking at the map pulled back: "dunno why in the graph there are many techniques showing but they are
+unreadable like this you know, when they overlap, avoid that pls". The ordinary map, in play and zoomed out, at every size.
+
+**What the map wrote before.** Five canvas text paths, all in `draw()`: the position's label (`pairGroup` when its pair is
+split, `richLabel` when merged: side word, name, `from` line; a seat star beside the side word), the move in flight
+(`richLabel`), every dealt move's name (one fixed place: right of its ring, raised 7 px), the pointer's label (`pairGroup` on
+a split pair, else one label: YOUR MOVE, name, `from` line) and the lit trail (`flare`: the path a move travels, a row's
+locate, a replay's beats, the end-of-round trail, 3.2 s each). What decided a dealt move's name was written: its orb within
+60 px of the screen and its card face up. NOTHING tested one name against another, against the screen's edge or against a
+control; the only layout was v1.272.0's dot, which moved off an option name. The brief's "6 of Mount's 18 dealt moves are
+named on a phone" was the screen cull, not a choice. The pointer's label printed a dealt move's name a second time over the
+move's own, and the pointer over a card hovered the node under the card and named it there.
+
+**Measured (tests/artifacts/_map_names_survey.mjs).** 40 seats spread over the map (Mount top, Side Control top, Closed
+Guard bottom, Standing top, a four-move seat, then a 6x6 grid round robin), 390x631, 390x844 and 1440x900, the usual zoom and
+pulled back 2, 4 and 9 times by the app's own wheel handler, drawer shut and open: 960 frames, every `fillText` recorded with
+the ink box the browser measured, "under a control" from the browser's painted boxes (text line boxes, backgrounds, borders,
+icons, each cut by its clipping ancestors). Dev's bundle, the same instrument: overlapping pairs 71 / 213 / 455 / 959 on a
+phone at x1 / x2 / x4 / x9 (11 / 36 / 99 / 287 at 1440), cut names 26 / 34 / 15 / 24, names under a control 33 / 60 / 104 /
+161 (221 to 342 with the phone's drawer open, which takes the screen).
+
+**The rule (`_planNames`).** A name is written only where it can be read. In order of claim: the position's own label
+(never moved, never dropped: it always wins), then the pointer's label (its usual place, or the other side of its orb when
+that is not clear, `side`), then the moves acted on (the card under the pointer, the card holding keyboard focus, a card
+turned up by touch: 24 places, last resort across another orb), then the names written last time, each at its old place
+first, then the rest in the row's order (the cards left to right), then the lit trail. Each takes the first of eight places
+beside its orb (right raised, as always; right level and lowered; the same on the left; centred above and below) whose ink
+box, grown by its air, clears every name already claimed (one box per label, so nothing is written between a position's
+name and its side), every control over the map (`_nameBlocks`: derived from the wrap's and root's visible children and the
+reader's parts, measured once per drawn frame), the map's edge, and every other dealt orb with the reach of a dot
+on its shoulders (every orb, known or not: a grade never moves a name). A new name needs 6 px of air and an orb 6 px clear
+of every other dealt orb (designer's rule 5: a name belongs to one orb); a written one keeps its place down to 3 px.
+
+**Stability.** Margin hysteresis alone did not hold: recorded over the follow camera's ease from 4 times out, names were
+re-dealt every frame and one left and came back within 3 frames on another side. So the decision is per camera state:
+while the zoom moves (over 0.2% a frame) names only leave, when they no longer fit, and nothing comes in but what is acted
+on; the rest are dealt when it rests. A frame whose inputs are unchanged (the camera to half a pixel and a thousandth of
+zoom, the hand, the cards, the pointer, the controls to the pixel, the names before it) reuses the last plan.
+
+**After (same instrument).** 0 overlapping pairs, 0 cut names, 0 names under a control in all 48 rows. Move names written:
+phone 186 / 247 / 272 / 305 -> 101 / 106 / 99 / 59; 1440 149 / 211 / 251 / 302 -> 119 / 167 / 188 / 160 (drawer shut). The
+position's own name still crosses a dealt orb in 7 to 16 frames per row: it never moves (unchanged by this change). The
+dots are not measured by the survey (a guest knows no move); known-move-seal.spec.ts is their gate.
+
+**Nothing lost.** A move whose name is not written: hover its orb (named, the pointer's label), hover or keyboard-focus its
+card (named on the map before any other move), tap a face-down card (named), tap the orb (stages it, as before), read the
+row (every card carries its name). The phone's drawer open: nothing is written under it (it takes the screen).
+
+**Proof.** e2e/journeys/map-names.spec.ts (10 tests, 390x631 touch and 1440x900): no two names within 3 px, none off the
+map, none under a painted control, at three seats and four zooms, with a floor on names written; each move's name beside its
+own orb as drawn (`_LY`, `_nodeHalfW` with the published `_nodeK`); claims in the row's order; an ease recorded frame by frame
+(nothing comes in while the zoom moves, nothing returns within half a second, names dealt again at rest) and 60 held frames
+on one plan; the orb under the mouse and the card under the mouse named, nothing named under the card; a tapped face-down card
+named; the drawer open names nothing. Mutants, each red at a named assertion: the test removed, the order of claim
+reversed, the edge check removed, the pointer's single label dropped and both its labels dropped, `n.y` for `LY(n)`, widths
+from `n.r * scale`, what is acted on not first, incumbency removed, the controls ignored, no plan reused, names under the
+phone's drawer, other orbs ignored. Two named non-kills (the spec's header): the pointer's pair group alone dropped (the
+single label takes over, by design) and the 3 px stay margin made 6 (the camera-state rule holds the names in an ease).
+Two existing assertions met the change: dual-pair's hover test could pick a pair under the row's cards and point at it
+through a card; it now picks a pair the pointer reaches on the map (its assertions unchanged). Two unit harnesses stub the
+new DOM seam (`_nameBlocks`) as they stub `_syncSeatStars`. A first cut memoized the controls for 250 ms on the wall clock:
+known-move-seal's map test at 390, which draws one frame twice in one task, failed once (3,191 px) when the two draws saw
+different control sets; the controls are now measured per frame.
+
+**Cost.** `draw()` timed in the page at a 4x CPU throttle, Standing top (36 dealt moves), median / p95 ms, dev's bundle ->
+this one (tests/artifacts/_map_names_frametime.mjs; nine seats share the box, so +-1 ms is noise): phone (390, dpr 3) held
+5.3 / 14.5 -> 5.6 / 17.3, held 4 times out 8.5 / 26.1 -> 8.2 / 15.4, easing 4 times out to the usual zoom 8.4 / 21.4 -> 7.9 /
+14.0; 1440 held 4.6 / 13.0 -> 4.6 / 15.8, 4 times out 9.6 / 16.4 -> 9.0 / 14.6, easing 6.4 / 14.2 -> 7.2 / 12.1. The layout
+alone, a forced re-plan against a reused plan on the same frame (final build, controls measured per frame in both): +0.6 /
++0.5 ms on the phone (usual / 4 times out), +0.3 / +0.4 ms at 1440. Widths are cached per string and dropped when a font
+lands; a held camera reuses its plan (asserted over 60 frames).
+
+**Bytes.** neural.js +5,006 raw, +2,193 gzip; the game bundles re-hashed at equal size. Eager gzip 358,039: +5,073 on
+its baseline 352,966 (v1.265.2), cap 5,000, of which dev's own drift is +2,880 (dev's bundle on the same tree, 355,846).
+First-hand core 377,478: +6,371 on 371,107 (v1.262.7), cap 6,000, of which dev's own is +4,156 (375,263, the same journey with
+dev's bundle swapped in). Each part is under its cap alone; together both caps are crossed (by 73 and 371 B). No baseline
+was moved: a checkpoint at dev's level is the orchestrator's. First-hand raw 1,584,745 (ceiling 1,900,000), 11 boot requests
+(12), deferred raw unchanged (510,269 of 511,043).
+
+**Not covered.** The pointer's label mirrors to the other side and no further (both sides blocked, it keeps its place);
+the dots against names with known moves are the seal spec's (a guest survey has none); the position's own label never
+moves, so a toast or a pan can still put it under a control; the controls are derived from the wrap's, root's and
+reader's own children, so a control nested elsewhere is unseen (the spec's and the survey's painted-box check would see it).
