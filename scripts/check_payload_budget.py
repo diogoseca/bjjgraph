@@ -236,7 +236,7 @@ NEURAL_TARGET = {
     # v1.268.0 (KS2, the owner's U166 b): 511_043, +36 B on dev v1.266.0's 511_007: Settings' line names a move whose
     # flashcards you have learned beside a move you know (settings-ui.js only, 22_157 -> 22_193 B); 957 B of 512_000 remain.
     # v1.274.0 (STAGE3, the owner's U170 a: "its own file, loaded when you open the drawer", up to about 550_000, each PR
-    # moving it to exactly its measured use): 519_911, +9_642 B on dev v1.270.2's 510_269, all of it gameplan.js (the order
+    # moving it to exactly its measured use): 519_911, +9_642 B on dev v1.272.0's 510_269 (as v1.270.2's), all of it gameplan.js (the order
     # Practice asks in, practice-queue.src.js, and the plan built from it; 9_716 -> 19_358 B); 30_089 B of 550_000 remain.
     "deferred_raw_bytes": 519_911,
 }
