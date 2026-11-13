@@ -23,8 +23,9 @@ import { journey } from "../dsl"
  *
  * THE LIVE CHECK (v1.271.0). The seeded record holds retired rows (cards its deck no longer holds). A page that never
  * asks for the check fetches ZERO `flashcards/live-*.json` and its reading is not final (no number); asking
- * (`ratingCheck()`) fetches exactly TWO, and only then is the number final and equal to node's. A file built for another
- * deck list (a content deploy between boot and fetch) is never read: every row unchecked, named, no number.
+ * (`ratingCheck()`) fetches exactly TWO, under the manifest's fingerprint (`?live=`), and only then is the number final and
+ * equal to node's. Another build's file is never read: one built for another deck list, AND one with the same list and
+ * counts but other questions (a reworded card): every row unchecked, named, no number (LIVE2 F1).
  *
  * MUTANTS (v1.269.0), each built into the bundle (`npm run dev:neural:app`) and run against this file under the lock;
  * the table is in docs/Changelog-Archive.md (v1.269.0):
@@ -32,12 +33,11 @@ import { journey } from "../dsl"
  *   J2 the module left out of the bundle (build.mjs)                → the page's rating() throws
  *   J3 the load path drops the moves record                         → the page's counts differ from node's
  *   J4 the reader fetches on a plain read (v1.271.0)                → the first test: "not asked" (it already fetched)
- *   J5 a live file built for another deck list accepted (v1.271.0)  → the second test: "stale: unchecked, named, never priced"
- * NOT COVERED here: the law itself (tests/rating.test.mjs, 31 mutants), no-gi on a page (the unit reads both rulesets
- * through the same reader; a ruleset flip writes a setting, so it cannot share this byte-identity claim), and any
- * painted surface (there is none). Nothing is pressed: there is nothing to press. And, as in the unit file: a row for a
- * question its deck no longer holds reads as a live card (the manifest has a count per deck, not its questions); the
- * module caps a deck at its own worth and counts the excess, but that must be settled before any surface shows the number.
+ *   J5 a live file built for another deck list accepted (v1.271.0)  → the second test: "another deck list"
+ *   J6 another build's file under the same list and counts accepted  → the second test: "another build, same list and counts"
+ * NOT COVERED here: the law itself (tests/rating.test.mjs and its mutants), no-gi on a page (the unit reads both
+ * rulesets through the same reader and pins a flip at exactly two requests; a ruleset flip writes a setting, so it cannot
+ * share this byte-identity claim), and any painted surface (there is none). Nothing is pressed: there is nothing to press.
  */
 
 type W = any
@@ -103,6 +103,8 @@ test("the page's rating is the unit's number for the same record, once checked, 
   // asked: exactly the two files, then final and node's number
   await page.evaluate(() => (window as W).__neural.ratingCheck())
   expect(asked.map((u) => u.split("?")[0].split("/").pop()).sort(), "exactly two requests").toEqual(["live-0.json", "live-1.json"])
+  const fp = JSON.parse(readFileSync(resolve(SERVED, "flashcards/_index.json"), "utf8")).live
+  expect(asked.every((u) => new URL(u).searchParams.get("live") === fp), `asked under the manifest's fingerprint ${fp}`).toBe(true)
   const got = await read(page, fx.day)
   expect(got.frame, "the page boots in gi").toBe("gi")
   expect([got.status, got.final]).toEqual(["ok", true])
@@ -121,22 +123,29 @@ test("the page's rating is the unit's number for the same record, once checked, 
   expect(await storage(page), "every localStorage and sessionStorage key and value is byte-identical").toBe(before)
 })
 
-test("a live file built for another deck list is never read: every row unchecked, named, no number", async ({ page }) => {
+test("another build's live file is never read: every row unchecked, named, no number", async ({ page }) => {
   const { ratingFixture } = await import("../../tests/_rating_fixture.mjs")
   const fx = ratingFixture(SERVED)
   const before = await bootSeeded(page, fx)
-  // a content deploy between the app's boot and the fetch: the file now describes another deck list. Registered AFTER
-  // the boot, because Playwright matches the newest route first and the harness routes every flashcards/*.json at boot
+  // a content deploy between the app's boot and the fetch. Registered AFTER the boot, because Playwright matches the newest
+  // route first and the harness routes every flashcards/*.json at boot; a RegExp, because the files are asked for with a query
+  let variant: "list" | "content" = "list"
   const served: string[] = []
-  await page.route("**/flashcards/live-*.json", (r) => {
+  await page.route(/\/flashcards\/live-\d+\.json(\?.*)?$/, (r) => {
     const name = new URL(r.request().url()).pathname.split("/").pop()!
     served.push(name)
     const body = JSON.parse(readFileSync(resolve(SERVED, "flashcards", name), "utf8"))
-    r.fulfill({ contentType: "application/json", body: JSON.stringify({ ...body, rev: "00000000" }) })
+    // "list": built for another deck list; "content": the same list and counts, one card reworded (one bit of its 16 flipped)
+    const q = Buffer.from(body.q, "base64"); if (name === "live-0.json") q[0] ^= 1
+    r.fulfill({ contentType: "application/json", body: JSON.stringify(variant === "list" ? { ...body, rev: "00000000" } : { ...body, q: q.toString("base64") }) })
   })
   await page.evaluate(() => (window as W).__neural.ratingCheck())
-  expect(served.sort(), "the stale files were the ones served").toEqual(["live-0.json", "live-1.json"])
-  const r = await read(page, fx.day)
-  expect([r.status, r.reason, r.final, r.points], "stale: unchecked, named, never priced").toEqual(["unchecked", "stale-live", false, null])
+  const r1 = await read(page, fx.day)
+  expect([r1.status, r1.reason, r1.final, r1.points], "another deck list").toEqual(["unchecked", "stale-live", false, null])
+  variant = "content"
+  await page.evaluate(() => (window as W).__neural.ratingCheck())   // a failed check is retried by the next ask
+  const r2 = await read(page, fx.day)
+  expect([r2.status, r2.reason, r2.final, r2.points], "another build, same list and counts").toEqual(["unchecked", "stale-live", false, null])
+  expect(served.sort(), "both asks were served the altered files").toEqual(["live-0.json", "live-0.json", "live-1.json", "live-1.json"])
   expect(await storage(page)).toBe(before)
 })

@@ -46,6 +46,20 @@
 // GO402 (the reader's delta read):
 //   M22 the snap of a share within 1e-9 of 1 removed (D1)               → "everything known reads exactly 2000"
 //   M23 a card on a deck only the other ruleset weighs read as unknown  → "answers from the other ruleset: classed as today"
+// LIVE2 (the independent reader's findings on #405):
+//   V1  another build's file accepted (the content fingerprint unchecked) → "the live files decode against the deck list they were built for"
+//   V2  a manifest without a fingerprint accepted                       → "the live files decode against the deck list they were built for"
+//   V3  the reader fetches with no fingerprint to check against         → "the reader's live check: never at a plain read, …"
+//   V4  the files asked for under a constant, not the manifest's value   → "the reader's live check: never at a plain read, …"
+//   V5  a retired row priced (F3)                                       → "a question that moved decks is priced one way…", "a shared question is live…"
+//   V6  the file-count check removed (F4)                               → "the live files decode against the deck list they were built for"
+//   V7  the live-count-over-cards check removed (F4)                    → "the live files decode against the deck list they were built for"
+//   V8  the trailing-bytes check removed (F4)                           → "the live files decode against the deck list they were built for"
+//   V9  the every-deck-covered check removed (F4)                       → "the live files decode against the deck list they were built for"
+//   V10 a check's result used for a replaced manifest (F4)              → "the reader's live check: never at a plain read, …"
+//   V11 the reader follows any file count (F5)                          → "the reader's live check: never at a plain read, …"
+//   V12 the decoder's file cap removed (F5)                             → "the live files decode against the deck list they were built for"
+//   (the emitter's one-deck rule, F2, is tests/live_questions_test.py's, through tests/live_questions_py.test.mjs)
 // LIVE1 (the live check, v1.271.0):
 //   L1  a retired row counted (any row in a checked deck read as live)  → "a retired row is not priced, and is counted"
 //   L2  a live row dropped (every row in a checked deck read as retired) → "a retired row is not priced, and is counted"
@@ -66,8 +80,8 @@
 //     live cards'. Measured on this wire, per retired row: 5.7e-5 in decks of 1-4 cards, 8.9e-5 in 5-8, 1.5e-4 in
 //     9-16, 3.2e-4 in 17-33 (the worst deck 5.0e-4). "16 bits a card, not 8" pins the width; the rate itself is not
 //     asserted (it is a property of the content). Two live cards of one deck sharing a value is harmless (2 decks).
-//   · A REWORDED QUESTION BETWEEN BOOT AND FETCH keeps the deck list and the counts, so the fetched file is the newer
-//     content's truth; only a changed list or count is caught ("stale-live", pinned).
+//   · A QUESTION THAT MOVED DECKS carries nothing to its new deck: its old row is retired where it was filed (one rule,
+//     LIVE2 F3: a row counts where the app's own scheduler would find it, priced and live or neither).
 //   · PARITY WITH THE SIMULATION IS NOT TESTED HERE. It rests on the seat's simulation scripts, kept outside the repo
 //     with the orchestrator: the module through this reader matched the simulation's C0, computed by the simulation's
 //     own code, to 2.2e-11 points on 588 seeded records, with the simulation's gi moves re-priced from the gi table
@@ -88,7 +102,7 @@ import { dirname, resolve } from "node:path";
 import {
   NG_RATING_TABLE, NG_RATING_FLOOR, NG_RATING_TOP, NG_RATING_BLACK, NG_RATING_CHECKING,
   ngRatingPoints, ngRatingLevel, ngRatingLevelFloor, ngRatingBeltOf, ngRatingNext, ngRatingRecall,
-  ngRatingUniverse, ngRatingShare, ngRatingQ16, ngRatingLiveRev, ngRatingLiveDecode,
+  ngRatingUniverse, ngRatingShare, ngRatingQ16, ngRatingLiveRev, ngRatingLiveDecode, ngRatingLiveFp, NG_RATING_LIVE_MAX_FILES,
 } from "../neural/src/rating.src.js";
 import { ngWireScoreWeights } from "../neural/src/wire-keys.src.js";
 import { ngKnowledgeQuestionHash } from "../neural/src/knowledge-profile.src.js";
@@ -250,15 +264,31 @@ test("a retired row is not priced, and is counted", () => {
 });
 
 test("a shared question is live where its index lists it, retired elsewhere", () => {
-  // the rule: a question in the manifest's shared index is live in exactly the decks the index lists (the boot wire is
-  // current), whatever the live files say; its knowledge is its latest row wherever that row is filed
+  // the rule (LIVE2 F3): a row counts where the app's own scheduler would find it. A shared question's row is live in the
+  // decks its index lists, whatever the live files say, and priced from there; a row filed in any other deck is retired
+  // there, neither priced nor allowed to set the question's number
   const U = tiny();
   const rec = { srs: { "A|Top": { qs: fresh(30) }, "Z|Attacker": { qs: fresh(30) } }, stage: {} };
   const r = S(U, rec, D, liveOf({ "A|Top": [], "B|Top": [], "Z|Attacker": [] }));
   close(r.share, 0.35 / 1.4, "priced once, at A's and B's worth: the index says so, not the live files");
   assert.deepEqual([r.counts.checked, r.counts.retired], [2, 1], "its row in Z, a deck the index does not list, is retired there");
   const onlyThere = S(U, { srs: { "Z|Attacker": { qs: [D + 30, 30, D] } }, stage: {} }, D, liveOf({ "Z|Attacker": [] }));
-  close(onlyThere.share, 0.35 / 1.4, "filed only in a retired deck, the question is still live in its own decks");
+  assert.deepEqual([onlyThere.share, onlyThere.counts.retired, onlyThere.counts.weighted], [0, 1, 0], "filed only in a deck its index does not list: neither priced nor live");
+  // a fresher row in a retired deck does not set the number: the live row does
+  const late = S(U, { srs: { "A|Top": { qs: [D, 30, D - 300] }, "Z|Attacker": { qs: fresh(30) } }, stage: {} }, D, liveOf({ "A|Top": [], "Z|Attacker": [] }));
+  close(late.share, (0.35 * 0.9 ** 10) / 1.4, "priced from A's own (older) row");
+});
+
+test("a question that moved decks is priced one way: no row both priced and counted retired", () => {
+  const U = tiny();
+  // moved from B to A (unshared now): its row in B is retired, and nothing is priced
+  const one = S(U, { srs: { "B|Top": { m1: fresh(30) } }, stage: {} }, D, liveOf({ "A|Top": ["m1"], "B|Top": [] }));
+  assert.deepEqual([one.share, one.counts.retired, one.counts.weighted], [0, 1, 0]);
+  // moved into a shared home (A and B) from Z: its row in Z is retired there, and nothing is priced either
+  const Ushared = ngRatingUniverse({ decks: { "A|Top": { n: 2 }, "B|Top": { n: 4 }, "Z|Attacker": { n: 1 } }, weights: { "A|Top": 0.6, "B|Top": 0.2, "Z|Attacker": 0.1 },
+    shared: new Map([[H("mv"), ["A|Top", "B|Top"]]]), seats: { "1/top": { w: 0.6, hand: { 10: 100 } } } });
+  const two = S(Ushared, { srs: { "Z|Attacker": { mv: fresh(30) } }, stage: {} }, D, liveOf({ "A|Top": [], "B|Top": [], "Z|Attacker": [] }));
+  assert.deepEqual([two.share, two.counts.retired, two.counts.weighted], [0, 1, 0], "the same rule whether its new home is shared or not");
 });
 
 test("an unchecked row is never known, and the answer is not final", () => {
@@ -356,6 +386,7 @@ const retiredFor = (dk, n) => {
   return out;
 };
 const LIVE = ratingLiveFiles(DIR);
+const MAN_FP = JSON.parse(readFileSync(resolve(DIR, "flashcards/_index.json"), "utf8")).live;
 const seeded = (frame) => { const a = ratingApp(DIR, frame); a.srs = FIX.blob.srs; a.stage = FIX.blob.stage; a.moves = FIX.blob.moves; return a; };
 // the ruleset's own hand table read straight off the RAW wire, keyed by node ID — never through `_ev`/`_evGi`'s indexes
 const rawHands = (frame) => {
@@ -570,8 +601,9 @@ test("answers from the other ruleset: classed as today", () => {
 
 test("the live files decode against the deck list they were built for", () => {
   const a = APP.gi, list = a._ratingDeckList();
-  const ok = ngRatingLiveDecode(LIVE, list);
+  const ok = ngRatingLiveDecode(LIVE, list, MAN_FP);
   assert.equal(ok.status, "ok");
+  assert.equal(ngRatingLiveFp(LIVE), MAN_FP, "the manifest carries the live data's own fingerprint");
   assert.equal(ok.rev, ngRatingLiveRev(list), "built for this manifest's decks and counts");
   assert.equal(ok.counts.decks, list.length, "every deck, once");
   // the entries are exactly the unshared cards, counted from the chunks themselves
@@ -582,12 +614,53 @@ test("the live files decode against the deck list they were built for", () => {
   assert.ok(LIVE.length >= 2 && LIVE.every((f) => JSON.stringify(f).length <= 40000), "two or more files, each a chunk under 40,000 B");
   // a file built for another deck list (a content deploy between boot and fetch) is never read (LIVE1-GO 3)
   const stale = LIVE.map((f) => ({ ...f, rev: "00000000" }));
-  assert.deepEqual([ngRatingLiveDecode(stale, list).status, ngRatingLiveDecode(stale, list).reason], ["unchecked", "stale-live"]);
+  const dec = (files, l = list, fp = MAN_FP) => ngRatingLiveDecode(files, l, fp).reason;
+  assert.deepEqual([ngRatingLiveDecode(stale, list, MAN_FP).status, dec(stale)], ["unchecked", "stale-live"]);
   const counted = list.map(([k, n], i) => (i === 0 ? [k, n + 1] : [k, n]));
-  assert.equal(ngRatingLiveDecode(LIVE, counted).reason, "stale-live", "one deck's count changed: stale");
-  assert.equal(ngRatingLiveDecode([LIVE[0], null], list).reason, "fetch-failed", "a file missing leaves everything unchecked");
-  assert.equal(ngRatingLiveDecode([LIVE[0], LIVE[0]], list).reason, "bad-live", "the same file twice does not cover every deck");
-  assert.equal(ngRatingLiveDecode(LIVE.map((f) => ({ ...f, bits: 8 })), list).reason, "bad-live");
+  assert.equal(dec(LIVE, counted), "stale-live", "one deck's count changed: stale");
+  assert.equal(dec([LIVE[0], null]), "fetch-failed", "a file missing leaves everything unchecked");
+  assert.equal(dec([LIVE[0], LIVE[0]]), "bad-live", "the same file twice does not cover every deck");
+  assert.equal(dec(LIVE.map((f) => ({ ...f, bits: 8 }))), "bad-live");
+  // ANOTHER BUILD with the same deck list and counts (a reworded card), older or newer: refused (LIVE2 F1)
+  const q0 = Buffer.from(LIVE[0].q, "base64");
+  const older = [{ ...LIVE[0], q: Buffer.from(q0.map((b, i) => (i === 0 ? b ^ 1 : b))).toString("base64") }, LIVE[1]];
+  const newer = [LIVE[0], { ...LIVE[1], q: Buffer.from(Buffer.from(LIVE[1].q, "base64").map((b, i, a) => (i === a.length - 1 ? b ^ 0x80 : b))).toString("base64") }];
+  assert.equal(older[0].rev, LIVE[0].rev, "the same list and counts");
+  assert.equal(dec(older), "stale-live", "an older file under the same list and counts");
+  assert.equal(dec(newer), "stale-live", "a newer one too");
+  assert.equal(dec(LIVE, list, null), "no-fingerprint", "a manifest from before the live files: nothing can be checked");
+  // the five guards, each on a file set that passes every OTHER check (LIVE2 F4): fingerprints recomputed so only the
+  // guard under test can refuse
+  const fpOf = (files) => ngRatingLiveFp(files);
+  const three = LIVE.map((f) => ({ ...f, files: 3 }));
+  assert.equal(dec(three, list, fpOf(three)), "bad-live", "a set that says three files where two arrived");
+  const n1 = Buffer.from(LIVE[1].n, "base64"), q1 = Buffer.from(LIVE[1].q, "base64");
+  const over = n1.findIndex((c, i) => c === list[LIVE[1].from + i][1]);   // a deck whose live count equals its card count
+  assert.ok(over >= 0, "a deck with every card unshared exists to raise");
+  const before = n1.slice(0, over).reduce((t, c) => t + c, 0) * 2;
+  const raised = [LIVE[0], { ...LIVE[1], n: Buffer.from(n1.map((c, i) => (i === over ? c + 1 : c))).toString("base64"),
+    q: Buffer.concat([q1.subarray(0, before), Buffer.from([1, 2]), q1.subarray(before)]).toString("base64") }];
+  assert.equal(dec(raised, list, fpOf(raised)), "bad-live", "a deck holding more live cards than it has cards");
+  const trailing = [LIVE[0], { ...LIVE[1], q: Buffer.concat([q1, Buffer.from([1, 2])]).toString("base64") }];
+  assert.equal(dec(trailing, list, fpOf(trailing)), "bad-live", "bytes left over after the last deck");
+  const skip = Buffer.from(LIVE[1].n, "base64"), firstN = skip[0];
+  const gap = [LIVE[0], { ...LIVE[1], from: LIVE[1].from + 1, n: skip.subarray(1).toString("base64"), q: q1.subarray(2 * firstN).toString("base64") }];
+  assert.equal(dec(gap, list, fpOf(gap)), "bad-live", "a deck covered by no file");
+  // the real data re-split into k files, as the emitter could write them: three decode, nine are over the cap (LIVE2 F5)
+  const resplit = (k) => {
+    const ns = [], qs = [];
+    for (const f of [...LIVE].sort((x, y) => x.file - y.file)) {
+      const n = Buffer.from(f.n, "base64"), q = Buffer.from(f.q, "base64"); let at = 0;
+      for (const c of n) { ns.push(c); qs.push(q.subarray(at, at + 2 * c)); at += 2 * c; }
+    }
+    const per = Math.ceil(ns.length / k);
+    return Array.from({ length: k }, (_, i) => ({ ...LIVE[0], file: i, files: k, from: i * per, to: Math.min(ns.length, (i + 1) * per),
+      n: Buffer.from(ns.slice(i * per, (i + 1) * per)).toString("base64"), q: Buffer.concat(qs.slice(i * per, (i + 1) * per)).toString("base64") }));
+  };
+  const three3 = resplit(3);
+  assert.equal(ngRatingLiveDecode(three3, list, fpOf(three3)).status, "ok", "three files, as the emitter could write them");
+  const nine = resplit(9);
+  assert.equal(dec(nine, list, fpOf(nine)), "bad-live", "more files than the emitter can write");
   // and through the reader: a stale file leaves every row unchecked, named, never priced
   const b = seeded("gi"); b._ratingLiveFrom(stale);
   const r = b.rating();
@@ -604,8 +677,8 @@ test("16 bits a card, not 8", () => {
   const b = ratingApp(DIR, "gi"); b.srs = { [dk]: { [qh]: [RATING_DAY + 30, 30, RATING_DAY] } }; b.stage = {}; b.moves = {};
   const r = b.rating();
   assert.deepEqual([r.status, r.counts.retired, r.points], ["ok", 1, NG_RATING_FLOOR], "an 8-bit match is not a live card");
-  const dec = ngRatingLiveDecode(LIVE, APP.gi._ratingDeckList());
-  assert.ok([...dec.decks.values()].some((set) => [...set].some((k) => k > 0xff)), "the files carry 16 bits");
+  const decoded = ngRatingLiveDecode(LIVE, APP.gi._ratingDeckList(), MAN_FP);
+  assert.ok([...decoded.decks.values()].some((set) => [...set].some((k) => k > 0xff)), "the files carry 16 bits");
 });
 
 test("the reader's live check: never at a plain read, two requests once, a retry after a failure", async () => {
@@ -613,10 +686,12 @@ test("the reader's live check: never at a plain read, two requests once, a retry
   let fail = false;
   globalThis.fetch = async (url) => {
     asked.push(String(url));
-    const m = /flashcards\/(live-\d+)\.json$/.exec(String(url));
+    const m = /flashcards\/(live-\d+)\.json\?live=([0-9a-f]{8})$/.exec(String(url));
     if (fail || !m) return { ok: false, status: 404, json: async () => null };
-    return { ok: true, status: 200, json: async () => JSON.parse(readFileSync(resolve(DIR, "flashcards", m[1] + ".json"), "utf8")) };
+    const body = JSON.parse(readFileSync(resolve(DIR, "flashcards", m[1] + ".json"), "utf8"));
+    return { ok: true, status: 200, json: async () => (claim ? { ...body, files: claim } : body) };
   };
+  let claim = 0;
   try {
     const a = ratingApp(DIR, "gi", { live: false });
     a.srs = FIX.blob.srs; a.stage = FIX.blob.stage; a.moves = FIX.blob.moves;
@@ -632,10 +707,41 @@ test("the reader's live check: never at a plain read, two requests once, a retry
     assert.equal(a.ratingCheck(), p, "coalesced");
     const r = await p;
     assert.deepEqual([r.status, r.final], ["ok", true]);
-    assert.deepEqual(asked.map((u) => u.split("/").pop()), ["live-0.json", "live-1.json"], "exactly the two files");
+    assert.deepEqual(asked.map((u) => u.split("/").pop()), ["live-0.json?live=" + MAN_FP, "live-1.json?live=" + MAN_FP], "exactly the two files, under the manifest's fingerprint");
     const fixtureNumber = seeded("gi").rating().points;
     assert.equal(r.points, fixtureNumber, "the same number as the files read in hand");
     await a.ratingCheck(); a.rating();
     assert.equal(asked.length, 2, "and never again for this manifest");
+    a._giMode = "nogi";
+    assert.deepEqual([a.rating().frame, a.rating().final, asked.length], ["nogi", true, 2], "a ruleset flip: final, nothing fetched (LIVE2 F6)");
+    a._giMode = "gi";
+    // a REPLACED manifest is a new one: the old result is not used, and the next ask fetches again (LIVE2 F4)
+    a._ingestDeckManifest(JSON.parse(readFileSync(resolve(DIR, "flashcards/_index.json"), "utf8")));
+    assert.deepEqual([a.rating().status, a.rating().reason], ["unchecked", "not-asked"], "the check was for the old manifest");
+    await a.ratingCheck();
+    assert.equal(asked.length, 4, "two more, for the new one");
+    // a file that claims 400 files is refused, never followed: still exactly two requests (LIVE2 F5)
+    const c = ratingApp(DIR, "gi", { live: false }); c.srs = FIX.blob.srs; c.stage = FIX.blob.stage; c.moves = FIX.blob.moves;
+    asked.length = 0; claim = 400;
+    const big = await c.ratingCheck();
+    assert.deepEqual([big.status, big.reason, asked.length], ["unchecked", "bad-live", 2]);
+    claim = 0;
+    // a manifest from before the live files: nothing fetched, named, no number (LIVE2 F1)
+    const old = ratingApp(DIR, "gi", { live: false }); old.srs = FIX.blob.srs;
+    const m0 = JSON.parse(readFileSync(resolve(DIR, "flashcards/_index.json"), "utf8")); delete m0.live; old._ingestDeckManifest(m0);
+    asked.length = 0;
+    const none = await old.ratingCheck();
+    assert.deepEqual([none.status, none.reason, none.points, asked.length], ["unchecked", "no-fingerprint", null, 0]);
   } finally { globalThis.fetch = realFetch; }
+});
+
+test("the emitter's live rules are the app's", () => {
+  // the file cap is one number in two places, pinned equal
+  const py = readFileSync(resolve(HERE, "../scripts/regenerate_neural_data.py"), "utf8");
+  assert.equal(Number(/^LIVE_MAX_FILES = (\d+)$/m.exec(py)[1]), NG_RATING_LIVE_MAX_FILES);
+  // a question repeated inside ONE deck: the manifest lists it in `shared` with that one deck, which the app ignores, so
+  // the live writer must keep it (LIVE2 F2; the emitter's own case is tests/live_questions_test.py). On this wire:
+  const shared = JSON.parse(readFileSync(resolve(DIR, "flashcards/_index.json"), "utf8")).shared, entries = Object.values(shared);
+  assert.ok(entries.length > 300, `looked at ${entries.length} shared entries`);
+  assert.equal(entries.filter((v) => new Set(v).size < 2).length, 0, "none names fewer than two decks today");
 });

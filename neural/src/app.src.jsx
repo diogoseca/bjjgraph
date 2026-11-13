@@ -3029,7 +3029,7 @@ class Component extends DCLogic {
   // decode files already in hand (the fetch below, or a unit's own read of the payload) and keep the result
   _ratingLiveFrom(files) {
     const decks = this.flashcards && this.flashcards.decks;
-    const result = Object.freeze(ngRatingLiveDecode(files, this._ratingDeckList()));
+    const result = Object.freeze(ngRatingLiveDecode(files, this._ratingDeckList(), this.flashcards && this.flashcards.live));
     this._ratingLive = { manifest: decks, result };
     return result;
   }
@@ -3040,12 +3040,17 @@ class Component extends DCLogic {
     const L = this._ratingLive;
     if (L && L.manifest === decks && L.result.status === "ok") return Promise.resolve(this.rating());
     if (this._ratingLiveP && this._ratingLiveP.manifest === decks) return this._ratingLiveP;
-    const get = (i) => fetch(this._dataBase() + "flashcards/live-" + i + ".json")
+    // no fingerprint in the manifest (one from before the live files): nothing can be checked, so nothing is fetched
+    const fp = this.flashcards.live;
+    if (!fp) { this._ratingLiveFrom(null); return Promise.resolve(this.rating()); }
+    // the files are asked for UNDER the manifest's fingerprint, so a browser cache can never hand back another build's
+    const get = (i) => fetch(this._dataBase() + "flashcards/live-" + i + ".json?live=" + encodeURIComponent(fp))
       .then((r) => (r.ok ? r.json() : null)).catch(() => null);
     const p = Promise.all([get(0), get(1)])
       .then((two) => {
         const n = two[0] && Number.isInteger(two[0].files) ? two[0].files : 2;
-        if (n <= 2) return two;
+        // never more than the emitter can write (NG_RATING_LIVE_MAX_FILES): a file claiming 400 is refused, not followed
+        if (n <= 2 || n > NG_RATING_LIVE_MAX_FILES) return two;
         const rest = [];
         for (let i = 2; i < n; i++) rest.push(get(i));
         return Promise.all(rest).then((more) => two.concat(more));
@@ -3794,7 +3799,9 @@ class Component extends DCLogic {
     // (`ngWireDeckIndex`), never of the raw file: the Gameplan study producer recomputes the same
     // value from verified bytes, and a raw fingerprint would change with the wire format alone.
     this._knowledgeContentRevision = ngKnowledgeFingerprint(ngWireDeckIndex(dec, j && j.shared));
-    this.flashcards = { decks: decks, manifest: true };
+    // `live` (v1.271.0): the fingerprint of the rating's live-question files this manifest was emitted with; `ratingCheck()`
+    // asks for them under it and refuses any other build's (rating.src.js). Absent on an older manifest: "no-fingerprint".
+    this.flashcards = { decks: decks, manifest: true, live: j && typeof j.live === "string" ? j.live : null };
     this._deckWaits = {};
     this._qkDecks = null;
     // CROSS-DECK CREDIT, RESIDENCY-INDEPENDENT (v1.80.5). The blended hierarchy duplicates one

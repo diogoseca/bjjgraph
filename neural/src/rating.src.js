@@ -41,13 +41,17 @@
 // NOT COVERED — WHAT 16 BITS CANNOT SEE. The live files carry 16 bits a card, so a retired row is wrongly read as live
 // when its low 16 bits equal one of its deck's live cards'. Measured on this wire (v1.271.0), per retired row: 5.7e-5 in
 // decks of 1-4 cards, 8.9e-5 in 5-8, 1.5e-4 in 9-16, 3.2e-4 in 17-33 (the worst deck 5.0e-4). On the seat's simulated
-// records with 5.8% of their card rows retired, the rows expected to be wrongly kept: 0.023 for a year at 20 a day (3,305
-// card rows), 0.17 for everything known (21,269). Two live cards of one deck sharing a 16-bit value is harmless (2 decks
+// records given 6% retired card rows (a round test parameter), the rows expected to be wrongly kept: 0.023 for a
+// year at 20 a day, 0.17 for everything known (21,269). Two live cards of one deck sharing a 16-bit value is harmless (2 decks
 // of 2,862 have one). A cut to 8 bits would raise these ~256-fold, and a unit pins the 16.
-// NOT COVERED — A REWORDED QUESTION BETWEEN BOOT AND FETCH. The files carry a fingerprint of the deck list and each
-// deck's card count. A content deploy that rewords a card keeps both, so the fetched file is the newer content's truth:
-// a row for the old wording reads retired, one for the new wording live. A deploy that changes the list or a count
-// makes the fingerprint differ: every row is `unchecked`, reason "stale-live", never priced.
+// ANOTHER BUILD'S FILE IS NEVER READ (LIVE2 F1). The manifest carries the fingerprint of the live data it was emitted
+// with (`live`); the app asks for the files under it (`live-<i>.json?live=<fingerprint>`, so no cache can hand it another
+// build's copy) and refuses any file set whose own data does not hash to it, or that was built for another deck list:
+// every row `unchecked`, reason "stale-live", never priced. A manifest from before the live files has no fingerprint:
+// "no-fingerprint", nothing fetched.
+// NOT COVERED — A QUESTION THAT MOVED DECKS. Its old row is retired where it was filed and carries nothing to the deck
+// that holds it now (a shared question's row counts only in the decks its index lists): the player's knowledge of it
+// reads as unknown until it is answered again there.
 // NOT COVERED EITHER — ANSWERS FROM THE OTHER RULESET ARE CLASSED TWO WAYS (GO402 D2): a flashcard on a deck only the
 // other ruleset weighs counts as `outside` (a record of nothing else reads "ok", 1000), while a move at a seat only the
 // other ruleset deals counts as `unknownSeat` (a record of nothing else reads "unmatched", null), because the game handed
@@ -239,6 +243,9 @@ export function ngRatingUniverse(input) {
 export const NG_RATING_LIVE_FORMAT = 1;
 /** A card's live key is the low 16 bits of its question hash: the files carry 16 bits a card. */
 export const NG_RATING_LIVE_MASK = 0xffff;
+/** The most live files a set may claim: the emitter splits into more files until each fits and refuses above this
+ *  (scripts/regenerate_neural_data.py LIVE_MAX_FILES, pinned equal by the unit suite). Today's data fills 2. */
+export const NG_RATING_LIVE_MAX_FILES = 8;
 /** What a reader hands `ngRatingShare` while the live files are in flight: one object, so a cache can key on it. */
 export const NG_RATING_CHECKING = Object.freeze({ status: "checking" });
 
@@ -260,24 +267,39 @@ export function ngRatingQ16(qh) {
 export function ngRatingLiveRev(deckList) {
   return ngRatingFnv((deckList || []).map(([k, n]) => k + "\t" + n).join("\n"));
 }
+/** The fingerprint of the live DATA: fnv1a32 over every file's `n` and `q` strings, "n0|q0|n1|q1…" in file order.
+ *  The manifest carries the emitter's (`live`); the app computes it again from the files it was handed. */
+export function ngRatingLiveFp(files) {
+  return ngRatingFnv([...files].sort((a, b) => a.file - b.file).map((f) => f.n + "|" + f.q).join("|"));
+}
 /**
- * Read the live files against the deck list the app booted with ([[deckKey, n], …] in NAME order).
+ * Read the live files against the manifest the app booted with: its deck list ([[deckKey, n], …] in NAME order) and
+ * its `live` fingerprint.
  * Returns {status: "ok", rev, decks: Map<deckKey, Set<16-bit key>>, counts: {files, decks, entries}}, or
- * {status: "unchecked", reason} — "fetch-failed" (a file missing), "stale-live" (built for another deck list: a
- * content deploy between the app's boot and the fetch), "bad-live" (malformed, or not covering every deck once).
- * Nothing partial is ever "ok": a file that cannot be read leaves EVERY row unchecked, never some.
+ * {status: "unchecked", reason} — "no-fingerprint" (a manifest from before the live files, as a cached boot can hold),
+ * "fetch-failed" (a file missing), "stale-live" (another build's file: built for another deck list, or with other
+ * questions under the same list and counts, a reworded card), "bad-live" (malformed, more files than the emitter can
+ * write, or not covering every deck once). Nothing partial is ever "ok": EVERY row is then unchecked, never some.
  */
-export function ngRatingLiveDecode(files, deckList) {
+export function ngRatingLiveDecode(files, deckList, manifestFp) {
   const fail = (reason) => ({ status: "unchecked", reason, decks: null });
   if (!Array.isArray(deckList) || !deckList.length) return fail("no-manifest");
+  if (typeof manifestFp !== "string" || !/^[0-9a-f]{8}$/.test(manifestFp)) return fail("no-fingerprint");
   if (!Array.isArray(files) || !files.length || files.some((f) => !f || typeof f !== "object")) return fail("fetch-failed");
+  if (files.length > NG_RATING_LIVE_MAX_FILES) return fail("bad-live");
   const rev = ngRatingLiveRev(deckList), decks = new Map(), seen = new Set();
-  let entries = 0;
   for (const f of files) {
     if (f.format !== NG_RATING_LIVE_FORMAT || f.bits !== 16) return fail("bad-live");
     if (f.rev !== rev) return fail("stale-live");
     if (f.files !== files.length || !Number.isInteger(f.file) || seen.has(f.file) || f.file < 0 || f.file >= files.length) return fail("bad-live");
+    if (typeof f.n !== "string" || typeof f.q !== "string") return fail("bad-live");
     seen.add(f.file);
+  }
+  // the same deck list and counts is not the same build: a reworded card keeps both. The data itself must be the data
+  // this manifest was emitted with (LIVE2 F1)
+  if (ngRatingLiveFp(files) !== manifestFp) return fail("stale-live");
+  let entries = 0;
+  for (const f of files) {
     if (!Number.isInteger(f.from) || !Number.isInteger(f.to) || f.from < 0 || f.to > deckList.length || f.from >= f.to) return fail("bad-live");
     const n = ngRatingB64(f.n), q = ngRatingB64(f.q);
     if (!n || !q || n.length !== f.to - f.from) return fail("bad-live");
@@ -343,9 +365,8 @@ export function ngRatingShare(universe, record, day, live) {
       const r = rows[qh];
       if (ngRatingQ16(qh) == null || !Array.isArray(r) || r.length < 3 || !ngRatingNum(r[1]) || !ngRatingNum(r[2]) || r[1] <= 0) { counts.badRow++; continue; }
       let q = byQ.get(qh);
-      if (!q) byQ.set(qh, (q = { row: r, decks: new Set() }));
-      else if (r[2] > q.row[2] || (r[2] === q.row[2] && r[1] < q.row[1])) q.row = r;
-      q.decks.add(dk);
+      if (!q) byQ.set(qh, (q = { rows: new Map() }));
+      q.rows.set(dk, r);
     }
   }
   for (const dk of Object.keys(stage)) {
@@ -353,34 +374,44 @@ export function ngRatingShare(universe, record, day, live) {
     if (!rows || typeof rows !== "object") continue;
     for (const qh of Object.keys(rows)) if (!byQ.has(qh) && ngRatingNum(rows[qh]) && rows[qh] > 0) counts.stageOnly++;
   }
-  // each question is priced in the decks that hold it NOW: a shared question in its index's decks (the knowledge is the
-  // question's, wherever its latest row is filed), any other in the decks of its rows that the live check confirms.
-  // Its worth is booked to those decks, and a deck is capped at its own full worth (F2).
+  // ONE RULE (LIVE2 F3): a stored row counts where the app's own scheduler would find it. A row is LIVE when its deck holds
+  // its question now — for a shared question, when its deck is one the index lists (only then would a grade there have
+  // been filed across the question's decks, `ngKnowledgeSharedDecks`); for any other, when the deck's live set holds its
+  // 16 bits. A live row is priced and counted live; a retired row is neither priced nor allowed to set the question's
+  // number; so no row is ever both priced and counted retired. A question is priced from its latest LIVE row (the same-day
+  // tie to the smaller interval, the cloud merge's rule), in every deck that holds it now: the index's decks when shared,
+  // else the decks of its live rows. Its stage is the highest its live decks hold. Its worth is booked to those decks, and
+  // a deck is capped at its own full worth (F2 of READ402).
   const perDeck = new Map();
   for (const [qh, q] of byQ) {
     const S = U.shared.get(qh) || null;
     counts.questions++;
-    let inManifest = false, unchecked = false, st = 0;
-    for (const dk of q.decks) {
+    let inManifest = false, row = null;
+    const liveRowDecks = [];
+    for (const [dk, r] of q.rows) {
       if (!U.decks.has(dk)) continue;
       inManifest = true;
       const v = isLive(dk, qh, S);
-      if (v === null) { counts.unchecked++; unchecked = true; }
-      else { counts.checked++; if (!v) counts.retired++; }
+      if (v === null) { counts.unchecked++; continue; }
+      counts.checked++;
+      if (!v) { counts.retired++; continue; }
+      liveRowDecks.push(dk);
+      if (!row || r[2] > row[2] || (r[2] === row[2] && r[1] < row[1])) row = r;
     }
-    for (const dk of S ? new Set([...S, ...q.decks]) : q.decks) {
-      const s = stage[dk] && stage[dk][qh];
-      if (ngRatingNum(s) && s > st) st = s;
-    }
-    const liveDecks = S ? S.filter((dk) => U.decks.has(dk)) : [...q.decks].filter((dk) => U.decks.has(dk) && isLive(dk, qh, S) === true);
-    if (!liveDecks.length) {
+    if (!row) {
       if (!inManifest) counts.unknownDeck++;   // retired and unchecked rows are counted above, row by row
       continue;
+    }
+    const liveDecks = S ? S.filter((dk) => U.decks.has(dk)) : liveRowDecks;
+    let st = 0;
+    for (const dk of new Set([...liveDecks, ...liveRowDecks])) {
+      const s = stage[dk] && stage[dk][qh];
+      if (ngRatingNum(s) && s > st) st = s;
     }
     const priced = liveDecks.filter((dk) => U.deckUnit.has(dk));
     if (!priced.length) { counts.outside++; continue; }
     counts.weighted++;
-    const k = ngRatingRecall(q.row, q.row[1] > 1 || st > 0, day);
+    const k = ngRatingRecall(row, row[1] > 1 || st > 0, day);
     for (const dk of priced) {
       const d = perDeck.get(dk) || perDeck.set(dk, { k: 0, rows: 0 }).get(dk);
       d.k += k; d.rows++;

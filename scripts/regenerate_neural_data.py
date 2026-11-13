@@ -1606,26 +1606,24 @@ def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int]
     # questions carried by 2+ decks are listed, addressed by fnv1a32(question) -> deck INDEXES
     # into the ordered `decks` map below (451 of 21,334 questions — ~10.6KB raw / 4.3KB gzip,
     # which is what makes it affordable on the eager path).
-    order = {k: i for i, k in enumerate(sorted(manifest))}
-    q_decks: dict[str, list[int]] = {}
-    for key in sorted(decks):
-        for card in decks[key]["cards"]:
-            q_decks.setdefault(card["q"], []).append(order[key])
-    shared: dict[str, list[int]] = {}
-    for q, idxs in q_decks.items():
-        if len(idxs) > 1:
-            shared.setdefault(fnv1a32(q), []).extend(idxs)
-    shared = {h: sorted(set(v)) for h, v in shared.items()}
+    shared = _shared_index(decks)
 
     # The app boots from this file alone and fetches a deck's chunk on demand: a chunk is
     # <fnv1a32(deckKey)>.json beside it, holding {deckKey: {cat, role, cards:[{q, a}]}} (a map, so
     # a hash collision shares a file instead of losing a deck). `shared` is fnv1a32(question) ->
     # indexes into the decks in NAME order, for every question carried by 2+ decks — the blended
     # hierarchy's shared cards; it makes cross-deck credit residency-independent (noteCardDone).
+    # the live questions (below) are built first, because the manifest carries their fingerprint (`live`): the app refuses
+    # any live file whose own data does not hash to it, and asks for the files under it, so a browser holding this manifest
+    # can never be handed another build's copy (v1.271.0, LIVE2 F1). A question is left out of them only when it is shared
+    # the APP's way, by two or more DISTINCT decks (F2): one repeated inside one deck is listed in `shared` with that one
+    # deck, which the app ignores, so it must stay in the live data or it would be in neither.
+    live = _live_question_bodies(decks, _shared_the_apps_way(shared))
     out = {
         "_meta": {"format": 4},
         "deckOrd": _encode_deck_manifest(decks, nodes),
         "shared": {h: shared[h] for h in sorted(shared)},
+        "live": live["fp"],
     }
     import _neural_decks as ND
     back, unresolved = ND.decode_manifest(out, nodes)
@@ -1645,7 +1643,10 @@ def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int]
           f"and name order")
     if collisions:
         print(f"flashcards/: {collisions} deck(s) sharing a hashed chunk file")
-    _write_live_questions(decks, set(shared), fc_dir)
+    for i, body in enumerate(live["bodies"]):
+        (fc_dir / f"live-{i}.json").write_text(body)
+    print(f"  live questions: {live['total']} unshared cards of {len(decks)} decks in {len(live['bodies'])} files "
+          f"({', '.join(f'{len(b.encode()):,} B' for b in live['bodies'])}), rev {live['rev']}, fingerprint {live['fp']} in the manifest")
     return len(decks), sum(len(d["cards"]) for d in decks.values())
 
 
@@ -1659,12 +1660,39 @@ def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int]
 #   · `rev` = fnv1a32 over "<deck key>\t<card count>" per deck, newline-joined, in that order: the app computes the same
 #     string from the manifest it booted with, and a file built for another deck list is refused ("stale-live").
 #   · at least TWO files, each at most CHUNK_LIMIT bytes (check_payload_budget.py's largest on-demand chunk), named
-#     live-<i>.json: a name with no leading underscore in this chunk directory is an ON-DEMAND chunk, never eager.
+#     live-<i>.json: a name with no leading underscore in this chunk directory is an ON-DEMAND chunk, never eager. The
+#     data is split into MORE files until each fits, up to LIVE_MAX_FILES; above that the emitter refuses, and the app
+#     refuses a file set that claims more (the same 8 as NG_RATING_LIVE_MAX_FILES, pinned equal by the unit suite).
+#   · `fp` = fnv1a32 over every file's `n` and `q` strings, "n0|q0|n1|q1…" in file order: the fingerprint of the live
+#     DATA, written into `_index.json` as `live` and computed again by the app from the files it was handed.
 # What 16 bits cost, and what they cannot see, is measured and stated in the module's header (NOT COVERED).
 LIVE_CHUNK_LIMIT = 40_000
+LIVE_MAX_FILES = 8
 
 
-def _write_live_questions(decks: dict, shared_hashes: set, fc_dir: Path) -> None:
+def _shared_index(decks: dict) -> dict:
+    """The manifest's `shared`: fnv1a32(question) -> the sorted deck INDEXES (name order) of every question that fills two or
+    more deck slots. A question repeated inside one deck fills two slots of ONE deck, so its entry names that one deck."""
+    from _neural_content import fnv1a32
+    order = {k: i for i, k in enumerate(sorted(decks))}
+    q_decks: dict[str, list[int]] = {}
+    for key in sorted(decks):
+        for card in decks[key]["cards"]:
+            q_decks.setdefault(card["q"], []).append(order[key])
+    shared: dict[str, list[int]] = {}
+    for q, idxs in q_decks.items():
+        if len(idxs) > 1:
+            shared.setdefault(fnv1a32(q), []).extend(idxs)
+    return {h: sorted(set(v)) for h, v in shared.items()}
+
+
+def _shared_the_apps_way(shared: dict) -> set:
+    """The question hashes the APP treats as shared: listed with two or more DISTINCT decks (`_ingestDeckManifest` and the
+    rating's universe both drop a one-deck entry). Only these leave the live files (LIVE2 F2)."""
+    return {h for h, v in shared.items() if len(set(v)) > 1}
+
+
+def _live_question_bodies(decks: dict, shared_hashes: set) -> dict:
     import base64
     from _neural_content import fnv1a32
     keys = sorted(decks)
@@ -1697,11 +1725,11 @@ def _write_live_questions(decks: dict, shared_hashes: set, fc_dir: Path) -> None
     bodies = files_for(count)
     while max(len(b.encode()) for b in bodies) > LIVE_CHUNK_LIMIT:
         count += 1
+        if count > LIVE_MAX_FILES:
+            raise SystemExit(f"[neural] live questions REFUSING TO EMIT: more than {LIVE_MAX_FILES} files of {LIVE_CHUNK_LIMIT:,} B")
         bodies = files_for(count)
-    for i, body in enumerate(bodies):
-        (fc_dir / f"live-{i}.json").write_text(body)
-    print(f"  live questions: {total} unshared cards of {len(keys)} decks in {count} files "
-          f"({', '.join(f'{len(b.encode()):,} B' for b in bodies)}), rev {rev}")
+    fp = fnv1a32("|".join(json.loads(b)["n"] + "|" + json.loads(b)["q"] for b in bodies))
+    return {"bodies": bodies, "rev": rev, "fp": fp, "total": total}
 
 
 def deck_name(key: str) -> str:
