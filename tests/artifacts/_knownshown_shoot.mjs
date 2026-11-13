@@ -116,18 +116,21 @@ try {
   if (PART === "ks2") {
     // two adjacent never-answered cards, from the dealt order (stage does not move the odds, so seeding them keeps it)
     let b = await boot(browser, VPS[1], false)
-    const L = await b.page.evaluate(async (ids) => {
+    // never an async evaluate that awaits a deck (Chromium collects its promise under load): pick, start, poll, read
+    const picked = await b.page.evaluate((ids) => {
       // the row as drawn (it sorts itself by win chance once), not the order the cards were dealt in
       const a = window.__neural, own = [...document.querySelectorAll('[data-choice-group="you"] .ng-choice-card')].map((card) => ({ opt: card._choiceOpt }))
       const i = own.findIndex((c, i) => i > 0 && !ids.includes(c.opt.node.id) && !a._moveRow(c.opt) && own[i + 1] && !ids.includes(own[i + 1].opt.node.id) && !a._moveRow(own[i + 1].opt))
       const out = {}
       for (const [k, c] of [["learned", own[i]], ["learnedDue", own[i + 1]]]) {
         const key = a.deckKeyFor(c.opt.node).key
-        if (!a._deckHasCards(key)) await a.hydrateDeck(key)
-        out[k] = { id: c.opt.node.id, t: c.opt.node.t, key, qh: a._cardsOf(a.flashcards.decks[key]).map((x) => a.qhash(x.q)) }
+        if (!a._deckHasCards(key)) void a.hydrateDeck(key)
+        out[k] = { id: c.opt.node.id, t: c.opt.node.t, key }
       }
       return out
     }, Object.values(ID))
+    for (let i = 0; i < 120 && !(await b.page.evaluate((p) => Object.values(p).every((d) => window.__neural._deckHasCards(d.key)), picked)); i++) await sleep(250)
+    const L = await b.page.evaluate((p) => Object.fromEntries(Object.entries(p).map(([k, d]) => [k, { ...d, qh: window.__neural._cardsOf(window.__neural.flashcards.decks[d.key]).map((x) => window.__neural.qhash(x.q)) }])), picked)
     await b.ctx.close()
     console.log("  learned:", L.learned.t, L.learned.qh.length, "cards; learned, one due:", L.learnedDue.t, L.learnedDue.qh.length, "cards")
     const stage = {}, srs = {}

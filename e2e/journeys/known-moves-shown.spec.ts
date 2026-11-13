@@ -88,15 +88,22 @@ let DECKS: Record<"learned" | "learnedDue", { key: string; qh: string[] }> | nul
 async function decks(page: Page) {
   if (DECKS) return DECKS
   await journey(page).boot("/")
-  DECKS = await page.evaluate(async (ids) => {
+  // NEVER AN ASYNC EVALUATE THAT AWAITS A DECK: under load Chromium collects its promise and Playwright reports "Execution
+  // context was destroyed" with no navigation (it bit this file's picture script). The hydration starts fire-and-forget,
+  // a read-only signal is polled, and the hashes are read synchronously.
+  const keys = await page.evaluate((ids) => {
     const a = (window as W).__neural, out: W = {}
     for (const [k, id] of Object.entries(ids)) {
-      const key = a.deckKeyFor(a.nodes.find((n: W) => n.id === id && n.role !== "defender")).key
-      if (!a._deckHasCards(key)) await a.hydrateDeck(key)
-      out[k] = { key, qh: a._cardsOf(a.flashcards.decks[key]).map((c: W) => a.qhash(c.q)) }
+      const key = out[k] = a.deckKeyFor(a.nodes.find((n: W) => n.id === id && n.role !== "defender")).key
+      if (!a._deckHasCards(key)) void a.hydrateDeck(key)
     }
-    return out
+    return out as Record<string, string>
   }, { learned: ID.learned, learnedDue: ID.learnedDue })
+  await expect.poll(() => page.evaluate((keys) => Object.values(keys).every((k) => (window as W).__neural._deckHasCards(k)), keys), { message: "both decks landed" }).toBe(true)
+  DECKS = await page.evaluate((keys) => {
+    const a = (window as W).__neural
+    return Object.fromEntries(Object.entries(keys).map(([k, key]) => [k, { key, qh: a._cardsOf(a.flashcards.decks[key]).map((c: W) => a.qhash(c.q)) }]))
+  }, keys) as W
   expect(DECKS!.learned.qh.length, "the learned move's deck has flashcards").toBeGreaterThan(0)
   expect(DECKS!.learnedDue.qh.length, "...and the other more than one, so one can be due while the rest are not").toBeGreaterThan(1)
   return DECKS!
@@ -386,10 +393,15 @@ test("a deck with no flashcards is never learned: none on today's wire (counted)
       .toEqual({ learned: false, mastery: 0, face: "hidden" })
   }
   // control: the same move with its real deck, every card learned and none due, turns face up
-  const control = await page.evaluate(async () => {
+  const freshKey = await page.evaluate(() => {
     const a = (window as W).__neural, oc = a._optionCards.find((c: W) => c.card.getAttribute("data-ks") === "fresh"), key = a.deckKeyFor(oc.opt.node).key
     a.flashcards.decks[key] = a.__realDeck
-    if (!a._deckHasCards(key)) await a.hydrateDeck(key)
+    if (!a._deckHasCards(key)) void a.hydrateDeck(key)   // fire-and-forget, then poll (never await a deck in an evaluate)
+    return key as string
+  })
+  await expect.poll(() => page.evaluate((key) => (window as W).__neural._deckHasCards(key), freshKey), { message: "the real deck landed" }).toBe(true)
+  const control = await page.evaluate(() => {
+    const a = (window as W).__neural, oc = a._optionCards.find((c: W) => c.card.getAttribute("data-ks") === "fresh"), key = a.deckKeyFor(oc.opt.node).key
     const qh = a._cardsOf(a.flashcards.decks[key]).map((c: W) => a.qhash(c.q))
     a.stage[key] = Object.fromEntries(qh.map((q: string) => [q, 3]))
     a.srs[key] = Object.fromEntries(qh.map((q: string) => [q, [99999, 30, 1]]))
