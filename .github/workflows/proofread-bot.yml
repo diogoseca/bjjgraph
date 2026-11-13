@@ -58,7 +58,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/bot_queue.py --bot proofread-bot
 
-      # THE CLI, PINNED (v1.264.6). One exact build of Claude Code from the npm registry, its sha512 in the committed
+      # THE CLI, PINNED (v1.265.1). One exact build of Claude Code from the npm registry, its sha512 in the committed
       # .github/tools/claude-cli/package-lock.json, installed with `npm ci --ignore-scripts`, the rule both deploys install by.
       # It replaces `curl -fsSL https://claude.ai/install.sh | bash`, which ran whatever that script and the newest build
       # were on the day. The platform package IS the native binary (no dependencies, no install script), and

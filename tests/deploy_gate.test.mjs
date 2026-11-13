@@ -79,7 +79,7 @@
 // no count file: tripwire() itself returns red"; GIT_NO_REPLACE_OBJECTS dropped → "with GIT_NO_REPLACE_OBJECTS=1 the
 // rule reads X's real tree, so its app.js change stops the walk".
 //
-// v1.264.6, INSTALLS (both deploys `npm ci --ignore-scripts`, the flag on the install's command line and nowhere else),
+// v1.265.1, INSTALLS (both deploys `npm ci --ignore-scripts`, the flag on the install's command line and nowhere else),
 // each mutant applied alone to a scratch copy of the deploy files, killed at "INSTALLS": either install back to
 // `npm install`; `npm ci` without the flag; the root install removed; `npm run --ignore-scripts test:curated`;
 // `npm config set ignore-scripts true` in a run; `echo ignore-scripts=true >> .npmrc` in a run; NPM_CONFIG_IGNORE_SCRIPTS
@@ -521,7 +521,7 @@ test("COUNT cannot be switched off unseen: no tracked .npmrc sets ignore-scripts
   assert.ok(envs > 0, "positive coverage: the deploys' env maps were found and read");
 });
 
-// INSTALLS (v1.264.6). The lockfile is the promise, and no package's install script runs in a deploy: each deploy installs
+// INSTALLS (v1.265.1). The lockfile is the promise, and no package's install script runs in a deploy: each deploy installs
 // source/ once before Build Quartz and the root once after it, both as exactly `npm ci --ignore-scripts`. The flag lives on
 // those two command lines and nowhere else: in a run line or an env value it would reach `npm run` too, and npm skips
 // `posttest:curated` (the gate's count) under it. Every run line is read, shell comments aside; zero installs found is red.

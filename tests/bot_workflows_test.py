@@ -53,7 +53,7 @@ class WorkflowTests(unittest.TestCase):
                     with self.subTest(workflow=path.name, job=name):
                         permissions = job.get("permissions", workflow.get("permissions", {}))
                         self.assertEqual(permissions.get("id-token"), "write")
-        # 6 -> 5 at v1.264.6: the content bot's PAA step went (its tool never existed on npm).
+        # 6 -> 5 at v1.265.1: the content bot's PAA step went (its tool never existed on npm).
         self.assertEqual(actions, 5)
         print(f"Checked OIDC permission on all {actions} Claude action invocations")
 
@@ -128,7 +128,7 @@ class WorkflowTests(unittest.TestCase):
                         self.assertIn("check-execution", following["run"])
                         self.assertIn(f"steps.{step['id']}.outputs.execution_file", following["env"]["EXECUTION_FILE"])
                         self.assertFalse(following.get("continue-on-error", False))
-        # 4 -> 3 at v1.264.6: the content bot's PAA step went (its tool never existed on npm).
+        # 4 -> 3 at v1.265.1: the content bot's PAA step went (its tool never existed on npm).
         self.assertEqual(actions, 3)
         self.assertGreaterEqual(parsed, 16)
         print(f"Parsed {parsed} workflows; checked {actions} model/output contracts")
@@ -183,7 +183,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(len(staged), 1)
         self.assertEqual(set(staged[0].split()), set(KNOWN_BATCHES['votes-refresh']))
 
-    # SUPPLY CHAIN (v1.264.6). Mutants, each applied alone, killed at the named case:
+    # SUPPLY CHAIN (v1.265.1). Mutants, each applied alone, killed at the named case:
     #   `curl -fsSL https://claude.ai/install.sh | bash` back in validation-fixer.yml -> test_claude_cli_is_the_pinned_build
     #   the CLI pin loosened to ^2.1.311, or moved without its lockfile            -> test_claude_cli_is_the_pinned_build
     #   the install without --ignore-scripts, or a third workflow installing it    -> test_claude_cli_is_the_pinned_build

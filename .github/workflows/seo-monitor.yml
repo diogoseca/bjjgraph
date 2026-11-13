@@ -5,7 +5,7 @@ name: SEO Monitor (weekly, read-only)
 # touch site content. It tracks on-site search-entry/engagement (PostHog HogQL), then
 # appends a dated section to tests/artifacts/seo_trends.md.
 #
-# NO SERP RANK SINCE v1.264.6. The rank step launched `npx -y @modelcontextprotocol/server-dataforseo`, a name the
+# NO SERP RANK SINCE v1.265.1. The rank step launched `npx -y @modelcontextprotocol/server-dataforseo`, a name the
 # npm registry answers with 404, so the tool never started in any run of this job. DataForSEO's own server
 # (`dataforseo-mcp-server`) no longer has the per-endpoint tool this prompt called, only a generic `api_request`, and
 # neither 3.1.3 nor 3.0.1 (13 Nov) installs without high advisories in its tree. Wiring it in would also hand this
@@ -83,7 +83,7 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           # SECURITY: no backend secret in this step's env; no unrestricted Bash(python3:*)
-          # (arbitrary code-exec an injected string could abuse); no MCP server (v1.264.6,
+          # (arbitrary code-exec an injected string could abuse); no MCP server (v1.265.1,
           # see the header). The agent reads prefetched PostHog JSON and only Writes the
           # report (commit is scoped to seo_trends.md below).
           claude_args: |

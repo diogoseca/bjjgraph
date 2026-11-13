@@ -1,4 +1,4 @@
-// .claude/settings.json (v1.264.6): the project's permission rules, under the key Claude Code reads.
+// .claude/settings.json (v1.265.1): the project's permission rules, under the key Claude Code reads.
 //
 // Claude Code reads permission rules from `permissions.allow|ask|deny`. A rule under any other key is read by nothing
 // and protects nothing, and it looks exactly like protection; and an untracked settings file reaches no worktree and no

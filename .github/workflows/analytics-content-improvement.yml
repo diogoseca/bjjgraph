@@ -48,7 +48,7 @@ jobs:
       # python3/find and no Write (see claude_args). The Query API needs the PERSONAL
       # key (phx_) — the public project key (phc_) 401s. Every URL in those rows is text
       # any visitor can send with the public key, so the prefetch writes one of the site's
-      # own routes in its place and drops the rest (scripts/_site_routes.py, v1.264.6).
+      # own routes in its place and drops the rest (scripts/_site_routes.py, v1.265.1).
       - name: Check bot queue and reserve open-PR files
         id: queue
         env:

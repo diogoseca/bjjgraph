@@ -103,7 +103,7 @@ jobs:
       # site — and therefore production AND the journey gate — contains no Neural front-end
       # at all. Regenerate from the committed sources so what we test is what we ship.
       #
-      # INSTALLS, ONE RULE FOR BOTH TREES THIS DEPLOY INSTALLS (v1.264.6): `npm ci --ignore-scripts`, with the flag ON THE COMMAND LINE. `npm ci`
+      # INSTALLS, ONE RULE FOR BOTH TREES THIS DEPLOY INSTALLS (v1.265.1): `npm ci --ignore-scripts`, with the flag ON THE COMMAND LINE. `npm ci`
       # installs exactly the committed lockfile or fails (the lockfile is the promise; `npm install` may re-resolve it), and
       # no package's install script runs. Never in .npmrc or npm_config_ignore_scripts: those reach `npm run` as well, and
       # npm skips the deploy gate's count (`posttest:curated`) under them. Nothing here needs its script: esbuild and
@@ -417,7 +417,7 @@ jobs:
   deployed-console:
     needs: deploy
     runs-on: ubuntu-latest
-    # Least privilege (v1.264.6): it reads only the deploy job's outputs, so its token gets no scope. Until then this job
+    # Least privilege (v1.265.1): it reads only the deploy job's outputs, so its token gets no scope. Until then this job
     # and lighthouse-ci declared no permissions of their own.
     permissions: {}
     steps:
@@ -447,7 +447,7 @@ jobs:
   lighthouse-ci:
     needs: deploy
     runs-on: ubuntu-latest
-    # Least privilege (v1.264.6): a checkout and a public Lighthouse upload; nothing writes to the repository.
+    # Least privilege (v1.265.1): a checkout and a public Lighthouse upload; nothing writes to the repository.
     permissions:
       contents: read
     steps:

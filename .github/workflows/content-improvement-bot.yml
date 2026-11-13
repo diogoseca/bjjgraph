@@ -227,7 +227,7 @@ jobs:
           echo "$CLAUDE_FILES" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
-      # NO PAA STEP SINCE v1.264.6. "Prepare PAA context with Claude" gave an agent (Read, Write, Glob) the tool
+      # NO PAA STEP SINCE v1.265.1. "Prepare PAA context with Claude" gave an agent (Read, Write, Glob) the tool
       # `mcp__dataforseo__serp_organic_live_advanced` from `npx -y @modelcontextprotocol/server-dataforseo`, a name the
       # npm registry answers with 404, so it never fetched anything; the prompt below already reads PAA files only "if
       # available". DataForSEO's own server (`dataforseo-mcp-server`) has no such tool any more, only a generic

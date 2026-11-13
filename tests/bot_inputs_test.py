@@ -1,4 +1,4 @@
-"""Outside text reaching a bot (v1.264.6): analytics rows reach the model only as the site's own routes.
+"""Outside text reaching a bot (v1.265.1): analytics rows reach the model only as the site's own routes.
 
 PostHog's `$current_url` is whatever a browser sent with the site's public key. The two prefetch scripts that feed a
 model (fetch_posthog_analytics.py, fetch_posthog_search.py) must write our canonical path for a row, or drop it. These

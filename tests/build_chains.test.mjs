@@ -316,7 +316,7 @@ test('npm install lifecycle hooks cannot add an invisible post-build emitter', (
   steps.splice(steps.findIndex(s => s.name === 'Build Quartz') + 1,0,{name:'Install root dependencies (Playwright test runner)',run:'npm install'})
   red(f.run(),/forgotten/)
 }))
-// v1.264.6: both deploys install with `npm ci --ignore-scripts`. Bare `npm ci` runs the same hooks as `npm install`, so it
+// v1.265.1: both deploys install with `npm ci --ignore-scripts`. Bare `npm ci` runs the same hooks as `npm install`, so it
 // must expand them the same way; only the flag ON ITS COMMAND LINE makes it hook-free; any other argument fails closed.
 // Mutants: drop `args[:2] == ['npm', 'ci']` from the gate's install branch -> the first two go red; drop the argument check
 // -> the third goes red; make --ignore-scripts expand hooks anyway -> the fourth goes red.

@@ -45,7 +45,7 @@ def select_analytics(analytics, count, output):
     state["skipped"] += len(candidates) - len(allowed)
     Path(os.environ["BOT_QUEUE_STATE"]).write_text(json.dumps(state) + "\n")
 
-    # One key for selection and for the prefetch that sanitises these rows (scripts/_site_routes.py, v1.264.6).
+    # One key for selection and for the prefetch that sanitises these rows (scripts/_site_routes.py, v1.265.1).
     key = route_key
 
     sources = {}

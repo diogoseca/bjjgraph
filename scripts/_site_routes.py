@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""The site's own routes, for analytics rows that come from outside (v1.264.6).
+"""The site's own routes, for analytics rows that come from outside (v1.265.1).
 
 WHY. PostHog's `$current_url` is whatever a browser sent with the site's public project key, so anyone can record a
 pageview whose "URL" is a paragraph of instructions. Two scheduled jobs hand these rows to a model

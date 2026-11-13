@@ -6,7 +6,7 @@ CLAUDE_CODE_OAUTH_TOKEN is reachable by the Claude agent (which improves content
 must not be able to run arbitrary code to exfiltrate secrets). The agent only reads
 the JSON this writes. Every row's URL is visitor-written text, so each is reduced to
 one of the site's own routes before it is written, and rows naming no page are
-dropped and counted (scripts/_site_routes.py, v1.264.6): the agent reads only our paths.
+dropped and counted (scripts/_site_routes.py, v1.265.1): the agent reads only our paths.
 
 Writes {available, pageviews, session_duration, bounce_rate, search_entry, dropped} as
 JSON, each metric a list of [site path, number]. Never raises — degrades to

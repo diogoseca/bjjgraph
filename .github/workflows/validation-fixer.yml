@@ -54,7 +54,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/bot_queue.py --bot validation-fixer
 
-      # THE CLI, PINNED (v1.264.6): the same install as proofread-bot.yml, where the comment says how the pin moves.
+      # THE CLI, PINNED (v1.265.1): the same install as proofread-bot.yml, where the comment says how the pin moves.
       - name: Install Claude CLI
         if: steps.queue.outputs.proceed == 'true'
         run: |

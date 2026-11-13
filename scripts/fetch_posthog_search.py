@@ -5,7 +5,7 @@ SECURITY: this runs in a NON-agent CI step so the PostHog *personal* (backend) k
 never sits in the environment of the Claude step. The agent only reads the JSON file
 this writes, and every row's URL is visitor-written text (a prompt-injection source),
 so each is reduced to one of the site's own routes and rows naming no page are dropped
-and counted (scripts/_site_routes.py, v1.264.6): the agent reads only our paths.
+and counted (scripts/_site_routes.py, v1.265.1): the agent reads only our paths.
 
 Writes a JSON file: {"available": bool, "data"|"note": ...}, where data is
 {"columns": ["path", "count"], "results": [[site path, number], ...], "dropped": n}.
