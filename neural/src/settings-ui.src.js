@@ -101,24 +101,15 @@ renderSettings() {
       body.appendChild(this.settingRow("Answer mode", "How cards read back HERE. Questions asked in-roll are always multiple choice \u2014 this sidebar is the study surface, so it reads back as recall unless you say otherwise.",
         [["Classic recall", "classic"], ["Auto", "auto"], ["Multiple choice", "mc"]], "mcMode", "classic"));
       // (the training-day email row moved to the Notifications tab in v1.150.0)
-      // RECALL MODE — the black-belt badge's toggle (v1.105.1). LOCKED until the WORN belt is
-      // black (v1.211.0 — proven units, never a Game Knowledge band); auto-flipped ON when the
-      // badge mints; freely flippable back. When on, a stage-2+ card in PLAY renders as
-      // reveal/self-grade instead of multiple choice.
+      // RECALL MODE, OPEN TO EVERYONE (U163 c, v1.270.0). From v1.105.1 it was the black-belt badge's toggle, a LOCKED
+      // teaser below black ("Unlocks at black belt", `data-recall-locked`). Now it is a switch anyone turns on, and it is
+      // what decides timed recall in a roll: no belt switches it on. Its value shows what plays, a carried-over belt
+      // included (`_recallInPlayNow`). When on, a stage-2+ card in PLAY renders as reveal/self-grade instead of MC.
       {
-        const isBlack = (() => { try { return this.wornBelt().id === "black"; } catch (e) { return false; } })();
-        const hasBadge = !!(this.badges && this.badges["recall-in-play"]);
-        if (isBlack || hasBadge) {
-          body.appendChild(this.settingRow("Recall mode (in play)", "The black-belt reward: proven cards stop being multiple choice mid-roll \u2014 question, reveal, self-grade.",
-            [["On", true], ["Off", false]], "recallInPlay", false));
-        } else {
-          const locked = document.createElement("div");
-          locked.setAttribute("data-recall-locked", "1");
-          locked.style.cssText = "opacity:.55;padding:12px 0;border-top:1px solid rgba(150,170,210,.1);";
-          locked.innerHTML = '<div style="font-size:13px;font-weight:600;color:#c3cde0;display:flex;align-items:center;gap:7px;">Recall mode (in play) <span style="font-size:9px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#8b97b0;border:1px solid rgba(150,170,210,.3);border-radius:5px;padding:2px 6px;">Locked</span></div>' +
-            '<div style="font-size:11px;color:#7e8aa3;margin-top:3px;line-height:1.5;">Unlocks at black belt \u2014 the elite format: no options, just the question and your memory.</div>';
-          body.appendChild(locked);
-        }
+        const recall = this.settingRow("Recall mode (in play)", "Proven cards stop being multiple choice mid-roll \u2014 question, reveal, self-grade.",
+          [["On", true], ["Off", false]], "recallInPlay", this._recallInPlayNow());
+        recall.setAttribute("data-recall-mode", "1");
+        body.appendChild(recall);
       }
       // (the dead "Study order" setting row was deleted in v1.105.0 — `studyOrder` was written but read nowhere; due-first is now BEHAVIOUR, not a preference)
       // focus

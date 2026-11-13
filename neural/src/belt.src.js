@@ -91,6 +91,20 @@ export function ngMergeBeltGrandfather(a, b) {
 }
 
 /**
+ * EVERYTHING OPENS (U163 c, owner, 13 Nov; v1.270.0): the belt only shows. `openAt` (top level of the progress blob) is the
+ * moment the open rule first ran for an account, in ms; 0 means not yet, or not a time. It exists for one reader, the
+ * carry-over of timed recall (`_recallCarried` in the app): a belt earned no later than it keeps what the belt gave.
+ * Merged as the EARLIER of two sides — the rule began when it first ran on any device — and 0 when neither has run it.
+ */
+export function ngOpenAt(t) {
+  return typeof t === "number" && Number.isFinite(t) && t > 0 ? t : 0;
+}
+export function ngMergeOpenAt(a, b) {
+  const x = ngOpenAt(a), y = ngOpenAt(b);
+  return x && y ? Math.min(x, y) : x || y;
+}
+
+/**
  * The training-day email's belt line, `dayLog[day].b = [beltId, provenUnits, units]`. A line is
  * AHEAD of another when its belt ranks higher, or the same belt with more units proven — the
  * later of two snapshots of one day, since the worn belt never falls. A malformed line is never

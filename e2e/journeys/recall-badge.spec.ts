@@ -9,7 +9,8 @@ import { journey } from "../dsl";
  * "we can see it in the challenges".
  *
  * Mechanics under test:
- *  · setting `recallInPlay` — LOCKED row in Settings → Flashcards until the WORN belt is black
+ *  · (until v1.270.0; U163 c made Recall Mode a switch anyone turns on, and the mint no longer flips it — the tests below
+ *    say what each claimed before) setting `recallInPlay` — LOCKED row in Settings → Flashcards until the WORN belt is black
  *    (v1.211.0, owner ruling 2026-09-30: the belt is earned in the Challenges — every unit of a
  *    belt proven promotes you — and a Game Knowledge band unlocks NOTHING); the badge
  *    `recall-in-play` mints on the `belt_reached` beat (`_noteBlackBelt`, fired at the promotion
@@ -47,7 +48,11 @@ const answerOne = (page: any, i = 0) =>
     a.gradeRecall(key, card, true);
   }, i);
 
-test("locked below black; a black SCORE unlocks nothing; proving every unit to black mints the badge and auto-flips the toggle ON", async ({
+// Until v1.270.0: "locked below black; a black SCORE unlocks nothing; proving every unit to black mints the badge and
+// auto-flips the toggle ON" — the row was a locked teaser below black and the mint switched the toggle on. U163 c (owner,
+// 13 Nov, "everything opens"): Recall Mode is a switch anyone turns on and no belt switches it on, so the first and the
+// last claims are reversed; the middle one (a score decides nothing) stands.
+test("U163 c: Recall Mode is a switch for everyone; a black SCORE decides nothing; reaching black mints the patch and leaves the switch alone", async ({
   page,
 }) => {
   const j = journey(page);
@@ -57,11 +62,11 @@ test("locked below black; a black SCORE unlocks nothing; proving every unit to b
   // before the score is staged, or the staged band would legitimately become the belt
   await expect.poll(() => page.evaluate(() => { const a = (window as any).__neural; return !!(a.curriculum && a.belts && a.belts.gf); })).toBe(true);
 
-  // fresh profile: the settings row is the LOCKED teaser
+  // fresh profile: the settings row is the switch, off (until v1.270.0: the LOCKED teaser, "Unlocks at black belt")
   await page.evaluate(() => (window as any).__neural.openSettings("flashcards"));
   await page.waitForTimeout(300);
-  await expect(page.locator("[data-recall-locked]")).toBeVisible();
-  await expect(page.locator("[data-recall-locked]")).toContainText("Unlocks at black belt");
+  await expect(page.locator("[data-recall-mode]"), "U163 c: a switch on a white belt").toBeVisible();
+  await expect(page.locator("[data-recall-locked]")).toHaveCount(0);
   await page.evaluate(() => (window as any).__neural.closeModal());
 
   // A BLACK GAME KNOWLEDGE SCORE ON A WHITE BELT (v1.211.0): the score is a percentage and
@@ -75,10 +80,6 @@ test("locked below black; a black SCORE unlocks nothing; proving every unit to b
     return { worn: a.wornBelt().id, badge: !!(a.badges && a.badges["recall-in-play"]), rank: a._recallInPlayNow() };
   });
   expect(below, "a black score on a white belt").toEqual({ worn: "white", badge: false, rank: false });
-  await page.evaluate(() => (window as any).__neural.openSettings("flashcards"));
-  await page.waitForTimeout(300);
-  await expect(page.locator("[data-recall-locked]"), "the row stays locked for a score").toBeVisible();
-  await page.evaluate(() => (window as any).__neural.closeModal());
 
   // PROVE EVERY UNIT OF EVERY BELT (lessons + checkpoints), then answer ONE card through the real
   // choke: the grade publishes, the publish syncs the belt to black, and the badge mints with it
@@ -99,13 +100,14 @@ test("locked below black; a black SCORE unlocks nothing; proving every unit to b
     return { badge: !!(a.badges && a.badges["recall-in-play"]), on: a.get("recallInPlay", false) };
   });
   expect(st.badge, "the badge minted").toBe(true);
-  expect(st.on, "and the toggle auto-flipped ON").toBe(true);
+  expect(st.on, "U163 c: the mint leaves the switch where it was (until v1.270.0 it flipped it ON)").toBe(false);
   await page.evaluate(() => (window as any).__neural.openSettings("flashcards"));
   await page.waitForTimeout(300);
-  await expect(page.locator("[data-recall-locked]"), "the row is no longer the locked teaser").toHaveCount(0);
+  await j.clickByMouse("[data-recall-mode] button", "Recall mode: On");
+  expect(await page.evaluate(() => (window as any).__neural._recallInPlayNow()), "the player turns it on").toBe(true);
   await page.evaluate(() => (window as any).__neural.closeModal());
 
-  // the settings row is now interactive, and flipping it OFF sticks across more answers
+  // flipping it OFF sticks across more answers at black
   await page.evaluate(() => {
     const a = (window as any).__neural;
     a.set("recallInPlay", false);
@@ -115,7 +117,7 @@ test("locked below black; a black SCORE unlocks nothing; proving every unit to b
   });
   expect(
     await page.evaluate(() => (window as any).__neural.get("recallInPlay", false)),
-    "OFF sticks — the flip lives on the MINT, not on the belt",
+    "OFF sticks: no belt switches it on",
   ).toBe(false);
 });
 
@@ -181,19 +183,22 @@ test("with the badge on, a proven card lands as pure recall — and stays MC bel
   expect(await page.evaluate(() => !!document.querySelector("[data-land-recall]"))).toBe(false);
 });
 
-test("the Black corridor section advertises the reward, locked and earned", async ({ page }) => {
+// Until v1.270.0: "the Black corridor section advertises the reward, locked and earned" — on a white belt the row sat in
+// the LOCKED Black section, which stayed inert. U163 c: the Black section is an ordinary one (folded until opened), and
+// the row is the patch's, saying that Recall Mode itself is open to everyone.
+test("U163 c: the Black section shows the patch, unearned and earned, and says Recall Mode is open to everyone", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await page.evaluate(() => (window as any).__neural.openPane("challenges"));
   await page.waitForTimeout(500);
 
-  const locked = page.locator('[data-recall-reward="locked"]');
-  await expect(locked).toHaveCount(1);
-  await expect(locked).toContainText("Recall Mode");
-  // v1.248.0: a future belt is inert (U87), and the advert still reaches the belts walking toward it.
-  await expect(locked, "shown to the player the Black section is locked for").toBeVisible();
-  await expect(page.locator('[data-belt-locked] [data-recall-reward="locked"]'), "on the locked section itself").toHaveCount(1);
-  await expect(page.locator("[data-belt-locked] button, [data-belt-locked] a, [data-belt-locked] [tabindex]"), "and the section stays inert").toHaveCount(0);
+  await page.locator('[data-belt-toggle="black"]').scrollIntoViewIfNeeded();
+  await j.clickByMouse('[data-belt-toggle="black"]', "unfold Black");
+  const unearned = page.locator('[data-recall-reward="unearned"]');
+  await expect(unearned).toHaveCount(1);
+  await expect(unearned).toContainText("Recall Mode");
+  await expect(unearned, "it says where the mode is").toContainText("open to everyone");
+  await expect(unearned, "shown in the open Black section").toBeVisible();
 
   // mint the badge, re-render: the row reads earned
   await page.evaluate(() => {

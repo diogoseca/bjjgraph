@@ -118,28 +118,27 @@ const NG_CHALLENGE_UI_METHODS = {
 
   // THE BLACK BELT ADVERTISES ITS REWARD UP FRONT (v1.105.1, owner: "we can see it in the
   // challenges"). Same idiom as the capstone's "Earns a patch": a visible row on the Black
-  // section so the elite format is something you can see yourself walking toward. It reads
-  // "earned" once the badge exists — the mint (and the auto-flip) happen in the reward loop.
+  // section. It reads "earned" once the badge exists — the mint happens in the reward loop. Since U163 c (v1.270.0) the
+  // patch is a patch and nothing more: Recall Mode is a switch anyone turns on, so the row says where it is.
   _recallRewardRow() {
     const earned = !!(this.badges && this.badges["recall-in-play"]);
     const rw = document.createElement("div");
     rw.className = "ng-challenge-capstone";
-    rw.setAttribute("data-recall-reward", earned ? "earned" : "locked");
+    rw.setAttribute("data-recall-reward", earned ? "earned" : "unearned");
     rw.innerHTML =
-      "<small>BLACK-BELT REWARD</small><b>Recall Mode</b><p>" +
-      (earned
-        ? "Earned. In play, proven cards are pure recall \u2014 flip it in Settings \u2192 Flashcards."
-        : "Reach black belt and proven cards stop being multiple choice in play \u2014 no options, just the question and your memory.") +
-      "</p>";
+      "<small>BLACK-BELT PATCH</small><b>Recall Mode</b><p>" +
+      (earned ? "Earned." : "Reach black belt to earn it.") +
+      " Recall Mode itself is open to everyone: turn it on in Settings \u2192 Flashcards and proven cards stop being multiple choice in play.</p>";
     return rw;
   },
 
-  // Progression entry only (U87). Due reviews, Explore, games and saved work never
-  // consult this guard. wornBelt includes the retained/grandfathered entitlement;
-  // a selected track, completed lesson or frontier is not an earned belt.
+  // EVERYTHING OPENS (U163 c, owner, 13 Nov: "the belt only shows"). Until v1.270.0 this was the progression lock (U87):
+  // a section, a lesson, a checkpoint, a capstone and a track pick were open only up to the worn belt. It now asks one
+  // thing, "is this a belt", so every caller stays (one seam, §6.5) and every section is open; the Path's own evidence
+  // gates (a checkpoint after its lessons, a capstone after its checkpoints) are not belt locks and stay where they are.
+  // e2e/journeys/everything-opens.spec.ts and tests/belt_worn.test.mjs (P1-B, rewritten) pin it.
   beltUnlocked(id) {
-    const rank = ngBeltRank(id);
-    return rank >= 0 && rank <= this.wornBelt().rank;
+    return ngBeltRank(id) >= 0;
   },
 
   _repaintBeltCorridor() {
@@ -159,7 +158,7 @@ const NG_CHALLENGE_UI_METHODS = {
   },
 
   // Eligible corridor sections keep independent presentation folds in ONE settings map.
-  // Future sections are gated separately by beltUnlocked. The worn belt opens by default. The map may still carry a
+  // Every section can fold (U163 c: none is locked). The worn belt opens by default. The map may still carry a
   // "tutorial" key from before v1.137.0 — nothing reads it, and a settings key can never
   // be deleted (CLAUDE.md §6.6), so it simply sits there.
   _beltSectionOpen(id) {
@@ -767,7 +766,7 @@ const NG_CHALLENGE_UI_METHODS = {
       // THE BELT CORRIDOR (v1.96.0) — one continuous woven belt runs down the left, white
       // through black, a knot tied at every boundary; lesson rows hang off it. Belt headers
       // carry selection (still .ng-track-card / data-track / aria-pressed). Eligible
-      // sections fold independently; locked sections contain no progression controls.
+      // sections fold independently (none is locked since U163 c, v1.270.0).
       const ladder = document.createElement("section");
       ladder.className = "ng-track-list ng-challenge-ladder ng-corridor";
       ladder.setAttribute("aria-label", "Belt corridor");
@@ -805,17 +804,9 @@ const NG_CHALLENGE_UI_METHODS = {
         rail.className = "ng-corridor-rail";
         rail.setAttribute("aria-hidden", "true");
         beltSection.appendChild(rail);
-        if (!unlocked) {
-          beltSection.setAttribute("data-belt-locked", "1");
-          const locked = document.createElement("div");
-          locked.className = "ng-belt-locked";
-          locked.innerHTML = "<b>" + ngBeltDisplayName(track.id) + "</b><small>Locked · progress through the earlier belts</small>";
-          beltSection.appendChild(locked);
-          // Text only, so the section stays inert. A locked Black is the whole audience of this row.
-          if (track.id === "black") beltSection.appendChild(this._recallRewardRow());
-          ladder.appendChild(beltSection);
-          continue; // no button, chevron, lesson or keyboard registration
-        }
+        // (the LOCKED section, "Locked · progress through the earlier belts" with no button, chevron or lesson, went with
+        // U163 c in v1.270.0: a later belt is now an ordinary section, folded until opened, like any belt not worn)
+        if (!unlocked) continue; // not a belt id: nothing to draw
         if (index > 0) {
           // the knot: a simple tie marking where one belt ends and the next begins
           const knot = document.createElement("i");
