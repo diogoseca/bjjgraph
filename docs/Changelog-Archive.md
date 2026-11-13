@@ -16477,3 +16477,14 @@ and over filtered rows picks the same ten files.
 
 **Coverage counts moved, with the reason beside them.** `tests/bot_workflows_test.py`: Claude action invocations
 6 -> 5 and model/output contracts 4 -> 3, both the deleted PAA step.
+
+**The project's permission rules (SEC2).** `.claude/settings.json` is tracked now (re-admitted in `.gitignore`;
+`settings.local.json` stays local), and its push rules sit under the key the tool reads, narrowed to force pushes.
+Five rules under `permissions.deny` refuse `git push` with `--force`, `--force-with-lease`, `--force-if-includes`, `-f`
+(alone or first in a bundle such as `-fu`) or a `+refspec`. The syntax comes from the CLI's own permissions page: a
+`*` matches any text, and a Bash deny applies to every subcommand of a compound command. The proof ran the real CLI
+(`claude -p`, project settings only) in a throwaway repo whose origin is a local bare repo: each form was refused,
+its command listed in `permission_denials` with origin unchanged. The control, the previous rules kept in a top-level
+`deny` array, let the same force push through. `tests/claude_settings.test.mjs` pins that the file
+is tracked, that its top-level keys are known ones, and that `permissions.deny` holds each force-push rule; each of its
+three mutants is killed by name.

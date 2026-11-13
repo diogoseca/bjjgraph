@@ -98,10 +98,14 @@ __pycache__/
 # session touches the folders its `paths:` name. Untracked, it would exist in the worktree that
 # wrote it and nowhere else, CI's Claude jobs included. Order matters: a directory git excludes
 # cannot have a file inside it re-included, so the root directory is re-admitted first.
+# The root's .claude/settings.json is tracked for the same reason (v1.264.6): it holds the project's
+# permission rules, under the key Claude Code reads, and tests/claude_settings.test.mjs pins it.
+# settings.local.json stays local.
 .claude
 !/.claude/
 /.claude/*
 !/.claude/rules/
+!/.claude/settings.json
 .playwright-mcp/
 scripts/list-claude-sessions.sh
 
