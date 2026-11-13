@@ -18,7 +18,7 @@
 //   moves     Mount Top: two moves dealt in both rulesets answered Yes, one answered No, a move no seat deals there,
 //             and an escape
 //   retired   two rows in the own deck for questions it does not hold (a reworded or removed card), and one row of a
-//             shared question in a deck its index does not list (retired there, live in its own decks) (v1.271.0)
+//             shared question in a deck its index does not list (retired there, live in its own decks) (v1.273.0)
 //
 // `ratingApp` loads the LIVE CHECK from the same directory (`live-<i>.json`, decoded through the app's own
 // `_ratingLiveFrom`, the path its fetch takes), unless asked not to: `{live: false}` is an app that never asked.
@@ -92,7 +92,7 @@ export function ratingFixture(dir) {
   put(srs, giOnlyDeck, parts.giOnly[1], [D + 30, 30, D]); put(stage, giOnlyDeck, parts.giOnly[1], 3);
   put(srs, "No Such Deck|Top", "00000000", [D + 3, 3, D]);
   put(srs, ownDeck, "0badc0de", [D, 0, D]);
-  // RETIRED (v1.271.0): questions this deck does not hold (chosen so their low 16 bits match none of its live cards), and
+  // RETIRED (v1.273.0): questions this deck does not hold (chosen so their low 16 bits match none of its live cards), and
   // a shared question filed in a deck its index does not list
   const live16 = new Set((cards[ownDeck] ? cards[ownDeck].cards : []).map((c) => parseInt(ngKnowledgeQuestionHash(c.q), 16) & 0xffff));
   const retired = [];

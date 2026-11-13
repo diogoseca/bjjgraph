@@ -2996,7 +2996,7 @@ class Component extends DCLogic {
   //   · the record: `srs`, `stage` and `moves` AS STORED, read and never written — no row is touched, no save is
   //     asked for. Cached on those three objects, the moves and knowledge revisions, `_stageVer`, the day, the game
   //     and the live check, so a grade, a pull, a new day or the check landing recomputes and a repaint does not.
-  //   · THE LIVE CHECK (v1.271.0): a card row counts only while its deck still holds its question. `rating()` never
+  //   · THE LIVE CHECK (v1.273.0): a card row counts only while its deck still holds its question. `rating()` never
   //     fetches; `ratingCheck()` does, once per deck manifest: both `flashcards/live-<i>.json` at once (the files say
   //     how many there are; more than two are fetched after), decoded by `ngRatingLiveDecode` into a derived set per
   //     deck kept in memory only (`_ratingLive`, ~20,000 small numbers; losing it loses nothing, the next check
@@ -3802,7 +3802,7 @@ class Component extends DCLogic {
     // (`ngWireDeckIndex`), never of the raw file: the Gameplan study producer recomputes the same
     // value from verified bytes, and a raw fingerprint would change with the wire format alone.
     this._knowledgeContentRevision = ngKnowledgeFingerprint(ngWireDeckIndex(dec, j && j.shared));
-    // `_meta.live` (v1.271.0): the fingerprint of the rating's live-question files this manifest was emitted with;
+    // `_meta.live` (v1.273.0): the fingerprint of the rating's live-question files this manifest was emitted with;
     // `ratingCheck()` asks for them under it and refuses any other build's (rating.src.js). Absent on an older manifest:
     // "no-fingerprint". In `_meta`, never top-level: the study worker refuses an unknown top-level key (the emitter says why).
     const lfp = j && j._meta && j._meta.live;

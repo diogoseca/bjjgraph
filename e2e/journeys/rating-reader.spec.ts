@@ -21,7 +21,7 @@ import { journey } from "../dsl"
  * byte-identical after the reader has run on two days (the second 120 days on, which must fade the number). The live
  * check's derived sets live in memory only (`_ratingLive`); the two files ride the browser's ordinary HTTP cache.
  *
- * THE LIVE CHECK (v1.271.0). The seeded record holds retired rows (cards its deck no longer holds). A page that never
+ * THE LIVE CHECK (v1.273.0). The seeded record holds retired rows (cards its deck no longer holds). A page that never
  * asks for the check fetches ZERO `flashcards/live-*.json` and its reading is not final (no number); asking
  * (`ratingCheck()`) fetches exactly TWO, under the manifest's fingerprint (`?live=`), and only then is the number final and
  * equal to node's. Another build's file is never read: one built for another deck list, AND one with the same list and
@@ -32,8 +32,8 @@ import { journey } from "../dsl"
  *   J1 the reader stores its level (`belts.lvl`) and saves          → "the reader writes nothing" (storage differs)
  *   J2 the module left out of the bundle (build.mjs)                → the page's rating() throws
  *   J3 the load path drops the moves record                         → the page's counts differ from node's
- *   J4 the reader fetches on a plain read (v1.271.0)                → the first test: "not asked" (it already fetched)
- *   J5 a live file built for another deck list accepted (v1.271.0)  → the second test: "another deck list"
+ *   J4 the reader fetches on a plain read (v1.273.0)                → the first test: "not asked" (it already fetched)
+ *   J5 a live file built for another deck list accepted (v1.273.0)  → the second test: "another deck list"
  *   J6 another build's file under the same list and counts accepted  → the second test: "another build, same list and counts"
  * NOT COVERED here: the law itself (tests/rating.test.mjs and its mutants), no-gi on a page (the unit reads both
  * rulesets through the same reader and pins a flip at exactly two requests; a ruleset flip writes a setting, so it cannot

@@ -62,9 +62,9 @@
 //   V13 the app reads the fingerprint from the manifest's top level      → "the reader's live check: never at a plain read, …"
 //   V14 the EMITTER writes it at the top level (re-emitted in place)     → "the emitter's live rules are the app's", and
 //       tests/knowledge_scenario_manifest_corpus.test.mjs (the study worker refuses an unknown top-level key: every study
-//       plan "unavailable"; caught by ci:validate before the push, v1.271.0)
+//       plan "unavailable"; caught by ci:validate before the push, v1.273.0)
 //   (the emitter's one-deck rule, F2, is tests/live_questions_test.py's, through tests/live_questions_py.test.mjs)
-// LIVE1 (the live check, v1.271.0):
+// LIVE1 (the live check, v1.273.0):
 //   L1  a retired row counted (any row in a checked deck read as live)  → "a retired row is not priced, and is counted"
 //   L2  a live row dropped (every row in a checked deck read as retired) → "a retired row is not priced, and is counted"
 //   L3  a shared question checked against the files, not its index     → "a shared question is live where its index lists it, retired elsewhere"
@@ -80,7 +80,7 @@
 //   (the gi table read in no-gi stays M5a and M5b)
 //
 // NOT COVERED here:
-//   · WHAT 16 BITS CANNOT SEE (v1.271.0). The live check keeps a retired row when its low 16 bits equal one of its deck's
+//   · WHAT 16 BITS CANNOT SEE (v1.273.0). The live check keeps a retired row when its low 16 bits equal one of its deck's
 //     live cards'. Measured on this wire, per retired row: 5.7e-5 in decks of 1-4 cards, 8.9e-5 in 5-8, 1.5e-4 in
 //     9-16, 3.2e-4 in 17-33 (the worst deck 5.0e-4). "16 bits a card, not 8" pins the width; the rate itself is not
 //     asserted (it is a property of the content). Two live cards of one deck sharing a value is harmless (2 decks).
@@ -130,7 +130,7 @@ const tiny = () => ngRatingUniverse({
 const fresh = (ivl = 7) => [D + ivl, ivl, D];
 // Stored question hashes are 8 hex digits (`ngKnowledgeQuestionHash`); the hand-sized records name their questions and
 // `R` turns each name into its real hash. `everyLive` is the live check of a world where every stored row's card is
-// still in its deck; `S` reads a record against it unless a test hands its own live check (v1.271.0).
+// still in its deck; `S` reads a record against it unless a test hands its own live check (v1.273.0).
 const H = (name) => ngKnowledgeQuestionHash(name);
 const hx = (m) => Object.fromEntries(Object.entries(m || {}).map(([dk, rows]) => [dk,
   rows && typeof rows === "object" ? Object.fromEntries(Object.entries(rows).map(([k, v]) => [H(k), v])) : rows]));
@@ -517,7 +517,7 @@ test("the reader writes nothing", () => {
     a.settings = deep({ hideMoves: true }); a._settingsAt = deep({ hideMoves: 1 });
     // EVERY field `_progressBlob()` saves (it cannot run in this harness: it needs the challenge sources), so a write
     // that is never saved — a setting set in memory — is caught here, where storage cannot see it (READ402 X9).
-    // THIS LIST IS BY HAND (GO402 D3): it matched `_progressBlob()` in app.src.jsx at v1.271.0. A field added to that
+    // THIS LIST IS BY HAND (GO402 D3): it matched `_progressBlob()` in app.src.jsx at v1.273.0. A field added to that
     // blob must be added HERE too, or this test stops watching it (CLAUDE.md §6.7, the hand-maintained list).
     const SAVED = ["_progressExtras", "prep", "rec", "stage", "srs", "dayLog", "_rollDays", "units", "belts", "tut", "challenges",
       "badges", "coins", "lists", "flow", "_exploredKeys", "_days", "settings", "_settingsAt", "moves", "cardDone", "_progressAt",

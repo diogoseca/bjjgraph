@@ -1,4 +1,4 @@
-// The live-question emitter's Python cases (v1.271.0, LIVE2 F2). `test:units` collects only tests/*.test.mjs, so without this
+// The live-question emitter's Python cases (v1.273.0, LIVE2 F2). `test:units` collects only tests/*.test.mjs, so without this
 // wrapper tests/live_questions_test.py would be a note, not a gate (CLAUDE.md §6.4). It fails if the file ran no cases, and in
 // CI a skipped case is a failure.
 import test from 'node:test';

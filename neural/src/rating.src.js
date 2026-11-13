@@ -35,11 +35,11 @@
 //   Nothing credits a card you have never answered: this is C0 of the seat's simulation (ELO1, kept outside the repo):
 //   no credit yet for what you knew before the app — that needs a first-answer record, a later stage.
 //
-// A RETIRED QUESTION IS NOT PRICED (v1.271.0, the live check below): a stored row counts only while its deck holds its
+// A RETIRED QUESTION IS NOT PRICED (v1.273.0, the live check below): a stored row counts only while its deck holds its
 // question now. A row that cannot be checked yet is never counted as known and never dropped: it is `unchecked`, and the
 // whole answer is then not final (`final: false`, no number), so no surface can show a number that moves by itself.
 // NOT COVERED — WHAT 16 BITS CANNOT SEE. The live files carry 16 bits a card, so a retired row is wrongly read as live
-// when its low 16 bits equal one of its deck's live cards'. Measured on this wire (v1.271.0), per retired row: 5.7e-5 in
+// when its low 16 bits equal one of its deck's live cards'. Measured on this wire (v1.273.0), per retired row: 5.7e-5 in
 // decks of 1-4 cards, 8.9e-5 in 5-8, 1.5e-4 in 9-16, 3.2e-4 in 17-33 (the worst deck 5.0e-4). On the seat's simulated
 // records given 6% retired card rows (a round test parameter), the rows expected to be wrongly kept: 0.023 for a
 // year at 20 a day, 0.17 for everything known (21,269). Two live cards of one deck sharing a 16-bit value is harmless (2 decks
@@ -234,7 +234,7 @@ export function ngRatingUniverse(input) {
   return out;
 }
 
-// ── THE LIVE CHECK (v1.271.0) ─────────────────────────────────────────────────────────────────────────────────────
+// ── THE LIVE CHECK (v1.273.0) ─────────────────────────────────────────────────────────────────────────────────────
 // A stored row counts only while its deck holds its question NOW. Rows are never pruned, so a card reworded or removed
 // since leaves a row behind; the manifest carries a card COUNT per deck, not its questions. The live files
 // (flashcards/live-<i>.json, emitted by scripts/regenerate_neural_data.py `_write_live_questions`, fetched on demand by

@@ -1,4 +1,4 @@
-"""The live-question emitter (scripts/regenerate_neural_data.py, v1.271.0), on a synthetic emit.
+"""The live-question emitter (scripts/regenerate_neural_data.py, v1.273.0), on a synthetic emit.
 
 A question repeated inside ONE deck fills two slots of one deck, so the manifest's `shared` lists it with that one deck; the app
 ignores a one-deck entry, so the live files must keep the question, or it would be in neither and its row would read as retired

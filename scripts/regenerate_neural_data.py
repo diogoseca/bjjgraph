@@ -1619,7 +1619,7 @@ def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int]
     # hierarchy's shared cards; it makes cross-deck credit residency-independent (noteCardDone).
     # the live questions (below) are built first, because the manifest carries their fingerprint (`_meta.live`): the app refuses
     # any live file whose own data does not hash to it, and asks for the files under it, so a browser holding this manifest
-    # can never be handed another build's copy (v1.271.0, LIVE2 F1). A question is left out of them only when it is shared
+    # can never be handed another build's copy (v1.273.0, LIVE2 F1). A question is left out of them only when it is shared
     # the APP's way, by two or more DISTINCT decks (F2): one repeated inside one deck is listed in `shared` with that one
     # deck, which the app ignores, so it must stay in the live data or it would be in neither.
     live = _live_question_bodies(decks, _shared_the_apps_way(shared))
@@ -1653,7 +1653,7 @@ def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int]
     return len(decks), sum(len(d["cards"]) for d in decks.values())
 
 
-# THE LIVE QUESTIONS (v1.271.0): which questions each deck holds NOW, so the rating (neural/src/rating.src.js) can tell
+# THE LIVE QUESTIONS (v1.273.0): which questions each deck holds NOW, so the rating (neural/src/rating.src.js) can tell
 # a stored row for a live card from one for a card that was reworded or removed since (rows are never pruned). Fetched
 # ON DEMAND only, when something asks for the rating to be checked (`ratingCheck()`), never at boot.
 #   · 16 bits a card: the low 16 bits of fnv1a32(question), for every card whose question is NOT in the manifest's
