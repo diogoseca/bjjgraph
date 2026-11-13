@@ -16449,7 +16449,8 @@ and in the root (89), then `regenerate:neural` and `npm run build` under the bui
 4,465 of 4,465, the payload budget OK (eager gzip 352,905 B, dev's own figure), and `validate:build-shape` equal on
 every count, marker and type, with the 3 root bundles and 14 app assets byte for byte. esbuild runs through its
 platform package (its script only swaps the launcher for the native binary); `@parcel/watcher` loads its prebuilt
-binding. The snapshot receiver on that build answers its ping and writes its pair.
+binding. The snapshot receiver on that build answers its ping and writes its pair. The curated gate on that build
+passed 64 of 64, and `posttest:curated` still wrote its count, so the flag on the install did not reach `npm run`.
 
 **Bots.** `proofread-bot.yml` and `validation-fixer.yml` piped `https://claude.ai/install.sh` into bash, which ran
 whatever that script and the newest build were on the day. They now install `@anthropic-ai/claude-code-linux-x64`
