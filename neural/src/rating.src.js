@@ -14,7 +14,7 @@
 //     (that is how its schedule is written: `ngKnowledgeApplyGrade` files one row per shared deck).
 //   · a move is worth (its seat's weight) × (its attempt share in that seat's dealt hand) / 100. Seat weight and deck
 //     weight are the same `scoreWeights(frame)` entry, so a position's traffic pays for its cards AND its moves; that
-//     is the weighting the ELO1 simulation measured (moves ≈ a quarter of the game) and the owner kept.
+//     is the weighting the seat's simulation measured (moves ≈ a quarter of the game) and the owner kept.
 //   The denominator is everything there is: Σ every weighted deck + Σ every dealt move. It never shrinks to what you
 //   have studied, which is why a farmer of the 50 easiest cards reads ~1.0% of the game and not 100%.
 //
@@ -26,9 +26,20 @@
 //     stage (or a No) it is a miss.
 //   · a miss is worth 0. Not a half: the schedule already brings it back tomorrow.
 //   · a question with a stage but no schedule (a blob from before v1.105.0, which wrote no `srs`) is worth 0 here
-//     and COUNTED (`stageOnly`), so a later stage can decide what an old player's unscheduled learning is worth.
-//   Nothing credits a card you have never answered: this is C0 of the ELO1 report (no credit yet for what you knew
-//   before the app — that needs a first-answer record, a later stage).
+//     and COUNTED (`stageOnly`), so a later stage can decide what an old player's unscheduled learning is worth. A
+//     record made ONLY of such stages reads status "unscheduled" (the points as the definition gives them, 1000), never
+//     "ok", so no surface paints it by accident (READ402 F5).
+//   · A DECK NEVER COUNTS FOR MORE THAN ITS OWN FULL WORTH: the questions priced in a deck add up to at most its card
+//     count (READ402 F2), and a deck holding more priced questions than cards is COUNTED (`decksOver`, and the rows
+//     beyond its card count, `rowsOver`).
+//   Nothing credits a card you have never answered: this is C0 of the seat's simulation (ELO1, kept outside the repo):
+//   no credit yet for what you knew before the app — that needs a first-answer record, a later stage.
+//
+// NOT COVERED — A RETIRED QUESTION READS AS A LIVE ONE. The manifest carries a card COUNT per deck, not its questions,
+// so this module cannot tell a row for a question the deck still holds from a row for one that was rewritten or removed
+// (and stored rows are never pruned). A deck with retired rows can therefore read as fully known when it is not; the cap
+// above stops it reading as MORE than known, and `decksOver` / `rowsOver` show it happened, but they cannot see a deck
+// whose live and retired rows together stay under its count. This must be settled before any surface shows the number.
 //
 // NOTHING IS GUESSED, AND NOTHING SILENT (CLAUDE.md §6.6, traps-wire.md "a CHECK THAT NEVER RAN"):
 //   · a weight or a share that is `null` means "this does not exist in this ruleset" (CLAUDE.md §3) — it is dropped
@@ -36,8 +47,13 @@
 //   · a zero weight is a real "exists, never attempted": it weighs nothing and is counted (`zeroWeight`);
 //   · a row for a deck the manifest does not know, a move this ruleset does not deal at that seat, an escape (no
 //     share in any hand) or a malformed row is counted by reason and skipped;
-//   · NEVER LOOKED IS NOT A NUMBER. No manifest, no weights, no dealt hands, or a record with no answer in it returns
-//     `points: null` and a `status` naming why — never 1000, never 0. Only `status: "ok"` carries a number.
+//   · NEVER LOOKED IS NOT A NUMBER. No manifest, no weights, no dealt hands, a record with no answer in it, or one
+//     whose every row is malformed, in a deck the manifest does not have or at a seat this ruleset does not deal
+//     ("unmatched", READ402 F1) returns
+//     `points: null` and a `status` naming why — never 1000, never 0. Only "ok" and "unscheduled" carry a number.
+//   · The app's loader turns a null attempt cell on the wire into 0 before this module sees it (`ingest`'s `cal.ev` /
+//     `cal.evGi` expansion, `att[k] || 0`); the wire carries none today, so the `absent` path is exercised by the
+//     units, not by the shipped data (READ402 F8).
 //
 // THE BELT LINES are table a (owner U160 a, "Even belts"): white from 1000, its stripes counted from 1160 one every
 // 32 (1192, 1224, 1256, 1288); blue from 1320 and purple from 1480, a stripe every 32; brown from 1640, every 40;
@@ -45,7 +61,8 @@
 // The NUMBER may fall; the belt never does — holding it is the caller's (`belts.held`), so `ngRatingNext` takes the
 // held level and measures the goal from max(held, the number's own level).
 //
-// research: docs/Changelog-Archive.md (v1.267.0) and the ELO1 report (the simulation this module was matched to).
+// research: docs/Changelog-Archive.md (v1.267.0); the simulation this module was matched to is the seat's, kept outside
+// the repo (the parity statement and its limits are in tests/rating.test.mjs's header).
 
 /** The points scale's ends: nothing recalled, everything recalled. */
 export const NG_RATING_FLOOR = 1000;
@@ -90,8 +107,9 @@ export function ngRatingLevel(points) {
   return 0;
 }
 
-/** The lowest number that reaches level L (0..20). Level 0 is the floor. */
+/** The lowest number that reaches level L (0..20). Level 0 is the floor. null for anything that is not a number. */
 export function ngRatingLevelFloor(L) {
+  if (!ngRatingNum(L)) return null;
   const T = NG_RATING_TABLE;
   const l = Math.max(0, Math.min(NG_RATING_BLACK, Math.floor(L)));
   if (l >= NG_RATING_BLACK) return T[4].from;
@@ -100,9 +118,10 @@ export function ngRatingLevelFloor(L) {
   return T[k].from + s * T[k].step;
 }
 
-/** {belt: 0..4, stripes: 0..4} of a level (black: stripes 0). */
+/** {belt: 0..4, stripes: 0..4} of a level (black: stripes 0). null for anything that is not a number. */
 export function ngRatingBeltOf(L) {
-  const l = Math.max(0, Math.min(NG_RATING_BLACK, Math.floor(L || 0)));
+  if (!ngRatingNum(L)) return null;
+  const l = Math.max(0, Math.min(NG_RATING_BLACK, Math.floor(L)));
   return l >= NG_RATING_BLACK ? { belt: 4, stripes: 0 } : { belt: Math.floor(l / 5), stripes: l % 5 };
 }
 
@@ -158,7 +177,7 @@ export function ngRatingUniverse(input) {
   const inp = input || {};
   const counts = { decks: 0, seats: 0, dealt: 0, absent: 0, zeroWeight: 0 };
   const out = { status: "ok", total: 0, factTotal: 0, moveTotal: 0, decks: new Set(), deckUnit: new Map(),
-    seats: new Map(), shared: new Map(), counts };
+    deckN: new Map(), seats: new Map(), shared: new Map(), counts };
   const decks = inp.decks, weights = inp.weights, seats = inp.seats;
   if (!decks || typeof decks !== "object" || !Object.keys(decks).length) { out.status = "no-manifest"; return out; }
   if (!weights || typeof weights !== "object" || !Object.keys(weights).length) { out.status = "no-weights"; return out; }
@@ -172,6 +191,7 @@ export function ngRatingUniverse(input) {
     if (!ngRatingNum(w) || w < 0) { counts.absent++; continue; }   // §3: null is "does not exist here", never zero
     if (w === 0) counts.zeroWeight++; else counts.decks++;
     out.deckUnit.set(dk, w / n);
+    out.deckN.set(dk, n);
     out.factTotal += w;
   }
   for (const st of Object.keys(seats)) {
@@ -203,17 +223,21 @@ export function ngRatingUniverse(input) {
  *   universe  an `ngRatingUniverse` result
  *   record    {srs: {deckKey: {qh: row}}, stage: {deckKey: {qh: 0..4}}, moves: {"<posOrd>/<role>": {mv: row}}}
  *   day       today's epoch day
- * Returns {status, share, points, level, counts}. ONLY status "ok" carries a number; every other status carries
- * `share`, `points` and `level` null: the game's own ("no-manifest", "no-weights", "no-hands"), "no-day", or
- * "empty" (not one answer stored, and no stage either).
+ * Returns {status, share, points, level, counts}. "ok" carries a number when at least one row met the game (priced,
+ * or known to be outside this ruleset's game). "unscheduled" carries the number the definition gives (1000) for a
+ * record made only of stages with no schedule, so a caller must choose to show it. Every other status carries
+ * `share`, `points` and `level` null: the game's own ("no-manifest", "no-weights", "no-hands"), "no-day", "empty"
+ * (not one answer stored, and no stage either) or "unmatched" (rows, but every one malformed or in an unknown deck).
  * counts (the game's, plus): `rows` read, `questions` and `moves` they make, `weighted` (each one priced, possibly at
  * 0), and every row left out, by reason — `outside` (its deck or move is not in this ruleset's game: no weight, a
  * null cell, a move this seat does not deal, an escape), `unknownDeck` (a deck the manifest does not have),
- * `badRow` (malformed), `stageOnly` (a stage with no schedule).
+ * `unknownSeat` (a seat this ruleset does not deal), `badRow` (malformed), `stageOnly` (a stage with no schedule); and `decksOver` / `rowsOver`, decks priced for more
+ * questions than they have cards and the questions beyond (their worth is capped at the deck's own).
  */
 export function ngRatingShare(universe, record, day) {
   const U = universe || {};
-  const counts = Object.assign({ rows: 0, questions: 0, moves: 0, weighted: 0, outside: 0, unknownDeck: 0, badRow: 0, stageOnly: 0 }, U.counts || {});
+  const counts = Object.assign({ rows: 0, questions: 0, moves: 0, weighted: 0, outside: 0, unknownDeck: 0, badRow: 0, stageOnly: 0,
+    unknownSeat: 0, decksOver: 0, rowsOver: 0 }, U.counts || {});
   const none = (status) => ({ status, share: null, points: null, level: null, counts });
   if (U.status !== "ok" || !(U.total > 0)) return none(U.status && U.status !== "ok" ? U.status : "no-weights");
   if (!ngRatingNum(day)) return none("no-day");
@@ -240,13 +264,13 @@ export function ngRatingShare(universe, record, day) {
     if (!rows || typeof rows !== "object") continue;
     for (const qh of Object.keys(rows)) if (!byQ.has(qh) && ngRatingNum(rows[qh]) && rows[qh] > 0) counts.stageOnly++;
   }
-  let got = 0;
+  // each question's worth is booked to the decks it is priced in, and a deck is capped at its own full worth (F2)
+  const perDeck = new Map();
   for (const [qh, q] of byQ) {
     const decks = U.shared.get(qh) || [...q.decks];
-    let w = 0, priced = false, inManifest = false, st = 0;
+    let priced = false, inManifest = false, st = 0;
     for (const dk of decks) {
-      const u = U.deckUnit.get(dk);
-      if (u != null) { w += u; priced = true; }
+      if (U.deckUnit.has(dk)) priced = true;
       if (U.decks.has(dk)) inManifest = true;
       const s = stage[dk] && stage[dk][qh];
       if (ngRatingNum(s) && s > st) st = s;
@@ -254,7 +278,18 @@ export function ngRatingShare(universe, record, day) {
     counts.questions++;
     if (!priced) { if (inManifest) counts.outside++; else counts.unknownDeck++; continue; }
     counts.weighted++;
-    got += w * ngRatingRecall(q.row, q.row[1] > 1 || st > 0, day);
+    const k = ngRatingRecall(q.row, q.row[1] > 1 || st > 0, day);
+    for (const dk of decks) {
+      if (!U.deckUnit.has(dk)) continue;
+      const d = perDeck.get(dk) || perDeck.set(dk, { k: 0, rows: 0 }).get(dk);
+      d.k += k; d.rows++;
+    }
+  }
+  let got = 0;
+  for (const [dk, d] of perDeck) {
+    const n = U.deckN.get(dk);
+    if (d.rows > n) { counts.decksOver++; counts.rowsOver += d.rows - n; }
+    got += U.deckUnit.get(dk) * Math.min(d.k, n);
   }
   // MOVES: one per seat and move, priced by its share of that seat's dealt hand in this ruleset.
   for (const st of Object.keys(moves)) {
@@ -266,13 +301,19 @@ export function ngRatingShare(universe, record, day) {
       const r = rows[mv];
       if (!Array.isArray(r) || r.length < 4 || !ngRatingNum(r[1]) || !ngRatingNum(r[2]) || r[1] <= 0) { counts.badRow++; continue; }
       counts.moves++;
-      const v = hand ? hand.get(mv) : undefined;
+      if (!hand) { counts.unknownSeat++; continue; }    // a seat this ruleset does not deal: the row met nothing here
+      const v = hand.get(mv);
       if (v == null) { counts.outside++; continue; }   // not dealt at this seat here, an escape, or a null cell
       counts.weighted++;
       got += v * ngRatingRecall(r, r[3] === 1, day);
     }
   }
-  if (!counts.rows && !counts.stageOnly) return none("empty");
+  // a number only when a row MET the game (READ402 F1): rows that are all malformed or all in unknown decks are not
+  // "nothing known", they are "nothing read", and a record of stages alone is its own case (F5)
+  if (!counts.weighted && !counts.outside) {
+    if (counts.stageOnly) return { status: "unscheduled", share: 0, points: NG_RATING_FLOOR, level: 0, counts };
+    return none(counts.rows ? "unmatched" : "empty");
+  }
   const share = Math.max(0, Math.min(1, got / U.total));
   const points = ngRatingPoints(share);
   return { status: "ok", share, points, level: ngRatingLevel(points), counts };

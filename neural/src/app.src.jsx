@@ -3007,13 +3007,15 @@ class Component extends DCLogic {
     return out;
   }
   _ratingGame(frame) {
+    // a game that could not be read is a STATUS, kept nowhere: `ngRatingShare` turns it into `points: null`. The graph
+    // is checked FIRST (READ402 F7): `scoreWeights` expands the table through the nodes and memoises it, so asked with
+    // no graph it would keep an empty table for good and announce a `wire_key_unresolved` that is not one
+    const fail = (status) => ({ status, total: 0, counts: {} });
+    if (!this.nodes || !this.nodes.length || !this._ordById) return fail("no-graph");
     const decks = this.flashcards && this.flashcards.decks, weights = this.scoreWeights(frame);
     const c = this._ratingGameCache;
     if (c && c.frame === frame && c.nodes === this.nodes && c.ord === this._ordToId && c.decks === decks
       && c.weights === weights && c.shared === this._sharedQ) return c.game;
-    // a game that could not be read is a STATUS, kept nowhere: `ngRatingShare` turns it into `points: null`
-    const fail = (status) => ({ status, total: 0, counts: {} });
-    if (!this.nodes || !this.nodes.length || !this._ordById) return fail("no-graph");
     if (!decks || !Object.keys(decks).length) return fail("no-manifest");
     if (!weights || !Object.keys(weights).length) return fail("no-weights");
     const tab = frame === "gi" ? this._evGi : this._ev;

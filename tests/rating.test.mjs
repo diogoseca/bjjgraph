@@ -1,6 +1,6 @@
 // THE RATING (v1.267.0, Stage 1) — neural/src/rating.src.js and its one reader in the app, `rating()`.
 //
-// The owner's rule (13 Nov 2026): the number is what you can recall RIGHT NOW (method C of the ELO1 report, as C0:
+// The owner's rule (13 Nov 2026): the number is what you can recall RIGHT NOW (method C of the seat's simulation, as C0:
 // nothing credited for what you knew before the app), on a points scale from 1000 (nothing) to 2000 (everything);
 // table a's belt lines ("Even belts"); black from 1840. Stage 1 computes it and shows it nowhere.
 //
@@ -29,8 +29,32 @@
 //   M12 the cache not keyed on the day                                  → "cached, and keyed on the day"
 //   M13 the ruleset mask dropped from the seat walk                     → "the reader's game is the wire's, seat by seat"
 //   M14 the shared index ignored (a question's decks = where its rows are) → "a question shared by several decks is ONE question"
-// NOT COVERED here: whether the weighting is the right one (the owner's call, measured by the ELO1 simulation, whose
-// C0 this matches to 2e-11 points on 588 seeded records — scratch, not a gate), and any painted surface (none exists).
+// READ402 (the independent reader's findings), each applied alone, each killed by the named test:
+//   M15 rows that are all malformed or in unknown decks read "ok", 1000 (F1) → "never looked is not a number" (both)
+//   M16 the deck cap removed (F2)                                       → "a deck never counts for more than its own full worth"
+//   M17 the cap's counts not kept (F2)                                  → "a deck never counts for more than its own full worth"
+//   M18 a record of stages alone reads "ok" (F5)                        → "a record of stages alone is unscheduled"
+//   M19 ngRatingLevelFloor unguarded, throws on NaN (F6)                → "the belt lines are table a"
+//   M20 the weights read before the graph check (F7)                    → "never looked is not a number (the reader)"
+//   M21 a move at a seat this ruleset does not deal read as "outside"   → "never looked is not a number (the law)"
+//   X9  the reader writes a setting in memory without saving            → "the reader writes nothing"
+//   X11 the deal leaves `_movesBusy` set                                → "the reader leaves the roll as it found it"
+//   X12 the deal leaves `currentPos` moved                              → "the reader leaves the roll as it found it"
+//   X15 the same-day tie goes to the larger interval                    → "a question shared by several decks is ONE question"
+//   X18 a hand that fails to deal is skipped, not "hand-failed"         → "a hand that fails to deal fails the game"
+//
+// NOT COVERED here:
+//   · A RETIRED QUESTION READS AS A LIVE ONE. The manifest carries a card count per deck, not its questions, so the
+//     module cannot tell a row for a question its deck still holds from a row for one rewritten or removed since (rows
+//     are never pruned). A deck with retired rows can read as fully known when it is not. The cap stops a deck reading
+//     as more than fully known and `decksOver` / `rowsOver` count that it happened, but nothing sees a deck whose live
+//     and retired rows together stay under its count. This must be settled before any surface shows the number.
+//   · PARITY WITH THE SIMULATION IS NOT TESTED HERE. It rests on the seat's simulation scripts, kept outside the repo
+//     with the orchestrator: the module through this reader matched the simulation's C0, computed by the simulation's
+//     own code, to 2.2e-11 points on 588 seeded records, with the simulation's gi moves re-priced from the gi table
+//     (its own pricing read every move from the no-gi table; on the independent reader's 86 gi records that differs
+//     by -8.16 to +1.73 points, a quarter of a stripe at most). Nothing here would notice the two drifting apart.
+//   · Whether the weighting is the right one (the owner's call), and any painted surface (none exists).
 //
 // Run: node --test tests/rating.test.mjs
 import { test } from "node:test";
@@ -85,6 +109,11 @@ test("the belt lines are table a", () => {
   assert.deepEqual(ngRatingNext(1300, null), { level: 4, held: 4, next: 5, at: 1320, toNext: 20, toHeld: 0 });
   assert.deepEqual(ngRatingNext(1900, 3), { level: 20, held: 20, next: null, at: 2000, toNext: 100, toHeld: 0 });
   assert.equal(ngRatingNext(null, 3), null);
+  // not a number: no level, no floor, no belt — never a throw, never a silent white (READ402 F6)
+  for (const bad of [NaN, undefined, null, "3", Infinity]) {
+    assert.equal(ngRatingLevelFloor(bad), null, `floor of ${String(bad)}`);
+    assert.equal(ngRatingBeltOf(bad), null, `belt of ${String(bad)}`);
+  }
 });
 
 test("a right answer fades 10% per interval", () => {
@@ -114,6 +143,11 @@ test("a question shared by several decks is ONE question", () => {
   // the latest row wins, the same-day tie going to the smaller interval (the cloud merge's rule)
   const late = { srs: { "A|Top": { qs: [D + 120, 120, D - 200] }, "B|Top": { qs: [D + 1, 1, D] } }, stage: {} };
   assert.equal(ngRatingShare(U, late, D).share, 0, "the later row, a reset with no stage, is a miss");
+  // ...and on the SAME day the smaller interval wins, whichever deck holds it (READ402 X15)
+  const tieA = { srs: { "A|Top": { qs: [D + 30, 30, D] }, "B|Top": { qs: [D + 1, 1, D] } }, stage: {} };
+  const tieB = { srs: { "A|Top": { qs: [D + 1, 1, D] }, "B|Top": { qs: [D + 30, 30, D] } }, stage: {} };
+  assert.equal(ngRatingShare(U, tieA, D).share, 0, "a same-day reset beats the longer interval (it sits in B)");
+  assert.equal(ngRatingShare(U, tieB, D).share, 0, "a same-day reset beats the longer interval (it sits in A)");
   // everything known, fresh: exactly the whole game
   const all = { srs: { "A|Top": { qs: fresh(), a1: fresh() }, "B|Top": { qs: fresh(), b1: fresh(), b2: fresh(), b3: fresh() } }, stage: {},
     moves: { "1/top": { 10: [D + 7, 7, D, 1], 11: [D + 7, 7, D, 1], 13: [D + 7, 7, D, 1] } } };
@@ -138,7 +172,44 @@ test("a move counts by its share of the seat's hand", () => {
   close(ngRatingShare(U, { moves: { "1/top": { 13: [D + 1, 1, D, 1] } } }, D).share, (0.6 * 0.2 * 0.9) / 1.4, "a first Yes (interval 1) at 0.9");
   const r = ngRatingShare(U, { moves: { "1/top": { 11: [D + 1, 1, D, 0], 99: [D + 7, 7, D, 1], e00ff: [D + 7, 7, D, 1] }, "7/top": { 10: [D + 7, 7, D, 1] } } }, D);
   assert.equal(r.share, 0, "a No, a move this seat does not deal, an escape, a seat this ruleset does not deal");
-  assert.deepEqual([r.counts.moves, r.counts.weighted, r.counts.outside], [4, 1, 3]);
+  assert.deepEqual([r.counts.moves, r.counts.weighted, r.counts.outside, r.counts.unknownSeat], [4, 1, 2, 1]);
+});
+
+test("a deck never counts for more than its own full worth", () => {
+  const U = tiny();
+  // A has 2 cards; rows for 3 of its questions (one retired since, but nothing here can tell which)
+  const three = { srs: { "A|Top": { a1: fresh(), a2: fresh(), a3: fresh() } }, stage: {} };
+  const r = ngRatingShare(U, three, D);
+  close(r.share, 0.6 / 1.4, "capped at A's whole worth, not 1.5 times it");
+  assert.deepEqual([r.counts.decksOver, r.counts.rowsOver], [1, 1], "and the cut is counted, deck and rows");
+  // a cap on value, not on rows: three faded rows under A's worth are not cut, but still counted
+  const faded = { srs: { "A|Top": { a1: [D, 30, D - 300], a2: [D, 30, D - 300], a3: [D, 30, D - 300] } }, stage: {} };
+  const f = ngRatingShare(U, faded, D);
+  close(f.share, (0.3 * 3 * 0.9 ** 10) / 1.4, "under the cap: each row at its own worth");
+  assert.deepEqual([f.counts.decksOver, f.counts.rowsOver], [1, 1]);
+  // a shared question is booked to each of its decks: A full (qs + a1) is not over, B is not touched beyond its 4
+  const ok = ngRatingShare(U, { srs: { "A|Top": { qs: fresh(), a1: fresh() }, "B|Top": { qs: fresh() } }, stage: {} }, D);
+  assert.deepEqual([ok.counts.decksOver, ok.counts.rowsOver], [0, 0]);
+  // on the real wire: a deck answered in full plus as many rows again reads as the deck in full, and says so
+  const a = seeded("gi"), dk = FIX.parts.ownDeck, n = a.flashcards.decks[dk].n;
+  const only = (rows) => { const b = ratingApp(DIR, "gi"); b.srs = { [dk]: rows }; b.stage = {}; b.moves = {}; return b.rating(); };
+  const live = {}, more = {};
+  for (let i = 0; i < n; i++) live["live" + i] = [RATING_DAY + 30, 30, RATING_DAY];
+  for (let i = 0; i < n; i++) more["gone" + i] = [RATING_DAY + 30, 30, RATING_DAY];
+  const full = only(live), doubled = only({ ...live, ...more });
+  assert.equal(doubled.points, full.points, "twice the rows, the same worth");
+  assert.deepEqual([doubled.counts.decksOver, doubled.counts.rowsOver, full.counts.decksOver], [1, n, 0]);
+  assert.ok(full.points > 1000, "a real deck, a real worth");
+});
+
+test("a record of stages alone is unscheduled", () => {
+  const U = tiny();
+  const old = ngRatingShare(U, { stage: { "A|Top": { a1: 3 }, "B|Top": { b1: 4 } } }, D);
+  assert.equal(old.status, "unscheduled", "not ok: a surface must choose to show it");
+  assert.deepEqual([old.points, old.share, old.level, old.counts.stageOnly], [NG_RATING_FLOOR, 0, 0, 2], "the number the definition gives");
+  const mixed = ngRatingShare(U, { srs: { "A|Top": { a1: fresh() } }, stage: { "A|Top": { a1: 2 }, "B|Top": { b1: 4 } } }, D);
+  assert.equal(mixed.status, "ok", "with one scheduled row it is an ordinary number");
+  assert.equal(mixed.counts.stageOnly, 1);
 });
 
 test("a miss is worth nothing", () => {
@@ -178,9 +249,11 @@ test("never looked is not a number (the law)", () => {
   none(ngRatingShare(U, {}, D), "empty");
   none(ngRatingShare(U, { srs: {}, stage: {}, moves: {} }, D), "empty");
   none(ngRatingShare(U, { srs: { "A|Top": { a: fresh() } } }, undefined), "no-day");
-  // a stage with no schedule (a blob from before v1.105.0) IS an answer: a number, and the row counted
-  const old = ngRatingShare(U, { stage: { "A|Top": { a: 3 } } }, D);
-  assert.equal(old.status, "ok"); assert.equal(old.points, NG_RATING_FLOOR); assert.equal(old.counts.stageOnly, 1);
+  // rows that met nothing are "nothing read", not "nothing known" (READ402 F1)
+  none(ngRatingShare(U, { srs: { "A|Top": { a: [D, 0, D], b: "x" } }, moves: { "1/top": { 10: [D, 3] } } }, D), "unmatched");
+  none(ngRatingShare(U, { srs: { "No Such|Top": { a: fresh(), b: fresh() } }, moves: { "9/top": { 10: [D + 7, 7, D, 1] } } }, D), "unmatched");
+  const un = ngRatingShare(U, { srs: { "No Such|Top": { a: fresh() } }, moves: { "9/top": { 10: [D + 7, 7, D, 1] } } }, D);
+  assert.deepEqual([un.counts.unknownDeck, un.counts.unknownSeat, un.counts.weighted], [1, 1, 0], "and the reasons are counted");
 });
 
 // ── Part 2: the reader, on the real wire ────────────────────────────────────────────────────────────────────────────
@@ -280,6 +353,11 @@ test("never looked is not a number (the reader)", () => {
   const blank = ratingApp(DIR, "gi");
   blank.nodes = []; blank._ordById = null;
   assert.deepEqual([blank.rating().status, blank.rating().points], ["no-graph", null]);
+  // with no graph the weights are never asked for, so no empty table is memoised and no false beat fires (READ402 F7)
+  assert.ok(!(blank._scoreW && "gi" in blank._scoreW), "no score table memoised without a graph");
+  assert.equal(blank.beats.filter((b) => b.beat === "wire_key_unresolved").length, 0, "no wire_key_unresolved beat");
+  const lost = ratingApp(DIR, "gi"); lost.srs = { "No Such Deck|Top": { "00000000": [RATING_DAY + 3, 3, RATING_DAY] } };
+  assert.deepEqual([lost.rating().status, lost.rating().points], ["unmatched", null], "rows only in a deck the manifest lacks");
   const noMan = ratingApp(DIR, "gi"); noMan.flashcards = null; noMan.srs = FIX.blob.srs;
   assert.deepEqual([noMan.rating().status, noMan.rating().points], ["no-manifest", null]);
   const noCur = ratingApp(DIR, "gi"); noCur.curriculum = null; noCur._scoreW = null; noCur.srs = FIX.blob.srs;
@@ -298,11 +376,47 @@ test("the reader writes nothing", () => {
     const rec = JSON.parse(JSON.stringify(FIX.blob));
     a.srs = deep(rec.srs); a.stage = deep(rec.stage); a.moves = deep(rec.moves);
     a.prep = deep({}); a.belts = deep({ won: {}, held: { id: "blue", t: 1 } }); a.units = deep({}); a.dayLog = deep({});
-    const before = JSON.stringify([a.srs, a.stage, a.moves, a.prep, a.belts, a.units, a.dayLog]);
-    const ids = [a.srs, a.stage, a.moves];
+    a.settings = deep({ hideMoves: true }); a._settingsAt = deep({ hideMoves: 1 });
+    // EVERY field `_progressBlob()` saves (it cannot run in this harness: it needs the challenge sources), so a write
+    // that is never saved — a setting set in memory — is caught here, where storage cannot see it (READ402 X9)
+    const SAVED = ["_progressExtras", "prep", "rec", "stage", "srs", "dayLog", "_rollDays", "units", "belts", "tut", "challenges",
+      "badges", "coins", "lists", "flow", "_exploredKeys", "_days", "settings", "_settingsAt", "moves", "cardDone", "_progressAt"];
+    const snap = () => JSON.stringify(SAVED.map((k) => [k, a[k] instanceof Set ? [...a[k]] : a[k] === undefined ? null : a[k]]));
+    const before = snap(), ids = SAVED.map((k) => a[k]);
     a.rating(); a._epochDay = () => RATING_DAY + 400; a.rating();
     assert.equal(a._saves, 0, frame + ": no save asked for");
-    assert.equal(JSON.stringify([a.srs, a.stage, a.moves, a.prep, a.belts, a.units, a.dayLog]), before, frame + ": nothing changed");
-    assert.deepEqual([a.srs, a.stage, a.moves], ids, frame + ": the record's objects are the same objects");
+    assert.equal(snap(), before, frame + ": nothing a save would write changed");
+    assert.deepEqual(SAVED.map((k) => a[k]), ids, frame + ": every saved field is the same object");
   }
+});
+
+test("the reader leaves the roll as it found it", () => {
+  for (const frame of ["gi", "nogi"]) {
+    // standing on a seat, and standing nowhere (the deal stands in for the seat and must give it back)
+    for (const at of ["Positions/Side-Control", null]) {
+      const a = seeded(frame);
+      a.currentPos = at ? a.nodes.find((n) => n.id === at && n.ty === "positions").idx : undefined;
+      a._movesBusy = false;
+      const before = a.currentPos;
+      assert.equal(a.rating().status, "ok");
+      assert.equal(a.currentPos, before, `${frame} ${at}: currentPos where it was (READ402 X12)`);
+      assert.equal(a._movesBusy, false, `${frame} ${at}: _movesBusy released (READ402 X11)`);
+    }
+  }
+});
+
+test("a hand that fails to deal fails the game", () => {
+  const a = seeded("gi"), mount = a.nodes.find((n) => n.id === "Positions/Mount" && n.ty === "positions");
+  const proto = Object.getPrototypeOf(a).optionsFor;
+  a.optionsFor = function (i, role) {
+    if (this.nodes[i] && this.nodes[i].posId === mount.posId && role === "top") throw new Error("deal failed");
+    return proto.call(this, i, role);
+  };
+  a._movesHandBeat = 1;   // its once-per-app beat already spent: the beat's own path is moves-mastery's, not this test's
+  const before = a.currentPos;
+  const r = a.rating();
+  assert.deepEqual([r.status, r.points], ["hand-failed", null], "a game short one seat is not the game (READ402 X18)");
+  assert.equal(a._movesBusy, false); assert.equal(a.currentPos, before);
+  delete a.optionsFor;
+  assert.equal(a.rating().status, "ok", "and it was never kept: the next read deals again");
 });
