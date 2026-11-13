@@ -36,12 +36,16 @@
 //   M18 a record of stages alone reads "ok" (F5)                        → "a record of stages alone is unscheduled"
 //   M19 ngRatingLevelFloor unguarded, throws on NaN (F6)                → "the belt lines are table a"
 //   M20 the weights read before the graph check (F7)                    → "never looked is not a number (the reader)"
-//   M21 a move at a seat this ruleset does not deal read as "outside"   → "never looked is not a number (the law)"
+//   M21 a move at a seat this ruleset does not deal read as "outside"   → "never looked is not a number (the law)",
+//                                                                         "answers from the other ruleset: classed as today"
 //   X9  the reader writes a setting in memory without saving            → "the reader writes nothing"
 //   X11 the deal leaves `_movesBusy` set                                → "the reader leaves the roll as it found it"
 //   X12 the deal leaves `currentPos` moved                              → "the reader leaves the roll as it found it"
 //   X15 the same-day tie goes to the larger interval                    → "a question shared by several decks is ONE question"
 //   X18 a hand that fails to deal is skipped, not "hand-failed"         → "a hand that fails to deal fails the game"
+// GO402 (the reader's delta read):
+//   M22 the snap of a share within 1e-9 of 1 removed (D1)               → "everything known reads exactly 2000"
+//   M23 a card on a deck only the other ruleset weighs read as unknown  → "answers from the other ruleset: classed as today"
 //
 // NOT COVERED here:
 //   · A RETIRED QUESTION READS AS A LIVE ONE. The manifest carries a card count per deck, not its questions, so the
@@ -54,12 +58,16 @@
 //     own code, to 2.2e-11 points on 588 seeded records, with the simulation's gi moves re-priced from the gi table
 //     (its own pricing read every move from the no-gi table; on the independent reader's 86 gi records that differs
 //     by -8.16 to +1.73 points, a quarter of a stripe at most). Nothing here would notice the two drifting apart.
+//   · ANSWERS FROM THE OTHER RULESET ARE CLASSED TWO WAYS: a flashcard on a deck only the other ruleset weighs is
+//     `outside` (alone, "ok" and 1000), a move at a seat only the other ruleset deals is `unknownSeat` (alone,
+//     "unmatched" and null). Pinned as it is today by "answers from the other ruleset: classed as today", so changing
+//     it is a decision, not an accident (GO402 D2).
 //   · Whether the weighting is the right one (the owner's call), and any painted surface (none exists).
 //
 // Run: node --test tests/rating.test.mjs
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import {
@@ -68,6 +76,7 @@ import {
   ngRatingUniverse, ngRatingShare,
 } from "../neural/src/rating.src.js";
 import { ngWireScoreWeights } from "../neural/src/wire-keys.src.js";
+import { ngKnowledgeQuestionHash } from "../neural/src/knowledge-profile.src.js";
 import { ratingApp, ratingFixture, RATING_DAY } from "./_rating_fixture.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -378,7 +387,9 @@ test("the reader writes nothing", () => {
     a.prep = deep({}); a.belts = deep({ won: {}, held: { id: "blue", t: 1 } }); a.units = deep({}); a.dayLog = deep({});
     a.settings = deep({ hideMoves: true }); a._settingsAt = deep({ hideMoves: 1 });
     // EVERY field `_progressBlob()` saves (it cannot run in this harness: it needs the challenge sources), so a write
-    // that is never saved — a setting set in memory — is caught here, where storage cannot see it (READ402 X9)
+    // that is never saved — a setting set in memory — is caught here, where storage cannot see it (READ402 X9).
+    // THIS LIST IS BY HAND (GO402 D3): it matched `_progressBlob()` in app.src.jsx at v1.269.0. A field added to that
+    // blob must be added HERE too, or this test stops watching it (CLAUDE.md §6.7, the hand-maintained list).
     const SAVED = ["_progressExtras", "prep", "rec", "stage", "srs", "dayLog", "_rollDays", "units", "belts", "tut", "challenges",
       "badges", "coins", "lists", "flow", "_exploredKeys", "_days", "settings", "_settingsAt", "moves", "cardDone", "_progressAt"];
     const snap = () => JSON.stringify(SAVED.map((k) => [k, a[k] instanceof Set ? [...a[k]] : a[k] === undefined ? null : a[k]]));
@@ -419,4 +430,45 @@ test("a hand that fails to deal fails the game", () => {
   assert.equal(a._movesBusy, false); assert.equal(a.currentPos, before);
   delete a.optionsFor;
   assert.equal(a.rating().status, "ok", "and it was never kept: the next read deals again");
+});
+
+// the whole game known: every live question of every deck filed in every deck that holds it (as a grade files it), and
+// every dealt move a Yes, all answered today — read from the cards themselves, not from the manifest's counts
+const complete = (frame) => {
+  const a = ratingApp(DIR, frame), srs = {}, moves = {};
+  for (const f of readdirSync(resolve(DIR, "flashcards"))) {
+    if (f === "_index.json") continue;
+    const decks = JSON.parse(readFileSync(resolve(DIR, "flashcards", f), "utf8"));
+    for (const [dk, d] of Object.entries(decks)) for (const c of d.cards) (srs[dk] = srs[dk] || {})[ngKnowledgeQuestionHash(c.q)] = [RATING_DAY + 30, 30, RATING_DAY];
+  }
+  for (const [st, shares] of a._ratingGame(frame).seats) for (const mv of shares.keys()) (moves[st] = moves[st] || {})[mv] = [RATING_DAY + 30, 30, RATING_DAY, 1];
+  a.srs = srs; a.stage = {}; a.moves = moves;
+  return a.rating();
+};
+
+test("everything known reads exactly 2000", () => {
+  for (const frame of ["gi", "nogi"]) {
+    const r = complete(frame);
+    assert.equal(r.status, "ok", frame);
+    assert.equal(r.share, 1, `${frame}: the whole game, exactly (GO402 D1)`);
+    assert.equal(r.points, NG_RATING_TOP, `${frame}: exactly 2000, not 2000 less a rounding`);
+    assert.equal(r.level, NG_RATING_BLACK);
+    assert.equal(ngRatingNext(r.points, 20).toNext, 0, `${frame}: nothing left to the top`);
+    assert.deepEqual([r.counts.decksOver, r.counts.unknownDeck, r.counts.badRow], [0, 0, 0], `${frame}: live cards only, none over a count`);
+  }
+});
+
+test("answers from the other ruleset: classed as today", () => {
+  // pinned AS IT IS (GO402 D2), so a change is a decision: see NOT COVERED in the header
+  const gi = APP.gi._ratingGame("gi"), no = APP.nogi._ratingGame("nogi");
+  const seat = [...gi.seats.keys()].filter((st) => !no.seats.has(st) && gi.seats.get(st).size).sort()[0];
+  assert.ok(seat, "a seat gi deals and no-gi does not");
+  const mv = [...gi.seats.get(seat).keys()][0];
+  const onlyGiMoves = ratingApp(DIR, "nogi"); onlyGiMoves.moves = { [seat]: { [mv]: [RATING_DAY + 7, 7, RATING_DAY, 1] } };
+  const m = onlyGiMoves.rating();
+  assert.deepEqual([m.status, m.points, m.counts.unknownSeat, m.counts.outside], ["unmatched", null, 1, 0], "moves at a gi-only seat, read in no-gi");
+  const [deck, qh] = FIX.parts.giOnly;
+  const onlyGiCards = ratingApp(DIR, "nogi"); onlyGiCards.srs = { [deck]: { [qh]: [RATING_DAY + 30, 30, RATING_DAY] } }; onlyGiCards.stage = { [deck]: { [qh]: 3 } };
+  const c = onlyGiCards.rating();
+  assert.deepEqual([c.status, c.points, c.counts.outside, c.counts.unknownDeck], ["ok", 1000, 1, 0], "flashcards on a gi-only deck, read in no-gi");
 });

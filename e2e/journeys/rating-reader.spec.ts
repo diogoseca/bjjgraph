@@ -24,7 +24,7 @@ import { journey } from "../dsl"
  *   J1 the reader stores its level (`belts.lvl`) and saves          → "the reader writes nothing" (storage differs)
  *   J2 the module left out of the bundle (build.mjs)                → the page's rating() throws
  *   J3 the load path drops the moves record                         → the page's counts differ from node's
- * NOT COVERED here: the law itself (tests/rating.test.mjs, 29 mutants), no-gi on a page (the unit reads both rulesets
+ * NOT COVERED here: the law itself (tests/rating.test.mjs, 31 mutants), no-gi on a page (the unit reads both rulesets
  * through the same reader; a ruleset flip writes a setting, so it cannot share this byte-identity claim), and any
  * painted surface (there is none). Nothing is pressed: there is nothing to press. And, as in the unit file: a row for a
  * question its deck no longer holds reads as a live card (the manifest has a count per deck, not its questions); the

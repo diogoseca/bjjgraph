@@ -40,6 +40,10 @@
 // (and stored rows are never pruned). A deck with retired rows can therefore read as fully known when it is not; the cap
 // above stops it reading as MORE than known, and `decksOver` / `rowsOver` show it happened, but they cannot see a deck
 // whose live and retired rows together stay under its count. This must be settled before any surface shows the number.
+// NOT COVERED EITHER — ANSWERS FROM THE OTHER RULESET ARE CLASSED TWO WAYS (GO402 D2): a flashcard on a deck only the
+// other ruleset weighs counts as `outside` (a record of nothing else reads "ok", 1000), while a move at a seat only the
+// other ruleset deals counts as `unknownSeat` (a record of nothing else reads "unmatched", null), because the game handed
+// in holds this ruleset's seats only.
 //
 // NOTHING IS GUESSED, AND NOTHING SILENT (CLAUDE.md §6.6, traps-wire.md "a CHECK THAT NEVER RAN"):
 //   · a weight or a share that is `null` means "this does not exist in this ruleset" (CLAUDE.md §3) — it is dropped
@@ -314,7 +318,12 @@ export function ngRatingShare(universe, record, day) {
     if (counts.stageOnly) return { status: "unscheduled", share: 0, points: NG_RATING_FLOOR, level: 0, counts };
     return none(counts.rows ? "unmatched" : "empty");
   }
-  const share = Math.max(0, Math.min(1, got / U.total));
+  // EVERYTHING KNOWN READS EXACTLY 2000 (GO402 D1). The capped sum adds deck by deck in another order than the
+  // denominator, so a complete gi record came to 2000 - 2.7e-12. A share within 1e-9 of 1 is 1: that is ~370 times the
+  // rounding measured and ~245 times BELOW the smallest single item on the wire (a no-gi question, 2.4e-7 of the game), so
+  // the snap absorbs only rounding, never a card or a move left unknown.
+  const raw = got / U.total;
+  const share = raw > 1 - 1e-9 ? 1 : Math.max(0, Math.min(1, raw));
   const points = ngRatingPoints(share);
   return { status: "ok", share, points, level: ngRatingLevel(points), counts };
 }
