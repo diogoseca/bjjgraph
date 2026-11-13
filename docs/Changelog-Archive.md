@@ -17112,6 +17112,75 @@ srs-due.spec.ts:249 waited for a line the eager queue also prints, then read `_s
 (`plan: false`). It now polls the plan between `release()` and the fold. Chunk held 400 ms: 10/10 red, then 10/10
 green. Release to plan ~1 s, 4-6 s at 4x CPU. The other held-planner sites already poll the plan or read before it.
 
-## v1.273.0 — Practice by worth (U171 a)
+## v1.272.0 — A known move wears a gold seal, not a gold outline (the owner's pick a, SEAL1 and SEAL2, 2026-11-13)
 
-Narrative: tests/practice_queue.test.mjs.
+The owner: "The mastered cards show up with a golden outline, and this is confusing. It seems like this is the selected
+technique, and we're trying to guess this technique." His pick, "a, A gold seal in the corner": "A small filled seal:
+you answered Yes here. A hollow one: its flashcards are learned. It reads as a stamp on the card, and shrinks to a dot
+beside the name on the map", replacing "the gold outline everywhere a move wears it today".
+
+**Inventory (dev df19ddedc).** A known move wore gold in exactly two places: the row's card (`_goldCard`, CSS
+`data-mastered` "" / "2", thin / thick) and the map's orb (`_movesGold`, an outline in the base pass and again round
+the focus mark). Not this mark, left alone: "Turn what you know gold" (`masteryGold`, the orb's fill by flashcards),
+the reader, the index, the legend, the landing card, Settings (no sample card), the /dev catalog mock.
+
+**The card.** `_paintCard` reads `_moveState` once; `_applyHide` sets the face from it, then `_sealCard` reads the same
+state AND that face. A FACE-UP card whose row's last answer is a Yes (known or due) wears a FILLED seal (a gold coin,
+dark tick); a face-up card never answered whose flashcards are all learned, none due, a HOLLOW one (a gold ring on
+dark); a FACE-DOWN card (moves hidden: due, new; revealed or not) wears none, so a card being asked never says "you
+know this". Placed in the card's own unit (its title's 9 px side padding): 2 across, 1 in from the inner edge, 1 below
+the title band; measured card-relative (146, 54)-(164, 72) at 1440, 390 and 320, off the title band (to 45), the name,
+the play circle (65-109 across), the numbers (from 131) and the badge. Words "You know this move" / "Flashcards
+learned": its hover, and after the move's name in the card's accessible name (`_cardAria`). No gold border; the
+level-2 thick outline has no seal of its own (a Yes with its deck learned is "known"). A card asked by touch had no
+outline at all (a tap sets no hover): it now wears the hover's outline.
+
+**SEAL2.** The brief's first rule ("filled = a Yes, not due") faded every seal with moves SHOWN, where nothing ever asks
+"Still got it?": a due face-up card lost its mark (dev kept its gold). Corrected by the orchestrator: a Yes on a face-up
+card is sealed due or not; only the face takes it off. `_syncHideMoves` repaints the card, not the face alone.
+
+**The map (its own commit).** The outline round a known orb became a gold dot with a dark rim on the silhouette's edge
+(`_mapSeal`, from `shapePath`'s numbers), painted in the screen pass right after the option names: the up-right
+shoulder unless a name's ink box covers it, then the first free shoulder (at 390 a neighbour's name crossed one). One
+state on the same nodes (`_movesGold`, its level gone): U122 a's thick outline is gone, the flashcards side shows
+through mastery gold. The frame publishes `_lastMapSeals` and the option names' boxes `_lastOptBoxes`.
+
+**Proof.** e2e/journeys/known-move-seal.spec.ts, 6 tests (mouse 1440 hidden and shown, touch 390, touch 320 on Closed
+Guard bottom's 31-card row, the map at 1440 and 390), real dossier chunks served so play circles exist. Mutants on the
+served bundle (tests/artifacts/_seal_mutants.sh), each red at a named assertion, table in the spec's header: the outline
+back, the hollow seal despite a due flashcard, a seal on a due face-down card, a due face-up card unsealed (SEAL2's
+regression), the seal painted once, filled and hollow swapped, the seal over the title at 320, the touch-asked card
+bare, the setting flip repainting the face alone, and on the map the outline back, a dot on unknown orbs, the dot at
+`n.y`. Changed assertions in hidden-moves, known-moves-shown, moves-mastery and two units say what they claimed before.
+
+**Bytes.** neural.js +164 B (card) and +567 B (map) raw on dev's rows, neural.css +508 B; eager gzip +2,868 on its
+baseline (cap 5,000), first-hand core +4,145 (cap 6,000). The archive's ceiling rose by +50,000 in its own commit.
+
+**Not covered.** The browser tooltip itself (its `title` is asserted); the poster's light and dark frames (pictures
+only; the spec reads the light inside the seal); the map's dot under mastery gold and on the focus mark (pictures);
+the pair, hover and lit labels are drawn over the dots and do not steer them.
+
+## v1.274.0 — Practice asks what is worth most, position by position (U171 a, FOLD1; 2026-11-13)
+
+What changed. Today's Practice page, a new order under it. `neural/src/practice-queue.src.js` (pure, in the deferred
+planner, `gameplan.js`) prices every card with the rating's own game (`_ratingGame`; owed = weight × (1 − the recall its
+row still promises, `ngRatingRecall`), new = weight × 0.75), scores a position by its six best owed worths plus its next new
+card's, and visits positions best first: at each, owed cards by worth then new cards up to 4 new things, at most 6; at least
+4 new a day, the top-up never past 6; every answer counts 1; with the goal met, another round. No game, no seat map or a
+record with no answer is today's order, named (`plan.orderStatus`, beat `practice_order_fallback`). The drawer's "N due"
+pill and tooltip count are gone; the Path's band says today's count. Nothing stored changes (byte-identical on a built page).
+FOLD1: the fold a player opened stays open when a late plan re-renders the queue.
+
+Parity. The simulation's by-worth day factored out (its year reruns byte-identical), four rules made explicit in both (ties by
+content order, the top-up never past 6, up to 4 new things a position, the fade as 0.9^x), each moving a year's level by
+under 2 points. The law then asked exactly what the simulation asks: gi a year 530/530 days; two years 1,050/1,050 each for gi
+cards only, no-gi, no-gi cards only; the control without the 4-new rule differs on 2/530. Largest difference before the fade
+was aligned: 3 days in 530, two near-tied cards (~1e-16) swapped. Frozen: tests/artifacts/practice_queue_parity.json.
+
+Measured (simulation, gi, 10 players, 20 a day; true level year 1 / year 2): today's queue 1,301.5 / 1,324.6; Stage 3 (cards
+only) 1,379.3 / 1,441.0; with Stage 4's moves 1,397.7. No-gi year 1: 1,303.3 → 1,386.0.
+
+Proof. 17 unit mutants (Q1–Q17) each red at its named test (tests/practice_queue.test.mjs header); 4 bundle mutants (P1 the
+cold queue kept, P2 the pill back, P3 oldest first, F1 the fold forgotten) red at their named assertions in
+e2e/journeys/practice-order.spec.ts. 23 tests in 9 spec files re-pinned to U171 a, each saying what it claimed before. Bytes:
+eager gzip +560 (FOLD1 +42), deferred raw 510,269 → 519,911 (all gameplan.js; ceiling moved to exactly that, U170 a).

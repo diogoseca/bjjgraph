@@ -57,6 +57,24 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  *   touch, one up     was "card 0's tap closes card 1" (card 1, graded Yes, back face down)
  *                     now "card 0's tap closes card 2" (turned up, not graded), and card 1 stays face up through both
  *
+ * THE GOLD OUTLINE BECAME A SEAL, AND ELEVEN ASSERTIONS CHANGED WITH IT (v1.272.0, the owner, 13 Nov: "The mastered
+ * cards show up with a golden outline, and this is confusing. It seems like this is the selected technique"; his pick
+ * "a, A gold seal in the corner": "A small filled seal: you answered Yes here. A hollow one: its flashcards are
+ * learned", replacing "the gold outline everywhere a move wears it today"). The seal's own geometry, its kinds and
+ * its mutants are pinned by known-move-seal.spec.ts; here each claim moved from `data-mastered` to `data-seal`:
+ *   the @curated Yes  was "the card is gold" + "a thin GOLD outline" (border rgba(232,196,106,.9))
+ *                     now "the filled seal" + "its border is the ordinary one" (a never-met card's own border)
+ *                     and the reload / face-up-row checks: was "gold again" / "gold in the face-up row too" (that same
+ *                     gold border), now "the filled seal again" / "the filled seal, the ordinary border"
+ *   what a card asks  was "a move you do not know yet: ... gold: false"  now seal null (the field renamed, same claim)
+ *                     was "known and not due: ... gold: true"           now seal "known" (filled)
+ *                     was "known and due: Still got it? ... gold: true"  now seal null: a FACE-DOWN card wears no seal,
+ *                     revealed or not, so a card being asked never wears one (face up, moves shown, the same due move
+ *                     wears the filled seal: SEAL2, pinned by known-move-seal.spec.ts)
+ *                     was "No takes the gold away"                       now "a No: still no seal" (it had none)
+ *                     was "Yes keeps it gold"                            now "Yes gives it the filled seal"
+ *   touch, one up     was `.mastered` true after the tap on Yes           now seal "known"
+ *
  * HIDDENNESS IS NEVER READ FROM TEXT. Hiding is CSS on an attribute, so a face-down card's
  * `textContent` still holds its name (every other reader of the card depends on that). Each claim
  * here reads computed visibility, the back's geometry against the film slot, or `elementFromPoint`.
@@ -111,7 +129,7 @@ const face = (page: Page, sel: string) => page.evaluate((sel) => {
     // the back is drawn over the WHOLE film slot (to the pixel), or not drawn at all
     filmCovered: !!b && Math.abs(b.top - film.top) < 1 && Math.abs(b.bottom - film.bottom) < 1 && Math.abs(b.left - film.left) < 1 && Math.abs(b.right - film.right) < 1,
     aria: c.querySelector("[data-choice-execute]")?.getAttribute("aria-label") || null,
-    up: c.hasAttribute("data-revealed"), asking: c.hasAttribute("data-asking"), mastered: c.hasAttribute("data-mastered"),
+    up: c.hasAttribute("data-revealed"), asking: c.hasAttribute("data-asking"), seal: c.getAttribute("data-seal"),
     yes: c.querySelectorAll('[data-grade="yes"]').length, no: c.querySelectorAll('[data-grade="no"]').length,
   }
 }, sel)
@@ -284,25 +302,33 @@ test("@curated Yes files the move as mastered: gold in every row, kept across a 
   expect(s.moves[stateKey]?.[moveKey]?.[3], "the record holds the move as mastered (ok = 1)").toBe(1)
   expect(s.moves[stateKey][moveKey].length).toBe(4)
   const g = await face(page, hm(1))
-  expect([g.mastered, g.asking], "the card is gold and asks no more").toEqual([true, false])
-  const border = await page.evaluate(() => getComputedStyle(document.querySelector('[data-hm="1"]')!).borderTopColor)
-  expect(border, "a thin GOLD outline").toBe("rgba(232, 196, 106, 0.9)")
+  // v1.272.0 (the owner's seal, see the header): was [true, false], "the card is gold and asks no more"
+  expect([g.seal, g.asking], "the card wears the filled seal and asks no more").toEqual(["known", false])
+  // v1.272.0: was "a thin GOLD outline" (rgba(232, 196, 106, 0.9)); now the border a never-met card wears
+  const border = await page.evaluate(() => [...document.querySelectorAll('[data-hm="1"], [data-hm="2"]')].map((c) => { const s = getComputedStyle(c); return s.borderTopColor + " " + s.boxShadow }))
+  expect(border[0], "its border is the ordinary one: the never-met card's own, no gold outline").toBe(border[1])
   await page.mouse.move(p.x, p.y - 160)
   await page.waitForTimeout(200)
   const away = await face(page, hm(1))
   // v1.266.0 (owner, 13 Nov: "moves which are golden / mastered and not yet up for review show visible instead of
-  // hidden in the choices row"): it was ["hidden", true], "face down again, and still gold"
-  expect([away.title, away.mastered], "a Yes made it a move you know, not due: it stays face up, and gold").toEqual(["visible", true])
-  // the progress blob carries it: a fresh boot with the saved storage deals the same card gold
+  // hidden in the choices row"): it was ["hidden", true], "face down again, and still gold"; v1.272.0: [.., "known"]
+  expect([away.title, away.seal], "a Yes made it a move you know, not due: it stays face up, with the filled seal").toEqual(["visible", "known"])
+  // the progress blob carries it: a fresh boot with the saved storage deals the same card sealed
   await page.waitForTimeout(1200)
   await j.boot("/", { preserveStorage: true })
   await j.land("Mount Top")
-  const gold = await page.evaluate(() => (window as W).__neural._optionCards.filter((c: W) => c.card.hasAttribute("data-mastered")).map((c: W) => c.opt.node.t))
-  expect(gold.length, "after a reload the mastered move is gold again").toBe(1)
+  const sealed = await page.evaluate(() => (window as W).__neural._optionCards.filter((c: W) => c.card.getAttribute("data-seal") === "known").map((c: W) => c.opt.node.t))
+  // v1.272.0: was "after a reload the mastered move is gold again" (data-mastered)
+  expect(sealed.length, "after a reload the mastered move wears the filled seal again").toBe(1)
   // ...and in the ordinary row, with the setting off
   await page.evaluate(() => (window as W).__neural.set("hideMoves", false))
-  const open = await page.evaluate(() => { const c = (window as W).__neural._optionCards.find((c: W) => c.card.hasAttribute("data-mastered")).card; return { title: getComputedStyle(c.querySelector(".ngchoice-title")).visibility, border: getComputedStyle(c).borderTopColor } })
-  expect(open, "gold in the face-up row too").toEqual({ title: "visible", border: "rgba(232, 196, 106, 0.9)" })
+  const open = await page.evaluate(() => {
+    const a = (window as W).__neural, c = a._optionCards.find((c: W) => c.card.getAttribute("data-seal") === "known").card
+    const plain = a._optionCards.find((o: W) => !o.opt.threat && !o.card.hasAttribute("data-seal")).card, b = (el: Element) => { const s = getComputedStyle(el); return s.borderTopColor + " " + s.boxShadow }
+    return { title: getComputedStyle(c.querySelector(".ngchoice-title")).visibility, seal: !!c.querySelector("[data-choice-seal]"), border: b(c) === b(plain) }
+  })
+  // v1.272.0: was { title: "visible", border: "rgba(232, 196, 106, 0.9)" }, "gold in the face-up row too"
+  expect(open, "the filled seal in the face-up row too, on the ordinary border").toEqual({ title: "visible", seal: true, border: true })
 })
 
 test("keys play blind, and the stand-in shows the move it played", async ({ page }) => {
@@ -469,30 +495,34 @@ test("what a face-up card asks: unknown Yes only, known and due Still got it Yes
   const ask = async (k: string) => {
     const p = await pointOn(page, `[data-hk="${k}"]`)
     await page.mouse.move(p.x, p.y); await page.waitForTimeout(400)
-    const r = await page.evaluate((k) => { const c = document.querySelector(`[data-hk="${k}"]`)!; return { asking: c.hasAttribute("data-asking"), q: c.querySelector("[data-choice-grade] span")?.textContent || null, yes: c.querySelectorAll('[data-grade="yes"]').length, no: c.querySelectorAll('[data-grade="no"]').length, gold: c.hasAttribute("data-mastered"), up: c.hasAttribute("data-revealed") } }, k)
+    const r = await page.evaluate((k) => { const c = document.querySelector(`[data-hk="${k}"]`)!; return { asking: c.hasAttribute("data-asking"), q: c.querySelector("[data-choice-grade] span")?.textContent || null, yes: c.querySelectorAll('[data-grade="yes"]').length, no: c.querySelectorAll('[data-grade="no"]').length, seal: c.getAttribute("data-seal"), up: c.hasAttribute("data-revealed") } }, k)
     return { p, r }
   }
   const away = (p: { x: number; y: number }) => page.mouse.move(p.x, p.y - 160).then(() => page.waitForTimeout(150))
   expect(await page.evaluate((s) => { const a = (window as W).__neural, o = a._optionCards.find((c: W) => c.card.getAttribute("data-hk") === "due").opt; return a._moveKey(o).join(">") === s }, S + ">" + ORD[id.due]), "the app files Kimura from Mount under the lockfile's ordinals").toBe(true)
 
   const u = await ask("unknown")
-  expect(u.r, "a move you do not know yet: Did you get it? Yes only").toEqual({ asking: true, q: "Did you get it?", yes: 1, no: 0, gold: false, up: true })
+  expect(u.r, "a move you do not know yet: Did you get it? Yes only").toEqual({ asking: true, q: "Did you get it?", yes: 1, no: 0, seal: null, up: true })
   await away(u.p)
   // v1.266.0 (owner, 13 Nov: "moves which are golden / mastered and not yet up for review show visible instead of
   // hidden in the choices row"): a known move not due is dealt face up, so a look turns nothing up. This was `up: true`
   // ("a hover turns it up and it asks nothing"); it is face up BEFORE the hover now, and the hover changes nothing.
   expect(await page.evaluate(() => getComputedStyle(document.querySelector('[data-hk="fresh"] .ngchoice-title')!).visibility), "known and not due: its name is in sight before any look").toBe("visible")
   const f = await ask("fresh")
-  expect(f.r, "known and not due: face up, gold, asks nothing").toEqual({ asking: false, q: null, yes: 0, no: 0, gold: true, up: false })
+  // v1.272.0: was "face up, gold, asks nothing" (gold: true)
+  expect(f.r, "known and not due: face up, the filled seal, asks nothing").toEqual({ asking: false, q: null, yes: 0, no: 0, seal: "known", up: false })
   await away(f.p)
 
   const d = await ask("due")
-  expect(d.r, "known and due: Still got it? Yes / No").toEqual({ asking: true, q: "Still got it?", yes: 1, no: 1, gold: true, up: true })
+  // v1.272.0: was gold: true ("still gold" while asked); a face-down card wears no seal, revealed or not, so a card being
+  // asked never says "you know it" (face up, moves shown, the same move wears the filled seal: SEAL2, known-move-seal.spec.ts)
+  expect(d.r, "known and due, face down and asked: Still got it? Yes / No, and no seal").toEqual({ asking: true, q: "Still got it?", yes: 1, no: 1, seal: null, up: true })
   await page.waitForTimeout(ARM)
   await j.clickByMouse('[data-hk="due"] [data-grade="no"]', '"No"')
-  const no = await page.evaluate((k) => { const a = (window as W).__neural, c = document.querySelector('[data-hk="due"]')!; return { gold: c.hasAttribute("data-mastered"), row: a.moves[k[0]][k[1]], executing: !!a._execution } }, [S, String(ORD[id.due])])
+  const no = await page.evaluate((k) => { const a = (window as W).__neural, c = document.querySelector('[data-hk="due"]')!; return { seal: c.getAttribute("data-seal"), row: a.moves[k[0]][k[1]], executing: !!a._execution } }, [S, String(ORD[id.due])])
   expect(no.executing, "No is not a play").toBe(false)
-  expect([no.gold, no.row[3], no.row[1], no.row[2]], "No takes the gold away and starts the schedule over (rung 0, answered today)").toEqual([false, 0, 1, DAY])
+  // v1.272.0: was [false, ...], "No takes the gold away"; the due card had no seal to take, and gets none
+  expect([no.seal, no.row[3], no.row[1], no.row[2]], "No: still no seal, and the schedule starts over (rung 0, answered today)").toEqual([null, 0, 1, DAY])
   await away(d.p)
   const again = await ask("due")
   expect([again.r.q, again.r.no], "...so next time it is a move you do not know yet").toEqual(["Did you get it?", 0])
@@ -502,8 +532,9 @@ test("what a face-up card asks: unknown Yes only, known and due Still got it Yes
   expect(y.r.q).toBe("Still got it?")
   await page.waitForTimeout(ARM)
   await j.clickByMouse('[data-hk="dueYes"] [data-grade="yes"]', '"Yes" on a due card')
-  const yes = await page.evaluate((k) => { const a = (window as W).__neural; return { gold: document.querySelector('[data-hk="dueYes"]')!.hasAttribute("data-mastered"), row: a.moves[k[0]][k[1]] } }, [S, String(ORD[id.dueYes])])
-  expect([yes.gold, yes.row[3], yes.row[2]], "Yes keeps it gold, answered today").toEqual([true, 1, DAY])
+  const yes = await page.evaluate((k) => { const a = (window as W).__neural; return { seal: document.querySelector('[data-hk="dueYes"]')!.getAttribute("data-seal"), row: a.moves[k[0]][k[1]] } }, [S, String(ORD[id.dueYes])])
+  // v1.272.0: was [true, ...], "Yes keeps it gold"; due, it had no seal: the Yes makes it known, and gives it the filled one
+  expect([yes.seal, yes.row[3], yes.row[2]], "Yes gives it the filled seal, answered today").toEqual(["known", 1, DAY])
   expect(yes.row[0], "...and moves its due date on past today").toBeGreaterThan(DAY)
 })
 
@@ -606,7 +637,8 @@ test.describe("touch", () => {
     await page.touchscreen.tap(yes.x, yes.y)
     s = await appState(page)
     expect(s.executing, "a tap on Yes grades and plays nothing").toBe(false)
-    expect((await face(page, hm(1))).mastered).toBe(true)
+    // v1.272.0: was `.mastered` true (the gold outline's attribute); the Yes gives the card the filled seal
+    expect((await face(page, hm(1))).seal, "the tap on Yes seals the card (filled)").toBe("known")
     // v1.266.0 (owner, 13 Nov: "moves which are golden / mastered and not yet up for review show visible instead of
     // hidden in the choices row"): the Yes made card 1 a move you know, not due, so it stays face up. The claim below
     // ("another card's first tap closes this one") was made on card 1, ["hidden", "visible"] after card 0's tap; it
