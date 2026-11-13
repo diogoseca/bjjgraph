@@ -233,7 +233,9 @@ NEURAL_TARGET = {
     # v1.266.0 (knownshown, the owner's must of 13 Nov): 511_007, +44 B on dev v1.265.2's 510_963: Settings' hidden-moves
     # line says a move you know stays face up until it is due (settings-ui.js only, 22_113 -> 22_157 B); under the
     # standing 512_000 B ruling (U134 b), 993 B remain.
-    "deferred_raw_bytes": 511_007,
+    # v1.268.0 (KS2, the owner's U166 b): 511_043, +36 B on dev v1.266.0's 511_007: Settings' line names a move whose
+    # flashcards you have learned beside a move you know (settings-ui.js only, 22_157 -> 22_193 B); 957 B of 512_000 remain.
+    "deferred_raw_bytes": 511_043,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one

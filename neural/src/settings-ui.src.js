@@ -256,8 +256,10 @@ renderSettings() {
       // HIDDEN MOVES (v1.255.0, owner U115-U116): the dealt row's names and films stay face down
       // until you look, and each look asks "Did you get it?". One boolean key, off by default
       // (a settings key can never be deleted, CLAUDE.md §6.6). Since v1.266.0 a move you know stays face up until it is
-      // due again (owner, 13 Nov), and the line says so: it was "...are dealt face down: hover or tap...".
-      const hm = this.settingRow("Hide moves until I look", "Your moves and their threats are dealt face down, except moves you know that are not due yet: hover or tap a card to see it, then say if you got it.",
+      // due again (owner, 13 Nov), and the line says so: it was "...are dealt face down: hover or tap...". v1.268.0 (KS2):
+      // so does a move whose flashcards are all learned, which "Moves known" does not count, so the line names it apart
+      // (it was "...except moves you know that are not due yet: ...").
+      const hm = this.settingRow("Hide moves until I look", "Your moves and their threats are dealt face down, except moves you know or whose flashcards you have learned, until they are due: hover or tap a card to see it, then say if you got it.",
         [["On", true], ["Off", false]], "hideMoves", false);
       hm.setAttribute("data-settings-hide-moves", "1");
       hm.style.cssText = sectionStyle;

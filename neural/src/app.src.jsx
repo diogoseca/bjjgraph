@@ -14360,22 +14360,47 @@ class Component extends DCLogic {
   // His two words are ONE fact here: a card is gold exactly when its row's last answer is a Yes (`_goldCard`; the
   // thicker level 2 adds the deck's flashcards to that, never replaces it), and "up for review" is that same row's
   // due date. So "gold and not up for review" is "known", and a due card (still gold) goes face down to be asked.
-  // The other reading (gold from the technique's flashcard deck alone, for a move never answered in the row) is
-  // NOT built: it is in the knownshown report as a truth table with a picture, for him to choose.
+  // AND A MOVE WHOSE FLASHCARDS ARE ALL LEARNED (v1.268.0, KS2: he chose the other reading too, 13 Nov 05:47: "b, Also
+  // a move whose flashcards are all learned"):
+  //   "learned" no row, its deck learned, none of its cards due   FACE UP with moves hidden; asks nothing   no gold
+  // THE ROW RULES WHEREVER IT EXISTS: a No puts the move face down whatever its flashcards say, and a Yes makes it "known"
+  // or "due" by the row's own date. Kind 2 is only for a move never answered in this row (`_deckLearned`).
+  // Its gold is untouched (none: gold is the row's Yes; the owner is having the mark redrawn), and it is never a known
+  // move: no row, so `_movesIdx`, the odds' moves part and "Moves known" cannot see it.
   // Nothing stored changes: the state is read, never written; "Did you get it?" / "Still got it?" keep their
   // meaning and their schedule (`_peek` asks the same three-way question it always did, now through this one seam).
   _moveState(opt) {
     const row = this._moveRow(opt);
-    if (!row || row[3] !== 1) return "new";
+    if (!row) return this._deckLearned(opt) ? "learned" : "new";
+    if (row[3] !== 1) return "new";
     const day = this._epochDay();
     return row[0] <= day && row[2] < day ? "due" : "known";
   }
+  // "ALL LEARNED" IS THE TEST GOLD'S LEVEL 2 READS (`_goldCard`, `_movesGold`): `deckMastery(key) >= 1`, every card at
+  // stage 3 or more, on the deck `_goldCard` names (an escape has none: false). One question, one answer (§6.5).
+  // A DECK WITH NO CARDS IS NOT LEARNED: deckMastery returns 0 for a missing deck and for zero cards in both of its
+  // branches (`if (!n) return 0`), so zero of zero never reads 1 (pinned over every technique deck by
+  // known-moves-shown.spec.ts, with stale grades planted so a 0/0 would bite).
+  // "NOT YET UP FOR REVIEW": no card of the deck is due, by the formula `duePool` and `_cardDue` use (`due <= today`
+  // and not answered today), over the deck's own cards when they are resident (a reworded card's old row is not this
+  // deck's, as `ngGameplanDebt` skips it), else over every row the deck holds. One due card puts the move face down,
+  // and a look asks "Did you get it?" (it has no row); the flashcard's own review brings it back up.
+  _deckLearned(opt) {
+    if (opt.action === "escape") return false;
+    const key = this.deckKeyFor(opt.node).key;
+    if (!(this.deckMastery(key) >= 1)) return false;
+    const day = this._epochDay(), rows = (this.srs && this.srs[key]) || {}, d = this.flashcards && this.flashcards.decks && this.flashcards.decks[key];
+    const cards = d && this._cardsOf(d), live = cards && cards.length ? new Set(cards.map((c) => this.qhash(c.q))) : null;
+    for (const qh in rows) { const e = rows[qh]; if (e && e[0] <= day && e[2] < day && (!live || live.has(qh))) return false; }
+    return true;
+  }
   // THE ONE PLACE a dealt card is put face down or left face up, at the deal (buildOptionCard), when the setting flips
   // under a hand (`_syncHideMoves`) and on every knowledge publish (`_paintHandFaces`): a Yes turns its card up for
-  // good, a No or a pull's No turns it down, and a new day that makes a known move due turns it down to be asked.
+  // good, a No or a pull's No turns it down, and a new day that makes a known move due turns it down to be asked;
+  // a flashcard grade, a deck landing or a new day moves a "learned" card the same way (v1.268.0).
   // A card already where it belongs is not touched, so a card turned up by a look stays up.
   _applyHide(card) {
-    const down = this._hideMoves() && this._moveState(card._choiceOpt) !== "known";
+    const st = this._moveState(card._choiceOpt), down = this._hideMoves() && st !== "known" && st !== "learned";
     if (down === card.hasAttribute("data-hide")) return;
     if (down) this._hideCard(card);
     else { this._unhideCard(card); this._hideAria(card); }
@@ -18773,8 +18798,9 @@ class Component extends DCLogic {
     // exactly where you stood adds no row. Cleared by `_closeRoll` with the log it belongs to.
     this._rollActed = true;
     // hidden moves: was this move played face down, and had the player looked at it first
-    // (`shown`, v1.266.0: the mode was on and this move was dealt face up because it is known and not due)
-    this.track("neural_move_picked", { technique: act.t, node_type: act.ty, ...(this._hideMoves() ? { hidden: true, peeked: !!(this._hmPeeks && this._hmPeeks.has(opt)), via: this._hideVia || "saved", ...(this._moveState(opt) === "known" ? { shown: true } : {}) } : {}) });
+    // (`shown`, v1.266.0: the mode was on and this move was dealt face up because it is known and not due; with
+    // `flashcards` (v1.268.0) because its flashcards are all learned and none is due)
+    this.track("neural_move_picked", { technique: act.t, node_type: act.ty, ...(this._hideMoves() ? { hidden: true, peeked: !!(this._hmPeeks && this._hmPeeks.has(opt)), via: this._hideVia || "saved", ...((st) => st === "known" ? { shown: true } : st === "learned" ? { shown: true, flashcards: true } : {})(this._moveState(opt)) } : {}) });
     // `via` IS THE EDGE, AND A REPLAY CANNOT BE RECONSTRUCTED WITHOUT IT (v1.106.5). The roll log
     // records the STATES you passed through; a film of the roll has to show HOW — which technique
     // node the exchange travelled over. That fact exists only here, at the moment of the commit,
