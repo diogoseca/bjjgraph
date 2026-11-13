@@ -46,22 +46,78 @@ import { journey } from "../dsl"
  * NOT COVERED here: a day that turns while the tab stays in the foreground and nothing else re-reads it (no clock
  * re-reads the day under an open hand; the next deal, publish or return to the tab does); the PostHog `shown`
  * property (no PR shard is keyed, §6.4).
+ *
+ * AND A MOVE WHOSE FLASHCARDS ARE ALL LEARNED (v1.268.0, KS2; the owner, 13 Nov 05:47: "b, Also a move whose
+ * flashcards are all learned"). Two more seeded moves, never answered in the row:
+ *   learned     Cross Collar Choke from Mount  every card at stage 3, none due        face up, no gold
+ *   learnedDue  Loop Choke from Mount          every card at stage 3, ONE due today   face down; a look asks "Did you get it?"
+ * "All learned" is the test gold's level 2 reads, `deckMastery(key) >= 1` (`_deckLearned`); "due" is the formula
+ * `duePool` uses. The row rules wherever it exists: another device's No puts the learned move face down. It is never a
+ * known move: no row, "Moves known" and the odds' moves part unchanged. A deck with no flashcards is never learned:
+ * every technique deck the wire names is walked, with stale grades planted on each empty or missing one.
+ * The decks' question hashes come from a first plain boot (the app's own `qhash` over its hydrated cards), once per file.
+ * Today's wire has NO technique deck that is empty or missing (1,298 walked, 0 and 0, printed every run), so the
+ * empty-deck test makes the three shapes itself on a dealt move, each with stale grades planted, and keeps a control.
+ *
+ * KS2 MUTANTS (v1.268.0), the served bundle, each red at the named assertion; the neutral control is green in all ten:
+ *   kind 2 off (`_deckLearned` false)                -> "learned: ... face up, no gold" (both mouse, touch), the pull's
+ *                                                       precondition, the empty-deck test's control
+ *   a due flashcard ignored                          -> "learnedDue: ... face down, no gold" (both mouse, touch)
+ *   the flashcards overrule a No in the row          -> "another device's No: face down whatever its flashcards say"
+ *   zero cards read learned (`deckMastery`, n 0 -> 1) -> "a deck whose manifest says 0 cards: not learned, ..."
+ *   a laxer threshold (0.6, not gold's test)          -> "one of its cards at stage 2: face down" (both mouse)
+ *   kind 2 wears gold                                -> "learned: ... face up, no gold" (both mouse, touch)
+ * #401's own bundle fails the five KS2 tests (the empty-deck one before its claim: `_deckLearned` does not exist there)
+ * and passes the five #401 tests.
  */
 
 type W = any
 const ORD = JSON.parse(readFileSync(resolve(__dirname, "../../node_ordinals.json"), "utf8")).ordinals as Record<string, number>
 const DAY = 20000
 const S = ORD["Positions/Mount"] + "/top"
-const ID = { known: "Submissions/Americana/from-Mount", due: "Submissions/Kimura/from-Mount", fresh: "Submissions/Armbar/from-Mount" }
+const ID = { known: "Submissions/Americana/from-Mount", due: "Submissions/Kimura/from-Mount", fresh: "Submissions/Armbar/from-Mount",
+  learned: "Submissions/Cross-Collar-Choke/from-Mount", learnedDue: "Submissions/Loop-Choke/from-Mount" }
 const ROWS = { [ORD[ID.known]]: [DAY + 9, 14, DAY - 5, 1], [ORD[ID.due]]: [DAY - 1, 3, DAY - 4, 1] }
 /** the grade buttons answer only a press that began NG_GRADE_ARM_MS (500 ms) after the strip appeared */
 const ARM = 600
 const NEXT = DAY + 10   // past the known move's due date (DAY + 9)
+const LEARNED_DUE = DAY + 30   // the learned decks' cards come due here (one of learnedDue's is due already)
+
+/** the two learned decks: their keys and their cards' question hashes, read once from the app itself */
+let DECKS: Record<"learned" | "learnedDue", { key: string; qh: string[] }> | null = null
+async function decks(page: Page) {
+  if (DECKS) return DECKS
+  await journey(page).boot("/")
+  // NEVER AN ASYNC EVALUATE THAT AWAITS A DECK: under load Chromium collects its promise and Playwright reports "Execution
+  // context was destroyed" with no navigation (it bit this file's picture script). The hydration starts fire-and-forget,
+  // a read-only signal is polled, and the hashes are read synchronously.
+  const keys = await page.evaluate((ids) => {
+    const a = (window as W).__neural, out: W = {}
+    for (const [k, id] of Object.entries(ids)) {
+      const key = out[k] = a.deckKeyFor(a.nodes.find((n: W) => n.id === id && n.role !== "defender")).key
+      if (!a._deckHasCards(key)) void a.hydrateDeck(key)
+    }
+    return out as Record<string, string>
+  }, { learned: ID.learned, learnedDue: ID.learnedDue })
+  await expect.poll(() => page.evaluate((keys) => Object.values(keys).every((k) => (window as W).__neural._deckHasCards(k)), keys), { message: "both decks landed" }).toBe(true)
+  DECKS = await page.evaluate((keys) => {
+    const a = (window as W).__neural
+    return Object.fromEntries(Object.entries(keys).map(([k, key]) => [k, { key, qh: a._cardsOf(a.flashcards.decks[key]).map((c: W) => a.qhash(c.q)) }]))
+  }, keys) as W
+  expect(DECKS!.learned.qh.length, "the learned move's deck has flashcards").toBeGreaterThan(0)
+  expect(DECKS!.learnedDue.qh.length, "...and the other more than one, so one can be due while the rest are not").toBeGreaterThan(1)
+  return DECKS!
+}
 
 async function seat(page: Page, hidden = true) {
+  const D = await decks(page)
+  // every card of both decks learned (stage 3) and scheduled ahead, but for ONE of learnedDue's, due yesterday
+  const stage = Object.fromEntries(Object.values(D).map((d) => [d.key, Object.fromEntries(d.qh.map((q) => [q, 3]))]))
+  const srs = Object.fromEntries(Object.entries(D).map(([k, d]) => [d.key, Object.fromEntries(d.qh.map((q, i) =>
+    [q, k === "learnedDue" && i === 0 ? [DAY - 1, 7, DAY - 8] : [LEARNED_DUE, 30, DAY - 2]]))]))
   await page.addInitScript((d) => { (window as W).__NG_EPOCH_DAY__ = d }, DAY)
   const j = journey(page)
-  await j.boot("/", { initialState: { v: 2, settings: { hideMoves: hidden }, settingsAt: { hideMoves: 1 }, moves: { [S]: ROWS } } })
+  await j.boot("/", { initialState: { v: 2, settings: { hideMoves: hidden }, settingsAt: { hideMoves: 1 }, moves: { [S]: ROWS }, stage, srs } })
   await j.land("Mount Top")
   await expect.poll(() => page.evaluate(() => ((window as W).__neural._optionCards || []).filter((c: W) => !c.opt.threat).length)).toBeGreaterThan(3)
   // by IDENTITY (§6.3): a hand can re-sort once when its win chances land, and the tag rides the card
@@ -71,7 +127,7 @@ async function seat(page: Page, hidden = true) {
     for (const c of a._optionCards) for (const [k, v] of Object.entries(id)) if (c.opt.node.id === v && !c.opt.threat) { c.card.setAttribute("data-ks", k); n++ }
     return n
   }, ID)
-  expect(n, "the three seeded moves are dealt at Mount Top").toBe(3)
+  expect(n, "the five seeded moves are dealt at Mount Top").toBe(5)
   return j
 }
 
@@ -216,9 +272,142 @@ test("a pull from another device: its No turns the card down in place, its Yes t
 test("control: with moves shown nothing is face down, before or after the day turns", async ({ page }) => {
   await seat(page, false)
   expect(await page.locator("[data-hide], .ng-choice-back, [data-choice-grade]").count(), "no hidden-moves DOM on any card while shown").toBe(0)
-  for (const k of ["known", "due", "fresh"]) expect({ ...(await face(page, k)), gold: undefined }, `${k}: face up`).toEqual({ ...UP, gold: undefined })
+  for (const k of ["known", "due", "fresh", "learned", "learnedDue"]) expect({ ...(await face(page, k)), gold: undefined }, `${k}: face up`).toEqual({ ...UP, gold: undefined })
   expect([await named(page, "known"), await named(page, "due"), await named(page, "fresh")], "the map names all three").toEqual([true, true, true])
   await comeBack(page, NEXT)
   await page.waitForTimeout(200)
   expect(await page.locator("[data-hide], .ng-choice-back, [data-choice-grade]").count(), "...and still none after the day turns").toBe(0)
+})
+
+// ── KS2 (v1.268.0): a move never answered in the row whose flashcards are all learned ─────────────────────────────
+
+async function learnedFaces(page: Page) {
+  expect(await face(page, "learned"), "learned: never answered, every flashcard learned, none due: face up, no gold (owner, 13 Nov 05:47)").toEqual({ ...UP, gold: false })
+  expect(await face(page, "learnedDue"), "learnedDue: the same, with one flashcard due: face down, no gold").toEqual({ ...DOWN, gold: false })
+  expect([await named(page, "learned"), await named(page, "learnedDue")], "...the map names the face-up one, not the face-down one").toEqual([true, false])
+}
+
+/** what the record says of the learned move: no row, not a known move, and the moves add nothing to its deck */
+const notKnown = (page: Page) => page.evaluate(([s, m, key]) => {
+  const a = (window as W).__neural, line = a._movesKnownLine()
+  return { row: ((a.moves || {})[s] || {})[m] || null, known: line && line.known, movesPart: a.mastery(key) - a._flashMastery(key) }
+}, [S, String(ORD[ID.learned]), DECKS!.learned.key])
+
+for (const vp of [{ width: 1440, height: 900 }, { width: 390, height: 631 }]) {
+  test.describe(`learned, mouse ${vp.width}x${vp.height}`, () => {
+    test.use({ viewport: vp })
+
+    test(`a move whose flashcards are all learned is face up until one comes due; it is never a known move (${vp.width})`, async ({ page }) => {
+      const j = await seat(page)
+      await learnedFaces(page)
+      expect(await notKnown(page), "no row for it, Moves known counts only the two seeded Yeses, and the moves add nothing to its deck").toEqual({ row: null, known: 2, movesPart: 0 })
+      // the pointer on it is not a look: nothing asks
+      const p = await pointOn(page, "learned")
+      await page.mouse.move(p.x, p.y)
+      await page.waitForTimeout(300)
+      expect(await face(page, "learned"), "the pointer on the learned card: still face up, asking nothing").toEqual({ ...UP, gold: false })
+      // a look at the one with a due flashcard asks as for any move never answered: Did you get it? (Yes only)
+      const q = await pointOn(page, "learnedDue")
+      await page.mouse.move(q.x, q.y)
+      await expect.poll(async () => (await face(page, "learnedDue")).asking, { message: "a look at learnedDue asks Did you get it?" }).toBe("Did you get it?")
+      expect(await page.locator('[data-ks="learnedDue"] [data-grade]').count(), "...with Yes only").toBe(1)
+      await page.mouse.move(q.x, q.y - 160)
+      // "all learned" is every card at stage 3: one card back at stage 2 (a recognition answer's ceiling) is not
+      await page.evaluate(([key, qh]) => { const a = (window as W).__neural; a.stage[key][qh] = 2; a._publishKnowledge("test:one-card-at-stage-2") }, [DECKS!.learned.key, DECKS!.learned.qh[0]])
+      await expect.poll(async () => (await face(page, "learned")).name, { message: "one of its cards at stage 2: face down" }).toBe("hidden")
+      await page.evaluate(([key, qh]) => { const a = (window as W).__neural; a.stage[key][qh] = 3; a._publishKnowledge("test:learned-again") }, [DECKS!.learned.key, DECKS!.learned.qh[0]])
+      await expect.poll(async () => (await face(page, "learned")).name, { message: "learned again: face up" }).toBe("visible")
+      // the day its flashcards come due, the player comes back: face down, and a look asks
+      await comeBack(page, LEARNED_DUE + 1)
+      await expect.poll(async () => ({ ...(await face(page, "learned")), gold: undefined }), { message: "its flashcards due: face down" }).toEqual({ ...DOWN, gold: undefined })
+      const r = await pointOn(page, "learned")
+      await page.mouse.move(r.x, r.y)
+      await expect.poll(async () => (await face(page, "learned")).asking, { message: "...and a look asks Did you get it?" }).toBe("Did you get it?")
+      expect(await executing(page), "nothing played").toBe(false)
+      void j
+    })
+  })
+}
+
+test.describe("learned, touch 390x631", () => {
+  test.use({ hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } })
+
+  test("by touch: the learned card is up and its first tap plays; the one with a due flashcard turns up on a tap and asks", async ({ page }) => {
+    await seat(page)
+    await learnedFaces(page)
+    const d = await pointOn(page, "learnedDue")
+    await page.touchscreen.tap(d.x, d.y)
+    expect(await executing(page), "a first tap on the face-down one turns it up and plays nothing").toBe(false)
+    expect([(await face(page, "learnedDue")).name, (await face(page, "learnedDue")).asking], "...and asks Did you get it?").toEqual(["visible", "Did you get it?"])
+    expect(await face(page, "learned"), "the learned card stays face up").toEqual({ ...UP, gold: false })
+    const l = await pointOn(page, "learned")
+    await page.touchscreen.tap(l.x, l.y)
+    expect(await executing(page), "the learned card's first tap plays it, as a face-up card's does").toBe(true)
+  })
+})
+
+test("a learned move answered in the row on another device: the row rules from then on", async ({ page }) => {
+  await seat(page)
+  expect((await face(page, "learned")).name, "precondition: the learned card is face up").toBe("visible")
+  const pull = (r: number[]) => page.evaluate(([s, m, r]) => {
+    const a = (window as W).__neural, b = a._progressBlob()
+    a._hydrateProgressBlob({ ...b, moves: { ...b.moves, [s as string]: { ...b.moves[s as string], [m as string]: r } } })
+  }, [S, String(ORD[ID.learned]), r] as const)
+  await pull([DAY + 1, 1, DAY, 0])
+  expect(await face(page, "learned"), "another device's No: face down whatever its flashcards say, no gold").toEqual({ ...DOWN, gold: false })
+  await pull([DAY + 3, 3, DAY, 1])
+  expect(await face(page, "learned"), "another device's Yes: face up, now a known move, gold").toEqual({ ...UP, gold: true })
+})
+
+test("a deck with no flashcards is never learned: none on today's wire (counted), so made three ways on a dealt move", async ({ page }) => {
+  await seat(page)
+  // the census: every technique deck the wire names, and how many are empty or missing today
+  const census = await page.evaluate(() => {
+    const a = (window as W).__neural, decks = a.flashcards.decks
+    let walked = 0, empty = 0, missing = 0
+    for (const n of a.nodes) {
+      if (n.ty === "positions" || n.role === "defender") continue
+      walked++
+      const d = decks[a.deckKeyFor(n).key]
+      if (!d) missing++; else if (a._deckCardCount(d) === 0) empty++
+    }
+    return { walked, empty, missing }
+  })
+  console.log(`[known-moves-shown] technique decks walked ${census.walked}: ${census.empty} empty, ${census.missing} missing`)
+  expect(census.walked, "the walk saw the technique corpus").toBeGreaterThan(1000)
+  // so the never-answered "fresh" move's deck is made empty three ways, each with stale grades planted (what a 0-of-0
+  // or a count of grades would read as "all learned"), and its card must stay face down
+  const shape = (how: string) => page.evaluate(async (how) => {
+    const a = (window as W).__neural, oc = a._optionCards.find((c: W) => c.card.getAttribute("data-ks") === "fresh"), key = a.deckKeyFor(oc.opt.node).key
+    a.__realDeck = a.__realDeck || a.flashcards.decks[key]
+    if (how === "missing") delete a.flashcards.decks[key]
+    else a.flashcards.decks[key] = how === "stub" ? { n: 0 } : { n: 0, cards: [] }
+    a.stage[key] = { "0badc0de": 3, "0badc0df": 3 }
+    a.srs[key] = { "0badc0de": [99999, 30, 1], "0badc0df": [99999, 30, 1] }
+    a._publishKnowledge("test:empty-deck-" + how)
+    return { learned: a._deckLearned(oc.opt), mastery: a.deckMastery(key) }
+  }, how)
+  for (const how of ["missing", "stub", "resident"]) {
+    const r = await shape(how)
+    expect({ ...r, face: (await face(page, "fresh")).name }, `a deck ${how === "missing" ? "missing from the manifest" : how === "stub" ? "whose manifest says 0 cards" : "with 0 cards resident"}: not learned, mastery 0, face down`)
+      .toEqual({ learned: false, mastery: 0, face: "hidden" })
+  }
+  // control: the same move with its real deck, every card learned and none due, turns face up
+  const freshKey = await page.evaluate(() => {
+    const a = (window as W).__neural, oc = a._optionCards.find((c: W) => c.card.getAttribute("data-ks") === "fresh"), key = a.deckKeyFor(oc.opt.node).key
+    a.flashcards.decks[key] = a.__realDeck
+    if (!a._deckHasCards(key)) void a.hydrateDeck(key)   // fire-and-forget, then poll (never await a deck in an evaluate)
+    return key as string
+  })
+  await expect.poll(() => page.evaluate((key) => (window as W).__neural._deckHasCards(key), freshKey), { message: "the real deck landed" }).toBe(true)
+  const control = await page.evaluate(() => {
+    const a = (window as W).__neural, oc = a._optionCards.find((c: W) => c.card.getAttribute("data-ks") === "fresh"), key = a.deckKeyFor(oc.opt.node).key
+    const qh = a._cardsOf(a.flashcards.decks[key]).map((c: W) => a.qhash(c.q))
+    a.stage[key] = Object.fromEntries(qh.map((q: string) => [q, 3]))
+    a.srs[key] = Object.fromEntries(qh.map((q: string) => [q, [99999, 30, 1]]))
+    a._publishKnowledge("test:real-deck-learned")
+    return { cards: qh.length, learned: a._deckLearned(oc.opt) }
+  })
+  expect({ ...control, face: (await face(page, "fresh")).name }, "control: its real deck learned, the same card turns face up").toEqual({ cards: control.cards, learned: true, face: "visible" })
+  expect(control.cards, "...a deck with cards").toBeGreaterThan(0)
 })
