@@ -47,6 +47,16 @@ import { bootVideoCards, CARD } from "../fixtures/video-cards"
  * test's first-frame message; so is a one-frame deferral, because the test's own pointerenter listener runs first and
  * queues its frame ahead of the app's.
  *
+ * A MOVE YOU KNOW STAYS FACE UP, AND THREE ASSERTIONS CHANGED WITH IT (v1.266.0, owner, 13 Nov: "moves which are
+ * golden / mastered and not yet up for review show visible instead of hidden in the choices row by default ok?").
+ * A move whose last answer was a Yes and that is not due is dealt face up; its rule, its day and its map are pinned by
+ * known-moves-shown.spec.ts. What each changed assertion claimed before, so none of them reads as dropped:
+ *   the @curated Yes  was "face down again, and still gold" after the pointer left   now "face up, and still gold"
+ *   what a card asks  was "known and not due: a hover turns it up (up: true) and it asks nothing"
+ *                     now "its name is in sight before any look; the hover turns nothing up (up: false), asks nothing"
+ *   touch, one up     was "card 0's tap closes card 1" (card 1, graded Yes, back face down)
+ *                     now "card 0's tap closes card 2" (turned up, not graded), and card 1 stays face up through both
+ *
  * HIDDENNESS IS NEVER READ FROM TEXT. Hiding is CSS on an attribute, so a face-down card's
  * `textContent` still holds its name (every other reader of the card depends on that). Each claim
  * here reads computed visibility, the back's geometry against the film slot, or `elementFromPoint`.
@@ -280,7 +290,9 @@ test("@curated Yes files the move as mastered: gold in every row, kept across a 
   await page.mouse.move(p.x, p.y - 160)
   await page.waitForTimeout(200)
   const away = await face(page, hm(1))
-  expect([away.title, away.mastered], "face down again, and still gold").toEqual(["hidden", true])
+  // v1.266.0 (owner, 13 Nov: "moves which are golden / mastered and not yet up for review show visible instead of
+  // hidden in the choices row"): it was ["hidden", true], "face down again, and still gold"
+  expect([away.title, away.mastered], "a Yes made it a move you know, not due: it stays face up, and gold").toEqual(["visible", true])
   // the progress blob carries it: a fresh boot with the saved storage deals the same card gold
   await page.waitForTimeout(1200)
   await j.boot("/", { preserveStorage: true })
@@ -466,8 +478,12 @@ test("what a face-up card asks: unknown Yes only, known and due Still got it Yes
   const u = await ask("unknown")
   expect(u.r, "a move you do not know yet: Did you get it? Yes only").toEqual({ asking: true, q: "Did you get it?", yes: 1, no: 0, gold: false, up: true })
   await away(u.p)
+  // v1.266.0 (owner, 13 Nov: "moves which are golden / mastered and not yet up for review show visible instead of
+  // hidden in the choices row"): a known move not due is dealt face up, so a look turns nothing up. This was `up: true`
+  // ("a hover turns it up and it asks nothing"); it is face up BEFORE the hover now, and the hover changes nothing.
+  expect(await page.evaluate(() => getComputedStyle(document.querySelector('[data-hk="fresh"] .ngchoice-title')!).visibility), "known and not due: its name is in sight before any look").toBe("visible")
   const f = await ask("fresh")
-  expect(f.r, "known and not due: face up, gold, asks nothing").toEqual({ asking: false, q: null, yes: 0, no: 0, gold: true, up: true })
+  expect(f.r, "known and not due: face up, gold, asks nothing").toEqual({ asking: false, q: null, yes: 0, no: 0, gold: true, up: false })
   await away(f.p)
 
   const d = await ask("due")
@@ -591,10 +607,18 @@ test.describe("touch", () => {
     s = await appState(page)
     expect(s.executing, "a tap on Yes grades and plays nothing").toBe(false)
     expect((await face(page, hm(1))).mastered).toBe(true)
-    // another card's first tap closes this one
+    // v1.266.0 (owner, 13 Nov: "moves which are golden / mastered and not yet up for review show visible instead of
+    // hidden in the choices row"): the Yes made card 1 a move you know, not due, so it stays face up. The claim below
+    // ("another card's first tap closes this one") was made on card 1, ["hidden", "visible"] after card 0's tap; it
+    // moves to card 2, turned up by a tap and not graded, and card 1 must now stay up through both taps.
+    expect((await face(page, hm(1))).title, "a known card stays face up").toBe("visible")
+    const r = await pointOn(page, hm(2))
+    await page.touchscreen.tap(r.x, r.y)
+    expect((await face(page, hm(2))).up, "card 2's first tap turns it up").toBe(true)
+    // another card's first tap closes the one turned up before it
     const q = await pointOn(page, hm(0))
     await page.touchscreen.tap(q.x, q.y)
-    expect([(await face(page, hm(1))).title, (await face(page, hm(0))).title], "one card up at a time on touch").toEqual(["hidden", "visible"])
+    expect([(await face(page, hm(2))).title, (await face(page, hm(0))).title, (await face(page, hm(1))).title], "one card up at a time on touch; the known card stays up").toEqual(["hidden", "visible", "visible"])
     await page.touchscreen.tap(q.x, q.y)
     s = await appState(page)
     expect(s.executing, "the second tap plays it").toBe(true)

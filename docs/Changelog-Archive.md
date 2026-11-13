@@ -16654,3 +16654,61 @@ the chevron tests with the widths reversed (320, 390, 1440) 15 of 15; the fixed 
 draw (the rig that turns the old spec red 10 of 10), plus 10 of 10 at draw 0.2 and 10 of 10 unpinned. Load average 0.8 to 3.4
 during them. Bytes: none, a spec-only change; the deferred set stays 510,963 of 510,981 B. The archive ceiling moved +50,000 in
 its own commit first (DECK2).
+
+## v1.266.0 — With moves hidden, a move you know that is not due stays face up (the owner's must, KNOWNSHOWN, 2026-11-13)
+
+**His words (13 Nov, 04:50, "a must implement").** "moves which are golden / mastered and not yet up for review show
+visible instead of hidden in the choices row by default ok? that reduces the necessity of hidding everything including our
+mastered techniques". The first step of Practice as recall over a position's row: hide what has to be recalled, show what
+is already known.
+
+**What existed (dev 9bb64a83e, v1.265.1).** `hideMoves` (Settings and the word by "Your moves") hid every dealt card's name
+and film (`_hideCard`, CSS on `data-hide`); a hover or a first tap turned one up (`_peek`, `data-revealed`); face up it asked
+"Did you get it?" (new: Yes only), "Still got it?" (known and due: Yes / No), or nothing (known, not due), and a Yes or No
+wrote `moves[state][move] = [due, ivl, last, ok]` (`_gradeMove`). The card's gold (`_goldCard`) is that row's `ok = 1`, due
+or not; level 2 adds `deckMastery >= 1` to it and never stands alone. The map's technique gold (`_movesGold`) is any pair of
+that technique's deck known; the opt-in tint (`masteryGold`) is the flashcards alone. The map withheld the names of every
+dealt orb not in `_hmLit` (the cards turned up). There is no "N hidden" count on the row; the switch's word names the mode.
+
+**One fact, so one reading built.** Gold on a card is the row's Yes and "up for review" is the same row's date, so "gold and
+not up for review" is one state: `_moveState(opt)` returns new / known / due from the row, and `_peek` now asks its three-way
+question through it. `_applyHide(card)` is the one face decision (down = moves hidden and state not known), applied at the
+deal, in `_syncHideMoves`, on every knowledge publish (`_paintHandFaces`, a "moves-face" effect beside "moves-gold": a Yes
+turns a card up for good, a No or a pull's No turns it down) and when the tab comes back to the front. The map's label gate
+adds every card without `data-hide` to the lit set: it asks the card, never the rule again. A first tap on a face-up card plays
+it, as with moves shown. Nothing is written; moves shown is untouched (`_paintHandFaces` returns at once).
+
+**The return to the tab.** A known card dealt face up yesterday may be due today. First written as `_checkKnowledgeDay()` in
+`_onVisHide`; the touch journey came back before the hand's first value request had read the day, so that latch had nothing
+to compare and the card stayed up (red at "coming back the next day: it is face down"). It calls `_paintHandFaces()` directly.
+
+**The other reading (not built, in the knownshown report with a picture).** Gold from the technique's flashcards alone: a move
+never answered in the row whose deck is fully learned would count as mastered and stay up, with no gold on the card.
+
+**Proof (local, under the build lock, BUILD_PEAK_MIB=4000).** `e2e/journeys/known-moves-shown.spec.ts`, Mount Top with three
+seeded moves (Americana from Mount known and due in 9 days, Kimura from Mount due yesterday, Armbar from Mount never answered):
+mouse at 1440x900 and 390x631, touch at 390x631, a pull, a moves-shown control; 5 of 5. With hidden-moves.spec.ts and
+moves-mastery.spec.ts, 30 of 30. Mutants on the served bundle (region regexes, each matching once), red at:
+
+| mutant | red at |
+|---|---|
+| control: a warn string's case | none, 5 of 5 green |
+| a mastered move hidden anyway | "known: face up..." (3 tests), the pull's precondition |
+| a due move shown | "due: face down..." (3 tests) |
+| the map asks the old set | "...and the map names the known move" (3 tests), the pull's map check |
+| no face repaint on a publish | "...and it stays up once the pointer has left" (mouse x2), "...the known card stays face up" (touch), "another device's No: face down" |
+| coming back does not re-read the faces | "coming back the next day: it is face down" (touch); PARTIAL, both mouse tests green: once the day has been read, the values' own visibilitychange listener re-reads it and its "day-rollover" publish turns the card down |
+| dev's own bundle (v1.265.1 sources) | "known: face up..." (3), the pull's precondition; control green |
+
+**Three hidden-moves.spec.ts assertions changed with the rule**, each red on dev's own bundle at its new message: the @curated
+Yes ("face down again, and still gold" -> "stays face up, and gold"); what a card asks ("known and not due: a hover turns it up,
+up: true" -> "its name is in sight before any look", up: false); touch one-up (card 0's tap closed card 1, graded Yes ->
+closes card 2, turned up and not graded, while card 1 stays up). The other 18 pass on dev's bundle and on this one.
+
+**Bytes.** neural.js +539 B raw / +165 B gzip (-9) against dev's bundle built from the same tree; neural.css unchanged.
+Eager gzip 353,134 B, +4,446 B since its 348,688 B checkpoint (cap 5,000). First-hand core 372,544 B, +1,437 B since 371,107 B
+(cap 6,000). Deferred 511,007 B, +44 B on dev's 510,963 B (settings-ui.js only, the Settings line); the ceiling moved to
+exactly that in its own commit, under U134 b's 512,000 B, 993 B left. `check_payload_budget.py` exits 0.
+
+**Not covered.** A day that turns while the tab stays in front and nothing re-reads it (no clock under an open hand; the next
+deal, publish or return does); the PostHog `shown` property on `neural_move_picked` (no PR shard is keyed).
