@@ -3014,6 +3014,8 @@ class Component extends DCLogic {
     this._scoreCache = null; this._flowScoreCache = null; this._flowCache = null;
     this._knowledgeEffect("map-paint", () => this._rebuildMapPaint());
     this._knowledgeEffect("moves-gold", () => this._paintHandGold());
+    // ...and its face: a Yes turns a hidden card up, a No or a new day's due date turns it down (v1.266.0)
+    this._knowledgeEffect("moves-face", () => this._paintHandFaces());
     // the belt BEFORE the tab repaints, so the tab never paints a belt that is not yet persisted
     this._knowledgeEffect("belt-sync", () => this._syncBelt(reason));
     if (this.renderTabSubtitles) this._knowledgeEffect("renderTabSubtitles", () => this.renderTabSubtitles());
@@ -4598,7 +4600,15 @@ class Component extends DCLogic {
     this._onPageHide = () => { flush(); this._stopSystemPreview(); this._csAbandon("pagehide"); };
     this._onVisHide = () => {
       if (document.visibilityState === "hidden") { flush(); this._stopSystemPreview(); this._csAbandon("hidden"); }
-      else if (this._systemId && this.deckShown) this._renderPaneBody();
+      else {
+        // A TAB LEFT OPEN OVERNIGHT (v1.266.0): a known move dealt face up yesterday may be due today, and its answer
+        // must not sit face up when the player comes back. Nothing else may re-read the day before the next deal, so
+        // coming back re-reads each card's face. Directly, never through `_checkKnowledgeDay`: that publishes only
+        // against a day it has already read, and before the hand's first value request it has read none (a quick
+        // return measured exactly that: the card stayed up, known-moves-shown.spec.ts, touch).
+        this._paintHandFaces();
+        if (this._systemId && this.deckShown) this._renderPaneBody();
+      }
     };
     window.addEventListener("pagehide", this._onPageHide);
     document.addEventListener("visibilitychange", this._onVisHide);
@@ -14316,7 +14326,8 @@ class Component extends DCLogic {
       + '<div class="ngbar"></div>';
     // A mastered move wears thin gold in every row, hidden or not (owner, U116).
     this._goldCard(card, opt);
-    if (this._hideMoves()) this._hideCard(card);
+    // with moves hidden, face down unless the move is known and not due (owner, 13 Nov; `_applyHide`)
+    this._applyHide(card);
     // A HIDDEN CARD'S FIRST TOUCH REVEALS, ITS SECOND PLAYS. The gate sits HERE, in front of
     // activateOption, so keys 1-9 (which call activateOption directly) still play blind and the
     // reader's beginPlay wrapper never sees a reveal as a play. Read at click time: the setting
@@ -14337,6 +14348,40 @@ class Component extends DCLogic {
   // The card's own `textContent` therefore still holds the name: a spec proves hiddenness with
   // computed visibility or elementFromPoint, never with text.
   _hideMoves() { return this.get("hideMoves", false) === true; }
+  // ── A MOVE YOU KNOW STAYS FACE UP (v1.266.0, the owner, 13 Nov 2026, "a must implement": "moves which are golden /
+  // mastered and not yet up for review show visible instead of hidden in the choices row by default ok? that reduces
+  // the necessity of hidding everything including our mastered techniques"). The first step of Practice as recall over
+  // a position's row: hide what has to be recalled, show what is already known.
+  // ONE STATE, FROM THE MOVE'S OWN ROW `[due, ivl, last, ok]` (`_moveRow`), read by every surface that asks:
+  //   "new"    no row, or the last answer a No     face down; face up it asks "Did you get it?"   no gold
+  //   "known"  the last answer a Yes, not due      FACE UP with moves hidden; asks nothing        gold
+  //   "due"    the last answer a Yes, due today or before and not answered today
+  //                                                face down; face up it asks "Still got it?"     gold
+  // His two words are ONE fact here: a card is gold exactly when its row's last answer is a Yes (`_goldCard`; the
+  // thicker level 2 adds the deck's flashcards to that, never replaces it), and "up for review" is that same row's
+  // due date. So "gold and not up for review" is "known", and a due card (still gold) goes face down to be asked.
+  // The other reading (gold from the technique's flashcard deck alone, for a move never answered in the row) is
+  // NOT built: it is in the knownshown report as a truth table with a picture, for him to choose.
+  // Nothing stored changes: the state is read, never written; "Did you get it?" / "Still got it?" keep their
+  // meaning and their schedule (`_peek` asks the same three-way question it always did, now through this one seam).
+  _moveState(opt) {
+    const row = this._moveRow(opt);
+    if (!row || row[3] !== 1) return "new";
+    const day = this._epochDay();
+    return row[0] <= day && row[2] < day ? "due" : "known";
+  }
+  // THE ONE PLACE a dealt card is put face down or left face up, at the deal (buildOptionCard), when the setting flips
+  // under a hand (`_syncHideMoves`) and on every knowledge publish (`_paintHandFaces`): a Yes turns its card up for
+  // good, a No or a pull's No turns it down, and a new day that makes a known move due turns it down to be asked.
+  // A card already where it belongs is not touched, so a card turned up by a look stays up.
+  _applyHide(card) {
+    const down = this._hideMoves() && this._moveState(card._choiceOpt) !== "known";
+    if (down === card.hasAttribute("data-hide")) return;
+    if (down) this._hideCard(card);
+    else { this._unhideCard(card); this._hideAria(card); }
+  }
+  // Moves shown, nothing is face down and nothing is touched: a player with moves shown sees no difference.
+  _paintHandFaces() { if (this._hideMoves()) for (const oc of this._optionCards || []) if (oc.card && oc.opt) this._applyHide(oc.card); }
   _hideCard(card) {
     card.setAttribute("data-hide", NG_HIDE_HINT);
     this._hideAria(card);
@@ -14424,9 +14469,10 @@ class Component extends DCLogic {
     //   a move you do not know yet     "Did you get it?"  Yes      (a peek without a Yes records nothing)
     //   a move you know, and it is DUE "Still got it?"    Yes / No (No takes its gold away and reschedules it)
     //   a move you know, not due       nothing
-    const row = this._moveRow(opt), known = !!(row && row[3] === 1);
-    const due = known && row[0] <= this._epochDay() && row[2] < this._epochDay();
-    if ((known && !due) || !this._moveKey(opt)) return;
+    // (a known card is face up with moves hidden since v1.266.0, so it never reaches here; the case stays for a card
+    // the day has not yet been re-read for)
+    const state = this._moveState(opt), due = state === "due";
+    if (state === "known" || !this._moveKey(opt)) return;
     let strip = card.querySelector("[data-choice-grade]");
     if (!strip) {
       strip = document.createElement("div");
@@ -14486,9 +14532,8 @@ class Component extends DCLogic {
   // the setting switched under a dealt hand (the switch, Settings, a pull): hide or show the row in place, no redeal.
   // The face-up set starts over: a card left face up before the switch must not leave its orb named after it.
   _syncHideMoves() {
-    const on = this._hideMoves();
     this._hmLit = new Set();
-    for (const c of this._optionCards || []) on ? this._hideCard(c.card) : (this._unhideCard(c.card), this._hideAria(c.card));
+    for (const c of this._optionCards || []) this._applyHide(c.card);
     this._paintHideSwitch(this.optionsRef.current?.querySelector('[data-choice-group="you"] > div'));
   }
   // ── THE `moves` RECORD (v1.255.0, owner U116) ──────────────────────────────────────────────
@@ -18728,7 +18773,8 @@ class Component extends DCLogic {
     // exactly where you stood adds no row. Cleared by `_closeRoll` with the log it belongs to.
     this._rollActed = true;
     // hidden moves: was this move played face down, and had the player looked at it first
-    this.track("neural_move_picked", { technique: act.t, node_type: act.ty, ...(this._hideMoves() ? { hidden: true, peeked: !!(this._hmPeeks && this._hmPeeks.has(opt)), via: this._hideVia || "saved" } : {}) });
+    // (`shown`, v1.266.0: the mode was on and this move was dealt face up because it is known and not due)
+    this.track("neural_move_picked", { technique: act.t, node_type: act.ty, ...(this._hideMoves() ? { hidden: true, peeked: !!(this._hmPeeks && this._hmPeeks.has(opt)), via: this._hideVia || "saved", ...(this._moveState(opt) === "known" ? { shown: true } : {}) } : {}) });
     // `via` IS THE EDGE, AND A REPLAY CANNOT BE RECONSTRUCTED WITHOUT IT (v1.106.5). The roll log
     // records the STATES you passed through; a film of the roll has to show HOW — which technique
     // node the exchange travelled over. That fact exists only here, at the moment of the commit,
@@ -21319,10 +21365,13 @@ class Component extends DCLogic {
       // HIDDEN MOVES: every dealt orb whose card is face down, with its pair partner. NO map label may name one —
       // the always-on option labels, the roaming pair group and the single hover label all ask this set
       // (review R2: the hover labels did not, so pointing at an orb named the move its card hides).
+      // A card left face up because its move is known (v1.266.0, `_applyHide`) is face up here too: the map asks the
+      // card, never the rule again (§6.5, one question in one place), so the row and the map cannot disagree.
       let hmDown = null;
       if (this.optionIdxs && this.optionIdxs.length && this._hideMoves()) {
         hmDown = new Set();
-        const lit = this._hmLit || new Set();
+        const lit = new Set(this._hmLit || []);
+        for (const oc of this._optionCards || []) if (oc.card && !oc.card.hasAttribute("data-hide")) { lit.add(oc.opt.idx); if (oc.opt.res != null) lit.add(oc.opt.res); }
         for (const i of this.optionIdxs) if (!lit.has(i)) { hmDown.add(i); const q = this.nodes[i]; if (q && q.pi >= 0) hmDown.add(q.pi); }
       }
       if (this.optionIdxs && this.optionIdxs.length && !this.pulse) {
