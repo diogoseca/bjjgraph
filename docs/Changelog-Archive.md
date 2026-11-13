@@ -17271,3 +17271,34 @@ emitter writes the top level, re-emitted in place and then restored, the restore
 run, whose argument list names every test file, and then the control's own shell; it now matches a node process by its real
 argv and its working directory, and a control shows it finds a fake orphan here and ignores one elsewhere. Bytes after the
 move: the eager set +6 B (356,579 to 356,585), the first-hand core +4 B (375,956 to 375,960); `neural.js` and the four game rows re-seeded in their own commit.
+
+**LIVE3: the stamp leaves the deck manifest (the orchestrator's call on the reader's G1).** The study bundles pin
+`flashcards/_index.json` byte for byte (`neural/build/study-bundles.mjs` embeds its sha256; the study worker refuses
+`index-sha256-mismatch`), and the stamp moves whenever an unshared card is reworded. In `_meta` it would have added every
+rewording deploy to the window in which a returning player still holding the older manifest (four hours fresh under
+`/static/*`) loses the study plan. It now rides `curriculum.json` as `ratingLive`: eager already, and nothing pins it.
+Surveyed (98 lines naming the file, then every reader of the parsed object): the app reads `belts` and
+`scoreWeightsByOrd` by name, challenge-ui `belts`, the MC scripts `belts`, the specs named keys; no bundle or build step
+hashes it (`build.mjs` rewrites its fetch URL only); the payload gate counts it inside the eager total only; the digest
+worker and the Functions never read it. `_index.json` is byte-identical to dev 3bef94e14's own emit (sha256
+10d303d88a89f244...); of the 4,974 emitted files both hold, only `curriculum.json` differs, by `ratingLive` alone (+24 B
+raw), and only the two live files are new. The app keys a kept check on the manifest AND the stamp, so a check made before
+`curriculum.json` lands fetches nothing and keeps nothing. `tests/live_questions_test.py` pins the property on a synthetic
+pair of emits that differ only in one unshared card's wording: the manifest byte-identical (the same study index hash), the
+live files and the stamp different, `curriculum.json` different by the stamp alone. Mutants: V15 (the stamp read from the
+manifest), V16 (the emitter putting it back into `_meta`: killed by the pair test), V17 to V19 (the kept result keyed on
+the manifest only; an ok check reused under another stamp; a check before the curriculum kept as no-fingerprint); V13 and
+V14 retired with their lines. The reader's F1 scripts, re-pointed at this head with the stamp read from the new carrier (22
+diff lines), read as before: another build's file, older or newer, "stale-live" with no number; no stamp, "no-fingerprint"
+after 0 requests; both requests under the stamp; the reader's own decoder agrees with the module.
+Mixed caches. A new `curriculum.json` with older live files: the files are asked for under the new stamp, so no cache hands
+back the old copies by that URL; if the origin itself served old files they would hash to the old stamp: "stale-live".
+An older `curriculum.json` with new live files: they are asked for under the old stamp; a copy cached under that URL is the
+old build's own and agrees with it (a consistent old reading, in the same cache window as the old deck chunks), and a fresh
+fetch of the new files hashes to the new stamp: "stale-live" until the carrier refreshes (and if the deck list moved too,
+the old files' `rev` refuses them). A new app with a `curriculum.json` from before this PR: "no-fingerprint", 0 requests.
+An older app with the new `curriculum.json`: it reads `belts` and `scoreWeightsByOrd` and never sees `ratingLive`; and the
+manifest it reads is dev's own bytes.
+The module's 0.17 for everything known is now 0.160: 6% of the 21,269 known rows times the card-weighted mean
+wrong-accept rate per retired row, 1.2512e-4 (the reader's definition; the first figure counted the retired rows as 6% of
+all rows after adding them, 6/94 of the known); the year shape, the same way, 0.022. Bytes after the move: measured on dev v1.272.0 (3bef94e14), whose own bundle reproduces its committed `neural.js` row: the eager set 357,181 B, +4,215 of 5,000 since the checkpoint (dev alone 355,846, this change +1,335); the first-hand core 376,564 B, +5,457 of 6,000 since 371,107 (dev alone 375,247 with its own payload served, this change +1,317), the same 11 boot requests and no live file among them; the deferred set 510,269 of 511,043, unchanged; the largest on-demand chunk 39,000.
