@@ -17351,9 +17351,10 @@ icons, each cut by its clipping ancestors). Dev's bundle, the same instrument: o
 phone at x1 / x2 / x4 / x9 (11 / 36 / 99 / 287 at 1440), cut names 26 / 34 / 15 / 24, names under a control 33 / 60 / 104 /
 161 (221 to 342 with the phone's drawer open, which takes the screen).
 
-**The rule (`_planNames`).** A name is written only where it can be read. In order of claim: the position's own label
-(never moved, never dropped: it always wins), then the pointer's label (its usual place, or the other side of its orb when
-that is not clear, `side`), then the moves acted on (the card under the pointer, the card holding keyboard focus, a card
+**The rule (`_planNames`).** A name is written only where it can be read. In order of claim: the move in flight's label
+during a move, else the position's own label (neither is moved or dropped), then the pointer's label (its usual place, or
+the other side of its orb when that is not clear, `side`; neither side clear, its usual place, perhaps trimmed), then (R1) a
+node the player was just pointed at, then the moves acted on (the card under the pointer, the card holding keyboard focus, a card
 turned up by touch: 24 places, last resort across another orb), then the names written last time, each at its old place
 first, then the rest in the row's order (the cards left to right), then the lit trail. Each takes the first of eight places
 beside its orb (right raised, as always; right level and lowered; the same on the left; centred above and below) whose ink
@@ -17376,7 +17377,8 @@ dots are not measured by the survey (a guest knows no move); known-move-seal.spe
 
 **Nothing lost.** A move whose name is not written: hover its orb (named, the pointer's label), hover or keyboard-focus its
 card (named on the map before any other move), tap a face-down card (named), tap the orb (stages it, as before), read the
-row (every card carries its name). The phone's drawer open: nothing is written under it (it takes the screen).
+row (every card carries its name). A lit node (R1): one the player was sent to or shown is named as acted on; a trail of
+many lit at once is best effort. The phone's drawer open: nothing is written under it (it takes the screen).
 
 **Proof.** e2e/journeys/map-names.spec.ts (10 tests, 390x631 touch and 1440x900): no two names within 3 px, none off the
 map, none under a painted control, at three seats and four zooms, with a floor on names written; each move's name beside its
@@ -17413,3 +17415,44 @@ was moved: a checkpoint at dev's level is the orchestrator's. First-hand raw 1,5
 the dots against names with known moves are the seal spec's (a guest survey has none); the position's own label never
 moves, so a toast or a pan can still put it under a control; the controls are derived from the wrap's, root's and
 reader's own children, so a control nested elsewhere is unseen (the spec's and the survey's painted-box check would see it).
+
+**R1, the independent read (twelve findings, the orchestrator's rulings; LABELS-R1).** What changed:
+- *The pictures and the spec photographed the wheel's own frame* (`advance` draws once per call; the first frame after a
+  wheel is a moving one). The shoot and the journey now draw the jump, then rest, then half a second; picture 06 at rest
+  writes 24 names where the jump frame wrote 7. All six reshot at rest, before and after as separate files.
+- *Names judged per camera state, per second* (findings 7, 9): moving = zoom faster than 0.12 a second or a pan faster
+  than 30 px a second, from the frame clock (30 Hz and 120 Hz agree). While moving a written name keeps its place or leaves;
+  a name that left comes back only at rest and no sooner than half a second; an orb sliding into view may be named (rule
+  (ii), chosen over "nothing until rest" on 12 recorded drags: the same 0 returns and 0 changes of side, and at 1440
+  dragging down 7.4 names a frame against 3.4, never under 3 against down to none). The live half-second waits are in the
+  plan's key. The frame publishes its call (`_camStill`).
+- *A node the player was pointed at is named* (finding 4, the owner's rule "a redesign keeps every capability"): `flare`
+  callers sorted; one node shown (a locate, the move just played and its outcome, a replay's outcome, the submission that
+  caught you, the opponent's move) is acted on, before the dealt moves, 24 places; a trail of many (the travel path, the
+  end-of-round cascade, a wide replay beat, the ripple to the dealt orbs: `flare(…, …, true)`) is best effort, last.
+- *A name only for an orb whose silhouette is on the canvas* (finding 5; dev's top cull had been widened to −20 px).
+- *An old leak closed* (finding 10): the lit trail skipped the dealt moves but not a face-down move's pair partner, which
+  carries the hidden move's name.
+- *The spec* audits the wheel's frame AND the frame at rest at every seat and zoom (overlap, edge, control, orb, off-canvas
+  orb, ink against the published box within half a pixel, every named orb clear of the other dealt orbs), asks the real
+  planner about every refused move once the half second has passed (none may have a free place), checks the fresh plan's
+  6 px rule, records the follow camera's ease at 120, 60 and 30 Hz steps and a 240-step mouse drag (no return before rest,
+  none within half a second, no change of side while moving, the frame's own call per second), names a located node beside
+  the dealt orbs, and never inks a face-down move's name through its lit partner. 27 mutant runs: all red at named
+  assertions but three named non-kills (the pointer's pair group alone dropped, by design; the 3 px stay margin; the rest
+  flag in the plan's key, equivalent under rule (ii)). The reader's three survivors (the room check removed for new names,
+  the ink moved, acted-on not first against the card) are each red.
+- *Two answers to one question*, said at the code (finding 11): hover asks the hit-test target, the names ask
+  `_nameBlocks`' boxes (they differ on pointer-events:none chrome and near-transparent controls); the pointer's label has
+  its own fit and keeps its usual place, under a control or trimmed, when neither side is clear.
+- *Public text* (finding 12): Neural.md, the PR body and this entry say what is true: the order of claim includes the move in
+  flight, what is acted on, the names kept and the trail; the pointer's label mirrors once and may be trimmed; the position's
+  label never moves; what is acted on may cross an orb.
+- *Numbers after R1* (the survey now settles as a player does: half a second at the usual zoom, the wheel, the counts half
+  a second after the camera rests): 0 overlapping pairs, 0 cut names, 0 names under a control in all 48 rows. Settled move
+  names, dev -> this: phone 186 / 247 / 272 / 305 -> 109 / 98 / 86 / 51 at x1 / x2 / x4 / x9, 1440 149 / 211 / 251 / 302 ->
+  118 / 166 / 187 / 145. Journeys under the lock: the 17 spec files that read map names, 226 passed, 1 skipped, 1 red, my
+  own regression (the first half-second wait held every name that left, so a pull flipping "Hide moves" twice within 50 ms
+  left the map unnamed: hidden-moves.spec.ts:601), fixed (only a name the LAYOUT refused waits) and green with map-names
+  (37 of 37). Bytes, my share alone against dev v1.273.1's checkpoints: neural.js +5,452 raw; eager gzip 359,571 (+2,390 on
+  357,181, cap 5,000); first-hand core 379,002 (+2,438 on 376,564, cap 6,000); 11 boot requests; first-hand raw 1,589,222.
