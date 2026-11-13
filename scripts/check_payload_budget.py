@@ -240,7 +240,9 @@ NEURAL_TARGET = {
     # Practice asks in, practice-queue.src.js, and the plan built from it; 9_716 -> 19_358 B); 30_089 B of 550_000 remain.
     # v1.274.0 STAGE3-R1 (the independent read's fixes): 520_149, +238 B more in gameplan.js (19_358 -> 19_596: the rows
     # "More new cards" adds named apart in the lines, no re-plan claim, the day's floor); 29_851 B of 550_000 remain.
-    "deferred_raw_bytes": 520_149,
+    # v1.274.0 STAGE3-R2 (the delta read's small items): 520_258, +109 B more in gameplan.js (19_596 -> 19_705: a Path lesson
+    # named "From the Path" and counted apart in the lines); 29_742 B of 550_000 remain.
+    "deferred_raw_bytes": 520_258,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
