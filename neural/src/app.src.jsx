@@ -2997,7 +2997,8 @@ class Component extends DCLogic {
   //     asked for. Cached on those three objects, the moves and knowledge revisions, `_stageVer`, the day, the game
   //     and the live check, so a grade, a pull, a new day or the check landing recomputes and a repaint does not.
   //   · THE LIVE CHECK (v1.273.0): a card row counts only while its deck still holds its question. `rating()` never
-  //     fetches; `ratingCheck()` does, once per deck manifest: both `flashcards/live-<i>.json` at once (the files say
+  //     fetches; `ratingCheck()` does, once per deck manifest and fingerprint: both `flashcards/live-<i>.json` at once,
+  //     asked for under the fingerprint curriculum.json carries (`ratingLive`; `_ratingStamp`) (the files say
   //     how many there are; more than two are fetched after), decoded by `ngRatingLiveDecode` into a derived set per
   //     deck kept in memory only (`_ratingLive`, ~20,000 small numbers; losing it loses nothing, the next check
   //     rebuilds it). Until it lands, or if it cannot (offline, a failed file, a file built for another deck list),
@@ -3022,31 +3023,42 @@ class Component extends DCLogic {
     const decks = this.flashcards && this.flashcards.decks;
     return decks ? Object.keys(decks).map((k) => [k, decks[k].n || 0]) : [];
   }
-  // what the live check knows now, for THIS manifest: its decoded result, {status: "checking"} while in flight, or
-  // undefined (never asked). A result for an older manifest is not used (the manifest object is part of the key).
-  _ratingLiveNow() {
-    const L = this._ratingLive, decks = this.flashcards && this.flashcards.decks;
-    if (this._ratingLiveP && this._ratingLiveP.manifest === decks) return NG_RATING_CHECKING;   // a retry in flight beats an old failure
-    return L && L.manifest === decks ? L.result : undefined;
+  // THE FINGERPRINT OF THE LIVE FILES this build emitted. It rides curriculum.json (`ratingLive`), never the deck
+  // manifest: the study bundles pin `flashcards/_index.json` byte for byte, and the fingerprint moves with every card
+  // rewording, so carried there every rewording deploy would cost a returning player their study plan (v1.273.0, LIVE3;
+  // the emitter's write_flashcards says it in full). null: no curriculum yet, or one from before the live files.
+  _ratingStamp() {
+    const c = this.curriculum, s = c && c.ratingLive;
+    return typeof s === "string" ? s : null;
   }
-  // decode files already in hand (the fetch below, or a unit's own read of the payload) and keep the result
-  _ratingLiveFrom(files) {
+  // what the live check knows now, for THIS manifest and THIS fingerprint: its decoded result, {status: "checking"} while
+  // in flight, or undefined (never asked). A result for another manifest or another fingerprint is not used (both are
+  // the key), so a check made before curriculum.json landed is never kept once it has.
+  _ratingLiveNow() {
+    const L = this._ratingLive, P = this._ratingLiveP, decks = this.flashcards && this.flashcards.decks, fp = this._ratingStamp();
+    if (P && P.manifest === decks && P.fp === fp) return NG_RATING_CHECKING;   // a retry in flight beats an old failure
+    return L && L.manifest === decks && L.fp === fp ? L.result : undefined;
+  }
+  // decode files already in hand (the fetch below, or a unit's own read of the payload) and keep the result, against
+  // the fingerprint they were asked for under
+  _ratingLiveFrom(files, fp = this._ratingStamp()) {
     const decks = this.flashcards && this.flashcards.decks;
-    const result = Object.freeze(ngRatingLiveDecode(files, this._ratingDeckList(), this.flashcards && this.flashcards.live));
-    this._ratingLive = { manifest: decks, result };
+    const result = Object.freeze(ngRatingLiveDecode(files, this._ratingDeckList(), fp));
+    this._ratingLive = { manifest: decks, fp, result };
     return result;
   }
   /** Start the live check (one fetch per manifest, coalesced) and resolve to `rating()` once it has landed or failed. */
   ratingCheck() {
     const decks = this.flashcards && this.flashcards.decks;
-    if (!decks) return Promise.resolve(this.rating());
-    const L = this._ratingLive;
-    if (L && L.manifest === decks && L.result.status === "ok") return Promise.resolve(this.rating());
-    if (this._ratingLiveP && this._ratingLiveP.manifest === decks) return this._ratingLiveP;
-    // no fingerprint in the manifest (one from before the live files): nothing can be checked, so nothing is fetched
-    const fp = this.flashcards.live;
-    if (!fp) { this._ratingLiveFrom(null); return Promise.resolve(this.rating()); }
-    // the files are asked for UNDER the manifest's fingerprint, so a browser cache can never hand back another build's
+    // before the manifest or curriculum.json is in there is nothing to check against (nor weights to price with): the
+    // reading says so itself, and nothing is fetched or kept
+    if (!decks || !this.curriculum) return Promise.resolve(this.rating());
+    const fp = this._ratingStamp(), L = this._ratingLive, P = this._ratingLiveP;
+    if (L && L.manifest === decks && L.fp === fp && L.result.status === "ok") return Promise.resolve(this.rating());
+    if (P && P.manifest === decks && P.fp === fp) return P;
+    // no fingerprint in curriculum.json (one from before the live files): nothing can be checked, so nothing is fetched
+    if (!fp) { this._ratingLiveFrom(null, null); return Promise.resolve(this.rating()); }
+    // the files are asked for UNDER the fingerprint, so a browser cache can never hand back another build's
     const get = (i) => fetch(this._dataBase() + "flashcards/live-" + i + ".json?live=" + encodeURIComponent(fp))
       .then((r) => (r.ok ? r.json() : null)).catch(() => null);
     const p = Promise.all([get(0), get(1)])
@@ -3058,10 +3070,10 @@ class Component extends DCLogic {
         for (let i = 2; i < n; i++) rest.push(get(i));
         return Promise.all(rest).then((more) => two.concat(more));
       })
-      .then((files) => { this._ratingLiveFrom(files); })
+      .then((files) => { this._ratingLiveFrom(files, fp); })
       .finally(() => { if (this._ratingLiveP === p) this._ratingLiveP = null; })
       .then(() => this.rating());
-    p.manifest = decks;
+    p.manifest = decks; p.fp = fp;
     this._ratingLiveP = p;
     return p;
   }
@@ -3802,11 +3814,7 @@ class Component extends DCLogic {
     // (`ngWireDeckIndex`), never of the raw file: the Gameplan study producer recomputes the same
     // value from verified bytes, and a raw fingerprint would change with the wire format alone.
     this._knowledgeContentRevision = ngKnowledgeFingerprint(ngWireDeckIndex(dec, j && j.shared));
-    // `_meta.live` (v1.273.0): the fingerprint of the rating's live-question files this manifest was emitted with;
-    // `ratingCheck()` asks for them under it and refuses any other build's (rating.src.js). Absent on an older manifest:
-    // "no-fingerprint". In `_meta`, never top-level: the study worker refuses an unknown top-level key (the emitter says why).
-    const lfp = j && j._meta && j._meta.live;
-    this.flashcards = { decks: decks, manifest: true, live: typeof lfp === "string" ? lfp : null };
+    this.flashcards = { decks: decks, manifest: true };
     this._deckWaits = {};
     this._qkDecks = null;
     // CROSS-DECK CREDIT, RESIDENCY-INDEPENDENT (v1.80.5). The blended hierarchy duplicates one

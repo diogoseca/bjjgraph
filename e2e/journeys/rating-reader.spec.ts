@@ -23,7 +23,7 @@ import { journey } from "../dsl"
  *
  * THE LIVE CHECK (v1.273.0). The seeded record holds retired rows (cards its deck no longer holds). A page that never
  * asks for the check fetches ZERO `flashcards/live-*.json` and its reading is not final (no number); asking
- * (`ratingCheck()`) fetches exactly TWO, under the manifest's fingerprint (`?live=`), and only then is the number final and
+ * (`ratingCheck()`) fetches exactly TWO, under the fingerprint curriculum.json carries (`?live=`), and only then is the number final and
  * equal to node's. Another build's file is never read: one built for another deck list, AND one with the same list and
  * counts but other questions (a reworded card): every row unchecked, named, no number (LIVE2 F1).
  *
@@ -103,8 +103,10 @@ test("the page's rating is the unit's number for the same record, once checked, 
   // asked: exactly the two files, then final and node's number
   await page.evaluate(() => (window as W).__neural.ratingCheck())
   expect(asked.map((u) => u.split("?")[0].split("/").pop()).sort(), "exactly two requests").toEqual(["live-0.json", "live-1.json"])
-  const fp = JSON.parse(readFileSync(resolve(SERVED, "flashcards/_index.json"), "utf8"))._meta.live
-  expect(asked.every((u) => new URL(u).searchParams.get("live") === fp), `asked under the manifest's fingerprint ${fp}`).toBe(true)
+  // the fingerprint rides curriculum.json (`ratingLive`), never the deck manifest the study bundles pin (LIVE3)
+  const fp = JSON.parse(readFileSync(resolve(SERVED, "curriculum.json"), "utf8")).ratingLive
+  expect(fp, "curriculum.json carries the live files' fingerprint").toMatch(/^[0-9a-f]{8}$/)
+  expect(asked.every((u) => new URL(u).searchParams.get("live") === fp), `asked under curriculum.json's fingerprint ${fp}`).toBe(true)
   const got = await read(page, fx.day)
   expect(got.frame, "the page boots in gi").toBe("gi")
   expect([got.status, got.final]).toEqual(["ok", true])

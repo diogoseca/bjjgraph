@@ -24,14 +24,15 @@ generated+committed static asset):
   - flashcards/<slug>.json : one file PER DECK ({cat,role,cards:[{q,a}]}) — the full
     calibrated decks from graph.json, chunked so the app fetches only the deck it opens
     (the monolith was 13.5 MB; each deck is a few KB).
-  - flashcards/_index.json : manifest format 4 {_meta:{format, live}, deckOrd:{o, n}, shared} — every
+  - flashcards/_index.json : manifest format 4 {_meta:{format}, deckOrd:{o, n}, shared} — every
     deck and its card count (the "what decks exist" list), keyed by its node's permanent share
     ORDINAL rather than spelled "<Name>|<Role>" (v1.204.3; see write_flashcards). The reader
     derives the key from the node the ordinal names, and the chunk address from the key.
     `shared` maps fnv1a32(question) -> the deck indexes (NAME order) carrying that question, for
     the questions the blended hierarchy duplicates across decks, so the app's cross-deck credit
     does not depend on which chunks have landed.
-  - curriculum.json : the Belt Path plus `scoreWeightsByOrd`, the belt-score table, keyed by
+  - curriculum.json : the Belt Path plus `scoreWeightsByOrd`, the belt-score table, and `ratingLive`
+    (the fingerprint of the rating's live-question files, v1.273.0; see build_curriculum), keyed by
     ordinal the same way (see _compact_score_weights).
   - concepts.json : the Principles + Learning libraries — the INDEX only ({_meta,
     concepts:[{id,key,name,cat,url,summary,meta,nodes,unresolved}]}), i.e. exactly what the list
@@ -1548,7 +1549,7 @@ def _encode_deck_manifest(decks: dict, nodes: list) -> dict:
     return {"o": deltas, "n": [x for o in ords for x in per_ord[o]]}
 
 
-def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int]:
+def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int, str]:
     """Write one chunk file per deck + a manifest. Returns (deck_count, card_count).
 
     THE MANIFEST IS KEYED BY SHARE ORDINAL (format 4, v1.204.3). It is the one deck file every
@@ -1565,12 +1566,17 @@ def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int]
     reproduce every deck's key, category, card count AND position in the name order `shared`
     indexes into — or nothing is written. The coverage line prints every run.
 
-    `_meta` is `{format, live}` and nothing else: its prose used to ride the boot path (486 B gzip) and
-    nothing ever read it. The documentation lives here, where it costs nothing. `live` sits IN `_meta`, never beside it:
-    the study worker (`neural/src/knowledge-scenario-manifest.src.js`, inside the game bundles) refuses any top-level key
-    it does not know, deliberately, and tolerates `_meta` extras (both pinned by tests/knowledge_scenario_manifest.test.mjs).
-    A top-level `live` made every player's study plan "unavailable" (`invalid-deck-index`), caught before any push by
-    tests/knowledge_scenario_manifest_corpus.test.mjs, which runs that worker on this very file."""
+    `_meta` is `{format}` and nothing else: its prose used to ride the boot path (486 B gzip) and
+    nothing ever read it. The documentation lives here, where it costs nothing.
+
+    THE LIVE FINGERPRINT IS NOT IN THIS FILE, and must never be (v1.273.0, LIVE3). The study bundles pin `_index.json`
+    byte for byte (neural/build/study-bundles.mjs embeds its sha256; knowledge-scenario-manifest.src.js refuses
+    `index-sha256-mismatch`), and the fingerprint moves whenever an unshared card is reworded: carried here, every
+    rewording deploy would cost a returning player whose browser still holds the older manifest their study plan. So a
+    rewording leaves this file byte-identical, and the fingerprint is RETURNED to the caller, which writes it into
+    curriculum.json (`ratingLive`), an eager file nothing hashes or pins. Pinned by tests/live_questions_test.py on a
+    synthetic pair of emits. (A first attempt put it at this file's top level, which the study worker refuses outright:
+    tests/knowledge_scenario_manifest_corpus.test.mjs caught it before any push.)"""
     fc_dir = out_dir / "flashcards"
     # clean stale chunks so removed decks don't linger
     if fc_dir.exists():
@@ -1617,14 +1623,15 @@ def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int]
     # a hash collision shares a file instead of losing a deck). `shared` is fnv1a32(question) ->
     # indexes into the decks in NAME order, for every question carried by 2+ decks — the blended
     # hierarchy's shared cards; it makes cross-deck credit residency-independent (noteCardDone).
-    # the live questions (below) are built first, because the manifest carries their fingerprint (`_meta.live`): the app refuses
-    # any live file whose own data does not hash to it, and asks for the files under it, so a browser holding this manifest
-    # can never be handed another build's copy (v1.273.0, LIVE2 F1). A question is left out of them only when it is shared
+    # the live questions (below): the app refuses any live file whose own data does not hash to their fingerprint, and
+    # asks for the files under it, so a browser can never be handed another build's copy (v1.273.0, LIVE2 F1). The
+    # fingerprint is returned and rides curriculum.json, NEVER this manifest (the docstring says why: LIVE3). A question
+    # is left out of them only when it is shared
     # the APP's way, by two or more DISTINCT decks (F2): one repeated inside one deck is listed in `shared` with that one
     # deck, which the app ignores, so it must stay in the live data or it would be in neither.
     live = _live_question_bodies(decks, _shared_the_apps_way(shared))
     out = {
-        "_meta": {"format": 4, "live": live["fp"]},
+        "_meta": {"format": 4},
         "deckOrd": _encode_deck_manifest(decks, nodes),
         "shared": {h: shared[h] for h in sorted(shared)},
     }
@@ -1649,8 +1656,8 @@ def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int]
     for i, body in enumerate(live["bodies"]):
         (fc_dir / f"live-{i}.json").write_text(body)
     print(f"  live questions: {live['total']} unshared cards of {len(decks)} decks in {len(live['bodies'])} files "
-          f"({', '.join(f'{len(b.encode()):,} B' for b in live['bodies'])}), rev {live['rev']}, fingerprint {live['fp']} in the manifest")
-    return len(decks), sum(len(d["cards"]) for d in decks.values())
+          f"({', '.join(f'{len(b.encode()):,} B' for b in live['bodies'])}), rev {live['rev']}, fingerprint {live['fp']} (for curriculum.json)")
+    return len(decks), sum(len(d["cards"]) for d in decks.values()), live["fp"]
 
 
 # THE LIVE QUESTIONS (v1.273.0): which questions each deck holds NOW, so the rating (neural/src/rating.src.js) can tell
@@ -2045,7 +2052,7 @@ def _compact_score_weights(tables: dict, nodes: list) -> dict:
           + ", ".join(f"{fr} {sum(1 for v in wire['t'][fr] if v)} tech" for fr in frames) + ")")
     return wire
 
-def build_curriculum(out_dir: Path, graph: dict, decks: dict, wire_nodes: list) -> int:
+def build_curriculum(out_dir: Path, graph: dict, decks: dict, wire_nodes: list, rating_live: str) -> int:
     """Validate then emit the Belt Path curriculum. Returns belt count (0 = no curriculum,
     which is legal — the app falls back to tree view).
 
@@ -2080,9 +2087,19 @@ def build_curriculum(out_dir: Path, graph: dict, decks: dict, wire_nodes: list) 
     # makes that fatal is `npm run validate:score-coverage -- --gate`, armed in ci-validate.yml.
     from validate_score_coverage import score_coverage
     score_coverage(decks, graph, tables)
-    (out_dir / "curriculum.json").write_text(
-        json.dumps(cur, ensure_ascii=False, separators=(",", ":")))
+    (out_dir / "curriculum.json").write_text(curriculum_json(cur, rating_live))
     return len(cur["belts"])
+
+
+def curriculum_json(cur: dict, rating_live: str) -> str:
+    """curriculum.json's bytes: the Belt Path and the score table, plus `ratingLive`, the fingerprint of the rating's
+    live-question files (write_flashcards returns it). It rides HERE because nothing pins this file: every reader takes
+    named keys (`belts`, `scoreWeightsByOrd`), no bundle embeds its hash, no gate compares it byte for byte (surveyed for
+    v1.273.0, LIVE3), while `flashcards/_index.json` is pinned by the study bundles. A rewording deploy therefore moves
+    these bytes by the stamp alone (pinned by tests/live_questions_test.py)."""
+    if not (isinstance(rating_live, str) and len(rating_live) == 8):
+        raise SystemExit(f"[neural] curriculum.json: no live-question fingerprint to carry ({rating_live!r})")
+    return json.dumps({**cur, "ratingLive": rating_live}, ensure_ascii=False, separators=(",", ":"))
 
 
 SUMMARY_CAP = 240  # contract: systems.json summary is at most 240 chars (card-sized)
@@ -3037,7 +3054,7 @@ def main() -> None:
             print(f"removed retired payload: {stale}")
 
     decks = build_flashcards(graph)
-    n_decks, n_cards = write_flashcards(decks, OUT_DIR, gd["nodes"])
+    n_decks, n_cards, rating_live = write_flashcards(decks, OUT_DIR, gd["nodes"])
     # The 16.4MB flashcards.json monolith is GONE (v1.80.4). It was the app's deck payload and it
     # shipped every card for all 2,924 decks before the visitor could make a move; the app now
     # boots from flashcards/_index.json and fetches chunks. Nothing reads a monolith any more —
@@ -3120,7 +3137,7 @@ def main() -> None:
     # curriculum.json — the Belt Path (belts -> units -> lessons -> checkpoint -> test).
     # Validated first (a bad curriculum must never be emitted), then enriched with resolved
     # per-lesson live frames + computed per-belt opponent pools (never authored).
-    n_belts = build_curriculum(OUT_DIR, graph, decks, gd["nodes"])
+    n_belts = build_curriculum(OUT_DIR, graph, decks, gd["nodes"], rating_live)
     if n_belts:
         print(f"curriculum.json: {n_belts} belts emitted")
 

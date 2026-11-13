@@ -59,11 +59,17 @@
 //   V10 a check's result used for a replaced manifest (F4)              → "the reader's live check: never at a plain read, …"
 //   V11 the reader follows any file count (F5)                          → "the reader's live check: never at a plain read, …"
 //   V12 the decoder's file cap removed (F5)                             → "the live files decode against the deck list they were built for"
-//   V13 the app reads the fingerprint from the manifest's top level      → "the reader's live check: never at a plain read, …"
-//   V14 the EMITTER writes it at the top level (re-emitted in place)     → "the emitter's live rules are the app's", and
-//       tests/knowledge_scenario_manifest_corpus.test.mjs (the study worker refuses an unknown top-level key: every study
-//       plan "unavailable"; caught by ci:validate before the push, v1.273.0)
-//   (the emitter's one-deck rule, F2, is tests/live_questions_test.py's, through tests/live_questions_py.test.mjs)
+//   V13, V14 (retired with the move, LIVE3): the app reading the stamp from the manifest's top level, and the emitter
+//       writing it there (killed at v1.273.0's previous head by the manifest pin below and by
+//       tests/knowledge_scenario_manifest_corpus.test.mjs: the study worker refuses an unknown top-level key, every study
+//       plan "unavailable"; caught by ci:validate before any push). The manifest now carries no stamp at all.
+// LIVE3 (the stamp leaves the deck manifest for curriculum.json, which nothing pins):
+//   V15 the app reads the stamp from the deck manifest                  → "the reader's live check: never at a plain read, …"
+//   V16 the EMITTER puts the stamp back into `_index.json`'s `_meta`     → tests/live_questions_test.py ("a rewording moves
+//       the live files and the stamp, never the manifest", a synthetic pair of emits)
+//   V17 the kept result keyed on the manifest only                      → "the live check is keyed on the fingerprint too: …"
+//   V18 an ok check reused under another stamp                          → "the live check is keyed on the fingerprint too: …"
+//   V19 a check before curriculum.json landed kept as no-fingerprint    → "the live check is keyed on the fingerprint too: …"
 // LIVE1 (the live check, v1.273.0):
 //   L1  a retired row counted (any row in a checked deck read as live)  → "a retired row is not priced, and is counted"
 //   L2  a live row dropped (every row in a checked deck read as retired) → "a retired row is not priced, and is counted"
@@ -390,7 +396,8 @@ const retiredFor = (dk, n) => {
   return out;
 };
 const LIVE = ratingLiveFiles(DIR);
-const MAN_FP = JSON.parse(readFileSync(resolve(DIR, "flashcards/_index.json"), "utf8"))._meta.live;
+// the fingerprint of this build's live files rides curriculum.json (`ratingLive`), never the deck manifest (LIVE3)
+const MAN_FP = CUR.ratingLive;
 const seeded = (frame) => { const a = ratingApp(DIR, frame); a.srs = FIX.blob.srs; a.stage = FIX.blob.stage; a.moves = FIX.blob.moves; return a; };
 // the ruleset's own hand table read straight off the RAW wire, keyed by node ID — never through `_ev`/`_evGi`'s indexes
 const rawHands = (frame) => {
@@ -607,7 +614,7 @@ test("the live files decode against the deck list they were built for", () => {
   const a = APP.gi, list = a._ratingDeckList();
   const ok = ngRatingLiveDecode(LIVE, list, MAN_FP);
   assert.equal(ok.status, "ok");
-  assert.equal(ngRatingLiveFp(LIVE), MAN_FP, "the manifest carries the live data's own fingerprint");
+  assert.equal(ngRatingLiveFp(LIVE), MAN_FP, "curriculum.json carries the live data's own fingerprint");
   assert.equal(ok.rev, ngRatingLiveRev(list), "built for this manifest's decks and counts");
   assert.equal(ok.counts.decks, list.length, "every deck, once");
   // the entries are exactly the unshared cards, counted from the chunks themselves
@@ -711,7 +718,7 @@ test("the reader's live check: never at a plain read, two requests once, a retry
     assert.equal(a.ratingCheck(), p, "coalesced");
     const r = await p;
     assert.deepEqual([r.status, r.final], ["ok", true]);
-    assert.deepEqual(asked.map((u) => u.split("/").pop()), ["live-0.json?live=" + MAN_FP, "live-1.json?live=" + MAN_FP], "exactly the two files, under the manifest's fingerprint");
+    assert.deepEqual(asked.map((u) => u.split("/").pop()), ["live-0.json?live=" + MAN_FP, "live-1.json?live=" + MAN_FP], "exactly the two files, under curriculum.json's fingerprint");
     const fixtureNumber = seeded("gi").rating().points;
     assert.equal(r.points, fixtureNumber, "the same number as the files read in hand");
     await a.ratingCheck(); a.rating();
@@ -730,9 +737,9 @@ test("the reader's live check: never at a plain read, two requests once, a retry
     const big = await c.ratingCheck();
     assert.deepEqual([big.status, big.reason, asked.length], ["unchecked", "bad-live", 2]);
     claim = 0;
-    // a manifest from before the live files: nothing fetched, named, no number (LIVE2 F1)
+    // a curriculum.json from before the live files (an old cached carrier): nothing fetched, named, no number (LIVE2 F1)
     const old = ratingApp(DIR, "gi", { live: false }); old.srs = FIX.blob.srs;
-    const m0 = JSON.parse(readFileSync(resolve(DIR, "flashcards/_index.json"), "utf8")); delete m0._meta.live; old._ingestDeckManifest(m0);
+    old.curriculum = { ...CUR }; delete old.curriculum.ratingLive;
     asked.length = 0;
     const none = await old.ratingCheck();
     assert.deepEqual([none.status, none.reason, none.points, asked.length], ["unchecked", "no-fingerprint", null, 0]);
@@ -748,9 +755,44 @@ test("the emitter's live rules are the app's", () => {
   const shared = JSON.parse(readFileSync(resolve(DIR, "flashcards/_index.json"), "utf8")).shared, entries = Object.values(shared);
   assert.ok(entries.length > 300, `looked at ${entries.length} shared entries`);
   assert.equal(entries.filter((v) => new Set(v).size < 2).length, 0, "none names fewer than two decks today");
-  // the fingerprint rides `_meta`, never the top level: the study worker inside the game bundles refuses any top-level key it
-  // does not know (knowledge-scenario-manifest.src.js), so a top-level `live` read every player's study plan "unavailable"
+  // the fingerprint is NOT in the deck manifest, top level or `_meta` (LIVE3): the study bundles pin `_index.json` byte for
+  // byte, and a top-level key is refused outright by the study worker (knowledge-scenario-manifest.src.js), which read every
+  // player's study plan "unavailable" the one time it was tried. The manifest is exactly the shape dev emits.
   const man = JSON.parse(readFileSync(resolve(DIR, "flashcards/_index.json"), "utf8"));
   assert.deepEqual(Object.keys(man).sort(), ["_meta", "deckOrd", "shared"], "the manifest's top level is the study worker's");
-  assert.match(man._meta.live, /^[0-9a-f]{8}$/, "and its _meta carries the live fingerprint");
+  assert.deepEqual(man._meta, { format: 4 }, "and its _meta carries no live fingerprint");
+  assert.match(CUR.ratingLive, /^[0-9a-f]{8}$/, "curriculum.json carries it");
+});
+
+test("the live check is keyed on the fingerprint too: a check before curriculum.json landed is never kept", async () => {
+  // the fingerprint arrives in its own boot file, so the check must not keep an answer it gave without it (LIVE3)
+  const realFetch = globalThis.fetch, asked = [];
+  globalThis.fetch = async (url) => {
+    asked.push(String(url));
+    const m = /flashcards\/(live-\d+)\.json\?live=([0-9a-f]{8})$/.exec(String(url));
+    if (!m) return { ok: false, status: 404, json: async () => null };
+    return { ok: true, status: 200, json: async () => JSON.parse(readFileSync(resolve(DIR, "flashcards", m[1] + ".json"), "utf8")) };
+  };
+  try {
+    const a = ratingApp(DIR, "gi", { live: false });
+    a.srs = FIX.blob.srs; a.stage = FIX.blob.stage; a.moves = FIX.blob.moves;
+    // no curriculum yet: nothing to check against, nothing fetched, nothing kept
+    a.curriculum = null;
+    await a.ratingCheck();
+    assert.deepEqual([asked.length, a._ratingLive], [0, undefined], "before curriculum.json: no request, nothing kept");
+    // a carrier without the stamp: "no-fingerprint", 0 requests
+    a.curriculum = { ...CUR }; delete a.curriculum.ratingLive;
+    const none = await a.ratingCheck();
+    assert.deepEqual([none.status, none.reason, asked.length], ["unchecked", "no-fingerprint", 0]);
+    // the stamp lands (a fresh curriculum.json): the old answer is not kept; the next ask fetches both files and is final
+    a.curriculum = CUR;
+    assert.deepEqual([a.rating().status, a.rating().reason], ["unchecked", "not-asked"], "the no-fingerprint answer was for no stamp");
+    const r = await a.ratingCheck();
+    assert.deepEqual([r.status, r.final, asked.length], ["ok", true, 2]);
+    // a carrier with ANOTHER stamp (another build's curriculum.json): the files are asked for again, under it, and refused
+    a.curriculum = { ...CUR, ratingLive: "00000000" };
+    const other = await a.ratingCheck();
+    assert.deepEqual([other.status, other.reason, other.points, asked.length], ["unchecked", "stale-live", null, 4]);
+    assert.ok(asked.slice(2).every((u) => u.endsWith("?live=00000000")), "under the carrier's own stamp");
+  } finally { globalThis.fetch = realFetch; }
 });
