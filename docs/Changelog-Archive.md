@@ -16713,6 +16713,93 @@ exactly that in its own commit, under U134 b's 512,000 B, 993 B left. `check_pay
 **Not covered.** A day that turns while the tab stays in front and nothing re-reads it (no clock under an open hand; the next
 deal, publish or return does); the PostHog `shown` property on `neural_move_picked` (no PR shard is keyed).
 
+## v1.266.1 — Supply chain and CI, second round: one Wrangler from a lockfile, the PR jobs installed like the deploys, the suites' server declares its imports, the model bots' tools narrowed to their jobs (SEC4, 2026-11-13)
+
+**The publishing tool comes from a lockfile.** `.github/tools/wrangler` holds Wrangler 4.159.0 and its tree, resolved
+with nothing published after 2026-11-09 23:18 UTC: 0 advisories, 39 registry signatures verified, every entry from
+registry.npmjs.org by its sha512. Both deploys install it before the build with `npm ci --ignore-scripts`. The Pages
+action probes `npx --no-install wrangler --version` in the repository root and installs `wrangler@<wranglerVersion>`
+only when that finds no copy of exactly that version; the step before it links the installed copy into the root's
+`node_modules/.bin` and runs the same probe, and `wranglerVersion: "4.159.0"` names the lockfile's version, so the
+action installs nothing. In production the digest Worker step calls the binary by its path (`$WRANGLER`), so it has
+the tool under `if: always()` whatever failed after the install, and is skipped when the install itself did not
+succeed (`steps.wrangler.outcome`), so a refusal before it deploys no Worker; INSTALLS pins that condition. Nothing in the tree needs its install script:
+esbuild and workerd ship their binaries as platform packages, and their scripts only check them.
+`scripts/check_build_chains.py` pins both new programs by hash (`tests/build_chains.test.mjs`, four cases; four
+mutants killed), and INSTALLS counts three trees. How to move the pin is written at the install step.
+Proof, with no deploy and no secret: a clean `npm ci --ignore-scripts` of the tool, then `wrangler --version`
+(4.159.0); `wrangler pages functions build functions` from the root, the compile `pages deploy` runs ("Compiled Worker
+successfully", 66,088 B); `wrangler deploy --dry-run --outdir …` in `workers/digest` ("Total Upload: 27.59 KiB / gzip:
+9.44 KiB"); each of the three `secret put` and three `pages secret put --project-name=bjjgraph` lines of the digest
+step, run as written by the binary's path, reaches the credentials check, while a misspelt flag fails before it. The
+pinned action's own bundle, run against a copy of the tree after the two step bodies: "Using Wrangler 4.159.0" and no
+install group, and the root's package.json and lockfile untouched; with the link removed, or another version named,
+it goes to `npm i wrangler@…` (run offline with an empty cache, so it fetched nothing). The preview deploy proves the
+install, the link and the action's probe; the digest step runs only in production, where its log will show it.
+
+**The PR jobs install like the deploys.** `e2e-full.yml` (build job and shards), `e2e-gen.yml` and `ci-validate.yml`
+install each tree once with exactly `npm ci --ignore-scripts`. The flag also skips the root's own `postinstall`, so
+the jobs that build install `source/` themselves, before the build; a contributor's `npm install` still runs that
+`postinstall`. Chromium has its own install step in every job that runs a browser. `tests/deploy_gate.test.mjs`
+(CI INSTALLS) reads every workflow: no `npm install` in any form, `--ignore-scripts` on every `npm ci` and nowhere
+else (run lines, step, job and workflow env), each tree at most once per job, `source/` before `npm run build` or
+`regenerate:neural`, the root and Chromium before a Playwright run. Nine mutants killed, control green; the PR's own
+run is the proof that the suites pass this way.
+
+**The suites' server declares its imports.** `compression` is a root devDependency. `serve`, whose CLI no script,
+workflow or doc runs, left with its `overrides` entry and 63 lock entries; no other entry moved. 0 advisories, 26
+signatures verified. `scripts/e2e-serve.mjs` on the v1.265.1 modules and on these, side by side on one built tree:
+24 of 24 requests identical in status, every header but Date, and raw body bytes (plain, gzip, brotli, deflate, HEAD,
+the flat-first rewrite, the folder copy, the `.html` 301, two ranges, two conditional 304s, a 404, a traversal 400,
+the `%` page, a query string), and both still serving after 50 premature closes each. A control (the new copy with
+`etag` off) differs in 21 of 24, so the comparison can see a difference. `tests/server_imports.test.mjs`: both suite
+servers import only Node builtins and direct root dependencies, read through static and dynamic imports, `export … from`,
+`require` and `createRequire`, and an import it cannot read fails; nine mutants killed. The probe that told a reader to
+run `npx serve` runs the suites' own server.
+
+**No npm package outside a lockfile, no unreviewed or unpinned action.** `tests/bot_workflows_test.py`
+(`test_no_npm_package_outside_a_lockfile_and_no_unpinned_action`, which replaces the narrower
+`test_no_npx_yes_or_mcp_server`) reads every run block (`$(…)`, backticks, `<(…)`, `bash -c` and `eval` strings, the
+body of a heredoc a shell reads, and the npm scripts a step runs, with their hooks, all read as commands), every
+`uses:` step and every job. `npx`/`npm exec` resolves only a bin a
+lockfile installed earlier in the same job provides to that directory, never in a step that runs after a failure;
+`npm install` in any form, pnpm, yarn, bun, deno, pipx, uv, gem, cargo, go, brew, corepack, docker, podman and wget
+fail; a download goes to stdout or /dev/null, never into a file (`-o`, `--output=`, `>`, `tee`) and never into an
+interpreter; a program named by a path into `node_modules`, or by a variable whose value is one, must sit in a tree
+installed earlier in the job; every action is pinned to a 40-hex commit and is a reviewed row, and a local `./` action
+or a job-level reusable workflow fails; the Pages action names the lockfile's version and follows the link; no MCP
+server anywhere. It counts what it read (246 steps, 64 of them `uses:`, 828 commands, 14 `npx` resolved, 11
+`node_modules` paths, 60 npm scripts) and fails under its floors. Mutants killed, one per form: 30 shell forms and 15
+action and deploy shapes, with a resolvable `npx` and a heredoc no shell reads as the controls.
+
+**The model bots hold only their jobs' tools.** The analytics and content agents edit existing files under `content/`
+(the content bot also its one suggestions file) and have no Write, since a path-scoped `Edit(…)` rule lets Write create
+files under it. The SEO agent writes one file, its report. Each reads outside the tree only the folder its prefetch
+writes, none has Bash (the date comes in the prompt; validation runs in the steps after the model), and `.git` is
+denied to all three. The six jobs whose later step sets the remote it pushes with check out with
+`persist-credentials: false`. `test_model_bots_hold_only_their_jobs_tools` holds every Claude action step to a reviewed
+row and checks the editing rows' shape; 22 mutants killed (18 on a workflow alone, 4 on the workflow and its row
+together). The narrowed grants, run headless with the CLI build the action installs, in a throwaway
+repository: content edits and the prefetch file pass; an edit of a repo script, a new file, a read or search under
+`.git`, a read outside the tree and every shell command are refused; the report path is the one file the SEO grant
+writes. A real run of these jobs is what will show the agents finishing their work with these tools. Validation runs in
+the step after the analytics agent, and a file that fails it is put back before the PR step stages `content/`, so
+that prompt's "left out of the PR" is true; `test_analytics_puts_back_a_file_that_fails_validation` runs the real step
+in a throwaway repository (names with spaces included).
+
+**Small ones.** `supabase-keepalive.yml` passes its two values through `env:`, and
+`test_secrets_reach_shells_only_through_env` holds every run block to that (182 read). The selector case the reader
+asked for: one row at `/Transitions/100-percent-Sweep` selects `content/Transitions/100% Sweep.json`, and a selector
+keyed by the raw stem picks another file. The settings test's header names the mutant that kills its tracked case.
+`ci-validate.yml`'s PR filter lists what its steps read, derived and not guessed: the job replayed under
+`strace -f -e trace=openat` opened 7,386 tracked files, 418 of them outside the filter (the e2e specs, fixtures
+and configs the unit suites scan, the Forward catalog, the digest Worker, calibration anchors, baselines under
+`tests/artifacts`, the root lockfile, `source/`'s top-level config and root files); eleven lines take them in, and
+the recipe to recompute is at the filter.
+
+**Local gates.** actionlint 1.7.7 after every workflow edit, 0 findings on all 16; `npm run ci:validate`; every touched
+unit suite. The full suites run on this PR.
+
 ## v1.267.0 — The rating, Stage 1: what you can recall right now, computed and tested, shown nowhere (ELO2, ELOPAY1, 2026-11-13)
 
 **The owner's answers (13 Nov, 04:50).** The number comes from "a, What you can recall right now" (method C of the ELO1

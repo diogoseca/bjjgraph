@@ -87,7 +87,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
-import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, rmSync, existsSync } from "node:fs";
+import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, rmSync, existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
 import {
@@ -525,6 +525,7 @@ test("COUNT cannot be switched off unseen: no tracked .npmrc sets ignore-scripts
 // source/ once before Build Quartz and the root once after it, both as exactly `npm ci --ignore-scripts`. The flag lives on
 // those two command lines and nowhere else: in a run line or an env value it would reach `npm run` too, and npm skips
 // `posttest:curated` (the gate's count) under it. Every run line is read, shell comments aside; zero installs found is red.
+// v1.266.1: a third tree, the publishing tool (.github/tools/wrangler), installed the same way before the build, first.
 test("INSTALLS: both deploys install with `npm ci --ignore-scripts` on the command line, and only there", () => {
   for (const name of ["deploy-dev.yaml", "deploy.yaml"]) {
     const wf = workflow(name);
@@ -561,13 +562,93 @@ test("INSTALLS: both deploys install with `npm ci --ignore-scripts` on the comma
       assert.doesNotMatch(`${k}=${v}`, /ignore[-_]scripts/i, `${name} ${where} env ${k}: ignore-scripts in an environment reaches npm run and skips posttest:curated`);
     }
     assert.ok(lines > 20, `${name}: positive coverage, ${lines} run lines read`);
-    assert.deepEqual(installs.map((x) => x.cwd), ["source", "."], `${name}: exactly two installs, source/ then the root`);
-    const [src, rootInstall] = installs;
+    assert.deepEqual(installs.map((x) => x.cwd), [".github/tools/wrangler", "source", "."], `${name}: exactly three installs, the publishing tool, source/, then the root`);
+    const [tool, src, rootInstall] = installs;
     const at = (n) => src.steps.findIndex((s) => s.name === n);
+    assert.ok(tool.at < src.at, `${name}: the publishing tool is installed first, before the build`);
+    // v1.266.1: the steps that run the tool after a failure run only when its install succeeded, so a refusal before
+    // the install (promotion rule, validation, chain contract) skips them instead of running them with no tool.
+    const toolStep = tool.steps[tool.at];
+    assert.ok(toolStep.id, `${name}: the tool's install step has an id`);
+    const users = tool.steps.filter((s) => typeof s.run === "string" && /\.github\/tools\/wrangler\/node_modules|"\$WRANGLER"/.test(s.run + JSON.stringify(s.env || {})) && s !== toolStep);
+    for (const s of users.filter((u) => /always\(\)|failure\(\)|cancelled\(\)/.test(String(u.if || "")))) {
+      assert.equal(s.if, `always() && steps.${toolStep.id}.outcome == 'success'`, `${name} › ${s.name}: runs after a failure only when the tool's install succeeded`);
+    }
+    if (name === "deploy.yaml") assert.ok(users.some((u) => u.name === "Deploy digest Worker + sync secrets"), "the digest step is read");
     assert.ok(src.at < at("Build Quartz"), `${name}: source/ is installed before Build Quartz`);
     assert.ok(rootInstall.at > at("Build Quartz") && rootInstall.at < at(budget.step), `${name}: the root is installed after the build and before the curated gate`);
-    console.log(`# ${name}: ${lines} run lines read; installs: source/ at step ${src.at}, root at step ${rootInstall.at}`);
+    console.log(`# ${name}: ${lines} run lines read; installs: the publishing tool at step ${tool.at}, source/ at step ${src.at}, root at step ${rootInstall.at}`);
   }
+});
+
+// CI INSTALLS (v1.266.1). The jobs that build and test a PR install the way the deploys do: each tree once per job, as
+// exactly `npm ci --ignore-scripts`, so a PR's build runs no package's install script, as the shipped one does. The
+// root's `postinstall` (`cd source && npm install`) is skipped by the flag, so a job that builds installs source/ itself,
+// before the build; a job that runs Playwright installs Chromium by its own step first. Across EVERY workflow: no
+// `npm install|i|add|update`, every `npm ci` carries the flag on its own command line, and the flag appears nowhere else
+// (a run line or an env value would reach `npm run` and skip its post hooks). Zero installs read is red.
+const CI_WORKFLOWS = { "e2e-full.yml": 5, "e2e-gen.yml": 2, "ci-validate.yml": 1 }; // the npm ci lines each holds: build 2, shards 2, gen 1
+const PLAYWRIGHT_RUNS = /^npm (test|run (e2e:gen|test:curated|e2e))\b/;
+const BUILDS = /^npm run (build|regenerate:neural)\b/;
+function shellParts(run) {
+  // [line, part] for every simple command of a run block, shell comments aside; `cd X` carries to the end of its line
+  const out = [];
+  for (const raw of run.split("\n")) {
+    const line = raw.trim();
+    if (!line || line.startsWith("#")) continue;
+    out.push({ line });
+    for (const part of line.split(/&&|\|\||;|\||\(|\)/).map((p) => p.trim()).filter(Boolean)) out.push({ line, part });
+  }
+  return out;
+}
+test("CI INSTALLS: the PR jobs install each tree once with `npm ci --ignore-scripts`, source/ before a build, Chromium before a browser", () => {
+  const names = readdirSync(join(ROOT, ".github/workflows")).filter((n) => /\.ya?ml$/.test(n));
+  assert.ok(names.length >= 16, `positive coverage: ${names.length} workflows`);
+  let jobs = 0, total = 0;
+  for (const name of names) {
+    const wf = workflow(name);
+    let installs = 0;
+    for (const [k, v] of Object.entries(wf.env || {})) assert.doesNotMatch(`${k}=${v}`, /ignore[-_]scripts/i, `${name} env ${k}`);
+    for (const [jid, job] of Object.entries(wf.jobs)) {
+      jobs++;
+      for (const [k, v] of Object.entries(job.env || {})) assert.doesNotMatch(`${k}=${v}`, /ignore[-_]scripts/i, `${name} job ${jid} env ${k}`);
+      const trees = [];
+      let browser = false;
+      for (const [i, s] of (job.steps || []).entries()) {
+        const where = `${name} › ${s.name || `${jid} step ${i}`}`;
+        for (const [k, v] of Object.entries(s.env || {})) assert.doesNotMatch(`${k}=${v}`, /ignore[-_]scripts/i, `${where} env ${k}`);
+        if (typeof s.run !== "string") continue;
+        // the browser itself; `install-deps` (the cache-hit twin) brings only its OS packages
+        if (s.run.trim() === "npx playwright install --with-deps chromium") browser = true;
+        let cwd = s["working-directory"] || job.defaults?.run?.["working-directory"] || ".";
+        let lineCwd = cwd, lastLine = null;
+        for (const { line, part } of shellParts(s.run)) {
+          if (part === undefined) { lineCwd = cwd; lastLine = line; continue; }
+          if (/^cd\s+\S+$/.test(part)) { lineCwd = part.split(/\s+/)[1]; continue; }
+          assert.doesNotMatch(part, /^(npm|pnpm|yarn)\s+(install|i|add|update|up|upgrade)\b/, `${where}: \`${part}\` re-resolves the lockfile`);
+          if (/^npm\s+ci\b/.test(part)) {
+            installs++; total++;
+            assert.match(part, /(^|\s)--ignore-scripts(\s|$)/, `${where}: \`${part}\`: every install carries --ignore-scripts on its command line`);
+            if (name in CI_WORKFLOWS) assert.equal(part, "npm ci --ignore-scripts", `${where}: a PR job installs exactly \`npm ci --ignore-scripts\``);
+            const prefix = part.match(/--prefix\s+(\S+)/);
+            const tree = (prefix ? prefix[1] : lineCwd).replace(/^\.\//, "").replace(/\/$/, "") || ".";
+            assert.ok(!trees.includes(tree), `${where}: ${tree} installed twice in job ${jid}: each tree once`);
+            trees.push(tree);
+            continue;
+          }
+          assert.doesNotMatch(part, /ignore[-_]scripts/i, `${where}: \`${part}\`: ignore-scripts belongs on the install's command line only`);
+          if (BUILDS.test(part)) assert.ok(trees.includes("source"), `${where}: \`${part}\` needs source/ installed first in job ${jid} (the root's postinstall no longer does it)`);
+          if (PLAYWRIGHT_RUNS.test(part)) {
+            assert.ok(trees.includes("."), `${where}: \`${part}\` needs the root installed first`);
+            assert.ok(browser, `${where}: \`${part}\` needs Chromium installed by its own step first`);
+          }
+        }
+      }
+    }
+    if (name in CI_WORKFLOWS) assert.equal(installs, CI_WORKFLOWS[name], `${name}: ${installs} npm ci lines read`);
+  }
+  assert.ok(total >= 13, `positive coverage: ${total} installs read in ${jobs} jobs`);
+  console.log(`# CI INSTALLS: ${names.length} workflows, ${jobs} jobs, ${total} npm ci lines, each with --ignore-scripts`);
 });
 
 test("TRIPWIRE end to end: tripwire() fetches the jobs, retries a failed answer, and RETURNS red without the count (v1.264.5)", async () => {

@@ -57,8 +57,11 @@ jobs:
       - name: Install Python gate dependency
         run: python3 -m pip install PyYAML
 
+      # The deploys' rule, as in e2e-full.yml's build job (its INSTALLS note): each tree once, `npm ci --ignore-scripts`.
       - name: Install dependencies
-        run: npm ci
+        run: |
+          (cd source && npm ci --ignore-scripts)
+          npm ci --ignore-scripts
 
       # The same two steps e2e-full.yml's build job runs: regenerate:neural emits the payload AND
       # copies the bundle into source/quartz/static/neural/app, so the site build carries both.
