@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test"
-import { readFileSync } from "node:fs"
+import { readFileSync, readdirSync } from "node:fs"
 import { resolve } from "node:path"
 import { journey } from "../dsl"
 
@@ -163,6 +163,53 @@ async function dip(page: Page, touch: boolean) {
   expect(await page.evaluate(() => (window as W).__neural.belts.lvl), "a dip lowers nothing").toEqual({ n: 7, t: 1 })
 }
 
+// R1 (the independent read, finding 1): a gi/no-gi flip in Settings, a modal over the open drawer, never leaves the other
+// ruleset's number on the row: the row reads again, or wears the belt and waits; it never paints the old number
+async function flip(page: Page, touch: boolean) {
+  const { ratingFixture, ratingApp } = await import("../../tests/_rating_fixture.mjs")
+  const { ngKnowledgeQuestionHash } = await import("../../neural/src/knowledge-profile.src.js")
+  const fx = ratingFixture(SERVED)
+  const num = (frame: string, srs: Record<string, unknown>) => {
+    const a = ratingApp(SERVED, frame)
+    a.srs = srs; a.stage = fx.blob.stage; a.moves = fx.blob.moves; a._epochDay = () => fx.day
+    const r = a.rating()
+    return r.status === "ok" && r.final ? String(Math.floor(r.points)) : ""
+  }
+  // the fixture reads alike in both rulesets once rounded down, so the record also answers decks only gi weighs, added deck by
+  // deck (heaviest first) until the two numbers differ: then a number left over from gi is visible after the flip
+  const wg = ratingApp(SERVED, "gi").scoreWeights("gi"), wn = ratingApp(SERVED, "nogi").scoreWeights("nogi")
+  const decks: Record<string, { cards: { q: string }[] }> = {}
+  for (const f of readdirSync(resolve(SERVED, "flashcards"))) if (f !== "_index.json" && !f.startsWith("live-")) Object.assign(decks, JSON.parse(readFileSync(resolve(SERVED, "flashcards", f), "utf8")))
+  const srs: Record<string, Record<string, number[]>> = JSON.parse(JSON.stringify(fx.blob.srs))
+  for (const k of Object.keys(decks).filter((k) => wg[k] > 0 && !(k in wn)).sort((a, b) => wg[b] - wg[a] || (a < b ? -1 : 1))) {
+    if (num("gi", srs) !== num("nogi", srs)) break
+    srs[k] = Object.fromEntries(decks[k].cards.map((c) => [ngKnowledgeQuestionHash(c.q), [fx.day + 30, 30, fx.day - 1]]))
+  }
+  const gi = num("gi", srs), nogi = num("nogi", srs)
+  expect(gi, "non-trivial: the record has a number in gi").not.toBe("")
+  expect(nogi, "non-trivial: and another in no-gi").not.toBe(gi)
+  await bootSeeded(page, { day: fx.day, blob: { ...fx.blob, srs } })
+  expect(await page.evaluate(() => (window as W).__neural._giMode), "the page boots in gi").toBe("gi")
+  await press(page, ".ng-logo", "the drawer icon", touch)
+  await expect(page.locator("[data-belt-row]")).toHaveAttribute("data-belt-state", "ok", { timeout: 30_000 })
+  expect((await rowState(page))!.number, "gi: the unit's gi number").toBe(gi)
+  // Settings over the open drawer: the badge, Settings, Rolling, No-gi, each pressed as a player does
+  await press(page, ".ngAcctChip", "the badge", touch)
+  await expect(page.locator("[data-menu-settings]")).toBeVisible()
+  await press(page, "[data-menu-settings]", "Settings, from the badge", touch)
+  await expect(page.locator('[data-settings-tab="rolling"]'), "the lazy Settings UI has loaded").toBeVisible()
+  await press(page, '[data-settings-tab="rolling"]', "the Rolling tab", touch)
+  await expect(page.locator("[data-settings-gi]")).toBeVisible()
+  await page.evaluate(() => [...document.querySelectorAll("[data-settings-gi] button")].find((b) => (b.textContent || "").trim() === "No-gi")!.setAttribute("data-pw-nogi", "1"))
+  // at 390x631 the control sits below the sheet's fold: scrolled to, as a player scrolls the sheet, then pressed where it is
+  await page.evaluate(() => document.querySelector("[data-pw-nogi]")!.scrollIntoView({ block: "center" }))
+  await press(page, "[data-pw-nogi]", "No-gi", touch)
+  expect(await page.evaluate(() => (window as W).__neural._giMode), "the flip landed").toBe("nogi")
+  const after = (await rowState(page))!
+  expect(after.number, "never the gi number after the flip").not.toBe(gi)
+  expect(after.number, "the no-gi number, read at the flip (the live check landed: nothing fetched)").toBe(nogi)
+}
+
 test("the belt row at 1440 by mouse: the belt held, then the number once checked; nothing jumps; only the level is written; the tap opens today's session", async ({ page }) => {
   await story(page, false)
 })
@@ -179,6 +226,10 @@ test("a brand-new visitor at 1440: white, no number, one quiet line", async ({ p
   expect([r.belt, r.stripes, r.number, r.lines]).toEqual(["white", "0", "", ["Answer a few cards to get your number"]])
 })
 
+test("a gi/no-gi flip in Settings at 1440, the drawer open: the no-gi number, never the gi one", async ({ page }) => {
+  await flip(page, false)
+})
+
 test.describe("phone 390x631, by touch", () => {
   test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true })
   test("the belt row at 390 by touch: the belt held, then the number once checked; nothing jumps; only the level is written; the tap opens today's session", async ({ page }) => {
@@ -186,5 +237,8 @@ test.describe("phone 390x631, by touch", () => {
   })
   test("the dip at 390: the stripes stay and the second line fits", async ({ page }) => {
     await dip(page, true)
+  })
+  test("a gi/no-gi flip in Settings at 390 by touch, the drawer open: the no-gi number, never the gi one", async ({ page }) => {
+    await flip(page, true)
   })
 })

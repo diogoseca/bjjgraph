@@ -64,7 +64,10 @@ async function prove(page: Page, belts: string[], opts: { frame?: string; checkp
   }, { belts, frame: opts.frame, checkpoints: opts.checkpoints })
 }
 
-test("a finished player wears black with four stripes — never the corridor's white", async ({ page }) => {
+// v1.276.0 R1 (finding 3, ruled): named "a finished player wears black with four stripes — never the corridor's white" until
+// the drawer's belt moved to the Master the game row, which draws black with its red bar and no stripes; the Path's own
+// rule still gives four (asserted through `wornBelt()` below). The name says what the body pins.
+test("a finished player wears black, never the corridor's white: drawn with no stripes, the Path's rule keeps four", async ({ page }) => {
   const j = journey(page)
   await j.boot("/", { initialState: multiBeltEndgame() })
   await migrated(page)

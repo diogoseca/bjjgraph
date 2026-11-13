@@ -176,7 +176,10 @@ test("promotion needs every unit proven — lessons alone never move the belt", 
   assert.deepEqual([tab(a).belt, tab(a).stripes], ["blue", "0"]);
 });
 
-test("a finished player wears black with four stripes — on the tab, not white", () => {
+// v1.276.0 R1 (finding 3, ruled): this test was named "a finished player wears black with four stripes — on the tab, not
+// white". The drawer now draws black with its red bar and no stripes (table a has no levels above black, and no degrees on
+// black); the Path's own rule still gives four, asserted first below. The name says what the body pins.
+test("a finished player wears black, never white: the Path's rule gives four stripes, the drawer draws black with no stripes", () => {
   const a = boot();
   for (const id of NG_BELT_IDS) evidence(a, id);
   a._publishKnowledge("grade:test");
