@@ -52,11 +52,20 @@ import { journey } from "../dsl"
  *   M6 the seal over the title, at 320 wide only (a media rule) red 1, the 320 test alone, at "off the title band"
  *   M7 the card asked by touch wears no outline (as on dev)    red 1, the 390 test alone, at "the card asked by touch
  *                                                              wears the strong outline"
- *   dev's own bundle (every file)                              red 4 of 4 at "known: data-seal ..."
+ *   THE MAP (its own commit; the two "the map" tests below, 1440 and 390):
+ *   M8 the map's gold outline back (dev's stroke, beside the dot)  red 2 at "no gold outline left: every pixel the known
+ *                                                              set changes lies inside a published dot" (524 / 334 px)
+ *   M9 a dot on every dealt move's orb, known or not           red 2 at "no dot on any node the moves record does not know"
+ *   M10 the dot at the node's stored y (n.y), not LY           red 2 at "dot 946 sits on a shoulder of its orb, where the
+ *                                                              frame drew the orb (LY)" (25.7 / 15.4 px off)
+ *   dev's own bundle (every file)                              red 6 of 6 (the card's four at "known: data-seal ...", the
+ *                                                              map's two at "a dot on every known move's orb in view")
  * NOT COVERED here: the hover words' TOOLTIP itself (a browser tooltip cannot be read; its `title` is asserted, and the
  * pointer meets the seal); the light/dark poster frames (the pictures, tests/artifacts/_seal_shoot.mjs; the spec checks
  * the seal is lit or dark INSIDE, whatever the poster); a known escape's or threat's seal (the units: escape; the same
- * `_sealCard` paints every dealt card).
+ * `_sealCard` paints every dealt card). The map: the pair label, hover label and lit labels are drawn AFTER the dots
+ * (over them), and only the option names steer a dot (`_lastOptBoxes`); a dot whose four shoulders are all covered by
+ * names stays up-right. The map's dot under mastery gold, and on the focus mark, are in the pictures, not asserted.
  */
 
 type W = any
