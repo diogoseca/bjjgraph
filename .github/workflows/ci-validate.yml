@@ -98,6 +98,24 @@ on:
       - ".github/tools/**"
       - "source/package.json"
       - "**/*.py"
+      # THE REST OF WHAT THIS JOB READS (v1.265.3), derived, not guessed: the job replayed (`npm run ci:validate`) under
+      # `strace -f -z -y -e trace=openat`, and every TRACKED file its steps opened matched against this list. 7,386
+      # tracked files were opened; these lines take in the 418 that the lines above did not: the e2e specs, fixtures and
+      # configs the unit suites scan, the Forward catalog, the digest Worker, calibration anchors, baselines under
+      # tests/artifacts, the root lockfile (the workflow test reads every lockfile's bins), source/'s top-level config,
+      # and the root files the reference and discovery gates read. Recompute the same way after a gate starts reading
+      # something new; a file it reads outside this list is a PR that never runs it.
+      - "package-lock.json"
+      - "models.env"
+      - ".gitignore"
+      - "*.md"
+      - "e2e/**"
+      - "forward/**"
+      - "workers/**"
+      - "calibration/**"
+      - "neural/**"
+      - "source/*"
+      - "tests/artifacts/**"
   push:
     branches: [dev]
   workflow_dispatch:
