@@ -217,6 +217,11 @@ export async function installReader(app) {
     // Moves' band (card-close-gap.spec.ts's 1440 control, on a landing the hold had pinned). Measured: dev's run was simply unpinned.
     if (result && name === "card" && on === false) this._readerPin = null;
     if (result && src === "x" && on === false) reader.notice(name === "film" ? "videos" : name);
+    // WIDTH5 (13 Nov 2026): a part shown again ends the press window (`shield`). The window keeps a press aimed at a message that has just
+    // gone from landing on what moved into its place; a part brought back by Settings or Undo is the player's own act, not something that
+    // moved, and it comes back where its message stood: under p5's wider message, Moves' close (362-386 at 390) is inside that place, so
+    // a tap on it within the window was swallowed (hidden-sections.spec.ts, "several closed in a row"). WAS: the window ran its 400ms out.
+    else if (result && on !== false) reader.shields = [];
     return result;
   };
   // HIDESEC2 with free roam (#370, v1.256.5): `_putReaderAway` hides the reader by visibility alone, so a message standing in it kept its

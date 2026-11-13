@@ -535,6 +535,8 @@ const mutants = [
   ['width4-grid-phone-gutter-lost', 'card-section.spec.ts', 'at its edges \\(390x844', s => replace(s, 'free.width - (flush ? 64 : 24)', 'free.width - 64')],
   ['width4-phone-lanes-back', 'card-section.spec.ts', 'at its edges \\(390x631', s => replace(s, '(column || flush && free.width - grid < 88)', '(column || !flush || free.width - grid < 88)')],
   ['width4-film-phone-lost', 'card-section.spec.ts', 'at its edges \\(360x740', s => replace(s, '      if (!flush) mediaWidth = grid;\n', '')],
+  // Item 3: a part shown again ends the press window, so Moves' close, back inside the place its wider message stood, takes a tap at once.
+  ['width5-shield-outlives-show', hidesec, 'several closed in a row', s => replace(s, '    else if (result && on !== false) reader.shields = [];\n', '')],
   // WIDTH2 (U152 b): outside where both margins hold a target, from 600px free up to the columns; each switch pinned from both sides.
   // (cardwidth-tablet-lanes-lost RETIRED with its subject: at 768 the lanes are gone by design now.)
   ['cardwidth-b-lost', 'card-section.spec.ts', 'outside the face \\(768x1024', s => replace(s, 'const arrowLanes = arrows && (column || flush && free.width - grid < 88) ? 64 : 0;', 'const arrowLanes = arrows ? 64 : 0;')],

@@ -242,18 +242,20 @@ test("several closed in a row: one message per part, in place, and none moves wh
   expect(await setting(page, "landHand"), "and both parts stay hidden").toBe(false)
   await expect(page.locator("[data-game-open]:visible"), "with no label left in either place").toHaveCount(0)
   expect(await setting(page, "landCard")).toBe(false)
-  // Each Undo brings back its own part only.
-  await page.evaluate(() => { const a = (window as any).__neural; a.set("landHand", true); a.set("landCard", true); a._applyLayers() })
+  // Each Undo brings back its own part only. Both parts come back first, by Settings' own path (`setLayer(…, "settings")`), at once.
+  await page.evaluate(() => { const a = (window as any).__neural; a.setLayer("hand", true, "settings"); a.setLayer("card", true, "settings") })
   await j.readerLayoutSettled()
-  // WIDTH4 (v1.265.0): the places closed together a moment ago (`gone`, stamped above), and for SHIELD_MS (400ms, reader.src.js `shield`)
-  // a press starting inside one is swallowed. On a phone Moves' message now spans the Moves row's width, over Moves' own close
-  // (362-386 at 390), so this scripted restore, faster than any player's, waits the shield out on the page's clock before pressing.
-  // WAS: the message 32-358, the close outside it, so the press here raced the shield and won by geometry alone. No assertion changes.
-  // (The shield's own fields are mangled in the bundle, so the wait reads the test's stamps, not the reader.)
-  await page.waitForFunction(() => { const g = (window as any).__gone; return performance.now() > Math.max(g.hand, g.card) + 400 + 50 })
+  // The owner's U154 e (13 Nov 2026, p5) widened Moves' message to the Moves row, 12..378 at 390, so Moves' own close (362-386) comes back
+  // INSIDE the place that message stood in, and for SHIELD_MS (400ms, reader.src.js `shield`) after the places close a press starting there
+  // was swallowed. NOW a part shown again ends that window (reader.src.js, setLayer), so a real tap on Moves' close straight after the
+  // places close closes Moves. WAS (v1.264.5): the message ran 32..358, clear of the close, so this press won by geometry alone; WAS (the
+  // v1.265.0 draft): the restore set the two keys and the test waited the window out, 450ms on the `__gone` stamps; that wait is gone.
+  await press(page, j, "[data-hand-close]", true, "Moves' close, straight after the places close")
+  const lag = await page.evaluate(() => { const g = (window as any).__gone; return performance.now() - Math.max(g.hand, g.card) })
+  expect(lag, "premise: the tap fell inside the press window the two closed places opened (400ms)").toBeLessThan(400)
+  expect(await setting(page, "landHand"), "a tap on Moves' close straight after the places close closes Moves").toBe(false)
+  await j.readerLayoutSettled()
   await press(page, j, "[data-land-close]", true, "Questions' close")
-  await j.readerLayoutSettled()
-  await press(page, j, "[data-hand-close]", true, "Moves' close")
   await j.readerLayoutSettled()
   await press(page, j, '[data-hidesec-notice="hand"] [data-hidesec-undo]', true, "Moves' Undo")
   await j.readerLayoutSettled()
