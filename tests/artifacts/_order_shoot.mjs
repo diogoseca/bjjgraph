@@ -13,7 +13,12 @@
  *   03/04 practice Practice open on its first card: the heading over it
  *   05/06 queue    "Practice details & session queue" open: the decks in order (after: under their positions)
  *
- *   node tests/artifacts/_order_shoot.mjs <outDir> <baseDist> [perf]      SHOOT_BASE (default http://localhost:8167)
+ * STAGE3-R1 (`r1` as the third argument), where the page changed:
+ *   07 end      after only: the session-complete card past the goal (19 answered today, the session's last card answered):
+ *               "Keep practising" in the card, no owed count; "More new cards · …" under it
+ *   08 door     before / after: "Practice details & session queue" open; after, "Everything owed, oldest first · N cards"
+ *
+ *   node tests/artifacts/_order_shoot.mjs <outDir> <baseDist> [perf|r1]      SHOOT_BASE (default http://localhost:8167)
  * `perf` shoots nothing: it times the first and a repeat `planSummary()` for the seeded player, before and after.
  */
 import { chromium } from "playwright"
@@ -21,7 +26,7 @@ import fs from "node:fs"
 import path from "node:path"
 import { orderFixture } from "../_practice_order_fixture.mjs"
 
-const OUT = process.argv[2], BASE_DIST = process.argv[3], PERF = process.argv[4] === "perf"
+const OUT = process.argv[2], BASE_DIST = process.argv[3], PERF = process.argv[4] === "perf", R1 = process.argv[4] === "r1"
 const BASE = process.env.SHOOT_BASE || "http://localhost:8167"
 if (!PERF) fs.mkdirSync(OUT, { recursive: true })
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
@@ -64,6 +69,48 @@ const readQueue = (page) => page.evaluate(() => [...document.querySelectorAll("[
 
 const browser = await chromium.launch()
 const log = { seed: { heavy: HEAVY, light: LIGHT, today: TODAY }, shots: [] }
+if (R1) {
+  for (const vp of VPS) {
+    for (const [n, dev] of [[0, true], [1, false]]) {
+      const tag = dev ? "before" : "after"
+      // 08: the fold, the same player as the order pictures
+      let { ctx, page, errors } = await boot(browser, vp, dev)
+      await press(page, vp, ".ng-logo")
+      await press(page, vp, '[data-explore-stats] [data-b="due"]')
+      for (let i = 0; i < 60 && !(await page.evaluate(() => !!window.__neural?._session?.plan)); i++) await sleep(250)
+      await sleep(1000)
+      await press(page, vp, "[data-practice-details] > summary")
+      await page.evaluate(() => document.querySelector("[data-practice-details]")?.scrollIntoView({ block: "start" })); await sleep(500)
+      await shot(page, `08-door-${tag}-${vp.w}.jpg`)
+      log.shots.push({ shot: `08-door-${tag}-${vp.w}.jpg`, door: await page.evaluate(() => document.querySelector("[data-practice-owed]")?.textContent || null), errors: errors.length })
+      await ctx.close()
+      if (dev) continue
+      // 07: the completion card past the goal (this build)
+      BLOB.srs["Seed|Top"] = Object.fromEntries(Array.from({ length: 19 }, (_, i) => ["today" + i, [TODAY + 1, 1, TODAY]]));
+      ({ ctx, page, errors } = await boot(browser, vp, false))
+      delete BLOB.srs["Seed|Top"]
+      await press(page, vp, ".ng-logo")
+      await press(page, vp, '[data-explore-stats] [data-b="due"]')
+      for (let i = 0; i < 60 && !(await page.evaluate(() => !!window.__neural?._session?.plan)); i++) await sleep(250)
+      await sleep(1000)
+      const open = '[data-session-row][aria-expanded="true"] + div'
+      for (let i = 0; i < 8 && !(await page.evaluate(() => !!document.querySelector("[data-session-complete]"))); i++) {
+        if (await page.evaluate((o) => !!document.querySelector(o + " [data-mini-graded]"), open)) await press(page, vp, open + " .mn")
+        else if (!(await page.evaluate((o) => !!document.querySelector(o + " [data-mini-a]"), open))) await press(page, vp, open + " [data-mini-reveal]")
+        else await press(page, vp, open + " [data-mini-got]")
+        await sleep(500)
+      }
+      await page.evaluate(() => document.querySelector("[data-session-complete]")?.scrollIntoView({ block: "center" })); await sleep(700)
+      await shot(page, `07-end-${tag}-${vp.w}.jpg`)
+      log.shots.push({ shot: `07-end-${tag}-${vp.w}.jpg`, card: await page.evaluate(() => document.querySelector("[data-session-complete]")?.innerText || null), more: await page.evaluate(() => document.querySelector("[data-plan-more]")?.textContent), errors: errors.length })
+      await ctx.close()
+    }
+  }
+  await browser.close()
+  fs.writeFileSync(path.join(OUT, "shoot-log-r1.json"), JSON.stringify(log, null, 1))
+  console.log(JSON.stringify(log.shots))
+  process.exit(0)
+}
 for (const vp of VPS) {
   for (const [n, dev] of [[0, true], [1, false]]) {
     const tag = dev ? "before" : "after"

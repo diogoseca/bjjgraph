@@ -731,14 +731,17 @@ const NG_CHALLENGE_UI_METHODS = {
       // `maintBand` is read again by the arrival positioning at the foot of this function:
       // a sticky header must be subtracted from the scroll target or it eats the belt head.
       let maintBand = null;
-      if (!practice && typeof this.dueCount === "function" && this.dueCount() > 0) {
+      // shown on the closed drawer's dot's rule (STAGE3-R1, the orchestrator's decision of 13 Nov): while cards are owed AND
+      // today's goal is not met; gone at the goal, owed or not
+      const goal = typeof this.practiceToday === "function" ? this.practiceToday() : null;
+      if (!practice && typeof this.dueCount === "function" && this.dueCount() > 0 && goal && goal.done < goal.goal) {
         const maint = document.createElement("button");
         maint.type = "button";
         maint.className = "ng-maint-band";
         maint.setAttribute("data-maintenance", "1");
         // "N DUE" LEFT THE DRAWER (owner U171 a, 13 Nov; v1.274.0): the band stays the Path's door to Practice, and says
         // what the Practice row says, today's answers against the goal, never the size of the owed pile
-        const t = this.practiceToday(), today = t.done + " of " + t.goal + " today";
+        const today = goal.done + " of " + goal.goal + " today";
         maint.setAttribute("aria-label", "Practice, " + today + " \u2014 start today's session");
         maint.innerHTML =
           '<b>' + today + '</b>' +

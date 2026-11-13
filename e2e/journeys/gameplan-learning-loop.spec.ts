@@ -201,9 +201,12 @@ test("live debt changes without reranking; missing provider remains visible thro
     a.srs["missing content|Defender"] = { ghost: [d - 1, 3, d - 4] };
     a._onGameplanKnowledgeChanged({ reason: "merge", revision: 5 });
   });
-  // until v1.274.0 the live line counted the whole owed pile ("3 cards to review"); a worth plan counts what it holds, so a
-  // card that comes due after it was built is said in the polite line instead, and the rows do not move
-  await expect(page.locator('[data-gameplan-current]')).toContainText("New reviews came due");
+  // until v1.274.0 the live line counted the whole owed pile ("3 cards to review") and a refresh merged the new card in; a
+  // worth plan counts what it holds, a session in progress is never re-planned under the player (STAGE3-R1, the reader's
+  // finding 4), and a card that comes due mid-session waits for the next round by worth or "Everything owed": the rows do
+  // not move, and no line promises that a refresh would bring it in
+  await page.waitForTimeout(400);
+  await expect(page.locator('[data-gameplan-current]')).not.toContainText("New reviews came due");
   expect(await page.locator('[data-session-row]').evaluateAll((els) => els.map((el) => el.getAttribute("data-session-row")))).toEqual(order);
   await hit(page, '[data-gameplan-refresh]', isMobile);
   await expect(page.locator('[data-gameplan-current]')).toContainText("isn't available");

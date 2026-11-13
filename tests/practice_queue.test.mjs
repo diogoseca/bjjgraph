@@ -38,6 +38,9 @@
 //   Q13 a fallback that never says it fired (the beat removed)              → "the planner prices with this ruleset's game"
 //   Q16 a met goal deals nothing (the round past the goal removed)          → "a goal, never a cap"
 //   Q17 a position's unused move slots kept from its cards (2 new cards)    → "a position with no new move to ask gives its slots to cards"
+//   Q18 the floor counted per plan, today's new cards ignored (STAGE3-R1)    → "the floor of 4 is a day's…"
+//   Q19 the memo key without the knowledge revision (the reader's R9)       → "the order is kept for its inputs…"
+//   Q20 a visit-less row numbered (the reader's finding 3: "NaN")           → "a row the order did not place is named apart…"
 //
 // NOT COVERED here:
 //   · A RETIRED QUESTION READS AS A LIVE ONE, as in the rating (tests/rating.test.mjs): a deck's new count while its cards
@@ -45,6 +48,10 @@
 //     deck offers fewer new cards than it has. PR #405 teaches the rating live vs retired; this reads the same manifest.
 //   · Moves. Stage 3's page cannot ask a hidden move, so the app hands the law cards only; the law's move handling is pinned
 //     by Parts 1 and 2 for Stage 4.
+//   · SEATLESS AND UNPRICED DECKS. 214 gi decks (346 no-gi) are priced but no seat claims them (the "…-Control" seats among
+//     them): their owed cards are asked only in the one "Other cards" visit, scored by owed worth alone, and their new cards
+//     never fill the floor. 38 gi decks (293 cards) are allowed in gi but carry no gi weight (Buggy Choke, the heel hooks):
+//     the order never asks them; "Everything owed, oldest first" (the eager cover) does. The reader's counts, 13 Nov.
 //
 // Run: node --test tests/practice_queue.test.mjs
 import { test } from "node:test";
@@ -288,6 +295,50 @@ test("a goal, never a cap: with today's goal met, Practice deals another round b
   assert.deepEqual(plan.dueQuestions.slice().sort(), ["q1", "q2", "qs"], "the owed cards are still offered");
   assert.equal(plan.overrun, plan.total, "and the summary says the round runs past the goal");
   assert.match(G.ngGameplanSummary(plan), /runs \d+ cards over the goal/);
+});
+
+test("the floor of 4 is a day's: new cards first answered earlier today count toward it", () => {
+  // a heavy position with 6 owed cards fills a goal of 6, so only the floor brings new cards in, one from each of the next
+  // positions (STAGE3-R1, finding 6)
+  const nine = Object.fromEntries(Array.from({ length: 6 }, (_, i) => ["h" + i, ago(30, 3)]));
+  const light = ["N1|Top", "N2|Top", "N3|Top", "N4|Top", "N5|Top"];
+  const decks = { "H|Top": { count: 6, questions: Object.keys(nine), exact: true, allowed: true },
+    ...Object.fromEntries(light.map((k) => [k, { count: 8, questions: [], exact: false, allowed: true }])) };
+  const game = ngRatingUniverse({ decks: { "H|Top": { n: 6 }, ...Object.fromEntries(light.map((k) => [k, { n: 8 }])) },
+    weights: { "H|Top": 600, ...Object.fromEntries(light.map((k) => [k, 1])) }, shared: new Map(), seats: { "1/top": { w: 1, hand: {} } } });
+  const seats = Object.fromEntries(Object.keys(decks).map((k) => [k, k]));
+  const run = (newToday) => ngPracticeOrder({ day: D, goal: 6, floor: 4, newToday, srs: { "H|Top": { ...nine } }, stage: {}, decks, game, seats });
+  assert.equal(run(0).counts.askedNew, 4, "nothing new yet today: the floor's 4");
+  assert.equal(run(3).counts.askedNew, 1, "3 learned earlier today: 1 more");
+  assert.equal(run(4).counts.askedNew, 0, "4 learned today: none forced");
+  assert.equal(run(9).counts.askedNew, 0, "never below none");
+});
+
+test("the order is kept for its inputs, and the knowledge revision is one of them", () => {
+  // `_schedule` (the reveal-unanswered path) edits `srs` IN PLACE: the same object, a new revision. The memo must build again
+  // (the reader's R9). Past today's goal every plan is a full round, so the goal in the key does not move when a card is
+  // answered there: the revision is then the only input that does. Here 20 are answered today, then an owed card in place.
+  const srs = { ...SRS(), "Elsewhere|Top": Object.fromEntries(Array.from({ length: 20 }, (_, i) => ["t" + i, [D + 1, 1, D]])) };
+  const decks = DECKS(), game = tiny(), stage = {};
+  const build = (revision) => G.ngGameplanBuild({ day: D, ruleset: "gi", revision, stamp: "s", target: 20, decks, srs, worth: { game, seats: SEATS, stage } });
+  assert.ok(build(1).dueQuestions.includes("q2"));
+  srs["B|Top"].q2 = [D + 3, 3, D];   // answered today, in place
+  assert.ok(build(1).dueQuestions.includes("q2"), "the same inputs, the same order (the memo's contract)");
+  assert.ok(!build(2).dueQuestions.includes("q2"), "a new revision: built again, the answered card gone");
+});
+
+test("a row the order did not place is named apart, never numbered", () => {
+  const plan = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 20, decks: DECKS(), srs: SRS(),
+    fallback: { rows: [{ key: "Z|Attacker", reason: "r" }], assumptions: ["a"] }, worth: { game: tiny(), seats: SEATS, stage: {} } });
+  const extra = { key: "X|Attacker", kind: "new", questions: ["x1", "x2"], pending: 1, count: 3 };   // as "More new cards" appends it
+  const withExtra = { ...plan, fresh: plan.fresh.concat([extra]), newCards: plan.newCards + 3, status: "weak-spots" };
+  const L = G.ngGameplanLines(withExtra, { dueCards: 3 }, "X|Attacker");
+  assert.equal(L.heading, "More new cards");
+  assert.match(L.count, /: 3 cards to review · 4 new, by how often they come up in your rolls and how close you are to forgetting them; 3 more new, weakest first$/);
+  for (const k of withExtra.queue.concat(["X|Attacker"])) {
+    const t = G.ngGameplanLines(withExtra, { dueCards: 0 }, k);
+    assert.doesNotMatch(t.heading + " " + t.count, /NaN|undefined/, k);
+  }
 });
 
 test("placeholders bind the deck's first unanswered cards, never more than the row asked", () => {

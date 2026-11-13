@@ -25,6 +25,11 @@ import { journey } from "../dsl"
  *   F1 the plan's re-render forgetting the fold the player opened (FOLD1)               → "FOLD1: the fold is still open after the plan lands"
  *   D1 the dot lit while anything is owed, the goal ignored (its reading until 13 Nov)   → "the dot: out at the goal, with cards still owed"
  *   D2 "N cards are due now" back on the session-complete card                           → "the end card names no owed count"
+ *   S1 the cold queue's open deck kept though the player never moved (finding 2)        → "Practice opens on the plan's first row, not on the oldest debt's deck"
+ *   S4 a row "More new cards" added labelled by its missing number (finding 3)          → "the added rows under their own name", and the NaN net
+ *   A1 no "Keep practising" on the completion card (finding 5)                           → "the completion card offers to keep going"
+ *   B1 the owed session built from the worth plan (finding 1's door)                     → "a deck the order never prices is here"
+ *   B2 the band shown while owed, the goal ignored                                       → "the Path's band: gone at the goal, owed or not"
  * NOT COVERED here: the order's arithmetic (the unit suite and its 15 mutants), no-gi on a page (the unit reads both
  * rulesets; a ruleset flip writes a setting, so it cannot share the byte-identity claim), and answering (grading writes the
  * record by design; the planner's completion rule is the unit suite's).
@@ -73,6 +78,25 @@ async function settled(page: Page) {
   return before
 }
 const dot = (seat: string) => seat.replace("|", " · ")
+/** THE NET FOR A WHOLE CLASS (STAGE3-R1, the reader's finding 3: "NaN" on the page): no text node under the Practice page
+ *  reads "NaN" or "undefined", checked after every action a test here takes. */
+async function clean(page: Page, after: string) {
+  const bad = await page.evaluate(() => {
+    const root = document.querySelector("[data-practice-page]"); if (!root) return [] as string[]
+    const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT), out: string[] = []
+    for (let n = w.nextNode(); n; n = w.nextNode()) if (/\bNaN\b|undefined/.test(n.nodeValue || "")) out.push((n.nodeValue || "").slice(0, 80))
+    return out
+  })
+  expect(bad, `no "NaN" or "undefined" on the Practice page after ${after}`).toEqual([])
+}
+/** one press on whatever the open card asks next: Reveal, then Got it; a graded card goes on with its deck's next arrow */
+async function answerOne(page: Page, touch: boolean) {
+  const open = '[data-session-row][aria-expanded="true"] + div'
+  await expect(page.locator(open + " [data-mini-reveal]:visible")).toHaveCount(1, { timeout: 10_000 })
+  if (await page.locator(open + " [data-mini-graded]:visible").count()) { await press(page, open + " .mn", "the deck's next card", touch); return }
+  if (!(await page.locator(open + " [data-mini-a]:visible").count())) await press(page, open + " [data-mini-reveal]", "Reveal", touch)
+  await press(page, open + " [data-mini-got]", "Got it", touch)
+}
 
 for (const touch of [true, false]) {
   test.describe(touch ? "touch 390x631" : "mouse 1440x900", () => {
@@ -119,8 +143,10 @@ for (const touch of [true, false]) {
       expect(s.rows.filter((r: W) => fx.light.includes(r.key) && r.visit === 0), "a month overdue, but light: not first").toEqual([])
       expect(s.rows.filter((r: W) => fx.heavy.includes(r.key) && r.owed === 3).length, "the misses in the decks weighed most are asked").toBeGreaterThan(0)
       await expect(page.locator("[data-practice-section]"), "the heading names the open card's position").toHaveText(`${dot(s.visits[0].seat)} · position 1 of ${s.visits.length}`)
+      await clean(page, "opening Practice")
       // the queue, named position by position
       await press(page, "[data-practice-details] > summary", "Practice details & session queue", touch)
+      await clean(page, "opening the session queue")
       await expect(page.locator("[data-practice-queue] [data-practice-visit]"), "a label per position").toHaveText(s.visits.map((v: W, i: number) => `${i + 1} · ${v.seat ? dot(v.seat) : "Other cards"}`))
       // paging the queue moves the heading with the open card, and stores nothing
       for (let i = 1; i < Math.min(4, s.keys.length); i++) {
@@ -128,12 +154,22 @@ for (const touch of [true, false]) {
         await expect.poll(() => page.evaluate(() => (window as W).__neural._session.idx), { message: "the queue moves on" }).toBe(i)
         const r = s.rows.find((x: W) => x.key === s.keys[i])
         await expect(page.locator("[data-practice-section]")).toHaveText(`${r.seat ? dot(r.seat) : "Other cards"} · position ${r.visit + 1} of ${s.visits.length}`)
+        await clean(page, "Next technique")
       }
-      // "Keep practising" still adds today's ranked new techniques after the day's positions
+      // "More new cards" (until v1.274.0 "Keep practising · more new cards") still adds today's ranked new techniques after the
+      // day's positions; a row it adds is named apart, never numbered (STAGE3-R1, finding 3)
       const more = await page.evaluate(() => Math.min(10, (window as W).__neural._session.plan.more.length))
       expect(more, "there is more to add").toBeGreaterThan(0)
-      await press(page, "[data-plan-more]", "Keep practising · more new cards", touch)
+      await expect(page.locator("[data-plan-more]"), "its label says what it adds").toHaveText(/^More new cards · (weakest first|ranked by your study comparison.*)$/)
+      await press(page, "[data-plan-more]", "More new cards", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session.keys.length)).toBe(s.keys.length + more)
+      await expect(page.locator('[data-practice-queue] [data-practice-visit="more"]'), "the added rows under their own name").toHaveText("More new cards")
+      await clean(page, "More new cards")
+      const added = await page.evaluate((n: number) => (window as W).__neural._session.keys[n], s.keys.length)
+      await page.evaluate((k: string) => { const b = [...document.querySelectorAll("[data-practice-queue] button")].find((x) => x.textContent === k.replace("|", " · ")); if (b) b.setAttribute("data-added-jump", "1") }, added)
+      await press(page, "[data-added-jump]", "an added row's button", touch)
+      await expect(page.locator("[data-practice-section]"), "an added row's heading names it apart").toHaveText("More new cards")
+      await clean(page, "opening an added row")
       await page.waitForTimeout(2_500)
       expect(await storage(page), "every localStorage key and value is byte-identical after opening, paging and Keep practising").toBe(before)
     })
@@ -165,6 +201,83 @@ for (const touch of [true, false]) {
       } finally { release() }
     })
 
+    // FINDING 2 (STAGE3-R1): the cold queue opens on the oldest debt; when the plan holds that deck at a LATER position, the
+    // plan's arrival used to keep it open (Practice at position 2, 3 or 4). Only a deck the player moved to is kept now.
+    test(`Practice opens on the plan's first position though the oldest debt sits later (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      const { oldestLaterFixture } = await import("../../tests/_practice_order_fixture.mjs")
+      const fx = await oldestLaterFixture(SERVED)
+      expect(fx.laterAt, "premise: the oldest debt's deck is later in the plan").toBeGreaterThan(0)
+      await boot(page, fx.day, fx.blob)
+      await press(page, ".ng-logo", "open the drawer", touch)
+      await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
+      await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      const at = await page.evaluate(() => { const s = (window as W).__neural._session; return { idx: s.idx, key: s.keys[s.idx], first: s.plan.queue[0], positions: s.plan.visits.length, seat: s.plan.visits[0].seat } })
+      expect(at.key, "Practice opens on the plan's first row, not on the oldest debt's deck").toBe(at.first)
+      expect(at.key).not.toBe(fx.later)
+      await expect(page.locator("[data-practice-section]"), "position 1").toHaveText(`${dot(at.seat)} · position 1 of ${at.positions}`)
+      await clean(page, "opening Practice")
+    })
+
+    // FINDING 5 (STAGE3-R1): going on past the goal, in place. When the session's cards are done, the completion card offers
+    // "Keep practising", which deals the next round by worth into the same session, its positions numbered on; today's count
+    // keeps counting (a goal, never a cap).
+    test(`past the goal, Keep practising goes on in the same session (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      const { orderFixture } = await import("../../tests/_practice_order_fixture.mjs")
+      const fx = orderFixture(SERVED), blob = JSON.parse(JSON.stringify(fx.blob))
+      blob.srs["Seed|Top"] = Object.fromEntries(Array.from({ length: 19 }, (_, i) => ["today" + i, [fx.day + 1, 1, fx.day]]))
+      await boot(page, fx.day, blob)
+      await press(page, ".ng-logo", "open the drawer", touch)
+      await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
+      await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      for (let i = 0; i < 8 && !(await page.locator("[data-session-complete]").count()); i++) { await answerOne(page, touch); await page.waitForTimeout(700); await clean(page, "an answer") }
+      await expect(page.locator("[data-session-complete]"), "the session completes").toHaveCount(1)
+      const first = await page.evaluate(() => { const a = (window as W).__neural, s = a._session; return { session: s, keys: s.keys.length, visits: s.plan.visits.length, done: a.practiceToday().done } })
+      expect(first.done, "past the goal").toBeGreaterThanOrEqual(20)
+      await page.evaluate(() => { (window as any).__round1 = (window as W).__neural._session })
+      await expect(page.locator("[data-session-complete] [data-plan-next]"), "the completion card offers to keep going").toHaveText("Keep practising")
+      await press(page, "[data-session-complete] [data-plan-next]", "Keep practising", touch)
+      await expect(page.locator("[data-session-complete]"), "the session goes on").toHaveCount(0)
+      const next = await page.evaluate(() => { const a = (window as W).__neural, s = a._session, r = s.plan.due.concat(s.plan.fresh).find((x: W) => x.key === s.keys[s.idx]);
+        return { same: s === (window as any).__round1, keys: s.keys.length, visits: s.plan.visits.length, visit: r && r.visit, seat: r && r.seat } })
+      expect(next.same, "in the same session").toBe(true)
+      expect(next.keys, "with the next round's rows").toBeGreaterThan(first.keys)
+      expect(next.visit, "the open card is the next round's, numbered on").toBeGreaterThanOrEqual(first.visits)
+      await expect(page.locator("[data-practice-section]")).toHaveText(`${next.seat ? dot(next.seat) : "Other cards"} · position ${next.visit + 1} of ${next.visits}`)
+      await clean(page, "Keep practising")
+      await answerOne(page, touch)
+      await expect.poll(() => page.evaluate(() => (window as W).__neural.practiceToday().done), { message: "today's count keeps counting" }).toBe(first.done + 1)
+      await clean(page, "an answer past the goal")
+    })
+
+    // FINDING 1's DOOR (STAGE3-R1): "Everything owed, oldest first", one level down inside "Practice details & session
+    // queue", is dev's own order over the whole owed pile, a deck the order never prices included, and it goes on.
+    test(`Everything owed, oldest first: the whole owed pile, priced or not (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      const { unpricedOwedFixture } = await import("../../tests/_practice_order_fixture.mjs")
+      const fx = await unpricedOwedFixture(SERVED)
+      await boot(page, fx.day, fx.blob)
+      await press(page, ".ng-logo", "open the drawer", touch)
+      await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
+      await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      expect(await page.evaluate((k: string) => (window as W).__neural._session.plan.queue.includes(k), fx.unpriced), "premise: the order never asks the unpriced deck").toBe(false)
+      await press(page, "[data-practice-details] > summary", "Practice details & session queue", touch)
+      const owed = await page.evaluate(() => (window as W).__neural.dueCount())
+      await expect(page.locator("[data-practice-owed]"), "the door, with how many are owed, inside the fold").toHaveText(`Everything owed, oldest first · ${owed} cards`)
+      await press(page, "[data-practice-owed]", "Everything owed, oldest first", touch)
+      await expect.poll(() => page.evaluate(() => !!(window as W).__neural._session?.owed), { message: "the owed session opens" }).toBe(true)
+      const s = await page.evaluate(() => { const a = (window as W).__neural, s = a._session; return { keys: s.keys.slice(), count: s.review.count, cover: s.review.rows.map((r: W) => r.key),
+        dom: [...document.querySelectorAll("[data-session] [data-session-row]")].map((r) => r.getAttribute("data-session-row")) } })
+      expect(s.count, "every owed card").toBe(owed)
+      expect(s.keys, "the cover, oldest first").toEqual(s.cover)
+      expect(s.dom, "on the page, in that order").toEqual(s.keys)
+      expect(s.keys, "a deck the order never prices is here").toContain(fx.unpriced)
+      await expect(page.locator("[data-practice-section]"), "headed by the owed cards").toHaveText(`Due reviews · ${owed} cards`)
+      await clean(page, "Everything owed")
+      await answerOne(page, touch)
+      await expect.poll(() => page.evaluate(() => (window as W).__neural.practiceToday().done), { message: "it answers" }).toBe(1)
+      expect(await page.evaluate(() => (window as W).__neural._session.owed), "and goes on, in its own session").toBe(true)
+      await clean(page, "an owed answer")
+    })
+
     // THE DOT AND THE END CARD (the orchestrator's decision, 13 Nov, after the owner's U171 a took the "N due" count out of
     // the drawer): the closed drawer's amber dot is lit while there is practice left for today (cards owed AND the goal
     // not met) and goes out at the goal, owed cards or not; the session-complete card names no owed count. The player:
@@ -182,6 +295,10 @@ for (const touch of [true, false]) {
       expect((await state()).owed, "premise: cards owed").toBeGreaterThan(0)
       await expect(dot, "the dot: lit one answer short of the goal").toBeVisible()
       await press(page, ".ng-logo", "open the drawer", touch)
+      // the Path's band follows the dot's rule (STAGE3-R1): there one answer short of the goal
+      await press(page, '[data-explore-stats] [data-view="challenges"]', "the Path row", touch)
+      await expect(page.locator("[data-maintenance] b"), "the Path's band: there one answer short of the goal").toHaveText("19 of 20 today")
+      await press(page, ".ng-drawer-brand", "‹ Path, home", touch)
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
       const open = '[data-session-row][aria-expanded="true"] + div'
@@ -205,6 +322,11 @@ for (const touch of [true, false]) {
       await press(page, ".ng-explorer-close", "close the drawer", touch)
       await expect(page.locator(".ng-logo"), "the drawer is closed").toBeVisible()
       await expect(dot, "and the closed drawer's icon wears no dot past the goal").toBeHidden()
+      await press(page, ".ng-logo", "open the drawer again", touch)
+      await press(page, '[data-explore-stats] [data-view="challenges"]', "the Path row", touch)
+      await expect(page.locator(".ng-track-card").first(), "the Path is open").toBeVisible()
+      expect((await state()).owed, "premise: cards still owed").toBeGreaterThan(0)
+      await expect(page.locator("[data-maintenance]"), "the Path's band: gone at the goal, owed or not").toHaveCount(0)
     })
 
     test(`a record with no answer is today's order, and says so once (${touch ? "touch" : "mouse"})`, async ({ page }) => {

@@ -40,3 +40,40 @@ export function orderFixture(dir, day = ORDER_DAY) {
   }
   return { day, heavy, light, blob: { v: 2, srs, stage } };
 }
+
+/** STAGE3-R1, the reader's finding 2: the same player, with one owed card of a position the plan asks LATER made the oldest
+ *  debt of all, so the cold queue (oldest first) opens on a deck the plan holds after its first position. Chosen by the
+ *  planner itself (the app built the census way, `tests/_rating_fixture.mjs`), never by a typed key. */
+export async function oldestLaterFixture(dir, day = ORDER_DAY) {
+  const { ratingApp } = await import("./_rating_fixture.mjs");
+  const G = await import("../neural/src/gameplan.src.js");
+  const fx = orderFixture(dir, day), blob = JSON.parse(JSON.stringify(fx.blob));
+  const plan = (b) => {
+    const a = ratingApp(dir, "gi");
+    a._epochDay = () => day; a._dayKey = () => "x"; a._days = {}; a.srs = b.srs; a.stage = b.stage;
+    a._gameplanRuntime = G; a.weakSpots = () => ({ cold: true, keys: [], veryWeak: [], weak: [] });
+    a._checkKnowledgeDay = () => {}; a.startFrom = () => "standing"; a.fx = () => {};
+    return a.planSummary();
+  };
+  const later = plan(blob).due.find((r) => r.visit >= 1 && r.owed.length);
+  if (!later) throw new Error("no owed card after the first position");
+  const qh = later.owed[0];
+  for (const dk of Object.keys(blob.srs)) if (blob.srs[dk][qh]) blob.srs[dk][qh] = [day - 400, 1, day - 401];
+  const p = plan(blob);
+  return { day, blob, later: later.key, first: p.queue[0], laterAt: p.queue.indexOf(later.key) };
+}
+
+/** STAGE3-R1, the door to everything owed: the same player, plus one owed card in a deck the gi ruleset allows but the gi
+ *  table gives no weight (the reader's 38, Buggy Choke and the heel hooks among them): the order never asks it, the door must. */
+export async function unpricedOwedFixture(dir, day = ORDER_DAY) {
+  const { ratingApp } = await import("./_rating_fixture.mjs");
+  const fx = orderFixture(dir, day), blob = JSON.parse(JSON.stringify(fx.blob));
+  const a = ratingApp(dir, "gi"), W = a.scoreWeights("gi");
+  const cards = {};
+  for (const f of readdirSync(resolve(dir, "flashcards")).sort()) if (f !== "_index.json") Object.assign(cards, JSON.parse(readFileSync(resolve(dir, "flashcards", f), "utf8")));
+  const deck = Object.keys(a.flashcards.decks).filter((k) => !(k in W) && cards[k] && cards[k].cards.length && (() => { const i = a.nodeForKey(k); return i >= 0 && a.rsAllowsIdx(i); })()).sort()[0];
+  if (!deck) throw new Error("no deck allowed in gi without a gi weight");
+  const qh = ngKnowledgeQuestionHash(cards[deck].cards[0].q);
+  blob.srs[deck] = { [qh]: [day - 2, 3, day - 5] }; blob.stage[deck] = { [qh]: 1 };
+  return { ...fx, blob, unpriced: deck };
+}

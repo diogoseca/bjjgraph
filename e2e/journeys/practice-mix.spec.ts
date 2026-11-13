@@ -15,7 +15,8 @@ import { journey } from "../dsl";
  *      plan, position by position, the arithmetic pinned by tests/practice_queue.test.mjs;
  *   3. the 20-card goal shows progress and never blocks: past the goal, Practice still deals and grades. Until
  *      v1.274.0 the same session dealt the next owed review; since U171 a the day's session is what is worth most up
- *      to the goal, and opening Practice again past the goal deals another round by worth.
+ *      to the goal, and its completion card's "Keep practising" deals the next round by worth in the same session; every
+ *      owed card stays on offer through "Everything owed, oldest first" (STAGE3-R1).
  * The ratio and the quota are pinned at the planner by tests/gameplan.test.mjs; this file pins that the
  * session the player sees is the planner's queue, and that the goal line moves with real grades.
  *
@@ -181,16 +182,29 @@ test("Practice: the daily goal shows progress and never blocks a review", async 
   await press(page, j, "[data-mini-reveal]", "Reveal");
   await press(page, j, "[data-mini-got]", "Got it");
   await expect(page.locator("[data-practice-goal]")).toHaveText("Daily goal: 20 of 20 today ✓");
-  // past the goal, Practice still deals and still grades: a goal, never a cap. Until v1.274.0 the same session walked on
-  // to the next owed review; the day's session is now what is worth most up to the goal (U171 a), so the player leaves
-  // and opens Practice again, and it deals another round by worth
-  await page.waitForTimeout(800);
-  await j.clickByMouse(".ng-drawer-brand", "‹ Practice, home");
-  await openPractice(j);
-  await expect.poll(() => page.evaluate(() => (window as any).__neural._session?.plan?.total || 0), { message: "a new round past the goal" }).toBeGreaterThan(0);
-  const open = '[data-session-row][aria-expanded="true"]:not([data-session-done]) + div';
-  await expect(page.locator(open), "a card is open").toHaveCount(1, { timeout: 5_000 });
+  // past the goal, Practice still deals and still grades: a goal, never a cap. Until v1.274.0 the same session walked on to
+  // the next owed review; since U171 a the session is what is worth most up to the goal, and when it is done its completion
+  // card's "Keep practising" deals the next round by worth in the SAME session (STAGE3-R1, the reader's finding 5)
+  const open = '[data-session-row][aria-expanded="true"] + div';
+  for (let i = 0; i < 4 && !(await page.locator("[data-session-complete]").count()); i++) {
+    await page.waitForTimeout(700);
+    if (await page.locator(open + " [data-mini-graded]:visible").count()) { await press(page, j, open + " .mn", "the next card"); continue; }
+    if (!(await page.locator(open + " [data-mini-a]:visible").count())) await press(page, j, open + " [data-mini-reveal]", "Reveal");
+    await press(page, j, open + " [data-mini-got]", "Got it");
+  }
+  await expect(page.locator("[data-session-complete]"), "the day's session is done").toHaveCount(1);
+  const done = await page.evaluate(() => (window as any).__neural.practiceToday().done);
+  await press(page, j, "[data-session-complete] [data-plan-next]", "Keep practising, in place");
+  await expect(page.locator("[data-session-complete]"), "it goes on").toHaveCount(0);
+  await expect(page.locator(open + " [data-mini-reveal]:visible"), "a card is open").toHaveCount(1, { timeout: 5_000 });
   await press(page, j, open + " [data-mini-reveal]", "Reveal past the goal");
   await press(page, j, open + " [data-mini-got]", "Got it past the goal");
-  await expect(page.locator("[data-practice-goal]")).toHaveText("Daily goal: 21 of 20 today ✓");
+  await expect(page.locator("[data-practice-goal]")).toHaveText(`Daily goal: ${done + 1} of 20 today ✓`);
+  // and every owed card is still on offer. Until v1.274.0 this read "two of the three reviews were graded; one still owed,
+  // still on offer" off `dueCount()`, the reviews being the session's own; the owed pile is now offered whole one level down,
+  // in "Practice details & session queue": "Everything owed, oldest first" (STAGE3-R1), with how many are owed there
+  const left = await page.evaluate(() => (window as any).__neural.dueCount());
+  expect(left, "cards are still owed").toBeGreaterThan(0);
+  await press(page, j, "[data-practice-details] > summary", "Practice details & session queue");
+  await expect(page.locator("[data-practice-owed]"), "still on offer, every one of them").toHaveText(`Everything owed, oldest first · ${left} ${left === 1 ? "card" : "cards"}`);
 });

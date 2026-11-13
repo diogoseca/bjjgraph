@@ -203,10 +203,13 @@ export function ngPracticeItems({ day, srs, stage, decks, game, seats } = {}) {
  * Returns {status, rows, visits, counts, law}: `rows` [{key, seat, visit, questions, owed, pending, count}], `visits`
  * [{seat, keys}], `counts` {built: the builder's, law: the law's, asked, askedNew}.
  */
-export function ngPracticeOrder({ day, goal, floor, srs, stage, decks, game, seats } = {}) {
+export function ngPracticeOrder({ day, goal, floor, newToday = 0, srs, stage, decks, game, seats } = {}) {
   const built = ngPracticeItems({ day, srs, stage, decks, game, seats });
   if (built.status !== "ok") return { status: built.status, rows: [], visits: [], counts: { built: built.counts } };
-  const law = ngPracticeVisits({ items: built.items, day, goal: Math.max(0, goal), floor: goal > 0 ? Math.min(floor, goal) : 0 });
+  // the floor is a DAY's (STAGE3-R1, the reader's finding 6): new cards first answered earlier today count toward it, so a
+  // player who opens Practice three times is not handed 4 new each time
+  const fl = Math.max(0, floor - (newToday > 0 ? newToday : 0));
+  const law = ngPracticeVisits({ items: built.items, day, goal: Math.max(0, goal), floor: goal > 0 ? Math.min(fl, goal) : 0 });
   const byId = new Map(built.items.map((it) => [it.id, it]));
   const visits = [], seatVisit = new Map(), rows = new Map();
   const put = (id, v) => {

@@ -130,7 +130,7 @@ test("new plan and explicit refresh request study; due-only entry and internal r
 // SIDE-R3 N4: use the real _sessionInline guard. Removing it dies at open-deck; removing the
 // revealed guard is also covered by practice-mix's held-planner, real-Reveal browser mutation.
 test("active due queue survives deferred planner arrival and study notifications once graded, revealed or in an open deck; an untouched one becomes the plan", async () => {
-  for (const interaction of ["untouched", "graded", "revealed", "open-deck", "reveal-during-press"]) {
+  for (const interaction of ["untouched", "moved", "graded", "revealed", "open-deck", "reveal-during-press"]) {
     const { app, calls } = fixture(), ready = deferred();
     let done = 0, renders = 0, rows = 0; app.practiceToday = () => ({ done, goal: 20 });
     practiceSeat(app, calls); app.deckShown = true; app.hydrateDecks = async () => {};
@@ -143,6 +143,7 @@ test("active due queue survives deferred planner arrival and study notifications
     app.openPlanSession("new"); const due = app._session, mounted = renders;
     assert.equal(due.practice, true, interaction); assert.deepEqual(due.keys, ["real-due"], interaction);
     if (interaction === "graded") done = 1;
+    if (interaction === "moved") due.moved = true;   // the player paged or jumped to the deck before the plan landed
     if (interaction === "revealed") app._deckState = { "real-due": { idx: 0, revealed: true } };
     if (interaction === "open-deck") app.deck = [{ q: "An open study card", a: "Its answer" }];
     if (interaction === "reveal-during-press") app._panePress = true;
@@ -158,8 +159,12 @@ test("active due queue survives deferred planner arrival and study notifications
     if (interaction === "open-deck") {
       assert.deepEqual(due.keys, ["real-due"], interaction); assert.equal(due.plan, undefined, interaction);
       assert.ok(due.review, interaction); assert.equal(renders, mounted, interaction); assert.equal(rows, 0, interaction);
-    } else if (interaction === "untouched") {
-      assert.deepEqual(due.keys, ["plan-new", "real-due"], interaction); assert.equal(due.keys[due.idx], "real-due", interaction);
+    } else if (interaction === "untouched" || interaction === "moved") {
+      // Until v1.274.0 an untouched queue kept its own first deck open (here "real-due") when the plan replaced it. That deck
+      // is the oldest debt, never chosen, and it opened Practice mid-plan (STAGE3-R1, the reader's finding 2): the plan's
+      // first row opens now, and a deck the PLAYER moved to stays open.
+      assert.deepEqual(due.keys, ["plan-new", "real-due"], interaction);
+      assert.equal(due.keys[due.idx], interaction === "moved" ? "real-due" : "plan-new", interaction);
       assert.equal(renders, mounted + 1, interaction); assert.equal(rows, 0, interaction); assert.equal(due.plan.total, 2, interaction);
     } else {
       assert.deepEqual(due.keys, ["real-due", "plan-new"], interaction); assert.equal(due.idx, 0, interaction);
