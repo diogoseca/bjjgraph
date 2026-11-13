@@ -36,10 +36,10 @@ async function boot(browser, vp, dev) {
   })
   await page.goto(BASE + "/")
   for (let i = 0; i < 120; i++) {
-    if (await page.evaluate(() => { const a = window.__neural; return !!(a && a.curriculum && a.belts && a.belts.gf && a.flashcards) })) break
+    if (await page.evaluate(() => !!document.querySelector(".ng-logo") && !!window.__neural)) break
     await sleep(250)
   }
-  await sleep(1500)
+  await sleep(4000)
   return { ctx, page, errors }
 }
 async function press(page, vp, sel) {
@@ -80,16 +80,18 @@ for (const vp of VPS) {
     ({ ctx, page, errors } = await boot(browser, vp, dev))
     await press(page, vp, ".ng-logo")
     await press(page, vp, '[data-explore-stats] [data-b="due"]')
-    for (let i = 0; i < 40 && !(await page.evaluate(() => !!window.__neural._session?.plan)); i++) await sleep(250)
+    // read the PAGE, never the instance: outside test mode `window.__neural` is not guaranteed to be the live one
+    const newRows = () => page.evaluate(() => [...document.querySelectorAll('[data-session-row][data-practice-kind="new"]')].map((r) => r.getAttribute("data-session-row")))
+    for (let i = 0; i < 40 && !(await newRows()).length; i++) await sleep(250)
     let key = null
     if (!dev) {
       await press(page, vp, "[data-plan-more]")
-      key = await page.evaluate((white) => (window.__neural._session.plan.fresh.map((r) => r.key).find((k) => !white.includes(k.split("|")[0]))) || null, WHITE)
+      key = (await newRows()).find((k) => !WHITE.includes(k.split("|")[0])) || null
       await press(page, vp, "[data-practice-details] > summary")
       await page.evaluate((k) => { const b = [...document.querySelectorAll("[data-practice-queue] button")].find((x) => x.textContent === k.replace("|", " · ")); if (b) b.setAttribute("data-shoot-jump", "1") }, key)
       await press(page, vp, "[data-shoot-jump]")
     }
-    const fresh = await page.evaluate(() => window.__neural._session.plan.fresh.map((r) => r.key))
+    const fresh = await newRows()
     await anchor(page, '[data-session-row][aria-expanded="true"]')
     await shot(page, `0${5 + n}-practice-${tag}-${vp.w}.jpg`)
     log.push({ vp: vp.w, tag, place: "practice", shown: key || (await page.locator('[data-session-row][aria-expanded="true"]').getAttribute("data-session-row")), laterFamiliesOffered: fresh.filter((k) => !WHITE.includes(k.split("|")[0])).length, fresh: fresh.length, errors: errors.length })

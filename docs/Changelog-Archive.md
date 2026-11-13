@@ -16799,3 +16799,90 @@ the recipe to recompute is at the filter.
 
 **Local gates.** actionlint 1.7.7 after every workflow edit, 0 findings on all 16; `npm run ci:validate`; every touched
 unit suite. The full suites run on this PR.
+
+## v1.269.0 — Everything opens: the belt only shows (the owner's U163 c, OPEN1, 2026-11-13)
+
+**His decision (13 Nov, briefing answer U163 c).** "Everything opens": the belt only shows; timed recall and Recall Mode
+become settings anyone can turn on. His note, cut off as it arrived: "the path is going to be reformed soon, and the
+practice is". Stage 1 of the practiceplan build order (reports/practiceplan.md, Part 5): small, and no Path redesign.
+
+**The gates, counted before the change (CLAUDE.md §6.7, `| wc -l` first).** `beltUnlocked`: 14 hits = 1 definition, 1
+comment, 12 callers — challenge-ui `selectedChallengeTrack`, `selectChallengeTrack`, `_beltSectionOpen`,
+`_setBeltSectionOpen`, `openLearningView`, `challengeAction`, a lesson row's inline deck, the corridor's section loop; app
+`_practiceLesson`, `openLessonStudy`, `startBeltTest`, `startCheckpoint`. Every other read of the worn belt (22 hits): the
+gates among them were `planSummary`'s family filter (new cards only from the worn belt's families),
+`_recallInPlayNow` (timed recall in a roll from blue), Settings' Recall Mode lock (black or the patch), and one write, the
+patch's mint flipping `recallInPlay` on. The rest show or navigate: the drawer's belt bar, the Practice header, the
+corridor's default-open section and arrival, Practice hiding earlier belts behind "Show earlier belts", the cold fallback
+lesson (a starting point, kept), `_noteBlackBelt` (the patch still mints), the email's line, the grandfather.
+
+**What changed.** `beltUnlocked(id)` now asks only "is this a belt", so all twelve callers open at once through one seam
+(§6.5). The corridor's locked branch ("Locked · progress through the earlier belts", no button, chevron or lesson) is
+deleted with its CSS: a later belt is an ordinary section, folded until opened like any belt not worn; nothing replaces the
+line. `planSummary` passes `_gameplanDecks(true)` unfiltered; `practice_belt_unfiltered` (named when a plan was built with no
+curriculum) has nothing left to name and is gone. Settings' Recall mode row is a switch for everyone (`data-recall-mode`),
+showing what plays; the Black reward row became the patch's row ("Reach black belt to earn it. Recall Mode itself is open
+to everyone…"); the patch's detail reads "Reach black belt". The Path's own evidence gates stay: a checkpoint after its
+lessons, a capstone after its checkpoints. The belt itself is computed exactly as before.
+
+**Timed recall, and the carry-over.** `_recallInPlayNow()` = the switch, or the carry. The owner's rule is that no belt
+switches it on, and the brief's that nobody who has it today loses it. Today's rule turned it on from blue (worn belt) and
+the patch's mint wrote it on at black; so a blue-or-above player had it whatever the stored setting said. The carry:
+- `openAt` (top level of the blob, ms): the moment the open rule first ran for this account — stamped by `_syncBelt` once
+  the grandfather has run, AFTER any promotion that call made; merged as the EARLIER of two sides (`ngMergeOpenAt`,
+  belt.src.js); an older client keeps it through `_progressExtras`. It rides the next save, as `belts.gf` does.
+- carried = the switch was never set on this account AND `belts.held` is blue or above AND its stamp (the moment that belt
+  was first earned, MAX-merged with the earlier stamp on a tie) is no later than `openAt`.
+- `_syncBelt` writes the carry down once as an ADDED `recallInPlay: true`, its `settingsAt` stamped at `openAt` (not now),
+  so a choice made on any device after the rule began wins the per-key merge, and Settings shows On. Off sticks.
+- A value already stored is the player's own and is never rewritten: a black-patch holder who had turned Recall mode off
+  keeps Off (under the old rule their roll questions stayed timed recall anyway; the switch now does what it says), and
+  one who had it on keeps On. Measured cases: tests/belt_worn.test.mjs, three carry tests and the merge test.
+- Why a stamp and not a date constant: the deploy reaches production when the owner promotes it, so a fixed cut-off would
+  either drop players promoted on production in between or carry players promoted after. The account's own first run of
+  the new code is the exact boundary, and a new device that stamps before its first pull is corrected by the merge.
+- Edge left as is (named): a promotion made in a stale old tab after another device already ran the rule follows the new
+  rule; and an offline device stamping late can carry a belt the merged stamp would not (it errs toward keeping).
+
+**Specs that pinned a lock (counted: 16 files carry a lock, Recall Mode or filter token; the corridor itself is walked by
+39).** Changed, each with its old claim written beside it and U163 c cited, none removed without a replacement that can
+fail: tests/belt_worn.test.mjs (P1-B -> "U163 c: every section, lesson, checkpoint and capstone is open"; the readers
+test's mint no longer flips the switch), tests/gameplan_runtime.test.mjs (the outage beat -> "new cards come from every
+family"), practice-page P1-A x6 (`[data-belt-locked]` x4 -> five sections with their fold toggles) and P1-B (rewritten,
+its earlier-belts half kept), challenge-curriculum (no curriculum: 4 locked -> 5 toggles), recall-badge (the locked teaser
+and the auto-flip -> the switch for everyone, the mint leaving it alone; the Black row's "locked" -> "unearned", shown in the
+open section), landcard-modes 5c ("from blue up" -> a blue belt alone leaves MC, the switch turns recall on), and the
+generated mid-fog-set-ignores-locks, holder-next-capstone-requires-own-checkpoints and
+corrupt-blob-challenges-boot-fresh-open-tracks (locked later sections -> ordinary ones, the capstone still behind its own
+checkpoints). gameplan-learning-loop's P1-B kept its assertions and was retitled.
+
+**Proof (local, under the build lock; BUILD_PEAK_MIB=4000 for Playwright).** `e2e/journeys/everything-opens.spec.ts`, 7
+tests: a white belt unfolds Black, opens one of its lessons inline and (its lessons done) starts its checkpoint; gets a
+card from a later family in Practice (Keep practising, then the session queue); turns Recall Mode on in Settings — each by
+a real mouse at 1440x900 and by touch at 390x631 at measured points — and a blue belt held before the rule shows On, turns
+Off, and stays Off across a reload. 7 of 7 green; dev's own bundle (v1.266.0) red on all 7 at the first open-rule assertion.
+Mutants, each alone on the sources, the bundle rebuilt where a journey reads it, the tree restored byte for byte after:
+
+| mutant | red at |
+|---|---|
+| OPEN-M1 `beltUnlocked` back to `rank <= wornBelt().rank` | belt_worn "U163 c: every section…"; journey "the Path draws the Black section" (mouse, touch: with the locked branch gone a closed belt is not drawn at all) |
+| OPEN-M2 `_recallInPlayNow` also reads the worn belt from blue | belt_worn "timed recall: the switch decides…" (and the carry and merge tests) |
+| OPEN-M3 the patch's mint flips `recallInPlay` on again | belt_worn readers test, "timed recall…", the carry test |
+| OPEN-M4 no carry-over | belt_worn carry and merge tests; journey "the carried blue keeps timed recall…" |
+| OPEN-M5 the carry overwrites a stored value | belt_worn carry test "the stored false is kept" |
+| OPEN-M6 `openAt` merged local-wins | belt_worn merge test "the earlier stamp wins" |
+| OPEN-M7 the family filter back in `planSummary` | gameplan_runtime "U163 c: new cards…"; journey "a new deck from a later family" (mouse, touch) |
+| OPEN-M8 the Settings lock back | journey "the Recall Mode row is a switch" (mouse, touch), "the carried blue's Settings row is a switch" |
+
+The area, run locally 06:45–06:56: 29 journey files (Practice, Path, Recall Mode, keyboard, stories, capstone, belt; 232
+tests) and the 24 generated specs that walk the corridor or read the belt (25 tests): all green. `npm run test:units`:
+1,555 of 1,555. The full suites are the PR's e2e-full.
+
+**Bytes.** neural.js 685,833 -> 685,602 raw (-231), -46 gzip; neural.css -147 raw, -38 gzip; settings-ui.js (deferred)
+22,157 -> 21,383 (-774). Eager set 353,042 gzip (+4,354 on the 348,688 baseline, cap 5,000: dev's own drift, this change is
+about -84); first-visit core 372,463 (+1,356 of 6,000; total 405,512); deferred 510,233 of the committed 511,007, no ceiling
+moved; eager raw 1,398,784 of 1,600,000.
+
+**Not covered.** The capstone of a later belt by a press (it needs every unit of that belt proven; the unit test starts one
+on a blue belt); a roll's question asking as timed recall after the press in Settings (landcard-modes 5c covers the switch
+by `set`); the carry across a real cloud pull in a browser (the merge is unit-tested through the real `_pullAndMerge`).
