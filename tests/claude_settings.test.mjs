@@ -6,9 +6,6 @@
 // `git push` with --force, --force-with-lease, --force-if-includes, -f (alone or first in a bundle such as -fu), or a
 // +refspec. Rule syntax is the CLI's: `*` matches any text; a Bash deny applies to every subcommand of a compound
 // command and past wrappers and leading env assignments.
-// Proof with the real CLI (claude -p, project settings only, a throwaway repo whose origin is a local bare repo): each
-// form above refused, its command listed in permission_denials and origin unchanged; the previous rules, kept in a
-// top-level `deny` array, let the same force push through.
 //
 // Mutants, each applied alone, killed at:
 //   the deny block moved back to the top level -> "only known top-level keys" and "permissions.deny holds every..."

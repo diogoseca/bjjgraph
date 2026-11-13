@@ -323,7 +323,6 @@ jobs:
             1. Template: `/tmp/preprocessing/<filename>_template.json`
             2. Current file content
             3. Validation results: `/tmp/preprocessing/<filename>_validation.txt`
-            4. PAA data: `/tmp/paa_output/<filename>_paa.json` (if available)
 
             **Optimize:**
             - Fill required template fields; omit unsupported optional Systems sections
@@ -347,7 +346,6 @@ jobs:
             **Read:**
             1. Template OR examples: `/tmp/preprocessing/<filename>_template.json` or `<filename>_examples.txt`
             2. Current file content
-            3. PAA data: `/tmp/paa_output/<filename>_paa.json` (if available)
 
             **Optimize:**
             - Focus on content quality: fill TODOs, add wikilinks, improve descriptions

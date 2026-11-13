@@ -187,7 +187,7 @@ class WorkflowTests(unittest.TestCase):
     #   `curl -fsSL https://claude.ai/install.sh | bash` back in validation-fixer.yml -> test_claude_cli_is_the_pinned_build
     #   the CLI pin loosened to ^2.1.311, or moved without its lockfile            -> test_claude_cli_is_the_pinned_build
     #   the install without --ignore-scripts, or a third workflow installing it    -> test_claude_cli_is_the_pinned_build
-    #   `npx -y @modelcontextprotocol/server-dataforseo` back in seo-monitor.yml    -> test_no_workflow_runs_an_unlocked_package
+    #   `npx -y @modelcontextprotocol/server-dataforseo` back in seo-monitor.yml    -> test_no_npx_yes_or_mcp_server
     #   supabase-keepalive.yml without its permissions block                       -> test_every_workflow_declares_permissions
     CLI_DIR = ".github/tools/claude-cli"
     CLI_INSTALL = (
@@ -242,8 +242,9 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(sorted(installers), ["proofread-bot.yml", "validation-fixer.yml"])
         print(f"Checked the CLI pin {name}@{version} (sha512 in the lockfile) and its {len(installers)} installers")
 
-    def test_no_workflow_runs_an_unlocked_package(self):
-        # `npx -y <pkg>` installs whatever the registry holds that day, scripts and all; an MCP server starts that way.
+    def test_no_npx_yes_or_mcp_server(self):
+        # What it checks, and only that: no `npx -y|--yes`, no `--mcp-config` and no server-dataforseo in any workflow
+        # string. `npx -y <pkg>` installs whatever the registry holds that day, scripts and all; an MCP server starts that way.
         checked = 0
         for workflow_name, workflow in self._workflows():
             for text in self._strings(workflow):

@@ -32,6 +32,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _site_routes import clean_rows, route_index  # noqa: E402
 
+# "Never looked" must not read as "found nothing": an answer with no results list (an error body, an async answer, a
+# renamed key) is counted as that metric's error, with fixed text, never as an empty metric.
+NO_RESULTS_NOTE = "PostHog answered without a results list"
+
 QUERIES = {
     "pageviews": (
         "SELECT properties.$current_url, count() FROM events WHERE event = '$pageview' "
@@ -57,7 +61,7 @@ QUERIES = {
 }
 
 
-def run_query(pid: str, key: str, hogql: str) -> list:
+def run_query(pid: str, key: str, hogql: str) -> list | None:
     req = urllib.request.Request(
         f"https://us.posthog.com/api/projects/{pid}/query/",
         data=json.dumps({"query": {"kind": "HogQLQuery", "query": hogql}}).encode("utf-8"),
@@ -65,7 +69,8 @@ def run_query(pid: str, key: str, hogql: str) -> list:
         method="POST",
     )
     with urllib.request.urlopen(req, timeout=90) as resp:
-        return json.loads(resp.read().decode("utf-8")).get("results", [])
+        payload = json.loads(resp.read().decode("utf-8"))
+    return payload.get("results") if isinstance(payload, dict) else None
 
 
 def main() -> None:
@@ -95,6 +100,9 @@ def main() -> None:
         except Exception as e:  # noqa: BLE001 — degrade per-query, never fail the job
             rows = []
             result.setdefault("errors", {})[name] = str(e)
+        if not isinstance(rows, list):
+            rows = []
+            result.setdefault("errors", {})[name] = NO_RESULTS_NOTE
         result[name], result["dropped"][name] = clean_rows(rows, routes)
         print(f"{name}: kept {len(result[name])} rows naming a site page, dropped {result['dropped'][name]}")
     write(result)

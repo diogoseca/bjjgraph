@@ -31,6 +31,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _site_routes import clean_rows, route_index  # noqa: E402
 
+# "Never looked" must not read as "found nothing": an error body, an async answer or a renamed key carries no results
+# list, and writing an empty one would look exactly like a real zero. The note is fixed text, never the answer's.
+NO_RESULTS_NOTE = "PostHog unavailable (its answer carried no results list)"
+
 HOGQL = (
     "SELECT properties.$current_url, count() FROM events WHERE event='$pageview' "
     "AND (properties.$referrer LIKE '%google%' OR properties.$referrer LIKE '%bing%') "
@@ -71,7 +75,11 @@ def main() -> None:
     except Exception as e:  # noqa: BLE001 — degrade gracefully, never fail the job
         write({"available": False, "note": f"PostHog query failed: {e}"})
         return
-    results, dropped = clean_rows(payload.get("results") if isinstance(payload, dict) else None, routes)
+    rows = payload.get("results") if isinstance(payload, dict) else None
+    if not isinstance(rows, list):
+        write({"available": False, "note": NO_RESULTS_NOTE})
+        return
+    results, dropped = clean_rows(rows, routes)
     print(f"search entry: kept {len(results)} rows naming a site page, dropped {dropped}")
     write({"available": True, "data": {"columns": ["path", "count"], "results": results, "dropped": dropped}})
 

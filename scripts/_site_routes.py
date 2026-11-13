@@ -14,8 +14,11 @@ THE KEY. `route_key` is bot_run.py's selection key (it imports this one, so sele
 the URL path, percent-decoded, without slashes at either end or `.html`, spaces as hyphens, lower-cased. The host is
 not part of it, exactly as in selection; what reaches the model is the canonical path alone.
 
-THE ROUTES. Every page under content/ (a JSON source, plus its four role pages, and every Markdown page), with
-`index` pages answering for their folder and the home page as `/`. Dot-folders (the Obsidian vault) are not pages.
+THE ROUTES. Every page under content/: each JSON source and each Markdown page (generated role pages included,
+since they are files), at the path Quartz builds it, `_slug.quartz_page_path` (the one Python copy of Quartz's
+`sluggify`, pinned to path.ts by tests/redirect_targets_test.py), so `100% Sweep` is `/Transitions/100-percent-Sweep`.
+`index` pages answer for their folder and the home page is `/`. Dot-folders (the Obsidian vault) are not pages.
+Measured against a full build: every route is a served page (tests/bot_inputs_test.py pins the `%` page by name).
 
 Pinned by tests/bot_inputs_test.py, which plants one marker in every visitor-written field and requires that it
 never reaches the written file.
@@ -25,8 +28,9 @@ from __future__ import annotations
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
+from _slug import quartz_page_path
+
 MAX_URL_CHARS = 2048
-ROLE_PAGES = ("Top", "Bottom", "Attacker", "Defender")
 
 
 def route_key(path: str) -> str:
@@ -42,11 +46,11 @@ def route_index(content: Path = Path("content")) -> dict[str, str]:
         if stem == "index":
             routes[""] = "/"
             return
-        canonical = "/" + stem.replace(" ", "-")
+        canonical = "/" + quartz_page_path(stem)
         routes.setdefault(route_key(canonical), canonical)
         if stem.endswith("/index"):
             folder = stem.removesuffix("/index")
-            routes.setdefault(route_key(folder), "/" + folder.replace(" ", "-") + "/")
+            routes.setdefault(route_key(folder), "/" + quartz_page_path(folder) + "/")
 
     for path in sorted(content.rglob("*")):
         if path.suffix not in (".json", ".md") or not path.is_file():
@@ -54,11 +58,7 @@ def route_index(content: Path = Path("content")) -> dict[str, str]:
         relative = path.relative_to(content)
         if any(part.startswith(".") for part in relative.parts):
             continue
-        stem = relative.with_suffix("").as_posix()
-        add(stem)
-        if path.suffix == ".json":
-            for role in ROLE_PAGES:
-                add(f"{stem}/{role}")
+        add(relative.with_suffix("").as_posix())
     return routes
 
 

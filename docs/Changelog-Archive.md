@@ -16445,7 +16445,7 @@ with `--ignore-scripts` as its only argument it adds nothing; any other argument
 reviewed text is re-pinned. `tests/deploy_gate.test.mjs` (INSTALLS) reads every run line of both deploys and every
 env value; nine mutants each went red there, and four more in `tests/build_chains.test.mjs`.
 Proof that nothing needs its install script: a fresh clone, `npm ci --ignore-scripts` in `source/` (336 packages)
-and in the root (89), then `regenerate:neural` and `npm run build` under the build lock: 6,142 pages, page titles
+and in the root (89), then `regenerate:neural` and `npm run build`: 6,142 pages, page titles
 4,465 of 4,465, the payload budget OK (eager gzip 352,905 B, dev's own figure), and `validate:build-shape` equal on
 every count, marker and type, with the 3 root bundles and 14 app assets byte for byte. esbuild runs through its
 platform package (its script only swaps the launcher for the native binary); `@parcel/watcher` loads its prebuilt
@@ -16468,12 +16468,15 @@ input went. How to restore either without handing a model search-result text is 
 `lighthouse-ci` (`contents: read`) jobs declare theirs; every workflow now does.
 
 **Analytics rows reach a model only as the site's own paths.** PostHog's `$current_url` is whatever a browser sent
-with the public key. `scripts/_site_routes.py` maps each row to one of the site's 8,339 routes (every page under
-`content/`, role pages included) and writes our canonical path, never the visitor's string; a row naming no page, a
-URL over 2,048 characters or a value that is not a number is dropped and counted. Both prefetch scripts use it,
-`bot_run.py`'s selector shares its key, and both prompts say the rows are data. `tests/bot_inputs_test.py` plants
-one marker in every visitor-written field and requires that it never reaches either file; selection over raw rows
-and over filtered rows picks the same ten files.
+with the public key. `scripts/_site_routes.py` maps each row to one of the site's 4,541 routes and writes our
+canonical path, never the visitor's string. The routes are every page under `content/` at the path Quartz builds it
+(`_slug.quartz_page_path`, so `100% Sweep` is `/Transitions/100-percent-Sweep`); against a full build, 4,541 of 4,541
+are served pages. A row naming no page, a URL over 2,048 characters or a value that is not a number is dropped and
+counted. A PostHog answer with no results list is never written as an empty one: the search prefetch writes
+`available: false` with a fixed note, and the analytics prefetch counts it as that metric's error. Both prefetch
+scripts use the module, `bot_run.py`'s selector keys its sources by the same served paths, and both prompts say the
+rows are data. `tests/bot_inputs_test.py` plants one marker in every visitor-written field and requires that it never
+reaches either file; selection over raw rows and over filtered rows picks the same ten files.
 
 **Coverage counts moved, with the reason beside them.** `tests/bot_workflows_test.py`: Claude action invocations
 6 -> 5 and model/output contracts 4 -> 3, both the deleted PAA step.
@@ -16482,9 +16485,6 @@ and over filtered rows picks the same ten files.
 `settings.local.json` stays local), and its push rules sit under the key the tool reads, narrowed to force pushes.
 Five rules under `permissions.deny` refuse `git push` with `--force`, `--force-with-lease`, `--force-if-includes`, `-f`
 (alone or first in a bundle such as `-fu`) or a `+refspec`. The syntax comes from the CLI's own permissions page: a
-`*` matches any text, and a Bash deny applies to every subcommand of a compound command. The proof ran the real CLI
-(`claude -p`, project settings only) in a throwaway repo whose origin is a local bare repo: each form was refused,
-its command listed in `permission_denials` with origin unchanged. The control, the previous rules kept in a top-level
-`deny` array, let the same force push through. `tests/claude_settings.test.mjs` pins that the file
-is tracked, that its top-level keys are known ones, and that `permissions.deny` holds each force-push rule; each of its
-three mutants is killed by name.
+`*` matches any text, and a Bash deny applies to every subcommand of a compound command.
+`tests/claude_settings.test.mjs` pins that the file is tracked, that its top-level keys are known ones, and that
+`permissions.deny` holds each force-push rule; each of its three mutants is killed by name.

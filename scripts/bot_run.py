@@ -10,6 +10,7 @@ import sys
 from urllib.parse import urlsplit
 
 from _site_routes import route_key
+from _slug import quartz_page_path
 from bot_queue import filter_candidates, read_state
 
 
@@ -53,7 +54,8 @@ def select_analytics(analytics, count, output):
         data[path] = json.loads(path.read_text())
         if not isinstance(data[path], dict):
             raise ValueError(f"Analytics content source must be a JSON object: {path}")
-        stem = str(path.relative_to("content").with_suffix(""))
+        # keyed by the path the page is served at (100% Sweep is /Transitions/100-percent-Sweep), as the prefetch is
+        stem = quartz_page_path(path.relative_to("content").with_suffix("").as_posix())
         for suffix in ("", "/Top", "/Bottom", "/Attacker", "/Defender"):
             sources[key(stem + suffix)] = path
     metrics = {}
