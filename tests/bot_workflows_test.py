@@ -3,6 +3,7 @@ from pathlib import Path
 import json
 import os
 import re
+import shlex
 import subprocess
 import tempfile
 import unittest
@@ -187,7 +188,7 @@ class WorkflowTests(unittest.TestCase):
     #   `curl -fsSL https://claude.ai/install.sh | bash` back in validation-fixer.yml -> test_claude_cli_is_the_pinned_build
     #   the CLI pin loosened to ^2.1.311, or moved without its lockfile            -> test_claude_cli_is_the_pinned_build
     #   the install without --ignore-scripts, or a third workflow installing it    -> test_claude_cli_is_the_pinned_build
-    #   `npx -y @modelcontextprotocol/server-dataforseo` back in seo-monitor.yml    -> test_no_npx_yes_or_mcp_server
+    #   `npx -y @modelcontextprotocol/server-dataforseo` back in seo-monitor.yml    -> test_no_workflow_runs_a_package_outside_a_lockfile
     #   supabase-keepalive.yml without its permissions block                       -> test_every_workflow_declares_permissions
     CLI_DIR = ".github/tools/claude-cli"
     CLI_INSTALL = (
@@ -242,18 +243,8 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(sorted(installers), ["proofread-bot.yml", "validation-fixer.yml"])
         print(f"Checked the CLI pin {name}@{version} (sha512 in the lockfile) and its {len(installers)} installers")
 
-    def test_no_npx_yes_or_mcp_server(self):
-        # What it checks, and only that: no `npx -y|--yes`, no `--mcp-config` and no server-dataforseo in any workflow
-        # string. `npx -y <pkg>` installs whatever the registry holds that day, scripts and all; an MCP server starts that way.
-        checked = 0
-        for workflow_name, workflow in self._workflows():
-            for text in self._strings(workflow):
-                checked += 1
-                self.assertNotRegex(text, r"\bnpx\b[^\n]*\s(-y|--yes)\b", f"{workflow_name}: {text[:120]}")
-                self.assertNotIn("--mcp-config", text, f"{workflow_name}: an MCP server runs outside any lockfile")
-                self.assertNotIn("server-dataforseo", text, f"{workflow_name}: that package does not exist on npm")
-        self.assertGreater(checked, 500)
-        print(f"Checked {checked} workflow strings for npx --yes and MCP servers")
+    def test_no_workflow_runs_a_package_outside_a_lockfile(self):
+        _PackageRuns(self).check()
 
     # THE MODEL BOTS' TOOLS ARE THEIR JOBS (v1.265.3). Every claude-code-action step has a row here, and its
     # --allowedTools / --disallowedTools are exactly that row. The three agent-mode bots that edit or write hold: reads
@@ -352,6 +343,21 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(remotes, 6)
         print(f"Checked {len(seen)} Claude action grants and {remotes} checkouts that keep no token")
 
+    def test_secrets_reach_shells_only_through_env(self):
+        # A `${{ secrets.X }}` inside a run block is pasted into the script's text before the shell parses it, so a value
+        # holding a quote or `$(` becomes shell. Secrets reach a run step only through its env: mapping (v1.265.3).
+        # Mutant: supabase-keepalive.yml's URL back in its script text -> red.
+        runs = 0
+        for workflow_name, workflow in self._workflows():
+            for job in workflow["jobs"].values():
+                for step in job.get("steps", []):
+                    if "run" not in step:
+                        continue
+                    runs += 1
+                    self.assertNotRegex(step["run"], r"\$\{\{[^}]*\bsecrets\.", f"{workflow_name}: {step.get('name')}")
+        self.assertGreater(runs, 150)
+        print(f"Checked {runs} run blocks take secrets only through env")
+
     def test_every_workflow_declares_permissions(self):
         declared = 0
         for workflow_name, workflow in self._workflows():
@@ -378,6 +384,330 @@ class WorkflowTests(unittest.TestCase):
                     count += 1
         self.assertGreater(count, 40)
         print(f"Parsed {count} changed-workflow shell blocks")
+
+
+# NO WORKFLOW RUNS A PACKAGE THAT IS NOT INSTALLED FROM A COMMITTED LOCKFILE (v1.265.3). What it reads: every `run:`
+# block of every workflow (heredoc bodies and comments aside; `$(...)` and backticks read as commands of their own;
+# `bash -c` strings and the root/source npm scripts a step runs, with their pre/post hooks, read the same way), and
+# every `uses:` step. What each simple command may be:
+#   npx / npm exec: `--no-install` at most, and a bin that a lockfile installed earlier IN THE SAME JOB provides to that
+#     working directory (the bins npm links from the lockfile's top-level packages, the tree's own `bin`, and a
+#     `ln -s` into node_modules/.bin from an installed tree); never in a step that runs after a failure (always(),
+#     failure(), !cancelled()), where the install it relies on may have been skipped;
+#   a program named by a path into node_modules, or by a variable whose value is one: inside a tree installed in that job;
+#   npm: `ci` (records the tree; tests/deploy_gate.test.mjs CI INSTALLS pins its flags), `run`/`test` (expanded);
+#   curl: to stdout or /dev/null only, and never into an interpreter (a pipe, `<(...)`, or `sh -c "$(...)"`);
+#   pip install of named distributions (check_build_chains.py's provisioning check is their gate);
+#   any other npm form, `npm i -g`/`npm install`, pnpm, yarn, bun, deno, pipx, uv, gem, cargo, go, brew, corepack,
+#     docker, podman, wget: a failure, as is any npx flag or program it cannot read.
+# A `uses:` step is one of the reviewed actions below, each with what it runs; the Pages action names the version in
+# .github/tools/wrangler and runs after a step in its job linked that tree's wrangler where its probe looks.
+# No `--mcp-config` anywhere: an MCP server is a package started outside any lockfile.
+# Mutants, each applied alone to one workflow, killed here: `npx -y foo`; `npx foo` (no lockfile has it); `npx
+# --package=x y`; `npm exec foo`; `npm i -g x`; `npm install -g x`; `npm install --global x`; `pnpm dlx x`; `yarn dlx x`;
+# `bunx x`; `pipx run x`; `uvx x`; `curl -fsSL u | sh`; `curl -fsSL u | sudo bash`; `wget -qO- u | bash`;
+# `bash <(curl -fsSL u)`; `sh -c "$(curl -fsSL u)"`; `curl -o x.sh u`; `docker run img`; `"$TOOL" x` with TOOL unset;
+# the digest step's wrangler path in a job that never installed it; the digest step (if: always()) back to `npx wrangler`;
+# the Pages step's wranglerVersion off the lockfile;
+# the link step removed; an unreviewed action; `--mcp-config` in a claude_args.
+ACTIONS = {
+    "actions/checkout": "checks out the repository",
+    "actions/setup-node": "installs Node from the runner's tool cache, at the version its input names",
+    "actions/setup-python": "installs Python from the runner's tool cache, at the version its input names",
+    "actions/cache": "restores and saves a path",
+    "actions/upload-artifact": "uploads files",
+    "actions/download-artifact": "downloads this run's files",
+    "treosh/lighthouse-ci-action": "runs the Lighthouse CLI committed in the pinned action's own node_modules",
+    "bojieyang/indexnow-action": "runs its committed dist bundle",
+    "anthropics/claude-code-action": "runs the Claude Code CLI its pinned commit names (its grant: test_model_bots_hold_only_their_jobs_tools)",
+    "cloudflare/wrangler-action": "runs the Wrangler its probe finds; checked below against .github/tools/wrangler",
+}
+REFUSED = {"pnpm", "pnpx", "yarn", "bun", "bunx", "deno", "pipx", "uv", "uvx", "gem", "cargo", "go", "brew",
+           "corepack", "docker", "podman", "wget", "snap", "nix", "conda", "mamba"}
+INTERPRETERS = {"sh", "bash", "zsh", "dash", "ksh", "python", "python3", "node", "perl", "ruby", "php"}
+CONTROL = {"if", "then", "else", "elif", "fi", "do", "done", "while", "until", "!", "{", "}", "esac", ";;", "time"}
+WRAPPERS = {"sudo", "env", "nohup", "exec", "command", "builtin", "timeout", "nice", "stdbuf", "xargs"}
+
+
+class _PackageRuns:
+    def __init__(self, case):
+        self.t = case
+        self.counts = {"steps": 0, "commands": 0, "npx": 0, "paths": 0, "scripts": 0, "uses": 0}
+        self.lockfiles = {}
+        for lock in subprocess.run(["git", "ls-files", "*package-lock.json"], cwd=ROOT, capture_output=True,
+                                   text=True, check=True).stdout.split():
+            if "node_modules" in lock:
+                continue
+            tree = str(Path(lock).parent).replace("\\", "/")
+            packages = json.loads((ROOT / lock).read_text())["packages"]
+            bins = set((packages.get("", {}).get("bin") or {}))
+            for key, entry in packages.items():
+                rest = key[len("node_modules/"):] if key.startswith("node_modules/") else None
+                if rest and "/node_modules/" not in "/" + rest:
+                    bins |= set(entry.get("bin") or {})
+            self.lockfiles["." if tree in ("", ".") else tree] = {"bins": bins, "packages": packages}
+        case.assertTrue({".", "source", ".github/tools/wrangler"} <= set(self.lockfiles), sorted(self.lockfiles))
+
+    # ── the shell, read only as far as this check needs ──
+    @staticmethod
+    def logical_lines(run):
+        lines, out, heredoc, buf = run.split("\n"), [], None, ""
+        for raw in lines:
+            if heredoc is not None:
+                if raw.strip() == heredoc:
+                    heredoc = None
+                continue
+            m = re.search(r"(?<!<)<<-?\s*(['\"]?)([A-Za-z_][A-Za-z0-9_]*)\1(?!<)", raw)
+            if m:
+                heredoc = m.group(2)
+            if raw.rstrip().endswith("\\"):
+                buf += raw.rstrip()[:-1] + " "
+                continue
+            out.append(buf + raw)
+            buf = ""
+        if buf:
+            out.append(buf)
+        return out
+
+    def commands(self, run):
+        """Yield (words, pipeline_rest) for every simple command, with substitutions read as commands too."""
+        pending = list(self.logical_lines(run))
+        while pending:
+            line = pending.pop(0)
+            if not line.strip() or line.strip().startswith("#"):
+                continue
+            for inner in re.findall(r"[$<]\(((?:[^()]|\([^()]*\))*)\)|`([^`]*)`", line):
+                pending.append(inner[0] or inner[1])
+            line = re.sub(r"<\((?:[^()]|\([^()]*\))*\)", " PSUBST ", line)
+            line = re.sub(r"\$\((?:[^()]|\([^()]*\))*\)|`[^`]*`", "SUBST", line)
+            try:
+                lexer = shlex.shlex(line, posix=True, punctuation_chars=";&|()<>")
+                lexer.whitespace_split = True
+                lexer.commenters = "#"
+                words = list(lexer)
+            except ValueError as exc:
+                self.t.fail(f"cannot read: {line.strip()[:120]} ({exc})")
+            pipeline, current = [], []
+            for w in words + [";"]:
+                if w in (";", "&&", "||", "&", "(", ")", ";;", "|", "|&", ";&"):
+                    if current:
+                        pipeline.append(current)
+                    current = []
+                    if w not in ("|", "|&"):
+                        for i, cmd in enumerate(pipeline):
+                            yield cmd, pipeline[i + 1:]
+                        pipeline = []
+                    if w in ("(", ")"):
+                        yield [w], []  # a subshell scopes its `cd`
+                elif w in ("<", ">", ">>", "<<", "<<<", ">&", "<&") or (current and current[-1] in ("<", ">", ">>", "<<<", ">&", "<&")):
+                    current.append(w)  # redirections stay with their command
+                else:
+                    current.append(w)
+
+    def program(self, words):
+        # drop redirections and their targets (`2>/dev/null`, `>> "$GITHUB_OUTPUT"`, `<<< "$x"`, `&>file`)
+        kept, skip = [], False
+        for j, w in enumerate(words):
+            if skip:
+                skip = False
+                continue
+            if re.fullmatch(r"[<>&]+", w):
+                skip = True
+                continue
+            if w.isdigit() and j + 1 < len(words) and re.fullmatch(r"[<>&]+", words[j + 1]):
+                continue
+            kept.append(w)
+        words = kept
+        i = 0
+        while i < len(words):
+            w = words[i]
+            if w in CONTROL or re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*=.*", w):
+                i += 1
+            elif w in WRAPPERS:
+                i += 1
+                while i < len(words) and (words[i].startswith("-") or re.fullmatch(r"[0-9.]+[smhd]?", words[i])):
+                    i += 1
+            elif w in ("for", "case", "function", "select"):
+                return None, []
+            else:
+                return w, words[i + 1:]
+        return None, []
+
+    # ── the rules ──
+    @staticmethod
+    def norm(path):
+        return os.path.normpath(path or ".").replace("\\", "/")
+
+    def tree_of(self, path, installed):
+        path = self.norm(path)
+        for tree in sorted(installed, key=len, reverse=True):
+            if tree == "." or path == tree or path.startswith(tree + "/"):
+                return tree
+        return None
+
+    def check_command(self, words, rest, ctx):
+        prog, args = self.program(words)
+        if prog is None:
+            return
+        self.counts["commands"] += 1
+        where = f"{ctx['where']}: `{' '.join(words)[:110]}`"
+        if prog.startswith("$") or prog.startswith('"$'):
+            name = prog.strip('"').lstrip("$").strip("{}")
+            value = ctx["env"].get(name)
+            self.t.assertIsNotNone(value, f"{where}: a program named by a variable the step does not define")
+            prog = re.sub(r"\$\{\{[^}]*\}\}/?", "", value)
+        if "node_modules/" in prog or (prog in ("node",) and args and "node_modules/" in args[0]):
+            target = prog if "node_modules/" in prog else args[0]
+            self.counts["paths"] += 1
+            tree = self.norm(target.split("/node_modules/")[0] if "/node_modules/" in target else ".")
+            self.t.assertTrue(tree in ctx["installed"], f"{where}: runs from {tree}/node_modules, which no earlier step of this job installed")
+            return
+        if prog in INTERPRETERS | {"source", ".", "eval"}:
+            self.t.assertNotIn("PSUBST", args, f"{where}: {prog} runs a process substitution")
+            if prog in ("source", ".", "eval"):
+                self.t.assertFalse(any("SUBST" in a for a in args), f"{where}: {prog} runs a substitution")
+        if prog in REFUSED:
+            self.t.fail(f"{where}: `{prog}` installs or runs packages outside a committed lockfile")
+        if prog in ("npx",) or (prog == "npm" and args[:1] in (["exec"], ["x"])):
+            if prog == "npm":
+                args = args[1:]
+            self.counts["npx"] += 1
+            self.t.assertFalse(ctx["after_failure"], f"{where}: npx in a step that runs after a failure: an install skipped by "
+                               "that failure leaves npx to fetch from the registry; call the binary by its path")
+            flags = []
+            while args and args[0].startswith("-"):
+                flags.append(args.pop(0))
+            self.t.assertTrue(set(flags) <= {"--no-install", "--no"}, f"{where}: npx {flags}: a form this check does not read")
+            self.t.assertTrue(args, f"{where}: npx with no command")
+            available = ctx["bins"].get(self.tree_of(ctx["cwd"], ctx["bins"]) or "", set())
+            self.t.assertTrue(args[0] in available, f"{where}: `{args[0]}` is no bin of a lockfile this job installed for {ctx['cwd']}")
+            return
+        if prog == "npm":
+            sub = args[0] if args else ""
+            if sub == "ci":
+                prefix = args[args.index("--prefix") + 1] if "--prefix" in args else ctx["cwd"]
+                tree = self.norm(prefix)
+                self.t.assertTrue(tree in self.lockfiles, f"{where}: npm ci of a tree with no committed lockfile")
+                ctx["installed"].add(tree)
+                ctx["bins"].setdefault(tree, set()).update(self.lockfiles[tree]["bins"])
+                return
+            if sub in ("run", "run-script", "test", "t"):
+                name = "test" if sub in ("test", "t") else (args[1] if len(args) > 1 else "")
+                self.npm_script(name, ctx, where)
+                return
+            self.t.fail(f"{where}: `npm {sub}` is a form this check does not read (npm install re-resolves the lockfile)")
+        if prog in ("pip", "pip3") or (prog in ("python", "python3") and args[:2] in (["-m", "pip"],)):
+            pip = args[2:] if prog.startswith("python") else args
+            self.t.assertEqual(pip[:1], ["install"], f"{where}: a pip form this check does not read")
+            for value in pip[1:]:
+                self.t.assertRegex(value, r"^(-U|--upgrade|-q|--quiet|--disable-pip-version-check|--no-cache-dir|[A-Za-z0-9][A-Za-z0-9_.-]*(\[[^]]+\])?([<>=!~]=?[^ ]*)?)$",
+                                   f"{where}: pip install of {value!r}: named distributions only")
+            return
+        if prog == "curl":
+            for i, a in enumerate(args):
+                if a in ("-o", "--output") and args[i + 1:i + 2] != ["/dev/null"]:
+                    self.t.fail(f"{where}: curl writing a file")
+                if a.startswith("-O") or a == "--remote-name" or (re.fullmatch(r"-[a-zA-Z]*o", a) and args[i + 1:i + 2] != ["/dev/null"]):
+                    self.t.fail(f"{where}: curl writing a file")
+            for later in rest:
+                lp, _ = self.program(later)
+                self.t.assertNotIn(lp, INTERPRETERS, f"{where}: a download piped into {lp}")
+            return
+        if prog in ("sh", "bash", "zsh", "dash") and "-c" in args:
+            body = args[args.index("-c") + 1] if args.index("-c") + 1 < len(args) else ""
+            self.t.assertNotIn("SUBST", body, f"{where}: {prog} -c of a substitution")
+            self.scan(body, ctx, where + " (-c)")
+            return
+        if prog == "ln" and args and "-s" in "".join(a for a in args if a.startswith("-")):
+            target, link = [a for a in args if not a.startswith("-")][-2:]
+            if link.endswith("node_modules/.bin/" + Path(link).name):
+                resolved = self.norm(os.path.join(ctx["cwd"], os.path.dirname(link), target))
+                tree = resolved.split("/node_modules/")[0]
+                self.t.assertTrue(tree in ctx["installed"], f"{where}: links a bin from {tree}, which no earlier step installed")
+                into = self.norm(os.path.join(ctx["cwd"], os.path.dirname(os.path.dirname(os.path.dirname(link))) or "."))
+                ctx["bins"].setdefault(into, set()).add(Path(link).name)
+            return
+        if ctx["script"] and prog in set().union(*(v["bins"] for v in self.lockfiles.values())):
+            # inside an npm script, a bare bin name runs from that tree's node_modules/.bin
+            self.t.assertTrue(prog in ctx["bins"].get(self.tree_of(ctx["cwd"], ctx["bins"]) or "", set()),
+                              f"{where}: `{prog}` is no bin of a lockfile this job installed")
+
+    def npm_script(self, name, ctx, where):
+        tree = self.tree_of(ctx["cwd"], self.lockfiles) or "."
+        scripts = json.loads((ROOT / tree / "package.json").read_text()).get("scripts", {})
+        self.t.assertIn(name, scripts, f"{where}: no npm script {name!r} in {tree}/package.json")
+        for hook in ("pre" + name, name, "post" + name):
+            if hook in scripts:
+                self.counts["scripts"] += 1
+                self.scan(scripts[hook], {**ctx, "script": True}, f"{where} › npm script {hook}")
+
+    def scan(self, run, ctx, where):
+        cwd0, stack = ctx["cwd"], []
+        for words, rest in self.commands(run):
+            if words == ["("]:
+                stack.append(ctx["cwd"])
+                continue
+            if words == [")"]:
+                ctx["cwd"] = stack.pop() if stack else ctx["cwd"]
+                continue
+            if words and words[0] == "cd" and len(words) == 2:
+                ctx["cwd"] = self.norm(os.path.join(ctx["cwd"], words[1]))
+                continue
+            self.check_command(words, rest, {**ctx, "where": where})
+        ctx["cwd"] = cwd0
+
+    def check(self):
+        for workflow_name, workflow in self.t._workflows():
+            for text in WorkflowTests._strings(workflow):
+                self.t.assertNotIn("--mcp-config", text, f"{workflow_name}: an MCP server runs outside any lockfile")
+            for job_name, job in workflow["jobs"].items():
+                installed, bins = set(), {}
+                env_base = {**(workflow.get("env") or {}), **(job.get("env") or {})}
+                for i, step in enumerate(job.get("steps", [])):
+                    self.counts["steps"] += 1
+                    where = f"{workflow_name} › {step.get('name') or job_name + ' step ' + str(i)}"
+                    if "uses" in step:
+                        self.counts["uses"] += 1
+                        action = step["uses"].split("@")[0]
+                        self.t.assertIn(action, ACTIONS, f"{where}: {step['uses']} is no reviewed action")
+                        if action == "cloudflare/wrangler-action":
+                            self.wrangler_action(step, bins, installed, where)
+                        continue
+                    if "run" not in step:
+                        continue
+                    run = re.sub(r"\$\{\{.*?\}\}", "expr", step["run"])
+                    cwd = (step.get("working-directory") or (job.get("defaults") or {}).get("run", {}).get("working-directory") or ".")
+                    ctx = {"cwd": self.norm(cwd), "installed": installed, "bins": bins,
+                           "env": {**env_base, **(step.get("env") or {})}, "script": False,
+                           "after_failure": bool(re.search(r"always\(\)|failure\(\)|cancelled\(\)", str(step.get("if", ""))))}
+                    self.scan(run, ctx, where)
+        c = self.counts
+        # positive coverage, floors under the counts measured at v1.265.3 (246 steps, 64 uses:, 822 commands, 14 npx,
+        # 11 node_modules paths, 60 npm scripts): a reader that stopped reading cannot pass by finding nothing
+        self.t.assertGreater(c["steps"], 200)
+        self.t.assertGreater(c["uses"], 50)
+        self.t.assertGreater(c["commands"], 700)
+        self.t.assertGreaterEqual(c["npx"], 10)
+        self.t.assertGreaterEqual(c["paths"], 8)
+        self.t.assertGreater(c["scripts"], 40)
+        print("Package runs: {steps} steps ({uses} uses:), {commands} commands, {npx} npx resolved, "
+              "{paths} node_modules paths, {scripts} npm scripts expanded".format(**c))
+
+    def wrangler_action(self, step, bins, installed, where):
+        tool = self.lockfiles[".github/tools/wrangler"]
+        pin = json.loads((ROOT / ".github/tools/wrangler/package.json").read_text())["dependencies"]
+        self.t.assertEqual(list(pin), ["wrangler"])
+        self.t.assertRegex(pin["wrangler"], r"^\d+\.\d+\.\d+$", "an exact version, never a range")
+        entry = tool["packages"]["node_modules/wrangler"]
+        self.t.assertEqual(entry["version"], pin["wrangler"], "the lockfile was made from this pin")
+        self.t.assertEqual(tool["packages"][""]["dependencies"], pin)
+        self.t.assertTrue(all(v.get("resolved", "").startswith("https://registry.npmjs.org/") and v.get("integrity", "").startswith("sha512-")
+                              for k, v in tool["packages"].items() if k), "every package from the registry, by its sha512")
+        self.t.assertEqual(str(step.get("with", {}).get("wranglerVersion")), pin["wrangler"],
+                           f"{where}: wranglerVersion names the lockfile's version, or the action installs its own")
+        self.t.assertTrue(".github/tools/wrangler" in installed, f"{where}: the tool's lockfile installed earlier in this job")
+        self.t.assertTrue("wrangler" in bins.get(".", set()), f"{where}: the tool linked where the action's probe looks, earlier in this job")
+        self.t.assertFalse(step.get("with", {}).get("workingDirectory"), f"{where}: the probe runs in the repository root")
 
 
 if __name__ == "__main__":

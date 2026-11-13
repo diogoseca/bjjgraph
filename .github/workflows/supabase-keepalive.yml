@@ -16,9 +16,14 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
+      # The two values reach the script as environment variables (v1.265.3), never pasted into its text, so no byte of
+      # either is ever read as shell. Pinned by tests/bot_workflows_test.py (test_secrets_reach_shells_only_through_env).
       - name: Ping Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: |
-          if [ -z "${{ secrets.SUPABASE_URL }}" ]; then
+          if [ -z "$SUPABASE_URL" ]; then
             echo "SUPABASE_URL not set, skipping"
             exit 0
           fi
@@ -27,8 +32,8 @@ jobs:
           # under Supabase's new sb_publishable_/sb_secret_ key format. This also
           # exercises PostgREST + Postgres, registering genuine activity.
           STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
-            "${{ secrets.SUPABASE_URL }}/rest/v1/user_training_data?select=id&limit=1" \
-            -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}")
+            "$SUPABASE_URL/rest/v1/user_training_data?select=id&limit=1" \
+            -H "apikey: $SUPABASE_ANON_KEY")
           echo "Supabase ping status: $STATUS"
           if [ "$STATUS" -ge 400 ]; then
             echo "Warning: Supabase returned $STATUS"
