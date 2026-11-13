@@ -16939,5 +16939,15 @@ level. The eager set reads 355,298 B, +2,332 of 5,000 since it: dev's own drift 
 committed app rows reproduced, reads 353,310 B) plus this PR's +1,988. The deferred set reads 511,043 of its 511,043 B
 ceiling, the same figure with dev's bundle alone.
 
-**Not covered:** a retired question read as a live one (above); whether this weighting is the right one (the owner's, from
+**The reader's delta read (GO402): MERGE, with three low items.** D1: since the deck cap, a complete gi record summed to 2000
+less 2.7e-12, because the capped sum adds deck by deck in another order than the denominator. A share within 1e-9 of 1 is now
+exactly 1 (about 370 times the rounding measured, about 245 times below the smallest item on the wire, a no-gi question at
+2.4e-7 of the game). Pinned on the real payload in both rulesets: every live question and every dealt move known today reads
+exactly 2000 with nothing left to the top (mutant M22). D2: answers from the other ruleset are classed two ways, a flashcard
+on a deck only it weighs as `outside` ("ok", 1000 alone), a move at a seat only it deals as `unknownSeat` ("unmatched", null
+alone); written under NOT COVERED and pinned as it is (M21, M23). D3: the "writes nothing" unit's list of saved fields is by
+hand, and says so. 20 tests, 31 mutants, each killed by its named test. Final bytes: the eager set reads 355,304 B, +2,338 of
+5,000 since the checkpoint (dev +344, this PR +1,994); the deferred set 511,043 of 511,043, unchanged by this PR.
+
+**Not covered:** answers from the other ruleset classed two ways (above); a retired question read as a live one (above); whether this weighting is the right one (the owner's, from
 the simulation); any painted surface (none); a browser timing of the first call (node: 45 to 54 ms).
