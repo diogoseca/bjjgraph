@@ -347,12 +347,21 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   // THE PLAN SURFACE (where the untouched queue goes once the planner lands, SIDE-R2 B1; before v1.242.0
   // the queue's own "Open / retry study plan" button): the review rows are still the cover, and the
   // Practice head repeats the card count and the technique count (each row says its kind).
+  // THE PLAN MUST LAND BEFORE ANYTHING BELOW READS IT (v1.270.2). Until then nothing here waited for it:
+  // the fold's line below already reads "2 cards to review across 1 technique" from the eager queue
+  // (`_paintPractice` counts `s.review.rows` when there is no plan), so its wait was met before the
+  // released chunk had even arrived, and the read under it took `_session.plan` once. PR #406's
+  // shard 4 read `plan: false`; holding the chunk 400 ms after `release()` made that 10 of 10.
+  // The wait goes BEFORE the fold is opened: the plan's arrival re-renders the untouched queue,
+  // and the re-render closes the fold (gameplan-learning-loop.spec.ts says the same). Measured on the dev
+  // box, release to plan is about 1 s, network ~30 ms of it, and 3.7 to 5.7 s at 4x CPU, past the 5 s
+  // default, hence the bound practice-drawer.spec.ts uses.
   // Until v1.273.0 the plan's review rows were the same whole cover ([other], 2 cards) and its count line read "2 cards to
   // review across 1 technique". Practice now asks what is worth most, position by position (U171 a): the owed cards it
   // reaches today are its choice, so what is pinned is that its review rows are still a COVER of what it asks (each owed
   // card once, one row per deck) and that every figure it prints is that CARD count.
   release();
-  await expect.poll(() => page.evaluate(() => (window as any).__neural._session?.plan?.order || null), { message: "the worth plan lands" }).toBe("worth");
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._session?.plan?.order || null), { message: "the worth plan lands", timeout: 30_000 }).toBe("worth");
   await page.locator("[data-practice-details] > summary").click();
   await expect(page.locator('[data-session-section="Practice"]')).toBeVisible();
   const plan = await page.evaluate(() => {

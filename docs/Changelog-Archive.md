@@ -17106,6 +17106,12 @@ Proven: the wait at 0 failed 10 of 10 on the unchanged app (`elementFromPoint(54
 `scrollSettled` (same rect and own scrollTop on three frames running); with it, 10 of 10 green at wait 0. Same use in
 defending-arrivals `wheelTo` and defending-landing's Rolling loop. No app change.
 
-## v1.273.0 — Practice asks what is worth most, position by position (U171 a, 2026-11-13)
+## v1.270.2 — The Practice plan is read after it lands (SRS1, 2026-11-13)
 
-`neural/src/practice-queue.src.js`, in the deferred planner: traffic × forgetting, at most 6 a position, 4 new a day. The drawer's "N due" counts are gone. Parity, kill tables and measures sit at the code (`tests/practice_queue.test.mjs`, `e2e/journeys/practice-order.spec.ts`): 505 chars were left.
+srs-due.spec.ts:249 waited for a line the eager queue also prints, then read `_session.plan` once: red on PR #406
+(`plan: false`). It now polls the plan between `release()` and the fold. Chunk held 400 ms: 10/10 red, then 10/10
+green. Release to plan ~1 s, 4-6 s at 4x CPU. The other held-planner sites already poll the plan or read before it.
+
+## v1.273.0 — Practice by worth (U171 a)
+
+Narrative: tests/practice_queue.test.mjs.
