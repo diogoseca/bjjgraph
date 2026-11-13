@@ -238,7 +238,9 @@ NEURAL_TARGET = {
     # v1.274.0 (STAGE3, the owner's U170 a: "its own file, loaded when you open the drawer", up to about 550_000, each PR
     # moving it to exactly its measured use): 519_911, +9_642 B on dev v1.272.0's 510_269 (as v1.270.2's), all of it gameplan.js (the order
     # Practice asks in, practice-queue.src.js, and the plan built from it; 9_716 -> 19_358 B); 30_089 B of 550_000 remain.
-    "deferred_raw_bytes": 519_911,
+    # v1.274.0 STAGE3-R1 (the independent read's fixes): 520_149, +238 B more in gameplan.js (19_358 -> 19_596: the rows
+    # "More new cards" adds named apart in the lines, no re-plan claim, the day's floor); 29_851 B of 550_000 remain.
+    "deferred_raw_bytes": 520_149,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
