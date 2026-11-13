@@ -18,7 +18,14 @@
  *                 flashcards are all learned counts as mastered, so it is face up too (with no gold: the card's gold is
  *                 the move's own Yes)
  *
- *   node tests/artifacts/_knownshown_shoot.mjs <outDir> <baseDist>      SHOOT_BASE (default http://localhost:8193)
+ * KS2 (v1.268.0; `ks2` as the third argument, `baseDist` then being #401's own bundle): the same player, plus two
+ * never-answered moves whose flashcards are all learned, two cards side by side in the row (picked from the dealt
+ * order, so both are in view on the phone), one of them with a flashcard due today:
+ *   07 before     #401's app: both face down
+ *   08 after      this build: the learned one face up (no gold), the one with a due flashcard face down
+ *   09 asked      a look at the one with a due flashcard asks "Did you get it?"
+ *
+ *   node tests/artifacts/_knownshown_shoot.mjs <outDir> <baseDist> [ks2]      SHOOT_BASE (default http://localhost:8193)
  */
 import { chromium } from "playwright"
 import fs from "node:fs"
@@ -37,7 +44,8 @@ const MOVES = { [S]: {
   [ORD[ID.later]]: [TODAY + 9, 14, TODAY - 5, 1],
   [ORD[ID.due]]: [TODAY - 1, 3, TODAY - 4, 1],
 } }
-const BLOB = { v: 2, settings: { hideMoves: true }, settingsAt: { hideMoves: 1 }, moves: MOVES }
+const PART = process.argv[4] || "ks1"
+let BLOB = { v: 2, settings: { hideMoves: true }, settingsAt: { hideMoves: 1 }, moves: MOVES }
 const BASE_FILES = ["neural.js", "settings-ui.js", "game-model.worker.js", "game-study.js", "game-study.worker.js", "game-values.js"]
 const VPS = [{ w: 390, h: 844, mobile: true }, { w: 1440, h: 900, mobile: false }]
 
@@ -105,7 +113,46 @@ async function look(page, vp, id) {
 const browser = await chromium.launch()
 const log = []
 try {
-  for (const vp of VPS) {
+  if (PART === "ks2") {
+    // two adjacent never-answered cards, from the dealt order (stage does not move the odds, so seeding them keeps it)
+    let b = await boot(browser, VPS[1], false)
+    const L = await b.page.evaluate(async (ids) => {
+      // the row as drawn (it sorts itself by win chance once), not the order the cards were dealt in
+      const a = window.__neural, own = [...document.querySelectorAll('[data-choice-group="you"] .ng-choice-card')].map((card) => ({ opt: card._choiceOpt }))
+      const i = own.findIndex((c, i) => i > 0 && !ids.includes(c.opt.node.id) && !a._moveRow(c.opt) && own[i + 1] && !ids.includes(own[i + 1].opt.node.id) && !a._moveRow(own[i + 1].opt))
+      const out = {}
+      for (const [k, c] of [["learned", own[i]], ["learnedDue", own[i + 1]]]) {
+        const key = a.deckKeyFor(c.opt.node).key
+        if (!a._deckHasCards(key)) await a.hydrateDeck(key)
+        out[k] = { id: c.opt.node.id, t: c.opt.node.t, key, qh: a._cardsOf(a.flashcards.decks[key]).map((x) => a.qhash(x.q)) }
+      }
+      return out
+    }, Object.values(ID))
+    await b.ctx.close()
+    console.log("  learned:", L.learned.t, L.learned.qh.length, "cards; learned, one due:", L.learnedDue.t, L.learnedDue.qh.length, "cards")
+    const stage = {}, srs = {}
+    for (const [k, d] of Object.entries(L)) {
+      stage[d.key] = Object.fromEntries(d.qh.map((q) => [q, 3]))
+      srs[d.key] = Object.fromEntries(d.qh.map((q, i) => [q, k === "learnedDue" && i === 0 ? [TODAY - 1, 7, TODAY - 8] : [TODAY + 30, 30, TODAY - 2]]))
+    }
+    BLOB = { ...BLOB, stage, srs }
+    for (const vp of VPS) {
+      const start = vp.mobile ? L.learned.id : (await (async () => { const x = await boot(browser, vp, false); const o = (await cards(x.page)).map((c) => c.id); await x.ctx.close(); return o[0] })())
+      const dev = await boot(browser, vp, true)
+      await shot(dev.page, "07-before-flashcards-learned", vp, start, log)
+      log[log.length - 1].errors = dev.errors
+      await dev.ctx.close()
+      b = await boot(browser, vp, false)
+      await shot(b.page, "08-after-flashcards-learned-shown", vp, start, log)
+      await scrollTo(b.page, start); await sleep(300)
+      await look(b.page, vp, L.learnedDue.id)
+      const file = path.join(OUT, `09-flashcard-due-asks-${vp.w}.jpg`)
+      await b.page.screenshot({ path: file, type: "jpeg", quality: 86 })
+      log.push({ shot: path.basename(file), cards: (await cards(b.page)).filter((c) => c.id === L.learnedDue.id || c.id === L.learned.id).map((c) => `${c.t} [${c.up ? "up" : "down"}${c.gold ? ", gold" : ""}${c.asking ? ", asks " + c.asking : ""}]`), errors: b.errors })
+      console.log(" ", path.basename(file), JSON.stringify(log[log.length - 1].cards))
+      await b.ctx.close()
+    }
+  } else for (const vp of VPS) {
     // the row starts at the move that comes due in shot 03 on the phone, at the row's first card at 1440: the same card in
     // every shot of a width
     let b = await boot(browser, vp, false)
@@ -157,6 +204,6 @@ try {
     await b.ctx.close()
   }
 } finally {
-  fs.writeFileSync(path.join(OUT, "shots.json"), JSON.stringify(log, null, 1))
+  fs.writeFileSync(path.join(OUT, PART === "ks2" ? "shots-ks2.json" : "shots.json"), JSON.stringify(log, null, 1))
   await browser.close()
 }
