@@ -135,7 +135,7 @@ test("shared credit completing a mounted plan paints completion without a local 
   assert.equal(a.events.filter((e) => e.event === "neural_session_completed").length, 1);
 });
 
-// EVERYTHING OPENS (U163 c, owner, 13 Nov; v1.269.0): Practice's new cards come from every family. Until then this test was
+// EVERYTHING OPENS (U163 c, owner, 13 Nov; v1.270.0): Practice's new cards come from every family. Until then this test was
 // "a plan dealt with no belt to scope it says so, once until the curriculum lands": new cards were limited to the worn
 // belt's families, and a plan built with no curriculum dealt every belt and fired `practice_belt_unfiltered` once per
 // outage. There is no scope any more, so there is no fallback to name. Mutant OPEN-M7 (the family filter restored in

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * EVERYTHING OPENS: THE OWNER'S PICTURES (v1.269.0, U163 c; NOT a gate, NOT a test: the gate is
+ * EVERYTHING OPENS: THE OWNER'S PICTURES (v1.270.0, U163 c; NOT a gate, NOT a test: the gate is
  * e2e/journeys/everything-opens.spec.ts).
  *
  * A real static server of a built tree (scripts/e2e-serve.mjs), real wall clock, real input at measured points; a fresh

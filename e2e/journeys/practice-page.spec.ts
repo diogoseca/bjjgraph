@@ -90,7 +90,7 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }
       }
       await firstAnswer(page, j);
       expect(await page.evaluate(() => (window as any).__neural.practiceToday().done), "P1-C: reveal earns no grade").toBe(0);
-      // Until v1.269.0: `[data-belt-locked]` x4, with no button or lesson in them (the white belt's four later sections were
+      // Until v1.270.0: `[data-belt-locked]` x4, with no button or lesson in them (the white belt's four later sections were
       // locked). U163 c ("everything opens", owner, 13 Nov): all five sections are ordinary ones, each with its fold toggle.
       await expect(page.locator(".ng-belt-section [data-belt-toggle]")).toHaveCount(5);
       await expect(page.locator("[data-session] iframe, [data-session] video")).toHaveCount(0);
@@ -99,7 +99,7 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }
   });
 }
 
-// Until v1.269.0 this was "P1-B: only earned belt sections open; earlier work is revealable; direct selection cannot unlock":
+// Until v1.270.0 this was "P1-B: only earned belt sections open; earlier work is revealable; direct selection cannot unlock":
 // on a blue belt it asserted three locked sections and that selecting Black and unfolding it were refused. U163 c (owner,
 // 13 Nov, "everything opens") reverses that half: every later section is open, selectable and unfoldable. The other half
 // stands as it was: Practice's corridor starts at the belt you wear, earlier belts are one press away, and a hidden lesson

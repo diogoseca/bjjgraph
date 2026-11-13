@@ -131,9 +131,9 @@ the screen or is inert behind the pane or video viewer (`_recallLive`). An open 
 shortcuts; exposed landing controls still accept pointers. Grading releases the key. Space goes to a study surface and a
 focused mini-row first.
 
-**Recall Mode is a switch** (U163 c, v1.269.0): with `recallInPlay` on (`_recallInPlayNow`) a stage-2+
+**Recall Mode is a switch** (U163 c, v1.270.0): with `recallInPlay` on (`_recallInPlayNow`) a stage-2+
 card asks as timed recall Q/A in play; off, recognition-first MC. It prices only a question asked
-against a running CLOCK. No belt turns it on (until v1.269.0 the worn belt did from blue, and the
+against a running CLOCK. No belt turns it on (until v1.270.0 the worn belt did from blue, and the
 black patch's mint flipped it); a belt held before the open rule ran keeps it (`_recallCarried`,
 `openAt`). `renderChallengeCue` only removes a stale cue card. **Win chance explains itself** in the score tooltip (§4).
 
@@ -788,8 +788,8 @@ through the same persisted `exploreOpenSections` map a header click uses (neighb
 folds), and starts nothing. The deferred sections render expanded when their payload lands,
 because the map is written before their first render asks.
 
-**Path and Practice belt sections** (v1.248.0, U76; U163 c, v1.269.0). Every section is open:
-the belt only shows (until v1.269.0 future sections were inert, U87). In Practice, earlier belts
+**Path and Practice belt sections** (v1.248.0, U76; U163 c, v1.270.0). Every section is open:
+the belt only shows (until v1.270.0 future sections were inert, U87). In Practice, earlier belts
 sit behind “Show earlier belts” at the end. The worn belt drives default
 opening and Path arrival; lesson progress still drives the next-lesson highlight. All material
 remains available through reference, lists and gameplay, and all due reviews remain eligible.

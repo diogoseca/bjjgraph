@@ -29,7 +29,7 @@
 //   M13 the dayLog merge drops the email's belt line                → the dayLog merge carries it
 //   M14 setGiMode loses its POST-flip sync                           → flip (reload after a no-gi promotion)
 //   M15 setGiMode loses its PRE-flip sync                            → flip (gi promotion arriving in no-gi)
-//   OPEN-M1..M6 (U163 c, v1.269.0): beltUnlocked back to the worn rank · timed recall from the worn belt again · the
+//   OPEN-M1..M6 (U163 c, v1.270.0): beltUnlocked back to the worn rank · timed recall from the worn belt again · the
 //       patch's mint flips the switch again · no carry-over · the carry overwrites a stored value · `openAt` merged
 //       local-wins — each named at the assertion it turns red (the four tests at the end of this file)
 // NON-KILL, recorded so nobody reads this file as covering it: the Settings lock is gated in e2e
@@ -340,12 +340,12 @@ test("the readers follow the worn belt, never the score", () => {
   a._noteKnowledgeCredit("white-a|Attacker");
   const day = a.dayLog[a._dayKey()];
   assert.deepEqual(day.b, ["white", 0, 2], "the email's belt line names the worn belt");
-  // a blue belt with no score at all: recall in play is on (since U163 c, v1.269.0, by the carry-over: this blue was held
+  // a blue belt with no score at all: recall in play is on (since U163 c, v1.270.0, by the carry-over: this blue was held
   // before the open rule ran on the account — see "the carry-over" below)
   const b = boot({ blob: { belts: { won: {}, gf: 5, held: { id: "blue", t: 1 } } } });
   assert.equal(b.gameScore().score, 0);
   assert.equal(b._recallInPlayNow(), true);
-  // promoted to black through the Challenges: the patch mints at once. Until v1.269.0 it also flipped its toggle on
+  // promoted to black through the Challenges: the patch mints at once. Until v1.270.0 it also flipped its toggle on
   // (`get("recallInPlay")` was asserted true here); since U163 c it leaves the switch alone (the rule's start is seeded at
   // 1000 so this promotion is unambiguously under it)
   const c = boot({ blob: { openAt: 1000 } });
@@ -370,7 +370,7 @@ test("the dayLog merge carries the email's belt line", async () => {
   assert.equal(a.dayLog[today].s, 10, "the score keeps its own rule");
 });
 
-// EVERYTHING OPENS (U163 c, owner, 13 Nov; v1.269.0). Until then this test was P1-B, "future progression actions cannot
+// EVERYTHING OPENS (U163 c, owner, 13 Nov; v1.270.0). Until then this test was P1-B, "future progression actions cannot
 // use selected/folded tracks as an entitlement": on a blue belt it asserted that a stored black selection fell back to
 // blue, a stored black fold stayed shut, and selecting purple, folding brown open and starting a black lesson, checkpoint
 // or capstone were all refused. The owner's rule reverses each of those: the belt only shows. The Path's own evidence

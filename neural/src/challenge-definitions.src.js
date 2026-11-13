@@ -336,7 +336,7 @@ const NG_BADGE_DEFINITIONS = Object.freeze([
   { id: "black-breadth", name: "Broad Game", detail: "Clear the Black content track", sourceTrack: "black" },
   { id: "clean-checkpoint", name: "Clean Checkpoint", detail: "Pass a checkpoint flawlessly — every card right on first presentation", event: "checkpoint_passed", when: (p) => p.of > 0 && p.firstTry === p.of },
   { id: "thirty-from-memory", name: "Thirty From Memory", detail: "Recall-prove thirty cards", sourceChallenge: "brown.recall-thirty" },
-  // THE BLACK-BELT PATCH (v1.105.1, owner). Until v1.269.0 reaching black also unlocked Recall mode in play and switched
+  // THE BLACK-BELT PATCH (v1.105.1, owner). Until v1.270.0 reaching black also unlocked Recall mode in play and switched
   // it on; since U163 c the mode is a switch anyone turns on, so the patch is a patch: its id stays (it is stored in every
   // holder's `badges`). Black is the WORN belt since v1.211.0 (proven units, never a Game Knowledge band); the beat fires
   // from `_noteBlackBelt` while black-and-unminted, and `when` reads the belt off the props.

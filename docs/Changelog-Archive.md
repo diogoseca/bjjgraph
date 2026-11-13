@@ -16800,7 +16800,54 @@ the recipe to recompute is at the filter.
 **Local gates.** actionlint 1.7.7 after every workflow edit, 0 findings on all 16; `npm run ci:validate`; every touched
 unit suite. The full suites run on this PR.
 
-## v1.269.0 — Everything opens: the belt only shows (the owner's U163 c, OPEN1, 2026-11-13)
+## v1.268.0 — With moves hidden, a never-answered move whose flashcards are all learned is face up too (KS2, the owner's U166 b, 2026-11-13)
+
+**His answer (13 Nov, 05:47).** "b, Also a move whose flashcards are all learned." The reading #401 kept out goes in on top
+of it; #401 itself merged unchanged (v1.266.0).
+
+**The rule.** `_moveState` gains a fourth state, "learned": no row in `moves` for this move, and `_deckLearned(opt)`. The row
+rules wherever it exists: a No puts the move face down whatever its flashcards say, a Yes makes it "known" or "due" by the
+row's own date. `_applyHide` puts "known" and "learned" face up; a face-up card asks nothing and its first tap plays.
+
+**The three decisions, from source.** (1) "All learned" is `deckMastery(key) >= 1`, the test gold's level 2 already reads
+(`_goldCard`, `_movesGold`): every card at stage 3 or more; the deck is the one `_goldCard` names, and an escape has none.
+(2) "Not yet up for review": no card of that deck due by `duePool`'s and `_cardDue`'s formula (`due <= today` and not
+answered today), over the deck's own cards when they are resident (a reworded card's old row is skipped, as
+`ngGameplanDebt` skips it), else over every row the deck holds. One due card: face down, and a look asks "Did you get
+it?" (the move has no row). The orchestrator's reading, built as he wrote it. (3) A deck with no cards: `deckMastery`
+returns 0 for a missing deck and for `n` 0 in both branches. Counted on today's wire: 1,298 technique decks, 0 empty,
+0 missing; so the spec makes the three shapes (missing, a manifest stub of 0, zero cards resident) on a dealt move with
+stale grades planted, and keeps a control that turns the same card up once its real deck is learned.
+
+**What it does not touch.** No gold on a "learned" card (gold is the row's Yes; the mark is being redrawn). No row, so
+`_movesIdx`, "Moves known" and the odds' moves part cannot see it: the spec reads the line at 2 (the two seeded Yeses) and
+`mastery(key) - _flashMastery(key)` at 0. There is no rating on this tree yet. Settings' line now reads "...except moves you
+know or whose flashcards you have learned, until they are due: ..." because "Moves known" does not count this kind.
+`neural_move_picked` adds `flashcards: true` beside `shown`. docs/Neural.md is NOT updated: it stands 5 characters under
+its 74,017 cap and the shortest precise clause needs 6 more; its sentence stays true (a known move not due is face up).
+
+**Proof (local, under the build lock).** known-moves-shown.spec.ts gains five tests (10 of 10): two seeded moves, Cross
+Collar Choke from Mount (learned, none due) and Loop Choke from Mount (learned, one card due yesterday); mouse at 1440x900
+and 390x631 (face up, nothing asks, Moves known unchanged, one card at stage 2 puts it down and back, the day its cards
+come due puts it down and a look asks), touch at 390x631 (the due one turns up on a tap and asks; the learned one's first
+tap plays), a pull whose No overrules the flashcards and whose Yes makes it known and gold, and the empty-deck test.
+Mutants on the served bundle, the neutral control green in all ten:
+
+| mutant | red at |
+|---|---|
+| kind 2 off | "learned: ... face up, no gold" (3), the pull's precondition, the empty-deck control |
+| a due flashcard ignored | "learnedDue: ... face down, no gold" (3) |
+| the flashcards overrule a No | "another device's No: face down whatever its flashcards say" |
+| zero cards read learned (deckMastery n 0 -> 1) | "a deck whose manifest says 0 cards: not learned, mastery 0, face down" |
+| a laxer threshold (0.6) | "one of its cards at stage 2: face down" (2) |
+| kind 2 wears gold | "learned: ... face up, no gold" (3) |
+| #401's own bundle | the five KS2 tests (the empty-deck one before its claim: no `_deckLearned`); #401's five green |
+
+**Bytes.** neural.js +509 B raw / +177 B gzip on #401's bundle. Eager gzip 353,310 B, +4,622 B since its 348,688 B checkpoint
+(cap 5,000; dev's own drift is +4,446 of it). Deferred 511,043 B, +36 B (settings-ui.js only); the ceiling moved to exactly
+that in its own commit, under U134 b's 512,000 B, 957 B left.
+
+## v1.270.0 — Everything opens: the belt only shows (the owner's U163 c, OPEN1, 2026-11-13)
 
 **His decision (13 Nov, briefing answer U163 c).** "Everything opens": the belt only shows; timed recall and Recall Mode
 become settings anyone can turn on. His note, cut off as it arrived: "the path is going to be reformed soon, and the

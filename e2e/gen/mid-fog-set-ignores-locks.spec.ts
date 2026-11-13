@@ -6,7 +6,7 @@ import { curriculumMid, CURRICULUM } from "./personas"
 /**
  * FOG SET IGNORES PROGRESS AND TRACK SELECTION — the canvas fog-of-war and the study
  * economy are separate systems that must NOT leak into each other. For a mid-curriculum
- * white belt, Path renders the White section open and Blue folded (until v1.269.0 Blue was locked, U87; U163 c opened
+ * white belt, Path renders the White section open and Blue folded (until v1.270.0 Blue was locked, U87; U163 c opened
  * it), yet Blue's lesson nodes glow undimmed on the canvas: the fog answers "is this on the curriculum?",
  * never "is this rendered / studied yet?".
  *
@@ -89,7 +89,7 @@ test("curriculum-mid: unselected blue lesson's node sits INSIDE the fog set; mem
   expect(pre.setSize, "fog set is substantial").toBeGreaterThan(50)
 
   // ── selection evidence: blue is genuinely UNSELECTED (and thus unrendered) for this persona ──
-  // Until v1.269.0 (P1-B, U87) Blue was LOCKED for this white persona: no selectable header (count 0), `[data-belt-locked]`,
+  // Until v1.270.0 (P1-B, U87) Blue was LOCKED for this white persona: no selectable header (count 0), `[data-belt-locked]`,
   // and no lesson DOM at all. U163 c (owner, 13 Nov, "everything opens") opened it: Blue has its header, unselected, and
   // its lessons sit FOLDED, out of sight. Membership must stay blind to that as it was to the lock.
   const blueCard = page.locator(`.ng-track-card[data-track="${BLUE.id}"]`)

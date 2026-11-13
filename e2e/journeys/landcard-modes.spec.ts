@@ -506,8 +506,8 @@ test("the owner's Americana page asks MULTIPLE CHOICE — recognition first, alw
   expect(s.recall, "no stage-0 recall — flashcards are the earned graduation").toBe(false)
 })
 
-// ── 5c. timed recall is a switch (U163 c, v1.269.0) ───────────────────────────────────────────
-// Until v1.269.0: "from blue belt up, a proven card asks as recall in play — below, MC holds" (v1.133.0, "recall comes with
+// ── 5c. timed recall is a switch (U163 c, v1.270.0) ───────────────────────────────────────────
+// Until v1.270.0: "from blue belt up, a proven card asks as recall in play — below, MC holds" (v1.133.0, "recall comes with
 // rank"): a blue belt switched timed recall on. The owner's U163 c (13 Nov, "everything opens") makes it Recall Mode's
 // switch alone, so the second half now proves both directions: a blue belt earned now leaves MC in place, and the switch,
 // on a white belt, turns the proven card into timed recall. (A belt held before the rule carries over: belt_worn.test.mjs.)

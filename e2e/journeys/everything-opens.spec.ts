@@ -3,16 +3,16 @@ import { readFileSync } from "node:fs"
 import { resolve } from "node:path"
 import { journey } from "../dsl"
 
-/** EVERYTHING OPENS (v1.269.0, the owner, 13 Nov 2026, U163 c): "the belt only shows; timed recall and Recall Mode become
+/** EVERYTHING OPENS (v1.270.0, the owner, 13 Nov 2026, U163 c): "the belt only shows; timed recall and Recall Mode become
  * settings anyone can turn on".
  *
  * A WHITE belt, pressing as a player does (a real mouse at 1440x900, a touch tap at 390x631, both at measured points that
  * `elementFromPoint` confirms are the control; a scroll first where a player would scroll):
  *   1. opens the Black section of the Path, opens one of its lessons inline and, with that unit's lessons done, starts its
- *      checkpoint. Until v1.269.0 the Black section was "Locked · progress through the earlier belts", with no button.
- *   2. gets a card from a later family in Practice: the session's new decks come from every family. Until v1.269.0 they
+ *      checkpoint. Until v1.270.0 the Black section was "Locked · progress through the earlier belts", with no button.
+ *   2. gets a card from a later family in Practice: the session's new decks come from every family. Until v1.270.0 they
  *      came only from the worn belt's families.
- *   3. turns Recall Mode on in Settings. Until v1.269.0 the row was a locked teaser until black.
+ *   3. turns Recall Mode on in Settings. Until v1.270.0 the row was a locked teaser until black.
  * And 4: a blue belt held before the open rule keeps timed recall (the carry-over), Settings shows it On, and Off sticks
  * across a reload. The carry's rules in full, and the merge, are unit-tested (tests/belt_worn.test.mjs).
  *
@@ -20,7 +20,7 @@ import { journey } from "../dsl"
  * has a fold toggle" (both), "a new deck from a later family" (both), "the Recall Mode row is a switch" (both), "the carried
  * blue keeps timed recall, written down at the rule's start".
  * MUTANTS, each alone on this branch's sources rebuilt into the served bundle, each red at the named assertion and green
- * elsewhere (table in docs/Changelog-Archive.md, v1.269.0): OPEN-M1 `beltUnlocked` back to the worn rank -> "the Path draws
+ * elsewhere (table in docs/Changelog-Archive.md, v1.270.0): OPEN-M1 `beltUnlocked` back to the worn rank -> "the Path draws
  * the Black section" (both: the locked branch is gone, so a closed belt is not drawn at all); OPEN-M7 the family filter back
  * in `planSummary` -> "a new deck from a later family" (both); OPEN-M8 the Settings lock back -> "the Recall Mode row is a
  * switch" (both) and "the carried blue's Settings row is a switch"; OPEN-M4 no carry-over -> "the carried blue keeps timed

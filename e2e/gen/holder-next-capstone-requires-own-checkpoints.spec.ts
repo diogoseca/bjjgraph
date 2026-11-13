@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"lifetime-journeys","L":"white-capstone-holder","F":"content-capstone","B":"guard-limit"} @invariant "A White-capstone holder opens White, Blue and (since U163 c, v1.269.0) every later section too; Blue's own capstone remains unavailable until every Blue unit checkpoint carries evidence." */
+/* @hyperspace {"theme":"lifetime-journeys","L":"white-capstone-holder","F":"content-capstone","B":"guard-limit"} @invariant "A White-capstone holder opens White, Blue and (since U163 c, v1.270.0) every later section too; Blue's own capstone remains unavailable until every Blue unit checkpoint carries evidence." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { whiteBeltHolder, CURRICULUM } from "./personas"
@@ -18,7 +18,7 @@ test("white capstone does not gate Blue content; Blue capstone needs Blue checkp
     await expect(page.locator(`.ng-track-card[data-track="${track.id}"]`)).toBeVisible()
   }
 
-  // Until v1.269.0 Purple stayed an inert section (U87): `[data-belt-locked]`, no `[data-track]`. U163 c (owner, 13 Nov,
+  // Until v1.270.0 Purple stayed an inert section (U87): `[data-belt-locked]`, no `[data-track]`. U163 c (owner, 13 Nov,
   // "everything opens"): Purple is an ordinary section with its own header
   await expect(page.locator(`[data-belt="${PURPLE.id}"] .ng-track-card[data-track="${PURPLE.id}"]`)).toBeVisible()
 

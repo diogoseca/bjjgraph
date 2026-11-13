@@ -91,7 +91,7 @@ export function ngMergeBeltGrandfather(a, b) {
 }
 
 /**
- * EVERYTHING OPENS (U163 c, owner, 13 Nov; v1.269.0): the belt only shows. `openAt` (top level of the progress blob) is the
+ * EVERYTHING OPENS (U163 c, owner, 13 Nov; v1.270.0): the belt only shows. `openAt` (top level of the progress blob) is the
  * moment the open rule first ran for an account, in ms; 0 means not yet, or not a time. It exists for one reader, the
  * carry-over of timed recall (`_recallCarried` in the app): a belt earned no later than it keeps what the belt gave.
  * Merged as the EARLIER of two sides — the rule began when it first ran on any device — and 0 when neither has run it.
