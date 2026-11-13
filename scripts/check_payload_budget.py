@@ -242,7 +242,9 @@ NEURAL_TARGET = {
     # "More new cards" adds named apart in the lines, no re-plan claim, the day's floor); 29_851 B of 550_000 remain.
     # v1.274.0 STAGE3-R2 (the delta read's small items): 520_258, +109 B more in gameplan.js (19_596 -> 19_705: a Path lesson
     # named "From the Path" and counted apart in the lines); 29_742 B of 550_000 remain.
-    "deferred_raw_bytes": 520_258,
+    # v1.274.0 on dev v1.273.0 (DEV405, PR #405 merged in): 520_300, +42 B in gameplan.js (19_705 -> 19_747: it bundles
+    # rating.src.js, which #405 grew); 29_700 B of 550_000 remain.
+    "deferred_raw_bytes": 520_300,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
