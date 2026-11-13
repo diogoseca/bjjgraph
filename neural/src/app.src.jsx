@@ -21074,7 +21074,9 @@ class Component extends DCLogic {
         else if ((inc || !(admit ? t - gone.get(c.i) < 0.5 : gone.has(c.i))) && room(c) >= (inc ? 3 : 6)) b = place(c, inc ? [prev.get(c.i)].concat(admit ? K : []) : K, inc ? 3 : 6, 1);
         if (b) { b.g = G + plan.size; b.w = pass; b.i = c.i; claims.push(b); plan.set(c.i, b); }
       }
-      for (const i of prev.keys()) if (!plan.has(i)) gone.set(i, t);
+      // only a name the LAYOUT refused waits; one that is no longer a candidate (turned face down, its orb off the canvas,
+      // named by the pointer instead) is back the moment it is one again (hidden-moves: a pull flipping the setting twice)
+      for (const c of cands) if (prev.has(c.i) && !plan.has(c.i)) gone.set(c.i, t);
       if (admit) for (const [i, g] of gone) if (t - g >= 0.5) gone.delete(i);
       memo.prev = new Map([...plan].map(([i, b]) => [i, b.k]));
       memo.sig = sig; memo.plan = plan;
