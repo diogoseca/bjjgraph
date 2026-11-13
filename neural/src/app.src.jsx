@@ -5918,11 +5918,40 @@ class Component extends DCLogic {
     // EVERYTHING OPENS (U163 c, owner, 13 Nov): new cards come from every family. Until v1.270.0 a deck outside the worn
     // belt's families got no headroom (and a plan built with no curriculum said so once, `practice_belt_unfiltered`); the
     // belt now only shows. e2e/journeys/everything-opens.spec.ts and tests/gameplan_runtime.test.mjs pin it.
-    const stamp = this._gameplanStamp();
-    return this._gameplanRuntime.ngGameplanBuild({ day: this._epochDay(), ruleset: this._giMode || "gi",
+    // WHAT IS WORTH MOST (U171 a, v1.273.0): the order is neural/src/practice-queue.src.js (deferred, in gameplan.js); it
+    // prices every question with the rating's own game (`_ratingGame`: one table, one answer) and asks it at the position
+    // its deck belongs to. A plan that could not use it (no game yet, a record with no answer) is today's order, and says
+    // so once per reason (`practice_order_fallback`), never as a worth plan.
+    const stamp = this._gameplanStamp(), game = this._ratingGame(this._giMode === "nogi" ? "nogi" : "gi");
+    const plan = this._gameplanRuntime.ngGameplanBuild({ day: this._epochDay(), ruleset: this._giMode || "gi",
       revision: this._knowledgeRevision || this._stageVer || 0, stamp,
       target: this.practiceGoal(), decks: this._gameplanDecks(true), srs: this.srs,
-      provider: this._gameplanProvider, fallback: this._gameplanWeakFallback() });
+      provider: this._gameplanProvider, fallback: this._gameplanWeakFallback(),
+      worth: { game, seats: this._practiceSeats(game), stage: this.stage } });
+    if (plan.orderStatus !== "ok" && this._orderBeat !== plan.orderStatus) { this._orderBeat = plan.orderStatus; this.fx("practice_order_fallback", { reason: plan.orderStatus }); }
+    return plan;
+  }
+  // POSITION BY POSITION (U171 a): the seat each deck is asked at, read off the rating's own dealt hands (no deal of its
+  // own): a position's deck, the attacking deck of every move it deals, and the defending half of each of those at the
+  // other seat. The first seat to claim a deck keeps it; the 12 stateAlias "…-Control" seats claim nothing (their hand is
+  // a submission's); a deck no seat claims is asked as a loose card.
+  _practiceSeats(game) {
+    const c = this._practiceSeatsAt;
+    if (c && c.game === game) return c.map;
+    // the rating's walk already asked the mask; asked again here so this enumeration says so itself (validate:surfaces)
+    const map = {}, at = (o) => { const id = this._ordToId.get(+o), i = id == null ? null : this._idIndex.get(id); return i == null || !this.rsAllowsIdx(i) ? null : this.nodes[i]; };
+    for (const [st, hand] of game.seats || []) {
+      const k = st.indexOf("/"), p = at(st.slice(0, k)), top = st.slice(k + 1) === "top", f = p && this.posFamily(p.t);
+      if (!p || p.cal?.stateAlias) continue;
+      const seat = f + (top ? "|Top" : "|Bottom");
+      map[seat] ??= seat;
+      for (const mv of hand.keys()) {
+        const n = at(mv), dk = n && this.deckKeyFor(n).key;
+        if (dk) { map[dk] ??= seat; map[dk.replace(/\|Attacker$/, "|Defender")] ??= f + (top ? "|Bottom" : "|Top"); }
+      }
+    }
+    this._practiceSeatsAt = { game, map };
+    return map;
   }
   /**
    * D1 (owner, 2026-09-30): "when no study comparison exists, fall back to the weak-spots ranking so
@@ -6301,16 +6330,19 @@ class Component extends DCLogic {
   // sees them. Already graded cards still count in the original session ledger.
   _practiceAppend(s, incoming, chosen) {
     if (this._session !== s || !incoming) return;
-    const old = s.plan, due = (old ? old.due : s.review.rows).map(r => ({ ...r, questions: r.questions.slice() }));
-    const fresh = old ? old.fresh.slice() : [];
-    for (const r of incoming.due) {
-      const prior = due.find(x => x.key === r.key);
-      if (prior) { prior.questions = [...new Set(prior.questions.concat(r.questions))]; prior.count = prior.questions.length; }
-      else due.push(r);
-    }
     // A cold fallback can already be revealed/graded before the planner arrives.
     // Reserve that exact deck's cards so it cannot become a second shared copy.
     const active = s.keys[s.idx], engaged = this._deckState?.[active]?.revealed || this.practiceToday().done !== s.started;
+    // an untouched cold queue (every owed card, oldest first) gives way to a worth plan whole (U171 a); a touched one stays
+    const old = s.plan, due = (old ? old.due : incoming.order === "worth" && !engaged ? [] : s.review.rows).map(r => ({ ...r, questions: r.questions.slice() }));
+    const fresh = old ? old.fresh.slice() : [];
+    for (const r of incoming.due) {
+      const prior = due.find(x => x.key === r.key);
+      if (prior) {
+        if (r.owed) prior.owed = [...new Set((prior.owed || prior.questions).concat(r.owed))];
+        prior.questions = [...new Set(prior.questions.concat(r.questions))]; prior.count = prior.questions.length + (prior.pending || 0);
+      } else due.push(r);
+    }
     if (!old && engaged && active && !due.some(r => r.key === active)) {
       const d = this._gameplanDecks()[active];
       if (d) fresh.push({ key: active, kind: "new", questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length), count: d.count, reason: "Practice this lesson." });
@@ -6325,8 +6357,9 @@ class Component extends DCLogic {
       questions.forEach(q => used.add(q));
       fresh.push({ ...r, kind: "new", questions, count: questions.length + r.pending });
     }
-    const dueQuestions = [...new Set(due.flatMap(r => r.questions))];
-    const newCards = fresh.reduce((n, r) => n + r.count, 0);
+    // a worth plan's review row lists its owed cards (`owed`); a new card of the same deck rides in it and counts as new
+    const dueQuestions = [...new Set(due.flatMap(r => r.owed || r.questions))];
+    const newCards = fresh.concat(due).reduce((n, r) => n + (r.owed ? r.count - r.owed.length : r.kind === "due" ? 0 : r.count), 0);
     s.plan = { ...incoming, due, fresh, dueQuestions,
       dueCards: dueQuestions.length, newCards, total: dueQuestions.length + newCards,
       more: incoming.more.filter(r => !keys.has(r.key)) };
@@ -6348,7 +6381,7 @@ class Component extends DCLogic {
     }
     this.hydrateDecks(s.keys).then(() => {
       if (this._session !== s || !this._sessionInline()) return;
-      s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks());
+      s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks(), this.srs);
       this._paintGameplanProgress(s);
     });
   }
@@ -6390,7 +6423,7 @@ class Component extends DCLogic {
         complete: day === snapshot.day && !debt.count && completed === snapshot.count,
         newDebt: debt.questions.filter((q) => !snapshot.questions.includes(q)), blocked: debt.blocked });
     }
-    s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, decks);
+    s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, decks, this.srs);
     return (s.live = this._gameplanRuntime.ngGameplanProgress(s.plan, { srs: this.srs, day: this._epochDay(), decks }));
   }
   _sessionRowDone(s, key) {
@@ -6451,7 +6484,7 @@ class Component extends DCLogic {
       const details = document.createElement("details");
       details.innerHTML = '<summary>Why these decks?</summary><p></p>';
       // PLAIN COPY (item 9, owner 2026-09-30): what the order means, then the ranking's own caveats.
-      details.lastChild.textContent = "Reviews come back on your memory schedule, most overdue first. New techniques, ranked by how much practising them would help your game, are mixed in: a new technique after every few reviews. " +
+      details.lastChild.textContent = s.plan.why || "Reviews come back on your memory schedule, most overdue first. New techniques, ranked by how much practising them would help your game, are mixed in: a new technique after every few reviews. " +
         "Correct answers make your moves more likely to work in the game; that is not a measure of real grappling. A question two decks share counts once. " +
         s.plan.assumptions.join(" ");
       box.appendChild(details);
@@ -6563,7 +6596,7 @@ class Component extends DCLogic {
     list.innerHTML = '<div data-plan-goal="1" style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;font-size:11.5px;font-weight:600"><span data-plan-goal-progress="1" aria-live="polite" style="color:#9ab0e0;white-space:nowrap"></span><span data-practice-goal="1"></span></div><section data-session="1" class="ng-practice-cards"><div data-practice-section="1"></div></section><div class="ng-practice-nav"></div><div data-practice-keys="1"></div><div data-practice-end="1"><div></div></div><div></div><div><details data-practice-details="1"><summary>Practice details &amp; session queue</summary><div data-practice-queue="1"></div><p data-session-section="Practice"></p><div></div></details></div>';
     const [goal, wrap, nav, keys, end, corridor, support] = list.children, details = support.firstChild;
     s.goal = goal; s.rows = wrap; s.heading = wrap.firstChild; s.corridor = corridor; s.support = support; s.end = end;
-    s.queue = details.children[1]; s.count = details.children[2]; s.explanation = details.children[3]; s.completion = end.firstChild;
+    s.queue = details.children[1]; s.count = details.children[2]; s.explanation = details.children[3]; s.completion = end.firstChild; s.visitShown = null;
     keys.innerHTML = this._keyLegend();
     for (const [text, dir] of [["‹ Previous technique", -1], ["Next technique →", 1]]) {
       const b = this.drillBtn(text); b.onclick = () => this.sessionNav(dir); nav.appendChild(b);
@@ -6595,6 +6628,13 @@ class Component extends DCLogic {
     for (let i = this._sessionOpeners.length; i < s.keys.length; i++) {
       const key = s.keys[i], row = this._sessionRow(key, i, s, this.flashcards?.decks || {});
       s.rows.appendChild(row.el); this._sessionOpeners.push(row.open);
+      // a worth plan's queue names each position before its decks (U171 a: position by position)
+      const v = s.plan?.order === "worth" && s.plan.due.concat(s.plan.fresh).find((r) => r.key === key);
+      if (v && v.visit !== s.visitShown) {
+        s.visitShown = v.visit;
+        const at = document.createElement("p"); at.setAttribute("data-practice-visit", v.visit);
+        at.textContent = v.visit + 1 + " \u00b7 " + (v.seat ? v.seat.replace("|", " \u00b7 ") : "Other cards"); s.queue.appendChild(at);
+      }
       const jump = document.createElement("button"); jump.type = "button";
       jump.textContent = key.replace("|", " · ");
       jump.onclick = () => { row.open(); this._scrollFocusedDeck(); }; s.queue.appendChild(jump);
@@ -6611,11 +6651,12 @@ class Component extends DCLogic {
     goal.style.color = today.done >= today.goal ? "#7ee0a8" : "#7e8aa3";
     progress.textContent = p.total ? "Reviewed " + p.completed + "/" + p.total : "Nothing left to review";
     const due = s.plan ? s.plan.due : s.review.rows, row = due.find(r => r.key === s.keys[s.idx]);
-    const label = row ? "Due reviews · " + cards(p.dueCards) : ngBeltDisplayName(worn.id) + " practice";
+    const lines = s.plan && this._gameplanRuntime.ngGameplanLines?.(s.plan, p, s.keys[s.idx]);
+    const label = lines ? lines.heading : row ? "Due reviews · " + cards(p.dueCards) : ngBeltDisplayName(worn.id) + " practice";
     s.heading.textContent = label;
     s.rows.style.setProperty("--practice-belt", NG_CHALLENGE_TRACK_COLORS[worn.id]);
     // Each half only when it has something to say (SIDE-R2 M6): no plan makes no claim about new work.
-    s.count.textContent = [p.dueCards ? cards(p.dueCards) + " to review across " + techs(due.length) : "", s.plan?.fresh.length ? s.plan.newCards + " new across " + techs(s.plan.fresh.length) + ", " +
+    s.count.textContent = lines ? lines.count : [p.dueCards ? cards(p.dueCards) + " to review across " + techs(due.length) : "", s.plan?.fresh.length ? s.plan.newCards + " new across " + techs(s.plan.fresh.length) + ", " +
       this._newOrderText(s.plan) : ""].filter(Boolean).join(" \u00b7 ");
     const more = s.more;
     more.disabled = !!s.plan && !s.plan.more.length;
@@ -6713,7 +6754,7 @@ class Component extends DCLogic {
         why.style.cssText = "font-size:12px;line-height:1.5;color:#aab9d5;padding:0 12px;overflow-wrap:anywhere;";
         // ONE PLAIN SENTENCE PER CARD (item 9, owner 2026-09-30); the caveats live once, under
         // "Why these decks?". The row's own subtitle already names the role.
-        why.textContent = planned && planned.kind === "due"
+        why.textContent = planned && planned.kind === "due" && !planned.reason
           ? planned.count + (planned.count === 1 ? " card" : " cards") + " due for review, so you keep what you've learned."
           : planned.reason;
         explanation.appendChild(why);
@@ -7836,19 +7877,15 @@ class Component extends DCLogic {
     const pr = box && box.querySelector('[data-b="due"]'); if (!pr) return;
     this._ensureGameplanClock();
     const plan = this.planSummary(), t = this.practiceToday();
-    const debt = plan ? null : ngGameplanDebt({ srs: this.srs, day: this._epochDay(), decks: this._gameplanDecks() });
-    const due = plan ? plan.dueCards : debt.count, techs = plan ? plan.due.length : debt.rows.length;
     box.setAttribute("data-gameplan-status", this._gameStudyState?.phase || (plan ? plan.status : this._gameplanLoadState || "not-loaded"));
-    pr.setAttribute("data-due-decks", techs);
     if (plan) pr.setAttribute("data-new", plan.fresh.length); else pr.removeAttribute("data-new");
-    // the stat cells' tooltip, kept whole: what is owed, what was answered, and the plan's new count or state
-    const tip = due + (due === 1 ? " card" : " cards") + " due \u00b7 " + techs + (techs === 1 ? " technique" : " techniques") + " \u00b7 " +
-      t.done + " answered today \u00b7 " + this._gameStudyStatText(plan, (v) => v);
+    // "N DUE" LEFT THE DRAWER (owner U171 a, 13 Nov): the owed pile is no longer the day's debt, so the row and its tooltip
+    // say what was answered against today's goal and the plan's state, never a due count
+    const tip = t.done + " answered today \u00b7 " + this._gameStudyStatText(plan, (v) => v);
     pr.title = tip; pr.setAttribute("aria-label", "Practice, daily goal " + this._practiceGoalText(t) + ": " + tip);
     // WRITTEN ONLY WHEN IT CHANGED (SIDE-R2 M10): a residency refresh rewrote the pill under a pointer,
     // and a press whose target is replaced before its release dispatches no click (FGD13's class).
-    const tail = pr.querySelector(".ng-dr-tail"), html = (due ? '<span class="ng-dr-pill">' + due + ' due</span>' : '') +
-      '<span class="ng-dr-bar"><i style="width:' + Math.min(100, Math.round(100 * t.done / Math.max(1, t.goal))) + '%"></i></span>' + t.done + '/' + t.goal;
+    const tail = pr.querySelector(".ng-dr-tail"), html = '<span class="ng-dr-bar"><i style="width:' + Math.min(100, Math.round(100 * t.done / Math.max(1, t.goal))) + '%"></i></span>' + t.done + '/' + t.goal;
     if (tail._ngHtml !== html) { tail._ngHtml = html; tail.innerHTML = html; }
   }
   /** LAST ROLLS on the home list: this roll and the three before it, each opening the full view. */

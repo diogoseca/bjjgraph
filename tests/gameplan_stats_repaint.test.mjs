@@ -33,12 +33,15 @@ function fixture(){const tasks=[],document={createElement:()=>new Element()};
  const mount=()=>{drawer.children=[];app._renderTrain(drawer);const box=drawer.children[0];return{box,row:box.querySelector('[data-b="due"]')};};
  return{app,drawer,session,calls,tasks,mount,plan(value){plan=value;app._gameplanRuntime={ngGameplanSummary:()=> 'real planner summary seam'};}};
 }
-test('absent planner: the Practice row keeps the owed reviews and the loading state, and opens Practice',()=>{
+// "N DUE" LEFT THE DRAWER (owner U171 a, 13 Nov 2026; v1.273.0). Until then this test pinned the owed reviews ON the row:
+// the "1 due" pill, `data-due-decks="1"` and a tooltip opening "1 card due · 1 technique · ". The owed pile is no longer the
+// day's debt, so it now pins their absence, with today's count against the goal and the loading state kept.
+test('absent planner: the Practice row shows today\'s count and the loading state, no due count, and opens Practice',()=>{
  const f=fixture(),{box,row}=f.mount();
  assert.equal(box.getAttribute('data-explore-stats'),'1');assert.equal(box.getAttribute('data-gameplan-status'),'pending');
- assert.equal(row.getAttribute('data-new'),null);assert.equal(row.getAttribute('data-due-decks'),'1');
- assert.match(row.title,/^1 card due · 1 technique · 0 answered today · Suggestions loading/);assert.doesNotMatch(row.title,/0 new/);
- assert.match(row.tail.html,/>1 due</);assert.match(row.tail.html,/0\/20$/);
+ assert.equal(row.getAttribute('data-new'),null);assert.equal(row.getAttribute('data-due-decks'),null);
+ assert.match(row.title,/^0 answered today · Suggestions loading/);assert.doesNotMatch(row.title,/0 new|due/);
+ assert.doesNotMatch(row.tail.html,/due|ng-dr-pill/);assert.match(row.tail.html,/0\/20$/);
  row.click();assert.deepEqual(f.calls.plans,['due']);assert.equal(f.tasks.length,0);
 });
 test('late loaded planner stats refresh reaches the existing review panel without replacing its queue',()=>{
@@ -63,7 +66,8 @@ test('a late refresh repaints the mounted Practice row in place and keeps its li
  f.plan({status:'ready',fresh:[{key:'Guard|Top'}],reviewed:[],due:[{key:'Mount|Top'}],dueCards:3});f.app._gameStudyState={phase:'ready'};
  f.app._refreshGameplanUI();f.tasks.shift()();
  assert.equal(f.drawer.children[0],box,'the same block');assert.equal(box.querySelector('[data-b="due"]'),row,'the same row object');
- assert.match(row.tail.html,/>3 due</);assert.equal(box.getAttribute('data-gameplan-status'),'ready');
+ // until v1.273.0: `/>3 due</`, the plan's owed count on the repainted row; the count left the drawer (U171 a)
+ assert.doesNotMatch(row.tail.html,/due/);assert.match(row.tail.html,/0\/20$/);assert.equal(box.getAttribute('data-gameplan-status'),'ready');
  row.click();assert.equal(clicks,1,'its listener survived the repaint');
 });
 

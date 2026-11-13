@@ -220,8 +220,9 @@ test("@curated Practice, Path and Last rolls open their views, and the brand lea
   })
   await openDrawer(j, page)
   const practice = page.locator('[data-explore-stats] [data-b="due"]')
-  await expect(practice.locator(".ng-dr-pill"), "the owed reviews, on the row").toHaveText("2 due")
-  await expect(practice.locator(".ng-dr-tail"), "and the day's goal").toContainText("1/20")
+  // until v1.273.0 the row also carried the owed reviews ("2 due"); the owner took that count out of the drawer (U171 a)
+  await expect(practice.locator(".ng-dr-pill"), "no due count on the row (U171 a)").toHaveCount(0)
+  await expect(practice.locator(".ng-dr-tail"), "the day's goal, up front").toHaveText("1/20")
   const path = page.locator('[data-explore-stats] [data-view="challenges"]')
   await expect(path.locator("[data-tab-sub='challenges']")).toHaveText("0 stripes")
   await expect(page.locator("[data-path-belt] .ng-tab-belt[data-tab-belt='white'][data-tab-stripes='0']"), "the worn belt under Path").toHaveCount(1)
@@ -242,7 +243,11 @@ test("@curated Practice, Path and Last rolls open their views, and the brand lea
   // section instead (practice-mix.spec pins the mix). v1.261.0 (owner U135 a): Practice is a view in the
   // drawer, as Path is, so "Practice" is in the brand ("‹ Practice"), no longer in the study head.
   await expect(page.locator(".ng-drawer-brand"), "Practice opens the session").toHaveText("‹ Practice")
-  await expect(page.locator("[data-practice-section]"), "titled by the owed reviews").toHaveText("Due reviews \u00b7 2 cards")
+  // until v1.273.0 titled by the owed reviews ("Due reviews · 2 cards"); Practice now goes position by position (U171 a),
+  // so the card section is titled by the open card's position, the first of the plan's
+  await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { message: "the worth plan lands" }).toBe("worth")
+  const first = await page.evaluate(() => { const p = (window as W).__neural._session.plan; return p.visits[0].seat.replace("|", " \u00b7 ") + " \u00b7 position 1 of " + p.visits.length })
+  await expect(page.locator("[data-practice-section]"), "titled by the open card's position").toHaveText(first)
   // Practice's ‹ Back is the brand, a real button (SIDE-R2 P2): it takes focus, and Enter takes it home
   await page.locator("[data-pane-back]").focus()
   expect(await page.evaluate(() => document.activeElement?.getAttribute("data-pane-back")), "‹ Back takes focus").toBe("1")
@@ -255,8 +260,10 @@ test("@curated Practice, Path and Last rolls open their views, and the brand lea
 })
 
 // A REPAINT MID-PRESS MUST NOT SWALLOW THE PRESS (SIDE-R2 M10, FGD13's class): a residency or planner
-// refresh repaints the Practice row in place, and a pill rewritten between pointerdown and pointerup
+// refresh repaints the Practice row in place, and a tail rewritten between pointerdown and pointerup
 // leaves the browser no common target, so no click is dispatched at all. Nothing changed, nothing is written.
+// Until v1.273.0 the press landed on the "N due" pill; the pill left the drawer (U171 a), so it lands on the row's
+// count, the part `_paintTrain` rewrites.
 test("a repaint between pressing Practice and releasing it does not swallow the press", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
@@ -267,7 +274,7 @@ test("a repaint between pressing Practice and releasing it does not swallow the 
     a.srs = { [key]: { [a.qhash(a._cardsOf(a.flashcards.decks[key])[0].q)]: [day - 1, 3, day - 4] } }
   })
   await openDrawer(j, page)
-  const pill = (await j.boxOf('[data-explore-stats] [data-b="due"] .ng-dr-pill', "Practice's due pill"))
+  const pill = (await j.boxOf('[data-explore-stats] [data-b="due"] .ng-dr-tail', "Practice's count, the part a repaint rewrites"))
   await page.mouse.move(pill.x + pill.width / 2, pill.y + pill.height / 2)
   await page.mouse.down()
   await page.evaluate(() => (window as W).__neural._paintTrain())

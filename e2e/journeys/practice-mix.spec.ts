@@ -7,11 +7,15 @@ import { journey } from "../dsl";
  * goal today is to do 20 flashcards". Three claims, each read off the mounted session the player opens,
  * never recomputed here:
  *   1. a fresh player's Practice holds new gap cards (the weak-spots ranking, D1);
- *   2. a player with due cards gets BOTH, interleaved: reviews first, a new deck before the last review —
- *      with the planner already loaded (2a), and pressed COLD (2b, SIDE-R2 B1): the drawer's opening asks
- *      for the planner, and a queue pressed before it lands is upgraded to the mix once it does;
- *      a revealed, ungraded card stays put (2c, SIDE-R3 N4), even when the planner lands late;
- *   3. the 20-card goal shows progress and never blocks: past the goal, reviews still deal and grade.
+ *   2. a player with due cards gets the planner's queue — with the planner already loaded (2a), and pressed COLD
+ *      (2b, SIDE-R2 B1): the drawer's opening asks for the planner, and a queue pressed before it lands is upgraded
+ *      to the plan once it does; a revealed, ungraded card stays put (2c, SIDE-R3 N4), even when the planner lands
+ *      late. Until v1.273.0 that queue was "reviews first, every owed deck, a new deck after four reviews"; since the
+ *      owner's U171 a ("what is worth most … position by position … at least 4 new things a day") it is the worth
+ *      plan, position by position, the arithmetic pinned by tests/practice_queue.test.mjs;
+ *   3. the 20-card goal shows progress and never blocks: past the goal, Practice still deals and grades. Until
+ *      v1.273.0 the same session dealt the next owed review; since U171 a the day's session is what is worth most up
+ *      to the goal, and opening Practice again past the goal deals another round by worth.
  * The ratio and the quota are pinned at the planner by tests/gameplan.test.mjs; this file pins that the
  * session the player sees is the planner's queue, and that the goal line moves with real grades.
  *
@@ -92,17 +96,17 @@ test("Practice: a fresh player's session is new gap cards from the weak-spots ra
   await expect(page.locator("[data-practice-goal]")).toHaveText("Daily goal: 0 of 20 today");
 });
 
-/** Claim 2's shape, read off the mounted rows: every owed deck, the most overdue first, the first new
- *  deck after four one-card reviews and before the last one. */
-function expectInterleaved(rows: { key: string, kind: string }[], dueKeys: string[]) {
-  const kinds = rows.map((r) => r.kind);
-  expect(rows.filter((r) => r.kind === "due").map((r) => r.key).sort(), "every owed deck is dealt").toEqual([...dueKeys].sort());
-  expect(kinds[0], "the most overdue review comes first").toBe("due");
-  expect(rows[0].key).toBe(dueKeys[dueKeys.length - 1]);
-  const firstNew = kinds.indexOf("new");
-  expect(firstNew, "new gap decks are dealt beside the reviews").toBeGreaterThan(0);
-  expect(firstNew, "and mixed in before the last review, not appended after it").toBeLessThan(kinds.lastIndexOf("due"));
-  expect(firstNew, "a new technique after every few reviews: four one-card reviews come first").toBe(4);
+/** Claim 2's shape, read off the mounted rows against the plan the session holds: the rows ARE its queue, in its order,
+ *  each marked review or new as the plan files it, with at least 4 new cards (U171 a). Until v1.273.0 this read "every
+ *  owed deck, the most overdue first, the first new deck after four one-card reviews and before the last one". */
+async function expectPlanned(page: any, rows: { key: string, kind: string }[]) {
+  const plan = await page.evaluate(() => { const p = (window as any).__neural._session.plan;
+    return { order: p.order, queue: p.queue.slice(), due: p.due.map((r: any) => r.key), newCards: p.newCards, dueCards: p.dueCards } });
+  expect(plan.order, "the worth plan").toBe("worth");
+  expect(rows.map((r) => r.key), "the rows are the plan's queue, in its order").toEqual(plan.queue);
+  expect(rows.map((r) => r.kind), "each marked as the plan files it").toEqual(plan.queue.map((k: string) => plan.due.includes(k) ? "due" : "new"));
+  expect(plan.newCards, "at least 4 new a day").toBeGreaterThanOrEqual(4);
+  return plan;
 }
 
 test("Practice (2b): pressed cold, before the planner has landed, the session becomes the mix once it does", async ({ page }) => {
@@ -123,9 +127,10 @@ test("Practice (2b): pressed cold, before the planner has landed, the session be
     release();
     let rows: { key: string, kind: string }[] = [];
     await expect.poll(async () => { rows = await readQueue(page); return rows.some((r) => r.kind === "new"); },
-      { message: "the planner's arrival turns the untouched queue into Practice's mix" }).toBe(true);
+      { message: "the planner's arrival turns the untouched queue into Practice's plan" }).toBe(true);
     console.log(`[practice] cold: ${rows.map((r) => r.kind).join(",")}`);
-    expectInterleaved(rows, fx.dueKeys);
+    await expectPlanned(page, rows);
+    expect(fx.dueKeys.length, "premise: eight owed decks were waiting").toBe(8);
     expect(requests, "and no second request").toBe(1);
   } finally { release(); }
 });
@@ -136,8 +141,10 @@ test("Practice (2a): a player with due cards gets reviews and new decks, interle
   const rows = await readQueue(page);
   const kinds = rows.map((r) => r.kind);
   console.log(`[practice] mixed: ${kinds.join(",")}`);
-  expectInterleaved(rows, fx.dueKeys);
-  await expect(page.locator('[data-session-section="Practice"]')).toContainText("8 cards to review");
+  expect(fx.dueKeys.length, "premise: eight owed decks").toBe(8);
+  const plan = await expectPlanned(page, rows);
+  // until v1.273.0: "8 cards to review", every owed card; the count line now says what the day asks of them (U171 a)
+  await expect(page.locator('[data-session-section="Practice"]')).toContainText(plan.dueCards ? `${plan.dueCards} card${plan.dueCards === 1 ? "" : "s"} to review` : `${plan.newCards} new`);
 });
 
 // SIDE-R3 N4: a reveal is engagement even before a grade. The real held planner lands while the
@@ -174,13 +181,16 @@ test("Practice: the daily goal shows progress and never blocks a review", async 
   await press(page, j, "[data-mini-reveal]", "Reveal");
   await press(page, j, "[data-mini-got]", "Got it");
   await expect(page.locator("[data-practice-goal]")).toHaveText("Daily goal: 20 of 20 today ✓");
-  // past the goal, the next review still deals and still grades: a goal, never a cap
-  // the queue walks on by itself (`_sessionGraded`): wait for the NEXT review's deck to be the open one
-  const open = '[data-session-row][data-practice-kind="due"][aria-expanded="true"]:not([data-session-done]) + div';
-  await expect(page.locator(open), "the queue moves on to the next review").toHaveCount(1, { timeout: 5_000 });
+  // past the goal, Practice still deals and still grades: a goal, never a cap. Until v1.273.0 the same session walked on
+  // to the next owed review; the day's session is now what is worth most up to the goal (U171 a), so the player leaves
+  // and opens Practice again, and it deals another round by worth
+  await page.waitForTimeout(800);
+  await j.clickByMouse(".ng-drawer-brand", "‹ Practice, home");
+  await openPractice(j);
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._session?.plan?.total || 0), { message: "a new round past the goal" }).toBeGreaterThan(0);
+  const open = '[data-session-row][aria-expanded="true"]:not([data-session-done]) + div';
+  await expect(page.locator(open), "a card is open").toHaveCount(1, { timeout: 5_000 });
   await press(page, j, open + " [data-mini-reveal]", "Reveal past the goal");
   await press(page, j, open + " [data-mini-got]", "Got it past the goal");
   await expect(page.locator("[data-practice-goal]")).toHaveText("Daily goal: 21 of 20 today ✓");
-  const left = await page.evaluate(() => (window as any).__neural.dueCount());
-  expect(left, "two of the three reviews were graded; one still owed, still on offer").toBe(1);
 });

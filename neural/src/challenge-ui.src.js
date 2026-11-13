@@ -736,13 +736,12 @@ const NG_CHALLENGE_UI_METHODS = {
         maint.type = "button";
         maint.className = "ng-maint-band";
         maint.setAttribute("data-maintenance", "1");
-        const n = this.dueCount();
-        maint.setAttribute(
-          "aria-label",
-          n + " card" + (n === 1 ? "" : "s") + " due \u2014 start the maintenance session",
-        );
+        // "N DUE" LEFT THE DRAWER (owner U171 a, 13 Nov; v1.273.0): the band stays the Path's door to Practice, and says
+        // what the Practice row says, today's answers against the goal, never the size of the owed pile
+        const t = this.practiceToday(), today = t.done + " of " + t.goal + " today";
+        maint.setAttribute("aria-label", "Practice, " + today + " \u2014 start today's session");
         maint.innerHTML =
-          '<b>' + n + ' card' + (n === 1 ? '' : 's') + ' due</b>' +
+          '<b>' + today + '</b>' +
           '<span>keep what you\u2019ve earned</span>' +
           '<em>Start</em>';
         maint.addEventListener("click", () => this.openDueSession());   // ONE door, one label (app.src.jsx)

@@ -17105,3 +17105,7 @@ point; the Flashcards tab is taller since v1.270.0, and the press measured the r
 Proven: the wait at 0 failed 10 of 10 on the unchanged app (`elementFromPoint(547,830) is <div>`). New DSL step
 `scrollSettled` (same rect and own scrollTop on three frames running); with it, 10 of 10 green at wait 0. Same use in
 defending-arrivals `wheelTo` and defending-landing's Rolling loop. No app change.
+
+## v1.273.0 — Practice asks what is worth most, position by position (U171 a, 2026-11-13)
+
+`neural/src/practice-queue.src.js`, in the deferred planner: traffic × forgetting, at most 6 a position, 4 new a day. The drawer's "N due" counts are gone. Parity, kill tables and measures sit at the code (`tests/practice_queue.test.mjs`, `e2e/journeys/practice-order.spec.ts`): 505 chars were left.

@@ -298,8 +298,10 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   await expect(cell).toBeVisible();
   // THE CELL PRINTS CARDS (v1.172.0, owner: "18 cards due" on the band over "35 due" here —
   // "the due cards should be consistent"). The technique count is the tooltip's second figure.
-  await expect(cell).toContainText("2 due");
-  await expect(cell).toHaveAttribute("title", /^2 cards due · 1 technique · /);
+  // until v1.273.0 the cell printed the owed CARD count ("2 due", and "2 cards due · 1 technique · " in its tooltip); the
+  // owner took the due count out of the drawer (U171 a), so the cell carries today's count and no due figure at all
+  await expect(cell.locator(".ng-dr-pill"), "no due count on the cell (U171 a)").toHaveCount(0);
+  await expect(cell).not.toHaveAttribute("title", /due/);
 
   await j.clickByMouse('.ngStat[data-b="due"]', "the maintenance cell");
   await page.waitForTimeout(400);
@@ -345,24 +347,34 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   // THE PLAN SURFACE (where the untouched queue goes once the planner lands, SIDE-R2 B1; before v1.242.0
   // the queue's own "Open / retry study plan" button): the review rows are still the cover, and the
   // Practice head repeats the card count and the technique count (each row says its kind).
+  // Until v1.273.0 the plan's review rows were the same whole cover ([other], 2 cards) and its count line read "2 cards to
+  // review across 1 technique". Practice now asks what is worth most, position by position (U171 a): the owed cards it
+  // reaches today are its choice, so what is pinned is that its review rows are still a COVER of what it asks (each owed
+  // card once, one row per deck) and that every figure it prints is that CARD count.
   release();
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._session?.plan?.order || null), { message: "the worth plan lands" }).toBe("worth");
   await page.locator("[data-practice-details] > summary").click();
   await expect(page.locator('[data-session-section="Practice"]')).toBeVisible();
-  await expect(page.locator('[data-session-section="Practice"]')).toHaveText(/^2 cards to review across 1 technique( \u00b7 |$)/);
-  expect(await page.evaluate(() => {
-    const s = (window as any).__neural._session;
-    return { plan: !!s.plan, practice: !!s.practice, anchor: s.anchor, dueRows: s.plan && s.plan.due.length, first: s.keys[0], dueCards: s.plan && s.plan.dueCards };
-  }), "the plan's review rows are the same cover and the same card count").toEqual({
-    plan: true, practice: true, anchor: "due", dueRows: 1, first: r.other, dueCards: 2,
+  const plan = await page.evaluate(() => {
+    const s = (window as any).__neural._session, p = s.plan;
+    return { practice: !!s.practice, anchor: s.anchor, dueCards: p.dueCards, owed: p.due.flatMap((x: any) => x.owed || []), keys: p.due.map((x: any) => x.key), positions: p.visits.length, newCards: p.newCards };
   });
-  await expect(page.locator(`[data-session-row="${r.other}"]`)).toHaveAttribute("data-practice-kind", "due");
+  expect({ practice: plan.practice, anchor: plan.anchor }).toEqual({ practice: true, anchor: "due" });
+  expect(new Set(plan.owed).size, "a cover: each owed card the plan asks, once").toBe(plan.owed.length);
+  expect(new Set(plan.keys).size, "one review row per deck").toBe(plan.keys.length);
+  expect(plan.dueCards, "its review figure is the CARD count").toBe(plan.owed.length);
+  const cards = (n: number) => n + (n === 1 ? " card" : " cards");
+  await expect(page.locator('[data-session-section="Practice"]'), "and the count line prints those CARD counts").toHaveText(
+    plan.positions + (plan.positions === 1 ? " position: " : " positions: ") + (plan.dueCards ? cards(plan.dueCards) + " to review \u00b7 " : "") +
+    plan.newCards + " new, by how often they come up in your rolls and how close you are to forgetting them");
   await expect(page.locator("[data-plan-goal-progress]"), "the session heading counts cards too").toContainText("Reviewed 0/");
 
-  // and the Challenges band prints the SAME number while something is owed
+  // and the Challenges band is there while something is owed; until v1.273.0 it printed the same owed count ("2 cards
+  // due"), and since the count left the drawer (U171 a) it prints today's count, as the Practice row does
   await page.evaluate(() => (window as any).__neural.openPane("challenges"));
   await page.waitForTimeout(400);
   await expect(page.locator("[data-maintenance]")).toBeVisible();
-  await expect(page.locator("[data-maintenance]")).toContainText("2 cards due");
+  await expect(page.locator("[data-maintenance] b")).toHaveText("0 of 20 today");
 });
 
 test("due-ness NEVER moves the score — the belt cannot drop because time passed", async ({
