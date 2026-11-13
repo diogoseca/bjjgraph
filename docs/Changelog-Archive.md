@@ -17460,6 +17460,13 @@ S7 bundle mutant, the bytes with PR #405, the app rows, `ci:validate` 25/25.
 
 No baseline moved: a checkpoint at dev's own level is the orchestrator's to order when the first of the two lands.
 
+**On dev v1.273.0** (DEV405: PR #405 merged in by merge, 8f8b765b4). This PR's share alone, dev's four differing app files
+built in this same tree and measured against the merged build: eager gzip +1,549 (dev 357,181, +4,215 on its baseline; with
+this PR 358,730), first-hand core +1,585 (dev 376,580; with this PR 378,165), eager raw +4,232, deferred +10,031, all
+`gameplan.js` (ceiling to exactly 520,300, +42 for the `rating.src.js` it bundles). The two caps are judged after the
+checkpoint of both baselines at dev's own level (v1.273.1). On the merged tree: units 1,632/1,632, the 26 Practice journey
+files and `rating-reader` 280 passed and 1 red, `payload-first-hand`'s delta cap (the checkpoint's), `ci:validate` 25/25.
+
 **With the owner (U179), not built.** The reader measured the order at exactly 20 answers a day for a year: about half of
 what a player owes on day 1 is never asked, and the 4 new cards come after the 20th, so a player who stops at 20 meets 5 to
 8% new. The question is now his Anki rule (U179: only what Practice studies comes due; rolls keep feeding the pile, longest
