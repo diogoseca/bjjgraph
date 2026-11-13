@@ -96,7 +96,7 @@ for (const vp of [{ width: 390, height: 844 }, { width: 768, height: 1024 }, { w
     const path = await drawer(page);
     await j.clickByMouse(".ng-drawer-brand", "‹ Path, home");
     await openPractice(page, j);
-    await expect(page.locator(".ng-drawer-brand"), "the brand names Practice, as it names Path").toHaveText("‹ Practice");
+    await expect(page.locator(".ng-drawer-brand"), "the brand names the view, as it names Path").toHaveText("‹ Master the game");   // before: "‹ Practice" (v1.276.0, owner U169 c)
     const practice = await drawer(page);
     await page.keyboard.press("ArrowDown"); // the next technique: the drawer does not move as the session pages
     await expect.poll(() => page.evaluate(() => (window as any).__neural._session.idx)).toBe(1);
@@ -163,11 +163,11 @@ test("PD3: ‹ Practice is Practice's one Back; a deck study keeps its own", asy
   await openPractice(page, j);
   const backs = () => page.evaluate(() => [...document.querySelectorAll("[data-pane-back]")].map((e) => ({
     brand: e.classList.contains("ng-drawer-brand"), text: (e.textContent || "").trim(), shown: e.getClientRects().length > 0 })));
-  expect(await backs(), "PD3: one Back on screen, and it is the brand").toEqual([{ brand: true, text: "‹ Practice", shown: true }]);
+  expect(await backs(), "PD3: one Back on screen, and it is the brand").toEqual([{ brand: true, text: "‹ Master the game", shown: true }]);   // before: "‹ Practice"
   await j.clickByMouse("[data-pane-back]", "‹ Practice");
   await expect(page.locator("[data-drawer-explore]"), "PD3: Back returns to the list it was opened from").toBeVisible();
   await expect(page.locator(PRACTICE), "PD3: the opener has the focus back").toBeFocused();
-  await expect(page.locator(".ng-drawer-brand")).not.toHaveText("‹ Practice");
+  await expect(page.locator(".ng-drawer-brand")).not.toHaveText("‹ Master the game");   // before: "‹ Practice"
   expect(await backs(), "PD3: the brand gives the marker back").toEqual([]);
   await page.evaluate((key) => (window as any).__neural.openStudy(key), deck.key);
   await expect(page.locator("[data-drawer-explore]"), "a deck study owns the body").toBeHidden();
