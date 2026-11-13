@@ -78,6 +78,12 @@
 // v1.264.5 (the reader's last two nits on #393): tripwire()'s own return made to ignore the count → "a fine time but
 // no count file: tripwire() itself returns red"; GIT_NO_REPLACE_OBJECTS dropped → "with GIT_NO_REPLACE_OBJECTS=1 the
 // rule reads X's real tree, so its app.js change stops the walk".
+//
+// v1.264.6, INSTALLS (both deploys `npm ci --ignore-scripts`, the flag on the install's command line and nowhere else),
+// each mutant applied alone to a scratch copy of the deploy files, killed at "INSTALLS": either install back to
+// `npm install`; `npm ci` without the flag; the root install removed; `npm run --ignore-scripts test:curated`;
+// `npm config set ignore-scripts true` in a run; `echo ignore-scripts=true >> .npmrc` in a run; NPM_CONFIG_IGNORE_SCRIPTS
+// as a job env (also killed by "COUNT cannot be switched off unseen"); the source install moved after Build Quartz.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
@@ -513,6 +519,55 @@ test("COUNT cannot be switched off unseen: no tracked .npmrc sets ignore-scripts
     for (const m of maps) for (const k of Object.keys(m)) assert.notEqual(k.toLowerCase(), "npm_config_ignore_scripts", `${name} sets ${k}, which skips posttest:curated`);
   }
   assert.ok(envs > 0, "positive coverage: the deploys' env maps were found and read");
+});
+
+// INSTALLS (v1.264.6). The lockfile is the promise, and no package's install script runs in a deploy: each deploy installs
+// source/ once before Build Quartz and the root once after it, both as exactly `npm ci --ignore-scripts`. The flag lives on
+// those two command lines and nowhere else: in a run line or an env value it would reach `npm run` too, and npm skips
+// `posttest:curated` (the gate's count) under it. Every run line is read, shell comments aside; zero installs found is red.
+test("INSTALLS: both deploys install with `npm ci --ignore-scripts` on the command line, and only there", () => {
+  for (const name of ["deploy-dev.yaml", "deploy.yaml"]) {
+    const wf = workflow(name);
+    const installs = [];
+    let lines = 0;
+    const envs = [["workflow", wf.env], ...Object.entries(wf.jobs).map(([j, job]) => [`job ${j}`, job.env])];
+    for (const [jid, job] of Object.entries(wf.jobs)) {
+      const steps = job.steps || [];
+      steps.forEach((s, i) => {
+        envs.push([`step ${s.name || i}`, s.env]);
+        if (typeof s.run !== "string") return;
+        const stepCwd = s["working-directory"] || job.defaults?.run?.["working-directory"] || ".";
+        for (const raw of s.run.split("\n")) {
+          const line = raw.trim();
+          if (!line || line.startsWith("#")) continue;
+          lines++;
+          let cwd = stepCwd;
+          for (const part of line.split(/&&|\|\||;|\||\(|\)/).map((p) => p.trim()).filter(Boolean)) {
+            const where = `${name} › ${s.name || `${jid} step ${i}`}: \`${part}\``;
+            if (/^cd\s+\S+$/.test(part)) { cwd = part.split(/\s+/)[1]; continue; }
+            assert.doesNotMatch(part, /^(npm|pnpm|yarn)\s+(install|i|add|update|up|upgrade)\b/, `${where}: install with \`npm ci --ignore-scripts\`, never re-resolve the lockfile`);
+            assert.doesNotMatch(part, /^npx\s+(.*\s)?(-y|--yes)\b/, `${where}: npx --yes installs whatever the registry holds today`);
+            if (/^npm\s+ci\b/.test(part)) {
+              assert.equal(part, "npm ci --ignore-scripts", `${where}: every deploy install is exactly \`npm ci --ignore-scripts\``);
+              installs.push({ cwd: cwd.replace(/^\.\//, ""), at: i, steps });
+            } else {
+              assert.doesNotMatch(part, /ignore[-_]scripts/i, `${where}: ignore-scripts belongs on the install's command line only; here it would switch off posttest:curated`);
+            }
+          }
+        }
+      });
+    }
+    for (const [where, env] of envs) for (const [k, v] of Object.entries(env || {})) {
+      assert.doesNotMatch(`${k}=${v}`, /ignore[-_]scripts/i, `${name} ${where} env ${k}: ignore-scripts in an environment reaches npm run and skips posttest:curated`);
+    }
+    assert.ok(lines > 20, `${name}: positive coverage, ${lines} run lines read`);
+    assert.deepEqual(installs.map((x) => x.cwd), ["source", "."], `${name}: exactly two installs, source/ then the root`);
+    const [src, rootInstall] = installs;
+    const at = (n) => src.steps.findIndex((s) => s.name === n);
+    assert.ok(src.at < at("Build Quartz"), `${name}: source/ is installed before Build Quartz`);
+    assert.ok(rootInstall.at > at("Build Quartz") && rootInstall.at < at(budget.step), `${name}: the root is installed after the build and before the curated gate`);
+    console.log(`# ${name}: ${lines} run lines read; installs: source/ at step ${src.at}, root at step ${rootInstall.at}`);
+  }
 });
 
 test("TRIPWIRE end to end: tripwire() fetches the jobs, retries a failed answer, and RETURNS red without the count (v1.264.5)", async () => {

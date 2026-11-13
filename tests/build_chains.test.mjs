@@ -316,6 +316,27 @@ test('npm install lifecycle hooks cannot add an invisible post-build emitter', (
   steps.splice(steps.findIndex(s => s.name === 'Build Quartz') + 1,0,{name:'Install root dependencies (Playwright test runner)',run:'npm install'})
   red(f.run(),/forgotten/)
 }))
+// v1.264.6: both deploys install with `npm ci --ignore-scripts`. Bare `npm ci` runs the same hooks as `npm install`, so it
+// must expand them the same way; only the flag ON ITS COMMAND LINE makes it hook-free; any other argument fails closed.
+// Mutants: drop `args[:2] == ['npm', 'ci']` from the gate's install branch -> the first two go red; drop the argument check
+// -> the third goes red; make --ignore-scripts expand hooks anyway -> the fourth goes red.
+const rootInstall = (f, run) => {
+  const steps = f.workflows['deploy.yaml'].jobs.deploy.steps
+  steps.splice(steps.findIndex(s => s.name === 'Build Quartz') + 1,0,{name:'Install root dependencies (Playwright test runner)',run})
+}
+test('bare npm ci runs lifecycle hooks too: it cannot add an invisible post-build emitter either', () => fixture(f => {
+  f.pkg.scripts.postinstall='node forgotten.mjs'; rootInstall(f, 'npm ci'); red(f.run(),/forgotten/)
+}))
+test('npm ci with any other flag is not read as hook-free: it fails closed', () => fixture(f => {
+  f.pkg.scripts.postinstall='node forgotten.mjs'; rootInstall(f, 'npm ci --no-audit'); red(f.run(),/unsupported shell: npm ci arguments \['--no-audit'\]/)
+}))
+test('npm ci with an unreviewed argument fails closed', () => fixture(f => {
+  rootInstall(f, 'npm ci --ignore-scripts --omit=dev'); red(f.run(),/unsupported shell: npm ci arguments/)
+}))
+test('npm ci --ignore-scripts on the command line runs no hook, so a postinstall adds nothing to the chain', () => fixture(f => {
+  f.pkg.scripts.postinstall='node forgotten.mjs'; rootInstall(f, 'npm ci --ignore-scripts')
+  const r = f.run(); assert.equal(r.status, 0, r.output); assertChainFixtureCounts(r.output)
+}))
 
 test('Python provisioning: skipped shell installs cannot satisfy imports', () => {
   for (const body of ['false && pip install PyYAML\npython3 scripts/check.py', 'true || npm run deps\npython3 scripts/check.py']) pythonProvisionFixture(({write,workflow,run}) => {

@@ -77,14 +77,21 @@ jobs:
       # site — and therefore the deployed preview AND the journey gate — contains no Neural
       # front-end at all. Regenerate from the committed sources (neural/src, scripts/, graph
       # + content JSON) so what we test is what we ship.
+      #
+      # INSTALLS, ONE RULE FOR EVERY TREE (v1.264.6): `npm ci --ignore-scripts`, with the flag ON THE COMMAND LINE. `npm ci`
+      # installs exactly the committed lockfile or fails (the lockfile is the promise; `npm install` may re-resolve it), and
+      # no package's install script runs. Never in .npmrc or npm_config_ignore_scripts: those reach `npm run` as well, and
+      # npm skips the deploy gate's count (`posttest:curated`) under them. Nothing here needs its script: esbuild and
+      # @parcel/watcher load their prebuilt platform packages at run time, and a scratch clone installed this way built the
+      # site to the committed census. This install also serves Build Quartz, which used to install source/ a second time.
+      # Pinned by tests/deploy_gate.test.mjs (INSTALLS); scripts/check_build_chains.py pins this step's text.
       - name: Regenerate Neural app + data
         run: |
-          (cd source && npm install)
+          (cd source && npm ci --ignore-scripts)
           npm run regenerate:neural
 
       - name: Build Quartz
         run: |
-          npm install
           npx quartz build -d ../content
           python3 ../scripts/regenerate_redirects.py
           python3 ../scripts/regenerate_headers.py
@@ -199,8 +206,10 @@ jobs:
       - name: Analytics surface — the keyless direction (fixture build)
         run: npm run validate:analytics:nokey
 
+      # The same rule (see "Regenerate Neural app + data"). --ignore-scripts also skips root's own `postinstall`
+      # (`cd source && npm install`), which would re-resolve source/ after the build; source/ is installed above.
       - name: Install root dependencies (Playwright test runner)
-        run: npm install
+        run: npm ci --ignore-scripts
 
       # Key the browser cache on the PLAYWRIGHT VERSION, never on the lockfile hash.
       # This repo bumps package.json on every commit and package-lock.json mirrors that
