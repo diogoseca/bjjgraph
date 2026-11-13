@@ -16846,3 +16846,108 @@ Mutants on the served bundle, the neutral control green in all ten:
 **Bytes.** neural.js +509 B raw / +177 B gzip on #401's bundle. Eager gzip 353,310 B, +4,622 B since its 348,688 B checkpoint
 (cap 5,000; dev's own drift is +4,446 of it). Deferred 511,043 B, +36 B (settings-ui.js only); the ceiling moved to exactly
 that in its own commit, under U134 b's 512,000 B, 957 B left.
+
+## v1.269.0 — The rating, Stage 1: what you can recall right now, computed and tested, shown nowhere (ELO2, ELOPAY1, 2026-11-13)
+
+**The owner's answers (13 Nov, 04:50).** The number comes from "a, What you can recall right now" (method C of the ELO1
+report, here as C0: nothing credited yet for what a player knew before the app); the lines are "a, Even belts" (white's
+stripes counted from 1160 one every 32, blue from 1320 and purple from 1480 every 32, brown from 1640 every 40, black from
+1840); black is the top of our own scale, 2000. The look (Stage 2) and what the belt opens (Stage 3) are not this change.
+
+**What shipped.** `neural/src/rating.src.js`, pure and shared like `belt.src.js` (in build.mjs's `groups` scan and the bundle,
+and in the units' `knowledgeSource` prelude). points = 1000 + 1000 x share; the share is every flashcard question and every
+dealt move, each weighted by how often it comes up in a roll in this ruleset (Game Knowledge's deck weights, plus each seat's
+weight x the move's attempt share in its dealt hand), over the whole game. A right row reads 0.9 ^ (days since / interval); an
+interval-1 row with a stage (or a move Yes) reads right at 0.9; a miss reads 0. A shared question is one question, priced for
+every deck the manifest lists it in. Table a is one frozen constant; `ngRatingLevel`, `ngRatingNext(points, heldLevel)` (the goal
+from max(held, the number's level), with both distances, because the bar's wording is still the owner's). One reader in the
+app, `rating()`, on `window.__neural`; nothing paints it, no setting, no storage. Its game is built from the manifest, the
+score weights, the shared index and every seat the ruleset deals (`_dealtOpts`, the same seam `_dealtOrds` now maps over),
+cached per ruleset and graph; the number is cached on the record, the revisions, `_stageVer`, the day and the game.
+
+**Absence is a status, never 1000.** No graph, no manifest, no weights, no dealt hands (e.g. a wire without `cal.evGi`), a hand
+that failed to deal, no day, or a record with no answer and no stage: `points: null` and a status naming why. A `null` cell is
+dropped and counted (`absent`), a zero counted (`zeroWeight`); a row outside this ruleset's game, in an unknown deck, malformed,
+or a stage with no schedule (a pre-v1.105.0 blob) is counted by reason. Real wire: gi prices 2,824 decks and 1,350 dealt moves
+over 242 seats (18 dealt moves have no gi-table row), no-gi 2,706, 1,206 and 218 (0). Moves are 23.9% of the gi game, 23.5% of
+no-gi. Building the gi game deals every seat once: 50 ms in node.
+
+**A correction to the ELO1 simulation.** It priced moves by a card's `ev.att`, which is the no-gi EDGE row in BOTH rulesets
+(`_evRowsFor` reads `_ev`), so every gi move was priced at its no-gi share. The reader prices from the ruleset's own table
+(`_evGi` in gi, as FLOW does; `_ev` in no-gi). That changes the weight of 1,026 of the 1,350 gi moves, not only the gi-only
+ones: 508 get heavier (88 of those weighed nothing in ELO1), 518 lighter, and the total gi move weight goes from 0.311765 to
+0.314336. On the same stored records the two pricings differ by at most 3.38 points on the seat's 311 gi records, and by -8.16
+to +1.73 points on the independent reader's 86 (READ402 F4): a quarter of a stripe at most. No-gi is identical. Re-pricing
+the simulation's gi moves from the gi table brings the difference to 9.5e-12. No conclusion of the owner's decision moves.
+
+**Parity with the simulation** (the seat's simulation scripts, kept outside the repo; the units do not test parity): the
+module through the real reader against the simulation's own C0 code on the same stored state, epoch days offset by 20,000,
+items rebuilt from this wire by ELO1's arithmetic with gi moves re-priced from the gi table.
+
+| records | gi: with a number | gi: largest diff | no-gi: with a number | no-gi: largest diff |
+|---|---|---|---|---|
+| the five shapes of ELO1 section 7 (new, week, month, year x 15 seeds; everything mastered) | 46 of 61 | 1.05e-11 | 46 of 61 | 1.41e-11 |
+| 150 seeded simulated players (habit, goal, length, keep-up, break, farmer at random) | 150 | 1.00e-11 | 147 | 2.16e-11 |
+| 100 synthetic records (any row anywhere: rung, stage, overdue, misses, a clock ahead) | 99 | 2.96e-12 | 100 | 5.91e-12 |
+
+Every record without a number has no stored answer (the 15 new players, 3 one-day simulated players, 1 synthetic record whose
+only row predates day 0); the simulation reads those as 1000, the module as `empty`, by design. Medians, gi: a week 1,078.5, a
+month 1,125.6, a year 1,214.1, everything mastered 1,948.7.
+
+**Mutants, unit** (`tests/rating.test.mjs`, each alone, 17 of 17 killed by the named test): M1 forgetting removed · M2 a shared
+question counted once per deck · M3a a zero-traffic deck given a floor weight · M3b a deck outside the ruleset's weights given
+one · M4 moves dropped · M5a the gi score weights read in no-gi · M5b the gi hand table read in no-gi · M6 a miss as a half ·
+M7 a null cell read as zero · M8a never looked read as 1000 · M8b an empty record read as a number · M9 the reader saves · M10
+white's stripes from 1000 · M11 a question's stage from one deck only · M12 the cache not keyed on the day · M13 the ruleset
+mask dropped from the seat walk · M14 the shared index ignored. The reader's game is checked seat by seat against the raw wire
+read by node ID (the `cal.ev` join is index-keyed): over 1,000 dealt moves per ruleset, each equal to 1e-15.
+**Mutants, journey** (`e2e/journeys/rating-reader.spec.ts`, built into the bundle, 3 of 3, clean control green): J1 the reader
+stores its level and saves (storage differs) · J2 the module left out of the bundle (ReferenceError) · J3 the load path drops
+the moves record (counts differ). The journey seeds `tests/_rating_fixture.mjs`'s record into a built page and matches the
+unit's construction, run in node on the directory the page is served from, to 1e-9 on two days; every localStorage byte is
+identical after the reader ran.
+
+**Bytes.** neural.js +5,691 raw, +1,838 gzip; nothing else (the game bundles differ by a hash string, same length). The eager
+cap read dev's drift: dev v1.265.2 (e7766cbc6) stood at 352,966 B, +4,278 since the v1.251.4 baseline, 722 B under the 5,000 B
+cap. Checkpointed at dev's own level in its own commit first (ELOPAY1, the orchestrator's call under the owner's Q7 rule,
+D-327): dev's bundle built from a clean export of e7766cbc6 after its own `regenerate_mdp_data.py`, 14 of 14 app rows sha-equal
+to dev's fingerprint (version normalised), the three wire files byte-identical to that export's emit. After it: eager 354,804 B,
++1,838 of 5,000 (warn: over the 300,000 target, 45,196 B under the 400,000 action line). First-hand core 374,241 B, +3,134 of
+6,000 since 371,107 (dev alone +1,275), untouched. Deferred 510,963 of 510,981 B, unchanged.
+**After merging dev v1.266.0 (5f2510f71, PR #401; DEV401).** The checkpoint stays at e7766cbc6's level. The eager set
+reads 354,973 B, +2,007 of 5,000 since it: dev's own drift +168 (its bundle alone, 14 of 14 of its committed app rows
+reproduced, reads 353,134 B) plus this PR's +1,839. The deferred set reads 511,007 of its new 511,007 B ceiling, the same
+figure with dev's bundle alone: this PR adds nothing there.
+
+**The independent reader's findings (READ402).** F1: "never looked is never 1000" failed for a record of only malformed
+rows, or only rows in decks the manifest lacks: it read "ok", 1000, because `rows` was counted before a row was checked. Now a
+number needs a row that met the game; otherwise "unmatched" and null (a move at a seat this ruleset does not deal is counted
+`unknownSeat` and meets nothing). F2: a row for a question its deck no longer holds is priced as a live card (the manifest
+carries a count per deck, not its questions; a deck of 12 read 1.917 times its worth with 11 retired rows beside its 12 live
+ones). For now a deck is capped at its own full worth and `decksOver` / `rowsOver` count the cut; the gap is written under NOT
+COVERED and must be settled before any surface shows the number. F5: a record of stages alone reads "unscheduled", 1000, not
+"ok" (0 of the 622 parity records are such; the fixture holds one stage-only row inside a scheduled record). F6: the level
+helpers return null for a non-number. F7: `_ratingGame` checks the graph before the score weights, so no empty table is
+memoised. F3: the reader's five surviving mutants are pinned; 29 mutants now, each alone, each killed by its named test
+(M15-M21 and X9, X11, X12, X15, X18 added). F8: ingest turns a null attempt cell into 0 (`att[k] || 0` in the `cal.ev` and
+`cal.evGi` expansions); the wire has none, the loader is left alone. Parity after the changes: 2.0e-11 (gi), 2.5e-11 (no-gi).
+Bytes: neural.js +406 raw; the eager set reads 355,124 B, +2,158 of 5,000 since the checkpoint (dev +168, this PR +1,990);
+the deferred set is unchanged at 511,007 of 511,007.
+
+**After merging dev v1.268.0 (c7d6d26b6, PR #403; DEV403): this PR lands as 1.269.0.** The checkpoint stays at e7766cbc6's
+level. The eager set reads 355,298 B, +2,332 of 5,000 since it: dev's own drift +344 (its bundle alone, 14 of 14 of its
+committed app rows reproduced, reads 353,310 B) plus this PR's +1,988. The deferred set reads 511,043 of its 511,043 B
+ceiling, the same figure with dev's bundle alone.
+
+**The reader's delta read (GO402): MERGE, with three low items.** D1: since the deck cap, a complete gi record summed to 2000
+less 2.7e-12, because the capped sum adds deck by deck in another order than the denominator. A share within 1e-9 of 1 is now
+exactly 1 (about 370 times the rounding measured, about 245 times below the smallest item on the wire, a no-gi question at
+2.4e-7 of the game). Pinned on the real payload in both rulesets: every live question and every dealt move known today reads
+exactly 2000 with nothing left to the top (mutant M22). D2: answers from the other ruleset are classed two ways, a flashcard
+on a deck only it weighs as `outside` ("ok", 1000 alone), a move at a seat only it deals as `unknownSeat` ("unmatched", null
+alone); written under NOT COVERED and pinned as it is (M21, M23). D3: the "writes nothing" unit's list of saved fields is by
+hand, and says so. 20 tests, 31 mutants, each killed by its named test. Final bytes: the eager set reads 355,304 B, +2,338 of
+5,000 since the checkpoint (dev +344, this PR +1,994); the deferred set 511,043 of 511,043, unchanged by this PR.
+
+**Not covered:** answers from the other ruleset classed two ways (above); a retired question read as a live one (above); whether this weighting is the right one (the owner's, from
+the simulation); any painted surface (none); a browser timing of the first call (node: 45 to 54 ms).
