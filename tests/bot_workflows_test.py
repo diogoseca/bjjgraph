@@ -249,9 +249,9 @@ class WorkflowTests(unittest.TestCase):
     # THE MODEL BOTS' TOOLS ARE THEIR JOBS (v1.265.3). Every claude-code-action step has a row here, and its
     # --allowedTools / --disallowedTools are exactly that row. The three agent-mode bots that edit or write hold: reads
     # outside the tree only of the folder their prefetch writes, edits only under paths their commit stages, no Write
-    # where they only edit, no Bash at all (validation and dates come from the steps around them), and `.git` denied,
-    # since the action writes its own token into .git/config's remote while it runs. A job whose later step sets its own
-    # authenticated remote checks out with persist-credentials: false. Mutants, each applied alone, killed here:
+    # where they only edit, no Bash at all (validation and dates come from the steps around them), and `.git` denied.
+    # A job whose later step sets the remote it pushes with checks out with persist-credentials: false. Mutants, each
+    # applied alone, killed here:
     #   analytics: bare `Edit` back; `Bash(cat:*)` back; `Bash(python3 scripts/validate_json.py:*)` back; bare `Read`
     #     back; `Bash` dropped from the deny list; `Read(.git/**)` dropped; `Write` dropped; the old "run the validator"
     #     prompt step back.
@@ -339,9 +339,9 @@ class WorkflowTests(unittest.TestCase):
                 remotes += 1
                 checkout = next(s for s in steps if str(s.get("uses", "")).startswith("actions/checkout@"))
                 self.assertIs(checkout.get("with", {}).get("persist-credentials"), False,
-                              f"{workflow_name} {name}: a later step sets its own remote, so the checkout keeps no token")
+                              f"{workflow_name} {name}: a later step sets the remote it pushes with, so the checkout keeps none")
         self.assertEqual(remotes, 6)
-        print(f"Checked {len(seen)} Claude action grants and {remotes} checkouts that keep no token")
+        print(f"Checked {len(seen)} Claude action grants and {remotes} checkouts that keep no credentials")
 
     def test_secrets_reach_shells_only_through_env(self):
         # A `${{ secrets.X }}` inside a run block is pasted into the script's text before the shell parses it, so a value

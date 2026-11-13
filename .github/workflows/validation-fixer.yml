@@ -39,7 +39,7 @@ jobs:
         with:
           ref: dev
           fetch-depth: 0
-          # The PR step sets its own authenticated remote; no step before it pushes or fetches.
+          # The PR step sets the remote it pushes with; no step before it pushes or fetches.
           persist-credentials: false
 
       - name: Setup Python

@@ -38,7 +38,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
-          # The publish step sets its own authenticated remote; the prior-report fetch reads a public branch.
+          # The publish step sets the remote it pushes with; the prior-report fetch reads a public branch.
           persist-credentials: false
 
       # Every other workflow pins Python; this one ran python3 at two steps on whatever the
@@ -90,8 +90,8 @@ jobs:
           # THE AGENT'S TOOLS ARE ITS JOB (v1.265.3). It reads the repository (reads inside the working directory need no
           # rule) and the prefetched /tmp/seo, and writes exactly one file, the report (`Edit(path)` is the rule Write is
           # checked against). Nothing else in the tree, so no later step (`bot_run.py`, the publish step's `git commit`)
-          # runs a file it wrote. No Bash: the date comes in the prompt and tests/artifacts already exists. `Read(.git/**)`
-          # is denied because the action writes its own token (revoked when the step ends) into .git/config's remote. No
+          # runs a file it wrote. No Bash: the date comes in the prompt and tests/artifacts already exists. `.git`
+          # is denied: no part of this job is the agent's to read there. No
           # backend secret in this step's env; no MCP server (v1.265.1, see the header). Pinned by
           # tests/bot_workflows_test.py (test_model_bots_hold_only_their_jobs_tools).
           claude_args: |

@@ -32,7 +32,7 @@ jobs:
         with:
           ref: dev
           fetch-depth: 0
-          # The PR step sets its own authenticated remote; no step before it pushes or fetches.
+          # The PR step sets the remote it pushes with; no step before it pushes or fetches.
           persist-credentials: false
 
       - name: Setup Python
@@ -169,8 +169,8 @@ jobs:
           # rule) and the prefetched files under /tmp/analytics, and edits existing content/**/*.json files, nothing else:
           # no Write (a path-scoped `Edit(...)` rule would let Write create files under it), and the rest of the tree, .git
           # included, is outside the rule. It has no Bash: the validator runs in the next steps, not as its tool, so no edit
-          # it makes can become a program it runs. `Read(.git/**)` is denied because the action writes
-          # its own token (revoked when the step ends) into .git/config's remote; the checkout keeps none. No PostHog key
+          # it makes can become a program it runs. `.git` is denied: no part of this job is the agent's to
+          # read there. No PostHog key
           # is set on this step (prefetched). Pinned by tests/bot_workflows_test.py (test_model_bots_hold_only_their_jobs_tools).
           claude_args: |
             --model "${{ steps.model.outputs.model }}"

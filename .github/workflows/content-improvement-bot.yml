@@ -32,7 +32,7 @@ jobs:
         with:
           ref: dev
           fetch-depth: 0  # Full history for git log
-          # The PR step sets its own authenticated remote; no step before it pushes or fetches.
+          # The PR step sets the remote it pushes with; no step before it pushes or fetches.
           persist-credentials: false
 
       - name: Setup Python
@@ -407,8 +407,8 @@ jobs:
           # rule) and the prepared /tmp/preprocessing, and edits existing files under content/ (the prompt names which) and
           # the one suggestions file. Nothing else in the tree, so no later step runs a file it changed. No Write: `Edit`
           # touches only files that exist, and a path-scoped `Edit(...)` rule would let Write create files under it. No
-          # Bash: the date comes in the prompt, and `cat` is what Read does. `Read(.git/**)` is denied because the action writes its own token (revoked
-          # when the step ends) into .git/config's remote. The commit step is scoped to content/ + tests/artifacts/ below.
+          # Bash: the date comes in the prompt, and `cat` is what Read does. `.git` is denied: no part of this job is
+          # the agent's to read there. The commit step is scoped to content/ + tests/artifacts/ below.
           # Pinned by tests/bot_workflows_test.py (test_model_bots_hold_only_their_jobs_tools).
           claude_args: |
             --model "${{ steps.model.outputs.model }}"
