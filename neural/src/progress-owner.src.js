@@ -127,8 +127,9 @@ export function ngProgressMergeMoves(local, cloud, today) {
 // signs in next receives what was practised signed out there, a second account too: the owner's pick, knowing that.
 // The rule (`ngProgressGuestMerge`) is the cloud pull's own merge (`_mergeProgressBlobs`: MAX, union, add-wins) with two
 // changes that make it ONLY ADD (his standing rule: no account loses a %, a boost, gold or a belt):
-//   1. the guest's settings never move (`settings`, `settingsAt`, `updatedAt` are dropped, and `openAt`, the open rule's
-//      own stamp, since v1.270.0), as the old Import did:
+//   1. the guest's settings never move (`settings`, `settingsAt`, `updatedAt` are dropped; `openAt`, the open rule's
+//      stamp, is left out of the part's hash and practice key but joins the merge as the earlier stamp, see
+//      `ngProgressGuestPart`), as the old Import did:
 //      the account's email consent, ruleset and goal stay the account's;
 //   2. a guest's No never takes an account's Yes (`ngProgressGuestMoves`). The pull's `moves` order lets the later
 //      answer win, so a guest's later "Still got it? No" took the account's gold, its +15 and a "Moves known" point
@@ -146,11 +147,15 @@ export function ngProgressMergeMoves(local, cloud, today) {
 // the cloud's too, because the join runs only then (the second reader: "holds only against the local copy" was true of
 // the first build). `srs` keeps the pull's rule: a guest's later miss can bring a card back sooner; no figure reads the
 // schedule's interval, and today's count is a union. tests/guest_join_safety.test.mjs.
-// THE OPEN RULE'S TWO VALUES (v1.270.0, U163 c; the app's `_syncBelt`, `_recallCarried`): `openAt`, when the open rule
-// first ran for an owner, does NOT move with a guest copy: it is the account's own stamp, so a guest's (earlier or later)
-// can neither lower nor raise it; the account stamps its own at its next sync. `recallCarry` (only ever `true`: a belt held
-// before the rule kept timed recall) DOES join, as an OR through the merge's extras, because it travels with the belt it
-// came from and the guest's held belt joins too (MAX): the join only adds. tests/guest_join_safety.test.mjs 20 and 21.
+// THE OPEN RULE'S TWO VALUES (v1.270.0, U163 c; the app's `_syncBelt`, `_recallCarried`). `openAt`, when the open rule
+// first ran for an owner, is left out of the guest PART, so it is neither in the copy's hash nor in the practice key (a
+// bare landing writes one: tests/guest_join_safety.test.mjs 20). It joins the MERGE all the same (`ngProgressGuestMerge`
+// puts it back on the part it merges): the EARLIER of the two stamps, so a guest's belt earned under the guest's own rule
+// is judged against a stamp no later than the guest's and is not carried (the read of PR #404's delta, D1: OPEN2B had
+// dropped it, and a guest who earned blue under the rule got timed recall switched on at sign-in). The account's own
+// carry is frozen before the join (`_joinGuestPractice`), so the earlier stamp cannot un-carry the account's own pre-rule
+// belt. `recallCarry` (only ever `true`: a belt held before the rule kept timed recall) joins as an OR with the belt it
+// came from (MAX): the join only adds. Tests 20, 21 and R1, R1b, R3.
 function ngProgressGuestPart(blob) {
   const out = ngProgressClone(blob);
   delete out.settings; delete out.settingsAt; delete out.updatedAt; delete out.openAt;
@@ -324,6 +329,8 @@ export function ngProgressGuestFlow(account, guest, cap = NG_FLOW_CAP) {
 // NG_FLOW_DEVICES. The explicit legacy import (`confirmImport`) goes through this too, so the two cannot differ.
 export function ngProgressGuestMerge(merge, live, guestBlob, flowCap = NG_FLOW_CAP) {
   const part = ngProgressGuestPart(guestBlob);
+  // the guest's open-rule stamp joins the MERGE only (as the earlier stamp), never the copy's hash or the practice key
+  if (ngProgressObject(guestBlob) && typeof guestBlob.openAt === "number" && Number.isFinite(guestBlob.openAt) && guestBlob.openAt > 0) part.openAt = guestBlob.openAt;
   if (ngProgressObject(part.flow)) part.flow = ngProgressGuestFlow(live && live.flow, part.flow, flowCap);
   const combined = merge(live, part);
   if (combined.moves) combined.moves = ngProgressGuestMoves(live.moves, combined.moves);

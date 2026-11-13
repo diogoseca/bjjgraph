@@ -565,3 +565,27 @@ test("the carry's fact travels: an offline first run meets the cloud later, OR a
   assert.equal(C._progressBlob().openAt, 3000);
   assert.deepEqual([ngMergeOpenAt(0, 5), ngMergeOpenAt(7, 5), ngMergeOpenAt("x", 5), ngMergeOpenAt(0, 0)], [5, 5, 5, 0]);
 });
+
+// D4 of the delta read of PR #404: "only ever true" held by convention, not by code. Mutants: OPEN-M19 (hydrate reads any
+// truthy value, the reader's X3), OPEN-M20 (no explicit OR in the merge: the local-wins extras let a local `false` beat
+// the cloud's `true`), OPEN-M21 (the fact decided only in the call that first stamps `openAt`, a plausible "fix"
+// for the stale device that would lose a belt only the cloud held). The last case is the old merge test's first,
+// removed in OPEN2 without a word and restored here: a new device that stamped before its pull carries a blue held only on
+// the cloud.
+test("the carry's fact holds by code: only `true` counts, a local copy never beats the cloud's `true`, and a device that stamped before its pull carries the cloud's blue", async () => {
+  async function pull(a, cloud) {
+    const facade = { neuralSyncVersion: 2, pullNeural: async (id) => ({ userId: id, blob: JSON.parse(JSON.stringify(cloud)) }) };
+    Object.assign(a, { _auth: () => facade, _authUserId: "u1", _authEpoch: 0, _authDisposed: false, _progressLocalOnly: false });
+    assert.equal(await a._pullAndMerge(), true);
+    a._syncBelt("test");
+    return a;
+  }
+  const x = boot({ blob: { recallCarry: "yes", openAt: 4000, belts: { won: {}, gf: 5, held: { id: "white", t: 1 } } } });
+  assert.deepEqual([x._recallCarry, x._recallInPlayNow()], [false, false], "OPEN-M19: only `true` counts as the fact");
+  const y = await pull(boot({ blob: { recallCarry: false, openAt: 4000, belts: { won: {}, gf: 5, held: { id: "white", t: 1 } } } }),
+    { v: 2, openAt: 4000, recallCarry: true, belts: { won: {}, gf: 5 } });
+  assert.deepEqual([y._recallCarry, y._progressBlob().recallCarry, y._recallInPlayNow()], [true, true, true], "OPEN-M20: the cloud's `true` wins over a local `false`");
+  const z = await pull(boot({ blob: { openAt: 9000, belts: { won: {}, gf: 5 } } }), { v: 2, belts: { won: {}, gf: 5, held: { id: "blue", t: 4000 } } });
+  assert.equal(z._openAt, 9000, "the cloud never ran the rule: this device's stamp stands");
+  assert.deepEqual([z._recallInPlayNow(), z._recallCarry], [true, true], "OPEN-M21: a device that stamped before its pull carries the blue only the cloud held, and writes it down");
+});

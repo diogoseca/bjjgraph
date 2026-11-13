@@ -611,7 +611,13 @@ test("20. a guest who only looked, as THIS build writes the copy (the app's own 
   assert.equal((accountBlob(h, A) || {}).openAt, undefined, "and the guest's stamp does not join: the account stamps its own");
 });
 
-test("21. at a join, the account's open-rule stamp stays its own, and a guest's carried belt brings its carry", async () => {
+// 21 until OPEN3 asserted "the account's stamp stays its own (a guest's earlier one neither lowers nor seeds it)" and "nor is
+// a guest's stamp pushed": OPEN2B dropped the guest's `openAt` from the merge, and the guest's belt joined (MAX) only to be
+// judged against the account's later or fresh stamp, so a guest who EARNED blue under the guest's own rule got timed recall
+// switched on at sign-in (the delta read of PR #404, D1). The stamp now joins the merge as the EARLIER of the two; R1, R1b
+// and R3 below pin what that decides. Mutants: OPEN-M17 (the guest merge without the stamp, OPEN2B's code) -> 21 and R1,
+// R1b; OPEN-M18 (no freeze of the account's own carry before the join) -> R3.
+test("21. at a join, the earlier open-rule stamp joins, and a guest's carried belt brings its carry", async () => {
   const guest = { v: 2, prep: { "Mount|Top": 1 }, openAt: 1000, recallCarry: true, belts: { won: {}, gf: 5, held: { id: "blue", t: 500 } } };
   for (const [name, accountStamp] of [["an account that ran the rule later", 9000], ["an account that never ran it", undefined]]) {
     const mem = memory(); mem.setItem(guestKey, envelope(GUEST, guest));
@@ -619,9 +625,45 @@ test("21. at a join, the account's open-rule stamp stays its own, and a guest's 
     const h = harness(mem, cloud); await h.boot(); await h.signIn("A"); await wait(700);
     const acc = accountBlob(h, A);
     assert.deepEqual(h.said, [LINE], name + ": real practice joins");
-    assert.equal(acc.openAt, accountStamp, name + ": OPEN-M15: the account's stamp stays its own (a guest's earlier one neither lowers nor seeds it)");
+    assert.equal(acc.openAt, 1000, name + ": OPEN-M17: the earlier stamp joins (the guest's)");
     assert.equal(acc.recallCarry, true, name + ": OPEN-M16: the guest's carry joins with the belt it came from");
     assert.equal(acc.belts.held.id, "blue", name + ": and that belt joins (MAX)");
-    assert.equal(cloud.get("A").openAt, accountStamp, name + ": nor is a guest's stamp pushed");
   }
+});
+
+// the app's own belt sync on the mounted instance (the harness stubs `_publishKnowledge`, so call it as the curriculum landing
+// does), and what the player gets
+const BELT_CUR = () => ({ belts: ["white", "blue", "purple", "brown", "black"].map((id) => ({ id, name: id, units: [{ id: "u1", lessons: [{ nodeId: "T/" + id, deckKey: id + "-a|Attacker" }], checkpoint: { cards: 2, pass: 2 } }] })), weights: {} });
+const beltSync = (a) => { a.curriculum = BELT_CUR(); a.flashcards = { decks: clone(DECKS), manifest: true }; a._syncBelt("curriculum"); return a; };
+const plays = (a) => ({ play: a._recallInPlayNow(), fact: a._recallCarry === true });
+
+test("R1. a guest who EARNED blue under the guest's own rule gets no timed recall at sign-in (an account that never ran the rule)", async () => {
+  const guest = { v: 2, prep: { "Mount|Top": 3 }, openAt: 1000, belts: { won: {}, gf: 5, held: { id: "blue", t: 2000 } } };
+  const mem = memory(); mem.setItem(guestKey, envelope(GUEST, guest));
+  const h = harness(mem, new Map([["A", { v: 2, prep: { "Side|Top": 3 }, belts: { won: {}, gf: 5 } }]])); await h.boot();
+  assert.deepEqual(plays(beltSync(h.get())), { play: false, fact: false }, "precondition: multiple choice as a guest");
+  await h.signIn("A"); await wait(700);
+  const a = beltSync(h.get());
+  assert.equal(a.belts.held.id, "blue", "the guest's belt joined");
+  assert.deepEqual(plays(a), { play: false, fact: false }, "OPEN-M17: nothing is switched on behind the player's back at sign-in");
+  assert.equal(a._openAt, 1000, "judged against the guest's earlier stamp");
+});
+
+test("R1b. the same guest, an account that ran the rule later (after the guest's blue): no timed recall either", async () => {
+  const guest = { v: 2, prep: { "Mount|Top": 3 }, openAt: 1000, belts: { won: {}, gf: 5, held: { id: "blue", t: 2000 } } };
+  const mem = memory(); mem.setItem(guestKey, envelope(GUEST, guest));
+  const h = harness(mem, new Map([["A", { v: 2, prep: { "Side|Top": 3 }, openAt: 9000, belts: { won: {}, gf: 5 } }]])); await h.boot();
+  await h.signIn("A"); await wait(700);
+  assert.deepEqual(plays(beltSync(h.get())), { play: false, fact: false }, "OPEN-M17: the account's later stamp does not carry the guest's post-rule blue");
+});
+
+test("R3. the account's own pre-rule blue stays carried when a guest's earlier stamp joins before any belt sync", async () => {
+  const guest = { v: 2, prep: { "Mount|Top": 3 }, openAt: 1000, belts: { won: {}, gf: 5 } };
+  const mem = memory(); mem.setItem(guestKey, envelope(GUEST, guest));
+  // the account's blue at 5000, never seen by a device running the rule (no `openAt`, no fact on the cloud)
+  const h = harness(mem, new Map([["A", { v: 2, prep: { "Side|Top": 3 }, belts: { won: {}, gf: 5, held: { id: "blue", t: 5000 } } }]])); await h.boot();
+  await h.signIn("A"); await wait(700);   // no belt sync between the pull and the join: the curriculum is still in flight
+  const a = beltSync(h.get());
+  assert.equal(a._openAt, 1000, "precondition: the guest's earlier stamp joined, earlier than the account's blue");
+  assert.deepEqual(plays(a), { play: true, fact: true }, "OPEN-M18: the account's own carry was frozen before the join");
 });

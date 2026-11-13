@@ -16988,9 +16988,9 @@ it whatever the stored setting said. The carry:
   earned between the two stamps may then be carried: a gift).
 - carried, read live = `belts.held` is blue or above AND its stamp (the moment that belt was first earned; a stamp in this
   device's future clamped to its now, as the srs merge clamps `last`) is no later than `openAt`.
-- `recallCarry` (top level, only ever `true`): `_syncBelt` sets it once the live reading says carried. It is the account's
-  fact: OR across devices (the extras merge already gives that, in old and new clients), never cleared, so a promotion
-  under the rule that re-stamps `belts.held` cannot take the carry back.
+- `recallCarry` (top level; only `=== true` reads): `_syncBelt` sets it once the live reading says carried. It is the
+  account's fact: an explicit OR in the merge (the extras merge is local-wins), never cleared, so a promotion under the
+  rule that re-stamps `belts.held` cannot take the carry back.
 - **The carry never writes the switch.** The only writer of `recallInPlay` is the player's press; Settings shows the carry
   as the switch's value until then (`get("recallInPlay", _recallInPlayNow())`). So no carry can beat a choice, in any
   order, on any device, online or offline.
@@ -16998,30 +16998,41 @@ it whatever the stored setting said. The carry:
   rule their roll questions stayed timed recall anyway; the switch now does what it says), and one who had it on keeps On.
 - Why a per-account stamp and not a date constant: the deploy reaches production when the owner promotes it, so a fixed
   cut-off would either drop players promoted on production in between or carry players promoted after.
-- Edges left as is (named): a promotion made in an old tab left open after another device already ran the rule follows the
-  new rule; a belt stamped by a clock that ran ahead, on an account whose rule began earlier, reads as after it; a blue held
-  before the rule and re-stamped purple on an old client, on an account whose only new-code device ran first offline
-  without that blue, is not carried (the fact was never set).
+- Edges left as is (named at `_recallCarryLive`): clocks: a pre-rule belt arriving by the pull after a behind-clock device
+  stamped is not carried; a belt earned under the rule on a behind-clock device can be carried for good; a clock-ahead stamp
+  on an account whose rule began earlier reads as after it. Old tabs: a promotion there follows its own rule, and its mint
+  at black writes the switch On over an earlier Off; one that pulled before the fact existed can push a copy without it,
+  restored at the next save of a device holding it. A blue re-stamped purple on an old client, on an account whose only
+  new-code device ran offline without that blue, is not carried; so is a belt earned on an offline old device between a
+  guest's stamp and the account's, seen by no new client before the join.
 
 **OPEN2: the independent read of PR #404, and what changed.** The first version wrote the carry as `recallInPlay: true`,
 stamped at THIS device's `openAt`. A device that ran `_syncBelt` before its pull (the normal boot order: the curriculum and
 the manifest land before the auth round trip) stamped a later time than the account's, so its carry beat an Off chosen on
-another device in the per-key settings merge and was pushed back over it (the reader's scenarios 5a–5e and 6). The unit
+another device in the per-key settings merge and was pushed back over it. The unit
 that should have caught it pinned the stamp itself ("stamped at the rule's start, so any later choice wins the merge"),
 and its fake clouds held no `settings` at all. Two fixes were weighed: (a) stamp `openAt` and write the carry only after
 the account's first successful pull; (c) never write the switch, keep the carry as its own monotone fact. (c) was built:
 it leaves one writer of the switch, so it has no order to get wrong, where (a) still writes the switch and depends on
 telling "the first successful pull" apart across guest, stored session, OAuth return, local-only and failed pulls. The
-reader's scenarios against the fixed head: 5c and 5d keep Off (`{"now":false,"stored":false,"at":10500000}`), 6b keeps the
-pre-rule Off (`at 5000`), 3b (a future held stamp, first run) is carried.
+reader's two-device scenarios keep Off in every order against the fixed head.
 
 **OPEN2B: the PR's own CI (shard 2, 6 red).** guest-join.spec.ts, a guest who only looked: told their practice was saved,
 a real break. `openAt`, written on every owner's first sync, read as practice in `ngProgressPracticeKey` (a hand-maintained
-trail list, CLAUDE.md §6.7) and joined by MIN. The guest part now drops `openAt` (the account's stamp is its own) and the
-practice key drops `recallCarry` (derived from `belts.held`); `recallCarry` joins as an OR with its belt.
+trail list, CLAUDE.md §6.7). The guest part now leaves `openAt` out (its hash and the practice key) and the practice key
+drops `recallCarry` (derived from `belts.held`); `recallCarry` joins as an OR with its belt.
 tests/guest_join_safety.test.mjs 20 builds a bare landing's copy through the app's own belt sync and save (test 3's was
 written by hand, which is why the units stayed green), 21 pins the join (OPEN-M15, M16). landcard-deck.spec.ts, five recall
 tests: stale, its setup seeded a blue belt after boot to enter recall; it now stores the switch with `set`.
+
+**OPEN3: the delta read.** OPEN2B also kept the guest's stamp out of the MERGE, so a guest's blue earned under the guest's
+own rule was judged against the account's later or fresh stamp and got timed recall switched on at sign-in. The stamp now
+joins the merge as the earlier of the two (`ngProgressGuestMerge`), and the account's own carry is frozen before the join
+(`_joinGuestPractice`), so the earlier stamp cannot un-carry the account's own pre-rule belt. Test 21's line "the
+account's stamp stays its own" pinned the gap; it reads "the earlier stamp joins", with R1, R1b (no timed recall at
+sign-in) and R3 (the account's own pre-rule blue stays carried). The fact holds by code: hydrate reads `=== true`, the
+merge ORs; the old merge test's first case (a device that stamped before its pull carries a blue held only on the cloud)
+is a unit again.
 
 **Specs that pinned a lock (counted: 16 files carry a lock, Recall Mode or filter token; the corridor itself is walked by
 39).** Changed, each with its old claim written beside it and U163 c cited, none removed without a replacement that can
@@ -17063,6 +17074,13 @@ the carry writes no value):
 | OPEN-M12 the fact not consulted (live reading only) | belt_worn carry test ("a promotion under the rule cannot take the carry back"), "the carry's fact travels…" |
 | OPEN-M13 no clamp of a future held stamp | belt_worn clock test |
 | OPEN-M14 `beltUnlocked` as `rank >= worn` | belt_worn "U163 c: every section…" ("earlier earned sections remain reachable") |
+| OPEN-M15 the guest part keeps `openAt` | guest_join 20 ("a bare visit's copy… says nothing") |
+| OPEN-M16 the guest part drops `recallCarry` | guest_join 21 ("the guest's carry joins") |
+| OPEN-M17 the guest's stamp left out of the merge (OPEN2B's code) | guest_join 21, R1, R1b, R3 |
+| OPEN-M18 no freeze of the account's carry before the join | guest_join R3 |
+| OPEN-M19 hydrate reads any truthy `recallCarry` | belt_worn "the carry's fact holds by code…" |
+| OPEN-M20 no explicit OR in the merge | belt_worn "the carry's fact holds by code…" ("a local copy never beats the cloud's `true`") |
+| OPEN-M21 the fact decided only at the first stamp | belt_worn carry test, "the carry's fact holds by code…" |
 
 The area, run locally: before the merges of dev, 29 journey files (232 tests) and the 24 generated specs that walk the
 corridor or read the belt (25 tests); at the pushed head, 43 journey files (401 tests) and 39 generated specs (42 tests), all green: the area plus every spec that reaches timed

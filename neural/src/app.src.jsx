@@ -7166,6 +7166,10 @@ class Component extends DCLogic {
   _joinGuestPractice() {
     const host = this._progressHost;
     if (this._guestJoinTried || !this._progressCurrent() || !host || !host.joinGuest) return;
+    // the account's own carry, frozen before a guest's earlier open-rule stamp joins the merge (`ngProgressGuestMerge`):
+    // without it a pre-rule belt of the account's would read as after the joined stamp whenever no belt sync has run since
+    // the pull (the curriculum still in flight). tests/guest_join_safety.test.mjs R3.
+    if (!this._recallCarry && this._recallCarryLive()) this._recallCarry = true;
     const r = host.joinGuest(this);
     // once per mounted account: a definite answer ends it; a refusal (a failure) leaves it for the next pull
     if (r.status !== "unavailable") this._guestJoinTried = true;
@@ -7293,10 +7297,11 @@ class Component extends DCLogic {
         // the open rule began when it first ran on ANY device (U163 c): the earlier stamp, never local-wins. An OLDER client
         // merges top-level fields local-wins (`_progressExtras` above), so one holding a later `openAt` in its own copy can
         // push it back; the next new client's MIN repairs it, and a belt earned between the two stamps may be carried (a
-        // gift; the read of PR #404, finding 4). The carry's fact `recallCarry` needs no line here: it is only ever `true`,
-        // so the extras merge above (the cloud's fields, then the local copy's) already gives the OR, in old and new clients
-        // alike, and the staged blob is re-hydrated (`_pullAndMerge`). No client order can lower it.
+        // gift; the read of PR #404, finding 4). The carry's fact `recallCarry` is an OR, written here so that it holds by
+        // code: the extras merge above is local-wins, so a local copy holding anything but `true` would otherwise beat the
+        // cloud's `true` (the delta read's D4). No client order can lower it.
         this._openAt = ngMergeOpenAt(this._openAt, cloud.openAt);
+        this._recallCarry = this._recallCarry === true || cloud.recallCarry === true;
         const tutDone = Object.assign(
           {},
           ((cloud.tut || {}).done || {}),
@@ -14873,10 +14878,20 @@ class Component extends DCLogic {
   // later than the moment the open rule first ran for this account (`openAt`; none yet means the rule has not run, so
   // anything held predates it). A belt earned after `openAt` switches nothing on. Settings shows this as the switch's value
   // until the player presses one (`get("recallInPlay", _recallInPlayNow())`), and nothing here ever writes the switch.
-  // CLOCKS: both stamps come from device clocks. A held stamp in this device's future is clamped to its now (the srs merge
-  // clamps `last` for the same reason), so a first run on a device behind the one that earned the belt still carries it; a
-  // belt stamped by a clock that ran ahead, on an account whose rule began earlier, still reads as after it (named, not
-  // fixable from the stamps alone). tests/belt_worn.test.mjs.
+  // CLOCKS: both stamps come from device clocks, compared as they are, except that a held stamp in this device's future is
+  // clamped to its now (the srs merge clamps `last` the same way). What that holds: a belt already in this device's copy
+  // when it first runs the rule is carried, however far behind its clock (tests/belt_worn.test.mjs, the clock test). What
+  // it does not (named, measured by the delta read's D3): a pre-rule belt that arrives by the pull AFTER a device whose clock
+  // is behind took its stamp is clamped to that device's now, later than the stamp, so it is not carried (a loss); a belt
+  // earned UNDER the rule on a device whose clock is behind can carry a stamp earlier than the account's, so it is carried,
+  // for good through the OR (a gift); a belt stamped by a clock that ran ahead, on an account whose rule began earlier,
+  // reads as after it (a loss). OTHER EDGES (named, no machinery): a promotion in an old tab left open after another device
+  // ran the rule follows the old tab's rule, and an old tab reaching black mints the patch and writes the switch On over an
+  // earlier Off (its own mint); an old tab that pulled before the fact existed can push a whole copy without it, and a
+  // device holding the fact puts it back at its next save (the general stale-tab lost update); a belt earned on an offline
+  // old device between a guest's stamp and the account's, seen by no new client before the guest join, is judged against
+  // the earlier stamp and not carried; a blue re-stamped purple on an old client, on an account whose only new-code device
+  // ran first offline without that blue, is not carried (the fact was never set).
   _recallCarried() { return this._recallCarry === true || this._recallCarryLive(); }
   _recallCarryLive() {
     const h = this.belts && this.belts.held, at = this._openAt || 0;
