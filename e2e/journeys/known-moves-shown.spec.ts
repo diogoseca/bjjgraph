@@ -69,6 +69,20 @@ import { journey } from "../dsl"
  *   kind 2 wears gold                                -> "learned: ... face up, no gold" (both mouse, touch)
  * #401's own bundle fails the five KS2 tests (the empty-deck one before its claim: `_deckLearned` does not exist there)
  * and passes the five #401 tests.
+ *
+ * THE GOLD BECAME A SEAL (v1.272.0, the owner, 13 Nov: "The mastered cards show up with a golden outline, and this is
+ * confusing. It seems like this is the selected technique"; his pick "a, A gold seal in the corner": "A small filled
+ * seal: you answered Yes here. A hollow one: its flashcards are learned"). This file's `gold` (`data-mastered`) became
+ * `seal` (`data-seal`: "known" filled, "learned" hollow, null none). What each changed assertion claimed before:
+ *   the three faces     was "gold: the two Yeses (due too), not the new one" [true, true, false]
+ *                       now "the filled seal on the known move only" ["known", null, null]: a due move wears no seal
+ *   coming back (mouse) was "...still gold (the last answer was a Yes)"   now "...and its seal gone (it is due now)"
+ *   the pull's No / Yes was "its gold gone" / "gold again"               now no seal / the filled seal
+ *   learned (4 places)  was "face up, no gold"                           now "face up, the HOLLOW seal"
+ *   learnedDue          was "face down, no gold"                         now "face down, no seal"
+ *   the learned pull    was No "no gold" / Yes "now a known move, gold"  now no seal / the filled seal
+ * KS2's mutant "kind 2 wears gold" has no claim left (kind 2 wears the hollow seal now); its successor, "filled and
+ * hollow swapped", is killed in known-move-seal.spec.ts, which pins the seal's geometry, words and kinds.
  */
 
 type W = any
@@ -140,7 +154,7 @@ const face = (page: Page, k: string) => page.evaluate((k) => {
   const aria = c.querySelector("[data-choice-execute]")?.getAttribute("aria-label") || ""
   return {
     name: getComputedStyle(c.querySelector(".ngchoice-title")!).visibility, film: covered ? "covered" : "open",
-    announced: /^Hidden move \d+$/.test(aria) ? "hidden move" : aria.length > 0 ? "by name" : "nothing", gold: c.hasAttribute("data-mastered"),
+    announced: /^Hidden move \d+$/.test(aria) ? "hidden move" : aria.length > 0 ? "by name" : "nothing", seal: c.getAttribute("data-seal"),
     asking: c.hasAttribute("data-asking") ? c.querySelector("[data-choice-grade] span")?.textContent || "?" : null,
   }
 }, k)
@@ -178,10 +192,11 @@ const executing = (page: Page) => page.evaluate(() => !!(window as W).__neural._
 const comeBack = (page: Page, day: number) => page.evaluate((d) => { (window as W).__NG_EPOCH_DAY__ = d; document.dispatchEvent(new Event("visibilitychange")) }, day)
 
 async function threeFaces(page: Page) {
-  expect({ ...(await face(page, "known")), gold: undefined }, "known: face up, its name and its film, announced by name (owner, 13 Nov)").toEqual({ ...UP, gold: undefined })
-  expect({ ...(await face(page, "due")), gold: undefined }, "due: face down, name and film, announced by its place").toEqual({ ...DOWN, gold: undefined })
-  expect({ ...(await face(page, "fresh")), gold: undefined }, "never answered: face down").toEqual({ ...DOWN, gold: undefined })
-  expect([(await face(page, "known")).gold, (await face(page, "due")).gold, (await face(page, "fresh")).gold], "gold: the two Yeses (due too), not the new one").toEqual([true, true, false])
+  expect({ ...(await face(page, "known")), seal: undefined }, "known: face up, its name and its film, announced by name (owner, 13 Nov)").toEqual({ ...UP, seal: undefined })
+  expect({ ...(await face(page, "due")), seal: undefined }, "due: face down, name and film, announced by its place").toEqual({ ...DOWN, seal: undefined })
+  expect({ ...(await face(page, "fresh")), seal: undefined }, "never answered: face down").toEqual({ ...DOWN, seal: undefined })
+  // v1.272.0: was [true, true, false], "gold: the two Yeses (due too), not the new one"
+  expect([(await face(page, "known")).seal, (await face(page, "due")).seal, (await face(page, "fresh")).seal], "the filled seal on the known move; none on the due one (being asked) or the new one").toEqual(["known", null, null])
   expect(await named(page, "known"), "...and the map names the known move").toBe(true)
   expect([await named(page, "due"), await named(page, "fresh")], "...and neither face-down one").toEqual([false, false])
 }
@@ -197,12 +212,13 @@ for (const vp of [{ width: 1440, height: 900 }, { width: 390, height: 631 }]) {
       const p = await pointOn(page, "known")
       await page.mouse.move(p.x, p.y)
       await page.waitForTimeout(300)
-      expect({ ...(await face(page, "known")), gold: undefined }, "the pointer on the known card: still face up, and it asks nothing").toEqual({ ...UP, gold: undefined })
+      expect({ ...(await face(page, "known")), seal: undefined }, "the pointer on the known card: still face up, and it asks nothing").toEqual({ ...UP, seal: undefined })
       await page.mouse.move(p.x, p.y - 160)
 
       await comeBack(page, NEXT)
-      await expect.poll(async () => ({ ...(await face(page, "known")), gold: undefined }), { message: "coming back the next day: it is face down, as every move to recall" }).toEqual({ ...DOWN, gold: undefined })
-      expect((await face(page, "known")).gold, "...still gold (the last answer was a Yes)").toBe(true)
+      await expect.poll(async () => ({ ...(await face(page, "known")), seal: undefined }), { message: "coming back the next day: it is face down, as every move to recall" }).toEqual({ ...DOWN, seal: undefined })
+      // v1.272.0: was true, "...still gold (the last answer was a Yes)"
+      expect((await face(page, "known")).seal, "...and its seal gone: it is due, and a card to be asked wears none").toBeNull()
       expect(await named(page, "known"), "...and the map no longer names it").toBe(false)
 
       const q = await pointOn(page, "known")
@@ -212,10 +228,10 @@ for (const vp of [{ width: 1440, height: 900 }, { width: 390, height: 631 }]) {
       await page.waitForTimeout(ARM)
       await j.clickByMouse('[data-ks="known"] [data-grade="yes"]', '"Yes"')
       expect(await executing(page), "Yes is not a play").toBe(false)
-      expect({ ...(await face(page, "known")), gold: undefined }, "a Yes: face up again at once, asking nothing").toEqual({ ...UP, gold: undefined })
+      expect({ ...(await face(page, "known")), seal: undefined }, "a Yes: face up again at once, asking nothing").toEqual({ ...UP, seal: undefined })
       await page.mouse.move(q.x, q.y - 160)
       await page.waitForTimeout(200)
-      expect({ ...(await face(page, "known")), gold: undefined }, "...and it stays up once the pointer has left").toEqual({ ...UP, gold: undefined })
+      expect({ ...(await face(page, "known")), seal: undefined }, "...and it stays up once the pointer has left").toEqual({ ...UP, seal: undefined })
       const r = await row(page, "known")
       expect([r[3], r[2], r[0] > NEXT], "the row: a Yes answered today, due again after today").toEqual([1, NEXT, true])
       expect(await named(page, "known"), "the map names it again").toBe(true)
@@ -240,12 +256,12 @@ test.describe("touch 390x631", () => {
     await page.waitForTimeout(ARM)
     await page.touchscreen.tap(yes.x, yes.y)
     expect(await executing(page), "a tap on Yes grades and plays nothing").toBe(false)
-    expect({ ...(await face(page, "known")), gold: undefined }, "a Yes: face up").toEqual({ ...UP, gold: undefined })
+    expect({ ...(await face(page, "known")), seal: undefined }, "a Yes: face up").toEqual({ ...UP, seal: undefined })
     // another card's first tap closes the card turned up before it, but a known card is not turned up: it stays
     const f = await pointOn(page, "fresh")
     await page.touchscreen.tap(f.x, f.y)
     expect([(await face(page, "fresh")).name, (await face(page, "fresh")).asking], "the fresh card's first tap turns it up and asks").toEqual(["visible", "Did you get it?"])
-    expect({ ...(await face(page, "known")), gold: undefined }, "...and the known card stays face up").toEqual({ ...UP, gold: undefined })
+    expect({ ...(await face(page, "known")), seal: undefined }, "...and the known card stays face up").toEqual({ ...UP, seal: undefined })
     expect(await executing(page)).toBe(false)
     const k = await pointOn(page, "known")
     await page.touchscreen.tap(k.x, k.y)
@@ -262,17 +278,19 @@ test("a pull from another device: its No turns the card down in place, its Yes t
     a._hydrateProgressBlob({ ...b, moves: { ...b.moves, [s as string]: { ...b.moves[s as string], [m as string]: r } } })
   }, [S, String(ORD[ID.known]), r] as const)
   await pull([DAY + 1, 1, DAY, 0])
-  expect({ ...(await face(page, "known")), gold: undefined }, "another device's No: face down, no redeal").toEqual({ ...DOWN, gold: undefined })
-  expect([(await face(page, "known")).gold, await named(page, "known")], "...its gold gone, and the map withholds its name").toEqual([false, false])
+  expect({ ...(await face(page, "known")), seal: undefined }, "another device's No: face down, no redeal").toEqual({ ...DOWN, seal: undefined })
+  // v1.272.0: was [false, false], "...its gold gone"
+  expect([(await face(page, "known")).seal, await named(page, "known")], "...its seal gone, and the map withholds its name").toEqual([null, false])
   await pull([DAY + 3, 3, DAY, 1])
-  expect({ ...(await face(page, "known")), gold: undefined }, "another device's Yes: face up again").toEqual({ ...UP, gold: undefined })
-  expect([(await face(page, "known")).gold, await named(page, "known")], "...gold again, and the map names it").toEqual([true, true])
+  expect({ ...(await face(page, "known")), seal: undefined }, "another device's Yes: face up again").toEqual({ ...UP, seal: undefined })
+  // v1.272.0: was [true, true], "...gold again"
+  expect([(await face(page, "known")).seal, await named(page, "known")], "...the filled seal again, and the map names it").toEqual(["known", true])
 })
 
 test("control: with moves shown nothing is face down, before or after the day turns", async ({ page }) => {
   await seat(page, false)
   expect(await page.locator("[data-hide], .ng-choice-back, [data-choice-grade]").count(), "no hidden-moves DOM on any card while shown").toBe(0)
-  for (const k of ["known", "due", "fresh", "learned", "learnedDue"]) expect({ ...(await face(page, k)), gold: undefined }, `${k}: face up`).toEqual({ ...UP, gold: undefined })
+  for (const k of ["known", "due", "fresh", "learned", "learnedDue"]) expect({ ...(await face(page, k)), seal: undefined }, `${k}: face up`).toEqual({ ...UP, seal: undefined })
   expect([await named(page, "known"), await named(page, "due"), await named(page, "fresh")], "the map names all three").toEqual([true, true, true])
   await comeBack(page, NEXT)
   await page.waitForTimeout(200)
@@ -282,8 +300,9 @@ test("control: with moves shown nothing is face down, before or after the day tu
 // ── KS2 (v1.268.0): a move never answered in the row whose flashcards are all learned ─────────────────────────────
 
 async function learnedFaces(page: Page) {
-  expect(await face(page, "learned"), "learned: never answered, every flashcard learned, none due: face up, no gold (owner, 13 Nov 05:47)").toEqual({ ...UP, gold: false })
-  expect(await face(page, "learnedDue"), "learnedDue: the same, with one flashcard due: face down, no gold").toEqual({ ...DOWN, gold: false })
+  // v1.272.0: was { ...UP, gold: false } / { ...DOWN, gold: false }, "no gold"; the learned move wears the hollow seal
+  expect(await face(page, "learned"), "learned: never answered, every flashcard learned, none due: face up, the hollow seal (owner, 13 Nov 05:47)").toEqual({ ...UP, seal: "learned" })
+  expect(await face(page, "learnedDue"), "learnedDue: the same, with one flashcard due: face down, no seal").toEqual({ ...DOWN, seal: null })
   expect([await named(page, "learned"), await named(page, "learnedDue")], "...the map names the face-up one, not the face-down one").toEqual([true, false])
 }
 
@@ -305,7 +324,8 @@ for (const vp of [{ width: 1440, height: 900 }, { width: 390, height: 631 }]) {
       const p = await pointOn(page, "learned")
       await page.mouse.move(p.x, p.y)
       await page.waitForTimeout(300)
-      expect(await face(page, "learned"), "the pointer on the learned card: still face up, asking nothing").toEqual({ ...UP, gold: false })
+      // v1.272.0: was gold: false
+      expect(await face(page, "learned"), "the pointer on the learned card: still face up with its hollow seal, asking nothing").toEqual({ ...UP, seal: "learned" })
       // a look at the one with a due flashcard asks as for any move never answered: Did you get it? (Yes only)
       const q = await pointOn(page, "learnedDue")
       await page.mouse.move(q.x, q.y)
@@ -319,7 +339,7 @@ for (const vp of [{ width: 1440, height: 900 }, { width: 390, height: 631 }]) {
       await expect.poll(async () => (await face(page, "learned")).name, { message: "learned again: face up" }).toBe("visible")
       // the day its flashcards come due, the player comes back: face down, and a look asks
       await comeBack(page, LEARNED_DUE + 1)
-      await expect.poll(async () => ({ ...(await face(page, "learned")), gold: undefined }), { message: "its flashcards due: face down" }).toEqual({ ...DOWN, gold: undefined })
+      await expect.poll(async () => ({ ...(await face(page, "learned")), seal: undefined }), { message: "its flashcards due: face down" }).toEqual({ ...DOWN, seal: undefined })
       const r = await pointOn(page, "learned")
       await page.mouse.move(r.x, r.y)
       await expect.poll(async () => (await face(page, "learned")).asking, { message: "...and a look asks Did you get it?" }).toBe("Did you get it?")
@@ -339,7 +359,8 @@ test.describe("learned, touch 390x631", () => {
     await page.touchscreen.tap(d.x, d.y)
     expect(await executing(page), "a first tap on the face-down one turns it up and plays nothing").toBe(false)
     expect([(await face(page, "learnedDue")).name, (await face(page, "learnedDue")).asking], "...and asks Did you get it?").toEqual(["visible", "Did you get it?"])
-    expect(await face(page, "learned"), "the learned card stays face up").toEqual({ ...UP, gold: false })
+    // v1.272.0: was gold: false
+    expect(await face(page, "learned"), "the learned card stays face up, with its hollow seal").toEqual({ ...UP, seal: "learned" })
     const l = await pointOn(page, "learned")
     await page.touchscreen.tap(l.x, l.y)
     expect(await executing(page), "the learned card's first tap plays it, as a face-up card's does").toBe(true)
@@ -354,9 +375,10 @@ test("a learned move answered in the row on another device: the row rules from t
     a._hydrateProgressBlob({ ...b, moves: { ...b.moves, [s as string]: { ...b.moves[s as string], [m as string]: r } } })
   }, [S, String(ORD[ID.learned]), r] as const)
   await pull([DAY + 1, 1, DAY, 0])
-  expect(await face(page, "learned"), "another device's No: face down whatever its flashcards say, no gold").toEqual({ ...DOWN, gold: false })
+  // v1.272.0: was { ...DOWN, gold: false } and { ...UP, gold: true }
+  expect(await face(page, "learned"), "another device's No: face down whatever its flashcards say, no seal").toEqual({ ...DOWN, seal: null })
   await pull([DAY + 3, 3, DAY, 1])
-  expect(await face(page, "learned"), "another device's Yes: face up, now a known move, gold").toEqual({ ...UP, gold: true })
+  expect(await face(page, "learned"), "another device's Yes: face up, now a known move: the hollow seal fills").toEqual({ ...UP, seal: "known" })
 })
 
 test("a deck with no flashcards is never learned: none on today's wire (counted), so made three ways on a dealt move", async ({ page }) => {

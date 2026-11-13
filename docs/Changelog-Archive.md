@@ -17097,3 +17097,10 @@ the 352,966 baseline PR #402 checkpointed; cap 5,000); first-visit core 374,732 
 **Not covered.** The capstone of a later belt by a press (it needs every unit of that belt proven; the unit test starts one
 on a blue belt); a roll's question asking as timed recall after the press in Settings (landcard-modes 5c covers the switch
 by `set`); the carry across a real cloud pull in a browser (the merge is unit-tested through the real `_pullAndMerge`).
+
+## v1.272.0 — A move you know wears a gold seal, not a gold outline (the owner's pick a, SEAL1, 2026-11-13)
+
+"It seems like this is the selected technique." The card's outline (U116, U122 a) is gone: a filled seal for a move
+known and not due, a hollow one for one never answered whose flashcards are learned, none on a due card
+(`_sealCard`, from the `_moveState` read that turns the face). A card asked by touch wears the hover's outline.
+Mutants M0-M7 and their kills: the header of e2e/journeys/known-move-seal.spec.ts. neural.js +164 B, neural.css +508 B.

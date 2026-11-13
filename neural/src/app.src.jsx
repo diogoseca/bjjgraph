@@ -78,6 +78,9 @@ const NG_CARD_LIFT = 1 / 12, NG_CARD_LIFT_MS = 440;
 // earlier press was aimed at the card, not at a button the player had not seen yet. With the reveal instant (v1.256.7)
 // this is the ONLY wait left on a hidden card, and it guards a press, never what the player sees.
 const NG_HIDE_HINT = "badge", NG_HIDE_GRADE_NO = false, NG_GRADE_ARM_MS = 500;
+// THE SEAL's words (v1.272.0, `_sealCard`): its hover and, after the move's name, the card's accessible name. The app's
+// own voice: the account menu's "Moves known", Settings' "moves you know or whose flashcards you have learned".
+const NG_SEAL_WORDS = { known: "You know this move", learned: "Flashcards learned" };
 // The videos row's fade, in units of the ONE token it is sized from: the card's side padding, measured
 // by `_dockLandFilm` (the end padding is 1 of the same unit). helmet.html `.ng-landfilm`.
 const NG_FILM_FADE_RATIO = 3;
@@ -2926,8 +2929,8 @@ class Component extends DCLogic {
     return key.endsWith("|Top") || key.endsWith("|Bottom") ? 5 * this._seatShare(key) : 0;
   }
   // U122 a, THE GOLD'S LOOK: level 1 = known through the moves (a technique's pair; every dealt move of a seat), level
-  // 2 = and its detail flashcards learned too (`deckMastery` 1): a thin outline, then twice as thick, on the map and
-  // on the card (`_goldCard`). Defender halves have no moves of their own. WHICH nodes are gold depends on the record
+  // 2 = and its detail flashcards learned too (`deckMastery` 1): a thin outline, then twice as thick, on the map (the
+  // card wore it too until v1.272.0, when its seal replaced it: `_sealCard`). Defender halves have no moves of their own. WHICH nodes are gold depends on the record
   // alone and is found once per index (`goldAt`: every node, a hand per known seat); their LEVEL reads the flashcards
   // and is re-read, gold nodes only, when `_stageVer` moves. So the draw path reads one Map.get per node, and a
   // flashcard answer thickens an outline without re-dealing a hand. The opt-in colour shift (`masteryGold`) is another layer.
@@ -3083,9 +3086,9 @@ class Component extends DCLogic {
     this._stageVer = (this._stageVer || 0) + 1;
     this._scoreCache = null; this._flowScoreCache = null; this._flowCache = null;
     this._knowledgeEffect("map-paint", () => this._rebuildMapPaint());
-    this._knowledgeEffect("moves-gold", () => this._paintHandGold());
-    // ...and its face: a Yes turns a hidden card up, a No or a new day's due date turns it down (v1.266.0)
-    this._knowledgeEffect("moves-face", () => this._paintHandFaces());
+    // each dealt card's seal and face, from one read (`_paintCard`): a Yes seals a card and turns it up, a No or a new
+    // day's due date takes the seal off and turns it down (v1.266.0, the seal v1.272.0)
+    this._knowledgeEffect("moves-card", () => this._paintHand());
     // the belt BEFORE the tab repaints, so the tab never paints a belt that is not yet persisted
     this._knowledgeEffect("belt-sync", () => this._syncBelt(reason));
     if (this.renderTabSubtitles) this._knowledgeEffect("renderTabSubtitles", () => this.renderTabSubtitles());
@@ -4683,7 +4686,7 @@ class Component extends DCLogic {
         // coming back re-reads each card's face. Directly, never through `_checkKnowledgeDay`: that publishes only
         // against a day it has already read, and before the hand's first value request it has read none (a quick
         // return measured exactly that: the card stayed up, known-moves-shown.spec.ts, touch).
-        this._paintHandFaces();
+        this._paintHand();   // its seal too (v1.272.0): a move that came due loses its seal as it turns down
         if (this._systemId && this.deckShown) this._renderPaneBody();
       }
     };
@@ -13960,7 +13963,7 @@ class Component extends DCLogic {
       }
       if (label) label.textContent = view.immediateLabel === "Finish" ? "Submit" : view.immediateLabel;
       const execute = oc.card.querySelector("[data-choice-execute]");
-      if (execute) oc.card.querySelectorAll("[data-choice-execute]").forEach(button => { button.setAttribute("aria-label", button._ngFull = this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + (view.immediateText || view.immediateLabel + " chance " + view.immediate) + "."); if (oc.card.hasAttribute?.("data-hide")) this._hideAria(oc.card); });
+      if (execute) oc.card.querySelectorAll("[data-choice-execute]").forEach(button => { button._ngFull = this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + (view.immediateText || view.immediateLabel + " chance " + view.immediate) + "."; this._cardAria(oc.card); });
       const best = oc.card.querySelector("[data-choice-recommended]");
       if (best) best.textContent = view.recommended ? (view.recommendationLabel || "Recommended") : "";
     }
@@ -14422,10 +14425,8 @@ class Component extends DCLogic {
       + '<span class="ngcv-card" data-choice-value data-status="' + (value?.status || 'pending') + '">' + (value ? this.choiceStatsHTML(value) : '<span class="ng-choice-stat"><span><span data-immediate-label>' + immediateLabel + '</span> %</span><strong class="ngodds">' + (chance == null ? '—' : Math.round(chance * 100)) + '</strong></span><span class="ng-choice-stat"><span>Win %</span><strong data-threat-win>—</strong></span>') + '</span></' + execute + '>'
       + '<span class="ng-choice-badge" data-choice-recommended></span>'
       + '<div class="ngbar"></div>';
-    // A mastered move wears thin gold in every row, hidden or not (owner, U116).
-    this._goldCard(card, opt);
-    // with moves hidden, face down unless the move is known and not due (owner, 13 Nov; `_applyHide`)
-    this._applyHide(card);
+    // its seal (a move you know, or one whose flashcards are learned) and, with moves hidden, its face: one read (`_paintCard`)
+    this._paintCard(card);
     // A HIDDEN CARD'S FIRST TOUCH REVEALS, ITS SECOND PLAYS. The gate sits HERE, in front of
     // activateOption, so keys 1-9 (which call activateOption directly) still play blind and the
     // reader's beginPlay wrapper never sees a reveal as a play. Read at click time: the setting
@@ -14451,20 +14452,20 @@ class Component extends DCLogic {
   // the necessity of hidding everything including our mastered techniques"). The first step of Practice as recall over
   // a position's row: hide what has to be recalled, show what is already known.
   // ONE STATE, FROM THE MOVE'S OWN ROW `[due, ivl, last, ok]` (`_moveRow`), read by every surface that asks:
-  //   "new"    no row, or the last answer a No     face down; face up it asks "Did you get it?"   no gold
-  //   "known"  the last answer a Yes, not due      FACE UP with moves hidden; asks nothing        gold
+  //   "new"    no row, or the last answer a No     face down; face up it asks "Did you get it?"   no seal
+  //   "known"  the last answer a Yes, not due      FACE UP with moves hidden; asks nothing        FILLED seal
   //   "due"    the last answer a Yes, due today or before and not answered today
-  //                                                face down; face up it asks "Still got it?"     gold
-  // His two words are ONE fact here: a card is gold exactly when its row's last answer is a Yes (`_goldCard`; the
-  // thicker level 2 adds the deck's flashcards to that, never replaces it), and "up for review" is that same row's
-  // due date. So "gold and not up for review" is "known", and a due card (still gold) goes face down to be asked.
+  //                                                face down; face up it asks "Still got it?"     no seal
+  // His two words were ONE fact here: a card was gold exactly when its row's last answer was a Yes, and "up for review"
+  // is that same row's due date. So "gold and not up for review" is "known". Since v1.272.0 the mark IS that state
+  // (`_sealCard`): a due card wears no seal, so nothing on a card being asked says "you know this".
   // AND A MOVE WHOSE FLASHCARDS ARE ALL LEARNED (v1.268.0, KS2: he chose the other reading too, 13 Nov 05:47: "b, Also
   // a move whose flashcards are all learned"):
-  //   "learned" no row, its deck learned, none of its cards due   FACE UP with moves hidden; asks nothing   no gold
+  //   "learned" no row, its deck learned, none of its cards due   FACE UP with moves hidden; asks nothing   HOLLOW seal
   // THE ROW RULES WHEREVER IT EXISTS: a No puts the move face down whatever its flashcards say, and a Yes makes it "known"
   // or "due" by the row's own date. Kind 2 is only for a move never answered in this row (`_deckLearned`).
-  // Its gold is untouched (none: gold is the row's Yes; the owner is having the mark redrawn), and it is never a known
-  // move: no row, so `_movesIdx`, the odds' moves part and "Moves known" cannot see it.
+  // It is never a known move: no row, so `_movesIdx`, the odds' moves part and "Moves known" cannot see it; its seal is
+  // the hollow one (v1.272.0), the owner's own word for it: "its flashcards are learned".
   // Nothing stored changes: the state is read, never written; "Did you get it?" / "Still got it?" keep their
   // meaning and their schedule (`_peek` asks the same three-way question it always did, now through this one seam).
   _moveState(opt) {
@@ -14474,8 +14475,8 @@ class Component extends DCLogic {
     const day = this._epochDay();
     return row[0] <= day && row[2] < day ? "due" : "known";
   }
-  // "ALL LEARNED" IS THE TEST GOLD'S LEVEL 2 READS (`_goldCard`, `_movesGold`): `deckMastery(key) >= 1`, every card at
-  // stage 3 or more, on the deck `_goldCard` names (an escape has none: false). One question, one answer (§6.5).
+  // "ALL LEARNED" IS THE TEST THE MAP'S LEVEL 2 READ (`_movesGold`) and the card's thick gold read until v1.272.0:
+  // `deckMastery(key) >= 1`, every card at stage 3 or more, on the move's own deck (an escape has none: false).
   // A DECK WITH NO CARDS IS NOT LEARNED: deckMastery returns 0 for a missing deck and for zero cards in both of its
   // branches (`if (!n) return 0`), so zero of zero never reads 1 (pinned over every technique deck by
   // known-moves-shown.spec.ts, with stale grades planted so a 0/0 would bite).
@@ -14492,22 +14493,56 @@ class Component extends DCLogic {
     for (const qh in rows) { const e = rows[qh]; if (e && e[0] <= day && e[2] < day && (!live || live.has(qh))) return false; }
     return true;
   }
-  // THE ONE PLACE a dealt card is put face down or left face up, at the deal (buildOptionCard), when the setting flips
-  // under a hand (`_syncHideMoves`) and on every knowledge publish (`_paintHandFaces`): a Yes turns its card up for
+  // THE ONE PLACE a dealt card is put face down or left face up, at the deal and on every knowledge publish
+  // (`_paintCard`), and when the setting flips under a hand (`_syncHideMoves`): a Yes turns its card up for
   // good, a No or a pull's No turns it down, and a new day that makes a known move due turns it down to be asked;
   // a flashcard grade, a deck landing or a new day moves a "learned" card the same way (v1.268.0).
   // A card already where it belongs is not touched, so a card turned up by a look stays up.
-  _applyHide(card) {
-    const st = this._moveState(card._choiceOpt), down = this._hideMoves() && st !== "known" && st !== "learned";
+  _applyHide(card, st = this._moveState(card._choiceOpt)) {
+    const down = this._hideMoves() && st !== "known" && st !== "learned";
     if (down === card.hasAttribute("data-hide")) return;
     if (down) this._hideCard(card);
-    else { this._unhideCard(card); this._hideAria(card); }
+    else { this._unhideCard(card); this._cardAria(card); }
   }
-  // Moves shown, nothing is face down and nothing is touched: a player with moves shown sees no difference.
-  _paintHandFaces() { if (this._hideMoves()) for (const oc of this._optionCards || []) if (oc.card && oc.opt) this._applyHide(oc.card); }
+  // ── THE SEAL (v1.272.0, the owner, 13 Nov, his pick "a, A gold seal in the corner", over: "The mastered cards show
+  // up with a golden outline, and this is confusing. It seems like this is the selected technique, and we're trying to
+  // guess this technique."). His option read: "A small filled seal: you answered Yes here. A hollow one: its flashcards
+  // are learned. It reads as a stamp on the card"; the question: "Whatever you pick replaces the gold outline
+  // everywhere a move wears it today" and "the move being asked is the only thing with a strong outline".
+  //   "known"   (a Yes, not due)                     data-seal="known"    a FILLED gold disc with a dark tick
+  //   "learned" (no row, flashcards learned, none due) data-seal="learned"  a gold RING with a gold tick, dark inside
+  //   "new", "due"                                    no seal, no attribute
+  // So the seal is exactly the face-up reason with moves hidden: a sealed card is never face down, and a card that is
+  // asked ("Did you get it?" / "Still got it?") never wears one. Filled against hollow is a SHAPE (a disc against a
+  // ring), never only a colour. It is a real element, so a pointer over it gets its words (`title`) and the card's
+  // accessible name says them after the move's name (`_cardAria`). The card's border stays its ordinary one: the
+  // strong outlines in the row are the card under the pointer ([data-hover]), the focused one (:focus-visible) and a
+  // staged one (`_highlightStagedCard`); none is gold and none is a corner disc. The thin/thick gold outline (U116,
+  // U122 a: `data-mastered`, "" or "2") is gone with it: the seal has two kinds, and a move both answered Yes and
+  // learned is "known" (the row rules). Nothing stored changes; this is paint over the one state above.
+  _sealCard(card, st) {
+    const kind = st === "known" || st === "learned" ? st : null;
+    let el = card.querySelector("[data-choice-seal]");
+    if (kind === card.getAttribute("data-seal") && (!kind || el)) return;
+    if (kind) {
+      card.setAttribute("data-seal", kind);
+      if (!el) { el = card.ownerDocument.createElement("span"); el.className = "ng-choice-seal"; el.setAttribute("data-choice-seal", ""); card.appendChild(el); }
+      el.title = NG_SEAL_WORDS[kind];
+    } else { card.removeAttribute("data-seal"); el?.remove(); }
+    this._cardAria(card);
+  }
+  // THE CARD'S ONE READ: its seal and its face from a single `_moveState`, so the two cannot disagree (a card turned
+  // down by a new day loses its seal in the same call). At the deal, on every knowledge publish ("moves-card"), and
+  // when the tab comes back to the front (`_onVisHide`). Moves shown, `_applyHide` finds nothing to turn.
+  _paintCard(card) {
+    const st = this._moveState(card._choiceOpt);
+    this._sealCard(card, st);
+    this._applyHide(card, st);
+  }
+  _paintHand() { for (const oc of this._optionCards || []) if (oc.card && oc.opt) this._paintCard(oc.card); }
   _hideCard(card) {
     card.setAttribute("data-hide", NG_HIDE_HINT);
-    this._hideAria(card);
+    this._cardAria(card);
     if (card._hm) return;
     card._hm = 1;
     const back = document.createElement("div");
@@ -14541,14 +14576,17 @@ class Component extends DCLogic {
   _unhideCard(card) {
     for (const a of ["data-hide", "data-revealed", "data-hover", "data-asking"]) card.removeAttribute(a);
   }
-  // "Hidden move N" until the card is face up; the painter's full label after (`_ngFull`).
-  _hideAria(card) {
+  // THE CARD'S ACCESSIBLE NAME, its one writer after the deal: "Hidden move N" until the card is face up; face up, the
+  // painter's full label (`_ngFull`), with the seal's words after the move's name (v1.272.0): "Americana. You know this
+  // move. Win chance ...". The value painter, a seal change and every face change call it.
+  _cardAria(card) {
     const b = card.querySelector("[data-choice-execute]"); if (!b) return;
     const down = card.hasAttribute("data-hide") && !card.hasAttribute("data-revealed");
     // the number is the card's PLACE in its row (review R8): the printed digit stops at 9, and is absent with numbers off.
     // Built but not yet mounted (buildOptionCard), the place is the dealt one it was built with; the painter re-reads it.
     const row = card.parentElement, place = row ? [...row.children].indexOf(card) + 1 : card._place;
-    b.setAttribute("aria-label", down ? "Hidden move " + (place || "") : b._ngFull || this.choiceLabel(card._choiceOpt));
+    const name = this.choiceLabel(card._choiceOpt), full = b._ngFull || name, seal = NG_SEAL_WORDS[card.getAttribute("data-seal")];
+    b.setAttribute("aria-label", down ? "Hidden move " + (place || "") : seal ? name + ". " + seal + (full.startsWith(name + ". ") ? full.slice(name.length) : ".") : full);
   }
   // Touch or pen on a face-down card: turn it up (closing the one turned up before) and consume
   // the tap. A face-up card falls through and plays; a threat has nothing to play, so it toggles.
@@ -14575,13 +14613,13 @@ class Component extends DCLogic {
       if (!force && card._pt && card._pt !== "mouse") return;
       card.removeAttribute("data-revealed");
       lit.delete(opt.idx); lit.delete(opt.res);
-      this._hideAria(card);
+      this._cardAria(card);
       return;
     }
     if (!card.hasAttribute("data-hide")) return;
     card.setAttribute("data-revealed", "");
     lit.add(opt.idx); if (opt.res != null) lit.add(opt.res);
-    this._hideAria(card);
+    this._cardAria(card);
     // A PEEK IS A TOUCH. The hand sorts itself once when its win chances land, unless touched; a
     // hover is not one of the latch's events, and with every card face down the reorder is
     // invisible — a blind `3` would then play a different move from the one peeked at as 3.
@@ -14687,22 +14725,14 @@ class Component extends DCLogic {
   }
   _moveRow(opt) { const k = this._moveKey(opt); return k && this.moves && this.moves[k[0]] ? this.moves[k[0]][k[1]] : null; }
   _moveMastered(opt) { const r = this._moveRow(opt); return !!(r && r[3] === 1); }
-  // U122 a on the card: thin gold on a pair you know, twice as thick once its deck's flashcards are learned too
-  // An ESCAPE stays thin (review STAGE2E): it files by its own name, has no deck, and `deckKeyFor(opt.node)` is the
-  // submission's attacking half, whose flashcards say nothing about the escape.
-  _goldCard(card, opt) {
-    if (this._moveMastered(opt)) card.setAttribute("data-mastered", opt.action !== "escape" && this.deckMastery(this.deckKeyFor(opt.node).key) >= 1 ? "2" : "");
-    else card.removeAttribute("data-mastered");
-  }
-  // the hand's gold follows the record without a re-deal: a Yes pulled from another device, the deck's last detail
-  // card learned (level 1 to 2), a No. Every knowledge publish calls it.
-  _paintHandGold() { for (const oc of this._optionCards || []) if (oc.card && oc.opt) this._goldCard(oc.card, oc.opt); }
+  // (the card's thin/thick gold outline, `_goldCard` and `_paintHandGold`, was here until v1.272.0: the seal replaced it,
+  // `_sealCard`; a known escape wears the filled seal as any known move, it has no deck so it is never "learned")
   _gradeMove(opt, ok, card) {
     const k = this._moveKey(opt); if (!k) return;
     const m = (this.moves = this.moves || {}), row = (m[k[0]] = m[k[0]] || {});
     const prior = row[k[1]];   // cells a later build added after the fourth ride along (review R5)
     row[k[1]] = ngKnowledgeScheduleRow(prior, ok, this._epochDay()).concat(ok ? 1 : 0, prior && prior.length > 4 ? prior.slice(4) : []);
-    this._goldCard(card, opt);
+    this._sealCard(card, this._moveState(opt));
     // the record changed in place: a new revision for the moves index (its identity did not move), then republish:
     // the odds, the worker's profile, the map's gold and the account line all read it (a Yes adds, a No takes back)
     this._movesRev = (this._movesRev || 0) + 1;
@@ -17555,7 +17585,7 @@ class Component extends DCLogic {
     if (oc.card.hasAttribute("data-hide")) {
       oc.card.setAttribute("data-revealed", "");
       (this._hmLit || (this._hmLit = new Set())).add(oc.opt.idx);
-      this._hideAria(oc.card);
+      this._cardAria(oc.card);
     }
     oc.card.style.borderColor = "rgba(126,160,255,.65)";
     oc.card.style.boxShadow = "0 0 0 1px rgba(126,160,255,.35), 0 6px 22px rgba(74,108,255,.18)";

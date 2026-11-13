@@ -76,10 +76,10 @@ async function boot(browser, vp, dev) {
   await sleep(800)
   return { ctx, page, errors }
 }
-/** each own card in the row: its name, whether a player sees the name, its gold, what it asks, its Win % */
+/** each own card in the row: its name, whether a player sees the name, its gold (the filled seal since v1.272.0), what it asks, its Win % */
 const cards = (page) => page.evaluate(() => [...document.querySelectorAll('[data-choice-group="you"] .ng-choice-card')].map((c) => ({
   t: c._choiceOpt.node.t, id: c._choiceOpt.node.id, up: getComputedStyle(c.querySelector(".ngchoice-title")).visibility === "visible",
-  gold: c.hasAttribute("data-mastered"), asking: c.hasAttribute("data-asking") ? c.querySelector("[data-choice-grade] span")?.textContent : null,
+  gold: c.hasAttribute("data-mastered") || c.getAttribute("data-seal") === "known", asking: c.hasAttribute("data-asking") ? c.querySelector("[data-choice-grade] span")?.textContent : null,
   win: c.querySelector("[data-choice-win]")?.textContent, left: Math.round(c.getBoundingClientRect().left) })))
 /** the same scroll in every shot: the row starts at the card named `at` */
 const scrollTo = (page, id) => page.evaluate((id) => {
