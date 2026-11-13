@@ -33,7 +33,7 @@ function fixture(){const tasks=[],document={createElement:()=>new Element()};
  const mount=()=>{drawer.children=[];app._renderTrain(drawer);const box=drawer.children[0];return{box,row:box.querySelector('[data-b="due"]')};};
  return{app,drawer,session,calls,tasks,mount,plan(value){plan=value;app._gameplanRuntime={ngGameplanSummary:()=> 'real planner summary seam'};}};
 }
-// "N DUE" LEFT THE DRAWER (owner U171 a, 13 Nov 2026; v1.273.0). Until then this test pinned the owed reviews ON the row:
+// "N DUE" LEFT THE DRAWER (owner U171 a, 13 Nov 2026; v1.274.0). Until then this test pinned the owed reviews ON the row:
 // the "1 due" pill, `data-due-decks="1"` and a tooltip opening "1 card due · 1 technique · ". The owed pile is no longer the
 // day's debt, so it now pins their absence, with today's count against the goal and the loading state kept.
 test('absent planner: the Practice row shows today\'s count and the loading state, no due count, and opens Practice',()=>{
@@ -66,7 +66,7 @@ test('a late refresh repaints the mounted Practice row in place and keeps its li
  f.plan({status:'ready',fresh:[{key:'Guard|Top'}],reviewed:[],due:[{key:'Mount|Top'}],dueCards:3});f.app._gameStudyState={phase:'ready'};
  f.app._refreshGameplanUI();f.tasks.shift()();
  assert.equal(f.drawer.children[0],box,'the same block');assert.equal(box.querySelector('[data-b="due"]'),row,'the same row object');
- // until v1.273.0: `/>3 due</`, the plan's owed count on the repainted row; the count left the drawer (U171 a)
+ // until v1.274.0: `/>3 due</`, the plan's owed count on the repainted row; the count left the drawer (U171 a)
  assert.doesNotMatch(row.tail.html,/due/);assert.match(row.tail.html,/0\/20$/);assert.equal(box.getAttribute('data-gameplan-status'),'ready');
  row.click();assert.equal(clicks,1,'its listener survived the repaint');
 });

@@ -181,7 +181,7 @@ test("a Practice queue jump made far below the card, then walked with â†“ and â†
   await j.clickByMouse("[data-practice-details] > summary", "open the session queue");
   await page.waitForTimeout(200);
   const idx = 5;
-  // nth-of-type, not nth-child: since v1.273.0 the queue names each position (a <p data-practice-visit>) before its decks
+  // nth-of-type, not nth-child: since v1.274.0 the queue names each position (a <p data-practice-visit>) before its decks
   const jump = "[data-practice-queue] button:nth-of-type(" + (idx + 1) + ")";
   await scrollListTo(jump);
   const away = await fit(page);

@@ -298,7 +298,7 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   await expect(cell).toBeVisible();
   // THE CELL PRINTS CARDS (v1.172.0, owner: "18 cards due" on the band over "35 due" here —
   // "the due cards should be consistent"). The technique count is the tooltip's second figure.
-  // until v1.273.0 the cell printed the owed CARD count ("2 due", and "2 cards due · 1 technique · " in its tooltip); the
+  // until v1.274.0 the cell printed the owed CARD count ("2 due", and "2 cards due · 1 technique · " in its tooltip); the
   // owner took the due count out of the drawer (U171 a), so the cell carries today's count and no due figure at all
   await expect(cell.locator(".ng-dr-pill"), "no due count on the cell (U171 a)").toHaveCount(0);
   await expect(cell).not.toHaveAttribute("title", /due/);
@@ -352,13 +352,13 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   // (`_paintPractice` counts `s.review.rows` when there is no plan), so its wait was met before the
   // released chunk had even arrived, and the read under it took `_session.plan` once. PR #406's
   // shard 4 read `plan: false`; holding the chunk 400 ms after `release()` made that 10 of 10.
-  // The wait goes BEFORE the fold is opened: the plan's arrival re-renders the untouched queue, and until v1.273.0 the
+  // The wait goes BEFORE the fold is opened: the plan's arrival re-renders the untouched queue, and until v1.274.0 the
   // re-render closed the fold. Since FOLD1 it keeps the fold as the player left it (practice-order.spec.ts pins that by a
   // real tap and click), so the order is no longer needed for the fold; it stays because what this test reads below is the
   // PLAN, and a fold opened first would show the eager queue's line until it lands. Measured on the dev
   // box, release to plan is about 1 s, network ~30 ms of it, and 3.7 to 5.7 s at 4x CPU, past the 5 s
   // default, hence the bound practice-drawer.spec.ts uses.
-  // Until v1.273.0 the plan's review rows were the same whole cover ([other], 2 cards) and its count line read "2 cards to
+  // Until v1.274.0 the plan's review rows were the same whole cover ([other], 2 cards) and its count line read "2 cards to
   // review across 1 technique". Practice now asks what is worth most, position by position (U171 a): the owed cards it
   // reaches today are its choice, so what is pinned is that its review rows are still a COVER of what it asks (each owed
   // card once, one row per deck) and that every figure it prints is that CARD count.
@@ -380,7 +380,7 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
     plan.newCards + " new, by how often they come up in your rolls and how close you are to forgetting them");
   await expect(page.locator("[data-plan-goal-progress]"), "the session heading counts cards too").toContainText("Reviewed 0/");
 
-  // and the Challenges band is there while something is owed; until v1.273.0 it printed the same owed count ("2 cards
+  // and the Challenges band is there while something is owed; until v1.274.0 it printed the same owed count ("2 cards
   // due"), and since the count left the drawer (U171 a) it prints today's count, as the Practice row does
   await page.evaluate(() => (window as any).__neural.openPane("challenges"));
   await page.waitForTimeout(400);

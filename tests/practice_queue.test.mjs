@@ -1,4 +1,4 @@
-// THE ORDER PRACTICE ASKS IN (v1.273.0, owner U171 a, 13 Nov 2026: "What is worth most") — neural/src/practice-queue.src.js,
+// THE ORDER PRACTICE ASKS IN (v1.274.0, owner U171 a, 13 Nov 2026: "What is worth most") — neural/src/practice-queue.src.js,
 // the planner that plays it (neural/src/gameplan.src.js) and the app's two joins to it (`planSummary`, `_practiceSeats`).
 //
 // The owner's rule, as the option he picked put it: what comes up most in rolls and what you are closest to forgetting,
@@ -20,8 +20,8 @@
 // (equal to ~1e-16) came in the other order. Part 2 is that check frozen: 40 days of a small world, 469 asks, regenerated
 // only from the simulation.
 //
-// MUTANTS (v1.273.0), each applied alone to a clean tree and run against this file; each turned the NAMED test red (the run
-// log is in docs/Changelog-Archive.md, v1.273.0):
+// MUTANTS (v1.274.0), each applied alone to a clean tree and run against this file; each turned the NAMED test red (the run
+// log is in docs/Changelog-Archive.md, v1.274.0):
 //   Q1  oldest first restored (positions by their oldest owed card)        → "worth, not age, decides which position comes first"
 //   Q2  the floor of 4 new removed                                          → "at least 4 new a day"
 //   Q3  the per-position cap ignored                                        → "at most 6 at a position"

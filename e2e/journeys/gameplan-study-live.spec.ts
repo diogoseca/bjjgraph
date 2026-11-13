@@ -98,7 +98,7 @@ async function openPlan(page: Page, touch: boolean, withDebt = false) {
         const card = a._cardsOf(a.flashcards.decks[key])?.[0];
         if (!card) throw Error('missing real Mount review fixture');
         // a miss yesterday (interval 1, no stage): what the player is closest to forgetting, so the worth order (U171 a,
-        // v1.273.0) asks it; until then an older right answer ([day - 1, 3, day - 4]) was owed, and owed was enough
+        // v1.274.0) asks it; until then an older right answer ([day - 1, 3, day - 4]) was owed, and owed was enough
         a.srs[key] = { ...(a.srs[key] || {}), [a.qhash(card.q)]: [day, 1, day - 1] };
         (window as any).__sharedQ = a.qhash(card.q);
       }
@@ -146,11 +146,11 @@ test('explicit plan loads controls without a study worker; paging, touch and sta
   // freezes one qhash review rather than charging the same question twice.
   // v1.242.0: Practice mixes new decks into the plan (owner U56 e), so the claim reads the plan's REVIEW
   // rows; the session's keys carry the new decks and the ranked rest beside them.
-  // since v1.273.0 the question is filed under the first of the decks that share it (it may be a Mount variant's), and the
+  // since v1.274.0 the question is filed under the first of the decks that share it (it may be a Mount variant's), and the
   // queue is what is worth most (U171 a): the claim is ONE review row holding it, in a deck that holds it
   expect(before.due).toHaveLength(1);
   expect(before.holds).toEqual([true]);
-  // until v1.273.0 "the review leads the queue" (owed first); the queue is now what is worth most, position by position
+  // until v1.274.0 "the review leads the queue" (owed first); the queue is now what is worth most, position by position
   // (U171 a), so the claim is that the one review row is IN the queue, once
   expect(before.keys.filter((k: string) => k === before.due[0]), 'and the review is in the queue, once').toHaveLength(1);
   await page.evaluate(() => {

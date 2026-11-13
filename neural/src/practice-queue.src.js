@@ -1,4 +1,4 @@
-// THE ORDER PRACTICE ASKS IN (v1.273.0, owner U171 a, 13 Nov 2026: "What is worth most") — pure and stateless: no clock,
+// THE ORDER PRACTICE ASKS IN (v1.274.0, owner U171 a, 13 Nov 2026: "What is worth most") — pure and stateless: no clock,
 // no DOM, no storage, no rng. Bundled into the deferred planner (gameplan.js, fetched when the drawer opens: U170 a) through
 // gameplan.src.js, and imported as a module by the unit suite (tests/practice_queue.test.mjs).
 //
@@ -39,7 +39,7 @@
 // STAGE 3 ASKS CARDS ONLY. Today's Practice page has no way to ask a hidden move (that is Stage 4, the map asks), so the app
 // hands no moves in: a visit is at most 6 question cards. The law takes moves (`kind: "move"`) for the parity and for Stage 4.
 //
-// research: docs/Changelog-Archive.md (v1.273.0).
+// research: docs/Changelog-Archive.md (v1.274.0).
 import { ngRatingRecall } from "./rating.src.js";
 
 const NG_PQ_CAP = 6;          // things asked at one position, at most (U171 a)

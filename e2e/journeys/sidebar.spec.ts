@@ -220,7 +220,7 @@ test("@curated Practice, Path and Last rolls open their views, and the brand lea
   })
   await openDrawer(j, page)
   const practice = page.locator('[data-explore-stats] [data-b="due"]')
-  // until v1.273.0 the row also carried the owed reviews ("2 due"); the owner took that count out of the drawer (U171 a)
+  // until v1.274.0 the row also carried the owed reviews ("2 due"); the owner took that count out of the drawer (U171 a)
   await expect(practice.locator(".ng-dr-pill"), "no due count on the row (U171 a)").toHaveCount(0)
   await expect(practice.locator(".ng-dr-tail"), "the day's goal, up front").toHaveText("1/20")
   const path = page.locator('[data-explore-stats] [data-view="challenges"]')
@@ -243,7 +243,7 @@ test("@curated Practice, Path and Last rolls open their views, and the brand lea
   // section instead (practice-mix.spec pins the mix). v1.261.0 (owner U135 a): Practice is a view in the
   // drawer, as Path is, so "Practice" is in the brand ("‹ Practice"), no longer in the study head.
   await expect(page.locator(".ng-drawer-brand"), "Practice opens the session").toHaveText("‹ Practice")
-  // until v1.273.0 titled by the owed reviews ("Due reviews · 2 cards"); Practice now goes position by position (U171 a),
+  // until v1.274.0 titled by the owed reviews ("Due reviews · 2 cards"); Practice now goes position by position (U171 a),
   // so the card section is titled by the open card's position, the first of the plan's
   await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { message: "the worth plan lands" }).toBe("worth")
   const first = await page.evaluate(() => { const p = (window as W).__neural._session.plan; return p.visits[0].seat.replace("|", " \u00b7 ") + " \u00b7 position 1 of " + p.visits.length })
@@ -262,7 +262,7 @@ test("@curated Practice, Path and Last rolls open their views, and the brand lea
 // A REPAINT MID-PRESS MUST NOT SWALLOW THE PRESS (SIDE-R2 M10, FGD13's class): a residency or planner
 // refresh repaints the Practice row in place, and a tail rewritten between pointerdown and pointerup
 // leaves the browser no common target, so no click is dispatched at all. Nothing changed, nothing is written.
-// Until v1.273.0 the press landed on the "N due" pill; the pill left the drawer (U171 a), so it lands on the row's
+// Until v1.274.0 the press landed on the "N due" pill; the pill left the drawer (U171 a), so it lands on the row's
 // count, the part `_paintTrain` rewrites.
 test("a repaint between pressing Practice and releasing it does not swallow the press", async ({ page }) => {
   const j = journey(page)

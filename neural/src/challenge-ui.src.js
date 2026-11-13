@@ -736,7 +736,7 @@ const NG_CHALLENGE_UI_METHODS = {
         maint.type = "button";
         maint.className = "ng-maint-band";
         maint.setAttribute("data-maintenance", "1");
-        // "N DUE" LEFT THE DRAWER (owner U171 a, 13 Nov; v1.273.0): the band stays the Path's door to Practice, and says
+        // "N DUE" LEFT THE DRAWER (owner U171 a, 13 Nov; v1.274.0): the band stays the Path's door to Practice, and says
         // what the Practice row says, today's answers against the goal, never the size of the owed pile
         const t = this.practiceToday(), today = t.done + " of " + t.goal + " today";
         maint.setAttribute("aria-label", "Practice, " + today + " \u2014 start today's session");

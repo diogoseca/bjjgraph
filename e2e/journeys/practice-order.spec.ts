@@ -2,7 +2,7 @@ import { expect, test, type Page } from "@playwright/test"
 import { resolve } from "node:path"
 import { journey } from "../dsl"
 
-/** WHAT IS WORTH MOST (v1.273.0, the owner, 13 Nov 2026, U171 a): "what comes up most in rolls and what you are closest to
+/** WHAT IS WORTH MOST (v1.274.0, the owner, 13 Nov 2026, U171 a): "what comes up most in rolls and what you are closest to
  * forgetting, position by position … at most 6 per position; every answer counts 1 toward 20; at least 4 new things a day;
  * the 'N due' count leaves the drawer, today's count out of 20 stays."
  *
@@ -17,8 +17,8 @@ import { journey } from "../dsl"
  *   · paging the queue and "Keep practising" without answering store NOTHING: every localStorage key and value is
  *     byte-identical (the pattern of rating-reader.spec.ts);
  *   · a record with no answer in it is never read as a worth session: today's order serves it, and says so once.
- * MUTANTS (v1.273.0), each built into the bundle (`npm run dev:neural:app`) and run against this file under the lock; the
- * table is in docs/Changelog-Archive.md (v1.273.0):
+ * MUTANTS (v1.274.0), each built into the bundle (`npm run dev:neural:app`) and run against this file under the lock; the
+ * table is in docs/Changelog-Archive.md (v1.274.0):
  *   P1 the cold oldest-first queue kept in front of the worth plan (`_practiceAppend`)   → "the session is the plan's queue"
  *   P2 the "N due" pill back on the row                                                  → "the row: today's count, no due"
  *   P3 oldest first restored in the law                                                  → "Practice opens on the planner's first position"
@@ -136,7 +136,7 @@ for (const touch of [true, false]) {
       expect(await storage(page), "every localStorage key and value is byte-identical after opening, paging and Keep practising").toBe(before)
     })
 
-    // FOLD1 (v1.273.0, the orchestrator's check on the preview): on a slow connection a player can open "Practice details &
+    // FOLD1 (v1.274.0, the orchestrator's check on the preview): on a slow connection a player can open "Practice details &
     // session queue" while the eager queue shows; the plan landing re-rendered the queue and the fold snapped shut under
     // them. The planner's file is held here as srs-due.spec.ts holds it; the fold is opened by a real tap or click; released,
     // the plan lands, and the fold is still open and shows the plan's rows. Opening the fold is reading, not answering, so

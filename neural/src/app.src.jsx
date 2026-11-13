@@ -5921,7 +5921,7 @@ class Component extends DCLogic {
     // EVERYTHING OPENS (U163 c, owner, 13 Nov): new cards come from every family. Until v1.270.0 a deck outside the worn
     // belt's families got no headroom (and a plan built with no curriculum said so once, `practice_belt_unfiltered`); the
     // belt now only shows. e2e/journeys/everything-opens.spec.ts and tests/gameplan_runtime.test.mjs pin it.
-    // WHAT IS WORTH MOST (U171 a, v1.273.0): the order is neural/src/practice-queue.src.js (deferred, in gameplan.js); it
+    // WHAT IS WORTH MOST (U171 a, v1.274.0): the order is neural/src/practice-queue.src.js (deferred, in gameplan.js); it
     // prices every question with the rating's own game (`_ratingGame`: one table, one answer) and asks it at the position
     // its deck belongs to. A plan that could not use it (no game yet, a record with no answer) is today's order, and says
     // so once per reason (`practice_order_fallback`), never as a worth plan.
@@ -6593,7 +6593,7 @@ class Component extends DCLogic {
 
   _renderPractice(s, list) {
     s.started ??= this.practiceToday().done;
-    // FOLD1 (v1.273.0): a plan that lands late re-renders an untouched queue (`_practiceAppend`), and that rebuilt "Practice
+    // FOLD1 (v1.274.0): a plan that lands late re-renders an untouched queue (`_practiceAppend`), and that rebuilt "Practice
     // details & session queue" shut under a player who had opened it in the meantime; it keeps what the player left
     const kept = s.support?.firstChild?.open;
     this._gameplanProgress(s);

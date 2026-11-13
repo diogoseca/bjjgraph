@@ -149,7 +149,7 @@ export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, de
     if (kept.length) ranking = { ...ranking, rows: ranking.rows.concat(kept) };
   }
   const budget = Math.max(0, Math.floor(Number.isFinite(target) ? target : 20)), left = budget - reviewed.length;
-  // WHAT IS WORTH MOST (U171 a, v1.273.0): the day's rows come from practice-queue.src.js when the app hands it the game.
+  // WHAT IS WORTH MOST (U171 a, v1.274.0): the day's rows come from practice-queue.src.js when the app hands it the game.
   // Anything else (no game, no seat map, a record with no answer) is today's order below, and the plan says why.
   // a goal, never a cap: with nothing left of today's goal, Practice deals another round of the goal's size, by worth
   const order = worth ? ngGameplanOrder({ day, goal: left > 0 ? left : budget, floor: Math.ceil(budget / (NG_PRACTICE_REVIEWS_PER_NEW + 1)), srs, decks, revision, ...worth }) : null;

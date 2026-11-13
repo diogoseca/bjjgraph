@@ -138,7 +138,7 @@ test("PD2: 1440×900 each card's technique is flown to the free map beside the d
     await j.advance(3500);
     const at = await glass(), where = JSON.stringify(at);
     expect(at.idx, "the card in view is the one paged to").toBe(step);
-    // until v1.273.0: "Practice opens on the most overdue review" (the seeded due[0]); it now opens on the plan's first row,
+    // until v1.274.0: "Practice opens on the most overdue review" (the seeded due[0]); it now opens on the plan's first row,
     // the position worth most (U171 a). This test's subject is the camera, which follows whichever card is open.
     if (step === 0) expect(at.key, "Practice opens on the plan's first row").toBe(await page.evaluate(() => (window as any).__neural._session.plan.queue[0]));
     else expect(at.node, "the next technique is another orb").not.toBe(seen[0]);
@@ -230,7 +230,7 @@ for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { wi
     expect(due[1].d, "the longest authored explanation").toBeGreaterThanOrEqual(1000);
     await j.clickByMouse(".ng-logo", "open the drawer");
     await openPractice(page, j);
-    // Until v1.273.0 the two owed longest cards opened the queue (most overdue first). The day's queue is now what is worth
+    // Until v1.274.0 the two owed longest cards opened the queue (most overdue first). The day's queue is now what is worth
     // most (U171 a), so the two decks are appended to the session through Practice's own append (the seam "Keep
     // practising" and a Path lesson use), and each is opened by its button in the session queue, the way a player reaches
     // a later row.
