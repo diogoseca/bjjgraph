@@ -11,6 +11,7 @@
  *   01 before     dev's own bundle (the 6 files of `baseDist`, served in place of this build's): everything face down
  *   02 after      this build: the two known, not-due moves face up
  *   03 due        the player comes back 4 days later: the move due in 3 days is face down again; the other stays up
+ *                 (on the phone the row starts at the move that comes due; at 1440 at the row's first card)
  *   04 asked      a look at it (hover / tap) asks "Still got it?"
  *   05 yes        a Yes: face up again
  *   06 other      the reading NOT built (a runtime patch of `_moveState`, this shoot only): a never-answered move whose
@@ -30,7 +31,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 const ORD = JSON.parse(fs.readFileSync(new URL("../../node_ordinals.json", import.meta.url), "utf8")).ordinals
 const now = new Date(), TODAY = Math.floor((now.getTime() - now.getTimezoneOffset() * 60000) / 86400000)
 const S = ORD["Positions/Mount"] + "/top"
-const ID = { soon: "Transitions/Mount-to-Knee-on-Belly", later: "Submissions/Americana/from-Mount", due: "Submissions/Kimura/from-Mount" }
+const ID = { soon: "Submissions/Ezekiel-Choke/from-Mount", later: "Submissions/Americana/from-Mount", due: "Submissions/Kimura/from-Mount" }
 const MOVES = { [S]: {
   [ORD[ID.soon]]: [TODAY + 3, 7, TODAY - 4, 1],
   [ORD[ID.later]]: [TODAY + 9, 14, TODAY - 5, 1],
@@ -89,7 +90,9 @@ async function shot(page, name, vp, at, log) {
 }
 async function look(page, vp, id) {
   const p = await page.evaluate((id) => {
-    const c = window.__neural._optionCards.find((o) => o.opt.node.id === id && !o.opt.threat).card, r = c.getBoundingClientRect()
+    const c = window.__neural._optionCards.find((o) => o.opt.node.id === id && !o.opt.threat).card
+    c.scrollIntoView({ inline: "nearest", block: "nearest" })
+    const r = c.getBoundingClientRect()
     const x = r.left + r.width / 2, y = r.top + 22, t = document.elementFromPoint(x, y)
     return { x, y, ok: !!t && c.contains(t) }
   }, id)
@@ -103,12 +106,11 @@ const browser = await chromium.launch()
 const log = []
 try {
   for (const vp of VPS) {
-    // the row starts at the first card of the seat's two known, not-due moves (the same card in every shot)
+    // the row starts at the move that comes due in shot 03 on the phone, at the row's first card at 1440: the same card in
+    // every shot of a width
     let b = await boot(browser, vp, false)
     const order = (await cards(b.page)).map((c) => c.id)
-    const at = order.find((id) => id === ID.soon || id === ID.later) || order[0]
-    const prev = order[Math.max(0, order.indexOf(at) - 1)]
-    const start = vp.mobile ? at : prev
+    const start = vp.mobile ? order.find((id) => id === ID.soon) || order[0] : order[0]
     await b.ctx.close()
     const dev = await boot(browser, vp, true)
     await shot(dev.page, "01-before-everything-hidden", vp, start, log)
@@ -135,10 +137,11 @@ try {
     await b.ctx.close()
     // the reading not built: a never-answered move whose flashcards are all learned counts as mastered
     b = await boot(browser, vp, false)
-    const learned = await b.page.evaluate(async (known) => {
+    const learned = await b.page.evaluate(async (start) => {
+      // the first never-answered card from the shot's first card on: inside the picture at both widths
       const a = window.__neural, own = a._optionCards.filter((c) => !c.opt.threat)
-      const i = own.findIndex((c) => known.includes(c.opt.node.id))
-      const pick = own.slice(i + 1).find((c) => !a._moveRow(c.opt) && c.opt.action !== "escape") || own.find((c) => !a._moveRow(c.opt))
+      const i = Math.max(0, own.findIndex((c) => c.opt.node.id === start))
+      const pick = own.slice(i).find((c) => !a._moveRow(c.opt) && c.opt.action !== "escape")
       const key = a.deckKeyFor(pick.opt.node).key
       if (!a._deckHasCards(key)) await a.hydrateDeck(key)
       a.stage[key] = Object.fromEntries(a._cardsOf(a.flashcards.decks[key]).map((c) => [a.qhash(c.q), 3]))
@@ -146,7 +149,7 @@ try {
       a._moveState = (opt) => { const s = orig(opt); return s === "new" && !a._moveRow(opt) && opt.action !== "escape" && a.deckMastery(a.deckKeyFor(opt.node).key) >= 1 ? "known" : s }
       a._publishKnowledge("shoot:other-reading")
       return { t: pick.opt.node.t, mastery: a.deckMastery(key) }
-    }, [ID.soon, ID.later])
+    }, start)
     console.log("  other reading: flashcards learned on", JSON.stringify(learned))
     await shot(b.page, "06-other-reading-flashcards-learned", vp, start, log)
     log[log.length - 1].learned = learned
