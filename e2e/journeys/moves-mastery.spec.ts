@@ -198,7 +198,7 @@ test("a Yes adds 15 to that card's Works % and sends the worker a new profile; a
   expect(line0, "one move known at boot, of every pair dealt in gi").toEqual({ known: 1, total: PAIRS_GI })
   // v1.272.0: was "the seeded known move wears thin gold" (""); it is due and face down (moves hidden): no seal. Face up
   // (moves shown) a due move wears the filled seal (SEAL2), pinned by known-move-seal.spec.ts
-  expect(due0.seal, "the seeded known move is due: no seal").toBeNull()
+  expect(due0.seal, "the seeded known move is due and face down (moves hidden): no seal").toBeNull()
   expect(y0.seal, "the move to grade is not known yet: no seal").toBeNull()
   expect(r0.permanent[y0.key] || 0, "...and its deck holds no permanent bonus").toBe(0)
   await settled(page)

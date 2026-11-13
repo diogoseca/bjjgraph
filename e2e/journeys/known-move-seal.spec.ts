@@ -43,19 +43,24 @@ import { journey } from "../dsl"
  * ways a player reaches it: its flashcards come due (face down, no seal), a look asks "Did you get it?", a Yes; and a
  * Yes given on another device, pulled in place. Both fill the seal, on the same element.
  *
- * MUTANTS (v1.272.0), each on the SERVED bundle at an anchor matching exactly once, the whole file run against each
- * (tests/artifacts/_seal_mutants.sh); the baseline green before and after, 4 of 4:
- *   M0 control, a warn string's case                          green, 4 of 4
- *   M1 the gold outline back (dev's own rule, on data-seal)   red 4 of 4 at "...: the card's border is the ordinary one"
- *   M2 the hollow seal on a move with a due flashcard          red 3 (the three with learnedDue) at "learnedDue: no seal"
- *   M3 the filled seal on a due move                           red 3 at "due: no seal", moves shown AND hidden
- *   M4 the seal painted at the deal only, the face alone repainted (a face-down card keeps its seal)
- *                                                              red 3: "the known move, now due and face down: no seal",
- *                                                              "another device's Yes ...: the seal fills", "320, k0: ..."
- *   M5 filled and hollow swapped                               red 4 of 4 at "known: data-seal "known" and one seal"
+ * MUTANTS (v1.272.0, final run after SEAL2), each on the SERVED bundle at an anchor matching exactly once, the whole
+ * file run against each (tests/artifacts/_seal_mutants.sh); the baseline green before and after, 6 of 6:
+ *   M0 control, a warn string's case                          green, 6 of 6
+ *   M1 the gold outline back (dev's own rule, on data-seal)   red 4 at "...: the card's border is the ordinary one"
+ *   M2 the hollow seal despite a due flashcard                 red 1 at "1440 shown, learnedDue: no seal" (with moves
+ *                                                              hidden the card is face down, so no seal shows anyway)
+ *   M3a a seal on a due FACE-DOWN card (the face not read)     red 3 at "1440 hidden, due: no seal", "390 hidden, due",
+ *                                                              "moves hidden: known, due and face down: no seal"
+ *   M3b a due FACE-UP card loses its seal (the first build;    red 1 at "1440 shown, due, face up: the filled seal, due
+ *       SEAL2's regression)                                    or not"
+ *   M4 the seal painted at the deal only, the face repainted   red 4: "a Yes on the due card: the filled seal", "moves
+ *       alone (a face-down card keeps its seal)                hidden: known, due and face down", "390: the Yes seals
+ *                                                              it", "320, k0: data-seal ..."
+ *   M5 filled and hollow swapped                               red 4 at "known: data-seal "known" and one seal"
  *   M6 the seal over the title, at 320 wide only (a media rule) red 1, the 320 test alone, at "off the title band"
  *   M7 the card asked by touch wears no outline (as on dev)    red 1, the 390 test alone, at "the card asked by touch
  *                                                              wears the strong outline"
+ *   M11 the setting flip repaints the face alone (before SEAL2) red 1 at "moves hidden: known, due and face down: no seal"
  *   THE MAP (its own commit; the two "the map" tests below, 1440 and 390):
  *   M8 the map's gold outline back (dev's stroke, beside the dot)  red 2 at "no gold outline left: every pixel the known
  *                                                              set changes lies inside a published dot" (524 / 334 px)

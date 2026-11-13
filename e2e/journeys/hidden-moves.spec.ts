@@ -516,7 +516,7 @@ test("what a face-up card asks: unknown Yes only, known and due Still got it Yes
   const d = await ask("due")
   // v1.272.0: was gold: true ("still gold" while asked); a face-down card wears no seal, revealed or not, so a card being
   // asked never says "you know it" (face up, moves shown, the same move wears the filled seal: SEAL2, known-move-seal.spec.ts)
-  expect(d.r, "known and due: Still got it? Yes / No, and no seal").toEqual({ asking: true, q: "Still got it?", yes: 1, no: 1, seal: null, up: true })
+  expect(d.r, "known and due, face down and asked: Still got it? Yes / No, and no seal").toEqual({ asking: true, q: "Still got it?", yes: 1, no: 1, seal: null, up: true })
   await page.waitForTimeout(ARM)
   await j.clickByMouse('[data-hk="due"] [data-grade="no"]', '"No"')
   const no = await page.evaluate((k) => { const a = (window as W).__neural, c = document.querySelector('[data-hk="due"]')!; return { seal: c.getAttribute("data-seal"), row: a.moves[k[0]][k[1]], executing: !!a._execution } }, [S, String(ORD[id.due])])
