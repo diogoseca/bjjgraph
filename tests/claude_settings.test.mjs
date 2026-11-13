@@ -10,7 +10,7 @@
 // Mutants, each applied alone, killed at:
 //   the deny block moved back to the top level -> "only known top-level keys" and "permissions.deny holds every..."
 //   one force-push rule dropped                 -> "permissions.deny holds every force-push rule"
-//   the file untracked again (.gitignore)        -> "the settings file is tracked"
+//   the file removed from the index (git rm --cached) -> "the settings file is tracked"
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
