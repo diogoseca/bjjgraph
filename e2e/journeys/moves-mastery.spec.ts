@@ -37,6 +37,27 @@ import { journey } from "../dsl"
  * Review round 1: the first build's own formula (the sum in the app, figure / 0.03 to the worker), restored exactly,
  * is killed by "a seat known in part, below the cap" with its own message (every card refused, "—").
  * NOT COVERED here: the ruleset switch, the seat share and the cap (units), the study presenter's descriptor (unit).
+ *
+ * THE CARD'S GOLD BECAME A SEAL (v1.272.0, the owner, 13 Nov: "The mastered cards show up with a golden outline, and
+ * this is confusing. It seems like this is the selected technique"; his pick "a, A gold seal in the corner": "A small
+ * filled seal: you answered Yes here. A hollow one: its flashcards are learned"). The card's claims moved from
+ * `data-mastered` ("" thin, "2" thick) to `data-seal`, and each says what it claimed before:
+ *   the seeded known move  was "wears thin gold" ("")      it is DUE and FACE DOWN (moves hidden), so now "no seal"
+ *   a Yes, mouse and touch was "thin gold on the card" ("") now the filled seal ("known")
+ *   the No                 was "the No takes the gold away" now "no seal" (it had none: it was due)
+ *   the gold test, card    was level 1 "the 1px gold border and a .5px ring", level 2 "the border and a 2px ring"
+ *                          now the filled seal on the ordinary border, before AND after the deck is learned: the seal
+ *                          has two kinds, and a move both answered Yes and learned is "known" (the row rules)
+ * The seal's geometry, its kinds and its mutants are pinned by known-move-seal.spec.ts.
+ *
+ * AND THE MAP'S OUTLINE BECAME THE SEAL'S DOT (v1.272.0, its own commit; the owner's option: "It reads as a stamp on the
+ * card, and shrinks to a dot beside the name on the map"). The same pixel differential reads it, and each map claim
+ * says what it claimed before:
+ *   level 1 on the map  was "an outline drawn on the known orb"   now "the seal's dot drawn at the known orb"
+ *   level 2 on the map  was "the map's outline about doubles" (x1.6 to x2.6)
+ *                       now "the dot does not grow" (x0.8 to x1.25): the map's mark has ONE state; a deck learned on
+ *                       top of a known move changes nothing there (its flashcards show through "Turn what you know gold")
+ * The dot's place, its publication and its mutants are pinned by known-move-seal.spec.ts ("the map ...").
  */
 
 type W = any
@@ -91,7 +112,7 @@ const read = (page: Page) => page.evaluate(() => {
   const a = (window as W).__neural, s = a._choiceValues.snapshot(), P = a.knowledgeProfile()
   const own = a._optionCards.filter((c: W) => !c.opt.threat)
   const card = (c: W) => ({ id: c.opt.node.id, hk: c.card.getAttribute("data-hk"), key: a.deckKeyFor(c.opt.node).key,
-    works: parseInt(c.card.querySelector(".ngodds").textContent, 10), gold: c.card.getAttribute("data-mastered") })
+    works: parseInt(c.card.querySelector(".ngodds").textContent, 10), seal: c.card.getAttribute("data-seal") })
   return { cards: own.map(card), seatWin: parseInt(document.querySelector("[data-legend-win]")!.getAttribute("data-win-chance")!, 10),
     sent: s.request.profileHash, profile: P.fingerprint, permanent: { ...P.permanent } }
 })
@@ -175,8 +196,10 @@ test("a Yes adds 15 to that card's Works % and sends the worker a new profile; a
   const j = await seat(page)
   const r0 = await read(page), y0 = by(r0, "y"), due0 = by(r0, "due"), line0 = await line(page, j)
   expect(line0, "one move known at boot, of every pair dealt in gi").toEqual({ known: 1, total: PAIRS_GI })
-  expect(due0.gold, "the seeded known move wears thin gold").toBe("")
-  expect(y0.gold, "the move to grade is not known yet").toBeNull()
+  // v1.272.0: was "the seeded known move wears thin gold" (""); it is due and face down (moves hidden): no seal. Face up
+  // (moves shown) a due move wears the filled seal (SEAL2), pinned by known-move-seal.spec.ts
+  expect(due0.seal, "the seeded known move is due and face down (moves hidden): no seal").toBeNull()
+  expect(y0.seal, "the move to grade is not known yet: no seal").toBeNull()
   expect(r0.permanent[y0.key] || 0, "...and its deck holds no permanent bonus").toBe(0)
   await settled(page)
 
@@ -195,7 +218,8 @@ test("a Yes adds 15 to that card's Works % and sends the worker a new profile; a
   expect(r1.permanent[y0.key], "the worker's profile carries the move's +0.15").toBe(0.15)
   expect(r1.sent, "the worker was sent the NEW profile").toBe(r1.profile)
   expect(r1.sent, "...which is not the one it held before").not.toBe(r0.sent)
-  expect(y1.gold, "thin gold on the card").toBe("")
+  // v1.272.0: was "thin gold on the card" ("")
+  expect(y1.seal, "the filled seal on the card").toBe("known")
   expect((await line(page, j)).known, "the line counts the Yes").toBe(line0.known + 1)
 
   // a Yes on the seat's best move: the seat's Win % rides on it, so it rises (a direction; both draws rigged). If it
@@ -227,11 +251,12 @@ test("a Yes adds 15 to that card's Works % and sends the worker a new profile; a
   expect(due2.works - due0.works, `${DUE}: the No takes exactly 15 off its painted Works %`).toBe(-15)
   expect(r2.permanent[due0.key] || 0, "...and its permanent bonus off the worker's profile").toBe(0)
   expect([r2.sent === r2.profile, r2.sent !== rz.sent], "the worker was sent that profile too").toEqual([true, true])
-  expect(due2.gold, "the No takes the gold away").toBeNull()
+  // v1.272.0: was "the No takes the gold away"; it was due, so it had no seal, and the No gives it none
+  expect(due2.seal, "after the No: no seal").toBeNull()
   expect((await line(page, j)).known, "the line counts it down: two Yeses, one No").toBe(line0.known + 1)
 })
 
-test("gold, on the card and on the map: thin when known, twice as thick with the flashcards learned, without a reload", async ({ page }) => {
+test("the card's seal and the map's gold: known, then the flashcards learned too, without a reload", async ({ page }) => {
   test.setTimeout(300_000)
   const j = await seat(page)
   const p = await pointOn(page, '[data-hk="y"]')
@@ -248,17 +273,22 @@ test("gold, on the card and on the map: thin when known, twice as thick with the
       .sort((p: W, q: W) => Math.hypot(q.opt.node.x - y.opt.node.x, q.opt.node.y - y.opt.node.y) - Math.hypot(p.opt.node.x - y.opt.node.x, p.opt.node.y - y.opt.node.y))[0]
     return { y: y.opt.node.id, u: far.opt.node.id, key: a.deckKeyFor(y.opt.node).key }
   }, DUE)
+  // the card as a player sees it: its seal, and its border against a dealt card that is not known (v1.272.0)
   const ring = (page: Page) => page.evaluate(() => {
-    const c = document.querySelector('[data-hk="y"]')!, s = getComputedStyle(c)
-    return { attr: c.getAttribute("data-mastered"), border: s.borderTopWidth + " " + s.borderTopColor, ring: (s.boxShadow.match(/rgba\(232, 196, 106, [\d.]+\) 0px 0px 0px ([\d.]+)px/) || [])[1] || s.boxShadow }
+    const a = (window as W).__neural, c = document.querySelector('[data-hk="y"]')!, b = (el: Element) => { const s = getComputedStyle(el); return s.borderTopWidth + " " + s.borderTopColor + " " + s.boxShadow }
+    // a dealt card that is not known and not under the pointer or asked (face down is fine: [data-hide] moves no border)
+    const plain = a._optionCards.find((o: W) => !o.opt.threat && !o.card.hasAttribute("data-seal") && !o.card.hasAttribute("data-hover") && !o.card.hasAttribute("data-asking")).card
+    return { seal: c.getAttribute("data-seal"), disc: !!c.querySelector("[data-choice-seal]"), border: b(c) === b(plain) ? "ordinary" : b(c) }
   })
   // polled: the card eases out of its hover (a box-shadow transition) after the pointer leaves
-  await expect.poll(() => ring(page), { message: "level 1 on the card: the 1px gold border and a .5px ring" }).toEqual({ attr: "", border: "1px rgba(232, 196, 106, 0.9)", ring: "0.5" })
+  // v1.272.0: was "level 1 on the card: the 1px gold border and a .5px ring" ({ attr: "", border: "1px rgba(232, 196, 106, 0.9)", ring: "0.5" })
+  await expect.poll(() => ring(page), { message: "known on the card: the filled seal, on the ordinary border" }).toEqual({ seal: "known", disc: true, border: "ordinary" })
   // the seeded known move (DUE) is gold on the map too: its own window, so nothing else may change
   const m1 = await mapGold(page, ids.y, ids.u, [DUE])
   expect(m1.repeat, "the frame is deterministic (control)").toBe(0)
   expect(m1.apart, "the two orbs are far enough apart to tell apart").toBeGreaterThan(90)
-  expect(m1.near, "level 1 on the map: an outline drawn on the known orb").toBeGreaterThan(20)
+  // v1.272.0: was "level 1 on the map: an outline drawn on the known orb"
+  expect(m1.near, "on the map: the seal's dot drawn at the known orb").toBeGreaterThan(20)
   expect(m1.gold, `...in gold (its mean colour rgb(${m1.mean}), hue ${m1.hue}°)`).toBe(true)
   expect([m1.nearU, m1.elsewhere], "...and nothing on the unknown orb at the same zoom, nor anywhere but the known orbs").toEqual([0, 0])
 
@@ -271,13 +301,16 @@ test("gold, on the card and on the map: thin when known, twice as thick with the
     a._publishKnowledge("test:deck-learned")
   }, ids.key)
   expect(await page.evaluate((key) => (window as W).__neural.deckMastery(key), ids.key), "the deck reads learned").toBe(1)
-  await expect.poll(() => ring(page), { message: "level 2 on the card, without a reload: the border and a 2px ring, twice level 1's 1.5px" }).toEqual({ attr: "2", border: "1px rgba(232, 196, 106, 0.9)", ring: "2" })
+  // v1.272.0: was "level 2 on the card, without a reload: the border and a 2px ring, twice level 1's 1.5px"
+  // ({ attr: "2", ... ring: "2" }); the seal has two kinds, and a Yes with its flashcards learned is still "known"
+  await expect.poll(() => ring(page), { message: "the deck learned too: still the filled seal, still the ordinary border (the row rules)" }).toEqual({ seal: "known", disc: true, border: "ordinary" })
   const m2 = await mapGold(page, ids.y, ids.u, [DUE])
-  expect([m2.nearU, m2.elsewhere], "level 2: still nothing elsewhere").toEqual([0, 0])
+  expect([m2.nearU, m2.elsewhere], "the deck learned too: still nothing elsewhere").toEqual([0, 0])
   expect(m2.gold, `...in gold (rgb(${m2.mean}), hue ${m2.hue}°)`).toBe(true)
-  console.log(`[moves-mastery] map outline: level 1 ${m1.near} px rgb(${m1.mean}), level 2 ${m2.near} px rgb(${m2.mean})`)
+  console.log(`[moves-mastery] map dot: known ${m1.near} px rgb(${m1.mean}), the deck learned too ${m2.near} px rgb(${m2.mean})`)
   const ratio = m2.near / m1.near
-  expect(ratio > 1.6 && ratio < 2.6, `the map's outline about doubles: ${m1.near} -> ${m2.near} px (x${ratio.toFixed(2)})`).toBe(true)
+  // v1.272.0: was ratio 1.6 to 2.6, "the map's outline about doubles" (U122 a's level 2); the dot has one state
+  expect(ratio > 0.8 && ratio < 1.25, `the map's dot does not grow when the deck is learned too: ${m1.near} -> ${m2.near} px (x${ratio.toFixed(2)})`).toBe(true)
 })
 
 test("a seat known in part, below the cap: every card's Win % prints, and the worker reads the card's own figure", async ({ page }) => {
@@ -327,7 +360,8 @@ test.describe("touch", () => {
     const r1 = await read(page), y1 = by(r1, "y")
     expect(y1.works - y0.works, `${y0.id}: +15 on its painted Works %`).toBe(15)
     expect([r1.permanent[y0.key], r1.sent === r1.profile, r1.sent !== r0.sent], "the worker's new profile carries it").toEqual([0.15, true, true])
-    expect(y1.gold, "thin gold").toBe("")
+    // v1.272.0: was "thin gold" ("")
+    expect(y1.seal, "the filled seal").toBe("known")
     expect(await page.evaluate(() => !!(window as W).__neural._execution), "a tap on Yes plays nothing").toBe(false)
     const l = await line(page, j)
     expect(l, "the line counts it").toEqual({ known: 2, total: PAIRS_GI })
