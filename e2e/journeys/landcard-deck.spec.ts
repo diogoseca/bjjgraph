@@ -586,9 +586,11 @@ for (const width of [1440, 390, 320]) {
     // the press at y 643 landed on the card, 3px above Next, and the wait for page 3 ran out. Recorded over 100 unrigged runs (496
     // presses): 16 aims came before the new card's layout, the layout always landed before the press, and only the +25px one missed
     // (aimed 14.5ms after the page changed, pressed 27ms after the press before); the 15 others moved 8 to 17px and still hit. 2 of 16
-    // runs on 13 Nov. Rigged (the pass held, released right after the measure, the draws pinned to the tall card): 10 of 10 red here,
-    // always the card at y 643; released right before it, 10 of 10 green. A finger aims at what a frame painted, so this is the
-    // spec's timing, not the app's.
+    // runs on 13 Nov, and dev's push-run 43361724381 the same night (card 3 of 8, "Upright posture decides the pin" on two lines: the
+    // tall draw). Rigged (the pass held, released right after the measure, the draws pinned to the tall card): 10 of 10 red here,
+    // always the card at y 643; released right before it, 10 of 10 green. This press aims at a spot no frame painted for the card:
+    // the spec's timing. NOT pinned here: a thumb that taps twice at ONE spot, 150 or 300ms apart, also misses on the tall draw
+    // (the arrow moved 25px), 12 of 12, mouse and touch; that is where the arrows stand, an owner's call (docs/Changelog-Archive.md).
     for (let index = 2; index < total; index++) {
       await j.readerLayoutSettled()
       await j.clickByMouse("[data-land-next]")
