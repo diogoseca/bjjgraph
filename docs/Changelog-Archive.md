@@ -17930,7 +17930,7 @@ Item b of STAGE3-R2 (the "Not covered" paragraph above: the floor's reload) was 
   520,499 is `gameplan.js`, 19,946 → 21,086: ANKI1-R1's code, and `rating.src.js`, which `gameplan.js` bundles and #412
   grew. Dev's own use is 510,269.
 
-## v1.277.0 — A name for an orb the player sees under see-through chrome; the v1.275.0 entry's first-cut figures corrected (NEXT1, 2026-11-14)
+## v1.278.1 — A name for an orb the player sees under see-through chrome; the v1.275.0 entry's first-cut figures corrected (NEXT1, 2026-11-14)
 
 **The fault (the independent reader's last check of #410).** `on(c)` refused a name for any orb wholly inside ONE box of
 `_nameBlocks`, and some of those boxes paint nothing over the map: the strip of the row above its cards, the reader's table

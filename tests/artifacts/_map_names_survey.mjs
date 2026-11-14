@@ -23,7 +23,7 @@
  *   crossSeal  labels crossing a gold dot that is not their own (`_lastMapSeals`)
  *   crossBg    labels crossing any other orb drawn on screen (the cloud: reported, not a target)
  *   hidOrb     move names whose own orb lies wholly under paint that hides it (a background at alpha x opacity 0.5 or
- *              more, an image or gradient, a backdrop filter, raster media: an open desktop drawer, a card; v1.277.0)
+ *              more, an image or gradient, a backdrop filter, raster media: an open desktop drawer, a card; v1.278.1)
  * and how many labels were written, by kind (the position's own, dealt moves, other), ON THE SETTLED FRAME: each case settles
  * half a second at the usual zoom, wheels, and records half a second after the camera rests (a name the jump dropped waits
  * that long before it may come back); `jump` counts the moves named on the wheel's own frame, `rest1` on the first at rest,
@@ -186,7 +186,7 @@ async function measure(page) {
       const bg = cs.backgroundColor, bgOn = bg && !/rgba\([^)]*,\s*0\)$/.test(bg) && bg !== "transparent"
       const bd = (parseFloat(cs.borderTopWidth) + parseFloat(cs.borderLeftWidth) > 0) && !/rgba\([^)]*,\s*0\)$/.test(cs.borderTopColor)
       const media = /^(IMG|svg|VIDEO|CANVAS|INPUT|SELECT|TEXTAREA)$/i.test(el.tagName) || cs.backgroundImage !== "none"
-      // paint that HIDES an orb (v1.277.0, `hidOrb`): a background colour at alpha x effective opacity of 0.5 or more, a
+      // paint that HIDES an orb (v1.278.1, `hidOrb`): a background colour at alpha x effective opacity of 0.5 or more, a
       // background image or gradient, a backdrop filter, an image, video or canvas (never text, a border or an svg icon)
       // a colour's alpha after its slash (`color(display-p3 r g b / a)`), else rgba's fourth argument, else opaque
       const j = bg.lastIndexOf("/"), e = eff(el), al = j > 0 ? parseFloat(bg.slice(j + 1)) / (bg.endsWith("%)") ? 100 : 1) : /^rgba\(/.test(bg) ? parseFloat(bg.split(",")[3]) : bg === "transparent" ? 0 : 1
@@ -236,7 +236,7 @@ async function measure(page) {
       if (orbs.some((o) => !o.hand && !own(o) && circ(L.box, o, o.R))) out.crossBg++
     }
     // a move named beside an orb that lies WHOLLY under paint that hides it (the desktop drawer, a card): a name with no
-    // visible orb (R2 D4; v1.277.0 by covering paint, `covers`: a see-through box hides nothing)
+    // visible orb (R2 D4; v1.278.1 by covering paint, `covers`: a see-through box hides nothing)
     out.hidOrb = 0
     for (const L of labels) {
       if (!/move/.test(L.kind)) continue

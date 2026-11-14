@@ -21450,7 +21450,7 @@ class Component extends DCLogic {
     return { blocks, l: this._paneLayout().left, r: this.W, b: this.H, v: blocks.map((b) => [b.l, b.t, b.r, b.b].map(Math.round)).join(";") };
   }
   // DOES CONTROL `q` HIDE THE ORB whose silhouette box is `o` (canvas px, already wholly inside `q`)? Only where it PAINTS
-  // over it (v1.277.0, NEXT1 part 2; the reader's last check of #410: a box alone hid orbs the player sees, 17 names lost at
+  // over it (v1.278.1, NEXT1 part 2; the reader's last check of #410: a box alone hid orbs the player sees, 17 names lost at
   // 1440 Standing over 45 cameras): the control or a descendant whose box holds `o` whole and paints it out, by a background
   // colour at alpha x opacity (the control's own, inline first as `_nameBlocks` reads it, times each one down) of 0.5 or
   // more, a background image or gradient, a backdrop filter, or as an image, video or canvas. Text, borders and line icons
@@ -22409,7 +22409,7 @@ class Component extends DCLogic {
       // a name only for an orb whose own silhouette is on the canvas (R1 finding 5: a far-side place could name an orb
       // drawn wholly off the screen, at the edge, where it reads as the name of whatever orb is nearest), and neither wholly
       // left of the map's free edge nor wholly under one control's PAINT (R2 D4: an open desktop drawer, the row's cards;
-      // v1.277.0: a box alone, see-through, hides nothing, `_hides`)
+      // v1.278.1: a box alone, see-through, hides nothing, `_hides`)
       // (the part of it ON the canvas: an orb hanging off the edge is hidden when what shows of it is under paint)
       const on = (c) => {
         const o = { l: Math.max(0, c.sx - c.r), r: Math.min(W, c.sx + c.r), t: Math.max(0, c.sy - c.r), b: Math.min(H, c.sy + c.r) };
