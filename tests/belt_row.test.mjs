@@ -34,6 +34,9 @@
 //   BELT-M19 an account fires before its first pull (R1, finding 2b)                       → "an account before its first pull"
 //   BELT-M20 after the pull it fires though the cloud brought the level (R1, finding 2b)   → "an account before its first pull"
 //   BELT-M21 the pull never fires a held-back promotion (`_pullAndMerge`'s call dropped)  → "an account before its first pull"
+//   BELT-M22 a held-back promotion's beat that throws fails the merged pull (R2, N5)       → "a held-back promotion whose beat throws"
+//   BELT-M23 an account playing local-only waits for a pull it never makes (R2, N4)        → "an account playing local-only"
+//   BELT-M24 unreadable storage read as "already stored" (R2, N4)                          → "unreadable storage"
 //
 // Run: node --test tests/belt_row.test.mjs
 import { test } from "node:test";
@@ -445,6 +448,38 @@ test("an account before its first pull: raised, nothing fires until the pull mer
   const c = acct(12);
   await c._askBeltRow(); await c._pullAndMerge();
   assert.deepEqual([c.belts.lvl.n, beats(c, "level_reached").length], [12, 0], "the cloud brought more: nothing fires, the higher is held");
+});
+
+// ── R2 (the second read of PR #412): the fire can never fail a pull; local-only and unreadable storage fire at once ──
+const acctApp = (cloudN) => {
+  const a = boot({ blob: { belts: { won: {}, lvl: { n: 7, t: 3 } } }, reading: ok(1416.4) });
+  const cloud = { v: 2, belts: { won: {}, lvl: { n: cloudN, t: 1 } } };
+  const facade = { neuralSyncVersion: 2, pullNeural: async (id) => ({ userId: id, blob: clone(cloud) }) };
+  Object.assign(a, { _progressOwner: { kind: "account", id: "A" }, _authUserId: "A", _authDisposed: false, _progressLocalOnly: false, _auth: () => facade });
+  return a;
+};
+test("a held-back promotion whose beat throws never fails the pull that merged: it succeeds and the guest join still runs", async () => {
+  const a = acctApp(5);
+  await a._askBeltRow();
+  const real = a.fx.bind(a);
+  a.fx = (beat, p) => { if (beat === "level_reached") throw new Error("a level sound that throws"); return real(beat, p); };
+  let joined = 0; a._joinGuestPractice = () => { joined++; };
+  assert.equal(await a._pullAndMerge(), true, "BELT-M22: the pull still succeeds");
+  assert.deepEqual([a._pulled, a._pulledUserId, joined, a._cloudSyncError], [true, "A", 1, null], "marked pulled, the join ran, no error");
+});
+
+test("an account playing local-only fires at once: it makes no pull to wait for", async () => {
+  const a = boot({ blob: { belts: { won: {}, lvl: { n: 7, t: 3 } } }, reading: ok(1416.4) });
+  Object.assign(a, { _progressOwner: { kind: "account", id: "A" }, _progressLocalOnly: true, _pulled: false });
+  await a._askBeltRow();
+  assert.deepEqual([a.belts.lvl.n, beats(a, "level_reached").length], [8, 1], "BELT-M23: fired at once");
+});
+
+test("unreadable storage reads as no level stored: the promotion fires (once per tab)", async () => {
+  const a = boot({ blob: { belts: { won: {}, lvl: { n: 7, t: 3 } } }, reading: ok(1416.4) });
+  Object.assign(a, { _progressOwner: { kind: "guest" }, _progressHost: { store: { read: () => { throw new Error("storage unreadable"); } } } });
+  await a._askBeltRow();
+  assert.deepEqual([a.belts.lvl.n, beats(a, "level_reached").length], [8, 1], "BELT-M24: unreadable is not \"already stored\"");
 });
 
 // ── THE LIVE CHECK AT THE DRAWER: a reopen (the real `ratingCheck`, on this worktree's emitted payload) ──

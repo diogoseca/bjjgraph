@@ -7466,7 +7466,7 @@ class Component extends DCLogic {
       }
       if (!current()) return false;
       this._pulled = true; this._pulledUserId = userId; this._pushSeq = (this._pushSeq || 0) + 1;
-      this._afterPullLevel(empty ? null : cloud);   // a promotion held back for this pull (`_noteRatingLevel`)
+      try { this._afterPullLevel(empty ? null : cloud); } catch (e) { /* a held-back promotion's beat never fails a merged pull (N5) */ }
       this._cloudSeen = pushesAtStart === (this._pushEvents || 0) ? seen : null;
       this._cloudSyncError = null;
       // v1.262.0 (ORDER1): guest practice joins only HERE, after a successful pull, so the rule meets the CLOUD's rows
@@ -8078,15 +8078,26 @@ class Component extends DCLogic {
   /**
    * A PROMOTION BY THE NUMBER (ruled, STAGE2-GO 4): when a FINAL reading's own level is above everything worn, the held
    * level rises to it, saved at once with ONE silent beat (`level_reached`; no sound: a sound or a celebration is a later
-   * design job) and one analytics line, written with the level, so it never fires twice for one level. Only here, on the
+   * design job) and one analytics line, written with the level, so it fires once per level per tab or device in the usual
+   * order (the exceptions are listed under ONCE PER LEVEL below). Only here, on the
    * device whose own number raised it: a level that arrives by a merge (`_mergeProgressFields`) or from the Path
    * (`_syncBelt`) fires nothing.
    */
-  // ONCE PER LEVEL ACROSS TABS AND BEFORE THE FIRST PULL (R1, finding 2): the level is always raised (it is monotone) and
+  // ONCE PER LEVEL ACROSS TABS AND UNTIL A PULL HAS MERGED (R1, finding 2): the level is always raised (it is monotone) and
   // written at once, but nothing fires when the STORED copy, which every tab of this browser saves to, already holds it
-  // (another tab got there first), and on an account nothing fires until this session's first pull has merged: then it
-  // fires only if the cloud did not bring it (`_afterPullLevel`). NOT COVERED: after an older client lowered the cloud, a
-  // fresh device can fire a level again.
+  // (another tab got there first), and on an account nothing fires until a pull has merged (any pull in flight, or after
+  // a failed pull or push, holds it back too): then it fires only if the cloud did not bring it (`_afterPullLevel`). A
+  // guest, or an account playing local-only, fires at once. NOT COVERED (the second read of PR #412, ruled text only), so
+  // `neural_level_reached` can under-count and, rarely, count twice:
+  //   · a held-back promotion is LOST when no pull succeeds before the session ends (N1);
+  //   · two tabs of one account, one holding it back while its pulls fail, the other pushing it: nobody fires (N1);
+  //   · after a failed push it fires at the next save once the connection is back, not when the row showed it (N1);
+  //   · a level a guest already fired can fire again on the account after sign-in, when the drawer read that level
+  //     before the first pull landed (`_afterPullLevel` runs before the guest join and checks only the cloud) (N2);
+  //   · unreadable storage (or another owner's copy under this key) reads as no level: each tab fires once;
+  //   · after an older client lowered the cloud, a fresh device can fire a level again;
+  //   · the beat's `from` is this tab's level in memory, not what another tab stored, and two promotions held back
+  //     before one pull collapse into the last (`_levelPending` is one slot) (N7).
   _noteRatingLevel(r) {
     if (!this._progressLoaded || !this.belts || !r || r.final !== true || r.status !== "ok") return false;
     const L = ngRatingLevel(r.points), was = this.beltWorn().level;
@@ -8661,7 +8672,8 @@ class Component extends DCLogic {
     this._rebuildRulesetMask();
     this._syncBelt("ruleset");
     // the drawer's number is per ruleset: a flip (Settings is a modal over the open drawer) asks again; the live check is
-    // the same for both rulesets, so this fetches nothing once it has landed (v1.276.0 R1, finding 1)
+    // the same for both rulesets, so this fetches nothing once a check has LANDED. After a FAILED check each flip with the
+    // drawer open asks for both files again, as an open does (v1.276.0 R1, finding 1; the second read's N3)
     if (this.deckShown) this._askBeltRow();
     const concept = this._conceptsById && this._conceptsById[this._conceptId];
     if (concept) this.focusConcept(concept, true);

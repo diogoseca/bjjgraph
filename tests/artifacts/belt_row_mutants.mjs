@@ -29,6 +29,9 @@ const T = {
   flipAsk: "a ruleset flip with the drawer shown asks again: the new ruleset's number, never the old one's",
   tabs: "two tabs: a level another tab already saved fires nothing (the stored copy every tab saves to)",
   account: "an account before its first pull: raised, nothing fires until the pull merged; then only if the cloud did not bring it",
+  throws: "a held-back promotion whose beat throws never fails the pull that merged: it succeeds and the guest join still runs",
+  localOnly: "an account playing local-only fires at once: it makes no pull to wait for",
+  unreadable: "unreadable storage reads as no level stored: the promotion fires (once per tab)",
 };
 const MUTANTS = [
   { id: "BELT-M1", what: "the held level's merge keeps the LOCAL value", file: ROW, test: T.merge,
@@ -74,7 +77,14 @@ const MUTANTS = [
   { id: "BELT-M20", what: "after the pull it fires though the cloud brought the level", file: ROW, test: T.account,
     edits: [[APP, "if (ev && ev.level > (h ? h.n : -1)) this._fireLevel(ev);", "if (ev) this._fireLevel(ev);"]] },
   { id: "BELT-M21", what: "the pull never fires a held-back promotion (its call dropped)", file: ROW, test: T.account,
-    edits: [[APP, "      this._afterPullLevel(empty ? null : cloud);   // a promotion held back for this pull (`_noteRatingLevel`)\n", ""]] },
+    edits: [[APP, "      try { this._afterPullLevel(empty ? null : cloud); } catch (e) { /* a held-back promotion's beat never fails a merged pull (N5) */ }\n", ""]] },
+  // R2, the second read
+  { id: "BELT-M22", what: "a held-back promotion's beat that throws fails the merged pull", file: ROW, test: T.throws,
+    edits: [[APP, "      try { this._afterPullLevel(empty ? null : cloud); } catch (e) { /* a held-back promotion's beat never fails a merged pull (N5) */ }\n", "      this._afterPullLevel(empty ? null : cloud);\n"]] },
+  { id: "BELT-M23", what: "an account playing local-only waits for a pull it never makes", file: ROW, test: T.localOnly,
+    edits: [[APP, "o.kind === \"account\" && !this._progressLocalOnly && !(", "o.kind === \"account\" && !("]] },
+  { id: "BELT-M24", what: "unreadable storage read as already stored", file: ROW, test: T.unreadable,
+    edits: [[APP, "    catch (e) { return -1; }\n  }\n  _fireLevel(ev) {", "    catch (e) { return NG_RATING_BLACK; }\n  }\n  _fireLevel(ev) {"]] },
 ];
 
 const sha = (p) => createHash("sha256").update(readFileSync(ROOT + p)).digest("hex");

@@ -187,6 +187,8 @@ async function flip(page: Page, touch: boolean) {
   }
   const gi = num("gi", srs), nogi = num("nogi", srs)
   expect(gi, "non-trivial: the record has a number in gi").not.toBe("")
+  // an EMPTY no-gi number is what a broken flip shows (a waiting row), so the guard requires a real one (the second read, N6)
+  expect(nogi, "non-trivial: the record has a number in no-gi too").not.toBe("")
   expect(nogi, "non-trivial: and another in no-gi").not.toBe(gi)
   await bootSeeded(page, { day: fx.day, blob: { ...fx.blob, srs } })
   expect(await page.evaluate(() => (window as W).__neural._giMode), "the page boots in gi").toBe("gi")

@@ -17355,7 +17355,7 @@ Two PRs about to land (the Practice order, names on the map) would each have gon
 **The live check at the drawer.** Opening the drawer asks, and so does coming back to the list. A check that landed is never fetched again; after a failed one, the next open tries once more. A drawer opened before the game is in (no deck manifest, weights or curriculum yet) waits, and the belt sync that runs when they land asks once more; a grade never turns into a fetch.
 
 **Measured.**
-- **Units:** `tests/belt_row.test.mjs`, 20 tests. 21 named mutants (`tests/artifacts/belt_row_mutants.mjs`), all killed, sources restored and hash-checked. BELT-M13 needs both guards dropped, since either alone holds the claim.
+- **Units:** `tests/belt_row.test.mjs`, 23 tests. 24 named mutants (`tests/artifacts/belt_row_mutants.mjs`), all killed, sources restored and hash-checked. BELT-M13 needs both guards dropped, since either alone holds the claim.
 - **Journey:** `e2e/journeys/belt-row.spec.ts` at 1440x900 by mouse and 390x631 by touch.
   - The order of the states.
   - No jump when the number lands. It first caught a 1 px jump: `min-width: 4ch` measures the plain "0", narrower than four tabular digits.
@@ -17372,10 +17372,10 @@ Two PRs about to land (the Practice order, names on the map) would each have gon
   - largest chunk 39,000 of 40,000.
 
 **The independent read (R1), seven findings, ruled.**
-1. **A gi/no-gi flip in Settings, a modal over the open drawer, left the other ruleset's number on the row.** Now the flip asks again: the live check is the same for both rulesets, so nothing is fetched. The row also never paints a reading taken in another ruleset; it wears the belt held and waits. Pinned by a unit for each half and by the journey at 1440 by mouse and 390 by touch: Settings, Rolling, No-gi with the drawer open, and the row reads the no-gi number, never the gi one. The journey's record answers decks only gi weighs, until the two numbers differ.
+1. **A gi/no-gi flip in Settings, a modal over the open drawer, left the other ruleset's number on the row.** Now the flip asks again. The live check is the same for both rulesets, so nothing is fetched once a check has landed; after a FAILED check, each flip with the drawer open asks for both files again, as an open does. The row also never paints a reading taken in another ruleset; it wears the belt held and waits. Pinned by a unit for each half and by the journey at 1440 by mouse and 390 by touch: Settings, Rolling, No-gi with the drawer open, and the row reads the no-gi number, never the gi one. The journey's record answers decks only gi weighs, until the two numbers differ.
 2. **One promotion per level failed across tabs and before an account's first pull.**
    - **Tabs:** the level is still raised (it is monotone) and now written at once (`_flushSave`, no longer the 400 ms save). Nothing fires when the stored copy every tab saves to already holds the level.
-   - **An account before its first pull:** the promotion is held back and fires after the pull only if the cloud did not bring the level. A guest, or an account playing local-only, fires at once.
+   - **An account, until a pull has merged:** the promotion is held back (during any pull, and after a failed pull or push) and fires after the pull only if the cloud did not bring the level. A guest, or an account playing local-only, fires at once.
    - **Cost:** 16 code lines.
    - **Still open:** after an older client lowered the cloud, a fresh device can fire a level again.
 3. **Black, ruled by the orchestrator** (the owner may object on his page): black wears the red bar and no stripes, in the row and the view's title. The two tests that still said "four stripes" are renamed to what they pin.
@@ -17383,4 +17383,16 @@ Two PRs about to land (the Practice order, names on the map) would each have gon
 5. **The view names two belts:** as ruled.
 6. **A malformed stored level is replaced:** one line at `ngRatingHeld`.
 7. **The landing note for the merge with #409** is in the PR body: #409's content, this PR's words.
+
+**The second read (R2), ruled.**
+- **Once per level, exactly:** a promotion fires once per level per tab or device in the usual order. It can be missed or doubled in these cases:
+  - **Lost:** a held-back promotion is lost when no pull succeeds before the session ends.
+  - **Nobody fires:** two tabs of one account, one holding it back while its pulls fail and the other pushing it.
+  - **Late:** after a failed push, it fires at the next save once the connection is back.
+  - **Twice:** a level a guest already fired can fire again on the account after sign-in, when the drawer read it before the first pull landed.
+  - **Once per tab:** when storage is unreadable.
+
+  `neural_level_reached` can therefore under-count. The beat's `from` is the tab's own level in memory, and two promotions held back before one pull collapse into the last.
+- **The fire cannot fail a pull:** it runs guarded in `_pullAndMerge` (one line). A level sound that throws, the day one is added, can no longer mark a merged pull failed or skip its guest join.
+- **Three tests and one guard:** local-only fires at once; unreadable storage fires; a beat that throws leaves the pull merged and the join run (mutants BELT-M22 to M24; 24 in all). The flip journey's guard now requires a real no-gi number.
 
