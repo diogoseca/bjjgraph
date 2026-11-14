@@ -32,6 +32,16 @@
 //   A3  the guard's places not kept (the goal fills before its position)    → "the three cards due longest are asked whatever their worth"
 //   A4  a position visited once (what is due past its 6 left for new cards)  → "at most 6 a visit; what is due is asked again past 6"
 //   A5  new things take a position past 6 in the day                         → "new things never take a position past 6 in the day"
+// ANKI1-R1 (the reader's delta read of 6cc0e8524):
+//   R1a a due card outside this game not counted                            → "a card due in a deck this ruleset hides never stops new cards…"
+//   R1b the count line silent about it                                      → the same, and the two lines of Part 3
+//   R2a the guard ignoring whether a card is known to be answerable         → "a row Practice cannot show yet never takes a guard place"
+//   R2b the rating's live set not read                                      → the same
+//   R2c a gone card keeping its row open                                    → "the session completes though a row it asked turns out to be gone…"
+//   R2d the app not handing its planner the live set                        → "a row Practice cannot show yet never takes a guard place" (the app's plan)
+//   R3a the fallback's room a fifth of the goal again                       → "the fallback for a game not ready deals no new card while something is due"
+//   R3b the fallback's new decks slipped in among its reviews               → the same
+//   R4  the law's visits not carried to the page                            → (tests/practice_page.test.mjs) "Keep practising deals the next round…"
 //   Q3  the per-position cap ignored                                        → "at most 6 at a position"
 //   Q4  worth without forgetting (an owed thing worth its traffic alone)    → "forgetting counts"
 //   Q5a a shared question built once per deck (one thing per deck row)       → "one question is asked once, worth all its decks"
@@ -315,10 +325,13 @@ test("the worth plan plays as today's page plays it", () => {
   assert.ok(plan.more.every((r) => !plan.queue.includes(r.key)), "Keep practising adds what the day did not hold");
   assert.match(G.ngGameplanSummary(plan), /Positions come in order of what is worth most/);
   assert.deepEqual(G.ngGameplanLines(plan, { dueCards: 3 }, "A|Top"),
-    { heading: "A · Top · position 2 of 2", count: "2 positions: 3 cards to review · 4 new, by how often they come up in your rolls" });
+    { heading: "A · Top · position 2 of 2", count: "2 positions: 3 cards to review · 4 new, by how often they come up in your rolls" +
+      // ANKI1-R1 (the reader's finding 1): qz is due in Z|Attacker, which this ruleset does not price, so it never stops new
+      // cards; the line counts it and says where it is (until then it said nothing of it)
+      "; 1 due card isn't in this game; it stays due in \u201cEverything owed, oldest first\u201d" });
   // a day of reviews says new cards come when nothing is due (ANKI1), never "0 new"; until ANKI1 the line read "N new, by how
   // often they come up in your rolls and how close you are to forgetting them" (forgetting is the reviews', not the new cards')
-  assert.equal(G.ngGameplanLines({ ...plan, newCards: 0, fresh: [] }, { dueCards: 3 }, "A|Top").count,
+  assert.equal(G.ngGameplanLines({ ...plan, newCards: 0, fresh: [], counts: { built: { outsideDue: 0 } } }, { dueCards: 3 }, "A|Top").count,
     "2 positions: 3 cards to review · new cards come when nothing is due");
   assert.equal(G.ngGameplanLines({ order: "oldest" }, {}, "A|Top"), null, "today's order keeps today's lines");
 });
@@ -371,7 +384,7 @@ test("a row the order did not place is named apart, never numbered", () => {
   const withExtra = { ...plan, fresh: plan.fresh.concat([extra]), newCards: plan.newCards + 3, status: "weak-spots" };
   const L = G.ngGameplanLines(withExtra, { dueCards: 3 }, "X|Attacker");
   assert.equal(L.heading, "More new cards");
-  assert.match(L.count, /: 3 cards to review · 4 new, by how often they come up in your rolls; 3 more new, weakest first$/);
+  assert.match(L.count, /: 3 cards to review · 4 new, by how often they come up in your rolls; 3 more new, weakest first; 1 due card isn't in this game/);
   for (const k of withExtra.queue.concat(["X|Attacker"])) {
     const t = G.ngGameplanLines(withExtra, { dueCards: 0 }, k);
     assert.doesNotMatch(t.heading + " " + t.count, /NaN|undefined/, k);
@@ -490,4 +503,109 @@ test("the planner prices with this ruleset's game, and writes nothing", () => {
     assert.deepEqual([p1.order, p1.orderStatus, p2.orderStatus], ["oldest", "no-graph", "no-graph"]);
     assert.deepEqual(b.beats.filter(([n]) => n === "practice_order_fallback"), [["practice_order_fallback", { reason: "no-graph" }]]);
   }
+});
+
+// ── Part 5: the reader's delta read of 6cc0e8524 (ANKI1-R1) ──────────────────────────────────────────────────────────
+
+test("a card due in a deck this ruleset hides never stops new cards, and the line counts it", () => {
+  // finding 1, ruled: keep the design and say it. A due row in a deck the planner marks not allowed in gi (the "…-Control"
+  // positions), and nothing else due: Practice deals new cards, and the count line says one card waits outside this game
+  const a = ratingApp(DIR, "gi"), decks = a._gameplanDecks(true);
+  const k = Object.keys(decks).sort().find((x) => decks[x].allowed === false && CARDS[x] && CARDS[x].cards.length);
+  assert.ok(k, "premise: a deck gi hides, with cards");
+  const qh = ngKnowledgeQuestionHash(CARDS[k].cards[0].q);
+  a.srs = { [k]: { [qh]: ago(9, 3) } }; a.stage = {}; a._epochDay = () => D; a._dayKey = () => "x"; a._days = {};
+  a._gameplanRuntime = G; a.weakSpots = () => ({ cold: true, keys: [], veryWeak: [], weak: [] }); a.fx = () => {};
+  a._checkKnowledgeDay = () => {}; a.startFrom = () => "standing";
+  const plan = a.planSummary();
+  assert.equal(plan.order, "worth", plan.orderStatus);
+  assert.equal(plan.dueQuestions.length, 0, "the hidden card is not dealt");
+  assert.ok(plan.newCards > 0, `${plan.newCards} new: it does not stop new cards`);
+  assert.equal(plan.counts.built.outsideDue, 1, "it is counted");
+  const L = G.ngGameplanLines(plan, { dueCards: 0 }, plan.queue[0]);
+  assert.match(L.count, /; 1 due card isn't in this game; it stays due in “Everything owed, oldest first”$/);
+  assert.match(plan.why, /New cards come only when nothing due in this game is left/);
+});
+
+test("a row Practice cannot show yet never takes a guard place (the reader's case A)", () => {
+  // finding 2: three rows of questions no card has any more, due 300 days ago, in the three heaviest decks, not loaded yet;
+  // 30 ordinary owed cards in loaded decks. Until ANKI1-R1 the guard took the three dead rows (they have waited longest)
+  const a = ratingApp(DIR, "gi");
+  const game = a._ratingGame("gi"), seats = a._practiceSeats(game);
+  const heavy = Object.keys(a.flashcards.decks).filter((k) => typeof game.deckUnit.get(k) === "number" && seats[k] && CARDS[k])
+    .sort((x, y) => game.deckUnit.get(y) - game.deckUnit.get(x) || (x < y ? -1 : 1)).slice(0, 3);
+  for (const [dk, d] of Object.entries(a.flashcards.decks)) if (CARDS[dk] && !heavy.includes(dk)) d.cards = CARDS[dk].cards;
+  const srs = {}, stage = {};
+  heavy.forEach((dk, i) => { srs[dk] = { ["dead000" + i]: [D - 300, 7, D - 307] }; stage[dk] = { ["dead000" + i]: 2 }; });
+  const loaded = Object.keys(a.flashcards.decks).filter((k) => a.flashcards.decks[k].cards && typeof game.deckUnit.get(k) === "number").sort().slice(0, 30);
+  loaded.forEach((dk, i) => { const q = ngKnowledgeQuestionHash(a.flashcards.decks[dk].cards[0].q); (srs[dk] = srs[dk] || {})[q] = [D - 1 - i, 3, D - 4 - i]; (stage[dk] = stage[dk] || {})[q] = 2; });
+  const decks = a._gameplanDecks(true);
+  assert.deepEqual(heavy.map((k) => decks[k].exact), [false, false, false], "premise: their decks are not loaded");
+  // no live set in hand: the dead rows are not known to be answerable, so none is guarded
+  const o = ngPracticeOrder({ day: D, goal: 20, srs, stage, decks, game, seats });
+  assert.equal(o.law.guard.length, 3);
+  assert.deepEqual(o.law.guard.filter((q) => q.startsWith("dead")), [], "the guard holds real cards: " + o.law.guard);
+  // the live set the rating already holds: the dead questions are known gone, dropped and counted
+  const live = a._ratingLiveNow();
+  assert.equal(live && live.status, "ok", "premise: the fixture loaded the live files");
+  const w = ngPracticeOrder({ day: D, goal: 20, srs, stage, decks, game, seats, live });
+  assert.equal(w.law.asked.filter((q) => q.startsWith("dead")).length, 0, "never asked");
+  assert.ok(w.counts.built.blocked >= 3, `dropped and counted: ${w.counts.built.blocked}`);
+  // and the app hands its planner that live set itself (`planSummary`): its plan never deals the dead rows
+  Object.assign(a, { srs, stage, _epochDay: () => D, _dayKey: () => "x", _days: {}, _gameplanRuntime: G, fx: () => {},
+    weakSpots: () => ({ cold: true, keys: [], veryWeak: [], weak: [] }), _checkKnowledgeDay: () => {}, startFrom: () => "standing" });
+  const plan = a.planSummary();
+  assert.equal(plan.order, "worth", plan.orderStatus);
+  assert.deepEqual(plan.dueQuestions.filter((q) => q.startsWith("dead")), [], "the app's plan: never dealt");
+  assert.ok(plan.counts.built.blocked >= 3, `the app's plan: dropped and counted (${plan.counts.built.blocked})`);
+});
+
+test("the session completes though a row it asked turns out to be gone from its deck", () => {
+  // finding 2: the plan was built before A|Top loaded and asked qdead; A|Top lands without it. Until ANKI1-R1 the row never
+  // emptied and the session never completed (no completion card, no "Keep practising")
+  const decks = DECKS(), srs = { ...SRS(), "A|Top": { ...SRS()["A|Top"], qdead: ago(40, 7) } };
+  const plan = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 20, decks, srs, worth: { game: tiny(), seats: SEATS, stage: {} } });
+  assert.ok(plan.dueQuestions.includes("qdead"), "premise: the plan asked it");
+  const loaded = { ...decks, "A|Top": { count: 4, questions: ["q1", "qs", "q3", "q4"], exact: true, allowed: true },
+    "B|Top": { count: 2, questions: ["q2", "q5"], exact: true, allowed: true }, "S|Attacker": { count: 2, questions: ["qs", "q6"], exact: true, allowed: true } };
+  const bound = G.ngGameplanBind(plan, loaded, srs);
+  const answered = structuredClone(srs);
+  // every card it shows answered, in every deck that holds it (a grade writes each, as the app's does)
+  for (const r of bound.due.concat(bound.fresh)) for (const q of r.questions) if (q !== "qdead") {
+    for (const dk of new Set([r.key, ...Object.keys(answered).filter((k) => answered[k][q])])) (answered[dk] = answered[dk] || {})[q] = [D + 3, 3, D];
+  }
+  const p = G.ngGameplanProgress(bound, { srs: answered, day: D, decks: loaded });
+  assert.equal(p.complete, true, "every card it can show is answered: done");
+  assert.equal(p.dueCards, 0);
+  assert.ok(p.blocked.includes("qdead"), "and the gone card is counted: the polite line says it stays due");
+});
+
+test("the fallback for a game not ready deals no new card while something is due", () => {
+  // finding 3: with the worth order asked for and the game not ready (no weights, a hand that failed), today's order serves;
+  // until ANKI1-R1 its room for new cards was a fifth of the goal whatever was due (the reader's `fallback_new.mjs`: 7 due, 12 new)
+  const a = ratingApp(DIR, "gi"), decks = a._gameplanDecks(true);
+  const keys = Object.keys(decks).filter((k) => decks[k].questions && decks[k].questions.length).sort().slice(0, 10);
+  const srs = {}; keys.forEach((dk, i) => { srs[dk] = { [decks[dk].questions[0]]: [D - 2 - i, 3, D - 5 - i] }; });
+  const fallback = { rows: Object.keys(decks).sort().slice(100, 140).map((k) => ({ key: k, reason: "A weak spot." })), assumptions: ["-"] };
+  for (const status of ["no-weights", "hand-failed"]) {
+    const p = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "x", target: 20, decks, srs, fallback,
+      worth: { game: { status, total: 0, counts: {} }, seats: {}, stage: {} } });
+    assert.deepEqual([p.order, p.orderStatus], ["oldest", status]);
+    assert.ok(p.dueCards > 0, "premise: cards are due");
+    // no new deck while something is due: every review row comes before the first new row in the queue
+    const due = new Set(p.due.map((r) => r.key)), lastDue = Math.max(...p.queue.map((k, i) => (due.has(k) ? i : -1)));
+    const firstNew = p.queue.findIndex((k) => !due.has(k));
+    assert.ok(firstNew < 0 || firstNew > lastDue, status + `: a new deck at ${firstNew}, a review at ${lastDue}`);
+    assert.equal(p.room, Math.max(0, 20 - p.dueCards), status + ": the room for new is what the due cards leave of the goal");
+    // and with due cards filling the goal, none at all (until then a fifth of the goal stayed for new)
+    const many = {}; Object.keys(decks).filter((k) => decks[k].questions && decks[k].questions.length).sort().slice(0, 40)
+      .forEach((dk, i) => { many[dk] = { [decks[dk].questions[0]]: [D - 2 - i, 3, D - 5 - i] }; });
+    const full = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "x", target: 20, decks, srs: many, fallback,
+      worth: { game: { status, total: 0, counts: {} }, seats: {}, stage: {} } });
+    assert.ok(full.dueCards >= 20, `premise: ${full.dueCards} due`);
+    assert.equal(full.newCards, 0, status + ": the due cards fill the goal: no new card");
+  }
+  // a caller that asks for no worth order keeps today's order: a fifth of the goal for new, slipped in among the reviews
+  const today = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "x", target: 20, decks, srs: {}, fallback });
+  assert.ok(today.newCards > 0, "the control: today's order deals new cards");
 });

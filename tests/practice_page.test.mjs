@@ -26,6 +26,9 @@
 //   S8  a Path lesson's row not marked as one                                              → the queue's last label is "From the Path"
 //   S9  the count line counting a lesson under "More new cards"                            → "; N from the Path"
 //   S10 the door's visit sent as the page's (`surface: "practice"`)                        → "one Practice visit, from the door"
+// ANKI1-R1 (the reader's delta read): R2c, a gone card keeping its row open → "a session whose row turns out gone from its
+//   deck completes, and Keep practising is on its card"; R4, the law's visits not carried to the page → "Keep practising
+//   deals the next round…" (at most 6 a visit, the true claim since the page folds a position's second visit into its first)
 //
 // Run: node --test tests/practice_page.test.mjs
 import { test } from "node:test";
@@ -42,7 +45,9 @@ import { orderFixture } from "./_practice_order_fixture.mjs";
 const HERE = dirname(fileURLToPath(import.meta.url));
 const DIR = resolve(HERE, "../source/quartz/static/neural");
 globalThis.ngGameplanReviewed = GD.ngGameplanReviewed; globalThis.ngGameplanDebt = GD.ngGameplanDebt;
-const el = () => ({ attrs: {}, children: [], textContent: "", setAttribute(k, v) { this.attrs[k] = String(v); }, appendChild(c) { this.children.push(c); return c; }, querySelector() { return null; } });
+// a DOM element as far as the page's painters touch it (`style` and listeners since ANKI1-R1: the completion card is built here)
+const el = () => ({ attrs: {}, children: [], textContent: "", style: {}, listeners: {}, setAttribute(k, v) { this.attrs[k] = String(v); }, appendChild(c) { this.children.push(c); return c; }, querySelector() { return null; },
+  addEventListener(k, fn) { (this.listeners[k] = this.listeners[k] || []).push(fn); } });
 globalThis.document = globalThis.document || { createElement: el };
 const CARDS = (() => { const c = {}; for (const f of readdirSync(resolve(DIR, "flashcards")).sort()) if (f !== "_index.json") Object.assign(c, JSON.parse(readFileSync(resolve(DIR, "flashcards", f), "utf8"))); return c; })();
 
@@ -152,8 +157,9 @@ test("Keep practising deals the next round into the same session, its positions 
   const added = rows.filter((r) => !first.keys.includes(r.key));
   assert.ok(added.length > 0, "the next round brings rows");
   for (const r of added) assert.ok(r.visit >= first.visits, `${r.key}: position ${r.visit + 1} comes after the first round's ${first.visits}`);
-  const per = new Map(); for (const r of added) per.set(r.visit, (per.get(r.visit) || 0) + r.count);
-  for (const [v, n] of per) assert.ok(n <= 6, `position ${v + 1}: ${n} cards`);
+  // at most 6 a VISIT (ANKI1-R1, the reader's finding 4): a position the law visits again while its cards are due shows them
+  // all, folded; until then this read "at most 6 cards a position" off the page's rows
+  for (const [seat, n] of s.plan.counts.lawVisits) assert.ok(n <= 6, `${seat}: a visit of ${n}`);
   assert.ok(s.moved, "the next round's first row is opened as the player's own move");
 });
 
@@ -257,3 +263,31 @@ test("a Path lesson opened into Practice is named and counted as one, not as Mor
   assert.ok(more > 0 && L.count.includes("; " + more + " more new, "), "More new cards counted without the lesson: " + L.count);
 });
 
+
+test("a session whose row turns out gone from its deck completes, and Keep practising is on its card (ANKI1-R1)", () => {
+  // the reader's finding 2: the plan is built before a deck loads and asks a question that deck no longer has; the deck
+  // lands without it. Until ANKI1-R1 that row never emptied: no completion card, no "Keep practising"
+  const { fx, day, blob } = oldestInPlan();
+  const H = fx.heavy[0];
+  blob.srs[H] = { ...blob.srs[H], dead0000: [day - 300, 7, day - 307] }; (blob.stage[H] = blob.stage[H] || {}).dead0000 = 2;
+  const { a } = page(blob, day);
+  a._ratingLiveNow = () => undefined;                // no live set in hand yet
+  const cards = a.flashcards.decks[H].cards; delete a.flashcards.decks[H].cards;   // and its deck not loaded
+  const s = coldSession(a, day), plan = a.planSummary();
+  assert.ok(plan.dueQuestions.includes("dead0000"), "premise: the plan asked it");
+  a.flashcards.decks[H].cards = cards;               // the deck lands, without it
+  a._practiceAppend(s, plan);
+  // every card the session can show answered (a grade writes every deck that holds it, as the app's does)
+  for (const r of s.plan.due.concat(s.plan.fresh)) {
+    const deckQs = (CARDS[r.key] ? CARDS[r.key].cards : []).map((c) => ngKnowledgeQuestionHash(c.q));
+    const qs = r.questions.concat(deckQs.filter((q) => !r.questions.includes(q) && !(a.srs[r.key] || {})[q]).slice(0, r.pending || 0)).filter((q) => q !== "dead0000");
+    a.srs = structuredClone(a.srs);
+    for (const qh of qs) for (const dk of new Set([r.key, ...Object.keys(a.srs).filter((k) => a.srs[k][qh])])) (a.srs[dk] = a.srs[dk] || {})[qh] = ngKnowledgeScheduleRow((a.srs[dk] || {})[qh] || null, true, day);
+  }
+  const p = a._gameplanProgress(s);
+  assert.equal(p.complete, true, "done: the gone card does not hold the session open");
+  assert.ok(p.blocked.includes("dead0000"), "it is counted (the polite line: it stays due)");
+  const done = a._sessionDoneCard(s), next = done.children.find((c) => c.attrs && c.attrs["data-plan-next"]);
+  assert.ok("data-session-complete" in done.attrs, "the completion card");
+  assert.ok(next && next.textContent === "Keep practising", "and Keep practising on it");
+});

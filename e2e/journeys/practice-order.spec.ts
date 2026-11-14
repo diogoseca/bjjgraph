@@ -36,6 +36,9 @@ import { journey } from "../dsl"
  * ANKI1 (the owner's Anki rule), built the same way:
  *   A1 a new card while something is due (new cards ride in a position's visit again)   → "24 cards are due: the 20 are due cards, none new"
  *   A2 the guard removed (worth alone)                                                   → "the one card left is the one due longest"
+ * ANKI1-R1 (the reader's finding 4), built the same way:
+ *   V1 the per-visit cap ignored (a position asked whole)                                → "at most 6 a visit"
+ *   V2 a second visit shown as its own position (the fold removed)                        → "the page folds them into one position…"
  * NON-KILL (STAGE3-R2, recorded so this file is not read as covering it): S7, the next round's positions not renumbered,
  * leaves "the queue's position numbers, after the next round" GREEN here, 2 of 2 (17:32, 13 Nov): this player's next round
  * brings no position whose decks the first round already holds, so there is no gap to make. The claim is pinned by
@@ -135,17 +138,17 @@ for (const touch of [true, false]) {
         const a = (window as W).__neural, s = a._session, p = s.plan, fresh = a.planSummary()
         return { keys: s.keys.slice(), queue: p.queue.slice(), again: fresh.queue.slice(), visits: p.visits.map((v: W) => ({ seat: v.seat, keys: v.keys.slice() })),
           rows: p.due.concat(p.fresh).map((r: W) => ({ key: r.key, seat: r.seat, visit: r.visit, count: r.count, owed: (r.owed || []).length })),
-          dom: [...document.querySelectorAll("[data-session] [data-session-row]")].map((r) => r.getAttribute("data-session-row")), newCards: p.newCards }
+          dom: [...document.querySelectorAll("[data-session] [data-session-row]")].map((r) => r.getAttribute("data-session-row")), newCards: p.newCards,
+          lawVisits: p.counts.lawVisits }
       })
       // the session is the plan's queue
       expect(s.keys, "the session holds exactly the plan's rows, in its order: no oldest-first debt in front").toEqual(s.queue)
       expect(s.again, "and the plan is the planner's own, asked again").toEqual(s.queue)
       expect(s.dom, "the page mounts the rows in that order").toEqual(s.keys)
       expect(new Set(s.keys).size, "one row per deck").toBe(s.keys.length)
-      for (const v of s.visits) {
-        const n = s.rows.filter((r: W) => v.keys.includes(r.key)).reduce((m: number, r: W) => m + r.count, 0)
-        expect(n, `${v.seat}: at most 6 cards at a position`).toBeLessThanOrEqual(6)
-      }
+      // at most 6 a VISIT (ANKI1-R1, the reader's finding 4): the page folds a position's second visit into its first, so a
+      // page position may show more (the test below); until then this read "at most 6 cards at a position" off the page
+      for (const [seat, n] of s.lawVisits) expect(n, `${seat}: at most 6 a visit`).toBeLessThanOrEqual(6)
       // ANKI1: 24 are due, so the 20 are due cards and no new card comes (until ANKI1: "at least 4 new")
       expect([s.rows.reduce((m: number, r: W) => m + r.owed, 0), s.newCards], "24 cards are due: the 20 are due cards, none new").toEqual([20, 0])
       // Practice opens on the planner's first position, not on the oldest debt: the light decks' cards are a month overdue
@@ -184,6 +187,27 @@ for (const touch of [true, false]) {
       await clean(page, "opening an added row")
       await page.waitForTimeout(2_500)
       expect(await storage(page), "every localStorage key and value is byte-identical after opening, paging and Keep practising").toBe(before)
+    })
+
+    // ANKI1-R1 (the reader's finding 4): eight cards due at one position. The law asks them in two visits (6, then 2: a
+    // position comes round again while its cards are due), and the page folds the second into the first: one position showing
+    // all eight, its heading "position 1 of N". The rule is per visit; the page's position holds every card the law asked there.
+    test(`a position the law visits twice is one position on the page, with all its cards (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      const { secondVisitFixture } = await import("../../tests/_practice_order_fixture.mjs")
+      const fx = secondVisitFixture(SERVED)
+      await boot(page, fx.day, fx.blob)
+      await press(page, ".ng-logo", "open the drawer", touch)
+      await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
+      await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      const s = await page.evaluate((deck: string) => {
+        const p = (window as W).__neural._session.plan, row = p.due.concat(p.fresh).find((r: W) => r.key === deck)
+        return { lawVisits: p.counts.lawVisits, first: p.visits[0].seat, positions: p.visits.length, owed: row ? row.owed.length : 0, visit: row ? row.visit : null }
+      }, fx.deck)
+      expect(s.lawVisits.slice(0, 2), "the law visits the position twice: 6, then 2").toEqual([[fx.deck, 6], [fx.deck, 2]])
+      for (const [seat, n] of s.lawVisits) expect(n, `${seat}: at most 6 a visit`).toBeLessThanOrEqual(6)
+      expect([s.first, s.visit, s.owed], "the page folds them into one position, the first, with all eight").toEqual([fx.deck, 0, 8])
+      await expect(page.locator("[data-practice-section]"), "its heading counts it once").toHaveText(`${dot(fx.deck)} · position 1 of ${s.positions}`)
+      await clean(page, "opening a position visited twice")
     })
 
     // FOLD1 (v1.274.0, the orchestrator's check on the preview): on a slow connection a player can open "Practice details &

@@ -5999,7 +5999,9 @@ class Component extends DCLogic {
       revision: this._knowledgeRevision || this._stageVer || 0, stamp,
       target: this.practiceGoal(), decks: this._gameplanDecks(true), srs: this.srs,
       provider: this._gameplanProvider, fallback: this._gameplanWeakFallback(),
-      worth: { game, seats: this._practiceSeats(game), stage: this.stage } });
+      // the rating's live set, only when it is already in hand (never fetched for this): a question its deck no longer has
+      // is dropped and counted, and only a card known to be answerable takes one of the guard's places (ANKI1-R1, finding 2)
+      worth: { game, seats: this._practiceSeats(game), stage: this.stage, live: this._ratingLiveNow() } });
     if (plan.orderStatus !== "ok" && this._orderBeat !== plan.orderStatus) { this._orderBeat = plan.orderStatus; this.fx("practice_order_fallback", { reason: plan.orderStatus }); }
     return plan;
   }
@@ -6515,6 +6517,8 @@ class Component extends DCLogic {
     this._sessionOpeners[first >= 0 ? first : at]?.(); this._scrollFocusedDeck();
   }
 
+  // a Path lesson opened into Practice adds its cards at the player's own press, due cards or not (ANKI1-R1, finding 6: the
+  // owner's rule is about what Practice deals by itself)
   _practiceLesson(key) {
     const s = this._session;
     if (!s?.practice || !this.beltUnlocked(this._lessonIndex?.[key]?.belt)) return;
@@ -6738,6 +6742,9 @@ class Component extends DCLogic {
       const b = this.drillBtn(text); b.onclick = () => this.sessionNav(dir); nav.appendChild(b);
     }
     s.explanation.appendChild(this._gameplanIntro(s));
+    // "More new cards" (and a Path lesson, `_practiceLesson`) add new cards while cards are due, at the PLAYER's own press:
+    // the owner's Anki rule is about what Practice deals by itself, and a daily goal is a goal, never a limit (ANKI1-R1,
+    // the orchestrator's ruling on the reader's finding 6)
     const more = s.more = this.drillBtn("Keep practising · more new cards", true);
     more.setAttribute("data-plan-more", "1");
     more.onclick = () => {
