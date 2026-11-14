@@ -231,7 +231,9 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
   }
   for (const b of labels) {
     if (b.l < 0 || b.t < 0 || b.r > W_ || b.b > H_) outside.push(name(b) + " [" + [b.l, b.t, b.r, b.b].map(Math.round) + "]")
-    const over = painted.filter((p) => hit(b, p) && !(p.star && (b.w === "position" || b.w === "hover")))
+    // v1.280.0 (GOLD1-R1, ruled): the position's own name is held to the paint that HIDES (`covers`, the app's `_hides`
+    // rule), not to every painted box; a move's name stays held to every one
+    const over = (b.w === "position" ? covers : painted).filter((p: W) => hit(b, p) && !(p.star && (b.w === "position" || b.w === "hover")))
     if (over.length) under.push(name(b) + " under " + over.slice(0, 2).map((p) => p.what).join(", "))
   }
   // a move's name across ANOTHER dealt orb (or the position's pair), as the frame drew it: the silhouette from the app's own
@@ -811,6 +813,50 @@ test.describe("the position's own name (POSNAME, 1440x900)", () => {
     expect(r.under.filter((x: string) => x.startsWith("position:")), "the position's own name is under no control").toEqual([])
     expect(r.outside.filter((x: string) => x.startsWith("position:")), "the position's own name is inside the map").toEqual([])
     expect(r.close, "...and no two names closer than 3 px").toEqual([])
+  })
+})
+
+// GOLD1-R1 (ruled 14 Nov, after PR 417's shard 3: on a 390 phone landed at Mount the seat star was gone): the position's own
+// name is refused ONLY under paint that hides it or cut by the screen; a box that paints nothing there does not refuse it.
+// Fixtures in the app's wrap over the name's own box, as the CACHE414 fixtures do for an orb: see-through, then painted
+// (0.9), then painted over the mirror too.
+test.describe("the position's own name under a control (GOLD1-R1, 1440x900)", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+
+  test("see-through over it, the position's own name is written where it was; painted, it takes its mirror; painted both sides, it is not written that frame", async ({ page }) => {
+    test.setTimeout(240_000)
+    const j = await seat(page, "Mount Top", "top")
+    await page.mouse.move(4, 4); await j.advance(600)
+    const posBox = () => page.evaluate(() => {
+      const a = (window as W).__neural, bs = (a._lastNameBoxes || []).filter((b: W) => b.w === "position")
+      const n = a.nodes[a.focusIdx], s = a.W / a.cam.vw, m = a.pairMid(n)
+      return { seatX: (m.x - a.cam.cx) * s + a.W / 2, box: bs.length ? { l: Math.min(...bs.map((b: W) => b.l)), r: Math.max(...bs.map((b: W) => b.r)), t: Math.min(...bs.map((b: W) => b.t)), b: Math.max(...bs.map((b: W) => b.b)) } : null }
+    })
+    const put = (id: string, b: W, bg: string) => page.evaluate(([id, b, bg]: W) => {
+      const a = (window as W).__neural, wrap = a.wrapRef.current, wr = wrap.getBoundingClientRect(), cv = a.canvas.getBoundingClientRect()
+      let d = document.getElementById(id); if (!d) { d = document.createElement("div"); d.id = id; d.setAttribute("data-mn-fixture", ""); wrap.appendChild(d) }
+      Object.assign(d.style, { position: "absolute", left: cv.left - wr.left + b.l - 2 + "px", top: cv.top - wr.top + b.t - 2 + "px", width: b.r - b.l + 4 + "px", height: b.b - b.t + 4 + "px", background: bg, pointerEvents: "none", zIndex: "6" })
+    }, [id, b, bg])
+    const near = (p: W, q: W) => !!p && !!q && ["l", "r", "t", "b"].every((k) => Math.abs(p[k] - q[k]) < 1.5)
+    const r0 = await posBox()
+    expect(r0.box, "precondition: the seat is named, right of its orb").not.toBeNull()
+    expect(r0.box!.l > r0.seatX, "precondition: on its usual side").toBe(true)
+    try {
+      await put("mn-pos-a", r0.box, "transparent"); await j.advance(34)
+      const r1 = await posBox()
+      expect(near(r1.box, r0.box), `a see-through control over it: the position's own name is written where it was (${JSON.stringify(r1.box)})`).toBe(true)
+      // the same element restyled in place: a control's kept answer heals within half a second of the frame clock (CACHE414)
+      await put("mn-pos-a", r0.box, "rgba(30, 32, 52, 0.9)"); await j.advance(600)
+      const r2 = await posBox()
+      expect(!!r2.box && r2.box.r < r2.seatX, `painted over its usual side: written on its mirror, left of its orb (${JSON.stringify(r2.box)})`).toBe(true)
+      expect(r2.box!.r < r0.box!.l - 2 || r2.box!.l > r0.box!.r + 2, "...and no part of it under the paint").toBe(true)
+      await put("mn-pos-b", r2.box, "rgba(30, 32, 52, 0.9)"); await j.advance(600)
+      expect((await posBox()).box, "painted over both sides: not written this frame").toBeNull()
+    } finally {
+      await page.evaluate(() => document.querySelectorAll("[data-mn-fixture]").forEach((e) => e.remove()))
+    }
+    await j.advance(34)
+    expect(near((await posBox()).box, r0.box), "the fixtures gone: written where it was").toBe(true)
   })
 })
 

@@ -61,6 +61,10 @@ const ZOOMS = opt("zooms", "1,2,4,9").split(",").map(Number)
 const DRAWERS = opt("drawer", "shut,open").split(",")
 const APP_FILES = APP ? new Set(fs.readdirSync(APP)) : null
 const MARKS = args.includes("--marks")
+// --landed (GOLD1-R1): one more row, the state of lists-picker.spec.ts's phone test: at 390x844, each seat just landed, its
+// question taken up (Answer for Points, pressed at its measured centre), two lists seeded, at the usual zoom; the reward a
+// landing can mint is left as the player meets it
+const LANDED = args.includes("--landed")
 
 // ── THE SEATS, chosen from the wire the page reads (deterministic) ─────────────────────────────────────────────────
 const WIRE = JSON.parse(fs.readFileSync(new URL("../../source/quartz/static/neural/graph-data.json", import.meta.url), "utf8"))
@@ -235,7 +239,9 @@ async function measure(page) {
       const own = (o) => L.idx != null && (o.idx === L.idx || o.idx === (a.nodes[L.idx] || {}).pi)
       if (L.box.l < 0 || L.box.t < 0 || L.box.r > W || L.box.b > H) { out.cut++; out.faults.push(["cut", L.text, [L.box.l | 0, L.box.t | 0, L.box.r | 0, L.box.b | 0]]) }
       if (L.trimmed) out.trimmed++
-      const over = painted.filter((p) => hit(L.box, p) && !(p.star && L.kind === "position"))
+      // v1.280.0 (GOLD1-R1, ruled): the position's own name is held to the paint that HIDES (`covers`, the app's `_hides`
+      // rule); every other name to every painted box
+      const over = (L.kind === "position" ? covers : painted).filter((p) => hit(L.box, p) && !(p.star && L.kind === "position"))
       if (over.length) { out.under++; out.faults.push(["under", L.text, over.slice(0, 3).map((p) => p.what)]) }
       if (orbs.some((o) => o.hand && !own(o) && circ(L.box, o, o.R))) { out.crossOrb++; out.faults.push(["crossOrb", L.text]) }
       if (marks.some((s) => !own(s) && circ(L.box, s, s.r))) { out.crossMark++; out.faults.push(["crossMark", L.text]) }
@@ -356,6 +362,16 @@ for (const vp of VPS) {
       }
     }
     await setDrawer(page, false)
+    if (LANDED && vp.w === 390 && vp.h === 844) {
+      await page.evaluate((c) => { const a = window.__neural; Object.assign(a.cam, c, { lvw: Math.log(c.vw) }); Object.assign(a.camTarget, c); a.advance(17) }, settled)
+      const go = await page.evaluate(() => { const b = document.querySelector("[data-land-ask-go]"); if (!b) return null; b.scrollIntoView({ block: "nearest" }); const r = b.getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 } })
+      if (go) await page.mouse.click(go.x, go.y)
+      await page.evaluate(() => { const a = window.__neural; if ((a.listsArray() || []).length < 2) { a.newList("Monday fundamentals"); a.newList("Tuesday takedowns") } })
+      for (let i = 0; i < 6; i++) await page.evaluate(() => window.__neural.advance(100))
+      await sleep(300); await page.evaluate(() => window.__neural.advance(17))
+      const m = await measure(page)
+      result.cases.push({ vp: vp.w + "x" + vp.h, seat: s.t + "/" + s.role, at: at.at + "/" + at.role, drawer: "landed", drawerOk: true, zoom: 1, asked: !!go, ...m })
+    }
     process.stdout.write(".")
   }
   result.errors = (result.errors || []).concat(errors.map((e) => vp.w + ": " + e))

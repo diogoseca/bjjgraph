@@ -21547,11 +21547,15 @@ class Component extends DCLogic {
   // and the whole store is remade half a second after it was made: a drag (every orb's box new each frame) walks from
   // memory, not the DOM (measured at 1440, 4x throttle: a per-FRAME memo still spent 0.7 to 0.8 ms a dragged frame
   // inside this walk; CACHE414).
-  _hides(q, o, i) {
+  // PART (v1.280.0, GOLD1-R1): the same question for a NAME's box `o`, which a control's paint must not touch at all ("no
+  // part of the name's ink under a card"): the walk goes down through every box that TOUCHES `o` (not only those holding
+  // it whole), and any of them that paints answers yes. The row's see-through strip touches a name in the gap between two
+  // cards and paints nothing; a card it holds paints, and refuses a name that reaches under it.
+  _hides(q, o, i, part) {
     const C = this._hidC || (this._hidC = new WeakMap()), el = q.el, k = [q.l, q.t, q.r, q.b].map(Math.round) + "," + el.scrollLeft + "," + el.scrollTop;
     let c = C.get(el);
     if (!c || c.k !== k || this.now - c.t >= 0.5) C.set(el, c = { k, t: this.now, m: new Map(), mm: new Map() });
-    const ok = i + ":" + [o.l, o.t, o.r, o.b].map(Math.round), e = c.m.get(ok);
+    const ok = (part ? "part:" : "") + i + ":" + [o.l, o.t, o.r, o.b].map(Math.round), e = c.m.get(ok);
     if (e && this.now - e.t < 0.5) return e.h;
     const box = (d) => { let m = c.mm.get(d); if (!m) { const r = d.getBoundingClientRect(); c.mm.set(d, m = { x: r.left - q.cv.left, y: r.top - q.cv.top, w: r.width, h: r.height }); } return m; };
     const look = (m, d) => {
@@ -21565,7 +21569,7 @@ class Component extends DCLogic {
     };
     const walk = (d, op) => {
       const m = box(d);
-      if (!(m.x <= o.l && m.x + m.w >= o.r && m.y <= o.t && m.y + m.h >= o.b)) return false;
+      if (part ? !(m.x < o.r && m.x + m.w > o.l && m.y < o.b && m.y + m.h > o.t) : !(m.x <= o.l && m.x + m.w >= o.r && m.y <= o.t && m.y + m.h >= o.b)) return false;
       const s = look(m, d);
       op *= d === el ? q.o : s.op;
       if (s.gone || op < 0.05) return false;
@@ -22246,11 +22250,18 @@ class Component extends DCLogic {
       const NB = this._nameBlocks(), wid = (f, s) => s ? (ctx.font = f, ctx.measureText(s).width) : 0;
       const clear = (l, r, t, b) => l >= NB.l + 4 && r <= W - 4 && t >= 4 && b <= H - 4 && !claims.concat(NB.blocks).some((q) => l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3);
       const side = (x0, w, t, b, x1) => clear(x0, x0 + w, t, b) || !clear(x1 - w, x1, t, b) ? x0 : x1 - w;
-      // THE POSITION'S OWN NAME (v1.280.0, POSNAME, ruled: "the position's own name obeys the rule every name obeys since
-      // v1.275.0: never under a control, never cut by the screen"): its usual side, else the mirror beside its orb, else not
-      // written THAT frame (the reader's header and the row name it). It still claims first, so nothing else moves. Found
-      // live on v1.278.1 (1440 Standing, pulled back and dragged: its name under the row's cards, a letter between two cards).
-      const place = (x0, w, t, b, x1) => clear(x0, x0 + w, t, b) ? x0 : clear(x1 - w, x1, t, b) ? x1 - w : null;
+      // THE POSITION'S OWN NAME (v1.280.0, POSNAME; narrowed by GOLD1-R1, ruled: "refused ONLY where it would be under paint
+      // that hides it (the rule `_hides` already knows, from #414) or cut by the screen. A control's box that paints nothing
+      // there does not refuse it: there it is written as on dev"): its usual side, else the mirror beside its orb, else not
+      // written THAT frame, and its seat star goes with it (`_syncSeatStars` removes a star no name anchored). It still claims
+      // first, so nothing else moves. Found live on v1.278.1 (1440 Standing, pulled back and dragged: its name under the row's
+      // cards, a letter between two cards): no part of its ink is under a card (`_hides` with `part`, the box padded 3 px).
+      // The first build refused it under ANY control's box, as a move's name is, and so on a 390 phone landed at Mount the
+      // seat star (the phone's way to save the position to a list) was gone (PR 417's shard 3, lists-picker.spec.ts).
+      const clearP = (l, r, t, b) => l >= NB.l + 4 && r <= W - 4 && t >= 4 && b <= H - 4
+        && !claims.some((q) => l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3)
+        && !NB.blocks.some((q) => l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3 && this._hides(q, { l: l - 3, r: r + 3, t: t - 3, b: b + 3 }, "name", true));
+      const place = (x0, w, t, b, x1) => clearP(x0, x0 + w, t, b) ? x0 : clearP(x1 - w, x1, t, b) ? x1 - w : null;
       // Rich labels own the graph's naming structure: role + short headline + optional qualifier.
       // Callers cannot pass a pre-composed name; that is how the merge-scale fallback used to put
       // "from Mount" back into the headline while the split pair rendered it as a subtitle.
@@ -22268,7 +22279,7 @@ class Component extends DCLogic {
           const lift0 = qual ? this.NG_LABEL_LEAD / 2 : 0, t0 = sy - 7 - lift0 - 11, b0 = sy + 11 - lift0 + (qual ? this.NG_LABEL_LEAD : 0) + 4;
           const wBlock = (room) => Math.max(wid("700 11px " + dfam0 + ", sans-serif", role.toUpperCase()) + 15 + starPx / 2, Math.min(room, wid("700 " + rNamePx0 + "px " + dfam0 + ", sans-serif", main)), Math.min(room, wid("600 11.5px " + dfam0 + ", sans-serif", qual)));
           const x1 = sx - halfW(n) - 11, wR = wBlock(Math.max(60, W - ox - 12)), wL = wBlock(Math.max(60, x1 - 12));
-          ox = clear(ox, ox + wR, t0, b0) ? ox : clear(x1 - wL, x1, t0, b0) ? x1 - wL : null;
+          ox = clearP(ox, ox + wR, t0, b0) ? ox : clearP(x1 - wL, x1, t0, b0) ? x1 - wL : null;
           if (ox == null) return;
         }
         const maxW = Math.max(60, ox > sx ? W - ox - 12 : sx - halfW(n) - 11 - ox);
@@ -22573,8 +22584,12 @@ class Component extends DCLogic {
       // half a second, and at the usual zoom names hopped side 5 to 53 times as the chrome came near. A name the LAYOUT
       // refused comes back only at rest, and no sooner than half a second after it left; a name whose orb left the canvas
       // (or went under a control) follows its orb back, and an orb that slides into view may be named while it moves.
+      // A FRAME DRAWN AGAIN AT THE SAME INSTANT (no time passed: a redraw as a control closes, GOLD1-R1) cannot judge motion:
+      // nothing moved repeats the last frame's call, anything moved is moving. It used to read as at rest (0 <= 0), so the
+      // reward card closing itself mid-drag ended names' waits in a frame no one saw move (map-names.spec.ts, the drag).
       const zk = Math.log(this.cam.vw), cp = this._camPrev, dtD = cp ? this.now - cp.t : 0;
-      const still = !cp || Math.abs(zk - cp.z) <= 0.12 * dtD && Math.hypot(this.cam.cx - cp.x, this.cam.cy - cp.y) * scale <= 30 * dtD;
+      const moved = !!cp && (Math.abs(zk - cp.z) > 0.12 * dtD || Math.hypot(this.cam.cx - cp.x, this.cam.cy - cp.y) * scale > 30 * dtD);
+      const still = !cp || (dtD > 0 || moved ? !moved : this._camStill !== false);
       this._camPrev = { z: zk, x: this.cam.cx, y: this.cam.cy, t: this.now }; this._camStill = still;   // published: the frame's own call
       const cand = (n, sx, sy, extra) => ({ i: n.idx, n, sx, sy, hw: halfW(n), r: this._nodeHalfW(n, scale, nodeK, kLOD, true), s: this.graphName(n), ...extra });
       // a name only for an orb whose own silhouette is on the canvas (R1 finding 5: a far-side place could name an orb

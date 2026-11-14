@@ -91,12 +91,18 @@ const NG_CHALLENGE_FEEDBACK_METHODS = {
     // The notice is ambient. Only its deliberate controls take input; its prose
     // must not swallow a graph pan or an arrow in the nearby videos row.
     for (const b of el.querySelectorAll("button")) b.style.pointerEvents = "auto";
+    // THE MAP UNDER THE CARD COMES BACK IN THE SAME TASK (v1.280.0, GOLD1-R1). On a phone this card covers the node band, and
+    // the position's own name and its seat star are not written under paint (POSNAME, `_hides`), so they come back with the
+    // first frame drawn after it goes: the frame loop's next one in the app (16 ms), but a journey's clock draws only when
+    // pumped, so a press on the ✕ and a look for the star met the frame drawn under the card (lists-picker.spec.ts's phone
+    // test; dev drew the star under the card and kept it). One frame drawn here, the moment the card goes.
     const dismiss = (this._challengeRewardDismiss = () => {
       clearTimeout(this._challengeRewardTimer);
       if (this._challengeRewardEl) this._challengeRewardEl.remove();
       this._challengeRewardEl = null;
       this._challengeRewardActive = null;
       this.showNextChallengeReward();
+      if (this.ctx && this.nodes && typeof this.draw === "function") this.draw();
     });
     el
       .querySelector("[data-reward-collection]")
