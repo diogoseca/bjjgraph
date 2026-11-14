@@ -17896,3 +17896,26 @@ guard table reproduced. Its seven findings, as ruled:
    tests/practice_queue.test.mjs; nothing pinned them before. This PR is renumbered from 1.278.0 to 1.278.0.
 
 Item b of STAGE3-R2 (the "Not covered" paragraph above: the floor's reload) was withdrawn with the floor in ANKI1.
+
+**Runs, ANKI1-R1** (local, under the lock, 14 Nov; times from `date`):
+- On the branch as it stood (d59a3e4c9), 03:24 to 03:38:
+  - `test:units`: all green;
+  - the 26 Practice journey files: 278 passed, 3 red. One was the learning loop's old sentence. The other two were the
+    dot test, red because on that pre-#412 head no live set was in hand, so the ruled guard could not take an unloaded
+    card;
+  - V1 and V2, each red at its named assertion.
+- On the merged head (afc38c977), 04:33 to 04:55:
+  - `test:units`: 1,660 of 1,660;
+  - the 26 files plus belt-row and belt-worn: 289 passed, 2 red. Both were practice-order's tooltip assertion, which
+    predates #412's "Start today's session ·" prefix; fixed in 4deebab07. The dot test passes there: #412's drawer row
+    fetches the live set when the drawer opens;
+  - the app rows re-seeded (7857d1fe0);
+  - `ci:validate`: 25 of 25.
+
+**Bytes, on dev v1.276.1** (its baselines are dev's own level, so the delta is this PR alone):
+- eager gzip: 363,249, +1,362 on 361,887, of a 5,000 cap;
+- first-hand core: 382,701, +1,406 on 381,295, of a 6,000 cap;
+- eager raw: 1,427,489 of 1,600,000 (`neural.js` +3,954 raw on dev's own build);
+- deferred raw: 521,639, its ceiling moved to exactly that in its own commit under U170 a (4232f45b9). The +1,140 since
+  520,499 is `gameplan.js`, 19,946 → 21,086: ANKI1-R1's code, and `rating.src.js`, which `gameplan.js` bundles and #412
+  grew. Dev's own use is 510,269.
