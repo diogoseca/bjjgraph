@@ -246,7 +246,9 @@ NEURAL_TARGET = {
     # rating.src.js, which #405 grew); 29_700 B of 550_000 remain.
     # v1.278.0 ANKI1 (the owner's Anki rule): 520_499, +199 B in gameplan.js (19_747 -> 19_946: the law's due-first visits,
     # the guard and the new-only-when-nothing-is-due step); 29_501 B of 550_000 remain.
-    "deferred_raw_bytes": 520_499,
+    # v1.278.0 on dev v1.276.1 (GO409, ANKI1-R1 merged in): 521_639, +1_140 B in gameplan.js (19_946 -> 21_086: ANKI1-R1's
+    # code, and rating.src.js, which gameplan.js bundles and PR #412 grew); dev's own use is 510_269; 28_361 B of 550_000 remain.
+    "deferred_raw_bytes": 521_639,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
