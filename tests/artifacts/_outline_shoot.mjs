@@ -91,22 +91,24 @@ const choose = (page) => page.evaluate(() => {
 
 async function know(page, pick) {
   // a Yes on the recalled and both cards; the decks of the answered and both orbs learned, and of the answered card when it is
-  // another (so its seal shows the disc)
-  return page.evaluate(async (pick) => {
+  // another (so its seal shows the disc). The decks hydrate fire-and-forget, then one SYNCHRONOUS evaluate writes: a long
+  // async evaluate can be collected under load and reads as "Execution context was destroyed" (a navigation that never was)
+  const keys = await page.evaluate((pick) => {
+    const a = window.__neural, idx = [pick[1].idx, pick[2].idx].concat(pick[1].card !== pick[1].idx ? [pick[1].card] : [])
+    const keyOf = (n) => (n.ty === "positions" ? n.t.replace(/\s+(Top|Bottom)\s*$/i, "") : n.t) + "|" + { top: "Top", bottom: "Bottom", attacker: "Attacker" }[n.role]
+    const ks = idx.map((i) => keyOf(a.nodes[i]))
+    for (const k of ks) if (!a._deckHasCards(k)) void a.hydrateDeck(k)
+    return ks
+  }, pick)
+  await page.waitForFunction((ks) => ks.every((k) => window.__neural._deckHasCards(k)), keys, { timeout: 60000 })
+  return page.evaluate(([pick, keys]) => {
     const a = window.__neural, byIdx = (i) => (a._optionCards || []).find((c) => c.opt.idx === i)
     for (const p of [pick[0], pick[2]]) { const c = byIdx(p.card); a._gradeMove(c.opt, true, c.card) }
-    const role = { top: "Top", bottom: "Bottom", attacker: "Attacker" }
-    const learn = async (idx) => {
-      const n = a.nodes[idx], key = (n.ty === "positions" ? n.t.replace(/\s+(Top|Bottom)\s*$/i, "") : n.t) + "|" + role[n.role]
-      if (!a._deckHasCards(key)) await a.hydrateDeck(key)
-      a.stage[key] = Object.fromEntries(a._cardsOf(a.flashcards.decks[key]).map((c) => [a.qhash(c.q), 3]))
-      return key
-    }
-    pick[1].key = await learn(pick[1].idx); pick[2].key = await learn(pick[2].idx)
-    if (pick[1].card !== pick[1].idx) pick[1].cardKey = await learn(pick[1].card)
+    for (const k of keys) a.stage[k] = Object.fromEntries(a._cardsOf(a.flashcards.decks[k]).map((c) => [a.qhash(c.q), 3]))
+    pick[1].key = keys[0]; pick[2].key = keys[1]; if (keys[2]) pick[1].cardKey = keys[2]
     a._publishKnowledge("pictures:knowledge")
     return pick.map((p) => ({ ...p, mastery: p.key ? a.deckMastery(p.key) : null }))
-  }, pick)
+  }, [pick, keys])
 }
 
 const marks = (page) => page.evaluate(() => {
