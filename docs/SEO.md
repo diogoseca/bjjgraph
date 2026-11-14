@@ -195,13 +195,18 @@ Built SDK absence remains the separate `validate:analytics:nokey` gate above.
 It carries no deck key, card or count. Pinned by `e2e/journeys/practice-page.spec.ts` (P1-F: one event per visit, the
 page's `practice`) and `tests/practice_page.test.mjs` (the door's `owed`).
 
-`neural_practice_unguarded` (v1.278.2, R409): once per Practice session that took its plan before the rating's live set
-landed, so its guard could not hold the 3 cards due longest, and kept that plan (`_practiceGuard` in `app.src.jsx`; an
-untouched session is planned again and sends nothing). `reason`: `touched` (a row opened, a card turned or answered
-before the set landed) · `failed` (the check could not read the live files) · `ended` (the session was closed first).
-`short`: how many of the 3 the guard could not take; `owed`: cards owed in this ruleset's game. Counts and a word only:
-no deck key, card or text. Its rate against `neural_practice_opened` is how often a first plan misses the guard. Pinned
-by `tests/practice_page.test.mjs` and `e2e/journeys/practice-order.spec.ts` (the touched case).
+`neural_practice_unguarded` (v1.278.2, R409): once per Practice session whose plan was built without a whole guard (the 3
+cards due longest not all known answerable, because the rating's live set was not in hand) and was kept, or was taken again
+with the set and is still short (`_practiceGuard` in `app.src.jsx`). An untouched session is planned again when the set lands
+and sends nothing. `reason`: `touched` (a row opened, a card turned or answered before the set landed) · `reading` (untouched,
+but the new plan does not hold the row or card on screen) · `short` (taken or mounted with the set in hand, still short: a
+deck the live files do not list) · `failed` (the check could not read the files) · `unasked` (no check for this deck list and
+fingerprint) · `fallback` (the plan at landing is today's order) · `ended` (the session was closed before the set landed).
+`short`: how many of the 3 the guard could not take; `owed`: cards owed in this ruleset's game. Counts and a word only: no
+deck key, card or text. Its rate against `neural_practice_opened` is a LOWER bound on how often a plan runs without the
+guard: a session replaced by a new one before the set lands, a session still open but not on screen when it lands (the
+drawer shut, the Path open), and a page closed before it lands send nothing. Pinned by `tests/practice_page.test.mjs` and
+`e2e/journeys/practice-order.spec.ts` (the touched case).
 
 ### Cold-start funnel (v1.82.0)
 

@@ -763,6 +763,14 @@ const NG_CHALLENGE_UI_METHODS = {
           };
           (this._bandFit = this._bandFit || new ResizeObserver((es) => es.forEach((e) => e.target._fit && e.target._fit()))).disconnect();
           this._bandFit.observe(maint);
+          // AND WHEN A WEB FONT LANDS (R409-R1, the reader's finding 4): new metrics change the text, not the band's box, so the
+          // observer is not told; a line judged whole under the fallback font would be clipped mid-letter (no ellipsis now)
+          this._bandEl = maint;
+          if (document.fonts && !this._bandFonts) {
+            this._bandFonts = () => { const b = this._bandEl; if (b && b.isConnected && b._fit) b._fit(); };
+            document.fonts.addEventListener("loadingdone", this._bandFonts);
+          }
+          if (document.fonts) document.fonts.ready.then(this._bandFonts);
         }
         maint.addEventListener("click", () => this.openDueSession());   // ONE door, one label (app.src.jsx)
         list.appendChild(maint);

@@ -55,7 +55,8 @@ import { journey } from "../dsl"
  *   · R409-6: "a record with no answer…" pins the fold's button reading "More new cards · …" in today's order too.
  *   · item 4: "the dot is lit…" pins the Path band's chip: "Start" where the full words and the line beside it do not both
  *     fit (390, the 1440 drawer), the full words where they do (the band widened), the line whole, the aria full; "the
- *     Path band at WxH" pins the reason line whole (390x631) or not shown at all (360x740, 320x568), never an ellipsis.
+ *     Path band at WxH" pins the reason line whole (390x631) or not shown at all (360x740, 320x568), never an ellipsis;
+ *     "…fitted again when a web font lands" pins the refit on a font (R409-R1, finding 4).
  * NOT COVERED here: the order's arithmetic (the unit suite and its 15 mutants), no-gi on a page (the unit reads both
  * rulesets; a ruleset flip writes a setting, so it cannot share the byte-identity claim), and answering (grading writes the
  * record by design; the planner's completion rule is the unit suite's).
@@ -455,6 +456,7 @@ for (const touch of [true, false]) {
         const a = (window as W).__neural, s = a._session, p = s.plan
         return { live: a._ratingLiveNow()?.status, guarded: p.guarded, asked: oldest.filter((q) => p.dueQuestions.includes(q)).length, due: p.dueQuestions.length,
           keys: s.keys.slice(), idx: s.idx, rows: JSON.stringify(p.due.concat(p.fresh).map((r: W) => [r.key, r.questions])), owed: p.counts.law.owed,
+          openRow: s.keys[s.idx], card: document.querySelector('[data-session-row][aria-expanded="true"] + div [data-mini-q]')?.textContent || null,
           dom: [...document.querySelectorAll("[data-session] [data-session-row]")].map((r) => r.getAttribute("data-session-row")),
           why: document.querySelector("[data-gameplan-summary] details > p")?.textContent || "",
           events: [...(window as W).posthog].filter((c: W) => c[0] === "capture" && c[1] === "neural_practice_unguarded").map((c: W) => c[2]) }
@@ -468,7 +470,7 @@ for (const touch of [true, false]) {
       // where the player is reading (untouched: the queue's fold opened and scrolled to, which is not a touch of the plan)
       const foldTop = () => page.evaluate(() => Math.round(document.querySelector("[data-practice-details]")!.getBoundingClientRect().top))
       if (!touched) await press(page, "[data-practice-details] > summary", "Practice details & session queue", touch)
-      const readingAt = await foldTop()
+      const readingAt = await foldTop(), readingCard = (await read()).card
       if (touched) await press(page, open + " [data-mini-reveal]", "Reveal", touch)
       expect(held().every((e) => e.releasedAtMs == null), "still held at the tap and after it").toBe(true)
       j.releasePayload(LIVE)
@@ -480,7 +482,9 @@ for (const touch of [true, false]) {
         expect([after.live, after.asked, after.due], "the three due longest are in the 20").toEqual(["ok", 3, 20])
         expect(after.dom, "the page mounts the new plan's rows").toEqual(after.keys)
         expect(fx.light.every((k: string) => after.dom.includes(k)), "their rows are on the page").toBe(true)
-        expect([after.idx, after.keys[0]], "on the same first position, open on the same row").toEqual([0, before.keys[0]])
+        // THE CARD ON SCREEN NEVER CHANGES under an untouched player (R409-R1): the same open row, the same question
+        expect(readingCard, "premise: a card is on screen").not.toBeNull()
+        expect([after.openRow, after.card], "the open row and the card the player reads").toEqual([before.openRow, readingCard])
         await expect(page.locator("[data-practice-section]"), "under the same heading").toHaveText(heading || "")
         expect(after.why, "and now the explanation says so").toContain("The three cards due longest come every day")
         expect(after.events, "taken again: no event").toEqual([])
@@ -542,3 +546,40 @@ for (const [w, h, shown] of [[390, 631, true], [360, 740, false], [320, 568, fal
     })
   })
 }
+
+// AND WHEN A WEB FONT LANDS (R409-R1, the reader's finding 4). New metrics change the text, not the band's box, so the band's
+// ResizeObserver is not told; with the ellipsis gone, a line judged whole under the first font would be clipped mid-letter.
+// The band is fitted again when a font lands (`document.fonts`: `loadingdone`, and `ready`). Forced here: after the first
+// fit, a face of the line's own family drawn 70% wider (a local font, `size-adjust: 170%`) is added and loaded; the line
+// that was whole at 390x631 can no longer be, so it is not shown, and the count and the chip stay whole.
+// MUTANT (R409-R1): F1 the refit on a font removed → red here ("cut").
+test.describe("the Path band when a web font lands", () => {
+  test.use({ hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } })
+  test("the Path band at 390x631 is fitted again when a web font lands", async ({ page }) => {
+    const { orderFixture } = await import("../../tests/_practice_order_fixture.mjs")
+    const fx = orderFixture(SERVED)
+    const blob = JSON.parse(JSON.stringify(fx.blob))
+    blob.srs["Seed|Top"] = Object.fromEntries(Array.from({ length: 19 }, (_, i) => ["today" + i, [fx.day + 1, 1, fx.day]]))
+    await boot(page, fx.day, blob)
+    await press(page, ".ng-logo", "open the drawer", true)
+    await press(page, '[data-explore-stats] [data-view="challenges"]', "the Path row", true)
+    const state = () => page.evaluate(() => {
+      const band = document.querySelector("[data-maintenance]") as HTMLElement, line = band.querySelector("span") as HTMLElement
+      const whole = (el: HTMLElement) => el.scrollWidth <= el.clientWidth && el.getBoundingClientRect().right <= band.getBoundingClientRect().right + 0.5
+      return { line: getComputedStyle(line).display === "none" ? "not shown" : whole(line) ? "whole" : "cut",
+        count: whole(band.querySelector("b") as HTMLElement), chip: whole(band.querySelector("em") as HTMLElement) }
+    })
+    await expect.poll(async () => (await state()).line, { message: "premise: the line whole under the first font" }).toBe("whole")
+    const face = await page.evaluate(async () => {
+      const line = document.querySelector("[data-maintenance] span") as HTMLElement
+      const family = getComputedStyle(line).fontFamily.split(",")[0].trim().replace(/^["']|["']$/g, "")
+      const f = new FontFace(family, "local('DejaVu Sans'), local('Liberation Sans'), local('Noto Sans'), local('Arial')", { sizeAdjust: "170%" } as any)
+      document.fonts.add(f)
+      try { await f.load() } catch {}
+      return { family, status: f.status }
+    })
+    expect(face.status, `premise: a wider face of "${face.family}" loads`).toBe("loaded")
+    await expect.poll(async () => (await state()).line, { message: "the font landed: the line whole or not shown, never cut" }).toBe("not shown")
+    expect(await state(), "the count and the chip stay whole").toEqual({ line: "not shown", count: true, chip: true })
+  })
+})

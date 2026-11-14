@@ -6495,7 +6495,8 @@ class Component extends DCLogic {
       const first = s.keys[s.idx];
       s.keys = [];
       for (const k of order) if (keys.has(k) && !s.keys.includes(k)) s.keys.push(k);
-      s.idx = first && s.moved && s.keys.includes(first) ? s.keys.indexOf(first) : 0;
+      // ... and a plan taken again under an untouched player keeps the row open too (`_practiceGuard`'s `keepOpen`, R409-R1)
+      s.idx = first && (s.moved || s.keepOpen) && s.keys.includes(first) ? s.keys.indexOf(first) : 0;
       s.required = s.keys.length;
       this.renderSession();
     } else {
@@ -6504,7 +6505,9 @@ class Component extends DCLogic {
       this._practiceRows(s);
       this._paintGameplanProgress(s);
     }
-    if (!old) this._practiceGuard(s);
+    // a plan that becomes worth here asks whether its guard is whole: mounted, or today's order turning worth (a slow first
+    // visit, where the curriculum lands after the tap: R409-R1, the reader's finding 2)
+    if (!old || old.order !== "worth") this._practiceGuard(s);
     this.hydrateDecks(s.keys).then(() => {
       if (this._session !== s || !this._sessionInline()) return;
       s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks(), this.srs);
@@ -6516,33 +6519,52 @@ class Component extends DCLogic {
   // checked can guard only the cards known to be answerable (`guarded: false`, practice-queue's `counts.short`), so the three
   // due longest may not be among the 20. Nobody waits for the set: a session takes its plan at the tap, and when the check
   // lands an UNTOUCHED session (no card revealed or answered, no row opened: the cold queue's rule) takes its plan again,
-  // ONCE (`guardSettled`), after any press in flight (`_afterPress`), so the page never moves under a finger. Touched is read
-  // against the open card as it was when the plan was mounted (`guardFace`: its deck, card and side; a deck's inline state
-  // outlives a session). A touched session keeps its plan (a mounted worth plan is never re-planned under the player), and so
-  // does one whose check failed or that was left before it landed: one `neural_practice_unguarded` says which, counts only
-  // (docs/SEO.md). Called when a plan is mounted (`_practiceAppend`) and when the check settles (`ratingCheck`, `landed`,
-  // with the session it left waiting).
+  // ONCE (`guardSettled`), after any press in flight (`_afterPress`). Touched is read against the open card as it was when
+  // the plan was mounted (`guardFace`: its deck, card and side; a deck's inline state outlives a session).
+  // THE CARD ON SCREEN NEVER CHANGES under a player who has not touched the session (R409-R1, the reader's finding 1 of #415:
+  // the new plan's guard can lead the open position with another deck's card, 6 of 135 sampled re-plans, 12 of 12 built to
+  // do it). So the open row stays open (`keepOpen`), and the open card in it, wherever the new plan holds them; the guard's
+  // cards join the session around them, which is all the law asks (the three AMONG the 20, not first). The scroll is kept
+  // and the card is not faded in a second time (`_noCardIn`). A new plan that holds neither is not taken.
+  // ONE `neural_practice_unguarded` (docs/SEO.md, counts and a word only) for each plan kept or taken without a whole guard:
+  //   touched   the player touched the session before the set landed; its plan stays (never re-planned under a player)
+  //   reading   untouched, but the new plan does not hold the open row or the card on screen; the plan stays
+  //   short     taken (or mounted) with the set in hand and still short: a deck the live files do not list
+  //   failed    the check landed and could not read the files      unasked  no check for this deck list and fingerprint
+  //   fallback  the plan at landing is not a worth plan (the game left), so there is nothing to take
+  //   ended     the session was closed before the set landed
+  // A session still open but not on screen when the set lands (the drawer shut, the Path open) keeps its plan and sends
+  // nothing (the archive's "Not covered", v1.278.2). Called when a plan becomes worth (`_practiceAppend`: mounted, or
+  // today's order turning worth, finding 2) and when the check settles (`ratingCheck`, `landed`, the session it left waiting).
   _practiceGuard(s, landed) {
     const p = s && s.plan, live = this._ratingLiveNow(), st = live ? live.status : "unasked";
     if (!p || p.order !== "worth" || p.guarded !== false || s.guardSettled) return;
     const face = () => { const k = s.keys[s.idx], d = this._deckState && this._deckState[k]; return k + "|" + (d ? d.idx : 0) + "|" + !!(d && d.revealed); };
     if (st === "checking") { this._guardWait = s; s.guardFace ??= face(); return; }
-    if (st === "ok" && !landed) return;   // built with the set in hand: there is nothing to wait for
     s.guardSettled = true;
+    const send = (reason, plan) => this.track("neural_practice_unguarded", { reason, short: plan.counts.law.short, owed: plan.counts.law.owed });
+    const word = st === "ok" ? "short" : st === "unasked" ? "unasked" : "failed";
+    if (!landed) { send(word, p); return; }   // nothing in flight to wait for: the set in hand (still short), or no check
     this._afterPress(() => {
+      if (this._session !== s) { send("ended", p); return; }
+      if (!this._sessionInline()) return;
       // a card shown answered is touched whenever it was turned (and `_practiceAppend` would keep the rows for it)
-      const here = this._session === s && this._sessionInline(), touched = s.moved || face() !== s.guardFace || face().endsWith("|true") || this.practiceToday().done !== s.started;
-      const next = st === "ok" && here && !touched ? this.planSummary() : null;
-      if (next && next.order === "worth") {
-        // the same first row and card (measured on every sampled record): laid out again with the scroll where the player
-        // left it and the open card not faded in a second time (`_noCardIn`), so only what the new plan changes moves
-        const list = this.drillListRef && this.drillListRef.current, top = list ? list.scrollTop : 0;
-        this._noCardIn = true;
-        try { s.plan = null; this._practiceAppend(s, next); } finally { this._noCardIn = false; }
-        if (list) list.scrollTop = top;
-        return;
-      }
-      this.track("neural_practice_unguarded", { reason: st !== "ok" || next ? "failed" : here ? "touched" : "ended", short: p.counts.law.short, owed: p.counts.law.owed });
+      const touched = s.moved || face() !== s.guardFace || face().endsWith("|true") || this.practiceToday().done !== s.started;
+      if (st !== "ok") { send(word, s.plan); return; }
+      if (touched) { send("touched", s.plan); return; }
+      const next = this.planSummary();
+      if (next.order !== "worth") { send("fallback", s.plan); return; }
+      const k = s.keys[s.idx], deck = this.flashcards && this.flashcards.decks && this.flashcards.decks[k], d = this._deckState && this._deckState[k];
+      const rowIn = (plan) => plan.due.concat(plan.fresh).find((r) => r.key === k);
+      const cardsIn = (row) => (row ? (this._cardsOf(deck) || []).filter((c) => row.questions.includes(this.qhash(c.q))) : []);
+      const open = cardsIn(rowIn(s.plan))[d ? d.idx : 0], row = rowIn(next), at = open ? cardsIn(row).indexOf(open) : 0;
+      if (!row || at < 0) { send("reading", s.plan); return; }
+      if (open) (this._deckState = this._deckState || {})[k] = { ...d, idx: at, revealed: false };
+      const list = this.drillListRef && this.drillListRef.current, top = list ? list.scrollTop : 0;
+      this._noCardIn = true; s.keepOpen = true;
+      try { s.plan = null; this._practiceAppend(s, next); } finally { this._noCardIn = false; s.keepOpen = false; }
+      if (list) list.scrollTop = top;
+      if (next.guarded === false) send("short", next);
     });
   }
 

@@ -18049,13 +18049,11 @@ touched one keeps its plan, as does one whose check failed; one event when such 
    inline state outlives a session). When it lands: untouched (no row opened, the open card neither turned nor moved,
    nothing answered since the session began), planned again after any press in flight (`_afterPress`), with the list's
    scroll kept and the open card laid out in place (`_noCardIn`: no second `ngCardIn`); touched, the plan stays and
-   `neural_practice_unguarded` says `touched`; a check that could not read the files, `failed`; a session closed first,
-   `ended`. The event carries `short` and `owed` only (docs/SEO.md). `guardSettled` makes it once. A later plan landing
-   on a kept session keeps its explanation (`_practiceAppend`'s frozen path).
+   `neural_practice_unguarded` says `touched`. The event's other words are R409-R1's, below; it carries `short` and
+   `owed` only (docs/SEO.md). `guardSettled` makes it once. A later plan landing on a kept session keeps its explanation.
 3. No hold at the tap: nothing here can show the set usually lands within 100 ms (a first visit, or one after a deploy
    that moved the fingerprint, fetches about 43 KB), and nothing measured on real accounts goes in. The event will tell.
-4. What the player sees: the same first position, row and card in 24 of 24 sampled records (300 and 1,500 cards, seeds
-   1–12) and in the journey's player; the heading's "position 1 of N" moved in 11 of 24. Before the scroll was kept and
+4. What the player sees: the open row and the card in it never change (R409-R1, below). Before the scroll was kept and
    the fade skipped, a reader of the open queue fold saw the page shift 30 px and the same card faded in again.
 5. The dot journey waits for the belt row's reading to be final (`data-belt-state="ok"`) before the Practice tap (finding
    2): it passed only because that check landed first. The assertion is unchanged.
@@ -18110,7 +18108,24 @@ the pile at day 365).
 **Not covered.** A touched session keeps a plan made without the set, as ruled: its guard stays short, and retired rows in
 decks not loaded can take places by worth until those decks load (finding 3); the event counts these sessions. One
 session waits at a time (`_guardWait`): one opened again before the set lands replaces it, whose `ended` is then not sent;
-a page closed first sends nothing. The field share of touched sessions is unknown until the event has run.
+a page closed first sends nothing; one open but not on screen when the set lands keeps its plan and sends nothing (taking
+its plan when it shows again has no one seam). The field share of touched sessions is unknown until the event has run.
+
+**R409-R1** (the reader's read of #415, f7cac8ba2: MERGE AFTER 1).
+- Finding 1: the re-plan could change the card an untouched player reads (6 of 135 sampled, 12 of 12 built). The claim
+  "the same first row and card on 24 of 24" was true of that sample, not of the rule: the guard's cards lead their
+  position, so another deck's guarded card at the open seat became row 0. Now the open row stays open (`keepOpen`) and
+  the card in it (the deck's inline index moved to it) wherever the new plan holds them; the guard's cards join around
+  them, which the law allows (the three AMONG the 20). A plan that holds neither is not taken: `reading`. Red first: the
+  reader's adversarial record against f7cac8ba2's app; P1 (`keepOpen` not read) and P2 (the plan taken anyway) red at
+  their tests. `break415.mjs` on this head: 0 cards changed in `sample` (135 re-plans) and `adversarial` (12 of 12).
+- Finding 2: a session that began on today's order and turned worth was never waited for. The guard is asked whenever
+  the mounted plan becomes worth (P3 red at its test).
+- Finding 3, the words: `short` (taken or mounted with the set, still short), `failed` only for a failed check,
+  `unasked` (no check for this deck list), `fallback` (today's order at landing), `ended` only for a session gone; one
+  open but not on screen sends nothing (P4 red at its test). The rate is a lower bound (docs/SEO.md names the misses).
+- Finding 4: the band is fitted again when a web font lands (`loadingdone`, `ready`); a journey forces a 70% wider face
+  of the line's family at 390 (F1, the refit removed, red there).
 
 **Runs** (local, under the build lock, 14 Nov; times from `date`). On the committed head c812c1bce, 12:37 to 12:53: the
 app rows re-seeded (e12e45da0); `test:units` 1,665 of 1,665; the 26 Practice journey files with belt-row, belt-worn and

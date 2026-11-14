@@ -31,6 +31,11 @@
 //   G4 the re-plan on a touched session (touched read as untouched)                         → "a touched session keeps its plan…"
 //   G5 the re-plan firing twice (the once-flag `guardSettled` removed)                       → "the plan is taken again once…"
 //   G6 the event dropped                                                                     → "a touched session keeps its plan…", and the failed and ended ones
+// R409-R1 (the reader's read of #415):
+//   P1 the open row not kept (`keepOpen` not read: the re-plan opens row 0)                 → "the card on screen never changes…" (its adversarial record)
+//   P2 a new plan without the open card taken anyway                                        → "a new plan that does not hold the card on screen is not taken"
+//   P3 the guard asked only when no plan was mounted (`!old`, finding 2)                    → "a session that began on today's order is waited for…"
+//   P4 every kept plan's word one word again (`failed` for unasked, fallback; nothing for short) → "each plan kept or taken without a whole guard says why…"
 // ANKI1-R1 (the reader's delta read): R2c, a gone card keeping its row open → "a session whose row turns out gone from its
 //   deck completes, and Keep practising is on its card"; R4, the law's visits not carried to the page → "Keep practising
 //   deals the next round…" (at most 6 a visit, the true claim since the page folds a position's second visit into its first)
@@ -311,7 +316,7 @@ function held(a) {
   return (ok = true) => { open(ok); return check; };
 }
 function guardSession(opts = {}) {
-  const fx = guardFixture(DIR), { a, painted } = page(fx.blob, fx.day, { bare: true });
+  const fx = guardFixture(DIR), { a, painted } = page(opts.blob || fx.blob, fx.day, { bare: true });
   const tracked = []; a.track = (name, props) => tracked.push([name, props]);
   if (opts.unlisted) {
     // a live set that does not list one deck (its own deck of the three): the plan taken again is short that one card
@@ -322,12 +327,21 @@ function guardSession(opts = {}) {
   assert.equal(a._ratingLiveNow().status, "checking", "premise: the check is in flight at the tap");
   const s = coldSession(a, fx.day);
   a._practiceAppend(s, a.planSummary());
+  // the open deck's cards land, as they do while the player reads it (R409-R1: the card on screen is then a fact to keep)
+  if (opts.loadOpen && CARDS[s.keys[s.idx]]) a.flashcards.decks[s.keys[s.idx]].cards = CARDS[s.keys[s.idx]].cards;
   const rows = () => JSON.stringify(s.plan.due.concat(s.plan.fresh).map((r) => [r.key, r.questions, r.visit]));
   const asked = () => fx.oldest.filter((q) => s.plan.dueQuestions.includes(q)).length;
   assert.equal(s.plan.order, "worth");
   assert.deepEqual([s.plan.guarded, asked(), s.plan.dueCards], [false, 0, 20], "premise: mounted without the guard, the three due longest not asked");
   assert.ok(!s.plan.why.includes("The three cards due longest"), "and the explanation does not claim the guard");
-  return { fx, a, s, painted, tracked, release, rows, asked };
+  // what the player reads: the open row, and the card the page shows in it (the deck's cards the row asks, in the deck's order,
+  // at the deck's inline index: `_sessionRow` and `_miniDeck`)
+  const shown = () => {
+    const k = s.keys[s.idx], row = s.plan.due.concat(s.plan.fresh).find((r) => r.key === k), st = a._deckState[k];
+    const only = (a._cardsOf(a.flashcards.decks[k]) || []).filter((c) => row && row.questions.includes(a.qhash(c.q)));
+    return k + " :: " + ((only[st ? st.idx : 0] || {}).q || "(no card loaded)");
+  };
+  return { fx, a, s, painted, tracked, release, rows, asked, shown };
 }
 
 test("an untouched session takes its plan again, once, when the live set lands after the tap (R409)", async () => {
@@ -391,5 +405,98 @@ test("the plan is taken again once, even when a second check lands on a plan sti
   await held(a)(true);
   assert.equal(painted.rendered, after, "laid out once, not twice");
   assert.equal(JSON.stringify(s.plan.due.map((r) => [r.key, r.questions])), rows);
+  // still short with the set in hand: said, once (R409-R1, the reader's finding 3: until then it said nothing)
+  assert.deepEqual(tracked.map((t) => [t[1].reason, t[1].short]), [["short", 1]]);
+});
+
+// ── R409-R1: the card on screen, today's order turning worth, the event's words ───────────────────────────────────────────
+/** the reader's adversarial record (finding 1 of #415): the guard fixture plus one more debt, the oldest of all, in ANOTHER
+ *  deck at the seat the plan opens on, unshared and in that deck only. Once the set lands the guard takes it, and the guard's
+ *  cards lead their position, so the new plan's first row is that deck. Chosen by rule from the payload, never by a key. */
+function adversarialRecord() {
+  const fx = guardFixture(DIR), probe = page(fx.blob, fx.day, { bare: true }).a;
+  const s0 = coldSession(probe, fx.day); probe._practiceAppend(s0, probe.planSummary());
+  const first = s0.keys[s0.idx], game = probe._ratingGame("gi"), seats = probe._practiceSeats(game), decks = probe._gameplanDecks(true);
+  const decksOf = new Map();
+  for (const [dk, d] of Object.entries(CARDS)) for (const c of (d && d.cards) || []) { const q = ngKnowledgeQuestionHash(c.q); decksOf.set(q, (decksOf.get(q) || new Set()).add(dk)); }
+  const held = new Set(Object.values(fx.blob.srs).flatMap((r) => Object.keys(r)));
+  for (const dk of Object.keys(seats).filter((k) => seats[k] === seats[first] && k !== first && CARDS[k] && typeof game.deckUnit.get(k) === "number" && decks[k] && decks[k].allowed !== false).sort()) {
+    const q = CARDS[dk].cards.map((c) => ngKnowledgeQuestionHash(c.q)).find((h) => !(game.shared && game.shared.get(h)) && !held.has(h) && decksOf.get(h).size === 1);
+    if (!q) continue;
+    const blob = structuredClone(fx.blob);
+    (blob.srs[dk] = blob.srs[dk] || {})[q] = [fx.day - 500, 7, fx.day - 507]; (blob.stage[dk] = blob.stage[dk] || {})[q] = 1;
+    return { blob, first, deck: dk, q };
+  }
+  throw new Error("no other deck at " + seats[first] + " with an unshared card of its own");
+}
+
+test("the card on screen never changes under an untouched player when the plan is taken again (R409-R1)", async () => {
+  const adv = adversarialRecord();
+  const g = guardSession({ blob: adv.blob, loadOpen: true });
+  const before = { open: g.shown(), at: g.s.keys[g.s.idx] };
+  assert.equal(before.at, adv.first, "premise: the plan taken without the set opens where the probe found it");
+  assert.ok(!before.open.endsWith("(no card loaded)"), "premise: a card is on screen: " + before.open);
+  await g.release(true);
+  assert.equal(g.s.plan.guarded, true, "taken again with the set");
+  assert.ok(g.s.plan.dueQuestions.includes(adv.q), "the oldest debt of all is among the 20");
+  assert.equal(g.s.keys[0], adv.deck, "premise: the new plan's first row is the other deck at that seat (where row 0 would have opened)");
+  assert.equal(g.s.keys[g.s.idx], before.at, "the open row is the one the player was reading");
+  assert.equal(g.shown(), before.open, "and so is the card in it");
+  assert.deepEqual(g.tracked, [], "taken again: no event");
+});
+
+test("a new plan that does not hold the card on screen is not taken (R409-R1)", async () => {
+  const g = guardSession({ loadOpen: true }), k = g.s.keys[g.s.idx], before = { rows: g.rows(), open: g.shown() };
+  // the new plan without the open row (the planner never drops it in practice; the branch is the rule's, so it is forced)
+  const real = g.a.planSummary.bind(g.a);
+  g.a.planSummary = () => { const p = real(); return { ...p, due: p.due.filter((r) => r.key !== k), fresh: p.fresh.filter((r) => r.key !== k) }; };
+  await g.release(true);
+  assert.deepEqual([g.rows(), g.shown()], [before.rows, before.open], "the plan it took, the card it shows");
+  assert.deepEqual(g.tracked.map((t) => t[1].reason), ["reading"], "said under its own word: nothing was touched");
+});
+
+test("a session that began on today's order is waited for when its plan turns worth (R409-R1, finding 2)", async () => {
+  // the slow first visit: the game is not in at the tap, so the session mounts today's order; the worth plan lands while the
+  // live check is still in flight (as a study comparison delivers it), and merges as worth
+  const fx = guardFixture(DIR), { a, painted } = page(fx.blob, fx.day, { bare: true });
+  const tracked = []; a.track = (name, props) => tracked.push([name, props]);
+  const release = held(a), s = coldSession(a, fx.day), real = a._ratingGame.bind(a);
+  a._ratingGame = () => ({ status: "no-weights", total: 0, counts: {} });
+  a._practiceAppend(s, a.planSummary());
+  assert.equal(s.plan.order, "oldest", "premise: today's order at the tap");
+  a._ratingGame = real;
+  a._practiceAppend(s, a.planSummary(), s.plan.fresh.length ? [] : null);
+  assert.deepEqual([s.plan.order, s.plan.guarded, a._guardWait === s], ["worth", false, true], "worth, short, and waiting for the set");
+  const rendered = painted.rendered;
+  await release(true);
+  assert.deepEqual([s.plan.guarded, fx.oldest.filter((q) => s.plan.dueQuestions.includes(q)).length], [true, 3], "untouched: taken again, the three among the 20");
+  assert.equal(painted.rendered, rendered + 1);
   assert.deepEqual(tracked, []);
+});
+
+test("each plan kept or taken without a whole guard says why, in its own word (R409-R1, finding 3)", async () => {
+  const fx = guardFixture(DIR);
+  const words = (a) => a.__t.map((t) => t[1].reason);
+  const mk = () => { const { a } = page(fx.blob, fx.day, { bare: true }); a.__t = []; a.track = (n, p) => a.__t.push([n, p]); return a; };
+  // UNASKED: no check for this deck list (never asked; or a set kept for another manifest or fingerprint): said at once
+  const u = mk(), su = coldSession(u, fx.day);
+  assert.equal(u._ratingLiveNow(), undefined, "premise: never asked");
+  u._practiceAppend(su, u.planSummary());
+  assert.deepEqual(words(u), ["unasked"]);
+  // SHORT, mounted with the set already in hand: a deck the live files do not list
+  const h = mk(), from = h._ratingLiveFrom.bind(h);
+  h._ratingLiveFrom = (files, fp) => { const r = from(files, fp); if (r.decks) r.decks.delete(fx.light[0]); return r; };
+  h._ratingLiveFrom(LIVE);
+  const sh = coldSession(h, fx.day); h._practiceAppend(sh, h.planSummary());
+  assert.deepEqual([sh.plan.guarded, words(h)], [false, ["short"]]);
+  // NOT ON SCREEN when the set lands (the drawer shut, the Path open): kept, and nothing is said (the archive's Not covered)
+  const o = guardSession();
+  o.a._sessionInline = () => false;
+  await o.release(true);
+  assert.deepEqual([o.s.plan.guarded, o.tracked], [false, []]);
+  // FALLBACK: the game left before the set landed (the plan at landing is today's order): nothing to take, said
+  const f = guardSession();
+  f.a._ratingGame = () => ({ status: "no-weights", total: 0, counts: {} });
+  await f.release(true);
+  assert.deepEqual([f.s.plan.order, f.tracked.map((t) => t[1].reason)], ["worth", ["fallback"]]);
 });
