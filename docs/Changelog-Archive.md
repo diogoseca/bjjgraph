@@ -17495,3 +17495,8 @@ reader's own children, so a control nested elsewhere is unseen (the spec's and t
   names beside an orb wholly under a control, in all 24 rows (960 frames; "48 rows" in this entry until R2 was a miscount:
   every run of the survey has had 24). Settled move names, dev -> this: phone (390x631) 186 / 247 / 272 / 305 -> 106 / 98 /
   86 / 51 at x1 / x2 / x4 / x9; 1440 149 / 211 / 251 / 302 -> 114 / 164 / 188 / 144 (drawer shut).
+  Journeys under the lock on the final spec: the 17 spec files that read map names, 229 passed, 1 skipped, none red
+  (before the drawer test gained its drag); then map-names and hidden-moves in full on the committed head, 39 of 39; units
+  1,600 of 1,600. Bytes, my share alone against dev v1.273.1's checkpoints: neural.js +5,556 raw (R2 +104); eager gzip
+  359,612 (+2,431 on 357,181, cap 5,000); first-hand core 379,042 (+2,478 on 376,564, cap 6,000); 11 boot requests;
+  first-hand raw 1,589,326. App rows re-seeded at 7e3a22e3c.
