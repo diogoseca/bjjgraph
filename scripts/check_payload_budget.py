@@ -235,7 +235,20 @@ NEURAL_TARGET = {
     # standing 512_000 B ruling (U134 b), 993 B remain.
     # v1.268.0 (KS2, the owner's U166 b): 511_043, +36 B on dev v1.266.0's 511_007: Settings' line names a move whose
     # flashcards you have learned beside a move you know (settings-ui.js only, 22_157 -> 22_193 B); 957 B of 512_000 remain.
-    "deferred_raw_bytes": 511_043,
+    # v1.278.0 (STAGE3, the owner's U170 a: "its own file, loaded when you open the drawer", up to about 550_000, each PR
+    # moving it to exactly its measured use): 519_911, +9_642 B on dev v1.272.0's 510_269 (as v1.270.2's), all of it gameplan.js (the order
+    # Practice asks in, practice-queue.src.js, and the plan built from it; 9_716 -> 19_358 B); 30_089 B of 550_000 remain.
+    # v1.278.0 STAGE3-R1 (the independent read's fixes): 520_149, +238 B more in gameplan.js (19_358 -> 19_596: the rows
+    # "More new cards" adds named apart in the lines, no re-plan claim, the day's floor); 29_851 B of 550_000 remain.
+    # v1.278.0 STAGE3-R2 (the delta read's small items): 520_258, +109 B more in gameplan.js (19_596 -> 19_705: a Path lesson
+    # named "From the Path" and counted apart in the lines); 29_742 B of 550_000 remain.
+    # v1.278.0 on dev v1.273.0 (DEV405, PR #405 merged in): 520_300, +42 B in gameplan.js (19_705 -> 19_747: it bundles
+    # rating.src.js, which #405 grew); 29_700 B of 550_000 remain.
+    # v1.278.0 ANKI1 (the owner's Anki rule): 520_499, +199 B in gameplan.js (19_747 -> 19_946: the law's due-first visits,
+    # the guard and the new-only-when-nothing-is-due step); 29_501 B of 550_000 remain.
+    # v1.278.0 on dev v1.276.1 (GO409, ANKI1-R1 merged in): 521_639, +1_140 B in gameplan.js (19_946 -> 21_086: ANKI1-R1's
+    # code, and rating.src.js, which gameplan.js bundles and PR #412 grew); dev's own use is 510_269; 28_361 B of 550_000 remain.
+    "deferred_raw_bytes": 521_639,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one

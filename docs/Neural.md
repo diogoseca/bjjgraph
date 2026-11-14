@@ -860,14 +860,14 @@ Positions share one third of score mass, like attacking and defending technique 
 because time passed (a failed card can lower it; it can never lower a belt, below). Retention-vs-pressure gets decided in `_schedule` (SRS intervals: *what you
 are shown*), never in what a deck is *worth*.
 
-**Practice is one mixed session** (v1.248.0, owner U56 e). Its active flashcard comes first,
-with due reviews ahead of new work and the belt corridor below. The planner (`gameplan.src.js`)
-interleaves new decks from every family (U163 c) after every few reviews, using the existing weak-spots
-or study-comparison order. All due reviews remain eligible, including higher-belt material.
-The default goal is 20 (`dailyGoal` overrides, read through `practiceGoal()`); it counts distinct
-graded questions, including mistakes, once per day. Reveal earns nothing. Automatic new allocation
-uses `ngPracticeRoom`: new cards stay at least a fifth of the goal; reviews are never capped. Explicit “Keep practising” appends more eligible work to the same session,
-including after the goal and while reviews remain. Shared questions reserve one obligation.
+**Practice is one session** (v1.278.0, owner U171 a and his Anki rule). Its active flashcard comes first,
+the belt corridor below. It asks what is due first, position by position, worth most first (`practice-queue.src.js`),
+at most 6 a visit; the 3 due longest come every session. A new card comes only when nothing due in this ruleset's
+game is left; a card the ruleset hides waits in “Everything owed, oldest first”. The default goal is 20 (`dailyGoal`,
+via `practiceGoal()`); it counts distinct graded questions, mistakes included, once a day. Reveal earns nothing. With
+no game or no answer yet, today's order serves, reviews first, and says so. “Keep practising” deals the next round into
+the session, also after the goal; “More new cards” and a Path lesson add new ones at the player's press. Shared
+questions reserve one obligation.
 
 Practice keeps the drawer's width (v1.261.0, U135 a). Under “‹ Practice”
 (its Back): belt, stripes, format, progress. “Practice details &

@@ -728,20 +728,24 @@ const NG_CHALLENGE_UI_METHODS = {
       // `maintBand` is read again by the arrival positioning at the foot of this function:
       // a sticky header must be subtracted from the scroll target or it eats the belt head.
       let maintBand = null;
-      if (!practice && typeof this.dueCount === "function" && this.dueCount() > 0) {
+      // shown on the closed drawer's dot's rule (STAGE3-R1, the orchestrator's decision of 13 Nov): while cards are owed AND
+      // today's goal is not met; gone at the goal, owed or not
+      const goal = typeof this.practiceToday === "function" ? this.practiceToday() : null;
+      if (!practice && typeof this.dueCount === "function" && this.dueCount() > 0 && goal && goal.done < goal.goal) {
         const maint = document.createElement("button");
         maint.type = "button";
         maint.className = "ng-maint-band";
         maint.setAttribute("data-maintenance", "1");
-        const n = this.dueCount();
-        maint.setAttribute(
-          "aria-label",
-          n + " card" + (n === 1 ? "" : "s") + " due \u2014 start the maintenance session",
-        );
+        // "N DUE" LEFT THE DRAWER (owner U171 a, 13 Nov; v1.278.0): the band stays the Path's door to the view, and says
+        // what its drawer row says, today's answers against the goal, never the size of the owed pile; in the view's name and
+        // the row's words since v1.276.0 (owner U169 c: "Master the game", "Start today's session"; app.src.jsx's constants,
+        // one scope with this file in the bundle)
+        const today = goal.done + " of " + goal.goal + " today";
+        maint.setAttribute("aria-label", NG_PRACTICE_NAME + ", " + today + " \u2014 " + NG_PRACTICE_START);
         maint.innerHTML =
-          '<b>' + n + ' card' + (n === 1 ? '' : 's') + ' due</b>' +
+          '<b>' + today + '</b>' +
           '<span>keep what you\u2019ve earned</span>' +
-          '<em>Start</em>';
+          '<em>' + NG_PRACTICE_START + '</em>';
         maint.addEventListener("click", () => this.openDueSession());   // ONE door, one label (app.src.jsx)
         list.appendChild(maint);
         maintBand = maint;

@@ -24,7 +24,9 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *      guards, re-pinned on the gesture that replaced it).
  *  10. On a phone, the tap on the exposed strip that closes the drawer does only that: over a node it
  *      stages nothing, over the background it dismisses nothing (SIDE-R2 P1).
- *  11. The closed drawer's icon wears an amber dot while reviews are owed, and none when nothing is.
+ *  11. The closed drawer's icon wears an amber dot while reviews are owed and today's goal is not met, and none when
+ *      nothing is owed or the goal is met (until 13 Nov: "while reviews are owed", the goal not read; the orchestrator's
+ *      decision, 13 Nov, after the owner's U171 a).
  *  12. Explore's fold survives a reload.
  *  13. SIDE-R3 N1: held concept headers reserve their height; Practice stays within 1px and a
  *      press aimed before the index lands still opens it (phone touch and desktop mouse).
@@ -220,8 +222,9 @@ test("@curated Practice, Path and Last rolls open their views, and the brand lea
   })
   await openDrawer(j, page)
   const practice = page.locator('[data-explore-stats] [data-b="due"]')
-  await expect(practice.locator(".ng-dr-pill"), "the owed reviews, on the row").toHaveText("2 due")
-  await expect(practice.locator(".ng-dr-tail"), "and the day's goal").toContainText("1/20")
+  // until v1.278.0 the row also carried the owed reviews ("2 due"); the owner took that count out of the drawer (U171 a)
+  await expect(practice.locator(".ng-dr-pill"), "no due count on the row (U171 a)").toHaveCount(0)
+  await expect(practice.locator(".ng-dr-tail"), "the day's goal, up front").toHaveText("1/20")
   const path = page.locator('[data-explore-stats] [data-view="challenges"]')
   // v1.276.0 (ruled STAGE2-GO 3, one belt in the drawer): the Path row says its course's units in words (before: "0 stripes"),
   // and the worn belt is the "Master the game" row's (before: `[data-path-belt] .ng-tab-belt[data-tab-belt='white'][data-tab-stripes='0']`)
@@ -245,7 +248,11 @@ test("@curated Practice, Path and Last rolls open their views, and the brand lea
   // section instead (practice-mix.spec pins the mix). v1.261.0 (owner U135 a): Practice is a view in the
   // drawer, as Path is, so "Practice" is in the brand ("‹ Practice"), no longer in the study head.
   await expect(page.locator(".ng-drawer-brand"), "the row opens the session (before: ‹ Practice; v1.276.0, owner U169 c)").toHaveText("‹ Master the game")
-  await expect(page.locator("[data-practice-section]"), "titled by the owed reviews").toHaveText("Due reviews \u00b7 2 cards")
+  // until v1.278.0 titled by the owed reviews ("Due reviews · 2 cards"); Practice now goes position by position (U171 a),
+  // so the card section is titled by the open card's position, the first of the plan's
+  await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { message: "the worth plan lands" }).toBe("worth")
+  const first = await page.evaluate(() => { const p = (window as W).__neural._session.plan; return p.visits[0].seat.replace("|", " \u00b7 ") + " \u00b7 position 1 of " + p.visits.length })
+  await expect(page.locator("[data-practice-section]"), "titled by the open card's position").toHaveText(first)
   // Practice's ‹ Back is the brand, a real button (SIDE-R2 P2): it takes focus, and Enter takes it home
   await page.locator("[data-pane-back]").focus()
   expect(await page.evaluate(() => document.activeElement?.getAttribute("data-pane-back")), "‹ Back takes focus").toBe("1")
@@ -258,8 +265,10 @@ test("@curated Practice, Path and Last rolls open their views, and the brand lea
 })
 
 // A REPAINT MID-PRESS MUST NOT SWALLOW THE PRESS (SIDE-R2 M10, FGD13's class): a residency or planner
-// refresh repaints the Practice row in place, and a pill rewritten between pointerdown and pointerup
+// refresh repaints the Practice row in place, and a tail rewritten between pointerdown and pointerup
 // leaves the browser no common target, so no click is dispatched at all. Nothing changed, nothing is written.
+// Until v1.278.0 the press landed on the "N due" pill; the pill left the drawer (U171 a), so it lands on the row's
+// count, the part `_paintTrain` rewrites.
 test("a repaint between pressing Practice and releasing it does not swallow the press", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
@@ -270,7 +279,7 @@ test("a repaint between pressing Practice and releasing it does not swallow the 
     a.srs = { [key]: { [a.qhash(a._cardsOf(a.flashcards.decks[key])[0].q)]: [day - 1, 3, day - 4] } }
   })
   await openDrawer(j, page)
-  const pill = (await j.boxOf('[data-explore-stats] [data-b="due"] .ng-dr-pill', "Practice's due pill"))
+  const pill = (await j.boxOf('[data-explore-stats] [data-b="due"] .ng-dr-tail', "Practice's count, the part a repaint rewrites"))
   await page.mouse.move(pill.x + pill.width / 2, pill.y + pill.height / 2)
   await page.mouse.down()
   await page.evaluate(() => (window as W).__neural._paintTrain())
@@ -625,7 +634,7 @@ test.describe("phone 390x844", () => {
     expect((await j.beats()).filter((b: any) => b.beat === "roll_replay_end")).toHaveLength(1)
   })
 
-  test("the closed drawer's icon wears an amber dot while reviews are owed, and none when nothing is", async ({ page }) => {
+  test("the closed drawer's icon wears an amber dot while reviews are owed and the goal is not met, and none otherwise", async ({ page }) => {
     const j = journey(page)
     await j.boot("/")
     const dot = page.locator(".ng-logo [data-drawer-dot]")
@@ -640,6 +649,16 @@ test.describe("phone 390x844", () => {
     await expect(dot, "a review owed: the dot").toBeVisible()
     const [r, g, bl] = (await dot.evaluate((el) => getComputedStyle(el).backgroundColor)).match(/\d+/g)!.map(Number)
     expect(r > 200 && r > g && g > bl + 40, "amber: warm, red over green over blue").toBe(true)
+    // the goal met (20 answered today), the review still owed: no dot. Until 13 Nov it stayed lit while anything was owed;
+    // the orchestrator's decision, after the owner's U171 a, is "lit until today's goal is met" (practice-order.spec.ts pins
+    // the edge, one answer short and at the goal, by real presses)
+    await page.evaluate(() => {
+      const a = (window as W).__neural, day = a._epochDay()
+      a.srs["Seed|Top"] = Object.fromEntries(Array.from({ length: 20 }, (_, i) => ["today" + i, [day + 1, 1, day]]))
+      a.updateAccountUI()
+    })
+    expect(await page.evaluate(() => (window as W).__neural.dueCount()), "premise: the review is still owed").toBeGreaterThan(0)
+    await expect(dot, "the goal met: no dot, owed or not").toBeHidden()
     await page.evaluate(() => { const a = (window as W).__neural; a.srs = {}; a.updateAccountUI() })
     await expect(dot, "paid off: gone").toBeHidden()
   })

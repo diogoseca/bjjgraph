@@ -97,7 +97,10 @@ async function openPlan(page: Page, touch: boolean, withDebt = false) {
       for (const key of ['Mount|Top', 'Mount|Bottom']) {
         const card = a._cardsOf(a.flashcards.decks[key])?.[0];
         if (!card) throw Error('missing real Mount review fixture');
-        a.srs[key] = { ...(a.srs[key] || {}), [a.qhash(card.q)]: [day - 1, 3, day - 4] };
+        // a miss yesterday (interval 1, no stage): what the player is closest to forgetting, so the worth order (U171 a,
+        // v1.278.0) asks it; until then an older right answer ([day - 1, 3, day - 4]) was owed, and owed was enough
+        a.srs[key] = { ...(a.srs[key] || {}), [a.qhash(card.q)]: [day, 1, day - 1] };
+        (window as any).__sharedQ = a.qhash(card.q);
       }
     }
     a.setViewMode('explore'); a.openExplorer(); a.renderExplorer();
@@ -136,15 +139,20 @@ test('explicit plan loads controls without a study worker; paging, touch and sta
     (window as any).__studyFormRef = document.querySelector('[data-game-study-controls]');
     (window as any).__studyQueueRef = a._session;
     input.focus(); input.setSelectionRange(1, 3);
-    return { keys: a._session.keys.slice(), due: (a._session.plan?.due || []).map((r: any) => r.key), idx: a._session.idx, srs: JSON.stringify(a.srs), revision: a._knowledgeRevision };
+    const qh = (window as any).__sharedQ, rows = (a._session.plan?.due || []).filter((r: any) => r.questions.includes(qh)).map((r: any) => r.key);
+    return { keys: a._session.keys.slice(), due: rows, holds: rows.map((k: string) => a._cardsOf(a.flashcards.decks[k])?.some((c: any) => a.qhash(c.q) === qh) ?? true), idx: a._session.idx, srs: JSON.stringify(a.srs), revision: a._knowledgeRevision };
   });
   // The first Mount question is shared across both roles. The real planner
   // freezes one qhash review rather than charging the same question twice.
   // v1.242.0: Practice mixes new decks into the plan (owner U56 e), so the claim reads the plan's REVIEW
   // rows; the session's keys carry the new decks and the ranked rest beside them.
+  // since v1.278.0 the question is filed under the first of the decks that share it (it may be a Mount variant's), and the
+  // queue is what is worth most (U171 a): the claim is ONE review row holding it, in a deck that holds it
   expect(before.due).toHaveLength(1);
-  expect(['Mount|Top', 'Mount|Bottom']).toContain(before.due[0]);
-  expect(before.keys[0], 'and the review leads the queue').toBe(before.due[0]);
+  expect(before.holds).toEqual([true]);
+  // until v1.278.0 "the review leads the queue" (owed first); the queue is now what is worth most, position by position
+  // (U171 a), so the claim is that the one review row is IN the queue, once
+  expect(before.keys.filter((k: string) => k === before.due[0]), 'and the review is in the queue, once').toHaveLength(1);
   await page.evaluate(() => {
     const a = (window as any).__neural;
     // Exercise the actual host status repaint path without fabricated results.
