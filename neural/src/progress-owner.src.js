@@ -658,9 +658,11 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
   const journalKey = owner => ngProgressLocalKey(owner, "pending");
   const readJournal = owner => { try { return ngProgressJournalParse(storage.getItem(journalKey(owner))); } catch { return ngProgressJournalEmpty(); } };
   const writeJournal = (owner, j) => { try { storage.setItem(journalKey(owner), JSON.stringify(j)); return true; } catch { return false; } };
+  // the ids THIS tab appended since it last wrote the owner's copy: the answers another tab's rows have not seen
+  const mine = new Map();
   const replayer = inst => inst && typeof inst._scheduleWrite === "function" && typeof inst._epochDay === "function"
     ? { write: (p, ok, d) => inst._scheduleWrite(p, ok, d), today: inst._epochDay() } : null;
-  const mergeExternal = (owner, live, saved) => {
+  const mergeExternal = (owner, live, saved, commit = false) => {
     const raw = observed.get(ngProgressOwnerId(owner));
     if (!saved.blob || raw === saved.raw) return live;
     let combined = semanticMerge(live, saved.blob);
@@ -675,6 +677,18 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
           if (Object.prototype.hasOwnProperty.call(live, key)) combined[key] = ngProgressClone(live[key]);
           else delete combined[key];
         }
+      }
+    }
+    // v1.280.1: the answers this tab gave since it last wrote meet the other tab's rows rebuilt on them, never merged (a
+    // tab that never saw the other's row of a card no longer turns it into one day). Held rows stay in the journal: the
+    // other tab's copy is not the cloud. A snapshot (`cloudSnapshot`) rebuilds the same and writes nothing.
+    const ids = mine.get(ngProgressOwnerId(owner)), R = ids && ids.size ? replayer(app) : null;
+    if (R) {
+      const j = readJournal(owner), entries = j.e.filter(e => ids.has(e[0]));
+      if (entries.length) {
+        const r = ngProgressReplay(combined, saved.blob, entries, R.write, R.today);
+        combined = r.blob;
+        if (commit && r.rebuilt.size) writeJournal(owner, ngProgressJournalAfter(j, r, false));
       }
     }
     return combined;
@@ -694,9 +708,9 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
         // Our own persisted base must not be unioned back into deliberate deletes/resets.
         // Merge only evidence written since the cache this instance last observed.
         const merged = !!previous.blob && observed.get(key) !== previous.raw;
-        const combined = merged ? mergeExternal(owner, blob, previous) : blob;
+        const combined = merged ? mergeExternal(owner, blob, previous, true) : blob;
         const saved = store.write(owner, combined);
-        if (saved.status === "saved") observed.set(key, saved.raw);
+        if (saved.status === "saved") { observed.set(key, saved.raw); mine.delete(key); }
         return { ...saved, merged, blob: combined };
       }
       catch { return ngProgressFailure("local-merge-failed"); }
@@ -819,7 +833,7 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
     },
     // ── v1.280.1 (NEXT2): the owner's undelivered answers (`ngProgressReplay`) ──
     // `rows`: [[field, bucket, item, ok, day, after], …] as the app's writers leave them. Appended in order, persisted at
-    // once (an app closed before its next save keeps the answer), capped.
+    // once (an app closed before its next save keeps the answer), capped; this tab remembers its own ids for the tab merge.
     journal(inst, rows) {
       if (!host.current(inst) || !Array.isArray(rows) || !rows.length) return [];
       const owner = inst._progressOwner, j = readJournal(owner), ids = [];
@@ -831,6 +845,9 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       if (!ids.length) return [];
       if (j.e.length > NG_PROGRESS_JOURNAL_CAP) j.e = j.e.slice(j.e.length - NG_PROGRESS_JOURNAL_CAP);
       if (!writeJournal(owner, j)) return [];
+      const key = ngProgressOwnerId(owner), set = mine.get(key) || new Set();
+      for (const id of ids) set.add(id);
+      mine.set(key, set);
       return ids;
     },
     // AT A PULL: `next` is the pull's merge of this copy with `cloud`. The journal's cards the cloud holds are rebuilt on

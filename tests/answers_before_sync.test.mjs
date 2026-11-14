@@ -19,6 +19,7 @@
 //   J2 the replay skips a miss                                             → "a miss counts wherever it was made…"
 //   J3 an entry held by the other copy is applied again (no held check)    → "a push that landed but answered false…"
 //   J4 entries cleared at the pull whatever the cloud holds               → "a push that fails keeps the entry…"
+//   J5 the tab merge does not replay                                       → "P4 a second tab…"
 //   J6 the guest join does not replay                                      → "P3 a guest's first right answer…"
 //   J7 the guest high-water `g` ignored                                    → "a guest copy that joins twice…"
 //   J8 the cap ignored                                                     → "the journal is capped…"
@@ -178,6 +179,17 @@ test("a guest copy that joins twice (the guest played again) applies only its ne
   await withDay(D + 4, async () => { answer(g2, Q2, true); g2._flushSave(); await flush(); a = h2.signIn("A"); await pull(a, flush); });
   assert.deepEqual(a.srs.d[H1], after, "the guest's old miss is not counted a second time");
   assert.deepEqual(a.srs.d[H2], write(MATURE, true, D + 4), "its new answer is");
+})));
+
+test("P4 a second tab that never saw the other tab's row: rebuilt on it at its save", () => withDay(D, () => fakeTimers(async ({ flush }) => {
+  const mem = memory(), C = cloud(null);
+  const h1 = harness(mem, C); await h1.boot(); const t1 = h1.get();
+  const h2 = harness(mem, C); await h2.boot(); const t2 = h2.get();   // tab 2 opens on a copy without the card
+  t1.srs = { d: { [H1]: MATURE.slice() } }; t1._flushSave(); await flush();
+  answer(t2, Q1, true); t2._flushSave(); await flush();               // tab 2 answers it from no row
+  const stored = JSON.parse(mem.getItem(ngProgressLocalKey(GUEST))).blob;
+  assert.deepEqual(stored.srs.d[H1], write(MATURE, true, D), "the browser's copy: tab 2's answer on tab 1's row");
+  assert.deepEqual(t2.srs.d[H1], write(MATURE, true, D));
 })));
 
 test("a push that fails keeps the entry: the next pull applies it once, on what the cloud then holds", () => fakeTimers(async ({ flush }) => {
