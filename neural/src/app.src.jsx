@@ -2981,6 +2981,20 @@ class Component extends DCLogic {
   // never the player's seat (`ngWireDeckName` and the node's role: the rule the retired recolour kept, so a player's seat
   // never decides another half's paint); never a defender twin; the ruleset's mask. Asked per node as it is drawn and kept
   // until `_stageVer` moves (a grade, a deck landing), the ruleset or the graph does: a held map reads one Map.
+  // HIDDEN MOVES: every dealt orb whose card is face down, with its pair partner. NO map label may name one — the always-on
+  // option labels, the roaming pair group and the single hover label all ask this set (review R2: the hover labels did not,
+  // so pointing at an orb named the move its card hides) — and NO MARK may sit on one (GOLD1-R2, the map reader of PR 417:
+  // the outside line on a recalled move come due and the inside gold on a move whose deck is learned with a card due both
+  // showed on the orb of a face-down card, so the map said what its card withholds; dev's dot did the first). A card left
+  // face up because its move is known (v1.266.0, `_applyHide`) is face up here too: the map asks the card, never the rule
+  // again (§6.5, one question in one place), so the row and the map cannot disagree. Asked once per drawn frame (`draw()`).
+  _hmDownSet() {
+    if (!(this.optionIdxs && this.optionIdxs.length && this._hideMoves())) return null;
+    const down = new Set(), lit = new Set(this._hmLit || []);
+    for (const oc of this._optionCards || []) if (oc.card && !oc.card.hasAttribute("data-hide")) { lit.add(oc.opt.idx); if (oc.opt.res != null) lit.add(oc.opt.res); }
+    for (const i of this.optionIdxs) if (!lit.has(i)) { down.add(i); const q = this.nodes[i]; if (q && q.pi >= 0) down.add(q.pi); }
+    return down;
+  }
   _answered(n) {
     let c = this._ansC;
     if (!c || c.sv !== this._stageVer || c.n !== this.nodes || c.gi !== this._giMode) c = this._ansC = { sv: this._stageVer, n: this.nodes, gi: this._giMode, m: new Map() };
@@ -22000,7 +22014,16 @@ class Component extends DCLogic {
     // coincident pair — nothing pops, and no crossfade is needed.
     const cullPad = 60 / scale, cxv = this.cam.cx, cyv = this.cam.cy, halfVW = this.cam.vw / 2, halfVH = (H / scale) / 2;
     // the map's gold (NG_MAP_MARKS), collected per drawn orb and drawn after the loop, batched: `insG` inside, `outG` outside
-    const spec = this._hasGround ? [] : null, gold = this._movesGold(), insG = [], outG = [], MK = NG_MAP_MARKS;
+    const spec = this._hasGround ? [] : null, gold = this._movesGold(), insG = [], outG = [], MK = NG_MAP_MARKS, hmDownF = this._hmDownSet();
+    // AT A DEVICE PIXEL RATIO OF 1 (GOLD1-R2, the map reader of PR 417: a plain desktop screen at 100%), a 1.2 px border is one
+    // device pixel and the gold tints it from both sides, so an orb with both marks read as a gold coin with a brown rim (182
+    // of 4,464 cases between rs 2.6 and 5 had no pixel on the edge's normal in the orb's own colour). So: the border is never
+    // under 2 DEVICE pixels; where a device pixel is a whole CSS pixel the outside line starts half a device pixel beyond the
+    // silhouette (`gap`), so its edge never tints the orb's own edge pixel, and is 1.5 wide (`lw`: 1 px on a 45-degree face
+    // never covers a whole pixel, and on the smallest diamonds it read 76,65,57, not gold); and there the inside is drawn only
+    // where its gold has at least one device pixel of room inside the border (`fit`), reaching full at two. At dpr 2 all
+    // four are as before.
+    const mdpr = this.dpr || 1, gap = mdpr < 1.5 ? 0.5 / mdpr : 0, bwMin = Math.max(MK.borderMin, 2 / mdpr), lw = Math.max(MK.line, 1.5 / mdpr);
     this._lastMapMarks = [];
     for (const n of this.nodes) {
       // RULESET CULL, first and hardest: a state this ruleset cannot produce is not dimmed, it is
@@ -22022,11 +22045,14 @@ class Component extends DCLogic {
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, ny, rD); ctx.fill();
       // THE MAP'S GOLD (v1.280.0): which orbs wear it is the dot's old gate (a member, never the defender twin, drawn at more
       // than 0.55 of its alpha); the seat wears its outside line on its mark below, and no inside mark
-      if (aK > 0.55 && n.role !== "defender" && n.idx !== drawFocus) {
-        const out = gold.has(n.idx), rs = rD * scale, k = this._answered(n) ? Math.max(0, Math.min(1, (rs - MK.inFrom) / (MK.inFull - MK.inFrom))) : 0;
+      if (aK > 0.55 && n.role !== "defender" && n.idx !== drawFocus && !(hmDownF && hmDownF.has(n.idx))) {
+        const out = gold.has(n.idx), rs = rD * scale, bw = Math.max(bwMin, Math.min(MK.borderMax, MK.borderK * rs));
+        // the gold's room inside the border, from the shape's incentre (`_insetPath`): circle 1, diamond 0.8344, triangle 0.7442 r
+        const fit = gap ? Math.max(0, Math.min(1, ((n.ty === "positions" ? 1 : n.ty === "submissions" ? 0.7442 : 0.8344) * rs - bw) * mdpr - 1)) : 1;
+        const k = this._answered(n) ? Math.min(fit, Math.max(0, Math.min(1, (rs - MK.inFrom) / (MK.inFull - MK.inFrom)))) : 0;
         if (out || k > 0) {
           const a0 = A * dim * fogK * aK;
-          if (k > 0) insG.push([n, ny, rD, a0 * k, Math.max(MK.borderMin, Math.min(MK.borderMax, MK.borderK * rs))]);
+          if (k > 0) insG.push([n, ny, rD, a0 * k, bw]);
           if (out) outG.push([n, ny, rD, a0]);
           this._lastMapMarks.push({ idx: n.idx, x: (n.x - this.cam.cx) * scale + W / 2, y: (ny - this.cam.cy) * scale + H / 2, rs, ty: n.ty, out, inK: k, seat: false });
         }
@@ -22057,14 +22083,14 @@ class Component extends DCLogic {
       ctx.fillStyle = this.rgba(MK.gold, MK.goldA * al); ctx.fill();
     }
     if (outG.length) {
-      const h = MK.line / 2 / scale, ext = (n) => n.ty === "submissions" ? 1.578 : n.ty === "positions" ? 1 : 1.18;
-      const lap = outG.some(([n, y, r], i) => outG.some(([m, y2, r2], j) => j > i && Math.hypot(m.x - n.x, y2 - y) < ext(n) * r + ext(m) * r2 + 2 * h));
+      const h = (gap + lw / 2) / scale, reachL = (gap + lw) / scale, ext = (n) => n.ty === "submissions" ? 1.578 : n.ty === "positions" ? 1 : 1.18;
+      const lap = outG.some(([n, y, r], i) => outG.some(([m, y2, r2], j) => j > i && Math.hypot(m.x - n.x, y2 - y) < ext(n) * r + ext(m) * r2 + 2 * reachL));
       ctx.save();
       if (lap) {
         const vx = cxv - halfVW - cullPad, vy = cyv - halfVH - cullPad;
         ctx.beginPath(); ctx.rect(vx, vy, 2 * (halfVW + cullPad), 2 * (halfVH + cullPad)); for (const [n, y, r] of outG) this.shapePath(ctx, n.ty, n.x, y, r); ctx.clip("evenodd");
       }
-      ctx.lineWidth = 2 * h;
+      ctx.lineWidth = lw / scale;
       for (const [al, gs] of byAlpha(outG)) { ctx.beginPath(); for (const [n, y, r] of gs) this._outsetPath(ctx, n.ty, n.x, y, r, h); ctx.strokeStyle = this.rgba(MK.gold, MK.goldA * al); ctx.stroke(); }
       ctx.restore();
     }
@@ -22120,7 +22146,7 @@ class Component extends DCLogic {
       // the seat): the rim below is 2 px wide on the mark's edge, so 1 px out; the line is the band from 1 to 2 px out
       if (gold.has(n.idx)) {
         const y = LY(n);
-        ctx.beginPath(); this._outsetPath(ctx, n.ty, n.x, y, rM, (1 + MK.line / 2) / scale); ctx.lineWidth = MK.line / scale; ctx.strokeStyle = this.rgba(MK.gold, MK.goldA * A); ctx.stroke();
+        ctx.beginPath(); this._outsetPath(ctx, n.ty, n.x, y, rM, (1 + gap + lw / 2) / scale); ctx.lineWidth = lw / scale; ctx.strokeStyle = this.rgba(MK.gold, MK.goldA * A); ctx.stroke();
         this._lastMapMarks.push({ idx: n.idx, x: (n.x - this.cam.cx) * scale + W / 2, y: (y - this.cam.cy) * scale + H / 2, rs: rM * scale, ty: n.ty, out: true, inK: 0, seat: true });
       }
       // the rim was the SAME colour as the fill, i.e. invisible — a "selected" outline has to
@@ -22321,18 +22347,8 @@ class Component extends DCLogic {
         const dup = fn && (am.idx === drawFocus || (fn.pairId && this.nodes[am.idx] && this.nodes[am.idx].pairId === fn.pairId));
         if (!dup) { gid++; what = "travel"; whom = am.idx; richLabel(am.idx, am.verb, am.col, false); }
       }
-      // HIDDEN MOVES: every dealt orb whose card is face down, with its pair partner. NO map label may name one —
-      // the always-on option labels, the roaming pair group and the single hover label all ask this set
-      // (review R2: the hover labels did not, so pointing at an orb named the move its card hides).
-      // A card left face up because its move is known (v1.266.0, `_applyHide`) is face up here too: the map asks the
-      // card, never the rule again (§6.5, one question in one place), so the row and the map cannot disagree.
-      let hmDown = null;
-      if (this.optionIdxs && this.optionIdxs.length && this._hideMoves()) {
-        hmDown = new Set();
-        const lit = new Set(this._hmLit || []);
-        for (const oc of this._optionCards || []) if (oc.card && !oc.card.hasAttribute("data-hide")) { lit.add(oc.opt.idx); if (oc.opt.res != null) lit.add(oc.opt.res); }
-        for (const i of this.optionIdxs) if (!lit.has(i)) { hmDown.add(i); const q = this.nodes[i]; if (q && q.pi >= 0) hmDown.add(q.pi); }
-      }
+      // HIDDEN MOVES: the frame's one set (`_hmDownSet`, asked before the orbs: the marks ask it too, GOLD1-R2)
+      const hmDown = hmDownF;
       // THE ONE LABELLING DESIGN, AT EVERY ZOOM (v1.114.0). This used to be suppressed the moment
       // the node grew past 20px, because above that the in-node pass took over and drawing both
       // printed the state's name twice. That pass is gone, so the suppression goes with it: the
@@ -22573,8 +22589,11 @@ class Component extends DCLogic {
       const orbs = [];
       for (const i of (this.optionIdxs || []).concat(drawFocus >= 0 ? [drawFocus, this.nodes[drawFocus].pi] : [])) {
         const n = this.nodes[i]; if (!n || !rsOk[i] || (n.z && !n.rep && kLOD < 0.5)) continue;   // a twin counts once split (`pairGroup`'s threshold)
+        // the reach a name keeps from it: the outside line's (the silhouette, the gap, the line); the SEAT's is its focus mark
+        // (1.28 of the orb), the mark's rim (1 px out) and the line beyond that (GOLD1-R2, the map reader of PR 417: a name came
+        // 2.3 px from the focus mark, 0.3 px from where its line ends)
         const r = this._nodeHalfW(n, scale, nodeK, kLOD, true);
-        orbs.push({ i, x: (n.x - this.cam.cx) * scale + W / 2, y: (LY(n) - this.cam.cy) * scale + H / 2, r, reach: r + NG_MAP_MARKS.line });
+        orbs.push({ i, x: (n.x - this.cam.cx) * scale + W / 2, y: (LY(n) - this.cam.cy) * scale + H / 2, r, reach: (i === drawFocus ? r * 1.28 + 1 : r) + lw + gap });
       }
       // THE CAMERA MOVES OR RESTS, PER SECOND of the frame clock (v1.275.0; R1 findings 7 and 9). Moving: the zoom changing
       // faster than 0.12 (log units) a second, or the map sliding faster than 30 px a second, since the last drawn frame

@@ -93,16 +93,22 @@ const shoot = (page: Page) => page.evaluate(([RS, STATES]) => {
           if (got.rs > rsT) lo = mid; else hi = mid
         }
         if (!got) { out.push({ ...sp, col: undefined, rsT, err: "no mark published" }); continue }
-        const rs = got.rs, bw = Math.max(1.2, Math.min(2.2, 0.32 * rs))
+        // the border as the frame draws it (v1.280.0, GOLD1-R2): never under 2 device pixels; where a device pixel is a whole CSS
+        // pixel the line starts half a device pixel out and is 1.5 wide
+        const rs = got.rs, bw = Math.max(Math.max(1.2, 2 / dpr), Math.min(2.2, 0.32 * rs)), gap = dpr < 1.5 ? 0.5 / dpr : 0
         // along the edge's normal: a circle's side, a diamond's face at 45 degrees (h = 1.18 r, the face at h / sqrt 2),
         // a triangle's base (h = 1.35 r, the base at 0.72 h)
         const [ux, uy, f] = sp.shape === "circle" ? [1, 0, 1] : sp.shape === "diamond" ? [Math.SQRT1_2, Math.SQRT1_2, 1.18 * Math.SQRT1_2] : [0, 1, 0.972]
-        const e = rs * f, bandAt = Math.max(0.3, e - bw / 2), outAt = e + 0.5, edgeAt = e - 0.75
+        // at dpr 1 a device pixel is a whole CSS pixel: 3/4 px inside the edge is the silhouette's own anti-aliased pixel, so the
+        // band's middle stands for it; the 1 px line splits across two pixels at a sub-pixel offset, so it is read at three
+        // points across its width and the goldest counts
+        const e = rs * f, bandAt = Math.max(0.3, e - bw / 2), edgeAt = dpr < 1.5 ? bandAt : e - 0.75, lw = Math.max(1, 1.5 / dpr), outs = [0.25, 0.5, 0.75].map((d) => e + gap + d * lw)
         const shots: W = {}
         for (const st of STATES) {
           set(st)
           const ctx = draw(), m = (a._lastMapMarks || []).find((q: W) => q.idx === sp.idx) || got
-          shots[st] = { centre: px(ctx, m.x, m.y), band: px(ctx, m.x + ux * bandAt, m.y + uy * bandAt), edge: px(ctx, m.x + ux * edgeAt, m.y + uy * edgeAt), out: px(ctx, m.x + ux * outAt, m.y + uy * outAt), inK: m.inK || 0, outMark: !!m.out }
+          const outPx = outs.map((d) => px(ctx, m.x + ux * d, m.y + uy * d)).sort((p: number[], q: number[]) => (q[1] - q[2]) - (p[1] - p[2]))[0]
+          shots[st] = { centre: px(ctx, m.x, m.y), band: px(ctx, m.x + ux * bandAt, m.y + uy * bandAt), edge: px(ctx, m.x + ux * edgeAt, m.y + uy * edgeAt), out: outPx, inK: m.inK || 0, outMark: !!m.out }
         }
         out.push({ ...sp, col: undefined, rsT, rs: +rs.toFixed(2), bw: +bw.toFixed(2), shots })
       }
@@ -140,13 +146,17 @@ function judge(r: W, where: string) {
       if (o.rsT <= 2.4) {
         // at rs 2.4 px or less the centre is the orb's own colour, whatever the state
         if (!near(s[st].centre, s.none.centre) || gold(s[st].centre)) small.push(`${id} ${st}: centre ${s[st].centre} against ${s.none.centre}`)
-      } else if (o.rsT >= 3.2) {
-        // from rs 3.2 px the inside is gold when and only when the questions are answered
-        if (gold(s[st].centre) !== answered) inside.push(`${id} ${st}: centre ${s[st].centre}${answered ? " not gold" : " gold"}`)
-      } else if (answered && !(s[st].centre[1] - s[st].centre[2] > s.none.centre[1] - s.none.centre[2] + 10)) {
-        // between (2.8 px), the inside gold fades in: answered, the centre is warmer than the bare orb's
-        inside.push(`${id} ${st}: centre ${s[st].centre} not warmer than ${s.none.centre} (fading in)`)
       }
+      // the inside as the frame published it (`inK`, its alpha): none drawn, the centre is the orb's own colour; drawn in full, it
+      // is gold when and only when the questions are answered; fading in, answered, the centre is warmer than the bare orb's
+      // (v1.280.0, GOLD1-R2: at dpr 1 the inside waits for room inside its 2 px border, so where it starts is no longer one size)
+      const inK = s[st].inK
+      if (inK === 0) { if (gold(s[st].centre) || !near(s[st].centre, s.none.centre)) inside.push(`${id} ${st}: no inside drawn, centre ${s[st].centre} against ${s.none.centre}`) }
+      else if (inK >= 0.999) { if (gold(s[st].centre) !== answered) inside.push(`${id} ${st}: centre ${s[st].centre}${answered ? " not gold" : " gold"}`) }
+      else if (answered && !(s[st].centre[1] - s[st].centre[2] > s.none.centre[1] - s.none.centre[2] + 10)) inside.push(`${id} ${st}: centre ${s[st].centre} not warmer than ${s.none.centre} (fading in, inK ${inK})`)
+      if (!answered && inK > 0) inside.push(`${id} ${st}: an inside published without its questions answered`)
+      // at dpr 2 the size rule is the design's own: full from rs 3.2 (unchanged by GOLD1-R2)
+      if (r.dpr >= 2 && answered && o.rsT >= 3.2 && inK < 0.999) inside.push(`${id} ${st}: at dpr 2 the inside is full from rs 3.2 (inK ${inK})`)
     }
   }
   expect(band, `${where}: the border band is the orb's own colour in every state, at every size`).toEqual([])
@@ -155,18 +165,20 @@ function judge(r: W, where: string) {
   expect(small, `${where}: at rs 2.4 px or less the centre is the orb's own colour`).toEqual([])
 }
 
-for (const vp of [{ width: 1440, height: 900, touch: false, dpr: 2 }, { width: 390, height: 631, touch: true, dpr: 3 }]) {
-  test.describe(`the map's gold ${vp.width}x${vp.height}`, () => {
+// dpr 1 (GOLD1-R2, the map reader of PR 417): a plain desktop screen at 100% draws the canvas at one device pixel per CSS pixel
+for (const vp of [{ width: 1440, height: 900, touch: false, dpr: 2 }, { width: 390, height: 631, touch: true, dpr: 3 }, { width: 1440, height: 900, touch: false, dpr: 1 }]) {
+  test.describe(`the map's gold ${vp.width}x${vp.height} dpr ${vp.dpr}`, () => {
     test.use({ viewport: { width: vp.width, height: vp.height }, hasTouch: vp.touch, isMobile: vp.touch, deviceScaleFactor: vp.dpr })
 
-    test(`by the ink: the orb's own colour in every state at every size; gold outside with a Yes, inside with the questions answered (${vp.width})`, async ({ page }) => {
+    test(`by the ink: the orb's own colour in every state at every size; gold outside with a Yes, inside with the questions answered (${vp.width}, dpr ${vp.dpr})`, async ({ page }) => {
       test.setTimeout(240_000)
       const j = journey(page)
       await j.boot("/")
       await j.land("Mount Top")
       const r = await shoot(page)
-      console.log(`[map-gold] ${vp.width}: ${r.specimens.length} specimens, ${r.out.length} sizes, dpr ${r.dpr}`)
-      judge(r, `${vp.width}`)
+      console.log(`[map-gold] ${vp.width} dpr ${vp.dpr}: ${r.specimens.length} specimens, ${r.out.length} sizes, canvas dpr ${r.dpr}`)
+      expect(r.dpr, "the canvas draws at the screen's ratio (capped at 2)").toBe(Math.min(2, vp.dpr))
+      judge(r, `${vp.width} dpr ${vp.dpr}`)
     })
   })
 }

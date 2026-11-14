@@ -521,8 +521,8 @@ const mapFrame = (page: Page) => page.evaluate(async (ids) => {
   }
   const twins = [...a.optionIdxs].map((i: number) => a.nodes[i].pi).filter((i: number) => i >= 0)
   const twinsLearned = twins.filter((i: number) => a.deckMastery(a.nodes[i].t + "|Defender") >= 1)
-  return { W: a.W, H: a.H, known, answered, marks, names, changed, outside, focus: a.focusIdx, twinsLearned, seatKey, seatAnswered: answered.includes(a.focusIdx),
-    orbs: Object.fromEntries([...new Set([...known, ...answered.filter((i: number) => a.optionIdxs.includes(i)), ...a.optionIdxs, ...twins])].map((i: number) => [i, orb(i)])),
+  return { W: a.W, H: a.H, dpr, known, answered, marks, names, changed, outside, focus: a.focusIdx, twinsLearned, seatKey, seatAnswered: answered.includes(a.focusIdx),
+    orbs: Object.fromEntries([...new Set([...known, ...answered.filter((i: number) => a.optionIdxs.includes(i)), ...a.optionIdxs, ...twins, a.focusIdx])].map((i: number) => [i, orb(i)])),
     options: [...a.optionIdxs], twins, id: Object.fromEntries([...a.optionIdxs].map((i: number) => [i, a.nodes[i].id])) }
 }, [ID.known, ID.due])
 
@@ -561,10 +561,60 @@ async function mapClaims(page: Page, where: string) {
     expect(over.map((b: W) => b.i), `${where}: no move's name over mark ${m.idx}`).toEqual([])
   }
   expect(lifted, `${where}: at least one marked orb is lifted off its stored point (so LY against n.y is tested)`).toBeGreaterThan(0)
+  // the SEAT (GOLD1-R2, the map reader of PR 417: a name came 2.3 px from its focus mark, 0.3 px from where its line ends):
+  // no move's name within its focus mark (1.28 of its orb), the mark's rim (1 px out) and its outside line's reach (1 px,
+  // from half a device pixel out at dpr 1)
+  const so = f.orbs[f.focus]
+  expect(!!so, `${where}: the seat is drawn (the check has a subject)`).toBe(true)
+  const seatReach = so.R * 1.28 + 1 + 1 + (f.dpr < 1.5 ? 0.5 / f.dpr : 0)
+  const atSeat = f.names.filter((b: W) => Math.max(b.l - so.x, 0, so.x - b.r) ** 2 + Math.max(b.t - so.y, 0, so.y - b.b) ** 2 < seatReach ** 2)
+  expect(atSeat.map((b: W) => b.i), `${where}: no move's name within the seat's focus mark, its rim and its line`).toEqual([])
   // v1.280.0: was "no gold outline left: every pixel the known set changes lies inside a published dot"
   expect(f.outside, `${where}: every pixel the marks change lies within a published mark (${f.changed} changed)`).toBe(0)
   expect(f.changed, `${where}: the marks are painted`).toBeGreaterThan(0)
 }
+
+// MOVES HIDDEN (GOLD1-R2, the map reader of PR 417): a face-down card wears no seal, so its orb wears no mark either, neither
+// the outside line nor the inside gold, until the card is turned up (the map never says more about a face-down card than the
+// card does; dev's dot showed on a recalled move come due). Due (a Yes come due) and learnedDue (every card learned, one due)
+// are face down with moves hidden, and would be marked: the check has cases. Turned up (moves shown), the marks come in the
+// next drawn frame, with the seals.
+test.describe("the map with moves hidden 1440x900 (GOLD1-R2)", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+
+  test("moves hidden: no mark on the orb of a face-down card, though its move is recalled or its questions answered; turned up, its marks come with its seal", async ({ page }) => {
+    test.setTimeout(240_000)
+    await seat(page, true)
+    const frame = () => page.evaluate((ids) => {
+      const a = (window as W).__neural
+      a.setPaused(true)
+      const seeded = a._optionCards.filter((c: W) => !c.opt.threat && Object.values(ids).includes(c.opt.node.id)).map((c: W) => c.opt.idx)
+      const t = a._fitView(seeded, { minW: 0 })
+      a.cam = { ...a.cam, cx: t.cx, cy: t.cy, vw: t.vw, lvw: Math.log(t.vw) }
+      a.draw()
+      const marks = (a._lastMapMarks || []).map((m: W) => ({ ...m }))
+      const out: W = {}
+      for (const c of a._optionCards) {
+        const k = c.card.getAttribute("data-ks"); if (!k) continue
+        const n = c.opt.node, m = marks.find((x: W) => x.idx === c.opt.idx)
+        out[k] = { down: c.card.hasAttribute("data-hide"), seal: c.card.getAttribute("data-seal"), recalled: a._movesGold().has(c.opt.idx), answered: a._answered(n), out: !!(m && m.out), inK: m ? m.inK : 0 }
+      }
+      a.setPaused(false)
+      return out
+    }, ID)
+    const hid = await frame()
+    console.log(`[known-move-seal] moves hidden: ${JSON.stringify(hid)}`)
+    expect([hid.due.down, hid.due.recalled], "due: face down, and its move recalled (it would wear the outside line)").toEqual([true, true])
+    expect([hid.learnedDue.down, hid.learnedDue.answered], "learnedDue: face down, and its questions answered (it would wear the inside)").toEqual([true, true])
+    for (const [k, c] of Object.entries(hid) as Array<[string, W]>) if (c.down) expect([k, c.out, c.inK], `${k}: face down, so no mark on its orb (no outside line, no inside gold) and no seal on its card (${c.seal})`).toEqual([k, false, 0])
+    // turned up: moves shown
+    await page.evaluate(() => (window as W).__neural.set("hideMoves", false))
+    const up = await frame()
+    console.log(`[known-move-seal] turned up: ${JSON.stringify(up)}`)
+    expect([up.due.down, up.due.seal, up.due.out], "due, turned up: the ring on its card and the outside line on its orb").toEqual([false, "recalled", true])
+    expect([up.learnedDue.down, up.learnedDue.seal, up.learnedDue.inK > 0], "learnedDue, turned up: the disc on its card and the inside on its orb").toEqual([false, "answered", true])
+  })
+})
 
 for (const vp of [{ width: 1440, height: 900, touch: false }, { width: 390, height: 631, touch: true }]) {
   test.describe(`the map ${vp.width}x${vp.height}`, () => {

@@ -199,7 +199,7 @@ async function threeFaces(page: Page) {
   expect({ ...(await face(page, "due")), seal: undefined }, "due: face down, name and film, announced by its place").toEqual({ ...DOWN, seal: undefined })
   expect({ ...(await face(page, "fresh")), seal: undefined }, "never answered: face down").toEqual({ ...DOWN, seal: undefined })
   // v1.272.0: was [true, true, false], "gold: the two Yeses (due too), not the new one"
-  expect([(await face(page, "known")).seal, (await face(page, "due")).seal, (await face(page, "fresh")).seal], "the filled seal on the known move; none on the due one (being asked) or the new one").toEqual(["recalled", null, null])   // v1.280.0: was ["known", null, null]
+  expect([(await face(page, "known")).seal, (await face(page, "due")).seal, (await face(page, "fresh")).seal], "the ring on the known move (recalled; v1.280.0, was the filled seal); none on the due one (being asked) or the new one").toEqual(["recalled", null, null])   // v1.280.0: was ["known", null, null]
   expect(await named(page, "known"), "...and the map names the known move").toBe(true)
   expect([await named(page, "due"), await named(page, "fresh")], "...and neither face-down one").toEqual([false, false])
 }

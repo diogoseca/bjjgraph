@@ -65,6 +65,9 @@ const MARKS = args.includes("--marks")
 // question taken up (Answer for Points, pressed at its measured centre), two lists seeded, at the usual zoom; the reward a
 // landing can mint is left as the player meets it
 const LANDED = args.includes("--landed")
+// --marks-all (GOLD1-R2, the map reader's finding 3): a player with EVERY move recalled and EVERY deck learned, so every orb in
+// view that can wear a mark wears both (on the instance, as --marks does for the dealt moves)
+const MARKS_ALL = args.includes("--marks-all")
 
 // ── THE SEATS, chosen from the wire the page reads (deterministic) ─────────────────────────────────────────────────
 const WIRE = JSON.parse(fs.readFileSync(new URL("../../source/quartz/static/neural/graph-data.json", import.meta.url), "utf8"))
@@ -289,19 +292,23 @@ async function boot(browser, vp) {
 
 /** Seat the roll at `t`/`role` the way the journeys do (rigStart + the rigged draws), then let the hand and camera settle. */
 async function seat(page, s, first) {
-  await page.evaluate(([t, role, first, marks]) => {
+  await page.evaluate(([t, role, first, marks, marksAll]) => {
     const a = window.__neural
     a.rig("ai-skill", [0.5]); a.rig("role", [role === "bottom" ? 0.9 : 0]); a.rig("max-moves", [0.5])
     const idx = a.nodes.findIndex((n) => n.ty === "positions" && n.t === t); if (idx < 0) throw new Error("no " + t)
     a.rigStart(idx)
     if (!first) a.startRoll()
-    if (marks) {
+    if (marksAll) {
+      const all = () => new Map(a.nodes.filter((n) => n.role !== "defender").map((n) => [n.idx, 1]))
+      a._movesGold = all; a._movesLearned = () => new Set(all().keys())
+      a._answered = (n) => n.role === "top" || n.role === "bottom" || n.role === "attacker"
+    } else if (marks) {
       // every dealt move marked (the hand as dealt, read live each frame): recalled, and its questions answered
       const dealt = () => new Set(a.optionIdxs || [])
       a._movesGold = () => new Map([...dealt()].map((i) => [i, 1])); a._movesLearned = dealt
       a._answered = (n) => dealt().has(n.idx)
     }
-  }, [s.t, s.role, first, MARKS])
+  }, [s.t, s.role, first, MARKS, MARKS_ALL])
   for (let i = 0; i < 20; i++) {
     await page.evaluate(() => window.__neural.advance(1000))
     const ok = await page.evaluate(() => { const a = window.__neural; return (a.optionIdxs || []).length > 0 && a._arriveGlideUntil == null && !a.pulse })
@@ -341,7 +348,7 @@ async function setDrawer(page, open) {
 }
 
 const browser = await chromium.launch()
-const result = { when: new Date().toISOString(), base: BASE, app: APP, marks: MARKS, seats: SEATS, cases: [] }
+const result = { when: new Date().toISOString(), base: BASE, app: APP, marks: MARKS, marksAll: MARKS_ALL, landed: LANDED, seats: SEATS, cases: [] }
 const t0 = Date.now()
 for (const vp of VPS) {
   const { ctx, page, errors } = await boot(browser, vp)
