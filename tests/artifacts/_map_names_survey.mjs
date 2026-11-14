@@ -188,8 +188,9 @@ async function measure(page) {
       const media = /^(IMG|svg|VIDEO|CANVAS|INPUT|SELECT|TEXTAREA)$/i.test(el.tagName) || cs.backgroundImage !== "none"
       // paint that HIDES an orb (v1.277.0, `hidOrb`): a background colour at alpha x effective opacity of 0.5 or more, a
       // background image or gradient, a backdrop filter, an image, video or canvas (never text, a border or an svg icon)
-      const al = (bg.match(/[\d.]+/g) || []), e = eff(el)
-      if ((al.length > 3 ? +al[3] : al.length ? 1 : 0) * e >= 0.5 || (e >= 0.05 && (cs.backgroundImage !== "none" || (cs.backdropFilter || "none") !== "none" || /^(IMG|VIDEO|CANVAS)$/i.test(el.tagName)))) covers.push({ el: el.parentElement, l: r.left, r: r.right, t: r.top, b: r.bottom, what: typeof el.className === "string" && el.className ? el.className.split(" ")[0] : el.tagName })
+      // a colour's alpha after its slash (`color(display-p3 r g b / a)`), else rgba's fourth argument, else opaque
+      const j = bg.lastIndexOf("/"), e = eff(el), al = j > 0 ? parseFloat(bg.slice(j + 1)) / (bg.endsWith("%)") ? 100 : 1) : /^rgba\(/.test(bg) ? parseFloat(bg.split(",")[3]) : bg === "transparent" ? 0 : 1
+      if (al * e >= 0.5 || (e >= 0.05 && (cs.backgroundImage !== "none" || (cs.backdropFilter || "none") !== "none" || /^(IMG|VIDEO|CANVAS)$/i.test(el.tagName)))) covers.push({ el: el.parentElement, l: r.left, r: r.right, t: r.top, b: r.bottom, what: typeof el.className === "string" && el.className ? el.className.split(" ")[0] : el.tagName })
       if (!(bgOn || bd || media)) continue
       if (eff(el) < 0.05) continue
       painted.push({ el: el.parentElement, l: r.left, r: r.right, t: r.top, b: r.bottom, what: (typeof el.className === "string" && el.className ? el.className.split(" ")[0] : el.tagName) + (el.getAttribute("data-tech") ? "[card]" : ""), star: !!seatStar(el) })

@@ -21324,19 +21324,49 @@ class Component extends DCLogic {
   // landing's nav are see-through; the cards, the article's sections, the hand's close (alpha 0.72) and the drawer are
   // not. Derived from the DOM, as the boxes are; the walk goes down only through boxes that hold `o` (paint that covers it
   // must), so it reads a few elements per orb, and only for an orb a control's box holds whole. A name is still never
-  // written UNDER any control (`_planNames` clears every box).
-  _hides(q, o) {
+  // written UNDER any control (`_planNames` clears every box). A colour's alpha is read after its slash (`color(display-p3
+  // r g b / a)`, `lab(... / a)`) or as rgba's fourth argument; a colour with neither is opaque (the reader of #414: taking
+  // the fourth number of any colour read an opaque display-p3 colour as transparent). NOT READ: an ancestor's opacity ABOVE
+  // the control (the wrap's, the root's): a control faded by its parent still counts as painting (fewer names, never a
+  // wrong one).
+  // THE ANSWER IS KEPT (CACHE414, the orchestrator's ruling: measured +1.2 ms on every HELD frame at 1440 under a 4x CPU
+  // throttle, 76 box and 17 style reads a frame, for a check that runs when nothing moves): per control (`_hidC`, a WeakMap
+  // on its element), by orb and its on-canvas box to the pixel; the control's whole store goes when its box (as
+  // `_nameBlocks` measured it) or its OWN scroll moves (the row is its own scroller), and every answer expires half a
+  // second of the frame clock after it was asked, so one made stale by paint changing in place (a card restyled or turned,
+  // a fade) heals by itself. Each element's box and style, read once, are kept in the same store (`c.mm`) and go with it,
+  // and the whole store is remade half a second after it was made: a drag (every orb's box new each frame) walks from
+  // memory, not the DOM (measured at 1440, 4x throttle: a per-FRAME memo still spent 0.7 to 0.8 ms a dragged frame
+  // inside this walk; CACHE414).
+  _hides(q, o, i) {
+    const C = this._hidC || (this._hidC = new WeakMap()), el = q.el, k = [q.l, q.t, q.r, q.b].map(Math.round) + "," + el.scrollLeft + "," + el.scrollTop;
+    let c = C.get(el);
+    if (!c || c.k !== k || this.now - c.t >= 0.5) C.set(el, c = { k, t: this.now, m: new Map(), mm: new Map() });
+    const ok = i + ":" + [o.l, o.t, o.r, o.b].map(Math.round), e = c.m.get(ok);
+    if (e && this.now - e.t < 0.5) return e.h;
+    const box = (d) => { let m = c.mm.get(d); if (!m) { const r = d.getBoundingClientRect(); c.mm.set(d, m = { x: r.left - q.cv.left, y: r.top - q.cv.top, w: r.width, h: r.height }); } return m; };
+    const look = (m, d) => {
+      if (!m.s) {
+        const s = getComputedStyle(d), bg = s.backgroundColor, j = bg.lastIndexOf("/");
+        m.s = { op: +s.opacity, gone: s.display === "none", seen: s.visibility !== "hidden",
+          al: j > 0 ? parseFloat(bg.slice(j + 1)) / (bg.endsWith("%)") ? 100 : 1) : /^rgba\(/.test(bg) ? parseFloat(bg.split(",")[3]) : bg === "transparent" ? 0 : 1,
+          paint: s.backgroundImage !== "none" || (s.backdropFilter || "none") !== "none" || /^(IMG|VIDEO|CANVAS)$/.test(d.tagName) };
+      }
+      return m.s;
+    };
     const walk = (d, op) => {
-      const r = d.getBoundingClientRect(), x = r.left - q.cv.left, y = r.top - q.cv.top;
-      if (!(x <= o.l && x + r.width >= o.r && y <= o.t && y + r.height >= o.b)) return false;
-      const s = getComputedStyle(d), c = s.backgroundColor.match(/[\d.]+/g) || [];
-      op *= d === q.el ? q.o : +s.opacity;
-      if (s.display === "none" || op < 0.05) return false;
-      if (s.visibility !== "hidden" && ((c.length > 3 ? +c[3] : c.length ? 1 : 0) * op >= 0.5 || s.backgroundImage !== "none" || (s.backdropFilter || "none") !== "none" || /^(IMG|VIDEO|CANVAS)$/.test(d.tagName))) return true;
-      for (const e of d.children) if (walk(e, op)) return true;
+      const m = box(d);
+      if (!(m.x <= o.l && m.x + m.w >= o.r && m.y <= o.t && m.y + m.h >= o.b)) return false;
+      const s = look(m, d);
+      op *= d === el ? q.o : s.op;
+      if (s.gone || op < 0.05) return false;
+      if (s.seen && (s.al * op >= 0.5 || s.paint)) return true;
+      for (const x of d.children) if (walk(x, op)) return true;
       return false;
     };
-    return walk(q.el, 1);
+    const h = walk(el, 1);
+    c.m.set(ok, { h, t: this.now });
+    return h;
   }
 
   shapePath(ctx, ty, x, y, r) {
@@ -22249,7 +22279,7 @@ class Component extends DCLogic {
       // (the part of it ON the canvas: an orb hanging off the edge is hidden when what shows of it is under paint)
       const on = (c) => {
         const o = { l: Math.max(0, c.sx - c.r), r: Math.min(W, c.sx + c.r), t: Math.max(0, c.sy - c.r), b: Math.min(H, c.sy + c.r) };
-        return c.sx + c.r > NB.l && o.l < o.r && o.t < o.b && !NB.blocks.some((q) => o.l >= q.l && o.r <= q.r && o.t >= q.t && o.b <= q.b && this._hides(q, o));
+        return c.sx + c.r > NB.l && o.l < o.r && o.t < o.b && !NB.blocks.some((q) => o.l >= q.l && o.r <= q.r && o.t >= q.t && o.b <= q.b && this._hides(q, o, c.i));
       };
       // the node the pointer's label names (or its pair partner, which carries the same name) is named once (R2 D3: a lit
       // node under the pointer was written by the pointer's label and again by the lit pass; dealt moves are skipped alike)

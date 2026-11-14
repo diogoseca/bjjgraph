@@ -17634,7 +17634,40 @@ merged in before landing): eager 362,177, +290 on 361,887 (cap 5,000); first-han
 6,000). Before that checkpoint the sum read +4,997 of 5,000, dev's own +4,706. Archive ceiling +50,000 in its own commit
 (D-316, the orchestrator's word). On the landing head: map-names and hidden-moves 39 of 39; npm run ci:validate 25 of 25.
 
-**Not covered.** A `::before` / `::after` background is not read (no chrome over the map paints with one today: measured on
+**Not covered.** An ancestor's opacity ABOVE a control (the app's wrap or root) is not read: a control faded by its parent
+still counts as painting (fewer names, never a wrong one). A kept answer can be stale for up to half a second when a
+control's paint changes in place without its box or scroll moving. A `::before` / `::after` background is not read (no chrome over the map paints with one today: measured on
 the drawer, its rows and the row); the walk goes down only through boxes that hold the orb, so a painting child that
 overflows a parent which does not hold the orb is unseen (none found; the audit's whole-tree walk would see it); an svg
 with a solid fill does not count as paint; an orb straddling two adjacent painted boxes is shown.
+
+**CACHE414: what the check costs, and the store that keeps it near nothing.** Measured before landing (4x CPU throttle,
+`draw()` timed in the page, Standing top, `_hides` live against short-circuited to the old box rule, interleaved blocks,
+two runs): median +0.5 to +0.7 ms held and +0.4 to +0.5 dragging at 390; +1.2 held and +0.7 to +1.1 dragging at 1440, with
++76 box and +17 style reads on every HELD frame at 1440 (the reader's count): too much for a check that runs when nothing
+moves (the orchestrator's ruling). So `_hides` keeps its answers: per control (a WeakMap on its element), by orb and its
+on-canvas box to the pixel; the control's whole store goes when its box (as `_nameBlocks` measured it) or its own scroll
+moves, and is remade half a second (frame clock) after it was made, as every answer expires half a second after it was
+asked, so an answer made stale by paint changing in place (a card restyled or turned, a fade) heals by itself. Each
+element's box and style are kept in the same store: a per-FRAME memo, tried first as ruled, still spent 0.7 to 0.8 ms a
+dragged frame inside the walk at 1440 (every orb's box is new in a drag, so the answers miss), so the memo lives as long
+as the store. After, the same measure: held +0.1 / +0.2 at 390, +0.1 / +0.3 at 1440; dragging +0.1 / +0.2 at 390, +0.4 /
++0.5 at 1440, of which 0.1 inside `_hides` and +0.2 to +0.3 in the planner placing the names the change regains; no extra
+box or style read in a held or a dragged frame at either size. (A first after-measure drew with the frame clock still and
+the same drag positions in every block, so no answer ever expired or missed; it understated the drag and was discarded.)
+Proof (map-names.spec.ts): a held camera makes zero box or style reads in `_hides` after its first frame (10 asks and 50
+reads, then 0 on each of 23 frames) and asks again half a second on (50 reads); a dealt orb put under the middle of a card
+of the row (Kimura, at 390) is hidden and not offered, the row scrolled 92 px puts the gap between two cards under it and
+within two frames it is shown and offered, scrolled back hidden again (offered is what the scroll gives back: a name also
+needs a free place, which an orb deep in the row's box has not, since no name is written under the row); a control painted
+at alpha 0.6 hides an orb, at 0.4 it does not, an opaque `color(display-p3 ...)` hides it. Mutants, the whole file each:
+no cache (the store remade on every ask) red at the zero-reads test; the row's scroll out of the key red at the scroll
+test; no expiry red at "asked again"; the threshold at 0.72 and at 0.3 red at the 0.6 and 0.4 fixtures; the old colour
+parse red at the display-p3 fixture; every box opaque and every box transparent red at the set equality (6 and 7 tests).
+One named non-kill: the answers not kept while the store's element memo still is (it reads nothing; it only costs time,
+which no spec measures).
+
+The reader's four low findings on #414, in the same push: the colour's alpha is read after its slash or as rgba's fourth
+argument (app, spec and survey; the old parse read an opaque display-p3 colour as transparent); the fixture between 0.5
+and 0.72 above; an ancestor's opacity ABOVE a control is not read (fewer names, never a wrong one: Not covered); the audit
+check is "no name for an orb under paint that hides it".
