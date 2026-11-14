@@ -243,7 +243,7 @@ test("a deck never counts for more than its own full worth", () => {
   close(r.share, 0.6 / 1.4, "capped at A's whole worth, not 1.5 times it");
   assert.deepEqual([r.counts.decksOver, r.counts.rowsOver], [1, 1], "and the cut is counted, deck and rows");
   // a cap on value, not on rows: three faded rows under A's worth are not cut, but still counted
-  const faded = { srs: { "A|Top": { a1: [D, 30, D - 300], a2: [D, 30, D - 300], a3: [D, 30, D - 300] } }, stage: {} };
+  const faded = { srs: { "A|Top": { a1: [D - 270, 30, D - 300], a2: [D - 270, 30, D - 300], a3: [D - 270, 30, D - 300] } }, stage: {} };
   const f = S(U, faded, D);
   close(f.share, (0.3 * 3 * 0.9 ** 10) / 1.4, "under the cap: each row at its own worth");
   assert.deepEqual([f.counts.decksOver, f.counts.rowsOver], [1, 1]);
@@ -285,7 +285,7 @@ test("a shared question is live where its index lists it, retired elsewhere", ()
   const onlyThere = S(U, { srs: { "Z|Attacker": { qs: [D + 30, 30, D] } }, stage: {} }, D, liveOf({ "Z|Attacker": [] }));
   assert.deepEqual([onlyThere.share, onlyThere.counts.retired, onlyThere.counts.weighted], [0, 1, 0], "filed only in a deck its index does not list: neither priced nor live");
   // a fresher row in a retired deck does not set the number: the live row does
-  const late = S(U, { srs: { "A|Top": { qs: [D, 30, D - 300] }, "Z|Attacker": { qs: fresh(30) } }, stage: {} }, D, liveOf({ "A|Top": [], "Z|Attacker": [] }));
+  const late = S(U, { srs: { "A|Top": { qs: [D - 270, 30, D - 300] }, "Z|Attacker": { qs: fresh(30) } }, stage: {} }, D, liveOf({ "A|Top": [], "Z|Attacker": [] }));
   close(late.share, (0.35 * 0.9 ** 10) / 1.4, "priced from A's own (older) row");
 });
 

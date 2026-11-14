@@ -326,8 +326,11 @@ export function ngKnowledgeSharedDecks(manifest, question, key) {
 // THE SCHEDULE (v1.279.0, ruled SRS-GO). A row stays [due, interval, last day] (a move's adds its answer and any tail):
 // NOTHING NEW IS STORED and no stored row is rewritten.
 //   · THE TRUE INTERVAL is `due − last`, never less than the cell (`ngKnowledgeInterval`). Every writer until v1.279.0
-//     wrote due = last + interval, so an existing row reads as its own rung; the pull's clamp (last ≤ today) can only
-//     make it longer; a row built otherwise (a hand-built one in a spec) never reads below its own rung.
+//     wrote due = last + interval, so an existing row reads as its own rung; a row built otherwise (a hand-built one in a
+//     spec) never reads below its own rung. The pull's clamp (last ≤ today, `ngKnowledgeMergeRow`) CAN lengthen it, by as
+//     many days as the other device's clock ran ahead: a cloud row from a clock 30 days ahead, [1060, 30, 1030], is kept
+//     on day 1000 as [1060, 30, 1000], 60 days where it was 30, and its next on-time step reads from 60 (SRS-R1, the
+//     reader's finding 4). Bounded by the wrong clock; no one-line fix (the row cannot say which clock was wrong).
 //   · THE CELL (`row[1]`) is written as the largest rung of NG_KNOWLEDGE_INTERVALS at or below the true interval
 //     (`ngKnowledgeCell`), so it is what an older client can read: its right answer climbs ITS ladder from the cell (a
 //     full rung, capped at 120 days, until a new client answers again) and never goes back to 1 day, and its due counts
@@ -339,16 +342,24 @@ export function ngKnowledgeSharedDecks(manifest, question, key) {
 //     due = today + the interval there (rounded to a day). The owner's example, pinned in tests/knowledge_profile.test.mjs:
 //     a card at 30 days answered right the next day comes due on day 31.7 of the old count (30 × 2^(1/30) from day 1);
 //     answered on day 29, day 87.6 (30 × 2^(29/30)); on time, day 90. So an answer right after the last one "hardly moves
-//     the ball", and one just before the due date earns nearly the whole step. It cannot be farmed: answering every day
-//     earns about what one on-time answer does.
+//     the ball", and one just before the due date earns nearly the whole step. It cannot be farmed: an early answer never
+//     earns more than an on-time one, whatever the cadence (0 of the 2,922 daily runs, pinned). WHAT DAILY ANSWERS DO
+//     (SRS-R1, the reader's finding 3, ruled (a)): answered every day a card advances in every band EXCEPT 60 to 89 days,
+//     where a day earns 0.41 of a day (90/60 is the smallest rung ratio, 1.5) and whole-day storage drops it, so the card
+//     holds its interval until it is answered two or more days apart or on time. Kept: rounding up instead would overshoot
+//     a full rung by 30 days in that band (daily answers ending due later than one on-time answer).
 //   · A LATE RIGHT ANSWER EARNS ONE RUNG, as on time: NO late bonus, measured, do not "fix" it. Anki and FSRS give one, and
 //     the research recommended a capped one. But while rolls feed a backlog a card is late because of the pile, not
 //     because the player held it; a bonus lengthens its interval, the order's worth reads the longer interval as "held",
 //     and it waits longer still. Measured (ANKI1, the Practice simulation's own memory model, 5 players, two years): with
 //     a backlog the bonus cost 7 to 15 points of true recall and raised the rating, which reads the same cell, by 10 to 18;
 //     with no backlog it changed nothing. The orchestrator ruled it out on that measurement (SRS-GO).
-//   · A right answer NEVER makes a card due sooner: the place only rises, and today is never before the last answer
-//     (the pull clamps `last` to today); `Math.max` with the old due holds it even against a clock set back.
+//   · A right answer NEVER makes a card due sooner: the place only rises, and `Math.max` with the old due holds it even
+//     against a clock set back.
+//   · THE WRITER NEVER MOVES `last` BACKWARD (SRS-R1, the reader's finding 4): an answer on a day before the row's last
+//     (a clock set back, a timezone crossed) is filed on the row's last. Filed on today, a right answer kept the due day and
+//     moved `last` back, so the true interval grew for nothing ([430, 30, 400] answered on day 390 read 40 days, and on its
+//     due day earned 71 where on time from 30 is 60). Now it leaves the row as it was; a miss there comes due the day after.
 export function ngKnowledgeInterval(row) {
   const t = row[0] - row[2], c = Number.isFinite(row[1]) && row[1] >= 1 ? row[1] : 1;
   return Number.isFinite(t) ? Math.max(c, t) : c;
@@ -375,9 +386,11 @@ export function ngKnowledgeNextInterval(prior, day) {
   return ngKnowledgeAt(ngKnowledgePlace(cur) + Math.min(1, p));
 }
 export function ngKnowledgeScheduleRow(prior, ok, day) {
-  if (!ok || !ngKnowledgeRowOk(prior)) return [day + 1, NG_KNOWLEDGE_INTERVALS[0], day];
-  const due = Math.max(prior[0], day + Math.max(1, Math.round(ngKnowledgeNextInterval(prior, day))));
-  return [due, ngKnowledgeCell(due - day), day];
+  if (!ngKnowledgeRowOk(prior)) return [day + 1, NG_KNOWLEDGE_INTERVALS[0], day];
+  const last = Math.max(day, prior[2]);   // never backward (a clock set back): see the header
+  if (!ok) return [last + 1, NG_KNOWLEDGE_INTERVALS[0], last];
+  const due = Math.max(prior[0], last + Math.max(1, Math.round(ngKnowledgeNextInterval(prior, last))));
+  return [due, ngKnowledgeCell(due - last), last];
 }
 // THE PULL'S MERGE OF ONE srs ROW (v1.105.0 in `_mergeProgressFields`; here since v1.279.0 so it is pinned as a unit).
 // Per card the LATER review wins (the freshest grade knows the memory best); ties are the common case (`last` is a day),
@@ -386,8 +399,10 @@ export function ngKnowledgeScheduleRow(prior, ok, day) {
 // keep their own. Smaller cell then earlier due is "the smaller true interval" on one day: showing a card early is cheap,
 // hiding a forgotten one is not. A winner past rung 0 keeps the LONGER interval it beat (the heal of the grade-before-
 // pull race), read as TRUE intervals (`due − last`) since v1.279.0, written `[winner's last + the beaten interval, the
-// beaten cell, winner's last]`. The incoming `last` is clamped to today so a fast clock cannot win forever. `local` may
-// be undefined (a card only the cloud holds). Returns the row to keep; inputs untouched.
+// beaten cell, winner's last]`. The incoming `last` is clamped to today so a fast clock cannot win forever; what the clamp
+// can still do is lengthen that row's true interval by as many days as the fast clock ran ahead (the schedule's header,
+// SRS-R1 finding 4), never shorten it. `local` may be undefined (a card only the cloud holds). Returns the row to keep;
+// inputs untouched.
 export function ngKnowledgeMergeRow(local, cloud, today) {
   const cc = [cloud[0] | 0, cloud[1] | 0, Math.min(today, cloud[2] | 0)];
   if (!local) return cc;

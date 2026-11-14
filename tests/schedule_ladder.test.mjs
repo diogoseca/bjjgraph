@@ -8,9 +8,9 @@
 // between rungs read from the true interval (due − last, never below the cell); the cell written as the largest rung of the
 // seven-rung ladder at or below it, so an older client always finds a rung.
 //
-// THE OLDER CLIENT is dev v1.273.1's own code, cut from git's copy of each file by tests/artifacts/_capture_old_schedule.mjs into
-// tests/artifacts/schedule_old_client.json (never re-typed): its `ngKnowledgeScheduleRow`, its inline srs pull merge and its
-// `ngProgressMergeMoves`. THE LOSS ON AN OLDER CLIENT, said plainly: its right answer gives the card a full rung of ITS ladder
+// THE OLDER CLIENT is dev v1.278.2's own code (3b050d06f; its writer and merges are the same text as v1.273.1's), cut from git's
+// copy of each file by tests/artifacts/_capture_old_schedule.mjs into tests/artifacts/schedule_old_client.json (never re-typed):
+// its `ngKnowledgeScheduleRow`, its inline srs pull merge, its `ngProgressMergeMoves` and its rating's `ngRatingRecall`. THE LOSS ON AN OLDER CLIENT, said plainly: its right answer gives the card a full rung of ITS ladder
 // from the cell, capped at 120 days, whatever the day (a 365-day card comes back in 120), until a new client answers it again;
 // it never sends a card back to 1 day, its due counts read `due` (exact), and its heal can only make a card due later.
 //
@@ -26,6 +26,21 @@
 //   L7  the pull merge without the due tie-break                            → "two devices converge, both orders, a cloud that holds a row"
 //   L8  the srs heal read from the cells                                    → "a winning success keeps the longer TRUE interval it beat"
 //   L9  the moves heal read from the cells                                  → "a winning success keeps the longer TRUE interval it beat"
+// SRS-R1 (the independent reader's findings 1 to 5), the same way:
+//   L10 the never-sooner guard dropped (`Math.max(prior[0], …)`)           → "a right answer never makes a card due sooner"
+//   L11 an answer filed on today's day again (`last` moved backward)       → "a clock set back never lengthens an interval"
+//   L12 the rating reads the cell again (`ivl = row[1]`)                   → "the rating reads a card at 0.9 on its due day, at 90,
+//                                                                              365 and 2,922 days" and "the Practice order's worth
+//                                                                              moves with the rating's read"
+//   L13 a shared question's row without the earlier-due tie (rating.src.js) → "a shared question whose decks drifted is asked
+//                                                                              when it is owed, and read the same in either order"
+//   L14 the Practice order's row choice back to its own inline rule         → the same test
+//   L15 an early answer's interval rounded UP whenever a day has passed     → "answered every day: never more than one on-time
+//       (the reader's candidate fix for the 60 to 89 day band, not taken)      answer, and a card at 60 to 89 days holds"
+//   L16 the app's pull block back to dev's own inline merge                 → "the app's pull merges srs and moves rows the same
+//                                                                              in both orders…" (tests/progress_owner.integration
+//                                                                              .test.mjs, the app's own pull against a cloud that
+//                                                                              holds rows); L7, L8 and L9 are red there too
 //
 // Run: node --test tests/schedule_ladder.test.mjs
 import { test } from "node:test";
@@ -33,6 +48,9 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import * as K from "../neural/src/knowledge-profile.src.js";
 import { ngProgressMergeMoves } from "../neural/src/progress-owner.src.js";
+import * as R from "../neural/src/rating.src.js";
+import { ngPracticeItems, ngPracticeVisits } from "../neural/src/practice-queue.src.js";
+import { ngGameplanDebt } from "../neural/src/gameplan-debt.src.js";
 import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 
 const OLD = JSON.parse(readFileSync(new URL("./artifacts/schedule_old_client.json", import.meta.url), "utf8"));
@@ -46,6 +64,8 @@ const oldMerge = (local, cloud, today) => {
   return host.srs.A.q;
 };
 const oldMergeMoves = new Function(OLD.owner.mergeMoves + "\nreturn ngProgressMergeMoves;")();
+// dev's own rating read of a row (the cell as the interval)
+const oldRecall = new Function([OLD.rating.num, OLD.rating.fade, OLD.rating.unsure, OLD.rating.recall].join("\n") + "\nreturn ngRatingRecall;")();
 const SEVEN = [1, 3, 7, 14, 30, 60, 120];
 
 // every row the new writer can produce from a spread of histories: on-ladder and between-rungs rows, answered on every day
@@ -129,7 +149,79 @@ test("a right answer never makes a card due sooner", () => {
   }
   // between rungs: a 42-day card (cell 30) answered the next day comes due on day 44 (42.7 days from day 1), never by its cell
   assert.deepEqual(K.ngKnowledgeScheduleRow([42, 30, 0], true, 1), [44, 30, 1]);
-  assert.ok(checked > 70, `${checked} right answers`);
+  // a clock set back (SRS-R1, the reader's finding 5): every row, answered right 1, 30 and 400 days before its last answer
+  for (const { row } of newRows()) for (const back of [1, 30, 400]) {
+    const w = K.ngKnowledgeScheduleRow(row, true, row[2] - back);
+    assert.ok(w[0] >= row[0], `${row} answered right ${back} days before its last: due ${w[0]}`);
+    checked++;
+  }
+  // THE GUARD'S OWN ROW. Since SRS-R1 an answer before the row's last is filed on its last (the next test), so a clock set
+  // back no longer reaches the guard; what it still holds is a row whose due is not a whole day: no writer stores one and
+  // the pull truncates a cloud row (`| 0`), so it would come from a hand-edited or damaged blob. Rounded, its next interval
+  // (30.4 days, on time from nothing) falls short of the due it had, and the guard keeps it (L10 red here)
+  assert.deepEqual(K.ngKnowledgeScheduleRow([430.4, 30, 400], true, 400), [430.4, 30, 400]);
+  assert.deepEqual(K.ngKnowledgeScheduleRow([430.4, 30, 400], true, 390), [430.4, 30, 400]);
+  assert.ok(checked > 500, `${checked} right answers`);
+});
+
+test("a clock set back never lengthens an interval: the writer never moves `last` backward", () => {
+  // the reader's row (finding 4): a 30-day card last answered on day 400, answered right on a device whose clock reads 390
+  const r = [430, 30, 400];
+  assert.deepEqual(K.ngKnowledgeScheduleRow(r, true, 390), [430, 30, 400], "filed on its last: the row as it was");
+  assert.deepEqual(K.ngKnowledgeScheduleRow(r, true, 100), [430, 30, 400], "set back 300 days: the same");
+  // then the clock is right again and the card is answered on its due day: the on-time step from 30 is 60 (it was 71 when the
+  // answer was filed on day 390: a true interval of 40 for nothing)
+  assert.deepEqual(K.ngKnowledgeScheduleRow(K.ngKnowledgeScheduleRow(r, true, 390), true, 430), [490, 60, 430]);
+  // a miss there comes due the day after the row's last
+  assert.deepEqual(K.ngKnowledgeScheduleRow(r, false, 390), [401, 1, 400]);
+  // every row the writer produces, every day before its last: `last` never moves back, and a right answer leaves the row as it was
+  let checked = 0;
+  for (const { row } of newRows()) for (const back of [1, 10, 300]) {
+    assert.deepEqual(K.ngKnowledgeScheduleRow(row, true, row[2] - back), row, `${row}, ${back} days back`);
+    const miss = K.ngKnowledgeScheduleRow(row, false, row[2] - back);
+    assert.deepEqual(miss, [row[2] + 1, 1, row[2]], `${row} missed ${back} days back`);
+    checked++;
+  }
+  assert.ok(checked > 250, `${checked} rows`);
+});
+
+test("answered every day: never more than one on-time answer, and a card at 60 to 89 days holds its interval", () => {
+  // THE CLAIM, as it is (SRS-R1, the reader's finding 3, ruled (a)): an early answer never earns more than an on-time one.
+  // Every true interval from 1 to 2,922 days, answered right every day for one interval: 0 end due later than one on-time answer
+  let over = 0;
+  for (let I = 1; I <= 2922; I++) {
+    let row = [I, K.ngKnowledgeCell(I), 0];
+    const onTime = K.ngKnowledgeScheduleRow(row, true, I)[0];
+    for (let d = 1; d <= I; d++) row = K.ngKnowledgeScheduleRow(row, true, d);
+    if (row[0] > onTime) over++;
+  }
+  assert.equal(over, 0, "daily runs that end due later than one on-time answer");
+  // THE BAND: answered every day a card advances everywhere except 60 to 89 days, where a day earns 0.41 of a day (90/60, the
+  // smallest rung ratio) and whole-day storage drops it. A 60-day card answered right every day for a year is still at 60, and
+  // never due sooner
+  let r = [60, 60, 0];
+  for (let d = 1; d <= 365; d++) {
+    const n = K.ngKnowledgeScheduleRow(r, true, d);
+    assert.ok(n[0] >= r[0], `day ${d}: never sooner`);
+    assert.equal(n[0] - n[2], 60, `day ${d}: holds at 60`);
+    r = n;
+  }
+  assert.deepEqual(r, [425, 60, 365]);
+  // the band's edges, answered daily for 3 intervals and a month: 59 and 90 move, every interval from 60 to 89 holds
+  for (let I = 59; I <= 90; I++) {
+    let row = [I, K.ngKnowledgeCell(I), 0];
+    for (let d = 1; d <= 3 * I + 30; d++) row = K.ngKnowledgeScheduleRow(row, true, d);
+    assert.equal(row[0] - row[2] === I, I >= 60 && I <= 89, `${I} days answered daily: ${row}`);
+  }
+  // answered every SECOND day, every card of the band advances (the 60-day card is at 120 days after 60 such answers)
+  for (let I = 60; I <= 89; I++) {
+    let row = [I, K.ngKnowledgeCell(I), 0];
+    for (let d = 2; d <= 2 * I; d += 2) row = K.ngKnowledgeScheduleRow(row, true, d);
+    assert.ok(row[0] - row[2] > I, `${I} days answered every second day: ${row}`);
+  }
+  r = [60, 60, 0];
+  for (let d = 2; d <= 120; d += 2) r = K.ngKnowledgeScheduleRow(r, true, d);
+  assert.deepEqual(r, [240, 120, 120]);
 });
 
 test("a right answer never goes back to 1 day", () => {
@@ -240,4 +332,109 @@ test("nothing stored is rewritten: every row written before v1.279.0 reads as it
   // the writer is the only author of a row: the evidence a grade starts from is not rewritten by building it
   const initial = K.ngKnowledgeBuildEvidence({ srs: { a: { h: [2, 14, 1] } } });
   assert.deepEqual(initial.srs.a.h, [2, 14, 1]);
+});
+
+// THE RATING READS THE TRUE INTERVAL (SRS-R1, the reader's finding 1, ruled into this PR): `ngRatingRecall` reads a row's
+// interval as `due − last`, never below its cell. Read from the cell, a card answered right on every due day read 0.854 on its
+// due day at 90 days, 0.726 at 365 and 0.077 at 2,922, and the number drifted down as cards matured.
+function devRows() {
+  // every row dev's writer produces, by short histories (right or wrong, on the same day, the next, early, on time, late), and
+  // what dev's own pull leaves when the other device's clock ran ahead (its `last` clamped to today, its due kept)
+  const out = new Map(), add = (r) => out.set(r.join(","), r);
+  const walk = (row, depth) => {
+    if (row) add(row);
+    if (!depth) return;
+    const last = row ? row[2] : 0, due = row ? row[0] : 0, ivl = row ? row[1] : 1;
+    for (const d of new Set([last, last + 1, last + Math.floor(ivl / 2), due, due + ivl])) for (const ok of [true, false]) walk(oldRow(row, ok, d), depth - 1);
+  };
+  walk(null, 6);
+  for (const r of [...out.values()]) for (const ahead of [1, 7, 60]) add(oldMerge(undefined, [r[0] + ahead, r[1], r[2] + ahead], r[2]));
+  return [...out.values()];
+}
+
+test("the rating reads a row's true interval: at the update nothing reads lower, and dev's rows read the same", () => {
+  // the reader's 406 readings: every rung dev writes, read on its answer day and every 7 days for 400 days, right: equal
+  let same = 0;
+  for (const c of SEVEN) for (let since = 0; since <= 400; since += 7) {
+    const row = [1000 + c, c, 1000];
+    if (R.ngRatingRecall(row, true, 1000 + since) === oldRecall(row, true, 1000 + since)) same++;
+  }
+  assert.equal(same, 406);
+  // every row dev's writer (and dev's pull) can produce, read on every 3rd day for 400 days, right and wrong: the same, or
+  // higher where the pull lengthened the row (due − last above the cell); never lower
+  let equal = 0, higher = 0;
+  const rows = devRows();
+  for (const row of rows) for (let day = row[2]; day <= row[2] + 400; day += 3) for (const right of [true, false]) {
+    const now = R.ngRatingRecall(row, right, day), was = oldRecall(row, right, day);
+    assert.ok(now >= was, `${row} on day ${day}: ${now} below dev's ${was}`);
+    if (now === was) equal++;
+    else { higher++; assert.ok(row[0] - row[2] > row[1], `${row}: higher only where due − last is above the cell`); }
+  }
+  assert.ok(rows.length > 40 && equal > 20000 && higher > 1000, `${rows.length} rows, ${equal} equal, ${higher} higher`);
+});
+
+test("the rating reads a card at 0.9 on its due day, at 90, 365 and 2,922 days", () => {
+  // a card answered right on every due day, from its first answer: on each due day it reads 0.9, whatever its cell
+  let row = K.ngKnowledgeScheduleRow(null, true, 0);
+  const onDue = new Map();
+  for (let i = 0; i < 12; i++) { row = K.ngKnowledgeScheduleRow(row, true, row[0]); onDue.set(row[0] - row[2], [row, R.ngRatingRecall(row, true, row[0])]); }
+  for (const I of [90, 365, 2922]) {
+    const [r, k] = onDue.get(I);
+    assert.ok(Math.abs(k - 0.9) < 1e-12, `${I} days (${r}, cell ${r[1]}): ${k}`);
+    assert.ok(r[1] < I, `${I} days: its cell (${r[1]}) is shorter than its schedule, so a cell read would say less`);
+  }
+});
+
+test("the Practice order's worth moves with the rating's read", () => {
+  // two cards owed today, one weight: a 365-day card on its due day (cell 120) and a 30-day card 70 days past its last. Read
+  // from the true interval the first recalls 0.9 and the second 0.78, so the second is worth more; read from the cell the
+  // first would read 0.73 and come first
+  const D = 2000, mature = [D, 120, D - 365], plain = [D - 40, 30, D - 70];
+  const items = [{ id: "mature", kind: "card", seat: "s", w: 1, row: mature, stage: 3 }, { id: "plain", kind: "card", seat: "s", w: 1, row: plain, stage: 3 }];
+  const law = ngPracticeVisits({ items, day: D, goal: 1, guard: 0 });
+  assert.deepEqual(law.asked, ["plain"], "the one place goes to the card closest to forgetting");
+  assert.ok(Math.abs(R.ngRatingRecall(mature, true, D) - 0.9) < 1e-12 && R.ngRatingRecall(plain, true, D) < 0.8);
+  // and the law's worth is 1 − that read, in its own order, on every row dev writes
+  for (const row of devRows().filter((r) => r[1] > 1).slice(0, 60)) {
+    const day = row[0] + 3, other = [day - 1 - 7, 7, day - 1 - 14];   // a 7-day row 15 days on: 0.9^(15/7)
+    const pick = ngPracticeVisits({ items: [{ id: "a", kind: "card", seat: "s", w: 1, row, stage: 3 }, { id: "b", kind: "card", seat: "s", w: 1, row: other, stage: 3 }], day, goal: 1, guard: 0 }).asked[0];
+    const ka = R.ngRatingRecall(row, true, day), kb = R.ngRatingRecall(other, true, day);
+    if (ka !== kb) assert.equal(pick, ka < kb ? "a" : "b", `${row} on day ${day}`);
+  }
+});
+
+test("a shared question whose decks drifted is asked when it is owed, and read the same in either order", () => {
+  // the reader's case (finding 2): one question in decks A and B whose rows had drifted (A at 30 days, B at 14, both answered on
+  // day 1000), answered right on B's due day through the one writer, which files both: the same `last`, the same floored cell,
+  // due days 11 apart. And one mature pair: both cells floored to 120, due 241 and 486 days on
+  const qh = "0a1b2c3d";
+  const cases = [
+    ["drifted", K.ngKnowledgeScheduleRow([1030, 30, 1000], true, 1014), K.ngKnowledgeScheduleRow([1014, 14, 1000], true, 1014)],
+    ["mature", [1000 + 486, 120, 1000], [1000 + 241, 120, 1000]],
+  ];
+  assert.deepEqual(cases[0].slice(1), [[1055, 30, 1014], [1044, 30, 1014]]);
+  const decks = { A: { exact: true, questions: [qh], count: 1 }, B: { exact: true, questions: [qh], count: 1 } };
+  const game = { status: "ok", deckUnit: new Map([["A", 1], ["B", 1]]), shared: new Map([[qh, ["A", "B"]]]) };
+  const U = R.ngRatingUniverse({ decks: { A: { n: 1 }, B: { n: 1 } }, weights: { A: 0.5, B: 0.5 }, shared: new Map([[qh, ["A", "B"]]]),
+    seats: { "1/top": { w: 0.1, hand: { 10: 100 } } } });
+  for (const [name, A, B] of cases) {
+    const day = B[0];   // the day the earlier row comes due
+    const shares = [];
+    for (const order of [["A", "B"], ["B", "A"]]) {
+      const srs = {};
+      for (const k of order) srs[k] = { [qh]: k === "A" ? A : B };
+      const debt = ngGameplanDebt({ srs, day, decks });
+      assert.equal(debt.count, 1, `${name}, stored ${order}: the due count owes it`);
+      const built = ngPracticeItems({ day, srs, stage: { A: { [qh]: 3 } }, decks, game, seats: { A: "1/top", B: "1/top" } });
+      const it = built.items.find((x) => x.id === qh);
+      assert.deepEqual(it.row, B, `${name}, stored ${order}: Practice reads the row the due count owes`);
+      const law = ngPracticeVisits({ items: built.items, day, goal: 20 });
+      assert.deepEqual([law.counts.owed, law.asked], [1, [qh]], `${name}, stored ${order}: and asks it`);
+      const share = R.ngRatingShare(U, { srs, stage: { A: { [qh]: 3 } } }, day);
+      assert.equal(share.status, "ok");
+      shares.push(share.share);
+    }
+    assert.equal(shares[0], shares[1], `${name}: the rating reads one row whichever deck is stored first`);
+    assert.ok(Math.abs(shares[0] - R.ngRatingRecall(B, true, day) / 1.1) < 1e-12, `${name}: and it is the earlier-due row`);
+  }
 });

@@ -1,13 +1,15 @@
-// THE OLDER CLIENT, CAPTURED (v1.279.0, SRS-GO). Writes tests/artifacts/schedule_old_client.json: the exact source text
-// of dev's schedule writer and both of its merges, as dev v1.273.1 (f0b9c0e02) ships them, cut out of git's own copy of
-// each file (never re-typed) with the file's sha256, so tests/schedule_ladder.test.mjs can run the code an open tab or an
-// installed copy that has not reloaded still runs against the rows v1.279.0 writes. Run once from the repo root:
+// THE OLDER CLIENT, CAPTURED (v1.279.0, SRS-GO; SRS-R1 adds the rating's read and moves it to dev v1.278.2, 3b050d06f,
+// whose writer and merges are the same text as v1.273.1's). Writes tests/artifacts/schedule_old_client.json: the exact
+// source text of dev's schedule writer, both of its merges and the rating's reading of a row (`ngRatingRecall`), cut out
+// of git's own copy of each file (never re-typed) with the file's sha256, so tests/schedule_ladder.test.mjs can run the
+// code an open tab or an installed copy that has not reloaded still runs against the rows v1.279.0 writes, and read the
+// rows dev wrote the way dev reads them. Run once from the repo root:
 //   node tests/artifacts/_capture_old_schedule.mjs [rev]
 // Not a test: `node --test tests/*.test.mjs` does not collect it.
 import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import { writeFileSync } from "node:fs";
-const rev = process.argv[2] || "f0b9c0e02";
+const rev = process.argv[2] || "3b050d06f";
 const show = (path) => execFileSync("git", ["show", `${rev}:${path}`], { encoding: "utf8", maxBuffer: 64 << 20 });
 const sha = (s) => createHash("sha256").update(s).digest("hex");
 // a top-level `export function name(` … its matching closing brace, at column 0
@@ -23,6 +25,7 @@ function line(src, startsWith) {
   return src.slice(i, src.indexOf("\n", i)).replace(/^export /, "");
 }
 const kp = show("neural/src/knowledge-profile.src.js"), app = show("neural/src/app.src.jsx"), po = show("neural/src/progress-owner.src.js");
+const ra = show("neural/src/rating.src.js");
 // the srs pull merge, inline in `_mergeProgressFields`: from its first statement to the moves comment that follows it
 const a = app.indexOf("const srs = (this.srs = this.srs || {});"), b = app.indexOf("// `moves` merges by the same recency rule", a);
 if (a < 0 || b < 0) throw new Error(`the srs merge block not found at ${rev}`);
@@ -32,6 +35,8 @@ const out = {
   knowledge: { sha256: sha(kp), intervals: line(kp, "export const NG_KNOWLEDGE_INTERVALS"), scheduleRow: fn(kp, "ngKnowledgeScheduleRow") },
   app: { sha256: sha(app), srsMerge: app.slice(a, b).trimEnd() },
   owner: { sha256: sha(po), mergeMoves: fn(po, "ngProgressMergeMoves") },
+  rating: { sha256: sha(ra), fade: line(ra, "export const NG_RATING_FADE"), unsure: line(ra, "export const NG_RATING_UNSURE"),
+    num: line(ra, "function ngRatingNum("), recall: fn(ra, "ngRatingRecall") },
 };
 writeFileSync(new URL("./schedule_old_client.json", import.meta.url), JSON.stringify(out, null, 1) + "\n");
-console.log("captured", rev, out.version, "scheduleRow", out.knowledge.scheduleRow.length, "srsMerge", out.app.srsMerge.length, "mergeMoves", out.owner.mergeMoves.length);
+console.log("captured", rev, out.version, "scheduleRow", out.knowledge.scheduleRow.length, "srsMerge", out.app.srsMerge.length, "mergeMoves", out.owner.mergeMoves.length, "recall", out.rating.recall.length);
