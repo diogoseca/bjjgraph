@@ -225,26 +225,38 @@ test("async observer rejection is reported and cannot block Gameplan or later no
 });
 
 test("SRS differential closes over the captured original ladder; changed-constant mutant is killed", () => {
+  // UNTIL v1.279.0 the extracted writer equalled the captured original `_schedule` on all 36 rows below (the extraction's
+  // pin). The owner's ladder (SRS-GO, tests/schedule_ladder.test.mjs) changes it on purpose; what stays pinned here: the
+  // original ladder IS the cell's seven rungs, and on rows the app writes (due = last + interval) the two still agree on a
+  // first answer, a miss, and a right answer on time from 1 to 30 days; they differ exactly where the ruling says (60 -> 90
+  // where the original gave 120; 120 -> 241 where it held 120; a 2-day row, off its ladder, where the original sent a right
+  // answer to 1 day: 5 days, between 3 and 7); and every cell the new writer stores is one the original reads.
   assert.equal(prior.declarations.NG_SRS_IVLS, "const NG_SRS_IVLS = [1, 3, 7, 14, 30, 60, 120];");
   assert.deepEqual(K.NG_KNOWLEDGE_INTERVALS, [1, 3, 7, 14, 30, 60, 120]);
+  const orig = (row, correct, day) => {
+    const a = { srs: { A: { [old.qhash("q")]: row } }, qhash: old.qhash, _epochDay: () => day, _sharedDecksFor: () => null };
+    old._schedule.call(a, "A", "q", correct);
+    return a.srs.A[old.qhash("q")];
+  };
   function compare(schedule) {
     let checked = 0;
-    for (const day of [0, 100]) for (const interval of [null, 1, 3, 7, 14, 30, 60, 120, 2]) for (const correct of [true, false]) {
-      const row = interval == null ? undefined : [99, interval, 90];
-      const a = { srs: { A: { [old.qhash("q")]: row } }, qhash: old.qhash,
-        _epochDay: () => day, _sharedDecksFor: () => null };
-      old._schedule.call(a, "A", "q", correct);
-      assert.deepEqual(schedule(row, correct, day), a.srs.A[old.qhash("q")], "captured SRS ladder");
+    for (const interval of [null, 1, 3, 7, 14, 30, 60, 120, 2]) for (const correct of [true, false]) {
+      const row = interval == null ? undefined : [90 + interval, interval, 90], day = row ? row[0] : 100;
+      const was = orig(row, correct, day), now = schedule(row, correct, day);
+      if (!correct || interval == null || interval <= 30 && interval !== 2) assert.deepEqual(now, was, `captured SRS ladder: ${row} ${correct}`);
+      else assert.deepEqual(now, { 60: [day + 90, 60, day], 120: [day + 241, 120, day], 2: [day + 5, 3, day] }[interval], `the owner's ladder: ${row}`);
+      // the original reads every cell the new writer stores: its right answer climbs from there, never to 1 day
+      assert.ok(orig(now, true, day + 1)[1] > 1, `the original on ${now}`);
       checked++;
     }
     return checked;
   }
-  assert.equal(compare(K.ngKnowledgeScheduleRow), 36);
+  assert.equal(compare(K.ngKnowledgeScheduleRow), 18);
   const marker = "Object.freeze([1, 3, 7, 14, 30, 60, 120])";
   assert.equal(knowledgeSource.split(marker).length, 2);
   const mutated = new Function(knowledgeSource.replace(marker, "Object.freeze([1, 4, 7, 14, 30, 60, 120])") + "\nreturn ngKnowledgeScheduleRow;")();
-  assert.throws(() => compare(mutated), /captured SRS ladder/);
-  console.log("captured SRS rows compared: 36; changed-constant mutant killed");
+  assert.throws(() => compare(mutated), /captured SRS ladder|the original on/);
+  console.log("captured SRS rows compared: 18; changed-constant mutant killed");
 });
 
 // Execute the actual listener registrations, including the closures' local action/timer
@@ -338,7 +350,9 @@ test("panic plain recall deliberately qualifies proof/SRS; direct callbacks reta
     fresh.reveal.click(); fresh.got.click(); // a legitimate fresh repeat retains local credit
     assert.deepEqual(a.prep, { [key]: 2, [shared]: 1 }); assert.equal(a._days.day, 1);
     assert.equal(a.stage[key][qh], 4); assert.equal(a.rec[key], 1);
-    assert.deepEqual(a.srs[key][qh], [130, 30, 100]); assert.deepEqual(a.srs[shared][qh], [114, 14, 100]);
+    // the repeat is the same day: under the owner's ladder (v1.279.0) a right answer 0 days after the last earns nothing, so
+    // both rows stand (until v1.279.0 every right answer climbed a rung: [130, 30, 100] and [114, 14, 100])
+    assert.deepEqual(a.srs[key][qh], [114, 14, 100]); assert.deepEqual(a.srs[shared][qh], [107, 7, 100]);
     assert.equal(a._qMod, -.08); assert.equal(a._combo, 4); assert.equal(a.answers, 2);
     assert.equal(Object.keys(a._knowledgeAttempts).length, 2);
     await Promise.resolve(); checked++;
@@ -358,9 +372,13 @@ test("pure grading preserves prior recall arithmetic including repeats and share
     const got = i % 5 !== 4;
     b.gradeRecall("A|Top", { q: "q" }, got);
     evidence = K.ngKnowledgeApplyGrade(evidence, { key: "A|Top", card: { q: "q" }, mode: "recall", correct: got, attemptId: String(i), dayKey: "day" }, manifest, 100).evidence;
-    for (const [field, hostField] of [["prep", "prep"], ["stage", "stage"], ["rec", "rec"], ["srs", "srs"], ["sharp", "_sharp"], ["days", "_days"]]) {
+    for (const [field, hostField] of [["prep", "prep"], ["stage", "stage"], ["rec", "rec"], ["sharp", "_sharp"], ["days", "_days"]]) {
       assert.deepEqual(evidence[field], b[hostField], `${field}, grade ${i}`); checked++;
     }
+    // srs: the same decks as the captured writer, and every grade is on day 100, so under the owner's ladder (v1.279.0) a
+    // repeat earns nothing and every row stays [101, 1, 100] (until v1.279.0 it equalled the captured writer, which climbed
+    // a rung on every right answer)
+    assert.deepEqual(evidence.srs, Object.fromEntries(Object.entries(b.srs).map(([dk, rows]) => [dk, Object.fromEntries(Object.keys(rows).map((q) => [q, [101, 1, 100]]))])), `srs, grade ${i}`); checked++;
   }
   console.log(`captured prior recall evidence comparisons: ${checked}`);
 });
@@ -377,9 +395,13 @@ test("all MC surfaces preserve prior grade arithmetic; valid repeats and trap/no
       const truth = { correct: 0, tiers: ["correct", "trap", "wrong"], surface, qhash: a.qhash("q") };
       a._mcAnswer(pick, { q: "q" }, "A|Top", wrap(), {}, null, { ...truth });
       b._mcAnswer(pick, { q: "q" }, "A|Top", wrap(), {}, null, { ...truth });
-      for (const field of ["prep", "stage", "rec", "srs", "_sharp", "_days"]) {
+      for (const field of ["prep", "stage", "rec", "_sharp", "_days"]) {
         assert.deepEqual(a[field], b[field], `${surface}/${pick}/${field}`); checked++;
       }
+      // srs: the captured writer's decks, every row a day after the one day these answers fall on (v1.279.0: a same-day
+      // repeat earns nothing; until then the srs equalled the captured writer's, a rung a right answer)
+      const day = a._epochDay();
+      assert.deepEqual(a.srs, Object.fromEntries(Object.entries(b.srs).map(([dk, rows]) => [dk, Object.fromEntries(Object.keys(rows).map((q) => [q, [day + 1, 1, day]]))])), `${surface}/${pick}/srs`); checked++;
     }
   }
   console.log(`captured prior MC evidence comparisons: ${checked}`);

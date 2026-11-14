@@ -5,7 +5,9 @@ import { ngProgressOwner, ngProgressLocalKey, ngProgressCreateStore, ngProgressC
 
 const read = rel => readFileSync(new URL(rel, import.meta.url), 'utf8');
 const strip = text => text.replace(/^export (function|const|let|var|class) /gm, '$1 ');
-const dependencies = ['lists-codec', 'lists', 'belt', 'rating', 'challenge-definitions', 'challenge-engine'].map(name => strip(read('../neural/src/'+name+'.src.js'))).join('\n');
+// knowledge-profile (v1.279.0): the pull's srs merge is `ngKnowledgeMergeRow`, which the bundle concatenates above the class;
+// rating (dev, PR #412) beside it
+const dependencies = ['lists-codec', 'lists', 'belt', 'knowledge-profile', 'rating', 'challenge-definitions', 'challenge-engine'].map(name => strip(read('../neural/src/'+name+'.src.js'))).join('\n');
 const ownerSource = strip(read('../neural/src/progress-owner.src.js'));
 const source = read('../neural/src/app.src.jsx');
 const Component = new Function('DCLogic','React',ownerSource+'\n'+dependencies+'\n'+source+'\nreturn Component;')(class {}, {createRef:()=>({current:null})});
@@ -385,3 +387,83 @@ test('cloud danger preference updates visuals immediately and leaves the live cl
   assert.equal(a._settingsAt.dangerAnimation, 3);
   console.log('# cloud danger preference: 11 assertions');
 });
+
+// THE APP'S OWN PULL, BOTH ORDERS, AGAINST A CLOUD THAT HOLDS ROWS (v1.279.0, SRS-R1: the independent reader's
+// finding 5, ported from its app_pull.mjs). The schedule's merge is a pure function (`ngKnowledgeMergeRow`, pinned in
+// tests/schedule_ladder.test.mjs); this holds the app that calls it: `_mergeProgressBlobs` in both orders with blobs
+// that hold srs AND moves rows, and a full `_pullAndMerge` on a booted, signed-in instance whose rows dev wrote, against
+// a cloud holding other dev rows, coming out row for row as DEV'S OWN PULL leaves them. Dev's pull is its own code, cut
+// from git by tests/artifacts/_capture_old_schedule.mjs (dev v1.278.2), never re-typed.
+const OLD_CLIENT = JSON.parse(read('./artifacts/schedule_old_client.json'));
+const devSrsMerge = new Function('cloud', OLD_CLIENT.app.srsMerge);
+const devMergeMoves = new Function(OLD_CLIENT.owner.mergeMoves + '\nreturn ngProgressMergeMoves;')();
+const copy = v => JSON.parse(JSON.stringify(v));
+async function withDay(day, run) {
+  const had = Object.getOwnPropertyDescriptor(globalThis, 'window');
+  globalThis.window = { ...(had ? had.value : {}), __NG_EPOCH_DAY__: day };
+  try { return await run(); } finally { if (had) Object.defineProperty(globalThis, 'window', had); else delete globalThis.window; }
+}
+const PULL_DAY = 20400;
+test("the app's pull merges srs and moves rows the same in both orders, against a cloud that holds them (SRS-R1)", () => withDay(PULL_DAY, async () => {
+  const h = harness(); await h.boot(); const a = h.get(), D = PULL_DAY;
+  assert.equal(a._epochDay(), D);
+  const pairs = [
+    // one day, one floored cell, due days apart (the new tie): the earlier due wins and keeps the longer interval it beat
+    [[D + 42, 30, D], [D + 55, 30, D], [D + 55, 30, D]],
+    // a miss today beside a right answer today: the miss stands (rung 0 keeps its 1 day)
+    [[D + 1, 1, D], [D + 60, 60, D], [D + 1, 1, D]],
+    // the later answer wins and heals to the longer TRUE interval it beat (90 days, both cells 60)
+    [[D + 65, 60, D], [D + 80, 60, D - 10], [D + 90, 60, D]],
+    // dev's answer (cell 120, 120 days) after a new client's 241: the 241 days come back
+    [[D + 120, 120, D], [D - 1 + 241, 120, D - 1], [D + 241, 120, D]],
+    // two misses of one day, one written by a device whose clock ran a day ahead and already clamped by a pull ([D+2, 1,
+    // D]): no heal at rung 0, so the tie itself decides, the earlier due on both devices (until v1.279.0 each kept its own)
+    [[D + 1, 1, D], [D + 2, 1, D], [D + 1, 1, D]],
+  ];
+  for (const [x, y, want] of pairs) {
+    const L = blob({}, { srs: { d: { q: x } }, moves: { '1/top': { m: [...x, 1] } } }), C = blob({}, { srs: { d: { q: y } }, moves: { '1/top': { m: [...y, 1] } } });
+    const ab = a._mergeProgressBlobs(L, C), ba = a._mergeProgressBlobs(C, L);
+    assert.deepEqual(ab.srs.d.q, want, `local ${x}, cloud ${y}`);
+    assert.deepEqual(ba.srs.d.q, want, `local ${y}, cloud ${x}`);
+    assert.deepEqual(ab.moves['1/top'].m, [...want, 1], `moves: local ${x}, cloud ${y}`);
+    assert.deepEqual(ba.moves['1/top'].m, [...want, 1], `moves: local ${y}, cloud ${x}`);
+  }
+}));
+test("a full pull of rows dev wrote leaves every srs and moves row as dev's own pull does (SRS-R1)", () => withDay(PULL_DAY, async () => {
+  const D = PULL_DAY, S = [1, 3, 7, 14, 30, 60, 120];
+  const localSrs = { d: {}, e: {} }, cloudSrs = { d: {}, e: {} }, localMoves = { '1/top': {} }, cloudMoves = { '1/top': {} };
+  let i = 0;
+  // dev's rows (due = last + cell) on both sides: every pair of cells, answered 0, 1, 3 or 50 days ago here, 0, 1 or 4
+  // there, so one card can be a later answer, a same-day tie, a heal or none of them; moves rows carry Yes or No
+  for (const c of S) for (const dl of [0, 1, 3, 50]) for (const c2 of S) for (const dl2 of [0, 1, 4]) {
+    const q = 'q' + i++, l = [D - dl + c, c, D - dl], r = [D - dl2 + c2, c2, D - dl2];
+    localSrs.d[q] = l; cloudSrs.d[q] = r; localMoves['1/top'][q] = [...l, 1]; cloudMoves['1/top'][q] = [...r, i % 3 ? 1 : 0];
+  }
+  for (let j = 0; j < 20; j++) {   // and rows only one side holds
+    localSrs.e['l' + j] = [D + S[j % 7] - j, S[j % 7], D - j]; cloudSrs.e['c' + j] = [D + S[j % 7] - j, S[j % 7], D - j];
+  }
+  // dev's own pull of the same blobs: its srs block run as the app runs it, and its moves merge
+  const dev = { srs: copy(localSrs), _epochDay: () => D };
+  devSrsMerge.call(dev, { srs: copy(cloudSrs) });
+  const devMoves = devMergeMoves(copy(localMoves), copy(cloudMoves), D);
+  await fakeTimers(async ({ flush }) => {
+    const h = harness(); await h.boot(); const a = h.switchTo('A');
+    assert.equal(await a._pullAndMerge(), true, 'the first pull: an empty account');
+    a.srs = copy(localSrs); a.moves = copy(localMoves); a._saveProgress(); await flush();
+    h.facade.pullNeural = async id => ({ userId: id, blob: blob({}, { srs: copy(cloudSrs), moves: copy(cloudMoves) }) });
+    assert.equal(await a._pullAndMerge(), true, 'the pull of a cloud that holds rows');
+    await flush();
+    let rows = 0;
+    for (const dk of Object.keys(dev.srs)) for (const q of Object.keys(dev.srs[dk])) { assert.deepEqual(a.srs[dk][q], dev.srs[dk][q], `srs ${dk}/${q}`); rows++; }
+    for (const q of Object.keys(devMoves['1/top'])) { assert.deepEqual(a.moves['1/top'][q], devMoves['1/top'][q], `moves ${q}`); rows++; }
+    assert.deepEqual(Object.keys(a.srs.d).length + Object.keys(a.srs.e).length, Object.keys(dev.srs.d).length + Object.keys(dev.srs.e).length);
+    assert.equal(rows, 588 + 40 + 588, `${rows} rows compared`);
+    const stored = JSON.parse(h.mem.rows.get(ngProgressLocalKey(ownerA)));
+    assert.deepEqual((stored.blob || stored).srs, a.srs, 'what is stored is what is read');
+    // a passive pull (the cloud holds exactly this device's rows): no row changes
+    const before = copy({ srs: a.srs, moves: a.moves });
+    h.facade.pullNeural = async id => ({ userId: id, blob: blob({}, copy(before)) });
+    assert.equal(await a._pullAndMerge(), true);
+    assert.deepEqual({ srs: a.srs, moves: a.moves }, before, 'a passive pull rewrites nothing');
+  });
+}));

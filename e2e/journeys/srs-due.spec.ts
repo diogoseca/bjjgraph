@@ -8,13 +8,15 @@ import { journey } from "../dsl";
  *
  * The design under test:
  *   · srs = {deckKey: {qhash: [due, ivl, last]}} in the v2 blob, epoch DAYS (LOCAL)
- *   · one writer `_schedule` fed by BOTH grade chokes; success climbs [1,3,7,14,30,60,120],
- *     any failure resets to 1
+ *   · one writer `_schedule` fed by BOTH grade chokes (`ngKnowledgeScheduleRow`); success climbs the owner's ladder
+ *     (v1.279.0: 1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922 days, then doubling; an early answer earns the share
+ *     of a rung that passed; the stored cell is the largest of [1,3,7,14,30,60,120] at or below due − last), any failure
+ *     resets to 1. The on-time rows this file seeds climb the same first rungs either way (3 → 7 below)
  *   · duePool = due <= today && last < today  — a failed card leaves the pool until tomorrow,
  *     so the count DRAINS on failure instead of re-serving the card all day
  *   · questionFor asks due cards FIRST, any stage — maintenance before learning, mid-roll too
- *   · merge: later `last` wins; same-day tie → smaller ivl (a failure is never erased by an
- *     earlier same-day success); success keeps the larger ivl (grade-before-pull heals)
+ *   · merge: later `last` wins; same-day tie → smaller ivl, then (v1.279.0) the earlier due (a failure is never
+ *     erased by an earlier same-day success); success keeps the larger TRUE interval (grade-before-pull heals)
  *   · due-ness never touches stage/gameScore — the belt cannot drop because time passed
  *   · ONE due number per pane (v1.172.0): the stat cell, the Challenges band and the session
  *     header all print `dueCount()` (distinct CARDS); `bucketTechniques("due")` is a COVER of

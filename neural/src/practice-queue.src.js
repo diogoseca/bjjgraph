@@ -59,7 +59,7 @@
 // hands no moves in: a visit is at most 6 question cards. The law takes moves (`kind: "move"`) for the parity and for Stage 4.
 //
 // research: docs/Changelog-Archive.md (v1.278.0).
-import { ngRatingRecall, ngRatingQ16 } from "./rating.src.js";
+import { ngRatingRecall, ngRatingQ16, ngRatingNewerRow } from "./rating.src.js";
 
 const NG_PQ_CAP = 6;          // things asked at one position in a visit, at most (U171 a)
 const NG_PQ_EACH = 2;         // a visit's new moves at most; its new things, moves and cards, at most twice that
@@ -206,7 +206,7 @@ export function ngPracticeItems({ day, srs, stage, decks, game, seats, live } = 
       if (!ngPqRow(r)) continue;
       let q = byQ.get(qh);
       if (!q) byQ.set(qh, (q = { row: r, decks: [] }));
-      else if (r[2] > q.row[2] || (r[2] === q.row[2] && r[1] < q.row[1])) q.row = r;
+      else if (ngRatingNewerRow(r, q.row)) q.row = r;   // the cloud merge's order, the earlier due last (SRS-R1)
       q.decks.push(dk);
     }
   }

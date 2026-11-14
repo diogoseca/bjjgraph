@@ -133,8 +133,7 @@ focused mini-row first.
 
 **Recall Mode is a switch** (U163 c, v1.270.0): with `recallInPlay` on (`_recallInPlayNow`) a stage-2+
 card asks as timed recall Q/A in play; off, recognition-first MC. It prices only a question asked
-against a running CLOCK. No belt turns it on (until v1.270.0 the worn belt did from blue, and the
-black patch's mint flipped it); a belt held before the open rule ran keeps it until the player
+against a running CLOCK. No belt turns it on; a belt held before the open rule ran keeps it until the player
 chooses (`_recallCarried`, `openAt`, the fact `recallCarry`; never written into the switch). `renderChallengeCue` only removes a stale cue card. **Win chance explains itself** in the score tooltip (§4).
 
 **Technique navigation** keeps the chosen node's camera (`camFocus`), URL (`_syncUrl`),
@@ -790,7 +789,7 @@ folds), and starts nothing. The deferred sections render expanded when their pay
 because the map is written before their first render asks.
 
 **Path and Practice belt sections** (v1.248.0, U76; U163 c, v1.270.0). Every section is open:
-the belt only shows (until v1.270.0 future sections were inert, U87). In Practice, earlier belts
+the belt only shows. In Practice, earlier belts
 sit behind “Show earlier belts” at the end. The worn belt drives default
 opening and Path arrival; lesson progress still drives the next-lesson highlight. All material
 remains available through reference, lists and gameplay, and all due reviews remain eligible.
@@ -857,8 +856,9 @@ tuning knob: attempt probabilities sum to 100 on **272 of 272** role-nodes, so `
 Positions share one third of score mass, like attacking and defending technique knowledge.
 
 **Nothing about the score decays.** `deckMastery` moves only on answers — the score cannot drop
-because time passed (a failed card can lower it; it can never lower a belt, below). Retention-vs-pressure gets decided in `_schedule` (SRS intervals: *what you
-are shown*), never in what a deck is *worth*.
+because time passed (a failed card can lower it; it can never lower a belt, below). Retention-vs-pressure is the schedule's (`ngKnowledgeScheduleRow`: his ladder, 1 day to 8 years and
+doubling; an early right answer earns the share of a rung passed, a late one a rung, a miss 1 day): *what you are
+shown*, never what a deck is *worth*.
 
 **Practice is one session** (v1.278.0, U171 a). Its card comes first, the belt corridor below.
 It asks what is due first, position by position, worth most first (`practice-queue.src.js`), at most 6 a visit;
