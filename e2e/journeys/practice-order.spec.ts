@@ -128,7 +128,8 @@ for (const touch of [true, false]) {
       await expect(page.locator(row + " .ng-dr-tail"), "today's count against the goal").toHaveText("0/20")
       const title = await page.locator(row).getAttribute("title")
       expect(title, "the tooltip names no due count").not.toMatch(/due/)
-      expect(title).toMatch(/^0 answered today · /)
+      // since the merge with v1.276.0 the tooltip opens with what a tap does (#412, STAGE2-GO 7); before, "0 answered today · "
+      expect(title).toMatch(/^Start today's session · 0 answered today · /)
       const before = await settled(page)
       expect(before, "the seeded record is in storage").toContain(fx.heavy[0])
 
