@@ -18127,16 +18127,14 @@ its plan when it shows again has no one seam). The field share of touched sessio
 - Finding 4: the band is fitted again when a web font lands (`loadingdone`, `ready`); a journey forces a 70% wider face
   of the line's family at 390 (F1, the refit removed, red there).
 
-**Runs** (local, under the build lock, 14 Nov; times from `date`). On the committed head c812c1bce, 12:37 to 12:53: the
-app rows re-seeded (e12e45da0); `test:units` 1,665 of 1,665; the 26 Practice journey files with belt-row, belt-worn and
-payload-first-hand, 335 passed. `ci:validate` on e12e45da0, 12:54 to 13:02: 25 of 25. Before them, `practice-order.spec.ts`
-whole, 20 of 20 (12:33), and the four bundle mutants (12:34 to 12:35). After (c), on 8f7220116, 13:06 to 13:20: the four
-specs the band touches (practice-order, challenges-ui, practice-page, srs-due), 75 passed; L1 red at 360 and 320, 390
-green; `test:units` 1,665 of 1,665; `ci:validate` 25 of 25. The app rows are re-seeded on the committed head after it.
+**Runs** (local, under the build lock, 14 Nov; times from `date`). The last, on 26be53c5b (R409-R1), 14:26 to 15:01:
+`practice-order.spec.ts` 24 of 24 and F1 red; the app rows re-seeded (b0b58ff2b); `test:units` 1,669 of 1,669; the 26
+Practice journey files with belt-row, belt-worn and payload-first-hand, 339 passed; `ci:validate` 25 of 25. Earlier heads
+the same way (c812c1bce: 1,665 and 335; 8f7220116: the four specs the band touches, 75, and L1 red at 360 and 320).
 
-**Bytes, on dev v1.278.1** (3e39b0aa6, its own bundle built in a scratch copy; per file at gzip 9): `neural.js` +1,335 raw,
-+530 gzip; `neural.css` +35 raw, +5 gzip; `gameplan.js` +119 raw (deferred); no other file differs but the `game-*.js` by
-the mdp manifest's hash of `app.src.jsx` (same raw size, ±5 gzip). With this PR: eager gzip 364,378 (+2,491 on dev's
-361,887 baseline, this PR's +535, of a 5,000 cap); first-hand core 383,842 (+2,547 on 381,295, this PR's about +535,
-of 6,000); eager raw 1,430,124 of 1,600,000; deferred raw 521,758, its ceiling moved to exactly that in its own commit under U170 a (c812c1bce; dev's own
+**Bytes, on dev v1.278.1** (3e39b0aa6, its own bundle built in a scratch copy; per file at gzip 9): `neural.js` +2,224 raw,
++804 gzip; `neural.css` +35 raw, +5 gzip; `gameplan.js` +119 raw (deferred); the `game-*.js` differ only by the mdp
+manifest's hash of `app.src.jsx`. With this PR: eager gzip 364,652 (+2,765 on dev's 361,887 baseline, this PR's +809, of
+a 5,000 cap); first-hand core 384,111 (+2,816 on 381,295, this PR's about +809, of 6,000); eager raw 1,431,013 of
+1,600,000; deferred raw 521,758, its ceiling moved to exactly that in its own commit under U170 a (c812c1bce; dev's own
 use 521,639). Stored progress: no key, no storage call, no row rewritten (the diff adds none).
