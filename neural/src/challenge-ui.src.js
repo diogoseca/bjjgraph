@@ -65,23 +65,20 @@ const NG_CHALLENGE_UI_METHODS = {
   // "Mastered N%" subtitle moved to the badge's menu. Rules unchanged: stripes = the worn belt's
   // PROVEN UNITS (lessons done + checkpoint passed) over its unit count, 0-4 — never objectives
   // (v1.95.3: a guest must wear 0).
+  // ONE BELT IN THE DRAWER (v1.276.0, ruled STAGE2-GO 3): the woven bar under the Path row and its "N stripes" went; the
+  // drawer's "Master the game" row wears the belt (`beltWorn()`, app.src.jsx). The Path row keeps its name, its tap and its
+  // place, and says its COURSE's own progress in words: the units proven on the track it is on (`wornBelt()`, the Path's
+  // own, unchanged), "2 of 6 units", and the same in its aria. No units yet (the curriculum not in): no words.
   renderTabSubtitles() {
     const root = this.drillRef && this.drillRef.current;
     const ch = root && root.querySelector('[data-tab-sub="challenges"]');
     if (!ch) return;
     const worn = this.wornBelt();
-    const pinned = worn.id, done = worn.done, total = worn.total, stripes = worn.stripes;
-    let tape = "";
-    for (let i = 0; i < stripes; i++) tape += "<b></b>";
-    ch.textContent = stripes + (stripes === 1 ? " stripe" : " stripes");
-    const belt = root.querySelector("[data-path-belt]");
-    if (belt)
-      belt.innerHTML =
-        '<i class="ng-tab-belt" data-tab-belt="' + pinned + '" data-tab-stripes="' + stripes + '" style="--tb:' +
-        (NG_CHALLENGE_TRACK_COLORS[pinned] || NG_CHALLENGE_TRACK_COLORS.white) + ';" aria-hidden="true"><span>' + tape + "</span></i>";
+    const pinned = worn.id, done = worn.done, total = worn.total;
+    ch.textContent = total > 0 ? done + " of " + total + " units" : "";
     ch.closest("button").setAttribute(
       "aria-label",
-      "Path: " + done + " of " + total + " units proven on the " + pinned + " track, " + stripes + (stripes === 1 ? " stripe" : " stripes"),
+      total > 0 ? "Path: " + done + " of " + total + " units proven on the " + pinned + " track" : "Path",
     );
   },
 
@@ -739,14 +736,42 @@ const NG_CHALLENGE_UI_METHODS = {
         maint.type = "button";
         maint.className = "ng-maint-band";
         maint.setAttribute("data-maintenance", "1");
-        // "N DUE" LEFT THE DRAWER (owner U171 a, 13 Nov; v1.274.0): the band stays the Path's door to Practice, and says
-        // what the Practice row says, today's answers against the goal, never the size of the owed pile
+        // "N DUE" LEFT THE DRAWER (owner U171 a, 13 Nov; v1.278.0): the band stays the Path's door to the view, and says
+        // what its drawer row says, today's answers against the goal, never the size of the owed pile; in the view's name and
+        // the row's words since v1.276.0 (owner U169 c: "Master the game", "Start today's session"; app.src.jsx's constants,
+        // one scope with this file in the bundle)
         const today = goal.done + " of " + goal.goal + " today";
-        maint.setAttribute("aria-label", "Practice, " + today + " \u2014 start today's session");
+        maint.setAttribute("aria-label", NG_PRACTICE_NAME + ", " + today + " \u2014 " + NG_PRACTICE_START);
         maint.innerHTML =
           '<b>' + today + '</b>' +
           '<span>keep what you\u2019ve earned</span>' +
-          '<em>Start</em>';
+          '<em>' + NG_PRACTICE_START + '</em>';
+        // THE CHIP'S WORDS AND THE REASON LINE (R409 item 4, the orchestrator's rules of 14 Nov): the chip reads
+        // NG_PRACTICE_START where it and the line beside it both fit uncut, NG_PRACTICE_START_SHORT where they do not; and
+        // where the line cannot be whole even then, it is not shown at all, never cut with an ellipsis (the orchestrator: "reads as a
+        // fault"), the count and the chip staying whole. The aria above keeps the full words at every width. Measured at
+        // 390x631, 360x740, 320x568 and the 1440x900 drawer, the full words fit at none (the line kept 53, 26, 0 and 69 of
+        // its 127 px); with "Start" the line is whole at 390 and in the drawer, and not shown at 360 and 320 (115 and 80).
+        // Read off the laid-out band, and again when its width changes: one observer, this band only
+        if (typeof ResizeObserver === "function") {
+          maint._fit = () => {
+            const em = maint.lastChild, line = em.previousSibling, cut = () => line.scrollWidth > line.clientWidth;
+            line.hidden = false;
+            em.textContent = NG_PRACTICE_START;
+            if (cut()) em.textContent = NG_PRACTICE_START_SHORT;
+            if (cut()) line.hidden = true;
+          };
+          (this._bandFit = this._bandFit || new ResizeObserver((es) => es.forEach((e) => e.target._fit && e.target._fit()))).disconnect();
+          this._bandFit.observe(maint);
+          // AND WHEN A WEB FONT LANDS (R409-R1, the reader's finding 4): new metrics change the text, not the band's box, so the
+          // observer is not told; a line judged whole under the fallback font would be clipped mid-letter (no ellipsis now)
+          this._bandEl = maint;
+          if (document.fonts && !this._bandFonts) {
+            this._bandFonts = () => { const b = this._bandEl; if (b && b.isConnected && b._fit) b._fit(); };
+            document.fonts.addEventListener("loadingdone", this._bandFonts);
+          }
+          if (document.fonts) document.fonts.ready.then(this._bandFonts);
+        }
         maint.addEventListener("click", () => this.openDueSession());   // ONE door, one label (app.src.jsx)
         list.appendChild(maint);
         maintBand = maint;

@@ -191,11 +191,14 @@ export function ngProgressGuestMoves(account, merged) {
 // v1.270.0's first build missed `openAt` here, and a guest who only looked was told their practice was saved (PR #404's
 // CI, guest-join.spec.ts): this list is hand-maintained (CLAUDE.md §6.7), so tests/guest_join_safety.test.mjs 20 builds
 // a bare landing's blob through the app's own save, and the next key a bare landing writes fails there.
+// THE HELD LEVEL `belts.lvl` (v1.276.0) is derived too: seeded on every owner's first belt sync (a bare landing writes
+// it, at level 0) and raised from the Path and the number, both of which count on their own. Dropped here; the test
+// above (20) builds the bare landing through the app's own save, and a unit pins that it holds the value.
 export const NG_PROGRESS_TRAIL_CHALLENGES = Object.freeze(["white.coach1", "white.coach2", "white.coach3"]);
 export function ngProgressPracticeKey(blob) {
   const b = ngProgressGuestPart(blob);
   delete b.explored; delete b.tut; delete b.recallCarry;
-  if (ngProgressObject(b.belts)) delete b.belts.gf;
+  if (ngProgressObject(b.belts)) { delete b.belts.gf; delete b.belts.lvl; }
   if (ngProgressObject(b.challenges)) for (const id of NG_PROGRESS_TRAIL_CHALLENGES) delete b.challenges[id];
   return ngProgressCloudKey(b);
 }

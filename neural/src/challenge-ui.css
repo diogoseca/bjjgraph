@@ -160,45 +160,8 @@
 }
 
 /* the woven score-belt CSS (meter, rank bar, tape, band road) left with its renderer
-   (v1.98.1) — see git history at v1.96.0. The corridor rails and .ng-tab-belt carry the
-   belt craft now. */
-
-/* the Challenges tab's miniature belt — the PINNED track's color (--tb) with a dark rank
-   sleeve wearing 0-4 tape stripes from that track's PROVEN UNITS fraction (v1.95.3 —
-   checkpoint-passed units, not objectives: a casual guest wears 0). This is LADDER
-   progress; the woven knowledge belt is the SCORE. Two meters. Width is deliberately
-   generous (owner: "a lot wider") — 76px still fits a ~103px tab column at 390px. */
-.ng-tab-belt {
-  display: inline-flex;
-  justify-content: flex-end;
-  width: 76px;
-  height: 9px;
-  overflow: hidden;
-  border-radius: 2px;
-  background: var(--tb, #d8dde8);
-  box-shadow:
-    inset 0 0 0 1px rgba(0, 0, 0, 0.38),
-    inset 0 1px 1px -1px rgba(255, 255, 255, 0.5);
-}
-
-/* the dark rank sleeve. 30px -> 20px (owner, v1.137.0: "about 30% narrower", rounded to a
-   round number): at 30 it read as a black block wearing a belt; at 20 the belt reads as the
-   belt and the sleeve as its trim. Four 3px stripes + three 3px gaps = 21px, so a full tape
-   fills it edge to edge by design — do not narrow further without shrinking the stripes. */
-.ng-tab-belt > span {
-  display: flex;
-  justify-content: center;
-  gap: 3px;
-  width: 20px;
-  margin-right: 7px;
-  background: #17171b;
-}
-
-.ng-tab-belt > span > b {
-  flex: none;
-  width: 3px;
-  background: linear-gradient(180deg, #f6f3ea, #bdb6a4);
-}
+   (v1.98.1) — see git history at v1.96.0. The Path row's miniature belt (.ng-tab-belt) left with
+   its renderer in v1.276.0: the drawer's "Master the game" row wears the one belt (.ng-belt, helmet.html). */
 
 .ng-explorer-tools {
   display: flex;
@@ -262,6 +225,7 @@
   font: 800 12.5px/1 "Plus Jakarta Sans", sans-serif;
 }
 
+/* never an ellipsis (R409 item 4): the band's observer shows the line whole or not at all (challenge-ui.src.js) */
 .ng-maint-band > span {
   flex: 1;
   min-width: 0;
@@ -269,12 +233,17 @@
   color: #9c8b6b;
   font-size: 10.5px;
   line-height: 1.2;
-  text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.ng-maint-band > span[hidden] {
+  display: none;
 }
 
 .ng-maint-band > em {
   flex: none;
+  /* the chip keeps the band's right edge when the line is not shown */
+  margin-left: auto;
   padding: 5px 11px;
   border: 1px solid rgba(214, 164, 90, 0.42);
   border-radius: 8px;

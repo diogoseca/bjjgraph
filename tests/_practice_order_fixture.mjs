@@ -1,4 +1,4 @@
-// WHAT IS WORTH MOST: THE SHARED SEEDED PLAYER (v1.274.0, U171 a) — read by e2e/journeys/practice-order.spec.ts and the
+// WHAT IS WORTH MOST: THE SHARED SEEDED PLAYER (v1.278.0, U171 a) — read by e2e/journeys/practice-order.spec.ts and the
 // owner's pictures (tests/artifacts/_order_shoot.mjs), so the journey and the pictures show one player. Not a test file:
 // `node --test tests/*.test.mjs` does not collect it.
 //
@@ -41,6 +41,25 @@ export function orderFixture(dir, day = ORDER_DAY) {
   return { day, heavy, light, blob: { v: 2, srs, stage } };
 }
 
+/** ANKI1-R1, the reader's finding 4: a player whose due cards sit at ONE position, eight of them missed yesterday, so the
+ *  law visits it twice (6, then 2) and the page folds the second visit into the first: one position showing all eight.
+ *  The position deck the gi game weighs most a card with eight cards of its own (most have eight); chosen by rule, as above. */
+export function secondVisitFixture(dir, day = ORDER_DAY) {
+  const j = (f) => JSON.parse(readFileSync(resolve(dir, f), "utf8"));
+  const wire = j("graph-data.json"), curriculum = j("curriculum.json"), manifest = j("flashcards/_index.json");
+  const w = ngWireScoreWeights(curriculum, "gi", wire.nodes).w;
+  const cards = {};
+  for (const f of readdirSync(resolve(dir, "flashcards")).sort()) if (f !== "_index.json" && !f.startsWith("live-")) Object.assign(cards, JSON.parse(readFileSync(resolve(dir, "flashcards", f), "utf8")));
+  const shared = new Set(Object.keys(manifest.shared || {}));
+  const own = (dk) => (cards[dk] ? cards[dk].cards : []).map((c) => ngKnowledgeQuestionHash(c.q)).filter((q) => !shared.has(q));
+  const unit = (k) => w[k] / cards[k].cards.length;
+  const deck = Object.keys(w).filter((k) => /\|(Top|Bottom)$/.test(k) && w[k] > 0 && cards[k] && own(k).length >= 8)
+    .sort((a, b) => unit(b) - unit(a) || (a < b ? -1 : 1))[0];
+  const srs = { [deck]: {} }, stage = { [deck]: {} };
+  own(deck).slice(0, 8).forEach((h) => { srs[deck][h] = [day, 1, day - 1]; stage[deck][h] = 0; });
+  return { day, deck, blob: { v: 2, srs, stage } };
+}
+
 /** STAGE3-R1, the reader's finding 2: the same player, with one owed card of a position the plan asks LATER made the oldest
  *  debt of all, so the cold queue (oldest first) opens on a deck the plan holds after its first position. Chosen by the
  *  planner itself (the app built the census way, `tests/_rating_fixture.mjs`), never by a typed key. */
@@ -76,4 +95,28 @@ export async function unpricedOwedFixture(dir, day = ORDER_DAY) {
   const qh = ngKnowledgeQuestionHash(cards[deck].cards[0].q);
   blob.srs[deck] = { [qh]: [day - 2, 3, day - 5] }; blob.stage[deck] = { [qh]: 1 };
   return { ...fx, blob, unpriced: deck };
+}
+
+/** R409, the reader's finding 1: a player whose THREE CARDS DUE LONGEST are light (one card in each of the 3 position decks
+ *  the gi game weighs least a card, due 200 days ago) behind a pile the heavy positions fill the 20 with (one card missed
+ *  yesterday in each of the 30 it weighs most). Worth alone never reaches the light three: only the guard asks them, and it
+ *  can take them only when each is KNOWN to be answerable (its deck loaded, or the rating's live set in hand). No card is
+ *  shared, so with no deck loaded and no set the guard holds nothing. Chosen by rule, as above. */
+export function guardFixture(dir, day = ORDER_DAY) {
+  const j = (f) => JSON.parse(readFileSync(resolve(dir, f), "utf8"));
+  const wire = j("graph-data.json"), curriculum = j("curriculum.json"), manifest = j("flashcards/_index.json");
+  const w = ngWireScoreWeights(curriculum, "gi", wire.nodes).w;
+  const cards = {};
+  for (const f of readdirSync(resolve(dir, "flashcards")).sort()) if (f !== "_index.json" && !f.startsWith("live-")) Object.assign(cards, JSON.parse(readFileSync(resolve(dir, "flashcards", f), "utf8")));
+  const shared = new Set(Object.keys(manifest.shared || {}));
+  const own = (dk) => (cards[dk] ? cards[dk].cards : []).map((c) => ngKnowledgeQuestionHash(c.q)).filter((q) => !shared.has(q));
+  const unit = (k) => w[k] / cards[k].cards.length;
+  const seats = Object.keys(w).filter((k) => /\|(Top|Bottom)$/.test(k) && w[k] > 0 && cards[k] && own(k).length >= 1)
+    .sort((a, b) => unit(b) - unit(a) || (a < b ? -1 : 1));
+  const heavy = seats.slice(0, 30), light = seats.slice(-3);
+  const srs = {}, stage = {};
+  for (const dk of heavy) { const h = own(dk)[0]; srs[dk] = { [h]: [day, 1, day - 1] }; stage[dk] = { [h]: 0 }; }
+  const oldest = light.map((dk) => own(dk)[0]);
+  light.forEach((dk, i) => { srs[dk] = { [oldest[i]]: [day - 200, 7, day - 207] }; stage[dk] = { [oldest[i]]: 1 }; });
+  return { day, heavy, light, oldest, blob: { v: 2, srs, stage } };
 }

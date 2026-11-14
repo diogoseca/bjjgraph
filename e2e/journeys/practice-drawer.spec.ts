@@ -96,7 +96,7 @@ for (const vp of [{ width: 390, height: 844 }, { width: 768, height: 1024 }, { w
     const path = await drawer(page);
     await j.clickByMouse(".ng-drawer-brand", "‹ Path, home");
     await openPractice(page, j);
-    await expect(page.locator(".ng-drawer-brand"), "the brand names Practice, as it names Path").toHaveText("‹ Practice");
+    await expect(page.locator(".ng-drawer-brand"), "the brand names the view, as it names Path").toHaveText("‹ Master the game");   // before: "‹ Practice" (v1.276.0, owner U169 c)
     const practice = await drawer(page);
     await page.keyboard.press("ArrowDown"); // the next technique: the drawer does not move as the session pages
     await expect.poll(() => page.evaluate(() => (window as any).__neural._session.idx)).toBe(1);
@@ -138,7 +138,7 @@ test("PD2: 1440×900 each card's technique is flown to the free map beside the d
     await j.advance(3500);
     const at = await glass(), where = JSON.stringify(at);
     expect(at.idx, "the card in view is the one paged to").toBe(step);
-    // until v1.274.0: "Practice opens on the most overdue review" (the seeded due[0]); it now opens on the plan's first row,
+    // until v1.278.0: "Practice opens on the most overdue review" (the seeded due[0]); it now opens on the plan's first row,
     // the position worth most (U171 a). This test's subject is the camera, which follows whichever card is open.
     if (step === 0) expect(at.key, "Practice opens on the plan's first row").toBe(await page.evaluate(() => (window as any).__neural._session.plan.queue[0]));
     else expect(at.node, "the next technique is another orb").not.toBe(seen[0]);
@@ -165,11 +165,11 @@ test("PD3: ‹ Practice is Practice's one Back; a deck study keeps its own", asy
   await openPractice(page, j);
   const backs = () => page.evaluate(() => [...document.querySelectorAll("[data-pane-back]")].map((e) => ({
     brand: e.classList.contains("ng-drawer-brand"), text: (e.textContent || "").trim(), shown: e.getClientRects().length > 0 })));
-  expect(await backs(), "PD3: one Back on screen, and it is the brand").toEqual([{ brand: true, text: "‹ Practice", shown: true }]);
+  expect(await backs(), "PD3: one Back on screen, and it is the brand").toEqual([{ brand: true, text: "‹ Master the game", shown: true }]);   // before: "‹ Practice"
   await j.clickByMouse("[data-pane-back]", "‹ Practice");
   await expect(page.locator("[data-drawer-explore]"), "PD3: Back returns to the list it was opened from").toBeVisible();
   await expect(page.locator(PRACTICE), "PD3: the opener has the focus back").toBeFocused();
-  await expect(page.locator(".ng-drawer-brand")).not.toHaveText("‹ Practice");
+  await expect(page.locator(".ng-drawer-brand")).not.toHaveText("‹ Master the game");   // before: "‹ Practice"
   expect(await backs(), "PD3: the brand gives the marker back").toEqual([]);
   await page.evaluate((key) => (window as any).__neural.openStudy(key), deck.key);
   await expect(page.locator("[data-drawer-explore]"), "a deck study owns the body").toBeHidden();
@@ -230,7 +230,7 @@ for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { wi
     expect(due[1].d, "the longest authored explanation").toBeGreaterThanOrEqual(1000);
     await j.clickByMouse(".ng-logo", "open the drawer");
     await openPractice(page, j);
-    // Until v1.274.0 the two owed longest cards opened the queue (most overdue first). The day's queue is now what is worth
+    // Until v1.278.0 the two owed longest cards opened the queue (most overdue first). The day's queue is now what is worth
     // most (U171 a), so the two decks are appended to the session through Practice's own append (the seam "Keep
     // practising" and a Path lesson use), and each is opened by its button in the session queue, the way a player reaches
     // a later row.

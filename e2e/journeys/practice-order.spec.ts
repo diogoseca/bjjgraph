@@ -2,7 +2,7 @@ import { expect, test, type Page } from "@playwright/test"
 import { resolve } from "node:path"
 import { journey } from "../dsl"
 
-/** WHAT IS WORTH MOST (v1.274.0, the owner, 13 Nov 2026, U171 a): "what comes up most in rolls and what you are closest to
+/** WHAT IS WORTH MOST (v1.278.0, the owner, 13 Nov 2026, U171 a): "what comes up most in rolls and what you are closest to
  * forgetting, position by position … at most 6 per position; every answer counts 1 toward 20 … the 'N due' count leaves the
  * drawer, today's count out of 20 stays." And his Anki rule (ANKI1): "we only add new cards if there's no due cards left to
  * be reviewed": the 20 are due cards, worth most first, the 3 due longest always among them; a new card only when nothing
@@ -20,8 +20,8 @@ import { journey } from "../dsl"
  *   · paging the queue and "Keep practising" without answering store NOTHING: every localStorage key and value is
  *     byte-identical (the pattern of rating-reader.spec.ts);
  *   · a record with no answer in it is never read as a worth session: today's order serves it, and says so once.
- * MUTANTS (v1.274.0), each built into the bundle (`npm run dev:neural:app`) and run against this file under the lock; the
- * table is in docs/Changelog-Archive.md (v1.274.0):
+ * MUTANTS (v1.278.0), each built into the bundle (`npm run dev:neural:app`) and run against this file under the lock; the
+ * table is in docs/Changelog-Archive.md (v1.278.0):
  *   P1 the cold oldest-first queue kept in front of the worth plan (`_practiceAppend`)   → "the session is the plan's queue"
  *   P2 the "N due" pill back on the row                                                  → "the row: today's count, no due"
  *   P3 oldest first restored in the law                                                  → "Practice opens on the planner's first position"
@@ -36,11 +36,27 @@ import { journey } from "../dsl"
  * ANKI1 (the owner's Anki rule), built the same way:
  *   A1 a new card while something is due (new cards ride in a position's visit again)   → "24 cards are due: the 20 are due cards, none new"
  *   A2 the guard removed (worth alone)                                                   → "the one card left is the one due longest"
+ * ANKI1-R1 (the reader's finding 4), built the same way:
+ *   V1 the per-visit cap ignored (a position asked whole)                                → "at most 6 a visit"
+ *   V2 a second visit shown as its own position (the fold removed)                        → "the page folds them into one position…"
  * NON-KILL (STAGE3-R2, recorded so this file is not read as covering it): S7, the next round's positions not renumbered,
  * leaves "the queue's position numbers, after the next round" GREEN here, 2 of 2 (17:32, 13 Nov): this player's next round
  * brings no position whose decks the first round already holds, so there is no gap to make. The claim is pinned by
  * tests/practice_page.test.mjs ("Keep practising numbers the positions the player sees without a gap"), on the reader's
  * twelve-deck record, where S7 is red; the assertion here stays as a net on the built page.
+ * R409 (the reader's delta read of 946465b77):
+ *   · finding 2: "the dot is lit…" claimed "the one card left is the one due longest" with nothing waiting for the rating's
+ *     live set, so it held only because the belt row's check happened to land before the Practice tap. It now waits for the
+ *     belt row's reading to be final (`data-belt-state="ok"`: what a player sees when the set lands); the assertion is unchanged.
+ *   · finding 1: "the guard holds when the live set lands after the tap" HOLDS the live files (the DSL's delay layer) past the tap:
+ *     untouched, the session takes its plan again (the 3 due longest in the 20, the same first row); touched (a card turned),
+ *     the plan is unchanged and one `neural_practice_unguarded` says so. The session's arithmetic, the failed and ended
+ *     cases and the once rule are tests/practice_page.test.mjs's (mutants G3 to G6 there).
+ *   · R409-6: "a record with no answer…" pins the fold's button reading "More new cards · …" in today's order too.
+ *   · item 4: "the dot is lit…" pins the Path band's chip: "Start" where the full words and the line beside it do not both
+ *     fit (390, the 1440 drawer), the full words where they do (the band widened), the line whole, the aria full; "the
+ *     Path band at WxH" pins the reason line whole (390x631) or not shown at all (360x740, 320x568), never an ellipsis;
+ *     "…fitted again when a web font lands" pins the refit on a font (R409-R1, finding 4).
  * NOT COVERED here: the order's arithmetic (the unit suite and its 15 mutants), no-gi on a page (the unit reads both
  * rulesets; a ruleset flip writes a setting, so it cannot share the byte-identity claim), and answering (grading writes the
  * record by design; the planner's completion rule is the unit suite's).
@@ -66,10 +82,10 @@ async function press(page: Page, selector: string, what: string, touch: boolean)
   else await page.mouse.click(at.x, at.y)
 }
 
-async function boot(page: Page, day: number, initialState?: Record<string, unknown>) {
+async function boot(page: Page, day: number, initialState?: Record<string, unknown>, extra: Record<string, unknown> = {}) {
   await page.addInitScript((d) => { (window as W).__NG_EPOCH_DAY__ = d }, day)
   const j = journey(page)
-  await j.boot("/", initialState ? { initialState } : {})
+  await j.boot("/", { ...(initialState ? { initialState } : {}), ...extra })
   await expect.poll(() => page.evaluate(() => {
     const a = (window as W).__neural
     return !!(a && a.nodes && a.nodes.length && a.flashcards && a.flashcards.decks && Object.keys(a.flashcards.decks).length && a.curriculum)
@@ -125,7 +141,8 @@ for (const touch of [true, false]) {
       await expect(page.locator(row + " .ng-dr-tail"), "today's count against the goal").toHaveText("0/20")
       const title = await page.locator(row).getAttribute("title")
       expect(title, "the tooltip names no due count").not.toMatch(/due/)
-      expect(title).toMatch(/^0 answered today · /)
+      // since the merge with v1.276.0 the tooltip opens with what a tap does (#412, STAGE2-GO 7); before, "0 answered today · "
+      expect(title).toMatch(/^Start today's session · 0 answered today · /)
       const before = await settled(page)
       expect(before, "the seeded record is in storage").toContain(fx.heavy[0])
 
@@ -135,17 +152,17 @@ for (const touch of [true, false]) {
         const a = (window as W).__neural, s = a._session, p = s.plan, fresh = a.planSummary()
         return { keys: s.keys.slice(), queue: p.queue.slice(), again: fresh.queue.slice(), visits: p.visits.map((v: W) => ({ seat: v.seat, keys: v.keys.slice() })),
           rows: p.due.concat(p.fresh).map((r: W) => ({ key: r.key, seat: r.seat, visit: r.visit, count: r.count, owed: (r.owed || []).length })),
-          dom: [...document.querySelectorAll("[data-session] [data-session-row]")].map((r) => r.getAttribute("data-session-row")), newCards: p.newCards }
+          dom: [...document.querySelectorAll("[data-session] [data-session-row]")].map((r) => r.getAttribute("data-session-row")), newCards: p.newCards,
+          lawVisits: p.counts.lawVisits }
       })
       // the session is the plan's queue
       expect(s.keys, "the session holds exactly the plan's rows, in its order: no oldest-first debt in front").toEqual(s.queue)
       expect(s.again, "and the plan is the planner's own, asked again").toEqual(s.queue)
       expect(s.dom, "the page mounts the rows in that order").toEqual(s.keys)
       expect(new Set(s.keys).size, "one row per deck").toBe(s.keys.length)
-      for (const v of s.visits) {
-        const n = s.rows.filter((r: W) => v.keys.includes(r.key)).reduce((m: number, r: W) => m + r.count, 0)
-        expect(n, `${v.seat}: at most 6 cards at a position`).toBeLessThanOrEqual(6)
-      }
+      // at most 6 a VISIT (ANKI1-R1, the reader's finding 4): the page folds a position's second visit into its first, so a
+      // page position may show more (the test below); until then this read "at most 6 cards at a position" off the page
+      for (const [seat, n] of s.lawVisits) expect(n, `${seat}: at most 6 a visit`).toBeLessThanOrEqual(6)
       // ANKI1: 24 are due, so the 20 are due cards and no new card comes (until ANKI1: "at least 4 new")
       expect([s.rows.reduce((m: number, r: W) => m + r.owed, 0), s.newCards], "24 cards are due: the 20 are due cards, none new").toEqual([20, 0])
       // Practice opens on the planner's first position, not on the oldest debt: the light decks' cards are a month overdue
@@ -168,7 +185,7 @@ for (const touch of [true, false]) {
         await expect(page.locator("[data-practice-section]")).toHaveText(`${r.seat ? dot(r.seat) : "Other cards"} · position ${r.visit + 1} of ${s.visits.length}`)
         await clean(page, "Next technique")
       }
-      // "More new cards" (until v1.274.0 "Keep practising · more new cards") still adds today's ranked new techniques after the
+      // "More new cards" (until v1.278.0 "Keep practising · more new cards") still adds today's ranked new techniques after the
       // day's positions; a row it adds is named apart, never numbered (STAGE3-R1, finding 3)
       const more = await page.evaluate(() => Math.min(10, (window as W).__neural._session.plan.more.length))
       expect(more, "there is more to add").toBeGreaterThan(0)
@@ -186,7 +203,29 @@ for (const touch of [true, false]) {
       expect(await storage(page), "every localStorage key and value is byte-identical after opening, paging and Keep practising").toBe(before)
     })
 
-    // FOLD1 (v1.274.0, the orchestrator's check on the preview): on a slow connection a player can open "Practice details &
+    // ANKI1-R1 (the reader's finding 4): eight cards due at one position. The law asks them in two visits (6, then 2: a
+    // position comes round again while its cards are due), and the page folds the second into the first: one position showing
+    // all eight, its heading "position 1 of N". The rule is per visit; the page's position holds every card the law asked there.
+    test(`a position the law visits twice is one position on the page, with all its cards (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      const { secondVisitFixture } = await import("../../tests/_practice_order_fixture.mjs")
+      const fx = secondVisitFixture(SERVED)
+      await boot(page, fx.day, fx.blob)
+      await press(page, ".ng-logo", "open the drawer", touch)
+      await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
+      await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      const s = await page.evaluate((deck: string) => {
+        const p = (window as W).__neural._session.plan, row = p.due.concat(p.fresh).find((r: W) => r.key === deck)
+        return { lawVisits: p.counts.lawVisits, first: p.visits[0].seat, positions: p.visits.length, owed: row ? row.owed.length : 0, visit: row ? row.visit : null }
+      }, fx.deck)
+      expect(s.lawVisits.slice(0, 2), "the law visits the position twice: 6, then 2").toEqual([[fx.deck, 6], [fx.deck, 2]])
+      for (const [seat, n] of s.lawVisits) expect(n, `${seat}: at most 6 a visit`).toBeLessThanOrEqual(6)
+      expect([s.first, s.visit, s.owed], "the page folds them into one position, the first, with all eight").toEqual([fx.deck, 0, 8])
+      expect(s.positions, "a position the law visits twice is counted once").toBe(new Set(s.lawVisits.map((v: W) => v[0])).size)
+      await expect(page.locator("[data-practice-section]"), "its heading counts it once").toHaveText(`${dot(fx.deck)} · position 1 of ${s.positions}`)
+      await clean(page, "opening a position visited twice")
+    })
+
+    // FOLD1 (v1.278.0, the orchestrator's check on the preview): on a slow connection a player can open "Practice details &
     // session queue" while the eager queue shows; the plan landing re-rendered the queue and the fold snapped shut under
     // them. The planner's file is held here as srs-due.spec.ts holds it; the fold is opened by a real tap or click; released,
     // the plan lands, and the fold is still open and shows the plan's rows. Opening the fold is reading, not answering, so
@@ -311,9 +350,32 @@ for (const touch of [true, false]) {
       expect((await state()).owed, "premise: cards owed").toBeGreaterThan(0)
       await expect(dot, "the dot: lit one answer short of the goal").toBeVisible()
       await press(page, ".ng-logo", "open the drawer", touch)
+      // R409 (the reader's finding 2): the guard's claim below needs the rating's live set in hand at the Practice tap (no deck
+      // is loaded, so only the set says the light card is answerable). Until R409 nothing here waited for it, and the claim
+      // held only because the belt row's check happened to land before the tap. Now the journey waits for what a player can
+      // see when it lands: the belt row's reading, final (`data-belt-state="ok"`). The set landing AFTER the tap is the test
+      // "the guard holds when the live set lands after the tap" below.
+      await expect(page.locator("[data-belt-row]"), "the live set is in: the belt row's reading is final").toHaveAttribute("data-belt-state", "ok", { timeout: 30_000 })
       // the Path's band follows the dot's rule (STAGE3-R1): there one answer short of the goal
       await press(page, '[data-explore-stats] [data-view="challenges"]', "the Path row", touch)
       await expect(page.locator("[data-maintenance] b"), "the Path's band: there one answer short of the goal").toHaveText("19 of 20 today")
+      // in the view's name and the drawer row's words since v1.276.0 (owner U169 c), pinned here: nothing else reads them
+      // THE CHIP'S WORDS (R409 item 4, the orchestrator's rule): "Start today's session" only where it and the line beside it
+      // ("keep what you've earned") both fit uncut, "Start" where they do not. Measured, they fit neither at 390 nor in the
+      // 1440 drawer, so the chip says "Start" and the line is whole; the band widened shows the full words, the line still
+      // whole; back to its width, "Start" again. Until R409 the chip said the full words everywhere and cut the line to 53
+      // px of its 127 at 390. The aria keeps the full words at every width.
+      const band = () => page.evaluate(() => {
+        const b = document.querySelector("[data-maintenance]") as HTMLElement, line = b.querySelector("span") as HTMLElement
+        return { chip: b.querySelector("em")!.textContent, cut: line.scrollWidth > line.clientWidth }
+      })
+      const widen = (w: string) => page.evaluate((x) => { (document.querySelector("[data-maintenance]") as HTMLElement).style.width = x }, w)
+      await expect.poll(band, { message: "the band's words: what a tap does, and the line whole" }).toEqual({ chip: "Start", cut: false })
+      await widen("560px")
+      await expect.poll(band, { message: "room for both: the full words, the line whole" }).toEqual({ chip: "Start today's session", cut: false })
+      await widen("")
+      await expect.poll(band, { message: "back to the drawer's width: Start again" }).toEqual({ chip: "Start", cut: false })
+      await expect(page.locator("[data-maintenance]"), "the band's name, the full words").toHaveAttribute("aria-label", "Master the game, 19 of 20 today \u2014 Start today's session")
       await press(page, ".ng-drawer-brand", "‹ Path, home", touch)
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
@@ -364,6 +426,160 @@ for (const touch of [true, false]) {
       expect(r.beats, "the fallback is named, once").toEqual(["empty"])
       expect(r.rows.length, "and it still serves a session").toBeGreaterThan(0)
       expect(r.rows.every((k: string) => k === "new"), "of new cards").toBe(true)
+      // R409-6 (the orchestrator, seen live on the preview at 10:40, 14 Nov): the fold's button is one button with one label
+      // in both orders; here it read "Keep practising · more new cards" while the worth session read "More new cards · …"
+      await expect(page.locator("[data-plan-more]"), "the fold's button, as in a worth session").toHaveText(/^More new cards \u00b7 (weakest first|ranked by your study comparison)/)
+    })
+
+    // THE GUARD AND THE LIVE SET (R409, the reader's finding 1). The rating's live files are HELD by the harness until after
+    // the Practice tap, so the plan is taken without them: no deck is loaded and this player's cards are unshared, so the
+    // guard knows none of them answerable (tests/_practice_order_fixture.mjs, `guardFixture`: three light cards due 200
+    // days ago behind thirty heavy misses). Released UNTOUCHED, the session takes its plan again, once: the three due longest
+    // are in the 20, on the same first position, and the explanation says so. TOUCHED first (a card turned), it keeps its
+    // plan, rows and cards, and one `neural_practice_unguarded` says so (counts and a reason word only).
+    for (const touched of [false, true]) test(`the guard holds when the live set lands after the tap: ${touched ? "touched, the plan stays" : "untouched, the plan is taken again"} (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      const { guardFixture } = await import("../../tests/_practice_order_fixture.mjs")
+      const fx = guardFixture(SERVED)
+      // the PostHog boundary as the loader leaves it (a queue array; .claude/rules/traps-playwright.md, path-visit-telemetry)
+      await page.addInitScript(() => { const q: W = (window as W).posthog = []; q.capture = (...args: W[]) => q.push(["capture", ...args]) })
+      // the DSL's delay layer holds the live files (`flashcards/live-<i>.json?live=<fingerprint>`; a plain pattern is a URL
+      // substring, and a starred one is anchored at the end, which the query would defeat) until `releasePayload`
+      const LIVE = "flashcards/live-"
+      const j = await boot(page, fx.day, fx.blob, { payloads: { [LIVE]: { never: true } } })
+      const held = () => j.payloadTimeline().filter((e) => e.url.includes(LIVE))
+      await press(page, ".ng-logo", "open the drawer", touch)
+      await expect.poll(() => held().length, { message: "the drawer asks for the live files, and the harness holds them" }).toBeGreaterThan(0)
+      await expect(page.locator("[data-belt-row]"), "so the belt row's reading waits").toHaveAttribute("data-belt-state", "wait")
+      await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
+      await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      const read = () => page.evaluate((oldest: string[]) => {
+        const a = (window as W).__neural, s = a._session, p = s.plan
+        return { live: a._ratingLiveNow()?.status, guarded: p.guarded, asked: oldest.filter((q) => p.dueQuestions.includes(q)).length, due: p.dueQuestions.length,
+          keys: s.keys.slice(), idx: s.idx, rows: JSON.stringify(p.due.concat(p.fresh).map((r: W) => [r.key, r.questions])), owed: p.counts.law.owed,
+          openRow: s.keys[s.idx], card: document.querySelector('[data-session-row][aria-expanded="true"] + div [data-mini-q]')?.textContent || null,
+          dom: [...document.querySelectorAll("[data-session] [data-session-row]")].map((r) => r.getAttribute("data-session-row")),
+          why: document.querySelector("[data-gameplan-summary] details > p")?.textContent || "",
+          events: [...(window as W).posthog].filter((c: W) => c[0] === "capture" && c[1] === "neural_practice_unguarded").map((c: W) => c[2]) }
+      }, fx.oldest)
+      const before = await read(), heading = await page.locator("[data-practice-section]").textContent()
+      expect([before.live, before.guarded, before.asked, before.due], "taken at the tap without the set: no guard, the three due longest not asked").toEqual(["checking", false, 0, 20])
+      expect(before.why, "and the explanation does not claim the guard").not.toContain("The three cards due longest")
+      expect(before.dom, "the page mounts the plan's rows").toEqual(before.keys)
+      const open = '[data-session-row][aria-expanded="true"] + div'
+      await expect(page.locator(open + " [data-mini-reveal]:visible"), "the open card is up").toHaveCount(1, { timeout: 10_000 })
+      // where the player is reading (untouched: the queue's fold opened and scrolled to, which is not a touch of the plan)
+      const foldTop = () => page.evaluate(() => Math.round(document.querySelector("[data-practice-details]")!.getBoundingClientRect().top))
+      if (!touched) await press(page, "[data-practice-details] > summary", "Practice details & session queue", touch)
+      const readingAt = await foldTop(), readingCard = (await read()).card
+      if (touched) await press(page, open + " [data-mini-reveal]", "Reveal", touch)
+      expect(held().every((e) => e.releasedAtMs == null), "still held at the tap and after it").toBe(true)
+      j.releasePayload(LIVE)
+      await expect.poll(() => page.evaluate(() => !!(window as W).__neural._session?.guardSettled), { timeout: 30_000, message: "the set lands and the session settles" }).toBe(true)
+      expect(held().every((e) => e.releasedAtMs != null), "released after the tap").toBe(true)
+      if (!touched) {
+        await expect.poll(async () => (await read()).guarded, { message: "the plan is taken again" }).toBe(true)
+        const after = await read()
+        expect([after.live, after.asked, after.due], "the three due longest are in the 20").toEqual(["ok", 3, 20])
+        expect(after.dom, "the page mounts the new plan's rows").toEqual(after.keys)
+        expect(fx.light.every((k: string) => after.dom.includes(k)), "their rows are on the page").toBe(true)
+        // THE CARD ON SCREEN NEVER CHANGES under an untouched player (R409-R1): the same open row, the same question
+        expect(readingCard, "premise: a card is on screen").not.toBeNull()
+        expect([after.openRow, after.card], "the open row and the card the player reads").toEqual([before.openRow, readingCard])
+        await expect(page.locator("[data-practice-section]"), "under the same heading").toHaveText(heading || "")
+        expect(after.why, "and now the explanation says so").toContain("The three cards due longest come every day")
+        expect(after.events, "taken again: no event").toEqual([])
+        // NOTHING MOVES BUT WHAT THE PLAN CHANGES: the fold the player reads stays where it was (it moved 30 px before the
+        // scroll was kept), and the open card, the same card, is not faded in a second time
+        expect(await foldTop(), "the fold the player reads has not moved").toBe(readingAt)
+        expect(await page.locator("[data-practice-details]").evaluate((d: W) => d.open), "and is still open").toBe(true)
+        const cardIn = await page.evaluate((o) => (document.querySelector(o + " [data-mini-deck]") as HTMLElement | null)?.style.cssText ?? null, open)
+        expect(cardIn, "the open card is on the page").not.toBeNull()
+        expect(cardIn, "laid out again in place, not faded in").not.toContain("ngCardIn")
+      } else {
+        await expect.poll(async () => (await read()).events.length, { message: "one event" }).toBe(1)
+        const after = await read()
+        expect(after.live, "premise: the set landed").toBe("ok")
+        expect([after.keys, after.rows, after.dom], "the plan it took: the same rows and cards, in the same order").toEqual([before.keys, before.rows, before.dom])
+        expect([after.guarded, after.asked], "still without the guard").toEqual([false, 0])
+        expect(after.why, "and the explanation still does not claim it").not.toContain("The three cards due longest")
+        expect(after.events, "counts and a reason word only").toEqual([{ variant: "neural", reason: "touched", short: 3, owed: before.owed }])
+      }
+      await clean(page, "the live set landing")
     })
   })
 }
+
+// THE PATH BAND AT PHONE WIDTHS (R409 item 4, the orchestrator's rule of 14 Nov, after the 360 picture: "keep what you
+// have ea… with an ellipsis reads as a fault"). Where the reason line cannot be whole beside the chip it is not shown at
+// all, never cut; the count and the chip stay whole, the chip reading "Start" (the full words fit at none of these), the
+// aria the full words. With this player ("19 of 20 today", the dot test's): the line whole at 390x631, not shown at
+// 360x740 and 320x568, where even beside "Start" it kept 115 and 80 of its 127 px.
+// MUTANT (R409): L1 the line left cut (`line.hidden` never set) → red here at 360x740 and 320x568.
+for (const [w, h, shown] of [[390, 631, true], [360, 740, false], [320, 568, false]] as const) {
+  test.describe(`the Path band at ${w}x${h}`, () => {
+    test.use({ hasTouch: true, isMobile: true, viewport: { width: w, height: h } })
+    test(`the Path band at ${w}x${h}: the reason line ${shown ? "whole" : "not shown"}, the count and the chip whole`, async ({ page }) => {
+      const { orderFixture } = await import("../../tests/_practice_order_fixture.mjs")
+      const fx = orderFixture(SERVED)
+      const blob = JSON.parse(JSON.stringify(fx.blob))
+      blob.srs["Seed|Top"] = Object.fromEntries(Array.from({ length: 19 }, (_, i) => ["today" + i, [fx.day + 1, 1, fx.day]]))
+      await boot(page, fx.day, blob)
+      await press(page, ".ng-logo", "open the drawer", true)
+      await press(page, '[data-explore-stats] [data-view="challenges"]', "the Path row", true)
+      await expect(page.locator("[data-maintenance] b"), "premise: the band, one answer short of the goal").toHaveText("19 of 20 today")
+      const read = () => page.evaluate(() => {
+        const band = document.querySelector("[data-maintenance]") as HTMLElement, br = band.getBoundingClientRect()
+        const part = (el: HTMLElement) => {
+          const r = el.getBoundingClientRect(), cs = getComputedStyle(el)
+          return { shown: cs.display !== "none" && r.width > 0, whole: el.scrollWidth <= el.clientWidth && r.left >= br.left - 0.5 && r.right <= br.right + 0.5,
+            text: el.textContent, ellipsis: cs.textOverflow === "ellipsis" }
+        }
+        return { count: part(band.querySelector("b")!), line: part(band.querySelector("span")!), chip: part(band.querySelector("em")!) }
+      })
+      await expect.poll(async () => { const r = await read(); return r.line.shown ? (r.line.whole ? "whole" : "cut") : "not shown" },
+        { message: `the reason line at ${w}x${h}: whole, or not shown at all` }).toBe(shown ? "whole" : "not shown")
+      const r = await read()
+      expect([r.count.shown, r.count.whole], "the count, whole").toEqual([true, true])
+      expect([r.chip.shown, r.chip.whole, r.chip.text], "the chip, whole").toEqual([true, true, "Start"])
+      expect(r.line.ellipsis, "never an ellipsis on the line").toBe(false)
+      await expect(page.locator("[data-maintenance]"), "the band's name keeps the full words").toHaveAttribute("aria-label", "Master the game, 19 of 20 today — Start today's session")
+    })
+  })
+}
+
+// AND WHEN A WEB FONT LANDS (R409-R1, the reader's finding 4). New metrics change the text, not the band's box, so the band's
+// ResizeObserver is not told; with the ellipsis gone, a line judged whole under the first font would be clipped mid-letter.
+// The band is fitted again when a font lands (`document.fonts`: `loadingdone`, and `ready`). Forced here: after the first
+// fit, a face of the line's own family drawn 70% wider (a local font, `size-adjust: 170%`) is added and loaded; the line
+// that was whole at 390x631 can no longer be, so it is not shown, and the count and the chip stay whole.
+// MUTANT (R409-R1): F1 the refit on a font removed → red here ("cut").
+test.describe("the Path band when a web font lands", () => {
+  test.use({ hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } })
+  test("the Path band at 390x631 is fitted again when a web font lands", async ({ page }) => {
+    const { orderFixture } = await import("../../tests/_practice_order_fixture.mjs")
+    const fx = orderFixture(SERVED)
+    const blob = JSON.parse(JSON.stringify(fx.blob))
+    blob.srs["Seed|Top"] = Object.fromEntries(Array.from({ length: 19 }, (_, i) => ["today" + i, [fx.day + 1, 1, fx.day]]))
+    await boot(page, fx.day, blob)
+    await press(page, ".ng-logo", "open the drawer", true)
+    await press(page, '[data-explore-stats] [data-view="challenges"]', "the Path row", true)
+    const state = () => page.evaluate(() => {
+      const band = document.querySelector("[data-maintenance]") as HTMLElement, line = band.querySelector("span") as HTMLElement
+      const whole = (el: HTMLElement) => el.scrollWidth <= el.clientWidth && el.getBoundingClientRect().right <= band.getBoundingClientRect().right + 0.5
+      return { line: getComputedStyle(line).display === "none" ? "not shown" : whole(line) ? "whole" : "cut",
+        count: whole(band.querySelector("b") as HTMLElement), chip: whole(band.querySelector("em") as HTMLElement) }
+    })
+    await expect.poll(async () => (await state()).line, { message: "premise: the line whole under the first font" }).toBe("whole")
+    const face = await page.evaluate(async () => {
+      const line = document.querySelector("[data-maintenance] span") as HTMLElement
+      const family = getComputedStyle(line).fontFamily.split(",")[0].trim().replace(/^["']|["']$/g, "")
+      const f = new FontFace(family, "local('DejaVu Sans'), local('Liberation Sans'), local('Noto Sans'), local('Arial')", { sizeAdjust: "170%" } as any)
+      document.fonts.add(f)
+      try { await f.load() } catch {}
+      return { family, status: f.status }
+    })
+    expect(face.status, `premise: a wider face of "${face.family}" loads`).toBe("loaded")
+    await expect.poll(async () => (await state()).line, { message: "the font landed: the line whole or not shown, never cut" }).toBe("not shown")
+    expect(await state(), "the count and the chip stay whole").toEqual({ line: "not shown", count: true, chip: true })
+  })
+})

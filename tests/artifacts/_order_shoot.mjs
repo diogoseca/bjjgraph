@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * WHAT IS WORTH MOST: THE OWNER'S PICTURES (v1.274.0, U171 a; NOT a gate, NOT a test: the gates are
+ * WHAT IS WORTH MOST: THE OWNER'S PICTURES (v1.278.0, U171 a; NOT a gate, NOT a test: the gates are
  * tests/practice_queue.test.mjs and e2e/journeys/practice-order.spec.ts).
  *
  * A real static server of a built tree (scripts/e2e-serve.mjs), real wall clock, real input at measured points; ONE player,

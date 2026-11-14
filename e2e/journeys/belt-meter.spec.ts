@@ -16,9 +16,10 @@ import { journey } from "../dsl";
 //     .ng-knowledge-meter, no .ng-belt-road, on any tab;
 //   · the score stays exposed in ONE place: the Explore tab subtitle, "Mastered N%"
 //     (word first, integer percent — gameScore() itself is untouched);
-//   · the ONLY belt visual left is the Challenges tab's mini ladder belt (.ng-tab-belt,
-//     unit-earned stripes — pane-chrome.spec.ts owns that contract) and the corridor's
-//     section rails (challenges-ui.spec.ts owns those).
+//   · the ONLY belt visual left is the drawer's one belt on the "Master the game" row (.ng-belt,
+//     v1.276.0; it was the Challenges tab's mini ladder belt, .ng-tab-belt, under the Path row;
+//     tests/belt_row.test.mjs owns that contract) and the corridor's section rails
+//     (challenges-ui.spec.ts owns those).
 // ══════════════════════════════════════════════════════════════════════════════════════
 
 const openTab = async (page: Page, view: string) => {
@@ -56,8 +57,9 @@ test.describe("Score belt retired", () => {
     expect(sub).toMatch(new RegExp("^Mastered \\d+ · " + Math.round(score * 100) + "%$"));
     await page.keyboard.press("Escape");
 
-    // the one remaining belt visual: the Challenges tab's ladder belt
-    await expect(page.locator("[data-path-belt] .ng-tab-belt")).toHaveCount(1);
+    // the one remaining belt visual: the drawer's one belt, on the "Master the game" row (v1.276.0; before: the
+    // Challenges tab's ladder belt under the Path row, "[data-path-belt] .ng-tab-belt")
+    await expect(page.locator("[data-belt-row] .ng-belt")).toHaveCount(1);
   });
 
   test("a seeded score moves the subtitle — and conjures no meter back", async ({

@@ -160,7 +160,7 @@ test("active due queue survives deferred planner arrival and study notifications
       assert.deepEqual(due.keys, ["real-due"], interaction); assert.equal(due.plan, undefined, interaction);
       assert.ok(due.review, interaction); assert.equal(renders, mounted, interaction); assert.equal(rows, 0, interaction);
     } else if (interaction === "untouched" || interaction === "moved") {
-      // Until v1.274.0 an untouched queue kept its own first deck open (here "real-due") when the plan replaced it. That deck
+      // Until v1.278.0 an untouched queue kept its own first deck open (here "real-due") when the plan replaced it. That deck
       // is the oldest debt, never chosen, and it opened Practice mid-plan (STAGE3-R1, the reader's finding 2): the plan's
       // first row opens now, and a deck the PLAYER moved to stays open.
       assert.deepEqual(due.keys, ["plan-new", "real-due"], interaction);
