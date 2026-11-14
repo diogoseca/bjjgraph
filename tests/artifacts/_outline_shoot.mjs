@@ -161,10 +161,20 @@ async function overlap(page, name) {
       best = a._lodK
       if (a._lodK > 0.62) lo = mid; else hi = mid
     }
+    // where the canvas is on top: the pair's mid at the first height (from a fifth of the screen down) with no control over
+    // it or 40 px around it (the phone's row and card cover the lower half), the camera held there
+    const W = a.W, H = a.H, scale = W / a.cam.vw, cv = a.canvas.getBoundingClientRect(), m = a.pairMid(n)
+    const free = (x, y) => [[0, 0], [-40, 0], [40, 0], [0, -40], [0, 40]].every(([dx, dy]) => document.elementFromPoint(cv.left + x + dx, cv.top + y + dy) === a.canvas)
+    let yT = null
+    for (let f = 0.2; f <= 0.8 && yT == null; f += 0.02) if (free(W / 2, H * f)) yT = H * f
+    if (yT == null) yT = H / 2
+    a.cam.cx = m.x; a.cam.cy = m.y - (yT - H / 2) / scale; Object.assign(a.camTarget, { cx: a.cam.cx, cy: a.cam.cy, vw: a.cam.vw })
+    if (a.holdCamera) a.holdCamera(60)
     a.draw()
-    const W = a.W, H = a.H, scale = W / a.cam.vw, pos = (m) => ({ x: (m.x - a.cam.cx) * scale + W / 2, y: (a._LY(m) - a.cam.cy) * scale + H / 2 })
-    return { pair: [n.t, p.t], lod: best, rs: (a._lastMapMarks || []).filter((m) => both.has(m.idx)).map((m) => +m.rs.toFixed(2)), a: pos(n), b: pos(p), vw: a.cam.vw }
+    const pos = (q) => ({ x: (q.x - a.cam.cx) * scale + W / 2, y: (a._LY(q) - a.cam.cy) * scale + H / 2 })
+    return { pair: [n.t, p.t], lod: best, rs: (a._lastMapMarks || []).filter((q) => both.has(q.idx)).map((q) => +q.rs.toFixed(2)), a: pos(n), b: pos(p), vw: a.cam.vw, yT, free: free(W / 2, yT) }
   })
+  await page.evaluate(() => window.__neural.advance(17)); await sleep(150)   // one more drawn frame, the camera held
   const x0 = Math.min(r.a.x, r.b.x), x1 = Math.max(r.a.x, r.b.x), y0 = Math.min(r.a.y, r.b.y), y1 = Math.max(r.a.y, r.b.y), pad = 26
   const f = path.join(OUT, `${name}-${TAG}.png`)
   await page.screenshot({ path: f, clip: { x: x0 - pad, y: y0 - pad, width: x1 - x0 + 2 * pad, height: y1 - y0 + 2 * pad } })
