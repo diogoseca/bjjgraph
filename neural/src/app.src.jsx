@@ -285,6 +285,9 @@ const NG_PRACTICE_GOAL = 20;
 // 14 spec lines select on, and `neural_practice_opened` an event id), and identifiers keep "practice".
 const NG_PRACTICE_NAME = "Master the game";
 const NG_PRACTICE_START = "Start today's session";
+// the Path band's chip where NG_PRACTICE_START and the line beside it do not both fit uncut (R409 item 4; the band's aria
+// keeps the full words at every width): challenge-ui.src.js, one scope with this file in the bundle
+const NG_PRACTICE_START_SHORT = "Start";
 // The drawer row's belt colours (v1.276.0): the drawn belt's (its blue is the design's #2c5299), deeper than the Path's
 // UI tints (NG_CHALLENGE_TRACK_COLORS), under the same woven texture (helmet.html `.ng-belt`). Black wears a red bar.
 const NG_BELT_ROW_COLORS = Object.freeze({ white: "#e6e2d6", blue: "#2c5299", purple: "#673c98", brown: "#77492b", black: "#1d1d22" });
@@ -3126,7 +3129,7 @@ class Component extends DCLogic {
       })
       .then((files) => { this._ratingLiveFrom(files, fp); })
       .finally(() => { if (this._ratingLiveP === p) this._ratingLiveP = null; })
-      .then(() => this.rating());
+      .then(() => { this._practiceGuard(this._guardWait, true); return this.rating(); });   // a plan built without it (R409)
     p.manifest = decks; p.fp = fp;
     this._ratingLiveP = p;
     return p;
@@ -5236,7 +5239,8 @@ class Component extends DCLogic {
     const wrap = document.createElement("div");
     if (isCurrent) wrap.className = "ngCurExpire";
     wrap.setAttribute("data-mini-deck", key); // shared inline card; Practice honors the answer-mode setting
-    wrap.style.cssText = "padding:0 8px 12px 26px;animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;";
+    // a card laid out again in place (Practice's plan taken again, `_practiceGuard`) does not fade in a second time
+    wrap.style.cssText = "padding:0 8px 12px 26px;" + (this._noCardIn ? "" : "animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;");
     const navBtn = (cls, d) => '<button class="' + cls + '" style="flex:none;width:42px;height:36px;cursor:pointer;border:1px solid rgba(150,170,210,.2);border-radius:9px;background:rgba(255,255,255,.03);color:#aab4c8;display:flex;align-items:center;justify-content:center;transition:background .12s,color .12s;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="' + d + '"></path></svg></button>';
     let recallFallback;
     const recognition = () => this._session?.practice && cards[st.idx] !== recallFallback && this.mcActive(key, cards[st.idx]) && !graded(cards[st.idx]);
@@ -5352,7 +5356,7 @@ class Component extends DCLogic {
   }
   _miniDeckEmpty(h) {
     const wrap = document.createElement("div");
-    wrap.style.cssText = "padding:0 8px 12px 26px;animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;";
+    wrap.style.cssText = "padding:0 8px 12px 26px;" + (this._noCardIn ? "" : "animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;");
     // Three different truths used to render as one sentence about authoring. A deck whose cards
     // are on the way, and a deck whose chunk did not arrive, are NOT "being authored".
     const st = this.deckStatus(h && h.key);
@@ -6470,7 +6474,7 @@ class Component extends DCLogic {
     if (old && old.order === "worth" && !round && !(chosen && chosen.length)) {
       const held = new Set(s.keys);
       s.plan = { ...old, more: incoming.more.filter(r => !held.has(r.key)), status: incoming.status, comparison: incoming.comparison,
-        assumptions: incoming.assumptions, missing: incoming.missing, why: incoming.why || old.why };
+        assumptions: incoming.assumptions, missing: incoming.missing, why: (incoming.guarded === old.guarded && incoming.why) || old.why };
       this._paintGameplanProgress(s);
       return;
     }
@@ -6535,7 +6539,8 @@ class Component extends DCLogic {
       const first = s.keys[s.idx];
       s.keys = [];
       for (const k of order) if (keys.has(k) && !s.keys.includes(k)) s.keys.push(k);
-      s.idx = first && s.moved && s.keys.includes(first) ? s.keys.indexOf(first) : 0;
+      // ... and a plan taken again under an untouched player keeps the row open too (`_practiceGuard`'s `keepOpen`, R409-R1)
+      s.idx = first && (s.moved || s.keepOpen) && s.keys.includes(first) ? s.keys.indexOf(first) : 0;
       s.required = s.keys.length;
       this.renderSession();
     } else {
@@ -6544,10 +6549,66 @@ class Component extends DCLogic {
       this._practiceRows(s);
       this._paintGameplanProgress(s);
     }
+    // a plan that becomes worth here asks whether its guard is whole: mounted, or today's order turning worth (a slow first
+    // visit, where the curriculum lands after the tap: R409-R1, the reader's finding 2)
+    if (!old || old.order !== "worth") this._practiceGuard(s);
     this.hydrateDecks(s.keys).then(() => {
       if (this._session !== s || !this._sessionInline()) return;
       s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks(), this.srs);
       this._paintGameplanProgress(s);
+    });
+  }
+
+  // THE GUARD AND THE LIVE SET (R409, the reader's finding 1). A worth plan built while the rating's live set is still being
+  // checked can guard only the cards known to be answerable (`guarded: false`, practice-queue's `counts.short`), so the three
+  // due longest may not be among the 20. Nobody waits for the set: a session takes its plan at the tap, and when the check
+  // lands an UNTOUCHED session (no card revealed or answered, no row opened: the cold queue's rule) takes its plan again,
+  // ONCE (`guardSettled`), after any press in flight (`_afterPress`). Touched is read against the open card as it was when
+  // the plan was mounted (`guardFace`: its deck, card and side; a deck's inline state outlives a session).
+  // THE CARD ON SCREEN NEVER CHANGES under a player who has not touched the session (R409-R1, the reader's finding 1 of #415:
+  // the new plan's guard can lead the open position with another deck's card, 6 of 135 sampled re-plans, 12 of 12 built to
+  // do it). So the open row stays open (`keepOpen`), and the open card in it, wherever the new plan holds them; the guard's
+  // cards join the session around them, which is all the law asks (the three AMONG the 20, not first). The scroll is kept
+  // and the card is not faded in a second time (`_noCardIn`). A new plan that holds neither is not taken.
+  // ONE `neural_practice_unguarded` (docs/SEO.md, counts and a word only) for each plan kept or taken without a whole guard:
+  //   touched   the player touched the session before the set landed; its plan stays (never re-planned under a player)
+  //   reading   untouched, but the new plan does not hold the open row or the card on screen; the plan stays
+  //   short     taken (or mounted) with the set in hand and still short: a deck the live files do not list
+  //   failed    the check landed and could not read the files      unasked  no check for this deck list and fingerprint
+  //   fallback  the plan at landing is not a worth plan (the game left), so there is nothing to take
+  //   ended     the session was closed before the set landed
+  // A session still open but not on screen when the set lands (the drawer shut, the Path open) keeps its plan and sends
+  // nothing (the archive's "Not covered", v1.278.2). Called when a plan becomes worth (`_practiceAppend`: mounted, or
+  // today's order turning worth, finding 2) and when the check settles (`ratingCheck`, `landed`, the session it left waiting).
+  _practiceGuard(s, landed) {
+    const p = s && s.plan, live = this._ratingLiveNow(), st = live ? live.status : "unasked";
+    if (!p || p.order !== "worth" || p.guarded !== false || s.guardSettled) return;
+    const face = () => { const k = s.keys[s.idx], d = this._deckState && this._deckState[k]; return k + "|" + (d ? d.idx : 0) + "|" + !!(d && d.revealed); };
+    if (st === "checking") { this._guardWait = s; s.guardFace ??= face(); return; }
+    s.guardSettled = true;
+    const send = (reason, plan) => this.track("neural_practice_unguarded", { reason, short: plan.counts.law.short, owed: plan.counts.law.owed });
+    const word = st === "ok" ? "short" : st === "unasked" ? "unasked" : "failed";
+    if (!landed) { send(word, p); return; }   // nothing in flight to wait for: the set in hand (still short), or no check
+    this._afterPress(() => {
+      if (this._session !== s) { send("ended", p); return; }
+      if (!this._sessionInline()) return;
+      // a card shown answered is touched whenever it was turned (and `_practiceAppend` would keep the rows for it)
+      const touched = s.moved || face() !== s.guardFace || face().endsWith("|true") || this.practiceToday().done !== s.started;
+      if (st !== "ok") { send(word, s.plan); return; }
+      if (touched) { send("touched", s.plan); return; }
+      const next = this.planSummary();
+      if (next.order !== "worth") { send("fallback", s.plan); return; }
+      const k = s.keys[s.idx], deck = this.flashcards && this.flashcards.decks && this.flashcards.decks[k], d = this._deckState && this._deckState[k];
+      const rowIn = (plan) => plan.due.concat(plan.fresh).find((r) => r.key === k);
+      const cardsIn = (row) => (row ? (this._cardsOf(deck) || []).filter((c) => row.questions.includes(this.qhash(c.q))) : []);
+      const open = cardsIn(rowIn(s.plan))[d ? d.idx : 0], row = rowIn(next), at = open ? cardsIn(row).indexOf(open) : 0;
+      if (!row || at < 0) { send("reading", s.plan); return; }
+      if (open) (this._deckState = this._deckState || {})[k] = { ...d, idx: at, revealed: false };
+      const list = this.drillListRef && this.drillListRef.current, top = list ? list.scrollTop : 0;
+      this._noCardIn = true; s.keepOpen = true;
+      try { s.plan = null; this._practiceAppend(s, next); } finally { this._noCardIn = false; s.keepOpen = false; }
+      if (list) list.scrollTop = top;
+      if (next.guarded === false) send("short", next);
     });
   }
 
@@ -6803,7 +6864,7 @@ class Component extends DCLogic {
     // "More new cards" (and a Path lesson, `_practiceLesson`) add new cards while cards are due, at the PLAYER's own press:
     // the owner's Anki rule is about what Practice deals by itself, and a daily goal is a goal, never a limit (ANKI1-R1,
     // the orchestrator's ruling on the reader's finding 6)
-    const more = s.more = this.drillBtn("Keep practising · more new cards", true);
+    const more = s.more = this.drillBtn("More new cards", true);
     more.setAttribute("data-plan-more", "1");
     more.onclick = () => {
       if (!s.plan) { this.openPlanSession(s.anchor, "open-plan"); return; }
@@ -6866,9 +6927,11 @@ class Component extends DCLogic {
     const more = s.more;
     more.disabled = !!s.plan && !s.plan.more.length;
     // "Keep practising" on the completion card deals the next round by worth; this button keeps its own meaning, the ranked
-    // new decks, under a label true of a worth plan (STAGE3-R1); an owed session has neither
+    // new decks, under a label true of a worth plan (STAGE3-R1); an owed session has neither. Today's order (the fallback)
+    // reads the same since R409-6 (the orchestrator, seen live at 10:40 on 14 Nov): it does the same thing there, and its
+    // "Keep practising · more new cards" was left over, not chosen. With no plan yet it opens one: "More new cards" alone.
     // written only when changed: a repaint between a press and its release must not swallow it (FGD13's class)
-    const moreLabel = s.plan?.order === "worth" ? "More new cards \u00b7 " + this._newOrderText(s.plan) : "Keep practising \u00b7 more new cards";
+    const moreLabel = s.plan ? "More new cards \u00b7 " + this._newOrderText(s.plan) : "More new cards";
     if (more.textContent !== moreLabel) more.textContent = moreLabel;
     more.hidden = !!s.owed;
     const n = this.dueCount(), door = "Everything owed, oldest first \u00b7 " + n + (n === 1 ? " card" : " cards");
