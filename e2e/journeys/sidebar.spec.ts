@@ -66,7 +66,7 @@ for (const width of [390, 1440]) test.describe(`index landing ${width}`, () => {
       if (width === 390) await page.touchscreen.tap(x, y)
       else await page.mouse.click(x, y)
       // v1.261.0 (owner U135 a): Practice is a view in the drawer and the brand names it, as it names Path
-      await expect(page.locator(".ng-drawer-brand"), "the press aimed before landing opens Practice").toHaveText("‹ Practice")
+      await expect(page.locator(".ng-drawer-brand"), "the press aimed before landing opens Master the game (before: ‹ Practice)").toHaveText("‹ Master the game")
     } finally { release() }
   })
 })
@@ -223,8 +223,11 @@ test("@curated Practice, Path and Last rolls open their views, and the brand lea
   await expect(practice.locator(".ng-dr-pill"), "the owed reviews, on the row").toHaveText("2 due")
   await expect(practice.locator(".ng-dr-tail"), "and the day's goal").toContainText("1/20")
   const path = page.locator('[data-explore-stats] [data-view="challenges"]')
-  await expect(path.locator("[data-tab-sub='challenges']")).toHaveText("0 stripes")
-  await expect(page.locator("[data-path-belt] .ng-tab-belt[data-tab-belt='white'][data-tab-stripes='0']"), "the worn belt under Path").toHaveCount(1)
+  // v1.276.0 (ruled STAGE2-GO 3, one belt in the drawer): the Path row says its course's units in words (before: "0 stripes"),
+  // and the worn belt is the "Master the game" row's (before: `[data-path-belt] .ng-tab-belt[data-tab-belt='white'][data-tab-stripes='0']`)
+  await expect(path.locator("[data-tab-sub='challenges']")).toHaveText(/^0 of \d+ units$/)
+  await expect(page.locator("[data-belt-row] .ng-belt[data-belt='white'][data-stripes='0']"), "the worn belt, on the Master the game row").toHaveCount(1)
+  await expect(page.locator("[data-path-belt], .ng-tab-belt"), "and none under Path: one belt in the drawer").toHaveCount(0)
 
   await j.clickByMouse('[data-explore-stats] [data-view="challenges"]', "Path")
   await expect(page.locator(".ng-drawer-brand")).toHaveText("‹ Path")
@@ -241,7 +244,7 @@ test("@curated Practice, Path and Last rolls open their views, and the brand lea
   // titled by what it holds: the compact head carries the belt, so the owed reviews head the card
   // section instead (practice-mix.spec pins the mix). v1.261.0 (owner U135 a): Practice is a view in the
   // drawer, as Path is, so "Practice" is in the brand ("‹ Practice"), no longer in the study head.
-  await expect(page.locator(".ng-drawer-brand"), "Practice opens the session").toHaveText("‹ Practice")
+  await expect(page.locator(".ng-drawer-brand"), "the row opens the session (before: ‹ Practice; v1.276.0, owner U169 c)").toHaveText("‹ Master the game")
   await expect(page.locator("[data-practice-section]"), "titled by the owed reviews").toHaveText("Due reviews \u00b7 2 cards")
   // Practice's ‹ Back is the brand, a real button (SIDE-R2 P2): it takes focus, and Enter takes it home
   await page.locator("[data-pane-back]").focus()
@@ -249,7 +252,7 @@ test("@curated Practice, Path and Last rolls open their views, and the brand lea
   await page.keyboard.press("Enter")
   await expect(page.locator("[data-drawer-explore]"), "Enter on ‹ Back leaves the session").toBeVisible()
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice, again")
-  await expect(page.locator(".ng-drawer-brand")).toHaveText("‹ Practice")
+  await expect(page.locator(".ng-drawer-brand"), "before: ‹ Practice").toHaveText("‹ Master the game")
   await j.clickByMouse(".ng-drawer-brand", "the brand, out of the session")
   await expect(page.locator("[data-drawer-explore]")).toBeVisible()
 })
@@ -272,7 +275,7 @@ test("a repaint between pressing Practice and releasing it does not swallow the 
   await page.mouse.down()
   await page.evaluate(() => (window as W).__neural._paintTrain())
   await page.mouse.up()
-  await expect(page.locator(".ng-drawer-brand"), "the press opened Practice").toHaveText("‹ Practice") // v1.261.0: the brand names Practice
+  await expect(page.locator(".ng-drawer-brand"), "the press opened the session").toHaveText("‹ Master the game") // v1.261.0: the brand names the view; v1.276.0: "Master the game" (before: ‹ Practice)
 })
 
 test("a principle lights its places and fades the rest of the map to ~20%, smoothly", async ({ page }) => {

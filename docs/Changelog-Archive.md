@@ -17500,3 +17500,70 @@ reader's own children, so a control nested elsewhere is unseen (the spec's and t
   1,600 of 1,600. Bytes, my share alone against dev v1.273.1's checkpoints: neural.js +5,556 raw (R2 +104); eager gzip
   359,612 (+2,431 on 357,181, cap 5,000); first-hand core 379,042 (+2,478 on 376,564, cap 6,000); 11 boot requests;
   first-hand raw 1,589,326. App rows re-seeded at 7e3a22e3c.
+
+## v1.276.0 — The belt in the drawer row: "Master the game" wears the belt and the number (STAGE2, the owner's U159 a, U160 a, U162 a, U169 c, 2026-11-13)
+
+**What a player sees.** The drawer's row is now named "Master the game" (its view's title and back too; "Session details & queue", "White belt lessons"). Under it is a woven belt: the stripes earned on the sleeve, the next one an empty slot, and the number at the belt's end, rounded down. Under the belt is one line of two distances, for example "26 to your 3rd stripe · 90 to blue".
+- **The dip:** when the number sits below the floor of what is worn, a second line says so: "62 under your 2nd stripe · stripes stay".
+- **Before the number:** the number is shown only once its live check has landed. Until then the row wears the belt held, with a hidden "0000" holding the number's width, so nothing jumps; offline it stays that way and says nothing.
+- **A brand-new visitor:** white, no number, "Answer a few cards to get your number".
+- **The top of the scale:** black with a red bar, "The top of the scale".
+- **One belt in the drawer:** the Path row's woven bar went (the orchestrator's ruling 3); the Path row says its course's units in words ("0 of 6 units").
+- **The row's tap and hit target are unchanged.** Its tooltip and aria open with "Start today's session".
+
+**The held level, `belts.lvl = {n, t}`.** This is the one value added to the progress blob.
+- **What it is:** a level on table a, 0..20.
+- **How it rises:** it rises to the higher of itself, the Path's own level as read now, and the number's level. It never falls, and it is one value for both rulesets.
+- **On the first run:** it is seeded, at 0 too, and rides the next save, so a passive boot writes nothing it did not change.
+- **The merge:** the higher n, whatever the stamps; a tie keeps the earlier stamp. The guest join runs the same merge.
+- **The practice key:** `ngProgressPracticeKey` drops it, so a guest who only looked is not told their practice was saved.
+- **An older client:** it carries the value through its own load and save, but its merge keeps its local copy's value, which can drop or lower the cloud's, until a current device pulls and restores the higher one.
+- **Which reader:** `wornBelt()` stays the Path's own (its navigation, the Recall Mode patch at black, the email's belt line), so the number reaching black mints no patch.
+
+**A promotion by the number.** When a final reading's level is above everything worn, the level is raised and saved at once, with one silent beat (`level_reached`) and one analytics line (`neural_level_reached`: the belt, the stripes, the number rounded down).
+- It fires only on the device whose own number raised the level; a merge or the Path fires nothing.
+- There is no sound; that is a later design job.
+
+**The live check at the drawer.** Opening the drawer asks, and so does coming back to the list. A check that landed is never fetched again; after a failed one, the next open tries once more. A drawer opened before the game is in (no deck manifest, weights or curriculum yet) waits, and the belt sync that runs when they land asks once more; a grade never turns into a fetch.
+
+**Measured.**
+- **Units:** `tests/belt_row.test.mjs`, 23 tests. 24 named mutants (`tests/artifacts/belt_row_mutants.mjs`), all killed, sources restored and hash-checked. BELT-M13 needs both guards dropped, since either alone holds the claim.
+- **Journey:** `e2e/journeys/belt-row.spec.ts` at 1440x900 by mouse and 390x631 by touch.
+  - The order of the states.
+  - No jump when the number lands. It first caught a 1 px jump: `min-width: 4ch` measures the plain "0", narrower than four tabular digits.
+  - Storage key by key: only the level is written.
+  - The press opens today's session.
+- **Moved specs:** every spec that read the Path row's belt or the old words, each line saying what it claimed before.
+  - The Path's drawn black lost its four stripes, because black has none on table a. The Path's own rule keeps them, asserted through `wornBelt()`.
+  - `holder-passive-boot-blob-fixpoint.spec.ts` expects the one added value.
+- **Bytes**, against dev v1.273.1's checkpoint (dev's own drift since it is 0):
+  - eager gzip +2,239 B of the 5,000 B cap (359,420);
+  - first-hand core +2,272 B of the 6,000 B cap (378,836);
+  - eager raw 1,417,450 of 1,600,000;
+  - deferred 510,269 of 511,043, unchanged;
+  - largest chunk 39,000 of 40,000.
+
+**The independent read (R1), seven findings, ruled.**
+1. **A gi/no-gi flip in Settings, a modal over the open drawer, left the other ruleset's number on the row.** Now the flip asks again. The live check is the same for both rulesets, so nothing is fetched once a check has landed; after a FAILED check, each flip with the drawer open asks for both files again, as an open does. The row also never paints a reading taken in another ruleset; it wears the belt held and waits. Pinned by a unit for each half and by the journey at 1440 by mouse and 390 by touch: Settings, Rolling, No-gi with the drawer open, and the row reads the no-gi number, never the gi one. The journey's record answers decks only gi weighs, until the two numbers differ.
+2. **One promotion per level failed across tabs and before an account's first pull.**
+   - **Tabs:** the level is still raised (it is monotone) and now written at once (`_flushSave`, no longer the 400 ms save). Nothing fires when the stored copy every tab saves to already holds the level.
+   - **An account, until a pull has merged:** the promotion is held back (during any pull, and after a failed pull or push) and fires after the pull only if the cloud did not bring the level. A guest, or an account playing local-only, fires at once.
+   - **Cost:** 16 code lines.
+   - **Still open:** after an older client lowered the cloud, a fresh device can fire a level again.
+3. **Black, ruled by the orchestrator** (the owner may object on his page): black wears the red bar and no stripes, in the row and the view's title. The two tests that still said "four stripes" are renamed to what they pin.
+4. **A device can wear a lower belt after an older client,** until a current device syncs. This is accepted and said so.
+5. **The view names two belts:** as ruled.
+6. **A malformed stored level is replaced:** one line at `ngRatingHeld`.
+7. **The landing note for the merge with #409** is in the PR body: #409's content, this PR's words.
+
+**The second read (R2), ruled.**
+- **Once per level, exactly:** a promotion fires once per level per tab or device in the usual order. It can be missed or doubled in these cases:
+  - **Lost:** a held-back promotion is lost when no pull succeeds before the session ends.
+  - **Nobody fires:** two tabs of one account, one holding it back while its pulls fail and the other pushing it.
+  - **Late:** after a failed push, it fires at the next save once the connection is back.
+  - **Twice:** a level a guest already fired can fire again on the account after sign-in, when the drawer read it before the first pull landed.
+  - **Once per tab:** when storage is unreadable.
+
+  `neural_level_reached` can therefore under-count. The beat's `from` is the tab's own level in memory, and two promotions held back before one pull collapse into the last.
+- **The fire cannot fail a pull:** it runs guarded in `_pullAndMerge` (one line). A level sound that throws, the day one is added, can no longer mark a merged pull failed or skip its guest join.
+- **Three tests and one guard:** local-only fires at once; unreadable storage fires; a beat that throws leaves the pull merged and the join run (mutants BELT-M22 to M24; 24 in all). The flip journey's guard now requires a real no-gi number.

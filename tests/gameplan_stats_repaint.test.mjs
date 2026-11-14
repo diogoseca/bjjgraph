@@ -29,7 +29,7 @@ function fixture(){const tasks=[],document={createElement:()=>new Element()};
  _epochDay:()=>5,_gameplanDecks:()=>({'Mount|Top':{count:1,exact:true,questions:['q1'],allowed:true}}),srs:{'Mount|Top':{q1:[4,2,3]}},
  _gameplanLoadState:'pending',_gameStudyState:{phase:'pending'},_session:session,drillRef:{current:drawer},drillListRef:{current:new Element()},drillFootRef:{current:null},
  _sessionInline:()=>true,_gameplanProgress:()=>({dayChanged:false,dueCards:1,completed:0,total:1,newDebt:[],blocked:[],complete:false}),
- _paintGameStudyPanel(){calls.panels++;},setDrillHeader(){},openPlanSession(anchor){calls.plans.push(anchor);},openFlashBrowser(){},renderTabSubtitles(){}});
+ _paintGameStudyPanel(){calls.panels++;},setDrillHeader(){},openPlanSession(anchor){calls.plans.push(anchor);},openFlashBrowser(){},renderTabSubtitles(){},_paintBeltRow(){}});
  const mount=()=>{drawer.children=[];app._renderTrain(drawer);const box=drawer.children[0];return{box,row:box.querySelector('[data-b="due"]')};};
  return{app,drawer,session,calls,tasks,mount,plan(value){plan=value;app._gameplanRuntime={ngGameplanSummary:()=> 'real planner summary seam'};}};
 }
@@ -37,7 +37,8 @@ test('absent planner: the Practice row keeps the owed reviews and the loading st
  const f=fixture(),{box,row}=f.mount();
  assert.equal(box.getAttribute('data-explore-stats'),'1');assert.equal(box.getAttribute('data-gameplan-status'),'pending');
  assert.equal(row.getAttribute('data-new'),null);assert.equal(row.getAttribute('data-due-decks'),'1');
- assert.match(row.title,/^1 card due · 1 technique · 0 answered today · Suggestions loading/);assert.doesNotMatch(row.title,/0 new/);
+ // v1.276.0 (STAGE2-GO 7): the tooltip opens with what a tap does; before, it opened with the owed count (/^1 card due · …/)
+ assert.match(row.title,/^Start today's session · 1 card due · 1 technique · 0 answered today · Suggestions loading/);assert.doesNotMatch(row.title,/0 new/);
  assert.match(row.tail.html,/>1 due</);assert.match(row.tail.html,/0\/20$/);
  row.click();assert.deepEqual(f.calls.plans,['due']);assert.equal(f.tasks.length,0);
 });

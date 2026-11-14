@@ -299,7 +299,8 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   // THE CELL PRINTS CARDS (v1.172.0, owner: "18 cards due" on the band over "35 due" here —
   // "the due cards should be consistent"). The technique count is the tooltip's second figure.
   await expect(cell).toContainText("2 due");
-  await expect(cell).toHaveAttribute("title", /^2 cards due · 1 technique · /);
+  // v1.276.0 (STAGE2-GO 7): the tooltip opens with what a tap does; before, it opened with the owed count (/^2 cards due · 1 technique · /)
+  await expect(cell).toHaveAttribute("title", /^Start today's session · 2 cards due · 1 technique · /);
 
   await j.clickByMouse('.ngStat[data-b="due"]', "the maintenance cell");
   await page.waitForTimeout(400);
@@ -326,7 +327,7 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
     review: { count: 2, rows: [[r.other, 2]] },
   });
   // the RENDERED header repeats the cell's number in the cell's unit, and the foot counts progress
-  expect(header).toBe("‹ Practice");
+  expect(header).toBe("‹ Master the game");   // before: "‹ Practice" (v1.276.0, owner U169 c)
   await expect(page.locator("[data-practice-section]"), "P1-F: first review section repeats the drawer debt").toHaveText("Due reviews · 2 cards");
   await expect(page.locator("[data-plan-goal-progress]"), "the compact goal counts the same cards").toHaveText("Reviewed 0/2");
   // ...and the one row is narrowed to what is OWED — both cards, not its whole deck. Read off
