@@ -145,8 +145,10 @@ test("dashboard and opened plan share counts, target overrun and keyboard-access
   const summary = reasons.locator("summary");
   await summary.focus(); await page.keyboard.press("Enter");
   await expect(reasons).toHaveAttribute("open", "");
-  // until v1.274.0: "Reviews come back on your memory schedule", the oldest-first order's reason
-  await expect(reasons, "opening it shows the reasons").toContainText("Practice goes position by position, starting where it is worth most");
+  // until v1.274.0: "Reviews come back on your memory schedule", the oldest-first order's reason; until ANKI1 (the owner's
+  // Anki rule): "Practice goes position by position, starting where it is worth most"
+  await expect(reasons, "opening it shows the reasons").toContainText("Practice asks the cards that are due first, position by position, starting where it is worth most");
+  await expect(reasons, "and the owner's rule for new cards").toContainText("New cards come only when nothing is due.");
   // v1.248.0: the owner's plain copy (item 9) ends on what the ranking is NOT. A compaction once cut it
   // while the sentence above was the only pin, so the caveat carries its own. Mutant: drop that sentence.
   await expect(reasons, "the ranking's own caveat stays").toContainText("that is not a measure of real grappling");

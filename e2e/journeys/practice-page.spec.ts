@@ -390,10 +390,18 @@ test("P1-E: an unpoolable recognition card falls back to keyboard recall", async
     const a = (window as any).__neural;
     a.settings.mcMode = "mc";
     await a.hydrateDeck("Mount|Top");
-    const c = a._cardsOf(a.flashcards.decks["Mount|Top"])[0];
-    c.a = "Yes."; // controlled micro-answer: the real length-ratio guard rejects distractors
-    a.srs = { "Mount|Top": { [a.qhash(c.q)]: [a._epochDay() - 1, 3, a._epochDay() - 4] } };
-    await a._warmMcPool(c, "Mount|Top", "practice");
+    const c = a._cardsOf(a.flashcards.decks["Mount|Top"])[0], qh = a.qhash(c.q);
+    // ANKI1: this question is shared (Mount|Bottom carries it too), and under the owner's Anki rule the plan asks this one
+    // owed card first, filed under its home deck, the first of its decks: Mount|Bottom. Until then the order never asked it,
+    // so `openCard` appended Mount|Top's row, and only Mount|Top's copy wore the controlled answer. Now EVERY copy does and
+    // each is warmed, so whichever row holds the card, it is the unpoolable one
+    const keys = (a._sharedQ && a._sharedQ.get(qh)) || ["Mount|Top"];
+    for (const k of keys) {
+      await a.hydrateDeck(k);
+      for (const x of a._cardsOf(a.flashcards.decks[k]) || []) if (a.qhash(x.q) === qh) x.a = "Yes."; // controlled micro-answer: the real length-ratio guard rejects distractors
+    }
+    a.srs = { "Mount|Top": { [qh]: [a._epochDay() - 1, 3, a._epochDay() - 4] } };
+    for (const k of keys) { const x = (a._cardsOf(a.flashcards.decks[k]) || []).find((y: any) => a.qhash(y.q) === qh); if (x) await a._warmMcPool(x, k, "practice"); }
     await a._ensureGameplanRuntime();
     (window as any).__unpoolable = a.qhash(c.q);
   });
