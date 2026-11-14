@@ -17500,3 +17500,121 @@ due first; or 16 due and 4 new every day, the 14 most valuable due and the 2 lon
 
 **Not covered, by decision:** no stored field for the day's new cards met. After a reload the floor counts only the new
 cards met since that page loaded, so a player who met 4 and reloads is handed up to 4 more that day; "at least 4" allows it.
+
+**The owner's answer (ANKI1, 13 Nov, late evening), built.** His words: "we only add new cards if there's no due cards
+left to be reviewed according to the space repetition algo." So the 20 are cards that are due, the ones worth most first,
+position by position (U171 a stands for the order), and a new card comes only when nothing is due. No place in the 20 is
+kept for new cards: the floor of 4 and the "16 due and 4 new" asked of him (U179 c) are gone. The law:
+- every position that owes anything is visited, best first by its six best owed worths, at most 6 a visit, and again while
+  the goal has room, so nothing due is left for a new card;
+- the 3 owed cards due longest are asked whatever their worth, and the goal's last places are kept for them;
+- with nothing due left, new cards come by their position's next new card, never taking a position past 6 in the day.
+Rolls keep feeding Practice; "Everything owed, oldest first" and "Keep practising" stay. STAGE3-R2 b (the day's count of
+new cards met, kept in memory) left with the floor it counted for; nothing was ever stored.
+
+**The guard, measured under this rule.** The reader's `simanki.mjs` was copied and extended, never edited, and the shipped
+law called as is. The records are gi, 300 and 1,500 stored cards, built the reader's way (seed 7). Each runs a year at 20
+Practice answers a day, with 0 and with 10 roll answers a day. "Never asked" counts the cards owed on day 1 that the order
+can ask; 5 and 21 sit in decks gi does not allow, and only "Everything owed" reaches them.
+
+| guard | 300, no rolls | 300, 10 rolls | 1,500, no rolls | 1,500, 10 rolls |
+|---|---|---|---|---|
+| 0 (worth alone) | 0 never · wait 64 · 1,253.4 | 118 never · 365 · 1,235.8 | 616 · 365 · 1,212.7 | 744 · 365 · 1,244.6 |
+| 1 | 0 · 65 · 1,250.9 | 0 · 311 · 1,223.5 | 340 · 365 · 1,210.4 | 443 · 365 · 1,236.2 |
+| 2 (the reader's) | 0 · 50 · 1,252.0 | 0 · 257 · 1,224.8 | 93 · 365 · 1,203.8 | 128 · 365 · 1,235.2 |
+| **3 (shipped)** | 0 · 41 · 1,257.4 | 0 · 232 · 1,219.8 | **0** · 316 · 1,204.6 | **0** · 342 · 1,234.8 |
+| 4 | 0 · 38 · 1,252.9 | 0 · 208 · 1,213.6 | 0 · 249 · 1,195.2 | 0 · 308 · 1,229.7 |
+| 6 | 0 · 28 · 1,258.6 | 0 · 173 · 1,206.0 | 0 · 180 · 1,192.4 | 0 · 243 · 1,226.3 |
+
+Three is the smallest guard that leaves nothing never asked for both records, within 5 points of two's level either way.
+A fixed guard covers about 365 × guard of the oldest cards a year, so a much larger backlog would need more.
+
+**The rule against the others** (the same harness): the table in the PR body. In short:
+- strict Anki (oldest due first) waits least (13 to 121 days). With a backlog it scores 100 to 125 points lower; without
+  one it scores the same;
+- the first push leaves 127 to 746 of the cards owed on day 1 never asked;
+- "16 due and 4 new" shows a new card every day and scores 11 to 78 points lower.
+
+The same players in the Practice simulation's own memory model (qsim, seeded with the same construction, 5 players, a year):
+
+| player | queue | never asked (of owed day 1) | longest wait, days | days with a new card | due on day 365 | true level | rating |
+|---|---|---|---|---|---|---|---|
+| 300 stored, 0 roll answers a day | **his rule, guard 3 (shipped)** | 0 of 265 | 37 | 120 of 365 | 21 | 1,353 | 1,294 |
+|  | his rule, guard 2 | 0 of 265 | 42 | 117 of 365 | 19 | 1,354 | 1,295 |
+|  | the first push (worth, a floor of 4 new) | 130 of 265 | 365 | 365 of 365 | 1,428 | 1,340 | 1,272 |
+|  | today's queue (dev: oldest first, at least 4 new) | 0 of 265 | 80 | 365 of 365 | 1,575 | 1,274 | 1,170 |
+| 300 stored, 10 roll answers a day | **his rule, guard 3 (shipped)** | 0 of 265 | 226 | 0 of 365 | 2,309 | 1,394 | 1,322 |
+|  | his rule, guard 2 | 0 of 265 | 259 | 0 of 365 | 2,293 | 1,396 | 1,323 |
+|  | the first push (worth, a floor of 4 new) | 114 of 265 | 365 | 365 of 365 | 3,457 | 1,409 | 1,340 |
+|  | today's queue (dev: oldest first, at least 4 new) | 0 of 265 | 133 | 365 of 365 | 3,415 | 1,316 | 1,229 |
+| 1,500 stored, 0 roll answers a day | **his rule, guard 3 (shipped)** | 0 of 1,316 | 273 | 0 of 365 | 962 | 1,299 | 1,225 |
+|  | his rule, guard 2 | 0 of 1,316 | 348 | 0 of 365 | 943 | 1,300 | 1,226 |
+|  | the first push (worth, a floor of 4 new) | 754 of 1,316 | 365 | 365 of 365 | 2,660 | 1,338 | 1,263 |
+|  | today's queue (dev: oldest first, at least 4 new) | 0 of 1,316 | 139 | 365 of 365 | 2,741 | 1,250 | 1,113 |
+| 1,500 stored, 10 roll answers a day | **his rule, guard 3 (shipped)** | 0 of 1,316 | 338 | 0 of 365 | 3,098 | 1,416 | 1,341 |
+|  | his rule, guard 2 | 91 of 1,316 | 365 | 0 of 365 | 3,079 | 1,415 | 1,342 |
+|  | the first push (worth, a floor of 4 new) | 732 of 1,316 | 365 | 365 of 365 | 4,362 | 1,427 | 1,358 |
+|  | today's queue (dev: oldest first, at least 4 new) | 0 of 1,316 | 167 | 365 of 365 | 4,217 | 1,333 | 1,245 |
+
+In that model the first push scores higher for players who roll. It also answers up to 4 more cards a day past the 20 (its
+floor).
+
+**What the rule does to a player who rolls.** Under today's schedule every card met in a roll gets a row and joins the pile.
+With 10 roll answers a day the pile reaches about 2,400 to 3,200 by day 365, and Practice meets a new card on 0 days of
+the year; the first push met one on 12 to 39 days. New material then reaches that player only through his rolls. The
+schedule itself is measured apart (ANKI1 job B, no code).
+
+**Parity.** The simulation's policy A (`queueA`) is written from the rule, not from the law. On the real wire, 10 players:
+- gi, a year, every 7th day: 530 of 530 days, 10,600 asks, the guard's three equal on each;
+- two years, every 14th day: 530 of 530 for gi cards only, no-gi, and no-gi cards only;
+- with rolls opening no rows, so the pile empties and the new-card branch runs: 214 (gi cards only) and 201 (no-gi) of 530
+  days hold a new card, and 530 of 530 are equal.
+The golden is regenerated from the simulation: 40 days, 431 asks, 99 guarded.
+
+**Kill table, ANKI1** (units, each mutant alone on a clean tree, the diff hash checked after; and built into the bundle for
+the journey):
+
+| mutant | red at |
+|---|---|
+| A1 a new card while something is due (new cards ride in a position's visit) | "a new card only when nothing is due"; journey: "24 cards are due: the 20 are due cards, none new" |
+| A2 the guard removed | "the three cards due longest are asked whatever their worth"; journey: "the one card left is the one due longest" |
+| A3 the guard's places not kept | "the three cards due longest…", and the parity replay |
+| A4 a position visited once (what is due past its 6 left for new cards) | "at most 6 a visit; what is due is asked again past 6", and the parity replay |
+| A5 new things take a position past 6 in the day | "new things never take a position past 6 in the day" |
+
+Q1 to Q20 (Q2, Q9 and Q18 left with the floor) and the page's S1 to S10 (S6 to S6d left with R2 b) were run again on the
+new law; each is red at its named test.
+
+**Assertions changed, each saying what it claimed before:**
+- the law's "at least 4 new a day" became "a new card only when nothing is due";
+- "the floor never takes a position past 6" became "new things never take a position past 6 in the day";
+- "at most 6 at a position" ("the three left wait for another day") now reads "asked again past 6 while the goal has room",
+  with the goal at 8 for the old case;
+- the count line no longer says "and how close you are to forgetting them" of new cards, and a day of reviews reads "new
+  cards come when nothing is due". The units and the gameplan-learning-loop, practice-page and srs-due journeys print it;
+- practice-mix's "at least 4 new a day" became "new cards fill only what the due cards leave of the goal";
+- practice-order's "at least 4 new" became "24 cards are due: the 20 are due cards, none new";
+- the real-wire unit's "at least 4 new" became "every due card asked, new cards fill the rest";
+- the page suite's R2 b test and its NOT COVERED note left with the floor.
+
+**Runs, ANKI1** (local, under the lock, 13 and 14 Nov; times from `date`):
+- 23:37 to 00:02 on 25c3a2d6d:
+  - `test:units`: 1,631 of 1,631;
+  - the 26 Practice journey files: 277 passed, 2 red. gameplan-learning-loop read the old explanation; practice-page P1-E's
+    shared question is now filed under Mount|Bottom, whose copy did not wear the test's controlled answer. Both were fixed
+    in ca6d493ed and re-run under the lock (00:12 to 00:21, 14 Nov: the two files 41 of 41, `validate:payload` OK, `ci:validate` 25 of 25);
+  - the journey's A1 and A2, each red at its named assertion, touch and mouse;
+  - the app rows re-seeded (fe58e4b2d);
+  - `ci:validate`: 25 of 25.
+- The unit mutants were run on the guard of three (all 30 named, red at their tests); the parity runs and the year runs
+  were outside the lock (node only).
+
+**Bytes, ANKI1.** "Share" is this PR alone: the baselines are dev's own level since v1.273.1, and dev has changed no app
+input since.
+
+| figure | cap | this PR | share |
+|---|---|---|---|
+| eager gzip | delta 5,000 on 357,181 | 358,547 | +1,366 (−183 this round: R2 b's count removed) |
+| first-hand core | delta 6,000 on 376,564 | 377,981 | +1,417 |
+| eager raw | 1,600,000 | 1,414,845 | +3,785 on dev's 1,411,060 |
+| deferred raw | its measured use (U170 a, up to ~550,000) | 520,499 (a93d1deef) | +10,230 on dev's 510,269; +199 this round, all `gameplan.js` (19,747 → 19,946) |
