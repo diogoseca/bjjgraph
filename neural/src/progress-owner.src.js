@@ -123,6 +123,109 @@ export function ngProgressMergeMoves(local, cloud, today) {
   }
   return out;
 }
+// THE ANSWERS A COPY HAS NOT YET DELIVERED (v1.280.1, NEXT2, ruled NEXT2-GO). A schedule row written WITHOUT having seen
+// another copy's row of the same card used to meet it in a merge that keeps "the later answer": a first right answer
+// ([d+1, 1, d]: the same row a miss writes) given before a device's first pull, offline, by a guest before signing in, or
+// in a second tab that never saw the first tab's row, replaced a mature schedule with one day, and nothing stored can say
+// whether that answer was right (proven, v1.279.0). So each owner keeps, on THIS browser only, the answers it has not yet
+// seen delivered, and wherever its copy meets another copy's rows (the cloud's at a pull, the account's at the guest join,
+// another tab's at a save) those cards are not merged: they are rebuilt, the other copy's row with these answers applied
+// to it again by the writer (`ngKnowledgeScheduleRow`, passed in: this group file cannot import it), in the order they were
+// given. A right answer then earns its credit on the freshest row and never makes a card due sooner than that copy had it;
+// a miss resets it wherever it was made.
+//   · STORED under `ngProgressLocalKey(owner, "pending")`: local, never synced, never in the blob or the practice key, one
+//     owner's only (another account's or the guest's answers are never replayed onto this owner's rows; the guest join is
+//     the one crossing, and it is the join's own purpose). It survives a reload; a browser that clears its site data loses it
+//     with the copy it belongs to. Written only when an answer is given or delivered: never on a passive boot.
+//   · AN ENTRY: [id, field (0 srs, 1 moves), bucket (deck or seat), item (question or move), ok (1/0), day, after], `after`
+//     being the row this entry left (updated when a replay rebuilds it). The journal: {v: 1, n: next id, g: the highest
+//     guest entry id an account has taken in (accounts only), e: entries in the order given}.
+//   · DELIVERED, and gone from the journal, when a copy the cloud accepted (a push that returned true) or holds (a pulled
+//     blob) has, for the entry's card, the row that entry or a LATER entry of the same card left, or that row with one more
+//     answer given on top of it (another device that pulled it and answered): the rows are the proof, so a push that failed,
+//     a second tab's push of an older copy and an app closed before its push all keep the entry until a copy really holds
+//     it, and an entry already held is never applied twice, a push that landed but answered false included. A card the
+//     other copy has no row of is not rebuilt (the merge keeps this copy's row, as before).
+//   · CAPPED at NG_PROGRESS_JOURNAL_CAP entries (about a month offline at 60 answers a day): beyond it the oldest go, and
+//     their cards meet other copies by the merge's rule, as before v1.280.1.
+// NOT COVERED: answers given before v1.280.1 (no journal: a guest's old 1-day rows can still shorten an account's card at
+// its first join); an older client's answers; a push that landed but answered false and then TWO or more answers on top
+// of it elsewhere before this copy's next pull (the entry is applied again: a miss can count twice); two tabs appending in
+// the same instant (one entry can be lost: that answer
+// meets other copies by the merge's rule); and another DEVICE that pulled before this device's push and then pushes its own
+// older-based copy over it (the cloud push is a whole-blob upsert: until a conditional push exists, this device's next pull
+// meets that device's row by the merge's rule once the entry was delivered).
+export const NG_PROGRESS_JOURNAL_CAP = 2000;
+const NG_PROGRESS_JOURNAL_FIELDS = ["srs", "moves"];
+export function ngProgressJournalEmpty() { return { v: 1, n: 1, g: 0, e: [] }; }
+function ngProgressJournalEntry(e) {
+  return Array.isArray(e) && e.length === 7 && Number.isSafeInteger(e[0]) && e[0] > 0 && (e[1] === 0 || e[1] === 1)
+    && typeof e[2] === "string" && typeof e[3] === "string" && (e[4] === 0 || e[4] === 1) && Number.isSafeInteger(e[5])
+    && Array.isArray(e[6]) && e[6].length >= (e[1] ? 4 : 3) && e[6].every(x => typeof x === "number" && Number.isFinite(x));
+}
+// A damaged or foreign journal reads as empty (the merge's rule, as before): it never throws and never blocks a save.
+export function ngProgressJournalParse(raw) {
+  try {
+    const j = typeof raw === "string" ? JSON.parse(raw) : null;
+    if (!ngProgressObject(j) || j.v !== 1 || !Array.isArray(j.e)) return ngProgressJournalEmpty();
+    const e = j.e.filter(ngProgressJournalEntry);
+    const n = Math.max(Number.isSafeInteger(j.n) ? j.n : 1, ...e.map(x => x[0] + 1), 1);
+    return { v: 1, n, g: Number.isSafeInteger(j.g) && j.g > 0 ? j.g : 0, e };
+  } catch { return ngProgressJournalEmpty(); }
+}
+// the other copy's row as the merges read it (the cloud's `| 0` and today's clamp), or null when it has none
+function ngProgressJournalRow(blob, field, bucket, item, today) {
+  const map = blob && blob[NG_PROGRESS_JOURNAL_FIELDS[field]], b = ngProgressObject(map) && Object.prototype.hasOwnProperty.call(map, bucket) ? map[bucket] : null;
+  const r = ngProgressObject(b) && Object.prototype.hasOwnProperty.call(b, item) ? b[item] : null;
+  if (!Array.isArray(r) || r.length < (field ? 4 : 3) || !r.slice(0, field ? 4 : 3).every(x => typeof x === "number" && Number.isFinite(x))) return null;
+  const head = [r[0] | 0, r[1] | 0, Math.min(today, r[2] | 0)];
+  return field ? head.concat(r[3] ? 1 : 0, r.slice(4)) : head;
+}
+function ngProgressPut(o, k, v) { Object.defineProperty(o, k, { value: v, enumerable: true, writable: true, configurable: true }); }
+const ngProgressSameRow = (a, b) => Array.isArray(a) && Array.isArray(b) && a.length === b.length && a.every((x, i) => x === b[i]);
+// THE REPLAY, pure. `entries` (journal order) meet `other`'s rows; `target` is the blob being built (a merge's result).
+// For each card the entries touch and `other` holds: the entries up to the last one whose `after` equals other's row are
+// HELD by other; the rest are applied again to other's row with `write` (the schedule writer; a moves row carries its
+// answer and its tail as `_gradeMove` writes it), and the card's row in `target` becomes the result. Returns {blob, held:
+// the held ids, rebuilt: id -> the row it now leaves}. A card `other` has no row of is left as `target` has it. Inputs
+// untouched. The caller decides what "held" means: delivered when `other` is the cloud's, nothing more for another tab's.
+export function ngProgressReplay(target, other, entries, write, today) {
+  const out = ngProgressClone(target), held = [], rebuilt = new Map(), byCard = new Map();
+  for (const e of entries || []) {
+    const k = e[1] + "\u0000" + e[2] + "\u0000" + e[3];
+    (byCard.get(k) || byCard.set(k, []).get(k)).push(e);
+  }
+  for (const list of byCard.values()) {
+    const [, field, bucket, item] = list[0], base = ngProgressJournalRow(other, field, bucket, item, today);
+    if (!base) continue;
+    // other holds an entry when its row is the row that entry left, or that row with ONE more answer given on top of it
+    // (another device answering the row it pulled before this copy learned its push had landed)
+    const step = (from, ok) => { const head = write(from.slice(0, 3), ok === 1, base[2]); return field ? head.concat(ok, from.length > 4 ? from.slice(4) : []) : head; };
+    const holds = (after) => ngProgressSameRow(base, after) || (base[2] >= after[2] && (ngProgressSameRow(base, step(after, 1)) || ngProgressSameRow(base, step(after, 0))));
+    let at = -1;
+    for (let i = 0; i < list.length; i++) if (holds(list[i][6])) at = i;
+    for (let i = 0; i <= at; i++) held.push(list[i][0]);
+    if (at === list.length - 1) continue;
+    let row = base;
+    for (let i = at + 1; i < list.length; i++) {
+      const e = list[i], head = write(row.slice(0, 3), e[4] === 1, e[5]);
+      row = field ? head.concat(e[4], row.length > 4 ? row.slice(4) : []) : head;
+      rebuilt.set(e[0], row);
+    }
+    const name = NG_PROGRESS_JOURNAL_FIELDS[field];
+    if (!ngProgressObject(out[name])) out[name] = {};
+    // define, never assign: a deck name is data (`__proto__` included), as ngKnowledgeClone has it
+    if (!ngProgressObject(Object.prototype.hasOwnProperty.call(out[name], bucket) ? out[name][bucket] : null)) ngProgressPut(out[name], bucket, {});
+    ngProgressPut(out[name][bucket], item, row);
+  }
+  return { blob: out, held, rebuilt };
+}
+// the journal after a replay: held entries gone when `drop`, rebuilt entries carrying the row they now leave
+export function ngProgressJournalAfter(journal, replay, drop) {
+  const gone = new Set(drop ? replay.held : []);
+  const e = journal.e.filter(x => !gone.has(x[0])).map(x => replay.rebuilt.has(x[0]) ? x.slice(0, 6).concat([replay.rebuilt.get(x[0])]) : x);
+  return { ...journal, e };
+}
 // GUEST PRACTICE JOINS THE ACCOUNT AT SIGN-IN (v1.262.0, the owner, 11 Nov, U138 a "Always automatic"). Until v1.261.x
 // a guest copy reached an account only through the menu's "Review guest progress" and its dialog, which every
 // signed-in player saw for good (the sign-in itself writes a guest copy, and Import kept it). Now `joinGuest` adds the
@@ -149,8 +252,11 @@ export function ngProgressMergeMoves(local, cloud, today) {
 // badges/coins/explored/tut union, challenges MAX progress, lists add-wins). Units, `belts.won` records, `dayLog.w` and
 // fields from later builds keep the account's value where it has one: the account's value AFTER the first pull, i.e.
 // the cloud's too, because the join runs only then (the second reader: "holds only against the local copy" was true of
-// the first build). `srs` keeps the pull's rule: a guest's later miss can bring a card back sooner; no figure reads the
-// schedule's interval, and today's count is a union. tests/guest_join_safety.test.mjs.
+// the first build). `srs` keeps the pull's rule, except for the cards the guest answered since v1.280.1: those are rebuilt
+// on the account's rows from the guest's journal (`joinGuest`, `ngProgressReplay`), so a guest's first right answer no
+// longer turns the account's mature card into one day, and a guest's miss still brings it back. The rating reads the
+// schedule's interval since v1.279.0, so a shortened row cost a player rating. tests/guest_join_safety.test.mjs,
+// tests/answers_before_sync.test.mjs.
 // THE OPEN RULE'S TWO VALUES (v1.270.0, U163 c; the app's `_syncBelt`, `_recallCarried`). `openAt`, when the open rule
 // first ran for an owner, is left out of the guest PART, so it is neither in the copy's hash nor in the practice key (a
 // bare landing writes one: tests/guest_join_safety.test.mjs 20). It joins the MERGE all the same (`ngProgressGuestMerge`
@@ -358,7 +464,8 @@ function ngProgressSameOwner(a, b) { return ngProgressOwnerId(a) === ngProgressO
 export function ngProgressLocalKey(owner, field = "progress") {
   // `guest` (v1.262.0): on an account, the hash of the guest copy it last took (or found nothing in) on this device
   // `device` (v1.262.11): this browser's code for the owner's roll-ledger partition (host `flowDevice`, below)
-  if (!["progress", "ladder", "firstroll", "coached", "guest", "device"].includes(field)) throw new TypeError("Unknown account-owned local field");
+  // `pending` (v1.280.1): the owner's answers this browser has not yet seen delivered (`ngProgressReplay`, host `journal`)
+  if (!["progress", "ladder", "firstroll", "coached", "guest", "device", "pending"].includes(field)) throw new TypeError("Unknown account-owned local field");
   return NG_PROGRESS_OWNER_PREFIX + ngProgressOwnerId(owner) + ":" + field;
 }
 // A stored roll-ledger code: `b` + 16 hex as minted since v1.262.11, or any later short id (tolerant on purpose: a later
@@ -546,10 +653,17 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
   };
   const guestMerge = (live, guestBlob) => ngProgressGuestMerge(semanticMerge, live, guestBlob, app && app.NG_FLOW_DEVICES);
   const guestKey = blob => ngProgressHash(ngProgressCloudKey(ngProgressGuestPart(blob)));
+  // THE JOURNAL (v1.280.1, `ngProgressReplay`): the owner's answers this browser has not yet seen delivered. A damaged or
+  // unreadable journal reads as empty (the merge's rule, as before); a journal that cannot be written loses nothing else.
+  const journalKey = owner => ngProgressLocalKey(owner, "pending");
+  const readJournal = owner => { try { return ngProgressJournalParse(storage.getItem(journalKey(owner))); } catch { return ngProgressJournalEmpty(); } };
+  const writeJournal = (owner, j) => { try { storage.setItem(journalKey(owner), JSON.stringify(j)); return true; } catch { return false; } };
+  const replayer = inst => inst && typeof inst._scheduleWrite === "function" && typeof inst._epochDay === "function"
+    ? { write: (p, ok, d) => inst._scheduleWrite(p, ok, d), today: inst._epochDay() } : null;
   const mergeExternal = (owner, live, saved) => {
     const raw = observed.get(ngProgressOwnerId(owner));
     if (!saved.blob || raw === saved.raw) return live;
-    const combined = semanticMerge(live, saved.blob);
+    let combined = semanticMerge(live, saved.blob);
     if (raw) {
       const base = JSON.parse(raw).blob;
       // A change in unrelated evidence is not a concurrent edit of this field.
@@ -703,6 +817,47 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       storeCode(inst, code);
       return code;
     },
+    // ── v1.280.1 (NEXT2): the owner's undelivered answers (`ngProgressReplay`) ──
+    // `rows`: [[field, bucket, item, ok, day, after], …] as the app's writers leave them. Appended in order, persisted at
+    // once (an app closed before its next save keeps the answer), capped.
+    journal(inst, rows) {
+      if (!host.current(inst) || !Array.isArray(rows) || !rows.length) return [];
+      const owner = inst._progressOwner, j = readJournal(owner), ids = [];
+      for (const r of rows) {
+        const e = [j.n].concat(Array.isArray(r) ? r : []);
+        if (!ngProgressJournalEntry(e)) continue;
+        j.n++; j.e.push(ngProgressClone(e)); ids.push(e[0]);
+      }
+      if (!ids.length) return [];
+      if (j.e.length > NG_PROGRESS_JOURNAL_CAP) j.e = j.e.slice(j.e.length - NG_PROGRESS_JOURNAL_CAP);
+      if (!writeJournal(owner, j)) return [];
+      return ids;
+    },
+    // AT A PULL: `next` is the pull's merge of this copy with `cloud`. The journal's cards the cloud holds are rebuilt on
+    // the cloud's rows; entries the cloud already holds are delivered and leave the journal; the others carry the rows
+    // they now leave, so the push that follows delivers them.
+    replayCloud(inst, next, cloud) {
+      const R = host.current(inst) ? replayer(inst) : null;
+      if (!R) return next;
+      const owner = inst._progressOwner, j = readJournal(owner);
+      if (!j.e.length) return next;
+      const r = ngProgressReplay(next, cloud, j.e, R.write, R.today);
+      if (r.held.length || r.rebuilt.size) writeJournal(owner, ngProgressJournalAfter(j, r, true));
+      ngProgressValidateBlob(r.blob);
+      return r.blob;
+    },
+    // AFTER A PUSH the cloud accepted, alone in this tab: the entries whose rows that copy holds are delivered.
+    delivered(inst, snap) {
+      const R = host.current(inst) ? replayer(inst) : null;
+      if (!R) return 0;
+      const owner = inst._progressOwner, j = readJournal(owner);
+      if (!j.e.length) return 0;
+      const r = ngProgressReplay(snap, snap, j.e, R.write, R.today);
+      if (!r.held.length) return 0;
+      const gone = new Set(r.held);
+      writeJournal(owner, { ...j, e: j.e.filter(e => !gone.has(e[0])) });
+      return r.held.length;
+    },
     cloudSnapshot(inst) {
       if (!host.current(inst)) throw new Error("Stale progress owner");
       const saved = store.read(inst._progressOwner);
@@ -758,15 +913,33 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       const key = guestKey(found.blob), mark = ngProgressLocalKey(inst._progressOwner, "guest");
       let seen; try { seen = storage.getItem(mark); } catch { return ngProgressFailure("storage-unreadable"); }
       if (seen === key) return { status: "seen" };
-      let live, combined, adds;
+      let live, combined, adds, taken = null;
       try {
         live = inst._progressBlob(); combined = guestMerge(live, found.blob);
+        // v1.280.1: the guest's answers the account has not taken in yet (ids above the account journal's `g`) meet the
+        // account's rows rebuilt on them, never merged: a guest's first right answer no longer turns the account's mature
+        // card into one day. They then become the account's own undelivered answers, so its push delivers them.
+        const R = replayer(inst);
+        if (R) {
+          const gj = readJournal(ngProgressOwner()), aj = readJournal(inst._progressOwner), fresh = gj.e.filter(e => e[0] > aj.g);
+          if (fresh.length) {
+            const r = ngProgressReplay(combined, live, fresh, R.write, R.today);
+            combined = r.blob; taken = { aj, fresh, r };
+          }
+        }
         adds = ngProgressPracticeKey(combined) !== ngProgressPracticeKey(semanticMerge(live, { v: 2 }));
       } catch { return ngProgressFailure("merge-failed"); }
       if (!adds) { try { storage.setItem(mark, key); } catch { /* looked at again next time: harmless */ } return { status: "nothing" }; }
       if (!ngProgressBlob(combined)) return ngProgressFailure("merge-failed");
       const saved = preservingStore.write(inst._progressOwner, combined);
       if (saved.status !== "saved") { inst._progressStorageError = saved.reason; return saved; }   // nothing marked
+      if (taken) {
+        const { aj, fresh, r } = taken, held = new Set(r.held);
+        for (const e of fresh) if (!held.has(e[0])) aj.e.push([aj.n++].concat(e.slice(1, 6), [r.rebuilt.get(e[0]) || e[6]]));
+        if (aj.e.length > NG_PROGRESS_JOURNAL_CAP) aj.e = aj.e.slice(aj.e.length - NG_PROGRESS_JOURNAL_CAP);
+        aj.g = Math.max(aj.g, ...fresh.map(e => e[0]));
+        writeJournal(inst._progressOwner, aj);
+      }
       // Marked only after the account's copy holds the practice. A mark that fails to write (or is lost) is looked at
       // again after the next pull: the account then already holds this practice, so the join finds nothing to add, is
       // marked and stays silent; it says the line again only if the practice is in neither this browser's account copy
