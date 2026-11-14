@@ -61,40 +61,49 @@ async function rest(page) {
   await sleep(120)
 }
 
-/** the three marked orbs and a bare one: dealt, own (not a threat), centre on the free map, 34 px apart, nearest the middle */
+/** the map's four (recalled, answered, both, bare) on the free map (centre under no control, 34 px apart, nearest the middle):
+ *  recalled and both are dealt orbs (a Yes is given to a dealt move); answered and bare are dealt orbs when enough are free,
+ *  else the nearest other orbs (a learned deck marks any orb). The cards' four are dealt cards: the same where the map's
+ *  are dealt, else other dealt cards (a card's seal shows wherever its orb is). */
 const choose = (page) => page.evaluate(() => {
   const a = window.__neural, W = a.W, H = a.H, scale = W / a.cam.vw, cv = a.canvas.getBoundingClientRect()
-  const on = (c) => { const n = c.opt.node, x = (n.x - a.cam.cx) * scale + W / 2, y = (a._LY(n) - a.cam.cy) * scale + H / 2; const el = document.elementFromPoint(x + cv.left, y + cv.top); return { x, y, free: x > 30 && x < W - 30 && y > 60 && y < H - 30 && el === a.canvas } }
-  const own = (a._optionCards || []).filter((c) => !c.opt.threat && c.opt.node && c.opt.node.role !== "defender" && c.opt.action !== "escape").map((c) => ({ c, ...on(c) })).filter((o) => o.free)
-  own.sort((p, q) => Math.hypot(p.x - W / 2, p.y - H * 0.42) - Math.hypot(q.x - W / 2, q.y - H * 0.42))
-  const pick = []
-  for (const o of own) if (pick.every((p) => Math.hypot(p.x - o.x, p.y - o.y) > 34)) { pick.push(o); if (pick.length === 4) break }
-  const out = pick.map((o) => ({ id: o.c.opt.node.id, idx: o.c.opt.idx, name: a.graphName(o.c.opt.node), tech: o.c.card.getAttribute("data-tech") }))
-  if (out.length === 3) {
-    // the phone's row covers the lower map: the bare one is then the nearest other orb on the free map (no mark either way)
-    const mask = a._rulesetMask(), seat = a.focusIdx, taken = new Set(out.map((o) => o.idx))
-    const bare = a.nodes.filter((n) => mask[n.idx] && (n.rep || !n.z) && n.role !== "defender" && n.idx !== seat && !taken.has(n.idx) && (a.nodes[seat] || {}).pi !== n.idx)
-      .map((n) => { const x = (n.x - a.cam.cx) * scale + W / 2, y = (a._LY(n) - a.cam.cy) * scale + H / 2; const el = document.elementFromPoint(x + cv.left, y + cv.top); return { n, x, y, free: x > 30 && x < W - 30 && y > 60 && y < H - 30 && el === a.canvas } })
-      .filter((o) => o.free && pick.every((p) => Math.hypot(p.x - o.x, p.y - o.y) > 34))
-      .sort((p, q) => Math.hypot(p.x - W / 2, p.y - H * 0.42) - Math.hypot(q.x - W / 2, q.y - H * 0.42))[0]
-    if (bare) out.push({ id: bare.n.id, idx: bare.n.idx, name: a.graphName(bare.n), tech: null, notDealt: true })
-  }
-  return out
+  const at = (n) => { const x = (n.x - a.cam.cx) * scale + W / 2, y = (a._LY(n) - a.cam.cy) * scale + H / 2; const el = document.elementFromPoint(x + cv.left, y + cv.top); return { x, y, free: x > 30 && x < W - 30 && y > 60 && y < H - 30 && el === a.canvas } }
+  const mid = (p, q) => Math.hypot(p.x - W / 2, p.y - H * 0.42) - Math.hypot(q.x - W / 2, q.y - H * 0.42)
+  const cards = (a._optionCards || []).filter((c) => !c.opt.threat && c.opt.node && c.opt.node.role !== "defender" && c.opt.action !== "escape")
+  const dealt = cards.map((c) => ({ c, idx: c.opt.idx, ...at(c.opt.node) })).filter((o) => o.free).sort(mid)
+  const map = []
+  for (const o of dealt) if (map.every((p) => Math.hypot(p.x - o.x, p.y - o.y) > 34)) { map.push(o); if (map.length === 4) break }
+  if (map.length < 2) return { error: "only " + map.length + " dealt orbs on the free map" }
+  const mask = a._rulesetMask(), seat = a.focusIdx, taken = new Set(map.map((o) => o.idx))
+  const role = { top: "Top", bottom: "Bottom", attacker: "Attacker" }
+  const deckOf = (n) => (n.ty === "positions" ? n.t.replace(/\s+(Top|Bottom)\s*$/i, "") : n.t) + "|" + role[n.role]
+  const others = a.nodes.filter((n) => mask[n.idx] && (n.rep || !n.z) && role[n.role] && n.idx !== seat && (a.nodes[seat] || {}).pi !== n.idx && !taken.has(n.idx) && (a.flashcards.decks[deckOf(n)] || {}).n > 0)
+    .map((n) => ({ n, idx: n.idx, ...at(n) })).filter((o) => o.free).sort(mid)
+  const more = () => { const o = others.find((o) => !taken.has(o.idx) && map.every((p) => Math.hypot(p.x - o.x, p.y - o.y) > 34)); if (o) { taken.add(o.idx); map.push(o) } return o }
+  // the map: [recalled, answered, both, bare]
+  const m = [map[0], map[2] || more(), map[1], map[3] || more()]
+  if (m.some((o) => !o)) return { error: "no free orb for every state" }
+  const used = new Set(m.filter((o) => o.c).map((o) => o.idx)), spare = cards.filter((c) => !used.has(c.opt.idx))
+  const card = (o) => o.c ? o.c.opt.idx : (spare.shift() || {}).opt?.idx
+  const pick = m.map((o, i) => ({ k: ["recalled", "answered", "both", "bare"][i], idx: o.idx, name: a.graphName(a.nodes[o.idx]), dealt: !!o.c, card: card(o) }))
+  return { pick }
 })
 
 async function know(page, pick) {
-  // recalled = pick[0], answered = pick[1], both = pick[2], bare = pick[3]
+  // a Yes on the recalled and both cards; the decks of the answered and both orbs learned, and of the answered card when it is
+  // another (so its seal shows the disc)
   return page.evaluate(async (pick) => {
     const a = window.__neural, byIdx = (i) => (a._optionCards || []).find((c) => c.opt.idx === i)
-    for (const p of [pick[0], pick[2]]) { const c = byIdx(p.idx); a._gradeMove(c.opt, true, c.card) }
+    for (const p of [pick[0], pick[2]]) { const c = byIdx(p.card); a._gradeMove(c.opt, true, c.card) }
     const role = { top: "Top", bottom: "Bottom", attacker: "Attacker" }
-    for (const p of [pick[1], pick[2]]) {
-      const n = a.nodes[p.idx], key = (n.ty === "positions" ? n.t.replace(/\s+(Top|Bottom)\s*$/i, "") : n.t) + "|" + role[n.role]
+    const learn = async (idx) => {
+      const n = a.nodes[idx], key = (n.ty === "positions" ? n.t.replace(/\s+(Top|Bottom)\s*$/i, "") : n.t) + "|" + role[n.role]
       if (!a._deckHasCards(key)) await a.hydrateDeck(key)
-      const d = a.flashcards.decks[key]
-      a.stage[key] = Object.fromEntries(a._cardsOf(d).map((c) => [a.qhash(c.q), 3]))
-      p.key = key
+      a.stage[key] = Object.fromEntries(a._cardsOf(a.flashcards.decks[key]).map((c) => [a.qhash(c.q), 3]))
+      return key
     }
+    pick[1].key = await learn(pick[1].idx); pick[2].key = await learn(pick[2].idx)
+    if (pick[1].card !== pick[1].idx) pick[1].cardKey = await learn(pick[1].card)
     a._publishKnowledge("pictures:knowledge")
     return pick.map((p) => ({ ...p, mastery: p.key ? a.deckMastery(p.key) : null }))
   }, pick)
@@ -116,13 +125,13 @@ async function shot(page, name, extra) {
 /** the cards of the four, cropped where they sit (scrolled into the row), true size */
 async function seals(page, name, pick) {
   const out = []
-  for (const [k, p] of [["recalled", pick[0]], ["answered", pick[1]], ["both", pick[2]], ["bare", pick[3]]].filter(([, p]) => p && !p.notDealt)) {
+  for (const [k, p] of [["recalled", pick[0]], ["answered", pick[1]], ["both", pick[2]], ["bare", pick[3]]].filter(([, p]) => p && p.card != null)) {
     const box = await page.evaluate((idx) => {
       const a = window.__neural, c = (a._optionCards || []).find((c) => c.opt.idx === idx).card
       c.scrollIntoView({ inline: "center", block: "nearest", behavior: "instant" })
       const r = c.getBoundingClientRect()
       return { x: r.left, y: r.top, w: r.width, h: r.height, seal: c.getAttribute("data-seal") }
-    }, p.idx)
+    }, p.card)
     await page.evaluate(() => window.__neural.advance(34)); await sleep(350)
     const f = path.join(OUT, `${name}-${k}-${TAG}.png`)
     const vp = page.viewportSize()
@@ -165,12 +174,12 @@ const VPS = [{ key: "phone", w: 390, h: 844, dpr: 3, mobile: true }, { key: "des
 for (const vp of VPS) {
   const { ctx, page } = await boot(vp)
   if (ONLY !== "overlap") {
-    const pick = await choose(page)
-    if (pick.length < 4) throw Error(vp.key + ": only " + pick.length + " dealt orbs on the free map")
-    const known = await know(page, pick)
+    const ch = await choose(page)
+    if (ch.error) throw Error(vp.key + ": " + ch.error)
+    const known = await know(page, ch.pick)
     meta[vp.key + "-pick"] = known
-    await page.evaluate((idx) => { window.__shootExtra = idx }, known.filter((p) => p.notDealt).map((p) => p.idx))
-    console.log(vp.key, known.map((p) => p.name + (p.mastery != null ? " m=" + p.mastery : "")).join(" | "))
+    await page.evaluate((idx) => { window.__shootExtra = idx }, known.filter((p) => !p.dealt).map((p) => p.idx))
+    console.log(vp.key, known.map((p) => p.k + ": " + p.name + (p.dealt ? "" : " (not dealt)") + (p.mastery != null ? " m=" + p.mastery : "")).join(" | "))
     await page.evaluate(() => { const a = window.__neural, row = a.optionsRef && a.optionsRef.current; if (row) row.scrollTo({ left: 0, behavior: "instant" }) })
     await rest(page)
     await shot(page, vp.key + "-landing")
