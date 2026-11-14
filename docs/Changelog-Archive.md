@@ -17893,7 +17893,7 @@ guard table reproduced. Its seven findings, as ruled:
    - the build census is dev's whole, and the app rows are re-seeded on the committed head.
    Every new string of this PR that names the view now says "Master the game": the Path band's aria and its words ("Start
    today's session"), the plan's explanation and its heading. They are pinned in practice-order.spec.ts and
-   tests/practice_queue.test.mjs; nothing pinned them before. This PR is renumbered from 1.278.0 to 1.278.0.
+   tests/practice_queue.test.mjs; nothing pinned them before. This PR is renumbered from 1.274.0 to 1.278.0.
 
 Item b of STAGE3-R2 (the "Not covered" paragraph above: the floor's reload) was withdrawn with the floor in ANKI1.
 

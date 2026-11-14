@@ -26,6 +26,11 @@
 //   S8  a Path lesson's row not marked as one                                              → the queue's last label is "From the Path"
 //   S9  the count line counting a lesson under "More new cards"                            → "; N from the Path"
 //   S10 the door's visit sent as the page's (`surface: "practice"`)                        → "one Practice visit, from the door"
+// R409 (the reader's finding 1: the guard and the live set; the pure order's half is tests/practice_queue.test.mjs):
+//   G3 the re-plan removed (an untouched session keeps the plan it took without the set)  → "an untouched session takes its plan again…"
+//   G4 the re-plan on a touched session (touched read as untouched)                         → "a touched session keeps its plan…"
+//   G5 the re-plan firing twice (the once-flag `guardSettled` removed)                       → "the plan is taken again once…"
+//   G6 the event dropped                                                                     → "a touched session keeps its plan…", and the failed and ended ones
 // ANKI1-R1 (the reader's delta read): R2c, a gone card keeping its row open → "a session whose row turns out gone from its
 //   deck completes, and Keep practising is on its card"; R4, the law's visits not carried to the page → "Keep practising
 //   deals the next round…" (at most 6 a visit, the true claim since the page folds a position's second visit into its first)
@@ -39,8 +44,8 @@ import { dirname, resolve } from "node:path";
 import * as G from "../neural/src/gameplan.src.js";
 import * as GD from "../neural/src/gameplan-debt.src.js";
 import { ngKnowledgeQuestionHash, ngKnowledgeScheduleRow } from "../neural/src/knowledge-profile.src.js";
-import { ratingApp } from "./_rating_fixture.mjs";
-import { orderFixture } from "./_practice_order_fixture.mjs";
+import { ratingApp, ratingLiveFiles } from "./_rating_fixture.mjs";
+import { orderFixture, guardFixture } from "./_practice_order_fixture.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const DIR = resolve(HERE, "../source/quartz/static/neural");
@@ -51,10 +56,11 @@ const el = () => ({ attrs: {}, children: [], textContent: "", style: {}, listene
 globalThis.document = globalThis.document || { createElement: el };
 const CARDS = (() => { const c = {}; for (const f of readdirSync(resolve(DIR, "flashcards")).sort()) if (f !== "_index.json") Object.assign(c, JSON.parse(readFileSync(resolve(DIR, "flashcards", f), "utf8"))); return c; })();
 
-/** the app on the real wire, every deck's cards loaded, the page's painting stubbed; `blob` is the stored record */
-function page(blob, day) {
-  const a = ratingApp(DIR, "gi");
-  for (const [dk, d] of Object.entries(a.flashcards.decks)) if (CARDS[dk]) d.cards = CARDS[dk].cards;
+/** the app on the real wire, every deck's cards loaded, the page's painting stubbed; `blob` is the stored record. R409:
+ *  `{bare: true}` loads no deck and leaves the rating's live set unasked (a fresh page) */
+function page(blob, day, { bare = false } = {}) {
+  const a = ratingApp(DIR, "gi", { live: !bare });
+  if (!bare) for (const [dk, d] of Object.entries(a.flashcards.decks)) if (CARDS[dk]) d.cards = CARDS[dk].cards;
   a._epochDay = () => day; a._dayKey = () => "today"; a._days = {};
   a.srs = structuredClone(blob.srs); a.stage = structuredClone(blob.stage || {}); a.prep = {}; a.rec = {};
   a._gameplanRuntime = G; a.weakSpots = () => ({ cold: true, keys: Object.keys(a.flashcards.decks).filter((k) => k.endsWith("|Attacker")).slice(0, 30), veryWeak: [], weak: [] });
@@ -290,4 +296,100 @@ test("a session whose row turns out gone from its deck completes, and Keep pract
   const done = a._sessionDoneCard(s), next = done.children.find((c) => c.attrs && c.attrs["data-plan-next"]);
   assert.ok("data-session-complete" in done.attrs, "the completion card");
   assert.ok(next && next.textContent === "Keep practising", "and Keep practising on it");
+});
+
+// ── R409: the guard and the live set ─────────────────────────────────────────────────────────────────────────────────────
+// The real `ratingCheck` asks for the live files through `fetch`; here each ask is HELD until `release(ok)` lets it land (the
+// payload's own files, or a failed answer), and `release` resolves once the check's chain, the guard's settle included, has
+// run. The session is opened as the app opens it at the tap, with the check in flight: `coldSession`, then the plan.
+const LIVE = ratingLiveFiles(DIR);
+function held(a) {
+  let open;
+  const gate = new Promise((r) => (open = r));
+  globalThis.fetch = (url) => gate.then((ok) => ({ ok, json: () => Promise.resolve(ok ? LIVE[+/live-(\d+)\.json/.exec(url)[1]] : null) }));
+  const check = a.ratingCheck();
+  return (ok = true) => { open(ok); return check; };
+}
+function guardSession(opts = {}) {
+  const fx = guardFixture(DIR), { a, painted } = page(fx.blob, fx.day, { bare: true });
+  const tracked = []; a.track = (name, props) => tracked.push([name, props]);
+  if (opts.unlisted) {
+    // a live set that does not list one deck (its own deck of the three): the plan taken again is short that one card
+    const from = a._ratingLiveFrom.bind(a);
+    a._ratingLiveFrom = (files, fp) => { const r = from(files, fp); if (r.decks) r.decks.delete(fx.light[0]); return r; };
+  }
+  const release = held(a);
+  assert.equal(a._ratingLiveNow().status, "checking", "premise: the check is in flight at the tap");
+  const s = coldSession(a, fx.day);
+  a._practiceAppend(s, a.planSummary());
+  const rows = () => JSON.stringify(s.plan.due.concat(s.plan.fresh).map((r) => [r.key, r.questions, r.visit]));
+  const asked = () => fx.oldest.filter((q) => s.plan.dueQuestions.includes(q)).length;
+  assert.equal(s.plan.order, "worth");
+  assert.deepEqual([s.plan.guarded, asked(), s.plan.dueCards], [false, 0, 20], "premise: mounted without the guard, the three due longest not asked");
+  assert.ok(!s.plan.why.includes("The three cards due longest"), "and the explanation does not claim the guard");
+  return { fx, a, s, painted, tracked, release, rows, asked };
+}
+
+test("an untouched session takes its plan again, once, when the live set lands after the tap (R409)", async () => {
+  const { a, s, painted, tracked, release, asked } = guardSession();
+  const first = s.keys[0], rendered = painted.rendered;
+  await release(true);
+  assert.equal(a._ratingLiveNow().status, "ok");
+  assert.deepEqual([s.plan.guarded, asked(), s.plan.dueCards], [true, 3, 20], "the three due longest are among the 20");
+  assert.ok(s.plan.why.includes("The three cards due longest come every day"), "and now the explanation says so");
+  assert.equal(painted.rendered, rendered + 1, "the page was laid out again, once");
+  assert.deepEqual([s.idx, s.keys[0]], [0, first], "on the same first position: what the player sees first does not change for this player");
+  assert.deepEqual(tracked, [], "taken again: no event");
+});
+
+test("a touched session keeps its plan when the live set lands, and says so once (R409)", async () => {
+  // touched three ways: a row opened, a card turned, a card answered. The second-plan law stays: the rows do not move.
+  for (const how of ["moved", "turned", "answered"]) {
+    const { a, s, tracked, release, rows, asked } = guardSession();
+    const before = { keys: s.keys.slice(), rows: rows() };
+    if (how === "moved") s.moved = true;
+    if (how === "turned") a._deckState[s.keys[s.idx]] = { idx: 0, revealed: true };
+    if (how === "answered") { const t = a.practiceToday(); a.practiceToday = () => ({ ...t, done: t.done + 1 }); }
+    await release(true);
+    assert.deepEqual(s.keys, before.keys, how + ": the same rows, in the same order");
+    assert.equal(rows(), before.rows, how + ": and the same cards in them");
+    assert.deepEqual([s.plan.guarded, asked()], [false, 0], how + ": the plan it took");
+    assert.deepEqual(tracked, [["neural_practice_unguarded", { reason: "touched", short: 3, owed: s.plan.counts.law.owed }]], how + ": one event, counts only");
+    // a study comparison landing later keeps the explanation true of these rows (the guard sentence not said)
+    a._practiceAppend(s, a.planSummary(), []);
+    assert.equal(rows(), before.rows, how + ": a second plan moves nothing either");
+    assert.ok(!s.plan.why.includes("The three cards due longest"), how + ": and the explanation still does not claim the guard");
+  }
+});
+
+test("a session whose check failed, or that was left, keeps its plan and says which (R409)", async () => {
+  const f = guardSession();
+  const before = f.rows();
+  await f.release(false);
+  assert.equal(f.a._ratingLiveNow().status, "unchecked", "premise: the check failed");
+  assert.equal(f.rows(), before, "failed: the plan it took");
+  assert.deepEqual(f.tracked.map((t) => t[1].reason), ["failed"]);
+  // the next open asks again and the set lands: the session stays as it was, and says nothing more
+  await held(f.a)(true);
+  assert.equal(f.a._ratingLiveNow().status, "ok");
+  assert.equal(f.rows(), before, "a later check does not re-plan a settled session");
+  assert.equal(f.tracked.length, 1, "nor send a second event");
+  const e = guardSession();
+  e.a._session = null;   // the player closed Practice before the set landed
+  await e.release(true);
+  assert.deepEqual(e.tracked.map((t) => t[1].reason), ["ended"]);
+});
+
+test("the plan is taken again once, even when a second check lands on a plan still short (R409)", async () => {
+  // a set that does not list the deck of one of the three: the plan taken again holds two of them and is still short one
+  const { a, s, painted, tracked, release, asked } = guardSession({ unlisted: true });
+  await release(true);
+  assert.deepEqual([s.plan.guarded, asked()], [false, 2], "taken again with the set: two of the three, the third not known");
+  const after = painted.rendered, rows = JSON.stringify(s.plan.due.map((r) => [r.key, r.questions]));
+  // a second check lands (a new manifest's, say): the session is not planned a third time
+  a._ratingLive = null;
+  await held(a)(true);
+  assert.equal(painted.rendered, after, "laid out once, not twice");
+  assert.equal(JSON.stringify(s.plan.due.map((r) => [r.key, r.questions])), rows);
+  assert.deepEqual(tracked, []);
 });

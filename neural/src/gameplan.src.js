@@ -257,11 +257,15 @@ function ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, r
   }
   const dueQuestions = [...new Set(due.flatMap((r) => r.owed))];
   const newCards = rows.reduce((n, r) => n + r.count - r.owed.length, 0), total = dueQuestions.length + newCards;
+  // THE GUARD IS WHOLE only when every one of the three due longest was known to be answerable (R409, the reader's finding
+  // 1): built before the rating's live set landed, it guards the shared questions alone, so the sentence is not said and the
+  // app plans an untouched session again when the set lands (`_practiceGuard`)
+  const guarded = !order.counts.law.short;
   return ngGameplanFreeze({
     version: NG_GAMEPLAN_VERSION, day, ruleset, revision, stamp, target: budget, queue: rows.map((r) => r.key),
     reviewed, due, fresh, more, blocked: debt.blocked, dueQuestions, status: ranking.status, comparison,
     assumptions: ranking.assumptions, newFrom: "worth", order: "worth", orderStatus: "ok",
-    visits: order.visits, counts: order.counts, missing: ranking.missing, room: newCards, newCards, dueCards: dueQuestions.length,
+    visits: order.visits, counts: order.counts, guarded, missing: ranking.missing, room: newCards, newCards, dueCards: dueQuestions.length,
     total, overrun: Math.max(0, reviewed.length + total - budget),
     // ANKI1-R1: "at most 6" is a visit's, not the page's (a position comes round again while its cards are due, the
     // reader's finding 4); "nothing is due" is this ruleset's game (a card in a deck it hides waits in "Everything owed",
@@ -270,7 +274,7 @@ function ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, r
     // NG_PRACTICE_NAME, so the words are here; tests/practice_queue.test.mjs pins the two equal
     why: "Master the game asks the cards that are due first, position by position, starting where it is worth most: what comes up most in " +
       "your rolls and what you are closest to forgetting. It asks about six at a position at a time, and a position comes round again " +
-      "while its cards are due. The three cards due longest come every day, so none waits forever. New cards come only when nothing " +
+      "while its cards are due. " + (guarded ? "The three cards due longest come every day, so none waits forever. " : "") + "New cards come only when nothing " +
       "due in this game is left; a card due in a deck this ruleset leaves out waits in \u201cEverything owed, oldest first\u201d. " +
       "Correct answers make your moves more likely to work in the game; that is not a measure of real grappling. A question two decks " +
       "share counts once. \u201cKeep practising\u201d deals the next round; \u201cMore new cards\u201d adds whole new techniques: " +

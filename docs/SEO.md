@@ -195,6 +195,14 @@ Built SDK absence remains the separate `validate:analytics:nokey` gate above.
 It carries no deck key, card or count. Pinned by `e2e/journeys/practice-page.spec.ts` (P1-F: one event per visit, the
 page's `practice`) and `tests/practice_page.test.mjs` (the door's `owed`).
 
+`neural_practice_unguarded` (v1.278.2, R409): once per Practice session that took its plan before the rating's live set
+landed, so its guard could not hold the 3 cards due longest, and kept that plan (`_practiceGuard` in `app.src.jsx`; an
+untouched session is planned again and sends nothing). `reason`: `touched` (a row opened, a card turned or answered
+before the set landed) · `failed` (the check could not read the live files) · `ended` (the session was closed first).
+`short`: how many of the 3 the guard could not take; `owed`: cards owed in this ruleset's game. Counts and a word only:
+no deck key, card or text. Its rate against `neural_practice_opened` is how often a first plan misses the guard. Pinned
+by `tests/practice_page.test.mjs` and `e2e/journeys/practice-order.spec.ts` (the touched case).
+
 ### Cold-start funnel (v1.82.0)
 
 The first-visit path is measured by an OBSERVER of the `fx()` beat stream (`_cs*` in
