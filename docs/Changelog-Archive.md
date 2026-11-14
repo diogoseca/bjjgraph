@@ -17582,7 +17582,7 @@ reader's own children, so a control nested elsewhere is unseen (the spec's and t
 
 Each cap was reading dev's drift since v1.273.0 (PR #410 and #412): eager +4,706 B of 5,000, first-hand core +4,731 B of 6,000; PR #409 would have gone red on it. The orchestrator's call under the owner's Q7 rule (D-327), as PAY2. Dev's bytes, proved: a clean export of 065c4d77c built by its own `regenerate:neural`; 14 app rows sha-equal to dev's fingerprint; all 5,056 `static/neural` files identical to the tree served, swapped in under the lock and restored. Eager 361,887 B and core 381,295 B, equal to CI's build of the same tree. Accepted by the script before the bump (stamped `v1.276.0 (065c4d77c)`); only the baseline fields move, no target, action line or cap. After it both gates read +0. The full record is in the policy's `baseline_reason`.
 
-## v1.279.0 — A name for an orb the player sees under see-through chrome; the v1.275.0 entry's first-cut figures corrected (NEXT1, 2026-11-14)
+## v1.277.0 — A name for an orb the player sees under see-through chrome; the v1.275.0 entry's first-cut figures corrected (NEXT1, 2026-11-14)
 
 **The fault (the independent reader's last check of #410).** `on(c)` refused a name for any orb wholly inside ONE box of
 `_nameBlocks`, and some of those boxes paint nothing over the map: the strip of the row above its cards, the reader's table

@@ -191,7 +191,7 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
     const bd = parseFloat(cs.borderTopWidth) + parseFloat(cs.borderLeftWidth) > 0 && !/rgba\([^)]*,\s*0\)$/.test(cs.borderTopColor)
     const media = /^(IMG|svg|VIDEO|CANVAS|INPUT|SELECT|TEXTAREA)$/i.test(el.tagName) || cs.backgroundImage !== "none"
     if ((bg || bd || media) && eff(el) >= 0.05) put(r, el, el.tagName + "." + String(el.className).split(" ")[0])
-    // PAINT THAT HIDES AN ORB (v1.279.0): a background colour at alpha x effective opacity of 0.5 or more, a background
+    // PAINT THAT HIDES AN ORB (v1.277.0): a background colour at alpha x effective opacity of 0.5 or more, a background
     // image or gradient, a backdrop filter, an image, video or canvas; never text, a border or a line icon (svg)
     const al = (cs.backgroundColor.match(/[\d.]+/g) || []) as string[], e = eff(el)
     if (((al.length > 3 ? +al[3] : al.length ? 1 : 0) * e >= 0.5 || (e >= 0.05 && (cs.backgroundImage !== "none" || (cs.backdropFilter || "none") !== "none" || /^(IMG|VIDEO|CANVAS)$/.test(el.tagName))))) {
@@ -221,7 +221,7 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
     const node = a.nodes[b.i], x = (node.x - a.cam.cx) * s + W_ / 2, y = (a._LY(node) - a.cam.cy) * s + H_ / 2, R = a._nodeHalfW(node, s, a._nodeK, a._lodK, true)
     // R1 finding 5: a name only for an orb whose own silhouette is on the canvas
     if (x + R < 0 || x - R > W_ || y + R < 0 || y - R > H_) offOrb.push(name(b) + ` (orb at ${x.toFixed(0)}, ${y.toFixed(0)})`)
-    // R2 D4: ...nor for an orb whose silhouette lies wholly under paint that hides it (an open drawer, a card; v1.279.0: a
+    // R2 D4: ...nor for an orb whose silhouette lies wholly under paint that hides it (an open drawer, a card; v1.277.0: a
     // see-through box, text or a line icon hides nothing): no visible orb
     const over = covers.find((p) => p.l <= Math.max(0, x - R) && p.r >= Math.min(W_, x + R) && p.t <= Math.max(0, y - R) && p.b >= Math.min(H_, y + R))
     if (over) hidOrb.push(name(b) + ` (orb at ${x.toFixed(0)}, ${y.toFixed(0)} under ${over.what})`)
@@ -242,7 +242,7 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
   // hidden: what shows of the orb (its silhouette box cut to the canvas) lies wholly under one box of paint that hides it
   const hid = (o: W) => covers.some((p) => p.l <= Math.max(0, o.x - o.R) && p.r >= Math.min(W_, o.x + o.R) && p.t <= Math.max(0, o.y - o.R) && p.b >= Math.min(H_, o.y + o.R))
   const hidden = orbs.filter(hid).length
-  // THE PLANNER IS OFFERED EXACTLY THE DEALT ORBS THE BROWSER SHOWS (v1.279.0, NEXT1 part 2; set equality, §6.3): on the
+  // THE PLANNER IS OFFERED EXACTLY THE DEALT ORBS THE BROWSER SHOWS (v1.277.0, NEXT1 part 2; set equality, §6.3): on the
   // canvas and under no paint that hides it, against the moves the frame handed `_planNames` (`watchCands`), each way
   const cands = a.__mnCands as number[] | undefined   // `watchCands` records on the app instance
   let seen: string[] | null = null, thru = 0
