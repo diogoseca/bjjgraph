@@ -19,8 +19,9 @@ import { journey } from "../dsl"
  * Each specimen orb is drawn ALONE (the ruleset mask hides every other node for the
  * shot, the focus and the dealt hand are set aside), at a camera binary-searched until the frame's own published `rs`
  * (`_lastMapMarks`) hits each size; the two sets the draw reads (`_movesGold`, `_answered`) are set per state on the
- * instance. Three pixels per shot: the CENTRE; the middle of the BORDER band, along the edge's normal (a circle's side, a
- * diamond's 45-degree face, a triangle's base), at the edge minus half the border; and just OUTSIDE the edge (+0.5 px).
+ * instance. Four pixels per shot: the CENTRE; the middle of the BORDER band, along the edge's normal (a circle's side, a
+ * diamond's 45-degree face, a triangle's base), at the edge minus half the border; 3/4 px INSIDE the edge; and just OUTSIDE
+ * the edge (+0.5 px).
  * "Gold" and "own colour" are judged by chromaticity against the same pixel with no mark (the "none" state): own = within
  * 0.07 of it and not gold; gold = green over blue by 45 and red at least green less 10 (240,192,90 at 0.95; the red orb's
  * fill is 232,64,64: its green does not clear its blue, so a red orb never reads as gold).
@@ -36,6 +37,8 @@ import { journey } from "../dsl"
  *   G10 the FIRST BUILD (the border stroked over a full      at every size" (G10 is what this spec found: at rs 2.8 the
  *       gold fill, both at the fade's alpha)                 gold showed through the half-faded border, 160,137,117 on a
  *                                                            103,92,103 orb)
+ *   G11 the outside line centred on the edge (half on the   red at the same assertion (3/4 px inside the edge)
+ *       orb), not outset
  * NOT COVERED here: overlapping marked orbs (the pictures show them, outline-built/overlap4x-*); the seat's outside line
  * on its focus mark; the colour of a real orb at a size the camera search did not reach.
  */
@@ -94,12 +97,12 @@ const shoot = (page: Page) => page.evaluate(([RS, STATES]) => {
         // along the edge's normal: a circle's side, a diamond's face at 45 degrees (h = 1.18 r, the face at h / sqrt 2),
         // a triangle's base (h = 1.35 r, the base at 0.72 h)
         const [ux, uy, f] = sp.shape === "circle" ? [1, 0, 1] : sp.shape === "diamond" ? [Math.SQRT1_2, Math.SQRT1_2, 1.18 * Math.SQRT1_2] : [0, 1, 0.972]
-        const e = rs * f, bandAt = Math.max(0.3, e - bw / 2), outAt = e + 0.5
+        const e = rs * f, bandAt = Math.max(0.3, e - bw / 2), outAt = e + 0.5, edgeAt = e - 0.75
         const shots: W = {}
         for (const st of STATES) {
           set(st)
           const ctx = draw(), m = (a._lastMapMarks || []).find((q: W) => q.idx === sp.idx) || got
-          shots[st] = { centre: px(ctx, m.x, m.y), band: px(ctx, m.x + ux * bandAt, m.y + uy * bandAt), out: px(ctx, m.x + ux * outAt, m.y + uy * outAt), inK: m.inK || 0, outMark: !!m.out }
+          shots[st] = { centre: px(ctx, m.x, m.y), band: px(ctx, m.x + ux * bandAt, m.y + uy * bandAt), edge: px(ctx, m.x + ux * edgeAt, m.y + uy * edgeAt), out: px(ctx, m.x + ux * outAt, m.y + uy * outAt), inK: m.inK || 0, outMark: !!m.out }
         }
         out.push({ ...sp, col: undefined, rsT, rs: +rs.toFixed(2), bw: +bw.toFixed(2), shots })
       }
@@ -126,8 +129,10 @@ function judge(r: W, where: string) {
   for (const o of r.out) {
     const s = o.shots, id = `${o.shape} ${o.tone} rs ${o.rsT}`
     for (const st of STATES) {
-      // THE CLAIM: the border band is the orb's own colour in every state
+      // THE CLAIM: the border band is the orb's own colour in every state, and so is the orb just inside its edge (3/4 px in:
+      // the outside line lies wholly outside the silhouette)
       if (!near(s[st].band, s.none.band) || gold(s[st].band)) band.push(`${id} ${st}: band ${s[st].band} against ${s.none.band}`)
+      if (!near(s[st].edge, s.none.edge) || gold(s[st].edge)) band.push(`${id} ${st}: 3/4 px inside the edge ${s[st].edge} against ${s.none.edge}`)
       // the outside line is gold when and only when there is a Yes
       const yes = st === "out" || st === "both"
       if (gold(s[st].out) !== yes) line.push(`${id} ${st}: outside ${s[st].out}${yes ? " not gold" : " gold"}`)

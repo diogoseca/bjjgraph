@@ -102,9 +102,10 @@ const NG_SEAL_WORDS = { recalled: "You recalled this move here", answered: "Its 
 // INSIDE the border (the shape inset by it, `_insetPath`) and the border is the orb's own colour over its own fill: no gold
 // under it at any `k`. The first build stroked the border over a full gold fill, both at alpha `k`, and at rs 2.8 (k 0.5)
 // the gold showed through the half-opaque border (the band read 160,137,117 on a 103,92,103 orb, map-gold.spec.ts).
-// Drawn BATCHED, one clip a frame for the outside however many orbs are marked, none for the inside (`draw()`; measured on
-// the shared box, paired frames, every dealt orb marked twice, 4x CPU throttle: a clip per orb cost +0.4 to +0.5 ms a held
-// frame, batched +0.1 to +0.2; part A of GOLD1).
+// Drawn BATCHED and with no clip in the ordinary frame: the outside line is an outset path (`_outsetPath`), so it never lies
+// on its own orb; one clip only when two outside-marked shapes come within reach (`draw()`). Clips are what cost: measured on
+// the shared box (tests/artifacts/_map_names_frametime.mjs --ab marks, paired frames, every dealt orb marked both ways, 4x
+// CPU throttle), a clip per orb cost +0.4 to +0.5 ms a held frame, and so did the first build's clip per overlapping shape.
 const NG_MAP_MARKS = { gold: { r: 240, g: 192, b: 90 }, goldA: 0.95, borderA: 0.87, line: 1, borderK: 0.32, borderMin: 1.2, borderMax: 2.2, inFrom: 2.4, inFull: 3.2 };
 // The videos row's fade, in units of the ONE token it is sized from: the card's side padding, measured
 // by `_dockLandFilm` (the end padding is 1 of the same unit). helmet.html `.ng-landfilm`.
@@ -21539,6 +21540,23 @@ class Component extends DCLogic {
     if (ty === "submissions") { const r2 = Math.max(0, r - 1.34376 * d); return this.shapePath(ctx, ty, x, y + 0.30613 * (r - r2) / 1.34376, r2); }
     return this.shapePath(ctx, ty, x, y, Math.max(0, r - 1.19849 * d));
   }
+  // THE SAME SHAPE GROWN BY `h` ON EVERY SIDE, ROUND AT THE CORNERS (v1.280.0, the outside mark's line, NG_MAP_MARKS): each
+  // side of `shapePath`'s polygon moved out by h along its own outward normal, joined by an arc of radius h about each
+  // corner (a circle: radius r + h). Stroked 2h wide it covers exactly the band from the silhouette to h x 2 out, round at
+  // the corners: the outside line with no clip, never on its own orb.
+  _outsetPath(ctx, ty, x, y, r, h) {
+    if (ty === "positions") { ctx.moveTo(x + r + h, y); ctx.arc(x, y, r + h, 0, 6.2832); return; }
+    const k = r * (ty === "submissions" ? 1.35 : 1.18);
+    const V = ty === "submissions" ? [[x, y - k], [x + k * 0.92, y + k * 0.72], [x - k * 0.92, y + k * 0.72]] : [[x, y - k], [x + k, y], [x, y + k], [x - k, y]];
+    const N = V.map((p, i) => { const q = V[(i + 1) % V.length], dx = q[0] - p[0], dy = q[1] - p[1], l = Math.hypot(dx, dy); return [dy / l, -dx / l]; });
+    for (let i = 0; i < V.length; i++) {
+      const q = V[(i + 1) % V.length], n = N[i], m = N[(i + 1) % V.length];
+      if (!i) ctx.moveTo(V[0][0] + n[0] * h, V[0][1] + n[1] * h);
+      ctx.lineTo(q[0] + n[0] * h, q[1] + n[1] * h);
+      ctx.arc(q[0], q[1], h, Math.atan2(n[1], n[0]), Math.atan2(m[1], m[0]), false);
+    }
+    ctx.closePath();
+  }
 
   // Warm only after a playable hand paints, then at idle. Ingest and progress
   // publication must not import the palette on the boot path (D-298). Until then
@@ -21959,34 +21977,38 @@ class Component extends DCLogic {
       // one light direction for the whole scene — collected here, painted in a single batch below
       if (spec && rD * scale > 7 && aK > 0.55 && fogK > 0.5) spec.push(n.x - rD * 0.3, ny - rD * 0.3, rD * 0.4);
     }
-    // THE MARKS, BATCHED (v1.280.0, NG_MAP_MARKS), after every orb's fill. INSIDE, per orb and no clip: its border band (the
-    // shape minus the shape inset by the border, even-odd) in its own colour over its own fill, then gold in the inset shape;
-    // both lie within the orb's own silhouette, and no gold is ever under the band. Where two inside-marked orbs overlap, the
-    // one drawn later lays its band and its gold over its neighbour's part of the overlap (the marks come after every fill):
-    // shown in the owner's pictures (GOLD1-GO 5; the first build's union clip and stroked border gave a half-border there). OUTSIDE: the gold may only land outside every marked shape. One even-odd
-    // clip of the view with every outside-marked shape is exact where the shapes do not overlap; where two overlap, the
-    // overlap counts twice and is "outside" to even-odd (and non-zero cannot help either: two shapes traced the other way
-    // give -1 there), so each shape that overlaps another adds its own complement to the clip (rare: a pair at mitosis, a
-    // crowd pulled back). Then ONE stroke `2 x line` wide over every shape, round joins: the outer half is the line. A few
-    // strokes at most, grouped by alpha.
+    // THE MARKS, BATCHED (v1.280.0, NG_MAP_MARKS), after every orb's fill, with no clip in the ordinary frame. INSIDE: each orb's
+    // border band (the shape minus the shape inset by the border, even-odd) in its own colour over its own fill, then the gold
+    // of every inset shape, one fill per alpha; both lie within the orb's own silhouette, and no gold is ever under a band.
+    // Where two inside-marked orbs overlap, the one drawn later lays its band and its gold over its neighbour's part of the
+    // overlap (the marks come after every fill): shown in the owner's pictures (GOLD1-GO 5; the first build's union clip and
+    // stroked border gave a half-border there). OUTSIDE: each shape's outset path (`_outsetPath`), stroked the line's width,
+    // one stroke per alpha: the line never lies on its own orb, so no clip is needed; only when two outside-marked shapes
+    // come within reach of each other is ONE even-odd clip taken (the view's box and every outside-marked shape), so a line
+    // never shows inside a neighbour. The first build stroked each shape's own edge 2 lines wide under that clip, and so needed
+    // one more clip per overlapping shape (its own complement, the view's box and the shape): a clip over the whole view each,
+    // +0.4 / +0.5 ms on a held frame at 390 with every dealt orb marked (GOLD1 part B). Why one even-odd clip is now enough:
+    // a line lies outside its own shape, so where it crosses into ONE neighbour it is inside exactly one shape, odd, and the
+    // clip leaves it out; only where three marked shapes meet could a line be inside two at once (even) and show.
+    const byAlpha = (gs) => { const m = new Map(); for (const g of gs) { const k = Math.round(g[3] * 20) / 20; (m.get(k) || m.set(k, []).get(k)).push(g); } return m; };
     for (const [n, y, r, al, bw] of insG) {
-      const d = bw / scale;
-      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, y, r); this._insetPath(ctx, n.ty, n.x, y, r, d);
+      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, y, r); this._insetPath(ctx, n.ty, n.x, y, r, bw / scale);
       ctx.fillStyle = this.rgba(this._mapColor(n, true), MK.borderA * al); ctx.fill("evenodd");
-      ctx.beginPath(); this._insetPath(ctx, n.ty, n.x, y, r, d);
+    }
+    for (const [al, gs] of byAlpha(insG)) {
+      ctx.beginPath(); for (const [n, y, r, , bw] of gs) this._insetPath(ctx, n.ty, n.x, y, r, bw / scale);
       ctx.fillStyle = this.rgba(MK.gold, MK.goldA * al); ctx.fill();
     }
     if (outG.length) {
-      const vx = cxv - halfVW - cullPad, vy = cyv - halfVH - cullPad, vw2 = 2 * (halfVW + cullPad), vh2 = 2 * (halfVH + cullPad);
-      ctx.save(); ctx.beginPath(); ctx.rect(vx, vy, vw2, vh2); for (const [n, y, r] of outG) this.shapePath(ctx, n.ty, n.x, y, r); ctx.clip("evenodd");
-      for (let i = 0; i < outG.length; i++) {
-        const [n, y, r] = outG[i];
-        if (outG.some(([m, y2, r2], j) => j !== i && Math.hypot(m.x - n.x, y2 - y) < 1.35 * (r + r2) + 2 * MK.line / scale)) { ctx.beginPath(); ctx.rect(vx, vy, vw2, vh2); this.shapePath(ctx, n.ty, n.x, y, r); ctx.clip("evenodd"); }
+      const h = MK.line / 2 / scale, ext = (n) => n.ty === "submissions" ? 1.578 : n.ty === "positions" ? 1 : 1.18;
+      const lap = outG.some(([n, y, r], i) => outG.some(([m, y2, r2], j) => j > i && Math.hypot(m.x - n.x, y2 - y) < ext(n) * r + ext(m) * r2 + 2 * h));
+      ctx.save();
+      if (lap) {
+        const vx = cxv - halfVW - cullPad, vy = cyv - halfVH - cullPad;
+        ctx.beginPath(); ctx.rect(vx, vy, 2 * (halfVW + cullPad), 2 * (halfVH + cullPad)); for (const [n, y, r] of outG) this.shapePath(ctx, n.ty, n.x, y, r); ctx.clip("evenodd");
       }
-      ctx.lineWidth = 2 * MK.line / scale; ctx.lineJoin = "round";
-      const byA = new Map();
-      for (const g of outG) { const k = Math.round(g[3] * 20) / 20; (byA.get(k) || byA.set(k, []).get(k)).push(g); }
-      for (const [al, gs] of byA) { ctx.beginPath(); for (const [n, y, r] of gs) this.shapePath(ctx, n.ty, n.x, y, r); ctx.strokeStyle = this.rgba(MK.gold, MK.goldA * al); ctx.stroke(); }
+      ctx.lineWidth = 2 * h;
+      for (const [al, gs] of byAlpha(outG)) { ctx.beginPath(); for (const [n, y, r] of gs) this._outsetPath(ctx, n.ty, n.x, y, r, h); ctx.strokeStyle = this.rgba(MK.gold, MK.goldA * al); ctx.stroke(); }
       ctx.restore();
     }
     // ── LIGHT IS WHAT THE EYE READS DEPTH FROM (v1.113.2) ──────────────────────────────────────
@@ -22038,12 +22060,10 @@ class Component extends DCLogic {
       ctx.fillStyle = this.rgba(pc, 0.98 * A);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), rM); ctx.fill();
       // A RECALLED SEAT (every dealt move a Yes) wears the outside line OUTSIDE the mark's rim (NG_MAP_MARKS; no inside mark on
-      // the seat): gold 2 px out from the silhouette under a clip to its outside, then the rim, 1 px out, covers its inner half
+      // the seat): the rim below is 2 px wide on the mark's edge, so 1 px out; the line is the band from 1 to 2 px out
       if (gold.has(n.idx)) {
-        const y = LY(n), q = rM + 4 / scale;
-        ctx.save(); ctx.beginPath(); ctx.rect(n.x - 2 * q, y - 2 * q, 4 * q, 4 * q); this.shapePath(ctx, n.ty, n.x, y, rM); ctx.clip("evenodd");
-        ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, y, rM); ctx.lineWidth = 2 * (1 + MK.line) / scale; ctx.lineJoin = "round"; ctx.strokeStyle = this.rgba(MK.gold, MK.goldA * A); ctx.stroke();
-        ctx.restore();
+        const y = LY(n);
+        ctx.beginPath(); this._outsetPath(ctx, n.ty, n.x, y, rM, (1 + MK.line / 2) / scale); ctx.lineWidth = MK.line / scale; ctx.strokeStyle = this.rgba(MK.gold, MK.goldA * A); ctx.stroke();
         this._lastMapMarks.push({ idx: n.idx, x: (n.x - this.cam.cx) * scale + W / 2, y: (y - this.cam.cy) * scale + H / 2, rs: rM * scale, ty: n.ty, out: true, inK: 0, seat: true });
       }
       // the rim was the SAME colour as the fill, i.e. invisible — a "selected" outline has to
