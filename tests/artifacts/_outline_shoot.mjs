@@ -128,17 +128,21 @@ async function shot(page, name, extra) {
 async function seals(page, name, pick) {
   const out = []
   for (const [k, p] of [["recalled", pick[0]], ["answered", pick[1]], ["both", pick[2]], ["bare", pick[3]]].filter(([, p]) => p && p.card != null)) {
-    const box = await page.evaluate((idx) => {
+    await page.evaluate((idx) => {
       const a = window.__neural, c = (a._optionCards || []).find((c) => c.opt.idx === idx).card
       c.scrollIntoView({ inline: "center", block: "nearest", behavior: "instant" })
-      const r = c.getBoundingClientRect()
-      return { x: r.left, y: r.top, w: r.width, h: r.height, seal: c.getAttribute("data-seal") }
     }, p.card)
-    await page.evaluate(() => window.__neural.advance(34)); await sleep(350)
+    await page.evaluate(() => window.__neural.advance(34)); await sleep(500)
+    // measured AFTER the row has settled (its own animator may glide it): the card's box and the seal's own
+    const box = await page.evaluate((idx) => {
+      const a = window.__neural, c = (a._optionCards || []).find((c) => c.opt.idx === idx).card, r = c.getBoundingClientRect()
+      const s = c.querySelector("[data-choice-seal]"), q = s ? s.getBoundingClientRect() : null
+      return { x: r.left, y: r.top, w: r.width, h: r.height, seal: c.getAttribute("data-seal"), sealBox: q && { x: q.left - Math.max(0, r.left - 4), y: q.top - Math.max(0, r.top - 4), w: q.width, h: q.height } }
+    }, p.card)
     const f = path.join(OUT, `${name}-${k}-${TAG}.png`)
     const vp = page.viewportSize()
     await page.screenshot({ path: f, clip: { x: Math.max(0, box.x - 4), y: Math.max(0, box.y - 4), width: Math.min(vp.width - Math.max(0, box.x - 4), box.w + 8), height: Math.min(vp.height - Math.max(0, box.y - 4), box.h + 8) } })
-    out.push({ k, file: f, seal: box.seal })
+    out.push({ k, file: f, seal: box.seal, sealBox: box.sealBox })
   }
   meta.shots[name] = { cards: out }
   console.log(name, out.map((o) => o.k + "=" + o.seal).join(" "))
