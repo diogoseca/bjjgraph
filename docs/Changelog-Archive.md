@@ -18019,3 +18019,11 @@ The reader's four low findings on #414, in the same push: the colour's alpha is 
 argument (app, spec and survey; the old parse read an opaque display-p3 colour as transparent); the fixture between 0.5
 and 0.72 above; an ancestor's opacity ABOVE a control is not read (fewer names, never a wrong one: Not covered); the audit
 check is "no name for an orb under paint that hides it".
+
+Landed after DEV409 (dev v1.278.0, PR #409, merged in by merge; renumbered 1.277.0 -> 1.278.1; the archive's ceiling is
+dev's own 1,663,038, so this PR's raise ends as no change against dev). Bytes, my share alone against dev v1.278.0's own
+bundle on the same tree: neural.js +1,265 raw (the cache's code included); eager gzip +595 (363,843 against 363,248);
+first-hand core +608 (383,308 against 382,700); 11 boot requests; the sum against dev's baselines eager +1,956 of 5,000
+(on 361,887), first-hand core +2,013 of 6,000 (on 381,295). On the landing head: map-names, hidden-moves and
+known-move-seal 48 of 48; units 1,660 of 1,660; npm run ci:validate 25 of 25. Before that merge, on the cache: the 17 spec
+files that read map names 232 passed, 1 skipped, none red.
