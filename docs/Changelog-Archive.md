@@ -17577,3 +17577,58 @@ reader's own children, so a control nested elsewhere is unseen (the spec's and t
   `neural_level_reached` can therefore under-count. The beat's `from` is the tab's own level in memory, and two promotions held back before one pull collapse into the last.
 - **The fire cannot fail a pull:** it runs guarded in `_pullAndMerge` (one line). A level sound that throws, the day one is added, can no longer mark a merged pull failed or skip its guest join.
 - **Three tests and one guard:** local-only fires at once; unreadable storage fires; a beat that throws leaves the pull merged and the join run (mutants BELT-M22 to M24; 24 in all). The flip journey's guard now requires a real no-gi number.
+
+## v1.279.0 — A name for an orb the player sees under see-through chrome; the v1.275.0 entry's first-cut figures corrected (NEXT1, 2026-11-14)
+
+**The fault (the independent reader's last check of #410).** `on(c)` refused a name for any orb wholly inside ONE box of
+`_nameBlocks`, and some of those boxes paint nothing over the map: the strip of the row above its cards, the reader's table
+of contents, the top bar's search button. The player saw the orb and its name was never written: over 45 cameras the reader
+counted 17 names lost at 1440 Standing, 6 at 1440 Mount, 2 at each 390 seat. Fewer names, never a wrong one.
+
+**The rule (ruled).** A name is still never written UNDER a control (every box, as before). An orb is hidden only where a
+control PAINTS over what shows of it (`_hides`): the control or a descendant whose box holds the orb's silhouette box, cut
+to the canvas, whole, and paints it out by a background colour at alpha x opacity of 0.5 or more, a background image or
+gradient, a backdrop filter, or as an image, video or canvas. Text, borders and svg line icons do not hide an orb. Derived
+from the DOM as the boxes are, no list; the walk goes down only through boxes that hold the orb, so it reads a few elements
+per orb, and only for an orb a control's box holds whole. Measured first, at 390 and 1440 (Standing, Mount; drawer shut
+and open): the cards (rgb 28,32,52) and their media, the article's section cards, the hand's close (alpha 0.72), the
+legend's gradient bar and the open drawer (an opaque gradient, alpha 0.984, on `.ng-drill`) paint; the logo and search
+buttons, the table of contents, the row's own box and the landing's nav do not. The threshold 0.5 sits between the 0.72
+and the 0 measured. An orb hanging off the canvas's edge is hidden when what shows of it is under paint (the first build
+tested the whole silhouette and disagreed with the browser at the edges: two orbs below the fold under a section card, one
+above the open drawer's head).
+
+**Proof.** e2e/journeys/map-names.spec.ts: the audit reads, from the browser's own layout over the whole app root (each box
+cut by its clipping ancestors), the paint that hides an orb, and asserts the planner was offered EXACTLY the dealt orbs the
+browser shows, each way (set equality against the moves the frame handed `_planNames`): every frame at rest of the sweep
+(12 per viewport), and every audited frame of the drawer test and the drag; over the sweep 31 orbs at 390 and 42 at 1440
+sat wholly inside a see-through control's box, so the claim had its cases (asserted above zero at 1440). The "no name for
+an orb wholly under a control" check reads the same paint. Mutants, the whole map-names and known-move-seal files each:
+every box treated as opaque (`_hides` always true) red at "...the planner is offered exactly the dealt orbs the browser
+shows" (3 tests); every box treated as transparent red at the same (4 tests) and at the drag's "no name for an orb ...
+wholly under a control". The survey's `hidOrb` column reads the same paint (it read any painted box before).
+
+**Measured (tests/artifacts/_map_names_survey.mjs, 960 cases, settled).** Dev v1.276.0's own bundle (065c4d77c) -> this:
+move names 390x631 shut 106 / 98 / 86 / 51 -> 109 / 99 / 86 / 52 at x1 / x2 / x4 / x9 (390x844 the same but x9 51 -> 52);
+1440 shut 114 / 164 / 188 / 144 -> 118 / 166 / 187 / 145; 1440 drawer open 111 / 158 / 188 / 144 -> 113 / 159 / 187 / 144.
+27 names gained and 9 lost (a regained orb's name takes a place first in the row's order), +18 net; 0 overlapping pairs,
+0 cut, 0 under a control, 0 beside a hidden orb, in all 24 rows.
+
+**Part 3, the v1.275.0 entry.** Its first "Stability", "After", "Proof", "Cost" and "Bytes" paragraphs described the first
+cut: the zoom-only rule ("nothing comes in while the zoom moves"), "10 tests", two non-kills, the first cut's name counts
+(a moving frame's) and bytes. Corrected in place to what merged, each first-cut figure kept and labelled as such.
+
+**Held (HOLD-DOT).** The map's second gold level as a larger brighter dot (U176 b) was built first, then held when the owner
+began rethinking the dot itself (gold outlines on the orb): parked whole on an unpushed commit, not in this change. Its
+measured cost, for the record: keeping every orb's names at the level-2 dot's reach lost 21 names net over the 960 frames.
+
+**Journeys, units, bytes.** Under the build lock on the committed merge with dev v1.276.0: the 17 spec files that read map
+names (known-move-seal among them) 229 passed, 1 skipped, none red; units 1,623 of 1,623. Bytes, my share alone against dev
+v1.276.0's own bundle on the same tree: neural.js +649 raw; eager gzip +291 (362,178 against 361,887); first-hand core +284
+(381,596 against 381,312); 11 boot requests. Against the baselines (v1.273.1's checkpoint): eager +4,997 of the 5,000 cap,
+of which dev's own +4,706; first-hand core +5,032 of 6,000, of which dev's own +4,748.
+
+**Not covered.** A `::before` / `::after` background is not read (no chrome over the map paints with one today: measured on
+the drawer, its rows and the row); the walk goes down only through boxes that hold the orb, so a painting child that
+overflows a parent which does not hold the orb is unseen (none found; the audit's whole-tree walk would see it); an svg
+with a solid fill does not count as paint; an orb straddling two adjacent painted boxes is shown.
