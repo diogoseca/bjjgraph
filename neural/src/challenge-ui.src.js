@@ -746,6 +746,19 @@ const NG_CHALLENGE_UI_METHODS = {
           '<b>' + today + '</b>' +
           '<span>keep what you\u2019ve earned</span>' +
           '<em>' + NG_PRACTICE_START + '</em>';
+        // THE CHIP'S WORDS (R409 item 4, the orchestrator's rule of 14 Nov): NG_PRACTICE_START where it and the line beside
+        // it both fit uncut, NG_PRACTICE_START_SHORT where they do not; the aria above keeps the full words at every width.
+        // Measured at 390x631, 360x740, 320x568 and the 1440x900 drawer, the full words fit at none (the line kept 53, 26,
+        // 0 and 69 of its 127 px). Read off the laid-out band, and again when its width changes: one observer, this band only
+        if (typeof ResizeObserver === "function") {
+          maint._fit = () => {
+            const em = maint.lastChild, line = em.previousSibling;
+            em.textContent = NG_PRACTICE_START;
+            if (line.scrollWidth > line.clientWidth) em.textContent = NG_PRACTICE_START_SHORT;
+          };
+          (this._bandFit = this._bandFit || new ResizeObserver((es) => es.forEach((e) => e.target._fit && e.target._fit()))).disconnect();
+          this._bandFit.observe(maint);
+        }
         maint.addEventListener("click", () => this.openDueSession());   // ONE door, one label (app.src.jsx)
         list.appendChild(maint);
         maintBand = maint;

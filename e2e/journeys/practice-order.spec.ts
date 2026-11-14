@@ -48,11 +48,13 @@ import { journey } from "../dsl"
  *   · finding 2: "the dot is lit…" claimed "the one card left is the one due longest" with nothing waiting for the rating's
  *     live set, so it held only because the belt row's check happened to land before the Practice tap. It now waits for the
  *     belt row's reading to be final (`data-belt-state="ok"`: what a player sees when the set lands); the assertion is unchanged.
- *   · finding 1: "the guard holds when the live set lands after the tap" HOLDS the live files by route until after the tap:
+ *   · finding 1: "the guard holds when the live set lands after the tap" HOLDS the live files (the DSL's delay layer) past the tap:
  *     untouched, the session takes its plan again (the 3 due longest in the 20, the same first row); touched (a card turned),
  *     the plan is unchanged and one `neural_practice_unguarded` says so. The session's arithmetic, the failed and ended
  *     cases and the once rule are tests/practice_page.test.mjs's (mutants G3 to G6 there).
  *   · R409-6: "a record with no answer…" pins the fold's button reading "More new cards · …" in today's order too.
+ *   · item 4: "the dot is lit…" pins the Path band's chip: "Start" where the full words and the line beside it do not both
+ *     fit (390, the 1440 drawer), the full words where they do (the band widened), the line whole, the aria full.
  * NOT COVERED here: the order's arithmetic (the unit suite and its 15 mutants), no-gi on a page (the unit reads both
  * rulesets; a ruleset flip writes a setting, so it cannot share the byte-identity claim), and answering (grading writes the
  * record by design; the planner's completion rule is the unit suite's).
@@ -78,10 +80,10 @@ async function press(page: Page, selector: string, what: string, touch: boolean)
   else await page.mouse.click(at.x, at.y)
 }
 
-async function boot(page: Page, day: number, initialState?: Record<string, unknown>) {
+async function boot(page: Page, day: number, initialState?: Record<string, unknown>, extra: Record<string, unknown> = {}) {
   await page.addInitScript((d) => { (window as W).__NG_EPOCH_DAY__ = d }, day)
   const j = journey(page)
-  await j.boot("/", initialState ? { initialState } : {})
+  await j.boot("/", { ...(initialState ? { initialState } : {}), ...extra })
   await expect.poll(() => page.evaluate(() => {
     const a = (window as W).__neural
     return !!(a && a.nodes && a.nodes.length && a.flashcards && a.flashcards.decks && Object.keys(a.flashcards.decks).length && a.curriculum)
@@ -356,8 +358,22 @@ for (const touch of [true, false]) {
       await press(page, '[data-explore-stats] [data-view="challenges"]', "the Path row", touch)
       await expect(page.locator("[data-maintenance] b"), "the Path's band: there one answer short of the goal").toHaveText("19 of 20 today")
       // in the view's name and the drawer row's words since v1.276.0 (owner U169 c), pinned here: nothing else reads them
-      await expect(page.locator("[data-maintenance] em"), "the band's words: what a tap does").toHaveText("Start today's session")
-      await expect(page.locator("[data-maintenance]"), "the band's name").toHaveAttribute("aria-label", "Master the game, 19 of 20 today \u2014 Start today's session")
+      // THE CHIP'S WORDS (R409 item 4, the orchestrator's rule): "Start today's session" only where it and the line beside it
+      // ("keep what you've earned") both fit uncut, "Start" where they do not. Measured, they fit neither at 390 nor in the
+      // 1440 drawer, so the chip says "Start" and the line is whole; the band widened shows the full words, the line still
+      // whole; back to its width, "Start" again. Until R409 the chip said the full words everywhere and cut the line to 53
+      // px of its 127 at 390. The aria keeps the full words at every width.
+      const band = () => page.evaluate(() => {
+        const b = document.querySelector("[data-maintenance]") as HTMLElement, line = b.querySelector("span") as HTMLElement
+        return { chip: b.querySelector("em")!.textContent, cut: line.scrollWidth > line.clientWidth }
+      })
+      const widen = (w: string) => page.evaluate((x) => { (document.querySelector("[data-maintenance]") as HTMLElement).style.width = x }, w)
+      await expect.poll(band, { message: "the band's words: what a tap does, and the line whole" }).toEqual({ chip: "Start", cut: false })
+      await widen("560px")
+      await expect.poll(band, { message: "room for both: the full words, the line whole" }).toEqual({ chip: "Start today's session", cut: false })
+      await widen("")
+      await expect.poll(band, { message: "back to the drawer's width: Start again" }).toEqual({ chip: "Start", cut: false })
+      await expect(page.locator("[data-maintenance]"), "the band's name, the full words").toHaveAttribute("aria-label", "Master the game, 19 of 20 today \u2014 Start today's session")
       await press(page, ".ng-drawer-brand", "‹ Path, home", touch)
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
@@ -413,7 +429,7 @@ for (const touch of [true, false]) {
       await expect(page.locator("[data-plan-more]"), "the fold's button, as in a worth session").toHaveText(/^More new cards \u00b7 (weakest first|ranked by your study comparison)/)
     })
 
-    // THE GUARD AND THE LIVE SET (R409, the reader's finding 1). The rating's live files are HELD by the route until after
+    // THE GUARD AND THE LIVE SET (R409, the reader's finding 1). The rating's live files are HELD by the harness until after
     // the Practice tap, so the plan is taken without them: no deck is loaded and this player's cards are unshared, so the
     // guard knows none of them answerable (tests/_practice_order_fixture.mjs, `guardFixture`: three light cards due 200
     // days ago behind thirty heavy misses). Released UNTOUCHED, the session takes its plan again, once: the three due longest
@@ -422,14 +438,15 @@ for (const touch of [true, false]) {
     for (const touched of [false, true]) test(`the guard holds when the live set lands after the tap: ${touched ? "touched, the plan stays" : "untouched, the plan is taken again"} (${touch ? "touch" : "mouse"})`, async ({ page }) => {
       const { guardFixture } = await import("../../tests/_practice_order_fixture.mjs")
       const fx = guardFixture(SERVED)
-      let release!: () => void, held = 0
-      const gate = new Promise<void>((r) => (release = r))
-      await page.route(/\/flashcards\/live-\d+\.json/, async (route) => { held++; await gate; await route.continue() })
       // the PostHog boundary as the loader leaves it (a queue array; .claude/rules/traps-playwright.md, path-visit-telemetry)
       await page.addInitScript(() => { const q: W = (window as W).posthog = []; q.capture = (...args: W[]) => q.push(["capture", ...args]) })
-      await boot(page, fx.day, fx.blob)
+      // the DSL's delay layer holds the live files (`flashcards/live-<i>.json?live=<fingerprint>`; a plain pattern is a URL
+      // substring, and a starred one is anchored at the end, which the query would defeat) until `releasePayload`
+      const LIVE = "flashcards/live-"
+      const j = await boot(page, fx.day, fx.blob, { payloads: { [LIVE]: { never: true } } })
+      const held = () => j.payloadTimeline().filter((e) => e.url.includes(LIVE))
       await press(page, ".ng-logo", "open the drawer", touch)
-      await expect.poll(() => held, { message: "the drawer asks for the live files, and the route holds them" }).toBeGreaterThan(0)
+      await expect.poll(() => held().length, { message: "the drawer asks for the live files, and the harness holds them" }).toBeGreaterThan(0)
       await expect(page.locator("[data-belt-row]"), "so the belt row's reading waits").toHaveAttribute("data-belt-state", "wait")
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
@@ -445,13 +462,17 @@ for (const touch of [true, false]) {
       expect([before.live, before.guarded, before.asked, before.due], "taken at the tap without the set: no guard, the three due longest not asked").toEqual(["checking", false, 0, 20])
       expect(before.why, "and the explanation does not claim the guard").not.toContain("The three cards due longest")
       expect(before.dom, "the page mounts the plan's rows").toEqual(before.keys)
-      if (touched) {
-        const open = '[data-session-row][aria-expanded="true"] + div'
-        await expect(page.locator(open + " [data-mini-reveal]:visible"), "the open card is up").toHaveCount(1, { timeout: 10_000 })
-        await press(page, open + " [data-mini-reveal]", "Reveal", touch)
-      }
-      release()
+      const open = '[data-session-row][aria-expanded="true"] + div'
+      await expect(page.locator(open + " [data-mini-reveal]:visible"), "the open card is up").toHaveCount(1, { timeout: 10_000 })
+      // where the player is reading (untouched: the queue's fold opened and scrolled to, which is not a touch of the plan)
+      const foldTop = () => page.evaluate(() => Math.round(document.querySelector("[data-practice-details]")!.getBoundingClientRect().top))
+      if (!touched) await press(page, "[data-practice-details] > summary", "Practice details & session queue", touch)
+      const readingAt = await foldTop()
+      if (touched) await press(page, open + " [data-mini-reveal]", "Reveal", touch)
+      expect(held().every((e) => e.releasedAtMs == null), "still held at the tap and after it").toBe(true)
+      j.releasePayload(LIVE)
       await expect.poll(() => page.evaluate(() => !!(window as W).__neural._session?.guardSettled), { timeout: 30_000, message: "the set lands and the session settles" }).toBe(true)
+      expect(held().every((e) => e.releasedAtMs != null), "released after the tap").toBe(true)
       if (!touched) {
         await expect.poll(async () => (await read()).guarded, { message: "the plan is taken again" }).toBe(true)
         const after = await read()
@@ -462,6 +483,13 @@ for (const touch of [true, false]) {
         await expect(page.locator("[data-practice-section]"), "under the same heading").toHaveText(heading || "")
         expect(after.why, "and now the explanation says so").toContain("The three cards due longest come every day")
         expect(after.events, "taken again: no event").toEqual([])
+        // NOTHING MOVES BUT WHAT THE PLAN CHANGES: the fold the player reads stays where it was (it moved 30 px before the
+        // scroll was kept), and the open card, the same card, is not faded in a second time
+        expect(await foldTop(), "the fold the player reads has not moved").toBe(readingAt)
+        expect(await page.locator("[data-practice-details]").evaluate((d: W) => d.open), "and is still open").toBe(true)
+        const cardIn = await page.evaluate((o) => (document.querySelector(o + " [data-mini-deck]") as HTMLElement | null)?.style.cssText ?? null, open)
+        expect(cardIn, "the open card is on the page").not.toBeNull()
+        expect(cardIn, "laid out again in place, not faded in").not.toContain("ngCardIn")
       } else {
         await expect.poll(async () => (await read()).events.length, { message: "one event" }).toBe(1)
         const after = await read()

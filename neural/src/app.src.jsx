@@ -259,6 +259,9 @@ const NG_PRACTICE_GOAL = 20;
 // 14 spec lines select on, and `neural_practice_opened` an event id), and identifiers keep "practice".
 const NG_PRACTICE_NAME = "Master the game";
 const NG_PRACTICE_START = "Start today's session";
+// the Path band's chip where NG_PRACTICE_START and the line beside it do not both fit uncut (R409 item 4; the band's aria
+// keeps the full words at every width): challenge-ui.src.js, one scope with this file in the bundle
+const NG_PRACTICE_START_SHORT = "Start";
 // The drawer row's belt colours (v1.276.0): the drawn belt's (its blue is the design's #2c5299), deeper than the Path's
 // UI tints (NG_CHALLENGE_TRACK_COLORS), under the same woven texture (helmet.html `.ng-belt`). Black wears a red bar.
 const NG_BELT_ROW_COLORS = Object.freeze({ white: "#e6e2d6", blue: "#2c5299", purple: "#673c98", brown: "#77492b", black: "#1d1d22" });
@@ -5192,7 +5195,8 @@ class Component extends DCLogic {
     const wrap = document.createElement("div");
     if (isCurrent) wrap.className = "ngCurExpire";
     wrap.setAttribute("data-mini-deck", key); // shared inline card; Practice honors the answer-mode setting
-    wrap.style.cssText = "padding:0 8px 12px 26px;animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;";
+    // a card laid out again in place (Practice's plan taken again, `_practiceGuard`) does not fade in a second time
+    wrap.style.cssText = "padding:0 8px 12px 26px;" + (this._noCardIn ? "" : "animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;");
     const navBtn = (cls, d) => '<button class="' + cls + '" style="flex:none;width:42px;height:36px;cursor:pointer;border:1px solid rgba(150,170,210,.2);border-radius:9px;background:rgba(255,255,255,.03);color:#aab4c8;display:flex;align-items:center;justify-content:center;transition:background .12s,color .12s;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="' + d + '"></path></svg></button>';
     let recallFallback;
     const recognition = () => this._session?.practice && cards[st.idx] !== recallFallback && this.mcActive(key, cards[st.idx]) && !graded(cards[st.idx]);
@@ -5308,7 +5312,7 @@ class Component extends DCLogic {
   }
   _miniDeckEmpty(h) {
     const wrap = document.createElement("div");
-    wrap.style.cssText = "padding:0 8px 12px 26px;animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;";
+    wrap.style.cssText = "padding:0 8px 12px 26px;" + (this._noCardIn ? "" : "animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;");
     // Three different truths used to render as one sentence about authoring. A deck whose cards
     // are on the way, and a deck whose chunk did not arrive, are NOT "being authored".
     const st = this.deckStatus(h && h.key);
@@ -6529,7 +6533,15 @@ class Component extends DCLogic {
       // a card shown answered is touched whenever it was turned (and `_practiceAppend` would keep the rows for it)
       const here = this._session === s && this._sessionInline(), touched = s.moved || face() !== s.guardFace || face().endsWith("|true") || this.practiceToday().done !== s.started;
       const next = st === "ok" && here && !touched ? this.planSummary() : null;
-      if (next && next.order === "worth") { s.plan = null; this._practiceAppend(s, next); return; }
+      if (next && next.order === "worth") {
+        // the same first row and card (measured on every sampled record): laid out again with the scroll where the player
+        // left it and the open card not faded in a second time (`_noCardIn`), so only what the new plan changes moves
+        const list = this.drillListRef && this.drillListRef.current, top = list ? list.scrollTop : 0;
+        this._noCardIn = true;
+        try { s.plan = null; this._practiceAppend(s, next); } finally { this._noCardIn = false; }
+        if (list) list.scrollTop = top;
+        return;
+      }
       this.track("neural_practice_unguarded", { reason: st !== "ok" || next ? "failed" : here ? "touched" : "ended", short: p.counts.law.short, owed: p.counts.law.owed });
     });
   }
