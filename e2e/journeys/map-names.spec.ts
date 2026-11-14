@@ -72,6 +72,14 @@ import { journey } from "../dsl"
  *   C6  the old colour parse (any colour's fourth number)  red at "...color(display-p3 0.12 0.13 0.2) ...: the orb is hidden"
  *   N4  every control's box treated as opaque              red at "...: the planner is offered exactly the dealt orbs the
  *   N5  every control's box treated as transparent         browser shows" (6 and 7 tests)
+ *   GOLD1 (v1.280.0, 14 Nov; the whole file each, on the built bundle; the table with times in the v1.280.0 archive entry):
+ *   G8  the keep-clear at the dot's old reach (`_sealGeo`) red at "names use the room the dot's reach took: some move name
+ *                                                          lies within 3 px of another dealt orb's silhouette" (2 tests)
+ *   G9  the keep-clear at the bare silhouette (no line)    red at "no move's name across another dealt orb or its outside
+ *                                                          line" (3 tests: the wheel's frame at 390 and 1440, the drawer)
+ *   P1  the position's own name exempt again (POSNAME:     red at "the position's own name is under no control" (the POSNAME
+ *       both of its placements back to the usual side)     test; the sweep's audit reads the `position:` kind too, and
+ *                                                          none of its cameras puts the seat's name under a control)
  * NON-KILLS, so nobody reads them as covered: C1b, the ANSWERS not kept while the store's element memo still is, reads
  * nothing and only costs time (no spec times a frame; tests/artifacts' frame-time script does); M4b, the pointer's PAIR GROUP alone dropped, is the designed fallback (the
  * single label names the orb instead); M8b, a written name needing 6 px like a new one, changes nothing these recordings
@@ -232,6 +240,7 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
   const orbs = [...hand].map((i: number) => a.nodes[i]).filter((n: W) => n && !(n.z && !n.rep && a._lodK < 0.5))
     .map((n: W) => ({ i: n.idx, x: (n.x - a.cam.cx) * s + W_ / 2, y: (a._LY(n) - a.cam.cy) * s + H_ / 2, R: a._nodeHalfW(n, s, a._nodeK, a._lodK, true) }))
   const crossing: string[] = [], offOrb: string[] = [], hidOrb: string[] = [], inkOff: string[] = [], crowded: string[] = [], gaps: number[] = []
+  let nameGap = 1e9   // v1.280.0: the closest any move's NAME comes to another dealt orb's silhouette (the keep-clear's room)
   const ink = (window as W).__mnInk || []
   for (const b of labels.filter((b: W) => b.w === "move" || b.w === "lit" || b.w === "point")) {
     const node = a.nodes[b.i], x = (node.x - a.cam.cx) * s + W_ / 2, y = (a._LY(node) - a.cam.cy) * s + H_ / 2, R = a._nodeHalfW(node, s, a._nodeK, a._lodK, true)
@@ -249,7 +258,10 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
     for (const o of orbs) {
       if (o.i === b.i || o.i === node.pi) continue
       const dx = Math.max(b.l - o.x, 0, o.x - b.r), dy = Math.max(b.t - o.y, 0, o.y - b.b)
-      if (dx * dx + dy * dy < o.R * o.R) crossing.push(name(b) + " across " + a.graphName(a.nodes[o.i]))
+      // v1.280.0 (GOLD1): ACROSS AN ORB OR ITS OUTSIDE LINE: the gold line a recalled orb wears is 1 px beyond its bare
+      // silhouette, so a name keeps that reach (`R + 1`) of every other dealt orb, marked or not (was the bare `R`)
+      if (dx * dx + dy * dy < (o.R + 1) * (o.R + 1)) crossing.push(name(b) + " across " + a.graphName(a.nodes[o.i]))
+      if (b.w === "move") nameGap = Math.min(nameGap, Math.hypot(dx, dy) - o.R)
       gap = Math.min(gap, Math.hypot(o.x - x, o.y - y) - o.R - R)
     }
     // a name belongs to ONE orb: its orb stands clear of every other dealt orb (3 px for a name kept, 6 for a new one)
@@ -273,7 +285,7 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
       if (shown !== cands.includes(o.i)) seen.push(`${a.graphName(a.nodes[o.i])} (${o.x.toFixed(0)}, ${o.y.toFixed(0)}): ${shown ? "shown, not offered" : "hidden, offered"}`)
     }
   }
-  return { close, outside, under, crossing, offOrb, hidOrb, hidden, hiddenIdx, seen, thru, inkOff, crowded, gaps, inked: ink.length, moves: labels.filter((b: W) => b.w === "move").length, position: labels.filter((b: W) => b.w === "position").length, W: W_, H: H_ }
+  return { close, outside, under, crossing, offOrb, hidOrb, hidden, hiddenIdx, seen, thru, inkOff, crowded, gaps, nameGap, inked: ink.length, moves: labels.filter((b: W) => b.w === "move").length, position: labels.filter((b: W) => b.w === "position").length, W: W_, H: H_ }
 }, NO_GAP)
 
 const VPS = [{ width: 390, height: 631, touch: true }, { width: 1440, height: 900, touch: false }]
@@ -285,7 +297,7 @@ function checkFrame(r: W, where: string) {
   expect(r.close, `${where}: no two names closer than ${NO_GAP} px`).toEqual([])
   expect(r.outside, `${where}: no name off the map`).toEqual([])
   expect(r.under, `${where}: no name under a control`).toEqual([])
-  expect(r.crossing, `${where}: no move's name across another dealt orb`).toEqual([])
+  expect(r.crossing, `${where}: no move's name across another dealt orb or its outside line`).toEqual([])
   expect(r.offOrb, `${where}: no name for an orb drawn off the canvas`).toEqual([])
   expect(r.hidOrb, `${where}: no name for an orb under paint that hides it`).toEqual([])
   if (r.seen) expect(r.seen, `${where}: the planner is offered exactly the dealt orbs the browser shows`).toEqual([])
@@ -344,7 +356,7 @@ for (const vp of VPS) {
 
     test(`no two names closer than ${NO_GAP} px, none off the map, none under a control, and at rest no free place left unused: usual zoom and pulled back 2, 4, 9 times (${vp.width})`, async ({ page }) => {
       test.setTimeout(240_000)
-      let written = 0, refused = 0, thru = 0, compared = 0
+      let written = 0, refused = 0, thru = 0, compared = 0, nameGap = 1e9
       for (const [title, role] of SEATS) {
         await seat(page, title, role)
         await watchCands(page)
@@ -357,7 +369,7 @@ for (const vp of VPS) {
           await journey(page).advance(17)
           const r = await audit(page)
           checkFrame(r, `${where}, at rest`)
-          written += r.moves; thru += r.thru; compared += r.seen ? 1 : 0
+          written += r.moves; thru += r.thru; compared += r.seen ? 1 : 0; nameGap = Math.min(nameGap, r.nameGap)
           // names the jump dropped wait half a second before they may come back (no blink), so "every orb with a free place
           // is named" is asked once that half second has passed, the camera still at rest
           await journey(page).advance(520)
@@ -377,6 +389,10 @@ for (const vp of VPS) {
       expect(refused, "...and some were refused, so the free-place check above had moves to ask about").toBeGreaterThan(0)
       console.log(`[map-names] ${vp.width}: ${thru} orbs shown inside a see-through control's box over ${compared} frames compared`)
       expect(compared, "every frame at rest compared the planner's moves with what the browser shows").toBe(12)
+      // v1.280.0 (GOLD1): THE KEEP-CLEAR IS THE OUTSIDE LINE'S REACH, the bare silhouette plus 1 px, not the dot's old reach
+      // (its shoulders plus its radius: at least 4.2 px beyond a silhouette): some move's name uses that room
+      console.log(`[map-names] ${vp.width}: the closest move name to another dealt orb's silhouette, over the frames at rest: ${nameGap.toFixed(2)} px`)
+      expect(nameGap, "names use the room the dot's reach took: some move name lies within 3 px of another dealt orb's silhouette").toBeLessThan(3)
       if (vp.width > 700) expect(thru, "orbs inside a see-through control's box (the table of contents, the row's top strip) were in the frames compared").toBeGreaterThan(0)
     })
 
@@ -756,6 +772,45 @@ test.describe("the cache follows the row's scroll (CACHE414, 390x631)", () => {
     await step("before", 0, true)
     await step("scrolled to the gap", Math.round(set!.gap - set!.x), false)   // scrollLeft up: the row moves left, the gap comes under the orb
     await step("scrolled back", Math.round(set!.x - set!.gap), true)
+  })
+})
+
+test.describe("the position's own name (POSNAME, 1440x900)", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+
+  test("dragged until the seat's orb is under the row: the position's own name is under no control and inside the map, or not written that frame", async ({ page }) => {
+    test.setTimeout(240_000)
+    const j = await seat(page, "Standing Position Top", "top")
+    // the orchestrator's live repro on v1.278.1 (a fresh guest, Standing top): wheel back three steps over the map, then drag
+    // the map by the mouse +480,0, then -960,0, then +480,225; each drag starts on the map
+    const onMap = (p: { x: number; y: number }) => page.evaluate((p) => document.elementFromPoint(p.x, p.y) === (window as W).__neural.canvas, p)
+    const c = { x: 720, y: 300 }
+    expect(await onMap(c), "the wheel turns over the map").toBe(true)
+    await page.mouse.move(c.x, c.y)
+    for (let k = 0; k < 3; k++) { await page.mouse.wheel(0, 100); await j.advance(34) }
+    let at = { ...c }
+    for (const [dx, dy] of [[480, 0], [-960, 0], [480, 225]]) {
+      expect(await onMap(at), `the drag by ${dx},${dy} starts on the map`).toBe(true)
+      await page.mouse.move(at.x, at.y); await page.mouse.down()
+      for (let k = 1; k <= 24; k++) { await page.mouse.move(at.x + dx * k / 24, at.y + dy * k / 24); await j.advance(17) }
+      await page.mouse.up(); at = { x: at.x + dx, y: at.y + dy }
+      await j.advance(34)
+    }
+    await page.mouse.move(4, 4)
+    await j.advance(600)   // at rest, the hover gone
+    const seatCovered = await page.evaluate(() => {
+      const a = (window as W).__neural, n = a.nodes[a.focusIdx], s = a.W / a.cam.vw, m = a.pairMid(n), r = a.canvas.getBoundingClientRect()
+      const x = (m.x - a.cam.cx) * s + a.W / 2 + r.left, y = (m.y - a.cam.cy) * s + a.H / 2 + r.top
+      return { covered: document.elementFromPoint(x, y) !== a.canvas, x: Math.round(x), y: Math.round(y) }
+    })
+    expect(seatCovered.covered, `the drags put the seat's orb under a control (the case; orb at ${seatCovered.x},${seatCovered.y})`).toBe(true)
+    const r = await audit(page)
+    console.log(`[map-names] POSNAME: the position's own name ${r.position ? "written beside its orb" : "not written this frame"}; seat orb at ${seatCovered.x},${seatCovered.y}`)
+    // today's audit already includes the `position` kind in "under a control" and "off the map" (it skips only the seat
+    // star's own overlap); what was missing was a frame that puts the seat there
+    expect(r.under.filter((x: string) => x.startsWith("position:")), "the position's own name is under no control").toEqual([])
+    expect(r.outside.filter((x: string) => x.startsWith("position:")), "the position's own name is inside the map").toEqual([])
+    expect(r.close, "...and no two names closer than 3 px").toEqual([])
   })
 })
 

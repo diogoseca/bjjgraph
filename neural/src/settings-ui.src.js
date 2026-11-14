@@ -127,11 +127,8 @@ renderSettings() {
       cb.style.cssText = "width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (on ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (on ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
       cb.addEventListener("click", () => { this.set("quizOnPages", !this.get("quizOnPages", true)); this.renderSettings(); });
       tg.appendChild(cb); body.appendChild(tg);
-      const gold = this.settingRow("Turn what you know gold", "The map turns gold as you master each side's flashcards. Full gold needs recall.",
-        [["On", true], ["Off", false]], "masteryGold", false);
-      gold.setAttribute("data-mastery-gold", "1");
-      gold.style.marginTop = "20px";
-      body.appendChild(gold);
+      // "Turn what you know gold" (`masteryGold`) left Settings in v1.280.0 (GOLD1, ruled): the map's gold is the outlines,
+      // always shown; the stored key stays stored, synced and readable, and nothing reads it for paint (CLAUDE.md 6.6).
     } else if (tab === "notifications") {
       // ONE ROW, AND THAT IS THE WHOLE TAB (owner, 2026-08-31: "a notifications tab would do
       // great"). The training-day email shipped inside FLASHCARDS in v1.105.7 — a tab about
