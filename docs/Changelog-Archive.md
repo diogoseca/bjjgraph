@@ -17629,8 +17629,10 @@ measured cost, for the record: keeping every orb's names at the level-2 dot's re
 **Journeys, units, bytes.** Under the build lock on the committed merge with dev v1.276.0: the 17 spec files that read map
 names (known-move-seal among them) 229 passed, 1 skipped, none red; units 1,623 of 1,623. Bytes, my share alone against dev
 v1.276.0's own bundle on the same tree: neural.js +649 raw; eager gzip +291 (362,178 against 361,887); first-hand core +284
-(381,596 against 381,312); 11 boot requests. Against the baselines (v1.273.1's checkpoint): eager +4,997 of the 5,000 cap,
-of which dev's own +4,706; first-hand core +5,032 of 6,000, of which dev's own +4,748.
+(381,596 against 381,312); 11 boot requests. Against the baselines as checkpointed at dev v1.276.0's own level (v1.276.1,
+merged in before landing): eager 362,177, +290 on 361,887 (cap 5,000); first-hand core 381,596, +301 on 381,295 (cap
+6,000). Before that checkpoint the sum read +4,997 of 5,000, dev's own +4,706. Archive ceiling +50,000 in its own commit
+(D-316, the orchestrator's word). On the landing head: map-names and hidden-moves 39 of 39; npm run ci:validate 25 of 25.
 
 **Not covered.** A `::before` / `::after` background is not read (no chrome over the map paints with one today: measured on
 the drawer, its rows and the row); the walk goes down only through boxes that hold the orb, so a painting child that
