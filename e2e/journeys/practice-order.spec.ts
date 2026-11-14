@@ -54,7 +54,8 @@ import { journey } from "../dsl"
  *     cases and the once rule are tests/practice_page.test.mjs's (mutants G3 to G6 there).
  *   · R409-6: "a record with no answer…" pins the fold's button reading "More new cards · …" in today's order too.
  *   · item 4: "the dot is lit…" pins the Path band's chip: "Start" where the full words and the line beside it do not both
- *     fit (390, the 1440 drawer), the full words where they do (the band widened), the line whole, the aria full.
+ *     fit (390, the 1440 drawer), the full words where they do (the band widened), the line whole, the aria full; "the
+ *     Path band at WxH" pins the reason line whole (390x631) or not shown at all (360x740, 320x568), never an ellipsis.
  * NOT COVERED here: the order's arithmetic (the unit suite and its 15 mutants), no-gi on a page (the unit reads both
  * rulesets; a ruleset flip writes a setting, so it cannot share the byte-identity claim), and answering (grading writes the
  * record by design; the planner's completion rule is the unit suite's).
@@ -500,6 +501,44 @@ for (const touch of [true, false]) {
         expect(after.events, "counts and a reason word only").toEqual([{ variant: "neural", reason: "touched", short: 3, owed: before.owed }])
       }
       await clean(page, "the live set landing")
+    })
+  })
+}
+
+// THE PATH BAND AT PHONE WIDTHS (R409 item 4, the orchestrator's rule of 14 Nov, after the 360 picture: "keep what you
+// have ea… with an ellipsis reads as a fault"). Where the reason line cannot be whole beside the chip it is not shown at
+// all, never cut; the count and the chip stay whole, the chip reading "Start" (the full words fit at none of these), the
+// aria the full words. With this player ("19 of 20 today", the dot test's): the line whole at 390x631, not shown at
+// 360x740 and 320x568, where even beside "Start" it kept 115 and 80 of its 127 px.
+// MUTANT (R409): L1 the line left cut (`line.hidden` never set) → red here at 360x740 and 320x568.
+for (const [w, h, shown] of [[390, 631, true], [360, 740, false], [320, 568, false]] as const) {
+  test.describe(`the Path band at ${w}x${h}`, () => {
+    test.use({ hasTouch: true, isMobile: true, viewport: { width: w, height: h } })
+    test(`the Path band at ${w}x${h}: the reason line ${shown ? "whole" : "not shown"}, the count and the chip whole`, async ({ page }) => {
+      const { orderFixture } = await import("../../tests/_practice_order_fixture.mjs")
+      const fx = orderFixture(SERVED)
+      const blob = JSON.parse(JSON.stringify(fx.blob))
+      blob.srs["Seed|Top"] = Object.fromEntries(Array.from({ length: 19 }, (_, i) => ["today" + i, [fx.day + 1, 1, fx.day]]))
+      await boot(page, fx.day, blob)
+      await press(page, ".ng-logo", "open the drawer", true)
+      await press(page, '[data-explore-stats] [data-view="challenges"]', "the Path row", true)
+      await expect(page.locator("[data-maintenance] b"), "premise: the band, one answer short of the goal").toHaveText("19 of 20 today")
+      const read = () => page.evaluate(() => {
+        const band = document.querySelector("[data-maintenance]") as HTMLElement, br = band.getBoundingClientRect()
+        const part = (el: HTMLElement) => {
+          const r = el.getBoundingClientRect(), cs = getComputedStyle(el)
+          return { shown: cs.display !== "none" && r.width > 0, whole: el.scrollWidth <= el.clientWidth && r.left >= br.left - 0.5 && r.right <= br.right + 0.5,
+            text: el.textContent, ellipsis: cs.textOverflow === "ellipsis" }
+        }
+        return { count: part(band.querySelector("b")!), line: part(band.querySelector("span")!), chip: part(band.querySelector("em")!) }
+      })
+      await expect.poll(async () => { const r = await read(); return r.line.shown ? (r.line.whole ? "whole" : "cut") : "not shown" },
+        { message: `the reason line at ${w}x${h}: whole, or not shown at all` }).toBe(shown ? "whole" : "not shown")
+      const r = await read()
+      expect([r.count.shown, r.count.whole], "the count, whole").toEqual([true, true])
+      expect([r.chip.shown, r.chip.whole, r.chip.text], "the chip, whole").toEqual([true, true, "Start"])
+      expect(r.line.ellipsis, "never an ellipsis on the line").toBe(false)
+      await expect(page.locator("[data-maintenance]"), "the band's name keeps the full words").toHaveAttribute("aria-label", "Master the game, 19 of 20 today — Start today's session")
     })
   })
 }

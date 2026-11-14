@@ -746,15 +746,20 @@ const NG_CHALLENGE_UI_METHODS = {
           '<b>' + today + '</b>' +
           '<span>keep what you\u2019ve earned</span>' +
           '<em>' + NG_PRACTICE_START + '</em>';
-        // THE CHIP'S WORDS (R409 item 4, the orchestrator's rule of 14 Nov): NG_PRACTICE_START where it and the line beside
-        // it both fit uncut, NG_PRACTICE_START_SHORT where they do not; the aria above keeps the full words at every width.
-        // Measured at 390x631, 360x740, 320x568 and the 1440x900 drawer, the full words fit at none (the line kept 53, 26,
-        // 0 and 69 of its 127 px). Read off the laid-out band, and again when its width changes: one observer, this band only
+        // THE CHIP'S WORDS AND THE REASON LINE (R409 item 4, the orchestrator's rules of 14 Nov): the chip reads
+        // NG_PRACTICE_START where it and the line beside it both fit uncut, NG_PRACTICE_START_SHORT where they do not; and
+        // where the line cannot be whole even then, it is not shown at all, never cut with an ellipsis (the orchestrator: "reads as a
+        // fault"), the count and the chip staying whole. The aria above keeps the full words at every width. Measured at
+        // 390x631, 360x740, 320x568 and the 1440x900 drawer, the full words fit at none (the line kept 53, 26, 0 and 69 of
+        // its 127 px); with "Start" the line is whole at 390 and in the drawer, and not shown at 360 and 320 (115 and 80).
+        // Read off the laid-out band, and again when its width changes: one observer, this band only
         if (typeof ResizeObserver === "function") {
           maint._fit = () => {
-            const em = maint.lastChild, line = em.previousSibling;
+            const em = maint.lastChild, line = em.previousSibling, cut = () => line.scrollWidth > line.clientWidth;
+            line.hidden = false;
             em.textContent = NG_PRACTICE_START;
-            if (line.scrollWidth > line.clientWidth) em.textContent = NG_PRACTICE_START_SHORT;
+            if (cut()) em.textContent = NG_PRACTICE_START_SHORT;
+            if (cut()) line.hidden = true;
           };
           (this._bandFit = this._bandFit || new ResizeObserver((es) => es.forEach((e) => e.target._fit && e.target._fit()))).disconnect();
           this._bandFit.observe(maint);
