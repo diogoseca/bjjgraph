@@ -246,7 +246,7 @@ const NG_GHOST_BTN_CSS = "flex:none;pointer-events:auto;cursor:pointer;font-fami
 // SPACED-REPETITION INTERVAL LADDER (v1.105.0, owner directive — reverses the old "forgetting is
 // tested, not timed" canon). No ease factor: fewer fields, fewer merge cases. The ladder, the cell an
 // older client reads and what an early or late answer earns live in knowledge-profile.src.js
-// (`NG_KNOWLEDGE_LADDER`, `ngKnowledgeScheduleRow`, v1.278.0); the copy that stood here (`NG_SRS_IVLS`)
+// (`NG_KNOWLEDGE_LADDER`, `ngKnowledgeScheduleRow`, v1.279.0); the copy that stood here (`NG_SRS_IVLS`)
 // was read by nothing and went with it.
 // THE DAILY GOAL, in cards (owner U56 e, 2026-10-28: "The goal today is to do 20 flashcards"). A goal,
 // never a cap: reviews and new cards both count, and it is also the day's NEW-card quota — the planner
@@ -7430,9 +7430,9 @@ class Component extends DCLogic {
         // explored states: a UNION, like every other durable-proof field
         if (Array.isArray(cloud.explored)) { const e = (this._exploredKeys = this._exploredKeys || new Set()); for (const k of cloud.explored) e.add(k); }
         // srs merge (v1.105.0): per-card, the LATER review wins its schedule — the freshest grade
-        // knows the memory best; on one day the smaller cell, then (v1.278.0) the earlier due, so two
+        // knows the memory best; on one day the smaller cell, then (v1.279.0) the earlier due, so two
         // devices converge; a winning success keeps the longer TRUE interval it beat (`due − last`,
-        // v1.278.0). The rule and its reasons are `ngKnowledgeMergeRow` (knowledge-profile.src.js),
+        // v1.279.0). The rule and its reasons are `ngKnowledgeMergeRow` (knowledge-profile.src.js),
         // pinned in tests/knowledge_profile.test.mjs. NB `stage` merges MAX while this merges by
         // recency — post-merge they can disagree (proven stage, relearn schedule); benign and
         // deliberate: stage is proof, srs is memory freshness.

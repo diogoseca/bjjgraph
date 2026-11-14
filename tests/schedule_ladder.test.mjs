@@ -1,4 +1,4 @@
-// THE SCHEDULE (v1.278.0, ruled SRS-GO) — neural/src/knowledge-profile.src.js (`ngKnowledgeScheduleRow`, `ngKnowledgeMergeRow`,
+// THE SCHEDULE (v1.279.0, ruled SRS-GO) — neural/src/knowledge-profile.src.js (`ngKnowledgeScheduleRow`, `ngKnowledgeMergeRow`,
 // `ngKnowledgeInterval`, `ngKnowledgeCell`), the app's srs pull merge that calls it (`_mergeProgressFields`) and the moves merge
 // (`ngProgressMergeMoves`, neural/src/progress-owner.src.js).
 //
@@ -14,8 +14,8 @@
 // from the cell, capped at 120 days, whatever the day (a 365-day card comes back in 120), until a new client answers it again;
 // it never sends a card back to 1 day, its due counts read `due` (exact), and its heal can only make a card due later.
 //
-// MUTANTS (v1.278.0), each applied alone to a clean tree and run against this file (the run log is in
-// docs/Changelog-Archive.md, v1.278.0); each turned the NAMED test red:
+// MUTANTS (v1.279.0), each applied alone to a clean tree and run against this file (the run log is in
+// docs/Changelog-Archive.md, v1.279.0); each turned the NAMED test red:
 //   L1  an early right answer earns a full rung (today's rule)              → "his example: day 31.7, day 87.6 and day 90"
 //   L2  a late right answer earns more than a rung (the credit uncapped)    → "a late right answer earns one rung, no bonus"
 //   L3  the ladder capped at 120 days (today's seven rungs)                 → "the 120-day card's next step is 241 days on time"
@@ -195,7 +195,7 @@ test("two devices converge, both orders, a cloud that holds a row", () => {
   assert.deepEqual(K.ngKnowledgeMergeRow([455, 30, 400], [442, 30, 400], today), [455, 30, 400]);
   assert.deepEqual(K.ngKnowledgeMergeRow([442, 30, 400], [455, 30, 400], today), [455, 30, 400]);
   // one day, one cell, no heal (a miss wins at rung 0): the EARLIER due decides, so both devices keep the miss of today. Until
-  // v1.278.0 the tie kept the local row, and the two devices each kept their own
+  // v1.279.0 the tie kept the local row, and the two devices each kept their own
   assert.deepEqual(K.ngKnowledgeMergeRow([402, 1, 400], [401, 1, 400], today), [401, 1, 400]);
   assert.deepEqual(K.ngKnowledgeMergeRow([401, 1, 400], [402, 1, 400], today), [401, 1, 400]);
   // a cloud row only: kept, its `last` clamped to today
@@ -229,7 +229,7 @@ test("a winning success keeps the longer TRUE interval it beat", () => {
   assert.deepEqual(K.ngKnowledgeMergeRow([301, 1, 300], [380, 60, 290], 400), [301, 1, 300]);
 });
 
-test("nothing stored is rewritten: every row written before v1.278.0 reads as its own rung", () => {
+test("nothing stored is rewritten: every row written before v1.279.0 reads as its own rung", () => {
   for (const r of SEVEN) for (const last of [0, 17, 400]) {
     const row = [last + r, r, last];
     assert.equal(K.ngKnowledgeInterval(row), r);

@@ -5,7 +5,7 @@ import { ngProgressOwner, ngProgressLocalKey, ngProgressCreateStore, ngProgressC
 
 const read = rel => readFileSync(new URL(rel, import.meta.url), 'utf8');
 const strip = text => text.replace(/^export (function|const|let|var|class) /gm, '$1 ');
-// knowledge-profile (v1.278.0): the pull's srs merge is `ngKnowledgeMergeRow`, which the bundle concatenates above the class
+// knowledge-profile (v1.279.0): the pull's srs merge is `ngKnowledgeMergeRow`, which the bundle concatenates above the class
 const dependencies = ['lists-codec', 'lists', 'belt', 'challenge-definitions', 'challenge-engine', 'knowledge-profile'].map(name => strip(read('../neural/src/'+name+'.src.js'))).join('\n');
 const ownerSource = strip(read('../neural/src/progress-owner.src.js'));
 const source = read('../neural/src/app.src.jsx');

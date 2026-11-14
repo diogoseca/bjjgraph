@@ -225,7 +225,7 @@ test("async observer rejection is reported and cannot block Gameplan or later no
 });
 
 test("SRS differential closes over the captured original ladder; changed-constant mutant is killed", () => {
-  // UNTIL v1.278.0 the extracted writer equalled the captured original `_schedule` on all 36 rows below (the extraction's
+  // UNTIL v1.279.0 the extracted writer equalled the captured original `_schedule` on all 36 rows below (the extraction's
   // pin). The owner's ladder (SRS-GO, tests/schedule_ladder.test.mjs) changes it on purpose; what stays pinned here: the
   // original ladder IS the cell's seven rungs, and on rows the app writes (due = last + interval) the two still agree on a
   // first answer, a miss, and a right answer on time from 1 to 30 days; they differ exactly where the ruling says (60 -> 90
@@ -350,8 +350,8 @@ test("panic plain recall deliberately qualifies proof/SRS; direct callbacks reta
     fresh.reveal.click(); fresh.got.click(); // a legitimate fresh repeat retains local credit
     assert.deepEqual(a.prep, { [key]: 2, [shared]: 1 }); assert.equal(a._days.day, 1);
     assert.equal(a.stage[key][qh], 4); assert.equal(a.rec[key], 1);
-    // the repeat is the same day: under the owner's ladder (v1.278.0) a right answer 0 days after the last earns nothing, so
-    // both rows stand (until v1.278.0 every right answer climbed a rung: [130, 30, 100] and [114, 14, 100])
+    // the repeat is the same day: under the owner's ladder (v1.279.0) a right answer 0 days after the last earns nothing, so
+    // both rows stand (until v1.279.0 every right answer climbed a rung: [130, 30, 100] and [114, 14, 100])
     assert.deepEqual(a.srs[key][qh], [114, 14, 100]); assert.deepEqual(a.srs[shared][qh], [107, 7, 100]);
     assert.equal(a._qMod, -.08); assert.equal(a._combo, 4); assert.equal(a.answers, 2);
     assert.equal(Object.keys(a._knowledgeAttempts).length, 2);
@@ -375,8 +375,8 @@ test("pure grading preserves prior recall arithmetic including repeats and share
     for (const [field, hostField] of [["prep", "prep"], ["stage", "stage"], ["rec", "rec"], ["sharp", "_sharp"], ["days", "_days"]]) {
       assert.deepEqual(evidence[field], b[hostField], `${field}, grade ${i}`); checked++;
     }
-    // srs: the same decks as the captured writer, and every grade is on day 100, so under the owner's ladder (v1.278.0) a
-    // repeat earns nothing and every row stays [101, 1, 100] (until v1.278.0 it equalled the captured writer, which climbed
+    // srs: the same decks as the captured writer, and every grade is on day 100, so under the owner's ladder (v1.279.0) a
+    // repeat earns nothing and every row stays [101, 1, 100] (until v1.279.0 it equalled the captured writer, which climbed
     // a rung on every right answer)
     assert.deepEqual(evidence.srs, Object.fromEntries(Object.entries(b.srs).map(([dk, rows]) => [dk, Object.fromEntries(Object.keys(rows).map((q) => [q, [101, 1, 100]]))])), `srs, grade ${i}`); checked++;
   }
@@ -398,7 +398,7 @@ test("all MC surfaces preserve prior grade arithmetic; valid repeats and trap/no
       for (const field of ["prep", "stage", "rec", "_sharp", "_days"]) {
         assert.deepEqual(a[field], b[field], `${surface}/${pick}/${field}`); checked++;
       }
-      // srs: the captured writer's decks, every row a day after the one day these answers fall on (v1.278.0: a same-day
+      // srs: the captured writer's decks, every row a day after the one day these answers fall on (v1.279.0: a same-day
       // repeat earns nothing; until then the srs equalled the captured writer's, a rung a right answer)
       const day = a._epochDay();
       assert.deepEqual(a.srs, Object.fromEntries(Object.entries(b.srs).map(([dk, rows]) => [dk, Object.fromEntries(Object.keys(rows).map((q) => [q, [day + 1, 1, day]]))])), `${surface}/${pick}/srs`); checked++;
