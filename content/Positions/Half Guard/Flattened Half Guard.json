@@ -1,6 +1,29 @@
 {
   "name": "Flattened Half Guard",
   "slug": "flattened-half-guard",
+  "bot_metadata": {
+    "last_improved": "2026-07-18",
+    "optimization_pass": "ai_seo_v1"
+  },
+  "aliases": [
+    "Smashed Half Guard",
+    "Flat Half Guard",
+    "Pinned Half Guard"
+  ],
+  "disambiguations": [
+    {
+      "name": "Half Guard",
+      "reason": "standard half guard keeps active frames and hip mobility, while the flattened variation has the back pinned flat with frames collapsed"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "reason": "the knee shield uses an active shin frame to hold distance, while flattened half guard has no shin barrier and chest-to-chest contact"
+    },
+    {
+      "name": "Quarter Guard",
+      "reason": "quarter guard traps only the opponent's foot with minimal control, while flattened half guard still traps the full leg under collapsed frames"
+    }
+  ],
   "description": "Master the flattened half guard position in BJJ. Complete guide covering defensive escapes, frame recovery, and survival tactics when pinned flat.",
   "variant_uniqueness": "Minimal frames trades mobility for survival",
   "summary": "Flattened Half Guard is a pinned variation of half guard where the top player collapses the bottom player's frames and settles chest-to-chest with the leg still trapped, reducing the bottom game to survival and frame recovery.",
