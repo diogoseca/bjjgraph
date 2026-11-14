@@ -79,6 +79,11 @@ import { journey } from "../dsl"
  *   G6 the gate's defender check removed                      NON-KILL: both sets already leave a twin out (no defender
  *                                                              key in `_movesGold`, no defender role in `_answered`); the
  *                                                              gate is the second guard
+ *   G6c the gate's check removed AND `_answered` reading a     red 2 at "no mark on a defender twin" (1440, 390)
+ *       defender's own deck
+ *   dev 3e39b0aa6's own bundle (this file and map-gold)        red 8 of 8: the card's four at "...: data-seal "recalled"
+ *                                                              and one seal"; the two map tests at a TypeError (dev has
+ *                                                              no `_answered`), a crash, not a claim
  *   G7 the seat in the marks' gate (an inside mark on it)      red 1 at "1440: no inside mark on the seat" (its own deck
  *                                                              learned in the frame, so the check has a case); the 390
  *                                                              test stays green under it, why is not measured
