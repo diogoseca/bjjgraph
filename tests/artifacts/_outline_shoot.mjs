@@ -212,4 +212,7 @@ for (const vp of VPS) {
   await ctx.close()
 }
 await browser.close()
-fs.writeFileSync(path.join(OUT, `meta-${TAG}.json`), JSON.stringify(meta, null, 1))
+// a partial run (--only) merges into the meta a full run wrote, so the other shots' records survive
+const metaFile = path.join(OUT, `meta-${TAG}.json`)
+if (ONLY && fs.existsSync(metaFile)) { const old = JSON.parse(fs.readFileSync(metaFile, "utf8")); meta.shots = { ...old.shots, ...meta.shots }; for (const k of Object.keys(old)) if (!(k in meta)) meta[k] = old[k] }
+fs.writeFileSync(metaFile, JSON.stringify(meta, null, 1))
