@@ -270,9 +270,10 @@ function ngOpenZoom(u, v0, up) {
 // first (v1.101.1); the film ✕, the hand ✕ and the dock glyphs share it so they cannot drift.
 const NG_GHOST_BTN_CSS = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:24px;height:24px;border:none;border-radius:7px;background:none;color:#8b97b0;font-size:12px;line-height:1;display:flex;align-items:center;justify-content:center;transition:color .15s,background .15s;";
 // SPACED-REPETITION INTERVAL LADDER (v1.105.0, owner directive — reverses the old "forgetting is
-// tested, not timed" canon). No ease factor: fewer fields, fewer merge cases. A success climbs one
-// rung; any failure resets to rung 0 (1 day).
-const NG_SRS_IVLS = [1, 3, 7, 14, 30, 60, 120];
+// tested, not timed" canon). No ease factor: fewer fields, fewer merge cases. The ladder, the cell an
+// older client reads and what an early or late answer earns live in knowledge-profile.src.js
+// (`NG_KNOWLEDGE_LADDER`, `ngKnowledgeScheduleRow`, v1.279.0); the copy that stood here (`NG_SRS_IVLS`)
+// was read by nothing and went with it.
 // THE DAILY GOAL, in cards (owner U56 e, 2026-10-28: "The goal today is to do 20 flashcards"). A goal,
 // never a cap: reviews and new cards both count, and it is also the day's NEW-card quota — the planner
 // stops dealing new cards once the day's answers reach it, and never stops dealing reviews
@@ -7561,15 +7562,12 @@ class Component extends DCLogic {
         // explored states: a UNION, like every other durable-proof field
         if (Array.isArray(cloud.explored)) { const e = (this._exploredKeys = this._exploredKeys || new Set()); for (const k of cloud.explored) e.add(k); }
         // srs merge (v1.105.0): per-card, the LATER review wins its schedule — the freshest grade
-        // knows the memory best. Ties are the COMMON case (`last` is a day; two devices studying
-        // the same day tie constantly), so the tie rule IS the rule: the SMALLER interval wins —
-        // showing a card early is cheap, hiding a demonstrably-forgotten card for 30 days is not.
-        // When the winner was a SUCCESS (ivl > 1; failures always write ivl 1) it keeps the larger
-        // of the two intervals, which heals the grade-before-pull race (a fresh device's 1→3 would
-        // otherwise erase a mature cloud schedule through nothing but recency). Ingested `last` is
-        // clamped to today so a fast clock cannot win merges forever. NB `stage` merges MAX while
-        // this merges by recency — post-merge they can disagree (proven stage, relearn schedule);
-        // benign and deliberate: stage is proof, srs is memory freshness.
+        // knows the memory best; on one day the smaller cell, then (v1.279.0) the earlier due, so two
+        // devices converge; a winning success keeps the longer TRUE interval it beat (`due − last`,
+        // v1.279.0). The rule and its reasons are `ngKnowledgeMergeRow` (knowledge-profile.src.js),
+        // pinned in tests/knowledge_profile.test.mjs. NB `stage` merges MAX while this merges by
+        // recency — post-merge they can disagree (proven stage, relearn schedule); benign and
+        // deliberate: stage is proof, srs is memory freshness.
         {
           const srs = (this.srs = this.srs || {});
           const today = this._epochDay();
@@ -7577,17 +7575,9 @@ class Component extends DCLogic {
             const l = (srs[dk] = srs[dk] || {});
             const cs = cloud.srs[dk] || {};
             for (const qh in cs) {
-              const c = cs[qh], m = l[qh];
+              const c = cs[qh];
               if (!Array.isArray(c) || c.length < 3) continue;
-              const cc = [c[0] | 0, c[1] | 0, Math.min(today, c[2] | 0)];
-              if (!m) { l[qh] = cc; continue; }
-              let w, o;
-              if (cc[2] > m[2]) { w = cc; o = m; }
-              else if (m[2] > cc[2]) { w = m; o = cc; }
-              else if (cc[1] < m[1]) { w = cc; o = m; }
-              else { w = m; o = cc; }
-              if (w[1] > 1 && o[1] > w[1]) w = [w[2] + o[1], o[1], w[2]];
-              l[qh] = w;
+              l[qh] = ngKnowledgeMergeRow(l[qh], c, today);
             }
           }
           // `moves` merges by the same recency rule, cell by cell, carrying the winner's answer
@@ -12920,7 +12910,7 @@ class Component extends DCLogic {
   /**
    * THE ONE SCHEDULE WRITER (v1.105.0). Called from BOTH grade chokes (`gradeRecall`,
    * `_mcAnswer`) — scheduling is about MEMORY, not format, so an MC answer moves the clock even
-   * though it cannot move the stage past 2. Success climbs one rung of NG_SRS_IVLS; ANY failure
+   * though it cannot move the stage past 2. Success climbs the ladder (ngKnowledgeScheduleRow); ANY failure
    * resets to rung 0 (due again, but not before tomorrow — see duePool's `last < today`, which is
    * what lets the pool DRAIN on a failure instead of re-serving the card all day).
    * Mirrors `noteCardDone`'s cross-deck credit: the same question text in N decks is ONE fact,

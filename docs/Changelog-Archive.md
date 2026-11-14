@@ -18139,6 +18139,168 @@ a 5,000 cap); first-hand core 384,111 (+2,816 on 381,295, this PR's about +809, 
 1,600,000; deferred raw 521,758, its ceiling moved to exactly that in its own commit under U170 a (c812c1bce; dev's own
 use 521,639). Stored progress: no key, no storage call, no row rewritten (the diff adds none).
 
+## v1.279.0 — The owner's ladder, 1 day to 8 years and doubling; an early right answer earns the share of a rung that passed; no late bonus (SRS-GO, 2026-11-14)
+
+**Ruled** (SRS-GO, on the schedule study of ANKI1; the owner's ladder and his example):
+- The ladder: 1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922 days, then doubling (`NG_KNOWLEDGE_LADDER`). Until now
+  it was 1, 3, 7, 14, 30, 60, 120, and a right answer climbed one rung whenever it came.
+- A miss: back to 1 day.
+- An early right answer, (b) proportional: the card moves the fraction of a rung that the fraction of its interval passed
+  earns, on a log scale (`ngKnowledgeNextInterval`). His example is a unit: a card at 30 days answered right the next day
+  is due on day 31.7 of the old count, on day 29 on day 87.6, on time on day 90. An early answer never earns more than an
+  on-time one, so it cannot be farmed (SRS-R1, below: answered every day, a card at 60 to 89 days holds its interval).
+- A late right answer: one rung, NO bonus. With a backlog a bonus cost 7 to 15 points of true recall at two years and
+  flattered the rating by 10 to 18 (the study's measure); written at the code so nobody "fixes" it.
+- A right answer never makes a card due sooner (`Math.max` with the old due).
+- Storage: no new field, no stored row rewritten. The true interval is `due − last`, never below the cell
+  (`ngKnowledgeInterval`); every writer until now wrote `due = last + interval`, so an old row reads as its own rung. The
+  cell is written as the largest rung of the old seven at or below the true interval (`ngKnowledgeCell`), so an older
+  client always finds a rung. The pull merge (`ngKnowledgeMergeRow`, the app's inline merge moved there so it is a unit):
+  later `last`, then the smaller cell, then (new) the earlier due, so two devices converge; both heals read true
+  intervals, srs and moves (`ngProgressMergeMoves`). `NG_SRS_IVLS`, a copy nothing read, is gone.
+
+**The survey** (every reader of the cell and of `due − last`, which can now differ for the first time; 23 candidate lines,
+7 of them schedule rows):
+- `ngRatingRecall` (rating.src.js) read the CELL as the interval: a card past 120 days, or between rungs, read as fading
+  faster than it is. It feeds the rating and the order's worth (practice-queue calls it, so the two stay in step). Ruled
+  out of the first push and proposed to the rating seat as one line (the true interval); SRS-R1 (below) put that read
+  into this PR.
+- The row picked for a shared question (rating.src.js and practice-queue.src.js): later `last`, then the smaller cell.
+  Left as is in the first push; the reader showed a shared question whose decks drifted could be counted owed and not
+  asked, and SRS-R1 (below) gives both readers the merge's own order.
+- "Right or wrong" read as `cell > 1 or stage > 0` (both files): an early right answer can leave a cell of 1, but a
+  right answer always raises the stage, so the read holds.
+- The due count, "Everything owed", the debt cover, the plan worker, the day log and #415's guard read `due` and `last`
+  only: unchanged. Validity checks read `cell > 0`: the cell is always at least 1.
+- Specs that build a row by hand write `[last + ivl, ivl, last]`, which reads as its own rung.
+
+**The older client** (dev v1.273.1's own writer and merges, cut from git's copy by `_capture_old_schedule.mjs`; identical
+on dev v1.278.2, where SRS-R1 captures it again with its rating's read): its right answer on a new row climbs ITS ladder from the cell, a full rung capped at 120 days, until a
+new client answers again (a 365-day card comes back in 120). That is the loss, said plainly. It never sends a new row to 1
+day, its due counts read `due` exactly, and its heal can only make a card due later.
+
+**Proof.**
+- `tests/schedule_ladder.test.mjs` and `tests/knowledge_profile.test.mjs`: his example; the ladder (the 120-day card's
+  next step, 241 days on time); a late answer one rung; never sooner; never back to 1 day; the cell a rung of the seven;
+  the older client; two devices, both orders, against a fake cloud that holds a row (lower and higher, the same day and
+  another); nothing stored rewritten.
+- Mutants, each alone on the merged tree, the file's hash checked after, each red at its named test: L1 an early answer
+  earning a full rung; L2 a late one earning more than a rung; L3 the ladder capped at 120; L4 the cell written
+  unfloored; L5 the place read from the cell; L6 an off-ladder right answer reset to 1 day; L7 the merge without the
+  due tie-break; L8 the srs heal read from the cells; L9 the moves heal read from the cells.
+- The knowledge law pin moves (`mdp-exposure.src.js` and its test, 17c12c… → 79a642a9…): the worker binds eight
+  knowledge laws, none changed, and no study read names a schedule row. Measured against dev v1.278.2's own MDP
+  (regenerated in a scratch copy at 3b050d06f): the two variant shards differ only in the `mechanicsHash` they carry, so
+  they name the same data parts byte for byte; the manifest differs only in its provenance hashes (the knowledge law,
+  the source, the model, the gameplay) and the variants' names, hashes and gzip sizes (one byte each).
+- The Practice simulation's parity golden is regenerated under the new ladder (40 days, 458 asks).
+- #415's guard on this tree (the reader's attack script): 0 cards changed in 135 sampled re-plans and in 12 of 12
+  adversarial ones; the same "touched" table; a session on today's order turning worth waits and is planned again.
+- The four players of the study (Practice on the shipped day, 5 players from zero, two years; true level / rating / owed
+  at day 730, days with a new card, the longest any card waited past its due):
+
+  | player | today's schedule | the new one |
+  |---|---|---|
+  | no rolls | 1,404 / 1,346 / 39; 187 days; 18 | 1,414 / 1,311 / 34; 205 days; 15 |
+  | 5 roll answers a day | 1,385 / 1,309 / 1,880; 5; 277 | 1,387 / 1,303 / 1,832; 6; 266 |
+  | 10 a day | 1,428 / 1,357 / 3,484; 2; 416 | 1,428 / 1,353 / 3,447; 2; 418 |
+  | 10 a day, moves hidden | 1,459 / 1,398 / 4,251; 2; 423 | 1,458 / 1,393 / 4,193; 2; 420 |
+
+  True recall rises or holds; the rating read lower because it still read the cell (SRS-R1's table, below, reads the
+  true interval).
+
+**Not covered.** A roll answer joins the pile as today, moves shown or hidden (the owner, 14 Nov): nothing built on it.
+
+**Landing** on c74541d12 (the merge of dev v1.278.2), under the lock (16:17 to 16:49): units 1,681/1,681; 36 journey
+files (every core spec that builds or reads a schedule row, the 26 Practice files, belt-worn, payload-first-hand) 386
+passed; e2e:gen 103/103, judged by its ledger; the app rows re-seeded (266174758); ci:validate 25/25.
+
+**Bytes**, my share on dev v1.278.2's own build (3b050d06f, in scratch, gzip 9): `neural.js` +915 raw, +346 gzip;
+`game-study.js` and the game worker's shared core +127 raw each (deferred: both bundle `knowledge-profile.src.js`, and the
+ladder, built at load, rides along); `gameplan.js` unchanged. With this PR: eager gzip 364,998 (+3,111 on the 361,887
+baseline, this PR's +346, of a 5,000 cap); first-hand core 384,436 (+3,141 on 381,295, this PR's +325, of 6,000);
+deferred raw 522,012, its ceiling moved to exactly that in its own commit under U170 a (0d77f6763; dev's own use
+521,758). The archive's ceiling rose by exactly 50,000 to 1,713,038 in its own commit (D-316, 839d99575): dev stood
+640 characters from it. Stored progress: no new field, no key, no row rewritten.
+
+**SRS-R1** (the independent reader's read of PR #416 at 869e225a9: MERGE AFTER 2, 3, 4, 5; the orchestrator's rulings).
+The reader checked 475,336 right answers and 60,516 merge pairs: never sooner, never back to 1 day on either client, no
+stored row rewritten, two devices converging and both heals only later all held. Fixed in one push:
+- **Finding 1, into this PR (it reverses SRS-GO §6, whose reason was gone: #412 had merged).** `ngRatingRecall` reads a
+  row's TRUE interval, `due − last`, never below the cell. Read from the cell, a card answered right on every due day read
+  0.854 on its due day at 90 days, 0.726 at 365 and 0.077 at 2,922, so the number drifted down as cards matured and the
+  drawer said "N under your stripe". At the update nothing moves: the reader's 406 readings of dev's rows are equal, and
+  every row dev's writer and dev's pull can produce reads the same or higher (higher only where the pull lengthened a row);
+  a card answered on every due day reads 0.9 on its due day at 90, 365 and 2,922 days; the Practice order's worth
+  (1 − that read) moves with it.
+- **Finding 2.** A shared question whose decks' rows had drifted was counted owed and not asked: the one writer files every
+  deck on one day with the same floored cell and due days apart, and the row choice kept the first deck stored. Both readers
+  (`ngPracticeItems`, `ngRatingShare`) now take the merge's own order through one function, `ngRatingNewerRow`: the later
+  `last`, then the smaller cell, then the earlier due. Pinned in both storage orders, drifted and mature (both cells 120).
+- **Finding 3, ruled (a): the claim corrected, the rule kept.** An early answer never earns more than an on-time one (0 of
+  2,922 daily runs, a unit). Answered every day a card advances in every band except 60 to 89 days, where a day earns 0.41
+  of a day and whole-day storage drops it, so the card holds its interval until it is answered two or more days apart or on
+  time (a 60-day card answered daily for a year is still at 60 and never due sooner; every second day it reaches 120).
+  Rounding up instead would overshoot a full rung by 30 days in that band.
+- **Finding 4.** The writer never moves `last` backward: an answer on a day before the row's last (a clock set back) is
+  filed on its last, so `[430, 30, 400]` answered on day 390 stays as it was and on day 430 earns the on-time 60, not 71;
+  a miss there is due the day after the row's last. The pull's clamp can still lengthen a row by as many days as the other
+  device's clock ran ahead; said at the code.
+- **Finding 5.** The never-sooner test holds clock-back rows (from every row, 1, 30 and 400 days back). Since finding 4's
+  fix the writer itself holds those, so the guard (`Math.max` with the old due) binds only on a row whose due is not a
+  whole day (no writer stores one; the pull truncates a cloud row); that row is in the test and L10 is red at it. The app's
+  own pull is now a test (tests/progress_owner.integration.test.mjs, ported from the reader's script): `_mergeProgressBlobs`
+  in both orders on five pairs holding srs and moves rows, and a full `_pullAndMerge` of rows dev wrote (588 cards on both
+  sides, 40 on one) leaving every srs and moves row as dev's own pull does, dev's pull being its captured code.
+- **Finding 6, not covered, in the reader's words:** a right answer on the day of a miss stays at 1 day (`[401, 1, 400]`
+  answered right on day 400; dev wrote `[403, 3, 400]`), so a fresh device that answers a card right twice on one day before
+  its first pull writes `[1001, 1, 1000]`, and against a mature cloud row `[1030, 60, 970]` the merge keeps it (dev kept
+  `[1060, 60, 1000]`). Intended: no day has passed.
+- Findings 7 to 9: between rungs one rung is one place on the log scale (the reading stands); three devices can end on
+  different rows by order, as on dev; `docs/Neural.md` lost two history parentheticals to stay under its ceiling (the worn
+  belt's pre-v1.270.0 rule, and pre-v1.270.0 future sections, U87; the v1.270.0 entry records both), said in the PR body; `e2e/journeys/srs-due.spec.ts`'s
+  header names the new ladder.
+- The older client is now captured at dev v1.278.2 (3b050d06f; writer and merges the same text as v1.273.1's), with its
+  rating's `ngRatingRecall`.
+- Mutants, each alone on the fixed tree, every file restored with its hash checked (control: 148 of 148 green in the five
+  unit files): L1 to L9 again, each red where the first push named it, L7 to L9 also at the app's own pull; L10 the guard
+  dropped → "a right answer never makes a card due sooner"; L11 an answer filed on today's day again → "a clock set back
+  never lengthens an interval"; L12 the rating reading the cell again → "the rating reads a card at 0.9 on its due day,
+  at 90, 365 and 2,922 days" and "the Practice order's worth moves with the rating's read" (and the parity law); L13 and
+  L14 the row choice without the earlier due, in the rating's helper or in the Practice order's own line → "a shared
+  question whose decks drifted is asked when it is owed"; L15 an early interval rounded up whenever a day passed (the
+  reader's candidate for the band, not taken) → "answered every day: never more than one on-time answer"; L16 the app's
+  pull block back to dev's inline merge → "the app's pull merges srs and moves rows the same in both orders".
+- The Practice simulation's stored-state read moved to the true interval (in the seat's copy; the original still
+  reproduces the first push's golden byte for byte): the parity golden regenerated, 40 days, 460 asks (458 under the cell
+  read). On the real wire the law asked what the simulation asks on 530 of 530 sampled days in each of five runs (gi a
+  year, 10 players; two years for gi cards only, no-gi, no-gi cards only, and gi cards only with rolls opening no rows).
+  #415's guard on this round's head (the reader's attack script): 0 cards changed in 135 sampled re-plans and in 12 of 12
+  adversarial ones. The four players again, the rating on the true interval (today's column is the same either way:
+  dev's rows have due − last equal to the cell):
+
+  | player | today's schedule | the new one |
+  |---|---|---|
+  | no rolls | 1,404 / 1,346 / 39; 187 days; 18 | 1,416 / 1,351 / 34; 202 days; 11 |
+  | 5 roll answers a day | 1,385 / 1,309 / 1,880; 5; 277 | 1,384 / 1,311 / 1,845; 6; 263 |
+  | 10 a day | 1,428 / 1,357 / 3,484; 2; 416 | 1,428 / 1,360 / 3,404; 2; 422 |
+  | 10 a day, moves hidden | 1,459 / 1,398 / 4,251; 2; 423 | 1,459 / 1,402 / 4,186; 2; 425 |
+
+  True recall rises or holds within a point, the rating reads at or above today's, and fewer cards are owed.
+- The knowledge law pin moved again (79a642a9… → 9ef88c87…, the writer's clock-back line and comments). Against dev
+  v1.278.2's own MDP again: both variants differ only in their `mechanicsHash`, all 62 data parts they name are identical,
+  and the manifest differs only in provenance hashes and the variants' names, hashes and one gzip size.
+- **Landing** on 7b2105db6, under the lock (17:51 to 18:25): units 1,689/1,689; the 36 journey files that read a schedule
+  row or the rating (belt-row, belt-worn, rating-reader, srs-due, the Practice files, payload-first-hand among them) 386
+  passed; e2e:gen 103/103, judged by its ledger; the app rows re-seeded (e2d6193ba); ci:validate 25/25. The 49 unit files
+  that read a schedule row or the rating, 716/716, before the commit.
+- **Bytes**, my share on dev v1.278.2's own build (gzip 9): `neural.js` +1,043 raw, +395 gzip (the first push's +915 /
+  +346, and the rating's read and row choice); `gameplan.js` +79 raw, `game-study.js` and the worker's core +127 each
+  (deferred). With this PR: eager gzip 365,047 (+3,160 on the 361,887 baseline, this PR's +395, of a 5,000 cap);
+  first-hand core 384,492 (+3,197 on 381,295, this PR's +381, of 6,000); deferred raw 522,091, its ceiling moved to
+  exactly that in its own commit under U170 a (b729ef8c4; dev's own use 521,758). Stored progress: no new field, no key,
+  no row rewritten.
+
 ## v1.280.0 — The map's gold becomes outlines; the seal tells the same story; the gold switch leaves Settings; the position's own name obeys the control rule (GOLD1, U183 a, 2026-11-14)
 
 **The owner's rule (U183 a, "build it as drawn").** A move you recalled here (a Yes) wears a gold line OUTSIDE its orb; a

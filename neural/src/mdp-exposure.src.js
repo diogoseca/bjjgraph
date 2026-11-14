@@ -176,9 +176,20 @@ function ngMdpCreateExposureAdapter({metadata,profile,knowledge,adapter,identity
   //     (mdp-adapter.src.js), and no study read names an answer event. Measured: regenerated before and
   //     after, every MDP shard part is byte-identical; only provenance hashes and the variants'
   //     mechanicsHash moved.
+  //   - SRS-GO (v1.279.0), the KNOWLEDGE pin (from 17c12c…): the schedule row writer (`ngKnowledgeScheduleRow`: the owner's
+  //     ladder, proportional credit for an early right answer, the cell floored to the seven rungs), its helpers and the pull's
+  //     srs merge (`ngKnowledgeMergeRow`). Label-neutral: the worker binds eight knowledge laws (bonus, sharpness, advance,
+  //     outcome weights, skew, the two explanations, calAt; game-bundles.mjs `knowledgeNames`) and this adapter one
+  //     (override), none of them changed, and no study read names a schedule row (the MDP never schedules a card). Measured:
+  //     regenerated before and after, every MDP shard part byte-identical; only provenance hashes and the variants'
+  //     mechanicsHash moved (docs/Changelog-Archive.md, v1.279.0).
+  //   - SRS-R1 (v1.279.0, the independent read), the KNOWLEDGE pin again (from 79a642…): the same writer files an answer on a
+  //     day before the row's last on its last (a clock set back), and the header's claims about daily answers and the pull's
+  //     clamp say what is true. Label-neutral for the same reason: no knowledge law the worker or this adapter binds changed.
+  //     Measured again against dev v1.278.2's own regeneration (docs/Changelog-Archive.md, v1.279.0, SRS-R1).
   // Evidence: the live-routing corpus replay (mdp_corpus), the metadata differential
   // (mdp_data_corpus), tests/mdp_adapter.test.mjs and tests/mdp_threats.test.mjs.
-  const expected={adapter:'b9ebcf843218a48d7b8cc196460428da945fbd64d9360016a6f31c70d3ef4ef0',knowledge:'17c12cbf48e37e4cb00f5c57f16e18e06168a4967e76e21d6bc168a9b48ba879',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
+  const expected={adapter:'b9ebcf843218a48d7b8cc196460428da945fbd64d9360016a6f31c70d3ef4ef0',knowledge:'9ef88c872caa5e17c37145de440fca77ae147040365e237530fbc4f498bd08d7',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
   if(Object.entries(expected).some(([key,hash])=>lawHashes?.[key]!==hash))ngMdpExposureFail('unsupported-exposure-label-law');
   if(metadata?.coverage?.status!=='COMPLETE'||metadata.ruleset!==request.ruleset||profile?.status!=='ready'||profile.fingerprint!==request.profileHash||typeof knowledge.ngKnowledgeOverride!=='function')ngMdpExposureFail('incomplete-exposure-adapter-context');
   const contractHash=M.ngMdpContractHash(request),metadataHash=M.ngMdpDigest(metadata);

@@ -17,10 +17,12 @@
 // until nothing is due, the last places kept for the guard, and new things only when nothing is due. Ties are content order
 // (positions by their first askable thing, owed things by traffic order) and the fade is 0.9 ** x (the rating's arithmetic),
 // as the first push had it. On the real wire the law asked exactly what the simulation asks on every day sampled: gi, a year,
-// 10 players, every 7th day: 530 of 530 days (10,600 asks, the guard's three the same on each); two years, every 14th day:
+// 10 players, every 7th day: 530 of 530 days (10,600 asks, the guard's three the same on each; v1.279.0's ladder, re-run: 530
+// of 530 again, and 210 days with a new card where rolls open no rows); two years, every 14th day:
 // 530 of 530 each for gi cards only, no-gi, and no-gi cards only. Those players roll, so their pile never empties and only
 // their first day holds a new card (10 days of 530); with rolls opening no rows (the simulation's `rollsNoNew`), 214 days
-// (gi cards only) and 201 (no-gi) of 530 hold one, and 530 of 530 are equal again. Part 2 is that check frozen: 40 days of a small world, 431 asks, regenerated only
+// (gi cards only) and 201 (no-gi) of 530 hold one, and 530 of 530 are equal again. Part 2 is that check frozen: 40 days of a small world, 458 asks (431 under the seven-rung schedule, before v1.279.0's
+// ladder: the simulation schedules with the app's own `ngKnowledgeScheduleRow`), regenerated only
 // from the simulation.
 //
 // MUTANTS (v1.278.0), each applied alone to a clean tree and run against this file; each turned the NAMED test red (the run

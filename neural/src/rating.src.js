@@ -22,6 +22,11 @@
 //
 // WHAT ONE STORED ROW SAYS (`ngRatingRecall`), from the fields the app already keeps and nothing else:
 //   · a row whose last answer was right fades 10% per interval since it was answered: 0.9 ^ (days since / interval),
+//     the interval being the row's TRUE one, `due − last`, never below its cell (v1.279.0, SRS-R1: the owner's ladder
+//     floors the cell to the seven old rungs, so a card past 120 days, or between rungs, has a cell shorter than its
+//     schedule; read from the cell, a card answered right on every due day would read 0.73 on its due day at 365 days
+//     and 0.08 at 2,922. Every row written before v1.279.0 has due − last = its cell, so at the update nothing moves;
+//     a row whose `last` the pull clamped reads its longer interval, higher, never lower),
 //     so a card is read at 0.9 on its due day and keeps falling while it is overdue. Never below 0, never above 1.
 //   · an interval of 1 is AMBIGUOUS in storage (a first right answer, or a miss that reset the ladder). A question
 //     with any stage, or a move whose last answer was a Yes, is read as right at 0.9 (NG_RATING_UNSURE); with no
@@ -252,8 +257,20 @@ export function ngRatingRow(worn, reading) {
 export function ngRatingRecall(row, right, day) {
   if (!Array.isArray(row) || row.length < 3 || !ngRatingNum(row[1]) || !ngRatingNum(row[2]) || row[1] <= 0 || !ngRatingNum(day)) return null;
   if (!right) return 0;
-  const ivl = row[1], since = Math.max(0, day - row[2]);
+  const t = row[0] - row[2], ivl = ngRatingNum(t) && t > row[1] ? t : row[1], since = Math.max(0, day - row[2]);
   return Math.pow(NG_RATING_FADE, since / ivl) * (ivl > 1 ? 1 : NG_RATING_UNSURE);
+}
+
+/**
+ * THE ROW A QUESTION IS READ FROM when several decks hold it (v1.279.0, SRS-R1, the reader's finding 2): the pull merge's
+ * own order (`ngKnowledgeMergeRow`), the later `last`, then the smaller cell, then the EARLIER DUE. true when `r` is read
+ * over `row`. The one writer files every deck of a shared question on one day, and the cell is floored, so two decks whose
+ * rows had drifted come back the same day with the same cell and due days apart (past 120 days every cell is 120, and the
+ * gap can be hundreds of days). The due count owes the earlier one; taking the first deck stored instead, Practice read
+ * the later one and never asked what the badge counted. Read here by the rating and by the Practice order alike.
+ */
+export function ngRatingNewerRow(r, row) {
+  return !row || r[2] > row[2] || (r[2] === row[2] && (r[1] < row[1] || (r[1] === row[1] && r[0] < row[0])));
 }
 
 /**
@@ -435,8 +452,8 @@ export function ngRatingShare(universe, record, day, live) {
     return set ? set.has(ngRatingQ16(qh)) : null;
   };
   const rec = record || {}, srs = rec.srs || {}, stage = rec.stage || {}, moves = rec.moves || {};
-  // QUESTIONS: one per question hash, whichever decks its rows sit in. Its row is the latest (`last`), the same-day tie
-  // going to the smaller interval (the cloud merge's own rule); its stage is the highest any of its decks holds.
+  // QUESTIONS: one per question hash, whichever decks its rows sit in. Its row is chosen in the cloud merge's own order
+  // (`ngRatingNewerRow`); its stage is the highest any of its decks holds.
   const byQ = new Map();
   for (const dk of Object.keys(srs)) {
     const rows = srs[dk];
@@ -459,8 +476,8 @@ export function ngRatingShare(universe, record, day, live) {
   // its question now — for a shared question, when its deck is one the index lists (only then would a grade there have
   // been filed across the question's decks, `ngKnowledgeSharedDecks`); for any other, when the deck's live set holds its
   // 16 bits. A live row is priced and counted live; a retired row is neither priced nor allowed to set the question's
-  // number; so no row is ever both priced and counted retired. A question is priced from its latest LIVE row (the same-day
-  // tie to the smaller interval, the cloud merge's rule), in every deck that holds it now: the index's decks when shared,
+  // number; so no row is ever both priced and counted retired. A question is priced from its latest LIVE row (the cloud
+  // merge's order, `ngRatingNewerRow`), in every deck that holds it now: the index's decks when shared,
   // else the decks of its live rows. Its stage is the highest its live decks hold. Its worth is booked to those decks, and
   // a deck is capped at its own full worth (F2 of READ402).
   const perDeck = new Map();
@@ -477,7 +494,7 @@ export function ngRatingShare(universe, record, day, live) {
       counts.checked++;
       if (!v) { counts.retired++; continue; }
       liveRowDecks.push(dk);
-      if (!row || r[2] > row[2] || (r[2] === row[2] && r[1] < row[1])) row = r;
+      if (ngRatingNewerRow(r, row)) row = r;
     }
     if (!row) {
       if (!inManifest) counts.unknownDeck++;   // retired and unchecked rows are counted above, row by row
