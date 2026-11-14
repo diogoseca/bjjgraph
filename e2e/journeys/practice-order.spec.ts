@@ -206,6 +206,7 @@ for (const touch of [true, false]) {
       expect(s.lawVisits.slice(0, 2), "the law visits the position twice: 6, then 2").toEqual([[fx.deck, 6], [fx.deck, 2]])
       for (const [seat, n] of s.lawVisits) expect(n, `${seat}: at most 6 a visit`).toBeLessThanOrEqual(6)
       expect([s.first, s.visit, s.owed], "the page folds them into one position, the first, with all eight").toEqual([fx.deck, 0, 8])
+      expect(s.positions, "a position the law visits twice is counted once").toBe(new Set(s.lawVisits.map((v: W) => v[0])).size)
       await expect(page.locator("[data-practice-section]"), "its heading counts it once").toHaveText(`${dot(fx.deck)} · position 1 of ${s.positions}`)
       await clean(page, "opening a position visited twice")
     })
