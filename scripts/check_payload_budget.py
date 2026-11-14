@@ -251,7 +251,10 @@ NEURAL_TARGET = {
     # v1.278.2 (R409, on dev v1.278.1): 521_758, +119 B in gameplan.js (21_086 -> 21_205: the law counting the due-longest
     # cards its guard could not take, and the plan saying whether its guard is whole); dev's own use is 521_639; 28_242 B
     # of 550_000 remain.
-    "deferred_raw_bytes": 521_758,
+    # v1.279.0 (SRS-GO, the owner's ladder, on dev v1.278.2): 522_012, +254 B, +127 B each in game-study.js (78_719 ->
+    # 78_846) and the game worker's shared core (70_245 -> 70_372): both bundle knowledge-profile.src.js, and its new
+    # ladder (NG_KNOWLEDGE_LADDER, built at load) rides along; dev's own use is 521_758; 27_988 B of 550_000 remain.
+    "deferred_raw_bytes": 522_012,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
