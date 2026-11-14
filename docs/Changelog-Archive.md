@@ -18376,15 +18376,16 @@ Run: `node tests/artifacts/_map_names_frametime.mjs --ab marks [--app <dev's neu
 blocks]`, a built tree served at :8196. Names (tests/artifacts/_map_names_survey.mjs, 960 cases, dev 3e39b0aa6's bundle ->
 this): moves 1,907 -> 1,962 (98 gained, 45 lost), the four faults 0 both sides in all 24 rows; every dealt move marked: positions 640 -> 640, moves 1,962 -> 1,960, the faults 0.
 
-**Bytes.** On the merged head (dev v1.278.2 in): eager gzip 365,727, +3,840 of 5,000 on 361,887; first-hand core 385,182,
-+3,887 of 6,000 on 381,295; 11 boot requests. My share alone, against dev 3b050d06f's own bundle on the same tree: neural.js +2,774 raw (718,951 against 716,177); eager gzip +1,076 (365,727 against 364,651); first-hand core +1,074 (385,182 against 384,108).
+**Bytes.** On the merged head (dev v1.279.0 in): eager gzip 366,113, +4,226 of 5,000 on 361,887; first-hand core 385,566,
++4,271 of 6,000 on 381,295; 11 boot requests. My share alone, against dev 689f03b9f's own bundle on the same tree: neural.js +2,774 raw (719,994 against 717,220); eager gzip +1,067 (366,113 against 365,046); first-hand core +1,075 (385,566 against 384,491); deferred raw -774 (521,317 against 522,091).
 The palette module shrinks 1,412 -> 892 B. No baseline or ceiling moved but the archive's (+50,000, its own commit).
 
 **Runs** (the build lock, the merged head): units 1,669 of 1,669; the 46 journeys that read map names, seals, Settings or
 the palette, 518 passed, 24 red, all accounted for (16 restated: the seal's old kinds, the seat's name assumed drawn; 8
 legal-pages on this worktree's stale built privacy page, which predates its controller line); the restated files and
 three more label readers 113 of 114, then landcard-chrome restated (a frame drawn at rest) 6 of 6 over three repeats; e2e:gen's 12 on the same
-markers 12 of 12; npm run ci:validate 25 of 25.
+markers 12 of 12; npm run ci:validate 25 of 25. After merging dev v1.279.0 (PR 416): the five files that read the marks
+and the names 40 of 40, the app rows re-seeded, npm run ci:validate 25 of 25 on the pushed head.
 
 **Not covered.** Overlapping marked orbs and the seat's line are in the pictures, not asserted; a real phone (the canvas
 caps at dpr 2; read in headless Chromium); an ancestor's opacity above a control (v1.278.1, unchanged); G6 (the gate's
