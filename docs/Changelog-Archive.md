@@ -18062,8 +18062,10 @@ touched one keeps its plan, as does one whose check failed; one event when such 
 6. The Path band (finding 4). The line beside the chip needs 127 px; with "Start today's session" it kept 53 at 390x631,
    26 at 360x740, 0 at 320x568, 69 in the 1440x900 drawer; with "Start", 141, 115, 80, 158. Built, the orchestrator's
    rule: the full words where the chip and the line both fit uncut, "Start" (`NG_PRACTICE_START_SHORT`) where not, read
-   off the laid-out band by one ResizeObserver; the aria keeps the full words. So "Start" at all four today. At 360 and
-   320 the line is still cut with "Start" (12 and 47 px short): his question, nothing built on it.
+   off the laid-out band by one ResizeObserver; the aria keeps the full words. So "Start" at all four today. Then (c),
+   ruled after the 360 picture ("with an ellipsis reads as a fault"): where the line cannot be whole even beside "Start"
+   it is not shown, never an ellipsis (360 and 320); the count and the chip stay whole. Pinned by "the Path band at WxH"
+   (whole at 390x631, not shown at 360x740 and 320x568); L1, the line left cut, is red there at 360 and 320.
 7. The renumber line of v1.278.0 reads 1.274.0 → 1.278.0 (finding 5).
 8. R409-6: today's order showed "Keep practising · more new cards" where a worth session shows "More new cards · …".
    Not chosen: STAGE3-R1 renamed it for worth plans only, where it clashed with the completion card's new "Keep
@@ -18113,11 +18115,13 @@ a page closed first sends nothing. The field share of touched sessions is unknow
 **Runs** (local, under the build lock, 14 Nov; times from `date`). On the committed head c812c1bce, 12:37 to 12:53: the
 app rows re-seeded (e12e45da0); `test:units` 1,665 of 1,665; the 26 Practice journey files with belt-row, belt-worn and
 payload-first-hand, 335 passed. `ci:validate` on e12e45da0, 12:54 to 13:02: 25 of 25. Before them, `practice-order.spec.ts`
-whole, 20 of 20 (12:33), and the four bundle mutants (12:34 to 12:35).
+whole, 20 of 20 (12:33), and the four bundle mutants (12:34 to 12:35). After (c), on 8f7220116, 13:06 to 13:20: the four
+specs the band touches (practice-order, challenges-ui, practice-page, srs-due), 75 passed; L1 red at 360 and 320, 390
+green; `test:units` 1,665 of 1,665; `ci:validate` 25 of 25. The app rows are re-seeded on the committed head after it.
 
-**Bytes, on dev v1.278.1** (3e39b0aa6, its own bundle built in a scratch copy; per file at gzip 9): `neural.js` +1,294 raw,
-+515 gzip; `gameplan.js` +119 raw (deferred); no other file differs but the `game-*.js` by the mdp manifest's hash of
-`app.src.jsx` (same raw size, ±5 gzip). With this PR: eager gzip 364,358 (+2,471 on dev's 361,887 baseline, this PR's
-+515, of a 5,000 cap); first-hand core 383,823 (+2,528 on 381,295, this PR's about +515, of 6,000); eager raw 1,430,048 of
-1,600,000; deferred raw 521,758, its ceiling moved to exactly that in its own commit under U170 a (c812c1bce; dev's own
+**Bytes, on dev v1.278.1** (3e39b0aa6, its own bundle built in a scratch copy; per file at gzip 9): `neural.js` +1,335 raw,
++530 gzip; `neural.css` +35 raw, +5 gzip; `gameplan.js` +119 raw (deferred); no other file differs but the `game-*.js` by
+the mdp manifest's hash of `app.src.jsx` (same raw size, ±5 gzip). With this PR: eager gzip 364,378 (+2,491 on dev's
+361,887 baseline, this PR's +535, of a 5,000 cap); first-hand core 383,842 (+2,547 on 381,295, this PR's about +535,
+of 6,000); eager raw 1,430,124 of 1,600,000; deferred raw 521,758, its ceiling moved to exactly that in its own commit under U170 a (c812c1bce; dev's own
 use 521,639). Stored progress: no key, no storage call, no row rewritten (the diff adds none).
