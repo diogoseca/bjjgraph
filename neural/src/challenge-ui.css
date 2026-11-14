@@ -225,6 +225,7 @@
   font: 800 12.5px/1 "Plus Jakarta Sans", sans-serif;
 }
 
+/* never an ellipsis (R409 item 4): the band's observer shows the line whole or not at all (challenge-ui.src.js) */
 .ng-maint-band > span {
   flex: 1;
   min-width: 0;
@@ -232,12 +233,17 @@
   color: #9c8b6b;
   font-size: 10.5px;
   line-height: 1.2;
-  text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.ng-maint-band > span[hidden] {
+  display: none;
 }
 
 .ng-maint-band > em {
   flex: none;
+  /* the chip keeps the band's right edge when the line is not shown */
+  margin-left: auto;
   padding: 5px 11px;
   border: 1px solid rgba(214, 164, 90, 0.42);
   border-radius: 8px;

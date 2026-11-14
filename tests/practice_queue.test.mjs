@@ -57,6 +57,9 @@
 //   Q17 a position's unused move slots kept from its cards (2 new cards)    → "a position with no new move to ask gives its slots to cards"
 //   Q19 the memo key without the knowledge revision (the reader's R9)       → "the order is kept for its inputs…"
 //   Q20 a visit-less row numbered (the reader's finding 3: "NaN")           → "a row the order did not place is named apart…"
+// R409 (the reader's delta read of 946465b77, finding 1; the session's half is tests/practice_page.test.mjs):
+//   G1  the guard's short count not kept (always 0)                         → "the guard says whether it holds the three due longest"
+//   G2  the guard sentence said whatever the guard held                     → the same
 //
 // NOT COVERED here:
 //   · A RETIRED QUESTION READS AS A LIVE ONE, as in the rating (tests/rating.test.mjs): a deck's new count while its cards
@@ -78,7 +81,8 @@ import { dirname, resolve } from "node:path";
 import { ngPracticeVisits, ngPracticeItems, ngPracticeOrder } from "../neural/src/practice-queue.src.js";
 import { ngRatingUniverse } from "../neural/src/rating.src.js";
 import * as G from "../neural/src/gameplan.src.js";
-import { ratingApp, ratingFixture } from "./_rating_fixture.mjs";
+import { ratingApp, ratingFixture, ratingLiveFiles } from "./_rating_fixture.mjs";
+import { guardFixture } from "./_practice_order_fixture.mjs";
 import { ngKnowledgeQuestionHash } from "../neural/src/knowledge-profile.src.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -624,4 +628,49 @@ test("the view is named \"Master the game\" in every string the order writes (v1
   const band = readFileSync(resolve(HERE, "../neural/src/challenge-ui.src.js"), "utf8");
   assert.match(band, /maint\.setAttribute\("aria-label", NG_PRACTICE_NAME \+ ", " \+ today \+ " \\u2014 " \+ NG_PRACTICE_START\);/);
   assert.doesNotMatch(band, /"Practice, "/);
+});
+
+test("the guard says whether it holds the three due longest, and the plan says it only when it does (R409)", () => {
+  // the reader's finding 1: a plan built while the rating's live set is still being checked (no deck loaded) knows only the
+  // shared questions to be answerable, so its guard cannot take the three due longest. This player's three are light and
+  // unshared (tests/_practice_order_fixture.mjs, `guardFixture`): worth alone never reaches them in 20.
+  const fx = guardFixture(DIR), SENT = "The three cards due longest come every day";
+  const a = ratingApp(DIR, "gi", { live: false });
+  Object.assign(a, { srs: fx.blob.srs, stage: fx.blob.stage, prep: {}, rec: {}, _epochDay: () => fx.day, _dayKey: () => "x", _days: {},
+    _gameplanRuntime: G, fx: () => {}, weakSpots: () => ({ cold: true, keys: [], veryWeak: [], weak: [] }), _checkKnowledgeDay: () => {}, startFrom: () => "standing" });
+  const game = a._ratingGame("gi"), seats = a._practiceSeats(game), decks = a._gameplanDecks(true);
+  assert.equal(Object.values(decks).filter((d) => d.exact).length, 0, "premise: no deck is loaded");
+  const order = (live) => ngPracticeOrder({ day: fx.day, goal: 20, srs: fx.blob.srs, stage: fx.blob.stage, decks, game, seats, live });
+  const asked = (o) => fx.oldest.filter((q) => o.law.asked.includes(q)).length;
+  // CHECKING (in flight), and FAILED (a check that could not read the files): the guard cannot take them, and says how many
+  for (const [name, live] of [["checking", { status: "checking" }], ["failed", { status: "unchecked", reason: "no-files", decks: null }], ["never asked", undefined]]) {
+    const o = order(live);
+    assert.equal(o.law.counts.short, 3, name + ": the three due longest are not known to be answerable");
+    assert.equal(asked(o), 0, name + ": and worth alone does not reach them");
+  }
+  // the app's plan, mounted at the tap with the check in flight: no guard, so the sentence is not said
+  a._ratingLiveP = Object.assign(Promise.resolve(), { manifest: a.flashcards.decks, fp: a._ratingStamp() });
+  assert.equal(a._ratingLiveNow().status, "checking", "premise: the check is in flight");
+  const before = a.planSummary();
+  assert.equal(before.order, "worth", before.orderStatus);
+  assert.equal(before.guarded, false);
+  assert.ok(!before.why.includes(SENT), "a plan without the guard does not claim it");
+  // THE SET IN HAND (it landed): the guard takes them, the 20 hold them, the plan is whole and says so
+  a._ratingLiveP = null; a._ratingLiveFrom(ratingLiveFiles(DIR));
+  const live = a._ratingLiveNow();
+  assert.equal(live && live.status, "ok", "premise: the set landed");
+  const o = order(live);
+  assert.deepEqual([o.law.counts.short, asked(o)], [0, 3], "landed: the three due longest are among the 20");
+  assert.deepEqual(o.law.guard.slice().sort(), fx.oldest.slice().sort(), "and they are the guard");
+  const after = a.planSummary();
+  assert.equal(after.guarded, true);
+  assert.ok(after.why.includes(SENT), "a whole guard is said");
+  assert.equal(fx.oldest.filter((q) => after.dueQuestions.includes(q)).length, 3, "the plan the session takes again holds them");
+  assert.equal(after.dueQuestions.length, 20, "still 20");
+  // the same rows as a plan built with the set in hand from the start (checking then landed = the set in hand)
+  const b = ratingApp(DIR, "gi");
+  Object.assign(b, { srs: fx.blob.srs, stage: fx.blob.stage, prep: {}, rec: {}, _epochDay: () => fx.day, _dayKey: () => "x", _days: {},
+    _gameplanRuntime: G, fx: () => {}, weakSpots: () => ({ cold: true, keys: [], veryWeak: [], weak: [] }), _checkKnowledgeDay: () => {}, startFrom: () => "standing" });
+  const inHand = b.planSummary();
+  assert.equal(JSON.stringify(inHand.due.map((r) => [r.key, r.questions])), JSON.stringify(after.due.map((r) => [r.key, r.questions])));
 });

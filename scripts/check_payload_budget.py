@@ -248,7 +248,10 @@ NEURAL_TARGET = {
     # the guard and the new-only-when-nothing-is-due step); 29_501 B of 550_000 remain.
     # v1.278.0 on dev v1.276.1 (GO409, ANKI1-R1 merged in): 521_639, +1_140 B in gameplan.js (19_946 -> 21_086: ANKI1-R1's
     # code, and rating.src.js, which gameplan.js bundles and PR #412 grew); dev's own use is 510_269; 28_361 B of 550_000 remain.
-    "deferred_raw_bytes": 521_639,
+    # v1.278.2 (R409, on dev v1.278.1): 521_758, +119 B in gameplan.js (21_086 -> 21_205: the law counting the due-longest
+    # cards its guard could not take, and the plan saying whether its guard is whole); dev's own use is 521_639; 28_242 B
+    # of 550_000 remain.
+    "deferred_raw_bytes": 521_758,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one

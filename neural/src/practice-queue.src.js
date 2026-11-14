@@ -19,7 +19,10 @@
 //     their worth, so a light card cannot wait forever behind heavy ones. Only a thing KNOWN to be answerable is guarded
 //     (`sure`: its deck is loaded and holds it, or the rating's live set says its deck still has it): a retired question
 //     in a deck not loaded yet is exactly what has waited longest, and it would take a guard place every first session of
-//     the day (ANKI1-R1, the reader's finding 2). The reader measured the first push: with worth
+//     the day (ANKI1-R1, the reader's finding 2). Those the guard could not take for want of that knowledge are counted
+//     (`counts.short`, R409): a plan built before the live set landed then does not hold "the three due longest", says so
+//     (gameplan's explanation drops the sentence), and the app plans an untouched session again when the set lands
+//     (`_practiceGuard`). The reader measured the first push: with worth
 //     alone, 144 of 267 cards owed on day 1 were never asked in a year; with the two longest-due, none. Under this rule,
 //     re-measured (the archive, v1.278.0): two still ask every one for a player with 300 cards stored, but leave 93 to 128
 //     of 1,288 never asked in a year for one with 1,500; three is the smallest guard that leaves none for both, at no
@@ -73,12 +76,13 @@ function ngPqRow(r) { return Array.isArray(r) && r.length >= 3 && ngPqNum(r[0]) 
  *   w      the thing's share of the game; not a number = not in this ruleset (dropped, counted)
  *   row    its stored schedule row [due, interval, last day, (a move's answer)], or null for never answered
  *   stage  a card's highest stage (a row of interval 1 with a stage is read as right, the rating's rule)
- *   sure   false when the thing is not known to be answerable yet (never guarded); absent or true otherwise
+ *   sure   false when the thing is not known to be answerable yet (never guarded, and counted in `counts.short` when it
+ *          is one of the due longest); absent or true otherwise
  * Returns {visits: [{seat, ids}], guard: [ids], asked: [ids in order], counts, n, fresh}. `goal` is what is left of the
  * day's goal. A position can have more than one visit (what is due, asked again past its 6; its new things).
  */
 export function ngPracticeVisits({ items = [], day, goal = 20, guard = NG_PQ_GUARD, cap = NG_PQ_CAP } = {}) {
-  const counts = { items: 0, owed: 0, fresh: 0, outside: 0, today: 0, later: 0, badRow: 0, twice: 0 };
+  const counts = { items: 0, owed: 0, fresh: 0, outside: 0, today: 0, later: 0, badRow: 0, twice: 0, short: 0 };
   const seatIx = new Map(), seatList = [], seatItems = [], worth = new Map(), owed = new Map(), isNew = new Set(), seen = new Set();
   const owedList = [];
   for (const it of items) {
@@ -101,9 +105,11 @@ export function ngPracticeVisits({ items = [], day, goal = 20, guard = NG_PQ_GUA
     (owed.get(k) || owed.set(k, []).get(k)).push(it);
   }
   const W = (it) => worth.get(it.id), byWorth = (a, b) => W(b) - W(a);
-  // THE GUARD: the owed things due longest, by due day, then the input's order
-  const kept = new Map(owedList.map((it, i) => [it, i]).filter((e) => e[0].sure !== false).sort((a, b) => a[0].row[0] - b[0].row[0] || a[1] - b[1])
-    .slice(0, Math.max(0, Math.min(guard, goal))).map((e, i) => [e[0].id, i]));
+  // THE GUARD: the owed things due longest, by due day, then the input's order; `short`, those of the due longest it could
+  // not take because they are not known to be answerable yet
+  const byDue = owedList.map((it, i) => [it, i]).sort((a, b) => a[0].row[0] - b[0].row[0] || a[1] - b[1]), places = Math.max(0, Math.min(guard, goal));
+  const kept = new Map(byDue.filter((e) => e[0].sure !== false).slice(0, places).map((e, i) => [e[0].id, i]));
+  counts.short = byDue.slice(0, places).filter((e) => e[0].sure === false).length;
   const visits = [], out = [], at = new Map();
   let n = 0, fresh = 0, left = kept.size;
   const ask = (it, k) => { out.push(it.id); n++; at.set(k, (at.get(k) || 0) + 1); if (isNew.has(it.id)) fresh++; };

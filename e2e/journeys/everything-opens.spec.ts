@@ -102,7 +102,7 @@ for (const touch of [false, true]) {
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect(page.locator("[data-practice-page]")).toHaveCount(1)
       await expect.poll(() => page.evaluate(() => !!(window as W).__neural._session?.plan), { message: "the plan lands" }).toBe(true)
-      await press(page, "[data-plan-more]", "Keep practising · more new cards", touch)
+      await press(page, "[data-plan-more]", "More new cards", touch)
       const later = await page.evaluate((white) => {
         const a = (window as W).__neural
         const fresh = a._session.plan.fresh.map((r: W) => r.key)

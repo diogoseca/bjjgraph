@@ -17903,7 +17903,7 @@ guard table reproduced. Its seven findings, as ruled:
    - the build census is dev's whole, and the app rows are re-seeded on the committed head.
    Every new string of this PR that names the view now says "Master the game": the Path band's aria and its words ("Start
    today's session"), the plan's explanation and its heading. They are pinned in practice-order.spec.ts and
-   tests/practice_queue.test.mjs; nothing pinned them before. This PR is renumbered from 1.278.0 to 1.278.0.
+   tests/practice_queue.test.mjs; nothing pinned them before. This PR is renumbered from 1.274.0 to 1.278.0.
 
 Item b of STAGE3-R2 (the "Not covered" paragraph above: the floor's reload) was withdrawn with the floor in ANKI1.
 
@@ -18027,3 +18027,114 @@ first-hand core +608 (383,308 against 382,700); 11 boot requests; the sum agains
 (on 361,887), first-hand core +2,013 of 6,000 (on 381,295). On the landing head: map-names, hidden-moves and
 known-move-seal 48 of 48; units 1,660 of 1,660; npm run ci:validate 25 of 25. Before that merge, on the cache: the 17 spec
 files that read map names 232 passed, 1 skipped, none red.
+
+## v1.278.2 — The guard holds when the rating's live set lands after the tap; the Path band's chip fits; one label for "More new cards" (R409, R409-6; 2026-11-14)
+
+**What was wrong** (the reader's delta read of 946465b77, finding 1, cost proven). Practice takes its plan at the tap.
+Its guard (the 3 cards due longest, asked every session) takes only a card known to be answerable: its deck loaded, or
+the rating's live set saying its deck still holds it. The drawer's open starts that check (two `live-<i>.json`, about
+21.6 KB gzip each); a tap can beat it. Then the guard knew only the shared questions, the 3 were not among the 20, the
+plan was never taken again, and the explanation still said "The three cards due longest come every day". Day 1, no deck
+loaded (`guardlive.mjs`): 1 of 3 asked with 300 cards, 0 of 3 with 1,500. A year with 1 first plan in 4 built without the
+set: cards owed on day 1 never asked went 21 → 27 (1,500 cards) and 13 → 53 (1,500 cards, 10 rolls a day).
+
+**Ruled** (the orchestrator): nobody waits; an untouched session takes its plan again, once, when the check lands; a
+touched one keeps its plan, as does one whose check failed; one event when such a plan is kept; the sentence only when true.
+
+**What ships:**
+1. `practice-queue.src.js`: `counts.short`, the due-longest the guard could not take for want of the set (the guard is
+   unchanged). `gameplan.src.js`: the plan's `guarded`, and the sentence only when it is whole.
+2. `_practiceGuard` (`app.src.jsx`), called when a worth plan mounts and when the check settles (`ratingCheck`). Mounted
+   while the check is in flight, a plan waits for it, remembering the open card (`guardFace`: deck, card, side; a deck's
+   inline state outlives a session). When it lands: untouched (no row opened, the open card neither turned nor moved,
+   nothing answered since the session began), planned again after any press in flight (`_afterPress`), with the list's
+   scroll kept and the open card laid out in place (`_noCardIn`: no second `ngCardIn`); touched, the plan stays and
+   `neural_practice_unguarded` says `touched`. The event's other words are R409-R1's, below; it carries `short` and
+   `owed` only (docs/SEO.md). `guardSettled` makes it once. A later plan landing on a kept session keeps its explanation.
+3. No hold at the tap: nothing here can show the set usually lands within 100 ms (a first visit, or one after a deploy
+   that moved the fingerprint, fetches about 43 KB), and nothing measured on real accounts goes in. The event will tell.
+4. What the player sees: the open row and the card in it never change (R409-R1, below). Before the scroll was kept and
+   the fade skipped, a reader of the open queue fold saw the page shift 30 px and the same card faded in again.
+5. The dot journey waits for the belt row's reading to be final (`data-belt-state="ok"`) before the Practice tap (finding
+   2): it passed only because that check landed first. The assertion is unchanged.
+6. The Path band (finding 4). The line beside the chip needs 127 px; with "Start today's session" it kept 53 at 390x631,
+   26 at 360x740, 0 at 320x568, 69 in the 1440x900 drawer; with "Start", 141, 115, 80, 158. Built, the orchestrator's
+   rule: the full words where the chip and the line both fit uncut, "Start" (`NG_PRACTICE_START_SHORT`) where not, read
+   off the laid-out band by one ResizeObserver; the aria keeps the full words. So "Start" at all four today. Then (c),
+   ruled after the 360 picture ("with an ellipsis reads as a fault"): where the line cannot be whole even beside "Start"
+   it is not shown, never an ellipsis (360 and 320); the count and the chip stay whole. Pinned by "the Path band at WxH"
+   (whole at 390x631, not shown at 360x740 and 320x568); L1, the line left cut, is red there at 360 and 320.
+7. The renumber line of v1.278.0 reads 1.274.0 → 1.278.0 (finding 5).
+8. R409-6: today's order showed "Keep practising · more new cards" where a worth session shows "More new cards · …".
+   Not chosen: STAGE3-R1 renamed it for worth plans only, where it clashed with the completion card's new "Keep
+   practising", which today's order does not have. The button does the same thing in both, so both read "More new
+   cards · …", and "More new cards" before any plan.
+
+**Proof.** Units: `practice_queue` (checking, failed, never asked: `short` 3, 0 of 3, no sentence; landed: 3 of 3, the
+sentence, the rows of a plan built with the set in hand) and `practice_page`, on the real `_practiceAppend` and the real
+`ratingCheck` with its fetch held (untouched: taken again once, 3 of 3, the same first row, no event; touched three ways:
+the same rows, one event, the sentence still absent after a later plan; failed then a later check; ended; a set not
+listing one deck: taken again once, never twice). The journey (`practice-order.spec.ts`, 390x631 touch and 1440x900
+mouse) holds the live files past the tap with the DSL's payload rule (a `page.route` set before boot sits below the DSL's
+own handlers and never saw them) and asserts the timeline held them: untouched, the 3 in the 20, the same row and heading,
+the fold not moved, the card not faded in; touched, the same rows and one event.
+
+| id | mutant, each alone (hash checked after) | red at |
+|---|---|---|
+| G1 | `counts.short` always 0 | "the guard says whether it holds…" and the four session tests |
+| G2 | the sentence said whatever the guard | the same five |
+| G3 | the re-plan removed | "an untouched session takes its plan again…", "the plan is taken again once…" |
+| G4 | touched read as untouched | "a touched session keeps its plan…" |
+| G5 | the once-flag removed | "a session whose check failed, or that was left…", "the plan is taken again once…" |
+| G6 | the event dropped | "a touched session keeps its plan…", "a session whose check failed…" |
+| B1, B2 | the chip never short / always short (bundle) | "the band's words…" / "room for both…", both widths |
+| J1, J2 | the scroll not kept / the card faded in again (bundle) | "the fold … has not moved" / "laid out again in place…" |
+
+`guardlive.mjs` on this head: the order alone is unchanged (1 of 3 and 0 of 3 checking, 3 of 3 landed); through the session
+(the same record, the check held then released), untouched reaches 3 of 3, planned again once. The year
+(`simanki_nolive.mjs`, the reader's switch on a copy of this tree, 1 first plan in 4 without the set; TOUCHED is the share
+of those touched before it lands, its own random stream). Cards owed on day 1 never asked:
+
+| player | set every day | today | fix, all untouched | fix, half touched |
+|---|---|---|---|---|
+| 300 cards, no rolls | 5 | 5 | 5 | 5 |
+| 300 cards, 10 rolls | 4 | 4 | 4 | 4 |
+| 1,500 cards, no rolls | 21 | 27 | 21 | 21 |
+| 1,500 cards, 10 rolls | 13 | 53 | 13 | 13 |
+
+"Today" (TOUCHED 1) is the reader's column exactly, and "all untouched" is "set every day" exactly (never asked, points,
+the pile at day 365).
+
+**Not covered.** A touched session keeps a plan made without the set, as ruled: its guard stays short, and retired rows in
+decks not loaded can take places by worth until those decks load (finding 3); the event counts these sessions. One
+session waits at a time (`_guardWait`): one opened again before the set lands replaces it, whose `ended` is then not sent;
+a page closed first sends nothing; one open but not on screen when the set lands keeps its plan and sends nothing (taking
+its plan when it shows again has no one seam). The field share of touched sessions is unknown until the event has run.
+
+**R409-R1** (the reader's read of #415, f7cac8ba2: MERGE AFTER 1).
+- Finding 1: the re-plan could change the card an untouched player reads (6 of 135 sampled, 12 of 12 built). The claim
+  "the same first row and card on 24 of 24" was true of that sample, not of the rule: the guard's cards lead their
+  position, so another deck's guarded card at the open seat became row 0. Now the open row stays open (`keepOpen`) and
+  the card in it (the deck's inline index moved to it) wherever the new plan holds them; the guard's cards join around
+  them, which the law allows (the three AMONG the 20). A plan that holds neither is not taken: `reading`. Red first: the
+  reader's adversarial record against f7cac8ba2's app; P1 (`keepOpen` not read) and P2 (the plan taken anyway) red at
+  their tests. `break415.mjs` on this head: 0 cards changed in `sample` (135 re-plans) and `adversarial` (12 of 12).
+- Finding 2: a session that began on today's order and turned worth was never waited for. The guard is asked whenever
+  the mounted plan becomes worth (P3 red at its test).
+- Finding 3, the words: `short` (taken or mounted with the set, still short), `failed` only for a failed check,
+  `unasked` (no check for this deck list), `fallback` (today's order at landing), `ended` only for a session gone; one
+  open but not on screen sends nothing (P4 red at its test). The rate is a lower bound (docs/SEO.md names the misses).
+- Finding 4: the band is fitted again when a web font lands (`loadingdone`, `ready`); a journey forces a 70% wider face
+  of the line's family at 390 (F1, the refit removed, red there).
+
+**Runs** (local, under the build lock, 14 Nov; times from `date`). The last, on 26be53c5b (R409-R1), 14:26 to 15:01:
+`practice-order.spec.ts` 24 of 24 and F1 red; the app rows re-seeded (b0b58ff2b); `test:units` 1,669 of 1,669; the 26
+Practice journey files with belt-row, belt-worn and payload-first-hand, 339 passed; `ci:validate` 25 of 25. Earlier heads
+the same way (c812c1bce: 1,665 and 335; 8f7220116: the four specs the band touches, 75, and L1 red at 360 and 320).
+
+**Bytes, on dev v1.278.1** (3e39b0aa6, its own bundle built in a scratch copy; per file at gzip 9): `neural.js` +2,224 raw,
++804 gzip; `neural.css` +35 raw, +5 gzip; `gameplan.js` +119 raw (deferred); the `game-*.js` differ only by the mdp
+manifest's hash of `app.src.jsx`. With this PR: eager gzip 364,652 (+2,765 on dev's 361,887 baseline, this PR's +809, of
+a 5,000 cap); first-hand core 384,111 (+2,816 on 381,295, this PR's about +809, of 6,000); eager raw 1,431,013 of
+1,600,000; deferred raw 521,758, its ceiling moved to exactly that in its own commit under U170 a (c812c1bce; dev's own
+use 521,639). Stored progress: no key, no storage call, no row rewritten (the diff adds none).
