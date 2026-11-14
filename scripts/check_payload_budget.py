@@ -244,7 +244,9 @@ NEURAL_TARGET = {
     # named "From the Path" and counted apart in the lines); 29_742 B of 550_000 remain.
     # v1.274.0 on dev v1.273.0 (DEV405, PR #405 merged in): 520_300, +42 B in gameplan.js (19_705 -> 19_747: it bundles
     # rating.src.js, which #405 grew); 29_700 B of 550_000 remain.
-    "deferred_raw_bytes": 520_300,
+    # v1.274.0 ANKI1 (the owner's Anki rule): 520_499, +199 B in gameplan.js (19_747 -> 19_946: the law's due-first visits,
+    # the guard and the new-only-when-nothing-is-due step); 29_501 B of 550_000 remain.
+    "deferred_raw_bytes": 520_499,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
