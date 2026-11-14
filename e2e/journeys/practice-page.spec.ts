@@ -353,6 +353,34 @@ test("P1-F: a Practice unit still starts its evidence-gated checkpoint", async (
     { message: "P1-F: checkpoint action starts a real quiz" }).toBeGreaterThan(0);
 });
 
+/** Open the card `qh` (of deck `deck`) the way a player reaches a later row: by its row's button in the session queue, then
+ *  the deck's own arrows. The row is the plan's when the plan holds the card (filed under any deck that shares it), else the
+ *  deck is appended through Practice's own append (the seam "Keep practising" and a Path lesson use). Since v1.278.0 the
+ *  day's queue is what is worth most (U171 a), so a seeded card is no longer the first; the list is scrolled back to its top
+ *  so a claim about scrolling after this still has to earn its scroll. */
+async function openCard(page: any, j: any, deck: string, qh: string) {
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._session?.plan?.order || null), { message: "the worth plan lands" }).toBe("worth");
+  const row = await page.evaluate(({ deck, qh }: any) => {
+    const a = (window as any).__neural, s = a._session;
+    const held = s.plan.due.concat(s.plan.fresh).find((r: any) => r.questions.includes(qh));
+    if (held) return held.key;
+    a._practiceAppend(s, s.plan, [{ key: deck, questions: [qh], pending: 0, reason: "The card under test." }]);
+    return deck;
+  }, { deck, qh });
+  await page.locator("[data-practice-details] > summary").scrollIntoViewIfNeeded();
+  await j.clickByMouse("[data-practice-details] > summary", "Practice details & session queue");
+  await page.evaluate((k: string) => { document.querySelector("[data-open-card-jump]")?.removeAttribute("data-open-card-jump");
+    const b = [...document.querySelectorAll("[data-practice-queue] button")].find((x) => x.textContent === k.replace("|", " \u00b7 ")); if (b) b.setAttribute("data-open-card-jump", "1"); }, row);
+  await page.locator("[data-open-card-jump]").scrollIntoViewIfNeeded();
+  await j.clickByMouse("[data-open-card-jump]", "the queue's button for the card's row");
+  await expect(page.locator('[data-session-row][aria-expanded="true"]')).toHaveAttribute("data-session-row", row);
+  const on = () => page.evaluate(({ row, qh }: any) => { const a = (window as any).__neural, q = document.querySelector('[data-session-row][aria-expanded="true"] + div [data-mini-q]');
+    const c = (a._cardsOf(a.flashcards.decks[row]) || []).find((x: any) => a.qhash(x.q) === qh); return !!q && !!c && q.textContent!.includes(c.q.slice(0, 40)); }, { row, qh });
+  for (let i = 0; i < 8 && !(await on()); i++) { await page.keyboard.press("ArrowRight"); await page.waitForTimeout(150); }
+  expect(await on(), "the card under test is the open one").toBe(true);
+  await page.evaluate(() => { (window as any).__neural.drillListRef.current.scrollTop = 0; });
+}
+
 test("P1-E: an unpoolable recognition card falls back to keyboard recall", async ({ page }) => {
   const j = journey(page); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
@@ -362,13 +390,25 @@ test("P1-E: an unpoolable recognition card falls back to keyboard recall", async
     const a = (window as any).__neural;
     a.settings.mcMode = "mc";
     await a.hydrateDeck("Mount|Top");
-    const c = a._cardsOf(a.flashcards.decks["Mount|Top"])[0];
-    c.a = "Yes."; // controlled micro-answer: the real length-ratio guard rejects distractors
-    a.srs = { "Mount|Top": { [a.qhash(c.q)]: [a._epochDay() - 1, 3, a._epochDay() - 4] } };
-    await a._warmMcPool(c, "Mount|Top", "practice");
+    const c = a._cardsOf(a.flashcards.decks["Mount|Top"])[0], qh = a.qhash(c.q);
+    // ANKI1: this question is shared (Mount|Bottom carries it too), and under the owner's Anki rule the plan asks this one
+    // owed card first, filed under its home deck, the first of its decks: Mount|Bottom. Until then the order never asked it,
+    // so `openCard` appended Mount|Top's row, and only Mount|Top's copy wore the controlled answer. Now EVERY copy does and
+    // each is warmed, so whichever row holds the card, it is the unpoolable one
+    const keys = (a._sharedQ && a._sharedQ.get(qh)) || ["Mount|Top"];
+    for (const k of keys) {
+      await a.hydrateDeck(k);
+      for (const x of a._cardsOf(a.flashcards.decks[k]) || []) if (a.qhash(x.q) === qh) x.a = "Yes."; // controlled micro-answer: the real length-ratio guard rejects distractors
+    }
+    a.srs = { "Mount|Top": { [qh]: [a._epochDay() - 1, 3, a._epochDay() - 4] } };
+    for (const k of keys) { const x = (a._cardsOf(a.flashcards.decks[k]) || []).find((y: any) => a.qhash(y.q) === qh); if (x) await a._warmMcPool(x, k, "practice"); }
     await a._ensureGameplanRuntime();
+    (window as any).__unpoolable = a.qhash(c.q);
   });
   await door(page, j);
+  // Until v1.278.0 the one owed card opened the queue (most overdue first); the day's queue is now what is worth most
+  // (U171 a), so the card is opened the way a player reaches a later row (`openCard`)
+  await openCard(page, j, "Mount|Top", await page.evaluate(() => (window as any).__unpoolable));
   await expect(page.locator('[data-mini-reveal]:visible')).toContainText("Reveal");
   await expect(page.locator('[data-mini-reveal]:visible')).toBeEnabled();
   await expect(page.locator('[data-practice-mc-opt]:visible')).toHaveCount(0);
@@ -411,14 +451,18 @@ test("P1-A: long authored answers and enlarged text scroll to an operable grade"
       .sort((x: any, y: any) => y.a.length - x.a.length)[0];
     a.srs = { [chosen.key]: { [a.qhash(chosen.q)]: [a._epochDay() - 1, 3, a._epochDay() - 4] } };
     await a._ensureGameplanRuntime();
+    (window as any).__longCard = { key: chosen.key, qh: a.qhash(chosen.q) };
     return chosen.a.length;
   });
   // Authored short answers top out at 160 characters in this corpus.
   expect(length, "P1-A: a long authored answer was selected").toBeGreaterThanOrEqual(150);
   await page.addStyleTag({ content: '[data-practice-page] [data-mini-q], [data-practice-page] [data-mini-a] { font-size: 30px !important; }' });
   await door(page, j);
+  // until v1.278.0 the one owed card opened the queue; it is now opened as a player reaches a later row (U171 a)
+  const long = await page.evaluate(() => (window as any).__longCard);
+  await openCard(page, j, long.key, long.qh);
   await page.locator('[data-mini-reveal]:visible').scrollIntoViewIfNeeded();
-  await j.clickByMouse('[data-session] [data-mini-reveal]', "reveal with enlarged text");
+  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "reveal with enlarged text");
   await expect(page.locator('[data-mini-a]:visible')).toHaveCSS("font-size", "30px");
   await page.locator('[data-mini-again]:visible').scrollIntoViewIfNeeded();
   const geometry = await page.locator('[data-mini-again]:visible').evaluate((el: HTMLElement) => {
@@ -429,7 +473,7 @@ test("P1-A: long authored answers and enlarged text scroll to an operable grade"
   expect(geometry.top).toBeGreaterThanOrEqual(0);
   expect(geometry.bottom).toBeLessThanOrEqual(631);
   expect(geometry.hit, "P1-A: no pinned chrome covers the long-answer grade").toBe(true);
-  await j.clickByMouse('[data-session] [data-mini-again]', "grade after reading a long answer");
+  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-again]', "grade after reading a long answer");
   expect(await page.evaluate(() => (window as any).__neural.practiceToday().done)).toBe(1);
 });
 
@@ -501,12 +545,22 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 1440, height: 900 
   const j = journey(page); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
-  await seed(page, 1, 20); await door(page, j);
-  await page.locator('[data-mini-reveal]:visible').scrollIntoViewIfNeeded();
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "reveal the last owed card");
-  await page.locator('[data-mini-got]:visible').scrollIntoViewIfNeeded();
-  await page.evaluate(() => { (window as any).__endCard = document.querySelector('[data-session-row][aria-expanded="true"]'); });
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-got]', "grade the last owed card");
+  // Until v1.278.0: 20 answered today and one owed card, so grading that card finished the session. With the goal met,
+  // Practice now deals another round by worth (U171 a: a goal, never a cap), so the day here has ONE card left of its
+  // goal: the session is that card (until ANKI1 also the floor's one new card if it was a review), graded through its controls
+  await seed(page, 1, 19); await door(page, j);
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._session?.plan?.order || null)).toBe("worth");
+  const held = await page.evaluate(() => (window as any).__neural._session.plan.total);
+  expect(held, "a card or two: what is left of the goal").toBeLessThanOrEqual(2);
+  for (let i = 0; i < held; i++) {
+    await expect(page.locator('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]:visible')).toHaveCount(1, { timeout: 5_000 });
+    await page.locator('[data-mini-reveal]:visible').scrollIntoViewIfNeeded();
+    await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "reveal");
+    await page.locator('[data-mini-got]:visible').scrollIntoViewIfNeeded();
+    await page.evaluate(() => { (window as any).__endCard = document.querySelector('[data-session-row][aria-expanded="true"]'); });
+    await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-got]', i === held - 1 ? "grade the last card" : "grade");
+    if (i < held - 1) await page.waitForTimeout(700);
+  }
   await expect(page.locator("[data-session-complete]")).toHaveCount(1);
   await page.locator("[data-session-complete]").evaluate(el => Promise.all(el.getAnimations().map(a => a.finished)));   // it rises in on a transform
   const view = await page.evaluate(() => {
@@ -545,7 +599,14 @@ test("P1-F: one owed card, one stripe and an unplanned visit read as plain count
     await expect(page.locator("[data-practice-belt]")).toHaveText("White belt \u00b7 1 stripe \u00b7 Gi");
     await expect(count, "P1-F: no plan means no claim about new work").toHaveText("1 card to review across 1 technique");
     release();
-    await expect(count).toHaveText(/^1 card to review across 1 technique \u00b7 \d+ new across \d+ techniques?, weakest first$/);
+    // until v1.278.0 the landed plan read "1 card to review across 1 technique · N new across K techniques, weakest first";
+    // the untouched queue now becomes the worth plan whole (U171 a), and its count line prints the plan's own figures
+    await expect.poll(() => page.evaluate(() => (window as any).__neural._session?.plan?.order || null)).toBe("worth");
+    const p = await page.evaluate(() => { const p = (window as any).__neural._session.plan; return { n: p.visits.length, due: p.dueCards, fresh: p.newCards }; });
+    // ANKI1: new cards only when nothing is due (until then "N new, by how often they come up in your rolls and how close you are
+    // to forgetting them")
+    await expect(count).toHaveText(p.n + (p.n === 1 ? " position: " : " positions: ") + (p.due ? p.due + (p.due === 1 ? " card" : " cards") + " to review \u00b7 " : "") +
+      (p.fresh ? p.fresh + " new, by how often they come up in your rolls" : "new cards come when nothing is due"));
   } finally { release(); }
 });
 

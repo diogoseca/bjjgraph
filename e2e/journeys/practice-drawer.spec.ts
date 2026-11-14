@@ -138,7 +138,9 @@ test("PD2: 1440×900 each card's technique is flown to the free map beside the d
     await j.advance(3500);
     const at = await glass(), where = JSON.stringify(at);
     expect(at.idx, "the card in view is the one paged to").toBe(step);
-    if (step === 0) expect(at.key, "Practice opens on the most overdue review").toBe(due[0].key);
+    // until v1.278.0: "Practice opens on the most overdue review" (the seeded due[0]); it now opens on the plan's first row,
+    // the position worth most (U171 a). This test's subject is the camera, which follows whichever card is open.
+    if (step === 0) expect(at.key, "Practice opens on the plan's first row").toBe(await page.evaluate(() => (window as any).__neural._session.plan.queue[0]));
     else expect(at.node, "the next technique is another orb").not.toBe(seen[0]);
     seen.push(at.node);
     expect(at.y >= 0 && at.y <= at.H, `PD2: on screen vertically ${where}`).toBe(true);
@@ -228,7 +230,20 @@ for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { wi
     expect(due[1].d, "the longest authored explanation").toBeGreaterThanOrEqual(1000);
     await j.clickByMouse(".ng-logo", "open the drawer");
     await openPractice(page, j);
+    // Until v1.278.0 the two owed longest cards opened the queue (most overdue first). The day's queue is now what is worth
+    // most (U171 a), so the two decks are appended to the session through Practice's own append (the seam "Keep
+    // practising" and a Path lesson use), and each is opened by its button in the session queue, the way a player reaches
+    // a later row.
+    await page.evaluate((keys: string[]) => {
+      const a = (window as any).__neural, s = a._session, d = a._gameplanDecks();
+      a._practiceAppend(s, s.plan, keys.map((key) => ({ key, questions: d[key].questions, pending: 0, reason: "The longest cards." })));
+    }, due.map((d) => d.key));
+    await page.locator("[data-practice-details] > summary").scrollIntoViewIfNeeded();
+    await j.clickByMouse("[data-practice-details] > summary", "Practice details & session queue");
     for (const [i, card] of due.entries()) {
+      await page.evaluate((k: string) => { const b = [...document.querySelectorAll("[data-practice-queue] button")].find((x) => x.textContent === k.replace("|", " \u00b7 ")); if (b) b.setAttribute("data-pd4-jump", k); }, card.key);
+      await page.locator(`[data-pd4-jump="${card.key}"]`).scrollIntoViewIfNeeded();
+      await j.clickByMouse(`[data-pd4-jump="${card.key}"]`, "the queue's button for " + card.key);
       await expect(page.locator('[data-session-row][aria-expanded="true"]'), "the card in view").toHaveAttribute("data-session-row", card.key);
       await checkAnswers(page, "[data-mini-reveal]", `${card.key}, before Reveal`);
       await j.clickByMouse(`${OPEN} [data-mini-reveal]`, "Reveal");
@@ -238,8 +253,6 @@ for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { wi
       if (i === 0) {
         await j.clickByMouse(`${OPEN} [data-mini-got]`, "Got it");
         await expect.poll(() => page.evaluate(() => (window as any).__neural.practiceToday().done), { message: "graded once" }).toBe(1);
-        // the next technique, by key, unless grading already moved the session on
-        if (await page.evaluate(() => (window as any).__neural._session.idx) === 0) await page.keyboard.press("ArrowDown");
       }
     }
   });
