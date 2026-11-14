@@ -89,6 +89,9 @@ import { journey } from "../dsl"
  *                                                              test stays green under it, why is not measured
  *   G9 the keep-clear at the bare silhouette                   NON-KILL here (no name in these frames comes within the
  *                                                              line); red in map-names.spec.ts
+ *   GOLD1-R2 (the map reader of PR 417), on the committed head 2bf3d2c80:
+ *   R2b the marks' face-down check removed                     red 1 at "due: face down, so no mark on its orb (no outside
+ *                                                              line, no inside gold) and no seal on its card"
  * NOT COVERED here: the hover words' TOOLTIP itself (a browser tooltip cannot be read; its `title` is asserted, and the
  * pointer meets the seal); the light/dark poster frames (the pictures, tests/artifacts/_seal_shoot.mjs; the spec checks
  * the seal is lit or dark INSIDE, whatever the poster); a known escape's or threat's seal (the units: escape; the same
@@ -562,11 +565,12 @@ async function mapClaims(page: Page, where: string) {
   }
   expect(lifted, `${where}: at least one marked orb is lifted off its stored point (so LY against n.y is tested)`).toBeGreaterThan(0)
   // the SEAT (GOLD1-R2, the map reader of PR 417: a name came 2.3 px from its focus mark, 0.3 px from where its line ends):
-  // no move's name within its focus mark (1.28 of its orb), the mark's rim (1 px out) and its outside line's reach (1 px,
-  // from half a device pixel out at dpr 1)
+  // no move's name within its focus mark (1.28 of its orb), the mark's rim (1 px out) and its outside line's reach (1 px at
+  // dpr 2; 1.5 from half a device pixel out at dpr 1). No frame here brings a name that close (R2c survives this check): the
+  // fixture test "the seat's keep-clear" below is the one that gives it a case
   const so = f.orbs[f.focus]
   expect(!!so, `${where}: the seat is drawn (the check has a subject)`).toBe(true)
-  const seatReach = so.R * 1.28 + 1 + 1 + (f.dpr < 1.5 ? 0.5 / f.dpr : 0)
+  const seatReach = so.R * 1.28 + 1 + Math.max(1, 1.5 / f.dpr) + (f.dpr < 1.5 ? 0.5 / f.dpr : 0)
   const atSeat = f.names.filter((b: W) => Math.max(b.l - so.x, 0, so.x - b.r) ** 2 + Math.max(b.t - so.y, 0, so.y - b.b) ** 2 < seatReach ** 2)
   expect(atSeat.map((b: W) => b.i), `${where}: no move's name within the seat's focus mark, its rim and its line`).toEqual([])
   // v1.280.0: was "no gold outline left: every pixel the known set changes lies inside a published dot"
@@ -613,6 +617,62 @@ test.describe("the map with moves hidden 1440x900 (GOLD1-R2)", () => {
     console.log(`[known-move-seal] turned up: ${JSON.stringify(up)}`)
     expect([up.due.down, up.due.seal, up.due.out], "due, turned up: the ring on its card and the outside line on its orb").toEqual([false, "recalled", true])
     expect([up.learnedDue.down, up.learnedDue.seal, up.learnedDue.inK > 0], "learnedDue, turned up: the disc on its card and the inside on its orb").toEqual([false, "answered", true])
+  })
+})
+
+// THE SEAT'S KEEP-CLEAR (GOLD1-R2, the map reader's finding 4: a name came 2.3 px from the seat's focus mark): a move's name
+// keeps clear of the seat by its focus mark (1.28 of the orb), the mark's rim (1 px out) and the outside line beyond it (1 px
+// at dpr 2; 1.5 from half a device pixel out at dpr 1), not by its bare silhouette. No camera of the app's puts a name there
+// (the seal frames above, map-names' sweep and the reader's 625 frames all leave the seat 20 px or more), so mapClaims' seat
+// check alone cannot fail: R2c, the keep-clear at the bare silhouette, survived it. A FIXTURE gives the claim its case: one
+// dealt orb (and its pair partner) walked toward the seat from its left, level with it, a pixel a frame, its name on its
+// usual right side heading into the seat; each frame planned afresh (`_nm`, the planner's memo, cleared: the plan's key holds
+// the camera and the claims, not an orb moved under a held camera). Its name must come right up to the seat's reach (within
+// 3 px of it: the reach is what holds it) and never inside.
+test.describe("the seat's keep-clear 1440x900 (GOLD1-R2)", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+
+  test("a dealt orb walked up to the seat from its left: its name comes up to the seat's focus mark, rim and line, never inside", async ({ page }) => {
+    test.setTimeout(240_000)
+    await seat(page, false)
+    const r = await page.evaluate(() => {
+      const a = (window as W).__neural
+      a.setPaused(true)
+      const S = a.nodes[a.focusIdx], vw = 146.55   // the seat's orb about 30 px across its half-width at 1440
+      a.cam = { ...a.cam, cx: S.x, cy: S.y, vw, lvw: Math.log(vw) }
+      a._nm = {}; a.draw()
+      const scale = a.W / a.cam.vw, dpr = a.dpr || 1, lw = Math.max(1, 1.5 / dpr), gap = dpr < 1.5 ? 0.5 / dpr : 0
+      const sx = a.W / 2 + (S.x - a.cam.cx) * scale, sy = a.H / 2 + (a._LY(S) - a.cam.cy) * scale, R = a._nodeHalfW(S, scale, a._nodeK, a._lodK, true)
+      const reach = R * 1.28 + 1 + lw + gap, bare = R + lw + gap
+      const pn = (a._lastNameBoxes || []).find((b: W) => b.w === "position")
+      const named = new Set((a._lastNameBoxes || []).filter((b: W) => b.w === "move").map((b: W) => b.i))
+      const Di = a.optionIdxs.find((i: number) => named.has(i))
+      const out: W = { R, reach, bare, dpr, pos: pn ? (pn.r <= sx ? "left" : pn.l >= sx ? "right" : "over") : "none", D: Di == null ? null : a.graphName(a.nodes[Di]), frames: 0, written: 0, tight: 0, inside: [] as string[] }
+      if (Di == null) { a.setPaused(false); return out }
+      const D = a.nodes[Di], P = D.pi >= 0 ? a.nodes[D.pi] : null, x0 = D.x, y0 = D.y, px0 = P ? P.x : 0, py0 = P ? P.y : 0
+      const RD = a._nodeHalfW(D, scale, a._nodeK, a._lodK, true)
+      try {
+        for (let dx = R + RD + 260; dx >= R + RD + 4; dx -= 1) {
+          const tx = S.x - dx / scale, dyW = a._LY(S) - a._LY(D)
+          D.x = tx; D.y += dyW; if (P) { P.x = px0 + (tx - x0); P.y += dyW }
+          a._nm = {}; a.draw(); out.frames++
+          for (const b of (a._lastNameBoxes || []).filter((b: W) => b.w === "move")) {
+            const d = Math.hypot(Math.max(b.l - sx, 0, sx - b.r), Math.max(b.t - sy, 0, sy - b.b))
+            if (b.i === Di) { out.written++; if (d >= reach - 0.01 && d < reach + 3 && b.r <= sx) out.tight++ }
+            if (d < reach - 0.01 && out.inside.length < 4) out.inside.push(`${a.graphName(a.nodes[b.i])}: ${(reach - d).toFixed(1)} px inside the seat's reach, ${(d - bare).toFixed(1)} past its bare silhouette's (orb ${dx.toFixed(0)} px left of the seat)`)
+          }
+        }
+      } finally {
+        D.x = x0; D.y = y0; if (P) { P.x = px0; P.y = py0 }
+        a._nm = {}; a.draw(); a.setPaused(false)
+      }
+      return out
+    })
+    console.log(`[known-move-seal] the seat's keep-clear: ${JSON.stringify(r)}`)
+    expect(r.D, "a dealt move is named in the frame (the walk has a subject)").not.toBeNull()
+    expect(r.pos, "the position's own name is not on the seat's left (the walk meets the seat, not its name)").not.toBe("left")
+    expect(r.tight, `${r.D}'s name comes within 3 px of the seat's reach on the seat's side (the reach is what holds it: the check has a case)`).toBeGreaterThan(0)
+    expect(r.inside, "no move's name within the seat's focus mark (1.28 r), its rim and its outside line").toEqual([])
   })
 })
 

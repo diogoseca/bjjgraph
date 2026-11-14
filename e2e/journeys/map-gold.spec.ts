@@ -7,6 +7,11 @@ import { journey } from "../dsl"
  * all learned) wears gold INSIDE, with the orb's own colour kept as a border inside the edge, drawn in full from an `rs` of
  * 3.2 px, not at all at 2.4 px or less (NG_MAP_MARKS, app.src.jsx). THE ONE CLAIM the design exists for: THE ORB'S OWN
  * COLOUR IS VISIBLE IN EVERY STATE AT EVERY SIZE (the old outline and the "Turn what you know gold" recolour both lost it).
+ * AT A DEVICE PIXEL RATIO BELOW 1.5 (GOLD1-R2, the map reader of PR 417: a desktop at 100% that is not high-density) the
+ * border is never under 2 device pixels, the outside line starts half a device pixel beyond the silhouette and is 1.5 device
+ * pixels wide, and the inside is drawn only where its gold has a device pixel of room inside the border (full at two): at
+ * dpr 1 it starts at rs 3.0 / 3.6 / 4.0 and is full at 4.0 / 4.8 / 5.4 (circle / diamond / triangle). Three viewports:
+ * 1440 at dpr 2, 390 at dpr 3 (the canvas caps at 2) and 1440 at dpr 1.
  *
  * WHAT IS READ: the pixels `draw()` paints (an offscreen copy of the real frame, the live context swapped for the shot), never
  * the rule recomputed (CLAUDE.md 6.3). THE SPECIMENS: one orb of each shape, a circle (a position), a diamond (a transition)
@@ -20,8 +25,11 @@ import { journey } from "../dsl"
  * shot, the focus and the dealt hand are set aside), at a camera binary-searched until the frame's own published `rs`
  * (`_lastMapMarks`) hits each size; the two sets the draw reads (`_movesGold`, `_answered`) are set per state on the
  * instance. Four pixels per shot: the CENTRE; the middle of the BORDER band, along the edge's normal (a circle's side, a
- * diamond's 45-degree face, a triangle's base), at the edge minus half the border; 3/4 px INSIDE the edge; and just OUTSIDE
- * the edge (+0.5 px).
+ * diamond's 45-degree face, a triangle's base), at the edge minus half the border; 3/4 px INSIDE the edge (at dpr 1, where
+ * that is the band's own last device pixel, the band's middle again); and OUTSIDE, the goldest of three points across the
+ * line (a quarter, half and three quarters of its width, from the gap: half a device pixel at dpr 1, none at 2). The inside
+ * is judged on what the frame PUBLISHED for it (`inK`, its alpha): none, the centre is the orb's own; full, gold iff
+ * answered; between, warmer than the bare orb; at dpr 2 it must be full from rs 3.2.
  * "Gold" and "own colour" are judged by chromaticity against the same pixel with no mark (the "none" state): own = within
  * 0.07 of it and not gold; gold = green over blue by 45 and red at least green less 10 (240,192,90 at 0.95; the red orb's
  * fill is 232,64,64: its green does not clear its blue, so a red orb never reads as gold).
@@ -39,6 +47,11 @@ import { journey } from "../dsl"
  *                                                            103,92,103 orb)
  *   G11 the outside line centred on the edge (half on the   red at the same assertion (3/4 px inside the edge)
  *       orb), not outset
+ *   GOLD1-R2 (the map reader of PR 417: at dpr 1 the band took a gold tint), on the committed head 2bf3d2c80:
+ *   R2a the dpr-1 border minimum removed (`bwMin` back to   red at "1440 dpr 1: the border band is the orb's own colour
+ *       1.2 CSS px at every ratio)                           in every state, at every size" (dpr 2 and 390 green)
+ *   R2a2 the dpr-1 line at 1 CSS px (not 1.5 device px)     red at "1440 dpr 1: the outside line is gold when and only when
+ *                                                            there is a Yes" (the diamond's faces at partial cover)
  * NOT COVERED here: overlapping marked orbs (the owner's pictures show them, tests/artifacts/_outline_shoot.mjs --overlap); the seat's outside line
  * on its focus mark; the colour of a real orb at a size the camera search did not reach.
  */

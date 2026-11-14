@@ -80,6 +80,13 @@ import { journey } from "../dsl"
  *   P1  the position's own name exempt again (POSNAME:     red at "the position's own name is under no control" (the POSNAME
  *       both of its placements back to the usual side)     test; the sweep's audit reads the `position:` kind too, and
  *                                                          none of its cameras puts the seat's name under a control)
+ *   GOLD1-R1 (the position's own name refused only under paint that hides it), on the committed head 2bf3d2c80:
+ *   R1a the position's name refused under any control's   red at "a see-through control over it: the position's own name
+ *       box again (the first build's rule)                 is written where it was" (the fixture test; lists-picker's
+ *                                                          phone test stays green: its card is opaque, refused either way)
+ *   P1  again, on the narrowed rule                        red at "the position's own name is under no control" and at
+ *                                                          "painted over its usual side: written on its mirror"
+ *   R1c the reward card's close without its draw           red at lists-picker.spec.ts's phone test (the star not found)
  * NON-KILLS, so nobody reads them as covered: C1b, the ANSWERS not kept while the store's element memo still is, reads
  * nothing and only costs time (no spec times a frame; tests/artifacts' frame-time script does); M4b, the pointer's PAIR GROUP alone dropped, is the designed fallback (the
  * single label names the orb instead); M8b, a written name needing 6 px like a new one, changes nothing these recordings
