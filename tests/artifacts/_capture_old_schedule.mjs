@@ -1,7 +1,7 @@
-// THE OLDER CLIENT, CAPTURED (v1.277.0, SRS-GO). Writes tests/artifacts/schedule_old_client.json: the exact source text
+// THE OLDER CLIENT, CAPTURED (v1.278.0, SRS-GO). Writes tests/artifacts/schedule_old_client.json: the exact source text
 // of dev's schedule writer and both of its merges, as dev v1.273.1 (f0b9c0e02) ships them, cut out of git's own copy of
 // each file (never re-typed) with the file's sha256, so tests/schedule_ladder.test.mjs can run the code an open tab or an
-// installed copy that has not reloaded still runs against the rows v1.277.0 writes. Run once from the repo root:
+// installed copy that has not reloaded still runs against the rows v1.278.0 writes. Run once from the repo root:
 //   node tests/artifacts/_capture_old_schedule.mjs [rev]
 // Not a test: `node --test tests/*.test.mjs` does not collect it.
 import { execFileSync } from "node:child_process";

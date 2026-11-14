@@ -3,11 +3,11 @@
 // Host evidence (question history) stays outside the compact worker profile.
 export const NG_KNOWLEDGE_VERSION = 1;
 export const NG_KNOWLEDGE_STUDY_POLICY = "no-additional-study-events";
-// THE STORED CELL's rungs: the seven-rung ladder every client until v1.277.0 schedules by. A row's interval cell is
+// THE STORED CELL's rungs: the seven-rung ladder every client until v1.278.0 schedules by. A row's interval cell is
 // always one of these (the largest at or below its true interval, below), so an older client's `indexOf` always finds
 // a rung and its right answer climbs from there, never back to 1 day. The schedule itself is NG_KNOWLEDGE_LADDER.
 export const NG_KNOWLEDGE_INTERVALS = Object.freeze([1, 3, 7, 14, 30, 60, 120]);
-// THE LADDER (v1.277.0, the owner, 13 Nov 2026: "1 day, then … 3 days … 1 week, then … 2 weeks, 1 month, 2 months,
+// THE LADDER (v1.278.0, the owner, 13 Nov 2026: "1 day, then … 3 days … 1 week, then … 2 weeks, 1 month, 2 months,
 // 3 months, 6 months, 1 year, then every 2^n years thereon"; ruled SRS-GO): 1, 3, 7, 14, 30, 60, 90, 180, 365, 730,
 // 1461, 2922 days, then doubling. A card may sit BETWEEN two rungs (the research's frame, reports kept outside the repo):
 // its place is read from its true interval on a log scale, so halfway from 30 to 60 days is 42.4, not 45.
@@ -323,9 +323,9 @@ export function ngKnowledgeSharedDecks(manifest, question, key) {
   }
   return list.length > 1 ? list : [];
 }
-// THE SCHEDULE (v1.277.0, ruled SRS-GO). A row stays [due, interval, last day] (a move's adds its answer and any tail):
+// THE SCHEDULE (v1.278.0, ruled SRS-GO). A row stays [due, interval, last day] (a move's adds its answer and any tail):
 // NOTHING NEW IS STORED and no stored row is rewritten.
-//   · THE TRUE INTERVAL is `due − last`, never less than the cell (`ngKnowledgeInterval`). Every writer until v1.277.0
+//   · THE TRUE INTERVAL is `due − last`, never less than the cell (`ngKnowledgeInterval`). Every writer until v1.278.0
 //     wrote due = last + interval, so an existing row reads as its own rung; the pull's clamp (last ≤ today) can only
 //     make it longer; a row built otherwise (a hand-built one in a spec) never reads below its own rung.
 //   · THE CELL (`row[1]`) is written as the largest rung of NG_KNOWLEDGE_INTERVALS at or below the true interval
@@ -379,13 +379,13 @@ export function ngKnowledgeScheduleRow(prior, ok, day) {
   const due = Math.max(prior[0], day + Math.max(1, Math.round(ngKnowledgeNextInterval(prior, day))));
   return [due, ngKnowledgeCell(due - day), day];
 }
-// THE PULL'S MERGE OF ONE srs ROW (v1.105.0 in `_mergeProgressFields`; here since v1.277.0 so it is pinned as a unit).
+// THE PULL'S MERGE OF ONE srs ROW (v1.105.0 in `_mergeProgressFields`; here since v1.278.0 so it is pinned as a unit).
 // Per card the LATER review wins (the freshest grade knows the memory best); ties are the common case (`last` is a day),
-// so the tie rule IS the rule: the SMALLER cell, then (v1.277.0) the EARLIER due. The cell is floored, so two rows of one
-// day can tie on it with different due dates; until v1.277.0 such a tie kept the LOCAL row, and two devices could each
+// so the tie rule IS the rule: the SMALLER cell, then (v1.278.0) the EARLIER due. The cell is floored, so two rows of one
+// day can tie on it with different due dates; until v1.278.0 such a tie kept the LOCAL row, and two devices could each
 // keep their own. Smaller cell then earlier due is "the smaller true interval" on one day: showing a card early is cheap,
 // hiding a forgotten one is not. A winner past rung 0 keeps the LONGER interval it beat (the heal of the grade-before-
-// pull race), read as TRUE intervals (`due − last`) since v1.277.0, written `[winner's last + the beaten interval, the
+// pull race), read as TRUE intervals (`due − last`) since v1.278.0, written `[winner's last + the beaten interval, the
 // beaten cell, winner's last]`. The incoming `last` is clamped to today so a fast clock cannot win forever. `local` may
 // be undefined (a card only the cloud holds). Returns the row to keep; inputs untouched.
 export function ngKnowledgeMergeRow(local, cloud, today) {
