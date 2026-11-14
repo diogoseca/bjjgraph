@@ -22,7 +22,8 @@
  *   crossOrb   labels crossing the drawn orb of another dealt move or of the position's pair (not their own)
  *   crossSeal  labels crossing a gold dot that is not their own (`_lastMapSeals`)
  *   crossBg    labels crossing any other orb drawn on screen (the cloud: reported, not a target)
- *   hidOrb     move names whose own orb lies wholly inside one painted control box (an open desktop drawer, a card)
+ *   hidOrb     move names whose own orb lies wholly under paint that hides it (a background at alpha x opacity 0.5 or
+ *              more, an image or gradient, a backdrop filter, raster media: an open desktop drawer, a card; v1.279.0)
  * and how many labels were written, by kind (the position's own, dealt moves, other), ON THE SETTLED FRAME: each case settles
  * half a second at the usual zoom, wheels, and records half a second after the camera rests (a name the jump dropped waits
  * that long before it may come back); `jump` counts the moves named on the wheel's own frame, `rest1` on the first at rest,
@@ -152,7 +153,7 @@ async function measure(page) {
     })
     // ── controls: painted elements of the app root over a box ──
     const root = a.__ngRoot || a.wrapRef.current, cv = a.canvas
-    const painted = []
+    const painted = [], covers = []
     const eff = (el) => { let o = 1; for (let q = el; q && q !== document.documentElement; q = q.parentElement) { const cs = getComputedStyle(q); if (cs.display === "none" || cs.visibility === "hidden") return 0; o *= +cs.opacity } return o }
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_TEXT)
     const seatStar = (el) => el.closest && el.closest("[data-seat-star]")
@@ -185,11 +186,16 @@ async function measure(page) {
       const bg = cs.backgroundColor, bgOn = bg && !/rgba\([^)]*,\s*0\)$/.test(bg) && bg !== "transparent"
       const bd = (parseFloat(cs.borderTopWidth) + parseFloat(cs.borderLeftWidth) > 0) && !/rgba\([^)]*,\s*0\)$/.test(cs.borderTopColor)
       const media = /^(IMG|svg|VIDEO|CANVAS|INPUT|SELECT|TEXTAREA)$/i.test(el.tagName) || cs.backgroundImage !== "none"
+      // paint that HIDES an orb (v1.279.0, `hidOrb`): a background colour at alpha x effective opacity of 0.5 or more, a
+      // background image or gradient, a backdrop filter, an image, video or canvas (never text, a border or an svg icon)
+      const al = (bg.match(/[\d.]+/g) || []), e = eff(el)
+      if ((al.length > 3 ? +al[3] : al.length ? 1 : 0) * e >= 0.5 || (e >= 0.05 && (cs.backgroundImage !== "none" || (cs.backdropFilter || "none") !== "none" || /^(IMG|VIDEO|CANVAS)$/i.test(el.tagName)))) covers.push({ el: el.parentElement, l: r.left, r: r.right, t: r.top, b: r.bottom, what: typeof el.className === "string" && el.className ? el.className.split(" ")[0] : el.tagName })
       if (!(bgOn || bd || media)) continue
       if (eff(el) < 0.05) continue
       painted.push({ el: el.parentElement, l: r.left, r: r.right, t: r.top, b: r.bottom, what: (typeof el.className === "string" && el.className ? el.className.split(" ")[0] : el.tagName) + (el.getAttribute("data-tech") ? "[card]" : ""), star: !!seatStar(el) })
     }
     for (let i = 0; i < painted.length; i++) painted[i] = clip(cut(painted[i], painted[i].el))
+    for (let i = 0; i < covers.length; i++) covers[i] = clip(cut(covers[i], covers[i].el))
     // a sliver under 2 px is not a control a name can sit under (a visually hidden heading clipped to 1 x 1)
     for (let i = painted.length - 1; i >= 0; i--) if (!(painted[i].r - painted[i].l >= 2 && painted[i].b - painted[i].t >= 2)) painted.splice(i, 1)
     const hit = (p, q, m = 0) => p.l < q.r + m && p.r > q.l - m && p.t < q.b + m && p.b > q.t - m
@@ -228,13 +234,13 @@ async function measure(page) {
       if (seals.some((s) => !own(s) && circ(L.box, s, s.r))) { out.crossSeal++; out.faults.push(["crossSeal", L.text]) }
       if (orbs.some((o) => !o.hand && !own(o) && circ(L.box, o, o.R))) out.crossBg++
     }
-    // a move named beside an orb that lies WHOLLY under one painted control (the desktop drawer, a card): a name with no
-    // visible orb (R2 D4; `on(c)` in draw() now refuses one against `_nameBlocks`' own boxes and the free edge)
+    // a move named beside an orb that lies WHOLLY under paint that hides it (the desktop drawer, a card): a name with no
+    // visible orb (R2 D4; v1.279.0 by covering paint, `covers`: a see-through box hides nothing)
     out.hidOrb = 0
     for (const L of labels) {
       if (!/move/.test(L.kind)) continue
       const o = orbs.find((o) => o.idx === L.idx)
-      if (o && painted.some((p) => !p.star && p.l <= o.x - o.R && p.r >= o.x + o.R && p.t <= o.y - o.R && p.b >= o.y + o.R)) { out.hidOrb++; out.faults.push(["hidOrb", L.text, [o.x | 0, o.y | 0, o.R | 0]]) }
+      if (o && covers.some((p) => p.l <= Math.max(0, o.x - o.R) && p.r >= Math.min(W, o.x + o.R) && p.t <= Math.max(0, o.y - o.R) && p.b >= Math.min(H, o.y + o.R))) { out.hidOrb++; out.faults.push(["hidOrb", L.text, [o.x | 0, o.y | 0, o.R | 0]]) }
     }
     out.hand = (a.optionIdxs || []).length
     out.jump = jump; out.rest1 = rest1

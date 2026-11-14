@@ -134,12 +134,13 @@ async function pullBack(page: Page, f: number, cam0: { cx: number; cy: number; v
 const unusedRoom = (page: Page) => page.evaluate(() => {
   const a = (window as W).__neural, proto = Object.getPrototypeOf(a)
   let s: W = null
+  const was = Object.prototype.hasOwnProperty.call(a, "_planNames") ? a._planNames : null   // a watcher (`watchCands`) stays
   a._planNames = function (pass: string, ctx: W, cands: W[], claims: W[], orbs: W[], sig: string, admit: boolean, A: W) {
-    const plan = proto._planNames.call(this, pass, ctx, cands, claims, orbs, sig, admit, A)
+    const plan = (was || proto._planNames).call(this, pass, ctx, cands, claims, orbs, sig, admit, A)
     if (pass === "move") s = { ctx, cands, claims: claims.slice(), orbs, A, admit, plan }
     return plan
   }
-  try { a.advance(17) } finally { delete a._planNames }
+  try { a.advance(17) } finally { if (was) a._planNames = was; else delete a._planNames }
   if (!s) return { admit: null, written: 0, refused: 0, missed: [] as string[] }
   const missed: string[] = []
   let k = 0
@@ -168,7 +169,7 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
     clips.set(el, c); return c
   }
   const eff = (el: Element) => { let o = 1; for (let q: Element | null = el; q && q !== document.documentElement; q = q.parentElement) { const cs = getComputedStyle(q); if (cs.display === "none" || cs.visibility === "hidden") return 0; o *= +cs.opacity } return o }
-  const painted: W[] = []
+  const painted: W[] = [], covers: W[] = []
   const put = (r: DOMRect, el: Element, what: string) => {
     const c = clipOf(el), l = Math.max(r.left, c.l) - cr.left, t = Math.max(r.top, c.t) - cr.top, rr = Math.min(r.right, c.r) - cr.left, b = Math.min(r.bottom, c.b) - cr.top
     if (rr - l >= 2 && b - t >= 2) painted.push({ l, t, r: rr, b, what, star: !!el.closest("[data-seat-star]") })
@@ -190,6 +191,12 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
     const bd = parseFloat(cs.borderTopWidth) + parseFloat(cs.borderLeftWidth) > 0 && !/rgba\([^)]*,\s*0\)$/.test(cs.borderTopColor)
     const media = /^(IMG|svg|VIDEO|CANVAS|INPUT|SELECT|TEXTAREA)$/i.test(el.tagName) || cs.backgroundImage !== "none"
     if ((bg || bd || media) && eff(el) >= 0.05) put(r, el, el.tagName + "." + String(el.className).split(" ")[0])
+    // PAINT THAT HIDES AN ORB (v1.279.0): a background colour at alpha x effective opacity of 0.5 or more, a background
+    // image or gradient, a backdrop filter, an image, video or canvas; never text, a border or a line icon (svg)
+    const al = (cs.backgroundColor.match(/[\d.]+/g) || []) as string[], e = eff(el)
+    if (((al.length > 3 ? +al[3] : al.length ? 1 : 0) * e >= 0.5 || (e >= 0.05 && (cs.backgroundImage !== "none" || (cs.backdropFilter || "none") !== "none" || /^(IMG|VIDEO|CANVAS)$/.test(el.tagName))))) {
+      const c = clipOf(el); covers.push({ l: Math.max(r.left, c.l) - cr.left, t: Math.max(r.top, c.t) - cr.top, r: Math.min(r.right, c.r) - cr.left, b: Math.min(r.bottom, c.b) - cr.top, what: el.tagName + "." + String(el.className).split(" ")[0] })
+    }
   }
   const hit = (p: W, q: W, m = 0) => p.l < q.r + m && p.r > q.l - m && p.t < q.b + m && p.b > q.t - m
   const close: string[] = [], outside: string[] = [], under: string[] = []
@@ -214,8 +221,9 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
     const node = a.nodes[b.i], x = (node.x - a.cam.cx) * s + W_ / 2, y = (a._LY(node) - a.cam.cy) * s + H_ / 2, R = a._nodeHalfW(node, s, a._nodeK, a._lodK, true)
     // R1 finding 5: a name only for an orb whose own silhouette is on the canvas
     if (x + R < 0 || x - R > W_ || y + R < 0 || y - R > H_) offOrb.push(name(b) + ` (orb at ${x.toFixed(0)}, ${y.toFixed(0)})`)
-    // R2 D4: ...nor for an orb whose silhouette lies wholly under one painted control (an open drawer, a card): no visible orb
-    const over = painted.find((p) => !p.star && p.l <= x - R && p.r >= x + R && p.t <= y - R && p.b >= y + R)
+    // R2 D4: ...nor for an orb whose silhouette lies wholly under paint that hides it (an open drawer, a card; v1.279.0: a
+    // see-through box, text or a line icon hides nothing): no visible orb
+    const over = covers.find((p) => p.l <= Math.max(0, x - R) && p.r >= Math.min(W_, x + R) && p.t <= Math.max(0, y - R) && p.b >= Math.min(H_, y + R))
     if (over) hidOrb.push(name(b) + ` (orb at ${x.toFixed(0)}, ${y.toFixed(0)} under ${over.what})`)
     // R1 finding 6: the name is INKED where it is published (the browser's own box for that fillText, within half a pixel)
     const s2 = a.graphName(node)
@@ -231,8 +239,25 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
     // a name belongs to ONE orb: its orb stands clear of every other dealt orb (3 px for a name kept, 6 for a new one)
     if (b.w === "move") { gaps.push(gap); if (gap < 3 - 0.01) crowded.push(name(b) + ` (${gap.toFixed(1)} px)`) }
   }
-  const hidden = orbs.filter((o: W) => painted.some((p) => !p.star && p.l <= o.x - o.R && p.r >= o.x + o.R && p.t <= o.y - o.R && p.b >= o.y + o.R)).length
-  return { close, outside, under, crossing, offOrb, hidOrb, hidden, inkOff, crowded, gaps, inked: ink.length, moves: labels.filter((b: W) => b.w === "move").length, position: labels.filter((b: W) => b.w === "position").length, W: W_, H: H_ }
+  // hidden: what shows of the orb (its silhouette box cut to the canvas) lies wholly under one box of paint that hides it
+  const hid = (o: W) => covers.some((p) => p.l <= Math.max(0, o.x - o.R) && p.r >= Math.min(W_, o.x + o.R) && p.t <= Math.max(0, o.y - o.R) && p.b >= Math.min(H_, o.y + o.R))
+  const hidden = orbs.filter(hid).length
+  // THE PLANNER IS OFFERED EXACTLY THE DEALT ORBS THE BROWSER SHOWS (v1.279.0, NEXT1 part 2; set equality, §6.3): on the
+  // canvas and under no paint that hides it, against the moves the frame handed `_planNames` (`watchCands`), each way
+  const cands = a.__mnCands as number[] | undefined   // `watchCands` records on the app instance
+  let seen: string[] | null = null, thru = 0
+  if (cands) {
+    seen = []
+    // ...and how many of the orbs shown sit wholly inside a control's box (`_nameBlocks`, read only to count): the
+    // see-through cases, which a box alone used to hide (so the claim above had them to judge)
+    const B = a._nameBlocks().blocks
+    thru = orbs.filter((o: W) => (a.optionIdxs || []).includes(o.i) && !hid(o) && B.some((q: W) => q.l <= Math.max(0, o.x - o.R) && q.r >= Math.min(W_, o.x + o.R) && q.t <= Math.max(0, o.y - o.R) && q.b >= Math.min(H_, o.y + o.R))).length
+    for (const o of orbs.filter((o: W) => (a.optionIdxs || []).includes(o.i))) {
+      const shown = o.x + o.R > 0 && o.x - o.R < W_ && o.y + o.R > 0 && o.y - o.R < H_ && !hid(o)
+      if (shown !== cands.includes(o.i)) seen.push(`${a.graphName(a.nodes[o.i])} (${o.x.toFixed(0)}, ${o.y.toFixed(0)}): ${shown ? "shown, not offered" : "hidden, offered"}`)
+    }
+  }
+  return { close, outside, under, crossing, offOrb, hidOrb, hidden, seen, thru, inkOff, crowded, gaps, inked: ink.length, moves: labels.filter((b: W) => b.w === "move").length, position: labels.filter((b: W) => b.w === "position").length, W: W_, H: H_ }
 }, NO_GAP)
 
 const VPS = [{ width: 390, height: 631, touch: true }, { width: 1440, height: 900, touch: false }]
@@ -247,6 +272,7 @@ function checkFrame(r: W, where: string) {
   expect(r.crossing, `${where}: no move's name across another dealt orb`).toEqual([])
   expect(r.offOrb, `${where}: no name for an orb drawn off the canvas`).toEqual([])
   expect(r.hidOrb, `${where}: no name for an orb wholly under a control`).toEqual([])
+  if (r.seen) expect(r.seen, `${where}: the planner is offered exactly the dealt orbs the browser shows`).toEqual([])
   expect(r.inkOff, `${where}: every name is inked where it is published`).toEqual([])
   expect(r.crowded, `${where}: every named orb stands clear of every other dealt orb`).toEqual([])
 }
@@ -302,9 +328,10 @@ for (const vp of VPS) {
 
     test(`no two names closer than ${NO_GAP} px, none off the map, none under a control, and at rest no free place left unused: usual zoom and pulled back 2, 4, 9 times (${vp.width})`, async ({ page }) => {
       test.setTimeout(240_000)
-      let written = 0, refused = 0
+      let written = 0, refused = 0, thru = 0, compared = 0
       for (const [title, role] of SEATS) {
         await seat(page, title, role)
+        await watchCands(page)
         const cam0 = await camOf(page)
         for (const f of [1, 2, 4, 9]) {
           const where = `${title} (${role}) x${f}`
@@ -314,7 +341,7 @@ for (const vp of VPS) {
           await journey(page).advance(17)
           const r = await audit(page)
           checkFrame(r, `${where}, at rest`)
-          written += r.moves
+          written += r.moves; thru += r.thru; compared += r.seen ? 1 : 0
           // names the jump dropped wait half a second before they may come back (no blink), so "every orb with a free place
           // is named" is asked once that half second has passed, the camera still at rest
           await journey(page).advance(520)
@@ -332,6 +359,9 @@ for (const vp of VPS) {
       // NON-TRIVIAL: "zero overlaps" is never bought by writing nothing (the floor counts frames AT REST)
       expect(written, `moves are still named at rest: at least ${vp.width < 700 ? 40 : 75} names over the twelve frames`).toBeGreaterThanOrEqual(vp.width < 700 ? 40 : 75)
       expect(refused, "...and some were refused, so the free-place check above had moves to ask about").toBeGreaterThan(0)
+      console.log(`[map-names] ${vp.width}: ${thru} orbs shown inside a see-through control's box over ${compared} frames compared`)
+      expect(compared, "every frame at rest compared the planner's moves with what the browser shows").toBe(12)
+      if (vp.width > 700) expect(thru, "orbs inside a see-through control's box (the table of contents, the row's top strip) were in the frames compared").toBeGreaterThan(0)
     })
 
     test(`a move's name sits beside its own orb, where the frame drew it (${vp.width})`, async ({ page }) => {
@@ -572,6 +602,7 @@ test.describe("the drawer open on a desktop (1440x900)", () => {
     // at x 328 to 351, the drawer's edge near 360; head 130b654f5, the usual zoom and pulled back 2 times)
     for (const [title, role] of ([["Ushiro Ashi-Garami Top", "top"]] as Array<[string, "top" | "bottom"]>).concat(SEATS)) {
       const j = await seat(page, title, role)
+      await watchCands(page)
       await j.clickByMouse(".ng-logo", "open the drawer")
       await j.advance(600)
       expect(await page.evaluate(() => !!(window as W).__neural.deckShown), `${title}: the drawer is open`).toBe(true)

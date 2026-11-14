@@ -21115,9 +21115,33 @@ class Component extends DCLogic {
     for (const el of [...wrap.children, ...(root && root !== wrap ? root.children : []), ...(rd && this._readerEl?.isConnected ? [...rd.game.children, rd.articleEl, ...rd.articleEl.children] : [])]) {
       if (el === this.canvas || el === this._readerEl || el === wrap || el.hidden || el.hasAttribute("data-seat-star")) continue;
       const r = el.getBoundingClientRect(), cs = getComputedStyle(el);
-      if (r.width > 0 && r.height > 0 && cs.display !== "none" && cs.visibility !== "hidden" && (el.style.opacity || cs.opacity) >= 0.05) blocks.push({ l: r.left - cv.left, r: r.right - cv.left, t: r.top - cv.top, b: r.bottom - cv.top });
+      const o = +(el.style.opacity || cs.opacity);
+      if (r.width > 0 && r.height > 0 && cs.display !== "none" && cs.visibility !== "hidden" && o >= 0.05) blocks.push({ l: r.left - cv.left, r: r.right - cv.left, t: r.top - cv.top, b: r.bottom - cv.top, el, o, cv });
     }
     return { blocks, l: this._paneLayout().left, r: this.W, b: this.H, v: blocks.map((b) => [b.l, b.t, b.r, b.b].map(Math.round)).join(";") };
+  }
+  // DOES CONTROL `q` HIDE THE ORB whose silhouette box is `o` (canvas px, already wholly inside `q`)? Only where it PAINTS
+  // over it (v1.279.0, NEXT1 part 2; the reader's last check of #410: a box alone hid orbs the player sees, 17 names lost at
+  // 1440 Standing over 45 cameras): the control or a descendant whose box holds `o` whole and paints it out, by a background
+  // colour at alpha x opacity (the control's own, inline first as `_nameBlocks` reads it, times each one down) of 0.5 or
+  // more, a background image or gradient, a backdrop filter, or as an image, video or canvas. Text, borders and line icons
+  // do not hide an orb: the top bar's buttons, the reader's table of contents, the row's strip above its cards and the
+  // landing's nav are see-through; the cards, the article's sections, the hand's close (alpha 0.72) and the drawer are
+  // not. Derived from the DOM, as the boxes are; the walk goes down only through boxes that hold `o` (paint that covers it
+  // must), so it reads a few elements per orb, and only for an orb a control's box holds whole. A name is still never
+  // written UNDER any control (`_planNames` clears every box).
+  _hides(q, o) {
+    const walk = (d, op) => {
+      const r = d.getBoundingClientRect(), x = r.left - q.cv.left, y = r.top - q.cv.top;
+      if (!(x <= o.l && x + r.width >= o.r && y <= o.t && y + r.height >= o.b)) return false;
+      const s = getComputedStyle(d), c = s.backgroundColor.match(/[\d.]+/g) || [];
+      op *= d === q.el ? q.o : +s.opacity;
+      if (s.display === "none" || op < 0.05) return false;
+      if (s.visibility !== "hidden" && ((c.length > 3 ? +c[3] : c.length ? 1 : 0) * op >= 0.5 || s.backgroundImage !== "none" || (s.backdropFilter || "none") !== "none" || /^(IMG|VIDEO|CANVAS)$/.test(d.tagName))) return true;
+      for (const e of d.children) if (walk(e, op)) return true;
+      return false;
+    };
+    return walk(q.el, 1);
   }
 
   shapePath(ctx, ty, x, y, r) {
@@ -22025,10 +22049,13 @@ class Component extends DCLogic {
       const cand = (n, sx, sy, extra) => ({ i: n.idx, n, sx, sy, hw: halfW(n), r: this._nodeHalfW(n, scale, nodeK, kLOD, true), s: this.graphName(n), ...extra });
       // a name only for an orb whose own silhouette is on the canvas (R1 finding 5: a far-side place could name an orb
       // drawn wholly off the screen, at the edge, where it reads as the name of whatever orb is nearest), and neither wholly
-      // left of the map's free edge nor wholly inside one control (R2 D4: an open desktop drawer, the row): the same boxes
-      // the names clear (`NB`), no second measure
-      const on = (c) => c.sx + c.r > NB.l && c.sx - c.r < W && c.sy + c.r > 0 && c.sy - c.r < H
-        && !NB.blocks.some((q) => c.sx - c.r >= q.l && c.sx + c.r <= q.r && c.sy - c.r >= q.t && c.sy + c.r <= q.b);
+      // left of the map's free edge nor wholly under one control's PAINT (R2 D4: an open desktop drawer, the row's cards;
+      // v1.279.0: a box alone, see-through, hides nothing, `_hides`)
+      // (the part of it ON the canvas: an orb hanging off the edge is hidden when what shows of it is under paint)
+      const on = (c) => {
+        const o = { l: Math.max(0, c.sx - c.r), r: Math.min(W, c.sx + c.r), t: Math.max(0, c.sy - c.r), b: Math.min(H, c.sy + c.r) };
+        return c.sx + c.r > NB.l && o.l < o.r && o.t < o.b && !NB.blocks.some((q) => o.l >= q.l && o.r <= q.r && o.t >= q.t && o.b <= q.b && this._hides(q, o));
+      };
       // the node the pointer's label names (or its pair partner, which carries the same name) is named once (R2 D3: a lit
       // node under the pointer was written by the pointer's label and again by the lit pass; dealt moves are skipped alike)
       const hovd = (n) => _hovNode && (n.idx === _hovNode.idx || n.pi === _hovNode.idx) && claims.some((q) => q.w === "hover");
