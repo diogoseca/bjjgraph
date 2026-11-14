@@ -18322,7 +18322,7 @@ caught: part A's reversed shapes, non-zero, for overlaps (wrong: the winding is 
 stroked over a full gold fill, both at the fade's alpha (at rs 2.8 the gold showed through the band, 160,137,117 on a
 103,92,103 orb: map-gold.spec.ts); and the outside stroked on the edge under a clip per overlapping shape (a clip over the
 whole view each: +0.4 / +0.5 ms on a held frame at 390, every dealt orb marked, against the dot's +0.1). Where two
-inside-marked orbs overlap, the later one's band and gold lie over the neighbour's part (the pictures, overlap4x-*). At
+inside-marked orbs overlap, the later one's band and gold lie over the neighbour's part (the owner's pictures). At
 mitosis the partner half is drawn at alpha kLOD and the marks' gate is 0.55: below kLOD 0.55 only the rep half wears
 marks. The names' keep-clear around every dealt orb is the silhouette plus the line (1 px), not the dot's reach.
 

@@ -39,7 +39,7 @@ import { journey } from "../dsl"
  *                                                            103,92,103 orb)
  *   G11 the outside line centred on the edge (half on the   red at the same assertion (3/4 px inside the edge)
  *       orb), not outset
- * NOT COVERED here: overlapping marked orbs (the pictures show them, outline-built/overlap4x-*); the seat's outside line
+ * NOT COVERED here: overlapping marked orbs (the owner's pictures show them, tests/artifacts/_outline_shoot.mjs --overlap); the seat's outside line
  * on its focus mark; the colour of a real orb at a size the camera search did not reach.
  */
 
