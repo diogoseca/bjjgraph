@@ -17567,3 +17567,7 @@ reader's own children, so a control nested elsewhere is unseen (the spec's and t
   `neural_level_reached` can therefore under-count. The beat's `from` is the tab's own level in memory, and two promotions held back before one pull collapse into the last.
 - **The fire cannot fail a pull:** it runs guarded in `_pullAndMerge` (one line). A level sound that throws, the day one is added, can no longer mark a merged pull failed or skip its guest join.
 - **Three tests and one guard:** local-only fires at once; unreadable storage fires; a beat that throws leaves the pull merged and the join run (mutants BELT-M22 to M24; 24 in all). The flip journey's guard now requires a real no-gi number.
+
+## v1.276.1 — Both payload baselines are checkpointed at dev v1.276.0's own level (PAY3, 2026-11-14)
+
+Each cap was reading dev's drift since v1.273.0 (PR #410 and #412): eager +4,706 B of 5,000, first-hand core +4,731 B of 6,000; PR #409 would have gone red on it. The orchestrator's call under the owner's Q7 rule (D-327), as PAY2. Dev's bytes, proved: a clean export of 065c4d77c built by its own `regenerate:neural`; 14 app rows sha-equal to dev's fingerprint; all 5,056 `static/neural` files identical to the tree served, swapped in under the lock and restored. Eager 361,887 B and core 381,295 B, equal to CI's build of the same tree. Accepted by the script before the bump (stamped `v1.276.0 (065c4d77c)`); only the baseline fields move, no target, action line or cap. After it both gates read +0. The full record is in the policy's `baseline_reason`.
