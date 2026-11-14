@@ -54,12 +54,26 @@ import { journey } from "../dsl"
  *   M26 a refused name's wait cleared when its orb         red at "the drag: a name the layout refused comes back only at rest"
  *       leaves the canvas (R2 D2)
  *   M27 a lit node under the pointer named again (R2 D3)   red at "the located node under the mouse is inked once"
- *   M28 an orb wholly under a control or the open drawer   red at "no name for an orb wholly under the drawer, while dragging
- *       a candidate again (`on(c)` as in R1; R2 D4)        under it" and the main drag's "...or wholly under a control"
+ *   M28 an orb wholly under a control or the open drawer   red at "no name for an orb under the drawer's paint, while dragging
+ *       a candidate again (`on(c)` as in R1; R2 D4)        under it" and the main drag's "...or under paint that hides it"
  *                                                          (an orb slid under the row); the drawer test's audits at rest
  *                                                          pass under it (no fresh-booted camera leaves an orb under the
  *                                                          drawer: the drag in that test is what reaches the case)
- * NON-KILLS, so nobody reads them as covered: M4b, the pointer's PAIR GROUP alone dropped, is the designed fallback (the
+ *   CACHE414 (13-14 Nov, the whole file each, on the built bundle; `_hides`' store and the paint rule):
+ *   C1  no cache (the store remade on every ask)           red at "a held camera: zero _hides box or style reads after its
+ *                                                          first frame"
+ *   C2  the row's scroll out of the store's key            red at "scrolled to the gap: within two frames the planner is
+ *                                                          offered exactly the dealt orbs the browser shows"
+ *   C3  no expiry (the store's and the answer's)           red at "an answer older than half a second (frame clock) is
+ *                                                          asked again"
+ *   C4  the paint threshold 0.72                           red at "a control painted rgba(30, 32, 52, 0.6) over ...: the orb
+ *                                                          is hidden (not offered)"
+ *   C5  the paint threshold 0.3                            red at "...rgba(30, 32, 52, 0.4) ...: the orb is shown (offered)"
+ *   C6  the old colour parse (any colour's fourth number)  red at "...color(display-p3 0.12 0.13 0.2) ...: the orb is hidden"
+ *   N4  every control's box treated as opaque              red at "...: the planner is offered exactly the dealt orbs the
+ *   N5  every control's box treated as transparent         browser shows" (6 and 7 tests)
+ * NON-KILLS, so nobody reads them as covered: C1b, the ANSWERS not kept while the store's element memo still is, reads
+ * nothing and only costs time (no spec times a frame; tests/artifacts' frame-time script does); M4b, the pointer's PAIR GROUP alone dropped, is the designed fallback (the
  * single label names the orb instead); M8b, a written name needing 6 px like a new one, changes nothing these recordings
  * see (the camera rule and the reused plan hold the names; the stay margin only decides a name between 3 and 6 px of a
  * neighbour at rest); M13, the rest flag dropped from the plan's key, is EQUIVALENT under the pan rule (ii): a moving frame
@@ -134,12 +148,13 @@ async function pullBack(page: Page, f: number, cam0: { cx: number; cy: number; v
 const unusedRoom = (page: Page) => page.evaluate(() => {
   const a = (window as W).__neural, proto = Object.getPrototypeOf(a)
   let s: W = null
+  const was = Object.prototype.hasOwnProperty.call(a, "_planNames") ? a._planNames : null   // a watcher (`watchCands`) stays
   a._planNames = function (pass: string, ctx: W, cands: W[], claims: W[], orbs: W[], sig: string, admit: boolean, A: W) {
-    const plan = proto._planNames.call(this, pass, ctx, cands, claims, orbs, sig, admit, A)
+    const plan = (was || proto._planNames).call(this, pass, ctx, cands, claims, orbs, sig, admit, A)
     if (pass === "move") s = { ctx, cands, claims: claims.slice(), orbs, A, admit, plan }
     return plan
   }
-  try { a.advance(17) } finally { delete a._planNames }
+  try { a.advance(17) } finally { if (was) a._planNames = was; else delete a._planNames }
   if (!s) return { admit: null, written: 0, refused: 0, missed: [] as string[] }
   const missed: string[] = []
   let k = 0
@@ -168,7 +183,7 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
     clips.set(el, c); return c
   }
   const eff = (el: Element) => { let o = 1; for (let q: Element | null = el; q && q !== document.documentElement; q = q.parentElement) { const cs = getComputedStyle(q); if (cs.display === "none" || cs.visibility === "hidden") return 0; o *= +cs.opacity } return o }
-  const painted: W[] = []
+  const painted: W[] = [], covers: W[] = []
   const put = (r: DOMRect, el: Element, what: string) => {
     const c = clipOf(el), l = Math.max(r.left, c.l) - cr.left, t = Math.max(r.top, c.t) - cr.top, rr = Math.min(r.right, c.r) - cr.left, b = Math.min(r.bottom, c.b) - cr.top
     if (rr - l >= 2 && b - t >= 2) painted.push({ l, t, r: rr, b, what, star: !!el.closest("[data-seat-star]") })
@@ -190,6 +205,14 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
     const bd = parseFloat(cs.borderTopWidth) + parseFloat(cs.borderLeftWidth) > 0 && !/rgba\([^)]*,\s*0\)$/.test(cs.borderTopColor)
     const media = /^(IMG|svg|VIDEO|CANVAS|INPUT|SELECT|TEXTAREA)$/i.test(el.tagName) || cs.backgroundImage !== "none"
     if ((bg || bd || media) && eff(el) >= 0.05) put(r, el, el.tagName + "." + String(el.className).split(" ")[0])
+    // PAINT THAT HIDES AN ORB (v1.278.1): a background colour at alpha x effective opacity of 0.5 or more, a background
+    // image or gradient, a backdrop filter, an image, video or canvas; never text, a border or a line icon (svg)
+    // a colour's alpha after its slash (`color(display-p3 r g b / a)`), else rgba's fourth argument, else opaque (CACHE414)
+    const bgc = cs.backgroundColor, j = bgc.lastIndexOf("/"), e = eff(el)
+    const al = j > 0 ? parseFloat(bgc.slice(j + 1)) / (bgc.endsWith("%)") ? 100 : 1) : /^rgba\(/.test(bgc) ? parseFloat(bgc.split(",")[3]) : bgc === "transparent" ? 0 : 1
+    if ((al * e >= 0.5 || (e >= 0.05 && (cs.backgroundImage !== "none" || (cs.backdropFilter || "none") !== "none" || /^(IMG|VIDEO|CANVAS)$/.test(el.tagName))))) {
+      const c = clipOf(el); covers.push({ l: Math.max(r.left, c.l) - cr.left, t: Math.max(r.top, c.t) - cr.top, r: Math.min(r.right, c.r) - cr.left, b: Math.min(r.bottom, c.b) - cr.top, what: el.tagName + "." + String(el.className).split(" ")[0] })
+    }
   }
   const hit = (p: W, q: W, m = 0) => p.l < q.r + m && p.r > q.l - m && p.t < q.b + m && p.b > q.t - m
   const close: string[] = [], outside: string[] = [], under: string[] = []
@@ -214,8 +237,9 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
     const node = a.nodes[b.i], x = (node.x - a.cam.cx) * s + W_ / 2, y = (a._LY(node) - a.cam.cy) * s + H_ / 2, R = a._nodeHalfW(node, s, a._nodeK, a._lodK, true)
     // R1 finding 5: a name only for an orb whose own silhouette is on the canvas
     if (x + R < 0 || x - R > W_ || y + R < 0 || y - R > H_) offOrb.push(name(b) + ` (orb at ${x.toFixed(0)}, ${y.toFixed(0)})`)
-    // R2 D4: ...nor for an orb whose silhouette lies wholly under one painted control (an open drawer, a card): no visible orb
-    const over = painted.find((p) => !p.star && p.l <= x - R && p.r >= x + R && p.t <= y - R && p.b >= y + R)
+    // R2 D4: ...nor for an orb whose silhouette lies wholly under paint that hides it (an open drawer, a card; v1.278.1: a
+    // see-through box, text or a line icon hides nothing): no visible orb
+    const over = covers.find((p) => p.l <= Math.max(0, x - R) && p.r >= Math.min(W_, x + R) && p.t <= Math.max(0, y - R) && p.b >= Math.min(H_, y + R))
     if (over) hidOrb.push(name(b) + ` (orb at ${x.toFixed(0)}, ${y.toFixed(0)} under ${over.what})`)
     // R1 finding 6: the name is INKED where it is published (the browser's own box for that fillText, within half a pixel)
     const s2 = a.graphName(node)
@@ -231,8 +255,25 @@ const audit = (page: Page) => page.evaluate((NO_GAP) => {
     // a name belongs to ONE orb: its orb stands clear of every other dealt orb (3 px for a name kept, 6 for a new one)
     if (b.w === "move") { gaps.push(gap); if (gap < 3 - 0.01) crowded.push(name(b) + ` (${gap.toFixed(1)} px)`) }
   }
-  const hidden = orbs.filter((o: W) => painted.some((p) => !p.star && p.l <= o.x - o.R && p.r >= o.x + o.R && p.t <= o.y - o.R && p.b >= o.y + o.R)).length
-  return { close, outside, under, crossing, offOrb, hidOrb, hidden, inkOff, crowded, gaps, inked: ink.length, moves: labels.filter((b: W) => b.w === "move").length, position: labels.filter((b: W) => b.w === "position").length, W: W_, H: H_ }
+  // hidden: what shows of the orb (its silhouette box cut to the canvas) lies wholly under one box of paint that hides it
+  const hid = (o: W) => covers.some((p) => p.l <= Math.max(0, o.x - o.R) && p.r >= Math.min(W_, o.x + o.R) && p.t <= Math.max(0, o.y - o.R) && p.b >= Math.min(H_, o.y + o.R))
+  const hidden = orbs.filter(hid).length, hiddenIdx = orbs.filter(hid).map((o: W) => o.i)
+  // THE PLANNER IS OFFERED EXACTLY THE DEALT ORBS THE BROWSER SHOWS (v1.278.1, NEXT1 part 2; set equality, §6.3): on the
+  // canvas and under no paint that hides it, against the moves the frame handed `_planNames` (`watchCands`), each way
+  const cands = a.__mnCands as number[] | undefined   // `watchCands` records on the app instance
+  let seen: string[] | null = null, thru = 0
+  if (cands) {
+    seen = []
+    // ...and how many of the orbs shown sit wholly inside a control's box (`_nameBlocks`, read only to count): the
+    // see-through cases, which a box alone used to hide (so the claim above had them to judge)
+    const B = a._nameBlocks().blocks
+    thru = orbs.filter((o: W) => (a.optionIdxs || []).includes(o.i) && !hid(o) && B.some((q: W) => q.l <= Math.max(0, o.x - o.R) && q.r >= Math.min(W_, o.x + o.R) && q.t <= Math.max(0, o.y - o.R) && q.b >= Math.min(H_, o.y + o.R))).length
+    for (const o of orbs.filter((o: W) => (a.optionIdxs || []).includes(o.i))) {
+      const shown = o.x + o.R > 0 && o.x - o.R < W_ && o.y + o.R > 0 && o.y - o.R < H_ && !hid(o)
+      if (shown !== cands.includes(o.i)) seen.push(`${a.graphName(a.nodes[o.i])} (${o.x.toFixed(0)}, ${o.y.toFixed(0)}): ${shown ? "shown, not offered" : "hidden, offered"}`)
+    }
+  }
+  return { close, outside, under, crossing, offOrb, hidOrb, hidden, hiddenIdx, seen, thru, inkOff, crowded, gaps, inked: ink.length, moves: labels.filter((b: W) => b.w === "move").length, position: labels.filter((b: W) => b.w === "position").length, W: W_, H: H_ }
 }, NO_GAP)
 
 const VPS = [{ width: 390, height: 631, touch: true }, { width: 1440, height: 900, touch: false }]
@@ -246,7 +287,8 @@ function checkFrame(r: W, where: string) {
   expect(r.under, `${where}: no name under a control`).toEqual([])
   expect(r.crossing, `${where}: no move's name across another dealt orb`).toEqual([])
   expect(r.offOrb, `${where}: no name for an orb drawn off the canvas`).toEqual([])
-  expect(r.hidOrb, `${where}: no name for an orb wholly under a control`).toEqual([])
+  expect(r.hidOrb, `${where}: no name for an orb under paint that hides it`).toEqual([])
+  if (r.seen) expect(r.seen, `${where}: the planner is offered exactly the dealt orbs the browser shows`).toEqual([])
   expect(r.inkOff, `${where}: every name is inked where it is published`).toEqual([])
   expect(r.crowded, `${where}: every named orb stands clear of every other dealt orb`).toEqual([])
 }
@@ -302,9 +344,10 @@ for (const vp of VPS) {
 
     test(`no two names closer than ${NO_GAP} px, none off the map, none under a control, and at rest no free place left unused: usual zoom and pulled back 2, 4, 9 times (${vp.width})`, async ({ page }) => {
       test.setTimeout(240_000)
-      let written = 0, refused = 0
+      let written = 0, refused = 0, thru = 0, compared = 0
       for (const [title, role] of SEATS) {
         await seat(page, title, role)
+        await watchCands(page)
         const cam0 = await camOf(page)
         for (const f of [1, 2, 4, 9]) {
           const where = `${title} (${role}) x${f}`
@@ -314,7 +357,7 @@ for (const vp of VPS) {
           await journey(page).advance(17)
           const r = await audit(page)
           checkFrame(r, `${where}, at rest`)
-          written += r.moves
+          written += r.moves; thru += r.thru; compared += r.seen ? 1 : 0
           // names the jump dropped wait half a second before they may come back (no blink), so "every orb with a free place
           // is named" is asked once that half second has passed, the camera still at rest
           await journey(page).advance(520)
@@ -332,6 +375,9 @@ for (const vp of VPS) {
       // NON-TRIVIAL: "zero overlaps" is never bought by writing nothing (the floor counts frames AT REST)
       expect(written, `moves are still named at rest: at least ${vp.width < 700 ? 40 : 75} names over the twelve frames`).toBeGreaterThanOrEqual(vp.width < 700 ? 40 : 75)
       expect(refused, "...and some were refused, so the free-place check above had moves to ask about").toBeGreaterThan(0)
+      console.log(`[map-names] ${vp.width}: ${thru} orbs shown inside a see-through control's box over ${compared} frames compared`)
+      expect(compared, "every frame at rest compared the planner's moves with what the browser shows").toBe(12)
+      if (vp.width > 700) expect(thru, "orbs inside a see-through control's box (the table of contents, the row's top strip) were in the frames compared").toBeGreaterThan(0)
     })
 
     test(`a move's name sits beside its own orb, where the frame drew it (${vp.width})`, async ({ page }) => {
@@ -565,13 +611,14 @@ test.describe("a card turned up by touch names its orb (390x631)", () => {
 test.describe("the drawer open on a desktop (1440x900)", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
 
-  test("no name for an orb under the open drawer or wholly under a control, and the map beside it still named (R2 D4)", async ({ page }) => {
+  test("no name for an orb under the open drawer or under paint that hides it, and the map beside it still named (R2 D4)", async ({ page }) => {
     test.setTimeout(240_000)
     let written = 0, last: W = null
     // Ushiro Ashi-Garami top first: the seat where the survey found it, three names beside orbs under the open drawer (an orb
     // at x 328 to 351, the drawer's edge near 360; head 130b654f5, the usual zoom and pulled back 2 times)
     for (const [title, role] of ([["Ushiro Ashi-Garami Top", "top"]] as Array<[string, "top" | "bottom"]>).concat(SEATS)) {
       const j = await seat(page, title, role)
+      await watchCands(page)
       await j.clickByMouse(".ng-logo", "open the drawer")
       await j.advance(600)
       expect(await page.evaluate(() => !!(window as W).__neural.deckShown), `${title}: the drawer is open`).toBe(true)
@@ -605,7 +652,110 @@ test.describe("the drawer open on a desktop (1440x900)", () => {
     }
     await page.mouse.up()
     expect(slid, "dealt orbs slid wholly under the drawer during the drag").toBeGreaterThan(0)
-    expect(hid, "no name for an orb wholly under the drawer, while dragging under it").toEqual([])
+    expect(hid, "no name for an orb under the drawer's paint, while dragging under it").toEqual([])
+  })
+})
+
+test.describe("the cache of what hides an orb (CACHE414, 1440x900)", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+
+  test("a held camera reads no box and no style in _hides after its first frame; an answer older than half a second is asked again", async ({ page }) => {
+    test.setTimeout(240_000)
+    await seat(page, "Standing Position Top", "top")
+    const r = await page.evaluate(() => {
+      const a = (window as W).__neural, proto = Object.getPrototypeOf(a)
+      let inH = false, n = 0, calls = 0
+      const gb = Element.prototype.getBoundingClientRect, gs = window.getComputedStyle
+      Element.prototype.getBoundingClientRect = function (this: Element) { if (inH) n++; return gb.call(this) }
+      ;(window as W).getComputedStyle = function (...x: W[]) { if (inH) n++; return (gs as W).apply(this, x) }
+      a._hides = function (...x: W[]) { calls++; inH = true; try { return proto._hides.apply(this, x) } finally { inH = false } }
+      const frames: W[] = []
+      let late: W = null
+      try {
+        a._hidC = null   // a cold store: the first frame asks
+        for (let k = 0; k < 24; k++) { n = 0; calls = 0; const t = a.now; a.advance(17); frames.push({ n, calls, dt: a.now - t }) }   // 24 x 17 ms: 0.41 s
+        n = 0; calls = 0; a.advance(120); late = { n, calls }   // past half a second after the first frame's answers
+      } finally { Element.prototype.getBoundingClientRect = gb; (window as W).getComputedStyle = gs; delete a._hides }
+      return { frames, late }
+    })
+    console.log(`[map-names] cache: first frame ${r.frames[0].calls} asks, ${r.frames[0].n} reads; then ${JSON.stringify(r.frames.slice(1).map((f: W) => f.n))}; half a second on ${r.late.n} reads`)
+    expect(r.frames[0].calls > 0 && r.frames[0].n > 0, "the first frame asks the controls, with reads (an orb lies inside a control's box)").toBe(true)
+    expect(r.frames.slice(1).map((f: W) => f.n), "a held camera: zero _hides box or style reads after its first frame").toEqual(Array(23).fill(0))
+    expect(r.frames.slice(1).every((f: W) => f.calls > 0), "...while it is still asked every frame (the answers come from the store)").toBe(true)
+    expect(r.late.n, "an answer older than half a second (frame clock) is asked again").toBeGreaterThan(0)
+  })
+
+  test("paint at alpha 0.6 hides an orb, at 0.4 it does not, and an opaque display-p3 colour hides it (the threshold and the colour parse)", async ({ page }) => {
+    test.setTimeout(240_000)
+    await seat(page, "Standing Position Top", "top")
+    await watchCands(page)
+    await journey(page).advance(34)
+    // a dealt orb in the free map, offered, inside no control's box
+    const o = await page.evaluate(() => {
+      const a = (window as W).__neural, s = a.W / a.cam.vw, B = a._nameBlocks().blocks, rowTop = a.optionsRef.current.getBoundingClientRect().top
+      for (const i of a.__mnCands as number[]) {
+        const n = a.nodes[i], x = (n.x - a.cam.cx) * s + a.W / 2, y = (a._LY(n) - a.cam.cy) * s + a.H / 2, R = a._nodeHalfW(n, s, a._nodeK, a._lodK, true)
+        if (x < 300 || x > a.W - 120 || y < 100 || y > rowTop - 80) continue
+        if (B.some((q: W) => q.r > x - R - 8 && q.l < x + R + 8 && q.b > y - R - 8 && q.t < y + R + 8)) continue
+        return { idx: i, x, y, R, name: a.graphName(n) }
+      }
+      return null
+    })
+    expect(o, "a dealt orb in the free map, offered").not.toBeNull()
+    for (const [bg, hides] of [["rgba(30, 32, 52, 0.6)", true], ["rgba(30, 32, 52, 0.4)", false], ["color(display-p3 0.12 0.13 0.2)", true]] as Array<[string, boolean]>) {
+      const read = await page.evaluate(([o, bg]: W) => {
+        const a = (window as W).__neural, wrap = a.wrapRef.current, wr = wrap.getBoundingClientRect(), cv = a.canvas.getBoundingClientRect()
+        const d = document.createElement("div"); d.setAttribute("data-mn-fixture", "")
+        Object.assign(d.style, { position: "absolute", left: cv.left - wr.left + o.x - o.R - 6 + "px", top: cv.top - wr.top + o.y - o.R - 6 + "px", width: 2 * o.R + 12 + "px", height: 2 * o.R + 12 + "px", background: bg, pointerEvents: "none", zIndex: "3" })
+        wrap.appendChild(d)
+        return getComputedStyle(d).backgroundColor
+      }, [o, bg])
+      await journey(page).advance(17); await journey(page).advance(17)
+      const offered = await page.evaluate((i) => ((window as W).__neural.__mnCands as number[]).includes(i), o!.idx)
+      const r = await audit(page)
+      await page.evaluate(() => document.querySelectorAll("[data-mn-fixture]").forEach((e) => e.remove()))
+      await journey(page).advance(17)
+      console.log(`[map-names] fixture ${bg} (computed ${read}) over ${o!.name}: offered ${offered}`)
+      expect(offered, `a control painted ${bg} over ${o!.name}: the orb is ${hides ? "hidden (not offered)" : "shown (offered)"}`).toBe(!hides)
+      expect(r.seen, `${bg}: the planner is offered exactly the dealt orbs the browser shows`).toEqual([])
+    }
+  })
+})
+
+test.describe("the cache follows the row's scroll (CACHE414, 390x631)", () => {
+  test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true })
+
+  test("scrolling the row: within two frames the planner is offered exactly the dealt orbs the browser shows", async ({ page }) => {
+    test.setTimeout(240_000)
+    await seat(page, "Standing Position Top", "top")
+    await watchCands(page)
+    await journey(page).advance(34)
+    // THE CASE, PUT IN PLACE: a dealt orb under the middle of a card of the row (the camera held there), then the row
+    // scrolled so the gap between that card and the next comes under the orb, and back. Each time the answer kept for that
+    // orb must go with the scroll within two frames (not wait for its half second).
+    const set = await page.evaluate(() => {
+      const a = (window as W).__neural, row = a.optionsRef.current, rr = row.getBoundingClientRect(), cv = a.canvas.getBoundingClientRect()
+      const cards = (a._optionCards || []).map((c: W) => c.card.getBoundingClientRect()).filter((r: W) => r.left >= rr.left && r.right <= rr.right).sort((p: W, q: W) => p.left - q.left)
+      if (cards.length < 2) return null
+      const A = cards[0], B = cards[1], i = a.optionIdxs[0], n = a.nodes[i], s = a.W / a.cam.vw
+      const x = (A.left + A.right) / 2 - cv.left, y = (A.top + A.bottom) / 2 - cv.top
+      a.cam.cx = n.x - (x - a.W / 2) / s; a.cam.cy = a._LY(n) - (y - a.H / 2) / s; a.cam.lvw = Math.log(a.cam.vw)
+      Object.assign(a.camTarget, { cx: a.cam.cx, cy: a.cam.cy, vw: a.cam.vw }); a.holdCamera()
+      return { i, gap: (A.right + B.left) / 2 - cv.left, x, name: a.graphName(n) }
+    })
+    expect(set, "two cards of the row on screen").not.toBeNull()
+    await journey(page).advance(17); await journey(page).advance(17)
+    const step = async (where: string, scroll: number, hidden: boolean) => {
+      const moved = await page.evaluate((d) => { const el = (window as W).__neural.optionsRef.current, x = el.scrollLeft; el.scrollTo({ left: x + d, behavior: "instant" }); return el.scrollLeft - x }, scroll)
+      await journey(page).advance(17); await journey(page).advance(17)   // two frames, 34 ms: well inside an answer's half second
+      const r = await audit(page), offered = await page.evaluate((i) => ((window as W).__neural.__mnCands as number[]).includes(i), set!.i)
+      console.log(`[map-names] row scroll ${where}: moved ${moved} px; ${set!.name} hidden ${r.hiddenIdx.includes(set!.i)}, offered ${offered}`)
+      expect(r.hiddenIdx.includes(set!.i), `${where}: ${set!.name} is ${hidden ? "under the card" : "in the gap between two cards"} (the browser's paint)`).toBe(hidden)
+      expect(r.seen, `${where}: within two frames the planner is offered exactly the dealt orbs the browser shows`).toEqual([])
+    }
+    await step("before", 0, true)
+    await step("scrolled to the gap", Math.round(set!.gap - set!.x), false)   // scrollLeft up: the row moves left, the gap comes under the orb
+    await step("scrolled back", Math.round(set!.x - set!.gap), true)
   })
 })
 
@@ -640,7 +790,7 @@ test.describe("a drag (1440x900)", () => {
     // NON-TRIVIAL: both halves of the rule had subjects in this recording
     expect(n.refused, "the layout refused names while the camera moved (the rule above had names to judge)").toBeGreaterThan(0)
     expect(n.followedBackMoving, "a name whose orb left the canvas came back with it while the camera still moved").toBeGreaterThan(0)
-    expect(off, "no name for an orb drawn off the canvas or wholly under a control, while dragging").toEqual([])
+    expect(off, "no name for an orb drawn off the canvas or under paint that hides it, while dragging").toEqual([])
     expect(rest.still, "released, the camera rests").toBe(true)
   })
 })

@@ -17366,13 +17366,19 @@ on its shoulders (every orb, known or not: a grade never moves a name). A new na
 of every other dealt orb (designer's rule 5: a name belongs to one orb); a written one keeps its place down to 3 px.
 
 **Stability.** Margin hysteresis alone did not hold: recorded over the follow camera's ease from 4 times out, names were
-re-dealt every frame and one left and came back within 3 frames on another side. So the decision is per camera state:
-while the zoom moves (over 0.2% a frame) names only leave, when they no longer fit, and nothing comes in but what is acted
-on; the rest are dealt when it rests. A frame whose inputs are unchanged (the camera to half a pixel and a thousandth of
-zoom, the hand, the cards, the pointer, the controls to the pixel, the names before it) reuses the last plan.
+re-dealt every frame and one left and came back within 3 frames on another side. So the decision is per camera state,
+per second of the frame clock (as merged, R1 and R2 below): while the camera moves (the zoom faster than 0.12 a second or
+a pan faster than 30 px a second) a written name keeps its place or leaves and never changes side; a name the layout
+refused comes back only at rest, and no sooner than half a second after it left; a name whose orb left the canvas follows
+the orb back; an orb sliding into view may be named. (The first cut, overtaken in R1: names only left while the ZOOM moved
+over 0.2% a frame, and nothing came in but what was acted on.) A frame whose inputs are unchanged (the camera to half a
+pixel and a thousandth of zoom, the hand, the cards, the pointer, the controls to the pixel, the names before it, the
+half-second waits still running) reuses the last plan.
 
-**After (same instrument).** 0 overlapping pairs, 0 cut names, 0 names under a control in all 24 rows (960 frames). Move names written:
-phone 186 / 247 / 272 / 305 -> 101 / 106 / 99 / 59; 1440 149 / 211 / 251 / 302 -> 119 / 167 / 188 / 160 (drawer shut). The
+**After (same instrument).** 0 overlapping pairs, 0 cut names, 0 names under a control in all 24 rows (960 frames). Move
+names written, as merged (R2), counted half a second after the camera rests: phone 186 / 247 / 272 / 305 -> 106 / 98 / 86 /
+51 at x1 / x2 / x4 / x9; 1440 149 / 211 / 251 / 302 -> 114 / 164 / 188 / 144 (drawer shut). (The first cut counted the
+frame after the wheel, a moving one: 101 / 106 / 99 / 59 and 119 / 167 / 188 / 160; see R1.) The
 position's own name still crosses a dealt orb in 7 to 16 frames per row: it never moves (unchanged by this change). The
 dots are not measured by the survey (a guest knows no move); known-move-seal.spec.ts is their gate.
 
@@ -17381,23 +17387,26 @@ card (named on the map before any other move), tap a face-down card (named), tap
 row (every card carries its name). A lit node (R1): one the player was sent to or shown is named as acted on; a trail of
 many lit at once is best effort. The phone's drawer open: nothing is written under it (it takes the screen).
 
-**Proof.** e2e/journeys/map-names.spec.ts (10 tests, 390x631 touch and 1440x900): no two names within 3 px, none off the
-map, none under a painted control, at three seats and four zooms, with a floor on names written; each move's name beside its
-own orb as drawn (`_LY`, `_nodeHalfW` with the published `_nodeK`); claims in the row's order; an ease recorded frame by frame
-(nothing comes in while the zoom moves, nothing returns within half a second, names dealt again at rest) and 60 held frames
-on one plan; the orb under the mouse and the card under the mouse named, nothing named under the card; a tapped face-down card
+**Proof.** e2e/journeys/map-names.spec.ts (18 tests as merged, 10 in the first cut; 390x631 touch and 1440x900): no two
+names within 3 px, none off the map, none under a painted control, at three seats and four zooms, with a floor on names
+written (R1 and R2 add the frames audited and the claims; below); each move's name beside its own orb as drawn (`_LY`,
+`_nodeHalfW` with the published `_nodeK`); claims in the row's order; an ease recorded frame by frame (as merged: at 120, 60
+and 30 Hz steps, a written name keeps its place while the camera moves, a name the layout refused is back only at rest and
+no sooner than half a second after it left, names dealt again at rest) and 60 held frames on one plan; the orb under the mouse and the card under the mouse named, nothing named under the card; a tapped face-down card
 named; the drawer open names nothing. Mutants, each red at a named assertion: the test removed, the order of claim
 reversed, the edge check removed, the pointer's single label dropped and both its labels dropped, `n.y` for `LY(n)`, widths
 from `n.r * scale`, what is acted on not first, incumbency removed, the controls ignored, no plan reused, names under the
-phone's drawer, other orbs ignored. Two named non-kills (the spec's header): the pointer's pair group alone dropped (the
-single label takes over, by design) and the 3 px stay margin made 6 (the camera-state rule holds the names in an ease).
+phone's drawer, other orbs ignored (38 runs as merged, with R1's and R2's below). Three named non-kills as merged (the
+spec's header): the pointer's pair group alone dropped (the single label takes over, by design), the 3 px stay margin made 6
+(the camera-state rule holds the names in an ease), and, since R1, the rest flag dropped from the plan's key (equivalent
+under the pan rule).
 Two existing assertions met the change: dual-pair's hover test could pick a pair under the row's cards and point at it
 through a card; it now picks a pair the pointer reaches on the map (its assertions unchanged). Two unit harnesses stub the
 new DOM seam (`_nameBlocks`) as they stub `_syncSeatStars`. A first cut memoized the controls for 250 ms on the wall clock:
 known-move-seal's map test at 390, which draws one frame twice in one task, failed once (3,191 px) when the two draws saw
 different control sets; the controls are now measured per frame.
 
-**Cost.** `draw()` timed in the page at a 4x CPU throttle, Standing top (36 dealt moves), median / p95 ms, dev's bundle ->
+**Cost** (measured on the first cut; R1 and R2 changed when a plan is redone, not its work). `draw()` timed in the page at a 4x CPU throttle, Standing top (36 dealt moves), median / p95 ms, dev's bundle ->
 this one (tests/artifacts/_map_names_frametime.mjs; nine seats share the box, so +-1 ms is noise): phone (390, dpr 3) held
 5.3 / 14.5 -> 5.6 / 17.3, held 4 times out 8.5 / 26.1 -> 8.2 / 15.4, easing 4 times out to the usual zoom 8.4 / 21.4 -> 7.9 /
 14.0; 1440 held 4.6 / 13.0 -> 4.6 / 15.8, 4 times out 9.6 / 16.4 -> 9.0 / 14.6, easing 6.4 / 14.2 -> 7.2 / 12.1. The layout
@@ -17405,7 +17414,8 @@ alone, a forced re-plan against a reused plan on the same frame (final build, co
 +0.5 ms on the phone (usual / 4 times out), +0.3 / +0.4 ms at 1440. Widths are cached per string and dropped when a font
 lands; a held camera reuses its plan (asserted over 60 frames).
 
-**Bytes.** neural.js +5,006 raw, +2,193 gzip; the game bundles re-hashed at equal size. Eager gzip 358,039: +5,073 on
+**Bytes** (the first cut, against the baselines of that day; as merged, against dev v1.273.1's checkpoints: neural.js +5,556
+raw, eager gzip +2,431 of the 5,000 cap, first-hand core +2,478 of 6,000, R2's last line below). neural.js +5,006 raw, +2,193 gzip; the game bundles re-hashed at equal size. Eager gzip 358,039: +5,073 on
 its baseline 352,966 (v1.265.2), cap 5,000, of which dev's own drift is +2,880 (dev's bundle on the same tree, 355,846).
 First-hand core 377,478: +6,371 on 371,107 (v1.262.7), cap 6,000, of which dev's own is +4,156 (375,263, the same journey with
 dev's bundle swapped in). Each part is under its cap alone; together both caps are crossed (by 73 and 371 B). No baseline
@@ -17919,3 +17929,101 @@ Item b of STAGE3-R2 (the "Not covered" paragraph above: the floor's reload) was 
 - deferred raw: 521,639, its ceiling moved to exactly that in its own commit under U170 a (4232f45b9). The +1,140 since
   520,499 is `gameplan.js`, 19,946 → 21,086: ANKI1-R1's code, and `rating.src.js`, which `gameplan.js` bundles and #412
   grew. Dev's own use is 510,269.
+
+## v1.278.1 — A name for an orb the player sees under see-through chrome; the v1.275.0 entry's first-cut figures corrected (NEXT1, 2026-11-14)
+
+**The fault (the independent reader's last check of #410).** `on(c)` refused a name for any orb wholly inside ONE box of
+`_nameBlocks`, and some of those boxes paint nothing over the map: the strip of the row above its cards, the reader's table
+of contents, the top bar's search button. The player saw the orb and its name was never written: over 45 cameras the reader
+counted 17 names lost at 1440 Standing, 6 at 1440 Mount, 2 at each 390 seat. Fewer names, never a wrong one.
+
+**The rule (ruled).** A name is still never written UNDER a control (every box, as before). An orb is hidden only where a
+control PAINTS over what shows of it (`_hides`): the control or a descendant whose box holds the orb's silhouette box, cut
+to the canvas, whole, and paints it out by a background colour at alpha x opacity of 0.5 or more, a background image or
+gradient, a backdrop filter, or as an image, video or canvas. Text, borders and svg line icons do not hide an orb. Derived
+from the DOM as the boxes are, no list; the walk goes down only through boxes that hold the orb, so it reads a few elements
+per orb, and only for an orb a control's box holds whole. Measured first, at 390 and 1440 (Standing, Mount; drawer shut
+and open): the cards (rgb 28,32,52) and their media, the article's section cards, the hand's close (alpha 0.72), the
+legend's gradient bar and the open drawer (an opaque gradient, alpha 0.984, on `.ng-drill`) paint; the logo and search
+buttons, the table of contents, the row's own box and the landing's nav do not. The threshold 0.5 sits between the 0.72
+and the 0 measured. An orb hanging off the canvas's edge is hidden when what shows of it is under paint (the first build
+tested the whole silhouette and disagreed with the browser at the edges: two orbs below the fold under a section card, one
+above the open drawer's head).
+
+**Proof.** e2e/journeys/map-names.spec.ts: the audit reads, from the browser's own layout over the whole app root (each box
+cut by its clipping ancestors), the paint that hides an orb, and asserts the planner was offered EXACTLY the dealt orbs the
+browser shows, each way (set equality against the moves the frame handed `_planNames`): every frame at rest of the sweep
+(12 per viewport), and every audited frame of the drawer test and the drag; over the sweep 31 orbs at 390 and 42 at 1440
+sat wholly inside a see-through control's box, so the claim had its cases (asserted above zero at 1440). The "no name for
+an orb wholly under a control" check reads the same paint. Mutants, the whole map-names and known-move-seal files each:
+every box treated as opaque (`_hides` always true) red at "...the planner is offered exactly the dealt orbs the browser
+shows" (3 tests); every box treated as transparent red at the same (4 tests) and at the drag's "no name for an orb ...
+wholly under a control". The survey's `hidOrb` column reads the same paint (it read any painted box before).
+
+**Measured (tests/artifacts/_map_names_survey.mjs, 960 cases, settled).** Dev v1.276.0's own bundle (065c4d77c) -> this:
+move names 390x631 shut 106 / 98 / 86 / 51 -> 109 / 99 / 86 / 52 at x1 / x2 / x4 / x9 (390x844 the same but x9 51 -> 52);
+1440 shut 114 / 164 / 188 / 144 -> 118 / 166 / 187 / 145; 1440 drawer open 111 / 158 / 188 / 144 -> 113 / 159 / 187 / 144.
+27 names gained and 9 lost (a regained orb's name takes a place first in the row's order), +18 net; 0 overlapping pairs,
+0 cut, 0 under a control, 0 beside a hidden orb, in all 24 rows.
+
+**Part 3, the v1.275.0 entry.** Its first "Stability", "After", "Proof", "Cost" and "Bytes" paragraphs described the first
+cut: the zoom-only rule ("nothing comes in while the zoom moves"), "10 tests", two non-kills, the first cut's name counts
+(a moving frame's) and bytes. Corrected in place to what merged, each first-cut figure kept and labelled as such.
+
+**Held (HOLD-DOT).** The map's second gold level as a larger brighter dot (U176 b) was built first, then held when the owner
+began rethinking the dot itself (gold outlines on the orb): parked whole on an unpushed commit, not in this change. Its
+measured cost, for the record: keeping every orb's names at the level-2 dot's reach lost 21 names net over the 960 frames.
+
+**Journeys, units, bytes.** Under the build lock on the committed merge with dev v1.276.0: the 17 spec files that read map
+names (known-move-seal among them) 229 passed, 1 skipped, none red; units 1,623 of 1,623. Bytes, my share alone against dev
+v1.276.0's own bundle on the same tree: neural.js +649 raw; eager gzip +291 (362,178 against 361,887); first-hand core +284
+(381,596 against 381,312); 11 boot requests. Against the baselines as checkpointed at dev v1.276.0's own level (v1.276.1,
+merged in before landing): eager 362,177, +290 on 361,887 (cap 5,000); first-hand core 381,596, +301 on 381,295 (cap
+6,000). Before that checkpoint the sum read +4,997 of 5,000, dev's own +4,706. Archive ceiling +50,000 in its own commit
+(D-316, the orchestrator's word). On the landing head: map-names and hidden-moves 39 of 39; npm run ci:validate 25 of 25.
+
+**Not covered.** An ancestor's opacity ABOVE a control (the app's wrap or root) is not read: a control faded by its parent
+still counts as painting (fewer names, never a wrong one). A kept answer can be stale for up to half a second when a
+control's paint changes in place without its box or scroll moving. A `::before` / `::after` background is not read (no chrome over the map paints with one today: measured on
+the drawer, its rows and the row); the walk goes down only through boxes that hold the orb, so a painting child that
+overflows a parent which does not hold the orb is unseen (none found; the audit's whole-tree walk would see it); an svg
+with a solid fill does not count as paint; an orb straddling two adjacent painted boxes is shown.
+
+**CACHE414: what the check costs, and the store that keeps it near nothing.** Measured before landing (4x CPU throttle,
+`draw()` timed in the page, Standing top, `_hides` live against short-circuited to the old box rule, interleaved blocks,
+two runs): median +0.5 to +0.7 ms held and +0.4 to +0.5 dragging at 390; +1.2 held and +0.7 to +1.1 dragging at 1440, with
++76 box and +17 style reads on every HELD frame at 1440 (the reader's count): too much for a check that runs when nothing
+moves (the orchestrator's ruling). So `_hides` keeps its answers: per control (a WeakMap on its element), by orb and its
+on-canvas box to the pixel; the control's whole store goes when its box (as `_nameBlocks` measured it) or its own scroll
+moves, and is remade half a second (frame clock) after it was made, as every answer expires half a second after it was
+asked, so an answer made stale by paint changing in place (a card restyled or turned, a fade) heals by itself. Each
+element's box and style are kept in the same store: a per-FRAME memo, tried first as ruled, still spent 0.7 to 0.8 ms a
+dragged frame inside the walk at 1440 (every orb's box is new in a drag, so the answers miss), so the memo lives as long
+as the store. After, the same measure: held +0.1 / +0.2 at 390, +0.1 / +0.3 at 1440; dragging +0.1 / +0.2 at 390, +0.4 /
++0.5 at 1440, of which 0.1 inside `_hides` and +0.2 to +0.3 in the planner placing the names the change regains; no extra
+box or style read in a held or a dragged frame at either size. (A first after-measure drew with the frame clock still and
+the same drag positions in every block, so no answer ever expired or missed; it understated the drag and was discarded.)
+Proof (map-names.spec.ts): a held camera makes zero box or style reads in `_hides` after its first frame (10 asks and 50
+reads, then 0 on each of 23 frames) and asks again half a second on (50 reads); a dealt orb put under the middle of a card
+of the row (Kimura, at 390) is hidden and not offered, the row scrolled 92 px puts the gap between two cards under it and
+within two frames it is shown and offered, scrolled back hidden again (offered is what the scroll gives back: a name also
+needs a free place, which an orb deep in the row's box has not, since no name is written under the row); a control painted
+at alpha 0.6 hides an orb, at 0.4 it does not, an opaque `color(display-p3 ...)` hides it. Mutants, the whole file each:
+no cache (the store remade on every ask) red at the zero-reads test; the row's scroll out of the key red at the scroll
+test; no expiry red at "asked again"; the threshold at 0.72 and at 0.3 red at the 0.6 and 0.4 fixtures; the old colour
+parse red at the display-p3 fixture; every box opaque and every box transparent red at the set equality (6 and 7 tests).
+One named non-kill: the answers not kept while the store's element memo still is (it reads nothing; it only costs time,
+which no spec measures).
+
+The reader's four low findings on #414, in the same push: the colour's alpha is read after its slash or as rgba's fourth
+argument (app, spec and survey; the old parse read an opaque display-p3 colour as transparent); the fixture between 0.5
+and 0.72 above; an ancestor's opacity ABOVE a control is not read (fewer names, never a wrong one: Not covered); the audit
+check is "no name for an orb under paint that hides it".
+
+Landed after DEV409 (dev v1.278.0, PR #409, merged in by merge; renumbered 1.277.0 -> 1.278.1; the archive's ceiling is
+dev's own 1,663,038, so this PR's raise ends as no change against dev). Bytes, my share alone against dev v1.278.0's own
+bundle on the same tree: neural.js +1,265 raw (the cache's code included); eager gzip +595 (363,843 against 363,248);
+first-hand core +608 (383,308 against 382,700); 11 boot requests; the sum against dev's baselines eager +1,956 of 5,000
+(on 361,887), first-hand core +2,013 of 6,000 (on 381,295). On the landing head: map-names, hidden-moves and
+known-move-seal 48 of 48; units 1,660 of 1,660; npm run ci:validate 25 of 25. Before that merge, on the cache: the 17 spec
+files that read map names 232 passed, 1 skipped, none red.
