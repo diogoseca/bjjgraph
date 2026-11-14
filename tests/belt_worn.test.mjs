@@ -58,7 +58,7 @@ const SOURCE = [
   rd("neural/src/app.src.jsx"),
   rd("neural/src/challenge-ui.src.js"),
 ].join("\n");
-const M = new Function("DCLogic", "React", SOURCE + "\nreturn { Component, NG_CHALLENGE_TRACKS, NG_CHALLENGE_TRACK_COLORS };")(
+const M = new Function("DCLogic", "React", SOURCE + "\nreturn { Component, NG_CHALLENGE_TRACKS, NG_CHALLENGE_TRACK_COLORS, NG_BELT_ROW_COLORS };")(
   class DCLogic {}, { createRef: () => ({ current: null }) });
 
 // ── the fixture curriculum: 5 belts × 2 units; per belt one gi-only and one no-gi-only lesson ──
@@ -130,18 +130,25 @@ function stageDecks(a, n, st) {
   }
   a._publishKnowledge("test-stage");
 }
-/** what renderTabSubtitles() WROTE on the drawer's Path row (v1.242.0: the Challenges tab became Train's
- *  Path row, its belt drawn under the row) — read back from stub nodes, never recomputed */
+/** what the DRAWER wrote (v1.276.0, ruled STAGE2-GO 3: one belt in the drawer): the "Master the game" row's belt
+ *  (`_paintBeltRow`) and the Path row's own words (`renderTabSubtitles`), read back from stub nodes, never recomputed.
+ *  UNTIL v1.276.0 this read a belt drawn UNDER THE PATH ROW (`[data-path-belt] .ng-tab-belt`, its `data-tab-belt`,
+ *  `data-tab-stripes` and `--tb` dye) and the row's "N stripes" tail; that belt moved to the new row (same id, same
+ *  stripes: the held level is raised to the Path's level by the same `_syncBelt`, so with no number they agree), and the
+ *  Path row now says its course's units in words, which this checks against the Path's own `wornBelt()`. */
 function tab(a) {
   const btn = { attrs: {}, setAttribute(k, v) { this.attrs[k] = v; } };
-  const ch = { textContent: "", closest: () => btn }, belt = { innerHTML: "" };
-  a.drillRef = { current: { querySelector: (s) => (s.includes("challenges") ? ch : s.includes("data-path-belt") ? belt : null) } };
-  a.renderTabSubtitles();
+  const ch = { textContent: "", closest: () => btn };
+  const row = { innerHTML: "", attrs: {}, setAttribute(k, v) { this.attrs[k] = v; } };
+  const box = { querySelector: (s) => (s.includes("data-belt-row") ? row : null) };
+  a.drillRef = { current: { querySelector: (s) => (s.includes("challenges") ? ch : s.includes("data-explore-stats") ? box : null) } };
+  a.renderTabSubtitles(); a._paintBeltRow();
   a.drillRef = { current: null };
-  const attr = (n) => (new RegExp(n + '="([^"]*)"').exec(belt.innerHTML) || [])[1];
-  const out = { belt: attr("data-tab-belt"), stripes: attr("data-tab-stripes"), dye: (/--tb:([^;]+);/.exec(belt.innerHTML) || [])[1], aria: btn.attrs["aria-label"] };
-  assert.ok(out.belt && out.stripes != null && out.dye, "the Path row wrote a belt, stripes and a dye: " + belt.innerHTML);
-  assert.equal(ch.textContent, out.stripes + (out.stripes === "1" ? " stripe" : " stripes"), "the row's tail names the stripes");
+  const attr = (n) => (new RegExp(n + '="([^"]*)"').exec(row.innerHTML) || [])[1];
+  const out = { belt: attr("data-belt"), stripes: attr("data-stripes"), dye: (/--belt:([^;]+);/.exec(row.innerHTML) || [])[1], aria: btn.attrs["aria-label"], words: ch.textContent };
+  assert.ok(out.belt && out.stripes != null && out.dye, "the drawer row wrote a belt, stripes and a dye: " + row.innerHTML);
+  const w = a.wornBelt();
+  assert.equal(ch.textContent, w.total > 0 ? w.done + " of " + w.total + " units" : "", "the Path row says its course's units in words");
   return out;
 }
 
@@ -169,14 +176,21 @@ test("promotion needs every unit proven — lessons alone never move the belt", 
   assert.deepEqual([tab(a).belt, tab(a).stripes], ["blue", "0"]);
 });
 
-test("a finished player wears black with four stripes — on the tab, not white", () => {
+// v1.276.0 R1 (finding 3, ruled): this test was named "a finished player wears black with four stripes — on the tab, not
+// white". The drawer now draws black with its red bar and no stripes (table a has no levels above black, and no degrees on
+// black); the Path's own rule still gives four, asserted first below. The name says what the body pins.
+test("a finished player wears black, never white: the Path's rule gives four stripes, the drawer draws black with no stripes", () => {
   const a = boot();
   for (const id of NG_BELT_IDS) evidence(a, id);
   a._publishKnowledge("grade:test");
-  assert.deepEqual(a.wornBelt(), { id: "black", rank: 4, done: 2, total: 2, stripes: 4 });
+  assert.deepEqual(a.wornBelt(), { id: "black", rank: 4, done: 2, total: 2, stripes: 4 }, "the Path's own rule: black, four stripes");
   const t = tab(a);
-  assert.deepEqual([t.belt, t.stripes, t.dye], ["black", "4", M.NG_CHALLENGE_TRACK_COLORS.black]);
-  assert.match(t.aria, /2 of 2 units proven on the black track, 4 stripes/);
+  // v1.276.0: the drawer row wears black on table a, where black has NO stripes (level 20). Before, the Path row's belt
+  // drew black with the Path's four stripes: ["black", "4", NG_CHALLENGE_TRACK_COLORS.black]. The Path's rule is above.
+  assert.deepEqual([t.belt, t.stripes, t.dye], ["black", "0", M.NG_BELT_ROW_COLORS.black]);
+  assert.equal(t.words, "2 of 2 units");
+  // before: /2 of 2 units proven on the black track, 4 stripes/ (the aria named the stripes of the belt drawn under it)
+  assert.match(t.aria, /^Path: 2 of 2 units proven on the black track$/);
   // the defect this replaces: the frontier falls back to the corridor's top when nothing is left.
   // It still does — for NAVIGATION — and it no longer dyes anything.
   assert.equal(a._frontierBeltId(), "white");
