@@ -81,6 +81,10 @@ test("the question corner keeps its close button and count; capture belongs to t
   expect(m.countBelow).toBe(true);
   expect(m.hit).toBe(true);
   expect(m.stars).toBe(0);
+  // v1.280.0 (POSNAME): the seat's name, and its star, are placed frame by frame and never under a control; the frame this
+  // test last pumped was drawn while the reader still scrolled the card over the node band (probed: nothing covers it now,
+  // and one fresh frame places the name and its star). A player's app draws every frame; the harness draws when pumped
+  await j.advance(34);
   await expect(page.locator('[data-seat-star][data-list-add="Positions/Mount"]')).toHaveCount(1);
   await expect(page.locator('[data-seat-star][data-list-add="Positions/Mount"]')).toBeVisible();
 });
