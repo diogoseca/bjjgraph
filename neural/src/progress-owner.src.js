@@ -94,7 +94,8 @@ export function ngProgressValidateBlob(value) {
 // full tie keep whichever copy was LOCAL, so a phone's No and a laptop's first Yes on the same day each kept their own
 // and the cloud flipped with every push). The winner is: the later `last`; then the smaller interval (`srs`'s rule);
 // then the No (ok 0) — mastery breaks on a No; then the earlier due; then the tail, compared as text. A winner past
-// rung 0 keeps the longer interval it beat, which heals a fresh device's 1 -> 3 against a mature schedule. `last` is
+// rung 0 keeps the longer interval it beat, which heals a fresh device's 1 -> 3 against a mature schedule; since
+// v1.277.0 both are read as TRUE intervals (`due − last`), the cell being floored to the seven-rung ladder. `last` is
 // clamped to today on BOTH sides, so a fast clock cannot win forever. A row's tail (cells a later build may add) rides
 // with the row that wins, through the heal too (review R5). It lives HERE, beside the blob's validator, because it is
 // blob code: knowledge-profile's bytes are pinned by the study engine's law hashes. Returns a new map; inputs untouched.
@@ -113,7 +114,10 @@ export function ngProgressMergeMoves(local, cloud, today) {
       if (!m) { l[mv] = c; continue; }
       let w = first(m, c);
       const o = w === m ? c : m;
-      if (w[1] > 1 && o[1] > w[1]) w = [w[2] + o[1], o[1], w[2], w[3]].concat(w.slice(4));
+      // the heal by TRUE intervals, `due − last` (v1.277.0: `ngKnowledgeInterval`'s reading, which this group file
+      // cannot import; tests/knowledge_profile.test.mjs pins the two equal), the beaten row's own cell kept
+      const tw = Math.max(w[1] >= 1 ? w[1] : 1, w[0] - w[2]), to = Math.max(o[1] >= 1 ? o[1] : 1, o[0] - o[2]);
+      if (tw > 1 && to > tw) w = [w[2] + to, o[1], w[2], w[3]].concat(w.slice(4));
       l[mv] = w;
     }
   }
