@@ -83,6 +83,9 @@ import { journey } from "../dsl"
  *   the learned pull    was No "no gold" / Yes "now a known move, gold"  now no seal / the filled seal
  * KS2's mutant "kind 2 wears gold" has no claim left (kind 2 wears the hollow seal now); its successor, "filled and
  * hollow swapped", is killed in known-move-seal.spec.ts, which pins the seal's geometry, words and kinds.
+ * v1.280.0 (GOLD1): the seal tells the map's story, so its kinds are the map's marks: "known" (a Yes) became "recalled"
+ * (the ring), "learned" (every flashcard learned) became "answered" (the disc), and a Yes on a learned move is "both"
+ * (the disc in the ring). Each changed assertion keeps its old kind in a comment.
  */
 
 type W = any
@@ -196,7 +199,7 @@ async function threeFaces(page: Page) {
   expect({ ...(await face(page, "due")), seal: undefined }, "due: face down, name and film, announced by its place").toEqual({ ...DOWN, seal: undefined })
   expect({ ...(await face(page, "fresh")), seal: undefined }, "never answered: face down").toEqual({ ...DOWN, seal: undefined })
   // v1.272.0: was [true, true, false], "gold: the two Yeses (due too), not the new one"
-  expect([(await face(page, "known")).seal, (await face(page, "due")).seal, (await face(page, "fresh")).seal], "the filled seal on the known move; none on the due one (being asked) or the new one").toEqual(["known", null, null])
+  expect([(await face(page, "known")).seal, (await face(page, "due")).seal, (await face(page, "fresh")).seal], "the filled seal on the known move; none on the due one (being asked) or the new one").toEqual(["recalled", null, null])   // v1.280.0: was ["known", null, null]
   expect(await named(page, "known"), "...and the map names the known move").toBe(true)
   expect([await named(page, "due"), await named(page, "fresh")], "...and neither face-down one").toEqual([false, false])
 }
@@ -284,7 +287,8 @@ test("a pull from another device: its No turns the card down in place, its Yes t
   await pull([DAY + 3, 3, DAY, 1])
   expect({ ...(await face(page, "known")), seal: undefined }, "another device's Yes: face up again").toEqual({ ...UP, seal: undefined })
   // v1.272.0: was [true, true], "...gold again"
-  expect([(await face(page, "known")).seal, await named(page, "known")], "...the filled seal again, and the map names it").toEqual(["known", true])
+  // v1.280.0: was ["known", true], "the filled seal again"
+  expect([(await face(page, "known")).seal, await named(page, "known")], "...the ring again (recalled), and the map names it").toEqual(["recalled", true])
 })
 
 test("control: with moves shown nothing is face down, before or after the day turns", async ({ page }) => {
@@ -301,7 +305,8 @@ test("control: with moves shown nothing is face down, before or after the day tu
 
 async function learnedFaces(page: Page) {
   // v1.272.0: was { ...UP, gold: false } / { ...DOWN, gold: false }, "no gold"; the learned move wears the hollow seal
-  expect(await face(page, "learned"), "learned: never answered, every flashcard learned, none due: face up, the hollow seal (owner, 13 Nov 05:47)").toEqual({ ...UP, seal: "learned" })
+  // v1.280.0: was "the hollow seal" (seal "learned")
+  expect(await face(page, "learned"), "learned: never answered, every flashcard learned, none due: face up, the disc (answered; owner, 13 Nov 05:47)").toEqual({ ...UP, seal: "answered" })
   expect(await face(page, "learnedDue"), "learnedDue: the same, with one flashcard due: face down, no seal").toEqual({ ...DOWN, seal: null })
   expect([await named(page, "learned"), await named(page, "learnedDue")], "...the map names the face-up one, not the face-down one").toEqual([true, false])
 }
@@ -325,7 +330,8 @@ for (const vp of [{ width: 1440, height: 900 }, { width: 390, height: 631 }]) {
       await page.mouse.move(p.x, p.y)
       await page.waitForTimeout(300)
       // v1.272.0: was gold: false
-      expect(await face(page, "learned"), "the pointer on the learned card: still face up with its hollow seal, asking nothing").toEqual({ ...UP, seal: "learned" })
+      // v1.280.0: was "with its hollow seal" (seal "learned")
+      expect(await face(page, "learned"), "the pointer on the learned card: still face up with its disc, asking nothing").toEqual({ ...UP, seal: "answered" })
       // a look at the one with a due flashcard asks as for any move never answered: Did you get it? (Yes only)
       const q = await pointOn(page, "learnedDue")
       await page.mouse.move(q.x, q.y)
@@ -360,7 +366,8 @@ test.describe("learned, touch 390x631", () => {
     expect(await executing(page), "a first tap on the face-down one turns it up and plays nothing").toBe(false)
     expect([(await face(page, "learnedDue")).name, (await face(page, "learnedDue")).asking], "...and asks Did you get it?").toEqual(["visible", "Did you get it?"])
     // v1.272.0: was gold: false
-    expect(await face(page, "learned"), "the learned card stays face up, with its hollow seal").toEqual({ ...UP, seal: "learned" })
+    // v1.280.0: was "with its hollow seal" (seal "learned")
+    expect(await face(page, "learned"), "the learned card stays face up, with its disc").toEqual({ ...UP, seal: "answered" })
     const l = await pointOn(page, "learned")
     await page.touchscreen.tap(l.x, l.y)
     expect(await executing(page), "the learned card's first tap plays it, as a face-up card's does").toBe(true)
@@ -378,7 +385,8 @@ test("a learned move answered in the row on another device: the row rules from t
   // v1.272.0: was { ...DOWN, gold: false } and { ...UP, gold: true }
   expect(await face(page, "learned"), "another device's No: face down whatever its flashcards say, no seal").toEqual({ ...DOWN, seal: null })
   await pull([DAY + 3, 3, DAY, 1])
-  expect(await face(page, "learned"), "another device's Yes: face up, now a known move: the hollow seal fills").toEqual({ ...UP, seal: "known" })
+  // v1.280.0: was "now a known move: the hollow seal fills" (seal "known"); a Yes on a move whose questions are answered is both
+  expect(await face(page, "learned"), "another device's Yes: face up, recalled and answered: the disc in the ring").toEqual({ ...UP, seal: "both" })
 })
 
 test("a deck with no flashcards is never learned: none on today's wire (counted), so made three ways on a dealt move", async ({ page }) => {

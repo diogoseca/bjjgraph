@@ -20,7 +20,10 @@
  *              itself and anything at under 5% effective opacity excepted; the seat star beside the position's own
  *              role word is part of that label and is not counted against it
  *   crossOrb   labels crossing the drawn orb of another dealt move or of the position's pair (not their own)
- *   crossSeal  labels crossing a gold dot that is not their own (`_lastMapSeals`)
+ *   crossMark  labels crossing a gold mark that is not their own: the outlines' reach, the silhouette plus the 1 px line
+ *              (`_lastMapMarks`, v1.280.0), or on a bundle that still draws it the dot (`_lastMapSeals`, v1.272.0 to 1.278.1);
+ *              with `--marks` every dealt move is marked (on the instance: recalled and answered, so both marks, or the
+ *              dot), since a fresh player has none (was `crossSeal`, the dot alone)
  *   crossBg    labels crossing any other orb drawn on screen (the cloud: reported, not a target)
  *   hidOrb     move names whose own orb lies wholly under paint that hides it (a background at alpha x opacity 0.5 or
  *              more, an image or gradient, a backdrop filter, raster media: an open desktop drawer, a card; v1.278.1)
@@ -39,7 +42,7 @@
  * pointer); with the drawer shut and open (the logo button, pressed at its measured centre).
  *
  *   node tests/artifacts/_map_names_survey.mjs <out.json> [--base URL] [--app DIR] [--vp 390x631,390x844,1440x900]
- *        [--n 40] [--zooms 1,2,4,9] [--drawer shut,open]
+ *        [--n 40] [--zooms 1,2,4,9] [--drawer shut,open] [--marks]
  *   --app DIR serves the app files found in DIR in place of the build's (the "before" bundle).
  */
 import { chromium } from "playwright"
@@ -57,6 +60,7 @@ const N = +opt("n", 40)
 const ZOOMS = opt("zooms", "1,2,4,9").split(",").map(Number)
 const DRAWERS = opt("drawer", "shut,open").split(",")
 const APP_FILES = APP ? new Set(fs.readdirSync(APP)) : null
+const MARKS = args.includes("--marks")
 
 // ── THE SEATS, chosen from the wire the page reads (deterministic) ─────────────────────────────────────────────────
 const WIRE = JSON.parse(fs.readFileSync(new URL("../../source/quartz/static/neural/graph-data.json", import.meta.url), "utf8"))
@@ -215,10 +219,12 @@ async function measure(page) {
       if (x < -R || x > W + R || y < -R || y > H + R) continue
       orbs.push({ idx: n.idx, pi: n.pi, x, y, R, hand: hand.has(n.idx) })
     }
-    const seals = (a._lastMapSeals || []).map((s) => ({ ...s }))
+    // the marks' reach: an outline's silhouette (the half-width of its shape) plus its line; the dot by its own radius
+    const marks = a._lastMapMarks ? a._lastMapMarks.map((m) => ({ idx: m.idx, x: m.x, y: m.y, r: m.rs * (m.ty === "submissions" ? 1.242 : m.ty === "positions" ? 1 : 1.18) + 1 }))
+      : (a._lastMapSeals || []).map((s) => ({ idx: s.idx, x: s.x, y: s.y, r: s.r }))
     const circ = (b, c, R) => { const dx = Math.max(b.l - c.x, 0, c.x - b.r), dy = Math.max(b.t - c.y, 0, c.y - b.b); return dx * dx + dy * dy < R * R }
     // ── the counts ──
-    const out = { written: { position: 0, move: 0, other: 0 }, overlaps: 0, near: 0, cut: 0, trimmed: 0, under: 0, crossOrb: 0, crossSeal: 0, crossBg: 0, faults: [] }
+    const out = { written: { position: 0, move: 0, other: 0 }, overlaps: 0, near: 0, cut: 0, trimmed: 0, under: 0, crossOrb: 0, crossMark: 0, crossBg: 0, marks: marks.length, faults: [] }
     for (const L of labels) out.written[L.kind === "position" ? "position" : /move/.test(L.kind) ? "move" : "other"]++
     for (let i = 0; i < labels.length; i++) for (let j = i + 1; j < labels.length; j++) {
       const p = labels[i], q = labels[j]
@@ -232,7 +238,7 @@ async function measure(page) {
       const over = painted.filter((p) => hit(L.box, p) && !(p.star && L.kind === "position"))
       if (over.length) { out.under++; out.faults.push(["under", L.text, over.slice(0, 3).map((p) => p.what)]) }
       if (orbs.some((o) => o.hand && !own(o) && circ(L.box, o, o.R))) { out.crossOrb++; out.faults.push(["crossOrb", L.text]) }
-      if (seals.some((s) => !own(s) && circ(L.box, s, s.r))) { out.crossSeal++; out.faults.push(["crossSeal", L.text]) }
+      if (marks.some((s) => !own(s) && circ(L.box, s, s.r))) { out.crossMark++; out.faults.push(["crossMark", L.text]) }
       if (orbs.some((o) => !o.hand && !own(o) && circ(L.box, o, o.R))) out.crossBg++
     }
     // a move named beside an orb that lies WHOLLY under paint that hides it (the desktop drawer, a card): a name with no
@@ -277,13 +283,19 @@ async function boot(browser, vp) {
 
 /** Seat the roll at `t`/`role` the way the journeys do (rigStart + the rigged draws), then let the hand and camera settle. */
 async function seat(page, s, first) {
-  await page.evaluate(([t, role, first]) => {
+  await page.evaluate(([t, role, first, marks]) => {
     const a = window.__neural
     a.rig("ai-skill", [0.5]); a.rig("role", [role === "bottom" ? 0.9 : 0]); a.rig("max-moves", [0.5])
     const idx = a.nodes.findIndex((n) => n.ty === "positions" && n.t === t); if (idx < 0) throw new Error("no " + t)
     a.rigStart(idx)
     if (!first) a.startRoll()
-  }, [s.t, s.role, first])
+    if (marks) {
+      // every dealt move marked (the hand as dealt, read live each frame): recalled, and its questions answered
+      const dealt = () => new Set(a.optionIdxs || [])
+      a._movesGold = () => new Map([...dealt()].map((i) => [i, 1])); a._movesLearned = dealt
+      a._answered = (n) => dealt().has(n.idx)
+    }
+  }, [s.t, s.role, first, MARKS])
   for (let i = 0; i < 20; i++) {
     await page.evaluate(() => window.__neural.advance(1000))
     const ok = await page.evaluate(() => { const a = window.__neural; return (a.optionIdxs || []).length > 0 && a._arriveGlideUntil == null && !a.pulse })
@@ -323,7 +335,7 @@ async function setDrawer(page, open) {
 }
 
 const browser = await chromium.launch()
-const result = { when: new Date().toISOString(), base: BASE, app: APP, seats: SEATS, cases: [] }
+const result = { when: new Date().toISOString(), base: BASE, app: APP, marks: MARKS, seats: SEATS, cases: [] }
 const t0 = Date.now()
 for (const vp of VPS) {
   const { ctx, page, errors } = await boot(browser, vp)
@@ -357,14 +369,14 @@ const rows = new Map()
 for (const c of result.cases) {
   if (c.error) continue
   const k = c.vp + " " + c.drawer + " x" + c.zoom
-  const r = rows.get(k) || { cases: 0, jumpNames: 0, rest1Names: 0, positionNames: 0, moveNames: 0, otherNames: 0, overlaps: 0, near: 0, cut: 0, trimmed: 0, under: 0, crossOrb: 0, crossSeal: 0, crossBg: 0, hidOrb: 0, inView: 0, inMap: 0, hand: 0 }
+  const r = rows.get(k) || { cases: 0, jumpNames: 0, rest1Names: 0, positionNames: 0, moveNames: 0, otherNames: 0, overlaps: 0, near: 0, cut: 0, trimmed: 0, under: 0, crossOrb: 0, crossMark: 0, crossBg: 0, hidOrb: 0, inView: 0, inMap: 0, hand: 0, marks: 0 }
   r.cases++; r.jumpNames += c.jump || 0; r.rest1Names += c.rest1 || 0; r.positionNames += c.written.position; r.moveNames += c.written.move; r.otherNames += c.written.other
-  for (const f of ["overlaps", "near", "cut", "trimmed", "under", "crossOrb", "crossSeal", "crossBg", "hidOrb", "inView", "inMap", "hand"]) r[f] += c[f] || 0
+  for (const f of ["overlaps", "near", "cut", "trimmed", "under", "crossOrb", "crossMark", "crossBg", "hidOrb", "inView", "inMap", "hand", "marks"]) r[f] += c[f] || 0
   rows.set(k, r)
 }
 result.table = Object.fromEntries(rows)
 fs.mkdirSync(path.dirname(path.resolve(OUT)), { recursive: true })
 fs.writeFileSync(OUT, JSON.stringify(result, null, 1))
-console.log("case (counts on the frame SETTLED, half a second at rest after the wheel; jumpN the wheel's own frame, rest1N the first frame at rest)   n  posN moveN othN jumpN rest1N | overlap near  cut trim under | xOrb xSeal  xBg hidOrb | inView inMap hand")
-for (const [k, r] of rows) console.log(k.padEnd(24), String(r.cases).padStart(2), String(r.positionNames).padStart(5), String(r.moveNames).padStart(5), String(r.otherNames).padStart(4), String(r.jumpNames).padStart(5), String(r.rest1Names).padStart(6), "|", String(r.overlaps).padStart(7), String(r.near).padStart(4), String(r.cut).padStart(4), String(r.trimmed).padStart(4), String(r.under).padStart(5), "|", String(r.crossOrb).padStart(4), String(r.crossSeal).padStart(5), String(r.crossBg).padStart(4), String(r.hidOrb).padStart(6), "|", String(r.inView).padStart(6), String(r.inMap).padStart(5), String(r.hand).padStart(4))
+console.log("case (counts on the frame SETTLED, half a second at rest after the wheel; jumpN the wheel's own frame, rest1N the first frame at rest)   n  posN moveN othN jumpN rest1N | overlap near  cut trim under | xOrb xMark  xBg hidOrb | inView inMap hand marks")
+for (const [k, r] of rows) console.log(k.padEnd(24), String(r.cases).padStart(2), String(r.positionNames).padStart(5), String(r.moveNames).padStart(5), String(r.otherNames).padStart(4), String(r.jumpNames).padStart(5), String(r.rest1Names).padStart(6), "|", String(r.overlaps).padStart(7), String(r.near).padStart(4), String(r.cut).padStart(4), String(r.trimmed).padStart(4), String(r.under).padStart(5), "|", String(r.crossOrb).padStart(4), String(r.crossMark).padStart(5), String(r.crossBg).padStart(4), String(r.hidOrb).padStart(6), "|", String(r.inView).padStart(6), String(r.inMap).padStart(5), String(r.hand).padStart(4), String(r.marks).padStart(5))
 console.log("errors:", (result.errors || []).length, "failed seats:", result.cases.filter((c) => c.error).length)

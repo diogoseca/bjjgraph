@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 /**
  * THE SEAL: THE OWNER'S PICTURES (v1.272.0; NOT a gate, NOT a test: the gate is e2e/journeys/known-move-seal.spec.ts).
+ * v1.280.0: the map's dot and the seal's two kinds are retired (the outlines, NG_MAP_MARKS; the seal's ring / disc / both):
+ * this script's map section reads `_lastMapSeals`, which a later bundle no longer publishes. tests/artifacts/_outline_shoot.mjs
+ * shoots the outlines and the four seals.
  *
  * A real static server of a built tree (scripts/e2e-serve.mjs), real wall clock, real posters, real input at measured
  * points; one player seeded the way a saved account is (the guest progress envelope in localStorage), at Mount Top:

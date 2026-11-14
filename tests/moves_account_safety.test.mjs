@@ -506,8 +506,9 @@ test("stage 2, a No takes it back; a grade republishes; a pull brings a Yes in w
   assert.equal(a.mastery(key), 0.15, "a Yes: +0.15 on " + key);
   assert.ok(a._knowledgeRevision > rev0, "a grade republishes the knowledge (the worker re-solves)");
   assert.equal(a.knowledgeProfile().permanent[key], 0.15, "…and the profile carries it");
-  // v1.272.0 (the owner's seal): was data-mastered "", "the card's thin gold"
-  assert.deepEqual([card.attrs["data-seal"], card.kids.length], ["known", 1], "the card's filled seal");
+  // v1.272.0 (the owner's seal): was data-mastered "", "the card's thin gold"; v1.280.0 (GOLD1, the map's story): was
+  // ["known", 1], "the card's filled seal"
+  assert.deepEqual([card.attrs["data-seal"], card.kids.length], ["recalled", 1], "a Yes: the card's ring (recalled)");
   assert.equal(a._movesGold().get(opt.node.idx), 1, "the map's thin gold");
   assert.equal(a._movesKnownLine().known, 1);
   a._gradeMove(opt, false, card);
@@ -530,25 +531,30 @@ test("stage 2, known and its flashcards learned in either order: the map's one s
   const learn = (k) => { a.flashcards.decks[k] = { n: 2, cards: [{ q: k + " q0", a: "x" }, { q: k + " q1", a: "y" }] }; a.stage[k] = { [a.qhash(k + " q0")]: 3, [a.qhash(k + " q1")]: 3 }; a._publishKnowledge("test"); };
   a.flashcards = { decks: {}, manifest: true };
   a._gradeMove(opt, true, card);
-  assert.equal(a._movesGold().get(opt.node.idx), 1); assert.equal(card.attrs["data-seal"], "known");   // v1.272.0: was data-mastered ""
+  assert.equal(a._movesGold().get(opt.node.idx), 1); assert.equal(card.attrs["data-seal"], "recalled");   // v1.272.0: was data-mastered ""; v1.280.0: was "known"
   learn(key);                                                     // the deck's last detail card learned, no reload
   assert.equal(a.deckMastery(key), 1);
   assert.equal(a._movesGold().get(opt.node.idx), 1, "the map does not thicken: one state (v1.272.0; was 2, \"the map thickens\")");
+  // v1.280.0 (GOLD1): the learned deck is the map's INSIDE gold, a separate mark from the outside line above
+  assert.equal(a._answered(opt.node), true, "its questions answered: the map's inside gold");
   // v1.272.0: was `_paintHandGold` and data-mastered "2", "the card thickens". The seal has two kinds, and a move both
   // answered Yes and learned is "known" (the row rules): the hand's repaint keeps the filled seal, one child, no level
   card._choiceOpt = opt;
   a._paintHand.call({ _optionCards: [{ card, opt }], _paintCard: a._paintCard.bind(a) });
-  assert.deepEqual([card.attrs["data-seal"], card.kids.length], ["known", 1], "the card keeps its filled seal: no second level");
+  // v1.280.0: was ["known", 1], "the card keeps its filled seal: no second level"; the seal now tells the map's story
+  assert.deepEqual([card.attrs["data-seal"], card.kids.length], ["both", 1], "a Yes and its questions answered: both, the disc inside the ring, one child");
   // the reverse order: flashcards first, then the Yes
   const opt2 = a.optionsFor(mount.i, "top")[1], key2 = a.deckKeyFor(opt2.node).key, card2 = CARD();
   learn(key2);
   assert.ok(!a._movesGold().has(opt2.node.idx), "learned flashcards alone draw no moves gold");
   // v1.272.0: the flashcards alone are the HOLLOW seal on the card (never answered, deck learned, none due)
   card2._choiceOpt = opt2; a._paintCard(card2);
-  assert.equal(card2.attrs["data-seal"], "learned", "flashcards first: the hollow seal");
+  // v1.280.0: was "learned", "flashcards first: the hollow seal"
+  assert.equal(card2.attrs["data-seal"], "answered", "flashcards first: the disc (its questions answered)");
   a._gradeMove(opt2, true, card2);
   // v1.272.0: was data-mastered "2"; the Yes fills the hollow seal, the same element
-  assert.equal(a._movesGold().get(opt2.node.idx), 1); assert.deepEqual([card2.attrs["data-seal"], card2.kids.length], ["known", 1], "then the Yes: the seal fills");
+  // v1.280.0: was ["known", 1], "then the Yes: the seal fills"
+  assert.equal(a._movesGold().get(opt2.node.idx), 1); assert.deepEqual([card2.attrs["data-seal"], card2.kids.length], ["both", 1], "then the Yes: both, on the same element");
   // an ESCAPE (review STAGE2E): its `deckKeyFor(node)` is the submission's attacking half, not its own deck. v1.272.0:
   // it stayed thin while the own move thickened; the level is gone, so both wear the filled seal, and the escape's
   // deck is never read: an unanswered escape on that learned deck is "new", never "learned" (no hollow seal).
@@ -558,9 +564,12 @@ test("stage 2, known and its flashcards learned in either order: the map's one s
   for (const o of [esc, own]) { const [st, mv] = a._moveKey(o); (a.moves[st] = a.moves[st] || {})[mv] = row(true); }
   a._publishKnowledge("test");
   const escCard = CARD(), ownCard = CARD();
+  escCard._choiceOpt = esc; ownCard._choiceOpt = own;   // v1.280.0: the disc reads the card's own move (`_answered`)
   a._sealCard(escCard, a._moveState(esc)); a._sealCard(ownCard, a._moveState(own));
   // v1.272.0: was ["", "2"], "a known escape stays thin; the known move on the same learned deck is double"
-  assert.deepEqual([escCard.attrs["data-seal"], ownCard.attrs["data-seal"]], ["known", "known"], "a known escape and the known move: the filled seal both");
+  // v1.280.0: was ["known", "known"], "a known escape and the known move: the filled seal both"; an escape has no deck, so
+  // it is recalled only, while the known move on its learned deck wears both
+  assert.deepEqual([escCard.attrs["data-seal"], ownCard.attrs["data-seal"]], ["recalled", "both"], "a known escape: the ring; the known move on the learned deck: both");
   assert.equal(a._moveState({ action: "escape", label: "Some other way out of the Kimura", node: sub }), "new", "an unanswered escape on a learned deck: new, never learned");
   // a ruleset switch: a seat whose gi hand has moves no-gi does not deal. Know exactly its no-gi hand.
   const gi = seatsOf(a), nogi = seatsOf(wireBoot({ v: 2 }, "nogi"));

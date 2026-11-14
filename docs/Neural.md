@@ -271,8 +271,9 @@ technique deck, and 0.15 × the share of its seat's dealt moves known on the sea
 worker (`_knowledgePrep`) apply the law's own function to it, so they read one double; a No takes it
 back. Practice and weak spots keep the flashcard-only figure (`_flashMastery`); with a comparison in
 hand, a deck the moves fill keeps its weak-spots place (`oddsFull`). A known move's
-orb wears a gold dot (`_mapSeal`, one state). A card wears a seal
-(`_sealCard`): filled = a Yes, face up; hollow = unanswered, deck learned.
+orb wears a gold line outside; a move whose own deck is learned, gold inside with its own colour as
+the border, from rs 2.4 px (`NG_MAP_MARKS`, `_answered`). A card's seal (`_sealCard`): ring = a Yes,
+disc = deck learned, both = the disc in the ring.
 "Moves known N of M" sits under Mastered. A threat's Yes files under the opponent's seat; an escape
 gets the seal, no odds. Pinned by `e2e/journeys/moves-mastery.spec.ts`, `tests/moves_account_safety.test.mjs`.
 
@@ -619,32 +620,19 @@ All have decks and shared knowledge. Resolved heuristic entries:
 
 All now use strength; no application allowlist.
 
-**Mastery gold.** Flashcards → **Turn what you know gold** (`masteryGold`, default false), helper:
-“The map turns gold as you master each side's flashcards. Full gold needs recall.”
-Persists/merges per key. Half key: `ngWireDeckName(node) + "|" + capitalized(node.role)`,
-never played seat. Missing/empty deck = `null`, unstudied = `0`; manifest counts work unhydrated.
+**Mastery gold (switch retired v1.280.0).** **Turn what you know gold** left Settings; the key
+`masteryGold` stays stored and synced and nothing reads it for paint. Knowledge shows as the marks
+(`NG_MAP_MARKS`, above). `_answered` keys the half's own deck:
+`ngWireDeckName(node) + "|" + capitalized(node.role)`, never the played seat; manifest counts work unhydrated.
 
-`mastery-gold.src.js` uses a quadratic Bernstein palette of the existing grey/blue/red
-pigments and crown gold `#F0C05A`. Blue/gold and red/gold controls produce green/orange;
-blue/red stays purple/grey. For clamped strength `d` and mastery `m`, weights are
-`[(1−|d|)(1−m), max(d,0)(1−m), max(−d,0)(1−m), m]`. Sites average weights, never final RGB.
-Zero/missing mastery returns runtime `n.col` directly, including fallbacks.
+`mastery-gold.src.js` keeps the overview's site mix (`NG_MIX_SITES_BY_DEFAULT = true`): sites average
+the halves' grey/blue/red weights, never final RGB; halves keep `n.col`/`n.colU`; focus and rest keep
+`myColor`, a previous-roll replay included. `kLOD` blends the site mix to the halves. Opposite
+technique poles share purple-grey. It warms after the first playable hand paints (idle, 1s
+deadline); base paint holds until then. DOM glyphs, labels and advantage chrome never read it.
 
-Overview mixes both halves (`NG_MIX_SITES_BY_DEFAULT = true`).
-Off keeps base/depth-shaded halves and the historical player-perspective focus/rest
-colour (`myColor`), including a previous-roll replay and late Off. On uses gold-adjusted
-weights. `kLOD` blends the shared site mix to those endpoints. Opposite technique poles
-share purple-grey.
-
-Palette warms after the first playable hand paints (idle, 1s deadline), even in Settings; base paint holds.
-Cache rebuilds at ingest, toggle and `_publishKnowledge` (manifest/hydration,
-grades, progress load/merge). Imports use current settings/evidence; frames interpolate
-cached endpoints. Canvas, edges and focus/resting glow use paint.
-DOM glyphs, labels, advantage chrome and `n.col`/`n.colU`/`myColor` stay unchanged;
-so do belt, Win-chance, Suggested, posture, success and tension meanings.
-
-`tests/mastery_gold.test.mjs` pins OKLCH anchors at 1/3, 1/2, 2/3: blue/gold 125–170°,
-chroma ≥0.10; red/gold 40–80°, ≥0.12. Journeys pin mouse/draw/reload and default boot bytes.
+`tests/mastery_gold.test.mjs` pins the mix (purple band, continuity) and that the stored key changes
+nothing; journeys pin the row's absence, draw, reload and default boot bytes.
 
 **Labels.** `pairGroup` pins name/qualifier at the midline; roles ride their halves except
 qualified lower roles join the subtitle stack. `richLabel` retains name/qualifier at merge;

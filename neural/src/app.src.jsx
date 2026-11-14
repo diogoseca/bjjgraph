@@ -80,7 +80,33 @@ const NG_CARD_LIFT = 1 / 12, NG_CARD_LIFT_MS = 440;
 const NG_HIDE_HINT = "badge", NG_HIDE_GRADE_NO = false, NG_GRADE_ARM_MS = 500;
 // THE SEAL's words (v1.272.0, `_sealCard`): its hover and, after the move's name, the card's accessible name. The app's
 // own voice: the account menu's "Moves known", Settings' "moves you know or whose flashcards you have learned".
-const NG_SEAL_WORDS = { known: "You know this move", learned: "Flashcards learned" };
+// v1.280.0 (GOLD1): the seal tells the map's story, so its kinds are the map's marks (`_sealCard`).
+const NG_SEAL_WORDS = { recalled: "You recalled this move here", answered: "Its questions are answered", both: "Recalled here, and its questions answered" };
+// THE MAP'S GOLD (v1.280.0, GOLD1; the owner's U183 a, 14 Nov: "Gold outlines on the map: is this what you meant? a, Yes:
+// build it as drawn"; his words the night before: "a thin outline inside, in case we answer questions, and outside, in
+// case we guess it from the current node [...] The color should still be there so we can differentiate blue from red from
+// purple [...] the border, and there should be a golden outline outside that border and a golden filling inside the
+// border"). The design he approved is the designer's pick "e" (design/outline, "Geometry and colours of the pick"):
+//   OUTSIDE, a Yes in the row (`_movesGold`): gold, `line` px wide, hugging the silhouette from its edge outward, no gap,
+//     round corners, at every size.
+//   INSIDE, the move's questions answered (`_answered`: its own deck all learned): gold over the silhouette with the orb's
+//     OWN colour kept as a border inside the edge, `borderK` of the drawn radius `rs`, held between `borderMin` and
+//     `borderMax` px; full from `inFull` px of `rs`, none at `inFrom` or less, linear between (`k`, used as its alpha):
+//     below about 6 px across a triangle has under 1 px inside a 1.2 px border, so a small orb keeps its whole colour.
+//   The two are independent (his drawing: Kimura outside only, Americana both, Cross Collar Choke inside only).
+//   Gold 240,192,90 at `goldA` of the orb's own alpha factors (the dot's and the old outline's gold); the border in the
+//   orb's own fill colour, laid over the fill at `borderA` (0.62 + 0.38 x 0.87 = 0.95 of it, the design's border; the
+//   fill itself stays 0.62).
+// THE ONE CLAIM all of this exists for, and every proof hits: THE ORB'S OWN COLOUR IS VISIBLE IN EVERY STATE AT EVERY SIZE
+// (the old outline and the "Turn what you know gold" recolour both lost it, which is why he asked). So the gold lies only
+// INSIDE the border (the shape inset by it, `_insetPath`) and the border is the orb's own colour over its own fill: no gold
+// under it at any `k`. The first build stroked the border over a full gold fill, both at alpha `k`, and at rs 2.8 (k 0.5)
+// the gold showed through the half-opaque border (the band read 160,137,117 on a 103,92,103 orb, map-gold.spec.ts).
+// Drawn BATCHED and with no clip in the ordinary frame: the outside line is an outset path (`_outsetPath`), so it never lies
+// on its own orb; one clip only when two outside-marked shapes come within reach (`draw()`). Clips are what cost: measured on
+// the shared box (tests/artifacts/_map_names_frametime.mjs --ab marks, paired frames, every dealt orb marked both ways, 4x
+// CPU throttle), a clip per orb cost +0.4 to +0.5 ms a held frame, and so did the first build's clip per overlapping shape.
+const NG_MAP_MARKS = { gold: { r: 240, g: 192, b: 90 }, goldA: 0.95, borderA: 0.87, line: 1, borderK: 0.32, borderMin: 1.2, borderMax: 2.2, inFrom: 2.4, inFull: 3.2 };
 // The videos row's fade, in units of the ONE token it is sized from: the card's side padding, measured
 // by `_dockLandFilm` (the end padding is 1 of the same unit). helmet.html `.ng-landfilm`.
 const NG_FILM_FADE_RATIO = 3;
@@ -2943,12 +2969,29 @@ class Component extends DCLogic {
     if (c.tech.has(key)) return 5;
     return key.endsWith("|Top") || key.endsWith("|Bottom") ? 5 * this._seatShare(key) : 0;
   }
-  // THE MAP'S KNOWN MOVES (U122 a; drawn as the seal's dot since v1.272.0, `_mapSeal`): a technique known through the
+  // THE MAP'S KNOWN MOVES (U122 a; the seal's dot from v1.272.0; the gold line OUTSIDE the orb since v1.280.0, NG_MAP_MARKS): a technique known through the
   // moves (any of its pairs), a seat whose every dealt move is known. Defender halves have no moves of their own. WHICH
   // nodes depends on the record alone and is found once per index (`goldAt`: every node, a hand per known seat), so the
   // draw path reads one Map.has per node. U122 a's LEVEL 2 (its deck's flashcards learned too: an outline twice as
   // thick, re-read on every `_stageVer`) went with the outline: every entry is 1, and the flashcards are read nowhere
-  // here. The opt-in colour shift (`masteryGold`) is another layer.
+  // here. (The opt-in colour shift `masteryGold` was retired in v1.280.0: the map's gold is the outlines.)
+  // THE MAP'S INSIDE GOLD and the cards' disc (v1.280.0, GOLD1, one test for both so they tell one story): a node whose OWN
+  // half's deck is all learned, `deckMastery` 1, every card at stage 3 or more (the test U122 a's thick outline read until
+  // v1.272.0, from 3bef94e14^1, now WITHOUT its Yes: the owner's drawing has Cross Collar Choke inside only). Its own half,
+  // never the player's seat (`ngWireDeckName` and the node's role: the rule the retired recolour kept, so a player's seat
+  // never decides another half's paint); never a defender twin; the ruleset's mask. Asked per node as it is drawn and kept
+  // until `_stageVer` moves (a grade, a deck landing), the ruleset or the graph does: a held map reads one Map.
+  _answered(n) {
+    let c = this._ansC;
+    if (!c || c.sv !== this._stageVer || c.n !== this.nodes || c.gi !== this._giMode) c = this._ansC = { sv: this._stageVer, n: this.nodes, gi: this._giMode, m: new Map() };
+    let v = c.m.get(n.idx);
+    if (v === undefined) {
+      const role = { top: "Top", bottom: "Bottom", attacker: "Attacker" }[n.role];
+      v = !!role && this.rsAllowsIdx(n.idx) && this.deckMastery(ngWireDeckName(n) + "|" + role) >= 1;
+      c.m.set(n.idx, v);
+    }
+    return v;
+  }
   _movesGold() {
     const c = this._movesIdx();
     if (c.gold) return c.gold;
@@ -3168,7 +3211,8 @@ class Component extends DCLogic {
     this._knowledgeRevision = revision == null ? (this._knowledgeRevision || 0) + 1 : revision;
     this._stageVer = (this._stageVer || 0) + 1;
     this._scoreCache = null; this._flowScoreCache = null; this._flowCache = null;
-    this._knowledgeEffect("map-paint", () => this._rebuildMapPaint());
+    // (the map's paint was rebuilt here, "map-paint", while it read the decks; since v1.280.0 it is the nodes' own colours
+    // and the site mix, fixed at ingest, and what knowledge shows is the marks, which read `_answered` per `_stageVer`)
     // each dealt card's seal and face, from one read (`_paintCard`): a Yes seals a card and turns it up, a No or a new
     // day's due date takes the seal off and turns it down (v1.266.0, the seal v1.272.0)
     this._knowledgeEffect("moves-card", () => this._paintHand());
@@ -4576,7 +4620,7 @@ class Component extends DCLogic {
     const saved = this._progressHost.persist(this, this._progressBlob());
     if (saved.status === "saved" && this._pushCloud) this._pushCloud();
   }
-  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; (this._settingsAt = this._settingsAt || {})[k] = Date.now(); this._saveProgress(); if (k === "masteryGold") this._rebuildMapPaint(); if (k === "dangerAnimation") this._syncDangerAnimation(); if (k === "hideMoves") { this._hideVia = this._hideViaNext || "settings"; this._hideViaNext = null; this._syncHideMoves(); } }
+  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; (this._settingsAt = this._settingsAt || {})[k] = Date.now(); this._saveProgress(); if (k === "dangerAnimation") this._syncDangerAnimation(); if (k === "hideMoves") { this._hideVia = this._hideViaNext || "settings"; this._hideViaNext = null; this._syncHideMoves(); } }
   // deferred-payload hooks: refresh whatever is open when the heavy files land post-boot
   onFlashcardsReady() {
     try {
@@ -14963,9 +15007,17 @@ class Component extends DCLogic {
   // guess this technique."). His option read: "A small filled seal: you answered Yes here. A hollow one: its flashcards
   // are learned. It reads as a stamp on the card"; the question: "Whatever you pick replaces the gold outline
   // everywhere a move wears it today" and "the move being asked is the only thing with a strong outline".
-  //   a FACE-UP card whose row's last answer is a Yes ("known" or "due")   data-seal="known"    a FILLED gold disc
-  //   a face-up card never answered, flashcards learned, none due         data-seal="learned"  a gold RING, dark inside
-  //   any FACE-DOWN card (`data-hide`, revealed or not), "new"            no seal, no attribute
+  // SINCE v1.280.0 (GOLD1, ruled) THE SEAL TELLS THE MAP'S STORY (NG_MAP_MARKS): its kinds are the map's two marks.
+  //   a FACE-UP card whose row's last answer is a Yes ("known" or "due")   data-seal="recalled"  a gold RING (the map's
+  //                                                                                              outside line)
+  //   a face-up card whose questions are answered (`_answered`, the map's  data-seal="answered"  a gold DISC (the map's
+  //   own test: its deck all learned; a Yes or not)                                               inside gold)
+  //   both                                                                 data-seal="both"      the disc inside the ring,
+  //                                                                                              a dark gap between
+  //   any FACE-DOWN card (`data-hide`, revealed or not), or neither        no seal, no attribute
+  // Until v1.278.1 it was the other way round (filled = a Yes, hollow = flashcards learned, and a Yes on a learned deck
+  // "known", filled): no seal had reached production (v1.252.0), so no player learned that meaning. The FACE still reads
+  // `_deckLearned` (a learned deck with a card due is asked); the disc reads the map's test, so a card and its orb agree.
   // SEAL2 (v1.272.0, the orchestrator's correction of its own brief, 13 Nov): the filled seal is TODAY'S GOLD moved from
   // the border, a Yes DUE OR NOT ("A small filled seal: you answered Yes here"; his standing rule: a redesign never takes
   // away what an account earned). The first build sealed "known" only, so with moves SHOWN, where nothing ever asks
@@ -14981,7 +15033,8 @@ class Component extends DCLogic {
   // U122 a: `data-mastered`, "" or "2") is gone with it: the seal has two kinds, and a move both answered Yes and
   // learned is "known" (the row rules). Nothing stored changes; this is paint over the one state above.
   _sealCard(card, st) {
-    const kind = card.hasAttribute("data-hide") ? null : st === "known" || st === "due" ? "known" : st === "learned" ? "learned" : null;
+    const opt = card._choiceOpt, yes = st === "known" || st === "due", ans = !!opt && opt.action !== "escape" && !!opt.node && this._answered(opt.node);
+    const kind = card.hasAttribute("data-hide") ? null : yes ? (ans ? "both" : "recalled") : ans ? "answered" : null;
     let el = card.querySelector("[data-choice-seal]");
     if (kind === card.getAttribute("data-seal") && (!kind || el)) return;
     if (kind) {
@@ -21360,40 +21413,9 @@ class Component extends DCLogic {
     }, { passive: false });
   }
 
-  // THE SEAL ON THE MAP (v1.272.0; the owner's pick "a, A gold seal in the corner", whose option read "It reads as a
-  // stamp on the card, and shrinks to a dot beside the name on the map", over "Whatever you pick replaces the gold
-  // outline everywhere a move wears it today"). An outlined orb read as selected, as an outlined card did, and the
-  // focus mark IS an outline (a rim). So a known move's orb wears a gold dot with a dark rim, centred on its
-  // silhouette's edge at a shoulder, a third of itself outward, like a stamp on the edge. Drawn in SCREEN px, after
-  // the option names (draw()), so it can be laid out against them:
-  //   WHERE: the up-right shoulder, unless an option name's box (`_lastOptBoxes`) covers it; then the first free one
-  //   of up-left, down-right, down-left (measured at 390: a neighbour's name crossed a dot's up-right shoulder on the
-  //   phone's crowded map). Up-right first: the drawing's corner, every name starts RIGHT of the orb past the widest
-  //   ring it wears (`_nodeHalfW` + 9px), the scene's highlight sits upper LEFT, a pair's twin sits above or below.
-  //   The edge along a diagonal, from shapePath's own numbers below (the offset on each axis): a circle 0.707r; a
-  //   diamond (h = 1.18r) h/2 = 0.59r; a triangle (h = 1.35r, flanks to (+-0.92h, 0.72h)) 0.4928h/sqrt2 = 0.47r up,
-  //   and its base, 0.72h = 0.972r, down. The rings are concentric and wider, so the dot sits inside them.
-  //   SIZE 0.38 of the drawn radius, held to 2.4-4.5 screen px: readable zoomed out, never a second orb zoomed in.
-  // ONE STATE: the nodes `_movesGold` names (the moves record, unchanged). U122 a's second level (thicker once the
-  // deck's flashcards are learned too) is gone with the outline; a move known only by its flashcards has no mark here,
-  // as before: the map's flashcard colour is "Turn what you know gold" (`masteryGold`). Published per frame in CSS px
-  // (`_lastMapSeals`), as `_lastPairLabel` is, so a spec reads what the frame drew.
-  _mapSeal(ctx, n, y, r, scale, a, ox, oy, boxes) {
-    const rs = r * scale, [R, up, down] = this._sealGeo(n, rs), cx = n.x * scale + ox, cy = y * scale + oy;
-    const free = (x, yy) => !(boxes || []).some((b) => x + R > b.l && x - R < b.r && yy + R > b.t && yy - R < b.b);
-    let x = cx + up, yy = cy - up;
-    for (const [sx, sy] of [[1, -1], [-1, -1], [1, 1], [-1, 1]]) { const d = sy < 0 ? up : down; if (free(cx + sx * d, cy + sy * d)) { x = cx + sx * d; yy = cy + sy * d; break; } }
-    ctx.beginPath(); ctx.arc(x, yy, R, 0, 6.2832);
-    ctx.fillStyle = this.rgba({ r: 240, g: 192, b: 90 }, 0.95 * a); ctx.fill();
-    ctx.lineWidth = 1; ctx.strokeStyle = this.rgba({ r: 8, g: 10, b: 16 }, 0.85 * a); ctx.stroke();
-    this._lastMapSeals.push({ idx: n.idx, x, y: yy, r: R });
-  }
-  // The dot's size and its offsets to the up and down shoulders (each axis) for an orb drawn `rs` px wide: ONE definition, read by
-  // `_mapSeal` to draw it and by `_planNames` to keep every dealt orb's shoulders clear of other moves' names (v1.275.0).
-  _sealGeo(n, rs) {
-    const R = Math.max(2.4, Math.min(4.5, 0.38 * rs)), k = R / 3 * 0.7071;
-    return [R, (n.ty === "positions" ? 0.707 : n.ty === "submissions" ? 0.47 : 0.59) * rs + k, (n.ty === "submissions" ? 0.972 : n.ty === "positions" ? 0.707 : 0.59) * rs + k];
-  }
+  // THE SEAL'S DOT ON THE MAP (v1.272.0 to v1.278.1, `_mapSeal` / `_sealGeo` / `_lastMapSeals`) is gone: since v1.280.0 a
+  // recalled move wears a gold line outside its orb and a move whose questions are answered gold inside it (NG_MAP_MARKS,
+  // `draw()`, published as `_lastMapMarks`).
 
   // ══ NAMES NEVER SIT ON EACH OTHER (v1.275.0) ═══════════════════════════════════════════════════════════════════════════════
   // The owner, 13 Nov, looking at the map pulled back: "dunno why in the graph there are many techniques showing but they are
@@ -21561,6 +21583,33 @@ class Component extends DCLogic {
     else if (ty === "submissions") { const h = r * 1.35; ctx.moveTo(x, y - h); ctx.lineTo(x + h * 0.92, y + h * 0.72); ctx.lineTo(x - h * 0.92, y + h * 0.72); ctx.closePath(); }
     else { const h = r * 1.18; ctx.moveTo(x, y - h); ctx.lineTo(x + h, y); ctx.lineTo(x, y + h); ctx.lineTo(x - h, y); ctx.closePath(); }
   }
+  // THE SAME SHAPE INSET BY `d` ON EVERY SIDE (v1.280.0, the inside mark's gold, NG_MAP_MARKS): `shapePath` scaled about the
+  // shape's INCENTRE, the one point equally far from every side, so each side moves in by exactly `d`. A circle's is its
+  // centre (radius r); the diamond's too (inradius 1.18 r / sqrt 2 = 0.8344 r, so r - 1.1985 d); the triangle's lies
+  // 0.2278 r below (x, y) (apex 1.35 r up, base 0.972 r down, half-base 1.242 r: inradius 0.7442 r), so its r loses
+  // 1.3438 d and its (x, y) moves down 0.3061 d. Clamped at nothing left.
+  _insetPath(ctx, ty, x, y, r, d) {
+    if (ty === "positions") return this.shapePath(ctx, ty, x, y, Math.max(0, r - d));
+    if (ty === "submissions") { const r2 = Math.max(0, r - 1.34376 * d); return this.shapePath(ctx, ty, x, y + 0.30613 * (r - r2) / 1.34376, r2); }
+    return this.shapePath(ctx, ty, x, y, Math.max(0, r - 1.19849 * d));
+  }
+  // THE SAME SHAPE GROWN BY `h` ON EVERY SIDE, ROUND AT THE CORNERS (v1.280.0, the outside mark's line, NG_MAP_MARKS): each
+  // side of `shapePath`'s polygon moved out by h along its own outward normal, joined by an arc of radius h about each
+  // corner (a circle: radius r + h). Stroked 2h wide it covers exactly the band from the silhouette to h x 2 out, round at
+  // the corners: the outside line with no clip, never on its own orb.
+  _outsetPath(ctx, ty, x, y, r, h) {
+    if (ty === "positions") { ctx.moveTo(x + r + h, y); ctx.arc(x, y, r + h, 0, 6.2832); return; }
+    const k = r * (ty === "submissions" ? 1.35 : 1.18);
+    const V = ty === "submissions" ? [[x, y - k], [x + k * 0.92, y + k * 0.72], [x - k * 0.92, y + k * 0.72]] : [[x, y - k], [x + k, y], [x, y + k], [x - k, y]];
+    const N = V.map((p, i) => { const q = V[(i + 1) % V.length], dx = q[0] - p[0], dy = q[1] - p[1], l = Math.hypot(dx, dy); return [dy / l, -dx / l]; });
+    for (let i = 0; i < V.length; i++) {
+      const q = V[(i + 1) % V.length], n = N[i], m = N[(i + 1) % V.length];
+      if (!i) ctx.moveTo(V[0][0] + n[0] * h, V[0][1] + n[1] * h);
+      ctx.lineTo(q[0] + n[0] * h, q[1] + n[1] * h);
+      ctx.arc(q[0], q[1], h, Math.atan2(n[1], n[0]), Math.atan2(m[1], m[0]), false);
+    }
+    ctx.closePath();
+  }
 
   // Warm only after a playable hand paints, then at idle. Ingest and progress
   // publication must not import the palette on the boot path (D-298). Until then
@@ -21585,10 +21634,12 @@ class Component extends DCLogic {
   // grades, load and merged progress). An import holds no owner/progress snapshot:
   // completion re-reads the CURRENT setting and evidence, including a late Off.
   // Failed imports retain base paint and retry on the next enable/publication.
+  // v1.280.0 (GOLD1, ruled): "Turn what you know gold" is retired; the stored `masteryGold` stays stored, synced and
+  // readable and is never read here (a settings key is retired by ceasing to read it, CLAUDE.md 6.6): the map's gold is the
+  // outlines (NG_MAP_MARKS). What is left is the site mix of a merged pair, exactly as it painted with the switch Off.
   _rebuildMapPaint() {
-    const on = this.get("masteryGold", false);
-    if ((!on && !NG_MIX_SITES_BY_DEFAULT) || !this._mapPaintReady || !this.nodes || this.__ngDestroyed) { this._mapPaint = null; return; }
-    if (this._goldModule) { this._mapPaint = this._goldModule.ngGoldCache(this, on); return; }
+    if (!NG_MIX_SITES_BY_DEFAULT || !this._mapPaintReady || !this.nodes || this.__ngDestroyed) { this._mapPaint = null; return; }
+    if (this._goldModule) { this._mapPaint = this._goldModule.ngGoldCache(this); return; }
     this._mapPaint = null;
     if (!this._goldLoading) {
       this._goldLoading = this._fetchMasteryGold(this._goldAttempt = (this._goldAttempt || 0) + 1).then(module => {
@@ -21610,7 +21661,6 @@ class Component extends DCLogic {
   _mapFocusColor(n) {
     const e = this._mapPaint && this._mapPaint[n.idx];
     if (!e) return this.myColor(n);
-    if (this.get("masteryGold", false)) return this._mapColor(n);
     const half = this.myColor(n), k = this._lodK == null ? 1 : this._lodK;
     return k === 1 ? half : k === 0 ? e.sitePaint : this.lerp3(e.sitePaint, half, k);
   }
@@ -21945,8 +21995,9 @@ class Component extends DCLogic {
     // Position is collapsed continuously by LY(), so the fade only ever finishes on top of a
     // coincident pair — nothing pops, and no crossfade is needed.
     const cullPad = 60 / scale, cxv = this.cam.cx, cyv = this.cam.cy, halfVW = this.cam.vw / 2, halfVH = (H / scale) / 2;
-    const spec = this._hasGround ? [] : null, gold = this._movesGold(), seals = [];
-    let focusSealR = 0;   // the focus mark's own radius, when it is drawn: a known seat's dot sits on the MARK's shoulder
+    // the map's gold (NG_MAP_MARKS), collected per drawn orb and drawn after the loop, batched: `insG` inside, `outG` outside
+    const spec = this._hasGround ? [] : null, gold = this._movesGold(), insG = [], outG = [], MK = NG_MAP_MARKS;
+    this._lastMapMarks = [];
     for (const n of this.nodes) {
       // RULESET CULL, first and hardest: a state this ruleset cannot produce is not dimmed, it is
       // absent. Every other cull below is a rendering decision; this one is the graph's content.
@@ -21965,10 +22016,53 @@ class Component extends DCLogic {
       const rD = rr * nodeK * bk;
       ctx.fillStyle = this.rgba(this._mapColor(n, true), 0.62 * A * dim * fogK * aK);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, ny, rD); ctx.fill();
-      // a move you know wears the seal's dot (v1.272.0; U122 a's thin/thick gold outline before it), painted with the names
-      if (gold.size && aK > 0.55 && gold.has(n.idx)) seals.push([n, ny, rD, fogK]);
+      // THE MAP'S GOLD (v1.280.0): which orbs wear it is the dot's old gate (a member, never the defender twin, drawn at more
+      // than 0.55 of its alpha); the seat wears its outside line on its mark below, and no inside mark
+      if (aK > 0.55 && n.role !== "defender" && n.idx !== drawFocus) {
+        const out = gold.has(n.idx), rs = rD * scale, k = this._answered(n) ? Math.max(0, Math.min(1, (rs - MK.inFrom) / (MK.inFull - MK.inFrom))) : 0;
+        if (out || k > 0) {
+          const a0 = A * dim * fogK * aK;
+          if (k > 0) insG.push([n, ny, rD, a0 * k, Math.max(MK.borderMin, Math.min(MK.borderMax, MK.borderK * rs))]);
+          if (out) outG.push([n, ny, rD, a0]);
+          this._lastMapMarks.push({ idx: n.idx, x: (n.x - this.cam.cx) * scale + W / 2, y: (ny - this.cam.cy) * scale + H / 2, rs, ty: n.ty, out, inK: k, seat: false });
+        }
+      }
       // one light direction for the whole scene — collected here, painted in a single batch below
       if (spec && rD * scale > 7 && aK > 0.55 && fogK > 0.5) spec.push(n.x - rD * 0.3, ny - rD * 0.3, rD * 0.4);
+    }
+    // THE MARKS, BATCHED (v1.280.0, NG_MAP_MARKS), after every orb's fill, with no clip in the ordinary frame. INSIDE: each orb's
+    // border band (the shape minus the shape inset by the border, even-odd) in its own colour over its own fill, then the gold
+    // of every inset shape, one fill per alpha; both lie within the orb's own silhouette, and no gold is ever under a band.
+    // Where two inside-marked orbs overlap, the one drawn later lays its band and its gold over its neighbour's part of the
+    // overlap (the marks come after every fill): shown in the owner's pictures (GOLD1-GO 5; the first build's union clip and
+    // stroked border gave a half-border there). OUTSIDE: each shape's outset path (`_outsetPath`), stroked the line's width,
+    // one stroke per alpha: the line never lies on its own orb, so no clip is needed; only when two outside-marked shapes
+    // come within reach of each other is ONE even-odd clip taken (the view's box and every outside-marked shape), so a line
+    // never shows inside a neighbour. The first build stroked each shape's own edge 2 lines wide under that clip, and so needed
+    // one more clip per overlapping shape (its own complement, the view's box and the shape): a clip over the whole view each,
+    // +0.4 / +0.5 ms on a held frame at 390 with every dealt orb marked (GOLD1 part B). Why one even-odd clip is now enough:
+    // a line lies outside its own shape, so where it crosses into ONE neighbour it is inside exactly one shape, odd, and the
+    // clip leaves it out; only where three marked shapes meet could a line be inside two at once (even) and show.
+    const byAlpha = (gs) => { const m = new Map(); for (const g of gs) { const k = Math.round(g[3] * 20) / 20; (m.get(k) || m.set(k, []).get(k)).push(g); } return m; };
+    for (const [n, y, r, al, bw] of insG) {
+      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, y, r); this._insetPath(ctx, n.ty, n.x, y, r, bw / scale);
+      ctx.fillStyle = this.rgba(this._mapColor(n, true), MK.borderA * al); ctx.fill("evenodd");
+    }
+    for (const [al, gs] of byAlpha(insG)) {
+      ctx.beginPath(); for (const [n, y, r, , bw] of gs) this._insetPath(ctx, n.ty, n.x, y, r, bw / scale);
+      ctx.fillStyle = this.rgba(MK.gold, MK.goldA * al); ctx.fill();
+    }
+    if (outG.length) {
+      const h = MK.line / 2 / scale, ext = (n) => n.ty === "submissions" ? 1.578 : n.ty === "positions" ? 1 : 1.18;
+      const lap = outG.some(([n, y, r], i) => outG.some(([m, y2, r2], j) => j > i && Math.hypot(m.x - n.x, y2 - y) < ext(n) * r + ext(m) * r2 + 2 * h));
+      ctx.save();
+      if (lap) {
+        const vx = cxv - halfVW - cullPad, vy = cyv - halfVH - cullPad;
+        ctx.beginPath(); ctx.rect(vx, vy, 2 * (halfVW + cullPad), 2 * (halfVH + cullPad)); for (const [n, y, r] of outG) this.shapePath(ctx, n.ty, n.x, y, r); ctx.clip("evenodd");
+      }
+      ctx.lineWidth = 2 * h;
+      for (const [al, gs] of byAlpha(outG)) { ctx.beginPath(); for (const [n, y, r] of gs) this._outsetPath(ctx, n.ty, n.x, y, r, h); ctx.strokeStyle = this.rgba(MK.gold, MK.goldA * al); ctx.stroke(); }
+      ctx.restore();
     }
     // ── LIGHT IS WHAT THE EYE READS DEPTH FROM (v1.113.2) ──────────────────────────────────────
     // An affine shear with no shading is invisible — that is the whole reason the iso build did
@@ -22018,12 +22112,18 @@ class Component extends DCLogic {
       // recolor the current node to YOUR perspective (red when you're losing, blue when winning)
       ctx.fillStyle = this.rgba(pc, 0.98 * A);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), rM); ctx.fill();
+      // A RECALLED SEAT (every dealt move a Yes) wears the outside line OUTSIDE the mark's rim (NG_MAP_MARKS; no inside mark on
+      // the seat): the rim below is 2 px wide on the mark's edge, so 1 px out; the line is the band from 1 to 2 px out
+      if (gold.has(n.idx)) {
+        const y = LY(n);
+        ctx.beginPath(); this._outsetPath(ctx, n.ty, n.x, y, rM, (1 + MK.line / 2) / scale); ctx.lineWidth = MK.line / scale; ctx.strokeStyle = this.rgba(MK.gold, MK.goldA * A); ctx.stroke();
+        this._lastMapMarks.push({ idx: n.idx, x: (n.x - this.cam.cx) * scale + W / 2, y: (y - this.cam.cy) * scale + H / 2, rs: rM * scale, ty: n.ty, out: true, inK: 0, seat: true });
+      }
       // the rim was the SAME colour as the fill, i.e. invisible — a "selected" outline has to
       // contrast with what it outlines, so it is lightened toward white.
       ctx.strokeStyle = this.rgba(this.lerpCol(pc, { r: 255, g: 255, b: 255 }, 0.55), 0.95 * A);
       ctx.lineWidth = 2 / scale;
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), rM); ctx.stroke();
-      focusSealR = rM;   // a known seat's dot goes on the mark's shoulder, not the orb's under it (painted with the names)
     }
 
     ctx.globalCompositeOperation = "lighter";
@@ -22121,7 +22221,7 @@ class Component extends DCLogic {
     // labels — none while a phone's drawer is open: it takes the screen (`applyDeckVisibility`), and a name under it cannot be
     // read, the position's own included (v1.275.0; measured: 343 of 390 px, the rest too narrow for any name)
     const covered = cfg.showLabels && this.deckShown && this.isMobile();
-    if (covered) this._lastPairLabel = this._lastRichLabel = this._lastHoverLabel = this._lastOptLabels = this._lastOptBoxes = null, this._lastNameBoxes = this._lastMapSeals = [];
+    if (covered) this._lastPairLabel = this._lastRichLabel = this._lastHoverLabel = this._lastOptLabels = this._lastOptBoxes = null, this._lastNameBoxes = [];
     if (cfg.showLabels && !covered) {
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       // HOW FAR RIGHT A NODE'S SILHOUETTE ACTUALLY REACHES, in screen px (v1.114.0). Every label
@@ -22146,6 +22246,11 @@ class Component extends DCLogic {
       const NB = this._nameBlocks(), wid = (f, s) => s ? (ctx.font = f, ctx.measureText(s).width) : 0;
       const clear = (l, r, t, b) => l >= NB.l + 4 && r <= W - 4 && t >= 4 && b <= H - 4 && !claims.concat(NB.blocks).some((q) => l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3);
       const side = (x0, w, t, b, x1) => clear(x0, x0 + w, t, b) || !clear(x1 - w, x1, t, b) ? x0 : x1 - w;
+      // THE POSITION'S OWN NAME (v1.280.0, POSNAME, ruled: "the position's own name obeys the rule every name obeys since
+      // v1.275.0: never under a control, never cut by the screen"): its usual side, else the mirror beside its orb, else not
+      // written THAT frame (the reader's header and the row name it). It still claims first, so nothing else moves. Found
+      // live on v1.278.1 (1440 Standing, pulled back and dragged: its name under the row's cards, a letter between two cards).
+      const place = (x0, w, t, b, x1) => clear(x0, x0 + w, t, b) ? x0 : clear(x1 - w, x1, t, b) ? x1 - w : null;
       // Rich labels own the graph's naming structure: role + short headline + optional qualifier.
       // Callers cannot pass a pre-composed name; that is how the merge-scale fallback used to put
       // "from Mount" back into the headline while the split pair rendered it as a subtitle.
@@ -22154,11 +22259,19 @@ class Component extends DCLogic {
         const lA = big ? A * arriveA : A; // big = the focused state's label — it rides the arrival ramp
         const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         if (sx < -120 || sx > W + 260 || sy < -30 || sy > H + 50) return;
-        const ox = sx + halfW(n) + 11;
-        const maxW = Math.max(60, W - ox - 12);
         const sp = this.splitName(n.t);
         const main = this.graphName(n);
         const qual = n.ty === "positions" ? "" : sp.from || "";
+        const dfam0 = this._displayFam || "'Space Grotesk'", rNamePx0 = big ? this.nameFontPx() : 13;
+        let ox = sx + halfW(n) + 11;
+        if (big) {   // the position's own: placed (POSNAME); its width as it will be drawn, trimmed to the room its side has
+          const lift0 = qual ? this.NG_LABEL_LEAD / 2 : 0, t0 = sy - 7 - lift0 - 11, b0 = sy + 11 - lift0 + (qual ? this.NG_LABEL_LEAD : 0) + 4;
+          const wBlock = (room) => Math.max(wid("700 11px " + dfam0 + ", sans-serif", role.toUpperCase()) + 15 + starPx / 2, Math.min(room, wid("700 " + rNamePx0 + "px " + dfam0 + ", sans-serif", main)), Math.min(room, wid("600 11.5px " + dfam0 + ", sans-serif", qual)));
+          const x1 = sx - halfW(n) - 11, wR = wBlock(Math.max(60, W - ox - 12)), wL = wBlock(Math.max(60, x1 - 12));
+          ox = clear(ox, ox + wR, t0, b0) ? ox : clear(x1 - wL, x1, t0, b0) ? x1 - wL : null;
+          if (ox == null) return;
+        }
+        const maxW = Math.max(60, ox > sx ? W - ox - 12 : sx - halfW(n) - 11 - ox);
         // Shift the existing role/name pair together by half a row when a qualifier appears, so
         // adding the third line does not move the visual centre of the whole merged label.
         const lift = qual ? this.NG_LABEL_LEAD / 2 : 0;
@@ -22314,8 +22427,12 @@ class Component extends DCLogic {
         // THE POINTER'S GROUP TAKES THE OTHER SIDE OF ITS PAIR when its own is off the map, under a control or on the position's
         // name (v1.275.0, `side`); the position's own group never moves ("the name never moves").
         const fN = "700 " + namePx + "px " + dfam + ", sans-serif", fQ = "600 " + (focused ? "11.5px " : "10.5px ") + dfam + ", sans-serif", fS = "700 " + (focused ? 12 : 11) + "px " + dfam + ", sans-serif";
-        const ox = focused ? sx + hw2 + 11 : side(sx + hw2 + 11, Math.max(wid(fN, nm), wid(fQ, qual), wid(fS, sub) + 15 + starPx / 2), Math.min(nameY, subY) - namePx, Math.max(qualY, subY) + 4, sx - hw2 - 11);
-        const gMaxW = Math.max(60, W - ox - 12);
+        const gw = Math.max(wid(fN, nm), wid(fQ, qual), wid(fS, sub) + 15 + starPx / 2), gt = Math.min(nameY, subY) - namePx, gb = Math.max(qualY, subY) + 4;
+        // the position's own group is placed (POSNAME): its usual side, the mirror, or not this frame (`true`: named, nothing
+        // else stands in for it); the pointer's group mirrors once as before (`side`)
+        const ox = focused ? place(sx + hw2 + 11, Math.min(gw, Math.max(60, W - sx - hw2 - 23)), gt, gb, sx - hw2 - 11) : side(sx + hw2 + 11, gw, gt, gb, sx - hw2 - 11);
+        if (ox == null) { this._lastPairLabel = null; return true; }
+        const gMaxW = Math.max(60, ox > sx ? W - ox - 12 : sx - hw2 - 11 - ox);
         ctx.font = fN;
         const drawnMain = this._fitText(ctx, nm, gMaxW);
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, aF);
@@ -22440,12 +22557,13 @@ class Component extends DCLogic {
       }
       // THE DEALT MOVES' NAMES, then the lit trail's, each through `_planNames` against everything claimed above (v1.275.0).
       // The orbs a name must not cross: every dealt move's and the position's pair, as drawn (`LY`, the bare silhouette), each
-      // with the reach of a gold dot on its shoulders (`_sealGeo`), whether it wears one or not.
+      // with the outside gold line's reach (NG_MAP_MARKS.line beyond the silhouette, v1.280.0; the dot's reach before),
+      // whether it wears one or not, so a grade never moves a name.
       const orbs = [];
       for (const i of (this.optionIdxs || []).concat(drawFocus >= 0 ? [drawFocus, this.nodes[drawFocus].pi] : [])) {
         const n = this.nodes[i]; if (!n || !rsOk[i] || (n.z && !n.rep && kLOD < 0.5)) continue;   // a twin counts once split (`pairGroup`'s threshold)
-        const r = this._nodeHalfW(n, scale, nodeK, kLOD, true), [R, up, down] = this._sealGeo(n, r);
-        orbs.push({ i, x: (n.x - this.cam.cx) * scale + W / 2, y: (LY(n) - this.cam.cy) * scale + H / 2, r, reach: Math.max(r, Math.max(up, down) * 1.4142 + R) + 1 });
+        const r = this._nodeHalfW(n, scale, nodeK, kLOD, true);
+        orbs.push({ i, x: (n.x - this.cam.cx) * scale + W / 2, y: (LY(n) - this.cam.cy) * scale + H / 2, r, reach: r + NG_MAP_MARKS.line });
       }
       // THE CAMERA MOVES OR RESTS, PER SECOND of the frame clock (v1.275.0; R1 findings 7 and 9). Moving: the zoom changing
       // faster than 0.12 (log units) a second, or the map sliding faster than 30 px a second, since the last drawn frame
@@ -22531,11 +22649,6 @@ class Component extends DCLogic {
       }
       if (trail.length) write("lit", trail, litCol);
       this._lastNameBoxes = claims;
-      // THE SEALS (v1.272.0): over every orb, the scene's highlight and the focus mark, and laid out with every name this
-      // frame wrote (v1.275.0: all of them, the position's and the pointer's too, which are now written first), so a dot
-      // never sits on a name (`_mapSeal`). Drawn last. Published, as the names are.
-      this._lastMapSeals = [];
-      for (const [n, y, r, k] of seals) this._mapSeal(ctx, n, y, n.idx === drawFocus && focusSealR ? focusSealR : r, scale, A * dim * k, ox, oy, claims);
     }
     this._syncSeatStars(seatStars);
   }

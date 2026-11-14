@@ -18300,3 +18300,93 @@ stored row rewritten, two devices converging and both heals only later all held.
   first-hand core 384,492 (+3,197 on 381,295, this PR's +381, of 6,000); deferred raw 522,091, its ceiling moved to
   exactly that in its own commit under U170 a (b729ef8c4; dev's own use 521,758). Stored progress: no new field, no key,
   no row rewritten.
+
+## v1.280.0 — The map's gold becomes outlines; the seal tells the same story; the gold switch leaves Settings; the position's own name obeys the control rule (GOLD1, U183 a, 2026-11-14)
+
+**The owner's rule (U183 a, "build it as drawn").** A move you recalled here (a Yes) wears a gold line OUTSIDE its orb; a
+move whose questions are answered (its own half's deck all learned) wears gold INSIDE, its own colour kept as a border.
+Independent. The claim every proof hits: the orb's own colour is visible in every state at every size (the old outline and
+the "Turn what you know gold" recolour both lost it). Design "e": outside gold 240,192,90 at 0.95, 1 px from the
+silhouette out, round joins; inside drawn in full from rs 3.2 px, none at 2.4 or less, linear between; border
+clamp(0.32 rs, 1.2, 2.2) px. Never on a defender twin; the seat wears its line outside the focus mark's rim, no inside mark.
+
+**Built (`NG_MAP_MARKS`, `draw()`), after every orb's fill, with no clip in the ordinary frame.** Inside: each orb's border
+band (the shape minus the shape inset by the border, even-odd) in its own colour over its own fill at 0.87 (0.95 of the
+colour with the fill), then the gold of every inset shape, one fill per alpha (`_insetPath`: `shapePath` scaled about the
+incentre, so each side moves in by exactly d: circle r - d; diamond r - 1.1985 d; triangle r - 1.3438 d, centre 0.3061 d
+lower). Outside: each shape's outset path (`_outsetPath`: each side moved out by half the line, an arc about each corner),
+stroked the line's width, one stroke per alpha; it never lies on its own orb, so no clip; one even-odd clip (the view's box
+and every outside-marked shape) only when two marked shapes come within reach, so a line never shows inside one neighbour.
+The seat's line is the band 1 to 2 px out by the same path (the rim covers the first pixel). Three first builds, each
+caught: part A's reversed shapes, non-zero, for overlaps (wrong: the winding is -1 inside two shapes); the inside's border
+stroked over a full gold fill, both at the fade's alpha (at rs 2.8 the gold showed through the band, 160,137,117 on a
+103,92,103 orb: map-gold.spec.ts); and the outside stroked on the edge under a clip per overlapping shape (a clip over the
+whole view each: +0.4 / +0.5 ms on a held frame at 390, every dealt orb marked, against the dot's +0.1). Where two
+inside-marked orbs overlap, the later one's band and gold lie over the neighbour's part (the owner's pictures). At
+mitosis the partner half is drawn at alpha kLOD and the marks' gate is 0.55: below kLOD 0.55 only the rep half wears
+marks. The names' keep-clear around every dealt orb is the silhouette plus the line (1 px), not the dot's reach.
+
+**The seal (`_sealCard`).** ring = recalled, disc = answered (it reads `_answered`, the map's own test; the card's face keeps
+`_deckLearned`), both = the disc in the ring, a dark gap between, the tick kept (no smear at dpr 2 or 3). Words: "You recalled this move here" · "Its
+questions are answered" · "Recalled here, and its questions answered".
+
+**The switch.** "Turn what you know gold" left Settings; `masteryGold` stays stored, synced and readable, read for no paint
+(a settings key can never be deleted). Every canvas surface is its own colour again. The palette module keeps three
+pigments and the overview's site mix, bit-identical to dev's Off paint (2,862 halves, 1,431 sites, a one-off unit). The
+publish's "map-paint" rebuild went too (the cache no longer reads knowledge). Partial progress is gone from the map; it
+remains on the landing card's count, the history rows, the Path's crowns and Practice's rows.
+
+**POSNAME.** The position's own name (`richLabel` big, `pairGroup` focused) is placed like any name: its usual side if
+clear of the controls and the screen, else the mirror, else not written that frame; it still claims first. The survey: position names 640 -> 640 at the app's own cameras, 0 of 960 cases differ.
+Five journeys assumed it is always drawn and are restated, each with its "was": on a phone the reading arrival can mint
+White Foundations, whose card covers the node band, so announcer-coherence and seat-star dismiss it first (as
+article-sections did); article-sections reads the reading frame's centre on the orbs while the article crosses the seat;
+graph-naming puts the pair in the free band above the open article.
+
+**Proof.** map-gold.spec.ts reads the ink: a circle, diamond and triangle in their own paint and in the app's blue, red and
+grey (set through `_mapColor` for the one orb: no markable orb is that red, no markable triangle grey), each drawn alone at
+rs 2.0, 2.8, 3.2, 5 and 8 (camera searched on the published rs), four states, 390 and 1440: the band is the orb's own
+colour in every state; the outside is gold iff a Yes; the inside iff answered and from 3.2 (warmer at 2.8); at 2.4 or
+less the centre is the own colour. known-move-seal.spec.ts: the marks on the right orbs, none on a twin whose deck is
+learned, none inside the seat whose deck is learned, centred at LY, no move name within reach, every changed pixel within
+a mark's reach (circle 1, diamond 1.18, triangle 1.58 rs, plus 3 px). map-names.spec.ts: the R+1 crossing, `nameGap`, and
+a POSNAME test (1440 Standing, wheeled out three times, dragged until the seat's orb is under the row). The seal's kinds
+are restated in known-move-seal, moves-mastery, hidden-moves and known-moves-shown; the switch's six journeys and ten
+units each kept, restated or retired with what they claimed before (mastery-gold.spec.ts, tests/mastery_gold.test.mjs).
+Mutants, each one replacement in app.src.jsx, rebuilt, the named files in full (seconds): G1 the outside line on an
+answered orb without a Yes (133) red at "no outside line on any node the moves record does not know" and "the outside line
+is gold when and only when there is a Yes"; G2 the inside on a recalled orb not answered (103) and G5 the inside only with
+a Yes too (85) red at the inside claims of both files; G3 the inside from rs 1.4 (70) red at "at rs 2.4 px or less the
+centre is the orb's own colour"; G4 the gold over the whole shape (111), G10 the first build's inside exactly (118) and G11
+the line centred on the edge (108) red at "the border band is the orb's own colour in every state, at every size"; G6c
+the twin gate and `_answered` reading a defender's deck (43) red at "no mark on a defender twin" (G6, the gate alone, a
+non-kill: both sets already leave a twin out); G7 the seat in the gate (23) red at "1440: no inside mark on the seat"; G8
+the keep-clear at the dot's reach (164) red at "names use the room the dot's reach took"; G9 the bare silhouette (140)
+red at "no move's name across another dealt orb or its outside line"; P1 POSNAME exempt (153) red at "the position's own
+name is under no control"; U1 the publish's paint rebuild back red at unit 10. Dev's own bundle: map-gold and
+known-move-seal red 8 of 8. G2, G3, G5 to G9 and P1 ran on the build before the outset line (their code is unchanged).
+
+**Measured** (tests/artifacts/_map_names_frametime.mjs, 4x CPU throttle, Standing top, 36 dealt orbs; `--ab marks`, paired
+frames, the median of B - A, every dealt orb marked both ways against none, ms, 390 held / drag, 1440 held / drag): dev's
+dot +0.1 / 0.0, +0.1 / +0.1 and +0.1 / +0.1, +0.2 / +0.1; the first build +0.5 / +0.1, +0.4 / +0.3; built +0.1 / 0.0,
++0.1 / +0.1 (a first run's 390 held read +1.2 under load, its bare frame at 9.0 ms against 5.0 to 5.8 in every other).
+v1.278.1's figures from the same script: `--ab hides` (the live check against the old box rule, held / drag): blocks +0.1 / +0.4 at 390, +0.6 / +0.6 at
+1440; paired +0.2 / +0.1, +0.4 / +0.4 (box and style reads equal in both modes; a busier box than #414's).
+Run: `node tests/artifacts/_map_names_frametime.mjs --ab marks [--app <dev's neural/dist>]` and `--ab hides [--method
+blocks]`, a built tree served at :8196. Names (tests/artifacts/_map_names_survey.mjs, 960 cases, dev 3e39b0aa6's bundle ->
+this): moves 1,907 -> 1,962 (98 gained, 45 lost), the four faults 0 both sides in all 24 rows; every dealt move marked: positions 640 -> 640, moves 1,962 -> 1,960, the faults 0.
+
+**Bytes.** On the merged head (dev v1.279.0 in): eager gzip 366,113, +4,226 of 5,000 on 361,887; first-hand core 385,566,
++4,271 of 6,000 on 381,295; 11 boot requests. My share alone, against dev 689f03b9f's own bundle on the same tree: neural.js +2,774 raw (719,994 against 717,220); eager gzip +1,067 (366,113 against 365,046); first-hand core +1,075 (385,566 against 384,491); deferred raw -774 (521,317 against 522,091).
+The palette module shrinks 1,412 -> 892 B. No baseline or ceiling moved but the archive's (+50,000, its own commit).
+
+**Runs** (the build lock, the merged head): units 1,669 of 1,669; the 46 journeys that read map names, seals, Settings or
+the palette, 518 passed, 24 red, all accounted for (16 restated: the seal's old kinds, the seat's name assumed drawn; 8
+legal-pages on this worktree's stale built privacy page, which predates its controller line); the restated files and
+three more label readers 113 of 114, then landcard-chrome restated (a frame drawn at rest) 6 of 6 over three repeats; e2e:gen's 12 on the same
+markers 12 of 12; npm run ci:validate 25 of 25. After merging dev v1.279.0 (PR 416): the five files that read the marks
+and the names 40 of 40, the app rows re-seeded, npm run ci:validate 25 of 25 on the pushed head.
+
+**Not covered.** Overlapping marked orbs and the seat's line are in the pictures, not asserted; a real phone (the canvas
+caps at dpr 2; read in headless Chromium); an ancestor's opacity above a control (v1.278.1, unchanged); G6 (the gate's
+twin check alone) is a non-kill by design: both sets already leave a twin out.

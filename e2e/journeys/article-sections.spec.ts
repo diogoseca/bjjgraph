@@ -370,16 +370,18 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
 
 // Measure this frame's published label strings/baselines with their actual font,
 // and both drawn seats through LY. Never use the camera target or stored n.y.
-const tocCanvasGeometry = (page: Page) => page.evaluate(() => {
+// v1.280.0 (POSNAME): the position's own name is never written under a control, so with the article across the node it is
+// not written that frame; `needLabel` false lets the reading frame have none (`labels` empty, `named` false)
+const tocCanvasGeometry = (page: Page, needLabel = true) => page.evaluate((needLabel) => {
   const a = (window as any).__neural, n = a.nodes[a.focusIdx], scale = a.W / a.cam.vw
   const pair = a._lastPairLabel, rich = a._lastRichLabel
   const group = pair && pair.focused && [n.idx, n.pi].includes(pair.idx) ? pair : null
-  const label = group || rich
-  if (!label || !group && (!rich.big || rich.idx !== n.idx)) throw Error('The current node must have a drawn label')
+  const label = group || (rich && rich.big && rich.idx === n.idx ? rich : null)
+  if (!label && needLabel) throw Error('The current node must have a drawn label')
   const ctx = document.createElement('canvas').getContext('2d')!, fam = a._displayFam || "'Space Grotesk'"
-  const rows = group ? [[group.main, group.nameY, group.namePx, 700], [group.qual, group.qualY, 11.5, 600], [group.sub, group.subY, 12, 700]]
+  const rows = !label ? [] : group ? [[group.main, group.nameY, group.namePx, 700], [group.qual, group.qualY, 11.5, 600], [group.sub, group.subY, 12, 700]]
     : [[rich.name, rich.nameY, rich.namePx, 700], [rich.qual, rich.qualY, 11.5, 600], [rich.kicker.toUpperCase(), rich.roleY, 11, 700]]
-  const labels = rows.filter(([text]) => text).map(([text, y, size, weight]) => {
+  const labels = !label ? [] : rows.filter(([text]) => text).map(([text, y, size, weight]) => {
     ctx.font = `${weight} ${size}px ${fam}, sans-serif`
     const m = ctx.measureText(text as string)
     return { left: label.ox - m.actualBoundingBoxLeft, right: label.ox + m.actualBoundingBoxRight,
@@ -397,10 +399,11 @@ const tocCanvasGeometry = (page: Page) => page.evaluate(() => {
   const intersections = [...labels, ...orbs].filter(r => r.left < toc.right && r.right > toc.left && r.top < toc.bottom && r.bottom > toc.top)
   const bounds = [...labels, ...orbs], mid = a.pairMid(n)
   return { toc, labels, orbs, intersections, map: a._graphInputOn(), reading: !!a._reader.interacting,
-    center: (Math.min(...bounds.map(r => r.left)) + Math.max(...bounds.map(r => r.right))) / 2,
+    center: (Math.min(...bounds.map(r => r.left)) + Math.max(...bounds.map(r => r.right))) / 2, named: !!label,
+    orbCenter: (Math.min(...orbs.map(r => r.left)) + Math.max(...orbs.map(r => r.right))) / 2,
     point: { x: a.W / 2 + (mid.x - a.cam.cx) * scale, y: a.H / 2 + (mid.y - a.cam.cy) * scale },
     firstTop: a._reader.head.getBoundingClientRect().top }
-})
+}, needLabel)
 
 // STALE CONTRACT: D-318 U4a replaces the free-gutter correction with centred
 // arrival and native occlusion. Restoring that correction must fail this claim.
@@ -432,9 +435,13 @@ test('current node stays centred while the native article crosses it at every wi
       await page.locator('[data-section-type=overview]').scrollIntoViewIfNeeded()
     }
     await j.advance(3000); await page.evaluate(() => document.body.offsetHeight); await j.advance(3000)
-    const reading = await tocCanvasGeometry(page)
+    const reading = await tocCanvasGeometry(page, false)
     expect(reading).toMatchObject({ map: true, reading: true })
-    expect(Math.abs(reading.center - board.center)).toBeLessThan(1)
+    // v1.280.0 (POSNAME): was "the composition (labels and orbs) keeps its centre"; with the article across the node the
+    // seat's name is not written (it would be under a control), so the orbs keep theirs, and a name still written keeps it too
+    expect(board.named, width + 'px: at rest above the article the seat is named').toBe(true)
+    expect(Math.abs(reading.orbCenter - board.orbCenter)).toBeLessThan(1)
+    if (reading.named) expect(Math.abs(reading.center - board.center)).toBeLessThan(1)
     expect(Math.abs(reading.point.y - board.point.y)).toBeLessThan(1)
     // NOT CLICKABLE THERE (DASH-R4, review finding 9d): the node seen through a row's gutter is dead to the mouse. The
     // gutter is the reader's grid, so a press there is reading: it pauses the game and, with a mouse, declines an

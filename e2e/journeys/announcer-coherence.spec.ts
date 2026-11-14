@@ -451,6 +451,10 @@ for (const vp of [
     const j = journey(page);
     await j.boot("/Positions/Mount/Top");
     await j.advance(6000);
+    // v1.280.0 (POSNAME): the position's own name is never written under a control. The reading arrival can mint White
+    // Foundations, whose phone card covers the node band: the name used to be drawn under it, unreadable; dismissed here as
+    // article-sections.spec.ts dismisses it, so the name this test measures is one a player reads
+    if (await page.locator("[data-reward-close]").isVisible()) await j.clickByMouse("[data-reward-close]");
     // the pair group only draws once the roll has settled at roll zoom — pump until it publishes
     for (let i = 0; i < 12; i++) {
       await page.evaluate(() => document.body.getBoundingClientRect().top);
