@@ -606,6 +606,9 @@ test("20. a guest who only looked, as THIS build writes the copy (the app's own 
   g._flushSave();
   const copy = h.host.store.read(GUEST).blob;
   assert.ok(copy.openAt > 0 && copy.belts.gf > 0, "precondition: this build's bare landing writes the open rule's stamp and the grandfather's mark");
+  // v1.276.0: and the held level, seeded at 0 by the same belt sync (`_raiseLevel`), so the practice key meets it here.
+  // Mutant BELT-M8 (`ngProgressPracticeKey` keeps `belts.lvl`) turns "says nothing" below red.
+  assert.deepEqual([copy.belts.lvl && copy.belts.lvl.n, copy.belts.lvl && copy.belts.lvl.t > 0], [0, true], "precondition: this build's bare landing writes the held level (at 0)");
   await h.signIn("A");
   assert.deepEqual(h.said, [], "OPEN-M15: a bare visit's copy, as this build writes it, says nothing");
   assert.equal((accountBlob(h, A) || {}).openAt, undefined, "and the guest's stamp does not join: the account stamps its own");

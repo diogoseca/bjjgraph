@@ -128,6 +128,9 @@ function labelApp() {
   // This harness records canvas text without a DOM. Seat-star DOM placement and input
   // are covered by e2e/journeys/seat-star.spec.ts, while the canvas labels stay real here.
   a._syncSeatStars = () => {};
+  // ...and the same for the controls the map's names keep clear of (`_nameBlocks`, v1.275.0: DOM boxes): none here, the
+  // whole canvas free. What it measures, and the names' layout against it, is e2e/journeys/map-names.spec.ts.
+  a._nameBlocks = () => ({ blocks: [], l: 0, r: a.W, b: a.H, v: "" });
   a.cam = { cx: focus.x, cy: (focus.y + partner.y) / 2, vw: a.W / 3 };
   return { a, texts };
 }

@@ -119,6 +119,7 @@ function beltsOf(belts: any) {
   const out: any = { ...belts }
   if (out.held) out.held = { id: out.held.id }
   if (out.gf) out.gf = true
+  if (out.lvl) out.lvl = { n: out.lvl.n }   // v1.276.0: the held level, its stamp reduced the same way
   return out
 }
 
@@ -129,8 +130,12 @@ const SEED = normalize(whiteBeltHolder())
 // proved every White unit, so the first boot raises it to the belt it wears — blue. RAISED is that
 // belt saved WITHOUT the mark (order B, until the next save); MIGRATED is the belt plus the mark.
 // They are the ONLY changes to the economy subset, and they happen on boot 1 alone.
-const RAISED = (seed: any) => ({ ...seed, belts: { ...seed.belts, held: { id: "blue" } } })
-const MIGRATED = (seed: any) => ({ ...seed, belts: { ...seed.belts, held: { id: "blue" }, gf: true } })
+// v1.276.0: the same boot also seeds the HELD LEVEL (`belts.lvl`, the drawer row's belt) at the Path's level, blue with no
+// stripe (5), inside the same `_syncBelt` call that raises the belt, so it rides the raise's own save and adds no write.
+// Before v1.276.0 these were `{ held: { id: "blue" } }` and `{ held: { id: "blue" }, gf: true }`: the level is the one
+// value added, and every assertion below otherwise reads exactly as it did.
+const RAISED = (seed: any) => ({ ...seed, belts: { ...seed.belts, held: { id: "blue" }, lvl: { n: 5 } } })
+const MIGRATED = (seed: any) => ({ ...seed, belts: { ...seed.belts, held: { id: "blue" }, gf: true, lvl: { n: 5 } } })
 
 type Order = "manifest-first" | "curriculum-first"
 
@@ -141,7 +146,7 @@ const readState = (k: string) => {
   const w = window as any
   const a = w.__neural
   // the same reduction as `beltsOf` above (v1.211.0 stamps → their meaning), in the page
-  const belts = (x: any) => (!x ? x : { ...x, ...(x.held ? { held: { id: x.held.id } } : {}), ...(x.gf ? { gf: true } : {}) })
+  const belts = (x: any) => (!x ? x : { ...x, ...(x.held ? { held: { id: x.held.id } } : {}), ...(x.gf ? { gf: true } : {}), ...(x.lvl ? { lvl: { n: x.lvl.n } } : {}) })
   const norm = (b: any) => ({ v: b?.v, prep: b?.prep, rec: b?.rec, units: b?.units, belts: belts(b?.belts), stage: b?.stage })
   const raw = w.__ngGuestProgressRaw()
   const stored = raw ? JSON.parse(raw) : null

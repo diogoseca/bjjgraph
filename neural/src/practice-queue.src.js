@@ -1,4 +1,4 @@
-// THE ORDER PRACTICE ASKS IN (v1.274.0, owner U171 a and his Anki rule, 13 Nov 2026) — pure and stateless: no clock, no
+// THE ORDER PRACTICE ASKS IN (v1.278.0, owner U171 a and his Anki rule, 13 Nov 2026) — pure and stateless: no clock, no
 // DOM, no storage, no rng. Bundled into the deferred planner (gameplan.js, fetched when the drawer opens: U170 a) through
 // gameplan.src.js, and imported as a module by the unit suite (tests/practice_queue.test.mjs).
 //
@@ -21,7 +21,7 @@
 //     in a deck not loaded yet is exactly what has waited longest, and it would take a guard place every first session of
 //     the day (ANKI1-R1, the reader's finding 2). The reader measured the first push: with worth
 //     alone, 144 of 267 cards owed on day 1 were never asked in a year; with the two longest-due, none. Under this rule,
-//     re-measured (the archive, v1.274.0): two still ask every one for a player with 300 cards stored, but leave 93 to 128
+//     re-measured (the archive, v1.278.0): two still ask every one for a player with 300 cards stored, but leave 93 to 128
 //     of 1,288 never asked in a year for one with 1,500; three is the smallest guard that leaves none for both, at no
 //     measurable cost to the level (within 5 points of two's either way); four costs 6 to 11.
 //   · WHAT IS DUE FIRST. A POSITION (a seat: a position and a role) is scored by the sum of its six best owed worths;
@@ -55,7 +55,7 @@
 // STAGE 3 ASKS CARDS ONLY. Today's Practice page has no way to ask a hidden move (that is Stage 4, the map asks), so the app
 // hands no moves in: a visit is at most 6 question cards. The law takes moves (`kind: "move"`) for the parity and for Stage 4.
 //
-// research: docs/Changelog-Archive.md (v1.274.0).
+// research: docs/Changelog-Archive.md (v1.278.0).
 import { ngRatingRecall, ngRatingQ16 } from "./rating.src.js";
 
 const NG_PQ_CAP = 6;          // things asked at one position in a visit, at most (U171 a)

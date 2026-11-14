@@ -149,7 +149,7 @@ export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, de
     if (kept.length) ranking = { ...ranking, rows: ranking.rows.concat(kept) };
   }
   const budget = Math.max(0, Math.floor(Number.isFinite(target) ? target : 20)), left = budget - reviewed.length;
-  // WHAT IS WORTH MOST (U171 a, v1.274.0): the day's rows come from practice-queue.src.js when the app hands it the game:
+  // WHAT IS WORTH MOST (U171 a, v1.278.0): the day's rows come from practice-queue.src.js when the app hands it the game:
   // what is due first, worth most first, and a new card only when nothing is due (the owner's Anki rule, ANKI1).
   // Anything else (no game, no seat map, a record with no answer) is today's order below, and the plan says why.
   // a goal, never a cap: with nothing left of today's goal, Practice deals another round of the goal's size, by worth
@@ -266,7 +266,9 @@ function ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, r
     // ANKI1-R1: "at most 6" is a visit's, not the page's (a position comes round again while its cards are due, the
     // reader's finding 4); "nothing is due" is this ruleset's game (a card in a deck it hides waits in "Everything owed",
     // finding 1); and "Keep practising" deals the next round, "More new cards" adds whole techniques (finding 5)
-    why: "Practice asks the cards that are due first, position by position, starting where it is worth most: what comes up most in " +
+    // the view's name since v1.276.0 (owner U169 c), "Master the game": the deferred planner cannot see app.src.jsx's
+    // NG_PRACTICE_NAME, so the words are here; tests/practice_queue.test.mjs pins the two equal
+    why: "Master the game asks the cards that are due first, position by position, starting where it is worth most: what comes up most in " +
       "your rolls and what you are closest to forgetting. It asks about six at a position at a time, and a position comes round again " +
       "while its cards are due. The three cards due longest come every day, so none waits forever. New cards come only when nothing " +
       "due in this game is left; a card due in a deck this ruleset leaves out waits in \u201cEverything owed, oldest first\u201d. " +
@@ -290,7 +292,7 @@ export function ngGameplanLines(plan, live, key) {
   const cards = (k) => k + (k === 1 ? " card" : " cards"), name = (seat) => (seat ? seat.replace("|", " \u00b7 ") : "Other cards");
   // new cards only when nothing is due (ANKI1): a day of reviews says so instead of "0 new"
   const fresh = plan.newCards - extra - path;
-  return { heading: !row ? "Practice" : placed(row) ? name(row.seat) + " \u00b7 position " + (row.visit + 1) + " of " + n : lesson(row) ? "From the Path" : "More new cards",
+  return { heading: !row ? "Master the game" : placed(row) ? name(row.seat) + " \u00b7 position " + (row.visit + 1) + " of " + n : lesson(row) ? "From the Path" : "More new cards",
     count: n + (n === 1 ? " position" : " positions") + ": " + (live.dueCards ? cards(live.dueCards) + " to review \u00b7 " : "") +
       (fresh ? fresh + " new, by how often they come up in your rolls" : "new cards come when nothing is due") +
       (extra ? "; " + extra + " more new, " + (plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") : "") +

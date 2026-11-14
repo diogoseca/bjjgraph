@@ -355,7 +355,7 @@ test("P1-F: a Practice unit still starts its evidence-gated checkpoint", async (
 
 /** Open the card `qh` (of deck `deck`) the way a player reaches a later row: by its row's button in the session queue, then
  *  the deck's own arrows. The row is the plan's when the plan holds the card (filed under any deck that shares it), else the
- *  deck is appended through Practice's own append (the seam "Keep practising" and a Path lesson use). Since v1.274.0 the
+ *  deck is appended through Practice's own append (the seam "Keep practising" and a Path lesson use). Since v1.278.0 the
  *  day's queue is what is worth most (U171 a), so a seeded card is no longer the first; the list is scrolled back to its top
  *  so a claim about scrolling after this still has to earn its scroll. */
 async function openCard(page: any, j: any, deck: string, qh: string) {
@@ -406,7 +406,7 @@ test("P1-E: an unpoolable recognition card falls back to keyboard recall", async
     (window as any).__unpoolable = a.qhash(c.q);
   });
   await door(page, j);
-  // Until v1.274.0 the one owed card opened the queue (most overdue first); the day's queue is now what is worth most
+  // Until v1.278.0 the one owed card opened the queue (most overdue first); the day's queue is now what is worth most
   // (U171 a), so the card is opened the way a player reaches a later row (`openCard`)
   await openCard(page, j, "Mount|Top", await page.evaluate(() => (window as any).__unpoolable));
   await expect(page.locator('[data-mini-reveal]:visible')).toContainText("Reveal");
@@ -458,7 +458,7 @@ test("P1-A: long authored answers and enlarged text scroll to an operable grade"
   expect(length, "P1-A: a long authored answer was selected").toBeGreaterThanOrEqual(150);
   await page.addStyleTag({ content: '[data-practice-page] [data-mini-q], [data-practice-page] [data-mini-a] { font-size: 30px !important; }' });
   await door(page, j);
-  // until v1.274.0 the one owed card opened the queue; it is now opened as a player reaches a later row (U171 a)
+  // until v1.278.0 the one owed card opened the queue; it is now opened as a player reaches a later row (U171 a)
   const long = await page.evaluate(() => (window as any).__longCard);
   await openCard(page, j, long.key, long.qh);
   await page.locator('[data-mini-reveal]:visible').scrollIntoViewIfNeeded();
@@ -545,7 +545,7 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 1440, height: 900 
   const j = journey(page); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
-  // Until v1.274.0: 20 answered today and one owed card, so grading that card finished the session. With the goal met,
+  // Until v1.278.0: 20 answered today and one owed card, so grading that card finished the session. With the goal met,
   // Practice now deals another round by worth (U171 a: a goal, never a cap), so the day here has ONE card left of its
   // goal: the session is that card (until ANKI1 also the floor's one new card if it was a review), graded through its controls
   await seed(page, 1, 19); await door(page, j);
@@ -599,7 +599,7 @@ test("P1-F: one owed card, one stripe and an unplanned visit read as plain count
     await expect(page.locator("[data-practice-belt]")).toHaveText("White belt \u00b7 1 stripe \u00b7 Gi");
     await expect(count, "P1-F: no plan means no claim about new work").toHaveText("1 card to review across 1 technique");
     release();
-    // until v1.274.0 the landed plan read "1 card to review across 1 technique · N new across K techniques, weakest first";
+    // until v1.278.0 the landed plan read "1 card to review across 1 technique · N new across K techniques, weakest first";
     // the untouched queue now becomes the worth plan whole (U171 a), and its count line prints the plan's own figures
     await expect.poll(() => page.evaluate(() => (window as any).__neural._session?.plan?.order || null)).toBe("worth");
     const p = await page.evaluate(() => { const p = (window as any).__neural._session.plan; return { n: p.visits.length, due: p.dueCards, fresh: p.newCards }; });

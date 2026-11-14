@@ -192,9 +192,9 @@ deduplicated by video ID.
 makes every display answer one-line-comparable (word-boundary ≤150 + ellipsis, full text in `d`),
 so every deck in the corpus builds a real MC. The recall block survives only as a last-resort safety net (a deliberately-opened card
 is never chrome-only) with no live trigger in this corpus; authored `answer_line` (Phase B)
-remains the quality upgrade over truncation. The option-node label pass yields to the
-focused pair (`_lastOptLabels` publishes what it drew) — a staged technique is a dealt option AND
-the focus, and drawing both names is the "printed twice" defect.
+remains the quality upgrade over truncation. Dealt, lit names (`_planNames`, v1.275.0)
+clear every name, control, edge, orb (acted-on may cross an orb); claims: flight or position,
+pointer, acted-on, kept, row, trail. Pointer's label mirrors once, may trim.
 
 **Three options, and the trap is always one of them** (v1.148.0). `MC_DISTRACTORS = 2`
 (`app.src.jsx`, mirrored in `scripts/audit_mc_viability.py`) is the one seam, read by `_mcBlock`
@@ -860,7 +860,7 @@ Positions share one third of score mass, like attacking and defending technique 
 because time passed (a failed card can lower it; it can never lower a belt, below). Retention-vs-pressure gets decided in `_schedule` (SRS intervals: *what you
 are shown*), never in what a deck is *worth*.
 
-**Practice is one session** (v1.274.0, owner U171 a and his Anki rule). Its active flashcard comes first,
+**Practice is one session** (v1.278.0, owner U171 a and his Anki rule). Its active flashcard comes first,
 the belt corridor below. It asks what is due first, position by position, worth most first (`practice-queue.src.js`),
 at most 6 a visit; the 3 due longest come every session. A new card comes only when nothing due in this ruleset's
 game is left; a card the ruleset hides waits in “Everything owed, oldest first”. The default goal is 20 (`dailyGoal`,

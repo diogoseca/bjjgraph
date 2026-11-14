@@ -2,7 +2,7 @@ import { expect, test, type Page } from "@playwright/test"
 import { resolve } from "node:path"
 import { journey } from "../dsl"
 
-/** WHAT IS WORTH MOST (v1.274.0, the owner, 13 Nov 2026, U171 a): "what comes up most in rolls and what you are closest to
+/** WHAT IS WORTH MOST (v1.278.0, the owner, 13 Nov 2026, U171 a): "what comes up most in rolls and what you are closest to
  * forgetting, position by position … at most 6 per position; every answer counts 1 toward 20 … the 'N due' count leaves the
  * drawer, today's count out of 20 stays." And his Anki rule (ANKI1): "we only add new cards if there's no due cards left to
  * be reviewed": the 20 are due cards, worth most first, the 3 due longest always among them; a new card only when nothing
@@ -20,8 +20,8 @@ import { journey } from "../dsl"
  *   · paging the queue and "Keep practising" without answering store NOTHING: every localStorage key and value is
  *     byte-identical (the pattern of rating-reader.spec.ts);
  *   · a record with no answer in it is never read as a worth session: today's order serves it, and says so once.
- * MUTANTS (v1.274.0), each built into the bundle (`npm run dev:neural:app`) and run against this file under the lock; the
- * table is in docs/Changelog-Archive.md (v1.274.0):
+ * MUTANTS (v1.278.0), each built into the bundle (`npm run dev:neural:app`) and run against this file under the lock; the
+ * table is in docs/Changelog-Archive.md (v1.278.0):
  *   P1 the cold oldest-first queue kept in front of the worth plan (`_practiceAppend`)   → "the session is the plan's queue"
  *   P2 the "N due" pill back on the row                                                  → "the row: today's count, no due"
  *   P3 oldest first restored in the law                                                  → "Practice opens on the planner's first position"
@@ -171,7 +171,7 @@ for (const touch of [true, false]) {
         await expect(page.locator("[data-practice-section]")).toHaveText(`${r.seat ? dot(r.seat) : "Other cards"} · position ${r.visit + 1} of ${s.visits.length}`)
         await clean(page, "Next technique")
       }
-      // "More new cards" (until v1.274.0 "Keep practising · more new cards") still adds today's ranked new techniques after the
+      // "More new cards" (until v1.278.0 "Keep practising · more new cards") still adds today's ranked new techniques after the
       // day's positions; a row it adds is named apart, never numbered (STAGE3-R1, finding 3)
       const more = await page.evaluate(() => Math.min(10, (window as W).__neural._session.plan.more.length))
       expect(more, "there is more to add").toBeGreaterThan(0)
@@ -211,7 +211,7 @@ for (const touch of [true, false]) {
       await clean(page, "opening a position visited twice")
     })
 
-    // FOLD1 (v1.274.0, the orchestrator's check on the preview): on a slow connection a player can open "Practice details &
+    // FOLD1 (v1.278.0, the orchestrator's check on the preview): on a slow connection a player can open "Practice details &
     // session queue" while the eager queue shows; the plan landing re-rendered the queue and the fold snapped shut under
     // them. The planner's file is held here as srs-due.spec.ts holds it; the fold is opened by a real tap or click; released,
     // the plan lands, and the fold is still open and shows the plan's rows. Opening the fold is reading, not answering, so
@@ -339,6 +339,9 @@ for (const touch of [true, false]) {
       // the Path's band follows the dot's rule (STAGE3-R1): there one answer short of the goal
       await press(page, '[data-explore-stats] [data-view="challenges"]', "the Path row", touch)
       await expect(page.locator("[data-maintenance] b"), "the Path's band: there one answer short of the goal").toHaveText("19 of 20 today")
+      // in the view's name and the drawer row's words since v1.276.0 (owner U169 c), pinned here: nothing else reads them
+      await expect(page.locator("[data-maintenance] em"), "the band's words: what a tap does").toHaveText("Start today's session")
+      await expect(page.locator("[data-maintenance]"), "the band's name").toHaveAttribute("aria-label", "Master the game, 19 of 20 today \u2014 Start today's session")
       await press(page, ".ng-drawer-brand", "‹ Path, home", touch)
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")

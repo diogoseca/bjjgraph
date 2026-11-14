@@ -1,4 +1,4 @@
-// THE ORDER PRACTICE ASKS IN (v1.274.0, owner U171 a, 13 Nov 2026: "What is worth most", and his Anki rule, ANKI1) —
+// THE ORDER PRACTICE ASKS IN (v1.278.0, owner U171 a, 13 Nov 2026: "What is worth most", and his Anki rule, ANKI1) —
 // neural/src/practice-queue.src.js, the planner that plays it (neural/src/gameplan.src.js) and the app's two joins to it
 // (`planSummary`, `_practiceSeats`).
 //
@@ -23,8 +23,8 @@
 // (gi cards only) and 201 (no-gi) of 530 hold one, and 530 of 530 are equal again. Part 2 is that check frozen: 40 days of a small world, 431 asks, regenerated only
 // from the simulation.
 //
-// MUTANTS (v1.274.0), each applied alone to a clean tree and run against this file; each turned the NAMED test red (the run
-// log is in docs/Changelog-Archive.md, v1.274.0):
+// MUTANTS (v1.278.0), each applied alone to a clean tree and run against this file; each turned the NAMED test red (the run
+// log is in docs/Changelog-Archive.md, v1.278.0):
 //   Q1  oldest first restored (positions by their oldest owed card)        → "worth, not age, decides which position comes first"
 //   A1  a new card while something is due (new things ride in a position's visit, as the first push asked them)
 //                                                                          → "a new card only when nothing is due"
@@ -608,4 +608,20 @@ test("the fallback for a game not ready deals no new card while something is due
   // a caller that asks for no worth order keeps today's order: a fifth of the goal for new, slipped in among the reviews
   const today = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "x", target: 20, decks, srs: {}, fallback });
   assert.ok(today.newCards > 0, "the control: today's order deals new cards");
+});
+
+test("the view is named \"Master the game\" in every string the order writes (v1.276.0, owner U169 c)", () => {
+  // the merge with v1.276.0 (ANKI1-R1, item 7): the planner, a deferred bundle, cannot see app.src.jsx's NG_PRACTICE_NAME,
+  // so its own words are pinned equal to it here; until the merge they read "Practice asks …" and a heading "Practice"
+  const app = readFileSync(resolve(HERE, "../neural/src/app.src.jsx"), "utf8");
+  const name = (app.match(/^const NG_PRACTICE_NAME = "([^"]+)";$/m) || [])[1];
+  assert.equal(name, "Master the game");
+  const plan = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 20, decks: DECKS(), srs: SRS(),
+    fallback: { rows: [{ key: "B|Top", reason: "r" }], assumptions: ["a"] }, worth: { game: tiny(), seats: SEATS, stage: {} } });
+  assert.ok(plan.why.startsWith(name + " asks the cards that are due first"), plan.why.slice(0, 60));
+  assert.equal(G.ngGameplanLines(plan, { dueCards: 0 }, "Nowhere|Top").heading, name, "a key the plan does not hold");
+  // the Path's band names the view with the app's own constants, never a literal of its own
+  const band = readFileSync(resolve(HERE, "../neural/src/challenge-ui.src.js"), "utf8");
+  assert.match(band, /maint\.setAttribute\("aria-label", NG_PRACTICE_NAME \+ ", " \+ today \+ " \\u2014 " \+ NG_PRACTICE_START\);/);
+  assert.doesNotMatch(band, /"Practice, "/);
 });

@@ -1,4 +1,4 @@
-// THE PAGE AROUND THE ORDER (v1.274.0, STAGE3-R1: the independent read of PR #409) — the real `_practiceAppend`,
+// THE PAGE AROUND THE ORDER (v1.278.0, STAGE3-R1: the independent read of PR #409) — the real `_practiceAppend`,
 // `_practiceRows`, `_practiceNextRound` and `_openOwedPractice` of neural/src/app.src.jsx, on the real wire with every deck's
 // cards loaded (the reader's scripts drove the same functions the same way), with the DOM-painting steps stubbed out.
 //
@@ -15,7 +15,7 @@
 //     row) left with the floor it counted for: under the owner's Anki rule (ANKI1) no place is kept for new cards, so the
 //     law reads no count of them; its test and its mutants S6 to S6d went with it.
 //
-// MUTANTS (v1.274.0), each alone on a clean tree, the diff hash checked after:
+// MUTANTS (v1.278.0), each alone on a clean tree, the diff hash checked after:
 //   S1 the cold queue's open deck kept whether or not the player moved (finding 2)  → "Practice opens on the plan's first position"
 //   S2 a second plan merged into a session in progress (finding 4)                 → "a second plan changes none of the rows in front of the player"
 //   S3 the next round numbered from 0 again                                        → "Keep practising deals the next round into the same session"

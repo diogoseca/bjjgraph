@@ -17329,7 +17329,251 @@ Two PRs about to land (the Practice order, names on the map) would each have gon
 
 **After it, still on dev's bytes:** `check_payload_budget.py` exits 0 at +0 B since 357,181, and `payload-first-hand.spec.ts` passes at +0 B since 376,564; both still warn over their targets, as before. This PR's own bundle bakes 1.273.1, the same length as 1.273.0, and moves each versioned file by 0 or 1 B under gzip -9. No app input, so no app rows.
 
-## v1.274.0 — Practice asks what is worth most, position by position (U171 a; FOLD1; the dot and the end card; 2026-11-13)
+## v1.275.0 — Names on the map never sit on each other, are never cut by the screen, never run under a control (LABELS1, 2026-11-13)
+
+The owner, 13 Nov, looking at the map pulled back: "dunno why in the graph there are many techniques showing but they are
+unreadable like this you know, when they overlap, avoid that pls". The ordinary map, in play and zoomed out, at every size.
+
+**What the map wrote before.** Five canvas text paths, all in `draw()`: the position's label (`pairGroup` when its pair is
+split, `richLabel` when merged: side word, name, `from` line; a seat star beside the side word), the move in flight
+(`richLabel`), every dealt move's name (one fixed place: right of its ring, raised 7 px), the pointer's label (`pairGroup` on
+a split pair, else one label: YOUR MOVE, name, `from` line) and the lit trail (`flare`: the path a move travels, a row's
+locate, a replay's beats, the end-of-round trail, 3.2 s each). What decided a dealt move's name was written: its orb within
+60 px of the screen and its card face up. NOTHING tested one name against another, against the screen's edge or against a
+control; the only layout was v1.272.0's dot, which moved off an option name. The brief's "6 of Mount's 18 dealt moves are
+named on a phone" was the screen cull, not a choice. The pointer's label printed a dealt move's name a second time over the
+move's own, and the pointer over a card hovered the node under the card and named it there.
+
+**Measured (tests/artifacts/_map_names_survey.mjs).** 40 seats spread over the map (Mount top, Side Control top, Closed
+Guard bottom, Standing top, a four-move seat, then a 6x6 grid round robin), 390x631, 390x844 and 1440x900, the usual zoom and
+pulled back 2, 4 and 9 times by the app's own wheel handler, drawer shut and open: 960 frames, every `fillText` recorded with
+the ink box the browser measured, "under a control" from the browser's painted boxes (text line boxes, backgrounds, borders,
+icons, each cut by its clipping ancestors). Dev's bundle, the same instrument: overlapping pairs 71 / 213 / 455 / 959 on a
+phone at x1 / x2 / x4 / x9 (11 / 36 / 99 / 287 at 1440), cut names 26 / 34 / 15 / 24, names under a control 33 / 60 / 104 /
+161 (221 to 342 with the phone's drawer open, which takes the screen).
+
+**The rule (`_planNames`).** A name is written only where it can be read. In order of claim: the move in flight's label
+during a move, else the position's own label (neither is moved or dropped), then the pointer's label (its usual place, or
+the other side of its orb when that is not clear, `side`; neither side clear, its usual place, perhaps trimmed), then (R1) a
+node the player was just pointed at, then the moves acted on (the card under the pointer, the card holding keyboard focus, a card
+turned up by touch: 24 places, last resort across another orb), then the names written last time, each at its old place
+first, then the rest in the row's order (the cards left to right), then the lit trail. Each takes the first of eight places
+beside its orb (right raised, as always; right level and lowered; the same on the left; centred above and below) whose ink
+box, grown by its air, clears every name already claimed (one box per label, so nothing is written between a position's
+name and its side), every control over the map (`_nameBlocks`: derived from the wrap's and root's visible children and the
+reader's parts, measured once per drawn frame), the map's edge, and every other dealt orb with the reach of a dot
+on its shoulders (every orb, known or not: a grade never moves a name). A new name needs 6 px of air and an orb 6 px clear
+of every other dealt orb (designer's rule 5: a name belongs to one orb); a written one keeps its place down to 3 px.
+
+**Stability.** Margin hysteresis alone did not hold: recorded over the follow camera's ease from 4 times out, names were
+re-dealt every frame and one left and came back within 3 frames on another side. So the decision is per camera state:
+while the zoom moves (over 0.2% a frame) names only leave, when they no longer fit, and nothing comes in but what is acted
+on; the rest are dealt when it rests. A frame whose inputs are unchanged (the camera to half a pixel and a thousandth of
+zoom, the hand, the cards, the pointer, the controls to the pixel, the names before it) reuses the last plan.
+
+**After (same instrument).** 0 overlapping pairs, 0 cut names, 0 names under a control in all 24 rows (960 frames). Move names written:
+phone 186 / 247 / 272 / 305 -> 101 / 106 / 99 / 59; 1440 149 / 211 / 251 / 302 -> 119 / 167 / 188 / 160 (drawer shut). The
+position's own name still crosses a dealt orb in 7 to 16 frames per row: it never moves (unchanged by this change). The
+dots are not measured by the survey (a guest knows no move); known-move-seal.spec.ts is their gate.
+
+**Nothing lost.** A move whose name is not written: hover its orb (named, the pointer's label), hover or keyboard-focus its
+card (named on the map before any other move), tap a face-down card (named), tap the orb (stages it, as before), read the
+row (every card carries its name). A lit node (R1): one the player was sent to or shown is named as acted on; a trail of
+many lit at once is best effort. The phone's drawer open: nothing is written under it (it takes the screen).
+
+**Proof.** e2e/journeys/map-names.spec.ts (10 tests, 390x631 touch and 1440x900): no two names within 3 px, none off the
+map, none under a painted control, at three seats and four zooms, with a floor on names written; each move's name beside its
+own orb as drawn (`_LY`, `_nodeHalfW` with the published `_nodeK`); claims in the row's order; an ease recorded frame by frame
+(nothing comes in while the zoom moves, nothing returns within half a second, names dealt again at rest) and 60 held frames
+on one plan; the orb under the mouse and the card under the mouse named, nothing named under the card; a tapped face-down card
+named; the drawer open names nothing. Mutants, each red at a named assertion: the test removed, the order of claim
+reversed, the edge check removed, the pointer's single label dropped and both its labels dropped, `n.y` for `LY(n)`, widths
+from `n.r * scale`, what is acted on not first, incumbency removed, the controls ignored, no plan reused, names under the
+phone's drawer, other orbs ignored. Two named non-kills (the spec's header): the pointer's pair group alone dropped (the
+single label takes over, by design) and the 3 px stay margin made 6 (the camera-state rule holds the names in an ease).
+Two existing assertions met the change: dual-pair's hover test could pick a pair under the row's cards and point at it
+through a card; it now picks a pair the pointer reaches on the map (its assertions unchanged). Two unit harnesses stub the
+new DOM seam (`_nameBlocks`) as they stub `_syncSeatStars`. A first cut memoized the controls for 250 ms on the wall clock:
+known-move-seal's map test at 390, which draws one frame twice in one task, failed once (3,191 px) when the two draws saw
+different control sets; the controls are now measured per frame.
+
+**Cost.** `draw()` timed in the page at a 4x CPU throttle, Standing top (36 dealt moves), median / p95 ms, dev's bundle ->
+this one (tests/artifacts/_map_names_frametime.mjs; nine seats share the box, so +-1 ms is noise): phone (390, dpr 3) held
+5.3 / 14.5 -> 5.6 / 17.3, held 4 times out 8.5 / 26.1 -> 8.2 / 15.4, easing 4 times out to the usual zoom 8.4 / 21.4 -> 7.9 /
+14.0; 1440 held 4.6 / 13.0 -> 4.6 / 15.8, 4 times out 9.6 / 16.4 -> 9.0 / 14.6, easing 6.4 / 14.2 -> 7.2 / 12.1. The layout
+alone, a forced re-plan against a reused plan on the same frame (final build, controls measured per frame in both): +0.6 /
++0.5 ms on the phone (usual / 4 times out), +0.3 / +0.4 ms at 1440. Widths are cached per string and dropped when a font
+lands; a held camera reuses its plan (asserted over 60 frames).
+
+**Bytes.** neural.js +5,006 raw, +2,193 gzip; the game bundles re-hashed at equal size. Eager gzip 358,039: +5,073 on
+its baseline 352,966 (v1.265.2), cap 5,000, of which dev's own drift is +2,880 (dev's bundle on the same tree, 355,846).
+First-hand core 377,478: +6,371 on 371,107 (v1.262.7), cap 6,000, of which dev's own is +4,156 (375,263, the same journey with
+dev's bundle swapped in). Each part is under its cap alone; together both caps are crossed (by 73 and 371 B). No baseline
+was moved: a checkpoint at dev's level is the orchestrator's. First-hand raw 1,584,745 (ceiling 1,900,000), 11 boot requests
+(12), deferred raw unchanged (510,269 of 511,043).
+
+**Not covered.** The pointer's label mirrors to the other side and no further (both sides blocked, it keeps its place);
+the dots against names with known moves are the seal spec's (a guest survey has none); the position's own label never
+moves, so a toast or a pan can still put it under a control; the controls are derived from the wrap's, root's and
+reader's own children, so a control nested elsewhere is unseen (the spec's and the survey's painted-box check would see it).
+
+**R1, the independent read (twelve findings, the orchestrator's rulings; LABELS-R1).** What changed:
+- *The pictures and the spec photographed the wheel's own frame* (`advance` draws once per call; the first frame after a
+  wheel is a moving one). The shoot and the journey now draw the jump, then rest, then half a second. Picture 06 (1440,
+  Standing top, pulled back 4 times) on the final build: 19 move names on the wheel's own frame, 19 on the first frame at
+  rest, 23 half a second later, which is the picture (the reader's 7 and 24 were the old head's jump and rest frames). All six
+  reshot at rest, before and after as separate files.
+- *Names judged per camera state, per second* (findings 7, 9): moving = zoom faster than 0.12 a second or a pan faster
+  than 30 px a second, from the frame clock (30 Hz and 120 Hz agree). While moving a written name keeps its place or leaves;
+  a name the layout refused comes back only at rest, and no sooner than half a second after it LEFT; a name whose orb left
+  the canvas follows the orb back (R2); an orb sliding into view may be named (rule
+  (ii), chosen over "nothing until rest" on 12 recorded drags: the same 0 returns and 0 changes of side, and at 1440
+  dragging down 7.4 names a frame against 3.4, never under 3 against down to none). The live half-second waits are in the
+  plan's key. The frame publishes its call (`_camStill`).
+- *A node the player was pointed at is named* (finding 4, the owner's rule "a redesign keeps every capability"): `flare`
+  callers sorted; one node shown (a locate, the move just played and its outcome, a replay's outcome, the submission that
+  caught you, the opponent's move) is acted on, before the dealt moves, 24 places; a trail of many (the travel path, the
+  end-of-round cascade, a wide replay beat, the ripple to the dealt orbs: `flare(…, …, true)`) is best effort, last.
+- *A name only for an orb whose silhouette is on the canvas* (finding 5; dev's top cull had been widened to −20 px).
+- *An old leak closed* (finding 10): the lit trail skipped the dealt moves but not a face-down move's pair partner, which
+  carries the hidden move's name.
+- *The spec* audits the wheel's frame AND the frame at rest at every seat and zoom (overlap, edge, control, orb, off-canvas
+  orb, ink against the published box within half a pixel, every named orb clear of the other dealt orbs), asks the real
+  planner about every refused move once the half second has passed (none may have a free place), checks the fresh plan's
+  6 px rule, records the follow camera's ease at 120, 60 and 30 Hz steps and a 240-step mouse drag, out and back since R2 (no
+  name the layout refused back before rest or within half a second of leaving, no change of side while moving, the frame's
+  own call per second), names a located node beside
+  the dealt orbs, and never inks a face-down move's name through its lit partner. 27 mutant runs: all red at named
+  assertions but three named non-kills (the pointer's pair group alone dropped, by design; the 3 px stay margin; the rest
+  flag in the plan's key, equivalent under rule (ii)). The reader's three survivors (the room check removed for new names,
+  the ink moved, acted-on not first against the card) are each red.
+- *Two answers to one question*, said at the code (finding 11): hover asks the hit-test target, the names ask
+  `_nameBlocks`' boxes (they differ on pointer-events:none chrome and near-transparent controls); the pointer's label has
+  its own fit and keeps its usual place, under a control or trimmed, when neither side is clear.
+- *Public text* (finding 12): Neural.md, the PR body and this entry say what is true: the order of claim includes the move in
+  flight, what is acted on, the names kept and the trail; the pointer's label mirrors once and may be trimmed; the position's
+  label never moves; what is acted on may cross an orb.
+- *Numbers after R1* (the survey now settles as a player does: half a second at the usual zoom, the wheel, the counts half
+  a second after the camera rests): 0 overlapping pairs, 0 cut names, 0 names under a control in all 24 rows (960 frames). Settled move
+  names, dev -> this: phone 186 / 247 / 272 / 305 -> 109 / 98 / 86 / 51 at x1 / x2 / x4 / x9, 1440 149 / 211 / 251 / 302 ->
+  118 / 166 / 187 / 145. Journeys under the lock: the 17 spec files that read map names, 226 passed, 1 skipped, 1 red, my
+  own regression (the first half-second wait held every name that left, so a pull flipping "Hide moves" twice within 50 ms
+  left the map unnamed: hidden-moves.spec.ts:601), fixed (only a name the LAYOUT refused waits) and green with map-names
+  (37 of 37). Bytes, my share alone against dev v1.273.1's checkpoints: neural.js +5,452 raw; eager gzip 359,571 (+2,390 on
+  357,181, cap 5,000); first-hand core 379,002 (+2,438 on 376,564, cap 6,000); 11 boot requests; first-hand raw 1,589,222.
+
+**R2, the reader's delta read of 130b654f5 (MERGE AFTER D1; five items, the orchestrator's rulings; LABELS-R2).** What changed:
+- *The settled frame is audited* (D1, the owner's own case): test 1's frame half a second after the camera rests, where the
+  names a jump dropped come BACK, runs every claim of `checkFrame`; before, only the wheel's frame and the first frame at rest
+  were audited, and a mutant giving returning names -20 px of air left both clean. That mutant is red there (M25).
+- *The wait, as ruled* (D2): a name follows its orb off the screen and back; only a name the LAYOUT refused waits (until
+  rest, and half a second after it left). The recorded drag now goes out and back (120 frames of 6 px left and 2 down,
+  then back), and the spec classes each leave by the moves that frame handed the planner: a name that left while its orb
+  was still a candidate must not return while the camera moves or within half a second (frame clock); one that left with
+  its orb is counted. On the final build the drag had 12 names the layout refused and 10 that left with their orb, all 10
+  back with it while the camera still moved. A mutant that clears a refused name's wait when its orb leaves the canvas is
+  red (M26).
+- *A lit node under the pointer is named once* (D3, old, commoner since a pointed node is always named): the lit loop skips
+  the node the pointer's label names, as the moves pass did (`hovd`). Test: a located node, the mouse on it, inked once (M27).
+- *No name for an orb wholly under a control or the open drawer* (D4, finding 5's class): `on(c)` also refuses an orb
+  whose bare silhouette lies wholly left of the map's free edge or wholly inside one `_nameBlocks` box (the same answer
+  the names clear). Reproduced in the browser first (the survey's new `hidOrb` column, a move named beside an orb wholly
+  inside one painted box): head 130b654f5, 3 of 960 cases, all at 1440 with the drawer open, one seat (Ushiro Ashi-Garami
+  top: orbs at x 328 to 351, the drawer's edge near 360); after, 0 of 960 (the same 24 rows still 0 overlapping pairs, 0
+  cut, 0 under a control). It also refuses orbs wholly inside the row's box (behind its cards), the search button and, at
+  1440, the reader's table of contents: settled move names 26 fewer and 9 more over the 960 cases, drawer shut included.
+  Three of the 26 (Collar Drag, Americana, Arm Drag to Back) are orbs in the table of contents' column, which is
+  transparent: those orbs are visible between its rows, and lose their names because the ruled test is the controls' own
+  boxes, not their paint. The audit asserts it from the painted boxes in every frame; a new test opens the drawer at 1440
+  by mouse, audits four seats (that one first) at three zooms, and drags the map 400 px under the drawer (a written name
+  keeps its place while the camera moves, so an orb sliding under takes its name with it only by `on(c)`). The mutant
+  (`on(c)` as in R1) is red at that drag and at the main drag (an orb slid under the row); the four seats' frames at rest
+  pass under it, because no freshly booted camera leaves an orb under the drawer (M28).
+- *Not covered, added:* a pointed node claims before the dealt moves, so for its 3.2 s of light it can push a written name
+  off (the reader: 5 of 15 at 1440 x4; 4 came back at their place, 1 stayed off, needing 6 px as a newcomer: by design under
+  ruling 4); `on(c)` asks for ONE control box, so an orb spanning two adjacent controls is still a candidate.
+- *Numbers after R2* (the same survey on the final build): 0 overlapping pairs, 0 cut names, 0 names under a control, 0
+  names beside an orb wholly under a control, in all 24 rows (960 frames; "48 rows" in this entry until R2 was a miscount:
+  every run of the survey has had 24). Settled move names, dev -> this: phone (390x631) 186 / 247 / 272 / 305 -> 106 / 98 /
+  86 / 51 at x1 / x2 / x4 / x9; 1440 149 / 211 / 251 / 302 -> 114 / 164 / 188 / 144 (drawer shut).
+  Journeys under the lock on the final spec: the 17 spec files that read map names, 229 passed, 1 skipped, none red
+  (before the drawer test gained its drag); then map-names and hidden-moves in full on the committed head, 39 of 39; units
+  1,600 of 1,600. Bytes, my share alone against dev v1.273.1's checkpoints: neural.js +5,556 raw (R2 +104); eager gzip
+  359,612 (+2,431 on 357,181, cap 5,000); first-hand core 379,042 (+2,478 on 376,564, cap 6,000); 11 boot requests;
+  first-hand raw 1,589,326. App rows re-seeded at 7e3a22e3c.
+
+## v1.276.0 — The belt in the drawer row: "Master the game" wears the belt and the number (STAGE2, the owner's U159 a, U160 a, U162 a, U169 c, 2026-11-13)
+
+**What a player sees.** The drawer's row is now named "Master the game" (its view's title and back too; "Session details & queue", "White belt lessons"). Under it is a woven belt: the stripes earned on the sleeve, the next one an empty slot, and the number at the belt's end, rounded down. Under the belt is one line of two distances, for example "26 to your 3rd stripe · 90 to blue".
+- **The dip:** when the number sits below the floor of what is worn, a second line says so: "62 under your 2nd stripe · stripes stay".
+- **Before the number:** the number is shown only once its live check has landed. Until then the row wears the belt held, with a hidden "0000" holding the number's width, so nothing jumps; offline it stays that way and says nothing.
+- **A brand-new visitor:** white, no number, "Answer a few cards to get your number".
+- **The top of the scale:** black with a red bar, "The top of the scale".
+- **One belt in the drawer:** the Path row's woven bar went (the orchestrator's ruling 3); the Path row says its course's units in words ("0 of 6 units").
+- **The row's tap and hit target are unchanged.** Its tooltip and aria open with "Start today's session".
+
+**The held level, `belts.lvl = {n, t}`.** This is the one value added to the progress blob.
+- **What it is:** a level on table a, 0..20.
+- **How it rises:** it rises to the higher of itself, the Path's own level as read now, and the number's level. It never falls, and it is one value for both rulesets.
+- **On the first run:** it is seeded, at 0 too, and rides the next save, so a passive boot writes nothing it did not change.
+- **The merge:** the higher n, whatever the stamps; a tie keeps the earlier stamp. The guest join runs the same merge.
+- **The practice key:** `ngProgressPracticeKey` drops it, so a guest who only looked is not told their practice was saved.
+- **An older client:** it carries the value through its own load and save, but its merge keeps its local copy's value, which can drop or lower the cloud's, until a current device pulls and restores the higher one.
+- **Which reader:** `wornBelt()` stays the Path's own (its navigation, the Recall Mode patch at black, the email's belt line), so the number reaching black mints no patch.
+
+**A promotion by the number.** When a final reading's level is above everything worn, the level is raised and saved at once, with one silent beat (`level_reached`) and one analytics line (`neural_level_reached`: the belt, the stripes, the number rounded down).
+- It fires only on the device whose own number raised the level; a merge or the Path fires nothing.
+- There is no sound; that is a later design job.
+
+**The live check at the drawer.** Opening the drawer asks, and so does coming back to the list. A check that landed is never fetched again; after a failed one, the next open tries once more. A drawer opened before the game is in (no deck manifest, weights or curriculum yet) waits, and the belt sync that runs when they land asks once more; a grade never turns into a fetch.
+
+**Measured.**
+- **Units:** `tests/belt_row.test.mjs`, 23 tests. 24 named mutants (`tests/artifacts/belt_row_mutants.mjs`), all killed, sources restored and hash-checked. BELT-M13 needs both guards dropped, since either alone holds the claim.
+- **Journey:** `e2e/journeys/belt-row.spec.ts` at 1440x900 by mouse and 390x631 by touch.
+  - The order of the states.
+  - No jump when the number lands. It first caught a 1 px jump: `min-width: 4ch` measures the plain "0", narrower than four tabular digits.
+  - Storage key by key: only the level is written.
+  - The press opens today's session.
+- **Moved specs:** every spec that read the Path row's belt or the old words, each line saying what it claimed before.
+  - The Path's drawn black lost its four stripes, because black has none on table a. The Path's own rule keeps them, asserted through `wornBelt()`.
+  - `holder-passive-boot-blob-fixpoint.spec.ts` expects the one added value.
+- **Bytes**, against dev v1.273.1's checkpoint (dev's own drift since it is 0):
+  - eager gzip +2,239 B of the 5,000 B cap (359,420);
+  - first-hand core +2,272 B of the 6,000 B cap (378,836);
+  - eager raw 1,417,450 of 1,600,000;
+  - deferred 510,269 of 511,043, unchanged;
+  - largest chunk 39,000 of 40,000.
+
+**The independent read (R1), seven findings, ruled.**
+1. **A gi/no-gi flip in Settings, a modal over the open drawer, left the other ruleset's number on the row.** Now the flip asks again. The live check is the same for both rulesets, so nothing is fetched once a check has landed; after a FAILED check, each flip with the drawer open asks for both files again, as an open does. The row also never paints a reading taken in another ruleset; it wears the belt held and waits. Pinned by a unit for each half and by the journey at 1440 by mouse and 390 by touch: Settings, Rolling, No-gi with the drawer open, and the row reads the no-gi number, never the gi one. The journey's record answers decks only gi weighs, until the two numbers differ.
+2. **One promotion per level failed across tabs and before an account's first pull.**
+   - **Tabs:** the level is still raised (it is monotone) and now written at once (`_flushSave`, no longer the 400 ms save). Nothing fires when the stored copy every tab saves to already holds the level.
+   - **An account, until a pull has merged:** the promotion is held back (during any pull, and after a failed pull or push) and fires after the pull only if the cloud did not bring the level. A guest, or an account playing local-only, fires at once.
+   - **Cost:** 16 code lines.
+   - **Still open:** after an older client lowered the cloud, a fresh device can fire a level again.
+3. **Black, ruled by the orchestrator** (the owner may object on his page): black wears the red bar and no stripes, in the row and the view's title. The two tests that still said "four stripes" are renamed to what they pin.
+4. **A device can wear a lower belt after an older client,** until a current device syncs. This is accepted and said so.
+5. **The view names two belts:** as ruled.
+6. **A malformed stored level is replaced:** one line at `ngRatingHeld`.
+7. **The landing note for the merge with #409** is in the PR body: #409's content, this PR's words.
+
+**The second read (R2), ruled.**
+- **Once per level, exactly:** a promotion fires once per level per tab or device in the usual order. It can be missed or doubled in these cases:
+  - **Lost:** a held-back promotion is lost when no pull succeeds before the session ends.
+  - **Nobody fires:** two tabs of one account, one holding it back while its pulls fail and the other pushing it.
+  - **Late:** after a failed push, it fires at the next save once the connection is back.
+  - **Twice:** a level a guest already fired can fire again on the account after sign-in, when the drawer read it before the first pull landed.
+  - **Once per tab:** when storage is unreadable.
+
+  `neural_level_reached` can therefore under-count. The beat's `from` is the tab's own level in memory, and two promotions held back before one pull collapse into the last.
+- **The fire cannot fail a pull:** it runs guarded in `_pullAndMerge` (one line). A level sound that throws, the day one is added, can no longer mark a merged pull failed or skip its guest join.
+- **Three tests and one guard:** local-only fires at once; unreadable storage fires; a beat that throws leaves the pull merged and the join run (mutants BELT-M22 to M24; 24 in all). The flip journey's guard now requires a real no-gi number.
+
+## v1.276.1 — Both payload baselines are checkpointed at dev v1.276.0's own level (PAY3, 2026-11-14)
+
+Each cap was reading dev's drift since v1.273.0 (PR #410 and #412): eager +4,706 B of 5,000, first-hand core +4,731 B of 6,000; PR #409 would have gone red on it. The orchestrator's call under the owner's Q7 rule (D-327), as PAY2. Dev's bytes, proved: a clean export of 065c4d77c built by its own `regenerate:neural`; 14 app rows sha-equal to dev's fingerprint; all 5,056 `static/neural` files identical to the tree served, swapped in under the lock and restored. Eager 361,887 B and core 381,295 B, equal to CI's build of the same tree. Accepted by the script before the bump (stamped `v1.276.0 (065c4d77c)`); only the baseline fields move, no target, action line or cap. After it both gates read +0. The full record is in the policy's `baseline_reason`.
+
+## v1.278.0 — Practice asks what is worth most, position by position (U171 a; FOLD1; the dot and the end card; 2026-11-13)
 
 **What changed.** Today's Practice page, today's cards, a new order underneath (Stage 3 of the Practice plan; Stage 4 asks
 hidden moves on the map). `neural/src/practice-queue.src.js`, pure, in the deferred planner (`gameplan.js`, fetched when the
@@ -17618,3 +17862,37 @@ input since.
 | first-hand core | delta 6,000 on 376,564 | 377,981 | +1,417 |
 | eager raw | 1,600,000 | 1,414,845 | +3,785 on dev's 1,411,060 |
 | deferred raw | its measured use (U170 a, up to ~550,000) | 520,499 (a93d1deef) | +10,230 on dev's 510,269; +199 this round, all `gameplan.js` (19,747 → 19,946) |
+
+**After the delta read of 6cc0e8524 (ANKI1-R1).** The read held the rule: 960 simulated day-plans, 0 violations, and the
+guard table reproduced. Its seven findings, as ruled:
+1. **Due cards outside this ruleset's game** (gi's twelve "…-Control" positions, no-gi's 154 decks, and the decks the
+   ruleset does not price) never stop new cards. That is kept, and said: the explanation and `docs/Neural.md` read
+   "nothing due in this game", and the count line counts them (`outsideDue`) and names "Everything owed, oldest first".
+   Mutants R1a and R1b.
+2. **Unanswerable rows.** Only a card known to be answerable takes a guard place: its deck is loaded and holds it, or the
+   rating's live set, already in hand, says its deck still has it. The order reads the live set as `ngRatingShare` does.
+   A question it says is gone is dropped and counted, and one a loaded deck no longer holds never holds a session open.
+   The reader's case A is a unit (red before). Mutants R2a to R2d; R2d (the app not handing the planner the live set)
+   survived once, and the app-level check was added for it.
+3. **The fallback**, when the worth order was asked for: no new deck before the reviews, and room for new =
+   max(0, left − due). The reader's literal "no new card while something is due" cannot hold on its own example (10 due,
+   20 left), so the unit asserts the order and the room, and none at all once the due cards fill the goal. Mutants R3a
+   and R3b.
+4. **"At most 6" is a visit's.** The plan carries the law's visits (`counts.lawVisits`). The journey asserts it per
+   visit on a new fixture with a second visit: 8 due at one position, visits of 6 and 2, one page position showing all 8.
+   Mutants: R4 in the unit; V1 and V2 in the bundle. V1 is red at "the law visits the position twice: 6, then 2" and V2
+   at "a position the law visits twice is counted once", touch and mouse (03:37–03:38, 14 Nov).
+5. **The explanation:** "Keep practising" deals the next round; "More new cards" adds whole techniques.
+6. **"More new cards" and a Path lesson** add new cards at the player's own press, said in one line at each.
+7. **The merge with #412** (dev v1.276.1, 73ed199f2, by merge). The resolutions:
+   - the lesson heading takes #412's "… lessons" beside this PR's position heading;
+   - the drawer row's tooltip and aria keep this PR's content (no due count) inside #412's words, "Start today's session"
+     and "Master the game";
+   - the harness loads `rating.src.js` once;
+   - sidebar, srs-due and gameplan_stats_repaint keep this PR's absence of a due count, with #412's prefixes;
+   - the build census is dev's whole, and the app rows are re-seeded on the committed head.
+   Every new string of this PR that names the view now says "Master the game": the Path band's aria and its words ("Start
+   today's session"), the plan's explanation and its heading. They are pinned in practice-order.spec.ts and
+   tests/practice_queue.test.mjs; nothing pinned them before. This PR is renumbered from 1.278.0 to 1.278.0.
+
+Item b of STAGE3-R2 (the "Not covered" paragraph above: the floor's reload) was withdrawn with the floor in ANKI1.

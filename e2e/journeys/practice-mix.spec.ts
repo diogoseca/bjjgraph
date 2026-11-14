@@ -10,12 +10,12 @@ import { journey } from "../dsl";
  *   2. a player with due cards gets the planner's queue — with the planner already loaded (2a), and pressed COLD
  *      (2b, SIDE-R2 B1): the drawer's opening asks for the planner, and a queue pressed before it lands is upgraded
  *      to the plan once it does; a revealed, ungraded card stays put (2c, SIDE-R3 N4), even when the planner lands
- *      late. Until v1.274.0 that queue was "reviews first, every owed deck, a new deck after four reviews"; since the
+ *      late. Until v1.278.0 that queue was "reviews first, every owed deck, a new deck after four reviews"; since the
  *      owner's U171 a ("what is worth most … position by position", and since ANKI1 his Anki rule: due cards first, a new
  *      card only when nothing is due) it is the worth
  *      plan, position by position, the arithmetic pinned by tests/practice_queue.test.mjs;
  *   3. the 20-card goal shows progress and never blocks: past the goal, Practice still deals and grades. Until
- *      v1.274.0 the same session dealt the next owed review; since U171 a the day's session is what is worth most up
+ *      v1.278.0 the same session dealt the next owed review; since U171 a the day's session is what is worth most up
  *      to the goal, and its completion card's "Keep practising" deals the next round by worth in the same session; every
  *      owed card stays on offer through "Everything owed, oldest first" (STAGE3-R1).
  * The ratio and the quota are pinned at the planner by tests/gameplan.test.mjs; this file pins that the
@@ -100,7 +100,7 @@ test("Practice: a fresh player's session is new gap cards from the weak-spots ra
 
 /** Claim 2's shape, read off the mounted rows against the plan the session holds: the rows ARE its queue, in its order,
  *  each marked review or new as the plan files it, and a new card only when nothing is due (the owner's Anki rule, ANKI1:
- *  until then "at least 4 new cards", U171 a). Until v1.274.0 this read "every owed deck, the most overdue first, the
+ *  until then "at least 4 new cards", U171 a). Until v1.278.0 this read "every owed deck, the most overdue first, the
  *  first new deck after four one-card reviews and before the last one". */
 async function expectPlanned(page: any, rows: { key: string, kind: string }[]) {
   const plan = await page.evaluate(() => { const p = (window as any).__neural._session.plan;
@@ -148,7 +148,7 @@ test("Practice (2a): a player with due cards gets reviews and new decks, interle
   console.log(`[practice] mixed: ${kinds.join(",")}`);
   expect(fx.dueKeys.length, "premise: eight owed decks").toBe(8);
   const plan = await expectPlanned(page, rows);
-  // until v1.274.0: "8 cards to review", every owed card; the count line now says what the day asks of them (U171 a)
+  // until v1.278.0: "8 cards to review", every owed card; the count line now says what the day asks of them (U171 a)
   await expect(page.locator('[data-session-section="Practice"]')).toContainText(plan.dueCards ? `${plan.dueCards} card${plan.dueCards === 1 ? "" : "s"} to review` : `${plan.newCards} new`);
 });
 
@@ -186,7 +186,7 @@ test("Practice: the daily goal shows progress and never blocks a review", async 
   await press(page, j, "[data-mini-reveal]", "Reveal");
   await press(page, j, "[data-mini-got]", "Got it");
   await expect(page.locator("[data-practice-goal]")).toHaveText("Daily goal: 20 of 20 today ✓");
-  // past the goal, Practice still deals and still grades: a goal, never a cap. Until v1.274.0 the same session walked on to
+  // past the goal, Practice still deals and still grades: a goal, never a cap. Until v1.278.0 the same session walked on to
   // the next owed review; since U171 a the session is what is worth most up to the goal, and when it is done its completion
   // card's "Keep practising" deals the next round by worth in the SAME session (STAGE3-R1, the reader's finding 5)
   const open = '[data-session-row][aria-expanded="true"] + div';
@@ -204,7 +204,7 @@ test("Practice: the daily goal shows progress and never blocks a review", async 
   await press(page, j, open + " [data-mini-reveal]", "Reveal past the goal");
   await press(page, j, open + " [data-mini-got]", "Got it past the goal");
   await expect(page.locator("[data-practice-goal]")).toHaveText(`Daily goal: ${done + 1} of 20 today ✓`);
-  // and every owed card is still on offer. Until v1.274.0 this read "two of the three reviews were graded; one still owed,
+  // and every owed card is still on offer. Until v1.278.0 this read "two of the three reviews were graded; one still owed,
   // still on offer" off `dueCount()`, the reviews being the session's own; the owed pile is now offered whole one level down,
   // in "Practice details & session queue": "Everything owed, oldest first" (STAGE3-R1), with how many are owed there
   const left = await page.evaluate(() => (window as any).__neural.dueCount());

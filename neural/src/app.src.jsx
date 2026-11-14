@@ -253,6 +253,15 @@ const NG_SRS_IVLS = [1, 3, 7, 14, 30, 60, 120];
 // (NG_PRACTICE_REVIEWS_PER_NEW in gameplan.src.js has the ratio and the reasoning). The `dailyGoal`
 // setting overrides it; Settings' own default repeats the 20.
 const NG_PRACTICE_GOAL = 20;
+// THE FEATURE'S NAME (owner U169 c, 13 Nov; v1.276.0): the drawer row, its view's title and back, and its aria say
+// "Master the game", and the row's tooltip and aria say what it does, "Start today's session". ONLY the words: nothing
+// stored, no analytics event id, no selector and no URL is renamed (`data-session-section="Practice"` is a VALUE that
+// 14 spec lines select on, and `neural_practice_opened` an event id), and identifiers keep "practice".
+const NG_PRACTICE_NAME = "Master the game";
+const NG_PRACTICE_START = "Start today's session";
+// The drawer row's belt colours (v1.276.0): the drawn belt's (its blue is the design's #2c5299), deeper than the Path's
+// UI tints (NG_CHALLENGE_TRACK_COLORS), under the same woven texture (helmet.html `.ng-belt`). Black wears a red bar.
+const NG_BELT_ROW_COLORS = Object.freeze({ white: "#e6e2d6", blue: "#2c5299", purple: "#673c98", brown: "#77492b", black: "#1d1d22" });
 // How long a landing question may be "still settling" before readers stop waiting on it. A stalled
 // deck fetch must not make the app look hung; the fetch itself is never cancelled. See v1.104.8.
 const NG_LAND_WARM_CEILING_MS = 8000;
@@ -899,7 +908,7 @@ class Component extends DCLogic {
     this.ctx = this.canvas.getContext("2d");
     this._ro = new ResizeObserver(() => this.resize());
     this._ro.observe(this.wrapRef.current);
-    this._onChoiceFonts = () => this.fitChoiceTitles();
+    this._onChoiceFonts = () => { this._inkM = this._nm = null; this.fitChoiceTitles(); };   // a font that lands changes every map name's width (`_planNames`)
     document.fonts.addEventListener("loadingdone", this._onChoiceFonts);
     this._onWinResize = () => this.resize();
     window.addEventListener("resize", this._onWinResize);
@@ -2096,7 +2105,9 @@ class Component extends DCLogic {
     this.pulse = { path, seg: 0, t: 0, onArrive, done: false, t0: this.now, tint: this.activeMove ? this.activeMove.col : null };
   }
   /** `amp` scales the bloom this node gets; the places the roll STOPS pass ARRIVE_BLOOM. */
-  flare(idx, amp) { const n = this.nodes[idx]; if (n) { n.lit = this.now; n.litK = amp || 1; } }
+  // `trail` (v1.275.0): one of MANY lit together (a path, a cascade, a wide replay beat, the ripple): its name is best effort.
+  // Without it the node is the one the player was sent to or shown, and the map names it as acted on (`draw()`, LIT NODES).
+  flare(idx, amp, trail) { const n = this.nodes[idx]; if (n) { n.lit = this.now; n.litK = amp || 1; n.litT = !!trail; } }
   /**
    * WHERE THE PULSE IS, IN THE COORDINATES IT IS DRAWN IN (v1.129.7).
    *
@@ -2153,7 +2164,7 @@ class Component extends DCLogic {
         // passed through. The arrival bloom belongs where the roll STOPS: `enterLand`, and the
         // submission that ends a round. (Measured: without this, "Sweep from Meathook" bloomed
         // as hard as the position it swept you into.)
-        this.flare(p.path[p.seg + 1]); p.seg++;
+        this.flare(p.path[p.seg + 1], 0, 1); p.seg++;
       } else { p.t += advance / segTime; advance = 0; }
     }
     const h = this.headPos(); this.camFocus = { x: h.x, y: h.y };
@@ -3583,6 +3594,9 @@ class Component extends DCLogic {
       // fetched when the drawer opens, the moment its Practice row is in front of the player, so the
       // press deals the interleaved queue rather than the owed reviews alone. Never on the boot path.
       void this._ensureGameplanRuntime();
+      // THE BELT ROW READS ON OPEN (v1.276.0): the rating's live check is asked here, never on the boot path, and a check
+      // that landed is never fetched again (`_askBeltRow`, `ratingCheck`)
+      this._askBeltRow();
       // arrival positioning (v1.98.1): opening the pane onto Challenges lands the corridor
       // where the person is — renderChallenges consumes this once, instantly
       if (this._viewMode === "challenges") this._challengeScrollPending = true;
@@ -5989,7 +6003,7 @@ class Component extends DCLogic {
     // EVERYTHING OPENS (U163 c, owner, 13 Nov): new cards come from every family. Until v1.270.0 a deck outside the worn
     // belt's families got no headroom (and a plan built with no curriculum said so once, `practice_belt_unfiltered`); the
     // belt now only shows. e2e/journeys/everything-opens.spec.ts and tests/gameplan_runtime.test.mjs pin it.
-    // WHAT IS WORTH MOST (U171 a, v1.274.0): the order is neural/src/practice-queue.src.js (deferred, in gameplan.js); it
+    // WHAT IS WORTH MOST (U171 a, v1.278.0): the order is neural/src/practice-queue.src.js (deferred, in gameplan.js); it
     // prices every question with the rating's own game (`_ratingGame`: one table, one answer) and asks it at the position
     // its deck belongs to: what is due first, and a new card only when nothing is due (the owner's Anki rule, ANKI1). A plan
     // that could not use it (no game yet, a record with no answer) is today's order, and says so once per reason
@@ -6723,13 +6737,13 @@ class Component extends DCLogic {
 
   _renderPractice(s, list) {
     s.started ??= this.practiceToday().done;
-    // FOLD1 (v1.274.0): a plan that lands late re-renders an untouched queue (`_practiceAppend`), and that rebuilt "Practice
+    // FOLD1 (v1.278.0): a plan that lands late re-renders an untouched queue (`_practiceAppend`), and that rebuilt "Practice
     // details & session queue" shut under a player who had opened it in the meantime; it keeps what the player left
     const kept = s.support?.firstChild?.open;
     this._gameplanProgress(s);
-    this.setDrillHeader("Practice", "", "");
+    this.setDrillHeader(NG_PRACTICE_NAME, "", "");
     // This fixed skeleton is owned by the page; the shared card renderer fills its first section.
-    list.innerHTML = '<div data-plan-goal="1" style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;font-size:11.5px;font-weight:600"><span data-plan-goal-progress="1" aria-live="polite" style="color:#9ab0e0;white-space:nowrap"></span><span data-practice-goal="1"></span></div><section data-session="1" class="ng-practice-cards"><div data-practice-section="1"></div></section><div class="ng-practice-nav"></div><div data-practice-keys="1"></div><div data-practice-end="1"><div></div></div><div></div><div><details data-practice-details="1"><summary>Practice details &amp; session queue</summary><div data-practice-queue="1"></div><p data-session-section="Practice"></p><div></div></details></div>';
+    list.innerHTML = '<div data-plan-goal="1" style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;font-size:11.5px;font-weight:600"><span data-plan-goal-progress="1" aria-live="polite" style="color:#9ab0e0;white-space:nowrap"></span><span data-practice-goal="1"></span></div><section data-session="1" class="ng-practice-cards"><div data-practice-section="1"></div></section><div class="ng-practice-nav"></div><div data-practice-keys="1"></div><div data-practice-end="1"><div></div></div><div></div><div><details data-practice-details="1"><summary>Session details &amp; queue</summary><div data-practice-queue="1"></div><p data-session-section="Practice"></p><div></div></details></div>';
     const [goal, wrap, nav, keys, end, corridor, support] = list.children, details = support.firstChild;
     if (kept) details.open = true;
     s.goal = goal; s.rows = wrap; s.heading = wrap.firstChild; s.corridor = corridor; s.support = support; s.end = end;
@@ -6798,7 +6812,8 @@ class Component extends DCLogic {
     progress.textContent = p.total ? "Reviewed " + p.completed + "/" + p.total : "Nothing left to review";
     const due = s.plan ? s.plan.due : s.review.rows, row = due.find(r => r.key === s.keys[s.idx]);
     const lines = s.plan && this._gameplanRuntime.ngGameplanLines?.(s.plan, p, s.keys[s.idx]);
-    const label = lines ? lines.heading : row ? "Due reviews · " + cards(p.dueCards) : ngBeltDisplayName(worn.id) + " practice";
+    // a worth plan names the open card's position; otherwise the owed queue or the worn belt's lessons (v1.276.0's word)
+    const label = lines ? lines.heading : row ? "Due reviews · " + cards(p.dueCards) : ngBeltDisplayName(worn.id) + " lessons";
     s.heading.textContent = label;
     s.rows.style.setProperty("--practice-belt", NG_CHALLENGE_TRACK_COLORS[worn.id]);
     // Each half only when it has something to say (SIDE-R2 M6): no plan makes no claim about new work.
@@ -6818,7 +6833,10 @@ class Component extends DCLogic {
     if (s.plan && !s.explanation.querySelector("[data-gameplan-refresh]")) s.explanation.replaceChildren(this._gameplanIntro(s));
     if (s.plan) s.explanation.firstChild.firstChild.textContent = this._gameplanRuntime.ngGameplanSummary(s.plan);
     const title = this.drillHeadRef.current.querySelector("[data-practice-belt]");
-    if (title) title.textContent = ngBeltDisplayName(worn.id) + " · " + count(worn.stripes, "stripe") + " · " + (this._giMode === "nogi" ? "No-gi" : "Gi");
+    // the belt you wear, as the drawer row wears it (v1.276.0: `beltWorn()`, the one function); the lesson heading and its
+    // colour above stay the Path's own (`wornBelt()`): they name the course the lesson belongs to
+    const bw = this.beltWorn();
+    if (title) title.textContent = ngBeltDisplayName(bw.id) + (bw.id === "black" ? "" : " · " + count(bw.stripes, "stripe")) + " · " + (this._giMode === "nogi" ? "No-gi" : "Gi");
   }
 
   _practiceCorridor() {
@@ -7495,9 +7513,16 @@ class Component extends DCLogic {
         // it; see ngMergeBeltGrandfather.
         const held = ngMergeHeldBelt((this.belts || {}).held, (cloud.belts || {}).held);
         const gf = ngMergeBeltGrandfather((this.belts || {}).gf, (cloud.belts || {}).gf);
+        // THE HELD LEVEL (v1.276.0): the HIGHER of the two, whatever the stamps (a tie keeps the earlier stamp). Load-bearing
+        // for the same reason as `held`: the assign below keeps only LOCAL keys of `belts`. It is monotone, so no stamp and
+        // no order of pulls can race it: nothing is written from a stale copy. The guest join runs this merge too, so a
+        // guest's level joins the account as the higher one. An OLDER client has no line here: its merge keeps its local
+        // copy's value (dropping or lowering the cloud's) and pushes that, until a current device pulls and MAXes it back.
+        const lvl = ngRatingMergeHeld((this.belts || {}).lvl, (cloud.belts || {}).lvl);
         this.belts = Object.assign({ won: {} }, this.belts || {}, { won: won, attempts: att });
         if (held) this.belts.held = held; else delete this.belts.held;
         if (gf) this.belts.gf = gf; else delete this.belts.gf;
+        if (lvl) this.belts.lvl = lvl; else delete this.belts.lvl;
         // the open rule began when it first ran on ANY device (U163 c): the earlier stamp, never local-wins. An OLDER client
         // merges top-level fields local-wins (`_progressExtras` above), so one holding a later `openAt` in its own copy can
         // push it back; the next new client's MIN repairs it, and a belt earned between the two stamps may be carried (a
@@ -7577,6 +7602,7 @@ class Component extends DCLogic {
       }
       if (!current()) return false;
       this._pulled = true; this._pulledUserId = userId; this._pushSeq = (this._pushSeq || 0) + 1;
+      try { this._afterPullLevel(empty ? null : cloud); } catch (e) { /* a held-back promotion's beat never fails a merged pull (N5) */ }
       this._cloudSeen = pushesAtStart === (this._pushEvents || 0) ? seen : null;
       this._cloudSyncError = null;
       // v1.262.0 (ORDER1): guest practice joins only HERE, after a successful pull, so the rule meets the CLOUD's rows
@@ -7985,20 +8011,21 @@ class Component extends DCLogic {
   // lands: "explore" IS the home list, and Path / Last rolls open as views whose way back is the brand.
   styleViewToggle() { if (!this.viewToggleRef?.current) return; this._paintDrawerHead(); this._syncExploreTools(); }
   drawerHome() {
-    if (this._practiceInDrawer()) this._exitStudyTo();   // "‹ Practice" is Practice's Back: it restores where Practice was opened from (address, title, the map's selection, the opener's focus)
+    if (this.deckShown) this._askBeltRow();   // back to the list: the row reads again (`_askBeltRow`)
+    if (this._practiceInDrawer()) this._exitStudyTo();   // "‹ Master the game" is its view's Back: it restores where Practice was opened from (address, title, the map's selection, the opener's focus)
     else if (this._paneStudyActive()) this._exitStudyTo("explore");
     else if (this._viewMode !== "explore") this.setViewMode("explore");
     else this._exploreHome();
   }
   _paintDrawerHead() {
     const b = this.viewToggleRef?.current; if (!b) return;
-    const sub = this._practiceInDrawer() ? "Practice" : !this._paneStudyActive() && { challenges: "Path", history: "Last rolls" }[this._viewMode];
+    const sub = this._practiceInDrawer() ? NG_PRACTICE_NAME : !this._paneStudyActive() && { challenges: "Path", history: "Last rolls" }[this._viewMode];
     const html = sub ? "\u2039 " + sub : NG_DRAWER_LOGO + "BJJGraph";
     if (b._ngHead !== html) { b._ngHead = html; b.innerHTML = html; }
     b.setAttribute("aria-label", sub ? "Back to the sidebar" : "BJJGraph: the top of the sidebar");
     // Practice's only Back is this brand, so it carries the study Back's marker while Practice is open: one
     // `[data-pane-back]` on screen either way (a deck's or a checkpoint's own ‹ Back sits in the drill head).
-    if (sub === "Practice") b.setAttribute("data-pane-back", "1"); else b.removeAttribute("data-pane-back");
+    if (sub === NG_PRACTICE_NAME) b.setAttribute("data-pane-back", "1"); else b.removeAttribute("data-pane-back");
   }
   _drawerRow(icon, label, tail, onClick) {
     const b = document.createElement("button"); b.type = "button"; b.className = "ng-dr-row";
@@ -8022,15 +8049,18 @@ class Component extends DCLogic {
       // comparison (SIDE-R2 M9, measured at 390x844 under a 4x CPU throttle: asking fetched game-study.js,
       // 78,719 B, and added one or two long tasks, ~160 ms, while the comparison had not started 8 s later,
       // so the first session ranked new cards by weak spots either way). "Open study plan" still asks.
-      const pr = this._drawerRow(ngIcon(NG_IC.practice), "Practice", "", () => this.openPlanSession("due"));
+      const pr = this._drawerRow(ngIcon(NG_IC.practice), NG_PRACTICE_NAME, "", () => this.openPlanSession("due"));
       pr.className += " ngStat"; pr.setAttribute("data-b", "due");
+      // THE BELT YOU WEAR (v1.276.0): under the row, beside it in the list and not inside it, so the row's hit target and
+      // what a tap opens are unchanged. The Path's own woven bar went (ruled, STAGE2-GO 3: one belt in the drawer).
+      const rank = document.createElement("div"); rank.className = "ng-dr-rank"; rank.setAttribute("data-belt-row", "1");
       const path = this._drawerRow(ngIcon(NG_IC.path), "Path", '<small data-tab-sub="challenges"></small>', () => this.setViewMode("challenges"));
       path.setAttribute("data-view", "challenges");
-      const belt = document.createElement("div"); belt.className = "ng-dr-belt"; belt.setAttribute("data-path-belt", "1");
-      box.append(pr, path, belt);
+      box.append(pr, rank, path);
     }
     list.appendChild(box);
     this._paintTrain(box);
+    this._paintBeltRow(box);
     this.renderTabSubtitles();
   }
   // PAINTED IN PLACE (FGD13's rule for the stat row this replaces): `_refreshGameplanUI` lands whenever
@@ -8043,9 +8073,11 @@ class Component extends DCLogic {
     box.setAttribute("data-gameplan-status", this._gameStudyState?.phase || (plan ? plan.status : this._gameplanLoadState || "not-loaded"));
     if (plan) pr.setAttribute("data-new", plan.fresh.length); else pr.removeAttribute("data-new");
     // "N DUE" LEFT THE DRAWER (owner U171 a, 13 Nov): the owed pile is no longer the day's debt, so the row and its tooltip
-    // say what was answered against today's goal and the plan's state, never a due count
+    // say what was answered against today's goal and the plan's state, never a due count; and the row says what a tap does
+    // (v1.276.0, ruled STAGE2-GO 7): "Start today's session", in the name the view now has, "Master the game"
     const tip = t.done + " answered today \u00b7 " + this._gameStudyStatText(plan, (v) => v);
-    pr.title = tip; pr.setAttribute("aria-label", "Practice, daily goal " + this._practiceGoalText(t) + ": " + tip);
+    pr.title = NG_PRACTICE_START + " \u00b7 " + tip;
+    pr.setAttribute("aria-label", NG_PRACTICE_NAME + ": " + NG_PRACTICE_START + ", daily goal " + this._practiceGoalText(t) + ": " + tip);
     // WRITTEN ONLY WHEN IT CHANGED (SIDE-R2 M10): a residency refresh rewrote the pill under a pointer,
     // and a press whose target is replaced before its release dispatches no click (FGD13's class).
     const tail = pr.querySelector(".ng-dr-tail"), html = '<span class="ng-dr-bar"><i style="width:' + Math.min(100, Math.round(100 * t.done / Math.max(1, t.goal))) + '%"></i></span>' + t.done + '/' + t.goal;
@@ -8145,6 +8177,159 @@ class Component extends DCLogic {
     if (belt) for (const u of belt.units) if (this.unitComplete(belt.id, u)) done += 1;
     return { id: w.id, rank: w.rank, done: done, total: total, stripes: ngBeltStripes(done, total) };
   }
+  // ── THE BELT YOU WEAR IN THE DRAWER (v1.276.0, STAGE2; owner U159 a, U160 a, U162 a, U169 c; rulings STAGE2-GO) ──
+  // ONE belt in the drawer: the "Master the game" row wears it, the view's belt heading reads it, and the Path row says its
+  // course's progress in words (the woven bar under it went: two identical belts 40 px apart read as a fault). What it
+  // wears is `beltWorn()`: the HELD LEVEL (`belts.lvl = {n, t}`, rating.src.js's rules), which rises to the higher of itself,
+  // the Path's own level as read now and the number's level, and never falls; one value for both rulesets.
+  // `wornBelt()` above stays the PATH's own: its navigation, the Recall Mode patch at black (`_noteBlackBelt`) and the
+  // email's belt line read it, so the number reaching black mints no patch: the Path awards exactly as it did.
+  // READERS of `beltWorn()`, every one: `_paintBeltRow` (the row) and `_paintPractice` (the view's title).
+  _heldLevel() {
+    const h = ngRatingHeld(this.belts && this.belts.lvl);
+    return h ? h.n : -1;
+  }
+  _pathLevel() {
+    const w = this.wornBelt();
+    return ngRatingPathLevel(w.rank, w.stripes);
+  }
+  /** The belt the drawer row wears: the held level, never below the Path's own level as read now. */
+  beltWorn() {
+    const level = Math.max(0, this._heldLevel(), this._pathLevel()), b = ngRatingBeltOf(level);
+    return { level: level, rank: b.belt, id: NG_BELT_IDS[b.belt], stripes: b.stripes };
+  }
+  /**
+   * RAISE THE HELD LEVEL to `n` (never lower it). The first run SEEDS it, at 0 too: from then on the value exists, and
+   * everything that enumerates the blob (`ngProgressPracticeKey`, the merge, the guest join) meets it on every account.
+   * Writes memory only: the caller decides whether this saves (a raise from the Path rides the next save, as `belts.gf`
+   * does, so a passive boot writes nothing it did not change; a raise by the number saves at once with its beat).
+   */
+  _raiseLevel(n) {
+    if (!this.belts || !Number.isInteger(n) || n < 0) return false;
+    const L = Math.min(NG_RATING_BLACK, n);
+    if (this._heldLevel() >= L) return false;   // -1 when absent or malformed, so the first run seeds
+    this.belts.lvl = { n: L, t: Date.now() };
+    return true;
+  }
+  /**
+   * A PROMOTION BY THE NUMBER (ruled, STAGE2-GO 4): when a FINAL reading's own level is above everything worn, the held
+   * level rises to it, saved at once with ONE silent beat (`level_reached`; no sound: a sound or a celebration is a later
+   * design job) and one analytics line, written with the level, so it fires once per level per tab or device in the usual
+   * order (the exceptions are listed under ONCE PER LEVEL below). Only here, on the
+   * device whose own number raised it: a level that arrives by a merge (`_mergeProgressFields`) or from the Path
+   * (`_syncBelt`) fires nothing.
+   */
+  // ONCE PER LEVEL ACROSS TABS AND UNTIL A PULL HAS MERGED (R1, finding 2): the level is always raised (it is monotone) and
+  // written at once, but nothing fires when the STORED copy, which every tab of this browser saves to, already holds it
+  // (another tab got there first), and on an account nothing fires until a pull has merged (any pull in flight, or after
+  // a failed pull or push, holds it back too): then it fires only if the cloud did not bring it (`_afterPullLevel`). A
+  // guest, or an account playing local-only, fires at once. NOT COVERED (the second read of PR #412, ruled text only), so
+  // `neural_level_reached` can under-count and, rarely, count twice:
+  //   · a held-back promotion is LOST when no pull succeeds before the session ends (N1);
+  //   · two tabs of one account, one holding it back while its pulls fail, the other pushing it: nobody fires (N1);
+  //   · after a failed push it fires at the next save once the connection is back, not when the row showed it (N1);
+  //   · a level a guest already fired can fire again on the account after sign-in, when the drawer read that level
+  //     before the first pull landed (`_afterPullLevel` runs before the guest join and checks only the cloud) (N2);
+  //   · unreadable storage (or another owner's copy under this key) reads as no level: each tab fires once;
+  //   · after an older client lowered the cloud, a fresh device can fire a level again;
+  //   · the beat's `from` is this tab's level in memory, not what another tab stored, and two promotions held back
+  //     before one pull collapse into the last (`_levelPending` is one slot) (N7).
+  _noteRatingLevel(r) {
+    if (!this._progressLoaded || !this.belts || !r || r.final !== true || r.status !== "ok") return false;
+    const L = ngRatingLevel(r.points), was = this.beltWorn().level;
+    if (L == null || L <= was) return false;
+    const fresh = L > this._storedLevel(), o = this._progressOwner;
+    const early = !!o && o.kind === "account" && !this._progressLocalOnly && !(this._pulled === true && this._pulledUserId === o.id);
+    if (!this._raiseLevel(L)) return false;
+    this._flushSave();
+    const b = ngRatingBeltOf(L), ev = { level: L, belt: NG_BELT_IDS[b.belt], stripes: b.stripes, from: was, rating: Math.floor(r.points) };
+    if (!fresh) return false;
+    if (early) { this._levelPending = ev; return false; }
+    this._fireLevel(ev);
+    return true;
+  }
+  _storedLevel() {
+    try { const f = this._progressHost && this._progressHost.store.read(this._progressOwner), h = ngRatingHeld(f && f.blob && f.blob.belts && f.blob.belts.lvl); return h ? h.n : -1; }
+    catch (e) { return -1; }
+  }
+  _fireLevel(ev) {
+    this.fx("level_reached", ev);
+    this.track("neural_level_reached", { belt: ev.belt, stripes: ev.stripes, rating: ev.rating });
+  }
+  /** after this session's first successful pull: a promotion held back for it fires only if the merge did not bring it */
+  _afterPullLevel(cloud) {
+    const ev = this._levelPending, h = ngRatingHeld(cloud && cloud.belts && cloud.belts.lvl);
+    this._levelPending = null;
+    if (ev && ev.level > (h ? h.n : -1)) this._fireLevel(ev);
+  }
+  /**
+   * THE ROW'S READING. Opening the drawer asks (`applyDeckVisibility`), and so does coming back to the list
+   * (`drawerHome`); nothing else moves it, so the number on screen never moves by itself. The number is shown only when
+   * the reading is FINAL (`ratingCheck()`, the live check of v1.273.0): until then the row wears the belt held and a quiet
+   * placeholder of the number's width. A reading in hand is used at once (a check that landed is never fetched again);
+   * otherwise the row waits, asks, and paints what lands. A check that failed (offline) is asked once more at the next
+   * open, by `ratingCheck()`'s own rule. A reading asked for and then superseded by a newer ask is dropped.
+   */
+  _askBeltRow() {
+    const now = this.rating();
+    const seq = (this._beltAsk = (this._beltAsk || 0) + 1);
+    // THE GAME NOT IN YET (a drawer opened before the deck manifest, the weights or the curriculum landed: "no-manifest",
+    // "no-weights", "no-hands", "hand-failed", "no-day") is not an answer: the row waits, and the belt sync that runs when
+    // those land (`_syncBelt`) asks once more while the drawer is shown. A failed live check is NOT this: it waits for the
+    // next open (`ratingCheck`'s rule), so no grade can turn into a fetch.
+    const early = (r) => !!r && r.final === true && r.points == null && (/^no-/.test(r.status) || r.status === "hand-failed");
+    this._beltAskLater = early(now);
+    if (now.final && !this._beltAskLater) { this._beltReading = now; this._noteRatingLevel(now); this._paintBeltRow(); return Promise.resolve(now); }
+    this._beltReading = null; this._paintBeltRow();
+    if (this._beltAskLater) return Promise.resolve(now);
+    return this.ratingCheck().then((r) => {
+      if (seq !== this._beltAsk) return r;
+      if (early(r)) { this._beltAskLater = true; return r; }
+      this._beltReading = r && r.final ? r : null;
+      this._noteRatingLevel(this._beltReading);
+      this._paintBeltRow();
+      return r;
+    }, () => null);
+  }
+  _paintBeltRow(box) {
+    box = box || this.drillRef?.current?.querySelector("[data-explore-stats]");
+    const el = box && box.querySelector("[data-belt-row]"); if (!el) return;
+    // a reading taken in the other ruleset is never painted: the row wears the belt held and waits (R1, finding 1)
+    const r = this._beltReading, frame = this._giMode === "nogi" ? "nogi" : "gi";
+    const v = ngRatingRow(this.beltWorn().level, r && r.frame === frame ? r : null);
+    el.setAttribute("data-belt-state", v.state);
+    const html = this._beltRowHTML(v);
+    // written only when it changed (SIDE-R2 M10, as the row's tail): a rewrite under a pointer swallows a press
+    if (el._ngHtml !== html) { el._ngHtml = html; el.innerHTML = html; }
+  }
+  /** The row's markup for an `ngRatingRow` result: the belt, its stripes, the next slot, the number, the line(s). */
+  _beltRowHTML(v) {
+    const id = NG_BELT_IDS[v.belt], nth = ["1st", "2nd", "3rd", "4th"], b = (n) => "<b>" + n + "</b>";
+    const name = id.charAt(0).toUpperCase() + id.slice(1) + " belt" + (id === "black" ? "" : ", " + v.stripes + (v.stripes === 1 ? " stripe" : " stripes"));
+    // the sleeve: earned stripes, then the next one as an empty slot (none on black, which has no stripes)
+    let bar = "";
+    if (id !== "black") for (let i = 0; i < 4; i++) bar += i < v.stripes ? "<b></b>" : i === v.stripes ? "<s></s>" : "<u></u>";
+    const belt = '<i class="ng-belt" role="img" aria-label="' + name + '" data-belt="' + id + '" data-stripes="' + v.stripes +
+      '" style="--belt:' + NG_BELT_ROW_COLORS[id] + ';"><span>' + bar + "</span><em></em></i>";
+    // no number yet: an INVISIBLE "0000" in the same font and tabular figures holds the box at exactly a number's width (every
+    // number is four digits, 1000..2000), so nothing jumps when one lands. `min-width: 4ch` measured the plain "0", 1 px
+    // narrower than four tabular digits at 14px: e2e/journeys/belt-row.spec.ts caught the belt moving by that pixel.
+    const num = '<span class="ng-belt-num" data-belt-number="' + (v.number == null ? "" : v.number) + '"' +
+      (v.number == null ? ' aria-hidden="true">0000</span>' : ">" + v.number + "</span>");
+    const lines = [];
+    if (v.state === "ok") {
+      if (v.top) lines.push(v.top.to > 0 ? b(v.top.to) + " to the top of the scale" : "The top of the scale");
+      else if (v.next.level % 5) lines.push(b(v.next.to) + " to your " + nth[(v.next.level % 5) - 1] + " stripe" + (v.belt2 ? " · " + b(v.belt2.to) + " to " + NG_BELT_IDS[v.belt2.belt] : ""));
+      else lines.push(b(v.next.to) + " to " + NG_BELT_IDS[Math.min(4, v.next.level / 5)]);
+      // THE DIP (ruled, STAGE2-GO 5): any number below the floor of what is worn prints the second line
+      if (v.dip) {
+        const k = v.dip.level % 5;
+        lines.push(b(v.dip.to) + " under " + (v.dip.level < NG_RATING_BLACK && k ? "your " + nth[k - 1] + " stripe · stripes stay" : NG_BELT_IDS[Math.floor(v.dip.level / 5)] + " · your belt stays"));
+      }
+    } else if (v.state === "none" && this._beltReading && this._beltReading.status === "empty") lines.push("Answer a few cards to get your number");
+    return '<div class="ng-dr-rank-top">' + belt + num + '</div><div class="ng-dr-rank-line" data-belt-line="1">' +
+      (lines.length ? lines.map((l, i) => "<div" + (i ? ' data-belt-dip="1"' : "") + ">" + l + "</div>").join("") : "<div> </div>") + "</div>";
+  }
   /**
    * PERSIST A PROMOTION THE MOMENT THE EVIDENCE SHOWS IT, so nothing computed later can lower what
    * the player has seen. Called from every seam that moves the evidence: `_publishKnowledge` (every
@@ -8194,10 +8379,19 @@ class Component extends DCLogic {
     // that ran this before its pull then beat another device's later Off and pushed it back: the read of PR #404, finding
     // 1, OPEN2.) It rides the next save, as the stamp above does. See `_recallCarried`.
     if (!this._recallCarry && this._openAt > 0 && this._recallCarryLive()) this._recallCarry = true;
+    // THE HELD LEVEL RISES TO THE PATH'S (v1.276.0, ruled STAGE2-GO 1), read now, AFTER any belt raised above: so a
+    // stripe the Path gives today is held, and neither a ruleset flip nor a curriculum edit lowers what the drawer row
+    // wears. It seeds the value on the first run and RIDES THE NEXT SAVE, as `gf` does (a passive boot writes nothing it
+    // did not change: e2e/gen/holder-passive-boot-blob-fixpoint.spec.ts); a belt raised above saves at once and carries it.
+    // It fires nothing: only the number's own rise is a promotion (`_noteRatingLevel`).
+    const lifted = this._raiseLevel(this._pathLevel());
+    // the drawer opened before the game was in: it asks once more now that an input landed (`_askBeltRow`)
+    if (this._beltAskLater && this.deckShown) { this._beltAskLater = false; this._askBeltRow(); }
     if (dirty) {
       this._saveProgress();
       if (this.renderTabSubtitles) this.renderTabSubtitles();
     }
+    if (lifted) this._paintBeltRow();
     this._noteBlackBelt();
   }
   /**
@@ -8613,6 +8807,10 @@ class Component extends DCLogic {
     this._flowScoreCache = null;
     this._rebuildRulesetMask();
     this._syncBelt("ruleset");
+    // the drawer's number is per ruleset: a flip (Settings is a modal over the open drawer) asks again; the live check is
+    // the same for both rulesets, so this fetches nothing once a check has LANDED. After a FAILED check each flip with the
+    // drawer open asks for both files again, as an open does (v1.276.0 R1, finding 1; the second read's N3)
+    if (this.deckShown) this._askBeltRow();
     const concept = this._conceptsById && this._conceptsById[this._conceptId];
     if (concept) this.focusConcept(concept, true);
     // NOT released, each for a reason, so the next reader sees this was checked not forgotten:
@@ -13647,7 +13845,7 @@ class Component extends DCLogic {
       // victory cascade: flares hop the roll trail 110ms apart, hard-capped at 1.5s total
       const rows = (this.rollLog || []).slice(-13);
       const hops = Math.max(1, rows.length);
-      for (let ci = 0; ci < rows.length; ci++) { const cidx = rows[ci].idx; this.after(ci * 0.11, () => this.flare(cidx)); }
+      for (let ci = 0; ci < rows.length; ci++) { const cidx = rows[ci].idx; this.after(ci * 0.11, () => this.flare(cidx, 0, 1)); }
       this.fx("victory_cascade", { hops: hops, durMs: hops * 110 });
       this.ladderMove(1);
     } else if (kind === "lose") {
@@ -18026,7 +18224,7 @@ class Component extends DCLogic {
       dur = R.reduced ? 0.8 : 1.4;
       this._replayAim(s.nodes, dur);
       this.setEvent("Replay", s.name, "info");
-      for (const k of s.nodes) this.flare(k);
+      for (const k of s.nodes) this.flare(k, 0, 1);
     } else if (s.kind === "land") {
       dur = R.reduced ? 0.85 : 1.15;
       this.focusIdx = s.to;
@@ -18524,7 +18722,7 @@ class Component extends DCLogic {
   updateRipples() {
     if (!this.ripples || !this.ripples.length) return;
     for (const r of this.ripples) {
-      if (!r.done && this.now >= r.t0 + r.dur) { r.done = true; this.flare(r.b); }
+      if (!r.done && this.now >= r.t0 + r.dur) { r.done = true; this.flare(r.b, 0, 1); }
     }
     const last = this.ripples[this.ripples.length - 1];
     if (this.now - (last.t0 + last.dur) > 1.9) this.ripples = [];
@@ -20125,9 +20323,11 @@ class Component extends DCLogic {
     return dy ? { ...t, cy: t.cy + dy / s } : t;
   }
   // Shared drawn silhouette: camera exclusions and labels must clear the same shape/rings.
-  _nodeHalfW(n, scale, nodeK, kLOD) {
+  // `bare` (v1.275.0): the silhouette alone, without the rings it wears: what another move's name must not cross.
+  _nodeHalfW(n, scale, nodeK, kLOD, bare) {
     const rr = (n.z && n.rep) ? n.rSite + (n.r - n.rSite) * kLOD : n.r;
     const f = n.ty === "submissions" ? 1.242 : n.ty === "positions" ? 1 : 1.18;
+    if (bare) return rr * nodeK * f * scale;
     // ...and it must clear whatever the node is WEARING, not just its own silhouette. The
     // focus mark and the three ring passes are all concentric circles centred on it, and the
     // widest wins: measured on screen, an option's name started INSIDE its own 2.4x ring.
@@ -20904,7 +21104,15 @@ class Component extends DCLogic {
   // v1.253.0 (U114 a): the map can no longer be hidden, so only the film's theater turns graph input off.
   _graphInputOn() { return !this._filmTheater; }
   _updateHover(e) {
-    if (!this._graphInputOn()) { this._hover = null; return; }
+    // TWO ANSWERS TO "IS THE POINTER ON THE MAP?", KNOWN (R1 finding 11): this asks the hit-test target; the names ask
+    // `_nameBlocks`' boxes (an opacity floor, no pointer-events test). They differ on pointer-events:none chrome (the legend,
+    // the landing stack and nav: no name there, but the hover passes) and on a control under 5% opacity (names allowed, no
+    // hover). And the pointer's own label has its own fit (`draw()`'s `clear`: no orb test) and keeps its usual place,
+    // under a control or trimmed at the edge, when neither side is clear.
+    // ...and a MOVE hovers only when the pointer is ON the map: over a card, the row or any control it is not (v1.275.0; it
+    // used to hover the node under a card and name it under the card). A seat star belongs to its label and hovers its pair
+    // itself. Never the tap's pointerup: the wrap holds the pointer captured then, so its target is the wrap (attachInput).
+    if (!this._graphInputOn() || e.type === "pointermove" && e.target !== this.canvas && !e.target.closest?.("[data-seat-star]")) { this._hover = null; return; }
     if (!this.cam || !this.nodes) return;
     const rect = this.canvas.getBoundingClientRect();
     if (e.type === "pointermove") {
@@ -21118,8 +21326,7 @@ class Component extends DCLogic {
   // as before: the map's flashcard colour is "Turn what you know gold" (`masteryGold`). Published per frame in CSS px
   // (`_lastMapSeals`), as `_lastPairLabel` is, so a spec reads what the frame drew.
   _mapSeal(ctx, n, y, r, scale, a, ox, oy, boxes) {
-    const rs = r * scale, R = Math.max(2.4, Math.min(4.5, 0.38 * rs)), cx = n.x * scale + ox, cy = y * scale + oy, k = R / 3 * 0.7071;
-    const up = (n.ty === "positions" ? 0.707 : n.ty === "submissions" ? 0.47 : 0.59) * rs + k, down = (n.ty === "submissions" ? 0.972 : n.ty === "positions" ? 0.707 : 0.59) * rs + k;
+    const rs = r * scale, [R, up, down] = this._sealGeo(n, rs), cx = n.x * scale + ox, cy = y * scale + oy;
     const free = (x, yy) => !(boxes || []).some((b) => x + R > b.l && x - R < b.r && yy + R > b.t && yy - R < b.b);
     let x = cx + up, yy = cy - up;
     for (const [sx, sy] of [[1, -1], [-1, -1], [1, 1], [-1, 1]]) { const d = sy < 0 ? up : down; if (free(cx + sx * d, cy + sy * d)) { x = cx + sx * d; yy = cy + sy * d; break; } }
@@ -21128,6 +21335,120 @@ class Component extends DCLogic {
     ctx.lineWidth = 1; ctx.strokeStyle = this.rgba({ r: 8, g: 10, b: 16 }, 0.85 * a); ctx.stroke();
     this._lastMapSeals.push({ idx: n.idx, x, y: yy, r: R });
   }
+  // The dot's size and its offsets to the up and down shoulders (each axis) for an orb drawn `rs` px wide: ONE definition, read by
+  // `_mapSeal` to draw it and by `_planNames` to keep every dealt orb's shoulders clear of other moves' names (v1.275.0).
+  _sealGeo(n, rs) {
+    const R = Math.max(2.4, Math.min(4.5, 0.38 * rs)), k = R / 3 * 0.7071;
+    return [R, (n.ty === "positions" ? 0.707 : n.ty === "submissions" ? 0.47 : 0.59) * rs + k, (n.ty === "submissions" ? 0.972 : n.ty === "positions" ? 0.707 : 0.59) * rs + k];
+  }
+
+  // ══ NAMES NEVER SIT ON EACH OTHER (v1.275.0) ═══════════════════════════════════════════════════════════════════════════════
+  // The owner, 13 Nov, looking at the map pulled back: "dunno why in the graph there are many techniques showing but they are
+  // unreadable like this you know, when they overlap, avoid that pls". Until now every dealt move whose orb was within 60 px of
+  // the screen was named at one fixed place (right of the orb, raised 7 px), and NOTHING tested one name against another, a
+  // name against the screen's edge or a name against a control: measured on 40 seats (tests/artifacts/_map_names_survey.mjs),
+  // pulled back 9 times at 390x844 the map wrote names on top of each other in hundreds of pairs, and at the usual zoom names
+  // ran off the screen and under the "Your moves" row.
+  //
+  // THE RULE: a name is written only where it can be read. In ORDER OF CLAIM (`draw()`): the move in flight's label during a
+  // move, else the position's own label (both are never moved or refused); the pointer's label (its usual place, or the
+  // mirror side of its orb when that place is not clear: `side`, its own fit, below); then, through this planner, a node the
+  // player was just pointed at (`flare` without `trail`, pass "point"); the dealt moves (pass "move"); the lit trail (pass
+  // "lit", best effort). Each candidate takes the first of its places whose ink box, grown by its air, touches none of: a
+  // name already claimed this frame (one box per label); a control over the map (`_nameBlocks`); the map's edge; the orb of
+  // another dealt move or of the position's pair, with that orb's shoulders where a gold dot can sit (every dealt orb,
+  // known or not, so a grade never moves a name). No place passes: the name is not written. The places are `_nameAt`'s.
+  // Only an orb whose silhouette is on the canvas is a candidate. Within a pass:
+  //   1. what the player is ACTING ON (the card under the pointer, the card holding keyboard focus, a card turned up by
+  //      touch; every "point" node): 24 places, and as a last resort across another orb. Named unless every place is on a
+  //      name claimed before it, under a control or off the map.
+  //   2. the names WRITTEN LAST TIME, in the row's order, each at its old place first: they keep it down to 3 px of air.
+  //   3. the rest, in the row's order (the cards left to right, as the player reads them, `draw()`), with 6 px of air,
+  //      and only a move whose orb stands 6 px clear of every other dealt orb (3 px to keep a name): a name must belong to
+  //      ONE orb (the designer's rule 5, practice-r6 section 4).
+  // A DECISION PER CAMERA STATE, NOT A RE-DEAL EVERY FRAME (the brief's "names must not blink while the camera eases"): a
+  // written name is tested first, with less air than a newcomer, so it is never bumped by a neighbour whose turn came first
+  // and cannot toggle at a boundary (it leaves at 3 px, comes back only at 6); and while the camera MOVES (pan or zoom, per
+  // second: `admit` false, `draw()`), a written name keeps its own place or leaves, never changes side, and a name the layout
+  // refused comes back only at rest and no sooner than half a second after it left (one whose orb left the canvas follows
+  // the orb back: R2 D2, as ruled); a newcomer (an orb sliding into view) may come in while it moves. Measured: an ease from 4
+  // times out re-dealt names every frame without this, one leaving and coming back within 3 frames on another side; a slow
+  // drag, 2 to 7. Measured over 12 recorded drags (240 frames, 3 px a frame) against "nothing comes in until rest": the same
+  // 0 returns and 0 changes of side, and more names on screen while moving (1440 dragging down: 7.4 a frame against 3.4,
+  // never under 3 against down to none); docs/Changelog-Archive.md v1.275.0 R1. A frame whose inputs are
+  // unchanged (camera, hand, cards, pointer, controls, the names before it) reuses the last plan: no layout work.
+  // The trail ("lit") is admitted while moving (the camera follows a travelling move) and may change place: best effort.
+  // Nothing is lost: a move whose name is not written is named the moment the pointer is on its orb or on its card (step
+  // 1, and the hover label), a tap stages it as before, and its card in the row carries its name as before.
+  // Published: `_lastNameBoxes`, every box written this frame in order of claim (`g` its label, so the claim's sequence,
+  // `w` its kind: position, travel, hover, star, point, move, lit; `i` its node; `k` a planned name's place).
+  _planNames(pass, ctx, cands, claims, orbs, sig, admit, A) {
+    const nm = this._nm || (this._nm = {}), memo = nm[pass] || (nm[pass] = { prev: new Map(), gone: new Map() }), gone = memo.gone, t = this.now;
+    // a name the layout REFUSED waits: while the camera moves until it rests, and at rest until half a second after it left
+    // (R1: no such name leaves and comes back within half a second); the live waits are in the key, so a held camera
+    // re-plans as one ends
+    sig += A.v + A.l + "|" + [...gone.values()].filter((g) => t - g < 0.5).length;
+    if (memo.sig !== sig) {
+      const plan = new Map(), prev = memo.prev, G = claims.length, K24 = [...Array(24).keys()], K = K24.slice(0, 8);
+      // the box may be written with air `m`: inside the map, clear of every claim and control, and (`o`) of other orbs
+      const fits = (c, b, m, o) => b.l >= A.l + m - 2 && b.r <= A.r - m + 2 && b.t >= m - 2 && b.b <= A.b - m + 2
+        && !claims.concat(A.blocks).some((q) => b.l < q.r + m && b.r > q.l - m && b.t < q.b + m && b.b > q.t - m)
+        && !(o && orbs.some((q) => q.i !== c.i && q.i !== c.n.pi && Math.max(b.l - q.x, 0, q.x - b.r) ** 2 + Math.max(b.t - q.y, 0, q.y - b.b) ** 2 < q.reach ** 2));
+      const place = (c, ks, m, o) => ks.map((k) => this._nameAt(ctx, c, k)).find((b) => fits(c, b, m, o));
+      // the gap from this orb to the nearest other dealt orb (not its own pair's), silhouette to silhouette
+      const room = (c) => Math.min(1e9, ...orbs.filter((q) => q.i !== c.i && q.i !== c.n.pi).map((q) => Math.hypot(q.x - c.sx, q.y - c.sy) - q.r - c.r));
+      for (const step of [0, 1, 2]) for (const c of cands) {
+        const inc = prev.has(c.i); let b;
+        if (step !== (c.act ? 0 : inc ? 1 : 2)) continue;
+        if (!step) b = place(c, K24, 6, 1) || place(c, K24, 3, 1) || place(c, K24, 3, 0);
+        else if ((inc || !(admit ? t - gone.get(c.i) < 0.5 : gone.has(c.i))) && room(c) >= (inc ? 3 : 6)) b = place(c, inc ? [prev.get(c.i)].concat(admit ? K : []) : K, inc ? 3 : 6, 1);
+        if (b) { b.g = G + plan.size; b.w = pass; b.i = c.i; claims.push(b); plan.set(c.i, b); }
+      }
+      // only a name the LAYOUT refused waits; one that is no longer a candidate (turned face down, its orb off the canvas,
+      // named by the pointer instead) is back the moment it is one again (hidden-moves: a pull flipping the setting twice)
+      for (const c of cands) if (prev.has(c.i) && !plan.has(c.i)) gone.set(c.i, t);
+      if (admit) for (const [i, g] of gone) if (t - g >= 0.5) gone.delete(i);
+      memo.prev = new Map([...plan].map(([i, b]) => [i, b.k]));
+      memo.sig = sig; memo.plan = plan;
+    } else for (const b of memo.plan.values()) claims.push(b);
+    return memo.plan;
+  }
+  // A name's place `k` beside its orb, as the ink box it would have (textBaseline "bottom", left-aligned, `ctx.font` set by the
+  // caller; widths cached per string, dropped when a font lands). 0 is where every move's name has always sat (right of the
+  // drawn ring, raised 7 px); 1-2 the same side level and lowered; 3-5 the left side; 6-7 centred above and below. 8-15 and
+  // 16-23 are the same eight 10 and 20 px further out: a move being acted on may need them to clear the position's name.
+  _nameAt(ctx, c, k) {
+    const M = this._inkM || (this._inkM = new Map());
+    let m = M.get(c.s);
+    if (!m) { const t = ctx.measureText(c.s); M.set(c.s, m = [t.actualBoundingBoxLeft, t.actualBoundingBoxRight, t.actualBoundingBoxAscent, t.actualBoundingBoxDescent]); }
+    const [L, R, a, d] = m, f = (k >> 3) * 10, j = k & 7, g = c.hw + 9 + f, side = j < 3 ? 1 : j < 6 ? -1 : 0, v = j < 6 ? j % 3 : j - 6;
+    const x = side > 0 ? c.sx + g : side < 0 ? c.sx - g - R : c.sx - (R - L) / 2;
+    const y = side ? (v ? v > 1 ? c.sy + 7 + f + a : c.sy + (a - d) / 2 : c.sy - 7 - f) : v ? c.sy + c.hw + 4 + f + a : c.sy - c.hw - 4 - f - d;
+    return { x, y, k, l: x - L, r: x + R, t: y - a, b: y + d };
+  }
+  // THE CONTROLS OVER THE MAP, as canvas-px boxes a name must not run under (v1.275.0), with the map's free left edge (an open
+  // drawer on a desktop). DERIVED, not listed by name: every visible child of the app's wrap and of its root plane (the top
+  // bar's icons, the announcer while it speaks, the index, the legend, the drawer, a toast, the hand's close), and the reader's
+  // own parts (the row with its header and cards, the question, the film, a closed part's label, the article and its body,
+  // which is wider than the article: two columns of sections at 1440); the canvas, the
+  // reader's transparent section and the seat stars (each belongs to a name and is claimed with it) excepted, and anything under
+  // 5% opacity (a layer at rest), read from its INLINE opacity first: that is where it is going, so the arrival's centre block,
+  // fading out over NG_ARRIVE_HANDOFF on the wall clock, hands the band to the names as the canvas label takes it, and a pumped
+  // clock never meets a stale fade. The phone's drawer is opaque and covers the map, so it refuses every name.
+  // MEASURED ONCE PER DRAWN FRAME (`draw()` hands the one answer to both passes and the pointer's label), never on a timer:
+  // a 250 ms memo let two draws in one task see two different sets after a pause had moved the DOM, and a name sit under a
+  // control that had just appeared. About twenty box reads on a clean layout. `v` is the boxes to the pixel, so a plan keyed
+  // on it (`_planNames`) is redone exactly when a control moves and not otherwise.
+  _nameBlocks() {
+    const wrap = this.wrapRef.current, root = this.__ngRoot, rd = this._reader, cv = this.canvas.getBoundingClientRect(), blocks = [];
+    for (const el of [...wrap.children, ...(root && root !== wrap ? root.children : []), ...(rd && this._readerEl?.isConnected ? [...rd.game.children, rd.articleEl, ...rd.articleEl.children] : [])]) {
+      if (el === this.canvas || el === this._readerEl || el === wrap || el.hidden || el.hasAttribute("data-seat-star")) continue;
+      const r = el.getBoundingClientRect(), cs = getComputedStyle(el);
+      if (r.width > 0 && r.height > 0 && cs.display !== "none" && cs.visibility !== "hidden" && (el.style.opacity || cs.opacity) >= 0.05) blocks.push({ l: r.left - cv.left, r: r.right - cv.left, t: r.top - cv.top, b: r.bottom - cv.top });
+    }
+    return { blocks, l: this._paneLayout().left, r: this.W, b: this.H, v: blocks.map((b) => [b.l, b.t, b.r, b.b].map(Math.round)).join(";") };
+  }
+
   shapePath(ctx, ty, x, y, r) {
     if (ty === "positions") { ctx.moveTo(x + r, y); ctx.arc(x, y, r, 0, 6.2832); }
     else if (ty === "submissions") { const h = r * 1.35; ctx.moveTo(x, y - h); ctx.lineTo(x + h * 0.92, y + h * 0.72); ctx.lineTo(x - h * 0.92, y + h * 0.72); ctx.closePath(); }
@@ -21212,7 +21533,7 @@ class Component extends DCLogic {
     const nodeK = Math.max(0.4, Math.min(1, this.cam.vw / (this.graphW * 0.5)));
     const kRaw = (scale - 1.15) / (2.20 - 1.15);          // px per world unit: MERGE 1.15, SPLIT 2.20
     const kLOD = kRaw <= 0 ? 0 : kRaw >= 1 ? 1 : kRaw * kRaw * (3 - 2 * kRaw);   // smoothstep
-    this._lodK = kLOD;
+    this._lodK = kLOD; this._nodeK = nodeK;   // published, as the lift is: a spec reads a node's drawn width through `_nodeHalfW`
     const lift = nodeK * kLOD;
     const LY = (n) => (n.z ? n.y + n.z * n.h * (1 - lift) : n.y);
     this._LY = LY;   // ONE definition — `pairMid` reads the same lift the frame just drew with
@@ -21690,8 +22011,11 @@ class Component extends DCLogic {
     //    label both halves, that is a label-side decision, not an in-node one.
 
     const seatStars = [];
-    // labels
-    if (cfg.showLabels) {
+    // labels — none while a phone's drawer is open: it takes the screen (`applyDeckVisibility`), and a name under it cannot be
+    // read, the position's own included (v1.275.0; measured: 343 of 390 px, the rest too narrow for any name)
+    const covered = cfg.showLabels && this.deckShown && this.isMobile();
+    if (covered) this._lastPairLabel = this._lastRichLabel = this._lastHoverLabel = this._lastOptLabels = this._lastOptBoxes = null, this._lastNameBoxes = this._lastMapSeals = [];
+    if (cfg.showLabels && !covered) {
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       // HOW FAR RIGHT A NODE'S SILHOUETTE ACTUALLY REACHES, in screen px (v1.114.0). Every label
       // here anchored on `n.r * scale`, which stopped being the drawn radius twice over: `nodeK`
@@ -21700,21 +22024,21 @@ class Component extends DCLogic {
       // 1.18r. Now that the label is THE naming design at every zoom it has to sit against the
       // edge it is naming, not against a number that only agreed with it at one camera.
       const halfW = n => this._nodeHalfW(n, scale, nodeK, kLOD);
-      // transient names on recently-lit nodes (excluding the focus, which gets a rich label)
-      ctx.textBaseline = "bottom";
-      ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
-      for (const n of this.nodes) {
-        if (!rsOk[n.idx]) continue;
-        const age = this.now - n.lit; if (age > 3.2 || n.idx === drawFocus) continue;
-        if (this.activeMove && n.idx === this.activeMove.idx) continue;
-        if (this.optionIdxs.indexOf(n.idx) >= 0) continue; // outgoing nodes get persistent labels below
-        const k = Math.max(0, 1 - age / 3.2);
-        const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
-        if (sx < -60 || sx > W + 60 || sy < 0 || sy > H + 20) continue;
-        ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
-        ctx.fillStyle = this.rgba({ r: 238, g: 241, b: 246 }, 0.8 * k * A);
-        ctx.fillText(this.graphName(n), sx + halfW(n) + 9, sy - 7); ctx.shadowBlur = 0;
-      }
+      // EVERY NAME THIS FRAME WRITES CLAIMS ITS INK BOX, in order of claim (v1.275.0, `_planNames`): the position's own label
+      // first, then what the pointer names, then the dealt moves, then the lit trail. `ink` grows the box of the label `gid`
+      // by a line just written with `ctx`'s font and baseline: ONE box per label, so no name is written between a position's
+      // name and its side; a seat star claims its button, which is a control.
+      const claims = [], starPx = this.isMobile() ? 44 : 28;
+      let gid = 0, what = "position", whom = drawFocus;
+      const ink = (s, x, y) => {
+        const m = ctx.measureText(s), l = x - m.actualBoundingBoxLeft, r = x + m.actualBoundingBoxRight, t = y - m.actualBoundingBoxAscent, b = y + m.actualBoundingBoxDescent, q = claims.find((q) => q.g === gid && q.w === what);
+        if (q) Object.assign(q, { l: Math.min(q.l, l), r: Math.max(q.r, r), t: Math.min(q.t, t), b: Math.max(q.b, b) }); else claims.push({ l, r, t, b, g: gid, w: what, i: whom });
+      };
+      const star = (s) => { seatStars.push(s); claims.push({ l: s.x - starPx / 2, r: s.x + starPx / 2, t: s.y - starPx / 2, b: s.y + starPx / 2, g: gid, w: "star", i: s.idx }); };
+      // the pointer's label: written from x0 (right of its orb) unless that box is not clear and the mirror ending at x1 is
+      const NB = this._nameBlocks(), wid = (f, s) => s ? (ctx.font = f, ctx.measureText(s).width) : 0;
+      const clear = (l, r, t, b) => l >= NB.l + 4 && r <= W - 4 && t >= 4 && b <= H - 4 && !claims.concat(NB.blocks).some((q) => l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3);
+      const side = (x0, w, t, b, x1) => clear(x0, x0 + w, t, b) || !clear(x1 - w, x1, t, b) ? x0 : x1 - w;
       // Rich labels own the graph's naming structure: role + short headline + optional qualifier.
       // Callers cannot pass a pre-composed name; that is how the merge-scale fallback used to put
       // "from Mount" back into the headline while the split pair rendered it as a subtitle.
@@ -21739,19 +22063,19 @@ class Component extends DCLogic {
         const dfam = this._displayFam || "'Space Grotesk'";
         ctx.font = "700 " + (big ? 11 : 10) + "px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba(roleCol, lA);
-        ctx.fillText(role.toUpperCase(), ox, roleY);
-        if (big) seatStars.push({ idx, roleX: ox, x: ox + ctx.measureText(role.toUpperCase()).width + 15, y: roleY - 4, alpha: lA });
+        ctx.fillText(role.toUpperCase(), ox, roleY); ink(role.toUpperCase(), ox, roleY);
+        if (big) star({ idx, roleX: ox, x: ox + ctx.measureText(role.toUpperCase()).width + 15, y: roleY - 4, alpha: lA });
         const rNamePx = big ? this.nameFontPx() : 13;
         ctx.font = (big ? "700 " : "600 ") + rNamePx + "px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, lA);
         const drawnMain = this._fitText(ctx, main, maxW);
-        ctx.fillText(drawnMain, ox, nameY);
+        ctx.fillText(drawnMain, ox, nameY); ink(drawnMain, ox, nameY);
         let drawnQual = "";
         if (qual) {
           ctx.font = "600 " + (big ? "11.5px " : "10.5px ") + dfam + ", sans-serif";
           drawnQual = this._fitText(ctx, qual, maxW);
           ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, lA * 0.62);
-          ctx.fillText(drawnQual, ox, qualY);
+          ctx.fillText(drawnQual, ox, qualY); ink(drawnQual, ox, qualY);
         }
         ctx.shadowBlur = 0;
         // Published draw output: canvas has no DOM, and `ox`/baselines are draw-local geometry.
@@ -21764,11 +22088,8 @@ class Component extends DCLogic {
         // small travel label over it was the owner's "just 'armbar', tiny" report
         const fn = drawFocus >= 0 ? this.nodes[drawFocus] : null;
         const dup = fn && (am.idx === drawFocus || (fn.pairId && this.nodes[am.idx] && this.nodes[am.idx].pairId === fn.pairId));
-        if (!dup) richLabel(am.idx, am.verb, am.col, false);
+        if (!dup) { gid++; what = "travel"; whom = am.idx; richLabel(am.idx, am.verb, am.col, false); }
       }
-      // persistent labels on the outgoing option nodes while a decision is open
-      this._lastOptLabels = null; // published like _lastPairLabel: "what did THIS frame draw"
-      this._lastOptBoxes = null;  // ...and where (CSS px), so the seal's dot is held off every name (v1.272.0)
       // HIDDEN MOVES: every dealt orb whose card is face down, with its pair partner. NO map label may name one —
       // the always-on option labels, the roaming pair group and the single hover label all ask this set
       // (review R2: the hover labels did not, so pointing at an orb named the move its card hides).
@@ -21781,31 +22102,6 @@ class Component extends DCLogic {
         for (const oc of this._optionCards || []) if (oc.card && !oc.card.hasAttribute("data-hide")) { lit.add(oc.opt.idx); if (oc.opt.res != null) lit.add(oc.opt.res); }
         for (const i of this.optionIdxs) if (!lit.has(i)) { hmDown.add(i); const q = this.nodes[i]; if (q && q.pi >= 0) hmDown.add(q.pi); }
       }
-      if (this.optionIdxs && this.optionIdxs.length && !this.pulse) {
-        this._lastOptLabels = []; this._lastOptBoxes = [];
-        ctx.textBaseline = "bottom"; ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
-        for (const idx of this.optionIdxs) {
-          const n = this.nodes[idx]; if (!n) continue;
-          if (hmDown && hmDown.has(idx)) continue;   // hidden moves: a face-down card's orb is not named
-          // a staged exchange makes a dealt option THE FOCUS (v1.132.0) — the pair group already
-          // names it, and an option label on the same orb is the "printed twice" defect the
-          // in-node pass was deleted for. Never possible before: an option was never the focus.
-          if (idx === drawFocus || (drawFocus >= 0 && n.pairId && this.nodes[drawFocus].pairId === n.pairId)) continue;
-          const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
-          if (sx < -60 || sx > W + 60 || sy < 0 || sy > H + 20) continue;
-          ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
-          ctx.fillStyle = this.rgba(n.col, 0.95 * A);
-          const name = this.graphName(n), lx = sx + halfW(n) + 9;
-          ctx.fillText(name, lx, sy - 7); ctx.shadowBlur = 0;
-          this._lastOptLabels.push(idx);
-          const m = ctx.measureText(name);   // the name's INK box (baseline "bottom" at sy - 7), not a guessed pad
-          this._lastOptBoxes.push({ idx, l: lx, r: lx + m.width, t: sy - 7 - m.actualBoundingBoxAscent, b: sy - 7 + m.actualBoundingBoxDescent });
-        }
-      }
-      // THE SEALS (v1.272.0): over every orb, the scene's highlight and the focus mark, and laid out with the option
-      // names this frame just placed, so a dot never sits on a name (`_mapSeal`). Published, as the names are.
-      this._lastMapSeals = [];
-      for (const [n, y, r, k] of seals) this._mapSeal(ctx, n, y, n.idx === drawFocus && focusSealR ? focusSealR : r, scale, A * dim * k, ox, oy, this._lastOptBoxes);
       // THE ONE LABELLING DESIGN, AT EVERY ZOOM (v1.114.0). This used to be suppressed the moment
       // the node grew past 20px, because above that the in-node pass took over and drawing both
       // printed the state's name twice. That pass is gone, so the suppression goes with it: the
@@ -21853,8 +22149,7 @@ class Component extends DCLogic {
         const _sp = this.splitName(n.t);
         const nm = this.graphName(n);
         const qual = n.ty === "positions" ? "" : _sp.from || "";
-        const ox = sx + Math.max(halfW(n), halfW(partner)) + 11;
-        const gMaxW = Math.max(60, W - ox - 12);
+        const hw2 = Math.max(halfW(n), halfW(partner));
         const above = act.z > 0;
         // ── THE ROLE WORD IS THE ONE THE CATEGORY ACTUALLY USES (v1.129.4) ──────────────────
         // The vocabulary itself now lives in seatWord() — it had a second caller (the drill
@@ -21893,23 +22188,6 @@ class Component extends DCLogic {
         const nameY = sy + 6 - lift;
         const qualY = nameY + this.NG_LABEL_LEAD;
         const namePx = focused ? this.nameFontPx() : 15;
-        ctx.font = "700 " + namePx + "px " + dfam + ", sans-serif";
-        const drawnMain = this._fitText(ctx, nm, gMaxW);
-        ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, aF);
-        ctx.fillText(drawnMain, ox, nameY);
-        let drawnQual = "";
-        if (qual) {
-          ctx.font = "600 " + (focused ? "11.5px " : "10.5px ") + dfam + ", sans-serif";
-          drawnQual = this._fitText(ctx, qual, gMaxW);
-          ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, aF * 0.62);
-          ctx.fillText(drawnQual, ox, qualY);
-        }
-        // PUBLISH WHAT WAS ACTUALLY DRAWN — the `this._LY = LY` pattern. `ox` comes from `halfW`,
-        // a draw-local closure, so a spec that recomputes it measures the wrong strip: chasing the
-        // "prints the inline long name" mutant, a pixel window derived from `r + 11` landed over
-        // the name's BODY instead of its tail and the mutant survived three different oracles.
-        // Reading the strings the frame passed to `fillText` is not a re-implementation of the
-        // render — it IS the render's output.
         // THE ROLE WORD RIDES ITS ORB (v1.135.0) unless that tears apart two adjacent subtitle
         // rows (v1.173.2). Above roles still sit beside their upper member, and an unqualified
         // lower role still follows its lower member. A qualified lower role instead sits exactly
@@ -21926,15 +22204,37 @@ class Component extends DCLogic {
           : qual
             ? qualY + this.NG_LABEL_LEAD
             : Math.max(nameY + nameClr, syAct + 4);
+        // THE POINTER'S GROUP TAKES THE OTHER SIDE OF ITS PAIR when its own is off the map, under a control or on the position's
+        // name (v1.275.0, `side`); the position's own group never moves ("the name never moves").
+        const fN = "700 " + namePx + "px " + dfam + ", sans-serif", fQ = "600 " + (focused ? "11.5px " : "10.5px ") + dfam + ", sans-serif", fS = "700 " + (focused ? 12 : 11) + "px " + dfam + ", sans-serif";
+        const ox = focused ? sx + hw2 + 11 : side(sx + hw2 + 11, Math.max(wid(fN, nm), wid(fQ, qual), wid(fS, sub) + 15 + starPx / 2), Math.min(nameY, subY) - namePx, Math.max(qualY, subY) + 4, sx - hw2 - 11);
+        const gMaxW = Math.max(60, W - ox - 12);
+        ctx.font = fN;
+        const drawnMain = this._fitText(ctx, nm, gMaxW);
+        ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, aF);
+        ctx.fillText(drawnMain, ox, nameY); ink(drawnMain, ox, nameY);
+        let drawnQual = "";
+        if (qual) {
+          ctx.font = fQ;
+          drawnQual = this._fitText(ctx, qual, gMaxW);
+          ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, aF * 0.62);
+          ctx.fillText(drawnQual, ox, qualY); ink(drawnQual, ox, qualY);
+        }
+        // PUBLISH WHAT WAS ACTUALLY DRAWN — the `this._LY = LY` pattern. `ox` comes from `halfW`,
+        // a draw-local closure, so a spec that recomputes it measures the wrong strip: chasing the
+        // "prints the inline long name" mutant, a pixel window derived from `r + 11` landed over
+        // the name's BODY instead of its tail and the mutant survived three different oracles.
+        // Reading the strings the frame passed to `fillText` is not a re-implementation of the
+        // render — it IS the render's output.
         // `namePx` rides along for the same reason the strings do: the size lives in a draw-local
         // and there is no DOM to read it back from, so a spec asserting the type hierarchy would
         // otherwise have to re-type the number and agree with a broken build by construction
         // (CLAUDE.md 6.3). Read by e2e/journeys/announcer-coherence.spec.ts.
         this._lastPairLabel = { idx: n.idx, ox: ox, sy: sy, main: drawnMain, qual: drawnQual, sub: sub, above: above, focused: focused, midY: sy, nameY: nameY, qualY: qual ? qualY : null, subY: subY, namePx: namePx };
-        ctx.font = "700 " + (focused ? 12 : 11) + "px " + dfam + ", sans-serif";
+        ctx.font = fS;
         ctx.fillStyle = this.rgba(subCol, aF);
-        ctx.fillText(sub, ox, subY);
-        seatStars.push({ idx: act.idx, roleX: ox, x: ox + ctx.measureText(sub).width + 15, y: subY - 4, alpha: aF });
+        ctx.fillText(sub, ox, subY); ink(sub, ox, subY);
+        star({ idx: act.idx, roleX: ox, x: ox + ctx.measureText(sub).width + 15, y: subY - 4, alpha: aF });
         ctx.shadowBlur = 0;
         return true;
       };
@@ -21975,6 +22275,7 @@ class Component extends DCLogic {
       }
       // ...and the SAME group for whatever pair the cursor is over, when it is not the focus's.
       let _hovPairDrawn = false;
+      if (_hovNode) { gid++; what = "hover"; whom = _hovNode.idx; }   // the pointer's name claims second (v1.275.0)
       if (_hovNode && _hovNode.pi >= 0) {
         const inFocusPair = drawFocus >= 0 &&
           (_hovNode.idx === drawFocus || _hovNode.idx === this.nodes[drawFocus].pi);
@@ -21991,10 +22292,20 @@ class Component extends DCLogic {
         const n = _hovNode;
         const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         const isOpt = this.optionIdxs && this.optionIdxs.indexOf(n.idx) >= 0;
-        const hx = sx + halfW(n) + 10;
+        const sp = this.splitName(n.t);
+        const qual = n.ty === "positions" ? "" : sp.from || "";
+        const main = this.graphName(n);
+        // with a qualifier the block straddles the node's line; without one nothing moves.
+        // SAME RULE, SAME CONSTANT (v1.129.4): the two-row block straddles its anchor rather than
+        // pinning the first row to it. No qualifier -> `hLift` is 0 and the baseline is the
+        // long-standing `sy - 8`; with one, the rows sit either side of the node's line.
+        const hLift = qual ? this.NG_LABEL_LEAD / 2 : 0;
+        const hNameY = sy - 8 - hLift;
+        // right of the orb, or the other side when that is not clear (v1.275.0, `side`)
+        const P = "px 'Plus Jakarta Sans', sans-serif", hx = side(sx + halfW(n) + 10, Math.max(wid("700 10" + P, isOpt && "YOUR MOVE"), wid("600 13" + P, main), wid("600 10.5" + P, qual)), (isOpt ? sy - 22 : hNameY) - 13, hNameY + (qual ? this.NG_LABEL_LEAD : 0), sx - halfW(n) - 10);
         ctx.textBaseline = "bottom";
         ctx.shadowColor = "rgba(0,0,0,0.9)"; ctx.shadowBlur = 7;
-        if (isOpt) { ctx.font = "700 10px 'Plus Jakarta Sans', sans-serif"; ctx.fillStyle = this.rgba(n.col, A); ctx.fillText("YOUR MOVE", hx, sy - 22); }
+        if (isOpt) { ctx.font = "700 10px 'Plus Jakarta Sans', sans-serif"; ctx.fillStyle = this.rgba(n.col, A); ctx.fillText("YOUR MOVE", hx, sy - 22); ink("YOUR MOVE", hx, sy - 22); }
         // ── THE QUALIFIER IS ITS OWN LINE (v1.129.0) ──────────────────────────────────────
         // Owner, on names running off a phone: "probably a great idea to do wrapping in that
         // case". Measured at 390x844, technique labels reach 388px (transitions) and 444px
@@ -22006,27 +22317,115 @@ class Component extends DCLogic {
         // bold-over-dimmer in `setEvent`, in Explore rows and in every list surface. Putting the
         // graph label on the same idiom halves the widest line AND makes the canvas read as part
         // of the app rather than as a second naming system.
-        const sp = this.splitName(n.t);
         const maxW = Math.max(60, W - hx - 12);
         ctx.font = "600 13px 'Plus Jakarta Sans', sans-serif";
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, A);
-        const qual = n.ty === "positions" ? "" : sp.from || "";
-        const main = this.graphName(n);
-        // with a qualifier the block straddles the node's line; without one nothing moves.
-        // SAME RULE, SAME CONSTANT (v1.129.4): the two-row block straddles its anchor rather than
-        // pinning the first row to it. No qualifier -> `hLift` is 0 and the baseline is the
-        // long-standing `sy - 8`; with one, the rows sit either side of the node's line.
-        const hLift = qual ? this.NG_LABEL_LEAD / 2 : 0;
-        const hNameY = sy - 8 - hLift;
-        ctx.fillText(this._fitText(ctx, main, maxW), hx, hNameY);
+        const hMain = this._fitText(ctx, main, maxW);
+        ctx.fillText(hMain, hx, hNameY); ink(hMain, hx, hNameY);
         if (qual) {
           ctx.font = "600 10.5px 'Plus Jakarta Sans', sans-serif";
           ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, A * 0.62);
-          ctx.fillText(this._fitText(ctx, qual, maxW), hx, hNameY + this.NG_LABEL_LEAD);
+          const hQual = this._fitText(ctx, qual, maxW);
+          ctx.fillText(hQual, hx, hNameY + this.NG_LABEL_LEAD); ink(hQual, hx, hNameY + this.NG_LABEL_LEAD);
         }
         ctx.shadowBlur = 0;
         this._lastHoverLabel = { idx: n.idx, main };
       }
+      // THE DEALT MOVES' NAMES, then the lit trail's, each through `_planNames` against everything claimed above (v1.275.0).
+      // The orbs a name must not cross: every dealt move's and the position's pair, as drawn (`LY`, the bare silhouette), each
+      // with the reach of a gold dot on its shoulders (`_sealGeo`), whether it wears one or not.
+      const orbs = [];
+      for (const i of (this.optionIdxs || []).concat(drawFocus >= 0 ? [drawFocus, this.nodes[drawFocus].pi] : [])) {
+        const n = this.nodes[i]; if (!n || !rsOk[i] || (n.z && !n.rep && kLOD < 0.5)) continue;   // a twin counts once split (`pairGroup`'s threshold)
+        const r = this._nodeHalfW(n, scale, nodeK, kLOD, true), [R, up, down] = this._sealGeo(n, r);
+        orbs.push({ i, x: (n.x - this.cam.cx) * scale + W / 2, y: (LY(n) - this.cam.cy) * scale + H / 2, r, reach: Math.max(r, Math.max(up, down) * 1.4142 + R) + 1 });
+      }
+      // THE CAMERA MOVES OR RESTS, PER SECOND of the frame clock (v1.275.0; R1 findings 7 and 9). Moving: the zoom changing
+      // faster than 0.12 (log units) a second, or the map sliding faster than 30 px a second, since the last drawn frame
+      // (0.2% and 0.5 px at 60 Hz, so 30 Hz and 120 Hz screens agree). While it moves a written name keeps ITS place or
+      // leaves (`_planNames`' `admit`). A pan
+      // counts, not only a zoom: on a slow drag 4 times out the zoom-only rule let 2 to 7 names leave and come back within
+      // half a second, and at the usual zoom names hopped side 5 to 53 times as the chrome came near. A name the LAYOUT
+      // refused comes back only at rest, and no sooner than half a second after it left; a name whose orb left the canvas
+      // (or went under a control) follows its orb back, and an orb that slides into view may be named while it moves.
+      const zk = Math.log(this.cam.vw), cp = this._camPrev, dtD = cp ? this.now - cp.t : 0;
+      const still = !cp || Math.abs(zk - cp.z) <= 0.12 * dtD && Math.hypot(this.cam.cx - cp.x, this.cam.cy - cp.y) * scale <= 30 * dtD;
+      this._camPrev = { z: zk, x: this.cam.cx, y: this.cam.cy, t: this.now }; this._camStill = still;   // published: the frame's own call
+      const cand = (n, sx, sy, extra) => ({ i: n.idx, n, sx, sy, hw: halfW(n), r: this._nodeHalfW(n, scale, nodeK, kLOD, true), s: this.graphName(n), ...extra });
+      // a name only for an orb whose own silhouette is on the canvas (R1 finding 5: a far-side place could name an orb
+      // drawn wholly off the screen, at the edge, where it reads as the name of whatever orb is nearest), and neither wholly
+      // left of the map's free edge nor wholly inside one control (R2 D4: an open desktop drawer, the row): the same boxes
+      // the names clear (`NB`), no second measure
+      const on = (c) => c.sx + c.r > NB.l && c.sx - c.r < W && c.sy + c.r > 0 && c.sy - c.r < H
+        && !NB.blocks.some((q) => c.sx - c.r >= q.l && c.sx + c.r <= q.r && c.sy - c.r >= q.t && c.sy + c.r <= q.b);
+      // the node the pointer's label names (or its pair partner, which carries the same name) is named once (R2 D3: a lit
+      // node under the pointer was written by the pointer's label and again by the lit pass; dealt moves are skipped alike)
+      const hovd = (n) => _hovNode && (n.idx === _hovNode.idx || n.pi === _hovNode.idx) && claims.some((q) => q.w === "hover");
+      // plan one pass (`_planNames`, keyed on everything its answer depends on) and write what it placed
+      const write = (pass, cands, col) => {
+        ctx.textBaseline = "bottom"; ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
+        const plan = this._planNames(pass, ctx, cands, claims, orbs, [Math.round(zk * 1e3), Math.round(this.cam.cx * scale * 2), Math.round(this.cam.cy * scale * 2), W, H, orbs.length, drawFocus, still || pass, cands.map((c) => c.i + (c.act ? "*" : "")), claims.map((q) => [q.l, q.t, q.r].map(Math.round))].join("|"), still || pass === "lit", NB);
+        ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
+        for (const c of cands) { const b = plan.get(c.i); if (b) { ctx.fillStyle = col(c); ctx.fillText(c.s, b.x, b.y); } }
+        ctx.shadowBlur = 0;
+        return plan;
+      };
+      // LIT NODES (`flare`). ONE node the player was just sent to or shown (a locate, the move just played and its
+      // outcome, a replay's outcome, the submission that caught you, the opponent's move) is ACTED ON: named before the
+      // dealt moves, at 24 places (R1 finding 4, the owner's rule "a redesign keeps every capability": a node the player
+      // was pointed at is named). A TRAIL of many (`flare(…, …, true)`: the travel path, the end-of-round cascade, a replay's
+      // wide beat, the ripple to the dealt orbs) is best effort and named last: writing every name of a trail is the
+      // pile-up the owner asked us to end. Never a dealt move (named below) nor a face-down move's pair partner, which
+      // carries the hidden move's name (R1 finding 10, an old leak in this loop), nor the node the pointer names.
+      // A pointed node claims BEFORE the dealt moves, so for its 3.2 s of light it can push a written move's name off; when
+      // the light fades that name comes back at its old place if it still has 3 px of air, else it is a newcomer needing 6
+      // (measured at 1440 x4: 5 of 15 pointed nodes pushed one name each, 4 came back, 1 stayed off; R2 D5, as ruled).
+      const point = [], trail = [], litCol = (c) => this.rgba({ r: 238, g: 241, b: 246 }, 0.8 * c.k * A);
+      for (const n of this.nodes) {
+        if (!rsOk[n.idx]) continue;
+        const age = this.now - n.lit; if (age > 3.2 || n.idx === drawFocus) continue;
+        if (this.activeMove && n.idx === this.activeMove.idx) continue;
+        if (this.optionIdxs.indexOf(n.idx) >= 0 || (hmDown && hmDown.has(n.idx)) || hovd(n)) continue;
+        const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { k: Math.max(0, 1 - age / 3.2), act: !n.litT });
+        if (on(c)) (c.act ? point : trail).push(c);
+      }
+      if (point.length) write("point", point, litCol);
+      // persistent labels on the outgoing option nodes while a decision is open
+      this._lastOptLabels = null; // published like _lastPairLabel: "what did THIS frame draw"
+      this._lastOptBoxes = null;  // ...and where (CSS px), so the seal's dot is held off every name (v1.272.0)
+      if (this.optionIdxs && this.optionIdxs.length && !this.pulse) {
+        // THE ROW'S ORDER: the cards left to right (sorted by win chance, or frozen), then any dealt orb no card carries; a card
+        // names its orb by `opt.idx`, or by `opt.res` on an escape. ACTED ON: the card under the pointer, the one holding keyboard
+        // focus, one turned up by touch (hidden moves).
+        const dealt = new Set(this.optionIdxs), acted = new Set(), row = [], cands = [];
+        for (const c of this._optionCards || []) {
+          const i = dealt.has(c.opt.idx) ? c.opt.idx : c.opt.res; row.push(i);
+          if (c.card && (c.card.matches(":hover") || c.card.hasAttribute("data-revealed") || (this._kbNav && c.card.contains(document.activeElement)))) acted.add(i);
+        }
+        for (const idx of new Set(row.concat(this.optionIdxs))) {
+          const n = this.nodes[idx]; if (!n || !dealt.has(idx)) continue;
+          if (hmDown && hmDown.has(idx)) continue;   // hidden moves: a face-down card's orb is not named
+          // a staged exchange makes a dealt option THE FOCUS (v1.132.0) — the pair group already
+          // names it, and an option label on the same orb is the "printed twice" defect the
+          // in-node pass was deleted for. Never possible before: an option was never the focus.
+          if (idx === drawFocus || (drawFocus >= 0 && n.pairId && this.nodes[drawFocus].pairId === n.pairId)) continue;
+          // ...and the same for the orb the pointer names (it used to be printed twice, the option's name under the hover's)
+          if (hovd(n)) continue;
+          const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { act: acted.has(idx) });
+          if (on(c)) cands.push(c);
+        }
+        const plan = write("move", cands, (c) => this.rgba(c.n.col, 0.95 * A));
+        this._lastOptLabels = cands.filter((c) => plan.has(c.i)).map((c) => c.i);
+        // the name's INK box, not a guessed pad
+        this._lastOptBoxes = this._lastOptLabels.map((idx) => { const b = plan.get(idx); return { idx, l: b.l, r: b.r, t: b.t, b: b.b }; });
+      }
+      if (trail.length) write("lit", trail, litCol);
+      this._lastNameBoxes = claims;
+      // THE SEALS (v1.272.0): over every orb, the scene's highlight and the focus mark, and laid out with every name this
+      // frame wrote (v1.275.0: all of them, the position's and the pointer's too, which are now written first), so a dot
+      // never sits on a name (`_mapSeal`). Drawn last. Published, as the names are.
+      this._lastMapSeals = [];
+      for (const [n, y, r, k] of seals) this._mapSeal(ctx, n, y, n.idx === drawFocus && focusSealR ? focusSealR : r, scale, A * dim * k, ox, oy, claims);
     }
     this._syncSeatStars(seatStars);
   }

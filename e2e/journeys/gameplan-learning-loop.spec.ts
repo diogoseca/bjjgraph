@@ -54,7 +54,7 @@ async function noDueHeader(page: any) {
   await expect(page.locator('[data-session-section="Practice"]')).not.toContainText("to review");
 }
 
-// WHAT IS WORTH MOST (v1.274.0, owner U171 a). The session a player with owed cards now opens is the worth plan: positions by
+// WHAT IS WORTH MOST (v1.278.0, owner U171 a). The session a player with owed cards now opens is the worth plan: positions by
 // how often they come up and how close each card is to forgotten, at most 6 a position, at least a fifth new. Until then the
 // tests below read it as "the owed reviews, then new decks", with a count line "N cards to review across T techniques · M new
 // across K techniques, <ranking>". They now read the plan the session HOLDS (the order's arithmetic is
@@ -125,7 +125,7 @@ test("dashboard and opened plan share counts, target overrun and keyboard-access
   const { fixture } = await setup(page);
   await expect(page.locator('[data-explore-stats] [data-b="due"]')).toHaveAttribute("data-new", String(fixture.newCount));
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
-  // the Practice head repeats the cell's count and says what orders it (v1.242.0: one head, not two). Until v1.274.0 it
+  // the Practice head repeats the cell's count and says what orders it (v1.242.0: one head, not two). Until v1.278.0 it
   // read "M new across K techniques, ranked by your study comparison" and a whole new deck overran the 7-card goal; the
   // worth plan (U171 a) deals cards, not whole decks, and orders them by how often they come up and how close to forgotten
   const plan = await worthPlan(page);
@@ -145,10 +145,12 @@ test("dashboard and opened plan share counts, target overrun and keyboard-access
   const summary = reasons.locator("summary");
   await summary.focus(); await page.keyboard.press("Enter");
   await expect(reasons).toHaveAttribute("open", "");
-  // until v1.274.0: "Reviews come back on your memory schedule", the oldest-first order's reason; until ANKI1 (the owner's
+  // until v1.278.0: "Reviews come back on your memory schedule", the oldest-first order's reason; until ANKI1 (the owner's
   // Anki rule): "Practice goes position by position, starting where it is worth most"
-  await expect(reasons, "opening it shows the reasons").toContainText("Practice asks the cards that are due first, position by position, starting where it is worth most");
-  await expect(reasons, "and the owner's rule for new cards").toContainText("New cards come only when nothing is due.");
+  // ANKI1-R1 and the merge with v1.276.0: the view is named "Master the game" (owner U169 c) and new cards come only when
+  // nothing due in this ruleset's game is left (until then "Practice asks …" and "… only when nothing is due.")
+  await expect(reasons, "opening it shows the reasons").toContainText("Master the game asks the cards that are due first, position by position, starting where it is worth most");
+  await expect(reasons, "and the owner's rule for new cards").toContainText("New cards come only when nothing due in this game is left");
   // v1.248.0: the owner's plain copy (item 9) ends on what the ranking is NOT. A compaction once cut it
   // while the sentence above was the only pin, so the caveat carries its own. Mutant: drop that sentence.
   await expect(reasons, "the ranking's own caveat stays").toContainText("that is not a measure of real grappling");
@@ -169,7 +171,7 @@ test("capped due deck requires real reviews, one failure clears today's debt and
   });
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
   await expect(page.locator('[data-session-complete]')).toHaveCount(0);
-  // until v1.274.0: "2 cards to review", then "1" after a failure, then complete once the owed pile was clear; a worth
+  // until v1.278.0: "2 cards to review", then "1" after a failure, then complete once the owed pile was clear; a worth
   // session (U171 a) is complete when what IT holds is answered, a failure counting as answered for today
   const plan = await worthPlan(page);
   expect(plan.total, "the session holds cards").toBeGreaterThan(1);
@@ -195,7 +197,7 @@ test("capped due deck requires real reviews, one failure clears today's debt and
 test("live debt changes without reranking; missing provider remains visible through refresh", async ({ page, isMobile }) => {
   await setup(page, false);
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
-  // D1 (owner, 2026-09-30): the plan says what orders it. Until v1.274.0, with no comparison, "weakest spots first"; the
+  // D1 (owner, 2026-09-30): the plan says what orders it. Until v1.278.0, with no comparison, "weakest spots first"; the
   // worth plan (U171 a) names its own order
   await worthPlan(page);
   await expect(page.locator('[data-gameplan-summary]')).toContainText("Positions come in order of what is worth most");
@@ -205,7 +207,7 @@ test("live debt changes without reranking; missing provider remains visible thro
     a.srs["missing content|Defender"] = { ghost: [d - 1, 3, d - 4] };
     a._onGameplanKnowledgeChanged({ reason: "merge", revision: 5 });
   });
-  // until v1.274.0 the live line counted the whole owed pile ("3 cards to review") and a refresh merged the new card in; a
+  // until v1.278.0 the live line counted the whole owed pile ("3 cards to review") and a refresh merged the new card in; a
   // worth plan counts what it holds, a session in progress is never re-planned under the player (STAGE3-R1, the reader's
   // finding 4), and a card that comes due mid-session waits for the next round by worth or "Everything owed": the rows do
   // not move, and no line promises that a refresh would bring it in
@@ -221,7 +223,7 @@ test("keyboard-only review advances real cards and earns completion through the 
   await setup(page, false);
   await noNewMaterial(page);
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
-  // until v1.274.0: two owed cards, Space/Enter twice, then no card owed at all; a worth session (U171 a) holds what is worth
+  // until v1.278.0: two owed cards, Space/Enter twice, then no card owed at all; a worth session (U171 a) holds what is worth
   // most, so the keys walk all of it, and completion means every card it held is answered
   const plan = await worthPlan(page);
   await page.evaluate(() => (document.activeElement as HTMLElement)?.blur());
@@ -241,7 +243,7 @@ test("post-grade callback can complete a mounted plan through shared-question cr
   await setup(page, false);
   await noNewMaterial(page);
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
-  // until v1.274.0 the plan was the two owed Mount|Top cards, credited through Mount|Bottom, which shares them; a worth plan
+  // until v1.278.0 the plan was the two owed Mount|Top cards, credited through Mount|Bottom, which shares them; a worth plan
   // (U171 a) holds what is worth most, so EVERY card it holds is credited, each through ANOTHER deck that shares it where
   // one does, and at least one is
   await worthPlan(page);
@@ -319,7 +321,7 @@ test("planner loads only on intent while eager reviews finish without queue repl
   expect(requests).toBe(1); release();
   await expect.poll(() => page.locator('[data-session-row][data-practice-kind="new"]').count(), { message: "P1-D: graded cold queue receives new work" }).toBeGreaterThan(0);
   expect(await page.evaluate(() => (window as any).__dueQueue === (window as any).__neural._session)).toBe(true);
-  // until v1.274.0: "weakest spots first", the ranking that dealt new decks; the worth plan names its own order (U171 a)
+  // until v1.278.0: "weakest spots first", the ranking that dealt new decks; the worth plan names its own order (U171 a)
   await expect(page.locator('[data-gameplan-summary]')).toContainText("Positions come in order of what is worth most");
   } finally { release(); }
 });
@@ -348,7 +350,7 @@ test("failed planner load keeps due cards actionable and retries on deliberate i
   // EACH LINE BELOW WAITS ON ITS OWN CLAIM (v1.262.2). They used to read `requests` straight after a
   // toBeVisible() on the Practice line, which hit() had just shown by opening its fold, so the wait
   // waited for nothing and the deploy of v1.261.1 read 2: the press's import had not reached the route
-  // yet. That wait was also true only BEFORE the plan lands (until v1.274.0 landing re-rendered the fold closed; since FOLD1
+  // yet. That wait was also true only BEFORE the plan lands (until v1.278.0 landing re-rendered the fold closed; since FOLD1
   // it keeps the fold the player opened, asserted below), and
   // nothing proved the retry landed at all: with the third request aborted too, the old lines passed.
   // Control arms and mutants: docs/Changelog-Archive.md, v1.262.2.
@@ -360,7 +362,7 @@ test("failed planner load keeps due cards actionable and retries on deliberate i
   expect(await page.evaluate(() => {
     const s = (window as any).__neural._session; return { same: s === (window as any).__retryQueue, plan: !!s.plan, review: !!s.review };
   }), "the reopened queue itself becomes the plan").toEqual({ same: true, plan: true, review: false });
-  // until v1.274.0 the reviews led it ("Due reviews · 2 cards", the review the first row, "2 cards to review across 1
+  // until v1.278.0 the reviews led it ("Due reviews · 2 cards", the review the first row, "2 cards to review across 1
   // technique" first on the count line); the untouched queue now becomes the worth plan WHOLE (U171 a): its first row is the
   // plan's first, the open card is titled by its position, still answerable, and the count line is the plan's own
   const plan = await worthPlan(page);
@@ -369,7 +371,7 @@ test("failed planner load keeps due cards actionable and retries on deliberate i
     return (r.seat ? r.seat.replace("|", " \u00b7 ") : "Other cards") + " \u00b7 position " + (r.visit + 1) + " of " + s.plan.visits.length });
   await expect(page.locator("[data-practice-section]"), "the open card is titled by its position").toHaveText(open);
   await expect(page.locator('[data-mini-reveal]')).toBeVisible();
-  // FOLD1 (v1.274.0): the player opened "Practice details & session queue" to press "Open study plan"; the plan's arrival
+  // FOLD1 (v1.278.0): the player opened "Practice details & session queue" to press "Open study plan"; the plan's arrival
   // re-rendered the queue, and the fold is still open (until then it snapped shut, and this step had to open it again)
   await expect(page.locator("[data-practice-details]"), "FOLD1: the fold the player opened is still open").toHaveAttribute("open", "");
   await worthLine(page, plan);

@@ -600,8 +600,15 @@ test("hovering any pair names it once, on the midline, with the role on the hove
   // holds five neighbouring orbs and NO text draw (measured {above:0,name:65,below:261}: orb ink). The
   // bright-pixel bands below need a pair with clear air, so candidates are walked widest-first; the
   // label claim itself is the draw count above, over every pair.
+  // ...AND A PAIR THE POINTER CAN REACH ON THE MAP (v1.275.0). Before, this could pick a pair UNDER the row's cards (measured
+  // at 1440: the orbs at y 532-563, under the row from 402; `elementFromPoint` there is the card's film): the pointer over a
+  // card hovered the node beneath it and the map named it under the card. The owner, 13 Nov, on names that cannot be read
+  // ("unreadable like this you know ... avoid that pls"): the map now names only what the pointer is ON (`_updateHover`), so a
+  // pair under a card is not pointed at at all. Every assertion below is unchanged; only the pair it is asked of.
+  const onMap = (p: Any) => page.evaluate((p: Any) => document.elementFromPoint(p.sx, p.sy) === (window as Any).__neural.canvas, p)
   let c = o.best!, x = 0, cold: Any = null, firstCold: Any = null
-  for (const cand of (o as Any).all.slice(0, 12)) {
+  for (const cand of (o as Any).all.slice(0, 40)) {   // 12 before: the widest are often the ones under the row
+    if (!(await onMap(cand.upper)) || !(await onMap(cand.lower))) continue
     const cx = Math.max(cand.upper.sx, cand.lower.sx) + Math.max(cand.upper.r, cand.lower.r) + 16
     const s = await strips(page, cand.mid, cx)
     firstCold = firstCold || s

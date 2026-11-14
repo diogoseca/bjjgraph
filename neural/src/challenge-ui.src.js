@@ -65,23 +65,20 @@ const NG_CHALLENGE_UI_METHODS = {
   // "Mastered N%" subtitle moved to the badge's menu. Rules unchanged: stripes = the worn belt's
   // PROVEN UNITS (lessons done + checkpoint passed) over its unit count, 0-4 — never objectives
   // (v1.95.3: a guest must wear 0).
+  // ONE BELT IN THE DRAWER (v1.276.0, ruled STAGE2-GO 3): the woven bar under the Path row and its "N stripes" went; the
+  // drawer's "Master the game" row wears the belt (`beltWorn()`, app.src.jsx). The Path row keeps its name, its tap and its
+  // place, and says its COURSE's own progress in words: the units proven on the track it is on (`wornBelt()`, the Path's
+  // own, unchanged), "2 of 6 units", and the same in its aria. No units yet (the curriculum not in): no words.
   renderTabSubtitles() {
     const root = this.drillRef && this.drillRef.current;
     const ch = root && root.querySelector('[data-tab-sub="challenges"]');
     if (!ch) return;
     const worn = this.wornBelt();
-    const pinned = worn.id, done = worn.done, total = worn.total, stripes = worn.stripes;
-    let tape = "";
-    for (let i = 0; i < stripes; i++) tape += "<b></b>";
-    ch.textContent = stripes + (stripes === 1 ? " stripe" : " stripes");
-    const belt = root.querySelector("[data-path-belt]");
-    if (belt)
-      belt.innerHTML =
-        '<i class="ng-tab-belt" data-tab-belt="' + pinned + '" data-tab-stripes="' + stripes + '" style="--tb:' +
-        (NG_CHALLENGE_TRACK_COLORS[pinned] || NG_CHALLENGE_TRACK_COLORS.white) + ';" aria-hidden="true"><span>' + tape + "</span></i>";
+    const pinned = worn.id, done = worn.done, total = worn.total;
+    ch.textContent = total > 0 ? done + " of " + total + " units" : "";
     ch.closest("button").setAttribute(
       "aria-label",
-      "Path: " + done + " of " + total + " units proven on the " + pinned + " track, " + stripes + (stripes === 1 ? " stripe" : " stripes"),
+      total > 0 ? "Path: " + done + " of " + total + " units proven on the " + pinned + " track" : "Path",
     );
   },
 
@@ -739,14 +736,16 @@ const NG_CHALLENGE_UI_METHODS = {
         maint.type = "button";
         maint.className = "ng-maint-band";
         maint.setAttribute("data-maintenance", "1");
-        // "N DUE" LEFT THE DRAWER (owner U171 a, 13 Nov; v1.274.0): the band stays the Path's door to Practice, and says
-        // what the Practice row says, today's answers against the goal, never the size of the owed pile
+        // "N DUE" LEFT THE DRAWER (owner U171 a, 13 Nov; v1.278.0): the band stays the Path's door to the view, and says
+        // what its drawer row says, today's answers against the goal, never the size of the owed pile; in the view's name and
+        // the row's words since v1.276.0 (owner U169 c: "Master the game", "Start today's session"; app.src.jsx's constants,
+        // one scope with this file in the bundle)
         const today = goal.done + " of " + goal.goal + " today";
-        maint.setAttribute("aria-label", "Practice, " + today + " \u2014 start today's session");
+        maint.setAttribute("aria-label", NG_PRACTICE_NAME + ", " + today + " \u2014 " + NG_PRACTICE_START);
         maint.innerHTML =
           '<b>' + today + '</b>' +
           '<span>keep what you\u2019ve earned</span>' +
-          '<em>Start</em>';
+          '<em>' + NG_PRACTICE_START + '</em>';
         maint.addEventListener("click", () => this.openDueSession());   // ONE door, one label (app.src.jsx)
         list.appendChild(maint);
         maintBand = maint;

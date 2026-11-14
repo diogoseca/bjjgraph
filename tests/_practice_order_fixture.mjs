@@ -1,4 +1,4 @@
-// WHAT IS WORTH MOST: THE SHARED SEEDED PLAYER (v1.274.0, U171 a) — read by e2e/journeys/practice-order.spec.ts and the
+// WHAT IS WORTH MOST: THE SHARED SEEDED PLAYER (v1.278.0, U171 a) — read by e2e/journeys/practice-order.spec.ts and the
 // owner's pictures (tests/artifacts/_order_shoot.mjs), so the journey and the pictures show one player. Not a test file:
 // `node --test tests/*.test.mjs` does not collect it.
 //
