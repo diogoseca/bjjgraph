@@ -866,7 +866,7 @@ at most 6 a visit; the 3 due longest come every session. A new card comes only w
 game is left; a card the ruleset hides waits in “Everything owed, oldest first”. The default goal is 20 (`dailyGoal`,
 via `practiceGoal()`); it counts distinct graded questions, mistakes included, once a day. Reveal earns nothing. With
 no game or no answer yet, today's order serves, reviews first, and says so. “Keep practising” deals the next round into
-the session, also after the goal; “More new cards” and a Path lesson add new ones at the player's own press. Shared
+the session, also after the goal; “More new cards” and a Path lesson add new ones at the player's press. Shared
 questions reserve one obligation.
 
 Practice keeps the drawer's width (v1.261.0, U135 a). Under “‹ Practice”
