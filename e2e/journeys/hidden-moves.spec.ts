@@ -303,7 +303,8 @@ test("@curated Yes files the move as mastered: gold in every row, kept across a 
   expect(s.moves[stateKey][moveKey].length).toBe(4)
   const g = await face(page, hm(1))
   // v1.272.0 (the owner's seal, see the header): was [true, false], "the card is gold and asks no more"
-  expect([g.seal, g.asking], "the card wears the filled seal and asks no more").toEqual(["known", false])
+  // v1.280.0 (GOLD1): was ["known", false], "the filled seal"; the seal's kinds are the map's marks, a Yes the ring
+  expect([g.seal, g.asking], "the card wears the ring (recalled) and asks no more").toEqual(["recalled", false])
   // v1.272.0: was "a thin GOLD outline" (rgba(232, 196, 106, 0.9)); now the border a never-met card wears
   const border = await page.evaluate(() => [...document.querySelectorAll('[data-hm="1"], [data-hm="2"]')].map((c) => { const s = getComputedStyle(c); return s.borderTopColor + " " + s.boxShadow }))
   expect(border[0], "its border is the ordinary one: the never-met card's own, no gold outline").toBe(border[1])
@@ -312,18 +313,20 @@ test("@curated Yes files the move as mastered: gold in every row, kept across a 
   const away = await face(page, hm(1))
   // v1.266.0 (owner, 13 Nov: "moves which are golden / mastered and not yet up for review show visible instead of
   // hidden in the choices row"): it was ["hidden", true], "face down again, and still gold"; v1.272.0: [.., "known"]
-  expect([away.title, away.seal], "a Yes made it a move you know, not due: it stays face up, with the filled seal").toEqual(["visible", "known"])
+  // v1.280.0: was ["visible", "known"], "with the filled seal"
+  expect([away.title, away.seal], "a Yes made it a move you know, not due: it stays face up, with the ring (recalled)").toEqual(["visible", "recalled"])
   // the progress blob carries it: a fresh boot with the saved storage deals the same card sealed
   await page.waitForTimeout(1200)
   await j.boot("/", { preserveStorage: true })
   await j.land("Mount Top")
-  const sealed = await page.evaluate(() => (window as W).__neural._optionCards.filter((c: W) => c.card.getAttribute("data-seal") === "known").map((c: W) => c.opt.node.t))
-  // v1.272.0: was "after a reload the mastered move is gold again" (data-mastered)
-  expect(sealed.length, "after a reload the mastered move wears the filled seal again").toBe(1)
+  // v1.280.0: the seal "known" became "recalled" (the ring)
+  const sealed = await page.evaluate(() => (window as W).__neural._optionCards.filter((c: W) => c.card.getAttribute("data-seal") === "recalled").map((c: W) => c.opt.node.t))
+  // v1.272.0: was "after a reload the mastered move is gold again" (data-mastered); v1.280.0: was "the filled seal"
+  expect(sealed.length, "after a reload the mastered move wears the ring again").toBe(1)
   // ...and in the ordinary row, with the setting off
   await page.evaluate(() => (window as W).__neural.set("hideMoves", false))
   const open = await page.evaluate(() => {
-    const a = (window as W).__neural, c = a._optionCards.find((c: W) => c.card.getAttribute("data-seal") === "known").card
+    const a = (window as W).__neural, c = a._optionCards.find((c: W) => c.card.getAttribute("data-seal") === "recalled").card   // v1.280.0: was "known"
     const plain = a._optionCards.find((o: W) => !o.opt.threat && !o.card.hasAttribute("data-seal")).card, b = (el: Element) => { const s = getComputedStyle(el); return s.borderTopColor + " " + s.boxShadow }
     return { title: getComputedStyle(c.querySelector(".ngchoice-title")).visibility, seal: !!c.querySelector("[data-choice-seal]"), border: b(c) === b(plain) }
   })
@@ -510,7 +513,8 @@ test("what a face-up card asks: unknown Yes only, known and due Still got it Yes
   expect(await page.evaluate(() => getComputedStyle(document.querySelector('[data-hk="fresh"] .ngchoice-title')!).visibility), "known and not due: its name is in sight before any look").toBe("visible")
   const f = await ask("fresh")
   // v1.272.0: was "face up, gold, asks nothing" (gold: true)
-  expect(f.r, "known and not due: face up, the filled seal, asks nothing").toEqual({ asking: false, q: null, yes: 0, no: 0, seal: "known", up: false })
+  // v1.280.0: was seal "known", "the filled seal"
+  expect(f.r, "known and not due: face up, the ring (recalled), asks nothing").toEqual({ asking: false, q: null, yes: 0, no: 0, seal: "recalled", up: false })
   await away(f.p)
 
   const d = await ask("due")
@@ -534,7 +538,8 @@ test("what a face-up card asks: unknown Yes only, known and due Still got it Yes
   await j.clickByMouse('[data-hk="dueYes"] [data-grade="yes"]', '"Yes" on a due card')
   const yes = await page.evaluate((k) => { const a = (window as W).__neural; return { seal: document.querySelector('[data-hk="dueYes"]')!.getAttribute("data-seal"), row: a.moves[k[0]][k[1]] } }, [S, String(ORD[id.dueYes])])
   // v1.272.0: was [true, ...], "Yes keeps it gold"; due, it had no seal: the Yes makes it known, and gives it the filled one
-  expect([yes.seal, yes.row[3], yes.row[2]], "Yes gives it the filled seal, answered today").toEqual(["known", 1, DAY])
+  // v1.280.0: was ["known", 1, DAY], "the filled seal"
+  expect([yes.seal, yes.row[3], yes.row[2]], "Yes gives it the ring (recalled), answered today").toEqual(["recalled", 1, DAY])
   expect(yes.row[0], "...and moves its due date on past today").toBeGreaterThan(DAY)
 })
 
@@ -638,7 +643,8 @@ test.describe("touch", () => {
     s = await appState(page)
     expect(s.executing, "a tap on Yes grades and plays nothing").toBe(false)
     // v1.272.0: was `.mastered` true (the gold outline's attribute); the Yes gives the card the filled seal
-    expect((await face(page, hm(1))).seal, "the tap on Yes seals the card (filled)").toBe("known")
+    // v1.280.0: was "known" (filled); a Yes is the ring
+    expect((await face(page, hm(1))).seal, "the tap on Yes seals the card (the ring, recalled)").toBe("recalled")
     // v1.266.0 (owner, 13 Nov: "moves which are golden / mastered and not yet up for review show visible instead of
     // hidden in the choices row"): the Yes made card 1 a move you know, not due, so it stays face up. The claim below
     // ("another card's first tap closes this one") was made on card 1, ["hidden", "visible"] after card 0's tap; it

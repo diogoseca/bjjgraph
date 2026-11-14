@@ -69,7 +69,17 @@ const choose = (page) => page.evaluate(() => {
   own.sort((p, q) => Math.hypot(p.x - W / 2, p.y - H * 0.42) - Math.hypot(q.x - W / 2, q.y - H * 0.42))
   const pick = []
   for (const o of own) if (pick.every((p) => Math.hypot(p.x - o.x, p.y - o.y) > 34)) { pick.push(o); if (pick.length === 4) break }
-  return pick.map((o) => ({ id: o.c.opt.node.id, idx: o.c.opt.idx, name: a.graphName(o.c.opt.node), tech: o.c.card.getAttribute("data-tech") }))
+  const out = pick.map((o) => ({ id: o.c.opt.node.id, idx: o.c.opt.idx, name: a.graphName(o.c.opt.node), tech: o.c.card.getAttribute("data-tech") }))
+  if (out.length === 3) {
+    // the phone's row covers the lower map: the bare one is then the nearest other orb on the free map (no mark either way)
+    const mask = a._rulesetMask(), seat = a.focusIdx, taken = new Set(out.map((o) => o.idx))
+    const bare = a.nodes.filter((n) => mask[n.idx] && (n.rep || !n.z) && n.role !== "defender" && n.idx !== seat && !taken.has(n.idx) && (a.nodes[seat] || {}).pi !== n.idx)
+      .map((n) => { const x = (n.x - a.cam.cx) * scale + W / 2, y = (a._LY(n) - a.cam.cy) * scale + H / 2; const el = document.elementFromPoint(x + cv.left, y + cv.top); return { n, x, y, free: x > 30 && x < W - 30 && y > 60 && y < H - 30 && el === a.canvas } })
+      .filter((o) => o.free && pick.every((p) => Math.hypot(p.x - o.x, p.y - o.y) > 34))
+      .sort((p, q) => Math.hypot(p.x - W / 2, p.y - H * 0.42) - Math.hypot(q.x - W / 2, q.y - H * 0.42))[0]
+    if (bare) out.push({ id: bare.n.id, idx: bare.n.idx, name: a.graphName(bare.n), tech: null, notDealt: true })
+  }
+  return out
 })
 
 async function know(page, pick) {
@@ -92,7 +102,7 @@ async function know(page, pick) {
 
 const marks = (page) => page.evaluate(() => {
   const a = window.__neural
-  const scale = a.W / a.cam.vw, orbs = [...new Set(a.optionIdxs || [])].map((i) => { const n = a.nodes[i]; return { idx: i, x: (n.x - a.cam.cx) * scale + a.W / 2, y: (a._LY(n) - a.cam.cy) * scale + a.H / 2, R: a._nodeHalfW(n, scale, a._nodeK, a._lodK, true) } })
+  const scale = a.W / a.cam.vw, orbs = [...new Set([...(a.optionIdxs || []), ...(window.__shootExtra || [])])].map((i) => { const n = a.nodes[i]; return { idx: i, x: (n.x - a.cam.cx) * scale + a.W / 2, y: (a._LY(n) - a.cam.cy) * scale + a.H / 2, R: a._nodeHalfW(n, scale, a._nodeK, a._lodK, true) } })
   return { lod: a._lodK, vw: a.cam.vw, orbs, marks: (a._lastMapMarks || []).map((m) => ({ idx: m.idx, rs: +m.rs.toFixed(2), out: m.out, inK: +(m.inK || 0).toFixed(2), seat: m.seat, x: m.x, y: m.y, ty: m.ty })), dots: (a._lastMapSeals || []).map((s) => ({ idx: s.idx, x: s.x, y: s.y, r: s.r })) }
 })
 
@@ -106,7 +116,7 @@ async function shot(page, name, extra) {
 /** the cards of the four, cropped where they sit (scrolled into the row), true size */
 async function seals(page, name, pick) {
   const out = []
-  for (const [k, p] of [["recalled", pick[0]], ["answered", pick[1]], ["both", pick[2]], ["bare", pick[3]]]) {
+  for (const [k, p] of [["recalled", pick[0]], ["answered", pick[1]], ["both", pick[2]], ["bare", pick[3]]].filter(([, p]) => p && !p.notDealt)) {
     const box = await page.evaluate((idx) => {
       const a = window.__neural, c = (a._optionCards || []).find((c) => c.opt.idx === idx).card
       c.scrollIntoView({ inline: "center", block: "nearest", behavior: "instant" })
@@ -159,6 +169,7 @@ for (const vp of VPS) {
     if (pick.length < 4) throw Error(vp.key + ": only " + pick.length + " dealt orbs on the free map")
     const known = await know(page, pick)
     meta[vp.key + "-pick"] = known
+    await page.evaluate((idx) => { window.__shootExtra = idx }, known.filter((p) => p.notDealt).map((p) => p.idx))
     console.log(vp.key, known.map((p) => p.name + (p.mastery != null ? " m=" + p.mastery : "")).join(" | "))
     await page.evaluate(() => { const a = window.__neural, row = a.optionsRef && a.optionsRef.current; if (row) row.scrollTo({ left: 0, behavior: "instant" }) })
     await rest(page)
